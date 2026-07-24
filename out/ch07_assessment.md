@@ -6,8 +6,8 @@ Killing") and 25 ("Du Yuesheng Finds His Chance to Return the Compliment").*
 **Headline finding.** The invented Japanese plot that runs through chapters six
 and seven is not invented from nothing. In this chapter it resolves into a
 recognizable, if relocated and back-dated, version of a **real conspiracy that
-Tanaka Ryūkichi later confessed to** — the murder of Japanese Nichiren monks in
-Shanghai, staged to manufacture a pretext for the attack of 28 January 1932.
+Tanaka Ryūkichi later confessed to** — the attack on Japanese Nichiren monks in
+Shanghai, staged to manufacture a pretext for the assault of 28 January 1932.
 The author has the right conspirator, the right sect, the right method and the
 right consequence, and has moved the crime to the wrong temple, the wrong
 victim and the wrong date. That changes how the whole strand should be read.
@@ -144,9 +144,13 @@ Huangpu.
 ### The monk murder is a real conspiracy, moved
 
 This is the finding that matters. What Tanaka Ryūkichi actually did — and
-admitted to in later testimony — was arrange the attack on **five Japanese
-Nichiren monks near the Sanyou towel works in Zhabei on 18 January 1932**, in
-which one monk died. Japanese residents rioted, and the affair ran directly
+admitted to in postwar testimony — was arrange the attack of **18 January 1932
+on five Japanese followers of the Nichiren sect, two monks and three laymen, in
+an alley by the Sanyou towel works on Mayushan Road**. One of them, Mizukami
+Hideo, died of his injuries on 24 January. The location is usually given loosely
+as Zhabei, including by me in an earlier draft of this file; the street lay in
+the Chinese-administered area next to the eastern Yangshupu district, and it is
+Zhabei that saw the arson two days later and the fighting on the 28th. Japanese residents rioted, and the affair ran directly
 into the attack of 28 January.
 
 Against that, the book has:
@@ -158,10 +162,17 @@ Against that, the book has:
 | victims' sect | Nichiren (日莲宗) | **correct** |
 | purpose | manufacture a pretext for Shanghai | **correct** |
 | consequence | the 28 January attack | **correct, and correctly dated** |
-| victims | five street monks, one killed | a single aged abbot |
-| place | Zhabei, by a factory | Longhua Temple |
+| victims | five men, two of them monks; one died on 24 Jan | a single aged abbot |
+| place | Mayushan Road, by the Sanyou towel works | Longhua Temple |
 | date | 18 January 1932 | left vague, months later |
 | contractor | Tanaka's own agents | Chang Yuqing's Anqing Gang |
+
+One caveat on the documentation itself, which cuts against the certainty of
+the paragraph above. Tanaka's account rests on his own postwar testimony and a
+1956 magazine article, and the Japanese historians Ito Takashi and Usui Katsumi
+have noted that its evidentiary basis is unclear. Kawashima Yoshiko's part in
+it rests on Tanaka's recollection alone. Chinese sources present both as settled
+fact; they are better than that, but not archival.
 
 So the strand I called undocumented in chapter six is better described as
 **fictionalized around a real event**. The Shigemitsu plot appears to be the

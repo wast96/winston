@@ -1,30 +1,40 @@
-## 2026-07-24 - Datelines: only where the book supplies none
+## 2026-07-24 (2) - Ch8 and Ch9 assessments, and a correction to my own ch7 work
 
-GLOBAL correction from Winston, clarifying the earlier dateline instruction:
-"unless otherwise stated" means that where the book states the date itself,
-the translator's guess should not appear at all.
+Two research passes landed. Findings, and the cascade they forced:
 
-Chapters one and two open with the date in the author's own first line. Both
-were carrying a bracketed dateline as well, so the reader met the same date
-twice in consecutive lines, once as apparatus and once as prose. Removed.
+CH9 IS IMPOSSIBLE ON ITS OWN DATES. The book dates the Lytton plot to 2-13
+November 1932; both dates crop-verified against the scan, not merely OCR. The
+Lytton Commission left China on 4 September 1932, and Lord Lytton was in the
+House of Lords in London on 2 November 1932 - the very day the book has Wang
+receive the letter that starts the plot. No independent record of any attempt
+on Lytton exists; the story circulates in near-identical wording across
+Chinese outlets with no archive behind it. Also identified the lawyer in the
+literary scene as Shen Junru, a major real figure the OCR had mangled.
 
-- book.json: dropped the "dateline" key from ch01 and ch02. The prologue and
-  chapters three to six keep theirs; those are genuine inferences and each
-  still carries its note saying so and giving the reasoning.
-- notes.json: removed the two notes whose only content was "this dateline is
-  the author's own." Re-anchoring that content onto the chapter's opening
-  line turned out to be unnecessary in both cases - ch02 already had a
-  stronger note on the same phrase making the same point (that March 1928 is
-  a frame the author imposed over events documented to 1929 and 1930), and
-  ch01's was explaining an edition-wide convention rather than a fact about
-  the chapter. Note count 279 -> 277.
-- scripts/build_reading_epub.py: the convention itself now lives in the
-  translator's note, where it belongs - a bracketed opening line is mine, an
-  absent one means the author dated his own chapter.
+CH8's CENTRAL CLAIM HAS A TRACEABLE ORIGIN. That Wang Yaqiao was behind the
+Hongkou Park bombing comes from a 1983 article by his brother Wang Shuqiao;
+Chinese Wikipedia carries it with an explicit no-solid-source caveat, a named
+Chinese scholar rejects it, and it appears nowhere in Korean, Japanese or
+English sources. The tell is the timed thermos-flask bomb - the real device
+was thrown. The real bombs were made at the Shanghai Arsenal via Kim Hong-il.
+But there IS a documented Wang-Korean link, to the anarchists of the
+Anti-Japanese National Salvation League, where he supplied weapons and money;
+their operation was the 1933 attempt on Ariyoshi. The book has transplanted a
+real relationship with one faction onto the famous operation of a rival.
+Also: the Izumo mine attempt is REAL, corroborated from Japanese naval
+sources for 1 March 1932, though they do not name Wang.
 
-Caught by qa_epub, which failed the first rebuild with a note body that had
-no reference: the re-anchored ch02 note could never match, because the
-existing note on the same phrase had already inserted its marker into the
-middle of the string. The checker earned its place again.
+CORRECTION TO MY OWN EARLIER WORK. I had written, in ch07_assessment.md and
+in two shipped ch6 notes, that the Nichiren attack of 18 January 1932 took
+place "in Zhabei" and killed one monk. Both loose. It happened in an alley by
+the Sanyou towel works on Mayushan Road, in the Chinese-administered area next
+to Yangshupu; Zhabei is where the arson followed two days later and the
+fighting on the 28th. The five victims were two monks and three laymen, and
+the man who died, Mizukami Hideo, died of his injuries on 24 January rather
+than at the scene. Added the historiographical caveat I had also skipped:
+Tanaka's account rests on his own postwar testimony, Ito Takashi and Usui
+Katsumi have questioned its evidentiary basis, and Kawashima Yoshiko's part
+rests on Tanaka's recollection alone.
 
 Rebuilt: 7 documents, 930 paragraphs, 277 notes, qa_epub PASS.
+
