@@ -13,12 +13,13 @@ Usage: check_invariants.py out/pilot_ch1_s1.md
 import re
 import sys
 
-CN_DIGIT = {"零": 0, "一": 1, "二": 2, "三": 3, "四": 4,
+CN_DIGIT = {"零": 0, "一": 1, "二": 2, "两": 2, "三": 3, "四": 4,
             "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
 WORD_NUM = {
     "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
     "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11,
     "twelve": 12, "thirteen": 13, "several": None, "ten thousand": 10000,
+    "second": 2, "third": 3, "first": 1, "lead": 1,
 }
 
 
@@ -38,11 +39,16 @@ def cn_to_int(token):
 # what makes the check usable; without it every 一艘 and 九爷 is a false hit.
 NOISE = [
     r"一[艘条顶只个位群把张片口指边旁时下阵壶碟种番场股家棵套幅丢看脚]",  # measure words
+    r"一[辆眼躬支丝声定天次间惊枪动言样阵路批封面团句道年身手笔]",       # more measure/idiom 一s (prologue+)
     r"[一不][旦时般点些]",
     r"九爷", r"九光", r"九帅",                                   # Wang Yaqiao's title/name
     r"千载难逢", r"千军万马", r"七嘴八舌", r"五短身材",
     r"千真万确", r"一举一动", r"一口", r"十分", r"七八", r"王八蛋",
     r"三十六计", r"一片", r"万[马千]",
+    r"第一辆",              # "the lead car"
+    r"灵机一动", r"大吃一惊", r"头一次", r"有一天", r"一夜之间",
+    r"瘪三",                # Shanghai slang, the 三 is not a quantity
+    r"千万", r"万籁", r"千恩万谢", r"十里洋场",
 ]
 MONTHS = {1: "january", 2: "february", 3: "march", 4: "april", 5: "may",
           6: "june", 7: "july", 8: "august", 9: "september",
@@ -54,9 +60,12 @@ def source_numbers(text):
     for pat in NOISE:
         stripped = re.sub(pat, "", stripped)
     nums = set(int(n) for n in re.findall(r"\d+", stripped))
-    for tok in re.findall(r"[零一二三四五六七八九十]+", stripped):
+    for tok in re.findall(r"[零一二两三四五六七八九十]+", stripped):
         val = cn_to_int(tok)
-        if val is not None:
+        # a bare 一 as "one" is nearly always a measure word or idiom, not a
+        # quantity; suppressing it kills the last chronic false-positive
+        # class. Arabic 1 in the source is still checked.
+        if val is not None and not (val == 1 and tok == "一"):
             nums.add(val)
     return nums
 

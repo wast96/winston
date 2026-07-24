@@ -46,7 +46,38 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
 
 ## Per-chapter log
 
-### Prologue (小引) - pending
+### Prologue (小引) - DONE (pending back-translation diff sign-off)
+
+- Printed 1-8, PDF 11-18. 54 source paragraphs, all eight pages eye-verified
+  against the scan (full-page magnified views), not trusted to OCR.
+- Verified readings worth knowing: the book itself prints Ji'e Alley No. 54
+  (printed p5) and No. 45 (printed p6) for the same courtyard; documented
+  address is No. 53. Preserved as printed, noted. 洪武街51号, 贺衷寒, 1916,
+  张啸林, 熊心虎胆, 娘希匹 all crop-confirmed.
+- Figures: 3 (printed 2, 4, 7), captions read from the vertical margin text:
+  蒋介石与戴笠 / 北伐时期的蒋介石 / 令蒋介石寝食不安的王亚樵.
+- Checks: dual OCR flags adjudicated by eye against the scan. Blind double
+  translation: pass B by a fresh-context agent, 54/54 paragraphs, mean
+  string similarity 0.485, all top divergences reviewed = stylistic only,
+  zero meaning conflicts. Invariants: 0 unresolved (NOISE list extended;
+  bare-一 suppressed as chronic false positive, documented in script).
+  Entities: 5 flags, all natural pronominalization, adjudicated OK.
+  Back-translation omission check: pending agent completion, diff to follow.
+- Literal pass with the polished layer beside it: out/prologue_literal.md
+  vs out/prologue_reading.md. Bilingual audit: out/prologue_bilingual.md.
+- Notes: 21 (2.6/printed page). Scholarship checks run via web: Feng
+  Yuxiang/Yan Xishan absent from the April 18 1927 ceremony (photo lineup
+  CONTRADICTED); Three Great Policies not in Sun's testament (attribution
+  CONTESTED, stated in note); Ji'e Alley 53 documented (book's 54/45 noted);
+  Ten-Man Team = 1928 Liaison Group retrojected (chronology CONTRADICTED,
+  noted); Wang-Dai sworn-brother tie attested, car-crash rescue
+  UNCORROBORATED (noted); April 1927 warrant UNCORROBORATED (noted).
+- Glossary: +5 people, +2 orgs, +3 places, +6 terms.
+- Build: QA PASS, 2 documents (prologue + ch1), 79 refs/bodies/backlinks.
+- For Winston's read-through: the 校长="Commandant" and 委座="the
+  Generalissimo" conventions are mine; the anachronism notes lean on them.
+  娘希匹 rendered "God damn his mother" (force kept, Ningbo lost, noted).
+
 ### Ch 2-15 - pending
 
 ## Checks status (Winston's 8)

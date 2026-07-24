@@ -66,7 +66,7 @@
    "pinyin": "Dai Li",
    "en": "Dai Li",
    "status": "attested",
-   "note": "appears from ch2; sworn brother of Wang per popular accounts"
+   "note": "1897-1946; original name Dai Chunfeng, courtesy Yunong; appears from the prologue; sworn brother of Wang per popular accounts"
   },
   "宣济民": {
    "pinyin": "Xuan Jimin",
@@ -130,6 +130,36 @@
    "en": "Jing Ke",
    "status": "attested",
    "note": "227 BC assassin; recurs — ch13 title quotes his river verse"
+  },
+  "贺衷寒": {
+   "pinyin": "He Zhongyan",
+   "en": "He Zhongyan",
+   "status": "attested",
+   "note": "1900-1972; Whampoa 1st class, Blue Shirt political-warfare leader"
+  },
+  "李宗仁": {
+   "pinyin": "Li Zongren",
+   "en": "Li Zongren",
+   "status": "attested",
+   "note": "1891-1969; Guangxi clique leader, acting president 1949"
+  },
+  "冯玉祥": {
+   "pinyin": "Feng Yuxiang",
+   "en": "Feng Yuxiang",
+   "status": "attested",
+   "note": "1882-1948; the Christian General"
+  },
+  "阎锡山": {
+   "pinyin": "Yan Xishan",
+   "en": "Yan Xishan",
+   "status": "attested",
+   "note": "1883-1960; Shanxi Model Governor"
+  },
+  "张啸林": {
+   "pinyin": "Zhang Xiaolin",
+   "en": "Zhang Xiaolin",
+   "status": "attested",
+   "note": "1877-1940; third of the Shanghai three big bosses; killed 1940 as a collaborator"
   }
  },
  "organizations": {
@@ -152,6 +182,17 @@
   "中国社会党": {
    "pinyin": "Zhongguo Shehuidang",
    "en": "Chinese Socialist Party",
+   "status": "attested"
+  },
+  "十人团": {
+   "pinyin": "Shirentuan",
+   "en": "Ten-Man Team",
+   "status": "decided",
+   "note": "the 1928 ten-man Liaison Group of Dai Li lore, retrojected to 1927 by the book"
+  },
+  "青红帮": {
+   "pinyin": "Qing-Hong Bang",
+   "en": "Green and Red Gangs",
    "status": "attested"
   }
  },
@@ -211,6 +252,24 @@
    "en": "Wuzhou",
    "status": "attested",
    "note": "Guangxi; where Wang dies, ch15"
+  },
+  "黄埔路": {
+   "pinyin": "Huangpu Lu",
+   "en": "Huangpu Road",
+   "status": "decided",
+   "note": "Nanjing; site of Chiang's residence-office"
+  },
+  "鸡鹅巷": {
+   "pinyin": "Ji'e Xiang",
+   "en": "Ji'e Alley",
+   "status": "decided",
+   "note": "lit. Chicken-and-Goose Lane; No. 53 was Dai Li's documented HQ from 1931; book prints 54 and 45"
+  },
+  "洪武街": {
+   "pinyin": "Hongwu Jie",
+   "en": "Hongwu Street",
+   "status": "decided",
+   "note": "central Nanjing, named for the Ming founding reign"
   }
  },
  "terms": {
@@ -241,6 +300,42 @@
    "en": "bare-stick (proletarian) / made man",
    "status": "decided",
    "note": "two shadings; see ch1 notes"
+  },
+  "委座": {
+   "pinyin": "weizuo",
+   "en": "the Generalissimo",
+   "status": "decided",
+   "note": "deferential title from the Military Affairs Commission chairmanship; anachronistic in 1927 scenes"
+  },
+  "校长": {
+   "pinyin": "xiaozhang",
+   "en": "Commandant",
+   "status": "decided",
+   "note": "Whampoa men's lifelong address for Chiang; paired with 学生 'your student'"
+  },
+  "娘希匹": {
+   "pinyin": "niang xipi",
+   "en": "God damn his mother",
+   "status": "decided",
+   "note": "Chiang's Ningbo-dialect oath, his verbal signature"
+  },
+  "瘪三": {
+   "pinyin": "biesan",
+   "en": "biesan / ragged beggar",
+   "status": "decided",
+   "note": "Shanghai slang for the concession-era destitute"
+  },
+  "三大政策": {
+   "pinyin": "san da zhengce",
+   "en": "Three Great Policies",
+   "status": "attested",
+   "note": "alliance with Russia, alliance with the Communists, succor for workers and peasants"
+  },
+  "十里洋场": {
+   "pinyin": "shili yangchang",
+   "en": "ten-li foreign strip",
+   "status": "decided",
+   "note": "stock epithet for concession-era Shanghai"
   }
  }
 }

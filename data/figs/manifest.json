@@ -1,5 +1,38 @@
 [
  {
+  "x": 480,
+  "y": 871,
+  "w": 1095,
+  "h": 1597,
+  "density": 0.593,
+  "page_frac": 0.21,
+  "page": 12,
+  "printed": 2,
+  "file": "p0012-f1.png"
+ },
+ {
+  "x": 456,
+  "y": 230,
+  "w": 1755,
+  "h": 1975,
+  "density": 0.791,
+  "page_frac": 0.416,
+  "page": 14,
+  "printed": 4,
+  "file": "p0014-f1.png"
+ },
+ {
+  "x": 871,
+  "y": 260,
+  "w": 1128,
+  "h": 1445,
+  "density": 0.583,
+  "page_frac": 0.195,
+  "page": 17,
+  "printed": 7,
+  "file": "p0017-f1.png"
+ },
+ {
   "file": "p0022-f1.png",
   "page": 22,
   "printed": 12
