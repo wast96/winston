@@ -288,7 +288,80 @@ captured by translator-inserted text and stolen from the author's first use.
   inspectable for ch5 as it is for prologue/ch2/ch3.
 - Build: QA PASS, 6 documents, 213 refs/bodies/backlinks.
 
-### Ch 6-15 - pending
+### Ch 6 - printed 109-136 (PDF 119-146), 212 paragraphs, 4 sections
+
+- Source: data/zh/ch06.txt, all 28 pages eye-verified against magnified
+  scans before a word was translated.
+- Figures: 5, ALL FIVE WITH REAL CAPTIONS read off the vertical margin
+  text. The captions carry information the body does not: the Nakamura
+  photograph is dated and named (June 1931, Greater Khingan), the Shigemitsu
+  photograph is dated 1930 and identifies Wang Zhengting beside him, and the
+  wedding portrait establishes that Tang Yulu had been married fifty days
+  when he was shot and that his wife was a niece of Tan Yankai. p0146-f1 was
+  re-cropped because the ink-density box had swallowed a column of body text.
+- Notes: 61, i.e. 2.2 per printed page - back up toward the ch1 bar of 3.3
+  after the drift down to 1.5 in ch5. This chapter earns them: it is the
+  densest concentration of checkable historical claims in the book so far.
+- Invariants 0/212 after extending NOISE for this chapter's idiom and name
+  residues (八九不离十, 一清二楚, 信心十足, 十恶不赦, 朝三暮四,
+  and the numerals inside the names 稻村加五郎, 马三猛, 黄阿六, 十六铺).
+  ONE REAL CHECKER GAP FIXED: "fifty thousand" in English is 5万 in the
+  source, which prints as a bare 5, so every tens-of-thousands sum looked
+  like a dropped number. Added a reader for those forms. All six earlier
+  units re-run clean afterward - no regressions.
+- Entity QC: 4 misses, all adjudicated as legitimate (Lion Rock standing for
+  Lushan, two pronoun substitutions); one real dropped referent restored
+  ("report to Wang Yaqiao").
+- Blind double translation: 212/212, mean word-level agreement 0.686, ONE
+  numeric flag (carriage nine vs carriage No. 9 - a formatting difference).
+  Every low-agreement paragraph inspected against the source: all stylistic,
+  no meaning conflicts. NOTE: the earlier A/B scripts reported a similarity
+  figure that was meaningless, because difflib's autojunk silently discards
+  common characters on strings over 200 chars. Now measured on word lists
+  with autojunk off. The ch2-ch5 similarity numbers in the entries above are
+  therefore not comparable to this one.
+- Literal pass: deferred as for ch4/ch5; the blind pass B stands in as the
+  independent literal-leaning rendering for now.
+
+FOR WINSTON'S READ-THROUGH, ch6. This chapter has a solid documentary spine
+and an invented second half, and I have said so in the notes rather than
+quietly smoothing it:
+- CORROBORATED: the shooting itself (morning of 23 July 1931 at Shanghai
+  North Station), T.V. Soong's escape, Tang Yulu shot in his place, the two
+  men in near-identical white summer suits, the smoke screen, Wang Yaqiao's
+  authorship, and the Canton faction's 200,000. Some English accounts date it
+  24 July, which looks like next-day newspaper datelines rather than a real
+  dispute.
+- REMARKABLE AND TRUE: Soong's mother Ni Guizhen died at Qingdao on 23 July
+  1931, the same morning. The further story that she collapsed on hearing of
+  the shooting is legend and I have labelled it so.
+- THE JAPANESE SUBPLOT IS NOT DOCUMENTED. Shigemitsu Mamoru was a career
+  diplomat, never the army lieutenant general the book makes him; Tanaka
+  Ryūkichi was in Shanghai but as a MAJOR and assistant attache, and his real
+  conspiracy is the January 1932 monk incident; the Huanggutun bomber is
+  printed 山本大作 where the record says 河本大作 Komoto Daisaku; Chang
+  Yuqing's recruitment runs six months ahead of anything documented and he
+  was Green Gang, not Anqing, in 1931; and Inamura Kagoro, Tada Ichiro,
+  Oshima Takeo, Zhao Xingbei, Wei Xiuyan and Ma Sanmeng cannot be found at
+  all. The plot circulates only inside Chinese popular writing about Wang
+  Yaqiao - the book's own source family.
+- ANACHRONISMS FLAGGED IN NOTES: the Renaissance Society's Special Services
+  Section (1932), Sun Ke as Executive Yuan president (December 1931), Wu
+  Tiecheng as Shanghai mayor (January 1932 - Zhang Qun held it in July 1931),
+  the "presidential offices" in a Republic that had no president, and the
+  Greater East Asia Co-Prosperity Sphere, a slogan of August 1940 put into a
+  Japanese officer's mouth in 1931.
+- SUN FENGMING CANNOT HAVE BEEN ON THAT PLATFORM. He came south and joined
+  the 19th Route Army only after 18 September 1931. He is here because he is
+  the book's most famous gunman.
+- TRANSLATION UNCERTAINTY: 强力式 "Powerful model," a German pistol
+  designation that does not exist, credited with a 500-metre range; the arms
+  dealer 马乐奇, whose English name is unrecoverable; 玉之井, read as
+  Tamanoi on inference; and 龚春浦/龚春甫, printed both ways for one man.
+- The book says bleaching powder in one place and talc in another for the
+  same smoke screen. Outside accounts say smoke bombs. Noted, not reconciled.
+
+### Ch 7-15 - pending
 
 ## Resuming this run
 

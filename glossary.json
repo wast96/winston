@@ -493,7 +493,7 @@
    "pinyin": "Gong Chunpu",
    "en": "Gong Chunpu",
    "status": "provisional",
-   "note": "assassination corps member per the book"
+   "note": "book prints 龚春浦 and 龚春甫 for the same man; one form used throughout"
   },
   "刘文成": {
    "pinyin": "Liu Wencheng",
@@ -518,6 +518,150 @@
    "en": "Chen Wang",
    "status": "provisional",
    "note": "assassination corps member per the book"
+  },
+  "重光葵": {
+   "pinyin": "Chongguang Kui",
+   "en": "Shigemitsu Mamoru",
+   "status": "attested",
+   "note": "1887-1957; career Japanese diplomat, consul-general at Shanghai from 1929, later foreign minister; the book's 'army lieutenant general' is wrong"
+  },
+  "田中隆吉": {
+   "pinyin": "Tianzhong Longji",
+   "en": "Tanaka Ryūkichi",
+   "status": "attested",
+   "note": "1893-1972; in Shanghai from Oct 1930 as assistant army attache, a MAJOR, not the major general the book makes him"
+  },
+  "稻村加五郎": {
+   "pinyin": "Daocun Jiawulang",
+   "en": "Inamura Kagorō",
+   "status": "provisional",
+   "note": "Japanese reading inferred; the man is untraceable in any record"
+  },
+  "大岛武夫": {
+   "pinyin": "Dadao Wufu",
+   "en": "Ōshima Takeo",
+   "status": "provisional",
+   "note": "Japanese reading inferred; untraceable"
+  },
+  "多田一郎": {
+   "pinyin": "Duotian Yilang",
+   "en": "Tada Ichirō",
+   "status": "provisional",
+   "note": "Japanese reading inferred; untraceable. Not General Tada Shun"
+  },
+  "山本大作": {
+   "pinyin": "Shanben Dazuo",
+   "en": "Yamamoto Daisaku",
+   "status": "provisional",
+   "note": "as printed by the book; the Huanggutun bomber was 河本大作 Komoto Daisaku"
+  },
+  "中村震太郎": {
+   "pinyin": "Zhongcun Zhentailang",
+   "en": "Nakamura Shintarō",
+   "status": "attested",
+   "note": "Japanese General Staff captain killed in Manchuria June 1931; only in a figure caption"
+  },
+  "常玉清": {
+   "pinyin": "Chang Yuqing",
+   "en": "Chang Yuqing",
+   "status": "attested",
+   "note": "1884-1946; Green Gang boss, later Japanese collaborator; executed at Tilanqiao. The book's 1931 'Anqing Gang' is anachronistic"
+  },
+  "唐腴胪": {
+   "pinyin": "Tang Yulu",
+   "en": "Tang Yulu",
+   "status": "attested",
+   "note": "1898-1931; T.V. Soong's confidential secretary, shot in his place at Shanghai North Station 23 July 1931"
+  },
+  "肖佛成": {
+   "pinyin": "Xiao Focheng",
+   "en": "Xiao Focheng",
+   "status": "attested",
+   "note": "1862-1940; born Bangkok, ancestral home Fujian (NOT Guangdong as the book says); KMT central committees, Hu Hanmin's Canton camp"
+  },
+  "张乐怡": {
+   "pinyin": "Zhang Leyi",
+   "en": "Zhang Leyi",
+   "status": "attested",
+   "note": "1907-1988; T.V. Soong's wife from 1928, daughter of a Jiujiang contractor"
+  },
+  "倪桂珍": {
+   "pinyin": "Ni Guizhen",
+   "en": "Ni Guizhen",
+   "status": "attested",
+   "note": "1869-1931; the Soong matriarch; died at Qingdao 23 July 1931, the morning of the North Station shooting"
+  },
+  "宋耀如": {
+   "pinyin": "Song Yaoru",
+   "en": "Charlie Soong",
+   "status": "attested",
+   "note": "1861-1918; conventional English form; father of the Soong generation"
+  },
+  "王正廷": {
+   "pinyin": "Wang Zhengting",
+   "en": "Wang Zhengting",
+   "status": "attested",
+   "note": "1882-1961; Nanjing foreign minister; only in a figure caption"
+  },
+  "赵兴北": {
+   "pinyin": "Zhao Xingbei",
+   "en": "Zhao Xingbei",
+   "status": "provisional",
+   "note": "KMT senator per the book; untraceable"
+  },
+  "马三猛": {
+   "pinyin": "Ma Sanmeng",
+   "en": "Ma Sanmeng",
+   "status": "provisional",
+   "note": "the Lushan assassin's Hong Kong cover identity per the book; untraceable"
+  },
+  "魏秀艳": {
+   "pinyin": "Wei Xiuyan",
+   "en": "Wei Xiuyan",
+   "status": "provisional",
+   "note": "Finance Ministry clerk bribed by Yu Likui per the book; untraceable"
+  },
+  "刘海川": {
+   "pinyin": "Liu Haichuan",
+   "en": "Liu Haichuan",
+   "status": "provisional",
+   "note": "Zheng Baozhen's intelligence man and driver per the book"
+  },
+  "马福建": {
+   "pinyin": "Ma Fujian",
+   "en": "Ma Fujian",
+   "status": "provisional",
+   "note": "Anqing Gang senior per the book; untraceable"
+  },
+  "马大湘": {
+   "pinyin": "Ma Daxiang",
+   "en": "Ma Daxiang",
+   "status": "provisional",
+   "note": "leader of Chang Yuqing's gunmen per the book; untraceable"
+  },
+  "黄阿六": {
+   "pinyin": "Huang Aliu",
+   "en": "Huang Aliu",
+   "status": "provisional",
+   "note": "builders' merchant clerk at Shiliupu per the book"
+  },
+  "刘刚": {
+   "pinyin": "Liu Gang",
+   "en": "Liu Gang",
+   "status": "provisional",
+   "note": "named in outside accounts as one of the Lushan three; no independent biography"
+  },
+  "李战": {
+   "pinyin": "Li Zhan",
+   "en": "Li Zhan",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
+  },
+  "马乐奇": {
+   "pinyin": "Ma Leqi",
+   "en": "Ma Leqi",
+   "status": "provisional",
+   "note": "English arms dealer in Shanghai per the book; underlying English name unrecoverable"
   }
  },
  "organizations": {
@@ -575,6 +719,23 @@
    "pinyin": "Tiexue Ansha Tuan",
    "en": "Iron and Blood Assassination Corps",
    "status": "decided"
+  },
+  "安清帮": {
+   "pinyin": "Anqing Bang",
+   "en": "Anqing Gang",
+   "status": "decided",
+   "note": "as the book names Chang Yuqing's following; his actual Anqing bodies were founded in Nanjing in 1938, and in 1931 he was Green Gang"
+  },
+  "复兴社": {
+   "pinyin": "Fuxingshe",
+   "en": "Renaissance Society",
+   "status": "attested",
+   "note": "founded spring 1932; the book has Dai Li organizing its Special Services Section in 1931"
+  },
+  "关东军": {
+   "pinyin": "Guandongjun",
+   "en": "Kwantung Army",
+   "status": "attested"
   }
  },
  "places": {
@@ -819,6 +980,75 @@
    "pinyin": "Taiyi Feng",
    "en": "Taiyi Peak",
    "status": "decided"
+  },
+  "上海北站": {
+   "pinyin": "Shanghai Beizhan",
+   "en": "Shanghai North Station",
+   "status": "attested",
+   "note": "the Shanghai-Nanjing line terminus in Zhabei; scene of the 23 July 1931 shooting"
+  },
+  "鸡鸣寺": {
+   "pinyin": "Jimingsi",
+   "en": "Jiming Temple",
+   "status": "attested",
+   "note": "Nanjing temple quarter; a district of official residences in the Nanjing decade"
+  },
+  "仙鹤街": {
+   "pinyin": "Xianhe Jie",
+   "en": "Xianhe Street",
+   "status": "decided",
+   "note": "Nanjing; Yu Likui's house at No. 24"
+  },
+  "十六铺": {
+   "pinyin": "Shiliupu",
+   "en": "Shiliupu",
+   "status": "attested",
+   "note": "the Huangpu wharf district below the old Chinese city"
+  },
+  "玉之井": {
+   "pinyin": "Yuzhijing",
+   "en": "the Tamanoi",
+   "status": "provisional",
+   "note": "Japanese restaurant in Shanghai; the Japanese reading is inferred"
+  },
+  "老隆兴": {
+   "pinyin": "Lao Longxing",
+   "en": "the Old Longxing",
+   "status": "decided",
+   "note": "restaurant in a back lane of Shanghai"
+  },
+  "万客来": {
+   "pinyin": "Wan Ke Lai",
+   "en": "the Wan Ke Lai",
+   "status": "decided",
+   "note": "Lushan inn; the name means Ten Thousand Guests Come"
+  },
+  "万丰行": {
+   "pinyin": "Wanfeng Hang",
+   "en": "the Wanfeng company",
+   "status": "decided",
+   "note": "builders' merchant at Shiliupu"
+  },
+  "大兴安岭": {
+   "pinyin": "Daxing'anling",
+   "en": "the Greater Khingan range",
+   "status": "attested"
+  },
+  "皇姑屯": {
+   "pinyin": "Huanggutun",
+   "en": "Huanggutun",
+   "status": "attested",
+   "note": "rail junction outside Shenyang; Zhang Zuolin killed there 4 June 1928"
+  },
+  "青岛": {
+   "pinyin": "Qingdao",
+   "en": "Qingdao",
+   "status": "attested"
+  },
+  "浦东": {
+   "pinyin": "Pudong",
+   "en": "Pudong",
+   "status": "attested"
   }
  },
  "terms": {
@@ -840,7 +1070,7 @@
   },
   "替死鬼": {
    "pinyin": "tisigui",
-   "en": "dies in (someone's) place / stand-in dead man",
+   "en": "stand-in dead man",
    "status": "decided",
    "note": "lit. substitute ghost"
   },
@@ -963,6 +1193,53 @@
    "en": "Yunhu shirt",
    "status": "decided",
    "note": "Hong Kong-made short-sleeved shirt"
+  },
+  "强力式": {
+   "pinyin": "qianglishi",
+   "en": "Powerful model",
+   "status": "decided",
+   "note": "no German pistol was sold under this designation; kept as printed rather than substitute a real weapon"
+  },
+  "滑石粉": {
+   "pinyin": "huashifen",
+   "en": "talc / talcum powder",
+   "status": "decided",
+   "note": "the book also says 漂白粉 bleaching powder for the same material"
+  },
+  "支那": {
+   "pinyin": "Zhina",
+   "en": "Shina",
+   "status": "decided",
+   "note": "left untranslated in Japanese speakers' mouths; the contempt is the point"
+  },
+  "大东亚共荣圈": {
+   "pinyin": "Da Dongya Gongrongquan",
+   "en": "Greater East Asia Co-Prosperity Sphere",
+   "status": "attested",
+   "note": "coined August 1940; anachronistic in the book's 1931 scene"
+  },
+  "浪人": {
+   "pinyin": "langren",
+   "en": "rōnin",
+   "status": "decided",
+   "note": "Japanese adventurers and freelance agents in the treaty ports"
+  },
+  "中村事件": {
+   "pinyin": "Zhongcun shijian",
+   "en": "the Nakamura affair",
+   "status": "attested",
+   "note": "June 1931; one of the pretexts for the Mukden Incident"
+  },
+  "九一八事变": {
+   "pinyin": "Jiu-yi-ba shibian",
+   "en": "the September 18th Incident",
+   "status": "attested",
+   "note": "18 Sept 1931; the Mukden Incident"
+  },
+  "民族罪人": {
+   "pinyin": "minzu zuiren",
+   "en": "traitor to the nation",
+   "status": "decided"
   }
  }
 }

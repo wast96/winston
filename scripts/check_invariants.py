@@ -48,7 +48,8 @@ NOISE = [
     # block matters too: the longer literal always goes above the shorter one
     # it contains. Do NOT sort this list by pattern length -- character
     # classes make short patterns look long and the sort reintroduces the bug.
-    r"四十多", r"三十多", r"二十多", r"十几", r"几十", r"十多",
+    r"八九不离十", r"四十多", r"三十多", r"二十几", r"二十多",
+    r"十几", r"几十", r"十多",
     r"一[艘条顶只个位群把张片口指边旁时下阵壶碟种番场股家棵套幅丢看脚]",  # measure words
     r"一[辆眼躬支丝声定天次间惊枪动言样阵路批封面团句道年身手笔]",       # more measure/idiom 一s (prologue+)
     r"[一不][旦时般点些]",
@@ -82,6 +83,12 @@ NOISE = [
     r"分两路", r"两乘", r"两日", r"三点", r"三家", r"三个小组",
     r"十多", r"四周", r"五老峰", r"四十多", r"两旁", r"零部件",
     r"两[三边]", r"四[下面]", r"一[遍番]",
+    # ch6
+    r"朝三暮四", r"一清二楚", r"信心十足", r"稻村加五郎", r"十六铺",
+    r"黄阿六", r"几秒", r"三言两语", r"礼让三分", r"一哆嗦",
+    r"三大亨", r"一拥而", r"三层", r"六人", r"三套", r"三组",
+    r"[三两]十年", r"一沓", r"一箭双雕", r"一迭声", r"三巡",
+    r"十恶不赦", r"马三猛",   # set phrase; personal name
 ]
 MONTHS = {1: "january", 2: "february", 3: "march", 4: "april", 5: "may",
           6: "june", 7: "july", 8: "august", 9: "september",
@@ -120,6 +127,12 @@ def spelled_numbers(low):
                 found.add(tval + oval)
         if re.search(r"\b" + tens + r"\b", low):
             found.add(tval)
+    # "fifty thousand" is 5万 in the source, which prints as a bare 5. Read
+    # the tens-of-thousands forms back down to the source's digit.
+    for tens, tval in TENS.items():
+        if re.search(r"\b" + tens + r"[- ]?\w* ?thousand\b", low):
+            found.add(tval // 10)
+            found.add(tval * 1000)
     for ones, oval in ONES.items():
         if re.search(r"\b%s hundred thousand\b" % ones, low):
             found.add(oval * 100000)
