@@ -197,7 +197,7 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
   clean after the fix.
 - Build: QA PASS, 5 documents, 174 refs/bodies/backlinks.
 
-### Ch 5 (庐山大刺杀) - translated; A/B PARTIAL, round-trip pending
+### Ch 5 (庐山大刺杀) - A/B COMPLETE and signed off; round-trip pending
 
 - Printed 81-108, PDF 91-118. 179 source paragraphs (new longest); all 28
   pages eye-verified against magnified scans.
@@ -240,13 +240,16 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
   make short patterns look long. Reverted to an explicit longest-literal-
   first block with a comment saying exactly why sorting is wrong.
   All five finished units re-run clean after both fixes.
-- Blind double translation: INCOMPLETE. The pass-B agent wrote only 29 of
-  179 paragraphs (16% coverage) before stopping mid-section-15. The 29 that
-  exist diff clean - mean similarity 0.333, all divergences stylistic, zero
-  meaning conflicts, zero [UNCLEAR] flags - but 84% of the chapter is
-  UNCHECKED by the second pass. Agent asked to complete it; if it does not,
-  this chapter must be re-passed during the halfway audit. Do not record ch5
-  as A/B-verified until the file holds 179 paragraphs.
+- Blind double translation: COMPLETE after the agent was sent back to
+  finish a truncated first attempt (29 of 179). Final: 179/179 paragraphs,
+  mean similarity 0.401, all top divergences stylistic, zero meaning
+  conflicts.
+- The second reader CAUGHT A REAL OVER-CONFIDENCE and it was right: I had
+  rendered the Meilu's builder 赫莉太太 as "a Mrs. Herley", asserting an
+  English surname the transliteration does not actually determine (Herley,
+  Hurley, Healey all fit). Prose changed to keep the Chinese sound, and the
+  note rewritten to say the name is not recoverable from the page. This is
+  the blind-pass check earning its cost.
 - Literal pass: DEFERRED for this chapter (out/ch05_literal.md not written).
   To be produced during the halfway audit so the smoothing layer is
   inspectable for ch5 as it is for prologue/ch2/ch3.

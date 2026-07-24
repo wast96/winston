@@ -506,7 +506,7 @@ Hua Kezhi went first to reconnoiter the Meilu near Guling Street — and found i
 
 > 此前华克之只知这座美庐是一位著名英国医师赫莉太太1922年建在山间的别墅，当时取名为牯岭街13号。1930年这位英国太太返回伦敦前夕，把它作为圣诞节的礼物送给了宋美龄，从此这里就成了蒋、宋两人消夏的所在。由于宋美龄认为13号不吉利，才改名美庐。现在，当华克之发现美庐前后左右都布满荷枪实弹的哨兵时，感到要在美庐对蒋下手，简直比登天还难。
 
-Until then Hua Kezhi had known only that the Meilu was a mountain villa built in 1922 by a famous English doctor, a Mrs. Herley, and named at the time No. 13 Guling Street. In 1930, on the eve of the Englishwoman's return to London, she gave it to Soong Mei-ling as a Christmas present, and from then on it was where Chiang and Soong passed their summers. Because Soong Mei-ling considered the number 13 unlucky, it was renamed the Meilu. Now, finding sentries with loaded rifles posted on every side of it, Hua Kezhi felt that to strike at Chiang inside the Meilu would be harder than climbing to heaven.
+Until then Hua Kezhi had known only that the Meilu was a mountain villa built in 1922 by a well-known Englishwoman, a doctor whose name the Chinese renders as Heli, and named at the time No. 13 Guling Street. In 1930, on the eve of the Englishwoman's return to London, she gave it to Soong Mei-ling as a Christmas present, and from then on it was where Chiang and Soong passed their summers. Because Soong Mei-ling considered the number 13 unlucky, it was renamed the Meilu. Now, finding sentries with loaded rifles posted on every side of it, Hua Kezhi felt that to strike at Chiang inside the Meilu would be harder than climbing to heaven.
 
 > 后来，他和陈成又来到距此不远的"美龄桥"上侦察，发现这里虽然可以埋伏，但附近都是潺潺流水，万一开枪，逃跑却是个大问题。于是，华克之最终放弃了在蒋介石住地行刺的打算。
 
