@@ -300,6 +300,42 @@
    "pinyin": "Mao Zedong",
    "en": "Mao Zedong",
    "status": "attested"
+  },
+  "李国杰": {
+   "pinyin": "Li Guojie",
+   "en": "Li Guojie",
+   "status": "attested",
+   "note": "1881-1939; Li Hongzhang's eldest grandson, China Merchants board chairman; hired Wang to kill Zhao; sentenced 8 years; shot by Juntong 1939"
+  },
+  "李鸿章": {
+   "pinyin": "Li Hongzhang",
+   "en": "Li Hongzhang",
+   "status": "attested",
+   "note": "1823-1901; Qing statesman, founder-patron of the China Merchants company"
+  },
+  "夏少恩": {
+   "pinyin": "Xia Shao'en",
+   "en": "Xia Shao'en",
+   "status": "provisional",
+   "note": "Hatchet Gang gunman in the Zhao Tieqiao killing per the book"
+  },
+  "刘德山": {
+   "pinyin": "Liu Deshan",
+   "en": "Liu Deshan",
+   "status": "provisional",
+   "note": "printed once in ch3 where 刘德才 Liu Decai stands elsewhere; kept as printed"
+  },
+  "俞飞鹏": {
+   "pinyin": "Yu Feipeng",
+   "en": "Yu Feipeng",
+   "status": "attested",
+   "note": "communications minister; on the Zhao Tieqiao investigation commission"
+  },
+  "吴铁城": {
+   "pinyin": "Wu Tiecheng",
+   "en": "Wu Tiecheng",
+   "status": "attested",
+   "note": "Shanghai mayor; on the Zhao Tieqiao investigation commission"
   }
  },
  "organizations": {
@@ -340,6 +376,12 @@
    "en": "Reorganizationists",
    "status": "attested",
    "note": "anti-Chiang KMT opposition faction around Wang Jingwei, 1928-31"
+  },
+  "轮船招商局": {
+   "pinyin": "Lunchuan Zhaoshangju",
+   "en": "China Merchants Steam Navigation Company",
+   "status": "attested",
+   "note": "founded 1872 under Li Hongzhang; 总办 = Supervisor, the government-appointed executive"
   }
  },
  "places": {
@@ -462,6 +504,30 @@
    "en": "Fenghua",
    "status": "attested",
    "note": "Chiang Kai-shek's home county, Zhejiang"
+  },
+  "大世界": {
+   "pinyin": "Dashijie",
+   "en": "the Great World",
+   "status": "decided",
+   "note": "amusement palace opened 1917 at the French Concession edge"
+  },
+  "戈登路": {
+   "pinyin": "Gedeng Lu",
+   "en": "Gordon Road",
+   "status": "attested",
+   "note": "now Jiangning Road"
+  },
+  "吴淞": {
+   "pinyin": "Wusong",
+   "en": "Wusong",
+   "status": "attested",
+   "note": "the Huangpu's mouth at the Yangtze; Shanghai's outer anchorage"
+  },
+  "大鸿运酒楼": {
+   "pinyin": "Da Hongyun Jiulou",
+   "en": "the Great Fortune restaurant",
+   "status": "decided",
+   "note": "Nanjing Road; name means 'great luck'"
   }
  },
  "terms": {
@@ -532,6 +598,33 @@
   "竹战": {
    "pinyin": "zhuzhan",
    "en": "bamboo-grove wars (mahjong)",
+   "status": "decided"
+  },
+  "走麦城": {
+   "pinyin": "zou Maicheng",
+   "en": "to walk to Maicheng",
+   "status": "decided",
+   "note": "Guan Yu's fall, AD 219; the idiom for a hero's undoing; ch10 title"
+  },
+  "知遇之恩": {
+   "pinyin": "zhiyu zhi en",
+   "en": "the debt to the man who first saw your worth",
+   "status": "decided"
+  },
+  "拜码头": {
+   "pinyin": "bai matou",
+   "en": "to pay respects at the wharf",
+   "status": "decided"
+  },
+  "文明棍": {
+   "pinyin": "wenminggun",
+   "en": "gentleman's cane",
+   "status": "decided",
+   "note": "lit. 'civilization stick'"
+  },
+  "交际花": {
+   "pinyin": "jiaojihua",
+   "en": "society flower",
    "status": "decided"
   }
  }

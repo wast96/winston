@@ -79,5 +79,16 @@
   "page": 42,
   "printed": 32,
   "file": "p0042-f1.png"
+ },
+ {
+  "x": 2009,
+  "y": 2877,
+  "w": 344,
+  "h": 360,
+  "density": 0.641,
+  "page_frac": 0.015,
+  "page": 57,
+  "printed": 47,
+  "file": "p0057-f1.png"
  }
 ]

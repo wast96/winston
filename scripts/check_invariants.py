@@ -21,7 +21,7 @@ WORD_NUM = {
     "twelve": 12, "thirteen": 13, "several": None, "ten thousand": 10000,
     "second": 2, "third": 3, "first": 1, "lead": 1,
     "fourth": 4, "fifth": 5, "sixth": 6, "seventh": 7, "eighth": 8,
-    "ninth": 9, "tenth": 10, "both": 2,
+    "ninth": 9, "tenth": 10, "both": 2, "twice": 2,
 }
 
 
@@ -55,6 +55,8 @@ NOISE = [
     r"石友三",               # the 三 is a name, not a count
     r"八字胡", r"八仙桌", r"八拜之交", r"两人", r"三言两语",
     r"四起", r"五体投地", r"三大亨", r"二师兄",
+    r"两[位界个]", r"四座", r"说一不二", r"零钱", r"[一二三]是",
+    r"三不喝",              # "three refusals" keeps its 三 in English
 ]
 MONTHS = {1: "january", 2: "february", 3: "march", 4: "april", 5: "may",
           6: "june", 7: "july", 8: "august", 9: "september",

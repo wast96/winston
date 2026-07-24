@@ -111,7 +111,33 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
 - Pending: blind pass B diff + back-translation omission check (agents
   running); sign-off entry follows.
 
-### Ch 3-15 - pending
+### Ch 3 (诛杀赵铁桥) - translated, A/B + round-trip in flight
+
+- Printed 43-56, PDF 53-66. 98 source paragraphs; all 14 pages eye-verified
+  against magnified scans.
+- Figures: NONE. The only ink-density hit in the range (p0057-f1) is the
+  recurring recto margin medallion, i.e. page furniture, confirmed by eye
+  across all 14 page views. figures.json["ch03"] = [] deliberately.
+- Scholarship (the strongest corroboration in the book so far): Li Guojie
+  (1881-1939), Li Hongzhang's eldest grandson and China Merchants board
+  chairman from 1924, DID hire Wang Yaqiao to kill Zhao Tieqiao, and Zhao
+  WAS shot dead at the company gate on 24 July 1930 - date, place and two
+  named shooters (Wang Ganting, Niu Anru) all match the record. The
+  chapter's spine is history. Aftermath the book omits, added as a note:
+  Chiang's commission (T.V. Soong, Yu Feipeng, Wu Tiecheng) traced it to
+  Li Guojie, who drew 8 years; Li was himself shot by Dai Li's service in
+  Feb 1939. UNCORROBORATED: the Jiang'an ship as the fee (payment itself
+  is documented, the vessel is not); Zhao's American finance degree (his
+  documented education was in Japan) - noted as the author's furnishing.
+- Notes: 31 (2.2/printed page). Glossary: +17.
+- Uncertain readings flagged in notes, not smoothed: 脑拿牌 car marque
+  (glyphs certain, make unidentifiable - kept as "Naona"); the book prints
+  刘德山 here vs 刘德才 elsewhere for the same man (kept as printed, noted).
+- Invariants 0/98 after further NOISE growth. Entity check caught 6 real
+  drops - fixed; remaining 20 adjudicated as pronominalization.
+- Build: QA PASS, 4 documents, 139 refs/bodies/backlinks.
+
+### Ch 4-15 - pending
 
 ## Checks status (Winston's 8)
 
