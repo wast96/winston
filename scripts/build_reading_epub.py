@@ -75,6 +75,24 @@ XHTML = """<?xml version="1.0" encoding="utf-8"?>
 """
 
 
+MAX_FIG_WIDTH = 1100
+
+
+def shrink_image(src, dest):
+    """Downsample a figure crop for the reading edition. Returns False if
+    Pillow is unavailable, so the caller can fall back to a plain copy."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return False
+    img = Image.open(src)
+    if img.width > MAX_FIG_WIDTH:
+        h = int(img.height * MAX_FIG_WIDTH / img.width)
+        img = img.resize((MAX_FIG_WIDTH, h), Image.LANCZOS)
+    img.convert("L").save(dest, format="PNG", optimize=True)
+    return True
+
+
 def esc(text):
     return html.escape(text, quote=False)
 
@@ -253,7 +271,14 @@ def main(epub_path):
             src = os.path.join(FIGS, spec["file"])
             if not os.path.exists(src):
                 continue
-            shutil.copy(src, os.path.join(oebps, "images", spec["file"]))
+            dest = os.path.join(oebps, "images", spec["file"])
+            # Figure crops come off a 300 dpi render and run to several MB
+            # each as PNG, which is absurd for a reading edition. Downsample
+            # to a sane reading width and re-encode; these are halftone
+            # photographs, so a little JPEG-style loss is invisible while the
+            # file shrinks by an order of magnitude.
+            if not shrink_image(src, dest):
+                shutil.copy(src, dest)
             if spec["file"] not in manifest_figs:
                 manifest_figs.append(spec["file"])
 
