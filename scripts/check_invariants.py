@@ -89,16 +89,19 @@ def pairs(path):
 
 
 def main(path):
-    bad = 0
+    bad = npairs = 0
     for i, (src, tgt) in enumerate(pairs(path), 1):
+        npairs = i
         s, t = source_numbers(src), target_numbers(tgt)
-        missing = s - t
+        # a Republican-calendar year in the source may rightly surface as the
+        # Gregorian year in the target (民国十六年 -> 1927)
+        missing = {m for m in s - t if (m + 1911) not in t}
         if missing:
             bad += 1
             print("pair %d: unaccounted %s" % (i, sorted(missing)))
             print("   zh:", src[:60])
             print("   en:", tgt[:60])
-    print("checked pairs, unresolved:", bad)
+    print("checked %d pairs, unresolved: %d" % (npairs, bad))
     return 1 if bad else 0
 
 

@@ -93,30 +93,41 @@ def main(path):
                 fails.append("%s in %s points at missing anchor: %s#%s"
                              % (kind, doc, dest, frag))
 
-    body = z.read([d for d in docs if d.endswith("ch01.xhtml")][0]).decode()
-    zh = len(re.findall(r'class="src"', body))
-    en = len(re.findall(r'class="trg"', body))
-    if zh or en:
-        print("bilingual pairs: %d source, %d translation" % (zh, en))
-        if zh != en:
-            fails.append("source and translation paragraph counts differ (%d vs %d)" % (zh, en))
-    else:
-        paras = len(re.findall(r"<p[ >]", body))
-        print("reading edition: %d paragraphs" % paras)
+    # chapter body documents, in spine order
+    spine_order = [manifest[ref.get("idref")] for ref in
+                   opf.findall(".//" + OPF + "itemref")
+                   if ref.get("idref") in manifest]
+    content_docs = [d for d in spine_order
+                    if re.search(r"(prologue|ch\d\d)\.xhtml$", d)]
+
+    total_paras = 0
+    for doc in content_docs:
+        body = z.read(doc).decode()
+        zh = len(re.findall(r'class="src"', body))
+        en = len(re.findall(r'class="trg"', body))
+        if zh or en:
+            print("%s bilingual pairs: %d source, %d translation" % (doc, zh, en))
+            if zh != en:
+                fails.append("%s: source and translation paragraph counts differ (%d vs %d)"
+                             % (doc, zh, en))
+        else:
+            total_paras += len(re.findall(r"<p[ >]", body))
+    print("reading edition: %d documents, %d paragraphs" % (len(content_docs), total_paras))
 
     notes_doc = [d for d in docs if d.endswith("notes.xhtml")]
     if notes_doc:
-        ch = z.read([d for d in docs if d.endswith("ch01.xhtml")][0]).decode()
         nt = z.read(notes_doc[0]).decode()
-        refs = set(re.findall(r'id="ref(\d+)"', ch))
+        order = []
+        for doc in content_docs:
+            order += re.findall(r'id="ref(\d+)"', z.read(doc).decode())
+        refs = set(order)
         bodies = set(re.findall(r'id="note(\d+)"', nt))
-        backs = set(re.findall(r'href="ch01\.xhtml#ref(\d+)"', nt))
+        backs = set(re.findall(r'href="[^"#]+#ref(\d+)"', nt))
         print("notes: %d references, %d bodies, %d backlinks" % (len(refs), len(bodies), len(backs)))
         if refs != bodies:
             fails.append("note references and bodies do not match: %s" % sorted(refs ^ bodies))
         if backs != bodies:
             fails.append("note backlinks incomplete: %s" % sorted(backs ^ bodies))
-        order = re.findall(r'id="ref(\d+)"', ch)
         if order != [str(i) for i in range(1, len(order) + 1)]:
             fails.append("note numbering is not sequential in reading order")
 

@@ -98,8 +98,17 @@ def main():
         manifest.append(rec)
         print(json.dumps(rec, ensure_ascii=False))
 
-    with open(os.path.join(FIGS, "manifest.json"), "w") as fh:
-        json.dump(manifest, fh, ensure_ascii=False, indent=1)
+    # MERGE with any existing manifest rather than overwrite (the overwrite
+    # was a trap hit in ch1); re-running a page range replaces that range's
+    # entries and leaves every other page's entries alone.
+    mpath = os.path.join(FIGS, "manifest.json")
+    existing = []
+    if os.path.exists(mpath):
+        existing = [m for m in json.load(open(mpath))
+                    if not (a.first <= m.get("page", -1) <= a.last)]
+    merged = sorted(existing + manifest, key=lambda m: (m["page"], m["file"]))
+    with open(mpath, "w") as fh:
+        json.dump(merged, fh, ensure_ascii=False, indent=1)
 
 
 if __name__ == "__main__":

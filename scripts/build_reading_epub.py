@@ -1,13 +1,24 @@
 #!/usr/bin/env python3
 """Build the reading edition: English prose, no page furniture, no inline
 flags. The verification layer lives in back matter (translator's note +
-term ledger); the bilingual audit file stays outside the EPUB entirely.
+glossary); the bilingual audit files stay outside the EPUB entirely.
 
-Usage: build_reading_epub.py out/ch1_s1_reading.md out/wang-yaqiao-ch1.epub
+Generalized for the full book: one XHTML per chapter (prologue + ch01..ch15),
+all in one spine, one cumulative EPUB. Chapters are registered in book.json;
+entries whose markdown does not exist yet are skipped, so interim builds
+work at any point in the run.
+
+Note numbering is CONTINUOUS across the whole book (decision recorded in
+PROGRESS.md); ids ref{n}/note{n} are globally unique and the notes page
+groups bodies under chapter headings. notes.json is a dict keyed by chapter
+id. figures.json is a dict keyed by chapter id.
+
+Usage: build_reading_epub.py out/wang-yaqiao.epub
 """
 import html
 import json
 import os
+import re
 import shutil
 import sys
 import zipfile
@@ -24,7 +35,7 @@ META = {
     "author_zh": "窦应泰",
     "publisher": "Tuanjie Publishing House (团结出版社), Beijing, 2007",
     "isbn": "978-7-80130-758-3",
-    "uid": "urn:uuid:wang-yaqiao-ch1-pilot-2",
+    "uid": "urn:uuid:wang-yaqiao-full-book-1",
 }
 
 CSS = """\
@@ -49,6 +60,7 @@ a.backref { text-decoration: none; font-weight: bold; color: #7a1f1f; }
 .tp { text-align: center; margin-top: 4em; }
 .tp h1 { font-size: 1.7em; }
 .tp p { text-indent: 0; }
+h3.notechap { margin-top: 2em; font-style: italic; }
 """
 
 XHTML = """<?xml version="1.0" encoding="utf-8"?>
@@ -62,45 +74,26 @@ XHTML = """<?xml version="1.0" encoding="utf-8"?>
 </body></html>
 """
 
-# Figures keyed to the paragraph they should precede in the reading flow.
-FIGURES = {
-    "p0022-f1.png": {
-        "before": "Hmph. Today is the day you die",
-        "caption": "Chen Diaoyuan, Chairman of the Anhui Provincial "
-                   "Government, appointed by Chiang Kai-shek. From the "
-                   "original edition.",
-        "alt": "Portrait of Chen Diaoyuan"},
-    "p0028-f1.png": {
-        "before": "Chiang Kai-shek sat frozen.",
-        "caption": "Photograph inset at this point in the original edition; "
-                   "no caption is legible in the scan.",
-        "alt": "Photograph inset in the original edition"},
-    "p0031-f1.png": {
-        "before": "Only then did Bo Wenwei understand",
-        "caption": "Bo Wenwei, elder of the 1911 Revolution, as identified "
-                   "by the caption in the original edition.",
-        "alt": "Portrait of Bo Wenwei"},
-}
-
 
 def esc(text):
     return html.escape(text, quote=False)
 
 
-def load_notes():
-    path = os.path.join(ROOT, "notes.json")
+def load_json(name, default):
+    path = os.path.join(ROOT, name)
     if not os.path.exists(path):
-        return []
+        return default
     return json.load(open(path))
 
 
-def insert_notes(paragraph, notes, counter):
+def insert_notes(paragraph, notes, counter, doc):
     """Attach a superscript reference after each note's anchor phrase.
 
     Candidates are ordered by where they actually fall in the paragraph, so
     the numbering follows the reader's eye rather than the order the notes
-    happen to sit in the source file. Anchors are matched against the plain
-    text before escaping, so they are written the way the prose reads.
+    happen to sit in the source file. Anchors are matched against the text
+    BEFORE any markup substitution (the substitutions would otherwise eat
+    the anchors) and after HTML escaping, same as the prose itself.
     """
     hits = []
     for note in notes:
@@ -113,6 +106,7 @@ def insert_notes(paragraph, notes, counter):
         counter[0] += 1
         note["n"] = counter[0]
         note["used"] = True
+        note["doc"] = doc
         ref = ('<a class="noteref" epub:type="noteref" id="ref%d" '
                'href="notes.xhtml#note%d"><sup>%d</sup></a>'
                % (note["n"], note["n"], note["n"]))
@@ -120,25 +114,31 @@ def insert_notes(paragraph, notes, counter):
     return paragraph
 
 
-def render_notes_page(notes):
-    used = sorted([n for n in notes if n.get("used")], key=lambda x: x["n"])
+def render_notes_page(chapters, notes_by_chap):
     parts = ['<h1>Notes</h1>',
              '<p class="note">Each number links back to its place in the '
              'text. Notes marked as uncertain are places where the scan is '
              'damaged and my reading is inference rather than sight.</p>']
-    for note in used:
-        parts.append(
-            '<div class="endnote" id="note%d" epub:type="footnote">'
-            '<p><a class="backref" href="ch01.xhtml#ref%d">%d.</a> %s</p></div>'
-            % (note["n"], note["n"], note["n"], note["note"]))
-    if not used:
+    any_used = False
+    for chap in chapters:
+        used = sorted([n for n in notes_by_chap.get(chap["id"], [])
+                       if n.get("used")], key=lambda x: x["n"])
+        if not used:
+            continue
+        any_used = True
+        parts.append('<h3 class="notechap">%s</h3>' % esc(chap["nav"]))
+        for note in used:
+            parts.append(
+                '<div class="endnote" id="note%d" epub:type="footnote">'
+                '<p><a class="backref" href="%s#ref%d">%d.</a> %s</p></div>'
+                % (note["n"], note["doc"], note["n"], note["n"], note["note"]))
+    if not any_used:
         parts.append("<p>No notes.</p>")
     return "\n".join(parts)
 
 
-def render_body(md_path, figures, notes):
+def render_body(md_path, figures, notes, counter, doc):
     out, first = [], True
-    counter = [0]
     for raw in open(md_path):
         line = raw.strip()
         if not line:
@@ -166,8 +166,8 @@ def render_body(md_path, figures, notes):
                 fig["placed"] = True
         # notes first: the italic substitution below would otherwise eat
         # any anchor phrase containing the markup
-        text = insert_notes(esc(line), notes, counter)
-        text = text.replace("*Dongzheng*", "<i>Dongzheng</i>")
+        text = insert_notes(esc(line), notes, counter, doc)
+        text = re.sub(r"\*([^*\n]+)\*", r"<i>\1</i>", text)
         cls = ' class="first"' if first else ""
         out.append("<p%s>%s</p>" % (cls, text))
         first = False
@@ -182,37 +182,47 @@ def render_glossary(gloss):
         parts.append("<h3>%s</h3><dl class=\"gloss\">"
                      % esc(section.replace("_", " ").title()))
         for zh, rec in sorted(entries.items(), key=lambda kv: kv[1]["pinyin"]):
-            note = (" \u00b7 " + esc(rec["note"])) if rec.get("note") else ""
+            note = (" · " + esc(rec["note"])) if rec.get("note") else ""
+            status = ""
+            if rec.get("status") == "provisional":
+                status = " · <i>romanization mine; not found in English scholarship</i>"
             parts.append("<dt>%s <span lang=\"zh-Hans\">%s</span></dt>"
-                         "<dd>%s%s</dd>"
-                         % (esc(rec["en"]), esc(zh), esc(rec["pinyin"]), note))
+                         "<dd>%s%s%s</dd>"
+                         % (esc(rec["en"]), esc(zh), esc(rec["pinyin"]), note, status))
         parts.append("</dl>")
     return "\n".join(parts)
 
 
-TRANSLATOR_NOTE = """\
-<h1>Translator's Note</h1>
-<p class="note">This edition contains Chapter One complete (all four
-sections, printed pages 9 to 26 of the second edition, Tuanjie Publishing
-House, Beijing, 2007). Chapters Two through Fifteen follow in later
-builds.</p>
+TRANSLATOR_NOTE_BODY = """\
 <p class="note">The source is a scanned book with no digital text. The text
-was recovered by optical character recognition and corrected against
-magnified images of the physical pages; every proper name that appears here
-was verified against the scan rather than trusted to the OCR. A complete
-bilingual audit file, keyed paragraph by paragraph to the Chinese and
-marking every reading I could not fully confirm, exists alongside this
+was recovered by optical character recognition, read twice by independent
+engine configurations and diffed, and corrected against magnified images of
+the physical pages; every proper name and every load-bearing number that
+appears here was verified against the scan rather than trusted to the OCR.
+A complete bilingual audit file, keyed paragraph by paragraph to the Chinese
+and marking every reading I could not fully confirm, exists alongside this
 edition for anyone who wants to check the translation's workings.</p>
-<p class="note">Two of the Hatchet Gang members named in this section, Wu
-Hongtai and Xuan Jimin, do not appear in English-language scholarship that I
-could find, so the romanizations are mine. Chen Diaoyuan's offices, Bo
-Wenwei's command of the 33rd Army, and the gift of British mortars and Krupp
-guns are the author's claims; the first two are consistent with the standard
-histories, the third I have not confirmed.</p>
-<p class="note">The book is popular history in a novelistic key \u2014
+<p class="note">Renderings of names follow pinyin except where an English
+conventional form exists (Chiang Kai-shek, Sun Yat-sen). Names marked in the
+glossary as provisional are romanizations of my own that I could not find
+attested in English-language scholarship. Notes state, where the book
+crosses documented history, whether the book's claim is corroborated,
+uncorroborated, or contradicted by the scholarship I could reach.</p>
+<p class="note">The book is popular history in a novelistic key —
 scenes, dialogue and inner thoughts are dramatized well beyond what any
 source could support. The translation keeps that voice. It should be read as
 storytelling built on a real life, not as documentation of one.</p>"""
+
+
+def coverage_sentence(chapters):
+    names = [c["nav"].split(":")[0] for c in chapters]
+    if len(names) == 17:
+        return ("<p class=\"note\">This edition contains the complete book: "
+                "prologue and all fifteen chapters (printed pages 1 to 325 of "
+                "the second edition, Tuanjie Publishing House, Beijing, "
+                "2007).</p>")
+    return ("<p class=\"note\">This build contains: %s. Remaining chapters "
+            "follow in later builds.</p>" % ", ".join(esc(n) for n in names))
 
 
 def write(path, body, title):
@@ -220,26 +230,32 @@ def write(path, body, title):
         fh.write(XHTML % {"title": esc(title), "body": body})
 
 
-def main(md_path, epub_path):
+def main(epub_path):
+    book = load_json("book.json", [])
+    chapters = [c for c in book
+                if os.path.exists(os.path.join(ROOT, c["file"]))]
+    if not chapters:
+        sys.exit("no chapter markdown found; check book.json")
+
     if os.path.isdir(BUILD):
         shutil.rmtree(BUILD)
     oebps = os.path.join(BUILD, "OEBPS")
     os.makedirs(os.path.join(oebps, "images"))
     os.makedirs(os.path.join(BUILD, "META-INF"))
 
-    gloss = json.load(open(os.path.join(ROOT, "glossary.json")))
+    gloss = load_json("glossary.json", {})
+    notes_by_chap = load_json("notes.json", {})
+    figspec = load_json("figures.json", {})
 
-    figures, manifest_figs = [], []
-    fm = os.path.join(FIGS, "manifest.json")
-    if os.path.exists(fm):
-        for rec in json.load(open(fm)):
-            spec = FIGURES.get(rec["file"])
-            if not spec:
+    manifest_figs = []
+    for chap in chapters:
+        for spec in figspec.get(chap["id"], []):
+            src = os.path.join(FIGS, spec["file"])
+            if not os.path.exists(src):
                 continue
-            shutil.copy(os.path.join(FIGS, rec["file"]),
-                        os.path.join(oebps, "images", rec["file"]))
-            manifest_figs.append(rec["file"])
-            figures.append(dict(spec, file=rec["file"]))
+            shutil.copy(src, os.path.join(oebps, "images", spec["file"]))
+            if spec["file"] not in manifest_figs:
+                manifest_figs.append(spec["file"])
 
     cover = os.path.join(PNG, "cover.jpg")
     has_cover = os.path.exists(cover)
@@ -251,35 +267,45 @@ def main(md_path, epub_path):
 
     write(os.path.join(oebps, "titlepage.xhtml"),
           '<div class="tp"><h1>%s</h1>'
-          '<p lang="zh-Hans">%s</p><p>%s \u00b7 <span lang="zh-Hans">%s</span></p>'
-          '<p class="note">%s</p><p class="note">English translation \u00b7 pilot edition</p></div>'
+          '<p lang="zh-Hans">%s</p><p>%s · <span lang="zh-Hans">%s</span></p>'
+          '<p class="note">%s</p><p class="note">English translation</p></div>'
           % (esc(META["title"]), esc(META["title_zh"]), esc(META["author"]),
              esc(META["author_zh"]), esc(META["publisher"])),
           META["title"])
 
-    notes = load_notes()
-    write(os.path.join(oebps, "ch01.xhtml"),
-          render_body(md_path, figures, notes), "Chapter One")
-    write(os.path.join(oebps, "notes.xhtml"), render_notes_page(notes), "Notes")
+    counter = [0]
+    for chap in chapters:
+        doc = chap["id"] + ".xhtml"
+        body = render_body(os.path.join(ROOT, chap["file"]),
+                           figspec.get(chap["id"], []),
+                           notes_by_chap.get(chap["id"], []),
+                           counter, doc)
+        write(os.path.join(oebps, doc), body, chap["nav"])
+
+    write(os.path.join(oebps, "notes.xhtml"),
+          render_notes_page(chapters, notes_by_chap), "Notes")
 
     write(os.path.join(oebps, "backmatter.xhtml"),
-          TRANSLATOR_NOTE
+          "<h1>Translator's Note</h1>"
+          + coverage_sentence(chapters)
+          + TRANSLATOR_NOTE_BODY
           + "<h1>Glossary of Names and Terms</h1>"
           + render_glossary(gloss),
           "Translator's Note")
 
-    docs = [("titlepage.xhtml", "Title Page"),
-            ("ch01.xhtml", "Chapter One: A First Assassination, Badly Begun"),
-            ("notes.xhtml", "Notes"),
-            ("backmatter.xhtml", "Translator's Note and Glossary")]
+    docs = [("titlepage.xhtml", "Title Page")]
+    docs += [(c["id"] + ".xhtml", c["nav"]) for c in chapters]
+    docs += [("notes.xhtml", "Notes"),
+             ("backmatter.xhtml", "Translator's Note and Glossary")]
 
+    first_body = chapters[0]["id"] + ".xhtml"
     nav = ('<nav epub:type="toc" id="toc"><h1>Contents</h1><ol>'
            + "".join('<li><a href="%s">%s</a></li>' % (f, esc(t)) for f, t in docs)
            + "</ol></nav>"
            '<nav epub:type="landmarks" hidden="hidden"><ol>'
            '<li><a epub:type="titlepage" href="titlepage.xhtml">Title Page</a></li>'
-           '<li><a epub:type="bodymatter" href="ch01.xhtml">Begin Reading</a></li>'
-           "</ol></nav>")
+           '<li><a epub:type="bodymatter" href="%s">Begin Reading</a></li>'
+           "</ol></nav>" % first_body)
     write(os.path.join(oebps, "nav.xhtml"), nav, "Contents")
 
     ncx = "".join(
@@ -340,8 +366,8 @@ def main(md_path, epub_path):
                 full = os.path.join(base, name)
                 z.write(full, os.path.relpath(full, BUILD),
                         compress_type=zipfile.ZIP_DEFLATED)
-    print("wrote", epub_path)
+    print("wrote", epub_path, "with %d chapters" % len(chapters))
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    main(sys.argv[1])
