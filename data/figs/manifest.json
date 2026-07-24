@@ -46,5 +46,38 @@
   "file": "p0031-f1.png",
   "page": 31,
   "printed": 21
+ },
+ {
+  "x": 510,
+  "y": 255,
+  "w": 1752,
+  "h": 1165,
+  "density": 0.77,
+  "page_frac": 0.245,
+  "page": 40,
+  "printed": 30,
+  "file": "p0040-f1.png"
+ },
+ {
+  "x": 1103,
+  "y": 234,
+  "w": 876,
+  "h": 1016,
+  "density": 0.756,
+  "page_frac": 0.107,
+  "page": 41,
+  "printed": 31,
+  "file": "p0041-f1.png"
+ },
+ {
+  "x": 502,
+  "y": 232,
+  "w": 782,
+  "h": 999,
+  "density": 0.605,
+  "page_frac": 0.094,
+  "page": 42,
+  "printed": 32,
+  "file": "p0042-f1.png"
  }
 ]
