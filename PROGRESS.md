@@ -44,6 +44,39 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
 (OCR gave 投影蛋恒/秽影恒屋困香江, likely 蛰影 or similar), ch14 section 47 subject
 (戴笠遗书 vs other), ch8 section 30 (朝鲜义士 name, likely 金九 Kim Gu).
 
+## Chapter datelines (Winston's request)
+
+The book has NO consistent opening dateline. Only ch1 (Oct 13 1927) and ch2
+(March 1928, Hefei) state a date at the opening; ch3, ch4 and the prologue
+state none at all, and ch5/ch6 bury theirs mid-chapter. Per Winston: supply a
+best-guess dateline at each chapter opening, ALWAYS followed by a note saying
+it was added and how uncertain it is.
+
+Implementation: a "dateline" key per chapter in book.json; the builder renders
+it in brackets, italic, set apart from the prose; every dateline carries a
+note stating whether it is the translator's inference or the author's own
+date, what it rests on, and how firm it is. Datelines for ch1/ch2 reproduce
+the author's own date and say so.
+
+Confidence, chapter by chapter:
+- prologue: April 1927 anchored to the Apr 18 1927 founding assembly. Firm for
+  the events; the surrounding scene is full of 1930s anachronisms (noted).
+- ch3: summer 1930, back-calculated from the book's own June 30/July 24 dates
+  and the documented July 24 1930 killing. Firm at the back, soft at the front.
+- ch4: summer 1930 - WEAKEST. The book implies it follows ch3; outside accounts
+  date the Jiang'an affair to 1932. Conflict stated in the note.
+- ch5: March-June 1931. Strongest: both ends independently corroborated.
+- ch6: June-July 1931. Well anchored; North Station shooting documented to
+  July 23 1931.
+
+A REAL BUG surfaced while adding these and was fixed: insert_notes ordered
+note references by where an anchor STARTS, but a reference lands where the
+anchor ENDS. When one anchor contained another ("Lushan" inside the ch5
+dateline) the numbers rendered out of order and qa_epub correctly failed the
+build. Now sorted by end position, which is right in every case. Datelines
+also match notes by exact string only, so a general prose note cannot be
+captured by translator-inserted text and stolen from the author's first use.
+
 ## Per-chapter log
 
 ### Prologue (小引) - DONE (all checks signed off)

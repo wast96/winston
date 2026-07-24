@@ -61,6 +61,8 @@ a.backref { text-decoration: none; font-weight: bold; color: #7a1f1f; }
 .tp h1 { font-size: 1.7em; }
 .tp p { text-indent: 0; }
 h3.notechap { margin-top: 2em; font-style: italic; }
+p.dateline { text-indent: 0; font-style: italic; color: #666;
+             font-size: 0.95em; margin: -0.8em 0 1.6em; }
 """
 
 XHTML = """<?xml version="1.0" encoding="utf-8"?>
@@ -104,22 +106,37 @@ def load_json(name, default):
     return json.load(open(path))
 
 
-def insert_notes(paragraph, notes, counter, doc):
+def insert_notes(paragraph, notes, counter, doc, only_exact=False):
     """Attach a superscript reference after each note's anchor phrase.
 
-    Candidates are ordered by where they actually fall in the paragraph, so
-    the numbering follows the reader's eye rather than the order the notes
-    happen to sit in the source file. Anchors are matched against the text
-    BEFORE any markup substitution (the substitutions would otherwise eat
-    the anchors) and after HTML escaping, same as the prose itself.
+    Candidates are ordered by where their reference will actually LAND -- the
+    end of the anchor, not its start. Sorting by start position looks right
+    until one anchor contains another ("Lushan" inside "Shanghai, Nanjing and
+    Lushan, March to June 1931"): the containing anchor starts first but ends
+    last, so its marker renders after the shorter one's and the numbering runs
+    backwards. Sorting by end position makes the numbers follow the reader's
+    eye in every case.
+
+    Anchors are matched against the text BEFORE any markup substitution (the
+    substitutions would otherwise eat the anchors) and after HTML escaping,
+    same as the prose itself.
+
+    only_exact restricts matching to a note whose anchor is the whole string.
+    Translator-supplied text (the datelines) passes this so that a general
+    prose note cannot be captured by our own insertion and stolen from the
+    author's first use of the term.
     """
     hits = []
     for note in notes:
         if note.get("used"):
             continue
+        if only_exact:
+            if note["anchor"] == paragraph:
+                hits.append((len(paragraph), note))
+            continue
         pos = paragraph.find(note["anchor"])
         if pos >= 0:
-            hits.append((pos, note))
+            hits.append((pos + len(note["anchor"]), note))
     for _, note in sorted(hits, key=lambda h: h[0]):
         counter[0] += 1
         note["n"] = counter[0]
@@ -155,7 +172,15 @@ def render_notes_page(chapters, notes_by_chap):
     return "\n".join(parts)
 
 
-def render_body(md_path, figures, notes, counter, doc):
+def render_body(md_path, figures, notes, counter, doc, dateline=None):
+    """Render one chapter.
+
+    `dateline` is the TRANSLATOR'S inference, not the author's text: the book
+    opens only some chapters with a date, and leaves the reader to carry the
+    chronology forward from wherever it was last stated. Where we supply one
+    it is set apart typographically and carries a note saying it was added
+    and how sure of it we are, so it can never be mistaken for the original.
+    """
     out, first = [], True
     for raw in open(md_path):
         line = raw.strip()
@@ -169,6 +194,12 @@ def render_body(md_path, figures, notes, counter, doc):
                 out.append("<h1>%s</h1><h2>%s</h2>" % (esc(parts[0]), esc(parts[1])))
             else:
                 out.append("<h1>%s</h1>" % esc(line[3:]))
+            if dateline:
+                # through insert_notes so a note anchored to the dateline
+                # text attaches its reference here
+                out.append('<p class="dateline">[%s]</p>'
+                           % insert_notes(esc(dateline), notes, counter, doc,
+                                          only_exact=True))
             first = True
             continue
         if line.startswith("### "):
@@ -304,7 +335,7 @@ def main(epub_path):
         body = render_body(os.path.join(ROOT, chap["file"]),
                            figspec.get(chap["id"], []),
                            notes_by_chap.get(chap["id"], []),
-                           counter, doc)
+                           counter, doc, chap.get("dateline"))
         write(os.path.join(oebps, doc), body, chap["nav"])
 
     write(os.path.join(oebps, "notes.xhtml"),

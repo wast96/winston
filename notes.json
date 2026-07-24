@@ -1,6 +1,10 @@
 {
  "ch01": [
   {
+   "anchor": "Nanjing, 13 October 1927",
+   "note": "This dateline is the author's own, not the translator's: the chapter's first sentence gives the date outright. It is set in brackets here only to match the other chapters, where the date had to be supplied. The events are also independently anchored - Chen Diaoyuan had taken office in Anhui earlier that year."
+  },
+  {
    "anchor": "an unlucky date",
    "note": "The Chinese says plainly that the day was unlucky <i>in Western eyes</i> (在西方人眼里). Thirteen carries no such charge in Chinese, where the ominous number is four, 四 <i>sì</i>, being a near-homophone of 死 <i>sǐ</i>, to die. The author opens by borrowing a foreign superstition to cast a shadow, a small piece of exoticism that reads as portentous in Chinese and merely flat in English."
   },
@@ -235,6 +239,10 @@
  ],
  "prologue": [
   {
+   "anchor": "Nanjing, April 1927",
+   "note": "Dateline supplied by the translator; the book gives none. The original opens on place alone (\"Nanjing. Sunset...\") and never states a year anywhere in the prologue except 1916, in a flashback. I place the scene in April 1927 because the assembly Wang Yaqiao addresses is the founding of the Nanjing National Government, which met on April 18, 1927. That anchor is firm. What is NOT firm is that the audience scene with Dai Li belongs to the same weeks: as the notes below set out, several institutions in it (the Attendants' Office, the Ten-Man Team, the Ji'e Alley headquarters) belong to the 1930s, and Dai Li in April 1927 was a Whampoa cadet. So read this dateline as marking the events the prologue describes, not as a claim that the book's chronology holds together."
+  },
+  {
    "anchor": "official residence on Huangpu Road",
    "note": "黄埔路, Huangpu Road, in Nanjing's northeastern quarter, took its name from the successor institutions of the Whampoa (Huangpu) Military Academy headquartered along it, and Chiang's famous residence-office there, the Qilu bungalow, was built only around 1929–31. Nothing places this scene's April 1927 summons at that address; the author is furnishing the story with the residence every later reader of Republican history knows. Uncorroborated for the date."
   },
@@ -320,6 +328,10 @@
   }
  ],
  "ch02": [
+  {
+   "anchor": "Hefei, March 1928",
+   "note": "This dateline is the author's own, not the translator's: the chapter opens with it in the text. Note however that the events gathered under it are documented to 1929 and 1930 - Fang Zhenwu's arrest to September 1929, Wang Leping's assassination to February 1930 - so the author's own date is a frame he has imposed rather than a reliable one. The notes below give each strand its real date."
+  },
   {
    "anchor": "March 1928, Hefei",
    "note": "The chapter's clock is the author's, not history's. The events it braids together are documented in 1929 and 1930: Chen Diaoyuan left the Anhui chairmanship and Fang Zhenwu received it in 1929; Fang was seized in September 1929; Wang Leping was assassinated in February 1930. Dating the whole braid \"March 1928\" compresses two years into one spring, and the notes below mark each strand's real date. Contradicted as chronology; the strands themselves are largely real."
@@ -455,6 +467,10 @@
  ],
  "ch03": [
   {
+   "anchor": "Shanghai and Hefei, spring to summer 1930",
+   "note": "Dateline supplied by the translator; the book gives none at the chapter opening. The chapter's own internal dates are firm at the end (June 30 and July 24, 1930, both printed in the text), and Zhao Tieqiao's killing is independently documented to July 24, 1930. Working backward from that, the investigation and the Great Fortune banquet fall across the spring and early summer. The uncertainty is at the front of the chapter, not the back."
+  },
+  {
    "anchor": "the University of California",
    "note": "加州大学财经系. Zhao Tieqiao's documented education was in Japan, at the Tokyo Higher Technical School, and his politics were formed in the Tongmenghui, not in America; the American finance degree appears to be the author's furnishing. It does useful work in the scene — it makes Zhao the kind of polished returned student Wang Yaqiao is written as admiring, and it sets up the class contrast with a gang boss who reads men rather than books."
   },
@@ -580,6 +596,10 @@
   }
  ],
  "ch04": [
+  {
+   "anchor": "Shanghai, summer 1930",
+   "note": "Dateline supplied by the translator, and the least secure in the book so far. The chapter carries no date of its own and reads as following directly on chapter three, which would put it in the weeks after July 24, 1930. But the outside accounts of the Jiang'an affair date it to 1932, after Li Guojie recovered control of the China Merchants company - and the chapter's closing death of Li Guojie did not happen at all (see the note there). I give the dateline the book implies rather than the one the record supports, and flag the conflict here rather than silently choosing."
+  },
   {
    "anchor": "Better to Die on Your Feet Than Live on Your Knees",
    "note": "宁可站着死，绝不跪着生. This is the maxim in its standard orientation, and it is the chapter title the book's own table of contents gives — but note that on the page in chapter two the same maxim appears inverted (\"rather live standing than die kneeling\"). Both readings are unambiguous in the scan. I translate each as printed and flag the inconsistency rather than harmonize it."
@@ -738,6 +758,10 @@
   }
  ],
  "ch05": [
+  {
+   "anchor": "Shanghai, Nanjing and Lushan, March to June 1931",
+   "note": "Dateline supplied by the translator, though this one rests on the book's own evidence: the second paragraph places the opening \"after the Spring Festival of 1931,\" and the chapter runs through to the Lushan attempt in June. Both ends are corroborated - Hu Hanmin was detained on February 28, 1931, and the assassination attempt on Lushan is documented to June 1931. This is the most reliable dateline in the book so far."
+  },
   {
    "anchor": "the tree may wish for stillness; the wind does not stop",
    "note": "树欲静而风不止, from the <i>Han Shi Waizhuan</i>: \"the tree wishes to be still, but the wind will not cease; the son wishes to serve, but the parents do not wait.\" In the original it is a lament about filial time running out; in general use it means events will not leave a man alone however much he wants quiet. The book uses it exactly as a chapter hinge — Wang Yaqiao has just retired, and the world comes for him."
@@ -905,6 +929,12 @@
   {
    "anchor": "Chen Cheng was dead",
    "note": "陈成, the university student who died on Lushan. He should not be confused with the far more famous general Chen Cheng (陈诚, 1898-1965), one of Chiang Kai-shek's principal commanders — a different man with a different second character. The two names are distinguishable in Chinese and identical in pinyin, which is precisely the kind of collision that makes a romanized name ledger necessary."
+  }
+ ],
+ "ch06": [
+  {
+   "anchor": "Shanghai and Nanjing, June to July 1931",
+   "note": "Dateline supplied by the translator. The book prints June 28, 1931 partway into the chapter and July 23, 1931 near its end, and the North Station shooting is independently documented to July 23, 1931; the opening section, with Dai Li reporting to Chiang on Lushan, follows immediately on the June attempt of the previous chapter. The span is therefore well anchored at both ends."
   }
  ]
 }

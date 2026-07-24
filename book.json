@@ -2,37 +2,44 @@
  {
   "id": "prologue",
   "file": "out/prologue_reading.md",
-  "nav": "Prologue: Chiang Kai-shek, Dai Li, Wang Yaqiao"
+  "nav": "Prologue: Chiang Kai-shek, Dai Li, Wang Yaqiao",
+  "dateline": "Nanjing, April 1927"
  },
  {
   "id": "ch01",
   "file": "reference/ch1_reading.md",
-  "nav": "Chapter One: A First Assassination, Badly Begun"
+  "nav": "Chapter One: A First Assassination, Badly Begun",
+  "dateline": "Nanjing, 13 October 1927"
  },
  {
   "id": "ch02",
   "file": "out/ch02_reading.md",
-  "nav": "Chapter Two: First Rehearsal for the Murder of Chiang Kai-shek"
+  "nav": "Chapter Two: First Rehearsal for the Murder of Chiang Kai-shek",
+  "dateline": "Hefei, March 1928"
  },
  {
   "id": "ch03",
   "file": "out/ch03_reading.md",
-  "nav": "Chapter Three: The Execution of Zhao Tieqiao"
+  "nav": "Chapter Three: The Execution of Zhao Tieqiao",
+  "dateline": "Shanghai and Hefei, spring to summer 1930"
  },
  {
   "id": "ch04",
   "file": "out/ch04_reading.md",
-  "nav": "Chapter Four: Foiling Shanghai's Three Big Bosses"
+  "nav": "Chapter Four: Foiling Shanghai's Three Big Bosses",
+  "dateline": "Shanghai, summer 1930"
  },
  {
   "id": "ch05",
   "file": "out/ch05_reading.md",
-  "nav": "Chapter Five: The Great Lushan Assassination"
+  "nav": "Chapter Five: The Great Lushan Assassination",
+  "dateline": "Shanghai, Nanjing and Lushan, March to June 1931"
  },
  {
   "id": "ch06",
   "file": "out/ch06_reading.md",
-  "nav": "Chapter Six: Two Murders with Different Roots, the Same Day, at Shanghai North Station"
+  "nav": "Chapter Six: Two Murders with Different Roots, the Same Day, at Shanghai North Station",
+  "dateline": "Shanghai and Nanjing, June to July 1931"
  },
  {
   "id": "ch07",
