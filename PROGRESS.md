@@ -108,10 +108,19 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
   Entity check caught 4 real drops (attribution, agent, two names) - fixed;
   remaining 18 flags adjudicated as pronominalization.
 - Build: QA PASS, 3 documents, 112 refs/bodies/backlinks.
-- Pending: blind pass B diff + back-translation omission check (agents
-  running); sign-off entry follows.
+- Blind double translation: DONE. Pass B by a fresh-context agent, 94/94
+  paragraphs, mean string similarity 0.331 (lower than the prologue's 0.485
+  because this chapter is dialogue-heavy, where two translators diverge in
+  wording far more than in narration). All 8 most-divergent paragraphs
+  reviewed line by line: every one is a stylistic difference, zero meaning
+  conflicts, zero [UNCLEAR] flags raised by pass B. Pass B independently
+  reached the same reading on every load-bearing point.
+- Back-translation omission check: STILL RUNNING at handoff (agent writing
+  data/qc/ch02_backzh.txt). To finish: diff its 94 lines against
+  data/zh/ch02.txt by CJK length ratio + SequenceMatcher, same script as
+  the prologue used; flag ratio <0.72 or >1.40 or sim <0.35, adjudicate.
 
-### Ch 3 (诛杀赵铁桥) - translated, A/B + round-trip in flight
+### Ch 3 (诛杀赵铁桥) - translated; A/B + round-trip in flight at handoff
 
 - Printed 43-56, PDF 53-66. 98 source paragraphs; all 14 pages eye-verified
   against magnified scans.
@@ -136,8 +145,40 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
 - Invariants 0/98 after further NOISE growth. Entity check caught 6 real
   drops - fixed; remaining 20 adjudicated as pronominalization.
 - Build: QA PASS, 4 documents, 139 refs/bodies/backlinks.
+- Blind pass B: STILL RUNNING at handoff (agent writing
+  data/qc/ch03_passB.md, 98 paragraphs). Back-translation not yet launched.
 
-### Ch 4-15 - pending
+### Ch 4 (挫败上海三大亨) - prep only
+- Printed 57-80, PDF 67-90 (24 pages, the longest chapter so far).
+- Rendered + OCR'd (data/txt/p0067-p0090.txt) and page thumbnails written to
+  data/verify/. NOT yet eye-verified, NOT translated.
+- Next step: read the OCR, then eye-verify all 24 page views against it
+  before writing a word of translation.
+
+### Ch 5-15 - pending
+
+## Resuming this run
+
+The per-chapter loop, in order:
+1. render.py / ocr_crop.py / find_figures.py over the chapter's PDF range
+2. read data/txt/*.txt, then READ EVERY PAGE THUMBNAIL in data/verify/ and
+   correct the OCR against it by eye; write the corrected source to
+   data/zh/chNN.txt (one paragraph per line, "### " for section heads)
+3. launch the blind pass-B agent (see the prompts used for ch2/ch3 - they
+   specify: never open out/, follow glossary.json, one paragraph per source
+   paragraph, write to data/qc/chNN_passB.md)
+4. write out/chNN_literal.md (literal, [LOW-CONF] tags kept) then
+   out/chNN_reading.md (polished, same paragraph count as source)
+5. build out/chNN_bilingual.md; run check_invariants.py and qc_entities.py;
+   fix real drops, adjudicate the rest
+6. diff pass B; launch and diff the back-translation
+7. web-check every historical claim; write notes into notes.json under the
+   chapter key, new names into glossary.json with status
+8. figures.json entry (or [] with a reason); build_reading_epub.py; qa_epub.py
+9. update PROGRESS.md, commit, push
+
+Note numbering is CONTINUOUS across the book and is assigned at build time
+by reading order, so notes.json order within a chapter does not matter.
 
 ## Checks status (Winston's 8)
 
