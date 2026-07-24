@@ -7,3 +7,6 @@ __pycache__/
 *.pyc
 out/*.epub
 reference/wang-yaqiao-ch1.epub
+data/zh/
+data/txt/
+data/verify/
