@@ -46,7 +46,7 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
 
 ## Per-chapter log
 
-### Prologue (小引) - DONE (pending back-translation diff sign-off)
+### Prologue (小引) - DONE (all checks signed off)
 
 - Printed 1-8, PDF 11-18. 54 source paragraphs, all eight pages eye-verified
   against the scan (full-page magnified views), not trusted to OCR.
@@ -62,7 +62,9 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
   zero meaning conflicts. Invariants: 0 unresolved (NOISE list extended;
   bare-一 suppressed as chronic false positive, documented in script).
   Entities: 5 flags, all natural pronominalization, adjudicated OK.
-  Back-translation omission check: pending agent completion, diff to follow.
+  Back-translation omission check: PASS. 54/54 paragraphs, mean length
+  ratio 1.02, one flag (para 32) adjudicated as checker-side expansion of
+  "unnoticed"; zero omissions, zero additions detected.
 - Literal pass with the polished layer beside it: out/prologue_literal.md
   vs out/prologue_reading.md. Bilingual audit: out/prologue_bilingual.md.
 - Notes: 21 (2.6/printed page). Scholarship checks run via web: Feng
