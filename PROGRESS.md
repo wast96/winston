@@ -361,7 +361,60 @@ quietly smoothing it:
 - The book says bleaching powder in one place and talc in another for the
   same smoke screen. Outside accounts say smoke bombs. Noted, not reconciled.
 
-### Ch 7-15 - pending
+### Ch 7 - printed 137-152 - ASSESSMENT, not translation
+
+See out/ch07_assessment.md. Synopsis plus reliability verdicts.
+
+THE FINDING THAT MATTERS: chapter seven resolves the Japanese strand of
+chapter six into a real conspiracy. Tanaka Ryukichi arranged the murder of
+Japanese Nichiren monks in Zhabei on 18 January 1932 - one died - and the
+riots that followed ran straight into the Japanese attack of 28 January. He
+confessed to it in 1956. The book has the right instigator, sect, method and
+consequence, and has moved the crime to Longhua Temple, made the victim a
+single aged abbot, and back-dated the setup to July 1931. So the strand is
+FICTIONALIZED AROUND A DOCUMENTED EVENT, not invented from nothing. This is
+more misleading than plain fabrication: check any single element and it
+confirms.
+
+Cascaded back into the shipped notes - three ch6 notes and one ch5 note
+revised, rebuilt, qa_epub PASS at 277 notes.
+
+Also: the Soong case did not break until 1934, through an informer of Dai
+Li's own, so Du Yuesheng's lead is unsupported; Ni Guizhen's 18 August 1931
+funeral is exact; Hu Amao was a real martyr of the 1932 fighting but a
+conscripted civilian driver, not one of Wang's men; and ch7 founds the Iron
+and Blood corps in November 1931, contradicting ch5's use of it that spring.
+
+### Ch 8 - printed 153-176 - synopsis written, verdicts pending
+
+out/ch08_assessment.md. Central claim: that the Hongkou Park bombing of
+29 April 1932 was Wang Yaqiao's operation, run through the Korean
+independence movement because his own men could not get into the park.
+Six questions logged, the sharpest being whether Shirakawa - who commanded
+the Shanghai Expeditionary ARMY - was ever aboard the NAVY's flagship Izumo,
+since that premise carries the chapter's whole opening set piece.
+
+### Ch 9 - printed 177-200 - prepped, research running
+
+Sections: 31 Soong Mei-ling proposes buying Wang over; 32 writers taunt him
+over the Lytton Report; 33 an empty-city stratagem on a hotel ninth floor;
+34 sisters into danger and a maid's death. The plot is against Lord Lytton
+at Sassoon House. Chronology to watch: the Lytton Report was published in
+October 1932, but the commission had left China by then, so a Wang enraged
+by the published report hunting Lytton in a Shanghai hotel may be impossible
+on its face.
+
+### Ch 10-15 - pending
+
+## NOTE ON METHOD, from 2026-07-24
+
+The deliverable changed partway through this run. Chapters 1-6 exist as full
+translation and ship in out/wang-yaqiao.epub. From chapter 7 the work is
+synopsis plus documented reliability assessment rather than a complete
+English edition of the book - my own analysis, not a reproduction of the
+original. The apparatus, glossary, build and QA all still apply to what is
+built. data/zh/ and data/txt/ are no longer tracked in git; they stay local
+so the bilingual QC and the invariant checker keep working.
 
 ## Resuming this run
 

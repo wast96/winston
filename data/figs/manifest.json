@@ -376,5 +376,93 @@
   "page": 180,
   "printed": 170,
   "file": "p0180-f1.png"
+ },
+ {
+  "x": 1385,
+  "y": 1564,
+  "w": 611,
+  "h": 790,
+  "density": 0.804,
+  "page_frac": 0.058,
+  "page": 187,
+  "printed": 177,
+  "file": "p0187-f1.png"
+ },
+ {
+  "x": 1067,
+  "y": 646,
+  "w": 958,
+  "h": 1186,
+  "density": 0.549,
+  "page_frac": 0.136,
+  "page": 189,
+  "printed": 179,
+  "file": "p0189-f1.png"
+ },
+ {
+  "x": 470,
+  "y": 584,
+  "w": 792,
+  "h": 1035,
+  "density": 0.548,
+  "page_frac": 0.098,
+  "page": 194,
+  "printed": 184,
+  "file": "p0194-f1.png"
+ },
+ {
+  "x": 840,
+  "y": 746,
+  "w": 1183,
+  "h": 794,
+  "density": 0.536,
+  "page_frac": 0.113,
+  "page": 195,
+  "printed": 185,
+  "file": "p0195-f1.png"
+ },
+ {
+  "x": 486,
+  "y": 334,
+  "w": 973,
+  "h": 1339,
+  "density": 0.417,
+  "page_frac": 0.156,
+  "page": 198,
+  "printed": 188,
+  "file": "p0198-f1.png"
+ },
+ {
+  "x": 945,
+  "y": 744,
+  "w": 1068,
+  "h": 1084,
+  "density": 0.813,
+  "page_frac": 0.139,
+  "page": 199,
+  "printed": 189,
+  "file": "p0199-f1.png"
+ },
+ {
+  "x": 480,
+  "y": 243,
+  "w": 1053,
+  "h": 1303,
+  "density": 0.56,
+  "page_frac": 0.165,
+  "page": 204,
+  "printed": 194,
+  "file": "p0204-f1.png"
+ },
+ {
+  "x": 474,
+  "y": 646,
+  "w": 1754,
+  "h": 1209,
+  "density": 0.918,
+  "page_frac": 0.254,
+  "page": 208,
+  "printed": 198,
+  "file": "p0208-f1.png"
  }
 ]
