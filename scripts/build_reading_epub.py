@@ -251,6 +251,11 @@ appears here was verified against the scan rather than trusted to the OCR.
 A complete bilingual audit file, keyed paragraph by paragraph to the Chinese
 and marking every reading I could not fully confirm, exists alongside this
 edition for anyone who wants to check the translation's workings.</p>
+<p class="note">Where a chapter opens with a bracketed line of
+place and date, that line is mine, not the author's, and a note on it says so
+and gives my reasoning. Chapters that carry no such line are the ones the
+author dated himself in his own opening sentence; there I have left his date
+to stand alone rather than print a guess beside a fact.</p>
 <p class="note">Renderings of names follow pinyin except where an English
 conventional form exists (Chiang Kai-shek, Sun Yat-sen). Names marked in the
 glossary as provisional are romanizations of my own that I could not find
