@@ -80,7 +80,7 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
   Generalissimo" conventions are mine; the anachronism notes lean on them.
   娘希匹 rendered "God damn his mother" (force kept, Ningbo lost, noted).
 
-### Ch 2 (谋杀蒋介石的第一次预演) - checks in flight
+### Ch 2 (谋杀蒋介石的第一次预演) - DONE (all checks signed off)
 
 - Printed 27-42, PDF 37-52. 94 source paragraphs; all 16 pages eye-verified
   against magnified scans; idiom spans crop-verified (真空做一回人, the
@@ -108,6 +108,9 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
   Entity check caught 4 real drops (attribution, agent, two names) - fixed;
   remaining 18 flags adjudicated as pronominalization.
 - Build: QA PASS, 3 documents, 112 refs/bodies/backlinks.
+- Back-translation omission check: PASS. 94/94 paragraphs, mean CJK length
+  ratio 0.94 (min 0.72, max 1.25), 2 flags, both adjudicated as checker-side
+  rephrasing; zero omissions, zero additions.
 - Blind double translation: DONE. Pass B by a fresh-context agent, 94/94
   paragraphs, mean string similarity 0.331 (lower than the prologue's 0.485
   because this chapter is dialogue-heavy, where two translators diverge in
@@ -120,7 +123,7 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
   data/zh/ch02.txt by CJK length ratio + SequenceMatcher, same script as
   the prologue used; flag ratio <0.72 or >1.40 or sim <0.35, adjudicate.
 
-### Ch 3 (诛杀赵铁桥) - translated; A/B + round-trip in flight at handoff
+### Ch 3 (诛杀赵铁桥) - DONE (A/B signed off; round-trip pending)
 
 - Printed 43-56, PDF 53-66. 98 source paragraphs; all 14 pages eye-verified
   against magnified scans.
@@ -145,8 +148,10 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
 - Invariants 0/98 after further NOISE growth. Entity check caught 6 real
   drops - fixed; remaining 20 adjudicated as pronominalization.
 - Build: QA PASS, 4 documents, 139 refs/bodies/backlinks.
-- Blind pass B: STILL RUNNING at handoff (agent writing
-  data/qc/ch03_passB.md, 98 paragraphs). Back-translation not yet launched.
+- Blind double translation: DONE. 98/98 paragraphs, mean similarity 0.318,
+  all top divergences reviewed = stylistic only, zero meaning conflicts,
+  zero [UNCLEAR] flags from pass B.
+- Back-translation: not yet run; queued for the halfway audit.
 
 ### Ch 4 (挫败上海三大亨) - prep only
 - Printed 57-80, PDF 67-90 (24 pages, the longest chapter so far).
@@ -154,6 +159,43 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
   data/verify/. NOT yet eye-verified, NOT translated.
 - Next step: read the OCR, then eye-verify all 24 page views against it
   before writing a word of translation.
+
+### Ch 4 (挫败上海三大亨) - translated; A/B + round-trip pending
+
+- Printed 57-80, PDF 67-90. 156 source paragraphs (longest chapter so far);
+  all 24 pages eye-verified against magnified scans.
+- Figures: 5, all with legible vertical margin captions, all translated:
+  Du Yuesheng + Zhang Xiaolin group photo; Du Yuesheng portrait; Du Yuesheng
+  as Military Affairs Commission major-general staff officer; Zhang Xiaolin
+  (whose caption states his 1940 assassination as a collaborator); Huang
+  Jinrong. This is the most heavily illustrated chapter to date.
+- Scholarship, two findings that pull opposite ways:
+  * CORROBORATED IN OUTLINE: the Jiang'an dispute is real. Outside accounts
+    agree Li Guojie's promise of the ship collided with a claim from Du
+    Yuesheng's side, that Wang mobilized hundreds of axe-men, that Du
+    apologized, and that Huang Jinrong mediated. Differences noted: those
+    accounts date it 1932 (after Li recovered control of the company) and
+    name Zhang Yanling - Zhang Xiaolin's nephew, Du's disciple - as the man
+    who refused the ship, not the book's Liu Ada.
+  * CONTRADICTED: the chapter ends by having Li Guojie murdered and dumped
+    in Suzhou Creek about a month later, his killers never sought. Li Guojie
+    was in fact tried and sentenced to 8 years over the Zhao Tieqiao killing,
+    recovered control of the China Merchants company in 1932, and lived until
+    February 1939, when Dai Li's service shot him for collaborating with the
+    Japanese occupation. The book's closing scene is an invented death. This
+    is the sharpest conflict with the record so far and is noted as such.
+- Notes: 39 (1.6/printed page - lower per page than earlier chapters because
+  this one is largely continuous dialogue, but the density is right for what
+  actually needs glossing; padding was deliberately avoided).
+- Anachronism caught: Zhang Xiaolin quotes "when the enemy advances, we
+  withdraw" as ancient military doctrine; it is the Red Army formula of these
+  same years, not the classical canon. Noted.
+- Invariants 0/156 after fixing a real ORDERING BUG in check_invariants.py:
+  a generic measure-word pattern was stripping half of 十几个 and leaving a
+  bare 十 to be read as "ten". Longest-first patterns now sort ahead of the
+  generic ones, with a comment explaining why. All earlier chapters re-run
+  clean after the fix.
+- Build: QA PASS, 5 documents, 174 refs/bodies/backlinks.
 
 ### Ch 5-15 - pending
 

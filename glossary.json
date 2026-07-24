@@ -336,6 +336,30 @@
    "en": "Wu Tiecheng",
    "status": "attested",
    "note": "Shanghai mayor; on the Zhao Tieqiao investigation commission"
+  },
+  "刘阿大": {
+   "pinyin": "Liu Ada",
+   "en": "Liu Ada",
+   "status": "provisional",
+   "note": "Du Yuesheng's man in the book's Jiang'an fight; outside accounts name Zhang Yanling instead"
+  },
+  "猪头三愣": {
+   "pinyin": "Zhutou San Leng",
+   "en": "Pig-head San Leng",
+   "status": "provisional",
+   "note": "Hatchet Gang founding hand killed in the Jiang'an brawl per the book"
+  },
+  "黑头阿三": {
+   "pinyin": "Heitou A San",
+   "en": "Black-head A San",
+   "status": "provisional",
+   "note": "Du Yuesheng's messenger; gang nickname, not a name"
+  },
+  "张燕龄": {
+   "pinyin": "Zhang Yanling",
+   "en": "Zhang Yanling",
+   "status": "attested",
+   "note": "Zhang Xiaolin's nephew, Du Yuesheng disciple; named in outside accounts as the man who refused to yield the Jiang'an"
   }
  },
  "organizations": {
@@ -528,6 +552,39 @@
    "en": "the Great Fortune restaurant",
    "status": "decided",
    "note": "Nanjing Road; name means 'great luck'"
+  },
+  "华格臬路": {
+   "pinyin": "Huagenie Lu",
+   "en": "Rue Wagner",
+   "status": "decided",
+   "note": "French Concession; Du Yuesheng's mansion, now Ningxia Road"
+  },
+  "福佑路": {
+   "pinyin": "Fuyou Lu",
+   "en": "Rue Fuyou",
+   "status": "decided"
+  },
+  "外白渡桥": {
+   "pinyin": "Waibaidu Qiao",
+   "en": "Waibaidu Bridge",
+   "status": "attested",
+   "note": "1907 steel bridge at Suzhou Creek's mouth"
+  },
+  "苏州河": {
+   "pinyin": "Suzhou He",
+   "en": "Suzhou Creek",
+   "status": "attested"
+  },
+  "老半斋": {
+   "pinyin": "Lao Banzhai",
+   "en": "the Lao Banzhai",
+   "status": "attested",
+   "note": "Yangzhou-Zhenjiang restaurant, still operating"
+  },
+  "安庆": {
+   "pinyin": "Anqing",
+   "en": "Anqing",
+   "status": "attested"
   }
  },
  "terms": {
@@ -626,6 +683,29 @@
    "pinyin": "jiaojihua",
    "en": "society flower",
    "status": "decided"
+  },
+  "江安号": {
+   "pinyin": "Jiang'an hao",
+   "en": "the Jiang'an",
+   "status": "decided",
+   "note": "China Merchants freighter at the center of ch3-4"
+  },
+  "鸿门宴": {
+   "pinyin": "Hongmen yan",
+   "en": "Hongmen banquet",
+   "status": "decided",
+   "note": "206 BC; an invitation that is a trap"
+  },
+  "一女两嫁": {
+   "pinyin": "yi nu liang jia",
+   "en": "marrying one daughter to two husbands",
+   "status": "decided"
+  },
+  "闻人": {
+   "pinyin": "wenren",
+   "en": "personage",
+   "status": "decided",
+   "note": "the honorific status Du Yuesheng cultivated"
   }
  }
 }

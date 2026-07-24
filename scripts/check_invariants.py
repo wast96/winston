@@ -22,6 +22,7 @@ WORD_NUM = {
     "second": 2, "third": 3, "first": 1, "lead": 1,
     "fourth": 4, "fifth": 5, "sixth": 6, "seventh": 7, "eighth": 8,
     "ninth": 9, "tenth": 10, "both": 2, "twice": 2,
+    "neither": 2, "either": 2, "dozen": 12, "pair": 2,
 }
 
 
@@ -40,6 +41,10 @@ def cn_to_int(token):
 # Numerals that are grammar or idiom, not quantities. Stripping these is
 # what makes the check usable; without it every 一艘 and 九爷 is a false hit.
 NOISE = [
+    # Longest-first: these must strip before the generic measure-word patterns
+    # below, or a shorter pattern eats half the phrase and leaves a bare
+    # numeral behind (十几个 -> 几个 stripped -> stray 十 read as ten).
+    r"十几", r"几十",
     r"一[艘条顶只个位群把张片口指边旁时下阵壶碟种番场股家棵套幅丢看脚]",  # measure words
     r"一[辆眼躬支丝声定天次间惊枪动言样阵路批封面团句道年身手笔]",       # more measure/idiom 一s (prologue+)
     r"[一不][旦时般点些]",
@@ -57,6 +62,15 @@ NOISE = [
     r"四起", r"五体投地", r"三大亨", r"二师兄",
     r"两[位界个]", r"四座", r"说一不二", r"零钱", r"[一二三]是",
     r"三不喝",              # "three refusals" keeps its 三 in English
+    # ch4: measure words and set phrases whose numerals are not quantities
+    r"猪头三愣", r"黑头阿三", r"阿三", r"刘阿大", r"三大[亨闻]",
+    r"三字金匾", r"三言两语", r"三分地", r"一亩三分",
+    r"[几数][盏辆个位十百千万条艘句步进层次口杯天年分]",
+    r"十[几分步]", r"五指", r"五花大绑", r"三巡", r"再三",
+    r"一[举动身面言语气日夜时刻步分寸点]",
+    r"两[头端边面全难]", r"三[番两教]", r"四[面方处海座]",
+    r"九[鼎爷哥光江]", r"八[面方拜仙字]", r"七[八嘴]",
+    r"十几", r"说三道四", r"入木三分", r"一小时",
 ]
 MONTHS = {1: "january", 2: "february", 3: "march", 4: "april", 5: "may",
           6: "june", 7: "july", 8: "august", 9: "september",

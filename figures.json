@@ -59,5 +59,37 @@
    "alt": "Portrait of Shi Yousan in uniform"
   }
  ],
- "ch03": []
+ "ch03": [],
+ "ch04": [
+  {
+   "file": "p0068-f1.png",
+   "before": "Only then did Xuan Jimin understand that the ground had shifted",
+   "caption": "Shanghai personages: Du Yuesheng (right) and Zhang Xiaolin (left) with others. Caption as given in the original edition.",
+   "alt": "Group photograph of Du Yuesheng and Zhang Xiaolin"
+  },
+  {
+   "file": "p0072-f1.png",
+   "before": "\"Enough! Get out, all of you!\"",
+   "caption": "“The Shanghai magnate Du Yuesheng,” as captioned in the original edition.",
+   "alt": "Portrait of Du Yuesheng"
+  },
+  {
+   "file": "p0073-f1.png",
+   "before": "\"Brother Xiaolin — it was because I listened to you",
+   "caption": "Du Yuesheng photographed on his appointment by Chiang Kai-shek as a major-general staff officer of the Military Affairs Commission. Caption as given in the original edition.",
+   "alt": "Du Yuesheng in military uniform"
+  },
+  {
+   "file": "p0075-f1.png",
+   "before": "Du Yuesheng turned Zhang Xiaolin's plan over and over",
+   "caption": "“The Hangzhou street tough Zhang Xiaolin became one of the Green Gang bosses of the Shanghai concessions. During the war of resistance he took part in collaboration with the Japanese, and was assassinated in August 1940.” Caption as given in the original edition.",
+   "alt": "Portrait of Zhang Xiaolin"
+  },
+  {
+   "file": "p0084-f1.png",
+   "before": "\"Not so, not so!\" Huang Jinrong, having smoked his fill",
+   "caption": "“Huang Jinrong, first boss of the Shanghai Green Gang,” as captioned in the original edition.",
+   "alt": "Portrait of Huang Jinrong"
+  }
+ ]
 }
