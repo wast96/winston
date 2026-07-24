@@ -264,7 +264,7 @@
    "pinyin": "Sun Ke",
    "en": "Sun Ke",
    "status": "attested",
-   "note": "Sun Yat-sen's son; also seen as Sun Fo"
+   "note": "1891-1973; Sun Yat-sen's son"
   },
   "丁惟汾": {
    "pinyin": "Ding Weifen",
@@ -360,6 +360,164 @@
    "en": "Zhang Yanling",
    "status": "attested",
    "note": "Zhang Xiaolin's nephew, Du Yuesheng disciple; named in outside accounts as the man who refused to yield the Jiang'an"
+  },
+  "胡汉民": {
+   "pinyin": "Hu Hanmin",
+   "en": "Hu Hanmin",
+   "status": "attested",
+   "note": "1879-1936; party founder, Legislative Yuan president; detained by Chiang Feb 1931"
+  },
+  "李少川": {
+   "pinyin": "Li Shaochuan",
+   "en": "Li Shaochuan",
+   "status": "provisional",
+   "note": "Wang's early patron per the book"
+  },
+  "林焕庭": {
+   "pinyin": "Lin Huanting",
+   "en": "Lin Huanting",
+   "status": "provisional",
+   "note": "Hu Hanmin's kinsman by marriage per the book"
+  },
+  "汪精卫": {
+   "pinyin": "Wang Jingwei",
+   "en": "Wang Jingwei",
+   "status": "attested",
+   "note": "1883-1944; 1910 would-be assassin of the Prince Regent; later head of the collaborationist government"
+  },
+  "李烈钧": {
+   "pinyin": "Li Liejun",
+   "en": "Li Liejun",
+   "status": "attested"
+  },
+  "唐绍仪": {
+   "pinyin": "Tang Shaoyi",
+   "en": "Tang Shaoyi",
+   "status": "attested",
+   "note": "1862-1938; first premier of the Republic; assassinated 1938"
+  },
+  "孙凤鸣": {
+   "pinyin": "Sun Fengming",
+   "en": "Sun Fengming",
+   "status": "attested",
+   "note": "1905-1935; shot Wang Jingwei Nov 1935; ch13"
+  },
+  "崔正瑶": {
+   "pinyin": "Cui Zhengyao",
+   "en": "Cui Zhengyao",
+   "status": "attested",
+   "note": "Sun Fengming's wife; ch14"
+  },
+  "华克之": {
+   "pinyin": "Hua Kezhi",
+   "en": "Hua Kezhi",
+   "status": "attested",
+   "note": "1902-1998; organizer of Wang's assassination operations; survived to old age"
+  },
+  "陈成": {
+   "pinyin": "Chen Cheng",
+   "en": "Chen Cheng",
+   "status": "attested",
+   "note": "d. June 1931 on Lushan; NOT the general 陈诚 Chen Cheng"
+  },
+  "俞济时": {
+   "pinyin": "Yu Jishi",
+   "en": "Yu Jishi",
+   "status": "attested",
+   "note": "1904-1990; commander of Chiang's personal guard"
+  },
+  "宋美龄": {
+   "pinyin": "Song Meiling",
+   "en": "Soong Mei-ling",
+   "status": "attested",
+   "note": "conventional form; 1898-2003"
+  },
+  "胡宗南": {
+   "pinyin": "Hu Zongnan",
+   "en": "Hu Zongnan",
+   "status": "attested"
+  },
+  "张学良": {
+   "pinyin": "Zhang Xueliang",
+   "en": "Zhang Xueliang",
+   "status": "attested"
+  },
+  "王亚凤": {
+   "pinyin": "Wang Yafeng",
+   "en": "Wang Yafeng",
+   "status": "provisional",
+   "note": "Wang Yaqiao's younger sister per the book"
+  },
+  "郑抱真": {
+   "pinyin": "Zheng Baozhen",
+   "en": "Zheng Baozhen",
+   "status": "attested"
+  },
+  "赵士发": {
+   "pinyin": "Zhao Shifa",
+   "en": "Zhao Shifa",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
+  },
+  "龙林": {
+   "pinyin": "Long Lin",
+   "en": "Long Lin",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
+  },
+  "唐明": {
+   "pinyin": "Tang Ming",
+   "en": "Tang Ming",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
+  },
+  "张宪庭": {
+   "pinyin": "Zhang Xianting",
+   "en": "Zhang Xianting",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
+  },
+  "郑绍成": {
+   "pinyin": "Zheng Shaocheng",
+   "en": "Zheng Shaocheng",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
+  },
+  "贺光坡": {
+   "pinyin": "He Guangpo",
+   "en": "He Guangpo",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
+  },
+  "龚春浦": {
+   "pinyin": "Gong Chunpu",
+   "en": "Gong Chunpu",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
+  },
+  "刘文成": {
+   "pinyin": "Liu Wencheng",
+   "en": "Liu Wencheng",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
+  },
+  "郑海龙": {
+   "pinyin": "Zheng Hailong",
+   "en": "Zheng Hailong",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
+  },
+  "谢文达": {
+   "pinyin": "Xie Wenda",
+   "en": "Xie Wenda",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
+  },
+  "陈惘": {
+   "pinyin": "Chen Wang",
+   "en": "Chen Wang",
+   "status": "provisional",
+   "note": "assassination corps member per the book"
   }
  },
  "organizations": {
@@ -406,6 +564,17 @@
    "en": "China Merchants Steam Navigation Company",
    "status": "attested",
    "note": "founded 1872 under Li Hongzhang; 总办 = Supervisor, the government-appointed executive"
+  },
+  "铁血锄奸团": {
+   "pinyin": "Tiexue Chujiantuan",
+   "en": "Iron and Blood Traitor-Purging Corps",
+   "status": "attested",
+   "note": "Wang's anti-Japanese assassination body; dates from 1932, retrojected here"
+  },
+  "铁血暗杀团": {
+   "pinyin": "Tiexue Ansha Tuan",
+   "en": "Iron and Blood Assassination Corps",
+   "status": "decided"
   }
  },
  "places": {
@@ -504,7 +673,7 @@
    "pinyin": "Tangshan",
    "en": "Tangshan",
    "status": "attested",
-   "note": "military prison east of Nanjing; Fang Zhenwu's documented place of detention"
+   "note": "outside Nanjing; Hu Hanmin's detention Feb 1931"
   },
   "霞飞路": {
    "pinyin": "Xiafei Lu",
@@ -585,6 +754,71 @@
    "pinyin": "Anqing",
    "en": "Anqing",
    "status": "attested"
+  },
+  "庐山": {
+   "pinyin": "Lushan",
+   "en": "Lushan",
+   "status": "attested",
+   "note": "Jiangxi; Nationalist summer capital from 1930"
+  },
+  "牯岭": {
+   "pinyin": "Guling",
+   "en": "Guling",
+   "status": "attested",
+   "note": "hill town on Lushan, developed as a foreign resort from the 1890s"
+  },
+  "美庐": {
+   "pinyin": "Meilu",
+   "en": "the Meilu villa",
+   "status": "decided",
+   "note": "Soong Mei-ling's Lushan villa, formerly No. 13 Guling"
+  },
+  "浦柏路": {
+   "pinyin": "Pubai Lu",
+   "en": "Rue Pottier",
+   "status": "decided",
+   "note": "French Concession, now Anfu Road"
+  },
+  "九江": {
+   "pinyin": "Jiujiang",
+   "en": "Jiujiang",
+   "status": "attested"
+  },
+  "鄱阳湖": {
+   "pinyin": "Poyang Hu",
+   "en": "Poyang Lake",
+   "status": "attested"
+  },
+  "明故宫机场": {
+   "pinyin": "Minggugong",
+   "en": "the Ming Palace airfield",
+   "status": "attested"
+  },
+  "仙人洞": {
+   "pinyin": "Xianrendong",
+   "en": "the Immortal's Cave",
+   "status": "attested"
+  },
+  "狮子岩": {
+   "pinyin": "Shiziyan",
+   "en": "Lion Rock",
+   "status": "decided"
+  },
+  "白鹿洞书院": {
+   "pinyin": "Bailudong Shuyuan",
+   "en": "the White Deer Grotto Academy",
+   "status": "attested",
+   "note": "one of the great Song academies"
+  },
+  "东林寺": {
+   "pinyin": "Donglin Si",
+   "en": "Donglin Temple",
+   "status": "attested"
+  },
+  "太乙峰": {
+   "pinyin": "Taiyi Feng",
+   "en": "Taiyi Peak",
+   "status": "decided"
   }
  },
  "terms": {
@@ -706,6 +940,29 @@
    "en": "personage",
    "status": "decided",
    "note": "the honorific status Du Yuesheng cultivated"
+  },
+  "滑竿": {
+   "pinyin": "huagan",
+   "en": "mountain chair",
+   "status": "decided",
+   "note": "pole-slung carrying chair"
+  },
+  "金华火腿": {
+   "pinyin": "Jinhua huotui",
+   "en": "Jinhua ham",
+   "status": "attested"
+  },
+  "达姆弹": {
+   "pinyin": "damudan",
+   "en": "dumdum bullet",
+   "status": "attested",
+   "note": "book repeats the period belief that they poisoned the victim"
+  },
+  "云湖衫": {
+   "pinyin": "yunhushan",
+   "en": "Yunhu shirt",
+   "status": "decided",
+   "note": "Hong Kong-made short-sleeved shirt"
   }
  }
 }

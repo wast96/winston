@@ -43,8 +43,12 @@ def cn_to_int(token):
 NOISE = [
     # Longest-first: these must strip before the generic measure-word patterns
     # below, or a shorter pattern eats half the phrase and leaves a bare
-    # numeral behind (十几个 -> 几个 stripped -> stray 十 read as ten).
-    r"十几", r"几十",
+    # numeral behind (十几个 -> 几个 stripped -> stray 十 read as ten;
+    # 四十多 -> 十多 stripped -> stray 四 read as four). Order inside this
+    # block matters too: the longer literal always goes above the shorter one
+    # it contains. Do NOT sort this list by pattern length -- character
+    # classes make short patterns look long and the sort reintroduces the bug.
+    r"四十多", r"三十多", r"二十多", r"十几", r"几十", r"十多",
     r"一[艘条顶只个位群把张片口指边旁时下阵壶碟种番场股家棵套幅丢看脚]",  # measure words
     r"一[辆眼躬支丝声定天次间惊枪动言样阵路批封面团句道年身手笔]",       # more measure/idiom 一s (prologue+)
     r"[一不][旦时般点些]",
@@ -71,6 +75,13 @@ NOISE = [
     r"两[头端边面全难]", r"三[番两教]", r"四[面方处海座]",
     r"九[鼎爷哥光江]", r"八[面方拜仙字]", r"七[八嘴]",
     r"十几", r"说三道四", r"入木三分", r"一小时",
+    # ch5
+    r"三民主义", r"20多位", r"二十多位", r"20米", r"三大政策",
+    r"化整为零", r"八九[支只]", r"一一", r"三峡", r"两路",
+    r"二十[余多]万", r"20[余多]万", r"三道防线", r"[一二三]十",
+    r"分两路", r"两乘", r"两日", r"三点", r"三家", r"三个小组",
+    r"十多", r"四周", r"五老峰", r"四十多", r"两旁", r"零部件",
+    r"两[三边]", r"四[下面]", r"一[遍番]",
 ]
 MONTHS = {1: "january", 2: "february", 3: "march", 4: "april", 5: "may",
           6: "june", 7: "july", 8: "august", 9: "september",
@@ -92,9 +103,38 @@ def source_numbers(text):
     return nums
 
 
+TENS = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60,
+        "seventy": 70, "eighty": 80, "ninety": 90}
+ONES = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
+        "seven": 7, "eight": 8, "nine": 9}
+
+
+def spelled_numbers(low):
+    """English prose spells numbers out; the source prints digits. Read the
+    written forms so 'twenty-four' matches 24 and 'two hundred thousand'
+    matches 20万."""
+    found = set()
+    for tens, tval in TENS.items():
+        for ones, oval in ONES.items():
+            if re.search(r"\b%s[- ]%s\b" % (tens, ones), low):
+                found.add(tval + oval)
+        if re.search(r"\b" + tens + r"\b", low):
+            found.add(tval)
+    for ones, oval in ONES.items():
+        if re.search(r"\b%s hundred thousand\b" % ones, low):
+            found.add(oval * 100000)
+            found.add(oval * 10)          # 二十万 reads as 20 in the source
+        if re.search(r"\b%s hundred\b" % ones, low):
+            found.add(oval * 100)
+        if re.search(r"\b%s thousand\b" % ones, low):
+            found.add(oval * 1000)
+    return found
+
+
 def target_numbers(text):
     nums = set(int(n) for n in re.findall(r"\d+", text))
     low = text.lower()
+    nums |= spelled_numbers(low)
     for word, val in WORD_NUM.items():
         if val is not None and re.search(r"\b" + word + r"\b", low):
             nums.add(val)

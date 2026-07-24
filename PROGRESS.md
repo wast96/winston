@@ -197,7 +197,55 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
   clean after the fix.
 - Build: QA PASS, 5 documents, 174 refs/bodies/backlinks.
 
-### Ch 5-15 - pending
+### Ch 5 (庐山大刺杀) - translated; A/B in flight, round-trip pending
+
+- Printed 81-108, PDF 91-118. 179 source paragraphs (new longest); all 28
+  pages eye-verified against magnified scans.
+- Figures: 6, all with legible margin captions, all translated (Chiang with
+  Hu Hanmin; the April 1927 Tangshan group photo whose caption itself notes
+  Hu's later detention at that same place; Sun Ke/Hu Hanmin/Wang Jingwei at
+  Guangzhou; Tang Shengzhi; the Chiangs at the Guling villa; the Chiangs
+  picnicking with guards).
+- Scholarship - the most heavily corroborated chapter yet:
+  * Tangshan Incident: Hu Hanmin detained 28 Feb 1931. The book's "a month
+    before" a March 1931 scene fits EXACTLY. First time the book's clock and
+    the record agree without adjustment.
+  * The Lushan attempt itself is DOCUMENTED: Wang sent men disguised as
+    tourists in June 1931; one acted prematurely and was shot dead by
+    Chiang's guards; the rest escaped to Shanghai. The ham stratagem is in
+    the accounts too - guns carried up inside Jinhua hams, and a discarded
+    ham casing found by the roadside is what alerted the guards.
+  * DATE OFF BY THREE DAYS: accounts give 14 June, the book prints 17 June.
+    Noted rather than silently corrected.
+  * CONTRADICTED (chronology): Sun Fengming is introduced as having joined
+    the Iron and Blood Traitor-Purging Corps "during the Shanghai fighting",
+    i.e. the Jan 1932 incident - which has not happened yet in spring 1931.
+  * FACTUAL ERROR IN THE BOOK, noted not corrected: dumdum rounds described
+    as poisoning the victim within half an hour. That is a period Chinese
+    misconception; expanding bullets kill by wound trauma.
+  * Internal inconsistency flagged: Whampoa CAVALRY section in ch2 vs
+    ARTILLERY section here, same enrollment. Both unambiguous in the scan.
+  * NAME COLLISION flagged: the assassin 陈成 Chen Cheng is NOT the general
+    陈诚 Chen Cheng. Identical in pinyin, distinct in Chinese - exactly the
+    case the term ledger exists for.
+- Notes: 42 (1.5/printed page). Deliberately not padded: this chapter is
+  long because it is procedural (surveillance, logistics, ambush siting),
+  and much of that needs no glossing.
+- Invariants 0/179. TWO REAL TOOL BUGS FOUND AND FIXED THIS CHAPTER:
+  (1) the checker could not read numbers written out in English words, so
+  "twenty-four"/"two hundred thousand" looked like dropped digits; added a
+  spelled-number reader.
+  (2) the NOISE ordering trap bit again (十多 eating half of 四十多). Tried
+  sorting by pattern length - that REGRESSED ch4, because character classes
+  make short patterns look long. Reverted to an explicit longest-literal-
+  first block with a comment saying exactly why sorting is wrong.
+  All five finished units re-run clean after both fixes.
+- Literal pass: DEFERRED for this chapter (out/ch05_literal.md not written).
+  To be produced during the halfway audit so the smoothing layer is
+  inspectable for ch5 as it is for prologue/ch2/ch3.
+- Build: QA PASS, 6 documents, 213 refs/bodies/backlinks.
+
+### Ch 6-15 - pending
 
 ## Resuming this run
 
