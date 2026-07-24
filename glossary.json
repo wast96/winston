@@ -160,6 +160,146 @@
    "en": "Zhang Xiaolin",
    "status": "attested",
    "note": "1877-1940; third of the Shanghai three big bosses; killed 1940 as a collaborator"
+  },
+  "王乐平": {
+   "pinyin": "Wang Leping",
+   "en": "Wang Leping",
+   "status": "attested",
+   "note": "1884-1930; Shandong Tongmenghui veteran, Reorganizationist leader, assassinated Feb 1930 Shanghai"
+  },
+  "方振武": {
+   "pinyin": "Fang Zhenwu",
+   "en": "Fang Zhenwu",
+   "status": "attested",
+   "note": "1885-1941; Anhui chairman 1929, seized Sept 1929, anti-Japanese 1933, murdered 1941"
+  },
+  "石友三": {
+   "pinyin": "Shi Yousan",
+   "en": "Shi Yousan",
+   "status": "attested",
+   "note": "1891-1940; the era's serial turncoat; killed by his own subordinate 1940"
+  },
+  "彭建国": {
+   "pinyin": "Peng Jianguo",
+   "en": "Peng Jianguo",
+   "status": "provisional",
+   "note": "Changzhou Fourth Brigade commander per the book; not found in records"
+  },
+  "周伟龙": {
+   "pinyin": "Zhou Weilong",
+   "en": "Zhou Weilong",
+   "status": "attested",
+   "note": "Whampoa man, later senior Juntong officer"
+  },
+  "张炎元": {
+   "pinyin": "Zhang Yanyuan",
+   "en": "Zhang Yanyuan",
+   "status": "attested",
+   "note": "documented member of Dai Li's 1928 ten-man Liaison Group"
+  },
+  "唐生智": {
+   "pinyin": "Tang Shengzhi",
+   "en": "Tang Shengzhi",
+   "status": "attested",
+   "note": "1889-1970; Hunan general, Wuhan camp's military mainstay 1927"
+  },
+  "戴季陶": {
+   "pinyin": "Dai Jitao",
+   "en": "Dai Jitao",
+   "status": "attested",
+   "note": "1891-1949; party elder and theorist, early patron of Dai Li"
+  },
+  "陈立夫": {
+   "pinyin": "Chen Lifu",
+   "en": "Chen Lifu",
+   "status": "attested"
+  },
+  "陈果夫": {
+   "pinyin": "Chen Guofu",
+   "en": "Chen Guofu",
+   "status": "attested"
+  },
+  "周凤岐": {
+   "pinyin": "Zhou Fengqi",
+   "en": "Zhou Fengqi",
+   "status": "attested",
+   "note": "1879-1938; Zhejiang commander, Dai Li's first master; shot by Juntong 1938 as a collaborator"
+  },
+  "王亚英": {
+   "pinyin": "Wang Yaying",
+   "en": "Wang Yaying",
+   "status": "provisional",
+   "note": "Wang's wife per the book; orig. 从蕴钰 Cong Yunyu, Hubei; identity unverified in outside sources"
+  },
+  "赵铁桥": {
+   "pinyin": "Zhao Tieqiao",
+   "en": "Zhao Tieqiao",
+   "status": "attested",
+   "note": "1886-1930; China Merchants Co. supervisor, shot 24 July 1930 by Wang's men"
+  },
+  "宋庆龄": {
+   "pinyin": "Song Qingling",
+   "en": "Soong Ching-ling",
+   "status": "attested",
+   "note": "conventional form; Sun Yat-sen's widow"
+  },
+  "宋子文": {
+   "pinyin": "Song Ziwen",
+   "en": "T.V. Soong",
+   "status": "attested",
+   "note": "conventional form"
+  },
+  "陈友仁": {
+   "pinyin": "Chen Youren",
+   "en": "Eugene Chen",
+   "status": "attested",
+   "note": "conventional form"
+  },
+  "谭延闿": {
+   "pinyin": "Tan Yankai",
+   "en": "Tan Yankai",
+   "status": "attested"
+  },
+  "孙科": {
+   "pinyin": "Sun Ke",
+   "en": "Sun Ke",
+   "status": "attested",
+   "note": "Sun Yat-sen's son; also seen as Sun Fo"
+  },
+  "丁惟汾": {
+   "pinyin": "Ding Weifen",
+   "en": "Ding Weifen",
+   "status": "attested"
+  },
+  "顾孟余": {
+   "pinyin": "Gu Mengyu",
+   "en": "Gu Mengyu",
+   "status": "attested"
+  },
+  "徐谦": {
+   "pinyin": "Xu Qian",
+   "en": "Xu Qian",
+   "status": "attested"
+  },
+  "经亨颐": {
+   "pinyin": "Jing Hengyi",
+   "en": "Jing Hengyi",
+   "status": "attested"
+  },
+  "吴玉章": {
+   "pinyin": "Wu Yuzhang",
+   "en": "Wu Yuzhang",
+   "status": "attested"
+  },
+  "董必武": {
+   "pinyin": "Dong Biwu",
+   "en": "Dong Biwu",
+   "status": "attested"
+  },
+  "毛泽东": {
+   "pinyin": "Mao Zedong",
+   "en": "Mao Zedong",
+   "status": "attested"
   }
  },
  "organizations": {
@@ -194,6 +334,12 @@
    "pinyin": "Qing-Hong Bang",
    "en": "Green and Red Gangs",
    "status": "attested"
+  },
+  "改组派": {
+   "pinyin": "Gaizupai",
+   "en": "Reorganizationists",
+   "status": "attested",
+   "note": "anti-Chiang KMT opposition faction around Wang Jingwei, 1928-31"
   }
  },
  "places": {
@@ -270,6 +416,52 @@
    "en": "Hongwu Street",
    "status": "decided",
    "note": "central Nanjing, named for the Ming founding reign"
+  },
+  "江山": {
+   "pinyin": "Jiangshan",
+   "en": "Jiangshan",
+   "status": "attested",
+   "note": "SW Zhejiang; Dai Li's home county"
+  },
+  "硖口镇": {
+   "pinyin": "Xiakou",
+   "en": "Xiakou",
+   "status": "provisional",
+   "note": "book's birthplace for Dai Li; record says Baoan village nearby"
+  },
+  "常州": {
+   "pinyin": "Changzhou",
+   "en": "Changzhou",
+   "status": "attested"
+  },
+  "汤山": {
+   "pinyin": "Tangshan",
+   "en": "Tangshan",
+   "status": "attested",
+   "note": "military prison east of Nanjing; Fang Zhenwu's documented place of detention"
+  },
+  "霞飞路": {
+   "pinyin": "Xiafei Lu",
+   "en": "Avenue Joffre",
+   "status": "decided",
+   "note": "French Concession artery, now Huaihai Road"
+  },
+  "霞飞坊": {
+   "pinyin": "Xiafeifang",
+   "en": "the Xiafei lanes",
+   "status": "decided",
+   "note": "lane compound off Avenue Joffre"
+  },
+  "静安寺": {
+   "pinyin": "Jing'ansi",
+   "en": "Jing'an Temple",
+   "status": "attested"
+  },
+  "奉化": {
+   "pinyin": "Fenghua",
+   "en": "Fenghua",
+   "status": "attested",
+   "note": "Chiang Kai-shek's home county, Zhejiang"
   }
  },
  "terms": {
@@ -336,6 +528,11 @@
    "en": "ten-li foreign strip",
    "status": "decided",
    "note": "stock epithet for concession-era Shanghai"
+  },
+  "竹战": {
+   "pinyin": "zhuzhan",
+   "en": "bamboo-grove wars (mahjong)",
+   "status": "decided"
   }
  }
 }

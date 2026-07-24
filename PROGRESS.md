@@ -80,7 +80,38 @@ Uncertain TOC readings to re-verify against chapter openers when reached: ch14 t
   Generalissimo" conventions are mine; the anachronism notes lean on them.
   娘希匹 rendered "God damn his mother" (force kept, Ningbo lost, noted).
 
-### Ch 2-15 - pending
+### Ch 2 (谋杀蒋介石的第一次预演) - checks in flight
+
+- Printed 27-42, PDF 37-52. 94 source paragraphs; all 16 pages eye-verified
+  against magnified scans; idiom spans crop-verified (真空做一回人, the
+  inverted 站着生/跪着死 maxim).
+- Figures: 3 (printed 30, 31, 32). The p30 group photo's margin caption
+  identifies the March 10, 1927 KMT Third Plenum photo with a full name
+  roster (incl. Soong Ching-ling, T.V. Soong, Dong Biwu, Mao Zedong);
+  translated in full.
+- Scholarship: chapter compresses 1929-30 events into a March-1928 frame.
+  Wang Leping assassination documented Feb 18, 1930 (office, 314 Route
+  Cardinal Mercier; book stages an Avenue Joffre car ambush Feb 17) -
+  CORROBORATED/REDATED, staging differs. Fang Zhenwu: chairman May 1929,
+  telegram-summons arrest Sept 1929, Tangshan in irons, freed post-Mukden -
+  the book's arrest scene matches the record to the prop list, moved back
+  a year and a half. Shi Yousan Dec 1929 Pukou revolt = likely seed of his
+  "crushed force." Zhao Tieqiao (1886-1930) attested, shot 24 July 1930 at
+  the China Merchants gate; popular tradition names ch1's Wang Ganting and
+  Niu Anru among shooters and gives the informer motive the book uses.
+  Zhou Fengqi note: Dai Li's first master, shot by Juntong 1938. Peng
+  Jianguo/Fourth Brigade UNCORROBORATED (provisional). Whampoa 6th class
+  cavalry CORROBORATED (1926, book says 1925).
+- Notes: 33 (2.1/printed page; dialogue-heavy chapter). Glossary: +26
+  people/orgs/places/terms (incl. Soong conventional forms for the caption
+  roster). Invariants 0/94 after NOISE growth (九哥, 石友三's 三, ordinals).
+  Entity check caught 4 real drops (attribution, agent, two names) - fixed;
+  remaining 18 flags adjudicated as pronominalization.
+- Build: QA PASS, 3 documents, 112 refs/bodies/backlinks.
+- Pending: blind pass B diff + back-translation omission check (agents
+  running); sign-off entry follows.
+
+### Ch 3-15 - pending
 
 ## Checks status (Winston's 8)
 

@@ -20,6 +20,8 @@ WORD_NUM = {
     "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11,
     "twelve": 12, "thirteen": 13, "several": None, "ten thousand": 10000,
     "second": 2, "third": 3, "first": 1, "lead": 1,
+    "fourth": 4, "fifth": 5, "sixth": 6, "seventh": 7, "eighth": 8,
+    "ninth": 9, "tenth": 10, "both": 2,
 }
 
 
@@ -49,6 +51,10 @@ NOISE = [
     r"灵机一动", r"大吃一惊", r"头一次", r"有一天", r"一夜之间",
     r"瘪三",                # Shanghai slang, the 三 is not a quantity
     r"千万", r"万籁", r"千恩万谢", r"十里洋场",
+    r"九哥",                 # fraternal address for Wang Yaqiao
+    r"石友三",               # the 三 is a name, not a count
+    r"八字胡", r"八仙桌", r"八拜之交", r"两人", r"三言两语",
+    r"四起", r"五体投地", r"三大亨", r"二师兄",
 ]
 MONTHS = {1: "january", 2: "february", 3: "march", 4: "april", 5: "may",
           6: "june", 7: "july", 8: "august", 9: "september",
