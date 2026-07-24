@@ -1,0 +1,9 @@
+source.pdf
+src.pdf
+data/png/
+data/crop/
+build/
+__pycache__/
+*.pyc
+out/*.epub
+reference/wang-yaqiao-ch1.epub

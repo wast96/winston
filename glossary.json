@@ -1,0 +1,246 @@
+{
+ "people": {
+  "王亚樵": {
+   "pinyin": "Wang Yaqiao",
+   "en": "Wang Yaqiao",
+   "status": "attested",
+   "note": "1889-1936; courtesy name Jiuguang 九光, hence the title Ninth Master 九爷"
+  },
+  "陈调元": {
+   "pinyin": "Chen Diaoyuan",
+   "en": "Chen Diaoyuan",
+   "status": "attested",
+   "note": "b.1886 Hebei; serial defector, chairman of Anhui 1927"
+  },
+  "蒋介石": {
+   "pinyin": "Jiang Jieshi",
+   "en": "Chiang Kai-shek",
+   "status": "attested",
+   "note": "use the conventional Wade-Giles form, never pinyin"
+  },
+  "柏文蔚": {
+   "pinyin": "Bo Wenwei",
+   "en": "Bo Wenwei",
+   "status": "attested",
+   "note": "1876-1947; 1911 elder, Wang's patron; documented chair of the Anhui Labour Union Wang ran"
+  },
+  "孙中山": {
+   "pinyin": "Sun Zhongshan",
+   "en": "Sun Yat-sen",
+   "status": "attested",
+   "note": "conventional form only"
+  },
+  "吴佩孚": {
+   "pinyin": "Wu Peifu",
+   "en": "Wu Peifu",
+   "status": "attested"
+  },
+  "曹锟": {
+   "pinyin": "Cao Kun",
+   "en": "Cao Kun",
+   "status": "attested"
+  },
+  "黄金荣": {
+   "pinyin": "Huang Jinrong",
+   "en": "Huang Jinrong",
+   "status": "attested"
+  },
+  "杜月笙": {
+   "pinyin": "Du Yuesheng",
+   "en": "Du Yuesheng",
+   "status": "attested",
+   "note": "OCR often mangles to 杜月笔"
+  },
+  "江亢虎": {
+   "pinyin": "Jiang Kanghu",
+   "en": "Jiang Kanghu",
+   "status": "attested",
+   "note": "Chinese Socialist Party founder; Wang's membership is documented history"
+  },
+  "袁世凯": {
+   "pinyin": "Yuan Shikai",
+   "en": "Yuan Shikai",
+   "status": "attested"
+  },
+  "戴笠": {
+   "pinyin": "Dai Li",
+   "en": "Dai Li",
+   "status": "attested",
+   "note": "appears from ch2; sworn brother of Wang per popular accounts"
+  },
+  "宣济民": {
+   "pinyin": "Xuan Jimin",
+   "en": "Xuan Jimin",
+   "status": "provisional",
+   "note": "not found in English scholarship"
+  },
+  "吴鸿泰": {
+   "pinyin": "Wu Hongtai",
+   "en": "Wu Hongtai",
+   "status": "provisional",
+   "note": "not found in English scholarship"
+  },
+  "余立奎": {
+   "pinyin": "Yu Likui",
+   "en": "Yu Likui",
+   "status": "attested",
+   "note": "named in Baidu Axe Gang core membership"
+  },
+  "牛安如": {
+   "pinyin": "Niu Anru",
+   "en": "Niu Anru",
+   "status": "provisional"
+  },
+  "王干庭": {
+   "pinyin": "Wang Ganting",
+   "en": "Wang Ganting",
+   "status": "provisional"
+  },
+  "刘德才": {
+   "pinyin": "Liu Decai",
+   "en": "Liu Decai",
+   "status": "provisional"
+  },
+  "阚培林": {
+   "pinyin": "Kan Peilin",
+   "en": "Kan Peilin",
+   "status": "provisional",
+   "note": "surname glyph damaged in scan; 阚 is best reading"
+  },
+  "张文生": {
+   "pinyin": "Zhang Wensheng",
+   "en": "Zhang Wensheng",
+   "status": "attested",
+   "note": "Beiyang governor of Anhui early 1920s"
+  },
+  "张秋白": {
+   "pinyin": "Zhang Qiubai",
+   "en": "Zhang Qiubai",
+   "status": "provisional",
+   "note": "real name in Nationalist politics; identity match unverified; nickname 张扒皮 Zhang the Flayer"
+  },
+  "孙万乘": {
+   "pinyin": "Sun Wancheng",
+   "en": "Sun Wancheng",
+   "status": "provisional",
+   "note": "unattested; scan rough"
+  },
+  "荆轲": {
+   "pinyin": "Jing Ke",
+   "en": "Jing Ke",
+   "status": "attested",
+   "note": "227 BC assassin; recurs — ch13 title quotes his river verse"
+  }
+ },
+ "organizations": {
+  "斧头帮": {
+   "pinyin": "Futou Bang",
+   "en": "Hatchet Gang",
+   "status": "decided",
+   "note": "NOT Axe Gang — Winston's edition uses Hatchet Gang throughout; see ch1 note"
+  },
+  "同盟会": {
+   "pinyin": "Tongmenghui",
+   "en": "Revolutionary Alliance",
+   "status": "decided"
+  },
+  "国民革命军": {
+   "pinyin": "Guomin Gemingjun",
+   "en": "National Revolutionary Army",
+   "status": "attested"
+  },
+  "中国社会党": {
+   "pinyin": "Zhongguo Shehuidang",
+   "en": "Chinese Socialist Party",
+   "status": "attested"
+  }
+ },
+ "places": {
+  "浦口": {
+   "pinyin": "Pukou",
+   "en": "Pukou",
+   "status": "attested"
+  },
+  "芜湖": {
+   "pinyin": "Wuhu",
+   "en": "Wuhu",
+   "status": "attested"
+  },
+  "合肥": {
+   "pinyin": "Hefei",
+   "en": "Hefei",
+   "status": "attested"
+  },
+  "紫金山": {
+   "pinyin": "Zijinshan",
+   "en": "Purple Mountain",
+   "status": "decided"
+  },
+  "中华门": {
+   "pinyin": "Zhonghuamen",
+   "en": "Gate of China",
+   "status": "decided"
+  },
+  "玄武湖": {
+   "pinyin": "Xuanwu Hu",
+   "en": "Xuanwu Lake",
+   "status": "decided"
+  },
+  "明孝陵": {
+   "pinyin": "Ming Xiaoling",
+   "en": "the Ming emperor's tomb / Xiaoling",
+   "status": "decided"
+  },
+  "梅花山": {
+   "pinyin": "Meihuashan",
+   "en": "Plum Blossom Hill",
+   "status": "decided"
+  },
+  "梅溪山庄": {
+   "pinyin": "Meixi Shanzhuang",
+   "en": "Meixi Villa",
+   "status": "decided"
+  },
+  "枫林桥": {
+   "pinyin": "Fenglinqiao",
+   "en": "Maple Grove Bridge",
+   "status": "decided"
+  },
+  "梧州": {
+   "pinyin": "Wuzhou",
+   "en": "Wuzhou",
+   "status": "attested",
+   "note": "Guangxi; where Wang dies, ch15"
+  }
+ },
+ "terms": {
+  "九爷": {
+   "pinyin": "Jiu Ye",
+   "en": "Ninth Master",
+   "status": "decided"
+  },
+  "盒子枪/驳壳枪": {
+   "pinyin": "hezi qiang",
+   "en": "Mauser",
+   "status": "decided",
+   "note": "C96 broomhandle"
+  },
+  "青天白日满地红": {
+   "pinyin": "qingtian bairi mandihong",
+   "en": "Blue Sky, White Sun, and Wholly Red Earth",
+   "status": "decided"
+  },
+  "替死鬼": {
+   "pinyin": "tisigui",
+   "en": "dies in (someone's) place / stand-in dead man",
+   "status": "decided",
+   "note": "lit. substitute ghost"
+  },
+  "光棍": {
+   "pinyin": "guanggun",
+   "en": "bare-stick (proletarian) / made man",
+   "status": "decided",
+   "note": "two shadings; see ch1 notes"
+  }
+ }
+}
