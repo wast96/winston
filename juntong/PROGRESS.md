@@ -314,6 +314,53 @@ song-appendix parity exception, which was an artefact of the old segmentation
 translation renders it. No prose was rewritten. There are now no parity
 exceptions anywhere in the book.
 
+## THE FOLIO FILTER WAS STILL DELETING TEXT, AND IT REACHED CHAPTERS 1-4
+
+Found while assembling chapter 3, by chasing a single stray character. The
+source read "...与处相等的室、人。" where 人 made no sense. The scan showed the
+book prints a whole line there that the OCR did not have:
+
+    区、组，还有几个委员会，内勤达到一千多人，外勤增至五万多
+
+A line carrying two of the Juntong's strength figures, silently gone.
+
+THE MECHANISM. `strip_folio` popped a page's last OCR line whenever
+`folio_present` said the page had a printed folio. But `folio_present`
+profiled the WHOLE page while the text it judged came from the CROPPED image.
+Where the crop bottom (0.905) fell above the folio, the crop had already
+removed the page number, tesseract's output ended on real prose, and the pop
+deleted that prose. In chapter 3 the folio falls outside the crop on 24 of 59
+pages: 41% of pages lost their last line.
+
+WHY NOTHING CAUGHT IT. A line deleted from the middle of a paragraph changes
+no paragraph count, so parity passed. The previous session's reconciliation
+("all four translated units now match the corrected source exactly") was
+matching the translation against an already-damaged source. Two derived
+artifacts agreeing with each other, again.
+
+THE FIX. Deletion now requires the geometric AND the textual signal to agree,
+and where they disagree the line is KEPT. Neither signal is sound alone: the
+geometry is what ate the line above, and the text-only rule is what once ate
+写。. A full folio carries digits; a folio the crop clipped keeps its dot
+delimiters, and Chinese typesetting forbids a line opening on sentence-final
+punctuation, so a short line starting with 。 is not prose either.
+
+REJECTED: widening the crop to 0.970 to swallow the folio whole. It does fix
+the folio, and body text (max 0.9173) and folios (from 0.8868) genuinely
+overlap so no crop line separates them -- but a taller image regroups psm 6's
+lines, which broke heading matching (chapter 4's title merged into its first
+paragraph) and moved settled paragraph counts. Reverted to 0.905.
+
+CONSEQUENCE FOR THE FINISHED UNITS - now resolved. Corrected source counts
+came out fm01 18, fm02 16, ch01 93, ch02 116, ch04 20, against translations
+of 18/16/92/115/19. Every shortfall was a paragraph BOUNDARY, not lost prose:
+the eaten line carried the indent that marked the break, so two paragraphs ran
+together. `reflow.py` re-laid ch01, ch02 and ch04 onto the corrected
+boundaries. No prose was rewritten and none was found missing.
+
+State after the repair: parity OK on all five units, and check_align reports
+no pair straying from the median on any of them.
+
 ## Pending decisions
 
 - **Chapter 1 contains an appendix printing the full lyrics of the training

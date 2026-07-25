@@ -470,5 +470,253 @@
    "page": 151,
    "why": "Fenglin Bridge"
   }
+ ],
+ "ch03": [
+  {
+   "wrong": "外寺分子",
+   "right": "外围分子",
+   "page": 91,
+   "why": "peripheral elements; crop-verified"
+  },
+  {
+   "wrong": "蜡已分子",
+   "right": "异己分子",
+   "page": 91,
+   "why": "排除异己分子, eliminate dissidents; crop-verified"
+  },
+  {
+   "wrong": "戴符",
+   "right": "戴笠",
+   "page": 91,
+   "why": "Dai Li; the systematic mangle of this name, 4 pages in ch03"
+  },
+  {
+   "wrong": "萝介石",
+   "right": "蒋介石",
+   "page": 91,
+   "why": "Chiang Kai-shek; crop-verified"
+  },
+  {
+   "wrong": "菏介石",
+   "right": "蒋介石",
+   "page": 92,
+   "why": "Chiang Kai-shek, a second distinct mangle; crop-verified"
+  },
+  {
+   "wrong": "在于着",
+   "right": "在干着",
+   "page": 91,
+   "why": "engaged in; crop-verified"
+  },
+  {
+   "wrong": "二巨左右",
+   "right": "二百左右",
+   "page": 92,
+   "why": "NUMBER: about two hundred per short course; crop-verified"
+  },
+  {
+   "wrong": "架床亚屋",
+   "right": "架床叠屋",
+   "page": 92,
+   "why": "idiom, beds stacked on beds = redundant duplication; crop-verified"
+  },
+  {
+   "wrong": "打铀街口",
+   "right": "打铜街口",
+   "page": 92,
+   "why": "Datong Street, Chungking; crop-verified"
+  },
+  {
+   "wrong": "责号",
+   "right": "责骂",
+   "page": 92,
+   "why": "upbraiding; crop-verified"
+  },
+  {
+   "wrong": "睡不安于",
+   "right": "睡不安宁",
+   "page": 92,
+   "why": "cannot sleep in peace; crop-verified"
+  },
+  {
+   "wrong": "贼层贼眼",
+   "right": "贼眉贼眼",
+   "page": 92,
+   "why": "shifty-eyed; scan reads 眉 not 头; crop-verified"
+  },
+  {
+   "wrong": "听简",
+   "right": "听筒",
+   "page": 92,
+   "why": "telephone receiver; crop-verified"
+  },
+  {
+   "wrong": "郭寄烽",
+   "right": "郭寄峤",
+   "page": 96,
+   "why": "Guo Jiqiao, deputy garrison commander; OCR made him a non-name"
+  },
+  {
+   "wrong": "副总可令",
+   "right": "副总司令",
+   "page": 96,
+   "why": "deputy commander-in-chief; crop-verified"
+  },
+  {
+   "wrong": "稳查处",
+   "right": "稽查处",
+   "page": 95,
+   "why": "Inspectorate; body text on the same page prints 稽查处"
+  },
+  {
+   "wrong": "将区",
+   "right": "特区",
+   "page": 124,
+   "why": "军统局的重庆特区, Chungking Special District; crop-verified heading"
+  },
+  {
+   "wrong": "钢奸团",
+   "right": "锄奸团",
+   "page": 138,
+   "why": "抗日锄奸团, Anti-Japanese Traitor-Elimination Corps; crop-verified heading"
+  },
+  {
+   "wrong": "浆卫稽查处",
+   "right": "警卫稽查处",
+   "page": 140,
+   "why": "兵工署警卫稽查处, Ordnance Dept Guard Inspectorate; crop-verified heading"
+  },
+  {
+   "wrong": "宠大",
+   "right": "庞大",
+   "page": 95,
+   "why": "vast. Scan is ambiguous between the 宀 and 广 radicals at this resolution; 庞大 is the only existing word."
+  },
+  {
+   "wrong": "新味用",
+   "right": "新味腴",
+   "page": 92,
+   "why": "Xinweiyu, Sichuan restaurant on Zourong Road; crop-verified"
+  },
+  {
+   "wrong": "味山餐厅",
+   "right": "味腴餐厅",
+   "page": 92,
+   "why": "Weiyu restaurant, Minsheng Road; crop-verified"
+  },
+  {
+   "wrong": "匀勾措措",
+   "right": "勾勾搭搭",
+   "page": 92,
+   "why": "in cahoots; crop-verified"
+  },
+  {
+   "wrong": "张简遍",
+   "right": "张简斋",
+   "page": 93,
+   "why": "Zhang Jianzhai, celebrated Nanking physician of Chinese medicine; OCR made him a non-name"
+  },
+  {
+   "wrong": "蓝片烟",
+   "right": "鸦片烟",
+   "page": 93,
+   "why": "opium; crop-verified"
+  },
+  {
+   "wrong": "陈逊裔",
+   "right": "陈逊斋",
+   "page": 93,
+   "why": "Chen Xunzhai, the second physician; crop-verified"
+  },
+  {
+   "wrong": "移查处",
+   "right": "稽查处",
+   "page": 93,
+   "why": "Inspectorate; same mangle class as 稳查处"
+  },
+  {
+   "wrong": "匣统",
+   "right": "军统",
+   "page": 93,
+   "why": "the Juntong; crop-verified"
+  },
+  {
+   "wrong": "措乘飞机",
+   "right": "乘搭飞机",
+   "page": 93,
+   "why": "to travel by air; scan reads 乘搭, not 搭乘; crop-verified"
+  },
+  {
+   "wrong": "车统调训",
+   "right": "军统调训",
+   "page": 94,
+   "why": "trained by the Juntong; crop-verified"
+  },
+  {
+   "wrong": "防读人员",
+   "right": "防谍人员",
+   "page": 94,
+   "why": "counter-espionage personnel; crop-verified"
+  },
+  {
+   "wrong": "饭硫",
+   "right": "饭碗",
+   "page": 94,
+   "why": "rice bowl, i.e. one's livelihood; crop-verified"
+  },
+  {
+   "wrong": "癌神",
+   "right": "瘟神",
+   "page": 94,
+   "why": "plague god; crop-verified"
+  },
+  {
+   "wrong": "朵烦",
+   "right": "麻烦",
+   "page": 94,
+   "why": "trouble; crop-verified"
+  },
+  {
+   "wrong": "盗伤物品",
+   "right": "盗窃物品",
+   "page": 93,
+   "why": "stolen goods; crop-verified"
+  },
+  {
+   "wrong": "于了些什么",
+   "right": "干了些什么",
+   "page": 95,
+   "why": "what they got up to; crop-verified"
+  },
+  {
+   "wrong": "想从你号上",
+   "right": "想从你身上",
+   "page": 93,
+   "why": "to get something out of you; crop-verified"
+  },
+  {
+   "wrong": "杂友们",
+   "right": "亲友们",
+   "page": 94,
+   "why": "relatives and friends; crop-verified"
+  },
+  {
+   "wrong": "发党",
+   "right": "发觉",
+   "page": 94,
+   "why": "to notice; crop-verified"
+  },
+  {
+   "wrong": "车统局",
+   "right": "军统局",
+   "page": 126,
+   "why": "the Juntong Bureau; second 军->车 mangle; crop class already established"
+  },
+  {
+   "wrong": "期间，和军统特务集中",
+   "right": "期间，军统特务集中",
+   "page": 91,
+   "why": "OCR inserted a spurious 和 before the operative-strength figure; crop-verified"
+  }
  ]
 }

@@ -54,6 +54,15 @@ CJK = r"一-鿿　-〿＀-￯"
 
 LEFT, RIGHT, TOP, BOTTOM = 0.055, 0.965, 0.050, 0.905
 
+# BOTTOM stays at 0.905. It cannot cleanly separate body text from the printed
+# folio -- measured over 120 pages, body text runs as far down as 0.9173 while
+# folios begin as high as 0.8868, so the bands overlap and no horizontal line
+# divides them. Widening the crop to swallow the folio whole was tried and
+# reverted: it changes the image psm 6 sees, which regroups lines, which broke
+# heading matching and moved paragraph counts that were settled. The overlap is
+# handled in strip_folio instead, where both a geometric and a textual signal
+# have to agree before anything is deleted.
+
 
 def despace(line):
     """chi_sim puts a space between every glyph; drop only CJK-internal
@@ -80,6 +89,21 @@ def folio_present(page):
     """
     img = cv2.imread(os.path.join(PNG, "p%04d.png" % page), cv2.IMREAD_GRAYSCALE)
     if img is None:
+        return False
+    # MEASURE THE PIXELS THE OCR ACTUALLY SAW, not the whole page.
+    #
+    # This function used to profile the full page while the text it judged came
+    # from the CROPPED image. On any page whose folio sits below the crop line
+    # the two disagree in the worst possible direction: the crop has already
+    # removed the folio, this function still sees it, returns True, and
+    # strip_folio then pops the last surviving line -- which is real prose.
+    # Measured over chapter 3, the folio falls outside the crop on 24 of 59
+    # pages, so 41% of pages silently lost their final line of text. Parity
+    # cannot see it: a line dropped from the middle of a paragraph changes no
+    # paragraph count, which is why the affected chapters passed every check.
+    h0, w0 = img.shape
+    img = img[int(h0 * TOP):int(h0 * BOTTOM), int(w0 * LEFT):int(w0 * RIGHT)]
+    if img.size == 0:
         return False
     h, w = img.shape
     ink = (img < 160).astype(np.uint8)
@@ -132,11 +156,49 @@ def strip_folio(lines, page):
     """
     while lines and not lines[-1].strip():
         lines.pop()
-    if lines and folio_present(page):
+    if lines and folio_present(page) and looks_like_folio(lines):
         lines.pop()
     while lines and not lines[-1].strip():
         lines.pop()
     return trim_embedded_folios(lines)
+
+
+def looks_like_folio(lines):
+    """Does the last OCR line actually LOOK like a printed page number?
+
+    The geometric test alone is not sufficient, and trusting it alone deleted
+    real prose from 41% of chapter 3's pages. The crop bottom (0.905) and the
+    folio band cross each other: on many pages the crop removes the folio
+    outright, so tesseract's output ends on a full line of text -- while
+    folio_present, profiling the page, still reports a folio and authorises a
+    pop. On p91 that silently ate a line carrying two of the Juntong's
+    strength figures.
+
+    The text test alone is not sufficient either -- that is the rule that once
+    deleted a real two-character line, 写。 -- so neither signal is trusted on
+    its own. A line is dropped only when the geometry AND the text agree, and
+    where they disagree the line is KEPT, which is the right direction to fail
+    in: a stray page number surviving into the source is visible to the numeric
+    check, while a deleted sentence is visible to nothing.
+    """
+    body = [l for l in lines if l.strip()]
+    if not body:
+        return False
+    last = body[-1].strip()
+    if len(body) > 1:
+        measure = sorted(len(l.strip()) for l in body[:-1])[len(body) // 2]
+    else:
+        measure = len(last)
+    han = len(re.findall(r"[一-鿿]", last))
+    digits = len(re.findall(r"\d", last))
+    if not measure or len(last) >= 0.30 * measure or han > 1:
+        return False
+    # A whole folio carries its digits. A folio the crop clipped may have lost
+    # them, but it keeps its dot delimiters -- and Chinese typesetting forbids
+    # a line OPENING on sentence-final punctuation, so a short line that starts
+    # with one is not prose. Both shapes are the page number; "写。", the real
+    # two-character line this test once deleted, is neither.
+    return bool(digits >= 1 or re.match(r"^[。.·]", last))
 
 
 def trim_embedded_folios(lines):
