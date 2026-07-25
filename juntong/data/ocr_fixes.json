@@ -2937,6 +2937,90 @@
    "right": "渝特区",
    "page": 126,
    "why": "the Yu special district"
+  },
+  {
+   "wrong": "庆承志",
+   "right": "廖承志",
+   "page": 126,
+   "why": "Liao Chengzhi, held by the Juntong; crop-verified"
+  },
+  {
+   "wrong": "叶挺将盏",
+   "right": "叶挺将军",
+   "page": 127,
+   "why": "General Ye Ting"
+  },
+  {
+   "wrong": "饥衣卫",
+   "right": "锦衣卫",
+   "page": 127,
+   "why": "Jinyiwei, the Ming Embroidered Uniform Guard; crop-verified"
+  },
+  {
+   "wrong": "锅衣卫",
+   "right": "锦衣卫",
+   "page": 127,
+   "why": "Jinyiwei, second mangle; crop-verified"
+  },
+  {
+   "wrong": "昌公馆",
+   "right": "白公馆",
+   "page": 127,
+   "why": "Baigongguan prison; crop-verified"
+  },
+  {
+   "wrong": "程永铭",
+   "right": "程永铭",
+   "page": 127,
+   "why": "kept as printed; crop-verified"
+  },
+  {
+   "wrong": "毛骨管然",
+   "right": "毛骨悚然",
+   "page": 127,
+   "why": "blood-curdling"
+  },
+  {
+   "wrong": "手镀脚错",
+   "right": "手镣脚铐",
+   "page": 127,
+   "why": "fetters and manacles; crop-verified"
+  },
+  {
+   "wrong": "使人发拌",
+   "right": "使人发抖",
+   "page": 127,
+   "why": "set one shaking; crop-verified"
+  },
+  {
+   "wrong": "搞还捕和用刑",
+   "right": "搞逮捕和用刑",
+   "page": 127,
+   "why": "arrests and torture"
+  },
+  {
+   "wrong": "备统",
+   "right": "军统",
+   "page": 127,
+   "why": "the Juntong"
+  },
+  {
+   "wrong": "如狼似席",
+   "right": "如狼似虎",
+   "page": 127,
+   "why": "like wolves and tigers"
+  },
+  {
+   "wrong": "是人军统监狱",
+   "right": "是入军统监狱",
+   "page": 127,
+   "why": "the first gate INTO the Juntong prisons"
+  },
+  {
+   "wrong": "当时和军统局局本部",
+   "right": "当时军统局局本部",
+   "page": 127,
+   "why": "spurious 和"
   }
  ]
 }
