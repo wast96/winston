@@ -1917,6 +1917,138 @@
    "right": "戴笠",
    "page": 113,
    "why": "Dai Li; recurring mangle"
+  },
+  {
+   "wrong": "萍册",
+   "right": "蒲岗",
+   "page": 114,
+   "why": "Pu Gang; mangle of the outgoing squad commander's name"
+  },
+  {
+   "wrong": "蒲册",
+   "right": "蒲岗",
+   "page": 114,
+   "why": "Pu Gang; second mangle"
+  },
+  {
+   "wrong": "灞岗",
+   "right": "蒲岗",
+   "page": 115,
+   "why": "Pu Gang; third mangle"
+  },
+  {
+   "wrong": "一家了条人馆",
+   "right": "一家茶馆",
+   "page": 114,
+   "why": "a teahouse"
+  },
+  {
+   "wrong": "因些，这里",
+   "right": "因此，这里",
+   "page": 114,
+   "why": "and so"
+  },
+  {
+   "wrong": "唐角",
+   "right": "唐毅",
+   "page": 115,
+   "why": "Tang Yi; crop-verified"
+  },
+  {
+   "wrong": "徐再下人台",
+   "right": "徐再下台",
+   "page": 115,
+   "why": "Xu stepped down again"
+  },
+  {
+   "wrong": "走薪介石路线",
+   "right": "走蒋介石路线",
+   "page": 115,
+   "why": "took the Chiang Kai-shek line"
+  },
+  {
+   "wrong": "对和孔祥黑巴结",
+   "right": "对孔祥熙巴结",
+   "page": 115,
+   "why": "curried favour with H. H. Kung"
+  },
+  {
+   "wrong": "第二个女几和孔令俊",
+   "right": "第二个女儿孔令俊",
+   "page": 115,
+   "why": "second daughter Kong Lingjun; crop-verified"
+  },
+  {
+   "wrong": "四川平闪王开绪",
+   "right": "四川军阀王瓒绪",
+   "page": 115,
+   "why": "the Szechwan warlord Wang Zanxu; crop-verified, same man as the garrison C-in-C"
+  },
+  {
+   "wrong": "除得到戴的文持",
+   "right": "除得到戴的支持",
+   "page": 115,
+   "why": "besides Dai's backing"
+  },
+  {
+   "wrong": "专昔渝特区",
+   "right": "专替渝特区",
+   "page": 116,
+   "why": "on behalf of the Chungking special district"
+  },
+  {
+   "wrong": "盏统才统一布置",
+   "right": "军统才统一布置",
+   "page": 116,
+   "why": "the Juntong"
+  },
+  {
+   "wrong": "这个侦缉了趴",
+   "right": "这个侦缉队",
+   "page": 116,
+   "why": "the detective squad"
+  },
+  {
+   "wrong": "便可外空子",
+   "right": "便可钻空子",
+   "page": 116,
+   "why": "could exploit the loopholes"
+  },
+  {
+   "wrong": "进行散诈勒索",
+   "right": "进行敲诈勒索",
+   "page": 116,
+   "why": "extortion"
+  },
+  {
+   "wrong": "原来是这人么一回事",
+   "right": "原来是这么一回事",
+   "page": 116,
+   "why": "so that was what it was about"
+  },
+  {
+   "wrong": "对OOG，方应答如流",
+   "right": "对方应答如流",
+   "page": 116,
+   "why": "the other answered fluently; OCR latin intrusion"
+  },
+  {
+   "wrong": "也不推诱",
+   "right": "也不推诿",
+   "page": 116,
+   "why": "nor did he try to shift the blame"
+  },
+  {
+   "wrong": "同时守无惧色",
+   "right": "同时毫无惧色",
+   "page": 116,
+   "why": "showing no fear at all"
+  },
+  {
+   "wrong": "谈家和常一样",
+   "right": "谈家常一样",
+   "page": 116,
+   "why": "like chatting about household matters"
   }
  ]
 }
