@@ -2823,6 +2823,84 @@
    "right": "左翼人士",
    "page": 124,
    "why": "left-wing figures; crop-verified"
+  },
+  {
+   "wrong": "刘延根",
+   "right": "刘廷根",
+   "page": 125,
+   "why": "Liu Tinggen, general affairs sub-section head; crop-verified"
+  },
+  {
+   "wrong": "不矢圳身份",
+   "right": "不暴露身份",
+   "page": 125,
+   "why": "not to expose one's identity; crop-verified"
+  },
+  {
+   "wrong": "骏露目标",
+   "right": "暴露目标",
+   "page": 125,
+   "why": "give away the target; crop-verified"
+  },
+  {
+   "wrong": "路明了好久",
+   "right": "唠叨了好久",
+   "page": 125,
+   "why": "went on at length; crop-verified"
+  },
+  {
+   "wrong": "末自去找",
+   "right": "亲自去找",
+   "page": 125,
+   "why": "went myself; crop-verified"
+  },
+  {
+   "wrong": "疼绍并",
+   "right": "姜绍谟",
+   "page": 125,
+   "why": "Jiang Shaomo; crop-verified"
+  },
+  {
+   "wrong": "顺便闪戴笠报告",
+   "right": "顺便向戴笠报告",
+   "page": 125,
+   "why": "reported to Dai Li"
+  },
+  {
+   "wrong": "打和各阶层",
+   "right": "打入各阶层",
+   "page": 125,
+   "why": "penetrate every class"
+  },
+  {
+   "wrong": "打和死或打伤",
+   "right": "打死或打伤",
+   "page": 125,
+   "why": "killed or wounded"
+  },
+  {
+   "wrong": "你在胡阐",
+   "right": "你在胡闹",
+   "page": 125,
+   "why": "you are talking nonsense"
+  },
+  {
+   "wrong": "上面去打主意人二",
+   "right": "上面去打主意",
+   "page": 125,
+   "why": "scheme along those lines"
+  },
+  {
+   "wrong": "竟是这人么严重",
+   "right": "竟是这么严重",
+   "page": 125,
+   "why": "as serious as this"
+  },
+  {
+   "wrong": "可嘱他们",
+   "right": "并嘱他们",
+   "page": 125,
+   "why": "and instructed them"
   }
  ]
 }
