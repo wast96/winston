@@ -108,6 +108,20 @@ after the events. Finding a claim in a dozen articles across a dozen respectable
 outlets — including *People's Daily* magazine pieces — is not corroboration. It
 has been copied twelve times.
 
+**And there is a decisive negative.** The claim that Wang was behind the Hongkou
+Park bombing first surfaces in **1983**, in 文史资料 written by his own younger
+brother and nephew. Nothing before 1949 connects him to it. More tellingly,
+**Shen Zui's memoirs — which discuss Wang Yaqiao at length — say nothing of
+it.** A Juntong officer writing from the other side, with every reason to
+inventory the man's operations, does not have the most famous one in his
+account. That is the strongest single indication that the patriotic Wang Yaqiao
+was assembled after the fact, by his own family, in the 1980s.
+
+Note too what the mainstream-looking reprints actually are. Pieces carrying
+*People's Daily* or *Guangming Daily* mastheads turn out, on inspection, to be
+**书刊博览 popular-book excerpt columns** — reprints of trade paperbacks, not
+archival reporting. The masthead is not a citation.
+
 This is why useful checking had to leave Chinese-language sources entirely:
 Japanese naval records for the *Izumo*, Japanese Wikipedia and postwar testimony
 for the Nichiren monk affair, Korean national reference works for Yun Bong-gil,
@@ -209,7 +223,8 @@ famous, it probably belongs to somebody else.
 | 8 | assessment | Hongkou Park is not his; traces to a 1983 family memoir |
 | 9 | assessment | **Impossible on its own dates** |
 | 10 | assessment | Yang Xingfo real; Wang's link to it nonexistent |
-| 11–15 | in progress | — |
+| 11 | assessment | Zhang Xueliang plot unattested even in the legend |
+| 12–15 | in progress | — |
 
 Working files: `out/ch07_assessment.md` through `ch10_assessment.md`, and 289
 footnotes across the prologue and chapters 1–6 in `out/wang-yaqiao.epub`.
