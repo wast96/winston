@@ -3819,6 +3819,42 @@
    "right": "他们要逮捕什么人",
    "page": 143,
    "why": "when they wanted to arrest someone"
+  },
+  {
+   "wrong": "靠手检和监狱",
+   "right": "靠手枪和监狱",
+   "page": 143,
+   "why": "by pistols and prisons; crop-verified"
+  },
+  {
+   "wrong": "用之不竟",
+   "right": "用之不竭",
+   "page": 143,
+   "why": "inexhaustible; crop-verified"
+  },
+  {
+   "wrong": "洼济洞",
+   "right": "渣滓洞",
+   "page": 143,
+   "why": "Zhazidong prison inside SACO; crop-verified"
+  },
+  {
+   "wrong": "军统办禁人犯",
+   "right": "军统囚禁人犯",
+   "page": 143,
+   "why": "where the Juntong confined prisoners; crop-verified"
+  },
+  {
+   "wrong": "损布国外",
+   "right": "遍布国外",
+   "page": 143,
+   "why": "spread abroad; crop-verified"
+  },
+  {
+   "wrong": "磁融口",
+   "right": "磁器口",
+   "page": 144,
+   "why": "Ciqikou"
   }
  ]
 }
