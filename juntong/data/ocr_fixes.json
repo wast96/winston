@@ -3753,6 +3753,72 @@
    "right": "闹什么摩擦",
    "page": 142,
    "why": "any friction"
+  },
+  {
+   "wrong": "张国寿",
+   "right": "张国焘",
+   "page": 142,
+   "why": "Zhang Guotao, CCP founder running the Juntong's special political training class; crop-verified"
+  },
+  {
+   "wrong": "张国春",
+   "right": "张国焘",
+   "page": 142,
+   "why": "Zhang Guotao, second mangle; crop-verified"
+  },
+  {
+   "wrong": "克仙盘",
+   "right": "龚仙舫",
+   "page": 142,
+   "why": "Gong Xianfang, head of Juntong personnel; crop-verified"
+  },
+  {
+   "wrong": "狼公涯",
+   "right": "鹅公岩",
+   "page": 142,
+   "why": "Egongyan arsenal; crop-verified"
+  },
+  {
+   "wrong": "措油住在",
+   "right": "揩油住在",
+   "page": 142,
+   "why": "sponged lodging; crop-verified"
+  },
+  {
+   "wrong": "背地里轨了",
+   "right": "背地里骂了",
+   "page": 142,
+   "why": "cursed behind their backs"
+  },
+  {
+   "wrong": "戴笠吹叶",
+   "right": "戴笠吹嘘",
+   "page": 142,
+   "why": "Dai Li boasted"
+  },
+  {
+   "wrong": "出入广区",
+   "right": "出入厂区",
+   "page": 143,
+   "why": "entering and leaving the factory area"
+  },
+  {
+   "wrong": "平日活路点的工人",
+   "right": "平日活跃点的工人",
+   "page": 143,
+   "why": "workers who were livelier than most"
+  },
+  {
+   "wrong": "讨厌和项视",
+   "right": "讨厌和仇视",
+   "page": 143,
+   "why": "disliked and hated"
+  },
+  {
+   "wrong": "他们要还捕什么人",
+   "right": "他们要逮捕什么人",
+   "page": 143,
+   "why": "when they wanted to arrest someone"
   }
  ]
 }
