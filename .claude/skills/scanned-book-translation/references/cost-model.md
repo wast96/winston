@@ -101,6 +101,32 @@ Every high-value catch on the project came from a script:
 Total cost of all of them: negligible. Total value: the worst defects in the
 project.
 
+## Scheduling: the cost of deferring a check
+
+Translate-all-then-verify looks like the efficient order and is not. The
+scripted checks cost the same whenever they run; what scales with delay is the
+**repair** and the **context reload**.
+
+- Register drift caught at chapter 5 is one chapter to re-voice. Caught at the
+  end it is a whole-book mechanical edit, and on the real project that edit
+  itself introduced three regressions that had to be found and reverted.
+- Twelve dropped footnotes were live in the book for weeks. A per-chapter gate
+  would have made each one a single-anchor fix on the day it appeared.
+- Immediately after translating a chapter, its source and translation are
+  already in context and checking them is nearly free. A deferred pass must
+  reload both for every chapter. That reload is a large share of what late
+  verification actually costs, and it buys nothing.
+
+**But this inverts for expensive checks.** Whole-page image reads and blind
+double translation run per chapter multiply the two costliest operations by the
+chapter count for roughly one finding. Those are calibration: once, on one
+chapter, then stop.
+
+The resulting rule: **cheap checks every chapter, expensive checks once, and a
+final sweep confined to what is irreducibly global** (cross-chapter pattern
+analysis, whole-book register comparison, statistical sampling, and revision in
+light of facts learned late).
+
 ## Rules
 
 1. **If a check can be a regex, it must be a regex.** Never spend a model call
@@ -108,14 +134,16 @@ project.
 2. **Build the gate before the content.** A check added at the end finds
    problems you must now fix everywhere. The same check on day one prevents
    them from being created.
-3. **Budget image reads like money.** Crop, don't page.
-4. **Calibrate expensive checks once, then stop.** If a check produces no
+3. **Never defer a cheap check to save time.** You are not saving the check,
+   you are buying a bigger fix.
+4. **Budget image reads like money.** Crop, don't page.
+5. **Calibrate expensive checks once, then stop.** If a check produces no
    findings on its first two runs, it is not going to start.
-5. **Batch and pre-brief research.** Tell it what you know.
-6. **Keep state in files, not context.** `PROGRESS.md` written as you go means
+6. **Batch and pre-brief research.** Tell it what you know.
+7. **Keep state in files, not context.** `PROGRESS.md` written as you go means
    a summarized context loses nothing.
-7. **Report findings, not process.** The user does not need the narration.
-8. **Fix your own infrastructure failures fast.** Check load average and orphan
+8. **Report findings, not process.** The user does not need the narration.
+9. **Fix your own infrastructure failures fast.** Check load average and orphan
    processes before concluding a tool is slow.
 
 ## A rough target

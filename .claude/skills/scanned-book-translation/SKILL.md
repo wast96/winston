@@ -73,6 +73,10 @@ for a thousandth of the cost. Skip entirely.
 - **Write the QA gate before the content.** A check added at the end finds
   problems you must now fix across everything. The same check on day one
   prevents them.
+- **Run the cheap checks per chapter and the expensive ones once.** Deferring
+  the scripts to a final pass does not save anything, because the scripts were
+  never the cost; the fixes and the context reload are. See "When to check"
+  below.
 - **Long replies cost tokens too.** Report findings, not process.
 - **Delete nothing, re-read nothing.** Keep state in files, not in context.
 
@@ -113,6 +117,84 @@ which is the most expensive thing in the whole pipeline.
 The general form: when a check cannot distinguish signal from noise, find a
 cheap second signal that can, and filter on it. Do not push the triage onto the
 reader — the reader is the expensive component.
+
+---
+
+## When to check: per chapter, not at the end
+
+Translate-all-then-verify feels efficient and is not. Check each chapter as you
+finish it. The reasoning is not what it looks like:
+
+**The checks do not get more expensive at the end. The fixes do.**
+
+Every script here runs in about a second whether pointed at one chapter or
+fifteen. What scales is the repair:
+
+- **Register drift** caught at chapter 5 is one chapter to re-voice. Caught at
+  the end it was a mechanical edit across the whole book, on prose no longer
+  held in working memory, and the pass over-corrected a proverb, a classical
+  oath and a self-naming construction, each of which had to be found and
+  reverted individually. The cleanup cost more than early detection would have.
+- **Twelve dropped footnotes** sat in the book for weeks. A build gate would
+  have refused the chapter 3 build the day the anchor drifted; the fix would
+  have been one anchor.
+- **A chapter with no title** shipped and stayed shipped, because by the time
+  anyone looked it was buried under nine more chapters.
+
+**The second cost is context reload.** Immediately after translating chapter N,
+the source and the translation are both already in context; checking them then
+is nearly free. A late accuracy pass has to load both back in for every chapter.
+That reload is a large share of what deferred verification actually costs, and
+it buys nothing the early check would not have.
+
+### The trap: this is true only of the cheap checks
+
+Per chapter is right for scripted checks and **exactly wrong** for expensive
+ones. Running whole-page image reads and blind double translation per chapter
+multiplies the two most costly operations in the pipeline by the chapter count,
+and on the real project returned about one finding between them.
+
+Expensive checks are **calibration**: run once, on one representative chapter,
+confirm the method is sound, then stop. If a check yields nothing on its first
+two runs, it will not start.
+
+### The split
+
+| Every chapter, always (all scripted, all ~free) | Once at the end, bounded |
+|---|---|
+| numeric survival | historical pattern analysis |
+| paragraph parity | statistical sample audit (3–5%) |
+| note anchors resolve | final consistency sweep |
+| heading shape | register comparison across all chapters |
+| glossary drift | |
+| register vs the reference chapter | |
+| targeted crop-verify of names and numerals | |
+| build, QA, commit | |
+
+The end-pass items are there because they are **irreducibly global**. You cannot
+see that a book's claims hold before one year and collapse after it by reading
+one chapter. Per-chapter samples are too small to carry statistical weight. And
+a fact learned in chapter 12 can correct a note written in chapter 3.
+
+### The design decision that makes per-chapter work
+
+**Measure register against the approved reference chapter, never against the
+running average of what you have already produced.** Against a moving baseline,
+drift is invisible by construction: the baseline drifts with you. Against a
+fixed reference, chapter 5 reads 2.8 against 16.2 and you catch it that day.
+
+The same principle covers the glossary: check each new chapter against the
+accumulated glossary, not against its own neighbours.
+
+### The honest counterargument
+
+Translation genuinely improves as you learn a book. Later chapters are better
+than early ones, and facts discovered late can revise notes written early. That
+is real, and it is why the end pass exists at all.
+
+But it argues for a **revision** pass, not for deferring **verification**.
+Revision and verification are different jobs, and only one of them gets cheaper
+by waiting.
 
 ---
 
@@ -164,8 +246,21 @@ false positives.
 
 ### Phase 2 — final sweep
 
-Re-run everything, because editing prose invalidates every prior check. Then
-measure register across all chapters at once and fix drift.
+Deliberately small, because the per-chapter gates did the work already. Four
+things, and only these:
+
+1. **Re-run every script.** Editing prose invalidates every prior check, so a
+   green result from chapter 4 means nothing once chapter 4 was touched in
+   week three. This is cheap; do it unconditionally.
+2. **Register across the whole spine at once.** Per-chapter checks catch a step;
+   the full table shows a slow slide that stayed inside tolerance each time.
+3. **Historical pattern analysis.** Sort every checkable claim by date and type
+   and look for the shape. This cannot be done per chapter and is often the
+   most valuable single output.
+4. **Random-sample deep audit**, at a fixed seed, across the whole book.
+
+If the final sweep is finding structural defects, the per-chapter gates were
+not doing their job. Fix the gate, not just the defect.
 
 ---
 
