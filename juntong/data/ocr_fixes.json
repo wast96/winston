@@ -1557,6 +1557,120 @@
    "right": "他了解我的身份后",
    "page": 106,
    "why": "once he knew who I was"
+  },
+  {
+   "wrong": "孔祥嫩",
+   "right": "孔祥熙",
+   "page": 107,
+   "why": "H. H. Kung; crop-verified"
+  },
+  {
+   "wrong": "我祥导",
+   "right": "孔祥熙",
+   "page": 108,
+   "why": "H. H. Kung, in the gloss on his courtesy name; crop-verified"
+  },
+  {
+   "wrong": "孔祥妇",
+   "right": "孔祥熙",
+   "page": 108,
+   "why": "H. H. Kung, third mangle"
+  },
+  {
+   "wrong": "南温果",
+   "right": "南温泉",
+   "page": 107,
+   "why": "Nanwenquan; crop-verified"
+  },
+  {
+   "wrong": "勿匆过江",
+   "right": "匆匆过江",
+   "page": 107,
+   "why": "crossed the river in haste"
+  },
+  {
+   "wrong": "使人一抑就知道",
+   "right": "使人一见就知道",
+   "page": 108,
+   "why": "one glance and you knew; crop-verified"
+  },
+  {
+   "wrong": "动辑打人号人",
+   "right": "动辄打人骂人",
+   "page": 108,
+   "why": "beat and cursed people at every turn"
+  },
+  {
+   "wrong": "底片全部上曝光",
+   "right": "底片全部曝光",
+   "page": 108,
+   "why": "expose the negatives"
+  },
+  {
+   "wrong": "宋希沼",
+   "right": "宋希濂",
+   "page": 108,
+   "why": "Song Xilian, deputy director of training, Central Training Corps"
+  },
+  {
+   "wrong": "制赴",
+   "right": "制止",
+   "page": 108,
+   "why": "stopped"
+  },
+  {
+   "wrong": "麦炸",
+   "right": "轰炸",
+   "page": 108,
+   "why": "bombing"
+  },
+  {
+   "wrong": "这些门的谭犬",
+   "right": "这些豪门的鹰犬",
+   "page": 108,
+   "why": "the hounds of these great houses; crop-verified"
+  },
+  {
+   "wrong": "电路关财",
+   "right": "电路关掉",
+   "page": 108,
+   "why": "cut off the power"
+  },
+  {
+   "wrong": "大允孔二小姐",
+   "right": "大骂孔二小姐",
+   "page": 108,
+   "why": "cursed Miss Kung the Second; crop-verified"
+  },
+  {
+   "wrong": "卑躬届膝",
+   "right": "卑躬屈膝",
+   "page": 108,
+   "why": "bowing and scraping; crop-verified"
+  },
+  {
+   "wrong": "陶一融",
+   "right": "陶一珊",
+   "page": 108,
+   "why": "Tao Yishan; crop-verified"
+  },
+  {
+   "wrong": "白市又飞机场",
+   "right": "白市驿飞机场",
+   "page": 108,
+   "why": "Baishiyi airfield; crop-verified"
+  },
+  {
+   "wrong": "迎面直闻",
+   "right": "迎面直冲",
+   "page": 108,
+   "why": "came straight at us"
+  },
+  {
+   "wrong": "开亮通着过去",
+   "right": "开亮冲着过去",
+   "page": 108,
+   "why": "drove straight at them"
   }
  ]
 }
