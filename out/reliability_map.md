@@ -224,7 +224,31 @@ famous, it probably belongs to somebody else.
 | 9 | assessment | **Impossible on its own dates** |
 | 10 | assessment | Yang Xingfo real; Wang's link to it nonexistent |
 | 11 | assessment | Zhang Xueliang plot unattested even in the legend |
-| 12–15 | in progress | — |
+| 12 | assessment | Novelistic; installs an unattested romance with Yu Wanjun |
+| 13 | assessment | **The book is right: Wang was in Hong Kong, not Nanjing** |
+| 14 | assessment | Cui Zhengyao's coded letter supplies the missing evidence |
+| 15 | assessment | Stable outline, no two accounts agreeing on any detail |
 
-Working files: `out/ch07_assessment.md` through `ch10_assessment.md`, and 289
-footnotes across the prologue and chapters 1–6 in `out/wang-yaqiao.epub`.
+Working files: `out/ch07_assessment.md` through `out/ch15_assessment.md`, and
+289 footnotes across the prologue and chapters 1–6 in `out/wang-yaqiao.epub`.
+
+---
+
+## A closing judgement
+
+Two things deserve saying at the end that no single chapter shows.
+
+**The book is at its most honest where it had most to gain by lying.** Chapter
+thirteen puts Wang Yaqiao in Hong Kong on 1 November 1935, learning of the Wang
+Jingwei shooting from a three-day-old newspaper. That is exactly where he was.
+An author bent purely on inflation would have had him in Nanjing.
+
+**And its most consequential invention is the quietest.** Chapters twelve and
+fourteen contain no famous event and so invite no checking, and between them
+they install what chapter fifteen needs: a romance between Wang and Yu Wanjun,
+and a mechanism for turning her. Neither is attested. The documented betrayal
+is a woman, a sum of money, and a promise about a husband in prison. The book
+supplies it with a broken heart.
+
+That is the book in one movement — accurate where you would check, invented
+where you would feel.
