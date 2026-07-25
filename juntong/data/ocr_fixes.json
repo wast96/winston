@@ -1167,6 +1167,54 @@
    "right": "一连去了三四天",
    "page": 101,
    "why": "went for three or four days running"
+  },
+  {
+   "wrong": "见缝即钵",
+   "right": "见缝即钻",
+   "page": 101,
+   "why": "to drill into any crack going; crop-verified"
+  },
+  {
+   "wrong": "豆励",
+   "right": "鼓励",
+   "page": 101,
+   "why": "encouragement; crop-verified"
+  },
+  {
+   "wrong": "毕孔腊",
+   "right": "毕孔殷",
+   "page": 101,
+   "why": "cover name of the external affairs group; crop-verified"
+  },
+  {
+   "wrong": "车统所运用",
+   "right": "军统所运用",
+   "page": 102,
+   "why": "the Juntong"
+  },
+  {
+   "wrong": "国际宣-，传处",
+   "right": "国际宣传处",
+   "page": 102,
+   "why": "International Publicity Department; OCR broke the word across a line"
+  },
+  {
+   "wrong": "保持和和军统",
+   "right": "保持和军统",
+   "page": 102,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "专门为稽查处摘搜捕",
+   "right": "专门为稽查处搞搜捕",
+   "page": 102,
+   "why": "to do the searching and arresting"
+  },
+  {
+   "wrong": "以办资匪偷窃案",
+   "right": "以办盗匪偷窃案",
+   "page": 102,
+   "why": "banditry and theft cases; 盗 misread as 资 across a line break; crop-verified"
   }
  ]
 }
