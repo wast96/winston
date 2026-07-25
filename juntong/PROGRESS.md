@@ -471,6 +471,51 @@ and alignment at 119/119. ch03's in-progress English split by hand at the two
 points that fall inside the translated range, verified by matching content
 markers independently in the Chinese and the English.
 
+## CH02'S PARAGRAPH BOUNDARIES ARE DISPLACED THROUGH A MIDDLE STRETCH
+
+Found while clearing ch02's inherited numeric debt. The 46 outstanding flags
+had already fallen to 8 once ch03's noise classes and the "a hundred thousand"
+parser fix were in place. Of those 8, four were numerals inside names or a
+weekday (崔万秋, 大三元, 万县, 星期六). The other four were real quantities --
+六人 buried alive, 三支手枪, 三个字, 三天 -- and none of them was in the English
+paragraph paired with it.
+
+They were not missing. They were one paragraph late. Source 57's content sits
+in English 58, source 62's in 63, source 76's in 77.
+
+CONFIRMED BY PROPER-NAME PROBE. Zhao Lijun, Chen Lifu, Lu Haifang, Shi
+Liangcai, Yang Xingfo and Che Yaoxian all sit one paragraph later in the
+English than the hanzi do in the Chinese, across roughly paragraphs 48-78.
+Names before that range are aligned (Cui Wanqiu 12, Wu Naixian 13-39, Cheng
+Muxi 34 and 39). Counts match at 119/119, so the drift closes again somewhere
+after 78; I have not yet pinned the exact end.
+
+CAUSE. reflow.py deals the translation's sentences into source paragraphs in
+proportion to Han-character length. Its own docstring warns that a boundary
+can land a sentence out and says to nudge it by hand afterwards. Over a run of
+paragraphs the slips accumulate before correcting.
+
+WHY NOTHING CAUGHT IT. check_align compares English-to-Han character ratios
+and reports ch02 "alignment OK": a displacement preserves every ratio, because
+each paragraph still receives about the right VOLUME of English, just not the
+right SENTENCES. This is the second time this class has bitten (ch03 had a
+skipped paragraph and a one-place offset that the ratio check also passed).
+Ratio checks find missing text. They cannot find misplaced text. The thing
+that found it both times was content: numerals here, paragraph openings there.
+
+WHAT IT DOES AND DOES NOT AFFECT. No prose is lost or altered -- ch02's
+English is complete and in the right order. What is wrong is the
+correspondence between source and translation paragraphs, which matters for
+three things: note anchors resolved by paragraph, the EPUB's citable page
+markers (keyed to source paragraph indices), and any correction Winston files
+against a paragraph number.
+
+NOT YET FIXED. Re-running reflow.py will not help, since proportional dealing
+is what produced the drift. The fix is a content-anchored re-lay using the
+numerals and glossary names shared across the two languages as fixed points,
+and then a content probe rather than a ratio check to verify it. That is the
+next task, before the WIP EPUB is built, because the page markers depend on it.
+
 ## Wake-up routines
 
 Four routines fire into this session on the hour, offset to give a roughly
