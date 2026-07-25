@@ -7,27 +7,27 @@
  {
   "printed": 30,
   "pdf": 49,
-  "body_paragraph": 3
+  "body_paragraph": 1
  },
  {
   "printed": 31,
   "pdf": 50,
-  "body_paragraph": 5
+  "body_paragraph": 3
  },
  {
   "printed": 32,
   "pdf": 51,
-  "body_paragraph": 8
+  "body_paragraph": 7
  },
  {
   "printed": 33,
   "pdf": 52,
-  "body_paragraph": 11
+  "body_paragraph": 10
  },
  {
   "printed": 34,
   "pdf": 53,
-  "body_paragraph": 13
+  "body_paragraph": 12
  },
  {
   "printed": 35,
@@ -42,171 +42,176 @@
  {
   "printed": 37,
   "pdf": 56,
-  "body_paragraph": 23
+  "body_paragraph": 22
  },
  {
   "printed": 38,
   "pdf": 57,
-  "body_paragraph": 26
+  "body_paragraph": 25
  },
  {
   "printed": 39,
   "pdf": 58,
-  "body_paragraph": 28
+  "body_paragraph": 26
+ },
+ {
+  "printed": 40,
+  "pdf": 59,
+  "body_paragraph": 30
  },
  {
   "printed": 41,
   "pdf": 60,
-  "body_paragraph": 34
+  "body_paragraph": 32
  },
  {
   "printed": 42,
   "pdf": 61,
-  "body_paragraph": 37
+  "body_paragraph": 33
  },
  {
   "printed": 43,
   "pdf": 62,
-  "body_paragraph": 39
+  "body_paragraph": 36
  },
  {
   "printed": 44,
   "pdf": 63,
-  "body_paragraph": 42
+  "body_paragraph": 39
  },
  {
   "printed": 45,
   "pdf": 64,
-  "body_paragraph": 45
+  "body_paragraph": 42
  },
  {
   "printed": 46,
   "pdf": 65,
-  "body_paragraph": 47
+  "body_paragraph": 44
  },
  {
   "printed": 47,
   "pdf": 66,
-  "body_paragraph": 49
+  "body_paragraph": 46
  },
  {
   "printed": 48,
   "pdf": 67,
-  "body_paragraph": 52
+  "body_paragraph": 49
  },
  {
   "printed": 49,
   "pdf": 68,
-  "body_paragraph": 55
+  "body_paragraph": 53
  },
  {
   "printed": 50,
   "pdf": 69,
-  "body_paragraph": 58
+  "body_paragraph": 56
  },
  {
   "printed": 51,
   "pdf": 70,
-  "body_paragraph": 60
+  "body_paragraph": 58
  },
  {
   "printed": 52,
   "pdf": 71,
-  "body_paragraph": 62
+  "body_paragraph": 60
  },
  {
   "printed": 53,
   "pdf": 72,
-  "body_paragraph": 65
+  "body_paragraph": 62
  },
  {
   "printed": 54,
   "pdf": 73,
-  "body_paragraph": 67
+  "body_paragraph": 63
  },
  {
   "printed": 55,
   "pdf": 74,
-  "body_paragraph": 69
+  "body_paragraph": 65
  },
  {
   "printed": 56,
   "pdf": 75,
-  "body_paragraph": 72
+  "body_paragraph": 68
  },
  {
   "printed": 57,
   "pdf": 76,
-  "body_paragraph": 75
+  "body_paragraph": 70
  },
  {
   "printed": 58,
   "pdf": 77,
-  "body_paragraph": 77
+  "body_paragraph": 72
  },
  {
   "printed": 59,
   "pdf": 78,
-  "body_paragraph": 80
+  "body_paragraph": 75
  },
  {
   "printed": 60,
   "pdf": 79,
-  "body_paragraph": 82
+  "body_paragraph": 77
  },
  {
   "printed": 61,
   "pdf": 80,
-  "body_paragraph": 84
+  "body_paragraph": 79
  },
  {
   "printed": 62,
   "pdf": 81,
-  "body_paragraph": 88
+  "body_paragraph": 83
  },
  {
   "printed": 63,
   "pdf": 82,
-  "body_paragraph": 92
+  "body_paragraph": 87
  },
  {
   "printed": 64,
   "pdf": 83,
-  "body_paragraph": 93
+  "body_paragraph": 88
  },
  {
   "printed": 65,
   "pdf": 84,
-  "body_paragraph": 96
+  "body_paragraph": 91
  },
  {
   "printed": 66,
   "pdf": 85,
-  "body_paragraph": 99
+  "body_paragraph": 94
  },
  {
   "printed": 67,
   "pdf": 86,
-  "body_paragraph": 102
+  "body_paragraph": 97
  },
  {
   "printed": 68,
   "pdf": 87,
-  "body_paragraph": 106
+  "body_paragraph": 101
  },
  {
   "printed": 69,
   "pdf": 88,
-  "body_paragraph": 109
+  "body_paragraph": 104
  },
  {
   "printed": 70,
   "pdf": 89,
-  "body_paragraph": 111
+  "body_paragraph": 106
  },
  {
   "printed": 71,
   "pdf": 90,
-  "body_paragraph": 115
+  "body_paragraph": 110
  }
 ]

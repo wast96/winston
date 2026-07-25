@@ -33,6 +33,18 @@ INDENT = os.path.join(ROOT, "data", "indent")
 
 SHORT_RATIO = 0.82   # of the median full line; below this the line ends a para
 
+# A paragraph break in Chinese prose always follows sentence-final punctuation.
+# Whatever signal proposes a break -- indent, blank line, short line -- it is
+# wrong if the text so far does not end on one of these, because no paragraph
+# ends in the middle of a sentence. This single test removed every false split
+# the indent measurement produced: all of them opened mid-sentence, at a page
+# top, where a continuation line's offset had been misread as an indent.
+SENT_END = "。！？…"
+# Closing quotes and brackets may follow the stop, so they are stripped before
+# the test rather than counted as ends themselves. Counting ')' as a sentence
+# end let a stray OCR bracket authorise a break in mid-sentence.
+SENT_CLOSERS = "”’』」》）)\"' 　"
+
 
 def load_pages(first, last):
     """Stream of (page, line, starts_paragraph).
@@ -117,6 +129,13 @@ def main():
     starts = []          # (printed_page, index into paras)
     seen_pages = set()
 
+    def can_break():
+        """True if the accumulated text ends a sentence."""
+        if not cur:
+            return False
+        s = cur[-1].rstrip().rstrip(SENT_CLOSERS)
+        return bool(s) and s[-1] in SENT_END
+
     def flush():
         if cur:
             paras.append("".join(cur))
@@ -149,10 +168,13 @@ def main():
                 starts.append((page, len(paras)))
             paras.append("### " + s)
             continue
-        at_page_top = idx in first_of_page
-        if have_indents and indented and not at_page_top:
-            flush()
-        elif have_indents and at_page_top and cur and len(cur[-1]) < cutoff:
+        # BOTH signals, gated by the sentence-end test. The indent is the
+        # typesetter's own mark but the measurement misses some of them; the
+        # short last line catches those, and its one failure mode -- the foot
+        # of a page, where the text block ends mid-sentence -- is exactly what
+        # the sentence-end gate refuses. Neither signal alone segmented this
+        # book correctly; together, gated, they do.
+        if can_break() and (indented or len(cur[-1]) < cutoff):
             flush()
         if not cur:
             cur_page = page
@@ -160,8 +182,6 @@ def main():
                 seen_pages.add(page)
                 starts.append((page, len(paras)))
         cur.append(s)
-        if not have_indents and len(s) < cutoff:
-            flush()
     flush()
 
     paras = [p for p in paras if p.strip()]

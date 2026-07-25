@@ -274,6 +274,46 @@ each against the scan, not against the count - and to recompute ch01's
 declared song-appendix exception, which was written against the old numbering.
 This is bookkeeping, not retranslation, but it is not done.
 
+## SEGMENTATION: where this actually stands, and a warning
+
+I spent a long stretch iterating on paragraph segmentation and it did not
+converge. Recording it honestly, because the next person (or the next session)
+should not repeat it.
+
+WHAT IS SETTLED AND VALUABLE:
+- The folio filter was deleting real text. That is fixed and verified. It is
+  the reason any of this was touched, and it was worth finding.
+- Every proposed paragraph break is now gated by SENTENCE-END: a break is
+  refused unless the text so far ends on 。！？… (closing quotes stripped
+  first). This makes the segmentation SAFE BY CONSTRUCTION - it can merge two
+  real paragraphs, but it can no longer split one mid-sentence. Those two
+  errors are not equally bad, and only the second corrupts the text.
+- Both signals are used together under that gate: the printed indent measured
+  off the page image, and the short last line. Each alone segments this book
+  wrongly; the gate removes the short-line rule's page-foot failure.
+
+WHAT DID NOT CONVERGE:
+Counts still disagree with the three units translated earlier - fm02 17 against
+15, ch01 89 against 92. I was chasing those numbers by adjusting thresholds,
+which is fitting a heuristic to a target instead of checking it against the
+page, and it traded one error class for another every time. I stopped.
+
+WHAT TO DO NEXT, IN THIS ORDER:
+1. Do NOT tune thresholds further against counts. Validate the indent
+   detector against a dozen actual page images first, and fix what it gets
+   wrong on the evidence.
+2. Then reconcile the earlier units ONCE, mechanically: where the source and
+   translation disagree, join or split the ENGLISH to match. Because of the
+   sentence-end gate this is safe - no source break falls mid-sentence - so
+   this is bookkeeping on paragraphing, not retranslation, and the prose does
+   not change.
+3. Only then rebuild.
+
+The translations themselves are complete and were content-checked when
+written. A paragraph-count difference of a few is a disagreement between two
+segmentations, not evidence of dropped text - but the gate must not be relaxed
+to make it green, because that is the check that would catch real loss.
+
 ## Pending decisions
 
 - **Chapter 1 contains an appendix printing the full lyrics of the training
