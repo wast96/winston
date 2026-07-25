@@ -3909,6 +3909,138 @@
    "right": "所长、警官、警察",
    "page": 144,
    "why": "spurious 和"
+  },
+  {
+   "wrong": "王万生",
+   "right": "王芃生",
+   "page": 146,
+   "why": "Wang Pengsheng, head of the International Affairs Research Institute; crop-verified"
+  },
+  {
+   "wrong": "军医屠长林可胜",
+   "right": "军医署长林可胜",
+   "page": 146,
+   "why": "Lin Kesheng (Robert Lim), director of the Army Medical Administration; crop-verified"
+  },
+  {
+   "wrong": "贝祖论",
+   "right": "贝祖诒",
+   "page": 146,
+   "why": "Bei Zuyi (P. Y. Bei), banker; crop-verified"
+  },
+  {
+   "wrong": "机房竺办事处",
+   "right": "机房街办事处",
+   "page": 146,
+   "why": "Jifang Street; crop-verified"
+  },
+  {
+   "wrong": "癌有往来",
+   "right": "向有往来",
+   "page": 146,
+   "why": "had long had dealings; crop-verified"
+  },
+  {
+   "wrong": "摘到共产党的情报",
+   "right": "搞到共产党的情报",
+   "page": 146,
+   "why": "get Communist intelligence; crop-verified"
+  },
+  {
+   "wrong": "他和硕望",
+   "right": "他希望",
+   "page": 146,
+   "why": "he hoped; crop-verified"
+  },
+  {
+   "wrong": "就一切都挤回来",
+   "right": "就一切都捞回来",
+   "page": 146,
+   "why": "he would recoup it all; crop-verified"
+  },
+  {
+   "wrong": "张学良将平",
+   "right": "张学良将军",
+   "page": 146,
+   "why": "General Zhang Xueliang"
+  },
+  {
+   "wrong": "的昌属并不都蔡他效力",
+   "right": "的旧属并不都替他效力",
+   "page": 146,
+   "why": "his former subordinates did not all serve him; crop-verified"
+  },
+  {
+   "wrong": "汽车驾伤",
+   "right": "汽车轧伤",
+   "page": 145,
+   "why": "knocked down by the car"
+  },
+  {
+   "wrong": "戴答才松了",
+   "right": "戴笠才松了",
+   "page": 145,
+   "why": "Dai Li breathed again"
+  },
+  {
+   "wrong": "有瞳中保护",
+   "right": "暗中保护",
+   "page": 145,
+   "why": "covert protection"
+  },
+  {
+   "wrong": "睾统局",
+   "right": "军统局",
+   "page": 146,
+   "why": "the Juntong bureau"
+  },
+  {
+   "wrong": "反藉人物",
+   "right": "反蒋人物",
+   "page": 146,
+   "why": "anti-Chiang figures"
+  },
+  {
+   "wrong": "村月笔",
+   "right": "杜月笙",
+   "page": 146,
+   "why": "Du Yuesheng"
+  },
+  {
+   "wrong": "也是党有的",
+   "right": "也是常有的",
+   "page": 146,
+   "why": "was common enough"
+  },
+  {
+   "wrong": "拉他人军统",
+   "right": "拉他入军统",
+   "page": 146,
+   "why": "drew him into the Juntong"
+  },
+  {
+   "wrong": "专蔡和军统搞",
+   "right": "专替军统搞",
+   "page": 146,
+   "why": "worked solely for the Juntong on"
+  },
+  {
+   "wrong": "和希望他应以全力",
+   "right": "希望他应以全力",
+   "page": 146,
+   "why": "hoped he would put his whole strength"
+  },
+  {
+   "wrong": "曾奉令稳查",
+   "right": "曾奉令稽查",
+   "page": 146,
+   "why": "was ordered to investigate"
+  },
+  {
+   "wrong": "蔡中共做什么工作",
+   "right": "替中共做什么工作",
+   "page": 146,
+   "why": "doing any work for the Communists"
   }
  ]
 }
