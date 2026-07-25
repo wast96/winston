@@ -157,7 +157,7 @@ reinstates every mangle already paid for - 张国焘 reverts to 张国琳. Every
 verified reading is now recorded with the page it was checked on and why, and
 replayed by script. 18 entries so far.
 
-### ch03 (抗战时期军统特务在重庆的罪行 / Juntong Crimes in Chungking during the War of Resistance) - TRANSLATED, notes pending
+### ch03 (抗战时期军统特务在重庆的罪行 / Juntong Crimes in Chungking during the War of Resistance) - DONE
 
 - PDF 91-149, printed 72-130. 193 source paragraphs, 193 translated. 11 sections.
 - **619 crop-verified OCR corrections**, by far the largest ledger of any unit so
@@ -172,6 +172,16 @@ replayed by script. 18 entries so far.
 - Checks: parity 193/193, alignment OK across every pair, register within
   tolerance of the ch01 reference, numeric check 6 residual flags, all
   adjudicated (see below).
+- Notes: 81, i.e. 1.37 per printed page, against 1.6 in ch01 and 3.0 in fm01.
+  Every anchor verified verbatim at write time; check_structure reports 152
+  anchors across the book, 0 unresolved. Density is where the material earns
+  it: this chapter, like ch01, carries long personnel rosters that need no
+  glossing, and the notes concentrate on the historical figures, the prison
+  system, the wordplay that cannot cross, and the places where the author is
+  an interested witness.
+- Glossary: +81 entries (198 total), including the two SACO prisons, the
+  Chungking institutions, and the period idiom preserved rather than
+  neutralized (美帝, 家法, 清水衙门).
 
 ### ch03 numeric adjudication - 27 flags, 0 real omissions
 
