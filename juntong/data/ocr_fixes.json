@@ -2271,6 +2271,66 @@
    "right": "主人没有失窃",
    "page": 121,
    "why": "the master had lost nothing"
+  },
+  {
+   "wrong": "一百七八二人",
+   "right": "一百七八十人",
+   "page": 123,
+   "why": "NUMBER: 170-180 regular members; crop-verified"
+  },
+  {
+   "wrong": "近干人之多",
+   "right": "近千人之多",
+   "page": 123,
+   "why": "NUMBER: nearly a thousand contacts; crop-verified"
+  },
+  {
+   "wrong": "闹得满城风琴",
+   "right": "闹得满城风雨",
+   "page": 122,
+   "why": "the talk of the whole town; crop-verified"
+  },
+  {
+   "wrong": "唐杀的一个过房几子",
+   "right": "唐毅的一个过房儿子",
+   "page": 123,
+   "why": "Tang Yi's adopted son; crop-verified"
+  },
+  {
+   "wrong": "被特务所为已有",
+   "right": "被特务所据为己有",
+   "page": 122,
+   "why": "appropriated by the operatives"
+  },
+  {
+   "wrong": "公馆失穷",
+   "right": "公馆失窃",
+   "page": 122,
+   "why": "burgled"
+  },
+  {
+   "wrong": "没有和弄清楚",
+   "right": "没有弄清楚",
+   "page": 122,
+   "why": "had not made sure"
+  },
+  {
+   "wrong": "大吵大阐",
+   "right": "大吵大闹",
+   "page": 123,
+   "why": "made a great scene"
+  },
+  {
+   "wrong": "局长家里于了东西",
+   "right": "局长家里丢了东西",
+   "page": 123,
+   "why": "the chief's house had lost something"
+  },
+  {
+   "wrong": "蔡军统卖力",
+   "right": "替军统卖力",
+   "page": 123,
+   "why": "worked hard for the Juntong"
   }
  ]
 }
