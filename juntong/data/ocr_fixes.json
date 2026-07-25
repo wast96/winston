@@ -3159,6 +3159,18 @@
    "right": "对保险信则叫",
    "page": 130,
    "why": "spurious 和"
+  },
+  {
+   "wrong": "字纸签中",
+   "right": "字纸篓中",
+   "page": 131,
+   "why": "into the wastepaper basket; crop-verified"
+  },
+  {
+   "wrong": "经贡要去注意",
+   "right": "经常要去注意",
+   "page": 132,
+   "why": "had constantly to be watched"
   }
  ]
 }
