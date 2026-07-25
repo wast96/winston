@@ -2049,6 +2049,54 @@
    "right": "谈家常一样",
    "page": 116,
    "why": "like chatting about household matters"
+  },
+  {
+   "wrong": "连声叫移",
+   "right": "连声叫冤",
+   "page": 116,
+   "why": "protested his innocence; crop-verified"
+  },
+  {
+   "wrong": "矢口和否认",
+   "right": "矢口否认",
+   "page": 116,
+   "why": "flatly denied"
+  },
+  {
+   "wrong": "并不曾侈枉他",
+   "right": "并不曾冤枉他",
+   "page": 116,
+   "why": "he had not been wronged"
+  },
+  {
+   "wrong": "临训得学生部华",
+   "right": "临训班学生邵华",
+   "page": 116,
+   "why": "Shao Hua, of the Linli class; crop-verified"
+  },
+  {
+   "wrong": "何玉央",
+   "right": "何玉崑",
+   "page": 117,
+   "why": "He Yukun, first company commander; crop-verified"
+  },
+  {
+   "wrong": "负责人和皆大欢喜",
+   "right": "负责人皆大欢喜",
+   "page": 117,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "除了和军统局局本部外",
+   "right": "除了军统局局本部外",
+   "page": 117,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "商人、和律师",
+   "right": "商人、律师",
+   "page": 117,
+   "why": "spurious 和"
   }
  ]
 }
