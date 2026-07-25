@@ -1851,6 +1851,72 @@
    "right": "他便骂我们",
    "page": 112,
    "why": "he cursed us"
+  },
+  {
+   "wrong": "还不够雄犀",
+   "right": "还不够雄厚",
+   "page": 113,
+   "why": "not strong enough; crop-verified"
+  },
+  {
+   "wrong": "刘粮为副大队长",
+   "right": "刘耀为副大队长",
+   "page": 113,
+   "why": "Liu Yao, deputy brigade commander; crop-verified"
+  },
+  {
+   "wrong": "唐杂",
+   "right": "唐毅",
+   "page": 114,
+   "why": "Tang Yi, Chungking chief of police; crop-verified"
+  },
+  {
+   "wrong": "峙裕昆",
+   "right": "酆裕昆",
+   "page": 114,
+   "why": "Feng Yukun, director of the police administration department, Ministry of the Interior; crop-verified"
+  },
+  {
+   "wrong": "经党练习",
+   "right": "经常练习",
+   "page": 113,
+   "why": "practised regularly"
+  },
+  {
+   "wrong": "有和群众集会",
+   "right": "有群众集会",
+   "page": 113,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "瞳中进行监视",
+   "right": "暗中进行监视",
+   "page": 113,
+   "why": "watched covertly"
+  },
+  {
+   "wrong": "每年昌有几千",
+   "right": "每年虽有几千",
+   "page": 113,
+   "why": "although several thousand a year"
+  },
+  {
+   "wrong": "由该局侦组队",
+   "right": "由该局侦缉队",
+   "page": 114,
+   "why": "the bureau's detective squad"
+  },
+  {
+   "wrong": "和希望把侦绢队",
+   "right": "希望把侦缉队",
+   "page": 114,
+   "why": "hoped to expand the detective squad"
+  },
+  {
+   "wrong": "戴等",
+   "right": "戴笠",
+   "page": 113,
+   "why": "Dai Li; recurring mangle"
   }
  ]
 }
