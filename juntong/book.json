@@ -1,0 +1,274 @@
+{
+ "title_zh": "军统内幕",
+ "title_en": "Inside the Juntong",
+ "author_zh": "沈醉",
+ "author_en": "Shen Zui",
+ "edition": "3rd ed., Zhongguo Wenshi Chubanshe, Beijing, 2001 (2nd ed. Oct 2001, 2nd printing Nov 2001); 1st ed. 1995",
+ "isbn": "9787503407550",
+ "pdf_pages": 521,
+ "page_offset_main": 19,
+ "page_offset_front": 5,
+ "offset_note": "Main text: printed = PDF - 19 (verified by eye on PDF 200/250/450 -> 181/231/431, and against ~12 TOC page references). Front matter (gaikuang, qianyan, TOC) carries its own sequence: printed = PDF - 5, running 1-14. PDF 521 is the Anna's Archive provenance page.",
+ "units": [
+  {
+   "id": "fm01_gaikuang",
+   "pdf_first": 6,
+   "pdf_last": 9,
+   "title_zh": "军统概况",
+   "kind": "front",
+   "printed_first": 1,
+   "printed_last": 4
+  },
+  {
+   "id": "fm02_qianyan",
+   "pdf_first": 10,
+   "pdf_last": 15,
+   "title_zh": "前言",
+   "kind": "front",
+   "printed_first": 5,
+   "printed_last": 10
+  },
+  {
+   "id": "ch01",
+   "pdf_first": 20,
+   "pdf_last": 47,
+   "title_zh": "军统培训特务的内幕",
+   "kind": "chapter",
+   "printed_first": 1,
+   "printed_last": 28
+  },
+  {
+   "id": "ch02",
+   "pdf_first": 48,
+   "pdf_last": 90,
+   "title_zh": "抗战前军统特务在上海的罪恶活动",
+   "kind": "chapter",
+   "printed_first": 29,
+   "printed_last": 71
+  },
+  {
+   "id": "ch03",
+   "pdf_first": 91,
+   "pdf_last": 149,
+   "title_zh": "抗战时期军统特务在重庆的罪行",
+   "kind": "chapter",
+   "printed_first": 72,
+   "printed_last": 130
+  },
+  {
+   "id": "ch04",
+   "pdf_first": 150,
+   "pdf_last": 156,
+   "title_zh": "杨杏佛、史量才被暗杀的经过",
+   "kind": "chapter",
+   "printed_first": 131,
+   "printed_last": 137
+  },
+  {
+   "id": "ch05",
+   "pdf_first": 157,
+   "pdf_last": 162,
+   "title_zh": "囚禁期间的叶挺将军",
+   "kind": "chapter",
+   "printed_first": 138,
+   "printed_last": 143
+  },
+  {
+   "id": "ch06",
+   "pdf_first": 163,
+   "pdf_last": 170,
+   "title_zh": "张学良将军被扣押时的情况",
+   "kind": "chapter",
+   "printed_first": 144,
+   "printed_last": 151
+  },
+  {
+   "id": "ch07",
+   "pdf_first": 171,
+   "pdf_last": 182,
+   "title_zh": "杨虎城将军被惨杀的经过",
+   "kind": "chapter",
+   "printed_first": 152,
+   "printed_last": 163
+  },
+  {
+   "id": "ch08",
+   "pdf_first": 183,
+   "pdf_last": 186,
+   "title_zh": "蒋介石阴谋暗杀李宗仁的内幕",
+   "kind": "chapter",
+   "printed_first": 164,
+   "printed_last": 167
+  },
+  {
+   "id": "ch09",
+   "pdf_first": 187,
+   "pdf_last": 188,
+   "title_zh": "交通警察总队是一支什么样的反动部队",
+   "kind": "chapter",
+   "printed_first": 168,
+   "printed_last": 169
+  },
+  {
+   "id": "ch10",
+   "pdf_first": 189,
+   "pdf_last": 198,
+   "title_zh": "军统对陕甘宁边区的罪恶活动",
+   "kind": "chapter",
+   "printed_first": 170,
+   "printed_last": 179
+  },
+  {
+   "id": "ch11",
+   "pdf_first": 199,
+   "pdf_last": 211,
+   "title_zh": "胡宗南和戴笠、毛人凤的关系",
+   "kind": "chapter",
+   "printed_first": 180,
+   "printed_last": 192
+  },
+  {
+   "id": "ch12",
+   "pdf_first": 212,
+   "pdf_last": 228,
+   "title_zh": "旧社会里的鸡鸣狗盗和侦缉人员",
+   "kind": "chapter",
+   "printed_first": 193,
+   "printed_last": 209
+  },
+  {
+   "id": "ch13",
+   "pdf_first": 229,
+   "pdf_last": 275,
+   "title_zh": "中美特种技术合作所内幕",
+   "kind": "chapter",
+   "printed_first": 210,
+   "printed_last": 256
+  },
+  {
+   "id": "ch14",
+   "pdf_first": 276,
+   "pdf_last": 324,
+   "title_zh": "云南解放前夕军统在昆明的特务活动",
+   "kind": "chapter",
+   "printed_first": 257,
+   "printed_last": 305
+  },
+  {
+   "id": "ch15",
+   "pdf_first": 325,
+   "pdf_last": 333,
+   "title_zh": "昆明七一五",
+   "kind": "chapter",
+   "printed_first": 306,
+   "printed_last": 314
+  },
+  {
+   "id": "ch16",
+   "pdf_first": 334,
+   "pdf_last": 337,
+   "title_zh": "阴谋诬陷中共的一个例证",
+   "kind": "chapter",
+   "printed_first": 315,
+   "printed_last": 318
+  },
+  {
+   "id": "ch17",
+   "pdf_first": 338,
+   "pdf_last": 341,
+   "title_zh": "我受命暗杀杨杰将军的经过",
+   "kind": "chapter",
+   "printed_first": 319,
+   "printed_last": 322
+  },
+  {
+   "id": "ch18",
+   "pdf_first": 342,
+   "pdf_last": 368,
+   "title_zh": "军统特务头子戴笠的继承人毛人凤",
+   "kind": "chapter",
+   "printed_first": 323,
+   "printed_last": 349
+  },
+  {
+   "id": "ch19",
+   "pdf_first": 369,
+   "pdf_last": 410,
+   "title_zh": "唐纵其人",
+   "kind": "chapter",
+   "printed_first": 350,
+   "printed_last": 391
+  },
+  {
+   "id": "ch20",
+   "pdf_first": 411,
+   "pdf_last": 469,
+   "title_zh": "保密局内幕",
+   "kind": "chapter",
+   "printed_first": 392,
+   "printed_last": 450
+  },
+  {
+   "id": "ch21",
+   "pdf_first": 470,
+   "pdf_last": 514,
+   "title_zh": "我所知道的郑介民",
+   "kind": "chapter",
+   "printed_first": 451,
+   "printed_last": 495
+  },
+  {
+   "id": "bm01_houji",
+   "pdf_first": 515,
+   "pdf_last": 517,
+   "title_zh": "后记",
+   "kind": "back",
+   "printed_first": 496,
+   "printed_last": 498
+  },
+  {
+   "id": "bm02_fuzai",
+   "pdf_first": 518,
+   "pdf_last": 520,
+   "title_zh": "附载",
+   "kind": "back",
+   "printed_first": 499,
+   "printed_last": 501
+  }
+ ],
+ "sources": {
+  "fm01_gaikuang": "data/zh/fm01_gaikuang.txt",
+  "fm02_qianyan": "data/zh/fm02_qianyan.txt",
+  "ch01": "data/zh/ch01.txt",
+  "ch02": "data/zh/ch02.txt",
+  "ch03": "data/zh/ch03.txt",
+  "ch04": "data/zh/ch04.txt",
+  "ch05": "data/zh/ch05.txt",
+  "ch06": "data/zh/ch06.txt",
+  "ch07": "data/zh/ch07.txt",
+  "ch08": "data/zh/ch08.txt",
+  "ch09": "data/zh/ch09.txt",
+  "ch10": "data/zh/ch10.txt",
+  "ch11": "data/zh/ch11.txt",
+  "ch12": "data/zh/ch12.txt",
+  "ch13": "data/zh/ch13.txt",
+  "ch14": "data/zh/ch14.txt",
+  "ch15": "data/zh/ch15.txt",
+  "ch16": "data/zh/ch16.txt",
+  "ch17": "data/zh/ch17.txt",
+  "ch18": "data/zh/ch18.txt",
+  "ch19": "data/zh/ch19.txt",
+  "ch20": "data/zh/ch20.txt",
+  "ch21": "data/zh/ch21.txt",
+  "bm01_houji": "data/zh/bm01_houji.txt",
+  "bm02_fuzai": "data/zh/bm02_fuzai.txt"
+ },
+ "docs": {
+  "fm01_gaikuang": "out/fm01_gaikuang_reading.md"
+ },
+ "notes": "notes.json",
+ "datelines": {},
+ "variants": {},
+ "heading_depth": 1,
+ "heading_depth_note": "1, not the default 2: in this book many units have no printed sections at all while others have a dozen, so comparing two levels would flag legitimate structure as a defect."
+}

@@ -1,0 +1,17 @@
+source.pdf
+data/png/
+data/crop/
+data/verify/
+build/
+__pycache__/
+*.pyc
+out/*.epub
+
+# Source transcriptions and page OCR are the copyrighted text of the book
+# itself, not project work. Same precedent as the previous translation repo.
+# They rebuild from source.pdf in about six minutes via ocr_crop.py.
+data/txt/
+data/zh/
+data/raw/
+data/*.log
+out/*_bilingual.md

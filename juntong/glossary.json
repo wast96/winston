@@ -1,0 +1,341 @@
+{
+ "people": {
+  "沈醉": {
+   "en": "Shen Zui",
+   "status": "attested",
+   "note": "1914-1996; the author. Juntong major-general, head of General Affairs; Yunnan station chief 1949; held as a war criminal, pardoned 1960; later a CPPCC member."
+  },
+  "戴笠": {
+   "en": "Dai Li",
+   "status": "attested",
+   "note": "1897-1946; founder-director of the Juntong in all but title."
+  },
+  "毛人凤": {
+   "en": "Mao Renfeng",
+   "status": "attested"
+  },
+  "郑介民": {
+   "en": "Zheng Jiemin",
+   "status": "attested"
+  },
+  "唐纵": {
+   "en": "Tang Zong",
+   "status": "attested"
+  },
+  "蒋介石": {
+   "en": "Chiang Kai-shek",
+   "status": "decided",
+   "note": "Conventional English form, not pinyin."
+  },
+  "胡宗南": {
+   "en": "Hu Zongnan",
+   "status": "attested"
+  },
+  "陈立夫": {
+   "en": "Chen Lifu",
+   "status": "attested"
+  },
+  "杨杏佛": {
+   "en": "Yang Xingfo",
+   "status": "attested"
+  },
+  "史量才": {
+   "en": "Shi Liangcai",
+   "status": "attested"
+  },
+  "叶挺": {
+   "en": "Ye Ting",
+   "status": "attested"
+  },
+  "张学良": {
+   "en": "Zhang Xueliang",
+   "status": "attested"
+  },
+  "杨虎城": {
+   "en": "Yang Hucheng",
+   "status": "attested"
+  },
+  "李宗仁": {
+   "en": "Li Zongren",
+   "status": "attested"
+  },
+  "杨杰": {
+   "en": "Yang Jie",
+   "status": "attested"
+  },
+  "李公朴": {
+   "en": "Li Gongpu",
+   "status": "attested"
+  },
+  "闻一多": {
+   "en": "Wen Yiduo",
+   "status": "attested"
+  },
+  "梅乐斯": {
+   "en": "Milton E. Miles",
+   "status": "attested",
+   "note": "US Navy officer, SACO co-director. The Chinese renders his surname phonetically."
+  },
+  "周恩来": {
+   "en": "Zhou Enlai",
+   "status": "attested"
+  },
+  "张炎元": {
+   "en": "Zhang Yanyuan",
+   "status": "provisional"
+  },
+  "徐亮": {
+   "en": "Xu Liang",
+   "status": "provisional"
+  },
+  "文强": {
+   "en": "Wen Qiang",
+   "status": "attested"
+  },
+  "酆悌": {
+   "en": "Feng Ti",
+   "status": "attested",
+   "note": "Lixingshe founding council; executed 1938 over the Changsha fire."
+  },
+  "滕杰": {
+   "en": "Teng Jie",
+   "status": "attested"
+  },
+  "贺衷寒": {
+   "en": "He Zhonghan",
+   "status": "attested"
+  },
+  "周复": {
+   "en": "Zhou Fu",
+   "status": "attested"
+  },
+  "康泽": {
+   "en": "Kang Ze",
+   "status": "attested"
+  },
+  "桂永清": {
+   "en": "Gui Yongqing",
+   "status": "attested"
+  },
+  "潘佑强": {
+   "en": "Pan Youqiang",
+   "status": "attested",
+   "note": "OCR read 潘估强; crop-verified."
+  },
+  "邱开基": {
+   "en": "Qiu Kaiji",
+   "status": "attested",
+   "note": "OCR read 印开基; crop-verified."
+  },
+  "侯志明": {
+   "en": "Hou Zhiming",
+   "status": "provisional",
+   "note": "OCR read 候志明; crop-verified as 侯."
+  },
+  "赵范生": {
+   "en": "Zhao Fansheng",
+   "status": "provisional"
+  },
+  "郑锡麟": {
+   "en": "Zheng Xilin",
+   "status": "provisional",
+   "note": "OCR read 郑锡鹿; crop-verified."
+  },
+  "马策": {
+   "en": "Ma Ce",
+   "status": "provisional"
+  },
+  "胡天秋": {
+   "en": "Hu Tianqiu",
+   "status": "provisional"
+  },
+  "徐恩曾": {
+   "en": "Xu Enzeng",
+   "status": "attested",
+   "note": "OCR read 徐因曾; crop-verified. Head of the Zhongtong."
+  },
+  "贺耀组": {
+   "en": "He Yaozu",
+   "status": "attested",
+   "note": "OCR read 贺友组; crop-verified."
+  },
+  "钱大钧": {
+   "en": "Qian Dajun",
+   "status": "attested",
+   "note": "OCR read 钱大钓; crop-verified."
+  },
+  "林蔚": {
+   "en": "Lin Wei",
+   "status": "attested",
+   "note": "OCR read 林幸; crop-verified."
+  },
+  "邓文仪": {
+   "en": "Deng Wenyi",
+   "status": "attested"
+  },
+  "梁干乔": {
+   "en": "Liang Ganqiao",
+   "status": "attested"
+  },
+  "杨继荣": {
+   "en": "Yang Jirong",
+   "status": "provisional"
+  },
+  "徐业道": {
+   "en": "Xu Yedao",
+   "status": "provisional"
+  },
+  "张国焘": {
+   "en": "Zhang Guotao",
+   "status": "attested",
+   "note": "CCP founder, defected to the Nationalists 1938; ran the Juntong's Special Political Problems Research Office. OCR read 张国琳 - a real catch."
+  }
+ },
+ "organisations": {
+  "军统": {
+   "en": "the Juntong",
+   "status": "decided",
+   "note": "Short for 国民政府军事委员会调查统计局. Glossed in full at first use, then 'the Juntong' throughout - the book's own usage."
+  },
+  "国民政府军事委员会调查统计局": {
+   "en": "Bureau of Investigation and Statistics of the Military Affairs Commission of the National Government",
+   "status": "attested"
+  },
+  "保密局": {
+   "en": "the Bureau of Secrets Preservation",
+   "status": "decided",
+   "note": "国防部保密局, the Juntong's 1946 successor under the Ministry of National Defence."
+  },
+  "复兴社": {
+   "en": "the Renaissance Society",
+   "status": "attested",
+   "note": "中华复兴社; also called the Blue Shirts (蓝衣社)."
+  },
+  "蓝衣社": {
+   "en": "the Blue Shirts",
+   "status": "attested"
+  },
+  "特务处": {
+   "en": "the Special Services Department",
+   "status": "decided"
+  },
+  "密查组": {
+   "en": "the Confidential Investigation Group",
+   "status": "provisional"
+  },
+  "十人团": {
+   "en": "the Ten-Man Team",
+   "status": "decided"
+  },
+  "中美特种技术合作所": {
+   "en": "the Sino-American Special Technical Cooperative Organization (SACO)",
+   "status": "attested",
+   "note": "'SACO' after first use."
+  },
+  "临澧特训班": {
+   "en": "the Linli special training class",
+   "status": "decided"
+  },
+  "文史资料选辑": {
+   "en": "Selected Historical Materials",
+   "status": "decided",
+   "note": "The CPPCC series in which most of this book first appeared."
+  },
+  "力行社": {
+   "en": "the Lixingshe",
+   "status": "attested",
+   "note": "Vigorous Practice Society; the inner body of the Renaissance Society complex."
+  },
+  "中统": {
+   "en": "the Zhongtong",
+   "status": "decided",
+   "note": "Bureau of Investigation and Statistics of the KMT Central Executive Committee."
+  },
+  "CC系": {
+   "en": "the CC clique",
+   "status": "attested"
+  },
+  "中山室": {
+   "en": "the Zhongshan Room",
+   "status": "decided"
+  },
+  "特种政治问题研究室": {
+   "en": "the Special Political Problems Research Office",
+   "status": "decided"
+  },
+  "四一大会": {
+   "en": "the April the First Assembly",
+   "status": "decided"
+  }
+ },
+ "terms": {
+  "特务": {
+   "en": "secret agent / operative",
+   "status": "decided",
+   "note": "Rendered 'operative' in institutional contexts, 'secret agent' where the book means the profession. Never 'spy'."
+  },
+  "罪恶活动": {
+   "en": "criminal activities",
+   "status": "decided",
+   "note": "Period self-criticism idiom; kept, not neutralised."
+  },
+  "反动": {
+   "en": "reactionary",
+   "status": "decided"
+  },
+  "委员长": {
+   "en": "the Generalissimo",
+   "status": "decided",
+   "note": "For Chiang; 'Chairman' would collide with the CCP usage a reader expects."
+  },
+  "行动": {
+   "en": "operations",
+   "status": "decided",
+   "note": "In Juntong usage 行动 is the killing-and-abduction side of the service."
+  }
+ },
+ "places": {
+  "重庆": {
+   "en": "Chungking",
+   "status": "decided",
+   "note": "Period English form, used throughout for the wartime capital."
+  },
+  "昆明": {
+   "en": "Kunming",
+   "status": "attested"
+  },
+  "临澧": {
+   "en": "Linli",
+   "status": "attested",
+   "note": "County in Hunan."
+  },
+  "息烽": {
+   "en": "Xifeng",
+   "status": "attested",
+   "note": "Guizhou; the Juntong's main prison camp."
+  },
+  "陕甘宁边区": {
+   "en": "the Shaan-Gan-Ning Border Region",
+   "status": "attested"
+  },
+  "珞珈山": {
+   "en": "Luojia Hill",
+   "status": "attested",
+   "note": "Wuchang; OCR read 玫珈山, crop-verified."
+  },
+  "罗家湾": {
+   "en": "Luojiawan",
+   "status": "attested",
+   "note": "Chungking; Juntong headquarters."
+  },
+  "磁器口": {
+   "en": "Ciqikou",
+   "status": "attested"
+  },
+  "戴山": {
+   "en": "Dai Hill",
+   "status": "decided",
+   "note": "As printed in this book for the crash site; other sources give 岱山. Preserved as printed and noted."
+  }
+ }
+}

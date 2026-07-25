@@ -1,0 +1,874 @@
+[
+ {
+  "level": "chapter",
+  "pdf": 6,
+  "printed": 1,
+  "top": 0.1822,
+  "title": "军统概况",
+  "band_ocr": "军统概况"
+ },
+ {
+  "level": "chapter",
+  "pdf": 10,
+  "printed": 5,
+  "top": 0.1794,
+  "title": "前言",
+  "band_ocr": "EPia四0"
+ },
+ {
+  "level": "section",
+  "pdf": 10,
+  "printed": 5,
+  "top": 0.1861,
+  "title": ".5，",
+  "band_ocr": "了吾"
+ },
+ {
+  "level": "chapter",
+  "pdf": 16,
+  "printed": 11,
+  "top": 0.1655,
+  "title": "目。系",
+  "band_ocr": "日有对"
+ },
+ {
+  "level": "chapter",
+  "pdf": 20,
+  "printed": 15,
+  "top": 0.1747,
+  "title": "车统培训特务的内大",
+  "band_ocr": "军统培训特务的内幕"
+ },
+ {
+  "level": "section",
+  "pdf": 20,
+  "printed": 15,
+  "top": 0.3348,
+  "title": "临训班成立经过",
+  "band_ocr": "临训班成立经过"
+ },
+ {
+  "level": "section",
+  "pdf": 23,
+  "printed": 18,
+  "top": 0.1171,
+  "title": "组织人事情况",
+  "band_ocr": "组织人事情况"
+ },
+ {
+  "level": "section",
+  "pdf": 28,
+  "printed": 23,
+  "top": 0.1112,
+  "title": "训继情况",
+  "band_ocr": "训练情况"
+ },
+ {
+  "level": "section",
+  "pdf": 40,
+  "printed": 35,
+  "top": 0.1459,
+  "title": "工作分配情况和内部的摩擦斗争",
+  "band_ocr": "工作分配情况和内部的摩扩斗争"
+ },
+ {
+  "level": "section",
+  "pdf": 45,
+  "printed": 40,
+  "top": 0.6082,
+  "title": "特训班学生的罪恶活动",
+  "band_ocr": "将训班学生的罪悉活动"
+ },
+ {
+  "level": "section",
+  "pdf": 48,
+  "printed": 43,
+  "top": 0.1741,
+  "title": "抗战前皇统特务在上海的",
+  "band_ocr": "抗战曾征统特务在上海的"
+ },
+ {
+  "level": "section",
+  "pdf": 48,
+  "printed": 43,
+  "top": 0.2155,
+  "title": "菲恶活动",
+  "band_ocr": "非恶活动"
+ },
+ {
+  "level": "section",
+  "pdf": 48,
+  "printed": 43,
+  "top": 0.3267,
+  "title": "组织与人事情况",
+  "band_ocr": "组织与人事情况"
+ },
+ {
+  "level": "section",
+  "pdf": 65,
+  "printed": 60,
+  "top": 0.2999,
+  "title": "果悉活动种种",
+  "band_ocr": "困悉活动种种"
+ },
+ {
+  "level": "section",
+  "pdf": 66,
+  "printed": 61,
+  "top": 0.5422,
+  "title": "秘密杀害",
+  "band_ocr": "秘密杀害"
+ },
+ {
+  "level": "section",
+  "pdf": 68,
+  "printed": 63,
+  "top": 0.405,
+  "title": "绑。票",
+  "band_ocr": "绑紧"
+ },
+ {
+  "level": "section",
+  "pdf": 71,
+  "printed": 66,
+  "top": 0.6498,
+  "title": "搜捕",
+  "band_ocr": "搂捕"
+ },
+ {
+  "level": "section",
+  "pdf": 77,
+  "printed": 72,
+  "top": 0.7345,
+  "title": "我受到的惩罚",
+  "band_ocr": "我受到的惩罚"
+ },
+ {
+  "level": "section",
+  "pdf": 82,
+  "printed": 77,
+  "top": 0.5291,
+  "title": "酷刑种种",
+  "band_ocr": "酰刑种种"
+ },
+ {
+  "level": "section",
+  "pdf": 85,
+  "printed": 80,
+  "top": 0.2163,
+  "title": "解押人犯的办法",
+  "band_ocr": "解押人犯的办法"
+ },
+ {
+  "level": "section",
+  "pdf": 86,
+  "printed": 81,
+  "top": 0.2471,
+  "title": "监视工作",
+  "band_ocr": "监视工作"
+ },
+ {
+  "level": "chapter",
+  "pdf": 91,
+  "printed": 86,
+  "top": 0.18,
+  "title": "抗战时期",
+  "band_ocr": "抗战时期"
+ },
+ {
+  "level": "section",
+  "pdf": 91,
+  "printed": 86,
+  "top": 0.22,
+  "title": "军统特务在重庆的罪行",
+  "band_ocr": "匣统特务在重庆的徘行"
+ },
+ {
+  "level": "section",
+  "pdf": 95,
+  "printed": 90,
+  "top": 0.1881,
+  "title": "重庆卫成总司令部稳查处",
+  "band_ocr": "重庆卫成总司令部徊查处"
+ },
+ {
+  "level": "section",
+  "pdf": 114,
+  "printed": 109,
+  "top": 0.3074,
+  "title": "重庆市警察局侦缉大队",
+  "band_ocr": "重庆市警察局侦缉大队"
+ },
+ {
+  "level": "section",
+  "pdf": 124,
+  "printed": 119,
+  "top": 0.1157,
+  "title": "军统局的重庆将区",
+  "band_ocr": "军统局的重庆特区"
+ },
+ {
+  "level": "section",
+  "pdf": 126,
+  "printed": 121,
+  "top": 0.4167,
+  "title": "特务总队",
+  "band_ocr": "特务总队"
+ },
+ {
+  "level": "section",
+  "pdf": 128,
+  "printed": 123,
+  "top": 0.713,
+  "title": "军委会特检处",
+  "band_ocr": "年委会将检处"
+ },
+ {
+  "level": "section",
+  "pdf": 134,
+  "printed": 129,
+  "top": 0.3946,
+  "title": "水陆交通统一检查处",
+  "band_ocr": "水陆交通统一检查处"
+ },
+ {
+  "level": "section",
+  "pdf": 138,
+  "printed": 133,
+  "top": 0.2532,
+  "title": "抗日钢奸团",
+  "band_ocr": "抗日钢奸团"
+ },
+ {
+  "level": "section",
+  "pdf": 140,
+  "printed": 135,
+  "top": 0.3661,
+  "title": "兵工署浆卫稽查处",
+  "band_ocr": "兵工署警卫稽查处"
+ },
+ {
+  "level": "section",
+  "pdf": 143,
+  "printed": 138,
+  "top": 0.3033,
+  "title": "军统局局本部在重庆的活动",
+  "band_ocr": "军统局局本部在重大的活动"
+ },
+ {
+  "level": "chapter",
+  "pdf": 150,
+  "printed": 145,
+  "top": 0.1766,
+  "title": "杨杏佛.史量才被蜡杀的经过",
+  "band_ocr": "杨杏佛.史量才爸瞳杀的经过"
+ },
+ {
+  "level": "chapter",
+  "pdf": 157,
+  "printed": 152,
+  "top": 0.1674,
+  "title": "办蔡期间的叶提将盏",
+  "band_ocr": "内和共期间的叶挺将车"
+ },
+ {
+  "level": "chapter",
+  "pdf": 163,
+  "printed": 158,
+  "top": 0.1713,
+  "title": "张学民将军做办宗时的情况",
+  "band_ocr": "张学民将盏被办系时的情况"
+ },
+ {
+  "level": "chapter",
+  "pdf": 171,
+  "printed": 166,
+  "top": 0.1632,
+  "title": "杨虎城将盏被惨杀的经过",
+  "band_ocr": "杨席城将车被惨杀的经过"
+ },
+ {
+  "level": "section",
+  "pdf": 171,
+  "printed": 166,
+  "top": 0.2862,
+  "title": "回国抗日,被戎用计扣押",
+  "band_ocr": "回国抗日,被戎用计扣押"
+ },
+ {
+  "level": "section",
+  "pdf": 173,
+  "printed": 168,
+  "top": 0.1174,
+  "title": "在息烽的因导生活",
+  "band_ocr": "修息烽的因居生活"
+ },
+ {
+  "level": "section",
+  "pdf": 176,
+  "printed": 171,
+  "top": 0.6993,
+  "title": "抗战胜利后的迁移",
+  "band_ocr": "抗战胜利后的迁移"
+ },
+ {
+  "level": "section",
+  "pdf": 178,
+  "printed": 173,
+  "top": 0.1445,
+  "title": "被共害的前后",
+  "band_ocr": "被共害的前后"
+ },
+ {
+  "level": "chapter",
+  "pdf": 183,
+  "printed": 178,
+  "top": 0.1688,
+  "title": "将介石阴谋暗杀李宁仁的内各",
+  "band_ocr": "将介石阴谋瞳杀李宁仁的内幕"
+ },
+ {
+  "level": "chapter",
+  "pdf": 187,
+  "printed": 182,
+  "top": 0.1764,
+  "title": "交通膨察总队",
+  "band_ocr": "交通情罕总队"
+ },
+ {
+  "level": "section",
+  "pdf": 187,
+  "printed": 182,
+  "top": 0.2166,
+  "title": "是一文什么桩的反动部队",
+  "band_ocr": "是一文什么梓的反动部队"
+ },
+ {
+  "level": "chapter",
+  "pdf": 189,
+  "printed": 184,
+  "top": 0.1663,
+  "title": "军统对陕甘字边区的徘恶汝动",
+  "band_ocr": "军统对陕甘衬边区的徘恶活动"
+ },
+ {
+  "level": "section",
+  "pdf": 189,
+  "printed": 184,
+  "top": 0.5757,
+  "title": "初期的一些活动",
+  "band_ocr": "初期的一些活动"
+ },
+ {
+  "level": "section",
+  "pdf": 190,
+  "printed": 185,
+  "top": 0.3091,
+  "title": "以张国春为主的一些活动",
+  "band_ocr": "以张国寿为主的一些活动"
+ },
+ {
+  "level": "section",
+  "pdf": 192,
+  "printed": 187,
+  "top": 0.3846,
+  "title": "军统对边区的活动片段",
+  "band_ocr": "军统对边区的活动片段"
+ },
+ {
+  "level": "section",
+  "pdf": 196,
+  "printed": 191,
+  "top": 0.3326,
+  "title": "军统企图腾共中共领导人的阴谋",
+  "band_ocr": "年统企图腾茶中共领导人的阴谋"
+ },
+ {
+  "level": "chapter",
+  "pdf": 199,
+  "printed": 194,
+  "top": 0.175,
+  "title": "胡宗南和戴洛.毛人风的关系",
+  "band_ocr": "胡宗南和戴笠.毛人风的关系"
+ },
+ {
+  "level": "chapter",
+  "pdf": 212,
+  "printed": 207,
+  "top": 0.1663,
+  "title": "旧社会里的鸡鸣狗咨和俩缉人员",
+  "band_ocr": "旧杜会里的鸡鸣狗咨和侦缉人员"
+ },
+ {
+  "level": "section",
+  "pdf": 220,
+  "printed": 215,
+  "top": 0.0134,
+  "title": "到",
+  "band_ocr": "到"
+ },
+ {
+  "level": "chapter",
+  "pdf": 229,
+  "printed": 224,
+  "top": 0.1722,
+  "title": "中美特种技术合作所内和攻",
+  "band_ocr": "中美特种技术合作所内攻"
+ },
+ {
+  "level": "section",
+  "pdf": 229,
+  "printed": 224,
+  "top": 0.6375,
+  "title": "成立经过",
+  "band_ocr": "成立经过"
+ },
+ {
+  "level": "section",
+  "pdf": 233,
+  "printed": 228,
+  "top": 0.1674,
+  "title": "前后三次签订的合同概要",
+  "band_ocr": "前后三次签订的合同概要"
+ },
+ {
+  "level": "section",
+  "pdf": 238,
+  "printed": 233,
+  "top": 0.6342,
+  "title": "组织\\人事及活动情况",
+  "band_ocr": "组织\\人事及活动情况"
+ },
+ {
+  "level": "section",
+  "pdf": 258,
+  "printed": 253,
+  "top": 0.4939,
+  "title": "美融将务的活动情况",
+  "band_ocr": "美帝将务的活动情况"
+ },
+ {
+  "level": "section",
+  "pdf": 264,
+  "printed": 259,
+  "top": 0.2029,
+  "title": "梅乐斯的罪恶活动",
+  "band_ocr": "梅乐斯的罪恶活动"
+ },
+ {
+  "level": "section",
+  "pdf": 268,
+  "printed": 263,
+  "top": 0.4695,
+  "title": "美帝海军与陆军",
+  "band_ocr": "美融海理与陆摆"
+ },
+ {
+  "level": "section",
+  "pdf": 268,
+  "printed": 263,
+  "top": 0.5028,
+  "title": "争夺对中美所的领导权",
+  "band_ocr": "争夺对中美所的领导权"
+ },
+ {
+  "level": "section",
+  "pdf": 271,
+  "printed": 266,
+  "top": 0.3083,
+  "title": "为求美特欢司举行的几次盛大宴会",
+  "band_ocr": "为求美煌欢怪举行的几次盛大宴会"
+ },
+ {
+  "level": "section",
+  "pdf": 274,
+  "printed": 269,
+  "top": 0.1794,
+  "title": "着介石最饮责美国刑具",
+  "band_ocr": "着介石最饮资美国剂具"
+ },
+ {
+  "level": "section",
+  "pdf": 275,
+  "printed": 270,
+  "top": 0.3074,
+  "title": "任务未完，先行结束",
+  "band_ocr": "任务未完，先行结束"
+ },
+ {
+  "level": "chapter",
+  "pdf": 276,
+  "printed": 271,
+  "top": 0.192,
+  "title": "云南解放前夕",
+  "band_ocr": "云产解放琢夕"
+ },
+ {
+  "level": "section",
+  "pdf": 276,
+  "printed": 271,
+  "top": 0.2323,
+  "title": "军统在昆明的特务活动",
+  "band_ocr": "车统在明的特务活动"
+ },
+ {
+  "level": "section",
+  "pdf": 276,
+  "printed": 271,
+  "top": 0.5579,
+  "title": "人民民,主运动高涨",
+  "band_ocr": "人民民主运动高涨"
+ },
+ {
+  "level": "section",
+  "pdf": 276,
+  "printed": 271,
+  "top": 0.5917,
+  "title": "将务卫谋活动独儿",
+  "band_ocr": "将务阴谋活动独狼"
+ },
+ {
+  "level": "section",
+  "pdf": 292,
+  "printed": 287,
+  "top": 0.2225,
+  "title": "和忽朋忽暗的政治局势",
+  "band_ocr": "和忽明和忽腾的政治局劳"
+ },
+ {
+  "level": "section",
+  "pdf": 298,
+  "printed": 293,
+  "top": 0.8004,
+  "title": "和毛人凤在昆明的阴谋活动",
+  "band_ocr": "和毛人凤人在昆明的阴谋必动"
+ },
+ {
+  "level": "section",
+  "pdf": 306,
+  "printed": 301,
+  "top": 0.339,
+  "title": "军统将务在昆明的最后挣扎",
+  "band_ocr": "军统将务在昆明的最后挣扎"
+ },
+ {
+  "level": "section",
+  "pdf": 319,
+  "printed": 314,
+  "top": 0.1042,
+  "title": "云南和平解放",
+  "band_ocr": "云南和平解放"
+ },
+ {
+  "level": "chapter",
+  "pdf": 325,
+  "printed": 320,
+  "top": 0.1699,
+  "title": "屁明七一五",
+  "band_ocr": "昆明七一五"
+ },
+ {
+  "level": "section",
+  "pdf": 325,
+  "printed": 320,
+  "top": 0.2099,
+  "title": "镇压学生爱国运动的经过",
+  "band_ocr": "镇压学生受国运动的经过"
+ },
+ {
+  "level": "chapter",
+  "pdf": 334,
+  "printed": 329,
+  "top": 0.1694,
+  "title": "阴谋逐陷中共的一个例证",
+  "band_ocr": "阴谋诬陷中其的一个例王"
+ },
+ {
+  "level": "chapter",
+  "pdf": 338,
+  "printed": 333,
+  "top": 0.1699,
+  "title": "我受命腊杀杨杰将盏的经过",
+  "band_ocr": "我受命蜡杀杨杰将车的经过"
+ },
+ {
+  "level": "chapter",
+  "pdf": 342,
+  "printed": 337,
+  "top": 0.1733,
+  "title": "车统桂务尖于戴和的",
+  "band_ocr": "车统特务头于戴党的"
+ },
+ {
+  "level": "section",
+  "pdf": 342,
+  "printed": 337,
+  "top": 0.2146,
+  "title": "继承人毛人风",
+  "band_ocr": "继承人毛人风"
+ },
+ {
+  "level": "section",
+  "pdf": 344,
+  "printed": 339,
+  "top": 0.2532,
+  "title": "坊，等，狠",
+  "band_ocr": "蕉，等，狠"
+ },
+ {
+  "level": "section",
+  "pdf": 352,
+  "printed": 347,
+  "top": 0.3946,
+  "title": "取信于戎介石的方法",
+  "band_ocr": "取信于薪介石的方法"
+ },
+ {
+  "level": "section",
+  "pdf": 356,
+  "printed": 351,
+  "top": 0.692,
+  "title": "对权责的拉拢和运用",
+  "band_ocr": "对权责的拉拢和运用"
+ },
+ {
+  "level": "section",
+  "pdf": 362,
+  "printed": 357,
+  "top": 0.6369,
+  "title": "对待拖徒的手段",
+  "band_ocr": "对符狐徒的手段"
+ },
+ {
+  "level": "section",
+  "pdf": 365,
+  "printed": 360,
+  "top": 0.3809,
+  "title": "和毛人凤的生活片新",
+  "band_ocr": "和毛人风的生活片新"
+ },
+ {
+  "level": "chapter",
+  "pdf": 369,
+  "printed": 364,
+  "top": 0.1738,
+  "title": "唐维其人",
+  "band_ocr": "唐维其人"
+ },
+ {
+  "level": "section",
+  "pdf": 369,
+  "printed": 364,
+  "top": 0.6369,
+  "title": "抗日战争以前的情况",
+  "band_ocr": "抗日战争以前的情况"
+ },
+ {
+  "level": "section",
+  "pdf": 374,
+  "printed": 369,
+  "top": 0.3644,
+  "title": "抗日战争期间",
+  "band_ocr": "抗日战争期间"
+ },
+ {
+  "level": "section",
+  "pdf": 383,
+  "printed": 378,
+  "top": 0.2655,
+  "title": "元察总置署长和",
+  "band_ocr": "元察总署署长和"
+ },
+ {
+  "level": "section",
+  "pdf": 383,
+  "printed": 378,
+  "top": 0.2988,
+  "title": "国防部保安事务局局长",
+  "band_ocr": "国防部保安事务局局长"
+ },
+ {
+  "level": "section",
+  "pdf": 386,
+  "printed": 381,
+  "top": 0.4659,
+  "title": "层出不穷的伤脑筋问题",
+  "band_ocr": "层出不穷的伤驴筋问题"
+ },
+ {
+  "level": "section",
+  "pdf": 393,
+  "printed": 388,
+  "top": 0.7105,
+  "title": "唐任加长后的反动措施",
+  "band_ocr": "唐任署长后的反动措施"
+ },
+ {
+  "level": "section",
+  "pdf": 403,
+  "printed": 398,
+  "top": 0.4162,
+  "title": "季士珍的明争腾斗",
+  "band_ocr": "和夺士珍的明争腾斗"
+ },
+ {
+  "level": "section",
+  "pdf": 410,
+  "printed": 405,
+  "top": 0.1154,
+  "title": "逃台前的家鸣",
+  "band_ocr": "逃台前的究鸣"
+ },
+ {
+  "level": "section",
+  "pdf": 420,
+  "printed": 415,
+  "top": 0.2158,
+  "title": "调整组织,更疯狂好反共反人民",
+  "band_ocr": "调整组织,更疯狂地反共反人民"
+ },
+ {
+  "level": "section",
+  "pdf": 450,
+  "printed": 445,
+  "top": 0.7387,
+  "title": "从屠杀到利用",
+  "band_ocr": "从屠杀到利用"
+ },
+ {
+  "level": "section",
+  "pdf": 452,
+  "printed": 447,
+  "top": 0.3225,
+  "title": "用叛徒做耳目",
+  "band_ocr": "用叛徒做耳目"
+ },
+ {
+  "level": "section",
+  "pdf": 454,
+  "printed": 449,
+  "top": 0.6012,
+  "title": "特务们是怎样观察.诱骗被捕的革命人士的",
+  "band_ocr": "特务们是怎样观察.诱骗被捕的革俘人士的"
+ },
+ {
+  "level": "section",
+  "pdf": 457,
+  "printed": 452,
+  "top": 0.4159,
+  "title": "错综复杂的种种斗争",
+  "band_ocr": "馆综复杂的种种斗争"
+ },
+ {
+  "level": "section",
+  "pdf": 459,
+  "printed": 454,
+  "top": 0.5196,
+  "title": "郑、毛、唐三派的朋争暗斗",
+  "band_ocr": "郑、毛、唐三派的朋争及斗"
+ },
+ {
+  "level": "section",
+  "pdf": 467,
+  "printed": 462,
+  "top": 0.5626,
+  "title": "真假保密局的如把戏",
+  "band_ocr": "真假保密局的召把戏"
+ },
+ {
+  "level": "chapter",
+  "pdf": 470,
+  "printed": 465,
+  "top": 0.173,
+  "title": "我所知道的郑介民",
+  "band_ocr": "我所知道的郑介民"
+ },
+ {
+  "level": "section",
+  "pdf": 470,
+  "printed": 465,
+  "top": 0.8032,
+  "title": "家庭出身和早年生活",
+  "band_ocr": "农许出身和平年生活"
+ },
+ {
+  "level": "section",
+  "pdf": 483,
+  "printed": 478,
+  "top": 0.3203,
+  "title": "抗战期间的活动",
+  "band_ocr": "抗战期间的活动"
+ },
+ {
+  "level": "section",
+  "pdf": 486,
+  "printed": 481,
+  "top": 0.7538,
+  "title": "与帝国主义的多结",
+  "band_ocr": "与帝国主义的义结"
+ },
+ {
+  "level": "section",
+  "pdf": 492,
+  "printed": 487,
+  "top": 0.7247,
+  "title": "国共和谈期间的将务活动",
+  "band_ocr": "国共和谈期间的将务活动"
+ },
+ {
+  "level": "section",
+  "pdf": 499,
+  "printed": 494,
+  "top": 0.3287,
+  "title": "积极反对共产党又最害怕共产党",
+  "band_ocr": "积极反对共产党又最害怕共产党"
+ },
+ {
+  "level": "section",
+  "pdf": 504,
+  "printed": 499,
+  "top": 0.7457,
+  "title": "任国防部次长时期的情况",
+  "band_ocr": "任国防部次长时期的情况"
+ },
+ {
+  "level": "section",
+  "pdf": 508,
+  "printed": 503,
+  "top": 0.6624,
+  "title": "不肯负责的作风上与贪污效财的手法",
+  "band_ocr": "不肯负责的作凤与贪污效财的手法"
+ },
+ {
+  "level": "chapter",
+  "pdf": 515,
+  "printed": 510,
+  "top": 0.1808,
+  "title": "后记",
+  "band_ocr": "后记"
+ },
+ {
+  "level": "section",
+  "pdf": 518,
+  "printed": 513,
+  "top": 0.1325,
+  "title": "“我介得了做人的扎理",
+  "band_ocr": "“我全得了做人的奶理"
+ },
+ {
+  "level": "section",
+  "pdf": 518,
+  "printed": 513,
+  "top": 0.2007,
+  "title": "一一访新增补的政协委员沈醇",
+  "band_ocr": "一一访新增补的政协委员沈醇"
+ },
+ {
+  "level": "section",
+  "pdf": 518,
+  "printed": 513,
+  "top": 0.3183,
+  "title": "《人民日报》记者胡思升",
+  "band_ocr": "《人民日报》记和者胡电升"
+ }
+]

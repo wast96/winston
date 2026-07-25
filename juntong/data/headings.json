@@ -1,0 +1,7282 @@
+[
+ {
+  "page": 6,
+  "n_lines": 23,
+  "heads": [
+   {
+    "band": [
+     652,
+     737
+    ],
+    "line_index": 0,
+    "top": 0.1822,
+    "left": 0.3853,
+    "right": 0.395,
+    "width_frac": 0.298,
+    "tall": true,
+    "page_opening": true,
+    "text": "军统概况"
+   }
+  ],
+  "opening": true,
+  "band": [
+   652,
+   737
+  ],
+  "printed": 1
+ },
+ {
+  "page": 7,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   389
+  ],
+  "printed": 2
+ },
+ {
+  "page": 8,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   380
+  ],
+  "printed": 3
+ },
+ {
+  "page": 9,
+  "n_lines": 14,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   388
+  ],
+  "printed": 4
+ },
+ {
+  "page": 10,
+  "n_lines": 25,
+  "heads": [
+   {
+    "band": [
+     642,
+     665
+    ],
+    "line_index": 0,
+    "top": 0.1794,
+    "left": 0.4289,
+    "right": 0.4168,
+    "width_frac": 0.209,
+    "tall": false,
+    "page_opening": true,
+    "text": "EPia四0"
+   },
+   {
+    "band": [
+     666,
+     726
+    ],
+    "line_index": 1,
+    "top": 0.1861,
+    "left": 0.4321,
+    "right": 0.422,
+    "width_frac": 0.198,
+    "tall": false,
+    "page_opening": false,
+    "text": "了吾"
+   }
+  ],
+  "opening": true,
+  "band": [
+   642,
+   665
+  ],
+  "printed": 5
+ },
+ {
+  "page": 11,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   379
+  ],
+  "printed": 6
+ },
+ {
+  "page": 12,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   385
+  ],
+  "printed": 7
+ },
+ {
+  "page": 13,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   383
+  ],
+  "printed": 8
+ },
+ {
+  "page": 14,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   380
+  ],
+  "printed": 9
+ },
+ {
+  "page": 15,
+  "n_lines": 22,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   382
+  ],
+  "printed": 10
+ },
+ {
+  "page": 16,
+  "n_lines": 24,
+  "heads": [
+   {
+    "band": [
+     592,
+     702
+    ],
+    "line_index": 0,
+    "top": 0.1655,
+    "left": 0.4135,
+    "right": 0.4365,
+    "width_frac": 0.218,
+    "tall": true,
+    "page_opening": true,
+    "text": "日有对"
+   }
+  ],
+  "opening": true,
+  "band": [
+   592,
+   702
+  ],
+  "printed": 11
+ },
+ {
+  "page": 17,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   307,
+   373
+  ],
+  "printed": 12
+ },
+ {
+  "page": 18,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   389
+  ],
+  "printed": 13
+ },
+ {
+  "page": 19,
+  "n_lines": 23,
+  "heads": [],
+  "opening": false,
+  "band": [
+   299,
+   371
+  ],
+  "printed": 14
+ },
+ {
+  "page": 20,
+  "n_lines": 22,
+  "heads": [
+   {
+    "band": [
+     625,
+     730
+    ],
+    "line_index": 0,
+    "top": 0.1747,
+    "left": 0.3353,
+    "right": 0.3474,
+    "width_frac": 0.445,
+    "tall": true,
+    "page_opening": true,
+    "text": "军统培训特务的内幕"
+   },
+   {
+    "band": [
+     1198,
+     1279
+    ],
+    "line_index": 2,
+    "top": 0.3348,
+    "left": 0.3708,
+    "right": 0.389,
+    "width_frac": 0.337,
+    "tall": true,
+    "page_opening": false,
+    "text": "临训班成立经过"
+   }
+  ],
+  "opening": true,
+  "band": [
+   625,
+   730
+  ],
+  "printed": 15
+ },
+ {
+  "page": 21,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   280,
+   285
+  ],
+  "printed": 16
+ },
+ {
+  "page": 22,
+  "n_lines": 28,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   374
+  ],
+  "printed": 17
+ },
+ {
+  "page": 23,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     419,
+     500
+    ],
+    "line_index": 0,
+    "top": 0.1171,
+    "left": 0.3712,
+    "right": 0.422,
+    "width_frac": 0.28,
+    "tall": true,
+    "page_opening": false,
+    "text": "组织人事情况"
+   }
+  ],
+  "opening": true,
+  "band": [
+   419,
+   500
+  ],
+  "printed": 18
+ },
+ {
+  "page": 24,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   380
+  ],
+  "printed": 19
+ },
+ {
+  "page": 25,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   395
+  ],
+  "printed": 20
+ },
+ {
+  "page": 26,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   294,
+   356
+  ],
+  "printed": 21
+ },
+ {
+  "page": 27,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   295,
+   358
+  ],
+  "printed": 22
+ },
+ {
+  "page": 28,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     398,
+     476
+    ],
+    "line_index": 0,
+    "top": 0.1112,
+    "left": 0.4019,
+    "right": 0.4095,
+    "width_frac": 0.255,
+    "tall": true,
+    "page_opening": false,
+    "text": "训练情况"
+   }
+  ],
+  "opening": true,
+  "band": [
+   398,
+   476
+  ],
+  "printed": 23
+ },
+ {
+  "page": 29,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   128,
+   133
+  ],
+  "printed": 24
+ },
+ {
+  "page": 30,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   395
+  ],
+  "printed": 25
+ },
+ {
+  "page": 31,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   376
+  ],
+  "printed": 26
+ },
+ {
+  "page": 32,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   342,
+   406
+  ],
+  "printed": 27
+ },
+ {
+  "page": 33,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   334,
+   395
+  ],
+  "printed": 28
+ },
+ {
+  "page": 34,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   286,
+   351
+  ],
+  "printed": 29
+ },
+ {
+  "page": 35,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   304,
+   368
+  ],
+  "printed": 30
+ },
+ {
+  "page": 36,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   379
+  ],
+  "printed": 31
+ },
+ {
+  "page": 37,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   163,
+   168
+  ],
+  "printed": 32
+ },
+ {
+  "page": 38,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   326,
+   392
+  ],
+  "printed": 33
+ },
+ {
+  "page": 39,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   382
+  ],
+  "printed": 34
+ },
+ {
+  "page": 40,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     522,
+     604
+    ],
+    "line_index": 1,
+    "top": 0.1459,
+    "left": 0.2584,
+    "right": 0.2515,
+    "width_frac": 0.662,
+    "tall": true,
+    "page_opening": false,
+    "text": "工作分配情况和内部的摩扩斗争"
+   }
+  ],
+  "opening": true,
+  "band": [
+   522,
+   604
+  ],
+  "printed": 35
+ },
+ {
+  "page": 41,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   391
+  ],
+  "printed": 36
+ },
+ {
+  "page": 42,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   330,
+   394
+  ],
+  "printed": 37
+ },
+ {
+  "page": 43,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   391
+  ],
+  "printed": 38
+ },
+ {
+  "page": 44,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   380
+  ],
+  "printed": 39
+ },
+ {
+  "page": 45,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2176,
+     2254
+    ],
+    "line_index": 18,
+    "top": 0.6082,
+    "left": 0.3132,
+    "right": 0.341,
+    "width_frac": 0.469,
+    "tall": true,
+    "page_opening": false,
+    "text": "将训班学生的罪悉活动"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2176,
+   2254
+  ],
+  "printed": 40
+ },
+ {
+  "page": 46,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   388
+  ],
+  "printed": 41
+ },
+ {
+  "page": 47,
+  "n_lines": 17,
+  "heads": [],
+  "opening": false,
+  "band": [
+   334,
+   397
+  ],
+  "printed": 42
+ },
+ {
+  "page": 48,
+  "n_lines": 23,
+  "heads": [
+   {
+    "band": [
+     623,
+     728
+    ],
+    "line_index": 1,
+    "top": 0.1741,
+    "left": 0.2862,
+    "right": 0.3277,
+    "width_frac": 0.522,
+    "tall": true,
+    "page_opening": false,
+    "text": "抗战曾征统特务在上海的"
+   },
+   {
+    "band": [
+     771,
+     872
+    ],
+    "line_index": 2,
+    "top": 0.2155,
+    "left": 0.3833,
+    "right": 0.424,
+    "width_frac": 0.26,
+    "tall": true,
+    "page_opening": false,
+    "text": "非恶活动"
+   },
+   {
+    "band": [
+     1169,
+     1251
+    ],
+    "line_index": 3,
+    "top": 0.3267,
+    "left": 0.3559,
+    "right": 0.4023,
+    "width_frac": 0.327,
+    "tall": true,
+    "page_opening": false,
+    "text": "组织与人事情况"
+   }
+  ],
+  "opening": true,
+  "band": [
+   623,
+   728
+  ],
+  "printed": 43
+ },
+ {
+  "page": 49,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   330,
+   393
+  ],
+  "printed": 44
+ },
+ {
+  "page": 50,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   383
+  ],
+  "printed": 45
+ },
+ {
+  "page": 51,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   308,
+   371
+  ],
+  "printed": 46
+ },
+ {
+  "page": 52,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   397
+  ],
+  "printed": 47
+ },
+ {
+  "page": 53,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   392
+  ],
+  "printed": 48
+ },
+ {
+  "page": 54,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   392
+  ],
+  "printed": 49
+ },
+ {
+  "page": 55,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   377
+  ],
+  "printed": 50
+ },
+ {
+  "page": 56,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   298,
+   361
+  ],
+  "printed": 51
+ },
+ {
+  "page": 57,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   305,
+   368
+  ],
+  "printed": 52
+ },
+ {
+  "page": 58,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   389
+  ],
+  "printed": 53
+ },
+ {
+  "page": 59,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   386
+  ],
+  "printed": 54
+ },
+ {
+  "page": 60,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   331,
+   393
+  ],
+  "printed": 55
+ },
+ {
+  "page": 61,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   321,
+   384
+  ],
+  "printed": 56
+ },
+ {
+  "page": 62,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   289,
+   352
+  ],
+  "printed": 57
+ },
+ {
+  "page": 63,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   285,
+   348
+  ],
+  "printed": 58
+ },
+ {
+  "page": 64,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   377
+  ],
+  "printed": 59
+ },
+ {
+  "page": 65,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1073,
+     1153
+    ],
+    "line_index": 7,
+    "top": 0.2999,
+    "left": 0.3769,
+    "right": 0.4196,
+    "width_frac": 0.276,
+    "tall": true,
+    "page_opening": false,
+    "text": "困悉活动种种"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1073,
+   1153
+  ],
+  "printed": 60
+ },
+ {
+  "page": 66,
+  "n_lines": 29,
+  "heads": [
+   {
+    "band": [
+     1940,
+     2000
+    ],
+    "line_index": 16,
+    "top": 0.5422,
+    "left": 0.4236,
+    "right": 0.4325,
+    "width_frac": 0.194,
+    "tall": false,
+    "page_opening": false,
+    "text": "秘密杀害"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1940,
+   2000
+  ],
+  "printed": 61
+ },
+ {
+  "page": 67,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   330,
+   392
+  ],
+  "printed": 62
+ },
+ {
+  "page": 68,
+  "n_lines": 29,
+  "heads": [
+   {
+    "band": [
+     1449,
+     1509
+    ],
+    "line_index": 11,
+    "top": 0.405,
+    "left": 0.4357,
+    "right": 0.4611,
+    "width_frac": 0.139,
+    "tall": false,
+    "page_opening": false,
+    "text": "绑紧"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1449,
+   1509
+  ],
+  "printed": 63
+ },
+ {
+  "page": 69,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   304,
+   367
+  ],
+  "printed": 64
+ },
+ {
+  "page": 70,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   386
+  ],
+  "printed": 65
+ },
+ {
+  "page": 71,
+  "n_lines": 29,
+  "heads": [
+   {
+    "band": [
+     2325,
+     2386
+    ],
+    "line_index": 20,
+    "top": 0.6498,
+    "left": 0.4212,
+    "right": 0.4756,
+    "width_frac": 0.14,
+    "tall": false,
+    "page_opening": false,
+    "text": "搂捕"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2325,
+   2386
+  ],
+  "printed": 66
+ },
+ {
+  "page": 72,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   298,
+   361
+  ],
+  "printed": 67
+ },
+ {
+  "page": 73,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   288,
+   352
+  ],
+  "printed": 68
+ },
+ {
+  "page": 74,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   291,
+   353
+  ],
+  "printed": 69
+ },
+ {
+  "page": 75,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   289,
+   351
+  ],
+  "printed": 70
+ },
+ {
+  "page": 76,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   374
+  ],
+  "printed": 71
+ },
+ {
+  "page": 77,
+  "n_lines": 29,
+  "heads": [
+   {
+    "band": [
+     2628,
+     2687
+    ],
+    "line_index": 23,
+    "top": 0.7345,
+    "left": 0.3938,
+    "right": 0.4522,
+    "width_frac": 0.209,
+    "tall": false,
+    "page_opening": false,
+    "text": "我受到的惩罚"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2628,
+   2687
+  ],
+  "printed": 72
+ },
+ {
+  "page": 78,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   330,
+   394
+  ],
+  "printed": 73
+ },
+ {
+  "page": 79,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   394
+  ],
+  "printed": 74
+ },
+ {
+  "page": 80,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   364,
+   427
+  ],
+  "printed": 75
+ },
+ {
+  "page": 81,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   359,
+   424
+  ],
+  "printed": 76
+ },
+ {
+  "page": 82,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1893,
+     1955
+    ],
+    "line_index": 15,
+    "top": 0.5291,
+    "left": 0.42,
+    "right": 0.4373,
+    "width_frac": 0.193,
+    "tall": false,
+    "page_opening": false,
+    "text": "酰刑种种"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1893,
+   1955
+  ],
+  "printed": 77
+ },
+ {
+  "page": 83,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   356,
+   421
+  ],
+  "printed": 78
+ },
+ {
+  "page": 84,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   352,
+   413
+  ],
+  "printed": 79
+ },
+ {
+  "page": 85,
+  "n_lines": 29,
+  "heads": [
+   {
+    "band": [
+     774,
+     834
+    ],
+    "line_index": 4,
+    "top": 0.2163,
+    "left": 0.3914,
+    "right": 0.4256,
+    "width_frac": 0.248,
+    "tall": false,
+    "page_opening": false,
+    "text": "解押人犯的办法"
+   }
+  ],
+  "opening": true,
+  "band": [
+   774,
+   834
+  ],
+  "printed": 80
+ },
+ {
+  "page": 86,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     884,
+     945
+    ],
+    "line_index": 5,
+    "top": 0.2471,
+    "left": 0.4385,
+    "right": 0.416,
+    "width_frac": 0.197,
+    "tall": false,
+    "page_opening": false,
+    "text": "监视工作"
+   }
+  ],
+  "opening": true,
+  "band": [
+   884,
+   945
+  ],
+  "printed": 81
+ },
+ {
+  "page": 87,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   361,
+   424
+  ],
+  "printed": 82
+ },
+ {
+  "page": 88,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   376,
+   439
+  ],
+  "printed": 83
+ },
+ {
+  "page": 89,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   376,
+   440
+  ],
+  "printed": 84
+ },
+ {
+  "page": 90,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   365,
+   430
+  ],
+  "printed": 85
+ },
+ {
+  "page": 91,
+  "n_lines": 22,
+  "heads": [
+   {
+    "band": [
+     644,
+     746
+    ],
+    "line_index": 0,
+    "top": 0.18,
+    "left": 0.3845,
+    "right": 0.4232,
+    "width_frac": 0.26,
+    "tall": true,
+    "page_opening": true,
+    "text": "抗战时期"
+   },
+   {
+    "band": [
+     787,
+     892
+    ],
+    "line_index": 1,
+    "top": 0.22,
+    "left": 0.3039,
+    "right": 0.3442,
+    "width_frac": 0.477,
+    "tall": true,
+    "page_opening": false,
+    "text": "匣统特务在重庆的徘行"
+   }
+  ],
+  "opening": true,
+  "band": [
+   644,
+   746
+  ],
+  "printed": 86
+ },
+ {
+  "page": 92,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   400
+  ],
+  "printed": 87
+ },
+ {
+  "page": 93,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   341,
+   403
+  ],
+  "printed": 88
+ },
+ {
+  "page": 94,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   302,
+   365
+  ],
+  "printed": 89
+ },
+ {
+  "page": 95,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     673,
+     752
+    ],
+    "line_index": 3,
+    "top": 0.1881,
+    "left": 0.3023,
+    "right": 0.3152,
+    "width_frac": 0.519,
+    "tall": true,
+    "page_opening": false,
+    "text": "重庆卫成总司令部徊查处"
+   }
+  ],
+  "opening": true,
+  "band": [
+   673,
+   752
+  ],
+  "printed": 90
+ },
+ {
+  "page": 96,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   292,
+   355
+  ],
+  "printed": 91
+ },
+ {
+  "page": 97,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   288,
+   352
+  ],
+  "printed": 92
+ },
+ {
+  "page": 98,
+  "n_lines": 32,
+  "heads": [],
+  "opening": false,
+  "band": [
+   256,
+   319
+  ],
+  "printed": 93
+ },
+ {
+  "page": 99,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   271,
+   336
+  ],
+  "printed": 94
+ },
+ {
+  "page": 100,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   310,
+   373
+  ],
+  "printed": 95
+ },
+ {
+  "page": 101,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   382
+  ],
+  "printed": 96
+ },
+ {
+  "page": 102,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   374
+  ],
+  "printed": 97
+ },
+ {
+  "page": 103,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   377
+  ],
+  "printed": 98
+ },
+ {
+  "page": 104,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   382
+  ],
+  "printed": 99
+ },
+ {
+  "page": 105,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   305,
+   367
+  ],
+  "printed": 100
+ },
+ {
+  "page": 106,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   263,
+   325
+  ],
+  "printed": 101
+ },
+ {
+  "page": 107,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   305,
+   368
+  ],
+  "printed": 102
+ },
+ {
+  "page": 108,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   376
+  ],
+  "printed": 103
+ },
+ {
+  "page": 109,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   386
+  ],
+  "printed": 104
+ },
+ {
+  "page": 110,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   320,
+   382
+  ],
+  "printed": 105
+ },
+ {
+  "page": 111,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   391
+  ],
+  "printed": 106
+ },
+ {
+  "page": 112,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   334,
+   396
+  ],
+  "printed": 107
+ },
+ {
+  "page": 113,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   337,
+   400
+  ],
+  "printed": 108
+ },
+ {
+  "page": 114,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1100,
+     1184
+    ],
+    "line_index": 7,
+    "top": 0.3074,
+    "left": 0.3313,
+    "right": 0.3212,
+    "width_frac": 0.47,
+    "tall": true,
+    "page_opening": false,
+    "text": "重庆市警察局侦缉大队"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1100,
+   1184
+  ],
+  "printed": 109
+ },
+ {
+  "page": 115,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   392
+  ],
+  "printed": 110
+ },
+ {
+  "page": 116,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   395
+  ],
+  "printed": 111
+ },
+ {
+  "page": 117,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   312,
+   374
+  ],
+  "printed": 112
+ },
+ {
+  "page": 118,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   338,
+   400
+  ],
+  "printed": 113
+ },
+ {
+  "page": 119,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   338,
+   401
+  ],
+  "printed": 114
+ },
+ {
+  "page": 120,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   397
+  ],
+  "printed": 115
+ },
+ {
+  "page": 121,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   337,
+   400
+  ],
+  "printed": 116
+ },
+ {
+  "page": 122,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   324,
+   386
+  ],
+  "printed": 117
+ },
+ {
+  "page": 123,
+  "n_lines": 28,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   395
+  ],
+  "printed": 118
+ },
+ {
+  "page": 124,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     414,
+     492
+    ],
+    "line_index": 0,
+    "top": 0.1157,
+    "left": 0.3599,
+    "right": 0.3664,
+    "width_frac": 0.37,
+    "tall": true,
+    "page_opening": false,
+    "text": "军统局的重庆特区"
+   }
+  ],
+  "opening": true,
+  "band": [
+   414,
+   492
+  ],
+  "printed": 119
+ },
+ {
+  "page": 125,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   383
+  ],
+  "printed": 120
+ },
+ {
+  "page": 126,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1491,
+     1565
+    ],
+    "line_index": 11,
+    "top": 0.4167,
+    "left": 0.3954,
+    "right": 0.4168,
+    "width_frac": 0.254,
+    "tall": true,
+    "page_opening": false,
+    "text": "特务总队"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1491,
+   1565
+  ],
+  "printed": 121
+ },
+ {
+  "page": 127,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   374
+  ],
+  "printed": 122
+ },
+ {
+  "page": 128,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2551,
+     2629
+    ],
+    "line_index": 22,
+    "top": 0.713,
+    "left": 0.3853,
+    "right": 0.4091,
+    "width_frac": 0.278,
+    "tall": true,
+    "page_opening": false,
+    "text": "年委会将检处"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2551,
+   2629
+  ],
+  "printed": 123
+ },
+ {
+  "page": 129,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   302,
+   365
+  ],
+  "printed": 124
+ },
+ {
+  "page": 130,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   298,
+   361
+  ],
+  "printed": 125
+ },
+ {
+  "page": 131,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   312,
+   383
+  ],
+  "printed": 126
+ },
+ {
+  "page": 132,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   313,
+   374
+  ],
+  "printed": 127
+ },
+ {
+  "page": 133,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   392
+  ],
+  "printed": 128
+ },
+ {
+  "page": 134,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1412,
+     1488
+    ],
+    "line_index": 10,
+    "top": 0.3946,
+    "left": 0.3418,
+    "right": 0.3422,
+    "width_frac": 0.427,
+    "tall": false,
+    "page_opening": false,
+    "text": "水陆交通统一检查处"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1412,
+   1488
+  ],
+  "printed": 129
+ },
+ {
+  "page": 135,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   391
+  ],
+  "printed": 130
+ },
+ {
+  "page": 136,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   392
+  ],
+  "printed": 131
+ },
+ {
+  "page": 137,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   331,
+   394
+  ],
+  "printed": 132
+ },
+ {
+  "page": 138,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     906,
+     978
+    ],
+    "line_index": 5,
+    "top": 0.2532,
+    "left": 0.3732,
+    "right": 0.3865,
+    "width_frac": 0.325,
+    "tall": false,
+    "page_opening": false,
+    "text": "抗日钢奸团"
+   }
+  ],
+  "opening": true,
+  "band": [
+   906,
+   978
+  ],
+  "printed": 133
+ },
+ {
+  "page": 139,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   327,
+   392
+  ],
+  "printed": 134
+ },
+ {
+  "page": 140,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1310,
+     1392
+    ],
+    "line_index": 9,
+    "top": 0.3661,
+    "left": 0.3511,
+    "right": 0.37,
+    "width_frac": 0.377,
+    "tall": true,
+    "page_opening": false,
+    "text": "兵工署警卫稽查处"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1310,
+   1392
+  ],
+  "printed": 135
+ },
+ {
+  "page": 141,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   337,
+   400
+  ],
+  "printed": 136
+ },
+ {
+  "page": 142,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   301,
+   364
+  ],
+  "printed": 137
+ },
+ {
+  "page": 143,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1079,
+     1159
+    ],
+    "line_index": 7,
+    "top": 0.3033,
+    "left": 0.2894,
+    "right": 0.3023,
+    "width_frac": 0.565,
+    "tall": true,
+    "page_opening": false,
+    "text": "军统局局本部在重大的活动"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1079,
+   1159
+  ],
+  "printed": 138
+ },
+ {
+  "page": 144,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   391
+  ],
+  "printed": 139
+ },
+ {
+  "page": 145,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   303,
+   365
+  ],
+  "printed": 140
+ },
+ {
+  "page": 146,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   226,
+   234
+  ],
+  "printed": 141
+ },
+ {
+  "page": 147,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   236,
+   240
+  ],
+  "printed": 142
+ },
+ {
+  "page": 148,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   394
+  ],
+  "printed": 143
+ },
+ {
+  "page": 149,
+  "n_lines": 6,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   390
+  ],
+  "printed": 144
+ },
+ {
+  "page": 150,
+  "n_lines": 22,
+  "heads": [
+   {
+    "band": [
+     632,
+     738
+    ],
+    "line_index": 0,
+    "top": 0.1766,
+    "left": 0.289,
+    "right": 0.2684,
+    "width_frac": 0.597,
+    "tall": true,
+    "page_opening": true,
+    "text": "杨杏佛.史量才爸瞳杀的经过"
+   }
+  ],
+  "opening": true,
+  "band": [
+   632,
+   738
+  ],
+  "printed": 145
+ },
+ {
+  "page": 151,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   398
+  ],
+  "printed": 146
+ },
+ {
+  "page": 152,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   331,
+   395
+  ],
+  "printed": 147
+ },
+ {
+  "page": 153,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   326,
+   389
+  ],
+  "printed": 148
+ },
+ {
+  "page": 154,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   380
+  ],
+  "printed": 149
+ },
+ {
+  "page": 155,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   326,
+   389
+  ],
+  "printed": 150
+ },
+ {
+  "page": 156,
+  "n_lines": 16,
+  "heads": [],
+  "opening": false,
+  "band": [
+   310,
+   373
+  ],
+  "printed": 151
+ },
+ {
+  "page": 157,
+  "n_lines": 23,
+  "heads": [
+   {
+    "band": [
+     599,
+     704
+    ],
+    "line_index": 0,
+    "top": 0.1674,
+    "left": 0.3249,
+    "right": 0.3603,
+    "width_frac": 0.426,
+    "tall": true,
+    "page_opening": true,
+    "text": "内和共期间的叶挺将车"
+   }
+  ],
+  "opening": true,
+  "band": [
+   599,
+   704
+  ],
+  "printed": 152
+ },
+ {
+  "page": 158,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   302,
+   367
+  ],
+  "printed": 153
+ },
+ {
+  "page": 159,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   379
+  ],
+  "printed": 154
+ },
+ {
+  "page": 160,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   385
+  ],
+  "printed": 155
+ },
+ {
+  "page": 161,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   305,
+   370
+  ],
+  "printed": 156
+ },
+ {
+  "page": 162,
+  "n_lines": 11,
+  "heads": [],
+  "opening": false,
+  "band": [
+   317,
+   380
+  ],
+  "printed": 157
+ },
+ {
+  "page": 163,
+  "n_lines": 22,
+  "heads": [
+   {
+    "band": [
+     613,
+     717
+    ],
+    "line_index": 0,
+    "top": 0.1713,
+    "left": 0.2862,
+    "right": 0.2922,
+    "width_frac": 0.572,
+    "tall": true,
+    "page_opening": true,
+    "text": "张学民将盏被办系时的情况"
+   }
+  ],
+  "opening": true,
+  "band": [
+   613,
+   717
+  ],
+  "printed": 158
+ },
+ {
+  "page": 164,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   374
+  ],
+  "printed": 159
+ },
+ {
+  "page": 165,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   380
+  ],
+  "printed": 160
+ },
+ {
+  "page": 166,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   313,
+   376
+  ],
+  "printed": 161
+ },
+ {
+  "page": 167,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   383
+  ],
+  "printed": 162
+ },
+ {
+  "page": 168,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   318,
+   385
+  ],
+  "printed": 163
+ },
+ {
+  "page": 169,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   304,
+   367
+  ],
+  "printed": 164
+ },
+ {
+  "page": 170,
+  "n_lines": 21,
+  "heads": [],
+  "opening": false,
+  "band": [
+   300,
+   362
+  ],
+  "printed": 165
+ },
+ {
+  "page": 171,
+  "n_lines": 22,
+  "heads": [
+   {
+    "band": [
+     584,
+     690
+    ],
+    "line_index": 0,
+    "top": 0.1632,
+    "left": 0.2991,
+    "right": 0.3136,
+    "width_frac": 0.526,
+    "tall": true,
+    "page_opening": true,
+    "text": "杨席城将车被惨杀的经过"
+   },
+   {
+    "band": [
+     1024,
+     1108
+    ],
+    "line_index": 1,
+    "top": 0.2862,
+    "left": 0.312,
+    "right": 0.3261,
+    "width_frac": 0.491,
+    "tall": true,
+    "page_opening": false,
+    "text": "回国抗日,被戎用计扣押"
+   }
+  ],
+  "opening": true,
+  "band": [
+   584,
+   690
+  ],
+  "printed": 166
+ },
+ {
+  "page": 172,
+  "n_lines": 27,
+  "heads": [],
+  "opening": false,
+  "band": [
+   334,
+   397
+  ],
+  "printed": 167
+ },
+ {
+  "page": 173,
+  "n_lines": 29,
+  "heads": [
+   {
+    "band": [
+     420,
+     497
+    ],
+    "line_index": 0,
+    "top": 0.1174,
+    "left": 0.3539,
+    "right": 0.37,
+    "width_frac": 0.375,
+    "tall": true,
+    "page_opening": false,
+    "text": "修息烽的因居生活"
+   }
+  ],
+  "opening": true,
+  "band": [
+   420,
+   497
+  ],
+  "printed": 168
+ },
+ {
+  "page": 174,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   291,
+   354
+  ],
+  "printed": 169
+ },
+ {
+  "page": 175,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   294,
+   357
+  ],
+  "printed": 170
+ },
+ {
+  "page": 176,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2502,
+     2581
+    ],
+    "line_index": 21,
+    "top": 0.6993,
+    "left": 0.3394,
+    "right": 0.3833,
+    "width_frac": 0.375,
+    "tall": true,
+    "page_opening": false,
+    "text": "抗战胜利后的迁移"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2502,
+   2581
+  ],
+  "printed": 171
+ },
+ {
+  "page": 177,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   391
+  ],
+  "printed": 172
+ },
+ {
+  "page": 178,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     517,
+     593
+    ],
+    "line_index": 1,
+    "top": 0.1445,
+    "left": 0.4027,
+    "right": 0.3914,
+    "width_frac": 0.278,
+    "tall": true,
+    "page_opening": false,
+    "text": "被共害的前后"
+   }
+  ],
+  "opening": true,
+  "band": [
+   517,
+   593
+  ],
+  "printed": 173
+ },
+ {
+  "page": 179,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   394
+  ],
+  "printed": 174
+ },
+ {
+  "page": 180,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   377
+  ],
+  "printed": 175
+ },
+ {
+  "page": 181,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   307,
+   370
+  ],
+  "printed": 176
+ },
+ {
+  "page": 182,
+  "n_lines": 27,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   383
+  ],
+  "printed": 177
+ },
+ {
+  "page": 183,
+  "n_lines": 22,
+  "heads": [
+   {
+    "band": [
+     604,
+     708
+    ],
+    "line_index": 0,
+    "top": 0.1688,
+    "left": 0.2487,
+    "right": 0.2946,
+    "width_frac": 0.619,
+    "tall": true,
+    "page_opening": true,
+    "text": "将介石阴谋瞳杀李宁仁的内幕"
+   }
+  ],
+  "opening": true,
+  "band": [
+   604,
+   708
+  ],
+  "printed": 178
+ },
+ {
+  "page": 184,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   343,
+   404
+  ],
+  "printed": 179
+ },
+ {
+  "page": 185,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   392
+  ],
+  "printed": 180
+ },
+ {
+  "page": 186,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   382
+  ],
+  "printed": 181
+ },
+ {
+  "page": 187,
+  "n_lines": 23,
+  "heads": [
+   {
+    "band": [
+     631,
+     734
+    ],
+    "line_index": 0,
+    "top": 0.1764,
+    "left": 0.3676,
+    "right": 0.422,
+    "width_frac": 0.286,
+    "tall": true,
+    "page_opening": true,
+    "text": "交通情罕总队"
+   },
+   {
+    "band": [
+     775,
+     881
+    ],
+    "line_index": 1,
+    "top": 0.2166,
+    "left": 0.2777,
+    "right": 0.3345,
+    "width_frac": 0.527,
+    "tall": true,
+    "page_opening": false,
+    "text": "是一文什么梓的反动部队"
+   }
+  ],
+  "opening": true,
+  "band": [
+   631,
+   734
+  ],
+  "printed": 182
+ },
+ {
+  "page": 188,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   299,
+   361
+  ],
+  "printed": 183
+ },
+ {
+  "page": 189,
+  "n_lines": 20,
+  "heads": [
+   {
+    "band": [
+     595,
+     699
+    ],
+    "line_index": 0,
+    "top": 0.1663,
+    "left": 0.2576,
+    "right": 0.2838,
+    "width_frac": 0.622,
+    "tall": true,
+    "page_opening": true,
+    "text": "军统对陕甘衬边区的徘恶活动"
+   },
+   {
+    "band": [
+     2060,
+     2132
+    ],
+    "line_index": 9,
+    "top": 0.5757,
+    "left": 0.362,
+    "right": 0.3974,
+    "width_frac": 0.326,
+    "tall": false,
+    "page_opening": false,
+    "text": "初期的一些活动"
+   }
+  ],
+  "opening": true,
+  "band": [
+   595,
+   699
+  ],
+  "printed": 184
+ },
+ {
+  "page": 190,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1106,
+     1182
+    ],
+    "line_index": 7,
+    "top": 0.3091,
+    "left": 0.3112,
+    "right": 0.3055,
+    "width_frac": 0.52,
+    "tall": true,
+    "page_opening": false,
+    "text": "以张国寿为主的一些活动"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1106,
+   1182
+  ],
+  "printed": 185
+ },
+ {
+  "page": 191,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   388
+  ],
+  "printed": 186
+ },
+ {
+  "page": 192,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1376,
+     1453
+    ],
+    "line_index": 10,
+    "top": 0.3846,
+    "left": 0.3297,
+    "right": 0.3225,
+    "width_frac": 0.472,
+    "tall": true,
+    "page_opening": false,
+    "text": "军统对边区的活动片段"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1376,
+   1453
+  ],
+  "printed": 187
+ },
+ {
+  "page": 193,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   301,
+   362
+  ],
+  "printed": 188
+ },
+ {
+  "page": 194,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   304,
+   368
+  ],
+  "printed": 189
+ },
+ {
+  "page": 195,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   295,
+   360
+  ],
+  "printed": 190
+ },
+ {
+  "page": 196,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1190,
+     1271
+    ],
+    "line_index": 8,
+    "top": 0.3326,
+    "left": 0.2499,
+    "right": 0.2612,
+    "width_frac": 0.66,
+    "tall": true,
+    "page_opening": false,
+    "text": "年统企图腾茶中共领导人的阴谋"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1190,
+   1271
+  ],
+  "printed": 191
+ },
+ {
+  "page": 197,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   326,
+   389
+  ],
+  "printed": 192
+ },
+ {
+  "page": 198,
+  "n_lines": 13,
+  "heads": [],
+  "opening": false,
+  "band": [
+   337,
+   398
+  ],
+  "printed": 193
+ },
+ {
+  "page": 199,
+  "n_lines": 22,
+  "heads": [
+   {
+    "band": [
+     626,
+     729
+    ],
+    "line_index": 0,
+    "top": 0.175,
+    "left": 0.2648,
+    "right": 0.2971,
+    "width_frac": 0.594,
+    "tall": true,
+    "page_opening": true,
+    "text": "胡宗南和戴笠.毛人风的关系"
+   }
+  ],
+  "opening": true,
+  "band": [
+   626,
+   729
+  ],
+  "printed": 194
+ },
+ {
+  "page": 200,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   338,
+   400
+  ],
+  "printed": 195
+ },
+ {
+  "page": 201,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   331,
+   395
+  ],
+  "printed": 196
+ },
+ {
+  "page": 202,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   341,
+   405
+  ],
+  "printed": 197
+ },
+ {
+  "page": 203,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   338,
+   404
+  ],
+  "printed": 198
+ },
+ {
+  "page": 204,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   337,
+   400
+  ],
+  "printed": 199
+ },
+ {
+  "page": 205,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   337,
+   400
+  ],
+  "printed": 200
+ },
+ {
+  "page": 206,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   383
+  ],
+  "printed": 201
+ },
+ {
+  "page": 207,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   292,
+   356
+  ],
+  "printed": 202
+ },
+ {
+  "page": 208,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   310,
+   374
+  ],
+  "printed": 203
+ },
+ {
+  "page": 209,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   386
+  ],
+  "printed": 204
+ },
+ {
+  "page": 210,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   392
+  ],
+  "printed": 205
+ },
+ {
+  "page": 211,
+  "n_lines": 10,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   373
+  ],
+  "printed": 206
+ },
+ {
+  "page": 212,
+  "n_lines": 22,
+  "heads": [
+   {
+    "band": [
+     595,
+     702
+    ],
+    "line_index": 0,
+    "top": 0.1663,
+    "left": 0.2596,
+    "right": 0.2483,
+    "width_frac": 0.666,
+    "tall": true,
+    "page_opening": true,
+    "text": "旧杜会里的鸡鸣狗咨和侦缉人员"
+   }
+  ],
+  "opening": true,
+  "band": [
+   595,
+   702
+  ],
+  "printed": 207
+ },
+ {
+  "page": 213,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   379
+  ],
+  "printed": 208
+ },
+ {
+  "page": 214,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   386
+  ],
+  "printed": 209
+ },
+ {
+  "page": 215,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   379
+  ],
+  "printed": 210
+ },
+ {
+  "page": 216,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   382
+  ],
+  "printed": 211
+ },
+ {
+  "page": 217,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   391
+  ],
+  "printed": 212
+ },
+ {
+  "page": 218,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   302,
+   365
+  ],
+  "printed": 213
+ },
+ {
+  "page": 219,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   289,
+   345
+  ],
+  "printed": 214
+ },
+ {
+  "page": 220,
+  "n_lines": 31,
+  "heads": [
+   {
+    "band": [
+     48,
+     53
+    ],
+    "line_index": 0,
+    "top": 0.0134,
+    "left": 0.5042,
+    "right": 0.4938,
+    "width_frac": 0.003,
+    "tall": false,
+    "page_opening": false,
+    "text": "到"
+   }
+  ],
+  "opening": true,
+  "band": [
+   48,
+   53
+  ],
+  "printed": 215
+ },
+ {
+  "page": 221,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   307,
+   370
+  ],
+  "printed": 216
+ },
+ {
+  "page": 222,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   391
+  ],
+  "printed": 217
+ },
+ {
+  "page": 223,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   326,
+   391
+  ],
+  "printed": 218
+ },
+ {
+  "page": 224,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   324,
+   388
+  ],
+  "printed": 219
+ },
+ {
+  "page": 225,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   386
+  ],
+  "printed": 220
+ },
+ {
+  "page": 226,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   388
+  ],
+  "printed": 221
+ },
+ {
+  "page": 227,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   307,
+   370
+  ],
+  "printed": 222
+ },
+ {
+  "page": 228,
+  "n_lines": 9,
+  "heads": [],
+  "opening": false,
+  "band": [
+   305,
+   371
+  ],
+  "printed": 223
+ },
+ {
+  "page": 229,
+  "n_lines": 20,
+  "heads": [
+   {
+    "band": [
+     616,
+     720
+    ],
+    "line_index": 0,
+    "top": 0.1722,
+    "left": 0.3075,
+    "right": 0.3067,
+    "width_frac": 0.524,
+    "tall": true,
+    "page_opening": true,
+    "text": "中美特种技术合作所内攻"
+   },
+   {
+    "band": [
+     2281,
+     2359
+    ],
+    "line_index": 11,
+    "top": 0.6375,
+    "left": 0.3958,
+    "right": 0.4148,
+    "width_frac": 0.257,
+    "tall": true,
+    "page_opening": false,
+    "text": "成立经过"
+   }
+  ],
+  "opening": true,
+  "band": [
+   616,
+   720
+  ],
+  "printed": 224
+ },
+ {
+  "page": 230,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   331,
+   395
+  ],
+  "printed": 225
+ },
+ {
+  "page": 231,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   308,
+   374
+  ],
+  "printed": 226
+ },
+ {
+  "page": 232,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   310,
+   373
+  ],
+  "printed": 227
+ },
+ {
+  "page": 233,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     599,
+     673
+    ],
+    "line_index": 2,
+    "top": 0.1674,
+    "left": 0.3063,
+    "right": 0.3116,
+    "width_frac": 0.518,
+    "tall": false,
+    "page_opening": false,
+    "text": "前后三次签订的合同概要"
+   }
+  ],
+  "opening": true,
+  "band": [
+   599,
+   673
+  ],
+  "printed": 228
+ },
+ {
+  "page": 234,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   300,
+   364
+  ],
+  "printed": 229
+ },
+ {
+  "page": 235,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   292,
+   359
+  ],
+  "printed": 230
+ },
+ {
+  "page": 236,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   310,
+   374
+  ],
+  "printed": 231
+ },
+ {
+  "page": 237,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   317,
+   382
+  ],
+  "printed": 232
+ },
+ {
+  "page": 238,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2269,
+     2354
+    ],
+    "line_index": 19,
+    "top": 0.6342,
+    "left": 0.3245,
+    "right": 0.3446,
+    "width_frac": 0.449,
+    "tall": true,
+    "page_opening": false,
+    "text": "组织\\人事及活动情况"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2269,
+   2354
+  ],
+  "printed": 233
+ },
+ {
+  "page": 239,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   321,
+   385
+  ],
+  "printed": 234
+ },
+ {
+  "page": 240,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   355,
+   418
+  ],
+  "printed": 235
+ },
+ {
+  "page": 241,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   350,
+   413
+  ],
+  "printed": 236
+ },
+ {
+  "page": 242,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   398
+  ],
+  "printed": 237
+ },
+ {
+  "page": 243,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   338,
+   403
+  ],
+  "printed": 238
+ },
+ {
+  "page": 244,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   397
+  ],
+  "printed": 239
+ },
+ {
+  "page": 245,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   386
+  ],
+  "printed": 240
+ },
+ {
+  "page": 246,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   310,
+   374
+  ],
+  "printed": 241
+ },
+ {
+  "page": 247,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   327,
+   391
+  ],
+  "printed": 242
+ },
+ {
+  "page": 248,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   394
+  ],
+  "printed": 243
+ },
+ {
+  "page": 249,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   331,
+   394
+  ],
+  "printed": 244
+ },
+ {
+  "page": 250,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   338,
+   399
+  ],
+  "printed": 245
+ },
+ {
+  "page": 251,
+  "n_lines": 28,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   391
+  ],
+  "printed": 246
+ },
+ {
+  "page": 252,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   307,
+   370
+  ],
+  "printed": 247
+ },
+ {
+  "page": 253,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   301,
+   365
+  ],
+  "printed": 248
+ },
+ {
+  "page": 254,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   386
+  ],
+  "printed": 249
+ },
+ {
+  "page": 255,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   315,
+   379
+  ],
+  "printed": 250
+ },
+ {
+  "page": 256,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   313,
+   376
+  ],
+  "printed": 251
+ },
+ {
+  "page": 257,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   308,
+   368
+  ],
+  "printed": 252
+ },
+ {
+  "page": 258,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1767,
+     1849
+    ],
+    "line_index": 14,
+    "top": 0.4939,
+    "left": 0.3466,
+    "right": 0.3406,
+    "width_frac": 0.422,
+    "tall": true,
+    "page_opening": false,
+    "text": "美帝将务的活动情况"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1767,
+   1849
+  ],
+  "printed": 253
+ },
+ {
+  "page": 259,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   291,
+   356
+  ],
+  "printed": 254
+ },
+ {
+  "page": 260,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   386
+  ],
+  "printed": 255
+ },
+ {
+  "page": 261,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   392
+  ],
+  "printed": 256
+ },
+ {
+  "page": 262,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   392
+  ],
+  "printed": 257
+ },
+ {
+  "page": 263,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   379
+  ],
+  "printed": 258
+ },
+ {
+  "page": 264,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     726,
+     802
+    ],
+    "line_index": 3,
+    "top": 0.2029,
+    "left": 0.3563,
+    "right": 0.3652,
+    "width_frac": 0.376,
+    "tall": true,
+    "page_opening": false,
+    "text": "梅乐斯的罪恶活动"
+   }
+  ],
+  "opening": true,
+  "band": [
+   726,
+   802
+  ],
+  "printed": 259
+ },
+ {
+  "page": 265,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   339,
+   403
+  ],
+  "printed": 260
+ },
+ {
+  "page": 266,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   337,
+   401
+  ],
+  "printed": 261
+ },
+ {
+  "page": 267,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   397
+  ],
+  "printed": 262
+ },
+ {
+  "page": 268,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1680,
+     1761
+    ],
+    "line_index": 13,
+    "top": 0.4695,
+    "left": 0.3599,
+    "right": 0.401,
+    "width_frac": 0.323,
+    "tall": true,
+    "page_opening": false,
+    "text": "美融海理与陆摆"
+   },
+   {
+    "band": [
+     1799,
+     1882
+    ],
+    "line_index": 14,
+    "top": 0.5028,
+    "left": 0.3075,
+    "right": 0.3454,
+    "width_frac": 0.47,
+    "tall": true,
+    "page_opening": false,
+    "text": "争夺对中美所的领导权"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1680,
+   1761
+  ],
+  "printed": 263
+ },
+ {
+  "page": 269,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   317,
+   379
+  ],
+  "printed": 264
+ },
+ {
+  "page": 270,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   383
+  ],
+  "printed": 265
+ },
+ {
+  "page": 271,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1103,
+     1184
+    ],
+    "line_index": 7,
+    "top": 0.3083,
+    "left": 0.2362,
+    "right": 0.2406,
+    "width_frac": 0.71,
+    "tall": true,
+    "page_opening": false,
+    "text": "为求美煌欢怪举行的几次盛大宴会"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1103,
+   1184
+  ],
+  "printed": 266
+ },
+ {
+  "page": 272,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   326,
+   389
+  ],
+  "printed": 267
+ },
+ {
+  "page": 273,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   376
+  ],
+  "printed": 268
+ },
+ {
+  "page": 274,
+  "n_lines": 27,
+  "heads": [
+   {
+    "band": [
+     642,
+     723
+    ],
+    "line_index": 2,
+    "top": 0.1794,
+    "left": 0.3281,
+    "right": 0.3229,
+    "width_frac": 0.472,
+    "tall": false,
+    "page_opening": false,
+    "text": "着介石最饮资美国剂具"
+   }
+  ],
+  "opening": true,
+  "band": [
+   642,
+   723
+  ],
+  "printed": 269
+ },
+ {
+  "page": 275,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1100,
+     1183
+    ],
+    "line_index": 7,
+    "top": 0.3074,
+    "left": 0.3394,
+    "right": 0.3656,
+    "width_frac": 0.4,
+    "tall": true,
+    "page_opening": false,
+    "text": "任务未完，先行结束"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1100,
+   1183
+  ],
+  "printed": 270
+ },
+ {
+  "page": 276,
+  "n_lines": 20,
+  "heads": [
+   {
+    "band": [
+     687,
+     790
+    ],
+    "line_index": 0,
+    "top": 0.192,
+    "left": 0.399,
+    "right": 0.3926,
+    "width_frac": 0.292,
+    "tall": true,
+    "page_opening": true,
+    "text": "云产解放琢夕"
+   },
+   {
+    "band": [
+     831,
+     934
+    ],
+    "line_index": 1,
+    "top": 0.2323,
+    "left": 0.3257,
+    "right": 0.3212,
+    "width_frac": 0.495,
+    "tall": true,
+    "page_opening": false,
+    "text": "车统在明的特务活动"
+   },
+   {
+    "band": [
+     1996,
+     2072
+    ],
+    "line_index": 8,
+    "top": 0.5579,
+    "left": 0.3539,
+    "right": 0.3664,
+    "width_frac": 0.393,
+    "tall": true,
+    "page_opening": false,
+    "text": "人民民主运动高涨"
+   },
+   {
+    "band": [
+     2117,
+     2192
+    ],
+    "line_index": 9,
+    "top": 0.5917,
+    "left": 0.3559,
+    "right": 0.3668,
+    "width_frac": 0.389,
+    "tall": true,
+    "page_opening": false,
+    "text": "将务阴谋活动独狼"
+   }
+  ],
+  "opening": true,
+  "band": [
+   687,
+   790
+  ],
+  "printed": 271
+ },
+ {
+  "page": 277,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   337,
+   400
+  ],
+  "printed": 272
+ },
+ {
+  "page": 278,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   343,
+   406
+  ],
+  "printed": 273
+ },
+ {
+  "page": 279,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   340,
+   404
+  ],
+  "printed": 274
+ },
+ {
+  "page": 280,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   395
+  ],
+  "printed": 275
+ },
+ {
+  "page": 281,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   313,
+   377
+  ],
+  "printed": 276
+ },
+ {
+  "page": 282,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   312,
+   374
+  ],
+  "printed": 277
+ },
+ {
+  "page": 283,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   382
+  ],
+  "printed": 278
+ },
+ {
+  "page": 284,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   320,
+   383
+  ],
+  "printed": 279
+ },
+ {
+  "page": 285,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   331,
+   394
+  ],
+  "printed": 280
+ },
+ {
+  "page": 286,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   313,
+   376
+  ],
+  "printed": 281
+ },
+ {
+  "page": 287,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   308,
+   367
+  ],
+  "printed": 282
+ },
+ {
+  "page": 288,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   344,
+   409
+  ],
+  "printed": 283
+ },
+ {
+  "page": 289,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   346,
+   410
+  ],
+  "printed": 284
+ },
+ {
+  "page": 290,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   317,
+   379
+  ],
+  "printed": 285
+ },
+ {
+  "page": 291,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   386
+  ],
+  "printed": 286
+ },
+ {
+  "page": 292,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     796,
+     874
+    ],
+    "line_index": 4,
+    "top": 0.2225,
+    "left": 0.3414,
+    "right": 0.3446,
+    "width_frac": 0.424,
+    "tall": true,
+    "page_opening": false,
+    "text": "和忽明和忽腾的政治局劳"
+   }
+  ],
+  "opening": true,
+  "band": [
+   796,
+   874
+  ],
+  "printed": 287
+ },
+ {
+  "page": 293,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   382
+  ],
+  "printed": 288
+ },
+ {
+  "page": 294,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   320,
+   383
+  ],
+  "printed": 289
+ },
+ {
+  "page": 295,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   313,
+   377
+  ],
+  "printed": 290
+ },
+ {
+  "page": 296,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   380
+  ],
+  "printed": 291
+ },
+ {
+  "page": 297,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   298,
+   362
+  ],
+  "printed": 292
+ },
+ {
+  "page": 298,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2864,
+     2940
+    ],
+    "line_index": 25,
+    "top": 0.8004,
+    "left": 0.3132,
+    "right": 0.3039,
+    "width_frac": 0.518,
+    "tall": true,
+    "page_opening": false,
+    "text": "和毛人凤人在昆明的阴谋必动"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2864,
+   2940
+  ],
+  "printed": 293
+ },
+ {
+  "page": 299,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   310,
+   373
+  ],
+  "printed": 294
+ },
+ {
+  "page": 300,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   305,
+   368
+  ],
+  "printed": 295
+ },
+ {
+  "page": 301,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   317,
+   380
+  ],
+  "printed": 296
+ },
+ {
+  "page": 302,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   389
+  ],
+  "printed": 297
+ },
+ {
+  "page": 303,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   324,
+   386
+  ],
+  "printed": 298
+ },
+ {
+  "page": 304,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   343,
+   406
+  ],
+  "printed": 299
+ },
+ {
+  "page": 305,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   340,
+   401
+  ],
+  "printed": 300
+ },
+ {
+  "page": 306,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1213,
+     1289
+    ],
+    "line_index": 8,
+    "top": 0.339,
+    "left": 0.293,
+    "right": 0.2894,
+    "width_frac": 0.565,
+    "tall": false,
+    "page_opening": false,
+    "text": "军统将务在昆明的最后挣扎"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1213,
+   1289
+  ],
+  "printed": 301
+ },
+ {
+  "page": 307,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   398
+  ],
+  "printed": 302
+ },
+ {
+  "page": 308,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   326,
+   391
+  ],
+  "printed": 303
+ },
+ {
+  "page": 309,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   327,
+   391
+  ],
+  "printed": 304
+ },
+ {
+  "page": 310,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   327,
+   394
+  ],
+  "printed": 305
+ },
+ {
+  "page": 311,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   392
+  ],
+  "printed": 306
+ },
+ {
+  "page": 312,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   385
+  ],
+  "printed": 307
+ },
+ {
+  "page": 313,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   388
+  ],
+  "printed": 308
+ },
+ {
+  "page": 314,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   308,
+   370
+  ],
+  "printed": 309
+ },
+ {
+  "page": 315,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   377
+  ],
+  "printed": 310
+ },
+ {
+  "page": 316,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   385
+  ],
+  "printed": 311
+ },
+ {
+  "page": 317,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   379
+  ],
+  "printed": 312
+ },
+ {
+  "page": 318,
+  "n_lines": 28,
+  "heads": [],
+  "opening": false,
+  "band": [
+   288,
+   352
+  ],
+  "printed": 313
+ },
+ {
+  "page": 319,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     373,
+     447
+    ],
+    "line_index": 0,
+    "top": 0.1042,
+    "left": 0.3934,
+    "right": 0.4019,
+    "width_frac": 0.278,
+    "tall": true,
+    "page_opening": false,
+    "text": "云南和平解放"
+   }
+  ],
+  "opening": true,
+  "band": [
+   373,
+   447
+  ],
+  "printed": 314
+ },
+ {
+  "page": 320,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   289,
+   354
+  ],
+  "printed": 315
+ },
+ {
+  "page": 321,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   288,
+   352
+  ],
+  "printed": 316
+ },
+ {
+  "page": 322,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   277,
+   343
+  ],
+  "printed": 317
+ },
+ {
+  "page": 323,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   286,
+   362
+  ],
+  "printed": 318
+ },
+ {
+  "page": 324,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   310,
+   374
+  ],
+  "printed": 319
+ },
+ {
+  "page": 325,
+  "n_lines": 22,
+  "heads": [
+   {
+    "band": [
+     608,
+     708
+    ],
+    "line_index": 0,
+    "top": 0.1699,
+    "left": 0.3922,
+    "right": 0.3994,
+    "width_frac": 0.283,
+    "tall": true,
+    "page_opening": true,
+    "text": "昆明七一五"
+   },
+   {
+    "band": [
+     751,
+     856
+    ],
+    "line_index": 1,
+    "top": 0.2099,
+    "left": 0.3023,
+    "right": 0.3112,
+    "width_frac": 0.524,
+    "tall": true,
+    "page_opening": false,
+    "text": "镇压学生受国运动的经过"
+   }
+  ],
+  "opening": true,
+  "band": [
+   608,
+   708
+  ],
+  "printed": 320
+ },
+ {
+  "page": 326,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   377
+  ],
+  "printed": 321
+ },
+ {
+  "page": 327,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   305,
+   367
+  ],
+  "printed": 322
+ },
+ {
+  "page": 328,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   334,
+   398
+  ],
+  "printed": 323
+ },
+ {
+  "page": 329,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   379
+  ],
+  "printed": 324
+ },
+ {
+  "page": 330,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   397
+  ],
+  "printed": 325
+ },
+ {
+  "page": 331,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   395
+  ],
+  "printed": 326
+ },
+ {
+  "page": 332,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   313,
+   377
+  ],
+  "printed": 327
+ },
+ {
+  "page": 333,
+  "n_lines": 15,
+  "heads": [],
+  "opening": false,
+  "band": [
+   331,
+   397
+  ],
+  "printed": 328
+ },
+ {
+  "page": 334,
+  "n_lines": 22,
+  "heads": [
+   {
+    "band": [
+     606,
+     711
+    ],
+    "line_index": 0,
+    "top": 0.1694,
+    "left": 0.31,
+    "right": 0.3027,
+    "width_frac": 0.523,
+    "tall": true,
+    "page_opening": true,
+    "text": "阴谋诬陷中其的一个例王"
+   }
+  ],
+  "opening": true,
+  "band": [
+   606,
+   711
+  ],
+  "printed": 329
+ },
+ {
+  "page": 335,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   313,
+   377
+  ],
+  "printed": 330
+ },
+ {
+  "page": 336,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   376
+  ],
+  "printed": 331
+ },
+ {
+  "page": 337,
+  "n_lines": 28,
+  "heads": [],
+  "opening": false,
+  "band": [
+   302,
+   365
+  ],
+  "printed": 332
+ },
+ {
+  "page": 338,
+  "n_lines": 23,
+  "heads": [
+   {
+    "band": [
+     608,
+     713
+    ],
+    "line_index": 0,
+    "top": 0.1699,
+    "left": 0.2838,
+    "right": 0.293,
+    "width_frac": 0.573,
+    "tall": true,
+    "page_opening": true,
+    "text": "我受命蜡杀杨杰将车的经过"
+   }
+  ],
+  "opening": true,
+  "band": [
+   608,
+   713
+  ],
+  "printed": 333
+ },
+ {
+  "page": 339,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   321,
+   385
+  ],
+  "printed": 334
+ },
+ {
+  "page": 340,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   340,
+   404
+  ],
+  "printed": 335
+ },
+ {
+  "page": 341,
+  "n_lines": 16,
+  "heads": [],
+  "opening": false,
+  "band": [
+   327,
+   391
+  ],
+  "printed": 336
+ },
+ {
+  "page": 342,
+  "n_lines": 22,
+  "heads": [
+   {
+    "band": [
+     620,
+     726
+    ],
+    "line_index": 0,
+    "top": 0.1733,
+    "left": 0.3628,
+    "right": 0.3192,
+    "width_frac": 0.43,
+    "tall": true,
+    "page_opening": true,
+    "text": "车统特务头于戴党的"
+   },
+   {
+    "band": [
+     768,
+     869
+    ],
+    "line_index": 1,
+    "top": 0.2146,
+    "left": 0.4152,
+    "right": 0.3736,
+    "width_frac": 0.286,
+    "tall": true,
+    "page_opening": false,
+    "text": "继承人毛人风"
+   }
+  ],
+  "opening": true,
+  "band": [
+   620,
+   726
+  ],
+  "printed": 337
+ },
+ {
+  "page": 343,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   392
+  ],
+  "printed": 338
+ },
+ {
+  "page": 344,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     906,
+     991
+    ],
+    "line_index": 5,
+    "top": 0.2532,
+    "left": 0.4297,
+    "right": 0.3998,
+    "width_frac": 0.23,
+    "tall": true,
+    "page_opening": false,
+    "text": "蕉，等，狠"
+   }
+  ],
+  "opening": true,
+  "band": [
+   906,
+   991
+  ],
+  "printed": 339
+ },
+ {
+  "page": 345,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   324,
+   388
+  ],
+  "printed": 340
+ },
+ {
+  "page": 346,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   294,
+   355
+  ],
+  "printed": 341
+ },
+ {
+  "page": 347,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   295,
+   357
+  ],
+  "printed": 342
+ },
+ {
+  "page": 348,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   310,
+   374
+  ],
+  "printed": 343
+ },
+ {
+  "page": 349,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   299,
+   362
+  ],
+  "printed": 344
+ },
+ {
+  "page": 350,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   302,
+   370
+  ],
+  "printed": 345
+ },
+ {
+  "page": 351,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   294,
+   358
+  ],
+  "printed": 346
+ },
+ {
+  "page": 352,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1412,
+     1493
+    ],
+    "line_index": 10,
+    "top": 0.3946,
+    "left": 0.345,
+    "right": 0.3422,
+    "width_frac": 0.423,
+    "tall": true,
+    "page_opening": false,
+    "text": "取信于薪介石的方法"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1412,
+   1493
+  ],
+  "printed": 347
+ },
+ {
+  "page": 353,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   388
+  ],
+  "printed": 348
+ },
+ {
+  "page": 354,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   374
+  ],
+  "printed": 349
+ },
+ {
+  "page": 355,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   308,
+   371
+  ],
+  "printed": 350
+ },
+ {
+  "page": 356,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2476,
+     2559
+    ],
+    "line_index": 21,
+    "top": 0.692,
+    "left": 0.339,
+    "right": 0.3495,
+    "width_frac": 0.421,
+    "tall": true,
+    "page_opening": false,
+    "text": "对权责的拉拢和运用"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2476,
+   2559
+  ],
+  "printed": 351
+ },
+ {
+  "page": 357,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   380
+  ],
+  "printed": 352
+ },
+ {
+  "page": 358,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   299,
+   362
+  ],
+  "printed": 353
+ },
+ {
+  "page": 359,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   373
+  ],
+  "printed": 354
+ },
+ {
+  "page": 360,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   301,
+   365
+  ],
+  "printed": 355
+ },
+ {
+  "page": 361,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   380
+  ],
+  "printed": 356
+ },
+ {
+  "page": 362,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2279,
+     2357
+    ],
+    "line_index": 19,
+    "top": 0.6369,
+    "left": 0.3603,
+    "right": 0.397,
+    "width_frac": 0.328,
+    "tall": true,
+    "page_opening": false,
+    "text": "对符狐徒的手段"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2279,
+   2357
+  ],
+  "printed": 357
+ },
+ {
+  "page": 363,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   308,
+   371
+  ],
+  "printed": 358
+ },
+ {
+  "page": 364,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   311,
+   377
+  ],
+  "printed": 359
+ },
+ {
+  "page": 365,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1363,
+     1440
+    ],
+    "line_index": 10,
+    "top": 0.3809,
+    "left": 0.3547,
+    "right": 0.3712,
+    "width_frac": 0.372,
+    "tall": true,
+    "page_opening": false,
+    "text": "和毛人风的生活片新"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1363,
+   1440
+  ],
+  "printed": 360
+ },
+ {
+  "page": 366,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   326,
+   386
+  ],
+  "printed": 361
+ },
+ {
+  "page": 367,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   388
+  ],
+  "printed": 362
+ },
+ {
+  "page": 368,
+  "n_lines": 22,
+  "heads": [],
+  "opening": false,
+  "band": [
+   344,
+   407
+  ],
+  "printed": 363
+ },
+ {
+  "page": 369,
+  "n_lines": 20,
+  "heads": [
+   {
+    "band": [
+     622,
+     725
+    ],
+    "line_index": 0,
+    "top": 0.1738,
+    "left": 0.4063,
+    "right": 0.4019,
+    "width_frac": 0.27,
+    "tall": true,
+    "page_opening": true,
+    "text": "唐维其人"
+   },
+   {
+    "band": [
+     2279,
+     2362
+    ],
+    "line_index": 11,
+    "top": 0.6369,
+    "left": 0.3358,
+    "right": 0.3499,
+    "width_frac": 0.442,
+    "tall": true,
+    "page_opening": false,
+    "text": "抗日战争以前的情况"
+   }
+  ],
+  "opening": true,
+  "band": [
+   622,
+   725
+  ],
+  "printed": 364
+ },
+ {
+  "page": 370,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   321,
+   383
+  ],
+  "printed": 365
+ },
+ {
+  "page": 371,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   331,
+   394
+  ],
+  "printed": 366
+ },
+ {
+  "page": 372,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   344,
+   407
+  ],
+  "printed": 367
+ },
+ {
+  "page": 373,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   346,
+   408
+  ],
+  "printed": 368
+ },
+ {
+  "page": 374,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1304,
+     1384
+    ],
+    "line_index": 9,
+    "top": 0.3644,
+    "left": 0.4051,
+    "right": 0.3898,
+    "width_frac": 0.277,
+    "tall": true,
+    "page_opening": false,
+    "text": "抗日战争期间"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1304,
+   1384
+  ],
+  "printed": 369
+ },
+ {
+  "page": 375,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   385
+  ],
+  "printed": 370
+ },
+ {
+  "page": 376,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   382
+  ],
+  "printed": 371
+ },
+ {
+  "page": 377,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   383
+  ],
+  "printed": 372
+ },
+ {
+  "page": 378,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   305,
+   365
+  ],
+  "printed": 373
+ },
+ {
+  "page": 379,
+  "n_lines": 28,
+  "heads": [],
+  "opening": false,
+  "band": [
+   318,
+   380
+  ],
+  "printed": 374
+ },
+ {
+  "page": 380,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   388
+  ],
+  "printed": 375
+ },
+ {
+  "page": 381,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   309,
+   373
+  ],
+  "printed": 376
+ },
+ {
+  "page": 382,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   280,
+   344
+  ],
+  "printed": 377
+ },
+ {
+  "page": 383,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     950,
+     1032
+    ],
+    "line_index": 6,
+    "top": 0.2655,
+    "left": 0.3515,
+    "right": 0.4067,
+    "width_frac": 0.328,
+    "tall": true,
+    "page_opening": false,
+    "text": "元察总署署长和"
+   },
+   {
+    "band": [
+     1069,
+     1151
+    ],
+    "line_index": 7,
+    "top": 0.2988,
+    "left": 0.3027,
+    "right": 0.3523,
+    "width_frac": 0.468,
+    "tall": true,
+    "page_opening": false,
+    "text": "国防部保安事务局局长"
+   }
+  ],
+  "opening": true,
+  "band": [
+   950,
+   1032
+  ],
+  "printed": 378
+ },
+ {
+  "page": 384,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   291,
+   354
+  ],
+  "printed": 379
+ },
+ {
+  "page": 385,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   292,
+   356
+  ],
+  "printed": 380
+ },
+ {
+  "page": 386,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1667,
+     1743
+    ],
+    "line_index": 13,
+    "top": 0.4659,
+    "left": 0.3233,
+    "right": 0.3241,
+    "width_frac": 0.477,
+    "tall": true,
+    "page_opening": false,
+    "text": "层出不穷的伤驴筋问题"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1667,
+   1743
+  ],
+  "printed": 381
+ },
+ {
+  "page": 387,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   291,
+   355
+  ],
+  "printed": 382
+ },
+ {
+  "page": 388,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   285,
+   346
+  ],
+  "printed": 383
+ },
+ {
+  "page": 389,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   289,
+   352
+  ],
+  "printed": 384
+ },
+ {
+  "page": 390,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   286,
+   349
+  ],
+  "printed": 385
+ },
+ {
+  "page": 391,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   288,
+   350
+  ],
+  "printed": 386
+ },
+ {
+  "page": 392,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   292,
+   354
+  ],
+  "printed": 387
+ },
+ {
+  "page": 393,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2542,
+     2618
+    ],
+    "line_index": 22,
+    "top": 0.7105,
+    "left": 0.3011,
+    "right": 0.3507,
+    "width_frac": 0.472,
+    "tall": true,
+    "page_opening": false,
+    "text": "唐任署长后的反动措施"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2542,
+   2618
+  ],
+  "printed": 388
+ },
+ {
+  "page": 394,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   298,
+   360
+  ],
+  "printed": 389
+ },
+ {
+  "page": 395,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   300,
+   361
+  ],
+  "printed": 390
+ },
+ {
+  "page": 396,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   297,
+   360
+  ],
+  "printed": 391
+ },
+ {
+  "page": 397,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   283,
+   346
+  ],
+  "printed": 392
+ },
+ {
+  "page": 398,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   301,
+   364
+  ],
+  "printed": 393
+ },
+ {
+  "page": 399,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   312,
+   376
+  ],
+  "printed": 394
+ },
+ {
+  "page": 400,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   313,
+   377
+  ],
+  "printed": 395
+ },
+ {
+  "page": 401,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   388
+  ],
+  "printed": 396
+ },
+ {
+  "page": 402,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   398
+  ],
+  "printed": 397
+ },
+ {
+  "page": 403,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1489,
+     1574
+    ],
+    "line_index": 11,
+    "top": 0.4162,
+    "left": 0.3216,
+    "right": 0.3664,
+    "width_frac": 0.423,
+    "tall": true,
+    "page_opening": false,
+    "text": "和夺士珍的明争腾斗"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1489,
+   1574
+  ],
+  "printed": 398
+ },
+ {
+  "page": 404,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   326,
+   389
+  ],
+  "printed": 399
+ },
+ {
+  "page": 405,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   386
+  ],
+  "printed": 400
+ },
+ {
+  "page": 406,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   380
+  ],
+  "printed": 401
+ },
+ {
+  "page": 407,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   340,
+   403
+  ],
+  "printed": 402
+ },
+ {
+  "page": 408,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   334,
+   394
+  ],
+  "printed": 403
+ },
+ {
+  "page": 409,
+  "n_lines": 27,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   392
+  ],
+  "printed": 404
+ },
+ {
+  "page": 410,
+  "n_lines": 23,
+  "heads": [
+   {
+    "band": [
+     413,
+     491
+    ],
+    "line_index": 0,
+    "top": 0.1154,
+    "left": 0.416,
+    "right": 0.3801,
+    "width_frac": 0.276,
+    "tall": true,
+    "page_opening": false,
+    "text": "逃台前的究鸣"
+   }
+  ],
+  "opening": true,
+  "band": [
+   413,
+   491
+  ],
+  "printed": 405
+ },
+ {
+  "page": 411,
+  "n_lines": 20,
+  "heads": [],
+  "opening": false,
+  "band": [
+   616,
+   722
+  ],
+  "printed": 406
+ },
+ {
+  "page": 412,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   380
+  ],
+  "printed": 407
+ },
+ {
+  "page": 413,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   292,
+   355
+  ],
+  "printed": 408
+ },
+ {
+  "page": 414,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   294,
+   358
+  ],
+  "printed": 409
+ },
+ {
+  "page": 415,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   280,
+   343
+  ],
+  "printed": 410
+ },
+ {
+  "page": 416,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   305,
+   367
+  ],
+  "printed": 411
+ },
+ {
+  "page": 417,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   295,
+   358
+  ],
+  "printed": 412
+ },
+ {
+  "page": 418,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   285,
+   351
+  ],
+  "printed": 413
+ },
+ {
+  "page": 419,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   274,
+   339
+  ],
+  "printed": 414
+ },
+ {
+  "page": 420,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     772,
+     851
+    ],
+    "line_index": 4,
+    "top": 0.2158,
+    "left": 0.2576,
+    "right": 0.2684,
+    "width_frac": 0.639,
+    "tall": true,
+    "page_opening": false,
+    "text": "调整组织,更疯狂地反共反人民"
+   }
+  ],
+  "opening": true,
+  "band": [
+   772,
+   851
+  ],
+  "printed": 415
+ },
+ {
+  "page": 421,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   299,
+   361
+  ],
+  "printed": 416
+ },
+ {
+  "page": 422,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   383
+  ],
+  "printed": 417
+ },
+ {
+  "page": 423,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   320,
+   382
+  ],
+  "printed": 418
+ },
+ {
+  "page": 424,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   334,
+   398
+  ],
+  "printed": 419
+ },
+ {
+  "page": 425,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   318,
+   381
+  ],
+  "printed": 420
+ },
+ {
+  "page": 426,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   383
+  ],
+  "printed": 421
+ },
+ {
+  "page": 427,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   326,
+   389
+  ],
+  "printed": 422
+ },
+ {
+  "page": 428,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   379
+  ],
+  "printed": 423
+ },
+ {
+  "page": 429,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   376
+  ],
+  "printed": 424
+ },
+ {
+  "page": 430,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   391
+  ],
+  "printed": 425
+ },
+ {
+  "page": 431,
+  "n_lines": 28,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   397
+  ],
+  "printed": 426
+ },
+ {
+  "page": 432,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   386
+  ],
+  "printed": 427
+ },
+ {
+  "page": 433,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   394
+  ],
+  "printed": 428
+ },
+ {
+  "page": 434,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   385
+  ],
+  "printed": 429
+ },
+ {
+  "page": 435,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   329,
+   394
+  ],
+  "printed": 430
+ },
+ {
+  "page": 436,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   343,
+   407
+  ],
+  "printed": 431
+ },
+ {
+  "page": 437,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   398
+  ],
+  "printed": 432
+ },
+ {
+  "page": 438,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   340,
+   404
+  ],
+  "printed": 433
+ },
+ {
+  "page": 439,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   338,
+   401
+  ],
+  "printed": 434
+ },
+ {
+  "page": 440,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   338,
+   400
+  ],
+  "printed": 435
+ },
+ {
+  "page": 441,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   334,
+   398
+  ],
+  "printed": 436
+ },
+ {
+  "page": 442,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   388
+  ],
+  "printed": 437
+ },
+ {
+  "page": 443,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   384
+  ],
+  "printed": 438
+ },
+ {
+  "page": 444,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   398
+  ],
+  "printed": 439
+ },
+ {
+  "page": 445,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   337,
+   398
+  ],
+  "printed": 440
+ },
+ {
+  "page": 446,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   309,
+   371
+  ],
+  "printed": 441
+ },
+ {
+  "page": 447,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   298,
+   361
+  ],
+  "printed": 442
+ },
+ {
+  "page": 448,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   394
+  ],
+  "printed": 443
+ },
+ {
+  "page": 449,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   385
+  ],
+  "printed": 444
+ },
+ {
+  "page": 450,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2643,
+     2702
+    ],
+    "line_index": 22,
+    "top": 0.7387,
+    "left": 0.4067,
+    "right": 0.4377,
+    "width_frac": 0.21,
+    "tall": false,
+    "page_opening": false,
+    "text": "从屠杀到利用"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2643,
+   2702
+  ],
+  "printed": 445
+ },
+ {
+  "page": 451,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   385
+  ],
+  "printed": 446
+ },
+ {
+  "page": 452,
+  "n_lines": 29,
+  "heads": [
+   {
+    "band": [
+     1154,
+     1215
+    ],
+    "line_index": 8,
+    "top": 0.3225,
+    "left": 0.4123,
+    "right": 0.4337,
+    "width_frac": 0.208,
+    "tall": false,
+    "page_opening": false,
+    "text": "用叛徒做耳目"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1154,
+   1215
+  ],
+  "printed": 447
+ },
+ {
+  "page": 453,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   377
+  ],
+  "printed": 448
+ },
+ {
+  "page": 454,
+  "n_lines": 29,
+  "heads": [
+   {
+    "band": [
+     2151,
+     2214
+    ],
+    "line_index": 18,
+    "top": 0.6012,
+    "left": 0.2471,
+    "right": 0.264,
+    "width_frac": 0.661,
+    "tall": false,
+    "page_opening": false,
+    "text": "特务们是怎样观察.诱骗被捕的革俘人士的"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2151,
+   2214
+  ],
+  "printed": 449
+ },
+ {
+  "page": 455,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   299,
+   361
+  ],
+  "printed": 450
+ },
+ {
+  "page": 456,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   294,
+   362
+  ],
+  "printed": 451
+ },
+ {
+  "page": 457,
+  "n_lines": 29,
+  "heads": [
+   {
+    "band": [
+     1488,
+     1550
+    ],
+    "line_index": 12,
+    "top": 0.4159,
+    "left": 0.3696,
+    "right": 0.3946,
+    "width_frac": 0.32,
+    "tall": false,
+    "page_opening": false,
+    "text": "馆综复杂的种种斗争"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1488,
+   1550
+  ],
+  "printed": 452
+ },
+ {
+  "page": 458,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   255,
+   318
+  ],
+  "printed": 453
+ },
+ {
+  "page": 459,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1859,
+     1940
+    ],
+    "line_index": 15,
+    "top": 0.5196,
+    "left": 0.3071,
+    "right": 0.314,
+    "width_frac": 0.514,
+    "tall": true,
+    "page_opening": false,
+    "text": "郑、毛、唐三派的朋争及斗"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1859,
+   1940
+  ],
+  "printed": 454
+ },
+ {
+  "page": 460,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   305,
+   368
+  ],
+  "printed": 455
+ },
+ {
+  "page": 461,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   400
+  ],
+  "printed": 456
+ },
+ {
+  "page": 462,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   301,
+   364
+  ],
+  "printed": 457
+ },
+ {
+  "page": 463,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   334,
+   395
+  ],
+  "printed": 458
+ },
+ {
+  "page": 464,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   353,
+   416
+  ],
+  "printed": 459
+ },
+ {
+  "page": 465,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   377,
+   444
+  ],
+  "printed": 460
+ },
+ {
+  "page": 466,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   390,
+   450
+  ],
+  "printed": 461
+ },
+ {
+  "page": 467,
+  "n_lines": 27,
+  "heads": [
+   {
+    "band": [
+     2013,
+     2096
+    ],
+    "line_index": 16,
+    "top": 0.5626,
+    "left": 0.3293,
+    "right": 0.3579,
+    "width_frac": 0.425,
+    "tall": true,
+    "page_opening": false,
+    "text": "真假保密局的召把戏"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2013,
+   2096
+  ],
+  "printed": 462
+ },
+ {
+  "page": 468,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   401
+  ],
+  "printed": 463
+ },
+ {
+  "page": 469,
+  "n_lines": 4,
+  "heads": [],
+  "opening": false,
+  "band": [
+   304,
+   382
+  ],
+  "printed": 464
+ },
+ {
+  "page": 470,
+  "n_lines": 21,
+  "heads": [
+   {
+    "band": [
+     619,
+     722
+    ],
+    "line_index": 0,
+    "top": 0.173,
+    "left": 0.3724,
+    "right": 0.3458,
+    "width_frac": 0.409,
+    "tall": true,
+    "page_opening": true,
+    "text": "我所知道的郑介民"
+   },
+   {
+    "band": [
+     2874,
+     2955
+    ],
+    "line_index": 18,
+    "top": 0.8032,
+    "left": 0.3462,
+    "right": 0.3418,
+    "width_frac": 0.453,
+    "tall": true,
+    "page_opening": false,
+    "text": "农许出身和平年生活"
+   }
+  ],
+  "opening": true,
+  "band": [
+   619,
+   722
+  ],
+  "printed": 465
+ },
+ {
+  "page": 471,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   351,
+   416
+  ],
+  "printed": 466
+ },
+ {
+  "page": 472,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   371,
+   433
+  ],
+  "printed": 467
+ },
+ {
+  "page": 473,
+  "n_lines": 28,
+  "heads": [],
+  "opening": false,
+  "band": [
+   396,
+   461
+  ],
+  "printed": 468
+ },
+ {
+  "page": 474,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   380,
+   443
+  ],
+  "printed": 469
+ },
+ {
+  "page": 475,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   337,
+   400
+  ],
+  "printed": 470
+ },
+ {
+  "page": 476,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   350,
+   413
+  ],
+  "printed": 471
+ },
+ {
+  "page": 477,
+  "n_lines": 28,
+  "heads": [],
+  "opening": false,
+  "band": [
+   325,
+   388
+  ],
+  "printed": 472
+ },
+ {
+  "page": 478,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   319,
+   382
+  ],
+  "printed": 473
+ },
+ {
+  "page": 479,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   286,
+   348
+  ],
+  "printed": 474
+ },
+ {
+  "page": 480,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   289,
+   352
+  ],
+  "printed": 475
+ },
+ {
+  "page": 481,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   261,
+   324
+  ],
+  "printed": 476
+ },
+ {
+  "page": 482,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   237,
+   300
+  ],
+  "printed": 477
+ },
+ {
+  "page": 483,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1146,
+     1224
+    ],
+    "line_index": 8,
+    "top": 0.3203,
+    "left": 0.3547,
+    "right": 0.4023,
+    "width_frac": 0.33,
+    "tall": true,
+    "page_opening": false,
+    "text": "抗战期间的活动"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1146,
+   1224
+  ],
+  "printed": 478
+ },
+ {
+  "page": 484,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   302,
+   365
+  ],
+  "printed": 479
+ },
+ {
+  "page": 485,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   397
+  ],
+  "printed": 480
+ },
+ {
+  "page": 486,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2697,
+     2779
+    ],
+    "line_index": 23,
+    "top": 0.7538,
+    "left": 0.3611,
+    "right": 0.3664,
+    "width_frac": 0.368,
+    "tall": true,
+    "page_opening": false,
+    "text": "与帝国主义的义结"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2697,
+   2779
+  ],
+  "printed": 481
+ },
+ {
+  "page": 487,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   326,
+   391
+  ],
+  "printed": 482
+ },
+ {
+  "page": 488,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   340,
+   403
+  ],
+  "printed": 483
+ },
+ {
+  "page": 489,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   394
+  ],
+  "printed": 484
+ },
+ {
+  "page": 490,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   317,
+   380
+  ],
+  "printed": 485
+ },
+ {
+  "page": 491,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   314,
+   376
+  ],
+  "printed": 486
+ },
+ {
+  "page": 492,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2593,
+     2669
+    ],
+    "line_index": 22,
+    "top": 0.7247,
+    "left": 0.3075,
+    "right": 0.3136,
+    "width_frac": 0.53,
+    "tall": false,
+    "page_opening": false,
+    "text": "国共和谈期间的将务活动"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2593,
+   2669
+  ],
+  "printed": 487
+ },
+ {
+  "page": 493,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   335,
+   400
+  ],
+  "printed": 488
+ },
+ {
+  "page": 494,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   302,
+   368
+  ],
+  "printed": 489
+ },
+ {
+  "page": 495,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   305,
+   368
+  ],
+  "printed": 490
+ },
+ {
+  "page": 496,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   386
+  ],
+  "printed": 491
+ },
+ {
+  "page": 497,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   394
+  ],
+  "printed": 492
+ },
+ {
+  "page": 498,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   390
+  ],
+  "printed": 493
+ },
+ {
+  "page": 499,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     1176,
+     1256
+    ],
+    "line_index": 8,
+    "top": 0.3287,
+    "left": 0.2285,
+    "right": 0.2846,
+    "width_frac": 0.66,
+    "tall": true,
+    "page_opening": false,
+    "text": "积极反对共产党又最害怕共产党"
+   }
+  ],
+  "opening": true,
+  "band": [
+   1176,
+   1256
+  ],
+  "printed": 494
+ },
+ {
+  "page": 500,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   383
+  ],
+  "printed": 495
+ },
+ {
+  "page": 501,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   386
+  ],
+  "printed": 496
+ },
+ {
+  "page": 502,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   328,
+   392
+  ],
+  "printed": 497
+ },
+ {
+  "page": 503,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   320,
+   380
+  ],
+  "printed": 498
+ },
+ {
+  "page": 504,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2668,
+     2749
+    ],
+    "line_index": 23,
+    "top": 0.7457,
+    "left": 0.3003,
+    "right": 0.3156,
+    "width_frac": 0.52,
+    "tall": true,
+    "page_opening": false,
+    "text": "任国防部次长时期的情况"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2668,
+   2749
+  ],
+  "printed": 499
+ },
+ {
+  "page": 505,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   323,
+   386
+  ],
+  "printed": 500
+ },
+ {
+  "page": 506,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   395
+  ],
+  "printed": 501
+ },
+ {
+  "page": 507,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   377
+  ],
+  "printed": 502
+ },
+ {
+  "page": 508,
+  "n_lines": 28,
+  "heads": [
+   {
+    "band": [
+     2370,
+     2453
+    ],
+    "line_index": 20,
+    "top": 0.6624,
+    "left": 0.2301,
+    "right": 0.2463,
+    "width_frac": 0.708,
+    "tall": true,
+    "page_opening": false,
+    "text": "不肯负责的作凤与贪污效财的手法"
+   }
+  ],
+  "opening": true,
+  "band": [
+   2370,
+   2453
+  ],
+  "printed": 503
+ },
+ {
+  "page": 509,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   307,
+   370
+  ],
+  "printed": 504
+ },
+ {
+  "page": 510,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   340,
+   403
+  ],
+  "printed": 505
+ },
+ {
+  "page": 511,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   386
+  ],
+  "printed": 506
+ },
+ {
+  "page": 512,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   316,
+   379
+  ],
+  "printed": 507
+ },
+ {
+  "page": 513,
+  "n_lines": 30,
+  "heads": [],
+  "opening": false,
+  "band": [
+   299,
+   364
+  ],
+  "printed": 508
+ },
+ {
+  "page": 514,
+  "n_lines": 23,
+  "heads": [],
+  "opening": false,
+  "band": [
+   322,
+   389
+  ],
+  "printed": 509
+ },
+ {
+  "page": 515,
+  "n_lines": 23,
+  "heads": [
+   {
+    "band": [
+     647,
+     729
+    ],
+    "line_index": 0,
+    "top": 0.1808,
+    "left": 0.4196,
+    "right": 0.4264,
+    "width_frac": 0.209,
+    "tall": true,
+    "page_opening": true,
+    "text": "后记"
+   }
+  ],
+  "opening": true,
+  "band": [
+   647,
+   729
+  ],
+  "printed": 510
+ },
+ {
+  "page": 516,
+  "n_lines": 29,
+  "heads": [],
+  "opening": false,
+  "band": [
+   343,
+   404
+  ],
+  "printed": 511
+ },
+ {
+  "page": 517,
+  "n_lines": 27,
+  "heads": [],
+  "opening": false,
+  "band": [
+   332,
+   400
+  ],
+  "printed": 512
+ },
+ {
+  "page": 518,
+  "n_lines": 23,
+  "heads": [
+   {
+    "band": [
+     474,
+     582
+    ],
+    "line_index": 1,
+    "top": 0.1325,
+    "left": 0.3305,
+    "right": 0.3168,
+    "width_frac": 0.477,
+    "tall": true,
+    "page_opening": false,
+    "text": "“我全得了做人的奶理"
+   },
+   {
+    "band": [
+     718,
+     808
+    ],
+    "line_index": 2,
+    "top": 0.2007,
+    "left": 0.2447,
+    "right": 0.2406,
+    "width_frac": 0.696,
+    "tall": true,
+    "page_opening": false,
+    "text": "一一访新增补的政协委员沈醇"
+   },
+   {
+    "band": [
+     1139,
+     1214
+    ],
+    "line_index": 3,
+    "top": 0.3183,
+    "left": 0.2854,
+    "right": 0.2821,
+    "width_frac": 0.585,
+    "tall": true,
+    "page_opening": false,
+    "text": "《人民日报》记和者胡电升"
+   }
+  ],
+  "opening": true,
+  "band": [
+   474,
+   582
+  ],
+  "printed": 513
+ },
+ {
+  "page": 519,
+  "n_lines": 31,
+  "heads": [],
+  "opening": false,
+  "band": [
+   247,
+   312
+  ],
+  "printed": 514
+ },
+ {
+  "page": 520,
+  "n_lines": 19,
+  "heads": [],
+  "opening": false,
+  "band": [
+   274,
+   336
+  ],
+  "printed": 515
+ }
+]
