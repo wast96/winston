@@ -524,6 +524,42 @@ cascaded, and the two ch01 note anchors that carried the old form updated with
 it. That the note anchors needed updating too is the cascade discipline
 CLAUDE.md warns about, and check_structure caught the omission immediately.
 
+## CH02'S SECTION HEADINGS WERE IN THE WRONG PLACES
+
+Found while starting ch02's notes: three headings stacked at the top of the
+chapter with no text between them, and every section of the reading text
+sitting under the wrong name.
+
+CAUSE. This book sets a long chapter title over two printed lines, and the
+assembler records each line as its own heading -- ch02's source opens with
+抗战前军统特务在上海的 / 罪恶活动. reflow.py re-inserted headings by walking
+the source blocks and consuming one English heading per source heading, so
+the title's continuation line ate a section heading's slot and everything
+after shifted one place earlier.
+
+Nothing in the prose showed it. The prose was correct; only the headings had
+moved. Parity, alignment and the anchor check all passed throughout.
+
+FIX. The title's length cannot be found by looking for a run of consecutive
+headings, because ch02's first SECTION heading follows the title with no
+paragraph between it -- a run-based rule swallows it, and the guard I added
+caught exactly that on the first attempt. It is counted instead: the English
+carries one title plus one heading per section, so the leftover source
+heading blocks are the title's lines. reflow now also refuses to write if the
+two counts cannot be reconciled.
+
+VERIFIED NUMERICALLY rather than by eye. Source and English heading positions,
+expressed as the number of body paragraphs preceding each, now agree exactly:
+ch02 [47, 50, 57, 64, 80, 93, 100, 104], ch01 [1, 11, 36, 69, 84]. My first
+reading of the repaired text was that the sections still looked wrong; the
+numbers say otherwise, and the numbers are right -- Chinese section boundaries
+do not always open on a topic sentence the way an English reader expects.
+
+WORKFLOW TRAP. Re-running reflow discards hand-nudged boundaries. The four
+nudges at ch01 41/50/58 and ch02 110 had to be re-applied after this re-lay.
+If reflow is run again on a finished unit, check_content must be re-run and
+the nudges restored.
+
 ## Wake-up routines
 
 Four routines fire into this session on the hour, offset to give a roughly

@@ -1,10 +1,8 @@
 ## Inside the Juntong's Training of Agents
 
-### How the Linli Class Came to Be
-
 *The breeding of secret agents, seen through the Juntong's Linli special training class*
 
-### Organization and Personnel
+### How the Linli Class Came to Be
 
 The founding of the Juntong's first training class for agents on a really large scale, the Linli Special Training Class — the Linli class, for short — had its own particular purpose and its own particular reasons.
 
@@ -26,7 +24,7 @@ As for brothers, brothers and sisters, and sisters together, there were more sti
 
 The workings of this one training class also show a good deal of the Juntong's inner life and its criminal activities. The agent-students it turned out numbered only about a thousand, yet the harm they did the revolution, and the crimes they committed against the Communists and against the people in Chiang's gang, were very great indeed. Among the Juntong men who fled to Taiwan these people are still an important core, and they carry on as enemies of the people to this day.
 
-### The Training
+### Organization and Personnel
 
 The class was at first called the Special Training Class of the Military Affairs Commission, and that was the name used while it was being prepared and when it first opened; but the Commission's own secretariat refused to recognize it and never issued it a seal, so the preparatory office simply cut a rubber stamp for itself. Dai Li at that time also held the chairmanship of the board of the Central Police Academy, and with an eye to seizing control of the national police he formally renamed the class, in April 1938, the Training Class for Special Police Personnel of the Central Police Academy. Inside the Juntong, though, it went on being called the Linli class, and its graduates were listed as the first intake of the Central Police Academy's special training class, or the first special class for short.
 
@@ -78,7 +76,7 @@ It was put together by Jiang Zhennan, an instructor just back from studying in G
 
 It is a short marching lyric in the manner of its period: it summons the young men of the revolution to be ready and to be complete in wisdom, benevolence and courage, calls on them to take hold of the artery of the present age and stand at the head of it, borrows Mencius's formula that neither poverty nor force can bend a man, sets safeguarding the leader's security beside defending the territory and sovereignty of the state, enjoins firmness, gravity, endurance and singleness of purpose, and ends by naming the singers themselves the Great Wall of the nation and the vanguard of the race before repeating its opening line.
 
-### The Assignment of Work, and the Friction Inside
+### The Training
 
 Its interest is entirely in the two things Shen Zui has just pointed out: that the tune was adapted from a Nazi party song, and that what fixed Dai Li's attention was the line putting the leader's safety first and the state's second.* The first problem the Linli special training class ran into when it opened was that the students did not want to join the Juntong's secret service. Most of them had been sent from Zhengzhou, refugee youngsters out of school and out of work, most with no home to go back to; arriving in Hunan they were strangers in a strange place with not a soul they knew, and though many wanted to withdraw, they dared not say so. A small number had been introduced by agents and knew beforehand what they were joining, and with them of course there was no difficulty. But when Dai Li obtained from Hu Zongnan the several dozen women students recruited by examination in Changsha for the Seventh Branch of the Central Military Academy, and these reached Linli and learned what kind of class it was, more than half of them asked to be sent back to the Seventh Branch. Their reason was a simple one: they had thrown down the pen and taken up arms in order to fight Japan, and they had no wish to be secret agents. Seeing this, the deputy director Yu Lexing was at first for applying pressure, but reflected that the reason they gave was a perfectly proper one; that Cai Xueqin, Yang Jingru, Li Puping, Zhu Zhemin, Pan Shujie, Chai Xiangqun and others had families in Changsha, so that if the thing were mishandled these hot-blooded girls might simply run home; that they could not well have charges got up against them and be punished; and that Hu Zongnan's face had to be considered too, which ruled out any high-handed treatment. After an emergency staff meeting it was decided to try persuasion first. The chief instructor Xie Ligong and the head of political training Wang Zuhua volunteered to gather them together and work on them in the manner of a heart-to-heart talk, after which the deputy director would call them in one by one. They were at it a whole day before they could get these people quieted down, even for the moment.
 
@@ -146,7 +144,7 @@ There was a great deal of talk at the time about what lay behind this instructio
 
 As to the students' allowances during training, they had twelve yuan a month, of which the mess charge generally came to three or four, leaving eight or nine for their own use. Their clothing was grey cotton uniform. On graduation the usual pay was that of a second lieutenant, forty yuan, but promotion came fast. A few who had been uneasy to begin with, seeing here a short road to office and riches, set to with a will.
 
-### The Criminal Activities of the Class's Graduates
+### The Assignment of Work, and the Friction Inside
 
 Some students of the Linli special training class were pulled out and posted to work while the training was still going on. Dai Li thought a year's training too long, and repeatedly gave instructions and expressed the hope that it might be shortened; he was also so impatient that he would personally telegraph to have the better students picked out and posted early, using them before they had graduated. In the summer of 1938, besides withdrawing early a good many of the trainees who had been serving Juntong agents to begin with, he ordered thirty women students, Xu Jihong among them, to be selected and sent off in one batch to work with the "battlefield service corps" run by a Miss Hu in Jiangxi.
 
@@ -177,6 +175,8 @@ As the war against Japan drew towards victory the Linli students bestirred thems
 I was going up to Chungking constantly at that time to deal with the Juntong's property, and they put the proposal to me. Using my position over the property, I gave them financial help of every kind by the device of buying things in cheap, so that those without postings could keep themselves. They then asked me to be their chairman, hoping not only that I would help them with money but that I would find them openings inside the Juntong. I had some ambitions myself just then and wanted to draw a little strength together, so I recommended Li Baochu to Mao Renfeng for a section head's post in the personnel department of the Bureau of Secrets Preservation, recommended Liu Benqin to Tang Zong for a section head's post in the personnel office of the police headquarters, and recommended Liu Ziying to the traffic police headquarters to take charge of personnel. At that time I had a great deal of Juntong property and a number of houses in the big cities under my hand, and these secret-service chiefs all wanted to get something out of me, so this plan of mine went through very smoothly. Before long the Linli students were slowly lifting their heads again.
 
 By 1947 the Juntong's three great men — Zheng Jiemin, Mao Renfeng and Tang Zong — had each got what he wanted after a fierce struggle for power and advantage, and began to pay attention to gathering cadres. By then students of the other special classes had followed the Linli example and formed alumni associations of their own. Mao Renfeng got in first: he formally ordered every one of the class alumni associations dissolved and forbade any further activity by them, setting up instead a single "united alumni association" for all the Juntong's special training classes; and he employed the Linli students on the same footing as the rest, so that at a stroke he had drawn in ten thousand agent-students. He also promoted Linli men out of the ordinary course to be provincial station chiefs — Qian Tilin as chief of the Guizhou station, Lü Shikun of the Chungking station, Dong Shili of the Xikang station, and Zhang Mingxuan as head of the criminal police department of the Chungking police bureau. That done, the students took Mao Renfeng for their patron instead, and I no longer dared court them, keeping up only private relations.
+
+### The Criminal Activities of the Class's Graduates
 
 From more than ten years of contact with the students of the Linli special training class, I came to know something of the criminal activities of a number of them. If I set out part of it here, briefly, it will be seen what monstrous crimes the agents this class trained committed against the Chinese Communist Party and against the people.
 

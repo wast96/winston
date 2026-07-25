@@ -212,16 +212,49 @@ def main():
     if head:
         rebuilt.append(head[0])
     # re-insert section headings at their source positions
+    # THE CHAPTER TITLE MAY OCCUPY SEVERAL SOURCE HEADING BLOCKS. This book
+    # sets a long chapter title over two printed lines, and the assembler
+    # records each line as its own heading: ch02's source opens with
+    # 抗战前军统特务在上海的 / 罪恶活动, and ch03's with 抗战时期 /
+    # 军统特务在重庆的罪行. The English title is a single line.
+    #
+    # Consuming one English heading per source heading therefore let the
+    # title's continuation line eat a section heading's slot, and every
+    # section after it shifted one place earlier. In ch02 that put three
+    # headings together at the top of the chapter and left every section of
+    # the reading text sitting under the wrong name. Nothing in the prose
+    # showed it, because the prose was correct and only the headings had
+    # moved.
+    #
+    # The title's length cannot be found by looking for a run of consecutive
+    # headings: ch02 opens with its first SECTION heading immediately after
+    # the title, with no paragraph between, so a run-based rule swallows it.
+    # Count instead. The English has one title plus one heading per section,
+    # so whatever source heading blocks are left over once the sections are
+    # accounted for are the title's lines.
+    n_src_heads = sum(1 for b in src_blocks if b.startswith("###"))
+    n_title = n_src_heads - (len(head) - 1)
+    if n_title < 1:
+        print("refusing: %d source headings cannot carry a title plus %d "
+              "sections" % (n_src_heads, len(head) - 1), file=sys.stderr)
+        return 1
+
     hi = 1
     pi = 0
-    for block in src_blocks:
+    for idx, block in enumerate(src_blocks):
         if block.startswith("###"):
+            if idx < n_title:
+                continue          # part of the title, already emitted
             if hi < len(head):
                 rebuilt.append(head[hi])
                 hi += 1
         else:
             rebuilt.append(out[pi])
             pi += 1
+    if hi != len(head):
+        print("refusing: %d English headings for %d source sections"
+              % (len(head) - 1, hi - 1), file=sys.stderr)
+        return 1
 
     result = "\n\n".join(rebuilt) + "\n"
     print("%s: %d sentences -> %d paragraphs (source %d)"
