@@ -1047,6 +1047,126 @@
    "right": "这个科是由",
    "page": 98,
    "why": "spurious 和"
+  },
+  {
+   "wrong": "曹晶",
+   "right": "曹禺",
+   "page": 100,
+   "why": "Cao Yu, the playwright; crop-verified"
+  },
+  {
+   "wrong": "史民",
+   "right": "史良",
+   "page": 100,
+   "why": "Shi Liang; crop-verified"
+  },
+  {
+   "wrong": "惠子岚垣犹庄",
+   "right": "枣子岚垭犹庄",
+   "page": 100,
+   "why": "Zaozilanya, Chungking district; crop-verified"
+  },
+  {
+   "wrong": "红郑村",
+   "right": "红岩村",
+   "page": 100,
+   "why": "Hongyan Village, the Communist Party's Chungking base; crop-verified"
+  },
+  {
+   "wrong": "由他们的男女俩人",
+   "right": "由他们的男女佣",
+   "page": 100,
+   "why": "their male and female servants; 佣 not 俩人"
+  },
+  {
+   "wrong": "记不顶清楚",
+   "right": "记不很清楚",
+   "page": 99,
+   "why": "do not remember clearly"
+  },
+  {
+   "wrong": "之类和守在附近",
+   "right": "之类守在附近",
+   "page": 99,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "并不清进去",
+   "right": "并不清楚进去",
+   "page": 99,
+   "why": "were not clear about"
+  },
+  {
+   "wrong": "究竟是会什么人",
+   "right": "究竟是什么人",
+   "page": 99,
+   "why": "who exactly they were"
+  },
+  {
+   "wrong": "亲目送出",
+   "right": "亲自送出",
+   "page": 99,
+   "why": "saw out in person"
+  },
+  {
+   "wrong": "可采可不盯",
+   "right": "可盯可不盯",
+   "page": 99,
+   "why": "might or might not be tailed"
+  },
+  {
+   "wrong": "监和视就更加",
+   "right": "监视就更加",
+   "page": 100,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "客竟谁重要",
+   "right": "究竟谁重要",
+   "page": 100,
+   "why": "who exactly mattered"
+  },
+  {
+   "wrong": "小龙坎稿查所",
+   "right": "小龙坎稽查所",
+   "page": 100,
+   "why": "the Xiaolongkan inspection post"
+  },
+  {
+   "wrong": "设有一个移查哨",
+   "right": "设有一个稽查哨",
+   "page": 100,
+   "why": "an inspection picket"
+  },
+  {
+   "wrong": "要求不普",
+   "right": "要求不高",
+   "page": 101,
+   "why": "expected little of them"
+  },
+  {
+   "wrong": "并不人靠他们",
+   "right": "并不依靠他们",
+   "page": 101,
+   "why": "did not rely on them"
+  },
+  {
+   "wrong": "和军统还运用",
+   "right": "军统还运用",
+   "page": 101,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "摘民主党派工作",
+   "right": "搞民主党派工作",
+   "page": 101,
+   "why": "working on the democratic parties"
+  },
+  {
+   "wrong": "一连六了三四天",
+   "right": "一连去了三四天",
+   "page": 101,
+   "why": "went for three or four days running"
   }
  ]
 }
