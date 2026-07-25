@@ -3111,6 +3111,54 @@
    "right": "最好的手表、金笔",
    "page": 129,
    "why": "spurious 人"
+  },
+  {
+   "wrong": "由审查员鉴是",
+   "right": "由审查员鉴定",
+   "page": 130,
+   "why": "assessed by the examiners; crop-verified"
+  },
+  {
+   "wrong": "用丑斗轻轻烫平",
+   "right": "用熨斗轻轻烫平",
+   "page": 131,
+   "why": "pressed lightly with an iron; crop-verified"
+  },
+  {
+   "wrong": "据为已有",
+   "right": "据为己有",
+   "page": 130,
+   "why": "claim it for itself"
+  },
+  {
+   "wrong": "便丫各方面",
+   "right": "便向各方面",
+   "page": 130,
+   "why": "asked around"
+  },
+  {
+   "wrong": "安定摘邮电检查",
+   "right": "安定搞邮电检查",
+   "page": 130,
+   "why": "settle the postal and telegraphic censorship staff"
+  },
+  {
+   "wrong": "清水衍门",
+   "right": "清水衙门",
+   "page": 130,
+   "why": "a 'clear-water yamen', a post with no pickings"
+  },
+  {
+   "wrong": "他们上自己的说法",
+   "right": "他们自己的说法",
+   "page": 130,
+   "why": "their own phrase"
+  },
+  {
+   "wrong": "对保险信和则叫",
+   "right": "对保险信则叫",
+   "page": 130,
+   "why": "spurious 和"
   }
  ]
 }
