@@ -3663,6 +3663,96 @@
    "right": "渗入兵工厂",
    "page": 142,
    "why": "infiltrate the arsenals"
+  },
+  {
+   "wrong": "陈昌惧",
+   "right": "陈昌熙",
+   "page": 142,
+   "why": "Chen Changxi, the informant Dai Li had shot; crop-verified"
+  },
+  {
+   "wrong": "陈昌四",
+   "right": "陈昌熙",
+   "page": 142,
+   "why": "Chen Changxi, second mangle; crop-verified"
+  },
+  {
+   "wrong": "盏需署",
+   "right": "军需署",
+   "page": 141,
+   "why": "the Quartermaster Administration; crop-verified"
+  },
+  {
+   "wrong": "杨兰兼总队长",
+   "right": "杨蔚兼总队长",
+   "page": 141,
+   "why": "Yang Wei; crop-verified"
+  },
+  {
+   "wrong": "特务次和车间",
+   "right": "特务深入车间",
+   "page": 141,
+   "why": "operatives to go right into the workshops; crop-verified"
+  },
+  {
+   "wrong": "从大维最担心",
+   "right": "俞大维最担心",
+   "page": 141,
+   "why": "Yu Dawei's chief fear; crop-verified"
+  },
+  {
+   "wrong": "戴、耸两人",
+   "right": "戴、俞两人",
+   "page": 141,
+   "why": "Dai and Yu"
+  },
+  {
+   "wrong": "各兵工三警卫稽查组",
+   "right": "各兵工厂警卫稽查组",
+   "page": 141,
+   "why": "each arsenal's guard and inspection group"
+  },
+  {
+   "wrong": "移查、安全、司法四科",
+   "right": "稽查、安全、司法四科",
+   "page": 141,
+   "why": "inspection, safety and judicial sections"
+  },
+  {
+   "wrong": "引起反惑",
+   "right": "引起反感",
+   "page": 141,
+   "why": "cause resentment"
+  },
+  {
+   "wrong": "建立警移组",
+   "right": "建立警稽组",
+   "page": 141,
+   "why": "set up guard-inspection groups"
+  },
+  {
+   "wrong": "戴劝杨苦慢慢来",
+   "right": "戴劝杨蔚慢慢来",
+   "page": 141,
+   "why": "Dai urged Yang Wei to go slowly"
+  },
+  {
+   "wrong": "再三叮岂",
+   "right": "再三叮嘱",
+   "page": 142,
+   "why": "repeatedly enjoined"
+  },
+  {
+   "wrong": "警卫稿查组",
+   "right": "警卫稽查组",
+   "page": 142,
+   "why": "guard and inspection group"
+  },
+  {
+   "wrong": "闹什么摩控",
+   "right": "闹什么摩擦",
+   "page": 142,
+   "why": "any friction"
   }
  ]
 }
