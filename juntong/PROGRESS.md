@@ -386,6 +386,31 @@ strays more than 2.2x from the median" across all 96 translated paragraphs.
 Reading the source in fixed-size chunks is now done by paragraph index in
 Python, never by `cut`.
 
+## THE SENTENCE-END GATE DID NOT KNOW ASCII PUNCTUATION
+
+`assemble.py` gates every proposed paragraph break on the text ending in
+sentence-final punctuation, with SENT_END = "。！？…" -- all fullwidth. But
+tesseract reads the printed ！ and ？ as ASCII "!" and "?" often enough that
+the gate refused real breaks: six across the book, each welding two source
+paragraphs into one. The typesetter's own indent said "new paragraph" and was
+overruled by a punctuation list that did not contain the mark on the page.
+
+Found while translating ch03 p133, where "...真是不知道怎么办才好!" ran
+straight into the start of the counter-espionage section. The indent flag for
+that line was True; the break was suppressed anyway.
+
+Fixed by admitting the ASCII forms (they are the same marks) and the colon.
+The colon is safe here because a break still requires the measured indent as
+well, so a false split would need a colon and a typesetter's indent together;
+it recovers the ordinary enumerating case, "...分述于下:" followed by an
+indented list entry.
+
+Consequence: ch02 source 116 -> 119, ch03 source 190 -> 193. ch02's finished
+English re-laid onto the corrected boundaries with reflow.py and passes parity
+and alignment at 119/119. ch03's in-progress English split by hand at the two
+points that fall inside the translated range, verified by matching content
+markers independently in the Chinese and the English.
+
 ## Wake-up routines
 
 Four routines fire into this session on the hour, offset to give a roughly

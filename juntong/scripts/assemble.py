@@ -39,7 +39,16 @@ SHORT_RATIO = 0.82   # of the median full line; below this the line ends a para
 # ends in the middle of a sentence. This single test removed every false split
 # the indent measurement produced: all of them opened mid-sentence, at a page
 # top, where a continuation line's offset had been misread as an indent.
-SENT_END = "。！？…"
+SENT_END = "。！？…!?：:"
+# The ASCII forms are here because the OCR emits them: tesseract reads the
+# printed fullwidth ！ and ？ as "!" and "?" often enough that six real
+# paragraph breaks in this book were suppressed by their absence, silently
+# welding two paragraphs of the source into one. They are the same marks.
+#
+# The colon is here for the enumerating case -- "...分述于下:" followed by an
+# indented list entry, which is ordinary Chinese practice. It is safe to admit
+# because a break still requires the measured INDENT as well, so authorising a
+# false split would take a colon and a typesetter's indent together.
 # Closing quotes and brackets may follow the stop, so they are stripped before
 # the test rather than counted as ends themselves. Counting ')' as a sentence
 # end let a stray OCR bracket authorise a break in mid-sentence.
