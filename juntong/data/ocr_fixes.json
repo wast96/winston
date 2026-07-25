@@ -1743,6 +1743,114 @@
    "right": "轰炸目标",
    "page": 111,
    "why": "bombing targets"
+  },
+  {
+   "wrong": "包炸目标",
+   "right": "轰炸目标",
+   "page": 111,
+   "why": "bombing targets"
+  },
+  {
+   "wrong": "一面刊脸用的",
+   "right": "一面刮脸用的",
+   "page": 111,
+   "why": "a shaving mirror"
+  },
+  {
+   "wrong": "砍炸机",
+   "right": "轰炸机",
+   "page": 111,
+   "why": "bomber"
+  },
+  {
+   "wrong": "蔡死鬼",
+   "right": "替死鬼",
+   "page": 111,
+   "why": "a scapegoat"
+  },
+  {
+   "wrong": "明知是铭枉",
+   "right": "明知是冤枉",
+   "page": 111,
+   "why": "knowing it was unjust"
+  },
+  {
+   "wrong": "在on南岸",
+   "right": "在南岸",
+   "page": 112,
+   "why": "OCR latin intrusion"
+  },
+  {
+   "wrong": "胆在玩",
+   "right": "胆在玩",
+   "page": 112,
+   "why": "kept as printed: the thermos liner"
+  },
+  {
+   "wrong": "光。人恰巧",
+   "right": "光。恰巧",
+   "page": 112,
+   "why": "spurious 人"
+  },
+  {
+   "wrong": "南岸和碗查所",
+   "right": "南岸稽查所",
+   "page": 112,
+   "why": "the south bank inspection post"
+  },
+  {
+   "wrong": "夫妇喘边",
+   "right": "夫妇身边",
+   "page": 112,
+   "why": "beside the couple"
+  },
+  {
+   "wrong": "给收机指示目标",
+   "right": "给敌机指示目标",
+   "page": 112,
+   "why": "signalling targets to enemy aircraft"
+  },
+  {
+   "wrong": "挂在胸闻",
+   "right": "挂在胸间",
+   "page": 112,
+   "why": "hung at his chest"
+  },
+  {
+   "wrong": "又有改一种情况",
+   "right": "又有另一种情况",
+   "page": 112,
+   "why": "another kind of case; crop-verified"
+  },
+  {
+   "wrong": "由潮北方面",
+   "right": "由湖北方面",
+   "page": 112,
+   "why": "from Hupeh"
+  },
+  {
+   "wrong": "恨之人骨",
+   "right": "恨之入骨",
+   "page": 112,
+   "why": "hated it to the bone; 入 misread as 人"
+  },
+  {
+   "wrong": "一直硕望",
+   "right": "一直希望",
+   "page": 112,
+   "why": "had always hoped; crop-verified"
+  },
+  {
+   "wrong": "面面相山",
+   "right": "面面相觑",
+   "page": 112,
+   "why": "looked at one another blankly; crop-verified"
+  },
+  {
+   "wrong": "他便吕我们",
+   "right": "他便骂我们",
+   "page": 112,
+   "why": "he cursed us"
   }
  ]
 }
