@@ -1,40 +1,38 @@
-## 2026-07-24 (2) - Ch8 and Ch9 assessments, and a correction to my own ch7 work
+## 2026-07-25 - Final sweep: accuracy and stylistic unity
 
-Two research passes landed. Findings, and the cascade they forced:
+Whole-book pass over the translated text (prologue + ch1-6).
 
-CH9 IS IMPOSSIBLE ON ITS OWN DATES. The book dates the Lytton plot to 2-13
-November 1932; both dates crop-verified against the scan, not merely OCR. The
-Lytton Commission left China on 4 September 1932, and Lord Lytton was in the
-House of Lords in London on 2 November 1932 - the very day the book has Wang
-receive the letter that starts the plot. No independent record of any attempt
-on Lytton exists; the story circulates in near-identical wording across
-Chinese outlets with no archive behind it. Also identified the lawyer in the
-literary scene as Shen Junru, a major real figure the OCR had mangled.
+TWELVE FOOTNOTES WERE NOT IN THE BOOK. 289 written, 277 shipping. Anchors that
+no longer matched the prose - mostly capitalisation slips - were skipped
+silently, and qa_epub stayed green because refs and bodies still agreed with
+each other. All twelve restored. The builder now REFUSES to build when an
+anchor fails to match, and that check caught two more during this sweep.
 
-CH8's CENTRAL CLAIM HAS A TRACEABLE ORIGIN. That Wang Yaqiao was behind the
-Hongkou Park bombing comes from a 1983 article by his brother Wang Shuqiao;
-Chinese Wikipedia carries it with an explicit no-solid-source caveat, a named
-Chinese scholar rejects it, and it appears nowhere in Korean, Japanese or
-English sources. The tell is the timed thermos-flask bomb - the real device
-was thrown. The real bombs were made at the Shanghai Arsenal via Kim Hong-il.
-But there IS a documented Wang-Korean link, to the anarchists of the
-Anti-Japanese National Salvation League, where he supplied weapons and money;
-their operation was the 1933 attempt on Ariyoshi. The book has transplanted a
-real relationship with one faction onto the famous operation of a rival.
-Also: the Izumo mine attempt is REAL, corroborated from Japanese naval
-sources for 1 March 1932, though they do not name Wang.
+CHAPTER SIX WAS SHIPPING WITHOUT ITS TITLE. Its file used a single # where the
+others use the two-level convention; the builder treats # as the book title
+and skips it, so the chapter heading, subtitle and dateline were all dropped.
+Fixed.
 
-CORRECTION TO MY OWN EARLIER WORK. I had written, in ch07_assessment.md and
-in two shipped ch6 notes, that the Nichiren attack of 18 January 1932 took
-place "in Zhabei" and killed one monk. Both loose. It happened in an alley by
-the Sanyou towel works on Mayushan Road, in the Chinese-administered area next
-to Yangshupu; Zhabei is where the arson followed two days later and the
-fighting on the 28th. The five victims were two monks and three laymen, and
-the man who died, Mizukami Hideo, died of his injuries on 24 January rather
-than at the scene. Added the historiographical caveat I had also skipped:
-Tanaka's account rests on his own postwar testimony, Ito Takashi and Usui
-Katsumi have questioned its evidentiary basis, and Kawashima Yoshiko's part
-rests on Tanaka's recollection alone.
+STYLISTIC DRIFT MEASURED AND CORRECTED. Contractions inside dialogue had
+fallen from 16.2/1k in ch1 to 0.37/1k in ch6 - two contractions in 136 places
+that wanted one. "Shall" had risen from 0% of shall+will to 25%. Both are
+formality markers and both moved together; this is the stiltedness the first
+draft was rejected for, arriving quietly. Corrected to 11.0/1k in ch6 and
+20.1/1k in ch5, with three registers deliberately left formal: the Japanese
+officers (a period convention the Chinese observes), quoted documents, and
+classical tags. Two oaths and a proverb had to be put back after the first
+pass over-corrected them.
 
-Rebuilt: 7 documents, 930 paragraphs, 277 notes, qa_epub PASS.
+RESIDUAL LEFT ALONE: em-dashes still range 4.3 to 17.9 per 1k against ch1's
+12.2. The dense paragraphs use them for dialogue interruption and appositive
+work, so flattening them mechanically would damage prose that reads well.
+Reported rather than faked.
+
+Also swept for the invented-precision defect the deep audit found. Four
+candidates, all false positives - the definiteness was in the source each
+time. That error was isolated, not systematic.
+
+All checks re-run after the edits: invariants 0 unresolved across 793 pairs,
+paragraph parity exact, zero glossary drift, entity misses all pronoun
+substitution. Rebuilt: 7 documents, 931 paragraphs, 289 notes, qa_epub PASS.
 

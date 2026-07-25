@@ -18,7 +18,7 @@ Then, all at once, the crack of a shot, and Chiang was so startled he nearly wen
 
 > "给我搜！"当俞济时慌慌然跑到吓得脸色煞白的蒋介石面前见他将哆嗦的左手高高举起来，向那幽深的竹林一指，声嘶力竭叫道："刺客，里面一定不止一个……你们，给我搜！搜搜看！……"
 
-"Search! Search for me!" Yu Jishi came running up in a panic to Chiang, whose face had gone bloodless, and saw him lift a shaking left hand high and point it into the deep bamboo, shouting until his voice tore: "Assassins — there is certainly more than one in there. You — search for me! Go and look!"
+"Search! Search for me!" Yu Jishi came running up in a panic to Chiang, whose face had gone bloodless, and saw him lift a shaking left hand high and point it into the deep bamboo, shouting until his voice tore: "Assassins — there's certainly more than one in there. You — search for me! Go and look!"
 
 > 俞济时等侍从室人员，哪还敢怠慢，呼啦一下，返身冲进了竹林，竹林里又响起一阵砰砰叭叭的枪声……
 
@@ -26,7 +26,7 @@ Yu Jishi and the other men of the Attendants' Office dared not be slow about it.
 
 > "请校长放心，我们马上就会搞清，究竟谁是暗杀的主谋。"戴笠暗自庆幸的是，他这次没有随蒋介石一同上庐山。如果案发时他也在山上，那么作为特工人员，戴笠自然难逃其咎。当他奉命来到庐山以后，第一个任务就是协助俞济时对在竹林里向蒋开枪的无名刺客尸体进行身份鉴定。虽从南京调来大批法医和痕迹专家，对那具尸体进行了解剖，但是，由于刺客在临死前没有留下任何有价值的物证，所以一时难以确定死者的身份和来历。
 
-"Set your mind at rest, Commandant. We shall know very shortly who was behind it." What Dai Li was privately congratulating himself on was that he had not gone up to Lushan with Chiang this time. Had he been on the mountain when it happened, an intelligence officer could hardly have escaped his share of the blame. Once ordered up, his first task was to help Yu Jishi identify the body of the nameless assassin who had fired on Chiang from the bamboo. A whole party of forensic doctors and trace specialists was brought over from Nanjing and the body was opened up; but since the man had left nothing of any evidentiary value behind him when he died, his identity and his origins could not be settled at once.
+"Set your mind at rest, Commandant. We'll know very shortly who was behind it." What Dai Li was privately congratulating himself on was that he had not gone up to Lushan with Chiang this time. Had he been on the mountain when it happened, an intelligence officer could hardly have escaped his share of the blame. Once ordered up, his first task was to help Yu Jishi identify the body of the nameless assassin who had fired on Chiang from the bamboo. A whole party of forensic doctors and trace specialists was brought over from Nanjing and the body was opened up; but since the man had left nothing of any evidentiary value behind him when he died, his identity and his origins could not be settled at once.
 
 > 然而，戴笠毕竟是精明的情报人员。他来庐山的第二天，就率领随行特工人员，突击搜查了庐山所有的旅舍客栈。当他将刺客的遗体照片，依次出示给山上大小旅馆的老板时，在太乙峰下一家名叫"万客来"的客栈里，女店主一眼认出，死者正是在她家旅店下榻多日的香港客人。经戴笠查验往来客人登记簿，认定刺客名叫马三猛，广东香山人氏。来客自报是香港万明理商行的董事长。
 
@@ -38,7 +38,7 @@ Dai Li at once sent a man from Jiujiang by night flight to Hong Kong to check Ma
 
 > "我断定向我开枪的刺客，肯定和胡汉民有关系！为什么？就因为他那么仇恨于我！这肯定是广东那边派来的刺客！"蒋介石听了戴笠的报告后，当即断定刺客的身份。
 
-"I am certain the assassin who fired on me is connected with Hu Hanmin. Why? Because he hates me that much! This was without doubt an assassin sent up from Guangdong!" Chiang Kai-shek had heard Dai Li's report out and settled the killer's identity on the spot.
+"I'm certain the assassin who fired on me is connected with Hu Hanmin. Why? Because he hates me that much! This was without doubt an assassin sent up from Guangdong!" Chiang Kai-shek had heard Dai Li's report out and settled the killer's identity on the spot.
 
 > 戴笠听了蒋介石的话，心中不免惊愕。他来此之前，心里就对刺客的身份有所估计。现在忽听蒋介石把刺客与正在广东发起新政府的汪精卫、孙科等人联系起来，不禁使他想起不久前在南京搜集到的一个情报：一位名叫肖佛成的广东人，不久前曾秘密飞到上海，和王亚樵在租界上见面。他知道这肖佛成即孙科的心腹，又是国民党的中监委员，早年也曾追随孙中山。现在庐山上发生的事情，既然与广州有关，那么很可能和他从前上海的拜把子弟兄王亚樵大有关联。但是，戴笠不知为什么，却没将心里的怀疑吐出来。只在蒋介石面前哈腰躬身说："校长的意思是，刺客是从广州来的？"
 
@@ -46,7 +46,7 @@ Hearing this, Dai Li could not help being taken aback. He had come with his own 
 
 > 蒋介石说："雨农，是不是从广州来的，我还不敢肯定。可是，我想这人一定是职业杀手，不然的话，他是绝不敢冒险到庐山来的。因为这里不是上海，山上几乎到处都是我们的人。他们如果不是职业杀手，绝然不敢把手枪偷偷带到山上来。仅此一举，我就敢肯定行凶的人不是等闲之辈。"
 
-Chiang said, "Yunong, whether he came from Canton I am not yet ready to say. But I think this man must have been a professional killer. If he were not, he would never have risked coming up to Lushan at all. This is not Shanghai; the mountain is full of our own people. Men who were not professionals would never have dared smuggle a pistol up here. From that one act alone I am certain the man who did this was no ordinary sort."
+Chiang said, "Yunong, whether he came from Canton I'm not yet ready to say. But I think this man must have been a professional killer. If he weren't, he would never have risked coming up to Lushan at all. This isn't Shanghai; the mountain is full of our own people. Men who weren't professionals would never have dared smuggle a pistol up here. From that one act alone I'm certain the man who did this was no ordinary sort."
 
 > 戴笠心乱如麻。蒋介石的话又提醒了他，昨天他曾在俞济时那里，看到了刺客使用的德国造手枪。那是一支不锈钢制造的强力式手枪，在一般情况下行刺者可以在五百米内击中他想射杀的目标。向来喜欢手枪的戴笠，虽然在黄埔军校毕业后参加过多种特务活动，使用过各种外国制造的手枪，可是，他从没见过刺客留在现场的强力式。他知道一般普通杀手绝不会有这种枪的。这令他再次想起一个人来，这就是他当年在上海落魄时的恩人王亚樵！
 
@@ -54,7 +54,7 @@ Dai Li's mind was a tangle. Chiang's words had reminded him of something: the da
 
 > "是他，肯定就是他，别人绝不会有这样的武器。"戴笠在心里这样想，可他在蒋介石面前却没说出心里怀疑的人是谁。戴笠之所以肯定是王亚樵手下人所为，就因为他从前在王亚樵家里见过这种强力式。王亚樵曾对他说过："春风，这种强力式是我身边一宝，只要我身上有了它，任何人都休想接近我。"
 
-"It is him. It has to be him. Nobody else would have a weapon like that." So Dai Li thought; but he did not say in front of Chiang who it was he suspected. What made him certain that Wang Yaqiao's men had done it was that he had seen that same Powerful in Wang Yaqiao's own house years before. Wang had said to him then, "Chunfeng, this Powerful is one of the treasures I keep about me. As long as it is on me, nobody on earth need think of getting close."
+"It's him. It has to be him. Nobody else would have a weapon like that." So Dai Li thought; but he did not say in front of Chiang who it was he suspected. What made him certain that Wang Yaqiao's men had done it was that he had seen that same Powerful in Wang Yaqiao's own house years before. Wang had said to him then, "Chunfeng, this Powerful is one of the treasures I keep about me. As long as it's on me, nobody on earth need think of getting close."
 
 > 戴笠还知道王亚樵的德国手枪，来自上海英租界一位名叫马乐奇的英格兰人，他的职业就是从英国向中国内地倒卖外国武器和军火。强力式德国手枪只有马乐奇才能弄到。戴笠在心里虽对王亚樵涉案猜测得八九不离十，但他出于种种顾虑，没有在蒋介石面前直呼其名。与其说戴笠那时候仍然感念从前在上海的旧情，不如说他担心在蒋面前谈到他和王亚樵的旧谊，会引起对方的狐疑和猜测。
 
@@ -62,7 +62,7 @@ Dai Li also knew where Wang Yaqiao's German pistols came from: an Englishman in 
 
 > "我不但能猜到这起暗杀是广东方面操纵的，还能断定这个向我开枪的人，就来自上海。"蒋介石不愧是老谋深算的政客，他坐在躺椅上对侍立面前的戴笠说出对此案的分析："为什么说来自上海？就因为俞济时在调查那个住在太乙峰下的凶手时，发现和他一起失踪的还有五六个人。经过他的调查，发现这几人都是从上海乘火车来九江的。所以，上海至少是这批刺客的落脚点。广东方面在上海买通杀手，也不是没有可能。所以，雨农，现在我就派你亲自去上海，给我把这些从庐山逃走的刺客下落侦察清楚。如果找到那些人的踪迹，马上将他们全部逮捕。格杀勿论，绝不手软！"
 
-"I can do more than guess that this assassination was worked from Guangdong. I can also tell you that the man who fired at me came out of Shanghai." Chiang Kai-shek was a politician of long calculation, and from his deck chair he laid out his reading of the case for Dai Li, standing in attendance before him. "Why do I say Shanghai? Because when Yu Jishi looked into the killer who lodged below Taiyi Peak, he found five or six others had disappeared along with him. His inquiries turned up that all of them had come to Jiujiang from Shanghai by train. So Shanghai is at the very least where this lot of assassins were based. And it is perfectly possible that the Guangdong people bought their killers in Shanghai. Therefore, Yunong, I am sending you to Shanghai in person, to trace out for me where these assassins went after they fled Lushan. If you find any track of them, arrest the whole lot at once. Shoot them out of hand — no softness!"
+"I can do more than guess that this assassination was worked from Guangdong. I can also tell you that the man who fired at me came out of Shanghai." Chiang Kai-shek was a politician of long calculation, and from his deck chair he laid out his reading of the case for Dai Li, standing in attendance before him. "Why do I say Shanghai? Because when Yu Jishi looked into the killer who lodged below Taiyi Peak, he found five or six others had disappeared along with him. His inquiries turned up that all of them had come to Jiujiang from Shanghai by train. So Shanghai is at the very least where this lot of assassins were based. And it's perfectly possible that the Guangdong people bought their killers in Shanghai. Therefore, Yunong, I'm sending you to Shanghai in person, to trace out for me where these assassins went after they fled Lushan. If you find any track of them, arrest the whole lot at once. Shoot them out of hand — no softness!"
 
 > 黄浦江上不时传来一阵阵悠扬的船笛声。戴笠透过朦胧夜色远望着江对岸亮起的簇簇灯火。他感到蒋介石这次交给他的任务相当棘手。尽管他在庐山时就对行刺者可能与王亚樵有关有所预见，但是，那毕竟是他的怀疑而已。更让他感到为难的是，即便就是王亚樵的人所为，他也不敢贸然对其下手。他最清楚王亚樵的厉害。尽管王始终是个在野之人，是一个把蒋介石和国民政府都不放在眼里的闲云野鹤，但是，戴笠清楚王在上海的社会力量绝非一个政府官员所能相比。在大上海与王亚樵作对，别说他戴笠只带十几个特工人员而来，即便黄金荣、杜月笙和张啸林三大亨，也都对他礼让三分。想到这里他心里不禁一哆嗦："如何向这个铁腕人物摊牌呢？！"
 
@@ -74,11 +74,11 @@ He remembered, too, the awkwardness of the last time — his secret trip down to
 
 > "算了算了，大哥，既然您对蒋先生有仇，我也就不劝了。"戴笠见话不投机，急忙改口说："我也是好意，我想大哥纵然有超人才能，但是你不依靠一党一派，也怕孤掌难鸣，成不了大事。所以才想把大哥介绍给蒋先生。现在既然大哥并无此意，索性就各奔前程吧。"
 
-"Enough, enough, Elder Brother. If you have a grudge against Mr. Chiang I shall not press you." Seeing the conversation had gone wrong, Dai Li changed direction in a hurry. "I meant it kindly. It seemed to me that great as my elder brother's abilities are, without leaning on some party or faction you might find a single palm cannot clap, and that nothing large would come of it. That was why I wanted to introduce my elder brother to Mr. Chiang. But since my elder brother has no such intention, let us each go our own road and be done."
+"Enough, enough, Elder Brother. If you have a grudge against Mr. Chiang I'll not press you." Seeing the conversation had gone wrong, Dai Li changed direction in a hurry. "I meant it kindly. It seemed to me that great as my elder brother's abilities are, without leaning on some party or faction you might find a single palm can't clap, and that nothing large would come of it. That was why I wanted to introduce my elder brother to Mr. Chiang. But since my elder brother has no such intention, let us each go our own road and be done."
 
 > "古人说：'道不同，不与为谋。'"王亚樵见和戴笠话不投机，就果断地对他下了逐客令，"既然你决心跟着老蒋走，我也不与你为难。但是，从今以后，你如若再来拜访，不要谈论与老蒋有关的事情。不然休怪我王九光不看从前的交情了。"
 
-"The ancients said: men whose roads differ cannot take counsel together." Wang Yaqiao, finding no common ground with Dai Li, showed him the door without further ceremony. "Since you are set on following old Chiang, I shall not make things hard for you. But from this day on, if you come calling again, we will not discuss anything to do with old Chiang. Otherwise do not blame Wang Jiuguang for forgetting the old friendship."
+"The ancients said: men whose roads differ cannot take counsel together." Wang Yaqiao, finding no common ground with Dai Li, showed him the door without further ceremony. "Since you're set on following old Chiang, I'll not make things hard for you. But from this day on, if you come calling again, we won't discuss anything to do with old Chiang. Otherwise do not blame Wang Jiuguang for forgetting the old friendship."
 
 > 现在，戴笠来到上海，就是奉蒋介石密令，暗中调查庐山刺客的下落。戴笠虽然估计此案必与王亚樵有关，但他还没与王亚樵见面，尚不能做最后判断。他感到进退维谷的是，如若执行蒋的命令，势必和王亚樵正面交锋，方能识别真伪虚实；但是，当他一想到面见王亚樵的难堪，心里又有几分怯意。思量良久，在两难之中他终于狠下心来，在蒋介石面前立功的念头最后占了上风。
 
@@ -94,11 +94,11 @@ Now Dai Li had come to Shanghai under Chiang Kai-shek's secret orders, to trace 
 
 > 戴笠觉得王亚樵今天气色有异。同时他发现这幢宅子内外，有一些陌生人在走动。尽管他清楚王亚樵家里始终有些门徒出入，客人不断，但是现在因他另有所谋，所以对所有在王宅走动的人，都不得不暗加提防。半晌，戴笠从尴尬中挤出几声干笑，说："大哥，这一阵子我确实很忙，主要是跟随蒋先生一直在庐山避暑。唉唉，真不如从前跟随大哥时轻松随便了，如今是当官不由己，行动不自由了！"
 
-To Dai Li, Wang Yaqiao's colour looked wrong that day. He also noticed unfamiliar men moving about inside the house and out. He knew perfectly well that Wang Yaqiao's house always had disciples coming and going and a constant stream of guests; but since his own errand was what it was, he could not help watching every one of them. After a pause he squeezed a few dry laughs out of his embarrassment and said, "Elder Brother, I really have been very busy this while. Mostly it has been following Mr. Chiang up to Lushan for the summer. Ai, ai — nothing like the easy old days when I followed my elder brother. Hold office and you are no longer your own man; you cannot even move where you please!"
+To Dai Li, Wang Yaqiao's colour looked wrong that day. He also noticed unfamiliar men moving about inside the house and out. He knew perfectly well that Wang Yaqiao's house always had disciples coming and going and a constant stream of guests; but since his own errand was what it was, he could not help watching every one of them. After a pause he squeezed a few dry laughs out of his embarrassment and said, "Elder Brother, I really have been very busy this while. Mostly it has been following Mr. Chiang up to Lushan for the summer. Ai, ai — nothing like the easy old days when I followed my elder brother. Hold office and you're no longer your own man; you can't even move where you please!"
 
 > 王亚樵从他话里隐隐听出几分旁敲侧击的味道。因为庐山对于他来说，是最敏感不过的地方了。但王亚樵毕竟是久闯江湖的人，平生经历过各种惊险场面，虽然在庐山上刺蒋没有成功，又损失了一位弟兄陈成，但他自认为刺蒋案从头至尾策划得天衣无缝。王亚樵觉得蒋介石除获得一支德国造强力式手枪之外，似乎得不到更多的破案线索。所以他对戴笠的察言观色，仍然保持着惯有的矜持，嘿嘿一声冷笑："戴春风，我历来讨厌打官腔的人。特别是像你这样靠蒋介石狐假虎威的人，我更是从心里看不起。你上不上庐山，又有什么值得炫耀的呢？其实那江西的庐山，我王某人如果想去那里消夏，也是随时可以来去自由的。只是现在我还是觉得天下哪里也比不得上海好。"
 
-Wang Yaqiao caught the faint sound of the sidelong probe in this. Of all subjects, Lushan was the one on which he was most sensitive. But Wang Yaqiao was a man long out on the rivers and lakes, who had been through every sort of hair's-breadth scene in his life; and although the attempt on Chiang on Lushan had failed and had cost him a brother in Chen Cheng, he believed the plot had been laid faultlessly from beginning to end. As Wang Yaqiao saw it, apart from one German-made Powerful pistol, Chiang Kai-shek could hardly have come away with any further lead. So he met Dai Li's reading of his face with his habitual reserve, and gave a short cold laugh. "Dai Chunfeng, I have always disliked men who talk like officials. Men like you especially, who borrow Chiang Kai-shek's tiger skin to play the fox — those I despise from the bottom of my heart. Whether you go up Lushan or not, what is there in it worth showing off? As a matter of fact, if I, Wang, wanted to pass a summer on Lushan in Jiangxi, I could come and go there whenever I liked. It is only that I still find nowhere on earth to compare with Shanghai."
+Wang Yaqiao caught the faint sound of the sidelong probe in this. Of all subjects, Lushan was the one on which he was most sensitive. But Wang Yaqiao was a man long out on the rivers and lakes, who had been through every sort of hair's-breadth scene in his life; and although the attempt on Chiang on Lushan had failed and had cost him a brother in Chen Cheng, he believed the plot had been laid faultlessly from beginning to end. As Wang Yaqiao saw it, apart from one German-made Powerful pistol, Chiang Kai-shek could hardly have come away with any further lead. So he met Dai Li's reading of his face with his habitual reserve, and gave a short cold laugh. "Dai Chunfeng, I've always disliked men who talk like officials. Men like you especially, who borrow Chiang Kai-shek's tiger skin to play the fox — those I despise from the bottom of my heart. Whether you go up Lushan or not, what is there in it worth showing off? As a matter of fact, if I, Wang, wanted to pass a summer on Lushan in Jiangxi, I could come and go there whenever I liked. It's only that I still find nowhere on earth to compare with Shanghai."
 
 > 戴笠本想以庐山为题，借以观察王亚樵的神色举止；然后再以庐山出了刺客为由头，诈一诈他。如此案确是王亚樵派人所为，那么他必在言语中露出蛛丝马迹。如果他当真诈出王亚樵涉案的证据，也就可以向蒋介石邀功请赏了。但是，他没想到王亚樵还是像从前那样硬邦邦地不好惹，开口就给他个硬钉子碰，让他好不难堪。
 
@@ -106,7 +106,7 @@ Dai Li's idea had been to use Lushan as his opening, to watch Wang Yaqiao's face
 
 > "那是那是，大哥如果想上庐山，还不容易吗？只要您一句话，我戴春风马上派人来上海接您上山。"戴笠急忙堆上笑脸，说，"不过，庐山也不平静，听说那里不久前曾出了一件大事，有人竟想暗杀蒋先生。"
 
-"Just so, just so — if my elder brother wants to go up Lushan, what could be easier? One word from you and I, Dai Chunfeng, will send men to Shanghai to bring you up the mountain." Dai Li piled the smiles on hurriedly. "Though Lushan is not so peaceful either. I hear a great affair happened up there not long ago. Somebody actually tried to assassinate Mr. Chiang."
+"Just so, just so — if my elder brother wants to go up Lushan, what could be easier? One word from you and I, Dai Chunfeng, will send men to Shanghai to bring you up the mountain." Dai Li piled the smiles on hurriedly. "Though Lushan isn't so peaceful either. I hear a great affair happened up there not long ago. Somebody actually tried to assassinate Mr. Chiang."
 
 > "哦？有这样的事？"至此王亚樵更加印证戴笠是不怀好意而来。他显然已经成了蒋介石身边的走卒鹰犬，和1928年秋天在南京鸣枪相救时的感念旧情之人大不相同了。王亚樵见戴笠话里话外都在试探他的虚实，索性将桌子一拍，哈哈大笑："看起来天下确有英雄豪杰！姓蒋竟也会在庐山遇上了对头。戴春风，莫非你在庐山逮住了那位荆轲一样的英雄吗？如果我能见识见识这位英雄，也不枉空活此生！"
 
@@ -114,7 +114,7 @@ Dai Li's idea had been to use Lushan as his opening, to watch Wang Yaqiao's face
 
 > 戴笠的脸登时涨红了。他万没想到王亚樵如此机敏过人，而且其对应快捷得让他吃惊。王亚樵在他戴笠面前非但没回避如此敏感的话题，反而公开赞美行刺的杀手，这就不能不让他心里已经形成的判断发生了动摇，忙说："哪里哪里，大哥，那刺客当场就被俞济时的人给击毙了，我当时并不在现场。事后听说那刺客死的倒也壮烈。他身上虽然中了数十枪，可他连向蒋先生那里开了两枪！只是，他留下的手枪却有些耐人寻味啊！"
 
-Dai Li's face went red on the instant. He had never imagined Wang Yaqiao could be so quick, and the speed of the man's answer astonished him. Not only did Wang Yaqiao decline to avoid so sensitive a subject in front of him, he openly praised the assassin — which could not help shaking the judgement Dai Li had already formed. He said hastily, "Not at all, not at all, Elder Brother. The assassin was shot dead on the spot by Yu Jishi's men; I was not there myself. I heard afterward that he died a fine death, too. There were dozens of shots in him, and still he got off two at Mr. Chiang! Only — the pistol he left behind is rather a thing to think about."
+Dai Li's face went red on the instant. He had never imagined Wang Yaqiao could be so quick, and the speed of the man's answer astonished him. Not only did Wang Yaqiao decline to avoid so sensitive a subject in front of him, he openly praised the assassin — which could not help shaking the judgement Dai Li had already formed. He said hastily, "Not at all, not at all, Elder Brother. The assassin was shot dead on the spot by Yu Jishi's men; I wasn't there myself. I heard afterward that he died a fine death, too. There were dozens of shots in him, and still he got off two at Mr. Chiang! Only — the pistol he left behind is rather a thing to think about."
 
 > "枪有什么奇怪？"
 
@@ -122,11 +122,11 @@ Dai Li's face went red on the instant. He had never imagined Wang Yaqiao could b
 
 > "大哥，我感到奇怪的是，刺客的手枪，竟也是您从前最喜欢的德国强力式！您说，这种枪的杀伤力是那样强，如果枪弹当真打在蒋先生身上，那么他还有活命的可能吗？都是因为那天俞济时发现得早，不然，可就不好说了！"戴笠虽在心里对王亚樵是否参与此案将信将疑，不知底数，但他毕竟是身负蒋介石的使命而来，所以仍然向镇定自若的王亚樵进行试探。
 
-"Elder Brother, what I find strange is that the assassin's pistol happened to be the German Powerful you yourself used to be so fond of. Tell me — a gun with killing power like that: if the bullets really had gone into Mr. Chiang, would there have been any chance of his living? It was only because Yu Jishi spotted it early that day. Otherwise there is no saying!" Dai Li half believed and half doubted that Wang Yaqiao had a hand in the case; he did not know the depth of the water. But he had come charged with Chiang Kai-shek's mission, and so he went on probing at the wholly unruffled Wang Yaqiao.
+"Elder Brother, what I find strange is that the assassin's pistol happened to be the German Powerful you yourself used to be so fond of. Tell me — a gun with killing power like that: if the bullets really had gone into Mr. Chiang, would there have been any chance of his living? It was only because Yu Jishi spotted it early that day. Otherwise there's no saying!" Dai Li half believed and half doubted that Wang Yaqiao had a hand in the case; he did not know the depth of the water. But he had come charged with Chiang Kai-shek's mission, and so he went on probing at the wholly unruffled Wang Yaqiao.
 
 > "是吗？好极了！这就更证明刺客是个地地道道准备赴死的好汉了。不然，他绝不会和我使用同样的德国造。"王亚樵心里暗骂了一声戴笠，继续以他固有的倨傲性格面对挑战说，"戴春风，你是不是以为刺客的手枪是我送给他的？我可以告诉你，我确实不认识这位志士，如若事前知他敢舍身上庐山行刺蒋某人，那么，我不但要赠送他德国手枪，而且还要给他更先进的子弹呢！告诉你，现在我这里不但有强力式手枪，还有更先进的达姆手枪和达姆弹呢！那志士如若得了这种枪弹，保证他弹不虚发，也许蒋某人早就在这毒弹之下毙命了。唉唉，真是太可惜了！"
 
-"Is that so? Excellent! That only proves the assassin was a genuine, thoroughgoing hero, one who went up prepared to die. Otherwise he would never have used the same German make as I do." Wang Yaqiao cursed Dai Li privately and went on facing the challenge with his customary arrogance. "Dai Chunfeng, do you suppose the assassin's pistol was a present from me? I can tell you that I truly did not know this man of resolve. And had I known beforehand that he meant to give his body up on Lushan and kill Mr. Chiang, I would have given him not only the German pistol but better bullets besides! Let me tell you: I have not only the Powerful here now, I have the more advanced dumdum pistols and dumdum rounds as well! If that man of resolve had got hold of those, I guarantee not a bullet would have gone astray, and Mr. Chiang might have been dead under that poisoned lead long ago. Ai, ai — what a pity of it!"
+"Is that so? Excellent! That only proves the assassin was a genuine, thoroughgoing hero, one who went up prepared to die. Otherwise he would never have used the same German make as I do." Wang Yaqiao cursed Dai Li privately and went on facing the challenge with his customary arrogance. "Dai Chunfeng, do you suppose the assassin's pistol was a present from me? I can tell you that I truly didn't know this man of resolve. And had I known beforehand that he meant to give his body up on Lushan and kill Mr. Chiang, I would have given him not only the German pistol but better bullets besides! Let me tell you: I haven't only the Powerful here now, I've the more advanced dumdum pistols and dumdum rounds as well! If that man of resolve had got hold of those, I guarantee not a bullet would have gone astray, and Mr. Chiang might have been dead under that poisoned lead long ago. Ai, ai — what a pity of it!"
 
 > 戴笠见王亚樵非但没被他暗含杀机的话吓倒，反而毫无顾忌地在他面前大肆颂扬刺客，咒骂蒋介石。他知道王亚樵的精神防线，绝非他旁敲侧击所能攻破。尽管如此，他心里对王的怀疑仍然没有消除。但是他不敢继续恋战了，因为他已看出自己在王亚樵面前，永远不会占上风。想到这里，他三言两语结束了这次尴尬的拜访，灰溜溜地告辞而去。
 
@@ -138,7 +138,7 @@ Dai Li stayed in Shanghai a month and more and got nothing at all. By then Chian
 
 > 戴笠做梦也没想到蒋会对他发这么大的火，吓得声音颤抖地："校长，凭心而论，您就是我的再生父母啊。只是此案特别复杂，案犯作案前策划于密室，事后又没留下任何可供缉凶的证据。所以雨农纵然极想缉凶立功，却又无从下手啊，学生绝非对校长有半点不忠！"
 
-Dai Li had not dreamed Chiang would blaze up at him like this. His voice shook with fear. "Commandant — speaking from the heart, you are the father and mother who gave me my second life. It is only that this case is peculiarly tangled. The men planned it in a sealed room and left no evidence afterward that could be used to run them down. So however much Yunong wants to take the killers and earn the merit, there is nowhere to lay a hand. Your student is not disloyal to the Commandant by so much as a hair!"
+Dai Li had not dreamed Chiang would blaze up at him like this. His voice shook with fear. "Commandant — speaking from the heart, you're the father and mother who gave me my second life. It's only that this case is peculiarly tangled. The men planned it in a sealed room and left no evidence afterward that could be used to run them down. So however much Yunong wants to take the killers and earn the merit, there's nowhere to lay a hand. Your student isn't disloyal to the Commandant by so much as a hair!"
 
 > "混蛋，"不料蒋介石更加震怒，"缉凶与否，暂且不论。我只问你，戴雨农，究竟是我蒋某人对你恩重如山，还是那十恶不赦的王亚樵，是你的再生父母？你说，既然你早就宣誓效忠于我，为什么还要百般庇护王亚樵呢？"
 
@@ -158,11 +158,11 @@ Dai Li was trembling. "He cursed the Commandant to my face, and heaped praise on
 
 > 蒋介石见戴笠哭得沉痛，知他对自己忠心不贰，也就不再训骂，但心里仍对发生在庐山上的行刺案耿耿于怀。他示意戴笠起来，叮嘱说："好吧，雨农，暂且不论你的忠与不忠。但是，你和王亚樵从此再不许藕断丝连，明来暗往了。既然你决心报效党国，从现在起，就必须时时替我注意这个安徽杀手的行迹。只要抓住他的把柄，就坚决除掉此人！"
 
-Seeing how bitterly Dai Li wept, Chiang Kai-shek concluded that his loyalty was undivided and left off scolding him; but the attempt on Lushan still stuck in his throat. He motioned Dai Li to his feet and charged him: "Very well, Yunong. Your loyalty or want of it we shall set aside for the moment. But from this day forward you are forbidden all connection with Wang Yaqiao, open or secret, root or thread. Since you are resolved to serve the party and the state, from now on you will watch this Anhui killer's movements for me at all times. The moment you have a hold on him, get rid of the man without hesitation!"
+Seeing how bitterly Dai Li wept, Chiang Kai-shek concluded that his loyalty was undivided and left off scolding him; but the attempt on Lushan still stuck in his throat. He motioned Dai Li to his feet and charged him: "Very well, Yunong. Your loyalty or want of it we'll set aside for the moment. But from this day forward you're forbidden all connection with Wang Yaqiao, open or secret, root or thread. Since you're resolved to serve the party and the state, from now on you will watch this Anhui killer's movements for me at all times. The moment you have a hold on him, get rid of the man without hesitation!"
 
 > 戴笠从地上爬起来，向蒋信誓旦旦地说："放心吧，校长，只要他再敢对校长有任何不恭，学生绝不手软！"
 
-Dai Li climbed up off the floor and swore to Chiang with every oath he had: "Rest easy, Commandant. If he dares show the Commandant any further disrespect, your student will not spare him!"
+Dai Li climbed up off the floor and swore to Chiang with every oath he had: "Rest easy, Commandant. If he dares show the Commandant any further disrespect, your student won't spare him!"
 
 > 上海雨云漫天。
 
@@ -170,7 +170,7 @@ Rain cloud covered the whole sky over Shanghai.
 
 > 这天是1931年6月28日。入夜时分，王亚樵忽然接到一个神秘的电话，这是他广东的挚友，春天时曾代表孙科从广州专程来上海，怂恿他去庐山行刺蒋介石的国民党中委肖佛成打来的。他在电话里只说了一句话："我在老隆兴菜馆为你设下一桌酒席，务请光临，不见不散！"
 
-The day was 28 June 1931. As night came on, Wang Yaqiao took a mysterious telephone call. It came from his close friend in Guangdong, Xiao Focheng, the Kuomintang central committeeman who in the spring had travelled from Canton to Shanghai as Sun Ke's representative to urge him to go up Lushan and kill Chiang Kai-shek. He said one sentence into the telephone: "I have laid on a table for you at the Old Longxing. Come without fail — I shall not leave until you do."
+The day was 28 June 1931. As night came on, Wang Yaqiao took a mysterious telephone call. It came from his close friend in Guangdong, Xiao Focheng, the Kuomintang central committeeman who in the spring had travelled from Canton to Shanghai as Sun Ke's representative to urge him to go up Lushan and kill Chiang Kai-shek. He said one sentence into the telephone: "I've laid on a table for you at the Old Longxing. Come without fail — I'll not leave until you do."
 
 > 肖佛成早在王亚樵在上海起家时就成其挚友了。特别是春天收下他从广东送来的20万钞票，接受了行刺蒋介石的委托以后，时至现在才听到了肖佛成的声音。王亚樵不敢怠慢，只带两个贴身保镖，乘家用小轿车火速向上海一条僻静小巷驶去。在车上，王亚樵想着肖佛成这次忽然从南京来沪的原因，一时猜不透他又是为何事而来。但王亚樵感到很对不起肖佛成。前次肖佛成是对他寄了那么大希望，亲自从广州来上海求他行刺蒋介石的，又给了丰厚的酬劳；然而他派往庐山行刺的特别行动小组，却没有完成刺蒋的任务。时至今天，王亚樵对庐山的失败也感到心里不安。
 
@@ -190,7 +190,7 @@ Looking closely, Wang Yaqiao saw that one was his old friend Xiao Focheng and th
 
 > "真对不起，前次本来姓蒋的已到死期，谁知他手下侍从室的人那么厉害，结果我们派去行刺的陈成，当场被他们乱枪打死，蒋某人却逃了条活命。"王亚樵见端上来的都是他喜欢的无锡风味菜，什么火夹青曹鱼、青鱼肚膛之类，又有绍兴老酒助兴，就一连饮了两杯。随后他有些过意不去地说，"我王九光空花了你们20万，将来有钱时，定当如数奉还。"
 
-"I am truly sorry. Last time Mr. Chiang's hour had come — who would have thought the men of his Attendants' Office were so formidable? The upshot was that Chen Cheng, whom we sent to do it, was shot down on the spot in a hail of fire, and Chiang got away with his life." Wang Yaqiao saw that everything set before him was the Wuxi cooking he liked — ham-larded green mackerel, herring belly and the rest — with old Shaoxing wine to lift it, and he drank two cups straight off. Then he said, a little shamefaced, "I, Wang Jiuguang, spent your two hundred thousand for nothing. When I have money I shall return it to the last note."
+"I'm truly sorry. Last time Mr. Chiang's hour had come — who would have thought the men of his Attendants' Office were so formidable? The upshot was that Chen Cheng, whom we sent to do it, was shot down on the spot in a hail of fire, and Chiang got away with his life." Wang Yaqiao saw that everything set before him was the Wuxi cooking he liked — ham-larded green mackerel, herring belly and the rest — with old Shaoxing wine to lift it, and he drank two cups straight off. Then he said, a little shamefaced, "I, Wang Jiuguang, spent your two hundred thousand for nothing. When I've money I'll return it to the last note."
 
 > "九光兄，哪个是要你来还钱的？"肖佛成为他斟满了酒，又让赵兴北到外边观察一下动静，然后压低声音说："这次我们来上海，还是为你送钞票的。"
 
@@ -202,15 +202,15 @@ Looking closely, Wang Yaqiao saw that one was his old friend Xiao Focheng and th
 
 > 赵兴北见王亚樵呆坐在那里，有些不知所云，急忙将个沉甸甸的包袱放在他面前，里面原是一沓沓崭新钞票。王亚樵连忙推挡说："这让我王九光如何受用？前次就已欠了你们的债，如今你们有何事要我去办，只需开口就是了，又何需再拿钱来？如此一来，我王九光岂不成了个光收钱不做事的人了！"
 
-Seeing Wang Yaqiao sit there blankly, at a loss, Zhao Xingbei quickly set a heavy bundle in front of him. Inside were stacks of crisp new banknotes. Wang Yaqiao pushed it away at once. "How am I to accept this? I am already in your debt from last time. If there is something you want done, you have only to say the word — why bring money again? At this rate I, Wang Jiuguang, become a man who takes the money and does no work!"
+Seeing Wang Yaqiao sit there blankly, at a loss, Zhao Xingbei quickly set a heavy bundle in front of him. Inside were stacks of crisp new banknotes. Wang Yaqiao pushed it away at once. "How am I to accept this? I'm already in your debt from last time. If there's something you want done, you have only to say the word — why bring money again? At this rate I, Wang Jiuguang, become a man who takes the money and does no work!"
 
 > "九光兄的人品，孙院长一清二楚。"肖佛成用手挡住，郑重地说道，"前次在庐山虽然没成事，可是九光兄确也煞费苦心。听说连嫂夫人也亲自上山送枪，那可都是要冒随时被杀头危险的。又怎能说你们白花了那笔经费呢？"
 
-"President Sun knows Brother Jiuguang's character perfectly well." Xiao Focheng put out a hand to block him and spoke gravely. "Lushan did not come off, but Brother Jiuguang certainly spared no pains over it. I hear even your good lady went up the mountain herself to carry the guns, and that meant risking her head at every moment. How can it be said you spent that money for nothing?"
+"President Sun knows Brother Jiuguang's character perfectly well." Xiao Focheng put out a hand to block him and spoke gravely. "Lushan didn't come off, but Brother Jiuguang certainly spared no pains over it. I hear even your good lady went up the mountain herself to carry the guns, and that meant risking her head at every moment. How can it be said you spent that money for nothing?"
 
 > 赵兴北也说："九光兄为人仗义，前次在庐山上虽没有得手，但事出有因。这一次，孙院长仍然把希望寄托在老兄身上，这也是个挽回面子的机会。"
 
-Zhao Xingbei said as well, "Brother Jiuguang is a man of honour. Lushan did not succeed, but there were reasons for it. This time President Sun still rests his hopes on you, elder brother — and this is a chance to win back face."
+Zhao Xingbei said as well, "Brother Jiuguang is a man of honour. Lushan didn't succeed, but there were reasons for it. This time President Sun still rests his hopes on you, elder brother — and this is a chance to win back face."
 
 > 王亚樵听到这里，方才明白已在南京做了行政院长的孙科，再次派人给他送钞票，原来另有所求。他慨然拍胸道："如若孙院长仍看我王九光是条汉子，你们捎句话来就是了，又何必专来送钱？莫非我是只认钱不认人的无耻之徒吗？"
 
@@ -218,19 +218,19 @@ Hearing this, Wang Yaqiao understood at last that Sun Ke, who was now president 
 
 > "哪里哪里？孙院长是说既要你九光兄再次出手，就必须要有经费。所以钱的事，就不必再推了。这是5万块钱，孙院长来前已经说了，事成以后，他还有重谢。"肖佛成见王亚樵豪侠仗义，不计钱财，心里高兴，遂说明来意，"是这样，九光兄，自从蒋某人决定和汪精卫再次合作以来，就让孙科当了中央执委，让汪精卫就任行政院长。可是，不久，汪先生又因和蒋介石不断产生摩擦，而提出了辞职。孙科先生就只好受命于蒋，而代理行政院长。可是，谁知老蒋所有的一切都是圈套。他虽然表面上不得不让孙先生做行政院长，暗地里却怂恿财政部长宋子文，从中掣肘，处处和孙院长为敌作对。如此一来，孙先生这行政院长只是徒有虚名。于是，他决定请九光兄从中援手，把这称霸一时的宋子文除掉，不知九光兄意下如何？"
 
-"Not at all, not at all. President Sun's meaning is that if he is to ask Brother Jiuguang to act again, there must be funds for it. So let us hear no more about the money. This is fifty thousand, and before we left President Sun said that when it is done there will be a further reward." Seeing Wang Yaqiao so chivalrous and so indifferent to money, Xiao Focheng was pleased, and came to the point. "It is this way, Brother Jiuguang. Ever since Mr. Chiang decided on another period of cooperation with Wang Jingwei, he has had Sun Ke made a member of the Central Executive Committee and Wang Jingwei installed as president of the Executive Yuan. But before long Mr. Wang, in constant friction with Chiang Kai-shek, offered his resignation. Mr. Sun Ke had no choice but to accept Chiang's appointment and take the Executive Yuan as acting president. But who could know that everything old Chiang does is a snare? On the surface he had to let Mr. Sun have the Executive Yuan; underneath he has been egging on Finance Minister T.V. Soong to hobble him, to cross and thwart President Sun at every turn. So Mr. Sun's presidency of the Executive Yuan is an empty name. He has therefore decided to ask Brother Jiuguang to put out a hand and rid him of this T.V. Soong who lords it over everyone. What does Brother Jiuguang say to it?"
+"Not at all, not at all. President Sun's meaning is that if he is to ask Brother Jiuguang to act again, there must be funds for it. So let us hear no more about the money. This is fifty thousand, and before we left President Sun said that when it's done there will be a further reward." Seeing Wang Yaqiao so chivalrous and so indifferent to money, Xiao Focheng was pleased, and came to the point. "It is this way, Brother Jiuguang. Ever since Mr. Chiang decided on another period of cooperation with Wang Jingwei, he has had Sun Ke made a member of the Central Executive Committee and Wang Jingwei installed as president of the Executive Yuan. But before long Mr. Wang, in constant friction with Chiang Kai-shek, offered his resignation. Mr. Sun Ke had no choice but to accept Chiang's appointment and take the Executive Yuan as acting president. But who could know that everything old Chiang does is a snare? On the surface he had to let Mr. Sun have the Executive Yuan; underneath he has been egging on Finance Minister T.V. Soong to hobble him, to cross and thwart President Sun at every turn. So Mr. Sun's presidency of the Executive Yuan is an empty name. He has therefore decided to ask Brother Jiuguang to put out a hand and rid him of this T.V. Soong who lords it over everyone. What does Brother Jiuguang say to it?"
 
 > 王亚樵听到这里，心里对蒋介石多年没报的旧仇，忽又燃起了新火。他知道宋子文是蒋介石大舅哥，多年来和蒋介石沆瀣一气，把持着国民政府的财权，成为一人之下万人之上的大财阀。王亚樵想起年初孙科委托他的事没有办成，此时正是报答的最佳时机，于是二话不说，将手在胸上一拍，说："没说的，你们回南京只管向孙院长报告：不出一个月，我保证让他宋子文人头落地就是！"
 
-Hearing him out, Wang Yaqiao felt the long-unavenged grudge against Chiang Kai-shek take fire again. He knew T.V. Soong was Chiang Kai-shek's brother-in-law, that the two of them had been thick as thieves for years, and that Soong had the National Government's purse in his hands and had grown into a great financial magnate below one man and above ten thousand. Wang Yaqiao remembered the commission Sun Ke had given him at the start of the year and how it had failed, and saw that this was the best possible moment to make it good. Without another word he struck his chest. "There is nothing to discuss. Go back to Nanjing and report to President Sun: within one month I guarantee T.V. Soong's head comes off!"
+Hearing him out, Wang Yaqiao felt the long-unavenged grudge against Chiang Kai-shek take fire again. He knew T.V. Soong was Chiang Kai-shek's brother-in-law, that the two of them had been thick as thieves for years, and that Soong had the National Government's purse in his hands and had grown into a great financial magnate below one man and above ten thousand. Wang Yaqiao remembered the commission Sun Ke had given him at the start of the year and how it had failed, and saw that this was the best possible moment to make it good. Without another word he struck his chest. "There's nothing to discuss. Go back to Nanjing and report to President Sun: within one month I guarantee T.V. Soong's head comes off!"
 
 > 那天晚上，王亚樵带着肖佛成等送来的5万元回到了法租界公馆。他将孙科派肖佛成再次来沪委托行刺一事，告知妻子王亚英。王亚英道："帮助孙科行刺宋子文，对我们来说是义不容辞之事。只是这次定要策划周密，宁可准备得久一些，也绝不能再发生前次庐山上那种让人痛心的事了。"
 
-That night Wang Yaqiao went back to the French Concession house with the fifty thousand Xiao Focheng and the others had brought. He told his wife Wang Yaying that Sun Ke had sent Xiao Focheng to Shanghai a second time with a commission to kill. Wang Yaying said: "To help Sun Ke kill T.V. Soong is a duty we cannot decline. Only this time the planning must be thorough. Better to spend longer in preparation than to have another heartbreaking business like Lushan."
+That night Wang Yaqiao went back to the French Concession house with the fifty thousand Xiao Focheng and the others had brought. He told his wife Wang Yaying that Sun Ke had sent Xiao Focheng to Shanghai a second time with a commission to kill. Wang Yaying said: "To help Sun Ke kill T.V. Soong is a duty we can't decline. Only this time the planning must be thorough. Better to spend longer in preparation than to have another heartbreaking business like Lushan."
 
 > 王亚樵道："那是自然，这次我要亲自到南京去布置。不把宋子文的行踪摸清之前，绝不轻易下手。"
 
-Wang Yaqiao said, "That goes without saying. This time I shall go to Nanjing myself to lay it out. Until we have T.V. Soong's movements clear, no hand goes out."
+Wang Yaqiao said, "That goes without saying. This time I'll go to Nanjing myself to lay it out. Until we have T.V. Soong's movements clear, no hand goes out."
 
 > 两日后的一个雨夜，一列火车从上海北站向南京驶去。
 
@@ -246,19 +246,19 @@ When Wang Yaqiao and his wife reached Nanjing quietly with a few followers, they
 
 > 熟悉南京的余立奎闻言深感困难，因为有了前次在明故宫机场守株待兔失败的教训，他这次相当谨慎，他说："宋子文虽然只是财政部长，身边没有蒋介石那些侍卫们前呼后拥，可是这人非常机警。他为了防身，雇了四五个保镖跟随在他的左右。虽然人数不多，但各个武艺高强，打起枪来也有百步穿杨之勇，一般情况下我们是难以近身的。所以千万不能大意。"
 
-Yu Likui, who knew Nanjing, heard him out and thought the difficulties serious. Having learned his lesson from waiting at the Ming Palace airfield for a hare to run into a tree, he was distinctly cautious this time. "T.V. Soong is only the Finance Minister; he has no crowd of guards before and behind him the way Chiang Kai-shek does. But the man is extremely wary. To protect himself he keeps four or five bodyguards at his side. There are not many of them, but every one is highly trained, and with a gun they could put a shot through a willow leaf at a hundred paces. In ordinary circumstances we should find it hard to get near. So there must be no carelessness."
+Yu Likui, who knew Nanjing, heard him out and thought the difficulties serious. Having learned his lesson from waiting at the Ming Palace airfield for a hare to run into a tree, he was distinctly cautious this time. "T.V. Soong is only the Finance Minister; he has no crowd of guards before and behind him the way Chiang Kai-shek does. But the man is extremely wary. To protect himself he keeps four or five bodyguards at his side. There aren't many of them, but every one is highly trained, and with a gun they could put a shot through a willow leaf at a hundred paces. In ordinary circumstances we should find it hard to get near. So there must be no carelessness."
 
 > 华克之说："近日我和几个弟兄到宋公馆秘密侦察，发现鸡鸣寺这个地方有大批的警卫人员。那是蒋介石为保护他大舅子，特别命侍从室分派出去的一些警卫力量。当然，守候鸡鸣寺的，还有南京警察局一些警察。这样一来，我们在鸡鸣寺打主意，恐怕难有成功的可能。"
 
-Hua Kezhi said, "These last days I have been out with several of the brothers scouting the Soong residence in secret, and we found the Jiming Temple district full of guards. Those are the security forces Chiang Kai-shek specially ordered the Attendants' Office to detach to protect his brother-in-law. And besides them there are police from the Nanjing municipal force stationed around Jiming Temple. With all that, I am afraid there is little chance of success if we make our plans at Jiming Temple."
+Hua Kezhi said, "These last days I've been out with several of the brothers scouting the Soong residence in secret, and we found the Jiming Temple district full of guards. Those are the security forces Chiang Kai-shek specially ordered the Attendants' Office to detach to protect his brother-in-law. And besides them there are police from the Nanjing municipal force stationed around Jiming Temple. With all that, I'm afraid there's little chance of success if we make our plans at Jiming Temple."
 
 > 王亚英听到这里，心中也为之忧郁，她说："还有一个不利的情况，就是在南京下手，杀害宋子文立即会引起军警的追捕。这里毕竟和上海不同，南京是国民党的首都呀！"
 
-Wang Yaying, hearing this, grew gloomy herself. She said, "There is another thing against it. If we act in Nanjing, killing T.V. Soong will bring the army and police down hunting us at once. This is not Shanghai, after all. Nanjing is the Kuomintang's capital!"
+Wang Yaying, hearing this, grew gloomy herself. She said, "There's another thing against it. If we act in Nanjing, killing T.V. Soong will bring the army and police down hunting us at once. This isn't Shanghai, after all. Nanjing is the Kuomintang's capital!"
 
 > 王亚英的这句话，提醒了坐在一边沉默不语的孙凤鸣，他说："从前我在这里求学的时候，就知道宋子文在上海还有个家。既然他在那里有家，就不会永远住在南京吧？"
 
-That remark of Wang Yaying's set off Sun Fengming, who had been sitting silent to one side. He said, "When I was studying here I knew T.V. Soong had a house in Shanghai as well. If he has a home there, surely he does not stay in Nanjing forever?"
+That remark of Wang Yaying's set off Sun Fengming, who had been sitting silent to one side. He said, "When I was studying here I knew T.V. Soong had a house in Shanghai as well. If he has a home there, surely he doesn't stay in Nanjing forever?"
 
 > 王亚樵听了，脸上愁云顿收，眼睛一亮说："对对，我怎就忘了宋子文在上海还有个公馆呢？从前宋耀如就是在上海起家嘛。如能侦察到宋子文回上海的准确行踪，最好还是在上海下手，那样最为安全。"
 
@@ -270,11 +270,11 @@ That night the meeting decided: Yu Likui, Hua Kezhi and the others would go on t
 
 > 不久，华克之又秘密赶到上海，将最近在南京鸡鸣寺等处监视宋子文行踪的情况，向王亚樵报告。华克之说："宋子文虽在上海有家，可是他和夫人张乐怡却长期住在南京，返回上海的时间并不固定。不过，至少可以肯定，他每月都能回一次上海。有特殊情况时例外。"
 
-Before long Hua Kezhi came secretly down to Shanghai to report on the recent watch kept on T.V. Soong at Jiming Temple and elsewhere. Hua Kezhi said, "T.V. Soong has a house in Shanghai, but he and his wife Zhang Leyi live in Nanjing for long stretches, and the times he goes back to Shanghai are not fixed. What can be said for certain is that he manages to get back to Shanghai once a month. Barring anything unusual."
+Before long Hua Kezhi came secretly down to Shanghai to report to Wang Yaqiao on the recent watch kept on T.V. Soong at Jiming Temple and elsewhere. Hua Kezhi said, "T.V. Soong has a house in Shanghai, but he and his wife Zhang Leyi live in Nanjing for long stretches, and the times he goes back to Shanghai aren't fixed. What can be said for certain is that he manages to get back to Shanghai once a month. Barring anything unusual."
 
 > "好，"王亚樵听了华克之的报告后，沉吟一会儿又叮嘱他马上返回南京，"克之，你回去以后，要余立奎不惜一切代价，在财政部收买一个能了解宋子文行踪的人，最好是宋身边秘书之类的人物。因为我们不可能每天守在宋公馆前后观察他的动静。那样就会犯类似庐山之行的错误了。只有在宋身边有我们的暗哨，才能准确知道他的行动规律。"
 
-"Good." Wang Yaqiao heard Hua Kezhi's report out, thought a moment and then told him to return to Nanjing at once. "Kezhi, when you get back, tell Yu Likui to buy a man in the Finance Ministry at any price — a man who can know T.V. Soong's movements. Best of all one of Soong's own secretaries. We cannot stand about in front of and behind the Soong residence every day watching for him. That way lies the same mistake we made over Lushan. Only with a hidden sentry at Soong's own elbow can we know the pattern of his movements exactly."
+"Good." Wang Yaqiao heard Hua Kezhi's report out, thought a moment and then told him to return to Nanjing at once. "Kezhi, when you get back, tell Yu Likui to buy a man in the Finance Ministry at any price — a man who can know T.V. Soong's movements. Best of all one of Soong's own secretaries. We can't stand about in front of and behind the Soong residence every day watching for him. That way lies the same mistake we made over Lushan. Only with a hidden sentry at Soong's own elbow can we know the pattern of his movements exactly."
 
 > 华克之连夜返回金陵布置。余立奎毕竟是个老南京，由于他在军政界的特殊地位，所以很快就选中一个可以随时接近宋子文的目标。
 
@@ -334,7 +334,7 @@ Inamura Kagorō was only a captain, and he knew that the Tanaka Ryūkichi sittin
 
 > "这个……我确实不懂……"
 
-"This — I truly do not understand."
+"This — I truly don't understand."
 
 > "这是我们日本陆军省的高级机密。"田中想了许久，终于还是开了口，"因为我这次到上海，就是想在这里杀人。"
 
@@ -354,7 +354,7 @@ Inamura Kagorō was only a captain, and he knew that the Tanaka Ryūkichi sittin
 
 > "杀哪一个，现在还不能说，我只问你敢还是不敢？"
 
-"Which one I cannot yet say. I only ask you: do you dare, or do you not?"
+"Which one I can't yet say. I only ask you: do you dare, or do you not?"
 
 > 稻村的脸色由青变白，光秃秃的前额因为惊恐已沁出了细密冷汗。他从田中那满脸杀气中，已经感受到此人确实来者不善。半晌，他嗫嚅道："莫非也像中国杀手王亚樵那样，在庐山向蒋介石下手吗？"
 
@@ -426,7 +426,7 @@ Inamura was so delighted he waved his arms and clapped his hands, crying out ove
 
 > "这就是我要你替我办的事情之一。我选个有影响的人，而且又要马上掌握他的行踪，以便早日下手。"
 
-"That is one of the things I want you to arrange for me. I shall choose a man of influence, and we must have his movements at once so that it can be done soon."
+"That's one of the things I want you to arrange for me. I'll choose a man of influence, and we must have his movements at once so that it can be done soon."
 
 > "那么，就杀掉大岛武夫如何？"
 
@@ -502,7 +502,7 @@ His temper grew more fretful still once high summer and July came in. A month af
 
 > 7月初，余立奎密派华克之再次来到上海，向王亚樵密报在南京监视宋子文的情况。华克之说："据魏小姐报告的情况分析，宋子文早就想回上海来了。可是，由于南京始终有事情无法脱身，所以他很可能在7月中旬，抽时间回上海一次。"王亚樵得到这个情报后，命令华克之继续回南京监视鸡鸣寺，万一有动静，就马上用加急密电的方式告诉他，以便马上动手杀宋。
 
-In the first days of July Yu Likui sent Hua Kezhi secretly to Shanghai again to report on the watch on T.V. Soong in Nanjing. Hua Kezhi said, "Reading the situation from what Miss Wei reports, T.V. Soong has been wanting to go back to Shanghai for some time. But there is always business in Nanjing he cannot get free of, so most likely he will find time to make one trip to Shanghai in the middle of July." With this in hand, Wang Yaqiao ordered Hua Kezhi back to Nanjing to keep watch on Jiming Temple, and to tell him by urgent coded telegram at the first sign of movement, so that Soong could be killed without delay.
+In the first days of July Yu Likui sent Hua Kezhi secretly to Shanghai again to report on the watch on T.V. Soong in Nanjing. Hua Kezhi said, "Reading the situation from what Miss Wei reports, T.V. Soong has been wanting to go back to Shanghai for some time. But there's always business in Nanjing he can't get free of, so most likely he will find time to make one trip to Shanghai in the middle of July." With this in hand, Wang Yaqiao ordered Hua Kezhi back to Nanjing to keep watch on Jiming Temple, and to tell him by urgent coded telegram at the first sign of movement, so that Soong could be killed without delay.
 
 > 华克之走后，王亚樵又在法租界家里多次召开会议，最后商定把刺杀宋子文的地点，选在上海北火车站的月台上。因为据近来掌握的情况分析，宋子文每次从南京返沪，都乘坐由浦口至上海北站的火车，而他的坐席又都在客车的最后一节。王亚樵感到行动在即，便分派孙凤鸣和郑抱真直接领导这次刺宋行动。他本人则守在北火车站附近那栋租来的民宅里，随时准备接应。
 
@@ -514,7 +514,7 @@ There Wang Yaqiao and Sun Fengming and the others made the final dispositions. L
 
 > "开枪后用滑石粉来制造迷雾最好，"当初主张购买烟雾弹的郑抱真，忽然提出个大胆想法，"如果在上海购买特制的烟雾弹，势必引起别人的怀疑。我想，最好不惊动人，我们只使用普通的滑石粉抛出去即可。"
 
-"Talcum powder would be the best thing for making a fog after the shooting." Zheng Baozhen, who had originally argued for buying smoke grenades, now came out with a bold idea. "If we buy specially made smoke grenades in Shanghai it is bound to make somebody suspicious. I think the best course is to disturb nobody: we simply throw ordinary talc."
+"Talcum powder would be the best thing for making a fog after the shooting." Zheng Baozhen, who had originally argued for buying smoke grenades, now came out with a bold idea. "If we buy specially made smoke grenades in Shanghai it's bound to make somebody suspicious. I think the best course is to disturb nobody: we simply throw ordinary talc."
 
 > "那好，马上派人去寻找滑石粉吧。"王亚樵批准了郑抱真的提议。
 
@@ -522,7 +522,7 @@ There Wang Yaqiao and Sun Fengming and the others made the final dispositions. L
 
 > 郑抱真回到他在浦东的住处以后，马上叫来他的心腹部下刘海川。这刘海川本是郑抱真主持"铁血锄奸团"的得力助手，专替他刺探租界上的情报。由于刘海川善于交际，所以在法英租界有许多朋友，特别是和上海的青红帮人士多有来往。那天，刘海川得到郑抱真去搞两袋滑石粉的命令后，就来到上海十六铺码头。那里有家专门经销建筑材料的商场，叫做万丰行。他在那里有个朋友，名叫黄阿六。当他说起想买两袋滑石粉的时候，立刻引起了黄阿六的惊愕，他说："真是怪了，这滑石粉为何也要走俏？刚才常老板也派人从铺子里拿去了两袋，莫非这种东西也成了紧俏货吗？"
 
-Back at his own lodgings in Pudong, Zheng Baozhen immediately sent for his trusted subordinate Liu Haichuan. This Liu Haichuan was the right hand of the Iron and Blood Traitor-Purging Corps that Zheng Baozhen ran, and made it his particular business to gather intelligence in the concessions. Being a sociable man, Liu Haichuan had many friends in the French and British concessions, and dealings in particular with people of the Green and Red Gangs in Shanghai. That day, having his orders from Zheng Baozhen to get hold of two sacks of talc, Liu Haichuan went down to the Shiliupu wharf, where there was a builders' merchant called the Wanfeng company. He had a friend there named Huang Aliu. When he mentioned that he wanted two sacks of talc, Huang Aliu was astonished. "Now that is a strange thing. Why has talc suddenly come into fashion? Boss Chang sent someone round only a little while ago and took two sacks out of the shop. Has this stuff turned into a scarce commodity too?"
+Back at his own lodgings in Pudong, Zheng Baozhen immediately sent for his trusted subordinate Liu Haichuan. This Liu Haichuan was the right hand of the Iron and Blood Traitor-Purging Corps that Zheng Baozhen ran, and made it his particular business to gather intelligence in the concessions. Being a sociable man, Liu Haichuan had many friends in the French and British concessions, and dealings in particular with people of the Green and Red Gangs in Shanghai. That day, having his orders from Zheng Baozhen to get hold of two sacks of talc, Liu Haichuan went down to the Shiliupu wharf, where there was a builders' merchant called the Wanfeng company. He had a friend there named Huang Aliu. When he mentioned that he wanted two sacks of talc, Huang Aliu was astonished. "Now that's a strange thing. Why has talc suddenly come into fashion? Boss Chang sent someone round only a little while ago and took two sacks out of the shop. Has this stuff turned into a scarce commodity too?"
 
 > 刘海川听说是常老板三字，心里微微一惊，但也没有多想，取了两袋滑石粉后，马上交给了郑抱真。无意之间，他把黄阿六说的话，告诉了郑抱真。郑抱真当时也没在意，就前往王亚樵家里，交上两袋滑石粉后，刚想把刘海川在十六铺码头商店里，听说常老板也派人买滑石粉的情况说给王亚樵听。不料王亚樵却心绪焦虑地吩咐说："老郑，为什么南京方面到现在还没有任何消息。你今天下午去一次南京，催催余立奎和华克之，要他们务必把情况搞准。千万别让宋子文从我们的枪口下溜掉。如果再失败的话，将来我们在上海滩上还如何混呢？"
 
@@ -534,7 +534,7 @@ Home again, Zheng Baozhen hurriedly had his driver Liu Haichuan take a lorry and
 
 > "正是此人。"刘海川没想到他的话却引起了郑抱真的注意。
 
-"That is the man." It had not occurred to Liu Haichuan that his remark would catch Zheng Baozhen's attention.
+"That's the man." It had not occurred to Liu Haichuan that his remark would catch Zheng Baozhen's attention.
 
 > "这人非同小可。前几年，我们和杜月笙打那场官司的时候，就是这个常玉清，从中制造了许多麻烦。"郑抱真回忆当年因为李国杰"江安号"发生纷争时的往事，就痛恨这个在杜月笙身边挑起事端的人。后来，谁也不会想到日本人来了后，就是这个杜月笙的心腹打手，竟然背叛了从前的恩人杜月笙，改投新主日本驻南京领事多田一郎。不久他在多田的支持下，组成了一个"安清帮"。如今竟然在上海滩上拉起了属于他的帮派。郑抱真想起关于常老板也派人购买滑石粉的事，心中不免生疑："我感到可疑的是，常玉清为什么也和咱们一样，忽然对滑石粉感了兴趣？莫非他也有什么行刺计划吗？"
 
@@ -574,7 +574,7 @@ The particulars were these. T.V. Soong had suddenly received an urgent telegram 
 
 > "只有拍电报了！"余立奎想了想，又说，"不过，发电报会有风险。"
 
-"There is nothing for it but a telegram." Yu Likui thought and then added, "Though sending a telegram carries a risk."
+"There's nothing for it but a telegram." Yu Likui thought and then added, "Though sending a telegram carries a risk."
 
 > 华克之眉头一皱，计上心来："我有办法，保证局外人无法看出破绽来。"他当即取来纸笔，草草写下一行电文："老父病重，明晨准时乘火车赴沪求医。务请到时接站，切切，不得有误。"
 
@@ -586,7 +586,7 @@ Yu Likui and Zheng Baozhen read the message over and agreed that it stated plain
 
 > 入夜时分，郑抱真、余立奎和华克之正在灯下吃饭，门外忽有守门的暗哨进报说："郑先生，上海来了一位客人，正在门外，非要马上见你不行。我说这里没有姓郑的先生，可那人却拼命往里闯来。"
 
-At nightfall Zheng Baozhen, Yu Likui and Hua Kezhi were eating by lamplight when the hidden sentry at the gate came in to report. "Mr. Zheng, there is a visitor from Shanghai outside. He will not be put off; he must see you at once. I told him there was no Mr. Zheng here, but the man is fighting his way in."
+At nightfall Zheng Baozhen, Yu Likui and Hua Kezhi were eating by lamplight when the hidden sentry at the gate came in to report. "Mr. Zheng, there's a visitor from Shanghai outside. He won't be put off; he must see you at once. I told him there was no Mr. Zheng here, but the man is fighting his way in."
 
 > 华克之和余立奎忽听上海有人上门，吃了一惊。只有郑抱真如有所料，急忙吩咐守门暗哨说："定是刘海川来了，快快放他进来，必有要事。"
 
@@ -602,7 +602,7 @@ It appeared that not long after Zheng Baozhen left, Liu Haichuan had contrived t
 
 > "我告诉你个大事，千万不可外传。"马福建几杯水酒下肚，早忘了安清帮的禁忌，他说，不久前的一个晚上，他开车送常玉清去名叫"玉之井"的日本料理店吃饭。没想到，在那里竟有两个形迹神秘的日本人等着常玉清。在他们密谈的时候，马福建在外间，听不清里间究竟谈了什么。后来吃饭的时候，其中一个日本人把马福建也请进了内室，他无意中听常玉清向日本人询问："真没想到会让我去做这么大的事，我担心万一事情成功，你们进了上海，会不会有人对我兴师问罪？"
 
-"I will tell you something big, and you must not pass it on for the world." Ma Fujian, with several cups of thin wine down him, had already forgotten the Anqing Gang's prohibitions. He said that one evening not long before he had driven Chang Yuqing to a Japanese restaurant called the Tamanoi for dinner. Unexpectedly, two Japanese of very furtive bearing were there waiting for Chang Yuqing. While they talked in secret Ma Fujian was in the outer room and could not make out what was said inside. Later, over dinner, one of the Japanese invited Ma Fujian into the inner room as well, and there he happened to overhear Chang Yuqing asking the Japanese: "I never imagined I should be given a thing of this size to do. My worry is that if it does succeed, and you enter Shanghai, will somebody call me to account for it?"
+"I'll tell you something big, and you must not pass it on for the world." Ma Fujian, with several cups of thin wine down him, had already forgotten the Anqing Gang's prohibitions. He said that one evening not long before he had driven Chang Yuqing to a Japanese restaurant called the Tamanoi for dinner. Unexpectedly, two Japanese of very furtive bearing were there waiting for Chang Yuqing. While they talked in secret Ma Fujian was in the outer room and could not make out what was said inside. Later, over dinner, one of the Japanese invited Ma Fujian into the inner room as well, and there he happened to overhear Chang Yuqing asking the Japanese: "I never imagined I should be given a thing of this size to do. My worry is that if it does succeed, and you enter Shanghai, will somebody call me to account for it?"
 
 > "不会不会，常先生，这可是日本陆军部的命令，任何人不敢把你怎么样，非但不会有人骂你，你还会成为我们在建立大东亚共荣圈的功臣呢！"穿西服的日本人向他拍肩许诺。
 
@@ -610,7 +610,7 @@ It appeared that not long after Zheng Baozhen left, Liu Haichuan had contrived t
 
 > "这是酬金，事成之后，还有重赏。"穿和服的秃头将沉甸甸的箱子，放到常玉清面前打开，里面都是亮闪闪的金条和钞票。马福建从没见过这么多钱，顿时吃惊地睁大眼睛。
 
-"Here is the payment. When it is done there will be a heavy reward besides." The bald man in the kimono set a weighty case in front of Chang Yuqing and opened it: it was full of gleaming gold bars and banknotes. Ma Fujian had never seen so much money in his life and his eyes went wide with shock.
+"Here is the payment. When it's done there will be a heavy reward besides." The bald man in the kimono set a weighty case in front of Chang Yuqing and opened it: it was full of gleaming gold bars and banknotes. Ma Fujian had never seen so much money in his life and his eyes went wide with shock.
 
 > "只是，我们要杀的人太重要了，在上海，谁不知重光葵啊！"常玉清对箱子里的重金心有所动，但仍然神色紧张。
 
@@ -634,7 +634,7 @@ Yu Likui said, "Shigemitsu Mamoru comes to Nanjing often. My guess is that he wi
 
 > 郑抱真百思不解地说："我不明白，常玉清为什么替日本浪人行刺领事官呢？"
 
-Zheng Baozhen said, turning it over without result, "What I do not understand is why Chang Yuqing should assassinate a consul on behalf of a pack of Japanese *rōnin*."
+Zheng Baozhen said, turning it over without result, "What I don't understand is why Chang Yuqing should assassinate a consul on behalf of a pack of Japanese *rōnin*."
 
 > 华克之思考许久，说："我明白了，从刚才的情报分析，日本浪人买通常玉清行刺重光葵，可能是个天大的阴谋啊！"
 
@@ -646,7 +646,7 @@ Hua Kezhi thought for a long while and said, "I have it. From the intelligence j
 
 > 华克之机智而多谋，他很快根据刘海川提供的点滴情报，对即将发生在上海的严重事态做出分析："日本人现在恨不得马上吞掉中国。他们如想占领上海，就要有发动战事的口实。让常玉清的人杀了他们的驻上海领事，日本军队不就找到了攻占上海的口实吗？"
 
-Hua Kezhi was quick-witted and full of stratagem, and he very soon built out of Liu Haichuan's scraps of intelligence an analysis of the grave events about to break in Shanghai. "The Japanese cannot wait to swallow China whole. If they want to occupy Shanghai they must have a pretext for opening hostilities. Let Chang Yuqing's men kill their own consul in Shanghai, and has the Japanese army not found its pretext for taking the city?"
+Hua Kezhi was quick-witted and full of stratagem, and he very soon built out of Liu Haichuan's scraps of intelligence an analysis of the grave events about to break in Shanghai. "The Japanese can't wait to swallow China whole. If they want to occupy Shanghai they must have a pretext for opening hostilities. Let Chang Yuqing's men kill their own consul in Shanghai, and has the Japanese army not found its pretext for taking the city?"
 
 > 余立奎和郑抱真等听了华克之的分析，心情顿时沉重。纷纷说道："如让这阴谋得逞，大上海岂不要横遭涂炭吗？"
 
@@ -654,7 +654,7 @@ Yu Likui, Zheng Baozhen and the rest listened to Hua Kezhi's analysis and their 
 
 > 华克之道："日本对上海有侵占之心，早已是司马昭之心，路人皆知了。我们即便知道这一阴谋，也怕无能为力。现在紧要的是，此事对我们王大哥的声誉安全，都构成了极大的威胁。若其阴谋得逞，那么王大哥从此就是民族罪人了！"
 
-Hua Kezhi said, "That Japan means to seize Shanghai is Sima Zhao's intent, that every man in the road knows already. Even knowing the plot, I am afraid there is little we can do. What matters now is that this business is a grave threat to both the reputation and the safety of our Elder Brother Wang. If the plot succeeds, Elder Brother Wang is a traitor to the nation from that day on!"
+Hua Kezhi said, "That Japan means to seize Shanghai is Sima Zhao's intent, that every man in the road knows already. Even knowing the plot, I'm afraid there's little we can do. What matters now is that this business is a grave threat to both the reputation and the safety of our Elder Brother Wang. If the plot succeeds, Elder Brother Wang is a traitor to the nation from that day on!"
 
 > "此话怎讲？"余立奎和郑抱真大吃一惊。
 
@@ -670,15 +670,15 @@ The air in the room went tight; every man there was in deep alarm and dread at t
 
 > "不行，我要连夜赶回上海，这还了得？"郑抱真听了华克之的分析，想到由此而引起的严重后果，他再也忍不住了，想连夜返回上海。
 
-"This will not do. I must get back to Shanghai tonight. How can such a thing be allowed?" Hearing Hua Kezhi's reasoning and thinking of the consequences that would follow, Zheng Baozhen could hold still no longer and wanted to start back for Shanghai that night.
+"This won't do. I must get back to Shanghai tonight. How can such a thing be allowed?" Hearing Hua Kezhi's reasoning and thinking of the consequences that would follow, Zheng Baozhen could hold still no longer and wanted to start back for Shanghai that night.
 
 > "可是，现在想回上海已经来不及了！"华克之仿佛临战不惊的军师，面对已经不可避免的一场站前血案，他显得冷静而沉着，"我们即便能搭夜车返回上海，王大哥也来不及阻止事态发生了。"
 
-"But it is already too late to get back to Shanghai!" Hua Kezhi was like a strategist unshaken on the eve of battle; facing an unavoidable bloodletting in front of the station, he was cool and steady. "Even if we could catch a night train to Shanghai, Elder Brother Wang would have no time to stop what is coming."
+"But it's already too late to get back to Shanghai!" Hua Kezhi was like a strategist unshaken on the eve of battle; facing an unavoidable bloodletting in front of the station, he was cool and steady. "Even if we could catch a night train to Shanghai, Elder Brother Wang would have no time to stop what is coming."
 
 > 余立奎心急如火地说："索性就再发一封电报，劝他不要行动了，以免上日本人的当。"
 
-Yu Likui said, in a fever of anxiety, "Then let us simply send another telegram advising him not to act, so that he does not walk into the Japanese trap."
+Yu Likui said, in a fever of anxiety, "Then let us simply send another telegram advising him not to act, so that he doesn't walk into the Japanese trap."
 
 > 华克之却不以为然地说："即便我们可以劝阻王大哥马上终止行动。可是，你能阻止常玉清刺杀重光葵吗？"
 
@@ -686,19 +686,19 @@ Hua Kezhi did not agree. "Suppose we could persuade Elder Brother Wang to break 
 
 > "是啊！"余立奎和郑抱真都叹息摇头，苦于无法阻止日本人的阴谋。
 
-"That is true." Yu Likui and Zheng Baozhen sighed and shook their heads, helpless to stop the Japanese plot.
+"That's true." Yu Likui and Zheng Baozhen sighed and shook their heads, helpless to stop the Japanese plot.
 
 > 郑抱真说："日本人太阴险了。他们买通中国人下手，我们的人即便不去北火车站，将来也难逃刺杀的嫌疑。看起来，只有和日本人同时行动杀掉宋子文了？"
 
-Zheng Baozhen said, "The Japanese are too cunning by half. They buy Chinese to do the deed, so that even if our men never go near North Station we shall not escape the suspicion of the killing in the end. It looks as though all we can do is act at the same time as the Japanese and kill T.V. Soong."
+Zheng Baozhen said, "The Japanese are too cunning by half. They buy Chinese to do the deed, so that even if our men never go near North Station we'll not escape the suspicion of the killing in the end. It looks as though all we can do is act at the same time as the Japanese and kill T.V. Soong."
 
 > 沉默不语的华克之，忽然急中生智："我有办法了！"
 
-Hua Kezhi, who had been sitting silent, suddenly found his way out of the corner. "I have it!"
+Hua Kezhi, who had been sitting silent, suddenly found his way out of the corner. "I've it!"
 
 > "什么办法？"大家都希望他有转寰之策。华克之将手一招，几个人同时凑过来。在幽暗的灯影下，郑抱真、余立奎、刘海川听了华的话，紧张的心情渐渐平静下来，都说："事到如今，也只好如此了！"
 
-"What is it?" Everyone hoped he had a turn to offer. Hua Kezhi beckoned with his hand and the others leaned in together. In the dim lamplight Zheng Baozhen, Yu Likui and Liu Haichuan heard him out, and their strained faces slowly settled. They said, "Things being as they are, there is nothing else for it."
+"What is it?" Everyone hoped he had a turn to offer. Hua Kezhi beckoned with his hand and the others leaned in together. In the dim lamplight Zheng Baozhen, Yu Likui and Liu Haichuan heard him out, and their strained faces slowly settled. They said, "Things being as they're, there's nothing else for it."
 
 > 次日，天色微明。王亚樵就紧张地指挥杀手们进入决战状态，因他昨夜已收到郑抱真从南京发回的"到时接站"的电报。时机不可错过，他要杀手们一定要行刺成功，不然，他无法向孙科等人交代。
 
@@ -714,7 +714,7 @@ Wang Yaqiao then fixed on Sun Fengming, Long Lin, Tang Ming and three others, si
 
 > "如此分派，就对宋子文布下了必死之阵。"王亚樵布置好三套人马以后，信心十足地说，"我要求诸位这次千万不可放过转瞬即逝的行刺机会。须知你们每一组都至关重要，有利的时机，其实就只有几分钟，甚至几秒钟。如果稍一怠慢，目标就会消失。到时候我会就近指挥的，如果现场发现意外情况，要看我的手势行事。"
 
-"Disposed like this, T.V. Soong is in a formation he cannot survive." Having set out his three parties, Wang Yaqiao spoke with entire confidence. "What I require of you all is that you not let slip an opportunity that will vanish in an instant. Understand that every one of your groups is vital. The favourable moment is really only a few minutes, perhaps only a few seconds. Slacken for an instant and the target is gone. I shall be directing from close by, and if anything unexpected shows itself on the ground, act on my hand signals."
+"Disposed like this, T.V. Soong is in a formation he can't survive." Having set out his three parties, Wang Yaqiao spoke with entire confidence. "What I require of you all is that you not let slip an opportunity that will vanish in an instant. Understand that every one of your groups is vital. The favourable moment is really only a few minutes, perhaps only a few seconds. Slacken for an instant and the target is gone. I'll be directing from close by, and if anything unexpected shows itself on the ground, act on my hand signals."
 
 > 王亚樵无论如何也不会想到，就在他紧张布阵的时候，在距车站不远的一幢大厦内，也有二十几个人集聚在一间阴暗的客厅里备战。这是另一伙行刺组织的秘密隐蔽点。为首的就是安清帮头子常玉清。
 
@@ -742,7 +742,7 @@ Taking the two grenades, Ma Daxiang found that Chang Yuqing had been at work on 
 
 > "这个主意真是妙极了！""这是天衣无缝的妙计呀！""他奶奶的，看王亚樵的斧头帮，将来如何摆脱杀日本人的干系？""常老板这是一箭双雕，既毁掉了王亚樵，又能让咱们弟兄们发笔大财，天下哪有这么好的生意呢？"二十几个安清帮门徒，平时都闲得寂寞无聊，人人手头又缺少赌资。如今好不容易得了个便宜，岂有不铤而走险之理？
 
-"Now that is a brilliant idea!" "This is a scheme without a seam in it!" "Damn my grandmother — let's see how Wang Yaqiao's Hatchet Gang gets clear of killing a Japanese after this!" "Boss Chang is bringing down two birds with one arrow: he ruins Wang Yaqiao and makes a fortune for our brothers. Where is there business like it in the world?" The twenty-odd Anqing Gang men were ordinarily idle and bored, and every one of them short of a stake for the tables. Having at last come by a piece of easy money, how should they not chance their necks for it?
+"Now that's a brilliant idea!" "This is a scheme without a seam in it!" "Damn my grandmother — let's see how Wang Yaqiao's Hatchet Gang gets clear of killing a Japanese after this!" "Boss Chang is bringing down two birds with one arrow: he ruins Wang Yaqiao and makes a fortune for our brothers. Where is there business like it in the world?" The twenty-odd Anqing Gang men were ordinarily idle and bored, and every one of them short of a stake for the tables. Having at last come by a piece of easy money, how should they not chance their necks for it?
 
 > "大家看好了重光葵的照片，定要记住他的模样，最重要的特征是，这家伙平时最喜欢穿白色西服。枣红色领结，红皮鞋。"常玉清唯恐杀手们在行刺时击错目标，再三强调，"还要小心，重光葵身边也许带着随员，绝不要把他的随员当成重光葵，大家听好了？"
 
@@ -786,7 +786,7 @@ Shigemitsu went on manufacturing talk to keep him engaged. "Your honoured mother
 
 > "谢谢，现在还不需要。"宋子文说完这话，就闭上了眼睛。
 
-"Thank you. That will not be needed at present." Having said this, T.V. Soong closed his eyes.
+"Thank you. That won't be needed at present." Having said this, T.V. Soong closed his eyes.
 
 > 重光葵今天的衣饰也大为反常，不知为什么他换去了经常喜欢穿的雪白西装，居然在夏天里换上了银灰色的服装。他身边两个领事馆的秘书，也都穿着深色衣服。所以他们和宋子文等人的装束形成了鲜明对照。宋子文那时心思全在青岛患病的老母亲身上，万没想到就在这时候，上海车站上已是刺客如麻，有几只乌黑的枪口，正等着对他射出仇恨的子弹。
 
@@ -802,7 +802,7 @@ In the same train, in carriage nine, there were three other passengers out of th
 
 > 郑抱真说道："可是，现在双方都是箭在弦上，我们下车后又没有机会把常玉清的阴谋马上报告给王大哥，这样，也就只好采取你昨夜想好的临时措施了！不然，绝没有任何办法制止这次可怕的刺杀。"
 
-Zheng Baozhen said, "But both sides now have the arrow on the string, and once we are off the train there will be no chance to report Chang Yuqing's plot to Elder Brother Wang at once. So there is nothing for it but the makeshift you worked out last night. Otherwise there is absolutely no way of stopping this frightful killing."
+Zheng Baozhen said, "But both sides now have the arrow on the string, and once we're off the train there will be no chance to report Chang Yuqing's plot to Elder Brother Wang at once. So there's nothing for it but the makeshift you worked out last night. Otherwise there's absolutely no way of stopping this frightful killing."
 
 > 原来，昨天夜里华克之已想出一个应急之策：就是当他们三人同宋子文和重光葵，一齐到达上海火车站后，要抢在常玉清埋伏的杀手向重光葵开枪之前，由华克之和郑抱真在车站上当空鸣枪。宋子文和重光葵听到枪声一响，势必不敢走下车来。这样，必然会惊动车站上的军警宪特，而王亚樵预先安排的行刺计划，也会因华克之和郑抱真的突然鸣枪而戛然而止，只有这样才能制止一场引起战争的车站刺杀！
 
@@ -814,7 +814,7 @@ While Hua Kezhi and Zheng Baozhen were still discussing in the carriage how to g
 
 > 就在华克之当众鸣枪的时候，预先埋伏在站台上的孙凤鸣和龙林等几个杀手，已经发现从最后一节包厢里，走下几位气度不凡的客人。在这些刺客中只有孙凤鸣在南京见过宋子文一面。而刘刚、龙林等人都是预先从王亚樵提供的照片上，认识财政部长宋子文的。现在他们发现从车里走下八九个特殊客人，一时感到眼花缭乱。孙凤鸣见状，马上对身边的刘刚悄悄向前方一指，说："看好，那个穿白西装的，就是我们要找的人！"
 
-At the moment Hua Kezhi fired in front of them all, Sun Fengming, Long Lin and the other gunmen already in position on the platform had just seen several passengers of striking bearing come down out of the last first-class carriage. Of all these assassins, only Sun Fengming had ever set eyes on T.V. Soong, once in Nanjing; Liu Gang, Long Lin and the rest knew the Finance Minister only from photographs Wang Yaqiao had given them beforehand. Now, seeing eight or nine unusual passengers come down from the train, they were dazzled for a moment. Sun Fengming, taking it in, quietly pointed forward for Liu Gang beside him. "Look — the one in the white suit. That is the man we want!"
+At the moment Hua Kezhi fired in front of them all, Sun Fengming, Long Lin and the other gunmen already in position on the platform had just seen several passengers of striking bearing come down out of the last first-class carriage. Of all these assassins, only Sun Fengming had ever set eyes on T.V. Soong, once in Nanjing; Liu Gang, Long Lin and the rest knew the Finance Minister only from photographs Wang Yaqiao had given them beforehand. Now, seeing eight or nine unusual passengers come down from the train, they were dazzled for a moment. Sun Fengming, taking it in, quietly pointed forward for Liu Gang beside him. "Look — the one in the white suit. That's the man we want!"
 
 > 刘刚点点头，却错把目光盯在了穿着白西装、挟着个皮包走在最前面的唐腴胪身上，放过了尾随其后的宋子文。
 

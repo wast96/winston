@@ -203,7 +203,12 @@ def render_body(md_path, figures, notes, counter, doc, dateline=None):
             first = True
             continue
         if line.startswith("### "):
-            out.append("<h3>%s</h3>" % esc(line[4:]))
+            # Section headings can legitimately carry a note: several are
+            # translation notes ON the heading, flagging how the book's own
+            # table of contents words it. Run them through insert_notes so
+            # such a note attaches here instead of being dropped.
+            out.append("<h3>%s</h3>"
+                       % insert_notes(esc(line[4:]), notes, counter, doc))
             first = True
             continue
         for fig in figures:
@@ -342,6 +347,18 @@ def main(epub_path):
                            notes_by_chap.get(chap["id"], []),
                            counter, doc, chap.get("dateline"))
         write(os.path.join(oebps, doc), body, chap["nav"])
+
+    # A note whose anchor never matched is dropped without trace: no reference,
+    # no body, and qa_epub stays green because refs and bodies still agree with
+    # each other. Twelve notes went missing that way before this check existed.
+    orphans = [(cid, n["anchor"]) for cid, lst in notes_by_chap.items()
+               for n in lst if not n.get("used")]
+    if orphans:
+        sys.stderr.write("BUILD FAILED: %d note(s) never matched their anchor "
+                         "and would be silently dropped:\n" % len(orphans))
+        for cid, a in orphans:
+            sys.stderr.write("  %-9s %s\n" % (cid, a[:88]))
+        sys.exit(2)
 
     write(os.path.join(oebps, "notes.xhtml"),
           render_notes_page(chapters, notes_by_chap), "Notes")
