@@ -1425,6 +1425,138 @@
    "right": "那样干，他是",
    "page": 105,
    "why": "to act that way"
+  },
+  {
+   "wrong": "有些必人悔",
+   "right": "有些懊悔",
+   "page": 106,
+   "why": "some regretted it; crop-verified"
+  },
+  {
+   "wrong": "党得不该抓他",
+   "right": "觉得不该抓他",
+   "page": 106,
+   "why": "felt he should not have been arrested"
+  },
+  {
+   "wrong": "识讽他",
+   "right": "讥讽他",
+   "page": 106,
+   "why": "mocked him"
+  },
+  {
+   "wrong": "不是蔡国民党出力",
+   "right": "不是替国民党出力",
+   "page": 106,
+   "why": "not doing the Kuomintang a service"
+  },
+  {
+   "wrong": "而是蔡共产党帮了忙",
+   "right": "而是替共产党帮了忙",
+   "page": 106,
+   "why": "but doing the Communists one"
+  },
+  {
+   "wrong": "模范监狱很入",
+   "right": "模范监狱很久",
+   "page": 106,
+   "why": "a long time"
+  },
+  {
+   "wrong": "还算上月由",
+   "right": "还算自由",
+   "page": 106,
+   "why": "comparatively free"
+  },
+  {
+   "wrong": "曾嘱只我",
+   "right": "曾嘱咐我",
+   "page": 106,
+   "why": "instructed me"
+  },
+  {
+   "wrong": "麻闻作用",
+   "right": "麻痹作用",
+   "page": 106,
+   "why": "a numbing effect; crop-verified"
+  },
+  {
+   "wrong": "的遍奖",
+   "right": "的嘉奖",
+   "page": 106,
+   "why": "commendation; crop-verified"
+  },
+  {
+   "wrong": "共产党。的领导人",
+   "right": "共产党的领导人",
+   "page": 107,
+   "why": "spurious full stop mid-sentence"
+  },
+  {
+   "wrong": "一样闫固",
+   "right": "一样顽固",
+   "page": 107,
+   "why": "as stubborn as I was; crop-verified"
+  },
+  {
+   "wrong": "的刀年中",
+   "right": "的几年中",
+   "page": 107,
+   "why": "the several years; crop-verified"
+  },
+  {
+   "wrong": "处条承",
+   "right": "处秉承",
+   "page": 107,
+   "why": "in accordance with; crop-verified"
+  },
+  {
+   "wrong": "昌然当时",
+   "right": "虽然当时",
+   "page": 107,
+   "why": "although at that time; crop-verified"
+  },
+  {
+   "wrong": "南咱稽查所",
+   "right": "南川稽查所",
+   "page": 107,
+   "why": "the Nanchuan inspection post"
+  },
+  {
+   "wrong": "党陵移查所长",
+   "right": "涪陵稽查所长",
+   "page": 107,
+   "why": "head of the Fuling inspection post; crop-verified"
+  },
+  {
+   "wrong": "悄x x (后改名霄x x)",
+   "right": "胥x x (后改名胥x x)",
+   "page": 107,
+   "why": "surname 胥; the book itself redacts the given name; crop-verified"
+  },
+  {
+   "wrong": "被悄奸污",
+   "right": "被胥奸污",
+   "page": 107,
+   "why": "surname 胥"
+  },
+  {
+   "wrong": "还安奈了他一顿",
+   "right": "还安慰了他一顿",
+   "page": 106,
+   "why": "安慰, consoled him; crop-verified across a line break"
+  },
+  {
+   "wrong": "由移查所长李杰川",
+   "right": "由稽查所长李杰川",
+   "page": 106,
+   "why": "head of the inspection post"
+  },
+  {
+   "wrong": "除了解我的身份后",
+   "right": "他了解我的身份后",
+   "page": 106,
+   "why": "once he knew who I was"
   }
  ]
 }
