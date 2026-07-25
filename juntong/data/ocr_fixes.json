@@ -2901,6 +2901,42 @@
    "right": "并嘱他们",
    "page": 125,
    "why": "and instructed them"
+  },
+  {
+   "wrong": "衣宗南",
+   "right": "胡宗南",
+   "page": 126,
+   "why": "Hu Zongnan; crop-verified"
+  },
+  {
+   "wrong": "汤恩们",
+   "right": "汤恩伯",
+   "page": 126,
+   "why": "Tang Enbo; crop-verified"
+  },
+  {
+   "wrong": "亲腿看见",
+   "right": "亲眼看见",
+   "page": 126,
+   "why": "saw with my own eyes; crop-verified"
+  },
+  {
+   "wrong": "姜绍度",
+   "right": "姜绍谟",
+   "page": 125,
+   "why": "Jiang Shaomo; third mangle"
+  },
+  {
+   "wrong": "打人各种进步团体",
+   "right": "打入各种进步团体",
+   "page": 126,
+   "why": "penetrate progressive bodies"
+  },
+  {
+   "wrong": "瀹特区",
+   "right": "渝特区",
+   "page": 126,
+   "why": "the Yu special district"
   }
  ]
 }
