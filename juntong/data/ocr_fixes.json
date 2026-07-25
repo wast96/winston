@@ -1281,6 +1281,90 @@
    "right": "抗战末期",
    "page": 103,
    "why": "the closing period of the war"
+  },
+  {
+   "wrong": "宇警完等单位",
+   "right": "军警宪等单位",
+   "page": 103,
+   "why": "army, police and military police; crop-verified"
+  },
+  {
+   "wrong": "因完字的繁体",
+   "right": "因宪字的繁体",
+   "page": 103,
+   "why": "憲, the traditional form of 宪; the whole passage turns on it; crop-verified"
+  },
+  {
+   "wrong": "助移为眶",
+   "right": "助桀为虐",
+   "page": 103,
+   "why": "idiom: to aid Jie in his tyranny; scan reads 桀, not the commoner 纣; crop-verified"
+  },
+  {
+   "wrong": "淫诈勤索",
+   "right": "敲诈勒索",
+   "page": 103,
+   "why": "extortion; crop-verified"
+  },
+  {
+   "wrong": "珀片烟",
+   "right": "鸦片烟",
+   "page": 103,
+   "why": "opium"
+  },
+  {
+   "wrong": "抄查-而",
+   "right": "抄查而",
+   "page": 103,
+   "why": "OCR hyphen artifact"
+  },
+  {
+   "wrong": "竞有权",
+   "right": "竟有权",
+   "page": 104,
+   "why": "actually had the power"
+  },
+  {
+   "wrong": "开枪打和死旅客",
+   "right": "开枪打死旅客",
+   "page": 104,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "亲威",
+   "right": "亲戚",
+   "page": 104,
+   "why": "relative"
+  },
+  {
+   "wrong": "神经上和弄得",
+   "right": "神经上弄得",
+   "page": 104,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "疑神括鬼",
+   "right": "疑神疑鬼",
+   "page": 104,
+   "why": "jumping at shadows"
+  },
+  {
+   "wrong": "寂在窗子",
+   "right": "爬在窗子",
+   "page": 104,
+   "why": "climbed up at the window; crop-verified"
+  },
+  {
+   "wrong": "打和有死后",
+   "right": "打死后",
+   "page": 104,
+   "why": "spurious 和有"
+  },
+  {
+   "wrong": "什么都于预",
+   "right": "什么都干预",
+   "page": 104,
+   "why": "meddled in everything"
   }
  ]
 }
