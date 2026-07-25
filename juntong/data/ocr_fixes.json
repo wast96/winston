@@ -3021,6 +3021,60 @@
    "right": "当时军统局局本部",
    "page": 127,
    "why": "spurious 和"
+  },
+  {
+   "wrong": "周伯肌",
+   "right": "周伯勋",
+   "page": 128,
+   "why": "Zhou Boxun, cinema manager; crop-verified"
+  },
+  {
+   "wrong": "党癌夸口",
+   "right": "常常夸口",
+   "page": 128,
+   "why": "often boasted; crop-verified"
+  },
+  {
+   "wrong": "是伟他们打出来的",
+   "right": "是靠他们打出来的",
+   "page": 128,
+   "why": "won by them; crop-verified"
+  },
+  {
+   "wrong": "骄横的口易",
+   "right": "骄横的口气",
+   "page": 128,
+   "why": "an overbearing tone"
+  },
+  {
+   "wrong": "瞳中叫昔连天",
+   "right": "暗中叫苦连天",
+   "page": 128,
+   "why": "groaned inwardly"
+  },
+  {
+   "wrong": "没有人敢若他们",
+   "right": "没有人敢惹他们",
+   "page": 128,
+   "why": "nobody dared provoke them"
+  },
+  {
+   "wrong": "白公人馆作为",
+   "right": "白公馆作为",
+   "page": 128,
+   "why": "spurious 人"
+  },
+  {
+   "wrong": "的非恶活动",
+   "right": "的罪恶活动",
+   "page": 128,
+   "why": "criminal activities"
+  },
+  {
+   "wrong": "暗地里执鬼",
+   "right": "暗地里捣鬼",
+   "page": 128,
+   "why": "worked its mischief in the dark"
   }
  ]
 }
