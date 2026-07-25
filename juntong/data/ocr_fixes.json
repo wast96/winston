@@ -3075,6 +3075,42 @@
    "right": "暗地里捣鬼",
    "page": 128,
    "why": "worked its mischief in the dark"
+  },
+  {
+   "wrong": "周景误",
+   "right": "周景敦",
+   "page": 129,
+   "why": "Zhou Jingdun, section head; crop-verified"
+  },
+  {
+   "wrong": "葛过于此",
+   "right": "莫过于此",
+   "page": 129,
+   "why": "nothing surpassed it; crop-verified"
+  },
+  {
+   "wrong": "设有有总务",
+   "right": "设有总务",
+   "page": 129,
+   "why": "duplicated 有"
+  },
+  {
+   "wrong": "央此使许多人",
+   "right": "因此使许多人",
+   "page": 129,
+   "why": "and so many people"
+  },
+  {
+   "wrong": "乎日不露面",
+   "right": "平日不露面",
+   "page": 129,
+   "why": "never showed itself in the ordinary way"
+  },
+  {
+   "wrong": "最好的手表、人金笔",
+   "right": "最好的手表、金笔",
+   "page": 129,
+   "why": "spurious 人"
   }
  ]
 }
