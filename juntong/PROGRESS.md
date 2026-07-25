@@ -224,8 +224,9 @@ numerals (王崇五, 王百刚, 周万尝) and period idioms. Fixes made:
   writing as Di Ke against Lu Xun, and Lan Ping at Cui's house - reads as
   printed; it is the most historically loaded claim in the chapter and it was
   checked against the scan rather than trusted to OCR.
-- STILL TO DO on this chapter: the numeric check has 31 flags outstanding,
-  unadjudicated. On ch01 the same first pass was 17 flags of which two were
+- STILL TO DO on this chapter: the numeric check has 46 flags outstanding,
+  unadjudicated (the count rose with the corrected segmentation, which
+  restored text the folio bug had removed). On ch01 the same first pass was 17 flags of which two were
   real omissions in the translation, so these must be worked through, not
   waved past. Notes not yet written. Not yet built into the EPUB.
 
@@ -274,45 +275,44 @@ each against the scan, not against the count - and to recompute ch01's
 declared song-appendix exception, which was written against the old numbering.
 This is bookkeeping, not retranslation, but it is not done.
 
-## SEGMENTATION: where this actually stands, and a warning
+## SEGMENTATION: RESOLVED, and the root cause
 
-I spent a long stretch iterating on paragraph segmentation and it did not
-converge. Recording it honestly, because the next person (or the next session)
-should not repeat it.
+The previous session recorded that this had not converged and warned against
+tuning thresholds. Following that note, the detector was validated against the
+pages themselves before anything else was touched -- and it was exact: six
+indents of six on one sample page, three of three on another, no false
+positives. The detector was never the problem.
 
-WHAT IS SETTLED AND VALUABLE:
-- The folio filter was deleting real text. That is fixed and verified. It is
-  the reason any of this was touched, and it was worth finding.
-- Every proposed paragraph break is now gated by SENTENCE-END: a break is
-  refused unless the text so far ends on 。！？… (closing quotes stripped
-  first). This makes the segmentation SAFE BY CONSTRUCTION - it can merge two
-  real paragraphs, but it can no longer split one mid-sentence. Those two
-  errors are not equally bad, and only the second corrupts the text.
-- Both signals are used together under that gate: the printed indent measured
-  off the page image, and the short last line. Each alone segments this book
-  wrongly; the gate removes the short-line rule's page-foot failure.
+THE ROOT CAUSE was that the indent was being measured off the page image in
+one pass and the text produced in another, then matched BY LINE INDEX.
+Tesseract's line grouping is not the printed line banding -- it merges and
+splits lines of its own accord -- so the two disagreed on 140 of 515 pages,
+and each disagreement slid every paragraph mark below it one line out of
+place. That, not any threshold, is what made the counts wander for hours.
 
-WHAT DID NOT CONVERGE:
-Counts still disagree with the three units translated earlier - fm02 17 against
-15, ch01 89 against 92. I was chasing those numbers by adjusting thresholds,
-which is fitting a heuristic to a target instead of checking it against the
-page, and it traded one error class for another every time. I stopped.
+THE FIX: take the indent from the same tesseract pass that produces the text.
+`--psm 6 txt tsv` yields a bounding box per word and so a left edge per OCR
+line, and the reference margin is the mode of the line starts on that page.
+Same pass, same lines, no alignment step to get wrong. Misaligned pages went
+from 140 to 0. No global margin, no recto/verso calibration, no page-top
+special case, no short-line fallback -- all of those were scaffolding for a
+problem that no longer exists.
 
-WHAT TO DO NEXT, IN THIS ORDER:
-1. Do NOT tune thresholds further against counts. Validate the indent
-   detector against a dozen actual page images first, and fix what it gets
-   wrong on the evidence.
-2. Then reconcile the earlier units ONCE, mechanically: where the source and
-   translation disagree, join or split the ENGLISH to match. Because of the
-   sentence-end gate this is safe - no source break falls mid-sentence - so
-   this is bookkeeping on paragraphing, not retranslation, and the prose does
-   not change.
-3. Only then rebuild.
+Two further defects fell out of it:
+- Folio-derived pseudo-headings. `find_headings` had recorded two page numbers
+  as section titles ('.5，' and '到'); assemble was injecting them into the
+  source as '### ' lines, which both split a paragraph mid-sentence and put
+  junk in the text. Dropped: a heading has at least two Han characters.
+- Every break is still gated on sentence-final punctuation, which is what
+  makes the result safe by construction rather than merely correct today.
 
-The translations themselves are complete and were content-checked when
-written. A paragraph-count difference of a few is a disagreement between two
-segmentations, not evidence of dropped text - but the gate must not be relaxed
-to make it green, because that is the check that would catch real loss.
+RECONCILIATION DONE. All four translated units now match the corrected source
+exactly: fm01 18/18, fm02 16/16, ch01 91/91, ch02 115/115. The adjustments
+were paragraph joins and one split in the ENGLISH, plus removal of ch01's
+song-appendix parity exception, which was an artefact of the old segmentation
+-- the book sets that lyric as a single paragraph, which is how the
+translation renders it. No prose was rewritten. There are now no parity
+exceptions anywhere in the book.
 
 ## Pending decisions
 

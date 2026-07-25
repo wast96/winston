@@ -34,6 +34,7 @@ Usage: ocr_crop.py FIRST LAST [--jobs 3]
 Writes: data/txt/p####.txt
 """
 import argparse
+import json
 import os
 import re
 import subprocess
@@ -47,6 +48,7 @@ PNG = os.path.join(ROOT, "data", "png")
 TXT = os.path.join(ROOT, "data", "txt")
 CROPDIR = os.path.join(ROOT, "data", "crop")
 RAWDIR = os.path.join(ROOT, "data", "raw")
+INDENT = os.path.join(ROOT, "data", "indent")
 
 CJK = r"一-鿿　-〿＀-￯"
 
@@ -120,6 +122,43 @@ def strip_folio(lines, page):
     return lines
 
 
+def indents_from_tsv(page, n_lines):
+    """Left edge of each OCR line, and which lines are indented.
+
+    Returns a list of booleans parallel to the page's non-blank text lines.
+    The reference margin is the MODE of the line starts on this page, taken
+    from the OCR's own lines, so a page with a wider gutter is judged against
+    itself and no global or recto/verso calibration is needed.
+    """
+    tsv = os.path.join(RAWDIR, "p%04d.tsv" % page)
+    if not os.path.exists(tsv):
+        return [False] * n_lines
+    lines = {}
+    with open(tsv) as fh:
+        next(fh, None)
+        for row in fh:
+            f = row.rstrip("\n").split("\t")
+            if len(f) < 12 or f[11].strip() == "":
+                continue
+            key = (f[2], f[3], f[4])          # block, paragraph, line
+            left, width = int(f[6]), int(f[8])
+            cur = lines.get(key)
+            if cur is None or left < cur[0]:
+                lines[key] = (left, width)
+    if not lines:
+        return [False] * n_lines
+    order = sorted(lines, key=lambda k: tuple(int(x) for x in k))
+    starts = [lines[k][0] for k in order]
+    step = 10
+    binned = [round(s / float(step)) for s in starts]
+    margin = max(set(binned), key=binned.count) * step
+    char = 0.024 * 2258          # one Han character at the cropped render
+    flags = [s > margin + 1.3 * char for s in starts]
+    if len(flags) < n_lines:
+        flags += [False] * (n_lines - len(flags))
+    return flags[:n_lines]
+
+
 def make_crop(page):
     src = os.path.join(PNG, "p%04d.png" % page)
     if not os.path.exists(src):
@@ -181,8 +220,15 @@ def main():
     with open(listfile, "w") as fh:
         for c in crops:
             fh.write("%s\n" % os.path.splitext(os.path.basename(c))[0])
+    # Ask for tsv alongside txt. The tsv carries a bounding box for every
+    # word, and therefore the left edge of every OCR LINE -- which is the only
+    # way to know the printed indent that cannot fall out of step with the
+    # text. Deriving the indent from the page image separately and matching it
+    # to the text by line index disagreed on 140 of 515 pages, because
+    # tesseract's line grouping is not the printed line banding: it merges and
+    # splits lines of its own accord. Same pass, same lines, no alignment.
     cmd = ("cat %s | OMP_THREAD_LIMIT=1 xargs -P %d -I{} "
-           "tesseract %s/{}.png %s/{} -l chi_sim --psm 6 2>/dev/null"
+           "tesseract %s/{}.png %s/{} -l chi_sim --psm 6 txt tsv 2>/dev/null"
            % (listfile, a.jobs, CROPDIR, RAWDIR))
     subprocess.run(cmd, shell=True, check=False)
     print("stage 2: OCR done", flush=True)
@@ -208,6 +254,15 @@ def main():
         out = strip_folio(out, n)
         with open(os.path.join(TXT, "p%04d.txt" % n), "w") as fh:
             fh.write("\n".join(out))
+        body = [l for l in out if l.strip()]
+        flags = indents_from_tsv(n, len(body))
+        os.makedirs(INDENT, exist_ok=True)
+        with open(os.path.join(INDENT, "p%04d.json" % n), "w") as fh:
+            json.dump(flags, fh)
+        for ext in (".tsv",):
+            q = os.path.join(RAWDIR, "p%04d%s" % (n, ext))
+            if os.path.exists(q):
+                os.remove(q)
         os.remove(raw)
         crop = os.path.join(CROPDIR, "p%04d.png" % n)
         if os.path.exists(crop):

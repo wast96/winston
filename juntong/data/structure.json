@@ -16,14 +16,6 @@
   "band_ocr": "EPia四0"
  },
  {
-  "level": "section",
-  "pdf": 10,
-  "printed": 5,
-  "top": 0.1861,
-  "title": ".5，",
-  "band_ocr": "了吾"
- },
- {
   "level": "chapter",
   "pdf": 16,
   "printed": 11,
@@ -398,14 +390,6 @@
   "top": 0.1663,
   "title": "旧社会里的鸡鸣狗咨和俩缉人员",
   "band_ocr": "旧杜会里的鸡鸣狗咨和侦缉人员"
- },
- {
-  "level": "section",
-  "pdf": 220,
-  "printed": 215,
-  "top": 0.0134,
-  "title": "到",
-  "band_ocr": "到"
  },
  {
   "level": "chapter",

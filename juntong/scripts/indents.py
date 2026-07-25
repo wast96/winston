@@ -28,9 +28,13 @@ Writes: data/indent/p####.json  -- [bool] per text line, top to bottom
 import argparse
 import json
 import os
+import sys
 
 import cv2
 import numpy as np
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import ocr_crop
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PNG = os.path.join(ROOT, "data", "png")
@@ -112,16 +116,14 @@ def classify(page):
     # edge, and headings, which are centred. Both would distort the margin.
     widths = [l["x1"] - l["x0"] for l in lines]
     measure = float(np.median(widths))
-    # Drop the folio band, exactly as ocr_crop does, so the flag list stays in
-    # step with the OCR lines. A mismatch of one at the foot of the page slides
-    # every paragraph mark on the page below its line.
-    if len(lines) >= 3:
-        gaps = [lines[i + 1]["y0"] - lines[i]["y1"] for i in range(len(lines) - 1)]
-        med_gap = float(np.median(gaps))
-        last = lines[-1]
-        if (med_gap and gaps[-1] > 1.35 * med_gap
-                and (last["x1"] - last["x0"]) < 0.25 * measure):
-            lines = lines[:-1]
+    # Drop the folio band by calling ocr_crop's OWN test, not a copy of it.
+    # Two independent implementations of "is there a page number here" is one
+    # too many: they disagreed on 140 of 515 pages, and every disagreement
+    # slid the whole page's paragraph marks one line out of step with the OCR
+    # text. That misalignment, not any threshold, is what made the paragraph
+    # counts wander.
+    if ocr_crop.folio_present(page):
+        lines = lines[:-1]
     if not lines:
         return []
     body = [l for l in lines if (l["x1"] - l["x0"]) > 0.45 * measure]

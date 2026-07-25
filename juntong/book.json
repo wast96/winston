@@ -291,21 +291,13 @@
  "docs": {
   "fm01_gaikuang": "out/fm01_gaikuang_reading.md",
   "fm02_qianyan": "out/fm02_qianyan_reading.md",
-  "ch01": "out/ch01_reading.md"
+  "ch01": "out/ch01_reading.md",
+  "ch02": "out/ch02_reading.md"
  },
  "notes": "notes.json",
  "datelines": {},
  "variants": {},
  "heading_depth": 1,
  "heading_depth_note": "1, not the default 2: in this book many units have no printed sections at all while others have a dozen, so comparing two levels would flag legitimate structure as a defect.",
- "parity_exceptions": {
-  "ch01": {
-   "delta": -5,
-   "why": "the class-song appendix is characterised in one editorial block instead of being set out as five lines of lyric; the two lines the author himself singles out are quoted in the body",
-   "collapse": [
-    36,
-    41
-   ]
-  }
- }
+ "parity_exceptions_note": "None. The one exception that existed -- the class-song appendix in ch01 -- was an artefact of the old segmentation, which split the printed lyric into five paragraphs. Under indent-based segmentation the book's own paragraphing is one paragraph, which is exactly how the translation renders it, so no exception is needed."
 }

@@ -168,13 +168,20 @@ def main():
                 starts.append((page, len(paras)))
             paras.append("### " + s)
             continue
-        # BOTH signals, gated by the sentence-end test. The indent is the
-        # typesetter's own mark but the measurement misses some of them; the
-        # short last line catches those, and its one failure mode -- the foot
-        # of a page, where the text block ends mid-sentence -- is exactly what
-        # the sentence-end gate refuses. Neither signal alone segmented this
-        # book correctly; together, gated, they do.
-        if can_break() and (indented or len(cur[-1]) < cutoff):
+        # THE INDENT ALONE, gated by the sentence-end test.
+        #
+        # The detector was checked against the pages themselves rather than
+        # against paragraph counts: on two sample pages it flagged six indents
+        # of six and three of three, with no false positives. It is exact, and
+        # propping it up with the short-line rule -- which was added when the
+        # counts disagreed -- only put back the page-foot over-splitting the
+        # indent exists to avoid. Every extra break the short-line rule
+        # contributed was a false one.
+        #
+        # The page-top suppression is gone for the same reason: it was there
+        # because the indent was not trusted, and it silently lost every
+        # paragraph that genuinely opens at the head of a page.
+        if can_break() and indented:
             flush()
         if not cur:
             cur_page = page

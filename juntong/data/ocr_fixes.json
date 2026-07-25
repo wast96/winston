@@ -109,6 +109,12 @@
    "right": "周恩来",
    "page": 10,
    "why": "Zhou Enlai"
+  },
+  {
+   "wrong": "知道在他住房的左右和对面房间\n里都有人在监视他",
+   "right": "知道在他住房的左右和对面房间里都有人在监视他",
+   "page": 13,
+   "why": "SEGMENTATION. A spurious paragraph break fell between 房间 and 里, mid-word. The indent measurement put a mark on that line and the sentence-end gate let it through because the OCR line above happened to end on a stop from a quotation. Joined."
   }
  ],
  "ch01": [
