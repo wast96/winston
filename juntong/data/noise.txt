@@ -49,3 +49,28 @@
 万国殡仪馆
 两[省市county]
 沪.杭两
+# --- ch03 adjudication: numerals that are not quantities ---
+# names
+许忠五
+曹万道
+廖越万
+王四心
+沈夕峰
+韦贤
+# place names
+三斗坪
+两湖会馆
+两路口
+万寿宫
+一品场
+# idioms carrying a numeral
+漏洞百出
+成千上万
+不三不四
+劲头十足
+百般
+十有八九
+七折八扣
+数以百计
+数以万计
+一二

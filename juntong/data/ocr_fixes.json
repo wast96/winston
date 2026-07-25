@@ -4041,6 +4041,150 @@
    "right": "替中共做什么工作",
    "page": 146,
    "why": "doing any work for the Communists"
+  },
+  {
+   "wrong": "水巷子一叶",
+   "right": "水巷子一号",
+   "page": 147,
+   "why": "1 Shuixiangzi; crop-verified"
+  },
+  {
+   "wrong": "由平统直接领导",
+   "right": "由军统直接领导",
+   "page": 147,
+   "why": "the Juntong"
+  },
+  {
+   "wrong": "葛天正",
+   "right": "葛天璇",
+   "page": 147,
+   "why": "Ge Tianxuan; crop-verified"
+  },
+  {
+   "wrong": "陈前娜",
+   "right": "陈韵娜",
+   "page": 147,
+   "why": "Chen Yunna; crop-verified"
+  },
+  {
+   "wrong": "陈去、阮筱兰",
+   "right": "陈雯、阮筱兰",
+   "page": 147,
+   "why": "Chen Wen; crop-verified"
+  },
+  {
+   "wrong": "张国泰",
+   "right": "张国焘",
+   "page": 147,
+   "why": "Zhang Guotao"
+  },
+  {
+   "wrong": "打人大会临时机构",
+   "right": "打入大会临时机构",
+   "page": 147,
+   "why": "planted in the assembly's temporary body"
+  },
+  {
+   "wrong": "军统要逐明将所得情次",
+   "right": "军统要逐日将所得情报",
+   "page": 147,
+   "why": "reported the intelligence daily"
+  },
+  {
+   "wrong": "一家幅店",
+   "right": "一家帽店",
+   "page": 148,
+   "why": "a hat shop; crop-verified"
+  },
+  {
+   "wrong": "买了一项呢晶",
+   "right": "买了一顶呢帽",
+   "page": 148,
+   "why": "bought a felt hat; crop-verified"
+  },
+  {
+   "wrong": "薪介石很高兴",
+   "right": "蒋介石很高兴",
+   "page": 148,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "谷正细",
+   "right": "谷正纲",
+   "page": 148,
+   "why": "Gu Zhenggang, Minister of Social Affairs; crop-verified"
+  },
+  {
+   "wrong": "蒋介石.看了",
+   "right": "蒋介石看了",
+   "page": 148,
+   "why": "OCR stray full stop"
+  },
+  {
+   "wrong": "是个好人人",
+   "right": "是个好人",
+   "page": 148,
+   "why": "duplicated 人"
+  },
+  {
+   "wrong": "竭尽全力了予以保卫",
+   "right": "竭尽全力予以保卫",
+   "page": 148,
+   "why": "spurious 了"
+  },
+  {
+   "wrong": "每个平统特务",
+   "right": "每个军统特务",
+   "page": 148,
+   "why": "every Juntong operative"
+  },
+  {
+   "wrong": "密布在藉介石",
+   "right": "密布在蒋介石",
+   "page": 148,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "维护着国筋的安全",
+   "right": "维护着国舅的安全",
+   "page": 149,
+   "why": "the brother-in-law of the ruling house"
+  },
+  {
+   "wrong": "和孔祥如家中",
+   "right": "孔祥熙家中",
+   "page": 149,
+   "why": "H. H. Kung"
+  },
+  {
+   "wrong": "的别坚中",
+   "right": "的别墅中",
+   "page": 149,
+   "why": "villa"
+  },
+  {
+   "wrong": "孔祥牛在广播大厦",
+   "right": "孔祥熙在广播大厦",
+   "page": 149,
+   "why": "H. H. Kung"
+  },
+  {
+   "wrong": "大开寿宣",
+   "right": "大开寿宴",
+   "page": 149,
+   "why": "held a great birthday banquet"
+  },
+  {
+   "wrong": "如采把皇统特务",
+   "right": "如果把军统特务",
+   "page": 149,
+   "why": "if the Juntong operatives'"
+  },
+  {
+   "wrong": "均系任个人记忆",
+   "right": "均系凭个人记忆",
+   "page": 149,
+   "why": "rest on my own memory"
   }
  ]
 }

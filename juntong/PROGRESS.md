@@ -157,6 +157,56 @@ reinstates every mangle already paid for - 张国焘 reverts to 张国琳. Every
 verified reading is now recorded with the page it was checked on and why, and
 replayed by script. 18 entries so far.
 
+### ch03 (抗战时期军统特务在重庆的罪行 / Juntong Crimes in Chungking during the War of Resistance) - TRANSLATED, notes pending
+
+- PDF 91-149, printed 72-130. 193 source paragraphs, 193 translated. 11 sections.
+- **619 crop-verified OCR corrections**, by far the largest ledger of any unit so
+  far. Names OCR had turned into non-names and the scan restored: 郭寄峤,
+  张简斋, 陈逊斋, 肖茂如, 胡藻, 曹万道, 廖承志, 史良, 曹禺, 孔祥熙 (mangled
+  five distinct ways), 孔令俊, 宋希濂, 唐毅, 酆裕昆, 魏大铭, 王瓒绪, 刘耀,
+  蒲岗, 何成濬, 张炎元, 胡天秋, 韦贤, 王兴国, 曾泽, 祝宗梁, 周伯勋, 周景敦,
+  刘之盘, 刘廷根, 邹陆夫, 陈昌熙, 龚仙舫, 任建鹏, 王芃生, 林可胜, 贝祖诒,
+  谷正纲, 葛天璇, 陈韵娜, 陈雯, and 张国焘 twice more.
+- Places restored: 红岩村, 渣滓洞, 白公馆, 鹅公岩, 寸滩, 海棠溪, 机房街,
+  枣子岚垭, 赣江街.
+- Checks: parity 193/193, alignment OK across every pair, register within
+  tolerance of the ch01 reference, numeric check 6 residual flags, all
+  adjudicated (see below).
+
+### ch03 numeric adjudication - 27 flags, 0 real omissions
+
+Every flag was one of four classes, none of them a dropped quantity:
+- numerals inside NAMES (许忠五, 曹万道, 廖越万, 王四心, 三斗坪);
+- numerals inside PLACE names (两湖会馆, 两路口, 万寿宫, 一品场);
+- numerals inside IDIOMS (漏洞百出, 成千上万, 不三不四, 劲头十足, 百般,
+  十有八九, 七折八扣, 数以百计);
+- real numbers correctly translated that the checker could not read in English
+  ("a hundred thousand dollars" for 十万元, "between a hundred and seventy and
+  a hundred and eighty" for 一百七八十, "two or three hundred" for 二三百).
+
+The classes are now in `data/noise.txt` and the parser reads "a hundred
+thousand". The exercise was still worth it: it caught ONE real loss. The source
+counts characters - 望龙门 is 三个字, 望龙门的 is 四个字 - and the translation
+had flattened both to "the words". Restored as "the three characters" and
+"those four characters".
+
+### FOR WINSTON'S READ-THROUGH, ch03
+
+- The book prints 卫成总司令部 throughout for what is unmistakably the
+  重庆卫戍总司令部, the Chungking Garrison Command. 卫成 is not a word. Twelve
+  occurrences, all reading 成 in the scan. Preserved as printed and to be noted,
+  not silently corrected. JBIG2 glyph substitution and a printing error are both
+  live possibilities and I cannot tell them apart at this resolution.
+- 助桀为虐 where the common form is 助纣为虐. Crop-verified as printed.
+- 王固盘 where scholarship gives 王固磐. Preserved as printed.
+- 黄角垭 where the commoner form is 黄桷垭. Preserved as printed.
+- Two passages need notes more than most: the hotel waiter's cry "Is Mr. Wang
+  Sixin at home?", which is the character 憲 taken apart into 王/四/心 as a
+  warning that the military police are at the door; and the action group the
+  operatives themselves nicknamed the 锦衣卫 after the Ming secret police.
+- The prison ladder - 小学 / 中学 / 大学 for the corps detention house,
+  Baigongguan and the Xifeng camp - is the author's own reported usage.
+
 ### FOR WINSTON'S READ-THROUGH, fm01
 
 - The scholarship pass is **not yet run** for this unit. The twelve notes rest

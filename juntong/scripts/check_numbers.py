@@ -181,6 +181,12 @@ def spelled_numbers(low):
     # English says "a hundred" where the source says 一百; without these the
     # indefinite article reads as an absent numeral and the check reports a
     # dropped quantity on a paragraph that kept it.
+    # "a hundred thousand" for 十万, and "a thousand" for 一千: the article
+    # forms are how English actually renders these and the bare-numeral tests
+    # below never see them. Checked longest-first so "a hundred thousand" is
+    # not eaten by the "a hundred" rule underneath it.
+    if re.search(r"\ba hundred thousand\b", low):
+        found.add(100000)
     if re.search(r"\ba hundred\b", low):
         found.add(100)
     if re.search(r"\ba thousand\b", low):
