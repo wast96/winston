@@ -38,6 +38,8 @@ import os
 import re
 import subprocess
 
+import cv2
+import numpy as np
 from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -59,32 +61,62 @@ def despace(line):
     return line.strip()
 
 
-def strip_folio(lines):
-    """Drop the printed page number if it survived the crop.
+def folio_present(page):
+    """Decide from the PAGE GEOMETRY whether a printed folio is present.
 
-    No crop can do this. Measured over the book, the last body line reaches
-    0.9117 of page height on some pages while the folio begins at 0.8890 on
-    others, so the two bands overlap globally even though the folio is always
-    below the text on any single page. A fixed cut either keeps folios or
-    eats real text.
+    The earlier version of this guessed from the text, dropping a short last
+    line that carried at most one Han character. That rule deleted a real
+    two-character line -- a paragraph whose final line was 写。 -- and with it
+    the paragraph break that followed, silently merging two paragraphs of the
+    book. Silent loss of text is the worst defect this pipeline can produce
+    after invented text, so the guess is replaced by a measurement.
 
-    So it is filtered textually. The folio prints as a dot-delimited numeral
-    -- '. 181 .' -- and OCR mangles the digits freely ('。人。', '。1]，。',
-    '4。'), so the digits cannot be relied on. What survives every mangle is
-    the shape: very short, dot-delimited, and at most one Han character,
-    where a real closing line of Chinese prose has several. Left in place a
-    folio becomes both a spurious one-line paragraph and a phantom numeral
-    for the numeric-invariant check to report.
+    A folio is unmistakable in the row profile and nothing else on the page
+    looks like it: it sits alone below a gap far larger than the leading, and
+    it is a few glyphs wide against a full measure. Either signal alone would
+    misfire; together they do not.
     """
+    img = cv2.imread(os.path.join(PNG, "p%04d.png" % page), cv2.IMREAD_GRAYSCALE)
+    if img is None:
+        return False
+    h, w = img.shape
+    ink = (img < 160).astype(np.uint8)
+    rows = ink.sum(axis=1)
+    bands, start = [], None
+    for i, v in enumerate(rows):
+        if v > 4 and start is None:
+            start = i
+        elif v <= 4 and start is not None:
+            if i - start > 3:
+                bands.append((start, i))
+            start = None
+    if start is not None:
+        bands.append((start, len(rows)))
+    if len(bands) < 3:
+        return False
+    gaps = [bands[i + 1][0] - bands[i][1] for i in range(len(bands) - 1)]
+    med_gap = float(np.median(gaps))
+    last_gap = gaps[-1]
+    y0, y1 = bands[-1]
+    cols = ink[y0:y1, :].sum(axis=0)
+    nz = np.nonzero(cols > 0)[0]
+    last_w = (nz[-1] - nz[0]) if len(nz) else 0
+    widths = []
+    for a, b in bands[:-1]:
+        c = ink[a:b, :].sum(axis=0)
+        n = np.nonzero(c > 0)[0]
+        if len(n):
+            widths.append(n[-1] - n[0])
+    measure = float(np.median(widths)) if widths else w
+    return bool(med_gap and last_gap > 1.35 * med_gap and last_w < 0.25 * measure)
+
+
+def strip_folio(lines, page):
+    """Drop the printed page number, but only when the page actually has one."""
     while lines and not lines[-1].strip():
         lines.pop()
-    if lines:
-        last = lines[-1].strip()
-        han = len(re.findall(r"[一-鿿]", last))
-        dotted = bool(re.match(r"^[.。·、,，\s]", last) or
-                      re.search(r"[.。·、,，\s]$", last))
-        if len(last) <= 8 and han <= 1 and dotted:
-            lines.pop()
+    if lines and folio_present(page):
+        lines.pop()
     return lines
 
 
@@ -124,7 +156,7 @@ def main():
             p = os.path.join(TXT, "p%04d.txt" % n)
             if not os.path.exists(p):
                 continue
-            lines = strip_folio(open(p).read().split("\n"))
+            lines = strip_folio(open(p).read().split("\n"), n)
             with open(p, "w") as fh:
                 fh.write("\n".join(lines))
             n_done += 1
@@ -173,7 +205,7 @@ def main():
             if not l and (not out or not out[-1]):
                 continue
             out.append(l)
-        out = strip_folio(out)
+        out = strip_folio(out, n)
         with open(os.path.join(TXT, "p%04d.txt" % n), "w") as fh:
             fh.write("\n".join(out))
         os.remove(raw)

@@ -124,6 +124,19 @@ def main(path):
             total_paras += len(re.findall(r"<p[ >]", body))
     print("reading edition: %d documents, %d paragraphs" % (len(content_docs), total_paras))
 
+    nav_doc = [d for d in docs if d.endswith("nav.xhtml")]
+    if nav_doc:
+        nv = z.read(nav_doc[0]).decode()
+        pl = re.search(r'page-list.*?</nav>', nv, re.S)
+        n_pages = len(re.findall(r"<li>", pl.group(0))) if pl else 0
+        n_marks = sum(len(re.findall(r'epub:type="pagebreak"', z.read(d).decode()))
+                      for d in content_docs)
+        print("pagination: %d page-list entries, %d markers in the text"
+              % (n_pages, n_marks))
+        if n_pages != n_marks:
+            fails.append("page-list entries (%d) and page-break markers (%d) "
+                         "disagree" % (n_pages, n_marks))
+
     notes_doc = [d for d in docs if d.endswith("notes.xhtml")]
     if notes_doc:
         nt = z.read(notes_doc[0]).decode()

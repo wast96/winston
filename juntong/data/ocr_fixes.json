@@ -196,5 +196,151 @@
    "page": 26,
    "why": "the 7 is OCR for a question mark, and was being counted as the numeral seven"
   }
+ ],
+ "ch02": [
+  {
+   "wrong": "抗战前皇统特务在上海的",
+   "right": "抗战前军统特务在上海的",
+   "page": 48,
+   "why": "chapter title"
+  },
+  {
+   "wrong": "菲恶活动",
+   "right": "罪恶活动",
+   "page": 48,
+   "why": "chapter title, second line"
+  },
+  {
+   "wrong": "高阴晶",
+   "right": "高巩白",
+   "page": 51,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "唐腹庐",
+   "right": "唐腴庐",
+   "page": 80,
+   "why": "T.V. Soong's secretary, shot in his place 1931; crop-verified"
+  },
+  {
+   "wrong": "车焰先",
+   "right": "车耀先",
+   "page": 65,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "刍帮奋",
+   "right": "邹韬奋",
+   "page": 56,
+   "why": "Zou Taofen, publisher of Life Weekly; crop-verified"
+  },
+  {
+   "wrong": "吴必宪",
+   "right": "吴乃宪",
+   "page": 53,
+   "why": "crop-verified; OCR gave six different manglings of this name"
+  },
+  {
+   "wrong": "吴帮宪",
+   "right": "吴乃宪",
+   "page": 53,
+   "why": "same man"
+  },
+  {
+   "wrong": "吴万宪",
+   "right": "吴乃宪",
+   "page": 53,
+   "why": "same man"
+  },
+  {
+   "wrong": "吴妃宪",
+   "right": "吴乃宪",
+   "page": 53,
+   "why": "same man"
+  },
+  {
+   "wrong": "天旋宪",
+   "right": "吴乃宪",
+   "page": 53,
+   "why": "same man"
+  },
+  {
+   "wrong": "公光辉",
+   "right": "翁光辉",
+   "page": 50,
+   "why": "same man as 翁光辉 in the next sentence"
+  },
+  {
+   "wrong": "徐昭验",
+   "right": "徐昭骏",
+   "page": 50,
+   "why": "same man as 徐昭骏 later in the chapter"
+  },
+  {
+   "wrong": "王死全",
+   "right": "王克全",
+   "page": 50,
+   "why": "same man as 王克全 earlier"
+  },
+  {
+   "wrong": "刘芒隐",
+   "right": "刘芦隐",
+   "page": 66,
+   "why": "same man as 刘芦隐 elsewhere"
+  },
+  {
+   "wrong": "程幕项",
+   "right": "程慕熙",
+   "page": 79,
+   "why": "same man; the book prints 程慕熙"
+  },
+  {
+   "wrong": "程莫熙",
+   "right": "程慕熙",
+   "page": 74,
+   "why": "same man"
+  },
+  {
+   "wrong": "程慕闫",
+   "right": "程慕熙",
+   "page": 74,
+   "why": "same man"
+  },
+  {
+   "wrong": "程莫显",
+   "right": "程慕熙",
+   "page": 82,
+   "why": "same man"
+  },
+  {
+   "wrong": "王兆枫",
+   "right": "王兆槐",
+   "page": 88,
+   "why": "same man as 王兆槐 elsewhere"
+  },
+  {
+   "wrong": "华死之",
+   "right": "华克之",
+   "page": 84,
+   "why": "same man as 华克之 in the same sentence"
+  },
+  {
+   "wrong": "内出书店",
+   "right": "内山书店",
+   "page": 56,
+   "why": "the Uchiyama Bookshop; same name as 内山书店 in the same paragraph"
+  },
+  {
+   "wrong": "杨席",
+   "right": "杨虎",
+   "page": 52,
+   "why": "Yang Hu; same man as 杨虎 elsewhere in the chapter"
+  },
+  {
+   "wrong": "而特务为了达到他们目吕的\n目的，还是坚持脱掉了她的衣裤。她最后是一阵狂笑，说: “死\n都不拆，还怕你们这一套!”终于她在受尽各种酷刑的折磨和作\n育之后死在那间黑暗的小女看守所中，一个字都没有招出来。",
+   "right": "而特务为了达到他们的目的，还是坚持脱掉了她的衣裤。她最后是一阵狂笑，说: “死都不怕，还怕你们这一套!”终于她在受尽各种酷刑的折磨和侮辱之后死在那间黑暗的小女看守所中，一个字都没有招出来。",
+   "page": 82,
+   "why": "SEGMENTATION plus three readings. A page break split one paragraph into four fragments and duplicated 目的 across the turn. 都不拆 is 都不怕 (not afraid even of death) and 作育 is 侮辱 (humiliation); both CONTEXTUAL, from sense rather than crop, and flagged as inference"
+  }
  ]
 }

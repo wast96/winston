@@ -172,7 +172,19 @@ def render_notes_page(chapters, notes_by_chap):
     return "\n".join(parts)
 
 
-def render_body(md_path, figures, notes, counter, doc, dateline=None):
+PAGEMAP = os.path.join(ROOT, "data", "pagemap")
+
+
+def load_pagemap(unit):
+    p = os.path.join(PAGEMAP, "%s.json" % unit)
+    if not os.path.exists(p):
+        return {}
+    # body-paragraph index -> printed page number
+    return {e["body_paragraph"]: e["printed"] for e in json.load(open(p))}
+
+
+def render_body(md_path, figures, notes, counter, doc, dateline=None,
+                pagemap=None, unit=None, page_index=None):
     """Render one chapter.
 
     `dateline` is the TRANSLATOR'S inference, not the author's text: the book
@@ -182,6 +194,8 @@ def render_body(md_path, figures, notes, counter, doc, dateline=None):
     and how sure of it we are, so it can never be mistaken for the original.
     """
     out, first = [], True
+    pagemap = pagemap or {}
+    body_n = 0
     for raw in open(md_path):
         line = raw.strip()
         if not line:
@@ -218,6 +232,22 @@ def render_body(md_path, figures, notes, counter, doc, dateline=None):
                     "<figcaption>%s</figcaption></figure>"
                     % (fig["file"], esc(fig["alt"]), esc(fig["caption"])))
                 fig["placed"] = True
+        # PAGE-BREAK MARKER, before the paragraph the printed page opens on.
+        # epub:type="pagebreak" is the EPUB 3 mechanism for citable print
+        # pagination: it renders as nothing, and reading systems expose the
+        # label as the page the reader is on. The marker cannot be exact -- a
+        # printed page nearly always turns mid-sentence and English will not
+        # break where Chinese did -- so it sits at the paragraph boundary at
+        # or after the turn, and the translator's note says so.
+        if body_n in pagemap:
+            n = pagemap[body_n]
+            pid = "pg-%s-%d" % (unit, n)
+            out.append('<span epub:type="pagebreak" role="doc-pagebreak" '
+                       'id="%s" aria-label="%s"></span>' % (pid, n))
+            if page_index is not None:
+                page_index.append((doc, pid, n, unit))
+        body_n += 1
+
         # notes first: the italic substitution below would otherwise eat
         # any anchor phrase containing the markup
         text = insert_notes(esc(line), notes, counter, doc)
@@ -362,12 +392,15 @@ def main(epub_path):
           META["title"])
 
     counter = [0]
+    page_index = []
     for chap in chapters:
         doc = chap["id"] + ".xhtml"
         body = render_body(os.path.join(ROOT, chap["file"]),
                            figspec.get(chap["id"], []),
                            notes_by_chap.get(chap["id"], []),
-                           counter, doc, chap.get("dateline"))
+                           counter, doc, chap.get("dateline"),
+                           pagemap=load_pagemap(chap["id"]),
+                           unit=chap["id"], page_index=page_index)
         write(os.path.join(oebps, doc), body, chap["nav"])
 
     # A note whose anchor never matched is dropped without trace: no reference,
@@ -399,13 +432,27 @@ def main(epub_path):
              ("backmatter.xhtml", "Translator's Note and Glossary")]
 
     first_body = chapters[0]["id"] + ".xhtml"
+    # The front matter carries its own page sequence (1-14) and the main text
+    # restarts at 1, so a bare number is ambiguous across the whole book. The
+    # page-list labels front-matter pages as "fm N" and leaves the body pages
+    # as printed, which is how the book itself is cited.
+    page_list = ""
+    if page_index:
+        items = []
+        for f, pid, n, unit in page_index:
+            label = ("fm %d" % n) if unit.startswith("fm") else str(n)
+            items.append('<li><a href="%s#%s">%s</a></li>' % (f, pid, esc(label)))
+        page_list = ('<nav epub:type="page-list" hidden="hidden">'
+                     '<h1>Printed pages</h1><ol>' + "".join(items)
+                     + "</ol></nav>")
+
     nav = ('<nav epub:type="toc" id="toc"><h1>Contents</h1><ol>'
            + "".join('<li><a href="%s">%s</a></li>' % (f, esc(t)) for f, t in docs)
-           + "</ol></nav>"
-           '<nav epub:type="landmarks" hidden="hidden"><ol>'
-           '<li><a epub:type="titlepage" href="titlepage.xhtml">Title Page</a></li>'
-           '<li><a epub:type="bodymatter" href="%s">Begin Reading</a></li>'
-           "</ol></nav>" % first_body)
+           + "</ol></nav>" + page_list
+           + ('<nav epub:type="landmarks" hidden="hidden"><ol>'
+              '<li><a epub:type="titlepage" href="titlepage.xhtml">Title Page</a></li>'
+              '<li><a epub:type="bodymatter" href="%s">Begin Reading</a></li>'
+              "</ol></nav>" % first_body))
     write(os.path.join(oebps, "nav.xhtml"), nav, "Contents")
 
     ncx = "".join(
@@ -440,6 +487,11 @@ def main(epub_path):
                  "<dc:title>%s</dc:title><dc:language>en</dc:language>"
                  "<dc:creator>%s</dc:creator><dc:publisher>%s</dc:publisher>"
                  "<dc:source>ISBN %s</dc:source>"
+                 '<meta property="dcterms:source">'
+                 'Shen Zui, 军统内幕, 3rd ed., Zhongguo Wenshi Chubanshe, '
+                 'Beijing 2001</meta>'
+                 '<meta property="pageBreakSource">'
+                 'Zhongguo Wenshi Chubanshe, Beijing 2001</meta>'
                  '<meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>'
                  "</metadata><manifest>%s</manifest><spine toc=\"ncx\">%s</spine></package>"
                  % (META["uid"], esc(META["title"]), esc(META["author"]),

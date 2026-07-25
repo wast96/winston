@@ -215,6 +215,65 @@ numerals (王崇五, 王百刚, 周万尝) and period idioms. Fixes made:
   and leaving a bare 百 - the same prefix-eating trap as inside NOISE, one
   level up.
 
+### ch02 (抗战前军统特务在上海的罪恶活动) - TRANSLATED, checks incomplete
+
+- PDF 48-90, printed 29-71. 117 source paragraphs, 117 translated, parity OK.
+- 30 source OCR errors recorded and replayed, including six separate manglings
+  of one name (吴乃宪) and four of another (程慕熙). Crop-verified: 唐腴庐,
+  车耀先, 邹韬奋, 高巩白, 吴乃宪. The Cui Wanqiu passage - Zhang Chunqiao
+  writing as Di Ke against Lu Xun, and Lan Ping at Cui's house - reads as
+  printed; it is the most historically loaded claim in the chapter and it was
+  checked against the scan rather than trusted to OCR.
+- STILL TO DO on this chapter: the numeric check has 31 flags outstanding,
+  unadjudicated. On ch01 the same first pass was 17 flags of which two were
+  real omissions in the translation, so these must be worked through, not
+  waved past. Notes not yet written. Not yet built into the EPUB.
+
+## A pipeline defect that cost the afternoon, and what it changed
+
+`strip_folio` decided whether a page's last line was the printed page number
+by looking at the TEXT: short, at most one Han character, dot-delimited. That
+rule deleted a real line - a paragraph whose final line was 写。 - and with it
+the paragraph break that followed, silently merging two paragraphs of the
+book. It was found only because chapter 2's parity came out one over and the
+scan was consulted to see why.
+
+Silent deletion of text is the worst defect this pipeline can produce after
+invented text, so the guess was replaced by a measurement: a folio sits below
+a gap 1.35x the leading and is a few glyphs wide against a full measure.
+Sampled over the book it finds a folio on 71 of 72 pages, and where it is
+unsure it KEEPS the line, which is the right direction to fail in.
+
+Restoring those lines then exposed a second problem. The short-last-line rule
+for paragraph ends is right inside a page and wrong at the foot of one, since
+a page's final line is short whenever the text block ends there. So paragraph
+segmentation now uses the printed INDENT, measured off the page image by
+`scripts/indents.py` - the mark the typesetter actually made. Two things had
+to be got right for it to work, and both were got wrong first:
+- the flush-left margin is measured GLOBALLY rather than per page, because
+  twenty-odd lines are too few to locate it and a skewed page produces a
+  second cluster;
+- it is measured SEPARATELY for recto and verso, because the gutter mirrors.
+  A single margin sat between the two and read one side as all-indented.
+- at the top of a page the indent is not trusted at all; there the previous
+  page's short last line decides.
+
+Chapter 2's source came out at 117 paragraphs under this scheme - the exact
+count the translation had independently reached from reading the scan, after
+the earlier segmentation said 116. That agreement is the reason to believe it.
+
+### CONSEQUENCE FOR THE THREE FINISHED UNITS - work outstanding
+
+fm01, fm02 and ch01 were translated against the OLD segmentation, which was
+missing the lines the folio bug had eaten. Their prose is unaffected and every
+other check on them still passes, but their paragraph COUNTS no longer match
+the corrected source: fm01 19 against 18, fm02 18 against 15, ch01 95 against
+92. In each case the book splits a paragraph where the translation runs two
+together. The fix is to insert paragraph breaks at those points - checking
+each against the scan, not against the count - and to recompute ch01's
+declared song-appendix exception, which was written against the old numbering.
+This is bookkeeping, not retranslation, but it is not done.
+
 ## Pending decisions
 
 - **Chapter 1 contains an appendix printing the full lyrics of the training

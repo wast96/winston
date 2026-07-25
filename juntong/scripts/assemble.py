@@ -28,18 +28,39 @@ import re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TXT = os.path.join(ROOT, "data", "txt")
 ZH = os.path.join(ROOT, "data", "zh")
+PAGEMAP = os.path.join(ROOT, "data", "pagemap")
+INDENT = os.path.join(ROOT, "data", "indent")
 
 SHORT_RATIO = 0.82   # of the median full line; below this the line ends a para
 
 
 def load_pages(first, last):
+    """Stream of (page, line, starts_paragraph).
+
+    starts_paragraph comes from the printed INDENT, measured off the page
+    image by indents.py, and it is the authoritative signal: it is the mark
+    the typesetter actually made. The two older signals are kept only as
+    fallbacks where no indent data exists, because each fails in a way this
+    one does not -- tesseract's blank line is absent across page breaks, and
+    the short-last-line rule reports a false paragraph end at the foot of
+    every page whose text block happens to end there.
+    """
     stream = []
     for n in range(first, last + 1):
         p = os.path.join(TXT, "p%04d.txt" % n)
         if not os.path.exists(p):
             continue
-        for l in open(p).read().split("\n"):
-            stream.append((n, l))
+        ip = os.path.join(INDENT, "p%04d.json" % n)
+        flags = json.load(open(ip)) if os.path.exists(ip) else None
+        raw = open(p).read().split("\n")
+        k = 0
+        for l in raw:
+            if l.strip():
+                f = flags[k] if (flags and k < len(flags)) else None
+                k += 1
+            else:
+                f = None
+            stream.append((n, l, f))
         # NO forced break at the page end. A paragraph runs across the page
         # boundary far more often than it stops there, and forcing a break
         # here split 21 paragraphs in the first chapter alone, leaving
@@ -66,6 +87,10 @@ def main():
     ap.add_argument("--structure",
                     default=os.path.join(ROOT, "data", "structure.json"))
     ap.add_argument("--short-ratio", type=float, default=SHORT_RATIO)
+    ap.add_argument("--offset", type=int, default=19,
+                    help="PDF page minus printed page. 19 for the main text, "
+                         "5 for the front matter, which carries its own "
+                         "numbering sequence")
     a = ap.parse_args()
 
     os.makedirs(ZH, exist_ok=True)
@@ -74,38 +99,91 @@ def main():
     head_titles = {e["title"] for es in heads.values() for e in es}
 
     stream = load_pages(a.first, a.last)
-    lens = [len(l) for _, l in stream if l.strip()]
+    have_indents = any(f is not None for _, _, f in stream)
+    lens = [len(l) for _, l, _ in stream if l.strip()]
     if not lens:
         raise SystemExit("no text in range")
     lens.sort()
     measure = lens[int(len(lens) * 0.75)]      # upper quartile = the full measure
     cutoff = a.short_ratio * measure
 
-    paras, cur = [], []
-    for page, line in stream:
+    # Track which printed page each paragraph STARTS on, so the EPUB can
+    # carry page-break markers for citation. A printed page nearly always
+    # begins mid-paragraph; the marker is therefore placed at the paragraph
+    # boundary at or after the page turn, which is the best a translation can
+    # honestly do -- English word order does not preserve where a Chinese page
+    # broke. Recorded as "the page begins at or before this paragraph".
+    paras, cur, cur_page = [], [], None
+    starts = []          # (printed_page, index into paras)
+    seen_pages = set()
+
+    def flush():
+        if cur:
+            paras.append("".join(cur))
+            cur.clear()
+
+    # Which stream positions are the first non-blank line of their page: the
+    # one place the indent flag cannot be trusted, because a page-top line's
+    # offset is measured against a margin estimated from that page alone and
+    # scanner skew reads as an indent. There the older signal is sound
+    # instead -- if the PREVIOUS page ended on a short line, the paragraph
+    # ended with it. Inside a page the indent is authoritative and the
+    # short-line rule is wrong, because a page's last line is short whenever
+    # the text block ends there.
+    first_of_page, seen = set(), set()
+    for idx, (page, line, _) in enumerate(stream):
+        if line.strip() and page not in seen:
+            seen.add(page)
+            first_of_page.add(idx)
+
+    for idx, (page, line, indented) in enumerate(stream):
         s = line.strip()
         if not s:
-            if cur:
-                paras.append("".join(cur))
-                cur = []
+            if not have_indents:
+                flush()
             continue
         if s in head_titles:
-            if cur:
-                paras.append("".join(cur))
-                cur = []
+            flush()
+            if page not in seen_pages:
+                seen_pages.add(page)
+                starts.append((page, len(paras)))
             paras.append("### " + s)
             continue
+        at_page_top = idx in first_of_page
+        if have_indents and indented and not at_page_top:
+            flush()
+        elif have_indents and at_page_top and cur and len(cur[-1]) < cutoff:
+            flush()
+        if not cur:
+            cur_page = page
+            if page not in seen_pages:
+                seen_pages.add(page)
+                starts.append((page, len(paras)))
         cur.append(s)
-        if len(s) < cutoff:
-            paras.append("".join(cur))
-            cur = []
-    if cur:
-        paras.append("".join(cur))
+        if not have_indents and len(s) < cutoff:
+            flush()
+    flush()
 
     paras = [p for p in paras if p.strip()]
     dest = os.path.join(ZH, "%s.txt" % a.chapter)
     with open(dest, "w") as fh:
         fh.write("\n".join(paras) + "\n")
+
+    # re-express page starts as indices into the BODY paragraph list, which is
+    # what the builder walks and what parity counts
+    body_index, mapping = {}, []
+    b = 0
+    for i, para in enumerate(paras):
+        body_index[i] = b
+        if not para.startswith("###"):
+            b += 1
+    for page, idx in starts:
+        mapping.append({"printed": page - a.offset,
+                        "pdf": page,
+                        "body_paragraph": body_index.get(idx, 0)})
+    os.makedirs(PAGEMAP, exist_ok=True)
+    with open(os.path.join(PAGEMAP, "%s.json" % a.chapter), "w") as fh:
+        json.dump(mapping, fh, ensure_ascii=False, indent=1)
 
     body = [p for p in paras if not p.startswith("###")]
     chars = sum(len(re.findall(r"[一-鿿]", p)) for p in body)
@@ -114,6 +192,9 @@ def main():
     print("  %d paragraphs (%d headings), %d CJK chars, mean para %d chars"
           % (len(body), len(paras) - len(body), chars,
              chars // max(1, len(body))))
+    print("  page map: %d printed pages, %s-%s"
+          % (len(mapping), mapping[0]["printed"] if mapping else "-",
+             mapping[-1]["printed"] if mapping else "-"))
 
 
 if __name__ == "__main__":
