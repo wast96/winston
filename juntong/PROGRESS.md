@@ -361,6 +361,21 @@ boundaries. No prose was rewritten and none was found missing.
 State after the repair: parity OK on all five units, and check_align reports
 no pair straying from the median on any of them.
 
+## Wake-up routines
+
+Four routines fire into this session on the hour, offset to give a roughly
+15-minute cadence (the server enforces a one-hour minimum per routine, so the
+cadence is built from four of them rather than one quarter-hourly schedule):
+
+  trig_01S5CvzyS3eJ8WNftAfreQrJ  resume (:00)   0 0-23 * * *
+  trig_01WDHR8F56isWhzk1hutP53i  resume (:15)   15 * * * *
+  trig_01SHb5gLz8MuUSVGqrSbmwdq  resume (:30)   30 * * * *
+  trig_01YPE2vMy3oZtsVWjCsTTBVv  resume (:45)   45 * * * *
+
+ALL FOUR must be deleted once every unit is done and qa_epub passes. They
+store no MCP connectors, so the sessions they wake cannot delete them: that
+has to happen from a session holding the tool, or from the routines UI.
+
 ## Pending decisions
 
 - **Chapter 1 contains an appendix printing the full lyrics of the training

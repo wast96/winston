@@ -717,6 +717,228 @@
    "right": "期间，军统特务集中",
    "page": 91,
    "why": "OCR inserted a spurious 和 before the operative-strength figure; crop-verified"
+  },
+  {
+   "wrong": "五万多人人。",
+   "right": "五万多人。",
+   "page": 92,
+   "why": "page-join duplication: p91 ends 五万多, p92 opens 人。 ; scan shows a single 人 (crop-verified)"
+  },
+  {
+   "wrong": "竞办过",
+   "right": "竟办过",
+   "page": 92,
+   "why": "竟 (went so far as to), not 竞; crop-verified"
+  },
+  {
+   "wrong": "混和人拍卖行",
+   "right": "混入拍卖行",
+   "page": 93,
+   "why": "goods slipped INTO the auction houses; 和人 for 入"
+  },
+  {
+   "wrong": "和白己",
+   "right": "和自己",
+   "page": 94,
+   "why": "自己, oneself; 白 for 自"
+  },
+  {
+   "wrong": "下不得人台",
+   "right": "下不得台",
+   "page": 94,
+   "why": "下不得台, left with no way to climb down"
+  },
+  {
+   "wrong": "这人么严密",
+   "right": "这么严密",
+   "page": 94,
+   "why": "spurious 人"
+  },
+  {
+   "wrong": "汉奸混人",
+   "right": "汉奸混入",
+   "page": 94,
+   "why": "traitors slipping IN; 人 for 入"
+  },
+  {
+   "wrong": "汉好",
+   "right": "汉奸",
+   "page": 94,
+   "why": "汉奸, traitor/collaborator"
+  },
+  {
+   "wrong": "六人满之患",
+   "right": "有人满之患",
+   "page": 94,
+   "why": "有人满之患, overcrowded; 六 for 有"
+  },
+  {
+   "wrong": "王瑛绪",
+   "right": "王瓒绪",
+   "page": 95,
+   "why": "garrison C-in-C; scan prints 瓒 (王 radical). Attested form in scholarship is 王缵绪 Wang Zuanxu -- preserved as printed, noted"
+  },
+  {
+   "wrong": "刘岩",
+   "right": "刘峙",
+   "page": 95,
+   "why": "Liu Zhi, garrison commander-in-chief; crop-verified"
+  },
+  {
+   "wrong": "刘崎",
+   "right": "刘峙",
+   "page": 96,
+   "why": "Liu Zhi, second mangle of the same name; crop-verified"
+  },
+  {
+   "wrong": "廖公动",
+   "right": "廖公劭",
+   "page": 96,
+   "why": "Liao Gongshao, deputy head then head of the Inspectorate; crop-verified"
+  },
+  {
+   "wrong": "邮亚",
+   "right": "凶恶",
+   "page": 95,
+   "why": "凶恶, vicious; crop-verified"
+  },
+  {
+   "wrong": "营不起",
+   "right": "惹不起",
+   "page": 95,
+   "why": "惹不起, not to be provoked; crop-verified"
+  },
+  {
+   "wrong": "骄横跋雇",
+   "right": "骄横跋扈",
+   "page": 96,
+   "why": "跋扈, overbearing; crop-verified"
+  },
+  {
+   "wrong": "礼狐",
+   "right": "礼貌",
+   "page": 96,
+   "why": "礼貌, politeness"
+  },
+  {
+   "wrong": "幅子便走",
+   "right": "帽子便走",
+   "page": 96,
+   "why": "picked up his hat and left"
+  },
+  {
+   "wrong": "穷凶极亚",
+   "right": "穷凶极恶",
+   "page": 96,
+   "why": "utterly vicious"
+  },
+  {
+   "wrong": "匀结一气",
+   "right": "勾结一气",
+   "page": 96,
+   "why": "to collude"
+  },
+  {
+   "wrong": "厌外",
+   "right": "此外",
+   "page": 96,
+   "why": "besides"
+  },
+  {
+   "wrong": "骨于分子",
+   "right": "骨干分子",
+   "page": 96,
+   "why": "core cadre"
+  },
+  {
+   "wrong": "赁他的喜爱",
+   "right": "凭他的喜爱",
+   "page": 96,
+   "why": "according to his own liking"
+  },
+  {
+   "wrong": "大吵大加",
+   "right": "大吵大闹",
+   "page": 95,
+   "why": "to make a great scene"
+  },
+  {
+   "wrong": "老娑",
+   "right": "老婆",
+   "page": 95,
+   "why": "wife"
+  },
+  {
+   "wrong": "大行设法",
+   "right": "另行设法",
+   "page": 95,
+   "why": "to make other arrangements"
+  },
+  {
+   "wrong": "通得",
+   "right": "逼得",
+   "page": 95,
+   "why": "forced to"
+  },
+  {
+   "wrong": "他上自己",
+   "right": "他自己",
+   "page": 95,
+   "why": "spurious 上"
+  },
+  {
+   "wrong": "倒设有什么",
+   "right": "倒没有什么",
+   "page": 95,
+   "why": "thought nothing of it"
+  },
+  {
+   "wrong": "亲目告诉",
+   "right": "亲自告诉",
+   "page": 95,
+   "why": "told them himself"
+  },
+  {
+   "wrong": "戴竺",
+   "right": "戴笠",
+   "page": 95,
+   "why": "Dai Li; another mangle of the name"
+  },
+  {
+   "wrong": "这些人蔡她在河南和弄到过",
+   "right": "这些人帮她在河南弄到过",
+   "page": 95,
+   "why": "these men had helped her make a good deal of money in Honan"
+  },
+  {
+   "wrong": "雇去职后",
+   "right": "廖去职后",
+   "page": 96,
+   "why": "Liao left the post; 雇 for 廖"
+  },
+  {
+   "wrong": "不熟习业务",
+   "right": "不熟悉业务",
+   "page": 96,
+   "why": "unfamiliar with the work"
+  },
+  {
+   "wrong": "可法办己可不法办",
+   "right": "可法办可不法办",
+   "page": 96,
+   "why": "might or might not be dealt with under the law; spurious 己"
+  },
+  {
+   "wrong": "戴等对当时",
+   "right": "戴笠对当时",
+   "page": 96,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "甚至于可绕道",
+   "right": "甚至于宁可绕道",
+   "page": 96,
+   "why": "would rather go round"
   }
  ]
 }
