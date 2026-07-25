@@ -939,6 +939,114 @@
    "right": "甚至于宁可绕道",
    "page": 96,
    "why": "would rather go round"
+  },
+  {
+   "wrong": "首茂如",
+   "right": "肖茂如",
+   "page": 98,
+   "why": "Xiao Maoru, head of the telecommunications monitoring section; crop-verified"
+  },
+  {
+   "wrong": "矶藻",
+   "right": "胡藻",
+   "page": 99,
+   "why": "Hu Zao, head of the judicial section; crop-verified"
+  },
+  {
+   "wrong": "草万道",
+   "right": "曹万道",
+   "page": 112,
+   "why": "Cao Wandao, detention-house superintendent; crop-verified"
+  },
+  {
+   "wrong": "史恨",
+   "right": "史良",
+   "page": 99,
+   "why": "Shi Liang, the woman lawyer, one of the Seven Gentlemen; OCR made her a non-name"
+  },
+  {
+   "wrong": "摆统",
+   "right": "军统",
+   "page": 98,
+   "why": "the Juntong"
+  },
+  {
+   "wrong": "稿查处",
+   "right": "稽查处",
+   "page": 98,
+   "why": "the Inspectorate"
+  },
+  {
+   "wrong": "年统党政情报处",
+   "right": "军统党政情报处",
+   "page": 112,
+   "why": "the Juntong's party-and-government intelligence department"
+  },
+  {
+   "wrong": "赵中令第四十多人",
+   "right": "赵中令等四十多人",
+   "page": 98,
+   "why": "等, and others; 第 for 等"
+  },
+  {
+   "wrong": "所庆派",
+   "right": "所选派",
+   "page": 98,
+   "why": "selected and posted"
+  },
+  {
+   "wrong": "这类吉材",
+   "right": "这类器材",
+   "page": 98,
+   "why": "equipment of this kind"
+  },
+  {
+   "wrong": "派遗",
+   "right": "派遣",
+   "page": 99,
+   "why": "to post"
+  },
+  {
+   "wrong": "逮事总是",
+   "right": "遇事总是",
+   "page": 99,
+   "why": "whenever anything came up"
+  },
+  {
+   "wrong": "回处长说一声",
+   "right": "向处长说一声",
+   "page": 99,
+   "why": "to mention it to the head of the office"
+  },
+  {
+   "wrong": "昔笑",
+   "right": "苦笑",
+   "page": 99,
+   "why": "a wry smile"
+  },
+  {
+   "wrong": "化装混和人民主党派",
+   "right": "化装混入民主党派",
+   "page": 112,
+   "why": "disguised and infiltrated INTO the democratic parties"
+  },
+  {
+   "wrong": "八路征办事处",
+   "right": "八路军办事处",
+   "page": 112,
+   "why": "the Eighth Route Army office"
+  },
+  {
+   "wrong": "和军统奉命后",
+   "right": "军统奉命后",
+   "page": 112,
+   "why": "once the Juntong had its orders"
+  },
+  {
+   "wrong": "这个科和是由",
+   "right": "这个科是由",
+   "page": 98,
+   "why": "spurious 和"
   }
  ]
 }
