@@ -3855,6 +3855,60 @@
    "right": "磁器口",
    "page": 144,
    "why": "Ciqikou"
+  },
+  {
+   "wrong": "任建岗",
+   "right": "任建鹏",
+   "page": 144,
+   "why": "Ren Jianpeng, commander of the Interior Ministry police corps; crop-verified"
+  },
+  {
+   "wrong": "氏惧心情",
+   "right": "恐惧心情",
+   "page": 144,
+   "why": "his own fear; crop-verified"
+  },
+  {
+   "wrong": "有所里惧",
+   "right": "有所畏惧",
+   "page": 145,
+   "why": "were genuinely afraid; crop-verified"
+  },
+  {
+   "wrong": "戴笠经常吹嗪",
+   "right": "戴笠经常吹嘘",
+   "page": 144,
+   "why": "Dai Li often boasted"
+  },
+  {
+   "wrong": "整天于着",
+   "right": "整天干着",
+   "page": 144,
+   "why": "engaged all day in"
+  },
+  {
+   "wrong": "带着丽吓的口吻",
+   "right": "带着恐吓的口吻",
+   "page": 145,
+   "why": "in a threatening tone"
+  },
+  {
+   "wrong": "在外面乱七八糟摘",
+   "right": "在外面乱七八糟搞",
+   "page": 145,
+   "why": "carrying on outside anyhow"
+  },
+  {
+   "wrong": "戴笠也祖护不了",
+   "right": "戴笠也袒护不了",
+   "page": 145,
+   "why": "Dai Li could not shield them"
+  },
+  {
+   "wrong": "所长、警官、和警察",
+   "right": "所长、警官、警察",
+   "page": 144,
+   "why": "spurious 和"
   }
  ]
 }
