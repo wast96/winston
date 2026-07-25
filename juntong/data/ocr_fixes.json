@@ -347,6 +347,128 @@
    "right": "而特务为了达到他们的目的，还是坚持脱掉了她的衣裤。她最后是一阵狂笑，说: “死都不怕，还怕你们这一套!”终于她在受尽各种酷刑的折磨和侮辱之后死在那间黑暗的小女看守所中，一个字都没有招出来。",
    "page": 82,
    "why": "SEGMENTATION plus three readings. A page break split one paragraph into four fragments and duplicated 目的 across the turn. 都不拆 is 都不怕 (not afraid even of death) and 作育 is 侮辱 (humiliation); both CONTEXTUAL, from sense rather than crop, and flagged as inference"
+  },
+  {
+   "wrong": "津贴人十元",
+   "right": "津贴八十元",
+   "page": 51,
+   "why": "八 mangled to 人; the stray 十 read as a dropped 10"
+  },
+  {
+   "wrong": "六杂不认",
+   "right": "六亲不认",
+   "page": 58,
+   "why": "the idiom (disown even one's kin); 亲 mangled to 杂"
+  },
+  {
+   "wrong": "美其名百",
+   "right": "美其名曰",
+   "page": 66,
+   "why": "曰 mangled to 百, which read as a dropped 100"
+  },
+  {
+   "wrong": "看热六的人",
+   "right": "看热闹的人",
+   "page": 67,
+   "why": "闹 mangled to 六"
+  },
+  {
+   "wrong": "没有十记",
+   "right": "没有忘记",
+   "page": 73,
+   "why": "忘 mangled to 十"
+  },
+  {
+   "wrong": "十六销",
+   "right": "十六铺",
+   "page": 90,
+   "why": "Shiliupu, the Shanghai wharf district; 铺 mangled to 销"
+  },
+  {
+   "wrong": "接近朱千生的进步人士",
+   "right": "接近宋先生的进步人士",
+   "page": 86,
+   "why": "宋先生 (Madame Sun), the subject of the whole passage; CONTEXTUAL, from sense"
+  },
+  {
+   "wrong": "一十关了十来年",
+   "right": "一关关了十来年",
+   "page": 80,
+   "why": "CONTEXTUAL: the OCR gives 一十, which is not Chinese here; sense requires 'were held for a decade or more'. Flagged as inference, not sight"
+  }
+ ],
+ "ch04": [
+  {
+   "wrong": "杨杏佛.史量才被蜡杀的经过",
+   "right": "杨杏佛、史量才被暗杀的经过",
+   "page": 150,
+   "why": "chapter title; 暗 mangled to 蜡"
+  },
+  {
+   "wrong": "沈钩侍",
+   "right": "沈钧儒",
+   "page": 153,
+   "why": "Shen Junru, the jurist and League for Civil Rights founder"
+  },
+  {
+   "wrong": "广枇医院",
+   "right": "广慈医院",
+   "page": 152,
+   "why": "the Guangci Hospital"
+  },
+  {
+   "wrong": "史泳广",
+   "right": "史泳赓",
+   "page": 156,
+   "why": "Shi Liangcai's son; the book uses 史泳赓"
+  },
+  {
+   "wrong": "史泳废",
+   "right": "史泳赓",
+   "page": 156,
+   "why": "same man"
+  },
+  {
+   "wrong": "史泳文",
+   "right": "史泳赓",
+   "page": 156,
+   "why": "same man"
+  },
+  {
+   "wrong": "史泳刻",
+   "right": "史泳赓",
+   "page": 155,
+   "why": "same man"
+  },
+  {
+   "wrong": "张冬午",
+   "right": "张秉午",
+   "page": 155,
+   "why": "same man as 张秉午 earlier"
+  },
+  {
+   "wrong": "施译之",
+   "right": "施芸之",
+   "page": 155,
+   "why": "same man as 施芸之 in the Yang Xingfo passage"
+  },
+  {
+   "wrong": "伟家埋",
+   "right": "翁家埠",
+   "page": 155,
+   "why": "Wengjiabu, near the highway"
+  },
+  {
+   "wrong": "震飞路",
+   "right": "霞飞路",
+   "page": 151,
+   "why": "Avenue Joffre"
+  },
+  {
+   "wrong": "要林桥",
+   "right": "枫林桥",
+   "page": 151,
+   "why": "Fenglin Bridge"
   }
  ]
 }

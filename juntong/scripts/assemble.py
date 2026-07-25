@@ -130,10 +130,19 @@ def main():
     seen_pages = set()
 
     def can_break():
-        """True if the accumulated text ends a sentence."""
+        """True if the accumulated text ends a sentence.
+
+        Trailing characters that are neither Han nor a sentence stop are
+        stripped first. Closing quotes legitimately follow the stop, and OCR
+        noise does too: a stray '|' left after a full stop was enough to make
+        this return False and suppress a real paragraph break, which then slid
+        the whole chapter out of alignment with its translation.
+        """
         if not cur:
             return False
-        s = cur[-1].rstrip().rstrip(SENT_CLOSERS)
+        s = cur[-1].rstrip()
+        while s and s[-1] not in SENT_END and not re.match(r"[一-鿿]", s[-1]):
+            s = s[:-1]
         return bool(s) and s[-1] in SENT_END
 
     def flush():

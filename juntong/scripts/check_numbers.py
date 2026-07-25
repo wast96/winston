@@ -241,11 +241,25 @@ def load_extra_noise(path):
             if l.strip() and not l.startswith('#')]
 
 
-def main(path, extra_noise=()):
+def main(path, extra_noise=(), window=0):
+    """window widens the comparison to the neighbouring translated paragraphs.
+
+    Paragraph boundaries in the translation are set to match the source's, and
+    a boundary can legitimately land one sentence either side of where the
+    source puts it, so a quantity may sit in the paragraph next door. At
+    window=0 those read as dropped numbers when nothing has been dropped. A
+    window of 1 still catches a genuinely dropped quantity -- one absent from
+    three consecutive paragraphs is absent -- without reporting the seam.
+    """
+    prs = list(pairs(path))
+    tgts = [target_numbers(x) for _, x in prs]
     bad = npairs = 0
-    for i, (src, tgt) in enumerate(pairs(path), 1):
+    for i, (src, tgt) in enumerate(prs, 1):
         npairs = i
-        s, t = source_numbers(src, extra_noise), target_numbers(tgt)
+        s = source_numbers(src, extra_noise)
+        t = set()
+        for j in range(max(0, i - 1 - window), min(len(prs), i + window)):
+            t |= tgts[j]
         # A Republican-calendar year may rightly surface as the Gregorian one.
         missing = {m for m in s - t if (m + 1911) not in t}
         if missing:
@@ -262,5 +276,8 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("bilingual")
     ap.add_argument("--noise", help="file of project-specific noise regexes")
+    ap.add_argument("--window", type=int, default=0,
+                    help="also look this many paragraphs either side; use 1 "
+                         "on a translation whose paragraphing was re-flowed")
     a = ap.parse_args()
-    sys.exit(main(a.bilingual, load_extra_noise(a.noise)))
+    sys.exit(main(a.bilingual, load_extra_noise(a.noise), a.window))

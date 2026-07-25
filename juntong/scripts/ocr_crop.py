@@ -113,13 +113,47 @@ def folio_present(page):
     return bool(med_gap and last_gap > 1.35 * med_gap and last_w < 0.25 * measure)
 
 
+# A folio the engine ran into a text line, e.g. "...告诉。" + "。34。." + "张师…".
+# Matched anywhere in the line, not only at its end, because the merge does not
+# always land last.
+FOLIO_EMBED = re.compile(r"[。.·]\s*\d{1,3}\s*[。.·]\s*[.·]?")
+
+
 def strip_folio(lines, page):
-    """Drop the printed page number, but only when the page actually has one."""
+    """Drop the printed page number, but only when the page actually has one.
+
+    Two shapes. Usually the folio is its own row band and OCR gives it its own
+    line, which folio_present detects and the line is dropped. Occasionally the
+    engine runs it onto the end of the last line of text instead, where it
+    survives as a dot-wrapped numeral -- nine such across the book. Those are
+    trimmed off the tail rather than deleting the line, because the line is
+    real text. Left in place they are phantom quantities for the numeric check
+    and, worse, silent additions to the author's prose.
+    """
     while lines and not lines[-1].strip():
         lines.pop()
     if lines and folio_present(page):
         lines.pop()
-    return lines
+    while lines and not lines[-1].strip():
+        lines.pop()
+    return trim_embedded_folios(lines)
+
+
+def trim_embedded_folios(lines):
+    """Remove a folio the engine merged into a line of text.
+
+    Separate from the line-drop above because this one is IDEMPOTENT and the
+    line-drop is not: re-running the line-drop on an already-cleaned page pops
+    a second, real line. That is what --clean-only now restricts itself to.
+    """
+    out = []
+    for l in lines:
+        if l.strip():
+            trimmed = FOLIO_EMBED.sub("。", l)
+            if trimmed.strip():
+                l = re.sub(r"。{2,}", "。", trimmed)
+        out.append(l)
+    return out
 
 
 def indents_from_tsv(page, n_lines):
@@ -195,7 +229,10 @@ def main():
             p = os.path.join(TXT, "p%04d.txt" % n)
             if not os.path.exists(p):
                 continue
-            lines = strip_folio(open(p).read().split("\n"), n)
+            # NOT strip_folio: that drops a whole line and is not idempotent,
+            # so re-running it on cleaned pages eats real text. Only the
+            # idempotent embedded-folio trim is safe to re-apply.
+            lines = trim_embedded_folios(open(p).read().split("\n"))
             with open(p, "w") as fh:
                 fh.write("\n".join(lines))
             n_done += 1
