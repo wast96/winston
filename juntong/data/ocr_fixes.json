@@ -3549,6 +3549,66 @@
    "right": "辗转逃到四川",
    "page": 138,
    "why": "made their way by stages to Szechwan"
+  },
+  {
+   "wrong": "凶陆夫",
+   "right": "邹陆夫",
+   "page": 139,
+   "why": "Zou Lufu, head of the Army University investigation group; crop-verified"
+  },
+  {
+   "wrong": "过去钢的",
+   "right": "过去锄的",
+   "page": 138,
+   "why": "the 'traitor' formerly rooted out; crop-verified"
+  },
+  {
+   "wrong": "现在要钢的",
+   "right": "现在要锄的",
+   "page": 138,
+   "why": "the 'traitor' now to be rooted out"
+  },
+  {
+   "wrong": "利用哮假",
+   "right": "利用暑假",
+   "page": 139,
+   "why": "used the summer vacation; crop-verified"
+  },
+  {
+   "wrong": "拉王部",
+   "right": "拉干部",
+   "page": 139,
+   "why": "recruit cadres; crop-verified"
+  },
+  {
+   "wrong": "为赐子来拉学生",
+   "right": "为幌子来拉学生",
+   "page": 138,
+   "why": "under the cloak of resisting Japan"
+  },
+  {
+   "wrong": "混人各种进步组织",
+   "right": "混入各种进步组织",
+   "page": 138,
+   "why": "infiltrate progressive bodies"
+  },
+  {
+   "wrong": "定统对学校方面",
+   "right": "军统对学校方面",
+   "page": 139,
+   "why": "the Juntong"
+  },
+  {
+   "wrong": "有特务派和人的学校",
+   "right": "有特务派入的学校",
+   "page": 139,
+   "why": "schools operatives were planted in"
+  },
+  {
+   "wrong": "中于特务活动",
+   "right": "中干特务活动",
+   "page": 139,
+   "why": "carried on secret-service work"
   }
  ]
 }
