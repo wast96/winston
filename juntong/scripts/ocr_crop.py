@@ -196,9 +196,12 @@ def looks_like_folio(lines):
     # A whole folio carries its digits. A folio the crop clipped may have lost
     # them, but it keeps its dot delimiters -- and Chinese typesetting forbids
     # a line OPENING on sentence-final punctuation, so a short line that starts
-    # with one is not prose. Both shapes are the page number; "写。", the real
-    # two-character line this test once deleted, is neither.
-    return bool(digits >= 1 or re.match(r"^[。.·]", last))
+    # with one is not prose. A clipped folio can also come back as pure noise
+    # with neither, e.g. "or。" for a halved "· 97 ·"; but the body of this book
+    # is Chinese, so a short line carrying NO Han character at all is not prose
+    # either. "写。", the real two-character line this test once deleted, has a
+    # Han character, no digits and no leading stop, and survives all three.
+    return bool(digits >= 1 or re.match(r"^[。.·]", last) or han == 0)
 
 
 def trim_embedded_folios(lines):
