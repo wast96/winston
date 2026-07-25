@@ -73,6 +73,21 @@ Specific choices made in it, all reversible:
 - 臭招牌 kept literal as "stinking signboard", with a note on the register.
 - Chapter title 军统概况 as "An Outline of the Juntong".
 
+## Register baseline: the dialogue half is NOT yet set
+
+`fm01_gaikuang` works as the baseline for the expository voice, but it contains
+no dialogue at all, so its dialogue-contraction rate is 0.0/1k and measuring
+anything against it is measuring nothing: the ratio comes out 1.00x whatever
+the chapter does. The preface reads 13.2/1k against it and the check reports
+"within tolerance," which is true and uninformative.
+
+The dialogue baseline has to be reset from the first unit that has real
+dialogue. Until then, treat the contraction column as unmeasured rather than
+passing. The "shall" share is the usable signal in the meantime: it caught one
+line in the preface where Zhou Enlai's warm, plain send-off had been given a
+formal "I shall," which is exactly the drift the check exists for, and it is
+now "I'll."
+
 ## Per-unit log
 
 ### fm01_gaikuang (军统概况 / An Outline of the Juntong) — DONE
@@ -103,6 +118,44 @@ Specific choices made in it, all reversible:
   3. A NOISE entry (`[一二三]十`) ate the first half of 二十九 and left a bare
      九 behind — the exact prefix-eating trap the script's own comment warns
      about, recurring with a different pair.
+
+### fm02_qianyan (前言 / Preface) - DONE
+
+- PDF 10-15, front-matter printed 5-10. 15 source paragraphs, 15 translated.
+- Crop verification caught five more source errors, two of which the numeric
+  check had already flagged from the other direction: 十和年 for 十八年
+  (eighteen years) and 十别总理 for 辞别总理 (took leave of the Premier), both
+  of which left a stray 十 that read as a dropped "10"; plus 黄效先生 for
+  黄雍先生 (Huang Yong, a CPPCC member and one of the original Ten-Man Team),
+  郑锡记 for 郑锡麟, and 周因来 for 周恩来.
+- Checks: parity 15/15, anchors 14/14, numbers 0 unresolved, register within
+  tolerance (but see the baseline caveat above).
+- Notes: 14 (2.3 per printed page).
+- EPUB built and QA PASS: 2 documents, 33 paragraphs, 26 notes, all references,
+  bodies and backlinks matching.
+
+### Two more tool fixes this unit
+
+- `qa_epub.py` identified chapter documents by matching `prologue|chNN` in the
+  filename, so it reported "0 documents, 0 paragraphs" for a spine made of
+  front matter and did not notice it had measured nothing. It now derives
+  content documents from the spine by excluding the known apparatus documents,
+  so a unit named anything at all is still checked. This is the last gate
+  before a build ships and it must not depend on a naming convention it does
+  not itself enforce.
+- `check_numbers.py`: a noise pattern beginning with a numeral could eat the
+  TAIL of a longer numeral (一日 fired inside 二十一日 and left 二十, reported
+  as a dropped "20"). All such patterns are now guarded with a lookbehind.
+  Also added "a million" to the English reader.
+
+### New in the pipeline: a correction ledger
+
+`data/ocr_fixes.json` plus `scripts/apply_fixes.py`. Crop verification is the
+most expensive step here and its results were the most perishable: `data/txt/`
+and `data/zh/` are untracked, so a fresh checkout re-runs OCR and quietly
+reinstates every mangle already paid for - 张国焘 reverts to 张国琳. Every
+verified reading is now recorded with the page it was checked on and why, and
+replayed by script. 18 entries so far.
 
 ### FOR WINSTON'S READ-THROUGH, fm01
 

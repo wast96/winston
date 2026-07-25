@@ -17,7 +17,8 @@
    "title_zh": "军统概况",
    "kind": "front",
    "printed_first": 1,
-   "printed_last": 4
+   "printed_last": 4,
+   "title_en": "An Outline of the Juntong"
   },
   {
    "id": "fm02_qianyan",
@@ -26,7 +27,8 @@
    "title_zh": "前言",
    "kind": "front",
    "printed_first": 5,
-   "printed_last": 10
+   "printed_last": 10,
+   "title_en": "Preface"
   },
   {
    "id": "ch01",
@@ -35,7 +37,8 @@
    "title_zh": "军统培训特务的内幕",
    "kind": "chapter",
    "printed_first": 1,
-   "printed_last": 28
+   "printed_last": 28,
+   "title_en": "Inside the Juntong's Training of Agents"
   },
   {
    "id": "ch02",
@@ -44,7 +47,8 @@
    "title_zh": "抗战前军统特务在上海的罪恶活动",
    "kind": "chapter",
    "printed_first": 29,
-   "printed_last": 71
+   "printed_last": 71,
+   "title_en": "The Juntong's Criminal Activities in Shanghai before the War"
   },
   {
    "id": "ch03",
@@ -53,7 +57,8 @@
    "title_zh": "抗战时期军统特务在重庆的罪行",
    "kind": "chapter",
    "printed_first": 72,
-   "printed_last": 130
+   "printed_last": 130,
+   "title_en": "Juntong Crimes in Chungking during the War of Resistance"
   },
   {
    "id": "ch04",
@@ -62,7 +67,8 @@
    "title_zh": "杨杏佛、史量才被暗杀的经过",
    "kind": "chapter",
    "printed_first": 131,
-   "printed_last": 137
+   "printed_last": 137,
+   "title_en": "The Assassinations of Yang Xingfo and Shi Liangcai"
   },
   {
    "id": "ch05",
@@ -71,7 +77,8 @@
    "title_zh": "囚禁期间的叶挺将军",
    "kind": "chapter",
    "printed_first": 138,
-   "printed_last": 143
+   "printed_last": 143,
+   "title_en": "General Ye Ting in Confinement"
   },
   {
    "id": "ch06",
@@ -80,7 +87,8 @@
    "title_zh": "张学良将军被扣押时的情况",
    "kind": "chapter",
    "printed_first": 144,
-   "printed_last": 151
+   "printed_last": 151,
+   "title_en": "General Zhang Xueliang under Detention"
   },
   {
    "id": "ch07",
@@ -89,7 +97,8 @@
    "title_zh": "杨虎城将军被惨杀的经过",
    "kind": "chapter",
    "printed_first": 152,
-   "printed_last": 163
+   "printed_last": 163,
+   "title_en": "The Murder of General Yang Hucheng"
   },
   {
    "id": "ch08",
@@ -98,7 +107,8 @@
    "title_zh": "蒋介石阴谋暗杀李宗仁的内幕",
    "kind": "chapter",
    "printed_first": 164,
-   "printed_last": 167
+   "printed_last": 167,
+   "title_en": "Chiang Kai-shek's Plot to Assassinate Li Zongren"
   },
   {
    "id": "ch09",
@@ -107,7 +117,8 @@
    "title_zh": "交通警察总队是一支什么样的反动部队",
    "kind": "chapter",
    "printed_first": 168,
-   "printed_last": 169
+   "printed_last": 169,
+   "title_en": "The Traffic Police Corps: What Kind of Reactionary Force It Was"
   },
   {
    "id": "ch10",
@@ -116,7 +127,8 @@
    "title_zh": "军统对陕甘宁边区的罪恶活动",
    "kind": "chapter",
    "printed_first": 170,
-   "printed_last": 179
+   "printed_last": 179,
+   "title_en": "The Juntong against the Shaan-Gan-Ning Border Region"
   },
   {
    "id": "ch11",
@@ -125,7 +137,8 @@
    "title_zh": "胡宗南和戴笠、毛人凤的关系",
    "kind": "chapter",
    "printed_first": 180,
-   "printed_last": 192
+   "printed_last": 192,
+   "title_en": "Hu Zongnan's Relations with Dai Li and Mao Renfeng"
   },
   {
    "id": "ch12",
@@ -134,7 +147,8 @@
    "title_zh": "旧社会里的鸡鸣狗盗和侦缉人员",
    "kind": "chapter",
    "printed_first": 193,
-   "printed_last": 209
+   "printed_last": 209,
+   "title_en": "Thieves and Detectives in the Old Society"
   },
   {
    "id": "ch13",
@@ -143,7 +157,8 @@
    "title_zh": "中美特种技术合作所内幕",
    "kind": "chapter",
    "printed_first": 210,
-   "printed_last": 256
+   "printed_last": 256,
+   "title_en": "Inside the Sino-American Special Technical Cooperative Organization"
   },
   {
    "id": "ch14",
@@ -152,7 +167,8 @@
    "title_zh": "云南解放前夕军统在昆明的特务活动",
    "kind": "chapter",
    "printed_first": 257,
-   "printed_last": 305
+   "printed_last": 305,
+   "title_en": "Juntong Operations in Kunming on the Eve of Yunnan's Liberation"
   },
   {
    "id": "ch15",
@@ -161,7 +177,8 @@
    "title_zh": "昆明七一五",
    "kind": "chapter",
    "printed_first": 306,
-   "printed_last": 314
+   "printed_last": 314,
+   "title_en": "The Kunming Fifteenth of July"
   },
   {
    "id": "ch16",
@@ -170,7 +187,8 @@
    "title_zh": "阴谋诬陷中共的一个例证",
    "kind": "chapter",
    "printed_first": 315,
-   "printed_last": 318
+   "printed_last": 318,
+   "title_en": "A Case of Framing the Communists"
   },
   {
    "id": "ch17",
@@ -179,7 +197,8 @@
    "title_zh": "我受命暗杀杨杰将军的经过",
    "kind": "chapter",
    "printed_first": 319,
-   "printed_last": 322
+   "printed_last": 322,
+   "title_en": "How I Was Ordered to Assassinate General Yang Jie"
   },
   {
    "id": "ch18",
@@ -188,7 +207,8 @@
    "title_zh": "军统特务头子戴笠的继承人毛人凤",
    "kind": "chapter",
    "printed_first": 323,
-   "printed_last": 349
+   "printed_last": 349,
+   "title_en": "Mao Renfeng, Dai Li's Successor"
   },
   {
    "id": "ch19",
@@ -197,7 +217,8 @@
    "title_zh": "唐纵其人",
    "kind": "chapter",
    "printed_first": 350,
-   "printed_last": 391
+   "printed_last": 391,
+   "title_en": "Tang Zong"
   },
   {
    "id": "ch20",
@@ -206,7 +227,8 @@
    "title_zh": "保密局内幕",
    "kind": "chapter",
    "printed_first": 392,
-   "printed_last": 450
+   "printed_last": 450,
+   "title_en": "Inside the Bureau of Secrets Preservation"
   },
   {
    "id": "ch21",
@@ -215,7 +237,8 @@
    "title_zh": "我所知道的郑介民",
    "kind": "chapter",
    "printed_first": 451,
-   "printed_last": 495
+   "printed_last": 495,
+   "title_en": "What I Know of Zheng Jiemin"
   },
   {
    "id": "bm01_houji",
@@ -224,7 +247,8 @@
    "title_zh": "后记",
    "kind": "back",
    "printed_first": 496,
-   "printed_last": 498
+   "printed_last": 498,
+   "title_en": "Afterword"
   },
   {
    "id": "bm02_fuzai",
@@ -233,7 +257,8 @@
    "title_zh": "附载",
    "kind": "back",
    "printed_first": 499,
-   "printed_last": 501
+   "printed_last": 501,
+   "title_en": "Appendix: An Interview with Shen Zui"
   }
  ],
  "sources": {
@@ -264,7 +289,8 @@
   "bm02_fuzai": "data/zh/bm02_fuzai.txt"
  },
  "docs": {
-  "fm01_gaikuang": "out/fm01_gaikuang_reading.md"
+  "fm01_gaikuang": "out/fm01_gaikuang_reading.md",
+  "fm02_qianyan": "out/fm02_qianyan_reading.md"
  },
  "notes": "notes.json",
  "datelines": {},

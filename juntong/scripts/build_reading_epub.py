@@ -29,13 +29,13 @@ PNG = os.path.join(ROOT, "data", "png")
 BUILD = os.path.join(ROOT, "build")
 
 META = {
-    "title": "China's King of Assassins: Wang Yaqiao",
-    "title_zh": "中国暗杀王：王亚樵",
-    "author": "Dou Yingtai",
-    "author_zh": "窦应泰",
-    "publisher": "Tuanjie Publishing House (团结出版社), Beijing, 2007",
-    "isbn": "978-7-80130-758-3",
-    "uid": "urn:uuid:wang-yaqiao-full-book-1",
+    "title": "Inside the Juntong",
+    "title_zh": "军统内幕",
+    "author": "Shen Zui",
+    "author_zh": "沈醉",
+    "publisher": "Zhongguo Wenshi Chubanshe (中国文史出版社), Beijing, 2001",
+    "isbn": "978-7-5034-0755-0",
+    "uid": "urn:uuid:juntong-neimu-full-book-1",
 }
 
 CSS = """\
@@ -235,53 +235,64 @@ def render_glossary(gloss):
             continue
         parts.append("<h3>%s</h3><dl class=\"gloss\">"
                      % esc(section.replace("_", " ").title()))
-        for zh, rec in sorted(entries.items(), key=lambda kv: kv[1]["pinyin"]):
+        for zh, rec in sorted(entries.items(), key=lambda kv: kv[1]["en"]):
             note = (" · " + esc(rec["note"])) if rec.get("note") else ""
             status = ""
             if rec.get("status") == "provisional":
                 status = " · <i>romanization mine; not found in English scholarship</i>"
             parts.append("<dt>%s <span lang=\"zh-Hans\">%s</span></dt>"
                          "<dd>%s%s%s</dd>"
-                         % (esc(rec["en"]), esc(zh), esc(rec["pinyin"]), note, status))
+                         % (esc(rec["en"]), esc(zh), esc(rec.get("pinyin", "")),
+                            note, status))
         parts.append("</dl>")
     return "\n".join(parts)
 
 
 TRANSLATOR_NOTE_BODY = """\
-<p class="note">The source is a scanned book with no digital text. The text
-was recovered by optical character recognition, read twice by independent
-engine configurations and diffed, and corrected against magnified images of
-the physical pages; every proper name and every load-bearing number that
-appears here was verified against the scan rather than trusted to the OCR.
-A complete bilingual audit file, keyed paragraph by paragraph to the Chinese
-and marking every reading I could not fully confirm, exists alongside this
-edition for anyone who wants to check the translation's workings.</p>
-<p class="note">Where a chapter opens with a bracketed line of
-place and date, that line is mine, not the author's, and a note on it says so
-and gives my reasoning. Chapters that carry no such line are the ones the
-author dated himself in his own opening sentence; there I have left his date
-to stand alone rather than print a guess beside a fact.</p>
-<p class="note">Renderings of names follow pinyin except where an English
-conventional form exists (Chiang Kai-shek, Sun Yat-sen). Names marked in the
+<p class="note">The source is a scanned book with no digital text layer. The
+text was recovered by optical character recognition and corrected against
+magnified images of the physical pages; every proper name and every
+load-bearing number in this edition was read off the scan rather than trusted
+to the OCR. That matters more here than it sounds. On these pages OCR does not
+fail into gibberish, which anyone would notice: it fails into other real
+Chinese words. In the four pages of the opening chapter alone it turned
+thirteen names into plausible different ones, among them Zhang Guotao, a
+founder of the Chinese Communist Party, whom it rendered as a man who never
+existed. Every reading recovered that way is recorded, with the page it was
+checked on, in the project's correction ledger.</p>
+<p class="note">Renderings follow pinyin except where an established English
+form exists (Chiang Kai-shek, Whampoa, Chungking). Names marked in the
 glossary as provisional are romanizations of my own that I could not find
-attested in English-language scholarship. Notes state, where the book
-crosses documented history, whether the book's claim is corroborated,
-uncorroborated, or contradicted by the scholarship I could reach.</p>
-<p class="note">The book is popular history in a novelistic key —
-scenes, dialogue and inner thoughts are dramatized well beyond what any
-source could support. The translation keeps that voice. It should be read as
-storytelling built on a real life, not as documentation of one.</p>"""
+attested in English-language scholarship.</p>
+<p class="note">This book is a memoir, and its register is part of the
+evidence. Shen Zui served the Juntong for eighteen years, was captured in
+1949, was held as a war criminal for eleven, and wrote most of this between
+1962 and 1966 for a state historical-materials series, at Zhou Enlai's
+personal request and under an explicit commission to serve as what the period
+called a teacher by negative example. The English keeps the vocabulary that
+commission produced -- criminal activities, the reactionaries, my crimes --
+rather than smoothing it into neutral prose, because softening it would
+destroy the clearest evidence the book carries of the conditions under which
+it was written. Notes point this out where a reader would otherwise miss it,
+and say, where the book crosses documented history, whether its claims are
+corroborated, uncorroborated or contradicted.</p>
+<p class="note">He is also an interested witness writing about his own
+crimes, for readers who had the power to return him to prison. Read him as
+testimony, not as documentation: valuable because he was in the room, and
+shaped throughout by why he was allowed to say so.</p>"""
 
 
 def coverage_sentence(chapters):
     names = [c["nav"].split(":")[0] for c in chapters]
-    if len(names) == 17:
+    if len(names) == 25:
         return ("<p class=\"note\">This edition contains the complete book: "
-                "prologue and all fifteen chapters (printed pages 1 to 325 of "
-                "the second edition, Tuanjie Publishing House, Beijing, "
-                "2007).</p>")
-    return ("<p class=\"note\">This build contains: %s. Remaining chapters "
-            "follow in later builds.</p>" % ", ".join(esc(n) for n in names))
+                "front matter, all twenty-one chapters and the back matter "
+                "(printed pages 1 to 501 of the third edition, Zhongguo "
+                "Wenshi Chubanshe, Beijing, 2001).</p>")
+    return ("<p class=\"note\">This is an interim build of a translation in "
+            "progress. It contains %d of the book's 25 units: %s. The rest "
+            "follow in later builds.</p>"
+            % (len(names), ", ".join(esc(n) for n in names)))
 
 
 def write(path, body, title):
@@ -290,9 +301,20 @@ def write(path, body, title):
 
 
 def main(epub_path):
-    book = load_json("book.json", [])
-    chapters = [c for c in book
-                if os.path.exists(os.path.join(ROOT, c["file"]))]
+    # book.json here is the structure map for the whole book: a dict with a
+    # "units" list covering front matter, chapters and back matter alike.
+    # Units whose translation does not exist yet are skipped, so an interim
+    # build works at any point in the run.
+    book = load_json("book.json", {})
+    chapters = []
+    for u in book.get("units", []):
+        rel = "out/%s_reading.md" % u["id"]
+        if not os.path.exists(os.path.join(ROOT, rel)):
+            continue
+        c = dict(u)
+        c["file"] = rel
+        c["nav"] = u.get("nav") or u.get("title_en") or u["id"]
+        chapters.append(c)
     if not chapters:
         sys.exit("no chapter markdown found; check book.json")
 

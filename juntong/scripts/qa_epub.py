@@ -97,8 +97,18 @@ def main(path):
     spine_order = [manifest[ref.get("idref")] for ref in
                    opf.findall(".//" + OPF + "itemref")
                    if ref.get("idref") in manifest]
+    # Identify content documents by EXCLUDING the known apparatus documents,
+    # rather than by matching a filename pattern. The pattern version looked
+    # for prologue/chNN and silently reported "0 documents, 0 paragraphs" the
+    # first time a unit was named anything else -- here the front matter,
+    # fm01_gaikuang. A check that quietly measures nothing is worse than no
+    # check, and this one is meant to be the last gate before a build ships,
+    # so it must not depend on a naming convention it does not enforce.
+    APPARATUS = {"titlepage.xhtml", "nav.xhtml", "notes.xhtml",
+                 "backmatter.xhtml"}
     content_docs = [d for d in spine_order
-                    if re.search(r"(prologue|ch\d\d)\.xhtml$", d)]
+                    if posixpath.basename(d) not in APPARATUS
+                    and d.endswith(".xhtml")]
 
     total_paras = 0
     for doc in content_docs:

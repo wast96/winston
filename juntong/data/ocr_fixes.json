@@ -1,0 +1,114 @@
+{
+ "fm01_gaikuang": [
+  {
+   "wrong": "郑锡鹿",
+   "right": "郑锡麟",
+   "page": 6,
+   "why": "Ten-Man Team member; crop-verified"
+  },
+  {
+   "wrong": "一九八年",
+   "right": "一九八〇年",
+   "page": 6,
+   "why": "year 1980; the 〇 dropped in OCR"
+  },
+  {
+   "wrong": "岂料",
+   "right": "酆悌",
+   "page": 7,
+   "why": "Lixingshe founding council; crop-verified"
+  },
+  {
+   "wrong": "潘估强",
+   "right": "潘佑强",
+   "page": 7,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "印开基",
+   "right": "邱开基",
+   "page": 7,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "候志明",
+   "right": "侯志明",
+   "page": 7,
+   "why": "surname 侯 not 候; crop-verified"
+  },
+  {
+   "wrong": "徐因曾",
+   "right": "徐恩曾",
+   "page": 7,
+   "why": "head of the Zhongtong; crop-verified"
+  },
+  {
+   "wrong": "贺友组",
+   "right": "贺耀组",
+   "page": 7,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "钱大钓",
+   "right": "钱大钧",
+   "page": 7,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "林幸",
+   "right": "林蔚",
+   "page": 7,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "玫珈山",
+   "right": "珞珈山",
+   "page": 7,
+   "why": "Luojia Hill, Wuchang; crop-verified"
+  },
+  {
+   "wrong": "番戒委员会",
+   "right": "惩戒委员会",
+   "page": 8,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "张国琳",
+   "right": "张国焘",
+   "page": 8,
+   "why": "Zhang Guotao, CCP founder; crop-verified"
+  }
+ ],
+ "fm02_qianyan": [
+  {
+   "wrong": "工作十和年",
+   "right": "工作十八年",
+   "page": 10,
+   "why": "eighteen years; the mangled 八 left a bare 十 that the numeric check read as a dropped 10"
+  },
+  {
+   "wrong": "我们十别总理时",
+   "right": "我们辞别总理时",
+   "page": 13,
+   "why": "辞别 (take leave of); the mangled 辞 left a bare 十 reported as a dropped 10"
+  },
+  {
+   "wrong": "黄效先生",
+   "right": "黄雍先生",
+   "page": 15,
+   "why": "Huang Yong, CPPCC member and Ten-Man Team member; crop-verified"
+  },
+  {
+   "wrong": "郑锡记",
+   "right": "郑锡麟",
+   "page": 15,
+   "why": "same man as in fm01; crop-verified"
+  },
+  {
+   "wrong": "周因来",
+   "right": "周恩来",
+   "page": 10,
+   "why": "Zhou Enlai"
+  }
+ ]
+}

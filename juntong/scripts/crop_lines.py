@@ -97,6 +97,11 @@ def main():
                     help="PAGE:TERM pairs, so one image can span pages")
     ap.add_argument("--out", default="/tmp/crop_lines.png")
     ap.add_argument("--scale", type=float, default=2.0)
+    ap.add_argument("--pad", type=int, default=26,
+                    help="extra rows above and below; raise it to show "
+                         "neighbouring lines when the OCR line index and the "
+                         "printed row bands drift apart, which happens when "
+                         "tesseract merges or splits a printed line")
     a = ap.parse_args()
 
     jobs = [(a.page, t) for t in a.terms]
@@ -106,7 +111,7 @@ def main():
 
     tiles, labels = [], []
     for pg, term in jobs:
-        im = strip(pg, term, scale=a.scale)
+        im = strip(pg, term, pad=a.pad, scale=a.scale)
         if im is None:
             print("  NOT LOCATED  p%-4d %s" % (pg, term))
             continue

@@ -66,7 +66,27 @@ NOISE = [
     r"朝三暮四", r"一清二楚", r"信心十足", r"十恶不赦", r"几秒",
     r"礼让三分", r"一哆嗦", r"三大[亨闻]", r"一拥而", r"一沓",
     r"一箭双雕", r"一迭声",
+    # project additions
+    r"万分", r"十多年", r"三十多",
 ]
+
+# A noise pattern that BEGINS with a numeral can eat the TAIL of a larger
+# numeral, which is the same prefix-eating trap as the ordering rule above
+# arriving from the other end. 一日 fired inside 二十一日 and left 二十
+# behind, and the check duly reported a dropped "20" against a translation
+# that said "21 February". Guarding with a lookbehind makes such a pattern
+# fire only when its numeral is not part of a longer one.
+_NUM_CHARS = "零一二两三四五六七八九十百千万"
+
+
+def _guard(pat):
+    head = pat[1:pat.index("]")] if pat.startswith("[") and "]" in pat else pat[:1]
+    if any(c in _NUM_CHARS for c in head):
+        return r"(?<![%s])%s" % (_NUM_CHARS, pat)
+    return pat
+
+
+NOISE = [_guard(p) for p in NOISE]
 
 
 def cn_to_int(token):
@@ -142,6 +162,8 @@ def spelled_numbers(low):
         found.add(100)
     if re.search(r"\ba thousand\b", low):
         found.add(1000)
+    if re.search(r"\ba million\b", low):
+        found.add(1000000)
     for ones, oval in ONES.items():
         if re.search(r"\b%s hundred thousand\b" % ones, low):
             found.add(oval * 100000)
