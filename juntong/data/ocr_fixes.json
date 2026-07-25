@@ -2181,6 +2181,96 @@
    "right": "江北寸滩",
    "page": 119,
    "why": "Cuntan, Jiangbei; crop-verified"
+  },
+  {
+   "wrong": "涂肆捕人",
+   "right": "滥肆捕人",
+   "page": 120,
+   "why": "seized and confined people at will; crop-verified"
+  },
+  {
+   "wrong": "一同专管偷穷",
+   "right": "一向专管偷窃",
+   "page": 120,
+   "why": "had always dealt with theft"
+  },
+  {
+   "wrong": "豪无证据",
+   "right": "毫无证据",
+   "page": 120,
+   "why": "without a shred of evidence"
+  },
+  {
+   "wrong": "没有在重庆人帮的",
+   "right": "没有在重庆入帮的",
+   "page": 120,
+   "why": "had not joined a gang in Chungking"
+  },
+  {
+   "wrong": "找不到救游的地方",
+   "right": "找不到救济的地方",
+   "page": 120,
+   "why": "could find no relief"
+  },
+  {
+   "wrong": "便狼而走险",
+   "right": "便铤而走险",
+   "page": 120,
+   "why": "took a desperate course"
+  },
+  {
+   "wrong": "交到侦绷队",
+   "right": "交到侦缉队",
+   "page": 120,
+   "why": "the detective squad"
+  },
+  {
+   "wrong": "从上上海逃到",
+   "right": "从上海逃到",
+   "page": 120,
+   "why": "spurious 上"
+  },
+  {
+   "wrong": "初出芒访被逼猎而走险",
+   "right": "初出茅庐被逼铤而走险",
+   "page": 121,
+   "why": "newcomers driven to desperate courses; crop-verified"
+  },
+  {
+   "wrong": "被捕的窃资",
+   "right": "被捕的窃贼",
+   "page": 121,
+   "why": "the thieves arrested"
+  },
+  {
+   "wrong": "如摸火此一样",
+   "right": "如摸火柴一样",
+   "page": 121,
+   "why": "like feeling for a match; crop-verified"
+  },
+  {
+   "wrong": "挨门而人的小偷",
+   "right": "挨门而入的小偷",
+   "page": 121,
+   "why": "going in door to door"
+  },
+  {
+   "wrong": "屡试不克",
+   "right": "屡试不爽",
+   "page": 121,
+   "why": "never once wrong; crop-verified"
+  },
+  {
+   "wrong": "如石沈大海",
+   "right": "如石沉大海",
+   "page": 121,
+   "why": "like a stone into the sea"
+  },
+  {
+   "wrong": "主人没有失穷",
+   "right": "主人没有失窃",
+   "page": 121,
+   "why": "the master had lost nothing"
   }
  ]
 }
