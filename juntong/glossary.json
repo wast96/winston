@@ -175,7 +175,8 @@
   },
   "梁干乔": {
    "en": "Liang Ganqiao",
-   "status": "attested"
+   "status": "attested",
+   "note": "Whampoa 1st class; expelled from the CCP as a Trotskyist 1929."
   },
   "杨继荣": {
    "en": "Yang Jirong",
@@ -189,6 +190,117 @@
    "en": "Zhang Guotao",
    "status": "attested",
    "note": "CCP founder, defected to the Nationalists 1938; ran the Juntong's Special Political Problems Research Office. OCR read 张国琳 - a real catch."
+  },
+  "余乐醒": {
+   "en": "Yu Lexing",
+   "status": "attested",
+   "note": "Deputy director of the Linli class; Communist renegade, trained in France and the USSR."
+  },
+  "谢力公": {
+   "en": "Xie Ligong",
+   "status": "provisional"
+  },
+  "李人士": {
+   "en": "Li Renshi",
+   "status": "provisional",
+   "note": "Juntong Hunan station chief."
+  },
+  "陶一珊": {
+   "en": "Tao Yishan",
+   "status": "attested"
+  },
+  "汪祖华": {
+   "en": "Wang Zuhua",
+   "status": "provisional"
+  },
+  "廖华平": {
+   "en": "Liao Huaping",
+   "status": "provisional",
+   "note": "CCP renegade; political instructor at Linli."
+  },
+  "王崇五": {
+   "en": "Wang Chongwu",
+   "status": "provisional",
+   "note": "OCR read 王尝五; crop-verified."
+  },
+  "吴景中": {
+   "en": "Wu Jingzhong",
+   "status": "provisional"
+  },
+  "陆遂初": {
+   "en": "Lu Suichu",
+   "status": "provisional"
+  },
+  "蒋镇南": {
+   "en": "Jiang Zhennan",
+   "status": "provisional",
+   "note": "Trained in Germany; adapted the Nazi party anthem into the Juntong's song. OCR gave 薪镇南 and 菏镇南; crop-verified."
+  },
+  "金民杰": {
+   "en": "Jin Minjie",
+   "status": "provisional",
+   "note": "Korean; unarmed-combat instructor."
+  },
+  "严燮": {
+   "en": "Yan Xie",
+   "status": "provisional",
+   "note": "Student killed in a training bout. OCR gave 严杰 and 严你; crop-verified."
+  },
+  "刘颖": {
+   "en": "Liu Ying",
+   "status": "provisional",
+   "note": "Student drowned in compulsory swimming."
+  },
+  "唐生明": {
+   "en": "Tang Shengming",
+   "status": "attested"
+  },
+  "徐来": {
+   "en": "Xu Lai",
+   "status": "attested",
+   "note": "Film actress; Tang Shengming's wife."
+  },
+  "毛森": {
+   "en": "Mao Sen",
+   "status": "attested"
+  },
+  "叶剑英": {
+   "en": "Ye Jianying",
+   "status": "attested"
+  },
+  "孙元良": {
+   "en": "Sun Yuanliang",
+   "status": "attested"
+  },
+  "黄雍": {
+   "en": "Huang Yong",
+   "status": "attested",
+   "note": "CPPCC member; one of the Ten-Man Team. OCR read 黄效; crop-verified."
+  },
+  "袁铭鼎": {
+   "en": "Yuan Mingding",
+   "status": "provisional",
+   "note": "OCR read 喜铭易; crop-verified."
+  },
+  "黄炳炎": {
+   "en": "Huang Bingyan",
+   "status": "provisional"
+  },
+  "李葆初": {
+   "en": "Li Baochu",
+   "status": "provisional"
+  },
+  "刘子英": {
+   "en": "Liu Ziying",
+   "status": "provisional"
+  },
+  "张明选": {
+   "en": "Zhang Mingxuan",
+   "status": "provisional"
+  },
+  "吕世琨": {
+   "en": "Lü Shikun",
+   "status": "provisional"
   }
  },
  "organisations": {
@@ -266,6 +378,39 @@
   "四一大会": {
    "en": "the April the First Assembly",
    "status": "decided"
+  },
+  "临澧特别训练班": {
+   "en": "the Linli Special Training Class",
+   "status": "decided"
+  },
+  "忠义救国军": {
+   "en": "the Loyal and Patriotic Army",
+   "status": "attested"
+  },
+  "新四军": {
+   "en": "the New Fourth Army",
+   "status": "attested"
+  },
+  "中央警官学校": {
+   "en": "the Central Police Academy",
+   "status": "attested"
+  },
+  "中央军校七分校": {
+   "en": "the Seventh Branch of the Central Military Academy",
+   "status": "attested"
+  },
+  "滨澧同学会": {
+   "en": "the Binli Alumni Association",
+   "status": "decided",
+   "note": "滨澧 = 'on the banks of the Li'."
+  },
+  "鲁迅艺术学院": {
+   "en": "the Lu Xun Academy of Arts",
+   "status": "attested"
+  },
+  "新华日报": {
+   "en": "the New China Daily",
+   "status": "attested"
   }
  },
  "terms": {
@@ -292,6 +437,26 @@
    "en": "operations",
    "status": "decided",
    "note": "In Juntong usage 行动 is the killing-and-abduction side of the service."
+  },
+  "工作太太": {
+   "en": "working wife",
+   "status": "decided",
+   "note": "A woman assigned to an agent going into occupied territory as cover and household."
+  },
+  "行动术": {
+   "en": "operational technique",
+   "status": "decided",
+   "note": "The Juntong course covering arrest, kidnapping, assassination and sabotage; never printed, taught orally."
+  },
+  "实习品": {
+   "en": "practice material",
+   "status": "decided",
+   "note": "Literally 'practice article'; used of a human being."
+  },
+  "同学": {
+   "en": "fellow student",
+   "status": "decided",
+   "note": "The Linli graduates' form of address, against the Juntong's general 同志 'comrade'."
   }
  },
  "places": {
@@ -336,6 +501,27 @@
    "en": "Dai Hill",
    "status": "decided",
    "note": "As printed in this book for the crash site; other sources give 岱山. Preserved as printed and noted."
+  },
+  "黔阳": {
+   "en": "Qianyang",
+   "status": "attested"
+  },
+  "常德": {
+   "en": "Changde",
+   "status": "attested"
+  },
+  "长沙": {
+   "en": "Changsha",
+   "status": "attested"
+  },
+  "延安": {
+   "en": "Yan'an",
+   "status": "attested"
+  },
+  "渣滓洞": {
+   "en": "the Bath Cave (Zhazidong)",
+   "status": "decided",
+   "note": "Chungking prison; the name means 'dross pit'."
   }
  }
 }

@@ -32,15 +32,36 @@ def paras(path, head_prefix):
     return out
 
 
+def collapse(src, spec):
+    """Join a declared run of source paragraphs into one block.
+
+    Where the translation deliberately renders several source paragraphs as a
+    single block, the QC file has to fold the same run or every pair after it
+    is misaligned and the numeric check compares unrelated paragraphs with
+    complete confidence. The run is declared in book.json alongside the parity
+    exception, so the two can never drift apart.
+    """
+    if not spec:
+        return src
+    lo, hi = spec
+    return src[:lo - 1] + ["".join(src[lo - 1:hi])] + src[hi:]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("unit")
+    ap.add_argument("--config", default=os.path.join(ROOT, "book.json"))
     a = ap.parse_args()
 
     src_path = os.path.join(ROOT, "data", "zh", "%s.txt" % a.unit)
     tgt_path = os.path.join(ROOT, "out", "%s_reading.md" % a.unit)
     src = paras(src_path, "###")
     tgt = paras(tgt_path, "#")
+
+    import json
+    cfg = json.load(open(a.config)) if os.path.exists(a.config) else {}
+    exc = cfg.get("parity_exceptions", {}).get(a.unit, {})
+    src = collapse(src, exc.get("collapse"))
 
     if len(src) != len(tgt):
         print("PARITY MISMATCH source %d translation %d - run check_structure "

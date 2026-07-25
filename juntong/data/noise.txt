@@ -1,0 +1,22 @@
+# Project noise for 军统内幕. One regex per line.
+# NAMES CONTAINING NUMERALS. Chinese personal and place names freely contain
+# number characters, and every one of them reads to the checker as a quantity
+# the translation dropped. These are the ones this book actually uses.
+王崇五
+王百刚
+周万尝
+王[一二三四五六七八九十百千万][^，、。]
+四十八都
+# IDIOMS AND SET PHRASES
+老百姓
+百忙
+唾沫四溅
+两三百
+两国
+百货
+第二天
+十来
+一命呜呼
+三步一岗
+五步一哨
+一针见血

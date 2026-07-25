@@ -123,8 +123,14 @@ def cn_to_int(token):
 
 
 def source_numbers(text, extra_noise=()):
+    # PROJECT NOISE FIRST. The built-in list is generic and its patterns are
+    # short; a project pattern is by definition the more specific of the two,
+    # and running the generic list first lets it eat the front of the specific
+    # one. 两[三边] consumed the 两三 of 两三百 and left a bare 百 that no
+    # rendering of "two or three hundred" could account for. Same prefix-eating
+    # trap as the ordering rule inside NOISE, one level up.
     stripped = text
-    for pat in list(NOISE) + list(extra_noise):
+    for pat in list(extra_noise) + list(NOISE):
         stripped = re.sub(pat, "", stripped)
     nums = set(int(n) for n in re.findall(r"\d+", stripped))
     for tok in re.findall(r"[零一二两三四五六七八九十百千万]+", stripped):
@@ -148,6 +154,23 @@ def spelled_numbers(low):
         if re.search(r"\b" + tens + r"[- ]?\w* ?thousand\b", low):
             found.add(tval // 10)
             found.add(tval * 1000)
+    # Unit designations are ordinals in English and cardinals in the source:
+    # 十六兵团 is the "Sixteenth Army Group", 第二十六军 the "Twenty-Sixth
+    # Army". Unit numbers are load-bearing, so these must resolve rather than
+    # be silenced as noise.
+    ORD = {"first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5,
+           "sixth": 6, "seventh": 7, "eighth": 8, "ninth": 9, "tenth": 10,
+           "eleventh": 11, "twelfth": 12, "thirteenth": 13, "fourteenth": 14,
+           "fifteenth": 15, "sixteenth": 16, "seventeenth": 17,
+           "eighteenth": 18, "nineteenth": 19, "twentieth": 20,
+           "thirtieth": 30, "fortieth": 40, "fiftieth": 50}
+    for word, val in ORD.items():
+        if re.search(r"\b" + word + r"\b", low):
+            found.add(val)
+    for tens, tval in TENS.items():
+        for word, val in ORD.items():
+            if re.search(r"\b%s[- ]%s\b" % (tens, word), low):
+                found.add(tval + val)
     for teen, tval in TEENS.items():
         if re.search(r"\b" + teen + r"\b", low):
             found.add(tval)

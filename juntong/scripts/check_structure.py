@@ -60,7 +60,16 @@ def body_lines(path, skip_heads=True):
     return out
 
 
-def check_parity(src_path, tgt_path, src_head_prefix='###'):
+def check_parity(src_path, tgt_path, src_head_prefix='###', exception=None):
+    """exception: {"delta": int, "why": str} for a DELIBERATE departure from
+    one-to-one rendering.
+
+    There is exactly one legitimate reason for the counts to differ, and it
+    must be declared in the config, printed on every run, and carry a written
+    reason -- otherwise the exception list becomes a way of silencing the very
+    check that catches dropped paragraphs. A mismatch of any size other than
+    the declared delta still fails.
+    """
     all_src = body_lines(src_path, skip_heads=False)
     src = [l for l in all_src if not l.startswith(src_head_prefix)]
     # Drop the chapter title ONLY if it was not already removed as a heading.
@@ -71,10 +80,14 @@ def check_parity(src_path, tgt_path, src_head_prefix='###'):
     if len(src) == len(all_src) and src:
         src = src[1:]
     tgt = body_lines(tgt_path)
-    ok = len(src) == len(tgt)
-    print("  parity %-22s source %3d | translation %3d  %s"
+    delta = (exception or {}).get('delta', 0)
+    ok = len(src) + delta == len(tgt)
+    note = ''
+    if delta:
+        note = '  [declared %+d: %s]' % (delta, (exception or {}).get('why', ''))
+    print("  parity %-22s source %3d | translation %3d  %s%s"
           % (os.path.basename(tgt_path), len(src), len(tgt),
-             "OK" if ok else "MISMATCH"))
+             "OK" if ok else "MISMATCH", note))
     return ok
 
 
@@ -168,7 +181,9 @@ def main():
     if cfg.get('sources'):
         for cid, sp in cfg['sources'].items():
             if cid in docs:
-                ok &= check_parity(sp, docs[cid])
+                ok &= check_parity(sp, docs[cid],
+                                   exception=cfg.get('parity_exceptions',
+                                                     {}).get(cid))
     if cfg.get('notes'):
         ok &= check_anchors(cfg['notes'], docs, cfg.get('datelines'),
                             a.show_multi)

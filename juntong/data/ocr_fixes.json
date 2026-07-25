@@ -110,5 +110,91 @@
    "page": 10,
    "why": "Zhou Enlai"
   }
+ ],
+ "ch01": [
+  {
+   "wrong": "车统培训特务的内大",
+   "right": "军统培训特务的内幕",
+   "page": 20,
+   "why": "chapter title"
+  },
+  {
+   "wrong": "从平统临淡特训班",
+   "right": "从军统临澧特训班",
+   "page": 20,
+   "why": "subtitle; 临澧 is mangled throughout"
+  },
+  {
+   "wrong": "王尝五",
+   "right": "王崇五",
+   "page": 20,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "沈醇",
+   "right": "沈醉",
+   "page": 24,
+   "why": "THE AUTHOR'S OWN NAME, mangled by OCR; crop-verified"
+  },
+  {
+   "wrong": "薪镇南",
+   "right": "蒋镇南",
+   "page": 26,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "菏镇南",
+   "right": "蒋镇南",
+   "page": 26,
+   "why": "same man, second mangle"
+  },
+  {
+   "wrong": "严杰",
+   "right": "严燮",
+   "page": 32,
+   "why": "the student killed in a training bout; crop-verified"
+  },
+  {
+   "wrong": "严你",
+   "right": "严燮",
+   "page": 32,
+   "why": "same man, second mangle"
+  },
+  {
+   "wrong": "喜铭易",
+   "right": "袁铭鼎",
+   "page": 46,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "深干乔",
+   "right": "梁干乔",
+   "page": 21,
+   "why": "same man as 梁干乔 elsewhere in the paragraph"
+  },
+  {
+   "wrong": "他的老冰某某",
+   "right": "他的老婆某某",
+   "page": 46,
+   "why": "老婆 (wife); context unambiguous"
+  },
+  {
+   "wrong": "正是需要二部时",
+   "right": "正是需要干部时",
+   "page": 42,
+   "why": "干部 (cadres); crop-verified. The mangled 干 left a bare 二 the numeric check read as a dropped 2"
+  },
+  {
+   "wrong": "学生传六《新华日报》",
+   "right": "学生传阅《新华日报》",
+   "page": 29,
+   "why": "传阅 (passing round). CONTEXTUAL, not crop-verified: the line index drifted and the crop showed a neighbour. Reading is certain from sense; flagged as inference rather than sight"
+  },
+  {
+   "wrong": "唱一次“班歌”7”",
+   "right": "唱一次“班歌”？",
+   "page": 26,
+   "why": "the 7 is OCR for a question mark, and was being counted as the numeral seven"
+  }
  ]
 }

@@ -168,6 +168,53 @@ replayed by script. 18 entries so far.
 - The book prints 戴山 for the hill Dai Li's aircraft struck, where other
   sources give 岱山. Preserved as printed and noted; not silently corrected.
 
+### ch01 (军统培训特务的内幕 / Inside the Juntong's Training of Agents) - DONE
+
+- PDF 20-47, printed 1-28. 97 source paragraphs, 92 translated (declared -5:
+  see the song appendix below). 5 sections.
+- Crop verification caught 13 more source errors, including **the author's own
+  name**: 沈醉 was OCR'd 沈醇 in the one paragraph where he lists himself among
+  the staff. Also 王尝五→王崇五, 薪镇南/菏镇南→蒋镇南, 严杰/严你→严燮 (the
+  student beaten to death in a training bout), 喜铭易→袁铭鼎, and 正是需要二部
+  →正是需要干部.
+- Checks: parity OK with the declared exception, anchors 45/45, numbers
+  0 unresolved across 92 pairs, headings consistent, register within tolerance.
+- Notes: 45, i.e. 1.6 per printed page, against 3.0 in fm01 and 2.3 in fm02.
+  Deliberately not padded: a third of this chapter is personnel rosters -
+  ninety-odd names of company commanders and platoon leaders - which need no
+  glossing and would not be improved by it. The density is where the material
+  earns it, and this is the justification on record.
+- Glossary: +42 entries (117 total).
+- EPUB rebuilt: 3 documents, 125 paragraphs, 71 notes, qa_epub PASS.
+
+### THE SONG APPENDIX - a decision Winston should confirm
+
+The chapter ends its second section by printing the full lyric of the class
+song, which became the Juntong's own anthem. That lyric is characterised in one
+editorial block rather than set out line by line; the two lines Shen Zui himself
+singles out, and on which his whole argument rests - the leader's safety before
+the state's territory - are quoted in the body where he makes the point. The
+departure is declared in `book.json` as a parity exception with a written
+reason, printed on every run of the structural check, and the QC file folds the
+same run so the numeric check stays aligned. Say if you want the lyric rendered
+in full instead; it is four lines of conventional period exhortation and
+nothing in the argument turns on it.
+
+### The numeric check earned its keep this chapter
+
+17 flags on first run, all adjudicated: 3 were OCR errors in the source, TWO
+WERE REAL OMISSIONS IN MY TRANSLATION - a dropped "four rounds" from Tao
+Yishan's mahjong remark, and a dropped "two" from "the two specialities of
+telecommunications and accounting" - and the other 12 were names containing
+numerals (王崇五, 王百刚, 周万尝) and period idioms. Fixes made:
+- English ordinals now resolve, so 十六兵团 as "Sixteenth Army Group" and
+  第二十六军 as "Twenty-Sixth Army" stop reading as dropped unit numbers. Unit
+  numbers are load-bearing and must not be silenced as noise.
+- Project noise moved to `data/noise.txt` and applied BEFORE the built-in list,
+  not after. The generic 两[三边] was eating the front of the project's 两三百
+  and leaving a bare 百 - the same prefix-eating trap as inside NOISE, one
+  level up.
+
 ## Pending decisions
 
 - **Chapter 1 contains an appendix printing the full lyrics of the training
