@@ -3609,6 +3609,60 @@
    "right": "中干特务活动",
    "page": 139,
    "why": "carried on secret-service work"
+  },
+  {
+   "wrong": "对策系骨干分子",
+   "right": "对嫡系骨干分子",
+   "page": 139,
+   "why": "his own inner-circle cadres; crop-verified"
+  },
+  {
+   "wrong": "俞自导得到",
+   "right": "俞自恃得到",
+   "page": 140,
+   "why": "Yu presumed on having; crop-verified"
+  },
+  {
+   "wrong": "上了性的手枪",
+   "right": "上了膛的手枪",
+   "page": 140,
+   "why": "loaded pistols; crop-verified"
+  },
+  {
+   "wrong": "拉拢地方于部",
+   "right": "拉拢地方干部",
+   "page": 139,
+   "why": "win over local cadres"
+  },
+  {
+   "wrong": "经常瞳中注意",
+   "right": "经常暗中注意",
+   "page": 139,
+   "why": "kept covert watch"
+  },
+  {
+   "wrong": "考核于部",
+   "right": "考核干部",
+   "page": 139,
+   "why": "assessing cadres"
+  },
+  {
+   "wrong": "孔祥申",
+   "right": "孔祥熙",
+   "page": 140,
+   "why": "H. H. Kung"
+  },
+  {
+   "wrong": "蒋介厂对此",
+   "right": "蒋介石对此",
+   "page": 140,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "渗人兵工厂",
+   "right": "渗入兵工厂",
+   "page": 142,
+   "why": "infiltrate the arsenals"
   }
  ]
 }
