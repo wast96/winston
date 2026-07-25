@@ -3231,6 +3231,90 @@
    "right": "鼓励她们",
    "page": 132,
    "why": "encouraged them"
+  },
+  {
+   "wrong": "增添腑烦",
+   "right": "增添麻烦",
+   "page": 133,
+   "why": "caused trouble; crop-verified"
+  },
+  {
+   "wrong": "大发雷任",
+   "right": "大发雷霆",
+   "page": 133,
+   "why": "flew into a rage; crop-verified"
+  },
+  {
+   "wrong": "扎祥黑",
+   "right": "孔祥熙",
+   "page": 133,
+   "why": "H. H. Kung; crop-verified"
+  },
+  {
+   "wrong": "也时党有人",
+   "right": "也时常有人",
+   "page": 133,
+   "why": "often enough someone; crop-verified"
+  },
+  {
+   "wrong": "写信痛号",
+   "right": "写信痛骂",
+   "page": 133,
+   "why": "wrote abusive letters; crop-verified"
+  },
+  {
+   "wrong": "查明加他们的人",
+   "right": "查明骂他们的人",
+   "page": 133,
+   "why": "find out who had abused them; crop-verified"
+  },
+  {
+   "wrong": "为此加戴笠表示不满",
+   "right": "为此向戴笠表示不满",
+   "page": 133,
+   "why": "complained to Dai Li"
+  },
+  {
+   "wrong": "发牢孜",
+   "right": "发牢骚",
+   "page": 133,
+   "why": "grumbled"
+  },
+  {
+   "wrong": "挨了加也得怪我们",
+   "right": "挨了骂也得怪我们",
+   "page": 133,
+   "why": "we are blamed for the abuse they take"
+  },
+  {
+   "wrong": "跑去癌陈赔礼",
+   "right": "跑去向陈赔礼",
+   "page": 133,
+   "why": "went to apologise to Chen"
+  },
+  {
+   "wrong": "重点是防读",
+   "right": "重点是防谍",
+   "page": 133,
+   "why": "counter-espionage; crop-verified"
+  },
+  {
+   "wrong": "一九四@〇年",
+   "right": "一九四〇年",
+   "page": 133,
+   "why": "NUMBER: the year 1940; crop-verified"
+  },
+  {
+   "wrong": "这个防恋组织",
+   "right": "这个防谍组织",
+   "page": 133,
+   "why": "this counter-espionage organization"
+  },
+  {
+   "wrong": "选派目己认为",
+   "right": "选派自己认为",
+   "page": 133,
+   "why": "whom they themselves considered"
   }
  ]
 }
