@@ -3315,6 +3315,24 @@
    "right": "选派自己认为",
    "page": 133,
    "why": "whom they themselves considered"
+  },
+  {
+   "wrong": "何成浓",
+   "right": "何成濬",
+   "page": 134,
+   "why": "He Chengjun, director of the Transport Control Bureau; crop-verified"
+  },
+  {
+   "wrong": "警卫移查组",
+   "right": "警卫稽查组",
+   "page": 135,
+   "why": "guard and inspection group"
+  },
+  {
+   "wrong": "处以不设立总务",
+   "right": "处以下设立总务",
+   "page": 134,
+   "why": "below the department were the general affairs and operations groups"
   }
  ]
 }
