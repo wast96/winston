@@ -1671,6 +1671,78 @@
    "right": "开亮冲着过去",
    "page": 108,
    "why": "drove straight at them"
+  },
+  {
+   "wrong": "黄家卉口",
+   "right": "黄家垭口",
+   "page": 110,
+   "why": "Huangjiayakou; crop-verified"
+  },
+  {
+   "wrong": "有例无处伸",
+   "right": "有冤无处伸",
+   "page": 111,
+   "why": "wronged with nowhere to appeal; crop-verified"
+  },
+  {
+   "wrong": "捐，和希望政府",
+   "right": "捐，希望政府",
+   "page": 110,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "她竞下令",
+   "right": "她竟下令",
+   "page": 110,
+   "why": "actually ordered"
+  },
+  {
+   "wrong": "工刻拿出",
+   "right": "立刻拿出",
+   "page": 110,
+   "why": "at once produced"
+  },
+  {
+   "wrong": "还搬心",
+   "right": "还担心",
+   "page": 110,
+   "why": "was worried"
+  },
+  {
+   "wrong": "是在的他的鬼",
+   "right": "是在捣他的鬼",
+   "page": 110,
+   "why": "was playing tricks on him"
+  },
+  {
+   "wrong": "去见戴签",
+   "right": "去见戴笠",
+   "page": 111,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "鬼鬼崇崇",
+   "right": "鬼鬼祟祟",
+   "page": 111,
+   "why": "furtive"
+  },
+  {
+   "wrong": "当敌机又炸时",
+   "right": "当敌机轰炸时",
+   "page": 111,
+   "why": "during enemy bombing"
+  },
+  {
+   "wrong": "街道上勿匆跑过",
+   "right": "街道上匆匆跑过",
+   "page": 111,
+   "why": "hurried along"
+  },
+  {
+   "wrong": "秘炸目标",
+   "right": "轰炸目标",
+   "page": 111,
+   "why": "bombing targets"
   }
  ]
 }
