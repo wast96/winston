@@ -361,6 +361,31 @@ boundaries. No prose was rewritten and none was found missing.
 State after the repair: parity OK on all five units, and check_align reports
 no pair straying from the median on any of them.
 
+## A TRUNCATION BUG IN MY OWN READING, AND WHAT CAUGHT IT
+
+Reading assembled source with `cut -c1-700` to keep chunks manageable. `cut -c`
+counts BYTES, not characters, so on UTF-8 Chinese the window was really about
+233 characters. Twenty-one of chapter 3's first 96 paragraphs were translated
+only as far as that cut, losing the second half of each -- including the whole
+middle of the Inspectorate's staffing paragraph (the three recalled deputy
+inspectors-general), the wireless-registration and interception passage, the
+Kong Lingjun confrontation, Liao Gongshao's traitor relations, and the entire
+close of the chapter's detective-brigade section.
+
+Nothing in the prose showed it: every truncated paragraph ended on a complete
+English sentence. `check_align.py` caught it, because the ratio of English
+characters to Han characters collapsed on exactly those pairs. That check was
+written for a different failure (source and translation slipping past one
+another) and found this one for free. It is the reason to keep ratio checks
+even when parity passes.
+
+All twenty-one repaired against the full source, with the OCR in the recovered
+tails crop-verified like the rest. ch03 now reports "alignment OK: no pair
+strays more than 2.2x from the median" across all 96 translated paragraphs.
+
+Reading the source in fixed-size chunks is now done by paragraph index in
+Python, never by `cut`.
+
 ## Wake-up routines
 
 Four routines fire into this session on the hour, offset to give a roughly

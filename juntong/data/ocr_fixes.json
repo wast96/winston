@@ -2331,6 +2331,474 @@
    "right": "替军统卖力",
    "page": 123,
    "why": "worked hard for the Juntong"
+  },
+  {
+   "wrong": "蕊上会传到",
+   "right": "马上会传到",
+   "page": 97,
+   "why": "would reach at once; crop-verified"
+  },
+  {
+   "wrong": "这一穹门",
+   "right": "这一窍门",
+   "page": 97,
+   "why": "the knack of it; crop-verified"
+  },
+  {
+   "wrong": "突然囚人",
+   "right": "突然闯入",
+   "page": 99,
+   "why": "burst in; crop-verified"
+  },
+  {
+   "wrong": "有点可多",
+   "right": "有点可疑",
+   "page": 99,
+   "why": "anything suspicious; crop-verified"
+  },
+  {
+   "wrong": "存心殴诈",
+   "right": "存心敲诈",
+   "page": 99,
+   "why": "deliberate extortion; crop-verified"
+  },
+  {
+   "wrong": "移枉坐牢",
+   "right": "冤枉坐牢",
+   "page": 99,
+   "why": "went to prison unjustly; crop-verified"
+  },
+  {
+   "wrong": "这一-点很满意",
+   "right": "这一点很满意",
+   "page": 97,
+   "why": "OCR hyphen artifact"
+  },
+  {
+   "wrong": "身着为人服装",
+   "right": "身着男人服装",
+   "page": 109,
+   "why": "dressed in men's clothes; crop-verified"
+  },
+  {
+   "wrong": "牌戴着帽子",
+   "right": "歪戴着帽子",
+   "page": 109,
+   "why": "cap askew; crop-verified"
+  },
+  {
+   "wrong": "头微微仲着",
+   "right": "头微微仰着",
+   "page": 109,
+   "why": "head tilted slightly back; crop-verified"
+  },
+  {
+   "wrong": "正竺发作",
+   "right": "正待发作",
+   "page": 109,
+   "why": "about to explode; crop-verified"
+  },
+  {
+   "wrong": "向隐介绍",
+   "right": "向陶介绍",
+   "page": 109,
+   "why": "introduced her to Tao"
+  },
+  {
+   "wrong": "他坐在我劳边",
+   "right": "他坐在我旁边",
+   "page": 109,
+   "why": "sat beside me"
+  },
+  {
+   "wrong": "具名远扬",
+   "right": "臭名远扬",
+   "page": 109,
+   "why": "notorious, lit. 'stinking name spread far'; crop-verified"
+  },
+  {
+   "wrong": "却关无其事",
+   "right": "却若无其事",
+   "page": 109,
+   "why": "as though nothing had happened; crop-verified"
+  },
+  {
+   "wrong": "身己仗着军统关系",
+   "right": "自己仗着军统关系",
+   "page": 123,
+   "why": "trading on my Juntong connections"
+  },
+  {
+   "wrong": "一张唐儿的名片",
+   "right": "一张唐毅的名片",
+   "page": 123,
+   "why": "Tang Yi's visiting card"
+  },
+  {
+   "wrong": "用那这张名片",
+   "right": "用这张名片",
+   "page": 123,
+   "why": "spurious 那"
+  },
+  {
+   "wrong": "将我办公集掀倒",
+   "right": "将我办公桌掀倒",
+   "page": 123,
+   "why": "overturned my desk"
+  },
+  {
+   "wrong": "只轻轻责备我儿句",
+   "right": "只轻轻责备我几句",
+   "page": 123,
+   "why": "a light reproof"
+  },
+  {
+   "wrong": "他毫不感兴趣",
+   "right": "他毫不感兴趣",
+   "page": 123,
+   "why": "kept as printed"
+  },
+  {
+   "wrong": "不大肯去于的",
+   "right": "不大肯去干的",
+   "page": 123,
+   "why": "was not much inclined to do"
+  },
+  {
+   "wrong": "便立刻实行打加",
+   "right": "便立刻实行打骂",
+   "page": 118,
+   "why": "beating and cursing"
+  },
+  {
+   "wrong": "这个头目便押为已有",
+   "right": "这个头目便据为己有",
+   "page": 118,
+   "why": "the boss appropriated"
+  },
+  {
+   "wrong": "有一去警的现钞",
+   "right": "有一大叠的现钞",
+   "page": 118,
+   "why": "a thick wad of banknotes"
+  },
+  {
+   "wrong": "搜得二干净净",
+   "right": "搜得干干净净",
+   "page": 118,
+   "why": "stripped clean"
+  },
+  {
+   "wrong": "还能代符看守人员",
+   "right": "还能代替看守人员",
+   "page": 118,
+   "why": "could stand in for the warders"
+  },
+  {
+   "wrong": "困此，谁也不想",
+   "right": "因此，谁也不想",
+   "page": 118,
+   "why": "and so nobody wanted"
+  },
+  {
+   "wrong": "霍把彰",
+   "right": "霍揆彰",
+   "page": 97,
+   "why": "Huo Kuizhang, Tungting Lake garrison commander; crop-verified"
+  },
+  {
+   "wrong": "堆为陈诚的人",
+   "right": "霍为陈诚的人",
+   "page": 97,
+   "why": "Huo was Chen Cheng's man; crop-verified"
+  },
+  {
+   "wrong": "郭宗鄞",
+   "right": "郭宗尧",
+   "page": 97,
+   "why": "Guo Zongyao; crop-verified"
+  },
+  {
+   "wrong": "怕黄跟替走陈的路线",
+   "right": "怕黄跟霍走陈的路线",
+   "page": 97,
+   "why": "feared Huang would follow Huo onto Chen's line"
+  },
+  {
+   "wrong": "分不过映来",
+   "right": "分不过来",
+   "page": 112,
+   "why": "could not be spread far enough"
+  },
+  {
+   "wrong": "手统当面不便",
+   "right": "军统当面不便",
+   "page": 112,
+   "why": "the Juntong could not well ask them directly"
+  },
+  {
+   "wrong": "推下水中济死",
+   "right": "推下水中淹死",
+   "page": 105,
+   "why": "pushed into the water and drowned; crop-verified"
+  },
+  {
+   "wrong": "大隐一惊",
+   "right": "大吃一惊",
+   "page": 105,
+   "why": "taken aback; crop-verified"
+  },
+  {
+   "wrong": "才铁送到和盏统局",
+   "right": "才被送到军统局",
+   "page": 107,
+   "why": "sent on to the Juntong bureau; crop-verified"
+  },
+  {
+   "wrong": "姓名已和忘",
+   "right": "姓名已忘",
+   "page": 107,
+   "why": "the name now forgotten"
+  },
+  {
+   "wrong": "和否则便被留难",
+   "right": "否则便被留难",
+   "page": 105,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "蔡止特务结婚",
+   "right": "禁止特务结婚",
+   "page": 107,
+   "why": "forbade operatives to marry"
+  },
+  {
+   "wrong": "而霄却独得允许",
+   "right": "而胥却独得允许",
+   "page": 107,
+   "why": "Xu alone was permitted"
+  },
+  {
+   "wrong": "江北才滩",
+   "right": "江北寸滩",
+   "page": 107,
+   "why": "Cuntan, Jiangbei"
+  },
+  {
+   "wrong": "叶敬苏",
+   "right": "叶燕苏",
+   "page": 110,
+   "why": "Ye Yansu, chief secretary; scan prints 叶燕苏 throughout; crop-verified"
+  },
+  {
+   "wrong": "记家驹",
+   "right": "廖家驹",
+   "page": 110,
+   "why": "Liao Jiaju, Liao Gongshao's father; crop-verified"
+  },
+  {
+   "wrong": "记公动任处长",
+   "right": "廖公劭任处长",
+   "page": 110,
+   "why": "Liao Gongshao; crop-verified"
+  },
+  {
+   "wrong": "异常育怪",
+   "right": "异常奇怪",
+   "page": 110,
+   "why": "extremely odd; crop-verified"
+  },
+  {
+   "wrong": "哨长张中便来请示",
+   "right": "哨长张中恒来请示",
+   "page": 108,
+   "why": "Zhang Zhongheng, picket commander; crop-verified"
+  },
+  {
+   "wrong": "张中恒去问了和孔祥届",
+   "right": "张中恒去问了孔祥熙",
+   "page": 108,
+   "why": "asked H. H. Kung's"
+  },
+  {
+   "wrong": "由张每人打一顿手心开释",
+   "right": "由张每人打一顿手心开释",
+   "page": 108,
+   "why": "kept as printed"
+  },
+  {
+   "wrong": "抽一日香烟",
+   "right": "抽一口香烟",
+   "page": 111,
+   "why": "a draw on a cigarette"
+  },
+  {
+   "wrong": "被且作汉奸",
+   "right": "被当作汉奸",
+   "page": 111,
+   "why": "taken as"
+  },
+  {
+   "wrong": "犯鼠讳的东西",
+   "right": "犯忌讳的东西",
+   "page": 111,
+   "why": "something taboo"
+  },
+  {
+   "wrong": "大叫吉枉",
+   "right": "大叫冤枉",
+   "page": 111,
+   "why": "crying out that they were wronged"
+  },
+  {
+   "wrong": "酒栈耳热",
+   "right": "酒酣耳热",
+   "page": 111,
+   "why": "flushed with wine"
+  },
+  {
+   "wrong": "几个“汉奸?",
+   "right": "几个“汉奸”",
+   "page": 111,
+   "why": "closing quote mangled"
+  },
+  {
+   "wrong": "枪组卸",
+   "right": "枪毙掉",
+   "page": 112,
+   "why": "shot; crop-verified"
+  },
+  {
+   "wrong": "届打成招",
+   "right": "屈打成招",
+   "page": 112,
+   "why": "a confession beaten out of him; crop-verified"
+  },
+  {
+   "wrong": "敌机会到那里又炸",
+   "right": "敌机会到那里轰炸",
+   "page": 112,
+   "why": "that enemy aircraft would bomb there"
+  },
+  {
+   "wrong": "的责名声很大",
+   "right": "的骂声很大",
+   "page": 113,
+   "why": "his cursing was loud; crop-verified"
+  },
+  {
+   "wrong": "了陶坐在旁边几乎发起拌来",
+   "right": "陶坐在旁边几乎发起抖来",
+   "page": 113,
+   "why": "Tao almost shook; crop-verified"
+  },
+  {
+   "wrong": "仍但收到了",
+   "right": "但仍收到了",
+   "page": 113,
+   "why": "but still received"
+  },
+  {
+   "wrong": "而拍空降部队",
+   "right": "而派空降部队",
+   "page": 113,
+   "why": "send airborne troops; 派 not 怕; crop-verified"
+  },
+  {
+   "wrong": "电话给野",
+   "right": "电话给酆",
+   "page": 114,
+   "why": "telephoned Feng Yukun; crop-verified"
+  },
+  {
+   "wrong": "峙在电话中",
+   "right": "酆在电话中",
+   "page": 114,
+   "why": "Feng on the telephone; crop-verified"
+  },
+  {
+   "wrong": "唐久的报告",
+   "right": "唐毅的报告",
+   "page": 114,
+   "why": "Tang Yi's report; crop-verified"
+  },
+  {
+   "wrong": "弄风再撤换",
+   "right": "弄清再撤换",
+   "page": 116,
+   "why": "until he had the situation clear"
+  },
+  {
+   "wrong": "非平统的唐毅",
+   "right": "非军统的唐毅",
+   "page": 115,
+   "why": "Tang Yi, who was not of the Juntong"
+  },
+  {
+   "wrong": "后，和警察局长",
+   "right": "后，警察局长",
+   "page": 115,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "嫁丝厂",
+   "right": "缫丝厂",
+   "page": 117,
+   "why": "silk filature; crop-verified"
+  },
+  {
+   "wrong": "古磁撼",
+   "right": "古磁瓶",
+   "page": 121,
+   "why": "an antique porcelain vase; crop-verified"
+  },
+  {
+   "wrong": "客厅从撼丢失",
+   "right": "客厅花瓶丢失",
+   "page": 121,
+   "why": "the vase missing from his drawing room; crop-verified"
+  },
+  {
+   "wrong": "一般挤贼",
+   "right": "一般窃贼",
+   "page": 120,
+   "why": "ordinary thieves; crop-verified"
+  },
+  {
+   "wrong": "将原物人据回",
+   "right": "将原物追回",
+   "page": 121,
+   "why": "recover the article"
+  },
+  {
+   "wrong": "副官故意的鬼",
+   "right": "副官故意捣鬼",
+   "page": 121,
+   "why": "the aide making mischief on purpose"
+  },
+  {
+   "wrong": "家奴在的鬼",
+   "right": "家奴在捣鬼",
+   "page": 121,
+   "why": "the servants making mischief"
+  },
+  {
+   "wrong": "教唆尺一个窃贼",
+   "right": "教唆另一个窃贼",
+   "page": 120,
+   "why": "put another thief up to it"
+  },
+  {
+   "wrong": "还和对一般老百姓",
+   "right": "还对一般老百姓",
+   "page": 123,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "他摸出来是竟是",
+   "right": "他摸出来竟是",
+   "page": 123,
+   "why": "what he pulled out turned out to be"
   }
  ]
 }
