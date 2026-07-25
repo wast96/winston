@@ -2097,6 +2097,90 @@
    "right": "商人、律师",
    "page": 117,
    "why": "spurious 和"
+  },
+  {
+   "wrong": "由我亲目去开局",
+   "right": "由我亲自去开启",
+   "page": 118,
+   "why": "opened by me in person; crop-verified"
+  },
+  {
+   "wrong": "一阵回声和打名声",
+   "right": "一阵哭声和打骂声",
+   "page": 118,
+   "why": "crying and the sound of blows and curses; crop-verified"
+  },
+  {
+   "wrong": "正在打加一个",
+   "right": "正在打骂一个",
+   "page": 118,
+   "why": "beating and cursing"
+  },
+  {
+   "wrong": "才被打驾",
+   "right": "才被打骂",
+   "page": 118,
+   "why": "was beaten for it"
+  },
+  {
+   "wrong": "证他来处理",
+   "right": "让他来处理",
+   "page": 118,
+   "why": "let him deal with it"
+  },
+  {
+   "wrong": "究竞是怎么",
+   "right": "究竟是怎么",
+   "page": 118,
+   "why": "what it was really about"
+  },
+  {
+   "wrong": "关多久款关多和久",
+   "right": "关多久就关多久",
+   "page": 118,
+   "why": "held as long as they pleased; crop-verified"
+  },
+  {
+   "wrong": "当腊我",
+   "right": "当晚我",
+   "page": 119,
+   "why": "that evening; crop-verified"
+  },
+  {
+   "wrong": "未处理的人人犯",
+   "right": "未处理的人犯",
+   "page": 119,
+   "why": "spurious 人"
+  },
+  {
+   "wrong": "小头肌",
+   "right": "小头目",
+   "page": 119,
+   "why": "the lesser bosses"
+  },
+  {
+   "wrong": "说过儿句",
+   "right": "说过几句",
+   "page": 119,
+   "why": "said a few words"
+  },
+  {
+   "wrong": "共产党的好语",
+   "right": "共产党的好话",
+   "page": 119,
+   "why": "spoke well of the Communists"
+  },
+  {
+   "wrong": "和希望老板增加工资",
+   "right": "希望老板增加工资",
+   "page": 119,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "江北二滩",
+   "right": "江北寸滩",
+   "page": 119,
+   "why": "Cuntan, Jiangbei; crop-verified"
   }
  ]
 }
