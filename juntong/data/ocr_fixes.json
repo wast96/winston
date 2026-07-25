@@ -3171,6 +3171,66 @@
    "right": "经常要去注意",
    "page": 132,
    "why": "had constantly to be watched"
+  },
+  {
+   "wrong": "维他命义",
+   "right": "维他命丸",
+   "page": 132,
+   "why": "vitamin pills; crop-verified"
+  },
+  {
+   "wrong": "防空润",
+   "right": "防空洞",
+   "page": 132,
+   "why": "air-raid shelter; crop-verified"
+  },
+  {
+   "wrong": "因久和久收不到",
+   "right": "因久久收不到",
+   "page": 131,
+   "why": "having waited long"
+  },
+  {
+   "wrong": "弄得许多人大号",
+   "right": "弄得许多人大骂",
+   "page": 131,
+   "why": "set many cursing"
+  },
+  {
+   "wrong": "只有咨笑一下",
+   "right": "只有苦笑一下",
+   "page": 131,
+   "why": "could only smile wryly"
+  },
+  {
+   "wrong": "和披此经常闹摩护",
+   "right": "彼此经常闹摩擦",
+   "page": 131,
+   "why": "constant friction between them"
+  },
+  {
+   "wrong": "费过不少将心",
+   "right": "费过不少苦心",
+   "page": 131,
+   "why": "took no little trouble"
+  },
+  {
+   "wrong": "李首白闪戴笠提出",
+   "right": "李肖白向戴笠提出",
+   "page": 132,
+   "why": "Li Xiaobai put it to Dai Li"
+  },
+  {
+   "wrong": "因为穷听可疑的电话",
+   "right": "因为窃听可疑的电话",
+   "page": 132,
+   "why": "tapping suspect calls"
+  },
+  {
+   "wrong": "偶励她们",
+   "right": "鼓励她们",
+   "page": 132,
+   "why": "encouraged them"
   }
  ]
 }
