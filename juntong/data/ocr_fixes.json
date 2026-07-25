@@ -3465,6 +3465,90 @@
    "right": "军统已有相当的力量",
    "page": 137,
    "why": "the Juntong"
+  },
+  {
+   "wrong": "曾洋",
+   "right": "曾泽",
+   "page": 138,
+   "why": "Zeng Ze, head of the Anti-Japanese Traitor-Elimination Corps; crop-verified"
+  },
+  {
+   "wrong": "祝宗架",
+   "right": "祝宗梁",
+   "page": 138,
+   "why": "Zhu Zongliang; crop-verified"
+  },
+  {
+   "wrong": "闽江街",
+   "right": "赣江街",
+   "page": 138,
+   "why": "Ganjiang Street, matching the earlier reference; crop-verified"
+  },
+  {
+   "wrong": "孔祥四",
+   "right": "孔祥熙",
+   "page": 137,
+   "why": "H. H. Kung; crop-verified"
+  },
+  {
+   "wrong": "有筷祥届",
+   "right": "有孔祥熙",
+   "page": 137,
+   "why": "H. H. Kung behind him"
+  },
+  {
+   "wrong": "不自圭来头大",
+   "right": "不自恃来头大",
+   "page": 137,
+   "why": "had he not presumed on his backing; crop-verified"
+  },
+  {
+   "wrong": "不会六成那样结局",
+   "right": "不会弄成那样结局",
+   "page": 137,
+   "why": "would not have ended so"
+  },
+  {
+   "wrong": "杜月各",
+   "right": "杜月笙",
+   "page": 137,
+   "why": "Du Yuesheng"
+  },
+  {
+   "wrong": "找他的采烦",
+   "right": "找他的麻烦",
+   "page": 137,
+   "why": "trouble him"
+  },
+  {
+   "wrong": "要和霸样处理",
+   "right": "要怎样处理",
+   "page": 137,
+   "why": "dispose of it as he pleased"
+  },
+  {
+   "wrong": "我钱人从这个处",
+   "right": "我派人从这个处",
+   "page": 137,
+   "why": "I sent men"
+  },
+  {
+   "wrong": "他竞答应发还",
+   "right": "他竟答应发还",
+   "page": 137,
+   "why": "he actually agreed to return them"
+  },
+  {
+   "wrong": "抗日铀奸团",
+   "right": "抗日锄奸团",
+   "page": 138,
+   "why": "the Anti-Japanese Traitor-Elimination Corps"
+  },
+  {
+   "wrong": "驾转逃到四川",
+   "right": "辗转逃到四川",
+   "page": 138,
+   "why": "made their way by stages to Szechwan"
   }
  ]
 }
