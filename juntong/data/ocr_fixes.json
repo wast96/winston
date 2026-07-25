@@ -1215,6 +1215,72 @@
    "right": "以办盗匪偷窃案",
    "page": 102,
    "why": "banditry and theft cases; 盗 misread as 资 across a line break; crop-verified"
+  },
+  {
+   "wrong": "盗甘",
+   "right": "盗匪",
+   "page": 102,
+   "why": "bandits; crop-verified"
+  },
+  {
+   "wrong": "和常囊六到",
+   "right": "常常闹到",
+   "page": 102,
+   "why": "kept taking the quarrel up to; crop-verified"
+  },
+  {
+   "wrong": "决不会和枉",
+   "right": "决不会冤枉",
+   "page": 102,
+   "why": "would be no injustice; crop-verified"
+  },
+  {
+   "wrong": "通其为旭",
+   "right": "逼其为娼",
+   "page": 103,
+   "why": "forced her into prostitution; crop-verified"
+  },
+  {
+   "wrong": "我曾问戴笠报告",
+   "right": "我曾向戴笠报告",
+   "page": 102,
+   "why": "reported to Dai Li"
+  },
+  {
+   "wrong": "不益出大乱子",
+   "right": "不闹出大乱子",
+   "page": 102,
+   "why": "so long as no great trouble blew up"
+  },
+  {
+   "wrong": "积从房饭钱",
+   "right": "积欠房饭钱",
+   "page": 103,
+   "why": "owing a large bill for board and lodging"
+  },
+  {
+   "wrong": "那客人办稽查处检举",
+   "right": "那客人向稽查处检举",
+   "page": 103,
+   "why": "laid a complaint with the Inspectorate"
+  },
+  {
+   "wrong": "符许多大特务",
+   "right": "替许多大特务",
+   "page": 103,
+   "why": "pimped for many of the big operatives"
+  },
+  {
+   "wrong": "老板女姘上",
+   "right": "老板娘姘上",
+   "page": 103,
+   "why": "took up with the proprietress"
+  },
+  {
+   "wrong": "抗战未期",
+   "right": "抗战末期",
+   "page": 103,
+   "why": "the closing period of the war"
   }
  ]
 }
