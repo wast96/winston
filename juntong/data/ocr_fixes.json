@@ -2799,6 +2799,30 @@
    "right": "他摸出来竟是",
    "page": 123,
    "why": "what he pulled out turned out to be"
+  },
+  {
+   "wrong": "姜绍并",
+   "right": "姜绍谟",
+   "page": 124,
+   "why": "Jiang Shaomo, head of the Chungking special district; crop-verified"
+  },
+  {
+   "wrong": "姜绍席",
+   "right": "姜绍谟",
+   "page": 124,
+   "why": "Jiang Shaomo, second mangle of the same name; crop-verified"
+  },
+  {
+   "wrong": "朱哺谷",
+   "right": "朱啸谷",
+   "page": 124,
+   "why": "Zhu Xiaogu; crop-verified"
+  },
+  {
+   "wrong": "左必人士",
+   "right": "左翼人士",
+   "page": 124,
+   "why": "left-wing figures; crop-verified"
   }
  ]
 }
