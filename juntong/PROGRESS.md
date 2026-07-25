@@ -471,50 +471,58 @@ and alignment at 119/119. ch03's in-progress English split by hand at the two
 points that fall inside the translated range, verified by matching content
 markers independently in the Chinese and the English.
 
-## CH02'S PARAGRAPH BOUNDARIES ARE DISPLACED THROUGH A MIDDLE STRETCH
+## THE DISPLACEMENT CLASS, AND THE GATE THAT NOW CATCHES IT - RESOLVED
 
-Found while clearing ch02's inherited numeric debt. The 46 outstanding flags
-had already fallen to 8 once ch03's noise classes and the "a hundred thousand"
-parser fix were in place. Of those 8, four were numerals inside names or a
-weekday (崔万秋, 大三元, 万县, 星期六). The other four were real quantities --
-六人 buried alive, 三支手枪, 三个字, 三天 -- and none of them was in the English
-paragraph paired with it.
+Found while clearing ch02's inherited numeric debt. The 46 flags had already
+fallen to 8 once ch03's noise classes and the "a hundred thousand" parser fix
+were in. Four of those were numerals inside names or a weekday. The other four
+were real quantities absent from the paragraph paired with them - and they
+proved not to be missing but ONE PARAGRAPH LATE. A proper-name probe confirmed
+it across roughly ch02 48-78.
 
-They were not missing. They were one paragraph late. Source 57's content sits
-in English 58, source 62's in 63, source 76's in 77.
+CAUSE. reflow.py assigns the translation's sentences to source paragraphs by
+dynamic programming, with length as the cost and NUMERALS as content anchors.
+The stretch that drifted is narrative - the assassinations, the Lu Haifang
+episode - and carries almost no numbers. With no anchors the DP had only
+length, and length decides how MUCH English a paragraph gets, never WHICH.
 
-CONFIRMED BY PROPER-NAME PROBE. Zhao Lijun, Chen Lifu, Lu Haifang, Shi
-Liangcai, Yang Xingfo and Che Yaoxian all sit one paragraph later in the
-English than the hanzi do in the Chinese, across roughly paragraphs 48-78.
-Names before that range are aligned (Cui Wanqiu 12, Wu Naixian 13-39, Cheng
-Muxi 34 and 39). Counts match at 119/119, so the drift closes again somewhere
-after 78; I have not yet pinned the exact end.
+FIX, in three parts.
+1. reflow.py now also anchors on GLOSSARY PROPER NAMES. The glossary is
+   already a hanzi-to-English key maintained one-rendering-per-referent, so it
+   is exactly the cross-lingual fixed point needed. Generic renderings are
+   excluded: 特务 -> "secret agent / operative" never appears literally and
+   would report a phantom miss on nearly every paragraph.
+2. The name penalty is charged BOTH WAYS. A one-sided penalty asks only
+   whether a paragraph got the names its source has; it is free to be given
+   names its source does not have, which is what a boundary one sentence out
+   looks like from the other side. Adding the stray-name charge fixed the last
+   residual slips, which sat between adjacent paragraphs naming the same man.
+3. `scripts/check_content.py`, a new gate. For every source paragraph it
+   requires the paired translation to contain the glossary names the source
+   carries. One-directional on purpose: English may use a pronoun where the
+   Chinese repeats a name, so an extra occurrence is not a fault. The author's
+   own name is excluded - Shen Zui names himself in the third person in his own
+   instructor roster and the only correct English is "me".
 
-CAUSE. reflow.py deals the translation's sentences into source paragraphs in
-proportion to Han-character length. Its own docstring warns that a boundary
-can land a sentence out and says to nudge it by hand afterwards. Over a run of
-paragraphs the slips accumulate before correcting.
+WHY THIS GATE HAD TO EXIST. check_align compares English-to-Han character
+ratios. It is the right check for text that has gone MISSING and is
+structurally blind to text that has been MISPLACED, because a displacement
+preserves every ratio. It passed ch03's skipped paragraph, ch03's one-place
+offset, and ch02's forty-paragraph drift. Ratio checks find missing text;
+content checks find misplaced text; the pipeline needed both and had only one.
 
-WHY NOTHING CAUGHT IT. check_align compares English-to-Han character ratios
-and reports ch02 "alignment OK": a displacement preserves every ratio, because
-each paragraph still receives about the right VOLUME of English, just not the
-right SENTENCES. This is the second time this class has bitten (ch03 had a
-skipped paragraph and a one-place offset that the ratio check also passed).
-Ratio checks find missing text. They cannot find misplaced text. The thing
-that found it both times was content: numerals here, paragraph openings there.
+STATE. All six units re-laid and hand-nudged where the DP still left a
+boundary a sentence out (ch02 110, ch01 41 and the two Dai Li paragraphs).
+check_content now reports 710 name occurrences across the six units, every one
+in its paired paragraph. Parity 18/16/93/119/193/20 all OK, 152 note anchors
+all resolve, alignment OK on every unit, register within tolerance.
 
-WHAT IT DOES AND DOES NOT AFFECT. No prose is lost or altered -- ch02's
-English is complete and in the right order. What is wrong is the
-correspondence between source and translation paragraphs, which matters for
-three things: note anchors resolved by paragraph, the EPUB's citable page
-markers (keyed to source paragraph indices), and any correction Winston files
-against a paragraph number.
-
-NOT YET FIXED. Re-running reflow.py will not help, since proportional dealing
-is what produced the drift. The fix is a content-anchored re-lay using the
-numerals and glossary names shared across the two languages as fixed points,
-and then a content probe rather than a ratio check to verify it. That is the
-next task, before the WIP EPUB is built, because the page markers depend on it.
+Also cascaded: 延安 was rendered "Yan'an" in ch01 and "Yenan" in ch03. The
+project's decided style is period English (Chungking, Peiping, Szechwan,
+Kweichow, Whampoa), so Yenan wins; glossary updated to "decided", prose
+cascaded, and the two ch01 note anchors that carried the old form updated with
+it. That the note anchors needed updating too is the cascade discipline
+CLAUDE.md warns about, and check_structure caught the omission immediately.
 
 ## Wake-up routines
 

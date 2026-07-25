@@ -72,9 +72,9 @@
    "status": "attested"
   },
   "梅乐斯": {
-   "en": "Milton E. Miles",
+   "en": "Miles",
    "status": "attested",
-   "note": "US Navy officer, SACO co-director. The Chinese renders his surname phonetically."
+   "note": "Milton E. Miles, 1900-1961; US Navy officer, co-director of SACO. Full name at first mention; 'Miles' in running prose, which is the form the glossary keys."
   },
   "周恩来": {
    "en": "Zhou Enlai",
@@ -851,8 +851,9 @@
    "status": "attested"
   },
   "延安": {
-   "en": "Yan'an",
-   "status": "attested"
+   "en": "Yenan",
+   "status": "decided",
+   "note": "Period English form, consistent with Chungking, Peiping, Szechwan and Kweichow used throughout. Modern pinyin is Yan'an."
   },
   "渣滓洞": {
    "en": "the Bath Cave (Zhazidong)",

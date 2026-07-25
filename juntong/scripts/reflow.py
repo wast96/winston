@@ -106,6 +106,33 @@ def main():
     src_nums = [CN.source_numbers(p_) for p_ in src_paras]
     sent_nums = [CN.target_numbers(s) for s in sents]
 
+    # NAMES AS ANCHORS TOO. Numerals alone are not enough, because the
+    # passages most likely to drift are narrative and carry no numbers: ch02's
+    # boundaries slipped by one across roughly paragraphs 48-78, the stretch
+    # covering the assassinations and the Lu Haifang episode, where the DP had
+    # nothing but length to go on and length cannot tell WHICH sentences
+    # belong to a paragraph, only how many characters of them.
+    #
+    # The glossary is already a hanzi-to-English key maintained for exactly
+    # this correspondence, so it is reused here. Only distinctive proper names
+    # qualify: a generic rendering like 特务 -> "secret agent / operative"
+    # never appears literally in the prose and would poison every paragraph
+    # with a phantom miss.
+    names = {}
+    gpath = os.path.join(ROOT, "glossary.json")
+    if os.path.exists(gpath):
+        import json as _json
+        for _cat, _entries in _json.load(open(gpath)).items():
+            for _zh, _e in _entries.items():
+                _en = _e.get("en", "")
+                if len(_zh) < 2 or "/" in _en or len(_en) < 4:
+                    continue
+                if not _en[0].isupper():
+                    continue
+                names[_zh] = _en
+    src_names = [{en for zh, en in names.items() if zh in p_} for p_ in src_paras]
+    sent_names = [{en for en in names.values() if en in s} for s in sents]
+
     scale = total_l / total_w
     pre = [0]
     for L in lens:
@@ -128,10 +155,27 @@ def main():
                     continue
                 got = pre[j] - pre[i]
                 have = set()
+                have_n = set()
                 for k2 in range(i, j):
                     have |= sent_nums[k2]
+                    have_n |= sent_names[k2]
                 missed = len(src_nums[p] - have)
-                c = prev[j] + abs(got - want) ** 1.5 + 900.0 * missed
+                # A name the source paragraph carries but the assigned
+                # sentences do not is weighted like a missing numeral: both
+                # are content the translation must contain if the boundary is
+                # in the right place.
+                # Charged BOTH WAYS. A one-sided penalty only asks whether the
+                # paragraph got the names its source has; it is free to be
+                # given names its source does not have, which is precisely
+                # what a boundary one sentence out looks like from the other
+                # side. Charging the stray name as well pins the boundary
+                # between two adjacent paragraphs that both mention the same
+                # person -- the case the one-sided version could not resolve,
+                # and where ch02's last few slips survived.
+                missed_n = len(src_names[p] - have_n)
+                stray_n = len(have_n - src_names[p])
+                c = (prev[j] + abs(got - want) ** 1.5
+                     + 900.0 * missed + 900.0 * missed_n + 600.0 * stray_n)
                 if c < best:
                     best, best_j = c, j
             cur[i] = best
