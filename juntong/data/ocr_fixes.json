@@ -1365,6 +1365,66 @@
    "right": "什么都干预",
    "page": 104,
    "why": "meddled in everything"
+  },
+  {
+   "wrong": "热得发代",
+   "right": "热得发昏",
+   "page": 105,
+   "why": "stifling; crop-verified"
+  },
+  {
+   "wrong": "海党溪",
+   "right": "海棠溪",
+   "page": 105,
+   "why": "Haitangxi, Chungking south bank; crop-verified"
+  },
+  {
+   "wrong": "黄角垣",
+   "right": "黄角垭",
+   "page": 105,
+   "why": "Huangjueya; scan prints 黄角垭 (commoner form 黄桷垭) -- preserved as printed"
+  },
+  {
+   "wrong": "外下来一件件检碍",
+   "right": "卸下来一件件检查",
+   "page": 105,
+   "why": "unloaded and examined piece by piece; crop-verified"
+  },
+  {
+   "wrong": "一直场",
+   "right": "一品场",
+   "page": 105,
+   "why": "Yipinchang; crop-verified"
+  },
+  {
+   "wrong": "移查员",
+   "right": "稽查员",
+   "page": 104,
+   "why": "inspectors"
+  },
+  {
+   "wrong": "扯皮病意见",
+   "right": "扯皮闹意见",
+   "page": 105,
+   "why": "wrangling and falling out"
+  },
+  {
+   "wrong": "戴等明知道",
+   "right": "戴笠明知道",
+   "page": 105,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "也不子取缔",
+   "right": "也不予取缔",
+   "page": 105,
+   "why": "did not suppress it"
+  },
+  {
+   "wrong": "那样于，他是",
+   "right": "那样干，他是",
+   "page": 105,
+   "why": "to act that way"
   }
  ]
 }
