@@ -302,7 +302,40 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
-### ch19 (唐纵其人 / Tang Zong) - LEDGER COMPLETE, TRANSLATION PENDING
+### ch19 (唐纵其人 / Tang Zong) - DONE
+
+- Translation done (148/148 parity first pass). All 5 gates green, qa PASS
+  (21 documents, 520 notes, 393 page markers). Notes: 12. Glossary +32 (the
+  large new cast).
+- PARITY: the OCR-merged heading 抗战胜利后的情况 (para line 39) was split into
+  a ### heading + body para as planned; 警察总署/保安局 title rendered as one ###.
+  Both give 148/148.
+- CONTENT check caught 6 short-form renderings where the source used the FULL
+  name (唐纵/蒋介石) or a dropped place (昆明); fixed all six to the full form.
+  Adding the new cast then surfaced 乐干: I had rendered it "Le Gan" in BOTH
+  ch13 and ch19, so the glossary was set to "Le Gan" (provisional; surname 乐
+  also reads "Yue") to match the built text rather than editing two chapters.
+- NUMBERS: 2 residual flags both adjudicated PASS -- para 61 十余人 rendered
+  "a dozen" (correct, no digit), para 126 an OCR "了！"->"了1" artifact. Noise
+  list extended with the ch19 idioms/name-numerals (三令五申/三令五中, 十拿九稳,
+  笑话百出, 一不做二不休/体, 杀人以万计, 一帆风顺, 这一手, 三顾茅访, 一五一十,
+  零星, 誓不两立, 万人凤 [OCR of 毛人凤], 二反共, 四川/四州).
+- REGISTER: within tolerance vs ch01; "shall" elevated (22%) but deliberate --
+  Shen's formal expository frame ("I shall not repeat here"); contractions are
+  in the quoted speech only. VOICE-DRIFT FLAG (fable pass): confirm the
+  quoted-speech contractions in the outraged-agents passage (para 126) read
+  right and that the long expository stretches did not pick up Opus cadence.
+- SOURCE editorial note: the edition inserts "本书付印前唐已在台湾死去" mid-
+  sentence in para 3; moved out of the sentence into a footnote per the
+  no-inline-flags rule (Tang died in Taipei 26 Oct 1981).
+- Corroboration (no Grok): Tang Zong 1905-1981, his captured diary 《在蒋介石
+  身边八年》 (pub. 1991); 金都血案 27-29 Jul 1947 (standard count 11 dead, close
+  to but not matching Shen's figures -- noted); 《中国之命运》 ghostwritten by
+  Tao Xisheng 1943; Wei Lihuang/Lihuang County (Jinjiazhai, reverted to
+  Jinzhai) precedent for Hu Zongnan's failed "Zongnan County" vanity.
+- Notes texture: 智多星 (Wu Yong/Water Margin), 以柔克刚, 三顾茅庐, the German-
+  fascist model and the self-incriminating candour about it, the child-flesh
+  atrocity flagged as Shen's uncorroborated testimony in the 1962-66 register.
 
 - PDF 369-410, printed 350-391. 148 body paragraphs, ~27,700 CJK chars.
   The biggest chapter; multi-turn unit -- do NOT write a partial reading.md.
