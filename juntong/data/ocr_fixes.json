@@ -11919,6 +11919,42 @@
    "right": "由皮宗阚替他译成英语",
    "page": 274,
    "why": "Pi Zongkan"
+  },
+  {
+   "wrong": "美萝特务公开合流",
+   "right": "美蒋特务公开合流",
+   "page": 229,
+   "why": "美蒋"
+  },
+  {
+   "wrong": "尚街过去了解",
+   "right": "尚希过去了解",
+   "page": 229,
+   "why": "尚希 (I hope); provisional"
+  },
+  {
+   "wrong": "介使这一臭名昭彰",
+   "right": "促使这一臭名昭彰",
+   "page": 229,
+   "why": "促使"
+  },
+  {
+   "wrong": "向日本十兵进行宣传",
+   "right": "向日本士兵进行宣传",
+   "page": 241,
+   "why": "士兵 soldiers; OCR 士->十 (phantom 10)"
+  },
+  {
+   "wrong": "所以埋三戴笠的时候",
+   "right": "所以埋葬戴笠的时候",
+   "page": 273,
+   "why": "埋葬 bury; OCR 葬->三"
+  },
+  {
+   "wrong": "遇到天两路滑",
+   "right": "遇到天雨路滑",
+   "page": 277,
+   "why": "天雨路滑 rain makes the road slippery; OCR 雨->两"
   }
  ]
 }
