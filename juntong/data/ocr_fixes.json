@@ -13901,6 +13901,12 @@
    "right": "王巍",
    "page": 261,
    "why": "crop-verified p280: 王巍 (Wang Wei), same Kunming police chief as ch15; corrects Wang Zhi"
+  },
+  {
+   "wrong": "严肖成",
+   "right": "严燮成",
+   "page": 261,
+   "why": "crop-verified p284: 严燮成 (Yan Xiecheng), tuo-tea king; corrects earlier Yan Xiaocheng"
   }
  ],
  "ch15": [
@@ -14079,6 +14085,44 @@
    "right": "渣滓洞",
    "page": 316,
    "why": "the Juntong Chongqing prisons Baigongguan/Zhazidong; crop-verified p335"
+  }
+ ],
+ "ch17": [
+  {
+   "wrong": "我受命腊杀",
+   "right": "我受命暗杀",
+   "page": 319,
+   "why": "title; OCR 暗→腊"
+  },
+  {
+   "wrong": "杨杰将盏",
+   "right": "杨杰将军",
+   "page": 319,
+   "why": "title; OCR 军→盏"
+  },
+  {
+   "wrong": "严楼成",
+   "right": "严燮成",
+   "page": 319,
+   "why": "tuo-tea king Yan Xiecheng; crop-verified, matches ch14"
+  },
+  {
+   "wrong": "严赤成",
+   "right": "严燮成",
+   "page": 319,
+   "why": "tuo-tea king Yan Xiecheng; crop-verified"
+  },
+  {
+   "wrong": "韩址昌",
+   "right": "韩世昌",
+   "page": 319,
+   "why": "agent Han Shichang; crop-verified p341"
+  },
+  {
+   "wrong": "叶羯之",
+   "right": "叶翔之",
+   "page": 319,
+   "why": "Ye Xiangzhi; crop-verified, matches glossary"
   }
  ]
 }

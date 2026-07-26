@@ -1501,6 +1501,33 @@
       "en": "Long San",
       "status": "provisional",
       "note": "Long Yun's third son."
+    },
+    "严燮成": {
+      "en": "Yan Xiecheng",
+      "status": "provisional",
+      "note": "Yunnan's 'tuo-tea king', a great tea merchant; Yang Jie's regular host."
+    },
+    "龙泽汇": {
+      "en": "Long Zehui",
+      "status": "provisional"
+    },
+    "韩世昌": {
+      "en": "Han Shichang",
+      "status": "provisional"
+    },
+    "朱健飞": {
+      "en": "Zhu Jianfei",
+      "status": "provisional"
+    },
+    "沈美娟": {
+      "en": "Shen Meijuan",
+      "status": "provisional",
+      "note": "Shen Zui's daughter, who recorded and arranged this chapter."
+    },
+    "李宗理": {
+      "en": "Li Zongli",
+      "status": "provisional",
+      "note": "a friend of Yang Jie's whose handwriting the assassins forged to gain entry; not Li Zongren the acting president."
     }
   },
   "organisations": {
@@ -2256,6 +2283,11 @@
       "en": "Song Manor",
       "status": "provisional",
       "note": "Huo Kuizhang's villa outside Changsha."
+    },
+    "靖园新村": {
+      "en": "Jingyuan New Village",
+      "status": "decided",
+      "note": "Shen's Kunming residence at Sanjieqiao; the source writes it 靖国新村 in this chapter and 靖园新村 in the previous one, rendered uniformly."
     }
   }
 }

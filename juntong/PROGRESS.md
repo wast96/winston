@@ -302,6 +302,34 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch17 (我受命暗杀杨杰将军的经过 / How I Was Ordered to Assassinate General Yang Jie) - DONE
+
+- PDF 338-341, printed 319-322. 13 body paragraphs (last is the byline
+  沈美娟记录整理). Full pipeline. Shen's confession of the order to kill Yang Jie,
+  his mother's intervention (the "my mother's words" episode ch14 alludes to),
+  and Yang Jie's eventual HK assassination.
+- Ledger 6 fixes, crop-verified: title 腊杀/将盏 -> 暗杀/将军, 严燮成 (tuo-tea
+  king, NOT 严楼成/严赤成), 韩世昌 (agent, NOT 韩址昌), 叶羯之 -> 叶翔之.
+- TWO cross-chapter catches into ch14 (re-ran ch14 gates green, re-committed):
+  (1) ch14's tuo-tea king was 严肖成/"Yan Xiaocheng" — crop of p284 shows
+  严燮成 (Yan Xiecheng); corrected in ch14 text + glossary. (2) 李宗理 appears
+  in BOTH ch14 (para77) and ch17 as the friend whose handwriting the assassins
+  forged — it is Li Zongli, NOT the acting president Li Zongren. I first
+  "corrected" ch17 to Li Zongren, then a corroborating source (and ch14's own
+  context) confirmed 李宗理 = Li Zongli; reverted, and fixed ch14 para77 too.
+- Address inconsistency in the SOURCE: Shen's Kunming home is 靖园新村 in ch14
+  and 靖国新村 here; rendered uniformly "Jingyuan New Village" with a glossary
+  note recording the variant.
+- Checks: parity 13/13, align OK, content OK, numbers 0, register in tolerance.
+- Notes: 5. Glossary +6 (严燮成/龙泽汇/韩世昌/朱健飞/沈美娟 + place 靖园新村).
+- Corroboration (no Grok): Yang Jie assassinated 19 Sep 1949 at Wu Jicheng's
+  flat on Hennessy Road, en route to the first CPPCC; martyr; Ye Xiangzhi's
+  team did it -- corroborated (Wikipedia, rmzxw, 163). Discrepancy noted: Shen
+  names the agent Han Shichang, the record names the shooter as Chen Jiaqing.
+- VOICE-DRIFT FLAG (fable pass): the mother's speech is the chapter's one big
+  block of reported dialogue -- contractions are concentrated there by design;
+  confirm the expository frame stays clean. shall% 25% (mother's "shall").
+
 ### ch16 (阴谋诬陷中共的一个例证 / A Case of Framing the Communists) - DONE
 
 - PDF 334-337, printed 315-318. 12 body paragraphs + a ### subtitle
