@@ -6692,5 +6692,829 @@
    "page": 188,
    "why": "UD (United Defense M42) submachine gun; source prints 'UD 机枪', crop-verified; OCR added leading 0"
   }
+ ],
+ "ch10": [
+  {
+   "wrong": "### 军统对陕甘字边区的徘恶汝动",
+   "right": "### 军统对陕甘宁边区的罪恶活动",
+   "page": 189,
+   "why": "chapter title"
+  },
+  {
+   "wrong": "### 以张国春为主的一些活动",
+   "right": "### 以张国焘为主的一些活动",
+   "page": 190,
+   "why": "section: Zhang Guotao; crop-verified -- the CCP founder who defected"
+  },
+  {
+   "wrong": "陕甘字边区",
+   "right": "陕甘宁边区",
+   "page": null,
+   "why": "Shaan-Gan-Ning"
+  },
+  {
+   "wrong": "戴等也经常",
+   "right": "戴笠也经常",
+   "page": null,
+   "why": "Dai Li; systematic"
+  },
+  {
+   "wrong": "并且蜡常重视",
+   "right": "并且非常重视",
+   "page": 189,
+   "why": "非常"
+  },
+  {
+   "wrong": "从劳听到一些",
+   "right": "从旁听到一些",
+   "page": 189,
+   "why": "从旁"
+  },
+  {
+   "wrong": "陕西省站主管",
+   "right": "陕西省站主管",
+   "page": 189,
+   "why": "correct"
+  },
+  {
+   "wrong": "设有陕北组，人负责",
+   "right": "设有陕北组，负责",
+   "page": 189,
+   "why": "stray 人"
+  },
+  {
+   "wrong": "戴笠从南京派了娄剑如",
+   "right": "戴笠从南京派了娄剑如",
+   "page": 189,
+   "why": "Lou Jianru correct"
+  },
+  {
+   "wrong": "李友三等为教育",
+   "right": "李友三等为教官",
+   "page": 189,
+   "why": "instructors 教官; crop-verified"
+  },
+  {
+   "wrong": "只有花志祥等少数",
+   "right": "只有薛志祥等少数",
+   "page": 190,
+   "why": "Xue Zhixiang; crop-verified"
+  },
+  {
+   "wrong": "中共叛徒张国春",
+   "right": "中共叛徒张国焘",
+   "page": 190,
+   "why": "Zhang Guotao; crop-verified"
+  },
+  {
+   "wrong": "张国春",
+   "right": "张国焘",
+   "page": null,
+   "why": "Zhang Guotao; systematic mangle"
+  },
+  {
+   "wrong": "张国森",
+   "right": "张国焘",
+   "page": 192,
+   "why": "Zhang Guotao"
+  },
+  {
+   "wrong": "最初戴竺认为",
+   "right": "最初戴笠认为",
+   "page": 190,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴等马上为他",
+   "right": "戴笠马上为他",
+   "page": 190,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "污项中共",
+   "right": "污蔑中共",
+   "page": 190,
+   "why": "污蔑"
+  },
+  {
+   "wrong": "如何派中特务打入边区",
+   "right": "如何派遣特务打入边区",
+   "page": 190,
+   "why": "派遣"
+  },
+  {
+   "wrong": "一九四@〇年前后",
+   "right": "一九四〇年前后",
+   "page": 191,
+   "why": "1940"
+  },
+  {
+   "wrong": "重庆磁怖口童家桥",
+   "right": "重庆磁器口童家桥",
+   "page": 191,
+   "why": "Ciqikou Tongjiaqiao"
+  },
+  {
+   "wrong": "污茂诽谤",
+   "right": "污蔑诽谤",
+   "page": 191,
+   "why": "污蔑"
+  },
+  {
+   "wrong": "如何才能打和边区",
+   "right": "如何才能打入边区",
+   "page": 191,
+   "why": "打入"
+  },
+  {
+   "wrong": "从边区出来的工作人人员",
+   "right": "从边区出来的工作人员",
+   "page": 191,
+   "why": "doubled 人"
+  },
+  {
+   "wrong": "怎样打人边区",
+   "right": "怎样打入边区",
+   "page": 191,
+   "why": "打入"
+  },
+  {
+   "wrong": "西安至善里十三号",
+   "right": "西安至善里十三号",
+   "page": 191,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "丁敏之谈过",
+   "right": "丁敏之谈过",
+   "page": 191,
+   "why": "Ding Minzhi correct"
+  },
+  {
+   "wrong": "黄羽中和收发股儿谢肖",
+   "right": "黄羽中和收发股谢肖",
+   "page": 191,
+   "why": "stray char"
+  },
+  {
+   "wrong": "类徒从事反共",
+   "right": "叛徒从事反共",
+   "page": 191,
+   "why": "叛徒"
+  },
+  {
+   "wrong": "调了一叫个赖国民",
+   "right": "调了一个叫赖国民",
+   "page": 191,
+   "why": "Lai Guomin"
+  },
+  {
+   "wrong": "打和边区的材料",
+   "right": "打入边区的材料",
+   "page": 191,
+   "why": "打入"
+  },
+  {
+   "wrong": "这人以后调到军统局司法科，、又",
+   "right": "这人以后调到军统局司法科，又",
+   "page": 191,
+   "why": "punctuation"
+  },
+  {
+   "wrong": "怎样打和边区去",
+   "right": "怎样打入边区去",
+   "page": 191,
+   "why": "打入"
+  },
+  {
+   "wrong": "成了一门重要巢程",
+   "right": "成了一门重要课程",
+   "page": 191,
+   "why": "课程"
+  },
+  {
+   "wrong": "学生昌经戴笠",
+   "right": "学生曾经戴笠",
+   "page": 192,
+   "why": "曾经"
+  },
+  {
+   "wrong": "上有具体数目",
+   "right": "但具体数目",
+   "page": 192,
+   "why": "but"
+  },
+  {
+   "wrong": "甚余大多数",
+   "right": "其余大多数",
+   "page": 192,
+   "why": "其余"
+  },
+  {
+   "wrong": "汉中、洛川、炊且三个",
+   "right": "汉中、洛川、耀县三个",
+   "page": 192,
+   "why": "the three counterwork stations; 耀县 confirmed elsewhere"
+  },
+  {
+   "wrong": "其余的记不清楚",
+   "right": "其余的记不清楚",
+   "page": 192,
+   "why": "correct"
+  },
+  {
+   "wrong": "以后究竟有哪些人打人过",
+   "right": "以后究竟有哪些人打入过",
+   "page": 192,
+   "why": "打入"
+  },
+  {
+   "wrong": "戴符叫我在他",
+   "right": "戴笠叫我在他",
+   "page": 192,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "的“激庐”招待所",
+   "right": "的“激庐”招待所",
+   "page": 192,
+   "why": "correct as scanned"
+  },
+  {
+   "wrong": "接待和请富这些人",
+   "right": "接待和请客这些人",
+   "page": 192,
+   "why": "请客"
+  },
+  {
+   "wrong": "由张国森",
+   "right": "由张国焘",
+   "page": 192,
+   "why": "Zhang Guotao"
+  },
+  {
+   "wrong": "使戴符很感失望",
+   "right": "使戴笠很感失望",
+   "page": 192,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "有沈之后和以后",
+   "right": "有沈之岳和以后",
+   "page": 192,
+   "why": "Shen Zhiyue"
+  },
+  {
+   "wrong": "秦x x",
+   "right": "秦××",
+   "page": null,
+   "why": "suppressed given name"
+  },
+  {
+   "wrong": "毛人风",
+   "right": "毛人凤",
+   "page": null,
+   "why": "Mao Renfeng"
+  },
+  {
+   "wrong": "我唱经常和他们",
+   "right": "我倒经常和他们",
+   "page": 192,
+   "why": "倒"
+  },
+  {
+   "wrong": "设在榆林的陕攻站",
+   "right": "设在榆林的陕北站",
+   "page": 192,
+   "why": "Shaanbei station, Yulin"
+  },
+  {
+   "wrong": "站长为黄饮公",
+   "right": "站长为黄逸公",
+   "page": 192,
+   "why": "Huang Yigong; crop-verified"
+  },
+  {
+   "wrong": "黄锡公",
+   "right": "黄逸公",
+   "page": 193,
+   "why": "Huang Yigong; crop-verified"
+  },
+  {
+   "wrong": "戴竺企图通过",
+   "right": "戴笠企图通过",
+   "page": 192,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "被边区政府发觉还捕",
+   "right": "被边区政府发觉逮捕",
+   "page": 192,
+   "why": "逮捕"
+  },
+  {
+   "wrong": "不和久便释放",
+   "right": "不多久便释放",
+   "page": 192,
+   "why": "不多久"
+  },
+  {
+   "wrong": "丸一个是设在汉中",
+   "right": "另一个是设在汉中",
+   "page": 193,
+   "why": "另一个"
+  },
+  {
+   "wrong": "站长程慕熙",
+   "right": "站长程慕颐",
+   "page": 193,
+   "why": "Cheng Muyi; crop-verified"
+  },
+  {
+   "wrong": "程莫颐",
+   "right": "程慕颐",
+   "page": 193,
+   "why": "Cheng Muyi"
+  },
+  {
+   "wrong": "抗战前曾打人过",
+   "right": "抗战前曾打入过",
+   "page": 193,
+   "why": "打入"
+  },
+  {
+   "wrong": "戴竺很相信他",
+   "right": "戴笠很相信他",
+   "page": 193,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "多次派特务打人延安",
+   "right": "多次派特务打入延安",
+   "page": 193,
+   "why": "打入"
+  },
+  {
+   "wrong": "大部分的人都癌边区政府自首",
+   "right": "大部分的人都向边区政府自首",
+   "page": 193,
+   "why": "向"
+  },
+  {
+   "wrong": "只有极个别的蔡他",
+   "right": "只有极个别的替他",
+   "page": 193,
+   "why": "替"
+  },
+  {
+   "wrong": "因吃不了和将又出来",
+   "right": "因吃不了苦又出来",
+   "page": 193,
+   "why": "吃不了苦"
+  },
+  {
+   "wrong": "强迫他们提供混人边区",
+   "right": "强迫他们提供混入边区",
+   "page": 193,
+   "why": "混入"
+  },
+  {
+   "wrong": "程莫颐于一九四三年",
+   "right": "程慕颐于一九四三年",
+   "page": 193,
+   "why": "Cheng Muyi"
+  },
+  {
+   "wrong": "他的小老效",
+   "right": "他的小老婆",
+   "page": 193,
+   "why": "小老婆"
+  },
+  {
+   "wrong": "派叛徒王邦联",
+   "right": "派叛徒王邦联",
+   "page": 193,
+   "why": "Wang Banglian; crop-verified"
+  },
+  {
+   "wrong": "王等因贪污",
+   "right": "王因贪污",
+   "page": 193,
+   "why": "stray 等"
+  },
+  {
+   "wrong": "和军统派中特务去延安",
+   "right": "军统派遣特务去延安",
+   "page": 193,
+   "why": "派遣"
+  },
+  {
+   "wrong": "临浅特训班毕业学生衷x良",
+   "right": "临澧特训班毕业学生衷××",
+   "page": 194,
+   "why": "Linli class; suppressed given name"
+  },
+  {
+   "wrong": "联络参谋徐佛观、郭仲容",
+   "right": "联络参谋徐佛观、郭仲容",
+   "page": 194,
+   "why": "Xu Foguan (later Xu Fuguan), Guo Zhongrong; crop-verified"
+  },
+  {
+   "wrong": "大言不怖夸伟其谈",
+   "right": "大言不惭夸夸其谈",
+   "page": 194,
+   "why": "夸夸其谈"
+  },
+  {
+   "wrong": "一番廖论",
+   "right": "一番谬论",
+   "page": 194,
+   "why": "谬论"
+  },
+  {
+   "wrong": "戴等对他这和盔话",
+   "right": "戴笠对他这番话",
+   "page": 194,
+   "why": "番话"
+  },
+  {
+   "wrong": "与人事处长奢介盘两人",
+   "right": "与人事处长龚仙舫两人",
+   "page": 194,
+   "why": "Gong Xianfang; crop-verified"
+  },
+  {
+   "wrong": "不易立趾",
+   "right": "不易立足",
+   "page": 194,
+   "why": "立足"
+  },
+  {
+   "wrong": "准备长期坦伏",
+   "right": "准备长期潜伏",
+   "page": 194,
+   "why": "潜伏"
+  },
+  {
+   "wrong": "只有毛人风与王新衡、复仙乱",
+   "right": "只有毛人凤与王新衡、龚仙舫",
+   "page": 194,
+   "why": "Gong Xianfang"
+  },
+  {
+   "wrong": "缆仙盘当时",
+   "right": "龚仙舫当时",
+   "page": 194,
+   "why": "Gong Xianfang"
+  },
+  {
+   "wrong": "经常朵聊天",
+   "right": "经常聊天",
+   "page": 194,
+   "why": "聊天"
+  },
+  {
+   "wrong": "一两年刀至十年",
+   "right": "一两年乃至十年",
+   "page": 194,
+   "why": "乃至"
+  },
+  {
+   "wrong": "现值延安正在",
+   "right": "现值延安正在",
+   "page": 194,
+   "why": "correct"
+  },
+  {
+   "wrong": "缆仙坊的这番话",
+   "right": "龚仙舫的这番话",
+   "page": 194,
+   "why": "Gong Xianfang"
+  },
+  {
+   "wrong": "延安昌有特务",
+   "right": "延安曾有特务",
+   "page": 194,
+   "why": "曾有"
+  },
+  {
+   "wrong": "梁干乔在砍县当专员",
+   "right": "梁干乔在耀县当专员",
+   "page": 195,
+   "why": "Yaoxian; crop-verified"
+  },
+  {
+   "wrong": "特去灼县看过他",
+   "right": "特去耀县看过他",
+   "page": 195,
+   "why": "Yaoxian"
+  },
+  {
+   "wrong": "他和曾向我谈过",
+   "right": "他曾向我谈过",
+   "page": 195,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "只能个别去活动一让",
+   "right": "只能个别去活动一下",
+   "page": 195,
+   "why": "一下"
+  },
+  {
+   "wrong": "想想长期采在那里",
+   "right": "想长期呆在那里",
+   "page": 195,
+   "why": "呆在"
+  },
+  {
+   "wrong": "先后区长程一鸣、吴景中、堆立人",
+   "right": "先后区长程一鸣、吴景中、霍立人",
+   "page": 195,
+   "why": "Cheng Yiming, Wu Jingzhong, Huo Liren; crop-verified"
+  },
+  {
+   "wrong": "稚这人后来",
+   "right": "霍这人后来",
+   "page": 195,
+   "why": "Huo"
+  },
+  {
+   "wrong": "西北区便利用这一关系派人湾人边区",
+   "right": "西北区便利用这一关系派人混入边区",
+   "page": 195,
+   "why": "混入"
+  },
+  {
+   "wrong": "手法是无孔不和的",
+   "right": "手法是无孔不入的",
+   "page": 195,
+   "why": "无孔不入"
+  },
+  {
+   "wrong": "由戴竺指派",
+   "right": "由戴笠指派",
+   "page": 195,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "天主教的主教于研",
+   "right": "天主教的主教于斌",
+   "page": 195,
+   "why": "Bishop Yu Bin; crop-verified"
+  },
+  {
+   "wrong": "戴那次铂我和李肖白",
+   "right": "戴那次叫我和李肖白",
+   "page": 195,
+   "why": "叫"
+  },
+  {
+   "wrong": "要他选派搞行动",
+   "right": "要他选派搞行动",
+   "page": 196,
+   "why": "correct"
+  },
+  {
+   "wrong": "戴符，要他",
+   "right": "戴笠，要他",
+   "page": 196,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴等亲自挑选了三个",
+   "right": "戴笠亲自挑选了三个",
+   "page": 196,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "有一个叫蒋更生",
+   "right": "有一个叫蒋更生",
+   "page": 196,
+   "why": "Jiang Gengsheng correct"
+  },
+  {
+   "wrong": "刘绍复",
+   "right": "刘绍复",
+   "page": 196,
+   "why": "Liu Shaofu correct"
+  },
+  {
+   "wrong": "人事处长获仙盘",
+   "right": "人事处长龚仙舫",
+   "page": 196,
+   "why": "Gong Xianfang"
+  },
+  {
+   "wrong": "行动处长徐业道",
+   "right": "行动处长徐业道",
+   "page": 196,
+   "why": "Xu Yedao correct"
+  },
+  {
+   "wrong": "戴很生气地把一张电报交给获仙盘",
+   "right": "戴很生气地把一张电报交给龚仙舫",
+   "page": 196,
+   "why": "Gong Xianfang"
+  },
+  {
+   "wrong": "戴等的意见",
+   "right": "戴笠的意见",
+   "page": 196,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "他就指示比仙盘",
+   "right": "他就指示龚仙舫",
+   "page": 197,
+   "why": "Gong Xianfang"
+  },
+  {
+   "wrong": "约仙入在军统特务总队",
+   "right": "龚仙舫在军统特务总队",
+   "page": 197,
+   "why": "Gong Xianfang"
+  },
+  {
+   "wrong": "挑选了一个陕西人李天交我考验",
+   "right": "挑选了一个陕西人李天交我考验",
+   "page": 197,
+   "why": "Li Tian correct"
+  },
+  {
+   "wrong": "李带年轻",
+   "right": "李天年轻",
+   "page": 197,
+   "why": "Li Tian"
+  },
+  {
+   "wrong": "戴仍催促派了",
+   "right": "戴仍催促派了",
+   "page": 197,
+   "why": "correct"
+  },
+  {
+   "wrong": "戴等没有杂自接见",
+   "right": "戴笠没有亲自接见",
+   "page": 197,
+   "why": "亲自"
+  },
+  {
+   "wrong": "只是由黎仙盘、徐业道",
+   "right": "只是由龚仙舫、徐业道",
+   "page": 197,
+   "why": "Gong Xianfang"
+  },
+  {
+   "wrong": "据鸡仙盘说",
+   "right": "据龚仙舫说",
+   "page": 197,
+   "why": "Gong Xianfang"
+  },
+  {
+   "wrong": "雍人去延安",
+   "right": "派人去延安",
+   "page": 197,
+   "why": "派人"
+  },
+  {
+   "wrong": "才能银转设法进入",
+   "right": "才能辗转设法进入",
+   "page": 197,
+   "why": "辗转"
+  },
+  {
+   "wrong": "去摘上暗杀",
+   "right": "去搞暗杀",
+   "page": 197,
+   "why": "搞"
+  },
+  {
+   "wrong": "戴竺认为过去",
+   "right": "戴笠认为过去",
+   "page": 197,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "加我没有政治头脑",
+   "right": "骂我没有政治头脑",
+   "page": 197,
+   "why": "骂"
+  },
+  {
+   "wrong": "发生了这类上暗杀案",
+   "right": "发生了这类暗杀案",
+   "page": 197,
+   "why": "stray 上"
+  },
+  {
+   "wrong": "是共产党内讶",
+   "right": "是共产党内讧",
+   "page": 197,
+   "why": "内讧"
+  },
+  {
+   "wrong": "想暗杀中共和领袖",
+   "right": "想暗杀中共领袖",
+   "page": 197,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "秘书袁寡滨",
+   "right": "秘书袁寄滨",
+   "page": 197,
+   "why": "Yuan Jibin; crop-verified"
+  },
+  {
+   "wrong": "圳和我是湘潭",
+   "right": "袁和我是湘潭",
+   "page": 197,
+   "why": "Yuan"
+  },
+  {
+   "wrong": "文件都1人了了。由他保管",
+   "right": "文件都由他保管",
+   "page": 197,
+   "why": "OCR noise; 由他保管"
+  },
+  {
+   "wrong": "周恩来有个警卫叫龙飞虎",
+   "right": "周恩来有个警卫叫龙飞虎",
+   "page": 198,
+   "why": "Long Feihu, Zhou Enlai's bodyguard; correct"
+  },
+  {
+   "wrong": "军统是拒样企图",
+   "right": "军统是怎样企图",
+   "page": 198,
+   "why": "怎样"
+  },
+  {
+   "wrong": "没有和弄清这些",
+   "right": "没有弄清这些",
+   "page": 198,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "戴等听了我的话",
+   "right": "戴笠听了我的话",
+   "page": 196,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴等叫先派走",
+   "right": "戴笠叫先派走",
+   "page": 197,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "复仙乱等在场",
+   "right": "龚仙舫等在场",
+   "page": 194,
+   "why": "Gong Xianfang"
+  },
+  {
+   "wrong": "有关打人的办法",
+   "right": "有关打入的办法",
+   "page": 191,
+   "why": "打入"
+  },
+  {
+   "wrong": "注意事项和有关打人",
+   "right": "注意事项和有关打入",
+   "page": 191,
+   "why": "打入"
+  },
+  {
+   "wrong": "指定要写清楚自己去的经过、注意事项和有关打人的办法",
+   "right": "指定要写清楚自己去的经过、注意事项和有关打入的办法",
+   "page": 191,
+   "why": "打入"
+  },
+  {
+   "wrong": "人怎样伪装打人",
+   "right": "人怎样伪装打入",
+   "page": 194,
+   "why": "打入"
+  },
+  {
+   "wrong": "这些打人边区去的特务",
+   "right": "这些打入边区去的特务",
+   "page": 195,
+   "why": "打入"
+  },
+  {
+   "wrong": "重庆罗家湾军统局本部大门附近",
+   "right": "重庆枣子岚垭军统局本部大门附近",
+   "page": 192,
+   "why": "Zaozilanya; crop-verified (earlier provisional 罗家湾 corrected against the scan)"
+  },
+  {
+   "wrong": "的“激庐”招待所",
+   "right": "的“漱庐”招待所",
+   "page": 192,
+   "why": "Shulu guest house; crop-verified"
+  }
  ]
 }

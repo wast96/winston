@@ -90,3 +90,8 @@
 万有文库
 # ch08: 万万想不到 = "never dreamed"; not a quantity
 万万
+# ch10: numerals inside names, places, roads
+李友三
+四川
+中四路
+乐山

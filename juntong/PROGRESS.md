@@ -302,6 +302,48 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch10 (军统对陕甘宁边区的罪恶活动 / The Juntong against the Shaan-Gan-Ning Border Region) - DONE
+
+- PDF 189-198, printed 170-179. 33 body paragraphs (4 sections), 33
+  translated. The Juntong's decade-long, mostly-failed campaign to penetrate
+  Yenan: early Xi'an training classes, Zhang Guotao's research office, the
+  infiltration doctrine, and the assassination teams sent after the CCP
+  leadership.
+- 137 ledger entries -- the heaviest name load in the book so far. THE BIG
+  ONE: 张国焘 = Zhang Guotao, CCP founder and Mao's rival, defected 1938;
+  OCR had mangled him to 张国春/张国森 throughout. The personnel chief 龚仙舫
+  was mangled five different ways (黎/获/缆/约/奢仙盘). All crop-verified:
+  薛志祥, 黄逸公, 程慕颐, 耀县, 于斌, 袁寄滨, 枣子岚垭/漱庐 (guest house;
+  my provisional 罗家湾/激庐 corrected against the scan), 娄剑如, instructors
+  为教官.
+- Checks: parity 33/33, alignment OK, content OK after a glossary cascade
+  (see below), numbers 0 after noise adjudications (李友三/四川/中四路/乐山),
+  register in tolerance.
+- GLOSSARY CASCADE: my ch10 draft wrote 延安 as 'Yan'an' and 汉中 as
+  'Hanzhong'; the established renderings are 'Yenan' (ch01/ch03 period form)
+  and 'Hanchung' (ch03). Both cascaded to match. 延安 and 汉中 pinned in the
+  glossary as decided.
+- Corroboration: Zhang Guotao's 1938 defection, forced admission to the
+  Juntong at Chiang's insistence, major-general headship of the Special
+  Political Problems Research Office, and Dai Li's treatment of him as a
+  display piece -- all corroborated. Shen Zhiyue's Yenan infiltration (Kangda,
+  Party membership, central organs, return 1941) corroborated; Shen Zui's
+  studied vagueness about a fellow-Shen he envied is noted. Xu Foguan = the
+  later New Confucian philosopher Xu Fuguan, corroborated. The assassination
+  programme is Shen's uncorroborable inside testimony, flagged as such.
+- Notes: 21 at ~2/printed page. Glossary +36 (354 total, after the two
+  reconciliations).
+
+### KNOWN DEBT for the final consistency pass (found during ch10)
+
+The book is internally inconsistent on province/city romanization, inherited
+from the early chapters: Szechwan (8) vs Sichuan (21), Kweichow (2) vs
+Guizhou (15), Chengtu (period, 5) vs none, Peiping (5) vs Peking (5). The
+deliberate period forms are Chungking/Nanking/Peiping/Yenan/Chengtu; the rest
+should probably go pinyin. This is a global correction to run in one grep-
+driven cascade at the end, NOT chapter by chapter. Left as-is for now so the
+line keeps moving; recorded here so the final pass catches it.
+
 ### ch09 (交通警察总队是一支什么样的反动部队 / The Traffic Police Corps) - DONE
 
 - PDF 187-188, printed 168-169. 5 body paragraphs (title spans two source

@@ -838,6 +838,90 @@
   "马志超": {
    "en": "Ma Zhichao",
    "status": "attested"
+  },
+  "娄剑如": {
+   "en": "Lou Jianru",
+   "status": "provisional"
+  },
+  "薛志祥": {
+   "en": "Xue Zhixiang",
+   "status": "provisional"
+  },
+  "赖国民": {
+   "en": "Lai Guomin",
+   "status": "provisional"
+  },
+  "丁敏之": {
+   "en": "Ding Minzhi",
+   "status": "provisional"
+  },
+  "沈之岳": {
+   "en": "Shen Zhiyue",
+   "status": "attested",
+   "note": "The penetration agent; not related to the author despite the shared surname"
+  },
+  "黄逸公": {
+   "en": "Huang Yigong",
+   "status": "provisional"
+  },
+  "程慕颐": {
+   "en": "Cheng Muyi",
+   "status": "provisional"
+  },
+  "徐佛观": {
+   "en": "Xu Foguan",
+   "status": "attested",
+   "note": "Later 徐复观 Xu Fuguan, the New Confucian philosopher"
+  },
+  "郭仲容": {
+   "en": "Guo Zhongrong",
+   "status": "provisional"
+  },
+  "程一鸣": {
+   "en": "Cheng Yiming",
+   "status": "attested"
+  },
+  "霍立人": {
+   "en": "Huo Liren",
+   "status": "provisional"
+  },
+  "于斌": {
+   "en": "Yu Bin",
+   "status": "attested",
+   "note": "Catholic bishop, later cardinal"
+  },
+  "蒋更生": {
+   "en": "Jiang Gengsheng",
+   "status": "provisional"
+  },
+  "刘绍复": {
+   "en": "Liu Shaofu",
+   "status": "provisional"
+  },
+  "李天": {
+   "en": "Li Tian",
+   "status": "provisional"
+  },
+  "龙飞虎": {
+   "en": "Long Feihu",
+   "status": "attested",
+   "note": "Zhou Enlai's wartime bodyguard, later a PLA general"
+  },
+  "袁寄滨": {
+   "en": "Yuan Jibin",
+   "status": "provisional"
+  },
+  "王邦联": {
+   "en": "Wang Banglian",
+   "status": "provisional"
+  },
+  "王新衡": {
+   "en": "Wang Xinheng",
+   "status": "attested"
+  },
+  "黄羽中": {
+   "en": "Huang Yuzhong",
+   "status": "provisional"
   }
  },
  "organisations": {
@@ -1049,6 +1133,10 @@
   },
   "别动军": {
    "en": "the Special Operations Army",
+   "status": "decided"
+  },
+  "抗日军政大学": {
+   "en": "the Anti-Japanese Military and Political University",
    "status": "decided"
   }
  },
@@ -1471,6 +1559,27 @@
   },
   "临泉": {
    "en": "Linquan",
+   "status": "attested"
+  },
+  "榆林": {
+   "en": "Yulin",
+   "status": "attested"
+  },
+  "汉中": {
+   "en": "Hanchung",
+   "status": "decided",
+   "note": "Postal form, consistent with ch03"
+  },
+  "洛川": {
+   "en": "Luochuan",
+   "status": "attested"
+  },
+  "耀县": {
+   "en": "Yaoxian",
+   "status": "attested"
+  },
+  "兰州": {
+   "en": "Lanzhou",
    "status": "attested"
   }
  }
