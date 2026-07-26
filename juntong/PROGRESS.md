@@ -302,6 +302,36 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch15 (昆明七一五 / The Kunming Fifteenth of July) - DONE
+
+- PDF 325-333, printed 306-314. 29 body paragraphs, ~5,600 CJK chars, 1 section
+  heading. Rendered / OCR'd / assembled fresh this session. The 15 July 1948
+  suppression of the Kunming student movement (the siege of Huize Hall).
+- Ledger 13 entries, all crop-verified against the scan. The Kunming police
+  chief was OCR-scattered across eight garbles (王猎/王帮/王岗/王狗/王几/王并/
+  王效/王狠) -> all 王巍 (Wang Wei); also 能庆来->熊庆来 (Xiong Qinglai),
+  朱景上院->朱景暄, 李航想->李毓桢, 周介先->周伯先, and the title 屁明->昆明.
+- CROSS-CHAPTER FIX: crop of ch14 p280 showed the same police chief is 王巍,
+  not 王峙 -- ch14 had shipped "Wang Zhi". Corrected ch14 ledger + reading
+  (Wang Zhi -> Wang Wei) and re-ran ch14 gates (still green). Also closed a
+  glossary-coverage gap: 何绍周/谢崇文/杨文清/周伯先/杨文智 were never in the
+  glossary though they appear in ch14; added now, so content-check validates
+  them across both chapters (ch14 name occurrences rose 412 -> 443).
+- Checks: parity 29/29, alignment OK, content OK, numbers 0 (no noise additions
+  needed), register in tolerance (contr/1k 23.8, shall 33% -- He Shaozhou's
+  reported speech; flagged for the fable pass).
+- Notes: 11. Glossary +29 (people + 会泽院/南菁中学 places). 熊庆来 and 何绍周
+  attested; the rest of the local cast provisional. Students named as victims
+  (温宗江、白明顺、王友珍、傅金德、董德平、金维和) all crop-verified and glossed.
+- Corroboration (no Grok): the 云南七一五运动 and the 会泽院守卫战 -- corroborated
+  (Wikipedia, Yunnan University history); the June 1948 反美扶日 march to the US
+  consulate with a protest to Truman -- corroborated. TWO undercounts flagged
+  as memoir-vs-record notes: Shen says 300+ arrested / 3 months, the record says
+  ~1000 / ~half a year; Shen says the march was 30,000+, the record says ~10,000.
+- VOICE-DRIFT FLAGS for the fable pass: shall% 33% is high (He Shaozhou's lines
+  -- "you shall", "I shall"); confirm the expository frame stays contraction-
+  light. Idioms rendered literal with notes (釜底抽薪, 猛张飞/诸葛亮, 救救孩子).
+
 ### ch14 (云南解放前夕军统在昆明的特务活动 / Juntong Operations in Kunming on the Eve of Yunnan's Liberation) - DONE
 
 - PDF 276-324, printed 257-305. 135 body paragraphs, ~33,500 CJK chars,

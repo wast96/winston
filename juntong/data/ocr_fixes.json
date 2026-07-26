@@ -13895,6 +13895,92 @@
    "right": "虎贲",
    "page": 195,
    "why": "OCR 贲→黄; codename 虎贲(Tiger Braves), same word as the novel 《虎贲万岁》 in the same sentence"
+  },
+  {
+   "wrong": "王峙",
+   "right": "王巍",
+   "page": 261,
+   "why": "crop-verified p280: 王巍 (Wang Wei), same Kunming police chief as ch15; corrects Wang Zhi"
+  }
+ ],
+ "ch15": [
+  {
+   "wrong": "屁明七一五",
+   "right": "昆明七一五",
+   "page": 306,
+   "why": "section title; OCR 昆→屁"
+  },
+  {
+   "wrong": "王猎",
+   "right": "王巍",
+   "page": 306,
+   "why": "Kunming police chief Wang Wei; crop-verified p328/330"
+  },
+  {
+   "wrong": "王帮",
+   "right": "王巍",
+   "page": 306,
+   "why": "police chief Wang Wei; crop-verified"
+  },
+  {
+   "wrong": "王岗",
+   "right": "王巍",
+   "page": 306,
+   "why": "police chief Wang Wei; crop-verified"
+  },
+  {
+   "wrong": "王狗",
+   "right": "王巍",
+   "page": 306,
+   "why": "police chief Wang Wei; crop-verified"
+  },
+  {
+   "wrong": "王几",
+   "right": "王巍",
+   "page": 306,
+   "why": "police chief Wang Wei; crop-verified"
+  },
+  {
+   "wrong": "王并",
+   "right": "王巍",
+   "page": 306,
+   "why": "police chief Wang Wei; crop-verified"
+  },
+  {
+   "wrong": "王效",
+   "right": "王巍",
+   "page": 306,
+   "why": "police chief Wang Wei; crop-verified"
+  },
+  {
+   "wrong": "王狠",
+   "right": "王巍",
+   "page": 306,
+   "why": "police chief Wang Wei; crop-verified"
+  },
+  {
+   "wrong": "朱景上院",
+   "right": "朱景暄",
+   "page": 306,
+   "why": "secretary-general Zhu Jingxuan; crop-verified p327"
+  },
+  {
+   "wrong": "李航想",
+   "right": "李毓桢",
+   "page": 306,
+   "why": "police-affairs chief Li Yuzhen; crop-verified p327"
+  },
+  {
+   "wrong": "能庆来",
+   "right": "熊庆来",
+   "page": 306,
+   "why": "Yunnan Univ president Xiong Qinglai; crop-verified p330"
+  },
+  {
+   "wrong": "周介先",
+   "right": "周伯先",
+   "page": 306,
+   "why": "criminal-police chief Zhou Boxian; crop-verified p326, matches ch14"
   }
  ]
 }

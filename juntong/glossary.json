@@ -1340,6 +1340,120 @@
     "马伯安": {
       "en": "Ma Bo'an",
       "status": "provisional"
+    },
+    "何绍周": {
+      "en": "He Shaozhou",
+      "status": "attested",
+      "note": "1902-1980; Nationalist general, nephew of He Yingqin; commander-in-chief of the Yunnan Garrison Headquarters, the driving force of the July 1948 crackdown in this chapter."
+    },
+    "王巍": {
+      "en": "Wang Wei",
+      "status": "provisional",
+      "note": "Kunming police chief 1948-49; crop-verified 王巍 (earlier read in ch14 as Wang Zhi, corrected)."
+    },
+    "谢崇文": {
+      "en": "Xie Chongwen",
+      "status": "provisional"
+    },
+    "杨文清": {
+      "en": "Yang Wenqing",
+      "status": "provisional"
+    },
+    "杨文智": {
+      "en": "Yang Wenzhi",
+      "status": "provisional",
+      "note": "Yunnan station student-movement director."
+    },
+    "周伯先": {
+      "en": "Zhou Boxian",
+      "status": "provisional",
+      "note": "chief of the Kunming police criminal-investigation corps."
+    },
+    "彭晋仁": {
+      "en": "Peng Jinren",
+      "status": "provisional"
+    },
+    "阮更生": {
+      "en": "Ruan Gengsheng",
+      "status": "provisional"
+    },
+    "刘剑义": {
+      "en": "Liu Jianyi",
+      "status": "provisional"
+    },
+    "刘善述": {
+      "en": "Liu Shanshu",
+      "status": "provisional"
+    },
+    "丁龙恺": {
+      "en": "Ding Longkai",
+      "status": "provisional"
+    },
+    "马瑛": {
+      "en": "Ma Ying",
+      "status": "provisional"
+    },
+    "朱景暄": {
+      "en": "Zhu Jingxuan",
+      "status": "provisional"
+    },
+    "王政": {
+      "en": "Wang Zheng",
+      "status": "provisional"
+    },
+    "陇体要": {
+      "en": "Long Tiyao",
+      "status": "provisional"
+    },
+    "李毓桢": {
+      "en": "Li Yuzhen",
+      "status": "provisional"
+    },
+    "查宗藩": {
+      "en": "Zha Zongfan",
+      "status": "provisional",
+      "note": "the CC Clique's (Zhongtong) man in charge in Yunnan."
+    },
+    "熊庆来": {
+      "en": "Xiong Qinglai",
+      "status": "attested",
+      "note": "1893-1969; the eminent mathematician, president of Yunnan University 1937-1949, who discovered and mentored Hua Luogeng. His plea for the besieged students is a striking cameo."
+    },
+    "罗若维": {
+      "en": "Luo Ruowei",
+      "status": "provisional"
+    },
+    "王金林": {
+      "en": "Wang Jinlin",
+      "status": "provisional"
+    },
+    "张发顺": {
+      "en": "Zhang Fashun",
+      "status": "provisional"
+    },
+    "温宗江": {
+      "en": "Wen Zongjiang",
+      "status": "provisional"
+    },
+    "白明顺": {
+      "en": "Bai Mingshun",
+      "status": "provisional"
+    },
+    "王友珍": {
+      "en": "Wang Youzhen",
+      "status": "provisional"
+    },
+    "傅金德": {
+      "en": "Fu Jinde",
+      "status": "provisional"
+    },
+    "董德平": {
+      "en": "Dong Deping",
+      "status": "provisional"
+    },
+    "金维和": {
+      "en": "Jin Weihe",
+      "status": "provisional"
     }
   },
   "organisations": {
@@ -2075,6 +2189,16 @@
     "巫山": {
       "en": "Wushan",
       "status": "attested"
+    },
+    "会泽院": {
+      "en": "Huize Hall",
+      "status": "decided",
+      "note": "the main building of Yunnan University in Kunming."
+    },
+    "南菁中学": {
+      "en": "Nanjing Middle School",
+      "status": "decided",
+      "note": "南菁 (a Kunming school), same pinyin as but unrelated to the city Nanjing (南京)."
     }
   }
 }
