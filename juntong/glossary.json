@@ -591,6 +591,56 @@
    "en": "Bai Ju",
    "status": "provisional",
    "note": "Szechwan warlord who built the Xiangshan villa that became Baigongguan."
+  },
+  "刘乙光": {
+   "en": "Liu Yiguang",
+   "status": "attested",
+   "note": "Warden of Zhang Xueliang 1937-1962; named in Chinese accounts of the confinement"
+  },
+  "许建业": {
+   "en": "Xu Jianye",
+   "status": "provisional",
+   "note": "Juntong deputy detachment captain; NOT the Communist martyr of the same name"
+  },
+  "于凤至": {
+   "en": "Yu Fengzhi",
+   "status": "attested"
+  },
+  "赵一荻": {
+   "en": "Zhao Yidi",
+   "status": "attested",
+   "note": "Also \"Fourth Miss\" (赵四小姐) as the book itself glosses"
+  },
+  "莫德惠": {
+   "en": "Mo Dehui",
+   "status": "attested"
+  },
+  "王陵基": {
+   "en": "Wang Lingji",
+   "status": "attested"
+  },
+  "胡蝶": {
+   "en": "Hu Die",
+   "status": "attested",
+   "note": "The film star; \"Butterfly Wu\" in period English press, pinyin kept for consistency"
+  },
+  "李觉": {
+   "en": "Li Jue",
+   "status": "provisional",
+   "note": "Central Training Corps branch head at Chungking, 1946; identification with the Hunan general Li Jue not certain"
+  },
+  "张严佛": {
+   "en": "Zhang Yanfo",
+   "status": "provisional"
+  },
+  "徐远举": {
+   "en": "Xu Yuanju",
+   "status": "attested"
+  },
+  "李仲桢": {
+   "en": "Li Zhongzhen",
+   "status": "provisional",
+   "note": "Scan reads 李和久桢; reading not confirmable at available resolution"
   }
  },
  "organisations": {
@@ -763,6 +813,22 @@
   "第六战区": {
    "en": "the Sixth War Zone",
    "status": "decided"
+  },
+  "兵工署": {
+   "en": "the Ordnance Administration",
+   "status": "decided"
+  },
+  "鄂豫皖三省剿总": {
+   "en": "the Bandit Suppression Headquarters for the three provinces of Hubei, Henan and Anhui",
+   "status": "decided"
+  },
+  "绥靖公署": {
+   "en": "the Pacification Headquarters",
+   "status": "decided"
+  },
+  "同济医学院": {
+   "en": "Tongji Medical College",
+   "status": "attested"
   }
  },
  "terms": {
@@ -864,6 +930,19 @@
    "en": "forbidden zone",
    "status": "decided",
    "note": "The closed area of SACO reserved for senior political prisoners."
+  },
+  "老帅": {
+   "en": "the Old Marshal",
+   "status": "decided"
+  },
+  "少帅": {
+   "en": "the Young Marshal",
+   "status": "decided"
+  },
+  "副座": {
+   "en": "Vice-Commander",
+   "status": "decided",
+   "note": "The form of address 座 attached to a post; \"Vice-Commander\" chosen over \"Deputy Seat\""
   }
  },
  "places": {
@@ -1014,6 +1093,73 @@
    "en": "the Xiangshan villa",
    "status": "attested",
    "note": "The house that became Baigongguan."
+  },
+  "奉化": {
+   "en": "Fenghua",
+   "status": "attested"
+  },
+  "雪窦寺": {
+   "en": "Xuedou Temple",
+   "status": "attested"
+  },
+  "益阳": {
+   "en": "Yiyang",
+   "status": "attested"
+  },
+  "桃花坪": {
+   "en": "Taohuaping",
+   "status": "provisional"
+  },
+  "沅陵": {
+   "en": "Yuanling",
+   "status": "attested"
+  },
+  "凤凰山": {
+   "en": "Fenghuangshan",
+   "status": "provisional",
+   "note": "The hill at Yuanling, not the many namesakes"
+  },
+  "修文": {
+   "en": "Xiuwen",
+   "status": "attested"
+  },
+  "阳明洞": {
+   "en": "Yangming Cave",
+   "status": "decided",
+   "note": "Both the Xiuwen and the Xingguo caves; \"Cave\" not \"Grotto\""
+  },
+  "玄天洞": {
+   "en": "Xuantian Cave",
+   "status": "attested"
+  },
+  "桐梓": {
+   "en": "Tongzi",
+   "status": "attested"
+  },
+  "兴国": {
+   "en": "Xingguo",
+   "status": "attested"
+  },
+  "草山": {
+   "en": "Caoshan",
+   "status": "attested",
+   "note": "Renamed Yangmingshan in 1950; the book predates the renaming"
+  },
+  "松林坡": {
+   "en": "Songlinpo",
+   "status": "attested"
+  },
+  "夜郎": {
+   "en": "Yelang",
+   "status": "attested"
+  },
+  "三潭印月": {
+   "en": "Three Pools Mirroring the Moon",
+   "status": "attested"
+  },
+  "南昌": {
+   "en": "Nanchang",
+   "status": "attested"
   }
  }
 }

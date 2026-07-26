@@ -131,17 +131,34 @@ def check_anchors(notes_path, docs, datelines=None, show_multi=False):
 
 
 def check_headings(docs, depth=2):
+    # Compared POSITION BY POSITION, not as whole tuples. Comparing the
+    # tuple (title level, first section level) can never pass on a book
+    # where some chapters have sections and some do not: a sectionless
+    # chapter's shape is (2,) and a sectioned one's is (2, 3), which is
+    # exactly the legitimate variation the docstring promises not to flag.
+    # That comparison went INCONSISTENT the moment ch04 (no sections)
+    # joined ch01-03 (sections) and would have stayed red for the whole
+    # rest of the book. What the check exists to catch is a heading at the
+    # WRONG LEVEL -- a '#' title where the others use '##' -- so each
+    # position is required to agree only across the documents that have a
+    # heading at that position at all.
+    by_pos = {}
     shapes = {}
     for cid, path in docs.items():
         heads = [l.strip() for l in open(path) if l.strip().startswith('#')][:depth]
         shape = tuple(len(h) - len(h.lstrip('#')) for h in heads)
         shapes.setdefault(shape, []).append(cid)
-    ok = len(shapes) == 1
-    print("  headings: %d distinct shape(s) %s"
-          % (len(shapes), "OK" if ok else "INCONSISTENT"))
+        for i, lvl in enumerate(shape):
+            by_pos.setdefault(i, {}).setdefault(lvl, []).append(cid)
+    ok = all(len(lvls) == 1 for lvls in by_pos.values())
+    print("  headings: %d level position(s) %s"
+          % (len(by_pos), "OK" if ok else "INCONSISTENT"))
     if not ok:
-        for shape, cids in sorted(shapes.items(), key=lambda kv: -len(kv[1])):
-            print("     levels %-12s %s" % (str(shape), ', '.join(cids)))
+        for i, lvls in sorted(by_pos.items()):
+            if len(lvls) > 1:
+                for lvl, cids in sorted(lvls.items()):
+                    print("     position %d level %d: %s"
+                          % (i, lvl, ', '.join(cids)))
     return ok
 
 
@@ -166,7 +183,7 @@ def main():
     ap.add_argument('--pairs', nargs=2, metavar=('SRC', 'TGT'))
     ap.add_argument('--show-multi', action='store_true',
                     help='list anchors matching more than once (informational)')
-    ap.add_argument('--heading-depth', type=int, default=2,
+    ap.add_argument('--heading-depth', type=int, default=None,
                     help='how many opening headings must match across files '
                          '(default 2; deeper structure varies legitimately)')
     a = ap.parse_args()
@@ -187,7 +204,12 @@ def main():
     if cfg.get('notes'):
         ok &= check_anchors(cfg['notes'], docs, cfg.get('datelines'),
                             a.show_multi)
-    ok &= check_headings(docs, a.heading_depth)
+    # The config may set its own heading_depth (book.json documents why);
+    # it was silently ignored until ch06, which is how the shape check ran
+    # red from ch04 on without stopping the line. CLI flag wins if given.
+    depth = (a.heading_depth if a.heading_depth is not None
+             else cfg.get('heading_depth', 2))
+    ok &= check_headings(docs, depth)
     if cfg.get('variants'):
         ok &= check_drift(docs, cfg['variants'])
     print("\n%s" % ("ALL STRUCTURAL CHECKS PASS" if ok else "STRUCTURAL FAILURES"))

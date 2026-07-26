@@ -76,3 +76,5 @@
 一二
 # ch05: numerals inside names
 马法五
+# ch06: 百年纪念表 = Omega centenary model; "centenary" carries the hundred
+百年纪念

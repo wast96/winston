@@ -5002,9 +5002,9 @@
   },
   {
    "wrong": "用大石块捡住",
-   "right": "用大石块压住",
+   "right": "用大石块拴住",
    "page": 167,
-   "why": "weighted with a large stone"
+   "why": "拴住 tied down; crop-verified (earlier guess 压住 corrected against the scan)"
   },
   {
    "wrong": "挂在房榴下",
@@ -5215,6 +5215,54 @@
    "right": "向戴笠请示",
    "page": 165,
    "why": "戴笠"
+  },
+  {
+   "wrong": "薪介石",
+   "right": "蒋介石",
+   "page": 169,
+   "why": "Chiang Kai-shek; crop-verified"
+  },
+  {
+   "wrong": "妆时他虽然",
+   "right": "当时他虽然",
+   "page": 169,
+   "why": "当 read as 妆; crop-verified"
+  },
+  {
+   "wrong": "毛人风",
+   "right": "毛人凤",
+   "page": 170,
+   "why": "Mao Renfeng; crop-verified"
+  },
+  {
+   "wrong": "和我们担别",
+   "right": "和我们握别",
+   "page": 170,
+   "why": "握别 shook hands in farewell; crop-verified"
+  },
+  {
+   "wrong": "目那以后",
+   "right": "自那以后",
+   "page": 170,
+   "why": "自那以后; crop-verified"
+  },
+  {
+   "wrong": "赵一获",
+   "right": "赵一荻",
+   "page": 170,
+   "why": "Zhao Yidi; systematic 荻→获 mangle; crop-verified"
+  },
+  {
+   "wrong": "老人竹子",
+   "right": "老竹子",
+   "page": 167,
+   "why": "OCR inserted 人; print reads 老竹子, old bamboo; crop-verified"
+  },
+  {
+   "wrong": "钓鱼竺",
+   "right": "钓鱼竿",
+   "page": 167,
+   "why": "竿 rod; crop-verified"
   }
  ]
 }

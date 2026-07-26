@@ -234,6 +234,53 @@ had flattened both to "the words". Restored as "the three characters" and
   exchange for Ma Fawu and Ye Ting's remark on cutting his hair at last, which
   is the chapter's resolution.
 
+### ch06 (张学良将军被扣押时的情况 / General Zhang Xueliang under Detention) - DONE
+
+- PDF 163-170, printed 144-151. 22 source paragraphs, 22 translated.
+- 113 ledger entries, all crop-verified where the reading was in doubt.
+  Restored among others: 雪窦寺 (OCR made the temple a village), 阿米茄表厂
+  (Omega), 白面馍, 王陵基亲自, 荒凉, 朝廷, 草山温泉区, 鄂豫皖三省剿总, 击毙,
+  劫走, 竭力, 握别, 老竹子, 拴住. One OCR error (说下去吧!” read as 说下去吧二)
+  had swallowed the sentence-final punctuation and with it a real paragraph
+  break; fixed in the page text and reassembled, 21 paragraphs became 22.
+- PIPELINE TRAP FIXED: apply_fixes writes data/zh, assemble regenerates
+  data/zh from data/txt. Run in the wrong order, assembly silently discards
+  every correction — which is exactly what the first ch06 pass did. Order is
+  assemble THEN apply_fixes, always.
+- CHECK FIXED: check_structure's heading-shape comparison could never pass
+  once sectionless chapters joined sectioned ones ((2,) vs (2,3)); it had
+  been red since ch04 without stopping the line, and it ignored book.json's
+  heading_depth key. Now compares level positions only where present, and
+  honors the config.
+- Checks: parity 22/22, alignment OK, content alignment OK (101 name
+  occurrences all in the paired paragraph), register within tolerance,
+  numeric check 1 residual flag adjudicated (百年纪念表 -> "centenary" carries
+  the hundred; noise rule added with comment).
+- Notes: 25 at 3.1 per printed page, plus two retro first-appearance notes
+  the earlier chapters owed: the Xi'an Incident (ch02) and the joint
+  identification of Zhang and Yang (ch03).
+- Glossary +34 (252 total).
+- Corroboration pass run against outside sources for this chapter's checkable
+  claims: Zhang's 1936 tribunal and pardon-into-custody (corroborated), Yu
+  Fengzhi's departure (contradicted: 1940, not Shen's 1943 -- noted), Liu
+  Yiguang's Whampoa class (contradicted: fourth, not Shen's sixth -- noted),
+  the watch anecdote (legend with incompatible variants -- noted as such),
+  Caoshan renamed Yangmingshan 1950 (corroborated, completes the Wang
+  Yangming programme Shen describes), Hu Die kept by Dai Li (corroborated,
+  Wakeman -- explains the lunch scene Shen leaves unexplained).
+
+### FOR WINSTON'S READ-THROUGH, ch06
+
+- 李仲桢 for the Xiuwen county magistrate is provisional: the scan prints an
+  OCR-resistant name (machine read 李和久桢), not confirmable at available
+  resolution, and no outside source for the appointment was found.
+- Shen's "sixth Whampoa class" for Liu Yiguang and "1943" for Yu Fengzhi's
+  departure are both contradicted by outside accounts; both kept as written
+  and noted, per the register contract (his errors are evidence).
+- 南京总台指定专机日夜不停地收听 -- 专机 crop-verified as printed; read as a
+  dedicated radio set at the Nanking head station, not an aircraft. If you
+  read it otherwise, say so.
+
 ### FOR WINSTON'S READ-THROUGH, ch05
 
 - Two provisional readings not confirmed against the scan: 悻悻地走了 and
