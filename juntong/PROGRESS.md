@@ -302,7 +302,38 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
-### ch13 (中美特种技术合作所内幕 / Inside SACO) - PREPPED, NOT YET TRANSLATED
+### ch13 (中美特种技术合作所内幕 / Inside SACO) - DONE
+
+- PDF 229-275, printed 210-256. 126 body paragraphs + preamble, 10 section
+  headings (the 美帝海军与陆军 / 争夺对中美所的领导权 title spans two source
+  lines, merged into one in English). THE LARGEST CHAPTER IN THE BOOK, done.
+- ~380 ledger entries. Every American and Chinese name crop-verified: Miles,
+  Xiao Bo, Guo Dequan, Depass, Knox, Luce, Donovan, Cooke, Wedemeyer,
+  Marshall, Nimitz, Kotrla, White; 李崇诗, 沈维翰, 徐人骥, 龚仙舫, 王芃生,
+  周至柔, 林可胜 (=Robert Lim), 顾祝同, 费巩, 竺可桢, 皮宗阚, and the author
+  in his own roster (沈醉). Two embedded page-number junk strings and three
+  real single-char OCR errors caught by check_numbers (士兵/埋葬/天雨).
+- TRAP AVOIDED then HIT: wrote to a WIP path per plan, but the parity check
+  caught that I had skipped the opening preamble paragraph (SACO's English
+  name) AND misplaced the first section heading -- fixed, 126/126.
+- GLOSSARY CASCADE: 林可胜 set to the attested 'Robert Lim' (cascaded to ch03
+  + its note anchor); 贝乐利->Bei Leli and 桂林->Kweilin unified across ch13.
+- Checks: parity 126/126, alignment OK, content OK (after Bei Leli/Kweilin/
+  Robert Lim/Chungking-Xifeng reconciliations), numbers 0 after adjudicating
+  ~24 flags (names/places/idioms/counters to noise; 3 real OCR fixes; a few
+  compound numbers reworded to digits), register in tolerance.
+- Notes: 27. Glossary +55 (457 total).
+- THE KEY FINDING for the read-through: the Fei Gong passage. Fei Gong was
+  abducted and murdered by SACO agents (body destroyed in nitric acid,
+  5 March 1945; martyr 1978), and Shen -- who ran the two-month 'search' --
+  calls it 'a mystery.' The note lays out the documented truth against Shen's
+  silence; this is the book's sharpest case of the gap between the page and
+  the record, exactly what the apparatus exists to mark. Corroboration also
+  run on SACO's structure and Miles (Wakeman's Spymaster; Miles's own memoir)
+  -- Shen's account is broadly borne out. Miles's seven-star-flag origin
+  story is flagged as almost certainly Juntong lore.
+- NO Grok/Grokipedia used (a Grokipedia SACO page surfaced in search and was
+  ignored per standing rule).
 
 - PDF 229-275, printed 210-256. THE LARGEST CHAPTER IN THE BOOK: 126 body
   paragraphs, ~32,000 CJK chars, 11 section headings -- roughly 3x a normal

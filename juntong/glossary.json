@@ -1117,6 +1117,176 @@
   "郎祖荫": {
    "en": "Lang Zuyin",
    "status": "provisional"
+  },
+  "萧勃": {
+   "en": "Xiao Bo",
+   "status": "attested",
+   "note": "Book prints 肖勃"
+  },
+  "郭德权": {
+   "en": "Guo Dequan",
+   "status": "provisional"
+  },
+  "迪帕斯": {
+   "en": "Depass",
+   "status": "provisional",
+   "note": "US embassy attaché, Chungking"
+  },
+  "杨宣诚": {
+   "en": "Yang Xuancheng",
+   "status": "attested"
+  },
+  "周至柔": {
+   "en": "Zhou Zhirou",
+   "status": "attested"
+  },
+  "何世礼": {
+   "en": "He Shili",
+   "status": "attested"
+  },
+  "鲁斯": {
+   "en": "Luce",
+   "status": "attested",
+   "note": "Henry Luce of Time/Life"
+  },
+  "诺克斯": {
+   "en": "Knox",
+   "status": "attested",
+   "note": "Frank Knox, US Navy Secretary"
+  },
+  "胡世泽": {
+   "en": "Hu Shize",
+   "status": "attested"
+  },
+  "李崇诗": {
+   "en": "Li Chongshi",
+   "status": "provisional"
+  },
+  "史密司": {
+   "en": "Smith",
+   "status": "provisional"
+  },
+  "徐人骥": {
+   "en": "Xu Renji",
+   "status": "provisional"
+  },
+  "杜诺万": {
+   "en": "Donovan",
+   "status": "attested",
+   "note": "William J. Donovan, head of OSS"
+  },
+  "柯克": {
+   "en": "Cooke",
+   "status": "attested",
+   "note": "Adm. Charles M. Cooke"
+  },
+  "尚望": {
+   "en": "Shang Wang",
+   "status": "provisional"
+  },
+  "易炜": {
+   "en": "Yi Wei",
+   "status": "provisional"
+  },
+  "魏景蒙": {
+   "en": "Wei Jingmeng",
+   "status": "attested"
+  },
+  "柯朱拉": {
+   "en": "Kotrla",
+   "status": "provisional",
+   "note": "R. Kotrla, US weather expert"
+  },
+  "黄荣华": {
+   "en": "Huang Ronghua",
+   "status": "provisional"
+  },
+  "戴夏民": {
+   "en": "Dai Xiamin",
+   "status": "provisional"
+  },
+  "郭斌": {
+   "en": "Guo Bin",
+   "status": "provisional"
+  },
+  "刘镇芳": {
+   "en": "Liu Zhenfang",
+   "status": "provisional"
+  },
+  "何浩若": {
+   "en": "He Haoruo",
+   "status": "provisional"
+  },
+  "陆根泉": {
+   "en": "Lu Genquan",
+   "status": "provisional"
+  },
+  "庄心田": {
+   "en": "Zhuang Xintian",
+   "status": "provisional"
+  },
+  "怀特": {
+   "en": "White",
+   "status": "attested",
+   "note": "American chief instructor, special-police class"
+  },
+  "费巩": {
+   "en": "Fei Gong",
+   "status": "attested",
+   "note": "ZJU professor murdered by SACO agents 1945; martyr 1978"
+  },
+  "竺可桢": {
+   "en": "Zhu Kezhen",
+   "status": "attested"
+  },
+  "魏德迈": {
+   "en": "Wedemeyer",
+   "status": "attested",
+   "note": "Gen. Albert Wedemeyer"
+  },
+  "史迪威": {
+   "en": "Stilwell",
+   "status": "attested",
+   "note": "Gen. Joseph Stilwell"
+  },
+  "马歇尔": {
+   "en": "Marshall",
+   "status": "attested",
+   "note": "Gen. George Marshall"
+  },
+  "尼米兹": {
+   "en": "Nimitz",
+   "status": "attested",
+   "note": "Adm. Chester Nimitz"
+  },
+  "福莱斯特": {
+   "en": "Forrestal",
+   "status": "attested",
+   "note": "James Forrestal, US Navy Secretary"
+  },
+  "赫尔利": {
+   "en": "Hurley",
+   "status": "attested",
+   "note": "Patrick Hurley"
+  },
+  "克拉克": {
+   "en": "Clark",
+   "status": "provisional",
+   "note": "New York detective, SACO"
+  },
+  "皮宗阚": {
+   "en": "Pi Zongkan",
+   "status": "provisional",
+   "note": "Historically 皮宗敢; scan reads 阚"
+  },
+  "张乘午": {
+   "en": "Zhang Chengwu",
+   "status": "provisional"
+  },
+  "宋子良": {
+   "en": "Song Ziliang",
+   "status": "attested",
+   "note": "Brother of T. V. Soong"
   }
  },
  "organisations": {
@@ -1342,6 +1512,15 @@
    "en": "the Attendants' Office",
    "status": "decided",
    "note": "Chiang Kai-shek's personal secretariat"
+  },
+  "战略业务局": {
+   "en": "the Office of Strategic Services",
+   "status": "decided",
+   "note": "OSS"
+  },
+  "国际问题研究所": {
+   "en": "the Institute for International Affairs",
+   "status": "decided"
   }
  },
  "terms": {
@@ -1483,6 +1662,19 @@
   "中美号": {
    "en": "the \"Zhongmei\"",
    "status": "decided"
+  },
+  "黑室": {
+   "en": "the Black Chamber",
+   "status": "decided"
+  },
+  "驼峰": {
+   "en": "the Hump",
+   "status": "decided"
+  },
+  "滑竿": {
+   "en": "huagan",
+   "status": "decided",
+   "note": "Sichuanese sedan-chair"
   }
  },
  "places": {
@@ -1814,6 +2006,22 @@
   "冉家巷": {
    "en": "Ranjiaxiang",
    "status": "provisional"
+  },
+  "钟家山": {
+   "en": "Zhongjiashan",
+   "status": "provisional"
+  },
+  "千厮门": {
+   "en": "Qiansimen",
+   "status": "attested"
+  },
+  "湄潭": {
+   "en": "Meitan",
+   "status": "attested"
+  },
+  "巫山": {
+   "en": "Wushan",
+   "status": "attested"
   }
  }
 }
