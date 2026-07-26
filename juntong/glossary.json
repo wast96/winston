@@ -641,6 +641,127 @@
    "en": "Li Zhongzhen",
    "status": "provisional",
    "note": "Scan reads 李和久桢; reading not confirmable at available resolution"
+  },
+  "谢葆贞": {
+   "en": "Xie Baozhen",
+   "status": "attested",
+   "note": "Standard sources write 谢葆真; the book prints 葆贞"
+  },
+  "杨拯中": {
+   "en": "Yang Zhengzhong",
+   "status": "attested"
+  },
+  "李家杰": {
+   "en": "Li Jiajie",
+   "status": "attested"
+  },
+  "熊式辉": {
+   "en": "Xiong Shihui",
+   "status": "attested"
+  },
+  "罗世文": {
+   "en": "Luo Shiwen",
+   "status": "attested"
+  },
+  "车耀先": {
+   "en": "Che Yaoxian",
+   "status": "attested"
+  },
+  "张蔚林": {
+   "en": "Zhang Weilin",
+   "status": "attested"
+  },
+  "张露萍": {
+   "en": "Zhang Luping",
+   "status": "attested"
+  },
+  "冯传庆": {
+   "en": "Feng Chuanqing",
+   "status": "attested"
+  },
+  "杨光": {
+   "en": "Yang Guang",
+   "status": "provisional",
+   "note": "One of the radio-case seven; common name"
+  },
+  "马寅初": {
+   "en": "Ma Yinchu",
+   "status": "attested"
+  },
+  "黄显声": {
+   "en": "Huang Xiansheng",
+   "status": "attested"
+  },
+  "李虎臣": {
+   "en": "Li Huchen",
+   "status": "attested",
+   "note": "OCR gave 李虎城; certain from the 1926 defence of Xi'an"
+  },
+  "龚国彦": {
+   "en": "Gong Guoyan",
+   "status": "provisional",
+   "note": "Print crop-verified 龚; appears in other accounts of the confinement"
+  },
+  "张静甫": {
+   "en": "Zhang Jingfu",
+   "status": "provisional"
+  },
+  "周养浩": {
+   "en": "Zhou Yanghao",
+   "status": "attested"
+  },
+  "邓匡元": {
+   "en": "Deng Kuangyuan",
+   "status": "provisional"
+  },
+  "徐羽仪": {
+   "en": "Xu Yuyi",
+   "status": "provisional"
+  },
+  "陈国祯": {
+   "en": "Chen Guozhen",
+   "status": "provisional"
+  },
+  "于右任": {
+   "en": "Yu Youren",
+   "status": "attested"
+  },
+  "杨森": {
+   "en": "Yang Sen",
+   "status": "attested"
+  },
+  "宋绮云": {
+   "en": "Song Qiyun",
+   "status": "attested"
+  },
+  "徐林侠": {
+   "en": "Xu Linxia",
+   "status": "attested"
+  },
+  "张鹄": {
+   "en": "Zhang Hu",
+   "status": "attested",
+   "note": "Baigongguan warden; crop-verified"
+  },
+  "陆景清": {
+   "en": "Lu Jingqing",
+   "status": "attested"
+  },
+  "杨进兴": {
+   "en": "Yang Jinxing",
+   "status": "attested"
+  },
+  "熊祥": {
+   "en": "Xiong Xiang",
+   "status": "attested"
+  },
+  "陈宝琪": {
+   "en": "Chen Baoqi",
+   "status": "provisional"
+  },
+  "何应钦": {
+   "en": "He Yingqin",
+   "status": "attested"
   }
  },
  "organisations": {
@@ -829,6 +950,14 @@
   "同济医学院": {
    "en": "Tongji Medical College",
    "status": "attested"
+  },
+  "交通警察总队": {
+   "en": "the transport police corps",
+   "status": "decided"
+  },
+  "西南长官公署": {
+   "en": "the Southwest Headquarters",
+   "status": "decided"
   }
  },
  "terms": {
@@ -943,6 +1072,20 @@
    "en": "Vice-Commander",
    "status": "decided",
    "note": "The form of address 座 attached to a post; \"Vice-Commander\" chosen over \"Deputy Seat\""
+  },
+  "法币": {
+   "en": "the fabi",
+   "status": "decided",
+   "note": "Glossed once as the Nationalist legal-tender currency"
+  },
+  "日寇": {
+   "en": "the Japanese bandits",
+   "status": "decided",
+   "note": "Period designation kept as written"
+  },
+  "万有文库": {
+   "en": "the Wanyou Wenku",
+   "status": "attested"
   }
  },
  "places": {
@@ -1160,6 +1303,38 @@
   "南昌": {
    "en": "Nanchang",
    "status": "attested"
+  },
+  "百花洲": {
+   "en": "Baihuazhou",
+   "status": "attested"
+  },
+  "株洲": {
+   "en": "Zhuzhou",
+   "status": "attested"
+  },
+  "阳朗坝": {
+   "en": "Yanglangba",
+   "status": "provisional"
+  },
+  "黔灵山": {
+   "en": "Qianling Mountain",
+   "status": "attested"
+  },
+  "麒麟洞": {
+   "en": "Qilin Cave",
+   "status": "attested"
+  },
+  "松坎": {
+   "en": "Songkan",
+   "status": "attested"
+  },
+  "独山": {
+   "en": "Dushan",
+   "status": "attested"
+  },
+  "杨家山": {
+   "en": "Yangjiashan",
+   "status": "provisional"
   }
  }
 }

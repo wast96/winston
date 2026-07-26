@@ -269,6 +269,50 @@ had flattened both to "the words". Restored as "the three characters" and
   Yangming programme Shen describes), Hu Die kept by Dai Li (corroborated,
   Wakeman -- explains the lunch scene Shen leaves unexplained).
 
+### ch07 (杨虎城将军被惨杀的经过 / The Murder of General Yang Hucheng) - DONE
+
+- PDF 171-182, printed 152-163. 27 source paragraphs + 4 section headings,
+  27 translated. The chapter is the book's centrepiece atrocity narrative:
+  Yang's return in 1937, Xifeng and Xuantian Cave, the 1949 knife murders of
+  Yang, his son, his secretary Song Qiyun, Xu Linxia and the two children at
+  the Dai Memorial Hall on Songlinpo.
+- 173 ledger entries. THE SYSTEMATIC MANGLE OF THE CHAPTER: the guard
+  captain 龚国彦, which OCR rendered ten different ways (黎/蓝/缆/绪/秦/复/
+  鸡/故/克/裴); the print is crop-verified 龚. Also restored: 谢葆贞, 拯中,
+  熊式辉, 阳朗坝, 车耀先, 张静甫 (twice-mangled into a phantom second medic
+  张项青), 临澧, 张鹄, 白公馆, 渣滓洞, 革命人士, 龙蟠虎踞, 含矿质/泉水,
+  镪水 (the nitric acid -- load-bearing, crop-verified), 李虎臣 (OCR 李虎城;
+  my first ledger guess 杨虎臣 was wrong and is corrected -- the 1926 'two
+  tigers' defence of Xi'an).
+- Checks: parity 27/27, alignment OK, content OK after one glossary-drift
+  cascade (Gele Mountain -> Geleshan, the established rendering), numbers 0
+  after 3 noise adjudications (百花洲, 百科全书, 万有文库), register in
+  tolerance.
+- Notes: 27 at 2.3 per printed page (the chapter runs long and narrative;
+  density deliberately below ch06's biography-dense 3.1), plus a retro li
+  unit note at its true first appearance (ch04).
+- Glossary +42 (294 total).
+- Corroboration: the murder date (record: 6 Sept 1949) sits inside Shen's
+  'end of August or beginning of September'; 森森 confirmed as the pet name
+  of Song Zhenzhong (小萝卜头), youngest recognized martyr; Luo Shiwen /
+  Che Yaoxian executions (Aug 1946, under Li Jiajie) corroborated; Zhang
+  Luping radio-case seven corroborated -- Shen lists them without mentioning
+  they had penetrated his own service, noted; Qilin Cave held Zhang Xueliang
+  1941-42 per standard accounts, which Shen's ch06 chronology contradicts --
+  flagged in the note; Xu Linxia arrested with an eight-month-old son, not
+  delivered in prison as Shen has it -- noted.
+
+### FOR WINSTON'S READ-THROUGH, ch07
+
+- 杨氏佳城 / 龙蟠虎踞: the tomb passage turns on all three characters of
+  Yang Hucheng's name standing in the stone. Untranslatable; the note
+  explains it. Check whether the note carries it clearly enough.
+- The onomatopoeia of the warning shot (OCR gave 只) is unreadable at
+  available resolution; rendered as plain 'the crack of a shot'.
+- 张严佛-style uncertain identifications this chapter: 杨光 (common name),
+  邓匡元/徐羽仪/陈国祯 (Xifeng magistrates), 陈宝琪 -- all provisional in
+  the glossary.
+
 ### FOR WINSTON'S READ-THROUGH, ch06
 
 - 李仲桢 for the Xiuwen county magistrate is provisional: the scan prints an

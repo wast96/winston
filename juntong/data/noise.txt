@@ -84,3 +84,7 @@
 李四光
 两腿
 两条腿
+# ch07: lexical items and place names containing numerals
+百花洲
+百科全书
+万有文库
