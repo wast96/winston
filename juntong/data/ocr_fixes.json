@@ -9681,6 +9681,2244 @@
    "right": "### 组织、人事及活动情况",
    "page": 238,
    "why": "section"
+  },
+  {
+   "wrong": "戴竺",
+   "right": "戴笠",
+   "page": null,
+   "why": "Dai Li; systematic"
+  },
+  {
+   "wrong": "戴等",
+   "right": "戴笠",
+   "page": null,
+   "why": "Dai Li; systematic in this chapter (checked each: no plural reading lost)"
+  },
+  {
+   "wrong": "戴符",
+   "right": "戴笠",
+   "page": null,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴冬",
+   "right": "戴笠",
+   "page": 255,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴怎",
+   "right": "戴笠",
+   "page": 240,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "毛人风",
+   "right": "毛人凤",
+   "page": null,
+   "why": "Mao Renfeng"
+  },
+  {
+   "wrong": "薪介石",
+   "right": "蒋介石",
+   "page": null,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "藉介石",
+   "right": "蒋介石",
+   "page": null,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "闫介石",
+   "right": "蒋介石",
+   "page": 240,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "萝介石",
+   "right": "蒋介石",
+   "page": null,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "基介石",
+   "right": "蒋介石",
+   "page": null,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "回蒋介石谈到",
+   "right": "向蒋介石谈到",
+   "page": 229,
+   "why": "向"
+  },
+  {
+   "wrong": "肖勃",
+   "right": "萧勃",
+   "page": null,
+   "why": "Xiao Bo, US station chief; standard form 萧勃 -- but book prints 肖; KEEP 肖勃 as printed"
+  },
+  {
+   "wrong": "电告肖邦应抓住时机",
+   "right": "电告肖勃应抓住时机",
+   "page": 230,
+   "why": "Xiao Bo, not Chopin"
+  },
+  {
+   "wrong": "种种部填中",
+   "right": "种种部署中",
+   "page": 229,
+   "why": "部署"
+  },
+  {
+   "wrong": "偷黎珍珠港",
+   "right": "偷袭珍珠港",
+   "page": 230,
+   "why": "偷袭"
+  },
+  {
+   "wrong": "大为称移了一番",
+   "right": "大为称赞了一番",
+   "page": 230,
+   "why": "称赞"
+  },
+  {
+   "wrong": "周至条",
+   "right": "周至柔",
+   "page": 230,
+   "why": "Zhou Zhirou; crop-verified"
+  },
+  {
+   "wrong": "崇克心情",
+   "right": "崇美心情",
+   "page": 230,
+   "why": "provisional 崇美"
+  },
+  {
+   "wrong": "(MA-RY MILES)",
+   "right": "(MARY MILES)",
+   "page": 230,
+   "why": "Milton 'Mary' Miles"
+  },
+  {
+   "wrong": "海平情报署",
+   "right": "海军情报署",
+   "page": 230,
+   "why": "海军"
+  },
+  {
+   "wrong": "虽穷过去",
+   "right": "学穷过去",
+   "page": 230,
+   "why": "provisional 学"
+  },
+  {
+   "wrong": "狐合神离",
+   "right": "貌合神离",
+   "page": 230,
+   "why": "貌合神离"
+  },
+  {
+   "wrong": "这征一个最好的靠山",
+   "right": "这真是一个最好的靠山",
+   "page": 231,
+   "why": "provisional 真是"
+  },
+  {
+   "wrong": "放大这一机会",
+   "right": "放弃这一机会",
+   "page": 231,
+   "why": "放弃"
+  },
+  {
+   "wrong": "迪丝厂杨家山",
+   "right": "缫丝厂杨家山",
+   "page": 231,
+   "why": "缫丝厂 silk filature"
+  },
+  {
+   "wrong": "戴笠别野",
+   "right": "戴笠别墅",
+   "page": 231,
+   "why": "别墅"
+  },
+  {
+   "wrong": "当时凌帝最缺少",
+   "right": "当时美帝最缺少",
+   "page": 231,
+   "why": "美帝"
+  },
+  {
+   "wrong": "合作便立刻转人",
+   "right": "合作便立刻转入",
+   "page": 231,
+   "why": "转入"
+  },
+  {
+   "wrong": "曲扩手枪",
+   "right": "曲尺手枪",
+   "page": 231,
+   "why": "automatic pistols"
+  },
+  {
+   "wrong": "妇丝三杨家山",
+   "right": "缫丝厂杨家山",
+   "page": 232,
+   "why": "缫丝厂"
+  },
+  {
+   "wrong": "从部机构",
+   "right": "内部机构",
+   "page": 232,
+   "why": "provisional 内部"
+  },
+  {
+   "wrong": "戴经带召集",
+   "right": "戴经常召集",
+   "page": 232,
+   "why": "经常"
+  },
+  {
+   "wrong": "很繁珊",
+   "right": "很繁琐",
+   "page": 233,
+   "why": "繁琐"
+  },
+  {
+   "wrong": "杂自履行过",
+   "right": "亲自履行过",
+   "page": 233,
+   "why": "亲自"
+  },
+  {
+   "wrong": "参谋长李崇许",
+   "right": "参谋长李崇诗",
+   "page": 233,
+   "why": "Li Chongshi; crop-verified"
+  },
+  {
+   "wrong": "沈维坦",
+   "right": "沈维翰",
+   "page": 233,
+   "why": "Shen Weihan; crop-verified"
+  },
+  {
+   "wrong": "压仙盘",
+   "right": "龚仙舫",
+   "page": 233,
+   "why": "Gong Xianfang; crop-verified"
+  },
+  {
+   "wrong": "徐人双",
+   "right": "徐人骥",
+   "page": 233,
+   "why": "Xu Renji; crop-verified"
+  },
+  {
+   "wrong": "第八处处长沈酬",
+   "right": "第八处处长沈醉",
+   "page": 233,
+   "why": "the author himself in the roster; crop-verified"
+  },
+  {
+   "wrong": "进和会场",
+   "right": "进入会场",
+   "page": 233,
+   "why": "进入"
+  },
+  {
+   "wrong": "和鲁斯等远道",
+   "right": "为鲁斯等远道",
+   "page": 233,
+   "why": "provisional"
+  },
+  {
+   "wrong": "由诺殉斯讲话",
+   "right": "由诺克斯讲话",
+   "page": 234,
+   "why": "Knox"
+  },
+  {
+   "wrong": "寄以很肌切的期望",
+   "right": "寄以很殷切的期望",
+   "page": 234,
+   "why": "殷切"
+  },
+  {
+   "wrong": "没有订和合同",
+   "right": "没有订入合同",
+   "page": 234,
+   "why": "订入"
+  },
+  {
+   "wrong": "庶克斯讲话后",
+   "right": "诺克斯讲话后",
+   "page": 234,
+   "why": "Knox"
+  },
+  {
+   "wrong": "不断干标",
+   "right": "不断干杯",
+   "page": 234,
+   "why": "干杯"
+  },
+  {
+   "wrong": "战胜双方共同敌人人",
+   "right": "战胜双方共同敌人",
+   "page": 234,
+   "why": "doubled 人"
+  },
+  {
+   "wrong": "和否则应即中止",
+   "right": "否则应即中止",
+   "page": 235,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "凡巾军统先行垫付",
+   "right": "凡由军统先行垫付",
+   "page": 235,
+   "why": "由"
+  },
+  {
+   "wrong": "和宿舍及其他",
+   "right": "宿舍及其他",
+   "page": 235,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "伟有利于对日作战",
+   "right": "俾有利于对日作战",
+   "page": 235,
+   "why": "俾"
+  },
+  {
+   "wrong": "上唉共反苏",
+   "right": "反共反苏",
+   "page": 236,
+   "why": "反共"
+  },
+  {
+   "wrong": "五六万人人",
+   "right": "五六万人",
+   "page": 236,
+   "why": "doubled"
+  },
+  {
+   "wrong": "宣拆对盟国效忠",
+   "right": "宣誓对盟国效忠",
+   "page": 237,
+   "why": "宣誓"
+  },
+  {
+   "wrong": "多寒，均不计价",
+   "right": "多寡，均不计价",
+   "page": 238,
+   "why": "多寡"
+  },
+  {
+   "wrong": "杜诺万(W. J.，DONOVAN)",
+   "right": "杜诺万(W. J. DONOVAN)",
+   "page": 238,
+   "why": "Donovan"
+  },
+  {
+   "wrong": "均年统大特务",
+   "right": "均军统大特务",
+   "page": 238,
+   "why": "军统"
+  },
+  {
+   "wrong": "和知干参蛮",
+   "right": "和若干参谋",
+   "page": 238,
+   "why": "若干参谋"
+  },
+  {
+   "wrong": "仍由宇统请示",
+   "right": "仍向军统请示",
+   "page": 239,
+   "why": "向军统"
+  },
+  {
+   "wrong": "有出人",
+   "right": "有出入",
+   "page": 239,
+   "why": "出入"
+  },
+  {
+   "wrong": "与汉好合流",
+   "right": "与汉奸合流",
+   "page": 239,
+   "why": "汉奸"
+  },
+  {
+   "wrong": "由于有眼红而发生内订",
+   "right": "由于眼红而发生内讧",
+   "page": 239,
+   "why": "内讧"
+  },
+  {
+   "wrong": "和开得梅几乎发神经病",
+   "right": "气得梅几乎发神经病",
+   "page": 239,
+   "why": "provisional 气得"
+  },
+  {
+   "wrong": "加泊他去担任",
+   "right": "才调他去担任",
+   "page": 240,
+   "why": "provisional 调"
+  },
+  {
+   "wrong": "站总军统一向",
+   "right": "过去军统一向",
+   "page": 240,
+   "why": "provisional 过去"
+  },
+  {
+   "wrong": "谢x x、吴利杂",
+   "right": "谢××、吴利杂",
+   "page": 240,
+   "why": "suppressed name; 吴利杂 provisional as scanned"
+  },
+  {
+   "wrong": "应征和伍后",
+   "right": "应征入伍后",
+   "page": 240,
+   "why": "入伍"
+  },
+  {
+   "wrong": "王苞生",
+   "right": "王芃生",
+   "page": 240,
+   "why": "Wang Pengsheng; crop-verified"
+  },
+  {
+   "wrong": "去动揪日苗皇心",
+   "right": "去动摇日军军心",
+   "page": 241,
+   "why": "provisional 动摇军心"
+  },
+  {
+   "wrong": "日本盏队",
+   "right": "日本军队",
+   "page": 241,
+   "why": "军队"
+  },
+  {
+   "wrong": "互相瞳中传播",
+   "right": "互相暗中传播",
+   "page": 241,
+   "why": "暗中"
+  },
+  {
+   "wrong": "影响相\"大",
+   "right": "影响相当大",
+   "page": 241,
+   "why": "相当"
+  },
+  {
+   "wrong": "美将特务合流",
+   "right": "美蒋特务合流",
+   "page": 241,
+   "why": "美蒋"
+  },
+  {
+   "wrong": "残做飞机",
+   "right": "残破飞机",
+   "page": 242,
+   "why": "残破"
+  },
+  {
+   "wrong": "大天在逃警报",
+   "right": "天天在逃警报",
+   "page": 242,
+   "why": "天天"
+  },
+  {
+   "wrong": "美国铂多次癌国民党",
+   "right": "美国曾多次向国民党",
+   "page": 242,
+   "why": "曾;向"
+  },
+  {
+   "wrong": "改机起飞",
+   "right": "飞机起飞",
+   "page": 242,
+   "why": "飞机"
+  },
+  {
+   "wrong": "逃到目击地区",
+   "right": "逃到内地以后",
+   "page": 242,
+   "why": "provisional -- garbled span; flagged"
+  },
+  {
+   "wrong": "形成次痪状况",
+   "right": "形成瘫痪状况",
+   "page": 242,
+   "why": "瘫痪"
+  },
+  {
+   "wrong": "关稼也很了解",
+   "right": "美方也很了解",
+   "page": 242,
+   "why": "provisional 美方"
+  },
+  {
+   "wrong": "由程滩继任",
+   "right": "由程浚继任",
+   "page": 242,
+   "why": "provisional Cheng Jun"
+  },
+  {
+   "wrong": "柯朱拉(〈(R. KOTRLA)",
+   "right": "柯朱拉(R. KOTRLA)",
+   "page": 242,
+   "why": "Kotrla"
+  },
+  {
+   "wrong": "孝如雨后春劳般",
+   "right": "有如雨后春笋般",
+   "page": 242,
+   "why": "雨后春笋"
+  },
+  {
+   "wrong": "普届有了",
+   "right": "普遍有了",
+   "page": 242,
+   "why": "普遍"
+  },
+  {
+   "wrong": "傅徐鹿等汉奸",
+   "right": "傅筱庵等汉奸",
+   "page": 243,
+   "why": "FU XIAO'AN, the assassinated puppet mayor of Shanghai; OCR mangled"
+  },
+  {
+   "wrong": "中美所有时竞把",
+   "right": "中美所有时竟把",
+   "page": 243,
+   "why": "竟"
+  },
+  {
+   "wrong": "阔备",
+   "right": "装备",
+   "page": 243,
+   "why": "provisional 装备"
+  },
+  {
+   "wrong": "甚次是关帝特务们",
+   "right": "其次是美帝特务们",
+   "page": 243,
+   "why": "其次;美帝"
+  },
+  {
+   "wrong": "泸州兰田坝",
+   "right": "泸州蓝田坝",
+   "page": 243,
+   "why": "Lantianba"
+  },
+  {
+   "wrong": "在泸州、贵阳、西安、建喇",
+   "right": "在泸州、贵阳、西安、建阳",
+   "page": 243,
+   "why": "Jianyang"
+  },
+  {
+   "wrong": "回时则装货运局",
+   "right": "回程则装货运局",
+   "page": 243,
+   "why": "回程"
+  },
+  {
+   "wrong": "组长原为张约蒜",
+   "right": "组长原为张约翰",
+   "page": 243,
+   "why": "Zhang Yuehan (John Chang); crop-verified"
+  },
+  {
+   "wrong": "中哮倒在",
+   "right": "中暑倒在",
+   "page": 244,
+   "why": "中暑"
+  },
+  {
+   "wrong": "杨隆社",
+   "right": "杨隆祜",
+   "page": 244,
+   "why": "provisional Yang Longhu"
+  },
+  {
+   "wrong": "把皇统局",
+   "right": "把军统局",
+   "page": 244,
+   "why": "军统"
+  },
+  {
+   "wrong": "和硕望在生活",
+   "right": "希望在生活",
+   "page": 244,
+   "why": "希望"
+  },
+  {
+   "wrong": "不合骨口",
+   "right": "不合胃口",
+   "page": 245,
+   "why": "胃口"
+  },
+  {
+   "wrong": "一所白公迄监狱",
+   "right": "一所白公馆监狱",
+   "page": 245,
+   "why": "Baigongguan"
+  },
+  {
+   "wrong": "戴笠只好在酒六洞另外建立一所新的监狱",
+   "right": "戴笠只好在渣滓洞另外建立一所新的监狱",
+   "page": 244,
+   "why": "ZHAZIDONG; crop-verified"
+  },
+  {
+   "wrong": "每一二电话线",
+   "right": "每一寸电话线",
+   "page": 245,
+   "why": "provisional 寸"
+  },
+  {
+   "wrong": "又有儿个组",
+   "right": "又有几个组",
+   "page": 245,
+   "why": "几个"
+  },
+  {
+   "wrong": "潘景朔、周关锡、潘孚硕",
+   "right": "潘景翔、周关锡、潘孚硕",
+   "page": 245,
+   "why": "Pan Jingxiang (see p93 潘景翔); others as scanned"
+  },
+  {
+   "wrong": "每遇到刘镇有事",
+   "right": "每遇到刘镇芳有事",
+   "page": 245,
+   "why": "Liu Zhenfang"
+  },
+  {
+   "wrong": "临时充当一下载、梅两人",
+   "right": "临时充当一下戴、梅两人",
+   "page": 245,
+   "why": "戴"
+  },
+  {
+   "wrong": "外事局局长何洛若",
+   "right": "外事局局长何浩若",
+   "page": 245,
+   "why": "He Haoruo; crop-verified"
+  },
+  {
+   "wrong": "准备子以短期训练",
+   "right": "准备予以短期训练",
+   "page": 245,
+   "why": "予以"
+  },
+  {
+   "wrong": "找她们纠强",
+   "right": "找她们纠缠",
+   "page": 246,
+   "why": "纠缠"
+  },
+  {
+   "wrong": "给梅乐期和戴笠知道",
+   "right": "给梅乐斯和戴笠知道",
+   "page": 246,
+   "why": "Miles"
+  },
+  {
+   "wrong": "炼代汽油",
+   "right": "炼制汽油",
+   "page": 246,
+   "why": "provisional 炼制 (植物油炼制汽油)"
+  },
+  {
+   "wrong": "还有一个工程外",
+   "right": "还有一个工程处",
+   "page": 246,
+   "why": "工程处"
+  },
+  {
+   "wrong": "书面备还录",
+   "right": "书面备忘录",
+   "page": 246,
+   "why": "备忘录"
+  },
+  {
+   "wrong": "侯桢祥负责屠工兴建",
+   "right": "侯桢祥负责雇工兴建",
+   "page": 246,
+   "why": "雇工"
+  },
+  {
+   "wrong": "大礼符",
+   "right": "大礼堂",
+   "page": 246,
+   "why": "礼堂"
+  },
+  {
+   "wrong": "要凌一所",
+   "right": "要修一所",
+   "page": 246,
+   "why": "provisional 修"
+  },
+  {
+   "wrong": "能容纳四和后人",
+   "right": "能容纳四千人",
+   "page": 246,
+   "why": "四千 (cf. later 可容四千人的大礼堂)"
+  },
+  {
+   "wrong": "陆根记营造三革包",
+   "right": "陆根记营造厂承包",
+   "page": 247,
+   "why": "营造厂承包"
+  },
+  {
+   "wrong": "营造三的老板陆根泉",
+   "right": "营造厂的老板陆根泉",
+   "page": 247,
+   "why": "Lu Genquan"
+  },
+  {
+   "wrong": "开山控石",
+   "right": "开山凿石",
+   "page": 247,
+   "why": "凿石"
+  },
+  {
+   "wrong": "因赶工中里",
+   "right": "因赶工中暑",
+   "page": 247,
+   "why": "中暑"
+  },
+  {
+   "wrong": "过度疫劳",
+   "right": "过度疲劳",
+   "page": 247,
+   "why": "疲劳"
+  },
+  {
+   "wrong": "附近民房锌强迫拆除",
+   "right": "附近民房均遭强迫拆除",
+   "page": 247,
+   "why": "provisional 均遭"
+  },
+  {
+   "wrong": "为了强人迫迁居",
+   "right": "为了强迫迁居",
+   "page": 247,
+   "why": "强迫"
+  },
+  {
+   "wrong": "稍佣不满",
+   "right": "稍有不满",
+   "page": 247,
+   "why": "稍有"
+  },
+  {
+   "wrong": "婴睁便都死去",
+   "right": "婴儿便都死去",
+   "page": 247,
+   "why": "婴儿"
+  },
+  {
+   "wrong": "妆场也发生过",
+   "right": "当场也发生过",
+   "page": 247,
+   "why": "当场"
+  },
+  {
+   "wrong": "中风有死去",
+   "right": "中风死去",
+   "page": 247,
+   "why": "stray 有"
+  },
+  {
+   "wrong": "一反埋葛帝了事",
+   "right": "一点埋葬费了事",
+   "page": 247,
+   "why": "埋葬费"
+  },
+  {
+   "wrong": "天天性惑",
+   "right": "天天惶惑",
+   "page": 248,
+   "why": "惶惑"
+  },
+  {
+   "wrong": "茂机e人旋现时",
+   "right": "茅屋前面时",
+   "page": 248,
+   "why": "provisional -- garbled; flagged"
+  },
+  {
+   "wrong": "一齐向他跑了下去",
+   "right": "一齐向他跪了下去",
+   "page": 248,
+   "why": "跪了下去"
+  },
+  {
+   "wrong": "这时他们才敢疏起来",
+   "right": "这时他们才敢站起来",
+   "page": 248,
+   "why": "站起来"
+  },
+  {
+   "wrong": "把这对小悉摔死",
+   "right": "把这对小鹅摔死",
+   "page": 248,
+   "why": "小鹅"
+  },
+  {
+   "wrong": "车出大祸",
+   "right": "闯出大祸",
+   "page": 248,
+   "why": "闯出"
+  },
+  {
+   "wrong": "您惧和仇恨",
+   "right": "畏惧和仇恨",
+   "page": 248,
+   "why": "畏惧"
+  },
+  {
+   "wrong": "从北起缘丝三",
+   "right": "从北起缫丝厂",
+   "page": 248,
+   "why": "缫丝厂"
+  },
+  {
+   "wrong": "酒淳洞煤审紧接兵工三",
+   "right": "渣滓洞煤窑紧接兵工厂",
+   "page": 248,
+   "why": "ZHAZIDONG coal pit; crop-verified"
+  },
+  {
+   "wrong": "煤密",
+   "right": "煤窑",
+   "page": 248,
+   "why": "煤窑"
+  },
+  {
+   "wrong": "小煤窗的老板活活台死",
+   "right": "小煤窑的老板活活逼死",
+   "page": 248,
+   "why": "煤窑;逼死"
+  },
+  {
+   "wrong": "误和人这个范围",
+   "right": "误入这个范围",
+   "page": 248,
+   "why": "误入"
+  },
+  {
+   "wrong": "内禁在重庆和县烽集中营",
+   "right": "囚禁在重庆息烽集中营",
+   "page": 248,
+   "why": "息烽 -- but 重庆? source garbled; keep 息烽集中营, flagged"
+  },
+  {
+   "wrong": "理立在钟家山",
+   "right": "矗立在钟家山",
+   "page": 249,
+   "why": "provisional 矗立"
+  },
+  {
+   "wrong": "大礼尝",
+   "right": "大礼堂",
+   "page": 249,
+   "why": "礼堂"
+  },
+  {
+   "wrong": "又蔡梅乐斯",
+   "right": "又替梅乐斯",
+   "page": 249,
+   "why": "替"
+  },
+  {
+   "wrong": "岂百株梅荡",
+   "right": "几百株梅花",
+   "page": 249,
+   "why": "provisional 梅花"
+  },
+  {
+   "wrong": "梅乐期和戴笠一道去东南",
+   "right": "梅乐斯和戴笠一道去东南",
+   "page": 249,
+   "why": "Miles"
+  },
+  {
+   "wrong": "礼答",
+   "right": "礼堂",
+   "page": 249,
+   "why": "礼堂"
+  },
+  {
+   "wrong": "一千多辆十轮卡和车",
+   "right": "一千多辆十轮卡车",
+   "page": 249,
+   "why": "卡车"
+  },
+  {
+   "wrong": "组织很庇大",
+   "right": "组织很庞大",
+   "page": 250,
+   "why": "庞大"
+  },
+  {
+   "wrong": "日宅海军舰只",
+   "right": "日寇海军舰只",
+   "page": 250,
+   "why": "日寇"
+  },
+  {
+   "wrong": "有了国侯站〈熙长王调勋)es。站mm定海站(站长张元)、漳州站(站长王德元)",
+   "right": "闽侯站(站长王调勋)、定海站(站长张元)、漳州站(站长王德元)",
+   "page": 249,
+   "why": "Minhou/Dinghai/Zhangzhou stations; crop-verified"
+  },
+  {
+   "wrong": "日寇在治海地区",
+   "right": "日寇在沿海地区",
+   "page": 250,
+   "why": "沿海"
+  },
+  {
+   "wrong": "向日宕进攻",
+   "right": "向日军进攻",
+   "page": 250,
+   "why": "日军"
+  },
+  {
+   "wrong": "夹击有日军",
+   "right": "夹击日军",
+   "page": 250,
+   "why": "stray 有"
+  },
+  {
+   "wrong": "何应多",
+   "right": "何应钦",
+   "page": 250,
+   "why": "He Yingqin"
+  },
+  {
+   "wrong": "以换救重庆",
+   "right": "以挽救重庆",
+   "page": 250,
+   "why": "挽救"
+  },
+  {
+   "wrong": "浙江分水县印渚坊",
+   "right": "浙江分水县印渚镇",
+   "page": 250,
+   "why": "provisional 印渚"
+  },
+  {
+   "wrong": "实际上码是",
+   "right": "实际上乃是",
+   "page": 250,
+   "why": "provisional 乃"
+  },
+  {
+   "wrong": "患义救国军",
+   "right": "忠义救国军",
+   "page": 250,
+   "why": "忠义救国军"
+  },
+  {
+   "wrong": "乱七八业",
+   "right": "乱七八糟",
+   "page": 250,
+   "why": "乱七八糟"
+  },
+  {
+   "wrong": "到伪盏驻防",
+   "right": "到伪军驻防",
+   "page": 250,
+   "why": "伪军"
+  },
+  {
+   "wrong": "运和输站站长瘦守全",
+   "right": "运输站站长瘦守全",
+   "page": 251,
+   "why": "as scanned; provisional"
+  },
+  {
+   "wrong": "遇夺得向李尝诗请示",
+   "right": "遇事得向李崇诗请示",
+   "page": 251,
+   "why": "Li Chongshi"
+  },
+  {
+   "wrong": "建吓",
+   "right": "建阳",
+   "page": 251,
+   "why": "Jianyang"
+  },
+  {
+   "wrong": "李针诗拔出手枪",
+   "right": "李崇诗拔出手枪",
+   "page": 251,
+   "why": "Li Chongshi"
+  },
+  {
+   "wrong": "和这兄个美特",
+   "right": "和这几个美特",
+   "page": 251,
+   "why": "几个"
+  },
+  {
+   "wrong": "酷醒大醇",
+   "right": "酩酊大醉",
+   "page": 251,
+   "why": "酩酊大醉"
+  },
+  {
+   "wrong": "军统特务乐于",
+   "right": "军统特务乐干",
+   "page": 251,
+   "why": "LE GAN; crop-verified"
+  },
+  {
+   "wrong": "怀特〈White)",
+   "right": "怀特(White)",
+   "page": 251,
+   "why": "White"
+  },
+  {
+   "wrong": "不挫入一点",
+   "right": "不掺入一点",
+   "page": 251,
+   "why": "掺入"
+  },
+  {
+   "wrong": "曾完凯",
+   "right": "曾宪凯",
+   "page": 252,
+   "why": "provisional Zeng Xiankai"
+  },
+  {
+   "wrong": "测度侦察锅",
+   "right": "测谎侦察器",
+   "page": 252,
+   "why": "lie detector"
+  },
+  {
+   "wrong": "测度侦察器",
+   "right": "测谎侦察器",
+   "page": 252,
+   "why": "lie detector"
+  },
+  {
+   "wrong": "彼察被审讯",
+   "right": "侦察被审讯",
+   "page": 252,
+   "why": "侦察"
+  },
+  {
+   "wrong": "初出芒访",
+   "right": "初出茅庐",
+   "page": 253,
+   "why": "初出茅庐"
+  },
+  {
+   "wrong": "那个棒子",
+   "right": "那个椅子",
+   "page": 253,
+   "why": "椅子"
+  },
+  {
+   "wrong": "与目动记录",
+   "right": "与自动记录",
+   "page": 253,
+   "why": "自动"
+  },
+  {
+   "wrong": "洪炉三仓库",
+   "right": "洪炉厂仓库",
+   "page": 253,
+   "why": "洪炉厂"
+  },
+  {
+   "wrong": "警工大队部",
+   "right": "警卫大队部",
+   "page": 253,
+   "why": "provisional 警卫"
+  },
+  {
+   "wrong": "喊娘叫从地大情起来",
+   "right": "喊爹叫娘地大哭起来",
+   "page": 253,
+   "why": "provisional"
+  },
+  {
+   "wrong": "这人台机器",
+   "right": "这台机器",
+   "page": 253,
+   "why": "这台"
+  },
+  {
+   "wrong": "发生了内证",
+   "right": "发生了内讧",
+   "page": 254,
+   "why": "内讧"
+  },
+  {
+   "wrong": "测谎右",
+   "right": "测谎器",
+   "page": 254,
+   "why": "测谎器"
+  },
+  {
+   "wrong": "对糯帝的其他几种刑具",
+   "right": "对美帝的其他几种刑具",
+   "page": 254,
+   "why": "美帝"
+  },
+  {
+   "wrong": "几夫光度极强",
+   "right": "几支光度极强",
+   "page": 254,
+   "why": "几支"
+  },
+  {
+   "wrong": "这上比军统",
+   "right": "这比军统",
+   "page": 254,
+   "why": "stray 上"
+  },
+  {
+   "wrong": "手播电话机",
+   "right": "手摇电话机",
+   "page": 254,
+   "why": "手摇"
+  },
+  {
+   "wrong": "使用过和久",
+   "right": "使用过久",
+   "page": 254,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "党过去",
+   "right": "晕过去",
+   "page": 254,
+   "why": "晕过去"
+  },
+  {
+   "wrong": "心及机能",
+   "right": "心脏机能",
+   "page": 254,
+   "why": "心脏"
+  },
+  {
+   "wrong": "美制手镶脚铸",
+   "right": "美制手镣脚铐",
+   "page": 254,
+   "why": "手镣脚铐"
+  },
+  {
+   "wrong": "美式手脚针",
+   "right": "美式手铐脚镣",
+   "page": 254,
+   "why": "provisional"
+  },
+  {
+   "wrong": "许多钙乱枪打死",
+   "right": "许多被乱枪打死",
+   "page": 255,
+   "why": "被"
+  },
+  {
+   "wrong": "警大有一百多条",
+   "right": "警犬有一百多条",
+   "page": 255,
+   "why": "警犬"
+  },
+  {
+   "wrong": "美国教育不同意",
+   "right": "美国教官不同意",
+   "page": 255,
+   "why": "教官"
+  },
+  {
+   "wrong": "最称鞠的那条叫小琳",
+   "right": "最称赞的那条叫小琳",
+   "page": 255,
+   "why": "称赞"
+  },
+  {
+   "wrong": "警大使用",
+   "right": "警犬使用",
+   "page": 252,
+   "why": "警犬"
+  },
+  {
+   "wrong": "皮宗警棍",
+   "right": "皮制警棍",
+   "page": 255,
+   "why": "provisional 皮制"
+  },
+  {
+   "wrong": "痛欧群众",
+   "right": "痛殴群众",
+   "page": 255,
+   "why": "痛殴"
+  },
+  {
+   "wrong": "繁县的雄村",
+   "right": "歙县的雄村",
+   "page": 256,
+   "why": "Shexian Xiongcun"
+  },
+  {
+   "wrong": "基本部以",
+   "right": "基本部队",
+   "page": 256,
+   "why": "部队"
+  },
+  {
+   "wrong": "郭宗落",
+   "right": "郭宗汾",
+   "page": 256,
+   "why": "provisional Guo Zongfen"
+  },
+  {
+   "wrong": "村沧洲",
+   "right": "杜沧洲",
+   "page": 256,
+   "why": "provisional Du Cangzhou"
+  },
+  {
+   "wrong": "仍称匈道弟",
+   "right": "称兄道弟",
+   "page": 256,
+   "why": "称兄道弟"
+  },
+  {
+   "wrong": "戴双方数衍",
+   "right": "戴对双方敷衍",
+   "page": 256,
+   "why": "敷衍"
+  },
+  {
+   "wrong": "陈士席在其部队",
+   "right": "陈士虎在其部队",
+   "page": 256,
+   "why": "Chen Shihu"
+  },
+  {
+   "wrong": "风穴生",
+   "right": "风穴寺",
+   "page": 257,
+   "why": "Fengxue Temple"
+  },
+  {
+   "wrong": "杨遍等几个纵队",
+   "right": "杨蔚等几个纵队",
+   "page": 257,
+   "why": "provisional -- cf ch09 廖宗泽、岳烛远、杨戎; flagged"
+  },
+  {
+   "wrong": "高某便与美特",
+   "right": "高荣便与美特",
+   "page": 257,
+   "why": "Gao Rong"
+  },
+  {
+   "wrong": "悖悖返回重庆",
+   "right": "悻悻返回重庆",
+   "page": 257,
+   "why": "悻悻"
+  },
+  {
+   "wrong": "福建济州",
+   "right": "福建漳州",
+   "page": 257,
+   "why": "Zhangzhou -- cf ch09 list; provisional"
+  },
+  {
+   "wrong": "雷镇中、陈达元",
+   "right": "雷震中、陈达元",
+   "page": 257,
+   "why": "provisional 雷震中"
+  },
+  {
+   "wrong": "张惠芳部",
+   "right": "张为邦部",
+   "page": 257,
+   "why": "provisional; flagged -- OCR 张惠芳"
+  },
+  {
+   "wrong": "福建建咕",
+   "right": "福建建瓯",
+   "page": 257,
+   "why": "Jian'ou"
+  },
+  {
+   "wrong": "安徽临录",
+   "right": "安徽临泉",
+   "page": 257,
+   "why": "Linquan"
+  },
+  {
+   "wrong": "钱备起",
+   "right": "钱孟起",
+   "page": 257,
+   "why": "Qian Mengqi; crop-verified"
+  },
+  {
+   "wrong": "汤恩人的苏鲁豫皖",
+   "right": "汤恩伯的苏鲁豫皖",
+   "page": 257,
+   "why": "Tang Enbo; crop-verified"
+  },
+  {
+   "wrong": "膨鹿祥的盏统行动总队",
+   "right": "周麟祥的军统行动总队",
+   "page": 257,
+   "why": "crop-verified 周麟祥"
+  },
+  {
+   "wrong": "汤向戴等提议",
+   "right": "汤向戴笠提议",
+   "page": 257,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "诚为了车重汤",
+   "right": "戴为了尊重汤",
+   "page": 257,
+   "why": "尊重"
+  },
+  {
+   "wrong": "副主任传荣",
+   "right": "副主任傅荣",
+   "page": 258,
+   "why": "provisional Fu Rong"
+  },
+  {
+   "wrong": "介使这批",
+   "right": "促使这批",
+   "page": 258,
+   "why": "provisional 促使"
+  },
+  {
+   "wrong": "于所门码头",
+   "right": "千厮门码头",
+   "page": 259,
+   "why": "QIANSIMEN dock -- the Fei Gong disappearance site"
+  },
+  {
+   "wrong": "费胞",
+   "right": "费巩",
+   "page": null,
+   "why": "FEI GONG; systematic"
+  },
+  {
+   "wrong": "费乳",
+   "right": "费巩",
+   "page": null,
+   "why": "Fei Gong"
+  },
+  {
+   "wrong": "费苞",
+   "right": "费巩",
+   "page": null,
+   "why": "Fei Gong"
+  },
+  {
+   "wrong": "费胡",
+   "right": "费巩",
+   "page": 260,
+   "why": "Fei Gong"
+  },
+  {
+   "wrong": "亿只好一个人",
+   "right": "他只好一个人",
+   "page": 259,
+   "why": "他"
+  },
+  {
+   "wrong": "罕然无端不见",
+   "right": "突然无端不见",
+   "page": 260,
+   "why": "provisional 突然"
+  },
+  {
+   "wrong": "杂友们异常关怀",
+   "right": "亲友们异常关怀",
+   "page": 260,
+   "why": "亲友"
+  },
+  {
+   "wrong": "反动涛仍旧不理会",
+   "right": "反动派仍旧不理会",
+   "page": 260,
+   "why": "反动派"
+  },
+  {
+   "wrong": "与费苞先后在美国同过学",
+   "right": "与费巩先后在美国同过学",
+   "page": 260,
+   "why": "Fei Gong"
+  },
+  {
+   "wrong": "很琼手",
+   "right": "很棘手",
+   "page": 260,
+   "why": "棘手"
+  },
+  {
+   "wrong": "克拉殉",
+   "right": "克拉克",
+   "page": 260,
+   "why": "Clark"
+  },
+  {
+   "wrong": "再三加嘱",
+   "right": "再三叮嘱",
+   "page": 260,
+   "why": "叮嘱"
+  },
+  {
+   "wrong": "美国名欣",
+   "right": "美国名探",
+   "page": 260,
+   "why": "名探"
+  },
+  {
+   "wrong": "和企先生很不耐烦",
+   "right": "竺先生很不耐烦",
+   "page": 261,
+   "why": "Zhu"
+  },
+  {
+   "wrong": "冬先生对我们",
+   "right": "竺先生对我们",
+   "page": 261,
+   "why": "Zhu"
+  },
+  {
+   "wrong": "办禁政治犯",
+   "right": "囚禁政治犯",
+   "page": 261,
+   "why": "囚禁"
+  },
+  {
+   "wrong": "油潭县",
+   "right": "湄潭县",
+   "page": 261,
+   "why": "MEITAN -- ZJU wartime campus"
+  },
+  {
+   "wrong": "从湄漂回来",
+   "right": "从湄潭回来",
+   "page": 261,
+   "why": "Meitan"
+  },
+  {
+   "wrong": "交拉克认为",
+   "right": "克拉克认为",
+   "page": 261,
+   "why": "Clark"
+  },
+  {
+   "wrong": "se ID人7了。经过情况",
+   "right": "经过情况",
+   "page": 262,
+   "why": "OCR junk removed"
+  },
+  {
+   "wrong": "查阅上自费巩失踪后",
+   "right": "查阅自费巩失踪后",
+   "page": 262,
+   "why": "stray 上"
+  },
+  {
+   "wrong": "所还捕到的人犯",
+   "right": "所逮捕到的人犯",
+   "page": 262,
+   "why": "逮捕"
+  },
+  {
+   "wrong": "费巩的家属和杂友们",
+   "right": "费巩的家属和亲友们",
+   "page": 260,
+   "why": "亲友"
+  },
+  {
+   "wrong": "失足落水渡死",
+   "right": "失足落水淹死",
+   "page": 263,
+   "why": "淹死"
+  },
+  {
+   "wrong": "学生x x的一封告密信",
+   "right": "学生××的一封告密信",
+   "page": 263,
+   "why": "suppressed"
+  },
+  {
+   "wrong": "由稽查处派人去焉出寻找",
+   "right": "由稽查处派人去巫山寻找",
+   "page": 263,
+   "why": "巫山"
+  },
+  {
+   "wrong": "斑出县政府",
+   "right": "巫山县政府",
+   "page": 263,
+   "why": "巫山"
+  },
+  {
+   "wrong": "打草恢蛇",
+   "right": "打草惊蛇",
+   "page": 263,
+   "why": "打草惊蛇"
+  },
+  {
+   "wrong": "遍历下山十二峰",
+   "right": "遍历巫山十二峰",
+   "page": 264,
+   "why": "巫山十二峰"
+  },
+  {
+   "wrong": "仍有旧找不到",
+   "right": "仍旧找不到",
+   "page": 264,
+   "why": "仍旧"
+  },
+  {
+   "wrong": "始终成了一个迷",
+   "right": "始终成了一个谜",
+   "page": 264,
+   "why": "谜"
+  },
+  {
+   "wrong": "被人民包转起来喊打",
+   "right": "被人民包围起来喊打",
+   "page": 264,
+   "why": "包围"
+  },
+  {
+   "wrong": "狼狐逃回",
+   "right": "狼狈逃回",
+   "page": 264,
+   "why": "狼狈"
+  },
+  {
+   "wrong": "中美所范国",
+   "right": "中美所范围",
+   "page": 264,
+   "why": "范围"
+  },
+  {
+   "wrong": "SAC0O百色字母",
+   "right": "SACO白色字母",
+   "page": 264,
+   "why": "SACO"
+  },
+  {
+   "wrong": "有所侍而无下了",
+   "right": "有恃而无恐了",
+   "page": 264,
+   "why": "有恃无恐"
+  },
+  {
+   "wrong": "从事间恋活动被托",
+   "right": "从事间谍活动被捕",
+   "page": 265,
+   "why": "间谍;被捕"
+  },
+  {
+   "wrong": "双手涉满",
+   "right": "双手沾满",
+   "page": 265,
+   "why": "沾满"
+  },
+  {
+   "wrong": "剑子手",
+   "right": "刽子手",
+   "page": 265,
+   "why": "刽子手"
+  },
+  {
+   "wrong": "优恨",
+   "right": "仇恨",
+   "page": 265,
+   "why": "仇恨"
+  },
+  {
+   "wrong": "阴险狭诈",
+   "right": "阴险狡诈",
+   "page": 265,
+   "why": "狡诈"
+  },
+  {
+   "wrong": "宠爱倍至",
+   "right": "宠爱备至",
+   "page": 265,
+   "why": "备至"
+  },
+  {
+   "wrong": "好胜膛强",
+   "right": "好胜逞强",
+   "page": 265,
+   "why": "逞强"
+  },
+  {
+   "wrong": "这句话数衍过去",
+   "right": "这句话敷衍过去",
+   "page": 265,
+   "why": "敷衍"
+  },
+  {
+   "wrong": "过了一-会",
+   "right": "过了一会",
+   "page": 265,
+   "why": "punct"
+  },
+  {
+   "wrong": "杨遍",
+   "right": "杨蔚",
+   "page": 257,
+   "why": "see above"
+  },
+  {
+   "wrong": "感到混身舒适",
+   "right": "感到浑身舒适",
+   "page": 266,
+   "why": "浑身"
+  },
+  {
+   "wrong": "极力作是戴笠",
+   "right": "极力怂恿戴笠",
+   "page": 266,
+   "why": "provisional 怂恿"
+  },
+  {
+   "wrong": "终身难筷",
+   "right": "终身难忘",
+   "page": 266,
+   "why": "难忘"
+  },
+  {
+   "wrong": "知道是梅乐斯蔡他",
+   "right": "知道是梅乐斯替他",
+   "page": 266,
+   "why": "替"
+  },
+  {
+   "wrong": "在美国吹呈",
+   "right": "在美国吹嘘",
+   "page": 266,
+   "why": "吹嘘"
+  },
+  {
+   "wrong": "这人么重视",
+   "right": "这么重视",
+   "page": 266,
+   "why": "这么"
+  },
+  {
+   "wrong": "妃克力糖",
+   "right": "巧克力糖",
+   "page": 266,
+   "why": "巧克力"
+  },
+  {
+   "wrong": "长不到两矿、宽不过几才",
+   "right": "长不到两码、宽不过几寸",
+   "page": 267,
+   "why": "provisional 码/寸"
+  },
+  {
+   "wrong": "窗长小尖角旗",
+   "right": "狭长小尖角旗",
+   "page": 267,
+   "why": "狭长"
+  },
+  {
+   "wrong": "白底灸红边",
+   "right": "白底镶红边",
+   "page": 267,
+   "why": "镶"
+  },
+  {
+   "wrong": "美国国族",
+   "right": "美国国旗",
+   "page": 267,
+   "why": "国旗"
+  },
+  {
+   "wrong": "小筒板上逃命",
+   "right": "小舢板上逃命",
+   "page": 267,
+   "why": "舢板"
+  },
+  {
+   "wrong": "这些笛板",
+   "right": "这些舢板",
+   "page": 267,
+   "why": "舢板"
+  },
+  {
+   "wrong": "装人最多的般板",
+   "right": "装人最多的舢板",
+   "page": 267,
+   "why": "舢板"
+  },
+  {
+   "wrong": "他才自己末手",
+   "right": "他才自己亲手",
+   "page": 267,
+   "why": "亲手"
+  },
+  {
+   "wrong": "在得板底部",
+   "right": "在舢板底部",
+   "page": 267,
+   "why": "舢板"
+  },
+  {
+   "wrong": "白色的小秧板",
+   "right": "白色的小舢板",
+   "page": 267,
+   "why": "舢板"
+  },
+  {
+   "wrong": "动辐以打骂",
+   "right": "动辄以打骂",
+   "page": 268,
+   "why": "动辄"
+  },
+  {
+   "wrong": "会着自己能讲几名英语",
+   "right": "仗着自己能讲几句英语",
+   "page": 268,
+   "why": "仗着;几句"
+  },
+  {
+   "wrong": "使个腿色",
+   "right": "使个眼色",
+   "page": 269,
+   "why": "眼色"
+  },
+  {
+   "wrong": "小山场",
+   "right": "小山坳",
+   "page": 269,
+   "why": "provisional 山坳"
+  },
+  {
+   "wrong": "胡服的胸膛",
+   "right": "衣服的胸膛",
+   "page": 269,
+   "why": "provisional 衣服"
+  },
+  {
+   "wrong": "戴签当时",
+   "right": "戴笠当时",
+   "page": 269,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "动纯打骂",
+   "right": "动辄打骂",
+   "page": 269,
+   "why": "动辄"
+  },
+  {
+   "wrong": "狂叫把骂",
+   "right": "狂叫怒骂",
+   "page": 269,
+   "why": "provisional 怒骂"
+  },
+  {
+   "wrong": "芯沙发",
+   "right": "藤沙发",
+   "page": 270,
+   "why": "rattan sofas"
+  },
+  {
+   "wrong": "爱坐基街",
+   "right": "爱坐藤椅",
+   "page": 270,
+   "why": "provisional 藤椅"
+  },
+  {
+   "wrong": "用脚中那个事务股攻",
+   "right": "用脚踢那个事务股长",
+   "page": 270,
+   "why": "踢;股长"
+  },
+  {
+   "wrong": "大疙起来",
+   "right": "大骂起来",
+   "page": 270,
+   "why": "provisional 大骂"
+  },
+  {
+   "wrong": "混身打拌",
+   "right": "浑身打颤",
+   "page": 270,
+   "why": "浑身打颤"
+  },
+  {
+   "wrong": "避着要求我",
+   "right": "背着要求我",
+   "page": 270,
+   "why": "provisional 背着"
+  },
+  {
+   "wrong": "蕨具店",
+   "right": "藤具店",
+   "page": 270,
+   "why": "rattan-furniture shops"
+  },
+  {
+   "wrong": "尺外一个",
+   "right": "另外一个",
+   "page": 271,
+   "why": "另外"
+  },
+  {
+   "wrong": "杜话万",
+   "right": "杜诺万",
+   "page": 271,
+   "why": "Donovan"
+  },
+  {
+   "wrong": "杜诡万",
+   "right": "杜诺万",
+   "page": 271,
+   "why": "Donovan"
+  },
+  {
+   "wrong": "和军事情报局与战略业务局",
+   "right": "即军事情报局与战略业务局",
+   "page": 271,
+   "why": "即"
+  },
+  {
+   "wrong": "他不但极力烤成",
+   "right": "他不但极力赞成",
+   "page": 271,
+   "why": "赞成"
+  },
+  {
+   "wrong": "中关所",
+   "right": "中美所",
+   "page": 271,
+   "why": "中美所"
+  },
+  {
+   "wrong": "先后控制梅乐斯",
+   "right": "间接控制梅乐斯",
+   "page": 271,
+   "why": "provisional 间接"
+  },
+  {
+   "wrong": "海苗部",
+   "right": "海军部",
+   "page": 271,
+   "why": "海军"
+  },
+  {
+   "wrong": "回梅乐斯提出",
+   "right": "向梅乐斯提出",
+   "page": 271,
+   "why": "向"
+  },
+  {
+   "wrong": "妃行建立据点",
+   "right": "另行建立据点",
+   "page": 271,
+   "why": "provisional 另行"
+  },
+  {
+   "wrong": "巴纳斯与约翰'海登博士",
+   "right": "巴纳斯与约翰·海登博士",
+   "page": 271,
+   "why": "John Hayden"
+  },
+  {
+   "wrong": "并不因此罢体",
+   "right": "并不因此罢休",
+   "page": 271,
+   "why": "罢休"
+  },
+  {
+   "wrong": "史迪威尔",
+   "right": "史迪威",
+   "page": 272,
+   "why": "Stilwell standard form 史迪威; keep as printed? standardize 史迪威尔 -> keep printed"
+  },
+  {
+   "wrong": "悔乐斯",
+   "right": "梅乐斯",
+   "page": 272,
+   "why": "Miles"
+  },
+  {
+   "wrong": "潍留印度",
+   "right": "滞留印度",
+   "page": 272,
+   "why": "滞留"
+  },
+  {
+   "wrong": "癌后转返回美国",
+   "right": "然后转返回美国",
+   "page": 272,
+   "why": "provisional 然后"
+  },
+  {
+   "wrong": "看不愤",
+   "right": "看不惯",
+   "page": 272,
+   "why": "看不惯"
+  },
+  {
+   "wrong": "卑统局",
+   "right": "军统局",
+   "page": 272,
+   "why": "军统"
+  },
+  {
+   "wrong": "糯海军部门",
+   "right": "美海军部门",
+   "page": 273,
+   "why": "provisional 美"
+  },
+  {
+   "wrong": "丑亚内幕",
+   "right": "丑恶内幕",
+   "page": 273,
+   "why": "丑恶"
+  },
+  {
+   "wrong": "已被...发党",
+   "right": "已被发觉",
+   "page": 273,
+   "why": "发觉"
+  },
+  {
+   "wrong": "尚未来得及举行，已被中印缅战区司令部与战略局发党",
+   "right": "尚未来得及举行，已被中印缅战区司令部与战略局发觉",
+   "page": 273,
+   "why": "发觉"
+  },
+  {
+   "wrong": "马软尔",
+   "right": "马歇尔",
+   "page": 273,
+   "why": "Marshall"
+  },
+  {
+   "wrong": "褒海巡愉",
+   "right": "沿海巡逻",
+   "page": 273,
+   "why": "provisional 沿海巡逻"
+  },
+  {
+   "wrong": "埋三戴等的时候",
+   "right": "埋葬戴笠的时候",
+   "page": 273,
+   "why": "埋葬"
+  },
+  {
+   "wrong": "是在朵他自己",
+   "right": "是在哭他自己",
+   "page": 273,
+   "why": "哭"
+  },
+  {
+   "wrong": "小竹第篮内",
+   "right": "小竹篮内",
+   "page": 275,
+   "why": "竹篮"
+  },
+  {
+   "wrong": "几士公里以外",
+   "right": "几十公里以外",
+   "page": 275,
+   "why": "几十"
+  },
+  {
+   "wrong": "戴等每天者要抽出",
+   "right": "戴笠每天都要抽出",
+   "page": 275,
+   "why": "都要"
+  },
+  {
+   "wrong": "杀目去看看",
+   "right": "亲自去看看",
+   "page": 275,
+   "why": "亲自"
+  },
+  {
+   "wrong": "用鹅肉来蔡代",
+   "right": "用鹅肉来替代",
+   "page": 275,
+   "why": "替代"
+  },
+  {
+   "wrong": "举行刘会",
+   "right": "举行宴会",
+   "page": 275,
+   "why": "宴会"
+  },
+  {
+   "wrong": "女上风或儿媳",
+   "right": "女友或儿媳",
+   "page": 275,
+   "why": "provisional 女友"
+  },
+  {
+   "wrong": "一小复复的美国礼品",
+   "right": "一小篮美国礼品",
+   "page": 275,
+   "why": "provisional 篮"
+  },
+  {
+   "wrong": "电人把她们",
+   "right": "叫人把她们",
+   "page": 275,
+   "why": "叫"
+  },
+  {
+   "wrong": "于特们的中间",
+   "right": "美特们的中间",
+   "page": 275,
+   "why": "美特"
+  },
+  {
+   "wrong": "美国流总身边",
+   "right": "美国流氓身边",
+   "page": 275,
+   "why": "流氓"
+  },
+  {
+   "wrong": "如坐针秸",
+   "right": "如坐针毡",
+   "page": 275,
+   "why": "如坐针毡"
+  },
+  {
+   "wrong": "那一小第礼物",
+   "right": "那一小篮礼物",
+   "page": 276,
+   "why": "篮"
+  },
+  {
+   "wrong": "脸都委尽了",
+   "right": "脸都丢尽了",
+   "page": 276,
+   "why": "丢尽"
+  },
+  {
+   "wrong": "五长条果子",
+   "right": "五长条桌子",
+   "page": 276,
+   "why": "桌子"
+  },
+  {
+   "wrong": "一下鼓励她们",
+   "right": "一再鼓励她们",
+   "page": 276,
+   "why": "provisional 一再"
+  },
+  {
+   "wrong": "结采再没有",
+   "right": "结果再没有",
+   "page": 276,
+   "why": "结果"
+  },
+  {
+   "wrong": "醉配本的美特",
+   "right": "醉醺醺的美特",
+   "page": 276,
+   "why": "provisional 醺醺"
+  },
+  {
+   "wrong": "跑上人台去",
+   "right": "跑上台去",
+   "page": 276,
+   "why": "stray 人"
+  },
+  {
+   "wrong": "大要大六",
+   "right": "大耍大舞",
+   "page": 276,
+   "why": "provisional"
+  },
+  {
+   "wrong": "挂一串折长须",
+   "right": "挂一串假长须",
+   "page": 276,
+   "why": "provisional 假"
+  },
+  {
+   "wrong": "胡病到深夜",
+   "right": "胡闹到深夜",
+   "page": 276,
+   "why": "胡闹"
+  },
+  {
+   "wrong": "届形着脸",
+   "right": "哭丧着脸",
+   "page": 276,
+   "why": "provisional 哭丧"
+  },
+  {
+   "wrong": "牙筑和银质汤十",
+   "right": "牙筷和银质汤匙",
+   "page": 276,
+   "why": "筷;匙"
+  },
+  {
+   "wrong": "寨华讲侈",
+   "right": "豪华奢侈",
+   "page": 277,
+   "why": "豪华奢侈"
+  },
+  {
+   "wrong": "名媛装秀",
+   "right": "名媛闺秀",
+   "page": 277,
+   "why": "闺秀"
+  },
+  {
+   "wrong": "美国流鹿",
+   "right": "美国流氓",
+   "page": 277,
+   "why": "流氓"
+  },
+  {
+   "wrong": "和皆大欢喜",
+   "right": "皆大欢喜",
+   "page": 277,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "坐一段路的轿子〈四川人称为滑年)",
+   "right": "坐一段路的轿子(四川人称为滑竿)",
+   "page": 277,
+   "why": "滑竿 huagan"
+  },
+  {
+   "wrong": "滑什",
+   "right": "滑竿",
+   "page": 277,
+   "why": "滑竿"
+  },
+  {
+   "wrong": "滑午",
+   "right": "滑竿",
+   "page": 277,
+   "why": "滑竿"
+  },
+  {
+   "wrong": "拾滑竿的",
+   "right": "抬滑竿的",
+   "page": 277,
+   "why": "抬"
+  },
+  {
+   "wrong": "戴一经之下",
+   "right": "戴一怒之下",
+   "page": 277,
+   "why": "一怒"
+  },
+  {
+   "wrong": "柯殉上将",
+   "right": "柯克上将",
+   "page": 278,
+   "why": "Cooke"
+  },
+  {
+   "wrong": "为数都是很怀人的",
+   "right": "为数都是很惊人的",
+   "page": 278,
+   "why": "惊人"
+  },
+  {
+   "wrong": "参军皮宗阐",
+   "right": "参军皮宗阚",
+   "page": 274,
+   "why": "crop-verified 阚 (historically 皮宗敢; noted)"
+  },
+  {
+   "wrong": "装不绝口",
+   "right": "赞不绝口",
+   "page": 274,
+   "why": "赞不绝口"
+  },
+  {
+   "wrong": "培养求牙的美国特务",
+   "right": "培养爪牙的美国特务",
+   "page": 274,
+   "why": "爪牙"
+  },
+  {
+   "wrong": "担着竺国橡皮棍",
+   "right": "拿着美国橡皮棍",
+   "page": 274,
+   "why": "provisional"
+  },
+  {
+   "wrong": "冲人人和群殴打群众",
+   "right": "冲入人群殴打群众",
+   "page": 274,
+   "why": "冲入人群"
+  },
+  {
+   "wrong": "学生们网开始",
+   "right": "学生们刚开始",
+   "page": 274,
+   "why": "刚"
+  },
+  {
+   "wrong": "疝戴笠保证过",
+   "right": "向戴笠保证过",
+   "page": 275,
+   "why": "向"
+  },
+  {
+   "wrong": "比日本更凶的敌人一一中国共产党",
+   "right": "比日本更凶的敌人--中国共产党",
+   "page": 275,
+   "why": "punct"
+  },
+  {
+   "wrong": "在必几篇材料中",
+   "right": "在另几篇材料中",
+   "page": 275,
+   "why": "provisional 另"
+  },
+  {
+   "wrong": "美特抱着李尝诗的老婆",
+   "right": "美特抱着李崇诗的老婆",
+   "page": 251,
+   "why": "Li Chongshi"
+  },
+  {
+   "wrong": "由皮宗阐替他译成英语",
+   "right": "由皮宗阚替他译成英语",
+   "page": 274,
+   "why": "Pi Zongkan"
   }
  ]
 }
