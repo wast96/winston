@@ -95,3 +95,8 @@
 四川
 中四路
 乐山
+# ch11: idioms with numeral characters
+万能
+千方百计
+万分
+千万

@@ -922,6 +922,124 @@
   "黄羽中": {
    "en": "Huang Yuzhong",
    "status": "provisional"
+  },
+  "陈质平": {
+   "en": "Chen Zhiping",
+   "status": "provisional"
+  },
+  "熊斌": {
+   "en": "Xiong Bin",
+   "status": "attested"
+  },
+  "祝绍周": {
+   "en": "Zhu Shaozhou",
+   "status": "attested"
+  },
+  "左明": {
+   "en": "Zuo Ming",
+   "status": "provisional"
+  },
+  "范汉杰": {
+   "en": "Fan Hanjie",
+   "status": "attested"
+  },
+  "盛文": {
+   "en": "Sheng Wen",
+   "status": "provisional"
+  },
+  "叶霞翟": {
+   "en": "Ye Xiadi",
+   "status": "attested",
+   "note": "Book prints 叶霞弟; standard form 叶霞翟"
+  },
+  "刘健群": {
+   "en": "Liu Jianqun",
+   "status": "attested"
+  },
+  "刘庆曾": {
+   "en": "Liu Qingzeng",
+   "status": "provisional"
+  },
+  "刘大钧": {
+   "en": "Liu Dajun",
+   "status": "provisional"
+  },
+  "金树云": {
+   "en": "Jin Shuyun",
+   "status": "provisional"
+  },
+  "侯征邦": {
+   "en": "Hou Zhengbang",
+   "status": "provisional"
+  },
+  "赵龙文": {
+   "en": "Zhao Longwen",
+   "status": "attested"
+  },
+  "阮清源": {
+   "en": "Ruan Qingyuan",
+   "status": "provisional"
+  },
+  "王一心": {
+   "en": "Wang Yixin",
+   "status": "provisional"
+  },
+  "鲍志鸿": {
+   "en": "Bao Zhihong",
+   "status": "provisional"
+  },
+  "杜逵": {
+   "en": "Du Kui",
+   "status": "provisional"
+  },
+  "胡屏翰": {
+   "en": "Hu Pinghan",
+   "status": "provisional"
+  },
+  "麻清江": {
+   "en": "Ma Qingjiang",
+   "status": "provisional"
+  },
+  "曹圣芬": {
+   "en": "Cao Shengfen",
+   "status": "attested"
+  },
+  "陈洁如": {
+   "en": "Chen Jieru",
+   "status": "attested"
+  },
+  "蒋纬国": {
+   "en": "Chiang Wei-kuo",
+   "status": "attested"
+  },
+  "范长江": {
+   "en": "Fan Changjiang",
+   "status": "attested"
+  },
+  "卢汉": {
+   "en": "Lu Han",
+   "status": "attested"
+  },
+  "俞济时": {
+   "en": "Yu Jishi",
+   "status": "attested"
+  },
+  "贝乐利": {
+   "en": "Bei Leli",
+   "status": "provisional",
+   "note": "SACO American chief of staff, acting deputy director"
+  },
+  "袁朴": {
+   "en": "Yuan Pu",
+   "status": "provisional"
+  },
+  "汪震": {
+   "en": "Wang Zhen",
+   "status": "provisional"
+  },
+  "董钊": {
+   "en": "Dong Zhao",
+   "status": "attested"
   }
  },
  "organisations": {
@@ -1138,6 +1256,15 @@
   "抗日军政大学": {
    "en": "the Anti-Japanese Military and Political University",
    "status": "decided"
+  },
+  "光华大学": {
+   "en": "Guanghua University",
+   "status": "attested"
+  },
+  "侍从室": {
+   "en": "the Attendants' Office",
+   "status": "decided",
+   "note": "Chiang Kai-shek's personal secretariat"
   }
  },
  "terms": {
@@ -1581,6 +1708,14 @@
   "兰州": {
    "en": "Lanzhou",
    "status": "attested"
+  },
+  "平凉": {
+   "en": "Pingliang",
+   "status": "attested"
+  },
+  "神仙洞": {
+   "en": "Shenxiandong",
+   "status": "provisional"
   }
  }
 }

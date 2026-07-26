@@ -7516,5 +7516,961 @@
    "page": 192,
    "why": "Shulu guest house; crop-verified"
   }
+ ],
+ "ch11": [
+  {
+   "wrong": "### 胡宗南和戴洛.毛人风的关系",
+   "right": "### 胡宗南和戴笠、毛人凤的关系",
+   "page": 199,
+   "why": "chapter title"
+  },
+  {
+   "wrong": "由于明宗南的推荐",
+   "right": "由于胡宗南的推荐",
+   "page": 199,
+   "why": "Hu Zongnan; 明->胡"
+  },
+  {
+   "wrong": "得到戴符不少",
+   "right": "得到戴笠不少",
+   "page": 199,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "一双串于蒋介石",
+   "right": "一双忠于蒋介石",
+   "page": 199,
+   "why": "忠于"
+  },
+  {
+   "wrong": "多谈写",
+   "right": "多谈",
+   "page": 199,
+   "why": "stray"
+  },
+  {
+   "wrong": "戴竺正患急性育肠炎",
+   "right": "戴笠正患急性盲肠炎",
+   "page": 200,
+   "why": "appendicitis"
+  },
+  {
+   "wrong": "动手术不入",
+   "right": "动手术不久",
+   "page": 200,
+   "why": "不久"
+  },
+  {
+   "wrong": "戴和胡的关系很次",
+   "right": "戴和胡的关系很深",
+   "page": 200,
+   "why": "很深"
+  },
+  {
+   "wrong": "陈质平",
+   "right": "陈质平",
+   "page": 200,
+   "why": "Chen Zhiping correct; crop-verified"
+  },
+  {
+   "wrong": "戴等住的那一层",
+   "right": "戴笠住的那一层",
+   "page": 200,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "陪在戴笠房内的上海特区督察陈质平",
+   "right": "陪在戴笠房内的上海特区督察陈质平",
+   "page": 200,
+   "why": "correct"
+  },
+  {
+   "wrong": "多辛蔡后",
+   "right": "多辛苦点",
+   "page": 200,
+   "why": "Hu Zongnan: \"work a bit harder\"; crop-verified"
+  },
+  {
+   "wrong": "神仙洞的公馆",
+   "right": "神仙洞的公馆",
+   "page": 201,
+   "why": "Shenxiandong villa correct"
+  },
+  {
+   "wrong": "这次哉没在家",
+   "right": "这次戴没在家",
+   "page": 201,
+   "why": "Dai"
+  },
+  {
+   "wrong": "才发党胡住",
+   "right": "才发觉胡住",
+   "page": 201,
+   "why": "发觉"
+  },
+  {
+   "wrong": "如范汉杰、盛文",
+   "right": "如范汉杰、盛文",
+   "page": 201,
+   "why": "Fan Hanjie, Sheng Wen; crop-verified"
+  },
+  {
+   "wrong": "每次看到妆来到重庆见送介石",
+   "right": "每次看到胡来到重庆见蒋介石",
+   "page": 201,
+   "why": "Hu; Chiang"
+  },
+  {
+   "wrong": "遇到头不痛快",
+   "right": "遇到蒋不痛快",
+   "page": 201,
+   "why": "Chiang; 头->蒋"
+  },
+  {
+   "wrong": "便到一两天去",
+   "right": "便迟一两天去",
+   "page": 201,
+   "why": "迟"
+  },
+  {
+   "wrong": "当藉高兴的时候",
+   "right": "当蒋高兴的时候",
+   "page": 201,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "有次,刘刚下飞机",
+   "right": "有次，胡刚下飞机",
+   "page": 201,
+   "why": "Hu"
+  },
+  {
+   "wrong": "衣也表现出很得意",
+   "right": "胡也表现出很得意",
+   "page": 201,
+   "why": "Hu"
+  },
+  {
+   "wrong": "有关明和南个人",
+   "right": "有关胡宗南个人",
+   "page": 201,
+   "why": "Hu Zongnan"
+  },
+  {
+   "wrong": "移送戴亲自看过",
+   "right": "移送戴亲自看过",
+   "page": 201,
+   "why": "correct"
+  },
+  {
+   "wrong": "处处偏祖",
+   "right": "处处偏袒",
+   "page": 201,
+   "why": "偏袒"
+  },
+  {
+   "wrong": "向戎介石检举胡",
+   "right": "向蒋介石检举胡",
+   "page": 201,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "唐纵虽一向很遵愤",
+   "right": "唐纵虽一向很谨慎",
+   "page": 201,
+   "why": "谨慎"
+  },
+  {
+   "wrong": "萝介石耳朱里",
+   "right": "蒋介石耳朵里",
+   "page": 201,
+   "why": "Chiang; 耳朵"
+  },
+  {
+   "wrong": "侍从秘书曹圣分",
+   "right": "侍从秘书曹圣芬",
+   "page": 201,
+   "why": "Cao Shengfen; crop-verified"
+  },
+  {
+   "wrong": "还灿衍几铅",
+   "right": "还敷衍几句",
+   "page": 201,
+   "why": "敷衍几句"
+  },
+  {
+   "wrong": "往往还驾上几句",
+   "right": "往往还骂上几句",
+   "page": 201,
+   "why": "骂"
+  },
+  {
+   "wrong": "弄得人家目讨没趣",
+   "right": "弄得人家自讨没趣",
+   "page": 201,
+   "why": "自讨"
+  },
+  {
+   "wrong": "一谈就没个守",
+   "right": "一谈就没个完",
+   "page": 202,
+   "why": "没个完"
+  },
+  {
+   "wrong": "当着大的面提出",
+   "right": "当着胡的面提出",
+   "page": 202,
+   "why": "Hu; 大->胡 here"
+  },
+  {
+   "wrong": "把我加得一塌糊涂",
+   "right": "把我骂得一塌糊涂",
+   "page": 202,
+   "why": "骂"
+  },
+  {
+   "wrong": "说成一个能于得很",
+   "right": "说成一个能干得很",
+   "page": 202,
+   "why": "能干"
+  },
+  {
+   "wrong": "啼突皆非",
+   "right": "啼笑皆非",
+   "page": 202,
+   "why": "啼笑皆非"
+  },
+  {
+   "wrong": "撤销陕西省主席熊汪",
+   "right": "撤销陕西省主席熊斌",
+   "page": 202,
+   "why": "Xiong Bin; crop-verified"
+  },
+  {
+   "wrong": "保举祝绍周",
+   "right": "保举祝绍周",
+   "page": 202,
+   "why": "Zhu Shaozhou; crop-verified"
+  },
+  {
+   "wrong": "著名的记子手",
+   "right": "著名的刽子手",
+   "page": 202,
+   "why": "刽子手"
+  },
+  {
+   "wrong": "得到大的宠信",
+   "right": "得到胡的宠信",
+   "page": 202,
+   "why": "Hu"
+  },
+  {
+   "wrong": "在汉中警备可令部当稿查处长",
+   "right": "在汉中警备司令部当稽查处长",
+   "page": 202,
+   "why": "司令部 稽查"
+  },
+  {
+   "wrong": "便癌祝透露",
+   "right": "便向祝透露",
+   "page": 202,
+   "why": "向"
+  },
+  {
+   "wrong": "传到了能斌耳里",
+   "right": "传到了熊斌耳里",
+   "page": 202,
+   "why": "Xiong Bin"
+  },
+  {
+   "wrong": "戴等大发有御气",
+   "right": "戴笠大发脾气",
+   "page": 202,
+   "why": "脾气"
+  },
+  {
+   "wrong": "请他帮性:的",
+   "right": "请他帮忙的",
+   "page": 202,
+   "why": "帮忙"
+  },
+  {
+   "wrong": "拥有一支庞人杂的",
+   "right": "拥有一支庞大杂的",
+   "page": 202,
+   "why": "庞大"
+  },
+  {
+   "wrong": "最初由俞作柏",
+   "right": "最初由俞作柏",
+   "page": 202,
+   "why": "Yu Zuobai; crop-verified"
+  },
+  {
+   "wrong": "忠义救国盏总指挥",
+   "right": "忠义救国军总指挥",
+   "page": 202,
+   "why": "军"
+  },
+  {
+   "wrong": "看硼的面子",
+   "right": "看胡的面子",
+   "page": 202,
+   "why": "Hu; 硼->胡"
+  },
+  {
+   "wrong": "改以他目己培植",
+   "right": "改以他自己培植",
+   "page": 202,
+   "why": "自己"
+  },
+  {
+   "wrong": "局伟龙接充",
+   "right": "周伟龙接充",
+   "page": 202,
+   "why": "Zhou Weilong"
+  },
+  {
+   "wrong": "朝曾将他在长沙",
+   "right": "胡曾将他在长沙",
+   "page": 203,
+   "why": "Hu; 朝->胡"
+  },
+  {
+   "wrong": "送给戴笠的临汪特训班",
+   "right": "送给戴笠的临澧特训班",
+   "page": 203,
+   "why": "Linli"
+  },
+  {
+   "wrong": "戴符对胡",
+   "right": "戴笠对胡",
+   "page": 203,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "如何应钦、钱大钧、林蔚、俞济时",
+   "right": "如何应钦、钱大钧、林蔚、俞济时",
+   "page": 203,
+   "why": "correct roster"
+  },
+  {
+   "wrong": "总要叮电我",
+   "right": "总要叮嘱我",
+   "page": 203,
+   "why": "叮嘱"
+  },
+  {
+   "wrong": "以衣的名义送出",
+   "right": "以胡的名义送出",
+   "page": 203,
+   "why": "Hu; 衣->胡"
+  },
+  {
+   "wrong": "胡的老效叶霞弟",
+   "right": "胡的老婆叶霞弟",
+   "page": 204,
+   "why": "Ye Xiadi; crop-verified"
+  },
+  {
+   "wrong": "戴对叶霞弟的培植",
+   "right": "戴对叶霞弟的培植",
+   "page": 204,
+   "why": "Ye Xiadi"
+  },
+  {
+   "wrong": "叶震弟这个",
+   "right": "叶霞弟这个",
+   "page": 204,
+   "why": "Ye Xiadi"
+  },
+  {
+   "wrong": "却羡出一场",
+   "right": "却惹出一场",
+   "page": 204,
+   "why": "惹出"
+  },
+  {
+   "wrong": "高出望外",
+   "right": "喜出望外",
+   "page": 204,
+   "why": "喜出望外"
+  },
+  {
+   "wrong": "睡在门口页赖皮",
+   "right": "睡在门口耍赖皮",
+   "page": 204,
+   "why": "耍赖皮"
+  },
+  {
+   "wrong": "刘健群也不是好车的",
+   "right": "刘健群也不是好惹的",
+   "page": 204,
+   "why": "好惹"
+  },
+  {
+   "wrong": "随心所和欲的打电话",
+   "right": "随心所欲地打电话",
+   "page": 205,
+   "why": "随心所欲"
+  },
+  {
+   "wrong": "总务处电话只的一个技正",
+   "right": "总务处电话组的一个技正",
+   "page": 205,
+   "why": "电话组"
+  },
+  {
+   "wrong": "戴和胡在究室外边",
+   "right": "戴和胡在寝室外边",
+   "page": 205,
+   "why": "寝室"
+  },
+  {
+   "wrong": "戴对胡很蒜维",
+   "right": "戴对胡很恭维",
+   "page": 205,
+   "why": "恭维"
+  },
+  {
+   "wrong": "统治军事“含我其谁”",
+   "right": "统治军事“舍我其谁”",
+   "page": 205,
+   "why": "舍我其谁"
+  },
+  {
+   "wrong": "不准有上自己的特务系统",
+   "right": "不准有自己的特务系统",
+   "page": 205,
+   "why": "stray 上"
+  },
+  {
+   "wrong": "刘庆曾当处长",
+   "right": "刘庆曾当处长",
+   "page": 205,
+   "why": "Liu Qingzeng correct"
+  },
+  {
+   "wrong": "还有刘大钧等",
+   "right": "还有刘大钧等",
+   "page": 205,
+   "why": "Liu Dajun correct"
+  },
+  {
+   "wrong": "从明当第一军军长",
+   "right": "从胡当第一军军长",
+   "page": 205,
+   "why": "Hu; 明->胡"
+  },
+  {
+   "wrong": "而胡却仗着",
+   "right": "而胡却仗着",
+   "page": 205,
+   "why": "correct"
+  },
+  {
+   "wrong": "认为衣在这一点上",
+   "right": "认为胡在这一点上",
+   "page": 205,
+   "why": "Hu; 衣->胡"
+  },
+  {
+   "wrong": "可是戴竺还是尽心",
+   "right": "可是戴笠还是尽心",
+   "page": 205,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "为明介绍了不少",
+   "right": "为胡介绍了不少",
+   "page": 205,
+   "why": "Hu"
+  },
+  {
+   "wrong": "衣的这一部门",
+   "right": "胡的这一部门",
+   "page": 205,
+   "why": "Hu; 衣->胡"
+  },
+  {
+   "wrong": "仍有旧保留",
+   "right": "仍旧保留",
+   "page": 205,
+   "why": "仍旧"
+  },
+  {
+   "wrong": "金树云当处长",
+   "right": "金树云当处长",
+   "page": 205,
+   "why": "Jin Shuyun correct"
+  },
+  {
+   "wrong": "人是他统一军事",
+   "right": "让他统一军事",
+   "page": 205,
+   "why": "让"
+  },
+  {
+   "wrong": "魏大铬",
+   "right": "魏大铭",
+   "page": 205,
+   "why": "Wei Daming; crop-verified"
+  },
+  {
+   "wrong": "阮清源、谢力公、王一心",
+   "right": "阮清源、谢力公、王一心",
+   "page": 205,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "鲍志鸿、副处长杜志",
+   "right": "鲍志鸿、副处长杜逵",
+   "page": 206,
+   "why": "Du Kui; crop-verified"
+  },
+  {
+   "wrong": "胡屏翰、科长麻清江",
+   "right": "胡屏翰、科长麻清江",
+   "page": 206,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "原来跟过戴竺的马志超",
+   "right": "原来跟过戴笠的马志超",
+   "page": 206,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "投入胡部下当了溜县专员",
+   "right": "投入胡部下当了耀县专员",
+   "page": 206,
+   "why": "Yaoxian"
+  },
+  {
+   "wrong": "戴等身边最活跃",
+   "right": "戴笠身边最活跃",
+   "page": 206,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "红人赵龙文",
+   "right": "红人赵龙文",
+   "page": 206,
+   "why": "Zhao Longwen correct"
+  },
+  {
+   "wrong": "也被衣要了去",
+   "right": "也被胡要了去",
+   "page": 206,
+   "why": "Hu; 衣->胡"
+  },
+  {
+   "wrong": "“智于团”中的谋士",
+   "right": "“智囊团”中的谋士",
+   "page": 206,
+   "why": "智囊团"
+  },
+  {
+   "wrong": "一直为胡尽力吹叶",
+   "right": "一直为胡尽力吹捧",
+   "page": 207,
+   "why": "吹捧"
+  },
+  {
+   "wrong": "头家王朝全靠胡",
+   "right": "蒋家王朝全靠胡",
+   "page": 207,
+   "why": "Chiang dynasty; 头->蒋"
+  },
+  {
+   "wrong": "也为硼癌他的美国主子",
+   "right": "也为胡向他的美国主子",
+   "page": 207,
+   "why": "Hu; 向"
+  },
+  {
+   "wrong": "贝乐利代理副主任",
+   "right": "贝乐利代理副主任",
+   "page": 206,
+   "why": "Bei Leli correct"
+  },
+  {
+   "wrong": "又为明大大吹捧",
+   "right": "又为胡大大吹捧",
+   "page": 206,
+   "why": "Hu"
+  },
+  {
+   "wrong": "看到贝乐利听完",
+   "right": "看到贝乐利听完",
+   "page": 206,
+   "why": "correct"
+  },
+  {
+   "wrong": "我站在他们劳边",
+   "right": "我站在他们旁边",
+   "page": 206,
+   "why": "旁边"
+  },
+  {
+   "wrong": "明宗南讨好美国主子",
+   "right": "胡宗南讨好美国主子",
+   "page": 206,
+   "why": "Hu Zongnan"
+  },
+  {
+   "wrong": "专奖他们一番",
+   "right": "专门夸奖他们一番",
+   "page": 206,
+   "why": "provisional 夸奖"
+  },
+  {
+   "wrong": "戴等自然又得",
+   "right": "戴笠自然又得",
+   "page": 206,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "事先都得告诉衣",
+   "right": "事先都得告诉胡",
+   "page": 206,
+   "why": "Hu; 衣->胡"
+  },
+  {
+   "wrong": "和衣的联系",
+   "right": "和胡的联系",
+   "page": 206,
+   "why": "Hu; 衣->胡"
+  },
+  {
+   "wrong": "他与胡互通电报",
+   "right": "他与胡互通电报",
+   "page": 206,
+   "why": "correct"
+  },
+  {
+   "wrong": "戴等带走了",
+   "right": "戴笠带走了",
+   "page": 206,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "他们之闻一些",
+   "right": "他们之间一些",
+   "page": 206,
+   "why": "之间"
+  },
+  {
+   "wrong": "为蒋介石排除蜡已",
+   "right": "为蒋介石排除异己",
+   "page": 207,
+   "why": "异己"
+  },
+  {
+   "wrong": "小儿子蒋纬国",
+   "right": "小儿子蒋纬国",
+   "page": 207,
+   "why": "Chiang Wei-kuo; crop-verified"
+  },
+  {
+   "wrong": "碍痛万分",
+   "right": "悲痛万分",
+   "page": 207,
+   "why": "悲痛"
+  },
+  {
+   "wrong": "中山路三五七号吊啼",
+   "right": "中山路三五七号吊唁",
+   "page": 207,
+   "why": "吊唁"
+  },
+  {
+   "wrong": "跑进灵符抚棺",
+   "right": "跑进灵堂抚棺",
+   "page": 207,
+   "why": "灵堂"
+  },
+  {
+   "wrong": "金树云和保密局陕西站站长侯征邦",
+   "right": "金树云和保密局陕西站站长侯征邦",
+   "page": 208,
+   "why": "Hou Zhengbang correct"
+  },
+  {
+   "wrong": "最后六到了保密局",
+   "right": "最后闹到了保密局",
+   "page": 208,
+   "why": "闹到"
+  },
+  {
+   "wrong": "勤令他交给我",
+   "right": "勒令他交给我",
+   "page": 208,
+   "why": "勒令"
+  },
+  {
+   "wrong": "阴在西北执掌",
+   "right": "胡在西北执掌",
+   "page": 208,
+   "why": "Hu; 阴->胡"
+  },
+  {
+   "wrong": "非给蒋介石痛吕一顿",
+   "right": "非给蒋介石痛骂一顿",
+   "page": 208,
+   "why": "痛骂"
+  },
+  {
+   "wrong": "胡对此的确大吃一尺",
+   "right": "胡对此的确大吃一惊",
+   "page": 208,
+   "why": "大吃一惊"
+  },
+  {
+   "wrong": "要时翔之不必过问",
+   "right": "要叶翔之不必过问",
+   "page": 208,
+   "why": "Ye Xiangzhi"
+  },
+  {
+   "wrong": "把这风个人另外",
+   "right": "把这几个人另外",
+   "page": 208,
+   "why": "几个"
+  },
+  {
+   "wrong": "想不到他身边会有共产党又很久没有发党",
+   "right": "想不到他身边会有共产党又很久没有发觉",
+   "page": 208,
+   "why": "发觉"
+  },
+  {
+   "wrong": "他用解咀的口吻",
+   "right": "他用解嘲的口吻",
+   "page": 208,
+   "why": "解嘲"
+  },
+  {
+   "wrong": "这方面太朴忽",
+   "right": "这方面太疏忽",
+   "page": 208,
+   "why": "疏忽"
+  },
+  {
+   "wrong": "对这些事一同没有",
+   "right": "对这些事一向没有",
+   "page": 208,
+   "why": "一向"
+  },
+  {
+   "wrong": "连范长江是共产党",
+   "right": "连范长江是共产党",
+   "page": 209,
+   "why": "Fan Changjiang; crop-verified"
+  },
+  {
+   "wrong": "被蒋介石加了一顿",
+   "right": "被蒋介石骂了一顿",
+   "page": 209,
+   "why": "骂"
+  },
+  {
+   "wrong": "这是我们的工作设有做好",
+   "right": "这是我们的工作没有做好",
+   "page": 209,
+   "why": "没有"
+  },
+  {
+   "wrong": "生怕我们坏记了",
+   "right": "生怕我们忘记了",
+   "page": 209,
+   "why": "忘记"
+  },
+  {
+   "wrong": "坏记了一梓",
+   "right": "忘记了一样",
+   "page": 209,
+   "why": "一样"
+  },
+  {
+   "wrong": "胡宗南马上把他自用的",
+   "right": "胡宗南马上把他自用的",
+   "page": 208,
+   "why": "correct"
+  },
+  {
+   "wrong": "飞机到平流出了和毛病",
+   "right": "飞机到平凉出了毛病",
+   "page": 209,
+   "why": "Pingliang; crop-verified"
+  },
+  {
+   "wrong": "立刻癌驻在西安的空军",
+   "right": "立刻向驻在西安的空军",
+   "page": 209,
+   "why": "向"
+  },
+  {
+   "wrong": "把叶从平凉送往兰州",
+   "right": "把叶从平凉送往兰州",
+   "page": 209,
+   "why": "Pingliang"
+  },
+  {
+   "wrong": "接叶霞弟到昆明",
+   "right": "接叶霞弟到昆明",
+   "page": 209,
+   "why": "Ye Xiadi"
+  },
+  {
+   "wrong": "给大找一幢漆亮房子",
+   "right": "给胡找一幢漂亮房子",
+   "page": 209,
+   "why": "Hu; 漂亮"
+  },
+  {
+   "wrong": "我拖到这年夏天才去西安见明",
+   "right": "我拖到这年夏天才去西安见胡",
+   "page": 209,
+   "why": "Hu"
+  },
+  {
+   "wrong": "希望他送时去昆明",
+   "right": "希望他送叶去昆明",
+   "page": 209,
+   "why": "send Ye; 时->叶"
+  },
+  {
+   "wrong": "非常垂旋这个地方",
+   "right": "非常垂涎这个地方",
+   "page": 209,
+   "why": "垂涎"
+  },
+  {
+   "wrong": "态度依然很骄做",
+   "right": "态度依然很骄傲",
+   "page": 209,
+   "why": "骄傲"
+  },
+  {
+   "wrong": "他区他和共产党",
+   "right": "他说他和共产党",
+   "page": 209,
+   "why": "说"
+  },
+  {
+   "wrong": "杀眼看到",
+   "right": "亲眼看到",
+   "page": 210,
+   "why": "亲眼"
+  },
+  {
+   "wrong": "如盛文、袁朴、汪震、董钊",
+   "right": "如盛文、袁朴、汪震、董钊",
+   "page": 210,
+   "why": "crop-verified roster"
+  },
+  {
+   "wrong": "狂嫖滥财的情形",
+   "right": "狂嫖滥赌的情形",
+   "page": 210,
+   "why": "狂嫖滥赌; crop-verified"
+  },
+  {
+   "wrong": "戴笠一癌吹咕衣治苗极严",
+   "right": "戴笠一向吹嘘胡治军极严",
+   "page": 210,
+   "why": "Dai always bragged Hu ran army strictly; 衣->胡"
+  },
+  {
+   "wrong": "胡长官一向夸粮",
+   "right": "胡长官一向夸奖",
+   "page": 210,
+   "why": "夸奖"
+  },
+  {
+   "wrong": "所以乐得不担",
+   "right": "所以乐得不管",
+   "page": 210,
+   "why": "不管"
+  },
+  {
+   "wrong": "反而可以寡大欢喜",
+   "right": "反而可以皆大欢喜",
+   "page": 210,
+   "why": "皆大欢喜"
+  },
+  {
+   "wrong": "胡对目己部下",
+   "right": "胡对自己部下",
+   "page": 210,
+   "why": "自己"
+  },
+  {
+   "wrong": "只问毛人风发过",
+   "right": "只叫毛人凤发过",
+   "page": 210,
+   "why": "Mao Renfeng; 叫"
+  },
+  {
+   "wrong": "妆宗南被解放盏",
+   "right": "胡宗南被解放军",
+   "page": 210,
+   "why": "Hu; PLA"
+  },
+  {
+   "wrong": "毛人风还打电报回他",
+   "right": "毛人凤还打电报给他",
+   "page": 210,
+   "why": "Mao Renfeng; 给"
+  },
+  {
+   "wrong": "以便确保云南",
+   "right": "以便确保云南",
+   "page": 210,
+   "why": "correct"
+  },
+  {
+   "wrong": "卢汉的拒绝",
+   "right": "卢汉的拒绝",
+   "page": 210,
+   "why": "Lu Han correct"
+  },
+  {
+   "wrong": "戴等",
+   "right": "戴笠",
+   "page": null,
+   "why": "systematic mangle, ch11-wide"
+  },
+  {
+   "wrong": "戴竺",
+   "right": "戴笠",
+   "page": null,
+   "why": "systematic mangle, ch11-wide"
+  },
+  {
+   "wrong": "毛人风",
+   "right": "毛人凤",
+   "page": null,
+   "why": "systematic mangle, ch11-wide"
+  },
+  {
+   "wrong": "萝介石",
+   "right": "蒋介石",
+   "page": null,
+   "why": "systematic mangle, ch11-wide"
+  },
+  {
+   "wrong": "只要不是当着间的面",
+   "right": "只要不是当着胡的面",
+   "page": 201,
+   "why": "当着胡的面; crop-verified (Hu, not 外人)"
+  },
+  {
+   "wrong": "干万不能让蒋介石",
+   "right": "千万不能让蒋介石",
+   "page": 208,
+   "why": "千万 by all means; 干->千"
+  }
  ]
 }

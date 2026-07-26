@@ -302,6 +302,34 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch11 (胡宗南和戴笠、毛人凤的关系 / Hu Zongnan's Relations with Dai Li and Mao Renfeng) - DONE
+
+- PDF 199-211, printed 180-192. 40 body paragraphs, 40 translated. The Dai
+  Li / Hu Zongnan partnership from the inside: the 1937 hospital meeting, the
+  mutual puffery, the gift-diplomacy, Hu's wife Ye Xiadi, the shared carve-up
+  fantasy, and the 1947 discovery of Communists in Hu's own secretariat.
+- 160 ledger entries. THE CHAPTER'S SYSTEMATIC MANGLE: the name/pronoun for
+  Hu (胡) was OCR'd as 明/妆/衣/硼/阴/朝/大 in scattered places, and Chiang
+  (蒋) as 头/萝/送/戎/藉 -- every one context-checked before replacement
+  (衣/头/大 are real words). Crop-verified: 陈质平, 曹圣芬, 熊斌, 祝绍周,
+  俞作柏, 叶霞弟, 魏大铭, 杜逵, 陈洁如, 蒋纬国, 范长江, 平凉, 董钊, 狂嫖滥赌,
+  当着胡的面 (x2), Hu's parting line 多辛苦点.
+- REGISTER: kept 另一个老婆 ('Chiang's other wife') for Chen Jieru as Shen
+  wrote it -- my draft had softened it to '前妻/former wife'; reverted against
+  the scan and noted. The flat designation is evidence.
+- Checks: parity 40/40, alignment OK, content OK after fixing two anchors
+  (para 3 needed 'Dai Li' spelled out; 延安->Yenan), numbers 0 after noise
+  adjudications (万能/千方百计/万分/千万), register in tolerance.
+- Notes: 23. Glossary +45 (387 total).
+- Corroboration: Ye Xiazhai/叶霞翟 (book prints 叶霞弟) -- Dai Li's Hangzhou
+  student, Guanghua, Wisconsin PhD, married Hu 1947: corroborated; her family
+  disputes the intelligence-work and mistress colourings, noted. The 1947
+  Communists-in-Hu's-secretariat passage matches the Xiong Xianghui (熊向晖)
+  network -- Zhou Enlai's mole, Hu's confidential secretary, leaked the 1943
+  anti-Border-Region plan; the network left for study abroad ~May 1947, none
+  caught, so Shen's autumn-1947 'discovery' is the service finding traces
+  after the birds had flown. Documented and noted in full.
+
 ### ch10 (军统对陕甘宁边区的罪恶活动 / The Juntong against the Shaan-Gan-Ning Border Region) - DONE
 
 - PDF 189-198, printed 170-179. 33 body paragraphs (4 sections), 33
