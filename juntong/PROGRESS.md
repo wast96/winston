@@ -302,6 +302,55 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch20 (保密局内幕 / Inside the Bureau of Secrets Preservation) - SOURCE PREP + SYSTEMATIC LEDGER, TRANSLATION PENDING
+
+- PDF 411-469, printed 392-450. 163 body paragraphs + 7 detected ### headings,
+  ~40,000 CJK chars. THE BIGGEST CHAPTER IN THE BOOK. Multi-turn unit -- do NOT
+  write a partial reading.md. Offset confirmed (PDF 411 -> printed 392).
+- DONE this turn: render 411-469, ocr_crop, assemble (163 paras, 7 headings),
+  apply_fixes. 43-entry systematic ledger, 103 replacements applied. Residue
+  scan clean for all principals.
+- SECTION STRUCTURE for the translation turn. 7 headings were detected as ###:
+  调整组织，更疯狂地反共反人民 / 从屠杀到利用 / 用叛徒做耳目 / 特务们是怎样观察、
+  诱骗被捕的革命人士的 / 错综复杂的种种斗争 / 郑、毛、唐三派的明争暗斗 /
+  真假保密局的鬼把戏. In ADDITION, THREE subtitles were OCR-merged into body
+  paragraphs (like ch19's "After the Victory") and MUST be split into ### +
+  body para to keep parity, all three crop-verified this turn:
+    * para 2  : 改头换面，汰弱留强 ("A Change of Face; Cull the Weak, Keep the Strong")
+    * para 53 : 血腥毒辣的罪恶活动 ("Bloody, Vicious Criminal Activities")
+    * para 107: 对叛徒的运用 ("The Use of Traitors")
+  Confirm the merged/split parity math carefully -- these three shift the count.
+- LEDGER (systematic, whole-book manglings, all high-confidence): Dai Li
+  (戴竺/戴符/戴等->戴笠, but NOT 戴仅 = 戴+仅 "Dai only", left alone); Chiang
+  (菏/薪/戎/藉/东/萝介石->蒋介石); Mao Renfeng (毛人风/毛人反); Juntong
+  (车/衬/盏/御统); 郑介昆->郑介民. PRISONS (historically critical, every
+  occurrence was mangled): 渣滓洞 <- 渣滋润/酒淳润/酒浮润/渣入洞/洼注洞;
+  白公馆 <- 日公馆/昌公馆 (昌园路, a road, left untouched). 江竹筠 (Sister
+  Jiang) <- 江竹移. 潜伏 <- 淤伏/湾伏/淤估.
+- 和军统 IS NOT A BLIND REPLACE. Of 11 occurrences, several are legitimate:
+  和...一样 ("same as the Juntong period"), 戴笠和军统特务 ("Dai Li and the
+  agents"), 邹陆夫和军统...胡屏翰 (a conjunction), and 打和军统 = 打入军统
+  ("infiltrate"). Only the clearly-spurious 和 were removed per-occurrence
+  (7 targeted entries). Watch this at translation time.
+- TRANSLATION-TURN VERIFICATION WORKLIST (crop-verify BEFORE writing, per
+  pipeline step 5 -- these are the load-bearing, high-error-risk items NOT yet
+  done): (a) the ~80-name national station-chief roster in para 36 (dozens of
+  provinces, many obscure names, unit numbers); (b) the massacre martyr rosters
+  in paras 59 (重庆大坪/渣滓洞, incl. 江竹筠), 80 (上海, Mao Sen), 86-91 (the
+  11-27 Chongqing massacre: 杨虎城, 黄显声, 黎剑霜 and infant, the 白公馆/渣滓洞
+  killings) -- these names must be exact and cross-checked against the
+  documented 红岩/歌乐山 record; (c) the 三有公司 enterprise list (para 8-9);
+  (d) personnel/troop numbers throughout (para 13, 17, 30, 73-74).
+- GLOSSARY/NOTES to prepare: 保密局 = "Bureau of Secrets Preservation" (already
+  decided); the 三有公司 ("Three-Haves Company") pun (有势/有钱/有人); 顾顺章
+  (Gu Shunzhang) turncoat episode (para 109-111, cross-ref the famous 1931
+  case); 江竹筠/江姐 (Sister Jiang, the 红岩 martyr); the 白公馆/渣滓洞 prisons
+  and 中美所 (SACO) already glossed; the 苦肉计 ("self-injury ruse") stratagem;
+  真假保密局 (the "real vs fake Bureau" ruse for Li Zongren). Shen is a direct
+  participant here (总务处长, then 云南站长) -- category-4 self-implication notes
+  matter especially (his own role storing weapons in coffins, para 79; being
+  ordered to assassinate Yang Jie, cross-ref ch17).
+
 ### ch19 (唐纵其人 / Tang Zong) - DONE
 
 - Translation done (148/148 parity first pass). All 5 gates green, qa PASS
