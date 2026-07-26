@@ -302,6 +302,34 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch12 (旧社会里的鸡鸣狗盗和侦缉人员 / Thieves and Detectives in the Old Society) - DONE
+
+- PDF 212-228, printed 193-208. 51 body paragraphs, 51 translated. The
+  longest chapter so far. A folkloric-turned-savage account of the Shanghai
+  underworld and the detective police who fed off it: gang geography, thieves'
+  argot, the master-thief Wang Huzi, the honey-trap and post-office cases,
+  and then the private-torture / 'living teaching material' passages that turn
+  the chapter from color into indictment.
+- 196 ledger entries -- the heaviest yet, because the chapter is dense with
+  argot the OCR shredded and with two embedded page-number junk strings
+  (205, TO606) sitting INSIDE words, which check_numbers caught as phantom
+  quantities. Both stripped. Crop-verified: 王鹤 (Wang Huzi's real name),
+  杨虎 (garrison commander / gang boss), 吴乃宪, 饶伯泽, 李连福, 许忠五,
+  李筱宝, 黄加持, 车重光, 胡葆文, 哥伦比亚路二十二号, 卢英, 顾纪生, 李虎臣
+  (a detective -- NOT the general of ch07; same characters, noted).
+- REGISTER: this chapter lives on its slang. The argot terms (吃硬钱/吃洋火钱,
+  撕露水/收灯油/掀帘子, 亮相, 吃讲茶, 拆白党, 替罪羊, 活教材) are translated
+  for sense with the literal image kept, and each carries a note -- the notes
+  ARE the register apparatus here (42 notes, the densest in the book).
+- Checks: parity 51/51, alignment OK, content OK, numbers 0 after adjudicating
+  ordinals/counters/a-name to noise (第二步/三角架/四乡/周百先/四十多万) and
+  the two junk strings, register in tolerance.
+- Glossary +23 (410 total).
+- CORRELATION note for the read-through: the '活教材' and tiger-bench passages
+  are the clearest self-incrimination in the book -- Shen recording torture as
+  pedagogy in a flat procedural voice. That flatness is the evidence; the
+  notes flag it rather than let the English round it off.
+
 ### ch11 (胡宗南和戴笠、毛人凤的关系 / Hu Zongnan's Relations with Dai Li and Mao Renfeng) - DONE
 
 - PDF 199-211, printed 180-192. 40 body paragraphs, 40 translated. The Dai

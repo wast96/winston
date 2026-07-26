@@ -1040,6 +1040,83 @@
   "董钊": {
    "en": "Dong Zhao",
    "status": "attested"
+  },
+  "王胡子": {
+   "en": "Wang Huzi",
+   "status": "provisional",
+   "note": "\"Wang the Bearded\"; original name Wang He"
+  },
+  "梁华盛": {
+   "en": "Liang Huasheng",
+   "status": "attested"
+  },
+  "吴乃宪": {
+   "en": "Wu Naixian",
+   "status": "provisional"
+  },
+  "李连福": {
+   "en": "Li Lianfu",
+   "status": "provisional"
+  },
+  "许忠五": {
+   "en": "Xu Zhongwu",
+   "status": "provisional"
+  },
+  "陈志强": {
+   "en": "Chen Zhiqiang",
+   "status": "provisional"
+  },
+  "周百先": {
+   "en": "Zhou Baixian",
+   "status": "provisional"
+  },
+  "陈金标": {
+   "en": "Chen Jinbiao",
+   "status": "provisional"
+  },
+  "肖复权": {
+   "en": "Xiao Fuquan",
+   "status": "provisional"
+  },
+  "孙科": {
+   "en": "Sun Ke",
+   "status": "attested",
+   "note": "Sun Yat-sen's son; Sun Fo"
+  },
+  "饶伯泽": {
+   "en": "Rao Boze",
+   "status": "provisional",
+   "note": "French detective, Paris"
+  },
+  "普来西": {
+   "en": "Pulaixi",
+   "status": "provisional",
+   "note": "French detective, Paris"
+  },
+  "黄加持": {
+   "en": "Huang Jiachi",
+   "status": "provisional"
+  },
+  "车重光": {
+   "en": "Che Zhongguang",
+   "status": "provisional"
+  },
+  "胡葆文": {
+   "en": "Hu Baowen",
+   "status": "provisional",
+   "note": "\"Brother Bao\""
+  },
+  "顾纪生": {
+   "en": "Gu Jisheng",
+   "status": "provisional"
+  },
+  "卢英": {
+   "en": "Lu Ying",
+   "status": "provisional"
+  },
+  "郎祖荫": {
+   "en": "Lang Zuyin",
+   "status": "provisional"
   }
  },
  "organisations": {
@@ -1715,6 +1792,27 @@
   },
   "神仙洞": {
    "en": "Shenxiandong",
+   "status": "provisional"
+  },
+  "龙华寺": {
+   "en": "Longhua Temple",
+   "status": "attested"
+  },
+  "十六铺": {
+   "en": "Shiliupu",
+   "status": "attested"
+  },
+  "哥伦比亚路": {
+   "en": "Columbia Road",
+   "status": "attested",
+   "note": "Now Panyu Road, Shanghai"
+  },
+  "盐城": {
+   "en": "Yancheng",
+   "status": "attested"
+  },
+  "冉家巷": {
+   "en": "Ranjiaxiang",
    "status": "provisional"
   }
  }
