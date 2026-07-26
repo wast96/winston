@@ -302,6 +302,41 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch21 (我所知道的郑介民 / What I Know of Zheng Jiemin) - SOURCE PREP + CROP-VERIFIED LEDGER, TRANSLATION PENDING
+
+- PDF 470-514, printed 451-495. 196 body paragraphs (8 headings), ~29k CJK
+  chars. A biography of Zheng Jiemin; heavy overlap with the already-glossed
+  cast. Multi-turn unit; back matter (bm01/bm02) rendered + assembled too.
+- DONE this turn: render 470-520, ocr_crop, assemble (ch21 196/8; bm01_houji
+  15 paras; bm02_fuzai 9 paras), apply_fixes. 27-entry ledger (systematic
+  principals + 8 heading/subtitle fixes + 14 crop-verified name fixes),
+  applied clean, residue scan clean.
+- CROP-VERIFIED name fixes: 张敬尧 (warlord assassinated at the Liuguo Hotel
+  1933; was 张敬范/张敬攻), 饶毓琛 (Wuzhou customs supervisor; was 侨航琛/伐航琛),
+  熊斌 (Beiping mayor Xiong Bin; was 驴斌/熊浅), 杨宣诚 (军令部二厅头; scan shows
+  杨宜诚, attested 宣). High-confidence: 柯淑芬, 中山大学 (was 中出大学), 李默庵,
+  谢力公, 蒋剑民, 陶一珊, 刘士毅.
+- CONSISTENCY notes for the translation turn (verified, NO fix needed):
+  * 张纪勋 (ch21 scan) vs 张继勋 (ch20) -> both romanize "Zhang Jixun"; render
+    identically, add 张纪勋="Zhang Jixun" to glossary.
+  * 徐业道 (Xu Yedao, the 军法局 head here) is a DIFFERENT person from ch20's
+    徐志道 (Xu Zhidao, fake-Bureau director) -- render "Xu Yedao", do not merge.
+- 8 sections: (intro); Family Background and Early Life; Activities During the
+  War; Collusion with Imperialism; Secret-Service Activities During the KMT-CCP
+  Peace Talks; Actively Opposing yet Most Fearing the Communists; His Time as
+  Vice-Minister of National Defence; His Shirking Style and Methods of Graft.
+  NOTE: like ch20, several section subtitles are OCR-merged into the FIRST body
+  paragraph of their section (初期的特务活动 at para 18, 复兴社特务处时期 at para
+  40) -- split into ### + body for parity, as in ch19/ch20.
+- TRANSLATION-TURN worklist: crop-verify the dense minor rosters not yet done
+  (the 国大代表 list para 173 ~22 names; the gang-association 理事/监事 para 185;
+  the 调处小组 list para 124) -- OCR-trust + flag as before. Notes to prepare:
+  the Zhang Jingyao assassination (1933, 白世维), the Wavell/Singapore prediction
+  (郑's self-mythologizing), the Cairo Conference security role (cf. ch13), the
+  黄金风潮案 (1947 gold scandal, 宋子文/贝祖贻), the opium-in-the-coffin episode
+  (para 193-195, category-4 Shen self-implication), Zheng's Sino-Soviet (中苏
+  情报合作所) and Sino-British (中英情报合作所) liaison work.
+
 ### ch20 (保密局内幕 / Inside the Bureau of Secrets Preservation) - DONE
 
 - Translation done (163/163 parity). All 5 gates green, qa PASS (22 documents,

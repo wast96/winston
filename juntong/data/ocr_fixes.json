@@ -14976,5 +14976,169 @@
       "page": 0,
       "why": "Yu Wanxuan (station chief); OCR 余->剑 (pair 105)"
     }
+  ],
+  "ch21": [
+    {
+      "wrong": "戴竺",
+      "right": "戴笠",
+      "page": 0,
+      "why": "Dai Li; 笠->竺"
+    },
+    {
+      "wrong": "戴符",
+      "right": "戴笠",
+      "page": 0,
+      "why": "Dai Li; 笠->符"
+    },
+    {
+      "wrong": "戴等",
+      "right": "戴笠",
+      "page": 0,
+      "why": "Dai Li; 笠->等"
+    },
+    {
+      "wrong": "菏介石",
+      "right": "蒋介石",
+      "page": 0,
+      "why": "Chiang; 蒋->菏"
+    },
+    {
+      "wrong": "薪介石",
+      "right": "蒋介石",
+      "page": 0,
+      "why": "Chiang; 蒋->薪"
+    },
+    {
+      "wrong": "戎介石",
+      "right": "蒋介石",
+      "page": 0,
+      "why": "Chiang; 蒋->戎"
+    },
+    {
+      "wrong": "藉介石",
+      "right": "蒋介石",
+      "page": 0,
+      "why": "Chiang; 蒋->藉"
+    },
+    {
+      "wrong": "萝介石",
+      "right": "蒋介石",
+      "page": 0,
+      "why": "Chiang; 蒋->萝"
+    },
+    {
+      "wrong": "毛人风",
+      "right": "毛人凤",
+      "page": 0,
+      "why": "Mao Renfeng; 凤->风"
+    },
+    {
+      "wrong": "与帝国主义的多结",
+      "right": "与帝国主义的勾结",
+      "page": 0,
+      "why": "heading 4; 勾->多"
+    },
+    {
+      "wrong": "国共和谈期间的将务活动",
+      "right": "国共和谈期间的特务活动",
+      "page": 0,
+      "why": "heading 5; 特->将"
+    },
+    {
+      "wrong": "不肯负责的作风上与贪污效财的手法",
+      "right": "不肯负责的作风与贪污敛财的手法",
+      "page": 0,
+      "why": "heading 8; 作风上->作风, 敛->效"
+    },
+    {
+      "wrong": "期间，和军统工作",
+      "right": "期间，军统工作",
+      "page": 0,
+      "why": "spurious 和 before 军统"
+    },
+    {
+      "wrong": "柯淑分",
+      "right": "柯淑芬",
+      "page": 0,
+      "why": "Zheng's wife Ke Shufen (cf. ch20); 芬->分"
+    },
+    {
+      "wrong": "张敬范",
+      "right": "张敬尧",
+      "page": 0,
+      "why": "warlord Zhang Jingyao, assassinated 1933 (crop-verified p0479); 尧->范"
+    },
+    {
+      "wrong": "张敬攻",
+      "right": "张敬尧",
+      "page": 0,
+      "why": "Zhang Jingyao; 尧->攻"
+    },
+    {
+      "wrong": "中出大学",
+      "right": "中山大学",
+      "page": 0,
+      "why": "Sun Yat-sen (Moscow) University; 山->出"
+    },
+    {
+      "wrong": "李默认",
+      "right": "李默庵",
+      "page": 0,
+      "why": "general Li Mo'an; 庵->认"
+    },
+    {
+      "wrong": "潮力公",
+      "right": "谢力公",
+      "page": 0,
+      "why": "Xie Ligong; 谢->潮"
+    },
+    {
+      "wrong": "戎剑民",
+      "right": "蒋剑民",
+      "page": 0,
+      "why": "Jiang Jianmin (First Pacification Zone 2nd-dept agent); 蒋->戎"
+    },
+    {
+      "wrong": "陶一融",
+      "right": "陶一珊",
+      "page": 0,
+      "why": "Tao Yishan (cf. ch20); 珊->融"
+    },
+    {
+      "wrong": "刘士必",
+      "right": "刘士毅",
+      "page": 0,
+      "why": "defence vice-minister Liu Shiyi; 毅->必"
+    },
+    {
+      "wrong": "杨宜诚",
+      "right": "杨宣诚",
+      "page": 0,
+      "why": "Yang Xuancheng, 军令部二厅厅长 (scan shows 宜; attested form 宣)"
+    },
+    {
+      "wrong": "侨航琛",
+      "right": "饶毓琛",
+      "page": 0,
+      "why": "Wuzhou customs supervisor Rao Yuchen (crop-verified p0476)"
+    },
+    {
+      "wrong": "伐航琛",
+      "right": "饶毓琛",
+      "page": 0,
+      "why": "Rao Yuchen"
+    },
+    {
+      "wrong": "驴斌",
+      "right": "熊斌",
+      "page": 0,
+      "why": "Beiping mayor Xiong Bin (crop-verified p0497); 熊->驴"
+    },
+    {
+      "wrong": "熊浅",
+      "right": "熊斌",
+      "page": 0,
+      "why": "Xiong Bin; 斌->浅"
+    }
   ]
 }
