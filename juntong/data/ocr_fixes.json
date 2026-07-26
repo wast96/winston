@@ -4186,5 +4186,427 @@
    "page": 149,
    "why": "rest on my own memory"
   }
+ ],
+ "ch05": [
+  {
+   "wrong": "办蔡期间的叶提将盏",
+   "right": "囚禁期间的叶挺将军",
+   "page": 157,
+   "why": "chapter title: General Ye Ting in Confinement"
+  },
+  {
+   "wrong": "叶挺将盏",
+   "right": "叶挺将军",
+   "page": 157,
+   "why": "General Ye Ting; crop-verified"
+  },
+  {
+   "wrong": "叶将平",
+   "right": "叶将军",
+   "page": 158,
+   "why": "General Ye"
+  },
+  {
+   "wrong": "江西上化",
+   "right": "江西上饶",
+   "page": 157,
+   "why": "Shangrao, Kiangsi; crop-verified"
+  },
+  {
+   "wrong": "桂林办公打",
+   "right": "桂林办公厅",
+   "page": 157,
+   "why": "the Kweilin office; crop-verified"
+  },
+  {
+   "wrong": "将叶欠禁",
+   "right": "将叶囚禁",
+   "page": 157,
+   "why": "confined Ye; crop-verified"
+  },
+  {
+   "wrong": "令盏统特务头子",
+   "right": "令军统特务头子",
+   "page": 157,
+   "why": "the Juntong; crop-verified"
+  },
+  {
+   "wrong": "戴竺",
+   "right": "戴笠",
+   "page": 157,
+   "why": "Dai Li; crop-verified"
+  },
+  {
+   "wrong": "头发明子很长",
+   "right": "头发胡子很长",
+   "page": 157,
+   "why": "hair and beard grown long; crop-verified"
+  },
+  {
+   "wrong": "一慢植物油灯",
+   "right": "一盏植物油灯",
+   "page": 157,
+   "why": "a vegetable-oil lamp"
+  },
+  {
+   "wrong": "先疝他行了军礼",
+   "right": "先向他行了军礼",
+   "page": 158,
+   "why": "saluted him"
+  },
+  {
+   "wrong": "军长位苦了",
+   "right": "军长辛苦了",
+   "page": 158,
+   "why": "you have had a hard time of it"
+  },
+  {
+   "wrong": "他训无表情",
+   "right": "他面无表情",
+   "page": 158,
+   "why": "expressionless"
+  },
+  {
+   "wrong": "他件头看望",
+   "right": "他抬头看望",
+   "page": 158,
+   "why": "looked up"
+  },
+  {
+   "wrong": "儿百级石阶梯",
+   "right": "几百级石阶梯",
+   "page": 158,
+   "why": "several hundred stone steps"
+  },
+  {
+   "wrong": "疏怕被人识出来",
+   "right": "深怕被人认出来",
+   "page": 158,
+   "why": "for fear of his being recognized"
+  },
+  {
+   "wrong": "有人动走",
+   "right": "有人劫走",
+   "page": 158,
+   "why": "someone might snatch him away"
+  },
+  {
+   "wrong": "汽车劳边",
+   "right": "汽车旁边",
+   "page": 158,
+   "why": "beside the car"
+  },
+  {
+   "wrong": "两潮会馆",
+   "right": "两湖会馆",
+   "page": 158,
+   "why": "the Hunan-Hupeh guild hall; crop-verified"
+  },
+  {
+   "wrong": "多惹人注上且",
+   "right": "多惹人注目",
+   "page": 158,
+   "why": "attract notice"
+  },
+  {
+   "wrong": "什么人去劲都不行",
+   "right": "什么人去劝都不行",
+   "page": 159,
+   "why": "no one's persuasion availed"
+  },
+  {
+   "wrong": "和弄了一头奶羊",
+   "right": "弄了一头奶羊",
+   "page": 159,
+   "why": "got hold of a milk goat"
+  },
+  {
+   "wrong": "每到黄代",
+   "right": "每到黄昏",
+   "page": 159,
+   "why": "at dusk"
+  },
+  {
+   "wrong": "态度很和议",
+   "right": "态度很和气",
+   "page": 159,
+   "why": "civil in manner"
+  },
+  {
+   "wrong": "为什么办禁他",
+   "right": "为什么囚禁他",
+   "page": 159,
+   "why": "why he was confined"
+  },
+  {
+   "wrong": "见到戴符",
+   "right": "见到戴笠",
+   "page": 159,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "我多了一个大圈子",
+   "right": "我兜了一个大圈子",
+   "page": 159,
+   "why": "I went a long way round"
+  },
+  {
+   "wrong": "如何阅热",
+   "right": "如何闷热",
+   "page": 159,
+   "why": "how oppressive the heat"
+  },
+  {
+   "wrong": "功他把头发",
+   "right": "劝他把头发",
+   "page": 159,
+   "why": "urging him"
+  },
+  {
+   "wrong": "马上有睁大着眼睛",
+   "right": "马上睁大着眼睛",
+   "page": 159,
+   "why": "opened his eyes wide"
+  },
+  {
+   "wrong": "不会前去头发",
+   "right": "不会剪去头发",
+   "page": 159,
+   "why": "would not cut his hair"
+  },
+  {
+   "wrong": "个性一向候强",
+   "right": "个性一向倔强",
+   "page": 159,
+   "why": "an obstinate character"
+  },
+  {
+   "wrong": "个性候强",
+   "right": "个性倔强",
+   "page": 160,
+   "why": "obstinate"
+  },
+  {
+   "wrong": "繁办围攻新四军",
+   "right": "惩办围攻新四军",
+   "page": 160,
+   "why": "punish those who attacked the New Fourth Army"
+  },
+  {
+   "wrong": "为什么要效击",
+   "right": "为什么要攻击",
+   "page": 160,
+   "why": "why attack"
+  },
+  {
+   "wrong": "有什么罪9",
+   "right": "有什么罪?",
+   "page": 160,
+   "why": "OCR digit for a question mark"
+  },
+  {
+   "wrong": "狼狐不堪",
+   "right": "狼狈不堪",
+   "page": 160,
+   "why": "in disarray"
+  },
+  {
+   "wrong": "小歌乐山北蔓",
+   "right": "小歌乐山北麓",
+   "page": 160,
+   "why": "the northern foot of Little Geleshan; crop-verified"
+  },
+  {
+   "wrong": "四川盏最白驹",
+   "right": "四川军阀白驹",
+   "page": 160,
+   "why": "the Szechwan warlord Bai Ju; crop-verified"
+  },
+  {
+   "wrong": "香山别坚",
+   "right": "香山别墅",
+   "page": 160,
+   "why": "the Xiangshan villa; crop-verified"
+  },
+  {
+   "wrong": "白公馆内禁",
+   "right": "白公馆囚禁",
+   "page": 160,
+   "why": "confined at Baigongguan; crop-verified"
+  },
+  {
+   "wrong": "正房内内禁",
+   "right": "正房内囚禁",
+   "page": 160,
+   "why": "confined"
+  },
+  {
+   "wrong": "漂滋洞",
+   "right": "渣滓洞",
+   "page": 160,
+   "why": "Zhazidong; crop-verified"
+  },
+  {
+   "wrong": "将时将军",
+   "right": "将叶将军",
+   "page": 160,
+   "why": "General Ye"
+  },
+  {
+   "wrong": "洪炉广",
+   "right": "洪炉厂",
+   "page": 160,
+   "why": "the Honglu factory"
+  },
+  {
+   "wrong": "庆承志",
+   "right": "廖承志",
+   "page": 160,
+   "why": "Liao Chengzhi"
+  },
+  {
+   "wrong": "动播叶将军",
+   "right": "动摇叶将军",
+   "page": 160,
+   "why": "shake General Ye"
+  },
+  {
+   "wrong": "给戴签",
+   "right": "给戴笠",
+   "page": 160,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "专为办茶高级政治犯",
+   "right": "专为囚禁高级政治犯",
+   "page": 160,
+   "why": "for confining senior political prisoners"
+  },
+  {
+   "wrong": "洗冷水党",
+   "right": "洗冷水澡",
+   "page": 161,
+   "why": "a cold bath"
+  },
+  {
+   "wrong": "单独办禁",
+   "right": "单独囚禁",
+   "page": 161,
+   "why": "held alone"
+  },
+  {
+   "wrong": "白公迄",
+   "right": "白公馆",
+   "page": 161,
+   "why": "Baigongguan"
+  },
+  {
+   "wrong": "动加对犯人打驾",
+   "right": "动辄对犯人打骂",
+   "page": 161,
+   "why": "beat and cursed prisoners at every turn"
+  },
+  {
+   "wrong": "但他对时将军",
+   "right": "但他对叶将军",
+   "page": 161,
+   "why": "General Ye"
+  },
+  {
+   "wrong": "戴等有次",
+   "right": "戴笠有次",
+   "page": 161,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "瓜着一柄大共证",
+   "right": "挥着一柄大葵扇",
+   "page": 161,
+   "why": "waving a big palm-leaf fan; crop-verified"
+  },
+  {
+   "wrong": "戴先生来看匣长",
+   "right": "戴先生来看军长",
+   "page": 161,
+   "why": "Mr Dai has come to see the commander; crop-verified"
+  },
+  {
+   "wrong": "他把嘴听一下",
+   "right": "他把嘴呶一下",
+   "page": 161,
+   "why": "pursed his lips; crop-verified"
+  },
+  {
+   "wrong": "却大大出卑我意料",
+   "right": "却大大出乎我意料",
+   "page": 162,
+   "why": "quite contrary to my expectation"
+  },
+  {
+   "wrong": "第一任要做的事",
+   "right": "第一件要做的事",
+   "page": 162,
+   "why": "the first thing to do"
+  },
+  {
+   "wrong": "和和军统大特务",
+   "right": "和军统大特务",
+   "page": 162,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "他被因后",
+   "right": "他被囚后",
+   "page": 162,
+   "why": "after his confinement"
+  },
+  {
+   "wrong": "电起头凝视",
+   "right": "抬起头凝视",
+   "page": 162,
+   "why": "raised his head and gazed"
+  },
+  {
+   "wrong": "言不由囊",
+   "right": "言不由衷",
+   "page": 162,
+   "why": "insincerely"
+  },
+  {
+   "wrong": "转到薪介石方面",
+   "right": "转到蒋介石方面",
+   "page": 162,
+   "why": "come over to Chiang Kai-shek"
+  },
+  {
+   "wrong": "报告戴等",
+   "right": "报告戴笠",
+   "page": 162,
+   "why": "reported to Dai Li"
+  },
+  {
+   "wrong": "缴幻地走了",
+   "right": "悻悻地走了",
+   "page": 160,
+   "why": "went off sullenly; provisional reading, not crop-confirmed"
+  },
+  {
+   "wrong": "缴缴走了",
+   "right": "悻悻走了",
+   "page": 160,
+   "why": "went off sullenly; provisional reading, not crop-confirmed"
+  },
+  {
+   "wrong": "那芝从桂林",
+   "right": "那盏从桂林",
+   "page": 162,
+   "why": "that lamp; crop-verified"
+  },
+  {
+   "wrong": "自动前下来",
+   "right": "自动剪下来",
+   "page": 162,
+   "why": "cut them off of my own accord; crop-verified"
+  }
  ]
 }

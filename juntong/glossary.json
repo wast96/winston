@@ -541,6 +541,56 @@
    "en": "Ye Xiangzhi",
    "status": "attested",
    "note": "Head of the Chungking special district; later a senior intelligence figure on Taiwan."
+  },
+  "顾祝同": {
+   "en": "Gu Zhutong",
+   "status": "attested",
+   "note": "1893-1987; commander-in-chief of the Third War Zone, directed the operation against the New Fourth Army."
+  },
+  "陈诚": {
+   "en": "Chen Cheng",
+   "status": "attested",
+   "note": "1898-1965; commander-in-chief of the Sixth War Zone; later premier and vice-president on Taiwan."
+  },
+  "沈默": {
+   "en": "Shen Mo",
+   "status": "provisional",
+   "note": "Shen Zui's brother; head of the Juntong's Kweilin operations group, responsible for guarding Ye Ting."
+  },
+  "杨清植": {
+   "en": "Yang Qingzhi",
+   "status": "provisional",
+   "note": "Commander of the Juntong's operatives' regiment."
+  },
+  "沈维翰": {
+   "en": "Shen Weihan",
+   "status": "provisional",
+   "note": "Head of the Juntong's judicial department."
+  },
+  "侯子川": {
+   "en": "Hou Zichuan",
+   "status": "provisional",
+   "note": "Superintendent of the Baigongguan detention house."
+  },
+  "侯桢祥": {
+   "en": "Hou Zhenxiang",
+   "status": "provisional",
+   "note": "Section head for construction in the Juntong's general affairs department."
+  },
+  "马法五": {
+   "en": "Ma Fawu",
+   "status": "attested",
+   "note": "1893-1992; Nationalist general captured in 1945, exchanged for Ye Ting in March 1946."
+  },
+  "邵力子": {
+   "en": "Shao Lizi",
+   "status": "attested",
+   "note": "1882-1967; senior Nationalist figure and repeated intermediary with the Communists."
+  },
+  "白驹": {
+   "en": "Bai Ju",
+   "status": "provisional",
+   "note": "Szechwan warlord who built the Xiangshan villa that became Baigongguan."
   }
  },
  "organisations": {
@@ -701,6 +751,18 @@
    "en": "design committee members",
    "status": "decided",
    "note": "Nominal advisers retained on a stipend."
+  },
+  "八路军": {
+   "en": "the Eighth Route Army",
+   "status": "attested"
+  },
+  "第三战区": {
+   "en": "the Third War Zone",
+   "status": "decided"
+  },
+  "第六战区": {
+   "en": "the Sixth War Zone",
+   "status": "decided"
   }
  },
  "terms": {
@@ -793,6 +855,15 @@
    "en": "a clear-water yamen",
    "status": "decided",
    "note": "A post with no opportunities for graft."
+  },
+  "反共高潮": {
+   "en": "anti-Communist offensive",
+   "status": "decided"
+  },
+  "禁地": {
+   "en": "forbidden zone",
+   "status": "decided",
+   "note": "The closed area of SACO reserved for senior political prisoners."
   }
  },
  "places": {
@@ -918,6 +989,31 @@
    "en": "Sandouping",
    "status": "attested",
    "note": "On the Yangtze in western Hupeh, near the front line."
+  },
+  "上饶": {
+   "en": "Shangrao",
+   "status": "attested",
+   "note": "Kiangsi; Third War Zone headquarters and site of its concentration camp."
+  },
+  "桂林": {
+   "en": "Kweilin",
+   "status": "decided",
+   "note": "Period English form."
+  },
+  "七星岩": {
+   "en": "the Seven Star Crag",
+   "status": "attested",
+   "note": "Cave system at Kweilin where Ye Ting was held."
+  },
+  "恩施": {
+   "en": "Enshi",
+   "status": "attested",
+   "note": "Hupeh; Sixth War Zone headquarters."
+  },
+  "香山别墅": {
+   "en": "the Xiangshan villa",
+   "status": "attested",
+   "note": "The house that became Baigongguan."
   }
  }
 }

@@ -217,6 +217,36 @@ had flattened both to "the words". Restored as "the three characters" and
 - The prison ladder - 小学 / 中学 / 大学 for the corps detention house,
   Baigongguan and the Xifeng camp - is the author's own reported usage.
 
+### ch05 (囚禁期间的叶挺将军 / General Ye Ting in Confinement) - DONE
+
+- PDF 157-162, printed 138-143. 14 source paragraphs, 14 translated.
+- 70 crop-verified OCR corrections. Restored 江西上饶, 七星岩, 小歌乐山北麓,
+  四川军阀白驹, 香山别墅, 渣滓洞, 廖承志, 挥着一柄大葵扇, 邵力子.
+- Checks: parity 14/14, alignment OK, content alignment OK (63 name
+  occurrences all in the paired paragraph), register within tolerance,
+  numeric check 1 residual flag, adjudicated: the 五 inside the name 马法五.
+- Notes: 20, i.e. 3.3 per printed page. Glossary +20 (218 total).
+- CAUGHT BY PARITY: the chapter's final paragraph was not translated at all.
+  I read paragraphs 11-13, translated them, and stopped without checking there
+  was a 14th. Nothing in the English showed it -- the chapter ended on a
+  perfectly good closing line. check_structure reported 14 source against 13
+  translation immediately. The missing paragraph carried the March 1946
+  exchange for Ma Fawu and Ye Ting's remark on cutting his hair at last, which
+  is the chapter's resolution.
+
+### FOR WINSTON'S READ-THROUGH, ch05
+
+- Two provisional readings not confirmed against the scan: 悻悻地走了 and
+  悻悻走了 for Chen Cheng's departures (OCR gave 缴幻/缴缴). The sense is clear
+  from context but the characters were not legible at the resolution I had.
+- The chapter is the strongest material in the book so far and the least
+  self-serving. Shen Zui's errand throughout is to soften Ye Ting by comforts
+  and bring him over to Chiang Kai-shek; he reports its failure, Ye Ting's
+  refusal to cut his hair, and Dai Li's closing remark, without mitigating any
+  of it. His admission that he understood nothing of what Ye Ting meant by
+  asking to have his Party membership restored is doing the work the 1962-66
+  framing required, and is also, on the evidence, probably true.
+
 ### FOR WINSTON'S READ-THROUGH, fm01
 
 - The scholarship pass is **not yet run** for this unit. The twelve notes rest

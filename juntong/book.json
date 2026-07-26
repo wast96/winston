@@ -294,7 +294,8 @@
   "ch01": "out/ch01_reading.md",
   "ch02": "out/ch02_reading.md",
   "ch03": "out/ch03_reading.md",
-  "ch04": "out/ch04_reading.md"
+  "ch04": "out/ch04_reading.md",
+  "ch05": "out/ch05_reading.md"
  },
  "notes": "notes.json",
  "datelines": {},
