@@ -14124,5 +14124,169 @@
    "page": 319,
    "why": "Ye Xiangzhi; crop-verified, matches glossary"
   }
+ ],
+ "ch18": [
+  {
+   "wrong": "车统桂务尖于戴和的",
+   "right": "军统特务头子戴笠的",
+   "page": 323,
+   "why": "chapter title line1; OCR 军统特务头子戴笠"
+  },
+  {
+   "wrong": "坊，等，狠",
+   "right": "忍、等、狠",
+   "page": 323,
+   "why": "section heading: Endure, Wait, Strike Hard"
+  },
+  {
+   "wrong": "对权责的拉拢和运用",
+   "right": "对权贵的拉拢和运用",
+   "page": 323,
+   "why": "section heading; 贵→责"
+  },
+  {
+   "wrong": "对待拖徒的手段",
+   "right": "对待叛徒的手段",
+   "page": 323,
+   "why": "section heading; 叛→拖"
+  },
+  {
+   "wrong": "和毛人凤的生活片新",
+   "right": "和毛人凤的生活片断",
+   "page": 323,
+   "why": "section heading; 断→新"
+  },
+  {
+   "wrong": "戴竺",
+   "right": "戴笠",
+   "page": 323,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴等",
+   "right": "戴笠",
+   "page": 323,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴符",
+   "right": "戴笠",
+   "page": 323,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴怎",
+   "right": "戴笠",
+   "page": 323,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴答",
+   "right": "戴笠",
+   "page": 323,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴位",
+   "right": "戴笠",
+   "page": 323,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戎介石",
+   "right": "蒋介石",
+   "page": 323,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "藉介石",
+   "right": "蒋介石",
+   "page": 323,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "闫介石",
+   "right": "蒋介石",
+   "page": 323,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "基介石",
+   "right": "蒋介石",
+   "page": 323,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "头介石",
+   "right": "蒋介石",
+   "page": 323,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "菏介石",
+   "right": "蒋介石",
+   "page": 323,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "毛人风",
+   "right": "毛人凤",
+   "page": 323,
+   "why": "Mao Renfeng"
+  },
+  {
+   "wrong": "毛人反",
+   "right": "毛人凤",
+   "page": 323,
+   "why": "Mao Renfeng"
+  },
+  {
+   "wrong": "王蒲夸",
+   "right": "王蒲臣",
+   "page": 323,
+   "why": "Wang Puchen"
+  },
+  {
+   "wrong": "王清臣",
+   "right": "王蒲臣",
+   "page": 323,
+   "why": "Wang Puchen"
+  },
+  {
+   "wrong": "声宣诚",
+   "right": "杨宣诚",
+   "page": 323,
+   "why": "Yang Xuancheng, 2nd-Bureau head; crop p343"
+  },
+  {
+   "wrong": "雪夫",
+   "right": "毅夫",
+   "page": 323,
+   "why": "Zhang Yanfo's zi Yifu; crop p343"
+  },
+  {
+   "wrong": "张国奏",
+   "right": "张国焘",
+   "page": 323,
+   "why": "Zhang Guotao; crop p364"
+  },
+  {
+   "wrong": "东方折",
+   "right": "东方白",
+   "page": 323,
+   "why": "Dongfang Bai; crop p356"
+  },
+  {
+   "wrong": "云南人民开基",
+   "right": "云南人邱开基",
+   "page": 323,
+   "why": "Qiu Kaiji (警保处长); crop p360, same man as ch14"
+  },
+  {
+   "wrong": "杜月笔",
+   "right": "杜月笙",
+   "page": 323,
+   "why": "Du Yuesheng"
+  }
  ]
 }

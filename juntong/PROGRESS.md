@@ -302,6 +302,30 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch18 (军统特务头子戴笠的继承人毛人凤 / Mao Renfeng, Dai Li's Successor) - SOURCE PREPPED, TRANSLATION PENDING
+
+- PDF 342-368, printed 323-349. 89 body paragraphs, ~18,000 CJK chars, 7 heading
+  lines (chapter title split over 2 lines + 5 section headings). The largest
+  remaining chapter; a multi-turn unit like ch13 -- do NOT write a partial
+  reading.md that fails parity.
+- DONE this turn: render/ocr/assemble, and a 27-entry crop-verified ledger
+  (95 replacements) covering the recurring-name manglings (戴笠, 蒋介石, 毛人凤,
+  王蒲臣) and the new cast, all crop-checked against the scan:
+  杨宣诚 (声宣诚), 张严佛/毅夫 (雪夫), 邓文仪, 郭子良, 何龙庆, 周伟龙, 张炎元,
+  张师, 张业, 王兆槐, 马汉三, 王蒲臣, 乔家才, 刘玉珠, 李希成, 潘其武, 毛森,
+  黄显声, 陈为诚, 俞济时, 邱开基 (=ch14), 瞿梦秋, 张国焘 (张国奏), 东方白 (东方折),
+  陈世贤, 毛惕园, 余素秋, 马连良, 吕世琨, 董士立, 钱午林, 李士珍, 张振国.
+  黄×× is redacted in the SOURCE itself (a turncoat's given name).
+- The 5 sections: 忍/等/狠 (Endure, Wait, Strike Hard); 取信于蒋介石的方法
+  (winning Chiang's trust); 对权贵的拉拢和运用 (cultivating the powerful);
+  对待叛徒的手段 (methods with turncoats); 和毛人凤的生活片断 (life fragments).
+- NEXT TURN: crop-verify numbers during translation, translate all 89 paras,
+  run the 5 gates, notes + glossary (many new: 张严佛/邓文仪/杨宣诚/马汉三/毛森/
+  俞济时/黄显声/瞿梦秋/余乐醒/王凌云-no/etc.; 张国焘 attested), build, qa, commit.
+  Watch for consistency: 邱开基/李毓桢/周伯先/何绍周/叶翔之 already glossed.
+  The 忍等狠 pun and the gambling pun (宋子文/刘纪文 = 送几文/留几文) need notes;
+  王佐断臂 allusion (line "学一学王佐") needs a note.
+
 ### ch17 (我受命暗杀杨杰将军的经过 / How I Was Ordered to Assassinate General Yang Jie) - DONE
 
 - PDF 338-341, printed 319-322. 13 body paragraphs (last is the byline
