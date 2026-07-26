@@ -302,6 +302,31 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch16 (阴谋诬陷中共的一个例证 / A Case of Framing the Communists) - DONE
+
+- PDF 334-337, printed 315-318. 12 body paragraphs + a ### subtitle
+  (李公朴、闻一多被暗杀案侧记). Full pipeline from scratch. A side-record on the
+  1946 Li Gongpu / Wen Yiduo assassinations: the plot to plant false confessors
+  implicating the CCP, and the double-impersonation of the two men publicly shot.
+- Ledger 16 entries, ALL crop-verified. The culprit 霍揆彰 (Huo Kuizhang) was
+  OCR-scattered (霍把彰/霍抄彰/雹扎彰/替搂彰 -> 霍揆彰); also 刘一戈 (not 刘一龙),
+  龚少侠 (not 奢少侠), 王巍 (station chief, not 王狗/王寿), 李毓桢, 酃县 (hometown),
+  洞庭湖 (Huo's wartime post), and the two prisons 白公馆/渣滓洞 (OCR
+  电公馆/洼淳洞) -- I had first translated those literally as "Dianzi mansion /
+  Wachundong"; caught by crop.
+- Checks: parity 12/12, align OK, content OK (after Shenxiandong glossary match
+  + restoring 三个人/三老板 counts), numbers 0, register in tolerance.
+- Notes: 7. Glossary +13 (霍揆彰/王凌云 attested; the rest provisional; 无为寺/
+  神仙洞/嵩庄 places). Prisons 白公馆/渣滓洞, Tang Zong, SACO all noted earlier.
+- FLAG FOR WINSTON / GLOBAL CASCADE: glossary renders 渣滓洞 as "the Bath Cave
+  (Zhazidong)" (status: decided), but its own glossary note says the name means
+  'dross pit' -- "Bath" looks like an error for "dross/dregs". Used the decided
+  form here for consistency (5+ chapters use it); recommend a global correction
+  to e.g. "the Dregs Cave (Zhazidong)" cascaded across ch03/ch05/ch07/ch13/ch16.
+- CONSISTENCY: the same Wang Wei (王巍) is Yunnan station chief here (1946),
+  station chief again later, and Kunming police chief by 1948 (ch14/15) -- one
+  referent, one glossary entry; the ch14 "Wang Zhi" error was corrected.
+
 ### ch15 (昆明七一五 / The Kunming Fifteenth of July) - DONE
 
 - PDF 325-333, printed 306-314. 29 body paragraphs, ~5,600 CJK chars, 1 section

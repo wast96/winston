@@ -1454,6 +1454,53 @@
     "金维和": {
       "en": "Jin Weihe",
       "status": "provisional"
+    },
+    "霍揆彰": {
+      "en": "Huo Kuizhang",
+      "status": "attested",
+      "note": "Nationalist general of the Chen Cheng clique; commander-in-chief of the Yunnan Garrison Headquarters in 1946, dismissed over the Li-Wen assassinations."
+    },
+    "郑修元": {
+      "en": "Zheng Xiuyuan",
+      "status": "provisional"
+    },
+    "龚少侠": {
+      "en": "Gong Shaoxia",
+      "status": "provisional"
+    },
+    "王凌云": {
+      "en": "Wang Lingyun",
+      "status": "attested",
+      "note": "Nationalist general, commander of the 2nd Army and western-Yunnan garrison commander."
+    },
+    "王子民": {
+      "en": "Wang Zimin",
+      "status": "provisional"
+    },
+    "汤时亮": {
+      "en": "Tang Shiliang",
+      "status": "provisional"
+    },
+    "李文山": {
+      "en": "Li Wenshan",
+      "status": "provisional"
+    },
+    "刘一戈": {
+      "en": "Liu Yige",
+      "status": "provisional"
+    },
+    "郭业儒": {
+      "en": "Guo Yeru",
+      "status": "provisional"
+    },
+    "陆根凡": {
+      "en": "Lu Genfan",
+      "status": "provisional"
+    },
+    "龙三": {
+      "en": "Long San",
+      "status": "provisional",
+      "note": "Long Yun's third son."
     }
   },
   "organisations": {
@@ -2199,6 +2246,16 @@
       "en": "Nanjing Middle School",
       "status": "decided",
       "note": "南菁 (a Kunming school), same pinyin as but unrelated to the city Nanjing (南京)."
+    },
+    "无为寺": {
+      "en": "Wuwei Temple",
+      "status": "provisional",
+      "note": "on the hill behind Dali; used to hide the real assassins."
+    },
+    "嵩庄": {
+      "en": "Song Manor",
+      "status": "provisional",
+      "note": "Huo Kuizhang's villa outside Changsha."
     }
   }
 }
