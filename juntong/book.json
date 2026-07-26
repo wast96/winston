@@ -310,7 +310,10 @@
     "ch17": "out/ch17_reading.md",
     "ch18": "out/ch18_reading.md",
     "ch19": "out/ch19_reading.md",
-    "ch20": "out/ch20_reading.md"
+    "ch20": "out/ch20_reading.md",
+    "ch21": "out/ch21_reading.md",
+    "bm01_houji": "out/bm01_houji_reading.md",
+    "bm02_fuzai": "out/bm02_fuzai_reading.md"
   },
   "notes": "notes.json",
   "datelines": {},

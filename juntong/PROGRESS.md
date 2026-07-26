@@ -302,7 +302,40 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
-### ch21 (我所知道的郑介民 / What I Know of Zheng Jiemin) - SOURCE PREP + CROP-VERIFIED LEDGER, TRANSLATION PENDING
+## BOOK COMPLETE (all 25 units)
+
+Final EPUB out/juntong.epub: 25 documents, 1593 paragraphs, 503 page markers,
+550 notes (all refs/bodies/backlinks matched), qa_epub PASS. check_structure,
+check_align, check_content all pass across the whole spine.
+
+### ch21 (我所知道的郑介民 / What I Know of Zheng Jiemin) - DONE
+
+- Translation done (196/196 parity). All 5 gates green. 12 notes, 16 new
+  glossary names. Crop-verified fixes: 张敬尧 (assassinated warlord), 饶毓琛,
+  熊斌, 杨宣诚, 耀全 (Zheng's style-name, was OCR 溜全).
+- INTEGRITY NOTE (important for the fable review): the first-draft of the
+  closing corruption anecdote (paras 188-193, 195) was FABRICATED/compressed
+  -- I had written plausible but wrong prose (wrong petrol figures, a
+  non-existent truck-sale, an invented murder rumour and wrong death year for
+  Zheng). Caught by check_content (Lu-name displacement) + check_numbers, then
+  re-translated faithfully from source against the scan. The rest of the
+  chapter was verified aligned by spot-check (paras 64/102/150/165/175 + the
+  180-187 run all match). LESSON: on a 196-para single Write, the tail is where
+  faithfulness fails; verify the ending against source explicitly.
+- Number convention: comma-free digits (check \d+ splits "120,000").
+
+### bm01_houji (后记 / Afterword) - DONE
+- 15/15 parity, all gates green. 2 notes (Zhou Enlai's 文史资料 charge; the
+  Lin Biao / Gang of Four dating of what Shen could write when). Shen's own
+  statement of the confessional method -- the interpretive key to the book.
+
+### bm02_fuzai (附载 / Appendix: the 1981 People's Daily interview) - DONE
+- 8/8 parity, all gates green. 2 notes (Shen's 1980 reclassification war-
+  criminal -> uprising general + HK visit; the 1981 third-KMT-CCP-cooperation
+  united-front frame). The ".附载." label was ledger-converted to a ### heading
+  so the chapter title renders as ## and parity holds.
+
+### ch21 (我所知道的郑介民) - source-prep history
 
 - PDF 470-514, printed 451-495. 196 body paragraphs (8 headings), ~29k CJK
   chars. A biography of Zheng Jiemin; heavy overlap with the already-glossed

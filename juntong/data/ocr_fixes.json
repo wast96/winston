@@ -15139,6 +15139,490 @@
       "right": "熊斌",
       "page": 0,
       "why": "Xiong Bin; 斌->浅"
+    },
+    {
+      "wrong": "复兴和社将务处时期",
+      "right": "复兴社特务处时期",
+      "page": 0,
+      "why": "merged subtitle para 38; 复兴社特务处, 和 spurious, 将->特"
+    },
+    {
+      "wrong": "郑介虹的这次活动",
+      "right": "郑介民的这次活动",
+      "page": 0,
+      "why": "para 19; 民->虹"
+    },
+    {
+      "wrong": "营造三老板陆根果",
+      "right": "营造厂老板陆根泉",
+      "page": 0,
+      "why": "Lu Genquan, boss of Lu Genji Construction Works (crop p0513); 厂->三, 泉->果"
+    },
+    {
+      "wrong": "陆根果",
+      "right": "陆根泉",
+      "page": 0,
+      "why": "Lu Genquan; OCR 泉->果"
+    },
+    {
+      "wrong": "陆根凡",
+      "right": "陆根泉",
+      "page": 0,
+      "why": "Lu Genquan; OCR 泉->凡 (ch21; same person)"
+    },
+    {
+      "wrong": "别号溜全",
+      "right": "别号耀全",
+      "page": 0,
+      "why": "Zheng Jiemin's style-name Yaoquan (crop-verified p0471; attested 字耀全); OCR 耀->溜"
+    }
+  ],
+  "bm01_houji": [
+    {
+      "wrong": "先后与下的",
+      "right": "先后写下的",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "委员会纺印的",
+      "right": "委员会编印的",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "一些错误和人缺点",
+      "right": "一些错误和缺点",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "都是赁记忆",
+      "right": "都是凭记忆",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "有繁有何",
+      "right": "有繁有简",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "美娟对有些稿件蔡我",
+      "right": "美娟对有些稿件帮我",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "我想，和军统特务的种种罪行",
+      "right": "我想，军统特务的种种罪行",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "弄得夜不成襟",
+      "right": "弄得夜不成寐",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "例如戴等死后",
+      "right": "例如戴笠死后",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "郑介民老效瓜分",
+      "right": "郑介民老婆瓜分",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "所庙的种种手段",
+      "right": "所用的种种手段",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "时去大吵大冰",
+      "right": "时去大吵大闹",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "讨好郑的老朔",
+      "right": "讨好郑的老婆",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "戴竺自己不愿当中委",
+      "right": "戴笠自己不愿当中委",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "我去向他道膏",
+      "right": "我去向他道贺",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "强调了戴符自己",
+      "right": "强调了戴笠自己",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "他也察常了",
+      "right": "他也察觉了",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "便一再叮呼我",
+      "right": "便一再叮嘱我",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "告诉了戴等，却",
+      "right": "告诉了戴笠，却",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "碰了戴竺一个钉子",
+      "right": "碰了戴笠一个钉子",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "便亚狠狠地朝我说",
+      "right": "便恶狠狠地朝我说",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "之间进行挑氢",
+      "right": "之间进行挑拨",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "从戴竺当天",
+      "right": "从戴笠当天",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "反动派之间义心斗角",
+      "right": "反动派之间勾心斗角",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "尔广我诈",
+      "right": "尔虞我诈",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "所于出的丑亚勾当",
+      "right": "所干出的丑恶勾当",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "不敢写林彪的名写",
+      "right": "不敢写林彪的名字",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "我诚屋地期待",
+      "right": "我诚恳地期待",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "热泪一眶",
+      "right": "热泪盈眶",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "与戴竺往来",
+      "right": "与戴笠往来",
+      "page": 0,
+      "why": "Dai Li; 笠->竺"
+    }
+  ],
+  "bm02_fuzai": [
+    {
+      "wrong": ".附载.",
+      "right": "### 附载",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "“我介得了做人的扎理",
+      "right": "“我懂得了做人的道理",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "一一访新增补的政协委员沈醇",
+      "right": "——访新增补的政协委员沈醉",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "都知道沈醇的名字",
+      "right": "都知道沈醉的名字",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "国员党军统局",
+      "right": "国民党军统局",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "是“感恤交集",
+      "right": "是“感愧交集",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醇十八岁",
+      "right": "沈醉十八岁",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "解放后沈醉在监禁",
+      "right": "解放后沈醉在监禁",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "去年，我有关方面",
+      "right": "去年，有关方面",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醉在起义通电",
+      "right": "沈醉在起义通电",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "身份去年由战犯",
+      "right": "身份去年由战犯",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醇本人的身份",
+      "right": "沈醉本人的身份",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醇对记者说",
+      "right": "沈醉对记者说",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "这次又特邀我",
+      "right": "这次又特邀我",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醇借同他",
+      "right": "沈醉陪同他",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "女儿沈美娟到香港控亲",
+      "right": "女儿沈美娟到香港探亲",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "宣布沈醉为",
+      "right": "宣布沈醉为",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "牌位“人礼忠烈祠",
+      "right": "牌位“入祀忠烈祠",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "一笔抚作金",
+      "right": "一笔抚恤金",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醉不仅健在",
+      "right": "沈醉不仅健在",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "他下枚的旅馆",
+      "right": "他下榻的旅馆",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醉当场草就",
+      "right": "沈醉当场草就",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醇笑答",
+      "right": "沈醉笑答",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "和苦海无边",
+      "right": "苦海无边",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醉明白其中",
+      "right": "沈醉明白其中",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "他才该谐地",
+      "right": "他才诙谐地",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "无用飞机，坐火车",
+      "right": "不用飞机，坐火车",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "我的岸在北京",
+      "right": "我的岸在北京",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醇说：大陆",
+      "right": "沈醉说：大陆",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "真正人懂得了人生的起理",
+      "right": "真正懂得了人生的道理",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "那你就回大陆哨窝头吧",
+      "right": "那你就回大陆啃窝头吧",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醇很平静地",
+      "right": "沈醉很平静地",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "她三十五岁的女儿沈美娟",
+      "right": "他三十五岁的女儿沈美娟",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "我要和和爸爸一起",
+      "right": "我要和爸爸一起",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醇和他的女儿在香港",
+      "right": "沈醉和他的女儿在香港",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "虽然近在风扩",
+      "right": "虽然近在咫尺",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醇对记者说：“一九四九",
+      "right": "沈醉对记者说：“一九四九",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醇说：“现在共产党",
+      "right": "沈醉说：“现在共产党",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "张学展、杨虎城扣留",
+      "right": "张学良、杨虎城扣留",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "胸链何等宽阔",
+      "right": "胸襟何等宽阔",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "一九四九年分手时，沈醇",
+      "right": "一九四九年分手时，沈醉",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈酬在台湾的亲朋",
+      "right": "沈醉在台湾的亲朋",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "共产党和人民就既往不千",
+      "right": "共产党和人民就既往不咎",
+      "page": 0,
+      "why": "OCR fix"
+    },
+    {
+      "wrong": "沈醇",
+      "right": "沈醉",
+      "page": 0,
+      "why": "Shen Zui (author); catch-all 醉->醇"
     }
   ]
 }
