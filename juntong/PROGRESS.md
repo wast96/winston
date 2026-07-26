@@ -302,7 +302,38 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
-### ch20 (保密局内幕 / Inside the Bureau of Secrets Preservation) - LEDGER + ROSTER VERIFICATION DONE, TRANSLATION PENDING
+### ch20 (保密局内幕 / Inside the Bureau of Secrets Preservation) - DONE
+
+- Translation done (163/163 parity). All 5 gates green, qa PASS (22 documents,
+  534 notes). Notes: 14. Glossary +25 (turncoats, the Gele Mountain martyr
+  roster, Bureau department heads).
+- PARITY: chapter title merged into body para 1 -> ## heading; three subtitles
+  merged into paras 2/52/106 (改头换面 / 血腥毒辣 / 对叛徒的运用) -> ### + body,
+  all crop-verified. assemble mis-merged the Baigongguan-killings and New
+  World Hotel paragraphs (p0444); added a DURABLE ledger entry that inserts the
+  \n\n break (survives rebuild), plus removed an OCR page-artifact paragraph
+  (、10。).
+- CONTENT caught a real fabrication risk: the garbled OCR "秸溯润己白公馆" I had
+  first rendered "the former Ye residence" -- crop-verified it is 渣滓洞和白公馆
+  (the two Ciqikou detention houses); also crop-fixed 李硕成->李希成 (Li Xicheng,
+  Fifth-Dept head). Glossary-consistency fixes: 红岩村 = "Hongyan Village" (was
+  "Red Crag Village"); 侍从室 CASCADE -- unified to the glossary's decided
+  "the Attendants' Office" across ch19 (11x) and fm01 (1x), which had used
+  "Personal Staff Office" (note anchor updated too).
+- NUMBERS: convention is comma-free digits (check \d+ splits "6,000"); stripped
+  all commas. 6 residual flags all adjudicated non-drops (6023 parser artifact
+  on 六千零二十三; 六人/六个 counters rendered "and five others"; 773 and
+  "活出来7" OCR junk; 六古开 garble). Many OCR mangles ledger-fixed along the way
+  (一万四八/四九->一九四八/四九, 一万七二六百->一万七千六百, 六和干->六千, 剑万选->
+  余万选). noise.txt extended with ch20 idioms/names/places.
+- REGISTER within tolerance; "shall" 29% is Shen's formal expository voice,
+  contractions 3.9/1k (little dialogue). VOICE-DRIFT FLAG (fable pass): the
+  Sister Jiang interrogation scene (para 125) and the coffin-cache passage
+  (para 79) are the two set-pieces to reread for Opus cadence.
+- STILL OCR-TRUSTED (spot-check in final pass): obscure one-appearance station
+  chiefs in para 36 not crop-verified, and para-80 Shanghai victims.
+
+### ch20 (保密局内幕 / Inside the Bureau of Secrets Preservation) - source-prep history
 
 - ROSTER CROP-VERIFICATION (this turn, +18 ledger entries, 61 total). The
   documented 歌乐山/红岩 massacre roster (para 59) crop-verified against the

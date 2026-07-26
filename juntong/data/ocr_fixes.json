@@ -14921,6 +14921,60 @@
       "right": "梁若节",
       "page": 405,
       "why": "Qingdao station Liang Ruojie; 梁->粱"
+    },
+    {
+      "wrong": "、10。",
+      "right": "",
+      "page": 449,
+      "why": "OCR page-artifact leaked as a standalone paragraph; removed so it is not a body paragraph"
+    },
+    {
+      "wrong": "活出来7”囚禁在新世界饭店",
+      "right": "活出来7”\n\n囚禁在新世界饭店",
+      "page": 425,
+      "why": "assemble mis-merged two paragraphs (Baigongguan killings | New World Hotel killings); the scan has a paragraph break here (p0444). Insert it so parity is correct and durable across rebuilds."
+    },
+    {
+      "wrong": "李硕成",
+      "right": "李希成",
+      "page": 403,
+      "why": "Fifth-Dept head Li Xicheng (crop-verified p0422); 希->硕"
+    },
+    {
+      "wrong": "秸溯润己白公馆",
+      "right": "渣滓洞和白公馆",
+      "page": 403,
+      "why": "the two Ciqikou detention houses Zhazidong and Baigongguan; OCR garbled 渣滓洞和"
+    },
+    {
+      "wrong": "一万七二六百",
+      "right": "一万七千六百",
+      "page": 0,
+      "why": "17,600 personnel; OCR 千->二"
+    },
+    {
+      "wrong": "六和干零二十三",
+      "right": "六千零二十三",
+      "page": 0,
+      "why": "6023 field personnel; OCR 千->和干"
+    },
+    {
+      "wrong": "一万四八年",
+      "right": "一九四八年",
+      "page": 0,
+      "why": "1948; OCR 九->万 (pair 56)"
+    },
+    {
+      "wrong": "一万四九年",
+      "right": "一九四九年",
+      "page": 0,
+      "why": "1949; OCR 九->万 (pair 162)"
+    },
+    {
+      "wrong": "剑万选",
+      "right": "余万选",
+      "page": 0,
+      "why": "Yu Wanxuan (station chief); OCR 余->剑 (pair 105)"
     }
   ]
 }
