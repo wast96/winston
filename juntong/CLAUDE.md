@@ -40,6 +40,16 @@ does not reopen it cold:
   Short of that: translate, and do not stall the line over this again — the
   stop-start at chapter 6 cost real time and trust and produced nothing.
 
+## Model guard (Winston's standing instruction, 2026-07-26)
+
+This project runs on **claude-fable-5**. Winston does not want Opus touching
+this work. At the start of every working turn, check the model identity the
+system prompt declares. If it is anything other than claude-fable-5: STOP —
+do not translate, do not edit chapters. Pause all six resume routines
+(update_trigger enabled:false, IDs in PROGRESS.md), send a push notification
+if the PushNotification tool is available, and say plainly in the reply that
+the model switched and the work is paused until he responds.
+
 ## The source
 
 - `source.pdf` — 521 PDF pages, image-only (DuXiu/SuperStar scan), NO text
