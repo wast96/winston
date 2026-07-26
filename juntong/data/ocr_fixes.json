@@ -13772,9 +13772,9 @@
   },
   {
    "wrong": "户",
-   "right": "卢(context)",
+   "right": "卢",
    "page": null,
-   "why": "systematic 卢/蒋/沈醉 mangle (protected 暴发户/户口/百户 etc.)"
+   "why": "systematic 卢→户 OCR mangle; blanket 户→卢 then real-户 words restored below"
   },
   {
    "wrong": "藉",
@@ -13865,6 +13865,36 @@
    "right": "一叙年龄",
    "page": 319,
    "why": "provisional 叙"
+  },
+  {
+   "wrong": "卢千不住",
+   "right": "卢靠不住",
+   "page": 204,
+   "why": "OCR 靠→千 after 户→卢; 卢靠不住=unreliable, unambiguous in context"
+  },
+  {
+   "wrong": "险百趋四",
+   "right": "险直趋四",
+   "page": 215,
+   "why": "OCR 直→百; 直趋四川=drive straight on Sichuan, 百趋 not a word"
+  },
+  {
+   "wrong": "士兵se 300 ae走进",
+   "right": "士兵走进",
+   "page": 218,
+   "why": "scanner gutter garbage (latin+digits) mid-sentence; not text"
+  },
+  {
+   "wrong": "暴发卢",
+   "right": "暴发户",
+   "page": 195,
+   "why": "restore 暴发户(nouveau riche) wrongly hit by blanket 户→卢"
+  },
+  {
+   "wrong": "虎黄",
+   "right": "虎贲",
+   "page": 195,
+   "why": "OCR 贲→黄; codename 虎贲(Tiger Braves), same word as the novel 《虎贲万岁》 in the same sentence"
   }
  ]
 }

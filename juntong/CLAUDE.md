@@ -40,15 +40,26 @@ does not reopen it cold:
   Short of that: translate, and do not stall the line over this again — the
   stop-start at chapter 6 cost real time and trust and produced nothing.
 
-## Model guard (Winston's standing instruction, 2026-07-26)
+## Model guard — REVISED and LIFTED (Winston's instruction, 2026-07-26)
 
-This project runs on **claude-fable-5**. Winston does not want Opus touching
-this work. At the start of every working turn, check the model identity the
-system prompt declares. If it is anything other than claude-fable-5: STOP —
-do not translate, do not edit chapters. Pause all six resume routines
-(update_trigger enabled:false, IDs in PROGRESS.md), send a push notification
-if the PushNotification tool is available, and say plainly in the reply that
-the model switched and the work is paused until he responds.
+Original guard: run only on claude-fable-5, halt on any other model. It fired
+correctly twice — the session kept landing on Opus, which Winston traced to
+overly-broad safety routing on fable-5 tripping during routine coding work,
+not to anything about this task. With that understood, Winston lifted the
+guard on the record:
+
+- **Any model may do the translation work.** Opus finishing chapters is fine;
+  so is fable. The guard no longer halts the line, and future sessions must
+  NOT re-pause the routines or stop over model identity.
+- The real risk Opus introduces is not safety, it is **voice drift** — ch1–13
+  were done on fable and this is a memoir where register consistency matters.
+  Mitigation, mandatory for every remaining unit: run
+  `check_register.py --ref out/ch01_reading.md` and stay inside the ch01
+  voice, and record in PROGRESS.md any passage where the voice felt uncertain
+  so the final pass is targeted.
+- **Plan of record:** finish the translation on whatever model is running,
+  then Winston runs a final fable-5 review pass over the whole book. The
+  PROGRESS.md drift flags are the worklist for that pass.
 
 ## The source
 

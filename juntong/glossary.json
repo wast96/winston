@@ -1,2027 +1,2080 @@
 {
- "people": {
-  "沈醉": {
-   "en": "Shen Zui",
-   "status": "attested",
-   "note": "1914-1996; the author. Juntong major-general, head of General Affairs; Yunnan station chief 1949; held as a war criminal, pardoned 1960; later a CPPCC member."
-  },
-  "戴笠": {
-   "en": "Dai Li",
-   "status": "attested",
-   "note": "1897-1946; founder-director of the Juntong in all but title."
-  },
-  "毛人凤": {
-   "en": "Mao Renfeng",
-   "status": "attested"
-  },
-  "郑介民": {
-   "en": "Zheng Jiemin",
-   "status": "attested"
-  },
-  "唐纵": {
-   "en": "Tang Zong",
-   "status": "attested"
-  },
-  "蒋介石": {
-   "en": "Chiang Kai-shek",
-   "status": "decided",
-   "note": "Conventional English form, not pinyin."
-  },
-  "胡宗南": {
-   "en": "Hu Zongnan",
-   "status": "attested"
-  },
-  "陈立夫": {
-   "en": "Chen Lifu",
-   "status": "attested"
-  },
-  "杨杏佛": {
-   "en": "Yang Xingfo",
-   "status": "attested"
-  },
-  "史量才": {
-   "en": "Shi Liangcai",
-   "status": "attested"
-  },
-  "叶挺": {
-   "en": "Ye Ting",
-   "status": "attested"
-  },
-  "张学良": {
-   "en": "Zhang Xueliang",
-   "status": "attested"
-  },
-  "杨虎城": {
-   "en": "Yang Hucheng",
-   "status": "attested"
-  },
-  "李宗仁": {
-   "en": "Li Zongren",
-   "status": "attested"
-  },
-  "杨杰": {
-   "en": "Yang Jie",
-   "status": "attested"
-  },
-  "李公朴": {
-   "en": "Li Gongpu",
-   "status": "attested"
-  },
-  "闻一多": {
-   "en": "Wen Yiduo",
-   "status": "attested"
-  },
-  "梅乐斯": {
-   "en": "Miles",
-   "status": "attested",
-   "note": "Milton E. Miles, 1900-1961; US Navy officer, co-director of SACO. Full name at first mention; 'Miles' in running prose, which is the form the glossary keys."
-  },
-  "周恩来": {
-   "en": "Zhou Enlai",
-   "status": "attested"
-  },
-  "张炎元": {
-   "en": "Zhang Yanyuan",
-   "status": "provisional"
-  },
-  "徐亮": {
-   "en": "Xu Liang",
-   "status": "provisional"
-  },
-  "文强": {
-   "en": "Wen Qiang",
-   "status": "attested"
-  },
-  "酆悌": {
-   "en": "Feng Ti",
-   "status": "attested",
-   "note": "Lixingshe founding council; executed 1938 over the Changsha fire."
-  },
-  "滕杰": {
-   "en": "Teng Jie",
-   "status": "attested"
-  },
-  "贺衷寒": {
-   "en": "He Zhonghan",
-   "status": "attested"
-  },
-  "周复": {
-   "en": "Zhou Fu",
-   "status": "attested"
-  },
-  "康泽": {
-   "en": "Kang Ze",
-   "status": "attested"
-  },
-  "桂永清": {
-   "en": "Gui Yongqing",
-   "status": "attested"
-  },
-  "潘佑强": {
-   "en": "Pan Youqiang",
-   "status": "attested",
-   "note": "OCR read 潘估强; crop-verified."
-  },
-  "邱开基": {
-   "en": "Qiu Kaiji",
-   "status": "attested",
-   "note": "OCR read 印开基; crop-verified."
-  },
-  "侯志明": {
-   "en": "Hou Zhiming",
-   "status": "provisional",
-   "note": "OCR read 候志明; crop-verified as 侯."
-  },
-  "赵范生": {
-   "en": "Zhao Fansheng",
-   "status": "provisional"
-  },
-  "郑锡麟": {
-   "en": "Zheng Xilin",
-   "status": "provisional",
-   "note": "OCR read 郑锡鹿; crop-verified."
-  },
-  "马策": {
-   "en": "Ma Ce",
-   "status": "provisional"
-  },
-  "胡天秋": {
-   "en": "Hu Tianqiu",
-   "status": "provisional"
-  },
-  "徐恩曾": {
-   "en": "Xu Enzeng",
-   "status": "attested",
-   "note": "OCR read 徐因曾; crop-verified. Head of the Zhongtong."
-  },
-  "贺耀组": {
-   "en": "He Yaozu",
-   "status": "attested",
-   "note": "OCR read 贺友组; crop-verified."
-  },
-  "钱大钧": {
-   "en": "Qian Dajun",
-   "status": "attested",
-   "note": "OCR read 钱大钓; crop-verified."
-  },
-  "林蔚": {
-   "en": "Lin Wei",
-   "status": "attested",
-   "note": "OCR read 林幸; crop-verified."
-  },
-  "邓文仪": {
-   "en": "Deng Wenyi",
-   "status": "attested"
-  },
-  "梁干乔": {
-   "en": "Liang Ganqiao",
-   "status": "attested",
-   "note": "Whampoa 1st class; expelled from the CCP as a Trotskyist 1929."
-  },
-  "杨继荣": {
-   "en": "Yang Jirong",
-   "status": "provisional"
-  },
-  "徐业道": {
-   "en": "Xu Yedao",
-   "status": "provisional"
-  },
-  "张国焘": {
-   "en": "Zhang Guotao",
-   "status": "attested",
-   "note": "CCP founder, defected to the Nationalists 1938; ran the Juntong's Special Political Problems Research Office. OCR read 张国琳 - a real catch."
-  },
-  "余乐醒": {
-   "en": "Yu Lexing",
-   "status": "attested",
-   "note": "Deputy director of the Linli class; Communist renegade, trained in France and the USSR."
-  },
-  "谢力公": {
-   "en": "Xie Ligong",
-   "status": "provisional"
-  },
-  "李人士": {
-   "en": "Li Renshi",
-   "status": "provisional",
-   "note": "Juntong Hunan station chief."
-  },
-  "陶一珊": {
-   "en": "Tao Yishan",
-   "status": "attested"
-  },
-  "汪祖华": {
-   "en": "Wang Zuhua",
-   "status": "provisional"
-  },
-  "廖华平": {
-   "en": "Liao Huaping",
-   "status": "provisional",
-   "note": "CCP renegade; political instructor at Linli."
-  },
-  "王崇五": {
-   "en": "Wang Chongwu",
-   "status": "provisional",
-   "note": "OCR read 王尝五; crop-verified."
-  },
-  "吴景中": {
-   "en": "Wu Jingzhong",
-   "status": "provisional"
-  },
-  "陆遂初": {
-   "en": "Lu Suichu",
-   "status": "provisional"
-  },
-  "蒋镇南": {
-   "en": "Jiang Zhennan",
-   "status": "provisional",
-   "note": "Trained in Germany; adapted the Nazi party anthem into the Juntong's song. OCR gave 薪镇南 and 菏镇南; crop-verified."
-  },
-  "金民杰": {
-   "en": "Jin Minjie",
-   "status": "provisional",
-   "note": "Korean; unarmed-combat instructor."
-  },
-  "严燮": {
-   "en": "Yan Xie",
-   "status": "provisional",
-   "note": "Student killed in a training bout. OCR gave 严杰 and 严你; crop-verified."
-  },
-  "刘颖": {
-   "en": "Liu Ying",
-   "status": "provisional",
-   "note": "Student drowned in compulsory swimming."
-  },
-  "唐生明": {
-   "en": "Tang Shengming",
-   "status": "attested"
-  },
-  "徐来": {
-   "en": "Xu Lai",
-   "status": "attested",
-   "note": "Film actress; Tang Shengming's wife."
-  },
-  "毛森": {
-   "en": "Mao Sen",
-   "status": "attested"
-  },
-  "叶剑英": {
-   "en": "Ye Jianying",
-   "status": "attested"
-  },
-  "孙元良": {
-   "en": "Sun Yuanliang",
-   "status": "attested"
-  },
-  "黄雍": {
-   "en": "Huang Yong",
-   "status": "attested",
-   "note": "CPPCC member; one of the Ten-Man Team. OCR read 黄效; crop-verified."
-  },
-  "袁铭鼎": {
-   "en": "Yuan Mingding",
-   "status": "provisional",
-   "note": "OCR read 喜铭易; crop-verified."
-  },
-  "黄炳炎": {
-   "en": "Huang Bingyan",
-   "status": "provisional"
-  },
-  "李葆初": {
-   "en": "Li Baochu",
-   "status": "provisional"
-  },
-  "刘子英": {
-   "en": "Liu Ziying",
-   "status": "provisional"
-  },
-  "张明选": {
-   "en": "Zhang Mingxuan",
-   "status": "provisional"
-  },
-  "吕世琨": {
-   "en": "Lü Shikun",
-   "status": "provisional"
-  },
-  "郭寄峤": {
-   "en": "Guo Jiqiao",
-   "status": "attested",
-   "note": "1902-1971; deputy commander-in-chief, Chungking garrison; later chief of the general staff on Taiwan."
-  },
-  "张简斋": {
-   "en": "Zhang Jianzhai",
-   "status": "attested",
-   "note": "1880-1950; celebrated Nanking physician of Chinese medicine, in Chungking during the war."
-  },
-  "陈逊斋": {
-   "en": "Chen Xunzhai",
-   "status": "provisional",
-   "note": "Physician in Chungking, adviser and volunteer informant to the Inspectorate."
-  },
-  "刘峙": {
-   "en": "Liu Zhi",
-   "status": "attested",
-   "note": "1892-1971; senior Nationalist commander, Chungking garrison commander-in-chief."
-  },
-  "王瓒绪": {
-   "en": "Wang Zanxu",
-   "status": "provisional",
-   "note": "1885-1960; Szechwanese warlord and garrison commander-in-chief. The book prints 王瓒绪; scholarship generally gives 王缵绪. Preserved as printed."
-  },
-  "廖公劭": {
-   "en": "Liao Gongshao",
-   "status": "provisional",
-   "note": "Deputy head then head of the Chungking Inspectorate; previously of Wang Jingwei's political security bureau."
-  },
-  "叶燕苏": {
-   "en": "Ye Yansu",
-   "status": "provisional",
-   "note": "Chief secretary of the Chungking Inspectorate; formerly a county magistrate under the puppet government."
-  },
-  "赵世瑞": {
-   "en": "Zhao Shirui",
-   "status": "provisional",
-   "note": "Head of the Chungking Inspectorate before Tao Yishan."
-  },
-  "何龙庆": {
-   "en": "He Longqing",
-   "status": "provisional",
-   "note": "Deputy head then head of the Chungking Inspectorate."
-  },
-  "唐毅": {
-   "en": "Tang Yi",
-   "status": "attested",
-   "note": "Chief of the Chungking municipal police, alternating with Xu Zhongqi."
-  },
-  "徐中齐": {
-   "en": "Xu Zhongqi",
-   "status": "attested",
-   "note": "Juntong operative; chief of the Chungking municipal police."
-  },
-  "酆裕昆": {
-   "en": "Feng Yukun",
-   "status": "attested",
-   "note": "Director of the police administration department, Ministry of the Interior; Juntong operative."
-  },
-  "孔祥熙": {
-   "en": "H. H. Kung",
-   "status": "attested",
-   "note": "1881-1967; finance minister and premier, one of the Four Great Families."
-  },
-  "孔令俊": {
-   "en": "Kong Lingjun",
-   "status": "attested",
-   "note": "1919-1994; second daughter of H. H. Kung, known as Miss Kung the Second."
-  },
-  "宋希濂": {
-   "en": "Song Xilian",
-   "status": "attested",
-   "note": "1907-1993; Nationalist lieutenant-general, captured 1949, pardoned 1959."
-  },
-  "廖承志": {
-   "en": "Liao Chengzhi",
-   "status": "attested",
-   "note": "1908-1983; senior Communist, held by the Nationalists 1942-1946."
-  },
-  "唐绍仪": {
-   "en": "Tang Shaoyi",
-   "status": "attested",
-   "note": "1862-1938; first premier of the Republic, assassinated in Shanghai."
-  },
-  "史良": {
-   "en": "Shi Liang",
-   "status": "attested",
-   "note": "1900-1985; lawyer, one of the Seven Gentlemen; later Minister of Justice."
-  },
-  "曹禺": {
-   "en": "Cao Yu",
-   "status": "attested",
-   "note": "1910-1996; the leading Chinese playwright of the period."
-  },
-  "郭沫若": {
-   "en": "Guo Moruo",
-   "status": "attested",
-   "note": "1892-1978; poet and historian; head of the wartime cultural work committee."
-  },
-  "田汉": {
-   "en": "Tian Han",
-   "status": "attested",
-   "note": "1898-1968; dramatist, author of the words of the national anthem."
-  },
-  "司徒雷登": {
-   "en": "John Leighton Stuart",
-   "status": "attested",
-   "note": "1876-1962; president of Yenching University, later US ambassador."
-  },
-  "杜月笙": {
-   "en": "Du Yuesheng",
-   "status": "attested",
-   "note": "1888-1951; head of the Green Gang, in Chungking during the war."
-  },
-  "戴传贤": {
-   "en": "Dai Chuanxian",
-   "status": "attested",
-   "note": "1891-1949; better known as Dai Jitao; president of the Examination Yuan."
-  },
-  "俞大维": {
-   "en": "Yu Dawei",
-   "status": "attested",
-   "note": "1897-1993; director of the Ordnance Administration; later defence minister on Taiwan."
-  },
-  "林可胜": {
-   "en": "Robert Lim",
-   "status": "attested",
-   "note": "Robert Kho-Seng Lim, surgeon-general; the attested English name"
-  },
-  "贝祖诒": {
-   "en": "Bei Zuyi",
-   "status": "attested",
-   "note": "1893-1982; banker; later governor of the Central Bank."
-  },
-  "王芃生": {
-   "en": "Wang Pengsheng",
-   "status": "attested",
-   "note": "1893-1946; head of the International Affairs Research Institute."
-  },
-  "何成濬": {
-   "en": "He Chengjun",
-   "status": "attested",
-   "note": "1882-1961; senior Nationalist general; director of the Transport Control Bureau."
-  },
-  "曾养甫": {
-   "en": "Zeng Yangfu",
-   "status": "attested",
-   "note": "1898-1969; engineer and administrator; head of its supervision department."
-  },
-  "林世良": {
-   "en": "Lin Shiliang",
-   "status": "attested",
-   "note": "Central Trust transport chief, executed for smuggling in 1942."
-  },
-  "任援道": {
-   "en": "Ren Yuandao",
-   "status": "attested",
-   "note": "1890-1980; senior figure in Wang Jingwei's Nanking government."
-  },
-  "周佛海": {
-   "en": "Zhou Fohai",
-   "status": "attested",
-   "note": "1897-1948; among the most senior figures of the Nanking puppet government."
-  },
-  "陈独秀": {
-   "en": "Chen Duxiu",
-   "status": "attested",
-   "note": "1879-1942; founder and first general secretary of the CCP; lived at Jiangjin under watch."
-  },
-  "谷正纲": {
-   "en": "Gu Zhenggang",
-   "status": "attested",
-   "note": "1902-1974; Minister of Social Affairs."
-  },
-  "魏大铭": {
-   "en": "Wei Daming",
-   "status": "attested",
-   "note": "Head of the Juntong's telecommunications department."
-  },
-  "龚仙舫": {
-   "en": "Gong Xianfang",
-   "status": "provisional",
-   "note": "Head of the Juntong bureau's personnel department."
-  },
-  "祝宗梁": {
-   "en": "Zhu Zongliang",
-   "status": "provisional",
-   "note": "Led the Anti-Japanese Traitor-Elimination Corps south after 1937."
-  },
-  "俞作柏": {
-   "en": "Yu Zuobai",
-   "status": "attested",
-   "note": "1889-1959; briefly governor of Kwangsi in 1929; Juntong design committee member."
-  },
-  "王固盘": {
-   "en": "Wang Gupan",
-   "status": "provisional",
-   "note": "Commissioner of the Nanking capital police. The book prints 王固盘; scholarship gives 王固磐. Preserved as printed."
-  },
-  "韦贤": {
-   "en": "Wei Xian",
-   "status": "provisional",
-   "note": "Head of the Yipinchang inspection post."
-  },
-  "程永铭": {
-   "en": "Cheng Yongming",
-   "status": "provisional",
-   "note": "Head of the operatives' corps action group, which ran the detention house."
-  },
-  "沈夕峰": {
-   "en": "Shen Xifeng",
-   "status": "provisional",
-   "note": "Deputy commander of the Chungking detective brigade; confined by the Juntong on suspicion."
-  },
-  "陈昌熙": {
-   "en": "Chen Changxi",
-   "status": "provisional",
-   "note": "Arsenal guard-group member, shot by Dai Li to placate Yu Dawei."
-  },
-  "张师": {
-   "en": "Zhang Shi",
-   "status": "provisional",
-   "note": "Communist renegade, Soviet-trained; head of the Ordnance guard and inspection department."
-  },
-  "李肖白": {
-   "en": "Li Xiaobai",
-   "status": "provisional",
-   "note": "Head of the Special Censorship Department and of Juntong personnel."
-  },
-  "姜绍谟": {
-   "en": "Jiang Shaomo",
-   "status": "attested",
-   "note": "Head of the Juntong's Chungking special district, twice."
-  },
-  "叶翔之": {
-   "en": "Ye Xiangzhi",
-   "status": "attested",
-   "note": "Head of the Chungking special district; later a senior intelligence figure on Taiwan."
-  },
-  "顾祝同": {
-   "en": "Gu Zhutong",
-   "status": "attested",
-   "note": "1893-1987; commander-in-chief of the Third War Zone, directed the operation against the New Fourth Army."
-  },
-  "陈诚": {
-   "en": "Chen Cheng",
-   "status": "attested",
-   "note": "1898-1965; commander-in-chief of the Sixth War Zone; later premier and vice-president on Taiwan."
-  },
-  "沈默": {
-   "en": "Shen Mo",
-   "status": "provisional",
-   "note": "Shen Zui's brother; head of the Juntong's Kweilin operations group, responsible for guarding Ye Ting."
-  },
-  "杨清植": {
-   "en": "Yang Qingzhi",
-   "status": "provisional",
-   "note": "Commander of the Juntong's operatives' regiment."
-  },
-  "沈维翰": {
-   "en": "Shen Weihan",
-   "status": "provisional",
-   "note": "Head of the Juntong's judicial department."
-  },
-  "侯子川": {
-   "en": "Hou Zichuan",
-   "status": "provisional",
-   "note": "Superintendent of the Baigongguan detention house."
-  },
-  "侯桢祥": {
-   "en": "Hou Zhenxiang",
-   "status": "provisional",
-   "note": "Section head for construction in the Juntong's general affairs department."
-  },
-  "马法五": {
-   "en": "Ma Fawu",
-   "status": "attested",
-   "note": "1893-1992; Nationalist general captured in 1945, exchanged for Ye Ting in March 1946."
-  },
-  "邵力子": {
-   "en": "Shao Lizi",
-   "status": "attested",
-   "note": "1882-1967; senior Nationalist figure and repeated intermediary with the Communists."
-  },
-  "白驹": {
-   "en": "Bai Ju",
-   "status": "provisional",
-   "note": "Szechwan warlord who built the Xiangshan villa that became Baigongguan."
-  },
-  "刘乙光": {
-   "en": "Liu Yiguang",
-   "status": "attested",
-   "note": "Warden of Zhang Xueliang 1937-1962; named in Chinese accounts of the confinement"
-  },
-  "许建业": {
-   "en": "Xu Jianye",
-   "status": "provisional",
-   "note": "Juntong deputy detachment captain; NOT the Communist martyr of the same name"
-  },
-  "于凤至": {
-   "en": "Yu Fengzhi",
-   "status": "attested"
-  },
-  "赵一荻": {
-   "en": "Zhao Yidi",
-   "status": "attested",
-   "note": "Also \"Fourth Miss\" (赵四小姐) as the book itself glosses"
-  },
-  "莫德惠": {
-   "en": "Mo Dehui",
-   "status": "attested"
-  },
-  "王陵基": {
-   "en": "Wang Lingji",
-   "status": "attested"
-  },
-  "胡蝶": {
-   "en": "Hu Die",
-   "status": "attested",
-   "note": "The film star; \"Butterfly Wu\" in period English press, pinyin kept for consistency"
-  },
-  "李觉": {
-   "en": "Li Jue",
-   "status": "provisional",
-   "note": "Central Training Corps branch head at Chungking, 1946; identification with the Hunan general Li Jue not certain"
-  },
-  "张严佛": {
-   "en": "Zhang Yanfo",
-   "status": "provisional"
-  },
-  "徐远举": {
-   "en": "Xu Yuanju",
-   "status": "attested"
-  },
-  "李仲桢": {
-   "en": "Li Zhongzhen",
-   "status": "provisional",
-   "note": "Scan reads 李和久桢; reading not confirmable at available resolution"
-  },
-  "谢葆贞": {
-   "en": "Xie Baozhen",
-   "status": "attested",
-   "note": "Standard sources write 谢葆真; the book prints 葆贞"
-  },
-  "杨拯中": {
-   "en": "Yang Zhengzhong",
-   "status": "attested"
-  },
-  "李家杰": {
-   "en": "Li Jiajie",
-   "status": "attested"
-  },
-  "熊式辉": {
-   "en": "Xiong Shihui",
-   "status": "attested"
-  },
-  "罗世文": {
-   "en": "Luo Shiwen",
-   "status": "attested"
-  },
-  "车耀先": {
-   "en": "Che Yaoxian",
-   "status": "attested"
-  },
-  "张蔚林": {
-   "en": "Zhang Weilin",
-   "status": "attested"
-  },
-  "张露萍": {
-   "en": "Zhang Luping",
-   "status": "attested"
-  },
-  "冯传庆": {
-   "en": "Feng Chuanqing",
-   "status": "attested"
-  },
-  "杨光": {
-   "en": "Yang Guang",
-   "status": "provisional",
-   "note": "One of the radio-case seven; common name"
-  },
-  "马寅初": {
-   "en": "Ma Yinchu",
-   "status": "attested"
-  },
-  "黄显声": {
-   "en": "Huang Xiansheng",
-   "status": "attested"
-  },
-  "李虎臣": {
-   "en": "Li Huchen",
-   "status": "attested",
-   "note": "OCR gave 李虎城; certain from the 1926 defence of Xi'an"
-  },
-  "龚国彦": {
-   "en": "Gong Guoyan",
-   "status": "provisional",
-   "note": "Print crop-verified 龚; appears in other accounts of the confinement"
-  },
-  "张静甫": {
-   "en": "Zhang Jingfu",
-   "status": "provisional"
-  },
-  "周养浩": {
-   "en": "Zhou Yanghao",
-   "status": "attested"
-  },
-  "邓匡元": {
-   "en": "Deng Kuangyuan",
-   "status": "provisional"
-  },
-  "徐羽仪": {
-   "en": "Xu Yuyi",
-   "status": "provisional"
-  },
-  "陈国祯": {
-   "en": "Chen Guozhen",
-   "status": "provisional"
-  },
-  "于右任": {
-   "en": "Yu Youren",
-   "status": "attested"
-  },
-  "杨森": {
-   "en": "Yang Sen",
-   "status": "attested"
-  },
-  "宋绮云": {
-   "en": "Song Qiyun",
-   "status": "attested"
-  },
-  "徐林侠": {
-   "en": "Xu Linxia",
-   "status": "attested"
-  },
-  "张鹄": {
-   "en": "Zhang Hu",
-   "status": "attested",
-   "note": "Baigongguan warden; crop-verified"
-  },
-  "陆景清": {
-   "en": "Lu Jingqing",
-   "status": "attested"
-  },
-  "杨进兴": {
-   "en": "Yang Jinxing",
-   "status": "attested"
-  },
-  "熊祥": {
-   "en": "Xiong Xiang",
-   "status": "attested"
-  },
-  "陈宝琪": {
-   "en": "Chen Baoqi",
-   "status": "provisional"
-  },
-  "何应钦": {
-   "en": "He Yingqin",
-   "status": "attested"
-  },
-  "潘其武": {
-   "en": "Pan Qiwu",
-   "status": "provisional"
-  },
-  "徐志道": {
-   "en": "Xu Zhidao",
-   "status": "provisional"
-  },
-  "秦景川": {
-   "en": "Qin Jingchuan",
-   "status": "provisional"
-  },
-  "吴德厚": {
-   "en": "Wu Dehou",
-   "status": "provisional"
-  },
-  "张群": {
-   "en": "Zhang Qun",
-   "status": "attested"
-  },
-  "郭德洁": {
-   "en": "Guo Dejie",
-   "status": "attested"
-  },
-  "尹冰彦": {
-   "en": "Yin Bingyan",
-   "status": "provisional"
-  },
-  "郭履洲": {
-   "en": "Guo Lüzhou",
-   "status": "attested"
-  },
-  "何际元": {
-   "en": "He Jiyuan",
-   "status": "provisional"
-  },
-  "陈士虎": {
-   "en": "Chen Shihu",
-   "status": "provisional"
-  },
-  "杨蔚": {
-   "en": "Yang Wei",
-   "status": "provisional"
-  },
-  "廖宗泽": {
-   "en": "Liao Zongze",
-   "status": "attested"
-  },
-  "岳烛远": {
-   "en": "Yue Zhuyuan",
-   "status": "provisional"
-  },
-  "汤恩伯": {
-   "en": "Tang Enbo",
-   "status": "attested"
-  },
-  "张国梁": {
-   "en": "Zhang Guoliang",
-   "status": "provisional"
-  },
-  "周文新": {
-   "en": "Zhou Wenxin",
-   "status": "provisional"
-  },
-  "吉章简": {
-   "en": "Ji Zhangjian",
-   "status": "attested"
-  },
-  "周伟龙": {
-   "en": "Zhou Weilong",
-   "status": "attested"
-  },
-  "马志超": {
-   "en": "Ma Zhichao",
-   "status": "attested"
-  },
-  "娄剑如": {
-   "en": "Lou Jianru",
-   "status": "provisional"
-  },
-  "薛志祥": {
-   "en": "Xue Zhixiang",
-   "status": "provisional"
-  },
-  "赖国民": {
-   "en": "Lai Guomin",
-   "status": "provisional"
-  },
-  "丁敏之": {
-   "en": "Ding Minzhi",
-   "status": "provisional"
-  },
-  "沈之岳": {
-   "en": "Shen Zhiyue",
-   "status": "attested",
-   "note": "The penetration agent; not related to the author despite the shared surname"
-  },
-  "黄逸公": {
-   "en": "Huang Yigong",
-   "status": "provisional"
-  },
-  "程慕颐": {
-   "en": "Cheng Muyi",
-   "status": "provisional"
-  },
-  "徐佛观": {
-   "en": "Xu Foguan",
-   "status": "attested",
-   "note": "Later 徐复观 Xu Fuguan, the New Confucian philosopher"
-  },
-  "郭仲容": {
-   "en": "Guo Zhongrong",
-   "status": "provisional"
-  },
-  "程一鸣": {
-   "en": "Cheng Yiming",
-   "status": "attested"
-  },
-  "霍立人": {
-   "en": "Huo Liren",
-   "status": "provisional"
-  },
-  "于斌": {
-   "en": "Yu Bin",
-   "status": "attested",
-   "note": "Catholic bishop, later cardinal"
-  },
-  "蒋更生": {
-   "en": "Jiang Gengsheng",
-   "status": "provisional"
-  },
-  "刘绍复": {
-   "en": "Liu Shaofu",
-   "status": "provisional"
-  },
-  "李天": {
-   "en": "Li Tian",
-   "status": "provisional"
-  },
-  "龙飞虎": {
-   "en": "Long Feihu",
-   "status": "attested",
-   "note": "Zhou Enlai's wartime bodyguard, later a PLA general"
-  },
-  "袁寄滨": {
-   "en": "Yuan Jibin",
-   "status": "provisional"
-  },
-  "王邦联": {
-   "en": "Wang Banglian",
-   "status": "provisional"
-  },
-  "王新衡": {
-   "en": "Wang Xinheng",
-   "status": "attested"
-  },
-  "黄羽中": {
-   "en": "Huang Yuzhong",
-   "status": "provisional"
-  },
-  "陈质平": {
-   "en": "Chen Zhiping",
-   "status": "provisional"
-  },
-  "熊斌": {
-   "en": "Xiong Bin",
-   "status": "attested"
-  },
-  "祝绍周": {
-   "en": "Zhu Shaozhou",
-   "status": "attested"
-  },
-  "左明": {
-   "en": "Zuo Ming",
-   "status": "provisional"
-  },
-  "范汉杰": {
-   "en": "Fan Hanjie",
-   "status": "attested"
-  },
-  "盛文": {
-   "en": "Sheng Wen",
-   "status": "provisional"
-  },
-  "叶霞翟": {
-   "en": "Ye Xiadi",
-   "status": "attested",
-   "note": "Book prints 叶霞弟; standard form 叶霞翟"
-  },
-  "刘健群": {
-   "en": "Liu Jianqun",
-   "status": "attested"
-  },
-  "刘庆曾": {
-   "en": "Liu Qingzeng",
-   "status": "provisional"
-  },
-  "刘大钧": {
-   "en": "Liu Dajun",
-   "status": "provisional"
-  },
-  "金树云": {
-   "en": "Jin Shuyun",
-   "status": "provisional"
-  },
-  "侯征邦": {
-   "en": "Hou Zhengbang",
-   "status": "provisional"
-  },
-  "赵龙文": {
-   "en": "Zhao Longwen",
-   "status": "attested"
-  },
-  "阮清源": {
-   "en": "Ruan Qingyuan",
-   "status": "provisional"
-  },
-  "王一心": {
-   "en": "Wang Yixin",
-   "status": "provisional"
-  },
-  "鲍志鸿": {
-   "en": "Bao Zhihong",
-   "status": "provisional"
-  },
-  "杜逵": {
-   "en": "Du Kui",
-   "status": "provisional"
-  },
-  "胡屏翰": {
-   "en": "Hu Pinghan",
-   "status": "provisional"
-  },
-  "麻清江": {
-   "en": "Ma Qingjiang",
-   "status": "provisional"
-  },
-  "曹圣芬": {
-   "en": "Cao Shengfen",
-   "status": "attested"
-  },
-  "陈洁如": {
-   "en": "Chen Jieru",
-   "status": "attested"
-  },
-  "蒋纬国": {
-   "en": "Chiang Wei-kuo",
-   "status": "attested"
-  },
-  "范长江": {
-   "en": "Fan Changjiang",
-   "status": "attested"
-  },
-  "卢汉": {
-   "en": "Lu Han",
-   "status": "attested"
-  },
-  "俞济时": {
-   "en": "Yu Jishi",
-   "status": "attested"
-  },
-  "贝乐利": {
-   "en": "Bei Leli",
-   "status": "provisional",
-   "note": "SACO American chief of staff, acting deputy director"
-  },
-  "袁朴": {
-   "en": "Yuan Pu",
-   "status": "provisional"
-  },
-  "汪震": {
-   "en": "Wang Zhen",
-   "status": "provisional"
-  },
-  "董钊": {
-   "en": "Dong Zhao",
-   "status": "attested"
-  },
-  "王胡子": {
-   "en": "Wang Huzi",
-   "status": "provisional",
-   "note": "\"Wang the Bearded\"; original name Wang He"
-  },
-  "梁华盛": {
-   "en": "Liang Huasheng",
-   "status": "attested"
-  },
-  "吴乃宪": {
-   "en": "Wu Naixian",
-   "status": "provisional"
-  },
-  "李连福": {
-   "en": "Li Lianfu",
-   "status": "provisional"
-  },
-  "许忠五": {
-   "en": "Xu Zhongwu",
-   "status": "provisional"
-  },
-  "陈志强": {
-   "en": "Chen Zhiqiang",
-   "status": "provisional"
-  },
-  "周百先": {
-   "en": "Zhou Baixian",
-   "status": "provisional"
-  },
-  "陈金标": {
-   "en": "Chen Jinbiao",
-   "status": "provisional"
-  },
-  "肖复权": {
-   "en": "Xiao Fuquan",
-   "status": "provisional"
-  },
-  "孙科": {
-   "en": "Sun Ke",
-   "status": "attested",
-   "note": "Sun Yat-sen's son; Sun Fo"
-  },
-  "饶伯泽": {
-   "en": "Rao Boze",
-   "status": "provisional",
-   "note": "French detective, Paris"
-  },
-  "普来西": {
-   "en": "Pulaixi",
-   "status": "provisional",
-   "note": "French detective, Paris"
-  },
-  "黄加持": {
-   "en": "Huang Jiachi",
-   "status": "provisional"
-  },
-  "车重光": {
-   "en": "Che Zhongguang",
-   "status": "provisional"
-  },
-  "胡葆文": {
-   "en": "Hu Baowen",
-   "status": "provisional",
-   "note": "\"Brother Bao\""
-  },
-  "顾纪生": {
-   "en": "Gu Jisheng",
-   "status": "provisional"
-  },
-  "卢英": {
-   "en": "Lu Ying",
-   "status": "provisional"
-  },
-  "郎祖荫": {
-   "en": "Lang Zuyin",
-   "status": "provisional"
-  },
-  "萧勃": {
-   "en": "Xiao Bo",
-   "status": "attested",
-   "note": "Book prints 肖勃"
-  },
-  "郭德权": {
-   "en": "Guo Dequan",
-   "status": "provisional"
-  },
-  "迪帕斯": {
-   "en": "Depass",
-   "status": "provisional",
-   "note": "US embassy attaché, Chungking"
-  },
-  "杨宣诚": {
-   "en": "Yang Xuancheng",
-   "status": "attested"
-  },
-  "周至柔": {
-   "en": "Zhou Zhirou",
-   "status": "attested"
-  },
-  "何世礼": {
-   "en": "He Shili",
-   "status": "attested"
-  },
-  "鲁斯": {
-   "en": "Luce",
-   "status": "attested",
-   "note": "Henry Luce of Time/Life"
-  },
-  "诺克斯": {
-   "en": "Knox",
-   "status": "attested",
-   "note": "Frank Knox, US Navy Secretary"
-  },
-  "胡世泽": {
-   "en": "Hu Shize",
-   "status": "attested"
-  },
-  "李崇诗": {
-   "en": "Li Chongshi",
-   "status": "provisional"
-  },
-  "史密司": {
-   "en": "Smith",
-   "status": "provisional"
-  },
-  "徐人骥": {
-   "en": "Xu Renji",
-   "status": "provisional"
-  },
-  "杜诺万": {
-   "en": "Donovan",
-   "status": "attested",
-   "note": "William J. Donovan, head of OSS"
-  },
-  "柯克": {
-   "en": "Cooke",
-   "status": "attested",
-   "note": "Adm. Charles M. Cooke"
-  },
-  "尚望": {
-   "en": "Shang Wang",
-   "status": "provisional"
-  },
-  "易炜": {
-   "en": "Yi Wei",
-   "status": "provisional"
-  },
-  "魏景蒙": {
-   "en": "Wei Jingmeng",
-   "status": "attested"
-  },
-  "柯朱拉": {
-   "en": "Kotrla",
-   "status": "provisional",
-   "note": "R. Kotrla, US weather expert"
-  },
-  "黄荣华": {
-   "en": "Huang Ronghua",
-   "status": "provisional"
-  },
-  "戴夏民": {
-   "en": "Dai Xiamin",
-   "status": "provisional"
-  },
-  "郭斌": {
-   "en": "Guo Bin",
-   "status": "provisional"
-  },
-  "刘镇芳": {
-   "en": "Liu Zhenfang",
-   "status": "provisional"
-  },
-  "何浩若": {
-   "en": "He Haoruo",
-   "status": "provisional"
-  },
-  "陆根泉": {
-   "en": "Lu Genquan",
-   "status": "provisional"
-  },
-  "庄心田": {
-   "en": "Zhuang Xintian",
-   "status": "provisional"
-  },
-  "怀特": {
-   "en": "White",
-   "status": "attested",
-   "note": "American chief instructor, special-police class"
-  },
-  "费巩": {
-   "en": "Fei Gong",
-   "status": "attested",
-   "note": "ZJU professor murdered by SACO agents 1945; martyr 1978"
-  },
-  "竺可桢": {
-   "en": "Zhu Kezhen",
-   "status": "attested"
-  },
-  "魏德迈": {
-   "en": "Wedemeyer",
-   "status": "attested",
-   "note": "Gen. Albert Wedemeyer"
-  },
-  "史迪威": {
-   "en": "Stilwell",
-   "status": "attested",
-   "note": "Gen. Joseph Stilwell"
-  },
-  "马歇尔": {
-   "en": "Marshall",
-   "status": "attested",
-   "note": "Gen. George Marshall"
-  },
-  "尼米兹": {
-   "en": "Nimitz",
-   "status": "attested",
-   "note": "Adm. Chester Nimitz"
-  },
-  "福莱斯特": {
-   "en": "Forrestal",
-   "status": "attested",
-   "note": "James Forrestal, US Navy Secretary"
-  },
-  "赫尔利": {
-   "en": "Hurley",
-   "status": "attested",
-   "note": "Patrick Hurley"
-  },
-  "克拉克": {
-   "en": "Clark",
-   "status": "provisional",
-   "note": "New York detective, SACO"
-  },
-  "皮宗阚": {
-   "en": "Pi Zongkan",
-   "status": "provisional",
-   "note": "Historically 皮宗敢; scan reads 阚"
-  },
-  "张乘午": {
-   "en": "Zhang Chengwu",
-   "status": "provisional"
-  },
-  "宋子良": {
-   "en": "Song Ziliang",
-   "status": "attested",
-   "note": "Brother of T. V. Soong"
+  "people": {
+    "沈醉": {
+      "en": "Shen Zui",
+      "status": "attested",
+      "note": "1914-1996; the author. Juntong major-general, head of General Affairs; Yunnan station chief 1949; held as a war criminal, pardoned 1960; later a CPPCC member."
+    },
+    "戴笠": {
+      "en": "Dai Li",
+      "status": "attested",
+      "note": "1897-1946; founder-director of the Juntong in all but title."
+    },
+    "毛人凤": {
+      "en": "Mao Renfeng",
+      "status": "attested"
+    },
+    "郑介民": {
+      "en": "Zheng Jiemin",
+      "status": "attested"
+    },
+    "唐纵": {
+      "en": "Tang Zong",
+      "status": "attested"
+    },
+    "蒋介石": {
+      "en": "Chiang Kai-shek",
+      "status": "decided",
+      "note": "Conventional English form, not pinyin."
+    },
+    "胡宗南": {
+      "en": "Hu Zongnan",
+      "status": "attested"
+    },
+    "陈立夫": {
+      "en": "Chen Lifu",
+      "status": "attested"
+    },
+    "杨杏佛": {
+      "en": "Yang Xingfo",
+      "status": "attested"
+    },
+    "史量才": {
+      "en": "Shi Liangcai",
+      "status": "attested"
+    },
+    "叶挺": {
+      "en": "Ye Ting",
+      "status": "attested"
+    },
+    "张学良": {
+      "en": "Zhang Xueliang",
+      "status": "attested"
+    },
+    "杨虎城": {
+      "en": "Yang Hucheng",
+      "status": "attested"
+    },
+    "李宗仁": {
+      "en": "Li Zongren",
+      "status": "attested"
+    },
+    "杨杰": {
+      "en": "Yang Jie",
+      "status": "attested"
+    },
+    "李公朴": {
+      "en": "Li Gongpu",
+      "status": "attested"
+    },
+    "闻一多": {
+      "en": "Wen Yiduo",
+      "status": "attested"
+    },
+    "梅乐斯": {
+      "en": "Miles",
+      "status": "attested",
+      "note": "Milton E. Miles, 1900-1961; US Navy officer, co-director of SACO. Full name at first mention; 'Miles' in running prose, which is the form the glossary keys."
+    },
+    "周恩来": {
+      "en": "Zhou Enlai",
+      "status": "attested"
+    },
+    "张炎元": {
+      "en": "Zhang Yanyuan",
+      "status": "provisional"
+    },
+    "徐亮": {
+      "en": "Xu Liang",
+      "status": "provisional"
+    },
+    "文强": {
+      "en": "Wen Qiang",
+      "status": "attested"
+    },
+    "酆悌": {
+      "en": "Feng Ti",
+      "status": "attested",
+      "note": "Lixingshe founding council; executed 1938 over the Changsha fire."
+    },
+    "滕杰": {
+      "en": "Teng Jie",
+      "status": "attested"
+    },
+    "贺衷寒": {
+      "en": "He Zhonghan",
+      "status": "attested"
+    },
+    "周复": {
+      "en": "Zhou Fu",
+      "status": "attested"
+    },
+    "康泽": {
+      "en": "Kang Ze",
+      "status": "attested"
+    },
+    "桂永清": {
+      "en": "Gui Yongqing",
+      "status": "attested"
+    },
+    "潘佑强": {
+      "en": "Pan Youqiang",
+      "status": "attested",
+      "note": "OCR read 潘估强; crop-verified."
+    },
+    "邱开基": {
+      "en": "Qiu Kaiji",
+      "status": "attested",
+      "note": "OCR read 印开基; crop-verified."
+    },
+    "侯志明": {
+      "en": "Hou Zhiming",
+      "status": "provisional",
+      "note": "OCR read 候志明; crop-verified as 侯."
+    },
+    "赵范生": {
+      "en": "Zhao Fansheng",
+      "status": "provisional"
+    },
+    "郑锡麟": {
+      "en": "Zheng Xilin",
+      "status": "provisional",
+      "note": "OCR read 郑锡鹿; crop-verified."
+    },
+    "马策": {
+      "en": "Ma Ce",
+      "status": "provisional"
+    },
+    "胡天秋": {
+      "en": "Hu Tianqiu",
+      "status": "provisional"
+    },
+    "徐恩曾": {
+      "en": "Xu Enzeng",
+      "status": "attested",
+      "note": "OCR read 徐因曾; crop-verified. Head of the Zhongtong."
+    },
+    "贺耀组": {
+      "en": "He Yaozu",
+      "status": "attested",
+      "note": "OCR read 贺友组; crop-verified."
+    },
+    "钱大钧": {
+      "en": "Qian Dajun",
+      "status": "attested",
+      "note": "OCR read 钱大钓; crop-verified."
+    },
+    "林蔚": {
+      "en": "Lin Wei",
+      "status": "attested",
+      "note": "OCR read 林幸; crop-verified."
+    },
+    "邓文仪": {
+      "en": "Deng Wenyi",
+      "status": "attested"
+    },
+    "梁干乔": {
+      "en": "Liang Ganqiao",
+      "status": "attested",
+      "note": "Whampoa 1st class; expelled from the CCP as a Trotskyist 1929."
+    },
+    "杨继荣": {
+      "en": "Yang Jirong",
+      "status": "provisional"
+    },
+    "徐业道": {
+      "en": "Xu Yedao",
+      "status": "provisional"
+    },
+    "张国焘": {
+      "en": "Zhang Guotao",
+      "status": "attested",
+      "note": "CCP founder, defected to the Nationalists 1938; ran the Juntong's Special Political Problems Research Office. OCR read 张国琳 - a real catch."
+    },
+    "余乐醒": {
+      "en": "Yu Lexing",
+      "status": "attested",
+      "note": "Deputy director of the Linli class; Communist renegade, trained in France and the USSR."
+    },
+    "谢力公": {
+      "en": "Xie Ligong",
+      "status": "provisional"
+    },
+    "李人士": {
+      "en": "Li Renshi",
+      "status": "provisional",
+      "note": "Juntong Hunan station chief."
+    },
+    "陶一珊": {
+      "en": "Tao Yishan",
+      "status": "attested"
+    },
+    "汪祖华": {
+      "en": "Wang Zuhua",
+      "status": "provisional"
+    },
+    "廖华平": {
+      "en": "Liao Huaping",
+      "status": "provisional",
+      "note": "CCP renegade; political instructor at Linli."
+    },
+    "王崇五": {
+      "en": "Wang Chongwu",
+      "status": "provisional",
+      "note": "OCR read 王尝五; crop-verified."
+    },
+    "吴景中": {
+      "en": "Wu Jingzhong",
+      "status": "provisional"
+    },
+    "陆遂初": {
+      "en": "Lu Suichu",
+      "status": "provisional"
+    },
+    "蒋镇南": {
+      "en": "Jiang Zhennan",
+      "status": "provisional",
+      "note": "Trained in Germany; adapted the Nazi party anthem into the Juntong's song. OCR gave 薪镇南 and 菏镇南; crop-verified."
+    },
+    "金民杰": {
+      "en": "Jin Minjie",
+      "status": "provisional",
+      "note": "Korean; unarmed-combat instructor."
+    },
+    "严燮": {
+      "en": "Yan Xie",
+      "status": "provisional",
+      "note": "Student killed in a training bout. OCR gave 严杰 and 严你; crop-verified."
+    },
+    "刘颖": {
+      "en": "Liu Ying",
+      "status": "provisional",
+      "note": "Student drowned in compulsory swimming."
+    },
+    "唐生明": {
+      "en": "Tang Shengming",
+      "status": "attested"
+    },
+    "徐来": {
+      "en": "Xu Lai",
+      "status": "attested",
+      "note": "Film actress; Tang Shengming's wife."
+    },
+    "毛森": {
+      "en": "Mao Sen",
+      "status": "attested"
+    },
+    "叶剑英": {
+      "en": "Ye Jianying",
+      "status": "attested"
+    },
+    "孙元良": {
+      "en": "Sun Yuanliang",
+      "status": "attested"
+    },
+    "黄雍": {
+      "en": "Huang Yong",
+      "status": "attested",
+      "note": "CPPCC member; one of the Ten-Man Team. OCR read 黄效; crop-verified."
+    },
+    "袁铭鼎": {
+      "en": "Yuan Mingding",
+      "status": "provisional",
+      "note": "OCR read 喜铭易; crop-verified."
+    },
+    "黄炳炎": {
+      "en": "Huang Bingyan",
+      "status": "provisional"
+    },
+    "李葆初": {
+      "en": "Li Baochu",
+      "status": "provisional"
+    },
+    "刘子英": {
+      "en": "Liu Ziying",
+      "status": "provisional"
+    },
+    "张明选": {
+      "en": "Zhang Mingxuan",
+      "status": "provisional"
+    },
+    "吕世琨": {
+      "en": "Lü Shikun",
+      "status": "provisional"
+    },
+    "郭寄峤": {
+      "en": "Guo Jiqiao",
+      "status": "attested",
+      "note": "1902-1971; deputy commander-in-chief, Chungking garrison; later chief of the general staff on Taiwan."
+    },
+    "张简斋": {
+      "en": "Zhang Jianzhai",
+      "status": "attested",
+      "note": "1880-1950; celebrated Nanking physician of Chinese medicine, in Chungking during the war."
+    },
+    "陈逊斋": {
+      "en": "Chen Xunzhai",
+      "status": "provisional",
+      "note": "Physician in Chungking, adviser and volunteer informant to the Inspectorate."
+    },
+    "刘峙": {
+      "en": "Liu Zhi",
+      "status": "attested",
+      "note": "1892-1971; senior Nationalist commander, Chungking garrison commander-in-chief."
+    },
+    "王瓒绪": {
+      "en": "Wang Zanxu",
+      "status": "provisional",
+      "note": "1885-1960; Szechwanese warlord and garrison commander-in-chief. The book prints 王瓒绪; scholarship generally gives 王缵绪. Preserved as printed."
+    },
+    "廖公劭": {
+      "en": "Liao Gongshao",
+      "status": "provisional",
+      "note": "Deputy head then head of the Chungking Inspectorate; previously of Wang Jingwei's political security bureau."
+    },
+    "叶燕苏": {
+      "en": "Ye Yansu",
+      "status": "provisional",
+      "note": "Chief secretary of the Chungking Inspectorate; formerly a county magistrate under the puppet government."
+    },
+    "赵世瑞": {
+      "en": "Zhao Shirui",
+      "status": "provisional",
+      "note": "Head of the Chungking Inspectorate before Tao Yishan."
+    },
+    "何龙庆": {
+      "en": "He Longqing",
+      "status": "provisional",
+      "note": "Deputy head then head of the Chungking Inspectorate."
+    },
+    "唐毅": {
+      "en": "Tang Yi",
+      "status": "attested",
+      "note": "Chief of the Chungking municipal police, alternating with Xu Zhongqi."
+    },
+    "徐中齐": {
+      "en": "Xu Zhongqi",
+      "status": "attested",
+      "note": "Juntong operative; chief of the Chungking municipal police."
+    },
+    "酆裕昆": {
+      "en": "Feng Yukun",
+      "status": "attested",
+      "note": "Director of the police administration department, Ministry of the Interior; Juntong operative."
+    },
+    "孔祥熙": {
+      "en": "H. H. Kung",
+      "status": "attested",
+      "note": "1881-1967; finance minister and premier, one of the Four Great Families."
+    },
+    "孔令俊": {
+      "en": "Kong Lingjun",
+      "status": "attested",
+      "note": "1919-1994; second daughter of H. H. Kung, known as Miss Kung the Second."
+    },
+    "宋希濂": {
+      "en": "Song Xilian",
+      "status": "attested",
+      "note": "1907-1993; Nationalist lieutenant-general, captured 1949, pardoned 1959."
+    },
+    "廖承志": {
+      "en": "Liao Chengzhi",
+      "status": "attested",
+      "note": "1908-1983; senior Communist, held by the Nationalists 1942-1946."
+    },
+    "唐绍仪": {
+      "en": "Tang Shaoyi",
+      "status": "attested",
+      "note": "1862-1938; first premier of the Republic, assassinated in Shanghai."
+    },
+    "史良": {
+      "en": "Shi Liang",
+      "status": "attested",
+      "note": "1900-1985; lawyer, one of the Seven Gentlemen; later Minister of Justice."
+    },
+    "曹禺": {
+      "en": "Cao Yu",
+      "status": "attested",
+      "note": "1910-1996; the leading Chinese playwright of the period."
+    },
+    "郭沫若": {
+      "en": "Guo Moruo",
+      "status": "attested",
+      "note": "1892-1978; poet and historian; head of the wartime cultural work committee."
+    },
+    "田汉": {
+      "en": "Tian Han",
+      "status": "attested",
+      "note": "1898-1968; dramatist, author of the words of the national anthem."
+    },
+    "司徒雷登": {
+      "en": "John Leighton Stuart",
+      "status": "attested",
+      "note": "1876-1962; president of Yenching University, later US ambassador."
+    },
+    "杜月笙": {
+      "en": "Du Yuesheng",
+      "status": "attested",
+      "note": "1888-1951; head of the Green Gang, in Chungking during the war."
+    },
+    "戴传贤": {
+      "en": "Dai Chuanxian",
+      "status": "attested",
+      "note": "1891-1949; better known as Dai Jitao; president of the Examination Yuan."
+    },
+    "俞大维": {
+      "en": "Yu Dawei",
+      "status": "attested",
+      "note": "1897-1993; director of the Ordnance Administration; later defence minister on Taiwan."
+    },
+    "林可胜": {
+      "en": "Robert Lim",
+      "status": "attested",
+      "note": "Robert Kho-Seng Lim, surgeon-general; the attested English name"
+    },
+    "贝祖诒": {
+      "en": "Bei Zuyi",
+      "status": "attested",
+      "note": "1893-1982; banker; later governor of the Central Bank."
+    },
+    "王芃生": {
+      "en": "Wang Pengsheng",
+      "status": "attested",
+      "note": "1893-1946; head of the International Affairs Research Institute."
+    },
+    "何成濬": {
+      "en": "He Chengjun",
+      "status": "attested",
+      "note": "1882-1961; senior Nationalist general; director of the Transport Control Bureau."
+    },
+    "曾养甫": {
+      "en": "Zeng Yangfu",
+      "status": "attested",
+      "note": "1898-1969; engineer and administrator; head of its supervision department."
+    },
+    "林世良": {
+      "en": "Lin Shiliang",
+      "status": "attested",
+      "note": "Central Trust transport chief, executed for smuggling in 1942."
+    },
+    "任援道": {
+      "en": "Ren Yuandao",
+      "status": "attested",
+      "note": "1890-1980; senior figure in Wang Jingwei's Nanking government."
+    },
+    "周佛海": {
+      "en": "Zhou Fohai",
+      "status": "attested",
+      "note": "1897-1948; among the most senior figures of the Nanking puppet government."
+    },
+    "陈独秀": {
+      "en": "Chen Duxiu",
+      "status": "attested",
+      "note": "1879-1942; founder and first general secretary of the CCP; lived at Jiangjin under watch."
+    },
+    "谷正纲": {
+      "en": "Gu Zhenggang",
+      "status": "attested",
+      "note": "1902-1974; Minister of Social Affairs."
+    },
+    "魏大铭": {
+      "en": "Wei Daming",
+      "status": "attested",
+      "note": "Head of the Juntong's telecommunications department."
+    },
+    "龚仙舫": {
+      "en": "Gong Xianfang",
+      "status": "provisional",
+      "note": "Head of the Juntong bureau's personnel department."
+    },
+    "祝宗梁": {
+      "en": "Zhu Zongliang",
+      "status": "provisional",
+      "note": "Led the Anti-Japanese Traitor-Elimination Corps south after 1937."
+    },
+    "俞作柏": {
+      "en": "Yu Zuobai",
+      "status": "attested",
+      "note": "1889-1959; briefly governor of Kwangsi in 1929; Juntong design committee member."
+    },
+    "王固盘": {
+      "en": "Wang Gupan",
+      "status": "provisional",
+      "note": "Commissioner of the Nanking capital police. The book prints 王固盘; scholarship gives 王固磐. Preserved as printed."
+    },
+    "韦贤": {
+      "en": "Wei Xian",
+      "status": "provisional",
+      "note": "Head of the Yipinchang inspection post."
+    },
+    "程永铭": {
+      "en": "Cheng Yongming",
+      "status": "provisional",
+      "note": "Head of the operatives' corps action group, which ran the detention house."
+    },
+    "沈夕峰": {
+      "en": "Shen Xifeng",
+      "status": "provisional",
+      "note": "Deputy commander of the Chungking detective brigade; confined by the Juntong on suspicion."
+    },
+    "陈昌熙": {
+      "en": "Chen Changxi",
+      "status": "provisional",
+      "note": "Arsenal guard-group member, shot by Dai Li to placate Yu Dawei."
+    },
+    "张师": {
+      "en": "Zhang Shi",
+      "status": "provisional",
+      "note": "Communist renegade, Soviet-trained; head of the Ordnance guard and inspection department."
+    },
+    "李肖白": {
+      "en": "Li Xiaobai",
+      "status": "provisional",
+      "note": "Head of the Special Censorship Department and of Juntong personnel."
+    },
+    "姜绍谟": {
+      "en": "Jiang Shaomo",
+      "status": "attested",
+      "note": "Head of the Juntong's Chungking special district, twice."
+    },
+    "叶翔之": {
+      "en": "Ye Xiangzhi",
+      "status": "attested",
+      "note": "Head of the Chungking special district; later a senior intelligence figure on Taiwan."
+    },
+    "顾祝同": {
+      "en": "Gu Zhutong",
+      "status": "attested",
+      "note": "1893-1987; commander-in-chief of the Third War Zone, directed the operation against the New Fourth Army."
+    },
+    "陈诚": {
+      "en": "Chen Cheng",
+      "status": "attested",
+      "note": "1898-1965; commander-in-chief of the Sixth War Zone; later premier and vice-president on Taiwan."
+    },
+    "沈默": {
+      "en": "Shen Mo",
+      "status": "provisional",
+      "note": "Shen Zui's brother; head of the Juntong's Kweilin operations group, responsible for guarding Ye Ting."
+    },
+    "杨清植": {
+      "en": "Yang Qingzhi",
+      "status": "provisional",
+      "note": "Commander of the Juntong's operatives' regiment."
+    },
+    "沈维翰": {
+      "en": "Shen Weihan",
+      "status": "provisional",
+      "note": "Head of the Juntong's judicial department."
+    },
+    "侯子川": {
+      "en": "Hou Zichuan",
+      "status": "provisional",
+      "note": "Superintendent of the Baigongguan detention house."
+    },
+    "侯桢祥": {
+      "en": "Hou Zhenxiang",
+      "status": "provisional",
+      "note": "Section head for construction in the Juntong's general affairs department."
+    },
+    "马法五": {
+      "en": "Ma Fawu",
+      "status": "attested",
+      "note": "1893-1992; Nationalist general captured in 1945, exchanged for Ye Ting in March 1946."
+    },
+    "邵力子": {
+      "en": "Shao Lizi",
+      "status": "attested",
+      "note": "1882-1967; senior Nationalist figure and repeated intermediary with the Communists."
+    },
+    "白驹": {
+      "en": "Bai Ju",
+      "status": "provisional",
+      "note": "Szechwan warlord who built the Xiangshan villa that became Baigongguan."
+    },
+    "刘乙光": {
+      "en": "Liu Yiguang",
+      "status": "attested",
+      "note": "Warden of Zhang Xueliang 1937-1962; named in Chinese accounts of the confinement"
+    },
+    "许建业": {
+      "en": "Xu Jianye",
+      "status": "provisional",
+      "note": "Juntong deputy detachment captain; NOT the Communist martyr of the same name"
+    },
+    "于凤至": {
+      "en": "Yu Fengzhi",
+      "status": "attested"
+    },
+    "赵一荻": {
+      "en": "Zhao Yidi",
+      "status": "attested",
+      "note": "Also \"Fourth Miss\" (赵四小姐) as the book itself glosses"
+    },
+    "莫德惠": {
+      "en": "Mo Dehui",
+      "status": "attested"
+    },
+    "王陵基": {
+      "en": "Wang Lingji",
+      "status": "attested"
+    },
+    "胡蝶": {
+      "en": "Hu Die",
+      "status": "attested",
+      "note": "The film star; \"Butterfly Wu\" in period English press, pinyin kept for consistency"
+    },
+    "李觉": {
+      "en": "Li Jue",
+      "status": "provisional",
+      "note": "Central Training Corps branch head at Chungking, 1946; identification with the Hunan general Li Jue not certain"
+    },
+    "张严佛": {
+      "en": "Zhang Yanfo",
+      "status": "provisional"
+    },
+    "徐远举": {
+      "en": "Xu Yuanju",
+      "status": "attested"
+    },
+    "李仲桢": {
+      "en": "Li Zhongzhen",
+      "status": "provisional",
+      "note": "Scan reads 李和久桢; reading not confirmable at available resolution"
+    },
+    "谢葆贞": {
+      "en": "Xie Baozhen",
+      "status": "attested",
+      "note": "Standard sources write 谢葆真; the book prints 葆贞"
+    },
+    "杨拯中": {
+      "en": "Yang Zhengzhong",
+      "status": "attested"
+    },
+    "李家杰": {
+      "en": "Li Jiajie",
+      "status": "attested"
+    },
+    "熊式辉": {
+      "en": "Xiong Shihui",
+      "status": "attested"
+    },
+    "罗世文": {
+      "en": "Luo Shiwen",
+      "status": "attested"
+    },
+    "车耀先": {
+      "en": "Che Yaoxian",
+      "status": "attested"
+    },
+    "张蔚林": {
+      "en": "Zhang Weilin",
+      "status": "attested"
+    },
+    "张露萍": {
+      "en": "Zhang Luping",
+      "status": "attested"
+    },
+    "冯传庆": {
+      "en": "Feng Chuanqing",
+      "status": "attested"
+    },
+    "杨光": {
+      "en": "Yang Guang",
+      "status": "provisional",
+      "note": "One of the radio-case seven; common name"
+    },
+    "马寅初": {
+      "en": "Ma Yinchu",
+      "status": "attested"
+    },
+    "黄显声": {
+      "en": "Huang Xiansheng",
+      "status": "attested"
+    },
+    "李虎臣": {
+      "en": "Li Huchen",
+      "status": "attested",
+      "note": "OCR gave 李虎城; certain from the 1926 defence of Xi'an"
+    },
+    "龚国彦": {
+      "en": "Gong Guoyan",
+      "status": "provisional",
+      "note": "Print crop-verified 龚; appears in other accounts of the confinement"
+    },
+    "张静甫": {
+      "en": "Zhang Jingfu",
+      "status": "provisional"
+    },
+    "周养浩": {
+      "en": "Zhou Yanghao",
+      "status": "attested"
+    },
+    "邓匡元": {
+      "en": "Deng Kuangyuan",
+      "status": "provisional"
+    },
+    "徐羽仪": {
+      "en": "Xu Yuyi",
+      "status": "provisional"
+    },
+    "陈国祯": {
+      "en": "Chen Guozhen",
+      "status": "provisional"
+    },
+    "于右任": {
+      "en": "Yu Youren",
+      "status": "attested"
+    },
+    "杨森": {
+      "en": "Yang Sen",
+      "status": "attested"
+    },
+    "宋绮云": {
+      "en": "Song Qiyun",
+      "status": "attested"
+    },
+    "徐林侠": {
+      "en": "Xu Linxia",
+      "status": "attested"
+    },
+    "张鹄": {
+      "en": "Zhang Hu",
+      "status": "attested",
+      "note": "Baigongguan warden; crop-verified"
+    },
+    "陆景清": {
+      "en": "Lu Jingqing",
+      "status": "attested"
+    },
+    "杨进兴": {
+      "en": "Yang Jinxing",
+      "status": "attested"
+    },
+    "熊祥": {
+      "en": "Xiong Xiang",
+      "status": "attested"
+    },
+    "陈宝琪": {
+      "en": "Chen Baoqi",
+      "status": "provisional"
+    },
+    "何应钦": {
+      "en": "He Yingqin",
+      "status": "attested"
+    },
+    "潘其武": {
+      "en": "Pan Qiwu",
+      "status": "provisional"
+    },
+    "徐志道": {
+      "en": "Xu Zhidao",
+      "status": "provisional"
+    },
+    "秦景川": {
+      "en": "Qin Jingchuan",
+      "status": "provisional"
+    },
+    "吴德厚": {
+      "en": "Wu Dehou",
+      "status": "provisional"
+    },
+    "张群": {
+      "en": "Zhang Qun",
+      "status": "attested"
+    },
+    "郭德洁": {
+      "en": "Guo Dejie",
+      "status": "attested"
+    },
+    "尹冰彦": {
+      "en": "Yin Bingyan",
+      "status": "provisional"
+    },
+    "郭履洲": {
+      "en": "Guo Lüzhou",
+      "status": "attested"
+    },
+    "何际元": {
+      "en": "He Jiyuan",
+      "status": "provisional"
+    },
+    "陈士虎": {
+      "en": "Chen Shihu",
+      "status": "provisional"
+    },
+    "杨蔚": {
+      "en": "Yang Wei",
+      "status": "provisional"
+    },
+    "廖宗泽": {
+      "en": "Liao Zongze",
+      "status": "attested"
+    },
+    "岳烛远": {
+      "en": "Yue Zhuyuan",
+      "status": "provisional"
+    },
+    "汤恩伯": {
+      "en": "Tang Enbo",
+      "status": "attested"
+    },
+    "张国梁": {
+      "en": "Zhang Guoliang",
+      "status": "provisional"
+    },
+    "周文新": {
+      "en": "Zhou Wenxin",
+      "status": "provisional"
+    },
+    "吉章简": {
+      "en": "Ji Zhangjian",
+      "status": "attested"
+    },
+    "周伟龙": {
+      "en": "Zhou Weilong",
+      "status": "attested"
+    },
+    "马志超": {
+      "en": "Ma Zhichao",
+      "status": "attested"
+    },
+    "娄剑如": {
+      "en": "Lou Jianru",
+      "status": "provisional"
+    },
+    "薛志祥": {
+      "en": "Xue Zhixiang",
+      "status": "provisional"
+    },
+    "赖国民": {
+      "en": "Lai Guomin",
+      "status": "provisional"
+    },
+    "丁敏之": {
+      "en": "Ding Minzhi",
+      "status": "provisional"
+    },
+    "沈之岳": {
+      "en": "Shen Zhiyue",
+      "status": "attested",
+      "note": "The penetration agent; not related to the author despite the shared surname"
+    },
+    "黄逸公": {
+      "en": "Huang Yigong",
+      "status": "provisional"
+    },
+    "程慕颐": {
+      "en": "Cheng Muyi",
+      "status": "provisional"
+    },
+    "徐佛观": {
+      "en": "Xu Foguan",
+      "status": "attested",
+      "note": "Later 徐复观 Xu Fuguan, the New Confucian philosopher"
+    },
+    "郭仲容": {
+      "en": "Guo Zhongrong",
+      "status": "provisional"
+    },
+    "程一鸣": {
+      "en": "Cheng Yiming",
+      "status": "attested"
+    },
+    "霍立人": {
+      "en": "Huo Liren",
+      "status": "provisional"
+    },
+    "于斌": {
+      "en": "Yu Bin",
+      "status": "attested",
+      "note": "Catholic bishop, later cardinal"
+    },
+    "蒋更生": {
+      "en": "Jiang Gengsheng",
+      "status": "provisional"
+    },
+    "刘绍复": {
+      "en": "Liu Shaofu",
+      "status": "provisional"
+    },
+    "李天": {
+      "en": "Li Tian",
+      "status": "provisional"
+    },
+    "龙飞虎": {
+      "en": "Long Feihu",
+      "status": "attested",
+      "note": "Zhou Enlai's wartime bodyguard, later a PLA general"
+    },
+    "袁寄滨": {
+      "en": "Yuan Jibin",
+      "status": "provisional"
+    },
+    "王邦联": {
+      "en": "Wang Banglian",
+      "status": "provisional"
+    },
+    "王新衡": {
+      "en": "Wang Xinheng",
+      "status": "attested"
+    },
+    "黄羽中": {
+      "en": "Huang Yuzhong",
+      "status": "provisional"
+    },
+    "陈质平": {
+      "en": "Chen Zhiping",
+      "status": "provisional"
+    },
+    "熊斌": {
+      "en": "Xiong Bin",
+      "status": "attested"
+    },
+    "祝绍周": {
+      "en": "Zhu Shaozhou",
+      "status": "attested"
+    },
+    "左明": {
+      "en": "Zuo Ming",
+      "status": "provisional"
+    },
+    "范汉杰": {
+      "en": "Fan Hanjie",
+      "status": "attested"
+    },
+    "盛文": {
+      "en": "Sheng Wen",
+      "status": "provisional"
+    },
+    "叶霞翟": {
+      "en": "Ye Xiadi",
+      "status": "attested",
+      "note": "Book prints 叶霞弟; standard form 叶霞翟"
+    },
+    "刘健群": {
+      "en": "Liu Jianqun",
+      "status": "attested"
+    },
+    "刘庆曾": {
+      "en": "Liu Qingzeng",
+      "status": "provisional"
+    },
+    "刘大钧": {
+      "en": "Liu Dajun",
+      "status": "provisional"
+    },
+    "金树云": {
+      "en": "Jin Shuyun",
+      "status": "provisional"
+    },
+    "侯征邦": {
+      "en": "Hou Zhengbang",
+      "status": "provisional"
+    },
+    "赵龙文": {
+      "en": "Zhao Longwen",
+      "status": "attested"
+    },
+    "阮清源": {
+      "en": "Ruan Qingyuan",
+      "status": "provisional"
+    },
+    "王一心": {
+      "en": "Wang Yixin",
+      "status": "provisional"
+    },
+    "鲍志鸿": {
+      "en": "Bao Zhihong",
+      "status": "provisional"
+    },
+    "杜逵": {
+      "en": "Du Kui",
+      "status": "provisional"
+    },
+    "胡屏翰": {
+      "en": "Hu Pinghan",
+      "status": "provisional"
+    },
+    "麻清江": {
+      "en": "Ma Qingjiang",
+      "status": "provisional"
+    },
+    "曹圣芬": {
+      "en": "Cao Shengfen",
+      "status": "attested"
+    },
+    "陈洁如": {
+      "en": "Chen Jieru",
+      "status": "attested"
+    },
+    "蒋纬国": {
+      "en": "Chiang Wei-kuo",
+      "status": "attested"
+    },
+    "范长江": {
+      "en": "Fan Changjiang",
+      "status": "attested"
+    },
+    "卢汉": {
+      "en": "Lu Han",
+      "status": "attested"
+    },
+    "俞济时": {
+      "en": "Yu Jishi",
+      "status": "attested"
+    },
+    "贝乐利": {
+      "en": "Bei Leli",
+      "status": "provisional",
+      "note": "SACO American chief of staff, acting deputy director"
+    },
+    "袁朴": {
+      "en": "Yuan Pu",
+      "status": "provisional"
+    },
+    "汪震": {
+      "en": "Wang Zhen",
+      "status": "provisional"
+    },
+    "董钊": {
+      "en": "Dong Zhao",
+      "status": "attested"
+    },
+    "王胡子": {
+      "en": "Wang Huzi",
+      "status": "provisional",
+      "note": "\"Wang the Bearded\"; original name Wang He"
+    },
+    "梁华盛": {
+      "en": "Liang Huasheng",
+      "status": "attested"
+    },
+    "吴乃宪": {
+      "en": "Wu Naixian",
+      "status": "provisional"
+    },
+    "李连福": {
+      "en": "Li Lianfu",
+      "status": "provisional"
+    },
+    "许忠五": {
+      "en": "Xu Zhongwu",
+      "status": "provisional"
+    },
+    "陈志强": {
+      "en": "Chen Zhiqiang",
+      "status": "provisional"
+    },
+    "周百先": {
+      "en": "Zhou Baixian",
+      "status": "provisional"
+    },
+    "陈金标": {
+      "en": "Chen Jinbiao",
+      "status": "provisional"
+    },
+    "肖复权": {
+      "en": "Xiao Fuquan",
+      "status": "provisional"
+    },
+    "孙科": {
+      "en": "Sun Ke",
+      "status": "attested",
+      "note": "Sun Yat-sen's son; Sun Fo"
+    },
+    "饶伯泽": {
+      "en": "Rao Boze",
+      "status": "provisional",
+      "note": "French detective, Paris"
+    },
+    "普来西": {
+      "en": "Pulaixi",
+      "status": "provisional",
+      "note": "French detective, Paris"
+    },
+    "黄加持": {
+      "en": "Huang Jiachi",
+      "status": "provisional"
+    },
+    "车重光": {
+      "en": "Che Zhongguang",
+      "status": "provisional"
+    },
+    "胡葆文": {
+      "en": "Hu Baowen",
+      "status": "provisional",
+      "note": "\"Brother Bao\""
+    },
+    "顾纪生": {
+      "en": "Gu Jisheng",
+      "status": "provisional"
+    },
+    "卢英": {
+      "en": "Lu Ying",
+      "status": "provisional"
+    },
+    "郎祖荫": {
+      "en": "Lang Zuyin",
+      "status": "provisional"
+    },
+    "萧勃": {
+      "en": "Xiao Bo",
+      "status": "attested",
+      "note": "Book prints 肖勃"
+    },
+    "郭德权": {
+      "en": "Guo Dequan",
+      "status": "provisional"
+    },
+    "迪帕斯": {
+      "en": "Depass",
+      "status": "provisional",
+      "note": "US embassy attaché, Chungking"
+    },
+    "杨宣诚": {
+      "en": "Yang Xuancheng",
+      "status": "attested"
+    },
+    "周至柔": {
+      "en": "Zhou Zhirou",
+      "status": "attested"
+    },
+    "何世礼": {
+      "en": "He Shili",
+      "status": "attested"
+    },
+    "鲁斯": {
+      "en": "Luce",
+      "status": "attested",
+      "note": "Henry Luce of Time/Life"
+    },
+    "诺克斯": {
+      "en": "Knox",
+      "status": "attested",
+      "note": "Frank Knox, US Navy Secretary"
+    },
+    "胡世泽": {
+      "en": "Hu Shize",
+      "status": "attested"
+    },
+    "李崇诗": {
+      "en": "Li Chongshi",
+      "status": "provisional"
+    },
+    "史密司": {
+      "en": "Smith",
+      "status": "provisional"
+    },
+    "徐人骥": {
+      "en": "Xu Renji",
+      "status": "provisional"
+    },
+    "杜诺万": {
+      "en": "Donovan",
+      "status": "attested",
+      "note": "William J. Donovan, head of OSS"
+    },
+    "柯克": {
+      "en": "Cooke",
+      "status": "attested",
+      "note": "Adm. Charles M. Cooke"
+    },
+    "尚望": {
+      "en": "Shang Wang",
+      "status": "provisional"
+    },
+    "易炜": {
+      "en": "Yi Wei",
+      "status": "provisional"
+    },
+    "魏景蒙": {
+      "en": "Wei Jingmeng",
+      "status": "attested"
+    },
+    "柯朱拉": {
+      "en": "Kotrla",
+      "status": "provisional",
+      "note": "R. Kotrla, US weather expert"
+    },
+    "黄荣华": {
+      "en": "Huang Ronghua",
+      "status": "provisional"
+    },
+    "戴夏民": {
+      "en": "Dai Xiamin",
+      "status": "provisional"
+    },
+    "郭斌": {
+      "en": "Guo Bin",
+      "status": "provisional"
+    },
+    "刘镇芳": {
+      "en": "Liu Zhenfang",
+      "status": "provisional"
+    },
+    "何浩若": {
+      "en": "He Haoruo",
+      "status": "provisional"
+    },
+    "陆根泉": {
+      "en": "Lu Genquan",
+      "status": "provisional"
+    },
+    "庄心田": {
+      "en": "Zhuang Xintian",
+      "status": "provisional"
+    },
+    "怀特": {
+      "en": "White",
+      "status": "attested",
+      "note": "American chief instructor, special-police class"
+    },
+    "费巩": {
+      "en": "Fei Gong",
+      "status": "attested",
+      "note": "ZJU professor murdered by SACO agents 1945; martyr 1978"
+    },
+    "竺可桢": {
+      "en": "Zhu Kezhen",
+      "status": "attested"
+    },
+    "魏德迈": {
+      "en": "Wedemeyer",
+      "status": "attested",
+      "note": "Gen. Albert Wedemeyer"
+    },
+    "史迪威": {
+      "en": "Stilwell",
+      "status": "attested",
+      "note": "Gen. Joseph Stilwell"
+    },
+    "马歇尔": {
+      "en": "Marshall",
+      "status": "attested",
+      "note": "Gen. George Marshall"
+    },
+    "尼米兹": {
+      "en": "Nimitz",
+      "status": "attested",
+      "note": "Adm. Chester Nimitz"
+    },
+    "福莱斯特": {
+      "en": "Forrestal",
+      "status": "attested",
+      "note": "James Forrestal, US Navy Secretary"
+    },
+    "赫尔利": {
+      "en": "Hurley",
+      "status": "attested",
+      "note": "Patrick Hurley"
+    },
+    "克拉克": {
+      "en": "Clark",
+      "status": "provisional",
+      "note": "New York detective, SACO"
+    },
+    "皮宗阚": {
+      "en": "Pi Zongkan",
+      "status": "provisional",
+      "note": "Historically 皮宗敢; scan reads 阚"
+    },
+    "张乘午": {
+      "en": "Zhang Chengwu",
+      "status": "provisional"
+    },
+    "宋子良": {
+      "en": "Song Ziliang",
+      "status": "attested",
+      "note": "Brother of T. V. Soong"
+    },
+    "李弥": {
+      "en": "Li Mi",
+      "status": "attested",
+      "note": "1902-1973; Nationalist 8th Army commander at Kunming. After the Yunnan collapse he led remnant forces into Burma, becoming a warlord of the Golden Triangle."
+    },
+    "余程万": {
+      "en": "Yu Chengwan",
+      "status": "attested",
+      "note": "1902-1955; commanded the 74th Army's 57th Division ('Tiger Braves') in the 1943 defence of Changde, then the 26th Army at Kunming."
+    },
+    "龙云": {
+      "en": "Long Yun",
+      "status": "attested",
+      "note": "1884-1962; the Yi 'King of Yunnan,' provincial chairman 1927-1945 ruling it as a near-autonomous fief until Chiang ousted him by force in the October 1945 Kunming coup."
+    },
+    "蒋经国": {
+      "en": "Chiang Ching-kuo",
+      "status": "attested",
+      "note": "1910-1988; Chiang Kai-shek's son, later president of the Republic of China on Taiwan; here running secret-service coordination for his father."
+    },
+    "黄绍竑": {
+      "en": "Huang Shaohong",
+      "status": "attested",
+      "note": "1895-1966; a founder of the New Guangxi Clique."
+    },
+    "石补天": {
+      "en": "Shi Butian",
+      "status": "provisional"
+    },
+    "沈延世": {
+      "en": "Shen Yanshi",
+      "status": "provisional"
+    },
+    "李楚藩": {
+      "en": "Li Chufan",
+      "status": "provisional"
+    },
+    "童鹤莲": {
+      "en": "Tong Helian",
+      "status": "provisional"
+    },
+    "安恩溥": {
+      "en": "An Enpu",
+      "status": "provisional"
+    },
+    "陈复光": {
+      "en": "Chen Fuguang",
+      "status": "provisional"
+    },
+    "马伯安": {
+      "en": "Ma Bo'an",
+      "status": "provisional"
+    }
+  },
+  "organisations": {
+    "军统": {
+      "en": "the Juntong",
+      "status": "decided",
+      "note": "Short for 国民政府军事委员会调查统计局. Glossed in full at first use, then 'the Juntong' throughout - the book's own usage."
+    },
+    "国民政府军事委员会调查统计局": {
+      "en": "Bureau of Investigation and Statistics of the Military Affairs Commission of the National Government",
+      "status": "attested"
+    },
+    "保密局": {
+      "en": "the Bureau of Secrets Preservation",
+      "status": "decided",
+      "note": "国防部保密局, the Juntong's 1946 successor under the Ministry of National Defence."
+    },
+    "复兴社": {
+      "en": "the Renaissance Society",
+      "status": "attested",
+      "note": "中华复兴社; also called the Blue Shirts (蓝衣社)."
+    },
+    "蓝衣社": {
+      "en": "the Blue Shirts",
+      "status": "attested"
+    },
+    "特务处": {
+      "en": "the Special Services Department",
+      "status": "decided"
+    },
+    "密查组": {
+      "en": "the Confidential Investigation Group",
+      "status": "provisional"
+    },
+    "十人团": {
+      "en": "the Ten-Man Team",
+      "status": "decided"
+    },
+    "中美特种技术合作所": {
+      "en": "the Sino-American Special Technical Cooperative Organization (SACO)",
+      "status": "attested",
+      "note": "'SACO' after first use."
+    },
+    "临澧特训班": {
+      "en": "the Linli special training class",
+      "status": "decided"
+    },
+    "文史资料选辑": {
+      "en": "Selected Historical Materials",
+      "status": "decided",
+      "note": "The CPPCC series in which most of this book first appeared."
+    },
+    "力行社": {
+      "en": "the Lixingshe",
+      "status": "attested",
+      "note": "Vigorous Practice Society; the inner body of the Renaissance Society complex."
+    },
+    "中统": {
+      "en": "the Zhongtong",
+      "status": "decided",
+      "note": "Bureau of Investigation and Statistics of the KMT Central Executive Committee."
+    },
+    "CC系": {
+      "en": "the CC clique",
+      "status": "attested"
+    },
+    "中山室": {
+      "en": "the Zhongshan Room",
+      "status": "decided"
+    },
+    "特种政治问题研究室": {
+      "en": "the Special Political Problems Research Office",
+      "status": "decided"
+    },
+    "四一大会": {
+      "en": "the April the First Assembly",
+      "status": "decided"
+    },
+    "临澧特别训练班": {
+      "en": "the Linli Special Training Class",
+      "status": "decided"
+    },
+    "忠义救国军": {
+      "en": "the Loyal and Patriotic Army",
+      "status": "attested"
+    },
+    "新四军": {
+      "en": "the New Fourth Army",
+      "status": "attested"
+    },
+    "中央警官学校": {
+      "en": "the Central Police Academy",
+      "status": "attested"
+    },
+    "中央军校七分校": {
+      "en": "the Seventh Branch of the Central Military Academy",
+      "status": "attested"
+    },
+    "滨澧同学会": {
+      "en": "the Binli Alumni Association",
+      "status": "decided",
+      "note": "滨澧 = 'on the banks of the Li'."
+    },
+    "鲁迅艺术学院": {
+      "en": "the Lu Xun Academy of Arts",
+      "status": "attested"
+    },
+    "新华日报": {
+      "en": "the New China Daily",
+      "status": "attested"
+    },
+    "重庆卫戍总司令部稽查处": {
+      "en": "the Inspectorate of the Chungking Garrison Command",
+      "status": "decided",
+      "note": "The book prints 卫成 for 卫戍 throughout. Rendered by the institution meant; the orthography is noted."
+    },
+    "军统局重庆特区": {
+      "en": "the Chungking Special District",
+      "status": "decided",
+      "note": "渝特区 for short; the Juntong's field organization for Chungking and eastern Szechwan."
+    },
+    "特务总队": {
+      "en": "the operatives' corps",
+      "status": "decided"
+    },
+    "锦衣卫": {
+      "en": "the Embroidered Uniform Guard",
+      "status": "attested",
+      "note": "The Ming imperial secret police; the operatives' own nickname for the action group."
+    },
+    "军委会特检处": {
+      "en": "the Special Censorship Department",
+      "status": "decided",
+      "note": "Of the General Office of the Military Affairs Commission."
+    },
+    "水陆交通统一检查处": {
+      "en": "the Unified Land and Water Transport Inspection Department",
+      "status": "decided"
+    },
+    "抗日锄奸团": {
+      "en": "the Anti-Japanese Traitor-Elimination Corps",
+      "status": "decided",
+      "note": "抗团 for short; rendered 'the Anti-Traitor Corps' after first use."
+    },
+    "兵工署警卫稽查处": {
+      "en": "the Guard and Inspection Department of the Ordnance Administration",
+      "status": "decided"
+    },
+    "国民参政会": {
+      "en": "the People's Political Council",
+      "status": "attested"
+    },
+    "中央训练团": {
+      "en": "the Central Training Corps",
+      "status": "attested"
+    },
+    "设计委员": {
+      "en": "design committee members",
+      "status": "decided",
+      "note": "Nominal advisers retained on a stipend."
+    },
+    "八路军": {
+      "en": "the Eighth Route Army",
+      "status": "attested"
+    },
+    "第三战区": {
+      "en": "the Third War Zone",
+      "status": "decided"
+    },
+    "第六战区": {
+      "en": "the Sixth War Zone",
+      "status": "decided"
+    },
+    "兵工署": {
+      "en": "the Ordnance Administration",
+      "status": "decided"
+    },
+    "鄂豫皖三省剿总": {
+      "en": "the Bandit Suppression Headquarters for the three provinces of Hubei, Henan and Anhui",
+      "status": "decided"
+    },
+    "绥靖公署": {
+      "en": "the Pacification Headquarters",
+      "status": "decided"
+    },
+    "同济医学院": {
+      "en": "Tongji Medical College",
+      "status": "attested"
+    },
+    "交通警察总队": {
+      "en": "the transport police corps",
+      "status": "decided"
+    },
+    "西南长官公署": {
+      "en": "the Southwest Headquarters",
+      "status": "decided"
+    },
+    "民革": {
+      "en": "the Revolutionary Committee of the Kuomintang",
+      "status": "decided"
+    },
+    "行动处": {
+      "en": "the action department",
+      "status": "decided"
+    },
+    "交通警察总局": {
+      "en": "the General Administration of Traffic Police",
+      "status": "decided"
+    },
+    "别动军": {
+      "en": "the Special Operations Army",
+      "status": "decided"
+    },
+    "抗日军政大学": {
+      "en": "the Anti-Japanese Military and Political University",
+      "status": "decided"
+    },
+    "光华大学": {
+      "en": "Guanghua University",
+      "status": "attested"
+    },
+    "侍从室": {
+      "en": "the Attendants' Office",
+      "status": "decided",
+      "note": "Chiang Kai-shek's personal secretariat"
+    },
+    "战略业务局": {
+      "en": "the Office of Strategic Services",
+      "status": "decided",
+      "note": "OSS"
+    },
+    "国际问题研究所": {
+      "en": "the Institute for International Affairs",
+      "status": "decided"
+    }
+  },
+  "terms": {
+    "特务": {
+      "en": "secret agent / operative",
+      "status": "decided",
+      "note": "Rendered 'operative' in institutional contexts, 'secret agent' where the book means the profession. Never 'spy'."
+    },
+    "罪恶活动": {
+      "en": "criminal activities",
+      "status": "decided",
+      "note": "Period self-criticism idiom; kept, not neutralised."
+    },
+    "反动": {
+      "en": "reactionary",
+      "status": "decided"
+    },
+    "委员长": {
+      "en": "the Generalissimo",
+      "status": "decided",
+      "note": "For Chiang; 'Chairman' would collide with the CCP usage a reader expects."
+    },
+    "行动": {
+      "en": "operations",
+      "status": "decided",
+      "note": "In Juntong usage 行动 is the killing-and-abduction side of the service."
+    },
+    "工作太太": {
+      "en": "working wife",
+      "status": "decided",
+      "note": "A woman assigned to an agent going into occupied territory as cover and household."
+    },
+    "行动术": {
+      "en": "operational technique",
+      "status": "decided",
+      "note": "The Juntong course covering arrest, kidnapping, assassination and sabotage; never printed, taught orally."
+    },
+    "实习品": {
+      "en": "practice material",
+      "status": "decided",
+      "note": "Literally 'practice article'; used of a human being."
+    },
+    "同学": {
+      "en": "fellow student",
+      "status": "decided",
+      "note": "The Linli graduates' form of address, against the Juntong's general 同志 'comrade'."
+    },
+    "陪都": {
+      "en": "the wartime auxiliary capital",
+      "status": "decided"
+    },
+    "曲线救国": {
+      "en": "saving the nation by a curved path",
+      "status": "decided"
+    },
+    "跑二排": {
+      "en": "second-string runners",
+      "status": "decided",
+      "note": "The auxiliaries a field operative ran himself."
+    },
+    "外围分子": {
+      "en": "peripheral elements",
+      "status": "decided"
+    },
+    "袍哥": {
+      "en": "the Paoko",
+      "status": "decided",
+      "note": "The dominant Szechwan secret-society network."
+    },
+    "替死鬼": {
+      "en": "scapegoat",
+      "status": "decided",
+      "note": "Literally a substitute-death ghost."
+    },
+    "家法": {
+      "en": "house law",
+      "status": "decided",
+      "note": "Dai Li's term for the Juntong's internal discipline."
+    },
+    "纪念周": {
+      "en": "memorial-week assembly",
+      "status": "decided"
+    },
+    "美帝": {
+      "en": "the American imperialists",
+      "status": "decided",
+      "note": "Period political idiom, preserved rather than neutralized."
+    },
+    "清水衙门": {
+      "en": "a clear-water yamen",
+      "status": "decided",
+      "note": "A post with no opportunities for graft."
+    },
+    "反共高潮": {
+      "en": "anti-Communist offensive",
+      "status": "decided"
+    },
+    "禁地": {
+      "en": "forbidden zone",
+      "status": "decided",
+      "note": "The closed area of SACO reserved for senior political prisoners."
+    },
+    "老帅": {
+      "en": "the Old Marshal",
+      "status": "decided"
+    },
+    "少帅": {
+      "en": "the Young Marshal",
+      "status": "decided"
+    },
+    "副座": {
+      "en": "Vice-Commander",
+      "status": "decided",
+      "note": "The form of address 座 attached to a post; \"Vice-Commander\" chosen over \"Deputy Seat\""
+    },
+    "法币": {
+      "en": "the fabi",
+      "status": "decided",
+      "note": "Glossed once as the Nationalist legal-tender currency"
+    },
+    "日寇": {
+      "en": "the Japanese bandits",
+      "status": "decided",
+      "note": "Period designation kept as written"
+    },
+    "万有文库": {
+      "en": "the Wanyou Wenku",
+      "status": "attested"
+    },
+    "逼宫": {
+      "en": "forcing the palace",
+      "status": "decided"
+    },
+    "美龄号": {
+      "en": "the \"Meiling\"",
+      "status": "decided",
+      "note": "Chiang Kai-shek's personal aircraft, named for Song Meiling"
+    },
+    "中美号": {
+      "en": "the \"Zhongmei\"",
+      "status": "decided"
+    },
+    "黑室": {
+      "en": "the Black Chamber",
+      "status": "decided"
+    },
+    "驼峰": {
+      "en": "the Hump",
+      "status": "decided"
+    },
+    "滑竿": {
+      "en": "huagan",
+      "status": "decided",
+      "note": "Sichuanese sedan-chair"
+    }
+  },
+  "places": {
+    "重庆": {
+      "en": "Chungking",
+      "status": "decided",
+      "note": "Period English form, used throughout for the wartime capital."
+    },
+    "昆明": {
+      "en": "Kunming",
+      "status": "attested"
+    },
+    "临澧": {
+      "en": "Linli",
+      "status": "attested",
+      "note": "County in Hunan."
+    },
+    "息烽": {
+      "en": "Xifeng",
+      "status": "attested",
+      "note": "Guizhou; the Juntong's main prison camp."
+    },
+    "陕甘宁边区": {
+      "en": "the Shaan-Gan-Ning Border Region",
+      "status": "attested"
+    },
+    "珞珈山": {
+      "en": "Luojia Hill",
+      "status": "attested",
+      "note": "Wuchang; OCR read 玫珈山, crop-verified."
+    },
+    "罗家湾": {
+      "en": "Luojiawan",
+      "status": "attested",
+      "note": "Chungking; Juntong headquarters."
+    },
+    "磁器口": {
+      "en": "Ciqikou",
+      "status": "attested"
+    },
+    "戴山": {
+      "en": "Dai Hill",
+      "status": "decided",
+      "note": "As printed in this book for the crash site; other sources give 岱山. Preserved as printed and noted."
+    },
+    "黔阳": {
+      "en": "Qianyang",
+      "status": "attested"
+    },
+    "常德": {
+      "en": "Changde",
+      "status": "attested"
+    },
+    "长沙": {
+      "en": "Changsha",
+      "status": "attested"
+    },
+    "延安": {
+      "en": "Yenan",
+      "status": "decided",
+      "note": "Period English form, consistent with Chungking, Peiping, Szechwan and Kweichow used throughout. Modern pinyin is Yan'an."
+    },
+    "渣滓洞": {
+      "en": "the Bath Cave (Zhazidong)",
+      "status": "decided",
+      "note": "Chungking prison; the name means 'dross pit'."
+    },
+    "红岩村": {
+      "en": "Hongyan Village",
+      "status": "attested",
+      "note": "Seat of the CCP South China Bureau at Hualongqiao."
+    },
+    "曾家岩": {
+      "en": "Zengjiayan",
+      "status": "attested",
+      "note": "The Communist delegation's Chungking office; Zhou Enlai's residence."
+    },
+    "白公馆": {
+      "en": "Baigongguan",
+      "status": "attested",
+      "note": "Prison inside the SACO compound."
+    },
+    "望龙门": {
+      "en": "Wanglongmen",
+      "status": "attested",
+      "note": "Quarters of the operatives' corps; a metonym in Chungking for the corps."
+    },
+    "歌乐山": {
+      "en": "Geleshan",
+      "status": "attested",
+      "note": "Hills outside Chungking; site of the SACO compound."
+    },
+    "江津": {
+      "en": "Jiangjin",
+      "status": "attested",
+      "note": "Upriver from Chungking; where Chen Duxiu lived under watch."
+    },
+    "青木关": {
+      "en": "Qingmuguan",
+      "status": "attested",
+      "note": "First gate on the road from Chungking to the northwest."
+    },
+    "一品场": {
+      "en": "Yipinchang",
+      "status": "attested",
+      "note": "Site of the main southern checkpoint."
+    },
+    "海棠溪": {
+      "en": "Haitangxi",
+      "status": "attested"
+    },
+    "黄角垭": {
+      "en": "Huangjueya",
+      "status": "provisional",
+      "note": "The book prints 黄角垭; the commoner form is 黄桷垭. Preserved as printed."
+    },
+    "鹅公岩": {
+      "en": "Egongyan",
+      "status": "attested",
+      "note": "Site of an arsenal."
+    },
+    "三斗坪": {
+      "en": "Sandouping",
+      "status": "attested",
+      "note": "On the Yangtze in western Hupeh, near the front line."
+    },
+    "上饶": {
+      "en": "Shangrao",
+      "status": "attested",
+      "note": "Kiangsi; Third War Zone headquarters and site of its concentration camp."
+    },
+    "桂林": {
+      "en": "Kweilin",
+      "status": "decided",
+      "note": "Period English form."
+    },
+    "七星岩": {
+      "en": "the Seven Star Crag",
+      "status": "attested",
+      "note": "Cave system at Kweilin where Ye Ting was held."
+    },
+    "恩施": {
+      "en": "Enshi",
+      "status": "attested",
+      "note": "Hupeh; Sixth War Zone headquarters."
+    },
+    "香山别墅": {
+      "en": "the Xiangshan villa",
+      "status": "attested",
+      "note": "The house that became Baigongguan."
+    },
+    "奉化": {
+      "en": "Fenghua",
+      "status": "attested"
+    },
+    "雪窦寺": {
+      "en": "Xuedou Temple",
+      "status": "attested"
+    },
+    "益阳": {
+      "en": "Yiyang",
+      "status": "attested"
+    },
+    "桃花坪": {
+      "en": "Taohuaping",
+      "status": "provisional"
+    },
+    "沅陵": {
+      "en": "Yuanling",
+      "status": "attested"
+    },
+    "凤凰山": {
+      "en": "Fenghuangshan",
+      "status": "provisional",
+      "note": "The hill at Yuanling, not the many namesakes"
+    },
+    "修文": {
+      "en": "Xiuwen",
+      "status": "attested"
+    },
+    "阳明洞": {
+      "en": "Yangming Cave",
+      "status": "decided",
+      "note": "Both the Xiuwen and the Xingguo caves; \"Cave\" not \"Grotto\""
+    },
+    "玄天洞": {
+      "en": "Xuantian Cave",
+      "status": "attested"
+    },
+    "桐梓": {
+      "en": "Tongzi",
+      "status": "attested"
+    },
+    "兴国": {
+      "en": "Xingguo",
+      "status": "attested"
+    },
+    "草山": {
+      "en": "Caoshan",
+      "status": "attested",
+      "note": "Renamed Yangmingshan in 1950; the book predates the renaming"
+    },
+    "松林坡": {
+      "en": "Songlinpo",
+      "status": "attested"
+    },
+    "夜郎": {
+      "en": "Yelang",
+      "status": "attested"
+    },
+    "三潭印月": {
+      "en": "Three Pools Mirroring the Moon",
+      "status": "attested"
+    },
+    "南昌": {
+      "en": "Nanchang",
+      "status": "attested"
+    },
+    "百花洲": {
+      "en": "Baihuazhou",
+      "status": "attested"
+    },
+    "株洲": {
+      "en": "Zhuzhou",
+      "status": "attested"
+    },
+    "阳朗坝": {
+      "en": "Yanglangba",
+      "status": "provisional"
+    },
+    "黔灵山": {
+      "en": "Qianling Mountain",
+      "status": "attested"
+    },
+    "麒麟洞": {
+      "en": "Qilin Cave",
+      "status": "attested"
+    },
+    "松坎": {
+      "en": "Songkan",
+      "status": "attested"
+    },
+    "独山": {
+      "en": "Dushan",
+      "status": "attested"
+    },
+    "杨家山": {
+      "en": "Yangjiashan",
+      "status": "provisional"
+    },
+    "歙县": {
+      "en": "Shexian",
+      "status": "attested"
+    },
+    "雄村": {
+      "en": "Xiongcun",
+      "status": "attested"
+    },
+    "南岳": {
+      "en": "Nanyue",
+      "status": "attested"
+    },
+    "临汝": {
+      "en": "Linru",
+      "status": "attested"
+    },
+    "风穴寺": {
+      "en": "Fengxue Temple",
+      "status": "attested"
+    },
+    "陕坝": {
+      "en": "Shanba",
+      "status": "attested"
+    },
+    "建瓯": {
+      "en": "Jian'ou",
+      "status": "attested"
+    },
+    "临泉": {
+      "en": "Linquan",
+      "status": "attested"
+    },
+    "榆林": {
+      "en": "Yulin",
+      "status": "attested"
+    },
+    "汉中": {
+      "en": "Hanchung",
+      "status": "decided",
+      "note": "Postal form, consistent with ch03"
+    },
+    "洛川": {
+      "en": "Luochuan",
+      "status": "attested"
+    },
+    "耀县": {
+      "en": "Yaoxian",
+      "status": "attested"
+    },
+    "兰州": {
+      "en": "Lanzhou",
+      "status": "attested"
+    },
+    "平凉": {
+      "en": "Pingliang",
+      "status": "attested"
+    },
+    "神仙洞": {
+      "en": "Shenxiandong",
+      "status": "provisional"
+    },
+    "龙华寺": {
+      "en": "Longhua Temple",
+      "status": "attested"
+    },
+    "十六铺": {
+      "en": "Shiliupu",
+      "status": "attested"
+    },
+    "哥伦比亚路": {
+      "en": "Columbia Road",
+      "status": "attested",
+      "note": "Now Panyu Road, Shanghai"
+    },
+    "盐城": {
+      "en": "Yancheng",
+      "status": "attested"
+    },
+    "冉家巷": {
+      "en": "Ranjiaxiang",
+      "status": "provisional"
+    },
+    "钟家山": {
+      "en": "Zhongjiashan",
+      "status": "provisional"
+    },
+    "千厮门": {
+      "en": "Qiansimen",
+      "status": "attested"
+    },
+    "湄潭": {
+      "en": "Meitan",
+      "status": "attested"
+    },
+    "巫山": {
+      "en": "Wushan",
+      "status": "attested"
+    }
   }
- },
- "organisations": {
-  "军统": {
-   "en": "the Juntong",
-   "status": "decided",
-   "note": "Short for 国民政府军事委员会调查统计局. Glossed in full at first use, then 'the Juntong' throughout - the book's own usage."
-  },
-  "国民政府军事委员会调查统计局": {
-   "en": "Bureau of Investigation and Statistics of the Military Affairs Commission of the National Government",
-   "status": "attested"
-  },
-  "保密局": {
-   "en": "the Bureau of Secrets Preservation",
-   "status": "decided",
-   "note": "国防部保密局, the Juntong's 1946 successor under the Ministry of National Defence."
-  },
-  "复兴社": {
-   "en": "the Renaissance Society",
-   "status": "attested",
-   "note": "中华复兴社; also called the Blue Shirts (蓝衣社)."
-  },
-  "蓝衣社": {
-   "en": "the Blue Shirts",
-   "status": "attested"
-  },
-  "特务处": {
-   "en": "the Special Services Department",
-   "status": "decided"
-  },
-  "密查组": {
-   "en": "the Confidential Investigation Group",
-   "status": "provisional"
-  },
-  "十人团": {
-   "en": "the Ten-Man Team",
-   "status": "decided"
-  },
-  "中美特种技术合作所": {
-   "en": "the Sino-American Special Technical Cooperative Organization (SACO)",
-   "status": "attested",
-   "note": "'SACO' after first use."
-  },
-  "临澧特训班": {
-   "en": "the Linli special training class",
-   "status": "decided"
-  },
-  "文史资料选辑": {
-   "en": "Selected Historical Materials",
-   "status": "decided",
-   "note": "The CPPCC series in which most of this book first appeared."
-  },
-  "力行社": {
-   "en": "the Lixingshe",
-   "status": "attested",
-   "note": "Vigorous Practice Society; the inner body of the Renaissance Society complex."
-  },
-  "中统": {
-   "en": "the Zhongtong",
-   "status": "decided",
-   "note": "Bureau of Investigation and Statistics of the KMT Central Executive Committee."
-  },
-  "CC系": {
-   "en": "the CC clique",
-   "status": "attested"
-  },
-  "中山室": {
-   "en": "the Zhongshan Room",
-   "status": "decided"
-  },
-  "特种政治问题研究室": {
-   "en": "the Special Political Problems Research Office",
-   "status": "decided"
-  },
-  "四一大会": {
-   "en": "the April the First Assembly",
-   "status": "decided"
-  },
-  "临澧特别训练班": {
-   "en": "the Linli Special Training Class",
-   "status": "decided"
-  },
-  "忠义救国军": {
-   "en": "the Loyal and Patriotic Army",
-   "status": "attested"
-  },
-  "新四军": {
-   "en": "the New Fourth Army",
-   "status": "attested"
-  },
-  "中央警官学校": {
-   "en": "the Central Police Academy",
-   "status": "attested"
-  },
-  "中央军校七分校": {
-   "en": "the Seventh Branch of the Central Military Academy",
-   "status": "attested"
-  },
-  "滨澧同学会": {
-   "en": "the Binli Alumni Association",
-   "status": "decided",
-   "note": "滨澧 = 'on the banks of the Li'."
-  },
-  "鲁迅艺术学院": {
-   "en": "the Lu Xun Academy of Arts",
-   "status": "attested"
-  },
-  "新华日报": {
-   "en": "the New China Daily",
-   "status": "attested"
-  },
-  "重庆卫戍总司令部稽查处": {
-   "en": "the Inspectorate of the Chungking Garrison Command",
-   "status": "decided",
-   "note": "The book prints 卫成 for 卫戍 throughout. Rendered by the institution meant; the orthography is noted."
-  },
-  "军统局重庆特区": {
-   "en": "the Chungking Special District",
-   "status": "decided",
-   "note": "渝特区 for short; the Juntong's field organization for Chungking and eastern Szechwan."
-  },
-  "特务总队": {
-   "en": "the operatives' corps",
-   "status": "decided"
-  },
-  "锦衣卫": {
-   "en": "the Embroidered Uniform Guard",
-   "status": "attested",
-   "note": "The Ming imperial secret police; the operatives' own nickname for the action group."
-  },
-  "军委会特检处": {
-   "en": "the Special Censorship Department",
-   "status": "decided",
-   "note": "Of the General Office of the Military Affairs Commission."
-  },
-  "水陆交通统一检查处": {
-   "en": "the Unified Land and Water Transport Inspection Department",
-   "status": "decided"
-  },
-  "抗日锄奸团": {
-   "en": "the Anti-Japanese Traitor-Elimination Corps",
-   "status": "decided",
-   "note": "抗团 for short; rendered 'the Anti-Traitor Corps' after first use."
-  },
-  "兵工署警卫稽查处": {
-   "en": "the Guard and Inspection Department of the Ordnance Administration",
-   "status": "decided"
-  },
-  "国民参政会": {
-   "en": "the People's Political Council",
-   "status": "attested"
-  },
-  "中央训练团": {
-   "en": "the Central Training Corps",
-   "status": "attested"
-  },
-  "设计委员": {
-   "en": "design committee members",
-   "status": "decided",
-   "note": "Nominal advisers retained on a stipend."
-  },
-  "八路军": {
-   "en": "the Eighth Route Army",
-   "status": "attested"
-  },
-  "第三战区": {
-   "en": "the Third War Zone",
-   "status": "decided"
-  },
-  "第六战区": {
-   "en": "the Sixth War Zone",
-   "status": "decided"
-  },
-  "兵工署": {
-   "en": "the Ordnance Administration",
-   "status": "decided"
-  },
-  "鄂豫皖三省剿总": {
-   "en": "the Bandit Suppression Headquarters for the three provinces of Hubei, Henan and Anhui",
-   "status": "decided"
-  },
-  "绥靖公署": {
-   "en": "the Pacification Headquarters",
-   "status": "decided"
-  },
-  "同济医学院": {
-   "en": "Tongji Medical College",
-   "status": "attested"
-  },
-  "交通警察总队": {
-   "en": "the transport police corps",
-   "status": "decided"
-  },
-  "西南长官公署": {
-   "en": "the Southwest Headquarters",
-   "status": "decided"
-  },
-  "民革": {
-   "en": "the Revolutionary Committee of the Kuomintang",
-   "status": "decided"
-  },
-  "行动处": {
-   "en": "the action department",
-   "status": "decided"
-  },
-  "交通警察总局": {
-   "en": "the General Administration of Traffic Police",
-   "status": "decided"
-  },
-  "别动军": {
-   "en": "the Special Operations Army",
-   "status": "decided"
-  },
-  "抗日军政大学": {
-   "en": "the Anti-Japanese Military and Political University",
-   "status": "decided"
-  },
-  "光华大学": {
-   "en": "Guanghua University",
-   "status": "attested"
-  },
-  "侍从室": {
-   "en": "the Attendants' Office",
-   "status": "decided",
-   "note": "Chiang Kai-shek's personal secretariat"
-  },
-  "战略业务局": {
-   "en": "the Office of Strategic Services",
-   "status": "decided",
-   "note": "OSS"
-  },
-  "国际问题研究所": {
-   "en": "the Institute for International Affairs",
-   "status": "decided"
-  }
- },
- "terms": {
-  "特务": {
-   "en": "secret agent / operative",
-   "status": "decided",
-   "note": "Rendered 'operative' in institutional contexts, 'secret agent' where the book means the profession. Never 'spy'."
-  },
-  "罪恶活动": {
-   "en": "criminal activities",
-   "status": "decided",
-   "note": "Period self-criticism idiom; kept, not neutralised."
-  },
-  "反动": {
-   "en": "reactionary",
-   "status": "decided"
-  },
-  "委员长": {
-   "en": "the Generalissimo",
-   "status": "decided",
-   "note": "For Chiang; 'Chairman' would collide with the CCP usage a reader expects."
-  },
-  "行动": {
-   "en": "operations",
-   "status": "decided",
-   "note": "In Juntong usage 行动 is the killing-and-abduction side of the service."
-  },
-  "工作太太": {
-   "en": "working wife",
-   "status": "decided",
-   "note": "A woman assigned to an agent going into occupied territory as cover and household."
-  },
-  "行动术": {
-   "en": "operational technique",
-   "status": "decided",
-   "note": "The Juntong course covering arrest, kidnapping, assassination and sabotage; never printed, taught orally."
-  },
-  "实习品": {
-   "en": "practice material",
-   "status": "decided",
-   "note": "Literally 'practice article'; used of a human being."
-  },
-  "同学": {
-   "en": "fellow student",
-   "status": "decided",
-   "note": "The Linli graduates' form of address, against the Juntong's general 同志 'comrade'."
-  },
-  "陪都": {
-   "en": "the wartime auxiliary capital",
-   "status": "decided"
-  },
-  "曲线救国": {
-   "en": "saving the nation by a curved path",
-   "status": "decided"
-  },
-  "跑二排": {
-   "en": "second-string runners",
-   "status": "decided",
-   "note": "The auxiliaries a field operative ran himself."
-  },
-  "外围分子": {
-   "en": "peripheral elements",
-   "status": "decided"
-  },
-  "袍哥": {
-   "en": "the Paoko",
-   "status": "decided",
-   "note": "The dominant Szechwan secret-society network."
-  },
-  "替死鬼": {
-   "en": "scapegoat",
-   "status": "decided",
-   "note": "Literally a substitute-death ghost."
-  },
-  "家法": {
-   "en": "house law",
-   "status": "decided",
-   "note": "Dai Li's term for the Juntong's internal discipline."
-  },
-  "纪念周": {
-   "en": "memorial-week assembly",
-   "status": "decided"
-  },
-  "美帝": {
-   "en": "the American imperialists",
-   "status": "decided",
-   "note": "Period political idiom, preserved rather than neutralized."
-  },
-  "清水衙门": {
-   "en": "a clear-water yamen",
-   "status": "decided",
-   "note": "A post with no opportunities for graft."
-  },
-  "反共高潮": {
-   "en": "anti-Communist offensive",
-   "status": "decided"
-  },
-  "禁地": {
-   "en": "forbidden zone",
-   "status": "decided",
-   "note": "The closed area of SACO reserved for senior political prisoners."
-  },
-  "老帅": {
-   "en": "the Old Marshal",
-   "status": "decided"
-  },
-  "少帅": {
-   "en": "the Young Marshal",
-   "status": "decided"
-  },
-  "副座": {
-   "en": "Vice-Commander",
-   "status": "decided",
-   "note": "The form of address 座 attached to a post; \"Vice-Commander\" chosen over \"Deputy Seat\""
-  },
-  "法币": {
-   "en": "the fabi",
-   "status": "decided",
-   "note": "Glossed once as the Nationalist legal-tender currency"
-  },
-  "日寇": {
-   "en": "the Japanese bandits",
-   "status": "decided",
-   "note": "Period designation kept as written"
-  },
-  "万有文库": {
-   "en": "the Wanyou Wenku",
-   "status": "attested"
-  },
-  "逼宫": {
-   "en": "forcing the palace",
-   "status": "decided"
-  },
-  "美龄号": {
-   "en": "the \"Meiling\"",
-   "status": "decided",
-   "note": "Chiang Kai-shek's personal aircraft, named for Song Meiling"
-  },
-  "中美号": {
-   "en": "the \"Zhongmei\"",
-   "status": "decided"
-  },
-  "黑室": {
-   "en": "the Black Chamber",
-   "status": "decided"
-  },
-  "驼峰": {
-   "en": "the Hump",
-   "status": "decided"
-  },
-  "滑竿": {
-   "en": "huagan",
-   "status": "decided",
-   "note": "Sichuanese sedan-chair"
-  }
- },
- "places": {
-  "重庆": {
-   "en": "Chungking",
-   "status": "decided",
-   "note": "Period English form, used throughout for the wartime capital."
-  },
-  "昆明": {
-   "en": "Kunming",
-   "status": "attested"
-  },
-  "临澧": {
-   "en": "Linli",
-   "status": "attested",
-   "note": "County in Hunan."
-  },
-  "息烽": {
-   "en": "Xifeng",
-   "status": "attested",
-   "note": "Guizhou; the Juntong's main prison camp."
-  },
-  "陕甘宁边区": {
-   "en": "the Shaan-Gan-Ning Border Region",
-   "status": "attested"
-  },
-  "珞珈山": {
-   "en": "Luojia Hill",
-   "status": "attested",
-   "note": "Wuchang; OCR read 玫珈山, crop-verified."
-  },
-  "罗家湾": {
-   "en": "Luojiawan",
-   "status": "attested",
-   "note": "Chungking; Juntong headquarters."
-  },
-  "磁器口": {
-   "en": "Ciqikou",
-   "status": "attested"
-  },
-  "戴山": {
-   "en": "Dai Hill",
-   "status": "decided",
-   "note": "As printed in this book for the crash site; other sources give 岱山. Preserved as printed and noted."
-  },
-  "黔阳": {
-   "en": "Qianyang",
-   "status": "attested"
-  },
-  "常德": {
-   "en": "Changde",
-   "status": "attested"
-  },
-  "长沙": {
-   "en": "Changsha",
-   "status": "attested"
-  },
-  "延安": {
-   "en": "Yenan",
-   "status": "decided",
-   "note": "Period English form, consistent with Chungking, Peiping, Szechwan and Kweichow used throughout. Modern pinyin is Yan'an."
-  },
-  "渣滓洞": {
-   "en": "the Bath Cave (Zhazidong)",
-   "status": "decided",
-   "note": "Chungking prison; the name means 'dross pit'."
-  },
-  "红岩村": {
-   "en": "Hongyan Village",
-   "status": "attested",
-   "note": "Seat of the CCP South China Bureau at Hualongqiao."
-  },
-  "曾家岩": {
-   "en": "Zengjiayan",
-   "status": "attested",
-   "note": "The Communist delegation's Chungking office; Zhou Enlai's residence."
-  },
-  "白公馆": {
-   "en": "Baigongguan",
-   "status": "attested",
-   "note": "Prison inside the SACO compound."
-  },
-  "望龙门": {
-   "en": "Wanglongmen",
-   "status": "attested",
-   "note": "Quarters of the operatives' corps; a metonym in Chungking for the corps."
-  },
-  "歌乐山": {
-   "en": "Geleshan",
-   "status": "attested",
-   "note": "Hills outside Chungking; site of the SACO compound."
-  },
-  "江津": {
-   "en": "Jiangjin",
-   "status": "attested",
-   "note": "Upriver from Chungking; where Chen Duxiu lived under watch."
-  },
-  "青木关": {
-   "en": "Qingmuguan",
-   "status": "attested",
-   "note": "First gate on the road from Chungking to the northwest."
-  },
-  "一品场": {
-   "en": "Yipinchang",
-   "status": "attested",
-   "note": "Site of the main southern checkpoint."
-  },
-  "海棠溪": {
-   "en": "Haitangxi",
-   "status": "attested"
-  },
-  "黄角垭": {
-   "en": "Huangjueya",
-   "status": "provisional",
-   "note": "The book prints 黄角垭; the commoner form is 黄桷垭. Preserved as printed."
-  },
-  "鹅公岩": {
-   "en": "Egongyan",
-   "status": "attested",
-   "note": "Site of an arsenal."
-  },
-  "三斗坪": {
-   "en": "Sandouping",
-   "status": "attested",
-   "note": "On the Yangtze in western Hupeh, near the front line."
-  },
-  "上饶": {
-   "en": "Shangrao",
-   "status": "attested",
-   "note": "Kiangsi; Third War Zone headquarters and site of its concentration camp."
-  },
-  "桂林": {
-   "en": "Kweilin",
-   "status": "decided",
-   "note": "Period English form."
-  },
-  "七星岩": {
-   "en": "the Seven Star Crag",
-   "status": "attested",
-   "note": "Cave system at Kweilin where Ye Ting was held."
-  },
-  "恩施": {
-   "en": "Enshi",
-   "status": "attested",
-   "note": "Hupeh; Sixth War Zone headquarters."
-  },
-  "香山别墅": {
-   "en": "the Xiangshan villa",
-   "status": "attested",
-   "note": "The house that became Baigongguan."
-  },
-  "奉化": {
-   "en": "Fenghua",
-   "status": "attested"
-  },
-  "雪窦寺": {
-   "en": "Xuedou Temple",
-   "status": "attested"
-  },
-  "益阳": {
-   "en": "Yiyang",
-   "status": "attested"
-  },
-  "桃花坪": {
-   "en": "Taohuaping",
-   "status": "provisional"
-  },
-  "沅陵": {
-   "en": "Yuanling",
-   "status": "attested"
-  },
-  "凤凰山": {
-   "en": "Fenghuangshan",
-   "status": "provisional",
-   "note": "The hill at Yuanling, not the many namesakes"
-  },
-  "修文": {
-   "en": "Xiuwen",
-   "status": "attested"
-  },
-  "阳明洞": {
-   "en": "Yangming Cave",
-   "status": "decided",
-   "note": "Both the Xiuwen and the Xingguo caves; \"Cave\" not \"Grotto\""
-  },
-  "玄天洞": {
-   "en": "Xuantian Cave",
-   "status": "attested"
-  },
-  "桐梓": {
-   "en": "Tongzi",
-   "status": "attested"
-  },
-  "兴国": {
-   "en": "Xingguo",
-   "status": "attested"
-  },
-  "草山": {
-   "en": "Caoshan",
-   "status": "attested",
-   "note": "Renamed Yangmingshan in 1950; the book predates the renaming"
-  },
-  "松林坡": {
-   "en": "Songlinpo",
-   "status": "attested"
-  },
-  "夜郎": {
-   "en": "Yelang",
-   "status": "attested"
-  },
-  "三潭印月": {
-   "en": "Three Pools Mirroring the Moon",
-   "status": "attested"
-  },
-  "南昌": {
-   "en": "Nanchang",
-   "status": "attested"
-  },
-  "百花洲": {
-   "en": "Baihuazhou",
-   "status": "attested"
-  },
-  "株洲": {
-   "en": "Zhuzhou",
-   "status": "attested"
-  },
-  "阳朗坝": {
-   "en": "Yanglangba",
-   "status": "provisional"
-  },
-  "黔灵山": {
-   "en": "Qianling Mountain",
-   "status": "attested"
-  },
-  "麒麟洞": {
-   "en": "Qilin Cave",
-   "status": "attested"
-  },
-  "松坎": {
-   "en": "Songkan",
-   "status": "attested"
-  },
-  "独山": {
-   "en": "Dushan",
-   "status": "attested"
-  },
-  "杨家山": {
-   "en": "Yangjiashan",
-   "status": "provisional"
-  },
-  "歙县": {
-   "en": "Shexian",
-   "status": "attested"
-  },
-  "雄村": {
-   "en": "Xiongcun",
-   "status": "attested"
-  },
-  "南岳": {
-   "en": "Nanyue",
-   "status": "attested"
-  },
-  "临汝": {
-   "en": "Linru",
-   "status": "attested"
-  },
-  "风穴寺": {
-   "en": "Fengxue Temple",
-   "status": "attested"
-  },
-  "陕坝": {
-   "en": "Shanba",
-   "status": "attested"
-  },
-  "建瓯": {
-   "en": "Jian'ou",
-   "status": "attested"
-  },
-  "临泉": {
-   "en": "Linquan",
-   "status": "attested"
-  },
-  "榆林": {
-   "en": "Yulin",
-   "status": "attested"
-  },
-  "汉中": {
-   "en": "Hanchung",
-   "status": "decided",
-   "note": "Postal form, consistent with ch03"
-  },
-  "洛川": {
-   "en": "Luochuan",
-   "status": "attested"
-  },
-  "耀县": {
-   "en": "Yaoxian",
-   "status": "attested"
-  },
-  "兰州": {
-   "en": "Lanzhou",
-   "status": "attested"
-  },
-  "平凉": {
-   "en": "Pingliang",
-   "status": "attested"
-  },
-  "神仙洞": {
-   "en": "Shenxiandong",
-   "status": "provisional"
-  },
-  "龙华寺": {
-   "en": "Longhua Temple",
-   "status": "attested"
-  },
-  "十六铺": {
-   "en": "Shiliupu",
-   "status": "attested"
-  },
-  "哥伦比亚路": {
-   "en": "Columbia Road",
-   "status": "attested",
-   "note": "Now Panyu Road, Shanghai"
-  },
-  "盐城": {
-   "en": "Yancheng",
-   "status": "attested"
-  },
-  "冉家巷": {
-   "en": "Ranjiaxiang",
-   "status": "provisional"
-  },
-  "钟家山": {
-   "en": "Zhongjiashan",
-   "status": "provisional"
-  },
-  "千厮门": {
-   "en": "Qiansimen",
-   "status": "attested"
-  },
-  "湄潭": {
-   "en": "Meitan",
-   "status": "attested"
-  },
-  "巫山": {
-   "en": "Wushan",
-   "status": "attested"
-  }
- }
 }

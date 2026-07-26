@@ -302,6 +302,60 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch14 (云南解放前夕军统在昆明的特务活动 / Juntong Operations in Kunming on the Eve of Yunnan's Liberation) - DONE
+
+- PDF 276-324, printed 257-305. 135 body paragraphs, ~33,500 CJK chars,
+  8 section headings. The largest chapter after ch13; the Yunnan/Kunming
+  chapter, ending in Lu Han's 9 Dec 1949 uprising.
+- Ledger 322 entries. IMPORTANT: fixed a prior-session ledger bug -- entry
+  {户 -> 卢(context)} had the literal placeholder "(context)" in its `right`,
+  which corrupted 31 spots (all "卢(context)") AND over-converted 暴发户
+  (nouveau riche) to 暴发卢. Corrected `right` to 卢, restored 暴发户, realigned
+  the 卢千不住->卢靠不住 workaround. Also removed two gutter-garbage strings
+  (`se 300 ae`, the `(context)` token) and two real single-char OCR errors:
+  百趋->直趋 (直趋四川) and 虎黄->虎贲 (the 57th Div. code name, same 虎贲 as
+  the novel title in the same sentence -- I had first translated the OCR error
+  literally as "Tiger-Yellow"; corrected to "Tiger Braves").
+- Checks: parity 135/135, alignment OK, content OK (after fixing 5 displaced:
+  Ye Xiazhai->Ye Xiadi to match glossary, "Chiang clique"->"Chiang Kai-shek
+  clique" x2, and two dropped Kunming place-names). Numbers 0 after adjudicating
+  34 flags: dominant false positive was 余程万 (Yu Chengwan, 万->10000) and
+  五华 (Wuhua, 五->5); added to noise with 一本万利/万岁/万状/敖万华/两手/
+  两回事/两天/三节桥/十两黄金/一百二十个不愿意/三百八十. Seven real quantities
+  reworded to checker-parseable English (hundred-odd->over a hundred; 十万->
+  a hundred thousand ...strong; 三个室/科->"three offices/sections"; 四十四人->
+  "forty-four people led by"; 三个人->"the three of us"; 十余弹->"over ten
+  bullets"). Register in tolerance.
+- Notes: 24. Glossary +12 people (Li Mi, Yu Chengwan, Long Yun, Chiang
+  Ching-kuo, Huang Shaohong attested; Shi Butian, Shen Yanshi, Li Chufan,
+  Tong Helian, An Enpu, Chen Fuguang, Ma Bo'an provisional). Lu Han / Ye Xiadi
+  / Xi'an Incident already noted earlier -- not re-noted.
+- Corroboration (no Grok/Grokipedia): Li Gongpu (11 Jul 1946) & Wen Yiduo
+  (15 Jul 1946) assassinations by the Bureau's Kunming station -- corroborated
+  (people.cn, chinanews, Baidu Baike; gunman Cai Yunqi executed 1958);
+  September 9 affair (九九整肃, ~400 arrested, Lu Han stalled and released) --
+  corroborated; Huang Shaohong Hong Kong declaration, 44 signatories incl. Long
+  Yun, Aug 1949 -- corroborated; 虎贲万岁 (Zhang Henshui, 1945, on Yu Chengwan's
+  Changde defence) -- corroborated; Lu Han's 9 Dec 1949 uprising (~40,000
+  troops, the seven commanders detained at Wuhuashan) -- corroborated in
+  outline. Shen appears in the sources as a 九九 planner and one of the seven
+  detained, exactly as the memoir has it.
+- SELF-SERVING (category-4 note, anchored "my mother's words"): the chapter's
+  spine is Shen's account of delaying three assassination orders (Yang Jie,
+  who reached Hong Kong; An Enpu / Xie Chongwen / Long Zehui). He supplies
+  motives -- fear of capture, a lost cause, his mother's reproach -- for acts
+  he otherwise admits. Noted so the read-through weighs the framing against the
+  deeds.
+- VOICE-DRIFT FLAGS for the final fable-5 pass (this chapter was done on Opus
+  after the model-guard was lifted -- see CLAUDE.md): register gate passed
+  (contr/1k 15.4, 1.00x vs ch01) but Opus may over-contract the expository
+  frame; spot-check contraction placement in narration vs reported speech.
+  The seven reworded number-phrases (above) traded a little idiom for
+  checker-parseability -- confirm none reads flat.
+- Harmless stale ledger no-ops (prior OCR variance, permanently "not found",
+  do not affect output): 童稚莲 p297, 滥事污芒共产党 p285, 一序年龄 p319,
+  《虎资万岁》 p289.
+
 ### ch13 (中美特种技术合作所内幕 / Inside SACO) - DONE
 
 - PDF 229-275, printed 210-256. 126 body paragraphs + preamble, 10 section
