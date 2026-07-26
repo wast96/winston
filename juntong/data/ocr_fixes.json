@@ -13787,6 +13787,84 @@
    "right": "沈醉",
    "page": null,
    "why": "systematic 卢/蒋/沈醉 mangle (protected 暴发户/户口/百户 etc.)"
+  },
+  {
+   "wrong": "童智和过第六",
+   "right": "童鹤莲第六",
+   "page": 319,
+   "why": "Tong Helian"
+  },
+  {
+   "wrong": "投入字纸繁的勋标",
+   "right": "投入字纸篓的勋标",
+   "page": 319,
+   "why": "字纸篓"
+  },
+  {
+   "wrong": "和希望北京不重视",
+   "right": "希望北京不重视",
+   "page": 319,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "第八皇驻在大板桥",
+   "right": "第八军驻在大板桥",
+   "page": 319,
+   "why": "军"
+  },
+  {
+   "wrong": "布卢李弥通知部下",
+   "right": "要卢和李弥通知部下",
+   "page": 319,
+   "why": "provisional; flagged"
+  },
+  {
+   "wrong": "他们要报做",
+   "right": "他们要报仇",
+   "page": 319,
+   "why": "报仇"
+  },
+  {
+   "wrong": "告诉李、余等人人说",
+   "right": "告诉李、余等人说",
+   "page": 319,
+   "why": "doubled 人"
+  },
+  {
+   "wrong": "二十六军副军长茧佐店",
+   "right": "二十六军副军长彭佐熙",
+   "page": 319,
+   "why": "Peng Zuoxi"
+  },
+  {
+   "wrong": "也辟天和欲动",
+   "right": "也蠢蠢欲动",
+   "page": 319,
+   "why": "蠢蠢欲动"
+  },
+  {
+   "wrong": "轻型友炸机",
+   "right": "轻型轰炸机",
+   "page": 319,
+   "why": "轰炸机"
+  },
+  {
+   "wrong": "五华山天天被又炸",
+   "right": "五华山天天被轰炸",
+   "page": 319,
+   "why": "轰炸"
+  },
+  {
+   "wrong": "大楼也遭到玫击",
+   "right": "大楼也遭到轰击",
+   "page": 319,
+   "why": "provisional 轰击"
+  },
+  {
+   "wrong": "一序年龄",
+   "right": "一叙年龄",
+   "page": 319,
+   "why": "provisional 叙"
   }
  ]
 }
