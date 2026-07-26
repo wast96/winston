@@ -4608,5 +4608,613 @@
    "page": 162,
    "why": "cut them off of my own accord; crop-verified"
   }
+ ],
+ "ch06": [
+  {
+   "wrong": "张学民将军做办宗时的情况",
+   "right": "张学良将军被扣押时的情况",
+   "page": 163,
+   "why": "chapter title"
+  },
+  {
+   "wrong": "张学恨",
+   "right": "张学良",
+   "page": 163,
+   "why": "General Zhang Xueliang; crop-verified"
+  },
+  {
+   "wrong": "杨席城",
+   "right": "杨虎城",
+   "page": 163,
+   "why": "General Yang Hucheng; crop-verified"
+  },
+  {
+   "wrong": "恨之人骨",
+   "right": "恨之入骨",
+   "page": 163,
+   "why": "hated to the bone"
+  },
+  {
+   "wrong": "张学良被内禁后",
+   "right": "张学良被囚禁后",
+   "page": 163,
+   "why": "confined; crop-verified"
+  },
+  {
+   "wrong": "抗且战争",
+   "right": "抗日战争",
+   "page": 163,
+   "why": "the war against Japan; crop-verified"
+  },
+  {
+   "wrong": "秦化县",
+   "right": "奉化县",
+   "page": 163,
+   "why": "Fenghua county, Chiang Kai-shek's home district; crop-verified"
+  },
+  {
+   "wrong": "雪守和村",
+   "right": "雪窦寺",
+   "page": 163,
+   "why": "Xuedou Temple; OCR had turned a temple into a village; crop-verified"
+  },
+  {
+   "wrong": "等处四禁了",
+   "right": "等处囚禁了",
+   "page": 163,
+   "why": "confined"
+  },
+  {
+   "wrong": "被内蔡的上息烽玄天洞",
+   "right": "被囚禁的息烽玄天洞",
+   "page": 163,
+   "why": "the Xuantian cave at Xifeng"
+  },
+  {
+   "wrong": "戴竺",
+   "right": "戴笠",
+   "page": 163,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "百天负责内部警戒",
+   "right": "白天负责内部警戒",
+   "page": 163,
+   "why": "by day"
+  },
+  {
+   "wrong": "有晚间则移到",
+   "right": "而晚间则移到",
+   "page": 163,
+   "why": "while at night"
+  },
+  {
+   "wrong": "究室窗外",
+   "right": "卧室窗外",
+   "page": 163,
+   "why": "outside the bedroom window"
+  },
+  {
+   "wrong": "日天站的地方",
+   "right": "白天站的地方",
+   "page": 163,
+   "why": "where they stood by day"
+  },
+  {
+   "wrong": "沅陵风凰山",
+   "right": "沅陵凤凰山",
+   "page": 163,
+   "why": "Fenghuangshan at Yuanling"
+  },
+  {
+   "wrong": "这个广占地",
+   "right": "这个厂占地",
+   "page": 164,
+   "why": "the plant covered a wide area; crop-verified"
+  },
+  {
+   "wrong": "蕾水池",
+   "right": "蓄水池",
+   "page": 164,
+   "why": "reservoir; crop-verified"
+  },
+  {
+   "wrong": "三漂印月",
+   "right": "三潭印月",
+   "page": 164,
+   "why": "the Three Pools Mirroring the Moon, copied from the West Lake; crop-verified"
+  },
+  {
+   "wrong": "修文阳明润",
+   "right": "修文阳明洞",
+   "page": 164,
+   "why": "the Yangming cave at Xiuwen; crop-verified"
+  },
+  {
+   "wrong": "戴符认为",
+   "right": "戴笠认为",
+   "page": 164,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "萝介石批准",
+   "right": "蒋介石批准",
+   "page": 164,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "靠南端的一间是究室",
+   "right": "靠南端的一间是卧室",
+   "page": 164,
+   "why": "bedroom"
+  },
+  {
+   "wrong": "必外在这所房子",
+   "right": "此外在这所房子",
+   "page": 164,
+   "why": "besides"
+  },
+  {
+   "wrong": "岗哨字",
+   "right": "岗哨等",
+   "page": 164,
+   "why": "sentry posts and the like"
+  },
+  {
+   "wrong": "赵一获",
+   "right": "赵一荻",
+   "page": 164,
+   "why": "Zhao Yidi, Miss Zhao the Fourth; crop-verified"
+  },
+  {
+   "wrong": "〈印赵四小姐",
+   "right": "(即赵四小姐",
+   "page": 164,
+   "why": "that is, Miss Zhao the Fourth; crop-verified"
+  },
+  {
+   "wrong": "去美国体息",
+   "right": "去美国休息",
+   "page": 164,
+   "why": "to rest in America"
+  },
+  {
+   "wrong": "自张被内禁后",
+   "right": "自张被囚禁后",
+   "page": 165,
+   "why": "after Zhang's confinement"
+  },
+  {
+   "wrong": "符务队长",
+   "right": "特务队长",
+   "page": 165,
+   "why": "the operatives' squad commander; crop-verified"
+  },
+  {
+   "wrong": "继续内焚",
+   "right": "继续囚禁",
+   "page": 165,
+   "why": "still confined; crop-verified"
+  },
+  {
+   "wrong": "惊震志界",
+   "right": "惊震世界",
+   "page": 165,
+   "why": "which shocked the world; crop-verified"
+  },
+  {
+   "wrong": "这人也一网被杀害",
+   "right": "这人也一同被杀害",
+   "page": 165,
+   "why": "was killed along with them; crop-verified"
+  },
+  {
+   "wrong": "女怖人",
+   "right": "女佣人",
+   "page": 165,
+   "why": "maidservant; crop-verified"
+  },
+  {
+   "wrong": "老年女人导人",
+   "right": "老年女佣人",
+   "page": 165,
+   "why": "the old maidservant; crop-verified"
+  },
+  {
+   "wrong": "哈哈大关起来",
+   "right": "哈哈大笑起来",
+   "page": 165,
+   "why": "burst out laughing; crop-verified"
+  },
+  {
+   "wrong": "一条党子",
+   "right": "一条凳子",
+   "page": 165,
+   "why": "a bench; crop-verified"
+  },
+  {
+   "wrong": "说下去吧二",
+   "right": "说下去吧",
+   "page": 165,
+   "why": "go on"
+  },
+  {
+   "wrong": "张将军被办禁期间",
+   "right": "张将军被囚禁期间",
+   "page": 165,
+   "why": "during his confinement"
+  },
+  {
+   "wrong": "戴等每年",
+   "right": "戴笠每年",
+   "page": 165,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "莫德囊",
+   "right": "莫德惠",
+   "page": 165,
+   "why": "Mo Dehui; the same page prints 莫德惠 on the next line"
+  },
+  {
+   "wrong": "戴派百统人事处长",
+   "right": "戴派军统人事处长",
+   "page": 165,
+   "why": "the Juntong's personnel chief"
+  },
+  {
+   "wrong": "每班人小时",
+   "right": "每班八小时",
+   "page": 165,
+   "why": "eight hours a shift"
+  },
+  {
+   "wrong": "李和久桢",
+   "right": "李仲桢",
+   "page": 163,
+   "why": "provisional: the Xiuwen county magistrate Dai Li recommended; not confirmed at this resolution"
+  },
+  {
+   "wrong": "安奈他一下",
+   "right": "安慰他一下",
+   "page": 166,
+   "why": "console him"
+  },
+  {
+   "wrong": "党识丰富",
+   "right": "常识丰富",
+   "page": 166,
+   "why": "widely informed; crop-verified"
+  },
+  {
+   "wrong": "满足目己",
+   "right": "满足自己",
+   "page": 166,
+   "why": "satisfy my own"
+  },
+  {
+   "wrong": "问衣蝶",
+   "right": "问胡蝶",
+   "page": 166,
+   "why": "asked Butterfly Wu"
+  },
+  {
+   "wrong": "只把头播了两下",
+   "right": "只把头摇了两下",
+   "page": 166,
+   "why": "shook her head twice"
+  },
+  {
+   "wrong": "只报着嘴笑",
+   "right": "只抿着嘴笑",
+   "page": 166,
+   "why": "pursed her lips and smiled"
+  },
+  {
+   "wrong": "这时戴等正走进来",
+   "right": "这时戴笠正走进来",
+   "page": 166,
+   "why": "Dai Li came in"
+  },
+  {
+   "wrong": "他与明有过什么关系",
+   "right": "他与胡有过什么关系",
+   "page": 166,
+   "why": "any connection with Butterfly Wu"
+  },
+  {
+   "wrong": "谈不土什么关系",
+   "right": "谈不上什么关系",
+   "page": 166,
+   "why": "no question of any connection"
+  },
+  {
+   "wrong": "在被办禁期间花费",
+   "right": "在被囚禁期间花费",
+   "page": 167,
+   "why": "during his confinement"
+  },
+  {
+   "wrong": "同时也项有心得",
+   "right": "同时也颇有心得",
+   "page": 167,
+   "why": "and had views of his own"
+  },
+  {
+   "wrong": "抄整这些东西",
+   "right": "抄写这些东西",
+   "page": 167,
+   "why": "copy them out"
+  },
+  {
+   "wrong": "戴等总是尽可能",
+   "right": "戴笠总是尽可能",
+   "page": 167,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "他和希望找几位",
+   "right": "他希望找几位",
+   "page": 167,
+   "why": "spurious 和"
+  },
+  {
+   "wrong": "得到戴等的暗示",
+   "right": "得到戴笠的暗示",
+   "page": 167,
+   "why": "a hint from Dai Li"
+  },
+  {
+   "wrong": "在被因禁期间身体",
+   "right": "在被囚禁期间身体",
+   "page": 167,
+   "why": "during his confinement"
+  },
+  {
+   "wrong": "黄崩以后",
+   "right": "黄昏以后",
+   "page": 167,
+   "why": "after dusk"
+  },
+  {
+   "wrong": "一个巴起的沙洲",
+   "right": "一个凸起的沙洲",
+   "page": 167,
+   "why": "a sandbank standing above the water"
+  },
+  {
+   "wrong": "他使用的钓鱼竺",
+   "right": "他使用的钓鱼竿",
+   "page": 167,
+   "why": "his fishing rods"
+  },
+  {
+   "wrong": "有由他自己用竹子",
+   "right": "还有由他自己用竹子",
+   "page": 167,
+   "why": "and others he made himself"
+  },
+  {
+   "wrong": "小钓笔",
+   "right": "小钓竿",
+   "page": 167,
+   "why": "small rods"
+  },
+  {
+   "wrong": "用大石块捡住",
+   "right": "用大石块压住",
+   "page": 167,
+   "why": "weighted with a large stone"
+  },
+  {
+   "wrong": "挂在房榴下",
+   "right": "挂在房檐下",
+   "page": 167,
+   "why": "hung under the eaves"
+  },
+  {
+   "wrong": "阿米荔表广",
+   "right": "阿米茄表厂",
+   "page": 168,
+   "why": "Omega (period transliteration 亚米茄/阿米茄) watch factory; crop-verified"
+  },
+  {
+   "wrong": "吃不到肠面蚀",
+   "right": "吃不到白面馍",
+   "page": 168,
+   "why": "white-flour steamed bread; crop-verified"
+  },
+  {
+   "wrong": "王陵基杀和目",
+   "right": "王陵基亲自",
+   "page": 168,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "藉介石",
+   "right": "蒋介石",
+   "page": 168,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "继续内禁",
+   "right": "继续囚禁",
+   "page": 168,
+   "why": "囚 read as 内"
+  },
+  {
+   "wrong": "萝介石",
+   "right": "蒋介石",
+   "page": 168,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "蕊记",
+   "right": "忘记",
+   "page": 168,
+   "why": "忘 read as 蕊"
+  },
+  {
+   "wrong": "很感蜥愧",
+   "right": "很感惭愧",
+   "page": 168,
+   "why": "惭 read as 蜥"
+  },
+  {
+   "wrong": "已被办满十年",
+   "right": "已被关满十年",
+   "page": 168,
+   "why": "关 read as 办"
+  },
+  {
+   "wrong": "在基凉的小城",
+   "right": "在荒凉的小城",
+   "page": 169,
+   "why": "荒凉; crop-verified"
+  },
+  {
+   "wrong": "不问萌廷大事",
+   "right": "不问朝廷大事",
+   "page": 169,
+   "why": "朝廷; crop-verified"
+  },
+  {
+   "wrong": "草山温朵区",
+   "right": "草山温泉区",
+   "page": 169,
+   "why": "Caoshan hot-spring district; crop-verified"
+  },
+  {
+   "wrong": "骂耶皖三省荐总",
+   "right": "鄂豫皖三省剿总",
+   "page": 169,
+   "why": "Hubei-Henan-Anhui bandit-suppression HQ; crop-verified"
+  },
+  {
+   "wrong": "于脆把我",
+   "right": "干脆把我",
+   "page": 169,
+   "why": "干脆"
+  },
+  {
+   "wrong": "他知章与看守",
+   "right": "他知道与看守",
+   "page": 169,
+   "why": "知道"
+  },
+  {
+   "wrong": "睁大眼睛采坐",
+   "right": "睁大眼睛呆坐",
+   "page": 169,
+   "why": "呆坐"
+  },
+  {
+   "wrong": "气得发拌",
+   "right": "气得发抖",
+   "page": 170,
+   "why": "发抖"
+  },
+  {
+   "wrong": "他走回上自己房间",
+   "right": "他走回自己房间",
+   "page": 169,
+   "why": "stray 上"
+  },
+  {
+   "wrong": "人台湾情况混乱",
+   "right": "全台湾情况混乱",
+   "page": 170,
+   "why": "全 read as 人"
+  },
+  {
+   "wrong": "戎介石",
+   "right": "蒋介石",
+   "page": 170,
+   "why": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "企图支走张学良",
+   "right": "企图劫走张学良",
+   "page": 170,
+   "why": "劫走; crop-verified"
+  },
+  {
+   "wrong": "不使支走",
+   "right": "不使劫走",
+   "page": 170,
+   "why": "劫走; crop-verified"
+  },
+  {
+   "wrong": "将张学良击和能",
+   "right": "将张学良击毙",
+   "page": 170,
+   "why": "击毙; crop-verified"
+  },
+  {
+   "wrong": "不使张被动或趁混乱",
+   "right": "不使张被劫或趁混乱",
+   "page": 170,
+   "why": "被劫"
+  },
+  {
+   "wrong": "一面况力抵抗",
+   "right": "一面竭力抵抗",
+   "page": 170,
+   "why": "竭力; crop-verified"
+  },
+  {
+   "wrong": "抬高目己喘价",
+   "right": "抬高自己身价",
+   "page": 167,
+   "why": "自己身价"
+  },
+  {
+   "wrong": "慌怕是",
+   "right": "恐怕是",
+   "page": 167,
+   "why": "恐怕"
+  },
+  {
+   "wrong": "不但中荣做得好",
+   "right": "不但中餐做得好",
+   "page": 168,
+   "why": "中餐"
+  },
+  {
+   "wrong": "的消中办法",
+   "right": "的消遣办法",
+   "page": 168,
+   "why": "消遣"
+  },
+  {
+   "wrong": "在一条党子上",
+   "right": "在一条凳子上",
+   "page": 165,
+   "why": "凳子; crop-verified"
+  },
+  {
+   "wrong": "女人导人",
+   "right": "女佣人",
+   "page": 165,
+   "why": "女佣人"
+  },
+  {
+   "wrong": "哈哈大关",
+   "right": "哈哈大笑",
+   "page": 165,
+   "why": "哈哈大笑; crop-verified"
+  },
+  {
+   "wrong": "符务队长刘乙光",
+   "right": "特务队长刘乙光",
+   "page": 165,
+   "why": "特务"
+  },
+  {
+   "wrong": "向戴竺请示",
+   "right": "向戴笠请示",
+   "page": 165,
+   "why": "戴笠"
+  }
  ]
 }
