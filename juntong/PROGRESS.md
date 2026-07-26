@@ -302,6 +302,23 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch13 (中美特种技术合作所内幕 / Inside SACO) - PREPPED, NOT YET TRANSLATED
+
+- PDF 229-275, printed 210-256. THE LARGEST CHAPTER IN THE BOOK: 126 body
+  paragraphs, ~32,000 CJK chars, 11 section headings -- roughly 3x a normal
+  chapter. Rendered, OCR'd, indents measured, assembled.
+- Section titles crop-verified and in the ledger: 中美特种技术合作所内幕,
+  成立经过, 前后三次签订的合同概要, 组织、人事及活动情况, 美帝特务的活动情况,
+  梅乐斯的罪恶活动, 美帝海军与陆军争夺对中美所的领导权 (ONE title split over
+  two source heading lines -- blocks 109+110; merge into one ## in English),
+  为求美特欢心举行的几次盛大宴会, 蒋介石最欣赏美国刑具, 任务未完先行结束.
+- WHEN RESUMING: this chapter carries three contract texts and a large cast of
+  American names to crop-verify -- Miles (梅乐斯), Xiao Bo (肖勃), Guo Dequan
+  (郭德权), Depass/迪帕斯, Knox (诺克斯), Luce (鲁斯 = Henry Luce of Life),
+  Bergholz (贝乐利), plus the SACO org roster (李崇诗/李崇许?, 何芝园, 沈维翰,
+  徐人骥, etc. -- all need crop-verify). Budget it as a multi-session unit;
+  do NOT write a partial ch13_reading.md that fails parity.
+
 ### ch12 (旧社会里的鸡鸣狗盗和侦缉人员 / Thieves and Detectives in the Old Society) - DONE
 
 - PDF 212-228, printed 193-208. 51 body paragraphs, 51 translated. The

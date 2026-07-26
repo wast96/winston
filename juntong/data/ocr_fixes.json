@@ -9650,5 +9650,37 @@
    "page": 225,
    "why": "embedded OCR page-number junk 606/206 removed"
   }
+ ],
+ "ch13": [
+  {
+   "wrong": "### 中美特种技术合作所内和攻",
+   "right": "### 中美特种技术合作所内幕",
+   "page": 229,
+   "why": "chapter title; crop-verified"
+  },
+  {
+   "wrong": "### 美融将务的活动情况",
+   "right": "### 美帝特务的活动情况",
+   "page": 258,
+   "why": "section; crop-verified"
+  },
+  {
+   "wrong": "### 为求美特欢司举行的几次盛大宴会",
+   "right": "### 为求美特欢心举行的几次盛大宴会",
+   "page": 271,
+   "why": "section; crop-verified"
+  },
+  {
+   "wrong": "### 着介石最饮责美国刑具",
+   "right": "### 蒋介石最欣赏美国刑具",
+   "page": 274,
+   "why": "section; crop-verified"
+  },
+  {
+   "wrong": "### 组织\\人事及活动情况",
+   "right": "### 组织、人事及活动情况",
+   "page": 238,
+   "why": "section"
+  }
  ]
 }
