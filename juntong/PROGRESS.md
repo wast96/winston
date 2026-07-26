@@ -302,7 +302,24 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
-### ch20 (保密局内幕 / Inside the Bureau of Secrets Preservation) - SOURCE PREP + SYSTEMATIC LEDGER, TRANSLATION PENDING
+### ch20 (保密局内幕 / Inside the Bureau of Secrets Preservation) - LEDGER + ROSTER VERIFICATION DONE, TRANSLATION PENDING
+
+- ROSTER CROP-VERIFICATION (this turn, +18 ledger entries, 61 total). The
+  documented 歌乐山/红岩 massacre roster (para 59) crop-verified against the
+  scan: 蒲华辅 (was 清华辅), 杨翱 (was 杨勒), 阎继民 (was 净继民), 艾仲煌 (was
+  艾伸煌), 杨伯凯 (was 杨们凯; documented 杨伯恺). Massacre narrative (paras
+  86-91) confirmed clean for 杨虎城, 黄显声, 杨汉秀, 陈为城, 王亚细, 徐钟奇,
+  张明选, 陆景清; 黎剑霜 crop-confirmed (book's form; documented as 黎洁霜).
+  Systematic: 将盏->将军, 缘丝厂->缫丝厂, 内禁/因禁/办禁/内蔡->囚禁. Station
+  roster (para 36) crop-verified where load-bearing: 王巍 (was 王疯; Yunnan
+  station, cf. ch14), 苏子鹄 (was 苏子移), 王鸿骏 (was 王鸿验), 饶铁珊 (was
+  伐铁珊), 拉萨站 (was 拉陕站), 闽南站 (was 国南站), 梁若节 (was 粱若节).
+- REMAINING OCR-TRUSTED (spot-check in the final fable pass): the obscure
+  one-appearance provincial station chiefs in para 36 not crop-verified above
+  (孔党民, 田办, 刘暨, 刘藏欢, 唐乘对, 翁一把, 钟贡册, 李修遍, 王方兰, 郑逢影,
+  汉德恭, 苏业光, 钟可庄, 李惟棉, 杨华波, 入志光, 滕勉, 项万光, 张静宣, 胡子薄,
+  钱宪林 etc.) and the para-80 Shanghai victims (备士衡, 肖俭克, 陈惕户 etc.).
+  These are minor figures; render from OCR, flag for spot-check.
 
 - PDF 411-469, printed 392-450. 163 body paragraphs + 7 detected ### headings,
   ~40,000 CJK chars. THE BIGGEST CHAPTER IN THE BOOK. Multi-turn unit -- do NOT

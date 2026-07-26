@@ -14813,6 +14813,114 @@
       "right": "，军统另一套办法",
       "page": 0,
       "why": "spurious 和"
+    },
+    {
+      "wrong": "清华辅",
+      "right": "蒲华辅",
+      "page": 415,
+      "why": "martyr Pu Huafu (四川省委); 蒲->清"
+    },
+    {
+      "wrong": "杨勒",
+      "right": "杨翱",
+      "page": 415,
+      "why": "martyr Yang Ao; 翱->勒"
+    },
+    {
+      "wrong": "净继民",
+      "right": "阎继民",
+      "page": 415,
+      "why": "martyr Yan Jimin; 阎->净"
+    },
+    {
+      "wrong": "艾伸煌",
+      "right": "艾仲煌",
+      "page": 415,
+      "why": "martyr Ai Zhonghuang; 仲->伸"
+    },
+    {
+      "wrong": "杨们凯",
+      "right": "杨伯凯",
+      "page": 415,
+      "why": "martyr Yang Bokai (十二桥; documented as 杨伯恺); 伯->们"
+    },
+    {
+      "wrong": "将盏",
+      "right": "将军",
+      "page": 0,
+      "why": "'general'; 军->盏 (杨虎城/张学良 将军)"
+    },
+    {
+      "wrong": "缘丝",
+      "right": "缫丝",
+      "page": 425,
+      "why": "silk-reeling factory (execution site); 缫->缘"
+    },
+    {
+      "wrong": "内禁",
+      "right": "囚禁",
+      "page": 0,
+      "why": "imprisoned; 囚->内"
+    },
+    {
+      "wrong": "因禁",
+      "right": "囚禁",
+      "page": 0,
+      "why": "imprisoned; 囚->因"
+    },
+    {
+      "wrong": "办禁",
+      "right": "囚禁",
+      "page": 425,
+      "why": "imprisoned; 囚->办"
+    },
+    {
+      "wrong": "内蔡",
+      "right": "囚禁",
+      "page": 425,
+      "why": "held/imprisoned; OCR garble -> 囚禁"
+    },
+    {
+      "wrong": "王疯",
+      "right": "王巍",
+      "page": 405,
+      "why": "Yunnan station chief Wang Wei (cf. ch14); 巍->疯"
+    },
+    {
+      "wrong": "苏子移",
+      "right": "苏子鹄",
+      "page": 405,
+      "why": "Yunnan station Su Zihu; 鹄->移"
+    },
+    {
+      "wrong": "王鸿验",
+      "right": "王鸿骏",
+      "page": 405,
+      "why": "Gansu-region Wang Hongjun; 骏->验"
+    },
+    {
+      "wrong": "伐铁珊",
+      "right": "饶铁珊",
+      "page": 405,
+      "why": "Xinjiang station Rao Tieshan; 饶->伐"
+    },
+    {
+      "wrong": "拉陕站",
+      "right": "拉萨站",
+      "page": 405,
+      "why": "Lhasa (Tibet) station; 萨->陕"
+    },
+    {
+      "wrong": "国南站",
+      "right": "闽南站",
+      "page": 405,
+      "why": "southern-Fujian station; 闽->国"
+    },
+    {
+      "wrong": "粱若节",
+      "right": "梁若节",
+      "page": 405,
+      "why": "Qingdao station Liang Ruojie; 梁->粱"
     }
   ]
 }
