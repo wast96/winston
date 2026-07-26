@@ -643,12 +643,16 @@ Four routines fire into this session on the hour, offset to give a roughly
 15-minute cadence (the server enforces a one-hour minimum per routine, so the
 cadence is built from four of them rather than one quarter-hourly schedule):
 
-  trig_01S5CvzyS3eJ8WNftAfreQrJ  resume (:00)   0 0-23 * * *
-  trig_01WDHR8F56isWhzk1hutP53i  resume (:15)   15 * * * *
-  trig_01SHb5gLz8MuUSVGqrSbmwdq  resume (:30)   30 * * * *
-  trig_01YPE2vMy3oZtsVWjCsTTBVv  resume (:45)   45 * * * *
+  trig_013MTXGfGeLaHnWYNch9WSyF  resume (:04, server-anchored)
+  trig_019kYNxyeLBKiH997uEguYAJ  resume (:10)
+  trig_0143bPgBXSMYZyqtCdnNjF1v  resume (:20)
+  trig_017UGgcXSTJKbAmLaWY8usfA  resume (:30)
+  trig_015NZK9u2DoznUUWut8Z5mjW  resume (:40)
+  trig_017aetyoMaUkaKbdg6BZZErE  resume (:50)
 
-ALL FOUR must be deleted once every unit is done and qa_epub passes. They
+ALL SIX must be deleted once every unit is done and qa_epub passes. The old
+four routines no longer appear in list_triggers and are presumed gone; these
+six replaced them 2026-07-26 at Winston's request (every ten minutes). They
 store no MCP connectors, so the sessions they wake cannot delete them: that
 has to happen from a session holding the tool, or from the routines UI.
 
