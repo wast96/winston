@@ -11956,5 +11956,1837 @@
    "page": 277,
    "why": "天雨路滑 rain makes the road slippery; OCR 雨->两"
   }
+ ],
+ "ch14": [
+  {
+   "wrong": "### 人民民,主运动高涨",
+   "right": "### 人民民主运动高涨",
+   "page": 276,
+   "why": "section; crop-verified"
+  },
+  {
+   "wrong": "### 将务卫谋活动独儿",
+   "right": "### 特务阴谋活动猖獗",
+   "page": 276,
+   "why": "section; crop-verified"
+  },
+  {
+   "wrong": "### 和忽朋忽暗的政治局势",
+   "right": "### 忽明忽暗的政治局势",
+   "page": 292,
+   "why": "section; crop-verified"
+  },
+  {
+   "wrong": "### 和毛人凤在昆明的阴谋活动",
+   "right": "### 毛人凤在昆明的阴谋活动",
+   "page": 298,
+   "why": "section"
+  },
+  {
+   "wrong": "### 军统将务在昆明的最后挣扎",
+   "right": "### 军统特务在昆明的最后挣扎",
+   "page": 306,
+   "why": "section; crop-verified"
+  },
+  {
+   "wrong": "薪介石",
+   "right": "蒋介石",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "藉介石",
+   "right": "蒋介石",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "菏介石",
+   "right": "蒋介石",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "荐介石",
+   "right": "蒋介石",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "毛人风",
+   "right": "毛人凤",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "毛人反",
+   "right": "毛人凤",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "戴符",
+   "right": "戴笠",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "戴等",
+   "right": "戴笠",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "戴竺",
+   "right": "戴笠",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "瞳杀",
+   "right": "暗杀",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "瞳语",
+   "right": "密语",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "朱景办",
+   "right": "朱景暄",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "朱景罚",
+   "right": "朱景暄",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "朱景输",
+   "right": "朱景暄",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "朱景辽",
+   "right": "朱景暄",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "亚开基",
+   "right": "邱开基",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "至开基",
+   "right": "邱开基",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "抒开基",
+   "right": "邱开基",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "童稚莲",
+   "right": "童鹤莲",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "陈世质",
+   "right": "陈世贤",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "周养洛",
+   "right": "周养浩",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "龙洋汇",
+   "right": "龙泽汇",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "徐鹏飞",
+   "right": "徐鹏飞",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "诬芒",
+   "right": "诬蔑",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "诬蕊",
+   "right": "诬蔑",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "诬蕨",
+   "right": "诬蔑",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "污芒",
+   "right": "污蔑",
+   "page": null,
+   "why": "systematic ch14 mangle"
+  },
+  {
+   "wrong": "其余沿待有关人士作全面的扎述",
+   "right": "其余尚待有关人士作全面的补述",
+   "page": 276,
+   "why": "provisional 尚待...补述"
+  },
+  {
+   "wrong": "策系部队",
+   "right": "滇系部队",
+   "page": 276,
+   "why": "provisional 滇系; flagged"
+  },
+  {
+   "wrong": "上川演铁路",
+   "right": "叙昆铁路",
+   "page": 276,
+   "why": "provisional -- garbled rail line; flagged"
+  },
+  {
+   "wrong": "哪还有时间去补天上",
+   "right": "哪还有时间去补天",
+   "page": 277,
+   "why": "quote close"
+  },
+  {
+   "wrong": "赖以反共的精锐录系部队",
+   "right": "赖以反共的精锐部队",
+   "page": 277,
+   "why": "provisional stray 录系"
+  },
+  {
+   "wrong": "已无眼兼顾",
+   "right": "已无暇兼顾",
+   "page": 277,
+   "why": "无暇"
+  },
+  {
+   "wrong": "急不可竺地",
+   "right": "急不可待地",
+   "page": 277,
+   "why": "急不可待"
+  },
+  {
+   "wrong": "卢汉这个东族将领",
+   "right": "卢汉这个彝族将领",
+   "page": 277,
+   "why": "彝族 Yi ethnicity"
+  },
+  {
+   "wrong": "甫孙一下",
+   "right": "敷衍一下",
+   "page": 277,
+   "why": "provisional 敷衍"
+  },
+  {
+   "wrong": "动辑识讽辱名",
+   "right": "动辄冷讽热骂",
+   "page": 277,
+   "why": "provisional; flagged"
+  },
+  {
+   "wrong": "这个国民党政府中的“简内”",
+   "right": "这个国民党政府中的“阔少”",
+   "page": 277,
+   "why": "provisional 阔少; flagged"
+  },
+  {
+   "wrong": "整天不是打猜",
+   "right": "整天不是打猎",
+   "page": 277,
+   "why": "打猎"
+  },
+  {
+   "wrong": "用几生两黄金",
+   "right": "用几千两黄金",
+   "page": 277,
+   "why": "几千两"
+  },
+  {
+   "wrong": "没有到房子刚落成",
+   "right": "没想到房子刚落成",
+   "page": 277,
+   "why": "没想到"
+  },
+  {
+   "wrong": "吟只司机",
+   "right": "吩咐司机",
+   "page": 277,
+   "why": "provisional 吩咐"
+  },
+  {
+   "wrong": "避让人瘟",
+   "right": "避让人畜",
+   "page": 278,
+   "why": "人畜"
+  },
+  {
+   "wrong": "发现的鸟曾",
+   "right": "发现的鸟雀",
+   "page": 278,
+   "why": "provisional 鸟雀"
+  },
+  {
+   "wrong": "魏新的小轿车",
+   "right": "崭新的小轿车",
+   "page": 278,
+   "why": "崭新"
+  },
+  {
+   "wrong": "加道",
+   "right": "喝道",
+   "page": 278,
+   "why": "provisional 喝道"
+  },
+  {
+   "wrong": "吓距一下",
+   "right": "吓唬一下",
+   "page": 278,
+   "why": "吓唬"
+  },
+  {
+   "wrong": "名了一顿",
+   "right": "骂了一顿",
+   "page": 279,
+   "why": "骂"
+  },
+  {
+   "wrong": "原来那个团长是他权权何应钦",
+   "right": "原来那个团长是他叔叔何应钦",
+   "page": 279,
+   "why": "provisional 叔叔"
+  },
+  {
+   "wrong": "毕茶毕敬",
+   "right": "毕恭毕敬",
+   "page": 279,
+   "why": "毕恭毕敬"
+  },
+  {
+   "wrong": "天罗人她",
+   "right": "天怒人怨",
+   "page": 279,
+   "why": "provisional 天怒人怨"
+  },
+  {
+   "wrong": "退外上户汉",
+   "right": "攻击卢汉",
+   "page": 279,
+   "why": "provisional; flagged"
+  },
+  {
+   "wrong": "百头帖",
+   "right": "打倒帖",
+   "page": 279,
+   "why": "provisional; flagged"
+  },
+  {
+   "wrong": "要我蔡他在云南散发",
+   "right": "要我替他在云南散发",
+   "page": 279,
+   "why": "替"
+  },
+  {
+   "wrong": "警备总司令部设有撤销时",
+   "right": "警备总司令部撤销后",
+   "page": 280,
+   "why": "provisional"
+  },
+  {
+   "wrong": "军法处长本龙恺",
+   "right": "军法处长李龙恺",
+   "page": 280,
+   "why": "provisional Li Longkai"
+  },
+  {
+   "wrong": "是搞战初期",
+   "right": "是抗战初期",
+   "page": 280,
+   "why": "抗战"
+  },
+  {
+   "wrong": "演桂黔边区纵队",
+   "right": "滇桂黔边区纵队",
+   "page": 280,
+   "why": "滇桂黔"
+  },
+  {
+   "wrong": "等来人去取报机的时候了予以逮捕",
+   "right": "等来人去取报机的时候予以逮捕",
+   "page": 280,
+   "why": "stray 了"
+  },
+  {
+   "wrong": "他被活抱",
+   "right": "他被活捉",
+   "page": 281,
+   "why": "活捉"
+  },
+  {
+   "wrong": "他同到昆明",
+   "right": "他回到昆明",
+   "page": 281,
+   "why": "回到"
+  },
+  {
+   "wrong": "宣传解放和军如何优待俘虏",
+   "right": "宣传解放军如何优待俘虏",
+   "page": 281,
+   "why": "解放军"
+  },
+  {
+   "wrong": "这个人就是加巴讨厌",
+   "right": "这个人就是嘴巴讨厌",
+   "page": 281,
+   "why": "provisional 嘴巴"
+  },
+  {
+   "wrong": "叶震翟送到昆明",
+   "right": "叶霞翟送到昆明",
+   "page": 281,
+   "why": "Ye Xiazhai"
+  },
+  {
+   "wrong": "叶霞愤接到昆明",
+   "right": "叶霞翟接到昆明",
+   "page": 281,
+   "why": "Ye Xiazhai"
+  },
+  {
+   "wrong": "要强迫王狗释放",
+   "right": "要强迫王峙释放",
+   "page": 281,
+   "why": "Wang Zhi"
+  },
+  {
+   "wrong": "卢汉就命令王铬马上",
+   "right": "卢汉就命令王峙马上",
+   "page": 281,
+   "why": "Wang Zhi"
+  },
+  {
+   "wrong": "不为此事和他阑翻",
+   "right": "不为此事和他闹翻",
+   "page": 281,
+   "why": "闹翻"
+  },
+  {
+   "wrong": "不为此事与卢汉闹摩氛",
+   "right": "不为此事与卢汉闹摩擦",
+   "page": 281,
+   "why": "摩擦"
+  },
+  {
+   "wrong": "卢汉对等云南人民民主运动",
+   "right": "卢汉对待云南人民民主运动",
+   "page": 282,
+   "why": "对待"
+  },
+  {
+   "wrong": "库存的钊质辅币",
+   "right": "库存的镍质辅币",
+   "page": 282,
+   "why": "镍质"
+  },
+  {
+   "wrong": "散存的旬币",
+   "right": "散存的镍币",
+   "page": 282,
+   "why": "镍币"
+  },
+  {
+   "wrong": "把有昌存镍币",
+   "right": "把存有镍币",
+   "page": 282,
+   "why": "provisional"
+  },
+  {
+   "wrong": "恢复使用才几天的钊币",
+   "right": "恢复使用才几天的镍币",
+   "page": 282,
+   "why": "镍币"
+  },
+  {
+   "wrong": "云南《中央日报》罕然刊出",
+   "right": "云南《中央日报》突然刊出",
+   "page": 283,
+   "why": "突然"
+  },
+  {
+   "wrong": "和群众越集越多",
+   "right": "群众越集越多",
+   "page": 283,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "一面阿天开枪",
+   "right": "一面朝天开枪",
+   "page": 283,
+   "why": "朝天"
+  },
+  {
+   "wrong": "有妆长安、刘代学",
+   "right": "有张长安、刘代学",
+   "page": 283,
+   "why": "provisional 张长安"
+  },
+  {
+   "wrong": "人金圆券风潮",
+   "right": "金圆券风潮",
+   "page": 283,
+   "why": "stray 人"
+  },
+  {
+   "wrong": "不停地进行抒击",
+   "right": "不停地进行抨击",
+   "page": 283,
+   "why": "抨击"
+  },
+  {
+   "wrong": "朱家壁、庄田等",
+   "right": "朱家璧、庄田等",
+   "page": 283,
+   "why": "Zhu Jiabi"
+  },
+  {
+   "wrong": "站长沈醇仍然暂贸昆明",
+   "right": "站长沈醉仍然暂驻昆明",
+   "page": 284,
+   "why": "Shen Zui; 暂驻"
+  },
+  {
+   "wrong": "恨之人骨",
+   "right": "恨之入骨",
+   "page": 284,
+   "why": "入骨"
+  },
+  {
+   "wrong": "打人户汉身边工作",
+   "right": "打入卢汉身边工作",
+   "page": 284,
+   "why": "打入卢汉"
+  },
+  {
+   "wrong": "保出、车里、佛海",
+   "right": "保山、车里、佛海",
+   "page": 284,
+   "why": "Baoshan"
+  },
+  {
+   "wrong": "川汗、汗越两铁路",
+   "right": "滇缅、滇越两铁路",
+   "page": 284,
+   "why": "provisional; flagged -- rail names garbled"
+  },
+  {
+   "wrong": "苏子物继任",
+   "right": "苏子秀继任",
+   "page": 284,
+   "why": "provisional Su Zixiu; flagged"
+  },
+  {
+   "wrong": "警卫移查组",
+   "right": "警卫稽查组",
+   "page": 284,
+   "why": "稽查"
+  },
+  {
+   "wrong": "交警部只",
+   "right": "交警部队",
+   "page": 284,
+   "why": "部队"
+  },
+  {
+   "wrong": "因时机尚未成郊",
+   "right": "因时机尚未成熟",
+   "page": 284,
+   "why": "成熟"
+  },
+  {
+   "wrong": "卢汉昌有点靠不住",
+   "right": "卢汉虽有点靠不住",
+   "page": 284,
+   "why": "provisional 虽"
+  },
+  {
+   "wrong": "李丈的第八军",
+   "right": "李弥的第八军",
+   "page": 284,
+   "why": "Li Mi"
+  },
+  {
+   "wrong": "已开进去南",
+   "right": "已开进云南",
+   "page": 284,
+   "why": "云南"
+  },
+  {
+   "wrong": "不敢轻举亡动",
+   "right": "不敢轻举妄动",
+   "page": 284,
+   "why": "妄动"
+  },
+  {
+   "wrong": "有所晴惧",
+   "right": "有所畏惧",
+   "page": 284,
+   "why": "畏惧"
+  },
+  {
+   "wrong": "用恺怖手段",
+   "right": "用恐怖手段",
+   "page": 284,
+   "why": "恐怖"
+  },
+  {
+   "wrong": "杀掉乙太古轻而易举",
+   "right": "杀掉杨杰轻而易举",
+   "page": 286,
+   "why": "provisional -- OCR garbled 杨杰"
+  },
+  {
+   "wrong": "我和他们次谈时",
+   "right": "我和他们商谈时",
+   "page": 286,
+   "why": "provisional 商谈"
+  },
+  {
+   "wrong": "用手指者我的头",
+   "right": "用手指着我的头",
+   "page": 286,
+   "why": "指着"
+  },
+  {
+   "wrong": "毛人反又加派",
+   "right": "毛人凤又加派",
+   "page": 287,
+   "why": "Mao Renfeng"
+  },
+  {
+   "wrong": "秦为军统培植多年的剑子手",
+   "right": "秦为军统培植多年的刽子手",
+   "page": 287,
+   "why": "刽子手"
+  },
+  {
+   "wrong": "训无疑问",
+   "right": "毫无疑问",
+   "page": 287,
+   "why": "毫无"
+  },
+  {
+   "wrong": "势如破体",
+   "right": "势如破竹",
+   "page": 287,
+   "why": "破竹"
+  },
+  {
+   "wrong": "我目己也很清楚",
+   "right": "我自己也很清楚",
+   "page": 287,
+   "why": "自己"
+  },
+  {
+   "wrong": "国民和所留下",
+   "right": "国民党所留下",
+   "page": 287,
+   "why": "国民党"
+  },
+  {
+   "wrong": "那几名话",
+   "right": "那几句话",
+   "page": 287,
+   "why": "几句"
+  },
+  {
+   "wrong": "把户汉激胃了",
+   "right": "把卢汉激怒了",
+   "page": 287,
+   "why": "激怒"
+  },
+  {
+   "wrong": "有生命之处",
+   "right": "有生命之虞",
+   "page": 287,
+   "why": "provisional 之虞"
+  },
+  {
+   "wrong": "和欲保云南",
+   "right": "欲保云南",
+   "page": 287,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "家中有和警卫",
+   "right": "家中有警卫",
+   "page": 287,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "四个于暗杀有把握的人人",
+   "right": "四个干暗杀有把握的人",
+   "page": 287,
+   "why": "干; doubled 人"
+  },
+  {
+   "wrong": "美造曲扩手枪",
+   "right": "美造曲尺手枪",
+   "page": 287,
+   "why": "曲尺 automatic pistol"
+  },
+  {
+   "wrong": "并人允许事成之后",
+   "right": "并允许事成之后",
+   "page": 287,
+   "why": "stray 人"
+  },
+  {
+   "wrong": "先色通安的司机",
+   "right": "先买通安的司机",
+   "page": 287,
+   "why": "provisional 买通"
+  },
+  {
+   "wrong": "在偶个的路上",
+   "right": "在僻静的路上",
+   "page": 287,
+   "why": "provisional 僻静"
+  },
+  {
+   "wrong": "洪帮组织武圣山所领导的一些流让",
+   "right": "洪帮组织武圣山所领导的一些流氓",
+   "page": 288,
+   "why": "流氓"
+  },
+  {
+   "wrong": "布置杀杨杰和陈复兴",
+   "right": "布置杀杨杰和陈复光",
+   "page": 288,
+   "why": "Chen Fuguang"
+  },
+  {
+   "wrong": "在上户没有去重庆",
+   "right": "在卢没有去重庆",
+   "page": 288,
+   "why": "卢"
+  },
+  {
+   "wrong": "继一九四七年瞳杀李公朴",
+   "right": "继一九四七年暗杀李公朴",
+   "page": 288,
+   "why": "暗杀"
+  },
+  {
+   "wrong": "传达人台湾方面的指示",
+   "right": "传达台湾方面的指示",
+   "page": 288,
+   "why": "stray 人"
+  },
+  {
+   "wrong": "推其以后谈话",
+   "right": "隔起以后谈话",
+   "page": 288,
+   "why": "provisional"
+  },
+  {
+   "wrong": "由我亲目驶到郊外",
+   "right": "由我亲自驶到郊外",
+   "page": 288,
+   "why": "亲自"
+  },
+  {
+   "wrong": "因他是云南人人",
+   "right": "因他是云南人",
+   "page": 288,
+   "why": "doubled 人"
+  },
+  {
+   "wrong": "余程万新亡的一个小老婆",
+   "right": "余程万新纳的一个小老婆",
+   "page": 289,
+   "why": "provisional 新纳"
+  },
+  {
+   "wrong": "《虎资万岁》",
+   "right": "《虎贲万岁》",
+   "page": 289,
+   "why": "Hu Ben Wan Sui"
+  },
+  {
+   "wrong": "对余蜡常爱莫",
+   "right": "对余非常爱慕",
+   "page": 289,
+   "why": "非常爱慕"
+  },
+  {
+   "wrong": "委喘于张恨水",
+   "right": "委身于张恨水",
+   "page": 289,
+   "why": "委身"
+  },
+  {
+   "wrong": "“席贡英雄”",
+   "right": "“虎贲英雄”",
+   "page": 289,
+   "why": "虎贲"
+  },
+  {
+   "wrong": "副军长彭估四",
+   "right": "副军长彭佐熙",
+   "page": 289,
+   "why": "provisional Peng Zuoxi"
+  },
+  {
+   "wrong": "彭优申当时",
+   "right": "彭佐熙当时",
+   "page": 289,
+   "why": "provisional"
+  },
+  {
+   "wrong": "费过不少展舌",
+   "right": "费过不少唇舌",
+   "page": 289,
+   "why": "唇舌"
+  },
+  {
+   "wrong": "邮江储金局经理李少阳",
+   "right": "邮汇储金局经理李少阳",
+   "page": 289,
+   "why": "provisional 邮汇"
+  },
+  {
+   "wrong": "朱景办和朱子英",
+   "right": "朱景暄和朱子英",
+   "page": 289,
+   "why": "Zhu Jingxuan"
+  },
+  {
+   "wrong": "我从不直接癌他打听",
+   "right": "我从不直接向他打听",
+   "page": 289,
+   "why": "向"
+  },
+  {
+   "wrong": "不会拦劫你",
+   "right": "不会拦阻你",
+   "page": 289,
+   "why": "provisional 拦阻"
+  },
+  {
+   "wrong": "加深他们之间的蔬盾",
+   "right": "加深他们之间的矛盾",
+   "page": 290,
+   "why": "矛盾"
+  },
+  {
+   "wrong": "决心要除挥他",
+   "right": "决心要除掉他",
+   "page": 290,
+   "why": "除掉"
+  },
+  {
+   "wrong": "以缓和云南人民的反菏情绪",
+   "right": "以缓和云南人民的反蒋情绪",
+   "page": 290,
+   "why": "反蒋"
+  },
+  {
+   "wrong": "把你安财打编为两个军",
+   "right": "把保安团扩编为两个军",
+   "page": 290,
+   "why": "provisional 保安团扩编"
+  },
+  {
+   "wrong": "我反而和弄不清",
+   "right": "我反而弄不清",
+   "page": 291,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "怕他们搞上暗杀",
+   "right": "怕他们搞暗杀",
+   "page": 291,
+   "why": "stray 上"
+  },
+  {
+   "wrong": "有不少末戚",
+   "right": "有不少亲戚",
+   "page": 291,
+   "why": "亲戚"
+  },
+  {
+   "wrong": "重庆大层杀前夕",
+   "right": "重庆大屠杀前夕",
+   "page": 291,
+   "why": "屠杀"
+  },
+  {
+   "wrong": "整个要震合的形势",
+   "right": "整个瓦解崩溃的形势",
+   "page": 291,
+   "why": "provisional 瓦解崩溃; flagged"
+  },
+  {
+   "wrong": "利用这种情次销空子",
+   "right": "利用这种情况钻空子",
+   "page": 291,
+   "why": "情况钻空子"
+  },
+  {
+   "wrong": "冒充共产党的什么特浅员",
+   "right": "冒充共产党的什么特派员",
+   "page": 291,
+   "why": "特派员"
+  },
+  {
+   "wrong": "都以能和他见一面为薪",
+   "right": "都以能和他见一面为荣",
+   "page": 291,
+   "why": "为荣"
+  },
+  {
+   "wrong": "这家估也装模作样",
+   "right": "这家伙也装模作样",
+   "page": 291,
+   "why": "这家伙"
+  },
+  {
+   "wrong": "回户汉要求拨一个营",
+   "right": "向卢汉要求拨一个营",
+   "page": 291,
+   "why": "向卢汉"
+  },
+  {
+   "wrong": "因为张乌拉了一些",
+   "right": "因为张某拉了一些",
+   "page": 291,
+   "why": "provisional 张某"
+  },
+  {
+   "wrong": "确有反萝投共的打算",
+   "right": "确有反蒋投共的打算",
+   "page": 291,
+   "why": "反蒋"
+  },
+  {
+   "wrong": "最可矣的是",
+   "right": "最可笑的是",
+   "page": 291,
+   "why": "可笑"
+  },
+  {
+   "wrong": "秘书长朱景罚",
+   "right": "秘书长朱景暄",
+   "page": 291,
+   "why": "Zhu Jingxuan"
+  },
+  {
+   "wrong": "不让朱景办参与",
+   "right": "不让朱景暄参与",
+   "page": 291,
+   "why": "Zhu Jingxuan"
+  },
+  {
+   "wrong": "同张蚀联系",
+   "right": "同张某联系",
+   "page": 291,
+   "why": "provisional 张某"
+  },
+  {
+   "wrong": "他便辣我建议",
+   "right": "他便向我建议",
+   "page": 291,
+   "why": "provisional 向"
+  },
+  {
+   "wrong": "保卫他们的一个萤缴械",
+   "right": "保卫他们的一个营缴械",
+   "page": 291,
+   "why": "营"
+  },
+  {
+   "wrong": "拜访过张外的人",
+   "right": "拜访过张某的人",
+   "page": 291,
+   "why": "provisional 张某"
+  },
+  {
+   "wrong": "户汉果然发党张杀是彤充共产党",
+   "right": "卢汉果然发觉张某是冒充共产党",
+   "page": 291,
+   "why": "发觉;provisional 张某冒充"
+  },
+  {
+   "wrong": "羌了现",
+   "right": "兑现",
+   "page": 277,
+   "why": "provisional"
+  },
+  {
+   "wrong": "演了一幕滑稿丑剧",
+   "right": "演了一幕滑稽丑剧",
+   "page": 290,
+   "why": "滑稽"
+  },
+  {
+   "wrong": "最感环手",
+   "right": "最感棘手",
+   "page": 290,
+   "why": "棘手"
+  },
+  {
+   "wrong": "整个兵团被奢灭",
+   "right": "整个兵团被歼灭",
+   "page": 290,
+   "why": "歼灭"
+  },
+  {
+   "wrong": "恩咸并用",
+   "right": "恩威并用",
+   "page": 290,
+   "why": "恩威"
+  },
+  {
+   "wrong": "要遵到战争的踩蹦",
+   "right": "要遭到战争的践踏",
+   "page": 291,
+   "why": "provisional 践踏"
+  },
+  {
+   "wrong": "卢正在犹孙不决",
+   "right": "卢正在犹豫不决",
+   "page": 291,
+   "why": "犹豫"
+  },
+  {
+   "wrong": "香烟头堆满烟灰和",
+   "right": "香烟头堆满烟灰缸",
+   "page": 291,
+   "why": "烟灰缸"
+  },
+  {
+   "wrong": "炮衣业已印去",
+   "right": "炮衣业已卸去",
+   "page": 291,
+   "why": "provisional 卸去"
+  },
+  {
+   "wrong": "市面上争购柴米荣蔬",
+   "right": "市面上争购柴米菜蔬",
+   "page": 291,
+   "why": "菜蔬"
+  },
+  {
+   "wrong": "怕一旦枪啊买不到",
+   "right": "怕一旦枪响买不到",
+   "page": 291,
+   "why": "枪响"
+  },
+  {
+   "wrong": "我特别铂了刑-警大队长",
+   "right": "我特别叫刑警大队长",
+   "page": 291,
+   "why": "叫;stray dash"
+  },
+  {
+   "wrong": "因周为朱的连裤",
+   "right": "因周为朱的连襟",
+   "page": 291,
+   "why": "连襟"
+  },
+  {
+   "wrong": "周在电话中辐我报告",
+   "right": "周在电话中向我报告",
+   "page": 291,
+   "why": "向"
+  },
+  {
+   "wrong": "纷纷低着作暂时离开",
+   "right": "纷纷作暂时离开",
+   "page": 291,
+   "why": "provisional stray"
+  },
+  {
+   "wrong": "一根认出了他",
+   "right": "一眼认出了他",
+   "page": 293,
+   "why": "一眼"
+  },
+  {
+   "wrong": "由民划云南另一负责人朱剑飞",
+   "right": "由民革云南另一负责人朱剑飞",
+   "page": 293,
+   "why": "民革;Zhu Jianfei"
+  },
+  {
+   "wrong": "把正在开会的参议员返走",
+   "right": "把正在开会的参议员赶走",
+   "page": 293,
+   "why": "赶走"
+  },
+  {
+   "wrong": "参议员马伯安、马牙、金汉易、李群杰",
+   "right": "参议员马伯安、马崟、金汉鼎、李群杰",
+   "page": 293,
+   "why": "provisional 马崟/金汉鼎; flagged"
+  },
+  {
+   "wrong": "屁明警察局副局长李智正",
+   "right": "昆明警察局副局长李智正",
+   "page": 293,
+   "why": "昆明;Li Zhizheng"
+  },
+  {
+   "wrong": "宪兵十三团团长王杉",
+   "right": "宪兵十三团团长王栩",
+   "page": 293,
+   "why": "provisional Wang Xu; scan ambiguous, flagged"
+  },
+  {
+   "wrong": "南戎中学、五华中学",
+   "right": "南菁中学、五华中学",
+   "page": 293,
+   "why": "provisional 南菁"
+  },
+  {
+   "wrong": "由沈醇、李智正、王机、周伯先",
+   "right": "由沈醉、李智正、王栩、周伯先",
+   "page": 293,
+   "why": "Shen Zui; Wang Xu"
+  },
+  {
+   "wrong": "保安司令部参谍长谢尝文",
+   "right": "保安司令部参谋长谢崇文",
+   "page": 293,
+   "why": "参谋长 Xie Chongwen"
+  },
+  {
+   "wrong": "如临大政一样",
+   "right": "如临大敌一样",
+   "page": 293,
+   "why": "大敌"
+  },
+  {
+   "wrong": "消禁才解除",
+   "right": "戒严才解除",
+   "page": 293,
+   "why": "provisional 戒严"
+  },
+  {
+   "wrong": "弄得马烟疗气",
+   "right": "弄得乌烟瘴气",
+   "page": 293,
+   "why": "乌烟瘴气"
+  },
+  {
+   "wrong": "天亮时，和警察局看守所",
+   "right": "天亮时，警察局看守所",
+   "page": 293,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "第二天仍继续搜播",
+   "right": "第二天仍继续搜捕",
+   "page": 293,
+   "why": "搜捕"
+  },
+  {
+   "wrong": "配合该三警卫稿查组",
+   "right": "配合该厂警卫稽查组",
+   "page": 293,
+   "why": "厂;稽查"
+  },
+  {
+   "wrong": "运条处工作的员工",
+   "right": "运输处工作的员工",
+   "page": 293,
+   "why": "运输处"
+  },
+  {
+   "wrong": "由刑警大队在各处还捕的嫌疑犯",
+   "right": "由刑警大队在各处逮捕的嫌疑犯",
+   "page": 293,
+   "why": "逮捕"
+  },
+  {
+   "wrong": "周养浩(沈养斋)",
+   "right": "周养浩(养斋)",
+   "page": 293,
+   "why": "cf ch07"
+  },
+  {
+   "wrong": "市长曾想怀任指挥",
+   "right": "市长曾恕怀任指挥",
+   "page": 293,
+   "why": "Zeng Shuhuai"
+  },
+  {
+   "wrong": "宪兵团长王棚任副指挥",
+   "right": "宪兵团长王栩任副指挥",
+   "page": 293,
+   "why": "Wang Xu"
+  },
+  {
+   "wrong": "以陈世质、周养洛为审讯组",
+   "right": "以陈世贤、周养浩为审讯组",
+   "page": 293,
+   "why": "Chen Shixian;Zhou Yanghao"
+  },
+  {
+   "wrong": "军统特务王许的家中",
+   "right": "军统特务王栩的家中",
+   "page": 293,
+   "why": "provisional Wang Xu"
+  },
+  {
+   "wrong": "非常怀恼和失望",
+   "right": "非常懊恼和失望",
+   "page": 293,
+   "why": "懊恼"
+  },
+  {
+   "wrong": "使得他亲自出马也设有收获",
+   "right": "使得他亲自出马也没有收获",
+   "page": 293,
+   "why": "没有"
+  },
+  {
+   "wrong": "采取权宣手法",
+   "right": "采取权宜手法",
+   "page": 293,
+   "why": "权宜"
+  },
+  {
+   "wrong": "户移将车统大特务至开基扣押",
+   "right": "卢先将军统大特务邱开基扣押",
+   "page": 293,
+   "why": "卢先将军统;Qiu Kaiji"
+  },
+  {
+   "wrong": "艺为云南人",
+   "right": "邱为云南人",
+   "page": 293,
+   "why": "Qiu"
+  },
+  {
+   "wrong": "演越铁路警务处长苏子条",
+   "right": "滇越铁路警务处长苏子秀",
+   "page": 295,
+   "why": "provisional Su Zixiu"
+  },
+  {
+   "wrong": "苏子秽一再催我",
+   "right": "苏子秀一再催我",
+   "page": 295,
+   "why": "Su Zixiu"
+  },
+  {
+   "wrong": "仍用吴尝雨的名义",
+   "right": "仍用吴崇雨的名义",
+   "page": 295,
+   "why": "吴崇雨"
+  },
+  {
+   "wrong": "用吴尝雨名义通知",
+   "right": "用吴崇雨名义通知",
+   "page": 295,
+   "why": "吴崇雨"
+  },
+  {
+   "wrong": "准备随同李弥的第八军一网",
+   "right": "准备随同李弥的第八军一齐",
+   "page": 295,
+   "why": "provisional 一齐"
+  },
+  {
+   "wrong": "向滨西撤退",
+   "right": "向滇西撤退",
+   "page": 295,
+   "why": "滇西"
+  },
+  {
+   "wrong": "由铁路警务处长苏子状率领",
+   "right": "由铁路警务处长苏子秀率领",
+   "page": 295,
+   "why": "Su Zixiu"
+  },
+  {
+   "wrong": "为毛人凤所最捣赏",
+   "right": "为毛人凤所最赞赏",
+   "page": 295,
+   "why": "赞赏"
+  },
+  {
+   "wrong": "退到怕鸡关附近",
+   "right": "退到碧鸡关附近",
+   "page": 295,
+   "why": "Biji Pass"
+  },
+  {
+   "wrong": "发起筹备欢迎解放军人城",
+   "right": "发起筹备欢迎解放军入城",
+   "page": 295,
+   "why": "入城"
+  },
+  {
+   "wrong": "乔清他们的住址",
+   "right": "查清他们的住址",
+   "page": 295,
+   "why": "provisional 查清"
+  },
+  {
+   "wrong": "纵火禁烧",
+   "right": "纵火焚烧",
+   "page": 296,
+   "why": "焚烧"
+  },
+  {
+   "wrong": "蒋介石于令要在昆明扣留",
+   "right": "蒋介石严令要在昆明扣留",
+   "page": 296,
+   "why": "provisional 严令"
+  },
+  {
+   "wrong": "扣留谷正化",
+   "right": "扣留谷正伦",
+   "page": 296,
+   "why": "Gu Zhenglun"
+  },
+  {
+   "wrong": "逃到畏隆县",
+   "right": "逃到晴隆县",
+   "page": 296,
+   "why": "Qinglong"
+  },
+  {
+   "wrong": "是个杀人如厅的屠夫",
+   "right": "是个杀人如麻的屠夫",
+   "page": 296,
+   "why": "杀人如麻"
+  },
+  {
+   "wrong": "彼此都想找机会把对方杀瓜",
+   "right": "彼此都想找机会把对方杀掉",
+   "page": 296,
+   "why": "杀掉"
+  },
+  {
+   "wrong": "当谷正伦逃到畏隆后",
+   "right": "当谷正伦逃到晴隆后",
+   "page": 296,
+   "why": "Qinglong"
+  },
+  {
+   "wrong": "要谷把贵州绥著主任",
+   "right": "要谷把贵州绥靖主任",
+   "page": 296,
+   "why": "绥靖"
+  },
+  {
+   "wrong": "谷正伦和他的副主任韩文焕商慨",
+   "right": "谷正伦和他的副主任韩文焕商酌",
+   "page": 296,
+   "why": "provisional 商酌"
+  },
+  {
+   "wrong": "在县政府大符",
+   "right": "在县政府大堂",
+   "page": 296,
+   "why": "provisional 大堂"
+  },
+  {
+   "wrong": "仍不封心",
+   "right": "仍不甘心",
+   "page": 296,
+   "why": "甘心"
+  },
+  {
+   "wrong": "不准埋药",
+   "right": "不准埋葬",
+   "page": 296,
+   "why": "埋葬"
+  },
+  {
+   "wrong": "保密局汪在八十九军",
+   "right": "保密局派在八十九军",
+   "page": 296,
+   "why": "派在"
+  },
+  {
+   "wrong": "萝介石对此大为震怒",
+   "right": "蒋介石对此大为震怒",
+   "page": 296,
+   "why": "蒋介石"
+  },
+  {
+   "wrong": "等合逃到昆明时",
+   "right": "等谷逃到昆明时",
+   "page": 296,
+   "why": "谷"
+  },
+  {
+   "wrong": "美式武央装备",
+   "right": "美式武器装备",
+   "page": 296,
+   "why": "武器"
+  },
+  {
+   "wrong": "准备打扩击的特务",
+   "right": "准备打埋伏的特务",
+   "page": 296,
+   "why": "provisional 打埋伏"
+  },
+  {
+   "wrong": "他两次拍给我的杂译电报",
+   "right": "他两次拍给我的亲译电报",
+   "page": 296,
+   "why": "亲译"
+  },
+  {
+   "wrong": "这窒塞二十个字的电文",
+   "right": "这寥寥二十个字的电文",
+   "page": 296,
+   "why": "寥寥"
+  },
+  {
+   "wrong": "对局势所作的佑计",
+   "right": "对局势所作的估计",
+   "page": 296,
+   "why": "估计"
+  },
+  {
+   "wrong": "中共地下人员已在昆明从事局部和平和运动",
+   "right": "中共地下人员已在昆明从事局部和平运动",
+   "page": 296,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "我从户家嫩出之后",
+   "right": "我从卢家出来之后",
+   "page": 296,
+   "why": "provisional 出来"
+  },
+  {
+   "wrong": "二十六摆平长余程万",
+   "right": "二十六军军长余程万",
+   "page": 296,
+   "why": "军军长 Yu Chengwan"
+  },
+  {
+   "wrong": "副盏长茧优个",
+   "right": "副军长彭佐熙",
+   "page": 296,
+   "why": "provisional"
+  },
+  {
+   "wrong": "云南站的电台和成都台也芭不到联系",
+   "right": "云南站的电台和成都台也联系不到",
+   "page": 296,
+   "why": "provisional"
+  },
+  {
+   "wrong": "对昆曙这一突然紧急的变化",
+   "right": "对昆明这一突然紧急的变化",
+   "page": 296,
+   "why": "昆明"
+  },
+  {
+   "wrong": "我老是犹更不决",
+   "right": "我老是犹豫不决",
+   "page": 296,
+   "why": "犹豫"
+  },
+  {
+   "wrong": "我那时区不出这几个人",
+   "right": "我那时交不出这几个人",
+   "page": 296,
+   "why": "provisional 交不出"
+  },
+  {
+   "wrong": "项个屁用",
+   "right": "顶个屁用",
+   "page": 296,
+   "why": "顶"
+  },
+  {
+   "wrong": "接蔡张群的工作",
+   "right": "接替张群的工作",
+   "page": 296,
+   "why": "接替"
+  },
+  {
+   "wrong": "以我莱保防处处长",
+   "right": "以我兼保防处处长",
+   "page": 296,
+   "why": "兼"
+  },
+  {
+   "wrong": "癌毛人凤发出了最后一个电报",
+   "right": "向毛人凤发出了最后一个电报",
+   "page": 296,
+   "why": "向"
+  },
+  {
+   "wrong": "自己判呆失当",
+   "right": "自己判断失当",
+   "page": 296,
+   "why": "判断"
+  },
+  {
+   "wrong": "由副处长表x x负责",
+   "right": "由副处长裴××负责",
+   "page": 296,
+   "why": "provisional 裴; suppressed"
+  },
+  {
+   "wrong": "如果我在士一点钟",
+   "right": "如果我在十一点钟",
+   "page": 296,
+   "why": "十一"
+  },
+  {
+   "wrong": "交与悄x x",
+   "right": "交与裴××",
+   "page": 296,
+   "why": "provisional; suppressed"
+  },
+  {
+   "wrong": "又与霄x x交换",
+   "right": "又与裴××交换",
+   "page": 296,
+   "why": "provisional"
+  },
+  {
+   "wrong": "面面相凯",
+   "right": "面面相觑",
+   "page": 297,
+   "why": "面面相觑"
+  },
+  {
+   "wrong": "成为念中之警",
+   "right": "成为瓮中之鳖",
+   "page": 297,
+   "why": "瓮中之鳖"
+  },
+  {
+   "wrong": "再无法件其凶焰",
+   "right": "再无法逞其凶焰",
+   "page": 297,
+   "why": "逞"
+  },
+  {
+   "wrong": "第二十六皇第x师师长石补天",
+   "right": "第二十六军第x师师长石补天",
+   "page": 297,
+   "why": "军;Shi Butian"
+  },
+  {
+   "wrong": "宪兵西南区指挥部参谋长童稚莲",
+   "right": "宪兵西南区指挥部参谋长童鹤莲",
+   "page": 297,
+   "why": "Tong Helian"
+  },
+  {
+   "wrong": "站长兼云南绥靖公署保防处处长沈醇",
+   "right": "站长兼云南绥靖公署保防处处长沈醉",
+   "page": 297,
+   "why": "Shen Zui"
+  },
+  {
+   "wrong": "只能把肩重一答",
+   "right": "只能把肩耸一耸",
+   "page": 297,
+   "why": "provisional 耸"
+  },
+  {
+   "wrong": "坐在万一同大会客室里",
+   "right": "坐在另一间大会客室里",
+   "page": 297,
+   "why": "另一间"
+  },
+  {
+   "wrong": "遭到了有礼狐的阻止",
+   "right": "遭到了有礼貌的阻止",
+   "page": 297,
+   "why": "provisional 有礼貌"
+  },
+  {
+   "wrong": "沈延直突然从他口袋",
+   "right": "沈延世突然从他口袋",
+   "page": 297,
+   "why": "Shen Yanshi"
+  },
+  {
+   "wrong": "当搜到李楚小的时候",
+   "right": "当搜到李楚藩的时候",
+   "page": 297,
+   "why": "Li Chufan"
+  },
+  {
+   "wrong": "生的一声枪响",
+   "right": "啪的一声枪响",
+   "page": 297,
+   "why": "provisional 啪"
+  },
+  {
+   "wrong": "在会客室的疼备里解起小便",
+   "right": "在会客室的痰盂里解起小便",
+   "page": 297,
+   "why": "provisional 痰盂"
+  },
+  {
+   "wrong": "用拳头手打沙发",
+   "right": "用拳头捶打沙发",
+   "page": 297,
+   "why": "provisional 捶打"
+  },
+  {
+   "wrong": "我自付这一去",
+   "right": "我自忖这一去",
+   "page": 297,
+   "why": "自忖"
+  },
+  {
+   "wrong": "李弥走过来用脚踊我",
+   "right": "李弥走过来用脚踢我",
+   "page": 297,
+   "why": "踢"
+  },
+  {
+   "wrong": "很称半我这一作法",
+   "right": "很称赞我这一作法",
+   "page": 297,
+   "why": "称赞"
+  },
+  {
+   "wrong": "并驴我拿出全部",
+   "right": "并要我拿出全部",
+   "page": 297,
+   "why": "provisional 要"
+  },
+  {
+   "wrong": "徐远举(人徐鹏飞)",
+   "right": "徐远举(徐鹏飞)",
+   "page": 297,
+   "why": "stray 人"
+  },
+  {
+   "wrong": "周养浩(沈养遍)",
+   "right": "周养浩(养斋)",
+   "page": 297,
+   "why": "养斋"
+  },
+  {
+   "wrong": "才驹道张群",
+   "right": "才知道张群",
+   "page": 297,
+   "why": "知道"
+  },
+  {
+   "wrong": "乘英国果泰航空公司",
+   "right": "乘英国国泰航空公司",
+   "page": 297,
+   "why": "Cathay"
+  },
+  {
+   "wrong": "斐存藩等，乘",
+   "right": "裴存藩等，乘",
+   "page": 297,
+   "why": "Pei Cunfan"
+  },
+  {
+   "wrong": "黄绍交等四十四人",
+   "right": "黄绍竑等四十四人",
+   "page": 285,
+   "why": "Huang Shaohong"
+  },
+  {
+   "wrong": "蒋介石反动派祸国歌民",
+   "right": "蒋介石反动派祸国殃民",
+   "page": 285,
+   "why": "祸国殃民"
+  },
+  {
+   "wrong": "把毛人凤找去大轨一顿",
+   "right": "把毛人凤找去大骂一顿",
+   "page": 285,
+   "why": "大骂"
+  },
+  {
+   "wrong": "万分悍改",
+   "right": "万分悔恨",
+   "page": 285,
+   "why": "provisional 悔恨"
+  },
+  {
+   "wrong": "我当时非常已",
+   "right": "我当时非常忙",
+   "page": 285,
+   "why": "忙"
+  },
+  {
+   "wrong": "集合到王间家中",
+   "right": "集合到王栩家中",
+   "page": 285,
+   "why": "Wang Xu"
+  },
+  {
+   "wrong": "滥事污芒共产党",
+   "right": "肆意污蔑共产党",
+   "page": 285,
+   "why": "provisional 肆意污蔑"
+  },
+  {
+   "wrong": "大肆避吓",
+   "right": "大肆恫吓",
+   "page": 285,
+   "why": "provisional 恫吓"
+  },
+  {
+   "wrong": "喊了几何坚决拥护",
+   "right": "喊了几句坚决拥护",
+   "page": 285,
+   "why": "几句"
+  },
+  {
+   "wrong": "反共到欣",
+   "right": "反共到底",
+   "page": 285,
+   "why": "到底"
+  },
+  {
+   "wrong": "思想很动播",
+   "right": "思想很动摇",
+   "page": 285,
+   "why": "动摇"
+  },
+  {
+   "wrong": "肖坑肃以及肖化之",
+   "right": "肖毅肃以及肖化之",
+   "page": 285,
+   "why": "provisional"
+  },
+  {
+   "wrong": "赁自己的威望",
+   "right": "凭自己的威望",
+   "page": 286,
+   "why": "凭"
+  },
+  {
+   "wrong": "打上听卢汉会不会",
+   "right": "打听卢汉会不会",
+   "page": 286,
+   "why": "stray 上"
+  },
+  {
+   "wrong": "干斥",
+   "right": "干掉",
+   "page": 286,
+   "why": "干掉"
+  },
+  {
+   "wrong": "不能打章惊蛇",
+   "right": "不能打草惊蛇",
+   "page": 286,
+   "why": "打草惊蛇"
+  },
+  {
+   "wrong": "他便吟只毛人凤",
+   "right": "他便吩咐毛人凤",
+   "page": 286,
+   "why": "provisional 吩咐"
+  },
+  {
+   "wrong": "有如惊号之鸟",
+   "right": "有如惊弓之鸟",
+   "page": 286,
+   "why": "惊弓之鸟"
+  },
+  {
+   "wrong": "电人台随时收听",
+   "right": "叫电台随时收听",
+   "page": 286,
+   "why": "provisional 叫电台"
+  },
+  {
+   "wrong": "布置在机场局玮",
+   "right": "布置在机场周围",
+   "page": 286,
+   "why": "周围"
+  },
+  {
+   "wrong": "鼻子轻轻地呼了几哼",
+   "right": "鼻子轻轻地哼了几声",
+   "page": 286,
+   "why": "provisional"
+  },
+  {
+   "wrong": "我真假服他",
+   "right": "我真佩服他",
+   "page": 286,
+   "why": "佩服"
+  },
+  {
+   "wrong": "只停久了两个多小时",
+   "right": "只停留了两个多小时",
+   "page": 286,
+   "why": "停留"
+  },
+  {
+   "wrong": "户汉",
+   "right": "卢汉",
+   "page": null,
+   "why": "systematic 卢/蒋/沈醉 mangle (protected 暴发户/户口/百户 etc.)"
+  },
+  {
+   "wrong": "上户",
+   "right": "卢",
+   "page": null,
+   "why": "systematic 卢/蒋/沈醉 mangle (protected 暴发户/户口/百户 etc.)"
+  },
+  {
+   "wrong": "户",
+   "right": "卢(context)",
+   "page": null,
+   "why": "systematic 卢/蒋/沈醉 mangle (protected 暴发户/户口/百户 etc.)"
+  },
+  {
+   "wrong": "藉",
+   "right": "蒋",
+   "page": null,
+   "why": "systematic 卢/蒋/沈醉 mangle (protected 暴发户/户口/百户 etc.)"
+  },
+  {
+   "wrong": "沈醇",
+   "right": "沈醉",
+   "page": null,
+   "why": "systematic 卢/蒋/沈醉 mangle (protected 暴发户/户口/百户 etc.)"
+  }
  ]
 }
