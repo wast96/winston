@@ -6328,5 +6328,211 @@
    "page": null,
    "why": "Chiang Kai-shek; systematic"
   }
+ ],
+ "ch08": [
+  {
+   "wrong": "### 将介石阴谋暗杀李宁仁的内各",
+   "right": "### 蒋介石阴谋暗杀李宗仁的内幕",
+   "page": 183,
+   "why": "chapter title"
+  },
+  {
+   "wrong": "主管瞳杀等业务",
+   "right": "主管暗杀等业务",
+   "page": 183,
+   "why": "暗杀"
+  },
+  {
+   "wrong": "军统中于过多年",
+   "right": "军统中干过多年",
+   "page": 183,
+   "why": "干过"
+  },
+  {
+   "wrong": "态度非常和获",
+   "right": "态度非常和蔼",
+   "page": 183,
+   "why": "和蔼; crop-verified"
+  },
+  {
+   "wrong": "还逆出一副",
+   "right": "还装出一副",
+   "page": 183,
+   "why": "装出; crop-verified"
+  },
+  {
+   "wrong": "只有一个栈人",
+   "right": "只有一个敌人",
+   "page": 183,
+   "why": "敌人"
+  },
+  {
+   "wrong": "刺客来或励我",
+   "right": "刺客来鼓励我",
+   "page": 184,
+   "why": "鼓励"
+  },
+  {
+   "wrong": "折他的口气",
+   "right": "听他的口气",
+   "page": 184,
+   "why": "听; crop-verified"
+  },
+  {
+   "wrong": "狭猎手段",
+   "right": "狡猾手段",
+   "page": 184,
+   "why": "狡猾; crop-verified"
+  },
+  {
+   "wrong": "决不带负他的期望",
+   "right": "决不辜负他的期望",
+   "page": 184,
+   "why": "辜负"
+  },
+  {
+   "wrong": "办公室主任讨其武",
+   "right": "办公室主任潘其武",
+   "page": 184,
+   "why": "Pan Qiwu, head of the director's office"
+  },
+  {
+   "wrong": "杀人的罪亚工作",
+   "right": "杀人的罪恶工作",
+   "page": 184,
+   "why": "罪恶"
+  },
+  {
+   "wrong": "东北惯菲",
+   "right": "东北惯匪",
+   "page": 184,
+   "why": "惯匪"
+  },
+  {
+   "wrong": "射落空中飞马",
+   "right": "射落空中飞鸟",
+   "page": 184,
+   "why": "飞鸟; crop-verified"
+  },
+  {
+   "wrong": "也一回是有名",
+   "right": "也一向是有名",
+   "page": 184,
+   "why": "一向"
+  },
+  {
+   "wrong": "能够多采一些时候",
+   "right": "能够多呆一些时候",
+   "page": 185,
+   "why": "多呆"
+  },
+  {
+   "wrong": "香烟挫",
+   "right": "香烟摊",
+   "page": 185,
+   "why": "香烟摊"
+  },
+  {
+   "wrong": "武装通官",
+   "right": "武装逼宫",
+   "page": 185,
+   "why": "逼宫 forcing the palace"
+  },
+  {
+   "wrong": "把李宗仁于掉",
+   "right": "把李宗仁干掉",
+   "page": 185,
+   "why": "干掉"
+  },
+  {
+   "wrong": "毛人凤天关去见",
+   "right": "毛人凤天天去见",
+   "page": 185,
+   "why": "天天"
+  },
+  {
+   "wrong": "向李的究室",
+   "right": "向李的寝室",
+   "page": 185,
+   "why": "寝室; crop-verified"
+  },
+  {
+   "wrong": "作好疏墙进入院内",
+   "right": "作好爬墙进入院内",
+   "page": 185,
+   "why": "爬墙; crop-verified"
+  },
+  {
+   "wrong": "几时炸弹",
+   "right": "几颗炸弹",
+   "page": 185,
+   "why": "几颗"
+  },
+  {
+   "wrong": "增调了几个一惯干杀人",
+   "right": "增调了几个一贯干杀人",
+   "page": 185,
+   "why": "一贯"
+  },
+  {
+   "wrong": "秦景川王xx",
+   "right": "秦景川、王××",
+   "page": 186,
+   "why": "punctuation"
+  },
+  {
+   "wrong": "王x x",
+   "right": "王××",
+   "page": 183,
+   "why": "punctuation"
+  },
+  {
+   "wrong": "准备为萝去刺杀",
+   "right": "准备为蒋去刺杀",
+   "page": 186,
+   "why": "蒋"
+  },
+  {
+   "wrong": "留个了这一和他执乱的祸根",
+   "right": "留下了这一和他捣乱的祸根",
+   "page": 186,
+   "why": "留下 捣乱; crop-verified"
+  },
+  {
+   "wrong": "忱然大悟",
+   "right": "恍然大悟",
+   "page": 186,
+   "why": "恍然"
+  },
+  {
+   "wrong": "民革中央的和尹冰彦",
+   "right": "民革中央的尹冰彦",
+   "page": 186,
+   "why": "stray 和"
+  },
+  {
+   "wrong": "李夫人部德洁",
+   "right": "李夫人郭德洁",
+   "page": 186,
+   "why": "Guo Dejie"
+  },
+  {
+   "wrong": "我还坊记了",
+   "right": "我还忘记了",
+   "page": 186,
+   "why": "忘记"
+  },
+  {
+   "wrong": "蒋贼、薪恩",
+   "right": "蒋贼、蒋匪",
+   "page": 186,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "称他基先生",
+   "right": "称他蒋先生",
+   "page": 186,
+   "why": "蒋先生"
+  }
  ]
 }

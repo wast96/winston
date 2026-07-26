@@ -762,6 +762,34 @@
   "何应钦": {
    "en": "He Yingqin",
    "status": "attested"
+  },
+  "潘其武": {
+   "en": "Pan Qiwu",
+   "status": "provisional"
+  },
+  "徐志道": {
+   "en": "Xu Zhidao",
+   "status": "provisional"
+  },
+  "秦景川": {
+   "en": "Qin Jingchuan",
+   "status": "provisional"
+  },
+  "吴德厚": {
+   "en": "Wu Dehou",
+   "status": "provisional"
+  },
+  "张群": {
+   "en": "Zhang Qun",
+   "status": "attested"
+  },
+  "郭德洁": {
+   "en": "Guo Dejie",
+   "status": "attested"
+  },
+  "尹冰彦": {
+   "en": "Yin Bingyan",
+   "status": "provisional"
   }
  },
  "organisations": {
@@ -958,6 +986,14 @@
   "西南长官公署": {
    "en": "the Southwest Headquarters",
    "status": "decided"
+  },
+  "民革": {
+   "en": "the Revolutionary Committee of the Kuomintang",
+   "status": "decided"
+  },
+  "行动处": {
+   "en": "the action department",
+   "status": "decided"
   }
  },
  "terms": {
@@ -1086,6 +1122,19 @@
   "万有文库": {
    "en": "the Wanyou Wenku",
    "status": "attested"
+  },
+  "逼宫": {
+   "en": "forcing the palace",
+   "status": "decided"
+  },
+  "美龄号": {
+   "en": "the \"Meiling\"",
+   "status": "decided",
+   "note": "Chiang Kai-shek's personal aircraft, named for Song Meiling"
+  },
+  "中美号": {
+   "en": "the \"Zhongmei\"",
+   "status": "decided"
   }
  },
  "places": {

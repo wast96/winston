@@ -302,6 +302,31 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch08 (蒋介石阴谋暗杀李宗仁的内幕 / Chiang's Plot to Assassinate Li Zongren) - DONE
+
+- PDF 183-186, printed 164-167. 8 source paragraphs (1 heading), 7 body
+  paragraphs translated. Short chapter: Shen's first-person account of the
+  1948-49 assassination plot he personally led against acting-president Li
+  Zongren, and its coda when Li, returned from the US in 1965, read Shen's
+  own published account of it over lunch.
+- 34 ledger entries, all applied. Crop-verified: 和蔼, 装出, 飞鸟, 寝室,
+  爬墙, 蒋贼/蒋匪 (the epithets Shen gives Li Zongren -- load-bearing for the
+  chapter's register, crop-verified), 留下...捣乱. Names restored: 潘其武
+  (Pan Qiwu, OCR 讨其武), 郭德洁, 尹冰彦.
+- Checks: parity 8/8, alignment OK, content OK, numbers 0 after one noise
+  adjudication (万万想不到 parsed as 20000), register in tolerance.
+- Notes: 15 at 3.75 per printed page (dense: the chapter is short and every
+  name is a principal). Glossary +12 (306 total).
+- REGISTER NOTE for the read-through: this is the fullest confession of a
+  directed political murder in the book, and it is the one that failed. Shen
+  tells it completely precisely because no one died -- the professional
+  killer's competence is displayed as pride even inside the self-criticism
+  frame. The 1965 coda, ending by adopting Li's 'Chiang the bandit,' is the
+  1962-66 moment doing its work through reported speech; noted as such.
+- The 美龄号 plane-as-bait story is Guo Dejie's account via Shen and is
+  uncorroborated outside these memoirs; Shen's own testimony establishes the
+  plan to down Li's plane but not that the Meiling was the lure. Noted.
+
 ### FOR WINSTON'S READ-THROUGH, ch07
 
 - 杨氏佳城 / 龙蟠虎踞: the tomb passage turns on all three characters of
