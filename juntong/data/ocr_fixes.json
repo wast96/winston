@@ -14287,6 +14287,54 @@
    "right": "杜月笙",
    "page": 323,
    "why": "Du Yuesheng"
+  },
+  {
+   "wrong": "陈减",
+   "right": "陈诚",
+   "page": 323,
+   "why": "Chen Cheng; OCR 诚→减"
+  },
+  {
+   "wrong": "跌诚",
+   "right": "陈诚",
+   "page": 323,
+   "why": "Chen Cheng; OCR 陈→跌"
+  },
+  {
+   "wrong": "李钥村",
+   "right": "李毓桢",
+   "page": 323,
+   "why": "Li Yuzhen; matches ch15/16"
+  },
+  {
+   "wrong": "李毓相",
+   "right": "李毓桢",
+   "page": 323,
+   "why": "Li Yuzhen"
+  },
+  {
+   "wrong": "户",
+   "right": "卢",
+   "page": 323,
+   "why": "Lu Han; 卢→户 mangle, all 4 occurrences are Lu Han in context"
+  },
+  {
+   "wrong": "笑汝耕",
+   "right": "殷汝耕",
+   "page": 341,
+   "why": "Yin Rugeng, East Hebei puppet head; crop-verified p361"
+  },
+  {
+   "wrong": "亲万",
+   "right": "亲信",
+   "page": 323,
+   "why": "Chen Cheng's confidant; OCR 信→万"
+  },
+  {
+   "wrong": "感激阐零",
+   "right": "感激涕零",
+   "page": 323,
+   "why": "idiom; OCR 涕→阐"
   }
  ]
 }

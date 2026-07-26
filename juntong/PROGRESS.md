@@ -302,7 +302,28 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
-### ch18 (军统特务头子戴笠的继承人毛人凤 / Mao Renfeng, Dai Li's Successor) - SOURCE PREPPED, TRANSLATION PENDING
+### ch18 (军统特务头子戴笠的继承人毛人凤 / Mao Renfeng, Dai Li's Successor) - DONE
+
+- Translation done this turn (89/89 parity first pass). 5 gates green, qa PASS
+  (20 documents, 508 notes). Notes: 12. Glossary +30 (the large new cast).
+- Extra ledger fixes found during translation (all crop- or context-verified):
+  亲万→亲信 (Chen Cheng's confidant, 信→万), 感激阐零→涕零, 陈减/跌诚→陈诚,
+  李钥村/李毓相→李毓桢, 户→卢 (Lu Han), 笑汝耕→殷汝耕 (Yin Rugeng, crop p361).
+- Numbers 0 after noise for names/companies/idioms with numerals: 马汉三,
+  三有公司, 十八集团军, 低三下四, 一丈五, 三分, 涕零, 五原, 三轮.
+- GLOSSARY CASCADE: added 宋子文 and hit a book-wide rendering split — earlier
+  chapters use "T.V. Soong" at first mention then bare "Soong". Set the glossary
+  anchor to "Soong" (note records the full "T. V. Soong"), which validates
+  ch02/03/06/07/13/18 uniformly; ch18 renders "T.V. Soong" first, "Soong" after.
+- Corroboration (no Grok): Ma Hansan executed 27 Sep 1948, factional cause as
+  Shen gives; the Kawashima Yoshiko / Nine-Dragon-Sword backstory noted as the
+  popular account that Shen pointedly omits. Zhang Guotao (defected 1938) and
+  Huang Xiansheng (martyr) already noted earlier; Yin Rugeng, Yu Lexing glossed.
+- VOICE-DRIFT FLAG (fable pass): contr/1k 18.6; the chapter is nearly all
+  exposition with little dialogue -- confirm Opus didn't over-contract.
+- NOTES for the read-through: the 忍/等/狠 organizing pun, the 宋子文/刘纪文
+  gambling pun, the flag-superstition, and the 王佐断臂 self-injury allusion
+  (Mao telling Shen to stay behind as a planted agent) are the texture highlights.
 
 - PDF 342-368, printed 323-349. 89 body paragraphs, ~18,000 CJK chars, 7 heading
   lines (chapter title split over 2 lines + 5 section headings). The largest
