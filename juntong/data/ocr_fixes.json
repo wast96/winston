@@ -395,6 +395,30 @@
    "right": "一关关了十来年",
    "page": 80,
    "why": "CONTEXTUAL: the OCR gives 一十, which is not Chinese here; sense requires 'were held for a decade or more'. Flagged as inference, not sight"
+  },
+  {
+   "wrong": "六而获释",
+   "right": "幸而获释",
+   "page": 81,
+   "why": "幸 read as 六; crop-verified; was a phantom numeral in check_numbers"
+  },
+  {
+   "wrong": "到和弄清完全是禹枉",
+   "right": "到弄清完全是冤枉",
+   "page": 81,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "也上白扎坐",
+   "right": "也白白坐",
+   "page": 81,
+   "why": "crop-verified"
+  },
+  {
+   "wrong": "内万秋",
+   "right": "崔万秋",
+   "page": null,
+   "why": "Cui Wanqiu; systematic name mangle"
   }
  ],
  "ch04": [
