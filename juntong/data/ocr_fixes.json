@@ -14336,5 +14336,181 @@
    "page": 323,
    "why": "idiom; OCR 涕→阐"
   }
+ ],
+ "ch19": [
+  {
+   "wrong": "唐维其人",
+   "right": "唐纵其人",
+   "page": 350,
+   "why": "chapter title; OCR 纵→维"
+  },
+  {
+   "wrong": "元察总置署长和",
+   "right": "警察总署署长和",
+   "page": 350,
+   "why": "section heading; OCR 警察总署"
+  },
+  {
+   "wrong": "唐任加长后的反动措施",
+   "right": "唐任署长后的反动措施",
+   "page": 350,
+   "why": "section heading; 署长→加长"
+  },
+  {
+   "wrong": "季士珍的明争腾斗",
+   "right": "李士珍的明争暗斗",
+   "page": 350,
+   "why": "section heading; 李士珍的明争暗斗"
+  },
+  {
+   "wrong": "逃台前的家鸣",
+   "right": "逃台前的哀鸣",
+   "page": 350,
+   "why": "section heading; 哀→家"
+  },
+  {
+   "wrong": "戴等",
+   "right": "戴笠",
+   "page": 350,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴符",
+   "right": "戴笠",
+   "page": 350,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴竺",
+   "right": "戴笠",
+   "page": 350,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戴怎",
+   "right": "戴笠",
+   "page": 350,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "戎介石",
+   "right": "蒋介石",
+   "page": 350,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "荐介石",
+   "right": "蒋介石",
+   "page": 350,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "薪介石",
+   "right": "蒋介石",
+   "page": 350,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "莓介石",
+   "right": "蒋介石",
+   "page": 350,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "萝介石",
+   "right": "蒋介石",
+   "page": 350,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "藉介石",
+   "right": "蒋介石",
+   "page": 350,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "医介石",
+   "right": "蒋介石",
+   "page": 350,
+   "why": "Chiang"
+  },
+  {
+   "wrong": "毛人风",
+   "right": "毛人凤",
+   "page": 350,
+   "why": "Mao Renfeng"
+  },
+  {
+   "wrong": "帮健",
+   "right": "乃建",
+   "page": 350,
+   "why": "Tang Zong's zi Naijian; crop p369"
+  },
+  {
+   "wrong": "圭县",
+   "right": "酃县",
+   "page": 350,
+   "why": "Lingxian, Tang's hometown; crop p369, matches ch16"
+  },
+  {
+   "wrong": "草圣分",
+   "right": "曹圣芬",
+   "page": 350,
+   "why": "Cao Shengfen, Chiang's aide-secretary; crop p376"
+  },
+  {
+   "wrong": "岂容坤",
+   "right": "鄂裕坤",
+   "page": 350,
+   "why": "E Yukun, deputy police director; crop p384"
+  },
+  {
+   "wrong": "峙裕坤",
+   "right": "鄂裕坤",
+   "page": 350,
+   "why": "E Yukun; crop-verified"
+  },
+  {
+   "wrong": "部裕坤",
+   "right": "鄂裕坤",
+   "page": 350,
+   "why": "E Yukun; crop-verified"
+  },
+  {
+   "wrong": "汪弹",
+   "right": "汪弼",
+   "page": 350,
+   "why": "Wang Bi, E Yukun's deputy / 1st-dept chief; crop p384"
+  },
+  {
+   "wrong": "汪纲",
+   "right": "汪弼",
+   "page": 350,
+   "why": "Wang Bi; crop-verified"
+  },
+  {
+   "wrong": "汪绚",
+   "right": "汪弼",
+   "page": 350,
+   "why": "Wang Bi; crop-verified"
+  },
+  {
+   "wrong": "李塞",
+   "right": "李寨",
+   "page": 350,
+   "why": "Li Zhai, 2nd-dept chief; crop p384"
+  },
+  {
+   "wrong": "价叔平",
+   "right": "俞叔平",
+   "page": 350,
+   "why": "Yu Shuping, Shanghai police chief; crop p389"
+  },
+  {
+   "wrong": "俞杰平",
+   "right": "俞叔平",
+   "page": 350,
+   "why": "Yu Shuping; crop-verified"
+  }
  ]
 }

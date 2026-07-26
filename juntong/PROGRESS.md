@@ -302,6 +302,34 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch19 (唐纵其人 / Tang Zong) - SOURCE PREPPED, TRANSLATION PENDING
+
+- PDF 369-410, printed 350-391. 148 body paragraphs, ~27,700 CJK chars, 9 heading
+  lines (chapter title + the 警察总署/保安局 title split over 2 lines + 6 sections).
+  The biggest chapter yet; a 2-3 turn unit -- do NOT write a partial reading.md.
+- DONE this turn: render/ocr/assemble; 29-entry ledger so far (recurring-name
+  manglings 戴笠/蒋介石(7 variants)/毛人凤; the section headings; and crop-verified
+  new names: 乃建 (Tang's zi, from 帮健), 酃县 (hometown, from 圭县, matches ch16),
+  曹圣芬 (草圣分), 鄂裕坤 (岂容坤/峙裕坤/部裕坤), 汪弼 (汪弹/汪纲/汪绚), 李寨 (李塞),
+  俞叔平 (价叔平/俞杰平); roster confirmed: 李国俊/黄天迈/马策/胡国振/刘芳雄.
+- SPECIAL PARITY NOTE: the section heading 抗战胜利后的情况 (After the Victory) is
+  OCR-MERGED into the body at line 39 ("抗战胜利后的情况抗战胜利后，唐纵大走鸿运");
+  render it as a ### heading + the body para, which keeps parity (source counts
+  it as 1 body para; translation = 1 heading (uncounted) + 1 body para).
+- STILL TO CROP-VERIFY next turn (large remaining cast): 唐角, 李叶 (roster);
+  谷正伦, 韩文焕, 黄珍吾, 汤永咸, 杨清植 (police-chief fights); 张镇 (宪兵),
+  秦德纯, 宣铁吾, 陶一珊, 罗国新 (金都血案); the German-embassy attaché (line14
+  OCR 召悦) and the Germany students 冯文用/王渭周/菏镇南/范学文; 徐昭骏, 张窒甫,
+  赵世瑞, 林桓, 吴适宪, 石仁宠, 陈菊英, 曾扩情, 刘健群, 陈希曾, 竺培基, 卫立煌,
+  翁文灏(翁文溉), 蒋纬国, 丘吉尔(苑吉尔); the many province 警保处长 lists
+  (lines 93/119/121/152): 严泽元/黎建助/符鸣涛/杨蔚/李树森/张达/刘艺冉/杨清植/
+  王孔安/杨超群/柯建安, 汤永咸/刘崇朴/林超; 乐干 (乐于), 王芝禄, 刘人奢, 刘本钦,
+  汪摄吉, 李哲, 徐恩平(兵役局长). 邱开基/李毓桢/李肖白/王新衡/胡宗南/汤恩伯/
+  叶霞翟(叶乱翟)/毛森 already glossed.
+- Texture to note: 唐's "智多星" epithet; 和柔能克刚; 三顾茅庐; the German-fascist
+  model for the secret police; 制敌机先; the 立煌县->宗南县 vanity episode (Hu
+  Zongnan). Corroborate: Cairo Conference photo, 《中国之命运》, the 金都血案.
+
 ### ch18 (军统特务头子戴笠的继承人毛人凤 / Mao Renfeng, Dai Li's Successor) - DONE
 
 - Translation done this turn (89/89 parity first pass). 5 gates green, qa PASS
