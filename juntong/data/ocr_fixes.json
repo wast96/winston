@@ -14511,6 +14511,48 @@
    "right": "俞叔平",
    "page": 350,
    "why": "Yu Shuping; crop-verified"
+  },
+  {
+   "wrong": "召悦",
+   "right": "酆悌",
+   "page": 350,
+   "why": "Feng Ti, Fuxingshe figure, military attaché to Germany; crop p372"
+  },
+  {
+   "wrong": "冯文用",
+   "right": "冯文尧",
+   "page": 350,
+   "why": "Feng Wenyao; crop p372"
+  },
+  {
+   "wrong": "菏镇南",
+   "right": "蒋镇南",
+   "page": 350,
+   "why": "Jiang Zhennan; crop p372"
+  },
+  {
+   "wrong": "翁文溉",
+   "right": "翁文灏",
+   "page": 350,
+   "why": "Weng Wenhao; crop p377"
+  },
+  {
+   "wrong": "苑吉尔",
+   "right": "邱吉尔",
+   "page": 350,
+   "why": "Churchill; crop p378"
+  },
+  {
+   "wrong": "军统特务乐于",
+   "right": "军统特务乐干",
+   "page": 350,
+   "why": "Le Gan, later education chief; crop p408"
+  },
+  {
+   "wrong": "张窒甫",
+   "right": "张衮甫",
+   "page": 350,
+   "why": "Zhang Gunfu, Dai Li's cashier; crop p371"
   }
  ]
 }
