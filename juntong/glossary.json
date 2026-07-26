@@ -790,6 +790,54 @@
   "尹冰彦": {
    "en": "Yin Bingyan",
    "status": "provisional"
+  },
+  "郭履洲": {
+   "en": "Guo Lüzhou",
+   "status": "attested"
+  },
+  "何际元": {
+   "en": "He Jiyuan",
+   "status": "provisional"
+  },
+  "陈士虎": {
+   "en": "Chen Shihu",
+   "status": "provisional"
+  },
+  "杨蔚": {
+   "en": "Yang Wei",
+   "status": "provisional"
+  },
+  "廖宗泽": {
+   "en": "Liao Zongze",
+   "status": "attested"
+  },
+  "岳烛远": {
+   "en": "Yue Zhuyuan",
+   "status": "provisional"
+  },
+  "汤恩伯": {
+   "en": "Tang Enbo",
+   "status": "attested"
+  },
+  "张国梁": {
+   "en": "Zhang Guoliang",
+   "status": "provisional"
+  },
+  "周文新": {
+   "en": "Zhou Wenxin",
+   "status": "provisional"
+  },
+  "吉章简": {
+   "en": "Ji Zhangjian",
+   "status": "attested"
+  },
+  "周伟龙": {
+   "en": "Zhou Weilong",
+   "status": "attested"
+  },
+  "马志超": {
+   "en": "Ma Zhichao",
+   "status": "attested"
   }
  },
  "organisations": {
@@ -993,6 +1041,14 @@
   },
   "行动处": {
    "en": "the action department",
+   "status": "decided"
+  },
+  "交通警察总局": {
+   "en": "the General Administration of Traffic Police",
+   "status": "decided"
+  },
+  "别动军": {
+   "en": "the Special Operations Army",
    "status": "decided"
   }
  },
@@ -1384,6 +1440,38 @@
   "杨家山": {
    "en": "Yangjiashan",
    "status": "provisional"
+  },
+  "歙县": {
+   "en": "Shexian",
+   "status": "attested"
+  },
+  "雄村": {
+   "en": "Xiongcun",
+   "status": "attested"
+  },
+  "南岳": {
+   "en": "Nanyue",
+   "status": "attested"
+  },
+  "临汝": {
+   "en": "Linru",
+   "status": "attested"
+  },
+  "风穴寺": {
+   "en": "Fengxue Temple",
+   "status": "attested"
+  },
+  "陕坝": {
+   "en": "Shanba",
+   "status": "attested"
+  },
+  "建瓯": {
+   "en": "Jian'ou",
+   "status": "attested"
+  },
+  "临泉": {
+   "en": "Linquan",
+   "status": "attested"
   }
  }
 }

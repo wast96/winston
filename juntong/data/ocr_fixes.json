@@ -6534,5 +6534,163 @@
    "page": 186,
    "why": "蒋先生"
   }
+ ],
+ "ch09": [
+  {
+   "wrong": "### 交通膨察总队",
+   "right": "### 交通警察总队",
+   "page": 187,
+   "why": "chapter title line 1"
+  },
+  {
+   "wrong": "### 是一文什么桩的反动部队",
+   "right": "### 是一支什么样的反动部队",
+   "page": 187,
+   "why": "chapter title line 2"
+  },
+  {
+   "wrong": "交通划察总队",
+   "right": "交通警察总队",
+   "page": 188,
+   "why": "警察"
+  },
+  {
+   "wrong": "美菏特务机关",
+   "right": "美蒋特务机关",
+   "page": 188,
+   "why": "美蒋"
+  },
+  {
+   "wrong": "庚县雄村",
+   "right": "歙县雄村",
+   "page": 187,
+   "why": "Shexian; crop-verified"
+  },
+  {
+   "wrong": "郭履洲任副主任",
+   "right": "郭履洲任副主任",
+   "page": 187,
+   "why": "Guo Lüzhou correct"
+  },
+  {
+   "wrong": "副主任陶一副",
+   "right": "副主任陶一珊",
+   "page": 187,
+   "why": "Tao Yishan; crop-verified"
+  },
+  {
+   "wrong": "湖南土菲特务",
+   "right": "湖南土匪特务",
+   "page": 187,
+   "why": "土匪"
+  },
+  {
+   "wrong": "河南临改风灾村",
+   "right": "河南临汝风穴寺",
+   "page": 188,
+   "why": "Linru, Fengxue Temple; crop-verified"
+  },
+  {
+   "wrong": "副主任戴等",
+   "right": "副主任戴笠",
+   "page": 188,
+   "why": "Dai Li"
+  },
+  {
+   "wrong": "绥远陕坝第四班",
+   "right": "绥远陕坝第四班",
+   "page": 188,
+   "why": "correct"
+  },
+  {
+   "wrong": "福建建蔬",
+   "right": "福建建瓯",
+   "page": 188,
+   "why": "Jian'ou; crop-verified"
+  },
+  {
+   "wrong": "均并人交通警察总局",
+   "right": "均并入交通警察总局",
+   "page": 188,
+   "why": "并入"
+  },
+  {
+   "wrong": "张国染",
+   "right": "张国梁",
+   "page": 188,
+   "why": "Zhang Guoliang; crop-verified"
+  },
+  {
+   "wrong": "芯自强",
+   "right": "彭自强",
+   "page": 188,
+   "why": "Peng Ziqiang; crop-verified"
+  },
+  {
+   "wrong": "汤锁生",
+   "right": "汤毅生",
+   "page": 188,
+   "why": "Tang Yisheng; crop-verified"
+  },
+  {
+   "wrong": "朱庚扬",
+   "right": "朱赓扬",
+   "page": 188,
+   "why": "Zhu Gengyang; crop-verified"
+  },
+  {
+   "wrong": "李攻等，都是",
+   "right": "李骧等，都是",
+   "page": 188,
+   "why": "Li Xiang; crop-verified"
+  },
+  {
+   "wrong": "退体",
+   "right": "退休",
+   "page": 188,
+   "why": "退休"
+  },
+  {
+   "wrong": "大部编信了交警总队",
+   "right": "大部编入了交警总队",
+   "page": 188,
+   "why": "编入"
+  },
+  {
+   "wrong": "屠杀革命人廿",
+   "right": "屠杀革命人士",
+   "page": 188,
+   "why": "人士"
+  },
+  {
+   "wrong": "种种罪亚活动",
+   "right": "种种罪恶活动",
+   "page": 188,
+   "why": "罪恶"
+  },
+  {
+   "wrong": "多次集体大属杀",
+   "right": "多次集体大屠杀",
+   "page": 188,
+   "why": "屠杀"
+  },
+  {
+   "wrong": "成都等地属杀",
+   "right": "成都等地屠杀",
+   "page": 188,
+   "why": "屠杀"
+  },
+  {
+   "wrong": "周文新等两三个总队仓性逃往",
+   "right": "周文新等两三个总队仓惶逃往",
+   "page": 188,
+   "why": "仓惶"
+  },
+  {
+   "wrong": "0UD机枪",
+   "right": "UD机枪",
+   "page": 188,
+   "why": "UD (United Defense M42) submachine gun; source prints 'UD 机枪', crop-verified; OCR added leading 0"
+  }
  ]
 }

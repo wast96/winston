@@ -302,6 +302,23 @@ had flattened both to "the words". Restored as "the three characters" and
   flagged in the note; Xu Linxia arrested with an eight-month-old son, not
   delivered in prison as Shen has it -- noted.
 
+### ch09 (交通警察总队是一支什么样的反动部队 / The Traffic Police Corps) - DONE
+
+- PDF 187-188, printed 168-169. 5 body paragraphs (title spans two source
+  heading lines), 5 translated. An institutional primer written explicitly
+  as a gloss on the Selected Works of Mao Zedong, vol. 4 -- noted as the
+  clearest dating marker in the book so far.
+- 26 ledger entries. Crop-verified: 歙县雄村 (OCR 庚县), 陶一珊 (OCR 陶一副),
+  临汝风穴寺 (OCR 临改风灾村 -- a temple turned into a disaster village),
+  建瓯, and the whole corps-commander roster: 张国梁, 彭自强, 汤毅生, 朱赓扬,
+  李骧. Weapons list: the scan prints roman 'UD' (UD M42 submachine gun);
+  OCR read 0UD. 曲尺 rendered 'automatic pistols' (service slang, carpenter's
+  square silhouette), not Mausers.
+- Checks: parity 5/5, alignment OK, content OK, numbers 0 unresolved on
+  first run, register in tolerance.
+- Notes: 8 at 4/printed page (short chapter, dense referents).
+  Glossary +26 (328 total).
+
 ### ch08 (蒋介石阴谋暗杀李宗仁的内幕 / Chiang's Plot to Assassinate Li Zongren) - DONE
 
 - PDF 183-186, printed 164-167. 8 source paragraphs (1 heading), 7 body
