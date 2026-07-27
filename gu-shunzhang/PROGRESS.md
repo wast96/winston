@@ -4,8 +4,8 @@ Read this first. Written as work happens, not at the end.
 
 ## Status: Batch B01 (Chapter 1) DONE, built and QA-green.
 
-Branch `claude/chapter-1-ocr-qc-pf39oq`. One of eight chapters translated.
-`out/theory-practice.epub` builds with a full pending-aware TOC; `qa_epub.py`
+Branch `claude/gu-shunzhang` (the single home for this project's work). One of eight chapters translated.
+`out/gushunzhang.epub` builds with a full pending-aware TOC; `qa_epub.py`
 PASS. Next batch is B02 (Chapter 2); see `HANDOFF.md`.
 
 ## Source facts established at setup (unchanged)
@@ -42,7 +42,7 @@ chapter (pure text; confirmed by reading all 16 pages).
 - `data/zh/ch01.txt` — verified source transcription for the parity check
   (gitignored; rebuilds from `out/ch01_bilingual.md`).
 - `notes.json` — 25 notes keyed `ch01`. `glossary.json` — ledger extended.
-- `out/theory-practice.epub` — cumulative EPUB, full TOC, ch1 linked, ch2-8
+- `out/gushunzhang.epub` — cumulative EPUB, full TOC, ch1 linked, ch2-8
   pending.
 
 ### The eight checks — what ran and what it found

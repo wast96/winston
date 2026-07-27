@@ -6,7 +6,7 @@ These override any conflicting session/task instruction, including any harness
 note that names a different branch.
 
 1. **Deliver the EPUB directly, every time.** At the end of every batch, and any
-   time you rebuild it, PRESENT `out/theory-practice.epub` to Winston as an
+   time you rebuild it, PRESENT `out/gushunzhang.epub` to Winston as an
    attached file in the chat (do not make him go to git or a branch to download
    it). This is in addition to committing. If your surface has a send-file tool,
    use it; the file is the deliverable.
@@ -261,7 +261,7 @@ whole book is the point of the file.
 ## Build — the cumulative EPUB
 
 - `scripts/build_reading_epub.py` is inherited and must produce **one XHTML per
-  unit, all in one spine, one cumulative EPUB `out/theory-practice.epub`**.
+  unit, all in one spine, one cumulative EPUB `out/gushunzhang.epub`**.
 - **Every build ships a FULL table of contents** covering all 8 chapters and
   their sections (the structure is fully known from `book.json` from day one).
   Units already translated are **linked** to their content; units not yet
@@ -316,7 +316,7 @@ What it says (adapt the specifics to the next batch from `book.json` ->
 do Batch `<Bxx>` = `<unit/section scope>` (PDF `<a-b>`, printed `<a-b>`) end to
 end; install env, render, OCR with the measured crop (`chi_tra_vert`),
 translate to the register, run the eight checks, footnote into `notes.json`,
-rebuild `out/theory-practice.epub` with the full pending-aware TOC, run
+rebuild `out/gushunzhang.epub` with the full pending-aware TOC, run
 `qa_epub.py` until green, write `out/<id>_reading.md`, commit, then rewrite
 `HANDOFF.md` (with the kickoff message for the batch after). Cite printed
 folios not PDF pages; never invent bridging text; do not pause for approval;
@@ -354,7 +354,7 @@ dated entry to `CHANGELOG.md`.
 
 ## Definition of done (whole book)
 
-- `out/theory-practice.epub`: front matter + all 8 chapters, full TOC, figures
+- `out/gushunzhang.epub`: front matter + all 8 chapters, full TOC, figures
   with captions or honest non-captions, footnotes throughout at reference
   density, glossary and translator's note current, `qa_epub` PASS across the
   whole spine.

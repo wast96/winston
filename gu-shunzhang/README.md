@@ -16,7 +16,7 @@ Each batch produces:
 - `out/<id>_reading.md` — the clean English for the batch (the correction surface).
 - Footnotes folded into `notes.json`.
 - The eight checks run, results in `PROGRESS.md`.
-- A rebuilt `out/theory-practice.epub` whose TOC covers the whole book, with
+- A rebuilt `out/gushunzhang.epub` whose TOC covers the whole book, with
   translated units linked and the rest shown as pending.
 - An updated `HANDOFF.md` telling the next instance exactly where to start.
 

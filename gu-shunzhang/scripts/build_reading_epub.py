@@ -4,7 +4,7 @@
 Driven entirely by book.json (a dict with a "structure" list of chapters, each
 with its sections). One XHTML per TRANSLATED chapter (a chapter is translated
 when out/<id>_reading.md exists), all in one spine, one cumulative EPUB
-out/theory-practice.epub.
+out/gushunzhang.epub.
 
 Every build ships a FULL table of contents covering all eight chapters and
 their thirty-seven sections: translated chapters are linked (down to the
@@ -21,7 +21,7 @@ Reading markdown per chapter uses: '## ' chapter title (h1), '### ' section
 (h2, given the section's book.json id), '#### ' subsection (h3); every other
 non-blank line is a paragraph.
 
-Usage: build_reading_epub.py out/theory-practice.epub
+Usage: build_reading_epub.py out/gushunzhang.epub
 """
 import html
 import json
@@ -494,4 +494,4 @@ def main(epub_path):
 
 if __name__ == "__main__":
     main(sys.argv[1] if len(sys.argv) > 1 else
-         os.path.join(ROOT, "out", "theory-practice.epub"))
+         os.path.join(ROOT, "out", "gushunzhang.epub"))

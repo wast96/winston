@@ -34,5 +34,5 @@ project-structural changes.
   with a full 8-chapter/37-section pending-aware TOC and continuous footnote
   numbering; added `scripts/split_bilingual.py`; extended `check_numbers.py`
   for Traditional 萬/億, fractions, "million", and numeral-idioms.
-- Built `out/theory-practice.epub` (ch1 linked, ch2-8 pending); `qa_epub.py`
+- Built `out/gushunzhang.epub` (ch1 linked, ch2-8 pending); `qa_epub.py`
   PASS. HANDOFF.md rewritten to launch Batch B02 (Chapter 2).

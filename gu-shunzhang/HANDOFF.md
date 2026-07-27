@@ -7,14 +7,14 @@ always keep the paste-ready message below as its first section.
 ## Message to paste into the next chat
 
 ```
-Read gu-shunzhang/CLAUDE.md in full, then gu-shunzhang/HANDOFF.md, then gu-shunzhang/book.json. Then do Batch B02 = Chapter 2 (特務組織, Secret-Service Organization) — PDF pages 43-71, printed pages 17-39, its 7 sections (ch02s01 to ch02s07) — end to end: install the environment (tesseract-ocr chi_tra + chi_tra_vert, pymupdf, pillow, numpy; opencv for figures if the chapter has plates), render, OCR with the already-measured crop (scripts/ocr_crop.py, chi_tra_vert --psm 5), then read every page off the 300 dpi scan by eye and translate to the register in CLAUDE.md. Run all eight QC checks (author one aligned out/ch02_bilingual.md and generate out/ch02_reading.md + data/zh/ch02.txt with scripts/split_bilingual.py, then check_numbers.py and check_structure.py; blind double-translation and back-translation on the argumentative passages). Add footnotes to notes.json keyed "ch02" (continuous numbering follows automatically) and extend glossary.json with attestation. Detect and caption figures if any (find_figures.py needs opencv; captions may be vertical, OCR with chi_tra_vert). Rebuild out/theory-practice.epub (the builder is already book.json-driven and pending-aware; ch2 will link automatically), run scripts/qa_epub.py until it passes, then commit. Finally rewrite HANDOFF.md to launch Batch B03 (Chapter 3). Cite printed folios, never PDF pages; verify the drifted offset at the ch2 opener against folio 十七; never invent bridging text (crop the scan and read the continuation). Don't pause for my approval; run the whole batch and report back when Chapter 2 is built and QA-green.
+Read gu-shunzhang/CLAUDE.md in full, then gu-shunzhang/HANDOFF.md, then gu-shunzhang/book.json. Then do Batch B02 = Chapter 2 (特務組織, Secret-Service Organization) — PDF pages 43-71, printed pages 17-39, its 7 sections (ch02s01 to ch02s07) — end to end: install the environment (tesseract-ocr chi_tra + chi_tra_vert, pymupdf, pillow, numpy; opencv for figures if the chapter has plates), render, OCR with the already-measured crop (scripts/ocr_crop.py, chi_tra_vert --psm 5), then read every page off the 300 dpi scan by eye and translate to the register in CLAUDE.md. Run all eight QC checks (author one aligned out/ch02_bilingual.md and generate out/ch02_reading.md + data/zh/ch02.txt with scripts/split_bilingual.py, then check_numbers.py and check_structure.py; blind double-translation and back-translation on the argumentative passages). Add footnotes to notes.json keyed "ch02" (continuous numbering follows automatically) and extend glossary.json with attestation. Detect and caption figures if any (find_figures.py needs opencv; captions may be vertical, OCR with chi_tra_vert). Rebuild out/gushunzhang.epub (the builder is already book.json-driven and pending-aware; ch2 will link automatically), run scripts/qa_epub.py until it passes, then commit. Finally rewrite HANDOFF.md to launch Batch B03 (Chapter 3). Cite printed folios, never PDF pages; verify the drifted offset at the ch2 opener against folio 十七; never invent bridging text (crop the scan and read the continuation). Don't pause for my approval; run the whole batch and report back when Chapter 2 is built and QA-green.
 ```
 
 ## What is DONE (do not redo)
 
 - **Batch B01 = Chapter 1 (緒論) is complete, built, and QA-green.** See
   `PROGRESS.md` for the full batch record. `out/ch01_reading.md`, `notes.json`
-  (`ch01`, 25 notes), `glossary.json`, and `out/theory-practice.epub` are all
+  (`ch01`, 25 notes), `glossary.json`, and `out/gushunzhang.epub` are all
   in place; `qa_epub.py` PASSES across the spine.
 - **The EPUB builder is generalised and book.json-driven.** It emits one XHTML
   per translated chapter, a full 8-chapter/37-section pending-aware TOC (ch1
@@ -69,7 +69,7 @@ Read gu-shunzhang/CLAUDE.md in full, then gu-shunzhang/HANDOFF.md, then gu-shunz
    run `find_figures.py 43 71` (it merges its manifest), crop caption zones and
    OCR with `chi_tra_vert`; add specs to `figures.json` under `ch02`. If no
    caption is legible, caption neutrally; never invent an identification.
-7. Rebuild `out/theory-practice.epub`, run `qa_epub.py` until PASS. Commit
+7. Rebuild `out/gushunzhang.epub`, run `qa_epub.py` until PASS. Commit
    (message like "B02 ch2: ..."). Then rewrite this HANDOFF for **Batch B03 =
    Chapter 3 (特務工作的方法, PDF 72-83, printed 40-51)** with a fresh kickoff
    block at the top.
