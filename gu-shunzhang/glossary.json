@@ -1,8 +1,9 @@
 {
- "_about": "Single source of truth for every rendering, and the auditable term ledger of check 5. One rendering per referent for the whole book. status: attested (used in English scholarship, cite it in note), provisional (my romanisation, not found), decided (project style call). Seeded at project setup; grows per batch.",
+ "_about": "Single source of truth for every rendering, and the auditable term ledger of check 5. One rendering per referent for the whole book. status: attested (used in English scholarship, cite it in note), provisional (my romanisation, not found), decided (project style call). Each entry carries pinyin for the ledger. Seeded at project setup; grows per batch.",
  "book": {
   "特務工作之理論與實際": {
    "en": "The Theory and Practice of Secret Service Work",
+   "pinyin": "Tewu Gongzuo zhi Lilun yu Shiji",
    "status": "decided",
    "note": "Winston's chosen title. 特務工作 is rendered 'secret-service work' throughout; an alternate literal is 'special-agent work'. Author's preface dated Nanjing, 20 July 1933."
   }
@@ -10,42 +11,68 @@
  "people": {
   "顧順章": {
    "en": "Gu Shunzhang",
+   "pinyin": "Gu Shunzhang",
    "status": "attested",
-   "note": "1904-1935. The author. A founding head of the Chinese Communist Party's Central Special Branch (中央特科), its intelligence and security apparatus. Captured in Wuhan and defected to the Nationalists in April 1931; his defection exposed the CCP's underground networks in Shanghai and was one of the gravest security disasters in the Party's early history. Later executed by the Nationalists. This manual is his systematic account of the tradecraft he built and then turned. Verify the specifics of every biographical claim against scholarship before repeating it in a note."
+   "note": "1904-1935. The author. Chosen by Zhou Enlai to head the Chinese Communist Party's first intelligence service, the Central Special Branch (中央特科); trained in Soviet (GPU) tradecraft at Vladivostok in 1926 and built the apparatus from 1928. Captured in Wuhan and defected to the Nationalists in April 1931; his defection exposed the CCP's Shanghai underground and led to the arrest and execution of Party general secretary Xiang Zhongfa, one of the gravest security disasters in the Party's early history. Later executed by the Nationalists. This manual systematises the tradecraft he built and then turned. Corroborated by Wikipedia (en.wikipedia.org/wiki/Gu_Shunzhang) and the CIA study 'Edging in from the Cold'; verify any further biographical specifics before repeating them."
   }
  },
  "organizations": {
   "中央特科": {
    "en": "the Central Special Branch",
-   "status": "provisional",
-   "note": "The CCP's clandestine intelligence/security organ that Gu Shunzhang helped run. Confirm the conventional English rendering in scholarship before finalising; 'Special Branch', 'Special Services Section' and 'Central Special Operations' all appear in the literature."
+   "pinyin": "Zhongyang Teke",
+   "status": "attested",
+   "note": "The CCP's clandestine intelligence/security organ (established 1927-28) that Gu Shunzhang helped run under Zhou Enlai. English 'Central Special Branch' is the form used by Wikipedia (en.wikipedia.org/wiki/Central_Special_Branch); 'Special Services Section' and 'Central Department for Special Tasks' also appear in the literature."
+  },
+  "中國國民黨": {
+   "en": "the Chinese Nationalist Party",
+   "pinyin": "Zhongguo Guomindang",
+   "status": "attested",
+   "note": "The Kuomintang (KMT / Guomindang), Sun Yat-sen's party and the ruling party of the Nanjing National Government from 1927. Rendered 'Chinese Nationalist Party' throughout; 'Kuomintang' and 'Nationalist Party' are the same body."
   },
   "C.P.": {
    "en": "C.P.",
+   "pinyin": "(abbreviation)",
    "status": "decided",
    "note": "The author's own printed abbreviation for the Communist Party (Chapter 7 Section 2 is titled C.P.特務工作). Keep it verbatim as printed and gloss it as 'Communist Party' on first use."
   },
+  "格伯武": {
+   "en": "the GPU",
+   "pinyin": "Gebowu",
+   "status": "attested",
+   "note": "The book's transliteration of the Russian abbreviation ГПУ (GPU), the Soviet State Political Directorate and secret police, 1922-34 (succeeded by the OGPU, 1923-34). Chapter 1 prints 格伯武; the forms 格別烏/格伯烏 are commoner in Chinese (Baidu Baike; zh.wikipedia). One rendering, 'the GPU', throughout. NB: Chapter 7 Section 3 uses 格伯烏 for the same referent; treat as the same entry."
+  },
+  "交通部": {
+   "en": "the Ministry of Communications",
+   "pinyin": "Jiaotong Bu",
+   "status": "decided",
+   "note": "The Republican-era government ministry (posts, telegraph, railways, shipping). The author puns on 交通: in tradecraft it means clandestine liaison/courier work, not public transport."
+  },
   "格伯烏": {
    "en": "the GPU",
-   "status": "provisional",
-   "note": "Transliteration 'Gebowu' in Chapter 7 Section 3; the Soviet state political directorate (GPU/OGPU). Confirm the exact hanzi against the scan and the standard English abbreviation."
-  },
-  "青紅幫": {
-   "en": "the Green and Red Gangs",
-   "status": "provisional",
-   "note": "青幫 (Green Gang) and 紅幫 (Red Gang), the Shanghai secret societies; Chapter 7 Section 4. Cross-check the sibling Shanghai-underworld project's glossary for a consistent rendering before finalising."
+   "pinyin": "Gebowu",
+   "status": "attested",
+   "note": "Variant transliteration of ГПУ used later in the book; see 格伯武. Same referent, same English rendering 'the GPU'."
   }
  },
  "terms": {
-  "特務工作": {"en": "secret-service work", "status": "decided", "note": "Alternate literal: 'special-agent work'. One rendering throughout."},
-  "特務": {"en": "secret agent / secret service", "status": "decided", "note": "Rendered by context; do not flatten to 'spy'. Keep the period professional sense."},
-  "偵探網": {"en": "the detective network", "status": "provisional"},
-  "交通網": {"en": "the communications network", "status": "provisional", "note": "交通 here is clandestine liaison/communications, not transport."},
-  "化裝術": {"en": "the art of disguise", "status": "provisional"},
-  "釘梢術": {"en": "the art of shadowing", "status": "provisional", "note": "Tailing/surveillance on foot."},
-  "反偵探": {"en": "counter-surveillance", "status": "provisional"},
-  "破壞術": {"en": "sabotage", "status": "provisional"},
-  "催眠術": {"en": "hypnotism", "status": "provisional"},
-  "形相術": {"en": "physiognomy", "status": "provisional"}
+  "特務工作": {"en": "secret-service work", "pinyin": "tewu gongzuo", "status": "decided", "note": "Alternate literal: 'special-agent work'. One rendering throughout."},
+  "特務": {"en": "secret agent / secret service", "pinyin": "tewu", "status": "decided", "note": "Rendered by context; do not flatten to 'spy'. Keep the period professional sense. NB the same word named ordinary military guard/HQ units (特務團/營/連, 特務股); rendered 'special-duty' there."},
+  "非常": {"en": "extraordinary", "pinyin": "feichang", "status": "decided", "note": "A load-bearing recurring term: 'extraordinary' in the sense of out-of-the-ordinary, not-by-normal-means, paired throughout with 祕密 (secret). Not 'unusual' or 'emergency'."},
+  "三民主義": {"en": "the Three Principles of the People", "pinyin": "San Min Zhuyi", "status": "attested", "note": "Sun Yat-sen's doctrine (nationalism 民族, democracy/people's rights 民權, people's livelihood 民生), the ideological basis of the Nationalist state. Standard English rendering."},
+  "國民革命": {"en": "the National Revolution", "pinyin": "Guomin Geming", "status": "attested", "note": "The KMT-led revolution of the 1920s (Northern Expedition, 1926-28) and its continuing project; the standard English term."},
+  "一黨專政": {"en": "one-party rule", "pinyin": "yidang zhuanzheng", "status": "decided", "note": "Lit. 'one-party dictatorship'; the KMT's doctrine of party tutelage under the 1931 provisional constitution. Rendered 'one-party rule'."},
+  "別動隊": {"en": "special-operations corps", "pinyin": "biedongdui", "status": "provisional", "note": "Period military term for detached irregular/special-action units operating apart from the main force. Rendered 'special-operations corps'."},
+  "土豪劣紳": {"en": "local bullies and evil gentry", "pinyin": "tuhao lieshen", "status": "decided", "note": "Stock revolutionary-era class label for rural power-holders targeted in the 1920s National Revolution. Keep the fixed pairing."},
+  "巡捕房": {"en": "concession police station", "pinyin": "xunbufang", "status": "decided", "note": "The police stations of the foreign concessions (Shanghai's International Settlement and French Concession). Their Chinese informers were 包打聽."},
+  "偵察": {"en": "reconnaissance", "pinyin": "zhencha", "status": "decided", "note": "The intelligence-gathering branch of the work; rendered 'reconnaissance' (or 'to reconnoitre')."},
+  "情報": {"en": "intelligence", "pinyin": "qingbao", "status": "decided", "note": "Finished intelligence (reports worked up from reconnaissance), as distinct from 偵察 (the act of gathering)."},
+  "偵探網": {"en": "the detective network", "pinyin": "zhentan wang", "status": "provisional"},
+  "交通網": {"en": "the communications network", "pinyin": "jiaotong wang", "status": "provisional", "note": "交通 here is clandestine liaison/communications, not transport."},
+  "化裝術": {"en": "the art of disguise", "pinyin": "huazhuang shu", "status": "provisional"},
+  "釘梢術": {"en": "the art of shadowing", "pinyin": "dingshao shu", "status": "provisional", "note": "Tailing/surveillance on foot."},
+  "反偵探": {"en": "counter-surveillance", "pinyin": "fan zhentan", "status": "provisional"},
+  "破壞術": {"en": "sabotage", "pinyin": "pohuai shu", "status": "provisional"},
+  "催眠術": {"en": "hypnotism", "pinyin": "cuimian shu", "status": "provisional"},
+  "形相術": {"en": "physiognomy", "pinyin": "xingxiang shu", "status": "provisional"}
  }
 }

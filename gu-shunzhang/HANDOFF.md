@@ -1,102 +1,91 @@
 # HANDOFF — 特務工作之理論與實際 (Gu Shunzhang)
 
 This file is the baton. A fresh instance with no memory of prior sessions
-should read it and start immediately. Rewrite it at the end of every batch,
-and always keep the paste-ready message below as its first section.
+should read it and start immediately. Rewrite it at the end of every batch, and
+always keep the paste-ready message below as its first section.
 
 ## Message to paste into the next chat
 
 ```
-Read gu-shunzhang/CLAUDE.md in full, then gu-shunzhang/HANDOFF.md, then gu-shunzhang/book.json. Then do Batch B01 = Chapter 1 (緒論, Introduction) — PDF pages 27-42, printed pages 1-16 — end to end: install the environment, render, OCR with the already-measured crop (scripts/ocr_crop.py, chi_tra_vert), translate to the register in CLAUDE.md, run all eight QC checks, add footnotes to notes.json, generalise build_reading_epub.py to emit out/theory-practice.epub with a full 8-chapter table of contents (Chapter 1 linked, the rest shown as pending), run qa_epub.py until it passes, write out/ch01_reading.md, commit, then rewrite HANDOFF.md to launch Batch B02 (Chapter 2). Cite printed folios, never PDF pages, and never invent bridging text — crop the scan and read it. Don't pause for my approval; run the whole batch and report back when Chapter 1 is built and QA-green.
+Read gu-shunzhang/CLAUDE.md in full, then gu-shunzhang/HANDOFF.md, then gu-shunzhang/book.json. Then do Batch B02 = Chapter 2 (特務組織, Secret-Service Organization) — PDF pages 43-71, printed pages 17-39, its 7 sections (ch02s01 to ch02s07) — end to end: install the environment (tesseract-ocr chi_tra + chi_tra_vert, pymupdf, pillow, numpy; opencv for figures if the chapter has plates), render, OCR with the already-measured crop (scripts/ocr_crop.py, chi_tra_vert --psm 5), then read every page off the 300 dpi scan by eye and translate to the register in CLAUDE.md. Run all eight QC checks (author one aligned out/ch02_bilingual.md and generate out/ch02_reading.md + data/zh/ch02.txt with scripts/split_bilingual.py, then check_numbers.py and check_structure.py; blind double-translation and back-translation on the argumentative passages). Add footnotes to notes.json keyed "ch02" (continuous numbering follows automatically) and extend glossary.json with attestation. Detect and caption figures if any (find_figures.py needs opencv; captions may be vertical, OCR with chi_tra_vert). Rebuild out/theory-practice.epub (the builder is already book.json-driven and pending-aware; ch2 will link automatically), run scripts/qa_epub.py until it passes, then commit. Finally rewrite HANDOFF.md to launch Batch B03 (Chapter 3). Cite printed folios, never PDF pages; verify the drifted offset at the ch2 opener against folio 十七; never invent bridging text (crop the scan and read the continuation). Don't pause for my approval; run the whole batch and report back when Chapter 2 is built and QA-green.
 ```
 
-## >>> YOUR JOB THIS SESSION: Batch B01 = Chapter 1 (Introduction) <<<
+## What is DONE (do not redo)
 
-Translate **Chapter 1, 緒論 (Introduction)** end to end: OCR, translation, the
-eight checks, footnotes, EPUB, commit. This is the FIRST batch, so you also do
-the one remaining piece of setup engineering (the EPUB builder) along the way.
+- **Batch B01 = Chapter 1 (緒論) is complete, built, and QA-green.** See
+  `PROGRESS.md` for the full batch record. `out/ch01_reading.md`, `notes.json`
+  (`ch01`, 25 notes), `glossary.json`, and `out/theory-practice.epub` are all
+  in place; `qa_epub.py` PASSES across the spine.
+- **The EPUB builder is generalised and book.json-driven.** It emits one XHTML
+  per translated chapter, a full 8-chapter/37-section pending-aware TOC (ch1
+  linked and its sections deep-linked; ch2-8 shown pending), continuous
+  footnote numbering, and refuses to build on any unmatched note anchor. You do
+  NOT need to touch the builder for ch2; adding `out/ch02_reading.md` is enough
+  for it to appear, linked, in the TOC.
+- **`scripts/split_bilingual.py`** turns one `out/<id>_bilingual.md` into the
+  shipped `out/<id>_reading.md` and the parity source `data/zh/<id>.txt`. Use
+  it; it keeps the two from drifting. Invocation:
+  `python3 scripts/split_bilingual.py out/ch02_bilingual.md ch02 "第二章 特務組織"`.
+- **`scripts/check_numbers.py`** was extended for this book (Traditional 萬/億,
+  X分之Y fractions, English million/billion, numeral-idiom NOISE). Keep
+  extending the NOISE list as new measure-word false positives appear.
+- **OCR crop geometry is correct**; just run `ocr_crop.py`.
 
-- **Scope:** ch01, its 3 sections. **PDF pages 27-42** = **printed pages 1-16**.
-  - §1 The Nature of Secret-Service Work — PDF 27-32
-  - §2 The Importance of Secret-Service Work — PDF 33-37
-  - §3 The Scope of Secret-Service Work — PDF 38-42
-- Chapter 1 is also the **style-and-quality bar** for the whole book; get its
-  register and note density right, because every later batch is measured on it.
+## Your job this session: Batch B02 = Chapter 2 (Secret-Service Organization)
 
-## Read these first, in order
-
-1. `CLAUDE.md` — in full. Source facts, the eight checks (the QC contract),
-   footnote policy, register, build and handoff rules. Non-negotiable.
-2. `book.json` — the structure map. Note `batches` (the 11-batch plan Winston
-   set), `citation_convention`, `toc_flags_resolved`, `back_matter`.
-3. `PROGRESS.md` — current state and what is already done.
-
-## What is already done (do NOT redo)
-
-- Project scaffold, `source.pdf` committed, glossary seeded.
-- **OCR crop is re-measured and working.** `scripts/ocr_crop.py` has this
-  book's geometry (vertical, Traditional; crop L0.045 R0.84 T0.11 B0.915;
-  `chi_tra_vert --psm 5`; running-head and running-foot filters). Just run it.
-- **TOC discrepancies resolved** against the scan; corrected English section
-  titles are in `book.json`, and a corrections block is in
-  `reference/toc_translated.md`. Trust those titles.
-
-## Citation convention (this edition will be cited in research)
-
-Cite the book's **printed folio**, never the PDF page. The PDF-to-printed
-offset drifts (plates are bound in), so **read the folio off each scanned
-page**; do not compute it. Main text is printed pp 1-236, then the 勘誤表
-(errata) and colophon. See `book.json` -> `citation_convention` / `back_matter`.
+- **Scope:** ch02, its 7 sections. **PDF 43-71 = printed 17-39.**
+  - §1 Principles of Organization — PDF 43 / printed 17
+  - §2 The Detective Network — PDF 46 / printed 20
+  - §3 The Communications Network — PDF 51 (printed anchor in book.json reads 21; verify)
+  - §4 Selection of Personnel — PDF 52 / printed 22
+  - §5 Discipline — PDF 59 / printed 27
+  - §6 Treatment and Remuneration — PDF 62 / printed 30 (TOC "Rewards and Punishments" was WRONG; = 待遇)
+  - §7 Training — PDF 67 / printed 35
+  (Section page anchors are in `book.json`; the offset drifts, so read the folio
+  off each page rather than computing it. Confirm the ch2 opener is printed 十七.)
 
 ## The pipeline for this batch (per CLAUDE.md)
 
-1. Environment: `apt install tesseract-ocr tesseract-ocr-chi-tra
-   tesseract-ocr-chi-tra-vert`; `pip install pymupdf pillow numpy`. Try
-   `pip install paddlepaddle paddleocr` for check 1's primary engine; if it will
-   not install in a few minutes, fall back to `chi_tra_vert` alone and say so.
-2. `python scripts/render.py 27 42 --dpi 300`.
-3. `python scripts/ocr_crop.py 27 42` (tesseract path). If Paddle installed,
-   wire it as primary in `ocr_dual.py` and run the dual-engine char diff.
-4. Translate ch1 to the register in CLAUDE.md. Verify BEFORE writing: every
-   name, number, low-confidence span, and every char the two OCR engines
-   disagree on gets a magnified crop read by eye. Never invent bridging text.
-5. Run the **eight checks** (CLAUDE.md). At minimum for this batch: dual-engine
-   OCR diff (check 1), invariant/number check (4), the term-ledger update (5),
-   inline low-confidence annotation (6), external-scholarship check (7), and a
-   3-5% deep audit (8). Do blind double translation (2) and back-translation (3)
-   on the argumentative passages. Record what ran and what it found in
-   `PROGRESS.md` and this handoff.
-6. Footnotes into `notes.json` (keyed `{unit_id: [{anchor, note}]}`, anchors
-   verbatim substrings of the English). Every check-6 bracketed span becomes a
-   footnote. Glossary rows into `glossary.json` with status + attestation.
-7. **Generalise `scripts/build_reading_epub.py`** (still ch1-shaped from the
-   sibling project) to: one XHTML per unit, one cumulative EPUB
-   `out/theory-practice.epub`, a **full TOC of all 8 chapters / 37 sections**
-   from `book.json` with ch1 linked and the rest shown as pending. Continuous
-   footnote numbering. Builder must REFUSE to build on any unmatched footnote
-   anchor. Then run `scripts/qa_epub.py` and fix until it passes.
-8. Also produce `out/ch01_reading.md` (the clean English, Winston's correction
-   surface).
-9. Commit (message: "B01 ch1: ..."). Then **rewrite this HANDOFF for Batch B02
-   = Chapter 2 (PDF 43-71, printed 17-39)**, recording ch1's open questions,
-   new glossary entries, and the check results. The rewritten HANDOFF must open
-   with a fresh `## Message to paste into the next chat` block for **B02**
-   (see CLAUDE.md -> "Kickoff message"), and your final chat reply to Winston
-   must include that B02 message verbatim so he can paste it straight into the
-   next session.
+1. Install env (see the kickoff message). PaddleOCR will almost certainly not
+   install (weights host is off the allowlist); fall back to `chi_tra_vert` and
+   the eye-read, and say so, exactly as B01 did.
+2. `python3 scripts/render.py 43 71 --dpi 300`, then
+   `OMP_THREAD_LIMIT=1 python3 scripts/ocr_crop.py 43 71`.
+3. Read EVERY page off the 300 dpi PNG by eye (the seal corrupts central
+   columns; the eye-read is the authority). Crop-verify every name, number, and
+   low-confidence span. Chapter 2 is organizational and will have concrete
+   numbers (personnel grades, pay, cell sizes); those are load-bearing, so
+   crop-verify each.
+4. Author `out/ch02_bilingual.md` (source line `>` above English), then
+   `split_bilingual.py`. Run `check_numbers.py out/ch02_bilingual.md` and
+   `check_structure.py` (parity/anchors/headings/drift) until clean. Do the
+   blind double-translation and back-translation on the argumentative passages;
+   sample the list/enumeration filler.
+5. Footnotes into `notes.json` under `ch02`; recurring subjects already noted
+   in ch1 (GPU, C.P., Gu, the KMT, Three Principles, National Revolution) do NOT
+   get re-noted unless the new context adds something. Glossary rows with
+   status + attestation.
+6. Figures: if the chapter has plates, `pip install opencv-python-headless`,
+   run `find_figures.py 43 71` (it merges its manifest), crop caption zones and
+   OCR with `chi_tra_vert`; add specs to `figures.json` under `ch02`. If no
+   caption is legible, caption neutrally; never invent an identification.
+7. Rebuild `out/theory-practice.epub`, run `qa_epub.py` until PASS. Commit
+   (message like "B02 ch2: ..."). Then rewrite this HANDOFF for **Batch B03 =
+   Chapter 3 (特務工作的方法, PDF 72-83, printed 40-51)** with a fresh kickoff
+   block at the top.
 
 ## The 11-batch plan (from Winston)
 
-B01 ch1 · B02 ch2 · B03 ch3 · B04 ch4 · B05 ch5 · B06 ch6 §1-3 ·
+B01 ch1 [DONE] · B02 ch2 · B03 ch3 · B04 ch4 · B05 ch5 · B06 ch6 §1-3 ·
 B07 ch6 §4-6 · B08 ch6 §7-11 · B09 ch7 §1-3 · B10 ch7 §4 · B11 ch8.
 Full page ranges in `book.json` -> `batches`.
 
 ## Open traps / environment
 
 - Traditional OCR model only (`chi_tra` / `chi_tra_vert`), never `chi_sim`.
-- NCL seal over central columns; a few pages have heavy dark-edge artifacts
-  (crop-verify by eye). Offset drift: use `book.json` anchors, read folios off
-  the page.
-- `OMP_THREAD_LIMIT=1` for tesseract; orphaned children spin after a kill
-  (see `scripts/ocr_crop.py`).
+- NCL seal over central columns; a few pages carry heavy dark-edge artifacts.
+  Read folios off the page; offset drifts (use `book.json` anchors).
+- `OMP_THREAD_LIMIT=1` for tesseract; orphaned children spin after a kill.
 - Env tools are NOT installed in a fresh container; install them first.
+- ch01 open items carried forward: 別動隊 rendering is provisional; the ch7 GPU
+  spelling (格伯烏) should be reconciled with ch1's 格伯武 when ch7 is done.

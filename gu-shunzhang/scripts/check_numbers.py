@@ -15,7 +15,7 @@ Usage: check_numbers.py out/ch03_bilingual.md
 import re
 import sys
 
-CN_DIGIT = {"零": 0, "一": 1, "二": 2, "两": 2, "三": 3, "四": 4,
+CN_DIGIT = {"零": 0, "一": 1, "二": 2, "两": 2, "兩": 2, "三": 3, "四": 4,
             "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
 WORD_NUM = {
     "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
@@ -66,6 +66,12 @@ NOISE = [
     r"朝三暮四", r"一清二楚", r"信心十足", r"十恶不赦", r"几秒",
     r"礼让三分", r"一哆嗦", r"三大[亨闻]", r"一拥而", r"一沓",
     r"一箭双雕", r"一迭声",
+    # Traditional-script idioms and fractions carrying numerals that are not
+    # quantities. This book is vertical Traditional, so the simplified forms
+    # above miss them; extend here as new false positives appear (per CLAUDE.md).
+    r"[一二三四五六七八九十百千]+分之[一二三四五六七八九十百千]+",  # 二分之一 etc.
+    r"瞬息萬變", r"五花八門", r"百發百中", r"包羅萬象", r"神通廣大",
+    r"千方百計", r"千篇一律", r"萬無一失", r"三令五申", r"九牛一毛",
 ]
 
 
@@ -81,7 +87,7 @@ def cn_to_int(token):
     """
     if token in CN_DIGIT:
         return CN_DIGIT[token]
-    if not re.search(r"[十百千万]", token):
+    if not re.search(r"[十百千万萬億]", token):
         return None
     total, section, digit = 0, 0, 0
     for ch in token:
@@ -96,8 +102,11 @@ def cn_to_int(token):
         elif ch == "千":
             section += (digit or 1) * 1000
             digit = 0
-        elif ch == "万":
+        elif ch in ("万", "萬"):
             total += ((section + digit) or 1) * 10000
+            section = digit = 0
+        elif ch == "億":
+            total += ((section + digit) or 1) * 100000000
             section = digit = 0
     return (total + section + digit) or None
 
@@ -107,7 +116,7 @@ def source_numbers(text, extra_noise=()):
     for pat in list(NOISE) + list(extra_noise):
         stripped = re.sub(pat, "", stripped)
     nums = set(int(n) for n in re.findall(r"\d+", stripped))
-    for tok in re.findall(r"[零一二两三四五六七八九十百千万]+", stripped):
+    for tok in re.findall(r"[零一二两兩三四五六七八九十百千万萬億]+", stripped):
         val = cn_to_int(tok)
         # A bare 一 is nearly always a measure word, not a quantity.
         if val is not None and not (val == 1 and tok == "一"):
@@ -157,6 +166,17 @@ def target_numbers(text):
     nums = set(int(n) for n in re.findall(r"\d+", text))
     low = text.lower()
     nums |= spelled_numbers(low)
+    # "million"/"billion" multipliers: the source writes 萬/億 compounds that
+    # English spells as "five million", "a hundred million", and so on.
+    MULT = {"million": 10 ** 6, "billion": 10 ** 9}
+    for word, scale in MULT.items():
+        for m in re.findall(r"(\d+)\s*" + word, low):
+            nums.add(int(m) * scale)
+        for name, val in ONES.items():
+            if re.search(r"\b%s %s\b" % (name, word), low):
+                nums.add(val * scale)
+        if re.search(r"\b(a|one) %s\b" % word, low):
+            nums.add(scale)
     for word, val in WORD_NUM.items():
         if val is not None and re.search(r"\b" + word + r"\b", low):
             nums.add(val)
