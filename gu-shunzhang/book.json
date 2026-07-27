@@ -452,5 +452,191 @@
   ],
   "toc_flags_open": [
     "ch06 deep sub-bullets not yet fully verified against the scan (they run through multi-page prose): the second intro item under Weapons (第四節, after 一、為什麼要懂得武器), Observation item 5, and Hypnotism item 7 (催眠與暗示). Confirmed so far: Weapons intro item 1 = 特務人員為什麼要懂得武器; Observation item 1 = 觀察技能在特務工作上的作用; Hypnotism item 5 = 被術者的體質 (the four temperaments). Confirm the rest during the ch6 translation batch."
-  ]
+  ],
+  "batches": [
+    {
+      "batch": "B01",
+      "title": "ch1: Introduction",
+      "pdf_range": [
+        27,
+        42
+      ],
+      "pdf_pages": 16,
+      "printed_range": [
+        1,
+        16
+      ],
+      "first_section": "ch01s01",
+      "last_section": "ch01s03"
+    },
+    {
+      "batch": "B02",
+      "title": "ch2: Secret-Service Organization",
+      "pdf_range": [
+        43,
+        71
+      ],
+      "pdf_pages": 29,
+      "printed_range": [
+        17,
+        39
+      ],
+      "first_section": "ch02s01",
+      "last_section": "ch02s07"
+    },
+    {
+      "batch": "B03",
+      "title": "ch3: Methods of Secret-Service Work",
+      "pdf_range": [
+        72,
+        83
+      ],
+      "pdf_pages": 12,
+      "printed_range": [
+        40,
+        51
+      ],
+      "first_section": "ch03s01",
+      "last_section": "ch03s03"
+    },
+    {
+      "batch": "B04",
+      "title": "ch4: The Secret-Service Mindset",
+      "pdf_range": [
+        84,
+        89
+      ],
+      "pdf_pages": 6,
+      "printed_range": [
+        52,
+        57
+      ],
+      "first_section": "ch04s01",
+      "last_section": "ch04s03"
+    },
+    {
+      "batch": "B05",
+      "title": "ch5: Secrecy",
+      "pdf_range": [
+        90,
+        114
+      ],
+      "pdf_pages": 25,
+      "printed_range": [
+        58,
+        82
+      ],
+      "first_section": "ch05s01",
+      "last_section": "ch05s04"
+    },
+    {
+      "batch": "B06",
+      "title": "ch6 §1-3: Disguise / Shadowing / Counter-Surveillance",
+      "pdf_range": [
+        115,
+        138
+      ],
+      "pdf_pages": 24,
+      "printed_range": [
+        83,
+        106
+      ],
+      "first_section": "ch06s01",
+      "last_section": "ch06s03"
+    },
+    {
+      "batch": "B07",
+      "title": "ch6 §4-6: Weapons / Sabotage / Conversation",
+      "pdf_range": [
+        139,
+        175
+      ],
+      "pdf_pages": 37,
+      "printed_range": [
+        107,
+        143
+      ],
+      "first_section": "ch06s04",
+      "last_section": "ch06s06"
+    },
+    {
+      "batch": "B08",
+      "title": "ch6 §7-11: Codes / Observation / Physiognomy / Hypnotism / Photography",
+      "pdf_range": [
+        176,
+        219
+      ],
+      "pdf_pages": 44,
+      "printed_range": [
+        144,
+        177
+      ],
+      "first_section": "ch06s07",
+      "last_section": "ch06s11"
+    },
+    {
+      "batch": "B09",
+      "title": "ch7 §1-3: Society / CP work / Soviet work",
+      "pdf_range": [
+        220,
+        257
+      ],
+      "pdf_pages": 38,
+      "printed_range": [
+        178,
+        205
+      ],
+      "first_section": "ch07s01",
+      "last_section": "ch07s03"
+    },
+    {
+      "batch": "B10",
+      "title": "ch7 §4: The Study of Society's Lower Strata",
+      "pdf_range": [
+        258,
+        281
+      ],
+      "pdf_pages": 24,
+      "printed_range": [
+        206,
+        227
+      ],
+      "first_section": "ch07s04",
+      "last_section": "ch07s04"
+    },
+    {
+      "batch": "B11",
+      "title": "ch8: Self-Cultivation of Personnel",
+      "pdf_range": [
+        282,
+        292
+      ],
+      "pdf_pages": 11,
+      "printed_range": [
+        228,
+        236
+      ],
+      "first_section": "ch08s01",
+      "last_section": "ch08s02",
+      "note": "Body text ends at printed 236 (confirmed by the errata table's last entry). PDF 293 is the 勘誤表 (errata); PDF 295 the colophon."
+    }
+  ],
+  "citation_convention": "Cite the book's OWN PRINTED FOLIO (the Chinese numeral at the page foot), never the PDF page number, which is a scan artifact. The PDF-to-printed offset DRIFTS (unpaginated plates are bound in through the book), so a folio must be READ OFF the scanned page, not computed from the PDF number. book.json's printed_page anchors are the section openers (from the TOC bookmarks); spot-verified so far: ch1 s1 = printed 1, ch2 s6 = printed 30, ch5 s4 = printed 78. Main text: printed pp 1-236 (confirmed by the errata table, whose last entry corrects printed p236). When a note cites a page, use the printed folio.",
+  "back_matter": [
+    {
+      "id": "errata",
+      "title_zh": "勘誤表",
+      "title_en": "Errata",
+      "pdf_page": 293,
+      "note": "Publisher's errata table: columns 頁數/行數/字數/誤字/漏字/校正及補入 (page/line/char-position/wrong-char/dropped-char/correction). RESEARCH-RELEVANT: apply these corrections to the source before translating the affected pages, and record them. Last entry references printed p236 (fixes the end of the main text). One entry (printed 206) appends a figure: 蘇聯格伯烏與軍隊的關係圖 (a chart of the Soviet GPU's relationship to the military) — relevant to ch7 s3."
+    },
+    {
+      "id": "colophon",
+      "title_zh": "版權頁",
+      "title_en": "Colophon",
+      "pdf_page": 295,
+      "note": "不准翻印 (no reprinting). Printed 中華民國二十二年八月 (August 1933)."
+    }
+  ],
+  "main_text_extent": "Printed pages 1-236 (8 chapters), then the errata table and colophon. Confirmed against the errata table's page references."
 }
