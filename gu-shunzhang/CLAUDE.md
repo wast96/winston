@@ -39,7 +39,9 @@ Per batch, the deliverables are non-negotiable and all of them ship together:
 4. A rebuilt cumulative EPUB with a **full table of contents** in which the
    already-translated units are linked and the rest are visibly pending.
 5. An updated `HANDOFF.md` describing exactly where the next instance starts.
-6. A commit.
+6. **A ready-to-paste kickoff message for the NEXT batch** (see Kickoff message).
+7. A commit, and a final chat reply to Winston that INCLUDES the kickoff
+   message verbatim so he can copy it straight into a new session.
 
 Do not skip a deliverable because the batch was small. Do not invent bridging
 text ever (see Register).
@@ -278,6 +280,34 @@ this session can start the next batch immediately. It must state:
   script fix that batch will need (e.g. the crop-geometry rewrite, if still
   pending).
 - Open traps or environment state (Paddle installed or not, etc.).
+
+## Kickoff message — the paste-ready launcher for the next batch
+
+Every finished batch MUST produce a ready-to-paste message that Winston can
+drop, unedited, into a fresh Claude Code session to run the NEXT batch. This is
+a hard deliverable, not a nicety: it is how the book advances one clean
+context at a time.
+
+Where it lives: as the very first section of the rewritten `HANDOFF.md`, under
+the heading `## Message to paste into the next chat`, inside a fenced block so
+it copies cleanly. Also paste it verbatim at the end of your final chat reply
+to Winston.
+
+What it says (adapt the specifics to the next batch from `book.json` ->
+`batches`): read `gu-shunzhang/CLAUDE.md`, then `HANDOFF.md`, then `book.json`;
+do Batch `<Bxx>` = `<unit/section scope>` (PDF `<a-b>`, printed `<a-b>`) end to
+end; install env, render, OCR with the measured crop (`chi_tra_vert`),
+translate to the register, run the eight checks, footnote into `notes.json`,
+rebuild `out/theory-practice.epub` with the full pending-aware TOC, run
+`qa_epub.py` until green, write `out/<id>_reading.md`, commit, then rewrite
+`HANDOFF.md` (with the kickoff message for the batch after). Cite printed
+folios not PDF pages; never invent bridging text; do not pause for approval;
+report back when the batch is built and QA-green.
+
+Keep it short and imperative, one paragraph, in the same voice as the batch it
+launches. If it is the LAST batch (B11), the message instead says to do the
+final back-matter (errata + colophon), a whole-book QA pass, and a completion
+report rather than another handoff.
 
 ## Corrections workflow
 

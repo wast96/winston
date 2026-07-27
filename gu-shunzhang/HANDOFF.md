@@ -1,7 +1,14 @@
 # HANDOFF — 特務工作之理論與實際 (Gu Shunzhang)
 
 This file is the baton. A fresh instance with no memory of prior sessions
-should read it and start immediately. Rewrite it at the end of every batch.
+should read it and start immediately. Rewrite it at the end of every batch,
+and always keep the paste-ready message below as its first section.
+
+## Message to paste into the next chat
+
+```
+Read gu-shunzhang/CLAUDE.md in full, then gu-shunzhang/HANDOFF.md, then gu-shunzhang/book.json. Then do Batch B01 = Chapter 1 (緒論, Introduction) — PDF pages 27-42, printed pages 1-16 — end to end: install the environment, render, OCR with the already-measured crop (scripts/ocr_crop.py, chi_tra_vert), translate to the register in CLAUDE.md, run all eight QC checks, add footnotes to notes.json, generalise build_reading_epub.py to emit out/theory-practice.epub with a full 8-chapter table of contents (Chapter 1 linked, the rest shown as pending), run qa_epub.py until it passes, write out/ch01_reading.md, commit, then rewrite HANDOFF.md to launch Batch B02 (Chapter 2). Cite printed folios, never PDF pages, and never invent bridging text — crop the scan and read it. Don't pause for my approval; run the whole batch and report back when Chapter 1 is built and QA-green.
+```
 
 ## >>> YOUR JOB THIS SESSION: Batch B01 = Chapter 1 (Introduction) <<<
 
@@ -72,7 +79,11 @@ page**; do not compute it. Main text is printed pp 1-236, then the 勘誤表
    surface).
 9. Commit (message: "B01 ch1: ..."). Then **rewrite this HANDOFF for Batch B02
    = Chapter 2 (PDF 43-71, printed 17-39)**, recording ch1's open questions,
-   new glossary entries, and the check results.
+   new glossary entries, and the check results. The rewritten HANDOFF must open
+   with a fresh `## Message to paste into the next chat` block for **B02**
+   (see CLAUDE.md -> "Kickoff message"), and your final chat reply to Winston
+   must include that B02 message verbatim so he can paste it straight into the
+   next session.
 
 ## The 11-batch plan (from Winston)
 
