@@ -1,19 +1,38 @@
 #!/usr/bin/env python3
 """Margin-cropped OCR of the body text block, in three stages.
 
-Geometry for THIS book, measured off fourteen sample pages rather than
-assumed (the previous book in this pipeline needed a side-aware crop for a
-vertical running title down the outer margin; this one has no running head
-at all, so the crop is symmetric):
+Geometry for THIS book (顧順章 特務工作之理論與實際), measured off sixteen
+sample pages spanning the whole book, recto and verso. This is a VERTICAL,
+right-to-left, Traditional-character book, and its page furniture is not the
+Juntong book's:
 
-    ink bounds   left >= 0.083   right <= 0.946   top >= 0.073   bottom <= 0.900
+    - The body text block spans, as fractions of the full page:
+        left ~0.05   right ~0.82   top ~0.14   bottom ~0.92
+    - The RUNNING HEAD (特務工作之理論與實際) is a single vertical column in
+      the OUTER margin, consistently on the RIGHT in this scan, at x ~0.85-0.92,
+      with the FOLIO below it in the bottom-right. Both are excluded by the
+      right crop at 0.84.
+    - A RUNNING FOOT (the chapter title, e.g. 第三章 特務工作的方法) sits in the
+      bottom margin just below the text block. Body descenders reach ~0.92, so
+      the crop cannot cut low enough to drop the foot without clipping the last
+      character of some columns; it is removed textually instead (strip_runfoot),
+      the same tactic the Juntong/Wang Yaqiao pipeline used for the folio.
+    - The top margin is blank (no header row); nothing to strip there.
 
-The crop sits outside those bounds on every side so no glyph is clipped,
-while still excluding the footer band holding the printed page number --
-which is ink, and which OCR otherwise appends to the last line of the page
-as a stray numeral. That matters more than it sounds: a stray numeral at a
-page break is exactly what the numeric invariant check then reports as an
-altered quantity.
+    CROP: left 0.045   right 0.84   top 0.11   bottom 0.915
+
+Chosen to keep every body glyph while excluding the running-head column and
+its folio. Verified by OCR: at these bounds the running head does not appear
+as a spurious extra column, which it does at right >= 0.86.
+
+A HANDFUL OF PAGES (seen at PDF 45, 50, 200, 260 among the samples) carry heavy
+dark-edge scan artifacts that no crop removes; OCR on those is noisier and they
+are worth a crop-verify by eye.
+
+OCR MODEL: chi_tra_vert with --psm 5 (single block of vertically aligned
+text). Traditional, not simplified: chi_sim on this book is silent, systematic
+corruption. PaddleOCR is the intended PRIMARY engine here (see ocr_dual.py and
+check 1 in CLAUDE.md); this tesseract path is the diff partner and the fallback.
 
 WHY OMP_THREAD_LIMIT=1 IS NOT OPTIONAL. Standalone, a page costs 0.3s to
 crop and ~2s to OCR. Run three pages at once WITHOUT this variable and each
@@ -48,7 +67,16 @@ RAWDIR = os.path.join(ROOT, "data", "raw")
 
 CJK = r"一-鿿　-〿＀-￯"
 
-LEFT, RIGHT, TOP, BOTTOM = 0.055, 0.965, 0.050, 0.905
+LEFT, RIGHT, TOP, BOTTOM = 0.045, 0.84, 0.11, 0.915
+
+# OCR language/mode for this vertical Traditional book. Overridable via --lang.
+LANG = "chi_tra_vert"
+PSM = "5"
+
+# The running head, for defensive textual filtering if a horizontally shifted
+# page slips part of it inside the right crop. The crop already excludes it on
+# clean pages.
+RUNNING_HEAD = "特務工作之理論與實際顧順章著"
 
 
 def despace(line):
@@ -88,6 +116,42 @@ def strip_folio(lines):
     return lines
 
 
+def strip_runfoot(lines):
+    """Drop the running foot (the chapter title) if it survived the crop.
+
+    Body descenders reach ~0.92 of page height, the foot sits just below, so the
+    crop keeps a sliver of it on some pages. The foot is the chapter title,
+    '第X章 ...', printed once per page in the bottom margin. It cannot be blanket
+    filtered because the same string is a REAL heading on a chapter's opening
+    page -- but there it is near the top, never the last line. So: strip it only
+    when it is the last non-empty line of the page.
+    """
+    while lines and not lines[-1].strip():
+        lines.pop()
+    if lines:
+        last = lines[-1].strip()
+        if len(last) <= 16 and re.match(r"^第[一二三四五六七八九十百]+章", last):
+            lines.pop()
+    return lines
+
+
+def strip_head(lines):
+    """Drop any line that is really a slice of the running-head column.
+
+    Defensive only; the right crop excludes the head on clean pages. A line of
+    four or more Han characters that appear as a contiguous run inside
+    RUNNING_HEAD, and nothing else, is the head, not prose.
+    """
+    out = []
+    for l in lines:
+        s = re.sub(r"\s", "", l)
+        han = re.sub(r"[^一-鿿]", "", s)
+        if len(han) >= 4 and han in RUNNING_HEAD and len(s) - len(han) <= 1:
+            continue
+        out.append(l)
+    return out
+
+
 def make_crop(page):
     src = os.path.join(PNG, "p%04d.png" % page)
     if not os.path.exists(src):
@@ -113,6 +177,11 @@ def main():
                     help="stay below core count; tesseract already threads "
                          "internally and oversubscription is what drove load "
                          "to 12 on 4 cores on the last attempt")
+    ap.add_argument("--lang", default=LANG,
+                    help="tesseract language; default chi_tra_vert (vertical "
+                         "Traditional). NEVER chi_sim on this book.")
+    ap.add_argument("--psm", default=PSM,
+                    help="page-segmentation mode; default 5 (vertical block)")
     a = ap.parse_args()
 
     for d in (TXT, CROPDIR, RAWDIR):
@@ -124,7 +193,8 @@ def main():
             p = os.path.join(TXT, "p%04d.txt" % n)
             if not os.path.exists(p):
                 continue
-            lines = strip_folio(open(p).read().split("\n"))
+            lines = strip_runfoot(strip_folio(strip_head(
+                open(p).read().split("\n"))))
             with open(p, "w") as fh:
                 fh.write("\n".join(lines))
             n_done += 1
@@ -150,8 +220,8 @@ def main():
         for c in crops:
             fh.write("%s\n" % os.path.splitext(os.path.basename(c))[0])
     cmd = ("cat %s | OMP_THREAD_LIMIT=1 xargs -P %d -I{} "
-           "tesseract %s/{}.png %s/{} -l chi_sim --psm 6 2>/dev/null"
-           % (listfile, a.jobs, CROPDIR, RAWDIR))
+           "tesseract %s/{}.png %s/{} -l %s --psm %s 2>/dev/null"
+           % (listfile, a.jobs, CROPDIR, RAWDIR, a.lang, a.psm))
     subprocess.run(cmd, shell=True, check=False)
     print("stage 2: OCR done", flush=True)
 
@@ -173,7 +243,7 @@ def main():
             if not l and (not out or not out[-1]):
                 continue
             out.append(l)
-        out = strip_folio(out)
+        out = strip_runfoot(strip_folio(strip_head(out)))
         with open(os.path.join(TXT, "p%04d.txt" % n), "w") as fh:
             fh.write("\n".join(out))
         os.remove(raw)

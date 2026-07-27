@@ -186,3 +186,36 @@ Translated table of contents. The printed contents list structure only and carry
 - The contents run on the front-matter leaves; the main text begins with Chapter 1 on the first numbered page. Two leaves in the front matter are photographic plates.
 - This translation was assembled by OCR (the page images could not be read directly during this pass). The following entries were carried by OCR rather than a clean read and should be double-checked against the scan before they are treated as final: Chapter 1 Section 3 items 2 through 4; Chapter 3 Section 1 principles 2 and 5; the Chapter 4 Section 2 title; and a few Chapter 6 sub-items (the two intro items under Weapons, Observation item 5, and Hypnotism items 5 and 7).
 - Character forms for each entry can be added on request as a bilingual version to support translation.
+
+---
+
+## Scan-verified corrections (2026-07-27)
+
+The entries the OCR-built TOC above flagged as uncertain were checked against
+the book body on the scan. Corrections:
+
+- **Ch. 1 Sec. 3 (Scope)** — the six items, in the book's actual order, are:
+  1 Reconnaissance (偵察), 2 Counter-surveillance (反偵探), 3 Intelligence
+  (情報), 4 Communications/liaison (交通), 5 Sabotage (破壞), 6 Protection
+  (保護). The list above mislabeled items 2-4 and listed a "Sanction/
+  liquidation" that does not appear in the book.
+- **Ch. 3 Sec. 1 (Principles of the Work)** — the six principles, in order:
+  1 Proactiveness (積極性), 2 Secrecy (祕密性), 3 Agility (敏捷性),
+  4 Precision (精密性), 5 Universality/comprehensiveness (普遍性),
+  6 Practicality (實際性). Above, item 2 should read "Secrecy" (not
+  "Flexibility") and item 5 "Universality" (not "Secrecy"); there is no
+  "flexibility" principle.
+- **Ch. 2 Sec. 6** — the title is 待遇, "Treatment / Remuneration" (how
+  personnel are provided for), not "Rewards and Punishments" (賞罰).
+- **Ch. 4 Sec. 2** — the title is 觀念鬥爭, literally "The Struggle over
+  Mindset." "Building the Right Mindset" above is an interpretive gloss.
+- **Ch. 5 Sec. 4** — 一般的祕密, "Ordinary Secrets" (secrecy in everyday life;
+  first sub-item 日常生活, "Everyday life"). This section is missing from the
+  list above.
+
+Still to confirm during the Ch. 6 translation batch (woven through multi-page
+prose): the second intro item under Weapons; Observation item 5; Hypnotism
+item 7 (催眠與暗示). Confirmed: Weapons intro item 1 = "Why personnel must
+understand weapons"; Observation item 1 = "The function of observation skills
+in the work"; Hypnotism item 5 = "The subject's constitution" (four
+temperaments).

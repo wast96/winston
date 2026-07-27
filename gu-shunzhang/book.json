@@ -134,7 +134,8 @@
           "printed_page": 30,
           "section": 6,
           "id": "ch02s06",
-          "title_en": "Section 6. Remuneration / Treatment"
+          "title_en": "Section 6. Treatment and Remuneration",
+          "title_en_note": "Scan-verified 2026-07-27 against the section opener in the book body."
         },
         {
           "title": "第七節 訓練",
@@ -204,7 +205,8 @@
           "printed_page": 53,
           "section": 2,
           "id": "ch04s02",
-          "title_en": "Section 2. Building the Right Mindset"
+          "title_en": "Section 2. The Struggle over Mindset",
+          "title_en_note": "Scan-verified 2026-07-27 against the section opener in the book body."
         },
         {
           "title": "第三節 特務人員的人生觀",
@@ -255,7 +257,8 @@
           "printed_page": 78,
           "section": 4,
           "id": "ch05s04",
-          "title_en": "Section 4. General Secrets"
+          "title_en": "Section 4. Ordinary Secrets",
+          "title_en_note": "Scan-verified 2026-07-27 against the section opener in the book body."
         }
       ],
       "id": "ch05",
@@ -439,5 +442,15 @@
     "ch02s06: bookmark hanzi is 待遇 (treatment/remuneration/pay); the translated TOC rendered it 'Rewards and Punishments' (=賞罰). Verify against scan; title_en set to literal 'Remuneration / Treatment' pending check.",
     "ch05s04: 一般的祕密 ('General Secrets') is in the bookmarks but omitted from the translated TOC; title_en provisional.",
     "Per the translated TOC's own notes, clean-read these OCR-carried entries: ch1 s3 items 2-4; ch3 s1 principles 2 and 5; the ch4 s2 title; several ch6 sub-items (two intro items under Weapons, Observation item 5, Hypnotism items 5 and 7)."
+  ],
+  "toc_flags_resolved": [
+    "ch02s06 = 待遇 'Treatment and Remuneration' (p62/printed 30). The translated TOC's 'Rewards and Punishments' (賞罰) was wrong.",
+    "ch05s04 = 一般的祕密 'Ordinary Secrets' (secrecy in everyday life; first sub-item 日常生活), p110/printed 78. It exists; the translated TOC omitted it.",
+    "ch04s02 = 觀念鬥爭 literally 'The Struggle over Mindset' (p72/85). The translated TOC's 'Building the Right Mindset' is an interpretation.",
+    "ch01s03 Scope enumeration (body p38-41) is, in order: 1 偵察 reconnaissance, 2 反偵探 counter-surveillance, 3 情報 intelligence, 4 交通 communications, 5 破壞 sabotage, 6 保護 protection. The translated TOC mislabeled items 2-4 and invented a 'Sanction/liquidation' that is not in the list.",
+    "ch03s01 Principles enumeration (body p72-75) is, in order: 1 積極性 proactiveness, 2 祕密性 secrecy, 3 敏捷性 agility, 4 精密性 precision, 5 普遍性 universality/comprehensiveness, 6 實際性 practicality. The translated TOC's item 2 'Flexibility' should be 'Secrecy', and its item 5 'Secrecy' should be 'Universality'; there is no 'flexibility' principle."
+  ],
+  "toc_flags_open": [
+    "ch06 deep sub-bullets not yet fully verified against the scan (they run through multi-page prose): the second intro item under Weapons (第四節, after 一、為什麼要懂得武器), Observation item 5, and Hypnotism item 7 (催眠與暗示). Confirmed so far: Weapons intro item 1 = 特務人員為什麼要懂得武器; Observation item 1 = 觀察技能在特務工作上的作用; Hypnotism item 5 = 被術者的體質 (the four temperaments). Confirm the rest during the ch6 translation batch."
   ]
 }

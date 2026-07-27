@@ -27,26 +27,39 @@ Chapter 1) after the OCR crop is re-measured for this book (see Open engineering
 
 - A translated table of contents (from an earlier chat) is saved at
   `reference/toc_translated.md` and merged into `book.json` as English titles.
-- Two structural flags carried in `book.json` -> `toc_flags`, to resolve at
-  translation time against the scan:
-  - **ch02 s06**: bookmark hanzi is 待遇 (treatment / remuneration / pay); the
-    translated TOC rendered it "Rewards and Punishments" (=賞罰). Provisional
-    title set to the literal "Remuneration / Treatment" pending a clean read.
-  - **ch05 s04**: 一般的祕密 ("General Secrets") is in the bookmarks but was
-    omitted from the translated TOC. Title provisional.
-  - Several sub-items were OCR-carried in that TOC and are flagged there for a
-    clean read (ch1 s3 items 2-4; ch3 s1 principles 2 and 5; ch4 s2 title;
-    a few ch6 sub-items).
+- The flagged TOC discrepancies have been **resolved against the scan** (see
+  `book.json` -> `toc_flags_resolved` and the corrections block appended to
+  `reference/toc_translated.md`):
+  - **ch02 s06** = 待遇 "Treatment and Remuneration" (p62/printed 30); the
+    translated TOC's "Rewards and Punishments" was wrong.
+  - **ch05 s04** = 一般的祕密 "Ordinary Secrets" (p110/printed 78); it exists,
+    the translated TOC omitted it.
+  - **ch04 s02** = 觀念鬥爭 "The Struggle over Mindset" (interpretive gloss in
+    the TOC was "Building the Right Mindset").
+  - **ch01 s03 Scope** (body p38-41): 1 reconnaissance, 2 counter-surveillance,
+    3 intelligence, 4 communications, 5 sabotage, 6 protection. The TOC
+    mislabeled 2-4 and invented a "Sanction/liquidation" not in the book.
+  - **ch03 s01 Principles** (body p72-75): 1 proactiveness, 2 secrecy, 3
+    agility, 4 precision, 5 universality, 6 practicality. TOC item 2 should be
+    "Secrecy" and item 5 "Universality".
+  - Still open (`toc_flags_open`): the deepest ch6 sub-bullets (Weapons intro
+    item 2, Observation item 5, Hypnotism item 7) to confirm during the ch6
+    batch; the plausible TOC values stand provisionally.
+- The last few body pages (PDF 293-294) may be a short postscript; confirm when
+  translating ch8. Colophon at PDF 295 (中華民國二十二年八月付印, i.e. Aug 1933).
 
 ## Open engineering (before the first translation batch)
 
-1. **Re-measure the OCR crop.** `scripts/ocr_crop.py` is inherited from the
-   Juntong book (horizontal, no running head). This book is vertical with an
-   outer-margin running head, a running foot and a folio. Measure ink bounds on
-   ~12 pages of THIS book and rewrite the crop to exclude all three furniture
-   zones; add vertical handling (tesseract `--psm 5`, `chi_tra_vert`).
+1. **[DONE] Re-measured the OCR crop.** `scripts/ocr_crop.py` now carries this
+   book's geometry (measured off 16 pages, recto+verso): crop left 0.045, right
+   0.84, top 0.11, bottom 0.915; OCR `chi_tra_vert --psm 5`; textual filters for
+   the right-margin running head and the bottom-margin running foot (chapter
+   title). Verified by OCR that the running head no longer bleeds in as a
+   spurious column. Trap noted in the script: a few pages (PDF 45, 50, 200, 260
+   among samples) have heavy dark-edge scan artifacts no crop removes.
 2. **Wire PaddleOCR as the primary engine** in `ocr_dual.py` (check 1), with
    `chi_tra_vert` tesseract as the diff partner. Record whether Paddle installed.
+   (Not done yet; tesseract path is working.)
 3. **Generalise `build_reading_epub.py`** to emit the full-book TOC (all 8
    chapters / 37 sections from `book.json`) with translated units linked and the
    rest pending, one XHTML per unit, cumulative EPUB `out/theory-practice.epub`.
