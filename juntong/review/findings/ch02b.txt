@@ -1,0 +1,50 @@
+DISPLACEMENT (move EN sentence across paragraph boundary; no content change):
+60->61 head: "Sometimes we could bring a man in without a car at all, hiring a rickshaw on the spot."
+61->62 head: "Since the agents spent their whole time devising wickedness of this kind, the methods multiplied."
+62->63 head: "By the beginning of 1937 the agents' methods of kidnapping had grown more sinister and more vicious still."
+63->64 head: sentence "Besides the constant kidnappings..." belongs at head of 64
+64->65 head: first two sentences of ZH65 ("Individual Communists and democratic figures...")
+65->66 head: "About 1935 a Communist underground member..."
+68->67 end: "Dai Li flatly refused and told him to lie in bed all day and rest."
+78->77 end: "The rest of those Lu gave up I did not arrest myself, and I cannot recall their names."
+79->78 end: sentence ending ZH78 (怪西人案)
+80->79 end: two sentences (Lu asked why frightened)
+81->80 end: two sentences (rebuke, Lawrence)
+82->81 end: lecturing sentence
+93->92 end: "I have already dealt with this in the material I wrote about Dai Li..."
+93->94 head: "Once the Juntong had control of the detective corps..."
+96->95 end: "A political prisoner was never allowed to see anyone there."
+103->102 end: "That single night was hard indeed to get through."
+104->103 end: "This made some of the agents live in dread..."
+105->104 end: "Some of these, after being moved..."
+106->105 end: "Yet the real traitors were never touched..."
+107->106 end: French Concession group sentence
+108->107 end: thorn in reactionaries' side sentence
+109->108 end: month going about sentence
+110->109 end: telephoned and wrote sentence
+115->114 end: beyond counting sentence
+OTHER:
+PARA 93 | MISTRANSLATION | HIGH | corner = Route Dolfus and Avenue Dubail; glossary both
+PARA 69 | VERIFY-SCAN | HIGH | 福胞路 likely 福煦路 Avenue Foch; crop
+PARA 94 | VERIFY-SCAN | HIGH | 陆系士 likely 陆京士 Lu Jingshi; crop
+PARA 113 | VERIFY-SCAN | HIGH | 薛笃绚 likely 薛笃弼 Xue Dubi; crop
+PARA 76 | ADDITION | MED | "said nothing" unsupported
+PARA 90 | OMISSION | MED | only five hundred yuan
+PARA 67 | MISTRANSLATION | MED | The few of us disguised ourselves
+PARA 68 | MISTRANSLATION | MED | we were not shaken off
+PARA 83 | MISTRANSLATION | MED | floor convention unify
+PARA 94 | VERIFY-SCAN | MED | 帮木梢 parenthetical; crop
+PARA 116 | VERIFY-SCAN | MED | 陈广/陈赓; crop
+PARA 116 | MISTRANSLATION | MED | Whampoa first class x2
+PARA 63 | GLOSSARY | MED | International Settlement standardize (62,72 vs 63,78)
+PARA 72 | GLOSSARY | MED | Louza police station attested
+PARA 61 | VERIFY-SCAN | LOW | 广蓄->广慈; crop
+PARA 113 | VERIFY-SCAN | LOW | 怀慨 likely 慷慨 readily; crop
+PARA 118 | VERIFY-SCAN | LOW | 闸北 dropout; crop
+PARA 117 | GLOSSARY | LOW | New Asia Hotel
+PARA 100 | MISTRANSLATION | LOW | needles into
+PARA 61 | PROSE | LOW | easily sent out of the way
+PARA 80 | PROSE | LOW | single word consistency
+PARA 84 | PROSE | LOW | when we asked
+PARA 111 | PROSE | LOW | Then the war came and
+SUMMARY: 24 displacement moves; 8 crops; voice right.

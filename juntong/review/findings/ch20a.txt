@@ -1,0 +1,59 @@
+PARA 4 | MISTRANSLATION | MED | 帮办 = assistant director post title
+PARA 8 | GLOSSARY | MED | "great agent(s)" x13 in ch20 vs "senior agent(s)" x44 book-wide; cascade
+PARA 8 | PROSE | LOW | raised by Dai himself
+PARA 9 | MISTRANSLATION | HIGH | 四一 = April the First Printing Works, not Forty-One
+PARA 9 | VERIFY-SCAN | HIGH | 陆根凡 likely 陆根泉 both times; crop
+PARA 10 | PROSE | LOW | single stake ten thousandfold
+PARA 11 | PROSE | LOW | come the once -> come once
+PARA 18 | PROSE | LOW | it were better -> it was better
+PARA 19 | MISTRANSLATION | LOW | 苦心 pains taken
+PARA 19 | PROSE | LOW | small things spoil great ones
+PARA 21 | GLOSSARY | MED | April the First Assembly per glossary; also March the Seventeenth
+PARA 26 | MISTRANSLATION | LOW | 官邸 official residence office
+PARA 28 | MISTRANSLATION | MED | socialized -> dispersed into society
+PARA 31 | GLOSSARY | MED | Bath Cave (Zhazidong) -> Dross Pit; glossary + cascade x4
+PARA 31 | VERIFY-SCAN | MED | 染修元 phone-squad head vs 郑修元; crop
+PARA 32 | VERIFY-SCAN | HIGH | 姜厅英 likely 姜毅英 Jiang Yiying; crop
+PARA 32 | VERIFY-SCAN | LOW | 赵斌簿 Binbo/Binbu; crop
+PARA 33 | PROSE | LOW | an April the First hospital
+PARA 36 | PROSE | LOW | kept a tight grip
+PARA 38 | VERIFY-SCAN | HIGH | seal 珊在吴边 likely 带在身边; flung-into-river contradicts context; crop
+PARA 38 | PROSE | LOW | dangling sure
+PARA 38 | PROSE | LOW | went its own way
+PARA 39 | VERIFY-SCAN | HIGH | 半伟龙 = 周伟龙 Zhou Weilong; crop
+PARA 39 | VERIFY-SCAN | HIGH | "Shanxi-?" placeholder in prose; crop the railway name
+PARA 39 | VERIFY-SCAN | MED | 浙闵 likely 浙赣 Zhejiang-Jiangxi; crop
+PARA 44 | VERIFY-SCAN | HIGH | 摩实洋 likely 廖宗泽 Liao Zongze (cf para72); crop
+PARA 45 | OMISSION | HIGH | 13th committee name dropped (汉什竹 garble); crop + insert
+PARA 45 | VERIFY-SCAN | MED | 同松坡 likely 向松坡; crop
+PARA 45 | PROSE | LOW | wind against them
+PARA 46 | VERIFY-SCAN | HIGH | 刘局瑞 likely 刘启瑞 Liu Qirui; crop
+PARA 46 | VERIFY-SCAN | HIGH | 中央 likely 中共; slander target; crop
+PARA 49 | PROSE | LOW | great fanfare
+PARA 54 | GLOSSARY | MED | 贝满女中 = Bridgman Girls' School
+PARA 55 | VERIFY-SCAN | MED | 一则 likely 一并; took them all back; crop
+PARA 55 | PROSE | LOW | lose their heads and shed their blood
+PARA 58 | VERIFY-SCAN | HIGH | 涂孝义 likely 涂孝文 Tu Xiaowen; crop
+PARA 59 | PROSE | LOW | were many more broken
+PARA 63 | VERIFY-SCAN | HIGH | 郝山举 likely 郝鹏举 Hao Pengju; crop
+PARA 66 | MISTRANSLATION | HIGH | 向影心 is the wife's name; no confidant; 勾结 collusion
+PARA 66 | VERIFY-SCAN | MED | 刘人硅/刘人稻/刘人珊 reconcile; crop
+PARA 66 | GLOSSARY | MED | 国际饭店 = Park Hotel
+PARA 66 | PROSE | LOW | Liuyangmen Main Street
+PARA 67 | PROSE | LOW | raised hands to brows
+PARA 69 | PROSE | LOW | equative structure lost
+PARA 69 | PROSE | LOW | no little dangles
+PARA 70 | PROSE | LOW | unable to eat or sleep in peace
+PARA 70 | PROSE | LOW | once in a thousand years
+PARA 71 | REGISTER | MED | 美帝 softened; restore
+PARA 74 | MISTRANSLATION | LOW | no few of them wavered
+PARA 77 | PROSE | LOW | when the time came
+PARA 78 | VERIFY-SCAN | MED | 大勾…杀好 likely 大钉…钉好; crop
+PARA 78 | OMISSION | LOW | storing and retrieving
+PARA 78 | GLOSSARY | MED | shell-Mausers -> Mauser box pistols
+PARA 78 | REGISTER | MED | 交代 = confessed
+PARA 79 | MISTRANSLATION | HIGH | 等五人 = five more besides those named
+PARA 79 | VERIFY-SCAN | MED | 解放军 PLA commissioner (crop confirmed by me: reads 解放军)
+PARA 81 | VERIFY-SCAN | HIGH | February 1949 impossible; crop the month
+PARA 81 | PROSE | LOW | great quantity of US dollars
+SUMMARY: solid at sentence level; name-garble cluster; 3 real meaning errors; coffin-cache set-piece stands with minor repairs; no narration contractions.

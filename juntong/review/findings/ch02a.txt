@@ -1,0 +1,36 @@
+PARA 4 | MISTRANSLATION | MED | 等十余人 totals (x2 in para)
+PARA 5 | PROSE | LOW | copying-help recast
+PARA 7 | PROSE | LOW | sell him out
+PARA 10 | PROSE | LOW | girl of twelve or so
+PARA 13 | PROSE | LOW | Whampoa man of the first class
+PARA 14 | VERIFY-SCAN | MED | 查花楼 likely 杏花楼 Xinghua Lou; crop
+PARA 16 | VERIFY-SCAN | HIGH | 吕班路 = Avenue Dubail; Route Vallon collision with para 17 环龙路; crop
+PARA 17 | REGISTER | MED | 蒋帮 Chiang's gang restore
+PARA 17 | PROSE | LOW | dared tell nobody
+PARA 18 | GLOSSARY | MED | railway bureau three renderings; unify + glossary
+PARA 20 | VERIFY-SCAN | MED | Second/Third group swap vs para 3; crop both
+PARA 26 | ADDITION | HIGH | displaced sentence from 25 (move)
+PARA 26 | PROSE | LOW | got Ruan a post
+PARA 27 | ADDITION | HIGH | displaced from 28 (move)
+PARA 28 | ADDITION | HIGH | displaced from 29 (move)
+PARA 28 | PROSE | LOW | sell her husband out
+PARA 29 | ADDITION | HIGH | displaced from 30 (move)
+PARA 30 | VERIFY-SCAN | HIGH | 震飞路 = 霞飞路 Avenue Joffre; Route Pichon wrong; crop
+PARA 30 | ADDITION | HIGH | displaced from 31 (move)
+PARA 31 | ADDITION | HIGH | displaced from 32 (move)
+PARA 33 | GLOSSARY | MED | Sun Ya 新雅 / New Asia 新亚 swap
+PARA 33 | ADDITION | HIGH | displaced from 34 (move)
+PARA 34 | VERIFY-SCAN | MED | 项安村路 likely 静安寺路 Bubbling Well Rd; crop
+PARA 34 | VERIFY-SCAN | MED | 义马 likely 义乌 Yiwu; crop
+PARA 36 | MISTRANSLATION | MED | photographs only, no documents
+PARA 36 | ADDITION | HIGH | displaced from 37 (move)
+PARA 39 | GLOSSARY | MED | 稽查员 investigators vs 督察 inspectors (also 40)
+PARA 40 | VERIFY-SCAN | MED | 钟敌人 implausible; crop
+PARA 40 | MISTRANSLATION | MED | 等十多人 totals
+PARA 42 | VERIFY-SCAN | MED | 秘和 vs Miqin; crop school name
+PARA 49 | MISTRANSLATION | MED | 书记 Luo alone; 等 dropped
+PARA 54 | ADDITION | HIGH | displaced from 53 (move to 53 end)
+PARA 58 | ADDITION | HIGH | displaced from 57 (move)
+PARA 58 | MISTRANSLATION | MED | 等十来个人 totals
+PARA 60 | ADDITION | HIGH | displaced from 61 (move); pattern continues past 60
+SUMMARY: 11 displacement moves clusters 25-37,53-61 (continues); voice good; 8 crops; totals-inflation class.

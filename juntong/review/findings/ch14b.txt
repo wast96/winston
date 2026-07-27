@@ -1,0 +1,73 @@
+PARA 70 | MISTRANSLATION | LOW | 连续 repeated shootings
+PARA 70 | PROSE | LOW | friend so fond of killing
+PARA 71 | PROSE | LOW | In particular
+PARA 72 | PROSE | LOW | begrudges us even
+PARA 74 | PROSE | LOW | turning around
+PARA 76 | VERIFY-SCAN | HIGH | 刘人稻/Liu Renji/glossary 刘人奢 Renkui 3-way; crop (same as ch19 p105, ch20 p66 cluster)
+PARA 77 | PROSE | LOW | caught him off guard
+PARA 78 | VERIFY-SCAN | MED | 蒋/葛/鞠 masked surname oscillation; crop
+PARA 78 | PROSE | LOW | second bloody Yang Jie affair
+PARA 79 | PROSE | LOW | resourceful firm in views
+PARA 80 | PROSE | LOW | did not manage to kill
+PARA 81 | PROSE | LOW | support from every side
+PARA 82 | MISTRANSLATION | MED | 出问题 = going wrong
+PARA 83 | REGISTER | MED | 妄想 vainly hoping
+PARA 83 | PROSE | LOW | telegrams flying
+PARA 83 | PROSE | LOW | some information
+PARA 85 | PROSE | LOW | I used him
+PARA 85 | PROSE | LOW | long Long collision
+PARA 87 | PROSE | LOW | it drew attention
+PARA 87 | PROSE | LOW | gentleman of leisure
+PARA 89 | VERIFY-SCAN | HIGH | 王栅 Wang Xu x6; crop + glossary
+PARA 90 | VERIFY-SCAN | MED | 而都/匪都见闻; crop
+PARA 91 | VERIFY-SCAN | HIGH | 任持宣 = 任卓宣 Ren Zhuoxuan (Ye Qing); crop + glossary
+PARA 91 | PROSE | LOW | nothing left but to hold out
+PARA 92 | REGISTER | MED | turf -> territory (92,94)
+PARA 92 | PROSE | LOW | vainly scheming extend
+PARA 92 | PROSE | LOW | manoeuvre
+PARA 95 | MISTRANSLATION | MED | 势如破竹 cascade (also line 167 first half)
+PARA 95 | OMISSION | LOW | fled into Guizhou
+PARA 95 | PROSE | LOW | strongpoints
+PARA 96 | PROSE | LOW | swept up in the muddle
+PARA 102 | GLOSSARY | LOW | guard-inspection group consistency
+PARA 104 | MISTRANSLATION | HIGH | 等十多人 ten-odd in all
+PARA 104 | MISTRANSLATION | MED | knew nothing of scheme
+PARA 105 | PROSE | LOW | more discontented
+PARA 105 | PROSE | LOW | allowed to fly off
+PARA 108 | MISTRANSLATION | MED | submachine guns
+PARA 110 | ADDITION | MED | another unsupported; inside theft
+PARA 110 | PROSE | LOW | strong line
+PARA 111 | MISTRANSLATION | HIGH | exactly twenty characters
+PARA 111 | MISTRANSLATION | MED | again and again
+PARA 111 | MISTRANSLATION | MED | treacherous blow
+PARA 113 | MISTRANSLATION | MED | mid-December at the earliest
+PARA 113 | PROSE | LOW | account of my talk
+PARA 113 | PROSE | LOW | radio shut down
+PARA 114 | PROSE | LOW | dilemma logic
+PARA 115 | MISTRANSLATION | HIGH | Yang Hucheng AND his whole family
+PARA 116 | PROSE | LOW | more resourceful man
+PARA 116 | REGISTER | MED | what damned use
+PARA 117 | GLOSSARY | MED | Governor Zhang (117,119)
+PARA 117 | PROSE | LOW | duplicate whether to go
+PARA 118 | PROSE | LOW | go and not come back
+PARA 119 | PROSE | LOW | strained every nerve
+PARA 119 | PROSE | LOW | stick out tongues
+PARA 121 | PROSE | LOW | nothing on me besides
+PARA 121 | PROSE | LOW | hard man to handle
+PARA 122 | PROSE | LOW | two in the morning
+PARA 122 | PROSE | LOW | wondered whether
+PARA 124 | MISTRANSLATION | LOW | committee member
+PARA 125 | PROSE | LOW | ten-odd radios
+PARA 127 | MISTRANSLATION | MED | senior Juntong agent Pei Cunfan
+PARA 127 | PROSE | LOW | face anyone after this
+PARA 127 | PROSE | LOW | our statements
+PARA 128 | MISTRANSLATION | MED | we not they (Shen included)
+PARA 129 | MISTRANSLATION | HIGH | wife lifted her own cheongsam
+PARA 129 | VERIFY-SCAN | MED | 卢/余 and 李弥; crop
+PARA 129 | PROSE | LOW | replacement regiment
+PARA 131 | PROSE | LOW | come in and given themselves up
+PARA 132 | MISTRANSLATION | MED | broke faith
+PARA 134 | REGISTER | MED | bracketed gloss out of prose -> note
+PARA 134 | PROSE | LOW | at the crisis
+PARA 135 | PROSE | LOW | in the face of
+SUMMARY: faithful, no invented content; 7 HIGH; 0 narration contractions; literalist-syntax drift.

@@ -1,0 +1,14 @@
+P1 | MISTRANSLATION LOW | abducting the supreme commander
+P3 | ADDITION LOW | each year to go and see
+P4 | GLOSSARY LOW | T. V. Soong spacing/convention -> Soong
+P10 | GLOSSARY MED | Special Censorship Department + General Office
+P11 | MISTRANSLATION LOW | felt to be a lack
+P12 | MISTRANSLATION MED | answer for every question
+P13 | MISTRANSLATION LOW | regularly
+P14 | VERIFY-SCAN LOW | 还还还有 blockquote clean
+P14 | PROSE LOW | angling over the water
+P16 | PROSE LOW | buying them off in all but name
+P19 | VERIFY-SCAN LOW | 要去人台湾 blockquote clean
+P21 | MISTRANSLATION MED | Reporting, Vice-Commander
+P21 | MISTRANSLATION LOW | full of grief and indignation
+SUMMARY: clean unit; 3 MED.

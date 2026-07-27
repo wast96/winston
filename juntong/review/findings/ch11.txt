@@ -1,0 +1,23 @@
+P1 | REGISTER MED | running dogs restore
+P5 | PROSE LOW | floor's landing
+P6 | MISTRANSLATION MED | used and ate
+P8 | MISTRANSLATION MED | consult Dai in Chungking before seeing Chiang
+P9 | MISTRANSLATION MED | Cautious as Tang had been (concessive)
+P10 | MISTRANSLATION LOW | had no choice but
+P10 | OMISSION LOW | chief aide-de-camp
+P13 | GLOSSARY MED | operatives' corps (cascade ch07/ch10/ch11)
+P14 | NAMES HIGH | 弟->翟 not 履 (SCAN-VERIFIED by reviewer p0204)
+P16 | PROSE LOW | version of his own
+P18 | MISTRANSLATION LOW | recommend technicians to Hu
+P19 | NUMBERS LOW | several dozen in all
+P21 | MISTRANSLATION MED | working hand in glove
+P24 | PROSE LOW | recuperate from illness
+P28 | PROSE LOW | As he entered dangler
+P30 | MISTRANSLATION LOW | would not comply
+P31 | PROSE MED | secretaries included Communists
+P33 | PROSE LOW | pained beyond measure rewrite
+P33 | PROSE LOW | climb down
+P34 | MISTRANSLATION LOW | as if for fear we had forgotten (SCAN-VERIFIED 一样)
+P35 | PROSE LOW | talk full of having ways
+P36 | NUMBERS LOW | ten years and more
+NOTE: ch11 renders 军令部 Ministry of Military Operations; 侍从室 correct.

@@ -1,0 +1,36 @@
+PARA 76 | VERIFY-SCAN | MED | 兵役局长徐恩平 vs attested 徐思平; crop 思/恩
+PARA 78 | PROSE | LOW | flaunted that -> trumpeted that
+PARA 82 | PROSE | LOW | dangling clause -> the more important thing was how to use police power
+PARA 82 | VERIFY-SCAN | MED | 一年 time commitment possibly dropped; crop 一年/一定
+PARA 86 | VERIFY-SCAN | LOW | blockquote-only garbles 天泽元/比建励/汤永感 (EN corroborated by paras 112/144)
+PARA 88 | PROSE | LOW | busyness -> busy as he was
+PARA 90 | GLOSSARY | MED | bare "Revolutionary Committee" -> full form per glossary
+PARA 96 | MISTRANSLATION | HIGH | dropped 配合: crimes in coordination with the campaigns, not executing them
+PARA 99 | VERIFY-SCAN | HIGH | "Li Ye" phantom? likely 叫嚷要制定; crop
+PARA 105 | VERIFY-SCAN | MED | 刘人奢 vs Renkui 奎; crop and align glossary
+PARA 105 | MISTRANSLATION | MED | 科学化 not modernization
+PARA 105 | PROSE | LOW | slogan telegraphese
+PARA 105 | PROSE | LOW | Tang Zong, men and dogs comma
+PARA 105 | PROSE | LOW | These equipment -> This equipment
+PARA 112 | OMISSION | HIGH | 副军长 dropped from list
+PARA 112 | PROSE | LOW | no not making -> it would not do not to make
+PARA 113 | VERIFY-SCAN | MED | 大炬其 likely 大炼其; crop
+PARA 115 | PROSE | LOW | soundening not a word
+PARA 115 | VERIFY-SCAN | HIGH | 警铝 garble; object unknown (盔/服/徽/钮); crop
+PARA 117 | GLOSSARY | MED | Personal Staff Office x6 in bilingual -> Attendants' Office (reading md already correct per report? verify)
+PARA 119 | PROSE | LOW | raised curtain of the prologue -> curtain-raiser
+PARA 124 | VERIFY-SCAN | MED | 那门牌道 likely 旁门左道; crop
+PARA 127 | PROSE | LOW | show him a little colour -> teach him a lesson
+PARA 129 | REGISTER | MED | it were better -> it would be better
+PARA 129 | PROSE | LOW | laughing-stocks misuse -> endless absurdities
+PARA 130 | PROSE | LOW | suit -> quarrel
+PARA 131 | PROSE | LOW | brewed -> mooted
+PARA 133 | PROSE | LOW | Scholarship -> Studies + glossary both societies
+PARA 137 | PROSE | LOW | go on the more -> stay on all the more
+PARA 138 | GLOSSARY | MED | Capital Police Board vs ch18/ch20 "Capital Police"; cascade 139/141/143 + glossary
+PARA 139 | PROSE | LOW | killer-butcher -> notorious executioner
+PARA 142 | PROSE | LOW | thorn in his eye -> thorn in his side
+PARA 143 | PROSE | LOW | nominal pile-up rewrite
+PARA 147 | MISTRANSLATION | HIGH | quoted warning word-order garble
+PARA 147 | PROSE | LOW | dangling modifier Seeing Tang
+SUMMARY: substantively faithful; 3 HIGH meaning defects; para 126 PASSES; no narration contractions; mild mannered-compression drift in expository stretches.

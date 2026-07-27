@@ -1,0 +1,22 @@
+PARA 3 | VERIFY-SCAN | LOW | 末戚 -> 姻戚/远戚; crop
+PARA 5 | GLOSSARY | MED | 军令部 Board vs Ministry split (ch18+ch21 vs ch11/ch13)
+PARA 13 | GLOSSARY | MED | Unified Inspection Department rendering (also ch19)
+PARA 14 | MISTRANSLATION | HIGH | 不像戴笠 scope; out-of-touch is Dai not Mao
+PARA 23 | PROSE | LOW | make an example of Ma first
+PARA 27 | PROSE | LOW | jail at No. 19 Ninghai Road
+PARA 30 | GLOSSARY | MED | lone Nanjing- -> Nanking-Shanghai
+PARA 32 | VERIFY-SCAN | HIGH | 便儿 likely 侄儿 nephew; "cur" unsupported; crop
+PARA 32 | PROSE | LOW | nothing come of it
+PARA 42 | MISTRANSLATION | HIGH | 仿照 practice not handwriting
+PARA 48 | OMISSION | HIGH | Linli class name collapsed; crop 临
+PARA 56 | MISTRANSLATION | HIGH | 亲信 follower not relation
+PARA 62 | PROSE | LOW | He Shaozhou pronoun collision
+PARA 63 | VERIFY-SCAN | MED | 首府 likely 省府; crop
+PARA 66 | VERIFY-SCAN | HIGH | 假悍悍 = 假惺惺 hypocritical show; crop
+PARA 69 | GLOSSARY | MED | T.V. Soong -> Soong after first mention
+PARA 76 | MISTRANSLATION | MED | Eighteenth Group Army designation
+PARA 76 | MISTRANSLATION | MED | battle of Siping not Street
+PARA 78 | MISTRANSLATION | MED | 正面 directly
+PARA 83 | MISTRANSLATION | LOW | three-wheeled van not pedicab
+PARA 86 | VERIFY-SCAN | MED | 余素秋 vs 吴素秋 Wu Suqiu; crop 86-87
+SUMMARY: strong; 0 narration contractions (18.6/1k is dialogue-driven); texture highlights carry.

@@ -1,0 +1,33 @@
+P2 | MISTRANSLATION MED | ate money in the open (SCAN 明钱; fix blockquote too)
+P2 | ADDITION LOW | bold ones who did not fear death
+P2 | MISTRANSLATION LOW | ran the toppers (SCAN 顶宫; blockquote fix)
+P9 | ADDITION LOW | drop "some"
+P12 | GLOSSARY LOW | add 杨虎 Yang Hu
+P14 | PROSE MED | if not Wang Huzi himself, his apprentices
+P15 | MISTRANSLATION LOW | rivers and seas
+P21 | VERIFY-SCAN LOW | blockquote 梨->巢 only (SCAN-VERIFIED)
+P23 | PROSE LOW | Whampoa first class
+P27 | OMISSION LOW | chanced to take passage
+P31 | NAMES MED | Edward Henry system (book prints reversed; note)
+P33 | PROSE LOW | took him by one ear
+P35 | MISTRANSLATION MED | grand and solemn decrees (SCAN 皇皇)
+P35 | MISTRANSLATION MED | Yuan president
+P35 | MISTRANSLATION MED | sent to court, served months in prison
+P35 | MISTRANSLATION MED | first-class sleeper (SCAN 卧车)
+P35 | MISTRANSLATION LOW | plural thieves
+P38 | MISTRANSLATION HIGH | found on him five American hundred-dollar bills
+P38 | MISTRANSLATION LOW | wallet
+P39 | MISTRANSLATION LOW | fierce measures in store
+P40 | OMISSION HIGH | Captain Qiu of Guiyang restored (SCAN 邱队长); rewrite sentence
+P40 | GLOSSARY MED | 周百先/周伯先 unify Zhou Boxian; cascade
+P41 | GLOSSARY LOW | add five detectives provisional
+P44 | PROSE LOW | three-tenths of an inch
+P45 | NAMES MED | Avenue Dubail (吕班路)
+P45 | PROSE LOW | old couple husband magistrate rewrite
+P45 | PROSE LOW | more than one man
+P46 | PROSE LOW | material on
+P47 | PROSE LOW | into a car
+P47 | MISTRANSLATION LOW | bar-treading
+P48 | PROSE LOW | these methods
+P49 | OMISSION LOW | savage beating
+SUMMARY: 2 HIGH; 5 spans scan-verified by reviewer.

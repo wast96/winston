@@ -1,0 +1,34 @@
+PARA 2 | VERIFY-SCAN | MED | ZH: "军事谋略家"和"和平事理论家" | EN: and a "theorist of peace" | ISSUE: OCR garbled; verify crop (军事理论家 vs 和平理论家)
+PARA 6 | VERIFY-SCAN | HIGH | ZH: 别号溜全 | EN: his style-name Liuquan | ISSUE: sources give 耀全 Yaoquan; verify crop
+PARA 8 | VERIFY-SCAN | MED | ZH: 只勉强读完但制小学 | EN: barely finished lower primary school | ISSUE: 但制 garbled, likely 旧制
+PARA 16 | PROSE | MED | run-in section heading 初期的特务活动
+PARA 17 | PROSE | LOW | EN: Chiang was much unwilling to bear this -> Chiang could not reconcile himself to this
+PARA 24 | MISTRANSLATION | MED | 随时 -> as it arose (not "from time to time")
+PARA 30 | MISTRANSLATION | MED | 爪牙 noun -> henchmen
+PARA 31 | MISTRANSLATION | MED | 随时 same fix
+PARA 35 | PROSE | LOW | risen and become Red Army -> risen in revolt and gone over to the Red Army
+PARA 38 | PROSE | MED | run-in section heading 复兴社特务处时期
+PARA 39 | GLOSSARY | MED | 特务处 must be "Special Services Department" per glossary; ch21 uses "Secret-Service Department" paras 38-71
+PARA 39 | PROSE | LOW | be prepared as head -> proposing to make Dai Li head
+PARA 40 | MISTRANSLATION | MED | 小同乡 = fellow townsman from home county, NOT "young"; recurs 44/47/72
+PARA 43 | PROSE | LOW | were these several -> were the following
+PARA 44 | MISTRANSLATION | MED | 小同乡 same
+PARA 46 | MISTRANSLATION | MED | 随时 same
+PARA 47 | MISTRANSLATION | MED | 小同乡 same
+PARA 53 | PROSE | LOW | the set Tang Zong learned -> the methods
+PARA 54 | PROSE | LOW | hit their fancy exactly -> suited their taste exactly
+PARA 59 | VERIFY-SCAN | HIGH | merged with the Second Department -> merged INTO the Bureau AS its Second Department; verify crop
+PARA 59 | PROSE | LOW | giving him no facility -> making difficulties for him at every turn
+PARA 64 | VERIFY-SCAN | HIGH | "Kai" phantom name; OCR 开 likely 邢; verify crop
+PARA 65 | MISTRANSLATION | HIGH | 空勤人员 = flight personnel not ground crew
+PARA 70 | VERIFY-SCAN | HIGH | 玫珈山 -> Luojia Hill 珞珈山; EN "Meihuashan" wrong
+PARA 72 | MISTRANSLATION | MED | 小同乡 same
+PARA 73 | PROSE | LOW | "tributed" not a verb -> paid "tribute" to
+PARA 75 | GLOSSARY | MED | 军令部 rendering split vs ch11/ch13 ("Ministry of Military Operations"); cascade + glossary
+PARA 78 | PROSE | LOW | dangling "concurrently"
+PARA 80 | VERIFY-SCAN | MED | 闹口街 Naokou vs EN "Naohuo Street"; verify crop
+PARA 83 | GLOSSARY | MED | 别动军 = "Special Operations Army" per glossary; "commando" collides; recurs 85
+PARA 85 | VERIFY-SCAN | MED | 红精坊 vs EN "Hongqifang"; known locality 红槽房; verify crop
+PARA 87 | PROSE | LOW | it were better -> it would be better
+PARA 94 | PROSE | LOW | boasted a round -> boasted at length
+SUMMARY: paras 1-98 fundamentally sound; no omissions/fabrications; register holds. 8 VERIFY-SCAN, 9 mistranslations (1 HIGH), 3 glossary cascades, 13 prose, 2 run-in headings.

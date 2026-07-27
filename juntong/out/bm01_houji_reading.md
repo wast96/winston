@@ -2,7 +2,7 @@
 
 As this book goes to press, let me add a few words.
 
-The pieces in this collection were all written by me between 1962 and 1966. Several of them appeared in the <i>Selected Historical Materials</i> (internal circulation) compiled by the Historical Materials Research Committee of the National Committee of the CPPCC; readers who saw them pointed out some errors and shortcomings in the drafts, which I have corrected as far as possible this time. Most of the pieces in this collection have not been published before, and I still hope readers will set me right.
+The pieces in this collection were all written by me between 1962 and 1966. Several of them appeared in the *Selected Historical Materials* (internal circulation) compiled by the Historical Materials Research Committee of the National Committee of the CPPCC; readers who saw them pointed out some errors and shortcomings in the drafts, which I have corrected as far as possible this time. Most of the pieces in this collection have not been published before, and I still hope readers will set me right.
 
 I put these materials together from memory, one after another, so they cannot be complete and may contain mistakes; where the same matter appears in different pieces, not only does it vary in fullness, but even the tone and wording are not consistent. This time I had meant to put it all in order, but being near seventy and unwell, far weaker in body and spirit than before, I found my strength unequal to my wish. My daughter Meijuan helped me add to and cut some of the pieces, but it is still not satisfactory, and I can only wait until I have time later to revise it.
 

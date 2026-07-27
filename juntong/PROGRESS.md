@@ -1320,3 +1320,16 @@ has to happen from a session holding the tool, or from the routines UI.
 4. Batched scholarship pass, covering several chapters at a time.
 5. Final sweep per the skill: re-run every script, register across the whole
    spine, historical pattern analysis, random-sample deep audit.
+
+## FINAL REVIEW PASS (fable-5), 2026-07-27 — PARTIAL, see review/STATUS.md
+
+Winston commissioned the full prose-and-accuracy read-through. 23 of 25
+units reviewed paragraph-by-paragraph against source; the recorded
+OCR-trusted rosters crop-verified (32 name corrections, the worst being a
+still-fabricated tail in ch21 paras 193-194, now repaired from the scan);
+~430 adjudicated fixes applied; global romanization, Zhazidong and
+Soong Mei-ling cascades run; EPUB rebuilt, qa_epub PASS (551 notes).
+The session usage cap cut the pass short. review/STATUS.md is the
+authoritative worklist of what remains (ch02 displacement moves, ~60
+scan crops, context-item rewrites, ch01/ch04/ch05/fm reviews).
+review/findings/ holds every reviewer report verbatim.

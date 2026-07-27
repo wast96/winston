@@ -1,0 +1,24 @@
+P1 | VERIFY-SCAN LOW | 大人->夫人 blockquote-only; crop
+P3 | MISTRANSLATION LOW | murderous hands not knives
+P3 | REGISTER LOW | "past + gerund" tic x6 (3,5,10,15x2,25); vary
+P6 | PROSE LOW | watch passed post to post
+P8 | ADDITION LOW | both would go to America
+P11 | MISTRANSLATION LOW | concurrently deputy captain
+P13 | GLOSSARY MED | 特务总队 = operatives' corps (decided)
+P15 | PROSE LOW | What a coincidence line
+P15 | PROSE LOW | It struck home
+P15 | VERIFY-SCAN LOW | 争喉->争吵 blockquote; crop
+P18 | MISTRANSLATION MED | for the time being not quietly
+P19 | GLOSSARY MED | in the SACO compound
+P19 | MISTRANSLATION LOW | from another detention house
+P20 | ADDITION LOW | at Guiyang
+P21 | OMISSION LOW | party and youth-corps organizations
+P21 | MISTRANSLATION LOW | spirits dejected
+P21 | PROSE LOW | To save appearances
+P22 | MISTRANSLATION LOW | After Dai Li's death
+P22 | PROSE LOW | executioners of note
+P22 | PROSE LOW | brought daggers to show
+P24 | OMISSION LOW | fell in agony
+P24 | MISTRANSLATION LOW | single-storey quarters
+P25 | MISTRANSLATION LOW | murderous faces
+P25 | ADDITION MED | killers dead to every human feeling rewrite

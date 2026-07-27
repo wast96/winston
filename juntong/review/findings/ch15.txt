@@ -1,0 +1,20 @@
+PARA 2 | MISTRANSLATION | LOW | held him back
+PARA 3 | MISTRANSLATION | HIGH | dormitory rooms (scan-verified 寝室)
+PARA 7 | PROSE | LOW | taught a sharp lesson
+PARA 9 | GLOSSARY | MED | the Zhongtong (also 11, 29)
+PARA 13 | MISTRANSLATION | MED | student dormitories (OCR 和 spurious, scan-verified)
+PARA 15 | PROSE | LOW | cut off from the outside
+PARA 15 | PROSE | LOW | sealing the gaps
+PARA 17 | PROSE | LOW | cordon upon cordon
+PARA 19 | PROSE | LOW | fourth-floor roof
+PARA 20 | PROSE | LOW | told us to find some other way
+PARA 21 | MISTRANSLATION | MED | Teachers' College president Zha (Zha Liangzhao; glossary add)
+PARA 22 | OMISSION | LOW | police dropped from 宪警 (also 25)
+PARA 24 | MISTRANSLATION | LOW | intermediaries to intercede
+PARA 25 | PROSE | LOW | Everyone agreed the moment
+PARA 27 | OMISSION | LOW | 抬着 borne along
+PARA 28 | MISTRANSLATION | MED | shall not get off so cheap
+PARA 29 | MISTRANSLATION | HIGH | summer training (scan-verified 暑期集训)
+PARA 29 | GLOSSARY | MED | the Zhongtong
+PARA 29 | PROSE | LOW | fascist indoctrination
+SUMMARY: accurate; 2 HIGH scan-rooted fixed readings (crop-verified by reviewer); shall concern does not materialize; frame clean.

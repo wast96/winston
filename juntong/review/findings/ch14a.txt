@@ -1,0 +1,72 @@
+PARA 2 | PROSE | LOW | cruel policy of bloody massacre
+PARA 3 | VERIFY-SCAN | HIGH | 滇系 likely 嫡系; crop
+PARA 3 | ADDITION | HIGH | "Yunnan-clique" added wrongly to crack forces
+PARA 3 | MISTRANSLATION | MED | from Kunming to Zhanyi
+PARA 3 | PROSE | LOW | gathered in Lu Han's hands alone
+PARA 4 | PROSE | LOW | graduate of Whampoa's first class
+PARA 6 | PROSE | LOW | several dozen to a hundred-odd kilometres
+PARA 7 | ADDITION | MED | crosswise not in source
+PARA 7 | PROSE | LOW | never imagined he would really fire
+PARA 9 | VERIFY-SCAN | HIGH | 撤销后 vs EN "While existed"; crop 前/后
+PARA 9 | VERIFY-SCAN | LOW | 警务处 vs 警保处 one organ?; crop
+PARA 10 | MISTRANSLATION | MED | set brought to Kunming for repair
+PARA 11 | PROSE | LOW | article before XXX
+PARA 11 | PROSE | LOW | pleaded that provincial assembly
+PARA 13 | PROSE | LOW | made overnight fortunes
+PARA 15 | PROSE | LOW | "no few" tic x6 (15,22,28,30,35,52)
+PARA 15 | PROSE | LOW | state of mutual non-aggression
+PARA 16 | PROSE | LOW | further decision to come
+PARA 17 | MISTRANSLATION | HIGH | 换汤不换药 inverted
+PARA 17 | VERIFY-SCAN | HIGH | 滇缅 vs 川滇 railway pair (also para 52); crop both
+PARA 17 | MISTRANSLATION | MED | 继任 succession
+PARA 17 | MISTRANSLATION | MED | 十几个 dozen-odd
+PARA 17 | PROSE | LOW | thousand yuan in hard coin
+PARA 17 | PROSE | LOW | Yu Chengwan's 26th Army
+PARA 17 | PROSE | LOW | told me in person (tic)
+PARA 18 | MISTRANSLATION | MED | 亲译 personal decipherment
+PARA 18 | VERIFY-SCAN | LOW | 安恩清/溥 crop
+PARA 18 | PROSE | LOW | pleaded difficulty
+PARA 19 | PROSE | MED | fondle -> play with
+PARA 19 | PROSE | LOW | household consisted only
+PARA 20 | PROSE | LOW | disown you as my son
+PARA 21 | MISTRANSLATION | HIGH | 势如破竹 broken bamboo inverted
+PARA 22 | GLOSSARY | MED | 滇缅公路 = Burma Road + glossary
+PARA 24 | MISTRANSLATION | MED | day's notice before striking
+PARA 26 | VERIFY-SCAN | HIGH | Li/Wen 1947 vs 1946; crop; note if book errs
+PARA 26 | PROSE | LOW | an open-secret conference
+PARA 26 | PROSE | LOW | severally/several clunker
+PARA 26 | PROSE | LOW | parallelism he forever wanted
+PARA 28 | PROSE | LOW | Even later when detained rewrite
+PARA 29 | GLOSSARY | MED | newspaper-title convention Chaobao vs para48 pinyin
+PARA 31 | VERIFY-SCAN | MED | 民间 maybe 民革; crop
+PARA 34 | PROSE | LOW | stand on ceremony
+PARA 35 | VERIFY-SCAN | HIGH | 张詹 anonymized as Zhang XX; crop
+PARA 35 | PROSE | LOW | made a mystery of himself
+PARA 35 | PROSE | LOW | see them made fools of
+PARA 36 | PROSE | LOW | dangling modifier reaching house
+PARA 36 | OMISSION | LOW | in Kunming dropped at para end
+PARA 37 | REGISTER | MED | 美帝 softened
+PARA 40 | MISTRANSLATION | MED | far from sure of winning
+PARA 42 | MISTRANSLATION | LOW | small mortars
+PARA 43 | MISTRANSLATION | LOW | should Chiang detain
+PARA 44 | ADDITION | MED | quietly not in source
+PARA 44 | PROSE | LOW | great batch tic (44,45,52,68)
+PARA 45 | PROSE | LOW | ordered him in person
+PARA 46 | MISTRANSLATION | MED | walked into our hands
+PARA 48 | MISTRANSLATION | HIGH | twenty-odd in all including named
+PARA 48 | VERIFY-SCAN | HIGH | 进湖公园; Kunming assembly by 翠湖?; crop
+PARA 49 | PROSE | LOW | made up of
+PARA 51 | PROSE | LOW | pall thrown over
+PARA 57 | VERIFY-SCAN | HIGH | 毅肃 = 肖毅肃 Xiao Yisu; crop
+PARA 58 | OMISSION | MED | telegraph dropped
+PARA 59 | PROSE | MED | silver-dollar rate unparseable
+PARA 59 | PROSE | LOW | freight forced pace
+PARA 62 | OMISSION | LOW | 立即/务必 dropped
+PARA 65 | PROSE | LOW | uncovered a radio set
+PARA 65 | PROSE | LOW | by way of suppression
+PARA 66 | MISTRANSLATION | HIGH | Yi Su -> Xiao Yisu
+PARA 67 | PROSE | LOW | came soon after
+PARA 67 | PROSE | LOW | spur of the moment
+PARA 68 | PROSE | LOW | The few of us
+PARA 68 | PROSE | LOW | little more than two hours
+SUMMARY: sound; 4 HIGH mistranslations, 1 HIGH addition, 7 crops needed; 0 narration contractions; recurring tics no few/great batch/to my face/flat numbers.

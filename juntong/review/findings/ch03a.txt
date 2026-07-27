@@ -1,0 +1,30 @@
+PARA 5 | OMISSION | HIGH | dance hall name 园园 Yuanyuan dropped
+PARA 19 | ADDITION | MED | duplicated zeal clause
+PARA 25 | VERIFY-SCAN | HIGH | 大阳沟 vs EN Taiyanggou; crop
+PARA 26 | OMISSION | HIGH | para-final: reports only entry/exit times, content thin
+PARA 30 | MISTRANSLATION | MED | designated to liaise
+PARA 31 | VERIFY-SCAN | MED | 萧志坚 vs para25 靖志坚; crop + unify
+PARA 43 | ADDITION | LOW | that evening -> on that occasion
+PARA 44 | PROSE | LOW | no less evil
+PARA 47 | MISTRANSLATION | MED | 广柑 sweet orange not pomelo
+PARA 49 | MISTRANSLATION | LOW | Chiang regretted (actor)
+PARA 51 | MISTRANSLATION | MED | Chen knew who I was (antecedent)
+PARA 53 | OMISSION | HIGH | raped and afterwards married
+PARA 55 | VERIFY-SCAN | HIGH | badge character 出 omitted; crop + name it
+PARA 55 | OMISSION | HIGH | quarrel broke out clause
+PARA 56 | ADDITION | MED | pre-duplicated clause
+PARA 57 | PROSE | LOW | village of Shandong
+PARA 63 | OMISSION | HIGH | hard truncation "and yet." — no traitor org ever uncovered
+PARA 64 | PROSE | LOW | stray period
+PARA 73 | MISTRANSLATION | HIGH | telephoned not wrote + stray period
+PARA 74 | ADDITION | MED | clause rendered twice
+PARA 74 | OMISSION | HIGH | 警察局长 dropped; two Xu Zhongqi collide
+PARA 75 | OMISSION | HIGH | detective squad commander + Dai Li appointees dropped
+PARA 78 | OMISSION | HIGH | settled in a few minutes dropped
+PARA 82 | ADDITION | HIGH | verbatim duplicated sentence
+PARA 83 | PROSE | LOW | stray period
+PARA 84 | REGISTER | MED | out of the loop -> left uninformed
+PARA 85 | PROSE | LOW | warder number consistency
+PARA 90 | OMISSION | HIGH | para-final thief never right himself dropped
+PARA 29 | GLOSSARY | MED | 通讯员 = correspondent grade not courier; cascade ch02/04/18/19/20
+SUMMARY: strong voice; 9 OMISSIONS mostly para-final + duplication artifacts; fix before signoff.

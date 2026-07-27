@@ -1,0 +1,25 @@
+P2 | GLOSSARY MED | Special Services Department (2,3)
+P2 | VERIFY-SCAN MED | 陈自强/陈志强; crop
+P2 | GLOSSARY LOW | add provisional names (舒翔 许开 李友三 谢侠? 朱春荣 钟xx)
+P4 | MISTRANSLATION LOW | worming in and pulling out
+P5 | GLOSSARY MED | Special Political Problems Research Office (5,14)
+P8 | MISTRANSLATION LOW | courier section
+P10 | MISTRANSLATION MED | winning-over stations (10,11)
+P15 | VERIFY-SCAN LOW | 刍/骂 没能力; crop
+P16 | PROSE LOW | district-committee organization
+P16 | PROSE LOW | poisonous education
+P17 | PROSE LOW | changing buses
+P18 | VERIFY-SCAN MED | 王邦联/王班联 unify; crop both
+P18 | GLOSSARY LOW | Anti-Japanese Military and Political University
+P19 | MISTRANSLATION MED | how one might go into Yenan
+P19 | PROSE MED | which I attended
+P19 | PROSE LOW | came out with nonsense
+P20 | MISTRANSLATION LOW | results sure to come
+P22 | VERIFY-SCAN LOW | 和/他和; crop
+P25 | VERIFY-SCAN MED | 中四路 = Zhongshan Fourth Road; crop
+P26 | PROSE LOW | pick agents from action work
+P27 | MISTRANSLATION LOW | far from agreeing
+P28 | GLOSSARY MED | operatives' corps (+ch07/ch11 cascade)
+P28 | GLOSSARY MED | Inspectorate of the Chungking Garrison Command
+P30 | MISTRANSLATION MED | cursed me
+SUMMARY: glossary drift dominant; 4 crops; no omissions.

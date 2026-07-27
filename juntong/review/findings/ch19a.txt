@@ -1,0 +1,35 @@
+PARA 6 | PROSE | LOW | the every word -> every word
+PARA 8 | GLOSSARY | MED | Secret-Service Department -> Special Services Department (paras 8,11,14,15,16 + reading + ch21)
+PARA 10 | VERIFY-SCAN | LOW | 瞳中 likely 暗中 -> guard him covertly; crop
+PARA 12 | MISTRANSLATION | MED | attache at the embassy in Germany (not "to the German embassy")
+PARA 14 | GLOSSARY | HIGH | 吴适宪 likely = ch2 吴乃宪 Wu Naixian; crop + merge glossary
+PARA 17 | ADDITION | HIGH | "arrested and shot in the leg" -> took a bullet while raiding (arrested+leg unsupported)
+PARA 17 | VERIFY-SCAN | LOW | 广基医院 likely 广慈 Guangci; crop
+PARA 19 | PROSE | LOW | both anti-Hitler figures and the German people
+PARA 21 | GLOSSARY | MED | bilingual stale: Personal Staff Office (21,22,23,37,65) vs reading Attendants' Office
+PARA 25 | PROSE | LOW | mouth sealed like a bottle
+PARA 35 | PROSE | LOW | Central Executive Committee consistency
+PARA 35 | PROSE | LOW | 总干事 -> secretary-general
+PARA 35 | PROSE | LOW | inverted construction rewrite
+PARA 37 | PROSE | LOW | by the case -> accordingly
+PARA 38 | VERIFY-SCAN | LOW | 亲一场 garble; EN assumes 闹一场; crop
+PARA 40 | MISTRANSLATION | MED | 政务次长 = political vice-minister (also para 48)
+PARA 43 | PROSE | LOW | contorted succession phrasing
+PARA 45 | PROSE | LOW | dangling modifier heart
+PARA 48 | GLOSSARY | HIGH | 鄂裕坤 likely 酆裕昆 Feng Yukun (ch3 attested); crop + merge
+PARA 48 | GLOSSARY | HIGH | 唐角 likely 唐毅 Tang Yi (ch3 attested); crop
+PARA 48 | PROSE | LOW | personnel provisionally settled
+PARA 49 | VERIFY-SCAN | LOW | 使一次 seam garble; confirm nothing dropped
+PARA 55 | PROSE | LOW | roused the whole nation to fury
+PARA 56 | VERIFY-SCAN | LOW | 邮航 second element dropped; crop
+PARA 59 | VERIFY-SCAN | MED | 王寿 vs EN Wang Wei 王巍; crop
+PARA 61 | MISTRANSLATION | MED | 十余人 -> ten-odd
+PARA 61 | PROSE | LOW | at the least provocation
+PARA 63 | OMISSION | LOW | full Bureau name
+PARA 63 | VERIFY-SCAN | MED | 冯文苑 likely 冯文尧; crop
+PARA 65 | OMISSION | HIGH | six or seven MPs dropped
+PARA 67 | REGISTER | MED | 蒋管区 -> Chiang-controlled areas
+PARA 69 | MISTRANSLATION | HIGH | three bodies in regulation title
+PARA 70 | PROSE | LOW | provincially administered cities
+PARA 71 | PROSE | LOW | 昙花一现 mannered
+SUMMARY: strong; 1 fabrication (para17), 1 dropped number, name-duplicate cluster vs earlier chapters.

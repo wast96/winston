@@ -1,0 +1,67 @@
+P64 | MISTRANSLATION MED | electric torture
+P64 | MISTRANSLATION LOW | wailing for father and mother
+P66 | PROSE LOW | mounted police effective
+P66 | PROSE LOW | headed concurrently dangler
+P68 | PROSE LOW | first at Xiongcun main verb
+P69 | VERIFY-SCAN MED | 亲/闹得不可开交; crop
+P69 | PROSE LOW | weapons issued came with ammo
+P71 | PROSE LOW | went his own way
+P79 | PROSE LOW | trained military medical officers
+P80 | MISTRANSLATION LOW | many buildings
+P80 | PROSE LOW | Zhao Zhixi appointment
+P80 | PROSE LOW | he feared attacks dangler
+P83 | OMISSION HIGH | emperor name 隆治; crop + provisional romanization
+P83 | VERIFY-SCAN HIGH | 万沙愿; crop
+P84 | OMISSION MED | daily
+P86 | VERIFY-SCAN HIGH | 激访办公室 garble; crop
+P88 | OMISSION LOW | noted detective
+P88 | MISTRANSLATION LOW | puffed me up
+P89 | REGISTER MED | it would be best
+P91 | PROSE LOW | plant refined
+P92 | MISTRANSLATION LOW | face darkened
+P93 | PROSE LOW | linked even tentatively
+P94 | ADDITION HIGH | "anonymous" contradicts 署名
+P94 | MISTRANSLATION MED | marched under guard
+P94 | MISTRANSLATION LOW | take the tonsure
+P95 | PROSE LOW | never learned whereabouts
+P96 | PROSE LOW | shouting for them to be beaten
+P96 | VERIFY-SCAN MED | blood chit 军民一体保护; crop
+P96 | PROSE LOW | SACO special organ syntax
+P97 | PROSE LOW | China hands apposition
+P98 | PROSE LOW | hatred of Miles sentence
+P98 | PROSE LOW | but also supplied
+P98 | REGISTER MED | master and slave
+P98 | PROSE LOW | quite another story
+P98 | PROSE LOW | put Dai Li on the spot
+P98 | VERIFY-SCAN MED | 西南/东南; crop
+P99 | MISTRANSLATION HIGH | Roosevelt hoped to meet
+P99 | PROSE LOW | boon never forgot
+P100 | MISTRANSLATION MED | play the master
+P101 | MISTRANSLATION HIGH | two yards long few inches wide
+P101 | PROSE LOW | called the rapists in
+P103 | MISTRANSLATION MED | figure too large
+P103 | MISTRANSLATION HIGH | rose from commander
+P105 | PROSE LOW | he learned that
+P105 | PROSE LOW | direct command
+P106 | PROSE LOW | left for the navy to monopolize
+P107 | MISTRANSLATION HIGH | control indirectly
+P108 | MISTRANSLATION HIGH | proposed to Miles
+P108 | PROSE LOW | presided for the American side
+P110 | MISTRANSLATION MED | Fleet Admiral Nimitz (also 113)
+P113 | MISTRANSLATION HIGH | rear admiral to captain
+P114 | MISTRANSLATION MED | captain of the cruiser
+P115 | MISTRANSLATION MED | Christmas party
+P115 | VERIFY-SCAN HIGH | 糯国王子们 likely 美国主子们; crop
+P115 | VERIFY-SCAN LOW | 纸巾 fancy-dress; crop
+P117 | VERIFY-SCAN MED | 女友/女儿; crop
+P117 | MISTRANSLATION MED | among the American agents
+P118 | OMISSION MED | ivory chopsticks + more
+P118 | PROSE LOW | long false beard
+P118 | PROSE LOW | as I was hurrying
+P120 | MISTRANSLATION MED | ladies go pouting
+P121 | MISTRANSLATION HIGH | troop-comfort troupe
+P121 | PROSE LOW | one table cost
+P123 | MISTRANSLATION LOW | microphone
+P125 | PROSE LOW | so-called results
+P125 | PROSE MED | the Americans forever lost
+SUMMARY: faithful; naval-rank system fix; direction cluster 99/107/108; Fei Gong passage SOUND.

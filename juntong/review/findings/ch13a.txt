@@ -1,0 +1,36 @@
+PARA 1 | REGISTER | MED | 美帝 x55 neutralized chapter-wide; restore at register-bearing noun uses + record policy
+PARA 3 | MISTRANSLATION | HIGH | Guo Dequan told the defence dept (actor)
+PARA 5 | MISTRANSLATION | MED | Commander Miles (naval 中校)
+PARA 5 | PROSE | LOW | ship's captain
+PARA 10 | MISTRANSLATION | MED | Commander Miles again
+PARA 12 | MISTRANSLATION | HIGH | the man sat down again (actor)
+PARA 18 | PROSE | LOW | salaries and allowances
+PARA 20 | PROSE | LOW | anti-Communist wording inversion
+PARA 37 | VERIFY-SCAN | HIGH | 吴利杂 "Wu Lizza"; crop + glossary
+PARA 39 | GLOSSARY | LOW | 大队 mapping: propaganda detachment/battalion
+PARA 43 | GLOSSARY | MED | motor-transport battalion
+PARA 46 | VERIFY-SCAN | MED | 客来门 "Carlton" unattested; Kelaimen unless attested
+PARA 47 | PROSE | LOW | money their own clause
+PARA 51 | MISTRANSLATION | MED | fancying himself clever
+PARA 53 | PROSE | LOW | double coordination
+PARA 54 | ADDITION | HIGH | "ran and" unsupported
+PARA 54 | MISTRANSLATION | LOW | amusing pair of geese
+PARA 55 | VERIFY-SCAN | LOW | 黄柏树 locality Huangboshu
+PARA 55 | MISTRANSLATION | MED | hounded to his death
+PARA 55 | MISTRANSLATION | MED | Ordnance Department's institute
+PARA 55 | VERIFY-SCAN | MED | 近三十多里; crop
+PARA 55 | PROSE | LOW | three of them were killed
+PARA 57 | GLOSSARY | MED | battalion commander Zhang Chengwu
+PARA 57 | MISTRANSLATION | MED | detachments at Kunming and Hengshan
+PARA 57 | MISTRANSLATION | LOW | attack the Japanese from the sea
+PARA 58 | VERIFY-SCAN | HIGH | 印渚镇 Yinzhu town vs "Yinzhufang"; crop
+PARA 58 | PROSE | LOW | ragtag
+PARA 59 | VERIFY-SCAN | HIGH | 痿守全 "Sou Shouquan"; crop + glossary
+PARA 60 | MISTRANSLATION | LOW | Christmas party
+PARA 62 | MISTRANSLATION | MED | forensic laboratory work x2
+PARA 62 | PROSE | LOW | brand-new lie detector
+PARA 62 | PROSE | LOW | twelve hundred
+PARA 62 | PROSE | LOW | trained to go and work
+PARA 63 | MISTRANSLATION | MED | truth never established
+PARA 63 | MISTRANSLATION | LOW | nothing to raise suspicion
+SUMMARY: sound; no omissions; 6 HIGH; 大队/总队 collision to settle centrally.

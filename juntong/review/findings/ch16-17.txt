@@ -1,0 +1,17 @@
+ch16 P3 | OMISSION LOW | + of the Ministry of National Defence
+ch16 P4 | PROSE LOW | stage a frame-up of the Communists
+ch16 P7 | OMISSION LOW | air inspection office pulled passengers off
+ch16 P10 | VERIFY-SCAN LOW | 访山 -> 庐山; crop
+ch16 P11 | NUMBERS MED | more than ten men in all
+ch16 P11 | GLOSSARY LOW | the 2nd Army commander
+ch16 P12 | MISTRANSLATION MED | In 1947, after his dismissal, he lived
+ch17 P1 | MISTRANSLATION MED | for my personal decipherment
+ch17 P3 | MISTRANSLATION MED | same
+ch17 P3 | MISTRANSLATION MED | drawing in generals FOR the RC; crop 蔡/替
+ch17 P4 | VERIFY-SCAN MED | 民间/民革; crop
+ch17 P6 | MISTRANSLATION MED | how am I, your mother, to face anyone?
+ch17 P7 | MISTRANSLATION LOW | suspended for the time being
+ch17 P8 | NUMBERS LOW | ten or so agent chiefs
+ch17 P9 | PROSE LOW | personally directed him to do in Kunming
+NOTE: reviewer claims glossary has "Bath Cave (Zhazidong)" decided + "Jingyuan New Village" — Bath Cave OVERRIDDEN book-wide to Zhazidong.
+Mother speech: natural, zero contractions (fine). Frames clean.

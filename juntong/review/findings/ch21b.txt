@@ -1,0 +1,35 @@
+PARA 99 | OMISSION | HIGH | 九上庐山 count dropped; crop 九
+PARA 103 | VERIFY-SCAN | HIGH | Cairo 1944 vs 1943; crop; note if source errs
+PARA 109 | MISTRANSLATION | LOW | 去一趟 -> making the trip
+PARA 109 | REGISTER | MED | 美帝 softened to "American" x9 in unit; cascade "the American imperialists"
+PARA 110 | MISTRANSLATION | MED | causal direction: post had much to do with trip
+PARA 118 | VERIFY-SCAN | HIGH | [later Robertson] bracket; successor = Gillem 吉伦; crop 诗伦
+PARA 120 | VERIFY-SCAN | HIGH | phantom Kai; 工 garble likely Dai Li; 等 dropped; crop
+PARA 126 | MISTRANSLATION | MED | fox mourning the hare (inverted)
+PARA 130 | VERIFY-SCAN | HIGH | 南省 corps province; likely 冀; crop
+PARA 130 | PROSE | LOW | laid into it wildly
+PARA 133 | MISTRANSLATION | MED | Peking Hotel proper name
+PARA 136 | PROSE | LOW | no way to climb down
+PARA 138 | PROSE | LOW | sent to Zheng to see
+PARA 140 | PROSE | LOW | not present too large a target
+PARA 141 | VERIFY-SCAN | HIGH | 奢电 "She Dian" phantom; crop
+PARA 142 | VERIFY-SCAN | HIGH | 获文治 likely 蔡文治 Cai Wenzhi attested; crop
+PARA 145 | PROSE | LOW | his proudest achievement
+PARA 147 | MISTRANSLATION | HIGH | 藉 = 蒋剑民; "Kai" phantom
+PARA 147 | VERIFY-SCAN | MED | 张师 truncated?; crop
+PARA 149 | MISTRANSLATION | HIGH | he found leads; Kai phantom
+PARA 158 | MISTRANSLATION | HIGH | 主动战 = war on own initiative
+PARA 160 | PROSE | LOW | fighting on, comma
+PARA 163 | MISTRANSLATION | HIGH | 不堪一击 inverted
+PARA 173 | PROSE | LOW | seasoned and steady (also line 31)
+PARA 178 | VERIFY-SCAN | MED | 杨悍华 likely 杨惺华; crop
+PARA 179 | MISTRANSLATION | MED | gold panic case
+PARA 179 | MISTRANSLATION | HIGH | 中行 = Central Bank here
+PARA 188 | VERIFY-SCAN | HIGH | 一二大桶 likely 一二千大桶; crop
+PARA 189 | MISTRANSLATION | LOW | whole cost under a tael
+PARA 193 | ADDITION | HIGH | fabricated summary sentence survives
+PARA 193 | OMISSION | HIGH | two-thirds of para missing (burglary anecdote)
+PARA 194 | ADDITION | HIGH | invented homes/deposits/salvage
+PARA 194 | OMISSION | HIGH | villa/airfield quote/flight missing
+PARA 195 | VERIFY-SCAN | MED | death year 1960 vs record 1959; crop
+SUMMARY: 180-192 pass; 193/194 FAIL with fabricated remnants; phantom-name cluster; 2 inversions; 美帝 softening.

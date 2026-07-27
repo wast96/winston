@@ -1,0 +1,76 @@
+PARA 83 | PROSE | LOW | in exchange for
+PARA 84 | MISTRANSLATION | HIGH | narrator frame vs Mao speech; "I feel" unsupported
+PARA 85 | VERIFY-SCAN | HIGH | 小染子 vs Xiaoshizi 小什字; crop
+PARA 85 | VERIFY-SCAN | MED | 岚干 qualifier dropped; crop
+PARA 86 | MISTRANSLATION | MED | hypothetical confinement
+PARA 86 | GLOSSARY | MED | democrats -> democratic figures (also 91)
+PARA 87 | MISTRANSLATION | MED | child be spared
+PARA 87 | PROSE | LOW | bodies lying moaning
+PARA 92 | PROSE | LOW | were mainly the following
+PARA 94 | GLOSSARY | MED | 美帝 neutralized (also 101,135)
+PARA 95 | VERIFY-SCAN | HIGH | "in some month" placeholder; crop month
+PARA 96 | MISTRANSLATION | HIGH | 一千元半开 = 1000 yuan in coins
+PARA 100 | PROSE | LOW | inversion
+PARA 102 | PROSE | LOW | subject never resolves
+PARA 104 | PROSE | LOW | two corps of first brigade
+PARA 106 | GLOSSARY | HIGH | Zhang Guochun -> Zhang Guotao x5 (106x2,116,117 + ?)
+PARA 106 | PROSE | LOW | forms circular return
+PARA 109 | PROSE | LOW | Party-Affairs Investigation Section
+PARA 112 | PROSE | LOW | dogs in the water
+PARA 116 | VERIFY-SCAN | MED | 圳xx likely 袁 (Yuan Xiaoxuan documented); crop
+PARA 116 | PROSE | LOW | appointed rank still major-general
+PARA 119 | OMISSION | LOW | Hunanese term of abuse
+PARA 119 | VERIFY-SCAN | LOW | 半皮狗 likely 癞皮狗 mangy dog; crop
+PARA 120 | PROSE | LOW | killers who never batted an eye
+PARA 120 | PROSE | LOW | in the hope that he would turn traitor
+PARA 122 | VERIFY-SCAN | MED | 羡玉盾 likely 闹矛盾; "jealous" unsupported; crop
+PARA 122 | REGISTER | MED | temper ever like thunder -> plain
+PARA 122 | PROSE | LOW | You will do no such thing
+PARA 122 | MISTRANSLATION | LOW | grin not fawning
+PARA 122 | PROSE | LOW | fired off questions
+PARA 122 | MISTRANSLATION | LOW | embarrassed not shamed
+PARA 122 | PROSE | LOW | That said -> Even so
+PARA 122 | PROSE | LOW | why should I fear insult
+PARA 123 | VERIFY-SCAN | HIGH | 陪审 likely 陪斩; mock executions; crop
+PARA 129 | PROSE | LOW | drop once
+PARA 130 | VERIFY-SCAN | MED | 踏着 likely 踮着 tiptoe; crop
+PARA 131 | PROSE | LOW | feign pointing parallel
+PARA 131 | PROSE | LOW | tone of man whose scheme succeeded
+PARA 131 | REGISTER | LOW | Sadly -> It is a pity
+PARA 133 | MISTRANSLATION | MED | 提着脑袋 = life in his hands; cascade earlier occurrence
+PARA 133 | PROSE | LOW | dawned on me
+PARA 134 | PROSE | LOW | none would yield (three factions)
+PARA 137 | VERIFY-SCAN | HIGH | 鸡忽埠 = 鸡鹅巷 Ji'e Lane No.53; crop
+PARA 138 | GLOSSARY | HIGH | Linwang -> Linli class
+PARA 138 | VERIFY-SCAN | MED | 邓角夫/邓朵夫 vs 邓毅夫 (144/146); crop reconcile
+PARA 138 | PROSE | LOW | stealing goods in his own custody
+PARA 138 | PROSE | LOW | have him shot
+PARA 139 | MISTRANSLATION | MED | 小同乡 same-county (also 153)
+PARA 139 | GLOSSARY | MED | Defence Ministry's Second Department full form
+PARA 140 | PROSE | LOW | replaced by
+PARA 142 | VERIFY-SCAN | HIGH | 有尾无个 = 有恃无恐; "without a permit" wrong; crop
+PARA 143 | PROSE | LOW | get along in peace
+PARA 144 | VERIFY-SCAN | HIGH | 易哺夫 Yi Buofu impossible pinyin; crop
+PARA 144 | PROSE | LOW | get in through Zheng
+PARA 144 | PROSE | LOW | carve out domains
+PARA 146 | PROSE | LOW | marked extra courtesy
+PARA 147 | PROSE | LOW | own way of doing things
+PARA 147 | PROSE | LOW | seasoned steady far-sighted
+PARA 148 | REGISTER | MED | his stuff -> that talk of his
+PARA 152 | OMISSION | MED | masked surname dropped; crop
+PARA 152 | PROSE | LOW | extraordinary double promotion
+PARA 153 | MISTRANSLATION | MED | 小同乡
+PARA 155 | OMISSION | MED | Jiangshan county dropped
+PARA 156 | PROSE | LOW | the more killed the better
+PARA 156 | VERIFY-SCAN | HIGH | 周镑 likely 周镐 Zhou Hao; crop
+PARA 156 | VERIFY-SCAN | MED | 吴润了 garble; crop
+PARA 156 | PROSE | LOW | joined uprising
+PARA 156 | VERIFY-SCAN | MED | 汤部(尧) Tang Yao given name; crop
+PARA 157 | VERIFY-SCAN | HIGH | "with Dai Li to Germany" historically impossible; 岂蛋 garble; crop
+PARA 159 | PROSE | LOW | as Chiang prepared to retire
+PARA 160 | PROSE | LOW | carried out no secret tasks
+PARA 161 | MISTRANSLATION | MED | 收编 absorb under command
+PARA 161 | PROSE | LOW | pay no heed to Xu's orders
+PARA 162 | PROSE | LOW | dangling Huang plight
+PARA 163 | MISTRANSLATION | LOW | thereupon appeared
+SUMMARY: sound, no fabrication; 16 VERIFY-SCAN incl load-bearing names; Sister Jiang scene = file para 122 (log offset by 3), faithful but small novelistic lifts to trim; contraction-clean.

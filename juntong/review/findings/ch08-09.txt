@@ -1,0 +1,18 @@
+ch08 P2 | PROSE LOW | it was already quite plain to me rewrite
+ch08 P3 | MISTRANSLATION MED | In more than half an hour of talk
+ch08 P3 | OMISSION LOW | cunning device
+ch08 P3 | ZH-FIX | blockquote 薪介石->蒋介石 + closing quote
+ch08 P5 | REGISTER MED | criminal work of killing
+ch08 P5 | ADDITION LOW | delete "in Hunan"
+ch08 P7 | MISTRANSLATION MED | Zhang Qun option scope rewrite
+ch08 P7 | MISTRANSLATION LOW | several bombs
+ch08 P7 | PROSE LOW | double layer of dispositions
+ch08 P8 | MISTRANSLATION MED | chimed in with each other
+ch09 P1 | GLOSSARY HIGH | Traffic Police Corps DECIDED (amend glossary; cascade ch07 transport police corps -> Traffic Police Corps)
+ch09 P2 | MISTRANSLATION MED | American-Chiang secret-service organ
+ch09 P3 | REGISTER LOW | American imperialist chieftain Miles (global 美帝 decision)
+ch09 P3 | MISTRANSLATION MED | 曲尺 automatics not Mausers
+ch09 P3 | ZH-FIX | 戴竺/戴等->戴笠, 部趴->部队, 并旦->并且
+ch09 P3 | VERIFY-SCAN LOW | 杨戎; crop
+ch09 P4 | GLOSSARY LOW | add 12 ch09 names provisional
+SUMMARY: ch08 confession intact; ch09 unit-wide corps rendering cascade decided -> Traffic Police Corps.

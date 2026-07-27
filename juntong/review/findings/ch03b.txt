@@ -1,0 +1,19 @@
+PARA 101 | PROSE | LOW | Laojie street name
+PARA 105 | MISTRANSLATION | HIGH | 暴露目标 give himself away
+PARA 114 | VERIFY-SCAN | MED | 皮革订条 vs whips and rods; crop
+PARA 116 | MISTRANSLATION | MED | 坐车 car not cart
+PARA 116 | PROSE | LOW | three/four characters confusion
+PARA 117 | MISTRANSLATION | HIGH | 唯一电影院 = Weiyi Cinema proper name
+PARA 121 | PROSE | LOW | favourite at Dai Li's side
+PARA 121 | REGISTER | LOW | Yang Bing-x convention
+PARA 122 | PROSE | LOW | order under his hand
+PARA 134 | MISTRANSLATION | LOW | multivitamin
+PARA 152 | GLOSSARY | MED | Soong Mei-ling vs Song Meiling; glossary + cascade
+PARA 154 | VERIFY-SCAN | MED | 曾泽 vs attested 曾澈 Zeng Che; crop
+PARA 180 | MISTRANSLATION | HIGH | car not bus (cf 181)
+PARA 183 | GLOSSARY | MED | Robert Lim stale in bilingual
+PARA 184 | MISTRANSLATION | LOW | one use out of the set
+PARA 185 | MISTRANSLATION | MED | correspondent grade
+PARA 185 | MISTRANSLATION | MED | Dai Li ordered (agency)
+PARA 193 | OMISSION | LOW | gentlemen courtesy formula
+SUMMARY: accurate; 3 HIGH mistranslations; no para-end drops in this half.
