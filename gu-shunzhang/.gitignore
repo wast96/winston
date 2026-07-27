@@ -1,0 +1,18 @@
+# NOTE: unlike the sibling projects, source.pdf IS tracked here, by Winston's
+# explicit request ("put that in the branch so i don't have to keep dropping it
+# in"). Do not add source.pdf to this ignore file.
+
+data/png/
+data/crop/
+data/verify/
+build/
+__pycache__/
+*.pyc
+out/*.epub
+
+# Page OCR and source transcriptions rebuild from source.pdf; not project work.
+data/txt/
+data/zh/
+data/raw/
+data/*.log
+out/*_bilingual.md

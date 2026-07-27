@@ -16,3 +16,6 @@ juntong/data/crop/
 juntong/data/txt/
 juntong/data/zh/
 juntong/data/raw/
+
+# Gu Shunzhang project: PDF is committed by explicit request
+!gu-shunzhang/source.pdf

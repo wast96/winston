@@ -1,0 +1,51 @@
+{
+ "_about": "Single source of truth for every rendering, and the auditable term ledger of check 5. One rendering per referent for the whole book. status: attested (used in English scholarship, cite it in note), provisional (my romanisation, not found), decided (project style call). Seeded at project setup; grows per batch.",
+ "book": {
+  "特務工作之理論與實際": {
+   "en": "The Theory and Practice of Secret Service Work",
+   "status": "decided",
+   "note": "Winston's chosen title. 特務工作 is rendered 'secret-service work' throughout; an alternate literal is 'special-agent work'. Author's preface dated Nanjing, 20 July 1933."
+  }
+ },
+ "people": {
+  "顧順章": {
+   "en": "Gu Shunzhang",
+   "status": "attested",
+   "note": "1904-1935. The author. A founding head of the Chinese Communist Party's Central Special Branch (中央特科), its intelligence and security apparatus. Captured in Wuhan and defected to the Nationalists in April 1931; his defection exposed the CCP's underground networks in Shanghai and was one of the gravest security disasters in the Party's early history. Later executed by the Nationalists. This manual is his systematic account of the tradecraft he built and then turned. Verify the specifics of every biographical claim against scholarship before repeating it in a note."
+  }
+ },
+ "organizations": {
+  "中央特科": {
+   "en": "the Central Special Branch",
+   "status": "provisional",
+   "note": "The CCP's clandestine intelligence/security organ that Gu Shunzhang helped run. Confirm the conventional English rendering in scholarship before finalising; 'Special Branch', 'Special Services Section' and 'Central Special Operations' all appear in the literature."
+  },
+  "C.P.": {
+   "en": "C.P.",
+   "status": "decided",
+   "note": "The author's own printed abbreviation for the Communist Party (Chapter 7 Section 2 is titled C.P.特務工作). Keep it verbatim as printed and gloss it as 'Communist Party' on first use."
+  },
+  "格伯烏": {
+   "en": "the GPU",
+   "status": "provisional",
+   "note": "Transliteration 'Gebowu' in Chapter 7 Section 3; the Soviet state political directorate (GPU/OGPU). Confirm the exact hanzi against the scan and the standard English abbreviation."
+  },
+  "青紅幫": {
+   "en": "the Green and Red Gangs",
+   "status": "provisional",
+   "note": "青幫 (Green Gang) and 紅幫 (Red Gang), the Shanghai secret societies; Chapter 7 Section 4. Cross-check the sibling Shanghai-underworld project's glossary for a consistent rendering before finalising."
+  }
+ },
+ "terms": {
+  "特務工作": {"en": "secret-service work", "status": "decided", "note": "Alternate literal: 'special-agent work'. One rendering throughout."},
+  "特務": {"en": "secret agent / secret service", "status": "decided", "note": "Rendered by context; do not flatten to 'spy'. Keep the period professional sense."},
+  "偵探網": {"en": "the detective network", "status": "provisional"},
+  "交通網": {"en": "the communications network", "status": "provisional", "note": "交通 here is clandestine liaison/communications, not transport."},
+  "化裝術": {"en": "the art of disguise", "status": "provisional"},
+  "釘梢術": {"en": "the art of shadowing", "status": "provisional", "note": "Tailing/surveillance on foot."},
+  "反偵探": {"en": "counter-surveillance", "status": "provisional"},
+  "破壞術": {"en": "sabotage", "status": "provisional"},
+  "催眠術": {"en": "hypnotism", "status": "provisional"},
+  "形相術": {"en": "physiognomy", "status": "provisional"}
+ }
+}

@@ -1,0 +1,443 @@
+{
+  "title_zh": "特務工作之理論與實際",
+  "title_en": "The Theory and Practice of Secret Service Work",
+  "author_zh": "顧順章",
+  "author_en": "Gu Shunzhang",
+  "script": "traditional",
+  "orientation": "vertical-rtl",
+  "source_pdf": "source.pdf",
+  "pdf_pages": 298,
+  "provenance": "Scan from the National Central Library (Taiwan); NCL seal stamped across page centers.",
+  "page_offset_note": "printed = pdf - offset, but offset DRIFTS as unpaginated plates accumulate (26 at ch1, ~54 by ch8). Use the per-section pdf_page/printed_page anchors below, not a constant formula.",
+  "front_matter": [
+    {
+      "title": "封面 / title page",
+      "pdf_page": 3
+    },
+    {
+      "title": "自序 (Author's preface)",
+      "pdf_page": 7,
+      "printed_page": 1
+    },
+    {
+      "title": "目錄 (Table of contents)",
+      "pdf_page": 9,
+      "printed_page": 1
+    }
+  ],
+  "structure": [
+    {
+      "level": 1,
+      "title": "特務工作之理論與實際",
+      "pdf_page": 3,
+      "printed_page": null,
+      "sections": []
+    },
+    {
+      "level": 1,
+      "title": "自序",
+      "pdf_page": 7,
+      "printed_page": 1,
+      "sections": []
+    },
+    {
+      "level": 1,
+      "title": "目錄",
+      "pdf_page": 9,
+      "printed_page": 1,
+      "sections": []
+    },
+    {
+      "level": 1,
+      "title": "第一章 緒論",
+      "pdf_page": 27,
+      "printed_page": 1,
+      "sections": [
+        {
+          "title": "第一節 特務工作的性質",
+          "pdf_page": 27,
+          "printed_page": 1,
+          "section": 1,
+          "id": "ch01s01",
+          "title_en": "Section 1. The Nature of Secret-Service Work"
+        },
+        {
+          "title": "第二節 特務工作的重要性",
+          "pdf_page": 33,
+          "printed_page": 7,
+          "section": 2,
+          "id": "ch01s02",
+          "title_en": "Section 2. The Importance of Secret-Service Work"
+        },
+        {
+          "title": "第三節 特務工作的範圍",
+          "pdf_page": 38,
+          "printed_page": 12,
+          "section": 3,
+          "id": "ch01s03",
+          "title_en": "Section 3. The Scope of Secret-Service Work"
+        }
+      ],
+      "id": "ch01",
+      "chapter": 1,
+      "title_en": "Chapter 1. Introduction"
+    },
+    {
+      "level": 1,
+      "title": "第二章 特務組織",
+      "pdf_page": 43,
+      "printed_page": 17,
+      "sections": [
+        {
+          "title": "第一節 組織原則",
+          "pdf_page": 43,
+          "printed_page": 17,
+          "section": 1,
+          "id": "ch02s01",
+          "title_en": "Section 1. Principles of Organization"
+        },
+        {
+          "title": "第二節 偵探網",
+          "pdf_page": 46,
+          "printed_page": 20,
+          "section": 2,
+          "id": "ch02s02",
+          "title_en": "Section 2. The Detective Network"
+        },
+        {
+          "title": "第三節 交通網",
+          "pdf_page": 51,
+          "printed_page": 21,
+          "section": 3,
+          "id": "ch02s03",
+          "title_en": "Section 3. The Communications Network"
+        },
+        {
+          "title": "第四節 人才選擇",
+          "pdf_page": 52,
+          "printed_page": 22,
+          "section": 4,
+          "id": "ch02s04",
+          "title_en": "Section 4. Selection of Personnel"
+        },
+        {
+          "title": "第五節 紀律",
+          "pdf_page": 59,
+          "printed_page": 27,
+          "section": 5,
+          "id": "ch02s05",
+          "title_en": "Section 5. Discipline"
+        },
+        {
+          "title": "第六節 待遇",
+          "pdf_page": 62,
+          "printed_page": 30,
+          "section": 6,
+          "id": "ch02s06",
+          "title_en": "Section 6. Remuneration / Treatment"
+        },
+        {
+          "title": "第七節 訓練",
+          "pdf_page": 67,
+          "printed_page": 35,
+          "section": 7,
+          "id": "ch02s07",
+          "title_en": "Section 7. Training"
+        }
+      ],
+      "id": "ch02",
+      "chapter": 2,
+      "title_en": "Chapter 2. Secret-Service Organization"
+    },
+    {
+      "level": 1,
+      "title": "第三章 特務工作的方法",
+      "pdf_page": 72,
+      "printed_page": 40,
+      "sections": [
+        {
+          "title": "第一節 工作的原則",
+          "pdf_page": 72,
+          "printed_page": 40,
+          "section": 1,
+          "id": "ch03s01",
+          "title_en": "Section 1. Principles of the Work"
+        },
+        {
+          "title": "第二節 工作上絕對反對的事項",
+          "pdf_page": 76,
+          "printed_page": 44,
+          "section": 2,
+          "id": "ch03s02",
+          "title_en": "Section 2. Things Absolutely Forbidden in the Work"
+        },
+        {
+          "title": "第三節 工作的實施",
+          "pdf_page": 80,
+          "printed_page": 48,
+          "section": 3,
+          "id": "ch03s03",
+          "title_en": "Section 3. Carrying Out the Work"
+        }
+      ],
+      "id": "ch03",
+      "chapter": 3,
+      "title_en": "Chapter 3. Methods of Secret-Service Work"
+    },
+    {
+      "level": 1,
+      "title": "第四章 特務觀念",
+      "pdf_page": 84,
+      "printed_page": 52,
+      "sections": [
+        {
+          "title": "第一節 觀念問題之重要",
+          "pdf_page": 84,
+          "printed_page": 52,
+          "section": 1,
+          "id": "ch04s01",
+          "title_en": "Section 1. Why the Question of Mindset Matters"
+        },
+        {
+          "title": "第二節 觀念鬥爭",
+          "pdf_page": 85,
+          "printed_page": 53,
+          "section": 2,
+          "id": "ch04s02",
+          "title_en": "Section 2. Building the Right Mindset"
+        },
+        {
+          "title": "第三節 特務人員的人生觀",
+          "pdf_page": 87,
+          "printed_page": 55,
+          "section": 3,
+          "id": "ch04s03",
+          "title_en": "Section 3. The Life-Outlook of Secret-Service Personnel"
+        }
+      ],
+      "id": "ch04",
+      "chapter": 4,
+      "title_en": "Chapter 4. The Secret-Service Mindset"
+    },
+    {
+      "level": 1,
+      "title": "第五章 秘密",
+      "pdf_page": 90,
+      "printed_page": 58,
+      "sections": [
+        {
+          "title": "第一節 祕密的意義",
+          "pdf_page": 90,
+          "printed_page": 58,
+          "section": 1,
+          "id": "ch05s01",
+          "title_en": "Section 1. The Meaning of Secrecy"
+        },
+        {
+          "title": "第二節 祕密機關",
+          "pdf_page": 93,
+          "printed_page": 61,
+          "section": 2,
+          "id": "ch05s02",
+          "title_en": "Section 2. The Secret Apparatus"
+        },
+        {
+          "title": "第三節 祕密交通",
+          "pdf_page": 99,
+          "printed_page": 67,
+          "section": 3,
+          "id": "ch05s03",
+          "title_en": "Section 3. Secret Communications"
+        },
+        {
+          "title": "第四節 一般的祕密",
+          "pdf_page": 110,
+          "printed_page": 78,
+          "section": 4,
+          "id": "ch05s04",
+          "title_en": "Section 4. General Secrets"
+        }
+      ],
+      "id": "ch05",
+      "chapter": 5,
+      "title_en": "Chapter 5. Secrecy"
+    },
+    {
+      "level": 1,
+      "title": "第六章 特務技術",
+      "pdf_page": 115,
+      "printed_page": 83,
+      "sections": [
+        {
+          "title": "第一節 化裝術",
+          "pdf_page": 115,
+          "printed_page": 83,
+          "section": 1,
+          "id": "ch06s01",
+          "title_en": "Section 1. Disguise"
+        },
+        {
+          "title": "第二節 釘梢術",
+          "pdf_page": 117,
+          "printed_page": 85,
+          "section": 2,
+          "id": "ch06s02",
+          "title_en": "Section 2. Shadowing / Tailing"
+        },
+        {
+          "title": "第三節 反偵探",
+          "pdf_page": 127,
+          "printed_page": 95,
+          "section": 3,
+          "id": "ch06s03",
+          "title_en": "Section 3. Counter-Surveillance"
+        },
+        {
+          "title": "第四節 特務應用的武器",
+          "pdf_page": 139,
+          "printed_page": 107,
+          "section": 4,
+          "id": "ch06s04",
+          "title_en": "Section 4. Weapons Used in the Work"
+        },
+        {
+          "title": "第五節 破壞術",
+          "pdf_page": 151,
+          "printed_page": 119,
+          "section": 5,
+          "id": "ch06s05",
+          "title_en": "Section 5. Sabotage / Destruction"
+        },
+        {
+          "title": "第六節 談話術",
+          "pdf_page": 169,
+          "printed_page": 137,
+          "section": 6,
+          "id": "ch06s06",
+          "title_en": "Section 6. The Art of Conversation"
+        },
+        {
+          "title": "第七節 密語術",
+          "pdf_page": 176,
+          "printed_page": 144,
+          "section": 7,
+          "id": "ch06s07",
+          "title_en": "Section 7. Secret Signals and Codes"
+        },
+        {
+          "title": "第八節 觀察技能",
+          "pdf_page": 183,
+          "printed_page": 149,
+          "section": 8,
+          "id": "ch06s08",
+          "title_en": "Section 8. Observation Skills"
+        },
+        {
+          "title": "第九節 形相術",
+          "pdf_page": 193,
+          "printed_page": 159,
+          "section": 9,
+          "id": "ch06s09",
+          "title_en": "Section 9. Physiognomy"
+        },
+        {
+          "title": "第十節 催眠術",
+          "pdf_page": 207,
+          "printed_page": 165,
+          "section": 10,
+          "id": "ch06s10",
+          "title_en": "Section 10. Hypnotism"
+        },
+        {
+          "title": "第十一節 攝影術",
+          "pdf_page": 215,
+          "printed_page": 173,
+          "section": 11,
+          "id": "ch06s11",
+          "title_en": "Section 11. Photography"
+        }
+      ],
+      "id": "ch06",
+      "chapter": 6,
+      "title_en": "Chapter 6. Secret-Service Tradecraft"
+    },
+    {
+      "level": 1,
+      "title": "第七章 特務常識",
+      "pdf_page": 220,
+      "printed_page": 178,
+      "sections": [
+        {
+          "title": "第一節 社會化問題",
+          "pdf_page": 220,
+          "printed_page": 178,
+          "section": 1,
+          "id": "ch07s01",
+          "title_en": "Section 1. Blending Into Society"
+        },
+        {
+          "title": "第二節 C.P.特務工作",
+          "pdf_page": 227,
+          "printed_page": 185,
+          "section": 2,
+          "id": "ch07s02",
+          "title_en": "Section 2. CP [Communist Party] Secret-Service Work"
+        },
+        {
+          "title": "第三節 蘇聯特務工作",
+          "pdf_page": 246,
+          "printed_page": 194,
+          "section": 3,
+          "id": "ch07s03",
+          "title_en": "Section 3. Soviet Secret-Service Work"
+        },
+        {
+          "title": "第四節 下層社會的研究",
+          "pdf_page": 258,
+          "printed_page": 206,
+          "section": 4,
+          "id": "ch07s04",
+          "title_en": "Section 4. The Study of Society's Lower Strata"
+        }
+      ],
+      "id": "ch07",
+      "chapter": 7,
+      "title_en": "Chapter 7. General Knowledge for Secret-Service Work"
+    },
+    {
+      "level": 1,
+      "title": "第八章 特務人員的修養的問題",
+      "pdf_page": 282,
+      "printed_page": 228,
+      "sections": [
+        {
+          "title": "第一節 工作的精神",
+          "pdf_page": 282,
+          "printed_page": 228,
+          "section": 1,
+          "id": "ch08s01",
+          "title_en": "Section 1. The Spirit of the Work"
+        },
+        {
+          "title": "第二節 身心的鍛練",
+          "pdf_page": 286,
+          "printed_page": 232,
+          "section": 2,
+          "id": "ch08s02",
+          "title_en": "Section 2. Cultivation of Body and Mind"
+        }
+      ],
+      "id": "ch08",
+      "chapter": 8,
+      "title_en": "Chapter 8. The Self-Cultivation of Secret-Service Personnel"
+    }
+  ],
+  "title_en_variant": "The Theory and Practice of Special-Agent Work (alternate rendering of 特務工作)",
+  "preface": "Author's preface dated Nanjing, 20 July 1933.",
+  "year": 1933,
+  "toc_flags": [
+    "ch02s06: bookmark hanzi is 待遇 (treatment/remuneration/pay); the translated TOC rendered it 'Rewards and Punishments' (=賞罰). Verify against scan; title_en set to literal 'Remuneration / Treatment' pending check.",
+    "ch05s04: 一般的祕密 ('General Secrets') is in the bookmarks but omitted from the translated TOC; title_en provisional.",
+    "Per the translated TOC's own notes, clean-read these OCR-carried entries: ch1 s3 items 2-4; ch3 s1 principles 2 and 5; the ch4 s2 title; several ch6 sub-items (two intro items under Weapons, Observation item 5, Hypnotism items 5 and 7)."
+  ]
+}
