@@ -72,6 +72,9 @@ NOISE = [
     r"[一二三四五六七八九十百千]+分之[一二三四五六七八九十百千]+",  # 二分之一 etc.
     r"瞬息萬變", r"五花八門", r"百發百中", r"包羅萬象", r"神通廣大",
     r"千方百計", r"千篇一律", r"萬無一失", r"三令五申", r"九牛一毛",
+    # 萬 as intensifier, not a quantity: 萬不得已 (as a last resort),
+    # 萬不可 (on no account), 萬一 (in case), 萬分 (utterly). ch2 idioms.
+    r"萬不得已", r"萬不可", r"萬一", r"萬分", r"萬萬", r"千萬",
 ]
 
 

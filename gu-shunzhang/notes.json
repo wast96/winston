@@ -1,54 +1,182 @@
 {
  "ch01": [
-  {"anchor": "the informers of the concession police stations",
-   "note": "In the source, <i>xunbufang</i> (巡捕房), the police stations of Shanghai's foreign concessions (the International Settlement and the French Concession), and <i>baodating</i> (包打聽, literally \"hired listen-arounds\"), their paid Chinese informers and plainclothes detectives. The author lists them among the ordinary policing bodies with which secret-service work is often confused."},
-  {"anchor": "Soviet Russia's GPU",
-   "note": "The source writes 格伯武, a transliteration of the Russian abbreviation ГПУ (GPU) — the Soviet State Political Directorate, the secret police and political-intelligence organ of 1922-34 (its successor was the OGPU). The commoner Chinese forms are 格別烏/格伯烏. The comparison is apt and pointed: Gu Shunzhang had himself trained in Soviet tradecraft under GPU auspices before building the Chinese Communists' own secret service."},
-  {"anchor": "special-duty section",
-   "note": "A point lost in translation: the word rendered \"special-duty\" here is the same 特務 (<i>tewu</i>) that the book elsewhere renders \"secret service.\" In an ordinary army or office, 特務股/團/營/連 were mundane guard, escort, and headquarters units. The author is marking off his politically charged \"secret-service work\" from this older, workaday military sense of the term."},
-  {"anchor": "the Three Principles of the People",
-   "note": "Sun Yat-sen's <i>San Min Zhuyi</i> (三民主義): nationalism, democracy (the people's rights), and the people's livelihood — the official ideology of the Nationalist Party and state."},
-  {"anchor": "the National Revolution",
-   "note": "The <i>Guomin Geming</i> (國民革命), the Nationalist-led revolution of the 1920s — the Northern Expedition of 1926-28 that reunified much of China under the Nationalists — here treated as an ongoing project that secret-service work serves."},
-  {"anchor": "the Chinese Nationalist Party",
-   "note": "The Kuomintang (KMT, <i>Zhongguo Guomindang</i>, 中國國民黨), Sun Yat-sen's party and the ruling party of the Nanjing National Government from 1927. Rendered \"the Chinese Nationalist Party\" throughout this edition."},
-  {"anchor": "the vanguard and the special-operations corps",
-   "note": "The source has <i>jixianfeng</i> (急先鋒, the spearhead or vanguard) and <i>biedongdui</i> (別動隊), a period military term for detached irregular or special-action units operating apart from the main force."},
-  {"anchor": "guarding against trouble before it arises",
-   "note": "<i>Fang huan wei ran</i> (防患未然), a set phrase — to take precautions before trouble takes shape — with roots in the <i>Book of Changes</i> and the histories."},
-  {"anchor": "a solid Western-style house upon a patch of sand",
-   "note": "The image is the author's own: a <i>yangfang</i> (洋房), a Western-style house, was in 1930s China a byword for solidity and modern substance; a <i>shaqi</i> (沙磧) is a barren flat of sand and gravel. The vividness is kept here as it stands in the source."},
-  {"anchor": "its opening theme",
-   "note": "The source has <i>kaizong mingyi</i> (開宗明義), an allusion to the opening chapter of the <i>Classic of Filial Piety</i> (whose first section is so titled): to state one's governing thesis at the very outset."},
-  {"anchor": "as the frost underfoot foretells the hard ice, so such things come on by degrees",
-   "note": "An allusion to the <i>Book of Changes</i>, the Kun hexagram (坤卦): \"When you tread on frost, the hard ice is coming\" (履霜堅冰至). The source adds <i>qi lai ye jian</i> (其來也漸), \"it comes on by degrees\": small early signs presage a great eventual development."},
-  {"anchor": "a victory that never misses its mark",
-   "note": "The source has <i>bai fa bai zhong</i> (百發百中), \"a hundred shots, a hundred hits\" — every stroke tells."},
-  {"anchor": "win a hundred battles out of a hundred",
-   "note": "An allusion to Sunzi's <i>Art of War</i>: \"Know the enemy and know yourself, and in a hundred battles you will never be in peril\" (知彼知己，百戰不殆). The book prints 知已 for 知己 (\"know yourself\"), a common orthographic slip, and gives the more colloquial 百戰百勝, \"win every one of a hundred battles.\""},
-  {"anchor": "some five million gold pounds a year",
-   "note": "These figures — some five million gold pounds a year for Britain, half of the budget for Japan's military and a third of that for its \"secret\" fund — are the author's assertions of 1933, offered to impress rather than from any audited account, and are best read as uncorroborated period claims."},
-  {"anchor": "In our war with Japan",
-   "note": "Writing in mid-1933 (the preface is dated July 1933), the author means the undeclared Sino-Japanese fighting of 1931-33 — the Mukden Incident and the loss of Manchuria (September 1931), the Shanghai war of early 1932, and the Rehe and Great Wall campaign of 1933 — not the full-scale war that began in 1937."},
-  {"anchor": "the Second World War will one day break out in the Pacific",
-   "note": "A strikingly prescient forecast for 1933: the Pacific War duly opened with Japan's attacks on Pearl Harbor and Southeast Asia in December 1941. The claim is corroborated by events, though of course the author could not have known their shape."},
-  {"anchor": "the sili and siji of the Zhou, or the xiangting and youjiao of the Qin and Han",
-   "note": "Real historical offices (verified against the scan: 司隸, 司稽, 鄉亭, 游徼). In the <i>Rites of Zhou</i> the <i>sili</i> (司隸) oversaw convict labour and menial guards and the <i>siji</i> (司稽) was a market inspector who patrolled for wrongdoing; <i>xiangting</i> (鄉亭) refers to the township-and-tithing 亭 posts of Qin-Han local government, whose 亭長 kept order and ran the postal relay, and the <i>youjiao</i> (游徼) was a local patrol officer charged with catching bandits. The author's point — that these were only the embryo of ordinary policing, not political intelligence — is fair; 司隸 is in fact better known in its Han form, the powerful <i>sili xiaowei</i> (司隸校尉) who supervised the capital region."},
-  {"anchor": "split of 1927",
-   "note": "The violent rupture of the First United Front: Chiang Kai-shek's purge of the Communists in Shanghai on 12 April 1927 and the subsequent break at Wuhan, after which the Chinese Communist Party went underground and built the clandestine apparatus the author goes on to describe. Corroborated."},
-  {"anchor": "it began with the C.P.",
-   "note": "C.P. is the author's own abbreviation for the Communist Party. The admission carries an irony he does not spell out: Gu Shunzhang was himself the head of the Communists' Central Special Branch — the very apparatus he credits here as \"formidable\" — until his defection to the Nationalists in April 1931. This manual is his account of the tradecraft he built and then turned against its makers."},
-  {"anchor": "reach a pitch of consummate mastery",
-   "note": "The source has <i>chushen ruhua</i> (出神入化), literally \"entering the divine and passing into the transformed\": a supreme, almost magical command of one's art."},
-  {"anchor": "the Ministry of Communications",
-   "note": "The <i>Jiaotong Bu</i> (交通部), the real Republican government ministry for posts, telegraph, railways, and shipping. The author is playing on the word 交通: in tradecraft it means clandestine liaison and courier work, not public transport."},
-  {"anchor": "runs on the banks",
-   "note": "The source has <i>jidui</i> (擠兌), a rush to redeem banknotes or withdraw deposits. Engineering a bank run against the enemy is listed here, coolly, among the methods of economic sabotage."},
-  {"anchor": "local bullies and evil gentry",
-   "note": "<i>Tuhao lieshen</i> (土豪劣紳), a stock label of the National Revolution for rural power-holders — landlord bosses and corrupt gentry — marked out as targets. The fixed pairing is kept."},
-  {"anchor": "iron discipline",
-   "note": "The source has 鋼的紀律, literally \"steel discipline\" — the Leninist ideal of a tightly bound party organisation, a vocabulary the author carries over from the Communist apparatus he had served."},
-  {"anchor": "one-party rule of the Chinese Nationalist Party",
-   "note": "<i>Yidang zhuanzheng</i> (一黨專政), literally \"one-party dictatorship\" — the doctrine of Nationalist party tutelage formalised under the 1931 provisional constitution."}
+  {
+   "anchor": "the informers of the concession police stations",
+   "note": "In the source, <i>xunbufang</i> (巡捕房), the police stations of Shanghai's foreign concessions (the International Settlement and the French Concession), and <i>baodating</i> (包打聽, literally \"hired listen-arounds\"), their paid Chinese informers and plainclothes detectives. The author lists them among the ordinary policing bodies with which secret-service work is often confused."
+  },
+  {
+   "anchor": "Soviet Russia's GPU",
+   "note": "The source writes 格伯武, a transliteration of the Russian abbreviation ГПУ (GPU) — the Soviet State Political Directorate, the secret police and political-intelligence organ of 1922-34 (its successor was the OGPU). The commoner Chinese forms are 格別烏/格伯烏. The comparison is apt and pointed: Gu Shunzhang had himself trained in Soviet tradecraft under GPU auspices before building the Chinese Communists' own secret service."
+  },
+  {
+   "anchor": "special-duty section",
+   "note": "A point lost in translation: the word rendered \"special-duty\" here is the same 特務 (<i>tewu</i>) that the book elsewhere renders \"secret service.\" In an ordinary army or office, 特務股/團/營/連 were mundane guard, escort, and headquarters units. The author is marking off his politically charged \"secret-service work\" from this older, workaday military sense of the term."
+  },
+  {
+   "anchor": "the Three Principles of the People",
+   "note": "Sun Yat-sen's <i>San Min Zhuyi</i> (三民主義): nationalism, democracy (the people's rights), and the people's livelihood — the official ideology of the Nationalist Party and state."
+  },
+  {
+   "anchor": "the National Revolution",
+   "note": "The <i>Guomin Geming</i> (國民革命), the Nationalist-led revolution of the 1920s — the Northern Expedition of 1926-28 that reunified much of China under the Nationalists — here treated as an ongoing project that secret-service work serves."
+  },
+  {
+   "anchor": "the Chinese Nationalist Party",
+   "note": "The Kuomintang (KMT, <i>Zhongguo Guomindang</i>, 中國國民黨), Sun Yat-sen's party and the ruling party of the Nanjing National Government from 1927. Rendered \"the Chinese Nationalist Party\" throughout this edition."
+  },
+  {
+   "anchor": "the vanguard and the special-operations corps",
+   "note": "The source has <i>jixianfeng</i> (急先鋒, the spearhead or vanguard) and <i>biedongdui</i> (別動隊), a period military term for detached irregular or special-action units operating apart from the main force."
+  },
+  {
+   "anchor": "guarding against trouble before it arises",
+   "note": "<i>Fang huan wei ran</i> (防患未然), a set phrase — to take precautions before trouble takes shape — with roots in the <i>Book of Changes</i> and the histories."
+  },
+  {
+   "anchor": "a solid Western-style house upon a patch of sand",
+   "note": "The image is the author's own: a <i>yangfang</i> (洋房), a Western-style house, was in 1930s China a byword for solidity and modern substance; a <i>shaqi</i> (沙磧) is a barren flat of sand and gravel. The vividness is kept here as it stands in the source."
+  },
+  {
+   "anchor": "its opening theme",
+   "note": "The source has <i>kaizong mingyi</i> (開宗明義), an allusion to the opening chapter of the <i>Classic of Filial Piety</i> (whose first section is so titled): to state one's governing thesis at the very outset."
+  },
+  {
+   "anchor": "as the frost underfoot foretells the hard ice, so such things come on by degrees",
+   "note": "An allusion to the <i>Book of Changes</i>, the Kun hexagram (坤卦): \"When you tread on frost, the hard ice is coming\" (履霜堅冰至). The source adds <i>qi lai ye jian</i> (其來也漸), \"it comes on by degrees\": small early signs presage a great eventual development."
+  },
+  {
+   "anchor": "a victory that never misses its mark",
+   "note": "The source has <i>bai fa bai zhong</i> (百發百中), \"a hundred shots, a hundred hits\" — every stroke tells."
+  },
+  {
+   "anchor": "win a hundred battles out of a hundred",
+   "note": "An allusion to Sunzi's <i>Art of War</i>: \"Know the enemy and know yourself, and in a hundred battles you will never be in peril\" (知彼知己，百戰不殆). The book prints 知已 for 知己 (\"know yourself\"), a common orthographic slip, and gives the more colloquial 百戰百勝, \"win every one of a hundred battles.\""
+  },
+  {
+   "anchor": "some five million gold pounds a year",
+   "note": "These figures — some five million gold pounds a year for Britain, half of the budget for Japan's military and a third of that for its \"secret\" fund — are the author's assertions of 1933, offered to impress rather than from any audited account, and are best read as uncorroborated period claims."
+  },
+  {
+   "anchor": "In our war with Japan",
+   "note": "Writing in mid-1933 (the preface is dated July 1933), the author means the undeclared Sino-Japanese fighting of 1931-33 — the Mukden Incident and the loss of Manchuria (September 1931), the Shanghai war of early 1932, and the Rehe and Great Wall campaign of 1933 — not the full-scale war that began in 1937."
+  },
+  {
+   "anchor": "the Second World War will one day break out in the Pacific",
+   "note": "A strikingly prescient forecast for 1933: the Pacific War duly opened with Japan's attacks on Pearl Harbor and Southeast Asia in December 1941. The claim is corroborated by events, though of course the author could not have known their shape."
+  },
+  {
+   "anchor": "the sili and siji of the Zhou, or the xiangting and youjiao of the Qin and Han",
+   "note": "Real historical offices (verified against the scan: 司隸, 司稽, 鄉亭, 游徼). In the <i>Rites of Zhou</i> the <i>sili</i> (司隸) oversaw convict labour and menial guards and the <i>siji</i> (司稽) was a market inspector who patrolled for wrongdoing; <i>xiangting</i> (鄉亭) refers to the township-and-tithing 亭 posts of Qin-Han local government, whose 亭長 kept order and ran the postal relay, and the <i>youjiao</i> (游徼) was a local patrol officer charged with catching bandits. The author's point — that these were only the embryo of ordinary policing, not political intelligence — is fair; 司隸 is in fact better known in its Han form, the powerful <i>sili xiaowei</i> (司隸校尉) who supervised the capital region."
+  },
+  {
+   "anchor": "split of 1927",
+   "note": "The violent rupture of the First United Front: Chiang Kai-shek's purge of the Communists in Shanghai on 12 April 1927 and the subsequent break at Wuhan, after which the Chinese Communist Party went underground and built the clandestine apparatus the author goes on to describe. Corroborated."
+  },
+  {
+   "anchor": "it began with the C.P.",
+   "note": "C.P. is the author's own abbreviation for the Communist Party. The admission carries an irony he does not spell out: Gu Shunzhang was himself the head of the Communists' Central Special Branch — the very apparatus he credits here as \"formidable\" — until his defection to the Nationalists in April 1931. This manual is his account of the tradecraft he built and then turned against its makers."
+  },
+  {
+   "anchor": "reach a pitch of consummate mastery",
+   "note": "The source has <i>chushen ruhua</i> (出神入化), literally \"entering the divine and passing into the transformed\": a supreme, almost magical command of one's art."
+  },
+  {
+   "anchor": "the Ministry of Communications",
+   "note": "The <i>Jiaotong Bu</i> (交通部), the real Republican government ministry for posts, telegraph, railways, and shipping. The author is playing on the word 交通: in tradecraft it means clandestine liaison and courier work, not public transport."
+  },
+  {
+   "anchor": "runs on the banks",
+   "note": "The source has <i>jidui</i> (擠兌), a rush to redeem banknotes or withdraw deposits. Engineering a bank run against the enemy is listed here, coolly, among the methods of economic sabotage."
+  },
+  {
+   "anchor": "local bullies and evil gentry",
+   "note": "<i>Tuhao lieshen</i> (土豪劣紳), a stock label of the National Revolution for rural power-holders — landlord bosses and corrupt gentry — marked out as targets. The fixed pairing is kept."
+  },
+  {
+   "anchor": "iron discipline",
+   "note": "The source has 鋼的紀律, literally \"steel discipline\" — the Leninist ideal of a tightly bound party organisation, a vocabulary the author carries over from the Communist apparatus he had served."
+  },
+  {
+   "anchor": "one-party rule of the Chinese Nationalist Party",
+   "note": "<i>Yidang zhuanzheng</i> (一黨專政), literally \"one-party dictatorship\" — the doctrine of Nationalist party tutelage formalised under the 1931 provisional constitution."
+  }
+ ],
+ "ch02": [
+  {
+   "anchor": "Soviet Russia has its State Political Directorate",
+   "note": "The source writes 國家政治檢察局, one of several Chinese renderings of the Soviet ГПУ (GPU). The commoner form is 國家政治保衛局 (\"State Political Directorate\"); the manual elsewhere transliterates the initials as 格伯武 (see the note on the GPU in ch.&#160;1). The point here is structural: the GPU served as the open, avowed face of a security apparatus whose real work stayed secret, and the author holds it up as the model for a \"public organ\" fronting a clandestine one — the very arrangement he goes on to prescribe."
+  },
+  {
+   "anchor": "Diagram of the Central Secret-Service Organization",
+   "note": "The appended plate (reproduced here) sets out a chain of command reading, from the top: the Central Political Bureau (中央政治局) &#8594; a Central Secret-Service Conference (中央特務會議) &#8594; the Central Secret-Service Headquarters, in parenthesis the Central Defense Bureau (中央特務總部（中央保衛局）), with its office (辦公處), flanked by a Secret-Service Work Training Class (特務工作訓練班) and a Secret-Service Statistics Research Society (特務統計研究會). Below sit four departments — First, Observation (觀察); Second, Inquiry (探訪); Third, Protection (保護); Fourth, Communications (交通) — the Inquiry department subdividing into numbered sections (科) and sub-sections (股); a dashed line runs down to the Secret-Service Departments of the provinces and regions (各省區特務部). It is an idealized blueprint, not a record of an apparatus already in being."
+  },
+  {
+   "anchor": "Diagram of the Distribution of the Detective Network",
+   "note": "The plate places the Central Inquiry Department (中央探訪部) at the hub, radiating to eight regional areas — North China, the Northeast, East China, Central China, South China, the Southwest, West China, and the Northwest — each ringed by the abbreviated names of its provinces, which subdivide in turn into counties and cities; at the base the net reaches into Party, government, army, and police organs, and further into ministries, professions, schools, social bodies, and the secret societies (幫會). The scheme is comprehensive by design — a map of total penetration rather than a report of penetration achieved."
+  },
+  {
+   "anchor": "Diagram of the Distribution of the Communications Network",
+   "note": "The plate mirrors the detective-network chart: a Central Communications Station (交通總站) at the hub feeds regional stations (區站), which feed provincial branch stations (分站), which feed local sub-stations (小站) — the same eight-region frame applied to the movement of messages rather than the gathering of them."
+  },
+  {
+   "anchor": "the gang rules of the Green and Red Gangs",
+   "note": "青紅幫: the two great Shanghai secret-society traditions — the Green Gang (青幫), rooted in the Grand Canal grain-transport guilds and the Luo sect, and the Hong or Red Gang (紅幫 / 洪門), the anti-Qing sworn-brotherhood tradition. The example is pointed: the author, Gu Shunzhang, was himself a Green Gang initiate, and his fluency in its discipline and cellular secrecy was part of what made him so effective a secret-police chief (Green Gang: en.wikipedia.org/wiki/Green_Gang)."
+  },
+  {
+   "anchor": "a discipline of steel",
+   "note": "鋼的紀律, literally \"steel discipline.\" The metaphor and the demand behind it are Leninist party-discipline carried into tradecraft — iron obedience, vertical command, no horizontal ties — and the author, who built the Chinese Communists' security apparatus before turning it against them, reproduces the idiom even while writing for the Nationalist side."
+  },
+  {
+   "anchor": "serves Qin in the morning and Chu by evening",
+   "note": "朝秦暮楚: a Warring States image for fickle allegiance — a small state (or a man) caught between the rival powers of Qin and Chu, siding now with one and now with the other. Here, shifting political loyalty."
+  },
+  {
+   "anchor": "a hundred temperings make steel and a thousand make gold",
+   "note": "百鍊成鋼，千鍊成金: a proverbial pairing — metal is made sound only by being worked over and over in the fire — for the making of a person through repeated hard trial. The author applies it to the seasoning of an agent."
+  },
+  {
+   "anchor": "better a vacancy than a poor fit",
+   "note": "寧缺毋濫: literally \"rather leave it short than let it overflow\" — better a post left empty than one filled carelessly with the unfit. A standard maxim of selective recruitment."
+  },
+  {
+   "anchor": "a general is easy to recruit and hard to dismiss",
+   "note": "招將容易退將難: a proverb — it is easy to take a general on, hard to send him away again. The application: because an agent, once admitted, carries the organization's secrets, taking on the wrong person is far costlier here than in ordinary work."
+  },
+  {
+   "anchor": "no one is born with knowledge",
+   "note": "人非生而知之，乃係學而知之: an echo of the Analects, where Confucius ranks \"those born knowing\" above \"those who know through learning\" (Ji shi) and elsewhere disclaims the first rank for himself — <i>wo fei sheng er zhi zhi zhe</i> (Shu er). The author turns it to a practical end: agents are made, not found, and must be taught without cease."
+  },
+  {
+   "anchor": "putting his subjects to death without having taught them",
+   "note": "不教而誅: from the Analects (Yao yue), where 不教而殺 — to execute people without having first instructed them — is named the first of the \"four evils\" of misgovernment. The author invokes it to condemn discipline imposed without published, knowable rules: punishment at one man's whim rather than by law."
+  },
+  {
+   "anchor": "punish one and so warn a hundred",
+   "note": "懲一儆百: to punish one person as a warning to a hundred — to make an example. A standard idiom of deterrence."
+  },
+  {
+   "anchor": "the schools run by the Shanghai Municipal Council",
+   "note": "上海工部局: the Shanghai Municipal Council, the (foreign-run) governing body of the International Settlement, whose police force — the Shanghai Municipal Police, the Settlement's 捕房 — maintained welfare provision and schooling for its personnel. The author, who operated for years in Settlement Shanghai, takes it as a model for how a service should provide for its people's children (Shanghai Municipal Police: en.wikipedia.org/wiki/Shanghai_Municipal_Police)."
+  },
+  {
+   "anchor": "He is like a first-rate bomb",
+   "note": "The manual's most vivid figure for the agent as capital asset: a bomb of the best make is thrown only in extremity and must then fetch ten times its cost, and is otherwise stored with care against needless loss. The passage says plainly that safeguarding an agent's life is not humanity but husbandry — \"the husbanding of the organization's own strength.\""
+  },
+  {
+   "anchor": "spit in his face and wait for it to dry of itself",
+   "note": "唾面自乾: a Tang-dynasty phrase. The statesman Lou Shide counselled his brother that if a man spat in his face he should not even wipe it away but let it dry of itself — the very model of forbearance. The author inverts the classical praise: here such a man is no paragon of patience but a dull, spineless sort, unfit for the work."
+  },
+  {
+   "anchor": "the spirit of self-criticism",
+   "note": "自我批評 (\"self-criticism\"), together with the 批評會 (\"criticism meeting\") in the same list and the preference just above for the 啟發式 (heuristic) method over the 灌輸式 (rote \"pouring-in\") method: these are the training and rectification techniques of the Communist organization in which the author was formed, set down here in a handbook written for its enemies."
+  },
+  {
+   "anchor": "The organization should be divided into three layers",
+   "note": "An inset diagram (reproduced here) accompanies this principle: three concentric circles — the innermost the core (中心), the middle ring the cadre elements (幹部份子), the outer ring the bought-over and utilized elements (收買及利用份子). The scheme returns in §6, where the author notes that the outer ring is recruited precisely by playing on ordinary people's love of gain."
+  },
+  {
+   "anchor": "cipher clerks",
+   "note": "報務員 and 譯電員: the radio operator who works the key, and the clerk who encodes and decodes the traffic. That the manual already treats wireless telegraphy and ciphered communications as core tradecraft reflects the technical level of the Communist underground the author had run, whose clandestine radio links were among its signal achievements."
+  }
  ]
 }

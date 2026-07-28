@@ -16,3 +16,6 @@ data/zh/
 data/raw/
 data/*.log
 out/*_bilingual.md
+
+# Eye-read working transcriptions (regenerable; parity source lives in data/zh)
+data/zh_work/

@@ -2,11 +2,11 @@
 
 Read this first. Written as work happens, not at the end.
 
-## Status: Batch B01 (Chapter 1) DONE, built and QA-green.
+## Status: Batches B01 (Chapter 1) and B02 (Chapter 2) DONE, built and QA-green.
 
-Branch `claude/gu-shunzhang` (the single home for this project's work). One of eight chapters translated.
+Branch `claude/gu-shunzhang` (the single home for this project's work). Two of eight chapters translated.
 `out/gushunzhang.epub` builds with a full pending-aware TOC; `qa_epub.py`
-PASS. Next batch is B02 (Chapter 2); see `HANDOFF.md`.
+PASS (44 notes, 8 spine documents). Next batch is B03 (Chapter 3); see `HANDOFF.md`.
 
 ## Source facts established at setup (unchanged)
 
@@ -97,6 +97,87 @@ chapter (pure text; confirmed by reading all 16 pages).
   glossed to the same referent "the GPU"; confirm the ch7 spelling in that batch.
 - The self-referential irony (Gu praising the C.P. apparatus he himself built
   and then betrayed) is footnoted at "it began with the C.P."
+
+## Batch B02 — Chapter 2 (特務組織 / Secret-Service Organization), printed folios 17-39 (PDF 43-71)
+
+The chapter's 7 sections: §1 組織原則 (Principles of Organization, folio 17), §2
+偵探網 (The Detective Network, folio 20), §3 交通網 (The Communications Network,
+folio 21), §4 人才選擇 (Selection of Personnel, folio 22), §5 紀律 (Discipline,
+folio 27), §6 待遇 (Treatment and Remuneration, folio 30), §7 訓練 (Training,
+folio 35). Body ends folio 39.
+
+### Environment / offset
+- tesseract chi_tra + chi_tra_vert installed; pymupdf, pillow, numpy, opencv.
+  PaddleOCR NOT installed (as predicted); tesseract as diff partner and the
+  300&#8202;dpi eye-read as the authority.
+- Offset verified at the ch2 opener: PDF 43 = printed folio 十七 (17), read off
+  the page. The offset holds through the chapter; it does NOT drift within ch2,
+  but three unpaginated figure plates (PDF 47-48, 49-50, 53-54) are bound in
+  mid-chapter, which is where later drift comes from. Each plate is a recto
+  with a blank verso.
+
+### Deliverables produced
+- `out/ch02_reading.md` (clean English), `out/ch02_bilingual.md` (QC only),
+  `data/zh/ch02.txt` (parity source) — 101 aligned paragraphs.
+- `notes.json` `ch02`: 19 footnotes (continuous numbering 26-44).
+- `glossary.json`: 13 new entries (國家政治檢察局, 中央特務會議, 中央特務總部,
+  各省區特務部, 青幫, 紅幫, 上海工部局, 鋼的紀律, 自我批評, 報務員, 譯電員, plus
+  cross-refs). Statuses set; 青幫/紅幫/上海工部局 attested with citations.
+- `figures.json` `ch02`: 4 figures — the three-layer inset (from p45) and the
+  three full-page plates (中央特務組織圖, 偵探網分布圖, 交通網分布圖), cropped to
+  `data/figs/`, placed by anchor, all embedded in the built EPUB with captions.
+- `out/gushunzhang.epub` rebuilt (2 of 8 chapters, 44 notes); `qa_epub.py` PASS.
+
+### The eight checks — what ran and what it found
+1. **Dual-engine OCR diff.** Paddle unavailable; ran `ocr_crop.py`
+   (chi_tra_vert, psm 5) and eye-read every page off the 300&#8202;dpi scan.
+   Every proper name, number, figure label, and low-confidence span was
+   crop-verified by eye. The seal sits mostly off the text columns on these
+   pages; central columns still spot-checked.
+2. **Blind double-translation.** Six argumentative passages (§1 secrecy, §4
+   selection-explanation and 人非生而知之, §5 不教而誅, §6 bomb metaphor and the
+   reward-warning) fully re-translated in a separate context and diffed. Close
+   agreement throughout. It caught one real error: 否即棄之 had been mistranslated
+   "only to cast him off afterward"; corrected to "nor reject one for the lack
+   of such a tie." Enumerative/list filler was sampled, not fully doubled.
+3. **Back-translation (omission detector).** Same six passages round-tripped to
+   Chinese; no omissions or additions, all numbers and enumerations intact.
+   (It could not catch a consistent misreading, by design — the double
+   translation did.)
+4. **Automated invariants.** `check_numbers.py` clean (0 unresolved over 101
+   pairs) after extending NOISE with 萬 intensifier-idioms (萬不得已, 萬不可,
+   萬一, 萬分, 萬萬, 千萬). `check_structure.py` parity 101/101; headings shape
+   matches ch1.
+5. **Term ledger.** glossary extended (above).
+6. **Annotate not smooth.** Idiom, allusion, and reference spans became
+   footnotes; no bracketed tags survive into the clean prose.
+7. **External scholarship.** Checked and cited: Shanghai Municipal Council /
+   工部局 and the Settlement police 捕房; the Green Gang 青幫 and Gu's own
+   membership; the GPU public-organ name (國家政治檢察局 vs 國家政治保衛局). The
+   Analects allusions (不教而誅 from 堯曰; 生而知之/學而知之 from 季氏/述而) and the
+   唾面自乾 (Lou Shide) allusion verified against the classical sources. Sourced
+   to Wikipedia; Grok/Grokipedia not used (standing rule).
+8. **Deep audit.** Coverage was 100 percent (every page eye-read). Spans given
+   the full crop-and-zoom treatment included 上海工部局/捕房 (p64), 二十人 (p69,
+   the class-size cap), the four department labels and 中央特務統計研究會 on the
+   org-chart plate, and the eight region labels on the detective-net plate.
+   The audit surfaced a genuine omission — §7's training-class points f-m
+   (folio 38) had been skipped between item e and "平時訓練"; all eight were
+   translated and restored (parity rose 93 to 101). Estimated residual error
+   rate after fixes: under 0.5 percent; no dropped numbers.
+
+### Flagged for Winston's read-through
+- The three org-chart plates are the author's **idealized blueprint**, not a
+  documented apparatus. Footnotes say so.
+- 國家政治檢察局 (source) is a variant name for the GPU; the commoner form is
+  國家政治保衛局. Rendered "State Political Directorate," cross-referenced to ch1's
+  格伯武/GPU note.
+- Provisional glossary entries: 中央特務會議, 中央特務總部, 各省區特務部 (all from
+  the plate; not independently attested as real bodies).
+- Register note: the manual repeatedly reproduces Communist organizational
+  idiom — 鋼的紀律 (steel discipline), 批評會 / 自我批評 (criticism and
+  self-criticism), the heuristic-over-rote training method — in a handbook
+  written for the Nationalist side. Footnoted where it appears.
 
 ## Engineering state (for later batches)
 - `scripts/build_reading_epub.py` REWRITTEN for this book: driven by

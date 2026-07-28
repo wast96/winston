@@ -1,1 +1,28 @@
-{}
+{
+ "ch02": [
+  {
+   "file": "ch02_layers.png",
+   "before": "The organization should be divided into three layers",
+   "alt": "Three concentric circles labelled, from the center outward, 中心, 幹部份子, and 收買及利用份子.",
+   "caption": "Inset from the source: the three concentric layers of the organization — the core (中心), the cadre elements (幹部份子), and the bought-over and utilized elements (收買及利用份子)."
+  },
+  {
+   "file": "ch02_org.png",
+   "before": "Appended is a Diagram of the Central",
+   "alt": "An organization chart descending from the Central Political Bureau through the Central Secret-Service Conference and Headquarters to four departments and the provincial departments.",
+   "caption": "中央特務組織圖 — Diagram of the Central Secret-Service Organization (the appended plate from the source)."
+  },
+  {
+   "file": "ch02_detective.png",
+   "before": "Distribution of the Detective",
+   "alt": "A radial chart with the Central Inquiry Department at the hub, linked to eight regional areas and their provinces.",
+   "caption": "偵探網分布圖 — Diagram of the Distribution of the Detective Network (the appended plate from the source)."
+  },
+  {
+   "file": "ch02_comms.png",
+   "before": "Distribution of the Communications",
+   "alt": "A radial chart with the Central Communications Station at the hub, feeding regional, provincial, and local stations.",
+   "caption": "交通網分布圖 — Diagram of the Distribution of the Communications Network (the appended plate from the source)."
+  }
+ ]
+}
