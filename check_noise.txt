@@ -1,0 +1,22 @@
+# Project-specific noise for check_numbers.py (pass with --noise).
+# One regex per line, NO trailing comments (load_extra_noise keeps the whole
+# line as the pattern). These are numerals that are names or idiom in
+# 《千里江山图》, NOT quantities — stripping them keeps the number check readable.
+#
+# 牌九 = pai gow, the domino gambling game (九 is part of the name)
+牌九
+# 四散 = "scatter in all directions" (四 is idiom, not a count)
+四散
+# Personal names containing 千 (qian = 1000): the Chen brothers.
+陈千元
+陈千里
+# 十足 = "fully / utterly" (intensifier, not the count 10)
+十足
+# 百货公司/百货 = department store ("hundred goods", not the count 100)
+百货
+# 四合 = (dusk) "closing in on all sides" (四 is idiom, not a count)
+四合
+# 颠三倒四 = "topsy-turvy / incoherent" (idiom, 三/四 not counts)
+颠三倒四
+# 百叶窗 / 百叶 = louvered shutter ("hundred leaves", not the count 100)
+百叶
