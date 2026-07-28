@@ -1,16 +1,18 @@
 # PROGRESS — <book title>
 
 The running per-batch log. Write it as you go, not at the end. One section per
-batch: what was translated (unit ids, PDF and printed ranges), which checks ran
+batch: what was translated (unit ids, chapter/section scope), which checks ran
 and what they found, notes added (count and numbering), glossary rows added with
 status, figures, and anything flagged for the read-through (uncertain readings,
 contradictions with scholarship, choices you were unsure of).
 
 ## Setup
 
-- Source: <provenance, page count, seal/artifact notes>.
-- Page furniture measured: crop box <l/r/t/b>, model <lang/psm>, running head <...>.
-- Offset at chapter 1: <printed = pdf - N>; note that it drifts.
+- Source EPUB: <title/edition; anything notable — embedded notes, missing
+  chapters, image-heavy sections>.
+- Ingest: <N spine documents, N images, N source characters (from out/INGEST.md)>.
+- Structure: <did the source's file boundaries match logical chapters, or did
+  you merge/split? note it>.
 
 ## B01 = <scope>
 

@@ -1,29 +1,23 @@
 {
-  "_README": "This is the single source of the book's structure. The build is driven ENTIRELY by this file. Fill in every field, delete the _comment/_README keys or leave them (the builder ignores unknown keys). Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists. Cite the book's own PRINTED FOLIO in notes, never the PDF page.",
+  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. For an EPUB source, author it from book.draft.json (produced by scripts/ingest_epub.py) — refine the titles, add English titles, and MERGE or SPLIT units where the source EPUB's file boundaries do not match its logical chapters. Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists.",
 
   "title_en": "English Title of the Book",
   "title_zh": "中文書名",
   "author_en": "Author Name (pinyin)",
   "author_zh": "作者",
-  "year": 1933,
+  "year": 2020,
   "uid": "urn:uuid:my-book-slug-1",
 
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212; em dash, &#160; nbsp), never named entities. If omitted, a generic method note is generated.",
+  "_source_note": "The source is a digital EPUB with reliable text (no OCR). Record its title/edition and anything notable (missing chapters, embedded notes, image-heavy sections) here.",
+  "source_epub": "source.epub",
+
+  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212;, &#160;), never named entities. If omitted, a generic method note is generated.",
   "translator_note": [
-    "This is an English translation of <i>中文書名</i>, from an image-only scan with no digital text layer.",
-    "Say here how the text was recovered and verified, what the register decisions were, who the author is and how to read the source, and how any damaged or missing passages were handled. Keep it honest about method and provenance."
+    "This is an English translation of <i>中文書名</i>, made from the digital source EPUB.",
+    "Say here what the register decisions were, who the author is, and how any editorial choices (the source's own notes, ambiguous passages, cut material) were handled."
   ],
 
-  "_source_note": "Free-text provenance: where the scan came from, how many PDF pages, seal/artifact warnings, whether the PDF has bookmarks. Informational only.",
-  "source_note": "Image-only PDF scan; NN pages; no text layer. Note any library seal, dark-edge artifacts, or embedded bookmarks here.",
-
-  "_offset_note": "The PDF-page-to-printed-folio offset usually DRIFTS as unpaginated plates accumulate. Do NOT use a constant formula. Record per-section pdf_page/printed_page anchors below and READ the folio off the scan at each opener.",
-
-  "_end_note": "The last PDF page and printed folio of the body text. Set these so the LAST chapter's/section's page length is known in the survey; without them its length shows as '?'.",
-  "pdf_end": 292,
-  "printed_end": 236,
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (zh), title_en, pdf_page + printed_page of its opener, and a sections list. OPTIONAL 'part': a label like 'Part One. ...' — consecutive chapters sharing a part are grouped under it in the TOC. Each section: id (ch01s01..), section (int), title (zh), title_en, pdf_page, printed_page, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en, pdf_page, printed_page). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front (from the TOC or PDF bookmarks): the survey and the skeleton EPUB are built from it before any translation.",
+  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (source), title_en, and OPTIONAL 'part' (a label like 'Part One. ...'; consecutive chapters sharing it are grouped in the TOC). Keep 'src' (the source spine href, optionally with #anchor) and 'chars' (source character count, from ingest) so the survey can size batches; 'text_file' points at the extracted source text for that unit. Each section: id (ch01s01..), section (int), title, title_en, src, chars, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front: the survey and the skeleton EPUB are built from it before any translation.",
   "structure": [
     {
       "level": 1,
@@ -32,23 +26,22 @@
       "part": "Part One. English Part Title (optional; omit if the book has no parts)",
       "title": "第一章 章名",
       "title_en": "Chapter 1. English Chapter Title",
-      "pdf_page": 27,
-      "printed_page": 1,
+      "src": "text/chapter01.xhtml",
+      "chars": 8200,
+      "text_file": "data/src/01_chapter01.txt",
       "sections": [
         {
           "id": "ch01s01",
           "section": 1,
           "title": "第一節 節名",
           "title_en": "Section 1. English Section Title",
-          "pdf_page": 27,
-          "printed_page": 1,
+          "src": "text/chapter01.xhtml#sec1",
+          "chars": 4100,
           "subsections": [
             {
               "id": "ch01s01x1",
               "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)",
-              "pdf_page": 27,
-              "printed_page": 1
+              "title_en": "i. English Subsection Title (optional; omit the whole list if none)"
             }
           ]
         },
@@ -57,25 +50,20 @@
           "section": 2,
           "title": "第二節 節名",
           "title_en": "Section 2. English Section Title",
-          "pdf_page": 33,
-          "printed_page": 7
+          "src": "text/chapter01.xhtml#sec2",
+          "chars": 4100
         }
       ]
     }
   ],
 
-  "_batches_note": "Your work plan: split the book into batches (a chapter, or a run of sections) and do each end to end. Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
+  "_batches_note": "Your work plan (proposed by scripts/survey.py, approved by the commissioner). Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
   "batches": [
     {
       "batch": "B01",
       "title": "ch1",
-      "pdf_range": [27, 42],
-      "printed_range": [1, 16],
       "first_section": "ch01s01",
       "last_section": "ch01s02"
     }
-  ],
-
-  "_back_matter_note": "Optional. If the book has a publisher's errata table or a colophon you want reproduced as translator's back matter, put the data in back_matter.json (see that file). This list is just a human record of what exists.",
-  "back_matter": []
+  ]
 }

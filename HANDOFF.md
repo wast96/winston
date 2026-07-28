@@ -8,9 +8,9 @@ kickoff message below as its first section.
 
 ```
 (Put the ready-to-paste kickoff message for the NEXT batch here, adapted from
-START_HERE.md's intro message: which batch, which PDF/printed pages, any script
-fix that batch needs. Keep it one imperative paragraph. On the last batch, ask
-instead for the final back matter, a whole-book QA pass, and a completion report.)
+START_HERE.md's batch message: which batch, which chapters/sections. Keep it one
+imperative paragraph set. On the last batch, ask instead for any back matter, a
+whole-book QA pass, and a completion report.)
 ```
 
 ## What is DONE (do not redo)
@@ -19,12 +19,13 @@ instead for the final back matter, a whole-book QA pass, and a completion report
 
 ## What is NEXT
 
-- Batch <Bxx> = <scope>, PDF <a-b>, printed <a-b>. Any pending script fix.
+- Batch <Bxx> = <scope, chapters/sections>. Any pending item.
 
 ## Open items for the read-through
 
 - (provisional readings still open; history flags; anything uncertain)
 
-## Environment / traps state
+## State / traps
 
-- (Paddle installed or not; measured crop; anything that bit this session)
+- (source structure quirks; the source's own notes handling; anything that bit
+  this session)

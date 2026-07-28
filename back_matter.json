@@ -1,23 +1,11 @@
 {
-  "_README": "OPTIONAL back matter. This file is INERT as shipped: the builder only renders back matter when a top-level 'errata_rows' and/or 'colophon' key is present. To enable, rename '_errata_rows_schema' -> 'errata_rows' and '_colophon_schema' -> 'colophon' and fill them in. Delete whichever you do not need.",
-  "_errata_rows_schema": [
-    {
-      "folio": "一二三",
-      "page": 123,
-      "line": 4,
-      "char": 17,
-      "kind": "dropped | wrong | append",
-      "printed": "誤 (the wrong character; blank for 'dropped')",
-      "correct": "正 (the correct/inserted character; blank for 'append')",
-      "note": "optional gloss, e.g. which chapter this touches and whether it is reflected in the reading text"
-    }
-  ],
+  "_README": "OPTIONAL back matter. This file is INERT as shipped: the builder only renders a colophon when a top-level 'colophon' key is present. To enable, rename '_colophon_schema' -> 'colophon' and fill it in (e.g. the source's copyright/imprint page, translated). Delete if not needed.",
   "_colophon_schema": {
     "title_zh": "中文書名",
     "author_zh": "作者",
-    "notice_zh": "不准翻印",
-    "notice_en": "Reprinting forbidden",
-    "date_zh": "中華民國二十二年八月付印",
-    "date_en": "Printed August 1933"
+    "notice_zh": "版權所有",
+    "notice_en": "All rights reserved",
+    "date_zh": "二〇二〇年",
+    "date_en": "First published 2020"
   }
 }

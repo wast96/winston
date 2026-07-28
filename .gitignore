@@ -1,9 +1,6 @@
-# Regenerable working files (rebuild from source.pdf; never project work)
-data/png/
-data/crop/
-data/txt/
-data/zh/
-data/raw/
+# Regenerable working files (rebuild from source.epub; never project work)
+data/src_epub/
+data/src/
 data/verify/
 data/figs/manifest.json
 build/
@@ -13,7 +10,12 @@ __pycache__/
 # Deliverable artifacts that rebuild from the sources
 out/*.epub
 out/*_bilingual.md
+out/INGEST.md
+out/SURVEY.md
 
-# Keep source.pdf and committed figure crops (data/figs/*.png) TRACKED.
-# If your scan is very large and you would rather not commit it, add:
-#   source.pdf
+# Draft structure emitted by ingest (you promote it into book.json)
+book.draft.json
+
+# Keep source.epub and committed figure images (data/figs/*.png|jpg) TRACKED.
+# If your source EPUB is large and you would rather not commit it, add:
+#   source.epub

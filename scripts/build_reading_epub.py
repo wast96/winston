@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the cumulative reading edition of a scanned-book translation.
+"""Build the cumulative reading edition of an EPUB-source translation.
 
 Driven entirely by book.json (a dict with a "structure" list of chapters, each
 with its sections). One XHTML per TRANSLATED chapter (a chapter is translated
@@ -22,9 +22,9 @@ Reading markdown per chapter uses: '## ' chapter title (h1), '### ' section
 (h2, given the section's book.json id), '#### ' subsection (h3); every other
 non-blank line is a paragraph.
 
-Optional back matter (errata table, colophon) is rendered when back_matter.json
-is present; translator's note text can be supplied via book.json's
-"translator_note" field. See the template's data files for the shapes.
+Optional back matter (a colophon) is rendered when back_matter.json supplies one;
+translator's note text can be supplied via book.json's "translator_note" field.
+See the template's data files for the shapes.
 
 Usage: build_reading_epub.py [out/book.epub]
 """
@@ -75,10 +75,6 @@ span.span { color: #888; font-size: 0.85em; }
 ol.contents ol.secs { padding-left: 1.4em; }
 nav#toc ol ol { list-style: none; padding-left: 1.3em; }
 nav#toc ol ol li { font-size: 0.95em; }
-table.errata { border-collapse: collapse; margin: 1.2em 0; font-size: 0.9em; }
-table.errata th, table.errata td { border: 1px solid #bbb; padding: 0.25em 0.55em; text-align: left; vertical-align: top; }
-table.errata th { background: #f0f0f0; font-weight: bold; }
-table.errata td.hz { font-size: 1.05em; }
 .colophon { text-align: center; margin-top: 2em; }
 .colophon .notice { border: 2px solid #444; display: inline-block; padding: 0.4em 1.6em; margin: 1em 0; font-size: 1.3em; letter-spacing: 0.3em; }
 .colophon p { text-indent: 0; }
@@ -149,64 +145,16 @@ def insert_notes(paragraph, notes, counter, doc):
 
 
 # ---------------------------------------------------------------------------
-# Structure helpers: flatten the book to an ordered list of openers, compute
-# each unit's page span, and group chapters by optional "part". Used by both the
-# builder (skeleton pages, contents, nav) and scripts/survey.py.
+# Structure helpers: a size label per unit and grouping by optional "part".
 # ---------------------------------------------------------------------------
 
-def iter_openers(structure):
-    """Yield (node, level, chapter) for every chapter/section/subsection in
-    reading order. level: 1 chapter, 2 section, 3 subsection."""
-    for chap in structure:
-        yield chap, 1, chap
-        for sec in chap.get("sections", []):
-            yield sec, 2, chap
-            for sub in sec.get("subsections", []):
-                yield sub, 3, chap
-
-
-def compute_spans(structure, book=None):
-    """Annotate every node with _pdf=(start,end), _pp=(start,end) printed, and
-    _pages, using the next opener at the same-or-higher level as the end. The
-    last unit's end comes from book['pdf_end']/'printed_end' if given, else is
-    left open (_pages None). Safe to call more than once."""
-    book = book or {}
-    nodes = list(iter_openers(structure))
-    n = len(nodes)
-    for i, (node, level, _chap) in enumerate(nodes):
-        start = node.get("pdf_page")
-        end = None
-        for j in range(i + 1, n):
-            if nodes[j][1] <= level:
-                nxt = nodes[j][0].get("pdf_page")
-                if nxt is not None:
-                    end = nxt - 1
-                break
-        else:
-            end = book.get("pdf_end")
-        node["_pdf"] = (start, end)
-        pstart = node.get("printed_page")
-        pend = None
-        if end is not None and start is not None and pstart is not None:
-            pend = pstart + (end - start)
-        node["_pp"] = (pstart, pend)
-        node["_pages"] = (end - start + 1) if (start is not None
-                                               and end is not None) else None
-    return structure
-
-
 def span_label(node):
-    """A short 'pp. a-b (N pp.)' label, printed folios if known, else PDF."""
-    ps, pe = node.get("_pp", (None, None))
-    if ps is not None and pe is not None:
-        pp = "%s" % ps if ps == pe else "%s&#8211;%s" % (ps, pe)
-    else:
-        a, b = node.get("_pdf", (None, None))
-        if a is None:
-            return ""
-        pp = "PDF %s" % a if b is None else "PDF %s&#8211;%s" % (a, b)
-    n = node.get("_pages")
-    return "%s%s" % (pp, "" if not n else "&#160;(%d&#160;pp.)" % n)
+    """A short size label. For an EPUB source this is the source-character count
+    ('chars', filled by ingest_epub.py); returns '' when unknown."""
+    c = node.get("chars")
+    if c is None:
+        return ""
+    return "{:,}&#160;chars".format(c)
 
 
 def part_groups(structure):
@@ -227,20 +175,20 @@ def part_groups(structure):
 
 def render_skeleton(chap):
     """A placeholder page for a chapter not yet translated: its title, source
-    page span, and its full section/subsection outline with real anchors, so the
-    table of contents can link all the way down before any translation exists.
+    size, and its full section/subsection outline with real anchors, so the table
+    of contents can link all the way down before any translation exists.
     Returns (body, ids_emitted)."""
     ids = set()
     out = ['<h1>%s</h1>' % esc(chap["title_en"])]
     sl = span_label(chap)
     out.append('<p class="note"><span class="pending">Not yet translated.</span>'
-               '%s</p>' % (" Source&#160;" + sl if sl else ""))
+               '%s</p>' % ("&#160;" + sl if sl else ""))
     for sec in chap.get("sections", []):
         ids.add(sec["id"])
         out.append('<h2 id="%s">%s</h2>' % (esc(sec["id"]), esc(sec["title_en"])))
         ssl = span_label(sec)
         if ssl:
-            out.append('<p class="note">Source&#160;%s</p>' % ssl)
+            out.append('<p class="note">%s</p>' % ssl)
         for sub in sec.get("subsections", []):
             ids.add(sub["id"])
             out.append('<h3 id="%s">%s</h3>'
@@ -335,9 +283,9 @@ def _span_suffix(node):
 def render_contents(structure, translated, ids_present=None):
     """The visible full map: every part, chapter, section and subsection, each
     linked to its place (real content when translated, a skeleton outline page
-    otherwise), with its source page span. Because every chapter always has a
-    page, every chapter entry resolves -- the whole contents is hyperlinked from
-    the first (survey) build onward.
+    otherwise), with its source size. Because every chapter always has a page,
+    every chapter entry resolves -- the whole contents is hyperlinked from the
+    first (survey) build onward.
 
     ids_present maps a chapter id to the set of section/subsection anchor ids
     actually emitted in that chapter's page, so a chapter translated a batch at a
@@ -356,8 +304,8 @@ def render_contents(structure, translated, ids_present=None):
     parts = ['<h1>Contents</h1>',
              '<p class="note">The complete book: %s. Every entry links to its '
              'place; units not yet translated link to a skeleton outline showing '
-             'their source page span, so the whole shape of the book is '
-             'navigable from the start.</p>' % tally,
+             'their source size, so the whole shape of the book is navigable '
+             'from the start.</p>' % tally,
              '<ol class="contents">']
     for part_label, chaps in groups:
         if part_label:
@@ -420,51 +368,6 @@ def render_glossary(gloss):
     return "\n".join(parts)
 
 
-def render_errata(bm):
-    """The publisher's errata table, rendered as translator's back matter.
-
-    The corrections have been checked against the translation. Those that fall
-    within chapter 8 are applied and reflected in the reading text; the rest
-    fall on chapters whose translation, made by reading the scan for sense,
-    already follows the corrected readings. Folio 206's entry appends a chart,
-    reproduced in chapter 7 as a figure.
-    """
-    KIND = {"dropped": "character dropped", "wrong": "misprint",
-            "append": "clause / chart appended"}
-    rows = []
-    for r in bm.get("errata_rows", []):
-        folio = esc(str(r["folio"]))
-        page = esc(str(r["page"]))
-        loc = "line %s, char %s" % (esc(str(r["line"])), esc(str(r["char"])))
-        if r["kind"] == "wrong":
-            fix = ("<span lang=\"zh-Hant\">%s</span> &#8594; "
-                   "<span lang=\"zh-Hant\">%s</span>"
-                   % (esc(r["printed"]), esc(r["correct"])))
-        elif r["kind"] == "append":
-            fix = "&#8212;"
-        else:
-            fix = ("insert <span lang=\"zh-Hant\">%s</span>"
-                   % esc(r["correct"]))
-        note = (" &#183; " + esc(r["note"])) if r.get("note") else ""
-        rows.append(
-            "<tr><td>%s</td><td>%s</td><td>%s</td><td class=\"hz\">%s%s</td></tr>"
-            % (folio, page if str(r["page"]) != str(r["folio"]) else "&#8212;",
-               loc, fix, note))
-    headnote = back_matter.get("errata_headnote") or (
-        "The book prints a publisher's errata table on its final leaf, "
-        "reproduced here in full. Each row gives the printed folio, the line, "
-        "the character position within that line, and the fix &#8212; a dropped "
-        "character to insert or a misprinted character to replace. Every "
-        "correction has been checked against this translation and applied where "
-        "it bears on the reading text.")
-    return (
-        '<h1>Errata</h1>'
-        '<p class="note">%s</p>'
-        '<table class="errata"><tr><th>Folio</th><th>Printed page</th>'
-        '<th>Location</th><th>Correction</th></tr>%s</table>'
-        % (headnote, "".join(rows)))
-
-
 def render_colophon(bm):
     c = bm.get("colophon", {})
     return (
@@ -500,22 +403,17 @@ def translator_note(meta, n_chapters):
     return (
         '<h1>Translator\'s Note</h1>'
         '<p class="note">This is an English translation of '
-        '<i>%(title_zh)s</i> (<i>%(title_en)s</i>), from an image-only scan '
-        'with no digital text layer.</p>'
-        '<p class="note">The text was recovered by optical character '
-        'recognition and then read against magnified images of the physical '
-        'pages. Every proper name, every number, and every passage the machine '
-        'and the eye disagreed on was checked against the scan rather than '
-        'trusted to the OCR. A paragraph-by-paragraph bilingual audit file '
-        'exists alongside this edition for anyone who wants to check the '
-        'workings.</p>'
-        '<p class="note">Names follow pinyin except where an English '
-        'conventional form exists. Renderings marked "provisional" in the '
-        'glossary are romanizations not found attested in English-language '
-        'scholarship. Notes are the translator\'s throughout; the source '
-        'carries none of its own. Where the scan is damaged or a leaf is '
-        'missing, the gap is stated in a note and nothing is invented to bridge '
-        'it.</p>'
+        '<i>%(title_zh)s</i> (<i>%(title_en)s</i>), made from the digital '
+        'source edition.</p>'
+        '<p class="note">The source text was translated in full; a '
+        'paragraph-by-paragraph bilingual audit file exists alongside this '
+        'edition for anyone who wants to check the workings. Names follow pinyin '
+        'except where an English conventional form exists. Renderings marked '
+        '"provisional" in the glossary are romanizations not found attested in '
+        'English-language scholarship. Notes are the translator\'s throughout, '
+        'kept distinct from any notes the source itself carries; where a passage '
+        'is genuinely ambiguous the choice is stated in a note and nothing is '
+        'invented to smooth it over.</p>'
         '<p class="note">This build contains %(n)s translated '
         'chapter(s).</p>'
         % {"title_zh": esc(meta["title_zh"]),
@@ -543,7 +441,6 @@ def main(epub_path):
     structure = [c for c in book.get("structure", []) if c.get("id", "").startswith("ch")]
     if not structure:
         sys.exit("no chapters in book.json structure")
-    compute_spans(structure, book)
 
     def md_of(cid):
         return os.path.join(ROOT, "out", "%s_reading.md" % cid)
@@ -640,11 +537,8 @@ def main(epub_path):
           "Translator's Note and Glossary")
 
     back_matter = load_json("back_matter.json", {})
-    have_backmatter = bool(back_matter.get("errata_rows") or
-                           back_matter.get("colophon"))
+    have_backmatter = bool(back_matter.get("colophon"))
     if have_backmatter:
-        write(os.path.join(oebps, "errata.xhtml"),
-              render_errata(back_matter), "Errata")
         write(os.path.join(oebps, "colophon.xhtml"),
               render_colophon(back_matter), "Colophon")
 
@@ -655,7 +549,7 @@ def main(epub_path):
     docs += [("notes.xhtml", "Notes"),
              ("backmatter.xhtml", "Translator's Note and Glossary")]
     if have_backmatter:
-        docs += [("errata.xhtml", "Errata"), ("colophon.xhtml", "Colophon")]
+        docs += [("colophon.xhtml", "Colophon")]
 
     # e-reader nav: the full TOC, nested part -> chapter -> section -> subsection.
     # Every entry links to a real anchor (content or skeleton), so the whole
@@ -698,8 +592,7 @@ def main(epub_path):
                   '<li><a href="backmatter.xhtml">Translator\'s Note and '
                   'Glossary</a></li>']
     if have_backmatter:
-        nav_items += ['<li><a href="errata.xhtml">Errata</a></li>',
-                      '<li><a href="colophon.xhtml">Colophon</a></li>']
+        nav_items += ['<li><a href="colophon.xhtml">Colophon</a></li>']
     nav = ('<nav epub:type="toc" id="toc"><h1>Contents</h1><ol>'
            + "".join(nav_items) + "</ol></nav>"
            '<nav epub:type="landmarks" hidden="hidden"><ol>'
