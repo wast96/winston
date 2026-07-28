@@ -19,6 +19,12 @@ note that names a different branch.
    `out/book.epub`) to the commissioner as an attached file in the chat. Do not
    make them go to git or a branch to download it. This is in addition to
    committing. The file is the deliverable.
+   **AND, in the SAME chat reply, paste the paste-ready kickoff message for the
+   next batch VERBATIM, inside a fenced code block.** The commissioner always
+   needs it in the chat, every time you wrap up. Pointing at HANDOFF.md, saying
+   "it's in the handoff," or describing where to find it does NOT satisfy this:
+   the actual fenced message must be in the reply. No batch wrap-up is complete
+   without both the attached EPUB and the pasted kickoff block.
 2. **One branch. [SET PER PROJECT]** All work for this book lives on a single
    working branch (e.g. `claude/<book-slug>`). Do NOT spin off new branches. If a
    session starts you on some other branch, or a stray branch gets created and

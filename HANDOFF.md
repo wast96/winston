@@ -49,8 +49,15 @@ scripts/qa_epub.py out/thousand-li.epub until green (it refuses on an unmatched 
 anchor). Commit to claude/thousand-li and push. Rewrite HANDOFF.md so its first
 section is the paste-ready kickoff for Batch B03 (ch09-ch11). Cite chapters, never
 page numbers. Never invent bridging text; footnote any genuine ambiguity and leave
-it visible. Do not pause for approval mid-batch. Deliver out/thousand-li.epub in
-chat as an attached file at the end.
+it visible. Do not pause for approval mid-batch.
+
+When you finish the batch, your final chat reply MUST contain BOTH of these, every
+time, so I can start the next batch from a fresh chat: (1) the built
+out/thousand-li.epub attached as a file, and (2) the next batch's paste-ready
+kickoff message pasted VERBATIM inside a fenced code block, right here in the chat.
+Writing it into HANDOFF.md or pointing me there is NOT enough. I need the actual
+kickoff/handoff message in the chat to copy into the next session. No batch is
+complete without both.
 ```
 
 ## What is DONE (do not redo)
