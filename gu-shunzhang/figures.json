@@ -25,5 +25,13 @@
    "caption": "交通網分布圖 — Diagram of the Distribution of the Communications Network (the appended plate from the source)."
   }
  ],
- "ch05": []
+ "ch05": [],
+ "ch06": [
+  {
+   "file": "ch06_tailing_street.png",
+   "before": "As the diagram above shows",
+   "alt": "A street-shadowing diagram: two parallel streets with a shop on the left; the quarry, marked with a circled dot, walks ahead, and three shadowers, marked 1, 2, and 3, trail behind along diagonal sightlines.",
+   "caption": "The street-shadowing formation (from the source). The circled dot (◎) is the quarry (被釘梢者); ①②③ are the three shadowers strung out behind along two parallel ways (街道 / 街衖), past a shop (店鋪), forming the two joined triangles and three diagonal sightlines the text describes. The labels are the source's; the caption is the translator's."
+  }
+ ]
 }

@@ -2,11 +2,13 @@
 
 Read this first. Written as work happens, not at the end.
 
-## Status: Batches B01–B05 (Chapters 1-5) DONE, built and QA-green.
+## Status: Batches B01–B06 DONE, built and QA-green.
 
-Branch `claude/gu-shunzhang` (the single home for this project's work). Five of eight chapters translated.
-`out/gushunzhang.epub` builds with a full pending-aware TOC; `qa_epub.py`
-PASS (85 notes, 11 spine files). Next batch is B06 (Chapter 6 §1-3); see `HANDOFF.md`.
+Branch `claude/gu-shunzhang` (the single home for this project's work). Six of eight
+chapters translated (Chapter 6 is partial: §1-3 done, §4-11 pending in B07/B08).
+`out/gushunzhang.epub` builds with a full pending-aware TOC — Chapter 6 is linked
+and its §1-3 deep-linked, §4-11 shown pending; `qa_epub.py` PASS (108 notes, 12
+spine files, 1 figure). Next batch is B07 (Chapter 6 §4-6); see `HANDOFF.md`.
 
 ## Source facts established at setup (unchanged)
 
@@ -446,3 +448,92 @@ recount below mattered more than usual.
   the parity source cannot drift.
 - `scripts/check_numbers.py` extended (see check 4 above).
 - `scripts/ocr_crop.py` crop geometry is correct for this book; just run it.
+
+
+## Batch B06 = Chapter 6 §1-3 (特務技術 / Tradecraft): Disguise, Shadowing, Counter-Surveillance
+
+- **Scope:** ch06 §1-3, unit ids ch06s01-ch06s03. **PDF 115-138, printed folios
+  八三-一〇六 (83-106)** — plus **folio 107 (PDF 139)**, because §3's final list
+  (五、special qualifications) spans folios 106-107: items 1-4 on 106, items
+  5-10 on 107, and only then does §4 武器 (Weapons, = B07) begin. The complete
+  §3 was translated; §4 was left for B07. `out/ch06_reading.md` (92 parity
+  paragraphs), `out/ch06_bilingual.md` (QC only).
+- **Offset verified at the opener:** folio 八三 (83) read off PDF 115 by eye,
+  confirming pdf−32 holds through the ch6 opener. No plate-drift in this stretch.
+- **Sections and sub-structure (read off the scan, list-by-list):**
+  - §1 化裝術 (Disguise): 4 heads — I Dress (4), II Face (4), III Speech (3),
+    IV Identity (2). **Source misnumbers the heads** — prints 一, 二, 四, 四
+    (skipping 三, doubling 四). Renumbered I-IV; footnoted.
+  - §2 釘梢術 (Shadowing): I meaning/value, II the 3-man party, III prep (3),
+    IV points-while-shadowing (5), V by-situation (4: street / vehicle / crowd /
+    special). Carries the batch's one figure.
+  - §3 反偵探 (Counter-Surveillance): I meaning/function (the recursive
+    偵探/反偵探/反反偵探 chain), II telling a plant (12), III exploit/deploy
+    (2 + a,b), IV points-in-execution (16), V qualifications (10).
+- **The eight checks:**
+  1. Dual-engine OCR diff: **not run** — PaddleOCR unavailable (weights off the
+     allowlist), and tesseract chi_tra_vert alone on this vertical scan is too
+     corrupt to diff usefully. Substituted the higher-value control: **every one
+     of the 25 pages read by eye off the 300 dpi scan**, which is what the
+     translation was built from (the OCR text was a scaffold only).
+  2. Blind double-translation: the argumentative passages — the recursive §3.I
+     definition, the §2.I "why not just arrest" argument, the §3.III.1
+     將計就計 escalation — re-translated independently and diffed; no
+     divergence (the recursion's directionality is stable).
+  3. Back-translation: the same passages plus the §3.IV 16-item list — no
+     omissions; parity confirms paragraph count.
+  4. `check_numbers.py`: **0 unresolved across 92 pairs** after NOISE additions
+     (萬一, 一本萬利, 百貨, 十字, 第二天 — the 萬一/一本萬利 rows go at the
+     TOP of NOISE, before the 一[measure] group, or 一[…看…] eats the 一 out of
+     萬一看 and orphans a 萬=10000). `check_structure.py`: parity 92/92,
+     anchors 108/108 resolve, headings one shape across ch1-6.
+  5. Term ledger: 9 glossary rows touched (below).
+  6. Annotate-don't-smooth: every low-confidence span became a footnote (below).
+  7. External-scholarship checks: Shanghai license-plate colors (Settlement
+     black/white, Chinese-municipality blue/white) and the Whampoa motto
+     親愛精誠 both **corroborated** (web); footnoted as such.
+  8. Random-sample deep audit: because the whole batch was eye-read rather than
+     sampled, the audit was targeted — crop-verified at magnification the
+     idiom 春蠶自縛 (folio 103), the 反偵探/反反偵探 recursion (folios 95-96),
+     and the garbled 又如在軍隊作戰 line (folio 102, OCR read 允如…軍除作職).
+     Observed mistranslation rate on re-check: effectively nil; the batch was
+     built from the scan, not the OCR.
+
+### Footnotes / glossary added
+- **notes.json `ch06`: 23 notes** (numbers 86-108; total book notes now 108).
+  Idioms with images (廬山真面目, 畫虎不成反類犬/臨渴掘井, 賠了夫人又折兵,
+  一本萬利, 露出馬腳, 深入虎口/比登天還難, 瞭如指掌, 以子之矛攻子之盾,
+  自投羅網, 弄巧成拙/春蠶自縛); Shanghai slang (吊膀子, 老門檻);
+  reference terms (銅盆帽/瓜皮小帽, the tram classes, 海參崴 Vladivostok,
+  反間計, 橫的關係); corroborated facts (Shanghai plates, 親愛精誠 Whampoa
+  motto); the 將計就計 / 反反偵探 recursion note; and the CCP-defector
+  context on 「尤其是共產黨」. About 0.9/folio, matching ch5's density.
+- **glossary.json: 9 rows** — upgraded 化裝術/釘梢術/反偵探 from provisional to
+  decided (locked in by consistent book-wide use); added 反反偵探, 黃包車
+  (rickshaw), 反間計 (attested), 海參崴/親愛精誠 (attested), 吊膀子/老門檻
+  (provisional Wu slang).
+
+### Figures
+- **One figure: the street-shadowing diagram** (folio 91 / PDF 123),
+  `data/figs/ch06_tailing_street.png`, spec in `figures.json: ch06`. It is line
+  art, so `find_figures.py 115 138` (ink-density detection, tuned for halftone
+  plates) did NOT catch it — found by eye and cropped by hand. Labels are the
+  source's (街道/街衖 streets, 店鋪 shop, ◎ the quarry, ①②③ the shadowers);
+  captioned as the translator's description, no identification invented.
+
+### Flagged for Winston's read-through
+- **§1 head misnumbering** (一,二,四,四 in the source) — renumbered I-IV, footnoted.
+- **手木梢 / 扣木梢 is Shanghai slang I could not pin to a dictionary.** Read
+  as a play on 梢 (the "tail" of 釘梢): the dupe is sent home lugging a
+  "wooden tail," a decoy result. Rendered "carry off a wooden dummy";
+  **provisional**, footnoted as such.
+- **反偵探 kept as "counter-surveillance"** (not "counter-detection") for
+  consistency with ch1 §3 and the whole book, even though §3's wordplay is on
+  偵探="detective." The recursion reads "counter-surveillance /
+  counter-counter-surveillance"; footnoted.
+- **Batch boundary nuance:** §3's last list runs onto folio 107, the same page
+  §4 (武器, B07) opens on. B07 therefore starts mid-folio-107 at 第四節.
+- Engineering: `build_reading_epub.py` gained per-section link/pending logic so a
+  **partially-translated chapter** (ch6) deep-links only its done sections and
+  shows the rest pending — previously it linked all 11 ch6 sections and
+  qa_epub failed on the 8 missing anchors.

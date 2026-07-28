@@ -199,9 +199,16 @@ def render_notes_page(chapters, notes_by_chap):
     return "\n".join(parts)
 
 
-def render_contents(structure, translated):
+def render_contents(structure, translated, sec_done=None):
     """The visible full map: every chapter and section, translated ones linked
-    down to the section, the rest marked 'not yet translated'."""
+    down to the section, the rest marked 'not yet translated'.
+
+    sec_done maps a chapter id to the set of its section ids that are actually
+    present in that chapter's reading doc. A chapter translated a batch at a
+    time (ch6 runs across three batches) is itself linked, but only its
+    completed sections are deep-linked; the sections still pending are shown,
+    honestly, as 'not yet translated' even though the chapter file exists."""
+    sec_done = sec_done or {}
     parts = ['<h1>Contents</h1>',
              '<p class="note">The complete book runs to eight chapters and '
              'thirty-seven sections. Chapters already translated are linked; '
@@ -220,12 +227,15 @@ def render_contents(structure, translated):
                          % esc(chap["title_en"]))
         if chap.get("sections"):
             parts.append('<ol>')
+            done_secs = sec_done.get(cid)
             for sec in chap["sections"]:
-                if done:
+                linked = done and (done_secs is None or sec["id"] in done_secs)
+                if linked:
                     parts.append('<li class="sec"><a href="%s.xhtml#%s">%s</a></li>'
                                  % (cid, esc(sec["id"]), esc(sec["title_en"])))
                 else:
-                    parts.append('<li class="sec"><span class="pending">%s</span></li>'
+                    parts.append('<li class="sec"><span class="pending">%s '
+                                 '&#183; not yet translated</span></li>'
                                  % esc(sec["title_en"]))
             parts.append('</ol>')
     parts.append('</ol>')
@@ -323,6 +333,19 @@ def main(epub_path):
     if not chapters:
         sys.exit("no chapter reading markdown found (out/<id>_reading.md)")
 
+    # A chapter may be translated a batch at a time (ch6 spans three batches):
+    # its reading doc carries only the '### ' section headings done so far, and
+    # render_body assigns section ids to them in book.json order. Record which
+    # section ids are actually present so the contents page deep-links only
+    # those and shows the rest as pending, instead of pointing at anchors that
+    # do not exist yet (which qa_epub rightly rejects).
+    sec_done = {}
+    for chap in chapters:
+        n_secs = sum(1 for l in open(md_of(chap["id"]))
+                     if l.startswith("### "))
+        sec_done[chap["id"]] = {s["id"]
+                                for s in chap.get("sections", [])[:n_secs]}
+
     if os.path.isdir(BUILD):
         shutil.rmtree(BUILD)
     oebps = os.path.join(BUILD, "OEBPS")
@@ -361,7 +384,7 @@ def main(epub_path):
 
     # contents map
     write(os.path.join(oebps, "contents.xhtml"),
-          render_contents(structure, translated), "Contents")
+          render_contents(structure, translated, sec_done), "Contents")
 
     # a single placeholder that pending chapter links target in the nav
     write(os.path.join(oebps, "pending.xhtml"),

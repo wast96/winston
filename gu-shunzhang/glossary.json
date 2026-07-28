@@ -195,18 +195,20 @@
   "化裝術": {
    "en": "the art of disguise",
    "pinyin": "huazhuang shu",
-   "status": "provisional"
+   "status": "decided",
+   "note": "Rendered 'disguise' / 'the art of disguise' consistently. ch6 s1."
   },
   "釘梢術": {
    "en": "the art of shadowing",
    "pinyin": "dingshao shu",
-   "status": "provisional",
-   "note": "Tailing/surveillance on foot."
+   "status": "decided",
+   "note": "Tailing/surveillance on foot; the section title also carries 'tailing'. First glossed ch5; the dedicated treatment is ch6 s2."
   },
   "反偵探": {
    "en": "counter-surveillance",
    "pinyin": "fan zhentan",
-   "status": "provisional"
+   "status": "decided",
+   "note": "Surveilling the enemy's detectives (偵探); by extension, an agent run inside the enemy's detective apparatus. 'Counter-surveillance' is kept for consistency with ch1 s3 and the whole book; ch6 s3 is the dedicated treatment, which turns on the chain 偵探 / 反偵探 / 反反偵探."
   },
   "破壞術": {
    "en": "sabotage",
@@ -384,6 +386,48 @@
    "pinyin": "tongxianghui",
    "status": "attested",
    "note": "An association of people from the same home district; standard rendering in Shanghai social history. ch05 s2."
+  },
+  "反反偵探": {
+   "en": "counter-counter-surveillance",
+   "pinyin": "fan fan zhentan",
+   "status": "decided",
+   "note": "Surveilling the enemy's counter-surveillance of our agents. Coined by the author for the recursion in ch6 s3."
+  },
+  "反間計": {
+   "en": "the stratagem of sowing discord",
+   "pinyin": "fanjian ji",
+   "status": "attested",
+   "note": "The double-agent / counter-espionage stratagem, 33rd of the traditional Thirty-Six Stratagems (三十六計). ch6 s3."
+  },
+  "黃包車": {
+   "en": "rickshaw",
+   "pinyin": "huangbaoche",
+   "status": "decided",
+   "note": "The Shanghai term for a puller-drawn rickshaw. ch6 s2."
+  },
+  "吊膀子": {
+   "en": "flirting / street pickup",
+   "pinyin": "diao bangzi",
+   "status": "provisional",
+   "note": "Shanghai (Wu) slang for flirtatious pickup, lit. 'dangling arms'. Used as the analogy for shadowing. ch6 s2."
+  },
+  "老門檻": {
+   "en": "old hand",
+   "pinyin": "lao menkan",
+   "status": "provisional",
+   "note": "Shanghai (Wu) slang for a wily veteran, lit. 'old threshold'. ch6 s2."
+  },
+  "親愛精誠": {
+   "en": "affection and sincerity",
+   "pinyin": "qin'ai jingcheng",
+   "status": "attested",
+   "note": "The Whampoa Military Academy motto proclaimed by Sun Yat-sen (1924); a Nationalist watchword for comradely solidarity. ch6 s3."
+  },
+  "海參崴": {
+   "en": "Vladivostok",
+   "pinyin": "Haishenwai",
+   "status": "attested",
+   "note": "Russian Pacific port; Chinese name means 'sea-cucumber cliffs'. ch6 s2."
   }
  }
 }

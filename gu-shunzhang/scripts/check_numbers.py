@@ -45,6 +45,11 @@ MONTHS = {1: "january", 2: "february", 3: "march", 4: "april", 5: "may",
 # make short patterns look long and the sort reintroduces the bug. This was
 # discovered the hard way, twice.
 NOISE = [
+    # ch6: 萬一 ("in case") must be stripped BEFORE the 一[measure] group
+    # below, or r"一[...看...]" eats the 一 out of 萬一看 and orphans a 萬
+    # that reads as 10000. Same reason 一本萬利 (idiom, "vast profit from
+    # small capital") goes up top. Order is load-bearing here.
+    r"萬一", r"一本萬利", r"百貨", r"十字", r"第二天",
     r"八九不离十", r"四十多", r"三十多", r"二十几", r"二十多",
     r"十几", r"几十", r"十多",
     r"一[艘条顶只个位群把张片口指边旁时下阵壶碟种番场股家棵套幅丢看脚]",
