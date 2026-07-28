@@ -26,6 +26,42 @@
    "pinyin": "Ma Gu",
    "status": "attested",
    "note": "A Taoist immortal, a goddess of longevity; 請麻姑 is a folk seance inviting her presence."
+  },
+  "斯達林": {
+   "en": "Stalin",
+   "pinyin": "Sīdàlín",
+   "status": "attested",
+   "note": "Joseph Stalin (1878–1953); the source quotes him on the GPU. Standard English form."
+  },
+  "托洛斯基": {
+   "en": "Trotsky",
+   "pinyin": "Tuōluòsījī",
+   "status": "attested",
+   "note": "Leon Trotsky (1879–1940); leader of the Left Opposition against Stalin. Standard English form."
+  },
+  "列甯": {
+   "en": "Lenin",
+   "pinyin": "Lièníng",
+   "status": "attested",
+   "note": "V. I. Lenin (1870–1924). The source writes 列甯 (a variant of 列寧). Standard English form."
+  },
+  "周恩來": {
+   "en": "Zhou Enlai",
+   "pinyin": "Zhōu Ēnlái",
+   "status": "attested",
+   "note": "Named on the secret-service leadership chart (Fig.); designed the CCP Central Special Branch. Standard pinyin."
+  },
+  "向忠發": {
+   "en": "Xiang Zhongfa",
+   "pinyin": "Xiàng Zhōngfā",
+   "status": "attested",
+   "note": "CCP General Secretary 1928–31; named on the leadership chart (Fig.). Captured and executed at Shanghai in 1931. Standard pinyin."
+  },
+  "錢壯飛": {
+   "en": "Qian Zhuangfei",
+   "pinyin": "Qián Zhuàngfēi",
+   "status": "attested",
+   "note": "CCP mole inside the Nationalist intelligence service whose warning, after Gu Shunzhang’s defection, saved the CCP’s Shanghai leadership. Named in a footnote. Standard pinyin."
   }
  },
  "organizations": {
@@ -130,6 +166,36 @@
    "pinyin": "Guangshenghang",
    "status": "attested",
    "note": "Hong Kong-Shanghai toiletries house founded 1898, famous for its 'Two Girls' (雙妹) Florida Water and cosmetics. Cantonese trade name kept. The book's reference to it selling gun-oil is uncorroborated."
+  },
+  "切卡": {
+   "en": "the Cheka",
+   "pinyin": "Qiēkǎ",
+   "status": "attested",
+   "note": "Transliteration of ЧК; the All-Russian Extraordinary Commission (非常委員會), Soviet secret police 1917–22, forerunner of the GPU."
+  },
+  "非常委員會": {
+   "en": "the Extraordinary Commission",
+   "pinyin": "Fēicháng Wěyuánhuì",
+   "status": "decided",
+   "note": "The source’s rendering of the Cheka (ВЧК); paired with the transliteration 切卡. Rendered by its standard English name."
+  },
+  "紅色保衛隊": {
+   "en": "the Red Defense Corps",
+   "pinyin": "Hóngsè Bǎowèiduì",
+   "status": "provisional",
+   "note": "The source’s name for a pre-revolutionary Bolshevik protection body it makes the Cheka’s precursor; the identification is the book’s and loose (Red Guards proper date to 1917). Romanization mine."
+  },
+  "紅軍": {
+   "en": "the Red Army",
+   "pinyin": "Hóngjūn",
+   "status": "attested",
+   "note": "The Soviet Red Army, from which GPU troops were partly drawn. Standard English form."
+  },
+  "國民黨": {
+   "en": "the Nationalist Party",
+   "pinyin": "Guómíndǎng",
+   "status": "attested",
+   "note": "The Kuomintang (KMT); the CCP’s adversary, whose intelligence service the book describes the CCP penetrating. Standard English form."
   }
  },
  "terms": {
@@ -572,6 +638,30 @@
    "pinyin": "guanwang",
    "status": "provisional",
    "note": "A medium's calling-up of a dead person's soul. Rendering mine."
+  },
+  "敏捷飛": {
+   "en": "Minjie Fei",
+   "pinyin": "Mǐnjié Fēi",
+   "status": "provisional",
+   "note": "A daily CCP intelligence bulletin named in the source, literally “the Swift Flyer.” Scan-verified but not otherwise attested; romanization and gloss mine."
+  },
+  "信誼代辦所": {
+   "en": "the Xinyi agency",
+   "pinyin": "Xìnyí Dàibànsuǒ",
+   "status": "provisional",
+   "note": "A CCP front commission-agency; <i>Xinyi</i> (“good faith”) taken as its name. Romanization mine."
+  },
+  "幹部派": {
+   "en": "the cadre faction",
+   "pinyin": "Gànbùpài",
+   "status": "decided",
+   "note": "The source’s term for Stalin’s Party apparatus, set against Trotsky’s Opposition. Rendered literally."
+  },
+  "流氓運動": {
+   "en": "hoodlum work",
+   "pinyin": "Liúmáng yùndòng",
+   "status": "decided",
+   "note": "Organizing the lumpen underworld (toughs, gangsters, drifters) for secret-service ends. Rendered to match the manual’s register."
   }
  }
 }

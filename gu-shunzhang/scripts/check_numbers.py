@@ -95,6 +95,11 @@ NOISE = [
     # ORDERING: 千萬/萬萬 must precede the bare 萬X patterns, or r"萬不可"
     # eats the 萬 out of 千萬不可 and orphans a 千 that reads as 1000.
     r"千萬", r"萬萬", r"萬不得已", r"萬不可", r"萬一", r"萬分",
+    # ch7 §1-3 (B09). 二則/三則 ("for a second/third thing" — enumerators, not
+    # counts). 十幾 ("ten-odd" = more than ten, indefinite; traditional form of
+    # the already-listed 十几). 萬計 ("numbering in the tens of thousands" —
+    # indefinite idiom 以萬計, not a quantity 10000).
+    r"二則", r"三則", r"十幾", r"萬計",
     # ch5: measure-word / fixed-term numerals that are not quantities.
     # 二房東 (a sub-landlord), 五倍子 (gallnut, a plant name), 五香 (five-spice,
     # a seasoning), 四週 (all around, = 四周 already listed but written 週 here).

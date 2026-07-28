@@ -717,3 +717,78 @@ remains withheld**, marked in place by an editorial bracket; footnote (formerly 
   illustrate that a subject wakes when commanded against his will. Rendered plainly.
 - **"Austrian psychiatrist" who "first created hypnotism"** is almost certainly a garbled
   reference to Mesmer (Austrian, animal magnetism); footnoted as uncorroborated.
+
+---
+
+## B09 = Chapter 7 §1-3 (特務常識 / General Knowledge for Secret-Service Work) — DONE, QA-green
+
+**Scope:** ch07 §1-3, unit ids `ch07s01`–`ch07s03`. **PDF 220-257 = printed folios 178-205**
+(38 PDF pages). This is a NEW chapter: `out/ch07_reading.md` created fresh with an H2
+`## Chapter 7. General Knowledge for Secret-Service Work` and three ordered `### Section`
+headings. `notes.json` `ch07` **+26 (147-172)**; **+20 glossary rows**; **+6 figures**.
+`out/gushunzhang.epub` now carries **7 of 8 chapters, 172 notes, 13 spine files, 16 figures**;
+`qa_epub.py` PASSES. Chapter 8 still shows in the TOC as pending; ch7 §4 (B10) is pending.
+
+- §1 社會化問題 (Blending Into Society) — folios 178-185 (opener PDF 220 = folio 一七八, verified).
+- §2 C.P.特務工作 (CP Secret-Service Work) — folios 185-194 (opener PDF 227 = folio 一八五).
+- §3 蘇聯特務工作 (Soviet Secret-Service Work) — folios 194-205 (opener PDF 246 = folio 一九四).
+
+### Offset drift, verified page by page
+Offset is **pdf−42 at folio 178** and holds through folio 186 (PDF 228). **Ten unpaginated
+plate pages then intervene** — five full-page hand-drawn org charts on the RECTOS PDF
+229/231/233/235/237, each with a BLANK verso (PDF 230/232/234/236/238) — after which body
+text resumes at **PDF 239 = folio 一八七 (187)**, i.e. offset jumps to **pdf−52**. Folios
+187-205 then run continuously to PDF 257. This ten-page plate insert is exactly the kind of
+drift `book.json` warns about; every folio in the batch was read off the scan.
+
+### Figures — the ink-density detector missed all six (they are LINE ART)
+`find_figures.py 220 257` found only one spurious small blob (p231) and no real plates; every
+figure was found by eye and cropped by hand (`data/figs/ch07-f1..f6.png`):
+- **f1** (PDF 229) — the whole Central Special Branch chart, "Spring 1931": Politburo →
+  Special-Service Committee (**Xiang Zhongfa, Zhou Enlai, Gu Shunzhang**, printed in the box) →
+  HQ → four sections + technical group + regional stations. Historically major.
+- **f2-f5** (PDF 231/233/235/237) — the four sections in detail: 1st 總務 (General Affairs),
+  2nd 偵探 (Detection), 3rd 保護 (Protection = the action/紅隊 squad), 4th 交通 (Communications).
+- **f6** (PDF 243) — the three-layer concentric membership diagram (loyal members / lower
+  cadres + sympathizers / bought-and-used elements). A CP-specific sibling of the ch02 diagram.
+Section-chief personal names in f2-f5 are largely codenames and are left untranscribed
+(no invented identifications); captions describe structure from the legible printed labels.
+
+### The eight checks
+1. **Dual-engine OCR diff could not run** — PaddleOCR does not install here. Substituted the
+   whole-batch eye-read: all 38 PDF pages read off the 300 dpi scan (tesseract `chi_tra_vert`
+   `--psm 5`, `OMP_THREAD_LIMIT=1`, `pgrep -c tesseract` = 0 after; the exit-1 was only
+   `pgrep` returning 0, not an OCR failure). Standing substitute until Paddle installs.
+2. **Blind double-translation** — the argumentative/history passages (§2-I development, §2-VI
+   the defection, §3-I GPU origins + Stalin quote) independently re-rendered and compared; no
+   material divergence.
+3. **Back-translation** — omission spot-check on the same passages; no omissions.
+4. **Invariant checks — PASS.** `check_numbers.py` **0 unresolved (91 pairs)**;
+   `check_structure.py --pairs` parity **91/91 OK**. NOISE extended: 二則, 三則, 十幾, 萬計
+   (enumerators / indefinite "tens of thousands", not quantities).
+5. **Term ledger** — glossary +20 (people: Stalin, Trotsky, Lenin, Zhou Enlai, Xiang Zhongfa,
+   Qian Zhuangfei; orgs: 切卡 the Cheka, 非常委員會, 紅色保衛隊, 紅軍, 國民黨; terms: 敏捷飛,
+   信誼代辦所, 幹部派, 流氓運動). 中央特科 already present. 格伯武/格伯烏 already "the GPU".
+6. **Annotate not smooth** — 26 footnotes; every low-confidence span (敏捷飛, 信誼) and every
+   specialist/historical reference footnoted, not laundered into fluent prose.
+7. **External scholarship** — the Central Special Branch (Teke) four-section structure and its
+   Nov-1927 founding under Zhou/Xiang/Gu (Wikipedia "Central Special Branch"); the Cheka→GPU
+   (Feb 1922)→OGPU (Nov 1923) lineage (Wikipedia; MSU Seventeen Moments archive); Hailufeng
+   1927-28; the 1927 KMT-CCP split; Qian Zhuangfei's penetration of KMT intelligence — all
+   checked and footnoted as corroborated. Two claims flagged as OVERSTATED/UNCORROBORATED: the
+   GPU chief "must be a Politburo member" (Menzhinsky was not) and the "arrest anyone but Lenin"
+   rule. NEVER sourced Grok/Grokipedia.
+8. **List recount against the pages — PASS.** §1-III psychology a-d + points 2-6; §3-II divisions
+   a-f; §3-III methods 1-9; §3-III-9 aims a-e; the four/six-section counts on the charts — all
+   item counts match the source.
+
+### Flagged for Winston's read-through
+- **§2-VI narrates the author's own betrayal in the third person.** "A most unfortunate
+  incident" of 民國二十年 (1931) that "bankrupted" CP secret-service work is Gu Shunzhang's own
+  April-1931 defection; footnoted, cross-referenced to the ch5 note on the same disaster.
+- **敏捷飛 ("Minjie Fei," a daily CP intelligence bulletin)** and **信誼代辦所 ("Xinyi" front
+  agency)** — readings scan-verified but names not otherwise attested; rendered provisionally.
+- **格伯武 vs 格伯烏:** ch7 §2 (CP) writes 格伯武, §3 (Soviet) writes 格伯烏; both = ГПУ, both
+  already in glossary as "the GPU" [attested]. Rendered "the GPU" throughout; the body never
+  forced a hanzi headword choice, so both entries stand.
+- The **errata figure** (蘇聯格伯烏與軍隊的關係圖, printed 206) belongs to §4 = B10, not touched here.

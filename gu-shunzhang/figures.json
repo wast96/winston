@@ -63,5 +63,43 @@
    "alt": "Profile drawings of nose, philtrum, and lip types, with a labeled ear.",
    "caption": "Nose, philtrum, lips, and a labeled ear, from the source: noses short (鼻子短), long (鼻子長), small (鼻子小), large (鼻子大), aquiline (金勾鼻子), and curved (曲鼻子); philtrum short (人中短) or long (人中長), with a long upper lip (上唇長) or lower lip (下唇長); thin (薄嘴唇) and thick (厚嘴唇) lips; and an ear marked with its rim and parts (上耳輪／前耳輪／耳殼／耳垂). The labels are the source's; the caption is the translator's."
   }
+ ],
+ "ch07": [
+  {
+   "file": "ch07-f1.png",
+   "before": "The organization is shown in the accompanying diagrams",
+   "alt": "Hand-drawn organizational chart headed “1931. Spring.” A box “E.C.–C.C.P. Politbureau / 中共中央政治局” connects down to a box 特務會議 naming 向忠發, 周恩來, 顧順章; below, a dark disc 總部 / 辦公處 links to four circles (4th Communications, 3rd Protection, 2nd Detection, 1st General Affairs), a box 技術設計研究班, and three circles Guangzhou–Hong Kong, Hankou, Manchuria.",
+   "caption": "From the source: the author’s chart of the CCP secret service, labeled “Spring 1931.” From the Party Politburo (“E.C.–C.C.P. Politbureau,” 中共中央政治局) through the Special-Service Committee — named as Xiang Zhongfa, Zhou Enlai, and Gu Shunzhang — down to the Headquarters, its four sections (1st General Affairs, 2nd Detection, 3rd Protection, 4th Communications), a technical design-and-research group, and regional stations at Guangzhou–Hong Kong, Hankou, and Manchuria. Redrawn by the author from memory; the handwritten annotations are his."
+  },
+  {
+   "file": "ch07-f2.png",
+   "before": "The organization is shown in the accompanying diagrams",
+   "alt": "Hand-drawn chart: a central circle 第一科 總務 over four circles 營救, 採辦, 佈置, 商業, each with handwritten sub-items, and a caption line beginning 說明.",
+   "caption": "From the source: the First Section (第一科 總務, General Affairs) and its four branches — 營救 (relief and rescue), 採辦 (procurement), 佈置 (arrangements for meetings), and 商業 (commercial fronts). The note states that the section in fact had only six or seven people, so its chief “played a one-man show.”"
+  },
+  {
+   "file": "ch07-f3.png",
+   "before": "The organization is shown in the accompanying diagrams",
+   "alt": "Dense hand-drawn web of labeled circles radiating from a central circle 第二科 偵探.",
+   "caption": "From the source: the Second Section (第二科 偵探, Detection). A web of circles maps the intelligence network under the section — its subordinate posts and agents, with stations shown at Shanghai, Nanjing, Hong Kong, and Manchuria. The personal names in the chart are largely codenames and are left untranscribed here."
+  },
+  {
+   "file": "ch07-f4.png",
+   "before": "The organization is shown in the accompanying diagrams",
+   "alt": "Hand-drawn tree: a circle 第三科 保護 over two 隊 (squad) circles, each branching into 組 (group) circles and smaller units.",
+   "caption": "From the source: the Third Section (第三科 保護, Protection). A note gives the section’s task as protecting important persons and disciplining defectors, and states it had only nine members. Below the section head, two squads (隊) branch into groups (組) and sub-units."
+  },
+  {
+   "file": "ch07-f5.png",
+   "before": "The organization is shown in the accompanying diagrams",
+   "alt": "Hand-drawn chart: a central circle 第四科 交通 with satellite circles for a wireless workshop, a materials store, transport and vehicles, an operators’ school, and four numbered 電台 (radio-station) circles.",
+   "caption": "From the source: the Fourth Section (第四科 交通, Communications). Around the section head are a wireless-manufacturing shop (無線電製造所), a materials store, a transport company, motor-cars and a launch, and an operators’ training school; below run four radio stations (電台) with links to Hong Kong, Tianjin, and Hankou."
+  },
+  {
+   "file": "ch07-f6.png",
+   "before": "divides its personnel into three layers",
+   "alt": "Three concentric circles labeled, from the center outward, 黨的忠實份子; 黨的下層幹部及表同情者; 收買及利用份子.",
+   "caption": "From the source: the three concentric layers into which CP secret-service work sorts its personnel — at the core the Party’s loyal members (黨的忠實份子), around them the Party’s lower cadres and sympathizers (黨的下層幹部及表同情者), and outermost the bought-over and utilized elements (收買及利用份子). Compare the differently-labeled three-layer diagram in Chapter 2."
+  }
  ]
 }
