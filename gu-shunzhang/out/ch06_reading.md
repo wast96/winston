@@ -573,3 +573,339 @@ Say a man is suspect, yet we cannot fix for certain how the case stands with him
 8. A subordinate speaking to a superior must be wholly truthful — one is one and two is two — and practice no deceit or concealment.
 
 In sum, in talking with a fellow worker one must proceed in a spirit of affection, overcoming his errors by reason — not compelling his submission by feeling or by force.
+
+### Section 7. Secret Signals and Codes
+
+We all know that the various lower-order organizations of society, and even the ordinary shops, each keep a secret speech of their own — what common talk calls "cant." Among the trading houses and the guilds, the names and prices of the various goods are spoken of in a way an outsider cannot easily follow; the pawnshops, too, and the dealers in antiques, have the cant of their trade; and as for the Green and Red Gangs, the robbers, the pickpockets, and the sharpers, the cant they lay down is stricter and more secret still — in daily use among them, yet wholly closed to any outsider. In secret-service work, for the sake of secrecy, whenever comrades talk together, send telegrams, or exchange letters — wherever confidentiality is wanted — code should take the place of plain words, to the advantage of the work. Codes fall into three classes.
+
+#### I. Secret-Service Cant
+
+The first thing to make plain is that we cannot lay down a single, universal cant for every secret-service worker to use alike. Were we to do so, this so-called secret-service cant would already have shed its secret character — would that not be as good as a joke? Here I can only set out a few examples for fellow workers to consult; in actual use they must still fix their own terms among themselves, so that no outsider can learn them, and must renew the terms every three months or half-year, lest in time others see through them. Some examples follow.
+
+A Communist has been captured — "a friend has been asked over."
+
+The case has been decided — "the contract is settled."
+
+A Communist office — "a friend's company."
+
+Gendarmerie Command — "the Central Hospital."
+
+Pistol — "cigarettes."
+
+Already interrogated — "talked it over with him."
+
+A term of three years — "a valid period of three years."
+
+Already handed over — "has already gone by car."
+
+Come to the Police Headquarters — "come to the Confucius Temple."
+
+One of our own working comrades — "a member of this firm's staff."
+
+Cartridges — "matches."
+
+One caution here: it does not matter what words are used for cant — any will serve — but they must be kept consistent and never muddled, and they must be commonplace rather than peculiar. For one's own people, too, code-names should be fixed by which to call them.
+
+#### II. Hand Signals
+
+When the need arises — setting out to make an arrest, say, or to shadow someone — speaking aloud to one's own people may draw notice and spoil the work, and hand signals must take the place of speech. Such signals are the equivalent of flag-signaling in an army. Some examples follow.
+
+Patting one's hat — "split up."
+
+Taking out a watch and glancing at it — "time to go."
+
+Smoothing the hair with a hand — "say nothing."
+
+Rubbing with a handkerchief — "assemble."
+
+To make the thing easy to grasp, take another everyday matter for an illustration. Suppose two men, A and B, are playing mahjong in collusion. A taps a tile on the table, and B knows he wants the Red Dragon; A rubs his own face with a hand, and B knows he wants the White Dragon; or A parts his tiles to leave a gap in the middle, and B knows he wants the Green Dragon. Again, if A wants the one of Bamboo, he takes a cigarette and blows on it; if he wants the one of Circles, he takes a copper coin and toys with it; and if he wants the one of Characters, he takes a finger and stirs it on the table.
+
+#### III. The Use of Letters and Telegraph Codes
+
+On the use of letters and telegraph codes much has already been said; here, for reference, is one further example — a military cipher wheel. The plate and its explanation follow.
+
+Instruction sheet for the military cipher wheel. Note: the make-up of this wheel is simple, yet it yields a great many permutations and lends itself well to secret communication. The method: cut along the black rim of the second ring inside the figure, paste the two parts — the larger and the smaller — each onto its own disc of stiff card, then lay the smaller over the larger so as to restore the original figure, now divided into an upper and a lower layer; fix the two through the center point with a single drawing-pin, so that they may be turned round and round. In use, bring the arrow at the center of the wheel to bear directly on the marks agreed by the two parties, and then read off.
+
+The first ring — Heaven, Earth, Sun, Moon, and so on — holds the code-names. The second ring — 1, 2, 3, 4, and so on — is the index of substitution. The third ring, 1 to 30, is the time-index. The fourth and fifth rings, in cycles of ten characters repeating, hold the cipher proper; these figures may be changed at any time, and further indices added. The sixth ring holds the military terms.
+
+Method (1), converting military terms. Taking the arrow's direction as the standard, in the starting position the arrow (the character "Heaven") is set against the straight column 1, 1, 3, 7, "attack." For example, "the front," "the enemy," "defeat," "advance," "charge" may be rendered as the five characters wei, chen, yue, shan, geng. Suppose the watchword is changed for the moment and the character "shan" (mountain) is made the key: then the 1 of the third ring is brought against "shan," and reading downward, the same command now becomes hai, shen, mu, jia, zi. (Note: the characters jia, yi, bing, ding, and the rest may be filled in at will.)
+
+Method (2), as above. If the message is sent from a distance — say, dispatched on some 25th of the month — the date is taken as the variable. For a message sent on the 25th, with the command as above, the arrow is first set against the 25 in the third ring; and with the arrow so aligned, the command above turns instead into di, xu, yi, bing, yin. The thirty positions stand for the changes of the thirty days of the month; and the changes over the twenty-four hours within a single day are handled in the very same way.
+
+Method (3), the cipher. Take the plain code 3104, 6875, 9062: read off the fourth ring from the starting position, and it becomes 5396, 1027, 4915. Should the fifth ring be specified instead, the same telegraph groups may be turned into 1784, 2053, 9826. The day-and-hour method of variation applies here just as before, and so on by the same pattern.
+
+### Section 8. Observation Skills
+
+#### I. The Function of Observation Skills in Secret-Service Work
+
+Let us set aside the standpoint of secret-service work for a moment and speak from the standpoint of society at large. If we lack the power to know men — taking a loyal man for a sly one and casting him off, taking a sly man for a loyal one and befriending him — we are bound to suffer for it: at the least it brings a passing pain of spirit and of pocket; at the worst it wrecks the work of a lifetime. Instances of this are many, plain to anyone with a little common sense of the world, and there is no need to prove the point with further examples.
+
+From the standpoint of secret-service work, the skill of observation matters more still. Within our own ranks first: if a comrade's thinking, temperament, and ability — everything about him — is not clearly observed, misunderstanding easily arises, and when work is assigned it becomes impossible to let "each man give his full talent, and each talent its full use." As for those outside: if we have no sure grasp of observation, a man who truly sympathizes with us we may take for a spy and arrest, while a man who is truly a spy or an enemy's counter-agent we may take for a loyal comrade and give high trust. What future, then, could the work have? In short, cut secret-service work off from the skill of observation, and at every turn one meets the sign that reads "no road this way." The foregoing are only a few simple examples by way of illustration.
+
+Among secret-service personnel — and above all the responsible comrades at the highest level — there must be full study and training in the skill of observation. Every working comrade should be observed on the ground of the organization, of the interest of the work, and of the standpoint of the cause, upon objective facts, and given work according to his ability. Do the reverse — act wholly on feeling, on the passing joys and angers of one man's mood — and the result is sure to be that the base man prospers and the man of worth withdraws. This harms not only the growth of the work but the very future of Party and state; and is not the offense of it worse even than that of "holding a post and eating the bread of idleness"?
+
+#### II. Some Points to Note in Observing
+
+On the art of observing men, Confucius long ago had his insight: "Look at the means a man employs; observe the springs of his conduct; examine where he finds his rest." But that principle is, after all, a shade too abstract; from the standpoint of secret-service work, applying a scientific analysis, I set out concrete points as follows.
+
+1. In observing men one must hold a correct viewpoint. Subjectively, the observer must first stand on a correct viewpoint — perfectly fair and unselfish, without a trace of prejudice or bias. He must observe from the ground of the organization, of the interest of the work, and of the standpoint of the cause, and must never take his own feeling and his own advantage as the center from which he sets out.
+
+2. In observing one must attend to the man's past. A person's present condition always has its background in his history; to ignore his past and look only at his present circumstances is to know the that and not the why. This is what Confucius meant by "observe the springs of his conduct."
+
+3. In observing one must attend to the man's manner of life and his tastes. We cannot settle our verdict on a single conversation or on the face he happens to show; we must attend to his daily life and his tastes before passing final judgment. This is what Confucius meant by "examine where he finds his rest."
+
+4. In observing one must attend to the man's surroundings and to the sort of people he keeps close. As the proverb well says, "If you do not know the man, look at his friends"; and again, "People gather by their kind, and things divide by their sort." So in observing someone we may also look at what his friends are like, and take that for a corroboration. At the same time, no one can wholly escape the influence of his surroundings; his family, his school, his whole environment all furnish us the best of references.
+
+5. In observing one must attend to how he deals with people and handles affairs, for from this his character shows itself, as the proverb has it: "To know a friend's heart, watch how the friend treats others."
+
+#### III. Observation of Outward Appearance
+
+1. Observation on physiological grounds, as follows.
+
+a. Concerning the eyes.
+
+(1) In talking with him, one whose eyeballs are very active is for the most part lively — this is what is meant by "cleverness comes out through the two eyes."
+
+(2) One with large eyes who looks straight ahead and does not lightly glance sidelong is mostly upright and kindly.
+
+(3) One whose eye-sockets protrude, whose eyeballs are set back and low, and whose gaze shoots out on every side surely has authority and ability.
+
+(4) One with crooked eyes and the wrinkles at the eye-corners turning upward is mostly a sinister, small-minded man.
+
+(5) A woman whose lashes are thick and black and whose glance ripples like water is sure to be very forward and flirtatious.
+
+b. Concerning complexion.
+
+(1) One whose face is greenish, or green tinged with white, and whose smile always carries a fierce, cunning, self-satisfied look — such a person is uneven in temper, narrow in capacity, and greatly given to jealousy; he is no one to work alongside.
+
+(2) A fair complexion with a gentle smile — generally a scholar.
+
+(3) A clean, pale complexion with an engaging smile — generally a merchant.
+
+(4) A dark-yellow complexion with a brief, pinched smile — generally a coolie or a laborer.
+
+(5) A deep, dark complexion with a faint smile that makes no sound — generally a bureaucrat or a man of authority.
+
+(6) A pale-yellow complexion with a natural manner of laughing and an even voice — mostly a person of peaceful temper.
+
+The rest — the carefree, the melancholy and sickly, those with some craving, and so on — can be told at a glance from the complexion.
+
+c. Concerning the Five Features and their placing.
+
+(1) The five features correct and large, well-proportioned in their placing, fully developed — mostly sound in body and mind, and capable of achievement.
+
+(2) The five features irregular, unevenly placed, imperfectly developed — sure to have some defect of body or mind.
+
+d. Concerning the head.
+
+(1) One whose forehead is very large and whose crown is very high is mostly rich in thought, and may become a scientist.
+
+(2) One whose back-brain is large is mostly strong in alertness, and may become a statesman or a detective.
+
+(3) One whose cerebellum is large — the occipital bone standing out behind — is mostly strong in practical action; the ambitious and the hard-line for the most part belong to this type.
+
+2. Observation on psychological grounds.
+
+a. Concerning dress.
+
+(1) In one's student days, a man who ordinarily pays little heed to adornment and then all at once turns up in a Western suit and leather shoes, or in fine clothes with a powdered face — ten times out of ten it is on account of a love affair. So when we see a student suddenly attending to his grooming, we may know that a sexual need has arisen in him, or that he already has someone he loves.
+
+(2) Dress neat and colors plain — we may know him for a man who gets things done, seasoned and of some standing.
+
+(3) One in outlandish dress — at a glance we may know him for someone very green and very frivolous.
+
+(4) From a person's dress, too, one can read his thinking. A modern woman, for instance, surely dislikes wearing plain clothes; and so from a person's dress one may read his mind. A woman of much learning and plain habits will, likewise, surely dislike wearing the gaudy, garish clothes of the modern fashion.
+
+b. Concerning conduct. A person's conduct springs from his inner heart and his thoughts. Watching a person's conduct, we can see all of his inner life. Having watched a man's every move, we can fix the level of his learning, and can also read his calling and the whole of his daily life. A tailor's walk, for instance, we know at a glance; a country schoolmaster's walk, too, we know the moment we see it.
+
+(1) A man of soldier's background — his stride is sure to be very even, and in speaking to others he often carries the stance of "attention."
+
+(2) When we see a person walking fast and tense, we may fix it that he certainly has some errand to go on.
+
+(3) When we see a person strolling slow and easy, we may fix it that his mind is calm and at rest.
+
+(4) When we see a person pacing a room with bowed head, hurrying round and round it, we may fix it that some worry weighs on him which is not easily resolved.
+
+(5) If a person's conduct is without any regularity, it comes from nowhere but one of three sources — romanticism, frivolity, or immaturity.
+
+c. Concerning speech, manner, and expression.
+
+(1) In talking with a man, if his talk is well-ordered and well-reasoned, and he is composed and unhurried, we know for certain that his temper is very mild, and know at the same time that he is a careful man.
+
+(2) One who speaks in a rush, his words out of all order, is sure to be of a very hot temper.
+
+(3) An honest and forceful man speaks with decision — one is one, and two is two.
+
+(4) A cunning man's talk stays wide of the mark — he can make one count for two, and two for one.
+
+(5) One who has usually treated you ill and now all at once grows warm toward you — be on your guard: either he wants something of you, or he means to do you harm.
+
+(6) One whose speech is solid and decided is surely a capable man.
+
+#### IV. Observation of Thought
+
+1. To observe what a man's thinking is, do not question him on theory alone; rather, set before him all sorts of practical problems and matters of daily life and ask him to resolve them. In his answers we can read his true thinking, and read his character as well.
+
+2. In his daily life and his tastes, too, we can prove out what his thinking and his character are.
+
+3. A man whose whole being rests on selfishness and self-interest, seeking only to keep himself safe, unwilling to trouble over others' affairs, wholly heedless of the injustices of society, not so much as venturing a word of criticism — such a man has not an ounce of manly spirit. Not only can he never serve as a soldier on the revolutionary front; he does not even qualify as a loyal friend, for when you are in trouble he will not merely fail to help you but will fling stones on you as you go down the well.
+
+4. One whose mouth cries without cease "be one of the common people," while his daily life is aristocratic through and through — we may know that his heart is still full of thoughts of rising in office and growing rich.
+
+5. One whose mouth may keep crying "be honest and serve the public, be no corrupt official," yet whose pleasures run to mahjong, to whoring, and to going about the amusement halls with his concubines — such a man will in plain fact never be honest.
+
+#### V. Observation of Ability
+
+First, see whether his own daily life is orderly; second, whether he keeps his household by rule; third, how he manages the affairs of a body of men. Beyond these, the following points are to be watched.
+
+1. Is his mind clear? Is his analysis of a matter orderly? In a given affair, can he keep the whole in view?
+
+2. Can he attend to the small and fine points?
+
+3. What is his nerve? In the face of danger, is he brave?
+
+4. What is his will? After failing time and again, does he lose heart?
+
+5. What is his spirit of sacrifice? Those who cling to their position, and those who prize a single coin as their life, can never do great things.
+
+6. What are his vigor and his decision? Those who shirk when a matter comes and waver between two courses can never do great things.
+
+7. Is he sound in body and mind? Is he alert when a matter comes? Those not strong of body and not quick in action can never bear a grave responsibility.
+
+Once we have observed a comrade, we should offer our criticism of him and come to a correct conclusion, and on the strength of that conclusion give him fitting work; yet in the actual work to come we must still examine him from time to time, correct him, and teach him, making use of his strengths and steering clear of his weaknesses.
+
+### Section 9. Physiognomy
+
+#### I. Why We Study the Art of Reading Features
+
+We study the art of reading features not to set up as fortune-tellers taking money to read a face, but from the standpoint of secret-service work, for the convenience of the work itself. Once, for instance, we have clearly read our own working comrades, we may assign them tasks without anything going wrong. Or, observing a stranger, we take his features and study and analyze them a little, and can roughly know his temperament and cast of mind; and having such an understanding, we know how our approach to him should be decided. When we make friends as private persons, too, there is a need to choose beforehand, and for that we must understand the workings of his mind. We should treat mind-and-temperament and outward features as the two sides of a single thing. The study of feature-reading has, therefore, a real value — above all for those who bear the burden of secret-service work, who ought to make a study of this knowledge.
+
+#### II. Observation by the Bodily Constitution
+
+By the signs of physiological anatomy, the innate constitution of mankind falls into four different types; and by "innate" is meant what is wholly determined by heredity and by the chemical stimulus a person receives during the embryonic stage.
+
+1. The nervous type. Body: short and small, or thin and long; muscle, joint, and hair little developed; the face greenish-pale; the lungs small; bodily strength weak. Character: melancholy, easily moved, quick in thought, lively in feeling and quick to change, weak in will. Ability: gifted in reflection, in letters, and in the fine arts, but short on force of character.
+
+2. The bilious type. Body: skin and hair a deep black; the blood-vessels large; the muscles strong; the body solid; the lungs large; the shoulders broad; the hands and feet thick and large. Character: firm and resolute in temper, with nerve and force, fond of vigorous action and of daring, creative, frank in conduct, strong in individuality. Ability: in practical work, strong and able to bear hardship, thorough and quick, and given to righting wrongs.
+
+3. The sanguine type. Body: fleshy and fat; the hair fine and soft; the complexion red-and-white; mostly earning the name of "pretty-boy," and sometimes with cheeks that show from behind the head. Character: lively, fluent in speech, clever and quick-witted, good at scheming for his own advantage, fond of amusement, inclined to the selfishness and pleasure-seeking of individualism, and without lofty ideas. Ability: undeveloped in thought, without firm conviction or nerve, good at speculation, at compromise, and at turning coat, and specially gifted at trade.
+
+4. The lymphatic type. Body: fat; the complexion yellowish; the eyes without luster; the slowest in movement; the neck short and the belly large; the whole outline for the most part round; the hands and feet comparatively small. Character: dull in temper, careless, content to muddle through, weak in individuality, centered on his private life, without any great desire. Ability: undeveloped in thought, soft and incapable, lazy, highly mechanical, and wooden in whatever he does.
+
+#### III. Observation by the Five Features
+
+When the Five Features are fitly set, even in size and in place, the temperament is wholly fine. Taking them one by one:
+
+Eye. In reading the features, the important thing lies in the eyes. A person of upright and generous mind has bright eyes, mostly looking straight and wide open. A person of venomous temper has evil eyes. One clever with tricks, or minded to steal, has eyes that keep darting left and right. One who shows much white of the eye and looks upward has weak nerves. One whose two eyes are lusterless and dim lacks internal secretion and bears a grave sign of illness. One whose gaze is askew and forever shifting is a lewd and frivolous person. One eye big and one eye small — a deceitful person. Small eyes, small capacity; the large-eyed have great daring. Eyes set in a three-cornered shape — mostly cruel and vicious. One who looks at others with a cold eye hides a knife within his smile. Eyes habitually cast downward — much given to intrigue.
+
+Nose. A long, straight nose, an upright person; a large nose, a person of strong feeling and without guile; a hooked nose, a sinister and wicked one; a thin, spare nose, one much given to recklessness and with a streak of cruelty. A sunken bridge — a weak will with a sign of illness. A crooked nose — wanting in sense and reason. Small nostrils — weak lungs.
+
+Mouth. Thin lips make speech easy, but one who talks to excess tends to frivolity, and the lips breed gossip. Thick-lipped people are mostly honest, though with a touch of dullness, and strong in feeling. A large, fleshy mouth — fond of gluttony. A square, large mouth — a strong will and high desire. Mouth-corners curving upward — much aesthetic feeling. A mouth drooping downward — a soft temper, no great ambition, mostly pessimistic and solitary. A small mouth — a lively temper but no daring. A mouth that hangs open showing the teeth — mostly a mark of nervous exhaustion. One with a protruding "dog-tooth" — seeks nothing but his own advantage.
+
+Ear. Large ears betoken a good childhood. Small ears are the result of much sickness in early years, for when a child, in the fetal and infant stages, suffers all round from poor hereditary constitution and poor nourishment, this often tells on the ear and leaves it underdeveloped. So from the state of the ear alone one can roughly know what the family life of the childhood years was like. The forehead and the brain, too, are subject to the same influences. A rich man's children have thick, full ear-rims; a poor man's children, ill-fed and often sick, are sure to have thin, small ears, dark in color and irregular in shape.
+
+Forehead. The breadth and the height of the forehead, like the ear, are shaped by the life of childhood; its bearing on temperament is slight, but on the development and the special traits of the intellect it bears very greatly. Simply put, a broad forehead means a clever man; a high forehead with many prominent angles means sound brain-power and deep thought; and because the several parts of the fore-brain and the hind-brain develop unequally, a man comes to have his own distinct traits of temperament and of intellect.
+
+#### IV. Observation by Conduct
+
+From a man's bearing and the movements of his body and four limbs, one can read his substance. One whose action is grave, for instance, and whose upper body stays fixed as he walks, is deep and resolute in temper, bold, and disciplined; failing that — hands swaying, body swaying, steps in disorder — the temper is soft and boastful. One who walks with his eyes straight ahead is upright and open-hearted. One who walks with head bowed, swaying to left and right, is mostly feeble in aim, passive and unable. An even, orderly stride mostly comes of military training, or of such surroundings. A stride light and disordered, keeping to no straight track — the man is sure to be flighty and full of cunning. Head high and air proud — mostly of the gentry-and-magnate sort. Glancing to left and right — a sign of treachery, or else a thief. Fussy, long-winded movements — the man never had any great ambition. One who meets others with clever words and an ingratiating face, all smiles of brow and feature, mostly flatters those above him, bullies those below, and boasts to his fellows. One overly humble and deferential is mostly false; one used to whispering in the ear is mostly crafty and good at sponging an advantage. One who talks with head bowed yet rolls his eyes up to watch you is sure to be selfish and harsh to others. One who tells lies is forever stealing sidelong glances.
+
+#### V. Observation by Social Life
+
+The aristocrat has his aristocratic ways; the bearing of a rich merchant or a great man is of course unlike that of a petty clerk, or of the threadbare pedant who, out of work, prepares each day to live by borrowing from his friends. So too there is a wide difference between one who lives off his family, one who forages his own bread, and one just come green into the world. Material life acts directly on every part of the physiology, the very spirit and mind included; and at one look at another's complexion, his lines, and his bearing, it is no hard thing to know what sort of society and what sort of calling a man belongs to, and what his income is. Set a prostitute beside ordinary women, and the face alone shows several distinct marks — marks it is very hard to counterfeit on the sudden.
+
+Each person's features carry many marks; in build, in bearing, and in the arrangement of the Five Features no two persons, or more, are ever absolutely alike — even twins differ in small things within a broad sameness. Feature-reading, then, is simply the method of ordering these points of difference into a system.
+
+### Section 10. Hypnotism
+
+#### I. The Principle of Hypnotism
+
+In the old-style cities one may often see the so-called Taoist arts — the planchette (扶乩), the mirror of light (圓光), the summoning of the dead (關亡), the calling-down of the goddess Ma Gu (請麻姑), and the like. These are in fact but another form of the hypnotic method; only, in a superstitious society, hypnotism cannot help taking on a superstitious color — yet in content and in principle it is wholly one with what the modern age calls hypnotism.
+
+The explanation of hypnotism: it is a method of drawing a person into a state of sleep by means of various procedures and mental suggestion. It uses no superstitious spell or rite, but rests wholly on scientific principle. The first to devise hypnotism was an Austrian psychiatrist, who began to apply scientific methods and instruments to lead a patient into a state of sleep and rouse his latent consciousness, so as to treat the root of his illness; and because of this, the method was then named "hypnotism." In truth the name is one-sided and narrow, resting on the outward look of the thing; for to produce the same phenomenon one need sometimes pass through no state of sleep at all, and success may be had in full waking. The true principle of hypnotism is a kind of electromagnetic induction of conscious activity: only when operator and subject concentrate their minds at once, and a mental link arises between them, up to the point where a resonance is set up, does it become possible.
+
+#### II. The Conditions for Hypnotism
+
+Hypnotism is not a thing that anyone can bring off with a casual try. Before practicing it one must have a cultivation of the spirit, strengthening the radiating power of the mind, so that only then can the subject be made to feel the working of that mental force. And the mental force must be not only strong but concentrated, brought wholly to bear on the subject alone; only then is there any possibility of setting up the resonance.
+
+The small bulb of an electric torch, for instance, is limited in the size of its light; to make some appointed spot shine bright, one must use a reflector to gather the halo of light onto a single angle — and the reason is the same here. Before the mind is concentrated, one must of course stop all stray thought and enter a state empty of thought and of imagining, near to the condition of an old monk sunk in meditative trance. Thus, once the mind bears upon some one matter, it can win an effect out of the ordinary. During the practice, by the ordinary way of hypnotism, a fit environment is needed — shutting out noise, harsh light, unpleasant sensation, and heat or cold in excess; that is, avoiding every harmful stimulus, so that the subject's mind can gather itself. But a hypnotist of rich experience can cut short much of the procedure and much of the time: he can swiftly seize the good chance of some one minute, or of a few seconds, and reach the hypnotic end.
+
+#### III. The Effects of Hypnotism
+
+The greatest direct use of hypnotism is in treating the morbid states of the nervous system and of conscious activity — neurasthenia, insomnia, nervous disorder, feeble consciousness, the sickness bred of thwarted love, melancholia, and the like. And because the working of the mind is closely bound up with the functions of the body, hypnotism can also treat heart disease, stomach disease, hemiplegia, neuralgia, disordered circulation of the blood, and so on.
+
+Hypnotism rests on the fact that the subject's nerve-center is passively brought under control. It can also at will make the subject fall into hallucination, into illusion, into a change of personality — as in the various known turns of hypnotic exhibition.
+
+For detective work hypnotism has its special uses: the "thousand-li eye" method, to spy out the circumstances of some matter; the "see-through" method, to pry into a sealed object; and special arts of suggestion, to draw the truth out of another, or a signature from him unresisting. There is also the so-called art of thought-transmission, by which, after two or more persons have practiced it to mastery, they may at will convey opinions to one another across a great distance — though this is no thing to be achieved in a short while.
+
+#### IV. The Method of Applying Hypnotism
+
+The ways of applying hypnotism are endlessly variable; under each single principle, dozens of methods and more may be spun out, all reaching the same end. The groundwork of the operating means comprises the following kinds.
+
+1. Guidance through the sight.
+
+2. Guidance through the hearing.
+
+3. Guidance through the touch — with verbal suggestion added.
+
+The ordinary, reliable beginner's method is the "white light-globe" hypnosis, helped out by fixed listening, by stroking, and the like, and success comes easily. As for the seasoned operator, he freely uses the modes of the single-shout hypnosis, of forced hypnosis, and of hypnosis at a distance.
+
+Of the content of learning all this there is no need to say much here. In sum, hypnotic practice has no fixed rule; it asks only that the operator's spirit be strong, able to use the setting of the moment and to work swiftly as the occasion serves, so as to win the highest effect. This depends, of course, on the subject's will, on the environment of the moment, and on the operator's means.
+
+#### V. The Relation of Hypnotism to the Bodily Constitution
+
+Each person's constitution differs. Classified, they are the following four kinds — only, not everyone belongs to some single pure constitution; the mixed kind is the more common, and because the mixed ingredients differ in their proportions, no two persons or more are ever absolutely alike in form or in temper.
+
+1. The nervous constitution. — Of middling or rather short and small stature, thin and weak, the face greenish-pale, the nerves well-developed, the senses keen (even to the pitch of over-sensitivity); the character brooding, much given to reflection, lively in feeling. Writers and artists are mostly of this constitution.
+
+2. The bilious constitution. — Of middling stature, neither fat nor thin, the skin dark, bodily strength great, the character deep-set and resolute, rich in activity, strong in self-confidence, upright and blunt. All who suit the practical-work sort are mostly of this constitution.
+
+3. The sanguine constitution. — The face round, or shaped like an almond, the whole body of a ruddy blood-color; the temper lively, quick to adapt, fluent in speech with a boastful streak. The social stars and the great talkers are mostly of this kind.
+
+4. The lymphatic constitution. — The body fat, thick, and large, the face yellowish; the temper honest but dull, movement slow, the senses blunt, much given to falling in with others; beyond his own living his desires run low; in doing things he is highly mechanical, and is fitted for the passive kind of technical work.
+
+This division of the four constitutions is made by the marks of the body, and it bears a fair relation to hypnotism. Note, too, that on the operator's side it is best to be of the bilious kind — such a one succeeds easily even in the learning — while the lymphatic is the hardest. On the subject's side, the nervous kind is the easiest to put under and readily reaches a deep hypnosis, but the effect cannot last long. A bilious man, if he himself trusts the operator's word, is easier even than the nervous, and truer in result; but should he have a mind set on resisting, he is harder than any other constitution. The lymphatic is too slow and dull: the inducing takes a longer time and does not easily reach deep hypnosis — though once he is under, the effect can be drawn out the longer.
+
+#### VI. What Hypnotism Means for Secret-Service Work
+
+In the countries of Europe and America the questioning of criminals rests wholly on solid evidence, not as in China, where from the first, without asking black from white, they fall to torture and beating, so that a man with no crime to his name is beaten into a cripple — a thing that in the criminal law of civilized nations simply does not occur. So in the detective work of Europe and America there are those who take up the study of hypnotism; for a subject, once put under, if the thing was truly done, can often confess it plainly and straight, while if there was no such act at all, then say what you will, he can never bring it out. Only, many a hardened prisoner will not consent to listen to the operator's words, so that it becomes hard to bring him under; but the detective who makes this his specialty has his own way — he uses side-long talk, speaking first of matters beside the point, and when the man for a moment forgets to resist, he seizes that chance to make him fall swiftly into the trance.
+
+#### VII. Hypnotism and the Question of Morality
+
+In the past the jurists of Europe and America debated, more than once over, a question of this kind: suppose a man of no private morals were to abuse the subtle art of hypnotism to feed his own desires and interests — would that not raise a grave problem for the law? But before long the question was settled, and held to be in no conflict with the law.
+
+Nor should people suppose that hypnotism is truly all-powerful and boundless in effect. In truth the effects it can reach have their fixed limits. When a man is put under, though one part of his consciousness is for a time ruled by the operator, another part still holds itself back, so that he can by no means be wholly commanded; and his power of resistance — the counter-force against the operator's suggestion — may grow at any moment. Say to the subject, "Raise your hands," "Laugh," "Your illness is cured" — these, on his side, either hinder him in nothing or are things he himself wills, and so succeed with ease. But say to him, "At once take this pistol and shoot yourself" (or, go and kill a man), or utter directly some matter of the gravest peril to him, and his own consciousness stirs all at once. There was a psychiatrist who, his wits sharpened by the crisis of the moment, set out to force the woman he was pursuing: by the method of distance-hypnosis he made her come rushing to him in the dead of night from tens of li away — yet in the very last second of that pressing affair she woke after all, and the outrage failed.
+
+### Section 11. Photography
+
+#### I. The Relation of Photography to Secret-Service Work
+
+To secure some piece of evidence as the ground for looking into a matter, one cannot but lean heavily on the art of photography. Every portrait, document, specimen of handwriting, or shape of an object — whether taken directly or copied by re-photographing — can be shown without the least error, and the process is swift; so photography and secret-service work can absolutely not be parted, and every secret-service worker must make a fair study of it.
+
+#### II. Photographic Equipment
+
+What secret-service work needs of photography is naturally unlike the art photography of a studio; the main points are a clear image, a simple procedure, and a quick exposure. The choice of camera is of great weight. Here it may again be divided into two forms. One is the stationary kind, suited to work within the technical room: one keeps a common large wooden camera, with the distance and the light measured beforehand, all of it made to slide upon a board, so as to avoid setting up on the spot; and when it is wanted, in a mere one to five minutes the thing is done.
+
+Next, a reflecting projection-lantern is wanted (better if one has it), by which a copy of any size may be enlarged or reduced and thrown straight onto the sensitized paper, without a dry-plate, sparing most of the time of dry-plate developing, fixing, and drying — only, what comes out is white on a black ground. Besides this, an enlarger is needed, to enlarge a small negative in whole or in part; it is wanted most of all for a tiny portrait.
+
+The second sort of outfit is the movable kind — of the nature of secret photography and news photography. The camera's bulk should be the very smallest, and the lens the very largest, at least f5 or better; with an f5 lens some cameras can take fast-shutter pictures on an overcast day, or even at night on a dark street. The merit of a small camera is that each negative is cheap, the exposure quick, the image clear, with no need to adjust the distance — near field and far are all alike sharp (whereas with a large camera the near figure comes out but the far one blurs, and only what lies within one distance is clear) — and it is easy to hide away. As for cameras better still suited to the work, they are of many kinds: the telescope type, the pistol type, the matchbox type, the cigarette-box type, the button type, or one hidden even inside a walking-stick; the names are many and various — in a word, the newest are the finest for secrecy.
+
+#### III. Photography and the Making of Prints
+
+Outdoor photography is harder than indoor, and the difficulty lies first in fixing the exposure time. A year has the difference of its four seasons; within a day the light changes without cease; the nearness of the distance and the color of the background all bear a very great and direct relation to the exposure. Sometimes bright green grass and trees, or the evening sunlight, are poor in ultraviolet, so that the dry-plate gets too little light; and sometimes on a cloudy, overcast day, or where sunlight strikes indirectly on a white building, the reflection of ultraviolet is very strong and the plate is easily over-exposed. The beginner, judging by the naked eye alone, is often deceived; so photography needs a fair store of practical field experience before one can be sure of it.
+
+The making of prints is really the easiest of matters; one need only buy a reference book to learn all its content, and no common explanation is called for here. But the special techniques of print-making are worth study. To make, for instance, a photograph plainly one's own that yet cannot be re-photographed by another; or, for a thing that will not photograph, to dye on a special solution so that it turns light-sensitive; and the arts of altering a photograph's image, of making an image appear or vanish at will — these are methods for private study, not to be set down; were they made public, they would lose their effect entirely.
+
+#### IV. The Photographing of Moving Objects
+
+For the movements of people out of doors, people in a moving car, sudden incidents, mass demonstrations, and the like, one cannot ask them to stand still and then take the picture — a fast shutter must be used. But if the shutter opens and shuts too fast there may not be light enough; too slow, and the image blurs; so one must reckon to the fitting degree before success can be assured.
+
+For the image on the dry-plate to move only to a degree the eye cannot catch, the point of movement, set against the focal length of the camera-box, must equal 1/2000. To put it the same way: if beyond two thousand feet an object moves but one foot in a second, then the image comes out perfectly clear.
+
+The reckoning: the distance to the object, divided by 2000 times the object's speed of movement, gives the exposure time.
+
+For example: the moving body travels one foot a second, and the photographer's distance from it is forty feet; then 40 divided by (2000 times 1) equals 1/50. So the exposure time must be 1/50 second.
+
+To photograph a moving body one must first reckon out the exposure it needs, and then decide how wide to open the aperture; and if the aperture, opened to its widest, is still not enough, there is no help for it. (Only, one must often let the exposure fall short and then strengthen it after, rather than use a slow shutter and get a blurred image.) So a larger lens is needed.
+
+A note appended. A secret-service worker must not only have a thorough grasp of secret-service theory, but must also command at least several specialized skills — the more, of course, the better — before he can be reckoned a man fit for the work. The eleven sections set out above are, to be sure, of great importance; but beyond them there are also the arts of driving, of swimming, of hand-to-hand combat, and the rest, all of which a secret-service worker ought to learn. Only, some of these already have books of their own for reference, and some are easy enough to learn, so there is no need to enlarge upon them here.

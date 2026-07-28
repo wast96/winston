@@ -32,6 +32,36 @@
    "before": "As the diagram above shows",
    "alt": "A street-shadowing diagram: two parallel streets with a shop on the left; the quarry, marked with a circled dot, walks ahead, and three shadowers, marked 1, 2, and 3, trail behind along diagonal sightlines.",
    "caption": "The street-shadowing formation (from the source). The circled dot (◎) is the quarry (被釘梢者); ①②③ are the three shadowers strung out behind along two parallel ways (街道 / 街衖), past a shop (店鋪), forming the two joined triangles and three diagonal sightlines the text describes. The labels are the source's; the caption is the translator's."
+  },
+  {
+   "file": "ch06_cipher_wheel.png",
+   "before": "Instruction sheet for the military cipher wheel",
+   "alt": "A circular cipher volvelle titled 軍用密語圖 with an arrow at the center and several concentric rings: code-name characters (Heaven, Earth, Sun, Moon, the ten Heavenly Stems and twelve Earthly Branches), rings of the digits 0-9, a ring numbered 1 to 30, and an outer ring of military commands (advance, retreat, charge, attack, vanguard, rearguard, and so on).",
+   "caption": "軍用密語圖 — the “Military Cipher Wheel” (plate from the source), the volvelle described in the instruction sheet. The center arrow (天, “Heaven”) is set against the marks agreed by the two parties. The rings are, from within outward: the first (code-names — 天地日月… and the Heavenly Stems and Earthly Branches), the second (the substitution index 1–9), the third (the time-index 1–30), the fourth and fifth (the cipher digits, in cycles of ten), and the sixth (the military commands). The labels are the source's; the caption is the translator's."
+  },
+  {
+   "file": "ch06_expression_lines.png",
+   "before": "When the Five Features are fitly set",
+   "alt": "A chart of cartoon faces, each labeled with a state of feeling, joined by lines.",
+   "caption": "顏面的表情線 — “The Expression-Lines of the Face” (plate from the source). The faces are labeled with their states: calm (靜), attention (注意), tension (緊張), astonishment (驚愕), sneering (嘲笑), pondering (思索), weeping (哭), laughing (笑), disappointment (失望), hope (希望), and scheming (陰謀); along the foot run the seven emotions — joy (喜), anger (怒), grief (哀), delight (樂), love (愛), loathing (惡), and desire (欲). The labels are the source's; the caption is the translator's."
+  },
+  {
+   "file": "ch06_eye_mouth_teeth.png",
+   "before": "Eye. In reading the features",
+   "alt": "A labeled line drawing of an eye, several mouth shapes, and two sets of teeth.",
+   "caption": "A plate of the eye (眼), the mouth (口), and the teeth (齒), from the source. The eye is marked with its parts — the brow (眉柄／眉心), the upper and lower lids (上眼皮／下眼皮), the inner and outer corners (內眼角／外眼角), the white (白眼珠), the pupil (瞳人), and the tear-line (淚紋). The mouths range from small (小口) and wide (濶口) to the corners turned up (口角向上) or down (口角向下); the teeth show a receding lower set (太短的下齶) and protruding front teeth (突出的門牙). The labels are the source's; the caption is the translator's."
+  },
+  {
+   "file": "ch06_forehead_nose.png",
+   "before": "Nose. A long, straight nose",
+   "alt": "Profile drawings of forehead types and of nose and mouth types.",
+   "caption": "Forehead types (額) and nose and mouth types (鼻／口), from the source: (foreheads) narrow (窄額), medium (中平), broad (寬額), and extra-broad (特寬額); (noses) long (長), flat (平), curved (曲), slanted (斜), protruding (突), and short (短); and a narrow (窄) and a wide (寬) mouth. The labels are the source's; the caption is the translator's."
+  },
+  {
+   "file": "ch06_nose_lips_ear.png",
+   "before": "Ear. Large ears betoken",
+   "alt": "Profile drawings of nose, philtrum, and lip types, with a labeled ear.",
+   "caption": "Nose, philtrum, lips, and a labeled ear, from the source: noses short (鼻子短), long (鼻子長), small (鼻子小), large (鼻子大), aquiline (金勾鼻子), and curved (曲鼻子); philtrum short (人中短) or long (人中長), with a long upper lip (上唇長) or lower lip (下唇長); thin (薄嘴唇) and thick (厚嘴唇) lips; and an ear marked with its rim and parts (上耳輪／前耳輪／耳殼／耳垂). The labels are the source's; the caption is the translator's."
   }
  ]
 }

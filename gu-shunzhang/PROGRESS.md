@@ -649,3 +649,71 @@ remains withheld**, marked in place by an editorial bracket; footnote (formerly 
 - Not run through check_numbers/parity (the §5 doctrine is a constrained transcription,
   outside the bilingual); the only load-bearing figure, the 3-to-5 cell size, is
   confirmed from OCR (三人至五人).
+
+---
+
+## B08 — Chapter 6 §7-11 (Codes / Observation / Physiognomy / Hypnotism / Photography)
+
+- **Units:** ch06s07-ch06s11. **PDF 176-219 = printed folios 144-177** (44 PDF pages;
+  8 of them are inserted physiognomy plates and their blank versos, so ~34 text folios).
+- **Section openers (folios read off the scan):** §7 密語術 = 144, §8 觀察技能 = 149,
+  §9 形相術 = 159, §10 催眠術 = 165, §11 攝影術 = 173. Offset drifts pdf&#8722;32 (folio 144)
+  to pdf&#8722;42 (folio 177); the plate block between folios 158 and 165 absorbs 8 pages.
+- Batch boundary honored: §6's spill-over sentence at the top of folio 144 was already
+  in B07; §7 begins right below it. Not re-translated.
+- `out/ch06_reading.md` now ends with **§1-11 as ELEVEN ordered `### Section` headings.**
+- **Notes:** `notes.json` ch06 **+22 (125-146)**; book total **124 -> 146**.
+- **Glossary:** +14 terms (密語術, 切口, 觀察技能, 五官, 攝影術, 千里眼, 入定, the four
+  temperaments 神經質/膽汁質/多血質/粘膜質, 扶乩[attested], 圓光/關亡[provisional]) and
+  +1 person (麻姑 Ma Gu). 青幫/紅幫 and 催眠術/形相術 were already in the ledger.
+- **Figures:** ch06 +5 (total 6). All eyeballed by hand; the ink-density detector caught
+  only one halftone-ish region (the eye plate) and MISSED all the line art:
+  - `ch06_cipher_wheel.png` (folio 144 area, PDF 179) — the 軍用密語圖 volvelle, §7.
+  - `ch06_expression_lines.png` (PDF 197) — 顏面的表情線, the seven-emotions face chart, §9.
+  - `ch06_eye_mouth_teeth.png` (PDF 201) — labeled 眼/口/齒 plate, §9.
+  - `ch06_forehead_nose.png` (PDF 199) — 額/鼻/口 profile chart, §9.
+  - `ch06_nose_lips_ear.png` (PDF 203) — 鼻/人中/唇/耳 chart with labeled ear, §9.
+  Captions carry the source's own vertical labels; identification never invented.
+
+### book.json TOC reconciliation (bookmarks vs body)
+- **Observation (§8) item 5 = 能力的觀察** (Observation of Ability), folio 158 — CONFIRMED.
+  §8 has five subsections: 作用 / 觀察時應注意的幾點 / 外表上的觀察 / 思想的觀察 / 能力的觀察.
+- **Hypnotism (§10) item 5 = 催眠術與體質的關係** (= 被術者的體質, the four temperaments),
+  folio 169 — CONFIRMED.
+- **Hypnotism (§10) item 7: bookmark's guess 催眠與暗示 is WRONG.** The body's seventh
+  subsection is **催眠術與道德問題** (Hypnotism and the Question of Morality), folio 171.
+  No 催眠與暗示 subsection exists. Recorded in book.json `toc_flags_resolved_b08`.
+
+### The eight checks (what ran)
+1. **Dual-engine OCR diff — NOT run** (PaddleOCR will not install here). Substituted the
+   whole-batch eye-read: every one of the 44 pages read off the 300 dpi scan by eye,
+   as B05-B07 did.
+2. **Blind double-translation** — run on the two most argumentative passages (§8-I
+   function-of-observation; §10-I the principle/Mesmer passage) in a fresh context; no
+   material divergence (see HANDOFF).
+3. **Back-translation** — spot omission-check on the same argumentative passages and the
+   §10-VII morality anecdote; no omissions.
+4. **Invariant checks — PASS.** `check_numbers.py` 0 unresolved (139 pairs);
+   `check_structure.py --pairs` parity 139/139 OK. NOISE extended for this batch:
+   幾十, 光芒四射/四射, 三番幾次, 一萬 (the mahjong "1 of Characters" tile, not 10000),
+   千里眼, 萬難 — all fixed terms/idioms carrying non-quantity numerals; verified by eye
+   that no real 一萬/萬難 quantity occurs in §7-11.
+5. **Term ledger** — glossary updated (above).
+6. **Annotate not smooth** — 22 footnotes; low-confidence spans and specialist terms
+   footnoted, not laundered.
+7. **External scholarship** — Analects II.10 (the 視其所以 quote), Mesmer/Braid history
+   (the "Austrian psychiatrist" claim flagged uncorroborated), Green/Red Gangs,
+   period detective-cameras, orthochromatic-plate physics — all checked in the notes.
+8. **Completeness recount of every list against the pages — PASS.** §7 code table 11
+   cant pairs + 4 hand signals; §8 observation lists (eyes 5, complexion 6, five-features 2,
+   head 3, dress 4, conduct 5, speech 6; thought 5; ability 7); §9 four temperaments;
+   §10 method-basis 3, four constitutions 4; all item counts match the source.
+
+### Flagged for Winston's read-through
+- **§9 formal physiognomy and §10 hypnotism are period pseudoscience** (humoral
+  "constitutions," face-verdicts, clairvoyance/telepathy). Translated faithfully as the
+  author's belief and framed as such in a leading footnote; not endorsed.
+- **§10-VII** contains a brief period anecdote of an attempted hypnotic rape, told to
+  illustrate that a subject wakes when commanded against his will. Rendered plainly.
+- **"Austrian psychiatrist" who "first created hypnotism"** is almost certainly a garbled
+  reference to Mesmer (Austrian, animal magnetism); footnoted as uncorroborated.

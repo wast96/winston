@@ -81,6 +81,15 @@ NOISE = [
     # breadth), 三緘其口 (mouth thrice sealed — allusion), 模稜兩可
     # (noncommittal). The numerals are idiom, not counts.
     r"千鈞一髮", r"三緘其口", r"模稜兩可",
+    # ch6 §7-11 (B08). 幾十 ("several tens" = dozens, indefinite; traditional
+    # form of the already-listed 几十). 光芒四射 (radiating in all directions).
+    # 三番幾次 ("several times over" — repeatedly, idiom). 一萬 here is the
+    # mahjong tile "1 of Characters" (§7 hand-signal analogy), not 10000; no
+    # real quantity 一萬 occurs anywhere in §7-11 (verified by eye-read).
+    r"幾十", r"光芒四射", r"四射", r"三番幾次", r"一萬",
+    # 千里眼 ("thousand-li eye" = clairvoyance, a fixed term, not 1000);
+    # 萬難 ("ten-thousand difficulties" = extremely hard, idiom, not 10000).
+    r"千里眼", r"萬難",
     # 萬 as intensifier, not a quantity: 萬不得已 (as a last resort),
     # 萬不可 (on no account), 萬一 (in case), 萬分 (utterly). ch2 idioms.
     # ORDERING: 千萬/萬萬 must precede the bare 萬X patterns, or r"萬不可"
