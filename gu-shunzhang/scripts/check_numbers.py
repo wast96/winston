@@ -74,7 +74,14 @@ NOISE = [
     r"千方百計", r"千篇一律", r"萬無一失", r"三令五申", r"九牛一毛",
     # 萬 as intensifier, not a quantity: 萬不得已 (as a last resort),
     # 萬不可 (on no account), 萬一 (in case), 萬分 (utterly). ch2 idioms.
-    r"萬不得已", r"萬不可", r"萬一", r"萬分", r"萬萬", r"千萬",
+    # ORDERING: 千萬/萬萬 must precede the bare 萬X patterns, or r"萬不可"
+    # eats the 萬 out of 千萬不可 and orphans a 千 that reads as 1000.
+    r"千萬", r"萬萬", r"萬不得已", r"萬不可", r"萬一", r"萬分",
+    # Arabic list enumerators the book prints at the head of sub-items
+    # (1. 2. 3. with a half- or full-width stop). These are structure, not
+    # quantities; the English renders them a./b./c. and would otherwise be
+    # flagged as a dropped number on every enumerated sub-item. ch3.
+    r"\d+[．.、]",
 ]
 
 

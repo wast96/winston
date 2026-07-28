@@ -2,11 +2,11 @@
 
 Read this first. Written as work happens, not at the end.
 
-## Status: Batches B01 (Chapter 1) and B02 (Chapter 2) DONE, built and QA-green.
+## Status: Batches B01, B02, B03 (Chapters 1-3) DONE, built and QA-green.
 
-Branch `claude/gu-shunzhang` (the single home for this project's work). Two of eight chapters translated.
+Branch `claude/gu-shunzhang` (the single home for this project's work). Three of eight chapters translated.
 `out/gushunzhang.epub` builds with a full pending-aware TOC; `qa_epub.py`
-PASS (44 notes, 8 spine documents). Next batch is B03 (Chapter 3); see `HANDOFF.md`.
+PASS (53 notes, 9 spine documents). Next batch is B04 (Chapter 4); see `HANDOFF.md`.
 
 ## Source facts established at setup (unchanged)
 
@@ -178,6 +178,92 @@ folio 35). Body ends folio 39.
   idiom — 鋼的紀律 (steel discipline), 批評會 / 自我批評 (criticism and
   self-criticism), the heuristic-over-rote training method — in a handbook
   written for the Nationalist side. Footnoted where it appears.
+
+## Batch B03 — Chapter 3 (特務工作的方法 / Methods of Secret-Service Work), printed folios 40-51 (PDF 72-83)
+
+12 printed folios, all eye-read at 300 dpi. **Offset verified at the opener:**
+PDF 72 = folio 四〇 (40), so the offset is now pdf−32 (it was pdf−31 at ch2;
+one more unpaginated leaf has drifted it). Folios ran 四〇 through 五一 in
+sequence, each read off the page. No plates in the chapter (find_figures found
+only page furniture); nothing to caption. No cut-off sentences; the chapter
+ends cleanly at folio 51.
+
+### Structure (recounted against the pages, per the completeness rule)
+- **§1 工作的原則 (Principles of the Work)** — six principles, in the body's
+  order: 1 積極性 proactiveness, 2 秘密性 secrecy, 3 敏捷性 agility,
+  4 精密性 precision, 5 普遍性 universality, 6 實際性 practicality, then a
+  closing paragraph. This confirms `book.json`'s `toc_flags_resolved`: the
+  translated TOC's "Flexibility" (item 2) and its "Secrecy" (item 5) were both
+  wrong; there is no "flexibility" principle.
+- **§2 工作上絕對反對的事項 (Things Absolutely Forbidden)** — three forbidden
+  tendencies: 官僚化 bureaucratization (with sub-points a 失去敏捷性, b 失去秘密性),
+  空洞化 empty formalism, 僱傭化 the mercenary spirit, then a closing paragraph.
+- **§3 工作的實施 (Carrying Out the Work)** — five requirements: 創造的精神
+  (a, b), 整個的計劃, 進行的步驟, 社會化 (a, b, c + a deferral), 只求實際
+  (a, b), then a closing paragraph to superiors.
+- Parity: 27 source paragraphs = 27 English paragraphs (7 + 6 + 14). No items
+  dropped.
+
+### The eight checks — what ran, what they found
+1. **Dual-engine OCR diff.** PaddleOCR still will not install (weights host off
+   the allowlist), so no automated character diff. Substituted the stronger
+   defense: every one of the 12 folios read by eye off the 300 dpi scan, with
+   tesseract `chi_tra_vert` as the only-machine partner. Low-confidence spans
+   crop-verified (see below).
+2. **Blind double-translation.** Five argumentative passages (積極性,
+   實際性, the 空洞化 political-power argument, the 僱傭化 conclusion, and the
+   整個計劃 passage) re-translated in a blind context and diffed: close
+   agreement throughout, no divergence signalling ambiguity or misreading.
+3. **Back-translation.** Three passages (the three-step 積極性 sequence, the
+   doorman/visiting-card passage, the §3 closing to superiors) round-tripped
+   to Chinese and diffed against the OCR: every clause intact, including the
+   three steps, the 匪區 / time-span detail, and the "special difficulties"
+   clause. No omissions or additions.
+4. **Automated invariants.** `check_numbers.py` clean (0 unresolved over 27
+   pairs) after two NOISE fixes; `check_structure.py` parity 27/27, headings
+   one shape, 53 anchors 0 unresolved.
+5. **Term ledger.** Six glossary rows added with attestation (below).
+6. **Annotate not smooth.** The one genuinely damaged span (暗中進行, the 進
+   under the NCL seal on folio 50) is footnoted, not silently smoothed; no
+   bracket tags survive into the prose.
+7. **External scholarship.** The Sunzi allusion (孫子·九地 靜如處女…出如脫兔)
+   and 紙上談兵 (Zhao Kuo / Changping, via the Shiji, with the caveat that the
+   four-char phrase is a later coinage) verified against the received texts;
+   匪區 confirmed as the standard Nationalist "bandit" framing of the CCP.
+   Wikipedia / classical sources; Grok not used (standing rule).
+8. **Deep audit.** Coverage 100 percent (every page eye-read). Spans given the
+   full crop-and-zoom treatment: the folio numbers 四〇–五一; the p73 一定不會
+   等待 (confirmed 不會 present); the p50 暗中進行 under the seal; the p50
+   衆手畢舉 and the p43 成效/威效 variant (no translation impact either way).
+   Estimated residual error rate: well under 0.5 percent; no dropped numbers.
+
+### Footnotes / glossary added
+- **notes.json `ch03`: 9 notes** (continuous numbering follows automatically;
+  total book notes now 53). Two classical allusions (Sunzi, 紙上談兵), one
+  period-term reference (匪區), one tradecraft term with a forward cross-ref
+  (社會化 → Ch.7), one scan-damage note (暗中進行 under the seal), and four
+  vivid idioms kept literal (神不知鬼不覺, 掛一漏萬, 如水銀瀉地無孔不入,
+  點石成金). About 0.75/folio, in line with ch2.
+- **glossary.json: 6 term rows** — 匪區 (attested), 社會化 (decided, tied to the
+  Ch.7 §1 title), 官僚化 / 空洞化 / 僱傭化 (decided, §2's three tendencies),
+  積極性 (decided, records the 積極/消極 = positive/negative reading and lists
+  all six §1 principles for cross-chapter consistency).
+
+### Engineering: check_numbers.py NOISE extended (B03)
+Two false-positive classes fixed, both documented in the file:
+- Reordered the 萬-idiom patterns so `千萬` / `萬萬` precede the bare `萬X`
+  forms; `萬不可` had been eating the 萬 out of `千萬不可` and orphaning a 千
+  that read as 1000.
+- Added `r"\d+[．.、]"` to strip the Arabic list enumerators the book prints
+  at the head of sub-items (1. 2. 3.), which the English renders a./b./c.
+
+### Flagged for Winston's read-through
+- 匪區 rendered literally "bandit area" to keep the book's Nationalist
+  standpoint (the author is a CCP security chief writing for his new KMT
+  masters); footnoted.
+- The Sunzi tag is quoted by Gu as 出如脱兔; the received/popular forms are
+  後如脱兔 / 動如脱兔. Footnote says so.
+- No new provisional glossary entries this batch; nothing left open in ch3.
 
 ## Engineering state (for later batches)
 - `scripts/build_reading_epub.py` REWRITTEN for this book: driven by

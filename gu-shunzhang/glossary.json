@@ -228,6 +228,42 @@
    "pinyin": "yidianyuan",
    "status": "decided",
    "note": "The clerk who encodes and decodes wireless traffic."
+  },
+  "匪區": {
+   "en": "bandit area",
+   "pinyin": "feiqu",
+   "status": "attested",
+   "note": "Nationalist term for Communist-held territory; the '匪/bandit' framing of the CCP that also named the 剁匪 (bandit-suppression) campaigns. Rendered literally to preserve the book's standpoint. Standard usage in Chinese Civil War scholarship."
+  },
+  "社會化": {
+   "en": "blending into society",
+   "pinyin": "shehuihua",
+   "status": "decided",
+   "note": "Lit. 'socialization'; here the tradecraft of dissolving into ordinary society. Kept consistent with the Ch.7 §1 title 'Blending Into Society' (社會化問題)."
+  },
+  "官僚化": {
+   "en": "bureaucratization",
+   "pinyin": "guanliaohua",
+   "status": "decided",
+   "note": "First of §2's three forbidden tendencies; doing everything by fixed official routine (官樣文章, 'official red tape')."
+  },
+  "空洞化": {
+   "en": "empty formalism",
+   "pinyin": "kongdonghua",
+   "status": "decided",
+   "note": "Lit. 'hollowing-out'; §2's second forbidden tendency — much talk and little practical work. Rendered by sense."
+  },
+  "僱傭化": {
+   "en": "the mercenary spirit",
+   "pinyin": "guyonghua",
+   "status": "decided",
+   "note": "Lit. 'turning into hired labor'; §2's third forbidden tendency — working for pay rather than conviction."
+  },
+  "積極性": {
+   "en": "proactiveness",
+   "pinyin": "jijixing",
+   "status": "decided",
+   "note": "First of §1's six principles. 積極/消極 rendered positive vs negative (active/pre-emptive vs passive/defensive), not 'optimistic/pessimistic'. The six: 積極性 proactiveness, 秘密性 secrecy, 敏捷性 agility, 精密性 precision, 普遍性 universality, 實際性 practicality."
   }
  }
 }
