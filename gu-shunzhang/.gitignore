@@ -17,5 +17,9 @@ data/raw/
 data/*.log
 out/*_bilingual.md
 
+# find_figures.py working manifest (regenerable; committed figure specs live
+# in figures.json and the kept crops in data/figs/*.png).
+data/figs/manifest.json
+
 # Eye-read working transcriptions (regenerable; parity source lives in data/zh)
 data/zh_work/
