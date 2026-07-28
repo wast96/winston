@@ -5,12 +5,21 @@ English EPUB: OCR, verified translation, footnotes, glossary, and a cumulative
 EPUB with a full linked table of contents.
 
 **New here? Read [`START_HERE.md`](START_HERE.md).** It has the setup steps and
-the paste-ready intro message. The full operating manual is
-[`CLAUDE.md`](CLAUDE.md).
+the paste-ready messages. The full operating manual is [`CLAUDE.md`](CLAUDE.md).
+
+The very first step is a **structural survey**, before any translation: fill in
+`book.json`, run `survey.py` for the counts/outline and a proposed batch plan,
+and `build_reading_epub.py` to produce a skeleton EPUB whose table of contents is
+already fully hyperlinked down to subsections. You approve the batch plan, then
+translation begins.
 
 ## The pipeline in one glance
 
 ```
+STEP 0  book.json ──survey.py──▶ out/SURVEY.md (counts + batch plan)
+                  └─build_reading_epub.py──▶ skeleton out/book.epub (hyperlinked TOC) ─▶ qa_epub.py
+                                                     │  (you approve the batch plan)
+BATCHES ◀────────────────────────────────────────────┘
 source.pdf ──render.py──▶ data/png ──ocr_crop.py──▶ data/txt
                                                        │
                         (read + verify against scan)   ▼
@@ -23,13 +32,14 @@ source.pdf ──render.py──▶ data/png ──ocr_crop.py──▶ data/txt
         └── build_reading_epub.py ──▶ out/book.epub ──▶ qa_epub.py (must be green)
 ```
 
-Work proceeds one batch at a time; each batch ships a rebuilt EPUB and an updated
-handoff. See `CLAUDE.md` for the rules and the checks.
+Survey first; then one batch at a time, each shipping a rebuilt EPUB and an
+updated handoff. See `CLAUDE.md` for the rules and the checks.
 
 ## Scripts
 
 | Script | Does |
 |--------|------|
+| `survey.py [--target N]` | **Run first.** Structure report (parts/chapters/sections/subsections, page counts, titles) + a proposed batch plan, from `book.json`. |
 | `render.py FIRST LAST --dpi 300` | PDF pages to PNG (PyMuPDF). |
 | `ocr_crop.py FIRST LAST ...` | Crop page furniture, OCR the body block. **Measure the crop per book** (see its docstring). |
 | `find_figures.py FIRST LAST` | Detect photo/plate regions (misses line art; eyeball too). |

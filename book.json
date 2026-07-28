@@ -19,12 +19,17 @@
 
   "_offset_note": "The PDF-page-to-printed-folio offset usually DRIFTS as unpaginated plates accumulate. Do NOT use a constant formula. Record per-section pdf_page/printed_page anchors below and READ the folio off the scan at each opener.",
 
-  "_structure_note": "One entry per chapter. Each chapter: id (ch01..), chapter (int), title (zh), title_en, pdf_page + printed_page of its opener, and a sections list. Each section: id (ch01s01..), section (int), title (zh), title_en, pdf_page, printed_page. The reading markdown uses '## ' for the chapter (h1), '### ' for each section (h2, matched to these ids in order), '#### ' for subsections (h3).",
+  "_end_note": "The last PDF page and printed folio of the body text. Set these so the LAST chapter's/section's page length is known in the survey; without them its length shows as '?'.",
+  "pdf_end": 292,
+  "printed_end": 236,
+
+  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (zh), title_en, pdf_page + printed_page of its opener, and a sections list. OPTIONAL 'part': a label like 'Part One. ...' — consecutive chapters sharing a part are grouped under it in the TOC. Each section: id (ch01s01..), section (int), title (zh), title_en, pdf_page, printed_page, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en, pdf_page, printed_page). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front (from the TOC or PDF bookmarks): the survey and the skeleton EPUB are built from it before any translation.",
   "structure": [
     {
       "level": 1,
       "id": "ch01",
       "chapter": 1,
+      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
       "title": "第一章 章名",
       "title_en": "Chapter 1. English Chapter Title",
       "pdf_page": 27,
@@ -36,7 +41,16 @@
           "title": "第一節 節名",
           "title_en": "Section 1. English Section Title",
           "pdf_page": 27,
-          "printed_page": 1
+          "printed_page": 1,
+          "subsections": [
+            {
+              "id": "ch01s01x1",
+              "title": "一 小節名",
+              "title_en": "i. English Subsection Title (optional; omit the whole list if none)",
+              "pdf_page": 27,
+              "printed_page": 1
+            }
+          ]
         },
         {
           "id": "ch01s02",

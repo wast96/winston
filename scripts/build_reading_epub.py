@@ -68,7 +68,10 @@ ol.contents li { margin: 0.15em 0; }
 ol.contents li.chap { margin-top: 0.9em; font-weight: bold; }
 ol.contents ol { list-style: none; padding-left: 1.4em; }
 ol.contents li.sec { font-weight: normal; }
+ol.contents li.part { margin: 1.1em 0 0.3em; font-weight: bold; text-transform: uppercase; font-size: 0.95em; letter-spacing: 0.05em; color: #555; }
+ol.contents li.sub { font-weight: normal; color: #555; font-size: 0.95em; }
 span.pending { color: #999; font-style: italic; }
+span.span { color: #888; font-size: 0.85em; }
 ol.contents ol.secs { padding-left: 1.4em; }
 nav#toc ol ol { list-style: none; padding-left: 1.3em; }
 nav#toc ol ol li { font-size: 0.95em; }
@@ -145,27 +148,137 @@ def insert_notes(paragraph, notes, counter, doc):
     return paragraph
 
 
-def render_body(md_path, section_ids, figures, notes, counter, doc):
+# ---------------------------------------------------------------------------
+# Structure helpers: flatten the book to an ordered list of openers, compute
+# each unit's page span, and group chapters by optional "part". Used by both the
+# builder (skeleton pages, contents, nav) and scripts/survey.py.
+# ---------------------------------------------------------------------------
+
+def iter_openers(structure):
+    """Yield (node, level, chapter) for every chapter/section/subsection in
+    reading order. level: 1 chapter, 2 section, 3 subsection."""
+    for chap in structure:
+        yield chap, 1, chap
+        for sec in chap.get("sections", []):
+            yield sec, 2, chap
+            for sub in sec.get("subsections", []):
+                yield sub, 3, chap
+
+
+def compute_spans(structure, book=None):
+    """Annotate every node with _pdf=(start,end), _pp=(start,end) printed, and
+    _pages, using the next opener at the same-or-higher level as the end. The
+    last unit's end comes from book['pdf_end']/'printed_end' if given, else is
+    left open (_pages None). Safe to call more than once."""
+    book = book or {}
+    nodes = list(iter_openers(structure))
+    n = len(nodes)
+    for i, (node, level, _chap) in enumerate(nodes):
+        start = node.get("pdf_page")
+        end = None
+        for j in range(i + 1, n):
+            if nodes[j][1] <= level:
+                nxt = nodes[j][0].get("pdf_page")
+                if nxt is not None:
+                    end = nxt - 1
+                break
+        else:
+            end = book.get("pdf_end")
+        node["_pdf"] = (start, end)
+        pstart = node.get("printed_page")
+        pend = None
+        if end is not None and start is not None and pstart is not None:
+            pend = pstart + (end - start)
+        node["_pp"] = (pstart, pend)
+        node["_pages"] = (end - start + 1) if (start is not None
+                                               and end is not None) else None
+    return structure
+
+
+def span_label(node):
+    """A short 'pp. a-b (N pp.)' label, printed folios if known, else PDF."""
+    ps, pe = node.get("_pp", (None, None))
+    if ps is not None and pe is not None:
+        pp = "%s" % ps if ps == pe else "%s&#8211;%s" % (ps, pe)
+    else:
+        a, b = node.get("_pdf", (None, None))
+        if a is None:
+            return ""
+        pp = "PDF %s" % a if b is None else "PDF %s&#8211;%s" % (a, b)
+    n = node.get("_pages")
+    return "%s%s" % (pp, "" if not n else "&#160;(%d&#160;pp.)" % n)
+
+
+def part_groups(structure):
+    """Group chapters by their optional 'part' field, preserving order.
+    Returns [(part_label_or_None, [chapters])]."""
+    groups, cur, label = [], [], object()
+    for chap in structure:
+        p = chap.get("part")
+        if p != label:
+            if cur:
+                groups.append((label if label is not object() else None, cur))
+            cur, label = [], p
+        cur.append(chap)
+    if cur:
+        groups.append((label if label is not object() else None, cur))
+    return groups
+
+
+def render_skeleton(chap):
+    """A placeholder page for a chapter not yet translated: its title, source
+    page span, and its full section/subsection outline with real anchors, so the
+    table of contents can link all the way down before any translation exists.
+    Returns (body, ids_emitted)."""
+    ids = set()
+    out = ['<h1>%s</h1>' % esc(chap["title_en"])]
+    sl = span_label(chap)
+    out.append('<p class="note"><span class="pending">Not yet translated.</span>'
+               '%s</p>' % (" Source&#160;" + sl if sl else ""))
+    for sec in chap.get("sections", []):
+        ids.add(sec["id"])
+        out.append('<h2 id="%s">%s</h2>' % (esc(sec["id"]), esc(sec["title_en"])))
+        ssl = span_label(sec)
+        if ssl:
+            out.append('<p class="note">Source&#160;%s</p>' % ssl)
+        for sub in sec.get("subsections", []):
+            ids.add(sub["id"])
+            out.append('<h3 id="%s">%s</h3>'
+                       % (esc(sub["id"]), esc(sub["title_en"])))
+    return "\n".join(out), ids
+
+
+def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
+                ids=None):
     """Render one chapter's reading markdown to XHTML.
 
-    section_ids is the chapter's list of book.json section ids, consumed in
-    order as '### ' section headings are met, so the contents page can deep-link
-    each section.
+    section_ids / sub_ids are the chapter's book.json section and subsection ids,
+    consumed in order as '### ' and '#### ' headings are met, so the contents
+    page can deep-link each section and subsection. Either list may be empty,
+    in which case the matching heading gets no id (linked at the coarser level).
     """
     out, first = [], True
-    sids = list(section_ids)
+    ids = ids if ids is not None else set()
+    sids, ssids = list(section_ids), list(sub_ids)
     for raw in open(md_path):
         line = raw.strip()
         if not line:
             continue
         if line.startswith("#### "):
-            out.append("<h3>%s</h3>"
-                       % insert_notes(esc(line[5:]), notes, counter, doc))
+            subid = ssids.pop(0) if ssids else None
+            idattr = ' id="%s"' % esc(subid) if subid else ""
+            if subid:
+                ids.add(subid)
+            out.append("<h3%s>%s</h3>"
+                       % (idattr,
+                          insert_notes(esc(line[5:]), notes, counter, doc)))
             first = True
             continue
         if line.startswith("### "):
             sid = sids.pop(0) if sids else None
             idattr = ' id="%s"' % esc(sid) if sid else ""
+            if sid:
+                ids.add(sid)
             out.append("<h2%s>%s</h2>"
                        % (idattr, insert_notes(esc(line[4:]), notes, counter, doc)))
             first = True
@@ -188,7 +301,7 @@ def render_body(md_path, section_ids, figures, notes, counter, doc):
         cls = ' class="first"' if first else ""
         out.append("<p%s>%s</p>" % (cls, text))
         first = False
-    return "\n".join(out)
+    return "\n".join(out), ids
 
 
 def render_notes_page(chapters, notes_by_chap):
@@ -214,47 +327,72 @@ def render_notes_page(chapters, notes_by_chap):
     return "\n".join(parts)
 
 
-def render_contents(structure, translated, sec_done=None):
-    """The visible full map: every chapter and section, translated ones linked
-    down to the section, the rest marked 'not yet translated'.
+def _span_suffix(node):
+    sl = span_label(node)
+    return ' <span class="span">%s</span>' % sl if sl else ""
 
-    sec_done maps a chapter id to the set of its section ids that are actually
-    present in that chapter's reading doc. A chapter translated a batch at a
-    time (ch6 runs across three batches) is itself linked, but only its
-    completed sections are deep-linked; the sections still pending are shown,
-    honestly, as 'not yet translated' even though the chapter file exists."""
-    sec_done = sec_done or {}
+
+def render_contents(structure, translated, ids_present=None):
+    """The visible full map: every part, chapter, section and subsection, each
+    linked to its place (real content when translated, a skeleton outline page
+    otherwise), with its source page span. Because every chapter always has a
+    page, every chapter entry resolves -- the whole contents is hyperlinked from
+    the first (survey) build onward.
+
+    ids_present maps a chapter id to the set of section/subsection anchor ids
+    actually emitted in that chapter's page, so a chapter translated a batch at a
+    time links only its finished sections and shows the rest as pending text
+    (never a link to an anchor that does not exist, which qa_epub rejects)."""
+    ids_present = ids_present or {}
     n_ch = len(structure)
     n_sec = sum(len(c.get("sections", [])) for c in structure)
+    n_sub = sum(len(s.get("subsections", [])) for c in structure
+                for s in c.get("sections", []))
+    groups = part_groups(structure)
+    n_parts = sum(1 for lbl, _ in groups if lbl)
+    tally = ("%s%d chapters, %d sections"
+             % ("%d parts, " % n_parts if n_parts else "", n_ch, n_sec)
+             + (", %d subsections" % n_sub if n_sub else ""))
     parts = ['<h1>Contents</h1>',
-             '<p class="note">The complete book runs to %d chapters and '
-             '%d sections. Chapters already translated are linked; '
-             'the rest are shown here so the whole shape of the book is on '
-             'view, and will be linked as they are completed.</p>'
-             % (n_ch, n_sec),
+             '<p class="note">The complete book: %s. Every entry links to its '
+             'place; units not yet translated link to a skeleton outline showing '
+             'their source page span, so the whole shape of the book is '
+             'navigable from the start.</p>' % tally,
              '<ol class="contents">']
-    for chap in structure:
-        cid = chap["id"]
-        done = cid in translated
-        if done:
-            parts.append('<li class="chap"><a href="%s.xhtml">%s</a></li>'
-                         % (cid, esc(chap["title_en"])))
-        else:
-            parts.append('<li class="chap">%s '
-                         '<span class="pending">&#183; not yet translated</span></li>'
-                         % esc(chap["title_en"]))
-        if chap.get("sections"):
+    for part_label, chaps in groups:
+        if part_label:
+            parts.append('<li class="part">%s</li>' % esc(part_label))
+        for chap in chaps:
+            cid = chap["id"]
+            here = ids_present.get(cid, set())
+            done = cid in translated
+            mark = "" if done else ' <span class="pending">&#183; pending</span>'
+            parts.append('<li class="chap"><a href="%s.xhtml">%s</a>%s%s</li>'
+                         % (cid, esc(chap["title_en"]),
+                            _span_suffix(chap), mark))
+            if not chap.get("sections"):
+                continue
             parts.append('<ol>')
-            done_secs = sec_done.get(cid)
             for sec in chap["sections"]:
-                linked = done and (done_secs is None or sec["id"] in done_secs)
-                if linked:
-                    parts.append('<li class="sec"><a href="%s.xhtml#%s">%s</a></li>'
-                                 % (cid, esc(sec["id"]), esc(sec["title_en"])))
+                if sec["id"] in here:
+                    label = ('<a href="%s.xhtml#%s">%s</a>'
+                             % (cid, esc(sec["id"]), esc(sec["title_en"])))
                 else:
-                    parts.append('<li class="sec"><span class="pending">%s '
-                                 '&#183; not yet translated</span></li>'
-                                 % esc(sec["title_en"]))
+                    label = ('%s <span class="pending">&#183; pending</span>'
+                             % esc(sec["title_en"]))
+                parts.append('<li class="sec">%s%s</li>'
+                             % (label, _span_suffix(sec)))
+                if sec.get("subsections"):
+                    parts.append('<ol class="secs">')
+                    for sub in sec["subsections"]:
+                        if sub["id"] in here:
+                            sl = ('<a href="%s.xhtml#%s">%s</a>'
+                                  % (cid, esc(sub["id"]), esc(sub["title_en"])))
+                        else:
+                            sl = esc(sub["title_en"])
+                        parts.append('<li class="sub">%s%s</li>'
+                                     % (sl, _span_suffix(sub)))
+                    parts.append('</ol>')
             parts.append('</ol>')
     parts.append('</ol>')
     return "\n".join(parts)
@@ -312,24 +450,19 @@ def render_errata(bm):
             "<tr><td>%s</td><td>%s</td><td>%s</td><td class=\"hz\">%s%s</td></tr>"
             % (folio, page if str(r["page"]) != str(r["folio"]) else "&#8212;",
                loc, fix, note))
+    headnote = back_matter.get("errata_headnote") or (
+        "The book prints a publisher's errata table on its final leaf, "
+        "reproduced here in full. Each row gives the printed folio, the line, "
+        "the character position within that line, and the fix &#8212; a dropped "
+        "character to insert or a misprinted character to replace. Every "
+        "correction has been checked against this translation and applied where "
+        "it bears on the reading text.")
     return (
         '<h1>Errata</h1>'
-        '<p class="note">The book prints a publisher\'s errata table '
-        '(<span lang="zh-Hant">勘誤表</span>) on its final leaf. It is reproduced '
-        'here in full. Its columns give, for each correction, the printed folio, '
-        'the line, the character position within that line, and the fix &#8212; '
-        'a dropped character to be inserted, or a misprinted character to be '
-        'replaced. Every correction has been checked against this translation. '
-        'The two that fall within Chapter&#160;8 (folios&#160;233 and&#160;236) '
-        'are applied and are reflected in the reading text; the remainder fall on '
-        'earlier chapters, whose translation &#8212; made by reading the scanned '
-        'characters for sense &#8212; already follows the corrected readings. The '
-        'entry for folio&#160;206 directs that a clause and a diagram of the '
-        'Soviet G.P.U.\'s relationship to the army be added; that diagram is '
-        'reproduced in Chapter&#160;7.</p>'
+        '<p class="note">%s</p>'
         '<table class="errata"><tr><th>Folio</th><th>Printed page</th>'
         '<th>Location</th><th>Correction</th></tr>%s</table>'
-        % "".join(rows))
+        % (headnote, "".join(rows)))
 
 
 def render_colophon(bm):
@@ -410,27 +543,18 @@ def main(epub_path):
     structure = [c for c in book.get("structure", []) if c.get("id", "").startswith("ch")]
     if not structure:
         sys.exit("no chapters in book.json structure")
+    compute_spans(structure, book)
 
     def md_of(cid):
         return os.path.join(ROOT, "out", "%s_reading.md" % cid)
 
     chapters = [c for c in structure if os.path.exists(md_of(c["id"]))]
     translated = {c["id"] for c in chapters}
-    if not chapters:
-        sys.exit("no chapter reading markdown found (out/<id>_reading.md)")
-
-    # A chapter may be translated a batch at a time (ch6 spans three batches):
-    # its reading doc carries only the '### ' section headings done so far, and
-    # render_body assigns section ids to them in book.json order. Record which
-    # section ids are actually present so the contents page deep-links only
-    # those and shows the rest as pending, instead of pointing at anchors that
-    # do not exist yet (which qa_epub rightly rejects).
-    sec_done = {}
-    for chap in chapters:
-        n_secs = sum(1 for l in open(md_of(chap["id"]))
-                     if l.startswith("### "))
-        sec_done[chap["id"]] = {s["id"]
-                                for s in chap.get("sections", [])[:n_secs]}
+    # No translated chapters yet is fine: this builds the SURVEY skeleton -- a
+    # fully navigable EPUB whose TOC links every part/chapter/section/subsection
+    # to an outline page, so the whole structure can be reviewed before any
+    # translation begins.
+    skeleton_only = not chapters
 
     if os.path.isdir(BUILD):
         shutil.rmtree(BUILD)
@@ -458,37 +582,43 @@ def main(epub_path):
         fh.write(CSS)
 
     # title page
+    byline = esc(meta["author_en"])
+    if meta["author_zh"]:
+        byline += ' &#183; <span lang="zh-Hant">%s</span>' % esc(meta["author_zh"])
+    yr = (' <p class="note">%s</p>' % esc(str(meta["year"]))) if meta["year"] else ""
     write(os.path.join(oebps, "titlepage.xhtml"),
           '<div class="tp"><h1>%s</h1>'
           '<p lang="zh-Hant">%s</p>'
-          '<p>%s &#183; <span lang="zh-Hant">%s</span></p>'
-          '<p class="note">A training manual of intelligence tradecraft, %d</p>'
+          '<p>%s</p>%s'
           '<p class="note">English translation</p></div>'
-          % (esc(meta["title_en"]), esc(meta["title_zh"]),
-             esc(meta["author_en"]), esc(meta["author_zh"]), meta["year"]),
+          % (esc(meta["title_en"]), esc(meta["title_zh"]), byline, yr),
           meta["title_en"])
 
-    # contents map
-    write(os.path.join(oebps, "contents.xhtml"),
-          render_contents(structure, translated, sec_done), "Contents")
-
-    # a single placeholder that pending chapter links target in the nav
-    write(os.path.join(oebps, "pending.xhtml"),
-          '<h1>Not yet translated</h1>'
-          '<p class="note">This chapter has not yet been translated. See the '
-          '<a href="contents.xhtml">contents</a> for the whole plan of the '
-          'book and what is complete.</p>', "Not yet translated")
-
-    # chapter bodies
+    # chapter bodies: EVERY chapter gets a page -- real content if translated,
+    # else a skeleton outline -- so every table-of-contents link resolves.
+    # ids_present[cid] records the section/subsection anchors actually emitted,
+    # so the contents and nav link only anchors that exist (a chapter translated
+    # a batch at a time emits only its finished sections).
     counter = [0]
-    for chap in chapters:
+    ids_present = {}
+    for chap in structure:
         doc = chap["id"] + ".xhtml"
-        section_ids = [s["id"] for s in chap.get("sections", [])]
-        body = render_body(md_of(chap["id"]), section_ids,
-                           figspec.get(chap["id"], []),
-                           notes_by_chap.get(chap["id"], []),
-                           counter, doc)
+        if chap["id"] in translated:
+            section_ids = [s["id"] for s in chap.get("sections", [])]
+            sub_ids = [sub["id"] for s in chap.get("sections", [])
+                       for sub in s.get("subsections", [])]
+            body, ids = render_body(md_of(chap["id"]), section_ids, sub_ids,
+                                    figspec.get(chap["id"], []),
+                                    notes_by_chap.get(chap["id"], []),
+                                    counter, doc)
+        else:
+            body, ids = render_skeleton(chap)
+        ids_present[chap["id"]] = ids
         write(os.path.join(oebps, doc), body, chap["title_en"])
+
+    # contents map (after the bodies, so it links only anchors that exist)
+    write(os.path.join(oebps, "contents.xhtml"),
+          render_contents(structure, translated, ids_present), "Contents")
 
     # a note whose anchor never matched would be silently dropped; refuse.
     orphans = [(cid, n["anchor"]) for cid, lst in notes_by_chap.items()
@@ -518,44 +648,52 @@ def main(epub_path):
         write(os.path.join(oebps, "colophon.xhtml"),
               render_colophon(back_matter), "Colophon")
 
-    # spine order
+    # spine order: every chapter (translated or skeleton) is in the spine.
     docs = [("titlepage.xhtml", "Title Page"),
             ("contents.xhtml", "Contents")]
-    docs += [(c["id"] + ".xhtml", c["title_en"]) for c in chapters]
-    docs += [("pending.xhtml", "Not yet translated"),
-             ("notes.xhtml", "Notes"),
+    docs += [(c["id"] + ".xhtml", c["title_en"]) for c in structure]
+    docs += [("notes.xhtml", "Notes"),
              ("backmatter.xhtml", "Translator's Note and Glossary")]
     if have_backmatter:
         docs += [("errata.xhtml", "Errata"), ("colophon.xhtml", "Colophon")]
 
-    # e-reader nav: full chapter-level TOC (all eight), pending ones point at
-    # the placeholder so they are navigable and honest.
+    # e-reader nav: the full TOC, nested part -> chapter -> section -> subsection.
+    # Every entry links to a real anchor (content or skeleton), so the whole
+    # book is navigable from the survey build onward.
+    def sec_nav(chap):
+        cid = chap["id"]
+        here = ids_present.get(cid, set())
+        items = []
+        for sec in chap.get("sections", []):
+            sub = ""
+            if sec.get("subsections"):
+                sub = "<ol>" + "".join(
+                    ('<li><a href="%s.xhtml#%s">%s</a></li>'
+                     % (cid, esc(s["id"]), esc(s["title_en"]))
+                     if s["id"] in here
+                     else '<li>%s</li>' % esc(s["title_en"]))
+                    for s in sec["subsections"]) + "</ol>"
+            if sec["id"] in here:
+                items.append('<li><a href="%s.xhtml#%s">%s</a>%s</li>'
+                             % (cid, esc(sec["id"]), esc(sec["title_en"]), sub))
+            else:
+                items.append('<li>%s%s</li>' % (esc(sec["title_en"]), sub))
+        return "<ol>" + "".join(items) + "</ol>" if items else ""
+
     nav_items = ['<li><a href="titlepage.xhtml">Title Page</a></li>',
                  '<li><a href="contents.xhtml">Contents</a></li>']
-    for chap in structure:
-        cid = chap["id"]
-        if cid in translated:
-            nav_items.append('<li><a href="%s.xhtml">%s</a>'
-                             % (cid, esc(chap["title_en"])))
+    for part_label, chaps in part_groups(structure):
+        chap_lis = []
+        for chap in chaps:
+            pend = "" if chap["id"] in translated else " (pending)"
+            chap_lis.append('<li><a href="%s.xhtml">%s%s</a>%s</li>'
+                            % (chap["id"], esc(chap["title_en"]), pend,
+                               sec_nav(chap)))
+        if part_label:
+            nav_items.append('<li><span>%s</span><ol>%s</ol></li>'
+                             % (esc(part_label), "".join(chap_lis)))
         else:
-            nav_items.append('<li><a href="pending.xhtml">%s '
-                             '(not yet translated)</a>'
-                             % esc(chap["title_en"]))
-        # section-level sub-entries: linked when the section is done, shown as
-        # pending otherwise, so the reader can jump straight to any section.
-        if chap.get("sections"):
-            done_secs = sec_done.get(cid, set())
-            subs = []
-            for sec in chap["sections"]:
-                if cid in translated and sec["id"] in done_secs:
-                    subs.append('<li><a href="%s.xhtml#%s">%s</a></li>'
-                                % (cid, esc(sec["id"]), esc(sec["title_en"])))
-                else:
-                    subs.append('<li><a href="%s">%s (not yet translated)</a></li>'
-                                % ("%s.xhtml" % cid if cid in translated
-                                   else "pending.xhtml", esc(sec["title_en"])))
-            nav_items.append("<ol>" + "".join(subs) + "</ol>")
-        nav_items.append("</li>")
+            nav_items.extend(chap_lis)
     nav_items += ['<li><a href="notes.xhtml">Notes</a></li>',
                   '<li><a href="backmatter.xhtml">Translator\'s Note and '
                   'Glossary</a></li>']
@@ -568,7 +706,7 @@ def main(epub_path):
            '<li><a epub:type="titlepage" href="titlepage.xhtml">Title Page</a></li>'
            '<li><a epub:type="toc" href="contents.xhtml">Contents</a></li>'
            '<li><a epub:type="bodymatter" href="%s">Begin Reading</a></li>'
-           "</ol></nav>" % (chapters[0]["id"] + ".xhtml"))
+           "</ol></nav>" % (structure[0]["id"] + ".xhtml"))
     write(os.path.join(oebps, "nav.xhtml"), nav, "Contents")
 
     ncx = "".join(

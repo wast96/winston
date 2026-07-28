@@ -50,17 +50,44 @@ needs, a glossary, and an honest apparatus for damaged or uncertain passages.
 The whole structure of the book is declared once in `book.json`; the build is
 driven entirely from it.
 
+## Step 0: the structural survey (do this FIRST, before any batch)
+
+Before a single word is translated, deliver a survey of the whole book so the
+commissioner can see its shape, know its size, and approve how it will be
+batched. This is a hard first step, not optional.
+
+1. **Build the complete structure in `book.json`.** Read the table of contents
+   and/or the PDF bookmarks and enter EVERY part, chapter, section and
+   subsection, in reading order, with each opener's `pdf_page` and `printed_page`
+   and both `title` (source) and `title_en`. Set `pdf_end`/`printed_end`.
+   Spot-verify openers by reading the folio off the scan (the offset drifts).
+2. **Run `scripts/survey.py`.** It reports the counts (parts / chapters /
+   sections / subsections), every unit's title and page length, and a proposed
+   batch breakdown, and writes `out/SURVEY.md`.
+3. **Build the skeleton EPUB:** `scripts/build_reading_epub.py`. With nothing
+   translated yet it produces a fully navigable EPUB whose table of contents
+   links every part, chapter, section and subsection (each to an outline page
+   showing its source page span). Run `qa_epub.py`; it must be green.
+4. **Present both to the commissioner in chat:** the counts/outline and the
+   proposed batches for approval, AND the skeleton EPUB itself as an attached
+   file (the hyperlinked TOC is the thing to review). Then STOP and wait for the
+   batch plan to be approved.
+5. **Only after approval**, write the Batch 1 kickoff message into `HANDOFF.md`
+   and begin. Do not start translating before the batches are approved.
+
 ## Workflow: the book runs in BATCHES
 
-Do the book a **batch at a time** (a chapter, or a run of sections, whatever is
-named). Each batch is done end to end and ships all of these together:
+Once the survey is approved, do the book a **batch at a time** (a chapter, or a
+run of sections, per the approved plan). Each batch is done end to end and ships
+all of these together:
 
 1. Clean English translation of the batch: `out/<id>_reading.md`.
 2. Footnotes for the batch, folded into `notes.json`.
 3. New/changed glossary rows in `glossary.json`; figure specs in `figures.json`.
 4. The relevant checks run, and their results recorded in `PROGRESS.md`.
 5. A rebuilt cumulative EPUB whose FULL table of contents links the translated
-   units and shows the rest as visibly pending.
+   units (and still links every not-yet-translated unit to its skeleton outline,
+   so the whole book stays navigable).
 6. `qa_epub.py` green.
 7. An updated `HANDOFF.md`, whose first section is a **paste-ready kickoff
    message** for the next batch (see below), and a commit.
@@ -220,12 +247,17 @@ form and rebuild.
 
 ## Build — the cumulative EPUB
 
-- `scripts/build_reading_epub.py` produces one XHTML per translated unit, all in
-  one spine, one cumulative EPUB (**[SET PER PROJECT]** filename, default
+- `scripts/build_reading_epub.py` produces one XHTML per chapter, all in one
+  spine, one cumulative EPUB (**[SET PER PROJECT]** filename, default
   `out/book.epub`), driven by `book.json`.
-- **Every build ships a FULL table of contents**: translated units linked (down
-  to the section), untranslated ones visibly pending. The e-reader navigation is
-  nested to section level. The whole shape of the book is always on view.
+- **Every build ships a FULL, hyperlinked table of contents**, nested part →
+  chapter → section → subsection and grouped by part. Every chapter has a page:
+  a translated chapter shows its content; an untranslated one shows a skeleton
+  outline with its source page span. So the TOC is navigable from the very first
+  (survey) build, and stays fully linked as chapters fill in (a partly-translated
+  chapter links only the sections it has and shows the rest as pending). It never
+  links an anchor that does not exist (which `qa_epub.py` would reject).
+- The survey/skeleton build needs no translated chapters; run it in Step 0.
 - Footnote numbering is continuous; `qa_epub.py` checks every ref has a body and
   every body a backlink, and that numbering is sequential in reading order.
 - The builder REFUSES to build on an unmatched note anchor (a silent-skip builder
