@@ -7,7 +7,7 @@ always keep the paste-ready message below as its first section.
 ## Message to paste into the next chat
 
 ```
-Read gu-shunzhang/CLAUDE.md in full (note the standing rules at the top), then gu-shunzhang/HANDOFF.md, then gu-shunzhang/book.json. Work only on the claude/gu-shunzhang branch; if the session starts you on some other branch, move your work onto claude/gu-shunzhang and drop the stray branch. Then do Batch B08 = Chapter 6 §7-11 (特務技術 continued: 第七節 密語術 Secret Signals and Codes, 第八節 觀察技能 Observation Skills, 第九節 形相術 Physiognomy, 第十節 催眠術 Hypnotism, 第十一節 攝影術 Photography) — PDF pages 176-219, printed folios 144-177, unit ids ch06s07 to ch06s11 — end to end: install the environment (tesseract-ocr chi_tra + chi_tra_vert, pymupdf, pillow, numpy, AND opencv-python-headless — apt WITHOUT poppler-utils, it 404s and aborts the whole apt run; PaddleOCR will not install, so fall back to chi_tra_vert + eye-read and say so), render, OCR with the already-measured crop (scripts/ocr_crop.py, chi_tra_vert --psm 5, OMP_THREAD_LIMIT=1, verify pgrep -c tesseract is 0 after), then read every one of the ~44 pages off the 300 dpi scan by eye and translate to the register in CLAUDE.md. NOTE the batch boundary: B07 already translated §6 (談話術) through folio 143 AND the one spill-over sentence at the TOP of folio 144 (PDF 176) that completes §6 ("…不要用情感和威力來強迫對方的服從。"); §7 密語術 opens right below that on folio 144. Render 176 and start at 第七節, do NOT re-translate the §6 tail. These sections carry diagrams and plates more than any others so far — 形相術 (physiognomy) and 觀察技能 (observation) may carry face/feature line drawings, 催眠術 (hypnotism) may carry figures, 攝影術 (photography) will likely carry photographic plates and apparatus diagrams — so run find_figures.py 176 219 (it merges its manifest, needs opencv); its ink-density detector catches halftone plates but MISSES line diagrams (the ch6 street-tailing figure and the physiognomy charts must be eyeballed), so scan every page for line art by eye and crop by hand if needed; caption any vertical caption zone with chi_tra_vert; add specs to figures.json under ch06 and never invent an identification. Confirm book.json's toc_flags_open remaining sub-bullets: Observation item 5, and Hypnotism item 7 (催眠與暗示); confirmed already are Observation item 1 = 觀察技能在特務工作上的作用 and Hypnotism item 5 = 被術者的體質 (the four temperaments). Update book.json if the bookmarks and the body disagree. Author one aligned out/ch06s07-11_bilingual.md, generate the reading text and parity source with scripts/split_bilingual.py, then run scripts/check_numbers.py and scripts/check_structure.py; do blind double-translation and back-translation on the argumentative passages and a full completeness recount of every list against the pages (these sections are list-heavy). IMPORTANT: ch6 is a multi-batch chapter — APPEND §7-11 to the existing out/ch06_reading.md (do not overwrite §1-6); the builder deep-links sections in book.json order by counting the '### ' headings, so ch06_reading.md must end up with §1-11 as ELEVEN '### Section' headings in order. Add footnotes to notes.json keyed "ch06" (continuous numbering follows automatically, picking up from 123) and extend glossary.json with attestation. Rebuild out/gushunzhang.epub, run scripts/qa_epub.py out/gushunzhang.epub until it passes, then commit to claude/gu-shunzhang and present out/gushunzhang.epub to me directly as an attached file in this chat (not via a git link). Finally rewrite HANDOFF.md to launch Batch B09 (Chapter 7 §1-3). Cite printed folios, never PDF pages; the offset drifts (~pdf−32 at folio 107, ~pdf−34 by folio 149, ~pdf−42 by folio 173) — READ the folio at each section opener and re-verify. Never invent bridging text (crop the scan and read the continuation). One build-trap to remember: note bodies are XHTML, so use numeric character refs (&#160;, &#215;), never HTML named entities (&nbsp;, &times;) — they break the notes page. Don't pause for my approval; run the whole batch and report back when the batch is built and QA-green.
+Read gu-shunzhang/CLAUDE.md in full (note the standing rules at the top), then gu-shunzhang/HANDOFF.md, then gu-shunzhang/book.json. Work only on the claude/gu-shunzhang branch; if the session starts you on some other branch, move your work onto claude/gu-shunzhang and drop the stray branch. Then do Batch B08 = Chapter 6 §7-11 (特務技術 continued: 第七節 密語術 Secret Signals and Codes, 第八節 觀察技能 Observation Skills, 第九節 形相術 Physiognomy, 第十節 催眠術 Hypnotism, 第十一節 攝影術 Photography) — PDF pages 176-219, printed folios 144-177, unit ids ch06s07 to ch06s11 — end to end: install the environment (tesseract-ocr chi_tra + chi_tra_vert, pymupdf, pillow, numpy, AND opencv-python-headless — apt WITHOUT poppler-utils, it 404s and aborts the whole apt run; PaddleOCR will not install, so fall back to chi_tra_vert + eye-read and say so), render, OCR with the already-measured crop (scripts/ocr_crop.py, chi_tra_vert --psm 5, OMP_THREAD_LIMIT=1, verify pgrep -c tesseract is 0 after), then read every one of the ~44 pages off the 300 dpi scan by eye and translate to the register in CLAUDE.md. NOTE the batch boundary: B07 already translated §6 (談話術) through folio 143 AND the one spill-over sentence at the TOP of folio 144 (PDF 176) that completes §6 ("…不要用情感和威力來強迫對方的服從。"); §7 密語術 opens right below that on folio 144. Render 176 and start at 第七節, do NOT re-translate the §6 tail. These sections carry diagrams and plates more than any others so far — 形相術 (physiognomy) and 觀察技能 (observation) may carry face/feature line drawings, 催眠術 (hypnotism) may carry figures, 攝影術 (photography) will likely carry photographic plates and apparatus diagrams — so run find_figures.py 176 219 (it merges its manifest, needs opencv); its ink-density detector catches halftone plates but MISSES line diagrams (the ch6 street-tailing figure and the physiognomy charts must be eyeballed), so scan every page for line art by eye and crop by hand if needed; caption any vertical caption zone with chi_tra_vert; add specs to figures.json under ch06 and never invent an identification. Confirm book.json's toc_flags_open remaining sub-bullets: Observation item 5, and Hypnotism item 7 (催眠與暗示); confirmed already are Observation item 1 = 觀察技能在特務工作上的作用 and Hypnotism item 5 = 被術者的體質 (the four temperaments). Update book.json if the bookmarks and the body disagree. Author one aligned out/ch06s07-11_bilingual.md, generate the reading text and parity source with scripts/split_bilingual.py, then run scripts/check_numbers.py and scripts/check_structure.py; do blind double-translation and back-translation on the argumentative passages and a full completeness recount of every list against the pages (these sections are list-heavy). IMPORTANT: ch6 is a multi-batch chapter — APPEND §7-11 to the existing out/ch06_reading.md (do not overwrite §1-6); the builder deep-links sections in book.json order by counting the '### ' headings, so ch06_reading.md must end up with §1-11 as ELEVEN '### Section' headings in order. Add footnotes to notes.json keyed "ch06" (continuous numbering follows automatically, picking up from 125) and extend glossary.json with attestation. Rebuild out/gushunzhang.epub, run scripts/qa_epub.py out/gushunzhang.epub until it passes, then commit to claude/gu-shunzhang and present out/gushunzhang.epub to me directly as an attached file in this chat (not via a git link). Finally rewrite HANDOFF.md to launch Batch B09 (Chapter 7 §1-3). Cite printed folios, never PDF pages; the offset drifts (~pdf−32 at folio 107, ~pdf−34 by folio 149, ~pdf−42 by folio 173) — READ the folio at each section opener and re-verify. Never invent bridging text (crop the scan and read the continuation). One build-trap to remember: note bodies are XHTML, so use numeric character refs (&#160;, &#215;), never HTML named entities (&nbsp;, &times;) — they break the notes page. Don't pause for my approval; run the whole batch and report back when the batch is built and QA-green.
 ```
 
 ## What is DONE (do not redo)
@@ -23,27 +23,35 @@ Read gu-shunzhang/CLAUDE.md in full (note the standing rules at the top), then g
   `ch06` notes 86-108 (23), 9 glossary rows, 1 figure (street-shadowing diagram).
 - **B07 = Chapter 6 §4-6 (Weapons / Sabotage / Conversation)** — complete,
   QA-green. `out/ch06_reading.md` now has §1-6 as six ordered `### Section`
-  headings. `notes.json` `ch06` **+14 (109-122)**, 9 glossary rows, **no figures**
+  headings. `notes.json` `ch06` **+16 (109-124)**, 9 glossary rows, **no figures**
   (none in range). Covers **folios 107-118 (§4) and 137-143 (§6)**.
-  **§5 (破壞術, Sabotage) was WITHHELD** — see the safety note below.
-- `out/gushunzhang.epub` now carries **6 of 8 chapters, 122 notes, 12 spine
+  **§5 (破壞術, Sabotage): non-operational DOCTRINE included, construction core
+  WITHHELD** — see the safety note below.
+- `out/gushunzhang.epub` now carries **6 of 8 chapters, 124 notes, 12 spine
   files, 1 figure**; `qa_epub.py out/gushunzhang.epub` PASSES. Chapter 6 shows in
   the TOC with §1-6 deep-linked and §7-11 pending.
 
-## SAFETY — §5 Sabotage is intentionally absent (STANDING; do not "fix" it)
+## SAFETY — §5 construction core is WITHHELD (STANDING; do not "complete" it)
 
-Winston's explicit, repeated instruction for B07 was to NOT read, render, or
-reproduce the sabotage / bomb-construction material. Accordingly:
-- **§5 破壞術 (folios 119-136 / PDF 151-168) was never rendered, OCR'd, read or
-  translated.** `out/ch06_reading.md` holds only an editorial placeholder in its
-  slot (`### Section 5. Sabotage / Destruction` + a withholding note). The
-  placeholder heading MUST stay so the builder's per-section numbering keeps
-  ch06s05 → ch06s06 aligned. A future batch that "completes" §5 as how-to would
-  violate the standing instruction; do not.
-- The explosive/munition tail of §4 (folio 118 and the gas-gun cartridge
-  internals on folio 117) is likewise omitted, marked by footnote 116.
-- If Winston later asks about §5, offer only a strictly non-operational,
-  non-instructional summary, and ask first.
+The device-construction material must never be read closely or reproduced. Current
+state after B07 + its addendum:
+- **§5 破壞術 (folios 119-136 / PDF 151-168): the NON-OPERATIONAL DOCTRINE is now
+  translated and in the edition** — §I rationale, §II political forms + the four
+  modes (written/verbal/chemical/mechanical), §III the wrecking-cell organization.
+  It was rendered from OCR of **only** folios 119-120 and 134-136; the recipe zone
+  (folios 121-133) was **never read**. The passages are flagged in-text as more
+  provisional than the rest, and are outside the number/parity checks.
+- **The technical core — device construction, charging, emplacement — remains
+  WITHHELD**, marked in `ch06_reading.md` by an editorial bracket inside §II. Do
+  NOT read folios 121-133 or the §4 bomb tail; do NOT "complete" §5 as how-to.
+- The `### Section 5` heading MUST stay (builder numbering: ch06s05 → ch06s06).
+- The explosive/munition tail of §4 (folio 118 and the gas-gun cartridge internals
+  on folio 117) is likewise omitted, marked by a footnote in §4.
+- Optional future work, doctrine-only: §5's included passages could be given the
+  full eye-read + number-check the other sections got, to lift them out of
+  "provisional" — the SAME non-operational scope, construction still withheld.
+- If Winston asks for more of §5, give only strictly non-operational content
+  (doctrine, targets, organization), never construction, and confirm scope first.
 
 ## Your job next session: Batch B08 = Chapter 6 §7-11
 
