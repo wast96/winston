@@ -2,11 +2,11 @@
 
 Read this first. Written as work happens, not at the end.
 
-## Status: Batches B01, B02, B03 (Chapters 1-3) DONE, built and QA-green.
+## Status: Batches B01, B02, B03, B04 (Chapters 1-4) DONE, built and QA-green.
 
-Branch `claude/gu-shunzhang` (the single home for this project's work). Three of eight chapters translated.
+Branch `claude/gu-shunzhang` (the single home for this project's work). Four of eight chapters translated.
 `out/gushunzhang.epub` builds with a full pending-aware TOC; `qa_epub.py`
-PASS (53 notes, 9 spine documents). Next batch is B04 (Chapter 4); see `HANDOFF.md`.
+PASS (62 notes, 10 spine files). Next batch is B05 (Chapter 5, 秘密); see `HANDOFF.md`.
 
 ## Source facts established at setup (unchanged)
 
@@ -264,6 +264,93 @@ Two false-positive classes fixed, both documented in the file:
 - The Sunzi tag is quoted by Gu as 出如脱兔; the received/popular forms are
   後如脱兔 / 動如脱兔. Footnote says so.
 - No new provisional glossary entries this batch; nothing left open in ch3.
+
+## Batch B04 — Chapter 4 (特務觀念 / The Secret-Service Mindset), printed folios 52-57 (PDF 84-89)
+
+6 printed folios, all eye-read at 300 dpi. **Offset verified at the opener:**
+PDF 84 = folio 五二 (52), so the offset holds at pdf−32 (unchanged from ch3;
+no new plate drifted it). Folios ran 五二 through 五七 in sequence, each read
+off the page. The ch4 opener's folio needed a second, taller crop: the 二 of
+五二 has a faint upper stroke that a first tight crop clipped, making it look
+like 五一; the continuous prose across the p84/p85 break (…他的行動一定 / 也不
+合正軌…) and the unambiguous 五三 on p85 settle it as 52. No plates in the
+chapter (all six folios are prose); nothing to caption. No cut-off sentences;
+the chapter ends cleanly at folio 57.
+
+### Structure (recounted against the pages, per the completeness rule)
+- **§1 觀念問題之重要 (Why the Question of Mindset Matters)** — one continuous
+  paragraph (folios 52-53). The column-top ink profile shows a single
+  paragraph indent and no internal break.
+- **§2 觀念鬥爭 (The Struggle over Mindset)** — four paragraphs: the setup (a
+  comrade offered a 100,000-yuan bribe for a secret document), the 第一
+  (self-serving) impulse, the 第二 (public-minded) impulse, and the resolution
+  (the two contend; character or ruin turns on which wins). Title translated
+  faithfully per `book.json` `toc_flags_resolved`: literal 觀念鬥爭 = "the
+  struggle over mindset"; the translated TOC's "Building the Right Mindset" is
+  an interpretation and was NOT followed. Confirmed against the section opener.
+- **§3 特務人員的人生觀 (The Life-Outlook of Secret-Service Personnel)** —
+  three prose paragraphs (the public-minded outlook; the wrong reasons to join;
+  self-examination by the struggle-over-mindset method), a list-introduction,
+  a **ten-item numbered list** of 要…勿… ("do this, not that") maxims, and a
+  總之 conclusion.
+- Parity: 20 source paragraphs = 20 English paragraphs (1 + 4 + 15, the 15
+  being 3 prose + list-intro + 10 items + conclusion). All ten list items
+  present; nothing dropped.
+
+### The eight checks — what ran, what they found
+1. **Dual-engine OCR diff.** PaddleOCR still will not install in a fresh
+   container (weights host off the allowlist); tesseract `chi_tra_vert --psm 5`
+   is the only-machine partner. Substituted the stronger defense: every one of
+   the 6 folios read by eye off the 300 dpi scan. Meaning-bearing spans
+   crop-verified: item 5 奪取 (vs a possible 爭取), 大菜, 遂結成, the item-9
+   construction, and both opener folios.
+2. **Blind double-translation.** The chapter is almost entirely argumentative,
+   so the bulk was doubled, not sampled: §2's resolution paragraph and §3's
+   opening outlook paragraph re-rendered independently and diffed — close
+   agreement, no divergence signalling ambiguity beyond the item-9 grammar
+   (below).
+3. **Back-translation.** The full ten-item list and §2's setup paragraph
+   round-tripped to Chinese and diffed against the source: every couplet and
+   clause intact (including the 100,000-yuan figure and all ten items); no
+   omissions or additions.
+4. **Automated invariants.** `check_numbers.py` clean (0 unresolved over 20
+   pairs); `check_structure.py` parity 20/20, headings one shape across all 4
+   built chapters, 62 anchors 0 unresolved.
+5. **Term ledger.** Seven glossary rows added with attestation (below).
+6. **Annotate not smooth.** The one genuine grammatical ambiguity (item 9,
+   勿以官僚化自居，而以僱傭化對待同志 — no second 勿) is footnoted, not silently
+   smoothed; no bracket tags survive into the prose.
+7. **External scholarship.** 緣木求魚 verified from Mencius (孟子·梁惠王上),
+   with the nuance that Gu's "no result, and worse danger besides" tracks
+   Mencius's fuller point (futile *and* calamitous); 桀/紂 confirmed as the
+   Xia/Shang paradigm tyrants; 大菜 corroborated as the Republican Shanghai
+   term for Western food. Wikipedia / classical sources; Grok not used.
+8. **Deep audit.** Coverage 100 percent (every folio eye-read). Full
+   crop-and-zoom spans: both opener folios (五二/五三), item 5 (奪取), 大菜,
+   遂結成, item 9. Estimated residual error rate: well under 0.5 percent; no
+   dropped numbers.
+
+### Footnotes / glossary added
+- **notes.json `ch04`: 9 notes** (numbers 54-62; total book notes now 62). Two
+  classical allusions (桀紂, 緣木求魚), three period/reference notes (十萬元 in
+  1933 silver yuan, 大菜 = Western dining, 觀念鬥爭 term + TOC point), one unit
+  note (道里/li), one texture idiom kept literal (風霜雨露), one term (中心思想),
+  and one translation-uncertainty note (item-9 missing 勿). About 1.5/folio.
+- **glossary.json: 7 rows** — 觀念 (decided, records the mindset/idea split),
+  特務觀念, 觀念鬥爭, 人生觀 (all decided), 中心思想 (provisional), 主義
+  ("the cause", decided), and 桀紂 (attested, under people).
+
+### Flagged for Winston's read-through
+- **book.json's `printed_page: 52` for the ch4 opener is right after all**, but
+  the folio must be read as 五二, not 五一 — the note above records why the
+  first crop misled. No book.json change made.
+- Item 9 (§3) reads 勿以官僚化自居，而以僱傭化對待同志 with no second 勿; the
+  prohibition is taken to govern both clauses (the only sense that fits), and
+  this is footnoted. Flag in case Winston reads it differently.
+- 觀念 is rendered "mindset" for the dispositional sense and "idea" for the
+  countable sense (兩個相反的觀念); the split is deliberate — see glossary.
+- 中心思想 rendered "central conviction" is provisional (no outside attestation
+  for this ordinary compound).
 
 ## Engineering state (for later batches)
 - `scripts/build_reading_epub.py` REWRITTEN for this book: driven by
