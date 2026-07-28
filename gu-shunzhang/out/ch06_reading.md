@@ -392,7 +392,61 @@ The charges must be kept in a dark place, out of the sunlight and out of the dam
 
 ### Section 5. Sabotage / Destruction
 
-*This section of the original — 破壞術, the art of destruction, a technical treatment of sabotage consisting largely of instructions for the construction and placement of explosive devices — has been deliberately withheld from this edition. It is dangerous how-to content of a kind this translation does not reproduce. Its slot in the book's structure is kept so that the numbering and cross-references of the surrounding sections stay intact; only the instructional content is withheld.*
+*Editorial note: 破壞術, the art of destruction, is where the original turns most dangerous — its core is the construction, charging, and placement of explosive and chemical devices. That technical material is withheld from this edition as how-to content this translation does not reproduce. What follows is the section's surrounding doctrine: what sabotage is for, its political forms, the modes it takes, and how a wrecking unit is chosen and run. Unlike the rest of the book, these passages were set down from OCR under a deliberate limit of not closely reading the construction pages, and are therefore more provisional than elsewhere.*
+
+#### I. What Sabotage Means in Secret-Service Work
+
+The foremost aim of secret-service work is to wipe out every enemy and to safeguard the Party's recovery and keeping of political power, that it may carry its cause through without a check. Of the ways to wipe out the enemy within this work there are many. Some take a direct form — reconnoitering the enemy's situation and, under close watch, bringing him to sanction. Others take an indirect form, such as the sabotage this section treats. Sabotage, then, we may call a technique for eliminating the enemy by indirect means, and its significance is very great. Whoever takes up this work must study it closely and go about it soberly; he must never be slack or careless, and least of all may he boast of the thing before it is done, and so let it leak out.
+
+#### II. The Kinds of Sabotage
+
+Political sabotage — turning the enemy's every political weakness into our best opening against him — is the most important kind of all. Under it:
+
+1. Strike at the enemy's leaders, so that, their head gone, the rest scatter like birds and beasts.
+
+2. Wreck their organizations and their organs, so that their work is left with nowhere to stand.
+
+3. Break the enemy up from within, so that their unity will not hold and their strength is dispersed.
+
+4. Set faction against faction and work division among them, aggravating the contradictions within their party and government, so that they lose the people's trust and their foundation is shaken at the root.
+
+5. Send worker-comrades in numbers deep into the enemy's body, to carry out every sort of small-cell disruption.
+
+6. Buy their lower ranks with money, to do sabotage of every kind.
+
+7. Having assassinated an enemy leader, put out false word that the killing at the enemy's own center was murder from within — a case of their cutting one another down — and so stir up their internal strife.
+
+*[Here the source passes to the physical and chemical means of destruction themselves — the making, charging and placing of the devices. That material is withheld from this edition; see the note above.]*
+
+By way of summary, the techniques of sabotage divide into four kinds — the written, the verbal, the chemical, and the mechanical — though in practice a single piece of work needs several of them at once to reach its end, and they are set apart here only for convenience of explanation. And mark this above all: in carrying out sabotage one must use the subtlest and most hidden methods, moving the fewest pieces to win the greatest success.
+
+#### III. The Organization for Sabotage
+
+The number in each cell is fixed by the actual work; best is a cell of three to five. The cells do not know one another; only the person in charge knows the whole; and the more responsible members are kept apart — for otherwise, the moment something goes wrong, the work is easily brought into danger.
+
+1. The choosing of personnel. Sabotage is very hard work, not to be handed to just anyone; a man must meet certain conditions. To take the chief of them:
+
+(a) He must hold a firm political faith, for only out of such faith can a special resolve be born.
+
+(b) Bold of heart yet careful of mind, brave and decisive in action.
+
+(c) Of strong will, and firm in his resolve.
+
+(d) Without kin and without ties, without a care or a worry, looking on death as a homecoming.
+
+(e) Seasoned by experience, equal to any turn of events, deep in his knowledge of the world.
+
+(f) Clever and quick, adapting to the moment, full of resource.
+
+2. The training of personnel. On the conditions above one sets the standard of training: one seeks out the right men, has them learn every kind of specialized skill, and then puts them to solid practical test. Their living should be made easy, that they may keep a professional spirit. Shun above all the man who begins like a tiger and ends like a snake, and the soft temper of the bookish scholar.
+
+3. The conduct of sabotage. The comrade who shoulders this work must mind the principles of action:
+
+(a) Secrecy — the principle never to be forgotten. If, in doing a piece of sabotage, we fail to keep it close and let others come to know of it, the enemy is sure to guard against it closely; the work then fails of its aim, and the operator instead comes to harm — and is that not a great loss to the work?
+
+(b) Speed — this work is wholly a race against time; it must be done nimbly, catching the enemy unprepared, so that swiftly and deftly the thing is brought off.
+
+(c) Cleverness — to this add our own resourcefulness: turn the enemy's every circumstance to account, meet his scheme with a scheme of our own, and by the subtlest methods, in each differing setting, accomplish the task.
 
 ### Section 6. The Art of Conversation
 

@@ -40,6 +40,10 @@ project-structural changes.
   whole-batch eye-read (Paddle unavailable). No figures in range.
 - Fixed a build-breaker: HTML named entities (`&nbsp;`, `&times;`) in note bodies
   are undefined in XHTML; use numeric refs (`&#160;`, `&#215;`).
+- **Addendum:** §5 (破壞術) non-operational doctrine (rationale, political forms,
+  four modes, cell organization) translated into the edition at Winston's request;
+  the device-construction core stays withheld. notes.json ch06 +2 (total 124).
+
 
 ## 2026-07-27 — Batch B01: Chapter 1 (緒論, Introduction) translated and built
 

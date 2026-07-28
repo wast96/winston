@@ -476,7 +476,7 @@
     },
     {
       "anchor": "the art of destruction",
-      "note": "<b>Translator's note.</b> Section 5 of the original, 破壞術 (&#8220;the art of destruction&#8221; &#8212; sabotage), is given over almost entirely to instructions for building and placing explosive devices. It has been withheld in full from this edition as dangerous how-to content; its heading is kept only to preserve the book's section numbering and cross-references."
+      "note": "<b>Translator's note.</b> Only the non-technical doctrine of Section 5 is given in this edition: its rationale, its political forms, the four modes it names, and the organization of a sabotage cell. The section's technical core — the construction, charging and emplacement of explosive and chemical devices — is withheld as dangerous how-to content. Unlike the rest of the book, these passages were rendered from OCR under a deliberate limit of not closely reading the construction pages, so the readings are more provisional than elsewhere."
     },
     {
       "anchor": "A hundred sicknesses enter by the mouth",
@@ -497,6 +497,14 @@
     {
       "anchor": "To interrogate a political prisoner by torture and beating can settle nothing",
       "note": "The passage is notable in that the author &#8212; formerly the Communist Party's own security and assassination chief before his 1931 defection &#8212; expressly rejects torture (非刑拷打) in favour of interrogation by conversation and rapport-building. 政治犯 (&#8220;political prisoner&#8221;) is the period term for those detained for their party affiliation or activity."
+    },
+    {
+      "anchor": "bringing him to sanction",
+      "note": "&#8220;Sanction&#8221; renders 制裁 (<i>zhicai</i>), the manual's standing euphemism for killing &#8212; the liquidation of a target. The book sets it against 破壞 (sabotage) as the <i>direct</i> way of eliminating an enemy, sabotage being the indirect."
+    },
+    {
+      "anchor": "looking on death as a homecoming",
+      "note": "視死如歸, a classical idiom (found in the <i>Guanzi</i> and the <i>Han Feizi</i>, and famous from the <i>Records of the Three Kingdoms</i>) for one who faces death without fear, &#8220;as if going home.&#8221; Here it is listed, coldly, as a hiring qualification for a saboteur &#8212; alongside &#8220;without kin and without ties.&#8221;"
     }
   ]
 }

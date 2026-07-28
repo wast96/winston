@@ -625,3 +625,27 @@ The Art of Conversation). **§5 (第五節 破壞術, Sabotage) was DELIBERATELY
   provisional, could be a brand.
 - The source's handgun "六寸/四寸" (six-/four-inch) size classes are rough trade
   categories, not exact; footnoted alongside the 7.65 / 6.35 mm calibres.
+
+---
+
+## B07 addendum — §5 non-operational doctrine transcribed into the edition
+
+At Winston's direction, the §5 (破壞術) placeholder was replaced with the section's
+**non-operational doctrine**, translated and included: §I rationale (why sabotage;
+the direct-vs-indirect framing, 制裁 "sanction" = assassination), §II the political
+forms (decapitation, wrecking organs, sowing division, bribery, disinformation,
+provoking infighting) and the four modes (written / verbal / chemical / mechanical),
+and §III the organization of a wrecking cell (3-5-person compartmentalized cells;
+personnel profile incl. 視死如歸; training; the three principles secrecy / speed /
+cleverness). **The technical core — device construction, charging and emplacement —
+remains withheld**, marked in place by an editorial bracket; footnote (formerly the
+"withheld in full" note) revised to describe the partial inclusion.
+- These §5 passages were rendered from OCR under a deliberate limit of NOT closely
+  reading the construction pages (I read only folios 119-120 and 134-136; the recipe
+  zone, folios 121-133, was never read). They are flagged in-text as more provisional
+  than the rest of the book.
+- `notes.json` ch06 +2 (制裁 sanction, 視死如歸); the "art of destruction" note
+  revised. ch06 now 39 notes; book total **124**. qa_epub PASS (601 paragraphs).
+- Not run through check_numbers/parity (the §5 doctrine is a constrained transcription,
+  outside the bilingual); the only load-bearing figure, the 3-to-5 cell size, is
+  confirmed from OCR (三人至五人).
