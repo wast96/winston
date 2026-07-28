@@ -78,6 +78,11 @@ nav#toc ol ol li { font-size: 0.95em; }
 .colophon { text-align: center; margin-top: 2em; }
 .colophon .notice { border: 2px solid #444; display: inline-block; padding: 0.4em 1.6em; margin: 1em 0; font-size: 1.3em; letter-spacing: 0.3em; }
 .colophon p { text-indent: 0; }
+p.dateline { text-indent: 0; text-align: center; font-style: italic; color: #555; margin: 2em 0 1.2em; letter-spacing: 0.02em; }
+p.brk { text-indent: 0; text-align: center; color: #999; margin: 1.5em 0; letter-spacing: 0.5em; }
+.epigraph { text-align: center; margin: 4em 1.2em 0; }
+.epigraph p { text-indent: 0; font-style: italic; color: #444; margin: 0.4em 0; font-size: 1.2em; letter-spacing: 0.03em; }
+ol.contents li.epig { margin-top: 0.9em; font-style: italic; color: #555; }
 """
 
 XHTML = """<?xml version="1.0" encoding="utf-8"?>
@@ -196,15 +201,42 @@ def render_skeleton(chap):
     return "\n".join(out), ids
 
 
+def render_epigraph(md_path):
+    """Render a front epigraph / dateline page (e.g. the book's opening
+    '1933 / Around the Lunar New Year'): the source's own scene-setting lines,
+    centered, with no chapter heading and no note anchors. Every non-blank line
+    becomes a centered line; a leading '## ' marker, if present, is stripped."""
+    lines = []
+    for raw in open(md_path):
+        line = raw.strip()
+        if not line:
+            continue
+        if line.startswith("## "):
+            line = line[3:]
+        elif line.startswith("#"):
+            continue
+        lines.append("<p>%s</p>" % esc(line))
+    return '<div class="epigraph">%s</div>' % "".join(lines), set()
+
+
 def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
-                ids=None):
+                ids=None, scenes=None):
     """Render one chapter's reading markdown to XHTML.
 
     section_ids / sub_ids are the chapter's book.json section and subsection ids,
     consumed in order as '### ' and '#### ' headings are met, so the contents
     page can deep-link each section and subsection. Either list may be empty,
     in which case the matching heading gets no id (linked at the coarser level).
+
+    scenes (from scenes.json) marks the source's own scene structure: its
+    'datelines' are the terse time/place lines that head a scene (rendered
+    distinctly, centered), and its 'breaks' are anchor prefixes before which a
+    hard scene cut gets a centered divider. The source carries no typographic
+    dividers of its own; this restores the scene rhythm without altering a word.
     """
+    scenes = scenes or {}
+    datelines = set(scenes.get("datelines", []))
+    breaks = list(scenes.get("breaks", []))
     out, first = [], True
     ids = ids if ids is not None else set()
     sids, ssids = list(section_ids), list(sub_ids)
@@ -237,6 +269,19 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
             continue
         if line.startswith("# "):
             continue
+        # A terse time/place scene-header line, rendered as a centered dateline.
+        if line in datelines:
+            out.append('<p class="dateline">%s</p>'
+                       % insert_notes(esc(line), notes, counter, doc))
+            first = True
+            continue
+        # A hard scene cut with no dateline of its own: a centered divider.
+        for i, anchor in enumerate(breaks):
+            if anchor is not None and line.startswith(anchor):
+                out.append('<p class="brk">*&#160;*&#160;*</p>')
+                breaks[i] = None
+                first = True
+                break
         for fig in figures:
             if not fig.get("placed") and fig["before"] in line[:80]:
                 out.append(
@@ -292,7 +337,7 @@ def render_contents(structure, translated, ids_present=None):
     time links only its finished sections and shows the rest as pending text
     (never a link to an anchor that does not exist, which qa_epub rejects)."""
     ids_present = ids_present or {}
-    n_ch = len(structure)
+    n_ch = sum(1 for c in structure if c.get("kind") != "epigraph")
     n_sec = sum(len(c.get("sections", [])) for c in structure)
     n_sub = sum(len(s.get("subsections", [])) for c in structure
                 for s in c.get("sections", []))
@@ -312,6 +357,10 @@ def render_contents(structure, translated, ids_present=None):
             parts.append('<li class="part">%s</li>' % esc(part_label))
         for chap in chaps:
             cid = chap["id"]
+            if chap.get("kind") == "epigraph":
+                parts.append('<li class="epig"><a href="%s.xhtml">%s</a></li>'
+                             % (cid, esc(chap["title_en"])))
+                continue
             here = ids_present.get(cid, set())
             done = cid in translated
             mark = "" if done else ' <span class="pending">&#183; pending</span>'
@@ -462,6 +511,7 @@ def main(epub_path):
     gloss = load_json("glossary.json", {})
     notes_by_chap = load_json("notes.json", {})
     figspec = load_json("figures.json", {})
+    scenes_by_chap = load_json("scenes.json", {})
 
     manifest_figs = []
     for chap in chapters:
@@ -500,14 +550,17 @@ def main(epub_path):
     ids_present = {}
     for chap in structure:
         doc = chap["id"] + ".xhtml"
-        if chap["id"] in translated:
+        if chap["id"] in translated and chap.get("kind") == "epigraph":
+            body, ids = render_epigraph(md_of(chap["id"]))
+        elif chap["id"] in translated:
             section_ids = [s["id"] for s in chap.get("sections", [])]
             sub_ids = [sub["id"] for s in chap.get("sections", [])
                        for sub in s.get("subsections", [])]
             body, ids = render_body(md_of(chap["id"]), section_ids, sub_ids,
                                     figspec.get(chap["id"], []),
                                     notes_by_chap.get(chap["id"], []),
-                                    counter, doc)
+                                    counter, doc,
+                                    scenes=scenes_by_chap.get(chap["id"]))
         else:
             body, ids = render_skeleton(chap)
         ids_present[chap["id"]] = ids

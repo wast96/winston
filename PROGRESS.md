@@ -130,3 +130,71 @@ backlinks; all links resolve).
 - The publisher discrepancy (上海文化 vs 上海文艺) is still open for the colophon.
 - Provisional English titles for later chapters remain to be settled as they arrive
   (Garrick, Jiaoli, Xiaotaoyuan, The Tanglong Door, The Guisheng).
+
+## Batch B02 (ch06 Identity, ch07 Old Fang, ch08 The Race Ticket)
+
+### Translation
+
+- 255 paragraphs (ch06 54, ch07 135, ch08 66), each one English paragraph per source
+  paragraph. Built with make_bilingual.py (verbatim source lines) then split_bilingual.py.
+- The prison letter and the "dice are out / there is a traitor" secret-writing line
+  recur here from ch05; rendered verbatim identical to ch05 for consistency.
+
+### Checks run and what they found
+
+- Paragraph parity (check_structure.py): ch06/07/08 all OK (54/135/66 both sides).
+- Number invariants (check_numbers.py --noise check_noise.txt): clean after adding to
+  the noise list 四下 ("on all sides"), 第二天 ("the next day"), 年三十 (New Year's Eve
+  date-name), 四川 (Sichuan, in 北四川路), and 二(?=岁) (the stray 二 the built-in 十多
+  rule orphans out of 二十多岁). Money in jiao/fen (五角, 两角五分) was rendered in cents
+  and passed on the existing idiom coverage; no real quantity was dropped.
+- Blind double-translation (two subagents, separate contexts) on the argumentative and
+  literary passages of all three chapters: no meaningful divergence from the delivered
+  text, no ambiguity flags. Confirms the readings.
+- Back-translation omission pass (subagent, English to Chinese, sample across the three
+  chapters): matched the source with no additions or omissions.
+- Consistency with scholarship (five subagents; Wikipedia, Baidu Baike, academic and
+  government sources; never Grok/Grokipedia): the footnote apparatus below.
+- Random-sample deep audit: the Lenin passage Chen Qianyuan is translating was traced
+  to the opening of "Letters from Afar" (First Letter, 1917) and set to the Collected
+  Works wording; the reused letter checked verbatim against ch05.
+
+### Footnote apparatus (expanded at the commissioner's request)
+
+- Grew from 13 notes to 46, across ch02 through ch08, each fact-checked and labelled
+  corroborated / uncorroborated / contradicted, and saying whether a person, place or
+  event is real or the novel's invention.
+- Real vs fictional established: the principals are invented against a real 1933 backdrop;
+  the appendix frames the book as homage to the real Longhua martyrs. Notable findings:
+  the garrison's "32nd Army" is the novel's own (the real NRA 32nd Army was in Hebei) and
+  is flagged contradicted; "Bao'en Pagoda" is a genuine traditional alternate name of the
+  Longhua Pagoda, not an error; the "World Hotel" is undocumented (likely the novel's) on
+  a real streetscape; the Four Banks' Savings Society building is the Park Hotel; the
+  Zhejiang, Grand and (rebuilt) buildings are Hudec's; the Turandot poster line paraphrases
+  the Act I executioner chorus (the San Carlo company is real, its 1933 Carlton run
+  unconfirmed). Ling Wen's novel "Winter" is a book within the book.
+- glossary.json expanded with the B02 referents; real figures/places moved to "attested"
+  with the fact behind them, fictional cast marked as such; three provisional street names.
+
+### Structure and typography (commissioner queries)
+
+- ch01 "1933 / Around the Lunar New Year" was rendering as a content-less chapter. It is a
+  front epigraph, not a chapter: it is absent from the source's own table of contents, and
+  no other chapter carries such a lead-in. Reframed as kind:"epigraph" in book.json; the
+  builder now renders it centered and lists it as an epigraph, excluded from the chapter
+  tally (now 36 chapters).
+- Scene rhythm: the digital source marks NO scene breaks typographically (every paragraph
+  is one style). It heads some scenes with terse time/place lines and hard-cuts the rest.
+  Added scenes.json, which drives (a) centered "datelines" for the source's own scene-header
+  lines and (b) centered scene breaks before hard cuts that have no dateline. B01 chapters
+  updated too (ch02 three datelines and seven breaks; ch04 two; ch05 three; ch07 two).
+  Editorial typography only: no word added, dropped, or changed.
+- build_reading_epub.py patched for datelines, scene breaks and the epigraph, plus a
+  reader-facing translator's note (real/fictional framing and the typography convention)
+  supplied via book.json "translator_note".
+
+### Build
+
+scripts/build_reading_epub.py out/thousand-li.epub: 8 of 37 units translated (epigraph +
+ch02-ch08), 46 notes. qa_epub.py: PASS (47 files, 42 documents; 46 references = 46 bodies =
+46 backlinks; numbering sequential in reading order; all links resolve).

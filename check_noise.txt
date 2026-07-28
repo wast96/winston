@@ -20,3 +20,14 @@
 颠三倒四
 # 百叶窗 / 百叶 = louvered shutter ("hundred leaves", not the count 100)
 百叶
+# 四下 = "on all sides / all around" (四 is idiom, not a count)
+四下
+# 第二天 = "the next day / the following day" (二 is an idiomatic ordinal, not a count)
+第二天
+# 年三十 = New Year's Eve (name of the last day of the lunar year, not the count 30)
+年三十
+# 四川 = Sichuan (place name in 北四川路 North Sichuan Road; 四 is not a count)
+四川
+# 二(?=岁): the built-in "十多" rule strips 十多 out of 二十多岁 ("twenty-odd years old")
+# and orphans a stray 二; this drops that artifact while a real 两岁 still counts.
+二(?=岁)

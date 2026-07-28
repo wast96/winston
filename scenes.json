@@ -1,0 +1,62 @@
+{
+  "_about": "Restores the source's scene rhythm in the reading edition. The digital source marks NO scene breaks typographically (every paragraph is the same style); it heads some scenes with terse time/place lines and hard-cuts the rest. 'datelines' lists those scene-header lines verbatim (rendered centered, distinct from body text). 'breaks' lists the opening words of paragraphs that begin a new scene at a hard cut with no dateline (a centered divider is inserted before them). Editorial typographic aids only: no word of the text is added, dropped, or changed.",
+
+  "ch02": {
+    "datelines": [
+      "The fifteenth of the last month of the year; only ten days or so remained until New Year's Eve.",
+      "Nine-forty in the morning, the roof garden of the World Hotel.",
+      "Five minutes to ten."
+    ],
+    "breaks": [
+      "Qin Chuan'an did not go in by the market entrance",
+      "At the far end of Tongchun Lane rose a high wall",
+      "Yi Junnian watched Ling Wen step into the elevator going down",
+      "This part of the market's second floor was all noodle stalls",
+      "Close on ten o'clock a motorcar drew up",
+      "Around ten o'clock the people coming to the meeting entered the room",
+      "Cui Wentai had been running behind Wei Dafu earlier"
+    ]
+  },
+
+  "ch03": {
+    "datelines": [
+      "The sixteenth of the last lunar month. From early morning the sky hung overcast, wrapped in heavy fog."
+    ],
+    "breaks": []
+  },
+
+  "ch04": {
+    "datelines": [],
+    "breaks": [
+      "Dong Huiwen was taken into an interrogation room",
+      "At noon the sunlight brought a thread of warmth to the gloomy cell"
+    ]
+  },
+
+  "ch05": {
+    "datelines": [],
+    "breaks": [
+      "Miss Tao came out of her cell wreathed in smiles",
+      "You Tianxiao had scarcely come out of Nanjing's Xiaguan Station",
+      "Ye Qinian moved back to the rear seat"
+    ]
+  },
+
+  "ch06": {
+    "datelines": [],
+    "breaks": []
+  },
+
+  "ch07": {
+    "datelines": [],
+    "breaks": [
+      "A month and more before, Chen Qianli had left the training school at Khabarovsk",
+      "On the visitor's instructions he came to Shanghai"
+    ]
+  },
+
+  "ch08": {
+    "datelines": [],
+    "breaks": []
+  }
+}
