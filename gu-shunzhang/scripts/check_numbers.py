@@ -24,6 +24,9 @@ WORD_NUM = {
     "second": 2, "third": 3, "first": 1, "lead": 1, "fourth": 4, "fifth": 5,
     "sixth": 6, "seventh": 7, "eighth": 8, "ninth": 9, "tenth": 10,
     "both": 2, "twice": 2, "neither": 2, "either": 2, "dozen": 12, "pair": 2,
+    # teen ordinal for regnal-year renderings ("the seventeenth year of the
+    # Jiajing reign", 嘉靖十七年); the built-in ordinals stop at "tenth".
+    "seventeenth": 17,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}
@@ -100,6 +103,17 @@ NOISE = [
     # the already-listed 十几). 萬計 ("numbering in the tens of thousands" —
     # indefinite idiom 以萬計, not a quantity 10000).
     r"二則", r"三則", r"十幾", r"萬計",
+    # ch7 §4 (B10). Underworld ethnography, dense with names/idioms carrying
+    # non-quantity numerals. 數十八 is a source MISPRINT (see footnote): it
+    # reads "some ten-and-eight," parses as no clean figure, and must be
+    # stripped WHOLE and BEFORE the 數[十百千] pattern below or an orphan 八
+    # (=8) is left behind. 四川 (Sichuan / North Sichuan Road), 四卡子橋 and
+    # 黃楚九 (Huang Chujiu) are proper names; 長三 (changsan) and 么二 (yao'er)
+    # are brothel-tier names romanised in the English; 零頭 (leavings), 萬古千秋
+    # and 萬象 are idioms; 數[十百千] ("some tens/hundreds/thousands") is an
+    # indefinite, the traditional form of the already-listed 数[...] group.
+    r"數十八", r"四卡子橋", r"黃楚九", r"萬古千秋", r"萬象",
+    r"四川", r"長三", r"么二", r"零頭", r"數[十百千]",
     # ch5: measure-word / fixed-term numerals that are not quantities.
     # 二房東 (a sub-landlord), 五倍子 (gallnut, a plant name), 五香 (five-spice,
     # a seasoning), 四週 (all around, = 四周 already listed but written 週 here).

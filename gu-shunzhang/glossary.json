@@ -62,6 +62,36 @@
    "pinyin": "Qián Zhuàngfēi",
    "status": "attested",
    "note": "CCP mole inside the Nationalist intelligence service whose warning, after Gu Shunzhang’s defection, saved the CCP’s Shanghai leadership. Named in a footnote. Standard pinyin."
+  },
+  "羅祖": {
+   "en": "Patriarch Luo",
+   "pinyin": "Luo Zu",
+   "status": "attested",
+   "note": "Legendary founder of the Green Gang, identified with the Luo-sect founder Luo Qing 羅清 (c.1443-1527). See ch07 note. Form 'Patriarch Luo' per zh.wikipedia.org/wiki/羅教."
+  },
+  "黃金榮": {
+   "en": "Huang Jinrong",
+   "pinyin": "Huang Jinrong",
+   "status": "attested",
+   "note": "1868-1953. French Concession detective and Green Gang boss, one of the 'three tycoons.' Pinyin form standard (en.wikipedia.org/wiki/Huang_Jinrong)."
+  },
+  "杜月笙": {
+   "en": "Du Yuesheng",
+   "pinyin": "Du Yuesheng",
+   "status": "attested",
+   "note": "1888-1951. Foremost of the Shanghai Green Gang 'three tycoons'; first introduced ch06. Pinyin form standard (en.wikipedia.org/wiki/Du_Yuesheng)."
+  },
+  "張嘯林": {
+   "en": "Zhang Xiaolin",
+   "pinyin": "Zhang Xiaolin",
+   "status": "attested",
+   "note": "1877-1940. Third of the Shanghai 'three tycoons'; later a collaborator, assassinated 1940. Pinyin form standard (baike.baidu.com/item/张啸林)."
+  },
+  "黃楚九": {
+   "en": "Huang Chujiu",
+   "pinyin": "Huang Chujiu",
+   "status": "attested",
+   "note": "1872-1931. Patent-medicine entrepreneur, founder of the Great World (大世界). The book notes he was NOT a gang member. baike.baidu.com/item/黄楚九."
   }
  },
  "organizations": {
@@ -196,6 +226,18 @@
    "pinyin": "Guómíndǎng",
    "status": "attested",
    "note": "The Kuomintang (KMT); the CCP’s adversary, whose intelligence service the book describes the CCP penetrating. Standard English form."
+  },
+  "三鑫公司": {
+   "en": "the Sanxin Company",
+   "pinyin": "Sanxin Gongsi",
+   "status": "attested",
+   "note": "Founded 1918; the opium-transport 'insurance' monopoly of the three tycoons in the French Concession. zh.wikipedia.org/wiki/三鑫公司."
+  },
+  "青紅幫": {
+   "en": "the Green and Red Gangs",
+   "pinyin": "Qing-Hong Bang",
+   "status": "decided",
+   "note": "The 青幫 and 紅幫 named together, as the book routinely does; components already in the ledger."
   }
  },
  "terms": {
@@ -662,6 +704,78 @@
    "pinyin": "Liúmáng yùndòng",
    "status": "decided",
    "note": "Organizing the lumpen underworld (toughs, gangsters, drifters) for secret-service ends. Rendered to match the manual’s register."
+  },
+  "九流三教": {
+   "en": "the nine streams and three teachings",
+   "pinyin": "jiuliu sanjiao",
+   "status": "decided",
+   "note": "Set phrase for the whole run of itinerant folk trades. Literal rendering kept."
+  },
+  "拆白黨": {
+   "en": "swindler gang",
+   "pinyin": "chaibai dang",
+   "status": "decided",
+   "note": "Professional seduction-and-badger swindler gangs. 'Swindler gang' throughout."
+  },
+  "仙人跳": {
+   "en": "the immortal's leap",
+   "pinyin": "xianren tiao",
+   "status": "decided",
+   "note": "The classic badger game/honeytrap-extortion. Literal image kept, glossed at ch07."
+  },
+  "花會": {
+   "en": "the flower-club lottery",
+   "pinyin": "huahui",
+   "status": "decided",
+   "note": "Illegal 36-'gate' numbers lottery of Republican Shanghai. baike.baidu.com/item/花会."
+  },
+  "番灘": {
+   "en": "fantan",
+   "pinyin": "fantan",
+   "status": "attested",
+   "note": "The Cantonese odd/even bead game; 'fantan' is the established English form (en.wikipedia.org/wiki/Fan-Tan)."
+  },
+  "長三": {
+   "en": "changsan",
+   "pinyin": "changsan",
+   "status": "attested",
+   "note": "First-class courtesan house. Romanized; cf. Henriot, Prostitution and Sexuality in Shanghai."
+  },
+  "么二": {
+   "en": "yao'er",
+   "pinyin": "yao'er",
+   "status": "attested",
+   "note": "Second-tier courtesan house ('one-two'). Romanized; cf. Henriot, Prostitution and Sexuality in Shanghai."
+  },
+  "鹹水妹": {
+   "en": "salt-water girls",
+   "pinyin": "xianshui mei",
+   "status": "decided",
+   "note": "Cantonese prostitutes serving foreign sailors. Literal rendering kept."
+  },
+  "洋涇浜": {
+   "en": "Yangjingbang",
+   "pinyin": "Yangjingbang",
+   "status": "attested",
+   "note": "The creek dividing the Shanghai settlements; its name became the word for pidgin. 'Yangjingbang English' = pidgin English."
+  },
+  "肉票": {
+   "en": "flesh-ticket",
+   "pinyin": "roupiao",
+   "status": "decided",
+   "note": "Underworld term for a kidnap hostage. Literal rendering kept."
+  },
+  "剝豬玀": {
+   "en": "pig-skinners",
+   "pinyin": "bo zhulo",
+   "status": "provisional",
+   "note": "Cant for footpads who strip victims of their clothes; older name 揹娘舅. Literal rendering, not otherwise attested."
+  },
+  "洋盤": {
+   "en": "foreign platter",
+   "pinyin": "yangpan",
+   "status": "provisional",
+   "note": "Green Gang cant for an outsider/mark; also 空子, 大菜盤. Literal rendering kept."
   }
  }
 }

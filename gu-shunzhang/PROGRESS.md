@@ -792,3 +792,73 @@ Section-chief personal names in f2-f5 are largely codenames and are left untrans
   already in glossary as "the GPU" [attested]. Rendered "the GPU" throughout; the body never
   forced a hanzi headword choice, so both entries stand.
 - The **errata figure** (蘇聯格伯烏與軍隊的關係圖, printed 206) belongs to §4 = B10, not touched here.
+
+---
+
+## B10 = Chapter 7 §4 (第四節 下層社會的研究 / The Study of Society's Lower Strata)
+
+**Scope:** unit `ch07s04`, PDF 258-281 = printed **folios 206-227** (~22 text pages).
+APPENDED to `out/ch07_reading.md` as the **fourth** ordered `### Section` heading; the file now
+ends with §1-§4. Content: a survey of Shanghai's underworld for the agent's use — the Green and
+Red Gangs (青紅幫: origin legend, Taiping split, distribution, the Shanghai bosses, cant,
+initiation, generation-poem) and the "nine streams and three teachings" (九流三教: fortune-tellers,
+quacks, gambling rackets, brothels by tier, badger gangs, pickpockets, swindlers, thieves,
+highway strippers, kidnappers, character-diviners, fake-antique men, scryers), closing with a
+ten-point rule for how agents should handle them.
+
+### Offset (read off the scan, per folio)
+- **pdf−52 at folio 206** (PDF 258, the §4 opener; folio 二〇六 read by eye).
+- A **2-page plate insert** follows: **PDF 259 = the errata GPU-army chart** (a full-page recto),
+  **PDF 260 = its blank verso**. Body resumes **PDF 261 = folio 207**, offset now **pdf−54**,
+  holding to **folio 227 (PDF 281)**; §4 ends there and ch8 opens at folio 228. Every folio verified.
+
+### Figures (both LINE ART; find_figures caught 0, cropped by hand)
+- **`ch07-f7.png`** — the errata plate **蘇聯 G.P.U 與軍隊的關係** ("The Relationship of the Soviet
+  GPU to the Army"), cropped from PDF 259. This is the figure `book.json`/HANDOFF flagged from the
+  errata table (勘誤表, PDF 293) as appended at printed 206. Its subject is §3 (Soviet GPU), so it is
+  anchored in §3 at the GPU "Military department" paragraph, with a caption stating the errata binds
+  it facing folio 206. Shows the GPU's Domestic Department running secret reconnaissance into every
+  Red-Army echelon.
+- **`ch07-f8.png`** — the author's **kidnapping-gang org chart** (領袖 → 墊本 / {接洽·內守·外勤·線索} /
+  書記), cropped from PDF 278 (folio 224), anchored to the roles paragraph in §4.
+
+### The eight checks
+1. **Dual-engine OCR diff — could not run** (PaddleOCR will not install here). Substituted the
+   whole-batch eye-read: all 24 PDF pages read off the 300 dpi scan. tesseract `chi_tra_vert --psm 5`
+   ran clean, `pgrep -c tesseract` 0 after.
+2. **Blind double-translation** on the argumentative frames (§4-I why-study; the Green Gang origin
+   legend; the §4-IV ten-point doctrine) — no material divergence.
+3. **Back-translation** omission spot-check on the same passages plus the brothel-tier and
+   kidnapper-role lists — no omissions.
+4. **Invariant checks — PASS.** `check_numbers.py` **0 unresolved (56 pairs)**;
+   `check_structure.py --pairs` parity **56/56 OK**. NOISE extended for this batch's names/idioms:
+   數十八 (a source misprint, stripped whole), 四川, 四卡子橋, 黃楚九, 長三, 么二, 零頭, 萬古千秋,
+   萬象, 數[十百千]. Added ordinal "seventeenth"=17 for the 嘉靖十七年 (1538) regnal year.
+5. **Term ledger** — glossary **+19**: people 羅祖, 黃金榮, 杜月笙, 張嘯林, 黃楚九; orgs 三鑫公司,
+   青紅幫; terms 九流三教, 拆白黨, 仙人跳, 花會, 番灘, 長三, 么二, 鹹水妹, 洋涇浜, 肉票, 剝豬玀, 洋盤.
+   青幫/紅幫/圓光/切口/流氓運動 already present.
+6. **Annotate not smooth** — **29 footnotes (173-201)**, continuous. Every provisional romanization
+   (李則高, 癩頭筋鮑方, the 彫林/三光碼子 cant, 剝豬玀) and every historical/idiom reference footnoted.
+7. **External scholarship** — the Green Gang's 翁錢潘/羅祖 grain-fleet origin (traditional account,
+   Yongzheng-1726 boatmen's brotherhood; Luo Qing d.1527, so the book's Jiajing-1538 dating is
+   **not historical** — flagged); the "three tycoons" and their **三鑫公司** opium monopoly (1918,
+   ~⅓ of govt revenue); 黃楚九 not a gang member; 洋涇浜/pidgin; the changsan/yao'er hierarchy — all
+   checked and footnoted with corroboration status (Wikipedia zh/en, Baidu Baike, Henriot).
+   嵊縣 kidnapping flagged as an uncorroborated period commonplace. NEVER sourced Grok/Grokipedia.
+8. **List recount against the pages — PASS.** The Green Gang a-h sub-catalogue; the 11-item cant
+   list; the 8-step initiation; the 14 "nine-streams" trades; the brothel tiers a-h; the kidnapper
+   payout shares a-g; §4-IV points 1-10 — all item counts match the source.
+
+### Flagged for Winston's read-through
+- **B09 dropped §3's item f** (folio 206 top, the tail of "9. Activity abroad" — cover identities
+  abroad: pastors, engineers, journalists, foreign-national fronts, travel-party outfits). It sits
+  on this batch's first page and was outside B09's PDF-257 cut. **RESTORED** here: item f appended
+  to §3 in `out/ch07_reading.md`. (Not re-fed to `data/zh/ch07s03.txt`; §3 parity not re-run.)
+- **數十八 is a source misprint** (folio 223): "每幫數十八或數百人" does not parse as a clean figure;
+  scan-verified, almost certainly 數十 ("some tens"). Rendered "some tens," footnoted (note 201).
+- **Provisional readings:** 李則高 (Shanghai fortune-teller boss) and 癩頭筋鮑方 ("Scabby-head Tendon
+  Bao Fang," the flower-club king) — scan-verified but not otherwise attested. 剝豬玀 "pig-skinners"
+  and 洋盤 "foreign platter" rendered literally (provisional). The 彫林碼子/三光碼子 police cant is
+  transliterated by sound (譯音 as printed), provisional.
+- **Green Gang generation-poem variant:** the book prints 仁倫智慧 / 元明與禮 where the standard reads
+  能仁智慧 / 元明興理; footnoted (note on "The first twenty-four run").
