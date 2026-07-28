@@ -862,3 +862,26 @@ ten-point rule for how agents should handle them.
   transliterated by sound (譯音 as printed), provisional.
 - **Green Gang generation-poem variant:** the book prints 仁倫智慧 / 元明與禮 where the standard reads
   能仁智慧 / 元明興理; footnoted (note on "The first twenty-four run").
+
+## B11 = Chapter 8 (LAST content batch) + back matter + whole-book pass
+
+- **ch08, folios 228-236 (PDF 282-290).** §1 工作的精神 (6 points), §2 身心的鍛練 (5 points).
+  New file `out/ch08_reading.md`. **11 notes (202-212)**, **3 glossary terms** (修養, 跨黨份子, 酒色財氣),
+  **0 figures** (all prose; one ink-density false positive on the duplicate scan, discarded).
+- **Env:** tesseract chi_tra + chi_tra_vert only; PaddleOCR not installed (standing). Whole-batch eye-read
+  substitutes for the dual-engine diff. `pgrep -c tesseract` 0 after OCR.
+- **Checks:** `check_numbers` 28 pairs, 0 unresolved; `check_structure --pairs` parity 28/28;
+  `check_structure --config` PASS (212 anchors resolve, 1 heading shape across all 8 chapters).
+  Double- and back-translation on the argumentative passages: no material divergence, no omissions.
+- **SCAN GAP — printed folio 237 is missing.** The scan runs 235, 236, a duplicate of 235
+  (scanner double-feed), then a blank leaf. Folio 236 ends mid-quotation (`又曰:『小不忍則亂大謀……`);
+  the last sentence of the book is on the missing 237. No bridging text invented; footnote 210 states it.
+  Errata correct nothing past 236, so at most a sentence or two is lost.
+- **Errata applied to ch8:** folio 233 終請→終日請 (+日); folio 236 應付的力→應付的能力 (+能). Both reflected.
+- **Back matter built:** errata table (27 rows, all transcribed and checked) and colophon
+  (不准翻印 / August 1933) as translator's pages. `back_matter.json` added; builder extended with
+  `render_errata` / `render_colophon`.
+- **Nav TOC expanded to section level** (every section a jump target, per Winston's request).
+- **EPUB rebuilt:** 8/8 chapters, 212 notes, 18 figures. `qa_epub` PASS (39 files, all links resolve).
+- **Error-rate estimate:** all 9 text pages eye-read; second pass on 3 dense passages found 0 surviving
+  character errors. Residual estimated well under 0.5%. Book complete; see COMPLETION_REPORT.md.

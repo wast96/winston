@@ -64,6 +64,16 @@ ol.contents li.chap { margin-top: 0.9em; font-weight: bold; }
 ol.contents ol { list-style: none; padding-left: 1.4em; }
 ol.contents li.sec { font-weight: normal; }
 span.pending { color: #999; font-style: italic; }
+ol.contents ol.secs { padding-left: 1.4em; }
+nav#toc ol ol { list-style: none; padding-left: 1.3em; }
+nav#toc ol ol li { font-size: 0.95em; }
+table.errata { border-collapse: collapse; margin: 1.2em 0; font-size: 0.9em; }
+table.errata th, table.errata td { border: 1px solid #bbb; padding: 0.25em 0.55em; text-align: left; vertical-align: top; }
+table.errata th { background: #f0f0f0; font-weight: bold; }
+table.errata td.hz { font-size: 1.05em; }
+.colophon { text-align: center; margin-top: 2em; }
+.colophon .notice { border: 2px solid #444; display: inline-block; padding: 0.4em 1.6em; margin: 1em 0; font-size: 1.3em; letter-spacing: 0.3em; }
+.colophon p { text-indent: 0; }
 """
 
 XHTML = """<?xml version="1.0" encoding="utf-8"?>
@@ -264,6 +274,75 @@ def render_glossary(gloss):
     return "\n".join(parts)
 
 
+def render_errata(bm):
+    """The publisher's errata table, rendered as translator's back matter.
+
+    The corrections have been checked against the translation. Those that fall
+    within chapter 8 are applied and reflected in the reading text; the rest
+    fall on chapters whose translation, made by reading the scan for sense,
+    already follows the corrected readings. Folio 206's entry appends a chart,
+    reproduced in chapter 7 as a figure.
+    """
+    KIND = {"dropped": "character dropped", "wrong": "misprint",
+            "append": "clause / chart appended"}
+    rows = []
+    for r in bm.get("errata_rows", []):
+        folio = esc(str(r["folio"]))
+        page = esc(str(r["page"]))
+        loc = "line %s, char %s" % (esc(str(r["line"])), esc(str(r["char"])))
+        if r["kind"] == "wrong":
+            fix = ("<span lang=\"zh-Hant\">%s</span> &#8594; "
+                   "<span lang=\"zh-Hant\">%s</span>"
+                   % (esc(r["printed"]), esc(r["correct"])))
+        elif r["kind"] == "append":
+            fix = "&#8212;"
+        else:
+            fix = ("insert <span lang=\"zh-Hant\">%s</span>"
+                   % esc(r["correct"]))
+        note = (" &#183; " + esc(r["note"])) if r.get("note") else ""
+        rows.append(
+            "<tr><td>%s</td><td>%s</td><td>%s</td><td class=\"hz\">%s%s</td></tr>"
+            % (folio, page if str(r["page"]) != str(r["folio"]) else "&#8212;",
+               loc, fix, note))
+    return (
+        '<h1>Errata</h1>'
+        '<p class="note">The book prints a publisher\'s errata table '
+        '(<span lang="zh-Hant">勘誤表</span>) on its final leaf. It is reproduced '
+        'here in full. Its columns give, for each correction, the printed folio, '
+        'the line, the character position within that line, and the fix &#8212; '
+        'a dropped character to be inserted, or a misprinted character to be '
+        'replaced. Every correction has been checked against this translation. '
+        'The two that fall within Chapter&#160;8 (folios&#160;233 and&#160;236) '
+        'are applied and are reflected in the reading text; the remainder fall on '
+        'earlier chapters, whose translation &#8212; made by reading the scanned '
+        'characters for sense &#8212; already follows the corrected readings. The '
+        'entry for folio&#160;206 directs that a clause and a diagram of the '
+        'Soviet G.P.U.\'s relationship to the army be added; that diagram is '
+        'reproduced in Chapter&#160;7.</p>'
+        '<table class="errata"><tr><th>Folio</th><th>Printed page</th>'
+        '<th>Location</th><th>Correction</th></tr>%s</table>'
+        % "".join(rows))
+
+
+def render_colophon(bm):
+    c = bm.get("colophon", {})
+    return (
+        '<h1>Colophon</h1>'
+        '<p class="note">The book\'s original copyright leaf '
+        '(<span lang="zh-Hant">版權頁</span>), reproduced and translated.</p>'
+        '<div class="colophon">'
+        '<p lang="zh-Hant">%s</p>'
+        '<p lang="zh-Hant">%s&#160;著</p>'
+        '<p class="notice" lang="zh-Hant">%s</p>'
+        '<p>%s</p>'
+        '<p lang="zh-Hant">%s</p>'
+        '<p>%s</p>'
+        '</div>'
+        % (esc(c.get("title_zh", "")), esc(c.get("author_zh", "")),
+           esc(c.get("notice_zh", "")), esc(c.get("notice_en", "")),
+           esc(c.get("date_zh", "")), esc(c.get("date_en", ""))))
+
+
 def translator_note(meta, n_chapters):
     return (
         '<h1>Translator\'s Note</h1>'
@@ -299,8 +378,16 @@ def translator_note(meta, n_chapters):
         'down the craft he had turned. It should be read as what it is &#8212; '
         'a defector\'s handbook, partisan and self-interested &#8212; and not '
         'as a disinterested account.</p>'
-        '<p class="note">This build contains %(n)s of the eight chapters; the '
-        'rest follow in later builds.</p>'
+        '<p class="note">This edition is complete: all eight chapters are '
+        'translated, together with the publisher\'s errata table and colophon, '
+        'reproduced as back matter. One physical gap remains that no translation '
+        'can close: the final leaf of the book &#8212; printed folio&#160;237, '
+        'which would have carried the last sentence or two of Chapter&#160;8 '
+        '&#8212; is missing from the library scan, where a duplicate of '
+        'folio&#160;235 was fed in its place. The text therefore breaks off, as '
+        'the scan does, in the middle of a closing quotation; nothing has been '
+        'invented to bridge the gap. The publisher\'s errata correct nothing '
+        'beyond folio&#160;236, so what is lost is at most a sentence or two.</p>'
         % {"title_zh": esc(meta["title_zh"]), "year": meta["year"],
            "n": n_chapters})
 
@@ -423,6 +510,15 @@ def main(epub_path):
           + render_glossary(gloss),
           "Translator's Note and Glossary")
 
+    back_matter = load_json("back_matter.json", {})
+    have_backmatter = bool(back_matter.get("errata_rows") or
+                           back_matter.get("colophon"))
+    if have_backmatter:
+        write(os.path.join(oebps, "errata.xhtml"),
+              render_errata(back_matter), "Errata")
+        write(os.path.join(oebps, "colophon.xhtml"),
+              render_colophon(back_matter), "Colophon")
+
     # spine order
     docs = [("titlepage.xhtml", "Title Page"),
             ("contents.xhtml", "Contents")]
@@ -430,22 +526,43 @@ def main(epub_path):
     docs += [("pending.xhtml", "Not yet translated"),
              ("notes.xhtml", "Notes"),
              ("backmatter.xhtml", "Translator's Note and Glossary")]
+    if have_backmatter:
+        docs += [("errata.xhtml", "Errata"), ("colophon.xhtml", "Colophon")]
 
     # e-reader nav: full chapter-level TOC (all eight), pending ones point at
     # the placeholder so they are navigable and honest.
     nav_items = ['<li><a href="titlepage.xhtml">Title Page</a></li>',
                  '<li><a href="contents.xhtml">Contents</a></li>']
     for chap in structure:
-        if chap["id"] in translated:
-            nav_items.append('<li><a href="%s.xhtml">%s</a></li>'
-                             % (chap["id"], esc(chap["title_en"])))
+        cid = chap["id"]
+        if cid in translated:
+            nav_items.append('<li><a href="%s.xhtml">%s</a>'
+                             % (cid, esc(chap["title_en"])))
         else:
             nav_items.append('<li><a href="pending.xhtml">%s '
-                             '(not yet translated)</a></li>'
+                             '(not yet translated)</a>'
                              % esc(chap["title_en"]))
+        # section-level sub-entries: linked when the section is done, shown as
+        # pending otherwise, so the reader can jump straight to any section.
+        if chap.get("sections"):
+            done_secs = sec_done.get(cid, set())
+            subs = []
+            for sec in chap["sections"]:
+                if cid in translated and sec["id"] in done_secs:
+                    subs.append('<li><a href="%s.xhtml#%s">%s</a></li>'
+                                % (cid, esc(sec["id"]), esc(sec["title_en"])))
+                else:
+                    subs.append('<li><a href="%s">%s (not yet translated)</a></li>'
+                                % ("%s.xhtml" % cid if cid in translated
+                                   else "pending.xhtml", esc(sec["title_en"])))
+            nav_items.append("<ol>" + "".join(subs) + "</ol>")
+        nav_items.append("</li>")
     nav_items += ['<li><a href="notes.xhtml">Notes</a></li>',
                   '<li><a href="backmatter.xhtml">Translator\'s Note and '
                   'Glossary</a></li>']
+    if have_backmatter:
+        nav_items += ['<li><a href="errata.xhtml">Errata</a></li>',
+                      '<li><a href="colophon.xhtml">Colophon</a></li>']
     nav = ('<nav epub:type="toc" id="toc"><h1>Contents</h1><ol>'
            + "".join(nav_items) + "</ol></nav>"
            '<nav epub:type="landmarks" hidden="hidden"><ol>'

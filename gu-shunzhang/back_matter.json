@@ -1,0 +1,283 @@
+{
+  "_about": "Publisher's errata (勘誤表, printed folio 237-recto region / PDF 293) and colophon (版權頁, PDF 295), transcribed by eye off the 300 dpi NCL scan and rendered as translator's back matter. Columns of the original: 頁數/行數/字數/誤字/漏字/校正及補入 (folio / line / character-position / wrong character / dropped character / correction and insertion).",
+  "errata_rows": [
+    {
+      "folio": "一",
+      "page": 1,
+      "line": 9,
+      "char": 22,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "如",
+      "note": ""
+    },
+    {
+      "folio": "自序二",
+      "page": "preface 2",
+      "line": 3,
+      "char": 6,
+      "kind": "wrong",
+      "printed": "得",
+      "correct": "到",
+      "note": ""
+    },
+    {
+      "folio": "一六",
+      "page": 16,
+      "line": 3,
+      "char": 27,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "到",
+      "note": ""
+    },
+    {
+      "folio": "二五",
+      "page": 25,
+      "line": 11,
+      "char": 10,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "以",
+      "note": ""
+    },
+    {
+      "folio": "三一",
+      "page": 31,
+      "line": 9,
+      "char": 23,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "他",
+      "note": ""
+    },
+    {
+      "folio": "三三",
+      "page": 33,
+      "line": 1,
+      "char": 4,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "醫",
+      "note": ""
+    },
+    {
+      "folio": "五〇",
+      "page": 50,
+      "line": 7,
+      "char": 17,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "進",
+      "note": ""
+    },
+    {
+      "folio": "五九",
+      "page": 59,
+      "line": 9,
+      "char": 10,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "須",
+      "note": ""
+    },
+    {
+      "folio": "五九",
+      "page": 59,
+      "line": 11,
+      "char": 14,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "務",
+      "note": ""
+    },
+    {
+      "folio": "六三",
+      "page": 63,
+      "line": 3,
+      "char": 9,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "一",
+      "note": ""
+    },
+    {
+      "folio": "六五",
+      "page": 65,
+      "line": 6,
+      "char": 7,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "於",
+      "note": ""
+    },
+    {
+      "folio": "六九",
+      "page": 69,
+      "line": 3,
+      "char": 5,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "用",
+      "note": ""
+    },
+    {
+      "folio": "七五",
+      "page": 75,
+      "line": 8,
+      "char": 11,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "格",
+      "note": ""
+    },
+    {
+      "folio": "九〇",
+      "page": 90,
+      "line": 3,
+      "char": 4,
+      "kind": "wrong",
+      "printed": "釘",
+      "correct": "梢",
+      "note": ""
+    },
+    {
+      "folio": "一一八",
+      "page": 118,
+      "line": 8,
+      "char": 1,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "殊",
+      "note": ""
+    },
+    {
+      "folio": "一三六",
+      "page": 136,
+      "line": 11,
+      "char": 18,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "一",
+      "note": ""
+    },
+    {
+      "folio": "一九六",
+      "page": 196,
+      "line": 1,
+      "char": 1,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "織",
+      "note": ""
+    },
+    {
+      "folio": "二〇六",
+      "page": 206,
+      "line": 3,
+      "char": 20,
+      "kind": "append",
+      "printed": "",
+      "correct": "",
+      "note": "Append a clause and the chart 蘇聯格伯烏與軍隊的關係圖 (the relationship of the Soviet G.P.U. to the army) — reproduced in Chapter 7 as a figure."
+    },
+    {
+      "folio": "二一〇",
+      "page": 210,
+      "line": 6,
+      "char": 17,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "的",
+      "note": ""
+    },
+    {
+      "folio": "二一二",
+      "page": 212,
+      "line": 7,
+      "char": 13,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "鬥",
+      "note": ""
+    },
+    {
+      "folio": "二一三",
+      "page": 213,
+      "line": 12,
+      "char": 5,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "好",
+      "note": ""
+    },
+    {
+      "folio": "二一五",
+      "page": 215,
+      "line": 1,
+      "char": 8,
+      "kind": "wrong",
+      "printed": "各",
+      "correct": "名",
+      "note": ""
+    },
+    {
+      "folio": "二一五",
+      "page": 215,
+      "line": 6,
+      "char": 9,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "賭",
+      "note": ""
+    },
+    {
+      "folio": "二二二",
+      "page": 222,
+      "line": 10,
+      "char": 23,
+      "kind": "wrong",
+      "printed": "鬥",
+      "correct": "上",
+      "note": ""
+    },
+    {
+      "folio": "二二四",
+      "page": 224,
+      "line": 8,
+      "char": 2,
+      "kind": "wrong",
+      "printed": "約",
+      "correct": "洽",
+      "note": ""
+    },
+    {
+      "folio": "二三三",
+      "page": 233,
+      "line": 1,
+      "char": 27,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "日",
+      "note": "Chapter 8: 終請→終日請 (“keep plying us with drink all day”); reflected in the reading text."
+    },
+    {
+      "folio": "二三六",
+      "page": 236,
+      "line": 11,
+      "char": 1,
+      "kind": "dropped",
+      "printed": "",
+      "correct": "能",
+      "note": "Chapter 8: 應付的力→應付的能力 (“the faculty to meet events”); reflected in the reading text."
+    }
+  ],
+  "colophon": {
+    "title_zh": "特務工作之理論與實際",
+    "author_zh": "顧順章",
+    "notice_zh": "不准翻印",
+    "notice_en": "Reprinting forbidden",
+    "date_zh": "中華民國二十二年八月付印",
+    "date_en": "Printed in the eighth month of the twenty-second year of the Republic of China (August 1933)"
+  }
+}
