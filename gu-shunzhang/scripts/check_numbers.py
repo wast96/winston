@@ -77,6 +77,10 @@ NOISE = [
     # ORDERING: 千萬/萬萬 must precede the bare 萬X patterns, or r"萬不可"
     # eats the 萬 out of 千萬不可 and orphans a 千 that reads as 1000.
     r"千萬", r"萬萬", r"萬不得已", r"萬不可", r"萬一", r"萬分",
+    # ch5: measure-word / fixed-term numerals that are not quantities.
+    # 二房東 (a sub-landlord), 五倍子 (gallnut, a plant name), 五香 (five-spice,
+    # a seasoning), 四週 (all around, = 四周 already listed but written 週 here).
+    r"二房東", r"五倍子", r"五香", r"四週",
     # Arabic list enumerators the book prints at the head of sub-items
     # (1. 2. 3. with a half- or full-width stop). These are structure, not
     # quantities; the English renders them a./b./c. and would otherwise be

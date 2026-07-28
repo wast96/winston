@@ -1,311 +1,389 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger of check 5. One rendering per referent for the whole book. status: attested (used in English scholarship, cite it in note), provisional (my romanisation, not found), decided (project style call). Each entry carries pinyin for the ledger. Seeded at project setup; grows per batch.",
-  "book": {
-    "特務工作之理論與實際": {
-      "en": "The Theory and Practice of Secret Service Work",
-      "pinyin": "Tewu Gongzuo zhi Lilun yu Shiji",
-      "status": "decided",
-      "note": "Winston's chosen title. 特務工作 is rendered 'secret-service work' throughout; an alternate literal is 'special-agent work'. Author's preface dated Nanjing, 20 July 1933."
-    }
-  },
-  "people": {
-    "顧順章": {
-      "en": "Gu Shunzhang",
-      "pinyin": "Gu Shunzhang",
-      "status": "attested",
-      "note": "1904-1935. The author. Chosen by Zhou Enlai to head the Chinese Communist Party's first intelligence service, the Central Special Branch (中央特科); trained in Soviet (GPU) tradecraft at Vladivostok in 1926 and built the apparatus from 1928. Captured in Wuhan and defected to the Nationalists in April 1931; his defection exposed the CCP's Shanghai underground and led to the arrest and execution of Party general secretary Xiang Zhongfa, one of the gravest security disasters in the Party's early history. Later executed by the Nationalists. This manual systematises the tradecraft he built and then turned. Corroborated by Wikipedia (en.wikipedia.org/wiki/Gu_Shunzhang) and the CIA study 'Edging in from the Cold'; verify any further biographical specifics before repeating them."
-    },
-    "桀紂": {
-      "en": "Jie and Zhou",
-      "pinyin": "Jie, Zhou",
-      "status": "attested",
-      "note": "桀, last king of the Xia, and 紂 (King Zhou of Shang / 帝辛), last king of the Shang — the paradigm tyrants of the Confucian moral tradition, the standing antithesis of the sage-kings Yao and Shun. Invoked in ch4 §2 (降為桀紂). Attested standard identifications."
-    }
-  },
-  "organizations": {
-    "中央特科": {
-      "en": "the Central Special Branch",
-      "pinyin": "Zhongyang Teke",
-      "status": "attested",
-      "note": "The CCP's clandestine intelligence/security organ (established 1927-28) that Gu Shunzhang helped run under Zhou Enlai. English 'Central Special Branch' is the form used by Wikipedia (en.wikipedia.org/wiki/Central_Special_Branch); 'Special Services Section' and 'Central Department for Special Tasks' also appear in the literature."
-    },
-    "中國國民黨": {
-      "en": "the Chinese Nationalist Party",
-      "pinyin": "Zhongguo Guomindang",
-      "status": "attested",
-      "note": "The Kuomintang (KMT / Guomindang), Sun Yat-sen's party and the ruling party of the Nanjing National Government from 1927. Rendered 'Chinese Nationalist Party' throughout; 'Kuomintang' and 'Nationalist Party' are the same body."
-    },
-    "C.P.": {
-      "en": "C.P.",
-      "pinyin": "(abbreviation)",
-      "status": "decided",
-      "note": "The author's own printed abbreviation for the Communist Party (Chapter 7 Section 2 is titled C.P.特務工作). Keep it verbatim as printed and gloss it as 'Communist Party' on first use."
-    },
-    "格伯武": {
-      "en": "the GPU",
-      "pinyin": "Gebowu",
-      "status": "attested",
-      "note": "The book's transliteration of the Russian abbreviation ГПУ (GPU), the Soviet State Political Directorate and secret police, 1922-34 (succeeded by the OGPU, 1923-34). Chapter 1 prints 格伯武; the forms 格別烏/格伯烏 are commoner in Chinese (Baidu Baike; zh.wikipedia). One rendering, 'the GPU', throughout. NB: Chapter 7 Section 3 uses 格伯烏 for the same referent; treat as the same entry."
-    },
-    "交通部": {
-      "en": "the Ministry of Communications",
-      "pinyin": "Jiaotong Bu",
-      "status": "decided",
-      "note": "The Republican-era government ministry (posts, telegraph, railways, shipping). The author puns on 交通: in tradecraft it means clandestine liaison/courier work, not public transport."
-    },
-    "格伯烏": {
-      "en": "the GPU",
-      "pinyin": "Gebowu",
-      "status": "attested",
-      "note": "Variant transliteration of ГПУ used later in the book; see 格伯武. Same referent, same English rendering 'the GPU'."
-    },
-    "國家政治檢察局": {
-      "en": "the State Political Directorate",
-      "pinyin": "Guojia Zhengzhi Jianchaju",
-      "status": "decided",
-      "note": "The source's rendering of the Soviet GPU as a public/avowed organ. 國家政治檢察局 (\"State Political Procuratorate\") is a variant; the commoner Chinese name is 國家政治保衛局, and the initials are transliterated 格伯武/格伯烏 (see those entries). Rendered 'State Political Directorate' to match the standard English name of the ГПУ."
-    },
-    "中央特務會議": {
-      "en": "the Central Secret-Service Conference",
-      "pinyin": "Zhongyang Tewu Huiyi",
-      "status": "provisional",
-      "note": "From the org-chart plate (ch2 §1). The deliberative body between the Politburo and the secret-service headquarters in the author's idealized scheme; not independently attested as an actual body."
-    },
-    "中央特務總部": {
-      "en": "the Central Secret-Service Headquarters",
-      "pinyin": "Zhongyang Tewu Zongbu",
-      "status": "provisional",
-      "note": "From the org-chart plate; glossed in the plate as the Central Defense Bureau (中央保衛局, Zhongyang Baoweiju). The apex executive organ in the author's scheme."
-    },
-    "各省區特務部": {
-      "en": "the Secret-Service Departments of the provinces and regions",
-      "pinyin": "Ge sheng-qu Tewubu",
-      "status": "provisional",
-      "note": "From the org-chart plate: the provincial/regional secret-service departments subordinate to the central headquarters."
-    },
-    "青幫": {
-      "en": "the Green Gang",
-      "pinyin": "Qingbang",
-      "status": "attested",
-      "note": "Shanghai secret society rooted in the Grand Canal grain-transport guilds and the Luo sect. 'Green Gang' is the standard English form (en.wikipedia.org/wiki/Green_Gang). The author was himself an initiate."
-    },
-    "紅幫": {
-      "en": "the Red Gang",
-      "pinyin": "Hongbang",
-      "status": "attested",
-      "note": "The Hong/Red Gang (紅幫), associated with the 洪門 (Hongmen) anti-Qing sworn-brotherhood tradition; paired with the Green Gang in the compound 青紅幫. Rendered 'Red Gang'."
-    },
-    "上海工部局": {
-      "en": "the Shanghai Municipal Council",
-      "pinyin": "Shanghai Gongbuju",
-      "status": "attested",
-      "note": "工部局 (literally 'Works Department Bureau'), the foreign-run governing body of the Shanghai International Settlement (1854-1943), which maintained the Shanghai Municipal Police (the Settlement 捕房). Standard English: 'Shanghai Municipal Council' (en.wikipedia.org/wiki/Shanghai_Municipal_Police). Distinct from the concession 巡捕房 glossed in ch.1."
-    }
-  },
-  "terms": {
-    "特務工作": {
-      "en": "secret-service work",
-      "pinyin": "tewu gongzuo",
-      "status": "decided",
-      "note": "Alternate literal: 'special-agent work'. One rendering throughout."
-    },
-    "特務": {
-      "en": "secret agent / secret service",
-      "pinyin": "tewu",
-      "status": "decided",
-      "note": "Rendered by context; do not flatten to 'spy'. Keep the period professional sense. NB the same word named ordinary military guard/HQ units (特務團/營/連, 特務股); rendered 'special-duty' there."
-    },
-    "非常": {
-      "en": "extraordinary",
-      "pinyin": "feichang",
-      "status": "decided",
-      "note": "A load-bearing recurring term: 'extraordinary' in the sense of out-of-the-ordinary, not-by-normal-means, paired throughout with 祕密 (secret). Not 'unusual' or 'emergency'."
-    },
-    "三民主義": {
-      "en": "the Three Principles of the People",
-      "pinyin": "San Min Zhuyi",
-      "status": "attested",
-      "note": "Sun Yat-sen's doctrine (nationalism 民族, democracy/people's rights 民權, people's livelihood 民生), the ideological basis of the Nationalist state. Standard English rendering."
-    },
-    "國民革命": {
-      "en": "the National Revolution",
-      "pinyin": "Guomin Geming",
-      "status": "attested",
-      "note": "The KMT-led revolution of the 1920s (Northern Expedition, 1926-28) and its continuing project; the standard English term."
-    },
-    "一黨專政": {
-      "en": "one-party rule",
-      "pinyin": "yidang zhuanzheng",
-      "status": "decided",
-      "note": "Lit. 'one-party dictatorship'; the KMT's doctrine of party tutelage under the 1931 provisional constitution. Rendered 'one-party rule'."
-    },
-    "別動隊": {
-      "en": "special-operations corps",
-      "pinyin": "biedongdui",
-      "status": "provisional",
-      "note": "Period military term for detached irregular/special-action units operating apart from the main force. Rendered 'special-operations corps'."
-    },
-    "土豪劣紳": {
-      "en": "local bullies and evil gentry",
-      "pinyin": "tuhao lieshen",
-      "status": "decided",
-      "note": "Stock revolutionary-era class label for rural power-holders targeted in the 1920s National Revolution. Keep the fixed pairing."
-    },
-    "巡捕房": {
-      "en": "concession police station",
-      "pinyin": "xunbufang",
-      "status": "decided",
-      "note": "The police stations of the foreign concessions (Shanghai's International Settlement and French Concession). Their Chinese informers were 包打聽."
-    },
-    "偵察": {
-      "en": "reconnaissance",
-      "pinyin": "zhencha",
-      "status": "decided",
-      "note": "The intelligence-gathering branch of the work; rendered 'reconnaissance' (or 'to reconnoitre')."
-    },
-    "情報": {
-      "en": "intelligence",
-      "pinyin": "qingbao",
-      "status": "decided",
-      "note": "Finished intelligence (reports worked up from reconnaissance), as distinct from 偵察 (the act of gathering)."
-    },
-    "偵探網": {
-      "en": "the detective network",
-      "pinyin": "zhentan wang",
-      "status": "provisional"
-    },
-    "交通網": {
-      "en": "the communications network",
-      "pinyin": "jiaotong wang",
-      "status": "provisional",
-      "note": "交通 here is clandestine liaison/communications, not transport."
-    },
-    "化裝術": {
-      "en": "the art of disguise",
-      "pinyin": "huazhuang shu",
-      "status": "provisional"
-    },
-    "釘梢術": {
-      "en": "the art of shadowing",
-      "pinyin": "dingshao shu",
-      "status": "provisional",
-      "note": "Tailing/surveillance on foot."
-    },
-    "反偵探": {
-      "en": "counter-surveillance",
-      "pinyin": "fan zhentan",
-      "status": "provisional"
-    },
-    "破壞術": {
-      "en": "sabotage",
-      "pinyin": "pohuai shu",
-      "status": "provisional"
-    },
-    "催眠術": {
-      "en": "hypnotism",
-      "pinyin": "cuimian shu",
-      "status": "provisional"
-    },
-    "形相術": {
-      "en": "physiognomy",
-      "pinyin": "xingxiang shu",
-      "status": "provisional"
-    },
-    "鋼的紀律": {
-      "en": "a discipline of steel",
-      "pinyin": "gang de jilü",
-      "status": "decided",
-      "note": "Literally 'steel discipline'; rendered 'discipline of steel.' The Leninist party-discipline idiom carried into tradecraft."
-    },
-    "自我批評": {
-      "en": "self-criticism",
-      "pinyin": "ziwo piping",
-      "status": "decided",
-      "note": "The Communist rectification technique (paired with the 批評會, 'criticism meeting'), reproduced in this manual written for the Nationalist side."
-    },
-    "報務員": {
-      "en": "radio operator",
-      "pinyin": "baowuyuan",
-      "status": "decided",
-      "note": "The operator who works a clandestine wireless station's key; paired with the 譯電員 (cipher clerk)."
-    },
-    "譯電員": {
-      "en": "cipher clerk",
-      "pinyin": "yidianyuan",
-      "status": "decided",
-      "note": "The clerk who encodes and decodes wireless traffic."
-    },
-    "匪區": {
-      "en": "bandit area",
-      "pinyin": "feiqu",
-      "status": "attested",
-      "note": "Nationalist term for Communist-held territory; the '匪/bandit' framing of the CCP that also named the 剁匪 (bandit-suppression) campaigns. Rendered literally to preserve the book's standpoint. Standard usage in Chinese Civil War scholarship."
-    },
-    "社會化": {
-      "en": "blending into society",
-      "pinyin": "shehuihua",
-      "status": "decided",
-      "note": "Lit. 'socialization'; here the tradecraft of dissolving into ordinary society. Kept consistent with the Ch.7 §1 title 'Blending Into Society' (社會化問題)."
-    },
-    "官僚化": {
-      "en": "bureaucratization",
-      "pinyin": "guanliaohua",
-      "status": "decided",
-      "note": "First of §2's three forbidden tendencies; doing everything by fixed official routine (官樣文章, 'official red tape')."
-    },
-    "空洞化": {
-      "en": "empty formalism",
-      "pinyin": "kongdonghua",
-      "status": "decided",
-      "note": "Lit. 'hollowing-out'; §2's second forbidden tendency — much talk and little practical work. Rendered by sense."
-    },
-    "僱傭化": {
-      "en": "the mercenary spirit",
-      "pinyin": "guyonghua",
-      "status": "decided",
-      "note": "Lit. 'turning into hired labor'; §2's third forbidden tendency — working for pay rather than conviction."
-    },
-    "積極性": {
-      "en": "proactiveness",
-      "pinyin": "jijixing",
-      "status": "decided",
-      "note": "First of §1's six principles. 積極/消極 rendered positive vs negative (active/pre-emptive vs passive/defensive), not 'optimistic/pessimistic'. The six: 積極性 proactiveness, 秘密性 secrecy, 敏捷性 agility, 精密性 precision, 普遍性 universality, 實際性 practicality."
-    },
-    "觀念": {
-      "en": "mindset",
-      "pinyin": "guannian",
-      "status": "decided",
-      "note": "The chapter’s key word. Rendered “mindset” for the governing-disposition sense that drives the chapter (觀念問題 the question of mindset, 特務觀念 the secret-service mindset, 觀念鬥爭 the struggle over mindset, 觀念正確/錯誤 a correct/mistaken mindset). Where the word is countable and concrete — 兩個相反的觀念, two opposing notions in one head — it is rendered “idea.” One word cannot carry both senses naturally in English; the split is deliberate and consistent."
-    },
-    "特務觀念": {
-      "en": "the secret-service mindset",
-      "pinyin": "tewu guannian",
-      "status": "decided",
-      "note": "Title of Chapter 4. The disposition and outlook proper to a secret-service worker."
-    },
-    "觀念鬥爭": {
-      "en": "the struggle over mindset",
-      "pinyin": "guannian douzheng",
-      "status": "decided",
-      "note": "Title of Chapter 4 §2. Literally “the struggle over ideas/mindset”: two opposing 觀念 contending in one mind until one prevails. The translated TOC’s “Building the Right Mindset” is an interpretation and was not followed; see the ch04 note. Echoes the Marxist 思想鬥爭 register the author knew as a former CCP intelligence chief."
-    },
-    "人生觀": {
-      "en": "life-outlook",
-      "pinyin": "rensheng guan",
-      "status": "decided",
-      "note": "Title of Chapter 4 §3, 特務人員的人生觀. Standard term for one’s outlook on life / philosophy of life; rendered “life-outlook” to keep it compact and to preserve the 觀 (“view/outlook”) shared with 觀念."
-    },
-    "中心思想": {
-      "en": "central conviction",
-      "pinyin": "zhongxin sixiang",
-      "status": "provisional",
-      "note": "Literally “central thought.” The core, orienting conviction that steadies the will; rendered “central conviction” in ch4 §1. Provisional — no fixed English-scholarship rendering located for this ordinary compound."
-    },
-    "主義": {
-      "en": "the cause",
-      "pinyin": "zhuyi",
-      "status": "decided",
-      "note": "Generic 主義 in the recurring pairing 黨與主義 / 為黨為主義 (“the Party and the cause”). In this Nationalist manual the referent is the KMT’s guiding doctrine, the 三民主義 (Three Principles of the People, glossed separately). Rendered “the cause” throughout for the bare word; the full 三民主義 keeps its attested form."
-    }
+ "_about": "Single source of truth for every rendering, and the auditable term ledger of check 5. One rendering per referent for the whole book. status: attested (used in English scholarship, cite it in note), provisional (my romanisation, not found), decided (project style call). Each entry carries pinyin for the ledger. Seeded at project setup; grows per batch.",
+ "book": {
+  "特務工作之理論與實際": {
+   "en": "The Theory and Practice of Secret Service Work",
+   "pinyin": "Tewu Gongzuo zhi Lilun yu Shiji",
+   "status": "decided",
+   "note": "Winston's chosen title. 特務工作 is rendered 'secret-service work' throughout; an alternate literal is 'special-agent work'. Author's preface dated Nanjing, 20 July 1933."
   }
+ },
+ "people": {
+  "顧順章": {
+   "en": "Gu Shunzhang",
+   "pinyin": "Gu Shunzhang",
+   "status": "attested",
+   "note": "1904-1935. The author. Chosen by Zhou Enlai to head the Chinese Communist Party's first intelligence service, the Central Special Branch (中央特科); trained in Soviet (GPU) tradecraft at Vladivostok in 1926 and built the apparatus from 1928. Captured in Wuhan and defected to the Nationalists in April 1931; his defection exposed the CCP's Shanghai underground and led to the arrest and execution of Party general secretary Xiang Zhongfa, one of the gravest security disasters in the Party's early history. Later executed by the Nationalists. This manual systematises the tradecraft he built and then turned. Corroborated by Wikipedia (en.wikipedia.org/wiki/Gu_Shunzhang) and the CIA study 'Edging in from the Cold'; verify any further biographical specifics before repeating them."
+  },
+  "桀紂": {
+   "en": "Jie and Zhou",
+   "pinyin": "Jie, Zhou",
+   "status": "attested",
+   "note": "桀, last king of the Xia, and 紂 (King Zhou of Shang / 帝辛), last king of the Shang — the paradigm tyrants of the Confucian moral tradition, the standing antithesis of the sage-kings Yao and Shun. Invoked in ch4 §2 (降為桀紂). Attested standard identifications."
+  }
+ },
+ "organizations": {
+  "中央特科": {
+   "en": "the Central Special Branch",
+   "pinyin": "Zhongyang Teke",
+   "status": "attested",
+   "note": "The CCP's clandestine intelligence/security organ (established 1927-28) that Gu Shunzhang helped run under Zhou Enlai. English 'Central Special Branch' is the form used by Wikipedia (en.wikipedia.org/wiki/Central_Special_Branch); 'Special Services Section' and 'Central Department for Special Tasks' also appear in the literature."
+  },
+  "中國國民黨": {
+   "en": "the Chinese Nationalist Party",
+   "pinyin": "Zhongguo Guomindang",
+   "status": "attested",
+   "note": "The Kuomintang (KMT / Guomindang), Sun Yat-sen's party and the ruling party of the Nanjing National Government from 1927. Rendered 'Chinese Nationalist Party' throughout; 'Kuomintang' and 'Nationalist Party' are the same body."
+  },
+  "C.P.": {
+   "en": "C.P.",
+   "pinyin": "(abbreviation)",
+   "status": "decided",
+   "note": "The author's own printed abbreviation for the Communist Party (Chapter 7 Section 2 is titled C.P.特務工作). Keep it verbatim as printed and gloss it as 'Communist Party' on first use."
+  },
+  "格伯武": {
+   "en": "the GPU",
+   "pinyin": "Gebowu",
+   "status": "attested",
+   "note": "The book's transliteration of the Russian abbreviation ГПУ (GPU), the Soviet State Political Directorate and secret police, 1922-34 (succeeded by the OGPU, 1923-34). Chapter 1 prints 格伯武; the forms 格別烏/格伯烏 are commoner in Chinese (Baidu Baike; zh.wikipedia). One rendering, 'the GPU', throughout. NB: Chapter 7 Section 3 uses 格伯烏 for the same referent; treat as the same entry."
+  },
+  "交通部": {
+   "en": "the Ministry of Communications",
+   "pinyin": "Jiaotong Bu",
+   "status": "decided",
+   "note": "The Republican-era government ministry (posts, telegraph, railways, shipping). The author puns on 交通: in tradecraft it means clandestine liaison/courier work, not public transport."
+  },
+  "格伯烏": {
+   "en": "the GPU",
+   "pinyin": "Gebowu",
+   "status": "attested",
+   "note": "Variant transliteration of ГПУ used later in the book; see 格伯武. Same referent, same English rendering 'the GPU'."
+  },
+  "國家政治檢察局": {
+   "en": "the State Political Directorate",
+   "pinyin": "Guojia Zhengzhi Jianchaju",
+   "status": "decided",
+   "note": "The source's rendering of the Soviet GPU as a public/avowed organ. 國家政治檢察局 (\"State Political Procuratorate\") is a variant; the commoner Chinese name is 國家政治保衛局, and the initials are transliterated 格伯武/格伯烏 (see those entries). Rendered 'State Political Directorate' to match the standard English name of the ГПУ."
+  },
+  "中央特務會議": {
+   "en": "the Central Secret-Service Conference",
+   "pinyin": "Zhongyang Tewu Huiyi",
+   "status": "provisional",
+   "note": "From the org-chart plate (ch2 §1). The deliberative body between the Politburo and the secret-service headquarters in the author's idealized scheme; not independently attested as an actual body."
+  },
+  "中央特務總部": {
+   "en": "the Central Secret-Service Headquarters",
+   "pinyin": "Zhongyang Tewu Zongbu",
+   "status": "provisional",
+   "note": "From the org-chart plate; glossed in the plate as the Central Defense Bureau (中央保衛局, Zhongyang Baoweiju). The apex executive organ in the author's scheme."
+  },
+  "各省區特務部": {
+   "en": "the Secret-Service Departments of the provinces and regions",
+   "pinyin": "Ge sheng-qu Tewubu",
+   "status": "provisional",
+   "note": "From the org-chart plate: the provincial/regional secret-service departments subordinate to the central headquarters."
+  },
+  "青幫": {
+   "en": "the Green Gang",
+   "pinyin": "Qingbang",
+   "status": "attested",
+   "note": "Shanghai secret society rooted in the Grand Canal grain-transport guilds and the Luo sect. 'Green Gang' is the standard English form (en.wikipedia.org/wiki/Green_Gang). The author was himself an initiate."
+  },
+  "紅幫": {
+   "en": "the Red Gang",
+   "pinyin": "Hongbang",
+   "status": "attested",
+   "note": "The Hong/Red Gang (紅幫), associated with the 洪門 (Hongmen) anti-Qing sworn-brotherhood tradition; paired with the Green Gang in the compound 青紅幫. Rendered 'Red Gang'."
+  },
+  "上海工部局": {
+   "en": "the Shanghai Municipal Council",
+   "pinyin": "Shanghai Gongbuju",
+   "status": "attested",
+   "note": "工部局 (literally 'Works Department Bureau'), the foreign-run governing body of the Shanghai International Settlement (1854-1943), which maintained the Shanghai Municipal Police (the Settlement 捕房). Standard English: 'Shanghai Municipal Council' (en.wikipedia.org/wiki/Shanghai_Municipal_Police). Distinct from the concession 巡捕房 glossed in ch.1."
+  },
+  "先施公司": {
+   "en": "the Sincere Company",
+   "pinyin": "Xianshi Gongsi",
+   "status": "attested",
+   "note": "Sincere Co., opened on Nanjing Road, Shanghai, in 1917; one of the 'four great' pre-war department stores. Cited in ch05 as commercial camouflage for moving parcels. Attested in histories of Nanjing Road commerce."
+  },
+  "永安公司": {
+   "en": "the Wing On Company",
+   "pinyin": "Yong'an Gongsi",
+   "status": "attested",
+   "note": "Wing On Co., opened on Nanjing Road in 1918 facing Sincere; another of the 'four great' Shanghai department stores. ch05."
+  }
+ },
+ "terms": {
+  "特務工作": {
+   "en": "secret-service work",
+   "pinyin": "tewu gongzuo",
+   "status": "decided",
+   "note": "Alternate literal: 'special-agent work'. One rendering throughout."
+  },
+  "特務": {
+   "en": "secret agent / secret service",
+   "pinyin": "tewu",
+   "status": "decided",
+   "note": "Rendered by context; do not flatten to 'spy'. Keep the period professional sense. NB the same word named ordinary military guard/HQ units (特務團/營/連, 特務股); rendered 'special-duty' there."
+  },
+  "非常": {
+   "en": "extraordinary",
+   "pinyin": "feichang",
+   "status": "decided",
+   "note": "A load-bearing recurring term: 'extraordinary' in the sense of out-of-the-ordinary, not-by-normal-means, paired throughout with 祕密 (secret). Not 'unusual' or 'emergency'."
+  },
+  "三民主義": {
+   "en": "the Three Principles of the People",
+   "pinyin": "San Min Zhuyi",
+   "status": "attested",
+   "note": "Sun Yat-sen's doctrine (nationalism 民族, democracy/people's rights 民權, people's livelihood 民生), the ideological basis of the Nationalist state. Standard English rendering."
+  },
+  "國民革命": {
+   "en": "the National Revolution",
+   "pinyin": "Guomin Geming",
+   "status": "attested",
+   "note": "The KMT-led revolution of the 1920s (Northern Expedition, 1926-28) and its continuing project; the standard English term."
+  },
+  "一黨專政": {
+   "en": "one-party rule",
+   "pinyin": "yidang zhuanzheng",
+   "status": "decided",
+   "note": "Lit. 'one-party dictatorship'; the KMT's doctrine of party tutelage under the 1931 provisional constitution. Rendered 'one-party rule'."
+  },
+  "別動隊": {
+   "en": "special-operations corps",
+   "pinyin": "biedongdui",
+   "status": "provisional",
+   "note": "Period military term for detached irregular/special-action units operating apart from the main force. Rendered 'special-operations corps'."
+  },
+  "土豪劣紳": {
+   "en": "local bullies and evil gentry",
+   "pinyin": "tuhao lieshen",
+   "status": "decided",
+   "note": "Stock revolutionary-era class label for rural power-holders targeted in the 1920s National Revolution. Keep the fixed pairing."
+  },
+  "巡捕房": {
+   "en": "concession police station",
+   "pinyin": "xunbufang",
+   "status": "decided",
+   "note": "The police stations of the foreign concessions (Shanghai's International Settlement and French Concession). Their Chinese informers were 包打聽."
+  },
+  "偵察": {
+   "en": "reconnaissance",
+   "pinyin": "zhencha",
+   "status": "decided",
+   "note": "The intelligence-gathering branch of the work; rendered 'reconnaissance' (or 'to reconnoitre')."
+  },
+  "情報": {
+   "en": "intelligence",
+   "pinyin": "qingbao",
+   "status": "decided",
+   "note": "Finished intelligence (reports worked up from reconnaissance), as distinct from 偵察 (the act of gathering)."
+  },
+  "偵探網": {
+   "en": "the detective network",
+   "pinyin": "zhentan wang",
+   "status": "provisional"
+  },
+  "交通網": {
+   "en": "the communications network",
+   "pinyin": "jiaotong wang",
+   "status": "provisional",
+   "note": "交通 here is clandestine liaison/communications, not transport."
+  },
+  "化裝術": {
+   "en": "the art of disguise",
+   "pinyin": "huazhuang shu",
+   "status": "provisional"
+  },
+  "釘梢術": {
+   "en": "the art of shadowing",
+   "pinyin": "dingshao shu",
+   "status": "provisional",
+   "note": "Tailing/surveillance on foot."
+  },
+  "反偵探": {
+   "en": "counter-surveillance",
+   "pinyin": "fan zhentan",
+   "status": "provisional"
+  },
+  "破壞術": {
+   "en": "sabotage",
+   "pinyin": "pohuai shu",
+   "status": "provisional"
+  },
+  "催眠術": {
+   "en": "hypnotism",
+   "pinyin": "cuimian shu",
+   "status": "provisional"
+  },
+  "形相術": {
+   "en": "physiognomy",
+   "pinyin": "xingxiang shu",
+   "status": "provisional"
+  },
+  "鋼的紀律": {
+   "en": "a discipline of steel",
+   "pinyin": "gang de jilü",
+   "status": "decided",
+   "note": "Literally 'steel discipline'; rendered 'discipline of steel.' The Leninist party-discipline idiom carried into tradecraft."
+  },
+  "自我批評": {
+   "en": "self-criticism",
+   "pinyin": "ziwo piping",
+   "status": "decided",
+   "note": "The Communist rectification technique (paired with the 批評會, 'criticism meeting'), reproduced in this manual written for the Nationalist side."
+  },
+  "報務員": {
+   "en": "radio operator",
+   "pinyin": "baowuyuan",
+   "status": "decided",
+   "note": "The operator who works a clandestine wireless station's key; paired with the 譯電員 (cipher clerk)."
+  },
+  "譯電員": {
+   "en": "cipher clerk",
+   "pinyin": "yidianyuan",
+   "status": "decided",
+   "note": "The clerk who encodes and decodes wireless traffic."
+  },
+  "匪區": {
+   "en": "bandit area",
+   "pinyin": "feiqu",
+   "status": "attested",
+   "note": "Nationalist term for Communist-held territory; the '匪/bandit' framing of the CCP that also named the 剁匪 (bandit-suppression) campaigns. Rendered literally to preserve the book's standpoint. Standard usage in Chinese Civil War scholarship."
+  },
+  "社會化": {
+   "en": "blending into society",
+   "pinyin": "shehuihua",
+   "status": "decided",
+   "note": "Lit. 'socialization'; here the tradecraft of dissolving into ordinary society. Kept consistent with the Ch.7 §1 title 'Blending Into Society' (社會化問題)."
+  },
+  "官僚化": {
+   "en": "bureaucratization",
+   "pinyin": "guanliaohua",
+   "status": "decided",
+   "note": "First of §2's three forbidden tendencies; doing everything by fixed official routine (官樣文章, 'official red tape')."
+  },
+  "空洞化": {
+   "en": "empty formalism",
+   "pinyin": "kongdonghua",
+   "status": "decided",
+   "note": "Lit. 'hollowing-out'; §2's second forbidden tendency — much talk and little practical work. Rendered by sense."
+  },
+  "僱傭化": {
+   "en": "the mercenary spirit",
+   "pinyin": "guyonghua",
+   "status": "decided",
+   "note": "Lit. 'turning into hired labor'; §2's third forbidden tendency — working for pay rather than conviction."
+  },
+  "積極性": {
+   "en": "proactiveness",
+   "pinyin": "jijixing",
+   "status": "decided",
+   "note": "First of §1's six principles. 積極/消極 rendered positive vs negative (active/pre-emptive vs passive/defensive), not 'optimistic/pessimistic'. The six: 積極性 proactiveness, 秘密性 secrecy, 敏捷性 agility, 精密性 precision, 普遍性 universality, 實際性 practicality."
+  },
+  "觀念": {
+   "en": "mindset",
+   "pinyin": "guannian",
+   "status": "decided",
+   "note": "The chapter’s key word. Rendered “mindset” for the governing-disposition sense that drives the chapter (觀念問題 the question of mindset, 特務觀念 the secret-service mindset, 觀念鬥爭 the struggle over mindset, 觀念正確/錯誤 a correct/mistaken mindset). Where the word is countable and concrete — 兩個相反的觀念, two opposing notions in one head — it is rendered “idea.” One word cannot carry both senses naturally in English; the split is deliberate and consistent."
+  },
+  "特務觀念": {
+   "en": "the secret-service mindset",
+   "pinyin": "tewu guannian",
+   "status": "decided",
+   "note": "Title of Chapter 4. The disposition and outlook proper to a secret-service worker."
+  },
+  "觀念鬥爭": {
+   "en": "the struggle over mindset",
+   "pinyin": "guannian douzheng",
+   "status": "decided",
+   "note": "Title of Chapter 4 §2. Literally “the struggle over ideas/mindset”: two opposing 觀念 contending in one mind until one prevails. The translated TOC’s “Building the Right Mindset” is an interpretation and was not followed; see the ch04 note. Echoes the Marxist 思想鬥爭 register the author knew as a former CCP intelligence chief."
+  },
+  "人生觀": {
+   "en": "life-outlook",
+   "pinyin": "rensheng guan",
+   "status": "decided",
+   "note": "Title of Chapter 4 §3, 特務人員的人生觀. Standard term for one’s outlook on life / philosophy of life; rendered “life-outlook” to keep it compact and to preserve the 觀 (“view/outlook”) shared with 觀念."
+  },
+  "中心思想": {
+   "en": "central conviction",
+   "pinyin": "zhongxin sixiang",
+   "status": "provisional",
+   "note": "Literally “central thought.” The core, orienting conviction that steadies the will; rendered “central conviction” in ch4 §1. Provisional — no fixed English-scholarship rendering located for this ordinary compound."
+  },
+  "主義": {
+   "en": "the cause",
+   "pinyin": "zhuyi",
+   "status": "decided",
+   "note": "Generic 主義 in the recurring pairing 黨與主義 / 為黨為主義 (“the Party and the cause”). In this Nationalist manual the referent is the KMT’s guiding doctrine, the 三民主義 (Three Principles of the People, glossed separately). Rendered “the cause” throughout for the bare word; the full 三民主義 keeps its attested form."
+  },
+  "祕密": {
+   "en": "secrecy",
+   "pinyin": "mimi",
+   "status": "decided",
+   "note": "Title concept of ch5. Rendered 'secrecy' (the state/practice); 'secret' as adjective."
+  },
+  "祕密機關": {
+   "en": "the secret apparatus",
+   "pinyin": "mimi jiguan",
+   "status": "decided",
+   "note": "A clandestine installation/premises (safe house, contact point, radio post). 機關 rendered 'apparatus' as elsewhere in the book. ch05 s2."
+  },
+  "祕密交通": {
+   "en": "secret communications",
+   "pinyin": "mimi jiaotong",
+   "status": "decided",
+   "note": "Clandestine courier and message traffic; 交通 in this intelligence sense = communications/liaison, not 'transport'. Consistent with 交通網 'communications network' (ch2). ch05 s3."
+  },
+  "交通人員": {
+   "en": "communications personnel / communications man",
+   "pinyin": "jiaotong renyuan",
+   "status": "decided",
+   "note": "A courier/liaison agent. Rendered 'communications man' in running prose. ch05."
+  },
+  "抄靶子": {
+   "en": "stop-and-frisk (police body-search)",
+   "pinyin": "chao bazi",
+   "status": "provisional",
+   "note": "Shanghai slang for a police stop-and-search; scan prints the variant 抄把子. Also the constables who did it. No fixed English scholarship rendering; 'stop-and-frisk patrol' is this project's choice. ch05 s3."
+  },
+  "包探": {
+   "en": "plainclothes detective",
+   "pinyin": "baotan",
+   "status": "decided",
+   "note": "A plainclothes detective/informer of the (esp. concession) police. Distinct from 巡捕 (uniformed constable). ch05 s2."
+  },
+  "巡捕": {
+   "en": "concession patrolman",
+   "pinyin": "xunbu",
+   "status": "decided",
+   "note": "Uniformed constable of a foreign-concession police force. Cf. 巡捕房 'concession police station' (glossed ch1). ch05 s2."
+  },
+  "漏格法": {
+   "en": "the grille method",
+   "pinyin": "louge fa",
+   "status": "decided",
+   "note": "The grille (Cardan-grille) cipher: a holed mask over a sheet, secret words written through the holes, an innocent letter composed around them. ch05 s3."
+  },
+  "明碼": {
+   "en": "the plaintext telegraph code",
+   "pinyin": "mingma",
+   "status": "decided",
+   "note": "The Chinese commercial telegraph code (four-digit groups per character). Gu's swap/arithmetic tricks are superencipherments over it. ch05 s3."
+  },
+  "娘姨": {
+   "en": "maidservant",
+   "pinyin": "niangyi",
+   "status": "decided",
+   "note": "Shanghai (Wu) term for a live-in female domestic servant. ch05 s2."
+  },
+  "同鄉會": {
+   "en": "native-place association",
+   "pinyin": "tongxianghui",
+   "status": "attested",
+   "note": "An association of people from the same home district; standard rendering in Shanghai social history. ch05 s2."
+  }
+ }
 }

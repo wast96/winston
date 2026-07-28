@@ -2,11 +2,11 @@
 
 Read this first. Written as work happens, not at the end.
 
-## Status: Batches B01, B02, B03, B04 (Chapters 1-4) DONE, built and QA-green.
+## Status: Batches B01–B05 (Chapters 1-5) DONE, built and QA-green.
 
-Branch `claude/gu-shunzhang` (the single home for this project's work). Four of eight chapters translated.
+Branch `claude/gu-shunzhang` (the single home for this project's work). Five of eight chapters translated.
 `out/gushunzhang.epub` builds with a full pending-aware TOC; `qa_epub.py`
-PASS (62 notes, 10 spine files). Next batch is B05 (Chapter 5, 秘密); see `HANDOFF.md`.
+PASS (85 notes, 11 spine files). Next batch is B06 (Chapter 6 §1-3); see `HANDOFF.md`.
 
 ## Source facts established at setup (unchanged)
 
@@ -351,6 +351,90 @@ the chapter ends cleanly at folio 57.
   countable sense (兩個相反的觀念); the split is deliberate — see glossary.
 - 中心思想 rendered "central conviction" is provisional (no outside attestation
   for this ordinary compound).
+
+## Batch B05 — Chapter 5 (秘密 / Secrecy), printed folios 58-82 (PDF 90-114)
+
+Largest batch so far: 25 pages, 4 sections, `out/ch05_reading.md` (138 paragraphs).
+The chapter is a concrete tradecraft manual — the secret apparatus (safe houses),
+secret communications (couriers), secret writing (invisible inks and ciphers),
+and the everyday habits of secrecy. Heavy on nested lists, so the completeness
+recount below mattered more than usual.
+
+### Offset / folios
+- **ch5 opener PDF 90 = folio 五八 (58), read off the page** — offset holds at
+  pdf−32 through the whole chapter (folios 58-82 each read at the crop). Chapter
+  ends cleanly at folio 82 (§4 五、文字 item 3); Ch6 opens on the next page.
+- **book.json's `toc_flags_resolved` for ch05s04 confirmed by eye at PDF 110 /
+  folio 78: 第四節 一般的祕密 "Ordinary Secrets," first sub-item 一、日常生活.**
+  The section exists; the translated TOC had omitted it.
+
+### The eight checks — what ran, what they found
+1. **Dual-engine OCR diff.** PaddleOCR still will not install (weights host off
+   the allowlist); tesseract `chi_tra_vert --psm 5` is the only machine engine.
+   Substituted the stronger defense: all 25 folios read by eye off the 300 dpi
+   scan. The load-bearing spans crop-verified at magnification: every cipher
+   number on folio 76 (4782/5789→2784/9785; the 8-group up-down table; the
+   add/subtract examples 3782,8734 +4→3786,8738 and 9756,3412 −2→9754,3410 —
+   arithmetic self-consistent), and the 店務員 character on folio 78.
+2. **Blind double-translation.** The four argumentative/analytical passages
+   fully doubled in a fresh context and diffed: §3's body-analogy + CCP-collapse
+   opener, the §3.II qualifications intro (1930 incident), §1.I's two senses of
+   secrecy, and the §3.II.3 stop-and-frisk passage. Close agreement, no
+   divergence of meaning. Descriptive list-filler sampled, not fully doubled.
+3. **Back-translation.** The same four passages round-tripped to Chinese and
+   diffed against the OCR source: every clause, number, and named entity intact
+   (1930, the seven Shanghai districts, the two idioms, the whole CCP claim);
+   no omissions or additions.
+4. **Automated invariants.** `check_numbers.py` clean (0 unresolved over 138
+   pairs) after four NOISE additions (二房東, 五倍子, 五香, 四週 — all
+   measure-word / fixed-term false positives). `check_structure.py` parity
+   138/138, headings one shape across all 5 built chapters, 85 anchors 0
+   unresolved.
+5. **Term ledger.** 13 glossary rows added with attestation (below).
+6. **Annotate not smooth.** The genuine low-confidence spans are footnoted, not
+   smoothed: the 店務員→電務員 misprint (folio 78) and the 綠化鈷→氯化鈷
+   (cobalt chloride) misprint (folio 73). No bracket tags survive into the prose.
+7. **External scholarship.** The chapter's one big historical claim (a 1930
+   Shanghai courier compromise collapsing the CCP networks) checked against
+   Wikipedia ("Gu Shunzhang") and CIA *Studies in Intelligence* 56:3 (2012):
+   the documented mass collapse was Gu's OWN capture-and-defection of 24 April
+   **1931**, not a 1930 incident — so the 1930 dating is footnoted as the
+   author's own, possibly self-serving, framing. 先施/永安 (Sincere 1917 /
+   Wing On 1918, Nanjing Road) corroborated. Cobalt-chloride and iron-gall
+   (五倍子+綠礬) chemistry confirmed. Grok not used.
+8. **Deep audit.** Coverage 100 percent (every folio eye-read). Full
+   crop-and-zoom on all cipher numerals and the 店務員 char. Estimated residual
+   error rate: well under 0.5 percent; no dropped numbers; one source misprint
+   caught and noted. **Completeness recount** (the check the handoff flagged for
+   this long batch): every list re-counted against the pages — §1.III 1-7,
+   §2.III 1-12, §2.IV 1-5, §3.III chemical a-c / physical a-j (10) / math a+b(1-3),
+   §3.IV 1-9, §3.V 1-6, §4 all sub-lists — all complete, matching the 138 parity.
+
+### Footnotes / glossary added
+- **notes.json `ch05`: 23 notes** (numbers 63-85; total book notes now 85).
+  Idioms with their images (守口如瓶, 風不透雨不漏, 深溝高壘/嚴陣以待, 放大砲,
+  露鋒鋩, the 一人藏物十八人難尋 proverb); period/reference terms (包探, 巡捕,
+  申莊字號, 娘姨, 同鄉會, 經租賬房/看弄人, 抄靶子, 月經帶, 先施/永安); the
+  technical notes (iron-gall and cobalt-chloride inks, UV/IR/cathode-ray
+  developing, the 漏格 grille cipher, the 明碼 telegraph code + superencipherment);
+  and the historical/uncertainty notes (the 1930 vs 1931 network collapse, the
+  店務員 misprint). About 0.9/folio — leaner than ch1's 3/page, appropriate for
+  a repetitive, list-driven technical chapter.
+- **glossary.json: 13 rows** — orgs 先施公司/永安公司 (attested); terms 祕密,
+  祕密機關, 祕密交通, 交通人員, 抄靶子 (provisional), 包探, 巡捕, 漏格法, 明碼,
+  娘姨, 同鄉會 (attested).
+
+### Flagged for Winston's read-through
+- **The 1930 dating (§3.II) is the author's, not the record's.** The documented
+  Shanghai-underground collapse is Gu's own April 1931 defection; footnoted.
+- **Two source misprints, both footnoted, both rendered to the evident intent:**
+  店務員 → 電務員 (radio operator, folio 78) and 綠化鈷 → 氯化鈷 (cobalt
+  chloride, folio 73).
+- **No figures in Chapter 5.** Despite the handoff's prediction of plates,
+  every one of the 25 pages is prose/lists; `find_figures.py 90 114` detected
+  only page furniture / the NCL seal. Recorded as `figures.json: {"ch05": []}`.
+- 抄靶子 "stop-and-frisk (patrols)" and 交通人員 "communications man/personnel"
+  are this project's renderings (抄靶子 provisional — no fixed scholarship form).
 
 ## Engineering state (for later batches)
 - `scripts/build_reading_epub.py` REWRITTEN for this book: driven by
