@@ -404,24 +404,19 @@
     }
   ],
 
-  "_batches_note": "Approved by the commissioner on 2026-07-28 (17 batches, ~12k source chars each). first/last are unit ids.",
+  "_batches_note": "Approved by the commissioner on 2026-07-28 (12 batches, ~16k source chars each). first/last are unit ids.",
   "batches": [
-    {"batch": "B01", "first": "ch01", "last": "ch04", "chars": 11477, "title": "Epigraph through Miss Tao"},
-    {"batch": "B02", "first": "ch05", "last": "ch06", "chars": 7575, "title": "Xuanwu Lake through Identity"},
-    {"batch": "B03", "first": "ch07", "last": "ch08", "chars": 10815, "title": "Old Fang through The Race Ticket"},
-    {"batch": "B04", "first": "ch09", "last": "ch10", "chars": 8621, "title": "The Photograph through The Clinic"},
-    {"batch": "B05", "first": "ch11", "last": "ch12", "chars": 8551, "title": "The Tenant through A Letter from Afar"},
-    {"batch": "B06", "first": "ch13", "last": "ch14", "chars": 9238, "title": "The Revolving Door through New Year's Eve"},
-    {"batch": "B07", "first": "ch15", "last": "ch16", "chars": 9192, "title": "Code Words through The Bank"},
-    {"batch": "B08", "first": "ch17", "last": "ch19", "chars": 11440, "title": "The Suitcase through February"},
-    {"batch": "B09", "first": "ch20", "last": "ch20", "chars": 5838, "title": "The Xingchang Apothecary"},
-    {"batch": "B10", "first": "ch21", "last": "ch21", "chars": 8383, "title": "The Tanglong Door"},
-    {"batch": "B11", "first": "ch22", "last": "ch23", "chars": 8451, "title": "The Tiannan Teahouse through Garrick"},
-    {"batch": "B12", "first": "ch24", "last": "ch25", "chars": 8577, "title": "Backstage through Jiaoli"},
-    {"batch": "B13", "first": "ch26", "last": "ch27", "chars": 9145, "title": "The Guisheng through The Gonghexiang Wharf"},
-    {"batch": "B14", "first": "ch28", "last": "ch29", "chars": 11413, "title": "Xiaotaoyuan through The Dyeworks Drying Ground"},
-    {"batch": "B15", "first": "ch30", "last": "ch32", "chars": 11549, "title": "The Yangzhou Master through The Dairy Shed"},
-    {"batch": "B16", "first": "ch33", "last": "ch34", "chars": 9022, "title": "North Station through Fish Congee"},
-    {"batch": "B17", "first": "ch35", "last": "ch37", "chars": 7883, "title": "The Huangpu River through Appendix"}
+    {"batch": "B01", "first": "ch01", "last": "ch05", "chars": 15918, "title": "Epigraph through Xuanwu Lake"},
+    {"batch": "B02", "first": "ch06", "last": "ch08", "chars": 13949, "title": "Identity through The Race Ticket"},
+    {"batch": "B03", "first": "ch09", "last": "ch11", "chars": 12297, "title": "The Photograph through The Tenant"},
+    {"batch": "B04", "first": "ch12", "last": "ch14", "chars": 14113, "title": "A Letter from Afar through New Year's Eve"},
+    {"batch": "B05", "first": "ch15", "last": "ch17", "chars": 12668, "title": "Code Words through The Suitcase"},
+    {"batch": "B06", "first": "ch18", "last": "ch20", "chars": 13802, "title": "The Maochang Coal Company through The Xingchang Apothecary"},
+    {"batch": "B07", "first": "ch21", "last": "ch22", "chars": 13142, "title": "The Tanglong Door through The Tiannan Teahouse"},
+    {"batch": "B08", "first": "ch23", "last": "ch25", "chars": 12269, "title": "Garrick through Jiaoli"},
+    {"batch": "B09", "first": "ch26", "last": "ch27", "chars": 9145, "title": "The Guisheng through The Gonghexiang Wharf"},
+    {"batch": "B10", "first": "ch28", "last": "ch30", "chars": 15511, "title": "Xiaotaoyuan through The Yangzhou Master"},
+    {"batch": "B11", "first": "ch31", "last": "ch33", "chars": 12408, "title": "The Cemetery through North Station"},
+    {"batch": "B12", "first": "ch34", "last": "ch37", "chars": 11948, "title": "Fish Congee through Appendix"}
   ]
 }

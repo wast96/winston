@@ -13,11 +13,12 @@ Rivers and Mountains, Sun Ganlu, 2022) from source.epub into an annotated Englis
 EPUB. The survey is approved; the working branch is claude/thousand-li and the
 deliverable is out/thousand-li.epub.
 
-Do Batch B01 = ch01 through ch04 (the epigraph "1933: Around the Lunar New Year",
-then Dice / 骰子, Longhua / 龙华, Miss Tao / 陶小姐), end to end. Read each unit's
-source from data/src/ (04_part0002.txt, 05_part0003.txt, 06_part0004.txt,
-07_part0005.txt). Translate to the register in CLAUDE.md: clean flowing English
-prose, the novel's own voice, all apparatus in footnotes, never inline.
+Do Batch B01 = ch01 through ch05 (the epigraph "1933: Around the Lunar New Year",
+then Dice / 骰子, Longhua / 龙华, Miss Tao / 陶小姐, Xuanwu Lake / 玄武湖), end to
+end. Read each unit's source from data/src/ (04_part0002.txt, 05_part0003.txt,
+06_part0004.txt, 07_part0005.txt, 08_part0006.txt). Translate to the register in
+CLAUDE.md: clean flowing English prose, the novel's own voice, all apparatus in
+footnotes, never inline.
 
 For each unit author ONE aligned bilingual QC file out/<id>_bilingual.md (source
 '>' blockquote line, English paragraph beneath; headings tagged ## / ###), quoting
@@ -37,7 +38,7 @@ groves, historically the site of the 1931 execution of the "Longhua martyrs" —
 check against scholarship). Then rebuild: scripts/build_reading_epub.py
 out/thousand-li.epub, run scripts/qa_epub.py until green (it refuses on an
 unmatched note anchor). Commit to claude/thousand-li and push. Rewrite HANDOFF.md
-so its first section is the paste-ready kickoff for Batch B02 (ch05–ch06). Cite
+so its first section is the paste-ready kickoff for Batch B02 (ch06–ch08). Cite
 chapters/sections, never page numbers. Never invent bridging text; footnote any
 genuine ambiguity and leave it visible. Do not pause for approval mid-batch.
 Deliver out/thousand-li.epub in chat as an attached file at the end.
@@ -49,15 +50,16 @@ Deliver out/thousand-li.epub in chat as an attached file at the end.
   chars, cover image only). book.json authored as the logical structure — 37
   units (epigraph, 34 titled chapters, closing unsigned letter, two-part
   appendix), 157,170 translatable source chars. Skeleton EPUB builds with a fully
-  hyperlinked TOC; qa_epub.py green. Batch plan approved: 17 batches, ~12k chars
-  each (recorded in book.json "batches"). Committed and pushed to
+  hyperlinked TOC; qa_epub.py green. Batch plan approved: 12 batches, ~16k chars
+  chars each (recorded in book.json "batches"). Committed and pushed to
   claude/thousand-li.
 - No chapters translated yet.
 
 ## What is NEXT
 
-- Batch B01 = ch01–ch04 (epigraph, Dice, Longhua, Miss Tao). 11,477 source chars.
-- Then B02 = ch05–ch06, and so on through B17 = ch35–ch37 (see book.json
+- Batch B01 = ch01–ch05 (epigraph, Dice, Longhua, Miss Tao, Xuanwu Lake). 15,918
+  source chars.
+- Then B02 = ch06–ch08, and so on through B12 = ch34–ch37 (see book.json
   "batches" for the full approved plan).
 
 ## Open items for the read-through
