@@ -217,3 +217,305 @@ Counter-surveillance is the most hazardous and the hardest work of all, not to b
 9. Body and mind alike must be sound, equal to the most toilsome work — and he must not so much as talk in his sleep at night.
 
 10. His judgment, his understanding, and his memory must every one of them be especially strong.
+
+### Section 4. Weapons Used in the Work
+
+#### I. Why a Secret-Service Worker Must Understand Weapons
+
+On the active side, a secret-service worker who is to carry out assassination or wrecking must understand weapons — of that there can be no doubt. On the passive side, to guard his own safety and forestall the enemy's snares he must understand weapons no less; and the more kinds of weapon he understands the better, so that whatever weapon he meets he can take up on the spot and put to use — can even, indeed, turn the enemy's own weapon against the enemy.
+
+There was once a detective sent by the Shanghai Garrison Command to take a prisoner out into the countryside to recover stolen goods. Out there the detective thought he would seize the chance for a little target practice; but after he had fired one round, the second would not fire. He did not know that the spent case had jammed in the chamber and failed to eject, and in his fluster he flung the gun down.
+
+The prisoner, however, knew where the trouble lay: he picked the gun up off the ground, worked the action once by hand, the spent case flew out, and with a single shot, taken at his aim, he killed the detective.
+
+Then there was a certain Wang who set out to assassinate a man, carrying a Mauser pistol. The evening before, in high excitement, he drank a farewell meal, made himself ready to give his life, and asked a friend to see to all his affairs after his death.
+
+Next day he came to the house of the man he was to kill, gave out that he had a letter to hand over in person, and asked to be admitted. As the servant went upstairs to announce him, Wang followed up with the gun on him. His target was not yet risen; hearing someone come, he pulled on his underclothes, got up and opened the door — and the moment Wang saw him he fired. But the man threw himself backward on purpose, so the shot did not find its mark, and the servant was frozen stiff with fright and dared not raise a cry. Wang made to fire a second, killing shot — and this time the gun would not fire at all. What he did not know was that inside was a round that had taken damp; had he known the trick, then in that hair's-breadth instant he need only have worked the action once to throw the dud clear and go on firing.
+
+As it was, unable to fire the second shot and fearing that the longer he lingered the greater the danger, he fled — and so failed of his purpose altogether. This came of his not being expert with the gun. And the intended victim and his servant knew nothing of guns either; had they understood what ailed the weapon, they could have taken Wang's own gun and shot Wang with it, and never let him get away.
+
+To be thoroughly familiar with the working of a gun, then, brings many advantages and is of great worth.
+
+#### II. Which Weapons Are Best Suited to Secret-Service Work
+
+The standard for the weapons a secret-service worker uses is that they be easy to carry, wide in effect, and easy to keep secret: (1) the handgun, (2) the gas-gun, and (3) the explosive charge.
+
+#### III. The Handgun
+
+1. Protecting and storing the handgun.
+
+(a) When the gun is not in use, take the cartridges out of the magazine; otherwise the magazine spring easily loses its tension.
+
+(b) After firing, clean the gun within six hours, for the powder is salty and the barrel rusts easily; let too long pass and the rust will not clean off. To get it off then, you must fire the gun again and again clean within six hours.
+
+(c) The cleaning oil should be of the thinnest kind — that sold by the Kwong Sang firm is best. When the gun is to be laid by, coat it with a heavy grease such as tallow or vaseline, and it will keep years without rust; when it is wanted again, wash it clean and dry with kerosene or gasoline, wipe it over with thin oil, and it will not rust at all.
+
+(d) If trouble arises and the gun must be hidden away, coat it with vaseline, wrap it well in waxed paper and sink it in water; so it will keep ten years unspoiled. Fish it out when the time comes, wash off the vaseline, wipe it with thin oil, and it is ready for use as before.
+
+(e) Cartridges in store must be kept from damp, but also from any place too near a strong heat.
+
+(f) When the gun is not in use, release the trigger sear, lest the spring of the hammer inside (which drives the firing pin) lose its force.
+
+(g) Gun and cartridges must be kept apart, so that even if the enemy finds out or steals the one, it is of no use to him by itself.
+
+2. How to take the handgun apart, put it together, and clean it.
+
+*Disassembly.*
+
+(1) First find the gun's first "gate" — the first catch to be released; if there is a maker's manual, consult it.
+
+(2) The new-model pistols made within the last five years mostly come apart beginning at the catch of the barrel-spring, or at the safety; once you can open that first gate, the rest is very easy.
+
+(3) Lay out the parts you remove in their order — (1), (2), (3), (4) and so on — and keep them from being jumbled, or you will go wrong in reassembling.
+
+(4) In taking it apart, watch that a spring does not fly off and carry a small part away with it, hard then to find.
+
+(5) Spread a sheet of stiff white paper on the table as you work, so the parts show up plainly wherever they lie.
+
+*Assembly.*
+
+(1) In fitting the parts, mind the order of first and last, and let nothing be jumbled, or an error will bring trouble.
+
+(2) If a part will not seat, do not force it with a hard blow; ease it gently into place. Only in the last resort tap it with a wooden mallet against a board, and lay something soft over it first, for hard struck on hard is sure to damage one or the other.
+
+(3) When it is assembled, carry out the test-check:
+
+— With the gun empty, work the action once by hand and pull the trigger; listen whether the hammer sounds. A crisp, clear report proves the hammer is sound.
+
+— Load the cartridges and keep working the action steadily by hand, watching whether the rounds chamber and eject one after another in good order; if so, the gun will give no trouble in firing.
+
+— Test the safety for any fault.
+
+— Inspect whether the cartridges are of the matching bore, and whether they have taken damp.
+
+*Cleaning.*
+
+(1) A new gun must be cleaned, for the heavy grease packed inside cakes into gummy scabs that hinder the working parts.
+
+(2) After firing it must be cleaned, for it rusts easily then.
+
+(3) Where the sweat of the hand has touched the gun it must be cleaned too; in summer, wear thin gloves to handle it.
+
+(4) Where the nickel plating has rusted, use a chemically made rubber to clean it, not emery cloth.
+
+(5) The blued parts must be cleaned with kerosene.
+
+(6) For ordinary cleaning use a smooth, lint-free soft cloth and the thinnest oil, such as the gun-oil sold by the Kwong Sang firm.
+
+3. Handling the gun in use.
+
+(a) A novice, not yet practiced with the gun, should not keep a round in the chamber, for safety's sake; when he needs it, one pull of the action chambers a round.
+
+(b) A practiced hand may chamber a round and then set the safety; when he needs it he has only to push the safety off.
+
+(c) When there is no help for it and you must fire, put the left hand behind you and the right to the front, turn your body side-on to cut down the target you offer the enemy's eye, raise the arm, and aim for the enemy's head or chest. Be bold, do not fluster; the first to strike has the mastery.
+
+(d) Whatever happens, do not fire off every round; keep a few back to guard yourself and to be ready should the enemy rush in to seize the gun.
+
+4. What are the important parts of the handgun, and why must we understand its temper?
+
+(a) The most important parts within the gun are the firing pin and the hammer; inspect them constantly for any damage.
+
+(b) Every kind of gun has its own temper: some kick hard, some hardly at all. Before you use a gun you must first know its temper; only then can you hit the mark easily, and only then can you keep yourself out of danger.
+
+(c) You should shoot at the target often in ordinary times — testing the temper of each kind of pistol, and at once training your aim, so that when it comes to the real thing you can hit the mark.
+
+5. The dangers of the handgun, and the points we must observe.
+
+(a) A gun is very dangerous; in ordinary times never let the muzzle point at anyone.
+
+(b) In taking the gun apart, assembling it, loading or unloading, hold the muzzle down — or up — if you are in a single-story house; in a building of several floors, mind whether there is anyone above or below.
+
+(c) When carrying it on you, the muzzle must point down, and see that it can be drawn out quickly and without snagging.
+
+(d) To judge whether a gun is new or old, look whether the bluing is still bright.
+
+(e) Note, when firing, whether the spent cases eject quickly and without hitch.
+
+6. Loading the cartridges.
+
+(a) Set the cartridges in the right hand, gripping a round with the thumb, forefinger and middle finger.
+
+(b) Hold the magazine in the left hand, the thumb pressing down the follower plate over the spring.
+
+(c) With the three fingers of the right hand press the rounds down one by one, the left thumb lending its help as you go.
+
+(d) Load quickly, and when it is loaded tap the magazine on a flat surface, in case the rounds have not seated evenly.
+
+7. How to tell a good handgun from a bad one.
+
+(a) By date of make — the more recent the better; taking this year, for instance, one made in 1933 is best of all.
+
+(b) By country of make — (1) Germany is best, (2) Spain next, (3) Switzerland, Austria and Portugal after that.
+
+(c) By form — the fewer screws the better; none at all is of course best, save for the screws on the grip.
+
+(d) By bore — if the gun is small yet the cartridge it fires is of large bore, that gun is the best.
+
+8. The distance over which a handgun's shot stays effective.
+
+(a) By sheer effect — the revolver is best.
+
+(b) A six-inch pistol falls off in effect beyond thirty paces.
+
+(c) A four-inch pistol falls off in effect beyond twenty paces.
+
+9. The bore of the handgun.
+
+(a) A common six-inch pistol runs to a bore of about 7.65.
+
+(b) A common four-inch pistol runs to a bore of about 6.35.
+
+#### IV. The Gas-Gun
+
+Types and forms. The gas-gun is a recent invention, not yet in common use, and the general science of arms has as yet no name for it. It was first devised in Japan, and China too can now make it; it is called a gas-gun because the round it fires is a charge of poison gas.
+
+There are two forms. One is large, much like the malacca baton the Shanghai constables carry stuck in a trouser pocket, about one chi two cun long and a little over one cun across. The other is small, of the size and black color of a fountain pen, and can likewise be clipped on the person, so that at a glance one takes it for a fountain pen and never suspects it is a weapon.
+
+Its make and use. The large one is a steel tube, threaded at the middle so that it unscrews; the charge loads into the long end, while the short end holds a firing pin and an open-and-shut mechanism, and at need one trips the catch and it fires.
+
+The small one is likewise made of steel tube, fashioned exactly to the pattern of a fountain pen; the poison gas is driven out by the force of the primer's ignition.
+
+Its effect and function. The large one may possibly kill a man; the small one absolutely cannot.
+
+A man struck by the large charge comes round after ten minutes; struck by the small, in only three to five minutes.
+
+The range is ten to thirteen paces for the large, five to seven for the small; beyond that it has no effect.
+
+The purpose of this kind of gun is to take a man alive rather than kill him: the large is used when a few must master many, the small when seizing someone on the road and outmatched in strength.
+
+Points to observe in using the gas-gun: if a man struck by the gun does not revive, spray water on him and he will come round.
+
+The charges must be kept in a dark place, out of the sunlight and out of the damp; once damp, the round will not fire.
+
+*Editorial note: the source continues Section 4 with the internal composition of the gas-gun's cartridge and then a further subsection on the making and use of explosive charges (炸彈). That material — construction detail for chemical and explosive munitions — has been withheld from this edition, and only its place in the argument is marked here.*
+
+### Section 5. Sabotage / Destruction
+
+*This section of the original — 破壞術, the art of destruction, a technical treatment of sabotage consisting largely of instructions for the construction and placement of explosive devices — has been deliberately withheld from this edition. It is dangerous how-to content of a kind this translation does not reproduce. Its slot in the book's structure is kept so that the numbering and cross-references of the surrounding sections stay intact; only the instructional content is withheld.*
+
+### Section 6. The Art of Conversation
+
+#### I. The Function of the Art of Conversation in Secret-Service Work
+
+As the proverb well says, "A hundred sicknesses enter by the mouth; a hundred calamities issue from the mouth." And again: "He who can talk can make men laugh; he who cannot can make them leap in rage." From this one may see how much the art of speech matters.
+
+A Western philosopher once said, "I have often heard men regret that they spoke too much; seldom that they spoke too little"; and China too has the maxim of "the golden man with his mouth thrice sealed." But these look only to the passive side of the matter, not to the active.
+
+In truth, in the dealings of man with man, silence may indeed spare one many faults; but when the occasion demands speech and will not suffer you to be silent, then you must have a good training in the art of speech before you can come by a good result.
+
+The art of conversation holds an especially important place in secret-service work, for the work must reach into every smallest corner of society, and the worker must have dealings with every sort of person, must fall into talk with people of every walk of life. If you have no training in the art, then on the active side you will not win the other's sympathy, will not draw out his secrets, still less gain his help.
+
+And on the passive side, a wrong word will let others see the flaw in you and leak your own secret away. So the secret-service worker must give heed to the art of talk.
+
+The one governing principle of the art is to go by the objective facts — to suit your words to the man and act as the moment offers; but beyond that there are points common to all cases.
+
+1. In talking, seize the central point; do not blaze away at random, leaving the other unable to make head or tail of you.
+
+2. Be natural and orderly; do not talk without sequence, so that the hearer wearies of it.
+
+3. Read the moment and take the hint; do not be tactless. If you see the other is busy, or tired, make an end quickly and do not run on; for as the proverb says, "The unlettered man may still get his rice, but the man who cannot read a face goes hungry."
+
+4. Observe the other's condition, so that what you say holds his attention. If you see his spirits flagging, take your most telling sentence and raise your voice upon it.
+
+#### II. Dealing With and Conversing With Ordinary People
+
+1. Study everything about the person before you:
+
+(a) Note his bearing.
+
+(b) Note his time.
+
+(c) Note his spirits.
+
+(d) Note the matters that touch him closely.
+
+(e) To each sort of man, the sort of talk that suits him.
+
+2. Leave room in your words; do not blow your own trumpet without stint.
+
+3. Say little yourself and make the other say much; set things going yourself, but draw out his opinions — for as they say, "The poor talker rushes to speak; the good talker thinks before he speaks."
+
+4. Guard your secrets: do not, when the talk has warmed you and carried you away, blurt out plainly to the other all your own past secrets — which runs clean against the rule that you should know many men and be known by few.
+
+5. In speaking with ordinary people, take an accommodating line: play to what they like and steer clear of what they dislike; let your manner be sincere and warm; neither talk too much nor be too dull. In all things make it your rule to fall in with the other's frame of mind.
+
+6. Before a crowd — at meetings, weddings and the like, and above all when speaking for the first time — a great deal turns on it. Observe the following points:
+
+(a) Let your sentences come out with decision; do not be so noncommittal as to weary the hearers.
+
+(b) Let the voice be pitched with force, so that a man is stirred the moment he hears it.
+
+(c) Let your manner be utterly sincere, so that men are easily moved to sympathy.
+
+(d) Let beginning and end answer one another in good order, so that the audience carries away a whole impression.
+
+(e) Fall in with the audience's frame of mind, so that they feel a comfort of spirit.
+
+(f) The words that matter must be brought out in a weighty tone, so that the audience marks them particularly.
+
+7. In talking with women, let the manner be peaceable and gentle, and offer comfort withal.
+
+#### III. How to Converse With Political Prisoners and Suspects
+
+1. On political prisoners. To interrogate a political prisoner by torture and beating can settle nothing at all; one should use the method of conversation to draw out his confession.
+
+(a) Study everything about him:
+
+(1) Ascertain his rank — a high leader, a middle cadre, or a low one.
+
+(2) Learn his knowledge, his level of education, and the circumstances of his household.
+
+(3) Learn his bearing and his character.
+
+(b) In talking, let your manner be sincere, and be knowing in the work; ask after his thinking, his line, the organs he knows of, and so forth.
+
+(c) Now comfort him, now try him, now deceive him — true by turns and false — and never let him know your real face. Herewith a few points, set down below:
+
+(1) "You have nothing to fear; a man is not shot the moment he's taken."
+
+(2) "Suppose you were given work to do — how would you go about it?"
+
+(3) "I was once just as you are — did you not know?"
+
+2. On suspects. In talking with a suspect, attend to his needs, to win his sympathy and so come by a confession; as, for example, asking:
+
+(1) "Would you send word home? I will carry it for you!"
+
+(2) "Do you want a bedsheet, a sleeping-mat, some clothes?"
+
+(3) "Do you know all the rules inside the jail?"
+
+(a) In talking with his family and friends: do not put on the standing of an official; speak from a sympathetic attitude and from the position of one lending a hand — offering, say, to act as his volunteer lawyer, to carry letters for him, and the like — and so you can investigate how things really stand.
+
+(b) If even so you get no result, you may use the following methods:
+
+(1) Put a sham prisoner in the same cell as the suspect, to draw everything out of him.
+
+(2) Shut the co-suspects up together and listen from the next room.
+
+#### IV. How to Converse With a Person Under Suspicion
+
+Once we have found a man to be suspect, we mark him in our own minds as a suspect, and thereafter watch him at every turn. In conversation above all we should, by every means, fall in with his frame of mind so as to draw out his secret and reach our end.
+
+Say a man is suspect, yet we cannot fix for certain how the case stands with him: then we set someone he does not distrust to fall into talk with him, showing him all possible sympathy — but taking care not to let him grow suspicious midway, and not to be hasty, but to probe his drift slowly, and only at the very last to show our hand openly.
+
+#### V. How to Converse With Fellow Workers
+
+1. Let the manner of the talk be utterly sincere and warm, never that of an official.
+
+2. Let the substance lay its weight above all on encouragement; do not dwell only on the negative side, harshly blaming him and threatening him.
+
+3. Stand in the spirit of a teacher, and talk with him in the way of drawing-out and of discussion; not wholly in the way of a lecture; and keep the work itself at the center.
+
+4. On a first talk, take particular care to give him a good impression.
+
+5. When he sets something out, listen closely and in quiet, that you may fully grasp his meaning.
+
+6. In answering his questions, lay the matter out for him by reason, point by point, and do not be swayed by feeling.
+
+7. If he holds fast to a contrary opinion, you cannot make him yield by command; you must think out some further way to bring him round.
+
+8. A subordinate speaking to a superior must be wholly truthful — one is one and two is two — and practice no deceit or concealment.
+
+In sum, in talking with a fellow worker one must proceed in a spirit of affection, overcoming his errors by reason — not compelling his submission by feeling or by force.

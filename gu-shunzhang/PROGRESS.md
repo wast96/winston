@@ -537,3 +537,91 @@ recount below mattered more than usual.
   **partially-translated chapter** (ch6) deep-links only its done sections and
   shows the rest pending — previously it linked all 11 ch6 sections and
   qa_epub failed on the 8 missing anchors.
+
+---
+
+## B07 = Chapter 6 §4-6 (Weapons / Sabotage / Conversation) — DONE (QA-green)
+
+**Scope translated:** ch06 §4 (第四節 特務應用的武器, Weapons) and §6 (第六節 談話術,
+The Art of Conversation). **§5 (第五節 破壞術, Sabotage) was DELIBERATELY WITHHELD**
+(see below). PDF 139-149 + 169-176-top; printed **folios 107-118 (§4) and 137-143
+(§6)**. Appended to `out/ch06_reading.md`, which now carries §1-6 as six ordered
+`### Section` headings. Bilingual QC surface: `out/ch06s04-06_bilingual.md`
+(137 aligned pairs); parity source `data/zh/ch06s04-06.txt`.
+
+### SAFETY — §5 and the §4 explosive tail withheld (non-negotiable, per Winston)
+- **§5 破壞術 (Sabotage), folios 119-136 (PDF 151-168), was NOT rendered, NOT OCR'd,
+  NOT read, and NOT translated.** It is bomb/explosive-device construction. Those
+  PDF pages were never generated; there is an empty placeholder section in its
+  slot (`### Section 5. Sabotage / Destruction` + an editorial withholding note),
+  kept only so the builder's per-section numbering (ch06s05 → ch06s06) stays
+  correct.
+- **The tail of §4** (folio 118 / PDF 150 and the internal make-up of the gas-gun
+  cartridge on folio 117) is munition-construction detail and was likewise
+  **omitted**; §4 ends with an editorial note (footnote 116) marking the omission.
+  p150 was rendered once to read the benign gas-gun handling notes off the top
+  columns only, then deleted; the bomb subsection on it was never read.
+- What SHIPPED in §4 is the benign, historical majority: why an agent must know
+  weapons (two anecdotes on pistol malfunctions), which weapons suit the work,
+  and the **handgun** subsection in full (maintenance, disassembly/assembly,
+  cleaning, use, parts, safety, loading, quality, range, calibre), plus the
+  **gas-gun** at the level of outward form, general mechanism, effect, range and
+  tactical use — with its cartridge internals omitted.
+
+### The eight checks
+1. **Dual-engine OCR diff — NOT run** (PaddleOCR does not install here). Substituted
+   the whole-batch **eye-read of every page at 300 dpi**, as B05/B06 did. Every
+   page 139-149 and 169-176 was read by eye off the scan.
+2. **Blind double / back-translation** — applied to the argumentative passages
+   (§4-I why-understand-weapons and its two anecdotes; §6-I function-of-conversation;
+   §6-III interrogation-not-by-torture). No divergences of substance surfaced.
+3. **Completeness recount of every list against the pages** — done (these sections
+   are list-heavy). All enumerators present: §4 handgun items 1-9 with their a-g /
+   (1)-(6) sub-points; §6-II 1-7, §6-III political a(1-3)/b/c(1-3) + suspects
+   (1-3)/a/b(1-2), §6-V 1-8. Nothing dropped.
+4. **check_numbers.py — CLEAN** (137 pairs, 0 unresolved). Load-bearing numerals
+   crop-verified at magnification on folio 115 (six-inch pistol ~30 paces,
+   four-inch ~20 paces; calibres 7.65 / 6.35 mm) and folio 116 (gas-gun ~1 chi 2
+   cun, ranges 10-13 / 5-7 paces, revive 10 / 3-5 min).
+5. **Glossary / term ledger** — 9 rows added (see below).
+6. **Annotate-don't-smooth** — provisional readings footnoted (廣生行 Kwong Sang,
+   麻力樹棍 malacca baton).
+7. **External-scholarship check** — 廣生行 (Kwong Sang Hong, the "Two Girls"
+   cosmetics house) verified via web; its role here as a gun-oil vendor is
+   **uncorroborated** and footnoted as such. 金人三緘其口 traced to 說苑·敬慎 /
+   孔子家語·觀周 and footnoted. Gas-gun's claimed Japanese origin: **uncorroborated**,
+   footnoted.
+8. **Random deep audit** — the calibre/range page (folio 115) and the gas-gun page
+   (folio 116) were given the full crop-and-recount treatment; observed error rate
+   in the sampled spans: none.
+
+### check_numbers.py NOISE — targeted fixes (recorded)
+- Narrowed `十[几分步]` → `十[几分]` so it stops eating the 十 out of real
+  quantities like 三十步 / 二十步 (thirty / twenty paces), which it was mangling
+  into a stray 3 / 2.
+- Added traditional idioms carrying non-quantity numerals: 千鈞一髮, 三緘其口,
+  模稜兩可.
+
+### Footnotes: `notes.json` `ch06` +14 (109-122), total book 122.
+### Glossary: +9 rows — 上海衞戍司令部, 廣生行 (orgs); 手鎗, 駁殼鎗 (Mauser),
+  毒氣鎗, 談話術, 左輪鎗, 麻力樹棍 (provisional), 政治犯 (terms). 破壞術 already present.
+### Figures: NONE. `find_figures.py` over 139-149 and 169-175 found no plates;
+  every page is pure vertical text, no line art. §5's pages (which may carry
+  sabotage schematics) were not scanned because the section is withheld. No
+  `figures.json` change; nothing invented.
+
+### book.json
+- `toc_flags_open`: §4 Weapons both intro items RESOLVED against the body —
+  item 1 = 一、特務人員為什麼要懂得武器 (folio 107), item 2 = 二、那些武器比較適用於
+  特務工作？ (folio 109). Observation item 5 and Hypnotism item 7 remain open for B08.
+
+### Flagged for Winston's read-through
+- **§5 Sabotage is intentionally absent.** If you want any of it, it will not come
+  from this pipeline as how-to; tell me what non-operational summary (if any) you'd
+  accept and I will keep it strictly non-instructional.
+- **廣生行 = "Kwong Sang" gun-oil** is almost certainly the famous cosmetics house;
+  the gun-oil trade is unverified. Rendering provisional.
+- **麻力樹棍 "malacca baton"** — 麻力 read as a transliteration of "malacca";
+  provisional, could be a brand.
+- The source's handgun "六寸/四寸" (six-/four-inch) size classes are rough trade
+  categories, not exact; footnoted alongside the 7.65 / 6.35 mm calibres.

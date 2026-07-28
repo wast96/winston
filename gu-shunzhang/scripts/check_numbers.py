@@ -62,7 +62,7 @@ NOISE = [
     r"八字胡", r"八仙桌", r"八拜之交", r"两人", r"三言两语",
     r"四起", r"五体投地", r"两[位界个]", r"四座", r"说一不二",
     r"零钱", r"[一二三]是", r"[几数][盏辆个位十百千万条艘句步进层次口杯天年分]",
-    r"十[几分步]", r"五指", r"五花大绑", r"三巡", r"再三",
+    r"十[几分]", r"五指", r"五花大绑", r"三巡", r"再三",
     r"一[举动身面言语气日夜时刻步分寸点]", r"两[头端边面全难]",
     r"三[番两教]", r"四[面方处海座]", r"九[鼎爷哥光江]", r"八[面方拜仙字]",
     r"七[八嘴]", r"说三道四", r"入木三分", r"一小时", r"化整为零",
@@ -77,6 +77,10 @@ NOISE = [
     r"[一二三四五六七八九十百千]+分之[一二三四五六七八九十百千]+",  # 二分之一 etc.
     r"瞬息萬變", r"五花八門", r"百發百中", r"包羅萬象", r"神通廣大",
     r"千方百計", r"千篇一律", r"萬無一失", r"三令五申", r"九牛一毛",
+    # ch6 §4/§6 idioms carrying non-quantity numerals: 千鈞一髮 (a hair's
+    # breadth), 三緘其口 (mouth thrice sealed — allusion), 模稜兩可
+    # (noncommittal). The numerals are idiom, not counts.
+    r"千鈞一髮", r"三緘其口", r"模稜兩可",
     # 萬 as intensifier, not a quantity: 萬不得已 (as a last resort),
     # 萬不可 (on no account), 萬一 (in case), 萬分 (utterly). ch2 idioms.
     # ORDERING: 千萬/萬萬 must precede the bare 萬X patterns, or r"萬不可"
