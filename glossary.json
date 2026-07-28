@@ -1,0 +1,15 @@
+{
+  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
+  "book": {},
+  "people": {},
+  "organizations": {},
+  "places": {},
+  "terms": {
+    "_example一": {
+      "en": "example rendering",
+      "pinyin": "lizi",
+      "status": "decided",
+      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+    }
+  }
+}

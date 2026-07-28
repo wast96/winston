@@ -1,0 +1,258 @@
+#!/usr/bin/env python3
+"""Assert every quantity in the source survives into the translation.
+
+Reads a bilingual QC file: each '>' blockquote is a source line, the paragraph
+beneath it is the translation. Compares arabic numerals, Chinese numerals, and
+years. Does not read meaning — it catches dropped or altered quantities, which
+is the error class that is both most costly and most mechanical.
+
+This is the single highest value-per-token check in the whole pipeline. It is
+a script, it runs in a second, and it caught real dropped numbers repeatedly
+across a fifteen-chapter book. Run it after every chapter, not at the end.
+
+Usage: check_numbers.py out/ch03_bilingual.md
+"""
+import re
+import sys
+
+CN_DIGIT = {"零": 0, "一": 1, "二": 2, "两": 2, "兩": 2, "三": 3, "四": 4,
+            "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
+WORD_NUM = {
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
+    "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11,
+    "twelve": 12, "thirteen": 13, "several": None, "ten thousand": 10000,
+    "second": 2, "third": 3, "first": 1, "lead": 1, "fourth": 4, "fifth": 5,
+    "sixth": 6, "seventh": 7, "eighth": 8, "ninth": 9, "tenth": 10,
+    "both": 2, "twice": 2, "neither": 2, "either": 2, "dozen": 12, "pair": 2,
+    # Extend WORD_NUM with any spelled-out numbers your translation uses that the
+    # source prints as digits/hanzi. Example: teen ordinals for regnal years
+    # ("the seventeenth year of the reign", 十七年); the built-ins stop at "tenth".
+    "seventeenth": 17,
+}
+TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
+         "eighteen": 18, "nineteen": 19}
+TENS = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60,
+        "seventy": 70, "eighty": 80, "ninety": 90}
+ONES = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
+        "seven": 7, "eight": 8, "nine": 9}
+MONTHS = {1: "january", 2: "february", 3: "march", 4: "april", 5: "may",
+          6: "june", 7: "july", 8: "august", 9: "september",
+          10: "october", 11: "november", 12: "december"}
+
+# Numerals that are grammar, idiom or names rather than quantities. Stripping
+# these is what makes the check usable; without it every measure word is a
+# false hit and you stop reading the output, which is the real failure mode.
+#
+# ORDERING IS LOAD-BEARING. Longest literal first. A short pattern that is a
+# prefix of a long one will eat half the phrase and leave a stray numeral
+# behind. Do NOT sort this list programmatically by length: character classes
+# make short patterns look long and the sort reintroduces the bug. This was
+# discovered the hard way, twice.
+# This is a GENERIC starter list. It strips the numerals that recur in almost
+# any Chinese prose: measure words, four-character idioms, fractions, and list
+# enumerators. It does NOT contain project-specific entries. As you translate,
+# EVERY time the check flags a numeral that is not a real quantity (a proper
+# name with a digit in it, a local idiom, a set phrase), add it here (or, better,
+# to a per-project --noise file, see load_extra_noise). A check whose output is
+# mostly false positives is a check nobody reads; keeping this list current is
+# what keeps the real dropped-number visible. Record what you add, and why.
+#
+# Both simplified and Traditional forms are included where they differ, so the
+# list works on either script. Extend with whichever your book uses.
+NOISE = [
+    # --- list enumerators & fractions (structure, not quantities) ---
+    r"\d+[．.、]",                                  # "1." "2、" sub-item heads
+    r"[一二三四五六七八九十百千零]+分之[一二三四五六七八九十百千零]+",  # 二分之一, fractions
+    # --- measure words: a bare 一 + classifier is "a/an", not the count 1 ---
+    r"一[艘條条頂顶隻只個个位群把張张片口指邊边旁時时下陣阵壺壶碟種种番場场股家棵套幅]",
+    r"一[輛辆眼躬支絲丝聲声定天次間间驚惊槍枪動动言樣样路批封面團团句道年身手筆笔遍]",
+    r"[一不][旦時时般點点些]",
+    r"[幾几數数][盞盏輛辆個个位十百千萬万條条艘句步進进層层次口杯天年分]",
+    r"[幾几數数][十百千]",                          # 幾十/數百 "some tens/hundreds"
+    r"十[幾几分]", r"[十几幾]多", r"再三",
+    # --- 萬/万 and 千 as intensifier, not the quantity 10000/1000 ---
+    # ORDERING: 千萬/萬萬 must precede bare 萬X, or r"萬不可" eats the 萬 out of
+    # 千萬不可 and orphans a 千 read as 1000. Longest literal first, always.
+    r"千萬", r"万万", r"萬萬", r"萬不得已", r"萬不可", r"萬一", r"萬分",
+    r"千万", r"万一", r"万分", r"以萬計", r"以万计", r"萬計", r"万计",
+    # --- common four-character idioms carrying non-quantity numerals ---
+    r"一舉一動", r"一举一动", r"一清二楚", r"說一不二", r"说一不二",
+    r"三番五次", r"三番兩次", r"三番两次", r"三令五申", r"再三再四",
+    r"五花八門", r"五花八门", r"七嘴八舌", r"亂七八糟", r"乱七八糟",
+    r"千方百計", r"千方百计", r"千篇一律", r"千真萬確", r"千真万确",
+    r"千軍萬馬", r"千军万马", r"千載難逢", r"千载难逢", r"千鈞一髮", r"千钧一发",
+    r"萬無一失", r"万无一失", r"包羅萬象", r"包罗万象", r"瞬息萬變", r"瞬息万变",
+    r"九牛一毛", r"入木三分", r"朝三暮四", r"三言兩語", r"三言两语",
+    r"十全十美", r"十拿九穩", r"十拿九稳", r"十分",  # 十分 = "very", not 10
+    r"四面八方", r"四通八達", r"四通八达", r"一心一意", r"一五一十",
+    # bare 一 as adverb/idiom fragment: 一[direction/time/manner], not the count
+    r"一[舉举動动身面言語语氣气日夜時时刻步分寸點点]", r"兩[頭头端邊边面全難难]",
+    r"三[番兩两]", r"四[面方處处海座周]", r"九[鼎]", r"八[面方]",
+    r"一一",                                        # 一一 "one by one"
+]
+
+
+def cn_to_int(token):
+    """Read a Chinese numeral, including 百/千/万 compounds.
+
+    The original handled only digits and 十, so 一千四百 fell apart and left
+    a bare 四 that no English rendering of "fourteen hundred" could account
+    for: the check reported a dropped number on a paragraph that had dropped
+    nothing. Positional year forms (一九三八) are deliberately NOT summed --
+    they are digit strings rather than quantities, and a token with no
+    place-value character returns None so the caller ignores it.
+    """
+    if token in CN_DIGIT:
+        return CN_DIGIT[token]
+    if not re.search(r"[十百千万萬億]", token):
+        return None
+    total, section, digit = 0, 0, 0
+    for ch in token:
+        if ch in CN_DIGIT:
+            digit = CN_DIGIT[ch]
+        elif ch == "十":
+            section += (digit or 1) * 10
+            digit = 0
+        elif ch == "百":
+            section += (digit or 1) * 100
+            digit = 0
+        elif ch == "千":
+            section += (digit or 1) * 1000
+            digit = 0
+        elif ch in ("万", "萬"):
+            total += ((section + digit) or 1) * 10000
+            section = digit = 0
+        elif ch == "億":
+            total += ((section + digit) or 1) * 100000000
+            section = digit = 0
+    return (total + section + digit) or None
+
+
+def source_numbers(text, extra_noise=()):
+    stripped = text
+    for pat in list(NOISE) + list(extra_noise):
+        stripped = re.sub(pat, "", stripped)
+    nums = set(int(n) for n in re.findall(r"\d+", stripped))
+    for tok in re.findall(r"[零一二两兩三四五六七八九十百千万萬億]+", stripped):
+        val = cn_to_int(tok)
+        # A bare 一 is nearly always a measure word, not a quantity.
+        if val is not None and not (val == 1 and tok == "一"):
+            nums.add(val)
+    return nums
+
+
+def spelled_numbers(low):
+    """English spells numbers out where the source prints digits."""
+    found = set()
+    for tens, tval in TENS.items():
+        for ones, oval in ONES.items():
+            if re.search(r"\b%s[- ]%s\b" % (tens, ones), low):
+                found.add(tval + oval)
+        if re.search(r"\b" + tens + r"\b", low):
+            found.add(tval)
+        # "fifty thousand" is 5万 in the source, printed as a bare 5.
+        if re.search(r"\b" + tens + r"[- ]?\w* ?thousand\b", low):
+            found.add(tval // 10)
+            found.add(tval * 1000)
+    for teen, tval in TEENS.items():
+        if re.search(r"\b" + teen + r"\b", low):
+            found.add(tval)
+        # "fourteen hundred" renders 一千四百; both readings must count
+        if re.search(r"\b" + teen + r"[- ]?hundred\b", low):
+            found.add(tval * 100)
+            found.add(tval % 10 * 100)
+    # English says "a hundred" where the source says 一百; without these the
+    # indefinite article reads as an absent numeral and the check reports a
+    # dropped quantity on a paragraph that kept it.
+    if re.search(r"\ba hundred\b", low):
+        found.add(100)
+    if re.search(r"\ba thousand\b", low):
+        found.add(1000)
+    for ones, oval in ONES.items():
+        if re.search(r"\b%s hundred thousand\b" % ones, low):
+            found.add(oval * 100000)
+            found.add(oval * 10)
+        if re.search(r"\b%s hundred\b" % ones, low):
+            found.add(oval * 100)
+        if re.search(r"\b%s thousand\b" % ones, low):
+            found.add(oval * 1000)
+    return found
+
+
+def target_numbers(text):
+    nums = set(int(n) for n in re.findall(r"\d+", text))
+    low = text.lower()
+    nums |= spelled_numbers(low)
+    # "million"/"billion" multipliers: the source writes 萬/億 compounds that
+    # English spells as "five million", "a hundred million", and so on.
+    MULT = {"million": 10 ** 6, "billion": 10 ** 9}
+    for word, scale in MULT.items():
+        for m in re.findall(r"(\d+)\s*" + word, low):
+            nums.add(int(m) * scale)
+        for name, val in ONES.items():
+            if re.search(r"\b%s %s\b" % (name, word), low):
+                nums.add(val * scale)
+        if re.search(r"\b(a|one) %s\b" % word, low):
+            nums.add(scale)
+    for word, val in WORD_NUM.items():
+        if val is not None and re.search(r"\b" + word + r"\b", low):
+            nums.add(val)
+    for val, name in MONTHS.items():
+        if name in low:
+            nums.add(val)
+    return nums
+
+
+def pairs(path):
+    src, buf = None, []
+    for line in open(path):
+        if line.startswith(">"):
+            if src is not None and buf:
+                yield src, " ".join(buf)
+                buf = []
+            src = line.lstrip("> ").strip()
+        elif line.strip() and not line.startswith(("#", "---", "**", "`")):
+            if src is not None:
+                buf.append(line.strip())
+    if src is not None and buf:
+        yield src, " ".join(buf)
+
+
+def load_extra_noise(path):
+    """Project-specific noise: names containing numerals, local idioms.
+
+    The built-in list is generic. EVERY project accumulates its own — personal
+    names with digits in them, place names, set phrases. Keep them in a plain
+    text file, one regex per line, and pass --noise. Extending this list as
+    false positives appear is what keeps the check readable; a check nobody
+    reads is a check that catches nothing.
+    """
+    if not path:
+        return []
+    return [l.strip() for l in open(path)
+            if l.strip() and not l.startswith('#')]
+
+
+def main(path, extra_noise=()):
+    bad = npairs = 0
+    for i, (src, tgt) in enumerate(pairs(path), 1):
+        npairs = i
+        s, t = source_numbers(src, extra_noise), target_numbers(tgt)
+        # A Republican-calendar year may rightly surface as the Gregorian one.
+        missing = {m for m in s - t if (m + 1911) not in t}
+        if missing:
+            bad += 1
+            print("pair %d: unaccounted %s" % (i, sorted(missing)))
+            print("   zh:", src[:60])
+            print("   en:", tgt[:60])
+    print("checked %d pairs, unresolved: %d" % (npairs, bad))
+    return 1 if bad else 0
+
+
+if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("bilingual")
+    ap.add_argument("--noise", help="file of project-specific noise regexes")
+    a = ap.parse_args()
+    sys.exit(main(a.bilingual, load_extra_noise(a.noise)))

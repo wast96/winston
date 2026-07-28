@@ -1,0 +1,19 @@
+# Regenerable working files (rebuild from source.pdf; never project work)
+data/png/
+data/crop/
+data/txt/
+data/zh/
+data/raw/
+data/verify/
+data/figs/manifest.json
+build/
+__pycache__/
+*.pyc
+
+# Deliverable artifacts that rebuild from the sources
+out/*.epub
+out/*_bilingual.md
+
+# Keep source.pdf and committed figure crops (data/figs/*.png) TRACKED.
+# If your scan is very large and you would rather not commit it, add:
+#   source.pdf
