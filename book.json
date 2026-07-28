@@ -404,6 +404,24 @@
     }
   ],
 
-  "_batches_note": "Proposed by scripts/survey.py, to be approved by the commissioner. first_section/last_section are unit ids.",
-  "batches": []
+  "_batches_note": "Approved by the commissioner on 2026-07-28 (17 batches, ~12k source chars each). first/last are unit ids.",
+  "batches": [
+    {"batch": "B01", "first": "ch01", "last": "ch04", "chars": 11477, "title": "Epigraph through Miss Tao"},
+    {"batch": "B02", "first": "ch05", "last": "ch06", "chars": 7575, "title": "Xuanwu Lake through Identity"},
+    {"batch": "B03", "first": "ch07", "last": "ch08", "chars": 10815, "title": "Old Fang through The Race Ticket"},
+    {"batch": "B04", "first": "ch09", "last": "ch10", "chars": 8621, "title": "The Photograph through The Clinic"},
+    {"batch": "B05", "first": "ch11", "last": "ch12", "chars": 8551, "title": "The Tenant through A Letter from Afar"},
+    {"batch": "B06", "first": "ch13", "last": "ch14", "chars": 9238, "title": "The Revolving Door through New Year's Eve"},
+    {"batch": "B07", "first": "ch15", "last": "ch16", "chars": 9192, "title": "Code Words through The Bank"},
+    {"batch": "B08", "first": "ch17", "last": "ch19", "chars": 11440, "title": "The Suitcase through February"},
+    {"batch": "B09", "first": "ch20", "last": "ch20", "chars": 5838, "title": "The Xingchang Apothecary"},
+    {"batch": "B10", "first": "ch21", "last": "ch21", "chars": 8383, "title": "The Tanglong Door"},
+    {"batch": "B11", "first": "ch22", "last": "ch23", "chars": 8451, "title": "The Tiannan Teahouse through Garrick"},
+    {"batch": "B12", "first": "ch24", "last": "ch25", "chars": 8577, "title": "Backstage through Jiaoli"},
+    {"batch": "B13", "first": "ch26", "last": "ch27", "chars": 9145, "title": "The Guisheng through The Gonghexiang Wharf"},
+    {"batch": "B14", "first": "ch28", "last": "ch29", "chars": 11413, "title": "Xiaotaoyuan through The Dyeworks Drying Ground"},
+    {"batch": "B15", "first": "ch30", "last": "ch32", "chars": 11549, "title": "The Yangzhou Master through The Dairy Shed"},
+    {"batch": "B16", "first": "ch33", "last": "ch34", "chars": 9022, "title": "North Station through Fish Congee"},
+    {"batch": "B17", "first": "ch35", "last": "ch37", "chars": 7883, "title": "The Huangpu River through Appendix"}
+  ]
 }
