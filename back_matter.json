@@ -1,11 +1,11 @@
 {
-  "_README": "OPTIONAL back matter. This file is INERT as shipped: the builder only renders a colophon when a top-level 'colophon' key is present. To enable, rename '_colophon_schema' -> 'colophon' and fill it in (e.g. the source's copyright/imprint page, translated). Delete if not needed.",
-  "_colophon_schema": {
-    "title_zh": "中文書名",
-    "author_zh": "作者",
-    "notice_zh": "版權所有",
-    "notice_en": "All rights reserved",
-    "date_zh": "二〇二〇年",
-    "date_en": "First published 2020"
-  }
+ "_README": "The book's original copyright leaf (版权页), reproduced and translated, rendered by scripts/build_reading_epub.py -> render_colophon. The source leaf prints the publisher as 上海文化出版社 (Shanghai Culture Publishing House), but the ISBN publisher prefix 5321 and the book's Weibo/WeChat handles all belong to 上海文艺出版社 (Shanghai Literature and Art Publishing House); the latter is given here as the true imprint, with the discrepancy flagged in the English note.",
+ "colophon": {
+  "title_zh": "千里江山图",
+  "author_zh": "孙甘露",
+  "notice_zh": "上海文艺出版社",
+  "notice_en": "Shanghai Literature and Art Publishing House",
+  "date_zh": "ISBN 978-7-5321-8331-9　·　第一版　二〇二二年",
+  "date_en": "First edition, 2022. The source's copyright leaf prints the publisher as Shanghai Culture Publishing House (上海文化出版社); but the ISBN publisher prefix 5321, and the book's Weibo and WeChat handles (@上海文艺出版社, shanghaiwenyi), all belong to Shanghai Literature and Art Publishing House (上海文艺出版社), which is therefore given here as the true imprint."
+ }
 }

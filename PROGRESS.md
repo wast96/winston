@@ -1018,3 +1018,104 @@ class="dateline": ch31 1, others 0).
 scripts/build_reading_epub.py out/thousand-li.epub: 33 of 37 units translated (epigraph + ch02 to
 ch33), 204 notes. qa_epub.py: PASS (47 files, 42 documents; 204 references = 204 bodies = 204
 backlinks; numbering sequential in reading order; all links resolve).
+
+---
+
+## Batch B12 (ch34-ch37) -- the resolution + documentary coda; FINAL BATCH
+
+Units: ch34 鱼生粥 Fish Congee (58 paras), ch35 黄浦江 The Huangpu River (79 paras, ending on
+the author's completion line), ch36 一封没有署名的信 An Unsigned Letter (11 paras, the martyr's
+letter), ch37 附录 Appendix (H2 chapter + two H3 sections, Material One 26 + Material Two 12 = 38
+paras), assembled from two source files by scripts/assemble_ch37.py.
+
+### Checks run
+
+- check_numbers.py --noise check_noise.txt: all four units clean (0 unresolved: 58/79/11/38).
+  Added to check_noise.txt (all non-quantity numerals): 一大早 (idiom), 独一无二 (idiom), 六十年代
+  (decade), 十万火急 (idiom), 万全 (万全之策 idiom), 横七竖八 (idiom), and 零零碎碎 (idiom; placed
+  BEFORE 零碎, which otherwise strips the inner pair and orphans a 零 -- this fixed a pre-existing
+  latent false positive surfaced in the whole-book regen of ch09). No real quantity was waived.
+- check_numbers.py patched (same additive lookbehind style as B03/B07): (1) the 一[点…] idiom
+  stripper got a (?<![…十]) lookbehind so a clock time like 十一点 (11 o'clock) is not eaten down to
+  10; (2) the 几X measure stripper got a (?<!十) lookbehind so 十几分钟 (ten-odd minutes) strips whole
+  instead of orphaning a 十=10. Both only REMOVE source numerals conditionally, so neither can mask a
+  dropped quantity. No existing patch reverted. Whole-book regen (32 en.json units) re-checked: all 0.
+- check_structure.py --pairs: parity OK on all four (58/79/11/38). Whole-book anchor check
+  (--config): 217 notes, 0 unresolved, glossary drift 0. Heading-shape variance (ch01 epigraph = ();
+  ch37 Appendix = (2,3); all others (2,)) is the documented, legitimate kind, not a defect.
+- Blind double-translation (separate subagent context) of the argumentative/literary core -- the
+  whole ch36 letter, the ch37 Material One reflection (perilous-hour summary, the dialectical-
+  materialism line, the 死间 exchange, "Ye Tao knows"), and a sample of the ch35 finale: independent
+  rendering matched on every load-bearing point (the botany, the Braille/Esperanto image, the peach
+  orchard, the courier line, "one open and one hidden," the 死间 verdict). Its one variant --
+  "doomed agent" for 死间 -- is exactly the alternative the ch37 note already gives (Giles' "doomed
+  spy"); no fix.
+- Back-translation omission pass (separate subagent context) over the same passages + the ch37
+  Material Two register (Ye Tao and Lin Shi entries): found ONE real omission -- 从上海 ("from
+  Shanghai") dropped from the ch37 liaison-line sentence -- now restored ("running from Shanghai to
+  Ruijin by a roundabout way through Guangdong"). Rechecked clean. Everything else complete.
+- Fact-check (two subagents, web, real scholarship only -- NO AI sources): all referents verified.
+  Correction caught: 环龙 = René Vallon (1880-1911), NOT "Vrignaud"; died 1911, the road/monument
+  1912. The ch37 "April 4, 1933 Longhua" deaths confirmed as the novel's invention (Qingming eve;
+  real anchor = the Longhua Twenty-Four of 7 Feb 1931, incl. the Left League Five). 死间, dialectical
+  necessity/contingency, 拨乱反正, Women's Normal University, Duanwu 1929, the Ming-wall 藏兵洞/神策门,
+  the 党务调查科/中统, 正广和/Aquarius, and the Tangqiao-Dongjiadu ferry all corroborated.
+
+### Footnotes added (13; running total 217)
+
+ch34 (4): 鱼生粥 raw-fish congee (real dish; the chapter's governing metaphor); the 孝经 filial-piety
+allusion (身体发肤，受之父母); 正广和洋行 the Aquarius Company (real 1864 Shanghai firm); 沙船业公所
+the Sand-Boat Guild (real). ch35 (2): 环龙碑 the Vallon Monument (real; René Vallon, China's first
+air-crash death, 1911; fixes the park identity -- French Park = Gujiazhai Park = today's Fuxing Park);
+思南 Sinan (real; the author's literary quarter, where the book is dated). ch36 (1): the double-petaled
+flowers (real horticulture; doubling via stamen/pistil conversion trades fertility for show -- the
+book's own theme). ch37 (6): 拨乱反正 setting-things-to-rights (real; post-CR, c.1977-82); 死间 the
+"dead/doomed agent" (Sun Tzu, Art of War ch.13 -- the key that recasts Wei Dafu); the dialectical
+necessity/contingency commonplace; the character 践 (praxis/keeping faith); the Material Two register
++ "4 April 1933 at Longhua Prison" (THE payoff note -- the invented martyrs, Qingming-eve dating, and
+the real Longhua Twenty-Four / Left League Five); and "Anonymous" (the deliberately nameless martyr).
+NOT re-noted (verified by grep of glossary + earlier reading files): Longhua & the Bao'en Pagoda
+(ch03), the Women's Normal University (ch26), the Party Affairs Investigation Section (ch03), the Ming
+city wall / 藏兵洞 / Shence Gate (ch05/ch28), Duanwu/端午 (ch23), Esperanto (ch12/ch26), Ruijin (ch22),
+the January 28 fighting (ch05), the Nineteenth Route Army (ch05), Fahua town (ch32).
+
+### Glossary rows added
+
+- places: 环龙碑 the Vallon Monument, 塘桥 Tangqiao, 浦东 Pudong, 王家码头街 Wangjia Wharf Street,
+  厦门 Xiamen, 正广和洋行 the Aquarius Company, 蓬莱路 Penglai Road, 新舞台 the New Stage, 华商电车公司
+  the Chinese Tramway Company, 思南 Sinan, 沙船业船舶会馆 the Sand-Boat Guild hall, 水利局 the Water
+  Conservancy Bureau (all attested/decided real); 林泰航运公司 the Lintai Shipping Company, 公茂运输行
+  the Gongmao Transport firm (decided; the novel's inventions).
+- terms: 死间 dead agent (attested, Sun Tzu), 拨乱反正 setting things to rights (attested), 白色恐怖
+  the White Terror (attested), 中统局 the Central Statistics Bureau (attested; the Zhongtong).
+- Fictional/established cast reused from the ledger unchanged (Chen Qianli/Qianyuan, Ye Qinian, Lu
+  Zhongde, You Tianxiao, Wei Dafu, Lin Shi/Old Kai, Ling Wen, Fang Yunping, Dong Huiwen, Li Han,
+  Liang Shichao, Tian Fei, Qin Chuan'an, Haohan, Ye Tao, Ouyang Min, Mu Chuan, Secretary Ma).
+
+### Scene typography
+
+Source carries no dividers. ch34: 0/0 (one continuous night). ch35: 1 dateline (the closing
+"Completed at Sinan, Shanghai, March 2022.") + 5 breaks (Dongjiadu night; the Zhengyuan-Hotel
+Ye/Mu scene; back to the ferry; the Tangqiao restaurant; Chen intercepting the ferry). ch36: 0/0
+(a single letter; its parenthetical subtitle set as an italic first line). ch37: 0/0 (documentary
+lists; structured by the two H3 section headings). Confirmed in the built EPUB (grep class="brk":
+ch35 = 5; class="dateline": ch35 = 1; ch34/36/37 = 0/0).
+
+### Back matter, cover, metadata (final-batch tasks)
+
+- Colophon authored (back_matter.json): the copyright leaf, reproduced and translated. Publisher
+  discrepancy resolved -- the leaf prints 上海文化出版社, but the ISBN prefix 5321 and the Weibo/WeChat
+  handles are 上海文艺出版社 (Shanghai Literature and Art Publishing House); the latter set as the true
+  imprint, the leaf's error flagged in the English note.
+- Cover + metadata (scripts/build_reading_epub.py extended, not reverted): the source's own cover
+  (data/figs/cover.jpeg) is embedded verbatim (color, byte-identical -- NOT run through the
+  greyscaling figure pipeline) as a dedicated cover page first in the spine, with the manifest
+  cover-image property and the legacy <meta name="cover">. dc:title = "A Thousand Li of Rivers and
+  Mountains" (the library/document name in both Apple Books and Kindle), dc:creator "Sun Ganlu" (role
+  aut, file-as), dc:language en, dc:date 2022, title/creator refines. qa_epub PASS.
+
+### Build
+
+scripts/build_reading_epub.py out/thousand-li.epub: 37 of 37 units translated (the whole book),
+217 notes. qa_epub.py: PASS (50 files, 44 documents; 217 references = 217 bodies = 217 backlinks;
+numbering sequential 1-217 in reading order; all links resolve). THE BOOK IS COMPLETE.

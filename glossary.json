@@ -1631,6 +1631,90 @@
    "pinyin": "Da Wutai",
    "status": "decided",
    "note": "A Shanghai theater on Second Avenue (二马路), a landmark by which Wei Dafu locates his breakfast shop."
+  },
+  "环龙碑": {
+   "en": "the Vallon Monument",
+   "pinyin": "Huanlong bei",
+   "status": "attested",
+   "note": "Real. Memorial to the aviator Rene Vallon in the French Park (Gujiazhai Park, today's Fuxing Park); see the ch35 note."
+  },
+  "塘桥": {
+   "en": "Tangqiao",
+   "pinyin": "Tangqiao",
+   "status": "attested",
+   "note": "Real. Locality on the Pudong (east) bank of the Huangpu, opposite Dongjiadu; a historic ferry crossing joined them."
+  },
+  "浦东": {
+   "en": "Pudong",
+   "pinyin": "Pudong",
+   "status": "attested",
+   "note": "Real. The east bank of the Huangpu opposite the old city and concessions."
+  },
+  "王家码头街": {
+   "en": "Wangjia Wharf Street",
+   "pinyin": "Wangjia matou jie",
+   "status": "attested",
+   "note": "Real. Street by a historic wharf in the old Nanshi district near Dongjiadu."
+  },
+  "厦门": {
+   "en": "Xiamen",
+   "pinyin": "Xiamen",
+   "status": "attested",
+   "note": "Real. Port city in Fujian (Amoy)."
+  },
+  "正广和洋行": {
+   "en": "the Aquarius Company",
+   "pinyin": "Zhengguanghe yanghang",
+   "status": "attested",
+   "note": "Real. Shanghai trading firm (founded 1864; named 正广和 1882), famous for aerated water, wines and spirits; see the ch34 note."
+  },
+  "蓬莱路": {
+   "en": "Penglai Road",
+   "pinyin": "Penglai Road",
+   "status": "attested",
+   "note": "Real. Road in the old Nanshi district of Shanghai."
+  },
+  "新舞台": {
+   "en": "the New Stage",
+   "pinyin": "Xin Wutai",
+   "status": "attested",
+   "note": "Real. Pioneering Shanghai reformed-drama theater of the early 20th century."
+  },
+  "华商电车公司": {
+   "en": "the Chinese Tramway Company",
+   "pinyin": "Huashang Dianche Gongsi",
+   "status": "attested",
+   "note": "Real. The Chinese-owned tramway company serving the old city and Nanshi."
+  },
+  "思南": {
+   "en": "Sinan",
+   "pinyin": "Sinan",
+   "status": "attested",
+   "note": "Real. District of the former French Concession; a literary quarter today. The book's completion is dated here; see the ch35 note."
+  },
+  "沙船业船舶会馆": {
+   "en": "the Sand-Boat Guild hall",
+   "pinyin": "Shachuanye chuanbo huiguan",
+   "status": "decided",
+   "note": "Guild hall of the sand-boat (sha chuan) shipping trade; see the ch35 note."
+  },
+  "水利局": {
+   "en": "the Water Conservancy Bureau",
+   "pinyin": "Shuili Ju",
+   "status": "decided",
+   "note": "A water-conservancy government office; Chen Qianli's post-Liberation workplace in the appendix."
+  },
+  "林泰航运公司": {
+   "en": "the Lintai Shipping Company",
+   "pinyin": "Lintai Hangyun Gongsi",
+   "status": "decided",
+   "note": "The novel's invention: the shipping firm from which the freighter is hired."
+  },
+  "公茂运输行": {
+   "en": "the Gongmao Transport firm",
+   "pinyin": "Gongmao Yunshu Hang",
+   "status": "decided",
+   "note": "The novel's invention: the transport firm from which the steam-launch is hired."
   }
  },
  "terms": {
@@ -2119,6 +2203,30 @@
    "pinyin": "shaojiu",
    "status": "decided",
    "note": "Distilled grain liquor; kept distinct from 绍酒/Shaoxing wine (a fermented rice wine) rendered elsewhere in the book."
+  },
+  "死间": {
+   "en": "dead agent",
+   "pinyin": "sijian",
+   "status": "attested",
+   "note": "Real. Sun Tzu's fourth class of spy (the 'doomed spy'), fed a false story and let be captured so the enemy acts on the lie; see the ch37 note."
+  },
+  "拨乱反正": {
+   "en": "setting things to rights",
+   "pinyin": "boluan fanzheng",
+   "status": "attested",
+   "note": "Real. The late-1970s reversal of the Cultural Revolution; see the ch37 note."
+  },
+  "白色恐怖": {
+   "en": "the White Terror",
+   "pinyin": "baise kongbu",
+   "status": "attested",
+   "note": "Real. The Nationalist campaign of arrests and executions of Communists and the left, c. 1927 onward."
+  },
+  "中统局": {
+   "en": "the Central Statistics Bureau",
+   "pinyin": "Zhongtong Ju",
+   "status": "attested",
+   "note": "Real. The GMD's central Party intelligence organ (the 'Zhongtong'), the renamed successor of the Party Affairs Investigation Section noted at ch03."
   }
  }
 }

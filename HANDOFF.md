@@ -1,10 +1,15 @@
 # HANDOFF — A Thousand Li of Rivers and Mountains (千里江山图), Sun Ganlu
 
-This file is the baton. A fresh session with no memory reads it and starts
-immediately. Rewrite it at the end of every batch; always keep the paste-ready
-kickoff message below as its first section.
+## THE BOOK IS COMPLETE
 
-## Message to paste into the next chat
+All 12 batches are done: the whole novel (37 units — epigraph, 34 chapters, the
+unsigned letter, the two-part appendix) is translated, annotated with 217
+footnotes, and built into `out/thousand-li.epub` (qa_epub PASS). There is no
+next batch. See **COMPLETION.md** for the completion report, and PROGRESS.md for
+the per-batch record. Any further work is a corrections pass (see the
+"Corrections workflow" section of CLAUDE.md), not a new batch.
+
+<details><summary>Archived B12 kickoff message (the final batch, now done)</summary>
 
 ```
 Read CLAUDE.md in full (the working rules at the top are non-negotiable), then
@@ -148,6 +153,8 @@ summary pasted into the chat (in place of a next-batch kickoff). Writing it into
 there is NOT enough. No batch is complete without both.
 ```
 
+</details>
+
 ## What is DONE (do not redo)
 
 - Step 0 (ingest + survey): source ingested, book.json authored (37 units), skeleton EPUB
@@ -162,6 +169,9 @@ there is NOT enough. No batch is complete without both.
 - Batch B08 = ch23-ch25 (Garrick, Backstage, Jiaoli): done; 165 notes. The reveal batch.
 - Batch B09 = ch26-ch27 (The Guisheng, The Gonghexiang Wharf): done; 176 notes.
 - Batch B10 = ch28-ch30 (Xiaotaoyuan, The Dyeworks Drying Ground, The Yangzhou Master): done; 195 notes.
+- Batch B12 = ch34-ch37 (Fish Congee, The Huangpu River, An Unsigned Letter, Appendix): done; 217 notes
+  (13 new). THE FINAL BATCH: back matter (colophon, publisher resolved), cover + Books/Kindle metadata,
+  whole-book QA, and COMPLETION.md written. The book is finished.
 - Batch B11 = ch31-ch33 (The Cemetery, The Dairy Shed, North Station): done; 204 notes (9 new). ch31 is
   the emotional climax: Chen Qianli confronts Ye Qinian at Ye Tao's grave on Lantern Festival day and
   tells the full truth of her death (she joined the Party at the Women's Normal University, worked inside

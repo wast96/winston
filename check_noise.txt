@@ -90,6 +90,9 @@
 九龙
 # 零散 = "scattered / odd (passengers)" (零 is not the quantity 0)
 零散
+# 零零碎碎 = "odds and ends / bits and pieces" (reduplicated; MUST precede 零碎,
+# or 零碎 strips the inner pair and orphans a 零 read as 0)
+零零碎碎
 # 零碎 = "odds and ends / bits and pieces" (零 is not the quantity 0)
 零碎
 # 零件 = "spare parts" (零 is not the quantity 0)
@@ -132,3 +135,15 @@
 七拐八弯
 # 百般 = "in every possible way / all manner of" (idiom; 百 not the count 100)
 百般
+# 一大早 = "early in the morning" (idiom; 一 not a count; keeps 一 from sticking to a preceding 十六 etc.)
+一大早
+# 独一无二 = "unique / without parallel / one of a kind" (idiom; 一/二 not counts)
+独一无二
+# 六十年代 = "the 1960s" (a decade name, not the count 60; matches 二十年代 above)
+六十年代
+# 十万火急 = "desperately urgent / of the utmost urgency" (idiom; 十万 not a count)
+十万火急
+# 万全之策 / 万全 = "a foolproof plan / perfectly safe" (idiom; 万 not the count 10000)
+万全
+# 横七竖八 = "at sixes and sevens / higgledy-piggledy / criss-cross" (idiom; 七/八 not counts)
+横七竖八

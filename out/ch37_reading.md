@@ -1,0 +1,81 @@
+## Appendix
+
+### Material One
+
+Excerpted from an unpublished oral record preserved among the relevant files of a certain provincial archive. The recorder had evidently meant it for publication from the first, and had gone so far as to write a cover title on the bound transcript:
+
+*What I Knew of Comrade Chen Qianli (excerpts)*
+
+…In 1979 I made a special trip to the Water Conservancy Bureau, and at last met Comrade Chen Qianli. To add the words “at last” here is no mere figure of speech: it was truly hard to see him. As for the scene that day when I did meet him, it may fairly be called dramatic.
+
+At that time our Party was at the crucial moment of setting things to rights, and there was a smile on every Chinese face. So when I first saw him, I cannot say I was not a little surprised. For he seemed not especially warm toward people; there was nothing in him to show the fearless revolutionary spirit, and the quickness and wisdom, that he had displayed in the struggle against the enemy in the darkest hour of Nationalist rule.
+
+I had made no little inquiry into that past before, and had read a great many enemy secret-service files captured after Liberation, including oral materials furnished by certain Nationalist soldiers, police and agents once they had been thoroughly reformed. But I had never been able to find a photograph of him.
+
+Only as I read on did I slowly come to realize in what a perilous hour the underground Communist organization then stood. In little more than a single month, Chen Qianli and his comrades-in-arms not only uncovered the traitor within and established a secret liaison line running from Shanghai to Ruijin by a roundabout way through Guangdong, but also successfully rescued Comrade Haohan, an important leader of the Party Central. What courage, what wisdom, this must have taken.
+
+Once I understood this, certain doubts that had long haunted me were wholly dispelled. Why, for instance, did these staunch revolutionary fighters actually use gambling for money as a cover and pretext when they held their meetings? Or take that bank operation: before he acted, Chen Qianli had no perfect assurance; had the agents found no gold bars in the case, they would surely have guessed the switch had been made inside the bank, and had they at once sealed the bank off and let neither person nor thing pass in or out, the situation would have turned dangerous. Happily, it was the wavering element fleeing of his own accord that drew the agents off in another direction.
+
+In such circumstances, why did Chen Qianli run the risk of acting? These reasons I now understand completely. The situation was desperately urgent; there could be no perfectly safe plan, and the one thing that mattered was to act at once. It must be said that in those operations Comrade Chen Qianli, too, carried out his tasks superbly. In moments of crisis, by a wisdom, or say an intuition, all his own, he led those comrades-in-arms and foiled the enemy's schemes time and again. As for luck — that too there was. But should not a dialectical materialist recognize that the contingent lies precisely within the necessary?
+
+…I reached the Water Conservancy Bureau, learned from the gatekeeper which office Chen Qianli was in, and went straight to find him. I supposed that once inside the office I need only say, I am looking for Chen Qianli, and he would step forward himself. But he was not in the office. A teacher told me he might be in the meeting room. Coming to the door of the meeting room, I saw there was no one inside; the room was empty and bare, with ropes strung criss-cross overhead, and on the ropes hung freshly written slogans, drying.
+
+Seeing no one within, I called out: Comrade Chen Qianli. The window was open, and there was only the sound of the wind fluttering the slogans. I called again: Is Comrade Chen Qianli here? Still no one answered. I judged there was no one inside, yet could not help wanting to go in and see for certain — and there, far off at the front of the meeting room, by the window, I saw a man bent over a table, writing large slogans with a brush. On very large paper he wrote but one character at a time; drawing near, I saw he was writing the character jian, “to put into practice.”
+
+So I asked: “Is Comrade Chen Qianli here?”
+
+The old man did not answer me, but went on writing his large characters.
+
+“I am looking for Comrade Chen Qianli.”
+
+He finished the last stroke, slowly raised his head, slowly straightened his back, set down the brush, pushed the paper further in onto the table, then turned and looked at me.
+
+“I am looking for Comrade Chen Qianli,” I said politely, though inwardly somewhat vexed, for that manner of his seemed downright deliberate.
+
+He went on staring at me, without a word. Thinking him old, and perhaps slow to react, I waited for his answer and stood there without moving. The two of us stood face to face like that for at least a minute, and then he spoke — two words, in fact: “It is I.”
+
+The Chen Qianli of my imagining was not like this…
+
+…Thinking it over afterward, I had in fact gotten no new material from Chen Qianli in that interview. The whole thing took close to two hours, and I felt that all he said, put together, might come to a dozen minutes at most. Most of the time it was I who spoke. I told over everything I had come to know through my inquiries and reading, as though it were I recounting that history to him, and he only confirmed my words, or disagreed with my views.
+
+At certain moments my words seemed, too, to wake some memory in him, letting him call back fragments of a long-forgotten past. Talking on, I even came to feel that, if only to help him hold his aging mind at bay, it might well be worth the doing.
+
+But I gradually came to realize that his intellect had not declined in the least, and his memory was as sound as ever. For every time I said anything the least bit wrong, he would catch it at once, though he did not always point it out to me. Sometimes his eyes would flicker ever so faintly; sometimes his brow would knit almost imperceptibly, or the corner of his mouth would move, as if he wished to say something. His silence was most likely the fruit of long self-restraint, of long self-discipline.
+
+I asked him about Wei Dafu. I had read some files concerning him, all captured from the Nationalists' Central Statistics Bureau, or confessions by secret-service men. I asked Chen Qianli whether Wei Dafu had, after all, betrayed the revolution: he had plainly told the enemy the plan of the secret operation — why, then, did the enemy kill him? I guessed that his case might be much like that of Ouyang Min in Guangzhou.
+
+But Chen Qianli answered plainly: “He was a dead agent. He was a martyr.”
+
+“After Comrade Haohan got clear, by what route did he leave Shanghai and reach the Soviet area?” He did not answer me. Thinking he might not remember clearly, I prompted him: “Was it that he boarded a ship that very night?”
+
+He gave a slight smile, and neither confirmed nor denied.
+
+When the talk turned to the article of reminiscence Ye Qinian had published in a Hong Kong magazine in the 1960s, in which he still maintained that Chen Qianli had shot Ye Tao dead, he said in a low voice: “Ye Tao knows.”
+
+Having said this, he turned back to his slogans, and paid me no more heed…
+
+### Material Two: Members of the CCP Underground Organization Who Died in the Related Operations
+
+Ye Tao, member of the underground Communist organization; joined the Party in 1924 while a student at Beijing Women's Normal University; later, sent by the Party organization, penetrated the Nationalist Party Affairs Investigation Section in Nanjing. After the Dragon Boat Festival of 1929, in the most rampant period of the Nationalist White Terror, she died at a soldiers' shelter-vault of the Nanjing Ming city wall.
+
+Anonymous, member of the underground Communist organization's secret intelligence network, working undercover in the concession police. To warn the underground Communist organization, then about to hold a secret meeting, this person died on 10 January 1933 at the market on Fourth Avenue in Shanghai.
+
+Fang Yunping, leader of the Shanghai district of the underground Communist organization; on 16 January 1933, while covering the withdrawal of the Central special commissioner Chen Qianli, died in the neighborhood of North Sichuan Road in Shanghai (the exact address can no longer be ascertained).
+
+Ling Wen, woman cadre of the underground Communist organization. On 2 February 1933 she was murdered by Nationalist agents at the former site of the underground Communist organization's liaison station on Haoxian Road, Guangzhou.
+
+Lin Shi, code name: Old Kai. Central special commissioner; on 8 February 1933, shot in a struggle with agents at the workers' dormitory of the Maochang coal yard in Shanghai, and, resuscitation failing, died at Fahua town.
+
+Chen Qianyuan, member of the underground Communist organization. Died on 4 April 1933 at Longhua Prison, Shanghai.
+
+Dong Huiwen, member of the underground Communist organization. Died on 4 April 1933 at Longhua Prison, Shanghai.
+
+Wei Dafu, member of the underground Communist organization. Died on 4 April 1933 at Longhua Prison, Shanghai.
+
+Li Han, member of the underground Communist organization. Died on 4 April 1933 at Longhua Prison, Shanghai.
+
+Liang Shichao, Red Army commander; took part in Shanghai's underground work while recovering from wounds in Shanghai. Died on 4 April 1933 at Longhua Prison, Shanghai.
+
+Tian Fei, member of the underground Communist organization. Died on 4 April 1933 at Longhua Prison, Shanghai.
+
+Qin Chuan'an, member of the underground Communist organization. Died on 4 April 1933 at Longhua Prison, Shanghai.

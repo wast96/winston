@@ -92,8 +92,16 @@ NOISE = [
     # (31 years), orphaning 十/三十 read as 10/30. Mirrors the B03 lookbehind on
     # the 一[日夜时…] class. A bare 一天/一次/一年 (no preceding digit) still strips.
     r"(?<![零一二三四五六七八九十])一[輛辆眼躬支絲丝聲声定天次間间驚惊槍枪動动言樣样路批封面團团句道年身手筆笔遍]",
-    r"[一不][旦時时般點点些]",
-    r"[幾几數数][盞盏輛辆個个位十百千萬万條条艘句步進进層层次口杯天年分]",
+    # Lookbehind added in B12: without it the 一[点…] idiom stripper ("一点" =
+    # "a little") eats the 一点 out of a clock time like 十一点 (11 o'clock),
+    # orphaning a bare 十 read as 10. Mirrors the B03/B07 lookbehind patches. A
+    # bare 一点/一些 (no preceding 十/digit) still strips.
+    r"(?<![零一二三四五六七八九十])[一不][旦時时般點点些]",
+    # Lookbehind added in B12: without (?<!十) this 几X measure stripper eats
+    # the 几分 out of 十几分钟 (ten-odd minutes) before the 十[幾几分] rule can
+    # strip 十几, orphaning a bare 十 read as 10 (same class of bug as 十几条).
+    # A bare 几分/几十 (no preceding 十) still strips.
+    r"(?<!十)[幾几數数][盞盏輛辆個个位十百千萬万條条艘句步進进層层次口杯天年分]",
     r"[幾几數数][十百千]",                          # 幾十/數百 "some tens/hundreds"
     # 十几 "ten-odd" / 十分 "very" — but NOT the 十 inside a clock time such as
     # 四十分 (40 min) or 五十分 (50 min), where the preceding digit means this 十
