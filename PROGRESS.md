@@ -641,3 +641,98 @@ built EPUB (ch21 2, ch22 0). No datelines in this batch.
 scripts/build_reading_epub.py out/thousand-li.epub: 22 of 37 units translated (epigraph +
 ch02 to ch22), 146 notes. qa_epub.py: PASS (47 files, 42 documents; 146 references = 146 bodies
 = 146 backlinks; numbering sequential in reading order; all links resolve).
+
+## Batch B08 (ch23 Garrick, ch24 Backstage, ch25 Jiaoli)
+
+Three chapters, 189 paragraphs (ch23 63, ch24 71, ch25 55). Parity clean on all three;
+check_numbers clean on all three after adding non-quantity noise (see below). This is the
+reveal batch. ch23-24: Chen Qianli, in Guangzhou to trace the vanished Ling Wen and the
+wounded courier Old Xiao, follows the rare Garrick cigarette to the "dead" constable Lu
+Zhongde, and from the actress Little Phoenix hears Lu's whole history -- a KMT provocateur who
+staged an anti-communist incident in the Zhongshan-Warship era, faked his death, was slipped
+into the Shanghai underground under the cover name Yi Junnian, lured Long Dong to his death at
+Moat-Bowstring Street, and is Ye Qinian's ace "Xi Shi." ch25 disposes of Cui Wentai: he bolts
+with the suitcase after the bank fiasco, drives blindly out to the Dianshan Lake reed country,
+is run down at Jiaoli (Zhujiajiao) by You Tianxiao -- the case holds only coal-yard
+scale-weights, Chen having switched the gold inside the vault -- and is drowned in the lake; that
+night Ye Qinian sets the wharf ambush for Chen's return on the Guisheng, which opens B09.
+
+### Checks run
+
+- Parity (check_structure --pairs): ch23 63|63, ch24 71|71, ch25 55|55, all OK.
+- Numbers (check_numbers --noise check_noise.txt): all three clean. New noise entries (non-
+  quantities): 五颜六色, 六神无主, 五花大绑, 三七二十一 (不管三七二十一), 零件. Added
+  "twelfth":12 to WORD_NUM (正月十二 -> "the twelfth of the first month"); the built-in list
+  had the cardinal "twelve" but not the ordinal. Clock/floor numbers kept as figures so the
+  count survives (中午十二点 -> "around twelve o'clock"; 晚上八点 -> "eight that evening"; the
+  1929 Duanwu dates 六月十一日/十三号/九号/十一号/民国十八年 all survive).
+- Blind double-translation (subagent, separate context, source-only, no sight of the shipped
+  text) on five argumentative/literary passages: the identity/chameleon meditation (ch23), the
+  actress's lament 今时不同往日 (ch24), Chen's deduction of Ye Qinian's plant (ch24), the driver's
+  gold-smell panic (ch25), and You Tianxiao's "smell of gold" line (ch25). The independent
+  version matched the shipped reading in sense throughout. Its only divergence was mis-guessing
+  茄力克 as a different cigarette brand ("Craven"); the shipped "Garrick" is the researched-correct
+  reading (Lambert & Butler). The ambiguities it flagged (the unnamed referent of 他那一走; 凌汶
+  as a woman vs the male 他 driver) are preserved correctly in the shipped text.
+- Faithfulness / omission audit (subagent, separate context, source + shipped English) on six
+  pairs incl. the Central Park history, the 夫/苦 pun line, the bomb-and-letter passage, the
+  Shangta paragraph, Ye Qinian's vault reconstruction, and the "he goes by Yi" beat: all six
+  reported faithful and complete, no omissions/inventions/reversals. One minor lexical flag --
+  包头 rendered "head-dresser lead" (the "lead" interpretive) -- left as is: she is the 正印花旦
+  (lead huadan), and the footnote glosses 包头 explicitly.
+- Deep-audit sample (~5%): the Central Park paragraph, the 夫/苦 pun, and the Shangta paragraph
+  got the full verbatim-quote + faithfulness treatment above; observed error rate nil.
+
+### Footnotes added (19; book now 165), all fact-checked via web-enabled subagents
+
+ch23 (7): Guangzhou's Central Park (real; Yuan/Ming yamen -> 平南王府 of Shang Kexi, one of the
+three feudatories, revolt 1673-1681 -> Guangdong governor's office; Sun proposed the park, opened
+1921 as First Municipal Park, named Central 1926, today 人民公园; corroborated); Kang Youwei's
+Italian sphinx statues (real reformer, 1858-1927; the donation attested only in popular local
+sources; the sphinx recurs on the Garrick tin); Three Castles (三炮台, real, Wills, from 1878);
+Garrick (茄力克, real, Lambert & Butler, sphinx tin -- the chapter's identity clue, Yi Junnian
+smoked it in ch08; the Shamian/one-dollar retail detail uncorroborated period color); fantan
+(番摊, real); the Duanwu customs 午时符 (noon-hour charm) and 洗龙舟水 (dragon-boat-water bathing),
+real Lingnan customs; the all-female Cantonese 女班 / huadan / xiaosheng / 包头 (real; 群芳艳 echoes
+the real troupe 群芳艳影, mixed-sex ban lifting only after 1933). ch24 (5): the Cantonese opera
+十美绕宣王 / 背解红罗 / 苏金定 (real repertoire; the red-silk-knot riddle shadows Chen's errand);
+the silver-shield (银盾) patron custom (real 捧角 practice; the north-to-Guangzhou spread the
+novel's coloring); Whampoa Military Academy (黄埔军校, 1924, real); the Zhongshan Warship Incident
+(中山舰事件, 20 Mar 1926, real -- the constable's bomb/letter is the novel's invented spark of just
+such a manufactured incident); Little Phoenix's 胭脂用尽 (texture/ambiguity, the reading flagged as
+the translator's). ch25 (7): Dianshan Lake (淀山湖, real); Jiaoli/Zhujiajiao (角里 = 朱家角, ch25
+title; real, read Jiǎolǐ, distinct from the Suzhou 甪里/Lùlǐ); Shangta (商榻, real, "merchants'
+lodging" etymology attested); Songze (崧泽, real Neolithic type-site; the source's roadside 菘泽 is
+a folk miswriting); the western-Shanghai roads Brenan (白利南路 = Changning Rd) / Warren (华伦路 =
+Gubei Rd) / Rubicon (罗别根路 = Hami Rd) / Hongqiao (虹桥路) + Hongqiao airfield (from 1921, in
+service 1929); the Zhu-Hu county road (珠沪县道, Qingpu's real 1932-36 Zhujiajiao-Hongqiao project);
+straw-tied pork (稻草扎肉, real Qingpu specialty). Not re-noted: Xi Shi (ch03), Haoxian Road /
+Moat-Bowstring (ch21), Shamian and the Sincere rooftop garden and Dashatou (ch20), the Reflection
+Institute (ch22), North Sichuan Road (ch07). No AI-written sources used.
+
+### Glossary rows added
+
+- people: 小凤凰 Little Phoenix (fictional huadan). 卢忠德 Lu Zhongde note UPDATED to the ch23-24
+  reveal (= "Yi Junnian" = "Xi Shi").
+- places (real): 中央公园 Central Park, 东濠涌 Donghao Creek, 淀山湖 Dianshan Lake, 朱家角 Zhujiajiao,
+  商榻 Shangta, 崧泽 Songze, 青浦 Qingpu, 白利南路 Brenan Road, 华伦路 Warren Road, 罗别根路 Rubicon
+  Road, 虹桥路 Hongqiao Road, 虹桥机场 Hongqiao airfield, 北站 North Station. Decided/fictional:
+  乐华 the Lehua, 新亚旅社 the Xinya Hotel, 正元旅社 the Zhengyuan Hotel, 珠沪县道 the Zhu-Hu county road.
+- organizations: 群芳艳 the Qunfangyan troupe (fictionalized), 黄埔军校 Whampoa Military Academy (real).
+- terms: 三炮台 Three Castles, 番摊 fantan, 花旦 huadan, 稻草扎肉 straw-tied pork, 中山舰事件 the
+  Zhongshan Warship Incident, 午时符 the noon-hour charm.
+
+### Scene typography
+
+ch23: 1 dateline (正月初十，立春 -> "The tenth of the first lunar month; the Beginning of Spring")
++ 2 breaks (into the flashback of the waterside shed where Old Xiao lies; the return to the park
+gate and the afternoon cigarette-shop hunt). ch24: 0 breaks (one continuous evening at the Lehua
+theatre, dressing-room to stage). ch25: 1 break (the cut to the Zhengyuan Hotel that evening,
+where You Tianxiao reports to Ye Qinian). Anchors verified against the reading files and confirmed
+in the built EPUB (grep class="brk": ch23 2, ch24 0, ch25 1; class="dateline": ch23 1).
+
+### Build
+
+scripts/build_reading_epub.py out/thousand-li.epub: 25 of 37 units translated (epigraph + ch02 to
+ch25), 165 notes. qa_epub.py: PASS (47 files, 42 documents; 165 references = 165 bodies = 165
+backlinks; numbering sequential in reading order; all links resolve).

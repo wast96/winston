@@ -396,7 +396,7 @@
       "en": "Lu Zhongde",
       "pinyin": "Lu Zhongde",
       "status": "decided",
-      "note": "In Mrs. Mo's story, a comrade planted in the Guangzhou public-security bureau, shot when the network was broken. Apparently fictional."
+      "note": "First heard of in Mrs. Mo’s story as a comrade planted in the Guangzhou public-security bureau, reported shot when the network broke (ch. 20). In ch. 23–24 he is revealed as the Nationalist agent ‘Xi Shi’: he faked his death, was slipped into the Shanghai underground under the cover name Yi Junnian, and his one indulgence — Garrick cigarettes — is what betrays him to Chen Qianli. Fictional."
     },
     "欧阳民": {
       "en": "Ouyang Min",
@@ -457,6 +457,12 @@
       "pinyin": "Li Suiqiu",
       "status": "attested",
       "note": "Real (1602-1646). Ming loyalist poet-general of Guangzhou; Haoxian Road was renamed 豪贤 to honor him."
+    },
+    "小凤凰": {
+      "en": "Little Phoenix",
+      "pinyin": "Xiao Fenghuang",
+      "status": "decided",
+      "note": "Stage name of the lead <i>huadan</i> of the Qunfangyan troupe in Guangzhou; Lu Zhongde’s (Yi Junnian’s) lover, who alone knows he lived. Fictional; the name means ‘little phoenix.’"
     }
   },
   "organizations": {
@@ -705,6 +711,18 @@
       "pinyin": "Guangzhou Baojie Gonghui",
       "status": "decided",
       "note": "A press guild on Shibafu Street with an attached clipping bureau; local color."
+    },
+    "群芳艳": {
+      "en": "the Qunfangyan troupe",
+      "pinyin": "Qunfangyan",
+      "status": "decided",
+      "note": "Little Phoenix’s all-female Cantonese-opera company; the name echoes the real 1920s Guangzhou troupe 群芳艳影. Fictionalized."
+    },
+    "黄埔军校": {
+      "en": "Whampoa Military Academy",
+      "pinyin": "Huangpu Junxiao",
+      "status": "attested",
+      "note": "Real. The Nationalist officers’ academy founded 1924 near Guangzhou under the first united front; Chiang Kai-shek commandant, Zhou Enlai head of its political department."
     }
   },
   "places": {
@@ -1277,6 +1295,108 @@
       "pinyin": "Tianguan Li",
       "status": "decided",
       "note": "The lane and its Rear Street (后街) crime scene are the novel's invention, set on the real Haoxian Road. Fictional."
+    },
+    "中央公园": {
+      "en": "Central Park",
+      "pinyin": "Zhongyang Gongyuan",
+      "status": "attested",
+      "note": "Real. Guangzhou’s first public park (opened 1921, named Central Park 1926; today 人民公园), on the site of the Pingnan Wang mansion and later the Guangdong governor’s office."
+    },
+    "东濠涌": {
+      "en": "the Donghao Creek",
+      "pinyin": "Donghao Chong",
+      "status": "attested",
+      "note": "Real. One of Guangzhou’s old moat-creeks; the waterside shed where Old Xiao is hidden faces onto it."
+    },
+    "乐华": {
+      "en": "the Lehua",
+      "pinyin": "Lehua",
+      "status": "decided",
+      "note": "The Guangzhou theater where Little Phoenix is the lead huadan. Local color; apparently fictional."
+    },
+    "新亚旅社": {
+      "en": "the Xinya Hotel",
+      "pinyin": "Xinya Luoshe",
+      "status": "decided",
+      "note": "Guangzhou hotel where Yi Junnian told Ling Wen to wait; echoes the real New Asia Hotel (新亚酒店). Setting."
+    },
+    "青浦": {
+      "en": "Qingpu",
+      "pinyin": "Qingpu",
+      "status": "attested",
+      "note": "Real. County (now district) west of Shanghai, on Dianshan Lake; Zhujiajiao and Shangta lie within it."
+    },
+    "淀山湖": {
+      "en": "Dianshan Lake",
+      "pinyin": "Dianshan Hu",
+      "status": "attested",
+      "note": "Real. The largest natural freshwater lake in the Shanghai region, on the Qingpu–Kunshan border and a source of the Huangpu River."
+    },
+    "朱家角": {
+      "en": "Zhujiajiao",
+      "pinyin": "Zhujiajiao",
+      "status": "attested",
+      "note": "Real. Ming-era canal town in Qingpu on Dianshan Lake; its colloquial name 角里 (Jiaoli) is ch. 25’s title. Formal name Zhuli (珠里)."
+    },
+    "商榻": {
+      "en": "Shangta",
+      "pinyin": "Shangta",
+      "status": "attested",
+      "note": "Real. Old town on the west side of Dianshan Lake in Qingpu; the name (‘where merchants lodge’) is the attested etymology."
+    },
+    "崧泽": {
+      "en": "Songze",
+      "pinyin": "Songze",
+      "status": "attested",
+      "note": "Real. Village in Qingpu, type-site of the Neolithic Songze culture (c. 3900–3300 BCE). The novel’s roadside stone writes it 菘泽, a folk miswriting of 崧."
+    },
+    "珠沪县道": {
+      "en": "the Zhu-Hu county road",
+      "pinyin": "Zhu-Hu xiandao",
+      "status": "decided",
+      "note": "The road under construction from the Qingpu county seat to the Hongqiao airfield (‘Zhu’ = Zhujiajiao, ‘Hu’ = Shanghai); rests on Qingpu’s real 1932–36 Zhujiajiao–Hongqiao highway project."
+    },
+    "白利南路": {
+      "en": "Brenan Road",
+      "pinyin": "Bailinan Lu",
+      "status": "attested",
+      "note": "Real. Extra-settlement road in western Shanghai (after Consul-General Byron Brenan); today Changning Road."
+    },
+    "华伦路": {
+      "en": "Warren Road",
+      "pinyin": "Hualun Lu",
+      "status": "attested",
+      "note": "Real. Western-district Shanghai road; today Gubei Road."
+    },
+    "罗别根路": {
+      "en": "Rubicon Road",
+      "pinyin": "Luobiegen Lu",
+      "status": "attested",
+      "note": "Real. Western-district Shanghai road; today Hami Road."
+    },
+    "虹桥路": {
+      "en": "Hongqiao Road",
+      "pinyin": "Hongqiao Lu",
+      "status": "attested",
+      "note": "Real. The westward artery toward the airfield; still Hongqiao Road."
+    },
+    "虹桥机场": {
+      "en": "the Hongqiao airfield",
+      "pinyin": "Hongqiao Jichang",
+      "status": "attested",
+      "note": "Real. Hongqiao Aerodrome, laid out from 1921 and Shanghai’s air station from 1929; today Hongqiao International Airport."
+    },
+    "正元旅社": {
+      "en": "the Zhengyuan Hotel",
+      "pinyin": "Zhengyuan Luoshe",
+      "status": "decided",
+      "note": "A hotel near Shanghai’s North Station that is in fact a front for the Special Operations Headquarters’ Shanghai station. Fictional."
+    },
+    "北站": {
+      "en": "North Station",
+      "pinyin": "Beizhan",
+      "status": "attested",
+      "note": "Real. The Shanghai North Railway Station (上海北站), terminus of the Shanghai–Nanjing and Shanghai–Hangzhou lines; the ch. 33 title."
     }
   },
   "terms": {
@@ -1693,6 +1813,42 @@
       "pinyin": "fo sui / huoshui",
       "status": "attested",
       "note": "Cantonese for kerosene; the northern Ling Wen does not know the word."
+    },
+    "三炮台": {
+      "en": "Three Castles",
+      "pinyin": "San Paotai",
+      "status": "attested",
+      "note": "Real British cigarette (W. D. &amp; H. O. Wills, from 1878); the everyday brand on the shop counter, against the rare Garrick."
+    },
+    "番摊": {
+      "en": "fantan",
+      "pinyin": "fantan",
+      "status": "attested",
+      "note": "Traditional Chinese gambling game of betting on the remainder (1–4) when counters are raked off four at a time."
+    },
+    "花旦": {
+      "en": "huadan",
+      "pinyin": "huadan",
+      "status": "attested",
+      "note": "The young female-role lead of Chinese opera; Little Phoenix’s line. The <i>xiaosheng</i> (小生) is the paired young male role."
+    },
+    "稻草扎肉": {
+      "en": "straw-tied pork",
+      "pinyin": "daocao zharou",
+      "status": "attested",
+      "note": "Real Jiangnan / Qingpu specialty: pork belly bound with rice-straw and red-braised."
+    },
+    "中山舰事件": {
+      "en": "the Zhongshan Warship Incident",
+      "pinyin": "Zhongshan Jian shijian",
+      "status": "attested",
+      "note": "Real. Chiang Kai-shek’s coup of 20 March 1926 in Guangzhou, purging Communists from the army and Whampoa; a step toward the 1927 split."
+    },
+    "午时符": {
+      "en": "the noon-hour charm",
+      "pinyin": "wushi fu",
+      "status": "attested",
+      "note": "Real Lingnan Duanwu custom: a paper talisman pasted on the door at peak-yang noon to ward off pestilence."
     }
   }
 }

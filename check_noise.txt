@@ -92,3 +92,13 @@
 零散
 # 零碎 = "odds and ends / bits and pieces" (零 is not the quantity 0)
 零碎
+# 零件 = "spare parts" (零 is not the quantity 0)
+零件
+# 五颜六色 = "a riot of colors" (五/六 are idiom, not counts)
+五颜六色
+# 六神无主 = "at one's wits' end / all six spirits masterless" (六 is idiom, not a count)
+六神无主
+# 五花大绑 = "trussed hand and foot" (五 is idiom, not a count)
+五花大绑
+# 三七二十一 (不管三七二十一) = "heedless of all consequences" (idiom; 三/七/二十一 not counts)
+三七二十一

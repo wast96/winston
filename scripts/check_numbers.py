@@ -44,6 +44,9 @@ WORD_NUM = {
     # Ordinal for a playing-card rank in B06 (老开 = 第十三张牌 -> "the King, the
     # thirteenth card in the deck"). "thirteen" is a built-in but the ordinal is not.
     "thirteenth": 13,
+    # Lunar-date ordinal used in B08 (正月十二 -> "the twelfth of the first month");
+    # WORD_NUM has the cardinal "twelve" but the ordinal form was missing.
+    "twelfth": 12,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}
