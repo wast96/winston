@@ -35,3 +35,23 @@
 吴四宝
 # 三成坊 = Sancheng Fang, a lane/place name (三 is part of it, not a count)
 三成坊
+# Bare given names of the Chen brothers in dialogue/narration (千 = 1000).
+千元
+千里
+# Weekday names: 星期X / 礼拜X (二三四五六 are day indices, not counts).
+星期[一二三四五六]
+礼拜[一二三四五六]
+# 目迷五色 = "dazzled by the five colors" (idiom; 五 not a count)
+目迷五色
+# 八角形 = octagonal ("eight-sided" shape descriptor, not the count 8)
+八角形
+# 撬两下 / 两下 = "give it a couple of pokes" (colloquial, not the count 2)
+两下
+# 零星 = "scattered / sporadic" (零 is not the quantity 0)
+零星
+# 二十六军 = the Twenty-Sixth Army (a military unit's name, not a count)
+二十六军
+# 小五子 = Xiaowuzi, a personal name (五 is part of the name, not a count)
+小五子
+# 一不做二不休 = "in for a penny, in for a pound" (idiom; 一/二 not counts)
+一不做二不休

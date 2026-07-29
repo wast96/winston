@@ -36,6 +36,11 @@ WORD_NUM = {
     # Ordinal day-of-month in a formal letter (保管箱延用至三月十一日 ->
     # "the eleventh of March"); the built-ins stop at "tenth".
     "eleventh": 11,
+    # Compound lunar-date ordinals and a Republican-year tens word used in
+    # B04 (腊月二十一/二十二 -> "the twenty-first/second"; 民国二十年 -> "the
+    # twentieth year of the Republic"). spelled_numbers only composes cardinals
+    # like "twenty-two", so these ordinal forms must be declared here.
+    "twentieth": 20, "twenty-first": 21, "twenty-second": 22,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}

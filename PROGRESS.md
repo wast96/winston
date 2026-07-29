@@ -274,3 +274,76 @@ ch02-ch08), 46 notes. qa_epub.py: PASS (47 files, 42 documents; 46 references = 
 scripts/build_reading_epub.py out/thousand-li.epub: 11 of 37 units translated (epigraph +
 ch02-ch11), 69 notes. qa_epub.py: PASS (47 files, 42 documents; 69 references = 69 bodies =
 69 backlinks; numbering sequential in reading order; all links resolve).
+
+## Batch B04 (ch12 A Letter from Afar, ch13 The Revolving Door, ch14 New Year's Eve)
+
+259 source paragraphs translated (ch12 106, ch13 83, ch14 70). All apparatus in footnotes,
+never inline; the novel's own voice kept (Chen Qianli's reunion with his brother; Ye Qinian's
+cold meditation at the Cathay; Cui Wentai's self-justifying backstory, including the source's
+mid-paragraph slip into accusatory second person, which the translation preserves).
+
+### Checks run and results
+
+- Faithful verbatim quotation: bilingual QC files built by make_bilingual.py, which reads the
+  source lines VERBATIM from data/src/ and refuses on any paragraph-count mismatch. Built clean
+  at 106 / 83 / 70 pairs.
+- Paragraph parity (check_structure.py --pairs): ch12 106=106, ch13 83=83, ch14 70=70, all OK.
+- Numeral invariants (check_numbers.py --noise check_noise.txt): all three chapters 0 unresolved
+  after two kinds of fix. (a) Non-quantity numerals added to check_noise.txt: bare given names
+  千元/千里, weekday families 星期[一二三四五六] and 礼拜[一二三四五六], idioms 目迷五色 / 一不做二不休,
+  八角形, 两下, 零星, the unit name 二十六军, the personal name 小五子. (b) Two loose 两 ("these two
+  years" / "these two days") rendered with "two" so the count is honest, and the compound
+  date-ordinals the checker could not parse (twentieth / twenty-first / twenty-second, for 民国二十年
+  and 腊月二十一 / 二十二) added to WORD_NUM in check_numbers.py. No real quantity was waived.
+- Blind double-translation (check 2): a subagent, given ONLY the source and forbidden to read out/,
+  independently re-translated the ten hardest argumentative/literary passages across the three
+  chapters. It reached the same readings on every one, including the three-person countersign, the
+  seventy-two transformations allusion, the "a judge said it" aphorism, Ye Qinian dying-for-nothing
+  reflection, and Cui Wentai's second-person self-indictment. No substantive divergence.
+- Back-translation omission pass (check 3): a second subagent, given ONLY the English and forbidden
+  to read data/, rendered the same ten passages back into Chinese. Round-trip reproduced every
+  clause of the source with no omission or addition.
+- Deep audit (check 8): the ten passages above are about 4% of the batch and got the full paranoid
+  treatment (verbatim quote, double translation, back-translation). Observed substantive error rate: 0.
+- Fact-check against scholarship (check 7): four research subagents with web access, reputable
+  sources only (Wikipedia, Baidu Baike, Chinese Party-history / government outlets, Yad Vashem /
+  Jewish-history institutions); NO Grok / Grokipedia / AI sources. Every note labelled real-vs-
+  fictional and corroborated / uncorroborated / contradicted. Three honest hedges recorded in the
+  notes: Nekrasov's "The Storm" is a love lyric, not a revolutionary poem (the novel re-weaponizes
+  it); 少山 is a genuine Zhou Enlai alias but Zhou had left Shanghai by late 1931, so the early-1933
+  use is literary; and the "肚皮上有一只蟹" mishearing of "I Belong to Your Heart" is untraceable in
+  the reliable record (marked uncorroborated).
+
+### Footnote apparatus (rich, fact-checked)
+
+- Grew from 69 to 90 notes. ch12 (9): Tilanqiao Prison, the Hongkou foreign/Jewish quarter that
+  predates the 1938 refugee ghetto, tingzijian, Ye Tao (first appearance, fictional), Nekrasov and
+  "The Storm", Comrade Shaoshan (a real Zhou Enlai alias), Duoyunxuan and the peach-blossom / 桃 pun,
+  Esperanto and Chinese anarchism, rice-water invisible ink. ch13 (8): the abolished-calendar campaign,
+  the Cathay Hotel / Sassoon, Bernard Shaw's Feb 1933 Shanghai visit and Hong Kong speech, the Monkey
+  King's seventy-two transformations, the disputed youth-and-revolution aphorism, the "crab on your
+  belly" mondegreen (uncorroborated), Chen Lifu ("Mr. Lifu"), Bo Gu / Qin Bangxian and the Provisional
+  Central's move to Ruijin. ch14 (4): the workers' pickets, the Twenty-Sixth Army and the April 12
+  disarming, the 1931 floods and cholera (toll given as a range), the Shanghai New Year's-Eve dishes.
+
+### Glossary rows added
+
+- people: 叶桃 Ye Tao, 小五子 Xiaowuzi (fictional); 少山 Shaoshan, 秦邦宪 Qin Bangxian, 陈立夫 Chen Lifu,
+  沙逊 Sassoon, 涅克拉索夫 Nekrasov (real). 崔文泰 note updated to record the ch14 reveal that he is "Xi Shi".
+- organizations: 云禄车行 (fictional), 红色中华, 工人纠察队, 临时中央 (attested).
+- places: 提篮桥监狱, 华懋饭店, 澄衷中学, 下海庙, 新闸路, 仁记路, 外滩, 黄浦江, 董家渡, 奉贤, 瑞金 (attested).
+- terms: 亭子间, 世界语, 朵云轩, 特派员, 北伐, 废历.
+
+### Scene typography
+
+- ch12 is one continuous scene (the reunion in the tingzijian, flashbacks woven in): empty datelines
+  and breaks. ch13 has one hard cut, at the turn from the Cathay to the riverside meeting with Cui
+  Wentai (break anchor "As You Tianxiao was getting into the car on Renji Road"). ch14 has one, at the
+  closing coda outside in the dark (break anchor "The street blazed with light"). All anchors verified
+  against the reading files.
+
+### Build
+
+scripts/build_reading_epub.py out/thousand-li.epub: 14 of 37 units translated (epigraph + ch02-ch14),
+90 notes. qa_epub.py: PASS (47 files, 42 documents; 90 references = 90 bodies = 90 backlinks; numbering
+sequential in reading order; all links resolve).

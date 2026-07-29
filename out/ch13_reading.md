@@ -1,0 +1,167 @@
+## The Revolving Door
+
+For some years now, though the National Government had promulgated measures for the universal use of the new calendar and the abolition of the old, forbidding the old-calendar New Year's festivities — no holiday for the Spring Festival, no New Year calls, no fireworks or firecrackers — the common people paid it no mind, and when the old New Year came round they kept it exactly as they always had. The newspapers called today the Eve of the Abolished Calendar; but for the change of name they ran the usual holiday advertisements all the same — restaurants' New Year's Eve dinners, department stores' grand spring sales, the Race Club's Spring Festival charity races. On the ground of the foreign Settlement the crackers went off without cease; the Municipal Council had always forbidden the setting-off of firecrackers in the streets, yet the constables, as usual, turned a blind eye.
+
+But Renji Road was very quiet. At dusk the failing light lay over the red-brick foreign-firm buildings that rose sheer on either hand, as a Buick sedan turned into the narrow street, the words “Yunlu Motor-Hire” sprayed in paint on its doors. You Tianxiao had the driver stop at the back entrance of the Cathay Hotel — he had left the car with its garrison-command military plates at Fenglin Bridge, walked out of the Chinese-administered zone, and hired another from the Yunlu firm.
+
+That morning You Tianxiao had telephoned Nanjing; Ye Qinian was not at headquarters. He had an urgent matter to report to Director Ye, and could only wait some hours and ring again — again he was told Ye was out. By afternoon, just as he was about to telephone once more, a call came in from Ye Qinian himself.
+
+Ye Qinian, it turned out, had come to the Bund, and taken a room at the Cathay Hotel.
+
+Through the revolving glass door and into the hotel lobby, his feet on the wool carpet, You Tianxiao felt all at once shabby and out of place. He passed down a corridor; a huge bronze carved chandelier hung high overhead, its light playing over the gilded tracery on the wall-pilasters, and he felt as though he had entered a maze. The corridor led to an octagonal inner court, the colors of its vaulted glass dome forever shifting; You Tianxiao's eyes were dazzled — he tilted his head back and found that a step to the left turned the glass milky white, a step to the right indigo, and a few steps forward the same pane blazed with orange light.
+
+He turned into another corridor, and it led to the hotel's main door facing the Bund. For some reason a crowd was pressed together here — a knot of reporters with notebooks, cameras and flash-lamps ringed the doorway, and more people still stood outside the hotel's doors. A hush fell; You Tianxiao, not knowing what event was about to occur, squeezed into the crowd and, leaning against a pillar, took a look.
+
+In the crowd stood a foreigner, sneezing without stop. He wore an odd thick brown sweater strewn all over with little stars; he waited a while, and, seeing that no one came to greet him, gave a snort of a laugh, said a few words to the foreign woman beside him, and turned and left. You Tianxiao understood no foreign speech, still less did he know that this foreigner was “the greatest living dramatist.” Seeing the reporters swarm about the place, he privately thought it rather much.
+
+You Tianxiao went over to the front desk and asked the way, and the desk telephoned up to Ye Qinian's room. From the stairwell came the sound of a band playing. The tune was one You Tianxiao knew well — “there's a crab on your belly” — he did the occasional tea dance himself. Of course he had no idea that the real name of the piece was “I Belong to Your Heart.”
+
+The elevator stopped at the seventh floor. You Tianxiao went in; in the entry-hall sat Secretary Ma, whom he had met before. A moon gate in the little hall led through to the reception room. Ye Qinian stood at the window, which looked straight out on the Bund.
+
+Secretary Ma announced, “Captain You is here,” and having said it withdrew from the room.
+
+“Teacher!” You Tianxiao came to attention.
+
+Ye Qinian went on looking out the window. “The Bund is just as it was.”
+
+“Would you care to go out for a walk, Teacher?”
+
+“A haunt of trouble; nothing much there worth seeing.”
+
+You Tianxiao did not catch his meaning.
+
+“On New Year's Eve, is Shanghai always as cheerless as this?”
+
+Ye Qinian sat down on the sofa and had You Tianxiao sit too.
+
+“The people have answered the government's call; the lively season now is the new-calendar New Year.”
+
+Ye Qinian laughed. “You've picked up a good deal of official cant from Mu Chuan at the Judge Advocate's office. Well? Do you get on with him tolerably?”
+
+“Director Mu is in the business of holding office; your student is in the business of getting things done,” said You Tianxiao, a little sullen.
+
+“Things must be done, and office must be held too. Headquarters posted you men into the various organs precisely so that you would hold office — so that you would strike root and put out shoots in every unit and department. The Special Operations Headquarters is like one great net; you must weave that net larger and larger, closer and closer.”
+
+You Tianxiao straightened his back. “Yes, Teacher.”
+
+He was perched on the corner of the long sofa, only half seated. Ye Qinian leaned back against the cushions. “There's no outsider in the room; ease off a little, and you may smoke. How did you get here?”
+
+“A Garrison Command plate has to be declared to the Municipal Police to enter the Settlement. I left the car by the checkpoint at Fenglin Bridge and hired another to come over.”
+
+“Good. You were right to hire a car; the Cathay Hotel is a place one simply must arrive at by car.” There was a thread of mockery in Ye Qinian's tone. “Twenty-two years into the Republic, and here it's still for them to have the last word — so this time, coming to Shanghai, I was determined to lodge at the Cathay, in Sassoon's own house, in the house of the imperialists.”
+
+“You've not been to Shanghai in a long while, Teacher?”
+
+Ye Qinian said nothing.
+
+“Shall I order Teacher a New Year's Eve dinner, then? These last two years the Cantonese restaurants have been in vogue.”
+
+“I've no wish to go out. Come,” Ye Qinian waved a hand, “let's have it — what is it you wanted to report to me?”
+
+“I had meant to come to Nanjing to see you in person, Teacher.” You Tianxiao opened his briefcase and took out a photograph. “A Communist has newly arrived, and has made contact with them.”
+
+The man in the photograph stood by a tram-stop sign, a folded newspaper in one hand, the other thrust into the pocket of his overcoat; behind him rose a giant cigarette girl and a giant vanishing-cream girl. He had reached Shanghai on the twenty-first of the last month — ah, that is, the sixteenth of January — by ship. You Tianxiao ordered the gist of it in his mind as he made his report to Ye Qinian.
+
+Was it he? Ye Qinian felt a jolt within. Of course he knew this man; even had he used some deliberate trick to alter his looks, Ye Qinian would have known him in an instant. Even now that he was no longer so young, he would know him. Even could he work the seventy-two transformations, Ye Qinian thought with hatred, even were he burned to ashes and blown to smoke on the wind, he would know him. Sometimes, waking at midnight and turning over old things, he would find in certain moments that he could not, after all, call up Ye Tao's face — yet this man appeared before him always, clear and sharp. Hatred outlasts all things. Chen Qianli. “Xi Shi” had not, on the telephone, given him the name.
+
+“He came by ship? Where did he board?”
+
+“He told the hotel people it was Qingdao, that he's in the antiques trade — his background seems mysterious. When I had the Municipal Police's Political Branch wire Hong Kong, the ship had already left Hong Kong. But the freighter's port of departure was Vladivostok.”
+
+You Tianxiao told him that Chen Qianli seemed not to know at all that men had been watching him the whole time. Some of them, in their movements, were forever furtive — glancing at shop windows, going back and forth in the street, boarding by the front door and getting off by the back. The more of that, the easier they were to follow. But this Chen Qianli looked wholly unaware, easy and open. In the hotel lobby he would ask the way of a page or a boy and crack a joke or two; in the street he looked about him everywhere, letting no bit of curbside farce escape him, for all the world like a man of leisure — like an antiques dealer who has suddenly found he has miscounted the days, come up to Shanghai over the New Year, and found that no one is in any mind to do business with him, so that he can only kill the time by strolling about.
+
+But he was always vanishing all at once. Several men would tail him half the day, holding fast to three key positions — one ahead of him, one behind, one across the street. They had thought it foolproof, and then in a flash he was gone. They never knew where he had gone, nor whom he had seen, until at night he would be back at the hotel, idly taking the day's paper from the desk and having a boy bring him hot water, for he would have his cup of hot tea even in the dead of night. Once, the men the detective squad sent to follow him, so afraid of losing him again that they wound themselves too tight, took on a furtive look themselves and drew the notice of a street constable, who put them through a questioning; and by the time the constable let them go, their man had vanished once more. Thank heaven for “Xi Shi” —
+
+You Tianxiao did in fact light a cigarette. “Thank heaven we now have Xi Shi. You had Xi Shi contact us directly, Teacher, and so we knew he was the man sent down from above, and that he had already met with these people. In making contact with them he almost never arranged it beforehand. He has a habit of walking into other people's homes as bold as you please, or their places of work.”
+
+He was always so, Ye Qinian thought — walking into other people's houses on his own say-so, even into the boudoir of another man's daughter. Once more he studied the photograph; the man in it was now far removed from the youth who used to come to his house on Xinzha Road. In fairness, he had liked that youth. So clever — he had only to learn a thing once to have it. Warm with people, and yet with a stillness running through him, he had put Ye Qinian in mind of himself in his own young days.
+
+“If a man does not join the revolution at twenty —” He remembered a précis of a speech that the intelligence section had sent up the day before, and suddenly realized he had spoken aloud the words in his mind.
+
+“What are you saying, Teacher?”
+
+“Those reporters in the lobby downstairs — did you see them? This morning the liner that foreign writer is traveling on lay off the Wusong bar, and they fetched him over by a little steam-launch and had him rest half a day at the Cathay Hotel and give a speech. In a little while he'll be going back aboard the liner to go on around the world.
+
+“A day or two ago he gave a speech at the university in Hong Kong, and what he said made the British political police over there very nervous. Word of it was passed to Shanghai, and passed on again to me. There he was inciting the students to make revolution, saying something to the effect that a man who does not join the revolution at twenty will be an old fool by fifty. He had garbled the famous saying, of course.”
+
+Ye Qinian, careless of whether You Tianxiao could follow him, went on for his own sake: “In my youth I read a little, naturally, and as I understand it the saying was a judge's. He explained it to someone thus: that if in one's youth one were not a revolutionary, that would be to have no conscience; but to be still clamoring for revolution in one's old age — that would be to be a fool.”
+
+You Tianxiao did not understand why Ye Qinian should tell him all this, and could only wait quietly for his teacher to finish. He did not know that just then a hundred feelings were tangled in Ye Qinian's heart. Ye Qinian felt that this still, composed man in the photograph before him was the true likeness of the youth who had once betrayed him. He had never foreseen that Chen Qianli would become such a man. He guessed that this, perhaps, was the reason Ye Tao had turned her back on her father and gone over to Chen's side. This slowly ripening figure he had been quite unable to see at the time, whereas Ye Tao had probably seen it in an instant. Had Ye Tao lived to this day, she would very likely have been like the man in the photograph — and that gave him a dim disquiet.
+
+“But so far his purpose in coming isn't clear.” You Tianxiao felt his teacher's mind was wandering. “At first we supposed he'd come to restart the assignment that had been broken off; to get him to act the sooner, we sent the surveillance team home for a time and let him go and make his contacts. But he met the people and said nothing. He called no meeting, set no task, and shows no intention of pulling these people out.”
+
+Ye Qinian understood: Chen Qianli had guessed his plan; perhaps they were now certain the inside had been penetrated and were combing out the mole — for which he had long been prepared.
+
+“Has Chen Qianli been to the clinic?”
+
+“Not yet.”
+
+“So he knows very well that the clinic is wholly in our hands. But he knows we want to find out just what the assignment is, and who was sent to direct the operation — that is his trump card; and until those secrets are clear, I will not move against them.
+
+“So far we still hold the initiative. They are shut in an invisible cell, with our men watching them all round. At a single word, we could have the lot of them under arrest within minutes.”
+
+“The Settlement police have agreed to cooperate in the operation too, and there'll be no repeat of last time. The police are anxious to recover face; last time the informer who tipped them off cost them their dignity, so this afternoon at the Central Station their commissioner promised me that in this case, if the situation grows urgent, we may take the offenders into custody ourselves first, without waiting for the constables to muster and reach the scene,” You Tianxiao explained.
+
+Though that thread of early admiration for Chen Qianli was long since gone without trace, Ye Qinian still thought, not without approval, that this student of his, meaning to lead these people out of their strait along a single dangerous tightrope, was bold to the point of recklessness, there was no denying it. But what manner of plan did he carry in his mind?
+
+Now a gust of cross-wind had blown over that tightrope: to have gathered these people into the clinic was a stroke of genius. When You Tianxiao had told him on the telephone that day that there was but a single surety bond for the clinic, a vague plan had formed in Ye Qinian's mind — gather them in the clinic, and they themselves would let the secret out. Xi Shi need only serve as a lever, prying a little here and there, and a crack would open among them.
+
+“This Lin Shi is very likely their special commissioner from above,” You Tianxiao went on reporting, though Ye Qinian had already learned most of it from Xi Shi himself.
+
+“There's no telling what's in the safe-deposit box. I talked it over with Director Mu — whether we might go straight to the bank and have them open the box. Director Mu seems to know this bank's inner workings very well; he says that small as it looks, its backing reaches all the way to the top, and that it wouldn't give a document of the Songhu Garrison Command a second thought. The bank being in the Settlement, they can simply ignore us. Director Mu seems unwilling to touch the matter.”
+
+“The Zhonghui Trust — even I can do nothing there, and Headquarters dares not offend the Ministry of Finance either. In Nanjing many have long been muttering behind our backs that we run a government by secret police. Even if it were carried all the way up to the Generalissimo, were we to open the box and seize no proof of Communism, the Generalissimo could not shield us.”
+
+Ye Qinian did not tell You Tianxiao that at Headquarters he had put in a word through Mr. Lifu, and that the moment he reached Shanghai he had gone to the bank to ask for their cooperation in the inquiry. The bank had said they could not open a client's box, and that in any case it took two keys to open it, one held by the bank and the other by the client himself. Ye Qinian was somewhat disappointed; but the bank had then told him quietly that, so far as they knew, what lay in that box was gold bars, and no secret documents of the Communist underground at all. Unless there were proof that the owner of the gold was a Communist, and that it was meant for some use harmful to the National Government, they could not agree to confiscate it. And the very fact that there was gold in the box they could only say in private; never would they publicly admit to knowing what a client kept in his box.
+
+“Teacher, why not just arrest them all? Once we have the special commissioner, I don't believe they could hold out through the Judge Advocate's interrogation.”
+
+Ye Qinian stared at him a long moment, and shook his head. “If you won't use your head like this, how are you ever to beat them?”
+
+Even back then, he had not wholly beaten Chen Qianli. He always felt that his fishing scheme of those years might well have been seen through by Chen Qianli long before — that even without Ye Tao's tip-off, Chen Qianli would have escaped. Though he did not like to let himself think so; for if it were true, then his daughter Ye Tao had died for nothing at all, and the rancor he had buried in his heart these many years would seem, at a stroke, to have come to nothing too.
+
+“Go back, and have the surveillance team around the clinic take particular care to show no trace of themselves,” he charged You Tianxiao. “We wait patiently; they will begin to stir. So long as that Lin Shi does not leave the clinic, don't follow any of the others in and out — you can let them breathe easy these next two days.”
+
+Intelligence had come from the Nanchang Field Headquarters that in searching out a Communist underground nest the troops and police had found a copy of Red China — the Party's organ, printed and published at Ruijin — in which an article stated that henceforth the paper would change from the organ of the Soviet-area provisional government to the organ of the Central Committee of the Chinese Communist Party.
+
+The paper also carried an article signed “Bogu,” in which the writer set out his view of the revolutionary situation in the Soviet areas; by its tone, the man had already reached Ruijin. Few at the Special Operations Headquarters knew that this “Bogu” was none other than the alias of Qin Bangxian, the man in charge of the Chinese Communists' provisional Central. This news made Ye Qinian realize that the provisional Central, which had all along been in Shanghai, might now be withdrawing to Ruijin.
+
+Another man might overlook the links among these several reports, but Ye Qinian was, one might say, the man within the Kuomintang who understood the Chinese Communists best — an expert on Communist intelligence. At once he connected them with certain sayings he had lately heard: in the intelligence sent up by the Headquarters' branch stations here and there, now and then came a stray phrase mentioning a painting — perhaps not a painting at all, but only something that went by that name.
+
+Some guessed it was a secret operational plan of the Communists. No one knew what plan it might be. Funds were being moved; several temporary action groups had been hastily formed; not a few Communist underground stations whose threads had already been grasped had all at once shut their doors, the people gone and the rooms empty. Ye Qinian began to suspect that behind that newspaper, those scattered items within the intelligence system, the secret gathering above the market, and Chen Qianli's sudden arrival in Shanghai, there might run a single mysterious thread that would string them all together.
+
+The plan in his mind took shape by degrees. The gold in the bank's safe-deposit box was a ready-made bait; he would ply his fishing arts once more, and this time he would land not only the special commissioner and their secret plan, but also that one that had slipped the net, that should long ago have gone into the pot. He would have Chen Qianli, come what might, and settle this account of many years' standing.
+
+He instructed You Tianxiao that the operation must be kept wholly secret: pick able hands, and quarter every man taking part in it together in Nanshi, forbidden to go out, to go home, or to telephone anyone outside. The detective squad at Baiyunguan was to set aside a place for the special-case team and seal it off tight. Should any man through carelessness let word slip, Headquarters would deal with him without fail as an accomplice of the Communists, and show no mercy.
+
+“Understood!” You Tianxiao rose, clicked his heels together, and saluted Ye Qinian; then he picked up the photograph from the tea-table.
+
+“Leave it there,” Ye Qinian said flatly.
+
+This time You Tianxiao had the direction of the lobby corridors by heart; he went out, and the Yunlu firm's Buick was still waiting for him on Renji Road, and the car soon vanished into the night.
+
+As You Tianxiao was getting into the car on Renji Road, Ye Qinian too left the Cathay Hotel. He had changed into a gray cotton-padded gown and put on a scarf, a fur cap and a hand-muff, and he came out by the door facing the Bund and walked toward the Huangpu River. Tonight even the Huangpu was very quiet; the jetties along the bank stood empty, the wooden boats and tugs that on ordinary days thronged the river thick as crucian carp were nowhere to be seen, and the ceaseless chugging of engines on the water had all died away — the boat households, no doubt, were all making ready just now to eat their New Year's Eve dinner.
+
+Several rows of cars stood parked along the bank; in the darkness a man leaned out of a car window and called to him: “Director Ye.”
+
+Ye Qinian did not stop, but walked on toward the river; the man got quickly out of the car and trotted a few steps to catch up. It was Cui Wentai.
+
+Without turning his head Ye Qinian said, “You've come early.”
+
+By the roadside a few sailors, half drunk, staggered along muttering, “Not early, not early at all!”
+
+Cui Wentai could not be sure whether he ought to come a step closer; he did not know whether Ye Qinian liked to have anyone walk abreast of him. Dodging the passers-by, his ear cocked for orders, he followed behind, now to the left, now to the right.
+
+“Do you drive like this too, darting left and right?” Ye Qinian stopped, turned, and looked Cui Wentai over, then added, “Aren't you cold, dressed like that?”
+
+“Not cold, not cold; sitting in the car one isn't cold.”
+
+“Bring the car round,” Ye Qinian ordered.
+
+Once in Cui Wentai's Dodge, Ye Qinian said, “To Dongjiadu.”
+
+Cui Wentai turned to look back at Ye Qinian in the rear seat.
+
+“There's a lame man who kept a noodle stall over that way — very good it was; after all these years, I wonder if it's still there.”
+
+Cui Wentai started the engine. “Lame Man's Noodles — I know the place.”
