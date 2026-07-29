@@ -47,6 +47,9 @@ WORD_NUM = {
     # Lunar-date ordinal used in B08 (正月十二 -> "the twelfth of the first month");
     # WORD_NUM has the cardinal "twelve" but the ordinal form was missing.
     "twelfth": 12,
+    # Zero, used in B10 for a football score (一比零 -> "one to nil"); the source
+    # prints 零 and English scores it as "nil"/"zero", neither of which was mapped.
+    "nil": 0, "zero": 0,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}

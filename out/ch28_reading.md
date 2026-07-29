@@ -1,0 +1,219 @@
+## Xiaotaoyuan
+
+Ye Qinian got into the car at the back door of the Zhengyuan Hotel; the car came out of the Lai'an Li lane, turned off Baoshan Road, and swung right into Xinmin Road. Anyone unfamiliar with the local situation would have found this street a little strange. It was in fact two parallel roads: on the north side ran Xinmin Road, in the Chinese-administered district, while the south side was called Boundary Road and lay under the Municipal Council of the foreign Settlement. This had once been the dividing road, and because the foreign merchants inside the Settlement were forever trying to build roads across the line and nibble away at Chinese ground, there had been no end of disputes over the years. It was said that when they put the railway station on this street in the first place, part of the intent had been to use it to check the foreign merchants' appetite for encroachment; later came the Lai'an Li extra-settlement road affair, which nearly grew into a diplomatic incident.
+
+Nowadays the two roads were separated by barricades, wooden stakes wound about with great coils of barbed wire and joined down the middle of the street as far as the eye could see. The car crossed the dividing barricade, drove into North Zhejiang Road, and at the iron gate at the Elgin Road crossing two constables came up and stopped it, swept a glance through the windows, and let them into the Settlement.
+
+It was not ten minutes' drive, yet the checkpoints came one after another, and Secretary Ma could not help swearing under his breath. After a while, from the back seat, Ye Qinian intoned, as if chanting a sutra: “To resist the foreign, one must first pacify the domestic.”
+
+Once the car had entered the Settlement, it was another world altogether. In last year's ‘January 28th’ Incident, Zhabei had been bombed again and again by the Japanese, and the whole stretch around Xinmin Road and Baoshan Road had been reduced to broken walls and rubble; the roof of the railway station was still being repaired even now. But inside the Settlement things grew more prosperous by the day. As the car ran on southward, there were buildings under construction here and there along the way, shop banners and pennants stood thick, and the streets were crowded with people and vehicles.
+
+Today was the fourteenth of the first month. First thing in the morning Ye Qinian had sent someone to bring him the day's papers, and in the fifth sheet of the Shen Bao he had found the advertisement:
+
+LAO KAI RAISES HIS RATES FOR PAINTINGS:
+
+Master Lao Kai has of late come to be prized by connoisseurs; in landscapes, figures, beasts, flowers and birds there is nothing he does not do with skill, and his blue-and-green landscapes are his especial strength, no less than the reincarnation of the Generals Li, elder and younger, and of Ximeng himself, so that those who come seeking his work are more than he can attend to. He has therefore had his old scale of fees revised upward, that the bond of brush and ink may be sealed. Hanging scrolls, three silver dollars a foot; figures, add one. Central-hall scrolls, eight silver dollars a foot; above five feet, add three a foot. Fans with flowers, four silver dollars; feathered creatures, beasts and figures, six; blue-and-green landscapes, six.
+
+Telephone: 8-5-3-7-2.
+
+The previous evening Ye Qinian had gone to Laoximen in the old city. He had the driver stop the car on Xueqian Street, directly opposite the cross-lane of Puyu Li. Lu Zhongde's painting-and-calligraphy shop, though it stood within Puyu Li, faced onto Penglai Road. Long after the appointed hour for the meeting had passed, his ‘Xi Shi’ finally came out, stood a moment at the mouth of the lane, then suddenly dashed over and sprang into the car.
+
+The car moved slowly forward. The window curtains were drawn, but the streets of the old city were narrow, and few cars ever drove in. Lu Zhongde did not speak. Ye Qinian understood him: ever since Guangzhou, Lu Zhongde had cultivated the good habit of letting Ye Qinian speak first. But Ye Qinian too kept silent, and it was a long while before he said: “This whole area used to be called Huangniqiang. In the Xianfeng years there were more than three hundred peach trees planted here, and the honey-peaches they bore were the color of a flushed cheek, sweet beyond anything. Stick in a wheat straw and suck, and your whole mouth filled with fragrance, and all that was left on your fingers was the peel. A pity they died out long ago; only the name is left now, and even the peaches of Longhua and Pudong dare to call themselves Huangniqiang.”
+
+“Teacher is grieving again.”
+
+Ye Qinian ignored him, and only after a moment said: “This afternoon, at the Gonghexiang Wharf, why did you not give the signal?”
+
+“This Chen Qianli knows nothing of what happened in Guangzhou. He never went to Guangzhou.”
+
+Before the Guisheng left Shanghai for Qingdao, Ye Qinian had sent men to the ship to check the passenger manifest: Chen Qianli and Liang Shichao had boarded at Hong Kong.
+
+“You are growing more and more sure of yourself. You are in a dangerous place; you must be careful at every step.”
+
+“I understand, Teacher.”
+
+“What in the world happened with you in Guangzhou? Why arrest people right beside the liaison station?”
+
+Ye Qinian had originally meant to leave the underground Party's liaison stations in Hong Kong and Guangzhou untouched for the time being, keeping them as bait; but Lu Zhongde and the others had made such an uproar in the teahouse and in the streets that, when the Guangzhou station's telegram came that afternoon, he hurriedly sent them to seize people at the liaison station — only by then the birds had flown.
+
+“Station Chief Li of the Guangzhou station is only a deputy in the detective squad of the Guangzhou Public Security Bureau; the squad leader is Chen Jitang's man. He cannot move the detective squad. He said it was all he could do to bring even this off.”
+
+“The Guangzhou station's telegram said you had killed two of their agents?”
+
+“The show was badly staged; without it the courier from Ruijin would not have believed it. I told him to find two outsiders to be the fall guys, but he said he dared not offend the squad leader, and in the end he used his own men.”
+
+“And that Liang Shichao — where has he got to?”
+
+“Chen Qianli says he slipped off the ship at Shantou and went to Ruijin.”
+
+“You still have not told me why you did not kill Chen Qianli.”
+
+“He is arranging a new operation. He says he wants to hire a cargo boat.”
+
+A cargo boat? What the devil was that about?
+
+“To carry what? Arms? Medicine?” he asked Lu Zhongde.
+
+“To carry people. He wants to take over the idle passenger cabins.”
+
+“Is he still hiding in your shop?”
+
+“Gone. Some days ago I had Wei Dafu find a place, just ahead here on Menghua Street. I have only just taken him there. Living in Nanshi is very convenient for Captain You.”
+
+It was precisely a time to be using his men, and Ye Qinian raised no objection; but there was always a certain doubt in his heart. For several days running, two men had vanished all at once, and he felt Chen Qianli must be arranging something in secret. If Chen Qianli truly knew nothing of what had happened in Guangzhou, then the decision not to kill him yesterday afternoon had not been wrong either. Today, before the advertisement drew that Haohan onto the hook, it was best that all be calm and still, that nothing go amiss.
+
+He very much wanted to understand this secret about the cargo boat, but he knew Lu Zhongde's failing — his love of grand exploits. Perhaps he himself had a touch of it too, he thought; but precisely because he understood himself so well, at moments like this he always told himself first to take firmly in hand the winnings he already had, and only then to think about winning one more round. Haohan — no prize could be greater than he, and Ye Qinian was unwilling to stake him too as a wager. So in the small hours of the morning he had made his decision, called You Tianxiao in, and said: draw in the net, take them all.
+
+Once You Tianxiao had finished arranging the arrests, Ye Qinian found himself seized by a mood of leisure and left the Zhengyuan Hotel. Before going out, he had Secretary Ma telephone the Zhuangyuanlou at Baxianqiao and order several Ningbo sweet-rice dumplings made fresh and boxed up. Now the car pulled up at the door of the Zhuangyuanlou; Secretary Ma got out and went up, and before long came out carrying two large boxes, which he set on the front passenger seat.
+
+Ten minutes later the car stopped beside the bridge over Chuanxin Creek in the old city. The Chuanxin watercourse of the old town had been filled in over many years, and now only a few disconnected stretches of pond remained. Ye Qinian got out, Secretary Ma following behind with the boxes. The two of them, one ahead of the other, walked a little way along Songxue Street, then turned left into a winding deep lane. At the end of the lane rose a high wall; the cross-lane before it ran nowhere at either end, closed off by the gable walls of houses.
+
+Beneath the high wall, though, was a narrow door of black lacquer, and on the plaque above the lintel were written the words ‘Xiaotaoyuan’ — Little Peach Spring. Through the door was a garden planted with twenty or thirty peach trees. Guests generally did not realize until they were inside that the whole large garden had only that one narrow door; the owner had long since walled up all the others. In the densely peopled old city, such a garden covering half a mu was something of a novelty.
+
+Within the wall all was silent. Ye Qinian mounted the three stone steps and rapped twice, lightly, on the cast-bronze door-ring. After a moment the door opened.
+
+“Old Meng, Qinian has come to wish you a happy New Year!” Ye Qinian said, folding his hands in salute.
+
+Inside the door stood Old Meng in a worn cotton gown. He showed no surprise, as though he had guessed the caller was Ye Qinian.
+
+“I knew that a guest at this hour would most likely be you.”
+
+In the garden were several single-story rooms; the brick paving before them was spotless, laced here and there with moss, and in the stone water-trough by the wall floated a few leaves of pennywort. In the hall stood one small table and two chairs; a black cat crouched beneath the table and did not look at the visitor.
+
+“You have come just in time. I have only now brewed the tea.”
+
+“Have you been keeping well?” Ye Qinian asked mildly.
+
+“Thanks to you, younger brother, I have been lent a fine place in which to see out my last years,” said Old Meng by way of pleasantry.
+
+Sunlight fell on the floor before the hall; boiling water poured into the pot, and the fragrance of tea filled the room.
+
+“Old Meng is as courteous as ever. This is my asking you to look after the house for me.”
+
+Ye Qinian had years ago bought this garden from a cashiered division commander of the Sichuan army, and had transplanted several dozen peach trees from Huangniqiang; now these trees, great hermits hidden in the city, had become the last of their kind. Though he lived in Nanjing, in these years whenever he had the time he would slip quietly away to Shanghai, come to Xiaotaoyuan, and seek out this Old Meng to drink tea and talk.
+
+Old Meng had killed men. Ten or twenty years before, in certain radical societies, he had been a famous assassin.
+
+The two did not exchange many pleasantries. When the tea had been steeped several times, Ye Qinian suddenly said: “I have never killed a man with my own hands.”
+
+The lid of the cup clinked; Old Meng set his bowl down, mildly startled. This old friend before him, known to him for years — their comings and goings could not be called frequent, yet it seemed there was nothing they could not discuss. Old Meng was a careful thinker, and in talking over past and present always stopped just short. ‘Xiaotaoyuan’ was a place for withdrawing from the world; their usual intercourse was only to drink tea and chat idly, seeking a moment's ease. To come to the point like this and speak all at once of killing left him a little puzzled.
+
+“This time I have made up my mind.” Ye Qinian's voice sounded harsh in the still courtyard house.
+
+“A man in as high a place as you, younger brother — why should you kill with your own hand?” For the moment Old Meng did not know how to take up the thread. He had killed men, but he never spoke of killing.
+
+Ye Qinian gazed at the peach trees in the play of light before the hall and paid no heed to Old Meng's words. He had kept many men in his pay, yet he had never understood why he kept this old man before him. Perhaps he needed just such a pair of ears; perhaps he felt that only this old man could grasp his meaning.
+
+“Ever since I changed my stand and threw myself into the National Revolution, I have always had public enemies, never private grudges. But Chen Qianli —”
+
+“Ah —” So Ye Qinian was raising the old matter again. “Between the two parties it was at bottom a dispute of opinions,” Old Meng answered, “which need never have come to killing. In a few short years it reached the point where nothing would do but to kill; and among the reasons for that, there was also the Nationalists bullying the small with their bigness. When killing has gone on long enough, public enemy and private grudge can no longer be told apart.”
+
+Old Meng seemed to be remembering the past, and his expression turned all at once desolate.
+
+Ye Qinian did not look at him. “What I feel in my own heart, that I can still tell clearly enough. Three years ago Ye Tao was lured out of the Zhanyuan by him. I sent out every operative I had to search. When we found her, all we saw was a corpse.”
+
+Old Meng looked at this old acquaintance in astonishment; after all these years he had never entirely seen through this chief of secret agents. He could, in one breath, grieve as he recalled his dead daughter, and in the next coldly call her a corpse.
+
+“I have only heard you say that he led Ye Tao onto a crooked path, that she went off following the Communists,” Old Meng said softly.
+
+Ye Qinian seemed not to have noticed his words; he was still gazing at the peach trees. “These trees ought to be pruned by someone, don't you think?”
+
+It was for Ye Tao's sake that he had bought this garden and planted the peach trees in it. Every year on Ye Tao's birthday he came to the orchard to prune the branches and wait for them to bud slowly in early spring. Every year in May he came here to drink tea and look at the peach blossom. By July the branches would be laden with honey-peaches, and he would come and pick a basketful to send to Ye Tao. On days like these he would always speak to Old Meng of the past — things Old Meng had already heard countless times.
+
+“These are the tangerine-red cakes I bought from the Laodafang teahouse-confectioner's,” said Old Meng, pushing forward the plate on the table and taking up a piece himself.
+
+Ye Qinian glanced at the plate. “They found her in a soldiers' shelter-vault in the old city wall at Nanjing. When I went to the confidential room to gather up her things, there were two packets of tangerine-red cakes on the desk too. She loved such little sweets — just like her mother.”
+
+Perhaps — if her mother had not died, none of what came after would have happened. If her mother had lived, Ye Tao might not have followed Chen Qianli so utterly, heart and soul. And he himself would not have grown so warped either. For one instant this thought flashed across Ye Qinian's mind.
+
+In a few short years, both he and Ye Tao had changed. Ye Tao had gone to Beiping to study; he regretted letting her go, but who could have known? At the time he had thought a change of surroundings would do her good. Even if she was later somewhat influenced at the Women's Normal University and took part in the student movement — what young person has never been rebellious? Had not he himself only later come to feel that yesterday was wrong and today right, and changed his ideas and his stand? In the year Ye Tao went to Beiping, he had even had someone find him Marx's books and Lenin's books, and Bukharin's ABC of Communism. Just as many were beginning to think Communism could save China, he himself had changed his view. When the Nationalists and Communists began to cooperate, he believed he had detected the Communists' ‘conspiracy’; he and a group of men within the Nationalist Party had seen it, he and Mr. Jitao and Mr. Guofu together had seen it, and early.
+
+During the disturbance at the Women's Normal University, Duan Qirui had closed the school. That summer Ye Tao came home, and he was not in the least worried. Once she was home she would slowly forget those passing passions and impulses. But in that period he had begun to grow busy. On the surface he was still a professor, taking part in society activities, running a coterie magazine; in private he had thrown himself into the embrace of the Nationalist Party, attending meetings of the right wing and coming to learn of a thing called fascism. Among the students he picked out certain ones, cultivated them, and quietly built up a secret organization of his own. He sent them off to various places, meaning at some future moment to present this organization to a strong man within the Nationalist Party. Lu Zhongde was one of them — this piece, set out on the board ahead of time, was to play an enormous part later.
+
+In the ‘purge of the Communists’ of the sixteenth year of the Republic, he grew busier and busier. The Nationalist Party had split into pieces — there was a faction in Guangzhou and a faction in Wuhan — and he had fixed on Commander-in-Chief Chiang in Nanjing. He was working up and down to turn that small secret organization of his into a formal secret-service apparatus. He cracked open a good many Communist underground organizations and gradually came to be valued.
+
+He had originally meant to draw the precociously mature Chen Qianli into that organization too; at the time he felt Chen Qianli was just the man he needed, material worth making. Then one afternoon he came home and saw that the door of the side room stood ajar, with someone talking inside. He pushed the door open and discovered, for the first time, that in his absence Chen Qianli had gone into Ye Tao's room. On the table were teacups, and a stack of newspapers — it was The Guide, the organ of the Chinese Communists. He had studied the Communists for years and could recognize such papers at a glance. He recognized, too, that it was the final, suspended issue of that July, carrying the Communist Central Committee's manifesto on the situation. He felt at once a certain disappointment, but said nothing much, only this one sentence to Chen Qianli: from now on, do not go into Ye Tao's room.
+
+Later, as the Party Affairs Investigation Section gradually took shape, Ye Tao went with him to Nanjing. Keeping Ye Tao at his side, he felt quite at ease; this way she would not fall under Chen Qianli's influence. He did not want his daughter to spend her life working in a secret-service apparatus — that life full of scheming and intrigue did not suit her — and perhaps at some fitting moment a fitting man would appear at her side, and then he could be wholly at peace. It was another year before he discovered that Chen Qianli had, in fact, followed her to Nanjing too.
+
+A wind blew across the front of the hall. Ye Qinian took a handful of tangerine-red cakes and put them in his mouth, chewing hard.
+
+“She lay in the soldiers' shelter-vault of the old city wall, the bullet in her back; to her dying moment she never knew who had fired the shot —”
+
+“You never found out who fired it?”
+
+“Who else could it have been but Chen Qianli?”
+
+“If he was the one who lured Ye Tao out, why would he fire a shot at her?” Old Meng seemed not to agree with Ye Qinian's inference.
+
+“To reach their ends, what is there they would not do?”
+
+“Then what exactly was his end?” Old Meng's head drooped; he felt Ye Qinian seemed somewhat agitated. His eyes half shut, he had long grown used to chatting with Ye Qinian in this way: using only the smallest part of his attention, his ears listening, now and then answering a word or two, while the greater part of his mind seemed to have sunk into a kind of dormancy.
+
+“After Ye Tao came to Nanjing she gradually became obedient. At the Zhanyuan we often held study classes, having those whose thinking had turned — who had broken with the Communists — stand up and lecture the others. Every so often we would also hold debates. We would take two or three people, gather them together, and spend a few months studying the various Communist documents. Then at the meeting we would seat them on the left of the platform and everyone else on the right. Those on the left would use the Communists' whole theory to debate against those on the right. We did not require the right to win; those seated on the left of the platform could, as far as they were able, press hard and leave their opponents with nothing to say.”
+
+Old Meng showed a smile, as if he found it highly amusing that Ye Qinian should have brought the style of a student society into the Special Operations Headquarters.
+
+“At meetings of this kind, anyone from Headquarters who happened to be in Nanjing had to sit below and listen. Ye Tao took part every time, never once absent. I thought she had forgotten Chen Qianli, thought she had forgotten those dangerous ideas along with him.” Ye Qinian could not help sinking into gloom.
+
+“But they do not forget. A year later Chen Qianli came to Nanjing too, and they came looking for her. They deliberately waited a year before coming, so that I would drop my guard — and sure enough I grew careless. I even thought that, after this stretch of time, perhaps Ye Tao might instead bring some positive influence to bear on Chen Qianli. Only now do I understand: the effect I could have on Ye Tao was perhaps not equal to a single word from Chen Qianli. A girl of that age…”
+
+“If you truly only wished to keep Ye Tao from Communist influence, why not deal with it decisively, forbid them to see each other? I fear you still harbored a bit of selfishness,” Old Meng said mildly.
+
+“They worked away at Ye Tao, but their real target was me.” Ye Qinian's tone turned. “It was only later that I saw it clearly — they meant, through Ye Tao, to reach their tentacles into the Zhanyuan. By the time I saw this, it was already too late. In a few short months Chen Qianli was coming and going in the Zhanyuan as if it were empty of men. My daughter, and her young man — no one in the Zhanyuan dared offend either of them.”
+
+“With your thoroughness and caution, how could you have discovered it so late?” Knowing Ye Qinian as he did, Old Meng did not for a moment believe he would be so negligent.
+
+Ye Qinian said he had been too busy. The Party Affairs Investigation Section was growing by the day, and he was eager to reach its tentacles into every part of the country. He had to oversee the campaigning himself — establishing sub-stations, choosing cadres, assigning personnel, checking the communications links, maneuvering with the local power-holders. Every hour he was waiting for telegrams from all over; he took the train to Shanghai, and later, once there was an airfield, he often flew to Guangzhou.
+
+The work he truly cared about all had to do with the Communists. Those students he had sent out in the early years were now playing a great part. Every month the Party Affairs Investigation Section would crack open one or two Communist underground organs. The more his superiors trusted him, the heavier he felt the pressure.
+
+But gradually, strange things began to happen. Intelligence arrived in good time and the plans were meticulous, yet the operatives who rushed to the scene to make the arrests grasped at empty air. In Shanghai, certain important Communists who had plainly already been taken to the police station would, the next day, be released on some pretext. Communist armed men could even hijack the transport on the way to prison. How did they know the exact escort route? Several agents planted within the Communist ranks were rooted out and eliminated. There were two Communist defectors who, because he had handled matters swiftly, had never been exposed at all; he had sent them back to go on pretending to serve their old masters, but before they could bear fruit the other side discovered them. He realized that something had gone wrong inside —
+
+“In the spring of the eighteenth year of the Republic, we began to sense there was a leak inside. Little by little I fixed my focus on Chen Qianli. It was obvious: Ye Tao was in the confidential room and had access to every incoming and outgoing telegram, report, and interrogation record. Whenever I was away from the Zhanyuan, Chen Qianli could go there at any time. I had people observe, and gradually worked out the pattern: every internal leak occurred on the second or the third day after one of his visits.”
+
+The thought of it stirred anger in Ye Qinian in spite of himself. “Before the Dragon Boat Festival that year, the gravest leak of all finally happened. Our work in Guangzhou had achieved a major breakthrough: we had seized Ouyang Min, the Communists' special-committee secretary. But the very next day, when we had laid out a plan for a general roundup, meaning to take the whole of Guangdong's Communist underground organs in one net, we found that most of the Communist personnel and organs connected with Ouyang Min had already withdrawn.
+
+“By then I had already begun to guard against them. I went to Guangdong, but did not tell Ye Tao. The arrest of that Ouyang Min in Guangzhou was done in the strictest secrecy. I forbade them to use the wireless to report to Nanjing; I meant to delay the report of this victory, and no wireless was to be used without my leave. Yet the news leaked all the same.
+
+“It came out afterward that someone had gone to the airfield in the name of the Party Affairs Investigation Section and checked the confidential passenger list, and had wired the Guangzhou Garrison Command to confirm my whereabouts. Soon after, the wireless of the Investigation Section's Guangzhou station received a strange message — an order issued in my name, using my own exclusive cipher, requiring the Guangzhou station to report on what had happened the night before.” At this point Ye Qinian was almost grinding his teeth.
+
+Old Meng rose to his feet — perhaps thinking to take the air in the courtyard, perhaps unwilling to hear these secrets of the Party Affairs Investigation Section; but at the door he turned back.
+
+“So Ye Tao borrowed your cipher, used the wireless, and was not in the least afraid there would be a leak inquiry afterward. Seen from this, Ye Tao believed you would not really have her arrested.”
+
+“The order was of course not sent from me — I was myself in Guangzhou. Whoever sent the telegram seemed to know my habits perfectly: I dislike lodging in the sub-station offices. They knew that in the small hours I would surely be asleep somewhere, and seized the chance to wire the Guangzhou station. The man receiving the telegram there assumed I had quietly left and gone back to Nanjing, and so honestly wired back to report that, having captured that Communist chief, they were interrogating him through the night at the station, and adding that the interrogation might be on the verge of a breakthrough. The station chief probably thought that with that line added, I would be very pleased to hear it. When a thing like that happened, of course I was furious. So many men, so many years of work. But because it touched Ye Tao, I had to move quietly. I gave no sign, and guessed that Chen Qianli would surely come again. The next time he appeared in the Zhanyuan, I meant to have him quietly killed. Then Ye Tao would be safe, and no one would ever know what she had done.”
+
+“And no one would ever know that Ye Qinian's daughter was in league with the Communists,” said Old Meng, his eyes half closed, as though he were dozing.
+
+Ye Qinian shot him a glance, anger in his face, but went on all the same: “Two days later he came, sure enough. I had long since given word to the guardhouse at the gate to let him in. When he came out again, the assassin lying in wait behind the rockery followed him. I thought that with that, the matter would be finished. That was the finest killer in the Zhanyuan, a master of both pistol and dagger; setting him to kill Chen Qianli was like crushing an ant. It was pouring rain that day, and I sat alone in my office waiting for the killer's good news — but I waited half the day and no word came from him. Two hours later I went to the confidential room, and the women there said Ye Tao had gone out, that Chen Qianli had telephoned but had not come into the room. I knew something was wrong: the two of them had long since planned to flee, and Chen Qianli had come to fetch her. They must have realized I would certainly discover the Guangzhou leak. I sent men out at once to search, and in the street we found the killer's body — in the rain it had toppled into a corner of a wall and gone unseen. I had them search the whole night through, and it was not until the next morning that we found Ye Tao, lying in the soldiers' shelter-vault of the old city wall at Shence Gate.”
+
+Old Meng could not help asking him: “And what was the final conclusion of the matter?”
+
+“They had found the killer, knew this trick of mine had been seen through, and to cover the truth and cut the trail, they shot her in the back and murdered Ye Tao.”
+
+“And the public version?”
+
+“Ye Tao, a clerk of the confidential room of the Party Affairs Investigation Section, was kidnapped by the Communist underground; because she refused to divulge the secrets of Party and state, she was murdered, dying a martyr's death.”
+
+“Such a great commotion, and yet you managed to smother it over. In the depths of your terrible grief, you could still calmly clear away the wreckage —”
+
+Ye Qinian's face went iron-gray; he raised his eyes and fixed them on Old Meng, and in that instant a murderous impulse stirred in his heart. This old man had long ago lost the wish to live; perhaps he could grant it to him.
+
+Why he kept this old man, sometimes even he himself was in a daze about. They had never been friends; to tell the truth, he had never thought he needed a friend at all. Perhaps he simply took Old Meng for another self, telling him the secrets in his heart as though talking to himself. Without this, he might go mad. This old man knew too many of his secrets; perhaps one day he would kill Old Meng, as one kills another self. He knew that Old Meng often deliberately needled him with his words, as though he were weary not only of the world outside Xiaotaoyuan but of Xiaotaoyuan itself, and so kept mocking him, jabbing at his sore spots, to give him a reason to do it.
+
+“And what else would you have me do? Sink into numbness in the grief of a lost daughter? Or, like you, hide away in Xiaotaoyuan, deceive myself, imagine I can keep clear of the red dust of the world and forget it all?”
+
+“When venom and rancor attack the heart, what use is revenge, is killing?”
+
+“I mean to kill them, not to avenge a private grudge, but so that they will not go on luring young people astray.”
+
+“Young people are not so easily fooled and led astray. It may be that Ye Tao and Chen Qianli took the other road precisely because they did not wish to be fooled.”
+
+“They were courting their own deaths!” Ye Qinian was almost screaming. “Before them lay only two roads: one to life, one to death. The fate of China, the fate of these young people, Ye Tao's too — there was no third road. But they killed Ye Tao; it was the Communists who killed Ye Tao, and they must pay the price.”
+
+Old Meng cut Ye Qinian off: “Young people — give them only time, and even if they take a wrong turn for a while, they will always find the right direction again. It is rather people like you and me who, with a few grand slogans — those who submit shall flourish, those who resist shall perish — struggle and grab, all for nothing but power. To kill their ideals, you go and kill the young people, kill Ye Tao. Those whose ambition burns hottest take their pleasure in cunning and craft, and in the end cannot escape being devoured by it in turn. In these years your wife has left you and your child is dead; you too ought to look into yourself.”
+
+“Hold your tongue!” Ye Qinian roared, then lowered his voice again. “A man cultivates himself in order to live well, not to court death. Later you took part in the Third Party's activities, and out of regard for our old friendship I pulled you out. I thought that living here in Xiaotaoyuan you would slowly change your nature; I never imagined you would still be so heterodox, still set yourself against us. You call it the ambition for power; I call it holding the world in one's heart — what is the difference? Who makes the laws? Who holds the army? Who is the master of this land? What sort of men do you think those people are? What sort of men do you think all those people outside Xiaotaoyuan are? Heaven and earth are not benevolent; they treat the ten thousand things as straw dogs. The strong are not benevolent; and whoever pities himself, let him go and be a straw dog!”
+
+Ye Qinian grew calm. He was thinking that in a little while he must have Secretary Ma send men to keep watch over Xiaotaoyuan.

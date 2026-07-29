@@ -114,3 +114,13 @@
 百老汇
 # 两个字 = "those two characters" (counts Chinese graphs of a term, e.g. 撤离; not a quantity that transfers into English)
 两个字
+# 八仙桥 = Baxianqiao ("Eight Immortals Bridge"; 八 is part of the place name, not a count)
+八仙桥
+# 四分五裂 = "split into fragments / falling to pieces" (idiom; 四/五 not counts)
+四分五裂
+# 成千上百 = "hundreds upon thousands / a great many" (idiom; 千/百 not exact counts)
+成千上百
+# 王八蛋 = "bastard" (abuse; 八 is part of the idiom, not a count)
+王八蛋
+# 千爱 = Chiai-li / Chiai Road (千爱里/千爱路, a Hongkou place name; 千 is part of the name, not the count 1000)
+千爱

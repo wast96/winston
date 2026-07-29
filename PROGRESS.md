@@ -833,3 +833,103 @@ ch27 1; class="dateline": 0/0).
 scripts/build_reading_epub.py out/thousand-li.epub: 27 of 37 units translated (epigraph + ch02 to
 ch27), 176 notes. qa_epub.py: PASS (47 files, 42 documents; 176 references = 176 bodies = 176
 backlinks; numbering sequential in reading order; all links resolve).
+
+## Batch B10 (ch28 Xiaotaoyuan, ch29 The Dyeworks Drying Ground, ch30 The Yangzhou Master)
+
+Three chapters, 223 paragraphs (ch28 109, ch29 46, ch30 68). Parity clean on all three;
+check_numbers clean on all three after the fixes below. The batch cuts three ways on the same
+day (the fourteenth of the first month, the eve of the Lantern Festival). ch28 is the enemy's
+interior: Ye Qinian rides into the Settlement, plants the coded newspaper advertisement that will
+draw Haohan onto the hook, drops "Xi Shi"/Lu Zhongde after a flashback of their night meeting,
+then withdraws to his hidden peach garden Xiaotaoyuan to pour out to Old Meng (a retired assassin,
+his only confidant) the whole backstory of Ye Tao -- her Beiping years, the Guangzhou leak she ran
+using his cipher, the killer he set on Chen Qianli, and her death in a soldiers' shelter-vault at
+the Shence Gate -- ending in his Laozi-quoting creed of the strong. ch29 is Chen Qianli's counter:
+he decodes the advertisement, escapes the Menghua Street trap over the dyeworks drying ground
+(killing two agents), keeps up the fiction before Lu, then walks into the Zhaojiabang coal-yard
+ambush laid for him and cuts his way through it to reach the pinned Lin Shi and Li Han. ch30 is
+the human cost: Chen Qianyuan and Dong Huiwen spend a lovers' day (Hongkou Park, the Scotto Cup
+football, the flashback of how they met over a Ma Zhenhua play), then the Yangzhou-master dinner
+at Dong's father's table -- the Three Heads Banquet -- until You Tianxiao and the detective squad
+break in to take them.
+
+### Checks run
+
+- Parity (check_structure --pairs): ch28 109|109, ch29 46|46, ch30 68|68, all OK.
+- Numbers (check_numbers --noise check_noise.txt): all three clean. One root-cause patch in
+  check_numbers.py: added "nil"/"zero" = 0 to WORD_NUM, so the football score 一比零 ("one to
+  nil") is fully accounted (the source prints 零 and English scores it "nil"). This only ADDS a
+  spelled-zero mapping; it cannot mask a drop. Do not revert. New noise entries (non-quantities):
+  八仙桥 (Baxianqiao, a place name), 四分五裂 (idiom "in fragments"), 成千上百 (idiom "hundreds
+  upon thousands"), 王八蛋 (abuse, 八 part of the idiom), 千爱 (Chiai-li / Chiai Road place name).
+  Real quantities fixed in the prose, not waived: rendered 两个人 as "two of them" in ch29 (kept
+  the count as a figure) and 成千上百条蓝布 as "hundreds upon thousands of lengths of blue cloth."
+- Blind double-translation (subagent, separate context) on nine argumentative/lyrical passages
+  (ch28 the Ye Qinian / Old Meng debate incl. the fascism paragraph and the closing Laozi tirade;
+  ch30 the first-meeting flashback and the football-field open). No substantive divergence from
+  the shipped text. One fidelity correction taken from it: 史考托杯 reads phonetically as "Scotto"
+  (史考特 would be "Scott"), so "the Scott Cup" was changed to "the Scotto Cup" everywhere (prose,
+  scenes.json break anchor, footnote).
+- Round-trip back-translation (subagent, separate context) on the same nine passages: the Chinese
+  round-trips to the source with no omissions. The subagent's flagged "weak spots" were all its
+  own hanzi guesses for romanized names/leagues, not defects in the English.
+- Random-sample deep audit (~2% : ch28 34, ch29 14 and 42, ch30 46 and 48): verbatim quotation and
+  completeness confirmed. One lexical refinement: 鮰鱼 rendered "river catfish" (was "gray-fish").
+- Faithful, complete quotation (check 1): guaranteed by make_bilingual.py, which reads the source
+  paragraphs verbatim from data/src; parity (check 4) is the mechanical backstop.
+- Consistency vs scholarship (check 7): every historical footnote fact-checked by web subagents
+  against Wikipedia, Baidu Baike, government and academic sources; each note states real vs.
+  invented and corroborated / uncorroborated / contradicted. No AI-written sources used.
+
+### Notes added (19; running total 195)
+
+ch28 (8): Chiang Kai-shek's slogan 攘外必先安内 (real; corroborated); the extra-settlement road
+disputes and the Lai'an Li case (real; corroborated); Huangniqiang, the real Xianfeng-era peach
+locality (corroborated), paired with a note marking the walled garden Xiaotaoyuan itself as the
+novel's invention (its name echoing Tao Yuanming's Peach Blossom Spring); the Zhuangyuanlou /
+Ningbo tangyuan (cuisine real; the specific restaurant carries a 1938-dating caveat, flagged);
+the soldiers' shelter-vault 藏兵洞 in the Nanjing wall at the Shence Gate (real; corroborated);
+the Third Party / Deng Yanda (real; corroborated); the closing Laozi quotation "Heaven and earth
+are not benevolent... straw dogs" (Dao De Jing ch. 5). ch29 (2): the National Products Market /
+国货运动 (real); the French tramway company (real) with the "first-and-third-class, no second"
+detail flagged as the novel's characterization (uncorroborated; early trams were first/second).
+ch30 (9): the Uchiyama Bookstore (real; Lu Xun's haunt); Chiai-li and its cherry-blossom name,
+with the "English sound of the cherry blossom" derivation flagged as folk etymology
+(uncorroborated); the Ma Zhenhua 1928 suicide-and-stage-drama (real; corroborated); the Settlement
+football scene / Scotto Cup / Jinan University (league and Jinan real; the named cup and Lux club
+uncorroborated); the Zhengjia wooden bridge (real); the Lantern Festival (real); Hart Road / Robert
+Hart (real); standard-gold speculation 标金 (real); the Yangzhou "Three Heads" of Huaiyang cuisine
+(dishes real; the named guild plausible but unverified). Not re-noted (checked glossary + grep of
+earlier reading files for first appearance): Zhaojiabang (ch11), the Shence Gate as a place (ch05
+Xuanwu Lake note -- the new note is about the 藏兵洞 feature), Hongkou Park (ch09), the Women's
+Normal University / Duan Qirui (ch26/B09), The Guide / 向导 (ch04), Bukharin's ABC of Communism
+(ch16), Dai Jitao / 季陶 (ch22), Chen Guofu (ch13 Mr. Lifu note), the 1927 purge (ch09 April
+Twelfth), Nekrasov (ch12), Miss Tao (ch04), the Zhanyuan (ch03), the Party Affairs Investigation
+Section (ch03).
+
+### Glossary rows added
+
+- people: 孟老 Old Meng (fictional), 董师傅 Master Dong (fictional), 邓演达 Deng Yanda (real),
+  穆处长 Section Chief Mu (fictional). (董慧文, 陈千元, 陶小姐, 李汉, 林石, 崔文泰, 陈济棠 already in
+  the ledger; renderings verified against it.)
+- places: 黄泥墙 Huangniqiang (real), 小桃源 Xiaotaoyuan (fictional garden), 千爱里 Chiai-li (real),
+  赫德路 Hart Road (real), 郑家木桥 the Zhengjia wooden bridge (real), 界路 Boundary Road (real).
+- organizations: 内山书店 the Uchiyama Bookstore (real), 法商电车公司 the French tramway company
+  (real), 暨南大学 Jinan University (real).
+- terms: 标金 standard gold (real), 第三党 the Third Party (real), 越界筑路 extra-settlement road
+  building (real), 藏兵洞 soldiers' shelter-vault, 攘外必先安内 (Chiang's slogan, real).
+
+### Scene typography
+
+The source again carries no dividers. ch28: 0 datelines + 2 breaks (into the yesterday-evening Lu
+Zhongde flashback; back to the present as Ye Qinian leaves for Xiaotaoyuan). ch29: 0 datelines +
+0 breaks (one continuous chase, following Chen Qianli through the day). ch30: 0 datelines + 3
+breaks (into Dong Huiwen's flashback of the first meeting; back to the football match; the cut from
+the match to the evening dinner at Master Dong's). Anchors verified against the reading files and
+confirmed in the built EPUB (grep class="brk": ch28 2, ch29 0, ch30 3; class="dateline": 0/0/0).
+
+### Build
+
+scripts/build_reading_epub.py out/thousand-li.epub: 30 of 37 units translated (epigraph + ch02 to
+ch30), 195 notes. qa_epub.py: PASS (47 files, 42 documents; 195 references = 195 bodies = 195
+backlinks; numbering sequential in reading order; all links resolve).
