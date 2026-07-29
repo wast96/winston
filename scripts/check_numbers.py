@@ -81,7 +81,11 @@ NOISE = [
     r"[一二三四五六七八九十百千零]+分之[一二三四五六七八九十百千零]+",  # 二分之一, fractions
     # --- measure words: a bare 一 + classifier is "a/an", not the count 1 ---
     r"一[艘條条頂顶隻只個个位群把張张片口指邊边旁時时下陣阵壺壶碟種种番場场股家棵套幅]",
-    r"一[輛辆眼躬支絲丝聲声定天次間间驚惊槍枪動动言樣样路批封面團团句道年身手筆笔遍]",
+    # Lookbehind added in B07: without it, the 一[天次年…] measure-word stripper
+    # eats the 一 out of a teen/compound like 十一天 (11 days) or 三十一年
+    # (31 years), orphaning 十/三十 read as 10/30. Mirrors the B03 lookbehind on
+    # the 一[日夜时…] class. A bare 一天/一次/一年 (no preceding digit) still strips.
+    r"(?<![零一二三四五六七八九十])一[輛辆眼躬支絲丝聲声定天次間间驚惊槍枪動动言樣样路批封面團团句道年身手筆笔遍]",
     r"[一不][旦時时般點点些]",
     r"[幾几數数][盞盏輛辆個个位十百千萬万條条艘句步進进層层次口杯天年分]",
     r"[幾几數数][十百千]",                          # 幾十/數百 "some tens/hundreds"
@@ -199,6 +203,14 @@ def spelled_numbers(low):
             found.add(oval * 100)
         if re.search(r"\b%s thousand\b" % ones, low):
             found.add(oval * 1000)
+    # "<ones> hundred and <tens> thousand" composes a Chinese 万-compound written
+    # as N万 (B07: 二十五万 = 25万 = 250000 -> "two hundred and fifty thousand").
+    # spelled_numbers otherwise only reaches "fifty thousand" (50000) and
+    # "two hundred" (200), never their sum.
+    for ones, oval in ONES.items():
+        for tens, tval in TENS.items():
+            if re.search(r"\b%s hundred(?: and)? %s thousand\b" % (ones, tens), low):
+                found.add((oval * 100 + tval) * 1000)
     return found
 
 

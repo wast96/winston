@@ -73,3 +73,22 @@
 八婆
 # 两公婆 = Cantonese for a married couple / "the two of us as man and wife" (两 idiomatic, not a count)
 两公婆
+# 十八甫 = Shibafu, a Guangzhou Xiguan street name (甫 = old street-market unit; 十八 not a count)
+十八甫
+# 下九甫 = Xiajiufu, a Guangzhou Xiguan street name (甫 = old street-market unit; 九 not a count)
+下九甫
+# 四四方方 / 四方 = "four-square / square-cornered" (idiom, 四 not a count). The
+# built-in 四[方…] rule eats the inner 四方 of the reduplicated 四四方方 and
+# orphans an outer 四, so strip the residual 四方 too.
+四四方方
+四方
+# 七姑 = Qigu (Seventh Aunt), the amah's name (七 is part of the name, not a count)
+七姑
+# 两样 = "different / not the same" (idiom; 两 not the count 2)
+两样
+# 九龙 = Kowloon, the Hong Kong place name (九 is part of the name, not a count)
+九龙
+# 零散 = "scattered / odd (passengers)" (零 is not the quantity 0)
+零散
+# 零碎 = "odds and ends / bits and pieces" (零 is not the quantity 0)
+零碎

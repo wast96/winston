@@ -1,0 +1,323 @@
+## The Tanglong Door
+
+The Xingchang Apothecary was only a secret liaison station; it would not do to linger there long. The few of them talked in low voices upstairs, looking for all the world like men taking tea and idle chat, though the matters they discussed were of the gravest urgency. How to pass messages, how to make contact, how to hire a boat and go aboard to meet the incoming people, and how to arrange the secret lodgings—having settled all this to their satisfaction, and agreed to come the next morning to hear Old Xiao's news, Ling Wen and Yi Junnian made ready to leave.
+
+“You said one could find old newspapers on Newspaper Street?” Boss Mo and his wife were seeing the two of them to the door when Ling Wen, unable at last to hold it in, put the question once more to Mrs. Mo.
+
+“Just ahead is Guangfu Road,” said Boss Mo, pointing toward the eastern end of Jianglan Street. “There are a dozen or more newspaper offices there; you can only go and ask around.”
+
+“Those papers chase shadows and clutch at wind; they'll yield no clue. To look for Comrade Long Dong, the best way is through the organization.” So Yi Junnian said in a low voice, as the two of them turned onto Guangfu Road.
+
+“The paper may give the address of that contact point.” She knew there was sense in what Yi Junnian said, and yet, she could not have told why, she simply felt that she ought to find the place and see it with her own eyes. For in all these years it was the one place where she could be truly certain Long Dong had once been.
+
+Ling Wen knew what it was that gnawed at Yi Junnian. The whole way, from the moment they boarded ship for Hong Kong, in all he said and left unsaid, he had been reminding her: the mission was what mattered; a great enemy stood before them; they must make no needless complications.
+
+That night at the Maochang coal yard, Chen Qianli too had told her that there had been no word of Comrade Long Dong all this while; very likely he was in some place of danger, and the strictest secrecy must be kept. If that were so, then once she came to Guangzhou she must not go asking about everywhere, or she might bring on risks past all reckoning. So they all knew perfectly well that, once in Guangzhou, she would surely find some way to ask after Long Dong. Then why did none of you stop me? She was almost angry.
+
+“I know what you're thinking. The trouble with you is that you're too selfish,” she said.
+
+“Newspapers as old as that, from so many years back—what do you expect to find?” Yi Junnian too seemed worked up.
+
+Before they set out, Lin Shi had suggested that for the Guangzhou trip they pass themselves off as a married couple. Like any well-to-do merchant pair, they had booked through a travel agency their tickets on the Jardine steamship company's Fusheng, a second-class saloon cabin, and the two of them lodged in a single stateroom. They had played husband and wife on many a mission, but to be together morning and night like this, sailing the open sea, was the first time.
+
+But this had put Yi Junnian in no more favorable a position; Ling Wen found that the closer she was thrown to Old Yi, the more she felt there was this and that wrong with the man. He did not even seem so steady and seasoned as she had always taken him to be. Long Dong, in the old days, even at moments of crisis, would eat when it was time to eat and sleep when it was time to sleep. But in three days aboard ship, Yi Junnian never once slept a sound night through.
+
+Once, waking in the dead of night, she saw him by the moonlight of the porthole, propped against the head of the bed, thinking she knew not what, a cold light glittering in his eyes; it gave her a start. Even asleep he often ground his teeth, and once or twice he even cried out in his dreams. It was as well that the second-class cabin had two beds. Surely, she thought, a tried and tested underground worker ought not to sleep so badly.
+
+There by the roadside stood the offices of the Guohua Bao, a knot of newsboys pressed before the door, waiting for the fresh papers to come out. That was the Guohua Bao's trick of the trade: the day's paper came out in two runs. The first run was the afternoon before; by night, once all the day's news was in, they would quietly pull out the pages printed early and swap in the day's news—so that a single daily served as an evening paper too.
+
+“Here are the newspaper offices—what is it you can see here?”
+
+Yi Junnian wanted only to hold her back: to go searching wildly up and down the Guangzhou streets was both useless and dangerous. But Ling Wen seemed possessed; she paid no heed at all to what he said. Neither tired nor thirsty, she asked from door to door along Guangfu Road. For the first time Yi Junnian saw the stubborn streak in this woman writer, and he wondered whether he had not somewhat misjudged her before; the Ling Wen of this moment looked full of fierce life, sweat on her brow, her eyes very bright.
+
+He stood at the roadside smoking while Ling Wen went into yet another newspaper office. By the time his cigarette was done she had come out.
+
+She told Yi Junnian she had it: on Shibafu Street was the Guangzhou Press Association, and beside it a clipping bureau, which kept press-cuttings sorted by category for reporters to look up old matters. For a great paper like the Guangzhou Republican Daily, every back number, every page, was preserved there.
+
+He had not expected Ling Wen to bring off a thing like this; he thought he might have underrated her. He had taken her before for merely a modern young woman given over to her writing, who had followed Long Dong into the revolution on a rush of enthusiasm, and who, once Long Dong vanished, had lost her bearings. Now it appeared that, whenever she chose, she could show a capable side at once.
+
+“You're quite capable, after all,” he said with a sigh. “Where feelings are concerned, a woman is very capable indeed.”
+
+Ling Wen took no notice of him. She knew what was in his mind—though she could not be sure how much of this present manner of his was real and how much a feigned displeasure. That he was taken with her had always been plain enough; before her neighbors, before comrades who knew them both, even before the shop-hands near her home, he had never troubled to hide his longing for her. Yet Yi Junnian had never seemed a man good at showing his feelings; more often than not, the harder he tried to show them, the more unreal he made them seem.
+
+To be sure, Old Yi was after all a man of wide experience, who could always hit on a way through a difficulty, while she herself was quick to fret. On the ship, for instance, she kept feeling that certain people looked suspicious, appearing now and then round about them with ill intent in their faces. Old Yi, unhurried, made a quiet inquiry or two and came back to tell her there was nothing in it. One of them was most likely running from his debts; another was so shortsighted that he had smashed a lens of his spectacles the moment he came aboard.
+
+When she had heard Old Yi out, she drew on a little slip of paper a pair of spectacles with a broken lens; Old Yi, seeing it, took it and tore it up.
+
+On Shibafu Street there was indeed a Press Association, with a door opening beside the arcade, and within it the clipping bureau. To consult the cuttings one had to register one's particulars and pay a few silver jiao. The catalogue was minutely classified: the Guangzhou Republican Daily, local news, Republic Year 18. The volume of cuttings was fetched from its shelf—one great tome—and set on the table by the window, raising a cloud of dust.
+
+The date of the item's publication, marked on the left of the scrapbook, was the thirteenth of June, in the eighteenth year of the Republic:
+
+Our report. Guangzhou, lying at a strategic crossroads, has of late seen frequent Communist activity. The Garrison Command and the Municipal Public Security Bureau have for days past pressed their searches with severity, and Communist organs have been broken up one after another by the military and police. On the evening of the ninth of this month, the Garrison Command, acting on prior secret information, ascertained that No. 23, the Rear Street of Tianguan Li, on Haoxian Road, was a secret base of Communist elements, and dispatched men to surround the place, discovering three Communists on the spot. These refused to surrender and, cornered, put up a desperate resistance; after exchanging fire with the military and police present for some minutes, one was shot dead on the spot, one was taken, and one made his escape.
+
+Our paper has learned that the man arrested was Ouyang Min, secretary of the Communists' Special Committee, and the man shot dead was Lu Zhongde, a clerk of the Public Security Bureau's Special Detective Section—one who, being himself a Communist, had long lain concealed within a confidential department, working grievous harm to the Republic; his execution on this occasion is in truth a matter to gladden every heart.
+
+Another report states that the man who escaped was Long Dong, chief of the Communist intelligence network, who went underground after the Guangzhou revolt of Republic Year 16, his talons reaching deep into the Guangzhou government and every military and police organ, the aforesaid Lu Zhongde being one of his secret members. It is understood that the Garrison Command has already had a likeness drawn of him and distributed everywhere with orders for his strict pursuit, and that this Communist will assuredly be seized and brought to justice.
+
+The people who lived along Haoxian Road still called it by its old name, Haoxian Street—the Moat-Bowstring, the same sound written with other characters—for it ran beside the city's defensive moat and looked like the string of a bow. Haoxian Road lay near the Xiaobei Gate; Yi Junnian and Ling Wen got down from their rickshaws on the bank of the East Moat and, beginning from the eastern end of Haoxian Road, searched their way inward.
+
+The streets and lanes crossed and tangled; among the wards there were no signboards to point the way. Save for the local inhabitants, outsiders indeed rarely came here.
+
+From the mouth of a lane came a young man, cleanly dressed, a cloth satchel slung across him; the satchel was square-cornered, as if it held books—a student, by the look of him. Ling Wen stepped forward and asked him for Tianguan Li. He could, sure enough, understand the speech of an out-of-province person, and pointing back at the lane he had just come from, told her to go in and walk to the end.
+
+The lane was narrow and deep, walled on both sides by the backs of houses, every door shut fast. The two of them walked to the end of the lane, and before them opened a wide patch of empty ground, in the middle of which stood a big-leaved banyan, new buds just breaking, a few yellow leaves already on the ground beneath.
+
+Ling Wen saw a wooden plaque hung at the corner of a doorway on the right; looking from afar, it was indeed Tianguan Li, and she made to go over—but Yi Junnian walked on ahead.
+
+Ling Wen called him back: “It's here.”
+
+Yi Junnian halted, glanced to the right, and said: “That's Tianguan Li. The place you want is the Rear Street.”
+
+“Shouldn't the Rear Street be behind the ward?”
+
+“You never can get your directions straight. Coming in from Haoxian Road, the Rear Street is simply farther north, isn't it?”
+
+Past the banyan and farther north lay a few mu of vegetable plots planted with mustard greens, and by the path stood a great earthen vat, from which, when the wind blew across it, came a foul smell. North of the plots ran a channel, a stone slab laid across it for a bridge; over the bridge was a cross-street, and Ling Wen, looking at the door-plates of the houses along it, found that this was indeed the Rear Street of Tianguan Li.
+
+And now, arrived at last, Ling Wen felt somewhat at a loss: what, after all, had she come here to see?
+
+The cross-street ran close against the channel, whose bed was yellow sand, tiny red fish swimming over the sandy floor. Perhaps, she thought, Long Dong had drunk of the water in this channel. What had truly happened that night, here in this Rear Street? The military and police had surrounded the house—how had he got away? And after his escape, where had he gone?
+
+“What did you two talk about, back in the other room?” She raised her head, aware that Yi Junnian was speaking to her.
+
+“What did Boss Mo's guest say to you?”
+
+“You mean Old Xiao, the one from Ruijin?” Ling Wen seemed just then a little abstracted, her thoughts adrift.
+
+“Yes—why so secretive about it?” said Yi Junnian, making out the door-numbers along the street as he spoke. “He came looking for Lin Shi to pass on some new mission?”
+
+Ling Wen nodded. She gazed at the houses along the Rear Street; all of them had strange doors. Where had she seen these doors before? How was it she felt she had somewhere seen doors made just like this?
+
+“The new mission—is it for us?” Yi Junnian was a little excited. On the ship he had said to Ling Wen: a task like setting up a courier line—why send him for it? Intelligence work was more his strength; as for buying ship tickets and renting a house, that sort of thing could be left to you women comrades, with Liang Shichao along at most to guard you. Ling Wen had thought at the time that he was still nursing his grievance over Chen Qianli's not making him head of their two-person team.
+
+“He didn't say what the mission was. It's a top-secret verbal message, to be delivered by mouth to Lin Shi himself.”
+
+“Then why did he tell you? This Old Xiao doesn't look like a novice, either.”
+
+“He is the Central Committee's secret courier; the message is most urgent and must be delivered face to face. He means to make the trip to Shanghai himself, and take ship together with us.” Seeing Yi Junnian press her with question after question, Ling Wen explained with patience.
+
+“That's a little against the rules. When each side is on a secret mission, to travel together is a grave taboo.”
+
+“We can pretend not to know one another.” Ling Wen took a few steps, scanning the streets and lanes about her, and all at once grew impatient. “Besides, since when are there so many rules? If we're to talk of rules, you ought never to have said those things to me, all this time.”
+
+What Ling Wen meant, Yi Junnian knew well enough; and at her saying it, the words he had been about to speak were checked in his throat.
+
+As dusk drew on, the setting sun lay along the flagstone road, and this stretch of the Rear Street grew lively, for a straight lane ran north from it to the main road outside. Two or three little shops had daubed on their walls the words for soy sauce, firewood, and fo sui; and one small shop sold nothing but cigarettes and rice wine. Ling Wen could not think what fo sui might be, until she saw someone within a shop light a kerosene lamp.
+
+Two or three children ran along the edge of the channel, clutching the ends of strings, and at the other end of each string floated a little paper kite; the kites would not fly high, but drifted on the light breeze above the channel bank. At the mouth of the straight lane stood a small table, on it a bamboo cylinder of oracle-lots, brush and ink, and an inkstone; round the table hung a length of silk cloth of no distinguishable color, on which was written “Plain Speech, Nothing Concealed,” with divination trigrams and hexagram-signs drawn about it. On a stool behind the table sat an old man, wearing dark crystal glasses in copper frames.
+
+Suddenly the old man spoke up, loud: “By your accents, you two are not from these parts?”
+
+“He can hear us?” said Ling Wen, somewhat startled, looking at Yi Junnian.
+
+“You've been talking the whole way, from a good way off,” said the old man, pushing the lot-cylinder forward. “You two are not yet married, I take it? Better draw a Wong Tai Sin oracle-lot, and see how your marriage fortunes stand.”
+
+“He can't hear a thing,” said Yi Junnian.
+
+Ling Wen turned to leave, but Yi Junnian took up the lot-cylinder, shook it a few times, and held it out to her, saying: “When in Rome.”
+
+Ling Wen drew one and handed it to Yi Junnian: it was lot number seventy-three.
+
+“The peach and plum of the three spring months are silent of themselves, yet cruelly beset by the clamor of birds in the failing sun.” The old man took up his brush and, as he spoke, wrote out the oracle-verse on paper; when it was done he handed it to Yi Junnian.
+
+“The peach and plum keep their silence; the dying sun torments; the birds set up their clamor. And on this lot—what is it you two would ask?”
+
+“This is an unlucky lot, is it not?” said Yi Junnian with a smile.
+
+“That depends on what is asked, and on who asks it. If it is marriage you ask after—by the lot, you must yet bide your time.”
+
+“I want to ask about a person,” Ling Wen said suddenly.
+
+“Which person would that be?”
+
+“I want to ask where he has gone.”
+
+“What is he to you? How long since you saw him last? From where did he go missing?” The old man put three questions in a row.
+
+“He is a kinsman. Three years ago he disappeared.”
+
+“Where did he go missing?” And when the old man saw that Ling Wen would not say, he went on: “By the lot, to seek him is rather to disturb him. Perhaps, after a while, he will come out of himself.”
+
+“It was here that he went missing.” Ling Wen hardened her heart and said to the fortune-telling old man: “Three years ago, in the Rear Street of Tianguan Li, there was a killing; someone was shot dead by the police. Do you know of the matter, sir?”
+
+The old man raised his head and looked at Ling Wen; the setting sun struck the dark-green lenses, and the light they threw back flickered and would not hold still. He said, unhurried: “You two are educated folk, I think? Along this Moat-Bowstring Street there have always been plenty coming and going. The Moat-Bowstring; why, that is only Haoxian Street written another way. Since ancient times heroes have met no good end: one general's fame is built on ten thousand rotting bones. In the great strike that made such a stir in its day, of the two hundred and fifty thousand who joined it, no small number came from the Moat-Bowstring. Look at the people in the street—there may well be, in this house or that, someone who in those days followed the Training Regiment in the attack—”
+
+“You seem a man who has seen something of the world, sir,” said Yi Junnian, cutting him short.
+
+“An old fortune-teller, half blind—what of the world can I have seen? It is all wind past the ear, no more.”
+
+Some woman or other, in a house unknown, was working against the coming dark; the loom clacked out its hurried, dogged sound, the wooden roller creaking as it turned, the batten striking home with a knock. Ling Wen turned to go, and the fortune-teller, who had said nothing for a good while, suddenly called her back: “That house is on ahead. They all say it is a house of ill luck; no one will live in it and no one will buy it, and the owners want no more of it—they have locked the door and set Qigu, who lives next door, to watch the place.”
+
+“Where might one find Qigu?”
+
+“Qigu is a self-combed woman, come from Shunde to Guangzhou to be an amah. Night upon night she trims the lamp and sits alone; spring comes and spring goes, and doubles her grief—” and as he spoke he broke into a line of song, and before its echo had died went on: “Qigu is old now, with neither son nor daughter; the owners, pitying her, let her mind the house. Once you are there you will see her plain enough—every day she keeps her door open and sits weaving in the front room.”
+
+They found No. 23, the Rear Street of Tianguan Li; the door was shut fast, the brick wall thick with moss. Ling Wen looked back at Yi Junnian and, seeing his face iron-gray, thought it strange and asked: “What's the matter with you?”
+
+Yi Junnian mastered his feelings: “Just to see this house, you've thrown all care for your safety to the winds.”
+
+Qigu was next door, her door open sure enough; by the daylight she sat within, weaving figured cloth.
+
+The ground here lay low; before the door two courses of stone had been laid, weeds covered the steps, and at the foot of the wall in the doorway a centipede crept slowly into the grass. Qigu stood on the steps to open the door, and behind her back Yi Junnian reminded Ling Wen, in Shanghainese, that the two of them had come to Guangzhou on business and wanted to rent a house.
+
+But Ling Wen had eyes only for that strange door. There were in fact three doors. The first, a screen door, was only half a door, a little over five feet high, so placed as to block the view of one standing before it; the middle one was a barred gate, but its round wooden bars ran crosswise—a wildcat lay sprawled along them, so that it looked like a ladder—and below were rollers, the track running half into the wall behind. Qigu gave it a push to the right; the gate did not budge, and Ling Wen stepped up and put out a hand to help her push.
+
+The third was the true house door, and within it lay the front room. Qigu could speak Mandarin; she had gone out to be an amah in her twenties and had followed her masters to many places. She meant to lead them through the front and back rooms too, but Yi Junnian drew out a silver dollar and sent her off, telling Qigu to go home and boil water, and that they would come over presently to drink tea.
+
+No sooner had Qigu gone than Yi Junnian said to Ling Wen: “Once you were in this street, you cast off all care. How can you go asking about everywhere like this?”
+
+Ling Wen, for her part, grew only more abstracted; there seemed always to be something about this house that struck her as not quite right.
+
+“I feel there's something odd about this house,” she said. What Yi Junnian feared most were those groundless intuitions of hers; in all these years he had never once overcome them. She seemed always to know beforehand what he was about to do; the moment he thought to say something to her, before ever he could get it out, she would break in and turn it aside. Those intuitions of hers—one could not, after all, say she was wrong.
+
+That day she had gone to Qin Chuan'an's clinic, and no sooner was she back than she told him: Lin Shi was sound; it was those three men pressing him to confess that were the strange thing. He asked her: which of the three had made the most noise about it? And she answered that, if she had to pick one of the three, it was Cui Wentai she thought most suspect. Yi Junnian thought that this was perhaps the very reason Chen Qianli had put Ling Wen in charge of the Guangzhou trip; Chen Qianli was no simple man.
+
+From the beam of the front room hung a row of straw mats, all riddled with moth-holes and cobwebs. Yi Junnian pulled a cord, and the whole row of mats swung back and forth, shedding a great deal of dust. The house was almost wholly bare; only a few broken tables and chairs were left.
+
+“Don't you think this Old Xiao came rather strangely?” Yi Junnian looked up at the straw mats; in the heat of summer they could be swung to stir the close, damp air of the room.
+
+“Why are you so interested in him? You've brought him up several times along the way,” said Ling Wen, a little impatient.
+
+“Comrade Ling Wen,” said Yi Junnian, changing his tone, “I must remind you that you seem to have forgotten we have come to Guangzhou on an important mission. Your mind is wholly on other things. To my thinking, Chen Qianli was somewhat ill-advised to put you in charge of this task.”
+
+“I think you've something to hide.” For some reason, since entering this house, Ling Wen had felt a faint disquiet.
+
+Yi Junnian's face changed; then all at once he sighed: “Is he so very hard for you to forget?”
+
+Ling Wen was checked a moment; standing in the dim front room, she said suddenly: “I feel that time stopped on that day—”
+
+She did not explain to Yi Junnian which day she meant. The day she was released from arrest and came home to find Long Dong gone? Or, further back, the last day she and Long Dong had met? Without knowing it she began to hum that Yiddish folk song, tum-bala, tum-balala—
+
+Qigu had boiled her water and asked them over for tea. Ling Wen had scarcely sat down before she asked Qigu: “Did something happen in that house, once?”
+
+“The year they built the great iron bridge over the Pearl River, they say Communists came out of that house.”
+
+“Did you ever see those Communists?”
+
+Qigu's mind was now clear, now muddled. When it was clear she was terse and to the point—one could see she had been a capable amah in her masters' house—but when it was muddled there was no telling what she meant. No, she had not seen them; she had not lived here then; she was not yet too old to work. That much, at least, Ling Wen managed to make out.
+
+“On this street, is there anyone who was living here in those days and has never since moved away?”
+
+Yi Junnian was watching her with a strange look in his eyes, as though he thought her mad.
+
+“Why do you ask me all this? Are you Communists?” There was really no telling whether Qigu's mind was clear just then or muddled. She began on the families that had moved away, counting them off house by house. Some of the families on the Rear Street had bought their land and built their own houses; some had rented the ground and put up dwellings on it; many had lived a few years and then moved on. The more Qigu talked, the less Ling Wen could understand what she was saying.
+
+Outside the sky had darkened, and Qigu was nearly asleep. The two of them quietly withdrew, took a kerosene lamp, and went next door again; as they reached the doorway, the wildcat bolted out from the front room.
+
+“This is called a tanglong door,” said Yi Junnian, drawing shut that ladder-like barred gate and shooting the bolt home.
+
+He told Ling Wen: “Outside the main door there are two more layers—this is the foot-gate, and this is the sliding bar. Guangzhou is damp; for those who live here, ventilation matters more than anything.”
+
+Wind blew in through the tanglong door, and the kerosene lamp flickered bright and dim.
+
+“Going about asking questions like this, you'll bring down trouble. I truly never knew you were a woman so apt to bring trouble on herself—even Qigu guessed you were a Communist.” Yi Junnian spoke as he walked further in.
+
+“I wonder what became of that Secretary Ouyang who was arrested; he might know where Long Dong went,” said Ling Wen absently.
+
+“Why don't you ask that Old Xiao whether he might know Long Dong's whereabouts,” said Yi Junnian, changing the subject outright.
+
+The words reminded Ling Wen that they still had their mission. Before this her mind had been in too great a turmoil; coming all at once to this place, she had felt a sudden agitation, as though after all these years she were for the first time so close to Long Dong again that she could almost reach out and touch him—but it was not so.
+
+Guangzhou was very dangerous; an out-of-province person was especially conspicuous here. This was Yi Junnian speaking. Walking about Haoxian Street the way you did today, a great many people have seen us; by tomorrow morning, perhaps, someone will report it to the detective squad—tonight, even. Have you forgotten what happened in Hong Kong? How dangerous it was! The least thing to rouse suspicion, and the enemy may find us out.
+
+On the Hong Kong wharf, British police had taken them into a room. She could not tell what the two of them had done wrong; they had thought through every detail, and the night before entering the harbor they had gone over it once more, running through all their stories several times—including, should the enemy find something amiss with their identities, the second line of defense, and the third line as well.
+
+The British police pulled them into two separate rooms, and when the Chinese constables came, the questioning began. Only after half an hour did the British let them go.
+
+Before their release they were locked together in the same room, and she asked Yi Junnian what had really happened. He answered that there might be some trouble with the shop-surety. To land from the Hong Kong wharf one had to submit a shop-surety; even to go ashore for a few hours only, the police station required proof of identity. Yi Junnian told her that the shop entered in the surety column of the papers they had brought this time had been used several times before, and had been noticed: “I imagine that the last time someone came to Hong Kong carrying it, they grew suspicious.” She asked him how, then, it had been resolved in the end. He said he had had them send a telegram to Shanghai, addressed to one of his own run agents, who served as an interpreter at a police station in the International Settlement.
+
+Carrying the kerosene lamp, they passed through the front room into the second hall, and went up to the upper floor by a staircase in the corner of the south wall.
+
+“What is there to find in an empty house? You have waited five years for him—how much longer do you mean to wait?” said Yi Junnian in a low voice.
+
+“So long as he is alive, there will come a day when we meet.” This second-floor room had windows on three sides and must be very bright by day; Ling Wen stood at the window looking out, and suddenly added: “And the revolution, too, will one day be won.”
+
+“Or perhaps the day you wait for will be the day of your death. Some things matter more now than in the time to come.”
+
+“I have no present—only a past and a future,” Ling Wen answered quickly; but on reflection this too was wrongly said. How could she have no present? Even now they bore the most important of missions—their group, and she and Yi Junnian, had come so far by ship to Guangzhou.
+
+Lin Shi had said: the courier line from Shanghai to Ruijin—its most vital and most dangerous stretch—the organization had entrusted to them. The rest of the way was all wild hills and empty country, where one need only beware of stragglers and roving bands; but from Shanghai to Guangzhou, the whole road was thick with soldiers, police, and secret agents.
+
+“I came here with you only to let you know what the past is,” said Yi Junnian, running a hand over the flower-stand that stood alone beneath the window. “Of the past nothing is left but dust; one breath, and it all scatters. How many people have we seen turn, in a few short years, into the past—into dust?”
+
+She had never seen Yi Junnian like this; his words were somewhat despondent, yet his manner was somehow keyed-up, like a man worn to the bone who has drunk a great deal. What was the matter with him? Something stirred in her heart.
+
+“What's the matter with you?”
+
+Yi Junnian suddenly reached out to touch her; Ling Wen warded off his hand and drew back half a pace. She thought he would try again, but she saw him slowly ease, take a cigarette from his pocket, and light it: “This damp, dark house makes one not quite oneself.”
+
+He thought a moment, then said: “In terms of organizational relations, this Old Xiao from Ruijin ought not to travel with us. We take our leadership from Comrade Lin Shi alone, along a single line, and we cannot reveal Comrade Lin Shi's movements to anyone else.”
+
+“He has come precisely to make contact with Comrade Lin Shi. He must pass on this message with the utmost speed. Principles can admit exceptions—did you not always say so yourself?”
+
+She did not care to keep persuading Yi Junnian on this point; she told him that Old Xiao's mission came directly from Comrade Shaoshan. The man had passed the recognition sign for verifying identity—a sign no one else knew, which Lin Shi had told her in secret before they set out.
+
+Now there was only one thing left for Yi Junnian to do, and he hesitated at it. He wanted to find himself a few more reasons yet. In this, perhaps, he was truly no match for Long Dong.
+
+He could never rid himself of that strange feeling—as though from somewhere unknown Long Dong were watching him all the while. Since entering this house the feeling had grown only stronger.
+
+Like the floor below, the upstairs rooms too were joined front to back. The second room was very small and had no windows, like a pitch-dark burrow.
+
+Going still further back, Ling Wen saw the stars in the night sky: it was a rooftop terrace, walled on two sides with brick to half a man's height. The night was not cold—the air held even a touch of warmth—and somewhere far off a dog was barking. She looked out beyond the wall, at the houses ranged high and low all around. One four-story building looked so flimsy in the night mist that it seemed on the point of toppling. The houses stood gable to gable, tiled roof to tiled roof, and a wildcat flashed across a ridgepole and was gone.
+
+Ling Wen thought: on that night, had Long Dong not been like this cat—flipping down below the ridgepole and vanishing from all sight ever after? The Nationalist agents could not find him; nor could even she.
+
+She let her mind wander a while, then turned—and saw Yi Junnian leaning against the west brick wall, watching her.
+
+She felt a kind of shock, and a kind of daze. Why was the picture before her so uncanny? Why did she have this sense of having seen it before? Through the gaps in the patterned brickwork she could dimly make out the door of the house opposite; so there were households, after all, that opened their doors onto the lane. What was it called—a tang-something door?
+
+The old banyan was thick with leaf—Guangzhou's banyans do not shed until spring, she remembered Yi Junnian saying earlier. Those two strange gable walls rose in a jutting ridge at the top, like a tongue thrust out, or like a pair of wok-ears. Where had she seen this scene before?
+
+Yi Junnian stood there, staring at her, the trace of a smile at the corner of his mouth looking forced. He was not smoking; and perhaps it was as well he was not, or he would not have struck that pose, leaning slantwise against the brick wall.
+
+It was a photograph—she could no longer quite remember when she had seen it. That was when she had only just come to know him. Yes: after they met in the bookshop, before ever she had finished that novel, that copy of February, he had come to find her. A neighbor from downstairs led him up and knocked at the door. She opened it and saw him standing there half-turned, like a caller who has come to the wrong door and is about to leave.
+
+The moment he was inside he told her he had come on behalf of the Party organization; he knew she was a secret Party member; he knew that Long Dong was her lover. On the strength of that one sentence she had believed him, for she had thought that by then no one knew this thing: that Long Dong was her lover.
+
+He was called Yi Junnian; he led an underground Party group whose work was chiefly intelligence. She had found her own people again; for a moment she felt an immeasurable warmth, and for a good month afterward she carried in her a warmth she had long been without.
+
+Perhaps it was then that she had seen the photograph? In that time Yi Junnian talked with her constantly, and she supposed the organization was in this way taking her measure. But he seldom asked her anything, as though he knew all her affairs already. He told her a great deal about himself, and brought out a photograph.
+
+This photograph she ought to have remembered more clearly; it was strange she should recall it only now. When Yi Junnian showed it to her he had been much moved; he said that by that time he had already joined the Party, and that the place in the photograph was a secret contact point, where he had taken his oath. He had taken the picture with the camera he used for photographing intelligence. Though the sky in the picture was dim, she could still make out the place.
+
+“You've seen Long Dong?” She ought not, really, to have taken that questioning tone with him. And she remembered again that the news of Long Dong's death had been confirmed anew three months after Yi Junnian appeared.
+
+One day a caller came to the house. He had the contact sign Yi Junnian had appointed, and had come to pass him intelligence, but Yi Junnian did not arrive at the set time. Ling Wen sat with the caller in the parlor, making small talk, and the caller, seeing Long Dong's photograph, suddenly told her that this comrade had given his life.
+
+That day Yi Junnian never appeared at all, and it was many days before he came to her house again. It never once occurred to her to ask where he had been. In underground work sudden turns were only too many, and besides, she was sunk all that while in her grief.
+
+“Yes,” said Yi Junnian, looking past Ling Wen, as though someone there were watching the two of them. “You've seen that photograph.”
+
+She waited for him to explain, but he led her downstairs. With every step she went down, she felt herself sink one stage deeper toward a dark bottom of water.
+
+“This place is too dark—one can see nothing,” said Ling Wen.
+
+Yi Junnian caught the overtone beneath Ling Wen's words: “I have done a great many things, and each time I finish one, I lock it away in a windowless room, like this one. Do you suppose Long Dong did not? What he did and what I did were no different—at most he had one thing more than I, and that was communism. Can you see him clearly? Can you find him? Let me take you to look.”
+
+Ling Wen stopped in the darkness, staring in shock at the human shape across from her, and instinctively drew back a step; Yi Junnian seized her at one grasp and pulled her into the tail-room at the back of the ground floor. Behind that windowless burrow was the kitchen: a corner of the stove had cracked, and in the iron wok lay a few withered leaves and two broken bricks. In the kitchen's rear wall was a door; Yi Junnian opened it, and outside too was a stretch of darkness.
+
+Yi Junnian turned to face Ling Wen: “Where could Long Dong have run to? Before him lay only this one road—and it is the same for you and me: everywhere, only darkness.”
+
+Yi Junnian stood a moment before Qigu's door. Qigu had woken and was moving back and forth in her room, looking for she knew not what. He thought a while, then tore off a strip of the door-couplet and wiped the blood from his hands.
+
+There was no light in the Rear Street of Tianguan Li, and no one about. Yi Junnian had just turned into the straight lane running north when suddenly he heard someone speak behind him.
+
+He turned: in the corner of a wall was the half-figure of a man. Yi Junnian said nothing.
+
+The voice came again: it was the fortune-telling old man.
+
+“Are you speaking to me?” he asked the old man.
+
+“How is it you've come out alone? Where is the lady?”
+
+He did not answer, but looked at that shadow of a figure. After a while Yi Junnian asked again: “What is it you want to say?”
+
+“I have been waiting for you all this while. Just now you were in a hurry to be off, and I had not finished. That oracle-verse—there are two more lines I did not write.”
+
+“Say them,” said Yi Junnian, taking a step nearer.
+
+“I ask you—the eastern neighbor who apes Xi Shi: how is she better than one aping the crab's own sidelong scuttle—”
+
+The old man drew out the words in a chant, and before he could finish, Yi Junnian slipped close, put out both hands, and gripped him by the throat.
+
+Yi Junnian folded the lifeless arms together and set the fortune-teller's head squarely down within them.

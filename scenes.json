@@ -1,149 +1,141 @@
 {
-  "_about": "Restores the source's scene rhythm in the reading edition. The digital source marks NO scene breaks typographically (every paragraph is the same style); it heads some scenes with terse time/place lines and hard-cuts the rest. 'datelines' lists those scene-header lines verbatim (rendered centered, distinct from body text). 'breaks' lists the opening words of paragraphs that begin a new scene at a hard cut with no dateline (a centered divider is inserted before them). Editorial typographic aids only: no word of the text is added, dropped, or changed.",
-
-  "ch02": {
-    "datelines": [
-      "The fifteenth of the last month of the year; only ten days or so remained until New Year's Eve.",
-      "Nine-forty in the morning, the roof garden of the World Hotel.",
-      "Five minutes to ten."
-    ],
-    "breaks": [
-      "Qin Chuan'an did not go in by the market entrance",
-      "At the far end of Tongchun Lane rose a high wall",
-      "Yi Junnian watched Ling Wen step into the elevator going down",
-      "This part of the market's second floor was all noodle stalls",
-      "Close on ten o'clock a motorcar drew up",
-      "Around ten o'clock the people coming to the meeting entered the room",
-      "Cui Wentai had been running behind Wei Dafu earlier"
-    ]
-  },
-
-  "ch03": {
-    "datelines": [
-      "The sixteenth of the last lunar month. From early morning the sky hung overcast, wrapped in heavy fog."
-    ],
-    "breaks": []
-  },
-
-  "ch04": {
-    "datelines": [],
-    "breaks": [
-      "Dong Huiwen was taken into an interrogation room",
-      "At noon the sunlight brought a thread of warmth to the gloomy cell"
-    ]
-  },
-
-  "ch05": {
-    "datelines": [],
-    "breaks": [
-      "Miss Tao came out of her cell wreathed in smiles",
-      "You Tianxiao had scarcely come out of Nanjing's Xiaguan Station",
-      "Ye Qinian moved back to the rear seat"
-    ]
-  },
-
-  "ch06": {
-    "datelines": [],
-    "breaks": []
-  },
-
-  "ch07": {
-    "datelines": [],
-    "breaks": [
-      "A month and more before, Chen Qianli had left the training school at Khabarovsk",
-      "On the visitor's instructions he came to Shanghai"
-    ]
-  },
-
-  "ch08": {
-    "datelines": [],
-    "breaks": []
-  },
-
-  "ch09": {
-    "datelines": [],
-    "breaks": []
-  },
-
-  "ch10": {
-    "datelines": [],
-    "breaks": []
-  },
-
-  "ch11": {
-    "datelines": [],
-    "breaks": []
-  },
-
-  "ch12": {
-    "datelines": [],
-    "breaks": []
-  },
-
-  "ch13": {
-    "datelines": [],
-    "breaks": [
-      "As You Tianxiao was getting into the car on Renji Road"
-    ]
-  },
-
-  "ch14": {
-    "datelines": [],
-    "breaks": [
-      "The street blazed with light"
-    ]
-  },
-
-  "ch15": {
-    "datelines": [],
-    "breaks": [
-      "All at once a crowd had gathered at the roadside",
-      "When Chen Qianyuan had seen his brother into Lin Shi's sickroom"
-    ]
-  },
-
-  "ch16": {
-    "datelines": [],
-    "breaks": [
-      "Not ten minutes after Chen Qianli had gone into the bank",
-      "The night before, New Year's Eve, Cui Wentai had not slept a wink",
-      "Taking his chance while Cui Wentai was gone",
-      "“Comrade Lin Shi, you must surely be a big leader?”"
-    ]
-  },
-
-  "ch17": {
-    "datelines": [],
-    "breaks": [
-      "Lin Shi took out the slip for safe-deposit box No. 279",
-      "At a window seat in the Yiyuan Café",
-      "“I went in and looked; Yi Junnian's still there.",
-      "Assistant Manager Wu came back up in the elevator",
-      "Not long after Assistant Manager Wu had left the vault",
-      "Ten-odd minutes later Lin Shi pressed the electric bell",
-      "Cui Wentai started the car and drove on"
-    ]
-  },
-
-  "ch18": {
-    "datelines": [],
-    "breaks": [
-      "They had failed to reach the yard at the appointed hour",
-      "They were waiting for him in a house near Gujiazhai Park",
-      "Toward four o'clock Wei Dafu went out to the street"
-    ]
-  },
-
-  "ch19": {
-    "datelines": [],
-    "breaks": [
-      "After the failure of the Great Revolution, the underground network",
-      "Chen Qianli opened the door of the inner room"
-    ]
-  },
-
-  "ch20": {
-    "datelines": [],
-    "breaks": []
-  }
+ "_about": "Restores the source's scene rhythm in the reading edition. The digital source marks NO scene breaks typographically (every paragraph is the same style); it heads some scenes with terse time/place lines and hard-cuts the rest. 'datelines' lists those scene-header lines verbatim (rendered centered, distinct from body text). 'breaks' lists the opening words of paragraphs that begin a new scene at a hard cut with no dateline (a centered divider is inserted before them). Editorial typographic aids only: no word of the text is added, dropped, or changed.",
+ "ch02": {
+  "datelines": [
+   "The fifteenth of the last month of the year; only ten days or so remained until New Year's Eve.",
+   "Nine-forty in the morning, the roof garden of the World Hotel.",
+   "Five minutes to ten."
+  ],
+  "breaks": [
+   "Qin Chuan'an did not go in by the market entrance",
+   "At the far end of Tongchun Lane rose a high wall",
+   "Yi Junnian watched Ling Wen step into the elevator going down",
+   "This part of the market's second floor was all noodle stalls",
+   "Close on ten o'clock a motorcar drew up",
+   "Around ten o'clock the people coming to the meeting entered the room",
+   "Cui Wentai had been running behind Wei Dafu earlier"
+  ]
+ },
+ "ch03": {
+  "datelines": [
+   "The sixteenth of the last lunar month. From early morning the sky hung overcast, wrapped in heavy fog."
+  ],
+  "breaks": []
+ },
+ "ch04": {
+  "datelines": [],
+  "breaks": [
+   "Dong Huiwen was taken into an interrogation room",
+   "At noon the sunlight brought a thread of warmth to the gloomy cell"
+  ]
+ },
+ "ch05": {
+  "datelines": [],
+  "breaks": [
+   "Miss Tao came out of her cell wreathed in smiles",
+   "You Tianxiao had scarcely come out of Nanjing's Xiaguan Station",
+   "Ye Qinian moved back to the rear seat"
+  ]
+ },
+ "ch06": {
+  "datelines": [],
+  "breaks": []
+ },
+ "ch07": {
+  "datelines": [],
+  "breaks": [
+   "A month and more before, Chen Qianli had left the training school at Khabarovsk",
+   "On the visitor's instructions he came to Shanghai"
+  ]
+ },
+ "ch08": {
+  "datelines": [],
+  "breaks": []
+ },
+ "ch09": {
+  "datelines": [],
+  "breaks": []
+ },
+ "ch10": {
+  "datelines": [],
+  "breaks": []
+ },
+ "ch11": {
+  "datelines": [],
+  "breaks": []
+ },
+ "ch12": {
+  "datelines": [],
+  "breaks": []
+ },
+ "ch13": {
+  "datelines": [],
+  "breaks": [
+   "As You Tianxiao was getting into the car on Renji Road"
+  ]
+ },
+ "ch14": {
+  "datelines": [],
+  "breaks": [
+   "The street blazed with light"
+  ]
+ },
+ "ch15": {
+  "datelines": [],
+  "breaks": [
+   "All at once a crowd had gathered at the roadside",
+   "When Chen Qianyuan had seen his brother into Lin Shi's sickroom"
+  ]
+ },
+ "ch16": {
+  "datelines": [],
+  "breaks": [
+   "Not ten minutes after Chen Qianli had gone into the bank",
+   "The night before, New Year's Eve, Cui Wentai had not slept a wink",
+   "Taking his chance while Cui Wentai was gone",
+   "“Comrade Lin Shi, you must surely be a big leader?”"
+  ]
+ },
+ "ch17": {
+  "datelines": [],
+  "breaks": [
+   "Lin Shi took out the slip for safe-deposit box No. 279",
+   "At a window seat in the Yiyuan Café",
+   "“I went in and looked; Yi Junnian's still there.",
+   "Assistant Manager Wu came back up in the elevator",
+   "Not long after Assistant Manager Wu had left the vault",
+   "Ten-odd minutes later Lin Shi pressed the electric bell",
+   "Cui Wentai started the car and drove on"
+  ]
+ },
+ "ch18": {
+  "datelines": [],
+  "breaks": [
+   "They had failed to reach the yard at the appointed hour",
+   "They were waiting for him in a house near Gujiazhai Park",
+   "Toward four o'clock Wei Dafu went out to the street"
+  ]
+ },
+ "ch19": {
+  "datelines": [],
+  "breaks": [
+   "After the failure of the Great Revolution, the underground network",
+   "Chen Qianli opened the door of the inner room"
+  ]
+ },
+ "ch20": {
+  "datelines": [],
+  "breaks": []
+ },
+ "ch21": {
+  "datelines": [],
+  "breaks": [
+   "The people who lived along Haoxian Road still called it by its old name",
+   "Yi Junnian stood a moment before Qigu's door."
+  ]
+ },
+ "ch22": {
+  "datelines": [],
+  "breaks": []
+ }
 }

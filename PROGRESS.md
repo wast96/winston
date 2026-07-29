@@ -532,3 +532,112 @@ confirmed rendered in the built EPUB (ch18 3, ch19 2, ch20 0). No datelines in t
 scripts/build_reading_epub.py out/thousand-li.epub: 20 of 37 units translated (epigraph + ch02-ch20),
 130 notes. qa_epub.py: PASS (47 files, 42 documents; 130 references = 130 bodies = 130 backlinks;
 numbering sequential in reading order; all links resolve).
+
+
+## Batch B07 (ch21 The Tanglong Door, ch22 The Tiannan Teahouse)
+
+### Translation
+
+ch21 (161 paragraphs) and ch22 (56 paragraphs), 217 in all. These are the hinge chapters.
+ch21: Ling Wen, on the pretext of the mission, hunts Guangzhou's newspaper archives and the
+crime-scene house (No. 23, the Rear Street of Tianguan Li, on Haoxian Road) for a trace of
+Long Dong, who vanished after the 1929 raid. Yi Junnian, cold and sleepless, is unnerved by
+her groundless intuitions and by the feeling that a dead Long Dong is watching him. The
+distinctive tanglong door, and a photograph he once showed her, break the memory open: he
+swore his Party oath in that house with Long Dong as his sponsor, then killed him and took the
+picture. He murders Ling Wen off-page (only the blood on his hands, wiped on a torn door
+couplet, tells it) and strangles the blind diviner who recites an oracle naming "Xi Shi" to
+his face. ch22: Old Xiao, the Ruijin secret courier carrying an oral order about Comrade
+Haohan's safety, is ambushed at the Tiannan Teahouse, escapes a first cordon, is cornered in
+a Xiguan back-lane, and is "rescued" by a bicycling Yi Junnian, who shoots the detective-squad
+men and carries the wounded courier to a Tanka boat. The rest is Yi Junnian's own history: he
+is the original "Xi Shi," Ye Qinian's ace, planted in the Shanghai underground under a dead
+man's name, and he wants the secret in Old Xiao's head. The whole teahouse ambush was a piece
+he staged, killing the enemy's own men to buy the courier's trust.
+
+The novel's own voice kept throughout: novelistic and close third; the newspaper clipping in
+ch21 rendered in a stiffer Republican officialese to hold the enemy-press register, with the
+KMT term for 1927 (广州暴动) set as "the Guangzhou revolt," distinct from the Party's "Guangzhou
+Uprising." 爱人 rendered "lover" (Long Dong is Ling Wen's secret lover; her dead husband was a
+merchant). Cantonese texture preserved where it lands (fo sui, one cup and two plates, the
+tanglong door, wok-ear gables) and footnoted where it cannot survive.
+
+### Checks run and results
+
+- Verbatim source quotation: guaranteed by make_bilingual.py, which reads the source lines
+  straight from data/src/ and enforces paragraph parity. ch21 161 = 161, ch22 56 = 56.
+- check_numbers.py (with --noise check_noise.txt): both chapters clean. Flags resolved were
+  street names (十八甫, 下九甫), reduplicated and set-phrase numerals (四四方方 / 四方, 两样),
+  the amah's name (七姑), and 九龙 / 零散 / 零碎, all added to check_noise.txt as non-quantities.
+  Real quantities were kept as figures so they survive the check: 中午十二点 as "twelve o'clock",
+  二楼 as "second floor", 二十五万 as "two hundred and fifty thousand", 十一天 as "eleven days".
+  Two principled parser fixes were made in check_numbers.py: a negative lookbehind on the
+  一[天次年...] measure-word stripper (so a teen-plus-measure like 十一天 keeps its 11 instead of
+  orphaning 十 as 10), and a "<ones> hundred and <tens> thousand" composite in spelled_numbers
+  (so 二十五万 = 250000 is recognized). Both were regression-checked against ch18, ch19 and ch20,
+  which still pass.
+- check_structure.py: paragraph parity OK for both (161 and 56).
+- Blind double-translation (subagent, separate context) on five argumentative/literary passages
+  (the windowless-room speech, the oracle couplet, the gold-mine / Xi Shi reveal, Ye Qinian's
+  1924 prophecy, the staged-ambush bargain): independent renderings agree closely with the
+  shipped text. The only real divergence is the oracle's 郭素, which the blind translator read
+  variously (as a name, or literally); this is a genuine source ambiguity, now flagged in the
+  footnote (the source writes 郭素 where the standard word is 郭索, and the line is cut off).
+- Back-translation omission pass (subagent, separate context) on five passages: no dropped or
+  added content. Every query resolved as faithful once checked against the source: the Haoxian
+  homophone is staged in the source; the Yiddish song is not titled in the source (only hummed);
+  同乐会 = "social club" and 直巷 = "straight lane" are descriptive, not proper names.
+- Random-sample deep audit (about 4%): the tradecraft paragraph (the Hong Kong shop-surety and
+  the "run agent" in the Settlement police station) and the door-architecture paragraph were
+  given the full verbatim-quote and back-translation treatment; both faithful.
+
+### Footnote apparatus (rich, fact-checked; three research subagents, web sources only)
+
+16 new notes (book now at 146; ch21 notes 131 to 139, ch22 140 to 146). ch21 (9): Haoxian Road
+/ 濠弦街 "Moat-Bowstring" (real; the moat-and-bowstring etymology documented; renamed 豪贤 to
+honor the Ming loyalist Li Suiqiu), with the Tianguan Li address on it flagged as the novel's
+own; the Wong Tai Sin oracle-lots (deity and 求签 practice real, but the quoted lot-73 verse is
+the author's invention, the reverse of the real auspicious lot 73); Cao Song's "one general's
+fame is built on ten thousand rotting bones" (己亥岁); the self-combed women / amahs of Shunde
+(七姑); the Cantonese fo sui (kerosene); the tanglong door (the three-part Xiguan door, the
+chapter title); the wok-ear gables (镬耳墙); the Haizhu Bridge (real, Feb 1933, so Qigu's
+landmark misdates her own memory); and the oracle's 东施效颦 / 西子 / 郭索 pun, which names
+Xi Shi to Yi Junnian's face. ch22 (7): the Da Mei Wan Bao (real; Chinese edition from 16 Jan
+1933); the naamyam 客途秋恨 with its female xiaosheng, its Miao Lianxian line and its Peach
+Blossom Spring line (song and lines genuine, the Miao attribution disputed); the 枪牌 Browning
+(FN M1900, named for its pistol stamp); the Reflection Institute (反省院, real); Liao Zhongkai
+(shot 20 Aug 1925, real; the hint that the fictional Ye Qinian had a hand in it is the novel's);
+Dai Jitao and Daiism (real anti-communist theorist); and the 1924 chronology (Feng Yuxiang jails
+Cao Kun in the October Beijing Coup; Sun Yat-sen goes north). Not re-noted (covered earlier):
+Xi Shi (ch03), Shen Bao (ch07), the Canton-Hong Kong Strike (ch15), Bo Gu / the Jan 1933 Ruijin
+move (ch13), the courier lines and Kowloon radio (ch15), Haohan (ch04), Chen Jitang and the
+"King of the Southern Sky" (ch20), February / Rou Shi (ch19), the Yiddish tumbalalaika (ch09).
+
+### Glossary rows added
+
+- people: 七姑 Qigu (fictional amah); 廖仲恺 Liao Zhongkai, 戴季陶 Dai Jitao, 冯玉祥 Feng Yuxiang,
+  曹锟 Cao Kun, 缪莲仙 Miao Lianxian, 黎遂球 Li Suiqiu (all real).
+- places: 豪贤路 Haoxian Road, 光复路 Guangfu Road, 十八甫 Shibafu Street (real); 天官里 Tianguan Li
+  (fictional lane on the real Haoxian Road).
+- organizations: 大美晚报 the Da Mei Wan Bao, 反省院 the Reflection Institute, 国华报 the Guohua Bao,
+  广州报界公会 the Guangzhou Press Association (all real; the Guohua Bao's two-run detail uncorroborated).
+- terms: 趟栊门 tanglong door, 自梳女 self-combed woman, 疍家 Tanka, 客途秋恨 Ke Tu Qiu Hen,
+  黄大仙 Wong Tai Sin, 火水 fo sui.
+- Rendering consistency settled against earlier chapters: 叶主任 = "Director Ye" alongside 叶老师 =
+  "Teacher Ye" (both 叶启年); 广州暴动 (KMT press voice) = "the Guangzhou revolt" against 广州起义 =
+  "the Guangzhou Uprising"; 爱人 = "lover".
+
+### Scene typography
+
+The source carries no dividers. ch21 has 2 hard cuts (the arrival at Haoxian Road after the
+newspaper clipping; the post-murder coda where Yi Junnian wipes the blood and meets the
+diviner). ch22 has 0 (one continuous run, teahouse to chase to boat, with Yi Junnian's
+back-story woven into the boat scene as reflection, like ch20's single continuous Guangzhou
+afternoon). Both break anchors verified against the reading file and confirmed rendered in the
+built EPUB (ch21 2, ch22 0). No datelines in this batch.
+
+### Build
+
+scripts/build_reading_epub.py out/thousand-li.epub: 22 of 37 units translated (epigraph +
+ch02 to ch22), 146 notes. qa_epub.py: PASS (47 files, 42 documents; 146 references = 146 bodies
+= 146 backlinks; numbering sequential in reading order; all links resolve).
