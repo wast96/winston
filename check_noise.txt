@@ -31,3 +31,7 @@
 # 二(?=岁): the built-in "十多" rule strips 十多 out of 二十多岁 ("twenty-odd years old")
 # and orphans a stray 二; this drops that artifact while a real 两岁 still counts.
 二(?=岁)
+# 吴四宝 = Wu Sibao, a personal name (四 is part of the name, not a count)
+吴四宝
+# 三成坊 = Sancheng Fang, a lane/place name (三 is part of it, not a count)
+三成坊

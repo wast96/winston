@@ -33,6 +33,9 @@ WORD_NUM = {
     # knows the cardinal teens, so the ordinal form must be declared here.
     "fifteenth": 15, "sixteenth": 16, "fourteenth": 14, "eighteenth": 18,
     "nineteenth": 19,
+    # Ordinal day-of-month in a formal letter (保管箱延用至三月十一日 ->
+    # "the eleventh of March"); the built-ins stop at "tenth".
+    "eleventh": 11,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}
@@ -95,8 +98,10 @@ NOISE = [
     r"十全十美", r"十拿九穩", r"十拿九稳",
     r"(?<![零一二三四五六七八九])十分",  # 十分 = "very", not 10 (but keep 四十分/五十分)
     r"四面八方", r"四通八達", r"四通八达", r"一心一意", r"一五一十",
-    # bare 一 as adverb/idiom fragment: 一[direction/time/manner], not the count
-    r"一[舉举動动身面言語语氣气日夜時时刻步分寸點点]", r"兩[頭头端邊边面全難难]",
+    # bare 一 as adverb/idiom fragment: 一[direction/time/manner], not the count.
+    # Lookbehind keeps it from eating the 一 of a compound like 十一日 ("the
+    # eleventh"), which would else mis-parse the date 十一日 as 十日 (=10).
+    r"(?<![零一二三四五六七八九十])一[舉举動动身面言語语氣气日夜時时刻步分寸點点]", r"兩[頭头端邊边面全難难]",
     r"三[番兩两]", r"四[面方處处海座周]", r"九[鼎]", r"八[面方]",
     r"一一",                                        # 一一 "one by one"
 ]

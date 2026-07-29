@@ -7,6 +7,17 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - GLOBAL: renamed "X" to "Y" everywhere (glossary + grep across ch01-ch12); rebuilt, qa green.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
+## 2026-07-29 — Batch B03 (ch09-ch11) plus one retro note and a tooling fix
+
+- Translated ch09-ch11 (255 paragraphs); footnotes grown from 46 to 69 (22 new + 1 retro on
+  ch07's surety-bond mention). Glossary expanded with the B03 referents. Files: out/ch09-11_*,
+  notes.json, glossary.json, scenes.json (empty entries for three single-scene chapters).
+- TOOLING: patched scripts/check_numbers.py so the built-in idiom stripper 一[日夜时…] no longer
+  eats the 一 out of a real date compound like 十一日 (which had mis-parsed March 11 as "10");
+  added a negative lookbehind (mirroring the existing 十分 guard) and registered the ordinal
+  "eleventh" in WORD_NUM. Verified conservative: standalone 一日/一时 idioms still stripped,
+  十一日/二十一日 now parse correctly. No text affected; a number-check false positive removed.
+
 ## 2026-07-28 — Batch B02 plus book-wide enhancements (touch B01)
 
 - GLOBAL: added scene typography. New scenes.json and builder support render the source's

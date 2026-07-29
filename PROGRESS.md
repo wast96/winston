@@ -198,3 +198,79 @@ backlinks; all links resolve).
 scripts/build_reading_epub.py out/thousand-li.epub: 8 of 37 units translated (epigraph +
 ch02-ch08), 46 notes. qa_epub.py: PASS (47 files, 42 documents; 46 references = 46 bodies =
 46 backlinks; numbering sequential in reading order; all links resolve).
+
+## Batch B03 (ch09 The Photograph, ch10 The Clinic, ch11 The Tenant)
+
+### Translation
+
+- 255 paragraphs (ch09 69, ch10 104, ch11 82), one English paragraph per source paragraph.
+  Built with make_bilingual.py (verbatim source lines) then split_bilingual.py.
+- ch10 carries a formal classical business letter (safe-deposit box notice); rendered in a
+  starched epistolary register to mark the source's own shift out of narrative prose, and
+  footnoted as such. Every numeral/date in it (本月十日, 二七九号, 三月十一日) preserved.
+
+### Checks run and what they found
+
+- Paragraph parity (check_structure.py --pairs): ch09 69/69, ch10 104/104, ch11 82/82, OK.
+- Number invariants (check_numbers.py --noise check_noise.txt): all three 0 unresolved.
+  Added to the noise list the personal/place names that carry a digit but are not
+  quantities: 吴四宝 (Wu Sibao) and 三成坊 (Sancheng Fang, a lane name). One GENUINE
+  tokenizer fix, not a waiver: the built-in idiom stripper 一[日夜时…] was eating the 一
+  out of the real date 十一日 (mis-reading March 11 as "10"); gave it a negative lookbehind
+  (mirroring the existing 十分 guard) so 十一日 parses as 11, and registered the ordinal
+  "eleventh" in WORD_NUM. Verified the change is conservative (standalone 一日/一时 idioms
+  still stripped; 十一日/二十一日 now correct). No real quantity was waived.
+- Note anchors: 22 new notes (+1 retro on ch07), all anchors verbatim substrings, builder
+  accepted them (it refuses on an unmatched anchor); qa_epub sequential numbering PASS.
+- Blind double-translation (three subagents, separate contexts, one per chapter, blind to
+  the delivered text): independent renderings matched mine in meaning throughout. The only
+  divergences were the blind translators mis-identifying two romanized road names
+  (善钟路 as "Chungking Road", 赵主教路 as "Route Père Robert") — my safe pinyin renderings
+  and the fact-checked glossary are correct; no change needed.
+- Back-translation omission pass (subagent, English to Chinese, all three chapters): came
+  back a faithful mirror of the source, no omissions or additions. Its "verify" flags
+  (the balalaika passage, the burn scar, the letter's numbers, Detective Yao vs Captain You
+  as distinct men, 小董/Young Dong, 好汉/Haohan, the Zhaojiabang/Li Han insert) were each
+  checked against the source and confirmed faithful.
+- Random-sample deep audit: the balalaika/Hongkou memory (ch09) and the letter scene (ch10)
+  given the full verbatim-quote / double-translation / back-translation treatment.
+  Observed substantive error rate: 0.
+
+### Footnote apparatus (rich, fact-checked; five research subagents, web sources only)
+
+- Grew from 46 to 69 notes. New notes: ch07 (1, retro) 铺保 surety bond; ch09 (8) the April
+  Twelfth 1927 massacre, Wu Sibao (a real Green-Gang/No.76 figure the novel plants as a
+  minor tenant), the 兔子不吃窝边草 proverb, 二房东 second landlord, the 1930-31 AB-Corps /
+  Futian internal purges behind "we've paid a bitter price", Hongkou Park (today Lu Xun
+  Park), Tumbalalaika/balalaika, the Leica; ch10 (5) the Zhonghui Bank (Du Yuesheng's, with
+  a real safe-deposit vault), Guanshengyuan, the letter's epistolary register, the (likely
+  fictional) Rentai Bank, the provisional Party branch; ch11 (9) the 邋遢冬至清爽年 proverb,
+  Jing'an Temple and the New-Year first incense, 水门汀 (cement loanword), Zhaojiabang creek,
+  Massenet Road (today Sinan Road), the road cluster (Haige/Shanzhong/Zhaozhujiao with their
+  present-day names), Red China + Third Counter-Encirclement Campaign, Old Bolshevik, the
+  Tiangu Estate. Each labelled real-vs-fictional and corroborated/uncorroborated.
+- Sources: Wikipedia, Baidu Baike, academic/government pages; NO Grok/Grokipedia (a research
+  agent flagged Grokipedia surfacing for Tumbalalaika and deliberately did not use it).
+- One correction caught and applied: 赵主教路's present-day name is 五原路 (Wuyuan Road, after
+  Bishop Maresca), NOT Shaanxi South Road as one draft suggested.
+
+### Glossary rows added
+
+- people: 吴四宝 (attested, real figure), 吴作民 / Assistant Manager Wu, 金德林 (fictional).
+- organizations: 中汇信托银行 (attested), 仁泰银公司 (likely fictional), 东陆经租处 (fictional),
+  冠生园 (attested).
+- places: 马立斯新村, 虹口公园, 静安寺, 同福里, 三成坊, 田谷邨 (provisional), 愚园路, 地丰路,
+  海格路, 善钟路, 赵主教路, 马斯南路, 肇嘉浜 — real roads "attested" with their present-day names.
+- terms: 二房东, 四一二, 老布尔什维克, 水门汀, 巴拉莱卡, 第三次反围剿, 邋遢冬至清爽年.
+
+### Scene typography
+
+- ch09, ch10, ch11 are each a single continuous scene (an evening at Ling Wen's; an afternoon
+  at the clinic; Wei Dafu's afternoon and the meeting), with no terse time/place header lines
+  and no hard cuts. Added scenes.json entries with empty datelines/breaks (as ch06/ch08).
+
+### Build
+
+scripts/build_reading_epub.py out/thousand-li.epub: 11 of 37 units translated (epigraph +
+ch02-ch11), 69 notes. qa_epub.py: PASS (47 files, 42 documents; 69 references = 69 bodies =
+69 backlinks; numbering sequential in reading order; all links resolve).
