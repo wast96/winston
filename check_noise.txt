@@ -55,3 +55,9 @@
 小五子
 # 一不做二不休 = "in for a penny, in for a pound" (idiom; 一/二 not counts)
 一不做二不休
+# 退一万步(说) = "even supposing / to take it to the extreme" (idiom; 一万 not a count)
+退一万步
+# 百褶裙 / 百褶 = pleated skirt ("hundred-pleat", not the count 100)
+百褶
+# 千金之裘 / 千金 = "worth a fortune" (idiom; 千 not the count 1000)
+千金

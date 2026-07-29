@@ -347,3 +347,85 @@ mid-paragraph slip into accusatory second person, which the translation preserve
 scripts/build_reading_epub.py out/thousand-li.epub: 14 of 37 units translated (epigraph + ch02-ch14),
 90 notes. qa_epub.py: PASS (47 files, 42 documents; 90 references = 90 bodies = 90 backlinks; numbering
 sequential in reading order; all links resolve).
+
+## Batch B05 (ch15 Code Words, ch16 The Bank, ch17 The Suitcase)
+
+217 source paragraphs translated (ch15 85, ch16 72, ch17 60). All apparatus in footnotes, never
+inline; the novel's own voice kept: Lin Shi's solitary reflection and Chen Qianli's exposition of
+the whole "Thousand Li of Rivers and Mountains plan" (ch15); Ye Qinian's reverie on the walk to the
+bank and Cui Wentai's garrulous Wang Jinzhi anecdote (ch16); the rapid cross-cut heist, Ye Qinian's
+ideological-cleansing speech, and Cui Wentai's last-second double reversal, "I'm going over to
+nobody, I'm going over to myself" (ch17). This batch turns the plot: the title painting is spoken
+aloud for the first time as the underground's passphrase, and Cui Wentai bolts with the gold.
+
+### Checks run and results
+
+- Faithful verbatim quotation: bilingual QC files built by make_bilingual.py (reads data/src/ lines
+  VERBATIM, refuses on any paragraph-count mismatch). Built clean at 85 / 72 / 60 pairs.
+- Paragraph parity (check_structure.py --pairs): ch15 85=85, ch16 72=72, ch17 60=60, all OK.
+- Numeral invariants (check_numbers.py --noise check_noise.txt): all three chapters 0 unresolved.
+  Fixes: (a) three non-quantity numerals added to check_noise.txt as idioms/names -- 退一万步
+  ("even supposing"), 百褶 (pleated skirt), 千金 (千金之裘, "worth a fortune"). (b) three real counts
+  rendered explicitly so the count is honest, not waived: 两位同志 -> "the two comrades", 前后两扇门
+  -> "the two doors, front and back", 四壁 -> "the four walls". No real quantity waived.
+- Blind double-translation (check 2): a subagent in a separate context, given ONLY the source
+  Chinese of six argumentative/reflective passages (the lone-mission aphorism; Chen Qianli's plan
+  exposition and the four-courier-lines paragraph; Ye Qinian's reverie; the meditation on the dead
+  and the living in single-line contact; Ye Qinian's ideological-cleansing speech), translated them
+  fresh. Reached the same readings on every one; no substantive divergence. It independently rendered
+  四条秘密交通线 as "four secret transport lines", confirming the source really says four (footnoted
+  against the documented three).
+- Back-translation omission pass (check 3): a second subagent, given ONLY the English of six passages
+  and forbidden data/, rendered them back into Chinese. Round-trip reproduced every clause of the
+  source with no omission or addition (only artifact: it wrote the alias 少山 as the homophone 韶山).
+- Deep audit (check 8): the twelve passages above are about 5% of the batch and got the full paranoid
+  treatment (verbatim quote, double translation, back-translation). Observed substantive error rate: 0.
+- Fact-check against scholarship (check 7): four research subagents with web access, reputable sources
+  only (Palace Museum / dpm.org.cn, Wikipedia, Baidu Baike, PRC Ministry of Defense and People's Daily
+  Party-history pages, university libraries); NO Grok / Grokipedia / AI sources. Every note labelled
+  real-vs-fictional and corroborated / uncorroborated / contradicted. Honest hedges recorded: the
+  courier-line "four" is the novel's count against the documented three (Central Red Route); the
+  貂爪仁 "under-the-claw" fur is the novel's likely embellishment on real pieced-fur practice; the
+  Wang Jinzhi murder case is unattested and appears to be the novel's invention (its Taikoo-steamer
+  setting is real); "Professor Tao" is Tao Xisheng, real, but no 1933 anti-Communist primer by him is
+  documented (his hard anti-Communist role is later); the "Mr. Song" / Ministry-of-Finance-bonds hint
+  is footnoted as an invited reading toward the Soong family (T. V. Soong, finance minister 1928-33),
+  not stated by the text.
+
+### Footnote apparatus (rich, fact-checked)
+
+- Grew from 90 to 108 notes. ch15 (6): the storming of the Soviet consulate at Guangzhou (Dec 1927);
+  the painting A Thousand Li of Rivers and Mountains (Wang Ximeng, 1113, Palace Museum) -- spoken here
+  first, as the passphrase, and the plan named for it; the August 7th Conference (Hankou, 1927); the
+  jianren civil-service rank; the CCP courier lines / Central Red Route (Shanghai-Shantou-Ruijin), with
+  the three-vs-four note; the Canton-Hong Kong Strike (1925-26). ch16 (7): marten-paw fur (real pieced-
+  fur practice, this category the novel's); the ABC of Communism (Bukharin/Preobrazhensky, 1919); Tianjin
+  Road as bank street; native banks (qianzhuang); "big yellow croaker" gold-bar slang; Seward Road (->
+  Changzhi Rd, 1943); the Wang Jinzhi case (unattested) with the real Taikoo / China Navigation Co. ch17
+  (5): the gendarmerie and armored cars; the Ministry-of-Finance-bonds / Soong-family hint; the Nanshi
+  police and Shanghai's three police forces; the Three Principles of the People; Professor Tao (Tao
+  Xisheng).
+
+### Glossary rows added
+
+- people: 小施 Little Shi, 纪先生 Mr. Ji (Chen Qianli's bank alias), 王金枝 Wang Jinzhi (all fictional);
+  陶希圣 Professor Tao, 宋子文 T. V. Soong (real).
+- organizations: 裕记钱庄 (fictional); 南市警察署, 太古 Taikoo (real).
+- places: 天津路, 熙华德路, 江西路, 汕头, 武汉, 杭州 (real); 阜成里, 逸园咖啡馆 (likely fictional).
+- terms: 大黄鱼, 钱庄, 估衣铺, 简任, 八七会议, 省港大罢工, 三民主义, 共产主义ABC, 中央红色交通线 (real);
+  貂爪仁 (the novel's embellishment).
+
+### Scene typography
+
+The source carries no dividers. ch15 has 2 hard cuts (to the firecracker street / Chen Qianli's
+arrival; to the downstairs parlor). ch16 has 4 (Ye Qinian leaves the Cathay; the Cui Wentai
+midnight-call flashback; Lin Shi and Ling Wen at the clinic; the car to the bank). ch17 has 7 -- a
+rapid heist montage cross-cutting the vault, the Yiyuan Cafe, the Yuji command post, Little Shi's
+desk, the bank hall and the street. All 13 break anchors verified against the reading files and
+confirmed rendered in the built EPUB (ch15 2, ch16 4, ch17 7). No datelines in this batch.
+
+### Build
+
+scripts/build_reading_epub.py out/thousand-li.epub: 17 of 37 units translated (epigraph + ch02-ch17),
+108 notes. qa_epub.py: PASS (47 files, 42 documents; 108 references = 108 bodies = 108 backlinks;
+numbering sequential in reading order; all links resolve).
