@@ -96,7 +96,12 @@ NOISE = [
     # 四十分 (40 min) or 五十分 (50 min), where the preceding digit means this 十
     # is the tens place of a real quantity. The lookbehind keeps those intact so
     # times survive to the number check instead of orphaning a stray ones-digit.
-    r"(?<![零一二三四五六七八九十百千])十[幾几分]", r"[十几幾]多", r"再三",
+    # B09: an optional ones-digit prefix so "X十多" (五十多 "fifty-odd", 三十多
+    # "thirty-odd") strips whole instead of orphaning the leading 五/三 read as
+    # 5/3. Such "-odd" figures are inherently approximate and were never precisely
+    # checkable anyway; this only REMOVES source numerals, so it can never mask a
+    # dropped quantity. A bare 十多/几多 still strips. Supersedes the 二(?=岁) case.
+    r"(?<![零一二三四五六七八九十百千])十[幾几分]", r"[零一二兩两三四五六七八九]?[十几幾]多", r"再三",
     # --- 萬/万 and 千 as intensifier, not the quantity 10000/1000 ---
     # ORDERING: 千萬/萬萬 must precede bare 萬X, or r"萬不可" eats the 萬 out of
     # 千萬不可 and orphans a 千 read as 1000. Longest literal first, always.

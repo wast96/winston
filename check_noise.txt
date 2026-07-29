@@ -102,3 +102,15 @@
 五花大绑
 # 三七二十一 (不管三七二十一) = "heedless of all consequences" (idiom; 三/七/二十一 not counts)
 三七二十一
+# 二十年代 = "the twenties" (a decade name, not the count 20)
+二十年代
+# 零食 = "snacks / nibbles" (零 is not the quantity 0)
+零食
+# 零钱 = "small change / loose coins" (零 is not the quantity 0)
+零钱
+# 五金 = "hardware / metal fittings" ("five metals"; 五 not a count)
+五金
+# 百老汇 = Broadway (百 is part of the transliteration in 东百老汇路, not the count 100)
+百老汇
+# 两个字 = "those two characters" (counts Chinese graphs of a term, e.g. 撤离; not a quantity that transfers into English)
+两个字

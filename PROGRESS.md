@@ -736,3 +736,100 @@ in the built EPUB (grep class="brk": ch23 2, ch24 0, ch25 1; class="dateline": c
 scripts/build_reading_epub.py out/thousand-li.epub: 25 of 37 units translated (epigraph + ch02 to
 ch25), 165 notes. qa_epub.py: PASS (47 files, 42 documents; 165 references = 165 bodies = 165
 backlinks; numbering sequential in reading order; all links resolve).
+
+## Batch B09 (ch26 The Guisheng, ch27 The Gonghexiang Wharf)
+
+Two chapters, 106 paragraphs (ch26 50, ch27 56). Parity clean on both; check_numbers clean on
+both after the fixes below. The shipboard return from Guangzhou to Shanghai. ch26 is largely
+interior: aboard the Jardine liner Guisheng, Chen Qianli first relays (in flashback) the dying
+Old Xiao's message -- Comrade Shaoshan's newspaper-advertisement contact signal for the
+underground Comrade Haohan, entrusted to "Yi Junnian" -- then sinks into the long Nanjing/Shanghai
+memory of Ye Tao: Ye Qinian's teacher-days anarchist salon on Xinzha Road, Ye Tao's drift from
+Kropotkin to Lenin, her burrowing into the Party Affairs Investigation Section at the Zhanyuan,
+and her death carrying out the answer to whether Ouyang Min had turned traitor -- the riddle that
+now resolves. ch27: Liang Shichao and Chen work out that the man killed on Haoxian Road was the
+real Yi Junnian (Long Dong), that Lu Zhongde usurped the alias, and that Chen must NOT kill or
+expose Lu yet, because Lu is the only line to the endangered Haohan. The Guisheng docks at the
+Gonghexiang Wharf; Chen meets Lu under Ye Qinian's gun (a rooftop marksman, agents in the cars),
+plays out a piece of theatre -- asking Lu to hire a small cargo boat and find a safe house -- and
+lets Lu deliver his rehearsed, self-incriminating lie about Ling Wen's disappearance in Guangzhou.
+
+### Checks run
+
+- Parity (check_structure --pairs): ch26 50|50, ch27 56|56, both OK.
+- Numbers (check_numbers --noise check_noise.txt): both clean. Root-cause fix in check_numbers.py:
+  the built-in "十多" stripper orphaned the leading digit of "X十多" (五十多 -> stray 5, 三十多 ->
+  stray 3); extended the rule to an optional ones-digit prefix so "X十多" strips whole. This only
+  REMOVES source numerals (such "-odd" figures are approximate and were never precisely checkable),
+  so it can never mask a dropped quantity; supersedes the older 二(?=岁) case, which is left in
+  place (do not revert). New noise entries (non-quantities): 二十年代 (decade name), 零食/零钱
+  (零 not the count 0), 五金 ("five metals" = hardware), 百老汇 (Broadway, 百 part of the
+  transliteration), 两个字 (counts the graphs of 撤离, does not transfer to one English word).
+  Real drops fixed in the prose, not waived: restored 两个人 twice in ch26 ("the two of them"),
+  and rendered 二楼 as "the second floors" (floor number kept as a figure). Clock/tide/knot
+  numbers kept as figures so the count survives (十点五十分 -> "fifty minutes past ten"; 十二点 ->
+  "twelve o'clock"; 十一节 -> "eleven knots"; 十六海里 -> "sixteen knots").
+- Blind double-translation (subagent, separate context, source-only) on four of ch26's
+  argumentative/biographical passages (Ye Tao as Chen's guide; her move to the Party Affairs
+  Investigation Section; the Xinzha-Road reading-list drift; the reopened safe and Ouyang Min).
+  The independent version matched the shipped reading in sense throughout; its only differences
+  were the project renderings it could not know (Zhanyuan vs "Zhan Garden"; "Party Affairs
+  Investigation Section" vs "Bureau of Party Affairs Investigation"). No omissions.
+- Back-translation / omission audit (subagent, separate context, English-only) on four ch27
+  passages (the Duanwu sighting logic; the Long-Dong/Little-Phoenix "withdraw" beat; the Guangzhou
+  station-closure orders to Mo Shaoqiu; the wharf arrival). Back-translation recovered every
+  clause -- names, the closed liaison stations, the tide/time/berth details -- with no omission
+  or addition; the only variance was expected character-name homophone spellings.
+- Verbatim-quote check: the bilingual QC files are assembled by make_bilingual.py directly from
+  data/src/*.txt, so the source side is copied, never retyped.
+- Fact-check (subagents, web; Wikipedia/Baidu Baike/academic/government; NO AI-written sources,
+  and a stray Grokipedia hit was explicitly discarded). All annotated items corroborated: the
+  1925 dissolution of the Beijing Women's Normal University under Duan Qirui (minister Zhang
+  Shizhao; Lu Xun's involvement); Jessfield Park / 兆丰花园 (opened 1914; the swans are the novel's
+  touch, flagged uncorroborated); Plum Blossom Hill / 梅花山 (plums planted from 1929, young in
+  1933); the literary/ideological refs (Pushkin's Captain's Daughter, Kropotkin's Appeal to the
+  Young, Chen Duxiu's New Youth, Bakunin vs Lenin, the 1920 Chen Wangdao Manifesto, Lenin's 1917
+  Letters from Afar, the CCP journal Bolshevik 1927-32); the First United Front and the Western
+  Hills anti-communist right (1925); the Hongkou wharf district (Gonghexiang Wharf, East Broadway,
+  Wayside/N.Y.K./Yehsong/Shuntai firms); Shanghai borscht (罗宋汤, White-Russian origin); Cantonese
+  靓 "leng."
+
+### Notes added (11; running total 176)
+
+ch26 (6): the 1925 closure of the Beijing Women's Normal University (real; the Duan Qirui
+government via minister Zhang Shizhao); Zhaofeng Garden = Jessfield Park (real, opened 1914; swans
+the novel's own detail); the reading-list drift anchored on An Appeal to the Young (Pushkin /
+Kropotkin / New Youth; real); Bakunin vs Lenin (the anarchism-to-Marxism turn); the three Marxist
+titles anchored on Letters from Afar (Manifesto 1920 / Lenin 1917 / Bolshevik 1927-32); Plum
+Blossom Hill (real, over Sun Quan's tomb, plums from 1929). ch27 (5): the Nationalist right wing /
+First United Front and the Western Hills faction (real backdrop; Ye Qinian's speech invented); the
+Gonghexiang Wharf (real North-Bund dock; ch27 title); East Broadway and its real wharf firms
+(Wayside/N.Y.K./Yehsong/Shuntai); borscht (罗宋汤, White-Russian Shanghai); Cantonese 靓 "leng."
+Not re-noted: the Zhanyuan (瞻园, ch03/ch05), the Party Affairs Investigation Section (ch03),
+Nekrasov (ch12; the recited "storm" line is the same poem), Esperanto (ch12), the China Merchants
+Steam Navigation Co. (ch02), Duanwu (ch23), the Wusong bar (ch07), Jardine (ch21, first appeared),
+Xi Shi (ch03), Whampoa (ch23). No AI-written sources used.
+
+### Glossary rows added
+
+- people: 段祺瑞 Duan Qirui (real).
+- places (real): 兆丰花园 Zhaofeng Garden (Jessfield Park), 梅花山 Plum Blossom Hill, 秦淮河 the
+  Qinhuai River, 栖霞山 Qixia Hill, 石婆婆巷 Shipopo Lane, 道署街 Daoshu Street, 马府街 Mafu Street,
+  舟山群岛 the Zhoushan Archipelago, 公和祥码头 the Gonghexiang Wharf, 东百老汇路 East Broadway.
+- organizations (real): 怡和公司 the Jardine company, 汇山码头 the Wayside Wharf, 日本邮船会社 the
+  Japan Mail Steamship Company (N.Y.K.), 耶松船厂 the Yehsong Dockyard, 顺泰码头 the Shuntai Wharf,
+  北京女子师范大学 the Beijing Women's Normal University.
+
+### Scene typography
+
+ch26: 0 datelines + 2 breaks (into the Guangzhou flashback of Old Xiao's message aboard ship;
+into the long Ye Tao memory that fills the rest of the chapter). ch27: 0 datelines + 1 break
+(the cut from the night cabin to the mid-morning arrival at the Wusong bar and the wharf). Anchors
+verified against the reading files and confirmed in the built EPUB (grep class="brk": ch26 2,
+ch27 1; class="dateline": 0/0).
+
+### Build
+
+scripts/build_reading_epub.py out/thousand-li.epub: 27 of 37 units translated (epigraph + ch02 to
+ch27), 176 notes. qa_epub.py: PASS (47 files, 42 documents; 176 references = 176 bodies = 176
+backlinks; numbering sequential in reading order; all links resolve).

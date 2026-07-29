@@ -463,6 +463,12 @@
       "pinyin": "Xiao Fenghuang",
       "status": "decided",
       "note": "Stage name of the lead <i>huadan</i> of the Qunfangyan troupe in Guangzhou; Lu Zhongde’s (Yi Junnian’s) lover, who alone knows he lived. Fictional; the name means ‘little phoenix.’"
+    },
+    "段祺瑞": {
+      "en": "Duan Qirui",
+      "pinyin": "Duan Qirui",
+      "status": "attested",
+      "note": "Real. Warlord; Provisional Chief Executive (临时执政) of the Beijing government, 1924–1926. His ministry ordered the 1925 closure of the Beijing Women's Normal University."
     }
   },
   "organizations": {
@@ -723,6 +729,42 @@
       "pinyin": "Huangpu Junxiao",
       "status": "attested",
       "note": "Real. The Nationalist officers’ academy founded 1924 near Guangzhou under the first united front; Chiang Kai-shek commandant, Zhou Enlai head of its political department."
+    },
+    "怡和公司": {
+      "en": "the Jardine company",
+      "pinyin": "Jardine company",
+      "status": "attested",
+      "note": "Real. Jardine, Matheson & Co. (怡和洋行 / Ewo), the great British trading house; owner of the Guisheng. First appeared ch21."
+    },
+    "汇山码头": {
+      "en": "the Wayside Wharf",
+      "pinyin": "Wayside Wharf",
+      "status": "attested",
+      "note": "Real Hongkou wharf; 汇山 = 'Wayside.' Bought 1903 by the N.Y.K. line."
+    },
+    "日本邮船会社": {
+      "en": "the Japan Mail Steamship Company",
+      "pinyin": "Japan Mail Steamship Company",
+      "status": "attested",
+      "note": "Real. Nippon Yusen Kaisha (N.Y.K.), the Japanese shipping line."
+    },
+    "耶松船厂": {
+      "en": "the Yehsong Dockyard",
+      "pinyin": "Yehsong Dockyard",
+      "status": "attested",
+      "note": "Real British Shanghai shipyard (S. C. Farnham), later part of the English United Dock Company."
+    },
+    "顺泰码头": {
+      "en": "the Shuntai Wharf",
+      "pinyin": "Shuntai Wharf",
+      "status": "attested",
+      "note": "Real North Bund wharf, a Jardine Matheson dock."
+    },
+    "北京女子师范大学": {
+      "en": "the Beijing Women's Normal University",
+      "pinyin": "Beijing Women's Normal University",
+      "status": "attested",
+      "note": "Real. Ye Tao's school; dissolved by the Duan Qirui government in 1925. Noted ch26."
     }
   },
   "places": {
@@ -1397,6 +1439,66 @@
       "pinyin": "Beizhan",
       "status": "attested",
       "note": "Real. The Shanghai North Railway Station (上海北站), terminus of the Shanghai–Nanjing and Shanghai–Hangzhou lines; the ch. 33 title."
+    },
+    "兆丰花园": {
+      "en": "Zhaofeng Garden",
+      "pinyin": "Zhaofeng Garden",
+      "status": "attested",
+      "note": "Real. Jessfield Park, opened 1914 in western Shanghai (today Zhongshan Park). Noted ch26."
+    },
+    "梅花山": {
+      "en": "Plum Blossom Hill",
+      "pinyin": "Plum Blossom Hill",
+      "status": "attested",
+      "note": "Real. Hill on Purple Mountain, Nanjing, over Sun Quan's tomb; plum-viewing ground planted from 1929. Noted ch26."
+    },
+    "秦淮河": {
+      "en": "the Qinhuai River",
+      "pinyin": "Qinhuai River",
+      "status": "attested",
+      "note": "Real. Nanjing's historic river, by the Zhanyuan and the Confucius-temple quarter."
+    },
+    "栖霞山": {
+      "en": "Qixia Hill",
+      "pinyin": "Qixia Hill",
+      "status": "attested",
+      "note": "Real. Wooded mountain northeast of Nanjing, site of Qixia Temple."
+    },
+    "石婆婆巷": {
+      "en": "Shipopo Lane",
+      "pinyin": "Shipopo Lane",
+      "status": "attested",
+      "note": "Real Nanjing lane; Chen Qianli's lodging in the Nanjing flashback."
+    },
+    "道署街": {
+      "en": "Daoshu Street",
+      "pinyin": "Daoshu Street",
+      "status": "attested",
+      "note": "Real Nanjing street by the Zhanyuan; the gate of the Party Affairs Investigation Section fronts it."
+    },
+    "马府街": {
+      "en": "Mafu Street",
+      "pinyin": "Mafu Street",
+      "status": "attested",
+      "note": "Real Nanjing street, named for Zheng He's mansion; a snack-peddler's beat by the Zhanyuan."
+    },
+    "舟山群岛": {
+      "en": "the Zhoushan Archipelago",
+      "pinyin": "Zhoushan Archipelago",
+      "status": "attested",
+      "note": "Real island group off Zhejiang, on the Guangzhou–Shanghai coastal route."
+    },
+    "公和祥码头": {
+      "en": "the Gonghexiang Wharf",
+      "pinyin": "Gonghexiang Wharf",
+      "status": "attested",
+      "note": "Real Huangpu dock at the North Bund, Hongkou; ch27 title. Noted ch27."
+    },
+    "东百老汇路": {
+      "en": "East Broadway",
+      "pinyin": "Broadway",
+      "status": "attested",
+      "note": "Real Hongkou wharf road (today East Daming Road). Noted ch27."
     }
   },
   "terms": {
