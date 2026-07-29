@@ -123,5 +123,27 @@
       "Ten-odd minutes later Lin Shi pressed the electric bell",
       "Cui Wentai started the car and drove on"
     ]
+  },
+
+  "ch18": {
+    "datelines": [],
+    "breaks": [
+      "They had failed to reach the yard at the appointed hour",
+      "They were waiting for him in a house near Gujiazhai Park",
+      "Toward four o'clock Wei Dafu went out to the street"
+    ]
+  },
+
+  "ch19": {
+    "datelines": [],
+    "breaks": [
+      "After the failure of the Great Revolution, the underground network",
+      "Chen Qianli opened the door of the inner room"
+    ]
+  },
+
+  "ch20": {
+    "datelines": [],
+    "breaks": []
   }
 }

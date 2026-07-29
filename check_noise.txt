@@ -10,6 +10,8 @@
 # Personal names containing 千 (qian = 1000): the Chen brothers.
 陈千元
 陈千里
+# 十足十 = "done to perfection / a full ten out of ten" (idiom; must precede 十足)
+十足十
 # 十足 = "fully / utterly" (intensifier, not the count 10)
 十足
 # 百货公司/百货 = department store ("hundred goods", not the count 100)
@@ -61,3 +63,13 @@
 百褶
 # 千金之裘 / 千金 = "worth a fortune" (idiom; 千 not the count 1000)
 千金
+# 十七甫 = Shiqifu, a Guangzhou street/lane name (甫 = old street unit; 十七 not a count)
+十七甫
+# 五味子 = schisandra, a medicinal herb ("five-flavor berry"; 五 not a count)
+五味子
+# 五指毛桃 = hairy fig-root, a Cantonese soup herb ("five-finger" leaf; 五 not a count)
+五指毛桃
+# 八婆 = Cantonese for a gossipy/nosy woman (八 not a count)
+八婆
+# 两公婆 = Cantonese for a married couple / "the two of us as man and wife" (两 idiomatic, not a count)
+两公婆

@@ -429,3 +429,106 @@ confirmed rendered in the built EPUB (ch15 2, ch16 4, ch17 7). No datelines in t
 scripts/build_reading_epub.py out/thousand-li.epub: 17 of 37 units translated (epigraph + ch02-ch17),
 108 notes. qa_epub.py: PASS (47 files, 42 documents; 108 references = 108 bodies = 108 backlinks;
 numbering sequential in reading order; all links resolve).
+
+## Batch B06 (ch18 The Maochang Coal Company, ch19 February, ch20 The Xingchang Apothecary)
+
+190 source paragraphs translated (ch18 54, ch19 48, ch20 88). All apparatus in footnotes, never
+inline; the novel's own voice kept. ch18 is Chen Qianli's after-action reconstruction -- how the
+dying Old Fang's half-written 山, screened behind a drainpipe, pointed at the traitor's surname
+崔 (Cui) -- folded into the group's flight to the Zhaojiabang coal yard and Lin Shi's opening
+address on the national situation. ch19 turns to Ling Wen: her arrest and rescue after the Great
+Revolution, the bookshop where Yi Junnian first approached her over Rou Shi's novel February, and
+her taking command of the Guangzhou leg. ch20 crosses to Guangzhou -- a dense travelogue of real
+places -- where Mrs. Mo tells the story of the tall stranger who once saved her (taken for Long
+Dong), and a Ruijin courier, Old Xiao, carrying a secret oral order for the absent Lin Shi, must
+decide whether to entrust it to Ling Wen.
+
+### Checks run and results
+
+- Faithful verbatim quotation: bilingual QC files built by make_bilingual.py (reads data/src/ lines
+  VERBATIM, refuses on any paragraph-count mismatch). Built clean at 54 / 48 / 88 pairs.
+- Paragraph parity (check_structure.py --pairs): ch18 54=54, ch19 48=48, ch20 88=88, all OK.
+- Numeral invariants (check_numbers.py --noise check_noise.txt): all three chapters 0 unresolved.
+  Fixes: (a) seven non-quantity numerals added to check_noise.txt as names/idioms -- 十足十 ("done
+  to perfection", placed before 十足), 十七甫 (Shiqifu, a Guangzhou lane), 五味子 (schisandra) and
+  五指毛桃 (hairy fig-root, herb names), 八婆 (Cantonese "gossip") and 两公婆 (Cantonese "married
+  couple"). (b) "thirteenth" added to WORD_NUM for 老开 = 第十三张牌 (the King, the 13th card).
+  (c) real counts kept honest, not waived: 两天 rendered "two days", the clock times 半夜十二点 and
+  十二点前 rendered "twelve midnight" / "twelve o'clock" so the 12 survives. No real quantity waived.
+- Blind double-translation (check 2): a subagent in a separate context, given ONLY the source
+  Chinese of four argumentative/literary passages (the 山/崔 blood-clue; Lin Shi's political speech
+  on Ninghan/Ningyue and political tutelage; Wei Dafu's physiognomy insult; Old Xiao's cipher-and-
+  wireless reasoning), translated them fresh. Reached the same readings on all four; no substantive
+  divergence (it independently rendered 脑后见腮/反骨 as jowls jutting past the back of the head and
+  a rebel's bone, and 豪密 as a plain-code base worked by addition and subtraction, matching the note).
+- Back-translation / faithfulness audit (check 3): a second subagent, given six source+English pairs
+  across all three chapters, found every pair faithful -- no omission, no invented bridging, no number
+  or name error. Two micro-notes: 中央交通局 rendered "the Central Committee's Liaison Bureau" (adds
+  "Committee's", historically accurate and consistent with how 中央 is handled book-wide); and 极易出
+  现意外情况 was first rendered "ran the greatest risk of the unforeseen" -- tightened to "very readily
+  met the unexpected" to match 极易.
+- Deep audit (check 8): the ten passages above are roughly 5% of the batch and got the full paranoid
+  treatment (verbatim quote, double translation, back-translation/audit). Observed substantive error
+  rate: 0.
+- Fact-check against scholarship (check 7): four research subagents with web access, reputable sources
+  only (Wikipedia EN/ZH, Baidu Baike, PRC government / Party-history and university pages, Britannica,
+  a peer-reviewed climate journal); NO Grok / Grokipedia / AI sources. Every note labelled
+  real-vs-fictional and corroborated / uncorroborated / contradicted. Honest hedges recorded: the
+  first-edition cover of February was a Tao Yuanqing LINE DRAWING, not the woodcut the novel describes
+  (the note says so); the People's Palace was funded from seized SMUGGLER money, not the opium-boat
+  fines Mrs. Mo names (noted); the strike Labour College and Deng Zhongxia are real but the college's
+  siting on the Nanhua Building's fourth floor is the novel's detail; the Hao cipher's "pattern from
+  overuse" is Old Xiao's own reasoning, not a recorded break; the captured high-power radio telescopes
+  the 1930 Longgang "half radio" and the 1931 second-campaign 100-watt set into one; Zhu Huiri is a
+  real Guangzhou police chief (from Oct 1927), his exact 1933 tenure undocumented; Lu Zhongde and
+  Ouyang Min appear to be the novel's invention.
+
+### Footnote apparatus (rich, fact-checked)
+
+- Grew from 108 to 130 notes. ch18 (5): the French Concession Municipal Council (公董局, distinct from
+  the SMC); the 山/崔 blood-clue (a name legible only in the script); the 脑后见腮/反骨 physiognomy
+  allusion (Zhuge Liang reading Wei Yan's "bone of rebellion" in the Three Kingdoms); the Ninghan /
+  Ningyue mergers and the declaration of political tutelage (训政); the playing-card code names (Laokai
+  = the King, the 13th card). Redundant candidates dropped: the 1931 floods (already noted at ch14),
+  the Zhaojiabang (ch11), the Special Operations Headquarters (ch03). ch19 (4): Rou Shi's novella
+  February -- Chunchao Book Company 1929, Lu Xun's preface, its widow-and-two-children story, and Rou
+  Shi himself a Longhua martyr shot 7 Feb 1931, the same ground and month as this book; the cover
+  discrepancy (a Tao Yuanqing line drawing, not the novel's woodcut); the Relief Society (济难会 / China
+  Red Aid, which really hired lawyers to bail out arrested comrades); the stove-cat idiom (煨灶猫). The
+  Great Revolution was NOT re-noted (glossed and first appears at ch07; the 1927 collapse is covered by
+  the ch09 April Twelfth note). ch20 (13): Dashatou Station (Canton-Kowloon east terminus); Deng
+  Zhongxia and the strike Labour College; Chen Jitang's Guangdong; the Sincere Company rooftop; Shamian
+  (short, cross-referencing the ch15 Shaji-shooting note); Lingnan architecture (竹筒屋/骑楼/满洲窗); the
+  People's Palace; the 吊钟花 / Shuangmendi flower market; the Hao cipher (豪密, Zhou Enlai/Wu Hao); the
+  captured high-power radio and the Shanghai-Ruijin link; Zhu Huiri; the Guangzhou Republican Daily;
+  Lu Zhongde / Ouyang Min (fictional).
+
+### Glossary rows added
+
+- people: 莫少球 Boss Mo, 莫太太 Mrs. Mo, 老肖 Old Xiao, 卢忠德 Lu Zhongde, 欧阳民 Ouyang Min (all
+  fictional); 邓中夏 Deng Zhongxia, 陈济棠 Chen Jitang, 朱晖日 Zhu Huiri, 柔石 Rou Shi, 陶元庆 Tao
+  Yuanqing (real).
+- organizations: 济难会 the Relief Society, 劳动学院 the Labour College, 公董局 the French Concession
+  Municipal Council, 先施公司 the Sincere Company, 广州民国日报 the Guangzhou Republican Daily (all real).
+- places: 沙面 Shamian, 大沙头 Dashatou, 顾家宅公园 Gujiazhai Park, 平民宫 the People's Palace, 浆栏街
+  Jianglan Street, 双门底 Shuangmendi, 高第街 Gaodi Street (real); 茂昌煤号 the Maochang Coal Company,
+  兴昌药号 the Xingchang Apothecary, 添男茶楼 the Tiannan Teahouse, 南华楼 the Nanhua Building (settings).
+- terms: 二月 February (Rou Shi's novella), 吊钟花 hanging-bell flower, 竹筒屋 bamboo-tube house,
+  满洲窗 Manchu windows, 骑楼 arcade, 豪密 the Hao cipher (real); 煨灶猫 stove-cat (idiom).
+- Rendering consistency settled against earlier chapters: 交通站 = "liaison station", 交通局 =
+  "Liaison Bureau", 机要交通员 = "secret courier" (aligned with 特工总部 = "the Special Operations
+  Headquarters" from ch03; ch18's first-draft "Special Services Headquarters" was corrected).
+
+### Scene typography
+
+The source carries no dividers. ch18 has 3 hard cuts (Chen Qianli's after-action reconstruction; the
+Gujiazhai-Park safe house; the walk to the coal yard). ch19 has 2 (Ling Wen's flashback to her arrest
+and the bookshop; the return to the present as Chen Qianli opens the inner-room door). ch20 has 0 --
+one continuous Guangzhou afternoon. All 5 break anchors verified against the reading files and
+confirmed rendered in the built EPUB (ch18 3, ch19 2, ch20 0). No datelines in this batch.
+
+### Build
+
+scripts/build_reading_epub.py out/thousand-li.epub: 20 of 37 units translated (epigraph + ch02-ch20),
+130 notes. qa_epub.py: PASS (47 files, 42 documents; 130 references = 130 bodies = 130 backlinks;
+numbering sequential in reading order; all links resolve).

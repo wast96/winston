@@ -41,6 +41,9 @@ WORD_NUM = {
     # twentieth year of the Republic"). spelled_numbers only composes cardinals
     # like "twenty-two", so these ordinal forms must be declared here.
     "twentieth": 20, "twenty-first": 21, "twenty-second": 22,
+    # Ordinal for a playing-card rank in B06 (老开 = 第十三张牌 -> "the King, the
+    # thirteenth card in the deck"). "thirteen" is a built-in but the ordinal is not.
+    "thirteenth": 13,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}

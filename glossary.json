@@ -1,239 +1,1572 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (an established English name, or a real person/place/thing confirmed against scholarship), 'provisional' (romanization mine, not found in outside sources; the builder appends a visible marker), 'decided' (a project style call, e.g. standard pinyin of a fictional name). REAL vs FICTIONAL: the novel's principals (Chen Qianli, Ling Wen, Yi Junnian, Fang Yunping, You Tianxiao, Mu Chuan, Ye Qinian, etc.) are the author's invention set against a real historical backdrop; entries marked 'attested' for real historical figures/places note that they are documented. Sections are rendered as glossary headings; keys starting with '_' are ignored.",
-  "book": {},
-  "people": {
-    "卫达夫": {"en": "Wei Dafu", "pinyin": "Wei Dafu", "status": "decided", "note": "Communist agent ('Old Wei'); a street-runner for a house-letting agency. Fictional."},
-    "易君年": {"en": "Yi Junnian", "pinyin": "Yi Junnian", "status": "decided", "note": "Communist ('Old Yi'); Ling Wen's superior; keeps a painting-and-scroll shop. Fictional."},
-    "凌汶": {"en": "Ling Wen", "pinyin": "Ling Wen", "status": "decided", "note": "Communist; writer, author of the novel Winter; a merchant's widow. Fictional."},
-    "秦传安": {"en": "Qin Chuan'an", "pinyin": "Qin Chuan'an", "status": "decided", "note": "Communist; a doctor with his own clinic. Fictional."},
-    "田非": {"en": "Tian Fei", "pinyin": "Tian Fei", "status": "decided", "note": "Communist; library clerk who found the hidden meeting room. Fictional."},
-    "崔文泰": {"en": "Cui Wentai", "pinyin": "Cui Wentai", "status": "decided", "note": "A hired-car driver and Old Fang's courier; revealed in ch14 to be the mole 'Xi Shi,' who betrayed Old Fang to the enemy. Fictional."},
-    "林石": {"en": "Lin Shi", "pinyin": "Lin Shi", "status": "decided", "note": "Communist; clerk at the Rentai Bank; shot in the leg during the arrest. Fictional."},
-    "梁士超": {"en": "Liang Shichao", "pinyin": "Liang Shichao", "status": "decided", "note": "Prisoner; claims to have served in the Nineteenth Route Army; wounded fighting the encirclement campaigns. Fictional."},
-    "方云平": {"en": "Fang Yunping", "pinyin": "Fang Yunping", "status": "decided", "note": "Communist ('Old Fang'); the Shanghai underground's local head; missed the meeting; the gunman on Pu'enjishi Road; killed at his son's barbershop. Fictional."},
-    "小方": {"en": "Young Fang", "pinyin": "Fang", "status": "decided", "note": "Old Fang's son, a barber; taken in the raid on the barbershop. Fictional."},
-    "董慧文": {"en": "Dong Huiwen", "pinyin": "Dong Huiwen", "status": "decided", "note": "Communist; young schoolteacher at Minghui Primary School; close to Chen Qianyuan. Fictional."},
-    "陈千元": {"en": "Chen Qianyuan", "pinyin": "Chen Qianyuan", "status": "decided", "note": "Communist; a translator for a news agency; Chen Qianli's younger brother. Fictional."},
-    "陈千里": {"en": "Chen Qianli", "pinyin": "Chen Qianli", "status": "decided", "note": "Communist operative, the novel's central figure; trained three years in the USSR; Chen Qianyuan's elder brother. Fictional."},
-    "老开": {"en": "Old Kai", "pinyin": "Lao Kai", "status": "decided", "note": "Alias of the Central Liaison Bureau man arrested at the meeting, who was to convey the secret task. Distinct from Haohan. Fictional."},
-    "李汉": {"en": "Li Han", "pinyin": "Li Han", "status": "decided", "note": "A comrade whose elder brother died a martyr; named by Old Fang. Fictional."},
-    "老陆": {"en": "Old Lu", "pinyin": "Lu", "status": "decided", "note": "Day-shift attendant at the Shenxin Hotel. Fictional."},
-    "金先生": {"en": "Mr. Jin", "pinyin": "Jin", "status": "decided", "note": "A great Shanghai art collector in Yi Junnian's anecdote. Fictional."},
-    "龙冬": {"en": "Long Dong", "pinyin": "Long Dong", "status": "decided", "note": "Ling Wen's late husband, killed in Guangzhou; his name echoes her novel's title Winter (冬). Fictional."},
-    "浩瀚": {"en": "Haohan", "pinyin": "Haohan", "status": "decided", "note": "Working alias ('the vast') of a senior Communist leader the enemy is hunting. Fictional."},
-    "游天啸": {"en": "You Tianxiao", "pinyin": "You Tianxiao", "status": "decided", "note": "Captain of the Longhua detective squad; secret man of the Party Affairs Investigation Section. Fictional."},
-    "穆川": {"en": "Mu Chuan", "pinyin": "Mu Chuan", "status": "decided", "note": "Director of the garrison's Judge Advocate's office; You Tianxiao's nominal superior. Fictional."},
-    "叶启年": {"en": "Ye Qinian", "pinyin": "Ye Qinian", "status": "decided", "note": "You Tianxiao's teacher; deputy director of the Special Operations Headquarters. Fictional."},
-    "马秘书": {"en": "Secretary Ma", "pinyin": "Ma", "status": "decided", "note": "Ye Qinian's aide in Nanjing. Fictional."},
-    "姚探长": {"en": "Detective Yao", "pinyin": "Yao", "status": "decided", "note": "Chinese detective of the Settlement's Central Police Station. Fictional."},
-    "翁副官": {"en": "Adjutant Weng", "pinyin": "Weng", "status": "decided", "note": "A Cantonese staff officer about the Garrison Command. Fictional; distinct from the real Brigade Commander Weng."},
-    "翁照垣": {"en": "Brigade Commander Weng", "pinyin": "Weng Zhaoyuan", "status": "attested", "note": "Real. Weng Zhaoyuan (1892-1972) of the Nineteenth Route Army, who held Zhabei in the Jan 28 1932 fighting; invoked in Liang Shichao's cover story."},
-    "蔡军长": {"en": "Commander Cai", "pinyin": "Cai", "status": "attested", "note": "Real. The Nineteenth Route Army's general Cai Tingkai (蔡廷锴)."},
-    "宋先生": {"en": "Mr. Song", "pinyin": "Song", "status": "decided", "note": "The man arranging Miss Tao's release and marriage; with Mrs. Song (宋太太). Fictional."},
-    "陶小姐": {"en": "Miss Tao", "pinyin": "Tao", "status": "decided", "note": "A cellmate of Ling Wen and Dong Huiwen; released, and made to carry Ling Wen's letter. Fictional."},
-    "蒋介石": {"en": "Chiang Kai-shek", "pinyin": "Jiang Jieshi", "status": "attested", "note": "Real. Nationalist leader ('the Generalissimo,' 委员长); directing the anti-Communist campaigns from Nanchang in 1932-33."},
-    "委员长": {"en": "the Generalissimo", "pinyin": "weiyuanzhang", "status": "attested", "note": "Chiang Kai-shek, in his title as chairman of the Military Affairs Commission."},
-    "李国杰": {"en": "Li Guojie", "pinyin": "Li Guojie", "status": "attested", "note": "Real. Grandson of Li Hongzhang; principal of the 1933 China Merchants embezzlement case, sentenced to eight years."},
-    "李鸿章": {"en": "Li Hongzhang", "pinyin": "Li Hongzhang", "status": "attested", "note": "Real. Late-Qing statesman, founder of China Merchants; the 'Grand Secretary Li' (李中堂) of the gossip."},
-    "陈孚木": {"en": "Chen Fumu", "pinyin": "Chen Fumu", "status": "attested", "note": "Real. A go-between in the China Merchants case."},
-    "杜月笙": {"en": "Du Yuesheng", "pinyin": "Du Yuesheng", "status": "attested", "note": "Real. Shanghai Green Gang boss and Nationalist ally; the 'tycoon Du' (杜大亨)."},
-    "慈禧太后": {"en": "Empress Dowager Cixi", "pinyin": "Cixi", "status": "attested", "note": "Real. The late-Qing regent; she gave Li Guojie an imperial guard's post."},
-    "徐枕亚": {"en": "Xu Zhenya", "pinyin": "Xu Zhenya", "status": "attested", "note": "Real. Patriarch of the 'Mandarin Ducks and Butterflies' romance school (author of Yulihun); name-dropped by Miss Tao."},
-    "金焰": {"en": "Jin Yan", "pinyin": "Jin Yan", "status": "attested", "note": "Real. Korea-born film star, the 'Emperor of Film'; led the Lianhua film Cuckoo Soul Abroad."},
-    "鲁迅": {"en": "Lu Xun", "pinyin": "Lu Xun", "status": "attested", "note": "Real. The great writer, patron of the League of Left-Wing Writers; co-edited The Outpost and mourned the Longhua martyrs."},
-    "冯雪峰": {"en": "Feng Xuefeng", "pinyin": "Feng Xuefeng", "status": "attested", "note": "Real. Left-wing critic and Party literary figure; co-edited The Outpost with Lu Xun."},
-    "陈赓": {"en": "Chen Geng", "pinyin": "Chen Geng", "status": "attested", "note": "Real. Red Army commander and intelligence figure; met Lu Xun secretly in Shanghai in 1932."},
-    "孙中山": {"en": "Sun Yat-sen", "pinyin": "Sun Zhongshan", "status": "attested", "note": "Real. 'Mr. Sun,' founder of the Republic; visited the Yihong Garden more than once in 1912-13."},
-    "玛琳·黛德丽": {"en": "Marlene Dietrich", "pinyin": "Malin Daideli", "status": "attested", "note": "Real. German-American film star, of Shanghai Express (1932); on the Grand Theatre poster."},
-    "仇英": {"en": "Qiu Ying", "pinyin": "Qiu Ying", "status": "attested", "note": "Real. Ming master painter, one of the Four Masters of the Ming; much forged."},
-    "吴四宝": {"en": "Wu Sibao", "pinyin": "Wu Sibao", "status": "attested", "note": "Shares the name of a real figure (c.1904-1942): a racecourse groom turned chauffeur who rose through the Green Gang and later led the armed unit of the collaborationist 'No. 76' secret service. The novel's minor tenant ('Little Bao') borrows the man and his groom-to-driver rise; his role here is fictional."},
-    "吴作民": {"en": "Assistant Manager Wu", "pinyin": "Wu Zuomin", "status": "decided", "note": "Wu Zuomin, assistant manager (襄理) at the Zhonghui Trust Bank; addressee of Lin Shi's coded letter. Fictional."},
-    "金德林": {"en": "Jin Delin", "pinyin": "Jin Delin", "status": "decided", "note": "'Young Jin,' a former street-runner at the house-letting agency once used as Yi Junnian's letter-drop; left the job last year. Fictional."},
-    "叶桃": {"en": "Ye Tao", "pinyin": "Ye Tao", "status": "decided", "note": "Ye Qinian's daughter and Chen Qianli's love; already dead when the novel opens, her death (which Chen blames on her father) drives both men. First named in ch12. Fictional. Her given name 桃 ('peach') puns on the peach-blossom letter-paper."},
-    "小五子": {"en": "Xiaowuzi", "pinyin": "Xiaowuzi", "status": "decided", "note": "The woman for whom Cui Wentai loses his head, part of what tips him into betrayal. Fictional."},
-    "少山": {"en": "Comrade Shaoshan", "pinyin": "Shaoshan", "status": "attested", "note": "Real. 少山 was a genuine cover name of Zhou Enlai (周恩来) in the Shanghai underground (attested in the 1932 'Wu Hao Incident'). The novel uses it as the figure who routes Chen Qianli to the USSR; Zhou had in fact left Shanghai by late 1931, so the early-1933 scene is a compressed, literary use of the alias."},
-    "秦邦宪": {"en": "Qin Bangxian", "pinyin": "Qin Bangxian", "status": "attested", "note": "Real. 'Bo Gu' (博古, 1907-1946), de facto head of the CCP's Provisional Central; his signed article in Red China signals to Ye Qinian that the Provisional Central was moving from Shanghai to Ruijin in early 1933."},
-    "陈立夫": {"en": "Chen Lifu", "pinyin": "Chen Lifu", "status": "attested", "note": "Real. 'Mr. Lifu' (立夫先生, 1900-2001); with his brother Chen Guofu the boss of the KMT 'CC Clique,' head of the Central Organization Department over the Party Affairs Investigation Section; the man Ye Qinian works through at headquarters."},
-    "沙逊": {"en": "Sassoon", "pinyin": "Shaxun", "status": "attested", "note": "Real. Sir Victor Sassoon, the magnate who built the Cathay Hotel / Sassoon House on the Bund; Ye Qinian pointedly lodges 'in Sassoon's own house.'"},
-    "涅克拉索夫": {"en": "Nekrasov", "pinyin": "Niekelasuofu", "status": "attested", "note": "Real. Nikolai Nekrasov (1821-1877), Russian poet; the brothers' countersign adapts a line from his early love lyric 'The Storm' (Burya)."},
-    "小施": {"en": "Little Shi", "pinyin": "Shi", "status": "decided", "note": "Safe-deposit clerk at the Zhonghui Trust Bank; passed off by Miss Tao as her cousin and placed in the bank by Mr. Song. Fictional."},
-    "纪先生": {"en": "Mr. Ji", "pinyin": "Ji", "status": "decided", "note": "The wealthy-collector cover name under which Chen Qianli enters the bank vault in ch17. A Chen Qianli alias; fictional."},
-    "王金枝": {"en": "Wang Jinzhi", "pinyin": "Wang Jinzhi", "status": "decided", "note": "The murdered Taikoo-steamer head steward of Cui Wentai's gold-bar anecdote; apparently the novel's invention (no such case is attested). Fictional."},
-    "陶希圣": {"en": "Professor Tao", "pinyin": "Tao Xisheng", "status": "attested", "note": "Real. Tao Xisheng (1899-1988), a theorist of the Three Principles at National Central University from 1931; later ghostwrote Chiang Kai-shek's China's Destiny (1943). The 'Professor Tao of Central University' whose book Ye Qinian recommends; a specific 1933 anti-Communist primer by him is not documented."},
-    "宋子文": {"en": "T. V. Soong", "pinyin": "Song Ziwen", "status": "attested", "note": "Real. Nationalist finance minister 1928-1933; evoked (unnamed) by the hint that 'Mr. Song's' elder brother is a great personage and the bank does Ministry of Finance bond business."}
+ "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (an established English name, or a real person/place/thing confirmed against scholarship), 'provisional' (romanization mine, not found in outside sources; the builder appends a visible marker), 'decided' (a project style call, e.g. standard pinyin of a fictional name). REAL vs FICTIONAL: the novel's principals (Chen Qianli, Ling Wen, Yi Junnian, Fang Yunping, You Tianxiao, Mu Chuan, Ye Qinian, etc.) are the author's invention set against a real historical backdrop; entries marked 'attested' for real historical figures/places note that they are documented. Sections are rendered as glossary headings; keys starting with '_' are ignored.",
+ "book": {},
+ "people": {
+  "卫达夫": {
+   "en": "Wei Dafu",
+   "pinyin": "Wei Dafu",
+   "status": "decided",
+   "note": "Communist agent ('Old Wei'); a street-runner for a house-letting agency. Fictional."
   },
-  "organizations": {
-    "工部局": {"en": "Shanghai Municipal Council", "pinyin": "Gongbuju", "status": "attested", "note": "Real. Governing body of the foreign-run International Settlement."},
-    "巡捕房": {"en": "the Municipal Police", "pinyin": "xunbufang", "status": "attested", "note": "Real. The Settlement's police (and, by extension, a police station); the Central Station is 中央捕房."},
-    "侦缉队": {"en": "the detective squad", "pinyin": "zhenjidui", "status": "decided", "note": "The Longhua garrison's plainclothes criminal-investigation squad, under You Tianxiao."},
-    "军法处": {"en": "the Judge Advocate's office", "pinyin": "junfachu", "status": "attested", "note": "Real. The garrison's military-justice department; its head (处长) is rendered 'Director'."},
-    "淞沪警备司令部": {"en": "the Songhu Garrison Command", "pinyin": "Songhu jingbei silingbu", "status": "attested", "note": "Real. The Shanghai-Woosung garrison HQ at Longhua; also 龙华警备司令部, 'the Longhua Garrison Command'; the site of the 1931 executions."},
-    "党务调查科": {"en": "the Party Affairs Investigation Section", "pinyin": "dangwu diaochake", "status": "attested", "note": "Real. Kuomintang political-intelligence organ; forerunner of the wartime Bureau of Investigation and Statistics (中统)."},
-    "特工总部": {"en": "the Special Operations Headquarters", "pinyin": "tegong zongbu", "status": "attested", "note": "Insiders' name for the Investigation Section's Nanjing base at the Zhanyuan."},
-    "中央组织部": {"en": "the Central Organization Department", "pinyin": "zhongyang zuzhibu", "status": "attested", "note": "Real. The Kuomintang organ over the Investigation Section."},
-    "中央交通局": {"en": "the Central Liaison Bureau", "pinyin": "Zhongyang jiaotongju", "status": "attested", "note": "The Party's clandestine courier and liaison organ; 'Old Kai' belonged to it."},
-    "十九路军": {"en": "the Nineteenth Route Army", "pinyin": "shijiu lujun", "status": "attested", "note": "Real. Cantonese army that fought the Japanese at Shanghai in 1932, later sent against Communists in Fujian."},
-    "斧头帮": {"en": "the Hatchet Gang", "pinyin": "futoubang", "status": "attested", "note": "Shanghai assassins' gang; linked to the killing of the China Merchants director."},
-    "招商局": {"en": "the China Merchants Steam Navigation Company", "pinyin": "Zhaoshangju", "status": "attested", "note": "Real. Founded by Li Hongzhang; center of the 1933 embezzlement scandal."},
-    "向导": {"en": "The Guide Weekly", "pinyin": "Xiangdao", "status": "attested", "note": "Real. The Chinese Communist Party's central organ of the 1920s; Haohan published in it."},
-    "前哨": {"en": "The Outpost", "pinyin": "Qianshao", "status": "attested", "note": "Real. Organ of the League of Left-Wing Writers; its 1931 first issue mourned the Longhua martyrs."},
-    "左联": {"en": "the Left League", "pinyin": "Zuolian", "status": "attested", "note": "Real. The League of Left-Wing Writers (Shanghai, 1930); five members among the 1931 Longhua martyrs."},
-    "国际通讯社": {"en": "the International News Agency", "pinyin": "Guoji tongxunshe", "status": "decided", "note": "Chen Qianyuan's workplace, translating wire dispatches."},
-    "申报": {"en": "Shen Bao", "pinyin": "Shen Bao", "status": "attested", "note": "Real. The major Shanghai newspaper, founded 1872."},
-    "房屋经租处": {"en": "the house-letting agency", "pinyin": "fangwu jingzuchu", "status": "decided", "note": "A property-letting and rent-collecting office; Wei Dafu's cover, through which safe houses were rented."},
-    "南昌行营": {"en": "the Nanchang Field Headquarters", "pinyin": "Nanchang xingying", "status": "attested", "note": "Real. Chiang Kai-shek's field HQ (formally from May 1933) for the anti-Communist campaigns."},
-    "国民党": {"en": "the Kuomintang", "pinyin": "Guomindang", "status": "attested", "note": "Real. The Nationalist Party; 'the Nationalists'."},
-    "山卡罗氏歌剧团": {"en": "the San Carlo", "pinyin": "Shankaluo geju tuan", "status": "attested", "note": "Real. A touring Italian opera company; staging Turandot at the Carlton in the novel (the Shanghai run itself unconfirmed)."},
-    "中汇信托银行": {"en": "the Zhonghui Trust Bank", "pinyin": "Zhonghui", "status": "attested", "note": "Real. The Zhonghui Bank (中汇银行), founded 1929 by the Green Gang boss Du Yuesheng; it had a real trust department and safe-deposit vault. 'Trust Bank' renders the novel's 信托银行."},
-    "仁泰银公司": {"en": "the Rentai Bank Company", "pinyin": "Rentai", "status": "decided", "note": "Lin Shi's cover employer; a realistic native-bank name, unattested and likely fictional."},
-    "东陆经租处": {"en": "the Donglu house-letting agency", "pinyin": "Donglu", "status": "decided", "note": "Wei Dafu's employer, a house-letting agency (经租处). Fictional."},
-    "冠生园": {"en": "Guanshengyuan", "pinyin": "Guanshengyuan", "status": "attested", "note": "Real. Famous Shanghai food-and-confectionery company (founded 1915 by Xian Guansheng), noted for pastries and mooncakes."},
-    "云禄车行": {"en": "the Yunlu firm", "pinyin": "Yunlu cheshang", "status": "decided", "note": "The car-hire firm ('Yunlu Motor-Hire') whose Buick You Tianxiao hires to enter the Settlement. Fictional."},
-    "红色中华": {"en": "Red China", "pinyin": "Hongse Zhonghua", "status": "attested", "note": "Real. Organ of the Chinese Soviet Republic's central government, first published at Ruijin on 11 Dec 1931; a copy of it is the enemy's clue that the Party center is at Ruijin."},
-    "工人纠察队": {"en": "the workers' pickets", "pinyin": "gongren jiuchadui", "status": "attested", "note": "Real. The armed labor militia of the CCP-led Shanghai workers' uprisings of 1926-27; disarmed and massacred in Chiang's 12 April 1927 coup."},
-    "临时中央": {"en": "the Provisional Central", "pinyin": "linshi zhongyang", "status": "attested", "note": "Real. The CCP's Provisional Central (Politburo) run in Shanghai under Bo Gu; it relocated to the Central Soviet at Ruijin in early 1933."},
-    "裕记钱庄": {"en": "the Yuji native bank", "pinyin": "Yuji qianzhuang", "status": "decided", "note": "The native bank half-funded by the Special Operations Headquarters, used as Ye Qinian's command post opposite the bank. Fictional."},
-    "南市警察署": {"en": "the Nanshi Police Bureau", "pinyin": "Nanshi jingchashu", "status": "attested", "note": "Real institution. The Chinese-city police of Nanshi, one of Shanghai's three separate forces (with the Settlement's Municipal Police and the French Concession police); the Chinese municipal force was headquartered in Nanshi. The exact station name is the novel's label."},
-    "太古": {"en": "Taikoo", "pinyin": "Taigu", "status": "attested", "note": "Real. Butterfield and Swire; its China Navigation Company (founded 1872) ran Yangtze steamers Shanghai-Hankou. The 'Taikoo steamer' of Cui Wentai's anecdote."}
+  "易君年": {
+   "en": "Yi Junnian",
+   "pinyin": "Yi Junnian",
+   "status": "decided",
+   "note": "Communist ('Old Yi'); Ling Wen's superior; keeps a painting-and-scroll shop. Fictional."
   },
-  "places": {
-    "龙华": {"en": "Longhua", "pinyin": "Longhua", "status": "attested", "note": "Real. District southwest of Shanghai; seat of the garrison and its prison; site of the 1931 martyrs."},
-    "玄武湖": {"en": "Xuanwu Lake", "pinyin": "Xuanwu Lake", "status": "attested", "note": "Real. Lake against the northeastern wall of Nanjing."},
-    "四马路": {"en": "Fourth Avenue", "pinyin": "Simalu", "status": "attested", "note": "Real. Today Fuzhou Road; books, theaters, brothels, and the 1930 produce market."},
-    "三马路": {"en": "Third Avenue", "pinyin": "Sanmalu", "status": "attested", "note": "Real. Today Hankou Road, parallel to Fourth Avenue."},
-    "浙江大戏院": {"en": "the Zhejiang Grand Theater", "pinyin": "Zhejiang Daxiyuan", "status": "attested", "note": "Real. Hudec's cinema of c.1930 at 123 Zhejiang Middle Road, facing the Fourth Avenue market (the author's named location, not the later 大上海大戏院)."},
-    "世界大旅社": {"en": "the World Hotel", "pinyin": "Shijie Daluoshe", "status": "decided", "note": "A hotel topped by a roof-garden amusement ground (carousel, skating rink, billiards) over the Fourth Avenue market; such rooftop gardens were a real feature of the district. Sources consulted differ on whether this specific establishment is documented; distinct from the Great World (大世界)."},
-    "大光明大戏院": {"en": "the Grand Theatre", "pinyin": "Daguangming Daxiyuan", "status": "attested", "note": "Real. Shanghai's premier cinema; Hudec's Art Deco rebuild completed mid-1933."},
-    "卡尔登大戏院": {"en": "the Carlton Theatre", "pinyin": "Ka'erdeng Daxiyuan", "status": "attested", "note": "Real. Theater on Park Road (today Huanghe Road)."},
-    "兰心大戏院": {"en": "the Lyceum Theatre", "pinyin": "Lanxin Daxiyuan", "status": "attested", "note": "Real. The Settlement's foreign theater, by its standing English name; 1931 building on today's Maoming Road S."},
-    "派克路": {"en": "Park Road", "pinyin": "Paike Lu", "status": "attested", "note": "Real. Today Huanghe Road, off West Nanjing Road."},
-    "跑马场": {"en": "the racecourse", "pinyin": "paomachang", "status": "attested", "note": "Real. The Shanghai Race Club course (also 跑马厅); its grounds are today People's Square and People's Park."},
-    "跑马厅路": {"en": "Racecourse Road", "pinyin": "Paomating Lu", "status": "decided", "note": "The road beside the Race Club."},
-    "四行储蓄会大楼": {"en": "the Four Banks' Savings Society building", "pinyin": "Sihang chuxuhui dalou", "status": "attested", "note": "Real. The Park Hotel (国际饭店), Hudec, completed 1934; long the tallest building in Asia."},
-    "马立斯大楼": {"en": "the Morriss Building", "pinyin": "Malisi dalou", "status": "provisional", "note": "'Morriss' (马立斯) renders the British Morriss family (North-China Daily News); the specific building by the racecourse is not separately documented."},
-    "德国医院": {"en": "the German Hospital", "pinyin": "Deguo yiyuan", "status": "attested", "note": "Real. The Paulun Hospital (宝隆医院) in the Settlement; where Dr. Qin trained."},
-    "白云观": {"en": "Baiyunguan", "pinyin": "Baiyunguan", "status": "attested", "note": "Real. 'White Cloud Temple,' a Daoist temple in the old Chinese city; used here as a detective-squad base."},
-    "同春坊": {"en": "Tongchun Lane", "pinyin": "Tongchunfang", "status": "decided", "note": "Lane running to the gate of the Gezhi school and Minghui Primary School."},
-    "格致公学": {"en": "the Gezhi Public School", "pinyin": "Gezhi Gongxue", "status": "attested", "note": "Real. English-style boys' school run by the Municipal Council; today Shanghai Gezhi High School."},
-    "苏州河": {"en": "Suzhou Creek", "pinyin": "Suzhou He", "status": "attested", "note": "Real. The creek down which the market's produce is boated in."},
-    "金利源码头": {"en": "the Jinliyuan Wharf", "pinyin": "Jinliyuan matou", "status": "decided", "note": "Shanghai wharf; among those mortgaged in the China Merchants case."},
-    "报恩塔": {"en": "the Bao'en Pagoda", "pinyin": "Bao'en Ta", "status": "attested", "note": "Real. The ancient Longhua Pagoda (standardly 龙华塔); 'Bao'en Pagoda' is a traditional alternate name for it."},
-    "南市": {"en": "Nanshi", "pinyin": "Nanshi", "status": "attested", "note": "Real. The old Chinese city south of the Settlement."},
-    "枫林桥": {"en": "Fenglin Bridge", "pinyin": "Fenglin Qiao", "status": "decided", "note": "Landmark on the road out to Longhua."},
-    "老闸捕房": {"en": "the Laozha Police Station", "pinyin": "Laozha bufang", "status": "decided", "note": "Settlement police station; Ling Wen is first held here."},
-    "明惠小学": {"en": "Minghui Primary School", "pinyin": "Minghui Xiaoxue", "status": "decided", "note": "Where Dong Huiwen teaches."},
-    "南京路": {"en": "Nanjing Road", "pinyin": "Nanjing Lu", "status": "attested", "note": "Real. Shanghai's grand commercial street; opposed to grim Longhua."},
-    "徐家汇": {"en": "Xujiahui", "pinyin": "Xujiahui", "status": "attested", "note": "Real. District with the postal sub-office named as the letter's drop."},
-    "普恩济世路": {"en": "Pu'enjishi Road", "pinyin": "Pu'enjishi Lu", "status": "provisional", "note": "Shanghai street where Fang Yunping opened fire."},
-    "圣母院路": {"en": "Shengmuyuan Road", "pinyin": "Shengmuyuan Lu", "status": "provisional", "note": "Shanghai street ('Convent Road') giving off Pu'enjishi Road."},
-    "小浜湾": {"en": "Xiaobangwan", "pinyin": "Xiaobangwan", "status": "provisional", "note": "A creek-bend and lane by Pu'enjishi Road."},
-    "申新旅社": {"en": "the Shenxin Hotel", "pinyin": "Shenxin Luoshe", "status": "decided", "note": "The hotel where Chen Qianli lodges under his antiques-dealer cover."},
-    "北四川路": {"en": "North Sichuan Road", "pinyin": "Bei Sichuan Lu", "status": "attested", "note": "Real. Today Sichuan North Road; heart of the 1930s left-wing literary quarter in Hongkou."},
-    "公益坊": {"en": "Gongyi Lane", "pinyin": "Gongyifang", "status": "attested", "note": "Real. Lane off North Sichuan Road, a node of left-wing publishing (Shuimo and Xinken bookshops)."},
-    "扆虹园": {"en": "the Yihong Garden", "pinyin": "Yihong Yuan", "status": "attested", "note": "Real. Cantonese garden-mansion in the North Sichuan Road area; visited by Sun Yat-sen in 1912-13."},
-    "下关": {"en": "Xiaguan", "pinyin": "Xiaguan", "status": "attested", "note": "Real. Nanjing's riverside district and railway station on the Yangtze."},
-    "鸡鸣寺": {"en": "Jiming Temple", "pinyin": "Jiming Si", "status": "attested", "note": "Real. Temple by the Nanjing city wall, passed on the drive."},
-    "神策门": {"en": "the Shence Gate", "pinyin": "Shence Men", "status": "attested", "note": "Real. Gate in the Ming wall of Nanjing."},
-    "瞻园": {"en": "the Zhanyuan", "pinyin": "Zhanyuan", "status": "attested", "note": "Real. Nanjing garden housing the Special Operations Headquarters."},
-    "明城墙": {"en": "the Ming city wall", "pinyin": "Ming chengqiang", "status": "attested", "note": "Real. The great Ming-dynasty wall of Nanjing, along Xuanwu Lake."},
-    "新京": {"en": "Xinjing", "pinyin": "Xinjing", "status": "attested", "note": "Real. 'New Capital,' Manchukuo's capital, today Changchun."},
-    "满洲国": {"en": "Manchukuo", "pinyin": "Manzhouguo", "status": "attested", "note": "Real. The Japanese puppet state in the occupied Northeast, proclaimed 1932."},
-    "北平": {"en": "Beiping", "pinyin": "Beiping", "status": "attested", "note": "Real. Beijing's name in 1928-49; source of the evacuated Palace Museum treasures."},
-    "山海关": {"en": "Shanhaiguan", "pinyin": "Shanhaiguan", "status": "attested", "note": "Real. Great Wall pass at the sea, taken by Japan Jan 1933."},
-    "伯力": {"en": "Khabarovsk", "pinyin": "Boli", "status": "attested", "note": "Real. City in the Soviet Far East; site of Chen Qianli's training school."},
-    "海参崴": {"en": "Vladivostok", "pinyin": "Haishenwai", "status": "attested", "note": "Real. Soviet Pacific port on Chen Qianli's route home."},
-    "青岛": {"en": "Qingdao", "pinyin": "Qingdao", "status": "attested", "note": "Real. Port where the unexpected visitor boards Chen Qianli's ship."},
-    "吴淞口": {"en": "the Wusong bar", "pinyin": "Wusongkou", "status": "attested", "note": "Real. The mouth of the Huangpu at the Yangtze estuary off Shanghai."},
-    "故宫博物院": {"en": "the Palace Museum", "pinyin": "Gugong Bowuyuan", "status": "attested", "note": "Real. The Beiping museum whose treasures were evacuated south in 1933."},
-    "马立斯新村": {"en": "the Morriss Estate", "pinyin": "Malisi Xincun", "status": "decided", "note": "The lane-house estate where Ling Wen sublets; the Morriss name (see the Morriss Building) is attested, this specific estate the novel's setting."},
-    "虹口公园": {"en": "Hongkou Park", "pinyin": "Hongkou Gongyuan", "status": "attested", "note": "Real. The largest public park of foreign Shanghai, in Hongkou; today Lu Xun Park (鲁迅公园). Site of the 29 April 1932 Yun Bong-gil bombing."},
-    "静安寺": {"en": "Jing'an Temple", "pinyin": "Jing'an Si", "status": "attested", "note": "Real. Ancient Buddhist temple on Bubbling Well Road (today Nanjing West Road); famed for the New Year 'first incense.'"},
-    "同福里": {"en": "Tongfu Li", "pinyin": "Tongfu Li", "status": "decided", "note": "The lane housing Qin Chuan'an's clinic; a realistic but unattested Shanghai lilong name. Likely fictional."},
-    "三成坊": {"en": "Sancheng Fang", "pinyin": "Sancheng Fang", "status": "decided", "note": "Sub-lane of Tongfu Li at the clinic; realistic but unattested. Likely fictional."},
-    "田谷邨": {"en": "the Tiangu Estate", "pinyin": "Tiangu Cun", "status": "provisional", "note": "A new-style lilong on the real Yuyuan Road; unattested by that name (echoes the actual 愚谷邨, Yugu Cun). Street and building type are real."},
-    "愚园路": {"en": "Yuyuan Road", "pinyin": "Yuyuan Lu", "status": "attested", "note": "Real. Exclusive residential road in western Shanghai; still Yuyuan Road."},
-    "地丰路": {"en": "Difeng Road", "pinyin": "Difeng Lu", "status": "attested", "note": "Real. Rue Tifeng; today Urumqi North Road (乌鲁木齐北路)."},
-    "海格路": {"en": "Haige Road", "pinyin": "Haige Lu", "status": "attested", "note": "Real. Avenue Haig (after Field Marshal Douglas Haig); today Huashan Road (华山路)."},
-    "善钟路": {"en": "Shanzhong Road", "pinyin": "Shanzhong Lu", "status": "attested", "note": "Real. Rue Say Zoong, the sole French Concession road named for a Chinese (the land magnate Tao Shanzhong); today Changshu Road (常熟路)."},
-    "赵主教路": {"en": "Zhaozhujiao Road", "pinyin": "Zhaozhujiao Lu", "status": "attested", "note": "Real. Route Monseigneur Maresca, after the Catholic bishop of Nanjing Francesco Maresca (赵方济); today Wuyuan Road (五原路)."},
-    "马斯南路": {"en": "Massenet Road", "pinyin": "Masinan Lu", "status": "attested", "note": "Real. Rue Massenet, after the composer Jules Massenet; today Sinan Road (思南路). The recognition-signal address."},
-    "肇嘉浜": {"en": "Zhaojiabang", "pinyin": "Zhaojiabang", "status": "attested", "note": "Real. A commercial/industrial creek lined with wharves and yards in the 1930s; filled in 1954-56 to become Zhaojiabang Road."},
-    "提篮桥监狱": {"en": "Tilanqiao Prison", "pinyin": "Tilanqiao jianyu", "status": "attested", "note": "Real. The 'Ward Road Gaol' in Hongkou, built by the International Settlement and opened 1903; long one of the largest prisons in the Far East ('Far East's No. 1 prison')."},
-    "华懋饭店": {"en": "the Cathay Hotel", "pinyin": "Huamao fandian", "status": "attested", "note": "Real. Victor Sassoon's Art Deco hotel on the Bund (Sassoon House, opened 1929); today the north building of the Peace Hotel (和平饭店). Its revolving door gives the chapter its title."},
-    "澄衷中学": {"en": "Chengzhong Middle School", "pinyin": "Chengzhong zhongxue", "status": "attested", "note": "Real. School in Hongkou founded 1900 by the merchant Ye Chengzhong (叶澄衷); still exists as Shanghai Chengzhong High School."},
-    "下海庙": {"en": "the Xiahai Temple", "pinyin": "Xiahai Miao", "status": "attested", "note": "Real. A popular folk temple in the Tilanqiao area of Hongkou."},
-    "新闸路": {"en": "Xinzha Road", "pinyin": "Xinzha Lu", "status": "attested", "note": "Real. Shanghai road where Ye Qinian's old lane house (and its anarchist salon) stood in Chen Qianli's student days; still Xinzha Road."},
-    "仁记路": {"en": "Renji Road", "pinyin": "Renji Lu", "status": "attested", "note": "Real. Jinkee Road, a narrow street of foreign-firm buildings behind the Bund (today part of Dianchi Road)."},
-    "外滩": {"en": "the Bund", "pinyin": "Waitan", "status": "attested", "note": "Real. Shanghai's riverfront boulevard of foreign banks and hotels along the Huangpu."},
-    "黄浦江": {"en": "the Huangpu River", "pinyin": "Huangpu Jiang", "status": "attested", "note": "Real. The river through Shanghai; the Bund runs along its west bank."},
-    "董家渡": {"en": "Dongjiadu", "pinyin": "Dongjiadu", "status": "attested", "note": "Real. A riverside district of the old Chinese city (Nanshi), south of the Settlement."},
-    "奉贤": {"en": "Fengxian", "pinyin": "Fengxian", "status": "attested", "note": "Real. Coastal county south of Shanghai, with reed marshes by the sea where Old Fang taught Cui Wentai to shoot."},
-    "瑞金": {"en": "Ruijin", "pinyin": "Ruijin", "status": "attested", "note": "Real. Town in Jiangxi, capital of the Central Soviet and of the Chinese Soviet Republic; the Party center relocated there in early 1933."},
-    "天津路": {"en": "Tianjin Road", "pinyin": "Tianjin Lu", "status": "attested", "note": "Real. Street in the old International Settlement just north of Nanjing Road; a real hub of banks and native banks, one of Shanghai's 'bank streets.'"},
-    "熙华德路": {"en": "Seward Road", "pinyin": "Xihuade Lu", "status": "attested", "note": "Real. Hongkou street built 1864, named for an American consul; renamed Changzhi Road (长治路) in 1943."},
-    "江西路": {"en": "Jiangxi Road", "pinyin": "Jiangxi Lu", "status": "attested", "note": "Real. North-south street a block back from the Bund, in the financial district; Yi Junnian's Nanshi-police car waits there."},
-    "阜成里": {"en": "Fucheng Li", "pinyin": "Fucheng Li", "status": "decided", "note": "The lane opposite the Zhonghui Trust Bank; the enemy's command post is inside it and the underground's pickup cafe at its mouth. Realistic but unattested; likely fictional."},
-    "逸园咖啡馆": {"en": "the Yiyuan Cafe", "pinyin": "Yiyuan kafeiguan", "status": "decided", "note": "The cafe at the mouth of Fucheng Li, the underground's pickup point; a small bank-district cafe, distinct from the famous 逸园 Canidrome dog track. Likely fictional."},
-    "汕头": {"en": "Shantou", "pinyin": "Shantou", "status": "attested", "note": "Real. Guangdong port; the sea link on the CCP's 'Central Red Route' courier line (Shanghai-Hong Kong-Shantou-Dabu-Ruijin), whose Shanghai-Shantou leg the group is to rebuild."},
-    "武汉": {"en": "Wuhan", "pinyin": "Wuhan", "status": "attested", "note": "Real. The tri-city Yangtze port (Hankou/Wuchang/Hanyang); the upriver end of the gold-carrying steward's run in Cui Wentai's anecdote."},
-    "杭州": {"en": "Hangzhou", "pinyin": "Hangzhou", "status": "attested", "note": "Real. Site of the secret-service training class You Tianxiao attended under Ye Qinian."}
+  "凌汶": {
+   "en": "Ling Wen",
+   "pinyin": "Ling Wen",
+   "status": "decided",
+   "note": "Communist; writer, author of the novel Winter; a merchant's widow. Fictional."
   },
-  "terms": {
-    "骰子": {"en": "dice", "pinyin": "touzi", "status": "decided", "note": "The pair of dice: the group's recognition sign, and the thread the enemy has hold of."},
-    "牌九": {"en": "pai gow", "pinyin": "paijiu", "status": "attested", "note": "Domino gambling game; the cover for the meeting."},
-    "黄包车": {"en": "rickshaw", "pinyin": "huangbaoche", "status": "attested", "note": "The pulled two-wheeled cab."},
-    "阴丹士林": {"en": "Indanthrene", "pinyin": "yindanshilin", "status": "attested", "note": "Brand of colorfast synthetic dye; the blue of the schoolboys' gowns."},
-    "麦乳精": {"en": "malted-milk extract", "pinyin": "mairujing", "status": "decided", "note": "A coveted imported drink powder."},
-    "旗袍": {"en": "cheongsam", "pinyin": "qipao", "status": "attested", "note": "The fitted dress; Miss Tao's, with the letter in its lining."},
-    "危害民国紧急治罪法": {"en": "the Emergency Law for Crimes Endangering the Republic", "pinyin": "weihai minguo jinji zhizui fa", "status": "attested", "note": "Real. 1931 Nationalist law; carried the death penalty, used against Communists."},
-    "西施": {"en": "Xi Shi", "pinyin": "Xi Shi", "status": "attested", "note": "Legendary beauty of Yue sent to ruin Wu; here the code name of a planted agent."},
-    "五卅运动": {"en": "the May Thirtieth Movement", "pinyin": "Wusa yundong", "status": "attested", "note": "Real. 1925 anti-imperialist upheaval after Settlement police shot demonstrators."},
-    "一·二八": {"en": "the January 28 Incident", "pinyin": "Yi-erba", "status": "attested", "note": "Real. The 1932 Battle of Shanghai against the Japanese."},
-    "大红袍": {"en": "Da Hong Pao", "pinyin": "Da Hong Pao", "status": "attested", "note": "'Great Red Robe,' the most prized of the Wuyi rock teas."},
-    "训政": {"en": "political tutelage", "pinyin": "xunzheng", "status": "attested", "note": "The Nationalist 'tutelage' period of one-party rule."},
-    "特务工作之理论与实际": {"en": "The Theory and Practice of Secret-Service Work", "pinyin": "Tewu gongzuo zhi lilun yu shiji", "status": "decided", "note": "The scarce secret-service manual Mu Chuan asks You to bring."},
-    "冬": {"en": "Winter", "pinyin": "Dong", "status": "decided", "note": "Ling Wen's (fictional) novel; Dong Huiwen has read it."},
-    "蓝钢快车": {"en": "the Blue Steel Express", "pinyin": "Lan'gang Kuaiche", "status": "decided", "note": "The overnight express between Shanghai and Nanjing."},
-    "青天白日旗": {"en": "the Blue Sky and White Sun flag", "pinyin": "qingtian bairi qi", "status": "attested", "note": "The Nationalist emblem flown over the garrison gate."},
-    "党国": {"en": "the Party and the state", "pinyin": "dangguo", "status": "decided", "note": "Nationalist formula fusing party and nation."},
-    "围剿": {"en": "encirclement and suppression", "pinyin": "weijiao", "status": "attested", "note": "Real. The Nationalist campaigns against the Communist base areas from 1930."},
-    "中央苏区": {"en": "the Central Soviet", "pinyin": "Zhongyang Suqu", "status": "attested", "note": "Real. The main Communist base area in Jiangxi-Fujian, capital Ruijin."},
-    "白区": {"en": "the White area", "pinyin": "baiqu", "status": "attested", "note": "Real. Nationalist-controlled territory, opposed to the 'Red'/Soviet areas; the underground's world."},
-    "南昌起义": {"en": "the Nanchang Uprising", "pinyin": "Nanchang qiyi", "status": "attested", "note": "Real. The Communists' 1 Aug 1927 revolt; founding day of the Red Army."},
-    "广州起义": {"en": "the Guangzhou Uprising", "pinyin": "Guangzhou qiyi", "status": "attested", "note": "Real. The Canton Uprising of Dec 1927 ('Guangzhou Commune')."},
-    "大革命": {"en": "the Great Revolution", "pinyin": "da geming", "status": "attested", "note": "Real. The 1924-27 National Revolution and First United Front, broken by Chiang in 1927."},
-    "远方来信": {"en": "Letters from Afar", "pinyin": "Yuanfang laixin", "status": "attested", "note": "Real. Lenin's 1917 work, quoted by Chen Qianyuan; also the title of a later chapter."},
-    "未完成交响曲": {"en": "the Unfinished Symphony", "pinyin": "Weiwancheng jiaoxiangqu", "status": "attested", "note": "Real. Schubert's Symphony No. 8 in B minor, rehearsed by the orchestra Dr. Qin watches."},
-    "图兰朵": {"en": "Turandot", "pinyin": "Tulanduo", "status": "attested", "note": "Real. Puccini's last opera, set in a legendary Peking."},
-    "大香槟": {"en": "the Grand Champagne", "pinyin": "da xiangbin", "status": "attested", "note": "Real. The Shanghai Race Club's sweepstakes lottery."},
-    "笑林广记": {"en": "the Xiaolin Guangji", "pinyin": "Xiaolin Guangji", "status": "attested", "note": "Real. The best-known classical Chinese joke-book, of the Qing dynasty."},
-    "明四家": {"en": "the Four Masters of the Ming", "pinyin": "Ming sijia", "status": "attested", "note": "Real. Shen Zhou, Wen Zhengming, Tang Yin and Qiu Ying."},
-    "茄力克": {"en": "Garrick", "pinyin": "Jialike", "status": "attested", "note": "A British cigarette brand; also the title of a later chapter."},
-    "广益书局": {"en": "the Guangyi Book Company", "pinyin": "Guangyi Shuju", "status": "attested", "note": "Real. A Republican-era Shanghai publisher."},
-    "石库门": {"en": "shikumen", "pinyin": "shikumen", "status": "attested", "note": "Shanghai stone-gate row houses; the barbershop lane is of this kind."},
-    "铺保": {"en": "surety bond", "pinyin": "pubao", "status": "decided", "note": "A merchant's guarantee standing bail for a prisoner's release."},
-    "二房东": {"en": "second landlord", "pinyin": "er fangdong", "status": "decided", "note": "A sub-lessor who leases a whole house and sublets rooms at a profit; a stock Shanghai figure. Ling Wen's cover."},
-    "四一二": {"en": "the April Twelfth massacre", "pinyin": "si-yi-er", "status": "attested", "note": "Real. Chiang Kai-shek's 12 April 1927 purge of Communists in Shanghai, which shattered the First United Front and drove the Party underground."},
-    "老布尔什维克": {"en": "Old Bolshevik", "pinyin": "lao Bu'ershiweike", "status": "attested", "note": "A veteran who joined the Party in its earliest years; a mark of Yi Junnian's seniority."},
-    "水门汀": {"en": "cement", "pinyin": "shuimenting", "status": "attested", "note": "Shanghainese transliteration of English 'cement' (concrete); '水门汀 houses' are cement/reinforced-concrete buildings."},
-    "巴拉莱卡": {"en": "balalaika", "pinyin": "balalaika", "status": "attested", "note": "The Russian triangular-bodied string instrument; the busker's song is the Yiddish folk song 'Tumbalalaika.'"},
-    "第三次反围剿": {"en": "the Third Counter-Encirclement Campaign", "pinyin": "di-san-ci fan weijiao", "status": "attested", "note": "Real. The Red Army's autumn-1931 defeat of the KMT's third 'encirclement and suppression' campaign in the Central Soviet."},
-    "邋遢冬至清爽年": {"en": "A muddy Winter Solstice, a clear New Year", "pinyin": "lata dongzhi qingshuang nian", "status": "attested", "note": "A Jiangnan weather proverb: an overcast Winter Solstice is taken to foretell a fine New Year, and vice versa."},
-    "亭子间": {"en": "tingzijian", "pinyin": "tingzijian", "status": "attested", "note": "The small, cheap back room over the kitchen landing of a Shanghai lane house; the classic lodging of 1930s left-wing writers ('tingzijian writers')."},
-    "世界语": {"en": "Esperanto", "pinyin": "shijieyu", "status": "attested", "note": "The constructed universal language, championed by Chinese anarchists as a coming single world tongue; the cause of Ye Qinian's student salon."},
-    "朵云轩": {"en": "Duoyunxuan", "pinyin": "Duoyunxuan", "status": "attested", "note": "Real. Shanghai studio (founded 1900) for fine paper and painting supplies, famed for woodblock-printed decorated letter-paper."},
-    "特派员": {"en": "special commissioner", "pinyin": "tepaiyuan", "status": "decided", "note": "A special envoy sent by a higher Party organ to direct an operation; the enemy takes Lin Shi for one."},
-    "北伐": {"en": "the Northern Expedition", "pinyin": "Beifa", "status": "attested", "note": "Real. The Nationalist-Communist military campaign (1926-28) from Guangzhou to unify China; its approach to Shanghai in 1927 is the backdrop to Cui Wentai's story."},
-    "废历": {"en": "the abolished calendar", "pinyin": "feili", "status": "attested", "note": "Real. The Nationalists' dismissive term for the lunar calendar they tried to suppress; hence '废历除夕,' the Eve of the Abolished Calendar."},
-    "大黄鱼": {"en": "big yellow croaker", "pinyin": "da huangyu", "status": "attested", "note": "Old-Shanghai slang for a ten-tael gold bar (a one-tael bar was a 小黄鱼, 'little yellow croaker'); Cui Wentai's 'five big yellow croakers' are the five gold bars."},
-    "貂爪仁": {"en": "marten-paw fur", "pinyin": "diaozhuaren", "status": "decided", "note": "Fur said to be pieced from the skin below a marten's claws; dramatizes the real furrier practice of piecing a garment from small prime parts of many pelts, but this specific category is unattested and likely the novel's embellishment."},
-    "钱庄": {"en": "native bank", "pinyin": "qianzhuang", "status": "attested", "note": "Real. The traditional Chinese private banking house, forerunner of the modern bank; distinct from the modern 银行."},
-    "估衣铺": {"en": "secondhand-clothes shop", "pinyin": "guyipu", "status": "attested", "note": "Real. A shop dealing in used clothing, including fine robes let out to those wanting to look wealthy; Chen Qianli rents his rich-man's outfit from one."},
-    "简任": {"en": "jianren", "pinyin": "jianren", "status": "attested", "note": "Real. Second-highest of the four Nationalist civil-service grades (特任/简任/荐任/委任); the Investigation Section chief's power far exceeds his middling jianren rank."},
-    "八七会议": {"en": "the August 7th Conference", "pinyin": "Ba-qi huiyi", "status": "attested", "note": "Real. Emergency CCP conference, Hankou, 7 Aug 1927; set the line of land revolution and armed struggle after the First United Front collapsed."},
-    "省港大罢工": {"en": "the Canton-Hong Kong Strike", "pinyin": "Sheng-Gang da bagong", "status": "attested", "note": "Real. The 1925-26 general strike and anti-British boycott in solidarity with the May Thirtieth Movement; Yi Junnian was in Guangdong for it."},
-    "三民主义": {"en": "the Three Principles of the People", "pinyin": "Sanmin zhuyi", "status": "attested", "note": "Real. Sun Yat-sen's doctrine (Nationalism, Democracy, People's Livelihood); official ideology of the Nationalist state, invoked by Ye Qinian as the belief to replace Communism."},
-    "共产主义ABC": {"en": "the ABC of Communism", "pinyin": "Gongchanzhuyi ABC", "status": "attested", "note": "Real. Bukharin and Preobrazhensky's 1919 primer on the Bolshevik program, read in Chinese as an introduction to Communism; one of the books said to have 'turned' the young Chen Qianli."},
-    "中央红色交通线": {"en": "the Central Red Route", "pinyin": "Zhongyang hongse jiaotongxian", "status": "attested", "note": "Real. The enduring CCP courier line Shanghai-Hong Kong-Shantou-Dabu-Ruijin (from 1930), which moved documents, funds and 200+ cadres into the Central Soviet; the group is to rebuild the Shanghai-Shantou leg."}
+  "秦传安": {
+   "en": "Qin Chuan'an",
+   "pinyin": "Qin Chuan'an",
+   "status": "decided",
+   "note": "Communist; a doctor with his own clinic. Fictional."
+  },
+  "田非": {
+   "en": "Tian Fei",
+   "pinyin": "Tian Fei",
+   "status": "decided",
+   "note": "Communist; library clerk who found the hidden meeting room. Fictional."
+  },
+  "崔文泰": {
+   "en": "Cui Wentai",
+   "pinyin": "Cui Wentai",
+   "status": "decided",
+   "note": "A hired-car driver and Old Fang's courier; revealed in ch14 to be the mole 'Xi Shi,' who betrayed Old Fang to the enemy. Fictional."
+  },
+  "林石": {
+   "en": "Lin Shi",
+   "pinyin": "Lin Shi",
+   "status": "decided",
+   "note": "Communist; clerk at the Rentai Bank; shot in the leg during the arrest. Fictional."
+  },
+  "梁士超": {
+   "en": "Liang Shichao",
+   "pinyin": "Liang Shichao",
+   "status": "decided",
+   "note": "Prisoner; claims to have served in the Nineteenth Route Army; wounded fighting the encirclement campaigns. Fictional."
+  },
+  "方云平": {
+   "en": "Fang Yunping",
+   "pinyin": "Fang Yunping",
+   "status": "decided",
+   "note": "Communist ('Old Fang'); the Shanghai underground's local head; missed the meeting; the gunman on Pu'enjishi Road; killed at his son's barbershop. Fictional."
+  },
+  "小方": {
+   "en": "Young Fang",
+   "pinyin": "Fang",
+   "status": "decided",
+   "note": "Old Fang's son, a barber; taken in the raid on the barbershop. Fictional."
+  },
+  "董慧文": {
+   "en": "Dong Huiwen",
+   "pinyin": "Dong Huiwen",
+   "status": "decided",
+   "note": "Communist; young schoolteacher at Minghui Primary School; close to Chen Qianyuan. Fictional."
+  },
+  "陈千元": {
+   "en": "Chen Qianyuan",
+   "pinyin": "Chen Qianyuan",
+   "status": "decided",
+   "note": "Communist; a translator for a news agency; Chen Qianli's younger brother. Fictional."
+  },
+  "陈千里": {
+   "en": "Chen Qianli",
+   "pinyin": "Chen Qianli",
+   "status": "decided",
+   "note": "Communist operative, the novel's central figure; trained three years in the USSR; Chen Qianyuan's elder brother. Fictional."
+  },
+  "老开": {
+   "en": "Old Kai",
+   "pinyin": "Lao Kai",
+   "status": "decided",
+   "note": "Alias of the Central Liaison Bureau man arrested at the meeting, who was to convey the secret task. Distinct from Haohan. Fictional."
+  },
+  "李汉": {
+   "en": "Li Han",
+   "pinyin": "Li Han",
+   "status": "decided",
+   "note": "A comrade whose elder brother died a martyr; named by Old Fang. Fictional."
+  },
+  "老陆": {
+   "en": "Old Lu",
+   "pinyin": "Lu",
+   "status": "decided",
+   "note": "Day-shift attendant at the Shenxin Hotel. Fictional."
+  },
+  "金先生": {
+   "en": "Mr. Jin",
+   "pinyin": "Jin",
+   "status": "decided",
+   "note": "A great Shanghai art collector in Yi Junnian's anecdote. Fictional."
+  },
+  "龙冬": {
+   "en": "Long Dong",
+   "pinyin": "Long Dong",
+   "status": "decided",
+   "note": "Ling Wen's late husband, killed in Guangzhou; his name echoes her novel's title Winter (冬). Fictional."
+  },
+  "浩瀚": {
+   "en": "Haohan",
+   "pinyin": "Haohan",
+   "status": "decided",
+   "note": "Working alias ('the vast') of a senior Communist leader the enemy is hunting. Fictional."
+  },
+  "游天啸": {
+   "en": "You Tianxiao",
+   "pinyin": "You Tianxiao",
+   "status": "decided",
+   "note": "Captain of the Longhua detective squad; secret man of the Party Affairs Investigation Section. Fictional."
+  },
+  "穆川": {
+   "en": "Mu Chuan",
+   "pinyin": "Mu Chuan",
+   "status": "decided",
+   "note": "Director of the garrison's Judge Advocate's office; You Tianxiao's nominal superior. Fictional."
+  },
+  "叶启年": {
+   "en": "Ye Qinian",
+   "pinyin": "Ye Qinian",
+   "status": "decided",
+   "note": "You Tianxiao's teacher; deputy director of the Special Operations Headquarters. Fictional."
+  },
+  "马秘书": {
+   "en": "Secretary Ma",
+   "pinyin": "Ma",
+   "status": "decided",
+   "note": "Ye Qinian's aide in Nanjing. Fictional."
+  },
+  "姚探长": {
+   "en": "Detective Yao",
+   "pinyin": "Yao",
+   "status": "decided",
+   "note": "Chinese detective of the Settlement's Central Police Station. Fictional."
+  },
+  "翁副官": {
+   "en": "Adjutant Weng",
+   "pinyin": "Weng",
+   "status": "decided",
+   "note": "A Cantonese staff officer about the Garrison Command. Fictional; distinct from the real Brigade Commander Weng."
+  },
+  "翁照垣": {
+   "en": "Brigade Commander Weng",
+   "pinyin": "Weng Zhaoyuan",
+   "status": "attested",
+   "note": "Real. Weng Zhaoyuan (1892-1972) of the Nineteenth Route Army, who held Zhabei in the Jan 28 1932 fighting; invoked in Liang Shichao's cover story."
+  },
+  "蔡军长": {
+   "en": "Commander Cai",
+   "pinyin": "Cai",
+   "status": "attested",
+   "note": "Real. The Nineteenth Route Army's general Cai Tingkai (蔡廷锴)."
+  },
+  "宋先生": {
+   "en": "Mr. Song",
+   "pinyin": "Song",
+   "status": "decided",
+   "note": "The man arranging Miss Tao's release and marriage; with Mrs. Song (宋太太). Fictional."
+  },
+  "陶小姐": {
+   "en": "Miss Tao",
+   "pinyin": "Tao",
+   "status": "decided",
+   "note": "A cellmate of Ling Wen and Dong Huiwen; released, and made to carry Ling Wen's letter. Fictional."
+  },
+  "蒋介石": {
+   "en": "Chiang Kai-shek",
+   "pinyin": "Jiang Jieshi",
+   "status": "attested",
+   "note": "Real. Nationalist leader ('the Generalissimo,' 委员长); directing the anti-Communist campaigns from Nanchang in 1932-33."
+  },
+  "委员长": {
+   "en": "the Generalissimo",
+   "pinyin": "weiyuanzhang",
+   "status": "attested",
+   "note": "Chiang Kai-shek, in his title as chairman of the Military Affairs Commission."
+  },
+  "李国杰": {
+   "en": "Li Guojie",
+   "pinyin": "Li Guojie",
+   "status": "attested",
+   "note": "Real. Grandson of Li Hongzhang; principal of the 1933 China Merchants embezzlement case, sentenced to eight years."
+  },
+  "李鸿章": {
+   "en": "Li Hongzhang",
+   "pinyin": "Li Hongzhang",
+   "status": "attested",
+   "note": "Real. Late-Qing statesman, founder of China Merchants; the 'Grand Secretary Li' (李中堂) of the gossip."
+  },
+  "陈孚木": {
+   "en": "Chen Fumu",
+   "pinyin": "Chen Fumu",
+   "status": "attested",
+   "note": "Real. A go-between in the China Merchants case."
+  },
+  "杜月笙": {
+   "en": "Du Yuesheng",
+   "pinyin": "Du Yuesheng",
+   "status": "attested",
+   "note": "Real. Shanghai Green Gang boss and Nationalist ally; the 'tycoon Du' (杜大亨)."
+  },
+  "慈禧太后": {
+   "en": "Empress Dowager Cixi",
+   "pinyin": "Cixi",
+   "status": "attested",
+   "note": "Real. The late-Qing regent; she gave Li Guojie an imperial guard's post."
+  },
+  "徐枕亚": {
+   "en": "Xu Zhenya",
+   "pinyin": "Xu Zhenya",
+   "status": "attested",
+   "note": "Real. Patriarch of the 'Mandarin Ducks and Butterflies' romance school (author of Yulihun); name-dropped by Miss Tao."
+  },
+  "金焰": {
+   "en": "Jin Yan",
+   "pinyin": "Jin Yan",
+   "status": "attested",
+   "note": "Real. Korea-born film star, the 'Emperor of Film'; led the Lianhua film Cuckoo Soul Abroad."
+  },
+  "鲁迅": {
+   "en": "Lu Xun",
+   "pinyin": "Lu Xun",
+   "status": "attested",
+   "note": "Real. The great writer, patron of the League of Left-Wing Writers; co-edited The Outpost and mourned the Longhua martyrs."
+  },
+  "冯雪峰": {
+   "en": "Feng Xuefeng",
+   "pinyin": "Feng Xuefeng",
+   "status": "attested",
+   "note": "Real. Left-wing critic and Party literary figure; co-edited The Outpost with Lu Xun."
+  },
+  "陈赓": {
+   "en": "Chen Geng",
+   "pinyin": "Chen Geng",
+   "status": "attested",
+   "note": "Real. Red Army commander and intelligence figure; met Lu Xun secretly in Shanghai in 1932."
+  },
+  "孙中山": {
+   "en": "Sun Yat-sen",
+   "pinyin": "Sun Zhongshan",
+   "status": "attested",
+   "note": "Real. 'Mr. Sun,' founder of the Republic; visited the Yihong Garden more than once in 1912-13."
+  },
+  "玛琳·黛德丽": {
+   "en": "Marlene Dietrich",
+   "pinyin": "Malin Daideli",
+   "status": "attested",
+   "note": "Real. German-American film star, of Shanghai Express (1932); on the Grand Theatre poster."
+  },
+  "仇英": {
+   "en": "Qiu Ying",
+   "pinyin": "Qiu Ying",
+   "status": "attested",
+   "note": "Real. Ming master painter, one of the Four Masters of the Ming; much forged."
+  },
+  "吴四宝": {
+   "en": "Wu Sibao",
+   "pinyin": "Wu Sibao",
+   "status": "attested",
+   "note": "Shares the name of a real figure (c.1904-1942): a racecourse groom turned chauffeur who rose through the Green Gang and later led the armed unit of the collaborationist 'No. 76' secret service. The novel's minor tenant ('Little Bao') borrows the man and his groom-to-driver rise; his role here is fictional."
+  },
+  "吴作民": {
+   "en": "Assistant Manager Wu",
+   "pinyin": "Wu Zuomin",
+   "status": "decided",
+   "note": "Wu Zuomin, assistant manager (襄理) at the Zhonghui Trust Bank; addressee of Lin Shi's coded letter. Fictional."
+  },
+  "金德林": {
+   "en": "Jin Delin",
+   "pinyin": "Jin Delin",
+   "status": "decided",
+   "note": "'Young Jin,' a former street-runner at the house-letting agency once used as Yi Junnian's letter-drop; left the job last year. Fictional."
+  },
+  "叶桃": {
+   "en": "Ye Tao",
+   "pinyin": "Ye Tao",
+   "status": "decided",
+   "note": "Ye Qinian's daughter and Chen Qianli's love; already dead when the novel opens, her death (which Chen blames on her father) drives both men. First named in ch12. Fictional. Her given name 桃 ('peach') puns on the peach-blossom letter-paper."
+  },
+  "小五子": {
+   "en": "Xiaowuzi",
+   "pinyin": "Xiaowuzi",
+   "status": "decided",
+   "note": "The woman for whom Cui Wentai loses his head, part of what tips him into betrayal. Fictional."
+  },
+  "少山": {
+   "en": "Comrade Shaoshan",
+   "pinyin": "Shaoshan",
+   "status": "attested",
+   "note": "Real. 少山 was a genuine cover name of Zhou Enlai (周恩来) in the Shanghai underground (attested in the 1932 'Wu Hao Incident'). The novel uses it as the figure who routes Chen Qianli to the USSR; Zhou had in fact left Shanghai by late 1931, so the early-1933 scene is a compressed, literary use of the alias."
+  },
+  "秦邦宪": {
+   "en": "Qin Bangxian",
+   "pinyin": "Qin Bangxian",
+   "status": "attested",
+   "note": "Real. 'Bo Gu' (博古, 1907-1946), de facto head of the CCP's Provisional Central; his signed article in Red China signals to Ye Qinian that the Provisional Central was moving from Shanghai to Ruijin in early 1933."
+  },
+  "陈立夫": {
+   "en": "Chen Lifu",
+   "pinyin": "Chen Lifu",
+   "status": "attested",
+   "note": "Real. 'Mr. Lifu' (立夫先生, 1900-2001); with his brother Chen Guofu the boss of the KMT 'CC Clique,' head of the Central Organization Department over the Party Affairs Investigation Section; the man Ye Qinian works through at headquarters."
+  },
+  "沙逊": {
+   "en": "Sassoon",
+   "pinyin": "Shaxun",
+   "status": "attested",
+   "note": "Real. Sir Victor Sassoon, the magnate who built the Cathay Hotel / Sassoon House on the Bund; Ye Qinian pointedly lodges 'in Sassoon's own house.'"
+  },
+  "涅克拉索夫": {
+   "en": "Nekrasov",
+   "pinyin": "Niekelasuofu",
+   "status": "attested",
+   "note": "Real. Nikolai Nekrasov (1821-1877), Russian poet; the brothers' countersign adapts a line from his early love lyric 'The Storm' (Burya)."
+  },
+  "小施": {
+   "en": "Little Shi",
+   "pinyin": "Shi",
+   "status": "decided",
+   "note": "Safe-deposit clerk at the Zhonghui Trust Bank; passed off by Miss Tao as her cousin and placed in the bank by Mr. Song. Fictional."
+  },
+  "纪先生": {
+   "en": "Mr. Ji",
+   "pinyin": "Ji",
+   "status": "decided",
+   "note": "The wealthy-collector cover name under which Chen Qianli enters the bank vault in ch17. A Chen Qianli alias; fictional."
+  },
+  "王金枝": {
+   "en": "Wang Jinzhi",
+   "pinyin": "Wang Jinzhi",
+   "status": "decided",
+   "note": "The murdered Taikoo-steamer head steward of Cui Wentai's gold-bar anecdote; apparently the novel's invention (no such case is attested). Fictional."
+  },
+  "陶希圣": {
+   "en": "Professor Tao",
+   "pinyin": "Tao Xisheng",
+   "status": "attested",
+   "note": "Real. Tao Xisheng (1899-1988), a theorist of the Three Principles at National Central University from 1931; later ghostwrote Chiang Kai-shek's China's Destiny (1943). The 'Professor Tao of Central University' whose book Ye Qinian recommends; a specific 1933 anti-Communist primer by him is not documented."
+  },
+  "宋子文": {
+   "en": "T. V. Soong",
+   "pinyin": "Song Ziwen",
+   "status": "attested",
+   "note": "Real. Nationalist finance minister 1928-1933; evoked (unnamed) by the hint that 'Mr. Song's' elder brother is a great personage and the bank does Ministry of Finance bond business."
+  },
+  "莫少球": {
+   "en": "Mo Shaoqiu",
+   "pinyin": "Mo Shaoqiu",
+   "status": "decided",
+   "note": "'Boss Mo,' proprietor of the Xingchang Apothecary and head of the Party's Guangzhou courier station. Fictional."
+  },
+  "莫太太": {
+   "en": "Mrs. Mo",
+   "pinyin": "Mo taitai",
+   "status": "decided",
+   "note": "Mo Shaoqiu's wife and comrade at the Guangzhou courier station; a former courier who once met the man she takes for Long Dong. Fictional."
+  },
+  "老肖": {
+   "en": "Old Xiao",
+   "pinyin": "Lao Xiao",
+   "status": "decided",
+   "note": "A high-ranking secret courier of the Central Committee's Liaison Bureau, sent from the Ruijin Soviet with a secret oral order for Lin Shi. Fictional."
+  },
+  "邓中夏": {
+   "en": "Deng Zhongxia",
+   "pinyin": "Deng Zhongxia",
+   "status": "attested",
+   "note": "Real (1894-1933). Founding leader of the Chinese labor movement and a chief organizer of the Canton-Hong Kong Strike; lectured at the strike's Labour College; executed by the Nationalists at Yuhuatai, Nanjing, Sept 1933."
+  },
+  "陈济棠": {
+   "en": "Chen Jitang",
+   "pinyin": "Chen Jitang",
+   "status": "attested",
+   "note": "Real (1890-1954). The 'King of the Southern Sky,' militarist who ruled Guangdong semi-independently c.1929-1936; socially conservative regime."
+  },
+  "朱晖日": {
+   "en": "Zhu Huiri",
+   "pinyin": "Zhu Huiri",
+   "status": "attested",
+   "note": "Real. Director of the Guangzhou Municipal Public Security Bureau from Oct 1927; took part in suppressing the Dec 1927 Canton Uprising. Exact tenure in the early 1930s undocumented."
+  },
+  "卢忠德": {
+   "en": "Lu Zhongde",
+   "pinyin": "Lu Zhongde",
+   "status": "decided",
+   "note": "In Mrs. Mo's story, a comrade planted in the Guangzhou public-security bureau, shot when the network was broken. Apparently fictional."
+  },
+  "欧阳民": {
+   "en": "Ouyang Min",
+   "pinyin": "Ouyang Min",
+   "status": "decided",
+   "note": "'Secretary Ouyang,' the special-committee secretary in Mrs. Mo's story. Apparently fictional."
+  },
+  "柔石": {
+   "en": "Rou Shi",
+   "pinyin": "Rou Shi",
+   "status": "attested",
+   "note": "Real (Zhao Pingfu, 1902-1931). Left-wing writer, author of the novella February; one of the Five Martyrs of the League of Left-Wing Writers, shot at Longhua 7 Feb 1931."
+  },
+  "陶元庆": {
+   "en": "Tao Yuanqing",
+   "pinyin": "Tao Yuanqing",
+   "status": "attested",
+   "note": "Real (1893-1929). Book-cover artist for Lu Xun; his line drawing was the actual cover of February (not the woodcut the novel describes)."
   }
+ },
+ "organizations": {
+  "工部局": {
+   "en": "Shanghai Municipal Council",
+   "pinyin": "Gongbuju",
+   "status": "attested",
+   "note": "Real. Governing body of the foreign-run International Settlement."
+  },
+  "巡捕房": {
+   "en": "the Municipal Police",
+   "pinyin": "xunbufang",
+   "status": "attested",
+   "note": "Real. The Settlement's police (and, by extension, a police station); the Central Station is 中央捕房."
+  },
+  "侦缉队": {
+   "en": "the detective squad",
+   "pinyin": "zhenjidui",
+   "status": "decided",
+   "note": "The Longhua garrison's plainclothes criminal-investigation squad, under You Tianxiao."
+  },
+  "军法处": {
+   "en": "the Judge Advocate's office",
+   "pinyin": "junfachu",
+   "status": "attested",
+   "note": "Real. The garrison's military-justice department; its head (处长) is rendered 'Director'."
+  },
+  "淞沪警备司令部": {
+   "en": "the Songhu Garrison Command",
+   "pinyin": "Songhu jingbei silingbu",
+   "status": "attested",
+   "note": "Real. The Shanghai-Woosung garrison HQ at Longhua; also 龙华警备司令部, 'the Longhua Garrison Command'; the site of the 1931 executions."
+  },
+  "党务调查科": {
+   "en": "the Party Affairs Investigation Section",
+   "pinyin": "dangwu diaochake",
+   "status": "attested",
+   "note": "Real. Kuomintang political-intelligence organ; forerunner of the wartime Bureau of Investigation and Statistics (中统)."
+  },
+  "特工总部": {
+   "en": "the Special Operations Headquarters",
+   "pinyin": "tegong zongbu",
+   "status": "attested",
+   "note": "Insiders' name for the Investigation Section's Nanjing base at the Zhanyuan."
+  },
+  "中央组织部": {
+   "en": "the Central Organization Department",
+   "pinyin": "zhongyang zuzhibu",
+   "status": "attested",
+   "note": "Real. The Kuomintang organ over the Investigation Section."
+  },
+  "中央交通局": {
+   "en": "the Central Liaison Bureau",
+   "pinyin": "Zhongyang jiaotongju",
+   "status": "attested",
+   "note": "The Party's clandestine courier and liaison organ; 'Old Kai' belonged to it."
+  },
+  "十九路军": {
+   "en": "the Nineteenth Route Army",
+   "pinyin": "shijiu lujun",
+   "status": "attested",
+   "note": "Real. Cantonese army that fought the Japanese at Shanghai in 1932, later sent against Communists in Fujian."
+  },
+  "斧头帮": {
+   "en": "the Hatchet Gang",
+   "pinyin": "futoubang",
+   "status": "attested",
+   "note": "Shanghai assassins' gang; linked to the killing of the China Merchants director."
+  },
+  "招商局": {
+   "en": "the China Merchants Steam Navigation Company",
+   "pinyin": "Zhaoshangju",
+   "status": "attested",
+   "note": "Real. Founded by Li Hongzhang; center of the 1933 embezzlement scandal."
+  },
+  "向导": {
+   "en": "The Guide Weekly",
+   "pinyin": "Xiangdao",
+   "status": "attested",
+   "note": "Real. The Chinese Communist Party's central organ of the 1920s; Haohan published in it."
+  },
+  "前哨": {
+   "en": "The Outpost",
+   "pinyin": "Qianshao",
+   "status": "attested",
+   "note": "Real. Organ of the League of Left-Wing Writers; its 1931 first issue mourned the Longhua martyrs."
+  },
+  "左联": {
+   "en": "the Left League",
+   "pinyin": "Zuolian",
+   "status": "attested",
+   "note": "Real. The League of Left-Wing Writers (Shanghai, 1930); five members among the 1931 Longhua martyrs."
+  },
+  "国际通讯社": {
+   "en": "the International News Agency",
+   "pinyin": "Guoji tongxunshe",
+   "status": "decided",
+   "note": "Chen Qianyuan's workplace, translating wire dispatches."
+  },
+  "申报": {
+   "en": "Shen Bao",
+   "pinyin": "Shen Bao",
+   "status": "attested",
+   "note": "Real. The major Shanghai newspaper, founded 1872."
+  },
+  "房屋经租处": {
+   "en": "the house-letting agency",
+   "pinyin": "fangwu jingzuchu",
+   "status": "decided",
+   "note": "A property-letting and rent-collecting office; Wei Dafu's cover, through which safe houses were rented."
+  },
+  "南昌行营": {
+   "en": "the Nanchang Field Headquarters",
+   "pinyin": "Nanchang xingying",
+   "status": "attested",
+   "note": "Real. Chiang Kai-shek's field HQ (formally from May 1933) for the anti-Communist campaigns."
+  },
+  "国民党": {
+   "en": "the Kuomintang",
+   "pinyin": "Guomindang",
+   "status": "attested",
+   "note": "Real. The Nationalist Party; 'the Nationalists'."
+  },
+  "山卡罗氏歌剧团": {
+   "en": "the San Carlo",
+   "pinyin": "Shankaluo geju tuan",
+   "status": "attested",
+   "note": "Real. A touring Italian opera company; staging Turandot at the Carlton in the novel (the Shanghai run itself unconfirmed)."
+  },
+  "中汇信托银行": {
+   "en": "the Zhonghui Trust Bank",
+   "pinyin": "Zhonghui",
+   "status": "attested",
+   "note": "Real. The Zhonghui Bank (中汇银行), founded 1929 by the Green Gang boss Du Yuesheng; it had a real trust department and safe-deposit vault. 'Trust Bank' renders the novel's 信托银行."
+  },
+  "仁泰银公司": {
+   "en": "the Rentai Bank Company",
+   "pinyin": "Rentai",
+   "status": "decided",
+   "note": "Lin Shi's cover employer; a realistic native-bank name, unattested and likely fictional."
+  },
+  "东陆经租处": {
+   "en": "the Donglu house-letting agency",
+   "pinyin": "Donglu",
+   "status": "decided",
+   "note": "Wei Dafu's employer, a house-letting agency (经租处). Fictional."
+  },
+  "冠生园": {
+   "en": "Guanshengyuan",
+   "pinyin": "Guanshengyuan",
+   "status": "attested",
+   "note": "Real. Famous Shanghai food-and-confectionery company (founded 1915 by Xian Guansheng), noted for pastries and mooncakes."
+  },
+  "云禄车行": {
+   "en": "the Yunlu firm",
+   "pinyin": "Yunlu cheshang",
+   "status": "decided",
+   "note": "The car-hire firm ('Yunlu Motor-Hire') whose Buick You Tianxiao hires to enter the Settlement. Fictional."
+  },
+  "红色中华": {
+   "en": "Red China",
+   "pinyin": "Hongse Zhonghua",
+   "status": "attested",
+   "note": "Real. Organ of the Chinese Soviet Republic's central government, first published at Ruijin on 11 Dec 1931; a copy of it is the enemy's clue that the Party center is at Ruijin."
+  },
+  "工人纠察队": {
+   "en": "the workers' pickets",
+   "pinyin": "gongren jiuchadui",
+   "status": "attested",
+   "note": "Real. The armed labor militia of the CCP-led Shanghai workers' uprisings of 1926-27; disarmed and massacred in Chiang's 12 April 1927 coup."
+  },
+  "临时中央": {
+   "en": "the Provisional Central",
+   "pinyin": "linshi zhongyang",
+   "status": "attested",
+   "note": "Real. The CCP's Provisional Central (Politburo) run in Shanghai under Bo Gu; it relocated to the Central Soviet at Ruijin in early 1933."
+  },
+  "裕记钱庄": {
+   "en": "the Yuji native bank",
+   "pinyin": "Yuji qianzhuang",
+   "status": "decided",
+   "note": "The native bank half-funded by the Special Operations Headquarters, used as Ye Qinian's command post opposite the bank. Fictional."
+  },
+  "南市警察署": {
+   "en": "the Nanshi Police Bureau",
+   "pinyin": "Nanshi jingchashu",
+   "status": "attested",
+   "note": "Real institution. The Chinese-city police of Nanshi, one of Shanghai's three separate forces (with the Settlement's Municipal Police and the French Concession police); the Chinese municipal force was headquartered in Nanshi. The exact station name is the novel's label."
+  },
+  "太古": {
+   "en": "Taikoo",
+   "pinyin": "Taigu",
+   "status": "attested",
+   "note": "Real. Butterfield and Swire; its China Navigation Company (founded 1872) ran Yangtze steamers Shanghai-Hankou. The 'Taikoo steamer' of Cui Wentai's anecdote."
+  },
+  "济难会": {
+   "en": "the Relief Society",
+   "pinyin": "Jinanhui",
+   "status": "attested",
+   "note": "Real. The China Relief Society (1925), reorganized as the China Red Aid Society (1929); Communist-led relief and legal aid, hiring lawyers to bail out arrested comrades. Banned 1934."
+  },
+  "劳动学院": {
+   "en": "the Labour College",
+   "pinyin": "Laodong Xueyuan",
+   "status": "attested",
+   "note": "Real. Worker-education body run under the Canton-Hong Kong Strike committee, where Deng Zhongxia lectured; its siting in the Nanhua Building is the novel's detail."
+  },
+  "公董局": {
+   "en": "the French Concession Municipal Council",
+   "pinyin": "Gongdongju",
+   "status": "attested",
+   "note": "Real. Conseil d'administration municipale, governing body of the Shanghai French Concession; distinct from the SMC (工部局) of the International Settlement."
+  },
+  "先施公司": {
+   "en": "the Sincere Company",
+   "pinyin": "Xianshi Gongsi",
+   "status": "attested",
+   "note": "Real. The first modern Chinese-run department store (Ma Ying-piu; Hong Kong 1900, Guangzhou 1912, Shanghai 1917), famous for rooftop amusement parks."
+  },
+  "广州民国日报": {
+   "en": "the Guangzhou Republican Daily",
+   "pinyin": "Guangzhou Minguo Ribao",
+   "status": "attested",
+   "note": "Real. Nationalist newspaper founded 1923, an early KMT party organ; renamed the Zhongshan Daily in 1937."
+  }
+ },
+ "places": {
+  "龙华": {
+   "en": "Longhua",
+   "pinyin": "Longhua",
+   "status": "attested",
+   "note": "Real. District southwest of Shanghai; seat of the garrison and its prison; site of the 1931 martyrs."
+  },
+  "玄武湖": {
+   "en": "Xuanwu Lake",
+   "pinyin": "Xuanwu Lake",
+   "status": "attested",
+   "note": "Real. Lake against the northeastern wall of Nanjing."
+  },
+  "四马路": {
+   "en": "Fourth Avenue",
+   "pinyin": "Simalu",
+   "status": "attested",
+   "note": "Real. Today Fuzhou Road; books, theaters, brothels, and the 1930 produce market."
+  },
+  "三马路": {
+   "en": "Third Avenue",
+   "pinyin": "Sanmalu",
+   "status": "attested",
+   "note": "Real. Today Hankou Road, parallel to Fourth Avenue."
+  },
+  "浙江大戏院": {
+   "en": "the Zhejiang Grand Theater",
+   "pinyin": "Zhejiang Daxiyuan",
+   "status": "attested",
+   "note": "Real. Hudec's cinema of c.1930 at 123 Zhejiang Middle Road, facing the Fourth Avenue market (the author's named location, not the later 大上海大戏院)."
+  },
+  "世界大旅社": {
+   "en": "the World Hotel",
+   "pinyin": "Shijie Daluoshe",
+   "status": "decided",
+   "note": "A hotel topped by a roof-garden amusement ground (carousel, skating rink, billiards) over the Fourth Avenue market; such rooftop gardens were a real feature of the district. Sources consulted differ on whether this specific establishment is documented; distinct from the Great World (大世界)."
+  },
+  "大光明大戏院": {
+   "en": "the Grand Theatre",
+   "pinyin": "Daguangming Daxiyuan",
+   "status": "attested",
+   "note": "Real. Shanghai's premier cinema; Hudec's Art Deco rebuild completed mid-1933."
+  },
+  "卡尔登大戏院": {
+   "en": "the Carlton Theatre",
+   "pinyin": "Ka'erdeng Daxiyuan",
+   "status": "attested",
+   "note": "Real. Theater on Park Road (today Huanghe Road)."
+  },
+  "兰心大戏院": {
+   "en": "the Lyceum Theatre",
+   "pinyin": "Lanxin Daxiyuan",
+   "status": "attested",
+   "note": "Real. The Settlement's foreign theater, by its standing English name; 1931 building on today's Maoming Road S."
+  },
+  "派克路": {
+   "en": "Park Road",
+   "pinyin": "Paike Lu",
+   "status": "attested",
+   "note": "Real. Today Huanghe Road, off West Nanjing Road."
+  },
+  "跑马场": {
+   "en": "the racecourse",
+   "pinyin": "paomachang",
+   "status": "attested",
+   "note": "Real. The Shanghai Race Club course (also 跑马厅); its grounds are today People's Square and People's Park."
+  },
+  "跑马厅路": {
+   "en": "Racecourse Road",
+   "pinyin": "Paomating Lu",
+   "status": "decided",
+   "note": "The road beside the Race Club."
+  },
+  "四行储蓄会大楼": {
+   "en": "the Four Banks' Savings Society building",
+   "pinyin": "Sihang chuxuhui dalou",
+   "status": "attested",
+   "note": "Real. The Park Hotel (国际饭店), Hudec, completed 1934; long the tallest building in Asia."
+  },
+  "马立斯大楼": {
+   "en": "the Morriss Building",
+   "pinyin": "Malisi dalou",
+   "status": "provisional",
+   "note": "'Morriss' (马立斯) renders the British Morriss family (North-China Daily News); the specific building by the racecourse is not separately documented."
+  },
+  "德国医院": {
+   "en": "the German Hospital",
+   "pinyin": "Deguo yiyuan",
+   "status": "attested",
+   "note": "Real. The Paulun Hospital (宝隆医院) in the Settlement; where Dr. Qin trained."
+  },
+  "白云观": {
+   "en": "Baiyunguan",
+   "pinyin": "Baiyunguan",
+   "status": "attested",
+   "note": "Real. 'White Cloud Temple,' a Daoist temple in the old Chinese city; used here as a detective-squad base."
+  },
+  "同春坊": {
+   "en": "Tongchun Lane",
+   "pinyin": "Tongchunfang",
+   "status": "decided",
+   "note": "Lane running to the gate of the Gezhi school and Minghui Primary School."
+  },
+  "格致公学": {
+   "en": "the Gezhi Public School",
+   "pinyin": "Gezhi Gongxue",
+   "status": "attested",
+   "note": "Real. English-style boys' school run by the Municipal Council; today Shanghai Gezhi High School."
+  },
+  "苏州河": {
+   "en": "Suzhou Creek",
+   "pinyin": "Suzhou He",
+   "status": "attested",
+   "note": "Real. The creek down which the market's produce is boated in."
+  },
+  "金利源码头": {
+   "en": "the Jinliyuan Wharf",
+   "pinyin": "Jinliyuan matou",
+   "status": "decided",
+   "note": "Shanghai wharf; among those mortgaged in the China Merchants case."
+  },
+  "报恩塔": {
+   "en": "the Bao'en Pagoda",
+   "pinyin": "Bao'en Ta",
+   "status": "attested",
+   "note": "Real. The ancient Longhua Pagoda (standardly 龙华塔); 'Bao'en Pagoda' is a traditional alternate name for it."
+  },
+  "南市": {
+   "en": "Nanshi",
+   "pinyin": "Nanshi",
+   "status": "attested",
+   "note": "Real. The old Chinese city south of the Settlement."
+  },
+  "枫林桥": {
+   "en": "Fenglin Bridge",
+   "pinyin": "Fenglin Qiao",
+   "status": "decided",
+   "note": "Landmark on the road out to Longhua."
+  },
+  "老闸捕房": {
+   "en": "the Laozha Police Station",
+   "pinyin": "Laozha bufang",
+   "status": "decided",
+   "note": "Settlement police station; Ling Wen is first held here."
+  },
+  "明惠小学": {
+   "en": "Minghui Primary School",
+   "pinyin": "Minghui Xiaoxue",
+   "status": "decided",
+   "note": "Where Dong Huiwen teaches."
+  },
+  "南京路": {
+   "en": "Nanjing Road",
+   "pinyin": "Nanjing Lu",
+   "status": "attested",
+   "note": "Real. Shanghai's grand commercial street; opposed to grim Longhua."
+  },
+  "徐家汇": {
+   "en": "Xujiahui",
+   "pinyin": "Xujiahui",
+   "status": "attested",
+   "note": "Real. District with the postal sub-office named as the letter's drop."
+  },
+  "普恩济世路": {
+   "en": "Pu'enjishi Road",
+   "pinyin": "Pu'enjishi Lu",
+   "status": "provisional",
+   "note": "Shanghai street where Fang Yunping opened fire."
+  },
+  "圣母院路": {
+   "en": "Shengmuyuan Road",
+   "pinyin": "Shengmuyuan Lu",
+   "status": "provisional",
+   "note": "Shanghai street ('Convent Road') giving off Pu'enjishi Road."
+  },
+  "小浜湾": {
+   "en": "Xiaobangwan",
+   "pinyin": "Xiaobangwan",
+   "status": "provisional",
+   "note": "A creek-bend and lane by Pu'enjishi Road."
+  },
+  "申新旅社": {
+   "en": "the Shenxin Hotel",
+   "pinyin": "Shenxin Luoshe",
+   "status": "decided",
+   "note": "The hotel where Chen Qianli lodges under his antiques-dealer cover."
+  },
+  "北四川路": {
+   "en": "North Sichuan Road",
+   "pinyin": "Bei Sichuan Lu",
+   "status": "attested",
+   "note": "Real. Today Sichuan North Road; heart of the 1930s left-wing literary quarter in Hongkou."
+  },
+  "公益坊": {
+   "en": "Gongyi Lane",
+   "pinyin": "Gongyifang",
+   "status": "attested",
+   "note": "Real. Lane off North Sichuan Road, a node of left-wing publishing (Shuimo and Xinken bookshops)."
+  },
+  "扆虹园": {
+   "en": "the Yihong Garden",
+   "pinyin": "Yihong Yuan",
+   "status": "attested",
+   "note": "Real. Cantonese garden-mansion in the North Sichuan Road area; visited by Sun Yat-sen in 1912-13."
+  },
+  "下关": {
+   "en": "Xiaguan",
+   "pinyin": "Xiaguan",
+   "status": "attested",
+   "note": "Real. Nanjing's riverside district and railway station on the Yangtze."
+  },
+  "鸡鸣寺": {
+   "en": "Jiming Temple",
+   "pinyin": "Jiming Si",
+   "status": "attested",
+   "note": "Real. Temple by the Nanjing city wall, passed on the drive."
+  },
+  "神策门": {
+   "en": "the Shence Gate",
+   "pinyin": "Shence Men",
+   "status": "attested",
+   "note": "Real. Gate in the Ming wall of Nanjing."
+  },
+  "瞻园": {
+   "en": "the Zhanyuan",
+   "pinyin": "Zhanyuan",
+   "status": "attested",
+   "note": "Real. Nanjing garden housing the Special Operations Headquarters."
+  },
+  "明城墙": {
+   "en": "the Ming city wall",
+   "pinyin": "Ming chengqiang",
+   "status": "attested",
+   "note": "Real. The great Ming-dynasty wall of Nanjing, along Xuanwu Lake."
+  },
+  "新京": {
+   "en": "Xinjing",
+   "pinyin": "Xinjing",
+   "status": "attested",
+   "note": "Real. 'New Capital,' Manchukuo's capital, today Changchun."
+  },
+  "满洲国": {
+   "en": "Manchukuo",
+   "pinyin": "Manzhouguo",
+   "status": "attested",
+   "note": "Real. The Japanese puppet state in the occupied Northeast, proclaimed 1932."
+  },
+  "北平": {
+   "en": "Beiping",
+   "pinyin": "Beiping",
+   "status": "attested",
+   "note": "Real. Beijing's name in 1928-49; source of the evacuated Palace Museum treasures."
+  },
+  "山海关": {
+   "en": "Shanhaiguan",
+   "pinyin": "Shanhaiguan",
+   "status": "attested",
+   "note": "Real. Great Wall pass at the sea, taken by Japan Jan 1933."
+  },
+  "伯力": {
+   "en": "Khabarovsk",
+   "pinyin": "Boli",
+   "status": "attested",
+   "note": "Real. City in the Soviet Far East; site of Chen Qianli's training school."
+  },
+  "海参崴": {
+   "en": "Vladivostok",
+   "pinyin": "Haishenwai",
+   "status": "attested",
+   "note": "Real. Soviet Pacific port on Chen Qianli's route home."
+  },
+  "青岛": {
+   "en": "Qingdao",
+   "pinyin": "Qingdao",
+   "status": "attested",
+   "note": "Real. Port where the unexpected visitor boards Chen Qianli's ship."
+  },
+  "吴淞口": {
+   "en": "the Wusong bar",
+   "pinyin": "Wusongkou",
+   "status": "attested",
+   "note": "Real. The mouth of the Huangpu at the Yangtze estuary off Shanghai."
+  },
+  "故宫博物院": {
+   "en": "the Palace Museum",
+   "pinyin": "Gugong Bowuyuan",
+   "status": "attested",
+   "note": "Real. The Beiping museum whose treasures were evacuated south in 1933."
+  },
+  "马立斯新村": {
+   "en": "the Morriss Estate",
+   "pinyin": "Malisi Xincun",
+   "status": "decided",
+   "note": "The lane-house estate where Ling Wen sublets; the Morriss name (see the Morriss Building) is attested, this specific estate the novel's setting."
+  },
+  "虹口公园": {
+   "en": "Hongkou Park",
+   "pinyin": "Hongkou Gongyuan",
+   "status": "attested",
+   "note": "Real. The largest public park of foreign Shanghai, in Hongkou; today Lu Xun Park (鲁迅公园). Site of the 29 April 1932 Yun Bong-gil bombing."
+  },
+  "静安寺": {
+   "en": "Jing'an Temple",
+   "pinyin": "Jing'an Si",
+   "status": "attested",
+   "note": "Real. Ancient Buddhist temple on Bubbling Well Road (today Nanjing West Road); famed for the New Year 'first incense.'"
+  },
+  "同福里": {
+   "en": "Tongfu Li",
+   "pinyin": "Tongfu Li",
+   "status": "decided",
+   "note": "The lane housing Qin Chuan'an's clinic; a realistic but unattested Shanghai lilong name. Likely fictional."
+  },
+  "三成坊": {
+   "en": "Sancheng Fang",
+   "pinyin": "Sancheng Fang",
+   "status": "decided",
+   "note": "Sub-lane of Tongfu Li at the clinic; realistic but unattested. Likely fictional."
+  },
+  "田谷邨": {
+   "en": "the Tiangu Estate",
+   "pinyin": "Tiangu Cun",
+   "status": "provisional",
+   "note": "A new-style lilong on the real Yuyuan Road; unattested by that name (echoes the actual 愚谷邨, Yugu Cun). Street and building type are real."
+  },
+  "愚园路": {
+   "en": "Yuyuan Road",
+   "pinyin": "Yuyuan Lu",
+   "status": "attested",
+   "note": "Real. Exclusive residential road in western Shanghai; still Yuyuan Road."
+  },
+  "地丰路": {
+   "en": "Difeng Road",
+   "pinyin": "Difeng Lu",
+   "status": "attested",
+   "note": "Real. Rue Tifeng; today Urumqi North Road (乌鲁木齐北路)."
+  },
+  "海格路": {
+   "en": "Haige Road",
+   "pinyin": "Haige Lu",
+   "status": "attested",
+   "note": "Real. Avenue Haig (after Field Marshal Douglas Haig); today Huashan Road (华山路)."
+  },
+  "善钟路": {
+   "en": "Shanzhong Road",
+   "pinyin": "Shanzhong Lu",
+   "status": "attested",
+   "note": "Real. Rue Say Zoong, the sole French Concession road named for a Chinese (the land magnate Tao Shanzhong); today Changshu Road (常熟路)."
+  },
+  "赵主教路": {
+   "en": "Zhaozhujiao Road",
+   "pinyin": "Zhaozhujiao Lu",
+   "status": "attested",
+   "note": "Real. Route Monseigneur Maresca, after the Catholic bishop of Nanjing Francesco Maresca (赵方济); today Wuyuan Road (五原路)."
+  },
+  "马斯南路": {
+   "en": "Massenet Road",
+   "pinyin": "Masinan Lu",
+   "status": "attested",
+   "note": "Real. Rue Massenet, after the composer Jules Massenet; today Sinan Road (思南路). The recognition-signal address."
+  },
+  "肇嘉浜": {
+   "en": "Zhaojiabang",
+   "pinyin": "Zhaojiabang",
+   "status": "attested",
+   "note": "Real. A commercial/industrial creek lined with wharves and yards in the 1930s; filled in 1954-56 to become Zhaojiabang Road."
+  },
+  "提篮桥监狱": {
+   "en": "Tilanqiao Prison",
+   "pinyin": "Tilanqiao jianyu",
+   "status": "attested",
+   "note": "Real. The 'Ward Road Gaol' in Hongkou, built by the International Settlement and opened 1903; long one of the largest prisons in the Far East ('Far East's No. 1 prison')."
+  },
+  "华懋饭店": {
+   "en": "the Cathay Hotel",
+   "pinyin": "Huamao fandian",
+   "status": "attested",
+   "note": "Real. Victor Sassoon's Art Deco hotel on the Bund (Sassoon House, opened 1929); today the north building of the Peace Hotel (和平饭店). Its revolving door gives the chapter its title."
+  },
+  "澄衷中学": {
+   "en": "Chengzhong Middle School",
+   "pinyin": "Chengzhong zhongxue",
+   "status": "attested",
+   "note": "Real. School in Hongkou founded 1900 by the merchant Ye Chengzhong (叶澄衷); still exists as Shanghai Chengzhong High School."
+  },
+  "下海庙": {
+   "en": "the Xiahai Temple",
+   "pinyin": "Xiahai Miao",
+   "status": "attested",
+   "note": "Real. A popular folk temple in the Tilanqiao area of Hongkou."
+  },
+  "新闸路": {
+   "en": "Xinzha Road",
+   "pinyin": "Xinzha Lu",
+   "status": "attested",
+   "note": "Real. Shanghai road where Ye Qinian's old lane house (and its anarchist salon) stood in Chen Qianli's student days; still Xinzha Road."
+  },
+  "仁记路": {
+   "en": "Renji Road",
+   "pinyin": "Renji Lu",
+   "status": "attested",
+   "note": "Real. Jinkee Road, a narrow street of foreign-firm buildings behind the Bund (today part of Dianchi Road)."
+  },
+  "外滩": {
+   "en": "the Bund",
+   "pinyin": "Waitan",
+   "status": "attested",
+   "note": "Real. Shanghai's riverfront boulevard of foreign banks and hotels along the Huangpu."
+  },
+  "黄浦江": {
+   "en": "the Huangpu River",
+   "pinyin": "Huangpu Jiang",
+   "status": "attested",
+   "note": "Real. The river through Shanghai; the Bund runs along its west bank."
+  },
+  "董家渡": {
+   "en": "Dongjiadu",
+   "pinyin": "Dongjiadu",
+   "status": "attested",
+   "note": "Real. A riverside district of the old Chinese city (Nanshi), south of the Settlement."
+  },
+  "奉贤": {
+   "en": "Fengxian",
+   "pinyin": "Fengxian",
+   "status": "attested",
+   "note": "Real. Coastal county south of Shanghai, with reed marshes by the sea where Old Fang taught Cui Wentai to shoot."
+  },
+  "瑞金": {
+   "en": "Ruijin",
+   "pinyin": "Ruijin",
+   "status": "attested",
+   "note": "Real. Town in Jiangxi, capital of the Central Soviet and of the Chinese Soviet Republic; the Party center relocated there in early 1933."
+  },
+  "天津路": {
+   "en": "Tianjin Road",
+   "pinyin": "Tianjin Lu",
+   "status": "attested",
+   "note": "Real. Street in the old International Settlement just north of Nanjing Road; a real hub of banks and native banks, one of Shanghai's 'bank streets.'"
+  },
+  "熙华德路": {
+   "en": "Seward Road",
+   "pinyin": "Xihuade Lu",
+   "status": "attested",
+   "note": "Real. Hongkou street built 1864, named for an American consul; renamed Changzhi Road (长治路) in 1943."
+  },
+  "江西路": {
+   "en": "Jiangxi Road",
+   "pinyin": "Jiangxi Lu",
+   "status": "attested",
+   "note": "Real. North-south street a block back from the Bund, in the financial district; Yi Junnian's Nanshi-police car waits there."
+  },
+  "阜成里": {
+   "en": "Fucheng Li",
+   "pinyin": "Fucheng Li",
+   "status": "decided",
+   "note": "The lane opposite the Zhonghui Trust Bank; the enemy's command post is inside it and the underground's pickup cafe at its mouth. Realistic but unattested; likely fictional."
+  },
+  "逸园咖啡馆": {
+   "en": "the Yiyuan Cafe",
+   "pinyin": "Yiyuan kafeiguan",
+   "status": "decided",
+   "note": "The cafe at the mouth of Fucheng Li, the underground's pickup point; a small bank-district cafe, distinct from the famous 逸园 Canidrome dog track. Likely fictional."
+  },
+  "汕头": {
+   "en": "Shantou",
+   "pinyin": "Shantou",
+   "status": "attested",
+   "note": "Real. Guangdong port; the sea link on the CCP's 'Central Red Route' courier line (Shanghai-Hong Kong-Shantou-Dabu-Ruijin), whose Shanghai-Shantou leg the group is to rebuild."
+  },
+  "武汉": {
+   "en": "Wuhan",
+   "pinyin": "Wuhan",
+   "status": "attested",
+   "note": "Real. The tri-city Yangtze port (Hankou/Wuchang/Hanyang); the upriver end of the gold-carrying steward's run in Cui Wentai's anecdote."
+  },
+  "杭州": {
+   "en": "Hangzhou",
+   "pinyin": "Hangzhou",
+   "status": "attested",
+   "note": "Real. Site of the secret-service training class You Tianxiao attended under Ye Qinian."
+  },
+  "茂昌煤号": {
+   "en": "the Maochang Coal Company",
+   "pinyin": "Maochang Meihao",
+   "status": "decided",
+   "note": "Coal firm on the Zhaojiabang whose Chinese-side coal yard the group uses as a refuge; worker Li Han's employer. Fictional."
+  },
+  "兴昌药号": {
+   "en": "the Xingchang Apothecary",
+   "pinyin": "Xingchang Yaohao",
+   "status": "decided",
+   "note": "Apothecary in Xirong Lane, Xiguan, Guangzhou, run by the Party as a liaison station. Fictional."
+  },
+  "添男茶楼": {
+   "en": "the Tiannan Teahouse",
+   "pinyin": "Tiannan Chalou",
+   "status": "decided",
+   "note": "Teahouse with a round white roof on Yang Lane, Guangzhou, a landmark by the liaison station (and ch22's title). Local color, apparently fictional."
+  },
+  "南华楼": {
+   "en": "the Nanhua Building",
+   "pinyin": "Nanhua Lou",
+   "status": "decided",
+   "note": "Building with the Xinya Hotel at Xihaokou, Taiping South Road, Guangzhou; the novel puts the strike-era Labour College on its fourth floor. Setting; the Labour College placement is unconfirmed."
+  },
+  "沙面": {
+   "en": "Shamian",
+   "pinyin": "Shamian",
+   "status": "attested",
+   "note": "Real. Pearl-River islet made into British and French concessions after 1859; from it Anglo-French troops fired on marchers across the Shakee Canal, 23 June 1925."
+  },
+  "大沙头": {
+   "en": "Dashatou",
+   "pinyin": "Dashatou",
+   "status": "attested",
+   "note": "Real. Guangzhou's eastern railway station (built 1911), terminus of the Canton-Kowloon line; renamed Guangzhou East Station in 1947."
+  },
+  "顾家宅公园": {
+   "en": "Gujiazhai Park",
+   "pinyin": "Gujiazhai gongyuan",
+   "status": "attested",
+   "note": "Real. The French Concession's park (Parc de Koukaza), opened 1909; today Fuxing Park."
+  },
+  "平民宫": {
+   "en": "the People's Palace",
+   "pinyin": "Pingmin Gong",
+   "status": "attested",
+   "note": "Real. Shelter for the poor completed in Guangzhou 1931 under Chen Jitang; funded from seized smuggler money (the novel says opium-boat fines)."
+  },
+  "浆栏街": {
+   "en": "Jianglan Street",
+   "pinyin": "Jianglan Jie",
+   "status": "attested",
+   "note": "Real. Street of apothecaries in the Xiguan district of Guangzhou."
+  },
+  "双门底": {
+   "en": "Shuangmendi",
+   "pinyin": "Shuangmendi",
+   "status": "attested",
+   "note": "Real. Historic site of Guangzhou's New-Year flower market; today's Beijing Road."
+  },
+  "高第街": {
+   "en": "Gaodi Street",
+   "pinyin": "Gaodi Jie",
+   "status": "attested",
+   "note": "Real. Old commercial street in Guangzhou."
+  }
+ },
+ "terms": {
+  "骰子": {
+   "en": "dice",
+   "pinyin": "touzi",
+   "status": "decided",
+   "note": "The pair of dice: the group's recognition sign, and the thread the enemy has hold of."
+  },
+  "牌九": {
+   "en": "pai gow",
+   "pinyin": "paijiu",
+   "status": "attested",
+   "note": "Domino gambling game; the cover for the meeting."
+  },
+  "黄包车": {
+   "en": "rickshaw",
+   "pinyin": "huangbaoche",
+   "status": "attested",
+   "note": "The pulled two-wheeled cab."
+  },
+  "阴丹士林": {
+   "en": "Indanthrene",
+   "pinyin": "yindanshilin",
+   "status": "attested",
+   "note": "Brand of colorfast synthetic dye; the blue of the schoolboys' gowns."
+  },
+  "麦乳精": {
+   "en": "malted-milk extract",
+   "pinyin": "mairujing",
+   "status": "decided",
+   "note": "A coveted imported drink powder."
+  },
+  "旗袍": {
+   "en": "cheongsam",
+   "pinyin": "qipao",
+   "status": "attested",
+   "note": "The fitted dress; Miss Tao's, with the letter in its lining."
+  },
+  "危害民国紧急治罪法": {
+   "en": "the Emergency Law for Crimes Endangering the Republic",
+   "pinyin": "weihai minguo jinji zhizui fa",
+   "status": "attested",
+   "note": "Real. 1931 Nationalist law; carried the death penalty, used against Communists."
+  },
+  "西施": {
+   "en": "Xi Shi",
+   "pinyin": "Xi Shi",
+   "status": "attested",
+   "note": "Legendary beauty of Yue sent to ruin Wu; here the code name of a planted agent."
+  },
+  "五卅运动": {
+   "en": "the May Thirtieth Movement",
+   "pinyin": "Wusa yundong",
+   "status": "attested",
+   "note": "Real. 1925 anti-imperialist upheaval after Settlement police shot demonstrators."
+  },
+  "一·二八": {
+   "en": "the January 28 Incident",
+   "pinyin": "Yi-erba",
+   "status": "attested",
+   "note": "Real. The 1932 Battle of Shanghai against the Japanese."
+  },
+  "大红袍": {
+   "en": "Da Hong Pao",
+   "pinyin": "Da Hong Pao",
+   "status": "attested",
+   "note": "'Great Red Robe,' the most prized of the Wuyi rock teas."
+  },
+  "训政": {
+   "en": "political tutelage",
+   "pinyin": "xunzheng",
+   "status": "attested",
+   "note": "The Nationalist 'tutelage' period of one-party rule."
+  },
+  "特务工作之理论与实际": {
+   "en": "The Theory and Practice of Secret-Service Work",
+   "pinyin": "Tewu gongzuo zhi lilun yu shiji",
+   "status": "decided",
+   "note": "The scarce secret-service manual Mu Chuan asks You to bring."
+  },
+  "冬": {
+   "en": "Winter",
+   "pinyin": "Dong",
+   "status": "decided",
+   "note": "Ling Wen's (fictional) novel; Dong Huiwen has read it."
+  },
+  "蓝钢快车": {
+   "en": "the Blue Steel Express",
+   "pinyin": "Lan'gang Kuaiche",
+   "status": "decided",
+   "note": "The overnight express between Shanghai and Nanjing."
+  },
+  "青天白日旗": {
+   "en": "the Blue Sky and White Sun flag",
+   "pinyin": "qingtian bairi qi",
+   "status": "attested",
+   "note": "The Nationalist emblem flown over the garrison gate."
+  },
+  "党国": {
+   "en": "the Party and the state",
+   "pinyin": "dangguo",
+   "status": "decided",
+   "note": "Nationalist formula fusing party and nation."
+  },
+  "围剿": {
+   "en": "encirclement and suppression",
+   "pinyin": "weijiao",
+   "status": "attested",
+   "note": "Real. The Nationalist campaigns against the Communist base areas from 1930."
+  },
+  "中央苏区": {
+   "en": "the Central Soviet",
+   "pinyin": "Zhongyang Suqu",
+   "status": "attested",
+   "note": "Real. The main Communist base area in Jiangxi-Fujian, capital Ruijin."
+  },
+  "白区": {
+   "en": "the White area",
+   "pinyin": "baiqu",
+   "status": "attested",
+   "note": "Real. Nationalist-controlled territory, opposed to the 'Red'/Soviet areas; the underground's world."
+  },
+  "南昌起义": {
+   "en": "the Nanchang Uprising",
+   "pinyin": "Nanchang qiyi",
+   "status": "attested",
+   "note": "Real. The Communists' 1 Aug 1927 revolt; founding day of the Red Army."
+  },
+  "广州起义": {
+   "en": "the Guangzhou Uprising",
+   "pinyin": "Guangzhou qiyi",
+   "status": "attested",
+   "note": "Real. The Canton Uprising of Dec 1927 ('Guangzhou Commune')."
+  },
+  "大革命": {
+   "en": "the Great Revolution",
+   "pinyin": "da geming",
+   "status": "attested",
+   "note": "Real. The 1924-27 National Revolution and First United Front, broken by Chiang in 1927."
+  },
+  "远方来信": {
+   "en": "Letters from Afar",
+   "pinyin": "Yuanfang laixin",
+   "status": "attested",
+   "note": "Real. Lenin's 1917 work, quoted by Chen Qianyuan; also the title of a later chapter."
+  },
+  "未完成交响曲": {
+   "en": "the Unfinished Symphony",
+   "pinyin": "Weiwancheng jiaoxiangqu",
+   "status": "attested",
+   "note": "Real. Schubert's Symphony No. 8 in B minor, rehearsed by the orchestra Dr. Qin watches."
+  },
+  "图兰朵": {
+   "en": "Turandot",
+   "pinyin": "Tulanduo",
+   "status": "attested",
+   "note": "Real. Puccini's last opera, set in a legendary Peking."
+  },
+  "大香槟": {
+   "en": "the Grand Champagne",
+   "pinyin": "da xiangbin",
+   "status": "attested",
+   "note": "Real. The Shanghai Race Club's sweepstakes lottery."
+  },
+  "笑林广记": {
+   "en": "the Xiaolin Guangji",
+   "pinyin": "Xiaolin Guangji",
+   "status": "attested",
+   "note": "Real. The best-known classical Chinese joke-book, of the Qing dynasty."
+  },
+  "明四家": {
+   "en": "the Four Masters of the Ming",
+   "pinyin": "Ming sijia",
+   "status": "attested",
+   "note": "Real. Shen Zhou, Wen Zhengming, Tang Yin and Qiu Ying."
+  },
+  "茄力克": {
+   "en": "Garrick",
+   "pinyin": "Jialike",
+   "status": "attested",
+   "note": "A British cigarette brand; also the title of a later chapter."
+  },
+  "广益书局": {
+   "en": "the Guangyi Book Company",
+   "pinyin": "Guangyi Shuju",
+   "status": "attested",
+   "note": "Real. A Republican-era Shanghai publisher."
+  },
+  "石库门": {
+   "en": "shikumen",
+   "pinyin": "shikumen",
+   "status": "attested",
+   "note": "Shanghai stone-gate row houses; the barbershop lane is of this kind."
+  },
+  "铺保": {
+   "en": "surety bond",
+   "pinyin": "pubao",
+   "status": "decided",
+   "note": "A merchant's guarantee standing bail for a prisoner's release."
+  },
+  "二房东": {
+   "en": "second landlord",
+   "pinyin": "er fangdong",
+   "status": "decided",
+   "note": "A sub-lessor who leases a whole house and sublets rooms at a profit; a stock Shanghai figure. Ling Wen's cover."
+  },
+  "四一二": {
+   "en": "the April Twelfth massacre",
+   "pinyin": "si-yi-er",
+   "status": "attested",
+   "note": "Real. Chiang Kai-shek's 12 April 1927 purge of Communists in Shanghai, which shattered the First United Front and drove the Party underground."
+  },
+  "老布尔什维克": {
+   "en": "Old Bolshevik",
+   "pinyin": "lao Bu'ershiweike",
+   "status": "attested",
+   "note": "A veteran who joined the Party in its earliest years; a mark of Yi Junnian's seniority."
+  },
+  "水门汀": {
+   "en": "cement",
+   "pinyin": "shuimenting",
+   "status": "attested",
+   "note": "Shanghainese transliteration of English 'cement' (concrete); '水门汀 houses' are cement/reinforced-concrete buildings."
+  },
+  "巴拉莱卡": {
+   "en": "balalaika",
+   "pinyin": "balalaika",
+   "status": "attested",
+   "note": "The Russian triangular-bodied string instrument; the busker's song is the Yiddish folk song 'Tumbalalaika.'"
+  },
+  "第三次反围剿": {
+   "en": "the Third Counter-Encirclement Campaign",
+   "pinyin": "di-san-ci fan weijiao",
+   "status": "attested",
+   "note": "Real. The Red Army's autumn-1931 defeat of the KMT's third 'encirclement and suppression' campaign in the Central Soviet."
+  },
+  "邋遢冬至清爽年": {
+   "en": "A muddy Winter Solstice, a clear New Year",
+   "pinyin": "lata dongzhi qingshuang nian",
+   "status": "attested",
+   "note": "A Jiangnan weather proverb: an overcast Winter Solstice is taken to foretell a fine New Year, and vice versa."
+  },
+  "亭子间": {
+   "en": "tingzijian",
+   "pinyin": "tingzijian",
+   "status": "attested",
+   "note": "The small, cheap back room over the kitchen landing of a Shanghai lane house; the classic lodging of 1930s left-wing writers ('tingzijian writers')."
+  },
+  "世界语": {
+   "en": "Esperanto",
+   "pinyin": "shijieyu",
+   "status": "attested",
+   "note": "The constructed universal language, championed by Chinese anarchists as a coming single world tongue; the cause of Ye Qinian's student salon."
+  },
+  "朵云轩": {
+   "en": "Duoyunxuan",
+   "pinyin": "Duoyunxuan",
+   "status": "attested",
+   "note": "Real. Shanghai studio (founded 1900) for fine paper and painting supplies, famed for woodblock-printed decorated letter-paper."
+  },
+  "特派员": {
+   "en": "special commissioner",
+   "pinyin": "tepaiyuan",
+   "status": "decided",
+   "note": "A special envoy sent by a higher Party organ to direct an operation; the enemy takes Lin Shi for one."
+  },
+  "北伐": {
+   "en": "the Northern Expedition",
+   "pinyin": "Beifa",
+   "status": "attested",
+   "note": "Real. The Nationalist-Communist military campaign (1926-28) from Guangzhou to unify China; its approach to Shanghai in 1927 is the backdrop to Cui Wentai's story."
+  },
+  "废历": {
+   "en": "the abolished calendar",
+   "pinyin": "feili",
+   "status": "attested",
+   "note": "Real. The Nationalists' dismissive term for the lunar calendar they tried to suppress; hence '废历除夕,' the Eve of the Abolished Calendar."
+  },
+  "大黄鱼": {
+   "en": "big yellow croaker",
+   "pinyin": "da huangyu",
+   "status": "attested",
+   "note": "Old-Shanghai slang for a ten-tael gold bar (a one-tael bar was a 小黄鱼, 'little yellow croaker'); Cui Wentai's 'five big yellow croakers' are the five gold bars."
+  },
+  "貂爪仁": {
+   "en": "marten-paw fur",
+   "pinyin": "diaozhuaren",
+   "status": "decided",
+   "note": "Fur said to be pieced from the skin below a marten's claws; dramatizes the real furrier practice of piecing a garment from small prime parts of many pelts, but this specific category is unattested and likely the novel's embellishment."
+  },
+  "钱庄": {
+   "en": "native bank",
+   "pinyin": "qianzhuang",
+   "status": "attested",
+   "note": "Real. The traditional Chinese private banking house, forerunner of the modern bank; distinct from the modern 银行."
+  },
+  "估衣铺": {
+   "en": "secondhand-clothes shop",
+   "pinyin": "guyipu",
+   "status": "attested",
+   "note": "Real. A shop dealing in used clothing, including fine robes let out to those wanting to look wealthy; Chen Qianli rents his rich-man's outfit from one."
+  },
+  "简任": {
+   "en": "jianren",
+   "pinyin": "jianren",
+   "status": "attested",
+   "note": "Real. Second-highest of the four Nationalist civil-service grades (特任/简任/荐任/委任); the Investigation Section chief's power far exceeds his middling jianren rank."
+  },
+  "八七会议": {
+   "en": "the August 7th Conference",
+   "pinyin": "Ba-qi huiyi",
+   "status": "attested",
+   "note": "Real. Emergency CCP conference, Hankou, 7 Aug 1927; set the line of land revolution and armed struggle after the First United Front collapsed."
+  },
+  "省港大罢工": {
+   "en": "the Canton-Hong Kong Strike",
+   "pinyin": "Sheng-Gang da bagong",
+   "status": "attested",
+   "note": "Real. The 1925-26 general strike and anti-British boycott in solidarity with the May Thirtieth Movement; Yi Junnian was in Guangdong for it."
+  },
+  "三民主义": {
+   "en": "the Three Principles of the People",
+   "pinyin": "Sanmin zhuyi",
+   "status": "attested",
+   "note": "Real. Sun Yat-sen's doctrine (Nationalism, Democracy, People's Livelihood); official ideology of the Nationalist state, invoked by Ye Qinian as the belief to replace Communism."
+  },
+  "共产主义ABC": {
+   "en": "the ABC of Communism",
+   "pinyin": "Gongchanzhuyi ABC",
+   "status": "attested",
+   "note": "Real. Bukharin and Preobrazhensky's 1919 primer on the Bolshevik program, read in Chinese as an introduction to Communism; one of the books said to have 'turned' the young Chen Qianli."
+  },
+  "中央红色交通线": {
+   "en": "the Central Red Route",
+   "pinyin": "Zhongyang hongse jiaotongxian",
+   "status": "attested",
+   "note": "Real. The enduring CCP courier line Shanghai-Hong Kong-Shantou-Dabu-Ruijin (from 1930), which moved documents, funds and 200+ cadres into the Central Soviet; the group is to rebuild the Shanghai-Shantou leg."
+  },
+  "二月": {
+   "en": "February",
+   "pinyin": "Eryue",
+   "status": "attested",
+   "note": "Real. Rou Shi's 1929 novella, published by the Chunchao Book Company with a Lu Xun preface; the book Ling Wen buys, and this chapter's title."
+  },
+  "吊钟花": {
+   "en": "hanging-bell flower",
+   "pinyin": "diaozhonghua",
+   "status": "attested",
+   "note": "Real. Enkianthus quinqueflorus, a traditional Cantonese Lunar New Year flower sold at the Guangzhou flower market."
+  },
+  "竹筒屋": {
+   "en": "bamboo-tube house",
+   "pinyin": "zhutongwu",
+   "status": "attested",
+   "note": "Real. Old Guangzhou townhouse, narrow-fronted and very deep, rooms strung front to back like the joints of bamboo."
+  },
+  "满洲窗": {
+   "en": "Manchu windows",
+   "pinyin": "Manzhouchuang",
+   "status": "attested",
+   "note": "Real. Lattice windows set with colored, etched glass, a signature of Xiguan houses in Guangzhou."
+  },
+  "骑楼": {
+   "en": "arcade",
+   "pinyin": "qilou",
+   "status": "attested",
+   "note": "Real. Lingnan shophouse whose upper floors overhang the pavement on columns to shelter it."
+  },
+  "豪密": {
+   "en": "the Hao cipher",
+   "pinyin": "Haomi",
+   "status": "attested",
+   "note": "Real. Code devised by Zhou Enlai, named for his alias Wu Hao (伍豪); a code-book cipher, held never to have been broken."
+  },
+  "煨灶猫": {
+   "en": "stove-cat",
+   "pinyin": "weizaomao",
+   "status": "decided",
+   "note": "Wu-dialect idiom: a cat drowsing by the kitchen fire, i.e. a listless, spiritless person. Chen turns it around: 'the stove-cat turns into a tiger.'"
+  }
+ }
 }
