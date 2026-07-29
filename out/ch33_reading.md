@@ -1,0 +1,205 @@
+## North Station
+
+In the car they hooded Wei Dafu's head with black cloth; through the hood he could make out only some light and shadow. But before the black cloth went on, he had seen the car cross the long line of barricades ranged down the middle of the road. Shanghai's streets he knew as well as his own fingers, and he guessed they meant to take him to Zhabei.
+
+Before the car stopped he heard a whistle, a train clattering by on the rails, the sound so near that he thought this must be somewhere close to the North Station. Going in at the door he stumbled and fell on the steps, and in the confusion, through a gap beneath the hood, he saw the world outside. He knew buildings well — a single corner of a wall was enough for him to picture the whole of a building — and he guessed at once that this was Lai'an Li. He dimly recalled that there was a hotel in Lai'an Li.
+
+He seldom came here, for it lay close to the North Station, where the concessions and the Chinese territory interlaced, and the police and patrolmen of neither side cared to come; the people who haunted the neighborhood were a mixed and dubious lot. Early last year, when the Japanese army bombed Zhabei, not only the railway station but the buildings on Baoshan Road and Xinmin Road were all destroyed, and rubble lay everywhere.
+
+Because it faced directly onto the railway station, the lanes, roofs and terraces of Lai'an Li had once concealed men of the Nineteenth Route Army in ambush. Several hundred Japanese soldiers, trying to work through Lai'an Li to spy out the station, had been broken and driven back from above. But after that the ordinary families living nearby could no longer bear to stay; all who could manage it fled into the concessions. And so Lai'an Li became a den of gambling houses and opium parlors, and, besides these, there were many pawnshops and pledge-broking stalls. Those who haunted the place, apart from gamblers, opium-smokers, prostitutes and hoodlums, were only bootblacks and cigarette peddlers.
+
+Wei Dafu knew that his being kidnapped, hooded, and marched into a hotel would mean nothing to the people round about even if they saw it. Once he was in the room and the hood came off, he would have his bearings.
+
+He was taken upstairs, though he could not tell just where. The room had been cleared out; there was nothing in it but a bed, the lavatory was shared with the outer suite, and the door was locked from without. The lower half of the window was boarded up, and the upper half nailed over with iron bars, leaving only a few narrow chinks. Through the chinks he looked out and saw, far off, a great many rails, and one corner of the waiting hall as well; the main body of the station was hidden behind the building of the railway administration. Knowing there was no use in looking longer, he lay down on the bed; there was no bedding on it, only the bare boards, but he had not slept the whole night, and no sooner was he down than he fell asleep.
+
+He thought he had slept a long time, and even dreamed of his parents, long since dead, but in fact not much time had passed before he was roughly shaken awake out of the dream. Wei Dafu dimly remembered that in the last few minutes of the dream he had been surrounded and kicked and beaten by a great crowd; and the moment he opened his eyes, two men hauled him up and dragged him out of the room. Outside had once been the sitting room of the suite; the furniture had been carried clean away, and there stood only a table, with two chairs behind it and one in front. Wei Dafu understood: this was the interrogation room.
+
+This room had had no window to begin with, and the window in the outer room had been boarded up for the most part; with the door shut besides, the interrogation room was all in gloom. Someone switched on the lamp on the table — a special interrogation-room spotlight; the people who invented such a lamp had meant it for the stage, but they had put it to use here. The lamp was frighteningly bright, and the moment it shone on Wei Dafu his eyes stabbed with pain; the light gathered to a single point, and the ring of it closed about him, so that everything round about seemed darker still. He could dimly see two black shapes by the table; the one in front he could just make out to be Captain You of the detective squad, but the one seated behind and to the side was quite without feature.
+
+The room was silent a long while, broken now and then by a whistle of trains coming into or out of the station; but even that sound, reaching this room sealed on every side, seemed to come from far away. When the trains had passed, the room grew more deathly still than ever. Wei Dafu strove to keep his eyes clear of the direct light, but the light seemed able to close over him from any angle, and turn his head as he might he could not escape it. Under its glare his whole body grew hot and broke into sweat, and his head began to ache. All at once the light seemed to turn into a vast sound, roaring and rumbling in his ears.
+
+“Do you know why you've been brought in?” You Tianxiao began, without a spark of originality, his voice too coming from far off, like someone heard from underwater speaking above the surface.
+
+Wei Dafu suddenly smiled, raised his two open hands, turned them wrist against wrist, and said aloud: “Cut!”
+
+You Tianxiao was taken aback. Wei Dafu went on: “That line's far too stale, Captain You — give me another take. Every time, the lot of you ask a man, do you know why you've been brought in? You bring a man in, and you don't know why yourselves?”
+
+You Tianxiao, far from angry, laughed, and turned his head to the shadow seated behind him: “This Wei Dafu — for all that he's usually so limp and soft and clinging, at the pinch he's got a touch of the tough young rascal's spirit in him.”
+
+The shadow seemed to sway slightly, but said nothing.
+
+“Last time, at the meeting in the Fourth Avenue market, you were there too. You're quick on your feet, and we didn't catch you.”
+
+“What market? What meeting? How do you know I was there?”
+
+“Where've you been these last days? Why haven't you gone home again?” You Tianxiao asked.
+
+“You're not my wife — what business is it of yours whether I go home?”
+
+At this even the shadow let slip a laugh, but checked it at once, as though it were merely clearing its throat.
+
+“You've no wife or children — that's an advantage of yours, at least.” You Tianxiao, thinking this a remark of deep meaning, paused a moment and then went on: “But to have neither wife nor child — you've made rather a failure of your life, too.”
+
+Wei Dafu did not take him up, seeming to brood on some private care. You Tianxiao, thinking he had struck the right spot, hastened to press his advantage: “Those confederates of yours, Chen Qianli among them, we've invited them all here too. There are plenty of rooms here; they're being questioned right next door.”
+
+Wei Dafu's heart gave a jump, but he knew at once it was a bluff, and made no sound. The Fahua-town district too was extra-settlement road country, its policing divided among the three authorities — the International Settlement, the French Concession, and the Chinese territory. They were well hidden, and no easy thing to round up; and to use secret arrest and kidnapping, one had to know which house they were hiding in — which the enemy did not.
+
+“Come, tell us — what have those comrades of yours been busy with lately?”
+
+“Day in, day out I take people round to look at houses. These comrades you speak of, I don't know who they are. Besides, if you want to know what other people are busy with, you'll have to ask them yourself.”
+
+“Do you know what sort of place this is?” You Tianxiao suddenly raised his voice. “Playing the comedian with us — in a hurry to die, are you?”
+
+Again Wei Dafu said nothing.
+
+“Hand Chen Qianli over to us, and whatever you want we can give you.”
+
+“I don't know the man. And besides, selling other people out — that's a thing Wei Dafu can't do.”
+
+“Quite the man of honor, aren't you. Good — the Nationalist Party likes men of honor too. Come, tell us: what can you give us in exchange for your own life?”
+
+Wei Dafu thought a while and said: “Suppose I write you an IOU — you let me out, and when one day I strike it rich selling houses, I'll make you a present of ten thousand silver dollars? Wei Dafu is as good as his word; I'll never welsh on a debt of gratitude like that.”
+
+To teach Wei Dafu to speak nicely, You Tianxiao called in several strong men and dragged him to another room. Wei Dafu's head was hooded again, this time with a padded black cloth cover. Because they meant to put pressure enough on his mind, the preparations were made very slowly. Once the padded cover was drawn down over his head from above, they cinched it tight below with a cord, then bound his hands and feet and hung him up head downward.
+
+Hooded though he was, Wei Dafu was still aware that he had been hung up very high. They began to strike his head in a steady rhythm — not very hard, but very fast — and his head swung from side to side like a boxing punch-bag. Before long the pain was as if his skull were about to burst. The sound of the blows grew louder and louder, until even the sound of his ear rubbing against the padded cover became a shrill torment.
+
+He lost all sense of time, and felt the process was without end, that it might even go on forever.
+
+After a long time someone asked him, through the padded cover, whether he was willing to answer questions properly. He made no sound, nor so much as stirred his head. So the agents set to work on his joints. His elbows and knees were forced hard the wrong way. They pulled him straight and pressed him to the ground, his face against the floor, and drew his arms forward from behind, until his shoulder joints creaked as though slowly tearing apart.
+
+The agents who did the torturing were well trained; they went about it unhurriedly, increasing the pressure on his body by degrees, giving him time enough to give in before his arms were torn from their sockets. When the agents let go, the blood seemed to rush all in an instant into the joints. This was precisely the effect the torturers wanted: to send his body back and forth between the extremity of pain and numbness.
+
+Wei Dafu could not help groaning, and nodded.
+
+He was hauled back onto the chair, the cords untied, and the hood taken off.
+
+The fierce ring of light closed over his face again, and before his sight had wholly come back he dimly saw the shadow seated behind say something to You Tianxiao.
+
+“Ready to talk now? You're unwilling to sell others out — well and good—” said You Tianxiao. “Then tell us something you do know.”
+
+Wei Dafu hesitated again. Too soon, surely? he thought. If he began to talk in the very first round, what he said would be worth too little. They might set no store by it, and then he would have played the traitor for nothing. He decided to hold out one round more. He shook his head and would not speak.
+
+So the strong men took the stage again. This time they did not hood him, nor drag him to another room.
+
+In the bathtub in the lavatory a long bench had been placed; the two legs at one end of the bench had been sawn short, so that the seat sloped, one end high, one end low. He was laid flat on the slope, his feet at the high end. They bound him to the bench, brought a wet towel, and laid it over his face.
+
+Wei Dafu heard the water pipe give a gurgling sound. Through the towel his face was prodded once by a rubber hose, and then the water came down. At first he thought he could bear it; he held his breath, thinking he could snatch a breath now and again — but the tap-water poured ceaselessly onto the towel, and the towel pressed heavy and sodden against his face; he felt he was suffocating, and gold stars swam before his eyes. The moment the water stopped he began to cough, but before he had coughed his fill the water came down again.
+
+Again he was hauled back onto the chair.
+
+“Ready to say something now?”
+
+He coughed a while longer, his head hanging almost to the ground; the pan-fried buns and clay-pot wontons he had eaten that morning had long since come up. He vomited a great deal of water.
+
+“What do you want to know?” he said at last.
+
+“First, you must admit to us that you are a member of the underground Party.”
+
+Wei Dafu nodded; there was no need to keep any of this from them now. Before, he had simply not wanted to give in to You Tianxiao. Chen Qianli had told everyone about Lu Zhongde, and so all this the enemy had long since had in hand.
+
+“Where has Liang Shichao gone?” The shadow hidden behind spoke too.
+
+“He was a Red Army commander who came to Shanghai to recover from his wounds in the first place; now that he's healed, he's gone back to the Soviet areas.”
+
+“And Ling Wen? Where has she gone?”
+
+“She went to Guangzhou and hasn't come back.”
+
+“That's very good. You've no hostility toward us — that makes things easy. And Chen Qianli? Where is he?”
+
+“I don't know. He's not at Fahua town.”
+
+“I should like to hear you tell of this so-called plan of yours. I understand you don't in fact know very much; just say what you do know.”
+
+“It's a special secret; we've none of us heard more than the name. We know it's a great matter — most likely the setting up of a new liaison line.”
+
+“All that we know already. You had best tell us something we haven't heard; that way you and we become friends, and everything else is easily managed.”
+
+“Let me have something to drink.”
+
+“Water?”
+
+“I want wine.”
+
+“I've none of the Shaoxing wine you like here, only a bottle of Johnnie Walker.” The man hidden in the dark had You Tianxiao go to his room to fetch the wine.
+
+“I know this Chen Qianli very well. He's a fool.”
+
+While You Tianxiao was gone for the wine, the shadow let fall an idle remark, requiring no answer of Wei Dafu. After a while he went on: “He thinks we don't know of those furtive doings of his. These two years the government, to root out the Communists, has racked its brains and gathered no little experience. We have many eyes and ears; whatever you people do, before long we come to know of it. It was I who advised them not to send you to Longhua first, but quietly to invite you here — this is a chance given to those willing to turn over a new leaf.”
+
+The wine came; Wei Dafu was not, in truth, used to drinking such stuff. They brought him some food as well, but he felt no hunger. He hoped they would put their questions to him of their own accord in the course of the interrogation, for that would seem more natural. But they did not ask; they only had him tell what he knew. And so the talk began another round of circling. He thought that perhaps they had not yet discovered certain arrangements Chen Qianli would complete that day.
+
+“What did you go to the Shen Bao offices on Third Avenue to do?”
+
+“Placed an advertisement. Chen Qianli had me go there to the advertising section; it's to appear in tomorrow morning's paper.”
+
+“What did the advertisement say?”
+
+“It was written on a slip of paper; I can't remember so many words. You'll surely have gone to the Shen Bao to get a look at it.”
+
+“Why place this advertisement?”
+
+“That I don't know.”
+
+The interrogation reached a deadlock, and the man seated in the dark quietly left the room. You Tianxiao suddenly began to ask him about Yi Junnian — wanting to know why that man, though he plainly knew they meant to seize him, dared not flee, but lay low in his painting-and-scroll shop and did not stir. Wei Dafu thought a moment and answered that Yi Junnian was his superior, and that by the rules of the underground Party he could not inquire into a superior's work or whereabouts. He told You Tianxiao that he had just been worn out utterly and wanted to rest a while. You Tianxiao, thinking him started on his glib patter again and refusing to speak properly, grew angry and left the interrogation room.
+
+They did not let Wei Dafu return to the room he had been held in before. The place he was put into now could not even be called a room: it had no window and no furniture of any kind. When the agents shut the door there was not a scrap of light within. Wei Dafu crouched on the ground and felt his way about in the dark, and found the place very cramped. Just as well, he thought; he could get a good sleep. But they would give him no chance to rest.
+
+No sooner had he lain down on the ground than the spotlights fixed in the ceiling came on. He could not make out how many were mounted overhead; for the first time he knew that light could be so bright. It stabbed at him like a myriad fine needles, and even with his eyes shut tight the needles of light could still bore into his pupils, bore into his head. He wanted to smash the bulbs, but he could not reach them.
+
+A moment later the light went out, and a deafening sound began to batter his eardrums. They had fitted the room with the loud horns used on motorcars, as though a naughty child were holding the horn-button down and would not let go; the horns can have sounded less than a minute, perhaps, before Wei Dafu felt his brain had burst apart.
+
+In another room of the Zhengyuan Hotel, Lu Zhongde lolled on the sofa smoking. Seeing Ye Qinian come in, he half rose in a slight bow, then sat down again.
+
+“How did you get in?” Ye Qinian was a little surprised that Lu Zhongde had not risen to greet him; this favorite disciple, since his return from Guangzhou, had had a hint of something strange in his look — perhaps only that he was over-weary.
+
+“Secretary Ma opened that door at the corner; no one saw me.”
+
+“What has happened, that you must come here?”
+
+“Chen Qianli sent Tian Fei to the shop once, with word that they mean to cut off contact with the outside. Since I have the task Old Fang charged me with before he died and cannot get away to the hidden assembly point, they will not, for the time being, keep in touch with me.”
+
+“Cut off contact?” Ye Qinian was somewhat puzzled.
+
+“I think they must have some great operation afoot.”
+
+“‘A Thousand Li of Rivers and Mountains’?”
+
+“It's possible.”
+
+“This ‘A Thousand Li of Rivers and Mountains’ plan — what in the world is it meant to be?”
+
+They had racked their brains and spent so much time to get to the bottom of this secret plan, and to this day had not laid hold of even its rough shape.
+
+“It must have to do with the liaison line, surely.”
+
+“It's not so simple. The headquarters has analyzed intelligence gathered from every quarter, and I have a presentiment that the Communist Central may be about to leave Shanghai before long. Haohan's case may not be an isolated thing. We seized him once, and he vanished utterly, gone without a trace. A few days later one of the Communists was talked over and agreed to hand him to us; we learned that he was to meet Fang Yunping, and we sent men — and let him slip again. What gives one pause is that this Fang Yunping was the very head of this temporary action group of yours; on the day he was to meet Haohan he had meant to go straight on to the market for the meeting. We went to take Fang Yunping, and he would rather die than let himself be taken. A pity—”
+
+“‘A thousand li of rivers and mountains,’ the Communist Central leaving Shanghai — it does begin to sound like the very thing.” Lu Zhongde turned it over in his mind, then all at once his shoulders gave a jerk, and, slapping the arm of the sofa, he said: “Hire a ship, book the whole passenger cabin?”
+
+“When you telephoned me last night, I sent men to Fahua town through the night, and had them out first thing in the morning driving the big and little streets round about in search — and sure enough they spotted Wei Dafu. They followed Wei Dafu all the way to the Shen Bao offices and brought him back.”
+
+“What did he go to the Shen Bao offices to do?”
+
+“Place an advertisement.”
+
+“Another advertisement? To Haohan?”
+
+“Certainly not. Following the advertisement you brought back from Guangzhou — take the figures in this advertisement and look them up in the Morse telegraph code, and another great figure of the Communist Central appears.”
+
+“Who is it?” Lu Zhongde said eagerly.
+
+Ye Qinian gave him a look, and did not tell him.
+
+“Teacher, what do we do now — go to Fahua town and bring them all back?”
+
+“That Fahua-town district is a tangle of ground; we don't even know their exact whereabouts, and to go seizing them rashly would only be beating the grass and startling the snake. You ought to have gone with him that day.”
+
+The day Chen Qianli fled from Menghua Street, he had gone to the painting-and-scroll shop and wanted Lu Zhongde to withdraw with him. The reason Lu Zhongde gave Ye Qinian was that he had already made contact with Haohan, and feared that if he went off with Chen Qianli something might go awry. But Ye Qinian knew that Lu Zhongde had not dared go — he was afraid of Chen Qianli.
+
+“On the wharf you should have killed him, or brought him back. Failing to act there, you ought to have gone with him; at the moment for advance or retreat, there must be no wavering.”
+
+“Teacher, had we killed him then, this ‘A Thousand Li of Rivers and Mountains’ behind it all — we should never have got to see it.”
+
+Ye Qinian said to Lu Zhongde with approval: “There you have it right. The steps of an operation have always to reckon with more than one moment, one place, one man. Upstairs they're questioning Wei Dafu; I sat behind just now and listened a while. This slippery fellow — he doesn't want to die, and doesn't want to offend the other side either, and at every crucial question he speaks in evasions. He has some knack for enduring torture, and to make him talk properly won't be so easy. I think the first breach must be opened here, with him.”

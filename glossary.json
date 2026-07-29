@@ -1577,6 +1577,60 @@
    "pinyin": "Jielu",
    "status": "attested",
    "note": "Real (today East Tianmu Road). The Settlement / Chinese-district dividing road by the North Railway Station, paired with Xinmin Road."
+  },
+  "宁绍山庄": {
+   "en": "Ningshao Manor",
+   "pinyin": "Ningshao Shanzhuang",
+   "status": "provisional",
+   "note": "Cemetery south of Xiaozha where Ye Tao and her mother lie; a Ningbo-Shaoxing native-place charitable cemetery. The institution is real; this named manor is not independently attested."
+  },
+  "蒲汇塘": {
+   "en": "the Puhui Creek",
+   "pinyin": "Puhuitang",
+   "status": "attested",
+   "note": "Real watercourse of southwestern Shanghai (Xujiahui-Longhua zone)."
+  },
+  "漕河泾": {
+   "en": "the Caohejing",
+   "pinyin": "Caohejing",
+   "status": "attested",
+   "note": "Real watercourse and market district of southwestern Shanghai; converges with the Puhui Creek."
+  },
+  "小闸镇": {
+   "en": "Xiaozha",
+   "pinyin": "Xiaozha",
+   "status": "attested",
+   "note": "Real former market town near Xujiahui, on the Puhui Creek."
+  },
+  "法华镇": {
+   "en": "Fahua town",
+   "pinyin": "Fahua Zhen",
+   "status": "attested",
+   "note": "Real market town in western Shanghai (now Changning), at the three-jurisdiction border; the group's hideout among the dairy farms."
+  },
+  "望平街": {
+   "en": "Wangping Street",
+   "pinyin": "Wangping Jie",
+   "status": "attested",
+   "note": "Real. Old Shanghai's 'Newspaper Street' by the Shen Bao building on Hankou Road; today's Shandong Middle Road."
+  },
+  "老西门": {
+   "en": "Laoximen",
+   "pinyin": "Laoximen",
+   "status": "attested",
+   "note": "Real. 'Old West Gate' district of the former walled Chinese city."
+  },
+  "浙江路": {
+   "en": "Zhejiang Road",
+   "pinyin": "Zhejiang Road",
+   "status": "attested",
+   "note": "Real Shanghai street; runs north through the Settlement."
+  },
+  "大舞台": {
+   "en": "the Great Stage",
+   "pinyin": "Da Wutai",
+   "status": "decided",
+   "note": "A Shanghai theater on Second Avenue (二马路), a landmark by which Wei Dafu locates his breakfast shop."
   }
  },
  "terms": {
@@ -2059,6 +2113,12 @@
    "pinyin": "rangwai bi xian annei",
    "status": "attested",
    "note": "Real. Chiang Kai-shek's policy slogan from 1931: destroy the Communists and unify the country before resisting Japan."
+  },
+  "烧酒": {
+   "en": "grain spirit",
+   "pinyin": "shaojiu",
+   "status": "decided",
+   "note": "Distilled grain liquor; kept distinct from 绍酒/Shaoxing wine (a fermented rice wine) rendered elsewhere in the book."
   }
  }
 }

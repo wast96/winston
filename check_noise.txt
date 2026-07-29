@@ -124,3 +124,11 @@
 王八蛋
 # 千爱 = Chiai-li / Chiai Road (千爱里/千爱路, a Hongkou place name; 千 is part of the name, not the count 1000)
 千爱
+# 九条巷 = Jiutiao Lane, a Nanjing lane name (九 is part of the name, not a count)
+九条巷
+# 三轮车 = pedicab / tricycle (三轮 "three-wheel" is the vehicle type, not a count)
+三轮车
+# 七拐八弯 = "winding / full of twists and turns" (idiom; 七/八 not counts)
+七拐八弯
+# 百般 = "in every possible way / all manner of" (idiom; 百 not the count 100)
+百般

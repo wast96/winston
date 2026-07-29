@@ -1,0 +1,143 @@
+## The Cemetery
+
+The fifteenth of the first month; the Lantern Festival.
+
+The car ran west all the way, until it came near the town of Xiaozha. Along one stretch of the old channel of the Puhui Creek the water had been pumped dry, and all the way along one saw only the hundreds of river laborers dredging and digging out the channel. This work, begun the previous December, would, once finished, join the two watercourses of the Puhui Creek and the Caohejing.
+
+The Ningshao Manor lay just south of the town of Xiaozha; before the gate of the cemetery was a wooden bridge, and behind the bridge the trees stood dense and dark. The car stopped before the bridge, and Ye Qinian, once he had got down, crossed the bridge alone. On the little path through the grass were a scattered few come to sweep the graves. The cemetery was divided into four sections, A, B, C and D; Ye Qinian crossed a square of turf, behind which a ring of holly grew, and came to the graves of Ye Tao and her mother.
+
+Before Ye Tao's grave lay a little heap of chestnuts, already pecked at by the birds and scattered about. Ye Tao had loved chestnuts. Something seemed to stir in Ye Qinian's mind; he stared at the chestnuts a long while, then bent and brushed with his hand the litter from the stone slab of the grave down into the grass.
+
+Today was Ye Tao's birthday — who else would remember the day? He had brought Ye Tao's ashes back from Nanjing to Shanghai to keep her mother company, and no one knew of it. As for Chen Qianli, with what face could he come before Ye Tao? It was they who had killed her. Perhaps, he thought, it was those schoolmates of hers, the girls with whom she had once shared her snacks, shared her opinions of the boys, and shared as well those ideas that lead people astray.
+
+Ye Qinian did not wish his men to shoot Chen Qianli dead on the spot. He wanted to take him alive, to make his revenge long and complete. At Menghua Street they had not caught him. Now he knew that Chen Qianli had been professionally trained, and that he himself had been careless. The Chen Qianli of his memory was still that student of former days, all youthful ardor.
+
+So yesterday he had left Lai'an Li and gone to Xiaotaoyuan. And so, when word of the failure at Menghua Street reached the Zhengyuan Hotel, You Tianxiao had made a rash decision. At the Maochang coal yard they had failed again, and lost several of their operatives besides. You Tianxiao suspected that Chen Qianli had a bodyguard at his side, but having looked at the photographs the detective squad had taken of the scene, and having gone to the morgue as well, he judged that those clean, deadly blows must have been the work of a single man.
+
+It was well that You Tianxiao had at last brought Chen Qianyuan back. Ye Qinian had him take Chen Qianyuan and Dong Huiwen back to their lodgings under guard, sent out every operative of the Shanghai station, and, with the men of the Longhua detective squad besides, meant to set a trap for Chen Qianli there: on the road, in the lanes, in the rooms, on the rooftops — this time men were posted everywhere. He ordered them that they might fire, but must leave one alive.
+
+A gust of wind blew past; somewhere far off someone was weeping softly, the sound almost like a chant.
+
+Ye Qinian felt of a sudden something amiss behind him. He wheeled sharply about, and a few steps away Chen Qianli, his two hands hanging at the sides of his overcoat, was watching him calmly.
+
+The Ningshao Manor was not a large cemetery; a wooden fence ran round it, and there was but one way in through the gate.
+
+“What have you done with my men?” Ye Qinian, following the winding path with his eyes, glanced toward the entrance of the cemetery.
+
+Chen Qianli looked about him. “The driver's in the car. Someone is watching him.”
+
+“You still haven't cured yourself of that habit of arriving uninvited.” That eager young man was faintly there yet; it was as though time had not managed wholly to revise him.
+
+“You sent men to look for me several times; this once I've come on my own.”
+
+Two grey-backed thrushes lit in the grass. Newcomers to the foraging, they took no interest in the chestnuts the other birds had pecked and split open, but found instead a whole one.
+
+“So it was you who brought these chestnuts? You remembered, then, that she liked them.”
+
+Chen Qianli went on staring at Ye Qinian; he seemed not to have heard a word the other said.
+
+“You followed Ye Tao to Nanjing, and now you've followed me to her grave.”
+
+Chen Qianli answered mildly: “Finding you was no hard thing. The man who keeps the cemetery has a register. These several years, every Lantern Festival you've come once, and left a little money.”
+
+Ye Qinian gave a cold laugh. “I almost thought you'd come especially to see Ye Tao. You mean to kill me before their graves?”
+
+Chen Qianli's voice was very calm: “You are not worthy to die before their graves.”
+
+“This is my daughter!” Ye Qinian burst out roaring. “You used her, and then you killed her!”
+
+Chen Qianli said sharply: “It was you who killed Ye Tao, you who killed your own daughter!”
+
+Along the path through the grass a man and a woman were coming toward them; they seemed to sense something, hesitated, halted, then turned and went off down another path.
+
+Ye Qinian stared at Chen Qianli and lowered his voice: “You deceived her, sent her into the Zhanyuan to steal intelligence. When she was found out, you decided she was of no more use. She came over to you, and you killed her — shot her in the back, and left her to die alone in a soldiers' shelter-vault.”
+
+Chen Qianli felt the time had come to shatter the delusion of this obstinate spymaster: “Ye Tao died for her ideal. That she went to Nanjing and used your connections to enter the Zhanyuan was a request she herself made, of her own will, to the Party organization. And more important still — the very opposite of what you say — it was at the Women's Normal University that she joined the Communist Party, and it was she who set my feet on the road of revolution.”
+
+Ye Qinian looked at Ye Tao's headstone and said, without expression: “You killed her, and then you made a martyr of her. But my daughter is a martyr of the Party and the state. My daughter. I know it very well!”
+
+“You know? Let me tell you what you don't know.” Chen Qianli glanced about him and lowered his voice too.
+
+“Though she was exposed, she knew you dared not tell the others openly, or have her arrested. She was your daughter; if it came out that she was a Communist intelligence agent, you would not only lose face — your own position in the Zhanyuan would totter, for the men above would then know that the leaks, again and again before every operation, had their source in the home of Director Ye himself.”
+
+“I let the wolf into the house—” Ye Qinian was consumed with remorse.
+
+Chen Qianli knew that the truth could shatter the self-deceiving armor he wore: “But neither could she withdraw from the Zhanyuan. The intelligence leaked before had all gone out from there; she could not get out of the Zhanyuan, for you would not let the gatehouse pass her through. The moment she came to the gate, the guards would stop her and telephone you. She could not leave, and dared not. She felt that even if she got out, you would quietly set men to watch her.”
+
+“I, set men to watch my own daughter? Utter nonsense.”
+
+“Ye Tao understood what kind of man her father was. If she went out rashly to make contact with the Party organization, she might well bring trouble on the other comrades.”
+
+“You think these fabrications of yours can deceive the world?” Ye Qinian wondered whether a father's instinct had, at that crucial moment, robbed him of the judgment an agent ought to have.
+
+“It was then the plum-rains season; that year the rain in Nanjing was especially heavy, especially hard. Everyone went about in a raincoat, carrying an umbrella.”
+
+Chen Qianli seemed to see again that afternoon, to see Ye Tao's anxious look: “She thought of a plan. She suspected you might be tapping her telephone, so she slipped away to the general-affairs section — the general-affairs section was forever telephoning the outside, and a call from there the switchboard would not particularly notice. Over the telephone she arranged it with me: I was to go and buy Double Horse brand raincoats, the kind of rubberized spun silk, in red. Two of them, exactly alike. And two umbrellas, also exactly alike. She had me put on the raincoat and, umbrella up, go to the south gate of the Zhanyuan on Daoshu Street.”
+
+“Are you explaining to me the inner workings of the Zhanyuan?” Ye Qinian tipped his head back and looked at the sky, a sneer on his face, as though he had no interest at all in what Chen Qianli was saying.
+
+“The gatehouse telephoned her and let me in. I did not go to the cipher room, but ran and hid in the grotto of the rockery, and left the other raincoat and umbrella on the stone steps. Two or three minutes later I came out of the rockery, went back to the gate, and left the Zhanyuan.”
+
+Ye Qinian looked at him straight at last, his face ferocious: “Things having come to that pass, did you really think the guards of the Zhanyuan would still let you come and go as you pleased?”
+
+“You had the guards pass me through, of course — because you wanted your agents to follow me from behind.”
+
+Ye Qinian of course remembered what he had done in those days; he had always tried to forget it, or tried, by forgetting, to revise all that he did not wish to face.
+
+“She came out of the cipher room, ran behind the rockery and changed into the raincoat, put up the hood, took the umbrella, so that no one would know she had left the Zhanyuan. She went out by the north gate behind the cipher room, so the guards would not see me leave the Zhanyuan twice.” All of it Chen Qianli saw clear before his eyes.
+
+“She and I had agreed to meet on Mafu Street. I saw her from far off, coming from Jiutiao Lane, and ran to her at once — but a shot rang out. When I reached her the agent was lying on the ground, and she herself had been hit; the bullet had gone in from behind. She said the agent had crouched down to check her, meaning to give her another shot, but he saw Ye Tao's face and started, and in that instant the tiny pistol in Ye Tao's pocket fired.”
+
+Ye Qinian regretted not having brought a gun with him.
+
+“She was unconscious. I carried her on my back and ran north like a madman — Danfeng Street, Hongwu Road, Ziwu Road — all the way to the Shence Gate.” The scene rose again before Chen Qianli's eyes: through the rain they had climbed the city wall, and at the top of the wall were steps leading down; a few steps down and they were inside the wall, in a soldiers' shelter-vault, where a few thousand soldiers could hide.
+
+“She was soaked through, blood and rain mingling together. When she came to, she told me she knew now why someone had come to kill her. She said it was not her they had wanted to kill — it was aimed at me. You did not want it known that your daughter was in league with the Communists; you believed that if only I were killed, the link between Ye Tao and the underground Party would be cut. You thought it was because of me that she had joined the Communist Party.”
+
+In an instant Ye Qinian, like a candle burned to its end, began to gutter and collapse in on himself; he stood there still, but all the spirit had gone out of his face.
+
+Ye Tao had said she was glad to have taken that bullet for him; she could not bear to imagine the bullet striking him. Chen Qianli seemed to hear again the beating of his heart in that hour. He had found a dry patch of ground and laid her down on it. He wanted to go for a doctor, but Ye Tao stopped him; she had something to say to him.
+
+She told him she was an intelligence agent of the Communist underground organization, under orders to lie concealed in the Zhanyuan. She said: though you must have guessed it long ago, I ought still to tell you formally. She had long wished to bring him into the Party organization, and had had him do a great deal of peripheral work; every time she telephoned him to come to the Zhanyuan it was to accomplish some task of the Party's, only he himself had not known it. That very day she had meant to take him with her to a secret organ of the underground Party; she had asked her superiors, and they too judged that, after a period of testing, Chen Qianli could be accepted into the Party.
+
+The place was on Mafu Street — had he not often gone there for her to buy osmanthus-sugared taro shoots? she said with a smile. They had arranged beforehand to meet on Mafu Street once she was out of the Zhanyuan. In her faint she did not know that Chen Qianli, carrying her, had run on and on, far away from Mafu Street. She wanted him to hurry to Mafu Street at once and report to the organization: she had found the answer — Ouyang Min was the traitor.
+
+He did not want to leave her, but he had to go. He came down from the wall and ran desperately south again. But the streets around Mafu Street were full of agents. The Zhanyuan had turned out in force, checkpoints were set along the streets, and everywhere were men in rubber raincoats.
+
+He watched a while in the rain, and could only turn back. Once more he ran for his life, meaning to find a doctor, but great numbers of soldiers and police were beginning to appear in the streets, and patrol cars went screaming past.
+
+The Party Affairs Investigation Section gave out that Ye Tao, a woman clerk of the cipher room, had been kidnapped by the Communists; a search was on all over the city, and before long his likeness was posted in the streets.
+
+He simply could not get out of that quarter, and at last climbed over a wall and dropped into a courtyard, hiding behind a loquat tree in the corner of the courtyard wall. The tree was laden with loquats, some over-ripe, some pecked open by the birds; in the driving rain he smelled the strong sweet-and-sour scent of them.
+
+Even now he could not forget that smell, could not forget that fierce anxiety and grief and anger. He wanted to rush out and tell the agents that Ye Tao lay dying on the city wall, but he could not — because Ye Tao had told him he must go to Mafu Street and report that answer to the Party organization.
+
+Not until that night did he get his chance to enter Mafu Street and find the underground Party. The organization sent someone at once to go with him, quietly, to the wall of the Shence Gate — but that stretch of wall had been sealed off. The agents had found Ye Tao.
+
+Chen Qianli looked at the man before him who had killed his own daughter: “I wanted to go for a doctor, but the streets were sealed off by the men you had sent out. You had your men shoot Ye Tao down, and you blocked as well the one thread of hope of saving her.”
+
+He let out a long breath and looked up over the cemetery; the sky had changed, he did not know when, banked thick with cloud, as though it were about to rain. He gazed at Ye Tao's headstone, on which were graven only her name and the years of her birth and death, plain as her face had been in life. Calm, to be trusted, meeting death as one goes home.
+
+That stretch of road from the grave to the river's edge, Ye Qinian had no idea afterward how he had walked it; his face was drained of color, and his whole body was as though the bones had been drawn out of it. A cold wind swept in low across the ground, and the fallen leaves of the cemetery were whirled up into the air.
+
+Seeing that there was one more person in the car, Ye Qinian showed no surprise; he did not turn to look at Chen Qianli, but opened the rear door and got in. In the front passenger seat sat Li Han, holding a gun on Secretary Ma.
+
+Chen Qianli put his hands in the pockets of his overcoat, swept his eyes once round about, and got into the car as well.
+
+In the car, Ye Qinian seemed to recover a little life; he straightened his back and said to Chen Qianli: “I know what you want. Telephone from the town of Caohejing, and I can have them release the men.”
+
+In the front seat Secretary Ma took fright and shouted back over his shoulder: “Director, make them release us first.”
+
+Li Han jabbed the muzzle of his gun hard into Secretary Ma's side.
+
+After a stand-off of some moments Ye Qinian said: “Release the men and then kill us? Chen Qianli is not that sort of man.”
+
+“Chen Qianli is not Ye Qinian.”
+
+The moment was fleeting, the action pressing hard upon them. For the sake of completing, at the last, the task of moving Comrade Haohan to safety, he mastered the impulse to cut this spymaster down where he stood.
+
+The little town of Caohejing: at its center ran a straight street, on which stood bamboo-ware shops, rice shops, and firewood yards.
+
+Ye Qinian had meant to tell Chen Qianli to telephone from the town office, but Chen Qianli had reconnoitered the surroundings beforehand, and had found, beside a beancurd shop, a tobacco-and-paper shop with a public telephone in it.
+
+Over the telephone Ye Qinian told You Tianxiao to withdraw all the men posted at Chen Qianyuan's house.

@@ -933,3 +933,88 @@ confirmed in the built EPUB (grep class="brk": ch28 2, ch29 0, ch30 3; class="da
 scripts/build_reading_epub.py out/thousand-li.epub: 30 of 37 units translated (epigraph + ch02 to
 ch30), 195 notes. qa_epub.py: PASS (47 files, 42 documents; 195 references = 195 bodies = 195
 backlinks; numbering sequential in reading order; all links resolve).
+
+## Batch B11 (ch31 The Cemetery, ch32 The Dairy Shed, ch33 North Station)
+
+Source: data/src/34_part0032.txt, 35_part0033.txt, 36_part0034.txt (12,408 chars).
+Pipeline: out/chNN_en.json -> make_bilingual.py (verbatim source, parity enforced) ->
+split_bilingual.py. Paragraph parity locked: ch31 71 / ch32 74 / ch33 102.
+
+Story: ch31 is the emotional climax -- at the Ningshao Manor cemetery on Lantern Festival day,
+Chen Qianli confronts Ye Qinian at Ye Tao's grave and tells him the whole truth of her death:
+she was a Communist agent who joined the Party at the Women's Normal University and led Chen to
+the revolution; exposed inside the Zhanyuan but unable to leave, she used the matched-raincoat
+ruse to slip Chen out; Ye Qinian's own agents, sent to kill Chen, shot her from behind at Mafu
+Street; she died in the Shence Gate vault after passing the answer "Ouyang Min is the traitor,"
+her rescue blocked by Ye's own street cordon. Chen takes Ye and Secretary Ma hostage to force the
+release of Chen Qianyuan and Dong Huiwen -- all to keep the operation to move Comrade Haohan alive.
+ch32: Chen's new plan turns on Wei Dafu; drunk in a Laoximen tavern, Wei feeds the mole Lu Zhongde
+just enough to bait the enemy, then plants a Shen Bao advertisement and, as arranged, lets himself
+be taken. ch33: Wei is hooded and driven to a Lai'an Li hotel by the North Station and tortured
+(spotlight, inversion, joint-racking, waterboarding, klaxons) by You Tianxiao while Ye Qinian
+listens from the shadows; Wei plays for time, giving up only what the enemy already knows. In a
+side room Ye tells Lu his read: the Communist Central may be leaving Shanghai, "A Thousand Li of
+Rivers and Mountains" is the evacuation, and a second Morse-coded ad has surfaced another Central
+leader's name.
+
+### Checks run
+
+- check_numbers.py --noise check_noise.txt: all three clean (0 unresolved). Added to check_noise.txt:
+  九条巷 (Jiutiao Lane), 三轮车 (pedicab), 七拐八弯 (idiom "winding"), 百般 (idiom "in every way").
+  No real quantity was waived.
+- check_structure.py --pairs: parity OK on all three (71/74/102).
+- Blind double-translation (separate subagent context) of the ch31 confrontation + death narration
+  (source paras 24-34, 42-56) and the ch33 analytical monologue + closing paragraph: independent
+  rendering matched on every load-bearing point (Ye had his own daughter shot; bullet from behind;
+  Ye Tao's concealed pocket pistol killed the tailing agent; dying message "Ouyang Min is the
+  traitor"; the vault holds several thousand). No divergences to fix.
+- Back-translation omission pass (separate subagent context) over ch31 and ch33, paragraph by
+  paragraph: CLEAN -- no omissions, no additions, no referent/number/who-did-what errors. (ch32 is
+  plainer narration; covered by parity + number + structure checks per the sampling rule.)
+- Fact-check (subagents, web, real scholarship only -- no AI sources): all referents corroborated;
+  two novel-specific claims flagged in the notes as uncorroborated (the named "Ningshao Manor"
+  cemetery; the Dec-1932 Puhui Creek/Caohejing joining project).
+
+### Footnotes added (9; running total 204)
+
+ch31 (4): 宁绍山庄 Ningshao Manor (Ningbo-Shaoxing native-place charitable cemetery institution real;
+this named manor unattested); 蒲汇塘/漕河泾 Puhui Creek & Caohejing (real geography; the 1932
+dredging-to-join uncorroborated); 梅雨 the plum-rains season (real; the wet season that makes the
+raincoat ruse unremarkable); 桂花糖芋苗 osmanthus-sugared taro shoots (real Nanjing sweet).
+ch32 (3): 法华镇 Fahua town (real border market town); the western-Shanghai dairy belt (real setting;
+the novel's milk company its own); 望平街 Wangping Street (real "Newspaper Street" by the Shen Bao
+building). ch33 (2): the North Station / Zhabei bombed in the January 28, 1932 fighting (real; folded
+into the "Japanese army bombed Zhabei" anchor, cross-referencing the ch05 Nineteenth Route Army /
+January 28 note, NOT re-noting it); the GMD 自首/自新/反省院 repentance machinery and the 危害民国
+紧急治罪法 (real; "Reflection Institutes" to match the established ch22 rendering).
+NOT re-noted (already placed, verified by grep of glossary + earlier reading files): Shen Bao (ch07),
+the Nineteenth Route Army / January 28 (ch05), the Soviet areas / encirclement (ch06), the Zhanyuan
+(ch03), the Party Affairs Investigation Section (ch03), the Shence Gate / 藏兵洞 (ch05/ch28), the
+Women's Normal University (ch26), extra-settlement road building (ch28), Morse-code ads (ch29),
+Dongjiadu / Mafu Street (already in glossary).
+
+### Glossary rows added
+
+- places: 宁绍山庄 Ningshao Manor (provisional; institution real, named manor unattested), 蒲汇塘 the
+  Puhui Creek (real), 漕河泾 the Caohejing (real), 小闸镇 Xiaozha (real), 法华镇 Fahua town (real),
+  望平街 Wangping Street (real), 老西门 Laoximen (real), 浙江路 Zhejiang Road (real), 大舞台 the Great
+  Stage (decided). (北站 North Station and 反省院 the Reflection Institute were already in the ledger;
+  renderings reused.)
+- terms: 烧酒 grain spirit (decided; kept distinct from 绍酒/Shaoxing wine).
+- Fictional cast reused from the ledger without change: 欧阳民 Ouyang Min, 田非 Tian Fei, 马秘书
+  Secretary Ma, 董家渡 Dongjiadu, 马府街 Mafu Street.
+
+### Scene typography
+
+Source carries no dividers. ch31: 1 dateline ("The fifteenth of the first month; the Lantern
+Festival.") + 1 break (the hard cut to the town of Caohejing after the car scene). ch32: 0 datelines
++ 2 breaks (the night return to Fahua town; the next-morning departure). ch33: 0 datelines + 1 break
+(the cut from the interrogation to the Ye/Lu conversation in another room). Anchors verified against
+the reading files and confirmed in the built EPUB (grep class="brk": ch31 1, ch32 2, ch33 1;
+class="dateline": ch31 1, others 0).
+
+### Build
+
+scripts/build_reading_epub.py out/thousand-li.epub: 33 of 37 units translated (epigraph + ch02 to
+ch33), 204 notes. qa_epub.py: PASS (47 files, 42 documents; 204 references = 204 bodies = 204
+backlinks; numbering sequential in reading order; all links resolve).

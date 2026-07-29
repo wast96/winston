@@ -1,0 +1,149 @@
+## The Dairy Shed
+
+In Chen Qianli's new plan Wei Dafu's part was of great importance, and dangerous besides; so just now he was putting on a sullen, dejected air, sitting in a little tavern at Laoximen, having ordered a pot of grain spirit. On the table one dish held peanuts, another some chicken feet, chicken heads and chicken tails, and he poured for himself and drank.
+
+Silently, in his heart, he said: this cup is for Old Fang — and drained it. The next cup, he thought, was wine drunk for Lin Shi. Two afternoons ago, at the Maochang coal yard, grappling with the agents, Lin Shi had been shot. Chen Qianli had had Li Han fetch a pedicab and move him to Fahua town, where, save for Chen Qianyuan and Dong Huiwen, all the others had gathered. Doctor Qin, though he lacked surgical instruments, did all he could think to do. For a time they considered using Doctor Qin's connections to send Lin Shi to a foreign hospital in the concessions, but before they could arrange the contact, Lin Shi died.
+
+Wei Dafu drank several cups in a row. He drank one, too, for the comrade who had come to the market to bring warning — they did not even know his name. He thought he ought to drink a cup as well for Ling Wen, who, by Chen Qianli's reckoning, must have been murdered by Lu Zhongde. After that he even thought to drink a cup for Long Dong, whom he had never seen, and for the very many people he had never seen.
+
+It was now nine at night. This little tavern stayed open into the small hours; besides wine and cold dishes it sold plain noodles as well. Only a few late-night drunkards, night-shift policemen, and men of doubtful trade knew of the place. But just now none of them had yet come, and he was the only one in the shop.
+
+Lu Zhongde came. He sat down across the little table, lifted the pewter pot and gave it a shake, and said with a frown: “Why have you drunk so much?”
+
+Lu Zhongde called the waiter over loudly and told him to slice half a catty of mutton and bring two bowls of plain noodles as well.
+
+“Where is Chen Qianli?” he asked Wei Dafu.
+
+“He's gone into hiding, they've all gone into hiding—” a chicken foot in his hand, Wei Dafu's drunken eyes were bleary.
+
+“What's happened?”
+
+“Two days ago, from morning till night, the agents were after Chen Qianli; wherever he ran, the agents ran after him. It's as well he didn't come to me. They tracked him to the Maochang coal yard, and Lin Shi is dead.”
+
+Ye Qinian had had You Tianxiao deliberately pass over Qin Chuan'an's clinic and Wei Dafu's home, because he wanted Lu Zhongde to keep up his disguise a while longer.
+
+“Lin Shi has given his life?”
+
+Lu Zhongde feigned astonishment and dismay.
+
+“Yes — one should say he gave his life. Comrade Lin Shi gave his life.”
+
+“And Chen Qianli? Where is he now?”
+
+“He's in hiding; no one knows where. The others are all at Fahua town. The place I found — he's gone there and given everyone their tasks.”
+
+“What tasks?”
+
+“Each has his own task, and that I can't tell you.” Wei Dafu was too drunk to lift his head; he set it down on the table and knocked it twice against the wood, then raised it again to speak to him.
+
+“Look at the state of you.”
+
+He had all along been Wei Dafu's superior, and knew that Wei Dafu, careless and slovenly as he looked, was in truth a very shrewd man.
+
+Wei Dafu drained the half-cup that was left, and, feeling it was not enough, took up the pot, filled the cup, and with a toss of his head drank it dry again.
+
+Lu Zhongde drew out his cigarette case, lit one, then held the case out to Wei Dafu for him to take one. Wei Dafu took one and tucked it behind his ear, thought a moment, then lit it after all. Garrick was the finest of cigarettes; ordinarily, when he came by a good cigarette, he would put it by first and smoke it later, when his mood was good. Wei Dafu drew a deep breath of it and then let out a long trail of smoke, which spread out before Lu Zhongde's eyes.
+
+“Old Yi, tell me — these things we do, what in the end are they for? Have we any future left?”
+
+Lu Zhongde watched him, as though weighing every faint change in his face, to find in it some evidence that he meant to betray the organization — or perhaps to find some evidence enough to prove that he did not mean what he said.
+
+He glanced at the cigarette between Wei Dafu's fingers and gave him all the cigarettes left in the case: “We are sure to succeed.” He glanced back at the counter and added, with heavy emphasis: “The revolution is sure to succeed.”
+
+Wei Dafu laughed and shook his head.
+
+“So many dead — even if the day of success truly comes, we may not live to see it.”
+
+Lu Zhongde rebuked him in a low voice: “You fool. Comrade Wei Dafu, that way of thinking of yours is very dangerous.”
+
+The waiter came out from the back with two bowls of plain noodles and the sliced mutton. When he had finished the noodles, Wei Dafu seemed a little more sober.
+
+“Chen Qianli told me to tell you: move out of the painting-and-scroll shop at once, go into hiding, send him your means of contact, and wait for word of the operation.”
+
+Lu Zhongde thought a moment: “Did Chen Qianli ever say what sort of plan this ‘A Thousand Li of Rivers and Mountains’ really is?”
+
+“How would he tell me?” Wei Dafu answered, chewing a slice of mutton. “But these two days everyone's been busy. Doctor Qin's been buying medicine all over, three cases packed full of it; I called a rickshaw and helped him send it to Li Han. Only Li Han knows where Chen Qianli is; whatever he wants done, he has Li Han pass the word to everyone.”
+
+“Does he want me to go to Fahua town too?”
+
+“The place I found is very safe. On all sides are dairy farms. The dairy company has been buying up the land piece by piece, has bought up everything round about, and only these few houses are left; the story is that at the time the owners wouldn't sell, so the dairy company simply gave up buying them, and built cowsheds all around instead — the stench is past all bearing, and no one will live in the place. It can't be sold and can't be let; sooner or later it will fall to the dairy company. Just as well — we'll make use of it first.”
+
+“I can't leave the painting-and-scroll shop. I can't tell you the reason now; it is a task Comrade Old Fang assigned me before he gave his life.”
+
+Lu Zhongde had made up a reason on the spur of the moment. The hunt for Chen Qianli had come to nothing, and he had conceived a dread of that will-o'-the-wisp of a man. You Tianxiao had plainly caught Chen Qianyuan and thrown a net over his house — and then, no one knew what had happened, Ye Qinian had actually telephoned to have You Tianxiao pull the men out and let them go. The night before, seeing Ye Qinian at the Zhengyuan Hotel, he had felt that his teacher had aged decades all at once, and looked utterly broken.
+
+“Old Yi, go into hiding soon; never mind what task it is. Didn't you yourself always tell me: in this work, safety comes first, and if you feel something is wrong, don't take the risk?”
+
+Two men with cigarettes in their mouths came into the tavern, looked at the prices of wine and dishes chalked on the blackboard, reckoned up the money in their pockets, and turned and went out again. Lu Zhongde, somehow, summoned up a hoarse voice and said to Wei Dafu: “Sometimes a risk is necessary, and worth it — worth even the giving of one's life.”
+
+Wei Dafu was moved to a kind of solemn respect; he gazed at the little wine-cup on the table and said nothing.
+
+“Besides having Doctor Qin buy medicine, what else has he had everyone do?”
+
+“Last night at dinner I heard Li Han say he and Chen Qianli had gone together to Dongjiadu. Tian Fei went to the railway station to meet someone and hasn't come back. Chen Qianyuan and Dong Huiwen, the two of them, came in the afternoon and have done nothing but rest ever since — is it that because he's the brother he gets to lie low and do no work?”
+
+“Meet someone? Whom did Tian Fei go to meet?”
+
+“I don't know. The content of the tasks is all passed on privately, hidden away in a little room. At breakfast Tian Fei said with a smile that this might be the last meal he ate together with everyone; if anything went wrong, he meant to give his own life.”
+
+“Who could be so important?”
+
+Wei Dafu, his face full of care, did not answer.
+
+Late that night Wei Dafu returned to Fahua town. Fahua town was where three jurisdictions met — the International Settlement, the French Concession, and the Chinese-administered territory. There were very few dwellings in this quarter; apart from factory buildings and a foreign sports ground, there were one or two establishments of the sort of a bank club or an agricultural society. Beyond the walls of these factories and institutions there were still broad stretches of farmland, planted with green vegetables and maize. Wei Dafu felt his way in the dark along the dirt road between the dairy-farm walls; the dirt road turned and twisted, and not a soul was to be seen the whole way. He went into the house, but there was no one inside.
+
+He went upstairs; in the dark someone asked: “Old Wei?”
+
+The one who had spoken was Liang Shichao. He lit a kerosene lamp, and only then did Wei Dafu see that he held a gun in his hand.
+
+“Old Liang, don't be so jumpy, and put that gun away. Where's Chen Qianli?”
+
+“Round the back.”
+
+Wei Dafu went to the rear window and pushed it open; the back wall stood flush against the wall of the dairy farm — to drive these few households out, the dairy company had built its wall right up under people's windows, and across from the window was a great dark mass of sheds.
+
+Behind him Liang Shichao said: “Keep your voice down, don't startle those two big dogs.”
+
+“It's all right, the two of them know me now; in the daytime I gave them two big lumps of beef.”
+
+Wei Dafu waved the oil lamp a few times out the window, then pursed his lips and gave a few whistles, long and short; from the passage between the sheds outside a figure darted, ran swiftly over, and set a ladder against the wall, and Wei Dafu climbed down it. The man come to meet him was Li Han. The two of them wound their way through several turns of the passage, thick with the smell of cow dung, and ducked into one of the sheds. This was a spare cowshed of the dairy company, standing empty these six months, with some dry hay still on the ground. Wei Dafu knew the dairy hand who had charge of this stretch of spare sheds; it was from him that he had heard of that house. By what means there was no telling, Wei Dafu had persuaded the man to turn a blind eye and not come round to inspect the place for a while.
+
+The others, each taking a dairy shed of his own, were asleep; but Chen Qianli was still awake, sitting on the hay against the railing. Seeing Wei Dafu come in, he rose and went to meet him.
+
+“Well?” Chen Qianli asked.
+
+“He won't come over. Says Old Fang gave him a task before he died, and he must stay and keep to it. Everything else I told him.”
+
+“How did he seem?”
+
+“I drank a good deal; he must be certain I was drunk.”
+
+Chen Qianli sat down, clasped his knees, and thought a while, then said: “Get some sleep first. I'll think how to go on from here.”
+
+The next morning Wei Dafu left Fahua town once again. He walked a long way, changed trams twice, and came to the snack shop opposite the Great Stage on Second Avenue, where he made a good breakfast. His favorites at this shop were the pan-fried buns and the clay-pot wontons. Full and content, he gave a long yawn, loosened his shoulders and back, and rose and left the snack shop, and walked to the Shen Bao offices on Third Avenue.
+
+By the door of the newspaper office many news-vendors squatted against the wall, oilcloth spread on the ground before them and all manner of newspapers laid out on it. Shen Bao had a large circulation, and every vendor had many newsboys under him. So in the small hours, when Shen Bao came out, the vendors folded and counted the papers, handed them out to the newsboys, and then stayed on at the wall of the Shen Bao offices. A few hours later the other papers on Wangping Street would send their editions here too, to the Shen Bao vendors, who in turn handed them to the newsboys.
+
+The ground floor of the office was the printing works and the typesetting room. On the second floor Wei Dafu inquired at the counter of the business hall, saying he wished to place an advertisement in the paper, and the office people took him to the advertising section. He said this advertisement must be rushed in, must appear in tomorrow morning's paper; it need run only once, but he was willing to pay for a full week's insertion, and willing to pay the express fee besides. He handed the wording he had drawn up to Miss Wu, who was seeing to him, and in passing praised Miss Wu's new hairstyle, asking at which famous salon she had had her hair done, saying he must tell his girlfriend of it. He was in no hurry to leave, but watched Miss Wu copy the passage onto the manuscript paper without a character wrong; Miss Wu, delighted by Wei Dafu's flattery, took no offense at all his many demands.
+
+The docket made out and the money paid, the business of the advertisement was done. Wei Dafu looked at the time and asked Miss Wu again: “Might I use the telephone?”
+
+Miss Wu pointed to the telephone on the stand by the window.
+
+At the other end was Chen Qianli, who told Wei Dafu not to go wandering about, not to drink, and not to bother returning to Fahua town: he was to find a place to lie low, and meet him first thing tomorrow morning at the gate of Gujiazhai Park, where there would be something for him to do.
+
+Setting down the receiver, Wei Dafu said with a smile to Miss Wu: “Nothing more to do today — the boss has just given me the time off and told me not to go back to the firm. What do you say I stand Miss Wu a lunch?”
+
+This time Miss Wu paid him no mind.
+
+It was one in the afternoon when he came out of the Shen Bao offices. Wei Dafu seemed not to notice that three men about the office had fixed on him — one on Wangping Street, one on Third Avenue, and one standing at the corner across from Third Avenue. He meant to go to the Yuelai Sichuan restaurant on Second Avenue; he felt that something spicy might suit his present mood.
+
+A few dozen paces short of the Sichuan restaurant, a small car drew up close beside Wei Dafu. He sensed something amiss and turned his head to look at it, and behind him a man clapped him on the shoulder: “Mr. Wei, I've been looking for you a long while — you owe a man money, or had you forgotten?”
+
+He made to turn round, but a hand pressed down on the back of his head, and on each of his two shoulders was a pair of hands as well. Just then a man came up from in front and seized him by the collar of his Western suit. Wei Dafu recognized the man — he had seen him on the tram, had even changed cars once with him at his heels.
+
+After the words he had spoken to Lu Zhongde the night before, Wei Dafu had foreseen that men would come to seize him. Half the night he could not sleep, the thing turning over and over in his mind until he had to get it out. In the small hours he had gone to that dairy shed of Chen Qianli's, meaning to wake him, but Chen Qianli was not asleep either, still sitting on the hay with his back against the railing. Moonlight came in through the vent in the roof of the shed, and the two of them crouched on the ground and talked for an hour and more. Chen Qianli thought as he did. After the things he had said in the little tavern the night before, they could not fail to take an interest in him.
+
+Several men forced Wei Dafu into the back seat of the car, and on the other side of the back seat sat You Tianxiao. He was wedged between You Tianxiao and a plainclothes agent; in the front, besides the driver, an agent sat as well. Of the three men who had followed him all the way here, only one got into the car; the other two vanished into the crowd on Second Avenue. The passers-by took no notice of this scene at the roadside.
+
+It was a kidnapping, but Wei Dafu did not cry out; he knew that to cry out to these people was useless, and would only earn his flesh a little more suffering. The car did not drive off toward Longhua, but ran north along Zhejiang Road. Not knowing where they would take him, Wei Dafu felt an uneasy foreboding in his heart.
