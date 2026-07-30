@@ -1,15 +1,61 @@
 {
   "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
   "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
+  "people": {
+    "张小敬": {"en": "Zhang Xiaojing", "pinyin": "Zhāng Xiǎojìng", "status": "decided", "note": "The protagonist; a one-eyed former buliang chief of Wannian County, taken from the death cells. Pinyin."},
+    "李泌": {"en": "Li Bi", "pinyin": "Lǐ Bì", "status": "attested", "note": "Historical statesman (722–789), courtesy name Changyuan; here the young deputy director of the Jing'an Bureau. Pinyin follows the standard scholarly form; see D. Twitchett (ed.), <i>The Cambridge History of China</i>, vol. 3."},
+    "长源": {"en": "Changyuan", "pinyin": "Chángyuán", "status": "decided", "note": "Li Bi's courtesy name (<i>zi</i>), by which Director He addresses him."},
+    "贺监": {"en": "Director He", "pinyin": "Hè Jiàn", "status": "decided", "note": "The white-haired official; <i>jian</i> is his post as Director of the Palace Library. The novel's figure evokes the poet He Zhizhang (659–744), who held that title."},
+    "崔六郎": {"en": "Cui Liulang", "pinyin": "Cuī Liùláng", "status": "decided", "note": "A West Market fixer; <i>Liulang</i> means 'Sixth Son.' Brother of Cui Qi. Pinyin."},
+    "崔器": {"en": "Cui Qi", "pinyin": "Cuī Qì", "status": "decided", "note": "Commander of the L<span>ü</span>ben Guards; younger brother of Cui Liulang. Pinyin."},
+    "曹破延": {"en": "Cao Poyan", "pinyin": "Cáo Pòyán", "status": "decided", "note": "A Turkic Wolf Guard posing as a Sogdian merchant from Kang. Pinyin."},
+    "徐宾": {"en": "Xu Bin", "pinyin": "Xú Bīn", "status": "decided", "note": "A recorder in the Jing'an Bureau, courtesy name Youde; a former Ministry of Revenue clerk with a prodigious memory. Pinyin."},
+    "友德": {"en": "Youde", "pinyin": "Yǒudé", "status": "decided", "note": "Xu Bin's courtesy name (<i>zi</i>)."},
+    "姚汝能": {"en": "Yao Runeng", "pinyin": "Yáo Rǔnéng", "status": "decided", "note": "A young clerk of the Jing'an Bureau. Pinyin."},
+    "檀棋": {"en": "Tanqi", "pinyin": "Tánqí", "status": "decided", "note": "Li Bi's maidservant, of mixed Han and Sogdian parentage, who works the sand-table. Pinyin."},
+    "乌苏米施可汗": {"en": "Ozmish Khagan", "pinyin": "Wūsūmǐshī Kěhán", "status": "attested", "note": "Özmiş Qaghan (r. 742–744), last khagan of the Second Turkic Khaganate; historically killed by the Basmyl in 744. Form per M. R. Drompp and standard Turkological usage."},
+    "王忠嗣": {"en": "Wang Zhongsi", "pinyin": "Wáng Zhōngsì", "status": "attested", "note": "Wang Zhongsi (705–749), Tang military commissioner of Shuofang. Pinyin per <i>The Cambridge History of China</i>, vol. 3."},
+    "张说": {"en": "Zhang Yue", "pinyin": "Zhāng Yuè", "status": "attested", "note": "Zhang Yue (667–730), chief minister and Secretariat Director under Xuanzong; the surname's literary reading is <i>Yue</i>. Pinyin per standard Tang scholarship."},
+    "颜真卿": {"en": "Yan Zhenqing", "pinyin": "Yán Zhēnqīng", "status": "attested", "note": "Yan Zhenqing (709–785), one of the great masters of Chinese calligraphy; the Jing'an Bureau's name-board is in his hand. Pinyin, standard."},
+    "孙思邈": {"en": "Sun Simiao", "pinyin": "Sūn Sīmiǎo", "status": "attested", "note": "Sun Simiao (traditionally 581–682), physician venerated as the Medicine King (<i>Yaowang</i>); the Jing'an Bureau occupies his former residence. Pinyin, standard."}
+  },
+  "organizations": {
+    "靖安司": {"en": "the Jing'an Bureau", "pinyin": "Jìng'ān Sī", "status": "decided", "note": "A newly created security office charged with threat-prevention (<i>zei shi ce fang</i>) for the whole western capital. The name is glossed in the text: 'to quell revolt is <i>jing</i>; when the four quarters are without trouble, that is <i>an</i>.' <i>Si</i> = bureau."},
+    "旅贲军": {"en": "the Lüben Guards", "pinyin": "Lǔbìjūn", "status": "provisional", "note": "An elite guard unit under the Jing'an Bureau, here commanded by Cui Qi. The name derives from an ancient palace-guard title; no settled English form exists."},
+    "金吾卫": {"en": "the Jinwu Guard", "pinyin": "Jīnwú Wèi", "status": "decided", "note": "The Gold Bird Guard, responsible for patrolling the streets of the capital and enforcing the night curfew."},
+    "京兆府": {"en": "the Jingzhao Prefecture", "pinyin": "Jīngzhào Fǔ", "status": "decided", "note": "The metropolitan prefecture governing Chang'an and its two counties."}
+  },
+  "places": {
+    "长安": {"en": "Chang'an", "pinyin": "Cháng'ān", "status": "attested", "note": "The Tang capital, on the site of modern Xi'an; the greatest city in the world of its day. Standard English form."},
+    "长安县": {"en": "Chang'an County", "pinyin": "Cháng'ān Xiàn", "status": "decided", "note": "The western of the two counties into which the capital was divided, west of the Vermilion Bird Avenue."},
+    "万年县": {"en": "Wannian County", "pinyin": "Wànnián Xiàn", "status": "decided", "note": "The eastern county of the capital, home to many of the great and noble houses."},
+    "西市": {"en": "the West Market", "pinyin": "Xī Shì", "status": "decided", "note": "One of Chang'an's two great licensed markets, thronged with foreign merchants."},
+    "东市": {"en": "the East Market", "pinyin": "Dōng Shì", "status": "decided", "note": "The eastern of the capital's two licensed markets."},
+    "光德坊": {"en": "Guangde Ward", "pinyin": "Guāngdé Fāng", "status": "decided", "note": "The residential ward east of the West Market where the Jing'an Bureau sits. <i>Fang</i> = ward, a walled residential block."},
+    "朱雀大街": {"en": "the Vermilion Bird Avenue", "pinyin": "Zhūquè Dàjiē", "status": "decided", "note": "Chang'an's central north–south avenue (<i>Zhuque</i>, the Vermilion Bird of the south), dividing the city into its two counties. Also called the Vermilion Bird Way."},
+    "广通渠": {"en": "the Guangtong Canal", "pinyin": "Guāngtōng Qú", "status": "decided", "note": "A canal running past the West Market, widened for timber barges; Cao Poyan escapes down it."},
+    "独柳树": {"en": "the Lone Willow", "pinyin": "Dúlǐushù", "status": "decided", "note": "The West Market's execution ground, shunned as unlucky."},
+    "康国": {"en": "Kang", "pinyin": "Kāng Guó", "status": "attested", "note": "The Sogdian city-state of Samarkand, one of the 'Nine Surnames of Zhaowu.' Standard sinological identification."},
+    "拂林": {"en": "Fulin", "pinyin": "Fúlín", "status": "attested", "note": "The Tang name for Byzantium / the Eastern Roman lands. Standard identification."}
+  },
   "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
-      "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
-    }
+    "上元节": {"en": "the Lantern Festival", "pinyin": "Shàngyuán Jié", "status": "decided", "note": "The fifteenth night of the first lunar month (<i>Shangyuan</i>), when the curfew was lifted and the city was lit with lanterns; here its eve, the fourteenth."},
+    "时辰": {"en": "double-hour", "pinyin": "shíchen", "status": "decided", "note": "One of the twelve <i>shichen</i> into which the traditional day was divided, each equal to two modern hours and named for one of the twelve earthly branches / zodiac animals. Rendered 'double-hour' in the prose."},
+    "望楼": {"en": "watchtower", "pinyin": "wànglóu", "status": "decided", "note": "The tall signal towers standing in every ward, from which watchmen relay messages by flag in daylight and lantern by night."},
+    "武侯": {"en": "constable", "pinyin": "wǔhóu", "status": "decided", "note": "The watch-constables who man the watchtowers and street posts. Rendered 'constable' throughout."},
+    "不良帅": {"en": "buliang chief", "pinyin": "bùliáng shuài", "status": "decided", "note": "The head of a county's <i>buliang</i>, the plainclothes thief-catchers; the deputy to the constable-magistrate in charge of policing. Rendered with the loanword <i>buliang</i>."},
+    "不良人": {"en": "buliang men", "pinyin": "bùliáng rén", "status": "decided", "note": "Tang plainclothes thief-catchers and informants who policed the wards under the <i>buliang</i> chief."},
+    "狼卫": {"en": "Wolf Guards", "pinyin": "lángwèi", "status": "decided", "note": "The khagan's most feared elite—cruel, cunning, and fanatically loyal; the 'wolves' the Jing'an Bureau hunts."},
+    "突厥": {"en": "Türk", "pinyin": "Tūjué", "status": "attested", "note": "The Turkic people of the Second Turkic Khaganate. 'Türk' per standard Turkological usage."},
+    "粟特": {"en": "Sogdian", "pinyin": "Sùtè", "status": "attested", "note": "The Iranian merchant people of Central Asia who dominated Silk Road trade. Standard."},
+    "过所": {"en": "travel pass", "pinyin": "guòsuǒ", "status": "decided", "note": "The official <i>guosuo</i> permit required to move goods and persons through the empire's checkpoints."},
+    "阙勒霍多": {"en": "Que-le Huo-duo", "pinyin": "Quèlè Huòduō", "status": "provisional", "note": "A Turkic phrase the text glosses in part: <i>que-le</i> as something near a nine-layered blood-hell, <i>huo-duo</i> as being turned to dust—at once a curse and a legendary beast of destruction. Transliteration mine, from the novel's Chinese characters."},
+    "银鱼袋": {"en": "silver fish-pouch", "pinyin": "yín yþdài", "status": "decided", "note": "A fish-shaped tally in a pouch worn at the belt as a badge of official rank; gold for the highest, silver below. Granting one above a man's grade signaled special imperial favor."},
+    "待诏翰林": {"en": "Hanlin academician-in-waiting", "pinyin": "dàizhào hànlín", "status": "decided", "note": "A scholar attached to the emperor's Hanlin establishment, awaiting summons; a prestigious but nominally leisured post."},
+    "圣人": {"en": "the Sage", "pinyin": "shèngrén", "status": "decided", "note": "A Tang court term of address for the reigning emperor (here Xuanzong). Rendered 'the Sage.'"},
+    "明光铠": {"en": "gleaming armor", "pinyin": "míngguāng kǎ", "status": "decided", "note": "<i>Mingguang</i> plate armor, named for the polished discs at the breast that flashed in the light; heavy, which nearly drowns Cui Qi."},
+    "横刀": {"en": "saber", "pinyin": "héngdāo", "status": "decided", "note": "The <i>hengdao</i>, the standard single-edged Tang military saber worn at the waist."},
+    "天宝": {"en": "Tianbao", "pinyin": "Tiānbǎo", "status": "attested", "note": "The third and last reign-era of Emperor Xuanzong (742–756); its years were counted with the word <i>zai</i> rather than <i>nian</i>. Tianbao 3 = 744 CE. Standard."},
+    "开元": {"en": "Kaiyuan", "pinyin": "Kāiyuán", "status": "attested", "note": "Xuanzong's preceding reign-era (713–741), remembered as the high noon of Tang prosperity. Standard."}
   }
 }

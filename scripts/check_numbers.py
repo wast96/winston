@@ -28,6 +28,7 @@ WORD_NUM = {
     # source prints as digits/hanzi. Example: teen ordinals for regnal years
     # ("the seventeenth year of the reign", 十七年); the built-ins stop at "tenth".
     "seventeenth": 17,
+    "thirteenth": 13, "fourteenth": 14, "fifteenth": 15, "sixteenth": 16,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}

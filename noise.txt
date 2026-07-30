@@ -1,0 +1,38 @@
+# Project-specific noise for scripts/check_numbers.py --noise
+# One regex per line, stripped from the SOURCE before its numerals are counted.
+# Every entry is a numeral that is NOT a quantity: a name, a set phrase, an
+# idiom, or a large round number English renders analytically (so the digit
+# composer cannot reassemble it). Added as false positives appeared; the English
+# rendering of each was verified present by hand. NOTE: this loader does not
+# strip trailing comments, so keep every note on its OWN comment line.
+#
+# names / titles containing a numeral
+# 六郎 = Cui Liulang, "Sixth Son"; 万年 = Wannian County (contains 万/10000)
+六郎
+万年
+# crossroads / "on all sides" / "eye to eye" -- not 10 or 4
+十字
+四起
+四目
+四面
+# four-character idioms and set phrases
+横七竖八
+七手八脚
+二话不说
+万事
+万里
+巨万
+# "the two ..."; "those N words"; the common-people idioms
+两[人个县]
+[二三四]字
+百姓
+百官
+# large round numbers spelled out analytically in English
+一百零八
+十万
+[几数]十万
+# lock name; and the 四十多岁 collapse artifact ("past forty" is in the English)
+三扭
+四岁
+# 几十万条 -> the built-in 几十 rule orphans 万; "hundreds of thousands of lives"
+万条

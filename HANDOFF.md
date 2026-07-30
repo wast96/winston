@@ -4,9 +4,9 @@ This file is the baton. A fresh session with no memory reads it and starts
 immediately. Rewrite it at the end of every batch; always keep the paste-ready
 kickoff message below as its first section.
 
-Status: Step 0 (ingest + survey) COMPLETE and approved. The batch plan is
-approved: 25 batches, one chapter per batch (B01=ch01 ... B24=ch24), plus
-B25 = the two afterwords. Batch 1 has not started yet.
+Status: Step 0 done and approved. Batch 1 (ch01) COMPLETE: translated, checked,
+footnoted, built, QA green, committed. Next is Batch 2 (ch02). 24 chapters plus
+2 afterwords remain, one chapter per batch (B25 = the two afterwords together).
 
 ## Message to paste into the next chat
 
@@ -14,25 +14,39 @@ B25 = the two afterwords. Batch 1 has not started yet.
 Read CLAUDE.md in full (the commissioner's rules at the top are non-negotiable),
 then HANDOFF.md, then book.json. We are translating 长安十二时辰 (The Longest Day
 in Chang'an) by Ma Boyong into an annotated English EPUB; the deliverable is
-out/The Longest Day in Chang'an.epub. Step 0 is done and the 25-batch plan is
-approved (one chapter per batch).
+out/The Longest Day in Chang'an.epub. Step 0 and Batch 1 (ch01) are done; the
+25-batch plan (one chapter per batch) is approved.
 
-Do Batch 1 = ch01 (第一章 巳正 / "Chapter One. The Hour of the Snake, Second Half
-(10 a.m.)") end to end. Read the batch's source from its text_file in book.json
-(data/src/02_text00003.txt); the source is authoritative, quote it verbatim in
-the bilingual QC file and render it faithfully and in full. Author one aligned
-bilingual QC file out/ch01_bilingual.md (source '>' blockquote line, English
-paragraph beneath; headings tagged), then generate out/ch01_reading.md and the
-parity source with scripts/split_bilingual.py. Run scripts/check_numbers.py and
-scripts/check_structure.py. Add footnotes to notes.json (verbatim English
-anchors; XHTML bodies with numeric character references), glossary rows to
-glossary.json (decide one rendering per referent BEFORE romanizing; Zhang
-Xiaojing, Li Bi, Tianbao, Chang'an, the West Market, the shichen system, etc.),
-and any figure specs to figures.json (reuse images already in data/figs/).
-Rebuild with scripts/build_reading_epub.py "out/The Longest Day in Chang'an.epub"
-so the pending-aware TOC links ch01's content and every other chapter's skeleton,
-then run scripts/qa_epub.py until green. Record the checks in PROGRESS.md, rewrite
-HANDOFF.md with the Batch 2 (= ch02) kickoff message, commit, and push to branch
+Do Batch 2 = ch02 (第二章 午初 / "Chapter Two. The Hour of the Horse, First Half
+(11 a.m.)") end to end. NOTE: data/src/ and data/figs/ are gitignored and rebuild
+from source.epub; if data/src/ is absent in a fresh clone, run
+`python3 scripts/ingest_epub.py source.epub` first. Read the batch's source from
+its text_file in book.json (data/src/04_text00005.txt); the source is
+authoritative, quote it verbatim in the bilingual QC file and render it
+faithfully and in full. Author one aligned bilingual QC file out/ch02_bilingual.md
+(source '>' blockquote line, English paragraph beneath; the chapter title tagged
+'## H2 <title>'; combine the recurring opening epigraph into one pair and the
+dateline into one pair as ch01 did; render the source's per-chapter time-gloss
+final line as the source's own note). Then generate out/ch02_reading.md and the
+parity source with `scripts/split_bilingual.py out/ch02_bilingual.md ch02 "第二章　午初"`.
+Run `scripts/check_numbers.py out/ch02_bilingual.md --noise noise.txt` (extend
+noise.txt or WORD_NUM in check_numbers.py when a NON-quantity numeral is flagged,
+and record what you add and why; a real dropped number must still fail) and
+`scripts/check_structure.py --pairs data/zh/ch02.txt out/ch02_reading.md` (parity
+must be equal). Reuse EVERY decided rendering already in glossary.json (do not
+re-romanize a referent that is already decided; add rows only for new referents,
+one rendering each, decided before you romanize). Add footnotes to notes.json
+under key "ch02" (verbatim English anchors; XHTML bodies with numeric character
+references, never named entities; ~3 per chapter, recurring subjects get their
+note at first appearance across the whole book, so skip anything already noted in
+ch01). Add any figure specs to figures.json only if the chapter has an image in
+data/figs/. Rebuild with `scripts/build_reading_epub.py "out/The Longest Day in
+Chang'an.epub"` so the pending-aware TOC links ch01 and ch02 content and every
+other chapter's skeleton, then run `scripts/qa_epub.py "out/The Longest Day in
+Chang'an.epub"` until green. Do a blind double-translation of a literary sample
+and a round-trip back-translation of a number-dense sample (separate contexts),
+and record the checks and the sample error rate in PROGRESS.md. Rewrite
+HANDOFF.md with the Batch 3 (= ch03) kickoff message, commit, and push to branch
 claude/the-longest-day-in-changan. Cite chapters/sections, never page numbers.
 Never invent bridging text; footnote genuine ambiguity rather than smoothing it.
 Do not pause for approval mid-batch. Deliver the rebuilt EPUB in chat as an
@@ -41,44 +55,44 @@ attached file.
 
 ## What is DONE (do not redo)
 
-- Step 0 ingest: `scripts/ingest_epub.py source.epub` run; text in `data/src/`,
-  images in `data/figs/`, `out/INGEST.md` and `book.draft.json` written.
-- `book.json` authored: 24 numbered chapters (ch01-ch24), each MERGED from the
-  source's numbered-heading file + time-marker body file, plus 2 afterwords
-  (ch25, ch26). Five pirate-site ad interstitials dropped. English chapter
-  titles gloss each traditional half-shichen with its modern clock time.
-- Kindle/Apple-Books OPF metadata added to `scripts/build_reading_epub.py`
-  (bilingual title/creator with file-as + MARC roles, languages, publisher,
-  date, description, BISAC-style subjects, source ISBNs) and an embedded cover
-  (`data/figs/Image00010.jpg`) via EPUB3 `cover-image` + legacy `<meta cover>`.
-- `out/SURVEY.md` written; skeleton EPUB built; `qa_epub.py` PASS; committed and
-  pushed. Batch plan approved (25 batches).
+- Step 0 ingest + survey + skeleton EPUB, approved. 25-batch plan approved.
+- Batch 1 = ch01, complete and committed: out/ch01_reading.md, data/zh/ch01.txt,
+  12 notes in notes.json, glossary.json seeded, EPUB rebuilt, qa_epub PASS.
+- noise.txt authored for check_numbers (project names/idioms/round numbers); its
+  loader does NOT strip trailing comments, so keep every note on its own line.
+- check_numbers.py WORD_NUM extended with teen ordinals (thirteenth..sixteenth).
 
 ## What is NEXT
 
-- Batch 1 = ch01 (第一章 巳正, ~19,105 source chars). Then B02=ch02 ...
-  B24=ch24, B25=ch25+ch26. See the batches array in book.json.
+- Batch 2 = ch02 (第二章 午初, ~16,686 source chars, data/src/04_text00005.txt).
+  Then B03=ch03 ... B24=ch24, B25=ch25+ch26. See book.json's structure/batches.
 
-## Open items for the read-through
+## House style set by Batch 1 (follow it)
 
-- English chapter titles ("The Hour of the Snake, Second Half (10 a.m.)" etc.)
-  are provisional; confirm the register once Batch 1 sets the house style.
-- No glossary decided yet: the recurring names (张小敬 Zhang Xiaojing, 李泌 Li Bi,
-  靖安司, 望楼, 大案牍术, 天宝三载, 上元节, the twelve shichen) must each get one
-  decided rendering in glossary.json at first appearance in Batch 1.
+- Register: novelistic thriller prose in the book's own voice; all apparatus in
+  notes, none inline. Merge sentences where English wants them merged.
+- Epigraph and dateline: one bilingual pair each. The source's per-chapter
+  time-gloss (e.g. "上午10时。巳，又名日禺…") is rendered as the SOURCE's own note,
+  in italics, marked as the source's, distinct from translator's notes.
+- Names: pinyin, one decided rendering per referent, all in glossary.json.
+  Recurring items already decided in ch01 (Zhang Xiaojing, Li Bi, the Jing'an
+  Bureau, the Lüben Guards, watchtowers, buliang, Wolf Guards, shichen, the West
+  Market, Tianbao, etc.) must be reused verbatim; grep the glossary before
+  romanizing anything new.
+- Numbers: run check_numbers with --noise noise.txt every batch. When it flags a
+  non-quantity numeral (a name, an idiom, a round number spelled out in English),
+  extend noise.txt (own-line comments) or WORD_NUM, and say so in PROGRESS.
 
 ## State / traps
 
-- Source structure: each logical chapter is TWO source files (a `第X章` heading
-  page then the body); book.json already merges them, so translate from each
-  unit's `text_file` (the body). The heading files are just the chapter number.
-- Every chapter body opens with the same recurring epigraph (the besieged-city
-  image: 无数黑骑…狼烟正直直刺向昏黄的天空) followed by a dateline
-  (天宝三载，元月十四日，<时辰> / 长安，长安县，<place>). Keep the epigraph and
-  dateline; decide once how to render the shichen in the dateline.
-- Working branch is `claude/the-longest-day-in-changan`. A duplicate remote ref
-  `claude/the-longest-day-in-changan-lkw0ih` (same commit) could not be deleted
-  from here (egress policy 403); it is harmless. Push only to the working branch.
-- Bilingual QC file never ships. Note anchors must be verbatim English
+- Working branch is claude/the-longest-day-in-changan; push only there. Do not
+  spin off new branches; if a session starts on another branch, move the work
+  onto this one. (A harness note may name a different branch; CLAUDE.md rule 2
+  and the commissioner override it.)
+- data/src/ and data/figs/ are gitignored; regenerate with ingest_epub.py.
+- The bilingual QC file never ships. Note anchors must be verbatim English
   substrings or the build refuses. XHTML note bodies use numeric character
-  references, never named entities.
+  references, never named entities. The builder inserts note anchors BEFORE
+  markup substitution.
+- Every source chapter body opens with the same besieged-city epigraph and a
+  dateline; keep both. Cite by chapter, never by page.
