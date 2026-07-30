@@ -301,5 +301,182 @@
     }
   ],
   "_batches_note": "Proposed by scripts/survey.py; to be approved by the commissioner before Batch 1.",
-  "batches": []
+  "batches": [
+    {
+      "batch": "B01",
+      "units": [
+        "ch01"
+      ],
+      "title": "ch01"
+    },
+    {
+      "batch": "B02",
+      "units": [
+        "ch02"
+      ],
+      "title": "ch02"
+    },
+    {
+      "batch": "B03",
+      "units": [
+        "ch03"
+      ],
+      "title": "ch03"
+    },
+    {
+      "batch": "B04",
+      "units": [
+        "ch04"
+      ],
+      "title": "ch04"
+    },
+    {
+      "batch": "B05",
+      "units": [
+        "ch05"
+      ],
+      "title": "ch05"
+    },
+    {
+      "batch": "B06",
+      "units": [
+        "ch06"
+      ],
+      "title": "ch06"
+    },
+    {
+      "batch": "B07",
+      "units": [
+        "ch07"
+      ],
+      "title": "ch07"
+    },
+    {
+      "batch": "B08",
+      "units": [
+        "ch08"
+      ],
+      "title": "ch08"
+    },
+    {
+      "batch": "B09",
+      "units": [
+        "ch09"
+      ],
+      "title": "ch09"
+    },
+    {
+      "batch": "B10",
+      "units": [
+        "ch10"
+      ],
+      "title": "ch10"
+    },
+    {
+      "batch": "B11",
+      "units": [
+        "ch11"
+      ],
+      "title": "ch11"
+    },
+    {
+      "batch": "B12",
+      "units": [
+        "ch12"
+      ],
+      "title": "ch12"
+    },
+    {
+      "batch": "B13",
+      "units": [
+        "ch13"
+      ],
+      "title": "ch13"
+    },
+    {
+      "batch": "B14",
+      "units": [
+        "ch14"
+      ],
+      "title": "ch14"
+    },
+    {
+      "batch": "B15",
+      "units": [
+        "ch15"
+      ],
+      "title": "ch15"
+    },
+    {
+      "batch": "B16",
+      "units": [
+        "ch16"
+      ],
+      "title": "ch16"
+    },
+    {
+      "batch": "B17",
+      "units": [
+        "ch17"
+      ],
+      "title": "ch17"
+    },
+    {
+      "batch": "B18",
+      "units": [
+        "ch18"
+      ],
+      "title": "ch18"
+    },
+    {
+      "batch": "B19",
+      "units": [
+        "ch19"
+      ],
+      "title": "ch19"
+    },
+    {
+      "batch": "B20",
+      "units": [
+        "ch20"
+      ],
+      "title": "ch20"
+    },
+    {
+      "batch": "B21",
+      "units": [
+        "ch21"
+      ],
+      "title": "ch21"
+    },
+    {
+      "batch": "B22",
+      "units": [
+        "ch22"
+      ],
+      "title": "ch22"
+    },
+    {
+      "batch": "B23",
+      "units": [
+        "ch23"
+      ],
+      "title": "ch23"
+    },
+    {
+      "batch": "B24",
+      "units": [
+        "ch24"
+      ],
+      "title": "ch24"
+    },
+    {
+      "batch": "B25",
+      "units": [
+        "ch25",
+        "ch26"
+      ],
+      "title": "Afterword I + Afterword II"
+    }
+  ]
 }
