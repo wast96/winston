@@ -1,69 +1,305 @@
 {
-  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. For an EPUB source, author it from book.draft.json (produced by scripts/ingest_epub.py) — refine the titles, add English titles, and MERGE or SPLIT units where the source EPUB's file boundaries do not match its logical chapters. Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists.",
-
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 2020,
-  "uid": "urn:uuid:my-book-slug-1",
-
-  "_source_note": "The source is a digital EPUB with reliable text (no OCR). Record its title/edition and anything notable (missing chapters, embedded notes, image-heavy sections) here.",
-  "source_epub": "source.epub",
-
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212;, &#160;), never named entities. If omitted, a generic method note is generated.",
-  "translator_note": [
-    "This is an English translation of <i>中文書名</i>, made from the digital source EPUB.",
-    "Say here what the register decisions were, who the author is, and how any editorial choices (the source's own notes, ambiguous passages, cut material) were handled."
+  "_README": "Single source of the book's structure; the build is driven ENTIRELY by this file. Authored from book.draft.json (scripts/ingest_epub.py). The source EPUB splits every chapter into a numbered heading file (第X章) and a time-marker content file; each has been MERGED into one logical chapter here. Five pirate-site advertisement interstitials in the source spine ('读累了记得休息一会哦~') were DROPPED. Chapter ids start with 'ch'. A chapter is treated as translated once out/<id>_reading.md exists.",
+  "title_en": "The Longest Day in Chang'an",
+  "title_zh": "长安十二时辰",
+  "author_en": "Ma Boyong",
+  "author_zh": "马伯庸",
+  "year": 2017,
+  "language": "en",
+  "orig_lang": "zh",
+  "uid": "urn:uuid:changan-12-shichen-en-annotated-1",
+  "publisher": "Annotated English edition (translation project)",
+  "translator": "",
+  "description": "Ma Boyong's historical thriller unfolds over twenty-four hours (the twelve double-hours of the traditional Chinese day) during the Lantern Festival of Tianbao 3 (744 CE) in the Tang capital of Chang'an. A death-row convict, Zhang Xiaojing, is given one day to uncover and stop a plot to burn the greatest city in the world. This is an annotated English translation with footnotes, a glossary, and a translator's apparatus.",
+  "subjects": [
+    "Fiction / Historical / General",
+    "Fiction / Thrillers / Historical",
+    "Fiction / World Literature / China / 21st Century"
   ],
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (source), title_en, and OPTIONAL 'part' (a label like 'Part One. ...'; consecutive chapters sharing it are grouped in the TOC). Keep 'src' (the source spine href, optionally with #anchor) and 'chars' (source character count, from ingest) so the survey can size batches; 'text_file' points at the extracted source text for that unit. Each section: id (ch01s01..), section (int), title, title_en, src, chars, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front: the survey and the skeleton EPUB are built from it before any translation.",
+  "bisac": [
+    "FIC014000",
+    "FIC031080",
+    "FIC059000"
+  ],
+  "_source_note": "Source: digital EPUB of 《长安十二时辰》 (上下册), 马伯庸, 湖南文艺出版社 (Hunan Literature & Art Publishing House), January 2017. Original print ISBNs 9787540478315 (vol. 1) and 9787540478339 (vol. 2). The EPUB is a two-volumes-in-one file whose spine carries a numbered heading page per chapter followed by the chapter body; pirate-site advertisement pages in the spine were removed during ingest.",
+  "source_epub": "source.epub",
+  "source_publisher_zh": "湖南文艺出版社",
+  "source_isbn": [
+    "9787540478315",
+    "9787540478339"
+  ],
+  "cover": "Image00010.jpg",
+  "_translator_note": "Rendered verbatim as the Translator's Note back-matter page.",
+  "translator_note": [
+    "This is an English translation of <i>&#38271;&#23433;&#21313;&#20108;&#26102;&#36784;</i> (<i>The Longest Day in Chang'an</i>) by Ma Boyong, made from the digital source EPUB.",
+    "The novel is built like a real-time thriller: its twenty-four chapters are the twenty-four half-<i>shichen</i> of one day, from the Snake hour of one morning around the clock to the Snake hour of the next. Each chapter heading names a traditional double-hour and its half; the English chapter titles gloss each one with its modern clock time so a reader can feel the countdown.",
+    "Notes are the translator's throughout, except where a note explicitly marks the author's own. Chinese personal and place names use pinyin, with conventional English forms kept where they exist. Genuinely ambiguous passages are footnoted, never smoothed over."
+  ],
+  "_structure_note": "24 numbered chapters (each a half-shichen of the day) plus two authorial afterwords. No sub-sections: each source chapter body is a single continuous unit. 'src' is the content spine href; 'text_file' the extracted source text; 'chars' the source character count of the body.",
   "structure": [
     {
-      "level": 1,
       "id": "ch01",
       "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "src": "text/chapter01.xhtml",
-      "chars": 8200,
-      "text_file": "data/src/01_chapter01.txt",
-      "sections": [
-        {
-          "id": "ch01s01",
-          "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "src": "text/chapter01.xhtml#sec1",
-          "chars": 4100,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)"
-            }
-          ]
-        },
-        {
-          "id": "ch01s02",
-          "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "src": "text/chapter01.xhtml#sec2",
-          "chars": 4100
-        }
-      ]
+      "title": "第一章　巳正",
+      "title_en": "Chapter One. The Hour of the Snake, Second Half (10 a.m.)",
+      "src": "text00003.html",
+      "chars": 19105,
+      "text_file": "data/src/02_text00003.txt",
+      "sections": []
+    },
+    {
+      "id": "ch02",
+      "chapter": 2,
+      "title": "第二章　午初",
+      "title_en": "Chapter Two. The Hour of the Horse, First Half (11 a.m.)",
+      "src": "text00005.html",
+      "chars": 16686,
+      "text_file": "data/src/04_text00005.txt",
+      "sections": []
+    },
+    {
+      "id": "ch03",
+      "chapter": 3,
+      "title": "第三章　午正",
+      "title_en": "Chapter Three. The Hour of the Horse, Second Half (noon)",
+      "src": "text00007.html",
+      "chars": 22888,
+      "text_file": "data/src/06_text00007.txt",
+      "sections": []
+    },
+    {
+      "id": "ch04",
+      "chapter": 4,
+      "title": "第四章　未初",
+      "title_en": "Chapter Four. The Hour of the Goat, First Half (1 p.m.)",
+      "src": "text00009.html",
+      "chars": 14099,
+      "text_file": "data/src/08_text00009.txt",
+      "sections": []
+    },
+    {
+      "id": "ch05",
+      "chapter": 5,
+      "title": "第五章　未正",
+      "title_en": "Chapter Five. The Hour of the Goat, Second Half (2 p.m.)",
+      "src": "text00011.html",
+      "chars": 13336,
+      "text_file": "data/src/10_text00011.txt",
+      "sections": []
+    },
+    {
+      "id": "ch06",
+      "chapter": 6,
+      "title": "第六章　申初",
+      "title_en": "Chapter Six. The Hour of the Monkey, First Half (3 p.m.)",
+      "src": "text00013.html",
+      "chars": 25297,
+      "text_file": "data/src/13_text00013.txt",
+      "sections": []
+    },
+    {
+      "id": "ch07",
+      "chapter": 7,
+      "title": "第七章　申正",
+      "title_en": "Chapter Seven. The Hour of the Monkey, Second Half (4 p.m.)",
+      "src": "text00015.html",
+      "chars": 25671,
+      "text_file": "data/src/15_text00015.txt",
+      "sections": []
+    },
+    {
+      "id": "ch08",
+      "chapter": 8,
+      "title": "第八章　酉初",
+      "title_en": "Chapter Eight. The Hour of the Rooster, First Half (5 p.m.)",
+      "src": "text00017.html",
+      "chars": 20231,
+      "text_file": "data/src/17_text00017.txt",
+      "sections": []
+    },
+    {
+      "id": "ch09",
+      "chapter": 9,
+      "title": "第九章　酉正",
+      "title_en": "Chapter Nine. The Hour of the Rooster, Second Half (6 p.m.)",
+      "src": "text00019.html",
+      "chars": 14154,
+      "text_file": "data/src/19_text00019.txt",
+      "sections": []
+    },
+    {
+      "id": "ch10",
+      "chapter": 10,
+      "title": "第十章　戌初",
+      "title_en": "Chapter Ten. The Hour of the Dog, First Half (7 p.m.)",
+      "src": "text00021.html",
+      "chars": 16368,
+      "text_file": "data/src/21_text00021.txt",
+      "sections": []
+    },
+    {
+      "id": "ch11",
+      "chapter": 11,
+      "title": "第十一章　戌正",
+      "title_en": "Chapter Eleven. The Hour of the Dog, Second Half (8 p.m.)",
+      "src": "text00023.html",
+      "chars": 16491,
+      "text_file": "data/src/24_text00023.txt",
+      "sections": []
+    },
+    {
+      "id": "ch12",
+      "chapter": 12,
+      "title": "第十二章　亥初",
+      "title_en": "Chapter Twelve. The Hour of the Pig, First Half (9 p.m.)",
+      "src": "text00025.html",
+      "chars": 18171,
+      "text_file": "data/src/26_text00025.txt",
+      "sections": []
+    },
+    {
+      "id": "ch13",
+      "chapter": 13,
+      "title": "第十三章　亥正",
+      "title_en": "Chapter Thirteen. The Hour of the Pig, Second Half (10 p.m.)",
+      "src": "text00027.html",
+      "chars": 16497,
+      "text_file": "data/src/28_text00027.txt",
+      "sections": []
+    },
+    {
+      "id": "ch14",
+      "chapter": 14,
+      "title": "第十四章　子初",
+      "title_en": "Chapter Fourteen. The Hour of the Rat, First Half (11 p.m.)",
+      "src": "text00029.html",
+      "chars": 17484,
+      "text_file": "data/src/30_text00029.txt",
+      "sections": []
+    },
+    {
+      "id": "ch15",
+      "chapter": 15,
+      "title": "第十五章　子正",
+      "title_en": "Chapter Fifteen. The Hour of the Rat, Second Half (midnight)",
+      "src": "text00031.html",
+      "chars": 16941,
+      "text_file": "data/src/32_text00031.txt",
+      "sections": []
+    },
+    {
+      "id": "ch16",
+      "chapter": 16,
+      "title": "第十六章　丑初",
+      "title_en": "Chapter Sixteen. The Hour of the Ox, First Half (1 a.m.)",
+      "src": "text00033.html",
+      "chars": 14191,
+      "text_file": "data/src/34_text00033.txt",
+      "sections": []
+    },
+    {
+      "id": "ch17",
+      "chapter": 17,
+      "title": "第十七章　丑正",
+      "title_en": "Chapter Seventeen. The Hour of the Ox, Second Half (2 a.m.)",
+      "src": "text00035.html",
+      "chars": 13753,
+      "text_file": "data/src/37_text00035.txt",
+      "sections": []
+    },
+    {
+      "id": "ch18",
+      "chapter": 18,
+      "title": "第十八章　寅初",
+      "title_en": "Chapter Eighteen. The Hour of the Tiger, First Half (3 a.m.)",
+      "src": "text00037.html",
+      "chars": 13861,
+      "text_file": "data/src/39_text00037.txt",
+      "sections": []
+    },
+    {
+      "id": "ch19",
+      "chapter": 19,
+      "title": "第十九章　寅正",
+      "title_en": "Chapter Nineteen. The Hour of the Tiger, Second Half (4 a.m.)",
+      "src": "text00039.html",
+      "chars": 15712,
+      "text_file": "data/src/41_text00039.txt",
+      "sections": []
+    },
+    {
+      "id": "ch20",
+      "chapter": 20,
+      "title": "第二十章　卯初",
+      "title_en": "Chapter Twenty. The Hour of the Rabbit, First Half (5 a.m.)",
+      "src": "text00041.html",
+      "chars": 15148,
+      "text_file": "data/src/43_text00041.txt",
+      "sections": []
+    },
+    {
+      "id": "ch21",
+      "chapter": 21,
+      "title": "第二十一章　卯正",
+      "title_en": "Chapter Twenty-One. The Hour of the Rabbit, Second Half (6 a.m.)",
+      "src": "text00043.html",
+      "chars": 12986,
+      "text_file": "data/src/45_text00043.txt",
+      "sections": []
+    },
+    {
+      "id": "ch22",
+      "chapter": 22,
+      "title": "第二十二章　辰初",
+      "title_en": "Chapter Twenty-Two. The Hour of the Dragon, First Half (7 a.m.)",
+      "src": "text00045.html",
+      "chars": 14446,
+      "text_file": "data/src/48_text00045.txt",
+      "sections": []
+    },
+    {
+      "id": "ch23",
+      "chapter": 23,
+      "title": "第二十三章　辰正",
+      "title_en": "Chapter Twenty-Three. The Hour of the Dragon, Second Half (8 a.m.)",
+      "src": "text00047.html",
+      "chars": 12529,
+      "text_file": "data/src/50_text00047.txt",
+      "sections": []
+    },
+    {
+      "id": "ch24",
+      "chapter": 24,
+      "title": "第二十四章　巳初",
+      "title_en": "Chapter Twenty-Four. The Hour of the Snake, First Half (9 a.m.)",
+      "src": "text00049.html",
+      "chars": 18618,
+      "text_file": "data/src/52_text00049.txt",
+      "sections": []
+    },
+    {
+      "id": "ch25",
+      "chapter": 25,
+      "part": "Afterword",
+      "title": "后记一",
+      "title_en": "Afterword I",
+      "src": "text00050.html",
+      "chars": 1838,
+      "text_file": "data/src/53_text00050.txt",
+      "sections": []
+    },
+    {
+      "id": "ch26",
+      "chapter": 26,
+      "part": "Afterword",
+      "title": "后记二",
+      "title_en": "Afterword II",
+      "src": "text00051.html",
+      "chars": 966,
+      "text_file": "data/src/55_text00051.txt",
+      "sections": []
     }
   ],
-
-  "_batches_note": "Your work plan (proposed by scripts/survey.py, approved by the commissioner). Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
-  "batches": [
-    {
-      "batch": "B01",
-      "title": "ch1",
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
-    }
-  ]
+  "_batches_note": "Proposed by scripts/survey.py; to be approved by the commissioner before Batch 1.",
+  "batches": []
 }
