@@ -45,37 +45,24 @@
 - **Chapter 34. The Guest Turns Host in a Rash Presumption** &mdash; 6,568 chars
 - **Chapter 35. At a Single Stroke the Traitor Is Rooted Out, the Geese Return to Rank** &mdash; 8,534 chars
 
-## Suggested batches (target ~12,000 source chars each)
+## Suggested batches (target ~21,000 source chars each)
 
 Approve or adjust these, then Batch 1 begins.
 
 | Batch | Units | Chars | Covers |
 |---|---|---|---|
-| B01 | ch00-ch01 | 4,523 | Prologue through Chapter 1. Grass and Trees Shed Their Leaves, and Dew Turns to Frost |
-| B02 | ch02-ch03 | 11,635 | Chapter 2. Born at Dawn to Spring's Light, Wrapped in Mist by Dusk through Chapter 3. Birds of the Same Wood Each Take Flight |
-| B03 | ch04-ch05 | 7,728 | Chapter 4. By a Cross-Grained Twist of Fate, Hard to Guard Against through Chapter 5. The People of the Day Know Not the Cloud-Piercing Tree |
-| B04 | ch06 | 10,183 | Chapter 6. The Palace Blossom Falls and Is Already Dust |
-| B05 | ch07-ch08 | 11,031 | Chapter 7. I Half-Suspect the Spring Has Gone Next Door through Chapter 8. Young Yang of Former Days Comes Once Again |
-| B06 | ch09-ch10 | 9,480 | Chapter 9. The One Who Opens the Door Is the One Who Closed It through Chapter 10. By Error the Flower of One Heart Is Cut |
-| B07 | ch11 | 7,068 | Chapter 11. A Whole Life's Fortunes Drift Like Duckweed |
-| B08 | ch12-ch13 | 11,917 | Chapter 12. What Day Shall I Go Home to Wash the Traveler's Robe? through Chapter 13. The Pipa Weeps Blood, a Tearful Feud |
-| B09 | ch14 | 10,786 | Chapter 14. When She Left, Blood Ran the Peach-Blossom Road |
-| B10 | ch15 | 9,241 | Chapter 15. Only in the End Do You Know How High the Source |
-| B11 | ch16 | 11,004 | Chapter 16. The Hills Wind, the Road Turns, and I Meet You Again |
-| B12 | ch17 | 10,592 | Chapter 17. Each Has a Sky of Its Own Warp and Weft |
-| B13 | ch18-ch19 | 11,428 | Chapter 18. Drawing the Silk, Climbing the Vine, a Single Thread through Chapter 19. In a Single Night the Plum Blossom Betrays Spring's Craft |
-| B14 | ch20 | 6,823 | Chapter 20. A Meeting Met with a Smile Is Not Easily Won |
-| B15 | ch21 | 6,096 | Chapter 21. A Thousandweight on a Hair, the Arrow on the String |
-| B16 | ch22 | 8,986 | Chapter 22. To Dam All the Currents Takes a Vast Resolve |
-| B17 | ch23-ch24 | 11,837 | Chapter 23. A Foul Miasma Fills the Sky; Blood and Fire Consume through Chapter 24. The Wind and Rain Will Not Yet Give Up the Lingering Cold |
-| B18 | ch25 | 7,356 | Chapter 25. To Step Backward Was, All Along, to Go Forward |
-| B19 | ch26 | 7,474 | Chapter 26. The White Cloud May Be Slain but Not Detained |
-| B20 | ch27-ch28 | 10,755 | Chapter 27. Treading Through Ice and Fire, the Ninefold Heaven through Chapter 28. Not a Hair's Breadth Between Life and Death |
-| B21 | ch29 | 6,337 | Chapter 29. Parting the Wild Grass to Seek the Doubtful Dust |
-| B22 | ch30 | 6,346 | Chapter 30. Brothers in Life and Death Alike |
-| B23 | ch31-ch32 | 11,697 | Chapter 31. The Roaming Fish Sees the Bait, Not the Hook through Chapter 32. Rich Wine, a Fair Woman, the Mandarin-Duck Swords |
-| B24 | ch33 | 6,274 | Chapter 33. When the False Is Made True, the True Turns False as Well |
-| B25 | ch34 | 6,568 | Chapter 34. The Guest Turns Host in a Rash Presumption |
-| B26 | ch35 | 8,534 | Chapter 35. At a Single Stroke the Traitor Is Rooted Out, the Geese Return to Rank |
+| B01 | ch00-ch04 | 20,041 | Prologue through Chapter 4. By a Cross-Grained Twist of Fate, Hard to Guard Against |
+| B02 | ch05-ch07 | 19,345 | Chapter 5. The People of the Day Know Not the Cloud-Piercing Tree through Chapter 7. I Half-Suspect the Spring Has Gone Next Door |
+| B03 | ch08-ch10 | 15,194 | Chapter 8. Young Yang of Former Days Comes Once Again through Chapter 10. By Error the Flower of One Heart Is Cut |
+| B04 | ch11-ch13 | 18,985 | Chapter 11. A Whole Life's Fortunes Drift Like Duckweed through Chapter 13. The Pipa Weeps Blood, a Tearful Feud |
+| B05 | ch14-ch15 | 20,027 | Chapter 14. When She Left, Blood Ran the Peach-Blossom Road through Chapter 15. Only in the End Do You Know How High the Source |
+| B06 | ch16 | 11,004 | Chapter 16. The Hills Wind, the Road Turns, and I Meet You Again |
+| B07 | ch17-ch18 | 15,534 | Chapter 17. Each Has a Sky of Its Own Warp and Weft through Chapter 18. Drawing the Silk, Climbing the Vine, a Single Thread |
+| B08 | ch19-ch21 | 19,405 | Chapter 19. In a Single Night the Plum Blossom Betrays Spring's Craft through Chapter 21. A Thousandweight on a Hair, the Arrow on the String |
+| B09 | ch22-ch24 | 20,823 | Chapter 22. To Dam All the Currents Takes a Vast Resolve through Chapter 24. The Wind and Rain Will Not Yet Give Up the Lingering Cold |
+| B10 | ch25-ch27 | 20,965 | Chapter 25. To Step Backward Was, All Along, to Go Forward through Chapter 27. Treading Through Ice and Fire, the Ninefold Heaven |
+| B11 | ch28-ch30 | 17,303 | Chapter 28. Not a Hair's Breadth Between Life and Death through Chapter 30. Brothers in Life and Death Alike |
+| B12 | ch31-ch33 | 17,971 | Chapter 31. The Roaming Fish Sees the Bait, Not the Hook through Chapter 33. When the False Is Made True, the True Turns False as Well |
+| B13 | ch34-ch35 | 15,102 | Chapter 34. The Guest Turns Host in a Rash Presumption through Chapter 35. At a Single Stroke the Traitor Is Rooted Out, the Geese Return to Rank |
 
 _Sizes are source characters; set each unit's `chars` (ingest fills this) so batches size correctly._
