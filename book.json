@@ -1,69 +1,256 @@
 {
-  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. For an EPUB source, author it from book.draft.json (produced by scripts/ingest_epub.py) — refine the titles, add English titles, and MERGE or SPLIT units where the source EPUB's file boundaries do not match its logical chapters. Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists.",
-
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 2020,
-  "uid": "urn:uuid:my-book-slug-1",
-
-  "_source_note": "The source is a digital EPUB with reliable text (no OCR). Record its title/edition and anything notable (missing chapters, embedded notes, image-heavy sections) here.",
-  "source_epub": "source.epub",
-
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212;, &#160;), never named entities. If omitted, a generic method note is generated.",
-  "translator_note": [
-    "This is an English translation of <i>中文書名</i>, made from the digital source EPUB.",
-    "Say here what the register decisions were, who the author is, and how any editorial choices (the source's own notes, ambiguous passages, cut material) were handled."
+  "_README": "Structure and metadata for Mao Dun's Midnight (子夜). The build is driven ENTIRELY by this file. Chapter ids start with 'ch'. A chapter is treated as translated once out/<id>_reading.md exists. The 19 numbered chapters map 1:1 to the source spine files Text/part0002.xhtml .. part0020.xhtml; the afterword (后记) is part0021.xhtml.",
+  "title_en": "Midnight",
+  "title_zh": "子夜",
+  "title_file_as": "Midnight",
+  "subtitle_en": "A Romance of China, 1930",
+  "author_en": "Mao Dun",
+  "author_zh": "茅盾",
+  "author_file_as": "Mao, Dun",
+  "year": 1933,
+  "language": "en",
+  "source_language": "zh",
+  "publisher": "Annotated English Edition",
+  "uid": "urn:uuid:8f2b6c1e-1933-5a0d-9c4e-ziye-maodun-midnight",
+  "description": "An annotated English translation of Mao Dun's 子夜 (Midnight), the landmark 1933 novel of Shanghai in 1930: a panoramic realist portrait of the industrialist Wu Sunfu, the speculators of the bond market, the silk filatures and their strikes, and a Chinese bourgeoisie caught between foreign capital and revolution. This edition carries footnotes, a glossary, and an honest apparatus for uncertain and editorial passages.",
+  "subjects": [
+    "Fiction / Literary",
+    "Fiction / World Literature / China",
+    "Fiction / Historical",
+    "Chinese literature — 20th century — Translations into English",
+    "Shanghai (China) — Fiction"
   ],
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (source), title_en, and OPTIONAL 'part' (a label like 'Part One. ...'; consecutive chapters sharing it are grouped in the TOC). Keep 'src' (the source spine href, optionally with #anchor) and 'chars' (source character count, from ingest) so the survey can size batches; 'text_file' points at the extracted source text for that unit. Each section: id (ch01s01..), section (int), title, title_en, src, chars, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front: the survey and the skeleton EPUB are built from it before any translation.",
+  "cover_image": "cover00277.jpeg",
+  "_source_note": "Source is a digital EPUB (no OCR): 子夜 by 茅盾. Spine (24 docs): cover_page + 版权信息 (part0000, colophon) + 目录 (part0001, the source's own table of contents) + the 19 chapters (part0002..part0020) + 后记 (part0021, afterword) + part0022, which collects the SOURCE'S OWN 9 endnotes, keyed by bracketed markers [1]..[9] that appear inline in the chapters (e.g. [1] at 'Light, Heat, Power!' in Chapter One). Those are the author's/editor's notes: during translation they must be rendered as the SOURCE's own notes (distinct from the translator's footnotes), placed at their markers. The cover, 版权信息 and 目录 are not translatable units and are not in 'structure'; the builder generates its own title page and TOC.",
+  "source_epub": "source.epub",
+  "source_edition": "子夜, first published January 1933 by 开明书店 (Kaiming Bookstore), Shanghai; title calligraphy by Ye Shengtao. Written October 1931 – December 1932 (per the afterword). Digital EPUB edition.",
+  "_translator_note": "Rendered verbatim as the Translator's Note page. Inline <i>..</i> honored; use NUMERIC character references, never named entities.",
+  "translator_note": [
+    "This is an English translation of <i>子夜</i> (<i>Midnight</i>), Mao Dun's 1930-Shanghai novel, made from the digital source edition. The book was written between October 1931 and December 1932 and first published by the Kaiming Bookstore in January 1933.",
+    "The source carries nine of its own notes, gathered at the end of the original and keyed to bracketed markers in the text; these glosses of foreign words and period slang are the author's, and are kept visibly distinct from the translator's footnotes. Names follow pinyin except where a conventional English form exists, with one rendering per referent fixed in the glossary. Where a passage is genuinely ambiguous, the choice is stated in a note and nothing is invented to smooth it over."
+  ],
+  "_batches_note": "Proposed by scripts/survey.py; to be approved by the commissioner before Batch 1.",
   "structure": [
     {
       "level": 1,
       "id": "ch01",
       "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "src": "text/chapter01.xhtml",
-      "chars": 8200,
-      "text_file": "data/src/01_chapter01.txt",
-      "sections": [
-        {
-          "id": "ch01s01",
-          "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "src": "text/chapter01.xhtml#sec1",
-          "chars": 4100,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)"
-            }
-          ]
-        },
-        {
-          "id": "ch01s02",
-          "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "src": "text/chapter01.xhtml#sec2",
-          "chars": 4100
-        }
-      ]
+      "title": "一",
+      "title_en": "Chapter One",
+      "src": "Text/part0002.xhtml",
+      "chars": 12282,
+      "text_file": "data/src/04_part0002.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch02",
+      "chapter": 2,
+      "title": "二",
+      "title_en": "Chapter Two",
+      "src": "Text/part0003.xhtml",
+      "chars": 15257,
+      "text_file": "data/src/05_part0003.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch03",
+      "chapter": 3,
+      "title": "三",
+      "title_en": "Chapter Three",
+      "src": "Text/part0004.xhtml",
+      "chars": 11726,
+      "text_file": "data/src/06_part0004.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch04",
+      "chapter": 4,
+      "title": "四",
+      "title_en": "Chapter Four",
+      "src": "Text/part0005.xhtml",
+      "chars": 11877,
+      "text_file": "data/src/07_part0005.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch05",
+      "chapter": 5,
+      "title": "五",
+      "title_en": "Chapter Five",
+      "src": "Text/part0006.xhtml",
+      "chars": 13394,
+      "text_file": "data/src/08_part0006.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch06",
+      "chapter": 6,
+      "title": "六",
+      "title_en": "Chapter Six",
+      "src": "Text/part0007.xhtml",
+      "chars": 12137,
+      "text_file": "data/src/09_part0007.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch07",
+      "chapter": 7,
+      "title": "七",
+      "title_en": "Chapter Seven",
+      "src": "Text/part0008.xhtml",
+      "chars": 12769,
+      "text_file": "data/src/10_part0008.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch08",
+      "chapter": 8,
+      "title": "八",
+      "title_en": "Chapter Eight",
+      "src": "Text/part0009.xhtml",
+      "chars": 16002,
+      "text_file": "data/src/11_part0009.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch09",
+      "chapter": 9,
+      "title": "九",
+      "title_en": "Chapter Nine",
+      "src": "Text/part0010.xhtml",
+      "chars": 13659,
+      "text_file": "data/src/12_part0010.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch10",
+      "chapter": 10,
+      "title": "十",
+      "title_en": "Chapter Ten",
+      "src": "Text/part0011.xhtml",
+      "chars": 13366,
+      "text_file": "data/src/13_part0011.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch11",
+      "chapter": 11,
+      "title": "十一",
+      "title_en": "Chapter Eleven",
+      "src": "Text/part0012.xhtml",
+      "chars": 11782,
+      "text_file": "data/src/14_part0012.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch12",
+      "chapter": 12,
+      "title": "十二",
+      "title_en": "Chapter Twelve",
+      "src": "Text/part0013.xhtml",
+      "chars": 13308,
+      "text_file": "data/src/15_part0013.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch13",
+      "chapter": 13,
+      "title": "十三",
+      "title_en": "Chapter Thirteen",
+      "src": "Text/part0014.xhtml",
+      "chars": 10419,
+      "text_file": "data/src/16_part0014.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch14",
+      "chapter": 14,
+      "title": "十四",
+      "title_en": "Chapter Fourteen",
+      "src": "Text/part0015.xhtml",
+      "chars": 19912,
+      "text_file": "data/src/17_part0015.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch15",
+      "chapter": 15,
+      "title": "十五",
+      "title_en": "Chapter Fifteen",
+      "src": "Text/part0016.xhtml",
+      "chars": 13108,
+      "text_file": "data/src/18_part0016.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch16",
+      "chapter": 16,
+      "title": "十六",
+      "title_en": "Chapter Sixteen",
+      "src": "Text/part0017.xhtml",
+      "chars": 10416,
+      "text_file": "data/src/19_part0017.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch17",
+      "chapter": 17,
+      "title": "十七",
+      "title_en": "Chapter Seventeen",
+      "src": "Text/part0018.xhtml",
+      "chars": 13863,
+      "text_file": "data/src/20_part0018.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch18",
+      "chapter": 18,
+      "title": "十八",
+      "title_en": "Chapter Eighteen",
+      "src": "Text/part0019.xhtml",
+      "chars": 12247,
+      "text_file": "data/src/21_part0019.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch19",
+      "chapter": 19,
+      "title": "十九",
+      "title_en": "Chapter Nineteen",
+      "src": "Text/part0020.xhtml",
+      "chars": 5137,
+      "text_file": "data/src/22_part0020.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch20",
+      "chapter": 20,
+      "title": "后记",
+      "title_en": "Afterword",
+      "src": "Text/part0021.xhtml",
+      "chars": 452,
+      "text_file": "data/src/23_part0021.txt",
+      "sections": []
     }
   ],
-
-  "_batches_note": "Your work plan (proposed by scripts/survey.py, approved by the commissioner). Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
-  "batches": [
-    {
-      "batch": "B01",
-      "title": "ch1",
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
-    }
-  ]
+  "batches": []
 }
