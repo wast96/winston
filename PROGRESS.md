@@ -446,3 +446,142 @@ a content illustration, matching the ch01-ch03 decision. figures.json stays empt
 - Authorial slip: source line 110 writes 麻格心 for 麻格儿 (Ma Ge'er) — a
   one-character typo mid-paragraph. Rendered as "Ma Ge'er" (the character's
   established name) without a note, the referent being unambiguous.
+
+## B05 = ch05 (第五章 未正 / "The Hour of the Goat, Second Half, 2 p.m.")
+
+Scope: the whole chapter, 13,336 source characters, 222 paragraphs. Five
+interleaved scenes. (1) At the hidden depot, Long Bo's craftsmen assemble the
+second half of the Que-le Huo-duo from bamboo poles and river-mud while Cao Poyan
+stands guard; Ma Ge'er arrives with the captive Wen Ran (still mistaken for Wang
+Yunxiu) and only three of eight Wolf Guards left, and Cao realizes the Jing'an
+Bureau has traced the safe-house. Long Bo suggests hiring the beggars of the
+infirmary as lookouts. (2) The Bureau's city-wide search of the oil-works turns up
+nothing; Xu Bin, stinging under Li Bi's temper, catches an inspiration from the
+order to "search everything that burns." (3) A sealed dispatch confirms the Wolf
+Guards took Wang Zhongsi's daughter; Li Bi grasps the strategic disaster, ices his
+face to think, senses the two aims (arson and abduction) are at odds, and turns
+back to Zhang Xiaojing. (4) Zhang walks a commandeered palace sighthound west from
+the Qixia Gate; the scent dies at Guangxing-Anle in the desolate southwest, and he
+sets fifty Lüben soldiers to a quiet search. (5) Feng Dalun, warned that "Zhang
+the Yama" has been requisitioned out of the death cells, races to Jinggong Ward
+to consult his patron Prince Yong at the polo ground; they scheme to have the
+Court of Judicial Review demand the prisoner back through an Evaluator, one Yuan
+Zai. The chapter closes back at the well: Wen Ran has thrown herself down it; Cao
+Poyan, one-armed from Cui Qi's bolt, caps the well and leaves to hire the beggar
+headman.
+
+Deliverables shipped: out/ch05_bilingual.md (QC only), out/ch05_reading.md,
+data/zh/ch05.txt, notes.json (3 notes added, 25 total), glossary.json updated
+(new people/orgs/places/terms below), noise.txt extended, the rebuilt EPUB, and
+this log.
+
+### Checks run
+
+- check_numbers.py --noise noise.txt: 222 pairs, 0 unresolved. Extended noise.txt
+  with, and recorded why, only NON-quantity numerals the check flagged:
+  万千 (万千细针 = "myriad fine needles", the idiom for "countless", not the
+  compound 11000; English renders "ten thousand fine needles"), 独一无二 ("unique",
+  the 二 is idiomatic, not 2), 王八 (王八蛋 = "bastards", the 八 is part of the
+  invective, not 8), 六亲 (六亲不认 = "knowing neither kith nor kin", the 六 is not
+  6), and 一了百了 ("the end of all things", the 百 is not 100). Every added pattern
+  is a specific idiom literal; a genuinely dropped number would still fail. No
+  WORD_NUM change was needed this batch.
+- check_structure.py --pairs: paragraph parity 222 source / 222 translation, OK.
+  The chapter opens with a flash-forward vignette of the boxwood writing-case
+  (three extractor lines that are one paragraph, merged to one pair; the same text
+  recurs verbatim at source line 51 when the scene arrives and was translated
+  identically both times), then the dateline and "the place, unknown," then the
+  body one-to-one; the per-chapter time-gloss is the final pair. The source's
+  own content-file heading line "未正" is absorbed into the H2 chapter title, as
+  in ch01-ch04.
+- Anchor resolution: all 3 ch05 note anchors ("Prince Yong, Li Lin", "Yuan Zai",
+  "the Oil-Sprinkled Ground") are verbatim substrings of the reading text
+  (verified by grep, each exactly once). Builder built and qa_epub passed with all
+  25 notes.
+- Blind double translation (check 2): an independent context, with no sight of
+  this translation, rendered a literary sample (Cao Poyan's keepsake-necklace
+  paragraph and the steppe-gazelle image, ~2 paragraphs, ~230 chars). Result:
+  highly convergent, no omissions and no invented content; every detail present
+  (Onon River, white horsehair, three strands of hair, one breath, telling
+  prayer-beads, gazelles kneeling and bleating). Divergences were equivalent
+  word-choices within translator discretion (栈仓 "warehouse" vs "granary";
+  彩石项链 "necklace of colored stones" vs "colored-stone beads"). No correction
+  needed.
+- Round-trip back translation (check 3): a number-dense sample (the bamboo-pole
+  depot delivery, Wang Zhongsi's three titles, and the polo-field dimensions,
+  ~3 excerpts) was back-translated in a fresh context and diffed against the
+  source. Every numeral and title survived intact (second time, nearly a thousand
+  poles, three-year bamboo, three feet; General of the Left Jinwu Guard / Area
+  Commander of Lingzhou / Military Commissioner of Shuofang; 150 paces × 400
+  paces, ten-odd felt curtains) and no content was dropped. No divergences of
+  substance.
+- qa_epub.py: PASS. 38 files, 32 documents, all links resolve; 25 note references,
+  25 bodies, 25 backlinks; numbering sequential in reading order.
+
+### Random-sample deep audit (check 8)
+
+The blind double-translation and back-translation samples together cover ~4% of
+the chapter (~5 of 222 paragraphs) and were given the full paranoid treatment
+(verbatim-quote check, independent forward translation, and back-translation).
+Observed error rate: 0 — no dropped clause, no invented sentence, no altered
+number or title in the audited spans.
+
+### Notes added (3; numbered by the builder in reading order, continuing from ch04)
+
+- "Prince Yong, Li Lin": Li Lin (d. 757), a son of Xuanzong, later the failed
+  Yangtze uprising of 757 that ensnared Li Bai; corroborated against the Tang
+  histories.
+- "Yuan Zai": the dramatic-irony note — the forgettable eighth-rank Evaluator here
+  is the historical Yuan Zai (d. 777) who married Wang Yunxiu and rose to a
+  notoriously corrupt chief-ministership, executed 777; corroborated.
+- "the Oil-Sprinkled Ground": Tang polo and the historical oiled field of Yang
+  Shenjiao, consort of Princess Changning (daughter of Zhongzong); corroborated
+  against the New Book of Tang and the Zizhi Tongjian.
+Recurring subjects whose FIRST appearance was in an earlier chapter were
+deliberately NOT re-noted: Wang Zhongsi (ch01, unnoted), the Five Kennels / Dog
+Kennel (ch04), the Nine-Gate Drum (ch04), the Xuanhui Court (ch04), the Sage
+(ch01), Que-le Huo-duo, the Lantern Festival, etc.
+
+### Glossary rows added
+
+People: Li Lin / Prince Yong (attested), Yuan Zai (attested), Yang Shenjiao
+(attested), Princess Changning (attested), Emperor Zhongzong (attested), the
+Consort of the Prince of Cao. Places: Daning / Jinggong / Tongji / Guangxing /
+Anle / Qinren Wards, the Daming Palace (attested), the Xingqing Palace (attested),
+the Yanxi Gate, the Onon River (attested), the Orkhon River (attested), Hedong
+(attested), the Ci'en Temple (attested), the Oil-Sprinkled Ground. Organizations:
+the Ministry of Works (attested), the Forestry and Crafts Bureau / 虞部 (attested),
+the Court of Judicial Review (attested), the Censorate (attested), the Ministry of
+Justice (attested), the Palace Domestic Service (attested). Terms: polo (击鞠),
+Evaluator of the Court of Judicial Review (attested), Silla (attested), the court
+gazette (邸报), infirmary (病坊), snow-cordial, warder (节级). Every recurring
+referent already decided in ch01-ch04 (Cao Poyan, Long Bo, Ma Ge'er, Wen Ran, Wang
+Yunxiu, Wang Zhongsi, Li Bi, Xu Bin, Tanqi, Cui Qi, Zhang Xiaojing, Yao Runeng,
+Feng Dalun, the Right Shad; the Jing'an Bureau, the Lüben Guards, the Jinwu Guard,
+the Xuanhui Court, the Dog Kennel, the Five Kennels; Xiuzheng Ward, the Qixia
+Gate, Qujiang Pool, the Vermilion Bird Avenue; the Wolf Guards, the Nine-Gate
+Drum, Que-le Huo-duo, the Bear Fire Gang, "recorder" for 主事, "military
+commissioner" for 节度使, "crescent mallet" for 月杆, etc.) was reused verbatim,
+not re-romanized.
+
+### Figures
+
+None. The chapter has no content illustration in its source (only the book-wide
+footnote-marker glyph and scene-break rule, which are not figures). figures.json
+stays empty, matching ch01-ch04.
+
+### Flagged for the read-through
+
+- The chapter's opening is a flash-forward vignette (the boxwood writing-case),
+  whose exact text returns at source line 51 when the well-side scene reaches that
+  moment; both instances were translated identically, per the ch04 precedent for
+  such deliberate authorial echoes.
+- The source's per-chapter time-gloss (here "下午2点。未，又名日跌、日央等……")
+  is captured as the final source paragraph and rendered as the source's own italic
+  note, per house style.
+- Minor source oddity: line 10 reads 并未没引起任何注意 (a doubled negative,
+  未...没); the plain sense is "drew no notice at all," rendered so. Not flagged in
+  the text.
+- 主事 is rendered "recorder" (Recorder Xu Bin, Recorder Feng Dalun), consistent
+  with ch01; 评事 is "Evaluator"; office renderings for 工部/虞部/大理寺/御史台/刑部/
+  内侍省 follow Hucker.

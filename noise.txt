@@ -115,3 +115,18 @@
 # ch04: 千金 = honorific for another's daughter ("your daughter"), literally
 # "thousand gold"; not the quantity 1000. English renders it "daughter."
 千金
+# ch05: 万千 = "myriad / countless" (idiom); 万千细针 = "myriad fine needles."
+# Not the compound 11000; English renders it "ten thousand fine needles."
+万千
+# ch05: 独一无二 = "unique" (idiom); the 二 is not the quantity 2. English
+# renders it "unlike any other."
+独一无二
+# ch05: 王八蛋 = "bastards" (swear word); the 八 is part of the invective,
+# not the quantity 8. English renders it "bastards." (Strip 王八, also 王八蛋.)
+王八
+# ch05: 六亲不认 = "knowing neither kith nor kin" (idiom); the 六 is not the
+# quantity 6. English renders it "knowing neither kith nor kin."
+六亲
+# ch05: 一了百了 = "death/one ending ends all" (idiom); the 百 is not the
+# quantity 100. English renders it "the end of all things."
+一了百了

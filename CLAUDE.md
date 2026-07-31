@@ -266,6 +266,13 @@ verbatim at the end of your chat reply too. On the LAST batch, the message says
 to do any back matter and a whole-book QA pass and write a completion report
 instead of another handoff.
 
+**Chat naming convention (commissioner's request).** Each batch runs in its own
+chat, and every chat is named `Chang'an B<batch number>`: Batch 5 is
+`Chang'an B5`, Batch 6 is `Chang'an B6`, and so on for every batch after. The
+kickoff message's fenced block MUST open with a first line naming the batch
+exactly that way (e.g. `Chang'an B6`), so whoever opens the next chat titles it
+`Chang'an B<n>`. Keep this line as the first line of every future kickoff block.
+
 ## Corrections workflow
 
 The commissioner reads the EPUB and files corrections in `CORRECTIONS.md`.
