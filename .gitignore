@@ -22,3 +22,7 @@ book.draft.json
 # Keep source.epub and committed figure images (data/figs/*.png|jpg) TRACKED.
 # If your source EPUB is large and you would rather not commit it, add:
 #   source.epub
+
+# English paragraph inputs to make_bilingual.py; the bilingual QC file is the
+# committed artifact and fully reconstructs these, so treat them as scratch.
+out/*_en.txt

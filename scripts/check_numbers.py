@@ -74,7 +74,11 @@ NOISE = [
     # 十分/十几 are idioms ("very", "ten-odd") ONLY when 十 is not preceded by a
     # digit; the lookbehind keeps clock minutes like 二十分/三十分 (20/30 min) and
     # counts like 三十 intact instead of eating the 十分 out of them.
-    r"(?<![一二两兩三四五六七八九])十[幾几分]", r"[十几幾]多", r"再三",
+    # The same digit lookbehind on 十多/几多 ("ten-odd/several") keeps compound
+    # counts like 二十多/三十多 (twenty-/thirty-odd) intact: without it the generic
+    # 十多 eats the 十 out of 二十多 and orphans a bare 二 read as the quantity 2.
+    r"(?<![一二两兩三四五六七八九])十[幾几分]",
+    r"(?<![一二两兩三四五六七八九])[十几幾]多", r"再三",
     # --- 萬/万 and 千 as intensifier, not the quantity 10000/1000 ---
     # ORDERING: 千萬/萬萬 must precede bare 萬X, or r"萬不可" eats the 萬 out of
     # 千萬不可 and orphans a 千 read as 1000. Longest literal first, always.

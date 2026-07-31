@@ -27,3 +27,25 @@
 四溅
 # 第二天 = "the next day" (idiomatic, not literally "the second day")
 第二天
+# --- B02 (ch5-7) additions: non-quantity numerals flagged by check_numbers ---
+# 二话没说 = "without a second word / at once"; 二 is idiom, not a count
+二话
+# 千锤百炼 = "tempered a thousand times", four-char idiom (千+百 both idiomatic)
+千锤百炼
+千錘百煉
+# 千里马 = "a fine steed" (the Bole/thousand-li-horse idiom); 千 is idiom, not 1000
+千里马
+# 四起 = "rose on all sides" (掌声四起); 四 is idiom, not 4
+四起
+# 四溢 = "brimming over on all sides" (酒香四溢); 四 is idiom, not 4
+四溢
+# 隔三岔五 = "every few days"; 三/五 are idiom, not counts
+隔三岔五
+# 百事 = "everything, all one's affairs" (百事乖违); 百 is idiom, not 100
+百事
+# 千恩万谢 = "a thousand thanks", four-char idiom (千/万 idiomatic)
+千恩万谢
+# 十八、九(岁) = "eighteen or nineteen (years old)", an age-range idiom
+十八、九
+# 王八 = "cuckold/bastard" insult (贼王八); 八 is part of the word, not 8
+王八
