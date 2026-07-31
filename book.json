@@ -29,7 +29,7 @@
     "This is an English translation of <i>子夜</i> (<i>Midnight</i>), Mao Dun's 1930-Shanghai novel, made from the digital source edition. The book was written between October 1931 and December 1932 and first published by the Kaiming Bookstore in January 1933.",
     "The source carries nine of its own notes, gathered at the end of the original and keyed to bracketed markers in the text; these glosses of foreign words and period slang are the author's, and are kept visibly distinct from the translator's footnotes. Names follow pinyin except where a conventional English form exists, with one rendering per referent fixed in the glossary. Where a passage is genuinely ambiguous, the choice is stated in a note and nothing is invented to smooth it over."
   ],
-  "_batches_note": "Proposed by scripts/survey.py; to be approved by the commissioner before Batch 1.",
+  "_batches_note": "Approved plan: 21,000 source-character maximum per batch. first/last are chapter ids. Informational; the build reads structure, not batches.",
   "structure": [
     {
       "level": 1,
@@ -252,5 +252,132 @@
       "sections": []
     }
   ],
-  "batches": []
+  "batches": [
+    {
+      "batch": "B01",
+      "title": "Chapter One",
+      "first": "ch01",
+      "last": "ch01",
+      "chars": 12282
+    },
+    {
+      "batch": "B02",
+      "title": "Chapter Two",
+      "first": "ch02",
+      "last": "ch02",
+      "chars": 15257
+    },
+    {
+      "batch": "B03",
+      "title": "Chapter Three",
+      "first": "ch03",
+      "last": "ch03",
+      "chars": 11726
+    },
+    {
+      "batch": "B04",
+      "title": "Chapter Four",
+      "first": "ch04",
+      "last": "ch04",
+      "chars": 11877
+    },
+    {
+      "batch": "B05",
+      "title": "Chapter Five",
+      "first": "ch05",
+      "last": "ch05",
+      "chars": 13394
+    },
+    {
+      "batch": "B06",
+      "title": "Chapter Six",
+      "first": "ch06",
+      "last": "ch06",
+      "chars": 12137
+    },
+    {
+      "batch": "B07",
+      "title": "Chapter Seven",
+      "first": "ch07",
+      "last": "ch07",
+      "chars": 12769
+    },
+    {
+      "batch": "B08",
+      "title": "Chapter Eight",
+      "first": "ch08",
+      "last": "ch08",
+      "chars": 16002
+    },
+    {
+      "batch": "B09",
+      "title": "Chapter Nine",
+      "first": "ch09",
+      "last": "ch09",
+      "chars": 13659
+    },
+    {
+      "batch": "B10",
+      "title": "Chapter Ten",
+      "first": "ch10",
+      "last": "ch10",
+      "chars": 13366
+    },
+    {
+      "batch": "B11",
+      "title": "Chapter Eleven",
+      "first": "ch11",
+      "last": "ch11",
+      "chars": 11782
+    },
+    {
+      "batch": "B12",
+      "title": "Chapter Twelve",
+      "first": "ch12",
+      "last": "ch12",
+      "chars": 13308
+    },
+    {
+      "batch": "B13",
+      "title": "Chapter Thirteen",
+      "first": "ch13",
+      "last": "ch13",
+      "chars": 10419
+    },
+    {
+      "batch": "B14",
+      "title": "Chapter Fourteen",
+      "first": "ch14",
+      "last": "ch14",
+      "chars": 19912
+    },
+    {
+      "batch": "B15",
+      "title": "Chapter Fifteen",
+      "first": "ch15",
+      "last": "ch15",
+      "chars": 13108
+    },
+    {
+      "batch": "B16",
+      "title": "Chapter Sixteen",
+      "first": "ch16",
+      "last": "ch16",
+      "chars": 10416
+    },
+    {
+      "batch": "B17",
+      "title": "Chapter Seventeen",
+      "first": "ch17",
+      "last": "ch17",
+      "chars": 13863
+    },
+    {
+      "batch": "B18",
+      "title": "Chapter Eighteen, Chapter Nineteen, and the Afterword",
+      "first": "ch18",
+      "last": "ch20",
+      "chars": 17836
+    }
+  ]
 }
