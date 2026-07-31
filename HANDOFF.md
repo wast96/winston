@@ -7,6 +7,8 @@ kickoff message below as its first section.
 ## Message to paste into the next chat
 
 ```
+Midnight B03
+
 Read CLAUDE.md in full (the working rules at the top are non-negotiable), then
 HANDOFF.md, then book.json. Work only on branch claude/midnight. Build the
 deliverable as out/Midnight.epub (the builder defaults to out/book.epub, so pass
