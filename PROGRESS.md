@@ -331,3 +331,118 @@ the ch01-ch02 decision. figures.json stays empty.
   the source varies the name of the livestock-dealing establishment (元来行 in
   earlier chapters, 远来商栈 here); both romanize as "Yuanlai," so the decided
   rendering was reused for consistency.
+
+## B04 = ch04 (第四章 未初 / "The Hour of the Goat, First Half, 1 p.m.")
+
+Scope: the whole chapter, 14,099 source characters, 249 paragraphs. Zhang
+Xiaojing and Yao Runeng ride to the Xiuzheng Ward safe-house; Zhang goes over the
+wall alone, kills the Türk sentries, and is taken when Ma Ge'er holds a hostage
+he recognizes as Wen Ran (not, as the Türks think, Wang Zhongsi's daughter Wang
+Yunxiu). The Bear Fire Gang storms in after their own runaway quarry; the Wolf
+Guards spring the castor-oil firetrap and the Zhuxin Pavilion burns; Zhang breaks
+free and escapes. Meanwhile Li Bi runs a sand-table fire-simulation (forty leaks,
+thirty-seven wards) and, on a veteran clerk's advice, orders a search of the
+capital's bulk oil and firewood. Cui Qi sounds the Nine-Gate Drum but the Türks
+slip out through Qujiang Pool and re-enter by the Qixia/Yanxing gates; Zhang lies
+to protect Wen Ran (naming Wang Yunxiu as the one carried off) and tells the story
+of the informer Xiao Yi and the severed finger; he asks Cui Qi for scent-hounds
+from the Five Kennels.
+
+Deliverables shipped: out/ch04_bilingual.md (QC only), out/ch04_reading.md,
+data/zh/ch04.txt, notes.json (3 notes added, 22 total), glossary.json updated
+(new people/orgs/places/terms below), noise.txt extended, the rebuilt EPUB, and
+this log.
+
+### Checks run
+
+- check_numbers.py --noise noise.txt: 249 pairs, 0 unresolved. Extended noise.txt
+  with, and recorded why, only NON-quantity numerals the check flagged:
+  四季 (一年四季 = "in every season / year-round", the 四 is not the count 4;
+  appears in the Qujiang epigraph and its verbatim callback), 四溅 (火点四溅 =
+  "sparks flying on every side", the "all directions" idiom like the existing
+  四散/四射/四伏), 四合 (柳荫四合 = "willow-shade closing in on all sides"), 四望
+  (举目四望 = "look on every side"), 零星 (零星散碎 = "scattered and piecemeal", the
+  零 is "bits/odds", not 0), and 千金 (王节度的千金 = the honorific for another's
+  daughter, literally "thousand gold", not the quantity 1000; English renders it
+  "daughter"). Every added pattern is a specific literal whose value is present
+  (or legitimately absent) in the English; a genuinely dropped number would still
+  fail. No WORD_NUM change was needed this batch.
+- check_structure.py --pairs: paragraph parity 249 source / 249 translation, OK.
+  The chapter opens with a Qujiang Pool epigraph (three extractor lines that are
+  one sentence, merged to one pair) and the dateline (source line + its lone
+  full-stop line, merged); every other source line maps one-to-one, and the
+  per-chapter time-gloss is the final pair. No mid-clause merges besides those two
+  openers.
+- Anchor resolution: all 3 ch04 note anchors ("Xun Yue's Extended Reflections",
+  "the burning house of the Buddhist scriptures", "the Five Kennels") are verbatim
+  substrings of the reading text (verified by grep). Builder built and qa_epub
+  passed with all 22 notes.
+- Blind double translation (check 2): an independent context translated the
+  ferry-dilemma / severed-finger exchange (~5 paragraphs, ~360 chars) with no
+  sight of this translation. Result: highly convergent, no omissions and no
+  invented content. Differences were equivalent word-choices within translator
+  discretion (杀孽 "blood-guilt" vs "sin of killing"; "appease the river-god" vs
+  "sacrifice to the river god"). No correction needed.
+- Round-trip back translation (check 3): a number-dense sample (the sand-table
+  fire-simulation and the Nine-Gate Drum alarm, ~4 excerpts) was back-translated
+  in a fresh context and diffed against the source. Every numeral survived intact
+  (1/2/3 leaks, every 4th, 30-odd slips, dozen-odd wards, 40 leaks / 37 wards, one
+  quarter-hour, 300 paces, 4 double-hours, 8 wards, 16 crossroads, 9 wards) and no
+  content was dropped. The only divergence was 九门鼓 for the novel-coined 九关鼓
+  (the Nine-Gate Drum), an unknowable term, not an error.
+- qa_epub.py: PASS. 38 files, 32 documents, all links resolve; 22 note
+  references, 22 bodies, 22 backlinks; numbering sequential in reading order.
+
+### Random-sample deep audit (check 8)
+
+The blind double-translation and back-translation samples together cover ~3.6% of
+the chapter (~9 of 249 paragraphs) and were given the full paranoid treatment
+(verbatim-quote check, independent re-translation, round-trip). Observed
+substantive omission/error rate on the audited sample: zero.
+
+### Notes added (3; numbered by the builder in reading order, continuing from ch03)
+
+Xun Yue's Extended Reflections (荀悦《申鉴》, the Later Han Shenjian and the maxim
+"防为上，救次之"; corroborated); the burning house of the Buddhist scriptures (the
+火宅 Parable of the Burning House from the Lotus Sutra); the Five Kennels (五坊,
+the imperial falconry-and-hound bureaus under the Xuanhui Court and their
+notorious "Five Kennels boys"; corroborated against the Tang histories and Bai
+Juyi). Recurring subjects already noted in ch01-ch03, and subjects whose FIRST
+appearance was in an earlier chapter, were deliberately NOT noted here: in
+particular Qujiang Pool and Wang Zhongsi both first appear (unnoted) in ch01, so
+no footnote was added for them in ch04 even though the chapter turns on them.
+
+### Glossary rows added
+
+People: Jin (the absentee Yangzhou owner of the safe-house), Xun Yue (attested).
+Organizations: the Xuanhui Court (attested), the Shangchi Office. Places: Qujiang
+Pool (attested), the Furong Garden (attested), the Shaoling Plain (attested), the
+Qixia Gate (attested), the Yanxing Gate (attested), the Zhuxin Pavilion, Lingnan
+(attested), the Long Mountains (attested). Terms: the Nine-Gate Drum, the Five
+Kennels (attested), the Dog Kennel, military commissioner (节度使), casting
+flesh-coins. Every recurring referent already decided in ch01-ch03 (Zhang
+Xiaojing, Li Bi, Cui Qi, Ma Ge'er, Wen Ran, Wang Yunxiu, Long Bo, Old Ge, Xiao
+Yi, Tanqi, Xu Bin; the Jing'an Bureau, the Lüben Guards, the Directorate for the
+Palace Buildings; Xiuzheng/Jingshan/Guangde Wards; the safe-house, the Wolf
+Guards, the barrier-knife, the pocket crossbow, the watchtower, the Xi cart, the
+Wen Incense Shop, Que-le Huo-duo, etc.) was reused verbatim, not re-romanized.
+
+### Figures
+
+None. The chapter's only image references are the source's footnote-marker glyph
+(Image00004.jpg) and the decorative scene-break rule (Image00005.jpg); neither is
+a content illustration, matching the ch01-ch03 decision. figures.json stays empty.
+
+### Flagged for the read-through
+
+- The source's own footnote on the dateline (the per-chapter time-gloss, here
+  "下午1点。未，又名日跌、日央等：太阳偏西为日跌。（北京时间13时至15时）") is captured as
+  the last source paragraph and rendered as the source's own italic note, per
+  house style.
+- ch04's opening differs from the earlier chapters: it leads with a lyrical
+  Qujiang Pool epigraph, not a dateline or flash-forward. That exact description
+  recurs verbatim at the chapter's climax (source lines 2-4 and again in line 226)
+  as a deliberate authorial echo, and was translated identically in both places.
+- Authorial slip: source line 110 writes 麻格心 for 麻格儿 (Ma Ge'er) — a
+  one-character typo mid-paragraph. Rendered as "Ma Ge'er" (the character's
+  established name) without a note, the referent being unambiguous.

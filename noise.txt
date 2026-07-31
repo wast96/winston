@@ -98,3 +98,20 @@
 三勒浆
 # ch03: 零卖 = "retail trade"; 零 here is not the quantity 0.
 零卖
+# ch04: 一年四季 = "in every season / year-round" (idiom); the 四 is not the count 4.
+# The English renders it "in every season," so 四 must not be required. Appears in
+# the Qujiang epigraph and its callback.
+四季
+# ch04: 火点四溅 = "sparks flying on every side / spattering everywhere"; 四 is the
+# "all directions" idiom (cf. 四散/四射/四伏 already listed), not the count 4.
+四溅
+# ch04: 柳荫四合 = "willow-shade closing in on all sides"; 四合 is the "on four
+# sides / all round" idiom, not the count 4. (Qujiang epigraph and its callback.)
+四合
+# ch04: 举目四望 = "look on every side"; 四望 is the "all directions" idiom, not 4.
+四望
+# ch04: 零星散碎 = "scattered and piecemeal"; 零 in 零星 means "bits/odds," not 0.
+零星
+# ch04: 千金 = honorific for another's daughter ("your daughter"), literally
+# "thousand gold"; not the quantity 1000. English renders it "daughter."
+千金

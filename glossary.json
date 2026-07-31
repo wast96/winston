@@ -43,7 +43,9 @@
     "苏晋": {"en": "Su Jin", "pinyin": "Sū Jìn", "status": "attested", "note": "Su Jin (676–734), a Tang official and one of the Eight Immortals of the Wine Cup. Pinyin."},
     "张旭": {"en": "Zhang Xu", "pinyin": "Zhāng Xù", "status": "attested", "note": "Zhang Xu, the great 'cursive-script sage' of Tang calligraphy and one of the Eight Immortals of the Wine Cup. Pinyin."},
     "小乙": {"en": "Xiao Yi", "pinyin": "Xiǎo Yǐ", "status": "decided", "note": "A planted informer Zhang Xiaojing had himself placed in the underworld, now hiding in Old Ge's den; Zhang kills him as the 'oath-token of blood.' Pinyin."},
-    "韩郎": {"en": "Young Han", "pinyin": "Hán láng", "status": "decided", "note": "Tong'er's lover, an examination candidate with whom she eloped; 郎 = 'young master.'"}
+    "韩郎": {"en": "Young Han", "pinyin": "Hán láng", "status": "decided", "note": "Tong'er's lover, an examination candidate with whom she eloped; 郎 = 'young master.'"},
+    "靳": {"en": "Jin", "pinyin": "Jìn", "status": "decided", "note": "The absentee Yangzhou merchant surnamed Jin who owns the derelict Xiuzheng Ward house the Türks use as a safe-house; not seen in years. Pinyin."},
+    "荀悦": {"en": "Xun Yue", "pinyin": "Xún Yuè", "status": "attested", "note": "Xun Yue (148&#8211;209), Later Han historian and thinker, author of the <i>Shenjian</i> (<i>Extended Reflections</i>), from which Li Bi quotes. Historical; standard pinyin."}
   },
   "organizations": {
     "靖安司": {"en": "the Jing'an Bureau", "pinyin": "Jìng'ān Sī", "status": "decided", "note": "A newly created security office charged with threat-prevention (<i>zei shi ce fang</i>) for the whole western capital. The name is glossed in the text: 'to quell revolt is <i>jing</i>; when the four quarters are without trouble, that is <i>an</i>.' <i>Si</i> = bureau."},
@@ -52,7 +54,9 @@
     "京兆府": {"en": "the Jingzhao Prefecture", "pinyin": "Jīngzhào Fǔ", "status": "decided", "note": "The metropolitan prefecture governing Chang'an and its two counties."},
     "萨宝府": {"en": "the Sabao Office", "pinyin": "Sàbǎo Fǔ", "status": "attested", "note": "The Tang office administering resident foreign (chiefly Sogdian) communities and their Zoroastrian temples, headed by the sabao."},
     "将作监": {"en": "the Directorate for the Palace Buildings", "pinyin": "Jiàngzuò Jiān", "status": "attested", "note": "The Tang directorate in charge of state construction and public works; the Wolf Guards impersonate its road-repair laborers. Rendering per C. O. Hucker."},
-    "苏记车马行": {"en": "Su's Cart-and-Horse Company", "pinyin": "Sūjì Chēmǎ Háng", "status": "decided", "note": "A reputable haulage firm working the routes north of Chang'an; it unwittingly carries the Türks' cargo from Yanzhou."}
+    "苏记车马行": {"en": "Su's Cart-and-Horse Company", "pinyin": "Sūjì Chēmǎ Háng", "status": "decided", "note": "A reputable haulage firm working the routes north of Chang'an; it unwittingly carries the Türks' cargo from Yanzhou."},
+    "宣徽院": {"en": "the Xuanhui Court", "pinyin": "Xuānhuī Yuàn", "status": "attested", "note": "A Tang palace agency overseeing court provisioning and ceremonial; the Five Kennels (五坊) fall under it. Rendering per C. O. Hucker, <i>A Dictionary of Official Titles in Imperial China</i>."},
+    "尚池署": {"en": "the Shangchi Office", "pinyin": "Shàngchí Shǔ", "status": "decided", "note": "The office that manages Qujiang Pool, independent of the wards and their street-posts, so the Nine-Gate Drum has no authority over it."}
   },
   "places": {
     "长安": {"en": "Chang'an", "pinyin": "Cháng'ān", "status": "attested", "note": "The Tang capital, on the site of modern Xi'an; the greatest city in the world of its day. Standard English form."},
@@ -92,7 +96,15 @@
     "殖业坊": {"en": "Zhiye Ward", "pinyin": "Zhíyè Fāng", "status": "decided", "note": "A ward west of the Vermilion Bird Avenue."},
     "丰乐坊": {"en": "Fengle Ward", "pinyin": "Fēnglè Fāng", "status": "decided", "note": "A ward west of the Vermilion Bird Avenue, near Zhiye Ward."},
     "光福坊": {"en": "Guangfu Ward", "pinyin": "Guāngfú Fāng", "status": "decided", "note": "A ward on the route south from Anren Ward."},
-    "靖善坊": {"en": "Jingshan Ward", "pinyin": "Jìngshàn Fāng", "status": "decided", "note": "A ward in the southern city; past it the streets grow sparse and desolate."}
+    "靖善坊": {"en": "Jingshan Ward", "pinyin": "Jìngshàn Fāng", "status": "decided", "note": "A ward in the southern city; past it the streets grow sparse and desolate."},
+    "曲江池": {"en": "Qujiang Pool", "pinyin": "Qūjiāng Chí", "status": "attested", "note": "The great scenic lake-and-garden district in the southeast corner of Chang'an, half within the walls and half without; a famous Tang pleasure-ground. Standard identification."},
+    "芙蓉苑": {"en": "the Furong Garden", "pinyin": "Fúróng Yuàn", "status": "attested", "note": "The imperial pleasure-park (the Lotus Garden) adjoining Qujiang Pool. Standard identification."},
+    "少陵原": {"en": "the Shaoling Plain", "pinyin": "Shàolíng Yuán", "status": "attested", "note": "The loess tableland southeast of Chang'an, abutting the outer half of Qujiang Pool; Du Fu styled himself 'the Old Man of Shaoling' after it. Standard."},
+    "启夏门": {"en": "the Qixia Gate", "pinyin": "Qǐxià Mén", "status": "attested", "note": "The eastern of the two gates in the south wall of Chang'an's outer city, close to Qujiang Pool. Standard."},
+    "延兴门": {"en": "the Yanxing Gate", "pinyin": "Yánxìng Mén", "status": "attested", "note": "The southern of the gates in the east wall of Chang'an, close to Qujiang Pool. Standard."},
+    "筑心阁": {"en": "the Zhuxin Pavilion", "pinyin": "Zhùxīn Gé", "status": "decided", "note": "A two-story viewing-pavilion (its name 筑心, 'building the heart') in the Türks' Xiuzheng Ward safe-house, rigged with castor oil; it burns down in this chapter."},
+    "岭南": {"en": "Lingnan", "pinyin": "Lǐngnán", "status": "attested", "note": "The far south of Tang China, below the Nanling ranges (roughly modern Guangdong and Guangxi); source of the snake-vine rope. Standard."},
+    "陇山": {"en": "the Long Mountains", "pinyin": "Lǒng Shān", "status": "attested", "note": "The range on the Shaanxi&#8211;Gansu border marking the old northwest frontier; Cui Qi's origin as a frontier soldier. Standard."}
   },
   "terms": {
     "上元节": {"en": "the Lantern Festival", "pinyin": "Shàngyuán Jié", "status": "decided", "note": "The fifteenth night of the first lunar month (<i>Shangyuan</i>), when the curfew was lifted and the city was lit with lanterns; here its eve, the fourteenth."},
@@ -139,6 +151,11 @@
     "三辅": {"en": "the Three Adjuncts", "pinyin": "Sānfǔ", "status": "attested", "note": "The three metropolitan commanderies around the capital (a Han-era term for the Chang'an region); here loosely 'the capital region.'"},
     "幞头": {"en": "futou", "pinyin": "fútóu", "status": "decided", "note": "The soft cloth head-wrap or cap worn by Tang men over a headcloth."},
     "思恩客": {"en": "gratitude token", "pinyin": "sī'ēn kè", "status": "decided", "note": "A wooden tally issued only to a courtesan-house's regular patrons in the Pingkang Quarter, admitting the bearer straight behind the curtains."},
-    "投名状": {"en": "oath-token of blood", "pinyin": "tóumíng zhuàng", "status": "decided", "note": "The bandit's pledge of allegiance sealed by a killing, proving the newcomer has burned his bridges. Rendered 'oath-token of blood.'"}
+    "投名状": {"en": "oath-token of blood", "pinyin": "tóumíng zhuàng", "status": "decided", "note": "The bandit's pledge of allegiance sealed by a killing, proving the newcomer has burned his bridges. Rendered 'oath-token of blood.'"},
+    "九关鼓": {"en": "the Nine-Gate Drum", "pinyin": "jiǔguān gǔ", "status": "decided", "note": "The Jing'an Bureau's alarm-drum: sounded from a ward's watchtower, it shuts that ward and the eight around it and barricades the sixteen crossroads between the nine wards. Rendered 'Nine-Gate Drum.'"},
+    "五坊": {"en": "the Five Kennels", "pinyin": "wǔ fāng", "status": "attested", "note": "The five imperial establishments rearing the emperor's hunting eagles, gyrfalcons, hawks, sparrowhawks, and hounds, under the Xuanhui Court; source of the notorious mid-Tang 'Five Kennels boys' (五坊小儿). Attested Tang institution."},
+    "狗坊": {"en": "the Dog Kennel", "pinyin": "gǒu fāng", "status": "decided", "note": "The hound establishment among the Five Kennels; Zhang Xiaojing hopes to borrow keen-nosed dogs from it to track the Türks by scent."},
+    "节度使": {"en": "military commissioner", "pinyin": "jiédùshǐ", "status": "decided", "note": "The regional military governor of a Tang frontier command; Wang Zhongsi holds this office (of Shuofang), so 王节度 is rendered 'the military commissioner Wang.'"},
+    "铸肉钱": {"en": "casting flesh-coins", "pinyin": "zhù ròuqián", "status": "decided", "note": "A Türk torture the text self-glosses: shaving off coin-sized rounds of flesh (the size of a copper cash) from a non-fatal spot such as the armpit, painful enough to make a prisoner confess to anything."}
   }
 }
