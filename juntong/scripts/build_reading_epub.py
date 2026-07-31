@@ -21,6 +21,7 @@ import os
 import re
 import shutil
 import sys
+import time
 import zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -35,7 +36,29 @@ META = {
     "author_zh": "沈醉",
     "publisher": "Zhongguo Wenshi Chubanshe (中国文史出版社), Beijing, 2001",
     "isbn": "978-7-5034-0755-0",
-    "uid": "urn:uuid:juntong-neimu-full-book-1",
+    # Stable publication UUID for this edition. The print ISBN belongs to the
+    # Chinese edition and is carried in dc:source, not as the identifier.
+    "uid": "urn:uuid:6f1e6a09-4c2a-4a51-9b19-3e0c7a5d8b42",
+    "description": (
+        "Shen Zui's insider memoir of the Juntong, Chiang Kai-shek's "
+        "military secret service, written 1962-1966 for the CPPCC "
+        "historical-materials series: training, operations, assassinations, "
+        "SACO, and portraits of Dai Li, Mao Renfeng, Tang Zong and Zheng "
+        "Jiemin, by the Juntong major-general who ran its general affairs "
+        "department. A complete annotated English edition of the 2001 "
+        "Zhongguo Wenshi Chubanshe text, with translator's notes, glossary "
+        "and print page references."),
+    "subjects": [
+        "Shen, Zui, 1914-1996",
+        "China -- History -- 1928-1949",
+        "Secret service -- China -- History -- 20th century",
+        "Juntong (Bureau of Investigation and Statistics)",
+        "Dai, Li, 1897-1946",
+        "Biography & Autobiography / Historical",
+        "History / Asia / China",
+    ],
+    "date": "2026-07-27",
+    "rights": "Private annotated research translation of an owned copy; not for distribution.",
 }
 
 CSS = """\
@@ -478,24 +501,52 @@ def main(epub_path):
                      'media-type="image/jpeg" properties="cover-image"/>')
     spine = "".join('<itemref idref="d%d"/>' % i for i in range(1, len(docs) + 1))
 
+    modified = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    subjects = "".join("<dc:subject>%s</dc:subject>" % esc(s)
+                       for s in META["subjects"])
+    cover_meta = '<meta name="cover" content="cover"/>' if has_cover else ""
     with open(os.path.join(oebps, "content.opf"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'
                  '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" '
-                 'unique-identifier="pub-id"><metadata '
-                 'xmlns:dc="http://purl.org/dc/elements/1.1/">'
+                 'unique-identifier="pub-id" xml:lang="en" '
+                 'prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">'
+                 '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">'
                  "<dc:identifier id=\"pub-id\">%s</dc:identifier>"
-                 "<dc:title>%s</dc:title><dc:language>en</dc:language>"
-                 "<dc:creator>%s</dc:creator><dc:publisher>%s</dc:publisher>"
+                 '<dc:title id="t1">%s</dc:title>'
+                 '<meta refines="#t1" property="title-type">main</meta>'
+                 '<meta property="dcterms:alternative">%s</meta>'
+                 "<dc:language>en</dc:language>"
+                 '<dc:creator id="aut">%s</dc:creator>'
+                 '<meta refines="#aut" property="role" scheme="marc:relators">aut</meta>'
+                 '<meta refines="#aut" property="file-as">Shen, Zui</meta>'
+                 '<meta refines="#aut" property="alternate-script" xml:lang="zh">%s</meta>'
+                 "<dc:publisher>%s</dc:publisher>"
+                 "<dc:date>%s</dc:date>"
+                 "<dc:description>%s</dc:description>"
+                 "%s"
+                 "<dc:rights>%s</dc:rights>"
                  "<dc:source>ISBN %s</dc:source>"
                  '<meta property="dcterms:source">'
                  'Shen Zui, 军统内幕, 3rd ed., Zhongguo Wenshi Chubanshe, '
                  'Beijing 2001</meta>'
                  '<meta property="pageBreakSource">'
                  'Zhongguo Wenshi Chubanshe, Beijing 2001</meta>'
-                 '<meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>'
+                 '<meta property="ibooks:specified-fonts">true</meta>'
+                 '<meta property="dcterms:modified">%s</meta>'
+                 "%s"
                  "</metadata><manifest>%s</manifest><spine toc=\"ncx\">%s</spine></package>"
-                 % (META["uid"], esc(META["title"]), esc(META["author"]),
-                    esc(META["publisher"]), META["isbn"], "".join(items), spine))
+                 % (META["uid"], esc(META["title"]), esc(META["title_zh"]),
+                    esc(META["author"]), esc(META["author_zh"]),
+                    esc(META["publisher"]), META["date"],
+                    esc(META["description"]), subjects, esc(META["rights"]),
+                    META["isbn"], modified, cover_meta, "".join(items), spine))
+
+    with open(os.path.join(BUILD, "META-INF",
+                           "com.apple.ibooks.display-options.xml"), "w") as fh:
+        fh.write('<?xml version="1.0" encoding="utf-8"?>'
+                 '<display_options><platform name="*">'
+                 '<option name="specified-fonts">true</option>'
+                 "</platform></display_options>")
 
     with open(os.path.join(BUILD, "META-INF", "container.xml"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'

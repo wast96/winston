@@ -53,8 +53,12 @@ def main(path):
         if href not in names:
             fails.append("manifest item not in archive: " + href)
 
-    declared = set(manifest.values()) | {"mimetype", "META-INF/container.xml", rootfile}
+    # META-INF/* is reserved for the OCF layer (container.xml, Apple's
+    # display-options, encryption.xml ...) and is never manifested.
+    declared = set(manifest.values()) | {"mimetype", rootfile}
     for name in names:
+        if name.startswith("META-INF/"):
+            continue
         if name.endswith("/"):
             continue
         if name not in declared:
