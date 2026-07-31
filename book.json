@@ -1,69 +1,432 @@
 {
-  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. For an EPUB source, author it from book.draft.json (produced by scripts/ingest_epub.py) — refine the titles, add English titles, and MERGE or SPLIT units where the source EPUB's file boundaries do not match its logical chapters. Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists.",
-
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 2020,
-  "uid": "urn:uuid:my-book-slug-1",
-
-  "_source_note": "The source is a digital EPUB with reliable text (no OCR). Record its title/edition and anything notable (missing chapters, embedded notes, image-heavy sections) here.",
-  "source_epub": "source.epub",
-
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212;, &#160;), never named entities. If omitted, a generic method note is generated.",
-  "translator_note": [
-    "This is an English translation of <i>中文書名</i>, made from the digital source EPUB.",
-    "Say here what the register decisions were, who the author is, and how any editorial choices (the source's own notes, ambiguous passages, cut material) were handled."
+  "_README": "Structure and metadata for the annotated English edition of 一触即发 (On a Hair Trigger) by Zhang Yong. Flat structure: a prologue (楔子) + 35 chapters; the source's own cover page and 目录 are dropped because the builder regenerates a title page and a full hyperlinked contents. Chapter-title renderings are provisional literary versions of the 7-character couplet headings, to be finalized (with their classical allusions footnoted) during translation.",
+  "title_en": "On a Hair Trigger",
+  "title_zh": "一触即发",
+  "author_en": "Zhang Yong",
+  "author_zh": "张勇",
+  "author_file_as": "Zhang, Yong",
+  "year": 2012,
+  "pub_date": "2012",
+  "uid": "urn:uuid:e9e0cabb-f4c2-5a1e-8578-ea21f5d3660e",
+  "publisher_en": "Lijiang Publishing House",
+  "publisher_zh": "漓江出版社",
+  "language": "en",
+  "source_language": "zh",
+  "cover": "cover.jpeg",
+  "description": "A period espionage novel set in the Shanghai of the 1910s to 1930s. Twin brothers, separated in infancy, are swept into the shadow war among rival intelligence services and a Japanese conspiracy known as the “Thunder Plan.” The opening work of Zhang Yong’s acclaimed “spy trilogy” (with The Disguiser and Seamless), later adapted for television.",
+  "subjects": [
+    "Fiction",
+    "Espionage",
+    "Historical fiction",
+    "Spy stories",
+    "China—History—20th century"
   ],
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (source), title_en, and OPTIONAL 'part' (a label like 'Part One. ...'; consecutive chapters sharing it are grouped in the TOC). Keep 'src' (the source spine href, optionally with #anchor) and 'chars' (source character count, from ingest) so the survey can size batches; 'text_file' points at the extracted source text for that unit. Each section: id (ch01s01..), section (int), title, title_en, src, chars, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front: the survey and the skeleton EPUB are built from it before any translation.",
+  "_source_note": "Source: a digital EPUB (Calibre-repackaged EasyPub text; internal timestamp 2015) of 一触即发. Reliable Unicode text, no OCR. One embedded image (the cover). Chapters are continuous prose with a single h2 couplet heading each; scene breaks are blank paragraphs, not sub-sections, so the logical structure is flat. The novel was first written in 2009; the book edition used for metadata is the Lijiang Publishing House edition (2012-10).",
+  "source_epub": "source.epub",
+  "_translator_note": "Rendered verbatim as the Translator's Note back-matter page.",
+  "translator_note": [
+    "This is an English translation of <i>一触即发</i> (<i>On a Hair Trigger</i>) by Zhang Yong (<span lang=\"zh-Hant\">张勇</span>), the first novel of her “spy trilogy,” a period espionage story set in early twentieth-century Shanghai.",
+    "The chapter titles are seven-character couplet lines in the classical manner, several of them quotations from or allusions to Tang and Song poems; they are given here in provisional literary renderings and will be finalized, with their sources noted, as each chapter is translated.",
+    "The source text is translated in full; a paragraph-by-paragraph bilingual audit file is kept alongside this edition. Names follow pinyin except where a conventional English form exists; renderings marked <i>provisional</i> in the glossary are romanizations not attested in English-language scholarship. Notes are the translator's throughout, and where a passage is genuinely ambiguous the choice is stated in a note rather than smoothed over."
+  ],
   "structure": [
+    {
+      "level": 1,
+      "id": "ch00",
+      "chapter": 0,
+      "title": "楔　子",
+      "title_en": "Prologue",
+      "src": "text/part0001.html",
+      "chars": 506,
+      "text_file": "data/src/03_part0001.txt",
+      "sections": []
+    },
     {
       "level": 1,
       "id": "ch01",
       "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "src": "text/chapter01.xhtml",
-      "chars": 8200,
-      "text_file": "data/src/01_chapter01.txt",
-      "sections": [
-        {
-          "id": "ch01s01",
-          "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "src": "text/chapter01.xhtml#sec1",
-          "chars": 4100,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)"
-            }
-          ]
-        },
-        {
-          "id": "ch01s02",
-          "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "src": "text/chapter01.xhtml#sec2",
-          "chars": 4100
-        }
-      ]
+      "title": "第一章　草木摇落露为霜",
+      "title_en": "Chapter 1. Grass and Trees Shed Their Leaves, and Dew Turns to Frost",
+      "src": "text/part0002.html",
+      "chars": 4017,
+      "text_file": "data/src/04_part0002.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch02",
+      "chapter": 2,
+      "title": "第二章　朝生春晖暮留霭",
+      "title_en": "Chapter 2. Born at Dawn to Spring's Light, Wrapped in Mist by Dusk",
+      "src": "text/part0003.html",
+      "chars": 7826,
+      "text_file": "data/src/05_part0003.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch03",
+      "chapter": 3,
+      "title": "第三章　同林春鸟各自飞",
+      "title_en": "Chapter 3. Birds of the Same Wood Each Take Flight",
+      "src": "text/part0004.html",
+      "chars": 3809,
+      "text_file": "data/src/06_part0004.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch04",
+      "chapter": 4,
+      "title": "第四章　阴差阳错难提防",
+      "title_en": "Chapter 4. By a Cross-Grained Twist of Fate, Hard to Guard Against",
+      "src": "text/part0005.html",
+      "chars": 3883,
+      "text_file": "data/src/07_part0005.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch05",
+      "chapter": 5,
+      "title": "第五章　时人不识凌云木",
+      "title_en": "Chapter 5. The People of the Day Know Not the Cloud-Piercing Tree",
+      "src": "text/part0006.html",
+      "chars": 3845,
+      "text_file": "data/src/08_part0006.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch06",
+      "chapter": 6,
+      "title": "第六章　宫花旋落已成尘",
+      "title_en": "Chapter 6. The Palace Blossom Falls and Is Already Dust",
+      "src": "text/part0007.html",
+      "chars": 10183,
+      "text_file": "data/src/09_part0007.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch07",
+      "chapter": 7,
+      "title": "第七章　却疑春色在邻家",
+      "title_en": "Chapter 7. I Half-Suspect the Spring Has Gone Next Door",
+      "src": "text/part0008.html",
+      "chars": 5317,
+      "text_file": "data/src/10_part0008.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch08",
+      "chapter": 8,
+      "title": "第八章　前度杨郎今又来",
+      "title_en": "Chapter 8. Young Yang of Former Days Comes Once Again",
+      "src": "text/part0009.html",
+      "chars": 5714,
+      "text_file": "data/src/11_part0009.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch09",
+      "chapter": 9,
+      "title": "第九章　开门人即闭门人",
+      "title_en": "Chapter 9. The One Who Opens the Door Is the One Who Closed It",
+      "src": "text/part0010.html",
+      "chars": 4701,
+      "text_file": "data/src/12_part0010.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch10",
+      "chapter": 10,
+      "title": "第十章　误剪同心一片花",
+      "title_en": "Chapter 10. By Error the Flower of One Heart Is Cut",
+      "src": "text/part0011.html",
+      "chars": 4779,
+      "text_file": "data/src/13_part0011.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch11",
+      "chapter": 11,
+      "title": "第十一章　平生际遇似萍飘",
+      "title_en": "Chapter 11. A Whole Life's Fortunes Drift Like Duckweed",
+      "src": "text/part0012.html",
+      "chars": 7068,
+      "text_file": "data/src/14_part0012.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch12",
+      "chapter": 12,
+      "title": "第十二章　何日归家洗客袍",
+      "title_en": "Chapter 12. What Day Shall I Go Home to Wash the Traveler's Robe?",
+      "src": "text/part0013.html",
+      "chars": 6880,
+      "text_file": "data/src/15_part0013.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch13",
+      "chapter": 13,
+      "title": "第十三章　琵琶声泣血泪仇",
+      "title_en": "Chapter 13. The Pipa Weeps Blood, a Tearful Feud",
+      "src": "text/part0014.html",
+      "chars": 5037,
+      "text_file": "data/src/16_part0014.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch14",
+      "chapter": 14,
+      "title": "第十四章　去时血漫桃源路",
+      "title_en": "Chapter 14. When She Left, Blood Ran the Peach-Blossom Road",
+      "src": "text/part0015.html",
+      "chars": 10786,
+      "text_file": "data/src/17_part0015.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch15",
+      "chapter": 15,
+      "title": "第十五章　到底方知出处高",
+      "title_en": "Chapter 15. Only in the End Do You Know How High the Source",
+      "src": "text/part0016.html",
+      "chars": 9241,
+      "text_file": "data/src/18_part0016.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch16",
+      "chapter": 16,
+      "title": "第十六章　山回路转又逢君",
+      "title_en": "Chapter 16. The Hills Wind, the Road Turns, and I Meet You Again",
+      "src": "text/part0017.html",
+      "chars": 11004,
+      "text_file": "data/src/19_part0017.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch17",
+      "chapter": 17,
+      "title": "第十七章　各有经纬一片天",
+      "title_en": "Chapter 17. Each Has a Sky of Its Own Warp and Weft",
+      "src": "text/part0018.html",
+      "chars": 10592,
+      "text_file": "data/src/20_part0018.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch18",
+      "chapter": 18,
+      "title": "第十八章　牵丝攀藤一条线",
+      "title_en": "Chapter 18. Drawing the Silk, Climbing the Vine, a Single Thread",
+      "src": "text/part0019.html",
+      "chars": 4942,
+      "text_file": "data/src/21_part0019.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch19",
+      "chapter": 19,
+      "title": "第十九章　梅花一夜漏春工",
+      "title_en": "Chapter 19. In a Single Night the Plum Blossom Betrays Spring's Craft",
+      "src": "text/part0020.html",
+      "chars": 6486,
+      "text_file": "data/src/22_part0020.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch20",
+      "chapter": 20,
+      "title": "第二十章　一笑相逢哪易得",
+      "title_en": "Chapter 20. A Meeting Met with a Smile Is Not Easily Won",
+      "src": "text/part0021.html",
+      "chars": 6823,
+      "text_file": "data/src/23_part0021.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch21",
+      "chapter": 21,
+      "title": "第二十一章　千钧一发箭在弦",
+      "title_en": "Chapter 21. A Thousandweight on a Hair, the Arrow on the String",
+      "src": "text/part0022.html",
+      "chars": 6096,
+      "text_file": "data/src/24_part0022.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch22",
+      "chapter": 22,
+      "title": "第二十二章　截断众流大气魄",
+      "title_en": "Chapter 22. To Dam All the Currents Takes a Vast Resolve",
+      "src": "text/part0023.html",
+      "chars": 8986,
+      "text_file": "data/src/25_part0023.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch23",
+      "chapter": 23,
+      "title": "第二十三章　恶氛弥天血火焚",
+      "title_en": "Chapter 23. A Foul Miasma Fills the Sky; Blood and Fire Consume",
+      "src": "text/part0024.html",
+      "chars": 5211,
+      "text_file": "data/src/26_part0024.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch24",
+      "chapter": 24,
+      "title": "第二十四章　风雨未肯收余寒",
+      "title_en": "Chapter 24. The Wind and Rain Will Not Yet Give Up the Lingering Cold",
+      "src": "text/part0025.html",
+      "chars": 6626,
+      "text_file": "data/src/27_part0025.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch25",
+      "chapter": 25,
+      "title": "第二十五章　退步原来是向前",
+      "title_en": "Chapter 25. To Step Backward Was, All Along, to Go Forward",
+      "src": "text/part0026.html",
+      "chars": 7356,
+      "text_file": "data/src/28_part0026.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch26",
+      "chapter": 26,
+      "title": "第二十六章　白云可杀不可留",
+      "title_en": "Chapter 26. The White Cloud May Be Slain but Not Detained",
+      "src": "text/part0027.html",
+      "chars": 7474,
+      "text_file": "data/src/29_part0027.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch27",
+      "chapter": 27,
+      "title": "第二十七章　踏破冰火九重天",
+      "title_en": "Chapter 27. Treading Through Ice and Fire, the Ninefold Heaven",
+      "src": "text/part0028.html",
+      "chars": 6135,
+      "text_file": "data/src/30_part0028.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch28",
+      "chapter": 28,
+      "title": "第二十八章　间不容发生死际",
+      "title_en": "Chapter 28. Not a Hair's Breadth Between Life and Death",
+      "src": "text/part0029.html",
+      "chars": 4620,
+      "text_file": "data/src/31_part0029.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch29",
+      "chapter": 29,
+      "title": "第二十九章　欲披荒草访疑尘",
+      "title_en": "Chapter 29. Parting the Wild Grass to Seek the Doubtful Dust",
+      "src": "text/part0030.html",
+      "chars": 6337,
+      "text_file": "data/src/32_part0030.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch30",
+      "chapter": 30,
+      "title": "第三十章　同生共死亲兄弟",
+      "title_en": "Chapter 30. Brothers in Life and Death Alike",
+      "src": "text/part0031.html",
+      "chars": 6346,
+      "text_file": "data/src/33_part0031.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch31",
+      "chapter": 31,
+      "title": "第三十一章　游鱼见食不见钩",
+      "title_en": "Chapter 31. The Roaming Fish Sees the Bait, Not the Hook",
+      "src": "text/part0032.html",
+      "chars": 6085,
+      "text_file": "data/src/34_part0032.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch32",
+      "chapter": 32,
+      "title": "第三十二章　醇酒美人鸳鸯剑",
+      "title_en": "Chapter 32. Rich Wine, a Fair Woman, the Mandarin-Duck Swords",
+      "src": "text/part0033.html",
+      "chars": 5612,
+      "text_file": "data/src/35_part0033.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch33",
+      "chapter": 33,
+      "title": "第三十三章　假做真时真亦假",
+      "title_en": "Chapter 33. When the False Is Made True, the True Turns False as Well",
+      "src": "text/part0034.html",
+      "chars": 6274,
+      "text_file": "data/src/36_part0034.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch34",
+      "chapter": 34,
+      "title": "第三十四章　反客为主深造次",
+      "title_en": "Chapter 34. The Guest Turns Host in a Rash Presumption",
+      "src": "text/part0035.html",
+      "chars": 6568,
+      "text_file": "data/src/37_part0035.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch35",
+      "chapter": 35,
+      "title": "第三十五章　一举锄奸雁归行",
+      "title_en": "Chapter 35. At a Single Stroke the Traitor Is Rooted Out, the Geese Return to Rank",
+      "src": "text/part0036.html",
+      "chars": 8534,
+      "text_file": "data/src/38_part0036.txt",
+      "sections": []
     }
   ],
-
-  "_batches_note": "Your work plan (proposed by scripts/survey.py, approved by the commissioner). Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
-  "batches": [
-    {
-      "batch": "B01",
-      "title": "ch1",
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
-    }
-  ]
+  "_batches_note": "Proposed batch plan (survey.py output, pending commissioner approval). first_section/last_section are chapter ids for this flat book.",
+  "batches": []
 }

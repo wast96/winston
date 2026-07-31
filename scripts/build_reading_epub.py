@@ -78,6 +78,8 @@ nav#toc ol ol li { font-size: 0.95em; }
 .colophon { text-align: center; margin-top: 2em; }
 .colophon .notice { border: 2px solid #444; display: inline-block; padding: 0.4em 1.6em; margin: 1em 0; font-size: 1.3em; letter-spacing: 0.3em; }
 .colophon p { text-indent: 0; }
+div.coverpage { margin: 0; padding: 0; text-align: center; }
+div.coverpage img { max-width: 100%; height: auto; }
 """
 
 XHTML = """<?xml version="1.0" encoding="utf-8"?>
@@ -432,11 +434,21 @@ def main(epub_path):
         "title_zh": book.get("title_zh", ""),
         "author_en": book.get("author_en", ""),
         "author_zh": book.get("author_zh", ""),
+        "author_file_as": book.get("author_file_as", ""),
         "year": book.get("year", ""),
         "uid": book.get("uid", "urn:uuid:translation-" +
                         re.sub(r"[^a-z0-9]+", "-",
                                book.get("title_en", "book").lower())[:48]),
         "translator_note_paragraphs": book.get("translator_note"),
+        # Optional catalogue metadata (formatted into the OPF for Kindle and
+        # Apple Books). All are optional; absent ones are simply omitted.
+        "language": book.get("language", "en"),
+        "pub_date": book.get("pub_date", ""),
+        "publisher_en": book.get("publisher_en", ""),
+        "description": book.get("description", ""),
+        "subjects": book.get("subjects", []),
+        "translator_en": book.get("translator_en", ""),
+        "cover": book.get("cover", ""),
     }
     structure = [c for c in book.get("structure", []) if c.get("id", "").startswith("ch")]
     if not structure:
@@ -477,6 +489,25 @@ def main(epub_path):
 
     with open(os.path.join(oebps, "style.css"), "w") as fh:
         fh.write(CSS)
+
+    # cover image (optional): copied verbatim from data/figs and referenced both
+    # by the modern properties="cover-image" manifest item and the legacy
+    # <meta name="cover"> tag, so Kindle and Apple Books both pick it up. A
+    # full-bleed cover.xhtml is placed first in the spine as the reading cover.
+    cover_file = ""
+    if meta["cover"]:
+        csrc = os.path.join(FIGS, meta["cover"])
+        if os.path.exists(csrc):
+            cover_file = os.path.basename(meta["cover"])
+            shutil.copy(csrc, os.path.join(oebps, "images", cover_file))
+            write(os.path.join(oebps, "cover.xhtml"),
+                  '<div class="coverpage" epub:type="cover">'
+                  '<img src="images/%s" alt="%s"/></div>'
+                  % (esc(cover_file), esc(meta["title_en"])),
+                  "Cover")
+        else:
+            sys.stderr.write("note: cover '%s' not found in data/figs; "
+                             "building without a cover image\n" % meta["cover"])
 
     # title page
     byline = esc(meta["author_en"])
@@ -543,8 +574,11 @@ def main(epub_path):
               render_colophon(back_matter), "Colophon")
 
     # spine order: every chapter (translated or skeleton) is in the spine.
-    docs = [("titlepage.xhtml", "Title Page"),
-            ("contents.xhtml", "Contents")]
+    docs = []
+    if cover_file:
+        docs.append(("cover.xhtml", "Cover"))
+    docs += [("titlepage.xhtml", "Title Page"),
+             ("contents.xhtml", "Contents")]
     docs += [(c["id"] + ".xhtml", c["title_en"]) for c in structure]
     docs += [("notes.xhtml", "Notes"),
              ("backmatter.xhtml", "Translator's Note and Glossary")]
@@ -596,6 +630,8 @@ def main(epub_path):
     nav = ('<nav epub:type="toc" id="toc"><h1>Contents</h1><ol>'
            + "".join(nav_items) + "</ol></nav>"
            '<nav epub:type="landmarks" hidden="hidden"><ol>'
+           + ('<li><a epub:type="cover" href="cover.xhtml">Cover</a></li>'
+              if cover_file else "") +
            '<li><a epub:type="titlepage" href="titlepage.xhtml">Title Page</a></li>'
            '<li><a epub:type="toc" href="contents.xhtml">Contents</a></li>'
            '<li><a epub:type="bodymatter" href="%s">Begin Reading</a></li>'
@@ -613,28 +649,67 @@ def main(epub_path):
                  "<docTitle><text>%s</text></docTitle><navMap>%s</navMap></ncx>"
                  % (meta["uid"], esc(meta["title_en"]), ncx))
 
+    IMG_MT = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png",
+              ".gif": "image/gif", ".svg": "image/svg+xml"}
     items = ['<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>',
              '<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>',
              '<item id="css" href="style.css" media-type="text/css"/>']
     for i, (f, _) in enumerate(docs, 1):
         items.append('<item id="d%d" href="%s" media-type="application/xhtml+xml"/>' % (i, f))
+    if cover_file:
+        cmt = IMG_MT.get(os.path.splitext(cover_file)[1].lower(), "image/jpeg")
+        items.append('<item id="cover-img" href="images/%s" media-type="%s" '
+                     'properties="cover-image"/>' % (esc(cover_file), cmt))
     for i, f in enumerate(manifest_figs, 1):
         items.append('<item id="fig%d" href="images/%s" media-type="image/png"/>' % (i, f))
     spine = "".join('<itemref idref="d%d"/>' % i for i in range(1, len(docs) + 1))
 
+    # OPF metadata, formatted so Kindle (KindleGen / Kindle Previewer) and Apple
+    # Books both read it cleanly: a titled/refined dc:title, a dc:creator with a
+    # MARC 'aut' role and file-as sort key, language, date, publisher,
+    # description, subjects, the original title as dc:source, and both the modern
+    # cover-image property and the legacy <meta name="cover"> pointer.
+    md = ["<dc:identifier id=\"pub-id\">%s</dc:identifier>" % esc(meta["uid"]),
+          "<dc:title id=\"title\">%s</dc:title>" % esc(meta["title_en"]),
+          '<meta refines="#title" property="title-type">main</meta>',
+          '<meta refines="#title" property="file-as">%s</meta>' % esc(meta["title_en"])]
+    if meta["author_en"]:
+        md.append("<dc:creator id=\"creator\">%s</dc:creator>" % esc(meta["author_en"]))
+        md.append('<meta refines="#creator" property="role" '
+                  'scheme="marc:relators">aut</meta>')
+        if meta["author_file_as"]:
+            md.append('<meta refines="#creator" property="file-as">%s</meta>'
+                      % esc(meta["author_file_as"]))
+    if meta["translator_en"]:
+        md.append("<dc:contributor id=\"translator\">%s</dc:contributor>"
+                  % esc(meta["translator_en"]))
+        md.append('<meta refines="#translator" property="role" '
+                  'scheme="marc:relators">trl</meta>')
+    md.append("<dc:language>%s</dc:language>" % esc(meta["language"]))
+    if meta["pub_date"]:
+        md.append("<dc:date>%s</dc:date>" % esc(str(meta["pub_date"])))
+    if meta["publisher_en"]:
+        md.append("<dc:publisher>%s</dc:publisher>" % esc(meta["publisher_en"]))
+    if meta["description"]:
+        md.append("<dc:description>%s</dc:description>" % esc(meta["description"]))
+    for subj in meta["subjects"]:
+        md.append("<dc:subject>%s</dc:subject>" % esc(subj))
+    if meta["title_zh"]:
+        md.append('<dc:source>%s</dc:source>' % esc(meta["title_zh"]))
+    md.append('<meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>')
+    if cover_file:
+        md.append('<meta name="cover" content="cover-img"/>')
+
     with open(os.path.join(oebps, "content.opf"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'
                  '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" '
-                 'unique-identifier="pub-id"><metadata '
-                 'xmlns:dc="http://purl.org/dc/elements/1.1/">'
-                 "<dc:identifier id=\"pub-id\">%s</dc:identifier>"
-                 "<dc:title>%s</dc:title><dc:language>en</dc:language>"
-                 "<dc:creator>%s</dc:creator>"
-                 '<meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>'
+                 'unique-identifier="pub-id" xml:lang="en">'
+                 '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" '
+                 'xmlns:opf="http://www.idpf.org/2007/opf">'
+                 + "".join(md) +
                  "</metadata><manifest>%s</manifest>"
                  "<spine toc=\"ncx\">%s</spine></package>"
-                 % (meta["uid"], esc(meta["title_en"]), esc(meta["author_en"]),
-                    "".join(items), spine))
+                 % ("".join(items), spine))
 
     with open(os.path.join(BUILD, "META-INF", "container.xml"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'
