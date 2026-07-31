@@ -7,6 +7,23 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - GLOBAL: renamed "X" to "Y" everywhere (glossary + grep across ch01-ch12); rebuilt, qa green.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
+## 2026-07-31 — corrections pass: no items filed; build re-verified green
+
+- CORRECTIONS.md contained no items (template only), so no text, note, glossary or
+  rendering changed. The edition stands as completed at B12.
+- Branch hygiene (CLAUDE.md rule 2): the stray branch claude/thousand-li-corrections-4e2fdv
+  duplicated the working branch's history; the stale local claude/thousand-li was
+  fast-forwarded to the full B01-B12 history (origin already had it) and the stray branch
+  deleted, local and remote. No commits were lost; the two branches were identical.
+- Re-verification from a clean checkout: data/src/ regenerated (scripts/ingest_epub.py,
+  41 spine documents, 157,360 source chars); out/thousand-li.epub rebuilt (37 of 37 units,
+  217 notes); qa_epub.py PASS (50 files, 44 documents, 217 references = bodies = backlinks,
+  all links resolve); check_numbers.py --noise check_noise.txt clean on all 36 machine-
+  checkable units (2,710 pairs, 0 unresolved; ch01 epigraph has no body pairs);
+  check_structure.py parity OK on all 36, whole-book anchor check 217 notes / 0 unresolved;
+  heading shapes the documented legitimate three (epigraph, chapters, Appendix H2+H3).
+- Files touched: CHANGELOG.md only.
+
 ## 2026-07-29 — Batch B03 (ch09-ch11) plus one retro note and a tooling fix
 
 - Translated ch09-ch11 (255 paragraphs); footnotes grown from 46 to 69 (22 new + 1 retro on
