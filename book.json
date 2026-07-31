@@ -1,69 +1,703 @@
 {
-  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. For an EPUB source, author it from book.draft.json (produced by scripts/ingest_epub.py) — refine the titles, add English titles, and MERGE or SPLIT units where the source EPUB's file boundaries do not match its logical chapters. Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists.",
-
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 2020,
-  "uid": "urn:uuid:my-book-slug-1",
-
-  "_source_note": "The source is a digital EPUB with reliable text (no OCR). Record its title/edition and anything notable (missing chapters, embedded notes, image-heavy sections) here.",
-  "source_epub": "source.epub",
-
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212;, &#160;), never named entities. If omitted, a generic method note is generated.",
-  "translator_note": [
-    "This is an English translation of <i>中文書名</i>, made from the digital source EPUB.",
-    "Say here what the register decisions were, who the author is, and how any editorial choices (the source's own notes, ambiguous passages, cut material) were handled."
+  "_README": "Logical structure + store metadata for the annotated English edition of 风萧萧 (The Whistling Wind). Build is driven entirely by this file. ch00 = front matter (About the Author); ch01..ch58 = the novel's 58 numbered chapters (源: 一..五十八); ch59 = appendix (Impressions of Xu Xu). See _source_note for units deliberately not modelled as body chapters.",
+  "title_en": "The Whistling Wind",
+  "title_zh": "风萧萧",
+  "title_zh_hant": "風蕭蕭",
+  "title_file_as": "Whistling Wind, The",
+  "author_en": "Xu Xu",
+  "author_zh": "徐訏",
+  "author_file_as": "Xu, Xu",
+  "translator": "",
+  "year": 1943,
+  "pubdate": "1943",
+  "language": "en",
+  "source_language": "zh",
+  "publisher": "",
+  "uid": "urn:uuid:the-whistling-wind-xu-xu-en-1",
+  "subjects": [
+    "Fiction / Espionage",
+    "Fiction / Romance",
+    "Fiction / War & Military",
+    "Fiction / Literary",
+    "Modern Chinese literature",
+    "Wartime Shanghai",
+    "Chinese fiction — 20th century — Translations into English"
   ],
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (source), title_en, and OPTIONAL 'part' (a label like 'Part One. ...'; consecutive chapters sharing it are grouped in the TOC). Keep 'src' (the source spine href, optionally with #anchor) and 'chars' (source character count, from ingest) so the survey can size batches; 'text_file' points at the extracted source text for that unit. Each section: id (ch01s01..), section (int), title, title_en, src, chars, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front: the survey and the skeleton EPUB are built from it before any translation.",
+  "description": "An annotated English translation of Xu Xu's 风萧萧 (The Whistling Wind), the runaway bestseller of 1943. Narrated in the first person by a young Shanghai philosopher, the novel draws him into a web of wartime espionage among Allied, Chinese, and Japanese agents in the occupied city, and among three very different women: Bai Ping, a Paramount dancer secretly serving as a Chinese agent; Mei Yingzi, a dazzling Eurasian socialite in the Allied network; and Helen, a music-loving young American. First serialized in the literary supplement of the Sao dang bao in Chongqing from March 1943, it became the most popular book of the year, so much so that 1943 was dubbed 'the Year of Xu Xu.' This edition supplies footnotes, a glossary, and a translator's apparatus for the non-specialist reader.",
+  "cover_image": "cover.jpg",
+  "_source_note": "Source: a digital EPUB of 风萧萧 (simplified-character text; publisher metadata credits epub掌上书苑 / cnepub, dated 2020-09-17). No OCR. The novel proper is 58 unnumbered-but-numerically-headed chapters (一..五十八), first-person narration, ~236k source characters here. THREE source spine documents are intentionally NOT modelled as translated body chapters, and must not be treated as dropped: (1) coverpage.html — the cover image plus an uploader-supplied scholarly 简介/abstract (not by Xu Xu); the cover art is reused as the edition cover and the abstract informed the English catalogue description. (2) chapter61.html — a 45-char edition/imprint note (風蕭蕭; 徐訏; 出版社：成都东方书店; 出版年：1944年（民国三十一年）; note of the 上海夜窗书屋 1949 edition); this becomes the translated Colophon back-matter on the final batch. (3) chapter1.html — the source's own 目录/table of contents, superseded by the build's full hyperlinked TOC. All other spine documents are represented in 'structure'.",
+  "source_epub": "source.epub",
+  "_edition_note": "Original: 风萧萧, serialized in the 扫荡报 (Sao dang bao) literary supplement, Chongqing, from March 1943; first book editions 成都东方书店 1944 and 上海夜窗书屋 1949. Author 徐訏 (Xu Xu, 1908–1980), original name 徐传琮, of Cixi, Zhejiang; Peking University philosophy graduate; made his name with 鬼恋 (1937).",
+  "_translator_note": "Rendered as the Translator's Note back-matter page. Numeric character references only.",
+  "translator_note": [
+    "This is an English translation of <i>风萧萧</i> (<i>The Whistling Wind</i>), the 1943 novel by Xu Xu (<span lang=\"zh-Hans\">徐訏</span>, 1908&#8211;1980), made from the digital source EPUB.",
+    "Xu Xu&#8217;s title echoes the ancient parting song <i>风萧萧兮易水寒</i>&#8212;&#8216;the wind whistles, cold runs the Yi&#8217;&#8212;sung for the assassin Jing Ke as he set out on a mission from which he would not return; the register of doomed, high-minded sacrifice it carries governs the whole book, and the translation tries to keep that note audible.",
+    "Names are given in pinyin except where a conventional English form is long established; each recurring name is fixed once in the glossary. The narrator&#8217;s philosophical asides, the espionage plot, and the wartime Shanghai setting are annotated for the non-specialist reader. Notes are the translator&#8217;s throughout unless marked as the source&#8217;s own."
+  ],
   "structure": [
+    {
+      "level": 1,
+      "id": "ch00",
+      "chapter": 0,
+      "part": "Front Matter",
+      "title": "作者简介",
+      "title_en": "About the Author",
+      "src": "chapter2.html",
+      "chars": 325,
+      "text_file": "data/src/03_chapter2.txt",
+      "sections": []
+    },
     {
       "level": 1,
       "id": "ch01",
       "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "src": "text/chapter01.xhtml",
-      "chars": 8200,
-      "text_file": "data/src/01_chapter01.txt",
-      "sections": [
-        {
-          "id": "ch01s01",
-          "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "src": "text/chapter01.xhtml#sec1",
-          "chars": 4100,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)"
-            }
-          ]
-        },
-        {
-          "id": "ch01s02",
-          "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "src": "text/chapter01.xhtml#sec2",
-          "chars": 4100
-        }
-      ]
+      "title": "一",
+      "title_en": "Chapter 1",
+      "src": "chapter3.html",
+      "chars": 180,
+      "text_file": "data/src/05_chapter3.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch02",
+      "chapter": 2,
+      "title": "二",
+      "title_en": "Chapter 2",
+      "src": "chapter4.html",
+      "chars": 1460,
+      "text_file": "data/src/06_chapter4.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch03",
+      "chapter": 3,
+      "title": "三",
+      "title_en": "Chapter 3",
+      "src": "chapter5.html",
+      "chars": 1650,
+      "text_file": "data/src/07_chapter5.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch04",
+      "chapter": 4,
+      "title": "四",
+      "title_en": "Chapter 4",
+      "src": "chapter6.html",
+      "chars": 2979,
+      "text_file": "data/src/08_chapter6.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch05",
+      "chapter": 5,
+      "title": "五",
+      "title_en": "Chapter 5",
+      "src": "chapter7.html",
+      "chars": 2582,
+      "text_file": "data/src/09_chapter7.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch06",
+      "chapter": 6,
+      "title": "六",
+      "title_en": "Chapter 6",
+      "src": "chapter8.html",
+      "chars": 1432,
+      "text_file": "data/src/10_chapter8.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch07",
+      "chapter": 7,
+      "title": "七",
+      "title_en": "Chapter 7",
+      "src": "chapter9.html",
+      "chars": 4461,
+      "text_file": "data/src/11_chapter9.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch08",
+      "chapter": 8,
+      "title": "八",
+      "title_en": "Chapter 8",
+      "src": "chapter10.html",
+      "chars": 3443,
+      "text_file": "data/src/12_chapter10.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch09",
+      "chapter": 9,
+      "title": "九",
+      "title_en": "Chapter 9",
+      "src": "chapter11.html",
+      "chars": 3095,
+      "text_file": "data/src/13_chapter11.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch10",
+      "chapter": 10,
+      "title": "十",
+      "title_en": "Chapter 10",
+      "src": "chapter12.html",
+      "chars": 2652,
+      "text_file": "data/src/14_chapter12.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch11",
+      "chapter": 11,
+      "title": "十一",
+      "title_en": "Chapter 11",
+      "src": "chapter13.html",
+      "chars": 2202,
+      "text_file": "data/src/15_chapter13.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch12",
+      "chapter": 12,
+      "title": "十二",
+      "title_en": "Chapter 12",
+      "src": "chapter14.html",
+      "chars": 3274,
+      "text_file": "data/src/16_chapter14.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch13",
+      "chapter": 13,
+      "title": "十三",
+      "title_en": "Chapter 13",
+      "src": "chapter15.html",
+      "chars": 4794,
+      "text_file": "data/src/17_chapter15.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch14",
+      "chapter": 14,
+      "title": "十四",
+      "title_en": "Chapter 14",
+      "src": "chapter16.html",
+      "chars": 3452,
+      "text_file": "data/src/18_chapter16.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch15",
+      "chapter": 15,
+      "title": "十五",
+      "title_en": "Chapter 15",
+      "src": "chapter17.html",
+      "chars": 10004,
+      "text_file": "data/src/19_chapter17.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch16",
+      "chapter": 16,
+      "title": "十六",
+      "title_en": "Chapter 16",
+      "src": "chapter18.html",
+      "chars": 2943,
+      "text_file": "data/src/20_chapter18.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch17",
+      "chapter": 17,
+      "title": "十七",
+      "title_en": "Chapter 17",
+      "src": "chapter19.html",
+      "chars": 3283,
+      "text_file": "data/src/21_chapter19.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch18",
+      "chapter": 18,
+      "title": "十八",
+      "title_en": "Chapter 18",
+      "src": "chapter20.html",
+      "chars": 7655,
+      "text_file": "data/src/22_chapter20.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch19",
+      "chapter": 19,
+      "title": "十九",
+      "title_en": "Chapter 19",
+      "src": "chapter21.html",
+      "chars": 4158,
+      "text_file": "data/src/23_chapter21.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch20",
+      "chapter": 20,
+      "title": "二十",
+      "title_en": "Chapter 20",
+      "src": "chapter22.html",
+      "chars": 5146,
+      "text_file": "data/src/24_chapter22.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch21",
+      "chapter": 21,
+      "title": "二十一",
+      "title_en": "Chapter 21",
+      "src": "chapter23.html",
+      "chars": 3003,
+      "text_file": "data/src/25_chapter23.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch22",
+      "chapter": 22,
+      "title": "二十二",
+      "title_en": "Chapter 22",
+      "src": "chapter24.html",
+      "chars": 3679,
+      "text_file": "data/src/26_chapter24.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch23",
+      "chapter": 23,
+      "title": "二十三",
+      "title_en": "Chapter 23",
+      "src": "chapter25.html",
+      "chars": 6249,
+      "text_file": "data/src/27_chapter25.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch24",
+      "chapter": 24,
+      "title": "二十四",
+      "title_en": "Chapter 24",
+      "src": "chapter26.html",
+      "chars": 4395,
+      "text_file": "data/src/28_chapter26.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch25",
+      "chapter": 25,
+      "title": "二十五",
+      "title_en": "Chapter 25",
+      "src": "chapter27.html",
+      "chars": 4465,
+      "text_file": "data/src/29_chapter27.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch26",
+      "chapter": 26,
+      "title": "二十六",
+      "title_en": "Chapter 26",
+      "src": "chapter28.html",
+      "chars": 4383,
+      "text_file": "data/src/30_chapter28.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch27",
+      "chapter": 27,
+      "title": "二十七",
+      "title_en": "Chapter 27",
+      "src": "chapter29.html",
+      "chars": 3392,
+      "text_file": "data/src/31_chapter29.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch28",
+      "chapter": 28,
+      "title": "二十八",
+      "title_en": "Chapter 28",
+      "src": "chapter30.html",
+      "chars": 3244,
+      "text_file": "data/src/32_chapter30.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch29",
+      "chapter": 29,
+      "title": "二十九",
+      "title_en": "Chapter 29",
+      "src": "chapter31.html",
+      "chars": 3420,
+      "text_file": "data/src/33_chapter31.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch30",
+      "chapter": 30,
+      "title": "三十",
+      "title_en": "Chapter 30",
+      "src": "chapter32.html",
+      "chars": 3164,
+      "text_file": "data/src/34_chapter32.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch31",
+      "chapter": 31,
+      "title": "三十一",
+      "title_en": "Chapter 31",
+      "src": "chapter33.html",
+      "chars": 3113,
+      "text_file": "data/src/35_chapter33.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch32",
+      "chapter": 32,
+      "title": "三十二",
+      "title_en": "Chapter 32",
+      "src": "chapter34.html",
+      "chars": 3704,
+      "text_file": "data/src/36_chapter34.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch33",
+      "chapter": 33,
+      "title": "三十三",
+      "title_en": "Chapter 33",
+      "src": "chapter35.html",
+      "chars": 4120,
+      "text_file": "data/src/37_chapter35.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch34",
+      "chapter": 34,
+      "title": "三十四",
+      "title_en": "Chapter 34",
+      "src": "chapter36.html",
+      "chars": 3543,
+      "text_file": "data/src/38_chapter36.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch35",
+      "chapter": 35,
+      "title": "三十五",
+      "title_en": "Chapter 35",
+      "src": "chapter37.html",
+      "chars": 3709,
+      "text_file": "data/src/39_chapter37.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch36",
+      "chapter": 36,
+      "title": "三十六",
+      "title_en": "Chapter 36",
+      "src": "chapter38.html",
+      "chars": 3335,
+      "text_file": "data/src/40_chapter38.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch37",
+      "chapter": 37,
+      "title": "三十七",
+      "title_en": "Chapter 37",
+      "src": "chapter39.html",
+      "chars": 3789,
+      "text_file": "data/src/41_chapter39.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch38",
+      "chapter": 38,
+      "title": "三十八",
+      "title_en": "Chapter 38",
+      "src": "chapter40.html",
+      "chars": 3474,
+      "text_file": "data/src/42_chapter40.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch39",
+      "chapter": 39,
+      "title": "三十九",
+      "title_en": "Chapter 39",
+      "src": "chapter41.html",
+      "chars": 3517,
+      "text_file": "data/src/43_chapter41.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch40",
+      "chapter": 40,
+      "title": "四十",
+      "title_en": "Chapter 40",
+      "src": "chapter42.html",
+      "chars": 3789,
+      "text_file": "data/src/44_chapter42.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch41",
+      "chapter": 41,
+      "title": "四十一",
+      "title_en": "Chapter 41",
+      "src": "chapter43.html",
+      "chars": 3376,
+      "text_file": "data/src/45_chapter43.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch42",
+      "chapter": 42,
+      "title": "四十二",
+      "title_en": "Chapter 42",
+      "src": "chapter44.html",
+      "chars": 3313,
+      "text_file": "data/src/46_chapter44.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch43",
+      "chapter": 43,
+      "title": "四十三",
+      "title_en": "Chapter 43",
+      "src": "chapter45.html",
+      "chars": 3405,
+      "text_file": "data/src/47_chapter45.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch44",
+      "chapter": 44,
+      "title": "四十四",
+      "title_en": "Chapter 44",
+      "src": "chapter46.html",
+      "chars": 3160,
+      "text_file": "data/src/48_chapter46.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch45",
+      "chapter": 45,
+      "title": "四十五",
+      "title_en": "Chapter 45",
+      "src": "chapter47.html",
+      "chars": 4466,
+      "text_file": "data/src/49_chapter47.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch46",
+      "chapter": 46,
+      "title": "四十六",
+      "title_en": "Chapter 46",
+      "src": "chapter48.html",
+      "chars": 8294,
+      "text_file": "data/src/50_chapter48.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch47",
+      "chapter": 47,
+      "title": "四十七",
+      "title_en": "Chapter 47",
+      "src": "chapter49.html",
+      "chars": 4287,
+      "text_file": "data/src/51_chapter49.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch48",
+      "chapter": 48,
+      "title": "四十八",
+      "title_en": "Chapter 48",
+      "src": "chapter50.html",
+      "chars": 4428,
+      "text_file": "data/src/52_chapter50.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch49",
+      "chapter": 49,
+      "title": "四十九",
+      "title_en": "Chapter 49",
+      "src": "chapter51.html",
+      "chars": 5200,
+      "text_file": "data/src/53_chapter51.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch50",
+      "chapter": 50,
+      "title": "五十",
+      "title_en": "Chapter 50",
+      "src": "chapter52.html",
+      "chars": 3626,
+      "text_file": "data/src/54_chapter52.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch51",
+      "chapter": 51,
+      "title": "五十一",
+      "title_en": "Chapter 51",
+      "src": "chapter53.html",
+      "chars": 4565,
+      "text_file": "data/src/55_chapter53.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch52",
+      "chapter": 52,
+      "title": "五十二",
+      "title_en": "Chapter 52",
+      "src": "chapter54.html",
+      "chars": 4342,
+      "text_file": "data/src/56_chapter54.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch53",
+      "chapter": 53,
+      "title": "五十三",
+      "title_en": "Chapter 53",
+      "src": "chapter55.html",
+      "chars": 6355,
+      "text_file": "data/src/57_chapter55.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch54",
+      "chapter": 54,
+      "title": "五十四",
+      "title_en": "Chapter 54",
+      "src": "chapter56.html",
+      "chars": 3396,
+      "text_file": "data/src/58_chapter56.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch55",
+      "chapter": 55,
+      "title": "五十五",
+      "title_en": "Chapter 55",
+      "src": "chapter57.html",
+      "chars": 4196,
+      "text_file": "data/src/59_chapter57.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch56",
+      "chapter": 56,
+      "title": "五十六",
+      "title_en": "Chapter 56",
+      "src": "chapter58.html",
+      "chars": 4004,
+      "text_file": "data/src/60_chapter58.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch57",
+      "chapter": 57,
+      "title": "五十七",
+      "title_en": "Chapter 57",
+      "src": "chapter59.html",
+      "chars": 2669,
+      "text_file": "data/src/61_chapter59.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch58",
+      "chapter": 58,
+      "title": "五十八",
+      "title_en": "Chapter 58",
+      "src": "chapter60.html",
+      "chars": 5203,
+      "text_file": "data/src/62_chapter60.txt",
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch59",
+      "chapter": 59,
+      "part": "Appendix",
+      "title": "徐訏印象",
+      "title_en": "Impressions of Xu Xu",
+      "src": "chapter62.html",
+      "chars": 10432,
+      "text_file": "data/src/63_chapter62.txt",
+      "sections": []
     }
   ],
-
-  "_batches_note": "Your work plan (proposed by scripts/survey.py, approved by the commissioner). Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
-  "batches": [
-    {
-      "batch": "B01",
-      "title": "ch1",
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
-    }
-  ]
+  "_batches_note": "Proposed by scripts/survey.py; to be approved by the commissioner before Batch 1.",
+  "batches": []
 }
