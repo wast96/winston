@@ -69,7 +69,12 @@ NOISE = [
     r"[一不][旦時时般點点些]",
     r"[幾几數数][盞盏輛辆個个位十百千萬万條条艘句步進进層层次口杯天年分]",
     r"[幾几數数][十百千]",                          # 幾十/數百 "some tens/hundreds"
-    r"十[幾几分]", r"[十几幾]多", r"再三",
+    r"十[幾几分]", r"[几幾]多", r"再三",
+    # 十多 "ten-odd" -- but only when 十 is NOT the tail of a larger number, or
+    # this eats the 十多 out of 二十多/三十多 ("twenty-odd") and orphans the 二/三
+    # as a bare 2/3. Longest-first cannot help here (the digit precedes), so a
+    # negative lookbehind guards it.
+    r"(?<![一二三四五六七八九十两兩])十多",
     # --- 萬/万 and 千 as intensifier, not the quantity 10000/1000 ---
     # ORDERING: 千萬/萬萬 must precede bare 萬X, or r"萬不可" eats the 萬 out of
     # 千萬不可 and orphans a 千 read as 1000. Longest literal first, always.

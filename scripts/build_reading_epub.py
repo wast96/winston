@@ -56,9 +56,15 @@ dl.gloss dt { font-weight: bold; margin-top: 0.7em; }
 dl.gloss dd { margin: 0 0 0 1.2em; }
 a.noteref { text-decoration: none; }
 a.noteref sup { font-size: 0.72em; color: #7a1f1f; padding-left: 1px; }
+a.snoteref { text-decoration: none; }
+a.snoteref sup { font-size: 0.72em; color: #1f5f7a; padding-left: 1px; }
 div.endnote { margin: 0 0 1.05em; }
 div.endnote p { text-indent: 0; font-size: 0.94em; }
+div.snote { margin: 0 0 1.05em; }
+div.snote p { text-indent: 0; font-size: 0.94em; }
 a.backref { text-decoration: none; font-weight: bold; color: #7a1f1f; }
+a.sbackref { text-decoration: none; font-weight: bold; color: #1f5f7a; }
+h3.srcnotes { margin-top: 2.4em; font-style: italic; font-weight: normal; color: #1f5f7a; }
 .tp { text-align: center; margin-top: 3em; }
 .tp h1 { font-size: 1.7em; }
 .tp p { text-indent: 0; }
@@ -146,6 +152,35 @@ def insert_notes(paragraph, notes, counter, doc):
     return paragraph
 
 
+def insert_source_notes(paragraph, snotes, doc):
+    """Attach the source's OWN note marker after its anchor phrase.
+
+    These are the author's/editor's notes carried by the original edition, kept
+    a separate stream from the translator's footnotes so the two are never
+    confused: their reference is a bracketed number in a distinct colour, and it
+    PRESERVES the author's own numbering (the source keys them [1]..[9] across
+    the whole book) rather than the builder's running count. They resolve to the
+    "Notes in the Original Edition" section of the notes page. Like insert_notes,
+    matching happens on the escaped text before markup substitution, and the
+    marker text itself carries no anchor a later pass could disturb.
+    """
+    hits = []
+    for note in snotes:
+        if note.get("used"):
+            continue
+        pos = paragraph.find(note["anchor"])
+        if pos >= 0:
+            hits.append((pos + len(note["anchor"]), note))
+    for _, note in sorted(hits, key=lambda h: h[0]):
+        note["used"] = True
+        note["doc"] = doc
+        n = note["n"]
+        ref = ('<a class="snoteref" epub:type="noteref" id="sref%d" '
+               'href="notes.xhtml#snote%d"><sup>[%d]</sup></a>' % (n, n, n))
+        paragraph = paragraph.replace(note["anchor"], note["anchor"] + ref, 1)
+    return paragraph
+
+
 # ---------------------------------------------------------------------------
 # Structure helpers: a size label per unit and grouping by optional "part".
 # ---------------------------------------------------------------------------
@@ -199,17 +234,24 @@ def render_skeleton(chap):
 
 
 def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
-                ids=None):
+                ids=None, snotes=()):
     """Render one chapter's reading markdown to XHTML.
 
     section_ids / sub_ids are the chapter's book.json section and subsection ids,
     consumed in order as '### ' and '#### ' headings are met, so the contents
     page can deep-link each section and subsection. Either list may be empty,
     in which case the matching heading gets no id (linked at the coarser level).
+
+    snotes are the source's own notes for this chapter (a separate stream from
+    the translator's notes); their markers are inserted alongside.
     """
     out, first = [], True
     ids = ids if ids is not None else set()
     sids, ssids = list(section_ids), list(sub_ids)
+
+    def annotate(txt):
+        return insert_source_notes(
+            insert_notes(txt, notes, counter, doc), snotes, doc)
     for raw in open(md_path):
         line = raw.strip()
         if not line:
@@ -220,8 +262,7 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
             if subid:
                 ids.add(subid)
             out.append("<h3%s>%s</h3>"
-                       % (idattr,
-                          insert_notes(esc(line[5:]), notes, counter, doc)))
+                       % (idattr, annotate(esc(line[5:]))))
             first = True
             continue
         if line.startswith("### "):
@@ -229,8 +270,7 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
             idattr = ' id="%s"' % esc(sid) if sid else ""
             if sid:
                 ids.add(sid)
-            out.append("<h2%s>%s</h2>"
-                       % (idattr, insert_notes(esc(line[4:]), notes, counter, doc)))
+            out.append("<h2%s>%s</h2>" % (idattr, annotate(esc(line[4:]))))
             first = True
             continue
         if line.startswith("## "):
@@ -246,7 +286,7 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
                     "<figcaption>%s</figcaption></figure>"
                     % (fig["file"], esc(fig["alt"]), esc(fig["caption"])))
                 fig["placed"] = True
-        text = insert_notes(esc(line), notes, counter, doc)
+        text = annotate(esc(line))
         text = re.sub(r"\*([^*\n]+)\*", r"<i>\1</i>", text)
         cls = ' class="first"' if first else ""
         out.append("<p%s>%s</p>" % (cls, text))
@@ -254,11 +294,19 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
     return "\n".join(out), ids
 
 
-def render_notes_page(chapters, notes_by_chap):
+def render_notes_page(chapters, notes_by_chap, snotes_by_chap=None):
+    """The notes page carries two distinct streams. Plain numbered notes are the
+    translator's. Bracketed-number notes are the source book's OWN, gathered in
+    the original at its end and reproduced here under their own heading, so a
+    reader can always tell the author's apparatus from the translator's."""
+    snotes_by_chap = snotes_by_chap or {}
     parts = ['<h1>Notes</h1>',
-             '<p class="note">Each number links back to its place in the '
-             'text. Notes are the translator\'s throughout; the source book '
-             'carries none of its own.</p>']
+             '<p class="note">Each marker links back to its place in the text. '
+             'Plain numbered notes are the translator\'s. Notes keyed to a '
+             'bracketed number in a different colour are the source book\'s own '
+             '&#8212; the author gathered them at the end of the original, and '
+             'they are reproduced below under "Notes in the Original '
+             'Edition."</p>']
     any_used = False
     for chap in chapters:
         used = sorted([n for n in notes_by_chap.get(chap["id"], [])
@@ -272,7 +320,22 @@ def render_notes_page(chapters, notes_by_chap):
                 '<div class="endnote" id="note%d" epub:type="footnote">'
                 '<p><a class="backref" href="%s#ref%d">%d.</a> %s</p></div>'
                 % (note["n"], note["doc"], note["n"], note["n"], note["note"]))
-    if not any_used:
+
+    used_src = sorted([n for cid, lst in snotes_by_chap.items()
+                       if not cid.startswith("_")
+                       for n in lst if n.get("used")], key=lambda x: x["n"])
+    if used_src:
+        parts.append('<h3 class="srcnotes">Notes in the Original Edition</h3>')
+        parts.append('<p class="note">These notes are the author\'s own, keyed '
+                     'to the bracketed markers in the text; they are given here '
+                     'as they stand in the source.</p>')
+        for note in used_src:
+            parts.append(
+                '<div class="snote" id="snote%d" epub:type="footnote">'
+                '<p><a class="sbackref" href="%s#sref%d">[%d]</a> %s</p></div>'
+                % (note["n"], note["doc"], note["n"], note["n"], note["note"]))
+
+    if not any_used and not used_src:
         parts.append("<p>No notes yet.</p>")
     return "\n".join(parts)
 
@@ -473,6 +536,7 @@ def main(epub_path):
 
     gloss = load_json("glossary.json", {})
     notes_by_chap = load_json("notes.json", {})
+    source_notes_by_chap = load_json("source_notes.json", {})
     figspec = load_json("figures.json", {})
 
     manifest_figs = []
@@ -539,7 +603,9 @@ def main(epub_path):
             body, ids = render_body(md_of(chap["id"]), section_ids, sub_ids,
                                     figspec.get(chap["id"], []),
                                     notes_by_chap.get(chap["id"], []),
-                                    counter, doc)
+                                    counter, doc,
+                                    snotes=source_notes_by_chap.get(
+                                        chap["id"], []))
         else:
             body, ids = render_skeleton(chap)
         ids_present[chap["id"]] = ids
@@ -552,6 +618,9 @@ def main(epub_path):
     # a note whose anchor never matched would be silently dropped; refuse.
     orphans = [(cid, n["anchor"]) for cid, lst in notes_by_chap.items()
                for n in lst if cid in translated and not n.get("used")]
+    orphans += [(cid, n["anchor"]) for cid, lst in source_notes_by_chap.items()
+                if not cid.startswith("_")
+                for n in lst if cid in translated and not n.get("used")]
     if orphans:
         sys.stderr.write("BUILD FAILED: %d note anchor(s) never matched and "
                          "would be silently dropped:\n" % len(orphans))
@@ -560,7 +629,8 @@ def main(epub_path):
         sys.exit(2)
 
     write(os.path.join(oebps, "notes.xhtml"),
-          render_notes_page(chapters, notes_by_chap), "Notes")
+          render_notes_page(chapters, notes_by_chap, source_notes_by_chap),
+          "Notes")
 
     write(os.path.join(oebps, "backmatter.xhtml"),
           translator_note(meta, len(chapters))

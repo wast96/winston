@@ -1,15 +1,270 @@
 {
   "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
   "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
-  "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
+  "people": {
+    "吴荪甫": {
+      "en": "Wu Sunfu",
+      "pinyin": "Wu Sunfu",
       "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+      "note": "The industrialist hero of the novel; the &#8220;Third Master&#8221; (三老爷) of the Wu family. Older English versions write the name Wu Sun-fu; pinyin is used here."
+    },
+    "吴老太爷": {
+      "en": "old Mr. Wu",
+      "pinyin": "Wu laotaiye",
+      "status": "decided",
+      "note": "Wu Sunfu's father; a late-Qing reformer turned devout Daoist recluse, whose collapse and death open the book."
+    },
+    "杜竹斋": {
+      "en": "Du Zhuzhai",
+      "pinyin": "Du Zhuzhai",
+      "status": "decided",
+      "note": "A banker; Wu Sunfu's brother-in-law (the family &#8216;son-in-law,&#8217; 姑老爷), married to Fufang."
+    },
+    "芙芳": {
+      "en": "Fufang",
+      "pinyin": "Fufang",
+      "status": "decided",
+      "note": "The Second Young Lady (二小姐), Wu Sunfu's elder sister and Du Zhuzhai's wife; addressed as Mrs. Du (杜姑太太)."
+    },
+    "蕙芳": {
+      "en": "Huifang",
+      "pinyin": "Huifang",
+      "status": "decided",
+      "note": "The Fourth Young Lady (四小姐), Wu Sunfu's younger sister, newly come from the country."
+    },
+    "阿萱": {
+      "en": "Ah Xuan",
+      "pinyin": "A Xuan",
+      "status": "decided",
+      "note": "The Seventh Young Master (七少爷), nineteen years old; the family's naive &#8216;golden boy.&#8217;"
+    },
+    "林佩瑶": {
+      "en": "Lin Peiyao",
+      "pinyin": "Lin Peiyao",
+      "status": "decided",
+      "note": "Wu Sunfu's wife, addressed throughout as the Wu young mistress (吴少奶奶); the elder of the two Lin sisters."
+    },
+    "林佩珊": {
+      "en": "Lin Peishan",
+      "pinyin": "Lin Peishan",
+      "status": "decided",
+      "note": "Peiyao's younger sister (&#8216;the second Miss Lin&#8217;), courted by her cousin Fan Bowen."
+    },
+    "张素素": {
+      "en": "Zhang Susu",
+      "pinyin": "Zhang Susu",
+      "status": "decided",
+      "note": "A restless young woman guest at the Wu house."
+    },
+    "范博文": {
+      "en": "Fan Bowen",
+      "pinyin": "Fan Bowen",
+      "status": "decided",
+      "note": "A young would-be poet; Lin Peishan's cousin."
+    },
+    "李玉亭": {
+      "en": "Li Yuting",
+      "pinyin": "Li Yuting",
+      "status": "decided",
+      "note": "A professor of economics."
+    },
+    "丁医生": {
+      "en": "Dr. Ding",
+      "pinyin": "Ding yisheng",
+      "status": "decided",
+      "note": "The physician called to old Mr. Wu."
+    },
+    "福生": {
+      "en": "Fusheng",
+      "pinyin": "Fusheng",
+      "status": "decided",
+      "note": "Clerk at the Daishengchang steamship office; son of an old Wu family servant."
+    },
+    "老关": {
+      "en": "Old Guan",
+      "pinyin": "Lao Guan",
+      "status": "decided",
+      "note": "Wu Sunfu's bodyguard."
+    },
+    "高升": {
+      "en": "Gaosheng",
+      "pinyin": "Gaosheng",
+      "status": "decided",
+      "note": "A manservant of the Wu household."
+    },
+    "王妈": {
+      "en": "Amah Wang",
+      "pinyin": "Wang ma",
+      "status": "decided",
+      "note": "A maidservant of the Wu household (妈, &#8216;amah&#8217;)."
+    },
+    "莫先生": {
+      "en": "Mr. Mo",
+      "pinyin": "Mo xiansheng",
+      "status": "decided",
+      "note": "Accountant (账房) at Wu Sunfu's factory."
+    },
+    "秋律师": {
+      "en": "Lawyer Qiu",
+      "pinyin": "Qiu lushi",
+      "status": "decided",
+      "note": "The Wu family's lawyer."
+    },
+    "曾沧海": {
+      "en": "Zeng Canghai",
+      "pinyin": "Zeng Canghai",
+      "status": "decided",
+      "note": "The Wu children's maternal uncle (舅父)."
+    },
+    "文昌帝君": {
+      "en": "the Lord Wenchang (Wenchang Dijun)",
+      "pinyin": "Wenchang Dijun",
+      "status": "attested",
+      "note": "The Daoist god of literature and of success in the imperial examinations."
+    }
+  },
+  "organizations": {
+    "戴生昌轮船局": {
+      "en": "the Daishengchang Steamship Office",
+      "pinyin": "Daishengchang lunchuan ju",
+      "status": "decided",
+      "note": "戴生昌; a river-steamer company and its wharf office."
+    },
+    "云飞": {
+      "en": "the Yunfei",
+      "pinyin": "Yunfei",
+      "status": "decided",
+      "note": "云飞轮船, a passenger-steamer line (&#8216;Flying Cloud&#8217;); the boat that brings old Mr. Wu to Shanghai."
+    },
+    "上海总商会": {
+      "en": "the Shanghai General Chamber of Commerce",
+      "pinyin": "Shanghai zong shanghui",
+      "status": "attested",
+      "note": "上海总商会."
+    },
+    "万国殡仪馆": {
+      "en": "the International Funeral Parlour",
+      "pinyin": "Wanguo binyiguan",
+      "status": "attested",
+      "note": "万国殡仪馆; a well-known Shanghai funeral establishment."
+    }
+  },
+  "places": {
+    "苏州河": {
+      "en": "Suzhou Creek",
+      "pinyin": "Suzhou He",
+      "status": "attested",
+      "note": "The creek meeting the Huangpu at the north end of the Bund."
+    },
+    "黄浦": {
+      "en": "the Huangpu",
+      "pinyin": "Huangpu",
+      "status": "attested",
+      "note": "The river along the Bund; older English Whangpoo."
+    },
+    "浦东": {
+      "en": "Pudong",
+      "pinyin": "Pudong",
+      "status": "attested",
+      "note": "The east bank of the Huangpu; older English Pootung."
+    },
+    "外滩": {
+      "en": "the Bund",
+      "pinyin": "Waitan",
+      "status": "attested",
+      "note": "外滩; the riverfront boulevard of the International Settlement (外滩公园, the park on the Bund)."
+    },
+    "外白渡桥": {
+      "en": "the Waibaidu Bridge",
+      "pinyin": "Waibaidu Qiao",
+      "status": "attested",
+      "note": "The steel bridge at the mouth of Suzhou Creek, known in the foreign settlements as the Garden Bridge."
+    },
+    "北苏州路": {
+      "en": "North Suzhou Road",
+      "pinyin": "Bei Suzhou Lu",
+      "status": "attested",
+      "note": ""
+    },
+    "北河南路": {
+      "en": "North Henan Road",
+      "pinyin": "Bei Henan Lu",
+      "status": "attested",
+      "note": "Older English Honan Road."
+    },
+    "南京路": {
+      "en": "Nanjing Road",
+      "pinyin": "Nanjing Lu",
+      "status": "attested",
+      "note": "Older English Nanking Road."
+    },
+    "河南路": {
+      "en": "Henan Road",
+      "pinyin": "Henan Lu",
+      "status": "attested",
+      "note": "Older English Honan Road."
+    },
+    "西藏路": {
+      "en": "Xizang Road",
+      "pinyin": "Xizang Lu",
+      "status": "attested",
+      "note": "Older English Tibet (Thibet) Road."
+    },
+    "静安寺路": {
+      "en": "Jing'an Temple Road",
+      "pinyin": "Jing'an Si Lu",
+      "status": "attested",
+      "note": "Known in the settlement as Bubbling Well Road."
+    },
+    "抛球场": {
+      "en": "Paoqiuchang",
+      "pinyin": "Paoqiuchang",
+      "status": "decided",
+      "note": "The crossing of Nanjing Road and Henan Road, long known by this name."
+    },
+    "铁马路": {
+      "en": "the Iron-Horse Road",
+      "pinyin": "Tie Malu",
+      "status": "decided",
+      "note": "Colloquial name (俗名) for the stretch of road west of the Chamber of Commerce where the river launches gathered."
+    },
+    "关帝庙": {
+      "en": "the Guandi Temple",
+      "pinyin": "Guandi Miao",
+      "status": "attested",
+      "note": "A temple of Guan Yu; here a rural garrison's billet."
+    },
+    "北京路": {
+      "en": "Beijing Road",
+      "pinyin": "Beijing Lu",
+      "status": "attested",
+      "note": "Older English Peking Road."
+    }
+  },
+  "terms": {
+    "太上感应篇": {
+      "en": "the Taishang Ganying Pian",
+      "pinyin": "Taishang Ganying Pian",
+      "status": "attested",
+      "note": "The Daoist &#8220;Tract of the Most High on Action and Response&#8221; that old Mr. Wu worships; see the note at its first appearance."
+    },
+    "大亨": {
+      "en": "big shot / magnate",
+      "pinyin": "daheng",
+      "status": "decided",
+      "note": "大亨; a tycoon of the Shanghai business world."
+    },
+    "少奶奶": {
+      "en": "young mistress",
+      "pinyin": "shaonainai",
+      "status": "decided",
+      "note": "吴少奶奶 is rendered &#8216;the Wu young mistress&#8217;: the young married lady of the house (here Lin Peiyao)."
+    },
+    "金童玉女": {
+      "en": "golden boy and jade maiden",
+      "pinyin": "jintong yunu",
+      "status": "decided",
+      "note": "The paired child-attendants of a Daoist immortal; see the note at first appearance."
     }
   }
 }

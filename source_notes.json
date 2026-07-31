@@ -1,0 +1,15 @@
+{
+  "_about": "The SOURCE's own notes (the author's/editor's), kept a separate stream from the translator's notes.json. The original gathers nine of them at its end, keyed to bracketed markers [1]..[9] that appear inline in the chapters; each entry here carries that ORIGINAL number in 'n', an 'anchor' (a verbatim substring of the English prose, where the marker is re-attached), and the source note rendered into English. The builder places a bracketed marker in a distinct colour at the anchor and lists these under 'Notes in the Original Edition', so a reader can always tell the author's apparatus from the translator's. Bodies are XHTML: numeric character references, never named entities.",
+  "ch01": [
+    {
+      "anchor": "Light, Heat, Power!",
+      "n": 1,
+      "note": "In English in the original; that is, &#8220;Light, Heat, Power!&#8221;"
+    },
+    {
+      "anchor": "Grafton",
+      "n": 2,
+      "note": "<i>Grafton</i>: a costly foreign gauze."
+    }
+  ]
+}

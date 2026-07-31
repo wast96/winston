@@ -1,0 +1,27 @@
+# Project-specific noise for check_numbers.py (pass with --noise data/noise_zh.txt).
+# Each regex strips a SOURCE numeral that is idiom, slang, a set phrase, or an
+# apparatus marker -- NOT a quantity to be preserved in the translation. One
+# regex per line; lines starting with '#' are comments (no inline comments --
+# the loader treats the whole non-# line as a regex).
+#
+# --- the source's own bracketed note markers [1]..[9] (not quantities) ---
+\[\d+\]
+# --- idioms / slang / set phrases that contain a numeral character ---
+# 千百 "hundreds upon hundreds" = countless (ch01)
+千百
+# 万恶淫为首 / 百善孝为先 the Wenchang maxim (万=myriad, 百=the many) (ch01)
+万恶淫为首
+百善孝为先
+# 五短身材 "short and stocky" (idiom; 五短 is not the count five) (ch01)
+五短身材
+# 五颜六色 "of every colour" (idiom) (ch01)
+五颜六色
+# 九流三教 "every trade and calling" (idiom) (ch01)
+九流三教
+# 八太爷 slang for rapacious soldiers (丘八); 八 is not the count eight (ch01)
+八太爷
+# 四下(里) "on all sides / all around"; 四 is not the count four (ch01)
+四下
+# 万国 "all nations" = International, in 万国殡仪馆 the International Funeral
+# Parlour; 万 is not the quantity 10000 (ch01)
+万国
