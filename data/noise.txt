@@ -48,3 +48,13 @@
 九江
 万安
 萬安
+# B03 additions (see PROGRESS.md): weekday names, place/name numerals, footnote markers, idioms
+礼拜[一二三四五六日天]
+星期[一二三四五六日天]
+七○四
+七○五
+立三
+百色
+八拜
+\[\d+\]
+八字

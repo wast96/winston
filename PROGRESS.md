@@ -216,3 +216,123 @@ Branch note: this session was started on a stray branch
 rule 2, all work was consolidated onto the single working branch
 claude/huang-mulan (fast-forward), B02 committed there, and the stray branch
 deleted (local + remote).
+
+## B03 = ch07-ch09  (DONE)
+
+Scope translated: ch07 (Ch 7, In Longhua Prison), ch08 (Ch 8, Racing North and
+South), ch09 (Ch 9, Head of the Rescue Department). 18,809 source chars. No part
+poem in this batch (Part Two runs ch05-ch12; Part Three opens at ch13).
+
+Method: same as B02. English written to out/<id>_en.txt (one paragraph per line,
+first line = English title); scripts/gen_bilingual_b02.py extended with the B03
+DROP map (ch07 drops header+title+two end-of-chapter photo captions on lines
+26/27; ch08 drops only header+title, no images; ch09 drops header+title+the Chen
+family-photo caption and its right-to-left roster on lines 15/16). It reads the
+VERBATIM source straight from data/src/*.txt and asserts paragraph parity.
+
+Paragraph counts (source = translation): ch07 23, ch08 11, ch09 22. The parity
+assertion caught a real defect on the first pass: an invented bridging paragraph
+in ch09 (a duplicated "He Chang was reflecting..." recap that is not in the
+source) was flagged by the 22-vs-23 mismatch and removed. This is exactly the
+failure mode CLAUDE.md rule 4 warns about; the mechanical parity check caught it.
+
+TITLE CORRECTION. ch09's source title 营救部长 was rendered "Rescuing the Minister"
+in the survey/book.json. In context it is the author's POST: she is appointed the
+营救部长 (head of the Rescue Department, 营救部) of the Mutual Aid General
+Association, and the department has its own 干事 (staff officer). So the title
+means "Head of the Rescue Department," not "rescue a minister." book.json title_en
+and the reading heading corrected accordingly, with a footnote explaining the
+title. (No 22-38 chapters touched.)
+
+Source structure handling: ch07's two photos and ch09's one photo are standalone
+caption lines routed to figures.json (the Chen roster folded into the figure
+caption). No caption splits a sentence this batch (unlike ch03).
+
+THE SOURCE'S OWN ENDNOTE. ch08 carries a source endnote [2] on 宛希先 (Wan Xixian),
+linking (index_split_012 -> index_split_016#filepos297881) to a 【注释】 that cites
+Selected Works of Mao Zedong vol.1, "The Struggle in the Jinggang Mountains,"
+p.76. Rendered faithfully as the source's own note (clearly attributed), distinct
+from the translator's notes, matching the B02 handling of the ch05 [1] endnote.
+The noise list strips the raw "[2]" marker digit via \[\d+\].
+
+Checks run and results:
+- check_numbers.py (with data/noise.txt): ch07/ch08/ch09 all 0 unresolved. Real
+  quantities carried as digits where the spelled form is not auto-detected
+  (108 heroes; the 28th of the 7th lunar month). noise.txt extended with weekday
+  names 礼拜[一..六], the prisoner-number forms 七○四/七○五, name/place numerals
+  立三 (Li-San line) and 百色 (Baise), the idiom fragments 八字 (八字开) and 八拜
+  (八拜之交), and the source footnote-marker pattern \[\d+\].
+- check_structure.py parity: 23/11/22, all OK. Anchors: 30 notes total, 0
+  unresolved (the full build refuses on any unmatched anchor).
+- Blind double-translation (check 2, fresh context): the two lines of Peng Pai's
+  Longhua letter, the old-society sayings 衙门口八字开 / 瞒上不瞒下, the
+  camphorwood-trunk courier run on the Empress of France, and the Chen-clan
+  passage (children's rhyme, Weng Tonghe banquet, Huang Jinrong). No material
+  divergence from this edition; the independent rendering confirmed 特务队 =
+  "special-agent squad," 从中活动 = "operate from within," and the rhyme reading
+  ("legs but no trousers... two meals in three days"). No omissions.
+- Fact-check against scholarship (check 7; Wikipedia zh/en, Baidu Baike, party-
+  history and archival pages; a stray Grokipedia hit disregarded per rule 5):
+  * Corroborated: Peng Pai (arrested 24 Aug, shot at Longhua 30 Aug 1929;
+    Hailufeng "King of the Peasants"; Politburo member of the 6th CC); Jiang
+    Yiping (Yu Qiaqing's son-in-law); Naigaiwata No.13 Mill; Luo Mai = Li Weihan
+    (Jiangsu secretary from Nov 1929); Wang Ming/Red Flag; Nie Rongzhen + Zhang
+    Ruihua; Ke Lin (Dasheng Clinic cover); Li Qiang (radios, later trade
+    minister); Li Lisan resolution (11 June 1930); 3rd Plenum (Sept 1930) and 4th
+    Plenum (7 Jan 1931, Mif -> Wang Ming/Bo Gu/Zhang Wentian/Wang Jiaxiang);
+    Wan Xixian (Hunan-Jiangxi border committee, killed in the AB-tuan purge
+    c.1930); Zunyi; He Ping born March 1930, raised by Lu Biao as Lu Ping; Guan
+    Xiangying (b.1902 Jin County, Dalian's first CYL member, 6th-Congress CC,
+    Military Commission secretary, arrested 1931 after Gu Shunzhang's defection,
+    identity kept hidden); Chen Geng (2nd/intelligence section of the Special
+    Branch); Chen Zhigao (Haining Chen clan, descendant of Chen Yuanlong; father
+    Chen Qishou a French-Concession Mixed Court judge); Weng Tonghe (cashiered
+    1898, placed under local supervision); Huang Jinrong (Green Gang, French-
+    Concession chief inspector, Chiang his disciple); Shen Junru/Chu Fucheng
+    (Shanghai College of Law); Shi Zhecun/Dai Wangshu/Du Heng (writers, bailed);
+    World and China Society + Sun Xiaocun (later CPPCC vice-chair).
+  * Contradicted (kept faithful to the source, flagged here): the memoir calls
+    Chen Fu the Northern Bureau "propaganda head"; scholarship makes him the
+    Bureau's secretary-general (propaganda was Yu Zehong). The Longzhou Uprising
+    was Feb 1930 (the memoir's "Nov 1929" covers only Baise, 11 Dec 1929) - the
+    ch08 note gives the correct dates.
+  * Uncorroborated: the specific Peng Pai prison letter naming "Mulan" and its
+    Guangdong-committee edition of 彭湃文集 (the standard 彭湃文集 is People's
+    Publishing House, 1981); rendered as the author's own testimony, the ch07
+    note claims only that the Collected Works exist. Tan Yankai's headship of the
+    Yuelu Academy (which had ceased as an academy in 1903) is unverified; the
+    ch09 note avoids the claim.
+- Random-sample deep audit (check 8, ~4%): the Peng Pai letter paragraph (ch07)
+  and the Empress-of-France courier paragraph (ch08) given the full treatment via
+  the blind double-translation + back-translation; 0 omissions, 0 quantity errors
+  on the audited sample.
+
+Notes: 10 added (ch07 3, ch08 4, ch09 3), for 30 total, renumbered 1-30 by the
+builder in reading order. ch07: Naigaiwata/May Thirtieth, Peng Pai, Longhua
+execution ground. ch08: the source's own endnote + Wan Xixian, the Li Lisan line,
+Deng Rong/Maomao + Baise & Longzhou, Guan Xiangying (at his first appearance, per
+the recurring-subject rule; cross-referenced to the ch09 rescue). ch09: the title
+term 营救部长, Tan Yankai, the Haining Chen clan + the Qianlong folk legend.
+
+Glossary: ~57 rows added (49 people, 4 organizations, 4 places). People incl.
+Jiang Yiping, Yu Qiaqing, Li Weihan (=Luo Mai), Wang Ming, Xia Zhengnong, Nie
+Rongzhen, Ke Lin, Li Qiang, Zhang Ruihua, Xiong Jinding, He Ping, Lu Biao, He
+Baozhen, Peng Zhen, Bo Yibo, Chen Fu, Ren Bishi, Mif, Qin Bangxian (=Bo Gu),
+Zhang Wentian (=Luo Fu), Wang Jiaxiang, Chen Yi, Mao Zetan, Chen Geng, Tan Yankai,
+Huang Xing, Cai E, Gu Shunzhang, Qi Yuande, Chen Zhigao, Chen Yuanlong, Chen
+Qishou, Weng Tonghe, Huang Jinrong, Shen Junru, Chu Fucheng, Shi Zhecun, Dai
+Wangshu, Du Heng, Zhou Kangwen, Sun Xiaocun, Wan Xixian, Deng Rong, and five
+provisional rows (Dai Xiaoyun, Huang Hao, Zhu Bochen, Qian Nashui, Zhao Yunyi,
+Bei Songsun). Orgs: Mutual Aid Society, World and China Society, Naigai Wata,
+Special Branch. Places: Shanghai, Hong Kong, Tianjin, Longhua. Reused all prior
+decisions (Kuomintang, Sun Yat-sen, Chiang Kai-shek, Whampoa, Zhou Enlai, Peng
+Pai, Guan Xiangying, Pan Hannian, Wu Defeng, He Xiangning, Song Qingling, the
+author's three name rows, etc.).
+
+Figures: 3 placed (ch07 2, ch09 1), reusing images 00019-00021 pulled at ingest;
+ch08 has no images. Each carries the source's own caption translated (the Chen
+photo's right-to-left roster folded into its caption).
+
+Build: out/The Autobiography of Huang Mulan.epub, 10 of 44 chapters translated
+(ch00-ch09), 30 notes. qa_epub.py PASS (75 files, 50 documents, all links
+resolve). ch22-ch38 remain pending skeleton pages, as commissioned.

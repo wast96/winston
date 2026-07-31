@@ -1,31 +1,133 @@
 {
-  "_about": "Per-unit figure specs. Each: file (an image pulled into data/figs/), before (an anchor phrase in the FIRST ~80 chars of a reading paragraph; the figure is inserted before that paragraph), alt, caption (the source's own caption, translated). The builder greyscales and shrinks each image.",
-  "ch01": [
-    {"file": "00002.jpg", "before": "In his teens my father passed", "alt": "Portrait of the author's father", "caption": "Portrait of Mulan's father"},
-    {"file": "00003.jpg", "before": "My father's first wife, née Liu", "alt": "Portrait of the author's mother", "caption": "Portrait of Mulan's mother"},
-    {"file": "00004.jpg", "before": "In the spring of 1897", "alt": "Tan Sitong", "caption": "Tan Sitong, the fellow townsman and schoolmate of Mulan's father"},
-    {"file": "00005.jpg", "before": "was to build the line between Wuchang", "alt": "Zhan Tianyou", "caption": "Zhan Tianyou (1861–1919), the noted modern railway engineer"}
-  ],
-  "ch02": [
-    {"file": "00006.jpg", "before": "The Zhounan Girls' School was founded", "alt": "Statue of Zhu Jianfan", "caption": "A statue of Zhu Jianfan"},
-    {"file": "00007.jpg", "before": "Principal Zhu was very enlightened", "alt": "Huang Dinghui at the Zhounan anniversary, 1990", "caption": "1990: Huang Dinghui (Mulan), front row, second from left, at the Zhounan School's eighty-fifth-anniversary celebration and the unveiling of the statue of its founder, Principal Zhu Jianfan"}
-  ],
-  "ch03": [
-    {"file": "00008.jpg", "before": "In the spring of 1926", "alt": "Qiu Jin", "caption": "Qiu Jin, the revolutionary martyr Mulan revered"},
-    {"file": "00009.jpg", "before": "While I was secretary in the women's department", "alt": "Dong Biwu", "caption": "Dong Biwu, the revolutionary pioneer who once worked with Mulan's husband Wan Xiyan"},
-    {"file": "00010.jpg", "before": "In my spare time from work I also often attended", "alt": "Huang Dinghui with Yuan Puzhi", "caption": "Huang Dinghui (Mulan) with her old Northern Expedition comrade Yuan Puzhi"},
-    {"file": "00011.jpg", "before": "In early September the Northern Expedition army took", "alt": "Huang Dinghui with Zhang Duhe", "caption": "Huang Dinghui (Mulan) with her old Northern Expedition comrade Zhang Duhe"},
-    {"file": "00012.jpg", "before": "In December the provisional Kuomintang", "alt": "Qu Qiubai", "caption": "Qu Qiubai, who persuaded Mulan to give up the chance to study in the Soviet Union and return to Wuhan"}
-  ],
-  "ch04": [
-    {"file": "00013.jpg", "before": "After I returned to Wuhan from Shanghai", "alt": "Song Qingling", "caption": "Song Qingling (1893–1981), modern woman revolutionary and social activist, an outstanding fighter for world peace and progress, and Honorary President of the People's Republic of China"},
-    {"file": "00014.jpg", "before": "Xiyan and I first came to know each other at Wuhan in 1926", "alt": "Founding of the Kuomintang's Jiangsu Provincial Party Headquarters, 1925", "caption": "From the Pictorial History of the Shanghai People's Revolution. Original caption: In August 1925 the Kuomintang's Jiangsu Provincial Party Headquarters, led by Communists and the Kuomintang left, was founded in Shanghai. Among those pictured (fourth from the right) is Wan Xiyan, the author's husband, together with Liu Yazi and other left-wing figures"},
-    {"file": "00015.jpg", "before": "After this Women's Day commemorative rally came a great women's parade", "alt": "Huang Dinghui visiting Xie Bingying, 1991", "caption": "March 1991: Huang Dinghui (Mulan), with her third brother Zhangren and his wife, visits her old Northern Expedition friend, the writer Xie Bingying, at a seniors' residence in San Francisco"}
-  ],
-  "ch05": [
-    {"file": "00017.jpg", "before": "We stayed a few days at the Yunzhongtian Hotel", "alt": "Chen Tanqiu", "caption": "Chen Tanqiu, Mulan's leader during her underground work at Nanchang in Jiangxi"}
-  ],
-  "ch06": [
-    {"file": "00018.jpg", "before": "After I reached Shanghai, I was assigned to work in the Secretariat", "alt": "Zhou Enlai", "caption": "Zhou Enlai, Mulan's leader during her work in the Secretariat of the CCP Central at Shanghai. Original photo caption: November 1924, taken when Zhou Enlai became head of the Political Department of the Whampoa Military Academy"}
-  ]
+ "_about": "Per-unit figure specs. Each: file (an image pulled into data/figs/), before (an anchor phrase in the FIRST ~80 chars of a reading paragraph; the figure is inserted before that paragraph), alt, caption (the source's own caption, translated). The builder greyscales and shrinks each image.",
+ "ch01": [
+  {
+   "file": "00002.jpg",
+   "before": "In his teens my father passed",
+   "alt": "Portrait of the author's father",
+   "caption": "Portrait of Mulan's father"
+  },
+  {
+   "file": "00003.jpg",
+   "before": "My father's first wife, née Liu",
+   "alt": "Portrait of the author's mother",
+   "caption": "Portrait of Mulan's mother"
+  },
+  {
+   "file": "00004.jpg",
+   "before": "In the spring of 1897",
+   "alt": "Tan Sitong",
+   "caption": "Tan Sitong, the fellow townsman and schoolmate of Mulan's father"
+  },
+  {
+   "file": "00005.jpg",
+   "before": "was to build the line between Wuchang",
+   "alt": "Zhan Tianyou",
+   "caption": "Zhan Tianyou (1861–1919), the noted modern railway engineer"
+  }
+ ],
+ "ch02": [
+  {
+   "file": "00006.jpg",
+   "before": "The Zhounan Girls' School was founded",
+   "alt": "Statue of Zhu Jianfan",
+   "caption": "A statue of Zhu Jianfan"
+  },
+  {
+   "file": "00007.jpg",
+   "before": "Principal Zhu was very enlightened",
+   "alt": "Huang Dinghui at the Zhounan anniversary, 1990",
+   "caption": "1990: Huang Dinghui (Mulan), front row, second from left, at the Zhounan School's eighty-fifth-anniversary celebration and the unveiling of the statue of its founder, Principal Zhu Jianfan"
+  }
+ ],
+ "ch03": [
+  {
+   "file": "00008.jpg",
+   "before": "In the spring of 1926",
+   "alt": "Qiu Jin",
+   "caption": "Qiu Jin, the revolutionary martyr Mulan revered"
+  },
+  {
+   "file": "00009.jpg",
+   "before": "While I was secretary in the women's department",
+   "alt": "Dong Biwu",
+   "caption": "Dong Biwu, the revolutionary pioneer who once worked with Mulan's husband Wan Xiyan"
+  },
+  {
+   "file": "00010.jpg",
+   "before": "In my spare time from work I also often attended",
+   "alt": "Huang Dinghui with Yuan Puzhi",
+   "caption": "Huang Dinghui (Mulan) with her old Northern Expedition comrade Yuan Puzhi"
+  },
+  {
+   "file": "00011.jpg",
+   "before": "In early September the Northern Expedition army took",
+   "alt": "Huang Dinghui with Zhang Duhe",
+   "caption": "Huang Dinghui (Mulan) with her old Northern Expedition comrade Zhang Duhe"
+  },
+  {
+   "file": "00012.jpg",
+   "before": "In December the provisional Kuomintang",
+   "alt": "Qu Qiubai",
+   "caption": "Qu Qiubai, who persuaded Mulan to give up the chance to study in the Soviet Union and return to Wuhan"
+  }
+ ],
+ "ch04": [
+  {
+   "file": "00013.jpg",
+   "before": "After I returned to Wuhan from Shanghai",
+   "alt": "Song Qingling",
+   "caption": "Song Qingling (1893–1981), modern woman revolutionary and social activist, an outstanding fighter for world peace and progress, and Honorary President of the People's Republic of China"
+  },
+  {
+   "file": "00014.jpg",
+   "before": "Xiyan and I first came to know each other at Wuhan in 1926",
+   "alt": "Founding of the Kuomintang's Jiangsu Provincial Party Headquarters, 1925",
+   "caption": "From the Pictorial History of the Shanghai People's Revolution. Original caption: In August 1925 the Kuomintang's Jiangsu Provincial Party Headquarters, led by Communists and the Kuomintang left, was founded in Shanghai. Among those pictured (fourth from the right) is Wan Xiyan, the author's husband, together with Liu Yazi and other left-wing figures"
+  },
+  {
+   "file": "00015.jpg",
+   "before": "After this Women's Day commemorative rally came a great women's parade",
+   "alt": "Huang Dinghui visiting Xie Bingying, 1991",
+   "caption": "March 1991: Huang Dinghui (Mulan), with her third brother Zhangren and his wife, visits her old Northern Expedition friend, the writer Xie Bingying, at a seniors' residence in San Francisco"
+  }
+ ],
+ "ch05": [
+  {
+   "file": "00017.jpg",
+   "before": "We stayed a few days at the Yunzhongtian Hotel",
+   "alt": "Chen Tanqiu",
+   "caption": "Chen Tanqiu, Mulan's leader during her underground work at Nanchang in Jiangxi"
+  }
+ ],
+ "ch06": [
+  {
+   "file": "00018.jpg",
+   "before": "After I reached Shanghai, I was assigned to work in the Secretariat",
+   "alt": "Zhou Enlai",
+   "caption": "Zhou Enlai, Mulan's leader during her work in the Secretariat of the CCP Central at Shanghai. Original photo caption: November 1924, taken when Zhou Enlai became head of the Political Department of the Whampoa Military Academy"
+  }
+ ],
+ "ch07": [
+  {
+   "file": "00019.jpg",
+   "before": "of 1990, a forum of the Longhua",
+   "alt": "Huang Dinghui (Mulan) at the Longhua Martyrs' Memorial, 1990",
+   "caption": "Huang Dinghui (Mulan), photographed at the Longhua Martyrs' Memorial after taking part in the 1990 forum of the Longhua fellow sufferers."
+  },
+  {
+   "file": "00020.jpg",
+   "before": "of 1990, a forum of the Longhua",
+   "alt": "Huang Dinghui (Mulan) at the former Kuomintang Garrison Command, 1990",
+   "caption": "Huang Dinghui (Mulan), photographed at the former Kuomintang Garrison Command after taking part in the 1990 forum of the Longhua fellow sufferers."
+  }
+ ],
+ "ch09": [
+  {
+   "file": "00021.jpg",
+   "before": "Chen Zhigao was a native of Haining in Zhejiang",
+   "alt": "The Chen family portrait, Shanghai, 1917",
+   "caption": "The Chen family, a full-family portrait (Shanghai, 1917). From the right: Gengyu, Zhigao, the venerable Jieqing (Chen Qishou), Yingu, Youdan, Yinzhang, Shijun, the Elder Madame Pan, Baozhang, Ruizhu."
+  }
+ ]
 }
