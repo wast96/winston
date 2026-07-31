@@ -68,7 +68,7 @@ NOISE = [
     # --- measure words: a bare 一 + classifier is "a/an", not the count 1 ---
     r"一[艘條条頂顶隻只個个位群把張张片口指邊边旁時时下陣阵壺壶碟種种番場场股家棵套幅]",
     r"一[輛辆眼躬支絲丝聲声定天次間间驚惊槍枪動动言樣样路批封面團团句道年身手筆笔遍]",
-    r"[一不][旦時时般點点些]",
+    r"[一不][旦時时般些]",  # 點点 handled below with a digit lookbehind (keep 十一点)
     r"[幾几數数][盞盏輛辆個个位十百千萬万條条艘句步進进層层次口杯天年分]",
     r"[幾几數数][十百千]",                          # 幾十/數百 "some tens/hundreds"
     # 十分/十几 are idioms ("very", "ten-odd") ONLY when 十 is not preceded by a
@@ -96,7 +96,11 @@ NOISE = [
     r"(?<![一二两兩三四五六七八九])十分",  # 十分 = "very", not 10 (keep 二十分/三十分 clock-minutes)
     r"四面八方", r"四通八達", r"四通八达", r"一心一意", r"一五一十",
     # bare 一 as adverb/idiom fragment: 一[direction/time/manner], not the count
-    r"一[舉举動动身面言語语氣气日夜時时刻步分寸點点]", r"兩[頭头端邊边面全難难]",
+    r"一[舉举動动身面言語语氣气日夜時时刻步分寸]", r"兩[頭头端邊边面全難难]",
+    # 一点/一點 = "a little", but a digit lookbehind (incl. 十) keeps clock hours
+    # like 十一点/十二点 (11/12 o'clock) intact instead of eating the 一 out of
+    # them and orphaning a bare 十 read as the quantity 10.
+    r"(?<![十零一二两兩三四五六七八九])一[點点]",
     r"三[番兩两]", r"四[面方處处海座周]", r"九[鼎]", r"八[面方]",
     r"一一",                                        # 一一 "one by one"
 ]

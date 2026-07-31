@@ -186,3 +186,105 @@ Flagged for the read-through:
 Build: out/On a Hair Trigger.epub rebuilt, 8 of 36 units translated, 23 notes.
 qa_epub.py PASS (36 documents, 1088 paragraphs, 23 references = 23 bodies = 23
 backlinks, all links resolve).
+
+## B03 = Chapters 8 to 10 (ch08 to ch10) — DONE
+
+Translated end to end: ch08 (5,714 chars, 170 paras), ch09 (4,701 chars, 120
+paras), ch10 (4,779 chars, 129 paras); ~15,194 source chars, 419 paragraphs.
+Authoring flow as B02: out/<id>_en.txt (one English paragraph per source
+paragraph), then scripts/make_bilingual.py (verbatim `>` source lines), then
+split_bilingual.py for the reading text and parity source. Story: Ronghua
+revealed as a CCP Special Branch liaison (codename Floating Dust), who saves the
+wounded courier Lao Yu with an emergency operation performed by A-Chu (who is
+mistaken, in Lao Yu's delirium, for Yang Muci); the Yang birthday ball, where
+A-Chu is taken for the absent Yang son and strays into the shrine of the "dead"
+infant Yang Muchu and meets the black-clad Madam Yang (Yingzi); the drunken Tang
+Shaoli's scene and A-Chu's exit; the lost crystal shoe that Yingzi carries to
+Yang Yubo along with A-Chu's card; and He Yashu's jade-bracelet gambit at the
+Tongji Hospital, undone when Rong Sheng produces the bracelet at the French Park.
+
+Checks run and what they found:
+- Check 1, faithful verbatim quotation: each parity source (data/zh/<id>.txt)
+  diffed line-for-line against the raw source paragraphs. ZERO content diffs on
+  all three units (170/120/129 paras); only diff is the source files' missing
+  final newline. Every source paragraph quoted verbatim, none dropped or merged.
+- Check 4a, check_numbers.py --noise data/noise.txt: 0 unresolved on all three
+  units (and re-verified 0 on all eight ch00–ch07 units after the tooling fix
+  below).
+- Check 4b, check_structure.py --pairs: paragraph parity OK on all three
+  (170/120/129 source = translation).
+- Check 2, blind double translation: six argumentative/lyrical passages
+  re-rendered blind in a separate context and diffed, First Madam's flower/grass
+  metaphor (ch08), Tang Shaoli's monologue on desire and A-Chu's "upstart" retort
+  (ch09), Yang Yubo's confession of guilt (ch09), the "seed of love" lyric and
+  A-Chu's "solitary sage / cut the flower of one heart" speech (ch10). No
+  substantive divergence on any; the independent pass independently confirmed
+  同心 = the 同心结 love-knot behind the ch10 title.
+- Check 3, round-trip back-translation: ch08's exposition of Ronghua's cover
+  (中共特科联络员…上海与延安…书店…联络站) back-translated and checked clause by
+  clause; every element recovered, no omissions.
+- Check 7, scholarship (corroborated / uncorroborated / contradicted):
+  * ch08 title 前度杨郎今又来 = Liu Yuxi, 再游玄都观 (前度刘郎今又来), CORROBORATED;
+    杨 substituted for 刘. Footnoted.
+  * ch08 狸猫换太子 = the Song "leopard-cat for the crown prince" tale (三侠五义 /
+    opera; Emperor Renzong), legend, not history; footnoted as such.
+  * ch09 title 开门人即闭门人 = the Chan reincarnation verse attached to Wang
+    Yangming (开门犹是闭门人), folk legend, footnoted as such.
+  * ch09 怡红公子 = Jia Baoyu's sobriquet in 红楼梦, CORROBORATED. Footnoted.
+  * ch09 爱新觉罗改姓金 (Aisin = "gold" in Manchu → Han surname Jin after 1911) , 
+    CORROBORATED. Footnoted.
+  * ch10 title 误剪同心一片花, NOT a traceable single quotation; built from the
+    同心结/同心花 love-knot imagery (cf. Li He, 苏小小墓). Rendered literally,
+    footnoted honestly as such.
+  * ch10 乍暖还寒，最难将息 = Li Qingzhao, 声声慢, CORROBORATED. Footnoted.
+  * ch10 the Duke of Windsor = Edward VIII, 1936 abdication, CORROBORATED; the
+    "Windsor knot" is named for him but by most accounts he never tied one
+    (thick-lined four-in-hand), noted in the footnote.
+- Check 8, random-sample paranoid audit: the six double-translated passages plus
+  the ch08 back-translation cover ~4% of the batch (≈16 of 419 paragraphs, the
+  densest argumentative/lyrical material). Observed substantive error rate: 0.
+
+Footnotes: 9 added (notes #24–#32 in reading order), 3 per chapter, the three
+chapter-title couplets plus, per chapter, one allusion or reference a
+non-specialist would miss (狸猫换太子 and 灯下黑 for ch08; 怡红公子 and 爱新觉罗→金
+for ch09; 乍暖还寒 Li Qingzhao and the Duke of Windsor for ch10). Every anchor
+verified as a unique verbatim substring of the English prose before building;
+XHTML bodies use numeric character references only; hanzi written literally.
+
+Glossary: 24 new rows, one decided rendering per referent. People: Yang Sitong,
+Tang Shaoqi, Tang Shaoli, Madam Yang, Yingzi, Yang Muchu, A-Ci, Hong'er, Yun'er,
+the He family, the Tang family. Organizations: the Financial News, the Shanghai
+Garrison Command. Places: Yan'an, Yuyuan Road, the Ciyun Temple, Xianghe Lane,
+the French Park, the Zuiju Waterside Pavilion. Terms: Floating Dust (浮尘
+codename), Longjing, the Qingming Festival, the Duke of Windsor, heart-knit knot
+(同心结). Ronghua's existing row updated to record her revealed Special Branch
+role. Recurring cast reused unchanged (Ronghua, Rong Sheng, A-Chu, Lao Yu, Yang
+Muci, Jiang Lishui, He Yashan, He Yashu, Xing'er, Chan'er, A-Fu, Fourth/First/
+Third Madam, Tongji Hospital, Huamei Bookstore, Special Branch).
+
+Figures: none in this batch.
+
+Tooling fix made this batch (generic, recorded per CLAUDE.md):
+- scripts/check_numbers.py: gave the 一点/一點 ("a little") noise patterns the same
+  digit-and-十 lookbehind the clock-minute patterns already use, so clock hours
+  like 十一点/十二点 (11/12 o'clock) keep their 一 instead of the generic 一点 eating
+  it and orphaning a bare 十 read as the quantity 10. (Two patterns touched:
+  the `[一不][旦時时般點点些]` set and the `一[...點点]` set; 點点 pulled out into a
+  guarded pattern.) Re-verified 0 unresolved on all eight ch00–ch07 units.
+- data/noise.txt additions (non-quantity numerals flagged and confirmed): 万丈 /
+  萬丈 (万丈深潭 "bottomless abyss"), 五、六十 (source's abbreviation of 五十、六十
+  "fifty or sixty [square meters]", where the bare 五 stands for 50).
+
+Flagged for the read-through:
+- ch09 title (开门人即闭门人) and ch10 title (误剪同心一片花): the former is a Chan
+  reincarnation verse (Wang Yangming legend), the latter not a traceable
+  quotation but classical love-knot imagery; both footnoted, rendered literally.
+- ch10 袅娜多情春尽 (the "idle line" Rong Sheng half-recalls): the source itself
+  labels it 无聊句子, so it is rendered literally without a scholarly note.
+- Source's own inconsistencies kept as-is: 她的女儿 for Yang Yubo's daughter (他
+  intended; rendered "his daughter"); 表哥/表弟/表姐 for the same cousin pair
+  (rendered "Cousin" throughout to avoid a false elder/younger distinction).
+
+Build: out/On a Hair Trigger.epub rebuilt, 11 of 36 units translated, 32 notes.
+qa_epub.py PASS (36 documents, 1504 paragraphs, 32 references = 32 bodies = 32
+backlinks, all links resolve).

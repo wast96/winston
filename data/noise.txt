@@ -49,3 +49,10 @@
 十八、九
 # 王八 = "cuckold/bastard" insult (贼王八); 八 is part of the word, not 8
 王八
+# --- B03 (ch8-10) additions: non-quantity numerals flagged by check_numbers ---
+# 万丈 in 万丈深潭 ("a bottomless abyss"); 万 is idiom-intensifier, not 10000
+万丈
+萬丈
+# 五、六十(平方) = "fifty or sixty (square meters)"; source abbreviates 五十、六十
+# as 五、六十, so the bare 五 stands for 50 (rendered "fifty"), not the count 5
+五、六十
