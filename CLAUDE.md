@@ -256,7 +256,10 @@ form and rebuild.
 When a batch is done, rewrite `HANDOFF.md` so a fresh session with no memory can
 start the next batch immediately. Its FIRST section, under
 `## Message to paste into the next chat` and inside a fenced block, is a
-ready-to-paste kickoff message for the next batch: read `CLAUDE.md`, then
+ready-to-paste kickoff message for the next batch. Its FIRST line is the batch
+label `Hair Trigger B<nn>` (e.g. `Hair Trigger B03`), on its own line, so every
+kickoff opens the same recognizable way; the instructions follow beneath it. The
+message then says: read `CLAUDE.md`, then
 `HANDOFF.md`, then `book.json`; do batch `<Bxx>` = `<scope>` end to end; read the
 batch's source text from `data/src/`, translate to the register, run the checks,
 footnote, rebuild the EPUB with the pending-aware TOC, run `qa_epub.py` until

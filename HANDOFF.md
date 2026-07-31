@@ -11,6 +11,8 @@ Batch B03 is next.
 ## Message to paste into the next chat
 
 ```
+Hair Trigger B03 — Chapters 8 to 10 (ch08, ch09, ch10).
+
 Read CLAUDE.md in full (the working rules at the top are non-negotiable), then
 HANDOFF.md, then book.json. Do Batch B03 end to end: Chapters 8 to 10 (ch08, ch09,
 ch10), roughly 15,194 source characters. This continues the novel from Batch B02
