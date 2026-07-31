@@ -261,10 +261,16 @@ ready-to-paste kickoff message for the next batch: read `CLAUDE.md`, then
 batch's source text from `data/src/`, translate to the register, run the checks,
 footnote, rebuild the EPUB with the pending-aware TOC, run `qa_epub.py` until
 green, commit, rewrite `HANDOFF.md`; cite chapters/sections; never invent bridging
-text; do not pause for approval; deliver the EPUB in chat. Paste that message
-verbatim at the end of your chat reply too. On the LAST batch, the message says
-to do any back matter and a whole-book QA pass and write a completion report
-instead of another handoff.
+text; do not pause for approval; deliver the EPUB in chat. On the LAST batch, the
+message says to do any back matter and a whole-book QA pass and write a completion
+report instead of another handoff.
+
+**ALWAYS present the paste-ready kickoff message to the commissioner at the end of
+every batch reply, verbatim and inside its own fenced code block, without being
+asked.** This is non-negotiable and applies to every batch (and to any reply where
+the commissioner asks to see the handoff): copy the block from `HANDOFF.md`'s
+`## Message to paste into the next chat` section exactly, change nothing, and put
+it as the last thing in the reply so it can be copied in one action.
 
 ## Corrections workflow
 
