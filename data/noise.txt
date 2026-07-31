@@ -1,0 +1,33 @@
+# Project-specific noise regexes for check_numbers.py (B01+).
+# Each line is a regex stripped from the SOURCE before numerals are counted.
+# Add an entry ONLY for a numeral that is not a real quantity (a name/address
+# with digits, a decade label, a set phrase), with a note on why.
+
+# decade labels: "70年代" = the 1970s, not the quantity 70
+\d+年代
+# street address on Route Lafayette: 四一三○八号 is a house number, not counts
+四一三[○〇]八
+# 三天两头 = "every other day" (idiom), not the counts 3/2
+三天两头
+# 一清早 = "first thing in the morning", the 一 is not a count
+一清早
+# 第二天/第二日 = "the next day" (idiom); the 2 is not a count. (第二次 "the
+# second time" and 第三天 "the third day" ARE counts and are left in.)
+第二[天日]
+# weekday names: 星期六 = Saturday, etc.; the digit names the day, not a count
+星期[一二三四五六日天]
+# idiomatic intensifiers, not quantities:
+五彩
+万种
+十二分
+# 百合 = "lily" (recurring simile 百合初放 "a lily just opening"); the 百 is not 100
+百合
+# 百乐门 = the Paramount (proper noun, dance hall); the 百 is not 100
+百乐门
+# 十字架 = "cross" (the shape); the 十 is not the count 10
+十字架
+# 四围 = "all around"; the 四 is not a count
+四围
+# 两个字 = "the two characters" of a Chinese word (meta-linguistic); not a count
+两个字
+# 一时 handled by the built-in measure list; 万分 already built in.

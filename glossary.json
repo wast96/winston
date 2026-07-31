@@ -1,15 +1,226 @@
 {
   "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
-  "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
-  "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
+  "book": {
+    "风萧萧": {
+      "en": "The Whistling Wind",
+      "pinyin": "Feng xiao xiao",
       "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+      "note": "The novel's title. It quotes the opening of the parting song sung for the assassin Jing Ke at the Yi River, <i>风萧萧兮易水寒</i> (&#8216;the wind whistles, cold runs the Yi&#8217;); the note of doomed, high-minded sacrifice governs the book."
+    }
+  },
+  "people": {
+    "徐訏": {
+      "en": "Xu Xu",
+      "pinyin": "Xu Xu",
+      "status": "attested",
+      "note": "Chinese writer (1908&#8211;1980), the novel's author; original name Xu Chuanzong (<span lang=\"zh-Hans\">徐傳琮</span>), pen name Xu Xu. Pinyin form standard in English-language scholarship (older romanization Hsu Yu)."
+    },
+    "史蒂芬": {
+      "en": "Stephen",
+      "pinyin": "Shidifen",
+      "status": "decided",
+      "note": "C.&#160;L. Stephen, the American naval surgeon; <span lang=\"zh-Hans\">史蒂芬</span> transliterates the English name Stephen, restored here."
+    },
+    "白苹": {
+      "en": "Bai Ping",
+      "pinyin": "Bai Ping",
+      "status": "decided",
+      "note": "A dancer at the Paramount, secretly a Chinese agent. Pinyin; <span lang=\"zh-Hans\">苹</span> read <i>ping</i>."
+    },
+    "梅瀛子": {
+      "en": "Mei Yingzi",
+      "pinyin": "Mei Yingzi",
+      "status": "decided",
+      "note": "A dazzling Eurasian socialite; her father was Chinese (long resident in Japan), her mother American. Pinyin."
+    },
+    "海伦": {
+      "en": "Helen",
+      "pinyin": "Hailun",
+      "status": "decided",
+      "note": "Helen Manfield, a shy, music-loving young American. <span lang=\"zh-Hans\">海伦</span> = Helen."
+    },
+    "曼斐儿": {
+      "en": "Manfield",
+      "pinyin": "Manfei'er",
+      "status": "provisional",
+      "note": "Helen's surname; <span lang=\"zh-Hans\">曼斐儿</span> transliterates a Western surname whose exact original spelling the source does not give. &#8216;Manfield&#8217; is a plausible reconstruction."
+    },
+    "费利普": {
+      "en": "Dr. Philip",
+      "pinyin": "Feilipu",
+      "status": "provisional",
+      "note": "The surgeon whose clinic Stephen uses; the source spells the name two ways (<span lang=\"zh-Hans\">费利普</span> and <span lang=\"zh-Hans\">菲利浦</span>), both transliterating Philip/Phillips."
+    },
+    "高": {
+      "en": "Gao",
+      "pinyin": "Gao",
+      "status": "decided",
+      "note": "Mr. Gao, the Chinese manager of the Weibai Hotel; his American wife and their daughter, Miss Gao, appear at Stephen's party."
+    }
+  },
+  "organizations": {
+    "工部局乐队": {
+      "en": "Shanghai Municipal Orchestra",
+      "pinyin": "Gongbuju yuedui",
+      "status": "attested",
+      "note": "The orchestra of the Shanghai Municipal Council (<span lang=\"zh-Hans\">工部局</span>), long led by Mario Paci; in its day the most celebrated orchestra in the Far East."
+    },
+    "北京大学": {
+      "en": "Peking University",
+      "pinyin": "Beijing Daxue",
+      "status": "attested",
+      "note": "Conventional English name of the university; Xu Xu read philosophy there."
+    },
+    "百乐门": {
+      "en": "the Paramount",
+      "pinyin": "Bailemen",
+      "status": "attested",
+      "note": "The Paramount Ballroom (<span lang=\"zh-Hans\">百乐门</span>) on Bubbling Well Road, Shanghai's most famous dance hall."
+    }
+  },
+  "places": {
+    "上海": {"en": "Shanghai", "pinyin": "Shanghai", "status": "attested", "note": ""},
+    "重庆": {"en": "Chongqing", "pinyin": "Chongqing", "status": "attested", "note": "Wartime capital of Nationalist China."},
+    "香港": {"en": "Hong Kong", "pinyin": "Xianggang", "status": "attested", "note": ""},
+    "辣斐德路": {
+      "en": "Route Lafayette",
+      "pinyin": "Lafeide Lu",
+      "status": "attested",
+      "note": "A street in the French Concession (today Fuxing Middle Road)."
+    },
+    "静安寺路": {
+      "en": "Bubbling Well Road",
+      "pinyin": "Jing'ansi Lu",
+      "status": "attested",
+      "note": "Major road in the International Settlement, named for the Jing'an (Bubbling Well) Temple; today Nanjing West Road."
+    },
+    "麦特赫司脱路": {
+      "en": "Medhurst Road",
+      "pinyin": "Maitehesituo Lu",
+      "status": "attested",
+      "note": "A road off Bubbling Well Road (today Taixing Road); the source also spells it <span lang=\"zh-Hans\">麦特赫斯脱路</span>."
+    },
+    "愚园路": {
+      "en": "Yuyuan Road",
+      "pinyin": "Yuyuan Lu",
+      "status": "attested",
+      "note": "A road running west from the Jing'an area."
+    },
+    "霞飞路": {
+      "en": "Avenue Joffre",
+      "pinyin": "Xiafei Lu",
+      "status": "attested",
+      "note": "The French Concession's main thoroughfare, lined with cafés and shops (today Huaihai Middle Road)."
+    },
+    "海格路": {
+      "en": "Avenue Haig",
+      "pinyin": "Haige Lu",
+      "status": "attested",
+      "note": "A road on the western edge of the Settlement (today Huashan Road)."
+    },
+    "善锺路": {
+      "en": "Route de Sieyès",
+      "pinyin": "Shanzhong Lu",
+      "status": "attested",
+      "note": "A French Concession street (today Changshu Road); source form <span lang=\"zh-Hans\">善锺路</span>."
+    },
+    "贝当路": {
+      "en": "Route Pétain",
+      "pinyin": "Beidang Lu",
+      "status": "attested",
+      "note": "A French Concession road (today Hengshan Road)."
+    },
+    "四马路": {
+      "en": "Fourth Avenue",
+      "pinyin": "Sima Lu",
+      "status": "attested",
+      "note": "Popular Shanghai nickname (one of the numbered &#8216;horse roads&#8217;) for the settlement's Foochow Road, today Fuzhou Road, known for small restaurants, bookshops and nightlife."
+    },
+    "南京路": {
+      "en": "Nanjing Road",
+      "pinyin": "Nanjing Lu",
+      "status": "attested",
+      "note": "Shanghai's premier shopping street (historically &#8216;Nanking Road&#8217;)."
+    },
+    "徐家汇": {
+      "en": "Xujiahui",
+      "pinyin": "Xujiahui",
+      "status": "attested",
+      "note": "District in the southwest of Shanghai (older form Zikawei/Ziccawei), site of the Jesuit St Ignatius Cathedral."
+    },
+    "仁济医院": {
+      "en": "Renji Hospital",
+      "pinyin": "Renji Yiyuan",
+      "status": "attested",
+      "note": "A long-established Shanghai hospital (Shanghai's first Western hospital, founded 1844), known to foreigners as the Chinese Hospital or Shantung Road Hospital."
+    },
+    "百乐门舞厅": {
+      "en": "the Paramount",
+      "pinyin": "Bailemen wuting",
+      "status": "attested",
+      "note": "See the Paramount, above."
+    },
+    "维纳斯": {
+      "en": "the Venus",
+      "pinyin": "Weinasi",
+      "status": "decided",
+      "note": "A dance hall; <span lang=\"zh-Hans\">维纳斯</span> = Venus."
+    },
+    "丽都": {
+      "en": "the Lido",
+      "pinyin": "Lidu",
+      "status": "attested",
+      "note": "A Shanghai dance hall / entertainment venue."
+    },
+    "凯莎舞厅": {
+      "en": "the Kaisha",
+      "pinyin": "Kaisha wuting",
+      "status": "provisional",
+      "note": "A dance hall; romanization of <span lang=\"zh-Hans\">凯莎</span>."
+    },
+    "立体咖啡馆": {
+      "en": "the Liti Café",
+      "pinyin": "Liti kafeiguan",
+      "status": "provisional",
+      "note": "A café near the corner of Bubbling Well and Medhurst Roads; <span lang=\"zh-Hans\">立体</span> means &#8216;solid&#8217; or &#8216;three-dimensional&#8217;."
+    },
+    "大华电影院": {
+      "en": "the Majestic Cinema",
+      "pinyin": "Dahua Dianyingyuan",
+      "status": "provisional",
+      "note": "A Shanghai picture house; <span lang=\"zh-Hans\">大华</span> was the Chinese name of the Majestic."
+    },
+    "芭口公寓": {
+      "en": "the Bakou Apartments",
+      "pinyin": "Bakou gongyu",
+      "status": "provisional",
+      "note": "The apartment building where Mrs. Manfield lives; <span lang=\"zh-Hans\">芭口</span> transliterates a Western name not identified in the source (pinyin romanization used here)."
+    },
+    "魏白饭店": {
+      "en": "the Weibai Hotel",
+      "pinyin": "Weibai Fandian",
+      "status": "provisional",
+      "note": "A hotel managed by Mr. Gao; <span lang=\"zh-Hans\">魏白</span> transliterates a Western name not identified in the source."
+    }
+  },
+  "terms": {
+    "孤岛": {
+      "en": "the Solitary Island",
+      "pinyin": "gudao",
+      "status": "attested",
+      "note": "The name for the foreign-concession enclave of Shanghai between the Japanese occupation of the surrounding city in 1937 and the seizure of the concessions after Pearl Harbor in December 1941, during which the concessions kept a precarious neutral status."
+    },
+    "鬼恋": {
+      "en": "Ghost Love",
+      "pinyin": "Gui lian",
+      "status": "attested",
+      "note": "Xu Xu's 1937 novella, the work that made his name."
+    },
+    "江湖行": {
+      "en": "River of Fury",
+      "pinyin": "Jianghu xing",
+      "status": "attested",
+      "note": "Xu Xu's later long novel, published 1956&#8211;1961; rendered <i>River of Fury</i> in the scholarship of Frederik Green. The Chinese <span lang=\"zh-Hans\">江湖行</span> means &#8216;a journey through the rivers and lakes&#8217; (the itinerant world)."
     }
   }
 }

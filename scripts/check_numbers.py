@@ -60,6 +60,15 @@ MONTHS = {1: "january", 2: "february", 3: "march", 4: "april", 5: "may",
 # Both simplified and Traditional forms are included where they differ, so the
 # list works on either script. Extend with whichever your book uses.
 NOISE = [
+    # --- PROJECT (The Whistling Wind): time expressions, added at the TOP so
+    # they are consumed BEFORE the greedy idiom pattern r"十分" (=very) can eat
+    # the "十分" out of "二十分钟"/"五十分" and orphan the leading digit. Clock
+    # times and durations are not the load-bearing quantities this check exists
+    # to guard (money, counts, years), so stripping them whole is safe. Added
+    # B01, after check_numbers flagged the orphans on 二十分钟 and 三点五十分.
+    r"[一二三四五六七八九十百]+点[一二三四五六七八九十百]+分",  # clock: 三点五十分
+    r"[一二三四五六七八九十百]+分[钟鐘]",                     # duration: 二十分钟
+    r"[一二三四五六七八九]十几",                              # 四十几 "forty-odd" (approx age)
     # --- list enumerators & fractions (structure, not quantities) ---
     r"\d+[．.、]",                                  # "1." "2、" sub-item heads
     r"[一二三四五六七八九十百千零]+分之[一二三四五六七八九十百千零]+",  # 二分之一, fractions
