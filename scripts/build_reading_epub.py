@@ -539,6 +539,11 @@ def main(epub_path):
                         re.sub(r"[^a-z0-9]+", "-",
                                book.get("title_en", "book").lower())[:48]),
         "translator_note_paragraphs": book.get("translator_note"),
+        "publisher": book.get("publisher", ""),
+        "description": book.get("description", ""),
+        "subject": book.get("subject", []),
+        "language": book.get("language", "en"),
+        "publication_date": book.get("publication_date", ""),
     }
     structure = [c for c in book.get("structure", []) if c.get("id", "").startswith("ch")]
     if not structure:
@@ -729,19 +734,42 @@ def main(epub_path):
         items.append('<item id="fig%d" href="images/%s" media-type="image/png"/>' % (i, f))
     spine = "".join('<itemref idref="d%d"/>' % i for i in range(1, len(docs) + 1))
 
+    from datetime import datetime, timezone
+    modified = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    lang = esc(meta["language"] or "en")
+    md_parts = [
+        '<dc:identifier id="pub-id">%s</dc:identifier>' % meta["uid"],
+        '<dc:title id="title">%s</dc:title>' % esc(meta["title_en"]),
+        '<meta refines="#title" property="title-type">main</meta>',
+        '<dc:language>%s</dc:language>' % lang,
+    ]
+    if meta["author_en"]:
+        md_parts.append('<dc:creator id="creator">%s</dc:creator>' % esc(meta["author_en"]))
+        md_parts.append('<meta refines="#creator" property="role" scheme="marc:relators">aut</meta>')
+        md_parts.append('<meta refines="#creator" property="file-as">%s</meta>'
+                        % esc(meta["author_en"]))
+    if meta["publisher"]:
+        md_parts.append('<dc:publisher>%s</dc:publisher>' % esc(meta["publisher"]))
+    if meta["description"]:
+        md_parts.append('<dc:description>%s</dc:description>' % esc(meta["description"]))
+    for subj in meta["subject"]:
+        md_parts.append('<dc:subject>%s</dc:subject>' % esc(subj))
+    if meta["publication_date"]:
+        md_parts.append('<dc:date>%s</dc:date>' % esc(meta["publication_date"]))
+    elif meta["year"]:
+        md_parts.append('<dc:date>%s-01-01</dc:date>' % esc(str(meta["year"])))
+    md_parts.append('<meta property="dcterms:modified">%s</meta>' % modified)
+    md_parts.append('<meta property="ibooks:specified-fonts">true</meta>')
+
     with open(os.path.join(oebps, "content.opf"), "w") as fh:
-        fh.write('<?xml version="1.0" encoding="utf-8"?>'
+        fh.write('<?xml version="1.0" encoding="utf-8"?>\n'
                  '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" '
-                 'unique-identifier="pub-id"><metadata '
-                 'xmlns:dc="http://purl.org/dc/elements/1.1/">'
-                 "<dc:identifier id=\"pub-id\">%s</dc:identifier>"
-                 "<dc:title>%s</dc:title><dc:language>en</dc:language>"
-                 "<dc:creator>%s</dc:creator>"
-                 '<meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>'
-                 "</metadata><manifest>%s</manifest>"
-                 "<spine toc=\"ncx\">%s</spine></package>"
-                 % (meta["uid"], esc(meta["title_en"]), esc(meta["author_en"]),
-                    "".join(items), spine))
+                 'unique-identifier="pub-id" prefix="ibooks: '
+                 'http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">\n'
+                 '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">\n'
+                 + "\n".join(md_parts) + "\n"
+                 "</metadata>\n<manifest>\n" + "\n".join(items) + "\n</manifest>\n"
+                 '<spine toc="ncx">\n' + spine + "\n</spine>\n</package>")
 
     with open(os.path.join(BUILD, "META-INF", "container.xml"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'

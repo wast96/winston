@@ -8,6 +8,13 @@
   "year": 1933,
   "uid": "urn:uuid:my-book-slug-1",
 
+  "_metadata_note": "EPUB metadata for e-reader compatibility (Kindle, Apple Books). All values should be in English. publisher is the original publisher; description is a short blurb; subject is a list of genre/topic strings; language defaults to 'en'. publication_date is ISO format (YYYY-MM-DD) of the original publication; if only the year is known, use YYYY-01-01.",
+  "publisher": "",
+  "description": "",
+  "subject": [],
+  "language": "en",
+  "publication_date": "",
+
   "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212; em dash, &#160; nbsp), never named entities. If omitted, a generic method note is generated.",
   "translator_note": [
     "This is an English translation of <i>中文書名</i>, from an image-only scan with no digital text layer.",

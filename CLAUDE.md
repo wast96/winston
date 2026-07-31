@@ -50,7 +50,29 @@ needs, a glossary, and an honest apparatus for damaged or uncertain passages.
 The whole structure of the book is declared once in `book.json`; the build is
 driven entirely from it.
 
-## Step 0: the structural survey (do this FIRST, before any batch)
+## Step 0a: set EPUB metadata (do this BEFORE the survey)
+
+Before anything else, fill in the English-language metadata fields in
+`book.json`. These are embedded in the EPUB's OPF package and are what Kindle
+and Apple Books display in their library views:
+
+- `title_en` -- the book's English title (becomes the EPUB's display title).
+- `author_en` -- author name in English/pinyin.
+- `year` -- original publication year.
+- `publication_date` -- ISO date (YYYY-MM-DD); falls back to `year`-01-01.
+- `publisher` -- original publisher name in English.
+- `description` -- a short English-language blurb / summary.
+- `subject` -- a JSON list of genre/topic strings (e.g. `["History", "China"]`).
+- `language` -- defaults to `"en"`.
+- `uid` -- a stable unique identifier (URN or UUID).
+
+The builder reads these and writes them into the EPUB's `content.opf` metadata
+block with proper Dublin Core elements, MARC relator codes for the author, and
+the Apple Books `ibooks:specified-fonts` property. The `dcterms:modified`
+timestamp is set automatically at build time. This metadata is carried from the
+very first skeleton EPUB onward, so it is always present.
+
+## Step 0b: the structural survey (do this FIRST, before any batch)
 
 Before a single word is translated, deliver a survey of the whole book so the
 commissioner can see its shape, know its size, and approve how it will be
