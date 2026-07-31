@@ -256,7 +256,9 @@ form and rebuild.
 When a batch is done, rewrite `HANDOFF.md` so a fresh session with no memory can
 start the next batch immediately. Its FIRST section, under
 `## Message to paste into the next chat` and inside a fenced block, is a
-ready-to-paste kickoff message for the next batch: read `CLAUDE.md`, then
+ready-to-paste kickoff message for the next batch. Its FIRST line is always
+`Whistling Wind B<xx> — <scope>` (e.g. `Whistling Wind B03 — Chapters 15 to 17`);
+then: read `CLAUDE.md`, then
 `HANDOFF.md`, then `book.json`; do batch `<Bxx>` = `<scope>` end to end; read the
 batch's source text from `data/src/`, translate to the register, run the checks,
 footnote, rebuild the EPUB with the pending-aware TOC, run `qa_epub.py` until

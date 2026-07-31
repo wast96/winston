@@ -9,6 +9,8 @@ and the TOC stays fully navigable. Next up: Batch B03 = ch15 through ch17
 ## Message to paste into the next chat
 
 ```
+Whistling Wind B03 — Chapters 15 to 17 (ch15 through ch17).
+
 Read CLAUDE.md in full (the working rules at the top are non-negotiable), then
 HANDOFF.md, then book.json. Then do Batch B03 = units ch15 through ch17
 (Chapters 15 to 17 of the novel; ~16,230 source chars) end to end, following the
