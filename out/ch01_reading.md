@@ -48,7 +48,7 @@ The other clerks in the office began bustling about too, a chorus of voices call
 
 "Second Sister, presently you ride with Father in No. 1889; let Fourth Sister come in my car, and Zhuzhai take Ah Xuan."
 
-The mistress nodded, her eyes on the outside too, her lips faintly moving — she was telling her beads! Zhuzhai, a cigar between his teeth, smiled a little and gave Sunfu a look, as if to say, "Let us be going." Just then Fusheng came back in, frowning as though in great difficulty:
+The mistress nodded, her eyes on the outside too, her lips faintly moving — she was murmuring the Buddha's name! Zhuzhai, a cigar between his teeth, smiled a little and gave Sunfu a look, as if to say, "Let us be going." Just then Fusheng came back in, frowning as though in great difficulty:
 
 "Most unlucky. There's a Suzhou-line tug moored on the inner side —"
 
