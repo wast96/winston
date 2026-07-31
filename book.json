@@ -428,5 +428,97 @@
     }
   ],
   "_batches_note": "Proposed batch plan (survey.py output, pending commissioner approval). first_section/last_section are chapter ids for this flat book.",
-  "batches": []
+  "batches": [
+    {
+      "batch": "B01",
+      "title": "Prologue through Chapter 4",
+      "first_section": "ch00",
+      "last_section": "ch04",
+      "chars": 20041
+    },
+    {
+      "batch": "B02",
+      "title": "Chapters 5-7",
+      "first_section": "ch05",
+      "last_section": "ch07",
+      "chars": 19345
+    },
+    {
+      "batch": "B03",
+      "title": "Chapters 8-10",
+      "first_section": "ch08",
+      "last_section": "ch10",
+      "chars": 15194
+    },
+    {
+      "batch": "B04",
+      "title": "Chapters 11-13",
+      "first_section": "ch11",
+      "last_section": "ch13",
+      "chars": 18985
+    },
+    {
+      "batch": "B05",
+      "title": "Chapters 14-15",
+      "first_section": "ch14",
+      "last_section": "ch15",
+      "chars": 20027
+    },
+    {
+      "batch": "B06",
+      "title": "Chapter 16",
+      "first_section": "ch16",
+      "last_section": "ch16",
+      "chars": 11004
+    },
+    {
+      "batch": "B07",
+      "title": "Chapters 17-18",
+      "first_section": "ch17",
+      "last_section": "ch18",
+      "chars": 15534
+    },
+    {
+      "batch": "B08",
+      "title": "Chapters 19-21",
+      "first_section": "ch19",
+      "last_section": "ch21",
+      "chars": 19405
+    },
+    {
+      "batch": "B09",
+      "title": "Chapters 22-24",
+      "first_section": "ch22",
+      "last_section": "ch24",
+      "chars": 20823
+    },
+    {
+      "batch": "B10",
+      "title": "Chapters 25-27",
+      "first_section": "ch25",
+      "last_section": "ch27",
+      "chars": 20965
+    },
+    {
+      "batch": "B11",
+      "title": "Chapters 28-30",
+      "first_section": "ch28",
+      "last_section": "ch30",
+      "chars": 17303
+    },
+    {
+      "batch": "B12",
+      "title": "Chapters 31-33",
+      "first_section": "ch31",
+      "last_section": "ch33",
+      "chars": 17971
+    },
+    {
+      "batch": "B13",
+      "title": "Chapters 34-35",
+      "first_section": "ch34",
+      "last_section": "ch35",
+      "chars": 15102
+    }
+  ]
 }
