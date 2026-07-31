@@ -1,0 +1,29 @@
+# Project-specific noise for check_numbers.py (On a Hair Trigger).
+# One regex per line. These are numerals that are idiom, set phrase, or name
+# rather than quantities; each was added when the check flagged it and it was
+# confirmed to carry no droppable quantity. Longest/most specific first.
+#
+# --- four-character idioms & set phrases carrying non-quantity numerals ---
+七荤八素
+正儿八经
+千刀万剐
+五彩斑斓
+# 万状 in 惊噩万状 ("in utter horror"); 万 is intensifier, not 10000
+万状
+# 千金 = "daughter(s)/young lady", not the quantity 1000
+千金
+# 十足 = "utter/thorough", not 10
+十足
+# --- counting-idioms rendered without a numeral in English ---
+# 两个字 = "the two words 'X'" (counting characters, not a quantity)
+两个字
+# 两眼 = "both eyes" / "a pair of looks"
+两眼
+# 二人 / 姐弟二人 = "the two of them" (idiomatic pair)
+二人
+# 快三步/慢三步 = the waltz ("three-step" dance name), not three paces
+三步
+# 水花四溅 etc.: 四溅 = "splashing in all directions"
+四溅
+# 第二天 = "the next day" (idiomatic, not literally "the second day")
+第二天

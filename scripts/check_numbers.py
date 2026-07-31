@@ -28,6 +28,8 @@ WORD_NUM = {
     # source prints as digits/hanzi. Example: teen ordinals for regnal years
     # ("the seventeenth year of the reign", 十七年); the built-ins stop at "tenth".
     "seventeenth": 17,
+    # Date ordinals used in this book's prose ("the sixteenth of March", 3月16日).
+    "sixteenth": 16,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}
@@ -69,7 +71,10 @@ NOISE = [
     r"[一不][旦時时般點点些]",
     r"[幾几數数][盞盏輛辆個个位十百千萬万條条艘句步進进層层次口杯天年分]",
     r"[幾几數数][十百千]",                          # 幾十/數百 "some tens/hundreds"
-    r"十[幾几分]", r"[十几幾]多", r"再三",
+    # 十分/十几 are idioms ("very", "ten-odd") ONLY when 十 is not preceded by a
+    # digit; the lookbehind keeps clock minutes like 二十分/三十分 (20/30 min) and
+    # counts like 三十 intact instead of eating the 十分 out of them.
+    r"(?<![一二两兩三四五六七八九])十[幾几分]", r"[十几幾]多", r"再三",
     # --- 萬/万 and 千 as intensifier, not the quantity 10000/1000 ---
     # ORDERING: 千萬/萬萬 must precede bare 萬X, or r"萬不可" eats the 萬 out of
     # 千萬不可 and orphans a 千 read as 1000. Longest literal first, always.
@@ -83,7 +88,8 @@ NOISE = [
     r"千軍萬馬", r"千军万马", r"千載難逢", r"千载难逢", r"千鈞一髮", r"千钧一发",
     r"萬無一失", r"万无一失", r"包羅萬象", r"包罗万象", r"瞬息萬變", r"瞬息万变",
     r"九牛一毛", r"入木三分", r"朝三暮四", r"三言兩語", r"三言两语",
-    r"十全十美", r"十拿九穩", r"十拿九稳", r"十分",  # 十分 = "very", not 10
+    r"十全十美", r"十拿九穩", r"十拿九稳",
+    r"(?<![一二两兩三四五六七八九])十分",  # 十分 = "very", not 10 (keep 二十分/三十分 clock-minutes)
     r"四面八方", r"四通八達", r"四通八达", r"一心一意", r"一五一十",
     # bare 一 as adverb/idiom fragment: 一[direction/time/manner], not the count
     r"一[舉举動动身面言語语氣气日夜時时刻步分寸點点]", r"兩[頭头端邊边面全難难]",
