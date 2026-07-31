@@ -534,69 +534,42 @@
     {
       "batch": "B01",
       "first_unit": "ch00",
-      "last_unit": "ch01",
-      "units": [
-        "ch00",
-        "ch01"
-      ],
-      "chars": 8770,
-      "covers": "Note on the Reissue → Chapter 1. My Childhood"
-    },
-    {
-      "batch": "B02",
-      "first_unit": "ch02",
       "last_unit": "ch03",
       "units": [
+        "ch00",
+        "ch01",
         "ch02",
         "ch03"
       ],
-      "chars": 10925,
-      "covers": "Chapter 2. The May Fourth Awakening → Chapter 3. Giving Myself to the Revolution"
+      "chars": 19695,
+      "covers": "Note on the Reissue → Chapter 3. Giving Myself to the Revolution"
     },
     {
-      "batch": "B03",
+      "batch": "B02",
       "first_unit": "ch04",
-      "last_unit": "ch04",
-      "units": [
-        "ch04"
-      ],
-      "chars": 8578,
-      "covers": "Chapter 4. A Convergence of Winds and Clouds"
-    },
-    {
-      "batch": "B04",
-      "first_unit": "ch05",
       "last_unit": "ch06",
       "units": [
+        "ch04",
         "ch05",
         "ch06"
       ],
-      "chars": 10989,
-      "covers": "Chapter 5. Going Underground → Chapter 6. Secretary to the Central Committee"
+      "chars": 19567,
+      "covers": "Chapter 4. A Convergence of Winds and Clouds → Chapter 6. Secretary to the Central Committee"
     },
     {
-      "batch": "B05",
+      "batch": "B03",
       "first_unit": "ch07",
-      "last_unit": "ch08",
-      "units": [
-        "ch07",
-        "ch08"
-      ],
-      "chars": 11781,
-      "covers": "Chapter 7. In Longhua Prison → Chapter 8. Racing North and South"
-    },
-    {
-      "batch": "B06",
-      "first_unit": "ch09",
       "last_unit": "ch09",
       "units": [
+        "ch07",
+        "ch08",
         "ch09"
       ],
-      "chars": 7028,
-      "covers": "Chapter 9. Rescuing the Minister"
+      "chars": 18809,
+      "covers": "Chapter 7. In Longhua Prison → Chapter 9. Rescuing the Minister"
     },
     {
-      "batch": "B07",
+      "batch": "B04",
       "first_unit": "ch10",
       "last_unit": "ch11",
       "units": [
@@ -607,216 +580,65 @@
       "covers": "Chapter 10. Victory in the First Battle → Chapter 11. The “Wu Hao” Notices"
     },
     {
-      "batch": "B08",
+      "batch": "B05",
       "first_unit": "ch12",
-      "last_unit": "ch12",
-      "units": [
-        "ch12"
-      ],
-      "chars": 10090,
-      "covers": "Chapter 12. In Seclusion by West Lake"
-    },
-    {
-      "batch": "B09",
-      "first_unit": "ch13",
       "last_unit": "ch14",
       "units": [
+        "ch12",
         "ch13",
         "ch14"
       ],
-      "chars": 8662,
-      "covers": "Chapter 13. The Voice of Justice → Chapter 14. The Tongyi Company"
+      "chars": 18752,
+      "covers": "Chapter 12. In Seclusion by West Lake → Chapter 14. The Tongyi Company"
     },
     {
-      "batch": "B10",
+      "batch": "B06",
       "first_unit": "ch15",
-      "last_unit": "ch15",
-      "units": [
-        "ch15"
-      ],
-      "chars": 8372,
-      "covers": "Chapter 15. Resistance and National Salvation"
-    },
-    {
-      "batch": "B11",
-      "first_unit": "ch16",
       "last_unit": "ch16",
       "units": [
+        "ch15",
         "ch16"
       ],
-      "chars": 9502,
-      "covers": "Chapter 16. Struggle on the Solitary Island"
+      "chars": 17874,
+      "covers": "Chapter 15. Resistance and National Salvation → Chapter 16. Struggle on the Solitary Island"
     },
     {
-      "batch": "B12",
+      "batch": "B07",
       "first_unit": "ch17",
-      "last_unit": "ch18",
+      "last_unit": "ch19",
       "units": [
         "ch17",
-        "ch18"
+        "ch18",
+        "ch19"
       ],
-      "chars": 11901,
-      "covers": "Chapter 17. Moving to Hong Kong → Chapter 18. Thirty Days a Refugee"
+      "chars": 16085,
+      "covers": "Chapter 17. Moving to Hong Kong → Chapter 19. A Righteous Rescue of the Worthies"
     },
     {
-      "batch": "B13",
-      "first_unit": "ch19",
-      "last_unit": "ch20",
-      "units": [
-        "ch19",
-        "ch20"
-      ],
-      "chars": 10467,
-      "covers": "Chapter 19. A Righteous Rescue of the Worthies → Chapter 20. An Audience with Zhou Enlai"
-    },
-    {
-      "batch": "B14",
-      "first_unit": "ch21",
+      "batch": "B08",
+      "first_unit": "ch20",
       "last_unit": "ch21",
       "units": [
+        "ch20",
         "ch21"
       ],
-      "chars": 11130,
-      "covers": "Chapter 21. Cast into Prison Together"
+      "chars": 17413,
+      "covers": "Chapter 20. An Audience with Zhou Enlai → Chapter 21. Cast into Prison Together"
     },
     {
-      "batch": "B15",
-      "first_unit": "ch22",
-      "last_unit": "ch22",
-      "units": [
-        "ch22"
-      ],
-      "chars": 8407,
-      "covers": "Chapter 22. Reviving Tongyi"
-    },
-    {
-      "batch": "B16",
-      "first_unit": "ch23",
-      "last_unit": "ch24",
-      "units": [
-        "ch23",
-        "ch24"
-      ],
-      "chars": 11765,
-      "covers": "Chapter 23. Wine Cups on the Winding Stream → Chapter 24. A Storm on Level Ground"
-    },
-    {
-      "batch": "B17",
-      "first_unit": "ch25",
-      "last_unit": "ch26",
-      "units": [
-        "ch25",
-        "ch26"
-      ],
-      "chars": 9566,
-      "covers": "Chapter 25. Around the Dawn → Chapter 26. A Sorrowful Parting"
-    },
-    {
-      "batch": "B18",
-      "first_unit": "ch27",
-      "last_unit": "ch28",
-      "units": [
-        "ch27",
-        "ch28"
-      ],
-      "chars": 10948,
-      "covers": "Chapter 27. The Relief Branch → Chapter 28. Mother and Son Reunited"
-    },
-    {
-      "batch": "B19",
-      "first_unit": "ch29",
-      "last_unit": "ch29",
-      "units": [
-        "ch29"
-      ],
-      "chars": 7674,
-      "covers": "Chapter 29. Under Investigation"
-    },
-    {
-      "batch": "B20",
-      "first_unit": "ch30",
-      "last_unit": "ch30",
-      "units": [
-        "ch30"
-      ],
-      "chars": 7287,
-      "covers": "Chapter 30. Within and Beyond Qincheng"
-    },
-    {
-      "batch": "B21",
-      "first_unit": "ch31",
-      "last_unit": "ch31",
-      "units": [
-        "ch31"
-      ],
-      "chars": 6826,
-      "covers": "Chapter 31. Qincheng Again"
-    },
-    {
-      "batch": "B22",
-      "first_unit": "ch32",
-      "last_unit": "ch32",
-      "units": [
-        "ch32"
-      ],
-      "chars": 6048,
-      "covers": "Chapter 32. Rehabilitated and Restored to the Ranks"
-    },
-    {
-      "batch": "B23",
-      "first_unit": "ch33",
-      "last_unit": "ch33",
-      "units": [
-        "ch33"
-      ],
-      "chars": 9575,
-      "covers": "Chapter 33. A Faithful Witness"
-    },
-    {
-      "batch": "B24",
-      "first_unit": "ch34",
-      "last_unit": "ch35",
-      "units": [
-        "ch34",
-        "ch35"
-      ],
-      "chars": 10769,
-      "covers": "Chapter 34. Reunions with Old Friends → Chapter 35. An Honored Summons"
-    },
-    {
-      "batch": "B25",
-      "first_unit": "ch36",
-      "last_unit": "ch37",
-      "units": [
-        "ch36",
-        "ch37"
-      ],
-      "chars": 9283,
-      "covers": "Chapter 36. Party Membership and Standing → Chapter 37. Faithful from Start to Finish"
-    },
-    {
-      "batch": "B26",
-      "first_unit": "ch38",
-      "last_unit": "ch40",
-      "units": [
-        "ch38",
-        "ch39",
-        "ch40"
-      ],
-      "chars": 11470,
-      "covers": "Chapter 38. The Deep Bond of Kin → Appendix II. A Chronology of Huang Mulan’s Life"
-    },
-    {
-      "batch": "B27",
-      "first_unit": "ch41",
+      "batch": "B09",
+      "first_unit": "ch39",
       "last_unit": "ch43",
       "units": [
+        "ch39",
+        "ch40",
         "ch41",
         "ch42",
         "ch43"
       ],
-      "chars": 5325,
-      "covers": "Appendix III. A Brief Life of Comrade Liu Shaowen → Editor’s Postscript"
+      "chars": 7625,
+      "covers": "Appendix I. Afterword → Editor’s Postscript"
     }
-  ]
+  ],
+  "_scope_note": "Commissioned scope: translate ONLY the front matter (ch00), chapters 1-21 (ch01-ch21), and the appendices (ch39-ch43). Chapters 22-38 (ch22-ch38) are intentionally NOT translated and remain as pending skeleton outline pages in the build. Batch target: 21,000 source chars max per batch. Batches never span the ch22-ch38 gap."
 }
