@@ -56,6 +56,60 @@
       "pinyin": "Gao",
       "status": "decided",
       "note": "Mr. Gao, the Chinese manager of the Weibai Hotel; his American wife and their daughter, Miss Gao, appear at Stephen's party."
+    },
+    "莎菲": {
+      "en": "Sophie",
+      "pinyin": "Shafei",
+      "status": "decided",
+      "note": "A dancing-girl at the Xiangong; <span lang=\"zh-Hans\">莎菲</span> transliterates a Western name (Sophie/Sophy)."
+    },
+    "铃木次郎": {
+      "en": "Suzuki Jiro",
+      "pinyin": "Lingmu Cilang",
+      "status": "decided",
+      "note": "A Japanese major general in Mei Yingzi's circle; <span lang=\"zh-Hans\">铃木次郎</span> given in its Japanese reading."
+    },
+    "山尾本原": {
+      "en": "Yamao Motohara",
+      "pinyin": "Shanwei Benyuan",
+      "status": "provisional",
+      "note": "A Japanese colonel; <span lang=\"zh-Hans\">山尾本原</span> read here in a plausible Japanese form, the source giving no romanization."
+    },
+    "梅百器": {
+      "en": "Mario Paci",
+      "pinyin": "Mei Baiqi",
+      "status": "attested",
+      "note": "Italian conductor and pianist (1878&#8211;1946), <span lang=\"zh-Hans\">梅百器</span>; led the Shanghai Municipal Orchestra 1919&#8211;1942 and taught many early Chinese pianists. Helen's teacher."
+    },
+    "齐白石": {
+      "en": "Qi Baishi",
+      "pinyin": "Qi Baishi",
+      "status": "attested",
+      "note": "Painter (1864&#8211;1957), a giant of modern Chinese ink painting."
+    },
+    "吴昌硕": {
+      "en": "Wu Changshuo",
+      "pinyin": "Wu Changshuo",
+      "status": "attested",
+      "note": "Painter, calligrapher and seal-carver (1844&#8211;1927), a leading figure of the late Shanghai School."
+    },
+    "任伯年": {
+      "en": "Ren Bonian",
+      "pinyin": "Ren Bonian",
+      "status": "attested",
+      "note": "Painter (1840&#8211;1895) of the Shanghai School, noted for figures and birds-and-flowers."
+    },
+    "阿美": {
+      "en": "Ah Mei",
+      "pinyin": "A Mei",
+      "status": "decided",
+      "note": "Bai Ping's maid; <span lang=\"zh-Hans\">阿美</span>, the familiar &#8216;Ah&#8217; prefix plus <i>Mei</i>."
+    },
+    "吉迷": {
+      "en": "Jimi",
+      "pinyin": "Jimi",
+      "status": "provisional",
+      "note": "Bai Ping's white Persian cat; <span lang=\"zh-Hans\">吉迷</span> transliterates a Western pet-name (perhaps &#8216;Jimmy&#8217;), romanized here as Jimi."
     }
   },
   "organizations": {
@@ -76,12 +130,33 @@
       "pinyin": "Bailemen",
       "status": "attested",
       "note": "The Paramount Ballroom (<span lang=\"zh-Hans\">百乐门</span>) on Bubbling Well Road, Shanghai's most famous dance hall."
+    },
+    "国立艺术院": {
+      "en": "the National Academy of Art",
+      "pinyin": "Guoli Yishuyuan",
+      "status": "attested",
+      "note": "Founded on the West Lake at Hangzhou in 1928 (first president Lin Fengmian); the source calls it simply <span lang=\"zh-Hans\">艺术院</span>. Rendered by its historical English name."
     }
   },
   "places": {
-    "上海": {"en": "Shanghai", "pinyin": "Shanghai", "status": "attested", "note": ""},
-    "重庆": {"en": "Chongqing", "pinyin": "Chongqing", "status": "attested", "note": "Wartime capital of Nationalist China."},
-    "香港": {"en": "Hong Kong", "pinyin": "Xianggang", "status": "attested", "note": ""},
+    "上海": {
+      "en": "Shanghai",
+      "pinyin": "Shanghai",
+      "status": "attested",
+      "note": ""
+    },
+    "重庆": {
+      "en": "Chongqing",
+      "pinyin": "Chongqing",
+      "status": "attested",
+      "note": "Wartime capital of Nationalist China."
+    },
+    "香港": {
+      "en": "Hong Kong",
+      "pinyin": "Xianggang",
+      "status": "attested",
+      "note": ""
+    },
     "辣斐德路": {
       "en": "Route Lafayette",
       "pinyin": "Lafeide Lu",
@@ -201,6 +276,90 @@
       "pinyin": "Weibai Fandian",
       "status": "provisional",
       "note": "A hotel managed by Mr. Gao; <span lang=\"zh-Hans\">魏白</span> transliterates a Western name not identified in the source."
+    },
+    "阿卡第亚": {
+      "en": "the Arcadia",
+      "pinyin": "Akadiya",
+      "status": "attested",
+      "note": "A Shanghai dance hall / cabaret of the period; <span lang=\"zh-Hans\">阿卡第亚</span> = Arcadia."
+    },
+    "仙宫": {
+      "en": "the Xiangong",
+      "pinyin": "Xiangong",
+      "status": "provisional",
+      "note": "A dance hall where Sophie works; <span lang=\"zh-Hans\">仙宫</span> (&#8216;Celestial Palace&#8217;), romanized here."
+    },
+    "杭州": {
+      "en": "Hangzhou",
+      "pinyin": "Hangzhou",
+      "status": "attested",
+      "note": "City on the West Lake, southwest of Shanghai; the narrator's old haunt."
+    },
+    "西冷饭店": {
+      "en": "the Xiling Hotel",
+      "pinyin": "Xiling Fandian",
+      "status": "attested",
+      "note": "A hotel by the West Lake; the source writes <span lang=\"zh-Hans\">西冷</span> for <span lang=\"zh-Hans\">西泠</span> (Xiling), the name of the district and its famous seal-engravers' society."
+    },
+    "金门": {
+      "en": "the Golden Gate",
+      "pinyin": "Jinmen",
+      "status": "decided",
+      "note": "A restaurant in Shanghai; <span lang=\"zh-Hans\">金门</span> (&#8216;Golden Gate&#8217;)."
+    },
+    "锦湘": {
+      "en": "the Jinxiang",
+      "pinyin": "Jinxiang",
+      "status": "provisional",
+      "note": "A Chinese restaurant; <span lang=\"zh-Hans\">锦湘</span> (the <span lang=\"zh-Hans\">湘</span> suggesting Hunan cooking), romanized here."
+    },
+    "北四川路": {
+      "en": "North Sichuan Road",
+      "pinyin": "Bei Sichuan Lu",
+      "status": "attested",
+      "note": "A road running north through Hongkou, the Japanese-dominated district north of Suzhou Creek (historically North Szechuen Road)."
+    },
+    "马斯南路": {
+      "en": "Route Massenet",
+      "pinyin": "Masinan Lu",
+      "status": "attested",
+      "note": "A French Concession street named for the composer Jules Massenet (today Sinan Road)."
+    },
+    "葛岭": {
+      "en": "Geling",
+      "pinyin": "Geling",
+      "status": "attested",
+      "note": "Ge Ridge, a hill on the north shore of the West Lake, named for the Daoist alchemist Ge Hong."
+    },
+    "苏堤": {
+      "en": "the Su Causeway",
+      "pinyin": "Su Di",
+      "status": "attested",
+      "note": "The causeway across the West Lake raised by the poet-governor Su Shi (Su Dongpo)."
+    },
+    "白堤": {
+      "en": "the Bai Causeway",
+      "pinyin": "Bai Di",
+      "status": "attested",
+      "note": "A causeway on the West Lake, associated with the poet Bai Juyi."
+    },
+    "孤山": {
+      "en": "Solitary Hill",
+      "pinyin": "Gushan",
+      "status": "attested",
+      "note": "The island hill in the West Lake (<span lang=\"zh-Hans\">孤山</span>, Gushan), famous for plum blossom and the site of the Academy's 1928 opening."
+    },
+    "三潭印月": {
+      "en": "the Three Pools Mirroring the Moon",
+      "pinyin": "Santan Yinyue",
+      "status": "attested",
+      "note": "A celebrated West Lake scene, an islet ringed by three small stone pagodas standing in the water."
+    },
+    "牛公墩": {
+      "en": "Niugong Mound",
+      "pinyin": "Niugong Dun",
+      "status": "provisional",
+      "note": "A spot on the West Lake named in the source (<span lang=\"zh-Hans\">牛公墩</span>); not securely identified, romanized here."
     }
   },
   "terms": {
@@ -221,6 +380,12 @@
       "pinyin": "Jianghu xing",
       "status": "attested",
       "note": "Xu Xu's later long novel, published 1956&#8211;1961; rendered <i>River of Fury</i> in the scholarship of Frederik Green. The Chinese <span lang=\"zh-Hans\">江湖行</span> means &#8216;a journey through the rivers and lakes&#8217; (the itinerant world)."
+    },
+    "旗袍": {
+      "en": "cheongsam",
+      "pinyin": "qipao",
+      "status": "decided",
+      "note": "The close-fitting Chinese woman's dress (<span lang=\"zh-Hans\">旗袍</span>, <i>qipao</i>); &#8216;cheongsam&#8217; is the established English form used throughout."
     }
   }
 }

@@ -133,3 +133,108 @@ Flagged for the read-through (things to keep an eye on):
   Weibai Hotel (魏白饭店), the Bakou Apartments (芭口公寓), the Kaisha (凯莎),
   the Liti Cafe (立体咖啡馆), the Majestic Cinema (大华电影院). All are marked
   provisional in glossary.json.
+
+## B02 = ch09 through ch14 (Chapters 9 to 14) — DONE
+
+Scope: units ch09..ch14, the novel's Chapters 9 to 14 (source headings 九..十四),
+19,469 source characters. Covers the evening at the Stephens' (Mrs. Stephen's
+yellow drawing-room, the Municipal Orchestra concert where Helen reappears, the
+Arcadia where the two Japanese officers Suzuki and Yamao join the party), the
+all-night talk and Bai Ping's midnight visit (the sun/lamp exchange, Schumann's
+Reverie), the four-day revelry, the Hangzhou trip (crossing the occupied North
+Sichuan Road, the Geling climb and Mei Yingzi's warning about Bai Ping, the West
+Lake boating), the narrator's flight home with Bai Ping on the train and his
+resolve to change his life, and the tea-party where Helen sings, ending at Bai
+Ping's silver apartment.
+
+Deliverables shipped this batch:
+- Reading translations out/ch09_reading.md .. out/ch14_reading.md (generated from
+  the aligned bilingual QC files via split_bilingual.py; the bilingual files are
+  QC only and do not ship).
+- 12 footnotes folded into notes.json (continuous numbering 17..28 across the
+  batch, assigned by the builder in reading order). Batch total now 28.
+- 25 new glossary rows in glossary.json (people, org, places, one term); 63 rows
+  total. New referents: Mario Paci (梅百器), Suzuki Jiro (铃木次郎), Yamao
+  Motohara (山尾本原), Sophie (莎菲), Ah Mei (阿美), the cat Jimi (吉迷), Qi
+  Baishi / Wu Changshuo / Ren Bonian, the National Academy of Art (国立艺术院),
+  the Arcadia (阿卡第亚), the Xiangong (仙宫), Hangzhou, the Xiling Hotel
+  (西冷饭店), the Golden Gate (金门), the Jinxiang (锦湘), North Sichuan Road,
+  Route Massenet (马斯南路), Geling (葛岭), the Su and Bai Causeways, Solitary
+  Hill (孤山), the Three Pools Mirroring the Moon, Niugong Mound (牛公墩,
+  provisional), and cheongsam (旗袍, decided; matches B01 usage).
+- figures.json unchanged (no in-text figures in these chapters).
+- Cumulative EPUB rebuilt to "out/The Whistling Wind.epub" (15 of 60 chapters
+  translated; the other 45 still link to their skeleton outlines).
+
+Checks run and results:
+- check_numbers.py (with data/noise.txt) on every bilingual file: 0 unresolved
+  across all 6 units (671 pairs total). Two check-infrastructure fixes this
+  batch, both in the same class B01 documented (a greedy idiom pattern eating a
+  digit out of a compound number):
+  * added a whole-hour clock pattern r"[...]+点[钟鐘]" to the TOP of
+    check_numbers.py NOISE, so "十一点钟" (eleven o'clock) is stripped before the
+    built-in "一点" (=a little) idiom orphans a 十 read as 10;
+  * added a negative lookbehind to the two bare-一 measure-word patterns so
+    "一个" is not stripped out of "十一个" (eleven) and does not orphan a 十=10.
+  data/noise.txt gained: 梅百器 (Mario Paci; 百≠100), 零[星落乱] (零≠0), 四川
+    (North Sichuan Road; 四≠4), and 四为 (a ch14 digitization slip for 因为; 四≠4).
+- check_structure.py (config mode over the batch): paragraph parity OK on all 6
+  units; 12 note anchors, 0 unresolved; heading shape uniform (1 distinct shape).
+- qa_epub.py on the built EPUB: PASS (72 files, 66 documents, 28 note references /
+  28 bodies / 28 backlinks, all links resolve).
+- Verbatim-quotation audit: whitespace-stripped character-for-character
+  comparison of every QC blockquote against data/src (stripping the BOM and the
+  duplicated chapter-numeral heading lines) confirms the source is quoted exactly
+  and no sentence is dropped (all 6 units VERBATIM OK).
+- Blind double translation (separate context): the analytical/lyrical passages
+  (ch12 the North Sichuan Road / countryside-nostalgia passage; ch13 the West
+  Lake elegy; ch12 the money-cannot-buy-love / "political finesse" exchange;
+  ch14 the silver-vs-white aesthetic exchange) converged with the shipped
+  translation; no divergence pointing to an unresolved ambiguity.
+- Round-trip back-translation (separate context) of the ch13 silver-room close:
+  every clause reproduced; no omission. The blind pass flagged three phrases as
+  possibly "added" (the emblem of / contending against the passing of time / a
+  silver girl); all three are faithful to the source read against 银色竟象徵着…,
+  在时间中与青春争胜, and 银色的女孩 respectively (the flags came of the auditor not
+  holding the source for that sample).
+- Random deep audit (~3.3%, the four double-translation passages plus the
+  back-translation sample given the full paranoid treatment): observed
+  substantive error rate 0 (no mistranslations or omissions found).
+
+Fact-checking (against Wikipedia / Stanford's Paci exhibit / Baidu Baike /
+China Academy of Art history; no LLM-sourced references):
+- Mario Paci (梅百器 = Mei Baiqi, 1878–1946), conductor of the Shanghai Municipal
+  Orchestra 1919–1942 and teacher of many early Chinese pianists: corroborated.
+- The Arcadia (阿卡第亚) as a real Shanghai dance hall / cabaret of the period:
+  corroborated. North Sichuan Road as the artery of Japanese-controlled Hongkou,
+  with sentries at the crossings from the concessions after 1937: corroborated
+  (explains why the narrator had not been there since the fall of the city, and
+  the 仇货 = boycotted enemy goods on the hoardings).
+- The National Academy of Art (国立艺术院), founded on the West Lake in 1928 by
+  Cai Yuanpei, first president Lin Fengmian, opened at Solitary Hill and later
+  evacuated to the interior: corroborated (grounds the narrator's scattered
+  "Art Academy" friends and the 孤山 landmark). West Lake landmarks (Su/Bai
+  Causeways, Solitary Hill, Three Pools Mirroring the Moon) and Geling (Ge Hong):
+  standard, corroborated. Route Massenet = today's Sinan Road, named for Jules
+  Massenet: corroborated.
+- 黄锡包 ("yellow tin-foil pack"): the tinned BAT cigarettes were nicknamed in
+  Shanghai by pack colour (white Capstan, green Three Castles, red Ruby Queen);
+  the yellow pack was one of these premium tins, but the exact English brand it
+  names is not certain, so the note says so and the prose renders it literally as
+  "yellow-packet cigarettes."
+
+Flagged for the read-through (things to keep an eye on):
+- Minor source digitization glitches rendered to plain meaning and NOT footnoted:
+  ch09 史蒂芬太大 for 史蒂芬太太 ("Mrs. Stephen"); ch10 百合除放 for 百合初放
+  ("a lily just opening"), 低声点说 (stray 点); ch11 白萍 for 白苹 ("Bai Ping");
+  ch12 使她自己年容易 (stray 年); ch14 大概四为 for 因为 ("because"). The Chapter 9
+  reading-list slip 「Eicht」 for Fichte IS footnoted (note 17), as is the
+  occupied-zone context (note 22), per rule 4.
+- Provisional renderings a later attestation could improve: Yamao Motohara
+  (山尾本原), the Xiangong (仙宫), the Jinxiang (锦湘), Niugong Mound (牛公墩,
+  not securely identified), and the cat's name Jimi (吉迷). All marked provisional
+  in glossary.json.
+- Speaker attribution in a few tag-less source paragraphs was resolved to the
+  only coherent reading (ch10 白苹's "是的" + the narrator's jealousy question in
+  one paragraph; ch14 the two toasts). No content added beyond a "said"/"answered"
+  tag to name the speaker.

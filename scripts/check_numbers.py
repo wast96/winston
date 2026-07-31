@@ -67,14 +67,23 @@ NOISE = [
     # to guard (money, counts, years), so stripping them whole is safe. Added
     # B01, after check_numbers flagged the orphans on 二十分钟 and 三点五十分.
     r"[一二三四五六七八九十百]+点[一二三四五六七八九十百]+分",  # clock: 三点五十分
+    r"[一二三四五六七八九十百]+点[钟鐘]",                     # clock: 十一点钟 (whole hour).
+    # Must precede the built-in r"[一不][旦時时般點点些]" idiom below, which
+    # otherwise eats the "一点" out of "十一点钟" and orphans a 十 read as 10
+    # (B02, on 十一点钟). Whole-hour times are not the money/count/year
+    # quantities this check guards, so stripping them whole is safe.
     r"[一二三四五六七八九十百]+分[钟鐘]",                     # duration: 二十分钟
     r"[一二三四五六七八九]十几",                              # 四十几 "forty-odd" (approx age)
     # --- list enumerators & fractions (structure, not quantities) ---
     r"\d+[．.、]",                                  # "1." "2、" sub-item heads
     r"[一二三四五六七八九十百千零]+分之[一二三四五六七八九十百千零]+",  # 二分之一, fractions
     # --- measure words: a bare 一 + classifier is "a/an", not the count 1 ---
-    r"一[艘條条頂顶隻只個个位群把張张片口指邊边旁時时下陣阵壺壶碟種种番場场股家棵套幅]",
-    r"一[輛辆眼躬支絲丝聲声定天次間间驚惊槍枪動动言樣样路批封面團团句道年身手筆笔遍]",
+    # The negative lookbehind keeps the 一 from being eaten when it is the tail
+    # of a larger number: without it, r"一个" strips the "一个" out of "十一个"
+    # (eleven) and orphans a 十 read as 10 (B02, on 十一个客人). Only a truly
+    # bare 一 + classifier is the indefinite article this is meant to drop.
+    r"(?<![零一二两兩三四五六七八九十百千万萬億])一[艘條条頂顶隻只個个位群把張张片口指邊边旁時时下陣阵壺壶碟種种番場场股家棵套幅]",
+    r"(?<![零一二两兩三四五六七八九十百千万萬億])一[輛辆眼躬支絲丝聲声定天次間间驚惊槍枪動动言樣样路批封面團团句道年身手筆笔遍]",
     r"[一不][旦時时般點点些]",
     r"[幾几數数][盞盏輛辆個个位十百千萬万條条艘句步進进層层次口杯天年分]",
     r"[幾几數数][十百千]",                          # 幾十/數百 "some tens/hundreds"

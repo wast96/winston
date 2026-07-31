@@ -30,4 +30,12 @@
 四围
 # 两个字 = "the two characters" of a Chinese word (meta-linguistic); not a count
 两个字
+# 梅百器 = Mario Paci (proper name, the conductor); the 百 is not 100
+梅百器
+# 零星/零落/零乱 = "scattered / dwindled / disordered"; the 零 is not the quantity 0
+零[星落乱]
+# 四川 = Sichuan (place name, as in 北四川路 North Sichuan Road); the 四 is not 4
+四川
+# 四为 = a digitization slip for 因为 ("because") in ch14; the 四 is not the count 4
+四为
 # 一时 handled by the built-in measure list; 万分 already built in.
