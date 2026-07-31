@@ -89,6 +89,69 @@ XHTML = """<?xml version="1.0" encoding="utf-8"?>
 
 MAX_FIG_WIDTH = 1100
 
+# Fonts for the generated cover (present on this box; degrade gracefully).
+SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"
+SERIF_BOLD = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
+CJK_FONT = "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"
+
+
+def make_cover(dest, title_en, title_zh, author_en, author_zh):
+    """Generate a simple, clean typographic cover (1600x2560, Kindle/Books
+    friendly ratio). Returns True on success, False if PIL is unavailable."""
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except ImportError:
+        return False
+    W, H = 1600, 2560
+    bg, ink, gold = (18, 22, 30), (238, 234, 226), (176, 141, 87)
+    img = Image.new("RGB", (W, H), bg)
+    d = ImageDraw.Draw(img)
+
+    def font(path, size):
+        try:
+            return ImageFont.truetype(path, size)
+        except Exception:
+            return ImageFont.load_default()
+
+    def wrap(text, fnt, max_w):
+        words, lines, cur = text.split(), [], ""
+        for w in words:
+            t = (cur + " " + w).strip()
+            if d.textlength(t, font=fnt) <= max_w:
+                cur = t
+            else:
+                if cur:
+                    lines.append(cur)
+                cur = w
+        if cur:
+            lines.append(cur)
+        return lines
+
+    def centered(lines, fnt, y, fill, gap):
+        for ln in lines:
+            w = d.textlength(ln, font=fnt)
+            d.text(((W - w) / 2, y), ln, font=fnt, fill=fill)
+            y += fnt.size + gap
+        return y
+
+    margin = 150
+    d.rectangle([margin, 210, W - margin, 216], fill=gold)
+    if title_zh:
+        centered([title_zh], font(CJK_FONT, 120), 330, ink, 0)
+    y = 720
+    y = centered(wrap(title_en, font(SERIF_BOLD, 128), W - 2 * margin),
+                 font(SERIF_BOLD, 128), y, ink, 24)
+    d.rectangle([W / 2 - 120, y + 60, W / 2 + 120, y + 64], fill=gold)
+    by = H - 640
+    centered([author_en], font(SERIF, 74), by, ink, 0)
+    if author_zh:
+        centered([author_zh], font(CJK_FONT, 60), by + 96, ink, 0)
+    centered(["Annotated English Translation"], font(SERIF, 52), H - 360,
+             gold, 0)
+    d.rectangle([margin, H - 216, W - margin, H - 210], fill=gold)
+    img.save(dest, format="PNG", optimize=True)
+    return True
+
 
 def shrink_image(src, dest):
     try:
@@ -407,6 +470,7 @@ def main(epub_path):
         "author_zh": book.get("author_zh", ""),
         "year": book.get("year", 1933),
         "uid": "urn:uuid:gu-shunzhang-theory-practice-1",
+        "md": book.get("metadata", {}),
     }
     structure = [c for c in book.get("structure", []) if c.get("id", "").startswith("ch")]
     if not structure:
@@ -457,6 +521,17 @@ def main(epub_path):
 
     with open(os.path.join(oebps, "style.css"), "w") as fh:
         fh.write(CSS)
+
+    # cover image + cover page (Kindle and Apple Books both want a real cover)
+    have_cover = make_cover(os.path.join(oebps, "images", "cover.png"),
+                            meta["title_en"], meta["title_zh"],
+                            meta["author_en"], meta["author_zh"])
+    if have_cover:
+        write(os.path.join(oebps, "cover.xhtml"),
+              '<div style="text-align:center;margin:0;padding:0">'
+              '<img src="images/cover.png" alt="%s" '
+              'style="max-width:100%%;height:auto"/></div>'
+              % esc(meta["title_en"]), "Cover")
 
     # title page
     write(os.path.join(oebps, "titlepage.xhtml"),
@@ -519,9 +594,12 @@ def main(epub_path):
         write(os.path.join(oebps, "colophon.xhtml"),
               render_colophon(back_matter), "Colophon")
 
-    # spine order
-    docs = [("titlepage.xhtml", "Title Page"),
-            ("contents.xhtml", "Contents")]
+    # spine order (cover first, so Kindle/Books open on it)
+    docs = []
+    if have_cover:
+        docs.append(("cover.xhtml", "Cover"))
+    docs += [("titlepage.xhtml", "Title Page"),
+             ("contents.xhtml", "Contents")]
     docs += [(c["id"] + ".xhtml", c["title_en"]) for c in chapters]
     docs += [("pending.xhtml", "Not yet translated"),
              ("notes.xhtml", "Notes"),
@@ -563,9 +641,12 @@ def main(epub_path):
     if have_backmatter:
         nav_items += ['<li><a href="errata.xhtml">Errata</a></li>',
                       '<li><a href="colophon.xhtml">Colophon</a></li>']
+    cover_landmark = ('<li><a epub:type="cover" href="cover.xhtml">Cover</a></li>'
+                      if have_cover else "")
     nav = ('<nav epub:type="toc" id="toc"><h1>Contents</h1><ol>'
            + "".join(nav_items) + "</ol></nav>"
            '<nav epub:type="landmarks" hidden="hidden"><ol>'
+           + cover_landmark +
            '<li><a epub:type="titlepage" href="titlepage.xhtml">Title Page</a></li>'
            '<li><a epub:type="toc" href="contents.xhtml">Contents</a></li>'
            '<li><a epub:type="bodymatter" href="%s">Begin Reading</a></li>'
@@ -586,25 +667,72 @@ def main(epub_path):
     items = ['<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>',
              '<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>',
              '<item id="css" href="style.css" media-type="text/css"/>']
+    if have_cover:
+        items.append('<item id="cover-image" href="images/cover.png" '
+                     'media-type="image/png" properties="cover-image"/>')
     for i, (f, _) in enumerate(docs, 1):
-        items.append('<item id="d%d" href="%s" media-type="application/xhtml+xml"/>' % (i, f))
+        items.append('<item id="d%d" href="%s" media-type="application/xhtml+xml"/>'
+                     % (i, f))
     for i, f in enumerate(manifest_figs, 1):
         items.append('<item id="fig%d" href="images/%s" media-type="image/png"/>' % (i, f))
     spine = "".join('<itemref idref="d%d"/>' % i for i in range(1, len(docs) + 1))
 
+    # full metadata for Kindle / Apple Books
+    md = meta.get("md", {})
+    m = ["<dc:identifier id=\"pub-id\">%s</dc:identifier>" % meta["uid"],
+         '<dc:title id="t">%s</dc:title>' % esc(meta["title_en"]),
+         '<meta refines="#t" property="title-type">main</meta>']
+    if md.get("title_file_as"):
+        m.append('<meta refines="#t" property="file-as">%s</meta>'
+                 % esc(md["title_file_as"]))
+    if meta["title_zh"]:
+        m.append('<dc:title id="t2" xml:lang="zh">%s</dc:title>'
+                 % esc(meta["title_zh"]))
+        m.append('<meta refines="#t2" property="title-type">main</meta>')
+    m.append('<dc:language>%s</dc:language>' % esc(md.get("language", "en")))
+    m.append('<dc:creator id="au">%s</dc:creator>' % esc(meta["author_en"]))
+    m.append('<meta refines="#au" property="role" scheme="marc:relators">aut</meta>')
+    if md.get("author_file_as"):
+        m.append('<meta refines="#au" property="file-as">%s</meta>'
+                 % esc(md["author_file_as"]))
+    m.append('<meta refines="#au" property="display-seq">1</meta>')
+    if md.get("translator"):
+        m.append('<dc:contributor id="tr">%s</dc:contributor>'
+                 % esc(md["translator"]))
+        m.append('<meta refines="#tr" property="role" scheme="marc:relators">trl</meta>')
+    if md.get("publisher"):
+        m.append('<dc:publisher>%s</dc:publisher>' % esc(md["publisher"]))
+    if md.get("pubdate"):
+        m.append('<dc:date>%s</dc:date>' % esc(md["pubdate"]))
+    if md.get("description"):
+        m.append('<dc:description>%s</dc:description>' % esc(md["description"]))
+    for subj in md.get("subjects", []):
+        m.append('<dc:subject>%s</dc:subject>' % esc(subj))
+    if md.get("source_ref"):
+        m.append('<dc:source>%s</dc:source>' % esc(md["source_ref"]))
+    if md.get("rights"):
+        m.append('<dc:rights>%s</dc:rights>' % esc(md["rights"]))
+    stamp = (md.get("pubdate") or "2026-01-01")[:10] + "T00:00:00Z"
+    m.append('<meta property="dcterms:modified">%s</meta>' % stamp)
+    if have_cover:
+        m.append('<meta name="cover" content="cover-image"/>')
+
+    guide = ""
+    if have_cover:
+        guide += '<reference type="cover" title="Cover" href="cover.xhtml"/>'
+    guide += ('<reference type="toc" title="Contents" href="contents.xhtml"/>'
+              '<reference type="text" title="Begin Reading" href="%s"/>'
+              % (chapters[0]["id"] + ".xhtml"))
+
     with open(os.path.join(oebps, "content.opf"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'
                  '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" '
-                 'unique-identifier="pub-id"><metadata '
+                 'unique-identifier="pub-id" xml:lang="en"><metadata '
                  'xmlns:dc="http://purl.org/dc/elements/1.1/">'
-                 "<dc:identifier id=\"pub-id\">%s</dc:identifier>"
-                 "<dc:title>%s</dc:title><dc:language>en</dc:language>"
-                 "<dc:creator>%s</dc:creator>"
-                 '<meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>'
-                 "</metadata><manifest>%s</manifest>"
-                 "<spine toc=\"ncx\">%s</spine></package>"
-                 % (meta["uid"], esc(meta["title_en"]), esc(meta["author_en"]),
-                    "".join(items), spine))
+                 "%s</metadata><manifest>%s</manifest>"
+                 '<spine toc="ncx" page-progression-direction="ltr">%s</spine>'
+                 "<guide>%s</guide></package>"
+                 % ("".join(m), "".join(items), spine, guide))
 
     with open(os.path.join(BUILD, "META-INF", "container.xml"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'

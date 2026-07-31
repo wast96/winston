@@ -642,5 +642,25 @@
       "note": "不准翻印 (no reprinting). Printed 中華民國二十二年八月 (August 1933)."
     }
   ],
-  "main_text_extent": "Printed pages 1-236 (8 chapters), then the errata table and colophon. Confirmed against the errata table's page references."
+  "main_text_extent": "Printed pages 1-236 (8 chapters), then the errata table and colophon. Confirmed against the errata table's page references.",
+  "metadata": {
+    "publisher": "Translator's Edition",
+    "pubdate": "2026-07-31",
+    "language": "en",
+    "author_file_as": "Gu, Shunzhang",
+    "title_file_as": "Theory and Practice of Secret Service Work, The",
+    "translator": "",
+    "rights": "This annotated English translation may be freely shared for non-commercial use. The 1933 Chinese source text is in the public domain.",
+    "source_ref": "特務工作之理論與實際 (Nanjing, 1933)",
+    "subjects": [
+      "History / Asia / China",
+      "Political Science / Intelligence & Espionage",
+      "History / Modern / 20th Century",
+      "Espionage",
+      "Republican China",
+      "Kuomintang",
+      "Intelligence tradecraft"
+    ],
+    "description": "A 1933 manual of intelligence tradecraft by Gu Shunzhang, the Chinese Communist Party's chief of security and intelligence until his 1931 defection to the Nationalists. Written for his new masters, it sets down the craft he had built and then turned against his former comrades: organization, secrecy, surveillance, disguise, weapons, interrogation, and the cultivation of an agent's character. This annotated English edition translates the complete text, with a full apparatus of translator's notes, a glossary, and the book's original errata and colophon."
+  }
 }
