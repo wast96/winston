@@ -29,13 +29,27 @@ PNG = os.path.join(ROOT, "data", "png")
 BUILD = os.path.join(ROOT, "build")
 
 META = {
-    "title": "China's King of Assassins: Wang Yaqiao",
+    "title": "China's King of Assassins",
+    "subtitle": "Wang Yaqiao",
+    "title_full": "China's King of Assassins: Wang Yaqiao",
     "title_zh": "中国暗杀王：王亚樵",
     "author": "Dou Yingtai",
     "author_zh": "窦应泰",
+    "author_sort": "Dou, Yingtai",
     "publisher": "Tuanjie Publishing House (团结出版社), Beijing, 2007",
     "isbn": "978-7-80130-758-3",
     "uid": "urn:uuid:wang-yaqiao-full-book-1",
+    "language": "en",
+    "date": "2007",
+    "description": ("A popular biography of Wang Yaqiao (1889–1936), the "
+                    "Republican-era assassin who rose from rural Anhui to lead "
+                    "the Hatchet Gang and wage a decade-long campaign of "
+                    "political killings against Chiang Kai-shek's regime. "
+                    "Translated from the Chinese with historical annotations."),
+    "subjects": ["China -- History -- Republic, 1912-1949",
+                 "Wang, Yaqiao, 1889-1936",
+                 "Assassins -- China -- Biography",
+                 "Political violence -- China -- History"],
 }
 
 CSS = """\
@@ -335,9 +349,9 @@ def main(epub_path):
           '<div class="tp"><h1>%s</h1>'
           '<p lang="zh-Hans">%s</p><p>%s · <span lang="zh-Hans">%s</span></p>'
           '<p class="note">%s</p><p class="note">English translation</p></div>'
-          % (esc(META["title"]), esc(META["title_zh"]), esc(META["author"]),
+          % (esc(META["title_full"]), esc(META["title_zh"]), esc(META["author"]),
              esc(META["author_zh"]), esc(META["publisher"])),
-          META["title"])
+          META["title_full"])
 
     counter = [0]
     for chap in chapters:
@@ -395,7 +409,7 @@ def main(epub_path):
                  '<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">'
                  '<head><meta name="dtb:uid" content="%s"/></head>'
                  "<docTitle><text>%s</text></docTitle><navMap>%s</navMap></ncx>"
-                 % (META["uid"], esc(META["title"]), ncx))
+                 % (META["uid"], esc(META["title_full"]), ncx))
 
     items = ['<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>',
              '<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>',
@@ -409,19 +423,56 @@ def main(epub_path):
                      'media-type="image/jpeg" properties="cover-image"/>')
     spine = "".join('<itemref idref="d%d"/>' % i for i in range(1, len(docs) + 1))
 
+    from datetime import datetime, timezone
+    modified = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    subject_xml = "".join("<dc:subject>%s</dc:subject>" % esc(s)
+                          for s in META.get("subjects", []))
+    opf_meta = (
+        '<?xml version="1.0" encoding="utf-8"?>'
+        '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" '
+        'unique-identifier="pub-id">'
+        '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" '
+        'xmlns:opf="http://www.idpf.org/2007/opf">'
+        '<dc:identifier id="pub-id">%(uid)s</dc:identifier>'
+        '<dc:title id="main-title">%(title)s</dc:title>'
+        '<meta refines="#main-title" property="title-type">main</meta>'
+        '<dc:title id="subtitle">%(subtitle)s</dc:title>'
+        '<meta refines="#subtitle" property="title-type">subtitle</meta>'
+        '<meta refines="#subtitle" property="display-seq">2</meta>'
+        '<dc:language>%(lang)s</dc:language>'
+        '<dc:creator id="author">%(author)s</dc:creator>'
+        '<meta refines="#author" property="role" scheme="marc:relators">aut</meta>'
+        '<meta refines="#author" property="file-as">%(author_sort)s</meta>'
+        '<dc:publisher>%(publisher)s</dc:publisher>'
+        '<dc:source>ISBN %(isbn)s</dc:source>'
+        '<dc:date>%(date)s</dc:date>'
+        '<dc:description>%(description)s</dc:description>'
+        '%(subjects)s'
+        '<meta property="dcterms:modified">%(modified)s</meta>'
+        '%(cover_meta)s'
+        '</metadata>'
+        '<manifest>%(manifest)s</manifest>'
+        '<spine toc="ncx">%(spine)s</spine>'
+        '</package>'
+    )
     with open(os.path.join(oebps, "content.opf"), "w") as fh:
-        fh.write('<?xml version="1.0" encoding="utf-8"?>'
-                 '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" '
-                 'unique-identifier="pub-id"><metadata '
-                 'xmlns:dc="http://purl.org/dc/elements/1.1/">'
-                 "<dc:identifier id=\"pub-id\">%s</dc:identifier>"
-                 "<dc:title>%s</dc:title><dc:language>en</dc:language>"
-                 "<dc:creator>%s</dc:creator><dc:publisher>%s</dc:publisher>"
-                 "<dc:source>ISBN %s</dc:source>"
-                 '<meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>'
-                 "</metadata><manifest>%s</manifest><spine toc=\"ncx\">%s</spine></package>"
-                 % (META["uid"], esc(META["title"]), esc(META["author"]),
-                    esc(META["publisher"]), META["isbn"], "".join(items), spine))
+        fh.write(opf_meta % {
+            "uid": META["uid"],
+            "title": esc(META["title"]),
+            "subtitle": esc(META.get("subtitle", "")),
+            "lang": META.get("language", "en"),
+            "author": esc(META["author"]),
+            "author_sort": esc(META.get("author_sort", META["author"])),
+            "publisher": esc(META["publisher"]),
+            "isbn": META["isbn"],
+            "date": META.get("date", ""),
+            "description": esc(META.get("description", "")),
+            "subjects": subject_xml,
+            "modified": modified,
+            "cover_meta": '<meta name="cover" content="cover"/>' if has_cover else "",
+            "manifest": "".join(items),
+            "spine": spine,
+        })
 
     with open(os.path.join(BUILD, "META-INF", "container.xml"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'
