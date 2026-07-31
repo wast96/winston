@@ -1,6 +1,9 @@
 # Regenerable working files (rebuild from source.epub; never project work)
 data/src_epub/
 data/src/
+# data/zh: parity sources, regenerated from the committed out/*_bilingual.md
+# by split_bilingual.py; not committed (like data/src).
+data/zh/
 data/verify/
 data/figs/manifest.json
 build/

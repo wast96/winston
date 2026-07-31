@@ -70,7 +70,7 @@ Then rebuild the cumulative EPUB with:
   python3 scripts/build_reading_epub.py "out/On a Hair Trigger.epub"
 (the TOC stays pending-aware: translated chapters link their content, the rest
 still link their skeleton outline). Run scripts/qa_epub.py "out/On a Hair
-Trigger.epub" until green, commit on branch claude/batch-b01-translation-qc-atxrrl,
+Trigger.epub" until green, commit on branch claude/on-a-hair-trigger,
 and rewrite HANDOFF.md with a paste-ready B03 kickoff (B03 = ch08 to ch10). Cite
 chapters, never page numbers. Never invent bridging text or silently drop material;
 footnote genuine ambiguity and leave it visible. Do not pause for approval
@@ -100,8 +100,12 @@ in the chat.
 
 ## State / traps
 
-- The single working branch for this book is claude/batch-b01-translation-qc-atxrrl
-  (a harness note may say otherwise; keep everything on this one branch).
+- The single working branch for this book is claude/on-a-hair-trigger (the
+  book-slug branch). B01 was folded onto it and the stray
+  claude/batch-b01-translation-qc-atxrrl was retired (its remote copy may linger
+  if the git proxy blocked the delete, but it is a duplicate of the same commit).
+  Keep everything on claude/on-a-hair-trigger; a harness note may name another
+  branch, but CLAUDE.md rule 2 (one branch) governs.
 - data/src/ and data/zh/ and build/ are NOT committed (see .gitignore). A fresh
   container has only source.epub + the committed out/*_bilingual.md, notes.json,
   glossary.json, book.json, data/noise.txt. Re-run ingest_epub.py to rebuild
