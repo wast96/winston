@@ -36,3 +36,31 @@
 四岁
 # 几十万条 -> the built-in 几十 rule orphans 万; "hundreds of thousands of lives"
 万条
+# "a dozen or so" / "more than a dozen" -- 十几 is already handled,
+# but the orphaned 十 in 十几个/十几步 still flags
+十几
+# body-part terms and set phrases (not quantities)
+五官
+四肢
+十足
+# idioms containing numerals
+千丝万缕
+狡兔三窟
+两难
+锋芒四射
+# classifiers / measure-word phrases where the numeral is absorbed
+两道
+两股
+两者
+两[箭发]
+# "myriad nations" (set phrase for many nations)
+万国
+# 几卷/几封 = "several (scrolls/packets)" -- absorbed in translation
+几[卷封]
+# "at one time / momentary" -- not a quantity
+一时
+# compound spelled-out numbers the checker can't match as a single value
+# (二十三年 → "twenty-third year", 二百二十人 → "two hundred and twenty men")
+# Verified present in English as compound spelled-out forms.
+二十三年
+二百二十

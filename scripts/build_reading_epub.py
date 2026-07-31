@@ -691,7 +691,9 @@ def main(epub_path):
         md.append('<dc:subject>%s</dc:subject>' % esc(subj))
     for isbn in meta["source_isbn"]:
         md.append('<dc:source>urn:isbn:%s</dc:source>' % esc(isbn))
-    md.append('<meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>')
+    from datetime import datetime, timezone
+    md.append('<meta property="dcterms:modified">%s</meta>'
+              % datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'))
     if cover_file:
         md.append('<meta name="cover" content="cover-image"/>')
 

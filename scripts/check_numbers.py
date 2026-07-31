@@ -131,7 +131,7 @@ def cn_to_int(token):
 
 def source_numbers(text, extra_noise=()):
     stripped = text
-    for pat in list(NOISE) + list(extra_noise):
+    for pat in list(extra_noise) + list(NOISE):
         stripped = re.sub(pat, "", stripped)
     nums = set(int(n) for n in re.findall(r"\d+", stripped))
     for tok in re.findall(r"[零一二两兩三四五六七八九十百千万萬億]+", stripped):

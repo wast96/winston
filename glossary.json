@@ -17,7 +17,16 @@
     "王忠嗣": {"en": "Wang Zhongsi", "pinyin": "Wáng Zhōngsì", "status": "attested", "note": "Wang Zhongsi (705–749), Tang military commissioner of Shuofang. Pinyin per <i>The Cambridge History of China</i>, vol. 3."},
     "张说": {"en": "Zhang Yue", "pinyin": "Zhāng Yuè", "status": "attested", "note": "Zhang Yue (667–730), chief minister and Secretariat Director under Xuanzong; the surname's literary reading is <i>Yue</i>. Pinyin per standard Tang scholarship."},
     "颜真卿": {"en": "Yan Zhenqing", "pinyin": "Yán Zhēnqīng", "status": "attested", "note": "Yan Zhenqing (709–785), one of the great masters of Chinese calligraphy; the Jing'an Bureau's name-board is in his hand. Pinyin, standard."},
-    "孙思邈": {"en": "Sun Simiao", "pinyin": "Sūn Sīmiǎo", "status": "attested", "note": "Sun Simiao (traditionally 581–682), physician venerated as the Medicine King (<i>Yaowang</i>); the Jing'an Bureau occupies his former residence. Pinyin, standard."}
+    "孙思邈": {"en": "Sun Simiao", "pinyin": "Sūn Sīmiǎo", "status": "attested", "note": "Sun Simiao (traditionally 581–682), physician venerated as the Medicine King (<i>Yaowang</i>); the Jing'an Bureau occupies his former residence. Pinyin, standard."},
+    "闻染": {"en": "Wen Ran", "pinyin": "Wén Rǎn", "status": "decided", "note": "A young incense-shop owner in the West Market whose father died the year before; protected by an unnamed benefactor. Pinyin."},
+    "封大伦": {"en": "Feng Dalun", "pinyin": "Fēng Dàlún", "status": "decided", "note": "A middle-aged official in a blue robe who bears a grudge against Wen Ran and her late father. Pinyin."},
+    "岑参": {"en": "Cen Shen", "pinyin": "Cén Shēn", "status": "attested", "note": "Cen Shen (c. 715–770), one of the great Tang frontier poets. Appears here as a young man whose horse is stolen. The surname reading is <i>Cen</i>; the given name <i>Shen</i> (参, literary reading). Per S. Owen, <i>The Great Age of Chinese Poetry: The High T'ang</i>."},
+    "贺知章": {"en": "He Zhizhang", "pinyin": "Hè Zhīzhāng", "status": "attested", "note": "He Zhizhang (659–744), Tang poet and official, Director of the Palace Library; friend of Li Bai. The novel's Director He is modeled on him. Per <i>Old Book of Tang</i>, <i>New Book of Tang</i>."},
+    "右杀": {"en": "the Right Shad", "pinyin": "Yòu Shā", "status": "decided", "note": "A Türk title of office: princes of the Ashina royal house governing the western tribes were called the Right Shad (<i>you sha</i>). Here the supreme Türk commander in Chang'an, disguised as a Nestorian priest."},
+    "阿史那": {"en": "Ashina", "pinyin": "Āshǐnà", "status": "attested", "note": "The royal clan of the Turkic Khaganates. Standard Turkological form."},
+    "盖嘉运": {"en": "Gai Jiayun", "pinyin": "Gài Jiāyùn", "status": "attested", "note": "Gai Jiayun, Tang military official who served as Protector-General of Beiting and relieved the siege of Balhuan (735). Recorded in <i>Zizhi Tongjian</i>."},
+    "突骑施": {"en": "Türgesh", "pinyin": "Tūqíshī", "status": "attested", "note": "The Türgesh, a Western Turkic tribal confederation based in the Chu and Ili valleys. Standard Turkological form; see P. B. Golden, <i>An Introduction to the History of the Turkic Peoples</i>."},
+    "苏禄可汗": {"en": "Suluk Khagan", "pinyin": "Sùlù Kěhán", "status": "attested", "note": "Suluk (Çor) Khagan (r. 716–738) of the Türgesh; besieged Balhuan in 735. Assassinated by Baga Tarkhan in 738. Standard Turkological form."}
   },
   "organizations": {
     "靖安司": {"en": "the Jing'an Bureau", "pinyin": "Jìng'ān Sī", "status": "decided", "note": "A newly created security office charged with threat-prevention (<i>zei shi ce fang</i>) for the whole western capital. The name is glossed in the text: 'to quell revolt is <i>jing</i>; when the four quarters are without trouble, that is <i>an</i>.' <i>Si</i> = bureau."},
@@ -36,7 +45,19 @@
     "广通渠": {"en": "the Guangtong Canal", "pinyin": "Guāngtōng Qú", "status": "decided", "note": "A canal running past the West Market, widened for timber barges; Cao Poyan escapes down it."},
     "独柳树": {"en": "the Lone Willow", "pinyin": "Dúlǐushù", "status": "decided", "note": "The West Market's execution ground, shunned as unlucky."},
     "康国": {"en": "Kang", "pinyin": "Kāng Guó", "status": "attested", "note": "The Sogdian city-state of Samarkand, one of the 'Nine Surnames of Zhaowu.' Standard sinological identification."},
-    "拂林": {"en": "Fulin", "pinyin": "Fúlín", "status": "attested", "note": "The Tang name for Byzantium / the Eastern Roman lands. Standard identification."}
+    "拂林": {"en": "Fulin", "pinyin": "Fúlín", "status": "attested", "note": "The Tang name for Byzantium / the Eastern Roman lands. Standard identification."},
+    "怀远坊": {"en": "Huaiyuan Ward", "pinyin": "Huáiyuǎn Fāng", "status": "decided", "note": "A ward south of the West Market, home to a large foreign population and a Zoroastrian temple."},
+    "安仁坊": {"en": "Anren Ward", "pinyin": "Ānrén Fāng", "status": "decided", "note": "A ward northeast of Dunyi Ward where the Wang military commissioner's family resides."},
+    "安业坊": {"en": "Anye Ward", "pinyin": "Ānyè Fāng", "status": "decided", "note": "A ward containing the Jidu Nunnery, whose purple-gold bell is Wen Ran's landmark."},
+    "崇业坊": {"en": "Chongye Ward", "pinyin": "Chóngyè Fāng", "status": "decided", "note": "A ward where the Xuandu Abbey causes heavy traffic jams."},
+    "怀贞坊": {"en": "Huaizhen Ward", "pinyin": "Huáizhēn Fāng", "status": "decided", "note": "A ward across the street from Chongye Ward where Feng Dalun watches from a wine-house."},
+    "敦义坊": {"en": "Dunyi Ward", "pinyin": "Dūnyì Fāng", "status": "decided", "note": "A ward south of the West Market where Wen Ran's incense shop is located."},
+    "拨换城": {"en": "Balhuan", "pinyin": "Bōhuàn Chéng", "status": "attested", "note": "A garrison town of the Protectorate of Anxi, near modern Aksu in Xinjiang. Site of the 735 siege described in Li Bi's backstory for Zhang Xiaojing."},
+    "小勃律": {"en": "Little Balur", "pinyin": "Xiǎo Bólǜ", "status": "attested", "note": "A kingdom in the high Karakoram (modern Gilgit-Baltistan); Tanqi's mother was from there. Standard identification per Beckwith, <i>The Tibetan Empire in Central Asia</i>."},
+    "玄都观": {"en": "Xuandu Abbey", "pinyin": "Xuándū Guàn", "status": "decided", "note": "A major Daoist temple in Chongye Ward, frequented by the great and powerful."},
+    "积度尼寺": {"en": "the Jidu Nunnery", "pinyin": "Jīdù Nísì", "status": "decided", "note": "A Buddhist nunnery in Anye Ward where Empress Wu Zetian once took the veil; famous for its purple-gold bell."},
+    "大秦": {"en": "Daqin", "pinyin": "Dàqín", "status": "attested", "note": "The Tang name for the Eastern Roman / Byzantine lands or sometimes the Near East in general. Standard identification."},
+    "大食": {"en": "the Arab lands", "pinyin": "Dàshí", "status": "attested", "note": "The Tang name for the Arab/Umayyad (later Abbasid) caliphate. Standard identification."}
   },
   "terms": {
     "上元节": {"en": "the Lantern Festival", "pinyin": "Shàngyuán Jié", "status": "decided", "note": "The fifteenth night of the first lunar month (<i>Shangyuan</i>), when the curfew was lifted and the city was lit with lanterns; here its eve, the fourteenth."},
@@ -45,6 +66,7 @@
     "武侯": {"en": "constable", "pinyin": "wǔhóu", "status": "decided", "note": "The watch-constables who man the watchtowers and street posts. Rendered 'constable' throughout."},
     "不良帅": {"en": "buliang chief", "pinyin": "bùliáng shuài", "status": "decided", "note": "The head of a county's <i>buliang</i>, the plainclothes thief-catchers; the deputy to the constable-magistrate in charge of policing. Rendered with the loanword <i>buliang</i>."},
     "不良人": {"en": "buliang men", "pinyin": "bùliáng rén", "status": "decided", "note": "Tang plainclothes thief-catchers and informants who policed the wards under the <i>buliang</i> chief."},
+    "县尉": {"en": "county commandant", "pinyin": "xiànwèi", "status": "decided", "note": "The county-level official responsible for law enforcement and public order, directly supervising the buliang chief. Not the county magistrate (县令, xiànlìng), who was the head of the county administration."},
     "狼卫": {"en": "Wolf Guards", "pinyin": "lángwèi", "status": "decided", "note": "The khagan's most feared elite—cruel, cunning, and fanatically loyal; the 'wolves' the Jing'an Bureau hunts."},
     "突厥": {"en": "Türk", "pinyin": "Tūjué", "status": "attested", "note": "The Turkic people of the Second Turkic Khaganate. 'Türk' per standard Turkological usage."},
     "粟特": {"en": "Sogdian", "pinyin": "Sùtè", "status": "attested", "note": "The Iranian merchant people of Central Asia who dominated Silk Road trade. Standard."},
@@ -56,6 +78,19 @@
     "明光铠": {"en": "gleaming armor", "pinyin": "míngguāng kǎ", "status": "decided", "note": "<i>Mingguang</i> plate armor, named for the polished discs at the breast that flashed in the light; heavy, which nearly drowns Cui Qi."},
     "横刀": {"en": "saber", "pinyin": "héngdāo", "status": "decided", "note": "The <i>hengdao</i>, the standard single-edged Tang military saber worn at the waist."},
     "天宝": {"en": "Tianbao", "pinyin": "Tiānbǎo", "status": "attested", "note": "The third and last reign-era of Emperor Xuanzong (742–756); its years were counted with the word <i>zai</i> rather than <i>nian</i>. Tianbao 3 = 744 CE. Standard."},
-    "开元": {"en": "Kaiyuan", "pinyin": "Kāiyuán", "status": "attested", "note": "Xuanzong's preceding reign-era (713–741), remembered as the high noon of Tang prosperity. Standard."}
+    "开元": {"en": "Kaiyuan", "pinyin": "Kāiyuán", "status": "attested", "note": "Xuanzong's preceding reign-era (713–741), remembered as the high noon of Tang prosperity. Standard."},
+    "熊火帮": {"en": "the Bear Fire Gang", "pinyin": "Xiónghuǒ Bāng", "status": "decided", "note": "A gang of idle ruffians terrorizing Wannian County, several hundred strong."},
+    "西府店": {"en": "the Xifu", "pinyin": "Xīfǔ Diàn", "status": "decided", "note": "A gold-and-silver shop and currency exchange in the West Market, owned by a Sogdian of Kang."},
+    "元来行": {"en": "the Yuanlai Trading Post", "pinyin": "Yuánlái Háng", "status": "decided", "note": "A Kashgar merchant's enterprise dealing in large-scale livestock, with ties to the steppe."},
+    "障刀": {"en": "barrier-knife", "pinyin": "zhàngdāo", "status": "decided", "note": "A short, light combat blade suited for close quarters, lighter than the standard <i>hengdao</i> saber."},
+    "寸弩": {"en": "pocket crossbow", "pinyin": "cùnnǔ", "status": "decided", "note": "A small, concealable crossbow issued by the Jing'an Bureau; single-shot, requiring manual re-cocking."},
+    "烟丸": {"en": "smoke pellet", "pinyin": "yānwán", "status": "decided", "note": "A signaling device containing white phosphorus, sulfur, and other combustibles; ignites in the wind and produces colored smoke."},
+    "祆教": {"en": "Zoroastrianism", "pinyin": "Xiānjiào", "status": "attested", "note": "The Iranian fire-religion, widespread in Central Asia and the Türk steppe. Tang Chang'an had temples for its foreign-born adherents. Standard identification."},
+    "祆正": {"en": "prelate", "pinyin": "xiānzhèng", "status": "decided", "note": "The government-appointed head of a Zoroastrian temple, equivalent to the abbot of a Chinese monastery."},
+    "景教": {"en": "Nestorian", "pinyin": "Jǐngjiào", "status": "attested", "note": "The Church of the East (Nestorian Christianity) as known in Tang China. The Right Shad disguises himself as a Nestorian priest. Standard identification."},
+    "五尊阎罗": {"en": "the Five-Faced Yama", "pinyin": "Wǔzūn Yánluó", "status": "decided", "note": "Zhang Xiaojing's street name in Wannian County, for the five demons he embodies: vicious, venomous, ruthless, stubborn, and pitiless."},
+    "红拂": {"en": "Lady Red Sleeve", "pinyin": "Hóngfú", "status": "attested", "note": "A legendary Tang figure from the romance <i>The Tale of the Curly-Bearded Hero</i>: a maidservant who eloped with a hero. Li Bi teases Tanqi with the allusion. Standard."},
+    "闻记香铺": {"en": "the Wen Incense Shop", "pinyin": "Wénjì Xiāngpù", "status": "decided", "note": "Wen Ran's family incense shop, located in Dunyi Ward."},
+    "玉真观": {"en": "the Jade Purity", "pinyin": "Yùzhēn Guàn", "status": "decided", "note": "A high-end face-cream shop in the West Market's southeast quarter, run by a wealthy foreign proprietor."}
   }
 }
