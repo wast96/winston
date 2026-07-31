@@ -19,3 +19,6 @@ book.draft.json
 # Keep source.epub and committed figure images (data/figs/*.png|jpg) TRACKED.
 # If your source EPUB is large and you would rather not commit it, add:
 #   source.epub
+
+# Scratch working files (English intermediates, check configs) — regenerable
+/scratchpad/

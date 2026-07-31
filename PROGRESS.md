@@ -238,3 +238,117 @@ Flagged for the read-through (things to keep an eye on):
   only coherent reading (ch10 白苹's "是的" + the narrator's jealousy question in
   one paragraph; ch14 the two toasts). No content added beyond a "said"/"answered"
   tag to name the speaker.
+
+## B03 = ch15 through ch17 (Chapters 15 to 17) — DONE
+
+Scope: units ch15..ch17, the novel's Chapters 15 to 17 (source headings 十五..
+十七), 16,230 source characters (ch15 is long, ~10,004; ch16/ch17 short). Covers
+the evening at the Manfields' (Helen the "calm river"; her English-reared
+household; her mother's hopes and the family history of a singing gift sacrificed
+to love); the settled new life and its unravelling; Mrs. Manfield's alarm that
+Helen means to give up music for philosophy; the moonlit drive to Jessfield Park
+(the essay on smell and culture) and the water-lily meeting with Helen by the
+pond (the "philosophy is the highest art" debate); the three-month pact with Mei
+Yingzi; Helen's transformation at the September dinner-dance into a creature of
+vanity (Mei Yingzi's "sorcery"); and the narrator's plan of escape — the feigned
+trip home — undone when Bai Ping reveals she is secretly the landlord of the very
+apartment he had rented to hide in, and asks him to move in with her.
+
+Deliverables shipped this batch:
+- Reading translations out/ch15_reading.md .. out/ch17_reading.md (generated from
+  the aligned bilingual QC files via split_bilingual.py; the bilingual files are
+  QC only and do not ship). A batch helper scripts/_zip_bilingual.py pairs the
+  VERBATIM source paragraphs (copied from data/src, BOM + the two duplicated
+  chapter-numeral heading lines stripped) with the authored English, so the
+  source side of the QC file is never re-typed.
+- 7 footnotes folded into notes.json (continuous numbering 29..35 across the
+  batch, assigned by the builder in reading order). Batch total now 35.
+- 5 new glossary rows in glossary.json (68 rows total): Jessfield Park (兆丰公园),
+  Route Winling (汶林路), Route Prosper Paris (姚主教路), the DD's Café (弟弟咖啡店),
+  and the poet Tao Yuanming (陶渊明).
+- figures.json unchanged (no in-text figures in these chapters).
+- Cumulative EPUB rebuilt to "out/The Whistling Wind.epub" (18 of 60 chapters
+  translated; the other 42 still link to their skeleton outlines).
+
+Checks run and results:
+- check_numbers.py (with data/noise.txt) on every bilingual file: 0 unresolved
+  across all 3 units (447 pairs total). Number-check noise additions this batch,
+  each a NON-quantity numeral or a parser artifact (documented in data/noise.txt):
+  两样 ("no different"; 两≠2), 十足 ("to the full"; 十≠10), 光芒万丈 (idiom of
+  radiance; 万丈 not a count), and a numeral+丈 pattern [一二三四五六七八九十两]丈
+  because 丈 (a unit of length ~3.3 m) is rendered to feet (一丈 -> "ten feet",
+  二丈 -> "twenty feet"), so its numeral is unit-converted and cannot survive
+  as-is. Also 四十二四十三: an unpunctuated speed range "42-43" (needle 始终在
+  四十二四十三上) that the source numeral parser miscomputes as a single 83; the
+  real 42/43 are rendered. The one English-parser limit ("three hundred and forty"
+  parses to 3/40/300, not 340) was met by writing the rent figure "340 dollars a
+  month" as digits, not by touching the script (per the B02 caution).
+- check_structure.py (config mode over all 18 translated units): paragraph parity
+  OK on every unit (ch15 233 | ch16 51 | ch17 163); 35 note anchors, 0 unresolved;
+  heading shape uniform (1 distinct shape).
+- qa_epub.py on the built EPUB: PASS (72 files, 66 documents, 35 note references /
+  35 bodies / 35 backlinks, all links resolve).
+- Verbatim-quotation audit: whitespace-stripped character-for-character comparison
+  of every QC blockquote against data/src (BOM + duplicated heading lines removed)
+  confirms the source is quoted exactly and no sentence is dropped — ch15 11,730 /
+  ch16 3,359 / ch17 4,115 characters, all VERBATIM OK.
+- Blind double translation (separate context, source only): the analytical/lyrical
+  passages — the essay on smell and culture (ch15), the "philosophy is the highest
+  art" debate (ch15), and the toothpaste/toothbrush vanity exchange (ch15) — all
+  converged with the shipped translation; no divergence pointing to an unresolved
+  ambiguity. Independent readings of 臆说 ("conjecture"), 宗教的婢女 ("handmaid of
+  religion"), 科学的科学 ("science of sciences") and the toothpaste/toothbrush
+  figure matched the choices made here. The blind pass surfaced one more source
+  glitch (see below), 月色胶洁 for 皎洁 ("luminous/pure moonlight").
+- Round-trip back-translation (separate context): the Bai-Ping-is-the-landlord
+  reveal (the name-card passage) and the Tao Yuanming / silver-room close (ch17):
+  the back-translation mapped one-to-one onto the source — no content in the
+  English absent from the source (no inventions), and no source content dropped.
+  The only flags were sub-lexical nuance (the emphatic 就是 in "我就是你的房东",
+  the elided 还), not additions or omissions.
+- Random deep audit (~4%, the double-translation and back-translation passages
+  given the full paranoid treatment plus the verbatim sweep): observed substantive
+  error rate 0 (no mistranslations or omissions found); the only source-level
+  problems were the digitization glitches below, rendered to plain sense.
+
+Fact-checking (against Wikipedia / Historical Photographs of China / Baidu Baike /
+Shanghai French-Concession road histories; no LLM-sourced references):
+- Jessfield Park (兆丰公园): a large public garden in the west of the International
+  Settlement, laid out by the Shanghai Municipal Council in 1914, renamed Zhongshan
+  Park in 1941 for Sun Yat-sen; the novel keeps the older concession-era name.
+  Corroborated.
+- DD's Café (弟弟咖啡店 = 弟弟, "little brother" = DD's): a fashionable café on
+  Avenue Joffre in the French Concession, resort of stage and screen people.
+  Corroborated.
+- Route Prosper Paris (姚主教路, today Tianping Road), named for the French Jesuit
+  bishop Prosper Paris (Chinese name 姚宗李, Yao Zongli); Route Winling (汶林路,
+  today Wanping Road), named for J. A. Winling: both corroborated concession
+  road-names. The Jewish restaurant at the Winling/Joffre corner is footnoted to
+  Shanghai's wartime Central-European Jewish refugee community (city required no
+  visa from 1938): corroborated at the general level.
+- Tao Yuanming (陶渊明 / Tao Qian, 365-427), the archetypal poet of reclusion:
+  standard, corroborated. "Philosophy is the handmaid of religion" footnoted to
+  the scholastic tag philosophia ancilla theologiae; Richard Wagner (1813-1883)
+  footnoted like the earlier Debussy/Schubert composer notes.
+
+Flagged for the read-through (things to keep an eye on):
+- Minor source digitization glitches rendered to plain meaning and NOT footnoted:
+  ch15 音东 for 音乐 ("music"), 月色胶洁 for 皎洁 ("luminous/pure moonlight"),
+  双叠的下频 for 下颏 ("double chin"), 残校 for 残枝 ("withered stalks"), 自台布 for
+  白台布 ("white cloth"), 罪衍 for 罪愆 ("sin"); ch17 到了两杯茶 for 倒了两杯茶
+  ("poured two cups of tea"). Genuine reference/
+  reading matter is footnoted instead (Jessfield Park, the Jewish refugees, the
+  scholastic tag; Wagner; Tao Yuanming, Route Prosper Paris, DD's Café).
+- Two-speakers-in-one-paragraph kept as single source paragraphs (parity): ch15
+  Mei Yingzi's "Thank you" + the narrator's "Have you really come specially…"
+  (tagged "I asked"); ch17 the narrator's "I've rented a room…" + Bai Ping's "When
+  do you mean to move in?" No content added beyond the minimum speaker tag.
+- The pronoun in ch15's "could it be true that her feeling for me was something
+  more than friendship" reads Helen (the antecedent is Mei Yingzi's report that
+  Helen loves a man), and is kept as "her" so the ambiguity the narrator himself
+  feels is preserved.
+- Provisional/attested renderings a later attestation could sharpen: Route Winling
+  and Route Prosper Paris are given their concession English names; the DD's Café
+  is attested. All other names reuse the fixed glossary forms (Helen, Mrs.
+  Manfield, Mei Yingzi, Bai Ping, Stephen, Professor Paci, the Paramount, Hangzhou,
+  Xujiahui, cheongsam).

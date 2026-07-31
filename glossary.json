@@ -110,6 +110,12 @@
       "pinyin": "Jimi",
       "status": "provisional",
       "note": "Bai Ping's white Persian cat; <span lang=\"zh-Hans\">吉迷</span> transliterates a Western pet-name (perhaps &#8216;Jimmy&#8217;), romanized here as Jimi."
+    },
+    "陶渊明": {
+      "en": "Tao Yuanming",
+      "pinyin": "Tao Yuanming",
+      "status": "attested",
+      "note": "Poet (365&#8211;427), also Tao Qian; the great poet of reclusion and the pastoral in the Chinese tradition."
     }
   },
   "organizations": {
@@ -360,6 +366,30 @@
       "pinyin": "Niugong Dun",
       "status": "provisional",
       "note": "A spot on the West Lake named in the source (<span lang=\"zh-Hans\">牛公墩</span>); not securely identified, romanized here."
+    },
+    "兆丰公园": {
+      "en": "Jessfield Park",
+      "pinyin": "Zhaofeng gongyuan",
+      "status": "attested",
+      "note": "A large public park in the west of the International Settlement, laid out by the Shanghai Municipal Council in 1914; renamed Zhongshan Park in 1941 for Sun Yat-sen. The novel keeps the older concession-era name Jessfield Park."
+    },
+    "汶林路": {
+      "en": "Route Winling",
+      "pinyin": "Wenlin Lu",
+      "status": "attested",
+      "note": "A French Concession street (today Wanping Road), named for J. A. Winling; the Jewish restaurant of Chapter 15 stands at its corner with Avenue Joffre."
+    },
+    "姚主教路": {
+      "en": "Route Prosper Paris",
+      "pinyin": "Yao Zhujiao Lu",
+      "status": "attested",
+      "note": "A French Concession road (today Tianping Road), named for the French Jesuit bishop Prosper Paris (Chinese name 姚宗李, Yao Zongli). The source writes 姚主教路, &#8216;Bishop Yao&#8217;s Road.&#8217;"
+    },
+    "弟弟咖啡店": {
+      "en": "the DD's Café",
+      "pinyin": "Didi kafeidian",
+      "status": "attested",
+      "note": "A fashionable caf&#233; on Avenue Joffre; 弟弟 (&#8216;little brother&#8217;) transliterates the English name DD&#8217;s. Rendered the DD&#8217;s Caf&#233; in the prose."
     }
   },
   "terms": {

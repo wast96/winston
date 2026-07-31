@@ -38,4 +38,18 @@
 四川
 # 四为 = a digitization slip for 因为 ("because") in ch14; the 四 is not the count 4
 四为
+# 两样 = "no different" (set phrase 没有两样); the 两 is not the count 2
+两样
+# 十足 = "to the full / completely" (idiom 十足发挥); the 十 is not the count 10
+十足
+# 光芒万丈 = "blazing with radiance" (idiom, of Mei Yingzi as the sun); 万丈 is not a count
+光芒万丈
+# 丈 is a Chinese unit of length (~3.3 m); a numeral + 丈 is rendered to feet in English
+# (一丈 -> "ten feet", 二丈 -> "twenty feet"), so the numeral is unit-converted and cannot
+# survive source-to-target as-is. Strips the numeral before 丈 (not 丈夫 "husband").
+[一二三四五六七八九十两]丈
+# 四十二四十三 = an unpunctuated speed range "42-43" (the needle "始终在四十二四十三上");
+# the numeral parser miscomputes it as a single 83. The real values 42/43 are rendered
+# ("forty-two, forty-three"); the whole-hour "一点钟" (per hour) is stripped by 点钟 above.
+四十二四十三
 # 一时 handled by the built-in measure list; 万分 already built in.
