@@ -25,3 +25,30 @@
 # 万国 "all nations" = International, in 万国殡仪馆 the International Funeral
 # Parlour; 万 is not the quantity 10000 (ch01)
 万国
+# --- Chapter Two additions ---
+# 百宝(橱) "curio-cabinet" (百 not the count hundred) (ch02)
+百宝
+# 几两几钱 "a few taels and mace" -- 两/钱 are weight measures, not counts (ch02)
+几两几钱
+# 五云(织绸厂) Wuyun Silk-Weaving Mill -- 五 is part of the firm's name (ch02)
+五云
+# 两样 "different" (idiom; 两 not the count two) (ch02)
+两样
+# 其二 in 知其一未知其二 "know the one, not the other" (二 not a count) (ch02)
+其二
+# 三角脸 "triangular face" (三 not the count three) (ch02)
+三角脸
+# 六角(亭子) "hexagonal (pavilion)" (六 not the count six) (ch02)
+六角
+# 零星(小户) "scattered/odd" small holders (零 not the count zero) (ch02)
+零星
+# 三分(危险) "somewhat/a measure of" (fractional intensifier, not the count 3) (ch02)
+三分
+# 秋千 "swing" (playground swing; 千 not the quantity 1000) (ch02)
+秋千
+# 四乡 "the surrounding countryside" (四 not the count four) (ch02)
+四乡
+# 夹七夹八 "rambling/disjointed" (idiom; 七/八 not counts) (ch02)
+夹七夹八
+# 十万八万 "a hundred or eighty thousand" -- set phrase for a modest sum (ch02)
+十万八万

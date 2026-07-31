@@ -27,7 +27,7 @@ WORD_NUM = {
     # Extend WORD_NUM with any spelled-out numbers your translation uses that the
     # source prints as digits/hanzi. Example: teen ordinals for regnal years
     # ("the seventeenth year of the reign", 十七年); the built-ins stop at "tenth".
-    "seventeenth": 17,
+    "seventeenth": 17, "eleventh": 11, "sixteenth": 16,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}
@@ -67,6 +67,10 @@ NOISE = [
     r"一[艘條条頂顶隻只個个位群把張张片口指邊边旁時时下陣阵壺壶碟種种番場场股家棵套幅]",
     r"一[輛辆眼躬支絲丝聲声定天次間间驚惊槍枪動动言樣样路批封面團团句道年身手筆笔遍]",
     r"[一不][旦時时般點点些]",
+    # vague magnitudes 几十万/几百万/几千万 ("some hundreds of thousands"): match
+    # WHOLE and BEFORE the 2-char measure strip, or that strip eats 几十 and
+    # orphans a bare 万 read as 10000. Longest-first, always.
+    r"[幾几數数][十百千][萬万]",
     r"[幾几數数][盞盏輛辆個个位十百千萬万條条艘句步進进層层次口杯天年分]",
     r"[幾几數数][十百千]",                          # 幾十/數百 "some tens/hundreds"
     r"十[幾几分]", r"[几幾]多", r"再三",
@@ -78,8 +82,14 @@ NOISE = [
     # --- 萬/万 and 千 as intensifier, not the quantity 10000/1000 ---
     # ORDERING: 千萬/萬萬 must precede bare 萬X, or r"萬不可" eats the 萬 out of
     # 千萬不可 and orphans a 千 read as 1000. Longest literal first, always.
-    r"千萬", r"万万", r"萬萬", r"萬不得已", r"萬不可", r"萬一", r"萬分",
-    r"千万", r"万一", r"万分", r"以萬計", r"以万计", r"萬計", r"万计",
+    # 千萬/千万 is the intensifier ("by all means") ONLY when it is NOT the tail
+    # of a real quantity: 一千萬/五千万 are ten-million/fifty-million and must be
+    # read as quantities. A negative lookbehind guards it, exactly as the 十多
+    # guard above keeps 二十多 from being mis-split.
+    r"(?<![一二两兩三四五六七八九十百])千萬", r"万万", r"萬萬",
+    r"萬不得已", r"萬不可", r"萬一", r"萬分",
+    r"(?<![一二两兩三四五六七八九十百])千万", r"万一", r"万分",
+    r"以萬計", r"以万计", r"萬計", r"万计",
     # --- common four-character idioms carrying non-quantity numerals ---
     r"一舉一動", r"一举一动", r"一清二楚", r"說一不二", r"说一不二",
     r"三番五次", r"三番兩次", r"三番两次", r"三令五申", r"再三再四",
@@ -195,6 +205,12 @@ def target_numbers(text):
         for m in re.findall(r"(\d+)\s*" + word, low):
             nums.add(int(m) * scale)
         for name, val in ONES.items():
+            if re.search(r"\b%s %s\b" % (name, word), low):
+                nums.add(val * scale)
+        # "ten million", "twenty million", "fifty million" etc.: the source
+        # writes 千萬/千万 compounds (一千萬 = ten million, 五千万 = fifty
+        # million) that English spells with a tens/teen/ten word, not a ones word.
+        for name, val in dict(TENS, **TEENS, ten=10).items():
             if re.search(r"\b%s %s\b" % (name, word), low):
                 nums.add(val * scale)
         if re.search(r"\b(a|one) %s\b" % word, low):

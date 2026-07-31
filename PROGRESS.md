@@ -111,3 +111,102 @@ None in this chapter.
 - One fidelity tweak applied after the pass: 念佛 (para 24) was rendered "murmuring
   the Buddha's name" rather than the Christian-flavoured "telling her beads."
 - Deep-audit error rate observed on the sample: 0.
+
+## B02 = Chapter Two (ch02), 15,257 source chars
+
+Delivered: out/ch02_reading.md, notes.json (ch02), source_notes.json (ch02),
+glossary.json (bond-market + cast), out/Midnight.epub. QC file out/ch02_bilingual.md
+(never ships). Source read verbatim from data/src/05_part0003.txt (299 body
+paragraphs). Register: the novel's own voice, kept close to B01.
+
+### Checks run
+
+- Faithful/complete quotation: bilingual QC file quotes the source VERBATIM
+  (zipped English one-paragraph-per-line against the source body lines, so
+  alignment is structural, not hand-counted). Paragraph parity 299 = 299 (OK).
+- check_numbers.py out/ch02_bilingual.md --noise data/noise_zh.txt: 0 unresolved
+  (299 pairs). Got there by (a) project-noise entries for genuine non-quantities
+  and (b) two principled check_numbers fixes; see below.
+- check_structure.py --pairs data/zh/ch02.txt out/ch02_reading.md: parity OK.
+- Builder enforces note anchors (refuses on any orphan): all 6 translator
+  anchors + the source's [3] anchor resolved. qa_epub.py out/Midnight.epub: PASS
+  (32 files, 26 documents, 15 note refs/bodies/backlinks, all links resolve).
+- Deep audit: ~5% sample (15/299 paras incl. the densest financial/analytical
+  ones: 9, 35, 58, 84, 92, 124, 129, 141, 152, 197, 222, 248, 266, 292, 295).
+  NO issues: no omissions, no invented content, numerals/dates/names/relations
+  all carry over. Observed error rate on the sample: 0.
+
+### check_numbers.py fixes (safe, mirror B01's 二十多 precedent)
+
+1. `千萬/千万` intensifier strip now carries a negative lookbehind, so
+   一千万/五千万 (ten-million / fifty-million) are read as QUANTITIES, not the
+   "by all means" intensifier. Without this, 一千万 was mangled to a stray 万
+   (=10000) or a bare 2 from 两千万.
+2. Vague magnitudes 几十万/几百万/几千万 are stripped WHOLE (and BEFORE the
+   2-char measure-word strip, longest-first) so no bare 万 is orphaned as 10000.
+3. Target side: million/billion multipliers now also accept tens/teens/ten words
+   ("ten million", "twenty million", "fifty million"). WORD_NUM gained the
+   ordinals "eleventh":11 and "sixteenth":16 (the Fourth/Eleventh Armies, the
+   sixteenth year = 1927).
+   data/noise_zh.txt gained a Chapter-Two block: 百宝, 几两几钱, 五云, 两样,
+   其二, 三角脸, 六角, 零星, 三分, 秋千, 四乡, 夹七夹八, 十万八万 (each a name,
+   idiom, shape-word or set phrase, never a dropped quantity).
+
+### Notes
+
+- Translator footnotes (notes.json ch02): 6, builder-numbered 10-15, at anchors
+  "a Whampoa man" (Whampoa Academy), "the sixteenth year" (Republican dating /
+  1927 Northern Expedition), "the Northwest Army" (the 1930 Central Plains War /
+  Enlarged Conference), "old-calendar Dragon-Boat Festival" (a debt-settlement
+  date), "Hongxian Emperor" (Yuan Shikai's 1915-16 monarchy / 文学侍从), "the
+  golden cicada casting its shell" (Thirty-Six Stratagems). All checked against
+  scholarship; historical claims corroborated.
+- Source's own note: [3] added to source_notes.json under ch02 at the anchor
+  "Coffin-edge" (棺材边), keeping the author's number 3. It glosses the 公债 pun:
+  棺材边 (guancai bian) puns on the first characters of 关税/裁兵/编遣 (Customs /
+  Troop-Disbandment / Reorganization), the three bond issues. Renders in the
+  built EPUB as a distinct teal [3] under "Notes in the Original Edition."
+
+### Glossary rows added (one rendering per referent)
+
+- Bond-market vocabulary fixed for the whole book (terms): 公债 government bonds,
+  库券 treasury notes, 交易所 the exchange, 经纪人 broker, 多头 bull, 空头 bear,
+  标金 standard gold, 花纱 cotton and yarn, 交割 settlement, 停板 limit halt,
+  补进 to cover, 出笼 to dump, 关税/裁兵/编遣 the Customs/Troop-Disbandment/
+  Reorganization bonds, 金贵银贱 dear gold-cheap silver, 厂丝 filature silk,
+  人造丝 rayon, 交际花 socialite, 端阳节 Dragon-Boat Festival, 铁掌 the iron hand.
+- People (status decided unless noted): Lei Ming (雷参谋/雷鸣), Huang Fen, Sun
+  Jiren, Zhou Zhongwei ("Red-Headed Match"), Wang Hefu, Zhu Yinqiu, Chen Junyi,
+  Tang Yunshan, Li Zhuangfei, Han Mengxiang, Xu Manli, Zhao Botao, Shang Zhongli
+  ("Old Zhong"), Wu Zhisheng, Du Xueshi ("Young Du"), Qiu Sun (= Lawyer Qiu),
+  Lu Kuangshi, Mo Gancheng (= Mr. Mo), Tu Weiyue, Yao Jinfeng, Zhu Guiying, Xue
+  Baozhu, Wang Jinzhen, pockmarked Li, Fei the little-moustache, Dr. Bo
+  (provisional). Firms: Pacific Steamship Co., Daxing Coal Mining Co., Guangda
+  Match Factory, Wuyun Silk-Weaving Mill, Daya Securities Trust Co., the Shanghai
+  Bank, the Cathay Hotel, Public Security Bureau, Bureau of Social Affairs, the
+  security corps. Places: Rue Père Robert, the French Hospital, northern Anhui,
+  Pukou, Changzhou, Wuxi, Henan, the Beijing–Hankou (Jinghan) line, Hankou,
+  Wuchang, Yejigang (provisional), the Longhai and Pinghan railways, Lyon,
+  New York.
+
+### Figures
+
+None in this chapter.
+
+### Read-through / open items
+
+- Register call: family generational forms kept as in B01 (Third Master, Second
+  Young Lady, Fourth Sister, Seventh Brother/Young Master), and 少奶奶 as "the Wu
+  young mistress." Bond-market slang rendered vividly with the term ledger fixing
+  the vocabulary; the 杀多头 / 扒进-挤出 wordplay (paras 111-114) kept literal
+  ("slaughter the bulls" / "scoop up" vs "squeeze out").
+- 丽娃丽妲 (para 15) rendered "Liwa Lida" (a period song/resort name) without a
+  note; 必诺浴 (para 70) rendered "the Pinaud baths" and 咸肉庄 "the salt-pork
+  houses" — both plausible readings of period Shanghai slang left in the prose
+  rather than over-annotated. Flag for read-through if the commissioner wants
+  these glossed.
+- Pre-existing latent bug noticed (NOT introduced here, NOT fixed): the builder
+  esc()s glossary note bodies, so any numeric character reference written into a
+  glossary "note" (as some ch01 rows do) renders as literal "&#8216;" text. New
+  ch02 glossary notes therefore use plain Unicode punctuation. Worth a cleanup
+  pass on ch01's glossary notes at some point.
