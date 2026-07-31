@@ -1,0 +1,28 @@
+# Project-specific noise for check_numbers.py (--noise data/noise.txt).
+# One BARE regex per line (no inline comments -- the loader keeps the whole line).
+# Each strips a numeral that belongs to a NAME, ERA REFERENCE, or SET PHRASE from
+# the source before counting, so it is not mistaken for a dropped quantity.
+# Every entry was added for a real false positive; see PROGRESS.md for the reasons.
+#
+# era references (19世纪末 the late 19th c.; 20世纪20年代 the 1920s)
+\d+世纪
+\d+年代
+# primer/book titles (千字文, 三字经)
+千字文
+三字经
+# set phrases / idioms (四乡, 老百姓=100, 零星=0, 万众一心=10000)
+四乡
+百姓
+零星
+万众一心
+萬眾一心
+# 十字布 cross-stitch, 红十字会 Red Cross: 十 is not the count 10
+十字
+# 国共两党 "the two parties (KMT and CCP)", a fixed collocation
+两党
+兩黨
+# proper names carrying a numeral (八达岭, 广九铁路/广九工人, 李立三)
+八达岭
+广九
+廣九
+李立三

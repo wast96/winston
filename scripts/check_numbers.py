@@ -27,7 +27,14 @@ WORD_NUM = {
     # Extend WORD_NUM with any spelled-out numbers your translation uses that the
     # source prints as digits/hanzi. Example: teen ordinals for regnal years
     # ("the seventeenth year of the reign", 十七年); the built-ins stop at "tenth".
-    "seventeenth": 17,
+    # These are TARGET-side only (they can add numbers to the translation set, never
+    # remove); an unused ordinal here is harmless. Added for this book: dates written
+    # as ordinals ("the fifteenth of the month", 十五) and anniversaries ("ninetieth").
+    "eleventh": 11, "twelfth": 12, "thirteenth": 13, "fourteenth": 14,
+    "fifteenth": 15, "sixteenth": 16, "seventeenth": 17, "eighteenth": 18,
+    "nineteenth": 19, "twentieth": 20, "thirtieth": 30, "fortieth": 40,
+    "fiftieth": 50, "sixtieth": 60, "seventieth": 70, "eightieth": 80,
+    "ninetieth": 90,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}
@@ -60,6 +67,11 @@ MONTHS = {1: "january", 2: "february", 3: "march", 4: "april", 5: "may",
 # Both simplified and Traditional forms are included where they differ, so the
 # list works on either script. Extend with whichever your book uses.
 NOISE = [
+    # --- "-odd/-some" compounds: strip the WHOLE 八十几 / 三十多 before the generic
+    # 十几 / 十多 patterns below eat their middle and orphan the leading digit
+    # (八十几斤 -> 八, 三十多岁 -> 三, 九十多岁 -> 九). Longest literal first. ---
+    r"[一二两兩三四五六七八九]十[几幾]",
+    r"[一二两兩三四五六七八九]十多",
     # --- list enumerators & fractions (structure, not quantities) ---
     r"\d+[．.、]",                                  # "1." "2、" sub-item heads
     r"[一二三四五六七八九十百千零]+分之[一二三四五六七八九十百千零]+",  # 二分之一, fractions

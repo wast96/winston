@@ -1,1 +1,20 @@
-{}
+{
+  "_about": "Per-unit figure specs. Each: file (an image pulled into data/figs/), before (an anchor phrase in the FIRST ~80 chars of a reading paragraph; the figure is inserted before that paragraph), alt, caption (the source's own caption, translated). The builder greyscales and shrinks each image.",
+  "ch01": [
+    {"file": "00002.jpg", "before": "In his teens my father passed", "alt": "Portrait of the author's father", "caption": "Portrait of Mulan's father"},
+    {"file": "00003.jpg", "before": "My father's first wife, née Liu", "alt": "Portrait of the author's mother", "caption": "Portrait of Mulan's mother"},
+    {"file": "00004.jpg", "before": "In the spring of 1897", "alt": "Tan Sitong", "caption": "Tan Sitong, the fellow townsman and schoolmate of Mulan's father"},
+    {"file": "00005.jpg", "before": "was to build the line between Wuchang", "alt": "Zhan Tianyou", "caption": "Zhan Tianyou (1861–1919), the noted modern railway engineer"}
+  ],
+  "ch02": [
+    {"file": "00006.jpg", "before": "The Zhounan Girls' School was founded", "alt": "Statue of Zhu Jianfan", "caption": "A statue of Zhu Jianfan"},
+    {"file": "00007.jpg", "before": "Principal Zhu was very enlightened", "alt": "Huang Dinghui at the Zhounan anniversary, 1990", "caption": "1990: Huang Dinghui (Mulan), front row, second from left, at the Zhounan School's eighty-fifth-anniversary celebration and the unveiling of the statue of its founder, Principal Zhu Jianfan"}
+  ],
+  "ch03": [
+    {"file": "00008.jpg", "before": "In the spring of 1926", "alt": "Qiu Jin", "caption": "Qiu Jin, the revolutionary martyr Mulan revered"},
+    {"file": "00009.jpg", "before": "While I was secretary in the women's department", "alt": "Dong Biwu", "caption": "Dong Biwu, the revolutionary pioneer who once worked with Mulan's husband Wan Xiyan"},
+    {"file": "00010.jpg", "before": "In my spare time from work I also often attended", "alt": "Huang Dinghui with Yuan Puzhi", "caption": "Huang Dinghui (Mulan) with her old Northern Expedition comrade Yuan Puzhi"},
+    {"file": "00011.jpg", "before": "In early September the Northern Expedition army took", "alt": "Huang Dinghui with Zhang Duhe", "caption": "Huang Dinghui (Mulan) with her old Northern Expedition comrade Zhang Duhe"},
+    {"file": "00012.jpg", "before": "In December the provisional Kuomintang", "alt": "Qu Qiubai", "caption": "Qu Qiubai, who persuaded Mulan to give up the chance to study in the Soviet Union and return to Wuhan"}
+  ]
+}
