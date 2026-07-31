@@ -78,6 +78,9 @@ nav#toc ol ol li { font-size: 0.95em; }
 .colophon { text-align: center; margin-top: 2em; }
 .colophon .notice { border: 2px solid #444; display: inline-block; padding: 0.4em 1.6em; margin: 1em 0; font-size: 1.3em; letter-spacing: 0.3em; }
 .colophon p { text-indent: 0; }
+div.cover { text-align: center; margin: 0; padding: 0; }
+div.cover img { max-width: 100%; height: auto; }
+.tp p.subtitle { font-style: italic; color: #555; margin-top: 0.2em; }
 """
 
 XHTML = """<?xml version="1.0" encoding="utf-8"?>
@@ -430,9 +433,19 @@ def main(epub_path):
     meta = {
         "title_en": book.get("title_en", "Untitled"),
         "title_zh": book.get("title_zh", ""),
+        "subtitle_en": book.get("subtitle_en", ""),
         "author_en": book.get("author_en", ""),
         "author_zh": book.get("author_zh", ""),
+        "author_sort": book.get("author_sort", book.get("author_en", "")),
         "year": book.get("year", ""),
+        "publisher_en": book.get("publisher_en", ""),
+        "isbn": book.get("isbn", ""),
+        "language": book.get("language", "en"),
+        "language_original": book.get("language_original", ""),
+        "description": book.get("description", ""),
+        "subjects": book.get("subjects", []),
+        "rights": book.get("rights", ""),
+        "cover_image": book.get("cover_image", ""),
         "uid": book.get("uid", "urn:uuid:translation-" +
                         re.sub(r"[^a-z0-9]+", "-",
                                book.get("title_en", "book").lower())[:48]),
@@ -478,17 +491,33 @@ def main(epub_path):
     with open(os.path.join(oebps, "style.css"), "w") as fh:
         fh.write(CSS)
 
+    # cover: copy the source cover image AS IS (full colour, not greyscaled like
+    # interior figures) and wrap it in a cover page. Kindle and Apple Books key
+    # their library thumbnail off the manifest's properties="cover-image" item
+    # (and the legacy <meta name="cover"> hint), so both are emitted below.
+    cover_img = None
+    if meta["cover_image"]:
+        csrc = os.path.join(FIGS, meta["cover_image"])
+        if os.path.exists(csrc):
+            cover_img = meta["cover_image"]
+            shutil.copy(csrc, os.path.join(oebps, "images", cover_img))
+            write(os.path.join(oebps, "cover.xhtml"),
+                  '<div class="cover"><img src="images/%s" alt="Cover: %s"/></div>'
+                  % (esc(cover_img), esc(meta["title_en"])), "Cover")
+
     # title page
     byline = esc(meta["author_en"])
     if meta["author_zh"]:
         byline += ' &#183; <span lang="zh-Hant">%s</span>' % esc(meta["author_zh"])
     yr = (' <p class="note">%s</p>' % esc(str(meta["year"]))) if meta["year"] else ""
+    sub = ('<p class="subtitle">%s</p>' % esc(meta["subtitle_en"])
+           if meta["subtitle_en"] else "")
     write(os.path.join(oebps, "titlepage.xhtml"),
-          '<div class="tp"><h1>%s</h1>'
+          '<div class="tp"><h1>%s</h1>%s'
           '<p lang="zh-Hant">%s</p>'
           '<p>%s</p>%s'
           '<p class="note">English translation</p></div>'
-          % (esc(meta["title_en"]), esc(meta["title_zh"]), byline, yr),
+          % (esc(meta["title_en"]), sub, esc(meta["title_zh"]), byline, yr),
           meta["title_en"])
 
     # chapter bodies: EVERY chapter gets a page -- real content if translated,
@@ -543,8 +572,11 @@ def main(epub_path):
               render_colophon(back_matter), "Colophon")
 
     # spine order: every chapter (translated or skeleton) is in the spine.
-    docs = [("titlepage.xhtml", "Title Page"),
-            ("contents.xhtml", "Contents")]
+    docs = []
+    if cover_img:
+        docs.append(("cover.xhtml", "Cover"))
+    docs += [("titlepage.xhtml", "Title Page"),
+             ("contents.xhtml", "Contents")]
     docs += [(c["id"] + ".xhtml", c["title_en"]) for c in structure]
     docs += [("notes.xhtml", "Notes"),
              ("backmatter.xhtml", "Translator's Note and Glossary")]
@@ -596,7 +628,9 @@ def main(epub_path):
     nav = ('<nav epub:type="toc" id="toc"><h1>Contents</h1><ol>'
            + "".join(nav_items) + "</ol></nav>"
            '<nav epub:type="landmarks" hidden="hidden"><ol>'
-           '<li><a epub:type="titlepage" href="titlepage.xhtml">Title Page</a></li>'
+           + ('<li><a epub:type="cover" href="cover.xhtml">Cover</a></li>'
+              if cover_img else "")
+           + '<li><a epub:type="titlepage" href="titlepage.xhtml">Title Page</a></li>'
            '<li><a epub:type="toc" href="contents.xhtml">Contents</a></li>'
            '<li><a epub:type="bodymatter" href="%s">Begin Reading</a></li>'
            "</ol></nav>" % (structure[0]["id"] + ".xhtml"))
@@ -620,21 +654,61 @@ def main(epub_path):
         items.append('<item id="d%d" href="%s" media-type="application/xhtml+xml"/>' % (i, f))
     for i, f in enumerate(manifest_figs, 1):
         items.append('<item id="fig%d" href="images/%s" media-type="image/png"/>' % (i, f))
+    if cover_img:
+        ext = os.path.splitext(cover_img)[1].lower()
+        cmt = "image/jpeg" if ext in (".jpg", ".jpeg") else "image/png"
+        items.append('<item id="cover-img" href="images/%s" media-type="%s" '
+                     'properties="cover-image"/>' % (cover_img, cmt))
     spine = "".join('<itemref idref="d%d"/>' % i for i in range(1, len(docs) + 1))
+
+    # Rich Dublin Core metadata, formatted for Kindle and Apple Books: main
+    # title (+ optional subtitle), a sortable author (file-as, both the EPUB3
+    # refines form and the legacy opf: attributes readers still honour), the
+    # deliverable language plus the original as dcterms:source, publisher,
+    # publication year, ISBN, description, subjects, rights, and the cover hint.
+    md = ['<dc:identifier id="pub-id">%s</dc:identifier>' % esc(meta["uid"])]
+    if meta["isbn"]:
+        md.append('<dc:identifier id="isbn">urn:isbn:%s</dc:identifier>'
+                  % esc(meta["isbn"]))
+    md.append('<dc:title id="title">%s</dc:title>' % esc(meta["title_en"]))
+    md.append('<meta refines="#title" property="title-type">main</meta>')
+    if meta["subtitle_en"]:
+        md.append('<dc:title id="subtitle">%s</dc:title>' % esc(meta["subtitle_en"]))
+        md.append('<meta refines="#subtitle" property="title-type">subtitle</meta>')
+    md.append('<dc:creator id="creator" opf:role="aut" opf:file-as="%s">%s</dc:creator>'
+              % (esc(meta["author_sort"]), esc(meta["author_en"])))
+    md.append('<meta refines="#creator" property="role" scheme="marc:relators">aut</meta>')
+    md.append('<meta refines="#creator" property="file-as">%s</meta>'
+              % esc(meta["author_sort"]))
+    md.append('<dc:language>%s</dc:language>' % esc(meta["language"]))
+    if meta["language_original"]:
+        md.append('<dc:source>%s%s (%s)</dc:source>'
+                  % (("urn:isbn:%s " % esc(meta["isbn"])) if meta["isbn"] else "",
+                     esc(meta["title_zh"]), esc(meta["language_original"])))
+    if meta["publisher_en"]:
+        md.append('<dc:publisher>%s</dc:publisher>' % esc(meta["publisher_en"]))
+    if meta["year"]:
+        md.append('<dc:date>%s</dc:date>' % esc(str(meta["year"])))
+    if meta["description"]:
+        md.append('<dc:description>%s</dc:description>' % esc(meta["description"]))
+    for subj in meta["subjects"]:
+        md.append('<dc:subject>%s</dc:subject>' % esc(subj))
+    if meta["rights"]:
+        md.append('<dc:rights>%s</dc:rights>' % esc(meta["rights"]))
+    md.append('<meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>')
+    if cover_img:
+        md.append('<meta name="cover" content="cover-img"/>')
 
     with open(os.path.join(oebps, "content.opf"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'
                  '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" '
-                 'unique-identifier="pub-id"><metadata '
+                 'unique-identifier="pub-id" '
+                 'xmlns:opf="http://www.idpf.org/2007/opf"><metadata '
                  'xmlns:dc="http://purl.org/dc/elements/1.1/">'
-                 "<dc:identifier id=\"pub-id\">%s</dc:identifier>"
-                 "<dc:title>%s</dc:title><dc:language>en</dc:language>"
-                 "<dc:creator>%s</dc:creator>"
-                 '<meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>'
+                 "%s"
                  "</metadata><manifest>%s</manifest>"
                  "<spine toc=\"ncx\">%s</spine></package>"
-                 % (meta["uid"], esc(meta["title_en"]), esc(meta["author_en"]),
-                    "".join(items), spine))
+                 % ("".join(md), "".join(items), spine))
 
     with open(os.path.join(BUILD, "META-INF", "container.xml"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'

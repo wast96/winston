@@ -1,69 +1,822 @@
 {
-  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. For an EPUB source, author it from book.draft.json (produced by scripts/ingest_epub.py) — refine the titles, add English titles, and MERGE or SPLIT units where the source EPUB's file boundaries do not match its logical chapters. Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists.",
-
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 2020,
-  "uid": "urn:uuid:my-book-slug-1",
-
-  "_source_note": "The source is a digital EPUB with reliable text (no OCR). Record its title/edition and anything notable (missing chapters, embedded notes, image-heavy sections) here.",
-  "source_epub": "source.epub",
-
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212;, &#160;), never named entities. If omitted, a generic method note is generated.",
-  "translator_note": [
-    "This is an English translation of <i>中文書名</i>, made from the digital source EPUB.",
-    "Say here what the register decisions were, who the author is, and how any editorial choices (the source's own notes, ambiguous passages, cut material) were handled."
+  "_README": "Logical structure of the book; the build is driven ENTIRELY by this file. Authored from book.draft.json (ingest_epub.py). Every translatable unit's id MUST start with 'ch' (front matter, chapters, and appendices alike, or the builder filters it out). 'part' is a TOC-grouping label only (no body of its own). A chapter is treated as translated once out/<id>_reading.md exists.",
+  "title_en": "The Autobiography of Huang Mulan",
+  "title_zh": "黄慕兰自传",
+  "subtitle_zh": "最美红色女“特工”亲述",
+  "subtitle_en": "A Firsthand Account by the Communist Party's Most Celebrated Woman Agent",
+  "author_en": "Huang Mulan",
+  "author_zh": "黄慕兰",
+  "author_sort": "Huang, Mulan",
+  "author_note": "Born Huang Dinghui (黄定慧) in Liuyang, Hunan; also known during her underground years by several cover names. Lived 1907-2017.",
+  "year": 2016,
+  "original_year": 2004,
+  "publisher_en": "Encyclopedia of China Publishing House",
+  "publisher_zh": "中国大百科全书出版社",
+  "isbn": "9787500097044",
+  "asin": "B079HPXJQ4",
+  "language": "en",
+  "language_original": "zh",
+  "rights": "Original text copyright the author and the Encyclopedia of China Publishing House. English translation and apparatus for private study.",
+  "description": "The memoirs of Huang Mulan (1907-2017), one of the earliest women in the Chinese Communist Party's clandestine service. From a gentry childhood in Hunan and the May Fourth awakening, through her years as a courier and secretary in the Party's Shanghai underground, her use of a banker's cover to fund and shelter the movement, the wartime resistance against Japan, and two later imprisonments at Qincheng before her rehabilitation, she recounts a life that touched many of the pivotal events and figures of twentieth-century Chinese history. Thirty-eight chapters in five parts, with appendices. English translation, annotated.",
+  "subjects": [
+    "Biography & Autobiography / Historical",
+    "Biography & Autobiography / Political",
+    "Biography & Autobiography / Women",
+    "History / Asia / China",
+    "Huang Mulan, 1907-2017",
+    "Communism -- China -- Biography",
+    "Intelligence service -- China -- History"
   ],
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (source), title_en, and OPTIONAL 'part' (a label like 'Part One. ...'; consecutive chapters sharing it are grouped in the TOC). Keep 'src' (the source spine href, optionally with #anchor) and 'chars' (source character count, from ingest) so the survey can size batches; 'text_file' points at the extracted source text for that unit. Each section: id (ch01s01..), section (int), title, title_en, src, chars, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front: the survey and the skeleton EPUB are built from it before any translation.",
+  "uid": "urn:uuid:huang-mulan-autobiography-en-1",
+  "cover_image": "cover.jpeg",
+  "_source_note": "Source: a digital (calibre-produced) EPUB of 《黄慕兰自传》, Encyclopedia of China Publishing House, 2016 reissue (first published 2004), ISBN 9787500097044. Reliable Unicode text, no OCR. The source carries NO footnotes/endnotes of its own; all notes in this edition are the translator's. Structure notes: (a) each of the five parts opens on a divider page carrying a 《临江仙》 ci poem by the author; these poems are folded in as an epigraph at the head of the first chapter of each part (marked with a 'part_poem_src' locator). (b) The source's own table-of-contents page (index_split_001.html) and the running header 黄慕兰自传 are not reproduced; the EPUB generates its own hyperlinked TOC. (c) The copyright leaf (index_split_000.html) is carried as book metadata / colophon, not as a chapter. (d) The source labels BOTH 我的外婆 党的女儿 and 编后记 as 附录四 (appendix IV) -- an apparent source numbering slip; rendered faithfully, with the editor's postscript titled as such and the duplication noted here rather than silently renumbered.",
+  "source_epub": "source.epub",
+  "_translator_note": "Provisional (no chapters translated yet). Rendered verbatim as the Translator's Note back-matter page; inline <i>...</i> honored; use NUMERIC character references (&#8212;, &#160;), never named entities.",
+  "translator_note": [
+    "This is an English translation of <i>黄慕兰自传</i> (<i>The Autobiography of Huang Mulan</i>), made from the 2016 reissue published by the Encyclopedia of China Publishing House (first edition 2004).",
+    "The source was translated in full and in the book&#8217;s own voice. Names follow pinyin except where a conventional English form is established; each proper noun is fixed once in the glossary. The source book carries no notes of its own, so every note here is the translator&#8217;s: they identify people, places, and institutions a non-specialist will not know, flag genuinely ambiguous passages rather than smoothing them over, and gloss allusions and idioms whose flavor does not survive translation.",
+    "Where the memoir meets documented history, claims are checked against scholarship and the note says whether they are corroborated, uncorroborated, or contradicted. Nothing is invented to bridge a gap in the source."
+  ],
+  "_structure_note": "One entry per translatable unit, in reading order. ch00 is front matter; ch01-ch38 are the numbered chapters grouped into five parts; ch39-ch43 are the appendices (grouped under the 'Appendices' label). These chapters are flat (no internal sections), as in the source. Keep each unit's 'src' (source spine href) and 'chars' (source CJK character count from ingest) so the survey can size batches; 'text_file' points at the extracted source text.",
   "structure": [
     {
-      "level": 1,
+      "id": "ch00",
+      "chapter": 0,
+      "title": "再版说明",
+      "title_en": "Note on the Reissue",
+      "src": "index_split_002.html",
+      "chars": 368,
+      "text_file": "data/src/04_index-split-002.txt",
+      "sections": []
+    },
+    {
       "id": "ch01",
       "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "src": "text/chapter01.xhtml",
-      "chars": 8200,
-      "text_file": "data/src/01_chapter01.txt",
-      "sections": [
-        {
-          "id": "ch01s01",
-          "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "src": "text/chapter01.xhtml#sec1",
-          "chars": 4100,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)"
-            }
-          ]
-        },
-        {
-          "id": "ch01s02",
-          "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "src": "text/chapter01.xhtml#sec2",
-          "chars": 4100
-        }
-      ]
+      "part": "Part One. High Ambitions, Admiring Mulan",
+      "title": "一 我的童年",
+      "title_en": "Chapter 1. My Childhood",
+      "src": "index_split_004.html",
+      "chars": 8402,
+      "text_file": "data/src/06_index-split-004.txt",
+      "part_poem_src": "index_split_003.html",
+      "sections": []
+    },
+    {
+      "id": "ch02",
+      "chapter": 2,
+      "part": "Part One. High Ambitions, Admiring Mulan",
+      "title": "二 五四启蒙",
+      "title_en": "Chapter 2. The May Fourth Awakening",
+      "src": "index_split_005.html",
+      "chars": 3853,
+      "text_file": "data/src/07_index-split-005.txt",
+      "sections": []
+    },
+    {
+      "id": "ch03",
+      "chapter": 3,
+      "part": "Part One. High Ambitions, Admiring Mulan",
+      "title": "三 献身革命",
+      "title_en": "Chapter 3. Giving Myself to the Revolution",
+      "src": "index_split_006.html",
+      "chars": 7072,
+      "text_file": "data/src/08_index-split-006.txt",
+      "sections": []
+    },
+    {
+      "id": "ch04",
+      "chapter": 4,
+      "part": "Part One. High Ambitions, Admiring Mulan",
+      "title": "四 风云际会",
+      "title_en": "Chapter 4. A Convergence of Winds and Clouds",
+      "src": "index_split_007.html",
+      "chars": 8578,
+      "text_file": "data/src/09_index-split-007.txt",
+      "sections": []
+    },
+    {
+      "id": "ch05",
+      "chapter": 5,
+      "part": "Part Two. A Secret Soldier Underground",
+      "title": "五 转入地下",
+      "title_en": "Chapter 5. Going Underground",
+      "src": "index_split_009.html",
+      "chars": 5924,
+      "text_file": "data/src/11_index-split-009.txt",
+      "part_poem_src": "index_split_008.html",
+      "sections": []
+    },
+    {
+      "id": "ch06",
+      "chapter": 6,
+      "part": "Part Two. A Secret Soldier Underground",
+      "title": "六 中央秘书",
+      "title_en": "Chapter 6. Secretary to the Central Committee",
+      "src": "index_split_010.html",
+      "chars": 5065,
+      "text_file": "data/src/12_index-split-010.txt",
+      "sections": []
+    },
+    {
+      "id": "ch07",
+      "chapter": 7,
+      "part": "Part Two. A Secret Soldier Underground",
+      "title": "七 龙华狱中",
+      "title_en": "Chapter 7. In Longhua Prison",
+      "src": "index_split_011.html",
+      "chars": 7768,
+      "text_file": "data/src/13_index-split-011.txt",
+      "sections": []
+    },
+    {
+      "id": "ch08",
+      "chapter": 8,
+      "part": "Part Two. A Secret Soldier Underground",
+      "title": "八 南北驰驱",
+      "title_en": "Chapter 8. Racing North and South",
+      "src": "index_split_012.html",
+      "chars": 4013,
+      "text_file": "data/src/14_index-split-012.txt",
+      "sections": []
+    },
+    {
+      "id": "ch09",
+      "chapter": 9,
+      "part": "Part Two. A Secret Soldier Underground",
+      "title": "九 营救部长",
+      "title_en": "Chapter 9. Rescuing the Minister",
+      "src": "index_split_013.html",
+      "chars": 7028,
+      "text_file": "data/src/15_index-split-013.txt",
+      "sections": []
+    },
+    {
+      "id": "ch10",
+      "chapter": 10,
+      "part": "Part Two. A Secret Soldier Underground",
+      "title": "十 首战报捷",
+      "title_en": "Chapter 10. Victory in the First Battle",
+      "src": "index_split_014.html",
+      "chars": 6425,
+      "text_file": "data/src/16_index-split-014.txt",
+      "sections": []
+    },
+    {
+      "id": "ch11",
+      "chapter": 11,
+      "part": "Part Two. A Secret Soldier Underground",
+      "title": "十一 伍豪启事",
+      "title_en": "Chapter 11. The “Wu Hao” Notices",
+      "src": "index_split_015.html",
+      "chars": 4579,
+      "text_file": "data/src/17_index-split-015.txt",
+      "sections": []
+    },
+    {
+      "id": "ch12",
+      "chapter": 12,
+      "part": "Part Two. A Secret Soldier Underground",
+      "title": "十二 避隐西湖",
+      "title_en": "Chapter 12. In Seclusion by West Lake",
+      "src": "index_split_016.html",
+      "chars": 10090,
+      "text_file": "data/src/18_index-split-016.txt",
+      "sections": []
+    },
+    {
+      "id": "ch13",
+      "chapter": 13,
+      "part": "Part Three. Resistance and National Salvation",
+      "title": "十三 正义之声",
+      "title_en": "Chapter 13. The Voice of Justice",
+      "src": "index_split_018.html",
+      "chars": 4406,
+      "text_file": "data/src/20_index-split-018.txt",
+      "part_poem_src": "index_split_017.html",
+      "sections": []
+    },
+    {
+      "id": "ch14",
+      "chapter": 14,
+      "part": "Part Three. Resistance and National Salvation",
+      "title": "十四 通易公司",
+      "title_en": "Chapter 14. The Tongyi Company",
+      "src": "index_split_019.html",
+      "chars": 4256,
+      "text_file": "data/src/21_index-split-019.txt",
+      "sections": []
+    },
+    {
+      "id": "ch15",
+      "chapter": 15,
+      "part": "Part Three. Resistance and National Salvation",
+      "title": "十五 抗日救亡",
+      "title_en": "Chapter 15. Resistance and National Salvation",
+      "src": "index_split_020.html",
+      "chars": 8372,
+      "text_file": "data/src/22_index-split-020.txt",
+      "sections": []
+    },
+    {
+      "id": "ch16",
+      "chapter": 16,
+      "part": "Part Three. Resistance and National Salvation",
+      "title": "十六 孤岛斗争",
+      "title_en": "Chapter 16. Struggle on the Solitary Island",
+      "src": "index_split_021.html",
+      "chars": 9502,
+      "text_file": "data/src/23_index-split-021.txt",
+      "sections": []
+    },
+    {
+      "id": "ch17",
+      "chapter": 17,
+      "part": "Part Three. Resistance and National Salvation",
+      "title": "十七 转移香港",
+      "title_en": "Chapter 17. Moving to Hong Kong",
+      "src": "index_split_022.html",
+      "chars": 7373,
+      "text_file": "data/src/24_index-split-022.txt",
+      "sections": []
+    },
+    {
+      "id": "ch18",
+      "chapter": 18,
+      "part": "Part Three. Resistance and National Salvation",
+      "title": "十八 卅日难民",
+      "title_en": "Chapter 18. Thirty Days a Refugee",
+      "src": "index_split_023.html",
+      "chars": 4528,
+      "text_file": "data/src/25_index-split-023.txt",
+      "sections": []
+    },
+    {
+      "id": "ch19",
+      "chapter": 19,
+      "part": "Part Three. Resistance and National Salvation",
+      "title": "十九 义救群贤",
+      "title_en": "Chapter 19. A Righteous Rescue of the Worthies",
+      "src": "index_split_024.html",
+      "chars": 4184,
+      "text_file": "data/src/26_index-split-024.txt",
+      "sections": []
+    },
+    {
+      "id": "ch20",
+      "chapter": 20,
+      "part": "Part Three. Resistance and National Salvation",
+      "title": "二十 面谒周公",
+      "title_en": "Chapter 20. An Audience with Zhou Enlai",
+      "src": "index_split_025.html",
+      "chars": 6283,
+      "text_file": "data/src/27_index-split-025.txt",
+      "sections": []
+    },
+    {
+      "id": "ch21",
+      "chapter": 21,
+      "part": "Part Three. Resistance and National Salvation",
+      "title": "二十一 同陷冤狱",
+      "title_en": "Chapter 21. Cast into Prison Together",
+      "src": "index_split_026.html",
+      "chars": 11130,
+      "text_file": "data/src/28_index-split-026.txt",
+      "sections": []
+    },
+    {
+      "id": "ch22",
+      "chapter": 22,
+      "part": "Part Four. A Hundred Setbacks, No Regrets",
+      "title": "二十二 重振通易",
+      "title_en": "Chapter 22. Reviving Tongyi",
+      "src": "index_split_028.html",
+      "chars": 8407,
+      "text_file": "data/src/30_index-split-028.txt",
+      "part_poem_src": "index_split_027.html",
+      "sections": []
+    },
+    {
+      "id": "ch23",
+      "chapter": 23,
+      "part": "Part Four. A Hundred Setbacks, No Regrets",
+      "title": "二十三 曲水流觞",
+      "title_en": "Chapter 23. Wine Cups on the Winding Stream",
+      "src": "index_split_029.html",
+      "chars": 7371,
+      "text_file": "data/src/31_index-split-029.txt",
+      "sections": []
+    },
+    {
+      "id": "ch24",
+      "chapter": 24,
+      "part": "Part Four. A Hundred Setbacks, No Regrets",
+      "title": "二十四 平地风波",
+      "title_en": "Chapter 24. A Storm on Level Ground",
+      "src": "index_split_030.html",
+      "chars": 4394,
+      "text_file": "data/src/32_index-split-030.txt",
+      "sections": []
+    },
+    {
+      "id": "ch25",
+      "chapter": 25,
+      "part": "Part Four. A Hundred Setbacks, No Regrets",
+      "title": "二十五 黎明前后",
+      "title_en": "Chapter 25. Around the Dawn",
+      "src": "index_split_031.html",
+      "chars": 5614,
+      "text_file": "data/src/33_index-split-031.txt",
+      "sections": []
+    },
+    {
+      "id": "ch26",
+      "chapter": 26,
+      "part": "Part Four. A Hundred Setbacks, No Regrets",
+      "title": "二十六 惜别分襟",
+      "title_en": "Chapter 26. A Sorrowful Parting",
+      "src": "index_split_032.html",
+      "chars": 3952,
+      "text_file": "data/src/34_index-split-032.txt",
+      "sections": []
+    },
+    {
+      "id": "ch27",
+      "chapter": 27,
+      "part": "Part Four. A Hundred Setbacks, No Regrets",
+      "title": "二十七 救济分会",
+      "title_en": "Chapter 27. The Relief Branch",
+      "src": "index_split_033.html",
+      "chars": 6267,
+      "text_file": "data/src/35_index-split-033.txt",
+      "sections": []
+    },
+    {
+      "id": "ch28",
+      "chapter": 28,
+      "part": "Part Four. A Hundred Setbacks, No Regrets",
+      "title": "二十八 母子重圆",
+      "title_en": "Chapter 28. Mother and Son Reunited",
+      "src": "index_split_034.html",
+      "chars": 4681,
+      "text_file": "data/src/36_index-split-034.txt",
+      "sections": []
+    },
+    {
+      "id": "ch29",
+      "chapter": 29,
+      "part": "Part Four. A Hundred Setbacks, No Regrets",
+      "title": "二十九 接受审查",
+      "title_en": "Chapter 29. Under Investigation",
+      "src": "index_split_035.html",
+      "chars": 7674,
+      "text_file": "data/src/37_index-split-035.txt",
+      "sections": []
+    },
+    {
+      "id": "ch30",
+      "chapter": 30,
+      "part": "Part Four. A Hundred Setbacks, No Regrets",
+      "title": "三十 秦城内外",
+      "title_en": "Chapter 30. Within and Beyond Qincheng",
+      "src": "index_split_036.html",
+      "chars": 7287,
+      "text_file": "data/src/38_index-split-036.txt",
+      "sections": []
+    },
+    {
+      "id": "ch31",
+      "chapter": 31,
+      "part": "Part Four. A Hundred Setbacks, No Regrets",
+      "title": "三十一 再进秦城",
+      "title_en": "Chapter 31. Qincheng Again",
+      "src": "index_split_037.html",
+      "chars": 6826,
+      "text_file": "data/src/39_index-split-037.txt",
+      "sections": []
+    },
+    {
+      "id": "ch32",
+      "chapter": 32,
+      "part": "Part Five. A Bright Evening of Life",
+      "title": "三十二 平反归队",
+      "title_en": "Chapter 32. Rehabilitated and Restored to the Ranks",
+      "src": "index_split_039.html",
+      "chars": 6048,
+      "text_file": "data/src/41_index-split-039.txt",
+      "part_poem_src": "index_split_038.html",
+      "sections": []
+    },
+    {
+      "id": "ch33",
+      "chapter": 33,
+      "part": "Part Five. A Bright Evening of Life",
+      "title": "三十三 忠实见证",
+      "title_en": "Chapter 33. A Faithful Witness",
+      "src": "index_split_040.html",
+      "chars": 9575,
+      "text_file": "data/src/42_index-split-040.txt",
+      "sections": []
+    },
+    {
+      "id": "ch34",
+      "chapter": 34,
+      "part": "Part Five. A Bright Evening of Life",
+      "title": "三十四 故友重逢",
+      "title_en": "Chapter 34. Reunions with Old Friends",
+      "src": "index_split_041.html",
+      "chars": 6444,
+      "text_file": "data/src/43_index-split-041.txt",
+      "sections": []
+    },
+    {
+      "id": "ch35",
+      "chapter": 35,
+      "part": "Part Five. A Bright Evening of Life",
+      "title": "三十五 光荣召见",
+      "title_en": "Chapter 35. An Honored Summons",
+      "src": "index_split_042.html",
+      "chars": 4325,
+      "text_file": "data/src/44_index-split-042.txt",
+      "sections": []
+    },
+    {
+      "id": "ch36",
+      "chapter": 36,
+      "part": "Part Five. A Bright Evening of Life",
+      "title": "三十六 党籍党龄",
+      "title_en": "Chapter 36. Party Membership and Standing",
+      "src": "index_split_043.html",
+      "chars": 2758,
+      "text_file": "data/src/45_index-split-043.txt",
+      "sections": []
+    },
+    {
+      "id": "ch37",
+      "chapter": 37,
+      "part": "Part Five. A Bright Evening of Life",
+      "title": "三十七 善始善终",
+      "title_en": "Chapter 37. Faithful from Start to Finish",
+      "src": "index_split_044.html",
+      "chars": 6525,
+      "text_file": "data/src/46_index-split-044.txt",
+      "sections": []
+    },
+    {
+      "id": "ch38",
+      "chapter": 38,
+      "part": "Part Five. A Bright Evening of Life",
+      "title": "三十八 棠棣情深",
+      "title_en": "Chapter 38. The Deep Bond of Kin",
+      "src": "index_split_045.html",
+      "chars": 9170,
+      "text_file": "data/src/47_index-split-045.txt",
+      "sections": []
+    },
+    {
+      "id": "ch39",
+      "chapter": 39,
+      "part": "Appendices",
+      "title": "附录一 后记",
+      "title_en": "Appendix I. Afterword",
+      "src": "index_split_047.html",
+      "chars": 184,
+      "text_file": "data/src/49_index-split-047.txt",
+      "sections": []
+    },
+    {
+      "id": "ch40",
+      "chapter": 40,
+      "part": "Appendices",
+      "title": "附录二 黄慕兰生平大事表",
+      "title_en": "Appendix II. A Chronology of Huang Mulan’s Life",
+      "src": "index_split_048.html",
+      "chars": 2116,
+      "text_file": "data/src/50_index-split-048.txt",
+      "sections": []
+    },
+    {
+      "id": "ch41",
+      "chapter": 41,
+      "part": "Appendices",
+      "title": "附录三 刘少文同志简介",
+      "title_en": "Appendix III. A Brief Life of Comrade Liu Shaowen",
+      "src": "index_split_049.html",
+      "chars": 1504,
+      "text_file": "data/src/51_index-split-049.txt",
+      "sections": []
+    },
+    {
+      "id": "ch42",
+      "chapter": 42,
+      "part": "Appendices",
+      "title": "附录四 我的外婆 党的女儿",
+      "title_en": "Appendix IV. My Grandmother, a Daughter of the Party",
+      "src": "index_split_050.html",
+      "chars": 2307,
+      "text_file": "data/src/52_index-split-050.txt",
+      "sections": []
+    },
+    {
+      "id": "ch43",
+      "chapter": 43,
+      "part": "Appendices",
+      "title": "编后记",
+      "title_en": "Editor’s Postscript",
+      "src": "index_split_051.html",
+      "chars": 1514,
+      "text_file": "data/src/53_index-split-051.txt",
+      "note": "Labeled 附录四 in the source, duplicating the label on My Grandmother, a Daughter of the Party; rendered as the editor's postscript, not renumbered. See _source_note.",
+      "sections": []
     }
   ],
-
-  "_batches_note": "Your work plan (proposed by scripts/survey.py, approved by the commissioner). Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
+  "_batches_note": "Proposed by scripts/survey.py, to be approved by the commissioner. first_section/last_section are unit ids. Filled in after the survey run.",
   "batches": [
     {
       "batch": "B01",
-      "title": "ch1",
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
+      "first_unit": "ch00",
+      "last_unit": "ch01",
+      "units": [
+        "ch00",
+        "ch01"
+      ],
+      "chars": 8770,
+      "covers": "Note on the Reissue → Chapter 1. My Childhood"
+    },
+    {
+      "batch": "B02",
+      "first_unit": "ch02",
+      "last_unit": "ch03",
+      "units": [
+        "ch02",
+        "ch03"
+      ],
+      "chars": 10925,
+      "covers": "Chapter 2. The May Fourth Awakening → Chapter 3. Giving Myself to the Revolution"
+    },
+    {
+      "batch": "B03",
+      "first_unit": "ch04",
+      "last_unit": "ch04",
+      "units": [
+        "ch04"
+      ],
+      "chars": 8578,
+      "covers": "Chapter 4. A Convergence of Winds and Clouds"
+    },
+    {
+      "batch": "B04",
+      "first_unit": "ch05",
+      "last_unit": "ch06",
+      "units": [
+        "ch05",
+        "ch06"
+      ],
+      "chars": 10989,
+      "covers": "Chapter 5. Going Underground → Chapter 6. Secretary to the Central Committee"
+    },
+    {
+      "batch": "B05",
+      "first_unit": "ch07",
+      "last_unit": "ch08",
+      "units": [
+        "ch07",
+        "ch08"
+      ],
+      "chars": 11781,
+      "covers": "Chapter 7. In Longhua Prison → Chapter 8. Racing North and South"
+    },
+    {
+      "batch": "B06",
+      "first_unit": "ch09",
+      "last_unit": "ch09",
+      "units": [
+        "ch09"
+      ],
+      "chars": 7028,
+      "covers": "Chapter 9. Rescuing the Minister"
+    },
+    {
+      "batch": "B07",
+      "first_unit": "ch10",
+      "last_unit": "ch11",
+      "units": [
+        "ch10",
+        "ch11"
+      ],
+      "chars": 11004,
+      "covers": "Chapter 10. Victory in the First Battle → Chapter 11. The “Wu Hao” Notices"
+    },
+    {
+      "batch": "B08",
+      "first_unit": "ch12",
+      "last_unit": "ch12",
+      "units": [
+        "ch12"
+      ],
+      "chars": 10090,
+      "covers": "Chapter 12. In Seclusion by West Lake"
+    },
+    {
+      "batch": "B09",
+      "first_unit": "ch13",
+      "last_unit": "ch14",
+      "units": [
+        "ch13",
+        "ch14"
+      ],
+      "chars": 8662,
+      "covers": "Chapter 13. The Voice of Justice → Chapter 14. The Tongyi Company"
+    },
+    {
+      "batch": "B10",
+      "first_unit": "ch15",
+      "last_unit": "ch15",
+      "units": [
+        "ch15"
+      ],
+      "chars": 8372,
+      "covers": "Chapter 15. Resistance and National Salvation"
+    },
+    {
+      "batch": "B11",
+      "first_unit": "ch16",
+      "last_unit": "ch16",
+      "units": [
+        "ch16"
+      ],
+      "chars": 9502,
+      "covers": "Chapter 16. Struggle on the Solitary Island"
+    },
+    {
+      "batch": "B12",
+      "first_unit": "ch17",
+      "last_unit": "ch18",
+      "units": [
+        "ch17",
+        "ch18"
+      ],
+      "chars": 11901,
+      "covers": "Chapter 17. Moving to Hong Kong → Chapter 18. Thirty Days a Refugee"
+    },
+    {
+      "batch": "B13",
+      "first_unit": "ch19",
+      "last_unit": "ch20",
+      "units": [
+        "ch19",
+        "ch20"
+      ],
+      "chars": 10467,
+      "covers": "Chapter 19. A Righteous Rescue of the Worthies → Chapter 20. An Audience with Zhou Enlai"
+    },
+    {
+      "batch": "B14",
+      "first_unit": "ch21",
+      "last_unit": "ch21",
+      "units": [
+        "ch21"
+      ],
+      "chars": 11130,
+      "covers": "Chapter 21. Cast into Prison Together"
+    },
+    {
+      "batch": "B15",
+      "first_unit": "ch22",
+      "last_unit": "ch22",
+      "units": [
+        "ch22"
+      ],
+      "chars": 8407,
+      "covers": "Chapter 22. Reviving Tongyi"
+    },
+    {
+      "batch": "B16",
+      "first_unit": "ch23",
+      "last_unit": "ch24",
+      "units": [
+        "ch23",
+        "ch24"
+      ],
+      "chars": 11765,
+      "covers": "Chapter 23. Wine Cups on the Winding Stream → Chapter 24. A Storm on Level Ground"
+    },
+    {
+      "batch": "B17",
+      "first_unit": "ch25",
+      "last_unit": "ch26",
+      "units": [
+        "ch25",
+        "ch26"
+      ],
+      "chars": 9566,
+      "covers": "Chapter 25. Around the Dawn → Chapter 26. A Sorrowful Parting"
+    },
+    {
+      "batch": "B18",
+      "first_unit": "ch27",
+      "last_unit": "ch28",
+      "units": [
+        "ch27",
+        "ch28"
+      ],
+      "chars": 10948,
+      "covers": "Chapter 27. The Relief Branch → Chapter 28. Mother and Son Reunited"
+    },
+    {
+      "batch": "B19",
+      "first_unit": "ch29",
+      "last_unit": "ch29",
+      "units": [
+        "ch29"
+      ],
+      "chars": 7674,
+      "covers": "Chapter 29. Under Investigation"
+    },
+    {
+      "batch": "B20",
+      "first_unit": "ch30",
+      "last_unit": "ch30",
+      "units": [
+        "ch30"
+      ],
+      "chars": 7287,
+      "covers": "Chapter 30. Within and Beyond Qincheng"
+    },
+    {
+      "batch": "B21",
+      "first_unit": "ch31",
+      "last_unit": "ch31",
+      "units": [
+        "ch31"
+      ],
+      "chars": 6826,
+      "covers": "Chapter 31. Qincheng Again"
+    },
+    {
+      "batch": "B22",
+      "first_unit": "ch32",
+      "last_unit": "ch32",
+      "units": [
+        "ch32"
+      ],
+      "chars": 6048,
+      "covers": "Chapter 32. Rehabilitated and Restored to the Ranks"
+    },
+    {
+      "batch": "B23",
+      "first_unit": "ch33",
+      "last_unit": "ch33",
+      "units": [
+        "ch33"
+      ],
+      "chars": 9575,
+      "covers": "Chapter 33. A Faithful Witness"
+    },
+    {
+      "batch": "B24",
+      "first_unit": "ch34",
+      "last_unit": "ch35",
+      "units": [
+        "ch34",
+        "ch35"
+      ],
+      "chars": 10769,
+      "covers": "Chapter 34. Reunions with Old Friends → Chapter 35. An Honored Summons"
+    },
+    {
+      "batch": "B25",
+      "first_unit": "ch36",
+      "last_unit": "ch37",
+      "units": [
+        "ch36",
+        "ch37"
+      ],
+      "chars": 9283,
+      "covers": "Chapter 36. Party Membership and Standing → Chapter 37. Faithful from Start to Finish"
+    },
+    {
+      "batch": "B26",
+      "first_unit": "ch38",
+      "last_unit": "ch40",
+      "units": [
+        "ch38",
+        "ch39",
+        "ch40"
+      ],
+      "chars": 11470,
+      "covers": "Chapter 38. The Deep Bond of Kin → Appendix II. A Chronology of Huang Mulan’s Life"
+    },
+    {
+      "batch": "B27",
+      "first_unit": "ch41",
+      "last_unit": "ch43",
+      "units": [
+        "ch41",
+        "ch42",
+        "ch43"
+      ],
+      "chars": 5325,
+      "covers": "Appendix III. A Brief Life of Comrade Liu Shaowen → Editor’s Postscript"
     }
   ]
 }
