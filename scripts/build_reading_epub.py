@@ -28,6 +28,7 @@ See the template's data files for the shapes.
 
 Usage: build_reading_epub.py [out/book.epub]
 """
+import datetime
 import html
 import json
 import os
@@ -436,6 +437,12 @@ def main(epub_path):
         "uid": book.get("uid", "urn:uuid:translation-" +
                         re.sub(r"[^a-z0-9]+", "-",
                                book.get("title_en", "book").lower())[:48]),
+        "translator_en": book.get("translator_en", ""),
+        "publisher": book.get("publisher", ""),
+        "description": book.get("description", ""),
+        "subject": book.get("subject", ""),
+        "publication_date": book.get("publication_date", ""),
+        "source_language": book.get("source_language", "zh"),
         "translator_note_paragraphs": book.get("translator_note"),
     }
     structure = [c for c in book.get("structure", []) if c.get("id", "").startswith("ch")]
@@ -622,19 +629,47 @@ def main(epub_path):
         items.append('<item id="fig%d" href="images/%s" media-type="image/png"/>' % (i, f))
     spine = "".join('<itemref idref="d%d"/>' % i for i in range(1, len(docs) + 1))
 
+    modified = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    opf_meta = [
+        '<dc:identifier id="pub-id">%s</dc:identifier>' % esc(meta["uid"]),
+        '<dc:title id="title">%s</dc:title>' % esc(meta["title_en"]),
+        '<dc:language>en</dc:language>',
+    ]
+    if meta["author_en"]:
+        opf_meta.append('<dc:creator id="creator">%s</dc:creator>' % esc(meta["author_en"]))
+        file_as = ", ".join(reversed(meta["author_en"].split(" ", 1))) if " " in meta["author_en"] else meta["author_en"]
+        opf_meta.append('<meta refines="#creator" property="role" scheme="marc:relators">aut</meta>')
+        opf_meta.append('<meta refines="#creator" property="file-as">%s</meta>' % esc(file_as))
+    if meta["translator_en"]:
+        opf_meta.append('<dc:contributor id="translator">%s</dc:contributor>' % esc(meta["translator_en"]))
+        opf_meta.append('<meta refines="#translator" property="role" scheme="marc:relators">trl</meta>')
+    if meta["publication_date"]:
+        opf_meta.append('<dc:date>%s</dc:date>' % esc(str(meta["publication_date"])))
+    elif meta["year"]:
+        opf_meta.append('<dc:date>%s</dc:date>' % esc(str(meta["year"])))
+    if meta["publisher"]:
+        opf_meta.append('<dc:publisher>%s</dc:publisher>' % esc(meta["publisher"]))
+    if meta["description"]:
+        opf_meta.append('<dc:description>%s</dc:description>' % esc(meta["description"]))
+    if meta["subject"]:
+        opf_meta.append('<dc:subject>%s</dc:subject>' % esc(meta["subject"]))
+    if meta["source_language"] and meta["title_zh"]:
+        opf_meta.append('<dc:source>%s</dc:source>' % esc(meta["title_zh"]))
+    opf_meta.append('<meta property="dcterms:modified">%s</meta>' % modified)
+    # Kindle/Apple Books: mark the title page as the cover
+    opf_meta.append('<meta name="cover" content="d1"/>')
+
     with open(os.path.join(oebps, "content.opf"), "w") as fh:
-        fh.write('<?xml version="1.0" encoding="utf-8"?>'
+        fh.write('<?xml version="1.0" encoding="utf-8"?>\n'
                  '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" '
-                 'unique-identifier="pub-id"><metadata '
-                 'xmlns:dc="http://purl.org/dc/elements/1.1/">'
-                 "<dc:identifier id=\"pub-id\">%s</dc:identifier>"
-                 "<dc:title>%s</dc:title><dc:language>en</dc:language>"
-                 "<dc:creator>%s</dc:creator>"
-                 '<meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>'
-                 "</metadata><manifest>%s</manifest>"
-                 "<spine toc=\"ncx\">%s</spine></package>"
-                 % (meta["uid"], esc(meta["title_en"]), esc(meta["author_en"]),
-                    "".join(items), spine))
+                 'unique-identifier="pub-id" '
+                 'prefix="rendition: http://www.idpf.org/vocab/rendition/#">\n'
+                 '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" '
+                 'xmlns:opf="http://www.idpf.org/2007/opf">\n'
+                 '%s\n'
+                 '</metadata>\n<manifest>\n%s\n</manifest>\n'
+                 '<spine toc="ncx">\n%s\n</spine>\n</package>'
+                 % ("\n".join(opf_meta), "\n".join(items), spine))
 
     with open(os.path.join(BUILD, "META-INF", "container.xml"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'

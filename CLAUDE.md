@@ -70,6 +70,26 @@ it will be batched. Hard first step, not optional.
    logical chapters (one spine file may hold several chapters, or one chapter may
    span several files). Add optional `part` labels and `subsections`. Keep each
    unit's `src` and `chars`.
+   **Fill in the metadata fields** so the EPUB carries proper identifying
+   information from the very first (skeleton) build. All metadata is in English.
+   The required and optional fields in `book.json`:
+   - `title_en` (required): the English title the EPUB will carry.
+   - `title_zh` (required): the original-language title.
+   - `author_en` (required): the author's name in English (used as `dc:creator`).
+   - `author_zh`: the author's name in the source language.
+   - `year`: original publication year.
+   - `publication_date`: full publication date if known (e.g. `"2024-03-15"`);
+     falls back to `year` for the EPUB `dc:date`.
+   - `translator_en`: the translator's name (appears as `dc:contributor`
+     with role `trl`).
+   - `publisher`: publisher name.
+   - `description`: a one-or-two-sentence English description of the book.
+   - `subject`: genre or subject (e.g. `"History"`, `"Fiction"`).
+   - `source_language`: ISO 639-1 code of the source language (default `"zh"`).
+   - `uid`: a unique identifier (auto-generated from the title if omitted).
+   These fields are embedded as Dublin Core / OPF metadata in every build, so
+   the EPUB is properly titled, attributed, and discoverable in Kindle and
+   Apple Books from the first skeleton onward.
 3. **Run `scripts/survey.py`.** It reports the counts (parts / chapters /
    sections / subsections), every unit's title and size in source characters, and
    a proposed batch breakdown, and writes `out/SURVEY.md`.
@@ -231,7 +251,13 @@ form and rebuild.
 
 - `scripts/build_reading_epub.py` produces one XHTML per chapter, all in one
   spine, one cumulative EPUB (**[SET PER PROJECT]** filename, default
-  `out/book.epub`), driven by `book.json`.
+  `out/book.epub`), driven by `book.json`. The builder reads the metadata
+  fields from `book.json` (title, author, date, publisher, description,
+  subject, translator) and embeds them as Dublin Core metadata in the OPF,
+  with MARC relator roles for author and translator. The EPUB's display title
+  is `title_en`. All metadata is English. The output is structured for
+  compatibility with Kindle and Apple Books (proper `dc:*` elements,
+  `file-as` sort key, cover meta, NCX fallback for older readers).
 - **Every build ships a FULL, hyperlinked table of contents**, nested part →
   chapter → section → subsection and grouped by part. Every chapter has a page:
   a translated chapter shows its content; an untranslated one shows a skeleton
