@@ -210,3 +210,95 @@ None in this chapter.
   glossary "note" (as some ch01 rows do) renders as literal "&#8216;" text. New
   ch02 glossary notes therefore use plain Unicode punctuation. Worth a cleanup
   pass on ch01's glossary notes at some point.
+
+## B03 = Chapter Three (ch03), 11,726 source chars
+
+Delivered: out/ch03_reading.md, notes.json (ch03), glossary.json (new cast, firm,
+places, trade terms), out/Midnight.epub. QC file out/ch03_bilingual.md (never
+ships). Source read verbatim from data/src/06_part0004.txt (192 body paragraphs).
+No source endnote falls in this chapter, so source_notes.json is unchanged, as the
+kickoff said. Register kept close to B01/B02 (the novel's own voice). Scene: the
+funeral afternoon, the industrialists' billiard-room revel and their talk of
+founding a bank, Wu Sunfu's squeeze on Zhu Yinqiu, and Staff Officer Lei's
+farewell to the Wu young mistress.
+
+### Checks run
+
+- Faithful and complete quotation: the bilingual QC file was built by zipping the
+  English (one paragraph per line) against the source body lines, so the source is
+  quoted verbatim and parity is structural. One paragraph (source para 58, Tang
+  Yunshan's reply beginning "对，对！周仲翁的话...") was missed on the first pass;
+  the parity assertion caught it at 191 vs 192 and it was reinstated before the
+  bilingual was written.
+- check_numbers.py out/ch03_bilingual.md --noise data/noise_zh.txt: 192 pairs, 0
+  unresolved. Every one of the 17 first-pass flags was inspected and confirmed
+  present in the translation; two were fixed by rewording (see below) and the rest
+  are checker limitations or idioms, handled in the noise file with a reason each.
+- check_structure.py --pairs data/zh/ch03.txt out/ch03_reading.md: parity
+  192 | 192 OK.
+- Builder enforces note anchors (refuses on any orphan): all 6 ch03 translator
+  anchors resolved. qa_epub.py out/Midnight.epub: PASS (32 files, 26 documents,
+  21 note refs / 21 bodies / 21 backlinks, all links resolve).
+- Deep audit: an omission-signal pass (English-to-source length ratio over all 192
+  pairs; median 4.03, no outlier hid a dropped clause) plus a close read of the
+  densest paragraphs (the bank proposal, paras 76, 82, 98; the loan mechanics,
+  paras 149, 154; Lei's long speech, para 183). No omissions, no invented content,
+  numerals and names and load-bearing relations all carry over. Observed error
+  rate on the sample: 0.
+
+### check_numbers handling (no script changes this batch)
+
+- Two rewordings so the checker could see a real number: "a good hundred strong"
+  became "a hundred strong" (the checker's "a hundred" wants the words adjacent),
+  and "Sun and Wang" became "Sun and Wang, the two of them" (to carry 两位 = 2).
+- New data/noise_zh.txt ch03 block, each entry a numeral that is idiom, an
+  approximate range, an era label, or an artifact the checker cannot sum, never a
+  dropped quantity (verified by hand): 五百六 (residue of 560-odd; the built-in
+  十几 stripper mangles it and a compound hundred is unsummable anyway), 十二三万,
+  十万八千, 一二百万 (approximate ranges), 千层 (mille-feuille), 一百五十包 and
+  十五万 (compound hundreds the checker cannot sum), 八百五六十 (approximate range),
+  二十世纪 (era label), 成千成万 (idiom). Two general rules were added that will help
+  later chapters: strip 两 as the tael price-unit after a price (so 九百两 reads as
+  900 and 两 as the count 2 in 两位/两尺 is left alone), and treat a 万 not preceded
+  by a numeral as idiom or stripper-residue rather than the quantity 10000.
+
+### Notes added
+
+- Translator footnotes (notes.json ch03): 6, builder-numbered 16-21, at anchors
+  "dance of death" (死的跳舞, the danse macabre figure Fan Bowen turns on the rich),
+  "our Mr. Wang" (Wang Jingwei and the Reorganizationist faction Tang Yunshan
+  serves), "Craven" (茄立克, the period cigarette brand), "bath-house-ism" (淴浴主义,
+  the Wu-dialect slang, rendering flagged provisional), "May Thirtieth Movement"
+  (五卅, the 1925 movement that first joined Lin Peiyao to Lei), and "The Sorrows
+  of Young Werther" (Goethe, the book and pressed rose Lei carries). Historical
+  claims checked against scholarship and corroborated.
+- No source endnote in this chapter; source_notes.json untouched.
+
+### Glossary rows added (one rendering per referent)
+
+- People: Li Gui (李贵, the young mistress's-party manservant).
+- Firm: the Juelin Vegetarian Restaurant (觉林素菜馆).
+- Places: Jiangbei, Guangdong, Hunan, Changsha, Wuhan, Zhengzhou, Beiping (the
+  campaign towns of Lei's speech and Sun Jiren's motor-bus and mine ventures).
+- Terms: 钱庄 native bank, 银团 banking syndicate, 押款 mortgage-loan, 干茧 dried
+  cocoons, 干经 dry-reeled silk (with 厂经/灰经/川经 grades in the note), 洋庄 the
+  foreign-trade lot, 东汇 the eastward exchange. Existing bond-market and cast rows
+  reused unchanged.
+
+### Figures
+
+None in this chapter.
+
+### Read-through / open items
+
+- 佩珊二小姐 (para 12): Lin Peishan is here called "二小姐," the second young lady,
+  as the second of the Lin sisters, even though within the Wu house 二小姐 is
+  Fufang. Rendered "the second Miss, Peishan" and left unglossed; flag if the
+  double use of the rank reads as a slip.
+- 淴浴主义 (para 99): obscure Wu-dialect slang; rendered "bath-house-ism" with the
+  literal image and a provisional footnote, not smoothed away.
+- 生活 in Dr. Ding's line (para 86) is the Wu-dialect sense "work, handiwork," not
+  "life"; rendered "the funeral parlour's handiwork."
+- The two general check_numbers noise rules (tael 两; bare 万 not preceded by a
+  numeral) are worth watching in later chapters in case they ever strip a real
+  quantity; neither did here.

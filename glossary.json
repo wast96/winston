@@ -277,9 +277,21 @@
       "pinyin": "Bo yisheng",
       "status": "provisional",
       "note": "A doctor at the French Hospital, named as Dr. Ding's former classmate; romanization of 柏 is provisional."
+    },
+    "李贵": {
+      "en": "Li Gui",
+      "pinyin": "Li Gui",
+      "status": "decided",
+      "note": "A manservant of the Wu household; once a servant in the young mistress's own family, and counted of her party among the Wu servants."
     }
   },
   "organizations": {
+    "觉林素菜馆": {
+      "en": "the Juelin Vegetarian Restaurant",
+      "pinyin": "Juelin sucaiguan",
+      "status": "decided",
+      "note": "觉林素菜馆; a Shanghai vegetarian restaurant, whose kitchen staff are hired in to cater the funeral."
+    },
     "戴生昌轮船局": {
       "en": "the Daishengchang Steamship Office",
       "pinyin": "Daishengchang lunchuan ju",
@@ -545,6 +557,48 @@
       "pinyin": "Niuyue",
       "status": "attested",
       "note": "The other chief foreign market for silk named here."
+    },
+    "江北": {
+      "en": "Jiangbei",
+      "pinyin": "Jiangbei",
+      "status": "attested",
+      "note": "The region of Jiangsu north of the Yangtze; the site Sun Jiren proposes for a long-distance motor-bus line."
+    },
+    "广东": {
+      "en": "Guangdong",
+      "pinyin": "Guangdong",
+      "status": "attested",
+      "note": "The southern province; older English Kwangtung. Site of Whampoa, whence Lei Ming set out with the Northern Expedition."
+    },
+    "湖南": {
+      "en": "Hunan",
+      "pinyin": "Hunan",
+      "status": "attested",
+      "note": "The province north of Guangdong; older English Hunan."
+    },
+    "长沙": {
+      "en": "Changsha",
+      "pinyin": "Changsha",
+      "status": "attested",
+      "note": "The capital of Hunan, taken in the Northern Expedition Lei Ming recalls."
+    },
+    "武汉": {
+      "en": "Wuhan",
+      "pinyin": "Wuhan",
+      "status": "attested",
+      "note": "The Yangtze tri-city of Wuchang, Hankou and Hanyang; a chief objective of the 1926-27 Northern Expedition."
+    },
+    "郑州": {
+      "en": "Zhengzhou",
+      "pinyin": "Zhengzhou",
+      "status": "attested",
+      "note": "The Henan rail junction of the Beijing-Hankou and Longhai lines; older English Chengchow."
+    },
+    "北平": {
+      "en": "Beiping",
+      "pinyin": "Beiping",
+      "status": "attested",
+      "note": "The name given to Beijing (北京) when the Nationalist government moved the capital to Nanjing in 1928; older English Peiping. Lei Ming names its capture in the northern campaign."
     }
   },
   "terms": {
@@ -697,6 +751,48 @@
       "pinyin": "tiezhang",
       "status": "decided",
       "note": "铁掌; Du Xueshi's image for an authoritarian state that would seize the helm and override both capital and labour by force."
+    },
+    "钱庄": {
+      "en": "native bank",
+      "pinyin": "qianzhuang",
+      "status": "attested",
+      "note": "钱庄; a traditional Chinese private bank or money-shop, distinct from the modern 银行. The silk men's working credit runs through these houses, and it is a native-bank manager who will not stretch a point for Chen Junyi."
+    },
+    "银团": {
+      "en": "banking syndicate",
+      "pinyin": "yintuan",
+      "status": "decided",
+      "note": "银团; a consortium of banks or moneyed men joined to make a large loan. Tang Yunshan urges the three industrialists to form one; Wu Sunfu later uses a nameless 'syndicate' as the front for his squeeze on Zhu Yinqiu."
+    },
+    "押款": {
+      "en": "mortgage-loan",
+      "pinyin": "yakuan",
+      "status": "decided",
+      "note": "押款; a loan secured against pledged goods (here bales of silk or dried cocoons). Its falling due at the festival is what drives Zhu Yinqiu's whole plight."
+    },
+    "干茧": {
+      "en": "dried cocoons",
+      "pinyin": "ganjian",
+      "status": "decided",
+      "note": "干茧; silk cocoons dried for storage, the raw material a filature reels. Zhu Yinqiu's hoard of them is the prize Wu Sunfu means to seize."
+    },
+    "干经": {
+      "en": "dry-reeled silk",
+      "pinyin": "ganjing",
+      "status": "decided",
+      "note": "干经; a grade of reeled silk, named beside 厂经 (filature silk) and 灰经 (ash silk) as the grades Wu Sunfu will not accept as security. 川经 is the Sichuan-reeled sort."
+    },
+    "洋庄": {
+      "en": "the foreign-trade lot",
+      "pinyin": "yangzhuang",
+      "status": "decided",
+      "note": "洋庄; goods (here silk) made up for the export market, as against 庄口 for home sale. Wu Sunfu's timely sale of a thousand bales of it is why his case is the soundest of the silk men."
+    },
+    "东汇": {
+      "en": "the eastward exchange",
+      "pinyin": "donghui",
+      "status": "decided",
+      "note": "东汇; the exchange rate on Japan ('eastward' remittance). Its rise makes even duty-free Japanese dried cocoons dear for Wu Sunfu to import."
     }
   }
 }

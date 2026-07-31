@@ -52,3 +52,36 @@
 夹七夹八
 # 十万八万 "a hundred or eighty thousand" -- set phrase for a modest sum (ch02)
 十万八万
+# --- Chapter Three additions ---
+# 五百六 -- residue of 五百六十(几) "five hundred and sixty-odd" dollars: the built-in
+# 十几 stripper turns 560 into 506, and the checker cannot sum a compound hundred
+# anyway; rendered "five hundred and sixty-odd" (ch03)
+五百六
+# 十二三万 "a hundred and twenty or thirty thousand" -- approximate range, checker
+# cannot sum a compound hundred-thousand (ch03)
+十二三万
+# 十万八千 "a hundred thousand or eighty thousand" -- set phrase for a large sum (ch03)
+十万八千
+# 一二百万 "a million or two" of deposits -- approximate range (ch03)
+一二百万
+# 千层(糕) "thousand-layer cake" = mille-feuille (千 not the quantity 1000) (ch03)
+千层
+# 一百五十包 "a hundred and fifty bales" of dried silk -- checker cannot sum a
+# compound hundred (ch03)
+一百五十包
+# 八百五六十(两) "eight hundred and fifty or sixty taels" -- approximate range (ch03)
+八百五六十
+# 十五万 "a hundred and fifty thousand" -- the new loan sum, recurs through the
+# Zhu-Yinqiu scene; checker cannot sum a compound hundred-thousand (ch03)
+十五万
+# 二十世纪 "the twentieth century" -- an era label, not a quantity (ch03)
+二十世纪
+# 成千成万 "by the thousand and the myriad" = countless (idiom; 千/万 not counts) (ch03)
+成千成万
+# 两 as the tael (the silver price unit) after a price is not the digit 2: strip it
+# so 九百两 -> 900, and 两 as the count 2 (两位, 两尺) is left untouched (ch03)
+(?<=百)两
+(?<=十)两
+# a 万 not immediately preceded by a numeral is not the quantity 10000 but idiom or
+# a stripper residue (e.g. 十多万 "a hundred-odd thousand" after 十多 is removed) (ch03)
+(?<![零一二两兩三四五六七八九十百千])万
