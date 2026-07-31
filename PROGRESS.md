@@ -204,3 +204,130 @@ None. Chapter two is text only; figures.json stays empty for this batch.
   This appears to be an error in the Chinese source text.
 - The curly-quote vs straight-quote normalization in the bilingual QC file is
   cosmetic and does not affect the reading text or the EPUB.
+
+## B03 = ch03 (第三章 午正 / "The Hour of the Horse, Second Half, noon")
+
+Scope: the whole chapter, 22,888 source characters, 421 paragraphs. He Zhizhang
+returns with the Bureau seal and tries to expel Zhang Xiaojing; Zhang's plan to
+win the Zoroastrian offering-register plays out (the He Zhizhang / Great Sabao
+audience); Wen Ran escapes her captors only to be run down with Wang Yunxiu by
+Cao Poyan's fake road crew; Jiao Sui's murder fells He Zhizhang and Li Bi takes
+sole command; Long Bo is identified; Zhang and Yao Runeng go to the Pingkang
+Quarter and Old Ge, where Zhang kills the mole Xiao Yi (severing his own finger)
+and breaks Tong'er to learn of the Xiuzheng safe-house; Cao Poyan receives the
+Yanzhou cargo and the ward map from Long Bo; Li Bi confesses to the Crown Prince.
+
+Deliverables shipped: out/ch03_bilingual.md (QC only), out/ch03_reading.md,
+data/zh/ch03.txt, notes.json (4 notes added, 19 total), glossary.json updated
+(42 people, 7 orgs, 38 places, 45 terms), noise.txt extended, the rebuilt EPUB,
+and this log.
+
+### Checks run
+
+- check_numbers.py --noise noise.txt: 421 pairs, 0 unresolved. Extended
+  check_numbers.py WORD_NUM with the ordinal "twentieth" (20) for 开元二十年 /
+  "the twentieth year of Kaiyuan" (a real regnal-year quantity English spells as
+  an ordinal, like the teen ordinals added in B01/B02). Extended noise.txt with,
+  and recorded why, only NON-quantity numerals the check flagged:
+  一百五十 (150, the avenue width English renders analytically as "a hundred and
+  fifty paces," which the digit-composer cannot reassemble — same class as the
+  existing 一百零八); the idioms 七转八弯, 推三阻四, 五花大绑, 五大三粗, 四散,
+  危机四伏, 百感交集, 一来二去; 万众 ("the multitude", not 10000), 三角
+  ("triangular", not 3), 二不逾制 (the 二 is a "neither...nor" enumerator),
+  万全 (万全宅 = "the safe-house", not 10000), 三勒浆 (a drink named for its 三
+  fruits), 零卖 ("retail", the 零 is not 0), and a general rule
+  [一二三四五六七八九]十[多几余] placed at the TOP of noise.txt so it strips whole
+  approximate "-odd" forms (八十多/六十多/二十多/二十几/二十余) BEFORE the built-in
+  十多/十几 rules can strip the middle and orphan the leading digit. Every added
+  pattern was hand-verified to have its value present (or legitimately absent) in
+  the English; a genuinely dropped number would still fail.
+- check_structure.py --pairs: paragraph parity 421 source / 421 translation, OK.
+  (Source lines 40 and 41 of data/src/06_text00007.txt are one sentence split by
+  the extractor mid-clause; they were merged into a single paragraph. All other
+  lines map one-to-one; colon-lead-in speech lines were kept as the source file
+  has them.)
+- Anchor resolution: all 4 ch03 note anchors ("the Great Sabao", "Eight Immortals
+  of the Wine Cup", "the Pingkang Quarter", "an old Kunlun slave") are verbatim
+  substrings of the reading text. Builder built and qa_epub passed with all 19
+  notes.
+- Blind double translation (check 2): an independent context translated a ~3%
+  literary sample (the "other Chang'an" passage and Old Ge's speech on the filth
+  behind the Pingkang Quarter, ~3 paragraphs / ~230 chars) with no sight of this
+  translation. Result: highly convergent, no omissions and no invented content.
+  One precision refinement applied from the diff — 毁了容的凤魁 was tightened from
+  "ruined belles of the trade" to "once-celebrated beauties whose faces have been
+  ruined," preserving the 毁容 (ruined-face) specificity. Remaining differences
+  (Avīci hell vs "hell of the interminable void"; "reckoning" vs "karmic
+  workings" for 羯磨) were equivalent word-choices within translator discretion.
+- Round-trip back translation (check 3): a number-dense sample (the cart train,
+  the ward-map / fifteen lost men / nine-linked-rings passage, the timing orders,
+  and the Pure Land Cloister's hundred-and-eight Buddhas, ~4 excerpts) was
+  back-translated in a fresh context and diffed against the source. Every numeral
+  survived intact (10 carts, 15 men, 108 Buddhas, quarter-/half-/two double-hours)
+  and every proper noun matched. No omissions detected.
+- qa_epub.py: PASS. 38 files, 32 documents, all links resolve; 19 note
+  references, 19 bodies, 19 backlinks; numbering sequential in reading order.
+
+### Random-sample deep audit (check 8)
+
+Combined, the blind double-translation and back-translation samples cover ~4% of
+the chapter and were given the full paranoid treatment (verbatim-quote check,
+independent re-translation, round-trip). Observed substantive omission/error rate
+on the audited sample: zero. One minor precision refinement (凤魁/毁容, above) was
+applied; it was a tightening, not a corrected error.
+
+### Notes added (4; numbered by the builder in reading order, continuing from ch02)
+
+The Great Sabao / the sabao office (薩寶, the government-recognized headman of a
+resident Sogdian community and its Zoroastrian temples; corroborated against Tang
+institutional sources and Sogdian sabao epitaphs); the Eight Immortals of the
+Wine Cup (饮中八仙, from Du Fu's poem, listing all eight with Jiao Sui the sole
+commoner; corroborated); the Pingkang Quarter (平康里, the capital's courtesan
+district and its three lanes; corroborated against Sun Qi's Beili zhi); the
+Kunlun slave / Zanj (昆仑奴 / 僧祇奴, dark-skinned servants of the southern seas
+and East Africa; corroborated against Schafer, The Golden Peaches of Samarkand).
+Recurring subjects already noted in ch01-ch02 (Tianbao/zai dating, the shichen
+system, the Lantern Festival, He Zhizhang, the Sage) were deliberately NOT
+re-noted.
+
+### Glossary rows added
+
+People: Long Bo, Wang Yunxiu (attested), Old Ge, Ma Ge'er, Tong'er, the Great
+Sabao (attested), Jiao Sui (attested), Li Linfu (attested), Li Heng (attested),
+Li Bai (attested), Li Shizhi/Li Jin/Cui Zongzhi/Su Jin/Zhang Xu (the wine
+immortals, attested), Xiao Yi, Young Han. Organizations: the Sabao Office
+(attested), the Directorate for the Palace Buildings (attested), Su's
+Cart-and-Horse Company. Places: Kucha (attested), the Pingkang Quarter, Yanzhou
+(attested), Xiuzheng/Taiping/Yanshou/Zhiye/Fengle/Guangfu/Jingshan Wards, the
+Hanguang Gate, the Shiji Temple, the Pure Land Cloister, the Jianfu Temple, the
+Yong'an Canal. Terms: Kunlun slave (attested), Zanj slave (attested), Mazda
+(attested), the Eight Immortals of the Wine Cup (attested), the art of the Great
+Archive, "walking the horse" (liuma), the First Lane, Xi cart, sanle cordial,
+the Three Adjuncts (attested), futou, gratitude token, oath-token of blood.
+
+### Figures
+
+None. The source ch03 HTML references only Image00004.jpg (the source's own
+footnote-marker glyph) and Image00005.jpg (a decorative centered scene-break
+rule, alt="line", used seven times); neither is a content illustration, matching
+the ch01-ch02 decision. figures.json stays empty.
+
+### Flagged for the read-through
+
+- The source's own footnote on the dateline (Duokan fn3) is the per-chapter
+  time-gloss ("中午12点。午，又名日正、中午等。（北京时间11时至13时）"), already captured
+  as the last source paragraph and rendered as the source's own italic note, per
+  house style.
+- 感动祆正的言辞 (source line 131): the source says 祆正 ("prelate"), but the man
+  moved by the speech is the Great Sabao (the prelate is dead). Read as a loose
+  use of 祆正 for "the Zoroastrian dignitary" and rendered "the old Zoroastrian";
+  the referent is unambiguous from context. Flagged as a probable authorial slip.
+- 早在天宝三年间…二十多年的师徒情谊 (source line 402): the source dates He Zhizhang's
+  tutorship of the heir apparent to "the third year of Tianbao" (744, the present
+  year) yet calls the bond "more than twenty years" old — internally inconsistent
+  (the appointment must date to the Kaiyuan era). Rendered faithfully and left
+  visible rather than silently corrected.
+- 远来商栈 (source line 196) vs the glossary's 元来行 "the Yuanlai Trading Post":
+  the source varies the name of the livestock-dealing establishment (元来行 in
+  earlier chapters, 远来商栈 here); both romanize as "Yuanlai," so the decided
+  rendering was reused for consistency.

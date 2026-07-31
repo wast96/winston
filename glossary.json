@@ -26,13 +26,33 @@
     "阿史那": {"en": "Ashina", "pinyin": "Āshǐnà", "status": "attested", "note": "The royal clan of the Turkic Khaganates. Standard Turkological form."},
     "盖嘉运": {"en": "Gai Jiayun", "pinyin": "Gài Jiāyùn", "status": "attested", "note": "Gai Jiayun, Tang military official who served as Protector-General of Beiting and relieved the siege of Balhuan (735). Recorded in <i>Zizhi Tongjian</i>."},
     "突骑施": {"en": "Türgesh", "pinyin": "Tūqíshī", "status": "attested", "note": "The Türgesh, a Western Turkic tribal confederation based in the Chu and Ili valleys. Standard Turkological form; see P. B. Golden, <i>An Introduction to the History of the Turkic Peoples</i>."},
-    "苏禄可汗": {"en": "Suluk Khagan", "pinyin": "Sùlù Kěhán", "status": "attested", "note": "Suluk (Çor) Khagan (r. 716–738) of the Türgesh; besieged Balhuan in 735. Assassinated by Baga Tarkhan in 738. Standard Turkological form."}
+    "苏禄可汗": {"en": "Suluk Khagan", "pinyin": "Sùlù Kěhán", "status": "attested", "note": "Suluk (Çor) Khagan (r. 716–738) of the Türgesh; besieged Balhuan in 735. Assassinated by Baga Tarkhan in 738. Standard Turkological form."},
+    "龙波": {"en": "Long Bo", "pinyin": "Lóng Bō", "status": "decided", "note": "A Kucha craftsman and long-planted Türk agent in Chang'an, posing as a Zoroastrian believer in Huaiyuan Ward; he arranged the safe-houses and the depot and assembles the 'Que-le Huo-duo.' Pinyin."},
+    "王韫秀": {"en": "Wang Yunxiu", "pinyin": "Wáng Yùnxiù", "status": "attested", "note": "Wang Zhongsi's daughter; historically she married the minister Yuan Zai. Here a proud, foreign-fashion-loving young noblewoman. Pinyin per standard Tang sources."},
+    "葛老": {"en": "Old Ge", "pinyin": "Gě Lǎo", "status": "decided", "note": "A freed Zanj (Kunlun) slave turned the greatest slaver and underworld boss of the Pingkang Quarter; he took his surname from a former master, a vice-minister surnamed Ge. 'Old Ge' renders the respectful 老."},
+    "麻格儿": {"en": "Ma Ge'er", "pinyin": "Má Gé'ér", "status": "decided", "note": "A big, insubordinate Wolf Guard, personally recruited by Cao Poyan, who defers to the Right Shad's orders over Cao's. Transliteration mine."},
+    "瞳儿": {"en": "Tong'er", "pinyin": "Tóng'ér", "status": "decided", "note": "A courtesan of the First Lane in the Pingkang Quarter, Long Bo's regular; held captive by Old Ge after eloping. Pinyin."},
+    "大萨宝": {"en": "the Great Sabao", "pinyin": "Dà Sàbǎo", "status": "attested", "note": "Head of the Sabao Office overseeing the Zoroastrian temples of the metropolitan region; a Persian resident of Chang'an of more than twenty years. 萨宝 (sabao) is an attested Tang office."},
+    "焦遂": {"en": "Jiao Sui", "pinyin": "Jiāo Suì", "status": "attested", "note": "One of the 'Eight Immortals of the Wine Cup' in Du Fu's poem, and the only commoner among them; He Zhizhang's old drinking friend, found murdered. Historical; pinyin."},
+    "李林甫": {"en": "Li Linfu", "pinyin": "Lǐ Línfǔ", "status": "attested", "note": "Li Linfu (d. 752), the powerful and notorious Right Chief Minister under Xuanzong; here 'the Right Minister,' whose mansion adjoins the Pingkang Quarter. Historical; pinyin per <i>The Cambridge History of China</i>, vol. 3."},
+    "李亨": {"en": "Li Heng", "pinyin": "Lǐ Hēng", "status": "attested", "note": "Li Heng (711–762), Xuanzong's heir apparent, later Emperor Suzong; the 'one person' behind the Jing'an Bureau. The novel's Crown Prince. Historical; pinyin."},
+    "李白": {"en": "Li Bai", "pinyin": "Lǐ Bái", "status": "attested", "note": "Li Bai (701–762), the great Tang poet; listed among the Eight Immortals of the Wine Cup. Standard English form."},
+    "李适之": {"en": "Li Shizhi", "pinyin": "Lǐ Shìzhī", "status": "attested", "note": "Li Shizhi (d. 747), Tang chief minister and one of the Eight Immortals of the Wine Cup. Pinyin."},
+    "李琎": {"en": "Li Jin", "pinyin": "Lǐ Jìn", "status": "attested", "note": "Li Jin, Prince of Ruyang, a grandson of Ruizong and one of the Eight Immortals of the Wine Cup. Pinyin."},
+    "崔宗之": {"en": "Cui Zongzhi", "pinyin": "Cuī Zōngzhī", "status": "attested", "note": "Cui Zongzhi, a Tang official and one of the Eight Immortals of the Wine Cup. Pinyin."},
+    "苏晋": {"en": "Su Jin", "pinyin": "Sū Jìn", "status": "attested", "note": "Su Jin (676–734), a Tang official and one of the Eight Immortals of the Wine Cup. Pinyin."},
+    "张旭": {"en": "Zhang Xu", "pinyin": "Zhāng Xù", "status": "attested", "note": "Zhang Xu, the great 'cursive-script sage' of Tang calligraphy and one of the Eight Immortals of the Wine Cup. Pinyin."},
+    "小乙": {"en": "Xiao Yi", "pinyin": "Xiǎo Yǐ", "status": "decided", "note": "A planted informer Zhang Xiaojing had himself placed in the underworld, now hiding in Old Ge's den; Zhang kills him as the 'oath-token of blood.' Pinyin."},
+    "韩郎": {"en": "Young Han", "pinyin": "Hán láng", "status": "decided", "note": "Tong'er's lover, an examination candidate with whom she eloped; 郎 = 'young master.'"}
   },
   "organizations": {
     "靖安司": {"en": "the Jing'an Bureau", "pinyin": "Jìng'ān Sī", "status": "decided", "note": "A newly created security office charged with threat-prevention (<i>zei shi ce fang</i>) for the whole western capital. The name is glossed in the text: 'to quell revolt is <i>jing</i>; when the four quarters are without trouble, that is <i>an</i>.' <i>Si</i> = bureau."},
     "旅贲军": {"en": "the Lüben Guards", "pinyin": "Lǔbìjūn", "status": "provisional", "note": "An elite guard unit under the Jing'an Bureau, here commanded by Cui Qi. The name derives from an ancient palace-guard title; no settled English form exists."},
     "金吾卫": {"en": "the Jinwu Guard", "pinyin": "Jīnwú Wèi", "status": "decided", "note": "The Gold Bird Guard, responsible for patrolling the streets of the capital and enforcing the night curfew."},
-    "京兆府": {"en": "the Jingzhao Prefecture", "pinyin": "Jīngzhào Fǔ", "status": "decided", "note": "The metropolitan prefecture governing Chang'an and its two counties."}
+    "京兆府": {"en": "the Jingzhao Prefecture", "pinyin": "Jīngzhào Fǔ", "status": "decided", "note": "The metropolitan prefecture governing Chang'an and its two counties."},
+    "萨宝府": {"en": "the Sabao Office", "pinyin": "Sàbǎo Fǔ", "status": "attested", "note": "The Tang office administering resident foreign (chiefly Sogdian) communities and their Zoroastrian temples, headed by the sabao."},
+    "将作监": {"en": "the Directorate for the Palace Buildings", "pinyin": "Jiàngzuò Jiān", "status": "attested", "note": "The Tang directorate in charge of state construction and public works; the Wolf Guards impersonate its road-repair laborers. Rendering per C. O. Hucker."},
+    "苏记车马行": {"en": "Su's Cart-and-Horse Company", "pinyin": "Sūjì Chēmǎ Háng", "status": "decided", "note": "A reputable haulage firm working the routes north of Chang'an; it unwittingly carries the Türks' cargo from Yanzhou."}
   },
   "places": {
     "长安": {"en": "Chang'an", "pinyin": "Cháng'ān", "status": "attested", "note": "The Tang capital, on the site of modern Xi'an; the greatest city in the world of its day. Standard English form."},
@@ -57,7 +77,22 @@
     "玄都观": {"en": "Xuandu Abbey", "pinyin": "Xuándū Guàn", "status": "decided", "note": "A major Daoist temple in Chongye Ward, frequented by the great and powerful."},
     "积度尼寺": {"en": "the Jidu Nunnery", "pinyin": "Jīdù Nísì", "status": "decided", "note": "A Buddhist nunnery in Anye Ward where Empress Wu Zetian once took the veil; famous for its purple-gold bell."},
     "大秦": {"en": "Daqin", "pinyin": "Dàqín", "status": "attested", "note": "The Tang name for the Eastern Roman / Byzantine lands or sometimes the Near East in general. Standard identification."},
-    "大食": {"en": "the Arab lands", "pinyin": "Dàshí", "status": "attested", "note": "The Tang name for the Arab/Umayyad (later Abbasid) caliphate. Standard identification."}
+    "大食": {"en": "the Arab lands", "pinyin": "Dàshí", "status": "attested", "note": "The Tang name for the Arab/Umayyad (later Abbasid) caliphate. Standard identification."},
+    "龟兹": {"en": "Kucha", "pinyin": "Qiūcí", "status": "attested", "note": "The great Buddhist oasis kingdom on the northern Silk Road (modern Kuqa, Xinjiang); Long Bo's origin. Standard identification."},
+    "平康里": {"en": "the Pingkang Quarter", "pinyin": "Píngkāng Lǐ", "status": "decided", "note": "Chang'an's entertainment district in the northeast of the city. 平康坊, the administrative ward, is rendered 'Pingkang Ward'; 平康里, the pleasure quarter within it, 'the Pingkang Quarter.'"},
+    "延州": {"en": "Yanzhou", "pinyin": "Yánzhōu", "status": "attested", "note": "A prefecture north of Chang'an (modern Yan'an, Shaanxi), whence the Türks' cargo is hauled. Standard."},
+    "修政坊": {"en": "Xiuzheng Ward", "pinyin": "Xiūzhèng Fāng", "status": "decided", "note": "A ward in the southern city; Long Bo's safe-house lies southwest of its crossroads."},
+    "太平坊": {"en": "Taiping Ward", "pinyin": "Tàipíng Fāng", "status": "decided", "note": "A ward west of the Vermilion Bird Avenue, facing the imperial city's Hanguang Gate; site of the Shiji Temple where Li Bi meets the Crown Prince."},
+    "含光门": {"en": "the Hanguang Gate", "pinyin": "Hánguāng Mén", "status": "decided", "note": "A southern gate of the imperial city of Chang'an."},
+    "实际寺": {"en": "the Shiji Temple", "pinyin": "Shíjì Sì", "status": "decided", "note": "A Buddhist temple in Taiping Ward, housing the 'finest in the capital' Pure Land Cloister."},
+    "净土院": {"en": "the Pure Land Cloister", "pinyin": "Jìngtǔ Yuàn", "status": "decided", "note": "A famous cloister within the Shiji Temple, its bamboo grove holding a hundred and eight clay Buddhas."},
+    "荐福寺": {"en": "the Jianfu Temple", "pinyin": "Jiànfú Sì", "status": "decided", "note": "A great temple in Anren Ward whose golden pagoda-spire is a landmark from the Vermilion Bird Avenue (the historical Small Wild Goose Pagoda stands in its grounds)."},
+    "延寿坊": {"en": "Yanshou Ward", "pinyin": "Yánshòu Fāng", "status": "decided", "note": "A ward near the North Yong'an Canal where Jiao Sui's body is found."},
+    "永安渠": {"en": "the Yong'an Canal", "pinyin": "Yǒng'ān Qú", "status": "decided", "note": "A canal of Chang'an; its northern reach (永安北渠, the North Yong'an Canal) runs by Yanshou Ward, where Cao Poyan is thought to have come ashore."},
+    "殖业坊": {"en": "Zhiye Ward", "pinyin": "Zhíyè Fāng", "status": "decided", "note": "A ward west of the Vermilion Bird Avenue."},
+    "丰乐坊": {"en": "Fengle Ward", "pinyin": "Fēnglè Fāng", "status": "decided", "note": "A ward west of the Vermilion Bird Avenue, near Zhiye Ward."},
+    "光福坊": {"en": "Guangfu Ward", "pinyin": "Guāngfú Fāng", "status": "decided", "note": "A ward on the route south from Anren Ward."},
+    "靖善坊": {"en": "Jingshan Ward", "pinyin": "Jìngshàn Fāng", "status": "decided", "note": "A ward in the southern city; past it the streets grow sparse and desolate."}
   },
   "terms": {
     "上元节": {"en": "the Lantern Festival", "pinyin": "Shàngyuán Jié", "status": "decided", "note": "The fifteenth night of the first lunar month (<i>Shangyuan</i>), when the curfew was lifted and the city was lit with lanterns; here its eve, the fourteenth."},
@@ -91,6 +126,19 @@
     "五尊阎罗": {"en": "the Five-Faced Yama", "pinyin": "Wǔzūn Yánluó", "status": "decided", "note": "Zhang Xiaojing's street name in Wannian County, for the five demons he embodies: vicious, venomous, ruthless, stubborn, and pitiless."},
     "红拂": {"en": "Lady Red Sleeve", "pinyin": "Hóngfú", "status": "attested", "note": "A legendary Tang figure from the romance <i>The Tale of the Curly-Bearded Hero</i>: a maidservant who eloped with a hero. Li Bi teases Tanqi with the allusion. Standard."},
     "闻记香铺": {"en": "the Wen Incense Shop", "pinyin": "Wénjì Xiāngpù", "status": "decided", "note": "Wen Ran's family incense shop, located in Dunyi Ward."},
-    "玉真观": {"en": "the Jade Purity", "pinyin": "Yùzhēn Guàn", "status": "decided", "note": "A high-end face-cream shop in the West Market's southeast quarter, run by a wealthy foreign proprietor."}
+    "玉真观": {"en": "the Jade Purity", "pinyin": "Yùzhēn Guàn", "status": "decided", "note": "A high-end face-cream shop in the West Market's southeast quarter, run by a wealthy foreign proprietor."},
+    "昆仑奴": {"en": "Kunlun slave", "pinyin": "kūnlún nú", "status": "attested", "note": "Tang term for dark-skinned servants brought from the southern seas and beyond, stock figures of Tang tales. Standard."},
+    "僧祇奴": {"en": "Zanj slave", "pinyin": "sēngqí nú", "status": "attested", "note": "A slave from the Zanj (East African) coast; Old Ge's origin. Standard identification (Schafer, <i>The Golden Peaches of Samarkand</i>)."},
+    "马兹达": {"en": "Mazda", "pinyin": "Mǎzīdá", "status": "attested", "note": "Ahura Mazda, the supreme god of Zoroastrianism; the novel transliterates the name 马兹达. Standard."},
+    "饮中八仙": {"en": "the Eight Immortals of the Wine Cup", "pinyin": "Yǐnzhōng Bāxiān", "status": "attested", "note": "The eight Tang tipplers of Du Fu's poem <i>Song of the Eight Immortals of the Wine Cup</i>."},
+    "大案牍术": {"en": "the art of the Great Archive", "pinyin": "dà àndú shù", "status": "decided", "note": "Xu Bin's method of cross-referencing the capital's mass of paper records to deduce hidden facts; introduced in ch02 as the art of the 'Great Archive.'"},
+    "遛马": {"en": "walking the horse", "pinyin": "liùmǎ", "status": "decided", "note": "Pingkang-Quarter cant: to take a courtesan out on an excursion; paired with 留沐 ('staying to bathe'), lodging the night. The text glosses both."},
+    "一曲": {"en": "the First Lane", "pinyin": "yīqū", "status": "decided", "note": "The northern of the Pingkang Quarter's three lanes (曲), also called the North Lane (北曲); the humblest. 中曲 = the Middle Lane, 南曲 = the South Lane."},
+    "奚车": {"en": "Xi cart", "pinyin": "xīchē", "status": "decided", "note": "A railed, canopy-less cart of the Xi (奚) people of the northeast steppe, drawn here by camels; a fashionable steppe novelty."},
+    "三勒浆": {"en": "sanle cordial", "pinyin": "sānlè jiāng", "status": "decided", "note": "A Tang cordial of Persian origin, made from three fruits (三勒); a holiday drink."},
+    "三辅": {"en": "the Three Adjuncts", "pinyin": "Sānfǔ", "status": "attested", "note": "The three metropolitan commanderies around the capital (a Han-era term for the Chang'an region); here loosely 'the capital region.'"},
+    "幞头": {"en": "futou", "pinyin": "fútóu", "status": "decided", "note": "The soft cloth head-wrap or cap worn by Tang men over a headcloth."},
+    "思恩客": {"en": "gratitude token", "pinyin": "sī'ēn kè", "status": "decided", "note": "A wooden tally issued only to a courtesan-house's regular patrons in the Pingkang Quarter, admitting the bearer straight behind the curtains."},
+    "投名状": {"en": "oath-token of blood", "pinyin": "tóumíng zhuàng", "status": "decided", "note": "The bandit's pledge of allegiance sealed by a killing, proving the newcomer has burned his bridges. Rendered 'oath-token of blood.'"}
   }
 }

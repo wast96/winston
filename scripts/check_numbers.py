@@ -29,6 +29,7 @@ WORD_NUM = {
     # ("the seventeenth year of the reign", 十七年); the built-ins stop at "tenth".
     "seventeenth": 17,
     "thirteenth": 13, "fourteenth": 14, "fifteenth": 15, "sixteenth": 16,
+    "twentieth": 20,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}
