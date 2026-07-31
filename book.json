@@ -698,6 +698,98 @@
       "sections": []
     }
   ],
-  "_batches_note": "Proposed by scripts/survey.py; to be approved by the commissioner before Batch 1.",
-  "batches": []
+  "_batches_note": "Approved plan (13 batches, each <= 21,000 source chars). first/last are chapter (unit) ids; these units have no sub-sections.",
+  "batches": [
+    {
+      "batch": "B01",
+      "first": "ch00",
+      "last": "ch08",
+      "chars": 18512,
+      "title": "About the Author through Chapter 8"
+    },
+    {
+      "batch": "B02",
+      "first": "ch09",
+      "last": "ch14",
+      "chars": 19469,
+      "title": "Chapters 9 to 14"
+    },
+    {
+      "batch": "B03",
+      "first": "ch15",
+      "last": "ch17",
+      "chars": 16230,
+      "title": "Chapters 15 to 17"
+    },
+    {
+      "batch": "B04",
+      "first": "ch18",
+      "last": "ch21",
+      "chars": 19962,
+      "title": "Chapters 18 to 21"
+    },
+    {
+      "batch": "B05",
+      "first": "ch22",
+      "last": "ch25",
+      "chars": 18788,
+      "title": "Chapters 22 to 25"
+    },
+    {
+      "batch": "B06",
+      "first": "ch26",
+      "last": "ch31",
+      "chars": 20716,
+      "title": "Chapters 26 to 31"
+    },
+    {
+      "batch": "B07",
+      "first": "ch32",
+      "last": "ch36",
+      "chars": 18411,
+      "title": "Chapters 32 to 36"
+    },
+    {
+      "batch": "B08",
+      "first": "ch37",
+      "last": "ch41",
+      "chars": 17945,
+      "title": "Chapters 37 to 41"
+    },
+    {
+      "batch": "B09",
+      "first": "ch42",
+      "last": "ch45",
+      "chars": 14344,
+      "title": "Chapters 42 to 45"
+    },
+    {
+      "batch": "B10",
+      "first": "ch46",
+      "last": "ch48",
+      "chars": 17009,
+      "title": "Chapters 46 to 48"
+    },
+    {
+      "batch": "B11",
+      "first": "ch49",
+      "last": "ch52",
+      "chars": 17733,
+      "title": "Chapters 49 to 52"
+    },
+    {
+      "batch": "B12",
+      "first": "ch53",
+      "last": "ch57",
+      "chars": 20620,
+      "title": "Chapters 53 to 57"
+    },
+    {
+      "batch": "B13",
+      "first": "ch58",
+      "last": "ch59",
+      "chars": 15635,
+      "title": "Chapter 58 and Impressions of Xu Xu"
+    }
+  ]
 }
