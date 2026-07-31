@@ -16,5 +16,16 @@
     {"file": "00010.jpg", "before": "In my spare time from work I also often attended", "alt": "Huang Dinghui with Yuan Puzhi", "caption": "Huang Dinghui (Mulan) with her old Northern Expedition comrade Yuan Puzhi"},
     {"file": "00011.jpg", "before": "In early September the Northern Expedition army took", "alt": "Huang Dinghui with Zhang Duhe", "caption": "Huang Dinghui (Mulan) with her old Northern Expedition comrade Zhang Duhe"},
     {"file": "00012.jpg", "before": "In December the provisional Kuomintang", "alt": "Qu Qiubai", "caption": "Qu Qiubai, who persuaded Mulan to give up the chance to study in the Soviet Union and return to Wuhan"}
+  ],
+  "ch04": [
+    {"file": "00013.jpg", "before": "After I returned to Wuhan from Shanghai", "alt": "Song Qingling", "caption": "Song Qingling (1893–1981), modern woman revolutionary and social activist, an outstanding fighter for world peace and progress, and Honorary President of the People's Republic of China"},
+    {"file": "00014.jpg", "before": "Xiyan and I first came to know each other at Wuhan in 1926", "alt": "Founding of the Kuomintang's Jiangsu Provincial Party Headquarters, 1925", "caption": "From the Pictorial History of the Shanghai People's Revolution. Original caption: In August 1925 the Kuomintang's Jiangsu Provincial Party Headquarters, led by Communists and the Kuomintang left, was founded in Shanghai. Among those pictured (fourth from the right) is Wan Xiyan, the author's husband, together with Liu Yazi and other left-wing figures"},
+    {"file": "00015.jpg", "before": "After this Women's Day commemorative rally came a great women's parade", "alt": "Huang Dinghui visiting Xie Bingying, 1991", "caption": "March 1991: Huang Dinghui (Mulan), with her third brother Zhangren and his wife, visits her old Northern Expedition friend, the writer Xie Bingying, at a seniors' residence in San Francisco"}
+  ],
+  "ch05": [
+    {"file": "00017.jpg", "before": "We stayed a few days at the Yunzhongtian Hotel", "alt": "Chen Tanqiu", "caption": "Chen Tanqiu, Mulan's leader during her underground work at Nanchang in Jiangxi"}
+  ],
+  "ch06": [
+    {"file": "00018.jpg", "before": "After I reached Shanghai, I was assigned to work in the Secretariat", "alt": "Zhou Enlai", "caption": "Zhou Enlai, Mulan's leader during her work in the Secretariat of the CCP Central at Shanghai. Original photo caption: November 1924, taken when Zhou Enlai became head of the Political Department of the Whampoa Military Academy"}
   ]
 }

@@ -26,3 +26,25 @@
 广九
 廣九
 李立三
+# B02 additions (see PROGRESS.md): idioms and place-names carrying non-quantity numerals
+# 成千上万 thousands upon thousands; 万岁 "long live"; 二老 the two elders; 凋零 (朋辈多凋零)
+成千上万
+万岁
+萬歲
+二老
+凋零
+# 三妻四妾 many wives; 不三不四 shady; 四合院 courtyard house; 颠三倒四 incoherent
+三妻四妾
+不三不四
+四合院
+颠三倒四
+# 胡说八道 nonsense; 六神无主 distraught; 十有八九 nine times out of ten
+胡说八道
+六神无主
+十有八九
+# 第二天 "the next day" (not a count)
+第二天
+# place names carrying a numeral: 九江 Jiujiang, 万安 Wan'an
+九江
+万安
+萬安
