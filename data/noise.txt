@@ -69,3 +69,10 @@
 六角
 # 大千世界 = "the vast universe" (Buddhist 三千大千世界); the 千 is not the quantity 1000
 大千世界
+# --- B05 (ch22-ch25) additions ---
+# 两手 = "both hands", 两膝 = "both knees" (body-part idiom); the 两 is not the count 2
+两[手膝]
+# 连三接四 = "one after another" (idiom, of the tension coming in a rush); 三/四 not counts
+连三接四
+# 零碎 = "odd / sundry (tasks)"; the 零 is not the quantity 0 (cf. 零星/零落/零乱 above)
+零碎

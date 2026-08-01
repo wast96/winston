@@ -134,6 +134,48 @@
       "pinyin": "Gongjian Dengshui",
       "status": "provisional",
       "note": "A Japanese admirer who sends Bai Ping flowers in hospital; the narrator cannot recall the name on the card exactly, so <span lang=\"zh-Hans\">宫间登水</span> is given a tentative Japanese reading."
+    },
+    "赛金花": {
+      "en": "Sai Jinhua",
+      "pinyin": "Sai Jinhua",
+      "status": "attested",
+      "note": "Celebrated late-Qing courtesan (c. 1872–1936), linked in legend to Field Marshal von Waldersee during the Boxer occupation of Beijing; invoked in ch22 as a byword for a beauty who consorts with the occupier. Pinyin, the standard form."
+    },
+    "石涛": {
+      "en": "Shitao",
+      "pinyin": "Shitao",
+      "status": "attested",
+      "note": "Monk-painter of the early Qing (1642–c. 1707), a landscapist of the fallen Ming imperial line; a landscape of his hangs in the study in ch23. Pinyin, the standard form."
+    },
+    "任堇": {
+      "en": "Ren Jinshu",
+      "pinyin": "Ren Jinshu",
+      "status": "decided",
+      "note": "Painter-calligrapher of the late Qing and early Republic (1881–1936), styled <span lang=\"zh-Hans\">堇叔</span> (Jinshu); the digital source prints the corrupt <span lang=\"zh-Hans\">任董叔</span> for <span lang=\"zh-Hans\">任堇叔</span>, emended here (ch23)."
+    },
+    "本佐次郎": {
+      "en": "Honsa Jiro",
+      "pinyin": "Benzuo Cilang",
+      "status": "provisional",
+      "note": "A Japanese merchant Mei Yingzi has the narrator take up with (ch25); <span lang=\"zh-Hans\">本佐次郎</span> given a tentative Japanese reading, the source offering no romanization."
+    },
+    "有田": {
+      "en": "Arita",
+      "pinyin": "Youtian",
+      "status": "decided",
+      "note": "A Japanese colonel (<span lang=\"zh-Hans\">有田大佐</span>, Colonel Arita) at whose Hongkou house the gambling of ch25 takes place; <span lang=\"zh-Hans\">有田</span> in its Japanese reading."
+    },
+    "武岛": {
+      "en": "Takeshima",
+      "pinyin": "Wudao",
+      "status": "decided",
+      "note": "A Japanese major general (<span lang=\"zh-Hans\">武岛少将</span>) in the ch25 gambling party; <span lang=\"zh-Hans\">武岛</span> in its Japanese reading."
+    },
+    "山尾": {
+      "en": "Yamao",
+      "pinyin": "Shanwei",
+      "status": "decided",
+      "note": "Surname of <span lang=\"zh-Hans\">山尾少佐</span>, Major Yamao, the officer who forces himself on Helen in ch25; rendered with the same surname form as Yamao Motohara, though the source does not make clear whether the two are the same man."
     }
   },
   "organizations": {
@@ -160,6 +202,12 @@
       "pinyin": "Guoli Yishuyuan",
       "status": "attested",
       "note": "Founded on the West Lake at Hangzhou in 1928 (first president Lin Fengmian); the source calls it simply <span lang=\"zh-Hans\">艺术院</span>. Rendered by its historical English name."
+    },
+    "福源钱庄": {
+      "en": "the Fuyuan native bank",
+      "pinyin": "Fuyuan qianzhuang",
+      "status": "provisional",
+      "note": "The traditional Chinese banking house (<span lang=\"zh-Hans\">钱庄</span>, native bank) on which Mei Yingzi's check is drawn in ch22; <span lang=\"zh-Hans\">福源</span> romanized as pinyin."
     }
   },
   "places": {
@@ -426,6 +474,48 @@
       "pinyin": "Zhongxi Liaoyangyuan",
       "status": "provisional",
       "note": "A Shanghai sanatorium (<span lang=\"zh-Hans\">中西</span>, &#8216;Chinese-Western&#8217;) the narrator suggests for Bai Ping&#8217;s convalescence; romanized here."
+    },
+    "大西路": {
+      "en": "Great Western Road",
+      "pinyin": "Daxi Lu",
+      "status": "attested",
+      "note": "A road running west out of the International Settlement (today part of Yan'an West Road); the Benner Inn stands off it (ch22)."
+    },
+    "哥伦比亚路": {
+      "en": "Columbia Road",
+      "pinyin": "Gelunbiya Lu",
+      "status": "attested",
+      "note": "A road in the western external-roads area of Shanghai (today Panyu Road); the Standford gambling-club lane opens off it (ch24)."
+    },
+    "施高塔路": {
+      "en": "Scott Road",
+      "pinyin": "Shigaota Lu",
+      "status": "attested",
+      "note": "A road in Hongkou (today Shanyin Road), in the Japanese quarter; Colonel Arita's requisitioned house is off it (ch25)."
+    },
+    "虹口": {
+      "en": "Hongkou",
+      "pinyin": "Hongkou",
+      "status": "attested",
+      "note": "The district north of Suzhou Creek that was the centre of Japanese Shanghai, where the occupying officers are billeted (ch25). Also romanized Hongkew."
+    },
+    "槟纳饭店": {
+      "en": "the Benner Inn",
+      "pinyin": "Binna fandian",
+      "status": "attested",
+      "note": "An English-style residential hotel off Great Western Road where Mei Yingzi lodges (ch22); the name Benner Inn is given in Latin letters in the source, on the porcelain lamp-shade and the brass plate."
+    },
+    "赛罗凡": {
+      "en": "the Sarofan",
+      "pinyin": "Sailuofan",
+      "status": "provisional",
+      "note": "A fashionable Shanghai restaurant or nightspot named in passing (ch22); <span lang=\"zh-Hans\">赛罗凡</span> transliterates a Western name not identified with certainty, rendered here by its sound."
+    },
+    "standford": {
+      "en": "the Standford",
+      "pinyin": "",
+      "status": "provisional",
+      "note": "A gambling-and-dancing club in a walled lane off Columbia Road, in fact a front for Mei Yingzi's espionage ring (ch24); the name appears in the source only in Latin letters on the neon sign, as <i>standford</i>."
     }
   },
   "terms": {

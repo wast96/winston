@@ -467,3 +467,125 @@ Flagged for the read-through (things to keep an eye on):
 - Provisional renderings a later attestation could sharpen: Miyama Toshimi
   (宫间登水), the Zhongxi Sanatorium (中西疗养院), Kolisa (寇莉莎). All other names
   reuse the fixed glossary forms.
+
+## Batch B05 (ch22 through ch25: Chapters 22 to 25) — DONE
+
+Scope: units ch22, ch23, ch24, ch25 (source 26_chapter24.txt through
+29_chapter27.txt; heads 二十二/二十三/二十四/二十五), ~18,788 source characters.
+The narrator visits Dr. Philip's clinic and is met by Mei Yingzi, who drives him
+to the Benner Inn and commissions his first mission: to steal a wax-sealed
+Japanese Navy Ministry document from Bai Ping's flat. He finds it inside a copy
+of Faust, takes it while pretending to court Bai Ping, quarrels with her, hands
+it to Mei Yingzi at the Standford gambling-club, gambles till dawn, and slips it
+back the next morning. He then sinks into Bai Ping's collaborationist social
+round; at a gambling night in Colonel Arita's requisitioned Hongkou house he and
+Bai Ping rescue Helen, now transformed and in the hands of Major Yamao.
+
+Deliverables:
+- out/ch22_reading.md (108 paras), ch23 (157), ch24 (153), ch25 (70); one clean
+  English paragraph per source paragraph, in the book's own first-person voice.
+- Bilingual QC files out/chNN_bilingual.md authored via scripts/_zip_bilingual.py
+  (source side copied VERBATIM from data/src, never re-typed) and split with
+  scripts/split_bilingual.py; parity source in data/zh/chNN.txt. Verbatim
+  parity confirmed by the whitespace-stripped char comparison of the joined '>'
+  blockquotes vs the joined source paragraphs (ch22 4422 | ch23 7454 |
+  ch24 5289 | ch25 5059 chars; all MATCH).
+- 7 new footnotes into notes.json (numbering continuous, assigned by the builder
+  in reading order). Book total now 50. New notes: Sai Jinhua, the Fuyuan native
+  bank, the Sarofan (ch22); the Shitao landscape, Ren Jinshu (ch23); Japanese
+  notes and national currency, Hongkou (ch25). ch24 adds no new footnote (its
+  references — the roulette den, the neon "Standford" — are self-explanatory and
+  the recurring cast/places are already noted at first appearance).
+- 15 new glossary rows in glossary.json (84 rows total). People: Sai Jinhua
+  (赛金花), Shitao (石涛), Ren Jinshu (任堇, emended from the source's 任董叔),
+  Honsa Jiro (本佐次郎, tentative), Arita (有田), Takeshima (武岛), Yamao (山尾,
+  the surname of Major Yamao 山尾少佐). Organizations: the Fuyuan native bank
+  (福源钱庄). Places: Great Western Road (大西路), Columbia Road (哥伦比亚路),
+  Scott Road (施高塔路), Hongkou (虹口), the Benner Inn (槟纳饭店), the Sarofan
+  (赛罗凡, unidentified), the Standford (the neon club off Columbia Road).
+- figures.json unchanged (no in-text figures in these chapters).
+- Cumulative EPUB rebuilt to "out/The Whistling Wind.epub" (26 of 60 chapters
+  translated; the other 34 still link to their skeleton outlines).
+
+Checks run and results:
+- check_numbers.py (with data/noise.txt) on every bilingual file: 0 unresolved
+  across all 4 units (488 pairs total). Fixes this batch:
+  (a) two real quantities rendered so they survive: 十来张桌子 = "about ten
+  tables" (was "a dozen" = 12, corrected to "ten"); 二十四开 = the 24-mo paper
+  size, written "a twenty-four-mo sheet" so the parser reads 24 (a hyphen-joined
+  "twenty-fourmo" parsed only to 20).
+  (b) data/noise.txt additions, each a NON-quantity numeral: 两[手膝] (两手 "both
+  hands", 两膝 "both knees"; 两 not a count), 连三接四 (idiom "one after another";
+  三/四 not counts), 零碎 ("odd/sundry tasks"; 零 not 0, cf. the existing 零星/
+  零落/零乱 entry).
+  (c) one idiom the built-in measure rule half-eats: 一次两次 ("time and again")
+  — the generic 一+measure pattern strips "一次" and orphans the 两, so rather
+  than mask a real "twice" globally with a noise line, the English was reworded
+  to carry the count ("taking care a time or two"). No script edit; verified 0
+  regressions on the prior chapters' checks.
+- check_structure.py (config scratch/b05_check.json over the 4 batch units):
+  paragraph parity OK on every unit (ch22 108 | ch23 157 | ch24 153 | ch25 70);
+  7 note anchors, 0 unresolved; heading shape uniform (1 distinct shape);
+  glossary drift 0 (variants guard: Bai Ping, Mei Yingzi, Ah Mei, Jessfield
+  Park, the Benner Inn, Great Western Road, Yamao, Dr. Philip).
+- qa_epub.py on the built EPUB: PASS (72 files, 66 documents, 50 note references /
+  50 bodies / 50 backlinks, all links resolve).
+- Blind double translation on the analytical/lyrical passages (ch23 the four
+  kinds of imagination; ch24 "life is the intoxication of gambling"; ch25 the
+  tiger-tamer / unfading-flower simile) and sampled on the plain narration: no
+  substantive divergence; the only judgement call is 说明的想像 rendered
+  "interpretive imagination" (vs "expository"), kept consistent.
+- Round-trip back-translation as an omission check on the long paragraphs
+  (ch23 the search of the flat and the finding of the document; ch24 the
+  remorse-and-return paragraph; ch25 Helen's tangled emotions and the
+  tiger-tamer paragraph): every source clause accounted for; no dropped
+  sentence or list-item.
+- Random deep audit (~4%, verbatim quote + double + back-translation): ch22
+  para on the envelope's description (二十四开报纸大小…火漆的印子), ch23 para on
+  drawing Faust from the shelf (…夹着的页码是八十三页…), ch25 para on the
+  robe-and-cap reasoning (山尾穿着人的衣裳…). Observed error rate 0 material
+  errors; one rendering polished after audit (衣冠 "robe and cap", not the
+  academic-sounding "cap and gown").
+
+Fact-checking (against Wikipedia / Baidu Baike / standard reference; no
+LLM-sourced references):
+- Sai Jinhua (赛金花, c. 1872–1936), the late-Qing courtesan linked in legend to
+  Field Marshal von Waldersee during the Boxer occupation of Beijing (1900).
+  Corroborated. "Bai Ping is a true Sai Jinhua" = a beauty who consorts with the
+  occupier, half collaborator, half secret protector.
+- Shitao (石涛, 1642–c. 1707), early-Qing monk-landscapist of the fallen Ming
+  house. Corroborated.
+- Shanghai roads: 大西路 = Great Western Road (today part of Yan'an West Road);
+  哥伦比亚路 = Columbia Road (today Panyu Road); 施高塔路 = Scott Road (today
+  Shanyin Road), in Hongkou. All corroborated.
+- 虹口 (Hongkou), the district north of Suzhou Creek that was the heart of
+  Japanese Shanghai, where the occupying officers are billeted. Corroborated.
+- Dual currency (ch25 "Japanese notes and national currency"): occupied Shanghai
+  ran several currencies at once — the Nationalist fabi (法币), Japanese military
+  notes, and later puppet-regime scrip. Corroborated in outline.
+
+Flagged for the read-through (things to keep an eye on):
+- Minor source digitization glitches rendered to plain meaning and NOT footnoted
+  (no genuine reading uncertainty): ch22 在字 for 名字 ("the name the nurse
+  called"); ch23 戒者 for 或者 ("or else"), 厨门 for 橱门 ("the wardrobe door"),
+  "在一封是日文的" for "有一封是日文的" ("one of them in Japanese"), 掷踢 for
+  踯躅 ("paced about the room"), 不造 for 不自然 ("my posture very awkward");
+  ch25 "同我内行" for "同我(内地)行" ("come inland with me").
+- Genuine reading/identification uncertainty IS footnoted, not smoothed: 任堇
+  (source prints the corrupt 任董叔; ch23), and 赛罗凡 "the Sarofan" (a Western
+  restaurant name not identified with certainty; ch22).
+- 山尾少佐 (Major Yamao, ch25) is rendered with the same surname form as the
+  earlier 山尾本原 "Yamao Motohara" (a colonel), but the source does not make
+  clear whether the two are the same man; noted in the glossary row, not
+  asserted in the prose.
+- Two-speakers-in-one-paragraph kept as single source paragraphs (parity): ch23
+  "Ah Mei smiled." + the narrator's question; ch23 her "Do you want anything?" +
+  the narrator's "No." No content added beyond the minimum.
+- Recurring subjects NOT re-noted (already noted at first appearance in
+  B01-B04): Stephen, Bai Ping, Mei Yingzi, Helen, Dr. Philip, the Paramount,
+  Jessfield Park, Route Prosper Paris, Avenue Joffre, Avenue Haig, Bubbling Well
+  Road, North Sichuan Road, the cheongsam, the narrator's name Xu. New footnotes
+  only for genuinely new material.
+- Provisional renderings a later attestation could sharpen: Honsa Jiro
+  (本佐次郎), the Sarofan (赛罗凡), the Standford (standford), the Fuyuan native
+  bank (福源钱庄). All other names reuse the fixed glossary forms.
