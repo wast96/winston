@@ -342,6 +342,18 @@
       "pinyin": "A-Yue",
       "status": "decided",
       "note": "Yang Mulian's wet-nurse (嬷嬷), her face ruined in the fire that destroyed the Yang house; she helps raise and hide the infant A-Chu."
+    },
+    "汤少": {
+      "en": "Young Tang",
+      "pinyin": "Tang shao",
+      "status": "decided",
+      "note": "Familiar form of address for the Tang son who spars with A-Chu in Chapters 14&#8211;15. The source names him inconsistently as 汤少礼 (Tang Shaoli) and 汤少棋 (Tang Shaoqi) within the same scene; we keep each verbatim where it stands and render the bare 汤少 as 'Young Tang.'"
+    },
+    "香严閒禅师": {
+      "en": "the Chan master Xiangyan Xian",
+      "pinyin": "Xiangyan Xian chanshi",
+      "status": "attested",
+      "note": "The Tang Chan monk to whom the novel ascribes the waterfall couplet A-Chu quotes in Chapter 15; the poem (瀑布联句) is more commonly attributed to Huangbo Xiyun with the future Emperor Xuanzong, Xiangyan being a competing ascription. See the note at Chapter 15."
     }
   },
   "organizations": {
@@ -500,6 +512,30 @@
       "pinyin": "Wanjia Denghuo",
       "status": "provisional",
       "note": "The eating-house where A-Chu stands host to Han Yu and Xia Yuechun; the name is the set phrase for a city aglow with a myriad household lamps."
+    },
+    "上海警察局": {
+      "en": "the Shanghai Police Bureau",
+      "pinyin": "Shanghai jingchaju",
+      "status": "decided",
+      "note": "Han Zhengqi is its deputy chief (副局长); addressed as Chief Han (韩局长)."
+    },
+    "龙华分局": {
+      "en": "the Longhua sub-bureau",
+      "pinyin": "Longhua fenju",
+      "status": "decided",
+      "note": "The Longhua district police sub-bureau of Shanghai, whose chief (an old army friend) brings Han Zhengqi into the police."
+    },
+    "青红帮": {
+      "en": "the Green and Red Gangs",
+      "pinyin": "Qing-Hong bang",
+      "status": "attested",
+      "note": "The Green Gang (青帮) and the Hong/Red Gang (洪帮), the great secret-society brotherhoods of Republican Shanghai; Young Tang names them as A-Chu's likely enemies after the hospital bombing."
+    },
+    "外务部": {
+      "en": "the Ministry of Foreign Affairs",
+      "pinyin": "Waiwubu",
+      "status": "decided",
+      "note": "The government office where A-Chu processes his papers to go abroad."
     }
   },
   "places": {
@@ -658,6 +694,24 @@
       "pinyin": "Jinling",
       "status": "attested",
       "note": "The classical name for Nanjing; the Yang family's home city in the sung account of their past."
+    },
+    "上海滩": {
+      "en": "the Shanghai Bund",
+      "pinyin": "Shanghai tan",
+      "status": "attested",
+      "note": "The Bund, by metonymy Shanghai itself as a world of money and power."
+    },
+    "长安": {
+      "en": "Chang'an",
+      "pinyin": "Chang'an",
+      "status": "attested",
+      "note": "The Tang capital (modern Xi'an), standing for the far-off imperial city in the tanci aria sung in Chapters 12 and 15."
+    },
+    "德国": {
+      "en": "Germany",
+      "pinyin": "Deguo",
+      "status": "attested",
+      "note": "Where the father's steel talisman was made; Yang Sitong's private physician is likewise a German doctor."
     }
   },
   "terms": {
@@ -762,6 +816,18 @@
       "pinyin": "sanxian",
       "status": "attested",
       "note": "A three-stringed long-necked lute that accompanies pingtan; the 小三弦 is its smaller form."
+    },
+    "姨奶奶": {
+      "en": "aunt-mistress",
+      "pinyin": "yi'nainai",
+      "status": "decided",
+      "note": "The household's form of address for a concubine; used by the servants and by Ronghua of the Third and Fourth Madams, and by Rong Chu of his dead mother."
+    },
+    "先生": {
+      "en": "Xiansheng",
+      "pinyin": "xiansheng",
+      "status": "decided",
+      "note": "As a society address: the honorific by which the Golden Dragon Society is to call its chief, which A-Chu imposes in place of the household's 'young master.' The same word is rendered 'Mr.' in ordinary use (e.g. Mr. Chu)."
     }
   }
 }

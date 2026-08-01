@@ -391,3 +391,104 @@ Flagged for the read-through:
 Build: out/On a Hair Trigger.epub rebuilt, 14 of 36 units translated, 42 notes.
 qa_epub.py PASS (36 documents, 2013 paragraphs, 42 references = 42 bodies = 42
 backlinks, all links resolve).
+
+## B05 = Chapters 14 to 15 (ch14 to ch15) — DONE
+
+Scope: ch14 (第十四章　去时血漫桃源路, 10786 chars, 260 paras), ch15 (第十五章　到底方
+知出处高, 9241 chars, 254 paras). ~20,027 source chars, 514 paragraphs total. This is
+the batch that turns the hinge of the whole book: A-Chu refuses the Fourth Madam's
+demand for blood and resolves to leave for Paris; the hospital bombing kills the
+Fourth Madam, Rongrong and the young nurse; A-Chu swears the blood oath and is
+reborn as the new chief of the Golden Dragon Society; then the funeral, Third
+Madam's collapse, Rong Chu's vigil, and the long confrontation with Han Zhengqi
+(whose account of the past contradicts the Fourth Madam's), closing on the paired
+waterfall poems on the two fans.
+
+Authoring flow (per CLAUDE.md): wrote out/<id>_en.txt one English paragraph per
+source paragraph, ran scripts/make_bilingual.py (verbatim `>` source lines) then
+scripts/split_bilingual.py. ch14 carries a mid-sentence source paragraph split
+(source lines 137/138, "阿初低着头，" then the reflective sentence beneath); the
+English is split at the matching point (ending "A-Chu bowed his head —") so both
+halves render as their own paragraph and parity holds. ch15 carries the recurring
+梨花落 aria across a mid-word source split (source lines 92/93, ending "纸儿、笔" /
+"儿、墨儿…"), split in English at "Paper, brush," / "ink and inkstone…"; the aria's
+wording was aligned to its Chapter 12 rendering (it is the same lyric). No
+pirate-site watermark line in either source.
+
+Checks run and results:
+- check_numbers.py --noise data/noise.txt: 0 unresolved on both units (ch14 260,
+  ch15 254 pairs) after the noise additions below. Clock times rendered so digits
+  survive ("three in the dead of night" 三点, "five in the small hours" 五点,
+  "four o'clock" 四点, "ten in the morning" 十点). Poem numerals kept literal
+  (thousand crags / ten thousand ravines 千岩万壑; a thousand fathoms 一落千丈).
+- check_structure.py --pairs: parity OK on both (260/260, 254/254).
+- Verbatim fidelity: diff of data/zh/<id>.txt (minus its ### title line) against
+  the source paragraphs (data/src minus 2 metadata lines) is IDENTICAL, 0 content
+  diffs, on both units.
+- Blind double translation (separate context) of five argumentative/lyrical
+  passages: the ch14 duckweed-and-lotus monologue, the ch14 rebirth coda, the
+  ch15 gambler metaphor, and both waterfall poems. The independent renderings
+  agreed in sense with the shipped text on all five; no divergence beyond word
+  choice, which confirms the source is not ambiguous at those points.
+- Round-trip back-translation (fresh context) of four passages (duckweed
+  monologue, Fourth Madam's rebuke, the tanci lyric, Han Zhengqi's three-roads
+  speech): no clauses dropped; every phrase, name and number reappeared.
+- Paranoid audit (~4%, 20 paragraphs spread across both chapters, full
+  verbatim-quote + meaning check): 20 pairs audited. One substantive finding,
+  fixed: ch14 para 20, 她要自己亲手除去这一对狗男女 — the reflexive 自己 is grammatically
+  bound to the Fourth Madam ("her own hand"), yet the plot requires A-Chu's hand;
+  reworded to "wiped out by his very hand" and the ambiguity footnoted rather than
+  smoothed. 切齿之恨 re-rendered "a hatred that made her grind her teeth" (the earlier
+  "set her teeth on edge" read as mere irritation). One minor, kept: ch14 para 218
+  "Her pulse is very weak" supplies an implied possessive English dialogue wants.
+  Observed residual error rate after fixes: 0.
+
+Noise additions (data/noise.txt), all non-quantity numerals: 凋零 (家业凋零, 零→0),
+飘零 (涕泪飘零, 零→0), 万难 (排除万难), 王老五 (钻石王老五, bachelor slang 五), 一来二去,
+三分薄面 (三分 = "a bit"), 四平八稳, 礼让三分 (三分 = "a measure"). No checker code
+change this batch. 百感交集 handled by rendering "a hundred feelings" so 100 is
+credited rather than noised.
+
+Notes: 7 footnotes, #43 to #49 (numbered by the builder in reading order).
+- ch14 (4): title 去时血漫桃源路 = Tao Yuanming 桃花源记 turned bloody (corroborated,
+  inversion the novelist's own); Mencius 独善其身/兼善天下 (corroborated); 割股疗亲 the
+  filial-thigh motif behind 割股之心 (corroborated as a traditional motif); the 自己
+  ambiguity at para 20 (flagged, not smoothed).
+- ch15 (3): title 到底方知出处高 = second line of A-Chu's reply poem, reworking the
+  Tang 瀑布联句 (Li Chen / a Chan monk; the source's Xiangyan ascription noted
+  against the commoner Huangbo attribution; distinguished from Du Xunhe 小松 at
+  Chapter 5); the second 情探 (王魁负桂英) lyric cross-referenced to the Chapter 12
+  note (the singer's self-slain-avenging-ghost fate now literally the Fourth
+  Madam's); 三刀六洞 the Jianghu blood-penance A-Chu waives for Han Zhengqi.
+The 梨花落 aria itself is NOT re-footnoted (its note is at Chapter 12, first
+appearance). Every anchor verified as a unique verbatim substring of the English
+prose with grep before building; XHTML bodies use numeric character references
+only, hanzi written literally.
+
+Glossary: 11 new rows, one decided rendering per referent. People: Young Tang
+(汤少; source names him inconsistently 汤少礼/汤少棋, kept verbatim), the Chan master
+Xiangyan Xian. Organizations: the Shanghai Police Bureau, the Longhua sub-bureau,
+the Green and Red Gangs (青红帮), the Ministry of Foreign Affairs. Places: the
+Shanghai Bund, Chang'an, Germany. Terms: aunt-mistress (姨奶奶), Xiansheng (先生 as
+the society's address for its chief; "Mr." in ordinary use). Recurring cast reused
+unchanged (A-Chu / Yang Muchu, the Fourth Madam / Yang Mulian, Rong Chu, Rong
+Sheng, Ronghua, Third Madam, First Madam, Han Zhengqi, Han Yu, Xia Yuechun, Tang
+Shaoli, He Yashu, Yang Sitong, Yang Yuhua, A-Fu, Hong'er, the Golden Dragon
+Society, the Tongji Hospital). The wet-nurse 嬷嬷/岳嬷嬷 rendered "the nurse" / "the
+nurse A-Yue" to match the decided 阿岳 = A-Yue.
+
+Figures: none in this batch.
+
+Flagged for the read-through:
+- 自己 at ch14 para 20 (above): rendered to the plot-sense "by his very hand" and
+  footnoted; the literal grammar would read "her own hand."
+- Han Zhengqi's account (ch15) deliberately contradicts the Fourth Madam's ch13
+  confession in its details (who saved the children, whether he was captured). The
+  translation preserves both versions straight; the novel means the discrepancy
+  to stand ("有人在说谎"), so nothing is reconciled.
+- 杨羽桦 (Yang Yuhua, the uncle) is the man A-Chu swears to kill in the blood oath;
+  杨羽柏 (Yang Yubo) remains the name shared by the dead father and the impostor.
+
+Build: out/On a Hair Trigger.epub rebuilt, 16 of 36 units translated, 49 notes.
+qa_epub.py PASS (36 documents, 2525 paragraphs, 49 references = 49 bodies = 49
+backlinks, all links resolve).

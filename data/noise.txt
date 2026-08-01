@@ -81,3 +81,20 @@
 万般
 # 三更 in 半夜三更 ("dead of night", third night-watch); idiom
 三更
+# --- B05 (ch14-ch15) additions ---
+# 凋零 in 家业凋零 ("the family fortunes withered"); 零 = 0, not a quantity
+凋零
+# 飘零 in 涕泪飘零 ("tears scattering down"); 零 = 0, not a quantity
+飘零
+# 万难 in 排除万难 ("clear away every obstacle"); 万 idiom, not 10000
+万难
+# 王老五 in 钻石王老五 ("diamond bachelor"); 五 lexicalized in bachelor slang
+王老五
+# 一来二去 ("with one thing leading to another"); 一/二 idiom, not counts
+一来二去
+# 三分薄面 ("a little face/respect"); 三分 idiom = "a bit", not the count 3
+三分薄面
+# 四平八稳 ("four-square and steady"); 四/八 idiom, not counts
+四平八稳
+# 礼让三分 ("yield a measure of deference"); 三分 idiom = "a measure", not 3
+礼让三分
