@@ -98,3 +98,29 @@
 四平八稳
 # 礼让三分 ("yield a measure of deference"); 三分 idiom = "a measure", not 3
 礼让三分
+# --- B06 (ch16) additions: non-quantity numerals flagged by check_numbers ---
+# 四肢 = "the (four) limbs" (四肢舒展); 四 lexicalized, not a count
+四肢
+# 百货 in 百货公司 = "department store" (hundred-goods company); 百 in the word
+百货
+# 危机四伏 = "danger lurking on every side"; 四 idiom, not 4
+危机四伏
+# 百玩不厌 = "never tires of playing it"; 百 idiom = "endlessly", not 100
+百玩不厌
+# 五体投地 = "prostrate in utter admiration"; 五体 idiom, not a count
+五体投地
+# 百川归海 = "all the rivers run to the sea"; 百 idiom, not 100
+百川归海
+# 金三角 = "golden triangle" (a financial figure of speech); 三 lexicalized
+金三角
+# 身价百倍 = "worth a hundredfold"; 百倍 figurative idiom, not the count 100
+身价百倍
+# 三硝基甲苯 = trinitrotoluene (TNT); the 三 (tri-) is part of the chemical name
+三硝基甲苯
+# TNT patter, vague magnitudes: 十万分之一(秒) = "one hundred-thousandth". The
+# built-in 万分 idiom rule strips the 万分 out of it first, leaving the residue
+# 十之一 (a stray 十=10); noise that residue. And the 万 left after 几十 is
+# stripped from 几十万个大气压 ("hundreds of thousands of atmospheres"). Both are
+# approximate, non-exact quantities in a bit of pop-science patter.
+十之一
+万个大气压

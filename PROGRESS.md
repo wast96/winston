@@ -492,3 +492,101 @@ Flagged for the read-through:
 Build: out/On a Hair Trigger.epub rebuilt, 16 of 36 units translated, 49 notes.
 qa_epub.py PASS (36 documents, 2525 paragraphs, 49 references = 49 bodies = 49
 backlinks, all links resolve).
+
+## B06 = Chapter 16 (ch16) — DONE
+
+Scope: ch16 (第十六章　山回路转又逢君, 11004 chars, 320 paras). The single largest
+chapter in the book, and the batch that introduces the spy-school twin as an active
+agent: Yang Muci and Xin Lili run their final "live-combat" graduation exercise,
+see through Du Luning's nested trap (the seduction-and-kill order in the Hangzhou
+hotel), and race the winding mountain road back to graduate; interleaved with
+A-Chu's Shanghai household (Young Tang tutoring Rong Chu; the dinner where A-Chu
+probes Han Zhengqi over the Japanese Dongyang Company and his son Han Yu; the TNT
+lab scene fixing the hospital bombing as military-grade), and closing on Ronghua's
+newspaper-signal contact in the French Park and the Milan Cafe, where Muci is
+welcomed "home" into the Communist network.
+
+Authoring flow (per CLAUDE.md): wrote out/ch16_en.txt one English paragraph per
+source paragraph, ran scripts/make_bilingual.py (320 pairs, verbatim `>` source
+lines) then scripts/split_bilingual.py. No mid-sentence source-paragraph split this
+chapter; each of the 320 source lines rendered as its own paragraph. No pirate-site
+watermark line in the source.
+
+Twin-name slip: the source prints 杨慕次 (Yang Muci) three times where the scene is
+plainly his brother 杨慕初 / 阿初 (Yang Muchu / A-Chu) — source lines 70 (garden), 165
+and 166 (dinner) — while Muci is away in Hangzhou sitting his exam. The names differ
+by one character (次 / 初). Rendered by context (Muchu / A-Chu) and flagged in a
+footnote rather than silently reconciled. The narration's 阿次 = A-Ci at line 301 is
+NOT a slip: it is Muci's own familiar name, set against 阿初 in the same scene.
+
+Checks run and results:
+- check_numbers.py --noise data/noise.txt: 0 unresolved (320 pairs). Clock times
+  rendered so digits survive ("two thirty" 两点半, "eleven twenty" 十一点二十分,
+  "twenty-four minutes past two" 二点二十四分, "two twenty-five" 二点二十五分, "around
+  three o'clock" 三点钟). Dates kept ("November 2nd" 11月2日 — the checker maps the
+  month name to 11; "March 20th/25th/26th, 1932"; "the 19th"). Rooms 26 and 15,
+  five hundred catties 五百斤, seven or eight hundred million fabi 七、八亿法币,
+  two thousand years 2000多年, the Eight-Nation Alliance 八国联军 all survive.
+- check_structure.py --pairs data/zh/ch16.txt out/ch16_reading.md: parity OK
+  (320/320). Verbatim fidelity: data/zh/ch16.txt (minus its ### title) diffed
+  against the source paragraphs (data/src minus 2 metadata lines) = zero content
+  diffs (only the source file's missing final newline).
+- Blind double translation on the argumentative/lyrical passages (the trap-
+  realization at para 138, the golden-triangle economics at para 179, the cliff-
+  climb lyric at paras 232/239/240, the god-of-love/god-of-death couplet at para
+  240) and round-trip back-translation on those four: no substantive divergence;
+  the source is not ambiguous in them, only dense. Paranoid audit ~4% (~13 paras,
+  incl. the two long Du Luning reasoning paragraphs at 138/247, the econ speech at
+  179, and the newspaper-notice paras 286-289): observed error rate 0 after the
+  drafting pass (no dropped clause, no invented sentence).
+
+Noise additions (data/noise.txt), all non-quantity numerals: 四肢 (four-limbs
+idiom), 百货 (百货公司 = department store), 危机四伏, 百玩不厌 (百 = "endlessly"),
+五体投地, 百川归海, 金三角 (financial figure), 身价百倍 (百倍 idiom), 三硝基甲苯
+(trinitrotoluene, the 三 = tri- prefix), and two TNT-patter magnitudes: 十之一 (the
+residue of the fraction 十万分之一 after the built-in 万分 rule strips it) and
+万个大气压 (the 万 left after 几十 is stripped from 几十万个大气压). No checker code
+change this batch.
+
+Notes: 5 footnotes, #50 to #54 (numbered by the builder in reading order).
+- #50 the twin-name slip (杨慕次 for 杨慕初 / 阿初), rendered by context and flagged.
+- #51 西厢记 (Wang Shifu) — Rong Chu's tanci line 则为他临去秋波那一转，风魔了张解元,
+  reworking Zhang Sheng's first-act aria (corroborated).
+- #52 the September 18th Incident / Mukden Incident of 1931 and the Three Eastern
+  Provinces (corroborated), fixing the chapter after autumn 1931.
+- #53 鲁迅 答客诮 — 怜子如何不丈夫, written 31 Dec 1932 in defense of a father's love
+  (corroborated); turned cold in A-Chu's mouth as he exploits Han Zhengqi's love
+  for Han Yu.
+- #54 title couplet 山回路转又逢君, inverting Cen Shen's 白雪歌送武判官归京 close
+  山回路转不见君，雪上空留马行处 (corroborated; a poem securely in the Tang canon);
+  "I see you no more" becomes "I meet you again," anchored to Ronghua's "Welcome
+  home." The chapter-title H2 itself carries no note ref (anchored in the prose).
+Every anchor verified as a unique verbatim substring of the English prose with
+grep -c before building; XHTML bodies use numeric character references only, hanzi
+written literally.
+
+Glossary: new rows, one decided rendering per referent; recurring cast reused
+unchanged (Yang Muci, Xin Lili, Yu Xiaojiang, Du Luning, Young Tang, Rong Chu,
+Yang Muchu / A-Chu, A-Ci, Xia Yuechun, Han Zhengqi, Han Yu, Ronghua, Rongrong, Lao
+Yu; code names Drifting Wind, Timely Rain, Mr. Lin Tan; Xiansheng). Organizations:
+the Dongyang Company (东洋公司), the Forest Skating Club, the Shanghai Current Affairs
+Daily (英文版《上海时事日报》), the Evening News, the Central Shanghai Garrison Command
+(沪中警备司令部, distinct from the Shanghai Garrison Command), the Detective Division
+(侦缉处), the White Rose (白玫瑰 ballroom), the Rose Ballroom (玫瑰舞厅). Places: the
+Crown Hotel (皇冠酒店), Yufo Temple Road, the Milan Cafe, the Rose Garden (玫瑰园 in
+the French Park), Feilai Peak, the Three Eastern Provinces. Terms: show-hand (沙蟹),
+fabi (法币), tanci (弹词), trinitrotoluene (三硝基甲苯, TNT).
+
+Figures: none in this batch.
+
+Flagged for the read-through:
+- Twin-name slip (above): 杨慕次 printed for 杨慕初 / 阿初 at source lines 70, 165, 166,
+  rendered by context and footnoted (#50). 阿次 = A-Ci at line 301 is genuine, not a
+  slip.
+- fabi (法币): the Nationalist legal-tender note was in fact introduced only in 1935;
+  the novel uses the term loosely for the chapter's early-1930s present. Rendered
+  straight, glossary note records the anachronism.
+
+Build: out/On a Hair Trigger.epub rebuilt, 17 of 36 units translated, 54 notes.
+qa_epub.py PASS (36 documents, 2844 paragraphs, 54 references = 54 bodies = 54
+backlinks, all links resolve).
