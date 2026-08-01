@@ -302,3 +302,88 @@ None in this chapter.
 - The two general check_numbers noise rules (tael 两; bare 万 not preceded by a
   numeral) are worth watching in later chapters in case they ever strip a real
   quantity; neither did here.
+
+## B04 = Chapter Four (ch04), 11,877 source chars
+
+Done end to end. Chapter Four is a self-contained set-piece: it leaves the
+Shanghai funeral entirely and follows Wu Sunfu's maternal uncle, the Shuangqiao
+"local emperor" Zeng Canghai, through one afternoon and evening that ends with a
+peasant-and-soldier uprising sacking the town, Zeng Canghai clubbed to death in
+the street, and his son Zeng Jiaju fleeing to rob and murder in a stranger's
+house. Register kept in the book's own novelistic voice (the source is plain,
+fast, brutal narration with heavy dialogue).
+
+### Pipeline run
+
+- Read the source from data/src/07_part0005.txt (title line 四 dropped, 205 body
+  paragraphs). Wrote the English one paragraph per line and zipped it against the
+  source body with a parity assertion before writing out/ch04_bilingual.md, so
+  paragraph parity is structural, not eyeballed.
+- split_bilingual.py -> out/ch04_reading.md (205 paras) and data/zh/ch04.txt.
+- check_numbers.py (with data/noise_zh.txt): 0 unresolved over 205 pairs.
+- check_structure.py --pairs: parity 205 | 205 OK.
+- build_reading_epub.py out/Midnight.epub, then qa_epub.py out/Midnight.epub:
+  PASS, 20 documents, 27 note references / 27 bodies / 27 backlinks, all links
+  resolve. Four chapters now link their content; the other sixteen still link
+  their skeleton outline.
+
+### check_numbers noise added (data/noise_zh.txt, ch04 block)
+
+Every one is a name or set phrase, never a dropped quantity:
+- 阿二 (the hired man "A Er", the digit 二 in the name), 七里桥 (the village
+  "Qiliqiao", 七), 陈老八 ("Chen the eighth", 八), 李四 (the peddler "Li Si", 四):
+  personal and place names read as counts.
+- 四顾 "to look about on every side" (四 not four); 十二分 "utterly" (twelve-tenths).
+- 一万二 = 12,000 with the 千 elided in speech; the checker sums it as 10002 and
+  cannot form 12000 from "twelve thousand" anyway, so it is whitelisted and the
+  sum rendered "twelve thousand".
+Two translations were adjusted rather than silenced, so a real numeral stays
+checkable: 一百块钱 rendered "one hundred dollars" (not "the hundred dollars",
+which the checker cannot parse), and 扭了两扭 rendered "gave her head a twist or
+two" to keep the count. The general 十万 = one hundred thousand sums (the remittance
+Fei presses for) are rendered "one hundred thousand" so the checker reads 100000.
+
+### Notes added
+
+- Translator footnotes (notes.json ch04): 6, builder-numbered 22-27, at anchors
+  "local emperor" (土皇帝, the rural despot), "Down with the local bullies and the
+  evil gentry" (打倒土豪劣绅, the peasant-movement slogan, with the Nationalist flag
+  it flies beside), "earth-peddler" (土贩, 土 = raw opium, with the earth/wealth
+  pun), "Three Principles of the People" (三民主义, Sun Yat-sen's creed, and the
+  "Premier"/总理 = Sun), "Sacred Edict of the old Qing days" (圣谕广训), and "Sun
+  Chuanfang" (孙传芳, the lower-Yangtze militarist). Historical content checked
+  against scholarship and corroborated.
+- No source endnote in this chapter (the nine author notes fall in ch01, ch02,
+  ch05, ch06, ch11); source_notes.json untouched.
+
+### Glossary rows added (one rendering per referent)
+
+- People: Zeng Jiaju (曾家驹, addressed A Ju), A Er (阿二), A Jin (阿金), Jinbao
+  (进宝), Fei Xiaosheng (费晓生, = Fei the little-moustache), Battalion Commander He
+  (何营长), Li Si (李四), pockmarked Wang (王麻子), Chen Laoba (陈老八), Sun Chuanfang
+  (孙传芳).
+- Places: Shuangqiao (双桥镇), Qiliqiao (七里桥), the Taibai Lou (太白楼).
+- Organizations: the Hongchang pawnshop (宏昌典当), the Jinhua foreign-goods store
+  (锦华洋货店), the Peasants' Association (农民协会).
+- Terms: 土皇帝 local emperor, 三民主义 the Three Principles of the People, 圣谕广训
+  the Sacred Edict, 保卫团 the militia, 省防军 the provincial garrison, 印子钱
+  seal-money, 公安分局 the Public Security sub-bureau, 曾剥皮 Zeng the Skinner, 党证
+  party membership certificate. Wu Sunfu, old Mr. Wu, Fei the little-moustache and
+  the existing cast reused unchanged.
+
+### Figures
+
+None in this chapter.
+
+### Read-through / open items
+
+- 家驹 / 家狗 pun (para 1): the son is named 家驹 "colt of the house" yet "not the
+  equal of a house-dog" (家狗). Rendered "a fine colt of the house ... not the
+  equal of a house-dog" to keep the colt/dog play, which also seeds 虎门无犬种
+  ("no tiger's gate breeds a cur") later.
+- 老爷 -> 你 (para 13) and 停火小桌子 (para 193): the servant A Er breaking custom to
+  call his master "you" is rendered literally with the narrator's gloss kept ("This
+  was no small matter"); 停火小桌子 is an obscure compound rendered neutrally as "the
+  little side-table before the bed", nothing invented.
+- 总理 rendered "the Premier" (Sun Yat-sen's party title), tied to Sun in the Three
+  Principles note rather than given its own row.

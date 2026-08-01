@@ -85,3 +85,19 @@
 # a 万 not immediately preceded by a numeral is not the quantity 10000 but idiom or
 # a stripper residue (e.g. 十多万 "a hundred-odd thousand" after 十多 is removed) (ch03)
 (?<![零一二两兩三四五六七八九十百千])万
+# --- Chapter Four additions ---
+# 阿二 the hired man's name "A Er"; 二 is not the count two (ch04)
+阿二
+# 七里桥 the village "Qiliqiao"; 七 is not the count seven (ch04)
+七里桥
+# 陈老八 "Chen Laoba" (Chen the eighth); 八 is not the count eight (ch04)
+陈老八
+# 李四 the earth-peddler's name "Li Si"; 四 is not the count four (ch04)
+李四
+# 四顾 "to look about on every side" (四 not the count four) (ch04)
+四顾
+# 十二分 "utterly / to the last degree" (twelve-tenths; not a count) (ch04)
+十二分
+# 一万二 = 12,000 (the 千 is elided in speech); the checker reads it as 10002, and
+# cannot form 12000 from "twelve thousand" anyway; rendered "twelve thousand" (ch04)
+一万二

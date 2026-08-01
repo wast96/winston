@@ -283,6 +283,66 @@
       "pinyin": "Li Gui",
       "status": "decided",
       "note": "A manservant of the Wu household; once a servant in the young mistress's own family, and counted of her party among the Wu servants."
+    },
+    "曾家驹": {
+      "en": "Zeng Jiaju",
+      "pinyin": "Zeng Jiaju",
+      "status": "decided",
+      "note": "Zeng Canghai's son, an ugly, wild-tempered youth of nineteen; addressed A Ju (阿驹). Newly enrolled in the Nationalist party, whose membership card he flaunts."
+    },
+    "阿二": {
+      "en": "A Er",
+      "pinyin": "A Er",
+      "status": "decided",
+      "note": "A long-hired labourer (长工) of the Zeng household, ten years in service; his name is literally 'Number Two.'"
+    },
+    "阿金": {
+      "en": "A Jin",
+      "pinyin": "A Jin",
+      "status": "decided",
+      "note": "Zeng Canghai's unofficial concubine (非正式的小老婆); her former husband, Jinbao, is among the peasant insurgents."
+    },
+    "进宝": {
+      "en": "Jinbao",
+      "pinyin": "Jinbao",
+      "status": "decided",
+      "note": "A Jin's former husband, now one of the armed peasants who storm the Zeng house."
+    },
+    "费晓生": {
+      "en": "Fei Xiaosheng",
+      "pinyin": "Fei Xiaosheng",
+      "status": "decided",
+      "note": "The personal name of Fei the little-moustache (费小胡子), Wu Sunfu's steward at Shuangqiao; addressed here Xiaosheng and Elder Cang's counterpart in the money quarrel."
+    },
+    "何营长": {
+      "en": "Battalion Commander He",
+      "pinyin": "He yingzhang",
+      "status": "decided",
+      "note": "Commander of the provincial garrison battalion quartered at Shuangqiao (何营长); his concubine flees the town on the eve of the raid."
+    },
+    "李四": {
+      "en": "Li Si",
+      "pinyin": "Li Si",
+      "status": "decided",
+      "note": "An opium-peddler (土贩) of Shuangqiao and a rising local power, once Zeng Canghai's familiar; his name is literally 'Number Four.' See the note on 'earth-peddler.'"
+    },
+    "王麻子": {
+      "en": "pockmarked Wang",
+      "pinyin": "Wang Mazi",
+      "status": "decided",
+      "note": "A Shuangqiao boatman (王麻子, 'Wang the pockmarked'), whose boat carries Commander He's concubine to safety."
+    },
+    "陈老八": {
+      "en": "Chen Laoba",
+      "pinyin": "Chen Laoba",
+      "status": "decided",
+      "note": "A committee-man of the Qiliqiao Peasants' Association (陈老八, 'Chen the eighth') who, Zeng Canghai complains, lends at usury himself."
+    },
+    "孙传芳": {
+      "en": "Sun Chuanfang",
+      "pinyin": "Sun Chuanfang",
+      "status": "attested",
+      "note": "The militarist (1885–1935) who ruled the lower Yangtze until the Northern Expedition of 1926–27; see the note at his name."
     }
   },
   "organizations": {
@@ -375,6 +435,24 @@
       "pinyin": "bao'an dui",
       "status": "decided",
       "note": "Provincial peace-preservation troops (保安队), called in to put down rural unrest."
+    },
+    "宏昌典当": {
+      "en": "the Hongchang pawnshop",
+      "pinyin": "Hongchang diandang",
+      "status": "decided",
+      "note": "宏昌典当 (shortened 宏昌当); a large pawnshop in Shuangqiao, stormed and set ablaze in the peasant raid."
+    },
+    "锦华洋货店": {
+      "en": "the Jinhua foreign-goods store",
+      "pinyin": "Jinhua yanghuo dian",
+      "status": "decided",
+      "note": "锦华洋货店; an emporium of imported goods on the main street of Shuangqiao, whose mistress Zeng Jiaju assaults."
+    },
+    "农民协会": {
+      "en": "the Peasants' Association",
+      "pinyin": "nongmin xiehui",
+      "status": "attested",
+      "note": "农民协会; the village peasant associations of the late-1920s revolution, through which the rural poor organized against landlords and usurers."
     }
   },
   "places": {
@@ -599,6 +677,24 @@
       "pinyin": "Beiping",
       "status": "attested",
       "note": "The name given to Beijing (北京) when the Nationalist government moved the capital to Nanjing in 1928; older English Peiping. Lei Ming names its capture in the northern campaign."
+    },
+    "双桥镇": {
+      "en": "Shuangqiao",
+      "pinyin": "Shuangqiao zhen",
+      "status": "provisional",
+      "note": "双桥镇; the market town some two hundred li by water from Shanghai that is Zeng Canghai's seat and the site of Wu Sunfu's country enterprises (an electric-power plant, a rice-mill, an oil-press). A fictional town."
+    },
+    "七里桥": {
+      "en": "Qiliqiao",
+      "pinyin": "Qiliqiao",
+      "status": "provisional",
+      "note": "七里桥; a village near Shuangqiao where the peasant uprising of this chapter begins."
+    },
+    "太白楼": {
+      "en": "the Taibai Lou",
+      "pinyin": "Taibai Lou",
+      "status": "decided",
+      "note": "太白楼酒馆; a tavern ('Li Bai's Tower') on the main street of Shuangqiao."
     }
   },
   "terms": {
@@ -793,6 +889,60 @@
       "pinyin": "donghui",
       "status": "decided",
       "note": "东汇; the exchange rate on Japan ('eastward' remittance). Its rise makes even duty-free Japanese dried cocoons dear for Wu Sunfu to import."
+    },
+    "土皇帝": {
+      "en": "local emperor",
+      "pinyin": "tu huangdi",
+      "status": "decided",
+      "note": "土皇帝; a rural despot who rules his district as a petty sovereign. See the note at first appearance."
+    },
+    "三民主义": {
+      "en": "the Three Principles of the People",
+      "pinyin": "Sanmin zhuyi",
+      "status": "attested",
+      "note": "三民主义; Sun Yat-sen's doctrine of nationalism, democracy, and the people's livelihood, made the Nationalist creed. See the note at first appearance."
+    },
+    "圣谕广训": {
+      "en": "the Sacred Edict",
+      "pinyin": "Shengyu Guangxun",
+      "status": "attested",
+      "note": "圣谕广训; the Qing 'Amplified Instructions on the Sacred Edict,' the imperial moral primer against which Zeng Canghai measures the new party scripture. See the note at first appearance."
+    },
+    "保卫团": {
+      "en": "the militia",
+      "pinyin": "baowei tuan",
+      "status": "decided",
+      "note": "保卫团; a town's own local defence corps, distinct from the regular provincial garrison (省防军)."
+    },
+    "省防军": {
+      "en": "the provincial garrison",
+      "pinyin": "sheng fangjun",
+      "status": "decided",
+      "note": "省防军; provincial defence troops, a battalion of them quartered in Shuangqiao and three months in arrears of pay."
+    },
+    "印子钱": {
+      "en": "seal-money",
+      "pinyin": "yinzi qian",
+      "status": "decided",
+      "note": "印子钱; money lent at ruinous interest and repaid in instalments stamped off on a tally-sheet — the usury by which Zeng Canghai and Chen Laoba bleed the country poor."
+    },
+    "公安分局": {
+      "en": "the Public Security sub-bureau",
+      "pinyin": "gong'an fenju",
+      "status": "attested",
+      "note": "公安分局; a local branch office of the Public Security Bureau (公安局)."
+    },
+    "曾剥皮": {
+      "en": "Zeng the Skinner",
+      "pinyin": "Zeng Bopi",
+      "status": "decided",
+      "note": "曾剥皮; the peasants' name for Zeng Canghai — 'Zeng who flays the skin' — for his usury and his seizing of their land."
+    },
+    "党证": {
+      "en": "party membership certificate",
+      "pinyin": "dangzheng",
+      "status": "decided",
+      "note": "党证 (党员证); the Nationalist party membership card Zeng Jiaju flourishes, and by which he means to squeeze money out of his father."
     }
   }
 }
