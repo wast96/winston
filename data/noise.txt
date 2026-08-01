@@ -58,3 +58,12 @@
 八拜
 \[\d+\]
 八字
+# B04 additions (see PROGRESS.md):
+# 一百两 (银子): the parser reads 两 (tael, the unit) as the numeral 2 and merges
+# it into 一百 -> 102; strip the whole phrase (the 100-tael quantity is carried in
+# the reading text as "one hundred taels").
+一百两
+# clock-time residue: the generic NOISE strips "一点" out of 十一点钟 (11 o'clock),
+# leaving a stray 十 read as 10. A single digit directly followed by 钟 only occurs
+# as this degenerate residue (real times read 四点钟 / 五分钟, with 点/分 before 钟).
+[一二两三四五六七八九十]钟

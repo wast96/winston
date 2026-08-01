@@ -140,11 +140,19 @@ def cn_to_int(token):
     return (total + section + digit) or None
 
 
+def _decomma(text):
+    """Drop thousands separators between digits so a grouped figure reads as one
+    number: '2,500,000' -> '2500000'. Without this, re.findall(r"\\d+") splits on
+    the commas and a large quantity is reported dropped when the translation kept
+    it (just written with separators)."""
+    return re.sub(r"(?<=\d),(?=\d)", "", text)
+
+
 def source_numbers(text, extra_noise=()):
     stripped = text
     for pat in list(NOISE) + list(extra_noise):
         stripped = re.sub(pat, "", stripped)
-    nums = set(int(n) for n in re.findall(r"\d+", stripped))
+    nums = set(int(n) for n in re.findall(r"\d+", _decomma(stripped)))
     for tok in re.findall(r"[零一二两兩三四五六七八九十百千万萬億]+", stripped):
         val = cn_to_int(tok)
         # A bare 一 is nearly always a measure word, not a quantity.
@@ -192,6 +200,7 @@ def spelled_numbers(low):
 
 
 def target_numbers(text):
+    text = _decomma(text)
     nums = set(int(n) for n in re.findall(r"\d+", text))
     low = text.lower()
     nums |= spelled_numbers(low)

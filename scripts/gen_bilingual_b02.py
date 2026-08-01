@@ -30,6 +30,9 @@ DROP = {
     "ch07": ("13_index-split-011.txt", {1, 2, 26, 27}),   # two end-of-chapter photo captions
     "ch08": ("14_index-split-012.txt", {1, 2}),           # no images/captions
     "ch09": ("15_index-split-013.txt", {1, 2, 15, 16}),   # Chen family photo caption + roster
+    # B04: both chapters have NO images, so only header(1) + title(2) drop.
+    "ch10": ("16_index-split-014.txt", {1, 2}),
+    "ch11": ("17_index-split-015.txt", {1, 2}),
 }
 # ch05 prepends the Part Two poem: file, 1-indexed lines to KEEP (title + 2 stanzas)
 POEM = {"ch05": ("10_index-split-008.txt", [3, 4, 5])}

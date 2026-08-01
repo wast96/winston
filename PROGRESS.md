@@ -336,3 +336,136 @@ photo's right-to-left roster folded into its caption).
 Build: out/The Autobiography of Huang Mulan.epub, 10 of 44 chapters translated
 (ch00-ch09), 30 notes. qa_epub.py PASS (75 files, 50 documents, all links
 resolve). ch22-ch38 remain pending skeleton pages, as commissioned.
+
+## B04 = ch10-ch11  (DONE)
+
+Scope translated: ch10 (Ch 10, Victory in the First Battle), ch11 (Ch 11, The
+"Wu Hao" Notices). 11,004 source chars. No part poem (Part Two runs ch05-ch12;
+Part Three opens at ch13). NEITHER chapter has any images, so figures.json is
+unchanged this batch.
+
+Method: same as B02/B03. English written to out/<id>_en.txt (one paragraph per
+line, first line = English title); scripts/gen_bilingual_b02.py DROP map extended
+with ch10/ch11 (each drops only header line 1 + title line 2 -- no captions). It
+reads the VERBATIM source from data/src/*.txt and asserts paragraph parity.
+
+Paragraph counts (source = translation): ch10 23, ch11 19. Parity held on the
+first generation for both.
+
+THE SOURCE'S OWN ENDNOTES. ch11 (伍豪启事) carries TWO editorial endnotes original
+to the source, [3] and [4], both linking forward (index_split_015 ->
+index_split_016) to a 【注释】 block. [3] (anchored at 陈志皋 in the quoted Li Yimang
+passage): "陈一向自己挂牌开业，并非巡捕房律师，李一氓记忆有误——作者注" -- an author's
+note correcting Li Yimang's calling Chen a 巡捕房 (Municipal Police) lawyer. [4]
+(anchored at the office-address line): "原文竖排，无标点，上文中的标点符号是李一氓同志
+标定的" -- the quoted 启事 was set vertically and unpunctuated in the 1932 paper;
+Li Yimang supplied the punctuation. Both rendered faithfully as the source's OWN
+notes, clearly attributed and distinct from the translator's notes (matching the
+B02 ch05 [1] and B03 ch08 [2] handling). data/noise.txt already strips the raw
+[3]/[4] markers via \[\d+\].
+
+Checks run and results:
+- check_numbers.py (with data/noise.txt): ch10/ch11 both 0 unresolved. Real
+  quantities carried; fixes made while clearing: 十万 -> "one hundred thousand"
+  (the ONES+"hundred thousand" path the parser sums); 两人 -> "the two of you";
+  百年恩来 -> "a hundred years since Enlai's birth"; 二字 -> "two-character byline";
+  三问两问 -> "two or three such questions"; 做七 -> "seven-day rites"; 守丧百日 ->
+  "a hundred days of mourning"; 伍豪等二百四十三人 corrected to "Wu Hao and others,
+  243 persons in all" (243 INCLUDING Wu Hao, per the blind double-translation --
+  not "Wu Hao and 243 others" = 244).
+- TWO machinery fixes were needed and made (both general, both help future
+  batches): (a) check_numbers.py now strips thousands separators between digits
+  (_decomma) so "2,500,000"/"50,000"/"100,000" read as one number instead of
+  splitting on the commas; (b) data/noise.txt gained `一百两` (the parser reads the
+  unit 两/tael as the numeral 2 and merges 一百两 -> 102; the 100-tael quantity is
+  carried in the reading text) and `[一二两三四五六七八九十]钟` (the generic NOISE
+  strips "一点" out of 十一点钟/11 o'clock, orphaning a stray 十 read as 10; a bare
+  digit directly before 钟 only occurs as that degenerate residue -- 四点钟/五分钟
+  keep 点/分 before 钟 and are unaffected).
+- check_structure.py parity: 23/19, both OK. Anchors: 39 notes total, 0 unresolved
+  (the full build refuses on any unmatched anchor).
+- Blind double-translation (check 2, fresh context): the Xiang Zhongfa deduction
+  (酒糟鼻子/九个手指头), He Chang's farewell speech, Zhou Enlai's "女诸葛" praise and
+  the Wu Hao drafting, and the classical 巴和/周少山 legal notice -- no material
+  divergence from this edition. It surfaced two footnote-worthy points, both
+  adopted: 电椅 in an interrogation = an electric-shock TORTURE chair (the prisoner
+  survives and confesses), not the execution device; and the 伍豪/周少山 double-alias
+  irony (both are Zhou Enlai). It also independently read 伍豪等二百四十三人 as 243
+  INCLUDING Wu Hao (the fix above).
+- Round-trip back-translation (check 3, ~4% deep audit): the Xiang Zhongfa night
+  raid / three-keys paragraph, the Chiang-at-Lushan execution paragraph, and the
+  Feb 1932 fake-notice paragraph. No omissions: every clause came back. It flagged
+  only the 243-count reading (fixed).
+- Fact-check against scholarship (check 7; Wikipedia zh/en, Baidu Baike, 人民网/周恩来
+  纪念网, 中央党史和文献研究院, 维基百科, 澎湃, etc.; a stray Grok/AI result would be
+  disregarded per rule 5). Verdicts:
+  * 伍豪 = Zhou Enlai's alias: CORROBORATED. Awakening Society founded Tianjin
+    16 Sept 1919; 20 members drew code names by lot from the numbers 1-50; Zhou
+    drew 5 (wu) -> 伍豪 (Deng Yingchao drew 1); later a pen name. Footnoted (ch11).
+  * 伍豪启事 affair: CORROBORATED. KMT planted the fake notice (243 people,
+    Feb 1932, in 时报/新闻报/申报/时事新报); Zhou had left Shanghai for Jiangxi in
+    early Dec 1931; the counter-notice (巴和 for 周少山) ran in 申报 on 4 Mar 1932;
+    the Gang of Four revived the forgery in the Cultural Revolution. Footnoted.
+  * Xiang Zhongfa: CORROBORATED. Ex-Wuhan dockworker, top leader from the 1928
+    Sixth Congress; arrested in the French Concession 22 June 1931 (after Gu
+    Shunzhang's April 1931 defection) and shot ~26 hours later, 24 June 1931.
+    Event footnoted (ch10); the person note is at ch06.
+  * Huang Mulan's role in the warning: the account was first PUBLICIZED in Deng
+    Rong's My Father Deng Xiaoping (1993) -- CORROBORATED as a published claim; but
+    the precise mechanism by which the Party learned of the defection is DISPUTED
+    among historians (several competing accounts). Footnoted as the memoir's own
+    account, with the dispute noted.
+  * Central Soviet stats (21 county towns / 50,000 sq km / 2.5M pop): CORROBORATED
+    specifically for late 1931 (post third counter-campaign, Gannan+Minxi merged);
+    the base later grew to ~84,000 sq km by 1933. Provisional Central Government
+    set up at Ruijin, First National Soviet Congress 7-20 Nov 1931. Footnoted so
+    the figures aren't read as the peak.
+  * Corroborated: Gu Shunzhang defection (April 1931, footnoted ch10); Dong Zhujun
+    (1900-1997, 《我的一个世纪》, Jinjiang founder, ex-wife of 夏之时/Xia Zhishi, a
+    Sichuan 都督); Xue Gengxin (1904-2008, French-Concession detective, later 上海
+    文史馆 researcher and memoirist); 法大马路 = Rue du Consulat (today 金陵东路);
+    徐汇公学 = the Jesuit Collège Saint-Ignace at Xujiahui.
+  * 巴和 (the French lawyer): the Chinese form 巴和 is attested but its FRENCH
+    original is NOT established in accessible scholarship; rendered "Baho" (the
+    transliteration Chinese sources use), status provisional, and NOT asserted as
+    "Barral" or any invented French spelling. Glossary row flags this.
+- Faithfully-rendered source slip flagged by the fact-check (kept visible, not
+  silently corrected): the memoir calls Guan Xiangying "deputy political commissar
+  of the Second Front Red Army" (红二方面军副政委); he was in fact the FULL commissar
+  of the 红二方面军 (the "deputy" title belongs to the earlier 红二军团). Left as the
+  author wrote it; not footnoted (a minor rank conflation).
+
+Notes: 9 added (ch10 3; ch11 6, of which 2 are the source's OWN endnotes), for 39
+total, renumbered 1-39 by the builder in reading order (ch10 = 31-33, ch11 =
+34-39). ch10: Gu Shunzhang's defection (his first appearance was ch09, un-noted;
+placed here as the hinge of the batch), the 电椅 torture-chair reading, the
+Xiang Zhongfa 22-24 June 1931 arrest/execution + the disputed warning. ch11: the
+伍豪/Wu Hao alias (Awakening Society lots), the Central Soviet late-1931 stats,
+the 伍豪启事 affair + CR revival, the source's [3] endnote (Chen not a 巡捕房 lawyer),
+the source's [4] endnote (Li Yimang repunctuated the quoted 启事), the 周公/Lord Zhou
+honorific (forward-links to the ch20 title 面谒周公).
+
+Glossary: ~47 rows added (people, orgs, places, terms). People incl. Cao Bingsheng,
+Xue Gengxin, Sun Xueying, Kang Sheng, Wang Zhen, Zhang Guotao, Liu Yazi, Li Yimang,
+Dong Zhujun, Xia Zhishi, Wu Mei, Wen Chongshi, Zhang Chengzong, Pang Jingzhou, Yu
+Tongfang, Chen Wenzhong, Chen Baozhang, Chen Yingu, Chen Shijun, Chen Shengnian,
+巴和/Baho (provisional, French original unverified), 周少山/Zhou Shaoshan (decided,
+a Zhou Enlai cover name). Orgs incl. Awakening Society, Central Special Branch, Red
+Flag Press, Metropole Hotel, Oriental Hotel, Shenjiang Hospital, Grand Theatre,
+Wing On, Johnson & Co. (祥生), Xuhui College (Collège Saint-Ignace), Jinjiang,
+Meilongzhen, Tongde Medical College, Sino-French College of Pharmacy, Nineteenth
+Route Army, Overseas Chinese Daily. Places incl. Xujiahui, Mount Lu, Ruijin,
+Dalian, Yan'an, Avenue Joffre, Rue du Consulat, Baxianqiao. Terms: 伍豪/Wu Hao,
+周公/Lord Zhou. Reused all prior decisions (Kuomintang, Sun Yat-sen, Chiang
+Kai-shek, Whampoa, Zhou Enlai, Chen Duxiu, He Chang, Chen Tanqiu, Rao Shushi, Guan
+Xiangying, Pan Hannian, Chen Geng, Chen Zhigao, Chen Qishou [styled Jieqing],
+Xiang Zhongfa, Gu Shunzhang, the author's three name rows, etc.).
+
+Figures: none (neither chapter carries an image). figures.json unchanged.
+
+Build: out/The Autobiography of Huang Mulan.epub, 12 of 44 chapters translated
+(ch00-ch11), 39 notes. qa_epub.py PASS (75 files, 50 documents, all links
+resolve). ch22-ch38 remain pending skeleton pages, as commissioned. Branch: work
+consolidated onto the single working branch claude/huang-mulan (the session opened
+on a stray branch claude/huang-mulan-b04-ch10-ch11-c05772, which carried no unique
+commits and was deleted, local + remote-tracking pruned), per CLAUDE.md rule 2.
