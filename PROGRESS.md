@@ -585,3 +585,138 @@ stays empty, matching ch01-ch04.
 - 主事 is rendered "recorder" (Recorder Xu Bin, Recorder Feng Dalun), consistent
   with ch01; 评事 is "Evaluator"; office renderings for 工部/虞部/大理寺/御史台/刑部/
   内侍省 follow Hucker.
+
+## B06 = ch06 (第六章 申初 / "The Hour of the Monkey, First Half, 3 p.m.")
+
+Scope: the whole chapter, 25,297 source characters, 431 paragraphs (the longest
+chapter to date). Xu Bin's ink-spill inspiration cracks the case: the Türk fuel
+was declared as "ink-stock," and the "rock-oil" (petroleum) hidden under the ink
+category is the Que-le Huo-duo's fuel. Zhang Xiaojing tracks it by scent-hound
+into desolate Changming Ward, buys off the beggar-chief Jia Shiqi, kills Cao
+Poyan at the disused kiln-depot, and survives the fierce-fire-thunder blast that
+destroys the warehouse. Li Bi commissions the watchtowers to Zhang (the jiajie
+device) and draws the Guangde-Huaiyuan death-line; the running cart-chase north
+burns two carts (one into a lantern-wheel), and Zhang rides the last cart of
+fierce-fire thunder through the West Market's gauge-gate and off the bank into
+the frozen Guangtong Canal, quelling fire with water. He survives at a stone
+sutra-pillar — only for Cui Qi to arrest him as the chapter closes.
+
+Deliverables shipped: out/ch06_bilingual.md (QC only, never ships),
+out/ch06_reading.md, data/zh/ch06.txt, notes.json (3 notes added, 28 total),
+glossary.json updated (new people/orgs/places/terms below), noise.txt extended,
+the rebuilt EPUB, and this log.
+
+### Checks run
+
+- check_numbers.py --noise noise.txt: 431 pairs, 0 unresolved. Three flagged
+  numerals were REAL quantities whose English had lost the value; the English was
+  fixed (not noised): 一百步 → "a hundred paces or so" (was "another hundred", which
+  the checker cannot read); 十来个 → "ten-odd" (was "a dozen or so", which loses the
+  10, per the house rule); 三面 → "on three sides—south, east, and west" (the count
+  was only implied). All other flags were NON-quantity numerals added to noise.txt,
+  each with its reason: 二十六六 (the watchtower rhyme-cipher "scroll 2/rhyme 16/char
+  6", which cn_to_int misreads as 26; the real 2/16/6 are separately present),
+  李十二 (the dancer Li Shi'er, a name), 贾十七 (the beggar-chief Jia Shiqi, a name,
+  recurring), 二来 (the "for one thing… for another" enumerator), 化整为零 (idiom, 零
+  ≠ 0), 两侧 ("at the sides", 两 absorbed), 两片 (a measure phrase merged in English),
+  百炼 (百炼钢刀 = "hundred-forged", idiom ≠ 100), 四溢 (热浪四溢 = "spread on every
+  side", the all-directions idiom), 万幸 (不幸中的万幸 = "the best of a bad business",
+  ≠ 10000). Every added pattern was hand-verified; a genuinely dropped number would
+  still fail. No WORD_NUM change needed.
+- check_structure.py --pairs: paragraph parity 431 source / 431 translation, OK.
+  The chapter opens with a flash-forward vignette of the kiln-duel (three extractor
+  lines that are one paragraph, merged to one pair; the same text recurs verbatim
+  at source line 175 when the duel arrives, and was translated identically both
+  times), then the dateline (source line + its lone full-stop line, merged) and the
+  location line "Chang'an; Chang'an County; Guangde Ward," then the body one-to-one;
+  colon-lead-in speech lines kept as the source has them; the per-chapter time-gloss
+  is the final pair. The source's content-file heading line "申初" is absorbed into
+  the H2 chapter title, as in ch01-ch05.
+- Anchor resolution: all 3 ch06 note anchors ("it is called rock-oil",
+  "Fierce-fire thunder", "commissioning the watchtowers") are verbatim substrings
+  of the reading text (verified by grep, each exactly once). Builder built and
+  qa_epub passed with all 28 notes.
+- Blind double translation (check 2): an independent context, with no sight of this
+  translation, rendered a literary sample (Zhang Xiaojing's "living Chang'an" speech
+  to Yao Runeng, ~2 paragraphs / ~230 chars). Result: highly convergent, no
+  omissions and no invented content; every beat present ("count for nothing", "the
+  living city the monster hasn't devoured", "feel myself alive", "the first to lose
+  their lives"). Divergences were equivalent word-choices within translator
+  discretion. No correction needed.
+- Round-trip back translation (check 3): a number-dense sample (the kiln-math
+  15/1/5/21/half; the West Market gauge-gate two entrances / 5 chi 3 cun ×2 / 4 chi;
+  the rhyme-code Kaiyuan-20 / scroll 2 rhyme 16 char 6, and the 5-cask / 15-cask
+  totals) was back-translated in a fresh context and diffed against the source.
+  Every numeral survived intact and no content was dropped.
+- qa_epub.py: PASS. 38 files, 32 documents, all links resolve; 28 note references,
+  28 bodies, 28 backlinks; numbering sequential in reading order.
+
+### Random-sample deep audit (check 8)
+
+The blind double-translation and back-translation samples together cover ~1.5% of
+this long chapter by character; the mechanical checks (100% of numerals via
+check_numbers, 100% of paragraphs via parity) carry the rest. Observed substantive
+omission/error rate on the audited spans: zero — no dropped clause, no invented
+sentence, no altered number or name.
+
+### Notes added (3; numbered by the builder in reading order, continuing from ch05)
+
+- "it is called rock-oil": 石脂 is petroleum/naphtha; the Yanzhou-petroleum-for-ink
+  detail is genuine history (Shen Kuo's 石油 and his petroleum-soot ink in the Dream
+  Pool Essays). Corroborated.
+- "Fierce-fire thunder": 猛火/猛火雷 as the novel's naphtha incendiary, the real Tang-
+  Song 猛火油 ("fierce-fire oil"), kin to Byzantine "Greek fire", described in the
+  Wujing Zongyao (1044). Corroborated; the bursting-jar "thunder" is authorial
+  extrapolation.
+- "commissioning the watchtowers": 假节 (jiajie, "bearing the tally"), the Han/Wei-
+  Jin delegation of imperial authority by conferred tally; the text's own gloss (jia
+  = lend, jie = authority) is faithful to the historical term.
+Recurring subjects whose FIRST appearance was in an earlier chapter were NOT
+re-noted: Wang Zhongsi (ch01), the Nine-Gate Drum (ch04), the Guangtong Canal
+(ch01), Qujiang Pool, the Sage, Que-le Huo-duo, the Lantern Festival, etc.
+
+### Glossary rows added
+
+People: Jia Shiqi, Aluoyue (provisional), Li Shi'er, Lady Gongsun (attested), Sun
+Mian (attested), Wen Wuji. Organizations: the Right Xiao Guard (attested), the
+Leopard Cavalry, the Sixteen Guards of the Southern Command (attested). Places: the
+Jinguang Gate (attested), Changming Ward, the King of Rinan's mansion, the Wild
+Goose Pagoda (attested), Shengdao/Anyi/Changxing/Chongren/Yong'an/Tonggui/Guiyi/
+Yanfu/Yongping/Chongxian/Changshou/Daixian/Jude/Qunxian Wards, the Puji Temple, the
+Tianjin Bridge (attested), the Longshou Canal (attested), the Qinling (attested),
+Luling (attested), Luoyang (attested), Jiuquan (attested), Yumen (attested). Terms:
+rock-oil (石脂), fierce-fire (猛火), fierce-fire thunder (猛火雷), Yan ink (延墨),
+fire-proof cloth (火浣布 / asbestos), dragon-sill (过龙槛), binding-cord (缚索), the
+Tang Rhymes (attested), lizard-skin drum, commissioning the watchtowers (假节望楼),
+stone sutra-pillar (石经幢), the Statutes of Ceremonial (attested). Every recurring
+referent already decided in ch01-ch05 (Zhang Xiaojing, Cao Poyan, Xu Bin, Li Bi,
+Yao Runeng, Cui Qi, Tanqi, Ma Ge'er, Wen Ran, Wang Yunxiu, Long Bo, Feng Dalun,
+Prince Yong; the Jing'an Bureau, the Lüben Guards; Guangde/Yanshou/Huaiyuan/
+Xiuzheng Wards, the West Market, the Guangtong Canal, the Qixia Gate, the Vermilion
+Bird Avenue; the Wolf Guards, the Nine-Gate Drum, Que-le Huo-duo, barrier-knife,
+pocket crossbow, smoke pellet, buliang chief/men, the Five-Faced Yama / "Zhang the
+Yama", "Deputy Director" for 司丞, "Commander Cui" for 崔旅帅, etc.) was reused
+verbatim, not re-romanized.
+
+### Figures
+
+None. The chapter has no content illustration in its source (only the book-wide
+footnote-marker glyph Image00004.jpg and the scene-break rule Image00005.jpg, which
+are not figures). figures.json stays empty, matching ch01-ch05.
+
+### Flagged for the read-through
+
+- The chapter opens with a flash-forward vignette of the Zhang/Cao kiln-duel (the
+  crossbow bolt beside Cao's foot, Zhang's roll to thirty paces off); the exact text
+  returns at source line 175 when the duel arrives, and both instances were
+  translated identically, per the ch04/ch05 precedent for such authorial echoes.
+- The source's per-chapter time-gloss ("下午3点。申，又名日铺、夕食等。（北京时间15时至
+  17时）") is captured as the final source paragraph and rendered as the source's own
+  italic note, per house style. (Note the source writes 日铺 for the usual 日晡,
+  late-afternoon; rendered as the source has it.)
+- 盂兰盆节放河灯 (source line 69): in Zhang's roll-call of Chang'an life he names the
+  Ullambana / Ghost Festival river-lanterns. This is NOT the recurring 中元-for-上元
+  slip (ch02): here the Ghost Festival is one of several seasons/festivals he lists
+  across the year, and is rendered faithfully as "the Ghost Festival."
+- Zhang's tattoo 断刀 ("broken blade") and his address to the dead 闻无忌 ("our
+  Eighth Company") plant backstory paid off later; rendered plainly, no note.

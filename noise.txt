@@ -130,3 +130,35 @@
 # ch05: 一了百了 = "death/one ending ends all" (idiom); the 百 is not the
 # quantity 100. English renders it "the end of all things."
 一了百了
+# ch06: watchtower rhyme-code string 二十六六 = "scroll 2, rhyme 16, char 6" (a
+# cipher, not the quantity 26); cn_to_int misreads it as 26. The real digits
+# 2/16/6 are separately present in 卷二第十六韵第六字 and its English gloss.
+二十六六
+# ch06: 李十二 = Li Shi'er, a dancing-girl's name ("the Twelfth"); the 十二 is part
+# of the name, not the quantity 12. English renders it "Li Shi'er."
+李十二
+# ch06: 贾十七 = Jia Shiqi, a beggar-chief's name ("Seventeen"); the 十七 is part of
+# the name, not the quantity 17. English renders it "Jia Shiqi." (Recurs often.)
+贾十七
+# ch06: 一来…二来… = "for one thing… for another" (list enumerator); the 二 in 二来
+# is not the quantity 2. Strip 二来 (一来's 一 is already dropped as bare 一).
+二来
+# ch06: 化整为零 = "break the whole into scattered parts" (idiom); the 零 is not the
+# quantity 0. English renders it "broke … up into small parties."
+化整为零
+# ch06: 两侧 = "at the sides / on both sides"; the 两 is absorbed (cf. 两头/两边 in
+# the built-in list), not the count 2. English renders it "at the sides."
+两侧
+# ch06: 两片(淡淡的红晕) = "a faint flush"; 两片 is a measure phrase merged in English
+# ("a faint flush rose in his cheeks"), not the count 2.
+两片
+# ch06: 百炼钢刀 = "hundred-forged steel blade"; 百炼 ("hundred-forged / tempered")
+# is an idiom, not the quantity 100. English keeps the idiom "hundred-forged."
+百炼
+# ch06: 热浪四溢 = "a wave of heat spread on every side"; 四溢 is the "all-directions"
+# idiom (cf. 四散/四射/四溅/四合 already listed), not the count 4.
+四溢
+# ch06: 不幸中的万幸 = "the best of a bad business" (idiom); 万幸 ("great good
+# fortune") is not the quantity 10000. English renders it "the best of a bad
+# business" / "the mercy in the mishap."
+万幸
