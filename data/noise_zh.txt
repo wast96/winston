@@ -101,3 +101,21 @@
 # 一万二 = 12,000 (the 千 is elided in speech); the checker reads it as 10002, and
 # cannot form 12000 from "twelve thousand" anyway; rendered "twelve thousand" (ch04)
 一万二
+# --- Chapter Five additions ---
+# 四射 in 霍霍四射 "darting on every side"; 四 is not the count four (ch05)
+四射
+# 一百五十万 = 1,500,000 (五百万 collected one-third); the checker cannot match the
+# spelled "one and a half million", and cannot sum a compound hundred-thousand (ch05)
+一百五十万
+# 十九日 the nineteenth, a date in the salary note's signature; rendered "the
+# nineteenth", an ordinal the checker's word-list does not carry (ch05)
+十九日
+# 一百二 -- residue of 一百二十分 "utterly/to the last degree" (intensifier, not the
+# count 120): the built-in 十分 stripper removes the 十分 and leaves 一百二 (=102) (ch05)
+一百二
+# 一万八千 = 18,000 bales of rayon; the checker cannot form 18000 from the spelled
+# "eighteen thousand" (teen+thousand is not in its table); rendered in words (ch05)
+一万八千
+# 九百八十 -- part of 九百八十余万 = over 9,800,000 dollars; the 余 breaks the token so
+# the built-in 万 stripper takes the 万 and leaves 九百八十 (=980); rendered in words (ch05)
+九百八十

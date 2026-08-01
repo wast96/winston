@@ -387,3 +387,94 @@ None in this chapter.
   little side-table before the bed", nothing invented.
 - 总理 rendered "the Premier" (Sun Yat-sen's party title), tied to Sun in the Three
   Principles note rather than given its own row.
+
+## B05 = Chapter Five (ch05), 13,394 source chars
+
+Done end to end. Chapter Five returns to the Wu house the day after Shuangqiao's
+fall: Wu Sunfu reads the news (a misread cold laugh nearly makes his wife confess
+her secret), then holds the founding meeting of the new financial combine with
+Tang Yunshan, Wang Hefu and Sun Jiren (five-million capital, the "rescue" of the
+weaker silk men, Sun Yat-sen's Great Eastern Port as public window-dressing over
+Sun Jiren's real trust-company plan), the long interview in which he breaks and
+then hires the cool young clerk Tu Weiyue, his lonely brooding on the unreliability
+of both old flunkeys and clever "communist-tainted" youth, and the closing scene
+where Fan Bowen's poem and pun needle him over the silk trade. Register kept in
+the book's own novelistic voice.
+
+### Pipeline run
+
+- Source read verbatim from data/src/08_part0006.txt (title line 五 dropped, 265
+  body paragraphs). English written one paragraph per line and zipped against the
+  source body with a parity assertion BEFORE writing out/ch05_bilingual.md, so
+  paragraph parity is structural.
+- split_bilingual.py -> out/ch05_reading.md (265 paras) and data/zh/ch05.txt.
+- check_numbers.py (with data/noise_zh.txt): 0 unresolved over 265 pairs.
+- check_structure.py --pairs: parity 265 | 265 OK.
+- build_reading_epub.py out/Midnight.epub, then qa_epub.py out/Midnight.epub:
+  PASS, 20 documents, 33 note references / 33 bodies / 33 backlinks, all links
+  resolve. Five chapters now link their content; the other fifteen still link
+  their skeleton outline.
+
+### check_numbers handling (no script changes this batch)
+
+- Three real counts were rendered rather than silenced, so the numeral stays
+  checkable: 吴王二人 / 王和甫，唐云山两位 / 吴王两位 all gained an explicit "two"
+  ("the two men, Wu and Wang", "the two, Wang Hefu and Tang Yunshan", "the two, Wu
+  and Wang") to carry 二人/两位 = 2.
+- New data/noise_zh.txt ch05 block, each a numeral that is idiom, an intensifier, a
+  date-ordinal, or a compound the checker cannot sum, never a dropped quantity
+  (verified by hand): 四射 (霍霍四射 "on every side"), 一百五十万 (1,500,000 = five
+  million's called-up third; the checker cannot match spelled "one and a half
+  million" nor sum a compound hundred-thousand), 十九日 (the date "the nineteenth"
+  in the salary note; an ordinal the checker's word-list lacks), 一百二 (residue of
+  一百二十分 "utterly displeased" after the built-in 十分 stripper eats the 十分),
+  一万八千 (18,000 bales of rayon; teen-thousand is not in the target table), and
+  九百八十 (part of 九百八十余万 = over 9,800,000 dollars; the 余 breaks the token so
+  the built-in 万-strip leaves 九百八十). 十万 (双桥镇's 100,000 people) rendered
+  "one hundred thousand" so the checker sums it, per the B04 habit.
+
+### Notes added
+
+- Translator footnotes (notes.json ch05): 6, builder-numbered 28-33, at anchors
+  "better a gap than a makeweight" (宁缺毋滥), "Fundamentals of National
+  Reconstruction" (建国方略, with the Great Eastern Port and Four Great Trunk Lines),
+  "Three Fairy Isles upon the sea" (海上三神山, the immortals' mirage-isles), "the
+  Lady of the West" (西子/苏堤, the West Lake poem), "a very clever pun" (Fan Bowen's
+  Mammon jibe aimed at Wu Sunfu himself), and "their sixth brother, Xueshi" (the
+  杜学诗 name-pun = "study poetry"). Historical/allusive content checked and
+  corroborated.
+- Source's own note: [4] added to source_notes.json under ch05 at the anchor
+  "Mammon", keeping the author's number 4 ("Mammon，财神" -> "Mammon: the god of
+  wealth"). Renders as a distinct teal [4] under "Notes in the Original Edition."
+
+### Glossary rows added (one rendering per referent)
+
+- People: Sun Yat-sen (孙中山/孙总理, "the late Premier Sun"), Li Hongzhang (李鸿章),
+  Zhang Zhidong (张之洞).
+- Places: Hangzhou (杭州), the Su Causeway (苏堤), the Lady of the West (西子, the
+  West Lake), the Great Eastern Port (东方大港).
+- Terms: 建国方略 the Fundamentals of National Reconstruction, 四大干路 the Four
+  Great Trunk Lines, 期丝 futures-silk, 米贴 rice-allowance, 赏工 merit-bonus, 信托公司
+  trust company, 公债套利 bond arbitrage, 工会 the union, 铜牌子 brass tally. The
+  existing cast (Wu Sunfu, Tang Yunshan, Wang Hefu, Sun Jiren, Du Zhuzhai, Zhu
+  Yinqiu, Chen Junyi, Zhou Zhongwei, Zhao Botao, Du Xueshi, Mo Gancheng, Tu Weiyue,
+  Wang Jinzhen, pockmarked Li, Ah Xuan, Lin Peishan/Peiyao, Fan Bowen, Fei the
+  little-moustache) reused unchanged.
+
+### Figures
+
+None in this chapter.
+
+### Read-through / open items
+
+- The poem (source paras 242-245) sits on four separate source lines, so it is four
+  paragraphs in the reading edition (one English line each) to hold paragraph
+  parity; verse formatting is not otherwise marked. Flag if the commissioner wants
+  the quatrain set as a single indented block.
+- 学诗 double meaning (para 261): Du Xueshi's given name literally "study poetry."
+  Wu, having just mocked Fan Bowen's verse, puns that "the study of poetry" will
+  amount to something. Rendered to keep the pun and footnoted.
+- 半成 (赏工加半成, paras 181/182/196) rendered "half a tithe" (half of one-tenth =
+  five per cent) with the 成 sense glossed in the 赏工 glossary row.
+- Ah Xuan kept as the glossary's fixed "Ah Xuan" (not "A Xuan") for consistency
+  with ch01-ch02.

@@ -343,6 +343,24 @@
       "pinyin": "Sun Chuanfang",
       "status": "attested",
       "note": "The militarist (1885–1935) who ruled the lower Yangtze until the Northern Expedition of 1926–27; see the note at his name."
+    },
+    "孙中山": {
+      "en": "Sun Yat-sen",
+      "pinyin": "Sun Zhongshan",
+      "status": "attested",
+      "note": "The founder of the Nationalist party, revered as 孙总理 (the Premier, zongli) and rendered here 'the late Premier Sun'; author of the Fundamentals of National Reconstruction that Tang Yunshan quotes."
+    },
+    "李鸿章": {
+      "en": "Li Hongzhang",
+      "pinyin": "Li Hongzhang",
+      "status": "attested",
+      "note": "李鸿章 (1823–1901); the late-Qing statesman who launched the self-strengthening state industries Wang Hefu cites as the beginning of Chinese industry."
+    },
+    "张之洞": {
+      "en": "Zhang Zhidong",
+      "pinyin": "Zhang Zhidong",
+      "status": "attested",
+      "note": "张之洞 (1837–1909); the late-Qing viceroy and industrial reformer, named beside Li Hongzhang as a founder of the old official enterprises."
     }
   },
   "organizations": {
@@ -695,6 +713,30 @@
       "pinyin": "Taibai Lou",
       "status": "decided",
       "note": "太白楼酒馆; a tavern ('Li Bai's Tower') on the main street of Shuangqiao."
+    },
+    "杭州": {
+      "en": "Hangzhou",
+      "pinyin": "Hangzhou",
+      "status": "attested",
+      "note": "杭州; the silk-weaving city on the West Lake; older English Hangchow."
+    },
+    "苏堤": {
+      "en": "the Su Causeway",
+      "pinyin": "Su Di",
+      "status": "attested",
+      "note": "苏堤; the willow-planted dyke across the West Lake, traditionally credited to the poet Su Shi. See the note in Fan Bowen's poem."
+    },
+    "西子": {
+      "en": "the Lady of the West",
+      "pinyin": "Xizi",
+      "status": "decided",
+      "note": "西子; the West Lake at Hangzhou, likened since Su Shi to the antique beauty Xi Shi. See the note at 'the Lady of the West.'"
+    },
+    "东方大港": {
+      "en": "the Great Eastern Port",
+      "pinyin": "Dongfang Dagang",
+      "status": "attested",
+      "note": "东方大港; the vast harbour near the Yangtze's mouth proposed in Sun Yat-sen's Fundamentals of National Reconstruction — still a paper vision in 1930."
     }
   },
   "terms": {
@@ -943,6 +985,60 @@
       "pinyin": "dangzheng",
       "status": "decided",
       "note": "党证 (党员证); the Nationalist party membership card Zeng Jiaju flourishes, and by which he means to squeeze money out of his father."
+    },
+    "建国方略": {
+      "en": "the Fundamentals of National Reconstruction",
+      "pinyin": "Jianguo fanglue",
+      "status": "attested",
+      "note": "建国方略; Sun Yat-sen's programme for China's development (1917–20), cited by Tang Yunshan for its Great Eastern Port and trunk-railway schemes. See the note at first appearance."
+    },
+    "四大干路": {
+      "en": "the Four Great Trunk Lines",
+      "pinyin": "si da ganlu",
+      "status": "decided",
+      "note": "四大干路; the national grid of trunk railways proposed in Sun Yat-sen's Fundamentals of National Reconstruction, named beside the Great Eastern Port."
+    },
+    "期丝": {
+      "en": "futures-silk",
+      "pinyin": "qisi",
+      "status": "decided",
+      "note": "期丝; filature silk sold forward for future delivery. Wu Sunfu has sold off a large quantity and must reel and deliver against it — which is what gives the women workers their leverage."
+    },
+    "米贴": {
+      "en": "rice-allowance",
+      "pinyin": "mitie",
+      "status": "decided",
+      "note": "米贴; a cost-of-living supplement pegged to the price of rice, the workers' central demand in the filature dispute."
+    },
+    "赏工": {
+      "en": "merit-bonus",
+      "pinyin": "shanggong",
+      "status": "decided",
+      "note": "赏工; a bonus paid on top of wages for good work. The union's counter-offer is to raise it 'by half a tithe' (加半成, half of one-tenth)."
+    },
+    "信托公司": {
+      "en": "trust company",
+      "pinyin": "xintuo gongsi",
+      "status": "decided",
+      "note": "信托公司; a trust-and-investment house. The ready-made one Sun Jiren finds becomes the vehicle the three industrialists seize control of, sparing them the wait for a bank charter."
+    },
+    "公债套利": {
+      "en": "bond arbitrage",
+      "pinyin": "gongzhai taoli",
+      "status": "decided",
+      "note": "公债套利; speculative trading of government bonds for profit, which Wu Sunfu counts among the new financial house's proper lines of business."
+    },
+    "工会": {
+      "en": "the union",
+      "pinyin": "gonghui",
+      "status": "decided",
+      "note": "工会; the factory's labour union, which Tu Weiyue dismisses as an 'empty signboard' and a 'paper tiger' — obeying the owner while pretending to speak for the workers."
+    },
+    "铜牌子": {
+      "en": "brass tally",
+      "pinyin": "tong paizi",
+      "status": "decided",
+      "note": "铜牌子; the numbered brass badge that marks a mill employee; to surrender it is to be dismissed, to receive it back is to be re-engaged."
     }
   }
 }
