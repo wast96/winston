@@ -56,3 +56,28 @@
 # 五、六十(平方) = "fifty or sixty (square meters)"; source abbreviates 五十、六十
 # as 五、六十, so the bare 五 stands for 50 (rendered "fifty"), not the count 5
 五、六十
+# --- B04 (ch11-13) additions: non-quantity numerals flagged by check_numbers ---
+# 万变 in 以不变应万变 ("meet all changes with changelessness"); 万 idiom, not 10000
+万变
+# 五彩缤纷 = "gaudy, many-coloured"; 五 idiom, not 5
+五彩缤纷
+# 四手 in 双拳难抵四手 ("two fists can't beat four hands" = outnumbered); idiom
+四手
+# 大千 in 大千世界 (Buddhist "the vast world"); 千 idiom, not 1000
+大千
+# 感激涕零 = "weep with gratitude"; 涕零 -> 零/0, an idiom not a count
+感激涕零
+# 万千 in 感慨万千 ("moved beyond measure"); 万+千 idiom
+万千
+# 三轮 in 三轮摩托车 (motor-tricycle, a vehicle name); the 'three' is lexicalized
+三轮
+# 万家灯火 = "Myriad Lamplights" (restaurant name here); 万 idiom, not 10000
+万家灯火
+# 万种 in 万种妖娆 ("a myriad charms"); 万 idiom, not 10000
+万种
+# 千百 in 千百次 ("hundreds and thousands of times"); 千+百 idiom
+千百
+# 万般 in 万般无奈 ("helplessness past all remedy"); 万 idiom, not 10000
+万般
+# 三更 in 半夜三更 ("dead of night", third night-watch); idiom
+三更

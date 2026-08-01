@@ -312,6 +312,36 @@
       "pinyin": "Tang jia",
       "status": "decided",
       "note": "The house of Tang Shaoli and Tang Shaoqi; would-be in-laws of the He family."
+    },
+    "杨慕莲": {
+      "en": "Yang Mulian",
+      "pinyin": "Yang Mulian",
+      "status": "decided",
+      "note": "Fourth Madam's true name, revealed in Chapter 13: elder sister of the twins Yang Muchu (A-Chu) and Yang Muci, and the architect of the twenty-year revenge. She married into the Rong house under a false identity to raise A-Chu in safety."
+    },
+    "杨羽桦": {
+      "en": "Yang Yuhua",
+      "pinyin": "Yang Yuhua",
+      "status": "decided",
+      "note": "The Yang family's second master (杨家二老爷), a concubine's son schooled in Japan; murders his elder brother Yang Yubo and, being alike in looks, takes over his identity, wealth and wife. The man now living as 'Yang Yubo' in the novel's present."
+    },
+    "徐玉真": {
+      "en": "Xu Yuzhen",
+      "pinyin": "Xu Yuzhen",
+      "status": "decided",
+      "note": "The eighteen-year-old palace maid bestowed on the elder Yang Yubo as a concubine (the 'aunt-mother'); Yang Yuhua's paramour and accomplice in the murder."
+    },
+    "韩正齐": {
+      "en": "Han Zhengqi",
+      "pinyin": "Han Zhengqi",
+      "status": "decided",
+      "note": "Yang Mulian's lover, a military man and member of the Golden Dragon Society, once a driver in the Yang house; saves her and the infant A-Chu on the night of the murder, then vanishes."
+    },
+    "阿岳": {
+      "en": "A-Yue",
+      "pinyin": "A-Yue",
+      "status": "decided",
+      "note": "Yang Mulian's wet-nurse (嬷嬷), her face ruined in the fire that destroyed the Yang house; she helps raise and hide the infant A-Chu."
     }
   },
   "organizations": {
@@ -446,6 +476,30 @@
       "pinyin": "Shanghai Jingbei Silingbu",
       "status": "attested",
       "note": "The Nationalist military garrison authority for the city, whose cars close on the newspaper offices minutes too late."
+    },
+    "金龙帮": {
+      "en": "the Golden Dragon Society",
+      "pinyin": "Jinlong Bang",
+      "status": "decided",
+      "note": "Also 金龙帮会; the old-Shanghai secret society led by Yang Mulian's maternal grandfather, wiped out by Japanese in the same season as the Yang murders. Its scattered remnants still answer to A-Chu as the Yang heir."
+    },
+    "第三共产国际": {
+      "en": "the Third Communist International",
+      "pinyin": "Disan Gongchan Guoji",
+      "status": "attested",
+      "note": "The Comintern (共产国际), founded by Lenin in 1919; Cong Feng is said to have joined it in the Soviet Union. See the note at Chapter 12."
+    },
+    "大光明电影院": {
+      "en": "the Grand Theatre",
+      "pinyin": "Daguangming Dianyingyuan",
+      "status": "attested",
+      "note": "大光明 ('great brightness'); a famous Shanghai cinema. Here only a passing reference (the girls touting at its door)."
+    },
+    "万家灯火": {
+      "en": "the Myriad Lamplights",
+      "pinyin": "Wanjia Denghuo",
+      "status": "provisional",
+      "note": "The eating-house where A-Chu stands host to Han Yu and Xia Yuechun; the name is the set phrase for a city aglow with a myriad household lamps."
     }
   },
   "places": {
@@ -586,6 +640,24 @@
       "pinyin": "Zuiju Xie",
       "status": "decided",
       "note": "Ronghua’s dwelling in the Rong mansion (榭, a waterside pavilion), where she hides the wounded Lao Yu."
+    },
+    "东方饭店": {
+      "en": "the Dongfang Hotel",
+      "pinyin": "Dongfang Fandian",
+      "status": "provisional",
+      "note": "The Shanghai hotel (东方, 'the East') where Fourth Madam stages the storytelling that opens A-Chu's origins to him; rendered by pinyin, since the source's 东方饭店 does not map cleanly onto any one attested Republican-era English hotel name."
+    },
+    "东方书场": {
+      "en": "the Dongfang storytelling house",
+      "pinyin": "Dongfang Shuchang",
+      "status": "provisional",
+      "note": "The storytelling hall (书场) within the Dongfang Hotel, where the tanci performance is given."
+    },
+    "金陵": {
+      "en": "Jinling",
+      "pinyin": "Jinling",
+      "status": "attested",
+      "note": "The classical name for Nanjing; the Yang family's home city in the sung account of their past."
     }
   },
   "terms": {
@@ -672,6 +744,24 @@
       "pinyin": "tongxin jie",
       "status": "decided",
       "note": "A looped love-token symbolizing joined hearts; the 同心 of the Chapter 10 title. See the note there."
+    },
+    "评弹": {
+      "en": "pingtan",
+      "pinyin": "pingtan",
+      "status": "attested",
+      "note": "Suzhou ballad-storytelling, chanted to the pipa and sanxian; Fourth Madam takes it up as a pretext, and its arias carry the plot in Chapters 12 and 13."
+    },
+    "琵琶": {
+      "en": "pipa",
+      "pinyin": "pipa",
+      "status": "attested",
+      "note": "The four-stringed plucked lute of Chinese music; Fourth Madam's instrument in the pingtan scenes, and the emblem of lament in the Chapter 13 title."
+    },
+    "三弦": {
+      "en": "sanxian",
+      "pinyin": "sanxian",
+      "status": "attested",
+      "note": "A three-stringed long-necked lute that accompanies pingtan; the 小三弦 is its smaller form."
     }
   }
 }

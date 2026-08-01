@@ -288,3 +288,106 @@ Flagged for the read-through:
 Build: out/On a Hair Trigger.epub rebuilt, 11 of 36 units translated, 32 notes.
 qa_epub.py PASS (36 documents, 1504 paragraphs, 32 references = 32 bodies = 32
 backlinks, all links resolve).
+
+## B04 = Chapters 11 to 13 (ch11 to ch13) — DONE
+
+Scope: ch11 (第十一章　平生际遇似萍飘, 7068 chars, 190 paras), ch12 (第十二章　何日
+归家洗客袍, 6880 chars, 204 paras), ch13 (第十三章　琵琶声泣血泪仇, 5037 chars, 118
+paras). ~18,985 source chars, 512 paragraphs total. This is the batch where the
+central secret breaks: the fortune-oracle at the Ciyun Temple, Yang Yubo's visit
+to A-Chu's clinic, the tanci at the Dongfang storytelling house, and Fourth
+Madam's confession revealing A-Chu as Yang Muchu and herself as Yang Mulian.
+
+Authoring flow (per CLAUDE.md): wrote out/<id>_en.txt one English paragraph per
+source paragraph, ran scripts/make_bilingual.py (verbatim `>` source lines) then
+scripts/split_bilingual.py. ch12 carries a mid-sentence source paragraph split
+(the 梨花落 aria, source lines 136/137, ending "纸儿、笔" / "儿、墨儿…"); the English
+was split at the matching point to keep parity, so both halves render as their
+own paragraph. No pirate-site watermark line in any of the three sources (the
+"阳光" hit in ch11 is the prose 你很阳光我很阴暗, not advertising).
+
+Checks run and results:
+- check_numbers.py --noise data/noise.txt: 0 unresolved on all three units
+  (ch11 190, ch12 204, ch13 118 pairs) after the additions below.
+- check_structure.py --pairs: parity OK on all three (190/204/118 both sides).
+- Verbatim fidelity: diff of data/zh/<id>.txt (minus its ### title line) against
+  the source paragraphs (data/src minus 2 metadata lines) is IDENTICAL, 0 content
+  diffs, on all three units.
+- Blind double translation (separate context) of the lyrical/argumentative
+  passages: the ch11 oracle quatrain and Rong Sheng's break-off speech, the ch12
+  tanci opening antiphon, and Fourth Madam's ch13 pipa lament. The independent
+  renderings agreed in sense; the only divergences were stylistic (1st- vs
+  3rd-person in the pronoun-less oracle poem) and one the blind pass got wrong
+  that ours got right (it romanized 杨羽柏 as "Yang Yubai"; ours keeps the glossary
+  form Yang Yubo).
+- Round-trip back-translation (English to Chinese, fresh context) of four prose
+  passages from ch12–ch13 (the red-capped-merchant origin, Fourth Madam's "all
+  the truth" speech, the impersonation, the bribe-and-integrity exchange): every
+  element survived; no omissions detected.
+- Paranoid audit: the ~15 paragraphs above given full treatment (verbatim-quote
+  diff, double translation, back-translation) ≈ 3% of the batch; observed
+  residual error rate 0. The one genuine mistranslation found in the whole batch
+  (ch12 pair 50, 二小姐 rendered "sir" instead of "second young lady") was caught
+  by check_numbers [2] and fixed before build.
+
+data/noise.txt additions (non-quantity numerals flagged and confirmed): 万变
+(以不变应万变), 五彩缤纷, 四手 (双拳难抵四手), 大千 (大千世界), 感激涕零 (涕零→0),
+万千 (感慨万千), 三轮 (三轮摩托车, vehicle name), 万家灯火 (restaurant name), 万种
+(万种妖娆), 千百 (千百次), 万般 (万般无奈), 三更 (半夜三更). No checker code change
+this batch. 小三弦 rendered "three-stringed sanxian" so the 三 is credited rather
+than noised (matches ch12's "little three-stringed sanxian").
+
+Notes: 10 footnotes, #33 to #42.
+- ch11 (4): title 平生际遇似萍飘 = opening line of the in-novel oracle quatrain
+  (duckweed topos, cf. Wen Tianxiang 过零丁洋; not a single-poem quotation);
+  灋/廌 the xiezhi and the Shuowen gloss of the law-graph (corroborated); Pushkin's
+  1829 lyric "Whether I Wander Along Noisy Streets" (corroborated); Su Shi 题西林壁
+  "the true face of Mount Lu" (variant 只因 for 只缘; corroborated).
+- ch12 (3): title 何日归家洗客袍 = direct line from Jiang Jie 一剪梅·舟过吴江
+  (corroborated); the 梨花落 aria = Jiao Guiying's ghost-lament from 情探 (王魁负桂英),
+  which is why A-Chu calls it "ghost-talk"; the Third Communist International /
+  Comintern (corroborated).
+- ch13 (3): title 琵琶声泣血泪仇 = allusion to Bai Juyi 琵琶行 (pipa-as-lament, not a
+  direct quotation); Ximen Qing and Pan Jinlian (水浒/金瓶梅, fiction); the
+  "red-capped merchant" (红顶商人, cf. Hu Xueyan; corroborated).
+Every anchor verified as a unique verbatim substring of the English prose with
+grep -c before building; XHTML bodies use numeric character references only,
+hanzi written literally.
+
+Glossary: 15 new rows, one decided rendering per referent. People: Yang Mulian
+(Fourth Madam's true name), Yang Yuhua (the murderous uncle), Xu Yuzhen (the
+concubine), Han Zhengqi (Yang Mulian's lover), A-Yue (the wet-nurse).
+Organizations: the Golden Dragon Society, the Third Communist International, the
+Grand Theatre, the Myriad Lamplights. Places: the Dongfang Hotel, the Dongfang
+storytelling house, Jinling. Terms: pingtan, pipa, sanxian. 东方饭店 is rendered
+by pinyin ("Dongfang Hotel", provisional) rather than as any named Republican
+hotel: it does not map cleanly onto the Metropole (新城饭店), the Great Eastern
+(大东旅社) or the East Asia (东亚旅馆), so a specific English hotel name would be a
+false real-world claim. Recurring cast reused unchanged (A-Chu, Rong Sheng,
+Ronghua, Fourth Madam, He Yashu, Lao Yu, Han Yu, Cong Feng, Cong Hui, Xia
+Yuechun, Jiang Lishui, A-Fu, Yang Yubo, Yang Muci, Yang Muchu, A-Ci, Hong'er,
+Xing'er, Chan'er, the Tongji Hospital, the Special Branch). Jiao Guiying,
+Ximen Qing, Pan Jinlian, Hu Xueyan handled in notes, not the glossary (as with
+the Dream of the Red Chamber figures in earlier batches).
+
+Figures: none in this batch.
+
+Flagged for the read-through:
+- The novel's own naming: 荣初 (Rong Chu) is now shown in person as Fourth Madam's
+  actual son, a tanci performer, used to lure A-Chu; the glossary row is unchanged
+  (same referent). A-Chu's real name 杨慕初 (Yang Muchu) pairs with 杨慕次 (Yang
+  Muci) and echoes 荣初/阿初, the book's central doubling.
+- 杨羽柏 "Yang Yubo" now names two men: the murdered father, and the uncle Yang
+  Yuhua living under the dead man's name (the "Yang Yubo" of A-Chu's clinic). The
+  source uses the one name for both; the translation keeps that, since the
+  collision is the point (A-Chu's shock at the spirit-tablet).
+- Pope's "To err is human, to forgive divine" (ch11): the source gives Pope's
+  English line run together, then a Chinese gloss of it; rendered as the quotation
+  plus the inline attribution "a line from the poet Pope" (the Chinese gloss is
+  Pope's own line restated, so re-translating it into English would be redundant).
+- 灋 caption line (ch11 source line 155, "灋古体的'法'字"): rendered as a standalone
+  gloss line keeping both glyphs, "灋—the ancient form of the character 法, 'law.'"
+
+Build: out/On a Hair Trigger.epub rebuilt, 14 of 36 units translated, 42 notes.
+qa_epub.py PASS (36 documents, 2013 paragraphs, 42 references = 42 bodies = 42
+backlinks, all links resolve).
