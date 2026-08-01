@@ -589,3 +589,140 @@ Flagged for the read-through (things to keep an eye on):
 - Provisional renderings a later attestation could sharpen: Honsa Jiro
   (本佐次郎), the Sarofan (赛罗凡), the Standford (standford), the Fuyuan native
   bank (福源钱庄). All other names reuse the fixed glossary forms.
+
+## Batch B06 (ch26 through ch31: Chapters 26 to 31) — DONE
+
+Scope: units ch26, ch27, ch28, ch29, ch30, ch31 (source 30_chapter28.txt through
+35_chapter33.txt; heads 二十六..三十一), ~20,716 source characters. The night drive
+home from Colonel Arita's, Helen's questioning at Bai Ping's flat about the Hailin
+radio job, and the narrator's move into hiding on Weihaiwei Road under the alias
+Chen Ji; Mei Yingzi's rose-bearing visit and the long argument over her using the
+innocent Helen ("for victory"); the transformed Manfield household and Helen's wish
+to quit; Stephen's release on bail and his death at the Gaolang Hospital, and the
+narrator's realization that "Stephen and his wife" were never truly married but a
+work-cover; the funeral at the International Cemetery and Helen's dawn vigil, her
+shame and return to her natural self (giving up the social round and her post); Mei
+Yingzi's fury at losing Helen and the reconciliation, and Helen's refusal then
+consent to attend Rear Admiral Umetake's Christmas party "for you"; and Mei Yingzi's
+strange night out (the Yuanyutai tavern, a dance hall behind the Great World) with
+its premonition of tomorrow's dangerous mission and the tenths-odds exchange.
+
+Deliverables:
+- out/ch26_reading.md (141 paras), ch27 (111), ch28 (77), ch29 (89), ch30 (109),
+  ch31 (96); one clean English paragraph per source paragraph, in the book's own
+  first-person voice. ch30 carries the source's lone "──" divider as a lone "—".
+- Bilingual QC files out/chNN_bilingual.md authored via scripts/_zip_bilingual.py
+  (source side copied VERBATIM from data/src, never re-typed) and split with
+  scripts/split_bilingual.py; parity source in data/zh/chNN.txt. Verbatim parity
+  confirmed by the whitespace-stripped char comparison of the joined '>' blockquotes
+  vs the joined source paragraphs (ch26 5242 | ch27 4032 | ch28 3760 | ch29 4003 |
+  ch30 3834 | ch31 3677 chars; all MATCH).
+- 6 new footnotes into notes.json (numbering continuous, assigned by the builder in
+  reading order). Book total now 56. New notes: the Hailin Broadcasting Station and
+  the alias Chen Ji (ch26); the International Cemetery and Isadora Duncan (ch29); the
+  proverb "true gold fears no fire" (ch30); the Great World (ch31). ch27 and ch28 add
+  no new footnote (their references are the already-noted recurring cast and places).
+- 16 new glossary rows in glossary.json (100 rows total). People: Nomura (野村),
+  Umetake (梅武少将, Rear Admiral; tentative Japanese reading), Chen Ji (陈寂, the
+  narrator's alias), Dr. Gaolang (高朗). Organizations: the Hailin Broadcasting
+  Station (海邻广播电台). Places: Weihaiwei Road (威海卫路), the Racecourse (跑马厅),
+  the International Cemetery (万国公墓), Jing'an Temple (静安寺), Malang Road (马浪路),
+  Beiping (北平), the Huimei Hotel (汇美饭店), Gaoye Road (高叶路), the Gaolang
+  Hospital (高朗医院), the Yuanyutai (源裕泰), the Great World (大世界).
+- figures.json unchanged (no in-text figures in these chapters).
+- Cumulative EPUB rebuilt to "out/The Whistling Wind.epub" (32 of 60 chapters
+  translated; the other 28 still link to their skeleton outlines).
+
+Checks run and results:
+- check_numbers.py (with data/noise.txt) on every bilingual file: 0 unresolved
+  across all 6 units (623 pairs total). Fixes this batch:
+  (a) one principled check_numbers.py NOISE addition (NOT a script hack), in the same
+  class B01-B04 documented (a greedy short pattern eating a compound): the built-in
+  r"[十几幾]多" ate the "十多" out of 五十多 ("fifty-odd") and orphaned a 五 read as 5
+  (ch28, 五十多岁 "a pastor of fifty-odd"). Added r"[一二三四五六七八九]十多" at the TOP
+  block, mirroring the existing 四十几 line; an approximate tens is not a money/count/
+  year quantity, so stripping it whole is safe. Verified no collision: grep of all
+  prior parity (ch00-ch25) shows no [数]十多 token, so no regression.
+  (b) data/noise.txt additions, each a NON-quantity numeral or reduplicated idiom:
+  万物 ("all things"; 万 not 10000, ch29), 两两三三 ("in twos and threes"; not counts,
+  ch26), 畸零 ("odd/isolated"; 零 not 0, ch26 畸零而落寞的人), 万国 (万国公墓 "Cemetery
+  of All Nations"; 万 not 10000, ch29).
+  (c) one prose fix rather than a global mask: ch29 "只有在你我两人的时候" (两人 = 2)
+  reworded to "Only when it is just the two of us" so the count survives. The tenths
+  odds in ch31 (十分之十/十分之三/十分之六/十分之七/十分之九) are stripped by the
+  built-in fraction pattern and rendered faithfully in the prose ("ten in ten",
+  "three in ten", etc.); the check does not re-verify fractions, as before.
+- check_structure.py (config scratch/b06_check.json over all 32 translated units
+  ch00-ch31): paragraph parity OK on every unit (ch26 141 | ch27 111 | ch28 77 |
+  ch29 89 | ch30 109 | ch31 96); 56 note anchors, 0 unresolved; heading shape uniform
+  (1 distinct shape); glossary drift 0 (variants guard: Mei Yingzi, Bai Ping,
+  cheongsam, Mrs. Stephen, Mrs. Manfield, Ah Mei, Jessfield Park, Scott Road, the
+  Benner Inn, the Great World, the Racecourse, Chen Ji, the International Cemetery).
+- qa_epub.py on the built EPUB: PASS (72 files, 66 documents, 56 note references /
+  56 bodies / 56 backlinks, all links resolve).
+- Blind double translation (separate context, source only) of the analytical/lyrical
+  passages — Mei Yingzi's "for victory" sacrifice speech and the demon/graveyard
+  vision (ch26); the remembered-song passage (ch27); the smile-and-film exchange and
+  the Madonna/cherubs reflection (ch29); the tenths-odds and "only by dying now"
+  exchange (ch31) — all converged with the shipped translation; no divergence
+  pointing to an unresolved ambiguity (independent readings of 毒菌 "poison-toadstools/
+  fungi", 圣画里玛丽亚 "the Madonna in sacred paintings", and the tenths odds matched).
+- Round-trip back-translation (separate context, omission check): Stephen's deathbed
+  description and the "smoke-screen" realization (ch28), the welling-feeling
+  reconciliation paragraph (ch30), and the "true gold fears no fire" exchange (ch30)
+  mapped one-to-one onto the source — no English content absent from the source (no
+  inventions), no source content dropped.
+- Random deep audit (~4%, the eight double-/back-translation passages plus a manual
+  clause-by-clause audit of the long ch28 reasoning paragraph, 我从这银色的房中出来…):
+  observed substantive error rate 0 (no mistranslations or omissions); the only
+  source-level problems were the digitization glitches below, each rendered to sense.
+
+Fact-checking (against Wikipedia / Baidu Baike / Britannica / Historic Shanghai /
+concession road histories / RadioHeritage; no LLM-sourced references — a Grokipedia
+hit that surfaced in one search was explicitly discarded):
+- 万国公墓 (the International Cemetery): the Shanghai "Cemetery of All Nations," open to
+  Chinese and foreigners alike, founded 1909 on Hongqiao Road in the western outskirts
+  (part later became the Soong Ching-ling Mausoleum). Corroborated; "the International
+  Cemetery" is the conventional English name.
+- 跑马厅 (the Racecourse): the Shanghai Race Club's course opened 1862 in the middle of
+  the International Settlement, on the site of today's People's Square / People's Park;
+  racing ran to 1949. Corroborated.
+- 威海卫路 (Weihaiwei Road): built 1913 in the International Settlement; shortened to
+  威海路 (Weihai Road) only in the 1960s, so 威海卫路 is correct for the 1943 setting.
+  Corroborated.
+- 大世界 (the Great World): the many-storeyed amusement palace opened 14 July 1917 by
+  Huang Chujiu at the French-Concession edge (Avenue Edward VII / Yu Ya Ching Road),
+  famous for its distorting mirrors. Corroborated; "the Great World" standard.
+- 马浪路 (Malang Road): officially the Rue Brenier de Montmorand (named 1906 for the
+  French consul-general Brenier; today Madang Road), universally shortened by residents
+  to 马浪路. The source uses the colloquial short form, kept here as "Malang Road" with
+  the official name recorded in the glossary. Corroborated.
+- Isadora Duncan (1877–1927): American pioneer of modern/free dance who broke from
+  classical ballet's fixed vocabulary — aptly invoked for Helen's return to a natural
+  bearing. Corroborated.
+- Japanese-controlled English-language radio in occupied Shanghai: after Pearl Harbor
+  the Japanese took over the settlement station XMHA (kept as an English-language Axis
+  propaganda outlet, "The Call of the Orient") and the Axis German-owned XGRS carried
+  English programming — so a Japanese-controlled English-language station is well
+  grounded for the fictional Hailin. Corroborated in outline (the fictional 海邻 is
+  not itself identified).
+
+Flagged for the read-through (things to keep an eye on):
+- Minor source digitization glitches rendered to plain meaning and NOT footnoted (no
+  genuine reading uncertainty): ch28/ch29 短髦 (for 短髭, "stubble"), used consistently;
+  ch28 "她对於我们两方面的背境" — 她 for 他 (Stephen; rendered "his reading"); ch30
+  "从透亮的房手过来" — 房手 for 房间 ("coming from the bright room").
+- Genuine references ARE footnoted, not smoothed (the Hailin station and the alias
+  Chen Ji; the International Cemetery; Isadora Duncan; the proverb "true gold fears no
+  fire"; the Great World).
+- Recurring phrase 铁青的面颊 (Stephen's dead cheek, recurring ch28/ch29/ch31) rendered
+  "iron-gray cheek" throughout for consistency (铁青 is properly "livid/ashen"; the
+  softer "iron-gray" is kept as the single fixed rendering).
+- Two-speakers-in-one-paragraph kept as single source paragraphs (parity): ch26
+  Helen's "If it hadn't been for you..." + her changed-tone "Bai Ping, I shall be
+  grateful..."; ch27 the maid's announcement lines. No content added beyond the
+  minimum.
+- Provisional renderings a later attestation could sharpen: Umetake (梅武), Dr. Gaolang
+  (高朗) and the Gaolang Hospital, Gaoye Road (高叶路), the Huimei Hotel (汇美饭店), the
+  Yuanyutai (源裕泰), the Hailin Broadcasting Station (海邻广播电台). All recurring names
+  reuse the fixed glossary forms.

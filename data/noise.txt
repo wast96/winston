@@ -76,3 +76,12 @@
 连三接四
 # 零碎 = "odd / sundry (tasks)"; the 零 is not the quantity 0 (cf. 零星/零落/零乱 above)
 零碎
+# --- B06 (ch26-ch31) additions ---
+# 万物 = "all things / the myriad creatures" (万物 in ch29); the 万 is not the quantity 10000
+万物
+# 两两三三 = "in twos and threes" (reduplicated idiom, of soldiers coming and going, ch26); not counts
+两两三三
+# 畸零 = "odd / isolated / fractional" (畸零而落寞的人, ch26); the 零 is not the quantity 0
+畸零
+# 万国公墓 = the International Cemetery (万国 "all nations", ch29); the 万 is not the quantity 10000
+万国

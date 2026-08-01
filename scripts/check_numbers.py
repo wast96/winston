@@ -76,6 +76,11 @@ NOISE = [
     # quantities this check guards, so stripping them whole is safe.
     r"[一二三四五六七八九十百]+分[钟鐘]",                     # duration: 二十分钟
     r"[一二三四五六七八九]十几",                              # 四十几 "forty-odd" (approx age)
+    r"[一二三四五六七八九]十多",                              # 五十多 "fifty-odd" (approx age/count).
+    # Must precede the built-in r"[十几幾]多" idiom below, which otherwise eats the
+    # "十多" out of "五十多" and orphans a 五 read as 5 (B06, on 五十多岁 "a pastor
+    # of fifty-odd"). An approximate tens is not a money/count/year quantity, so
+    # stripping it whole is safe, exactly as with the 四十几 line above.
     # --- list enumerators & fractions (structure, not quantities) ---
     r"\d+[．.、]",                                  # "1." "2、" sub-item heads
     r"[一二三四五六七八九十百千零]+分之[一二三四五六七八九十百千零]+",  # 二分之一, fractions

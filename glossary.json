@@ -176,6 +176,30 @@
       "pinyin": "Shanwei",
       "status": "decided",
       "note": "Surname of <span lang=\"zh-Hans\">山尾少佐</span>, Major Yamao, the officer who forces himself on Helen in ch25; rendered with the same surname form as Yamao Motohara, though the source does not make clear whether the two are the same man."
+    },
+    "野村": {
+      "en": "Nomura",
+      "pinyin": "Yecun",
+      "status": "decided",
+      "note": "A Japanese colonel (<span lang=\"zh-Hans\">野村大佐</span>, Colonel Nomura) whose car comes for Helen at the end of ch27; <span lang=\"zh-Hans\">野村</span> in its standard Japanese reading."
+    },
+    "梅武": {
+      "en": "Umetake",
+      "pinyin": "Meiwu",
+      "status": "provisional",
+      "note": "A Japanese rear admiral (<span lang=\"zh-Hans\">梅武少将</span>) of the Navy Ministry, in whose name the Christmas evening party is given (ch29&#8211;ch31); <span lang=\"zh-Hans\">梅武</span> given a tentative Japanese reading, the source offering no romanization. (<span lang=\"zh-Hans\">少将</span> is the naval rank of rear admiral.)"
+    },
+    "陈寂": {
+      "en": "Chen Ji",
+      "pinyin": "Chen Ji",
+      "status": "decided",
+      "note": "The assumed name the narrator takes when he moves into hiding on Weihaiwei Road (ch26); <span lang=\"zh-Hans\">陈寂</span> in pinyin, the given name <span lang=\"zh-Hans\">寂</span> meaning &#8216;silence, stillness, solitude.&#8217;"
+    },
+    "高朗": {
+      "en": "Dr. Gaolang",
+      "pinyin": "Gaolang",
+      "status": "provisional",
+      "note": "The physician in the white gown at the small private hospital where Stephen dies (ch28), and the hospital&#8217;s namesake; <span lang=\"zh-Hans\">高朗</span> romanized here (rendered Dr. Gaolang to keep it distinct from Mr. Gao of the Weibai Hotel)."
     }
   },
   "organizations": {
@@ -208,6 +232,12 @@
       "pinyin": "Fuyuan qianzhuang",
       "status": "provisional",
       "note": "The traditional Chinese banking house (<span lang=\"zh-Hans\">钱庄</span>, native bank) on which Mei Yingzi's check is drawn in ch22; <span lang=\"zh-Hans\">福源</span> romanized as pinyin."
+    },
+    "海邻广播电台": {
+      "en": "the Hailin Broadcasting Station",
+      "pinyin": "Hailin guangbo diantai",
+      "status": "provisional",
+      "note": "The Japanese-controlled Shanghai radio station where Helen sings and reads a little English news (ch26); <span lang=\"zh-Hans\">海邻</span> (<i>Hailin</i>) transliterates a name not otherwise identified, romanized here."
     }
   },
   "places": {
@@ -516,6 +546,72 @@
       "pinyin": "",
       "status": "provisional",
       "note": "A gambling-and-dancing club in a walled lane off Columbia Road, in fact a front for Mei Yingzi's espionage ring (ch24); the name appears in the source only in Latin letters on the neon sign, as <i>standford</i>."
+    },
+    "威海卫路": {
+      "en": "Weihaiwei Road",
+      "pinyin": "Weihaiwei Lu",
+      "status": "attested",
+      "note": "A road in the International Settlement (today Weihai Road) where the narrator rents rooms to hide under an assumed name (ch26)."
+    },
+    "跑马厅": {
+      "en": "the Racecourse",
+      "pinyin": "Paomating",
+      "status": "attested",
+      "note": "The large racecourse of the Shanghai Race Club in the heart of the International Settlement (today the site of People's Park and People's Square); the moon rides above it as they drive down Nanjing Road (ch26)."
+    },
+    "万国公墓": {
+      "en": "the International Cemetery",
+      "pinyin": "Wanguo Gongmu",
+      "status": "attested",
+      "note": "The Shanghai cemetery for the dead of all nations (<span lang=\"zh-Hans\">万国公墓</span>, &#8216;Cemetery of All Nations&#8217;), Chinese and foreign alike, on Hongqiao Road in the western outskirts (founded 1909); Stephen is buried here (ch28&#8211;ch29)."
+    },
+    "静安寺": {
+      "en": "Jing'an Temple",
+      "pinyin": "Jing'ansi",
+      "status": "attested",
+      "note": "The Jing'an (Bubbling Well) Temple, which gave its name to Bubbling Well Road; the district around it, where the narrator and Helen breakfast (ch29)."
+    },
+    "马浪路": {
+      "en": "Malang Road",
+      "pinyin": "Malang Lu",
+      "status": "decided",
+      "note": "A road in the French Concession officially the Rue Brenier de Montmorand (named 1906 for the French consul-general Brenier; today Madang Road). Shanghai residents shortened it to <span lang=\"zh-Hans\">马浪路</span>, and the source uses that colloquial form, kept here as Malang Road. Named among the places where the narrator pictures Stephen (ch29)."
+    },
+    "北平": {
+      "en": "Beiping",
+      "pinyin": "Beiping",
+      "status": "attested",
+      "note": "The name borne by Beijing from 1928 to 1949; Helen tells the Japanese she is going to Beiping to return the party invitation (ch29)."
+    },
+    "汇美饭店": {
+      "en": "the Huimei Hotel",
+      "pinyin": "Huimei Fandian",
+      "status": "provisional",
+      "note": "The establishment where Mrs. Manfield now works (ch29); <span lang=\"zh-Hans\">汇美</span> romanized here, the source giving no Western form."
+    },
+    "高叶路": {
+      "en": "Gaoye Road",
+      "pinyin": "Gaoye Lu",
+      "status": "provisional",
+      "note": "The road on which the small private Gaolang Hospital stands (ch28); <span lang=\"zh-Hans\">高叶路</span> romanized here. The source names the road <span lang=\"zh-Hans\">高叶</span> and the hospital <span lang=\"zh-Hans\">高朗</span> (Gaolang); the two forms are kept as printed."
+    },
+    "高朗医院": {
+      "en": "the Gaolang Hospital",
+      "pinyin": "Gaolang Yiyuan",
+      "status": "provisional",
+      "note": "A small, clean private hospital on Gaoye Road where Stephen is nursed and dies (ch28); <span lang=\"zh-Hans\">高朗</span> romanized here (see Dr. Gaolang)."
+    },
+    "源裕泰": {
+      "en": "the Yuanyutai",
+      "pinyin": "Yuanyutai",
+      "status": "provisional",
+      "note": "A small, shabby tavern in a lane off Fourth Avenue to which the narrator takes Mei Yingzi (ch31); <span lang=\"zh-Hans\">源裕泰</span>, a Chinese shop-name, romanized here."
+    },
+    "大世界": {
+      "en": "the Great World",
+      "pinyin": "Da Shijie",
+      "status": "attested",
+      "note": "The famous many-storeyed amusement palace at the edge of the French Concession (opened 1917); a dance hall behind it is the scene of ch31."
     }
   },
   "terms": {
