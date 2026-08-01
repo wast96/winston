@@ -478,3 +478,91 @@ None in this chapter.
   five per cent) with the 成 sense glossed in the 赏工 glossary row.
 - Ah Xuan kept as the glossary's fixed "Ah Xuan" (not "A Xuan") for consistency
   with ch01-ch02.
+
+## B06 = Chapter Six (ch06), 12,137 source chars
+
+Done end to end. Chapter Six leaves the Wu house for Jessfield Park: Fan Bowen
+courts the maddeningly noncommittal Lin Peishan on a bench, is left flat, mopes
+his way toward a "poetic" suicide by the lake ("Let me play Grand Master Qu for
+once!"), and is fished out of his self-pity by Wu Zhisheng, who has the shy
+Fourth Young Lady (Huifang) in tow. A long comic stretch at the zoo (the
+married-couple monkeys; the "feiyangsan" overheard) turns on Huifang's waking
+tenderness for Fan Bowen. Back at the mansion the Shuangqiao refugees have
+arrived: Fei the little-moustache tells the burning of the Hongchang pawnshop,
+and Zeng Jiaju flaunts his brand-new visiting-card and "party certificate" (Party
+Member No. 23) to universal contempt. Du Zhuzhai's France-returned son Du Xintuo
+("Doctor of All Trades," a professed Bakuninist) is introduced. The chapter closes
+upstairs, the two Lin sisters mirrored: Peishan's flighty "I don't know," the
+withered rose and tattered Werther, and Peiyao's despairing recognition of her own
+pre-marriage self and dread of Staff Officer Lei's return from the Longhai front.
+
+### Pipeline run
+
+- Source read verbatim from data/src/09_part0007.txt (title line 六 dropped, 203
+  body paragraphs). English written one paragraph per line and zipped against the
+  source body with a parity assertion BEFORE writing out/ch06_bilingual.md, so
+  paragraph parity is structural.
+- split_bilingual.py -> out/ch06_reading.md (203 paras) and data/zh/ch06.txt.
+- check_numbers.py (with data/noise_zh.txt): 0 unresolved over 203 pairs.
+- check_structure.py --pairs: parity 203 | 203 OK; --config anchor check: all
+  38 note anchors resolve, headings one shape, no glossary drift.
+- build_reading_epub.py out/Midnight.epub, then qa_epub.py out/Midnight.epub:
+  PASS, 20 documents, 38 note references / 38 bodies / 38 backlinks, all links
+  resolve. Six chapters now link their content; the other fourteen still link
+  their skeleton outline.
+
+### Source's own notes
+
+- [5][6][7] added to source_notes.json under ch06 with their ORIGINAL numbers.
+  [5] at "feiyangsan" (绯洋伞, a transliteration of English "fiancée"); [6] at
+  "poetic and love" (in English in the original, 诗意与恋爱); [7] at "Monsieur Zeng"
+  (麦歇曾, French, "Mr. Zeng"; Du Xintuo's Francophile habit). Render as distinct
+  bracketed markers under "Notes in the Original Edition." Their exact wording is
+  from data/src/24_part0022.txt.
+
+### Translator notes (builder-numbered 34-38)
+
+- "Grand Master Qu" (34): Qu Yuan and 泽畔行吟, the drowning allusion behind Fan
+  Bowen's lakeside theatrics. "incense-fair" (35): 香市/土地庙 temple fair, Huifang's
+  one village memory. "Doctor of All Trades" (36): 万能博士, the ironic dabbler
+  title. "a Bakuninist" (37): Bakunin/anarchism as Du Xintuo's pose. "the thickest
+  face under heaven" (38): 天字第一号 from the Thousand-Character Classic + 厚脸.
+
+### check_numbers handling (data/noise_zh.txt additions this batch)
+
+- 一百二十个 "a hundred and twenty times (unwilling)" -- intensifier; placed BEFORE
+  the ch05 一百二 rule so that rule cannot strip 一百二 and orphan 十个 (=10).
+- 第三者 "a third party / outsider" (三 not a count); 三角形 "triangle" (shape-word);
+  十足 "utterly" (十足的惊人奇事, not the count ten).
+- 十几个学校 rendered "ten-odd schools" so the source 十 is faithfully accounted
+  (the built-in 几个 stripper eats 几个 first and would otherwise orphan 十); No. 23
+  (第二十三名) rendered with the digits so 23 survives; two-counts kept visible via
+  "the two of them / both / the second" throughout.
+
+### Glossary rows added (one rendering per referent)
+
+- People: Du Xintuo (杜新箨), Qu Yuan (屈原, "Grand Master Qu").
+- Places: Jessfield Park (兆丰公园).
+- Organizations: the Dalai Hotel (大来饭店, provisional).
+- Terms: Bakuninism (巴枯宁主义), Doctor of All Trades (万能博士), bourgeois (布尔乔亚),
+  the Nobel Prize for Literature (诺贝尔文学奖金). Existing cast reused unchanged
+  (Fan Bowen, Lin Peishan/Peiyao, Wu Zhisheng, Du Xueshi, Du Zhuzhai, Zhang Susu,
+  Li Yuting, Ah Xuan, Huifang, Zeng Jiaju, Fei the little-moustache, He yingzhang,
+  the Hongchang pawnshop, Shuangqiao, the Longhai railway).
+
+### Figures
+
+None in this chapter.
+
+### Read-through / open items
+
+- 四小姐 rendered "the Fourth Young Lady" in narration and "Fourth Sister" (四妹) /
+  "Fourth Aunt" (四姨, Du Xintuo's teasing kin-title) in address, matching ch01-ch05.
+  九哥 = "Ninth Brother"; 珊妹 = "Sister Shan"; 小珊 = "little Shan" (all consistent
+  with prior chapters).
+- 一百二十个不愿意 rendered idiomatically ("more unwilling than to anything on
+  earth"): an intensifier, not a real quantity, so the digit is not forced into the
+  English; documented in the noise file rather than silenced.
+- The reappearing 《少年维特之烦恼》 + withered white rose (Peiyao's, from ch03's
+  Staff Officer Lei) is left to the ch03 note; not re-annotated (first-appearance
+  rule).

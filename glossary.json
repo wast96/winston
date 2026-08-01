@@ -361,6 +361,18 @@
       "pinyin": "Zhang Zhidong",
       "status": "attested",
       "note": "张之洞 (1837–1909); the late-Qing viceroy and industrial reformer, named beside Li Hongzhang as a founder of the old official enterprises."
+    },
+    "杜新箨": {
+      "en": "Du Xintuo",
+      "pinyin": "Du Xintuo",
+      "status": "decided",
+      "note": "Du Zhuzhai's eldest son, newly back from several years in France; nephew of Du Xueshi. The dilettante 'Doctor of All Trades' (万能博士) and a professed Bakuninist — gentle, detached, finding nothing to his liking yet caring about nothing; he addresses the Fourth Young Lady as 'Aunt.'"
+    },
+    "屈原": {
+      "en": "Qu Yuan",
+      "pinyin": "Qu Yuan",
+      "status": "attested",
+      "note": "The Chu poet and loyal minister Qu Yuan (c. 340–278 BCE), called here Grand Master Qu (屈大夫); he drowned himself in the Miluo River. See the note at 'Grand Master Qu.'"
     }
   },
   "organizations": {
@@ -393,6 +405,12 @@
       "pinyin": "Wanguo binyiguan",
       "status": "attested",
       "note": "万国殡仪馆; a well-known Shanghai funeral establishment."
+    },
+    "大来饭店": {
+      "en": "the Dalai Hotel",
+      "pinyin": "Dalai fandian",
+      "status": "provisional",
+      "note": "大来饭店; a Western-style Shanghai hotel where Fan Bowen keeps a room. The name transliterates 大来; romanization provisional."
     },
     "太平洋轮船公司": {
       "en": "the Pacific Steamship Company",
@@ -737,6 +755,12 @@
       "pinyin": "Dongfang Dagang",
       "status": "attested",
       "note": "东方大港; the vast harbour near the Yangtze's mouth proposed in Sun Yat-sen's Fundamentals of National Reconstruction — still a paper vision in 1930."
+    },
+    "兆丰公园": {
+      "en": "Jessfield Park",
+      "pinyin": "Zhaofeng Gongyuan",
+      "status": "attested",
+      "note": "兆丰公园; the large park in the western part of the International Settlement, known in English as Jessfield Park (today Zhongshan Park, 中山公园), with a lake and a small zoo."
     }
   },
   "terms": {
@@ -1039,6 +1063,30 @@
       "pinyin": "tong paizi",
       "status": "decided",
       "note": "铜牌子; the numbered brass badge that marks a mill employee; to surrender it is to be dismissed, to receive it back is to be re-engaged."
+    },
+    "巴枯宁主义": {
+      "en": "Bakuninism",
+      "pinyin": "Bakuning zhuyi",
+      "status": "attested",
+      "note": "巴枯宁主义; the collectivist anarchism of Mikhail Bakunin, which Du Xintuo professes as a fashionable pose. See the note at 'a Bakuninist.'"
+    },
+    "万能博士": {
+      "en": "Doctor of All Trades",
+      "pinyin": "wanneng boshi",
+      "status": "decided",
+      "note": "万能博士, lit. 'omnipotent doctor'; the ironic nickname for the dabbler Du Xintuo, who has tried a dozen studies and finished none. See the note at 'Doctor of All Trades.'"
+    },
+    "布尔乔亚": {
+      "en": "bourgeois",
+      "pinyin": "bu'erqiaoya",
+      "status": "decided",
+      "note": "布尔乔亚; a transliteration of 'bourgeois,' the fashionable May Fourth loanword for the propertied class, used by Fan Bowen as a term of contempt."
+    },
+    "诺贝尔文学奖金": {
+      "en": "the Nobel Prize for Literature",
+      "pinyin": "Nuobei'er wenxue jiangjin",
+      "status": "attested",
+      "note": "诺贝尔文学奖金; the Nobel Prize for Literature, which Wu Zhisheng jokingly says Lin Peishan is waiting for Fan Bowen to win."
     }
   }
 }

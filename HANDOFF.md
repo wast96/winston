@@ -7,7 +7,7 @@ kickoff message below as its first section.
 ## Message to paste into the next chat
 
 ```
-Midnight B06
+Midnight B07
 
 Read CLAUDE.md in full (the working rules at the top are non-negotiable), then
 HANDOFF.md, then book.json. Work only on branch claude/midnight. Build the
@@ -16,66 +16,65 @@ the path explicitly on every build and every qa run).
 
 data/src/ is regenerable and git-ignored, so if it is missing run
 scripts/ingest_epub.py source.epub first to recreate it (Chapters One through
-Five are already translated; do not redo them).
+Six are already translated; do not redo them).
 
-Do Batch B06 = Chapter Six (unit ch06) end to end. Read the source from
-data/src/09_part0007.txt; it is authoritative. Quote it verbatim in the bilingual
+Do Batch B07 = Chapter Seven (unit ch07) end to end. Read the source from
+data/src/10_part0008.txt; it is authoritative. Quote it verbatim in the bilingual
 QC file and render it faithfully and in full into English in the book's own
 novelistic register.
 
-Chapter Six carries THREE of the source's own endnotes: [5], [6], [7]. Their exact
-wording is in data/src/24_part0022.txt (the file that collects the nine author
-notes): [5] "绯洋伞" = a transliteration of an English word meaning "fiancée"; [6]
-"Poetic and love" = "诗意与恋爱"; [7] "麦歇曾" = French "Monsieur Zeng" (Du Xintuo
-studied in France, hence the habit). Find each inline marker [5][6][7] in the
-source of ch06, render each as the SOURCE's own note (distinct from your translator
-footnotes), and add all three to source_notes.json under "ch06" with their ORIGINAL
-numbers 5, 6, 7. See how ch01's [1][2], ch02's [3] and ch05's [4] were done in
-source_notes.json for the shape.
+Chapter Seven carries NONE of the source's own endnotes (the next author notes are
+[8][9], both in ch11). So this batch touches source_notes.json only if you find an
+inline [n] marker in the source of ch07 (you should not). Do NOT invent one.
 
-Author out/ch06_bilingual.md (a "## H2 Chapter Six" line, then per source paragraph
-a "> <verbatim source>" line and the English beneath). The safe way to get verbatim
-source and exact paragraph parity is to write the English one paragraph per line and
-zip it against the source body lines with a short script (this is how B01-B05 did it:
-read data/src/09_part0007.txt, drop line 1 = the title 六, and the rest are the body
-paragraphs; assert the English line count equals the body line count BEFORE zipping,
-then write the bilingual). Then run:
-  python3 scripts/split_bilingual.py out/ch06_bilingual.md ch06 "六"
-  python3 scripts/check_numbers.py out/ch06_bilingual.md --noise data/noise_zh.txt
-  python3 scripts/check_structure.py --pairs data/zh/ch06.txt out/ch06_reading.md
+Author out/ch07_bilingual.md (a "## H2 Chapter Seven" line, then per source
+paragraph a "> <verbatim source>" line and the English beneath). The safe way to
+get verbatim source and exact paragraph parity is to write the English one
+paragraph per line and zip it against the source body lines with a short script
+(this is how B01-B06 did it: read data/src/10_part0008.txt, drop line 1 = the
+title 七, and the rest are the body paragraphs; assert the English line count
+equals the body line count BEFORE zipping, then write the bilingual). Then run:
+  python3 scripts/split_bilingual.py out/ch07_bilingual.md ch07 "七"
+  python3 scripts/check_numbers.py out/ch07_bilingual.md --noise data/noise_zh.txt
+  python3 scripts/check_structure.py --pairs data/zh/ch07.txt out/ch07_reading.md
 When check_numbers flags a non-quantity numeral (idiom, slang, set phrase, a name
 with a digit, a shape-word, an approximate range, a compound the checker cannot sum,
-an intensifier like 十二分/一百二十分, an ordinal date the word-list lacks), add a regex
-for it to data/noise_zh.txt with a one-line reason; do not silence a real dropped
-number. The noise file already carries a generous ch01+ch02+ch03+ch04+ch05 block, so
-many recurring items are handled (the tael 两 after a price; a 万 not preceded by a
-numeral; names like A Er/Qiliqiao/Li Si; and the general habits below).
+an intensifier like 十二分/一百二十个/十足, an ordinal date the word-list lacks), add a
+regex for it to data/noise_zh.txt with a one-line reason; do not silence a real
+dropped number. The noise file already carries a generous ch01..ch06 block, so many
+recurring items are handled (the tael 两 after a price; a 万 not preceded by a
+numeral; names like A Er/Qiliqiao/Li Si; 第三者/三角形/十足; and the habits below).
 Number-rendering habits that keep the checker clean: render 十万 as "one hundred
 thousand" (not "a hundred thousand", which the checker cannot sum), spell a compound
 the checker can parse or whitelist the source form (it cannot sum compound
-hundreds/hundred-thousands or teen-thousands in spelled English), and render 二人/两位
-"the two of them" so the count 2 stays visible.
+hundreds/hundred-thousands or teen-thousands in spelled English), render 二人/两位/
+两姊妹 "the two of them / the two sisters" so the count 2 stays visible, and give a
+"十几X" as "ten-odd X" so the 十 is accounted (the built-in 几-measure stripper eats
+几X first and would otherwise orphan the 十). A hanzi ordinal like 第二十三 is safest
+rendered with the digits ("No. 23").
 
-Add translator footnotes to notes.json under "ch06" at about chapter density (~3-6;
+Add translator footnotes to notes.json under "ch07" at about chapter density (~3-6;
 anchors must be verbatim substrings of the English prose; XHTML bodies use NUMERIC
 character references for punctuation and dashes, never named entities; literal
-Chinese is fine). ch05's translator notes were builder-numbered 28-33, so ch06's
-continue from 34. Add every new proper noun / place / firm / term to glossary.json
+Chinese is fine). ch06's translator notes were builder-numbered 34-38, so ch07's
+continue from 39. Add every new proper noun / place / firm / term to glossary.json
 with one rendering per referent and a status. Reuse the names and vocabulary already
-fixed in glossary.json (Wu Sunfu, old Mr. Wu, Du Zhuzhai, Lin Peiyao/the Wu young
-mistress, Lin Peishan, Ah Xuan, Fan Bowen, Zhao Botao, Shang Zhongli, the
-silk-and-bank cast Sun Jiren, Wang Hefu, Zhu Yinqiu, Chen Junyi, Zhou Zhongwei, Tang
-Yunshan; the filature staff Tu Weiyue, Mo Gancheng, Wang Jinzhen, pockmarked Li; Du
-Xueshi; plus the bond-market, silk-trade and combine terms). Watch for Du Xintuo
-(杜新箨, the France-returned dandy of source note [7]) and any new Wu-house guests.
+fixed in glossary.json (Wu Sunfu, old Mr. Wu, Du Zhuzhai/Fufang, Lin Peiyao/the Wu
+young mistress, Lin Peishan, Huifang/the Fourth Young Lady, Ah Xuan, Fan Bowen, Wu
+Zhisheng, Du Xueshi, Du Xintuo, Zhang Susu, Li Yuting, Zhao Botao, Shang Zhongli,
+the combine cast Sun Jiren/Wang Hefu/Tang Yunshan, the silk-and-bank cast Zhu
+Yinqiu/Chen Junyi/Zhou Zhongwei, the filature staff Tu Weiyue/Mo Gancheng/Wang
+Jinzhen/pockmarked Li; plus the bond-market, silk-trade and combine terms). Watch
+in ch07 for the deepening Wu Sunfu vs Zhao Botao bond duel and any new filature or
+household figures.
 Note for glossary NOTE bodies: use plain Unicode punctuation, NOT numeric refs,
 because the builder esc()s glossary notes (a "&#8216;" there renders as literal text;
 see PROGRESS B02 read-through).
 
 Rebuild with build_reading_epub.py out/Midnight.epub (the TOC stays pending-aware:
-Chapters One through Six link their content, every other unit still links its
+Chapters One through Seven link their content, every other unit still links its
 skeleton outline), run qa_epub.py out/Midnight.epub until green, commit on
-claude/midnight, and rewrite HANDOFF.md with the B07 kickoff. Cite chapters, never
+claude/midnight, and rewrite HANDOFF.md with the B08 kickoff. Cite chapters, never
 page numbers. Never invent bridging text. Do not pause for approval mid-batch.
 Deliver out/Midnight.epub in chat as an attached file.
 ```
@@ -97,57 +96,60 @@ Deliver out/Midnight.epub in chat as an attached file.
   no source note. Added the Shuangqiao cast, places/firms, rural-order terms, and
   a ch04 noise block (names read as counts + 一万二).
 - B05 = Chapter Five (ch05): done. out/ch05_reading.md; translator notes 28-33;
-  source note [4] (Mammon = the god of wealth). Added Sun Yat-sen/Li Hongzhang/
-  Zhang Zhidong, Hangzhou/Su Causeway/West Lake/Great Eastern Port, and the combine
-  and filature terms (建国方略, 四大干路, 期丝, 米贴, 赏工, 信托公司, 公债套利, 工会,
-  铜牌子). ch05 noise block added (四射; 一百五十万; 十九日; 一百二; 一万八千; 九百八十).
-  qa green, 33 notes. See PROGRESS.md for the full record.
+  source note [4] (Mammon). Added the combine/filature terms and a ch05 noise block.
+- B06 = Chapter Six (ch06): done. out/ch06_reading.md; translator notes 34-38;
+  source notes [5][6][7] (feiyangsan/poetic and love/Monsieur Zeng). Added Du Xintuo,
+  Qu Yuan, Jessfield Park, the Dalai Hotel, and the Bakuninism/万能博士/布尔乔亚/Nobel
+  terms; ch06 noise block (一百二十个 before 一百二; 第三者; 三角形; 十足). qa green, 38
+  notes. See PROGRESS.md for the full record.
 
 ## What is NEXT
 
-- Batch B06 = Chapter Six (ch06), 12,137 source chars, and its source notes
-  [5][6][7]. See the kickoff above.
+- Batch B07 = Chapter Seven (ch07), 12,769 source chars, and no source notes. See
+  the kickoff above.
 
 ## Where the source's own notes fall (for planning)
 
 The nine author endnotes (exact wording in data/src/24_part0022.txt) are keyed
 inline as follows: [1][2] ch01 (done); [3] ch02 (done); [4] ch05 (done);
-[5][6][7] ch06 (NEXT); [8][9] ch11. All OTHER chapters (ch03, ch04 done) carry none.
-Each remaining one goes into source_notes.json under its unit id with its ORIGINAL
-number, never into notes.json.
+[5][6][7] ch06 (done); [8][9] ch11. All OTHER chapters (ch03, ch04, ch07..ch10,
+ch12..ch20) carry none. Each remaining one goes into source_notes.json under its
+unit id with its ORIGINAL number, never into notes.json.
 
 ## State / traps
 
 - Deliverable filename: out/Midnight.epub. The builder and qa default to
   out/book.epub; always pass out/Midnight.epub explicitly.
 - Two note streams, kept apart: translator footnotes (notes.json, numbered 1..N
-  by the builder in reading order; ch05 got 28-33, so ch06's translator notes
-  continue from 34) and the source's own notes (source_notes.json, the author's
-  own [n]). Never merge them. ch06 has source notes [5][6][7].
+  by the builder in reading order; ch06 got 34-38, so ch07's translator notes
+  continue from 39) and the source's own notes (source_notes.json, the author's
+  own [n]). Never merge them. ch07 has NO source notes.
 - book.json is the LOGICAL structure. The source cover, colophon (part0000) and
   the source's own table of contents (part0001) are not translatable units.
 - Paragraph parity is enforced: one English paragraph per source paragraph. The
   bilingual file's "## H2 <title>" line is the chapter title and is not a
   paragraph pair. Zip English-per-line against the source body to keep parity
   structural, and assert the counts match BEFORE writing the bilingual (this
-  caught a dropped paragraph in B03). Note that verse on separate source lines
-  counts as separate paragraphs (the ch05 quatrain was four).
+  caught a dropped paragraph in B03). Verse on separate source lines counts as
+  separate paragraphs (the ch05 quatrain was four).
 - check_numbers note-body rule vs glossary-note rule differ: notes.json /
   source_notes.json bodies are inserted RAW, so use numeric char refs for
   punctuation. glossary.json note bodies are esc()d, so use plain Unicode
   punctuation.
 - The checker cannot sum compound hundreds/hundred-thousands or teen-thousands in
   spelled-out English, reads a hanzi numeral in a name as a count, and its
-  word-list has no arbitrary ordinals (十九日 = "the nineteenth" had to be
-  whitelisted). Also note a built-in stripper interaction: 十分 (=very) is stripped
-  inside 一百二十分, leaving a residue 一百二 that must itself be whitelisted. When the
-  checker flags a number that IS faithfully in the translation, add a documented
-  noise regex (or render it in a form the checker parses); when it flags a genuinely
+  word-list has no arbitrary ordinals. NOISE ORDER IS LOAD-BEARING: a longer token
+  must be stripped before a shorter rule that is a prefix of it. Two ch06 cases:
+  一百二十个 (intensifier) had to be placed BEFORE the ch05 一百二 rule, or that rule
+  strips 一百二 and orphans 十个 (=10); and 十几X must be rendered "ten-odd X" because
+  the built-in 几-measure stripper eats 几X and orphans the 十. When the checker
+  flags a number that IS faithfully in the translation, add a documented noise
+  regex (or render it in a form the checker parses); when it flags a genuinely
   missing number, fix the translation.
 - When building the bilingual, write the English to a scratch file one paragraph
   per line and zip it against the source body with a Python script; keep the scratch
   files out of git (use the scratchpad dir).
-- Branch hygiene: one branch only, claude/midnight. A stray
-  claude/midnight-b05-ch05-* branch appeared at the B05 kickoff; its (identical)
-  history was already on claude/midnight, and it was deleted (local + tracking ref
-  pruned; it never existed on the remote). Do not spin off new branches.
+- Branch hygiene: one branch only, claude/midnight. Each batch has arrived on a
+  stray claude/midnight-b<nn>-* branch identical to claude/midnight; move any work
+  onto claude/midnight and delete the stray (local + remote/tracking ref). Do not
+  spin off new branches.

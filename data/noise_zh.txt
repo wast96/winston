@@ -110,6 +110,17 @@
 # 十九日 the nineteenth, a date in the salary note's signature; rendered "the
 # nineteenth", an ordinal the checker's word-list does not carry (ch05)
 十九日
+# --- Chapter Six additions ---
+# 一百二十个 "a hundred and twenty times (unwilling)" -- intensifier, not the count
+# 120. MUST come BEFORE the ch05 一百二 rule below, or that rule strips 一百二 and
+# leaves 十个 (=10) to be misread as a dropped ten (ch06)
+一百二十个
+# 第三者 "a third party / an outsider" (第三者的态度); 三 is not the count three (ch06)
+第三者
+# 三角形 "triangle / triangular" (a shape-word, 略带些三角形); 三 is not a count (ch06)
+三角形
+# 十足 "utterly / thoroughly" (十足的惊人奇事); an intensifier, not the count ten (ch06)
+十足
 # 一百二 -- residue of 一百二十分 "utterly/to the last degree" (intensifier, not the
 # count 120): the built-in 十分 stripper removes the 十分 and leaves 一百二 (=102) (ch05)
 一百二
