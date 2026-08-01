@@ -53,3 +53,19 @@
 # ("forty-two, forty-three"); the whole-hour "一点钟" (per hour) is stripped by 点钟 above.
 四十二四十三
 # 一时 handled by the built-in measure list; 万分 already built in.
+# --- B04 (ch18-ch21) additions ---
+# 二房东 = "sublandlady / second landlord" (set term for a sublessor); 二 is not a count
+二房[东東]
+# 飘零 = "to drift / fall (of leaves)"; the 零 is not the quantity 0
+[飘飄]零
+# 二○号 = ward No. 20 at Renji Hospital, written 二 + circle-zero (U+25CB/U+3007); the
+# parser cannot join the circle to 二, so it orphans a bare 二 read as 2 (the real
+# value 20 is rendered "ward number twenty"). Strips the ward token whole.
+二[○〇]号
+# 四更 = the fourth night-watch (~1-3 a.m.), a time-of-night term rendered "the small
+# hours"; the 四 is not a count. (更 as watch: 一更..五更.)
+[一二三四五]更
+# 六角 = "hexagonal / six-cornered" (crystal shape in the ch21 vision); 六 is not a count
+六角
+# 大千世界 = "the vast universe" (Buddhist 三千大千世界); the 千 is not the quantity 1000
+大千世界

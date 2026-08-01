@@ -116,6 +116,24 @@
       "pinyin": "Tao Yuanming",
       "status": "attested",
       "note": "Poet (365&#8211;427), also Tao Qian; the great poet of reclusion and the pastoral in the Chinese tradition."
+    },
+    "武则天": {
+      "en": "Wu Zetian",
+      "pinyin": "Wu Zetian",
+      "status": "attested",
+      "note": "Empress of the Tang (624&#8211;705), the only woman to rule China as emperor in her own right."
+    },
+    "西太后": {
+      "en": "the Western Empress Dowager",
+      "pinyin": "Xi Taihou",
+      "status": "decided",
+      "note": "Cixi (<span lang=\"zh-Hans\">慈禧</span>, 1835&#8211;1908), the Empress Dowager who dominated the late Qing court; the source names her by the palace epithet <span lang=\"zh-Hans\">西太后</span>, kept here as &#8216;the Western Empress Dowager.&#8217;"
+    },
+    "宫间登水": {
+      "en": "Miyama Toshimi",
+      "pinyin": "Gongjian Dengshui",
+      "status": "provisional",
+      "note": "A Japanese admirer who sends Bai Ping flowers in hospital; the narrator cannot recall the name on the card exactly, so <span lang=\"zh-Hans\">宫间登水</span> is given a tentative Japanese reading."
     }
   },
   "organizations": {
@@ -390,6 +408,24 @@
       "pinyin": "Didi kafeidian",
       "status": "attested",
       "note": "A fashionable caf&#233; on Avenue Joffre; 弟弟 (&#8216;little brother&#8217;) transliterates the English name DD&#8217;s. Rendered the DD&#8217;s Caf&#233; in the prose."
+    },
+    "天津": {
+      "en": "Tianjin",
+      "pinyin": "Tianjin",
+      "status": "attested",
+      "note": "North China treaty-port city; one of the places Bai Ping speaks of withdrawing to."
+    },
+    "浦东": {
+      "en": "Pudong",
+      "pinyin": "Pudong",
+      "status": "attested",
+      "note": "The east bank of the Huangpu opposite the Bund; site of a wartime internment camp for Allied nationals."
+    },
+    "中西疗养院": {
+      "en": "the Zhongxi Sanatorium",
+      "pinyin": "Zhongxi Liaoyangyuan",
+      "status": "provisional",
+      "note": "A Shanghai sanatorium (<span lang=\"zh-Hans\">中西</span>, &#8216;Chinese-Western&#8217;) the narrator suggests for Bai Ping&#8217;s convalescence; romanized here."
     }
   },
   "terms": {
@@ -416,6 +452,18 @@
       "pinyin": "qipao",
       "status": "decided",
       "note": "The close-fitting Chinese woman's dress (<span lang=\"zh-Hans\">旗袍</span>, <i>qipao</i>); &#8216;cheongsam&#8217; is the established English form used throughout."
+    },
+    "月宫": {
+      "en": "the Palace of the Moon",
+      "pinyin": "yuegong",
+      "status": "decided",
+      "note": "The lunar palace of the moon-goddess Chang&#8217;e (<span lang=\"zh-Hans\">嫦娥</span>); a figure of cold, remote, solitary beauty, used through Chapter 18 for Mei Yingzi&#8217;s radiance and the narrator&#8217;s seclusion alike."
+    },
+    "寇莉莎": {
+      "en": "Kolisa",
+      "pinyin": "Koulisha",
+      "status": "provisional",
+      "note": "An imported drink Mei Yingzi orders (a liqueur or cocktail); the source gives no other identification, so <span lang=\"zh-Hans\">寇莉莎</span> is romanized here."
     }
   }
 }

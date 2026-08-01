@@ -28,6 +28,8 @@ WORD_NUM = {
     # source prints as digits/hanzi. Example: teen ordinals for regnal years
     # ("the seventeenth year of the reign", 十七年); the built-ins stop at "tenth".
     "seventeenth": 17,
+    # day-of-month ordinal: English "the eleventh" renders 十一日 (B04, ch20).
+    "eleventh": 11,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}
@@ -84,7 +86,7 @@ NOISE = [
     # bare 一 + classifier is the indefinite article this is meant to drop.
     r"(?<![零一二两兩三四五六七八九十百千万萬億])一[艘條条頂顶隻只個个位群把張张片口指邊边旁時时下陣阵壺壶碟種种番場场股家棵套幅]",
     r"(?<![零一二两兩三四五六七八九十百千万萬億])一[輛辆眼躬支絲丝聲声定天次間间驚惊槍枪動动言樣样路批封面團团句道年身手筆笔遍]",
-    r"[一不][旦時时般點点些]",
+    r"(?<![零一二两兩三四五六七八九十百千万萬億])[一不][旦時时般點点些]",
     r"[幾几數数][盞盏輛辆個个位十百千萬万條条艘句步進进層层次口杯天年分]",
     r"[幾几數数][十百千]",                          # 幾十/數百 "some tens/hundreds"
     r"十[幾几分]", r"[十几幾]多", r"再三",
@@ -103,8 +105,12 @@ NOISE = [
     r"九牛一毛", r"入木三分", r"朝三暮四", r"三言兩語", r"三言两语",
     r"十全十美", r"十拿九穩", r"十拿九稳", r"十分",  # 十分 = "very", not 10
     r"四面八方", r"四通八達", r"四通八达", r"一心一意", r"一五一十",
-    # bare 一 as adverb/idiom fragment: 一[direction/time/manner], not the count
-    r"一[舉举動动身面言語语氣气日夜時时刻步分寸點点]", r"兩[頭头端邊边面全難难]",
+    # bare 一 as adverb/idiom fragment: 一[direction/time/manner], not the count.
+    # Negative lookbehind (as on the measure-word patterns above): without it this
+    # eats the 一 out of a COMPOUND number like 十一日 (the 11th) or 十一时 (11
+    # o'clock) and orphans a 十 read as 10 (B04, on 十一日 and 十一时半). Only a
+    # truly bare 一 + fragment is the idiom this is meant to drop.
+    r"(?<![零一二两兩三四五六七八九十百千万萬億])一[舉举動动身面言語语氣气日夜時时刻步分寸點点]", r"兩[頭头端邊边面全難难]",
     r"三[番兩两]", r"四[面方處处海座周]", r"九[鼎]", r"八[面方]",
     r"一一",                                        # 一一 "one by one"
 ]

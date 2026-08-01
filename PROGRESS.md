@@ -352,3 +352,118 @@ Flagged for the read-through (things to keep an eye on):
   is attested. All other names reuse the fixed glossary forms (Helen, Mrs.
   Manfield, Mei Yingzi, Bai Ping, Stephen, Professor Paci, the Paramount, Hangzhou,
   Xujiahui, cheongsam).
+
+## Batch B04 (ch18 through ch21: Chapters 18 to 21) — DONE
+
+Scope: units ch18, ch19, ch20, ch21 (source 22_chapter20.txt through
+25_chapter23.txt; heads 十八/十九/二十/二十一), ~19,962 source characters. The
+narrator moves into Bai Ping's Route Prosper Paris flat; Bai Ping is shot and
+wounded outside the Paramount; Mei Yingzi descends on the flat and blesses the
+supposed couple; the narrator moves back home and drifts from Bai Ping; the
+Pacific war breaks out (Dec 1941); Stephen is interned, Helen sings from the
+soul, the narrator lends money to Mrs. Manfield; and Mrs. Stephen swears the
+narrator to secrecy and recruits him into American naval intelligence.
+
+Deliverables:
+- out/ch18_reading.md (209 paras), ch19 (126), ch20 (180), ch21 (96); one clean
+  English paragraph per source paragraph, book's own first-person voice.
+- Bilingual QC files out/chNN_bilingual.md authored via scripts/_zip_bilingual.py
+  (source side copied VERBATIM from data/src, never re-typed) and split with
+  scripts/split_bilingual.py; parity source in data/zh/chNN.txt.
+- 8 new footnotes into notes.json (numbering continuous, assigned by the builder
+  in reading order). Batch total now 43.
+- 8 new glossary rows in glossary.json (76 rows total): Wu Zetian (武则天), the
+  Western Empress Dowager = Cixi (西太后), Miyama Toshimi (宫间登水, tentative),
+  Tianjin (天津), Pudong (浦东), the Zhongxi Sanatorium (中西疗养院), the Palace of
+  the Moon (月宫), and the drink Kolisa (寇莉莎).
+- figures.json unchanged (no in-text figures in these chapters).
+- Cumulative EPUB rebuilt to "out/The Whistling Wind.epub" (22 of 60 chapters
+  translated; the other 38 still link to their skeleton outlines).
+
+Checks run and results:
+- check_numbers.py (with data/noise.txt) on every bilingual file: 0 unresolved
+  across all 4 units (611 pairs total). Two classes of fix this batch:
+  (a) data/noise.txt additions, each a NON-quantity numeral or parser artifact:
+  二房东 ("sublandlady"; 二 not a count), 飘零 ("drift/fall"; 零 not 0), 二○号
+  (Renji ward No. 20, written 二 + circle-zero U+25CB, which the parser cannot
+  join, orphaning a bare 二 read as 2 while "twenty" is rendered), [一二三四五]更
+  (night-watches; 四更 = "the small hours"), 六角 ("hexagonal"; 六 not a count),
+  大千世界 (Buddhist idiom; 千 not 1000).
+  (b) a principled check_numbers.py bug-fix, NOT a script hack: the two idiom
+  patterns r"[一不][旦時时般點点些]" and r"一[...日夜時时...]" lacked the negative
+  lookbehind their sibling measure-word patterns already carry, so they ate the
+  一 out of a COMPOUND number - 十一日 ("the 11th") and 十一时半 ("half past
+  eleven") - and orphaned a 十 read as 10. Added the same
+  (?<![零一二两兩三四五六七八九十百千万萬億]) lookbehind to both, and "eleventh":11
+  to WORD_NUM. Verified strictly monotonic/safe: rebuilt pseudo-bilingual pairs
+  for ALL prior chapters ch00-ch17 from data/zh + out/*_reading.md and re-ran
+  the new checker: 0 flags, no regression (the change can only PRESERVE a
+  compound number previously mangled, never orphan a new one). Direct spot
+  checks: 十一时半 -> 11, 十一日 -> 11, 两点半 -> 2, 一点 -> stripped,
+  十一点钟 -> stripped (B02 case unaffected).
+- check_structure.py (config over all 22 translated units ch00-ch21): paragraph
+  parity OK on every unit (ch18 209 | ch19 126 | ch20 180 | ch21 96); 43 note
+  anchors, 0 unresolved; heading shape uniform (1 distinct shape); glossary
+  drift 0 (variants guard: Mei Yingzi, Bai Ping, cheongsam, the Paramount,
+  Mrs. Stephen, Mrs. Manfield).
+- qa_epub.py on the built EPUB: PASS (72 files, 66 documents, 43 note references /
+  43 bodies / 43 backlinks, all links resolve).
+- Verbatim-quotation audit: whitespace-stripped character-for-character
+  comparison of every QC blockquote against data/src (BOM + duplicated heading
+  lines removed) confirms the source is quoted exactly and no sentence is
+  dropped - ch18 9,045 / ch19 4,917 / ch20 6,194 / ch21 3,610 characters, all
+  VERBATIM OK.
+- Blind double translation (source only, re-derived independently): the
+  analytical/lyrical passages all converged with the shipped text - Mei Yingzi's
+  youth-belongs-to-society monologue and her Wu Zetian / Western Empress Dowager
+  aside (ch18); the desolate-night "wave behind drives on the wave ahead"
+  meditation (ch18); Helen singing "from the soul," the wounded bird-of-prey
+  figure (ch20); and the closing crystalline light-vision "all that radiance was
+  laughter" (ch21). No divergence pointing to an unresolved ambiguity.
+- Round-trip back-translation (omission check): the Pacific-war opening and the
+  gunboat news (ch20), and Mrs. Stephen's Bible oath and recruitment questions
+  (ch21), mapped one-to-one onto the source - no English content absent from the
+  source (no inventions), no source content dropped.
+- Random deep audit (~4%, ~24 paragraphs given the full paranoid treatment plus
+  the verbatim sweep): observed substantive error rate 0 (no mistranslations or
+  omissions found); the only source-level problems were the digitization
+  glitches below, each rendered to plain sense.
+
+Fact-checking (against Wikipedia / Baidu Baike / standard reference; no
+LLM-sourced references):
+- December 7-8, 1941 / outbreak of the Pacific war: the Shanghai action was the
+  sinking of the British gunboat HMS Peterel (crew refused to surrender and
+  largely died) and the capture of the American gunboat USS Wake in the Huangpu
+  on the morning of Dec 8 (Shanghai time; Dec 7 Hawaii time). Corroborated; the
+  novel's "night of Dec 7" fits the local experience across the date-line.
+- Wu Zetian (624-705), sole reigning female emperor of the Tang; the Western
+  Empress Dowager = Cixi (1835-1908) of the late Qing. Corroborated.
+- Pudong internment: after Pearl Harbor Japan interned Allied service-members
+  (Woosung, Kiangwan) and, from 1943, civilians (the Pootung/Pudong Civil
+  Assembly Centre). The novel places Stephen "on the Pudong side." Corroborated
+  in outline; the note does not overclaim which specific camp held him.
+- The July 7 (七七) Incident = Marco Polo Bridge (Lugou Bridge) Incident of
+  July 7, 1937, opening the full-scale War of Resistance. Corroborated.
+- Zhongxi Sanatorium (中西疗养院) and the drink 寇莉莎 (Kolisa) not securely
+  identified in outside sources; rendered provisionally and flagged.
+
+Flagged for the read-through (things to keep an eye on):
+- Minor source digitization glitches rendered to plain meaning and NOT footnoted
+  (no genuine reading uncertainty): ch18 写上就去 for 马上就去 ("go at once"),
+  没辱 for 玷辱/污辱 ("sully" your standing); ch19 梅赢子 for 梅瀛子 (Mei Yingzi;
+  赢 for 瀛); ch20 照顾飞那麽 with a spurious 飞 (read 照顾, "looked after"); ch21
+  蒂芬太太 for 史蒂芬太太 (Mrs. Stephen; dropped 史), 浮起丁 for 浮起了 ("a strange
+  feeling rose"; 丁 for 了). Genuine reading uncertainty is footnoted instead
+  (the admirer's name Miyama Toshimi, ch19).
+- Two-speakers-in-one-paragraph kept as single source paragraphs (parity): ch18
+  Mei Yingzi's "you have lived together a long while..." + the narrator's "It is
+  an insult to us!"; and her "Do you know how Helen thinks of you?" + the
+  narrator's "Helen?". No content added beyond the minimum.
+- Recurring subjects NOT re-noted (already noted at first appearance in
+  B01-B03): Stephen, Bai Ping, Mei Yingzi, Helen, Mrs. Manfield, Mrs. Stephen,
+  the Solitary Island, the Paramount, Renji Hospital, Jessfield Park, the DD's
+  Café, Route Prosper Paris, Professor Paci, Dr. Philip, the narrator's name Xu,
+  the cheongsam. New footnotes only for genuinely new material.
+- Provisional renderings a later attestation could sharpen: Miyama Toshimi
+  (宫间登水), the Zhongxi Sanatorium (中西疗养院), Kolisa (寇莉莎). All other names
+  reuse the fixed glossary forms.
