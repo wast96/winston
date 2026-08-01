@@ -379,6 +379,30 @@
       "pinyin": "Wǔ Zǐxū",
       "status": "attested",
       "note": "Wu Zixu (d. 484 BCE), the Chu-born statesman of Wu whose hair, legend says, turned white in a single night of anxiety as he fled through the Zhao Pass; Tanqi likens the haggard Li Bi to him. Historical/legendary; standard pinyin."
+    },
+    "伊斯": {
+      "en": "Yisi",
+      "pinyin": "Yīsī",
+      "status": "attested",
+      "note": "The Persian deacon (<i>zhishi</i>) who manages the affairs of the Daqin Temple; green-eyed and sharp, he sees through Zhang Xiaojing's disguise. The name echoes the historical priest Yisi (Yazdbōzīd) of Balkh, benefactor of the Tang Nestorian church, commemorated on the 781 Xi'an Nestorian Stele. Pinyin/standard form."
+    },
+    "阿罗本": {
+      "en": "Alopen",
+      "pinyin": "Āluóběn",
+      "status": "attested",
+      "note": "Alopen (fl. 635), the first recorded missionary of the Church of the East (Nestorian Christianity) to reach China, who came to Chang'an from Persia in 635 (Zhenguan 9) and was received by Emperor Taizong; named on the 781 Xi'an Nestorian Stele. Standard sinological form."
+    },
+    "弥施诃": {
+      "en": "Mishihe",
+      "pinyin": "Míshīhē",
+      "status": "attested",
+      "note": "The Tang Nestorian transliteration of the Messiah (Syriac <i>m&#601;š&#298;&#7717;&#257;</i>), that is Jesus Christ; the form appears in the surviving Tang Nestorian scriptures. Rendered by transliteration, as the source has it."
+    },
+    "庞录事": {
+      "en": "Registrar Pang",
+      "pinyin": "Páng Lùshì",
+      "status": "decided",
+      "note": "A long-faced registrar (<i>lushi</i>) of the Jing'an Bureau, secretly in the pay of the Secretariat (the Right Minister's men); he passes intelligence out through the corner gate and is caught by Xu Bin. Pinyin."
     }
   },
   "organizations": {
@@ -495,6 +519,24 @@
       "pinyin": "Cāngcáo",
       "status": "decided",
       "note": "The section (<i>cangcao</i>) of a Tang guard command in charge of stores and provisions, here also of changing the daily door-registers. Rendered 'the Stores Section.'"
+    },
+    "中书省": {
+      "en": "the Secretariat",
+      "pinyin": "Zhōngshū Shěng",
+      "status": "attested",
+      "note": "One of the three great departments of the Tang central government, which drafted imperial edicts; the Right Minister Li Linfu's power base. Rendering per C. O. Hucker."
+    },
+    "凤阁": {
+      "en": "the Phoenix Pavilion",
+      "pinyin": "Fèng Gé",
+      "status": "attested",
+      "note": "An archaic byname for the Secretariat (中书省), from its Wu-Zhou-era renaming; Registrar Pang uses it for the office he secretly serves. Rendered literally, 'the Phoenix Pavilion.'"
+    },
+    "祠部": {
+      "en": "the Bureau of Sacrifices",
+      "pinyin": "Cíbù",
+      "status": "attested",
+      "note": "The bureau under the Ministry of Rites overseeing state religious affairs and the registers of Buddhist, Daoist, and foreign clergy; it keeps the roll of Nestorian temples. Rendering per C. O. Hucker."
     }
   },
   "places": {
@@ -1103,6 +1145,42 @@
       "pinyin": "Zhūquè Mén",
       "status": "decided",
       "note": "The central south gate of the imperial city (the Vermilion Bird Gate), at the head of the Vermilion Bird Avenue."
+    },
+    "义宁坊": {
+      "en": "Yining Ward",
+      "pinyin": "Yìníng Fāng",
+      "status": "decided",
+      "note": "A ward at the far northwest corner of Chang'an, beside the Kaiyuan Gate; site of the city's oldest Nestorian temple, the mother-temple of the faith in China."
+    },
+    "开远门": {
+      "en": "the Kaiyuan Gate",
+      "pinyin": "Kāiyuǎn Mén",
+      "status": "attested",
+      "note": "The northernmost of the three gates in the west wall of Chang'an. Standard."
+    },
+    "布政坊": {
+      "en": "Buzheng Ward",
+      "pinyin": "Bùzhèng Fāng",
+      "status": "decided",
+      "note": "A ward near Yining Ward that also holds a Nestorian temple; parties are sent to search it."
+    },
+    "延康坊": {
+      "en": "Yankang Ward",
+      "pinyin": "Yánkāng Fāng",
+      "status": "decided",
+      "note": "A ward near Yining Ward that also holds a Nestorian temple; parties are sent to search it."
+    },
+    "大秦寺": {
+      "en": "the Daqin Temple",
+      "pinyin": "Dàqín Sì",
+      "status": "attested",
+      "note": "The Nestorian temple of Yining Ward. Officially styled the Persian Temple (波斯寺) until Emperor Xuanzong's 745 (Tianbao 4) decree renamed all such temples 大秦寺 after the faith's true origin in Daqin (the Roman Orient); Yisi's insistence on the name here anticipates that change by a year. Standard identification."
+    },
+    "波斯寺": {
+      "en": "the Persian Temple",
+      "pinyin": "Bōsī Sì",
+      "status": "attested",
+      "note": "The official Tang name for a Nestorian temple before the 745 renaming; see the Daqin Temple. Rendered literally."
     }
   },
   "terms": {
@@ -1573,6 +1651,102 @@
       "pinyin": "sù yóuzi",
       "status": "decided",
       "note": "A Lantern-Festival street food of Chang'an: balls of wet dough deep-fried in oil. Rendered 'plain-oil fritters.'"
+    },
+    "十字莲花": {
+      "en": "the cross-and-lotus",
+      "pinyin": "shízì liánhuā",
+      "status": "decided",
+      "note": "The emblem the dying Cao Poyan names: in Tang Nestorian art a cross rising from a lotus (as atop the 781 Xi'an Stele), fusing the Christian cross with the Buddhist lotus. Rendered 'the cross-and-lotus.'"
+    },
+    "景寺": {
+      "en": "Nestorian temple",
+      "pinyin": "jǐngsì",
+      "status": "decided",
+      "note": "A temple of the Nestorian faith (景教); rendered 'Nestorian temple,' consistent with 景教 = 'Nestorian.'"
+    },
+    "景僧": {
+      "en": "Nestorian monk",
+      "pinyin": "jǐngsēng",
+      "status": "decided",
+      "note": "A cleric of the Nestorian church; the source uses the Buddhist-flavored 僧. Rendered 'Nestorian monk.'"
+    },
+    "三夷教": {
+      "en": "the Three Foreign Religions",
+      "pinyin": "sān yí jiào",
+      "status": "decided",
+      "note": "The Tang grouping of the three Western faiths of the resident foreign communities: Zoroastrianism (祆), Manichaeism (摩尼), and Nestorian Christianity (景). Rendered 'the Three Foreign Religions.'"
+    },
+    "摩尼": {
+      "en": "Manichaeism",
+      "pinyin": "Móní",
+      "status": "attested",
+      "note": "The dualist religion founded by the prophet Mani; one of the Three Foreign Religions of Tang Chang'an. 摩尼庙 = 'Manichaean temple.' Standard identification."
+    },
+    "苫国": {
+      "en": "Sham",
+      "pinyin": "Shàn Guó",
+      "status": "attested",
+      "note": "The Tang name (from Arabic <i>al-Sh&#257;m</i>) for Syria and the Levant, a homeland of some Nestorian believers. Standard identification."
+    },
+    "执事": {
+      "en": "deacon",
+      "pinyin": "zhíshì",
+      "status": "decided",
+      "note": "The temple office Yisi holds; rendered by its Christian equivalent, 'deacon.'"
+    },
+    "大主教": {
+      "en": "archbishop",
+      "pinyin": "dà zhǔjiào",
+      "status": "decided",
+      "note": "The head of the Nestorian church in Chang'an, of a standing like the Zoroastrians' Great Sabao. Rendered 'archbishop.'"
+    },
+    "度牒": {
+      "en": "ordination certificate",
+      "pinyin": "dùdié",
+      "status": "decided",
+      "note": "The official certificate (<i>dudie</i>) licensing a monk or priest; the Bureau checks these to vet the clergy of a temple."
+    },
+    "告解室": {
+      "en": "the confession room",
+      "pinyin": "gàojiě shì",
+      "status": "decided",
+      "note": "The Nestorian temple's confessional (告解 = confession), sealed from sight and sound; Yisi locks Zhang and Tanqi inside it. Rendered 'the confession room.'"
+    },
+    "惜字令": {
+      "en": "the Ordinance to Cherish Written Characters",
+      "pinyin": "Xīzì Lìng",
+      "status": "decided",
+      "note": "An injunction (the custom of <i>jing xi zizhi</i>, revering paper that bears writing) forbidding the use of written-on paper in the privy; Registrar Pang pleads it as his cover. Rendered by sense."
+    },
+    "降神芸香": {
+      "en": "spirit-summoning rue incense",
+      "pinyin": "jiàngshén yúnxiāng",
+      "status": "decided",
+      "note": "A made-to-order incense (芸香 = rue) the Wang household favors, by whose scent Zhang Xiaojing claims to trace Wang Yunxiu. Rendered by sense."
+    },
+    "贞观": {
+      "en": "Zhenguan",
+      "pinyin": "Zhēnguān",
+      "status": "attested",
+      "note": "The reign-era of Emperor Taizong (627&#8211;649); Alopen reached Chang'an in its ninth year, 635. Standard."
+    },
+    "陌刀": {
+      "en": "modao",
+      "pinyin": "mòdāo",
+      "status": "decided",
+      "note": "The long two-handed anti-cavalry saber of the Tang army; used here only as a metaphor for Zhang Xiaojing's cutting words. Rendered by the loanword <i>modao</i>."
+    },
+    "摩羯": {
+      "en": "makara",
+      "pinyin": "mójié",
+      "status": "attested",
+      "note": "The <i>makara</i>, an Indian sea-monster motif that entered Tang decorative art; the Right Shad keeps a makara-shaped wine-pot. Standard."
+    },
+    "录事": {
+      "en": "registrar",
+      "pinyin": "lùshì",
+      "status": "decided",
+      "note": "A record-keeping officer (<i>lushi</i>); rendered 'registrar' to keep it distinct from 主事, 'recorder' (Xu Bin's post)."
     }
   }
 }

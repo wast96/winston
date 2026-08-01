@@ -878,3 +878,162 @@ which are not figures). figures.json stays empty, matching ch01-ch06.
 - 兰台 (source line 134), a poetic alias for the Censorate, is rendered "the
   Censorate" (matching 御史台) rather than transliterated, the referent being the
   same office.
+
+## B08 = ch08 (第八章 酉初 / "The Hour of the Rooster, First Half, 5 p.m.")
+
+Scope: the whole chapter, 20,231 source characters, 369 paragraphs. Ten scenes
+divided by the source's scene-break rules (Image00005.jpg, ten of them). (1) A
+flash-forward vignette of Tanqi fetching plain-oil fritters (recurs verbatim at
+its true moment in scene 3). (2) The Prefecture morgue: Zhang Xiaojing feeds the
+dying Cao Poyan a life-holding broth and, circling in with a false confession of
+his own, goads him until he twice howls the title of the man who shaved his
+crown-hair — "the Right Shad!" — then dies whispering "the cross-and-lotus";
+Zhang smells the Wang household's rue incense on the corpse. (3) The Cibei Temple
+hut: Zhang reports both leads, plants the lie that the Türks hold Wang Yunxiu
+(really Wen Ran); over fritters he and Li Bi trade a philosophical rest (the
+straw-dogs exchange); Xu Bin traces the cross-and-lotus to Nestorian Christianity
+and, from the map, they fix the Right Shad at the Yining Ward temple; Zhang
+borrows Tanqi; on leaving he warns Li Bi of an enemy inside the Bureau, and Li Bi
+tells Xu Bin the same at the foot of the wall. (4) The Right Shad's chamber: the
+old traitor burns his last Türk dispatches, destroys his steppe keepsakes, sneers
+the Mencius creed ("those who labor with their minds govern others"), and toasts
+his coming freedom. (5) The Changming Ward well: Yao Runeng's hound finds a
+hidden woman down the well — who proves to be Wen Ran, not Wang Yunxiu. (6) The
+festival streets and the Nestorian temple: Zhang and Tanqi pose as a devout
+couple; the Persian deacon Yisi guides them, sees through the disguise ("your
+eyes never meet, your shoulders never draw level"), and locks them in the
+confession room. (7) The Bureau hall: Xu Bin hunts the mole, spots the returned
+Cui Qi, and sketches the traitor's profile. (8) Wen Ran is brought in; Li Bi
+grasps Zhang's deception and, his trust broken, orders her confined. (9) The
+horse-hoof passage: Xu Bin's leaked "Wen-Ran" bait catches Registrar Pang passing
+intelligence through the corner gate — but Pang served the Secretariat, not the
+Türks, so there are TWO moles; Xu Bin realizes the water-canal is a second, better
+channel. (10) The watchtowers ringing Guangde Ward go dark one by one, and
+black-clad crossbowmen rise from the canal and storm the Bureau — the chapter's
+cliff-hanger.
+
+Deliverables shipped: out/ch08_bilingual.md (QC only, never ships),
+out/ch08_reading.md, data/zh/ch08.txt, notes.json (3 notes added, 34 total),
+glossary.json updated (new people/orgs/places/terms below), noise.txt extended,
+the rebuilt EPUB, and this log.
+
+### Checks run
+
+- check_numbers.py --noise noise.txt: 369 pairs, 0 unresolved. Four flagged
+  numerals were all NON-quantity numerals (idioms / list enumerators) added to
+  noise.txt, each with its reason: 万物 (以万物为刍狗 = "the myriad things", ≠
+  10000; the neighboring 万事 and 几十万条 were already handled by 万事/万条/[几数]十万),
+  二是 (list enumerator "for another", paired with 一是, ≠ 2, cf. the existing 二来),
+  胡说八道 ("talking nonsense", set phrase, ≠ 8), 六耳 (不传六耳 = "carries to no
+  third party", idiom, ≠ 6). Every added pattern was hand-verified; a genuinely
+  dropped number would still fail. No WORD_NUM change needed. One value that could
+  have flagged, 三丈五 ("three and a half zhang"), did not need noising because the
+  first 三丈's 3 remained present; the lantern heights 三丈/三丈五, 十色/五缕, 二尺余,
+  八角/八棱, 两百人, 一十六盏, 十五道/三百余州 all survive into the English.
+- check_structure.py --pairs: paragraph parity 369 source / 369 translation, OK.
+  Two extractor-split openers were merged (the opening fritters vignette = source
+  lines 2-3; the dateline = source line + its lone full-stop line); every other
+  source line maps one-to-one. The source's content-file heading line "酉初" is
+  absorbed into the H2 chapter title, as in ch01-ch07.
+- Anchor resolution: all 3 ch08 note anchors ("the Nestorian monk Alopen", "as
+  straw dogs", "labor with their minds govern others") are verbatim substrings of
+  the reading text (verified by grep, each exactly once). Builder built (8 of 26
+  chapters, 34 notes) and qa_epub passed: 26 documents, 34 refs / 34 bodies / 34
+  backlinks, all links resolve.
+
+### Notes added (3; 34 total)
+
+1. "the Nestorian monk Alopen" — the historical Church of the East in Tang
+   Chang'an: Alopen's arrival in 635 (Zhenguan 9), the Yining Ward mother-temple,
+   the 781 Nestorian Stele, and the 745 Persian-Temple→Daqin-Temple renaming that
+   makes Yisi's correction run a year ahead of the calendar. Corroborated against
+   scholarship. First appearance of Nestorianism in the book (grep of ch01-ch07:
+   absent), so the note lands here.
+2. "as straw dogs" — Li Bi's Daodejing ch. 5 quotation (天地不仁，以万物为刍狗) and
+   the ritual straw-dog image. Classical allusion, first appearance.
+3. "labor with their minds govern others" — the Right Shad's Mencius quotation
+   (劳心者治人，劳力者治于人) turned into a slaver's creed. Classical allusion.
+   Deliberately NOT re-noted: Ozmish Khagan (noted ch01), and the Right Shad title
+   itself (first appeared ch02, so its note-slot is past); both are reused per the
+   glossary without a fresh note.
+
+### Glossary rows added
+
+People: Yisi (伊斯, attested — the Nestorian-Stele resonance), Alopen (阿罗本,
+attested), Mishihe (弥施诃 = the Messiah, attested), Registrar Pang (庞录事).
+Organizations: the Secretariat (中书省, Hucker), the Phoenix Pavilion (凤阁, its
+byname), the Bureau of Sacrifices (祠部, Hucker). Places: Yining Ward (义宁坊), the
+Kaiyuan Gate (开远门, attested), Buzheng Ward (布政坊), Yankang Ward (延康坊), the
+Daqin Temple (大秦寺, attested), the Persian Temple (波斯寺, attested). Terms: the
+cross-and-lotus (十字莲花), Nestorian temple (景寺), Nestorian monk (景僧), the Three
+Foreign Religions (三夷教), Manichaeism (摩尼, attested), Sham (苫国, attested),
+deacon (执事), archbishop (大主教), ordination certificate (度牒), the confession
+room (告解室), the Ordinance to Cherish Written Characters (惜字令), spirit-summoning
+rue incense (降神芸香), Zhenguan (贞观, attested), modao (陌刀), makara (摩羯,
+attested), registrar (录事, kept distinct from 主事 "recorder"). Every recurring
+referent already decided in ch01-ch07 was reused verbatim, NOT re-romanized —
+crucially the pre-seeded 右杀 = "the Right Shad", 乌苏米施可汗 = "Ozmish Khagan",
+阿史那 = "Ashina", 景教 = "Nestorian", 祆教 = "Zoroastrianism", 熊火帮 = "the Bear
+Fire Gang", 细犬 = "sighthound", 慈悲寺 = "the Cibei Temple", and the whole cast
+(Zhang Xiaojing, Li Bi / Deputy Director Li, Tanqi, Xu Bin, Yao Runeng, Cui Qi,
+Cao Poyan, Ma Ge'er, Long Bo, Wen Ran, Wang Yunxiu, Gan Shoucheng, Prince
+Yong/Li Lin, Li Linfu / the Right Minister; the Jing'an Bureau, the Lüben Guards,
+the Right Xiao Guard, the Jingzhao Prefecture, the Court of Judicial Review, the
+Censorate; Guangde/Changming/Xiuzheng/Dunyi/Yining Wards, the West Market, the
+Long Mountains, the Leyou Plateau; the Wolf Guards, Türk, barrier-knife,
+fierce-fire thunder, the double-hour, watchtower, the Lantern Festival, etc.).
+
+### Figures
+
+None. The chapter has no content illustration in its source (only the book-wide
+footnote-marker glyph Image00004.jpg and ten instances of the scene-break rule
+Image00005.jpg, neither a figure). figures.json stays empty, matching ch01-ch07.
+
+### Blind double-translation + back-translation (separate contexts)
+
+- Double-translation (literary sample): the straw-dogs exchange (source line 83,
+  Li Bi on the solitary Daoist heart and the hundreds of thousands of lives in his
+  hand) was re-translated blind in a fresh context. The independent rendering
+  matched the shipped one in sense, register, and the Daodejing allusion ("Heaven
+  and earth are without benevolence; they treat the ten thousand things as straw
+  dogs" vs. our "…are not benevolent; they treat the myriad things as straw
+  dogs"); 几十万 came back as "several hundred thousand" against our "hundreds of
+  thousands" — equivalent. No divergence in meaning. 0 errors.
+- Back-translation (number-dense sample): our English of source line 37 (Zhang's
+  "fifteen circuits and their governing seats, and more than three hundred
+  prefectures … Luoyang … Yangzhou, Jiangling, Chengdu … herd-slaves") was
+  rendered back to Chinese blind. Every quantity and place survived the round trip
+  — 十五道及其治所, 州府三百余座, 洛阳/扬州/江陵/成都, 连根拔起, 牧奴 — with no
+  omission or number drift. 0 errors.
+- Sample error rate: 0 errors across the two audited passages (~4% of the
+  chapter's characters), consistent with ch01-ch07.
+
+### Flagged for the read-through
+
+- The opening (source lines 2-3) is a FLASH-FORWARD vignette of Tanqi fetching the
+  plain-oil fritters; the identical sentences recur at their true moment in the
+  hut scene (source line 94) and were translated identically in both places, per
+  the ch04-ch07 precedent for authorial echoes. The source's line-94 recurrence
+  drops one character (writes 子是素油炸的 for 油子是素油炸的); rendered identically to
+  the opening regardless, as the vignette is meant to match.
+- The source's per-chapter time-gloss ("下午5点。酉又名日落、日沉、傍晚：意为太阳落山
+  的时候。（北京时间17是至19时）") is captured as the final source paragraph and
+  rendered as the source's own italic note, per house style. The gloss's common
+  words 日落/日沉/傍晚 are translated (sunset / sundown / dusk), not romanized,
+  since they are ordinary words (unlike ch06/ch07's technical 日铺/日晡). Authorial
+  typo in the gloss: "17是至19时" for "17时至19时" (是 for 时); rendered by intent as
+  "17:00 to 19:00". Trivial, not footnoted.
+- Ten scenes are divided in the source by decorative rules (Image00005.jpg);
+  following ch01-ch07 house style the reading text renders the scene shifts as
+  plain paragraph breaks, with no separator glyph (the source's rule image is not
+  a figure). If visible scene breaks are wanted, that is a global change to make
+  across all chapters at once.
+- 陌刀 (source line 38, "言语陌刀") is the long two-handed Tang saber, used here only
+  as a metaphor for Zhang's cutting words; rendered "the keen modao of his words"
+  (glossary row added), not footnoted — a passing figure, not a real weapon in the
+  scene.
+- 弥施诃 / the crucifixion account (source lines 220-222) is the Passion as Tang
+  Nestorians told it (Mishihe = the Messiah, 大秦州官 = a Roman provincial officer =
+  Pilate); rendered faithfully and glossed in the glossary. It shares the chapter's
+  single Nestorian footnote (on Alopen) rather than taking a second note, to keep
+  the density at ~3.

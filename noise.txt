@@ -184,3 +184,17 @@
 一万步
 # 七绕八转 = "winding this way and that" (cf. 七转八弯 already listed), not 7/8
 七绕八转
+# ch08: 万物 = "the myriad things / all creatures" (Laozi 以万物为刍狗); the 万 is
+# not the quantity 10000. English renders it "the myriad things." (万事/万条 already
+# listed handle the neighboring 万事不萦于怀 and 几十万条.)
+万物
+# ch08: 二是… = "for another / secondly" (list enumerator, paired with 一是…); the 二
+# is not the quantity 2. English renders it "for another" (cf. 二来 already listed).
+二是
+# ch08: 胡说八道 = "talking nonsense" (idiom); the 八 is part of the set phrase, not
+# the quantity 8. English renders it "talking his nonsense."
+胡说八道
+# ch08: 不传六耳 = "carries to no third party" (idiom: a secret kept between two, not
+# reaching a sixth ear); the 六 is not the quantity 6. English renders it "carries to
+# no third pair of ears."
+六耳
