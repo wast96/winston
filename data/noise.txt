@@ -80,3 +80,22 @@
 四川
 # 五金(公司) hardware / metalware ("five metals"), a trade term, not the count 5.
 五金
+# B06 additions (see PROGRESS.md):
+# 千秋 "a thousand autumns / for all ages" (千秋同敌忾), an idiom, not the count 1000.
+千秋
+# 大千 in 大千世界 (the amusement hall) and 张大千 (the painter Zhang Daqian): 千 is
+# a name/venue syllable, not the count 1000.
+大千
+# 沙千里 (Sha Qianli), one of the Seven Gentlemen: the 千 in the name is not 1000.
+沙千里
+# 沈兹九 (Shen Zijiu), one of the four "democratic big sisters": the 九 is a name syllable.
+沈兹九
+# 星二/星三/星四/星五 (Tuesday/Wednesday/Thursday/Friday Dining Clubs): weekday
+# abbreviations, the numeral is a day-of-week label, not a quantity.
+星[二三四五]
+# 一而再，再而三 "again and again": 再而三's 三 is idiom, not the count 3.
+再而三
+# 百科 in 大百科全书 (Encyclopedia of China Publishing House): 百 is not the count 100.
+百科
+# 八仙桥 (Baxianqiao, a Shanghai place name): the 八 is not the count 8.
+八仙桥

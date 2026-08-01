@@ -596,3 +596,102 @@ their captions). ch14 has none. Pillow installed for interior greyscaling.
 Build: out/The Autobiography of Huang Mulan.epub, 15 of 44 chapters translated
 (ch00-ch14), 49 notes. qa_epub.py PASS (89 files, 50 documents, 322 paragraphs, all
 links resolve). ch22-ch38 remain pending skeleton pages, as commissioned.
+
+## B06 = ch15-ch16  (DONE)
+
+Scope translated: ch15 (Ch 15, Resistance and National Salvation), ch16 (Ch 16,
+Struggle on the Solitary Island). 17,874 source chars. No part poem in this batch
+(Part Three's 临江仙 was folded into ch13 in B05; Part Four opens at ch22, out of
+scope).
+
+Method: same as B02-B05. English to out/<id>_en.txt (one paragraph per line, first
+line = English title). scripts/gen_bilingual_b02.py DROP map extended with ch15
+(header+title + captions 7,8,13,14,26,27,31) and ch16 (header+title + captions
+9,10,31,32). No source endnotes in either chapter (the only <h2 filepos anchors are
+the chapter titles). ch16's 风雨书屋 publication list (source lines 7,8,11-15) is body
+text and kept as seven short paragraphs.
+
+Paragraph counts (source = translation): ch15 25, ch16 33. Parity held on first
+generation for both.
+
+Source structure handling: ch15 has 5 photo captions -> images 00037-00041; line 8
+(the author's inscribed quatrain on the 1936 义演 photo, image 00037) is an
+inscription, DROPPED from the reading text and rendered in a footnote. ch16 has 3
+captions -> images 00042-00044 (line 32 is the cover-photo 说明/roster, folded into
+the 00044 caption). The reversed caption line ch15/31 was decoded (mirror-printed in
+the source) before translation. Image order in the HTML confirmed with
+`grep -o 'images/[0-9]*\.jpg'`, basenames map straight to data/figs/. All 8 figures
+verified placed in the built xhtml.
+
+Checks run and results:
+- check_numbers.py (with data/noise.txt): ch15/ch16 both 0 unresolved. Real
+  quantities carried; where the parser needs the exact form, digits were used
+  (25,000 for 两万五千, 15,000 for 一万五千, "45th anniversary" for 四十五周年, "29th
+  Army" for 二十九军 -- the tens-ones ordinal is not in WORD_NUM). noise.txt gained
+  千秋, 大千 (大千世界/张大千), 沙千里, 沈兹九, 星[二三四五] (weekday club names),
+  百科 (大百科全书), 八仙桥, 再而三, 沙/etc. check_numbers.py NOISE also gained two
+  general ordering-safe patterns at the top: [幾几][十百千][萬万] (好几十万 -> stray
+  万) and 十[幾几][個个] (十几个 -> stray 十), longest-first so they strip before the
+  generic 几+classifier rule.
+- check_structure.py --pairs: ch15 25|25 OK, ch16 33|33 OK.
+- Blind double-translation (fresh-context subagent) of the 救国会 founding paragraph,
+  the 三三制/星五 argumentative paragraph, and four verse passages (the sending-off
+  quatrain, Guo Moruo's 别妇抛儿 couplet, his 梁红玉/金素琴 quatrain, 匈奴未灭何以家为):
+  no meaning divergence from the shipped text.
+- Round-trip back-translation of the 救国会 founding paragraph and the 论持久战
+  purchase-list / New Fourth Army courier paragraph: no dropped clauses.
+
+Fact-check against scholarship (Wikipedia / Baidu Baike / academic; never AI sources):
+- 全国各界救国联合会 founding: CONTRADICTED on the year. Memoir says 31 May 1931 and
+  places it before the 1932 民权保障同盟; scholarship dates it 31 May 1936 (day and
+  month right, year five years early; the 1936 League for Civil Rights actually came
+  first, and the 七君子 it led were seized Nov 1936). Rendered as written, footnoted.
+- 饶家驹 = Robert Jacquinot de Besange, the "One-Armed Father" and founder of the
+  1937 Nanshi Refugee Zone (Jacquinot Safe Zone): CORROBORATED. But the memoir's
+  "arm blown off by German shellfire in WWI" is CONTRADICTED: he lost the arm in a
+  1914 fireworks accident at Xujiahui. Footnoted with the correction.
+- 七君子案 (names + 23 Nov 1936 arrest, ~31 Jul 1937 release): corroborated.
+- 刘湛恩 (first Chinese president of 沪江大学, assassinated 1938): corroborated.
+- 梅益/梅雨 (translator of 钢铁是怎样炼成的; broadcasting + Encyclopedia posts):
+  corroborated. 朱学范 (Du disciple; first PRC Posts minister, 民革 chair): corroborated.
+- 西行漫记 = Snow's Red Star Over China vs 黄镇's 西行漫画 (Long March sketches, later
+  长征画册): confirmed DISTINCT works (记 notes vs 画 pictures); footnoted so the two
+  similar titles are not conflated. 每日译报 (British-flag paper, Qian Nashui editor)
+  and 刘少文 (Eighth Route Office secretary-general, b. 1905): corroborated.
+
+Footnotes: 7 added (56 total; ch15 50-53, ch16 54-56). ch15: the 1931-vs-1936 founding
+discrepancy; Father Rao/Jacquinot (with the WWI-vs-1914 arm correction); the 00037
+photo inscription quatrain; Liang Hongyu (the Southern Song heroine the wartime opera
+invokes). ch16: the two British publisher names (provisional reconstructions of
+孙特士·斐士/拿门·鲍纳); the 三三制 three-thirds system + Tuesday Dining Club; Red Star
+Over China vs the Huang Zhen sketch album.
+
+Glossary: 165 rows added (123 people, 29 orgs/periodicals, 11 places, 2 terms;
+totals now 342 people / 76 orgs / 49 places / 14 terms). Notables: the seven 七君子
+(Shen Junru etc.), Song Meiling, Song Ailing, Kong Xiangxi/Kong Lingkan, Du
+Yuesheng's circle (Zhu Xuefan, Du Weifan, Yao Yulan), the Tuesday-Dining-Club roster
+(Zhang Zonglin, Liu Zhan'en, Chen Heqin, Gu Zhizhong, Wu Dakun, Wu Yaozong, Zhao
+Puchu, etc.), Guo Moruo's circle (Yu Liqun, Lin Lin, Yao Qianxiu, Xian Xinghai), the
+four democratic big sisters (Shi Liang, Luo Shuzhang, Shen Zijiu, Hu Ziying), He
+Xiangning's daughter Liao Mengxing, Mei Yi, Xia Yan's paper people (Yang Fan, Wang
+Renshu, Jiang Chunfang, Cao Diqiu, Wei Que), Rao Jiaju, Yan Huiqing, Ke Lin, Snow,
+Ma Zhanshan, Zhang Fakui, Cheng Qian, Hu Zongnan. Orgs/periodicals: the Salvation
+Federation, League for Civil Rights, Women's Comfort/Salvation Association,
+Association for the Support of Resistance to the Enemy, International Relief
+Association, Charity Federation, World and China Society, Wind and Rain Bookroom,
+Tuesday/Friday Dining Clubs, Documents, Daily Translation Herald, Sketches of the
+Westward Journey, Red Star Over China, L'Humanité, etc. Reused every prior decision
+(Kuomintang, Zhou Enlai, Chen Zhigao, Pan Hannian, Liu Shaowen, A Ying, He
+Xiangning, Song Qingling, the author's three name rows, Guo Yushang, Xu Jiqing,
+Tongyi Company, etc.). Provisional flags on minor one-off names and the two English
+publisher names.
+
+Figures: 8 placed. ch15 00037-00041 (义演 costume photo, the 七君子 lawyers' team +
+roster, the Guo-inscribed charity painting, the early-war group with the French
+consul's wife, the reversed relief-shelter staff caption). ch16 00042-00044
+(Documents masthead, the Chen Yuanlong couplet, the Shanghai Women cover with its
+roster). Each carries the source's own caption translated; rosters folded in.
+
+Build: out/The Autobiography of Huang Mulan.epub, 17 of 44 chapters translated
+(ch00-ch16), 56 notes. qa_epub.py PASS (97 files, 50 documents, 378 paragraphs, all
+links resolve). ch22-ch38 remain pending skeleton pages, as commissioned.

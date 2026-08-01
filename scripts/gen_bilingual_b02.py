@@ -42,6 +42,15 @@ DROP = {
     "ch13": ("20_index-split-018.txt", {1, 2, 4, 8, 11, 12, 19, 22}),
     # ch14 has NO images, so only header(1) + title(2) drop.
     "ch14": ("21_index-split-019.txt", {1, 2}),
+    # B06: ch15 has 5 photo captions -- line 7 (Fanmaji-costume charity photo, img
+    # 00037) with its inscribed poem on line 8; line 13 (lawyers' team, 00038) with
+    # its roster line 14; line 26 (charity-sale painting, 00039); line 27 (early-
+    # resistance group, 00040); line 31 (reversed relief-shelter caption, 00041).
+    "ch15": ("22_index-split-020.txt", {1, 2, 7, 8, 13, 14, 26, 27, 31}),
+    # ch16 has 3 photo captions -- line 9 (Documents masthead, 00042); line 10 (the
+    # couplet, 00043); line 31 (Shanghai Women cover, 00044) with its 说明 roster
+    # line 32. The 风雨书屋 publication list (lines 7,8,11-15) is BODY text, kept.
+    "ch16": ("23_index-split-021.txt", {1, 2, 9, 10, 31, 32}),
 }
 # Part-opening chapters prepend the part's 临江仙 poem: file, 1-indexed lines to
 # KEEP (poem title + 2 stanzas). ch05 = Part Two; ch13 = Part Three.

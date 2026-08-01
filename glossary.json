@@ -1,1865 +1,2855 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. status: 'attested' (form used in English scholarship / corroborated by reference works, citation in note), 'decided' (project style call, e.g. standard pinyin or a fixed convention), 'provisional' (a romanization of mine not found attested; the builder appends a visible marker). Sections render as glossary headings; keys starting with '_' are ignored.",
-  "book": {},
-  "people": {
-    "黄慕兰": {
-      "en": "Huang Mulan",
-      "pinyin": "Huáng Mùlán",
-      "status": "decided",
-      "note": "The author. Name taken in 1926 on joining the revolution (&#24917;&#20848;, &#8216;admiring Mulan&#8217;); the book&#8217;s title form."
-    },
-    "黄彰定": {
-      "en": "Huang Zhangding",
-      "pinyin": "Huáng Zhāngdìng",
-      "status": "attested",
-      "note": "The author&#8217;s birth and school name; style name Shuyi (&#28113;&#20202;). Corroborated by Chinese biographies."
-    },
-    "黄定慧": {
-      "en": "Huang Dinghui",
-      "pinyin": "Huáng Dìnghuì",
-      "status": "attested",
-      "note": "A later name the author adopted in 1932; the form under which she is widely cited and by which the book&#8217;s photographs caption her."
-    },
-    "谭嗣同": {
-      "en": "Tan Sitong",
-      "pinyin": "Tán Sìtóng",
-      "status": "attested",
-      "note": "1865&#8211;1898; Liuyang reformer, one of the &#8216;Six Gentlemen&#8217; of 1898."
-    },
-    "唐才常": {
-      "en": "Tang Caichang",
-      "pinyin": "Táng Cáicháng",
-      "status": "attested",
-      "note": "1867&#8211;1900; Liuyang reformer, with Tan Sitong the &#8216;Two Heroes of Liuyang.&#8217;"
-    },
-    "欧阳中鹄": {
-      "en": "Ouyang Zhonghu",
-      "pinyin": "Ōuyáng Zhōnghú",
-      "status": "attested",
-      "note": "1849&#8211;1911; Liuyang Confucian scholar, teacher of Tan and Tang."
-    },
-    "欧阳予倩": {
-      "en": "Ouyang Yuqian",
-      "pinyin": "Ōuyáng Yùqiàn",
-      "status": "attested",
-      "note": "1889&#8211;1962; dramatist; grandson of Ouyang Zhonghu."
-    },
-    "詹天佑": {
-      "en": "Zhan Tianyou",
-      "pinyin": "Zhān Tiānyòu",
-      "status": "attested",
-      "note": "1861&#8211;1919 (Jeme Tien Yow); pioneering railway engineer of the Beijing&#8211;Zhangjiakou line."
-    },
-    "秋瑾": {
-      "en": "Qiu Jin",
-      "pinyin": "Qiū Jǐn",
-      "status": "attested",
-      "note": "1875&#8211;1907; woman revolutionary, executed 1907."
-    },
-    "花木兰": {
-      "en": "Hua Mulan",
-      "pinyin": "Huā Mùlán",
-      "status": "attested",
-      "note": "Legendary woman warrior of the &#8216;Ballad of Mulan&#8217;; source of the author&#8217;s name."
-    },
-    "毛泽东": {
-      "en": "Mao Zedong",
-      "pinyin": "Máo Zédōng",
-      "status": "attested"
-    },
-    "朱剑凡": {
-      "en": "Zhu Jianfan",
-      "pinyin": "Zhū Jiànfán",
-      "status": "attested",
-      "note": "1883&#8211;1932; founder of Zhounan Girls&#8217; School."
-    },
-    "向警予": {
-      "en": "Xiang Jingyu",
-      "pinyin": "Xiàng Jǐngyǔ",
-      "status": "attested"
-    },
-    "蔡畅": {
-      "en": "Cai Chang",
-      "pinyin": "Cài Chàng",
-      "status": "attested"
-    },
-    "孙中山": {
-      "en": "Sun Yat-sen",
-      "pinyin": "Sūn Zhōngshān",
-      "status": "attested",
-      "note": "Conventional English form retained; d. 1925."
-    },
-    "蒋介石": {
-      "en": "Chiang Kai-shek",
-      "pinyin": "Jiǎng Jièshí",
-      "status": "attested",
-      "note": "Conventional English form retained."
-    },
-    "宋庆龄": {
-      "en": "Song Qingling",
-      "pinyin": "Sòng Qìnglíng",
-      "status": "attested"
-    },
-    "何香凝": {
-      "en": "He Xiangning",
-      "pinyin": "Hé Xiāngníng",
-      "status": "attested",
-      "note": "Wife of Liao Zhongkai; Kuomintang left-wing leader."
-    },
-    "廖仲恺": {
-      "en": "Liao Zhongkai",
-      "pinyin": "Liào Zhòngkǎi",
-      "status": "attested"
-    },
-    "李大钊": {
-      "en": "Li Dazhao",
-      "pinyin": "Lǐ Dàzhāo",
-      "status": "attested"
-    },
-    "董必武": {
-      "en": "Dong Biwu",
-      "pinyin": "Dǒng Bìwǔ",
-      "status": "attested"
-    },
-    "陈潭秋": {
-      "en": "Chen Tanqiu",
-      "pinyin": "Chén Tánqiū",
-      "status": "attested",
-      "note": "1896&#8211;1943; CCP founding member; the author&#8217;s leader in the Jiangxi underground."
-    },
-    "瞿秋白": {
-      "en": "Qu Qiubai",
-      "pinyin": "Qú Qiūbái",
-      "status": "attested"
-    },
-    "杨之华": {
-      "en": "Yang Zhihua",
-      "pinyin": "Yáng Zhīhuá",
-      "status": "attested",
-      "note": "Wife of Qu Qiubai."
-    },
-    "杨开慧": {
-      "en": "Yang Kaihui",
-      "pinyin": "Yáng Kāihuì",
-      "status": "attested",
-      "note": "Wife of Mao Zedong."
-    },
-    "邓颖超": {
-      "en": "Deng Yingchao",
-      "pinyin": "Dèng Yǐngchāo",
-      "status": "attested"
-    },
-    "宛希俨": {
-      "en": "Wan Xiyan",
-      "pinyin": "Wǎn Xīyǎn",
-      "status": "attested",
-      "note": "1903&#8211;1928; the author&#8217;s first husband."
-    },
-    "杜韫章": {
-      "en": "Du Yunzhang",
-      "pinyin": "Dù Yùnzhāng",
-      "status": "attested",
-      "note": "Original name of Zhang Yun (&#31456;&#34164;, 1905&#8211;1995); the source glosses the identity inline."
-    },
-    "李子芬": {
-      "en": "Li Zifen",
-      "pinyin": "Lǐ Zǐfēn",
-      "status": "decided",
-      "note": "Standard pinyin; the CYL organizer who recruited the author."
-    },
-    "袁溥之": {
-      "en": "Yuan Puzhi",
-      "pinyin": "Yuán Pǔzhī",
-      "status": "attested",
-      "note": "d. 1994; Northern Expedition comrade of the author."
-    },
-    "张笃和": {
-      "en": "Zhang Duhe",
-      "pinyin": "Zhāng Dǔhé",
-      "status": "decided",
-      "note": "Standard pinyin of a comrade of the author&#8217;s Wuhan years."
-    },
-    "郭沫若": {
-      "en": "Guo Moruo",
-      "pinyin": "Guō Mòruò",
-      "status": "attested"
-    },
-    "茅盾": {
-      "en": "Mao Dun",
-      "pinyin": "Máo Dùn",
-      "status": "attested",
-      "note": "Pen name of Shen Yanbing (&#27784;&#38597;&#20912;)."
-    },
-    "恽代英": {
-      "en": "Yun Daiying",
-      "pinyin": "Yùn Dàiyīng",
-      "status": "attested"
-    },
-    "潘汉年": {
-      "en": "Pan Hannian",
-      "pinyin": "Pān Hànnián",
-      "status": "attested"
-    },
-    "苏兆征": {
-      "en": "Su Zhaozheng",
-      "pinyin": "Sū Zhàozhēng",
-      "status": "attested"
-    },
-    "彭湃": {
-      "en": "Peng Pai",
-      "pinyin": "Péng Pài",
-      "status": "attested"
-    },
-    "岳飞": {
-      "en": "Yue Fei",
-      "pinyin": "Yuè Fēi",
-      "status": "attested",
-      "note": "1103&#8211;1142; Southern Song general."
-    },
-    "周恩来": {
-      "en": "Zhou Enlai",
-      "pinyin": "Zhōu Ēnlái",
-      "status": "attested",
-      "note": "1898&#8211;1976; then the real director of the Party&#8217;s underground work in Shanghai; the author&#8217;s superior."
-    },
-    "陈独秀": {
-      "en": "Chen Duxiu",
-      "pinyin": "Chén Dúxiù",
-      "status": "attested",
-      "note": "1879&#8211;1942; first general secretary of the CCP, removed at the August Seventh Conference of 1927."
-    },
-    "刘少奇": {
-      "en": "Liu Shaoqi",
-      "pinyin": "Liú Shàoqí",
-      "status": "attested"
-    },
-    "李立三": {
-      "en": "Li Lisan",
-      "pinyin": "Lǐ Lìsān",
-      "status": "attested"
-    },
-    "李一纯": {
-      "en": "Li Yichun",
-      "pinyin": "Lǐ Yīchún",
-      "status": "decided",
-      "note": "Wife of Li Lisan; standard pinyin."
-    },
-    "汪精卫": {
-      "en": "Wang Jingwei",
-      "pinyin": "Wāng Jīngwèi",
-      "status": "attested"
-    },
-    "贺昌": {
-      "en": "He Chang",
-      "pinyin": "Hè Chāng",
-      "status": "attested",
-      "note": "1906&#8211;1935; the author&#8217;s second husband; killed covering the Long March rearguard."
-    },
-    "饶漱石": {
-      "en": "Rao Shushi",
-      "pinyin": "Ráo Shùshí",
-      "status": "attested",
-      "note": "1903&#8211;1975; later condemned in the 1954 Gao&#8211;Rao affair."
-    },
-    "向忠发": {
-      "en": "Xiang Zhongfa",
-      "pinyin": "Xiàng Zhōngfā",
-      "status": "attested",
-      "note": "1880&#8211;1931; figurehead general secretary of the CCP from 1928."
-    },
-    "关向应": {
-      "en": "Guan Xiangying",
-      "pinyin": "Guān Xiàngyìng",
-      "status": "attested"
-    },
-    "邓小平": {
-      "en": "Deng Xiaoping",
-      "pinyin": "Dèng Xiǎopíng",
-      "status": "attested"
-    },
-    "李富春": {
-      "en": "Li Fuchun",
-      "pinyin": "Lǐ Fùchūn",
-      "status": "attested"
-    },
-    "吴德峰": {
-      "en": "Wu Defeng",
-      "pinyin": "Wú Défēng",
-      "status": "attested",
-      "note": "Director of the Central Liaison Bureau."
-    },
-    "徐虔直": {
-      "en": "Xu Qianzhi",
-      "pinyin": "Xú Qiánzhí",
-      "status": "provisional",
-      "note": "Wife of Chen Tanqiu; romanization of &#24464;&#34385;&#30452; not found attested."
-    },
-    "龚饮冰": {
-      "en": "Gong Yinbing",
-      "pinyin": "Gōng Yǐnbīng",
-      "status": "decided",
-      "note": "Standard pinyin; underground courier work."
-    },
-    "谢冰莹": {
-      "en": "Xie Bingying",
-      "pinyin": "Xiè Bīngyíng",
-      "status": "attested",
-      "note": "1906&#8211;2000; writer, author of <i>Diary of a Woman Soldier</i>; Whampoa 6th-class woman cadet."
-    },
-    "胡兰畦": {
-      "en": "Hu Lanqi",
-      "pinyin": "Hú Lánqí",
-      "status": "attested",
-      "note": "1901&#8211;1994; writer, author of <i>In Prison</i>; Whampoa 6th-class woman cadet."
-    },
-    "陈友仁": {
-      "en": "Eugene Chen",
-      "pinyin": "Chén Yǒurén",
-      "status": "attested",
-      "note": "1878&#8211;1944; foreign minister of the Wuhan Nationalist government; conventional English form retained."
-    },
-    "邓演达": {
-      "en": "Deng Yanda",
-      "pinyin": "Dèng Yǎndá",
-      "status": "attested"
-    },
-    "唐生智": {
-      "en": "Tang Shengzhi",
-      "pinyin": "Táng Shēngzhì",
-      "status": "attested"
-    },
-    "张发奎": {
-      "en": "Zhang Fakui",
-      "pinyin": "Zhāng Fākuí",
-      "status": "attested"
-    },
-    "贺龙": {
-      "en": "He Long",
-      "pinyin": "Hè Lóng",
-      "status": "attested"
-    },
-    "叶挺": {
-      "en": "Ye Ting",
-      "pinyin": "Yè Tǐng",
-      "status": "attested"
-    },
-    "吴佩孚": {
-      "en": "Wu Peifu",
-      "pinyin": "Wú Pèifú",
-      "status": "attested",
-      "note": "Zhili-clique warlord."
-    },
-    "孙传芳": {
-      "en": "Sun Chuanfang",
-      "pinyin": "Sūn Chuánfāng",
-      "status": "attested",
-      "note": "Warlord of the five southeastern provinces."
-    },
-    "张作霖": {
-      "en": "Zhang Zuolin",
-      "pinyin": "Zhāng Zuòlín",
-      "status": "attested",
-      "note": "Fengtian-clique warlord."
-    },
-    "鲍罗廷": {
-      "en": "Borodin",
-      "pinyin": "Bàoluótíng",
-      "status": "attested",
-      "note": "Mikhail Borodin (1884&#8211;1951), Comintern adviser to the Kuomintang at Wuhan."
-    },
-    "沈定一": {
-      "en": "Shen Dingyi",
-      "pinyin": "Shěn Dìngyī",
-      "status": "attested",
-      "note": "1883&#8211;1928; early Communist; father of Shen Jianlong."
-    },
-    "沈剑龙": {
-      "en": "Shen Jianlong",
-      "pinyin": "Shěn Jiànlóng",
-      "status": "decided",
-      "note": "First husband of Yang Zhihua; son of Shen Dingyi."
-    },
-    "夏斗寅": {
-      "en": "Xia Douyin",
-      "pinyin": "Xià Dòuyín",
-      "status": "attested",
-      "note": "Northern Expedition officer who mutinied against the Communists in May 1927."
-    },
-    "许克祥": {
-      "en": "Xu Kexiang",
-      "pinyin": "Xǔ Kèxiáng",
-      "status": "attested",
-      "note": "Launched the Changsha &#8220;Horse Day&#8221; coup, 21 May 1927."
-    },
-    "耿丹": {
-      "en": "Geng Dan",
-      "pinyin": "Gěng Dān",
-      "status": "decided",
-      "note": "Styled Zhongzhao; deputy commander of the 15th Army; husband of Zhang Duhe."
-    },
-    "赵畹华": {
-      "en": "Zhao Wanhua",
-      "pinyin": "Zhào Wǎnhuá",
-      "status": "decided",
-      "note": "Standard pinyin; the author&#8217;s Wuhan-years comrade."
-    },
-    "梁剑华": {
-      "en": "Liang Jianhua",
-      "pinyin": "Liáng Jiànhuá",
-      "status": "decided"
-    },
-    "汪华贞": {
-      "en": "Wang Huazhen",
-      "pinyin": "Wāng Huázhēn",
-      "status": "decided",
-      "note": "Director of the Institute for Reforming New People at Wuhan."
-    },
-    "刘少文": {
-      "en": "Liu Shaowen",
-      "pinyin": "Liú Shàowén",
-      "status": "attested",
-      "note": "Subject of Appendix III; interpreter at the 1927 Wuhan reception."
-    },
-    "江一平": {
-      "en": "Jiang Yiping",
-      "pinyin": "Jiāng Yīpíng",
-      "status": "attested",
-      "note": "Prominent Shanghai lawyer of the 1920s&#8211;30s; son-in-law of the magnate Yu Qiaqing. Assigned as the author&#8217;s duty defense lawyer in her 1929 mill-strike trial."
-    },
-    "虞洽卿": {
-      "en": "Yu Qiaqing",
-      "pinyin": "Yú Qiàqīng",
-      "status": "attested",
-      "note": "Powerful Ningbo-born comprador and business magnate of Republican Shanghai."
-    },
-    "李维汉": {
-      "en": "Li Weihan",
-      "pinyin": "Lǐ Wéihàn",
-      "status": "attested",
-      "note": "Alias Luo Mai (&#32599;&#36808;). Central Committee member and secretary of the Jiangsu Provincial Committee about 1929; a senior Party organizer."
-    },
-    "王明": {
-      "en": "Wang Ming",
-      "pinyin": "Wáng Míng",
-      "status": "attested",
-      "note": "Chen Shaoyu; leader of the Moscow-trained &#8216;28 Bolsheviks&#8217; and of the third &#8216;Left&#8217; line (1931&#8211;35). Here still an obscure Red Flag reporter."
-    },
-    "夏征农": {
-      "en": "Xia Zhengnong",
-      "pinyin": "Xià Zhēngnóng",
-      "status": "attested",
-      "note": "Veteran Communist and writer; a member of the Central Advisory Commission in the 1980s."
-    },
-    "聂荣臻": {
-      "en": "Nie Rongzhen",
-      "pinyin": "Niè Róngzhēn",
-      "status": "attested",
-      "note": "Later a marshal of the People&#8217;s Republic; in 1929&#8211;30 in charge of military work under the Guangdong Provincial Committee / Southern Bureau."
-    },
-    "柯麟": {
-      "en": "Ke Lin",
-      "pinyin": "Kē Lín",
-      "status": "attested",
-      "note": "Communist doctor who ran a Shanghai clinic (the Dasheng Clinic) as an underground liaison cover."
-    },
-    "李强": {
-      "en": "Li Qiang",
-      "pinyin": "Lǐ Qiáng",
-      "status": "attested",
-      "note": "Builder of the Party&#8217;s first wireless sets and secret radio stations; later PRC Minister of Foreign Trade."
-    },
-    "张瑞华": {
-      "en": "Zhang Ruihua",
-      "pinyin": "Zhāng Ruìhuá",
-      "status": "attested",
-      "note": "Nie Rongzhen&#8217;s wife and a Party worker."
-    },
-    "熊瑾玎": {
-      "en": "Xiong Jinding",
-      "pinyin": "Xióng Jǐndīng",
-      "status": "attested",
-      "note": "Manager of the Party Central&#8217;s clandestine finances in Shanghai."
-    },
-    "贺平": {
-      "en": "He Ping",
-      "pinyin": "Hè Píng",
-      "status": "decided",
-      "note": "The author&#8217;s second son, by He Chang, born March 1930 in Hong Kong; given to Lu Biao to raise and renamed Lu Ziping, later Lu Ping (&#21346;&#24179;)."
-    },
-    "卢彪": {
-      "en": "Lu Biao",
-      "pinyin": "Lú Biāo",
-      "status": "attested",
-      "note": "Successor to He Chang as Southern Bureau (Guangdong Provincial Committee) secretary; adoptive father of the author&#8217;s son He Ping."
-    },
-    "何葆贞": {
-      "en": "He Baozhen",
-      "pinyin": "Hé Bǎozhēn",
-      "status": "attested",
-      "note": "Liu Shaoqi&#8217;s wife (also written He Baozhen / He Bao&#8217;e), a Party worker and the author&#8217;s former Wuhan colleague; martyred 1934."
-    },
-    "彭真": {
-      "en": "Peng Zhen",
-      "pinyin": "Péng Zhēn",
-      "status": "attested",
-      "note": "Later a top Party leader and mayor of Beijing; here Tianjin municipal committee secretary, arrested about this time."
-    },
-    "薄一波": {
-      "en": "Bo Yibo",
-      "pinyin": "Bó Yībō",
-      "status": "attested",
-      "note": "Later a vice-premier and Party elder; here Beiping municipal committee secretary."
-    },
-    "陈复": {
-      "en": "Chen Fu",
-      "pinyin": "Chén Fù",
-      "status": "attested",
-      "note": "A Northern Bureau leader arrested with the failed 1930 insurrections. The memoir calls him propaganda head; scholarship makes him the Bureau&#8217;s secretary-general."
-    },
-    "任弼时": {
-      "en": "Ren Bishi",
-      "pinyin": "Rèn Bìshí",
-      "status": "attested",
-      "note": "A principal Party and Youth League leader, later one of the &#8216;Five Secretaries&#8217; of the Central Secretariat."
-    },
-    "米夫": {
-      "en": "Mif",
-      "pinyin": "Mǐfū",
-      "status": "attested",
-      "note": "Pavel Mif, Comintern representative who engineered the Fourth Plenum of January 1931 that raised Wang Ming."
-    },
-    "秦邦宪": {
-      "en": "Qin Bangxian",
-      "pinyin": "Qín Bāngxiàn",
-      "status": "attested",
-      "note": "Better known as Bo Gu (&#21338;&#21476;); one of the &#8216;28 Bolsheviks&#8217; and de facto Party leader 1931&#8211;35."
-    },
-    "张闻天": {
-      "en": "Zhang Wentian",
-      "pinyin": "Zhāng Wéntiān",
-      "status": "attested",
-      "note": "Alias Luo Fu (&#27931;&#29995;); a &#8216;28 Bolshevik&#8217; who became general secretary after the Zunyi Conference."
-    },
-    "王稼祥": {
-      "en": "Wang Jiaxiang",
-      "pinyin": "Wáng Jiàxiáng",
-      "status": "attested",
-      "note": "Party and military leader; a supporter of Mao at the Zunyi Conference."
-    },
-    "陈毅": {
-      "en": "Chen Yi",
-      "pinyin": "Chén Yì",
-      "status": "attested",
-      "note": "Later a marshal and foreign minister of the People&#8217;s Republic."
-    },
-    "毛泽覃": {
-      "en": "Mao Zetan",
-      "pinyin": "Máo Zétán",
-      "status": "attested",
-      "note": "Mao Zedong&#8217;s youngest brother; killed in 1935."
-    },
-    "戴晓云": {
-      "en": "Dai Xiaoyun",
-      "pinyin": "Dài Xiǎoyún",
-      "status": "provisional",
-      "note": "New secretary of the Mutual Aid General Association from the winter of 1930; romanization by pinyin."
-    },
-    "陈赓": {
-      "en": "Chen Geng",
-      "pinyin": "Chén Gēng",
-      "status": "attested",
-      "note": "Whampoa graduate and head of the intelligence (2nd) section of the Party&#8217;s Special Branch; later a PLA general."
-    },
-    "谭延闿": {
-      "en": "Tan Yankai",
-      "pinyin": "Tán Yánkǎi",
-      "status": "attested",
-      "note": "Hunan military governor and Nationalist elder; first president of the Executive Yuan; signed the Wuhan order expelling Chiang in April 1927."
-    },
-    "黄兴": {
-      "en": "Huang Xing",
-      "pinyin": "Huáng Xīng",
-      "status": "attested",
-      "note": "Revolutionary leader and Sun Yat-sen&#8217;s chief military partner in the 1911 Revolution."
-    },
-    "蔡锷": {
-      "en": "Cai E",
-      "pinyin": "Cài È",
-      "status": "attested",
-      "note": "Republican general who led the 1915&#8211;16 revolt against Yuan Shikai&#8217;s monarchy."
-    },
-    "顾顺章": {
-      "en": "Gu Shunzhang",
-      "pinyin": "Gù Shùnzhāng",
-      "status": "attested",
-      "note": "Head of the Party&#8217;s Special Branch whose 1931 defection to the Kuomintang gravely wrecked the Shanghai underground."
-    },
-    "戚元德": {
-      "en": "Qi Yuande",
-      "pinyin": "Qī Yuándé",
-      "status": "attested",
-      "note": "Wu Defeng&#8217;s wife and a Party worker skilled at persuasion; she talked the author into staying in Shanghai."
-    },
-    "黄浩": {
-      "en": "Huang Hao",
-      "pinyin": "Huáng Hào",
-      "status": "provisional",
-      "note": "Also styled Jingwen (&#38745;&#27760;); staff officer of the Rescue Department, formerly of the Whampoa women&#8217;s corps. Romanization by pinyin."
-    },
-    "朱伯琛": {
-      "en": "Zhu Bochen",
-      "pinyin": "Zhū Bóchēn",
-      "status": "provisional",
-      "note": "Secretary of the Mutual Aid General Association; son of Zhu Jianfan, headmaster of the Zhounan Girls&#8217; School. Romanization by pinyin."
-    },
-    "陈志皋": {
-      "en": "Chen Zhigao",
-      "pinyin": "Chén Zhìgāo",
-      "status": "attested",
-      "note": "Progressive Shanghai lawyer of the Haining Chen clan; recruited to defend arrested Communists, he later became the author&#8217;s husband."
-    },
-    "陈元龙": {
-      "en": "Chen Yuanlong",
-      "pinyin": "Chén Yuánlóng",
-      "status": "attested",
-      "note": "The &#8216;Grand Councilor Chen&#8217; of the Kangxi&#8211;Yongzheng era, ancestor of the Haining Chen clan."
-    },
-    "陈其寿": {
-      "en": "Chen Qishou",
-      "pinyin": "Chén Qíshòu",
-      "status": "attested",
-      "note": "Styled Jieqing (&#20171;&#21375;); Chen Zhigao&#8217;s father, a retired judge of the criminal court of the Shanghai French Concession&#8217;s Mixed Court; the author&#8217;s adoptive father."
-    },
-    "翁同龢": {
-      "en": "Weng Tonghe",
-      "pinyin": "Wēng Tónghé",
-      "status": "attested",
-      "note": "The Guangxu Emperor&#8217;s tutor, cashiered in 1898 during the Hundred Days&#8217; Reform."
-    },
-    "黄金荣": {
-      "en": "Huang Jinrong",
-      "pinyin": "Huáng Jīnróng",
-      "status": "attested",
-      "note": "Green Gang boss and the sole Chinese chief inspector of the French Concession patrol house; Chiang Kai-shek was once his disciple."
-    },
-    "沈钧儒": {
-      "en": "Shen Junru",
-      "pinyin": "Shěn Jūnrú",
-      "status": "attested",
-      "note": "Jurist and patriotic democrat, later one of the &#8216;Seven Gentlemen&#8217;; Chen Zhigao&#8217;s teacher and elder cousin."
-    },
-    "褚辅成": {
-      "en": "Chu Fucheng",
-      "pinyin": "Chǔ Fǔchéng",
-      "status": "attested",
-      "note": "Patriotic democrat and educator, principal of the Shanghai College of Law."
-    },
-    "施蛰存": {
-      "en": "Shi Zhecun",
-      "pinyin": "Shī Zhécún",
-      "status": "attested",
-      "note": "Modernist writer and scholar; a schoolmate bailed out by Chen&#8217;s father."
-    },
-    "戴望舒": {
-      "en": "Dai Wangshu",
-      "pinyin": "Dài Wàngshū",
-      "status": "attested",
-      "note": "Celebrated modernist poet (&#8216;Rainy Alley&#8217;); a schoolmate bailed out by Chen&#8217;s father."
-    },
-    "杜衡": {
-      "en": "Du Heng",
-      "pinyin": "Dù Héng",
-      "status": "attested",
-      "note": "Writer and critic (Su Wen); a schoolmate bailed out by Chen&#8217;s father."
-    },
-    "周康文": {
-      "en": "Zhou Kangwen",
-      "pinyin": "Zhōu Kāngwén",
-      "status": "attested",
-      "note": "CCP Central Propaganda Department cadre who organized the World and China Society."
-    },
-    "孙晓村": {
-      "en": "Sun Xiaocun",
-      "pinyin": "Sūn Xiǎocūn",
-      "status": "attested",
-      "note": "Economist and democrat; later a vice-chairman of the CPPCC and of the China Democratic National Construction Association."
-    },
-    "钱纳水": {
-      "en": "Qian Nashui",
-      "pinyin": "Qián Nàshuǐ",
-      "status": "provisional",
-      "note": "Head of the propaganda department of the Mutual Aid General Association. Romanization by pinyin."
-    },
-    "赵韵逸": {
-      "en": "Zhao Yunyi",
-      "pinyin": "Zhào Yùnyì",
-      "status": "provisional",
-      "note": "The young judge who tried Guan Xiangying&#8217;s case. Romanization by pinyin."
-    },
-    "贝淞生": {
-      "en": "Bei Songsun",
-      "pinyin": "Bèi Sōngshēng",
-      "status": "provisional",
-      "note": "Manager of the Bank of China and a sworn friend of the elder Chen. Romanization by pinyin."
-    },
-    "宛希先": {
-      "en": "Wan Xixian",
-      "pinyin": "Wǎn Xīxiān",
-      "status": "attested",
-      "note": "Cousin of the author&#8217;s first husband Wan Xiyan; an early Jinggangshan leader wrongly killed in the anti-&#8216;AB-tuan&#8217; purge about 1930."
-    },
-    "邓榕": {
-      "en": "Deng Rong",
-      "pinyin": "Dèng Róng",
-      "status": "attested",
-      "note": "Pen name Maomao (&#27611;&#27611;); Deng Xiaoping&#8217;s daughter and biographer."
-    },
-    "曹炳生": {
-      "en": "Cao Bingsheng",
-      "pinyin": "Cáo Bǐngshēng",
-      "status": "provisional",
-      "note": "A French-Concession Municipal Police interpreter, classmate and dormitory-mate of Chen Zhigao at Xuhui College; his unwitting talk of Xiang Zhongfa&#8217;s arrest tipped off the author. Assassinated early in the War of Resistance."
-    },
-    "薛耕莘": {
-      "en": "Xue Gengxin",
-      "pinyin": "Xuē Gēngxīn",
-      "status": "attested",
-      "note": "A Chinese detective in the Shanghai French-Concession police who succeeded to Cao Bingsheng&#8217;s post; later a research fellow of the Shanghai Research Institute of Culture and History and a memoirist (1901&#8211;2007)."
-    },
-    "孙雪影": {
-      "en": "Sun Xueying",
-      "pinyin": "Sūn Xuěyǐng",
-      "status": "provisional",
-      "note": "Cao Bingsheng&#8217;s widow, headmistress of the Bingsheng Primary School founded in his memory."
-    },
-    "康生": {
-      "en": "Kang Sheng",
-      "pinyin": "Kāng Shēng",
-      "status": "attested",
-      "note": "Took charge of the Central Special Branch after Gu Shunzhang&#8217;s defection in 1931; later a Politburo member and a chief instigator of the Cultural Revolution (1898&#8211;1975)."
-    },
-    "王震": {
-      "en": "Wang Zhen",
-      "pinyin": "Wáng Zhēn",
-      "status": "attested",
-      "note": "Red Army and PLA general, later Vice-President of the PRC (1908&#8211;1993)."
-    },
-    "张国焘": {
-      "en": "Zhang Guotao",
-      "pinyin": "Zhāng Guótāo",
-      "status": "attested",
-      "note": "An early CCP leader who, during the Long March, split with the Central Committee over the line of march; later defected to the Kuomintang (1897&#8211;1979)."
-    },
-    "柳亚子": {
-      "en": "Liu Yazi",
-      "pinyin": "Liǔ Yàzǐ",
-      "status": "attested",
-      "note": "Poet and founder of the Southern Society (Nanshe); a friend of Chen Zhigao&#8217;s (1887&#8211;1958)."
-    },
-    "李一氓": {
-      "en": "Li Yimang",
-      "pinyin": "Lǐ Yīmáng",
-      "status": "attested",
-      "note": "Party veteran and writer; the author quotes his account of the &#8216;Wu Hao&#8217; affair from the volume Pan Hannian in Shanghai (1903&#8211;1990)."
-    },
-    "董竹君": {
-      "en": "Dong Zhujun",
-      "pinyin": "Dǒng Zhújūn",
-      "status": "attested",
-      "note": "Founder of the Jinjiang restaurant and hotel in Shanghai and author of the memoir My One Century; earlier the wife of Xia Zhishi (1900&#8211;1997)."
-    },
-    "夏之时": {
-      "en": "Xia Zhishi",
-      "pinyin": "Xià Zhīshí",
-      "status": "attested",
-      "note": "A Sichuan military commander (&#8216;Commander Xia&#8217;, 都督) of the 1911 Revolution era; Dong Zhujun&#8217;s first husband, from whom she was divorced (1887&#8211;1950)."
-    },
-    "吴湄": {
-      "en": "Wu Mei",
-      "pinyin": "Wú Méi",
-      "status": "provisional",
-      "note": "Proprietress of the Meilongzhen Restaurant in Shanghai."
-    },
-    "文崇石": {
-      "en": "Wen Chongshi",
-      "pinyin": "Wén Chóngshí",
-      "status": "provisional",
-      "note": "Author of an article in the New York Chinese-language paper Overseas Chinese Daily exposing the Gang of Four&#8217;s use of the &#8216;Wu Hao&#8217; notices against Zhou Enlai."
-    },
-    "张承宗": {
-      "en": "Zhang Chengzong",
-      "pinyin": "Zhāng Chéngzōng",
-      "status": "attested",
-      "note": "Head of the United Front Work Department of the CCP Shanghai Municipal Committee (1907&#8211;1991)."
-    },
-    "庞京周": {
-      "en": "Pang Jingzhou",
-      "pinyin": "Páng Jīngzhōu",
-      "status": "attested",
-      "note": "A prominent Shanghai Western-medicine physician (1897&#8211;1966)."
-    },
-    "俞同芳": {
-      "en": "Yu Tongfang",
-      "pinyin": "Yú Tóngfāng",
-      "status": "provisional",
-      "note": "A noted Shanghai practitioner of Chinese medicine, called in to attend Chen Qishou."
-    },
-    "陈文中": {
-      "en": "Chen Wenzhong",
-      "pinyin": "Chén Wénzhōng",
-      "status": "provisional",
-      "note": "The author&#8217;s youngest son."
-    },
-    "陈宝璋": {
-      "en": "Chen Baozhang",
-      "pinyin": "Chén Bǎozhāng",
-      "status": "provisional",
-      "note": "Chen Zhigao&#8217;s younger sister, then a student at the Sino-French College of Pharmacy."
-    },
-    "陈寅谷": {
-      "en": "Chen Yingu",
-      "pinyin": "Chén Yíngǔ",
-      "status": "provisional",
-      "note": "A younger brother of Chen Zhigao, a student at the Tongde Medical College who did battlefield relief in the 1932 fighting."
-    },
-    "陈石君": {
-      "en": "Chen Shijun",
-      "pinyin": "Chén Shíjūn",
-      "status": "provisional",
-      "note": "A younger brother of Chen Zhigao, a student at the Tongde Medical College who did battlefield relief in the 1932 fighting."
-    },
-    "陈胜年": {
-      "en": "Chen Shengnian",
-      "pinyin": "Chén Shèngnián",
-      "status": "provisional",
-      "note": "Later named Peng Qing (&#24429;&#28165;); a grandson of Chen Qishou, born just before the old man&#8217;s death."
-    },
-    "巴和": {
-      "en": "Baho",
-      "pinyin": "Bā hé",
-      "status": "provisional",
-      "note": "A French lawyer in Shanghai, an old friend of Chen Qishou; he placed the counter-notice on behalf of &#8216;Zhou Shaoshan&#8217;. Chinese sources give only &#20521;&#21644; (Baho); his name&#8217;s French original is not established."
-    },
-    "周少山": {
-      "en": "Zhou Shaoshan",
-      "pinyin": "Zhōu Shàoshān",
-      "status": "decided",
-      "note": "A cover name of Zhou Enlai, used in the March 1932 counter-notice: the notice styled &#8216;Wu Hao&#8217; as merely a former pen name of the private citizen &#8216;Zhou Shaoshan&#8217;, so that the &#8216;Wu Hao&#8217; of the fake notice must be someone else."
-    },
-    "刘伯垂": {
-      "en": "Liu Bochui",
-      "pinyin": "Liú Bóchuí",
-      "status": "attested",
-      "note": "A veteran CCP politics-and-law expert; from 1933 he succeeded Pan Hannian as the author&#8217;s superior and contact for the Shanghai rescue and united-front work."
-    },
-    "林庚白": {
-      "en": "Lin Gengbai",
-      "pinyin": "Lín Gēngbái",
-      "status": "attested",
-      "note": "1897–1941; Southern Society poet and Nationalist-government legislator, once secretary-general of the Extraordinary Parliament; a friend and legal ally of the author and Chen Zhigao. Killed by the Japanese at Hong Kong in 1941."
-    },
-    "杨志豪": {
-      "en": "Yang Zhihao",
-      "pinyin": "Yáng Zhìháo",
-      "status": "provisional",
-      "note": "A Shanghai lawyer and colleague of Chen Zhigao and Shen Junru in the Bar Association and the wrongful-imprisonment-compensation movement."
-    },
-    "周孝庵": {
-      "en": "Zhou Xiao&#8217;an",
-      "pinyin": "Zhōu Xiào&#8217;ān",
-      "status": "provisional",
-      "note": "A Shanghai journalist and lawyer who ran a law office jointly with Chen Zhigao."
-    },
-    "廖承志": {
-      "en": "Liao Chengzhi",
-      "pinyin": "Liào Chéngzhì",
-      "status": "attested",
-      "note": "1908–1983; son of Liao Zhongkai and He Xiangning, CCP leader; arrested in Shanghai in 1933 and among those the author&#8217;s circle worked to rescue."
-    },
-    "吴凯声": {
-      "en": "Wu Kaisheng",
-      "pinyin": "Wú Kǎishēng",
-      "status": "attested",
-      "note": "A prominent Shanghai barrister (trained in France) entrusted, behind the scenes, with the defense of Chen Geng and Liao Chengzhi."
-    },
-    "何叔衡": {
-      "en": "He Shuheng",
-      "pinyin": "Hé Shūhéng",
-      "status": "attested",
-      "note": "1876–1935; a delegate to the First Congress of the CCP; killed in 1935. His daughters He Shishan and He Sisi survived to witness the author&#8217;s rescue work."
-    },
-    "何实山": {
-      "en": "He Shishan",
-      "pinyin": "Hé Shíshān",
-      "status": "provisional",
-      "note": "Elder daughter of the martyr He Shuheng."
-    },
-    "何实嗣": {
-      "en": "He Sisi",
-      "pinyin": "Hé Sìsì",
-      "status": "provisional",
-      "note": "Younger daughter of He Shuheng; later director of the Beijing Research Institute of Culture and History."
-    },
-    "朱端绶": {
-      "en": "Zhu Duanshou",
-      "pinyin": "Zhū Duānshòu",
-      "status": "attested",
-      "note": "Underground CCP worker; wife and working partner of Xiong Jinding; survived into the 1980s."
-    },
-    "陈琮英": {
-      "en": "Chen Congying",
-      "pinyin": "Chén Cóngyīng",
-      "status": "attested",
-      "note": "Wife of Ren Bishi; implicated and arrested after Xiang Zhongfa&#8217;s betrayal wrecked the Red Flag printing house."
-    },
-    "蔡元培": {
-      "en": "Cai Yuanpei",
-      "pinyin": "Cài Yuánpéi",
-      "status": "attested",
-      "note": "1868–1940; educator, first minister of education of the Republic, chancellor of Peking University, and head of Academia Sinica; a witness at the author&#8217;s 1935 wedding."
-    },
-    "陈丕显": {
-      "en": "Chen Pixian",
-      "pinyin": "Chén Pīxián",
-      "status": "attested",
-      "note": "1916–1995; CCP leader who fought in the south Jiangxi guerrilla war and wrote reminiscences of He Chang."
-    },
-    "项英": {
-      "en": "Xiang Ying",
-      "pinyin": "Xiàng Yīng",
-      "status": "attested",
-      "note": "1898–1941; head of the CCP Central Soviet Area Sub-bureau left behind after the Long March; later political commissar of the New Fourth Army."
-    },
-    "阮啸仙": {
-      "en": "Ruan Xiaoxian",
-      "pinyin": "Ruǎn Xiàoxiān",
-      "status": "attested",
-      "note": "1898–1935; first director of the CCP&#8217;s Central Auditing Commission; killed in the south Jiangxi breakout, mourned with He Chang in Chen Yi&#8217;s poem."
-    },
-    "李锐": {
-      "en": "Li Rui",
-      "pinyin": "Lǐ Ruì",
-      "status": "attested",
-      "note": "1917–2019; once a secretary to Mao Zedong, later deputy head of the Central Organization Department and a member of the Central Advisory Commission."
-    },
-    "俞樾": {
-      "en": "Yu Yue",
-      "pinyin": "Yú Yuè",
-      "status": "attested",
-      "note": "1821–1907; styled Quyuan; eminent Qing scholar of classical learning. The Yu Mansion by West Lake was built for him."
-    },
-    "俞陛云": {
-      "en": "Yu Biyun",
-      "pinyin": "Yú Bìyún",
-      "status": "attested",
-      "note": "1868–1950; grandson of Yu Yue and father of Yu Pingbo; a late-Qing tanhua (third-place palace-examination graduate) and Hanlin poet, style name Jieqing. He taught the author classical poetry at the Yu Mansion."
-    },
-    "俞平伯": {
-      "en": "Yu Pingbo",
-      "pinyin": "Yú Píngbó",
-      "status": "attested",
-      "note": "1900–1990; son of Yu Biyun, poet and famous scholar of Dream of the Red Chamber (a ‘Redologist’)."
-    },
-    "曾国藩": {
-      "en": "Zeng Guofan",
-      "pinyin": "Zēng Guófān",
-      "status": "attested",
-      "note": "1811–1872; late-Qing statesman and general who funded the building of the Yu Mansion for Yu Yue."
-    },
-    "吴梅村": {
-      "en": "Wu Meicun",
-      "pinyin": "Wú Méicūn",
-      "status": "attested",
-      "note": "Wu Weiye (1609–1672), late-Ming/early-Qing poet; his ‘Song of Chen Yuanyuan’ is quoted in this chapter."
-    },
-    "陈圆圆": {
-      "en": "Chen Yuanyuan",
-      "pinyin": "Chén Yuányuán",
-      "status": "attested",
-      "note": "Famous courtesan of the Ming-Qing transition, subject of Wu Meicun&#8217;s poem."
-    },
-    "高志航": {
-      "en": "Gao Zhihang",
-      "pinyin": "Gāo Zhìháng",
-      "status": "attested",
-      "note": "1907–1937; Nationalist air-force hero of the 14 August 1937 air battle over Hangzhou; killed later that year."
-    },
-    "章士钊": {
-      "en": "Zhang Shizhao",
-      "pinyin": "Zhāng Shìzhāo",
-      "status": "attested",
-      "note": "1881–1973; noted jurist, scholar and politician; a Beiping creditor of the Tongyi Company."
-    },
-    "罗家衡": {
-      "en": "Luo Jiaheng",
-      "pinyin": "Luó Jiāhéng",
-      "status": "provisional",
-      "note": "A lawyer and Jiangxi man; a Beiping creditor of the Tongyi Company and part of Wu Defeng&#8217;s social network."
-    },
-    "张东荪": {
-      "en": "Zhang Dongsun",
-      "pinyin": "Zhāng Dōngsūn",
-      "status": "attested",
-      "note": "1886–1973; philosopher and National Socialist Party figure, professor at Peking University."
-    },
-    "杜月笙": {
-      "en": "Du Yuesheng",
-      "pinyin": "Dù Yuèshēng",
-      "status": "attested",
-      "note": "1888–1951; Green Gang boss and Shanghai power broker, invited to guarantee the Tongyi Company&#8217;s resumption."
-    },
-    "王晓籁": {
-      "en": "Wang Xiaolai",
-      "pinyin": "Wáng Xiǎolài",
-      "status": "attested",
-      "note": "1887–1967; Shanghai business leader who became chairman of the revived Tongyi Company."
-    },
-    "黄溯初": {
-      "en": "Huang Suchu",
-      "pinyin": "Huáng Sùchū",
-      "status": "provisional",
-      "note": "Pioneering banker; chairman of the Tongyi Trust Company, who fled to Japan after its 1935 collapse."
-    },
-    "郭虞裳": {
-      "en": "Guo Yushang",
-      "pinyin": "Guō Yúshang",
-      "status": "provisional",
-      "note": "England-trained founder of the Tongyi Company and a relative by marriage of Chen Zhigao&#8217;s eldest brother."
-    },
-    "徐寄庼": {
-      "en": "Xu Jiqing",
-      "pinyin": "Xú Jìqǐng",
-      "status": "attested",
-      "note": "Shanghai banker; managing director of the Tongyi Company who arranged the mortgage that let it resume business."
-    },
-    "阿英": {
-      "en": "A Ying",
-      "pinyin": "Ā Yīng",
-      "status": "attested",
-      "note": "Pen name of Qian Xingcun (1900–1977), writer and literary historian; ran the ‘Wind and Rain Bookroom’ hidden in the Tongyi Company."
-    },
-    "夏衍": {
-      "en": "Xia Yan",
-      "pinyin": "Xià Yǎn",
-      "status": "attested",
-      "note": "1900–1995; playwright, film-maker and CCP cultural cadre in Shanghai."
-    },
-    "冯雪峰": {
-      "en": "Feng Xuefeng",
-      "pinyin": "Féng Xuěfēng",
-      "status": "attested",
-      "note": "1903–1976; poet, literary theorist and CCP cultural figure, liaison to Shanghai&#8217;s writers."
-    },
-    "方志敏": {
-      "en": "Fang Zhimin",
-      "pinyin": "Fāng Zhìmǐn",
-      "status": "attested",
-      "note": "1899–1935; CCP leader of the Northeast Jiangxi soviet; his prison diary was among the papers kept in the Tongyi vault."
-    },
-    "陈云": {
-      "en": "Chen Yun",
-      "pinyin": "Chén Yún",
-      "status": "attested",
-      "note": "1905–1995; senior CCP leader; his later appraisal cleared the author of the ‘bureaucratic capitalist’ charge."
-    },
-    "孙科": {
-      "en": "Sun Ke",
-      "pinyin": "Sūn Kē",
-      "status": "attested",
-      "note": "1891–1973; son of Sun Yat-sen and a president of one of the Nationalist government&#8217;s Five Yuan."
-    },
-    "于右任": {
-      "en": "Yu Youren",
-      "pinyin": "Yú Yòurèn",
-      "status": "attested",
-      "note": "1879–1964; Nationalist elder statesman, calligrapher, and president of the Control Yuan."
-    },
-    "张知本": {
-      "en": "Zhang Zhiben",
-      "pinyin": "Zhāng Zhīběn",
-      "status": "attested",
-      "note": "1881–1976; jurist and Nationalist elder; an introducer at the Lin Gengbai–Lin Beili betrothal."
-    },
-    "覃振": {
-      "en": "Tan Zhen",
-      "pinyin": "Qín Zhèn",
-      "status": "attested",
-      "note": "1885–1947; Nationalist elder statesman and Yuan president."
-    },
-    "陈立夫": {
-      "en": "Chen Lifu",
-      "pinyin": "Chén Lìfū",
-      "status": "attested",
-      "note": "1900–2001; Nationalist organization boss of the ‘CC Clique,’ firmly anti-Communist."
-    },
-    "冯玉祥": {
-      "en": "Feng Yuxiang",
-      "pinyin": "Féng Yùxiáng",
-      "status": "attested",
-      "note": "1882–1948; the ‘Christian General’ and warlord, at this time an anti-Japanese figure."
-    },
-    "杜重远": {
-      "en": "Du Zhongyuan",
-      "pinyin": "Dù Zhòngyuǎn",
-      "status": "attested",
-      "note": "1898–1943; patriotic industrialist and editor of New Life Weekly, jailed in the 1935 ‘New Life’ case."
-    },
-    "郑毓秀": {
-      "en": "Zheng Yuxiu",
-      "pinyin": "Zhèng Yùxiù",
-      "status": "attested",
-      "note": "1891–1959; France-trained jurist, Shanghai&#8217;s first woman lawyer, qualified to plead in the Mixed Court."
-    },
-    "李辛阳": {
-      "en": "Li Xinyang",
-      "pinyin": "Lǐ Xīnyáng",
-      "status": "provisional",
-      "note": "Aurora University classmate of Chen Zhigao&#8217;s circle; assistant lawyer in Zheng Yuxiu&#8217;s office."
-    },
-    "陈德新": {
-      "en": "Chen Dexin",
-      "pinyin": "Chén Déxīn",
-      "status": "provisional",
-      "note": "Style name Mingzai; cousin of Chen Zhigao and chairman of the Zhejiang Provincial Bar Association."
-    },
-    "张以璘": {
-      "en": "Zhang Yilin",
-      "pinyin": "Zhāng Yǐlín",
-      "status": "provisional",
-      "note": "A CCP member (joined 1926) placed by Wu Defeng as secretary of Chen Zhigao&#8217;s law office, running it as a covert liaison point."
-    },
-    "郭长禄": {
-      "en": "Guo Changlu",
-      "pinyin": "Guō Chánglù",
-      "status": "provisional",
-      "note": "Wuhan University politics-and-diplomacy student who married the author&#8217;s second sister."
-    },
-    "于伶": {
-      "en": "Yu Ling",
-      "pinyin": "Yú Líng",
-      "status": "attested",
-      "note": "1907–1997; playwright and head of the Shanghai Drama Art Society, aided through Tongyi overdrafts."
-    },
-    "申石伽": {
-      "en": "Shen Shijia",
-      "pinyin": "Shēn Shíjiā",
-      "status": "attested",
-      "note": "1906–2001; noted Shanghai traditional-ink painter; the author studied painting under him at the Yu Mansion."
-    },
-    "蒋雪英": {
-      "en": "Jiang Xueying",
-      "pinyin": "Jiǎng Xuěyīng",
-      "status": "provisional",
-      "note": "Daughter of the maid in Madame Yu&#8217;s dowry; later Yu Pingbo&#8217;s goddaughter and pupil."
-    },
-    "冒鹤亭": {
-      "en": "Mao Heting",
-      "pinyin": "Mào Hètíng",
-      "status": "attested",
-      "note": "Mao Guangsheng (1873–1959), noted Jiangnan poet under whom the author later studied verse."
-    },
-    "潘肇邦": {
-      "en": "Pan Zhaobang",
-      "pinyin": "Pān Zhàobāng",
-      "status": "provisional",
-      "note": "Style name Luyan; senior Aurora University alumnus and accountant, co-mediator and later general manager of the revived Tongyi Company."
-    },
-    "陈高佣": {
-      "en": "Chen Gaoyong",
-      "pinyin": "Chén Gāoyōng",
-      "status": "attested",
-      "note": "1902–1976; historian and Jinan University professor, editor of The World and China; arrested in 1932."
-    },
-    "程仲文": {
-      "en": "Cheng Zhongwen",
-      "pinyin": "Chéng Zhòngwén",
-      "status": "provisional",
-      "note": "Student of Chen Gaoyong and proofreader for The World and China, arrested with him."
-    },
-    "陈振九": {
-      "en": "Chen Zhenjiu",
-      "pinyin": "Chén Zhènjiǔ",
-      "status": "provisional",
-      "note": "Cousin of Chen Zhigao and a deputy manager of the Yongye Bank; guarantor for the released Chen Gaoyong."
-    },
-    "陈赓虞": {
-      "en": "Chen Gengyu",
-      "pinyin": "Chén Gēngyú",
-      "status": "provisional",
-      "note": "Chen Zhigao&#8217;s eldest brother; involved in the Yongchang Gold Exchange."
-    },
-    "李焕之": {
-      "en": "Li Huanzhi",
-      "pinyin": "Lǐ Huànzhī",
-      "status": "provisional",
-      "note": "Younger brother of Li Nanxiang; became Chen Lifu&#8217;s secretary, giving the author&#8217;s circle a source inside the Nationalist center. Not the composer of the same name."
-    },
-    "武振东": {
-      "en": "Wu Zhendong",
-      "pinyin": "Wǔ Zhèndōng",
-      "status": "provisional",
-      "note": "Daxia University classmate of Li Huanzhi and member of the World and China Society."
-    },
-    "潘震亚": {
-      "en": "Pan Zhenya",
-      "pinyin": "Pān Zhènyà",
-      "status": "provisional",
-      "note": "A Jiangxi man whose social network helped place Zhang Yilin in Chen Zhigao&#8217;s office."
-    },
-    "唐有壬": {
-      "en": "Tang Youren",
-      "pinyin": "Táng Yǒurén",
-      "status": "attested",
-      "note": "1894–1935; diplomat and vice-minister of foreign affairs; an introducer at the author&#8217;s wedding, assassinated later that year."
-    },
-    "吴羹梅": {
-      "en": "Wu Gengmei",
-      "pinyin": "Wú Gēngméi",
-      "status": "attested",
-      "note": "1906–1991; industrialist known as China&#8217;s ‘pencil king,’ a wedding guest."
-    },
-    "吴开先": {
-      "en": "Wu Kaixian",
-      "pinyin": "Wú Kāixiān",
-      "status": "attested",
-      "note": "1899–1990; Nationalist ‘CC Clique’ figure and head of Shanghai&#8217;s Bureau of Social Affairs, lobbied to re-legalize the Southern Society."
-    },
-    "陈霆锐": {
-      "en": "Chen Tingrui",
-      "pinyin": "Chén Tíngruì",
-      "status": "provisional",
-      "note": "A famous Shanghai lawyer active in the wrongful-imprisonment-compensation movement."
-    },
-    "陆鼎揆": {
-      "en": "Lu Dingkui",
-      "pinyin": "Lù Dǐngkuí",
-      "status": "provisional",
-      "note": "A Shanghai lawyer active in the wrongful-imprisonment-compensation movement."
-    },
-    "陈炯明": {
-      "en": "Chen Jiongming",
-      "pinyin": "Chén Jiǒngmíng",
-      "status": "attested",
-      "note": "1878–1933; Guangdong warlord who broke with Sun Yat-sen in 1922, cited in He Xiangning&#8217;s amnesty appeal."
-    },
-    "林北丽": {
-      "en": "Lin Beili",
-      "pinyin": "Lín Běilì",
-      "status": "provisional",
-      "note": "Woman poet; wife of Lin Gengbai and a lifelong friend of the author."
-    },
-    "徐蕴华": {
-      "en": "Xu Yunhua",
-      "pinyin": "Xú Yùnhuá",
-      "status": "provisional",
-      "note": "Mother of Lin Beili; in the early Republic she helped mourn and bury the martyr Qiu Jin."
-    },
-    "徐自华": {
-      "en": "Xu Zihua",
-      "pinyin": "Xú Zìhuá",
-      "status": "attested",
-      "note": "1873–1935; poet and friend of Qiu Jin who arranged her burial; elder sister of Xu Yunhua."
-    },
-    "吴芝瑛": {
-      "en": "Wu Zhiying",
-      "pinyin": "Wú Zhīyīng",
-      "status": "attested",
-      "note": "1867–1934; calligrapher who, with Xu Zihua, braved danger to bury Qiu Jin."
-    },
-    "李慕兰": {
-      "en": "Li Mulan",
-      "pinyin": "Lǐ Mùlán",
-      "status": "provisional",
-      "note": "An overseas-Chinese art student who happened to share the author&#8217;s name and lodged with her at the Yu Mansion."
-    },
-    "胡伟克": {
-      "en": "Hu Weike",
-      "pinyin": "Hú Wěikè",
-      "status": "provisional",
-      "note": "Overseas-Chinese instructor at the Nationalist aviation school who married Li Mulan."
-    },
-    "许宝": {
-      "en": "Xu Bao",
-      "pinyin": "Xǔ Bǎo",
-      "status": "provisional",
-      "note": "Nephew of Madame Yu; the source gives the name as ‘Xu Bao,’ which may be incomplete."
-    },
-    "潘太夫人": {
-      "en": "Elder Madame Pan",
-      "pinyin": "Pān Tàifūrén",
-      "status": "decided",
-      "note": "Chen Zhigao&#8217;s mother, the author&#8217;s adoptive mother-in-law."
-    }
+ "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. status: 'attested' (form used in English scholarship / corroborated by reference works, citation in note), 'decided' (project style call, e.g. standard pinyin or a fixed convention), 'provisional' (a romanization of mine not found attested; the builder appends a visible marker). Sections render as glossary headings; keys starting with '_' are ignored.",
+ "book": {},
+ "people": {
+  "黄慕兰": {
+   "en": "Huang Mulan",
+   "pinyin": "Huáng Mùlán",
+   "status": "decided",
+   "note": "The author. Name taken in 1926 on joining the revolution (&#24917;&#20848;, &#8216;admiring Mulan&#8217;); the book&#8217;s title form."
   },
-  "organizations": {
-    "中国共产党": {
-      "en": "Chinese Communist Party",
-      "pinyin": "Zhōngguó Gòngchǎndǎng",
-      "status": "attested"
-    },
-    "中国共产主义青年团": {
-      "en": "Chinese Communist Youth League",
-      "pinyin": "gòngqīngtuán",
-      "status": "attested"
-    },
-    "国民党": {
-      "en": "Kuomintang",
-      "pinyin": "Guómíndǎng",
-      "status": "decided",
-      "note": "Rendered &#8216;Kuomintang&#8217; throughout (not &#8216;Nationalist Party&#8217;); the conventional English name."
-    },
-    "黄埔军校": {
-      "en": "Whampoa Military Academy",
-      "pinyin": "Huángpǔ jūnxiào",
-      "status": "attested",
-      "note": "Conventional English form (Whampoa)."
-    },
-    "周南女校": {
-      "en": "Zhounan Girls' School",
-      "pinyin": "Zhōunán nǚxiào",
-      "status": "decided"
-    },
-    "中国济难会": {
-      "en": "China Relief Society",
-      "pinyin": "Zhōngguó Jìnànhuì",
-      "status": "decided",
-      "note": "Founded Shanghai, 20 September 1925."
-    },
-    "粤汉铁路": {
-      "en": "Canton–Hankou Railway",
-      "pinyin": "Yuè-Hàn tiělù",
-      "status": "decided",
-      "note": "Conventional English form of the Guangzhou&#8211;Hankou line."
-    },
-    "株萍铁路": {
-      "en": "Zhuping Railway",
-      "pinyin": "Zhū-Píng tiělù",
-      "status": "decided"
-    },
-    "岳麓书院": {
-      "en": "Yuelu Academy",
-      "pinyin": "Yuèlù shūyuàn",
-      "status": "attested"
-    },
-    "互济会": {
-      "en": "Mutual Aid Society",
-      "pinyin": "Hùjì Huì",
-      "status": "attested",
-      "note": "Successor to the China Relief Society; the Party-led body for rescuing arrested comrades and relieving their families. Its leading arm is called the Mutual Aid General Association (&#20114;&#27982;&#24635;&#20250;)."
-    },
-    "世界与中国社": {
-      "en": "World and China Society",
-      "pinyin": "Shìjiè yǔ Zhōngguó Shè",
-      "status": "attested",
-      "note": "A progressive study body organized under the CCP Central Propaganda Department, publisher of the periodical The World and China."
-    },
-    "内外棉": {
-      "en": "Naigai Wata",
-      "pinyin": "Nèiwàimián",
-      "status": "attested",
-      "note": "Naigaiwata Kaisha, the largest Japanese-owned cotton-spinning company in Shanghai; the author worked as an apprentice in its No. 13 Mill."
-    },
-    "特科": {
-      "en": "Special Branch",
-      "pinyin": "Tèkē",
-      "status": "attested",
-      "note": "The Central Special Branch, the Party&#8217;s clandestine intelligence and security service in Shanghai, headed by Zhou Enlai."
-    },
-    "觉悟社": {
-      "en": "Awakening Society",
-      "pinyin": "Juéwùshè",
-      "status": "attested",
-      "note": "A progressive youth group founded in Tianjin in 1919; Zhou Enlai was a leading member, and his code name there, &#8216;Wu Hao&#8217;, later became a pen name."
-    },
-    "中央特科": {
-      "en": "Central Special Branch",
-      "pinyin": "Zhōngyāng Tèkē",
-      "status": "attested",
-      "note": "The CCP&#8217;s clandestine security and intelligence organ in the Shanghai underground; run by Kang Sheng after Gu Shunzhang&#8217;s defection."
-    },
-    "红旗印刷所": {
-      "en": "Red Flag Press",
-      "pinyin": "Hóngqí Yìnshuāsuǒ",
-      "status": "decided",
-      "note": "The underground printing house, holding an open business licence, where the Party magazine Red Flag was secretly printed; wrecked by the police when Xiang Zhongfa turned traitor."
-    },
-    "都城饭店": {
-      "en": "Metropole Hotel",
-      "pinyin": "Dūchéng Fàndiàn",
-      "status": "attested",
-      "note": "A French-run hotel in Shanghai (the Metropole, on Jiangxi Road), used by the central leaders as a bolt-hole on the night of Xiang Zhongfa&#8217;s defection."
-    },
-    "东方饭店": {
-      "en": "Oriental Hotel",
-      "pinyin": "Dōngfāng Fàndiàn",
-      "status": "attested",
-      "note": "A Shanghai hotel where Guan Xiangying was lodged after his release."
-    },
-    "申江医院": {
-      "en": "Shenjiang Hospital",
-      "pinyin": "Shēnjiāng Yīyuàn",
-      "status": "decided",
-      "note": "An underground-Party hospital on Avenue Joffre, run by Party comrades, used to treat leaders and shelter them; the author hid there after her father&#8217;s death."
-    },
-    "大光明电影院": {
-      "en": "Grand Theatre",
-      "pinyin": "Dàguāngmíng Diànyǐngyuàn",
-      "status": "attested",
-      "note": "A famous Shanghai cinema (the Grand Theatre)."
-    },
-    "永安公司": {
-      "en": "Wing On",
-      "pinyin": "Yǒng&#8217;ān Gōngsī",
-      "status": "attested",
-      "note": "A leading Shanghai department store on Nanjing Road (Wing On)."
-    },
-    "祥生公司": {
-      "en": "Johnson & Co.",
-      "pinyin": "Xiángshēng Gōngsī",
-      "status": "attested",
-      "note": "A Shanghai taxi company (its English name was Johnson &amp; Co.)."
-    },
-    "徐汇公学": {
-      "en": "Xuhui College",
-      "pinyin": "Xúhuì Gōngxué",
-      "status": "attested",
-      "note": "The Jesuit Coll&#232;ge Saint-Ignace at Xujiahui, Shanghai; a strict Catholic mission school where Chen Zhigao and Cao Bingsheng were classmates."
-    },
-    "锦江饭店": {
-      "en": "Jinjiang",
-      "pinyin": "Jǐnjiāng Fàndiàn",
-      "status": "attested",
-      "note": "Dong Zhujun&#8217;s restaurant, later hotel, in Shanghai."
-    },
-    "梅龙镇酒家": {
-      "en": "Meilongzhen",
-      "pinyin": "Méilóngzhèn Jiǔjiā",
-      "status": "attested",
-      "note": "A well-known Shanghai restaurant run by Wu Mei."
-    },
-    "同德医学院": {
-      "en": "Tongde Medical College",
-      "pinyin": "Tóngdé Yīxuéyuàn",
-      "status": "attested",
-      "note": "A Shanghai medical college."
-    },
-    "中法药科大学": {
-      "en": "Sino-French College of Pharmacy",
-      "pinyin": "Zhōngfǎ Yàokē Dàxué",
-      "status": "decided",
-      "note": "A Shanghai pharmacy college where Chen Baozhang studied."
-    },
-    "十九路军": {
-      "en": "Nineteenth Route Army",
-      "pinyin": "Shíjiǔlù Jūn",
-      "status": "attested",
-      "note": "The Kuomintang army that resisted the Japanese attack on Shanghai in the January Twenty-eighth (1932) war."
-    },
-    "华侨日报": {
-      "en": "Overseas Chinese Daily",
-      "pinyin": "Huáqiáo Rìbào",
-      "status": "attested",
-      "note": "A Chinese-language newspaper published in New York (the China Daily News)."
-    },
-    "永业银行": {
-      "en": "Yongye Bank",
-      "pinyin": "Yǒngyè Yínháng",
-      "status": "provisional",
-      "note": "A Shanghai bank on Jiangxi Road whose porter&#8217;s lodge housed the World and China Society&#8217;s distribution office."
-    },
-    "震旦大学": {
-      "en": "Aurora University",
-      "pinyin": "Zhèndàn Dàxué",
-      "status": "attested",
-      "note": "The French Jesuit Université l’Aurore in Shanghai, alma mater of Chen Zhigao and his circle."
-    },
-    "暨南大学": {
-      "en": "Jinan University",
-      "pinyin": "Jìnán Dàxué",
-      "status": "attested",
-      "note": "Overseas-Chinese university in Shanghai where Chen Gaoyong was a professor."
-    },
-    "通易信托公司": {
-      "en": "Tongyi Trust Company",
-      "pinyin": "Tōngyì Xìntuō Gōngsī",
-      "status": "provisional",
-      "note": "Shanghai trust company that went bankrupt in 1935 and, through the author and Chen Zhigao&#8217;s mediation, uniquely resumed business; it became a covert base for the underground."
-    },
-    "银行俱乐部": {
-      "en": "Bankers&#8217; Club",
-      "pinyin": "Yínháng Jùlèbù",
-      "status": "decided",
-      "note": "A Shanghai club of the banking elite, which the author joined as one of its rare women members."
-    },
-    "上海市银钱业联谊会": {
-      "en": "Shanghai Banking and Money Trades Friendship Association",
-      "pinyin": "Shànghǎi Shì Yínqiányè Liányìhuì",
-      "status": "provisional",
-      "note": "A 1936 association of Shanghai&#8217;s banking and money-house trades; the author was a founder and deputy chairman."
-    },
-    "风雨书屋": {
-      "en": "Wind and Rain Bookroom",
-      "pinyin": "Fēngyǔ Shūwū",
-      "status": "provisional",
-      "note": "A covert resistance publishing house run by A Ying, hidden on the second floor of the Tongyi Company."
-    },
-    "南社": {
-      "en": "Southern Society",
-      "pinyin": "Nánshè",
-      "status": "attested",
-      "note": "An early-twentieth-century revolutionary poetry society; formally re-legalized in 1936 with help from the author&#8217;s circle."
-    },
-    "救国会": {
-      "en": "National Salvation Association",
-      "pinyin": "Jiùguóhuì",
-      "status": "attested",
-      "note": "The 1936 all-China resistance body whose leaders (the ‘Seven Gentlemen,’ among them Shen Junru) were jailed."
-    },
-    "民权保障同盟": {
-      "en": "League for the Protection of Civil Rights",
-      "pinyin": "Mínquán Bǎozhàng Tóngméng",
-      "status": "attested",
-      "note": "The China League for the Protection of Civil Rights (1932–33), which set up a committee to rescue political prisoners."
-    },
-    "上海律师公会": {
-      "en": "Shanghai Bar Association",
-      "pinyin": "Shànghǎi Lǜshī Gōnghuì",
-      "status": "decided",
-      "note": "The lawyers&#8217; association through which Chen Zhigao and Shen Junru pressed the wrongful-imprisonment-compensation movement."
-    },
-    "浙江兴业银行": {
-      "en": "Zhejiang Industrial Bank",
-      "pinyin": "Zhèjiāng Xīngyè Yínháng",
-      "status": "attested",
-      "note": "The bank that took the mortgage on the Tongyi building, freeing the cash to pay small creditors."
-    },
-    "交通银行": {
-      "en": "Bank of Communications",
-      "pinyin": "Jiāotōng Yínháng",
-      "status": "attested",
-      "note": "A major Chinese bank, cited as one that could not resume after bankruptcy, unlike Tongyi."
-    },
-    "中华学艺社": {
-      "en": "Chinese Society for Arts and Sciences",
-      "pinyin": "Zhōnghuá Xuéyì Shè",
-      "status": "provisional",
-      "note": "The Shanghai learned society at whose hall the author and Chen Zhigao held their 1935 wedding."
-    },
-    "永昌金号": {
-      "en": "Yongchang Gold Exchange",
-      "pinyin": "Yǒngchāng Jīnhào",
-      "status": "provisional",
-      "note": "A gold exchange organized c.1933–34 by Chen Zhigao&#8217;s eldest brother, used to stand surety for released prisoners."
-    },
-    "太极银号": {
-      "en": "Taiji Money House",
-      "pinyin": "Tàijí Yínhào",
-      "status": "provisional",
-      "note": "A money house opened by the same circle, likewise used as surety for the rescue work."
-    },
-    "八路军驻沪办事处": {
-      "en": "Eighth Route Army Shanghai Office",
-      "pinyin": "Bālùjūn Zhùhù Bànshìchù",
-      "status": "attested",
-      "note": "The Eighth Route Army&#8217;s liaison office in Shanghai, abbreviated ‘ba ban,’ which led the resistance periodical Documents."
-    },
-    "民社党": {
-      "en": "National Socialist Party",
-      "pinyin": "Guójiā Shèhuì Dǎng",
-      "status": "attested",
-      "note": "The memoir's 民社党; in the mid-1930s the party of Zhang Junmai and Zhang Dongsun was the China National Socialist Party (国家社会党, founded 1932), which merged into the Democratic Socialist Party (民社党) only in 1946. Rendered by the party these figures belonged to at the time; unrelated to European fascism."
-    }
+  "黄彰定": {
+   "en": "Huang Zhangding",
+   "pinyin": "Huáng Zhāngdìng",
+   "status": "attested",
+   "note": "The author&#8217;s birth and school name; style name Shuyi (&#28113;&#20202;). Corroborated by Chinese biographies."
   },
-  "places": {
-    "浏阳": {
-      "en": "Liuyang",
-      "pinyin": "Liúyáng",
-      "status": "attested"
-    },
-    "湖南": {
-      "en": "Hunan",
-      "pinyin": "Húnán",
-      "status": "attested"
-    },
-    "武昌": {
-      "en": "Wuchang",
-      "pinyin": "Wǔchāng",
-      "status": "attested"
-    },
-    "汉口": {
-      "en": "Hankou",
-      "pinyin": "Hànkǒu",
-      "status": "attested"
-    },
-    "汉阳": {
-      "en": "Hanyang",
-      "pinyin": "Hànyáng",
-      "status": "attested"
-    },
-    "武汉": {
-      "en": "Wuhan",
-      "pinyin": "Wǔhàn",
-      "status": "attested"
-    },
-    "长沙": {
-      "en": "Changsha",
-      "pinyin": "Chángshā",
-      "status": "attested"
-    },
-    "广州": {
-      "en": "Guangzhou",
-      "pinyin": "Guǎngzhōu",
-      "status": "attested"
-    },
-    "徐家棚": {
-      "en": "Xujiapeng",
-      "pinyin": "Xújiāpéng",
-      "status": "decided",
-      "note": "District of Wuchang; standard pinyin."
-    },
-    "八达岭": {
-      "en": "Badaling",
-      "pinyin": "Bādálǐng",
-      "status": "attested"
-    },
-    "上海": {
-      "en": "Shanghai",
-      "pinyin": "Shànghǎi",
-      "status": "decided",
-      "note": "China&#8217;s largest city and the seat of the Party Central and its underground in this period."
-    },
-    "香港": {
-      "en": "Hong Kong",
-      "pinyin": "Xiānggǎng",
-      "status": "decided",
-      "note": "British colony; seat of the Party&#8217;s Southern Bureau."
-    },
-    "天津": {
-      "en": "Tianjin",
-      "pinyin": "Tiānjīn",
-      "status": "decided",
-      "note": "North China treaty port; seat of the Party&#8217;s Northern Bureau."
-    },
-    "龙华": {
-      "en": "Longhua",
-      "pinyin": "Lónghuá",
-      "status": "decided",
-      "note": "District in the southern outskirts of Shanghai; site of the Kuomintang Garrison Command&#8217;s prison and execution ground."
-    },
-    "徐家汇": {
-      "en": "Xujiahui",
-      "pinyin": "Xújiāhuì",
-      "status": "attested",
-      "note": "A district of Shanghai."
-    },
-    "庐山": {
-      "en": "Mount Lu",
-      "pinyin": "Lúshān",
-      "status": "attested",
-      "note": "A mountain resort in Jiangxi where Chiang Kai-shek was staying."
-    },
-    "瑞金": {
-      "en": "Ruijin",
-      "pinyin": "Ruìjīn",
-      "status": "attested",
-      "note": "The seat of the Central Soviet in Jiangxi, capital of the Chinese Soviet Republic."
-    },
-    "大连": {
-      "en": "Dalian",
-      "pinyin": "Dàlián",
-      "status": "attested",
-      "note": "A city in Liaoning; Guan Xiangying&#8217;s native region, site of his memorial statue."
-    },
-    "延安": {
-      "en": "Yan&#8217;an",
-      "pinyin": "Yán&#8217;ān",
-      "status": "attested",
-      "note": "The Communist base in northern Shaanxi from 1937."
-    },
-    "霞飞路": {
-      "en": "Avenue Joffre",
-      "pinyin": "Xiáfēi Lù",
-      "status": "attested",
-      "note": "A main thoroughfare of the Shanghai French Concession, today&#8217;s Central Huaihai Road."
-    },
-    "法大马路": {
-      "en": "Rue du Consulat",
-      "pinyin": "Fǎ Dàmǎlù",
-      "status": "attested",
-      "note": "A street in the Shanghai French Concession, today&#8217;s Jinling East Road; the address on the counter-notice."
-    },
-    "八仙桥": {
-      "en": "Baxianqiao",
-      "pinyin": "Bāxiānqiáo",
-      "status": "attested",
-      "note": "A district of central Shanghai."
-    },
-    "杭州": {
-      "en": "Hangzhou",
-      "pinyin": "Hángzhōu",
-      "status": "decided",
-      "note": "Zhejiang provincial capital on West Lake, where the author went into hiding in 1932–33."
-    },
-    "西湖": {
-      "en": "West Lake",
-      "pinyin": "Xīhú",
-      "status": "decided",
-      "note": "The famous scenic lake of Hangzhou around which this chapter is set."
-    },
-    "孤山": {
-      "en": "Solitary Hill",
-      "pinyin": "Gūshān",
-      "status": "decided",
-      "note": "An islet-hill in West Lake beside which the Yu Mansion stands."
-    },
-    "俞楼": {
-      "en": "Yu Mansion",
-      "pinyin": "Yú Lóu",
-      "status": "provisional",
-      "note": "The three-story Yu family villa by Solitary Hill where the author lodged and studied poetry."
-    },
-    "虎跑寺": {
-      "en": "Hupao Temple",
-      "pinyin": "Hǔpǎo Sì",
-      "status": "attested",
-      "note": "A Hangzhou temple, also called Dinghui Temple, whose name the author took as Huang Dinghui."
-    },
-    "烟霞洞": {
-      "en": "Yanxia Cave",
-      "pinyin": "Yānxiá Dòng",
-      "status": "attested",
-      "note": "A grotto near West Lake bearing the ‘Xiangxiang’ rock inscription left by Chen Zhigao&#8217;s party."
-    },
-    "灵隐寺": {
-      "en": "Lingyin Temple",
-      "pinyin": "Língyǐn Sì",
-      "status": "attested",
-      "note": "A major Buddhist temple by West Lake where the author&#8217;s mother made her vow."
-    },
-    "北平": {
-      "en": "Beiping",
-      "pinyin": "Běipíng",
-      "status": "decided",
-      "note": "The name of Beijing under the Nationalist government (1928–49); site of the Tongyi Company&#8217;s largest creditors."
-    },
-    "苏州": {
-      "en": "Suzhou",
-      "pinyin": "Sūzhōu",
-      "status": "decided",
-      "note": "Jiangsu city, site of the Second Jiangsu Prison and of the wrongful-imprisonment-compensation meetings."
-    },
-    "南京": {
-      "en": "Nanjing",
-      "pinyin": "Nánjīng",
-      "status": "decided",
-      "note": "The Nationalist capital in this period."
-    },
-    "青岛": {
-      "en": "Qingdao",
-      "pinyin": "Qīngdǎo",
-      "status": "decided",
-      "note": "Shandong port city, host of the Fifth National Bar Association congress (1933)."
-    },
-    "珞珈山": {
-      "en": "Luojia Hill",
-      "pinyin": "Luòjiā Shān",
-      "status": "decided",
-      "note": "The Wuhan University campus hill where the author met Guo Changlu."
-    },
-    "东交民巷": {
-      "en": "Legation Street",
-      "pinyin": "Dōngjiāomín Xiàng",
-      "status": "attested",
-      "note": "The Legation Quarter of Beiping, most of whose land the Tongyi branch held."
-    },
-    "西天目": {
-      "en": "West Tianmu",
-      "pinyin": "Xī Tiānmù",
-      "status": "decided",
-      "note": "A mountain in Zhejiang where the author and Chen Zhigao honeymooned and planted plum trees."
-    },
-    "柳林": {
-      "en": "Liulin",
-      "pinyin": "Liǔlín",
-      "status": "attested",
-      "note": "He Chang&#8217;s home county in Shanxi, site of his memorial hall."
-    },
-    "会昌": {
-      "en": "Huichang",
-      "pinyin": "Huìchāng",
-      "status": "attested",
-      "note": "The south Jiangxi county at whose river He Chang was ambushed and killed in 1935."
-    }
+  "黄定慧": {
+   "en": "Huang Dinghui",
+   "pinyin": "Huáng Dìnghuì",
+   "status": "attested",
+   "note": "A later name the author adopted in 1932; the form under which she is widely cited and by which the book&#8217;s photographs caption her."
   },
-  "terms": {
-    "北伐": {
-      "en": "Northern Expedition",
-      "pinyin": "Běifá",
-      "status": "attested"
-    },
-    "五四运动": {
-      "en": "May Fourth Movement",
-      "pinyin": "Wǔsì yùndòng",
-      "status": "attested"
-    },
-    "三民主义": {
-      "en": "Three Principles of the People",
-      "pinyin": "Sānmín zhǔyì",
-      "status": "attested"
-    },
-    "秀才": {
-      "en": "xiucai",
-      "pinyin": "xiùcai",
-      "status": "decided",
-      "note": "Lowest degree-holder of the imperial examinations; left romanized."
-    },
-    "优贡": {
-      "en": "yougong",
-      "pinyin": "yōugòng",
-      "status": "decided",
-      "note": "&#8216;Excellent tribute student,&#8217; a special examination distinction; left romanized."
-    },
-    "临江仙": {
-      "en": "Linjiang xian",
-      "pinyin": "Línjiāng xiān",
-      "status": "decided",
-      "note": "&#8216;The Immortal by the River,&#8217; a fixed ci lyric-pattern; each part of the book opens with one."
-    },
-    "伍豪": {
-      "en": "Wu Hao",
-      "pinyin": "Wǔ Háo",
-      "status": "decided",
-      "note": "An alias of Zhou Enlai, from his code name in the Awakening Society; the pivot of the fake &#8216;renunciation&#8217; notices and their rebuttal."
-    },
-    "周公": {
-      "en": "Lord Zhou",
-      "pinyin": "Zhōu Gōng",
-      "status": "decided",
-      "note": "An honorific for Zhou Enlai; literally &#8216;Duke of Zhou&#8217;, the revered Zhou-dynasty statesman, here used as a byname of respect."
-    },
-    "太史公": {
-      "en": "Hanlin academician (Taishigong)",
-      "pinyin": "Tàishǐgōng",
-      "status": "decided",
-      "note": "An honorific for a former Hanlin compiler/historian; used of Yu Biyun throughout this chapter."
-    },
-    "破产法": {
-      "en": "Bankruptcy Law",
-      "pinyin": "Pòchǎn Fǎ",
-      "status": "decided",
-      "note": "The Republican bankruptcy statute whose three-quarters-of-creditors rule shaped the Tongyi mediation."
-    },
-    "反省院": {
-      "en": "reflection institute",
-      "pinyin": "Fǎnxǐng Yuàn",
-      "status": "decided",
-      "note": "A Nationalist ‘Three People’s Principles’ re-education facility to which unconvicted political prisoners could be transferred, used as a rescue channel."
-    },
-    "白区": {
-      "en": "white area",
-      "pinyin": "Báiqū",
-      "status": "decided",
-      "note": "Kuomintang-controlled territory, as opposed to the Red (soviet) areas; the author&#8217;s underground post was in the Shanghai white area."
-    }
+  "谭嗣同": {
+   "en": "Tan Sitong",
+   "pinyin": "Tán Sìtóng",
+   "status": "attested",
+   "note": "1865&#8211;1898; Liuyang reformer, one of the &#8216;Six Gentlemen&#8217; of 1898."
+  },
+  "唐才常": {
+   "en": "Tang Caichang",
+   "pinyin": "Táng Cáicháng",
+   "status": "attested",
+   "note": "1867&#8211;1900; Liuyang reformer, with Tan Sitong the &#8216;Two Heroes of Liuyang.&#8217;"
+  },
+  "欧阳中鹄": {
+   "en": "Ouyang Zhonghu",
+   "pinyin": "Ōuyáng Zhōnghú",
+   "status": "attested",
+   "note": "1849&#8211;1911; Liuyang Confucian scholar, teacher of Tan and Tang."
+  },
+  "欧阳予倩": {
+   "en": "Ouyang Yuqian",
+   "pinyin": "Ōuyáng Yùqiàn",
+   "status": "attested",
+   "note": "1889&#8211;1962; dramatist; grandson of Ouyang Zhonghu."
+  },
+  "詹天佑": {
+   "en": "Zhan Tianyou",
+   "pinyin": "Zhān Tiānyòu",
+   "status": "attested",
+   "note": "1861&#8211;1919 (Jeme Tien Yow); pioneering railway engineer of the Beijing&#8211;Zhangjiakou line."
+  },
+  "秋瑾": {
+   "en": "Qiu Jin",
+   "pinyin": "Qiū Jǐn",
+   "status": "attested",
+   "note": "1875&#8211;1907; woman revolutionary, executed 1907."
+  },
+  "花木兰": {
+   "en": "Hua Mulan",
+   "pinyin": "Huā Mùlán",
+   "status": "attested",
+   "note": "Legendary woman warrior of the &#8216;Ballad of Mulan&#8217;; source of the author&#8217;s name."
+  },
+  "毛泽东": {
+   "en": "Mao Zedong",
+   "pinyin": "Máo Zédōng",
+   "status": "attested"
+  },
+  "朱剑凡": {
+   "en": "Zhu Jianfan",
+   "pinyin": "Zhū Jiànfán",
+   "status": "attested",
+   "note": "1883&#8211;1932; founder of Zhounan Girls&#8217; School."
+  },
+  "向警予": {
+   "en": "Xiang Jingyu",
+   "pinyin": "Xiàng Jǐngyǔ",
+   "status": "attested"
+  },
+  "蔡畅": {
+   "en": "Cai Chang",
+   "pinyin": "Cài Chàng",
+   "status": "attested"
+  },
+  "孙中山": {
+   "en": "Sun Yat-sen",
+   "pinyin": "Sūn Zhōngshān",
+   "status": "attested",
+   "note": "Conventional English form retained; d. 1925."
+  },
+  "蒋介石": {
+   "en": "Chiang Kai-shek",
+   "pinyin": "Jiǎng Jièshí",
+   "status": "attested",
+   "note": "Conventional English form retained."
+  },
+  "宋庆龄": {
+   "en": "Song Qingling",
+   "pinyin": "Sòng Qìnglíng",
+   "status": "attested"
+  },
+  "何香凝": {
+   "en": "He Xiangning",
+   "pinyin": "Hé Xiāngníng",
+   "status": "attested",
+   "note": "Wife of Liao Zhongkai; Kuomintang left-wing leader."
+  },
+  "廖仲恺": {
+   "en": "Liao Zhongkai",
+   "pinyin": "Liào Zhòngkǎi",
+   "status": "attested"
+  },
+  "李大钊": {
+   "en": "Li Dazhao",
+   "pinyin": "Lǐ Dàzhāo",
+   "status": "attested"
+  },
+  "董必武": {
+   "en": "Dong Biwu",
+   "pinyin": "Dǒng Bìwǔ",
+   "status": "attested"
+  },
+  "陈潭秋": {
+   "en": "Chen Tanqiu",
+   "pinyin": "Chén Tánqiū",
+   "status": "attested",
+   "note": "1896&#8211;1943; CCP founding member; the author&#8217;s leader in the Jiangxi underground."
+  },
+  "瞿秋白": {
+   "en": "Qu Qiubai",
+   "pinyin": "Qú Qiūbái",
+   "status": "attested"
+  },
+  "杨之华": {
+   "en": "Yang Zhihua",
+   "pinyin": "Yáng Zhīhuá",
+   "status": "attested",
+   "note": "Wife of Qu Qiubai."
+  },
+  "杨开慧": {
+   "en": "Yang Kaihui",
+   "pinyin": "Yáng Kāihuì",
+   "status": "attested",
+   "note": "Wife of Mao Zedong."
+  },
+  "邓颖超": {
+   "en": "Deng Yingchao",
+   "pinyin": "Dèng Yǐngchāo",
+   "status": "attested"
+  },
+  "宛希俨": {
+   "en": "Wan Xiyan",
+   "pinyin": "Wǎn Xīyǎn",
+   "status": "attested",
+   "note": "1903&#8211;1928; the author&#8217;s first husband."
+  },
+  "杜韫章": {
+   "en": "Du Yunzhang",
+   "pinyin": "Dù Yùnzhāng",
+   "status": "attested",
+   "note": "Original name of Zhang Yun (&#31456;&#34164;, 1905&#8211;1995); the source glosses the identity inline."
+  },
+  "李子芬": {
+   "en": "Li Zifen",
+   "pinyin": "Lǐ Zǐfēn",
+   "status": "decided",
+   "note": "Standard pinyin; the CYL organizer who recruited the author."
+  },
+  "袁溥之": {
+   "en": "Yuan Puzhi",
+   "pinyin": "Yuán Pǔzhī",
+   "status": "attested",
+   "note": "d. 1994; Northern Expedition comrade of the author."
+  },
+  "张笃和": {
+   "en": "Zhang Duhe",
+   "pinyin": "Zhāng Dǔhé",
+   "status": "decided",
+   "note": "Standard pinyin of a comrade of the author&#8217;s Wuhan years."
+  },
+  "郭沫若": {
+   "en": "Guo Moruo",
+   "pinyin": "Guō Mòruò",
+   "status": "attested"
+  },
+  "茅盾": {
+   "en": "Mao Dun",
+   "pinyin": "Máo Dùn",
+   "status": "attested",
+   "note": "Pen name of Shen Yanbing (&#27784;&#38597;&#20912;)."
+  },
+  "恽代英": {
+   "en": "Yun Daiying",
+   "pinyin": "Yùn Dàiyīng",
+   "status": "attested"
+  },
+  "潘汉年": {
+   "en": "Pan Hannian",
+   "pinyin": "Pān Hànnián",
+   "status": "attested"
+  },
+  "苏兆征": {
+   "en": "Su Zhaozheng",
+   "pinyin": "Sū Zhàozhēng",
+   "status": "attested"
+  },
+  "彭湃": {
+   "en": "Peng Pai",
+   "pinyin": "Péng Pài",
+   "status": "attested"
+  },
+  "岳飞": {
+   "en": "Yue Fei",
+   "pinyin": "Yuè Fēi",
+   "status": "attested",
+   "note": "1103&#8211;1142; Southern Song general."
+  },
+  "周恩来": {
+   "en": "Zhou Enlai",
+   "pinyin": "Zhōu Ēnlái",
+   "status": "attested",
+   "note": "1898&#8211;1976; then the real director of the Party&#8217;s underground work in Shanghai; the author&#8217;s superior."
+  },
+  "陈独秀": {
+   "en": "Chen Duxiu",
+   "pinyin": "Chén Dúxiù",
+   "status": "attested",
+   "note": "1879&#8211;1942; first general secretary of the CCP, removed at the August Seventh Conference of 1927."
+  },
+  "刘少奇": {
+   "en": "Liu Shaoqi",
+   "pinyin": "Liú Shàoqí",
+   "status": "attested"
+  },
+  "李立三": {
+   "en": "Li Lisan",
+   "pinyin": "Lǐ Lìsān",
+   "status": "attested"
+  },
+  "李一纯": {
+   "en": "Li Yichun",
+   "pinyin": "Lǐ Yīchún",
+   "status": "decided",
+   "note": "Wife of Li Lisan; standard pinyin."
+  },
+  "汪精卫": {
+   "en": "Wang Jingwei",
+   "pinyin": "Wāng Jīngwèi",
+   "status": "attested"
+  },
+  "贺昌": {
+   "en": "He Chang",
+   "pinyin": "Hè Chāng",
+   "status": "attested",
+   "note": "1906&#8211;1935; the author&#8217;s second husband; killed covering the Long March rearguard."
+  },
+  "饶漱石": {
+   "en": "Rao Shushi",
+   "pinyin": "Ráo Shùshí",
+   "status": "attested",
+   "note": "1903&#8211;1975; later condemned in the 1954 Gao&#8211;Rao affair."
+  },
+  "向忠发": {
+   "en": "Xiang Zhongfa",
+   "pinyin": "Xiàng Zhōngfā",
+   "status": "attested",
+   "note": "1880&#8211;1931; figurehead general secretary of the CCP from 1928."
+  },
+  "关向应": {
+   "en": "Guan Xiangying",
+   "pinyin": "Guān Xiàngyìng",
+   "status": "attested"
+  },
+  "邓小平": {
+   "en": "Deng Xiaoping",
+   "pinyin": "Dèng Xiǎopíng",
+   "status": "attested"
+  },
+  "李富春": {
+   "en": "Li Fuchun",
+   "pinyin": "Lǐ Fùchūn",
+   "status": "attested"
+  },
+  "吴德峰": {
+   "en": "Wu Defeng",
+   "pinyin": "Wú Défēng",
+   "status": "attested",
+   "note": "Director of the Central Liaison Bureau."
+  },
+  "徐虔直": {
+   "en": "Xu Qianzhi",
+   "pinyin": "Xú Qiánzhí",
+   "status": "provisional",
+   "note": "Wife of Chen Tanqiu; romanization of &#24464;&#34385;&#30452; not found attested."
+  },
+  "龚饮冰": {
+   "en": "Gong Yinbing",
+   "pinyin": "Gōng Yǐnbīng",
+   "status": "decided",
+   "note": "Standard pinyin; underground courier work."
+  },
+  "谢冰莹": {
+   "en": "Xie Bingying",
+   "pinyin": "Xiè Bīngyíng",
+   "status": "attested",
+   "note": "1906&#8211;2000; writer, author of <i>Diary of a Woman Soldier</i>; Whampoa 6th-class woman cadet."
+  },
+  "胡兰畦": {
+   "en": "Hu Lanqi",
+   "pinyin": "Hú Lánqí",
+   "status": "attested",
+   "note": "1901&#8211;1994; writer, author of <i>In Prison</i>; Whampoa 6th-class woman cadet."
+  },
+  "陈友仁": {
+   "en": "Eugene Chen",
+   "pinyin": "Chén Yǒurén",
+   "status": "attested",
+   "note": "1878&#8211;1944; foreign minister of the Wuhan Nationalist government; conventional English form retained."
+  },
+  "邓演达": {
+   "en": "Deng Yanda",
+   "pinyin": "Dèng Yǎndá",
+   "status": "attested"
+  },
+  "唐生智": {
+   "en": "Tang Shengzhi",
+   "pinyin": "Táng Shēngzhì",
+   "status": "attested"
+  },
+  "张发奎": {
+   "en": "Zhang Fakui",
+   "pinyin": "Zhāng Fākuí",
+   "status": "attested"
+  },
+  "贺龙": {
+   "en": "He Long",
+   "pinyin": "Hè Lóng",
+   "status": "attested"
+  },
+  "叶挺": {
+   "en": "Ye Ting",
+   "pinyin": "Yè Tǐng",
+   "status": "attested"
+  },
+  "吴佩孚": {
+   "en": "Wu Peifu",
+   "pinyin": "Wú Pèifú",
+   "status": "attested",
+   "note": "Zhili-clique warlord."
+  },
+  "孙传芳": {
+   "en": "Sun Chuanfang",
+   "pinyin": "Sūn Chuánfāng",
+   "status": "attested",
+   "note": "Warlord of the five southeastern provinces."
+  },
+  "张作霖": {
+   "en": "Zhang Zuolin",
+   "pinyin": "Zhāng Zuòlín",
+   "status": "attested",
+   "note": "Fengtian-clique warlord."
+  },
+  "鲍罗廷": {
+   "en": "Borodin",
+   "pinyin": "Bàoluótíng",
+   "status": "attested",
+   "note": "Mikhail Borodin (1884&#8211;1951), Comintern adviser to the Kuomintang at Wuhan."
+  },
+  "沈定一": {
+   "en": "Shen Dingyi",
+   "pinyin": "Shěn Dìngyī",
+   "status": "attested",
+   "note": "1883&#8211;1928; early Communist; father of Shen Jianlong."
+  },
+  "沈剑龙": {
+   "en": "Shen Jianlong",
+   "pinyin": "Shěn Jiànlóng",
+   "status": "decided",
+   "note": "First husband of Yang Zhihua; son of Shen Dingyi."
+  },
+  "夏斗寅": {
+   "en": "Xia Douyin",
+   "pinyin": "Xià Dòuyín",
+   "status": "attested",
+   "note": "Northern Expedition officer who mutinied against the Communists in May 1927."
+  },
+  "许克祥": {
+   "en": "Xu Kexiang",
+   "pinyin": "Xǔ Kèxiáng",
+   "status": "attested",
+   "note": "Launched the Changsha &#8220;Horse Day&#8221; coup, 21 May 1927."
+  },
+  "耿丹": {
+   "en": "Geng Dan",
+   "pinyin": "Gěng Dān",
+   "status": "decided",
+   "note": "Styled Zhongzhao; deputy commander of the 15th Army; husband of Zhang Duhe."
+  },
+  "赵畹华": {
+   "en": "Zhao Wanhua",
+   "pinyin": "Zhào Wǎnhuá",
+   "status": "decided",
+   "note": "Standard pinyin; the author&#8217;s Wuhan-years comrade."
+  },
+  "梁剑华": {
+   "en": "Liang Jianhua",
+   "pinyin": "Liáng Jiànhuá",
+   "status": "decided"
+  },
+  "汪华贞": {
+   "en": "Wang Huazhen",
+   "pinyin": "Wāng Huázhēn",
+   "status": "decided",
+   "note": "Director of the Institute for Reforming New People at Wuhan."
+  },
+  "刘少文": {
+   "en": "Liu Shaowen",
+   "pinyin": "Liú Shàowén",
+   "status": "attested",
+   "note": "Subject of Appendix III; interpreter at the 1927 Wuhan reception."
+  },
+  "江一平": {
+   "en": "Jiang Yiping",
+   "pinyin": "Jiāng Yīpíng",
+   "status": "attested",
+   "note": "Prominent Shanghai lawyer of the 1920s&#8211;30s; son-in-law of the magnate Yu Qiaqing. Assigned as the author&#8217;s duty defense lawyer in her 1929 mill-strike trial."
+  },
+  "虞洽卿": {
+   "en": "Yu Qiaqing",
+   "pinyin": "Yú Qiàqīng",
+   "status": "attested",
+   "note": "Powerful Ningbo-born comprador and business magnate of Republican Shanghai."
+  },
+  "李维汉": {
+   "en": "Li Weihan",
+   "pinyin": "Lǐ Wéihàn",
+   "status": "attested",
+   "note": "Alias Luo Mai (&#32599;&#36808;). Central Committee member and secretary of the Jiangsu Provincial Committee about 1929; a senior Party organizer."
+  },
+  "王明": {
+   "en": "Wang Ming",
+   "pinyin": "Wáng Míng",
+   "status": "attested",
+   "note": "Chen Shaoyu; leader of the Moscow-trained &#8216;28 Bolsheviks&#8217; and of the third &#8216;Left&#8217; line (1931&#8211;35). Here still an obscure Red Flag reporter."
+  },
+  "夏征农": {
+   "en": "Xia Zhengnong",
+   "pinyin": "Xià Zhēngnóng",
+   "status": "attested",
+   "note": "Veteran Communist and writer; a member of the Central Advisory Commission in the 1980s."
+  },
+  "聂荣臻": {
+   "en": "Nie Rongzhen",
+   "pinyin": "Niè Róngzhēn",
+   "status": "attested",
+   "note": "Later a marshal of the People&#8217;s Republic; in 1929&#8211;30 in charge of military work under the Guangdong Provincial Committee / Southern Bureau."
+  },
+  "柯麟": {
+   "en": "Ke Lin",
+   "pinyin": "Kē Lín",
+   "status": "attested",
+   "note": "Communist doctor who ran a Shanghai clinic (the Dasheng Clinic) as an underground liaison cover."
+  },
+  "李强": {
+   "en": "Li Qiang",
+   "pinyin": "Lǐ Qiáng",
+   "status": "attested",
+   "note": "Builder of the Party&#8217;s first wireless sets and secret radio stations; later PRC Minister of Foreign Trade."
+  },
+  "张瑞华": {
+   "en": "Zhang Ruihua",
+   "pinyin": "Zhāng Ruìhuá",
+   "status": "attested",
+   "note": "Nie Rongzhen&#8217;s wife and a Party worker."
+  },
+  "熊瑾玎": {
+   "en": "Xiong Jinding",
+   "pinyin": "Xióng Jǐndīng",
+   "status": "attested",
+   "note": "Manager of the Party Central&#8217;s clandestine finances in Shanghai."
+  },
+  "贺平": {
+   "en": "He Ping",
+   "pinyin": "Hè Píng",
+   "status": "decided",
+   "note": "The author&#8217;s second son, by He Chang, born March 1930 in Hong Kong; given to Lu Biao to raise and renamed Lu Ziping, later Lu Ping (&#21346;&#24179;)."
+  },
+  "卢彪": {
+   "en": "Lu Biao",
+   "pinyin": "Lú Biāo",
+   "status": "attested",
+   "note": "Successor to He Chang as Southern Bureau (Guangdong Provincial Committee) secretary; adoptive father of the author&#8217;s son He Ping."
+  },
+  "何葆贞": {
+   "en": "He Baozhen",
+   "pinyin": "Hé Bǎozhēn",
+   "status": "attested",
+   "note": "Liu Shaoqi&#8217;s wife (also written He Baozhen / He Bao&#8217;e), a Party worker and the author&#8217;s former Wuhan colleague; martyred 1934."
+  },
+  "彭真": {
+   "en": "Peng Zhen",
+   "pinyin": "Péng Zhēn",
+   "status": "attested",
+   "note": "Later a top Party leader and mayor of Beijing; here Tianjin municipal committee secretary, arrested about this time."
+  },
+  "薄一波": {
+   "en": "Bo Yibo",
+   "pinyin": "Bó Yībō",
+   "status": "attested",
+   "note": "Later a vice-premier and Party elder; here Beiping municipal committee secretary."
+  },
+  "陈复": {
+   "en": "Chen Fu",
+   "pinyin": "Chén Fù",
+   "status": "attested",
+   "note": "A Northern Bureau leader arrested with the failed 1930 insurrections. The memoir calls him propaganda head; scholarship makes him the Bureau&#8217;s secretary-general."
+  },
+  "任弼时": {
+   "en": "Ren Bishi",
+   "pinyin": "Rèn Bìshí",
+   "status": "attested",
+   "note": "A principal Party and Youth League leader, later one of the &#8216;Five Secretaries&#8217; of the Central Secretariat."
+  },
+  "米夫": {
+   "en": "Mif",
+   "pinyin": "Mǐfū",
+   "status": "attested",
+   "note": "Pavel Mif, Comintern representative who engineered the Fourth Plenum of January 1931 that raised Wang Ming."
+  },
+  "秦邦宪": {
+   "en": "Qin Bangxian",
+   "pinyin": "Qín Bāngxiàn",
+   "status": "attested",
+   "note": "Better known as Bo Gu (&#21338;&#21476;); one of the &#8216;28 Bolsheviks&#8217; and de facto Party leader 1931&#8211;35."
+  },
+  "张闻天": {
+   "en": "Zhang Wentian",
+   "pinyin": "Zhāng Wéntiān",
+   "status": "attested",
+   "note": "Alias Luo Fu (&#27931;&#29995;); a &#8216;28 Bolshevik&#8217; who became general secretary after the Zunyi Conference."
+  },
+  "王稼祥": {
+   "en": "Wang Jiaxiang",
+   "pinyin": "Wáng Jiàxiáng",
+   "status": "attested",
+   "note": "Party and military leader; a supporter of Mao at the Zunyi Conference."
+  },
+  "陈毅": {
+   "en": "Chen Yi",
+   "pinyin": "Chén Yì",
+   "status": "attested",
+   "note": "Later a marshal and foreign minister of the People&#8217;s Republic."
+  },
+  "毛泽覃": {
+   "en": "Mao Zetan",
+   "pinyin": "Máo Zétán",
+   "status": "attested",
+   "note": "Mao Zedong&#8217;s youngest brother; killed in 1935."
+  },
+  "戴晓云": {
+   "en": "Dai Xiaoyun",
+   "pinyin": "Dài Xiǎoyún",
+   "status": "provisional",
+   "note": "New secretary of the Mutual Aid General Association from the winter of 1930; romanization by pinyin."
+  },
+  "陈赓": {
+   "en": "Chen Geng",
+   "pinyin": "Chén Gēng",
+   "status": "attested",
+   "note": "Whampoa graduate and head of the intelligence (2nd) section of the Party&#8217;s Special Branch; later a PLA general."
+  },
+  "谭延闿": {
+   "en": "Tan Yankai",
+   "pinyin": "Tán Yánkǎi",
+   "status": "attested",
+   "note": "Hunan military governor and Nationalist elder; first president of the Executive Yuan; signed the Wuhan order expelling Chiang in April 1927."
+  },
+  "黄兴": {
+   "en": "Huang Xing",
+   "pinyin": "Huáng Xīng",
+   "status": "attested",
+   "note": "Revolutionary leader and Sun Yat-sen&#8217;s chief military partner in the 1911 Revolution."
+  },
+  "蔡锷": {
+   "en": "Cai E",
+   "pinyin": "Cài È",
+   "status": "attested",
+   "note": "Republican general who led the 1915&#8211;16 revolt against Yuan Shikai&#8217;s monarchy."
+  },
+  "顾顺章": {
+   "en": "Gu Shunzhang",
+   "pinyin": "Gù Shùnzhāng",
+   "status": "attested",
+   "note": "Head of the Party&#8217;s Special Branch whose 1931 defection to the Kuomintang gravely wrecked the Shanghai underground."
+  },
+  "戚元德": {
+   "en": "Qi Yuande",
+   "pinyin": "Qī Yuándé",
+   "status": "attested",
+   "note": "Wu Defeng&#8217;s wife and a Party worker skilled at persuasion; she talked the author into staying in Shanghai."
+  },
+  "黄浩": {
+   "en": "Huang Hao",
+   "pinyin": "Huáng Hào",
+   "status": "provisional",
+   "note": "Also styled Jingwen (&#38745;&#27760;); staff officer of the Rescue Department, formerly of the Whampoa women&#8217;s corps. Romanization by pinyin."
+  },
+  "朱伯琛": {
+   "en": "Zhu Bochen",
+   "pinyin": "Zhū Bóchēn",
+   "status": "provisional",
+   "note": "Secretary of the Mutual Aid General Association; son of Zhu Jianfan, headmaster of the Zhounan Girls&#8217; School. Romanization by pinyin."
+  },
+  "陈志皋": {
+   "en": "Chen Zhigao",
+   "pinyin": "Chén Zhìgāo",
+   "status": "attested",
+   "note": "Progressive Shanghai lawyer of the Haining Chen clan; recruited to defend arrested Communists, he later became the author&#8217;s husband."
+  },
+  "陈元龙": {
+   "en": "Chen Yuanlong",
+   "pinyin": "Chén Yuánlóng",
+   "status": "attested",
+   "note": "The &#8216;Grand Councilor Chen&#8217; of the Kangxi&#8211;Yongzheng era, ancestor of the Haining Chen clan."
+  },
+  "陈其寿": {
+   "en": "Chen Qishou",
+   "pinyin": "Chén Qíshòu",
+   "status": "attested",
+   "note": "Styled Jieqing (&#20171;&#21375;); Chen Zhigao&#8217;s father, a retired judge of the criminal court of the Shanghai French Concession&#8217;s Mixed Court; the author&#8217;s adoptive father."
+  },
+  "翁同龢": {
+   "en": "Weng Tonghe",
+   "pinyin": "Wēng Tónghé",
+   "status": "attested",
+   "note": "The Guangxu Emperor&#8217;s tutor, cashiered in 1898 during the Hundred Days&#8217; Reform."
+  },
+  "黄金荣": {
+   "en": "Huang Jinrong",
+   "pinyin": "Huáng Jīnróng",
+   "status": "attested",
+   "note": "Green Gang boss and the sole Chinese chief inspector of the French Concession patrol house; Chiang Kai-shek was once his disciple."
+  },
+  "沈钧儒": {
+   "en": "Shen Junru",
+   "pinyin": "Shěn Jūnrú",
+   "status": "attested",
+   "note": "Jurist and patriotic democrat, later one of the &#8216;Seven Gentlemen&#8217;; Chen Zhigao&#8217;s teacher and elder cousin."
+  },
+  "褚辅成": {
+   "en": "Chu Fucheng",
+   "pinyin": "Chǔ Fǔchéng",
+   "status": "attested",
+   "note": "Patriotic democrat and educator, principal of the Shanghai College of Law."
+  },
+  "施蛰存": {
+   "en": "Shi Zhecun",
+   "pinyin": "Shī Zhécún",
+   "status": "attested",
+   "note": "Modernist writer and scholar; a schoolmate bailed out by Chen&#8217;s father."
+  },
+  "戴望舒": {
+   "en": "Dai Wangshu",
+   "pinyin": "Dài Wàngshū",
+   "status": "attested",
+   "note": "Celebrated modernist poet (&#8216;Rainy Alley&#8217;); a schoolmate bailed out by Chen&#8217;s father."
+  },
+  "杜衡": {
+   "en": "Du Heng",
+   "pinyin": "Dù Héng",
+   "status": "attested",
+   "note": "Writer and critic (Su Wen); a schoolmate bailed out by Chen&#8217;s father."
+  },
+  "周康文": {
+   "en": "Zhou Kangwen",
+   "pinyin": "Zhōu Kāngwén",
+   "status": "attested",
+   "note": "CCP Central Propaganda Department cadre who organized the World and China Society."
+  },
+  "孙晓村": {
+   "en": "Sun Xiaocun",
+   "pinyin": "Sūn Xiǎocūn",
+   "status": "attested",
+   "note": "Economist and democrat; later a vice-chairman of the CPPCC and of the China Democratic National Construction Association."
+  },
+  "钱纳水": {
+   "en": "Qian Nashui",
+   "pinyin": "Qián Nàshuǐ",
+   "status": "provisional",
+   "note": "Head of the propaganda department of the Mutual Aid General Association. Romanization by pinyin."
+  },
+  "赵韵逸": {
+   "en": "Zhao Yunyi",
+   "pinyin": "Zhào Yùnyì",
+   "status": "provisional",
+   "note": "The young judge who tried Guan Xiangying&#8217;s case. Romanization by pinyin."
+  },
+  "贝淞生": {
+   "en": "Bei Songsun",
+   "pinyin": "Bèi Sōngshēng",
+   "status": "provisional",
+   "note": "Manager of the Bank of China and a sworn friend of the elder Chen. Romanization by pinyin."
+  },
+  "宛希先": {
+   "en": "Wan Xixian",
+   "pinyin": "Wǎn Xīxiān",
+   "status": "attested",
+   "note": "Cousin of the author&#8217;s first husband Wan Xiyan; an early Jinggangshan leader wrongly killed in the anti-&#8216;AB-tuan&#8217; purge about 1930."
+  },
+  "邓榕": {
+   "en": "Deng Rong",
+   "pinyin": "Dèng Róng",
+   "status": "attested",
+   "note": "Pen name Maomao (&#27611;&#27611;); Deng Xiaoping&#8217;s daughter and biographer."
+  },
+  "曹炳生": {
+   "en": "Cao Bingsheng",
+   "pinyin": "Cáo Bǐngshēng",
+   "status": "provisional",
+   "note": "A French-Concession Municipal Police interpreter, classmate and dormitory-mate of Chen Zhigao at Xuhui College; his unwitting talk of Xiang Zhongfa&#8217;s arrest tipped off the author. Assassinated early in the War of Resistance."
+  },
+  "薛耕莘": {
+   "en": "Xue Gengxin",
+   "pinyin": "Xuē Gēngxīn",
+   "status": "attested",
+   "note": "A Chinese detective in the Shanghai French-Concession police who succeeded to Cao Bingsheng&#8217;s post; later a research fellow of the Shanghai Research Institute of Culture and History and a memoirist (1901&#8211;2007)."
+  },
+  "孙雪影": {
+   "en": "Sun Xueying",
+   "pinyin": "Sūn Xuěyǐng",
+   "status": "provisional",
+   "note": "Cao Bingsheng&#8217;s widow, headmistress of the Bingsheng Primary School founded in his memory."
+  },
+  "康生": {
+   "en": "Kang Sheng",
+   "pinyin": "Kāng Shēng",
+   "status": "attested",
+   "note": "Took charge of the Central Special Branch after Gu Shunzhang&#8217;s defection in 1931; later a Politburo member and a chief instigator of the Cultural Revolution (1898&#8211;1975)."
+  },
+  "王震": {
+   "en": "Wang Zhen",
+   "pinyin": "Wáng Zhēn",
+   "status": "attested",
+   "note": "Red Army and PLA general, later Vice-President of the PRC (1908&#8211;1993)."
+  },
+  "张国焘": {
+   "en": "Zhang Guotao",
+   "pinyin": "Zhāng Guótāo",
+   "status": "attested",
+   "note": "An early CCP leader who, during the Long March, split with the Central Committee over the line of march; later defected to the Kuomintang (1897&#8211;1979)."
+  },
+  "柳亚子": {
+   "en": "Liu Yazi",
+   "pinyin": "Liǔ Yàzǐ",
+   "status": "attested",
+   "note": "Poet and founder of the Southern Society (Nanshe); a friend of Chen Zhigao&#8217;s (1887&#8211;1958)."
+  },
+  "李一氓": {
+   "en": "Li Yimang",
+   "pinyin": "Lǐ Yīmáng",
+   "status": "attested",
+   "note": "Party veteran and writer; the author quotes his account of the &#8216;Wu Hao&#8217; affair from the volume Pan Hannian in Shanghai (1903&#8211;1990)."
+  },
+  "董竹君": {
+   "en": "Dong Zhujun",
+   "pinyin": "Dǒng Zhújūn",
+   "status": "attested",
+   "note": "Founder of the Jinjiang restaurant and hotel in Shanghai and author of the memoir My One Century; earlier the wife of Xia Zhishi (1900&#8211;1997)."
+  },
+  "夏之时": {
+   "en": "Xia Zhishi",
+   "pinyin": "Xià Zhīshí",
+   "status": "attested",
+   "note": "A Sichuan military commander (&#8216;Commander Xia&#8217;, 都督) of the 1911 Revolution era; Dong Zhujun&#8217;s first husband, from whom she was divorced (1887&#8211;1950)."
+  },
+  "吴湄": {
+   "en": "Wu Mei",
+   "pinyin": "Wú Méi",
+   "status": "provisional",
+   "note": "Proprietress of the Meilongzhen Restaurant in Shanghai."
+  },
+  "文崇石": {
+   "en": "Wen Chongshi",
+   "pinyin": "Wén Chóngshí",
+   "status": "provisional",
+   "note": "Author of an article in the New York Chinese-language paper Overseas Chinese Daily exposing the Gang of Four&#8217;s use of the &#8216;Wu Hao&#8217; notices against Zhou Enlai."
+  },
+  "张承宗": {
+   "en": "Zhang Chengzong",
+   "pinyin": "Zhāng Chéngzōng",
+   "status": "attested",
+   "note": "Head of the United Front Work Department of the CCP Shanghai Municipal Committee (1907&#8211;1991)."
+  },
+  "庞京周": {
+   "en": "Pang Jingzhou",
+   "pinyin": "Páng Jīngzhōu",
+   "status": "attested",
+   "note": "A prominent Shanghai Western-medicine physician (1897&#8211;1966)."
+  },
+  "俞同芳": {
+   "en": "Yu Tongfang",
+   "pinyin": "Yú Tóngfāng",
+   "status": "provisional",
+   "note": "A noted Shanghai practitioner of Chinese medicine, called in to attend Chen Qishou."
+  },
+  "陈文中": {
+   "en": "Chen Wenzhong",
+   "pinyin": "Chén Wénzhōng",
+   "status": "provisional",
+   "note": "The author&#8217;s youngest son."
+  },
+  "陈宝璋": {
+   "en": "Chen Baozhang",
+   "pinyin": "Chén Bǎozhāng",
+   "status": "provisional",
+   "note": "Chen Zhigao&#8217;s younger sister, then a student at the Sino-French College of Pharmacy."
+  },
+  "陈寅谷": {
+   "en": "Chen Yingu",
+   "pinyin": "Chén Yíngǔ",
+   "status": "provisional",
+   "note": "A younger brother of Chen Zhigao, a student at the Tongde Medical College who did battlefield relief in the 1932 fighting."
+  },
+  "陈石君": {
+   "en": "Chen Shijun",
+   "pinyin": "Chén Shíjūn",
+   "status": "provisional",
+   "note": "A younger brother of Chen Zhigao, a student at the Tongde Medical College who did battlefield relief in the 1932 fighting."
+  },
+  "陈胜年": {
+   "en": "Chen Shengnian",
+   "pinyin": "Chén Shèngnián",
+   "status": "provisional",
+   "note": "Later named Peng Qing (&#24429;&#28165;); a grandson of Chen Qishou, born just before the old man&#8217;s death."
+  },
+  "巴和": {
+   "en": "Baho",
+   "pinyin": "Bā hé",
+   "status": "provisional",
+   "note": "A French lawyer in Shanghai, an old friend of Chen Qishou; he placed the counter-notice on behalf of &#8216;Zhou Shaoshan&#8217;. Chinese sources give only &#20521;&#21644; (Baho); his name&#8217;s French original is not established."
+  },
+  "周少山": {
+   "en": "Zhou Shaoshan",
+   "pinyin": "Zhōu Shàoshān",
+   "status": "decided",
+   "note": "A cover name of Zhou Enlai, used in the March 1932 counter-notice: the notice styled &#8216;Wu Hao&#8217; as merely a former pen name of the private citizen &#8216;Zhou Shaoshan&#8217;, so that the &#8216;Wu Hao&#8217; of the fake notice must be someone else."
+  },
+  "刘伯垂": {
+   "en": "Liu Bochui",
+   "pinyin": "Liú Bóchuí",
+   "status": "attested",
+   "note": "A veteran CCP politics-and-law expert; from 1933 he succeeded Pan Hannian as the author&#8217;s superior and contact for the Shanghai rescue and united-front work."
+  },
+  "林庚白": {
+   "en": "Lin Gengbai",
+   "pinyin": "Lín Gēngbái",
+   "status": "attested",
+   "note": "1897–1941; Southern Society poet and Nationalist-government legislator, once secretary-general of the Extraordinary Parliament; a friend and legal ally of the author and Chen Zhigao. Killed by the Japanese at Hong Kong in 1941."
+  },
+  "杨志豪": {
+   "en": "Yang Zhihao",
+   "pinyin": "Yáng Zhìháo",
+   "status": "provisional",
+   "note": "A Shanghai lawyer and colleague of Chen Zhigao and Shen Junru in the Bar Association and the wrongful-imprisonment-compensation movement."
+  },
+  "周孝庵": {
+   "en": "Zhou Xiao&#8217;an",
+   "pinyin": "Zhōu Xiào&#8217;ān",
+   "status": "provisional",
+   "note": "A Shanghai journalist and lawyer who ran a law office jointly with Chen Zhigao."
+  },
+  "廖承志": {
+   "en": "Liao Chengzhi",
+   "pinyin": "Liào Chéngzhì",
+   "status": "attested",
+   "note": "1908–1983; son of Liao Zhongkai and He Xiangning, CCP leader; arrested in Shanghai in 1933 and among those the author&#8217;s circle worked to rescue."
+  },
+  "吴凯声": {
+   "en": "Wu Kaisheng",
+   "pinyin": "Wú Kǎishēng",
+   "status": "attested",
+   "note": "A prominent Shanghai barrister (trained in France) entrusted, behind the scenes, with the defense of Chen Geng and Liao Chengzhi."
+  },
+  "何叔衡": {
+   "en": "He Shuheng",
+   "pinyin": "Hé Shūhéng",
+   "status": "attested",
+   "note": "1876–1935; a delegate to the First Congress of the CCP; killed in 1935. His daughters He Shishan and He Sisi survived to witness the author&#8217;s rescue work."
+  },
+  "何实山": {
+   "en": "He Shishan",
+   "pinyin": "Hé Shíshān",
+   "status": "provisional",
+   "note": "Elder daughter of the martyr He Shuheng."
+  },
+  "何实嗣": {
+   "en": "He Sisi",
+   "pinyin": "Hé Sìsì",
+   "status": "provisional",
+   "note": "Younger daughter of He Shuheng; later director of the Beijing Research Institute of Culture and History."
+  },
+  "朱端绶": {
+   "en": "Zhu Duanshou",
+   "pinyin": "Zhū Duānshòu",
+   "status": "attested",
+   "note": "Underground CCP worker; wife and working partner of Xiong Jinding; survived into the 1980s."
+  },
+  "陈琮英": {
+   "en": "Chen Congying",
+   "pinyin": "Chén Cóngyīng",
+   "status": "attested",
+   "note": "Wife of Ren Bishi; implicated and arrested after Xiang Zhongfa&#8217;s betrayal wrecked the Red Flag printing house."
+  },
+  "蔡元培": {
+   "en": "Cai Yuanpei",
+   "pinyin": "Cài Yuánpéi",
+   "status": "attested",
+   "note": "1868–1940; educator, first minister of education of the Republic, chancellor of Peking University, and head of Academia Sinica; a witness at the author&#8217;s 1935 wedding."
+  },
+  "陈丕显": {
+   "en": "Chen Pixian",
+   "pinyin": "Chén Pīxián",
+   "status": "attested",
+   "note": "1916–1995; CCP leader who fought in the south Jiangxi guerrilla war and wrote reminiscences of He Chang."
+  },
+  "项英": {
+   "en": "Xiang Ying",
+   "pinyin": "Xiàng Yīng",
+   "status": "attested",
+   "note": "1898–1941; head of the CCP Central Soviet Area Sub-bureau left behind after the Long March; later political commissar of the New Fourth Army."
+  },
+  "阮啸仙": {
+   "en": "Ruan Xiaoxian",
+   "pinyin": "Ruǎn Xiàoxiān",
+   "status": "attested",
+   "note": "1898–1935; first director of the CCP&#8217;s Central Auditing Commission; killed in the south Jiangxi breakout, mourned with He Chang in Chen Yi&#8217;s poem."
+  },
+  "李锐": {
+   "en": "Li Rui",
+   "pinyin": "Lǐ Ruì",
+   "status": "attested",
+   "note": "1917–2019; once a secretary to Mao Zedong, later deputy head of the Central Organization Department and a member of the Central Advisory Commission."
+  },
+  "俞樾": {
+   "en": "Yu Yue",
+   "pinyin": "Yú Yuè",
+   "status": "attested",
+   "note": "1821–1907; styled Quyuan; eminent Qing scholar of classical learning. The Yu Mansion by West Lake was built for him."
+  },
+  "俞陛云": {
+   "en": "Yu Biyun",
+   "pinyin": "Yú Bìyún",
+   "status": "attested",
+   "note": "1868–1950; grandson of Yu Yue and father of Yu Pingbo; a late-Qing tanhua (third-place palace-examination graduate) and Hanlin poet, style name Jieqing. He taught the author classical poetry at the Yu Mansion."
+  },
+  "俞平伯": {
+   "en": "Yu Pingbo",
+   "pinyin": "Yú Píngbó",
+   "status": "attested",
+   "note": "1900–1990; son of Yu Biyun, poet and famous scholar of Dream of the Red Chamber (a ‘Redologist’)."
+  },
+  "曾国藩": {
+   "en": "Zeng Guofan",
+   "pinyin": "Zēng Guófān",
+   "status": "attested",
+   "note": "1811–1872; late-Qing statesman and general who funded the building of the Yu Mansion for Yu Yue."
+  },
+  "吴梅村": {
+   "en": "Wu Meicun",
+   "pinyin": "Wú Méicūn",
+   "status": "attested",
+   "note": "Wu Weiye (1609–1672), late-Ming/early-Qing poet; his ‘Song of Chen Yuanyuan’ is quoted in this chapter."
+  },
+  "陈圆圆": {
+   "en": "Chen Yuanyuan",
+   "pinyin": "Chén Yuányuán",
+   "status": "attested",
+   "note": "Famous courtesan of the Ming-Qing transition, subject of Wu Meicun&#8217;s poem."
+  },
+  "高志航": {
+   "en": "Gao Zhihang",
+   "pinyin": "Gāo Zhìháng",
+   "status": "attested",
+   "note": "1907–1937; Nationalist air-force hero of the 14 August 1937 air battle over Hangzhou; killed later that year."
+  },
+  "章士钊": {
+   "en": "Zhang Shizhao",
+   "pinyin": "Zhāng Shìzhāo",
+   "status": "attested",
+   "note": "1881–1973; noted jurist, scholar and politician; a Beiping creditor of the Tongyi Company."
+  },
+  "罗家衡": {
+   "en": "Luo Jiaheng",
+   "pinyin": "Luó Jiāhéng",
+   "status": "provisional",
+   "note": "A lawyer and Jiangxi man; a Beiping creditor of the Tongyi Company and part of Wu Defeng&#8217;s social network."
+  },
+  "张东荪": {
+   "en": "Zhang Dongsun",
+   "pinyin": "Zhāng Dōngsūn",
+   "status": "attested",
+   "note": "1886–1973; philosopher and National Socialist Party figure, professor at Peking University."
+  },
+  "杜月笙": {
+   "en": "Du Yuesheng",
+   "pinyin": "Dù Yuèshēng",
+   "status": "attested",
+   "note": "1888–1951; Green Gang boss and Shanghai power broker, invited to guarantee the Tongyi Company&#8217;s resumption."
+  },
+  "王晓籁": {
+   "en": "Wang Xiaolai",
+   "pinyin": "Wáng Xiǎolài",
+   "status": "attested",
+   "note": "1887–1967; Shanghai business leader who became chairman of the revived Tongyi Company."
+  },
+  "黄溯初": {
+   "en": "Huang Suchu",
+   "pinyin": "Huáng Sùchū",
+   "status": "provisional",
+   "note": "Pioneering banker; chairman of the Tongyi Trust Company, who fled to Japan after its 1935 collapse."
+  },
+  "郭虞裳": {
+   "en": "Guo Yushang",
+   "pinyin": "Guō Yúshang",
+   "status": "provisional",
+   "note": "England-trained founder of the Tongyi Company and a relative by marriage of Chen Zhigao&#8217;s eldest brother."
+  },
+  "徐寄庼": {
+   "en": "Xu Jiqing",
+   "pinyin": "Xú Jìqǐng",
+   "status": "attested",
+   "note": "Shanghai banker; managing director of the Tongyi Company who arranged the mortgage that let it resume business."
+  },
+  "阿英": {
+   "en": "A Ying",
+   "pinyin": "Ā Yīng",
+   "status": "attested",
+   "note": "Pen name of Qian Xingcun (1900–1977), writer and literary historian; ran the ‘Wind and Rain Bookroom’ hidden in the Tongyi Company."
+  },
+  "夏衍": {
+   "en": "Xia Yan",
+   "pinyin": "Xià Yǎn",
+   "status": "attested",
+   "note": "1900–1995; playwright, film-maker and CCP cultural cadre in Shanghai."
+  },
+  "冯雪峰": {
+   "en": "Feng Xuefeng",
+   "pinyin": "Féng Xuěfēng",
+   "status": "attested",
+   "note": "1903–1976; poet, literary theorist and CCP cultural figure, liaison to Shanghai&#8217;s writers."
+  },
+  "方志敏": {
+   "en": "Fang Zhimin",
+   "pinyin": "Fāng Zhìmǐn",
+   "status": "attested",
+   "note": "1899–1935; CCP leader of the Northeast Jiangxi soviet; his prison diary was among the papers kept in the Tongyi vault."
+  },
+  "陈云": {
+   "en": "Chen Yun",
+   "pinyin": "Chén Yún",
+   "status": "attested",
+   "note": "1905–1995; senior CCP leader; his later appraisal cleared the author of the ‘bureaucratic capitalist’ charge."
+  },
+  "孙科": {
+   "en": "Sun Ke",
+   "pinyin": "Sūn Kē",
+   "status": "attested",
+   "note": "1891–1973; son of Sun Yat-sen and a president of one of the Nationalist government&#8217;s Five Yuan."
+  },
+  "于右任": {
+   "en": "Yu Youren",
+   "pinyin": "Yú Yòurèn",
+   "status": "attested",
+   "note": "1879–1964; Nationalist elder statesman, calligrapher, and president of the Control Yuan."
+  },
+  "张知本": {
+   "en": "Zhang Zhiben",
+   "pinyin": "Zhāng Zhīběn",
+   "status": "attested",
+   "note": "1881–1976; jurist and Nationalist elder; an introducer at the Lin Gengbai–Lin Beili betrothal."
+  },
+  "覃振": {
+   "en": "Tan Zhen",
+   "pinyin": "Qín Zhèn",
+   "status": "attested",
+   "note": "1885–1947; Nationalist elder statesman and Yuan president."
+  },
+  "陈立夫": {
+   "en": "Chen Lifu",
+   "pinyin": "Chén Lìfū",
+   "status": "attested",
+   "note": "1900–2001; Nationalist organization boss of the ‘CC Clique,’ firmly anti-Communist."
+  },
+  "冯玉祥": {
+   "en": "Feng Yuxiang",
+   "pinyin": "Féng Yùxiáng",
+   "status": "attested",
+   "note": "1882–1948; the ‘Christian General’ and warlord, at this time an anti-Japanese figure."
+  },
+  "杜重远": {
+   "en": "Du Zhongyuan",
+   "pinyin": "Dù Zhòngyuǎn",
+   "status": "attested",
+   "note": "1898–1943; patriotic industrialist and editor of New Life Weekly, jailed in the 1935 ‘New Life’ case."
+  },
+  "郑毓秀": {
+   "en": "Zheng Yuxiu",
+   "pinyin": "Zhèng Yùxiù",
+   "status": "attested",
+   "note": "1891–1959; France-trained jurist, Shanghai&#8217;s first woman lawyer, qualified to plead in the Mixed Court."
+  },
+  "李辛阳": {
+   "en": "Li Xinyang",
+   "pinyin": "Lǐ Xīnyáng",
+   "status": "provisional",
+   "note": "Aurora University classmate of Chen Zhigao&#8217;s circle; assistant lawyer in Zheng Yuxiu&#8217;s office."
+  },
+  "陈德新": {
+   "en": "Chen Dexin",
+   "pinyin": "Chén Déxīn",
+   "status": "provisional",
+   "note": "Style name Mingzai; cousin of Chen Zhigao and chairman of the Zhejiang Provincial Bar Association."
+  },
+  "张以璘": {
+   "en": "Zhang Yilin",
+   "pinyin": "Zhāng Yǐlín",
+   "status": "provisional",
+   "note": "A CCP member (joined 1926) placed by Wu Defeng as secretary of Chen Zhigao&#8217;s law office, running it as a covert liaison point."
+  },
+  "郭长禄": {
+   "en": "Guo Changlu",
+   "pinyin": "Guō Chánglù",
+   "status": "provisional",
+   "note": "Wuhan University politics-and-diplomacy student who married the author&#8217;s second sister."
+  },
+  "于伶": {
+   "en": "Yu Ling",
+   "pinyin": "Yú Líng",
+   "status": "attested",
+   "note": "1907–1997; playwright and head of the Shanghai Drama Art Society, aided through Tongyi overdrafts."
+  },
+  "申石伽": {
+   "en": "Shen Shijia",
+   "pinyin": "Shēn Shíjiā",
+   "status": "attested",
+   "note": "1906–2001; noted Shanghai traditional-ink painter; the author studied painting under him at the Yu Mansion."
+  },
+  "蒋雪英": {
+   "en": "Jiang Xueying",
+   "pinyin": "Jiǎng Xuěyīng",
+   "status": "provisional",
+   "note": "Daughter of the maid in Madame Yu&#8217;s dowry; later Yu Pingbo&#8217;s goddaughter and pupil."
+  },
+  "冒鹤亭": {
+   "en": "Mao Heting",
+   "pinyin": "Mào Hètíng",
+   "status": "attested",
+   "note": "Mao Guangsheng (1873–1959), noted Jiangnan poet under whom the author later studied verse."
+  },
+  "潘肇邦": {
+   "en": "Pan Zhaobang",
+   "pinyin": "Pān Zhàobāng",
+   "status": "provisional",
+   "note": "Style name Luyan; senior Aurora University alumnus and accountant, co-mediator and later general manager of the revived Tongyi Company."
+  },
+  "陈高佣": {
+   "en": "Chen Gaoyong",
+   "pinyin": "Chén Gāoyōng",
+   "status": "attested",
+   "note": "1902–1976; historian and Jinan University professor, editor of The World and China; arrested in 1932."
+  },
+  "程仲文": {
+   "en": "Cheng Zhongwen",
+   "pinyin": "Chéng Zhòngwén",
+   "status": "provisional",
+   "note": "Student of Chen Gaoyong and proofreader for The World and China, arrested with him."
+  },
+  "陈振九": {
+   "en": "Chen Zhenjiu",
+   "pinyin": "Chén Zhènjiǔ",
+   "status": "provisional",
+   "note": "Cousin of Chen Zhigao and a deputy manager of the Yongye Bank; guarantor for the released Chen Gaoyong."
+  },
+  "陈赓虞": {
+   "en": "Chen Gengyu",
+   "pinyin": "Chén Gēngyú",
+   "status": "provisional",
+   "note": "Chen Zhigao&#8217;s eldest brother; involved in the Yongchang Gold Exchange."
+  },
+  "李焕之": {
+   "en": "Li Huanzhi",
+   "pinyin": "Lǐ Huànzhī",
+   "status": "provisional",
+   "note": "Younger brother of Li Nanxiang; became Chen Lifu&#8217;s secretary, giving the author&#8217;s circle a source inside the Nationalist center. Not the composer of the same name."
+  },
+  "武振东": {
+   "en": "Wu Zhendong",
+   "pinyin": "Wǔ Zhèndōng",
+   "status": "provisional",
+   "note": "Daxia University classmate of Li Huanzhi and member of the World and China Society."
+  },
+  "潘震亚": {
+   "en": "Pan Zhenya",
+   "pinyin": "Pān Zhènyà",
+   "status": "provisional",
+   "note": "A Jiangxi man whose social network helped place Zhang Yilin in Chen Zhigao&#8217;s office."
+  },
+  "唐有壬": {
+   "en": "Tang Youren",
+   "pinyin": "Táng Yǒurén",
+   "status": "attested",
+   "note": "1894–1935; diplomat and vice-minister of foreign affairs; an introducer at the author&#8217;s wedding, assassinated later that year."
+  },
+  "吴羹梅": {
+   "en": "Wu Gengmei",
+   "pinyin": "Wú Gēngméi",
+   "status": "attested",
+   "note": "1906–1991; industrialist known as China&#8217;s ‘pencil king,’ a wedding guest."
+  },
+  "吴开先": {
+   "en": "Wu Kaixian",
+   "pinyin": "Wú Kāixiān",
+   "status": "attested",
+   "note": "1899–1990; Nationalist ‘CC Clique’ figure and head of Shanghai&#8217;s Bureau of Social Affairs, lobbied to re-legalize the Southern Society."
+  },
+  "陈霆锐": {
+   "en": "Chen Tingrui",
+   "pinyin": "Chén Tíngruì",
+   "status": "provisional",
+   "note": "A famous Shanghai lawyer active in the wrongful-imprisonment-compensation movement."
+  },
+  "陆鼎揆": {
+   "en": "Lu Dingkui",
+   "pinyin": "Lù Dǐngkuí",
+   "status": "provisional",
+   "note": "A Shanghai lawyer active in the wrongful-imprisonment-compensation movement."
+  },
+  "陈炯明": {
+   "en": "Chen Jiongming",
+   "pinyin": "Chén Jiǒngmíng",
+   "status": "attested",
+   "note": "1878–1933; Guangdong warlord who broke with Sun Yat-sen in 1922, cited in He Xiangning&#8217;s amnesty appeal."
+  },
+  "林北丽": {
+   "en": "Lin Beili",
+   "pinyin": "Lín Běilì",
+   "status": "provisional",
+   "note": "Woman poet; wife of Lin Gengbai and a lifelong friend of the author."
+  },
+  "徐蕴华": {
+   "en": "Xu Yunhua",
+   "pinyin": "Xú Yùnhuá",
+   "status": "provisional",
+   "note": "Mother of Lin Beili; in the early Republic she helped mourn and bury the martyr Qiu Jin."
+  },
+  "徐自华": {
+   "en": "Xu Zihua",
+   "pinyin": "Xú Zìhuá",
+   "status": "attested",
+   "note": "1873–1935; poet and friend of Qiu Jin who arranged her burial; elder sister of Xu Yunhua."
+  },
+  "吴芝瑛": {
+   "en": "Wu Zhiying",
+   "pinyin": "Wú Zhīyīng",
+   "status": "attested",
+   "note": "1867–1934; calligrapher who, with Xu Zihua, braved danger to bury Qiu Jin."
+  },
+  "李慕兰": {
+   "en": "Li Mulan",
+   "pinyin": "Lǐ Mùlán",
+   "status": "provisional",
+   "note": "An overseas-Chinese art student who happened to share the author&#8217;s name and lodged with her at the Yu Mansion."
+  },
+  "胡伟克": {
+   "en": "Hu Weike",
+   "pinyin": "Hú Wěikè",
+   "status": "provisional",
+   "note": "Overseas-Chinese instructor at the Nationalist aviation school who married Li Mulan."
+  },
+  "许宝": {
+   "en": "Xu Bao",
+   "pinyin": "Xǔ Bǎo",
+   "status": "provisional",
+   "note": "Nephew of Madame Yu; the source gives the name as ‘Xu Bao,’ which may be incomplete."
+  },
+  "潘太夫人": {
+   "en": "Elder Madame Pan",
+   "pinyin": "Pān Tàifūrén",
+   "status": "decided",
+   "note": "Chen Zhigao&#8217;s mother, the author&#8217;s adoptive mother-in-law."
+  },
+  "杨杏佛": {
+   "en": "Yang Xingfo",
+   "pinyin": "Yáng Xìngfó",
+   "status": "attested",
+   "note": "Yang Quan (1893&#8211;1933); secretary-general of the China League for the Protection of Civil Rights, assassinated 1933."
+  },
+  "马相伯": {
+   "en": "Ma Xiangbo",
+   "pinyin": "Mǎ Xiàngbó",
+   "status": "attested",
+   "note": "1840&#8211;1939; Catholic educator, founder of Aurora and Fudan universities, patriotic elder of the salvation movement."
+  },
+  "邹韬奋": {
+   "en": "Zou Taofen",
+   "pinyin": "Zōu Tāofèn",
+   "status": "attested",
+   "note": "1895&#8211;1944; journalist and publisher of <i>Life Weekly</i>, one of the Seven Gentlemen."
+  },
+  "章乃器": {
+   "en": "Zhang Naiqi",
+   "pinyin": "Zhāng Nǎiqì",
+   "status": "attested",
+   "note": "1897&#8211;1977; banker-economist, one of the Seven Gentlemen."
+  },
+  "李公朴": {
+   "en": "Li Gongpu",
+   "pinyin": "Lǐ Gōngpú",
+   "status": "attested",
+   "note": "1902&#8211;1946; educator, one of the Seven Gentlemen; assassinated at Kunming in 1946."
+  },
+  "王造时": {
+   "en": "Wang Zaoshi",
+   "pinyin": "Wáng Zàoshí",
+   "status": "attested",
+   "note": "1903&#8211;1971; scholar, one of the Seven Gentlemen."
+  },
+  "沙千里": {
+   "en": "Sha Qianli",
+   "pinyin": "Shā Qiānlǐ",
+   "status": "attested",
+   "note": "1901&#8211;1982; lawyer, one of the Seven Gentlemen."
+  },
+  "史良": {
+   "en": "Shi Liang",
+   "pinyin": "Shǐ Liáng",
+   "status": "attested",
+   "note": "1900&#8211;1985; lawyer, the only woman of the Seven Gentlemen; first Minister of Justice of the PRC."
+  },
+  "钱新之": {
+   "en": "Qian Xinzhi",
+   "pinyin": "Qián Xīnzhī",
+   "status": "attested",
+   "note": "Qian Yongming (1885&#8211;1958); Shanghai banker, a leading figure of the city&#8217;s financial world."
+  },
+  "潘公展": {
+   "en": "Pan Gongzhan",
+   "pinyin": "Pān Gōngzhǎn",
+   "status": "attested",
+   "note": "1894&#8211;1975; Kuomintang publicist and Shanghai municipal official."
+  },
+  "蔡叔厚": {
+   "en": "Cai Shuhou",
+   "pinyin": "Cài Shūhòu",
+   "status": "provisional",
+   "note": "1898&#8211;1984; CCP underground figure connected to the World and China Society."
+  },
+  "李南香": {
+   "en": "Li Nanxiang",
+   "pinyin": "Lǐ Nánxiāng",
+   "status": "provisional",
+   "note": "A Kuomintang provincial-party figure cooperating in united-front and intelligence work; romanization provisional."
+  },
+  "金学成": {
+   "en": "Jin Xuecheng",
+   "pinyin": "Jīn Xuéchéng",
+   "status": "provisional",
+   "note": "A figure in the Shanghai salvation bodies linked to the Party; romanization provisional."
+  },
+  "许广平": {
+   "en": "Xu Guangping",
+   "pinyin": "Xǔ Guǎngpíng",
+   "status": "attested",
+   "note": "1898&#8211;1968; educator and writer, wife of Lu Xun; editor of his <i>Complete Works</i>."
+  },
+  "沈兹九": {
+   "en": "Shen Zijiu",
+   "pinyin": "Shěn Zījiǔ",
+   "status": "attested",
+   "note": "1898&#8211;1989; women&#8217;s-movement leader and editor, one of the four &#8216;democratic big sisters.&#8217;"
+  },
+  "胡子婴": {
+   "en": "Hu Ziying",
+   "pinyin": "Hú Zǐyīng",
+   "status": "attested",
+   "note": "1907&#8211;1982; women&#8217;s-movement figure, one of the four &#8216;democratic big sisters.&#8217;"
+  },
+  "宋美龄": {
+   "en": "Song Meiling",
+   "pinyin": "Sòng Měilíng",
+   "status": "attested",
+   "note": "1898&#8211;2003; Madame Chiang Kai-shek, youngest of the Soong sisters."
+  },
+  "李广安": {
+   "en": "Li Guang'an",
+   "pinyin": "Lǐ Guǎng&#8217;ān",
+   "status": "provisional",
+   "note": "Head of the Twenty-Ninth Army&#8217;s Shanghai liaison office; romanization provisional."
+  },
+  "王孝英": {
+   "en": "Wang Xiaoying",
+   "pinyin": "Wáng Xiàoyīng",
+   "status": "provisional",
+   "note": "A Kuomintang legislator on the Women&#8217;s Comfort Association board; romanization provisional."
+  },
+  "谢祖仪": {
+   "en": "Xie Zuyi",
+   "pinyin": "Xiè Zǔyí",
+   "status": "provisional",
+   "note": "General secretary of the Shanghai Young Women&#8217;s Christian Association; romanization provisional."
+  },
+  "刘王立明": {
+   "en": "Liu Wang Liming",
+   "pinyin": "Liú Wáng Lìmíng",
+   "status": "attested",
+   "note": "1897&#8211;1970; temperance and women&#8217;s-rights activist, head of the Chinese Women&#8217;s Temperance Union."
+  },
+  "李秋君": {
+   "en": "Li Qiujun",
+   "pinyin": "Lǐ Qiūjūn",
+   "status": "attested",
+   "note": "1899&#8211;1973; woman painter, president of the Women&#8217;s Painting and Calligraphy Association, disciple of Zhang Daqian."
+  },
+  "高静宜": {
+   "en": "Gao Jingyi",
+   "pinyin": "Gāo Jìngyí",
+   "status": "provisional",
+   "note": "Wife of the businessman Wu Gengmei; a founder of the Chinese Women&#8217;s Vocational School; romanization provisional."
+  },
+  "廖梦醒": {
+   "en": "Liao Mengxing",
+   "pinyin": "Liào Mèngxǐng",
+   "status": "attested",
+   "note": "1904&#8211;1988; daughter of Liao Zhongkai and He Xiangning; secretary of the Women&#8217;s Comfort Association."
+  },
+  "罗叔章": {
+   "en": "Luo Shuzhang",
+   "pinyin": "Luó Shūzhāng",
+   "status": "attested",
+   "note": "1898&#8211;1992; women&#8217;s-movement leader and CCP member, one of the four &#8216;democratic big sisters.&#8217;"
+  },
+  "戚逸影": {
+   "en": "Qi Yiying",
+   "pinyin": "Qī Yìyǐng",
+   "status": "provisional",
+   "note": "Principal of the Daren Primary School, deputy head of the Women&#8217;s Comfort Association&#8217;s comfort section; romanization provisional."
+  },
+  "宋霭龄": {
+   "en": "Song Ailing",
+   "pinyin": "Sòng Ǎilíng",
+   "status": "attested",
+   "note": "1889&#8211;1973; eldest of the Soong sisters, wife of Kong Xiangxi."
+  },
+  "姚潜修": {
+   "en": "Yao Qianxiu",
+   "pinyin": "Yáo Qiánxiū",
+   "status": "provisional",
+   "note": "Student of Guo Moruo, leader of the southbound propaganda team, deputy general secretary of the International Relief shelter; romanization provisional."
+  },
+  "林林": {
+   "en": "Lin Lin",
+   "pinyin": "Lín Lín",
+   "status": "attested",
+   "note": "1910&#8211;2011; poet and translator, student of Guo Moruo."
+  },
+  "于立群": {
+   "en": "Yu Liqun",
+   "pinyin": "Yú Lìqún",
+   "status": "attested",
+   "note": "1916&#8211;1979; calligrapher, later the wife of Guo Moruo."
+  },
+  "钱亦石": {
+   "en": "Qian Yishi",
+   "pinyin": "Qián Yìshí",
+   "status": "attested",
+   "note": "1889&#8211;1938 (style Jiepan); CCP theorist and educator; died of illness contracted at the front, called the first cultural worker to give his life for the resistance."
+  },
+  "程潜": {
+   "en": "Cheng Qian",
+   "pinyin": "Chéng Qián",
+   "status": "attested",
+   "note": "1882&#8211;1968; Kuomintang general, later went over to the Communists."
+  },
+  "胡宗南": {
+   "en": "Hu Zongnan",
+   "pinyin": "Hú Zōngnán",
+   "status": "attested",
+   "note": "1896&#8211;1962; senior Kuomintang general."
+  },
+  "杨应彬": {
+   "en": "Yang Yingbin",
+   "pinyin": "Yáng Yìngbīn",
+   "status": "provisional",
+   "note": "A Guangdong CCP figure who as a young man went to the front with Qian Yishi&#8217;s cultural team; romanization provisional."
+  },
+  "冼星海": {
+   "en": "Xian Xinghai",
+   "pinyin": "Xiǎn Xīnghǎi",
+   "status": "attested",
+   "note": "1905&#8211;1945; composer of the <i>Yellow River Cantata</i>; son-in-law of Qian Yishi."
+  },
+  "韩长发": {
+   "en": "Han Changfa",
+   "pinyin": "Hán Chángfā",
+   "status": "provisional",
+   "note": "The author&#8217;s family chauffeur, who drove comfort goods to the front; romanization provisional."
+  },
+  "田汉": {
+   "en": "Tian Han",
+   "pinyin": "Tián Hàn",
+   "status": "attested",
+   "note": "1898&#8211;1968; playwright and lyricist, author of the words of the PRC national anthem."
+  },
+  "梁红玉": {
+   "en": "Liang Hongyu",
+   "pinyin": "Liáng Hóngyù",
+   "status": "attested",
+   "note": "d.&#160;c.&#160;1135; woman general of the Southern Song, wife of Han Shizhong; a patriotic heroine of a wartime opera."
+  },
+  "韩世忠": {
+   "en": "Han Shizhong",
+   "pinyin": "Hán Shìzhōng",
+   "status": "attested",
+   "note": "1090&#8211;1151; Southern Song general who resisted the Jin invasion."
+  },
+  "金素琴": {
+   "en": "Jin Suqin",
+   "pinyin": "Jīn Sùqín",
+   "status": "attested",
+   "note": "1912&#8211;2006; Peking-opera actress."
+  },
+  "张大千": {
+   "en": "Zhang Daqian",
+   "pinyin": "Zhāng Dàqiān",
+   "status": "attested",
+   "note": "1899&#8211;1983; one of the most celebrated modern Chinese painters."
+  },
+  "刘海粟": {
+   "en": "Liu Haisu",
+   "pinyin": "Liú Hǎisù",
+   "status": "attested",
+   "note": "1896&#8211;1994; painter and art educator, founder of the Shanghai Art Academy."
+  },
+  "毛王瑞竹": {
+   "en": "Mao Wang Ruizhu",
+   "pinyin": "Máo Wáng Ruìzhú",
+   "status": "provisional",
+   "note": "A co-founder, with Li Qiujun and Qi Yiying, of a home for disaster orphans; romanization provisional."
+  },
+  "饶家驹": {
+   "en": "Rao Jiaju",
+   "pinyin": "Ráo Jiājū",
+   "status": "attested",
+   "note": "Robert Jacquinot de Besange (1878&#8211;1946); French Jesuit, the &#8216;One-Armed Father,&#8217; founder of the Nanshi Refugee Zone (the &#8216;Jacquinot Safe Zone&#8217;)."
+  },
+  "颜惠庆": {
+   "en": "Yan Huiqing",
+   "pinyin": "Yán Huìqìng",
+   "status": "attested",
+   "note": "W.&#160;W. Yen (1877&#8211;1950); diplomat and statesman, Chinese president of the International Relief Association."
+  },
+  "潘达": {
+   "en": "Pan Da",
+   "pinyin": "Pān Dá",
+   "status": "provisional",
+   "note": "Style Dacheng; an Aurora University student from Vietnam, deputy general secretary of the International Relief shelter; romanization provisional."
+  },
+  "冯文彬": {
+   "en": "Feng Wenbin",
+   "pinyin": "Féng Wénbīn",
+   "status": "attested",
+   "note": "1911&#8211;1997; CCP youth-work leader."
+  },
+  "徐克强": {
+   "en": "Xu Keqiang",
+   "pinyin": "Xú Kèqiáng",
+   "status": "provisional",
+   "note": "Head of the production section of the International Relief shelter; romanization provisional."
+  },
+  "赵朴初": {
+   "en": "Zhao Puchu",
+   "pinyin": "Zhào Pǔchū",
+   "status": "attested",
+   "note": "1907&#8211;2000; Buddhist leader, poet and calligrapher; later president of the Buddhist Association of China."
+  },
+  "谌小岑": {
+   "en": "Chen Xiaocen",
+   "pinyin": "Chén Xiǎocén",
+   "status": "attested",
+   "note": "1897&#8211;1992; an early Awakening Society member, later a Kuomintang official."
+  },
+  "黄涵之": {
+   "en": "Huang Hanzhi",
+   "pinyin": "Huáng Hánzhī",
+   "status": "provisional",
+   "note": "Maternal uncle of Zhao Puchu and a head of the Charity Federation; romanization provisional."
+  },
+  "李祖虞": {
+   "en": "Li Zuyu",
+   "pinyin": "Lǐ Zǔyú",
+   "status": "provisional",
+   "note": "A lawyer whose wife organized the benefit performance in aid of Suiyuan; romanization provisional."
+  },
+  "张曼筠": {
+   "en": "Zhang Manyun",
+   "pinyin": "Zhāng Mànyún",
+   "status": "attested",
+   "note": "1901&#8211;1975; painter, wife of Li Gongpu."
+  },
+  "彭文应": {
+   "en": "Peng Wenying",
+   "pinyin": "Péng Wényìng",
+   "status": "attested",
+   "note": "1904&#8211;1962; a leader of the salvation movement who joined Song Qingling&#8217;s &#8216;imprisonment&#8217; petition."
+  },
+  "胡愈之": {
+   "en": "Hu Yuzhi",
+   "pinyin": "Hú Yùzhī",
+   "status": "attested",
+   "note": "1896&#8211;1986; writer, publisher and Esperantist; member of the Fu She."
+  },
+  "张志让": {
+   "en": "Zhang Zhirang",
+   "pinyin": "Zhāng Zhìràng",
+   "status": "attested",
+   "note": "1893&#8211;1978; jurist, later a vice-president of the Supreme People&#8217;s Court."
+  },
+  "薛暮桥": {
+   "en": "Xue Muqiao",
+   "pinyin": "Xuē Mùqiáo",
+   "status": "attested",
+   "note": "1904&#8211;2005; economist."
+  },
+  "马占山": {
+   "en": "Ma Zhanshan",
+   "pinyin": "Mǎ Zhànshān",
+   "status": "attested",
+   "note": "1885&#8211;1950; general who led armed resistance against Japan in Manchuria in 1931&#8211;32."
+  },
+  "陈秉璋": {
+   "en": "Chen Bingzhang",
+   "pinyin": "Chén Bǐngzhāng",
+   "status": "provisional",
+   "note": "The author&#8217;s sister-in-law (Chen Zhigao&#8217;s sister), with whom she performed in an amateur benefit opera; romanization provisional."
+  },
+  "曹亮": {
+   "en": "Cao Liang",
+   "pinyin": "Cáo Liàng",
+   "status": "provisional",
+   "note": "A comrade who, cherishing Zhou Enlai&#8217;s letter, renamed himself Rubi (&#8216;precious jade&#8217;); romanization provisional."
+  },
+  "黄镇": {
+   "en": "Huang Zhen",
+   "pinyin": "Huáng Zhèn",
+   "status": "attested",
+   "note": "1909&#8211;1989; painter and, later, diplomat; his Long March sketches were published as <i>Sketches of the Westward Journey</i>."
+  },
+  "魏如晦": {
+   "en": "Wei Ruhui",
+   "pinyin": "Wèi Rúhuì",
+   "status": "attested",
+   "note": "A pen name of A Ying (Qian Xingcun), devised by Yu Ling from the phrase &#8216;wind and rain, dark as nightfall.&#8217;"
+  },
+  "陈宜郁": {
+   "en": "Chen Yiyu",
+   "pinyin": "Chén Yíyù",
+   "status": "provisional",
+   "note": "Chen Zhigao&#8217;s niece, an underground courier to the New Fourth Army; later an army-level political commissar, killed in the civil war; romanization provisional."
+  },
+  "李益": {
+   "en": "Li Yi",
+   "pinyin": "Lǐ Yì",
+   "status": "provisional",
+   "note": "An underground courier who, with Chen Yiyu, carried <i>Documents</i> to the New Fourth Army; romanization provisional."
+  },
+  "梅益": {
+   "en": "Mei Yi",
+   "pinyin": "Méi Yì",
+   "status": "attested",
+   "note": "1914&#8211;2003 (formerly Mei Yu); translator of <i>How the Steel Was Tempered</i>; later director of the Central Broadcasting Administration and editor-in-chief of the Encyclopedia of China Publishing House."
+  },
+  "赵邦鑅": {
+   "en": "Zhao Banghong",
+   "pinyin": "Zhào Bānghóng",
+   "status": "provisional",
+   "note": "Manager of the <i>Translation Herald</i> and former manager of the <i>Shanghai Evening Post and Mercury</i>; romanization provisional."
+  },
+  "扬帆": {
+   "en": "Yang Fan",
+   "pinyin": "Yáng Fān",
+   "status": "attested",
+   "note": "1912&#8211;1999; CCP security and intelligence figure, later implicated with Pan Hannian."
+  },
+  "王任叔": {
+   "en": "Wang Renshu",
+   "pinyin": "Wáng Rènshū",
+   "status": "attested",
+   "note": "1901&#8211;1972; writer (pen name Ba Ren) and, later, PRC ambassador to Indonesia."
+  },
+  "戴平万": {
+   "en": "Dai Pingwan",
+   "pinyin": "Dài Píngwàn",
+   "status": "attested",
+   "note": "1903&#8211;1945; writer and CCP cultural figure."
+  },
+  "姜椿芳": {
+   "en": "Jiang Chunfang",
+   "pinyin": "Jiāng Chūnfāng",
+   "status": "attested",
+   "note": "1912&#8211;1987; translator, later a founder of the Encyclopedia of China."
+  },
+  "恽逸群": {
+   "en": "Yun Yiqun",
+   "pinyin": "Yùn Yìqún",
+   "status": "attested",
+   "note": "1905&#8211;1978; journalist and CCP figure."
+  },
+  "曹荻秋": {
+   "en": "Cao Diqiu",
+   "pinyin": "Cáo Díqiū",
+   "status": "attested",
+   "note": "1909&#8211;1976; later mayor of Shanghai."
+  },
+  "韦悫": {
+   "en": "Wei Que",
+   "pinyin": "Wéi Què",
+   "status": "attested",
+   "note": "1896&#8211;1976; educator and philosopher, later a deputy mayor of Shanghai."
+  },
+  "孙特士·斐士": {
+   "en": "Sundius Fees",
+   "pinyin": "",
+   "status": "provisional",
+   "note": "A British principal of the University Book Company, nominal publisher of the <i>Daily Translation Herald</i>; the English name is a provisional reconstruction (source: &#23385;&#29305;&#22763;&#183;&#26007;&#22763;)."
+  },
+  "拿门·鲍纳": {
+   "en": "Norman Bonner",
+   "pinyin": "",
+   "status": "provisional",
+   "note": "A British principal of the University Book Company, nominal publisher of the <i>Daily Translation Herald</i>; the English name is a provisional reconstruction (source: &#25343;&#38376;&#183;&#40077;&#32435;)."
+  },
+  "张宗麟": {
+   "en": "Zhang Zonglin",
+   "pinyin": "Zhāng Zōnglín",
+   "status": "attested",
+   "note": "1899&#8211;1976; educator, disciple of Tao Xingzhi, CCP member and a convener of the Tuesday Dining Club."
+  },
+  "胡咏淇": {
+   "en": "Hu Yongqi",
+   "pinyin": "Hú Yǒngqí",
+   "status": "provisional",
+   "note": "An industrial-commercial member of the Tuesday Dining Club; romanization provisional."
+  },
+  "杨怀生": {
+   "en": "Yang Huaisheng",
+   "pinyin": "Yáng Huáishēng",
+   "status": "provisional",
+   "note": "General secretary of the YMCA who kept the Tuesday Dining Club&#8217;s membership roll; romanization provisional."
+  },
+  "刘湛恩": {
+   "en": "Liu Zhan'en",
+   "pinyin": "Liú Zhàn&#8217;ēn",
+   "status": "attested",
+   "note": "1896&#8211;1938; first Chinese president of the University of Shanghai; assassinated by pro-Japanese agents in 1938."
+  },
+  "陈鹤琴": {
+   "en": "Chen Heqin",
+   "pinyin": "Chén Hèqín",
+   "status": "attested",
+   "note": "1892&#8211;1982; pioneering early-childhood educator; ran the Shanghai newsboys&#8217; school."
+  },
+  "沈体兰": {
+   "en": "Shen Tilan",
+   "pinyin": "Shěn Tǐlán",
+   "status": "attested",
+   "note": "1899&#8211;1969; educator, member of the Tuesday Dining Club."
+  },
+  "陈巳生": {
+   "en": "Chen Sisheng",
+   "pinyin": "Chén Sìshēng",
+   "status": "provisional",
+   "note": "An industrial-commercial member of the Tuesday Dining Club; romanization provisional."
+  },
+  "王纪华": {
+   "en": "Wang Jihua",
+   "pinyin": "Wáng Jìhuá",
+   "status": "provisional",
+   "note": "A member of the Tuesday Dining Club and deputy leader of a comfort delegation; romanization provisional."
+  },
+  "杨延修": {
+   "en": "Yang Yanxiu",
+   "pinyin": "Yáng Yánxiū",
+   "status": "attested",
+   "note": "1912&#8211;2014; businessman and CCP underground figure, member of the Tuesday Dining Club."
+  },
+  "顾执中": {
+   "en": "Gu Zhizhong",
+   "pinyin": "Gù Zhízhōng",
+   "status": "attested",
+   "note": "1898&#8211;1995; journalist, leader of a comfort delegation to the New Fourth Army."
+  },
+  "吴大琨": {
+   "en": "Wu Dakun",
+   "pinyin": "Wú Dàkūn",
+   "status": "attested",
+   "note": "1916&#8211;2007; economist, detained at Shangrao after leading a comfort delegation."
+  },
+  "孙瑞璜": {
+   "en": "Sun Ruihuang",
+   "pinyin": "Sūn Ruìhuáng",
+   "status": "provisional",
+   "note": "A financial-world member of the Tuesday Dining Club; romanization provisional."
+  },
+  "王志莘": {
+   "en": "Wang Zhixin",
+   "pinyin": "Wáng Zhìxīn",
+   "status": "attested",
+   "note": "1896&#8211;1957; banker, member of the Tuesday Dining Club."
+  },
+  "吴耀宗": {
+   "en": "Wu Yaozong",
+   "pinyin": "Wú Yàozōng",
+   "status": "attested",
+   "note": "1893&#8211;1979; Protestant leader, later a founder of the Three-Self Patriotic Movement."
+  },
+  "王揆生": {
+   "en": "Wang Kuisheng",
+   "pinyin": "Wáng Kuíshēng",
+   "status": "provisional",
+   "note": "A Christian member of the Tuesday Dining Club who founded a remedial school; romanization provisional."
+  },
+  "萧宗俊": {
+   "en": "Xiao Zongjun",
+   "pinyin": "Xiāo Zōngjùn",
+   "status": "provisional",
+   "note": "A Christian member of the Tuesday Dining Club; romanization provisional."
+  },
+  "陆高谊": {
+   "en": "Lu Gaoyi",
+   "pinyin": "Lù Gāoyí",
+   "status": "provisional",
+   "note": "A publishing-world member of the Tuesday Dining Club; romanization provisional."
+  },
+  "姚惠泉": {
+   "en": "Yao Huiquan",
+   "pinyin": "Yáo Huìquán",
+   "status": "provisional",
+   "note": "Representative of the Shanghai Local Association in the Tuesday Dining Club; romanization provisional."
+  },
+  "李文杰": {
+   "en": "Li Wenjie",
+   "pinyin": "Lǐ Wénjié",
+   "status": "attested",
+   "note": "Lawyer and accountant, member of the Tuesday Dining Club, whom the author asked to write its memoir."
+  },
+  "陶行知": {
+   "en": "Tao Xingzhi",
+   "pinyin": "Táo Xíngzhī",
+   "status": "attested",
+   "note": "1891&#8211;1946; influential progressive educator."
+  },
+  "斯诺": {
+   "en": "Snow",
+   "pinyin": "",
+   "status": "attested",
+   "note": "Edgar Snow (1905&#8211;1972); American journalist, author of <i>Red Star Over China</i>."
+  },
+  "朱立波": {
+   "en": "Zhu Libo",
+   "pinyin": "Zhū Lìbō",
+   "status": "provisional",
+   "note": "A comfort delegate to the New Fourth Army; romanization provisional."
+  },
+  "顾祝同": {
+   "en": "Gu Zhutong",
+   "pinyin": "Gù Zhùtóng",
+   "status": "attested",
+   "note": "1893&#8211;1987; Kuomintang general, commander of the Third War Zone."
+  },
+  "许涤新": {
+   "en": "Xu Dixin",
+   "pinyin": "Xǔ Díxīn",
+   "status": "attested",
+   "note": "1906&#8211;1988; Marxist economist, detained at Shangrao."
+  },
+  "黄炎培": {
+   "en": "Huang Yanpei",
+   "pinyin": "Huáng Yánpéi",
+   "status": "attested",
+   "note": "1878&#8211;1965; educator, founder of the Chinese Vocational Education Society and of the China Democratic League."
+  },
+  "胡鄂公": {
+   "en": "Hu Egong",
+   "pinyin": "Hú Ègōng",
+   "status": "provisional",
+   "note": "Style Nanhu; an early CCP member, later a counselor of the Nanjing Executive Yuan; romanization provisional."
+  },
+  "孔祥熙": {
+   "en": "Kong Xiangxi",
+   "pinyin": "Kǒng Xiángxī",
+   "status": "attested",
+   "note": "H.&#160;H. Kung (1881&#8211;1967); financier and premier, husband of Song Ailing."
+  },
+  "孔令侃": {
+   "en": "Kong Lingkan",
+   "pinyin": "Kǒng Lìngkǎn",
+   "status": "attested",
+   "note": "1916&#8211;1992; eldest son of Kong Xiangxi and Song Ailing."
+  },
+  "朱学范": {
+   "en": "Zhu Xuefan",
+   "pinyin": "Zhū Xuéfàn",
+   "status": "attested",
+   "note": "1905&#8211;1996; labor-union leader and Du Yuesheng disciple; first PRC Minister of Posts and Telecommunications, later chairman of the Revolutionary Committee of the Kuomintang."
+  },
+  "杜维藩": {
+   "en": "Du Weifan",
+   "pinyin": "Dù Wéifān",
+   "status": "provisional",
+   "note": "Eldest son of Du Yuesheng; romanization provisional."
+  },
+  "姚玉兰": {
+   "en": "Yao Yulan",
+   "pinyin": "Yáo Yùlán",
+   "status": "provisional",
+   "note": "A wife of Du Yuesheng, a former Peking-opera actress; romanization provisional."
+  },
+  "李芳": {
+   "en": "Li Fang",
+   "pinyin": "Lǐ Fāng",
+   "status": "provisional",
+   "note": "An old Northern Expedition comrade at whose Hong Kong home the author lodged; romanization provisional."
+  },
+  "赵老太太": {
+   "en": "Old Madame Zhao",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A patriotic old mother from the Northeast, the &#8216;mother of the guerrillas,&#8217; who lost four sons in the war and sent the youngest to the front."
+  },
+  "何东": {
+   "en": "Sir Robert Hotung",
+   "pinyin": "",
+   "status": "attested",
+   "note": "1862&#8211;1956; Eurasian Hong Kong businessman and philanthropist."
+  },
+  "张曼怡": {
+   "en": "Zhang Manyi",
+   "pinyin": "Zhāng Mànyí",
+   "status": "provisional",
+   "note": "Given by the memoir as the wife of T.&#160;V. Soong; romanization provisional (some sources give his wife&#8217;s name as Zhang Leyi)."
+  },
+  "宋子文": {
+   "en": "T.V. Soong",
+   "pinyin": "",
+   "status": "attested",
+   "note": "1894&#8211;1971; financier and statesman, brother of the Soong sisters."
+  },
+  "胡汉民": {
+   "en": "Hu Hanmin",
+   "pinyin": "Hú Hànmín",
+   "status": "attested",
+   "note": "1879&#8211;1936; a leading Kuomintang theorist and rival of Chiang Kai-shek."
+  },
+  "胡木兰": {
+   "en": "Hu Mulan",
+   "pinyin": "Hú Mùlán",
+   "status": "provisional",
+   "note": "Daughter of Hu Hanmin, head of the Hong Kong Women&#8217;s Comfort Association; romanization provisional."
+  },
+  "李汉魂": {
+   "en": "Li Hanhun",
+   "pinyin": "Lǐ Hànhún",
+   "status": "attested",
+   "note": "1894&#8211;1987; Kuomintang general and Guangdong governor."
+  },
+  "吴菊芳": {
+   "en": "Wu Jufang",
+   "pinyin": "Wú Júfāng",
+   "status": "provisional",
+   "note": "Wife of General Li Hanhun, leader of a northbound comfort delegation; romanization provisional."
+  },
+  "侯外庐": {
+   "en": "Hou Wailu",
+   "pinyin": "Hóu Wàilú",
+   "status": "attested",
+   "note": "1903&#8211;1987; Marxist historian, then engaged in intelligence work."
+  },
+  "吴蕴初": {
+   "en": "Wu Yunchu",
+   "pinyin": "Wú Yùnchū",
+   "status": "attested",
+   "note": "1891&#8211;1953; industrial chemist, China&#8217;s &#8216;MSG king,&#8217; founder of the Tianchu factory."
+  },
+  "戴女士": {
+   "en": "Madame Dai",
+   "pinyin": "",
+   "status": "decided",
+   "note": "Wife of the industrialist Wu Yunchu; a co-founder of the Chinese Women&#8217;s Vocational School."
+  },
+  "郭箴一": {
+   "en": "Guo Zhenyi",
+   "pinyin": "Guō Zhēnyī",
+   "status": "provisional",
+   "note": "An underground Party member hidden at the Chinese Women&#8217;s Vocational School; romanization provisional."
+  },
+  "蔡夏莹": {
+   "en": "Cai Xiaying",
+   "pinyin": "Cài Xiàyíng",
+   "status": "provisional",
+   "note": "An underground Party member hidden at the Chinese Women&#8217;s Vocational School; romanization provisional."
+  },
+  "罗青长": {
+   "en": "Luo Qingchang",
+   "pinyin": "Luó Qīngcháng",
+   "status": "attested",
+   "note": "1918&#8211;2014; CCP intelligence official, co-author of the memorial article on Liu Shaowen."
+  },
+  "柴成文": {
+   "en": "Chai Chengwen",
+   "pinyin": "Chái Chéngwén",
+   "status": "attested",
+   "note": "1915&#8211;2011; PLA officer and diplomat, co-author of the memorial article on Liu Shaowen."
+  },
+  "龚普生": {
+   "en": "Gong Pusheng",
+   "pinyin": "Gōng Pǔshēng",
+   "status": "attested",
+   "note": "1913&#8211;2007; diplomat, deputy general secretary of the Shanghai YWCA."
   }
+ },
+ "organizations": {
+  "中国共产党": {
+   "en": "Chinese Communist Party",
+   "pinyin": "Zhōngguó Gòngchǎndǎng",
+   "status": "attested"
+  },
+  "中国共产主义青年团": {
+   "en": "Chinese Communist Youth League",
+   "pinyin": "gòngqīngtuán",
+   "status": "attested"
+  },
+  "国民党": {
+   "en": "Kuomintang",
+   "pinyin": "Guómíndǎng",
+   "status": "decided",
+   "note": "Rendered &#8216;Kuomintang&#8217; throughout (not &#8216;Nationalist Party&#8217;); the conventional English name."
+  },
+  "黄埔军校": {
+   "en": "Whampoa Military Academy",
+   "pinyin": "Huángpǔ jūnxiào",
+   "status": "attested",
+   "note": "Conventional English form (Whampoa)."
+  },
+  "周南女校": {
+   "en": "Zhounan Girls' School",
+   "pinyin": "Zhōunán nǚxiào",
+   "status": "decided"
+  },
+  "中国济难会": {
+   "en": "China Relief Society",
+   "pinyin": "Zhōngguó Jìnànhuì",
+   "status": "decided",
+   "note": "Founded Shanghai, 20 September 1925."
+  },
+  "粤汉铁路": {
+   "en": "Canton–Hankou Railway",
+   "pinyin": "Yuè-Hàn tiělù",
+   "status": "decided",
+   "note": "Conventional English form of the Guangzhou&#8211;Hankou line."
+  },
+  "株萍铁路": {
+   "en": "Zhuping Railway",
+   "pinyin": "Zhū-Píng tiělù",
+   "status": "decided"
+  },
+  "岳麓书院": {
+   "en": "Yuelu Academy",
+   "pinyin": "Yuèlù shūyuàn",
+   "status": "attested"
+  },
+  "互济会": {
+   "en": "Mutual Aid Society",
+   "pinyin": "Hùjì Huì",
+   "status": "attested",
+   "note": "Successor to the China Relief Society; the Party-led body for rescuing arrested comrades and relieving their families. Its leading arm is called the Mutual Aid General Association (&#20114;&#27982;&#24635;&#20250;)."
+  },
+  "世界与中国社": {
+   "en": "World and China Society",
+   "pinyin": "Shìjiè yǔ Zhōngguó Shè",
+   "status": "attested",
+   "note": "A progressive study body organized under the CCP Central Propaganda Department, publisher of the periodical The World and China."
+  },
+  "内外棉": {
+   "en": "Naigai Wata",
+   "pinyin": "Nèiwàimián",
+   "status": "attested",
+   "note": "Naigaiwata Kaisha, the largest Japanese-owned cotton-spinning company in Shanghai; the author worked as an apprentice in its No. 13 Mill."
+  },
+  "特科": {
+   "en": "Special Branch",
+   "pinyin": "Tèkē",
+   "status": "attested",
+   "note": "The Central Special Branch, the Party&#8217;s clandestine intelligence and security service in Shanghai, headed by Zhou Enlai."
+  },
+  "觉悟社": {
+   "en": "Awakening Society",
+   "pinyin": "Juéwùshè",
+   "status": "attested",
+   "note": "A progressive youth group founded in Tianjin in 1919; Zhou Enlai was a leading member, and his code name there, &#8216;Wu Hao&#8217;, later became a pen name."
+  },
+  "中央特科": {
+   "en": "Central Special Branch",
+   "pinyin": "Zhōngyāng Tèkē",
+   "status": "attested",
+   "note": "The CCP&#8217;s clandestine security and intelligence organ in the Shanghai underground; run by Kang Sheng after Gu Shunzhang&#8217;s defection."
+  },
+  "红旗印刷所": {
+   "en": "Red Flag Press",
+   "pinyin": "Hóngqí Yìnshuāsuǒ",
+   "status": "decided",
+   "note": "The underground printing house, holding an open business licence, where the Party magazine Red Flag was secretly printed; wrecked by the police when Xiang Zhongfa turned traitor."
+  },
+  "都城饭店": {
+   "en": "Metropole Hotel",
+   "pinyin": "Dūchéng Fàndiàn",
+   "status": "attested",
+   "note": "A French-run hotel in Shanghai (the Metropole, on Jiangxi Road), used by the central leaders as a bolt-hole on the night of Xiang Zhongfa&#8217;s defection."
+  },
+  "东方饭店": {
+   "en": "Oriental Hotel",
+   "pinyin": "Dōngfāng Fàndiàn",
+   "status": "attested",
+   "note": "A Shanghai hotel where Guan Xiangying was lodged after his release."
+  },
+  "申江医院": {
+   "en": "Shenjiang Hospital",
+   "pinyin": "Shēnjiāng Yīyuàn",
+   "status": "decided",
+   "note": "An underground-Party hospital on Avenue Joffre, run by Party comrades, used to treat leaders and shelter them; the author hid there after her father&#8217;s death."
+  },
+  "大光明电影院": {
+   "en": "Grand Theatre",
+   "pinyin": "Dàguāngmíng Diànyǐngyuàn",
+   "status": "attested",
+   "note": "A famous Shanghai cinema (the Grand Theatre)."
+  },
+  "永安公司": {
+   "en": "Wing On",
+   "pinyin": "Yǒng&#8217;ān Gōngsī",
+   "status": "attested",
+   "note": "A leading Shanghai department store on Nanjing Road (Wing On)."
+  },
+  "祥生公司": {
+   "en": "Johnson & Co.",
+   "pinyin": "Xiángshēng Gōngsī",
+   "status": "attested",
+   "note": "A Shanghai taxi company (its English name was Johnson &amp; Co.)."
+  },
+  "徐汇公学": {
+   "en": "Xuhui College",
+   "pinyin": "Xúhuì Gōngxué",
+   "status": "attested",
+   "note": "The Jesuit Coll&#232;ge Saint-Ignace at Xujiahui, Shanghai; a strict Catholic mission school where Chen Zhigao and Cao Bingsheng were classmates."
+  },
+  "锦江饭店": {
+   "en": "Jinjiang",
+   "pinyin": "Jǐnjiāng Fàndiàn",
+   "status": "attested",
+   "note": "Dong Zhujun&#8217;s restaurant, later hotel, in Shanghai."
+  },
+  "梅龙镇酒家": {
+   "en": "Meilongzhen",
+   "pinyin": "Méilóngzhèn Jiǔjiā",
+   "status": "attested",
+   "note": "A well-known Shanghai restaurant run by Wu Mei."
+  },
+  "同德医学院": {
+   "en": "Tongde Medical College",
+   "pinyin": "Tóngdé Yīxuéyuàn",
+   "status": "attested",
+   "note": "A Shanghai medical college."
+  },
+  "中法药科大学": {
+   "en": "Sino-French College of Pharmacy",
+   "pinyin": "Zhōngfǎ Yàokē Dàxué",
+   "status": "decided",
+   "note": "A Shanghai pharmacy college where Chen Baozhang studied."
+  },
+  "十九路军": {
+   "en": "Nineteenth Route Army",
+   "pinyin": "Shíjiǔlù Jūn",
+   "status": "attested",
+   "note": "The Kuomintang army that resisted the Japanese attack on Shanghai in the January Twenty-eighth (1932) war."
+  },
+  "华侨日报": {
+   "en": "Overseas Chinese Daily",
+   "pinyin": "Huáqiáo Rìbào",
+   "status": "attested",
+   "note": "A Chinese-language newspaper published in New York (the China Daily News)."
+  },
+  "永业银行": {
+   "en": "Yongye Bank",
+   "pinyin": "Yǒngyè Yínháng",
+   "status": "provisional",
+   "note": "A Shanghai bank on Jiangxi Road whose porter&#8217;s lodge housed the World and China Society&#8217;s distribution office."
+  },
+  "震旦大学": {
+   "en": "Aurora University",
+   "pinyin": "Zhèndàn Dàxué",
+   "status": "attested",
+   "note": "The French Jesuit Université l’Aurore in Shanghai, alma mater of Chen Zhigao and his circle."
+  },
+  "暨南大学": {
+   "en": "Jinan University",
+   "pinyin": "Jìnán Dàxué",
+   "status": "attested",
+   "note": "Overseas-Chinese university in Shanghai where Chen Gaoyong was a professor."
+  },
+  "通易信托公司": {
+   "en": "Tongyi Trust Company",
+   "pinyin": "Tōngyì Xìntuō Gōngsī",
+   "status": "provisional",
+   "note": "Shanghai trust company that went bankrupt in 1935 and, through the author and Chen Zhigao&#8217;s mediation, uniquely resumed business; it became a covert base for the underground."
+  },
+  "银行俱乐部": {
+   "en": "Bankers&#8217; Club",
+   "pinyin": "Yínháng Jùlèbù",
+   "status": "decided",
+   "note": "A Shanghai club of the banking elite, which the author joined as one of its rare women members."
+  },
+  "上海市银钱业联谊会": {
+   "en": "Shanghai Banking and Money Trades Friendship Association",
+   "pinyin": "Shànghǎi Shì Yínqiányè Liányìhuì",
+   "status": "provisional",
+   "note": "A 1936 association of Shanghai&#8217;s banking and money-house trades; the author was a founder and deputy chairman."
+  },
+  "风雨书屋": {
+   "en": "Wind and Rain Bookroom",
+   "pinyin": "Fēngyǔ Shūwū",
+   "status": "provisional",
+   "note": "A covert resistance publishing house run by A Ying, hidden on the second floor of the Tongyi Company."
+  },
+  "南社": {
+   "en": "Southern Society",
+   "pinyin": "Nánshè",
+   "status": "attested",
+   "note": "An early-twentieth-century revolutionary poetry society; formally re-legalized in 1936 with help from the author&#8217;s circle."
+  },
+  "救国会": {
+   "en": "National Salvation Association",
+   "pinyin": "Jiùguóhuì",
+   "status": "attested",
+   "note": "The 1936 all-China resistance body whose leaders (the ‘Seven Gentlemen,’ among them Shen Junru) were jailed."
+  },
+  "民权保障同盟": {
+   "en": "League for the Protection of Civil Rights",
+   "pinyin": "Mínquán Bǎozhàng Tóngméng",
+   "status": "attested",
+   "note": "The China League for the Protection of Civil Rights (1932–33), which set up a committee to rescue political prisoners."
+  },
+  "上海律师公会": {
+   "en": "Shanghai Bar Association",
+   "pinyin": "Shànghǎi Lǜshī Gōnghuì",
+   "status": "decided",
+   "note": "The lawyers&#8217; association through which Chen Zhigao and Shen Junru pressed the wrongful-imprisonment-compensation movement."
+  },
+  "浙江兴业银行": {
+   "en": "Zhejiang Industrial Bank",
+   "pinyin": "Zhèjiāng Xīngyè Yínháng",
+   "status": "attested",
+   "note": "The bank that took the mortgage on the Tongyi building, freeing the cash to pay small creditors."
+  },
+  "交通银行": {
+   "en": "Bank of Communications",
+   "pinyin": "Jiāotōng Yínháng",
+   "status": "attested",
+   "note": "A major Chinese bank, cited as one that could not resume after bankruptcy, unlike Tongyi."
+  },
+  "中华学艺社": {
+   "en": "Chinese Society for Arts and Sciences",
+   "pinyin": "Zhōnghuá Xuéyì Shè",
+   "status": "provisional",
+   "note": "The Shanghai learned society at whose hall the author and Chen Zhigao held their 1935 wedding."
+  },
+  "永昌金号": {
+   "en": "Yongchang Gold Exchange",
+   "pinyin": "Yǒngchāng Jīnhào",
+   "status": "provisional",
+   "note": "A gold exchange organized c.1933–34 by Chen Zhigao&#8217;s eldest brother, used to stand surety for released prisoners."
+  },
+  "太极银号": {
+   "en": "Taiji Money House",
+   "pinyin": "Tàijí Yínhào",
+   "status": "provisional",
+   "note": "A money house opened by the same circle, likewise used as surety for the rescue work."
+  },
+  "八路军驻沪办事处": {
+   "en": "Eighth Route Army Shanghai Office",
+   "pinyin": "Bālùjūn Zhùhù Bànshìchù",
+   "status": "attested",
+   "note": "The Eighth Route Army&#8217;s liaison office in Shanghai, abbreviated ‘ba ban,’ which led the resistance periodical Documents."
+  },
+  "民社党": {
+   "en": "National Socialist Party",
+   "pinyin": "Guójiā Shèhuì Dǎng",
+   "status": "attested",
+   "note": "The memoir's 民社党; in the mid-1930s the party of Zhang Junmai and Zhang Dongsun was the China National Socialist Party (国家社会党, founded 1932), which merged into the Democratic Socialist Party (民社党) only in 1946. Rendered by the party these figures belonged to at the time; unrelated to European fascism."
+  },
+  "全国各界救国联合会": {
+   "en": "All-Circles National Salvation Federation",
+   "pinyin": "",
+   "status": "decided",
+   "note": "The national salvation-movement coalition led by Song Qingling; the &#8216;Salvation Association&#8217; of these chapters."
+  },
+  "中国民权保障同盟": {
+   "en": "China League for the Protection of Civil Rights",
+   "pinyin": "",
+   "status": "attested",
+   "note": "Founded by Song Qingling in Shanghai (Dec.&#160;1932) to oppose arbitrary arrests and rescue political prisoners."
+  },
+  "妇慰会": {
+   "en": "Women's Comfort Association",
+   "pinyin": "",
+   "status": "decided",
+   "note": "Short for the Shanghai Branch of the Chinese Women&#8217;s Association for the Comfort of the Officers and Men Defending the Country and Resisting the Enemy, headed by He Xiangning."
+  },
+  "妇救会": {
+   "en": "Women's Salvation Association",
+   "pinyin": "",
+   "status": "decided",
+   "note": "The renamed Women&#8217;s Comfort Association; also rendered the Women&#8217;s Relief Association where the source varies (&#22919;&#22899;&#25937;&#27982;&#20250;)."
+  },
+  "抗敌后援会": {
+   "en": "Association for the Support of Resistance to the Enemy",
+   "pinyin": "",
+   "status": "decided",
+   "note": "The Shanghai All-Circles Association for the Support of Resistance to the Enemy, a Kuomintang-led wartime body."
+  },
+  "国际救济会": {
+   "en": "International Relief Association",
+   "pinyin": "",
+   "status": "decided",
+   "note": "The Shanghai relief body founded through Father Rao (Jacquinot), running the International refugee shelters."
+  },
+  "慈联会": {
+   "en": "Charity Federation",
+   "pinyin": "",
+   "status": "decided",
+   "note": "Short for the Shanghai Federation of Charitable Bodies for United Relief, represented by Zhao Puchu."
+  },
+  "星二聚餐会": {
+   "en": "Tuesday Dining Club",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A standing weekly gathering of Shanghai intellectuals and notables, a united-front &#8216;three-thirds&#8217; experiment."
+  },
+  "星五聚餐会": {
+   "en": "Friday Dining Club",
+   "pinyin": "",
+   "status": "decided",
+   "note": "The Chongqing counterpart of the Tuesday Dining Club, led by the Eighth Route Office there."
+  },
+  "卫国出版公司": {
+   "en": "Defend-the-Nation Publishing Company",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A publishing company the author founded with Hong Kong funds to unify left-wing cultural supply in Shanghai."
+  },
+  "中华女子职业学校": {
+   "en": "Chinese Women's Vocational School",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A women&#8217;s vocational school entrusted to the author, later turned (as the Chinese Vocational School) into a joint KMT&#8211;CCP intelligence-training front."
+  },
+  "中华职业教育社": {
+   "en": "Chinese Vocational Education Society",
+   "pinyin": "",
+   "status": "attested",
+   "note": "The vocational-education body founded by Huang Yanpei."
+  },
+  "正大运输公司": {
+   "en": "Zhengda Transport Company",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A transport company opened within the Tongyi Company to keep the newspaper&#8217;s funds turning over."
+  },
+  "反帝大同盟": {
+   "en": "Anti-Imperialist Grand Alliance",
+   "pinyin": "",
+   "status": "decided",
+   "note": "An anti-imperialist mass organization; Wu Yaozong was a member."
+  },
+  "复社": {
+   "en": "Fu She",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A left-wing publishing society (its name means &#8216;the Renaissance Society&#8217;) behind the Chinese edition of <i>Red Star Over China</i>."
+  },
+  "大学图书公司": {
+   "en": "University Book Company",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A British-registered Hong Kong firm whose name was used to publish the <i>Daily Translation Herald</i>."
+  },
+  "民主同盟": {
+   "en": "Democratic League",
+   "pinyin": "",
+   "status": "attested",
+   "note": "The China Democratic League, an alliance of intermediate parties, dissolved by the Kuomintang in 1947."
+  },
+  "上海市地方协会": {
+   "en": "Shanghai Local Association",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A Shanghai civic body within Du Yuesheng&#8217;s sphere that helped fund the paper and schools."
+  },
+  "文献": {
+   "en": "Documents",
+   "pinyin": "",
+   "status": "decided",
+   "note": "The resistance-and-salvation digest monthly edited by A Ying at the Wind and Rain Bookroom (1938)."
+  },
+  "译报": {
+   "en": "Translation Herald",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A short-lived 1937 concession paper of translated foreign dispatches, forerunner of the <i>Daily Translation Herald</i>."
+  },
+  "每日译报": {
+   "en": "Daily Translation Herald",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A CCP-backed &#8216;foreign-flag&#8217; paper (1938) registered under British merchants to evade Japanese censorship; the author was its board chairman."
+  },
+  "上海妇女": {
+   "en": "Shanghai Women",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A women&#8217;s magazine that carried the author&#8217;s report and the Hong Kong group photograph."
+  },
+  "人道报": {
+   "en": "L'Humanité",
+   "pinyin": "",
+   "status": "attested",
+   "note": "The central organ of the French Communist Party, which dubbed the author the &#8216;Queen of the Refugees.&#8217;"
+  },
+  "大美晚报": {
+   "en": "Shanghai Evening Post and Mercury",
+   "pinyin": "",
+   "status": "attested",
+   "note": "An American-owned English/Chinese evening paper in Shanghai."
+  },
+  "新闻报": {
+   "en": "News Daily",
+   "pinyin": "",
+   "status": "decided",
+   "note": "<i>Xinwen bao</i>, a major old-established Shanghai commercial newspaper."
+  },
+  "论持久战": {
+   "en": "On Protracted War",
+   "pinyin": "",
+   "status": "attested",
+   "note": "Mao Zedong&#8217;s 1938 treatise, serialized by the <i>Daily Translation Herald</i>."
+  },
+  "西行漫画": {
+   "en": "Sketches of the Westward Journey",
+   "pinyin": "",
+   "status": "decided",
+   "note": "Huang Zhen&#8217;s album of Long March sketches, later reissued as the <i>Long March Album</i> (not to be confused with Snow&#8217;s <i>Red Star Over China</i>)."
+  },
+  "西行漫记": {
+   "en": "Red Star Over China",
+   "pinyin": "",
+   "status": "attested",
+   "note": "Edgar Snow&#8217;s 1937 reportage on the Yan&#8217;an base (literally &#8216;random notes on a journey to the west&#8217;)."
+  },
+  "碧血花": {
+   "en": "Flower of Noble Blood",
+   "pinyin": "",
+   "status": "decided",
+   "note": "An anti-Japanese history play by A Ying, also titled <i>Sorrow at the Fall of the Ming</i>."
+  }
+ },
+ "places": {
+  "浏阳": {
+   "en": "Liuyang",
+   "pinyin": "Liúyáng",
+   "status": "attested"
+  },
+  "湖南": {
+   "en": "Hunan",
+   "pinyin": "Húnán",
+   "status": "attested"
+  },
+  "武昌": {
+   "en": "Wuchang",
+   "pinyin": "Wǔchāng",
+   "status": "attested"
+  },
+  "汉口": {
+   "en": "Hankou",
+   "pinyin": "Hànkǒu",
+   "status": "attested"
+  },
+  "汉阳": {
+   "en": "Hanyang",
+   "pinyin": "Hànyáng",
+   "status": "attested"
+  },
+  "武汉": {
+   "en": "Wuhan",
+   "pinyin": "Wǔhàn",
+   "status": "attested"
+  },
+  "长沙": {
+   "en": "Changsha",
+   "pinyin": "Chángshā",
+   "status": "attested"
+  },
+  "广州": {
+   "en": "Guangzhou",
+   "pinyin": "Guǎngzhōu",
+   "status": "attested"
+  },
+  "徐家棚": {
+   "en": "Xujiapeng",
+   "pinyin": "Xújiāpéng",
+   "status": "decided",
+   "note": "District of Wuchang; standard pinyin."
+  },
+  "八达岭": {
+   "en": "Badaling",
+   "pinyin": "Bādálǐng",
+   "status": "attested"
+  },
+  "上海": {
+   "en": "Shanghai",
+   "pinyin": "Shànghǎi",
+   "status": "decided",
+   "note": "China&#8217;s largest city and the seat of the Party Central and its underground in this period."
+  },
+  "香港": {
+   "en": "Hong Kong",
+   "pinyin": "Xiānggǎng",
+   "status": "decided",
+   "note": "British colony; seat of the Party&#8217;s Southern Bureau."
+  },
+  "天津": {
+   "en": "Tianjin",
+   "pinyin": "Tiānjīn",
+   "status": "decided",
+   "note": "North China treaty port; seat of the Party&#8217;s Northern Bureau."
+  },
+  "龙华": {
+   "en": "Longhua",
+   "pinyin": "Lónghuá",
+   "status": "decided",
+   "note": "District in the southern outskirts of Shanghai; site of the Kuomintang Garrison Command&#8217;s prison and execution ground."
+  },
+  "徐家汇": {
+   "en": "Xujiahui",
+   "pinyin": "Xújiāhuì",
+   "status": "attested",
+   "note": "A district of Shanghai."
+  },
+  "庐山": {
+   "en": "Mount Lu",
+   "pinyin": "Lúshān",
+   "status": "attested",
+   "note": "A mountain resort in Jiangxi where Chiang Kai-shek was staying."
+  },
+  "瑞金": {
+   "en": "Ruijin",
+   "pinyin": "Ruìjīn",
+   "status": "attested",
+   "note": "The seat of the Central Soviet in Jiangxi, capital of the Chinese Soviet Republic."
+  },
+  "大连": {
+   "en": "Dalian",
+   "pinyin": "Dàlián",
+   "status": "attested",
+   "note": "A city in Liaoning; Guan Xiangying&#8217;s native region, site of his memorial statue."
+  },
+  "延安": {
+   "en": "Yan&#8217;an",
+   "pinyin": "Yán&#8217;ān",
+   "status": "attested",
+   "note": "The Communist base in northern Shaanxi from 1937."
+  },
+  "霞飞路": {
+   "en": "Avenue Joffre",
+   "pinyin": "Xiáfēi Lù",
+   "status": "attested",
+   "note": "A main thoroughfare of the Shanghai French Concession, today&#8217;s Central Huaihai Road."
+  },
+  "法大马路": {
+   "en": "Rue du Consulat",
+   "pinyin": "Fǎ Dàmǎlù",
+   "status": "attested",
+   "note": "A street in the Shanghai French Concession, today&#8217;s Jinling East Road; the address on the counter-notice."
+  },
+  "八仙桥": {
+   "en": "Baxianqiao",
+   "pinyin": "Bāxiānqiáo",
+   "status": "attested",
+   "note": "A district of central Shanghai."
+  },
+  "杭州": {
+   "en": "Hangzhou",
+   "pinyin": "Hángzhōu",
+   "status": "decided",
+   "note": "Zhejiang provincial capital on West Lake, where the author went into hiding in 1932–33."
+  },
+  "西湖": {
+   "en": "West Lake",
+   "pinyin": "Xīhú",
+   "status": "decided",
+   "note": "The famous scenic lake of Hangzhou around which this chapter is set."
+  },
+  "孤山": {
+   "en": "Solitary Hill",
+   "pinyin": "Gūshān",
+   "status": "decided",
+   "note": "An islet-hill in West Lake beside which the Yu Mansion stands."
+  },
+  "俞楼": {
+   "en": "Yu Mansion",
+   "pinyin": "Yú Lóu",
+   "status": "provisional",
+   "note": "The three-story Yu family villa by Solitary Hill where the author lodged and studied poetry."
+  },
+  "虎跑寺": {
+   "en": "Hupao Temple",
+   "pinyin": "Hǔpǎo Sì",
+   "status": "attested",
+   "note": "A Hangzhou temple, also called Dinghui Temple, whose name the author took as Huang Dinghui."
+  },
+  "烟霞洞": {
+   "en": "Yanxia Cave",
+   "pinyin": "Yānxiá Dòng",
+   "status": "attested",
+   "note": "A grotto near West Lake bearing the ‘Xiangxiang’ rock inscription left by Chen Zhigao&#8217;s party."
+  },
+  "灵隐寺": {
+   "en": "Lingyin Temple",
+   "pinyin": "Língyǐn Sì",
+   "status": "attested",
+   "note": "A major Buddhist temple by West Lake where the author&#8217;s mother made her vow."
+  },
+  "北平": {
+   "en": "Beiping",
+   "pinyin": "Běipíng",
+   "status": "decided",
+   "note": "The name of Beijing under the Nationalist government (1928–49); site of the Tongyi Company&#8217;s largest creditors."
+  },
+  "苏州": {
+   "en": "Suzhou",
+   "pinyin": "Sūzhōu",
+   "status": "decided",
+   "note": "Jiangsu city, site of the Second Jiangsu Prison and of the wrongful-imprisonment-compensation meetings."
+  },
+  "南京": {
+   "en": "Nanjing",
+   "pinyin": "Nánjīng",
+   "status": "decided",
+   "note": "The Nationalist capital in this period."
+  },
+  "青岛": {
+   "en": "Qingdao",
+   "pinyin": "Qīngdǎo",
+   "status": "decided",
+   "note": "Shandong port city, host of the Fifth National Bar Association congress (1933)."
+  },
+  "珞珈山": {
+   "en": "Luojia Hill",
+   "pinyin": "Luòjiā Shān",
+   "status": "decided",
+   "note": "The Wuhan University campus hill where the author met Guo Changlu."
+  },
+  "东交民巷": {
+   "en": "Legation Street",
+   "pinyin": "Dōngjiāomín Xiàng",
+   "status": "attested",
+   "note": "The Legation Quarter of Beiping, most of whose land the Tongyi branch held."
+  },
+  "西天目": {
+   "en": "West Tianmu",
+   "pinyin": "Xī Tiānmù",
+   "status": "decided",
+   "note": "A mountain in Zhejiang where the author and Chen Zhigao honeymooned and planted plum trees."
+  },
+  "柳林": {
+   "en": "Liulin",
+   "pinyin": "Liǔlín",
+   "status": "attested",
+   "note": "He Chang&#8217;s home county in Shanxi, site of his memorial hall."
+  },
+  "会昌": {
+   "en": "Huichang",
+   "pinyin": "Huìchāng",
+   "status": "attested",
+   "note": "The south Jiangxi county at whose river He Chang was ambushed and killed in 1935."
+  },
+  "绥远": {
+   "en": "Suiyuan",
+   "pinyin": "Suíyuǎn",
+   "status": "attested",
+   "note": "A former province of Inner Mongolia, focus of a 1936 resistance campaign."
+  },
+  "大千世界": {
+   "en": "Daqian Shijie",
+   "pinyin": "Dàqiān Shìjiè",
+   "status": "decided",
+   "note": "A Shanghai amusement hall where benefit performances were held."
+  },
+  "兰心大戏院": {
+   "en": "Lyceum Theater",
+   "pinyin": "",
+   "status": "attested",
+   "note": "A well-known theater in the Shanghai French Concession."
+  },
+  "新光大戏院": {
+   "en": "Xinguang Grand Theater",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A Shanghai theater where wartime benefit operas were staged."
+  },
+  "沧州饭店": {
+   "en": "Cangzhou Hotel",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A Shanghai hotel where Guo Moruo was lodged on his return."
+  },
+  "金巴利道": {
+   "en": "Kimberley Road",
+   "pinyin": "",
+   "status": "attested",
+   "note": "A road in Tsim Sha Tsui, Kowloon, Hong Kong."
+  },
+  "思豪酒家": {
+   "en": "Sohao Restaurant",
+   "pinyin": "",
+   "status": "provisional",
+   "note": "A Hong Kong restaurant where the welcome for Old Madame Zhao was held; romanization provisional."
+  },
+  "镜湖医院": {
+   "en": "Kiang Wu Hospital",
+   "pinyin": "",
+   "status": "attested",
+   "note": "A charitable hospital in Macao."
+  },
+  "华东医院": {
+   "en": "East China Hospital",
+   "pinyin": "",
+   "status": "decided",
+   "note": "A Shanghai hospital where the author was later visited."
+  },
+  "上饶集中营": {
+   "en": "Shangrao concentration camp",
+   "pinyin": "",
+   "status": "attested",
+   "note": "A Kuomintang camp in Jiangxi where captured resistance figures were held."
+  },
+  "南市": {
+   "en": "Nanshi",
+   "pinyin": "Nánshì",
+   "status": "attested",
+   "note": "The old South City district of Shanghai, site of the Nanshi Refugee Zone."
+  }
+ },
+ "terms": {
+  "北伐": {
+   "en": "Northern Expedition",
+   "pinyin": "Běifá",
+   "status": "attested"
+  },
+  "五四运动": {
+   "en": "May Fourth Movement",
+   "pinyin": "Wǔsì yùndòng",
+   "status": "attested"
+  },
+  "三民主义": {
+   "en": "Three Principles of the People",
+   "pinyin": "Sānmín zhǔyì",
+   "status": "attested"
+  },
+  "秀才": {
+   "en": "xiucai",
+   "pinyin": "xiùcai",
+   "status": "decided",
+   "note": "Lowest degree-holder of the imperial examinations; left romanized."
+  },
+  "优贡": {
+   "en": "yougong",
+   "pinyin": "yōugòng",
+   "status": "decided",
+   "note": "&#8216;Excellent tribute student,&#8217; a special examination distinction; left romanized."
+  },
+  "临江仙": {
+   "en": "Linjiang xian",
+   "pinyin": "Línjiāng xiān",
+   "status": "decided",
+   "note": "&#8216;The Immortal by the River,&#8217; a fixed ci lyric-pattern; each part of the book opens with one."
+  },
+  "伍豪": {
+   "en": "Wu Hao",
+   "pinyin": "Wǔ Háo",
+   "status": "decided",
+   "note": "An alias of Zhou Enlai, from his code name in the Awakening Society; the pivot of the fake &#8216;renunciation&#8217; notices and their rebuttal."
+  },
+  "周公": {
+   "en": "Lord Zhou",
+   "pinyin": "Zhōu Gōng",
+   "status": "decided",
+   "note": "An honorific for Zhou Enlai; literally &#8216;Duke of Zhou&#8217;, the revered Zhou-dynasty statesman, here used as a byname of respect."
+  },
+  "太史公": {
+   "en": "Hanlin academician (Taishigong)",
+   "pinyin": "Tàishǐgōng",
+   "status": "decided",
+   "note": "An honorific for a former Hanlin compiler/historian; used of Yu Biyun throughout this chapter."
+  },
+  "破产法": {
+   "en": "Bankruptcy Law",
+   "pinyin": "Pòchǎn Fǎ",
+   "status": "decided",
+   "note": "The Republican bankruptcy statute whose three-quarters-of-creditors rule shaped the Tongyi mediation."
+  },
+  "反省院": {
+   "en": "reflection institute",
+   "pinyin": "Fǎnxǐng Yuàn",
+   "status": "decided",
+   "note": "A Nationalist ‘Three People’s Principles’ re-education facility to which unconvicted political prisoners could be transferred, used as a rescue channel."
+  },
+  "白区": {
+   "en": "white area",
+   "pinyin": "Báiqū",
+   "status": "decided",
+   "note": "Kuomintang-controlled territory, as opposed to the Red (soviet) areas; the author&#8217;s underground post was in the Shanghai white area."
+  },
+  "孤岛": {
+   "en": "Solitary Island",
+   "pinyin": "gūdǎo",
+   "status": "decided",
+   "note": "The Shanghai foreign concessions after Nov.&#160;1937, surrounded by Japanese-held territory until Dec.&#160;1941."
+  },
+  "三三制": {
+   "en": "three-thirds system",
+   "pinyin": "sānsānzhì",
+   "status": "decided",
+   "note": "The CCP united-front formula sharing places among Communists, non-Party progressives, and centrists."
+  }
+ }
 }
