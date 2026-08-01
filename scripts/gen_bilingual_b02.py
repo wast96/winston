@@ -33,9 +33,22 @@ DROP = {
     # B04: both chapters have NO images, so only header(1) + title(2) drop.
     "ch10": ("16_index-split-014.txt", {1, 2}),
     "ch11": ("17_index-split-015.txt", {1, 2}),
+    # B05: ch12 has 9 photo captions (lines 7,11,13,15,21,31,32[roster],33,42,44)
+    # AND a trailing 【注释】 block (lines 45-49) that belongs to earlier chapters'
+    # endnotes (ch05[1], ch08[2], ch11[3]/[4]) -- NOT ch12 body text -- so drop it.
+    "ch12": ("18_index-split-016.txt",
+             {1, 2, 7, 11, 13, 15, 21, 31, 32, 33, 42, 44, 45, 46, 47, 48, 49}),
+    # ch13 opens Part Three; 5 photo captions (lines 4,8,11,12[roster],19,22).
+    "ch13": ("20_index-split-018.txt", {1, 2, 4, 8, 11, 12, 19, 22}),
+    # ch14 has NO images, so only header(1) + title(2) drop.
+    "ch14": ("21_index-split-019.txt", {1, 2}),
 }
-# ch05 prepends the Part Two poem: file, 1-indexed lines to KEEP (title + 2 stanzas)
-POEM = {"ch05": ("10_index-split-008.txt", [3, 4, 5])}
+# Part-opening chapters prepend the part's 临江仙 poem: file, 1-indexed lines to
+# KEEP (poem title + 2 stanzas). ch05 = Part Two; ch13 = Part Three.
+POEM = {
+    "ch05": ("10_index-split-008.txt", [3, 4, 5]),
+    "ch13": ("19_index-split-017.txt", [3, 4, 5]),
+}
 
 
 def build(unit):

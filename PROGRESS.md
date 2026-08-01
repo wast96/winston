@@ -469,3 +469,130 @@ resolve). ch22-ch38 remain pending skeleton pages, as commissioned. Branch: work
 consolidated onto the single working branch claude/huang-mulan (the session opened
 on a stray branch claude/huang-mulan-b04-ch10-ch11-c05772, which carried no unique
 commits and was deleted, local + remote-tracking pruned), per CLAUDE.md rule 2.
+
+## B05 = ch12-ch14  (DONE)
+
+Scope translated: ch12 (Ch 12, In Seclusion by West Lake), ch13 (Ch 13, The Voice
+of Justice), ch14 (Ch 14, The Tongyi Company). 18,752 source chars. ch13 opens
+Part Three: the Part Three ci poem (临江仙·抗日救亡, from index_split_017.html) is
+folded in as an italic epigraph at the head of ch13, matching the ch01/ch05
+pattern.
+
+Method: same as B02-B04. English written to out/<id>_en.txt (one paragraph per
+line, first line = English title; for ch13, lines 2-4 are the italic poem title +
+two stanzas). scripts/gen_bilingual_b02.py DROP map extended with ch12/ch13/ch14
+and POEM map extended with ch13. NB: ch12 IS index_split_016.html, whose tail
+holds the 【注释】 block (source lines 45-49 = the endnotes [1] Wan Xiyan, [2] Wan
+Xixian, [3]/[4] on the 伍豪启事 quote) already rendered in ch05/ch08/ch11; those
+five lines are DROPPED from ch12 body, not translated as ch12 text.
+
+Paragraph counts (source = translation): ch12 32, ch13 17 (3 poem + 14 prose),
+ch14 16. Parity held on first generation for all three.
+
+Source structure handling: ch12 has 9 photo captions (source lines 7,11,13,15,21,
+31+32[roster],33,42,44 -> images 00022-00030); ch13 has 5 (lines 4,8,11+12[roster],
+19,22 -> images 00032-00036). All are standalone caption lines (none splices a
+sentence, unlike ch03), routed to figures.json. ch14 has NO images. The Part Three
+divider image 00031 (index_split_017) is uncaptioned decoration and is not placed.
+
+Checks run and results:
+- check_numbers.py (with data/noise.txt): ch12/ch13/ch14 all 0 unresolved. Real
+  quantities carried as digits/words where the parser needs the exact form: 百日丧期
+  -> "the mourning period of a hundred days"; 一千块钱 -> "the one thousand dollars";
+  柳、林二位 -> "the two of them, Liu and Lin"; 三人代表 -> "three in all"; 一百零八将
+  -> "108 Generals" (digits, so the parser reads 108 not 100+8). noise.txt extended
+  (B05): 陈振九 (name, 九), 千千 (千千万万 residue after NOISE's 万万 strips the tail),
+  六军 (imperial-army set term in the quoted Wu Meicun couplet), 四川 (北四川路), 五金
+  (五金公司 = hardware, "five metals").
+- check_structure.py parity: 32/17/16, all OK. Anchors: 49 notes total, 0 unresolved
+  (the full build refuses on any unmatched anchor).
+- Blind double-translation (check 2, fresh context): the ch12 name/poetry passage and
+  the Buddhist "Dinghui" passage, Chen Yi's classical poem 哭阮啸仙、贺昌同志, He
+  Xiangning's public amnesty statement (ch13), Lin Gengbai's Zuozhuan ("曹刿论战")
+  argument, the Part Three ci, and the ch14 Tongyi-success paragraph -- no material
+  divergence from this edition. It confirmed 双修馆主 ("Master of the Studio of
+  Double/Twofold Cultivation"), 幽兰集 ("Anthology of the Hidden/Secluded Orchid"),
+  孤岛 = the "solitary/lone island" (wartime Shanghai concessions), and both idioms
+  醉翁之意不在酒 and 小试牛刀 carried literally.
+- Back-translation (check 3, omission detector, ~4% deep audit): ch12 the Chen-house
+  search-preparation paragraph and the third-brother diploma paragraph, ch14 the
+  Tongyi founding paragraph -- verified complete, no dropped clauses or quantities.
+- Fact-check against scholarship (check 7; Wikipedia zh/en, Baidu Baike, 12371.cn,
+  81.cn, mod.gov.cn, archives.sh.cn; no Grok/AI sources). Verdicts:
+  * 俞楼 (Yu Mansion) built with Zeng Guofan's money: CONTRADICTED. Scholarship: the
+    pavilion was raised in 1878 by subscription among Yu Yue's own students, with
+    Peng Yulin (彭玉麟) funding part and inscribing its name; Zeng Guofan (Yu Yue's
+    patron/examiner) died in 1872, six years before 俞楼 existed. Kept faithful to the
+    memoir; footnoted (note 40).
+  * 俞陛云 (Yu Biyun): CORROBORATED. Grandson of Yu Yue, father of Yu Pingbo; 1898
+    探花 and Hanlin poet, style 阶青; settled in Beiping late in life, d. 1950. The
+    source's caption correctly calls him Yu Yue's 孙 (grandson) and Yu Pingbo his 曾孙.
+  * 郑毓秀 (Zheng Yuxiu): CORROBORATED. France-trained; Shanghai's first woman lawyer,
+    qualified to plead in the Mixed Court.
+  * 高志航 (Gao Zhihang): CORROBORATED. 14 Aug 1937 Jianqiao/Hangzhou air battle, first
+    ROC Air Force shoot-down; killed 21 Nov 1937.
+  * He Chang: CORROBORATED, incl. the rank stated (deputy director / acting director
+    of the Red Army General Political Department from 1933) AND his south-Jiangxi posts
+    (Central Sub-bureau member, Central Military Region political-department director);
+    killed at the 会昌河 on 10 Mar 1935. Chen Yi's 哭阮啸仙、贺昌同志 is a real poem;
+    阮啸仙 was the first head of the Central Auditing Commission (hence 审计呕心血),
+    killed Mar 1935. (No footnote needed on rank; He Chang's person-note is at ch06.)
+  * 林庚白/林北丽/徐自华/吴芝瑛 (Qiu Jin's burial), 柳亚子 (1925 KMT Jiangsu committee
+    with 宛希俨), 国难会议 (Apr 1932), 冤狱赔偿运动 (Shen Junru), "七君子" (23 Nov 1936),
+    杜重远/新生事件 (1935), 李锐 (Mao's secretary, dep. head Central Org Dept, CAC),
+    廖仲恺 = 仲恺先生 (He Xiangning's husband, assassinated 1925): all CORROBORATED.
+  * Tongyi Company (通易信托公司): CORROBORATED with a date caveat -- chairman 黄溯初,
+    bankruptcy and unusual court-approved 复业 are attested, but some Shanghai banking
+    histories date the failure to 1936, not the memoir's winter 1935. Lightly
+    documented; footnoted (note 47) with the discrepancy flagged.
+  * A Ying / 风雨书屋 / 《文献》: CORROBORATED. BUT the specific claim that Qu Qiubai's
+    letters and Fang Zhimin's prison diary were kept in the Tongyi vault and handed by
+    A Ying to the Central Propaganda Department is UNCORROBORATED: the best-documented
+    custody of Fang Zhimin's prison manuscripts runs through Feng Xuefeng and Xie
+    Danru. Rendered as the author's own testimony; footnoted (note 49) with the
+    standard custody chain noted.
+
+Notes: 10 added (ch12 4, ch13 3, ch14 3), for 49 total, numbered 40-49 by the
+builder in reading order. ch12 (40-43): the 俞楼/Zeng Guofan discrepancy; the Dinghui
+Buddhist wordplay (定=samadhi + 慧=prajna, Hupao=Dinghui Temple); Wu Meicun's 圆圆曲
++ the 六军 term; the 象象/师狮 rock-inscription puns. ch13 (44-46): 仲恺先生 = Liao
+Zhongkai; the 曹刿论战 Zuozhuan allusion; the "七君子" case. ch14 (47-49): the Tongyi
+collapse date discrepancy; 醉翁之意不在酒 (Ouyang Xiu); the Fang Zhimin/Qu Qiubai
+manuscript-custody caveat.
+
+Glossary: ~112 rows added (74 people, 18 orgs, 16 places, 4 terms; totals now 219/47/
+38/12). People incl. Liu Bochui, Lin Gengbai, Yang Zhihao, Zhou Xiao'an, Liao
+Chengzhi, Wu Kaisheng, He Shuheng + He Shishan/He Sisi, Zhu Duanshou, Chen Congying,
+Cai Yuanpei, Chen Pixian, Xiang Ying, Ruan Xiaoxian, Li Rui, Yu Yue/Yu Biyun/Yu
+Pingbo, Zeng Guofan, Wu Meicun, Chen Yuanyuan, Gao Zhihang, Zhang Shizhao, Luo
+Jiaheng, Zhang Dongsun, Du Yuesheng, Wang Xiaolai, Huang Suchu, Guo Yushang, Xu
+Jiqing, A Ying, Xia Yan, Feng Xuefeng, Fang Zhimin, Chen Yun, Sun Ke, Yu Youren,
+Zhang Zhiben, Tan Zhen, Chen Lifu, Feng Yuxiang, Du Zhongyuan, Zheng Yuxiu, Li
+Xinyang, Chen Dexin, Zhang Yilin, Guo Changlu, Liao Zhongkai, Yu Ling, Shen Shijia,
+Jiang Xueying, Mao Heting, Pan Zhaobang, Chen Gaoyong, Cheng Zhongwen, Chen Zhenjiu,
+Chen Yingu, Chen Gengyu, Li Huanzhi (NOT the composer), Wu Zhendong, Pan Zhenya,
+Tang Youren, Ouyang Yuqian, Wu Gengmei, Wu Kaixian, Chen Tingrui, Lu Dingkui, Yuan
+Puzhi, Chen Jiongming, Lin Beili, Xu Yunhua/Xu Zihua/Wu Zhiying, Li Mulan, Hu Weike,
+Zhang Duhe, Xu Bao (source-truncated), Elder Madame Pan. Orgs incl. Yongye Bank,
+Aurora University, Jinan University, Tongyi Trust Company, Bankers' Club, Shanghai
+Banking and Money Trades Friendship Association, Wind and Rain Bookroom, Southern
+Society, National Salvation Association, League for the Protection of Civil Rights,
+Shanghai Bar Association, National Socialist Party, Zhejiang Industrial Bank, Bank of
+Communications, Chinese Society for Arts and Sciences, Yongchang Gold Exchange, Taiji
+Money House, Eighth Route Army Shanghai Office. Places incl. Hangzhou, West Lake,
+Solitary Hill, Yu Mansion, Hupao/Dinghui Temple, Yanxia Cave, Lingyin Temple,
+Beiping, Suzhou, Nanjing, Qingdao, Luojia Hill, Legation Street, West Tianmu, Liulin,
+Huichang. Terms: 太史公 (Hanlin academician), Bankruptcy Law, reflection institute,
+white area. Reused all prior decisions (Kuomintang, Sun Yat-sen, Chiang Kai-shek,
+Whampoa, Zhou Enlai, Chen Duxiu, He Chang, Chen Tanqiu, Rao Shushi, Guan Xiangying,
+Pan Hannian, Chen Geng, Chen Zhigao, Chen Qishou/Jieqing, Xiang Zhongfa, Gu
+Shunzhang, Kang Sheng, Dong Zhujun, Song Qingling, He Xiangning, Shen Junru, Liu
+Yazi, Xiong Jinding, Ren Bishi, Chen Yi, the author's three name rows, etc.).
+
+Figures: 14 placed (ch12 9 reusing 00022-00030, ch13 5 reusing 00032-00036), each
+with the source's own caption translated (the two committee-photo rosters folded into
+their captions). ch14 has none. Pillow installed for interior greyscaling.
+
+Build: out/The Autobiography of Huang Mulan.epub, 15 of 44 chapters translated
+(ch00-ch14), 49 notes. qa_epub.py PASS (89 files, 50 documents, 322 paragraphs, all
+links resolve). ch22-ch38 remain pending skeleton pages, as commissioned.

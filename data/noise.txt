@@ -67,3 +67,16 @@
 # leaving a stray 十 read as 10. A single digit directly followed by 钟 only occurs
 # as this degenerate residue (real times read 四点钟 / 五分钟, with 点/分 before 钟).
 [一二两三四五六七八九十]钟
+# B05 additions (see PROGRESS.md):
+# 陈振九 (Chen Zhenjiu): the 九 in the cousin's name is not the count 9.
+陈振九
+# 千千万万 "countless": NOISE's generic 万万 strips the tail, leaving 千千 -> 2000.
+# Strip the residue (the idiom is rendered "the countless...", carrying no quantity).
+千千
+# 六军 the imperial/whole army (Zhou-li set term in the quoted Wu Meicun couplet),
+# not the count 6.
+六军
+# 四川 Sichuan (place name in 北四川路 North Sichuan Road), the 四 is not the count 4.
+四川
+# 五金(公司) hardware / metalware ("five metals"), a trade term, not the count 5.
+五金
