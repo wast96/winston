@@ -403,6 +403,12 @@
       "pinyin": "Páng Lùshì",
       "status": "decided",
       "note": "A long-faced registrar (<i>lushi</i>) of the Jing'an Bureau, secretly in the pay of the Secretariat (the Right Minister's men); he passes intelligence out through the corner gate and is caught by Xu Bin. Pinyin."
+    },
+    "普遮": {
+      "en": "Puzhe",
+      "pinyin": "Pǔzhē",
+      "status": "provisional",
+      "note": "The name under which the Right Shad hides at the Daqin Temple: a Sogdian elder said to hold an ordination certificate from the Nestorian temple of Kang, arrived a month before. Found stabbed in this chapter; his old modao scar and armor-calluses betray him as a career cavalryman, that is the Right Shad. Transliteration mine."
     }
   },
   "organizations": {
@@ -1181,6 +1187,18 @@
       "pinyin": "Bōsī Sì",
       "status": "attested",
       "note": "The official Tang name for a Nestorian temple before the 745 renaming; see the Daqin Temple. Rendered literally."
+    },
+    "嘉会坊": {
+      "en": "Jiahui Ward",
+      "pinyin": "Jiāhuì Fāng",
+      "status": "decided",
+      "note": "A ward not far south of the Jing'an Bureau where the main force of the Lüben Guards is quartered; Li Bi counts on relief coming from it."
+    },
+    "仙州": {
+      "en": "Xianzhou",
+      "pinyin": "Xiānzhōu",
+      "status": "attested",
+      "note": "The prefecture (modern Nanyang, Henan) in which the poet Cen Shen's family was registered; he names himself 'Cen Shen of Xianzhou.' The source writes 远怀坊 for 怀远坊 (Huaiyuan Ward) as the scene of his earlier interference; rendered by the intended referent. Standard."
     }
   },
   "terms": {
@@ -1747,6 +1765,36 @@
       "pinyin": "lùshì",
       "status": "decided",
       "note": "A record-keeping officer (<i>lushi</i>); rendered 'registrar' to keep it distinct from 主事, 'recorder' (Xu Bin's post)."
+    },
+    "蚍蜉": {
+      "en": "the Pifu",
+      "pinyin": "pífú",
+      "status": "provisional",
+      "note": "The name Long Bo gives his organization: <i>pifu</i> (蚍蜉) is a large ant, and the word invokes Han Yu's line 蚍蜉撼大树 ('ants that would shake a great tree'), which Long Bo turns into a boast. Kept as the transliteration 'the Pifu' so the allusion, footnoted at first appearance, can carry through."
+    },
+    "唧筒": {
+      "en": "squirt-pump",
+      "pinyin": "jītǒng",
+      "status": "decided",
+      "note": "A bamboo piston-syringe (<i>jitong</i>): a tube with a nozzle and a cotton-wrapped rod, made to draw water in and squirt it out. Nominally a fire-fighting tool, the Pifu use it to spray rock-oil. Rendered 'squirt-pump.'"
+    },
+    "离丧铃": {
+      "en": "mourning bell",
+      "pinyin": "lísàng líng",
+      "status": "decided",
+      "note": "A lead-weighted blue-and-white bell (<i>lisang ling</i>, 'the bell of bereavement') hung outside a cart rushing a gravely ill patient to an infirmary; its distinctive toll warns crowds to clear the way and avoid the ill luck. Rendered by sense."
+    },
+    "獬豸": {
+      "en": "xiezhi",
+      "pinyin": "xièzhì",
+      "status": "attested",
+      "note": "A one-horned mythical beast able to tell right from wrong, which gores the guilty; the emblem of law and of the Tang censors and judges. Cui Qi's family carries a jade one. Standard sinological form; footnoted at first appearance."
+    },
+    "胡旋舞": {
+      "en": "the Sogdian Whirl",
+      "pinyin": "húxuán wǔ",
+      "status": "decided",
+      "note": "The <i>huxuan</i> dance, a fast spinning dance from Sogdiana and the Western Regions, a craze of Tang Chang'an; rendered 'the Sogdian Whirl.' The deputy squad-leader turns it into a cruel taunt as his victims burn. Footnoted at first appearance."
     }
   }
 }

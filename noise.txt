@@ -198,3 +198,11 @@
 # reaching a sixth ear); the 六 is not the quantity 6. English renders it "carries to
 # no third pair of ears."
 六耳
+# ch09: 并无二致 = "no different (from)" (idiom); the 二 (二致 = "two ways/a difference")
+# is not the quantity 2. English renders it "no different from any other cleric's."
+二致
+# ch09: 四个字 = "these four characters/words" (an enumerator counting the characters of
+# a uttered phrase, cf. [二三四]字 already listed but with 个 intervening); not a quantity
+# of things. Appears twice (延州石脂 = "Yanzhou rock-oil"; 外强中弱 = "strong without,
+# weak within," where the English does carry "four words").
+四个字
