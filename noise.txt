@@ -162,3 +162,25 @@
 # fortune") is not the quantity 10000. English renders it "the best of a bad
 # business" / "the mercy in the mishap."
 万幸
+# ch07: 二百八十五桶 = "two hundred and eighty-five casks" (300 total minus the 15
+# accounted for); like 二百二十/一百五十/一百零八 the checker cannot reassemble 285
+# from the analytic English words. Verified present in the English.
+二百八十五
+# ch07 idioms / names / set-terms carrying non-quantity numerals (verified: the
+# English carries the SENSE, not a stray digit):
+# 七寸 = a snake's vital spot (打蛇七寸), "the very vitals," not the count 7
+七寸
+# 十成把握 = "a perfect certainty" (ten parts in ten = fully), not the count 10
+十成
+# 百戏 = the "hundred entertainments," the set term for variety/acrobatic shows
+# (cf. 百姓/百官 already listed), not the quantity 100
+百戏
+# 万劫不复 = "doomed past all redemption" (ten thousand kalpas), not 10000
+万劫
+# 赵七郎 = Zhao Qilang, the adjutant's ranking-name ("Seventh Son"); the 七 is part
+# of the name (cf. 六郎/李十二/贾十七 already listed), not the count 7
+七郎
+# 退一万步(讲) = "granting every allowance" (step back ten thousand paces), not 10000
+一万步
+# 七绕八转 = "winding this way and that" (cf. 七转八弯 already listed), not 7/8
+七绕八转

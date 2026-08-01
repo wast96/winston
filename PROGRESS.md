@@ -720,3 +720,161 @@ are not figures). figures.json stays empty, matching ch01-ch05.
   across the year, and is rendered faithfully as "the Ghost Festival."
 - Zhang's tattoo 断刀 ("broken blade") and his address to the dead 闻无忌 ("our
   Eighth Company") plant backstory paid off later; rendered plainly, no note.
+
+## B07 = ch07 (第七章 申正 / "The Hour of the Monkey, Second Half, 4 p.m.")
+
+Scope: the whole chapter, 25,671 source characters, 469 paragraphs (the longest
+chapter to date, a shade over ch06). Six scenes divided by the source's
+scene-break rules (Image00005.jpg, five of them). (1) West Market / Jing'an
+Bureau: the Lüben Guards, at the Right Xiao Guard's secret writ, seize Zhang
+Xiaojing and hand him to General Gan Shoucheng; Li Bi reads Li Linfu's hand
+behind it, sees that 285 of the 300 casks of rock-oil are still missing, and
+sends Tanqi on a rescue while he rides to beg Director He. (2) The Yixiang
+Pavilion: Feng Dalun hires the Evaluator Yuan Zai to have the Court of Judicial
+Review demand Zhang back through the Censorate; Yuan Zai, sent to look at the
+captive, finds she is not Wen Ran but a General of the Cloud Banner's kin (Wang
+Yunxiu) and quietly shuts the door on the discovery. (3) Li Bi rides to the
+Leyou Plateau and kneels to He Zhizhang, who refuses to help by Zhang's hand.
+(4) The Right Xiao Guard: Tanqi (Plan B), passing as Li Linfu's maidservant with
+a plum-blossom jade, cons Adjutant Zhao; when the ruse stalls she signals Plan
+C; Zhang Xiaojing burns the cell as a diversion, is caught by Cui Qi at the
+gate, turns the soldiers on Cui with a shout, and is boxed in by the Leopard
+Cavalry — but Gan Shoucheng, by a wager Li Bi struck, waves them through. (5)
+The woodshed: Yuan Zai cows Wang Yunxiu into obedience and proposes to Feng
+Dalun a "two-birds" scheme. (6) The Cibei Temple hut: Li Bi, aged in an
+afternoon, explains that He Zhizhang's collapse (not his help) forced Gan's
+hand; Zhang senses the concealed truth and lets it lie; the two agree a stronger
+hidden enemy is using the Türks as a blade, and Zhang asks to question the dying
+Cao Poyan as the Lantern Festival's bells and lanterns rise over Chang'an.
+
+Deliverables shipped: out/ch07_bilingual.md (QC only, never ships),
+out/ch07_reading.md, data/zh/ch07.txt, notes.json (3 notes added, 31 total),
+glossary.json updated (new people/orgs/places/terms below), noise.txt extended,
+the rebuilt EPUB, and this log.
+
+### Checks run
+
+- check_numbers.py --noise noise.txt: 469 pairs, 0 unresolved. One flagged
+  numeral was a REAL count and the ENGLISH was fixed rather than noised: 张小敬等
+  三人 → "the three of them—Zhang Xiaojing and his companions—" (was "and his two
+  companions", which carried 2 but not the 3). All other flags were NON-quantity
+  numerals added to noise.txt, each with its reason: 二百八十五 (285 casks, spelled
+  analytically in English and unreassemblable by the digit-composer, like the
+  existing 二百二十/一百五十/一百零八; the value is present), 七寸 (打蛇七寸 = "the
+  very vitals", idiom ≠ 7), 十成 (十成把握 = "a perfect certainty", ≠ 10), 百戏 (the
+  "hundred entertainments", the set term for variety shows, cf. 百姓/百官 ≠ 100),
+  万劫 (万劫不复 = "doomed past all redemption", ≠ 10000), 七郎 (赵七郎 = Zhao
+  Qilang, a ranking-name, cf. 六郎/李十二/贾十七 ≠ 7), 一万步 (退一万步(讲) =
+  "granting every allowance", ≠ 10000), 七绕八转 ("winding this way and that", cf.
+  七转八弯 ≠ 7/8). Every added pattern was hand-verified; a genuinely dropped
+  number would still fail. No WORD_NUM change needed.
+- check_structure.py --pairs: paragraph parity 469 source / 469 translation, OK.
+  Two extractor-split openers were merged (the recurring festival-crowd sentence
+  = source lines 2-3; the dateline = source line + its lone full-stop line);
+  every other source line maps one-to-one, and colon-lead-in speech lines were
+  kept as the source has them. The source's content-file heading line "申正" is
+  absorbed into the H2 chapter title, as in ch01-ch06.
+- Anchor resolution: all 3 ch07 note anchors ("hide away the bow and boil the
+  hound", "the Han sage Dong Zhongshu", "Wu Zixu") are verbatim substrings of the
+  reading text (verified by grep, each exactly once). Builder built and qa_epub
+  passed with all 31 notes.
+- Blind double translation (check 2): an independent context, with no sight of
+  this translation, rendered the literary dyeing-vat metaphor (Chang'an as a bolt
+  of plain silk dropped into the dye, source line 161). Result: highly
+  convergent, no omissions and no invented content — every image present (plain
+  silk in the dyeing vat, clamorous dye across the crisscrossing streets, warp
+  and weft, damp and soaked through, the colored haloes spreading, every thread
+  taking the festive tincture, the joy surging to the heavens). Divergences were
+  equivalent word-choices within translator discretion. No correction needed.
+- Round-trip back translation (check 3): the number-dense cask-math (Li Bi's
+  reminder to Xu Bin, source lines 65-67) was back-translated in a fresh context
+  and diffed against the source. Every numeral survived intact — 300 casks / 30
+  carts, 300 = 300, 3 carts, 15 casks, 285 casks, 27 carts — in the correct
+  relations. The only divergence was 石油 for the source's 石脂 (both "rock-oil",
+  the modern vs the novel's word), not an error.
+- qa_epub.py: PASS. 38 files, 32 documents, all links resolve; 31 note
+  references, 31 bodies, 31 backlinks; numbering sequential in reading order.
+
+### Random-sample deep audit (check 8)
+
+The blind double-translation and back-translation samples together cover the
+chapter's most failure-prone spans (its densest literary image and its densest
+number cluster); the mechanical checks carry the rest (100% of numerals via
+check_numbers, 100% of paragraphs via parity). Observed substantive
+omission/error rate on the audited spans: zero — no dropped clause, no invented
+sentence, no altered number or name.
+
+### Notes added (3; numbered by the builder in reading order, continuing from ch06)
+
+- "hide away the bow and boil the hound": the 鸟尽弓藏，兔死狗烹 proverb of
+  statecraft (Fan Li; echoed at Han Xin's fall) — the useful servant discarded
+  once his use is spent; corroborated against Sima Qian's Records of the Grand
+  Historian. Zhang's grim joke on his own betrayal.
+- "the Han sage Dong Zhongshu": Dong Zhongshu (179-104 BCE) and the Dismount
+  Barrow → Toad Barrow (下马陵 → 虾蟆陵) folk-corruption behind the Changle Ward
+  wine's name, a pun the English can only footnote; the corruption is already in
+  Bai Juyi's Song of the Pipa. Corroborated.
+- "Wu Zixu": the legend of Wu Zixu's hair whitening in a single night at the Zhao
+  Pass (Wu Yue Chunqiu), to which Tanqi likens the suddenly-aged Li Bi.
+Recurring subjects whose FIRST appearance was in an earlier chapter were NOT
+re-noted: Wang Zhongsi (ch01), He Zhizhang (ch02), Yuan Zai and Prince Yong
+(ch05), Jiao Sui (ch03), the Court of Judicial Review / Censorate / Forestry and
+Crafts Bureau (ch05), the Right Xiao Guard / Leopard Cavalry (ch06), the Sage,
+the Lantern Festival, Que-le Huo-duo, etc.
+
+### Glossary rows added
+
+People: Gan Shoucheng, Adjutant Zhao (+ Zhao Qilang), Dong Zhongshu (attested),
+He Dong, He Zeng, Wu Zixu (attested). Organizations: the Stores Section (仓曹).
+Places: the Yixiang Pavilion, Changle Ward, the Toad Barrow (下马陵/虾蟆陵),
+Khotan (attested), Xuanping/Xinchang/Shengping Wards, the Leyou Plateau
+(attested), the Qinglong Temple (attested), the Chongzhen Abbey, the Cibei /
+Changfa / Shengguang Temples, the Chengtian Gate (attested), the Zhuque Gate.
+Terms: adjutant (参军), General of the Cloud Banner (云麾将军, attested/Hucker),
+the Tangdi Collection (棠棣集), the Langguan Clear (郎官清), curtained hat (帷帽),
+the plum-blossom jade (李花玉佩, with the 李=plum surname pun), Locana (卢舍那,
+attested), Plan B/C (乙/丙 contingency plans), plain-oil fritters (素油子). Every
+recurring referent already decided in ch01-ch06 (Zhang Xiaojing, Li Bi, Cui Qi,
+Cao Poyan, Xu Bin, Yao Runeng, Tanqi, He Zhizhang / Director He, Li Linfu, Li
+Heng, Yuan Zai, Feng Dalun, Prince Yong, Wang Yunxiu, Wang Zhongsi, Wen Ran, Wen
+Wuji, Long Bo, Ma Ge'er, Jia Shiqi; the Jing'an Bureau, the Lüben Guards, the
+Right Xiao Guard, the Leopard Cavalry, the Court of Judicial Review, the
+Censorate, the Forestry and Crafts Bureau, the Jingzhao Prefecture; Guangde/
+Huaiyuan/Xiuzheng/Changming/Dunyi/Shengdao Wards, the West Market, Chang'an/
+Wannian County, Little Balur, the Ci'en Temple, the Wild Goose Pagoda; the Wolf
+Guards, rock-oil, fierce-fire thunder, Que-le Huo-duo, the silver fish-pouch, the
+buliang chief, the Five-Faced Yama, the Bear Fire Gang, "Deputy Director" for
+司丞, "county commandant" for 县尉, "the Sage", the Lantern Festival, etc.) was
+reused verbatim, not re-romanized.
+
+### Figures
+
+None. The chapter has no content illustration in its source (only the book-wide
+footnote-marker glyph Image00004.jpg and the scene-break rule Image00005.jpg,
+which are not figures). figures.json stays empty, matching ch01-ch06.
+
+### Flagged for the read-through
+
+- The chapter opens with a scene-setting festival-crowd sentence (not a
+  flash-forward); that exact sentence recurs verbatim at source line 159, as the
+  first sentence of the Li-Bi-rides paragraph, and was translated identically in
+  both places, per the ch04/ch05/ch06 precedent for authorial echoes.
+- The source's per-chapter time-gloss ("下午4点。申，又名日铺、夕食等。（北京时间15时
+  至17时）") is captured as the final source paragraph and rendered as the source's
+  own italic note, per house style. As in ch06 the source writes 日铺 for the
+  usual 日晡 (late-afternoon); rendered as the source has it ("ribu").
+- Authorial number slip: source line 69 writes 那五桶 ("those five casks") for the
+  West Market blast, but line 67 has just established that the three carts held
+  十五桶 (fifteen casks) in all (300 − 15 = 285 missing, which line 69's 二百多桶
+  "two hundred-odd" confirms). The 五 is an internal inconsistency (should read
+  十五); rendered faithfully as "those mere five casks" and left visible, per the
+  house rule for authorial slips (cf. ch03's Tianbao-3/twenty-years, ch05's
+  doubled negative, ch06's 日铺). Not footnoted.
+- Six scenes are divided in the source by decorative rules (Image00005.jpg);
+  following ch01-ch06 house style the reading text renders the scene shifts as
+  plain paragraph breaks, with no separator glyph (the source's rule image is not
+  a figure). If visible scene breaks are wanted, that is a global change to make
+  across all chapters at once.
+- 兰台 (source line 134), a poetic alias for the Censorate, is rendered "the
+  Censorate" (matching 御史台) rather than transliterated, the referent being the
+  same office.

@@ -343,6 +343,42 @@
       "pinyin": "Wén Wújì",
       "status": "decided",
       "note": "Wen Ran's late father, a comrade of Zhang Xiaojing's from the Eighth Company in the Western Regions; dead the year before. Pinyin."
+    },
+    "甘守诚": {
+      "en": "Gan Shoucheng",
+      "pinyin": "Gān Shǒuchéng",
+      "status": "decided",
+      "note": "General of the Right Xiao Guard, who holds Zhang Xiaojing at Li Linfu's bidding and then, cornered, wagers his release on a technicality. Pinyin."
+    },
+    "赵参军": {
+      "en": "Adjutant Zhao",
+      "pinyin": "Zhào Cānjūn",
+      "status": "decided",
+      "note": "A plump, vain eighth-rank adjutant (<i>canjun</i>) of the Right Xiao Guard whom Tanqi cons into surrendering Zhang Xiaojing; his ranking-name 赵七郎 is rendered 'Zhao Qilang' ('Seventh Son')."
+    },
+    "董仲舒": {
+      "en": "Dong Zhongshu",
+      "pinyin": "Dǒng Zhòngshū",
+      "status": "attested",
+      "note": "Dong Zhongshu (179&#8211;104 BCE), the Han Confucian scholar who shaped the dynasty's state ideology; his reputed tomb in Changle Ward gave the Dismount Barrow its name. Historical; standard pinyin."
+    },
+    "贺东": {
+      "en": "He Dong",
+      "pinyin": "Hè Dōng",
+      "status": "decided",
+      "note": "He Zhizhang's adopted son, a wooden man of middle years holding a minor post as vice-director in the Forestry and Crafts Bureau; praised for his pure filial devotion. Pinyin."
+    },
+    "贺曾": {
+      "en": "He Zeng",
+      "pinyin": "Hè Zēng",
+      "status": "decided",
+      "note": "He Zhizhang's own son, gone off to a garrison post; named only in passing. Pinyin."
+    },
+    "伍子胥": {
+      "en": "Wu Zixu",
+      "pinyin": "Wǔ Zǐxū",
+      "status": "attested",
+      "note": "Wu Zixu (d. 484 BCE), the Chu-born statesman of Wu whose hair, legend says, turned white in a single night of anxiety as he fled through the Zhao Pass; Tanqi likens the haggard Li Bi to him. Historical/legendary; standard pinyin."
     }
   },
   "organizations": {
@@ -453,6 +489,12 @@
       "pinyin": "Nányá Shíliù Wèi",
       "status": "attested",
       "note": "The Tang metropolitan guard system (the 'southern' offices, as against the 'northern' palace armies) of sixteen guard commands headquartered in the imperial city. Rendering per C. O. Hucker."
+    },
+    "仓曹": {
+      "en": "the Stores Section",
+      "pinyin": "Cāngcáo",
+      "status": "decided",
+      "note": "The section (<i>cangcao</i>) of a Tang guard command in charge of stores and provisions, here also of changing the daily door-registers. Rendered 'the Stores Section.'"
     }
   },
   "places": {
@@ -971,6 +1013,96 @@
       "pinyin": "Yùmén",
       "status": "attested",
       "note": "A frontier town of the Hexi corridor (modern Gansu), named as a source of rock-oil. Standard."
+    },
+    "移香阁": {
+      "en": "the Yixiang Pavilion",
+      "pinyin": "Yíxiāng Gé",
+      "status": "decided",
+      "note": "Feng Dalun's small luxury pavilion, its plaster kneaded with Khotan fragrant grass so that shifting sunlight releases a perfume; the name 移香 means 'the shifting fragrance.'"
+    },
+    "常乐坊": {
+      "en": "Changle Ward",
+      "pinyin": "Chánglè Fāng",
+      "status": "decided",
+      "note": "An eastern ward of Chang'an, site of the Toad Barrow and famed for its Langguan Clear wine."
+    },
+    "虾蟆陵": {
+      "en": "the Toad Barrow",
+      "pinyin": "Hámá Líng",
+      "status": "decided",
+      "note": "A vinegrowing mound in Changle Ward famed for its wine. Its true name was the Dismount Barrow (下马陵, <i>Xiama Ling</i>), from the ancient tomb where Confucians dismounted in respect; the vulgar corrupted 下马 (<i>xiama</i>) into the homophonous 虾蟆 (<i>hama</i>, 'toad'). Rendered by sense in both forms."
+    },
+    "于阗": {
+      "en": "Khotan",
+      "pinyin": "Yútián",
+      "status": "attested",
+      "note": "The great Buddhist oasis kingdom of the southern Silk Road (modern Hotan, Xinjiang); source of the fragrant grass in the Yixiang Pavilion's walls. Standard identification."
+    },
+    "宣平坊": {
+      "en": "Xuanping Ward",
+      "pinyin": "Xuānpíng Fāng",
+      "status": "decided",
+      "note": "A ward on the northeast of the Leyou Plateau in Wannian County, where He Zhizhang keeps his willow-shaded house."
+    },
+    "乐游原": {
+      "en": "the Leyou Plateau",
+      "pinyin": "Lèyóu Yuán",
+      "status": "attested",
+      "note": "The loess height in the southeast of Chang'an, a famous scenic resort (paired with Qujiang Pool as 'the hills and waters'); so thick with willows it was nicknamed 'the Willow Capital.' Standard identification."
+    },
+    "新昌坊": {
+      "en": "Xinchang Ward",
+      "pinyin": "Xīnchāng Fāng",
+      "status": "decided",
+      "note": "One of the four wards on the Leyou Plateau."
+    },
+    "升平坊": {
+      "en": "Shengping Ward",
+      "pinyin": "Shēngpíng Fāng",
+      "status": "decided",
+      "note": "A ward on the Leyou Plateau, south of Xuanping; site of an Eastern Palace physic-garden that supplies He Zhizhang's medicines."
+    },
+    "青龙寺": {
+      "en": "the Qinglong Temple",
+      "pinyin": "Qīnglóng Sì",
+      "status": "attested",
+      "note": "A great temple on the Leyou Plateau, later famous as a center of Tang esoteric Buddhism. Standard identification."
+    },
+    "崇真观": {
+      "en": "the Chongzhen Abbey",
+      "pinyin": "Chóngzhēn Guàn",
+      "status": "decided",
+      "note": "A large Daoist abbey (<i>guan</i>) on the Leyou Plateau."
+    },
+    "慈悲寺": {
+      "en": "the Cibei Temple",
+      "pinyin": "Cíbēi Sì",
+      "status": "decided",
+      "note": "A charitable temple in Guangde Ward, a single wall from the Jing'an Bureau (Sun Simiao's old residence); the text derives its name 慈悲 ('Compassion') from the Sui-era almsgiving of a monk named Tanxian. Li Bi installs Zhang Xiaojing in a hut in its grounds."
+    },
+    "常法寺": {
+      "en": "the Changfa Temple",
+      "pinyin": "Chángfǎ Sì",
+      "status": "decided",
+      "note": "One of the temples set about the corners of Guangde Ward."
+    },
+    "胜光寺": {
+      "en": "the Shengguang Temple",
+      "pinyin": "Shèngguāng Sì",
+      "status": "decided",
+      "note": "One of the temples set about the corners of Guangde Ward."
+    },
+    "承天门": {
+      "en": "the Chengtian Gate",
+      "pinyin": "Chéngtiān Mén",
+      "status": "attested",
+      "note": "The great south gate of the palace-city of Chang'an, opening onto the imperial city; the Right Xiao Guard offices stand between it and the Zhuque Gate. Standard identification."
+    },
+    "朱雀门": {
+      "en": "the Zhuque Gate",
+      "pinyin": "Zhūquè Mén",
+      "status": "decided",
+      "note": "The central south gate of the imperial city (the Vermilion Bird Gate), at the head of the Vermilion Bird Avenue."
     }
   },
   "terms": {
@@ -1387,6 +1519,60 @@
       "pinyin": "Yízhì Lìng",
       "status": "attested",
       "note": "The Tang <i>Yizhi ling</i>, the code of ceremonial that included the road-priority rule 'the low give way to the high, the departing to the coming.' Historical; rendered 'the Statutes of Ceremonial.'"
+    },
+    "参军": {
+      "en": "adjutant",
+      "pinyin": "cānjūn",
+      "status": "decided",
+      "note": "An <i>canjun</i> (administrative aide) on the staff of a guard command or prefecture. Rendered 'adjutant.'"
+    },
+    "云麾将军": {
+      "en": "General of the Cloud Banner",
+      "pinyin": "Yúnhuī Jiāngjūn",
+      "status": "attested",
+      "note": "A Tang prestige title (<i>sanguan</i>) of the junior third rank, the highest military honorific below the four Grand Generals; Wang Zhongsi holds it. Rendering per C. O. Hucker."
+    },
+    "棠棣集": {
+      "en": "the Tangdi Collection",
+      "pinyin": "Tángdì Jí",
+      "status": "decided",
+      "note": "Adjutant Zhao's little vanity-printed book of verse; 棠棣 (the flowering cherry of the <i>Book of Songs</i>) is a byword for brotherly affection."
+    },
+    "郎官清": {
+      "en": "the Langguan Clear",
+      "pinyin": "lángguān qīng",
+      "status": "decided",
+      "note": "A noted clear wine of the Toad Barrow in Changle Ward. Rendered 'the Langguan Clear.'"
+    },
+    "帷帽": {
+      "en": "curtained hat",
+      "pinyin": "wéimào",
+      "status": "decided",
+      "note": "A wide-brimmed hat with a hanging veil of gauze, worn by Tang women out of doors to screen the face. Rendered 'curtained hat.'"
+    },
+    "李花玉佩": {
+      "en": "the plum-blossom jade",
+      "pinyin": "lǐhuā yùpèi",
+      "status": "decided",
+      "note": "A palm-sized white-jade pendant carved as a spray of plum blossom, a gift from Li Heng to Li Bi. The surname Li (李) is written with the character for the plum tree, so a plum-blossom (李花) token stands for the Li imperial clan&#8212;which lets it pass as Li Linfu's. Rendered 'plum-blossom jade.'"
+    },
+    "卢舍那": {
+      "en": "Locana",
+      "pinyin": "Lúshěnà",
+      "status": "attested",
+      "note": "Locana (Vairocana), the cosmic 'Resplendent' Buddha; a Locana image stands in the Cibei Temple hut. Standard Buddhological form."
+    },
+    "乙计划": {
+      "en": "Plan B",
+      "pinyin": "yǐ jìhuà",
+      "status": "decided",
+      "note": "The contingency plans are labeled by the heavenly stems 甲/乙/丙, rendered as Plan A / Plan B / Plan C; the watchtower semaphore that signals Plan 乙 is rendered 'B.'"
+    },
+    "素油子": {
+      "en": "plain-oil fritters",
+      "pinyin": "sù yóuzi",
+      "status": "decided",
+      "note": "A Lantern-Festival street food of Chang'an: balls of wet dough deep-fried in oil. Rendered 'plain-oil fritters.'"
     }
   }
 }
