@@ -124,3 +124,14 @@
 # approximate, non-exact quantities in a bit of pop-science patter.
 十之一
 万个大气压
+# --- B07 (ch17-ch18) non-quantity numerals ---
+贤二
+下三烂
+万端
+一了百了
+百试百灵
+三元
+千羡万羡
+十五、六
+一百八十度
+阿四

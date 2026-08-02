@@ -590,3 +590,123 @@ Flagged for the read-through:
 Build: out/On a Hair Trigger.epub rebuilt, 17 of 36 units translated, 54 notes.
 qa_epub.py PASS (36 documents, 2844 paragraphs, 54 references = 54 bodies = 54
 backlinks, all links resolve).
+
+## B07 = Chapters 17 to 18 (ch17 to ch18) — DONE
+
+Scope: Chapter 17 (ch17, src 20_part0018.txt, 251 paragraphs, ~10,592 chars) and
+Chapter 18 (ch18, src 21_part0019.txt, 127 paragraphs, ~4,942 chars); 378
+paragraphs, ~15,534 source chars. Continues the novel from B06.
+
+Authoring flow (unchanged): wrote out/<id>_en.txt (one English paragraph per
+source paragraph), then make_bilingual.py (verbatim `>` source lines), then
+split_bilingual.py. No mid-sentence paragraph splits this batch: ch17 line 109
+(韩正齐惊惶失措；) ends on a semicolon but is a complete single-clause paragraph
+paired with line 110 (徐玉真满脸狐疑。), a parallel couplet rendered 1:1, not a split.
+The source carries no notes of its own; every note is the translator's.
+
+Checks run and results:
+- check_numbers.py --noise data/noise.txt: ch17 0 unresolved, ch18 0 unresolved.
+  New noise.txt rows (all NON-quantity numerals): 贤二 (Doihara Kenji, 土肥原贤二,
+  the 二 is a name), 下三烂 (idiom "vile," 三), 万端 (经纬万端 "myriad," 万), 一了百了
+  (idiom, 百), 百试百灵 (idiom "never fails," 百), 三元 (name Huang Sanyuan 黄三元, 三),
+  千羡万羡 (Lu Yu poem hyperbole, 千/万), 十五、六 (approximate age idiom), 一百八十度
+  (一百八十度大转变 = a total about-face, idiom, 180), 阿四 (name Liu A-Si 刘阿四, 四).
+  No checker code change. Clock/quantity digits preserved: "Shōwa 4 / 1929,"
+  "September 18th Incident," "three provinces," "one and a half times," "three /
+  four coffins," "twelve," "fifteen or sixteen," "eighteen-year-old," "a hundred
+  and eighty degrees" (noised as idiom), "twenty years" throughout.
+- check_structure.py --pairs: ch17 251/251 OK, ch18 127/127 OK.
+- Verbatim fidelity: diff of data/zh/<id>.txt (minus its ### title) against the
+  source paragraphs (data/src minus 2 metadata lines) = zero content diffs for
+  both chapters; only the source files' missing final newline differs (expected).
+- Blind double translation (fresh context, 6 argumentative/lyrical passages: the
+  warp-and-weft line, the Lu Yu tea poem, the Cao Zhi Seven-Step Poem, the ch18
+  "betrayal" definition, the "overnight true→false" deduction, the closing grief
+  passage): independent renderings matched mine in meaning throughout; it
+  independently identified the two poem sources (六羡歌, 七步诗). No divergence
+  requiring change; flagged ambiguities (经纬 = warp/weft vs ordering; 夫人 =
+  madam/wife; 不明不白) were already handled consistently.
+- Round-trip back-translation (my English → Chinese, 6 passages): no invented
+  clause; back-translations tracked the source closely.
+- Paranoid audit (13 paragraphs, ~3.4% of the batch, full source-vs-English
+  omission/addition/mistranslation check): 1 genuine error found and FIXED — an
+  unsupported flourish "to the last farthing" (原原本本 = "in full, exactly," no
+  such image); changed to "in full and to the very letter." Also fixed a borderline
+  idiom import, "blot out the sky with one hand" (遮天蔽日 has no "one hand"; that
+  belongs to 一手遮天) → "blot out the sky and cover the sun." No omissions, no
+  name/number/date errors found. Observed error rate in the audited sample: 1
+  substantive addition per 13 paragraphs (~7.7%), corrected; extrapolated batch
+  rate low, all number/name/date invariants clean by machine check.
+
+Footnotes: 7 new (#55 to #61; running total 61). Every anchor verified as a unique
+verbatim substring of the English prose (grep -c = 1) before building; XHTML bodies
+use numeric character references only, hanzi written literally.
+- #55 ch17 title couplet 各有经纬一片天 — not a traceable classical quotation
+  (uncorroborated as a quotation; author's couplet in the old manner), rendered
+  literally; explains 经纬 and its recurrence in the chapter. Anchor "warp and weft."
+- #56 the September 18th Incident / Mukden Incident, 18 Sept 1931 (corroborated).
+  Recurring historical ref; noted at first appearance in this batch (it was already
+  footnoted for B06 at #52 in ch16 — this ch17 note is retained because ch17 opens
+  the espionage frame in detail; kept concise).
+- #57 Doihara Kenji (土肥原贤二, 1883–1948), historical Japanese spymaster, hanged
+  1948 (corroborated); the "Liyang Society" (立洋社) and its "Eastern Institute"
+  (东洋学馆) on Kunshan Road are NOT attested under those names and appear to be the
+  novel's invention (uncorroborated), though they echo real Japanese intelligence
+  fronts in Shanghai. Anchor "Doihara Kenji."
+- #58 Lu Yu (陆羽, 733–804), Sage of Tea, author of 茶经; the recited lines are his
+  六羡歌 (Song of Six Longings), West River / Jingling = his hometown (corroborated).
+  Anchor "Lu Yu of the Tang."
+- #59 Cao Zhi's 七步诗 (Seven-Step Poem, 192–232), the beans-and-beanstalks fratricide
+  lines (corroborated); central to the twins theme. Anchor "we sprang, the two of
+  us, from the selfsame root."
+- #60 ch17 twin-name slip: source prints 杨慕次 at one point in the tearoom scene
+  where the speaker is plainly 杨慕初 / 阿初; rendered by context and flagged (per the
+  ch16 precedent, #50). Anchor "ran a deliberately strange, sidelong gaze over her."
+- #61 ch18 title couplet 牵丝攀藤一条线 — 牵丝攀藤 is an established idiom (to drag in
+  tenuous/far-fetched links, usually pejorative), here turned to A-Chu's method of
+  drawing every clue into one thread; not a classical quotation (corroborated only
+  as a modern set phrase). Anchor "out of the tangled and disordered threads."
+
+Twin names: 阿初 = A-Chu / Yang Muchu; 慕次 = Muci (A-Ci) appears only in the opening
+Huamei Bookstore scene (genuinely Muci meeting Ronghua) — correct, not a slip. The
+one ch17 slip (tearoom scene) is #60.
+
+English-in-source: ch17 line 217, Xia Yuechun speaks two English sentences with
+parenthetical Chinese glosses and closes on Pope's "To err is human, to forgive
+divine." The English dialogue is rendered as English (spacing restored) with a
+light ", in English" to keep the code-switch; the parenthetical Chinese glosses are
+a reading aid for the source's Chinese readers (a translation OF the English, not
+story content), so they are not reproduced. No content dropped. The bilingual `>`
+line keeps the full source verbatim. Pope's line is famous in English and left
+unannotated.
+
+Glossary: new rows, one decided rendering per referent; existing renderings reused
+unchanged (A-Chu/Yang Muchu, Muci/A-Ci, Xu Yuzhen, Han Zhengqi, Han Yu, Yang Mulian,
+Rong Chu, Rong Sheng, Fourth Madam, Xia Yuechun, Young Tang, Yang Yuhua, Yang Yubo,
+the Golden Dragon Society, the Tongji Hospital, the Special Branch, the Central
+Special Committee, the White Rose, the Huamei Bookstore, the Third Communist
+International, aunt-mistress). New people: Huang Sanyuan (黄三元), Doihara Kenji
+(土肥原贤二, attested), Fang Zhitong (方致同), Liu A-Si (刘阿四), Lu Liangchen (陆良晨),
+Sakai Ichirō (酒井一郎), Lu Yu (陆羽, attested). New organizations: the Hongmen (洪门),
+the Liyang Society (立洋社, provisional), the Eastern Institute (东洋学馆, provisional),
+the Central Special Committee (中央特委), the Special Higher Police (特高科 = Tokkō),
+the Army General Staff (参谋本部), the Land Survey Department (陆地测量部), the Chunhe
+Hospital (春和医院), the Customs House (海关总署). New places: Kunshan Road (昆山路), the
+Park Hotel (国际大饭店), the Huangpu (黄浦江), Shenyang (沈阳), the Central Plains (中原).
+New terms: the Imperial Flower (帝国之花), the September 18th Incident (九·一八事变),
+Shōwa (昭和), concubine-aunt (姨娘, distinct from 姨奶奶 = aunt-mistress).
+
+Consistency note: 姨奶奶 reused as "aunt-mistress" (glossary), not the "concubine-
+mistress" first drafted; 姨娘 = "concubine-aunt" (narration) / "Auntie" (vocative).
+
+Figures: none in this batch.
+
+Flagged for the read-through:
+- Twin-name slip #60 (above): rendered by context, footnoted.
+- Park Hotel (国际大饭店): opened 1934, slightly after the story's early-1930s present;
+  rendered straight, glossary note records the mild anachronism.
+- "Liyang Society"/"Eastern Institute" (立洋社/东洋学馆): unattested; footnote #57 says so.
+
+Build: out/On a Hair Trigger.epub rebuilt, 19 of 36 units translated, 61 notes.
+qa_epub.py PASS (36 documents, 3220 paragraphs, 61 references = 61 bodies = 61
+backlinks, all links resolve).

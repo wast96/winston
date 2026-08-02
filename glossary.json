@@ -354,6 +354,48 @@
    "pinyin": "Xiangyan Xian chanshi",
    "status": "attested",
    "note": "The Tang Chan monk to whom the novel ascribes the waterfall couplet A-Chu quotes in Chapter 15; the poem (瀑布联句) is more commonly attributed to Huangbo Xiyun with the future Emperor Xuanzong, Xiangyan being a competing ascription. See the note at Chapter 15."
+  },
+  "黄三元": {
+   "en": "Huang Sanyuan",
+   "pinyin": "Huang Sanyuan",
+   "status": "decided",
+   "note": "Senior detective of the French Concession police and chief of the Hongmen; a power on both the lawful and the underworld side (\"black and white\") of the Shanghai waterfront. A-Chu swears brotherhood with him."
+  },
+  "土肥原贤二": {
+   "en": "Doihara Kenji",
+   "pinyin": "Tu Feiyuan Xian’er",
+   "status": "attested",
+   "note": "Historical Japanese Army general and spymaster in China (1883–1948); hanged as a Class-A war criminal in 1948. See the note at Chapter 17."
+  },
+  "方致同": {
+   "en": "Fang Zhitong",
+   "pinyin": "Fang Zhitong",
+   "status": "decided",
+   "note": "Secretary of the CCP Central Special Branch; the direct commander of Muci’s mission."
+  },
+  "刘阿四": {
+   "en": "Liu A-Si",
+   "pinyin": "Liu A-Si",
+   "status": "provisional",
+   "note": "One of A-Chu’s men, formerly in Rong Chu’s following; a jianghu tough. (阿四 = \"A-Si,\" a familiar name, not a number.)"
+  },
+  "陆良晨": {
+   "en": "Lu Liangchen",
+   "pinyin": "Lu Liangchen",
+   "status": "provisional",
+   "note": "One of A-Chu’s men, formerly in Rong Chu’s following."
+  },
+  "酒井一郎": {
+   "en": "Sakai Ichirō",
+   "pinyin": "Jiujing Yilang",
+   "status": "decided",
+   "note": "A Japanese among the four men Xu Yuzhen sent to kidnap Han Yu; killed by A-Chu’s men."
+  },
+  "陆羽": {
+   "en": "Lu Yu",
+   "pinyin": "Lu Yu",
+   "status": "attested",
+   "note": "Tang author of the Classic of Tea (茶经), honored as the Sage of Tea. See the note at Chapter 17."
   }
  },
  "organizations": {
@@ -584,6 +626,60 @@
    "pinyin": "Meigui wuting",
    "status": "decided",
    "note": "A Shanghai ballroom named in a tabloid headline."
+  },
+  "洪门": {
+   "en": "the Hongmen",
+   "pinyin": "Hongmen",
+   "status": "attested",
+   "note": "A historical Chinese secret society and sworn-brotherhood network; here represented on the French Concession side by Huang Sanyuan."
+  },
+  "立洋社": {
+   "en": "the Liyang Society",
+   "pinyin": "Liyang-she",
+   "status": "provisional",
+   "note": "A Japanese intelligence organ in the novel; not attested under this name in the historical record (see note at Chapter 17)."
+  },
+  "东洋学馆": {
+   "en": "the Eastern Institute",
+   "pinyin": "Dongyang Xueguan",
+   "status": "provisional",
+   "note": "The \"Eastern Institute\" on Kunshan Road, a front of the Liyang Society in the novel (see note at Chapter 17)."
+  },
+  "中央特委": {
+   "en": "the Central Special Committee",
+   "pinyin": "Zhongyang Tewei",
+   "status": "decided",
+   "note": "The CCP’s Central Special Committee, whose enlarged meeting Muci’s cell is charged with servicing."
+  },
+  "特高科": {
+   "en": "the Special Higher Police",
+   "pinyin": "Tegao-ke",
+   "status": "attested",
+   "note": "The Tokkō, Japan’s Special Higher Police."
+  },
+  "参谋本部": {
+   "en": "the Army General Staff",
+   "pinyin": "Canmou Benbu",
+   "status": "decided",
+   "note": "The Japanese Army General Staff (Sanbō Honbu), named on the captured survey maps."
+  },
+  "陆地测量部": {
+   "en": "the Land Survey Department",
+   "pinyin": "Ludi Celiang-bu",
+   "status": "decided",
+   "note": "The Japanese Army’s land-survey bureau, named on the maps (also 陆军测量部)."
+  },
+  "春和医院": {
+   "en": "the Chunhe Hospital",
+   "pinyin": "Chunhe Yiyuan",
+   "status": "decided",
+   "note": "Xia Yuechun’s family hospital, held as ancestral property."
+  },
+  "海关总署": {
+   "en": "the Customs House",
+   "pinyin": "Haiguan Zongshu",
+   "status": "decided",
+   "note": "The Maritime Customs head office, where Han Yu is posted."
   }
  },
  "places": {
@@ -796,6 +892,36 @@
    "pinyin": "Dong san sheng",
    "status": "attested",
    "note": "Manchuria (Liaoning, Jilin, Heilongjiang), occupied by Japan after the September 18th Incident of 1931."
+  },
+  "昆山路": {
+   "en": "Kunshan Road",
+   "pinyin": "Kunshan Lu",
+   "status": "attested",
+   "note": "A street in the Hongkou district of Shanghai; site of the Japanese Eastern Institute in the novel."
+  },
+  "国际大饭店": {
+   "en": "the Park Hotel",
+   "pinyin": "Guoji Da Fandian",
+   "status": "attested",
+   "note": "The Park Hotel (国际饭店) on Nanjing Road; a Shanghai landmark. (It opened in 1934, slightly later than the story’s date.)"
+  },
+  "黄浦江": {
+   "en": "the Huangpu",
+   "pinyin": "Huangpu Jiang",
+   "status": "attested",
+   "note": "The river through Shanghai; A-Chu’s men dump the kidnappers’ bodies in it."
+  },
+  "沈阳": {
+   "en": "Shenyang",
+   "pinyin": "Shenyang",
+   "status": "attested",
+   "note": "Mukden; seized by the Japanese army in the September 18th Incident."
+  },
+  "中原": {
+   "en": "the Central Plains",
+   "pinyin": "Zhongyuan",
+   "status": "decided",
+   "note": "The Central Plains, the historic heartland of China."
   }
  },
  "terms": {
@@ -936,6 +1062,30 @@
    "pinyin": "sanxiaoji jiaben",
    "status": "attested",
    "note": "The high explosive identified in the powder from the hospital bombing."
+  },
+  "帝国之花": {
+   "en": "the Imperial Flower",
+   "pinyin": "diguo zhi hua",
+   "status": "decided",
+   "note": "A codename inked on the Japanese survey maps (帝国之花, \"flower of the empire\"), also used by the spymaster of Japan’s women agents."
+  },
+  "九·一八事变": {
+   "en": "the September 18th Incident",
+   "pinyin": "Jiu-Yi-Ba Shibian",
+   "status": "attested",
+   "note": "The Mukden Incident, 18 September 1931. See note at Chapter 17."
+  },
+  "昭和": {
+   "en": "Shōwa",
+   "pinyin": "Zhaohe",
+   "status": "attested",
+   "note": "A Japanese reign era; Shōwa 4 = 1929."
+  },
+  "姨娘": {
+   "en": "concubine-aunt",
+   "pinyin": "yiniang",
+   "status": "decided",
+   "note": "A concubine of the household as referred to by the children; distinct in direct address from 姨奶奶 (aunt-mistress). As a vocative it is rendered \"Auntie.\""
   }
  }
 }
