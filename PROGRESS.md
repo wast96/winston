@@ -695,3 +695,76 @@ roster). Each carries the source's own caption translated; rosters folded in.
 Build: out/The Autobiography of Huang Mulan.epub, 17 of 44 chapters translated
 (ch00-ch16), 56 notes. qa_epub.py PASS (97 files, 50 documents, 378 paragraphs, all
 links resolve). ch22-ch38 remain pending skeleton pages, as commissioned.
+
+---
+
+## Batch B07 (ch17-ch19) — DONE
+
+Chapters: 17 Moving to Hong Kong; 18 Thirty Days a Refugee; 19 A Righteous Rescue
+of the Worthies. Source: 16,085 CJK chars (ch17 7,373; ch18 4,528; ch19 4,184).
+Part Three (ch13-ch21) has no part poem in this stretch. Branch: claude/huang-mulan
+(the stray per-session branch claude/huang-mulan-b07-efyzem was consolidated onto it
+and deleted, per CLAUDE.md rule 2).
+
+Bilingual/parity: gen_bilingual_b02.py extended with ch17 (drop header+title +
+captions 8,14,19,21,22,25), ch18 (drop header+title only; no images), ch19 (drop
+header+title + caption 4 with roster 5). Paragraph parity: ch17 18, ch18 8, ch19 12.
+split_bilingual.py -> reading + data/zh. check_structure clean on all three.
+
+check_numbers: clean on all three after noise additions. New data/noise.txt entries
+(all real false positives): 九龙/九龍 (Kowloon, recurring, 九 not 9); 满七/滿七 (the
+last of the "seven sevens" mourning rite, 七 not 7); 四邻/四鄰 (向四邻报警, 四 not 4);
+千恩万谢/千恩萬謝 (idiom, not 1000/10000); 四行 (四行仓库 Sihang/Four-Banks Warehouse,
+四 not 4); 文六 (Qu Yingguang's style name, 六 not 6); 万国/萬國 (万国公墓 International
+Cemetery, 万 not 10000). Also extended check_numbers.py NOISE line 78 charclass from
+[幾几] to [幾几數数] so 数百万/数千万 strip WHOLE (else 数百 is eaten and a stray 万 reads
+as 10000). NB confirmed: spelled_numbers DOES count cardinal tens and tens-ones
+("forty-five"->45, "fifty"->50, "twenty"->20), so those spell out naturally; only
+tens-ones ORDINALS ("29th","45th") and day-ordinals (21st/22nd/25th) need digits.
+
+Notes: 10 added (57-66; ch17 57-59, ch18 60-62, ch19 63-66). ch17: China Defence
+League (founded HK 14 Jun 1938, corroborated); Ho Chi Minh (footnoted as
+anachronistic -- the memoir's "Chairman Ho Chi Minh" met at Haiphong in 1939 does
+not fit the record: he took that name/title only c.1940-45 and was based inland in
+Guangxi/Yunnan, not Haiphong; seal anecdote uncorroborated); East River guerrillas
+(first substantive appearance, x-ref ch19). ch18: Chen Ce = Admiral Chan Chak, the
+one-legged admiral, Christmas-1941 HK escape (corroborated); warship Zhongshan (the
+Chen Di captaincy is UNVERIFIED -- footnoted as on the memoir's authority alone);
+peace-maintenance committee (维持会 gloss). ch19: Yang Huimin / Eight Hundred Heroes /
+Sihang Warehouse / Xie Jinyuan (corroborated; garrison ~400 publicized as 800); the
+Great Rescue (胜利大营救, ~800 evacuated Jan-Nov 1942, East River Column, Mao Dun's
+praise -- corroborated); Lin Gengbai (Southern Society poet, shot in Kowloon 19 Dec
+1941 aged 45 -- corroborated; note placed here where his death is the subject, though
+he is named in passing from ch12); Qu Yingguang (acting Zhejiang governor 1916, CRC
+vice-chair -- corroborated).
+
+Glossary: 115 rows added (53 people, 34 places, 24 orgs, 4 terms; totals now 395
+people / 100 orgs / 83 places / 18 terms). Reused every prior decision. Notables:
+Ho Chi Minh, Chiang Ching-kuo, Chen Ce (Chan Chak), Chen Di, Deng Xianyu, Gu Jiatang,
+Wang Xinheng, Yang Huimin, Xie Jinyuan, Qu Yingguang, Xu Shiying, Li Zongren/Guo
+Dejie, Liang Shuming, Jin Shan, Yu Hanmou, Liao Zhongkai, Ou Mengjue, the author's
+two daughters Yunzhong (elder) and Dazhong (younger); places Qujiang/Shaoguan,
+Kowloon, Haiphong, Huiyang, Danshui, Chaozhou, Kai Tak; orgs China Defence League,
+Central Relief Commission, East River guerrillas, First International Shelter,
+Chinese Women's Temperance Association, Military Statistics Bureau, Green Gang, Hong
+Society; terms 统筹统汇, 戎马书生, 维持会, 大后方.
+
+Figures: 6 placed. ch17 00045-00049 (Chen Zhigao/Huang with the Chen Xunshe couple;
+Du Yuesheng portrait; the 1991 visit to Wu Jufang; the Niuwei garden outing with its
+roster; Huang with Wang Huazhen, 1940). ch19 00050 (Chen Zhigao with First
+International Shelter colleagues at Qujiang, with front/back-row roster). All source
+captions translated; two-line captions (title + roster) folded into one figure each.
+Verified each basename appears in the built .xhtml.
+
+QC done: check_numbers + check_structure clean (mechanical). Blind back-translation
+of the Ho Chi Minh passage and the Li Fang "false-defection" passage caught one real
+meaning error -- "the Mother of the Nation, Madame Sun, and Madame Liao" read as
+three people; source 国母孙夫人和廖夫人 is TWO (Madame Sun IS the Mother of the Nation).
+Fixed. Scholarship fact-check (Wikipedia/Baidu Baike/academic, never AI sources):
+8 of 10 items corroborated; 2 flagged and footnoted as above (Ho Chi Minh
+anachronism; Chen Di-as-Zhongshan-captain unverified). No source endnotes in these
+three chapters (grep of the HTML: only the chapter-title h2 filepos).
+
+Build: out/The Autobiography of Huang Mulan.epub, 20 of 44 chapters translated
+(ch00-ch19), 66 notes. qa_epub.py PASS (103 files, 50 documents, 413 paragraphs, all
+links resolve). ch22-ch38 remain pending skeleton pages, as commissioned.

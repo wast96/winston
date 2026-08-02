@@ -99,3 +99,23 @@
 百科
 # 八仙桥 (Baxianqiao, a Shanghai place name): the 八 is not the count 8.
 八仙桥
+# B07 additions (see PROGRESS.md):
+# 九龙 Kowloon (place name, recurring): 九 is not the count 9.
+九龙
+九龍
+# 满七/滿七: the last of the "seven sevens" Buddhist mourning rite, not the count 7.
+满七
+滿七
+# 四邻 "the neighbors on every side" (向四邻报警): 四 is not the count 4.
+四邻
+四鄰
+# 千恩万谢 "thank profusely": idiom, not the counts 1000/10000.
+千恩万谢
+千恩萬謝
+# 四行仓库 Sihang (Four Banks) Warehouse, a proper name: 四 is not the count 4.
+四行
+# 文六 (Wenliu), Qu Yingguang's style name: 六 is a name syllable, not the count 6.
+文六
+# 万国公墓 the International Cemetery (万国 = "all nations"), a name: 万 is not 10000.
+万国
+萬國

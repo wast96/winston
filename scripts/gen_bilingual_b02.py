@@ -51,6 +51,16 @@ DROP = {
     # couplet, 00043); line 31 (Shanghai Women cover, 00044) with its 说明 roster
     # line 32. The 风雨书屋 publication list (lines 7,8,11-15) is BODY text, kept.
     "ch16": ("23_index-split-021.txt", {1, 2, 9, 10, 31, 32}),
+    # B07: ch17 has 5 photo captions -- line 8 (Chen Xunshe couple, 00045); line 14
+    # (Du Yuesheng portrait, 00046); line 19 (1991 visit to Wu Jufang, 00047); line
+    # 21 (Niuwei garden party, 00048) with its roster line 22; line 25 (1940 with
+    # Wang Huazhen, 00049).
+    "ch17": ("24_index-split-022.txt", {1, 2, 8, 14, 19, 21, 22, 25}),
+    # ch18 has NO images, so only header(1) + title(2) drop.
+    "ch18": ("25_index-split-023.txt", {1, 2}),
+    # ch19 has 1 photo caption -- line 4 (Zhigao with First International Shelter
+    # colleagues, 00050) with its roster line 5.
+    "ch19": ("26_index-split-024.txt", {1, 2, 4, 5}),
 }
 # Part-opening chapters prepend the part's 临江仙 poem: file, 1-indexed lines to
 # KEEP (poem title + 2 stanzas). ch05 = Part Two; ch13 = Part Three.

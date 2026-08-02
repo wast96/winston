@@ -72,10 +72,11 @@ NOISE = [
     # (八十几斤 -> 八, 三十多岁 -> 三, 九十多岁 -> 九). Longest literal first. ---
     r"[一二两兩三四五六七八九]十[几幾]",
     r"[一二两兩三四五六七八九]十多",
-    # vague "several ×10^n": strip 几十万/几百万/几千万 WHOLE, before the generic
-    # 几+classifier / 几十 rules below eat the 几十 and orphan the trailing 万/千 as
-    # a quantity (好几十万 -> stray 万 read as 10000). Longest literal first.
-    r"[幾几][十百千][萬万]",
+    # vague "several ×10^n": strip 几十万/几百万/几千万 (and 数十万/数百万/数千万) WHOLE,
+    # before the generic 几+classifier / 几十 / 数+[十百千] rules below eat the 几十/数百
+    # and orphan the trailing 万/千 as a quantity (好几十万 -> stray 万 read as 10000;
+    # 数百万 -> 数百 stripped, stray 万 read as 10000). Longest literal first.
+    r"[幾几數数][十百千][萬万]",
     # 十几个 "ten-odd, a dozen-odd" -- vague, never an exact count; strip WHOLE before
     # the 几+classifier rule eats 几个 and orphans a leading 十 read as 10.
     r"十[幾几][個个]",
