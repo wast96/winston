@@ -768,3 +768,101 @@ three chapters (grep of the HTML: only the chapter-title h2 filepos).
 Build: out/The Autobiography of Huang Mulan.epub, 20 of 44 chapters translated
 (ch00-ch19), 66 notes. qa_epub.py PASS (103 files, 50 documents, 413 paragraphs, all
 links resolve). ch22-ch38 remain pending skeleton pages, as commissioned.
+
+---
+
+## Batch B08 (ch20-ch21) — DONE
+
+Chapters: 20 An Audience with Zhou Enlai (面谒周公); 21 Cast into Prison Together
+(同陷冤狱). Source: 17,413 CJK chars (ch20 6,283; ch21 11,130). Part Three
+(ch13-ch21) has no part poem in this stretch (Part Four opens at ch22, out of
+scope). Branch: claude/huang-mulan (the stray per-session branch
+claude/huang-mulan-b08-ppifll pointed at the same B07 commit and carried no
+unique work; consolidated onto claude/huang-mulan, per CLAUDE.md rule 2).
+
+Bilingual/parity: gen_bilingual_b02.py extended with ch20 (drop header+title
+only; NO images) and ch21 (drop header+title + caption 26 [1991 Detroit photo,
+00051] + caption 43 with rosters 44/45 [1946 Chen siblings photo, 00052]). Both
+ch21 captions sit BETWEEN complete paragraphs (verified: L25 and L42 both end on
+a full stop), so no caption splices a sentence this batch. Paragraph parity:
+ch20 11, ch21 40. split_bilingual.py -> reading + data/zh. check_structure clean
+on both (11|11, 40|40).
+
+check_numbers: clean on both after fixes. TWO general check_numbers.py bug fixes
+(both help all future batches, verified no regression on ch04/07/09/11/12/16/17):
+  (a) The measure-word NOISE rules (一+classifier = "a/an") wrongly ate the 一 of
+      十一/二十一 when followed by a classifier or 年 (十一年 -> 10, 十一个 -> 10).
+      Added a negative lookbehind (?<!十) to both 一[...] patterns so a 一 that is
+      part of a compound number 十一/二十一 is never stripped. (十一年 -> 11 now.)
+  (b) Added r"万一" HIGH in the built-in NOISE list (before the 一路 rule): in
+      万一路上 the 一路 measure-word rule was eating the 一, orphaning 万 -> 10000.
+      万一 ("in case") is always idiomatic, never a real 10001; stripping it whole
+      first fixes the residue. Placed above the 一[classifier] block because NOISE
+      applies in list order and data/noise.txt entries run too late.
+data/noise.txt gained (all real false positives this batch): 万千 (思绪万千 idiom,
+-> 11000), 港九 (Hong Kong-Kowloon, 九 not 9), 四目 (四目对视/相对 idiom, 四 not 4),
+十两 (十两黄金 -> the tael/两 reads as 2 and merges 十两 -> 12, like B04's 一百两;
+the ten-tael quantity is carried in the reading text). Real quantities carried in
+prose where the parser needs the exact form: 母子二人 -> "the two of them"; the
+coded-telegram 六哥/六嫂 -> "Sixth Brother"/"Sixth Sister-in-law" and 九弟 ->
+"Ninth Brother" (the 六/九 register naturally via the ordinals).
+
+Notes: 8 added (67-74; ch20 67-69, ch21 70-74). ch20: the Great Yu / 大禹闻善言则拜
+(Mencius allusion); the 丢西瓜拣芝麻 pun (Zhou's watermelon wordplay); the "fourteen
+base areas" figure (footnoted as non-canonical -- the citable count is the
+"nineteen Liberated Areas" of 1945). ch21: Guan Yu 封金挂印 (Three Kingdoms
+allusion); Zhou Kuilong / 忠义救国军 (the force is real and Dai Li-affiliated, but
+"周夔龙"/One-Eyed Dragon/first-class-Whampoa is almost certainly a slip for the
+attested commander 周伟龙/Zhou Weilong -- footnoted; Dai Li as Whampoa sixth-class
+dropout is corroborated, supporting the memoir); the Ye Ting-carried-wounded-Chiang
+anecdote (footnoted as unverified -- Ye Ting's imprisonment is well attested, the
+piggyback story is not); Shen Baoxu 哭秦廷 (Zuozhuan allusion); the Analects IX.26
+三军可夺其帅 coda to the prison defense.
+
+Glossary: 46 rows added (26 people, 5 orgs, 10 places, 5 terms; totals now 421
+people / 105 orgs / 93 places / 23 terms). Reused every prior decision (all 36
+recurring referents checked matched: Chen Zhigao, Du Yuesheng, Qian Xinzhi, Qu
+Yingguang, Deng Yingchao, Liu Bochui, Song Qingling, He Xiangning, Liu Yazi, Peng
+Zemin, Ye Ting, Cai Shuhou, Li Nanxiang, Liao Mengxing, Xu Shiying, Wang Xinheng,
+Luo Jianbing, Chen Shijun, Zhang Yilin, Zhang Haoran, Li Huanzhi, Tian Han, Shen
+Junru, Li Zongren, Chen Bulei, Chen Xunshe, Wang Genzhong, Pan Xiao'e, Song
+Meiling, Chen Bingzhang, Lu Biao, Li Hanhun, Wu Jufang, Wan Xiyan, He Chang, Lin
+Lin). New notables: Dai Li, Bai Chongxi, Hu Die (Butterfly Wu) + Pan Yousheng,
+Yuan Xiaoyuan + Ye Nan + Ye Chucang, Zhang Yun (章蕴), Zhang Dulun, Wan Xikan, Wan
+Changjie (the orphan), Wang Zhanyuan, Zhou Kuilong (provisional, likely Zhou
+Weilong), and the Chongqing-period Chen kin (Chen Xinzhu, Zhang Ruichu, Chen
+Tingxiang, Liying, Chen Yingu, Guo Fajin, Chen Youdan). Orgs: Loyal and Patriotic
+National Salvation Army, National Political Council, College of Law and Government,
+National Daily (HK), Local Association. Places: Zengjiayan, Qingmuguan, Tuqiao,
+Nanwenquan, Gele Mountain, Jialing River, Yibin, Zhuzhou-Pingxiang Railway, Three
+Gorges, Wanglongmen. Terms: Eighth Route Office (八办), coordinate testimony (串供),
+written defense (抗辩书), favored-treatment cell (优待室), down-river folk (下江佬).
+
+Figures: 2 placed. ch21 00051 (1991 Detroit reunion with the Chen Shijun couple)
+and 00052 (1946 Chen siblings group photo, both roster lines folded into the
+caption). ch20 has no images. Both basenames verified present in the built
+ch21.xhtml. Next free figure basename after B08 is 00053.
+
+QC done. Blind double-translation (fresh-context subagent) of Zhou Enlai's counsel,
+the prison defense epigram, and the five classical allusions (关云长封金挂印,
+申包胥哭秦廷, Analects 三军可夺其帅, 留得青山在, 醉翁之意不在酒): no meaning divergence
+from the shipped text; allusion sources confirmed (Mencius, Zuozhuan, Analects IX.26,
+Ouyang Xiu). Round-trip back-translation deep audit (~4%) of Zhou's orphan-news
+speech (ch20) and the newspaper interrogation exchange (ch21): every clause the
+audit flagged as a possible embellishment was checked against the source and found
+genuinely present (德国法西斯侵略的卫国战争, 比我们还要艰苦, 就近有亲人照顾, 上海《每日译报》,
+尽是登载, 谢晋元将军, 孤军浴血, 台儿庄大捷, 大大地宣传报道 all in the source) -- 0 omissions,
+0 embellishments. Scholarship fact-check (Wikipedia/Baidu Baike/academic, never AI
+sources): corroborated -- 忠义救国军 as a Dai Li force; Dai Li Whampoa 6th/dropout;
+Tai'erzhuang (spring 1938) and Pingxingguan (115th Div, 25 Sept 1937); Ye Ting's
+1941-46 imprisonment; Chen Bulei as Chiang's 文胆; Yuan Xiaoyuan (first woman
+diplomat) married to Ye Nan son of Ye Chucang; Wang Genzhong; the four-signatory
+1941 Hong Kong protest (Song Qingling/He Xiangning/Liu Yazi/Peng Zemin); Japan's
+2 Sept 1945 surrender to the US-led Allied command. Flagged/footnoted:
+周夔龙->周伟龙 (name slip); the Ye Ting/Chiang piggyback (unverified); "14 base
+areas" (non-canonical, 19 is the 1945 figure). No source endnotes in either chapter
+(grep of the HTML: only the chapter-title h2 filepos).
+
+Build: out/The Autobiography of Huang Mulan.epub, 22 of 44 chapters translated
+(ch00-ch21), 74 notes. qa_epub.py PASS (105 files, 50 documents, 462 paragraphs,
+all links resolve). ch22-ch38 remain pending skeleton pages, as commissioned.

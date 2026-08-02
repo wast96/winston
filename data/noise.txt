@@ -119,3 +119,7 @@
 # 万国公墓 the International Cemetery (万国 = "all nations"), a name: 万 is not 10000.
 万国
 萬國
+万千
+港九
+四目
+十两

@@ -83,9 +83,10 @@ NOISE = [
     # --- list enumerators & fractions (structure, not quantities) ---
     r"\d+[．.、]",                                  # "1." "2、" sub-item heads
     r"[一二三四五六七八九十百千零]+分之[一二三四五六七八九十百千零]+",  # 二分之一, fractions
+    r"万一",                                        # 万一 "in case" idiom (strip before 一路 rule eats the 一)
     # --- measure words: a bare 一 + classifier is "a/an", not the count 1 ---
-    r"一[艘條条頂顶隻只個个位群把張张片口指邊边旁時时下陣阵壺壶碟種种番場场股家棵套幅]",
-    r"一[輛辆眼躬支絲丝聲声定天次間间驚惊槍枪動动言樣样路批封面團团句道年身手筆笔遍]",
+    r"(?<!十)一[艘條条頂顶隻只個个位群把張张片口指邊边旁時时下陣阵壺壶碟種种番場场股家棵套幅]",
+    r"(?<!十)一[輛辆眼躬支絲丝聲声定天次間间驚惊槍枪動动言樣样路批封面團团句道年身手筆笔遍]",
     r"[一不][旦時时般點点些]",
     r"[幾几數数][盞盏輛辆個个位十百千萬万條条艘句步進进層层次口杯天年分]",
     r"[幾几數数][十百千]",                          # 幾十/數百 "some tens/hundreds"

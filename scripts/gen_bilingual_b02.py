@@ -61,6 +61,13 @@ DROP = {
     # ch19 has 1 photo caption -- line 4 (Zhigao with First International Shelter
     # colleagues, 00050) with its roster line 5.
     "ch19": ("26_index-split-024.txt", {1, 2, 4, 5}),
+    # B08: ch20 has NO images, so only header(1) + title(2) drop.
+    "ch20": ("27_index-split-025.txt", {1, 2}),
+    # ch21 has 2 photo captions between complete paragraphs -- line 26 (1991
+    # Detroit reunion with the Chen Shijun couple, 00051); line 43 (1946 Chen
+    # siblings group photo, 00052) with its two roster lines 44 (front row) and
+    # 45 (back row).
+    "ch21": ("28_index-split-026.txt", {1, 2, 26, 43, 44, 45}),
 }
 # Part-opening chapters prepend the part's 临江仙 poem: file, 1-indexed lines to
 # KEEP (poem title + 2 stanzas). ch05 = Part Two; ch13 = Part Three.
