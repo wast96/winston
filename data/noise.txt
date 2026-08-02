@@ -85,3 +85,12 @@
 畸零
 # 万国公墓 = the International Cemetery (万国 "all nations", ch29); the 万 is not the quantity 10000
 万国
+# --- B07 (ch32-ch36) additions ---
+# 凋零 = "to wither and fall (of flowers)" (ch32); the 零 is not the quantity 0 (cf. 飘零/零星 above)
+凋零
+# 四顾 = "to look all around" (她没有四顾, ch34); the 四 is not a count (cf. 四围/四面 above)
+四顾
+# 万岁 = "long live / banzai" (我们的Queen万岁, ch35); the 万 is not the quantity 10000
+万岁
+# 百般 = "in every way / by every means" (百般的讨好, ch35); the 百 is not the quantity 100
+百般

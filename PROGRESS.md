@@ -726,3 +726,131 @@ Flagged for the read-through (things to keep an eye on):
   (高朗) and the Gaolang Hospital, Gaoye Road (高叶路), the Huimei Hotel (汇美饭店), the
   Yuanyutai (源裕泰), the Hailin Broadcasting Station (海邻广播电台). All recurring names
   reuse the fixed glossary forms.
+
+## Batch B07 (ch32 through ch36: Chapters 32 to 36) — DONE
+
+Scope: the Christmas-Eve climax. Helen's farewell letter and her flight to Nanjing
+(ch32); the arrival at Rear Admiral Umetake's requisitioned residence in Jiangwan and
+Bai Ping crowned "president" of the revels (ch33); the cake, the gambling upstairs, and
+the narrator's watch on the moonless garden (ch34); Bai Ping crowned "Queen," and Mei
+Yingzi handing the narrator the packet he fears is poison (ch35); the vomiting that
+clears him, the theft of the two sealed documents from Bai Ping's handbag on the drive
+home, and the escape to the Standford at dawn on the Christmas Eve of 1941 (ch36).
+Source: 18,411 chars across 36_chapter34.txt through 40_chapter38.txt.
+
+Deliverables this batch:
+- out/ch32_reading.md through out/ch36_reading.md (the correction surface).
+- out/ch32_bilingual.md through out/ch36_bilingual.md (QC only, never shipped),
+  authored via scripts/_zip_bilingual.py so the source side is copied verbatim.
+- data/zh/ch32.txt through data/zh/ch36.txt (parity source, from split_bilingual.py).
+- notes.json: 4 new footnotes (56 to 60). notes 57 to 58 in ch33, notes 59 to 60 in ch35.
+- glossary.json: 5 new rows (100 to 105): Miko (person), Jiangwan, the Kaidi Restaurant,
+  the White Palace (places), Greater East Asia (term).
+- data/noise.txt: 4 new entries (凋零, 四顾, 万岁, 百般).
+- scripts/check_numbers.py: WORD_NUM gained "twentieth" (20) and "twenty-third" (23),
+  both day-of-month / century ordinals the tens-ones matcher does not reach (same
+  mechanism as the earlier "eleventh"/"seventeenth" additions); and 两/兩 were added to
+  the top clock-time and duration char classes (see the number-check note below).
+- out/The Whistling Wind.epub rebuilt: 37 of 60 chapters translated (ch00 to ch36), the
+  other 23 still linking their skeleton outlines; TOC fully navigable.
+
+Checks run and results:
+- Verbatim source parity (whitespace-stripped char comparison of the joined '>'
+  blockquotes vs the joined source paragraphs): ch32 4268=4268, ch33 4654=4654,
+  ch34 4068=4068, ch35 4343=4343, ch36 3857=3857. All MATCH (source copied, not retyped).
+- Paragraph parity (check_structure.py --config): ch32 80|80, ch33 63|63, ch34 58|58,
+  ch35 105|105, ch36 63|63. All OK. Note anchors: 4 notes, 0 unresolved. Headings:
+  1 shape. Glossary drift: 0. ALL STRUCTURAL CHECKS PASS.
+- Number check (check_numbers.py --noise data/noise.txt): all five green (80/63/58/105/63
+  pairs, 0 unresolved) after the noise and script fixes below.
+- Blind double translation (analytical/lyrical passages, re-rendered in a separate pass
+  and diffed): ch32 Mei Yingzi's "organization, an organism, a single life" speech and
+  the "eyes fail, the hands must shoulder the peril" figure; ch35 the snob's-heart
+  opening (人心也许就是势利的...) and the Lady-of-the-Camellias desolation paragraph;
+  ch36 the "fish leaps from the land into the water" release passage. Divergences were
+  only word choice; sense and completeness identical.
+- Round-trip back-translation (fresh context, omission check): ch32 Helen's letter
+  (paras 0 to 11), ch35 opening (para 0) and the poison/hand passage (para 85), ch36 the
+  handbag search (para 4) and the tiller-by-turns close (para 58). Each mapped
+  one-to-one onto the source: no English content absent from the source (no inventions),
+  no source content dropped.
+- Random deep audit (~4%, roughly 13 of ~369 paragraphs given the full paranoid
+  treatment: the double-/back-translation passages above plus a clause-by-clause audit
+  of the two densest survey/search paragraphs, ch34 para 53 (the garden circuit, 石阶
+  一二三四五六...) and ch36 para 5 (the mirror-chain-zipper search): observed substantive
+  error rate 0 (no mistranslations, no omissions). The only source-level problems were
+  the digitization glitches listed below, each rendered to plain sense.
+
+Number-check notes (what was flagged and why it is noise / a fix, not a real drop):
+- 凋零 ("wither and fall," of flowers, ch32) the 零 is not the quantity 0; added to noise.
+- 四顾 ("look all around," 她没有四顾, ch34) the 四 is not the count 4; added to noise.
+- 万岁 ("long live / banzai," 我们的Queen万岁, ch35) the 万 is not 10000; added to noise.
+- 百般 ("in every way," 百般的讨好, ch35) the 百 is not 100; added to noise.
+- 两点四十分 ("2:40," ch35): a genuine gap, not noise. The built-in clock-time strip's
+  char class omitted 两, so the whole-clock pattern failed and the built-in 十分 (=very)
+  then ate the "十分" out of "四十分", orphaning a 四 read as 4. Fix: added 两/兩 to the
+  three top clock/duration char classes in check_numbers.py so 两点X分 / 两点钟 / 两分钟
+  strip whole (before 十分 can run). Clock times are not the money/count/year quantities
+  this check guards, so stripping them whole is safe, consistent with the existing block.
+- Ordinals: "the twentieth century" (二十世纪, ch32) and the date "December the
+  twenty-third" (二十三日, ch32) needed 20 and 23; \btwenty\b does not match inside
+  "twentieth", and the cardinal matcher does not reach the ordinal "twenty-third", so
+  both were added to WORD_NUM (same as the earlier eleventh/seventeenth entries).
+- Prose fix (not a script change): 十来个 ("ten or so," ch33) rendered "ten or so"
+  rather than "a dozen or so" so the source 10 survives to the target.
+- Not re-verified by the check but rendered faithfully in the prose by hand: the clock
+  times (一点半 half past one ch32; 两点四十分 2:40 ch35, kept as "Twenty to three"),
+  durations (半个钟头, 二十分钟, 十五分钟, 三分钟), the positional years (一九四○年
+  Buick, 一九四一年 Christmas Eve), the speeds in li (二十五/三十八/四十/四十四), the bow
+  angles (二十度 / 四十五度), and the step-count 一二三四五六 (all present as "one...six").
+
+Fact-checking (Wikipedia / Baidu Baike; no LLM-sourced references):
+- Jiangwan (江湾) and "our Municipal Government Building": the Nationalist "Greater
+  Shanghai Plan" (大上海计划) of the early 1930s laid out a civic centre in Jiangwan,
+  north of the settlement; its centrepiece, the Shanghai Special Municipality Government
+  Building, opened 1933 in a monumental Chinese-palace style, and the district was taken
+  over for Japanese military use after 1937. Corroborated; footnoted (note 57).
+- Greater East Asia (大东亚) / "goddess of peace" / "Sino-Japanese friendship": the
+  Greater East Asia Co-Prosperity Sphere (大东亚共荣圈) was proclaimed by Japan in 1940;
+  "peace" and "Sino-Japanese amity" were standard collaborationist slogans. Corroborated;
+  footnoted (note 58) and added to the glossary.
+- Ghost Love (鬼恋): Xu Xu's own 1937 novella, the sensation that made his name (already
+  stated in the About-the-Author front matter, ch00); its heroine is a beautiful,
+  enigmatic woman in black met by night who claims to be a ghost. Corroborated;
+  footnoted at the allusion in ch35 (note 59).
+
+Footnotes added (density: 4 across five chapters, all genuinely new references; the many
+recurring names/places/terms in these chapters already carry their note at first
+appearance in B01 to B06 and were deliberately not re-noted):
+- note 57 (ch33): Jiangwan and the Greater Shanghai Plan civic centre.
+- note 58 (ch33): the Greater East Asia Co-Prosperity Sphere propaganda slogans.
+- note 59 (ch35): the heroine of Ghost Love (Xu Xu's own novella).
+- note 60 (ch35): the idiom 小鹿乱撞 kept literal as "little deer" (texture note).
+
+Source digitization glitches rendered to plain meaning and NOT footnoted (no genuine
+reading uncertainty):
+- ch32 para 0 "跳出生活中在生活" (garbled) rendered to sense "leap clear of this life and
+  truly live"; Helen's argument (the double standard she throws back at the narrator) is
+  intact around it.
+- ch34 para 51 "接巧的路灯" (接巧 for 凑巧, "conveniently placed") rendered "the
+  well-placed lamp."
+- ch35 para 61 dittography: the clause "从玻璃门推进去，我看到白苹拿着杯子站在桌上，大家围着"
+  is printed twice in the source; rendered once ("Pushing in through the glass door, I
+  saw Bai Ping standing on the table, glass in hand..."). Quoted verbatim (both copies)
+  in the QC file for parity; deduplicated in the reading text.
+- ch36 para 2 "小憧" (for 小僮/小童, a page-boy) rendered "the page"; the correctly written
+  小僮 recurs in para 3 ("the boy who had fetched the car").
+- 轮柏 (ch33/ch34/ch36), the tall conifer dressed as the Christmas tree, is almost
+  certainly 龙柏 (dragon juniper) or 桧柏 mis-digitized; rendered consistently as
+  "cypress." No meaning is at risk (it is plainly the evergreen tree of the party scene).
+- ch36 para 58 "宾纳饭店" is the same place as the earlier "槟纳饭店"; rendered
+  consistently as "the Benner Inn."
+- ch36 para 4 "化学的派司封套": 化学 here means "celluloid/plastic," 派司 is the loanword
+  "pass"; rendered "a celluloid pass-holder" (holding, the narrator supposes, a park
+  pass). Loanwords, not an error.
+
+Provisional renderings a later attestation could sharpen (all recurring names reuse the
+fixed glossary forms): Miko (米可; the source itself flags the name's nationality as
+unknown), the Kaidi Restaurant (凯第饭店), the White Palace (白宫舞厅), plus the earlier
+provisionals that recur here (Umetake 梅武, the Standford, the Benner Inn, Honsa 本佐次郎,
+Weihaiwei Road, Route Prosper Paris).

@@ -30,6 +30,13 @@ WORD_NUM = {
     "seventeenth": 17,
     # day-of-month ordinal: English "the eleventh" renders 十一日 (B04, ch20).
     "eleventh": 11,
+    # ordinal "twentieth" renders 二十 (B07, ch32: "the twentieth century" = 二十世纪);
+    # \btwenty\b does not match inside "twentieth", so 20 would go missing without this.
+    "twentieth": 20,
+    # day-of-month ordinal: English "the twenty-third" renders 二十三日 (B07, ch32:
+    # December 二十三日). The tens-ones spelled-number matcher only catches the cardinal
+    # "twenty-three", not the ordinal "twenty-third", so 23 needs its own entry.
+    "twenty-third": 23,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}
@@ -68,13 +75,16 @@ NOISE = [
     # times and durations are not the load-bearing quantities this check exists
     # to guard (money, counts, years), so stripping them whole is safe. Added
     # B01, after check_numbers flagged the orphans on 二十分钟 and 三点五十分.
-    r"[一二三四五六七八九十百]+点[一二三四五六七八九十百]+分",  # clock: 三点五十分
-    r"[一二三四五六七八九十百]+点[钟鐘]",                     # clock: 十一点钟 (whole hour).
+    r"[两兩一二三四五六七八九十百]+点[两兩一二三四五六七八九十百]+分",  # clock: 三点五十分, 两点四十分
+    # 两兩 belong in the class: 两点四十分 ("2:40", B07 ch35) begins with 两, which the
+    # original class omitted, so the whole-clock strip failed and the built-in r"十分"
+    # (=very) then ate the "十分" out of "四十分", orphaning a 四 read as 4.
+    r"[两兩一二三四五六七八九十百]+点[钟鐘]",                 # clock: 十一点钟 (whole hour).
     # Must precede the built-in r"[一不][旦時时般點点些]" idiom below, which
     # otherwise eats the "一点" out of "十一点钟" and orphans a 十 read as 10
     # (B02, on 十一点钟). Whole-hour times are not the money/count/year
     # quantities this check guards, so stripping them whole is safe.
-    r"[一二三四五六七八九十百]+分[钟鐘]",                     # duration: 二十分钟
+    r"[两兩一二三四五六七八九十百]+分[钟鐘]",                 # duration: 二十分钟, 两分钟
     r"[一二三四五六七八九]十几",                              # 四十几 "forty-odd" (approx age)
     r"[一二三四五六七八九]十多",                              # 五十多 "fifty-odd" (approx age/count).
     # Must precede the built-in r"[十几幾]多" idiom below, which otherwise eats the
