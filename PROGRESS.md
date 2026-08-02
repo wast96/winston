@@ -566,3 +566,107 @@ None in this chapter.
 - The reappearing 《少年维特之烦恼》 + withered white rose (Peiyao's, from ch03's
   Staff Officer Lei) is left to the ch03 note; not re-annotated (first-appearance
   rule).
+
+## B07 = Chapter Seven (ch07), 12,769 source chars
+
+Done end to end. Chapter Seven is the day of reckoning on all three of Wu Sunfu's
+fronts, told under a rolling thunderstorm. In the study he waits on the bond duel
+with Zhao Botao and Du Zhuzhai (settlement is tomorrow); Fei the little-moustache
+brings the Shuangqiao accounts (six-tenths of the loans recoverable, sixty or
+seventy thousand in cash), and Wu resolves to concentrate his strength through the
+trust company and to squeeze Zhu Yinqiu's dried cocoons, ordering Du Zhuzhai to
+make old Zhao refuse Zhu's rival loan. At the mill Tu Weiyue stage-manages the
+whole strike: the bought-over Yao Jinfeng, publicly "dismissed" as a running dog,
+Xue Baozhu (the No. 9 overseer who leaked the secret) "promoted," and the militant
+He Xiumei lured off to a theatre by pockmarked Li's Hongmen toughs and Mo Gancheng
+- the "stratagem of the double agent." He also cows the union man Gui Changlin. At
+the Bankers' Guild Wu lunches among strangers and eavesdropping bears, then hears
+from Li Yuting the "great plan": American-backed finance capital (Shang Zhongli and
+Zhao Botao among the Chinese hands) means to master industrial capital - a "second
+Dawes Plan" for China, with Wu himself among its objects. He drives home to a
+mournful piano and Du Xintuo's "man's life is like the morning dew," takes the omen
+hard - then the mill telephones victory (the go-slow settled, Gui Changlin given a
+half-month's rise) and Du Zhuzhai arrives with the bond win. Wu has broken the
+encirclement on two fronts.
+
+### Pipeline run
+
+- data/src regenerated with scripts/ingest_epub.py source.epub (it is git-ignored).
+  Source read verbatim from data/src/10_part0008.txt (title line 七 dropped, 233
+  body paragraphs). English written one paragraph per line and zipped against the
+  source body with a parity assertion BEFORE writing out/ch07_bilingual.md, so
+  paragraph parity is structural (caught and fixed one dropped paragraph -
+  the "half past eleven" beat - before the bilingual was written).
+- split_bilingual.py -> out/ch07_reading.md (233 paras) and data/zh/ch07.txt.
+- check_numbers.py (with data/noise_zh.txt): 0 unresolved over 233 pairs.
+- check_structure.py --pairs: parity 233 | 233 OK.
+- build_reading_epub.py out/Midnight.epub, then qa_epub.py out/Midnight.epub:
+  PASS, 26 documents, 43 note references / 43 bodies / 43 backlinks, all links
+  resolve. Seven chapters now link their content; the other thirteen still link
+  their skeleton outline.
+
+### Source's own notes
+
+- None. Chapter Seven carries no bracketed [n] markers (confirmed by grep of the
+  source); the next author notes are [8][9] in ch11. source_notes.json untouched.
+
+### Translator notes (builder-numbered 39-43)
+
+- "her Dawes, and her Young" (39): the Dawes (1924) and Young (1929) plans and the
+  "second Dawes Plan" Wu fears for China. "employ no man you doubt, doubt no man you
+  employ" (40): 用人不疑，疑人不用, Tu Weiyue's barbed maxim. "stratagem of the double
+  agent" (41): 反间计, one of the Thirty-Six Stratagems. "a Hongmen brother" (42):
+  洪门, the sworn-brotherhood secret society. "Man's life is like the morning dew"
+  (43): 人生如朝露, the Han/Cao Cao allusion Du Xintuo drops.
+
+### check_numbers handling (data/noise_zh.txt additions this batch)
+
+- 三先生 "the Third Master" (Wu Sunfu's household style; 三 the birth-order honorific,
+  recurring constantly in the mill scenes, not the count three).
+- 成千成百 "hundreds upon hundreds" (idiom); 一不做二不休 "in for a penny, in for a
+  pound" (idiom).
+- 十钟 / 十半 -- residues of 十一点钟 (eleven o'clock) and 十一点半 (half past eleven):
+  the built-in 一点 stripper eats 一点 and orphans 十 (=10) before 钟/半.
+- (?<![一二三四五六七八九十两兩])十来 "ten or so / about ten" (approximate marker, exact
+  parallel to the built-in 十多 rule); the lookbehind keeps 二十来/三十来 whole. This
+  also clears the lone 十 the built-in 几万-stripper orphans out of 十几万 (抵借十几万,
+  rendered "a hundred-odd thousand"): once 几万 is eaten the residue reads 十来.
+- Number-rendering habits kept clean per the handoff: 二人/两位/两个 as "the two of
+  them / these two / two X" so the count 2 stays visible; 五十多万 "five hundred
+  thousand" (the checker's oval*10 branch recovers the 50); 三十万 "three hundred
+  thousand"; 二万万 "two hundred million"; 二三百万 "two or three million"; the frame
+  and order numbers (No. 9, No. 10, No. 12, No. 2) rendered with digits.
+
+### Glossary rows added (one rendering per referent)
+
+- People: Qian Baosheng (钱葆生), Gui Changlin (桂长林), He Xiumei (何秀妹), A Zhen
+  (阿珍), Yunqing (云卿, provisional), Mr. Wang (汪先生 = Wang Jingwei), Dawes (道威斯),
+  Young (杨格).
+- Organizations: the Bankers' Guild (银行公会), the Tongyuan native bank (通源钱庄,
+  provisional), the Hongmen (洪门).
+- Places: Hong Kong (香港), America (美国), England (英国), Japan (日本).
+- Terms: overseer (管车), inspector (稽查), naphtha-launch (汽油船), loafer (白相人),
+  industrial bonds (实业公债), the stratagem of the double agent (反间计), finance
+  capital (金融资本), industrial capital (工业资本). Existing cast reused unchanged
+  (Wu Sunfu, Du Zhuzhai, Zhu Yinqiu, Zhao Botao, Shang Zhongli, Han Mengxiang, Li
+  Yuting, Tu Weiyue, Mo Gancheng, Yao Jinfeng, Xue Baozhu, Wang Jinzhen, pockmarked
+  Li, Fei the little-moustache/Xiaosheng, Old Guan, Gaosheng, Du Xintuo, Zhang
+  Susu, Lin Peishan/Peiyao, Huifang, Wu Zhisheng, Fan Bowen, Shuangqiao, the
+  Hongchang pawnshop, the Dragon-Boat Festival, the bond-market cast of terms).
+
+### Figures
+
+None in this chapter.
+
+### Read-through / open items
+
+- Random-sample deep audit (~4%, 9 paragraphs across the finance-capital dialogue,
+  the fog-and-mirage interior monologue, Tu Weiyue's strike scheme, and the Dawes
+  passage): verbatim-quote, quantity and referent all held; no omissions or
+  invented bridging found. Tricky quantities verified by hand: 二万万 = 200 million;
+  月息五厘半 = five and a half per mille a month; 五十多万 / 三十万 the Zhu-Yinqiu
+  valuation and offer; 六七万 the Shuangqiao cash residue.
+- 汪先生 ("Mr. Wang") = Wang Jingwei is left to the ch03 note on "our Mr. Wang"
+  (first-appearance rule); glossary cross-refs it rather than re-annotating.
+- 白相人 kept as "loafer(s)" (Wu-dialect slang for idlers/toughs); 管车/稽查 fixed as
+  "overseer"/"inspector" for the recurring filature-floor hierarchy.

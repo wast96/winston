@@ -373,6 +373,54 @@
       "pinyin": "Qu Yuan",
       "status": "attested",
       "note": "The Chu poet and loyal minister Qu Yuan (c. 340–278 BCE), called here Grand Master Qu (屈大夫); he drowned himself in the Miluo River. See the note at 'Grand Master Qu.'"
+    },
+    "钱葆生": {
+      "en": "Qian Baosheng",
+      "pinyin": "Qian Baosheng",
+      "status": "decided",
+      "note": "钱葆生; a union man at the Wu silk filature, boss of one of the two rival union factions and Gui Changlin's mortal enemy."
+    },
+    "桂长林": {
+      "en": "Gui Changlin",
+      "pinyin": "Gui Changlin",
+      "status": "decided",
+      "note": "桂长林; a union man at the Wu filature, of the faction tied to the distant 'Mr. Wang' (Wang Jingwei); Qian Baosheng's rival, brought to heel and won over by Tu Weiyue."
+    },
+    "何秀妹": {
+      "en": "He Xiumei",
+      "pinyin": "He Xiumei",
+      "status": "decided",
+      "note": "何秀妹; a militant among the women workers at the Wu filature, marked by Tu Weiyue as a hot-head to be lured away and neutralized."
+    },
+    "阿珍": {
+      "en": "A Zhen",
+      "pinyin": "A Zhen",
+      "status": "decided",
+      "note": "阿珍; the woman overseer of No. 10 frame, one of Tu Weiyue's trusted agents among the women workers."
+    },
+    "云卿": {
+      "en": "Yunqing",
+      "pinyin": "Yunqing",
+      "status": "provisional",
+      "note": "云卿; a crescent-bearded, long-faced country landlord and bond bear whom Wu Sunfu overhears at the Bankers' Guild, pressed for rent-rice he can no longer collect against the rent-resistance in the villages."
+    },
+    "汪先生": {
+      "en": "Mr. Wang",
+      "pinyin": "Wang xiansheng",
+      "status": "decided",
+      "note": "汪先生; Wang Jingwei (汪精卫), here the faraway patron in Hong Kong of Gui Changlin's union faction. See the note on 'our Mr. Wang' in Chapter Three."
+    },
+    "道威斯": {
+      "en": "Dawes",
+      "pinyin": "Daoweisi",
+      "status": "attested",
+      "note": "道威斯; Charles G. Dawes. See the note at 'her Dawes, and her Young.'"
+    },
+    "杨格": {
+      "en": "Young",
+      "pinyin": "Yangge",
+      "status": "attested",
+      "note": "杨格; Owen D. Young. See the note at 'her Dawes, and her Young.'"
     }
   },
   "organizations": {
@@ -489,6 +537,24 @@
       "pinyin": "nongmin xiehui",
       "status": "attested",
       "note": "农民协会; the village peasant associations of the late-1920s revolution, through which the rural poor organized against landlords and usurers."
+    },
+    "银行公会": {
+      "en": "the Bankers' Guild",
+      "pinyin": "Yinhang Gonghui",
+      "status": "attested",
+      "note": "银行公会; the Shanghai Bankers' Association, whose splendid clubhouse dining-room Wu Sunfu frequents for his midday meal and the day's market talk."
+    },
+    "通源钱庄": {
+      "en": "the Tongyuan native bank",
+      "pinyin": "Tongyuan qianzhuang",
+      "status": "provisional",
+      "note": "通源钱庄; a native bank (钱庄) among the Wu family's holdings at Shuangqiao, looted in the peasant rising."
+    },
+    "洪门": {
+      "en": "the Hongmen",
+      "pinyin": "Hongmen",
+      "status": "attested",
+      "note": "洪门; the sworn-brotherhood secret society of south China. See the note at 'a Hongmen brother.'"
     }
   },
   "places": {
@@ -761,6 +827,30 @@
       "pinyin": "Zhaofeng Gongyuan",
       "status": "attested",
       "note": "兆丰公园; the large park in the western part of the International Settlement, known in English as Jessfield Park (today Zhongshan Park, 中山公园), with a lake and a small zoo."
+    },
+    "香港": {
+      "en": "Hong Kong",
+      "pinyin": "Xianggang",
+      "status": "attested",
+      "note": "香港; Hong Kong, then a British colony; here the refuge of the union faction's absent patron, 'Mr. Wang.'"
+    },
+    "美国": {
+      "en": "America",
+      "pinyin": "Meiguo",
+      "status": "attested",
+      "note": "美国; the United States, whose finance capital stands behind the 'great plan' Li Yuting reports."
+    },
+    "英国": {
+      "en": "England",
+      "pinyin": "Yingguo",
+      "status": "attested",
+      "note": "英国; Britain, named with Japan as America's two rivals in the East."
+    },
+    "日本": {
+      "en": "Japan",
+      "pinyin": "Riben",
+      "status": "attested",
+      "note": "日本; Japan, named with England as America's two rivals in the East."
     }
   },
   "terms": {
@@ -1087,6 +1177,54 @@
       "pinyin": "Nuobei'er wenxue jiangjin",
       "status": "attested",
       "note": "诺贝尔文学奖金; the Nobel Prize for Literature, which Wu Zhisheng jokingly says Lin Peishan is waiting for Fan Bowen to win."
+    },
+    "管车": {
+      "en": "overseer",
+      "pinyin": "guanche",
+      "status": "decided",
+      "note": "管车; a woman overseer of a bank of reeling frames on the filature floor, ranking below the inspectors (稽查) and identified by her frame number."
+    },
+    "稽查": {
+      "en": "inspector",
+      "pinyin": "jicha",
+      "status": "decided",
+      "note": "稽查; an inspector on the filature floor, set over the overseers (管车)."
+    },
+    "汽油船": {
+      "en": "naphtha-launch",
+      "pinyin": "qiyou chuan",
+      "status": "decided",
+      "note": "汽油船; a small gasoline-engined launch, hired for the run up the creeks to Shuangqiao."
+    },
+    "白相人": {
+      "en": "loafer",
+      "pinyin": "baixiangren",
+      "status": "attested",
+      "note": "白相人; Shanghai (Wu-dialect) slang for an idler, loafer or petty rogue; here the hired toughs who hustle He Xiumei away."
+    },
+    "实业公债": {
+      "en": "industrial bonds",
+      "pinyin": "shiye gongzhai",
+      "status": "decided",
+      "note": "实业公债; a large government bond issue that, floated in the name of relieving industry, would open the way for finance capital to master industrial capital."
+    },
+    "反间计": {
+      "en": "the stratagem of the double agent",
+      "pinyin": "fanjian ji",
+      "status": "decided",
+      "note": "反间计; one of the Thirty-Six Stratagems. See the note at 'stratagem of the double agent.'"
+    },
+    "金融资本": {
+      "en": "finance capital",
+      "pinyin": "jinrong ziben",
+      "status": "decided",
+      "note": "金融资本; finance capital, the banking interests that in Li Yuting's account mean to bring industry under their sway."
+    },
+    "工业资本": {
+      "en": "industrial capital",
+      "pinyin": "gongye ziben",
+      "status": "decided",
+      "note": "工业资本; industrial capital, the manufacturers' capital that finance capital seeks to swallow; Wu Sunfu's own class."
     }
   }
 }

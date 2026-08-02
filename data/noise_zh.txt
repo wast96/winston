@@ -130,3 +130,22 @@
 # 九百八十 -- part of 九百八十余万 = over 9,800,000 dollars; the 余 breaks the token so
 # the built-in 万 stripper takes the 万 and leaves 九百八十 (=980); rendered in words (ch05)
 九百八十
+# --- Chapter Seven additions ---
+# 三先生 "the Third Master" (Wu Sunfu's household style); recurs constantly in the
+# mill scenes, 三 is the birth-order honorific, not the count three (ch07)
+三先生
+# 成千成百 "hundreds upon hundreds" = countless (idiom; 千/百 not counts) (ch07)
+成千成百
+# 一不做二不休 "in for a penny, in for a pound" (idiom; 一/二 not counts) (ch07)
+一不做二不休
+# 十钟 / 十半 -- residue of 十一点钟 (eleven o'clock) and 十一点半 (half past eleven):
+# the built-in 一点 stripper removes 一点 and orphans 十 (=10) before 钟/半; rendered
+# "eleven o'clock" / "half past eleven" (ch07)
+十钟
+十半
+# 十来X "ten or so / about ten" -- approximate marker, 十 not an exact count
+# (exact parallel to the built-in 十多 rule). The negative lookbehind keeps it from
+# splitting 二十来/三十来 ("twenty-/thirty-odd"). This also clears the lone 十 the
+# built-in 几万-stripper orphans out of 十几万 (抵借十几万, rendered "a hundred-odd
+# thousand"): once 几万 is eaten the residue reads 十来, which this rule removes (ch07)
+(?<![一二三四五六七八九十两兩])十来
