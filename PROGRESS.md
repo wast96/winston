@@ -1146,3 +1146,150 @@ which are not figures). figures.json unchanged.
 - 明察秋毫 (Mencius) and 予若观火 (Book of Documents), source line 138 — the source
   itself names both classics in the next sentence, so the allusions are self-glossed
   and not separately footnoted.
+
+## B10 = ch10 (第十章 戌初 / "The Hour of the Dog, First Half, 7 p.m.")
+
+Scope: the whole chapter, 16,368 source characters, 309 paragraphs. Zhang
+Xiaojing breaks the captured assassin in the Persian Temple confession room
+(the Lai Junchen / Zhou Xing torture threats) and learns of the Shouzhuolang and
+the Pingkang Ward drop at Liu's Bookshop; meanwhile the Pifu burn the Jing'an
+Bureau and Cui Qi dies of his wound before Gan Shoucheng, who quietly hands
+Li Linfu a pretext to seize the Bureau; Zhang forces Tanqi to choose the mission
+over rushing back, revives the watchtower net with himself as its hub, and Yao
+Runeng hears Wen Ran's backstory in the apothecary; the chapter closes with the
+censor Ji Wen, backed by Yuan Zai, installed as the new Deputy Director and
+naming Zhang Xiaojing the traitor.
+
+Deliverables shipped: out/ch10_bilingual.md (QC only, never ships),
+out/ch10_reading.md, data/zh/ch10.txt, notes.json (3 new notes, 40 total),
+glossary.json (grown, below), noise.txt (extended, below), the rebuilt EPUB,
+and this log. figures.json unchanged (no content illustration in this chapter;
+Image00004.jpg the footnote-marker glyph and Image00005.jpg the scene-break rule
+are not figures).
+
+### Checks run
+
+- check_numbers.py --noise noise.txt: 309 pairs, 0 unresolved. Five numerals
+  flagged in the first pass were resolved as follows. Four were NON-quantities and
+  were added to noise.txt (recorded below): 武三思 (the 三 of a personal name),
+  百般 ("in every way," idiom), 六典 (the 六 of the book title 大唐六典), and 十几万
+  ("over a hundred thousand," rendered analytically like 十万; placed ABOVE the
+  bare 十几 rule so 十几 does not strip first and orphan 万 = 10000). One was a REAL
+  quantity and was fixed in the ENGLISH, not noised: 近百位同僚 ("nearly a hundred
+  colleagues") is rendered "fully a hundred of his colleagues" so the count of
+  100 survives.
+- check_structure.py --pairs data/zh/ch10.txt out/ch10_reading.md: paragraph
+  parity 309 source / 309 translation, OK.
+- Anchor resolution: all 3 new note anchors ("Lai Junchen", "Ji Wen",
+  "Shouzhuolang") are verbatim substrings of the reading text and attach at first
+  appearance; the builder also refuses on any unmatched anchor.
+- qa_epub.py: PASS. 38 files, 32 documents, all links resolve; 40 note
+  references, 40 bodies, 40 backlinks; numbering sequential in reading order.
+
+### Notes added (notes.json ch10; 3, total now 40)
+
+1. Lai Junchen (来俊臣) at first appearance: the archetypal Wu-Zetian-era cruel
+   official whose name still terrifies; corroborated against the "Biographies of
+   the Cruel Officials," Old Book of Tang.
+2. Ji Wen (吉温) at first appearance: the historical hatchet-man and Li Linfu
+   client installed here to seize the Bureau for the Secretariat; corroborated.
+3. The Shouzhuolang (守捉郎) at first appearance: 守捉 were real Tang frontier
+   garrison-posts, but the mercenary guild is the novel's extrapolation, not an
+   attested body; stated as such in the note.
+
+Recurring subjects already noted or already passed were NOT re-noted (per the
+first-appearance rule): He Zhizhang, Yuan Zai, Prince Yong, the Right Shad, the
+Pifu, the Sogdian Whirl, the xiezhi, Cen Shen (of Xianzhou), the Right Xiao
+Guard, the Censorate, and everything in ch01-ch09. The Qu Yuan (Li Sao) line and
+Cen Shen's own 胡笳歌 are rendered faithfully and left unnoted to hold density at 3.
+
+### Glossary added (glossary.json)
+
+- people (8): 吉温 = "Ji Wen"; 来俊臣 = "Lai Junchen"; 周兴 = "Zhou Xing"; 周利贞 =
+  "Zhou Lizhen"; 桓彦范 = "Huan Yanfan"; 武三思 = "Wu Sansi"; 郝象贤 = "Hao
+  Xiangxian"; 公辅 = "Gongfu" (Yuan Zai's courtesy name).
+- organizations (1): 守捉郎 = "the Shouzhuolang."
+- places (22): 刘记书肆 = "Liu's Bookshop"; the wards 兴道坊/开化坊/光禄坊/务本坊/崇义坊
+  = "Xingdao/Kaihua/Guanglu/Wuben/Chongyi Ward"; 勤政务本楼 = "the Qinzheng Wuben
+  Tower"; 楼兰 = "Loulan"; 秦山 = "the hills of Qin"; 岐山 = "Qishan"; 烽燧城 = "the
+  beacon-fort"; 雍州/洛州 = "Yongzhou/Luozhou"; and the eight frontier commands
+  范阳/平卢/朔方/河西/安西/北庭/陇右/剑南 = "Fanyang/Pinglu/Shuofang/Hexi/Anxi/Beiting/
+  Longyou/Jiannan," plus 岭南五府 = "the Lingnan Five Prefectures" (河东 = Hedong,
+  岭南 = Lingnan already decided; reused).
+- terms (15): 守捉城 = "garrison-town"; 留后院 = "resident-agent courtyard"; 端公 =
+  "Duangong"; 副端 = "Vice-Duan"; 殿中侍御史 = "Palace Censor"; 侍御史 = "Attendant
+  Censor"; 左巡使 = "Commissioner of the Left Patrol"; 拔灯 = "the lantern-floats";
+  灯顶红筹 = "the Lantern-Crown Red Tally"; 牧护歌 = "the Muhu song"; 胡笳 = "the
+  nomad reed-pipe"; 大唐六典 = "the Tang Liudian"; 百官格 = "the Statutes on
+  Officials"; 神龙 = "Shenlong"; 都护府 = "the Protectorate."
+
+Pre-decided renderings were reused, not re-romanized: Zhang Xiaojing, Tanqi,
+Yisi (deacon), the Right Shad, Puzhe, the Pifu, Long Bo, Cui Qi (Commander Cui),
+Yao Runeng, Wen Ran, Wen Wuji, Gan Shoucheng (General), Cen Shen, Yuan Zai, the
+Right Minister (Li Linfu), Prince Yong, Wang Zhongsi, the Jing'an Bureau, the
+Lüben Guards, the Right Xiao Guard / Leopard Cavalry, the Secretariat, the
+Court of Judicial Review, the Ministry of Justice, the Jingzhao Prefecture, the
+Forestry and Crafts Bureau, Guangde/Yining/Dunyi Ward, Pingkang Ward (from the
+平康里 note), the Cibei Temple, the Persian Temple, the Vermilion Bird Avenue,
+the Leyou Plateau, Qujiang Pool, the Xingqing Palace, Little Balur, the Long
+Mountains, Hedong, Lingnan, the Bear Fire Gang, the Wen Incense Shop, the Tang
+Rhymes, the art of the Great Archive, commissioning the watchtowers,
+double-hour, watchtower, constable, buliang chief, county commandant,
+rock-oil, the Que-le Huo-duo, the Five-Faced Yama.
+
+### noise.txt extended (recorded, with why)
+
+- 武三思 (Wu Sansi, a name; the 三 is not the quantity 3).
+- 十几万 ("over a hundred thousand," analytic; placed above the bare 十几 rule so
+  it strips whole rather than orphaning 万 = 10000).
+- 百般 ("in every way," idiom; the 百 is not 100).
+- 六典 (the 六 of the title 大唐六典 / the Tang Liudian, a name, not a quantity).
+All four are non-quantities; the one real count in the batch (近百 "nearly a
+hundred") was carried in the English instead of noised.
+
+### Blind double-translation + back-translation (separate contexts)
+
+- Double-translation (literary sample): Tanqi's reflection on Zhang Xiaojing's
+  solitude in the crowd (source lines 224-227, ~230 chars) was retranslated blind
+  in a fresh context. The independent version matched ours in meaning throughout:
+  the roll-call of epithets (登徒子/凶神阎罗/游侠 as lecher / fiend-Yama / knight-
+  errant), 寂寞 as "alone / utterly alone" both times, 洗褪...浮夸油彩 as washing
+  away the "gaudy greasepaint," and 比公子距离这尘世更远 as standing "further from
+  this dusty world than the young master." No divergence of meaning; the passage
+  is unambiguous. 0 errors.
+- Back-translation (number-dense sample): our English of Ji Wen's rank-and-belt
+  description plus the ten military-commissioner courtyards (source lines 292 and
+  98-99) was rendered back to Chinese blind. Every quantity survived the round
+  trip: 九枚 (nine plaques), 七品 (seventh rank), 低一阶 (one grade lower), 十 (ten
+  commissioners), 五府 (the Five Prefectures), and all ten command names in order.
+  The only variance was lexical (进奏院 for 留后院, a true synonym), not a number
+  or referent change. 0 errors.
+- Sample error rate: 0 errors across the two audited passages (~3% of the
+  chapter's characters), consistent with ch01-ch09.
+
+### Flagged for the read-through
+
+- The opening (source lines 2-3, an extractor-split pair, merged) is a
+  FLASH-FORWARD vignette of the Bureau fire; the identical first sentence recurs
+  at its true moment (source line 106, where the vignette continues) and was
+  translated identically in both places, per the ch04-ch09 precedent.
+- Authorial slip in the time-gloss: the source's per-chapter hour-note for ch10
+  is internally inconsistent. It labels the hour 戌 (the Dog, an evening hour,
+  which the chapter's own heading and dateline correctly place at 戌初 = 7 p.m.),
+  but then gives the pre-dawn time "凌晨5点 ... 05时至07时" and a sunrise gloss
+  ("日始、破晓、旭日 ... 太阳刚刚露脸，冉冉初升"), all of which belong to 卯 (the
+  Rabbit, 5 to 7 a.m.). The source note is rendered faithfully and in full, error
+  and all, as the source's own italic note (rule 4: leave genuine source errors
+  visible), with 戌 romanized as the hour-name and the ordinary words translated.
+  Only the note is wrong; the chapter is set at 戌初 (7 p.m.) throughout.
+- 五色使人盲 (source line 149, Laozi) and 长太息以掩涕兮，哀民生之多艰 (source line
+  271, Qu Yuan's Li Sao) are rendered faithfully; the surrounding prose marks the
+  latter as a sigh of grief, so both are self-contextualized and left unfootnoted.
+- 拔灯/灯顶红筹 (the lantern-floats and their top-performer prize) and 守捉/守捉城
+  (the frontier garrisons) are self-glossed by the source; the wordplay 拔灯不是灯
+  ("the lantern-floats were not lanterns at all") is preserved by rendering 拔灯
+  with the lantern element.
+- Multiple scenes (confession room, Bureau exterior, the Vermilion Bird Avenue
+  crowd, the apothecary, the Cibei Temple square) are divided in the source by
+  decorative rules (Image00005.jpg); following house style the shifts are plain
+  paragraph breaks, no separator glyph.

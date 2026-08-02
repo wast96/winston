@@ -40,6 +40,9 @@
 四岁
 # 几十万条 -> the built-in 几十 rule orphans 万; "hundreds of thousands of lives"
 万条
+# ch10: 十几万 = "over a hundred thousand" (守捉妇孺), rendered analytically (cf. 十万);
+# MUST precede the bare 十几 rule below, or 十几 strips first and orphans 万 = 10000.
+十几万
 # "a dozen or so" / "more than a dozen" -- 十几 is already handled,
 # but the orphaned 十 in 十几个/十几步 still flags
 十几
@@ -206,3 +209,12 @@
 # of things. Appears twice (延州石脂 = "Yanzhou rock-oil"; 外强中弱 = "strong without,
 # weak within," where the English does carry "four words").
 四个字
+# ch10: 武三思 = Wu Sansi (Wu Zetian's nephew), a name; the 三 ("Three") is part of
+# the name, not the quantity 3. English renders it "Wu Sansi."
+武三思
+# ch10: 百般 = "in every way / by every means" (idiom); the 百 is not the quantity 100.
+# English renders it "every way she could."
+百般
+# ch10: 大唐六典 = the Tang Liudian, a book title ("the Six Statutes"); the 六 is part
+# of the work's name, not a quantity. English renders it "the Tang Liudian." Strip 六典.
+六典

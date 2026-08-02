@@ -409,6 +409,54 @@
       "pinyin": "Pǔzhē",
       "status": "provisional",
       "note": "The name under which the Right Shad hides at the Daqin Temple: a Sogdian elder said to hold an ordination certificate from the Nestorian temple of Kang, arrived a month before. Found stabbed in this chapter; his old modao scar and armor-calluses betray him as a career cavalryman, that is the Right Shad. Transliteration mine."
+    },
+    "吉温": {
+      "en": "Ji Wen",
+      "pinyin": "Jí Wēn",
+      "status": "attested",
+      "note": "Ji Wen (d. 755), a Tang official notorious as a hatchet-man and torturer of confessions, client of Li Linfu and later of An Lushan; here appointed to take over the Jing'an Bureau for the Secretariat. Historical; pinyin. Footnoted at first appearance."
+    },
+    "来俊臣": {
+      "en": "Lai Junchen",
+      "pinyin": "Lái Jùnchén",
+      "status": "attested",
+      "note": "Lai Junchen (d. 697), the archetypal &#8216;cruel official&#8217; under Wu Zetian, a torturer and framer of cases whose very name terrifies; author of the <i>Luozhi jing</i>. Historical; pinyin. Footnoted at first appearance."
+    },
+    "周兴": {
+      "en": "Zhou Xing",
+      "pinyin": "Zhōu Xīng",
+      "status": "attested",
+      "note": "Zhou Xing (d. 691), a cruel official of Wu Zetian's reign, remembered with Lai Junchen (the idiom &#8216;please, step into the jar&#8217; is his); the torture &#8216;the flying stone that summons the immortal&#8217; is laid to him. Historical; pinyin."
+    },
+    "周利贞": {
+      "en": "Zhou Lizhen",
+      "pinyin": "Zhōu Lìzhēn",
+      "status": "attested",
+      "note": "Zhou Lizhen (fl. early 8th c.), a cruel official of the Shenlong era who, at Wu Sansi's order, tortured Huan Yanfan to death; the killing named &#8216;sunset-glow on the bamboo.&#8217; Historical; pinyin."
+    },
+    "桓彦范": {
+      "en": "Huan Yanfan",
+      "pinyin": "Huán Yànfàn",
+      "status": "attested",
+      "note": "Huan Yanfan (653&#8211;706), a Tang statesman, one of the five who forced Wu Zetian's abdication in the 705 Shenlong coup; later hounded to a savage death by Wu Sansi's man Zhou Lizhen. Historical; pinyin."
+    },
+    "武三思": {
+      "en": "Wu Sansi",
+      "pinyin": "Wǔ Sānsī",
+      "status": "attested",
+      "note": "Wu Sansi (d. 707), nephew of Empress Wu Zetian, a powerful and unscrupulous prince of the Wu clan who took vengeance on the Shenlong restorers. Historical; pinyin."
+    },
+    "郝象贤": {
+      "en": "Hao Xiangxian",
+      "pinyin": "Hǎo Xiàngxián",
+      "status": "attested",
+      "note": "Hao Xiangxian (d. 687), a Tang official executed under Wu Zetian on Zhou Xing's fabricated charge; the torture &#8216;the flying stone that summons the immortal&#8217; is told of his case. Historical; pinyin."
+    },
+    "公辅": {
+      "en": "Gongfu",
+      "pinyin": "Gōngfǔ",
+      "status": "decided",
+      "note": "Yuan Zai's courtesy name (<i>zi</i>), by which Ji Wen addresses him as they stage-manage the takeover of the Jing'an Bureau."
     }
   },
   "organizations": {
@@ -543,6 +591,12 @@
       "pinyin": "Cíbù",
       "status": "attested",
       "note": "The bureau under the Ministry of Rites overseeing state religious affairs and the registers of Buddhist, Daoist, and foreign clergy; it keeps the roll of Nestorian temples. Rendering per C. O. Hucker."
+    },
+    "守捉郎": {
+      "en": "the Shouzhuolang",
+      "pinyin": "Shǒuzhuō Láng",
+      "status": "provisional",
+      "note": "A guild of mercenaries recruited out of the frontier garrison-towns (守捉), hiring themselves to officials, military commissioners, and merchants; two of its assassins are planted in the Persian Temple. The novel's extrapolation from a real Tang institution (see the term 守捉城). Kept as the transliteration &#8216;the Shouzhuolang&#8217;; a member is a Shouzhuolang. Footnoted at first appearance."
     }
   },
   "places": {
@@ -1199,6 +1253,138 @@
       "pinyin": "Xiānzhōu",
       "status": "attested",
       "note": "The prefecture (modern Nanyang, Henan) in which the poet Cen Shen's family was registered; he names himself 'Cen Shen of Xianzhou.' The source writes 远怀坊 for 怀远坊 (Huaiyuan Ward) as the scene of his earlier interference; rendered by the intended referent. Standard."
+    },
+    "刘记书肆": {
+      "en": "Liu's Bookshop",
+      "pinyin": "Liújì Shūsì",
+      "status": "decided",
+      "note": "A bookshop inside Pingkang Ward where the Shouzhuolang take delivery of their lodgings and their commissions. Rendered by sense."
+    },
+    "兴道坊": {
+      "en": "Xingdao Ward",
+      "pinyin": "Xīngdào Fāng",
+      "status": "decided",
+      "note": "A ward east of the Vermilion Bird Avenue; the first watchtower to answer Zhang Xiaojing's purple-lantern signal."
+    },
+    "开化坊": {
+      "en": "Kaihua Ward",
+      "pinyin": "Kāihuà Fāng",
+      "status": "decided",
+      "note": "A ward south of Xingdao Ward whose watchtower relays Zhang Xiaojing's lantern-signal."
+    },
+    "光禄坊": {
+      "en": "Guanglu Ward",
+      "pinyin": "Guānglù Fāng",
+      "status": "decided",
+      "note": "A ward west of the Vermilion Bird Avenue, at the edge of the crowd waiting to see the lantern-floats."
+    },
+    "务本坊": {
+      "en": "Wuben Ward",
+      "pinyin": "Wùběn Fāng",
+      "status": "decided",
+      "note": "A ward whose watchtower wakes in turn to Zhang Xiaojing's lantern-signal."
+    },
+    "崇义坊": {
+      "en": "Chongyi Ward",
+      "pinyin": "Chóngyì Fāng",
+      "status": "decided",
+      "note": "A ward whose watchtower wakes in turn to Zhang Xiaojing's lantern-signal."
+    },
+    "勤政务本楼": {
+      "en": "the Qinzheng Wuben Tower",
+      "pinyin": "Qínzhèng Wùběn Lóu",
+      "status": "attested",
+      "note": "The &#8216;Tower of Diligent Governance and Attending to the Root,&#8217; a gate-tower of the Xingqing Palace from which Emperor Xuanzong appeared before the people; here the winning lantern-float performer is to light the great lantern-tower beside the Son of Heaven. Historical building; rendered by its name."
+    },
+    "楼兰": {
+      "en": "Loulan",
+      "pinyin": "Lóulán",
+      "status": "attested",
+      "note": "The ancient kingdom of Kroraina/Loulan on the Lop Nor route, long a byword for the desolate far frontier; in Cen Shen's poem, &#8216;the garrison boys of Loulan.&#8217; Standard identification."
+    },
+    "秦山": {
+      "en": "the hills of Qin",
+      "pinyin": "Qín Shān",
+      "status": "decided",
+      "note": "The mountains of the Qin region about Chang'an, in Cen Shen's poem paired against the clouds of the Long Mountains. Rendered by sense."
+    },
+    "岐山": {
+      "en": "Qishan",
+      "pinyin": "Qíshān",
+      "status": "attested",
+      "note": "Mount Qi and the district around it, west of Chang'an in Fufeng (modern Shaanxi), an ancient Zhou heartland; the country home of the Muhu song Tanqi hums. Standard."
+    },
+    "烽燧城": {
+      "en": "the beacon-fort",
+      "pinyin": "fēngsuì chéng",
+      "status": "decided",
+      "note": "The frontier beacon-fort in the Western Regions whose desperate defense Zhang Xiaojing and Wen Wuji survived (three of the garrison lived); the root of their friendship and of Zhang's backstory. Rendered &#8216;the beacon-fort.&#8217;"
+    },
+    "雍州": {
+      "en": "Yongzhou",
+      "pinyin": "Yōngzhōu",
+      "status": "attested",
+      "note": "The metropolitan prefecture of the Chang'an region; named with Luozhou in the statute defining the censors' patrol-bounds. Standard."
+    },
+    "洛州": {
+      "en": "Luozhou",
+      "pinyin": "Luòzhōu",
+      "status": "attested",
+      "note": "The prefecture of the eastern capital, Luoyang; named with Yongzhou in the quoted statute. Standard."
+    },
+    "范阳": {
+      "en": "Fanyang",
+      "pinyin": "Fànyáng",
+      "status": "attested",
+      "note": "A Tang frontier command (northeast, about modern Beijing), one of the ten military-commissioner circuits with a resident-agent courtyard in Pingkang Ward. Standard."
+    },
+    "平卢": {
+      "en": "Pinglu",
+      "pinyin": "Pínglú",
+      "status": "attested",
+      "note": "A Tang frontier command (the northeast, toward Liaoning), one of the ten military-commissioner circuits. Standard."
+    },
+    "朔方": {
+      "en": "Shuofang",
+      "pinyin": "Shuòfāng",
+      "status": "attested",
+      "note": "A Tang frontier command on the northern Ordos frontier (Wang Zhongsi's command); its resident-agent courtyard first reported the Türk incursion. Standard."
+    },
+    "河西": {
+      "en": "Hexi",
+      "pinyin": "Héxī",
+      "status": "attested",
+      "note": "A Tang frontier command of the Gansu corridor, one of the ten military-commissioner circuits. Standard."
+    },
+    "安西": {
+      "en": "Anxi",
+      "pinyin": "Ānxī",
+      "status": "attested",
+      "note": "The Protectorate-General of Anxi in the Western Regions (the Tarim), one of the ten frontier commands. Standard."
+    },
+    "北庭": {
+      "en": "Beiting",
+      "pinyin": "Běitíng",
+      "status": "attested",
+      "note": "The Protectorate-General of Beiting, north of the Tianshan, one of the ten frontier commands. Standard."
+    },
+    "陇右": {
+      "en": "Longyou",
+      "pinyin": "Lǒngyòu",
+      "status": "attested",
+      "note": "A Tang frontier command west of the Long Mountains toward Kokonor, one of the ten military-commissioner circuits. Standard."
+    },
+    "剑南": {
+      "en": "Jiannan",
+      "pinyin": "Jiànnán",
+      "status": "attested",
+      "note": "A Tang frontier command in the southwest (about modern Sichuan), one of the ten military-commissioner circuits. Standard."
+    },
+    "岭南五府": {
+      "en": "the Lingnan Five Prefectures",
+      "pinyin": "Lǐngnán Wǔfǔ",
+      "status": "attested",
+      "note": "The Lingnan Five-Prefectures command in the far south (the historical 岭南五府经略使), counted as the tenth of the ten frontier commands with a courtyard in Pingkang Ward. Rendered &#8216;the Lingnan Five Prefectures&#8217;; cf. Lingnan."
     }
   },
   "terms": {
@@ -1795,6 +1981,96 @@
       "pinyin": "húxuán wǔ",
       "status": "decided",
       "note": "The <i>huxuan</i> dance, a fast spinning dance from Sogdiana and the Western Regions, a craze of Tang Chang'an; rendered 'the Sogdian Whirl.' The deputy squad-leader turns it into a cruel taunt as his victims burn. Footnoted at first appearance."
+    },
+    "守捉城": {
+      "en": "garrison-town",
+      "pinyin": "shǒuzhuō chéng",
+      "status": "decided",
+      "note": "A Tang frontier garrison-post (<i>shouzhuo</i>): a small walled camp of border troops, below an &#8216;army&#8217; (军) in scale, self-governing and little regarded by the court. The word gives the Shouzhuolang their name. Rendered &#8216;garrison-town.&#8217;"
+    },
+    "留后院": {
+      "en": "resident-agent courtyard",
+      "pinyin": "liúhòu yuàn",
+      "status": "decided",
+      "note": "The capital establishment (<i>liuhou yuan</i>) that a frontier military commissioner kept in Chang'an&#8212;in Pingkang Ward&#8212;to manage his affairs at court and serve, unofficially, as his intelligence-post and eyes and ears. Rendered &#8216;resident-agent courtyard.&#8217;"
+    },
+    "端公": {
+      "en": "Duangong",
+      "pinyin": "duāngōng",
+      "status": "decided",
+      "note": "The off-duty form of address for an Attendant Censor (侍御史). Yuan Zai flatters Ji Wen, a mere Palace Censor (properly &#8216;Vice-Duan&#8217;), by styling him a rank higher. Kept as the transliteration."
+    },
+    "副端": {
+      "en": "Vice-Duan",
+      "pinyin": "fùduān",
+      "status": "decided",
+      "note": "The off-duty form of address proper to a Palace Censor (殿中侍御史), a rank below &#8216;Duangong.&#8217; Rendered &#8216;Vice-Duan&#8217; to keep the &#8216;Duan&#8217; that carries the flattery."
+    },
+    "殿中侍御史": {
+      "en": "Palace Censor",
+      "pinyin": "Diànzhōng Shìyùshǐ",
+      "status": "attested",
+      "note": "A censor of the Palace Bureau of the Censorate, of the seventh rank, holding the commissions of the Left and Right Patrols over the two capitals; Ji Wen's office. Rendering per C. O. Hucker."
+    },
+    "侍御史": {
+      "en": "Attendant Censor",
+      "pinyin": "Shìyùshǐ",
+      "status": "attested",
+      "note": "An investigating censor of the Censorate, a rank above the Palace Censor; addressed off duty as &#8216;Duangong.&#8217; Rendering per C. O. Hucker."
+    },
+    "左巡使": {
+      "en": "Commissioner of the Left Patrol",
+      "pinyin": "Zuǒxún Shǐ",
+      "status": "decided",
+      "note": "One of the two patrol commissions (左巡/右巡) held by a Palace Censor, charged with unlawful matters within the capital city (the Right Patrol taking those without). Rendered &#8216;Commissioner of the Left Patrol.&#8217;"
+    },
+    "拔灯": {
+      "en": "the lantern-floats",
+      "pinyin": "bádēng",
+      "status": "decided",
+      "note": "The Lantern-Festival parade troupes (<i>badeng</i>), &#8216;not lanterns at all&#8217; but singers and dancers on great carts chosen by the provinces and sent to the capital; they converge before the Xingqing Palace at the fourth watch. Rendered &#8216;the lantern-floats.&#8217;"
+    },
+    "灯顶红筹": {
+      "en": "the Lantern-Crown Red Tally",
+      "pinyin": "dēngdǐng hóngchóu",
+      "status": "decided",
+      "note": "The title given the most acclaimed of the lantern-float performers, permitted to mount the Qinzheng Wuben Tower and light the greatest lantern-tower beside the emperor. Rendered by sense."
+    },
+    "牧护歌": {
+      "en": "the Muhu song",
+      "pinyin": "Mùhù gē",
+      "status": "decided",
+      "note": "An old folk tune of the Qishan country, sung over the blessing-wine after a sacrifice; the melody Tanqi hums. A real Tang <i>quzi</i> tune-title; kept as the transliteration &#8216;the Muhu song.&#8217;"
+    },
+    "胡笳": {
+      "en": "the nomad reed-pipe",
+      "pinyin": "hújiā",
+      "status": "attested",
+      "note": "The <i>hujia</i>, a double-reed pipe of the northern nomads, its wailing note a stock image of frontier sorrow in Tang verse; the subject of Cen Shen's poem. Rendered &#8216;the nomad reed-pipe.&#8217;"
+    },
+    "大唐六典": {
+      "en": "the Tang Liudian",
+      "pinyin": "Dà Táng Liùdiǎn",
+      "status": "attested",
+      "note": "The <i>Tang Liudian</i> (the &#8216;Six Statutes of the Great Tang&#8217;), the great administrative code of the Kaiyuan era; Yuan Zai reads out its article on the Palace Censors. Historical; kept as the transliteration."
+    },
+    "百官格": {
+      "en": "the Statutes on Officials",
+      "pinyin": "Bǎiguān Gé",
+      "status": "decided",
+      "note": "A Tang legal compilation of regulations on the offices (<i>Baiguan ge</i>), quoted here on the censors' patrol-bounds and monthly circuit. Rendered by sense."
+    },
+    "神龙": {
+      "en": "Shenlong",
+      "pinyin": "Shénlóng",
+      "status": "attested",
+      "note": "The reign-era (705&#8211;707) of the restored Emperor Zhongzong, opened by the coup that ended Wu Zetian's Zhou; the setting of the Zhou Lizhen / Huan Yanfan atrocity. Standard."
+    },
+    "都护府": {
+      "en": "the Protectorate",
+      "pinyin": "dūhù fǔ",
+      "status": "attested",
+      "note": "A Tang protectorate-general governing a frontier region; here the Western Regions command whose reward Wen Wuji brought home on retiring. Rendering per C. O. Hucker."
     }
   }
 }
