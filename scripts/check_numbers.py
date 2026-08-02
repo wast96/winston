@@ -37,6 +37,12 @@ WORD_NUM = {
     # December 二十三日). The tens-ones spelled-number matcher only catches the cardinal
     # "twenty-three", not the ordinal "twenty-third", so 23 needs its own entry.
     "twenty-third": 23,
+    # date ordinals for the masked-ball days (B09, ch43-ch45): "the twelfth of March"
+    # renders 三月十二日, "the thirteenth of March" 三月十三日. The cardinals twelve/
+    # thirteen are in WORD_NUM but the ordinals twelfth/thirteenth are not, so 12/13
+    # would go missing on a spelled-out date without these.
+    "twelfth": 12,
+    "thirteenth": 13,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}

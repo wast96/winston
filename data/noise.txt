@@ -100,3 +100,15 @@
 四望
 # 万念 = "a myriad thoughts / every thought" (万念占据了我的心灵, ch38); the 万 is not the quantity 10000 (cf. 万物/万国/万岁)
 万念
+# --- B09 (ch42-ch45) additions ---
+# 千种 = "a thousand kinds (of people)" (千种人，万种人, ch42 diary); rhetorical multitude, not 1000
+# (万种 already above; the built-in 千万 strips 千万种, so only 千种 needs its own entry)
+千种
+# 三五牌 = State Express 555 cigarettes (拈阄 with a Lucky Strike among the 555s, ch43); a brand, not 3/5
+三五牌
+# 十字 = "cross" (the shape; 划一个十字 "trace a cross", 以这十字为记号, ch44); the 十 is not the count 10.
+# (十字架 already above; this also covers the bare 十字 without 架.)
+十字
+# 刻 = quarter-hour time unit: 三刻 = 45 min (十一时三刻 "eleven forty-five", ch45). A clock/duration
+# expression, not a count; strips the numeral before 刻 so 十一时 -> 11 survives whole.
+[一二三四五六七八九十]刻

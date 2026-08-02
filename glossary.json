@@ -672,6 +672,18 @@
    "pinyin": "Qingdao",
    "status": "attested",
    "note": "Port city on the Shandong peninsula and a noted seaside summer resort; former German (Kiautschou) and Japanese leasehold. Helen winters there (ch38&#8211;ch41). Standard pinyin (older &#8216;Tsingtao&#8217;)."
+  },
+  "国泰": {
+   "en": "the Cathay",
+   "pinyin": "Guotai",
+   "status": "attested",
+   "note": "The Cathay Theatre (<span lang=\"zh-Hans\">国泰大戏院</span>) on Avenue Joffre, a first-run picture house opened in 1932; where the narrator and Helen see a film (ch43). <span lang=\"zh-Hans\">国泰</span> (&#8216;Cathay&#8217;) is the house's own Chinese name."
+  },
+  "chez Rovere": {
+   "en": "chez Rovere",
+   "pinyin": "",
+   "status": "provisional",
+   "note": "A Western restaurant where the narrator dines with Helen (ch43); the name appears in the source in Latin script as <i>chez Rovere</i> (French, &#8216;at Rovere's&#8217;), kept as printed. No external attestation."
   }
  },
  "terms": {

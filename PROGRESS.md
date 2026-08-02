@@ -952,3 +952,127 @@ fixed glossary forms): Stoyevsky (史托亦夫斯基; the source gives no Latin 
 provisionals that recur here (Umetake 梅武, Honsa Jiro 本佐次郎, Dr. Gaolang 高朗 /
 Gaoye Road 高叶路, Manfield 曼斐儿, Dr. Philip 费利普). The flower-name "莲菊" (ch38) has
 no standard English equivalent and is rendered descriptively as "lotus-daisies."
+
+## Batch B09 (ch42 through ch45: Chapters 42 to 45) — DONE
+
+Translated ch42 (四十二, 46_chapter44.txt, 132 paras), ch43 (四十三, 47_chapter45.txt,
+96 paras), ch44 (四十四, 48_chapter46.txt, 70 paras), ch45 (四十五, 49_chapter47.txt,
+139 paras). ~14,344 source chars. The batch's arc: ch42 is Bai Ping's diary — the
+extracts the narrator copies from her silver diary (introduced end of ch41), her own
+coded shorthand decoded by his interpolated "My note:" glosses, ending with the
+pistol-under-the-mattress reveal that she and Mei Yingzi are secret allies; ch43, out
+of hospital with a maimed left arm, the three agents plot the masked-ball theft and
+draw lots (the Lucky Strike among the 555s), and Helen comes back from Qingdao changed,
+and the narrator half-promises to go with her to Beiping; ch44, the eve of the ball,
+Helen's ten-thousand-yuan check from Mrs. Stephen, and the operation briefing with the
+diamond-cross ring and the Korean dancer Miko as the way in; ch45, the long night-
+before dialogue with Bai Ping, who begs to take the task herself, walks him through the
+will, the no-confession vow, and the three "quinine" suicide pills, and at the end
+smiles for him "like a lily just opening," tears in her eyes.
+
+The DIARY (ch42) presentation, following ch41's convention and noted at the first
+extract (note 64): each diary entry is a self-contained double-quoted paragraph; a lone
+source 「──」 divider renders as a lone em-dash paragraph "—", a lone 「……」 as a lone
+"…"; a fused open 「──X」 keeps a leading em-dash inside the quote ("—X"), a fused close
+「X──」 a trailing one ("X—"); the narrator's own 「──...──」 block-boundaries around his
+"My note:" glosses are the source's way of fencing the extracts. Every source paragraph
+maps 1:1 (the _zip_bilingual.py count guard held at 132).
+
+Bilingual QC files authored with scripts/_zip_bilingual.py (source side COPIED verbatim
+from data/src, never re-typed), reading + parity split with split_bilingual.py.
+
+Checks run and results:
+- Verbatim source quotation: whitespace-stripped char comparison of the joined '>'
+  blockquotes vs the joined source paragraphs MATCHES for all four units (ch42 4088,
+  ch43 4067, ch44 3604, ch45 5364 chars). Verbatim by construction.
+- check_numbers.py --noise data/noise.txt: all four GREEN (0 unresolved) after the
+  noise additions below and two WORD_NUM ordinals. Numbers preserved include the ball
+  date (March 11/12/13), the clock times (half past twelve, twelve noon, eleven forty-
+  five, half past four to five, past four), the arm angles (67-68/10/80 degrees), the
+  ten-thousand-yuan check, "nine chances in ten," the one-tenth/nine-tenths of the
+  diary, the "four/eight/six/two parts" of Bai Ping's plea, the three pills, "two days
+  in jail... two hours at a concert," and the drawing-of-lots rounds (second/third).
+  Three "no one else / secondly / the two of us" spots were reworded so the source
+  第二/第二方面/两个人 count survives (first pass rendered them "no one else / on the
+  other / together").
+- check_structure.py --config scratch/b09_check.json (regenerated; scratch/ is
+  gitignored): paragraph parity OK for all four (132/96/70/139); note anchors 69/69
+  resolve, 0 unresolved; heading shape uniform across all 46 built docs; glossary drift
+  0 (variants map carried ONLY wrong forms, never the canonical).
+- Blind double translation (separate context) on the analytical/lyrical passages — the
+  diary aphorisms (ch42 the "two extremes" para 2, the "what does she mean" para 30, the
+  "thousand kinds of people" para 73, the two coded-gloss annotations), the "two kinds
+  of people" opening (ch43 para 3), the native-place meditation (ch43 para 83), the
+  long philosophy reflection (ch44 para 36), Bai Ping's "what is wrong with being
+  afraid" catalogue (ch45 para 55), her "four parts / eight parts" plea (para 108) and
+  the cock-crow passage (para 112): no divergence beyond wording; the blind pass
+  independently flagged 肩牌 as a typo for 肩膀 "shoulder" (already so rendered) and read
+  對手 as the espionage "adversary" (as rendered).
+- Round-trip back-translation (separate context) as an omission check on five number-
+  and clause-heavy passages (ch42 para 2, ch42 para 73, ch43 para 3, ch45 para 108, ch45
+  para 112): no dropped clause, name, negation, or numeral; the flagged four "parts"
+  (四/八/六/二) were confirmed against the source and by check_numbers.
+- Random deep audit (~3.2%, 14 paragraphs across the four chapters, incl. the long
+  ch44 para 36, ch45 para 55, ch45 para 108): every source clause accounted for;
+  observed error rate 0 (the only source-side anomalies were the digitization glitches
+  below, each rendered to plain sense).
+
+data/noise.txt additions (each a non-quantity numeral the number check flagged), and
+two WORD_NUM ordinals in check_numbers.py:
+- 千种 ("a thousand kinds of people," ch42 千种人，万种人); 千≠1000 (万种 already listed;
+  the built-in 千万 strips 千万种, so only 千种 needed its own line).
+- 三五牌 = State Express 555 cigarettes (the ch43 lots); a brand, not 3/5.
+- 十字 = "cross" the shape (ch44 划一个十字, 以这十字为记号); 十≠10 (十字架 already listed;
+  this covers the bare 十字 without 架).
+- [一二三四五六七八九十]刻 = quarter-hour time unit (ch45 十一时三刻 "eleven forty-five");
+  a clock expression, strips the numeral before 刻 so 十一时 → 11 survives whole.
+- WORD_NUM: "twelfth" → 12, "thirteenth" → 13 (date ordinals: "the twelfth/thirteenth
+  of March" render 三月十二日/十三日; the cardinals were present but not the ordinals).
+
+Glossary rows added (glossary.json now 120 term rows): 国泰 the Cathay (attested; the
+Cathay Theatre on Avenue Joffre, opened 1 Jan 1932, where the narrator and Helen see a
+film, ch43); chez Rovere (provisional; a Western restaurant, the name printed in Latin
+script in the source, ch43). REUSED without change: Bai Ping, Mei Yingzi, Helen, Mrs.
+Stephen/Stephen, Mrs. Manfield, Dr. Philip (费先生/电费 = Fei = Dr. Philip), Ah Mei,
+Jimi, Umetake (梅武), Honsa Jiro (本佐次郎), Colonel Arita (有田大佐), Miko (米可), the
+Standford, Qingdao, Beiping, Stoyevsky, the Bakou Apartments, Dr. Gaolang / Gaolang
+Hospital (高朗), the cheongsam, Greater East Asia.
+
+Footnotes added (6 across the four chapters, notes 64–69, all genuinely new; every
+recurring name/place/term already carries its note at first appearance in B01–B08):
+- note 64 (ch42): the diary presentation — that Chapter 42 is copied extracts with the
+  narrator's interpolated "My note:" glosses decoding the coded vocabulary, the dashes
+  and dots marking his omissions.
+- note 65 (ch42): the "longed to be a man" line is Mei Yingzi's remembered remark
+  admiring the ring, the diary slipping into others' recorded words.
+- note 66 (ch43): State Express 555 and Lucky Strike as the cigarette lots (555 a BAT
+  brand hugely popular in China then; the lone Lucky Strike the marked lot).
+- note 67 (ch43): "the interior" (後方) = unoccupied Free China, governed from Chongqing,
+  as against Japanese-held Beiping.
+- note 68 (ch44): Korea a Japanese colony since 1910, hence the dancer Miko, taken for
+  Japanese, is in fact Korean.
+- note 69 (ch45): quinine (金鸡纳霜) the ordinary anti-malarial, the medicine bottle a
+  blind for the three suicide pills, later spoken of in code as the narrator's "aspirin."
+
+Fact-checking (Wikipedia / Baidu Baike; no LLM-sourced references):
+- Cathay Theatre (国泰大戏院/Cathay Cinema), Avenue Joffre, Shanghai: opened 1 January
+  1932 (first as the "Cathay Grand"), Art Deco house by C. H. Gonda, 1,080 seats.
+  Corroborated; used for the glossary row (ch43).
+- State Express 555: a British American Tobacco brand (from the Ardath Tobacco Co.,
+  overseas rights to BAT 1925), a major seller in Republican-era China. Corroborated;
+  footnoted (note 66).
+- Japan's annexation of Korea, 1910: corroborated; footnoted (note 68).
+- Quinine as the standard cinchona-derived anti-malarial of the day: corroborated;
+  footnoted (note 69).
+
+Source digitization glitches rendered to plain meaning and NOT footnoted (no genuine
+reading uncertainty; the blind translation pass independently confirmed 肩牌):
+- ch42: "勾谷" (para 76, 入她的勾谷而听她指使) rendered "snare" (a non-word; sense fixed
+  by 听她指使 "do her bidding"); "一一" used for an em-dash (para 68 麽？一一梅瀛子; also
+  ch43 para 47 「一一纪念我的新生」) rendered "—"; "我的抱了许久" (para 128, stray 的)
+  rendered "I held her long."
+- ch43: "收起丁照相" (para 46, garbled 了) rendered "gathered up the photographs";
+  "史蒂芬基前" (para 88, 基 for 墓 grave) rendered "before Stephen's grave."
+- ch44: "他但这是不必同海伦说明的" (para 19, stray 他) rendered "only there was no need
+  to explain it to Helen."
+- ch45: "肩牌" (para 112, for 肩膀 shoulder) rendered "patted her shoulder."
