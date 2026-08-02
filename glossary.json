@@ -396,6 +396,60 @@
    "pinyin": "Lu Yu",
    "status": "attested",
    "note": "Tang author of the Classic of Tea (茶经), honored as the Sage of Tea. See the note at Chapter 17."
+  },
+  "李沁红": {
+   "en": "Li Qinhong",
+   "pinyin": "Li Qinhong",
+   "status": "decided",
+   "note": "A major of the Second Section (二处) of the Detective Division, Central Shanghai Garrison Command; 'the Flower of Juntong' (军统之花), its star operative, who takes Fang Zhitong on the river boat."
+  },
+  "熊自达": {
+   "en": "Xiong Zida",
+   "pinyin": "Xiong Zida",
+   "status": "decided",
+   "note": "Chief (处长) of the Detective Division of the Central Shanghai Garrison Command; Muci's superior."
+  },
+  "高磊": {
+   "en": "Gao Lei",
+   "pinyin": "Gao Lei",
+   "status": "decided",
+   "note": "A captain (高队长, Captain Gao) in the Detective Division; Muci's colleague."
+  },
+  "明参谋": {
+   "en": "Staff Officer Ming",
+   "pinyin": "Ming canmou",
+   "status": "decided",
+   "note": "A staff officer of the Second Section of the Detective Division; Muci's colleague."
+  },
+  "向": {
+   "en": "Xiang",
+   "pinyin": "Xiang",
+   "status": "decided",
+   "note": "The underground cover-surname of Fang Zhitong (方致同): 老向 Old Xiang, 向先生 Mr. Xiang, 向书记 Secretary Xiang. See Chapter 21 footnote."
+  },
+  "岳嬷嬷": {
+   "en": "Amah A-Yue",
+   "pinyin": "Yue mama",
+   "status": "decided",
+   "note": "The 嬷嬷 (amah/nurse) form of 阿岳 (A-Yue), Yang Mulian's wet-nurse, her face burned in the fire; she keeps house for A-Chu. Same referent as 阿岳; rendered 'Amah A-Yue' when named."
+  },
+  "荣儿": {
+   "en": "Rong'er",
+   "pinyin": "Rong'er",
+   "status": "decided",
+   "note": "Affectionate diminutive of 荣初 (Rong Chu), used by A-Chu and Amah A-Yue."
+  },
+  "初儿": {
+   "en": "Chu'er",
+   "pinyin": "Chu'er",
+   "status": "decided",
+   "note": "Diminutive of the dead twin 杨慕初; the name his mother cries out. Rendered 'Chu'er' to keep it distinct from the living A-Chu (阿初)."
+  },
+  "小吴": {
+   "en": "Little Wu",
+   "pinyin": "Xiao Wu",
+   "status": "decided",
+   "note": "Muci's orderly (勤务兵) at the Central Shanghai Commandant's Office."
   }
  },
  "organizations": {
@@ -680,6 +734,36 @@
    "pinyin": "Haiguan Zongshu",
    "status": "decided",
    "note": "The Maritime Customs head office, where Han Yu is posted."
+  },
+  "百乐门": {
+   "en": "the Paramount",
+   "pinyin": "Bailemen",
+   "status": "attested",
+   "note": "The Paramount Ballroom, a famous Shanghai dance hall; here the house to which Young Tang is packed off."
+  },
+  "英伦茶室": {
+   "en": "the English Tearoom",
+   "pinyin": "Yinglun Chashi",
+   "status": "decided",
+   "note": "The English-style tearoom near the garrison command where A-Chu meets his twin; distinct from the plain 英国茶室 ('an English tearoom') mentioned once."
+  },
+  "英伦时报": {
+   "en": "the English Times",
+   "pinyin": "Yinglun Shibao",
+   "status": "provisional",
+   "note": "An English-language newspaper A-Chu reads in the tearoom (fictional)."
+  },
+  "大光明旅社": {
+   "en": "the Grand Light Hostel",
+   "pinyin": "Daguangming Lushe",
+   "status": "decided",
+   "note": "The 大光明 ('great brightness') hostel proposed as the meeting site; distinct from the like-named 大光明电影院 (the Grand Theatre)."
+  },
+  "沪中长官公署": {
+   "en": "the Central Shanghai Commandant's Office",
+   "pinyin": "Huzhong Zhangguan Gongshu",
+   "status": "decided",
+   "note": "The administrative seat where Muci is posted; the headquarters office of the 沪中警备司令部 (the Central Shanghai Garrison Command)."
   }
  },
  "places": {
@@ -922,6 +1006,18 @@
    "pinyin": "Zhongyuan",
    "status": "decided",
    "note": "The Central Plains, the historic heartland of China."
+  },
+  "梅花巷": {
+   "en": "Plum Blossom Lane",
+   "pinyin": "Meihua Xiang",
+   "status": "decided",
+   "note": "An out-of-the-way lane; the delegate Cong Feng is lodged at Number Five, and A-Chu looks at renting Number Seven next door."
+  },
+  "霞飞路": {
+   "en": "Avenue Joffre",
+   "pinyin": "Xiafei Lu",
+   "status": "attested",
+   "note": "The main thoroughfare of the French Concession (today Huaihai Road); here a café on it is the twins' second meeting place."
   }
  },
  "terms": {

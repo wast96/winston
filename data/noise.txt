@@ -135,3 +135,20 @@
 十五、六
 一百八十度
 阿四
+# --- B08 (ch19-ch21) non-quantity numerals ---
+# 八、九十分 = "eight or nine parts in ten" (a fuzzy guess-degree), not the counts 8/90
+八、九十分
+# 百乐门 = the Paramount (Bailemen ballroom); 百 is part of the proper name
+百乐门
+# 四目相遇 = "their eyes met" (four eyes = two pairs); 四 idiomatic, not the count 4
+四目
+# 百无聊赖 = "utterly listless"; 百 idiom = "in every way", not 100
+百无聊赖
+# 几十万 = "several hundred thousand"; a built-in 几十 rule strips 几十 and leaves a
+# stray 万(=10000) before 的输赢 -- noise that residue
+几十万
+万的输赢
+# 四肢 = "his limbs" (four limbs); 四 idiomatic, not the count 4
+四肢
+# 四周 = "all around" (the four sides); 四 idiomatic, not the count 4
+四周

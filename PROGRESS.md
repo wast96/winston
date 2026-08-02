@@ -710,3 +710,97 @@ Flagged for the read-through:
 Build: out/On a Hair Trigger.epub rebuilt, 19 of 36 units translated, 61 notes.
 qa_epub.py PASS (36 documents, 3220 paragraphs, 61 references = 61 bodies = 61
 backlinks, all links resolve).
+
+## B08 = Chapters 19 to 21 (ch19 to ch21) — DONE
+
+Scope: Chapter 19 (ch19, 22_part0020.txt, 6,486 src chars, 241 paragraphs),
+Chapter 20 (ch20, 23_part0021.txt, 6,823 chars, 231 paragraphs), Chapter 21
+(ch21, 24_part0022.txt, 6,096 chars, 177 paragraphs). 19,405 chars, 649 paragraphs.
+
+Authoring flow (established B02): wrote out/<id>_en.txt (one English paragraph per
+source paragraph), then make_bilingual.py (verbatim `>` source), then
+split_bilingual.py. No hand-typing of the source.
+
+Checks, per unit:
+- check_numbers.py --noise data/noise.txt : 0 unresolved for all three.
+  noise.txt additions this batch (all non-quantity numerals/idioms/names):
+  八、九十分 (a fuzzy guess-degree, not 8/90), 百乐门 (the Paramount), 四目 (四目相遇
+  "their eyes met"), 百无聊赖 (idiom "utterly listless"), 几十万 + 万的输赢 (a built-in
+  几十 rule strips 几十 and leaves a stray 万=10000 residue; noise the residue),
+  四肢 ("his limbs"), 四周 ("all around"). Also rendered 万里 as "Ten thousand li"
+  (couplet, ch20) so the digit survives rather than noising it.
+- check_structure.py --pairs : parity OK for all three (241/241, 231/231, 177/177);
+  note anchors resolve; heading shape uniform.
+- Verbatim fidelity: diffed data/zh/<id>.txt (minus title line) against the source
+  paragraphs (minus 2 metadata lines) for each unit — zero content diffs (only the
+  source files' missing final newline, as expected).
+
+QC: blind double translation + round-trip back-translation applied to the lyrical
+and argumentative passages (Yashu portraits and dance-floor; A-Chu's shame before
+Cong Feng; the "five thousand years of culture" speech; the billiards
+reconciliation; the fire backstory; the river-boat capture; Ronghua's "to fall is
+not the fearful thing"). Paranoid full audit run on ~26 paragraphs (~4%) in a fresh
+context: verbatim-quote, back-translation and independent re-translation. Observed
+error rate 0% (0 real omissions/additions/mistranslations). One sub-threshold
+wording improvement applied: ch20 冷静 in the trait-list 孤僻、冷静、独立 changed from
+"cold" to "cool-headed".
+
+Footnotes: 9 new (#62 to #70 by build order), ~3 per chapter-equivalent.
+- ch19: title 梅花一夜漏春工 (author's line in the old manner, plum "leaks/betrays"
+  spring, Wang Anshi tradition; uncorroborated as a direct quotation; anchored to
+  "a row of last plum trees"); Yu Xuanji (鱼玄机, real Tang courtesan-poet — the
+  source's 遁入佛门/"Buddhist gate" is contradicted, she was a Daoist); 月份牌
+  color-lithograph calendar posters (Shanghai commercial art).
+- ch20: title 一笑相逢哪易得 (author's line; the phrase 一笑相逢 is stock Song lyric,
+  cf. Zhou Bangyan's Die lian hua "一笑相逢蓬海路"; uncorroborated as a full quotation);
+  Pushkin "To the Sea" ("free element", 1824) + Dostoevsky "The Insulted and the
+  Injured" (1861), A-Chu's Russian hints about the delegate — both corroborated;
+  Mencius (孟子, Gaozi) "no water that does not run downward" — corroborated; the
+  杨羽柏/"Yang Yubo" (in quotes) vs 杨羽桦/Yang Yuhua identity (the impostor father,
+  rendered by context, not silently reconciled).
+- ch21: title 千钧一发箭在弦 — the source of the book's own title. 千钧一发 corroborated
+  (Han Yu, 与孟尚书书, "其危如一发引千钧"); 箭在弦上 corroborated (Chen Lin, "矢在弦上，不得
+  不发"); connected to 一触即发 / On a Hair Trigger and to this chapter's climax.
+  向/老向/向先生/向书记 = Fang Zhitong's underground cover-surname Xiang.
+XHTML note bodies use numeric character references only (verified: no named
+entities in the new notes); anchors verified as unique verbatim substrings before
+building.
+
+Twin / identity handling this batch:
+- No 杨慕次/杨慕初 twin-name slip occurs in ch19-21. The mistaken-identity scenes
+  (Cong Feng and Xin Lili each greet A-Chu as A-Ci/"阿初"; ch19) are deliberate plot,
+  not typos, and are rendered straight.
+- ch20 line 184 prints the borrowed identity "杨羽柏" (in quotes) then reverts to the
+  true name 杨羽桦; footnoted (#65-order) and rendered by context (Yang Yuhua = the
+  man living as Yang Yubo). 徐玉真 in quotes = the impostor "mother"; kept in quotes.
+- Deliberate source irony kept, NOT "fixed": Yang Yuhua's fire story says the nurse
+  岳嬷嬷 "died" in the blaze (ch21), yet Amah A-Yue is alive and burn-scarred at
+  A-Chu's house (ch20) — the reader has known since ch13 she survived. Rendered
+  faithfully on both sides.
+
+Glossary: 16 new rows, one decided rendering per referent; existing renderings
+reused unchanged (A-Chu/Yang Muchu, Muci/A-Ci, Xu Yuzhen, Ronghua, Cong Feng/Cong
+Hui, Rong Chu, Rong Sheng, He Yashu, Xin Lili, Young Tang, Xia Yuechun, Liu A-Si,
+Lu Liangchen, Fang Zhitong, Du Luning, Yang Yuhua, Yang Yubo, the Golden Dragon
+Society, the Detective Division, Longjing, fabi). New people: Li Qinhong (李沁红,
+"the Flower of Juntong"), Xiong Zida (熊自达, chief of the Detective Division), Gao
+Lei (高磊 = Captain Gao), Staff Officer Ming (明参谋), Xiang (向, Fang Zhitong's
+cover-surname), Amah A-Yue (岳嬷嬷, the 嬷嬷 form of 阿岳), Rong'er (荣儿), Chu'er
+(初儿), Little Wu (小吴). New organizations: the Paramount (百乐门), the English
+Tearoom (英伦茶室), the English Times (英伦时报), the Grand Light Hostel (大光明旅社,
+distinct from 大光明电影院 the Grand Theatre), the Central Shanghai Commandant's
+Office (沪中长官公署, HQ of the garrison command). New places: Plum Blossom Lane
+(梅花巷), Avenue Joffre (霞飞路).
+
+Figures: none in this batch.
+
+Flagged for the read-through:
+- Source clock-time inconsistency (not a translation error): ch19 A-Chu tells Xia
+  the tea meeting is at 四点/four o'clock, but tells Lili 两点/two o'clock; ch20
+  confirms 下午两点/two o'clock. Each English line matches its own source line.
+- 一夜漏春工 / 一笑相逢哪易得 titles: author's lines in the old manner, not verifiable
+  single quotations — rendered literally and footnoted as such.
+
+Build: out/On a Hair Trigger.epub rebuilt, 22 of 36 units translated, 70 notes.
+qa_epub.py PASS (36 documents, 3866 paragraphs, 70 references = 70 bodies = 70
+backlinks, all links resolve).
