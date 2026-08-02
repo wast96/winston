@@ -421,6 +421,71 @@
       "pinyin": "Yangge",
       "status": "attested",
       "note": "杨格; Owen D. Young. See the note at 'her Dawes, and her Young.'"
+    },
+    "冯云卿": {
+      "en": "Feng Yunqing",
+      "pinyin": "Feng Yunqing",
+      "status": "decided",
+      "note": "The ruined usurer-landlord at the centre of Chapter Eight: a half-fledged Qing juren who built a fortune by lending at usury and foreclosing on peasants' land, then fled to Shanghai and lost it all speculating in government bonds. His nickname among the peasants he ruined is the 'smiling tiger.'"
+    },
+    "何慎庵": {
+      "en": "He Shen’an",
+      "pinyin": "He Shen'an",
+      "status": "decided",
+      "note": "A former magistrate and fellow bond-speculator of Feng Yunqing's, ruined in the same crash; it is he who proposes baiting the lecherous Zhao Botao with Feng's own daughter."
+    },
+    "冯眉卿": {
+      "en": "Feng Meiqing",
+      "pinyin": "Feng Meiqing",
+      "status": "decided",
+      "note": "Feng Yunqing's seventeen-year-old daughter, a modern schoolgirl, called Ah Mei (阿眉) and Meiqing at home. Her ten-thousand-dollar trousseau fund and her acquaintance with Zhao Botao's mistress make her the pawn in her father's scheme."
+    },
+    "刘玉英": {
+      "en": "Liu Yuying",
+      "pinyin": "Liu Yuying",
+      "status": "decided",
+      "note": "A young widow, friend of Feng Meiqing's and mistress of the bond-king Zhao Botao; daughter-in-law of the broker Lu Kuangshi. She is the intended channel to Zhao's market secrets."
+    },
+    "老九": {
+      "en": "Old Ninth",
+      "status": "decided",
+      "note": "Feng Yunqing's young concubine (his 姨太太), taken after his wife's death; 'Old Ninth' is her house-style. Backed by her sworn sister the Fifth Concubine of the Bai residence, she rules the household and openly defies Feng's questioning of her nightlife."
+    },
+    "张大千": {
+      "en": "Zhang Daqian",
+      "pinyin": "Zhang Daqian",
+      "status": "attested",
+      "note": "Zhang Daqian (1899–1983), later one of the most celebrated of modern Chinese painters; a hanging scroll of his tiger adorns Feng's wing-room."
+    },
+    "张资平": {
+      "en": "Zhang Ziping",
+      "pinyin": "Zhang Ziping",
+      "status": "attested",
+      "note": "Zhang Ziping (1893–1959), a hugely popular writer of the 1920s and 1930s known for his 'triangle-love' romances; his name stands here for light erotic fiction. He later collaborated with the Japanese and his reputation collapsed."
+    },
+    "朱伯庐": {
+      "en": "Zhu Bolu",
+      "pinyin": "Zhu Bolu",
+      "status": "attested",
+      "note": "Zhu Yong (1627–1698), styled Bolu, a Ming-loyalist scholar whose Maxims for the Ordering of a Household (治家格言, the 'Zhu Bolu Maxims') became one of the most widely copied moral primers of late imperial China. The framed text hangs, in irony, over the scene of Feng's scheming."
+    },
+    "六宝": {
+      "en": "Liu Bao",
+      "pinyin": "Liu Bao",
+      "status": "decided",
+      "note": "The little maidservant (小大姐) in Feng Yunqing's household."
+    },
+    "金妈": {
+      "en": "Jin Ma",
+      "pinyin": "Jin Ma",
+      "status": "decided",
+      "note": "The hairdressing amah in Feng Yunqing's household."
+    },
+    "阿顺": {
+      "en": "A Shun",
+      "pinyin": "A Shun",
+      "status": "decided",
+      "note": "Feng Yunqing's rickshaw-man."
     }
   },
   "organizations": {
@@ -555,6 +620,12 @@
       "pinyin": "Hongmen",
       "status": "attested",
       "note": "洪门; the sworn-brotherhood secret society of south China. See the note at 'a Hongmen brother.'"
+    },
+    "元丰钱庄": {
+      "en": "the Yuanfeng native bank",
+      "pinyin": "Yuanfeng qianzhuang",
+      "status": "decided",
+      "note": "The native bank (钱庄) holding the ten-thousand-dollar deposit set aside as Feng Meiqing's trousseau."
     }
   },
   "places": {
@@ -851,6 +922,18 @@
       "pinyin": "Riben",
       "status": "attested",
       "note": "日本; Japan, named with England as America's two rivals in the East."
+    },
+    "明园": {
+      "en": "Mingyuan",
+      "pinyin": "Mingyuan",
+      "status": "decided",
+      "note": "A Shanghai racing and pleasure ground; the concubine goes there for the evening's 'special race.'"
+    },
+    "白公馆": {
+      "en": "the Bai residence",
+      "pinyin": "Bai gongguan",
+      "status": "decided",
+      "note": "The household of the Fifth Concubine of the Bai family (白府五姨太), the concubine's sworn sister and protector; also rendered the House of Bai."
     }
   },
   "terms": {
@@ -1225,6 +1308,16 @@
       "pinyin": "gongye ziben",
       "status": "decided",
       "note": "工业资本; industrial capital, the manufacturers' capital that finance capital seeks to swallow; Wu Sunfu's own class."
+    },
+    "笑面虎": {
+      "en": "smiling tiger",
+      "status": "decided",
+      "note": "笑面虎, a man of genial face and predatory heart; Feng Yunqing's standing nickname. See the footnote at its first appearance."
+    },
+    "庄票": {
+      "en": "native-bank draft",
+      "status": "decided",
+      "note": "庄票, a draft drawn on a native bank (钱庄), negotiable like cash among merchants."
     }
   }
 }

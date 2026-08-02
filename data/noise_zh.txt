@@ -149,3 +149,28 @@
 # built-in 几万-stripper orphans out of 十几万 (抵借十几万, rendered "a hundred-odd
 # thousand"): once 几万 is eaten the residue reads 十来, which this rule removes (ch07)
 (?<![一二三四五六七八九十两兩])十来
+# --- Chapter Eight additions ---
+# 零用 "pocket-money" (零 not the count zero) (ch08)
+零用
+# 五彩 "many-coloured / of five colours" (idiom; 五 not the count five) (ch08)
+五彩
+# 张大千 the painter Zhang Daqian; 大千 contains 千, not the quantity 1000 (ch08)
+张大千
+# a 两 immediately after 万 is the tael (silver unit), not the digit 2: strip so
+# 三万两 -> 30000 (parallel to the ch03 (?<=百)两 / (?<=十)两 rules) (ch08)
+(?<=万)两
+# 三千五千 "three or five thousand" -- the checker SUMS 三千+五千 into 8000; the range
+# is rendered "three or five thousand" (3000 and 5000) (ch08)
+三千五千
+# 六宝 the little maid Liu Bao; 六 is part of her name, not the count six (ch08)
+六宝
+# 千金 in 千金小姐 / 千金之体 "precious young lady / her precious body"; 千金 is the
+# honorific ("thousand-gold" = a treasured daughter), not the quantity 1000 (ch08)
+千金
+# 一百五六十 "a hundred and fifty or sixty" (dollars a month) -- the checker cannot sum
+# a compound hundred; rendered "a hundred and fifty or sixty" (ch08)
+一百五六十
+# a 百 NOT preceded by a numeral is not the quantity 100 but idiom (凡百 "all things")
+# or a stripper residue (百几十万 "over a million": the built-in 几十万 strip leaves a
+# bare 百). Parallel to the ch03 bare-万 rule. (ch08)
+(?<![零一二两兩三四五六七八九十百千])百

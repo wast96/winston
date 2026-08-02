@@ -670,3 +670,79 @@ None in this chapter.
   (first-appearance rule); glossary cross-refs it rather than re-annotating.
 - 白相人 kept as "loafer(s)" (Wu-dialect slang for idlers/toughs); 管车/稽查 fixed as
   "overseer"/"inspector" for the recurring filature-floor hierarchy.
+
+## B08 = Chapter Eight (ch08), 16,002 source chars
+
+Done. The longest chapter so far, and a self-contained one: the fallen usurer
+Feng Yunqing, ruined in the bond crash, is talked by two fellow-speculators
+(He Shen'an, then Li Zhuangfei) into recouping his losses by pandering his own
+daughter Feng Meiqing to the bond-king Zhao Botao. No source notes (confirmed by
+grep: the next author notes [8][9] fall in ch11).
+
+### Pipeline run
+
+- out/ch08_bilingual.md authored as 235 verbatim source/English pairs. Built the
+  safe way: English written one paragraph per line, zipped against the source body
+  (line 1 = title 八 dropped; the 235 remaining are the body). Pre-zip assertion
+  `len(en)==len(body)==235` passed; alignment spot-checked at paras 1/50/100/150/
+  200/235 before writing. No paragraph dropped or merged.
+- split_bilingual.py -> out/ch08_reading.md (235 paras) + data/zh/ch08.txt.
+- check_numbers.py --noise data/noise_zh.txt: 0 unresolved (18 flags on first pass,
+  all resolved: 4 by English rewording, the rest by documented noise).
+- check_structure.py --pairs: parity 235 | 235 OK.
+- build_reading_epub.py out/Midnight.epub: 8 of 20 chapters, 49 notes.
+- qa_epub.py out/Midnight.epub: PASS (49 refs / 49 bodies / 49 backlinks; all links
+  resolve).
+
+### Numbers: English rewordings (source number faithfully in the prose, checker
+### could not read the rendering)
+
+- 千多亩 rendered "a thousand-odd mu more" (was "another thousand mu and more",
+  which the checker reads as no 1000).
+- 一百元 at paras 23/26 rendered "a hundred dollars" / "getting a hundred dollars"
+  (was "the hundred dollars", no article the checker counts); para 26 also made
+  父女两个 explicit as "the two of them" so the count 2 shows.
+- 十万 rendered "one hundred thousand" (not "a hundred thousand", which the checker
+  cannot sum) per the handoff habit.
+
+### Numbers: ch08 noise added (documented in data/noise_zh.txt)
+
+零用 (pocket-money, 零 not 0); 五彩 (many-coloured, 5 not a count); 张大千 (the painter
+Zhang Daqian, 大千 carries 千 not 1000); (?<=万)两 (the tael after 万, e.g. 三万两 ->
+30000 not 30002 — parallel to the ch03 (?<=百)两/(?<=十)两 rules); 三千五千 (the checker
+SUMS 3000+5000 into 8000; the range is rendered "three or five thousand"); 六宝 (the
+maid Liu Bao, 六 in her name); 千金 (千金小姐/千金之体 "precious young lady/body", the
+honorific, not 1000); 一百五六十 (a compound hundred the checker cannot sum); and a
+bare-百 rule `(?<![zh numerals])百` clearing 凡百 "all things" and the 百 residue left
+when the built-in 几十万 strip eats 百几十万 "over a million".
+
+### Footnotes (builder-numbered 44-49)
+
+44 smiling tiger (笑面虎 + 长线放远鹞); 45 the green headscarf (绿头巾 = cuckold);
+46 inviting the gentleman to step into the jar (请君入瓮, Lai Junchen/Zhou Xing);
+47 "I am fond of women" (Mencius 1B.5, 寡人好色); 48 loosing the pigeon (放白鸽/仙人跳,
+the badger-game con); 49 wife-sharing (公妻, the anti-Communist slander turned inside
+out in the chapter's last line). All anchors verified verbatim in the reading text.
+
+### Glossary
+
+New people: Feng Yunqing (冯云卿), He Shen'an (何慎庵), Feng Meiqing (冯眉卿/阿眉),
+Liu Yuying (刘玉英), Old Ninth (老九, the concubine), Zhang Daqian (张大千, attested),
+Zhang Ziping (张资平, attested), Zhu Bolu (朱伯庐, attested), Liu Bao (六宝), Jin Ma
+(金妈), A Shun (阿顺). New places: Mingyuan (明园), the Bai residence (白公馆). New org:
+the Yuanfeng native bank (元丰钱庄). New term: smiling tiger (笑面虎). Reused unchanged:
+Li Zhuangfei (李壮飞), Lu Kuangshi (陆匡时), Han Mengxiang, Zhao Botao, Wu Sunfu/Wu the
+Third, the Hongmen, the Dragon-Boat Festival, 编遣/裁兵/印子钱/庄票.
+
+### Read-through / open items
+
+- Random-sample deep audit (~4%, ~9 paragraphs across the opening usurer-history,
+  the two con-artist dialogues, the concubine quarrel and the father-daughter
+  bargain): verbatim quotation, quantities and referents all held; no omission or
+  invented bridging. Tricky quantities checked by hand: 七八万 = seventy or eighty
+  thousand (twice); 五万/三万多 the margin and the shortfall; 两个七千万/四个七千万 =
+  two/four lots of seventy million; 百几十万 = over a million; 一万 the trousseau
+  deposit; 下月十六 = the sixteenth of next month.
+- 双管齐下 (ply both together) kept literal in the interior monologue; 美人计 rendered
+  "the beauty-trap"; 国骂 "national curse" (the turtle graffiti). 六点十分 (6:10) reads
+  clean because the built-in 十分 strip removes the "十分" as the idiom, leaving 六.
