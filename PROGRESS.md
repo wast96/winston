@@ -1293,3 +1293,150 @@ hundred") was carried in the English instead of noised.
   crowd, the apothecary, the Cibei Temple square) are divided in the source by
   decorative rules (Image00005.jpg); following house style the shifts are plain
   paragraph breaks, no separator glyph.
+
+## B11 = ch11 (第十一章 戌正 / "The Hour of the Dog, Second Half, 8 p.m.")
+
+Scope: the whole chapter, 16,491 source characters, 329 paragraphs. Three
+interwoven strands: Zhang Xiaojing and Tanqi reach the Shouzhuolang firepoint at
+Liu's Bookshop, where the true firemaster is found murdered and impersonated by
+the killer (Tanqi catches the impostor by scent, storax without camphor) and the
+firepoint guards ring them in, forcing a fighting retreat to the Pingkang Ward
+constable-post; Yao Runeng, hiding Wen Ran from Yuan Zai via Cen Shen and a
+signal-lantern, holds the great watchtower and sees Zhang revive the watchtower
+net; and Li Bi, carried off to Long Bo's courtyard, is shown the Que-le
+Huo-duo's true form (rock-oil bamboo tubes fitted to festival lantern-frames)
+and grasps that the Pifu aim at one point, not the whole city.
+
+Deliverables shipped: out/ch11_bilingual.md (QC only, never ships),
+out/ch11_reading.md, data/zh/ch11.txt, notes.json (3 new notes, 43 total),
+glossary.json (grown, below), noise.txt (extended, below), the rebuilt EPUB,
+and this log. figures.json unchanged (no content illustration in this chapter;
+Image00004.jpg the footnote-marker glyph and Image00005.jpg the scene-break rule
+are not figures).
+
+### Checks run
+
+- check_numbers.py --noise noise.txt: 329 pairs, 0 unresolved. First pass flagged
+  five NON-quantities, all added to noise.txt (recorded below): 杂七杂八 and
+  七转八转 (7/8 idioms), 牌九 (the 9 of the domino-game name, 像牌九一样), 刘十七
+  (the 十七 of the assassin's name Liu Shiqi), and 十七违背 (the bare 十七 as his
+  short name "Shiqi" in the elder's speech, noised in-context so 第十七句 = "the
+  seventeenth line" of the poem is still checked). One flag was a REAL count fixed
+  in the ENGLISH, not noised: 十来个铁匠 had first been rendered "a dozen or so,"
+  which drops the 10; changed to "ten-odd" so the value survives (and two further
+  十几 renderings were normalized to "ten-odd" for house-style consistency).
+  几万个灯架 ("tens of thousands of lantern-frames") passes on the built-in 几+万
+  rule.
+- check_structure.py --pairs data/zh/ch11.txt out/ch11_reading.md: paragraph
+  parity 329 source / 329 translation, OK.
+- Anchor resolution: all 3 new note anchors ("Self-Raining Pavilion", "A Moonlit
+  Night on the Spring River", "storax") are verbatim substrings of the reading
+  text and attach at first appearance; the builder also refuses on any unmatched
+  anchor.
+- qa_epub.py: PASS. 38 files, 32 documents, all links resolve; 43 note
+  references, 43 bodies, 43 backlinks; numbering sequential in reading order.
+
+### Notes added (notes.json ch11; 3, total now 43)
+
+1. The Self-Raining Pavilion (自雨亭) at first appearance: a genuine Tang cooling
+   device (water raised to the roof, falling from the eaves as a curtain);
+   corroborated against the Tang yulin (Wang Hong's pavilion) and the palace
+   water-cooled "cool hall" (凉殿).
+2. "A Moonlit Night on the Spring River" (春江花月夜) at first appearance: Zhang
+   Ruoxu's famous early-Tang poem, whose lines the Shouzhuolang use as passwords;
+   the quoted "白云一片去悠悠" is verified as its seventeenth line. Corroborated.
+3. Storax (苏合香) at first appearance: the imported western aromatic resin whose
+   scent (without the bookshop's camphor) betrays the impostor; corroborated
+   against Schafer, The Golden Peaches of Samarkand.
+
+Recurring subjects already noted or already passed were NOT re-noted (per the
+first-appearance rule): the Shouzhuolang, the Pifu (蚍蜉 + the Han Yu couplet),
+Ji Wen, Yuan Zai, the beacon-fort at Balhuan, the Turkic Wolf Guards, the
+Five-Faced Yama, the Que-le Huo-duo, and everything in ch01-ch10.
+
+### Glossary added (glossary.json)
+
+- people (2): 刘十七 = "Liu Shiqi"; 摩伽罗 = "Mojialuo" (a Shouzhuolang code-name,
+  kept as pinyin to distinguish it from 摩羯 = "makara").
+- places (3): 宣阳坊 = "Xuanyang Ward"; 永乐坊 = "Yongle Ward"; 天竺 = "Tianzhu"
+  (the Tang name for India).
+- terms (15): 火点 = "firepoint"; 火师 = "firemaster"; 自雨亭 = "the Self-Raining
+  Pavilion"; 春江花月夜 = "A Moonlit Night on the Spring River"; 苏合香 = "storax";
+  灯轮 = "lantern-wheel"; 福寿禄三星 = "the Three Stars (Fortune, Longevity, and
+  Rank)"; 娑罗树 = "sal tree"; 金桃 = "golden peach"; 京兆尹 = "the Prefect of
+  Jingzhao"; 中书令 = "the Secretariat Director"; 番仆 = "foreign servants"; 三羽令
+  = "a three-feather order"; 惊夜灯 = "night-alarm lamp"; 卍字纹 = "the
+  wan-character motif."
+
+Pre-decided renderings were reused, not re-romanized: Zhang Xiaojing, Tanqi, Li
+Bi (Deputy Director Li), Li Linfu (the Right Minister), Yao Runeng, Wen Ran, Cui
+Qi, Ji Wen (Deputy Director / Vice-Duan), Yuan Zai (Evaluator, Gongfu), Long Bo,
+Cen Shen, Xu Bin, Prince Yong, Feng Dalun, Wang Yunxiu, Wang Zhongsi, Puzhe, the
+Jing'an Bureau, the Shouzhuolang, the resident-agent courtyards, the garrison-
+town, the Persian Temple, the Cibei Temple, the Jingzhao Prefecture, the
+Censorate, the Court of Judicial Review, the Secretariat, Pingkang Ward / the
+Pingkang Quarter, Changming Ward, Guangde Ward, Changxing Ward, Yanzhou, the
+beacon-fort at Balhuan (拨换城 = Balhuan + 烽燧), the Western Regions, the
+watchtower / great watchtower, the constable (武侯), the county commandant, the
+buliang men, the Five Kennels, the Wolf Guards, the Pifu, the Que-le Huo-duo,
+fierce-fire thunder, rock-oil, fire-proof cloth, lizard-skin drum, pocket
+crossbow, smoke pellet, the Five-Faced Yama, the Lantern Festival, commissioning
+the watchtowers, and the hour-gloss format.
+
+### noise.txt extended (recorded, with why)
+
+- 杂七杂八 ("a jumble of," idiom; 7/8 not quantities).
+- 七转八转 ("turning this way and that," idiom; joins 七转八弯/七绕八转 already listed).
+- 牌九 (pai gow, the domino game; the 9 is part of the name, in 像牌九一样).
+- 刘十七 (Liu Shiqi, an assassin's name "Seventeen"; joins 贾十七/李十二/赵七郎).
+- 十七违背 (the bare 十七 as the short name "Shiqi" in the elder's speech; noised in
+  context only, so 第十七句 = "the seventeenth line" of the poem stays checked and
+  its 17 is still verified against the English "seventeenth").
+All are non-quantities; the one real count (十来个 = "ten-odd") was carried in the
+English, not noised.
+
+### Blind double-translation + back-translation (separate contexts)
+
+- Double-translation (literary sample): Long Bo's parable of the pifu (source line
+  276, ~110 chars) was retranslated blind in a fresh context. The independent
+  version matched ours clause for clause and image for image: 纯白/大小如米粒 as
+  "born pure white, no bigger than a grain of rice," 啮木为粮 as gnawing wood for
+  food, 钻椽穴柱/蚀壁蛀梁 as boring into rafters and pillars and eating away walls
+  and beams, and 百丈广厦/千里长堤 as "a hundred zhang" / "a thousand li." The only
+  differences were lexical choices for the untranslatable name 蚍蜉 ("pismire"
+  blind vs. our decided "the Pifu," footnoted at ch09) and 广厦 ("high" blind vs.
+  our "broad" for 广). No omission, no divergence of meaning. 0 errors.
+- Back-translation (number-dense sample): our English of the dateline plus Li Bi's
+  rock-oil tally (source lines 4-5, 290, 318) was rendered back to Chinese blind.
+  Every quantity survived the round trip: 三载/十四 (Tianbao 3, 14th), 十五桶
+  (fifteen barrels), 两百余桶 and 两百桶 (two hundred), 半个时辰 (half a double-hour),
+  这两点 (the two points). 正月 for 元月 and 戌时正 for 戌正 are true synonyms, not
+  number or referent changes. 0 errors.
+- Sample error rate: 0 errors across the two audited passages (~2% of the
+  chapter's characters), consistent with ch01-ch10.
+
+### Flagged for the read-through
+
+- The opening (source lines 2-3, an extractor-split pair, merged) is a
+  FLASH-FORWARD vignette of Long Bo's pavilion; the identical sentence recurs at
+  its true moment (source line 261, where the scene opens) and was translated
+  identically in both places, per the ch04-ch10 precedent.
+- Authorial slip in the time-gloss (same class as ch10): the source's per-chapter
+  hour-note for ch11 labels the hour 戌 (the Dog, correctly placed at 戌正 = 8 p.m.
+  by the chapter heading and dateline), but then gives "凌晨6点 ... 05时至07时" and
+  a sunrise gloss ("日始、破晓、旭日 ... 太阳刚刚露脸，冉冉初升"), all of which belong
+  to 卯 (the Rabbit, 5-7 a.m.). Rendered faithfully and in full as the source's own
+  italic note (rule 4: leave genuine source errors visible), with 戌 romanized and
+  the ordinary words translated. Only the note is wrong; the chapter is set at 戌正
+  (8 p.m.) throughout. (ch10's note gave 凌晨5点; ch11's gives 凌晨6点 with the same
+  mismatched 卯 body.)
+- The Shouzhuolang jargon 火点/火师 is self-glossed by the source and rendered
+  "firepoint"/"firemaster," keeping the shared "fire" element.
+- The recognition passwords are lines of 春江花月夜: the doorkeeper's cue "春江"
+  ("Spring River," the poem's opening words) and the response "白云一片去悠悠" (its
+  17th line) are rendered as English poetry, with the poem footnoted.
+- Scene shifts (the firepoint / Ji Wen at the Cibei Temple / the wrecked escort-
+  cart / Yuan Zai at the apothecary and the great watchtower / the standoff at the
+  constable-post / Li Bi in Long Bo's courtyard) are divided in the source by
+  decorative rules (Image00005.jpg); following house style the shifts are plain
+  paragraph breaks, no separator glyph.

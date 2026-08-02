@@ -457,6 +457,18 @@
       "pinyin": "Gōngfǔ",
       "status": "decided",
       "note": "Yuan Zai's courtesy name (<i>zi</i>), by which Ji Wen addresses him as they stage-manage the takeover of the Jing'an Bureau."
+    },
+    "刘十七": {
+      "en": "Liu Shiqi",
+      "pinyin": "Liú Shíqī",
+      "status": "decided",
+      "note": "A Shouzhuolang assassin, one of the two planted in the Persian Temple; his name means 'Seventeen.' He gives Zhang Xiaojing the passwords to the firepoint before dying, and is killed in his escort-cart in this chapter. Pinyin."
+    },
+    "摩伽罗": {
+      "en": "Mojialuo",
+      "pinyin": "Mójiāluó",
+      "status": "provisional",
+      "note": "The code-name of another Shouzhuolang, paired with Liu Shiqi as one the firepoint expects; a transliteration of Sanskrit Makara (the sea-monster, cf. 摩羯 = makara). Kept as the pinyin transliteration to distinguish the person from the decorative motif."
     }
   },
   "organizations": {
@@ -1385,6 +1397,24 @@
       "pinyin": "Lǐngnán Wǔfǔ",
       "status": "attested",
       "note": "The Lingnan Five-Prefectures command in the far south (the historical 岭南五府经略使), counted as the tenth of the ten frontier commands with a courtyard in Pingkang Ward. Rendered &#8216;the Lingnan Five Prefectures&#8217;; cf. Lingnan."
+    },
+    "宣阳坊": {
+      "en": "Xuanyang Ward",
+      "pinyin": "Xuānyáng Fāng",
+      "status": "decided",
+      "note": "A ward east of the Vermilion Bird Avenue; the assassin Liu Shiqi's escort-cart is ambushed at the Xuanyang-Changxing crossroads."
+    },
+    "永乐坊": {
+      "en": "Yongle Ward",
+      "pinyin": "Yǒnglè Fāng",
+      "status": "decided",
+      "note": "A ward on the route the escort-cart takes toward Pingkang Ward; it has just passed Yongle Ward when Zhang Xiaojing reaches the firepoint."
+    },
+    "天竺": {
+      "en": "Tianzhu",
+      "pinyin": "Tiānzhú",
+      "status": "attested",
+      "note": "The Tang name for India (from Sanskrit Sindhu); source of the sal trees transplanted into Long Bo's courtyard. Standard identification."
     }
   },
   "terms": {
@@ -2071,6 +2101,96 @@
       "pinyin": "dūhù fǔ",
       "status": "attested",
       "note": "A Tang protectorate-general governing a frontier region; here the Western Regions command whose reward Wen Wuji brought home on retiring. Rendering per C. O. Hucker."
+    },
+    "火点": {
+      "en": "firepoint",
+      "pinyin": "huǒdiǎn",
+      "status": "decided",
+      "note": "Shouzhuolang cant (火点, 'fire-point') for a contact-point through which their commissions are handed out; Liu's Bookshop is one. The text glosses the word as it introduces it. Rendered 'firepoint.'"
+    },
+    "火师": {
+      "en": "firemaster",
+      "pinyin": "huǒshī",
+      "status": "decided",
+      "note": "The Shouzhuolang operative who runs a firepoint (火师, 'fire-master'); the true one here is found murdered and impersonated. Rendered 'firemaster,' keeping the 'fire' of 火点/firepoint."
+    },
+    "自雨亭": {
+      "en": "the Self-Raining Pavilion",
+      "pinyin": "zìyǔ tíng",
+      "status": "attested",
+      "note": "A real Tang cooling device (自雨亭, 'self-raining pavilion'): water raised to the roof and let fall from the eaves as a curtain to cool the air in summer. Long Bo's stands in his courtyard. Rendered by sense; footnoted at first appearance."
+    },
+    "春江花月夜": {
+      "en": "A Moonlit Night on the Spring River",
+      "pinyin": "Chūnjiāng Huāyuè Yè",
+      "status": "attested",
+      "note": "The famous early-Tang poem by Zhang Ruoxu (张若虚); the Shouzhuolang use its lines as call-and-response passwords. Rendered by an English title; footnoted at first appearance."
+    },
+    "苏合香": {
+      "en": "storax",
+      "pinyin": "sūhé xiāng",
+      "status": "attested",
+      "note": "An aromatic resin (苏合香) imported into Tang China from the west, used in perfumes, incense, and medicine; the carriage-scent Tanqi smells. Rendered 'storax'; footnoted at first appearance. See E. H. Schafer, The Golden Peaches of Samarkand."
+    },
+    "灯轮": {
+      "en": "lantern-wheel",
+      "pinyin": "dēnglún",
+      "status": "decided",
+      "note": "A waterwheel-shaped revolving lantern (灯轮) whose twelve zodiac panels turn with the current as a figure for the passing hours; Long Bo's is the test-piece for the Que-le Huo-duo. Rendered 'lantern-wheel.'"
+    },
+    "福寿禄三星": {
+      "en": "the Three Stars (Fortune, Longevity, and Rank)",
+      "pinyin": "fú shòu lù sān xīng",
+      "status": "decided",
+      "note": "The three star-gods of Chinese folk belief—Fu (fortune/blessing), Shou (longevity), and Lu (rank/emolument)—painted at the hub of the lantern-wheel. Rendered by name."
+    },
+    "娑罗树": {
+      "en": "sal tree",
+      "pinyin": "suōluó shù",
+      "status": "attested",
+      "note": "The sal tree (娑罗, Shorea robusta), native to India (天竺); costly transplants wrapped against the northern cold stand in Long Bo's courtyard. Standard identification."
+    },
+    "金桃": {
+      "en": "golden peach",
+      "pinyin": "jīntáo",
+      "status": "attested",
+      "note": "The famous 'golden peaches' (金桃) sent as tribute to the Tang court from Samarkand, a byword for rare foreign luxury; one of the exotic trees in Long Bo's courtyard. Standard (E. H. Schafer titled his study of Tang exotica The Golden Peaches of Samarkand)."
+    },
+    "京兆尹": {
+      "en": "the Prefect of Jingzhao",
+      "pinyin": "Jīngzhào Yǐn",
+      "status": "attested",
+      "note": "The prefect (尹) governing the metropolitan Jingzhao Prefecture of Chang'an; cf. the Jingzhao Prefecture (京兆府). Rendering per C. O. Hucker."
+    },
+    "中书令": {
+      "en": "the Secretariat Director",
+      "pinyin": "Zhōngshū Lìng",
+      "status": "attested",
+      "note": "The Director of the Secretariat (中书省), the office through which Ji Wen's appointment comes; here Li Linfu's power. Rendered 'the Secretariat Director,' distinct from 'the Secretariat' (中书省). Rendering per C. O. Hucker."
+    },
+    "番仆": {
+      "en": "foreign servants",
+      "pinyin": "fānpú",
+      "status": "decided",
+      "note": "The foreign menial servants (番仆) of the Bureau, sent to carry the warrant to every ward. Rendered 'foreign servants.'"
+    },
+    "三羽令": {
+      "en": "a three-feather order",
+      "pinyin": "sān yǔ lìng",
+      "status": "decided",
+      "note": "A dispatch graded by feathers: one feather a routine order, two an express order, three (三羽) an emergency to be carried out at once. The text glosses the grades. Rendered 'a three-feather order.'"
+    },
+    "惊夜灯": {
+      "en": "night-alarm lamp",
+      "pinyin": "jīngyè dēng",
+      "status": "decided",
+      "note": "The bright lamp kept burning at a ward-corner constable-post through the night (惊夜灯). Rendered 'night-alarm lamp.'"
+    },
+    "卍字纹": {
+      "en": "the wan-character motif",
+      "pinyin": "wànzì wén",
+      "status": "decided",
+      "note": "The Buddhist auspicious emblem 卍 (wan) used as a decorative fret on the requisitioned lanterns. Rendered 'the wan-character motif.'"
     }
   }
 }

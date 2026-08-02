@@ -218,3 +218,19 @@
 # ch10: 大唐六典 = the Tang Liudian, a book title ("the Six Statutes"); the 六 is part
 # of the work's name, not a quantity. English renders it "the Tang Liudian." Strip 六典.
 六典
+# ch11: 杂七杂八 = "a jumble of / all sorts of" (idiom); 7/8 not quantities.
+# English renders it "a jumble of shops."
+杂七杂八
+# ch11: 七转八转 = "turning this way and that" (cf. 七转八弯/七绕八转 already listed),
+# not 7/8. English renders it "turning this way and that."
+七转八转
+# ch11: 牌九 = pai gow, the domino game (像牌九一样 = "like a run of dominoes"); the 九
+# is part of the game's name, not the quantity 9. English renders it "dominoes."
+牌九
+# ch11: 刘十七 = Liu Shiqi, an assassin's name ("Seventeen"); the 十七 is part of the name
+# (cf. 贾十七/李十二/赵七郎 already listed), not the quantity 17. English renders it "Liu Shiqi."
+刘十七
+# ch11: 十七违背戒律 -> here 十七 is the assassin's short name (Shiqi, i.e. Liu Shiqi),
+# not the quantity 17. Strip this context only, so 第十七句 ("the seventeenth line" of the
+# poem, a real number the English carries as "seventeenth") is still checked.
+十七违背
