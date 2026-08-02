@@ -854,3 +854,101 @@ fixed glossary forms): Miko (米可; the source itself flags the name's national
 unknown), the Kaidi Restaurant (凯第饭店), the White Palace (白宫舞厅), plus the earlier
 provisionals that recur here (Umetake 梅武, the Standford, the Benner Inn, Honsa 本佐次郎,
 Weihaiwei Road, Route Prosper Paris).
+
+## Batch B08 (ch37 through ch41: Chapters 37 to 41) — DONE
+
+Translated ch37 (三十七, 41_chapter39.txt, 85 paras), ch38 (三十八, 42_chapter40.txt,
+72 paras), ch39 (三十九, 43_chapter41.txt, 33 paras), ch40 (四十, 44_chapter42.txt,
+102 paras), ch41 (四十一, 45_chapter43.txt, 50 paras). ~17,945 source chars. Clean
+first-person narrative prose; all apparatus in the notes. The batch's arc: the shooting
+in the narrator's room and Dr. Philip's extraction to the Gaolang Hospital (ch37); the
+three operations and the long convalescence, with Philip's cover-story conversation
+(ch38); Helen's letter from Qingdao and the narrator's night of reflection (ch39); Mei
+Yingzi's visit and her full account of the pistol/locket confrontation with Bai Ping,
+which unknots the whole spy plot (ch40); Bai Ping sends the cat Jimi and her silver
+diary, Mrs. Stephen and Mrs. Manfield visit, and the first diary page is read (ch41).
+
+Bilingual QC files authored with scripts/_zip_bilingual.py (source side COPIED verbatim
+from data/src, never re-typed), reading + parity split with split_bilingual.py.
+
+Checks run and results:
+- Verbatim source quotation: the whitespace-stripped char comparison of the joined '>'
+  blockquotes vs the joined source paragraphs MATCHES for all five units (ch37 4377,
+  ch38 4006, ch39 3890, ch40 4372, ch41 3776 chars). Source quotation is verbatim by
+  construction (the zip helper copies it).
+- check_numbers.py --noise data/noise.txt: all five GREEN (0 unresolved) after three
+  new noise entries (below). Numbers preserved include the clock times (11:30, 12:15
+  ch37; 9/10/2 o'clock ch38; 7 a.m. ch40; 9:00 and 10:30 ch41), the "sixty hours" and
+  "five weeks" of ch38, the ordinals (second/third operation), the two packets/two
+  trunks/two stars, "seven or eight times," "fifty-odd," "one or two usable people,"
+  and the date January the fourth (ch39, in Helen's letter and the narrator's memory).
+- check_structure.py --config scratch/b08_check.json (regenerated; scratch/ is
+  gitignored): paragraph parity OK for all five (85/72/33/102/50); note anchors 3/3
+  resolve, 0 unresolved; heading shape uniform; glossary drift 0 (variants map carried
+  ONLY wrong forms, never the canonical).
+- Blind double translation on the lyrical/analytical passages (Helen's sea-and-music
+  letter ch39 paras 2/9/11; Mei Yingzi's "two orbs" cosmic passage ch40 para 98; the
+  narrator's meditation on scale ch41 para 46) and round-trip back-translation as an
+  omission check on the emotional beats (the pledge ch37 51-52; the locket exchange
+  ch40 80-86); no divergence beyond wording. No omissions found.
+- Random deep audit (~3.5%, 12 paragraphs: ch37 13/32/59, ch38 5/45/66, ch39 2/7,
+  ch40 81/97, ch41 30/46): every source clause accounted for; observed error rate 0
+  (the only source-side anomalies were the expected digitization glitches below, each
+  rendered to plain sense).
+
+data/noise.txt additions (each a non-quantity numeral the number check flagged):
+- 四肢 ("the four limbs" i.e. the limbs generally, ch37 "额角四肢都有涔涔的汗"); 四≠4.
+- 四望 ("to look around in all directions," ch39 "四望浸在月光中的房间"); 四≠4 (cf.
+  the earlier 四顾/四围/四面).
+- 万念 ("a myriad thoughts / every thought," ch38 "万念占据了我的心灵"); 万≠10000 (cf.
+  万物/万国/万岁; 万种 was already in the noise list).
+
+Footnotes added (3 across five chapters, all genuinely new references; every recurring
+name/place/term in these chapters already carries its note at first appearance in
+B01–B07 and was deliberately NOT re-noted). Numbering continuous; B07 ended at 60.
+- note 61 (ch37): the Christmas-Eve dream's "holy robe of Atri in a novel by Flaubert" —
+  translation-uncertainty note. The source misspells Flaubert ("Flaulert") and the robe
+  "阿特立" (Atri) cannot be securely matched to anything in Flaubert; kept as printed and
+  the uncertainty left visible (rule 4).
+- note 62 (ch38, first appearance of Qingdao): Qingdao as a German/Japanese-leasehold
+  seaside summer resort — the historical reference behind Helen's letter.
+- note 63 (ch39): Mr. Stoyevsky and the White Russian émigré musicians of China's port
+  cities — the milieu the fictional teacher belongs to.
+
+Glossary rows added (glossary.json now 118 term rows): 青岛 Qingdao (attested, place);
+史托亦夫斯基 Stoyevsky (provisional, the White Russian music teacher; source gives no
+Latin spelling); 福楼拜 Flaubert (attested; source misspells as "Flaulert"); 巴哈 Bach,
+贝多芬 Beethoven, 孟德尔仲 Mendelssohn (attested; the composers of Helen's letter, the
+last written 孟德尔仲 for the usual 孟德尔松). REUSED without change: Mei Yingzi, Bai Ping,
+Stephen/Mrs. Stephen, Helen, Mrs. Manfield, Dr. Philip, Ah Mei (阿美), Jimi (吉迷, the
+white Persian cat), Dr. Gaolang/Gaolang Hospital (高朗) and Gaoye Road (高叶路), Honsa
+Jiro, Umetake, Beiping, Jiangwan, Route Prosper Paris (姚主教路), the cheongsam (旗袍).
+
+Fact-checking (Wikipedia / Baidu Baike; no LLM-sourced references):
+- Qingdao: German Kiautschou (Jiaozhou) leasehold from 1898; seized by Japan 1914;
+  restored to Chinese sovereignty 1922; reoccupied by Japan January 1938. Long developed
+  as a beach/villa summer resort drawing Shanghai holidaymakers and foreign-navy crews.
+  Corroborated; footnoted (note 62).
+- White Russian émigré musicians: after the 1917 Revolution and Civil War, large émigré
+  communities formed in Harbin, Shanghai, Tianjin and Qingdao, with many professional
+  musicians teaching and performing (some in the Shanghai Municipal Orchestra). The
+  fictional Stoyevsky fits this documented milieu. Corroborated as a phenomenon;
+  footnoted (note 63).
+- Flaubert: Gustave Flaubert (1821–1880). The dream's specific "holy robe of Atri"
+  cannot be matched to any Flaubert work; reported as uncorroborated / unidentifiable
+  and left visible (note 61), not silently "fixed."
+
+Source digitization glitches rendered to plain meaning and NOT footnoted (no genuine
+reading uncertainty):
+- ch37: "手抢" for 手枪 (pistol) rendered "pistol"; "枪扭" for 枪机 (the earlier form)
+  rendered "pulled the trigger"; "江弯" for 江湾 rendered "Jiangwan" (the glossed form).
+- ch39: "孟德尔仲" for 孟德尔松 (Mendelssohn) rendered "Mendelssohn" (glossary note).
+- ch40: "胸坏" for 胸怀 ("heart/breast," in "宽大的胸坏去原谅人") rendered "a broad
+  enough heart to forgive people."
+
+Provisional renderings a later attestation could sharpen (all recurring names reuse the
+fixed glossary forms): Stoyevsky (史托亦夫斯基; the source gives no Latin spelling),
+"Atri" (阿特立; unidentifiable, kept as printed and footnoted), plus the earlier
+provisionals that recur here (Umetake 梅武, Honsa Jiro 本佐次郎, Dr. Gaolang 高朗 /
+Gaoye Road 高叶路, Manfield 曼斐儿, Dr. Philip 费利普). The flower-name "莲菊" (ch38) has
+no standard English equivalent and is rendered descriptively as "lotus-daisies."

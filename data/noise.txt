@@ -94,3 +94,9 @@
 万岁
 # 百般 = "in every way / by every means" (百般的讨好, ch35); the 百 is not the quantity 100
 百般
+# 四肢 = "the four limbs" i.e. the limbs generally (涔涔的汗 on 额角四肢, ch37); the 四 is not a count
+四肢
+# 四望 = "to look around in all directions" (四望浸在月光中的房间, ch39); the 四 is not a count (cf. 四顾/四围/四面)
+四望
+# 万念 = "a myriad thoughts / every thought" (万念占据了我的心灵, ch38); the 万 is not the quantity 10000 (cf. 万物/万国/万岁)
+万念

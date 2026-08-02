@@ -206,6 +206,36 @@
    "pinyin": "Mike",
    "status": "provisional",
    "note": "A Japanese teahouse hostess and dancer at Umetake's soiree; the source spells her name <span lang=\"zh-Hans\">&#31859;&#21487;</span> and the narrator explicitly notes he cannot tell its nationality, recording only its sound. Rendered as the plausible Japanese given name Miko; provisional, no external attestation."
+  },
+  "史托亦夫斯基": {
+   "en": "Stoyevsky",
+   "pinyin": "Shituoyifusiji",
+   "status": "provisional",
+   "note": "An elderly White Russian &#233;migr&#233; musician Helen meets in Qingdao, who takes her as a pupil and draws her to Beiping (ch39). <span lang=\"zh-Hans\">&#21490;&#25176;&#20134;&#22827;&#26031;&#22522;</span> transliterates a Russian surname the source does not give in Latin script; romanized here as Stoyevsky. No external attestation."
+  },
+  "福楼拜": {
+   "en": "Flaubert",
+   "pinyin": "Fuloubai",
+   "status": "attested",
+   "note": "Gustave Flaubert (1821&#8211;1880), French novelist, invoked in the narrator&#8217;s Christmas-Eve dream (ch37); the digital source misspells the name as &#8216;Flaulert.&#8217; See the note at that passage on the unidentifiable &#8216;holy robe.&#8217;"
+  },
+  "巴哈": {
+   "en": "Bach",
+   "pinyin": "Baha",
+   "status": "attested",
+   "note": "Johann Sebastian Bach, likened in Helen&#8217;s letter to the solemnity of the hills (ch39); <span lang=\"zh-Hans\">&#24052;&#21704;</span>, the older Chinese form of the composer&#8217;s name."
+  },
+  "贝多芬": {
+   "en": "Beethoven",
+   "pinyin": "Beiduofen",
+   "status": "attested",
+   "note": "Ludwig van Beethoven, likened in Helen&#8217;s letter to the grandeur of the sea (ch39); <span lang=\"zh-Hans\">&#36125;&#22810;&#33452;</span>, the standard Chinese rendering."
+  },
+  "孟德尔仲": {
+   "en": "Mendelssohn",
+   "pinyin": "Mengde'erzhong",
+   "status": "attested",
+   "note": "Felix Mendelssohn, likened in Helen&#8217;s letter to the gentleness of the moonlight (ch39); the source writes <span lang=\"zh-Hans\">&#23391;&#24503;&#23572;&#20210;</span> for the usual <span lang=\"zh-Hans\">&#23391;&#24503;&#23572;&#26494;</span> (Mengde&#8217;ersong), emended in sense here."
   }
  },
  "organizations": {
@@ -636,6 +666,12 @@
    "pinyin": "Baigong",
    "status": "provisional",
    "note": "A Shanghai dance hall (<span lang=\"zh-Hans\">&#30333;&#23470;&#33310;&#21381;</span>) named by Honsa as a former workplace of one of the officials' wives. Rendered 'the White Palace' (<span lang=\"zh-Hans\">&#30333;&#23470;</span> lit. 'white palace') rather than 'White House' to avoid the American association. Provisional."
+  },
+  "青岛": {
+   "en": "Qingdao",
+   "pinyin": "Qingdao",
+   "status": "attested",
+   "note": "Port city on the Shandong peninsula and a noted seaside summer resort; former German (Kiautschou) and Japanese leasehold. Helen winters there (ch38&#8211;ch41). Standard pinyin (older &#8216;Tsingtao&#8217;)."
   }
  },
  "terms": {
