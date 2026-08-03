@@ -112,3 +112,13 @@
 # 刻 = quarter-hour time unit: 三刻 = 45 min (十一时三刻 "eleven forty-five", ch45). A clock/duration
 # expression, not a count; strips the numeral before 刻 so 十一时 -> 11 survives whole.
 [一二三四五六七八九十]刻
+# --- B10 (ch46-ch48) additions ---
+# GH五○九K八 = the safe-combination cipher the narrator is given at the ball
+# (ch46). A code string (GH509K8), plus its redacted GH五××K八 and partial GH五○
+# forms; the 五/九/八 are cipher digits, not quantities. Strips the whole token.
+GH[五○九K八×]+
+# 万千 = "thousands upon thousands / myriads" (万千人民 "the myriads of our people",
+# ch48); rhetorical multitude, not the quantity 11000. The built-in strips the
+# reversed 千万 but not 万千, so it needs its own entry (cf. 万物/万念/万国).
+万千
+萬千

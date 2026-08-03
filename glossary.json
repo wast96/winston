@@ -1,733 +1,787 @@
 {
- "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
- "book": {
-  "风萧萧": {
-   "en": "The Whistling Wind",
-   "pinyin": "Feng xiao xiao",
-   "status": "decided",
-   "note": "The novel's title. It quotes the opening of the parting song sung for the assassin Jing Ke at the Yi River, <i>风萧萧兮易水寒</i> (&#8216;the wind whistles, cold runs the Yi&#8217;); the note of doomed, high-minded sacrifice governs the book."
+  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
+  "book": {
+    "风萧萧": {
+      "en": "The Whistling Wind",
+      "pinyin": "Feng xiao xiao",
+      "status": "decided",
+      "note": "The novel's title. It quotes the opening of the parting song sung for the assassin Jing Ke at the Yi River, <i>风萧萧兮易水寒</i> (&#8216;the wind whistles, cold runs the Yi&#8217;); the note of doomed, high-minded sacrifice governs the book."
+    }
+  },
+  "people": {
+    "徐訏": {
+      "en": "Xu Xu",
+      "pinyin": "Xu Xu",
+      "status": "attested",
+      "note": "Chinese writer (1908&#8211;1980), the novel's author; original name Xu Chuanzong (<span lang=\"zh-Hans\">徐傳琮</span>), pen name Xu Xu. Pinyin form standard in English-language scholarship (older romanization Hsu Yu)."
+    },
+    "史蒂芬": {
+      "en": "Stephen",
+      "pinyin": "Shidifen",
+      "status": "decided",
+      "note": "C.&#160;L. Stephen, the American naval surgeon; <span lang=\"zh-Hans\">史蒂芬</span> transliterates the English name Stephen, restored here."
+    },
+    "白苹": {
+      "en": "Bai Ping",
+      "pinyin": "Bai Ping",
+      "status": "decided",
+      "note": "A dancer at the Paramount, secretly a Chinese agent. Pinyin; <span lang=\"zh-Hans\">苹</span> read <i>ping</i>."
+    },
+    "梅瀛子": {
+      "en": "Mei Yingzi",
+      "pinyin": "Mei Yingzi",
+      "status": "decided",
+      "note": "A dazzling Eurasian socialite; her father was Chinese (long resident in Japan), her mother American. Pinyin."
+    },
+    "海伦": {
+      "en": "Helen",
+      "pinyin": "Hailun",
+      "status": "decided",
+      "note": "Helen Manfield, a shy, music-loving young American. <span lang=\"zh-Hans\">海伦</span> = Helen."
+    },
+    "曼斐儿": {
+      "en": "Manfield",
+      "pinyin": "Manfei'er",
+      "status": "provisional",
+      "note": "Helen's surname; <span lang=\"zh-Hans\">曼斐儿</span> transliterates a Western surname whose exact original spelling the source does not give. &#8216;Manfield&#8217; is a plausible reconstruction."
+    },
+    "费利普": {
+      "en": "Dr. Philip",
+      "pinyin": "Feilipu",
+      "status": "provisional",
+      "note": "The surgeon whose clinic Stephen uses; the source spells the name two ways (<span lang=\"zh-Hans\">费利普</span> and <span lang=\"zh-Hans\">菲利浦</span>), both transliterating Philip/Phillips."
+    },
+    "高": {
+      "en": "Gao",
+      "pinyin": "Gao",
+      "status": "decided",
+      "note": "Mr. Gao, the Chinese manager of the Weibai Hotel; his American wife and their daughter, Miss Gao, appear at Stephen's party."
+    },
+    "莎菲": {
+      "en": "Sophie",
+      "pinyin": "Shafei",
+      "status": "decided",
+      "note": "A dancing-girl at the Xiangong; <span lang=\"zh-Hans\">莎菲</span> transliterates a Western name (Sophie/Sophy); the source also spells it <span lang=\"zh-Hans\">沙菲</span> (ch46&#8211;ch48), one rendering, Sophie, throughout."
+    },
+    "铃木次郎": {
+      "en": "Suzuki Jiro",
+      "pinyin": "Lingmu Cilang",
+      "status": "decided",
+      "note": "A Japanese major general in Mei Yingzi's circle; <span lang=\"zh-Hans\">铃木次郎</span> given in its Japanese reading."
+    },
+    "山尾本原": {
+      "en": "Yamao Motohara",
+      "pinyin": "Shanwei Benyuan",
+      "status": "provisional",
+      "note": "A Japanese colonel; <span lang=\"zh-Hans\">山尾本原</span> read here in a plausible Japanese form, the source giving no romanization."
+    },
+    "梅百器": {
+      "en": "Mario Paci",
+      "pinyin": "Mei Baiqi",
+      "status": "attested",
+      "note": "Italian conductor and pianist (1878&#8211;1946), <span lang=\"zh-Hans\">梅百器</span>; led the Shanghai Municipal Orchestra 1919&#8211;1942 and taught many early Chinese pianists. Helen's teacher."
+    },
+    "齐白石": {
+      "en": "Qi Baishi",
+      "pinyin": "Qi Baishi",
+      "status": "attested",
+      "note": "Painter (1864&#8211;1957), a giant of modern Chinese ink painting."
+    },
+    "吴昌硕": {
+      "en": "Wu Changshuo",
+      "pinyin": "Wu Changshuo",
+      "status": "attested",
+      "note": "Painter, calligrapher and seal-carver (1844&#8211;1927), a leading figure of the late Shanghai School."
+    },
+    "任伯年": {
+      "en": "Ren Bonian",
+      "pinyin": "Ren Bonian",
+      "status": "attested",
+      "note": "Painter (1840&#8211;1895) of the Shanghai School, noted for figures and birds-and-flowers."
+    },
+    "阿美": {
+      "en": "Ah Mei",
+      "pinyin": "A Mei",
+      "status": "decided",
+      "note": "Bai Ping's maid; <span lang=\"zh-Hans\">阿美</span>, the familiar &#8216;Ah&#8217; prefix plus <i>Mei</i>."
+    },
+    "吉迷": {
+      "en": "Jimi",
+      "pinyin": "Jimi",
+      "status": "provisional",
+      "note": "Bai Ping's white Persian cat; <span lang=\"zh-Hans\">吉迷</span> transliterates a Western pet-name (perhaps &#8216;Jimmy&#8217;), romanized here as Jimi."
+    },
+    "陶渊明": {
+      "en": "Tao Yuanming",
+      "pinyin": "Tao Yuanming",
+      "status": "attested",
+      "note": "Poet (365&#8211;427), also Tao Qian; the great poet of reclusion and the pastoral in the Chinese tradition."
+    },
+    "武则天": {
+      "en": "Wu Zetian",
+      "pinyin": "Wu Zetian",
+      "status": "attested",
+      "note": "Empress of the Tang (624&#8211;705), the only woman to rule China as emperor in her own right."
+    },
+    "西太后": {
+      "en": "the Western Empress Dowager",
+      "pinyin": "Xi Taihou",
+      "status": "decided",
+      "note": "Cixi (<span lang=\"zh-Hans\">慈禧</span>, 1835&#8211;1908), the Empress Dowager who dominated the late Qing court; the source names her by the palace epithet <span lang=\"zh-Hans\">西太后</span>, kept here as &#8216;the Western Empress Dowager.&#8217;"
+    },
+    "宫间登水": {
+      "en": "Miyama Toshimi",
+      "pinyin": "Gongjian Dengshui",
+      "status": "provisional",
+      "note": "A Japanese admirer who sends Bai Ping flowers in hospital; the narrator cannot recall the name on the card exactly, so <span lang=\"zh-Hans\">宫间登水</span> is given a tentative Japanese reading."
+    },
+    "赛金花": {
+      "en": "Sai Jinhua",
+      "pinyin": "Sai Jinhua",
+      "status": "attested",
+      "note": "Celebrated late-Qing courtesan (c. 1872–1936), linked in legend to Field Marshal von Waldersee during the Boxer occupation of Beijing; invoked in ch22 as a byword for a beauty who consorts with the occupier. Pinyin, the standard form."
+    },
+    "石涛": {
+      "en": "Shitao",
+      "pinyin": "Shitao",
+      "status": "attested",
+      "note": "Monk-painter of the early Qing (1642–c. 1707), a landscapist of the fallen Ming imperial line; a landscape of his hangs in the study in ch23. Pinyin, the standard form."
+    },
+    "任堇": {
+      "en": "Ren Jinshu",
+      "pinyin": "Ren Jinshu",
+      "status": "decided",
+      "note": "Painter-calligrapher of the late Qing and early Republic (1881–1936), styled <span lang=\"zh-Hans\">堇叔</span> (Jinshu); the digital source prints the corrupt <span lang=\"zh-Hans\">任董叔</span> for <span lang=\"zh-Hans\">任堇叔</span>, emended here (ch23)."
+    },
+    "本佐次郎": {
+      "en": "Honsa Jiro",
+      "pinyin": "Benzuo Cilang",
+      "status": "provisional",
+      "note": "A Japanese merchant Mei Yingzi has the narrator take up with (ch25); <span lang=\"zh-Hans\">本佐次郎</span> given a tentative Japanese reading, the source offering no romanization."
+    },
+    "有田": {
+      "en": "Arita",
+      "pinyin": "Youtian",
+      "status": "decided",
+      "note": "A Japanese colonel (<span lang=\"zh-Hans\">有田大佐</span>, Colonel Arita) at whose Hongkou house the gambling of ch25 takes place; <span lang=\"zh-Hans\">有田</span> in its Japanese reading."
+    },
+    "武岛": {
+      "en": "Takeshima",
+      "pinyin": "Wudao",
+      "status": "decided",
+      "note": "A Japanese major general (<span lang=\"zh-Hans\">武岛少将</span>) in the ch25 gambling party; <span lang=\"zh-Hans\">武岛</span> in its Japanese reading."
+    },
+    "山尾": {
+      "en": "Yamao",
+      "pinyin": "Shanwei",
+      "status": "decided",
+      "note": "Surname of <span lang=\"zh-Hans\">山尾少佐</span>, Major Yamao, the officer who forces himself on Helen in ch25; rendered with the same surname form as Yamao Motohara, though the source does not make clear whether the two are the same man."
+    },
+    "野村": {
+      "en": "Nomura",
+      "pinyin": "Yecun",
+      "status": "decided",
+      "note": "A Japanese colonel (<span lang=\"zh-Hans\">野村大佐</span>, Colonel Nomura) whose car comes for Helen at the end of ch27; <span lang=\"zh-Hans\">野村</span> in its standard Japanese reading."
+    },
+    "梅武": {
+      "en": "Umetake",
+      "pinyin": "Meiwu",
+      "status": "provisional",
+      "note": "A Japanese rear admiral (<span lang=\"zh-Hans\">梅武少将</span>) of the Navy Ministry, in whose name the Christmas evening party is given (ch29&#8211;ch31); <span lang=\"zh-Hans\">梅武</span> given a tentative Japanese reading, the source offering no romanization. (<span lang=\"zh-Hans\">少将</span> is the naval rank of rear admiral.)"
+    },
+    "陈寂": {
+      "en": "Chen Ji",
+      "pinyin": "Chen Ji",
+      "status": "decided",
+      "note": "The assumed name the narrator takes when he moves into hiding on Weihaiwei Road (ch26); <span lang=\"zh-Hans\">陈寂</span> in pinyin, the given name <span lang=\"zh-Hans\">寂</span> meaning &#8216;silence, stillness, solitude.&#8217;"
+    },
+    "高朗": {
+      "en": "Dr. Gaolang",
+      "pinyin": "Gaolang",
+      "status": "provisional",
+      "note": "The physician in the white gown at the small private hospital where Stephen dies (ch28), and the hospital&#8217;s namesake; <span lang=\"zh-Hans\">高朗</span> romanized here (rendered Dr. Gaolang to keep it distinct from Mr. Gao of the Weibai Hotel)."
+    },
+    "米可": {
+      "en": "Miko",
+      "pinyin": "Mike",
+      "status": "provisional",
+      "note": "A Japanese teahouse hostess and dancer at Umetake's soiree; the source spells her name <span lang=\"zh-Hans\">&#31859;&#21487;</span> and the narrator explicitly notes he cannot tell its nationality, recording only its sound. Rendered as the plausible Japanese given name Miko; provisional, no external attestation."
+    },
+    "史托亦夫斯基": {
+      "en": "Stoyevsky",
+      "pinyin": "Shituoyifusiji",
+      "status": "provisional",
+      "note": "An elderly White Russian &#233;migr&#233; musician Helen meets in Qingdao, who takes her as a pupil and draws her to Beiping (ch39). <span lang=\"zh-Hans\">&#21490;&#25176;&#20134;&#22827;&#26031;&#22522;</span> transliterates a Russian surname the source does not give in Latin script; romanized here as Stoyevsky. No external attestation."
+    },
+    "福楼拜": {
+      "en": "Flaubert",
+      "pinyin": "Fuloubai",
+      "status": "attested",
+      "note": "Gustave Flaubert (1821&#8211;1880), French novelist, invoked in the narrator&#8217;s Christmas-Eve dream (ch37); the digital source misspells the name as &#8216;Flaulert.&#8217; See the note at that passage on the unidentifiable &#8216;holy robe.&#8217;"
+    },
+    "巴哈": {
+      "en": "Bach",
+      "pinyin": "Baha",
+      "status": "attested",
+      "note": "Johann Sebastian Bach, likened in Helen&#8217;s letter to the solemnity of the hills (ch39); <span lang=\"zh-Hans\">&#24052;&#21704;</span>, the older Chinese form of the composer&#8217;s name."
+    },
+    "贝多芬": {
+      "en": "Beethoven",
+      "pinyin": "Beiduofen",
+      "status": "attested",
+      "note": "Ludwig van Beethoven, likened in Helen&#8217;s letter to the grandeur of the sea (ch39); <span lang=\"zh-Hans\">&#36125;&#22810;&#33452;</span>, the standard Chinese rendering."
+    },
+    "孟德尔仲": {
+      "en": "Mendelssohn",
+      "pinyin": "Mengde'erzhong",
+      "status": "attested",
+      "note": "Felix Mendelssohn, likened in Helen&#8217;s letter to the gentleness of the moonlight (ch39); the source writes <span lang=\"zh-Hans\">&#23391;&#24503;&#23572;&#20210;</span> for the usual <span lang=\"zh-Hans\">&#23391;&#24503;&#23572;&#26494;</span> (Mengde&#8217;ersong), emended in sense here."
+    },
+    "宫间美子": {
+      "en": "Miyama Yoshiko",
+      "pinyin": "Gongjian Meizi",
+      "status": "provisional",
+      "note": "The quiet, demure young lady, said to have come from Tokyo two months before, feted at Honsa Jiro&#8217;s dinner (ch46); revealed at the ball to be the intruder at the safe and to answer to a second name, <span lang=\"zh-Hans\">朝村登水子</span> (Asamura Toshimiko). Japanese reading tentative, the source offering no romanization; the surname <span lang=\"zh-Hans\">宫间</span> (Miyama) is that already used for <span lang=\"zh-Hans\">宫间登水</span>."
+    },
+    "朝村登水子": {
+      "en": "Asamura Toshimiko",
+      "pinyin": "Chaocun Dengshuizi",
+      "status": "provisional",
+      "note": "The name the woman gives when unmasked (ch47&#8211;ch48), the same person feted as <span lang=\"zh-Hans\">宫间美子</span> (Miyama Yoshiko). Given a tentative Japanese reading, the source offering no romanization: <span lang=\"zh-Hans\">朝村</span> read Asamura, and <span lang=\"zh-Hans\">登水子</span> extending the <span lang=\"zh-Hans\">登水</span> (Toshimi) of the flower-card name <span lang=\"zh-Hans\">宫间登水</span>."
+    },
+    "木谷": {
+      "en": "Kiya",
+      "pinyin": "Mugu",
+      "status": "provisional",
+      "note": "A short, plump Japanese merchant in Honsa Jiro&#8217;s party at the masked ball (ch46); <span lang=\"zh-Hans\">木谷</span> given a tentative Japanese reading, the source offering no romanization."
+    },
+    "本佐太太": {
+      "en": "Mrs. Honsa",
+      "pinyin": "Benzuo taitai",
+      "status": "decided",
+      "note": "The Japanese woman living with Honsa Jiro (<span lang=\"zh-Hans\">本佐太太</span>); named by relation, as in the source."
+    }
+  },
+  "organizations": {
+    "工部局乐队": {
+      "en": "Shanghai Municipal Orchestra",
+      "pinyin": "Gongbuju yuedui",
+      "status": "attested",
+      "note": "The orchestra of the Shanghai Municipal Council (<span lang=\"zh-Hans\">工部局</span>), long led by Mario Paci; in its day the most celebrated orchestra in the Far East."
+    },
+    "北京大学": {
+      "en": "Peking University",
+      "pinyin": "Beijing Daxue",
+      "status": "attested",
+      "note": "Conventional English name of the university; Xu Xu read philosophy there."
+    },
+    "百乐门": {
+      "en": "the Paramount",
+      "pinyin": "Bailemen",
+      "status": "attested",
+      "note": "The Paramount Ballroom (<span lang=\"zh-Hans\">百乐门</span>) on Bubbling Well Road, Shanghai's most famous dance hall."
+    },
+    "国立艺术院": {
+      "en": "the National Academy of Art",
+      "pinyin": "Guoli Yishuyuan",
+      "status": "attested",
+      "note": "Founded on the West Lake at Hangzhou in 1928 (first president Lin Fengmian); the source calls it simply <span lang=\"zh-Hans\">艺术院</span>. Rendered by its historical English name."
+    },
+    "福源钱庄": {
+      "en": "the Fuyuan native bank",
+      "pinyin": "Fuyuan qianzhuang",
+      "status": "provisional",
+      "note": "The traditional Chinese banking house (<span lang=\"zh-Hans\">钱庄</span>, native bank) on which Mei Yingzi's check is drawn in ch22; <span lang=\"zh-Hans\">福源</span> romanized as pinyin."
+    },
+    "海邻广播电台": {
+      "en": "the Hailin Broadcasting Station",
+      "pinyin": "Hailin guangbo diantai",
+      "status": "provisional",
+      "note": "The Japanese-controlled Shanghai radio station where Helen sings and reads a little English news (ch26); <span lang=\"zh-Hans\">海邻</span> (<i>Hailin</i>) transliterates a name not otherwise identified, romanized here."
+    }
+  },
+  "places": {
+    "上海": {
+      "en": "Shanghai",
+      "pinyin": "Shanghai",
+      "status": "attested",
+      "note": ""
+    },
+    "重庆": {
+      "en": "Chongqing",
+      "pinyin": "Chongqing",
+      "status": "attested",
+      "note": "Wartime capital of Nationalist China."
+    },
+    "香港": {
+      "en": "Hong Kong",
+      "pinyin": "Xianggang",
+      "status": "attested",
+      "note": ""
+    },
+    "辣斐德路": {
+      "en": "Route Lafayette",
+      "pinyin": "Lafeide Lu",
+      "status": "attested",
+      "note": "A street in the French Concession (today Fuxing Middle Road)."
+    },
+    "静安寺路": {
+      "en": "Bubbling Well Road",
+      "pinyin": "Jing'ansi Lu",
+      "status": "attested",
+      "note": "Major road in the International Settlement, named for the Jing'an (Bubbling Well) Temple; today Nanjing West Road."
+    },
+    "麦特赫司脱路": {
+      "en": "Medhurst Road",
+      "pinyin": "Maitehesituo Lu",
+      "status": "attested",
+      "note": "A road off Bubbling Well Road (today Taixing Road); the source also spells it <span lang=\"zh-Hans\">麦特赫斯脱路</span>."
+    },
+    "愚园路": {
+      "en": "Yuyuan Road",
+      "pinyin": "Yuyuan Lu",
+      "status": "attested",
+      "note": "A road running west from the Jing'an area."
+    },
+    "霞飞路": {
+      "en": "Avenue Joffre",
+      "pinyin": "Xiafei Lu",
+      "status": "attested",
+      "note": "The French Concession's main thoroughfare, lined with cafés and shops (today Huaihai Middle Road)."
+    },
+    "海格路": {
+      "en": "Avenue Haig",
+      "pinyin": "Haige Lu",
+      "status": "attested",
+      "note": "A road on the western edge of the Settlement (today Huashan Road)."
+    },
+    "善锺路": {
+      "en": "Route de Sieyès",
+      "pinyin": "Shanzhong Lu",
+      "status": "attested",
+      "note": "A French Concession street (today Changshu Road); source form <span lang=\"zh-Hans\">善锺路</span>."
+    },
+    "贝当路": {
+      "en": "Route Pétain",
+      "pinyin": "Beidang Lu",
+      "status": "attested",
+      "note": "A French Concession road (today Hengshan Road)."
+    },
+    "四马路": {
+      "en": "Fourth Avenue",
+      "pinyin": "Sima Lu",
+      "status": "attested",
+      "note": "Popular Shanghai nickname (one of the numbered &#8216;horse roads&#8217;) for the settlement's Foochow Road, today Fuzhou Road, known for small restaurants, bookshops and nightlife."
+    },
+    "南京路": {
+      "en": "Nanjing Road",
+      "pinyin": "Nanjing Lu",
+      "status": "attested",
+      "note": "Shanghai's premier shopping street (historically &#8216;Nanking Road&#8217;)."
+    },
+    "徐家汇": {
+      "en": "Xujiahui",
+      "pinyin": "Xujiahui",
+      "status": "attested",
+      "note": "District in the southwest of Shanghai (older form Zikawei/Ziccawei), site of the Jesuit St Ignatius Cathedral."
+    },
+    "仁济医院": {
+      "en": "Renji Hospital",
+      "pinyin": "Renji Yiyuan",
+      "status": "attested",
+      "note": "A long-established Shanghai hospital (Shanghai's first Western hospital, founded 1844), known to foreigners as the Chinese Hospital or Shantung Road Hospital."
+    },
+    "百乐门舞厅": {
+      "en": "the Paramount",
+      "pinyin": "Bailemen wuting",
+      "status": "attested",
+      "note": "See the Paramount, above."
+    },
+    "维纳斯": {
+      "en": "the Venus",
+      "pinyin": "Weinasi",
+      "status": "decided",
+      "note": "A dance hall; <span lang=\"zh-Hans\">维纳斯</span> = Venus."
+    },
+    "丽都": {
+      "en": "the Lido",
+      "pinyin": "Lidu",
+      "status": "attested",
+      "note": "A Shanghai dance hall / entertainment venue."
+    },
+    "凯莎舞厅": {
+      "en": "the Kaisha",
+      "pinyin": "Kaisha wuting",
+      "status": "provisional",
+      "note": "A dance hall; romanization of <span lang=\"zh-Hans\">凯莎</span>."
+    },
+    "立体咖啡馆": {
+      "en": "the Liti Café",
+      "pinyin": "Liti kafeiguan",
+      "status": "provisional",
+      "note": "A café near the corner of Bubbling Well and Medhurst Roads; <span lang=\"zh-Hans\">立体</span> means &#8216;solid&#8217; or &#8216;three-dimensional&#8217;."
+    },
+    "大华电影院": {
+      "en": "the Majestic Cinema",
+      "pinyin": "Dahua Dianyingyuan",
+      "status": "provisional",
+      "note": "A Shanghai picture house; <span lang=\"zh-Hans\">大华</span> was the Chinese name of the Majestic."
+    },
+    "芭口公寓": {
+      "en": "the Bakou Apartments",
+      "pinyin": "Bakou gongyu",
+      "status": "provisional",
+      "note": "The apartment building where Mrs. Manfield lives; <span lang=\"zh-Hans\">芭口</span> transliterates a Western name not identified in the source (pinyin romanization used here)."
+    },
+    "魏白饭店": {
+      "en": "the Weibai Hotel",
+      "pinyin": "Weibai Fandian",
+      "status": "provisional",
+      "note": "A hotel managed by Mr. Gao; <span lang=\"zh-Hans\">魏白</span> transliterates a Western name not identified in the source."
+    },
+    "阿卡第亚": {
+      "en": "the Arcadia",
+      "pinyin": "Akadiya",
+      "status": "attested",
+      "note": "A Shanghai dance hall / cabaret of the period; <span lang=\"zh-Hans\">阿卡第亚</span> = Arcadia."
+    },
+    "仙宫": {
+      "en": "the Xiangong",
+      "pinyin": "Xiangong",
+      "status": "provisional",
+      "note": "A dance hall where Sophie works; <span lang=\"zh-Hans\">仙宫</span> (&#8216;Celestial Palace&#8217;), romanized here."
+    },
+    "杭州": {
+      "en": "Hangzhou",
+      "pinyin": "Hangzhou",
+      "status": "attested",
+      "note": "City on the West Lake, southwest of Shanghai; the narrator's old haunt."
+    },
+    "西冷饭店": {
+      "en": "the Xiling Hotel",
+      "pinyin": "Xiling Fandian",
+      "status": "attested",
+      "note": "A hotel by the West Lake; the source writes <span lang=\"zh-Hans\">西冷</span> for <span lang=\"zh-Hans\">西泠</span> (Xiling), the name of the district and its famous seal-engravers' society."
+    },
+    "金门": {
+      "en": "the Golden Gate",
+      "pinyin": "Jinmen",
+      "status": "decided",
+      "note": "A restaurant in Shanghai; <span lang=\"zh-Hans\">金门</span> (&#8216;Golden Gate&#8217;)."
+    },
+    "锦湘": {
+      "en": "the Jinxiang",
+      "pinyin": "Jinxiang",
+      "status": "provisional",
+      "note": "A Chinese restaurant; <span lang=\"zh-Hans\">锦湘</span> (the <span lang=\"zh-Hans\">湘</span> suggesting Hunan cooking), romanized here."
+    },
+    "北四川路": {
+      "en": "North Sichuan Road",
+      "pinyin": "Bei Sichuan Lu",
+      "status": "attested",
+      "note": "A road running north through Hongkou, the Japanese-dominated district north of Suzhou Creek (historically North Szechuen Road)."
+    },
+    "马斯南路": {
+      "en": "Route Massenet",
+      "pinyin": "Masinan Lu",
+      "status": "attested",
+      "note": "A French Concession street named for the composer Jules Massenet (today Sinan Road)."
+    },
+    "葛岭": {
+      "en": "Geling",
+      "pinyin": "Geling",
+      "status": "attested",
+      "note": "Ge Ridge, a hill on the north shore of the West Lake, named for the Daoist alchemist Ge Hong."
+    },
+    "苏堤": {
+      "en": "the Su Causeway",
+      "pinyin": "Su Di",
+      "status": "attested",
+      "note": "The causeway across the West Lake raised by the poet-governor Su Shi (Su Dongpo)."
+    },
+    "白堤": {
+      "en": "the Bai Causeway",
+      "pinyin": "Bai Di",
+      "status": "attested",
+      "note": "A causeway on the West Lake, associated with the poet Bai Juyi."
+    },
+    "孤山": {
+      "en": "Solitary Hill",
+      "pinyin": "Gushan",
+      "status": "attested",
+      "note": "The island hill in the West Lake (<span lang=\"zh-Hans\">孤山</span>, Gushan), famous for plum blossom and the site of the Academy's 1928 opening."
+    },
+    "三潭印月": {
+      "en": "the Three Pools Mirroring the Moon",
+      "pinyin": "Santan Yinyue",
+      "status": "attested",
+      "note": "A celebrated West Lake scene, an islet ringed by three small stone pagodas standing in the water."
+    },
+    "牛公墩": {
+      "en": "Niugong Mound",
+      "pinyin": "Niugong Dun",
+      "status": "provisional",
+      "note": "A spot on the West Lake named in the source (<span lang=\"zh-Hans\">牛公墩</span>); not securely identified, romanized here."
+    },
+    "兆丰公园": {
+      "en": "Jessfield Park",
+      "pinyin": "Zhaofeng gongyuan",
+      "status": "attested",
+      "note": "A large public park in the west of the International Settlement, laid out by the Shanghai Municipal Council in 1914; renamed Zhongshan Park in 1941 for Sun Yat-sen. The novel keeps the older concession-era name Jessfield Park."
+    },
+    "汶林路": {
+      "en": "Route Winling",
+      "pinyin": "Wenlin Lu",
+      "status": "attested",
+      "note": "A French Concession street (today Wanping Road), named for J. A. Winling; the Jewish restaurant of Chapter 15 stands at its corner with Avenue Joffre."
+    },
+    "姚主教路": {
+      "en": "Route Prosper Paris",
+      "pinyin": "Yao Zhujiao Lu",
+      "status": "attested",
+      "note": "A French Concession road (today Tianping Road), named for the French Jesuit bishop Prosper Paris (Chinese name 姚宗李, Yao Zongli). The source writes 姚主教路, &#8216;Bishop Yao&#8217;s Road.&#8217;"
+    },
+    "弟弟咖啡店": {
+      "en": "the DD's Café",
+      "pinyin": "Didi kafeidian",
+      "status": "attested",
+      "note": "A fashionable caf&#233; on Avenue Joffre; 弟弟 (&#8216;little brother&#8217;) transliterates the English name DD&#8217;s. Rendered the DD&#8217;s Caf&#233; in the prose."
+    },
+    "天津": {
+      "en": "Tianjin",
+      "pinyin": "Tianjin",
+      "status": "attested",
+      "note": "North China treaty-port city; one of the places Bai Ping speaks of withdrawing to."
+    },
+    "浦东": {
+      "en": "Pudong",
+      "pinyin": "Pudong",
+      "status": "attested",
+      "note": "The east bank of the Huangpu opposite the Bund; site of a wartime internment camp for Allied nationals."
+    },
+    "中西疗养院": {
+      "en": "the Zhongxi Sanatorium",
+      "pinyin": "Zhongxi Liaoyangyuan",
+      "status": "provisional",
+      "note": "A Shanghai sanatorium (<span lang=\"zh-Hans\">中西</span>, &#8216;Chinese-Western&#8217;) the narrator suggests for Bai Ping&#8217;s convalescence; romanized here."
+    },
+    "大西路": {
+      "en": "Great Western Road",
+      "pinyin": "Daxi Lu",
+      "status": "attested",
+      "note": "A road running west out of the International Settlement (today part of Yan'an West Road); the Benner Inn stands off it (ch22)."
+    },
+    "哥伦比亚路": {
+      "en": "Columbia Road",
+      "pinyin": "Gelunbiya Lu",
+      "status": "attested",
+      "note": "A road in the western external-roads area of Shanghai (today Panyu Road); the Standford gambling-club lane opens off it (ch24)."
+    },
+    "施高塔路": {
+      "en": "Scott Road",
+      "pinyin": "Shigaota Lu",
+      "status": "attested",
+      "note": "A road in Hongkou (today Shanyin Road), in the Japanese quarter; Colonel Arita's requisitioned house is off it (ch25)."
+    },
+    "虹口": {
+      "en": "Hongkou",
+      "pinyin": "Hongkou",
+      "status": "attested",
+      "note": "The district north of Suzhou Creek that was the centre of Japanese Shanghai, where the occupying officers are billeted (ch25). Also romanized Hongkew."
+    },
+    "槟纳饭店": {
+      "en": "the Benner Inn",
+      "pinyin": "Binna fandian",
+      "status": "attested",
+      "note": "An English-style residential hotel off Great Western Road where Mei Yingzi lodges (ch22); the name Benner Inn is given in Latin letters in the source, on the porcelain lamp-shade and the brass plate."
+    },
+    "赛罗凡": {
+      "en": "the Sarofan",
+      "pinyin": "Sailuofan",
+      "status": "provisional",
+      "note": "A fashionable Shanghai restaurant or nightspot named in passing (ch22); <span lang=\"zh-Hans\">赛罗凡</span> transliterates a Western name not identified with certainty, rendered here by its sound."
+    },
+    "standford": {
+      "en": "the Standford",
+      "pinyin": "",
+      "status": "provisional",
+      "note": "A gambling-and-dancing club in a walled lane off Columbia Road, in fact a front for Mei Yingzi's espionage ring (ch24); the name appears in the source only in Latin letters on the neon sign, as <i>standford</i>."
+    },
+    "威海卫路": {
+      "en": "Weihaiwei Road",
+      "pinyin": "Weihaiwei Lu",
+      "status": "attested",
+      "note": "A road in the International Settlement (today Weihai Road) where the narrator rents rooms to hide under an assumed name (ch26)."
+    },
+    "跑马厅": {
+      "en": "the Racecourse",
+      "pinyin": "Paomating",
+      "status": "attested",
+      "note": "The large racecourse of the Shanghai Race Club in the heart of the International Settlement (today the site of People's Park and People's Square); the moon rides above it as they drive down Nanjing Road (ch26)."
+    },
+    "万国公墓": {
+      "en": "the International Cemetery",
+      "pinyin": "Wanguo Gongmu",
+      "status": "attested",
+      "note": "The Shanghai cemetery for the dead of all nations (<span lang=\"zh-Hans\">万国公墓</span>, &#8216;Cemetery of All Nations&#8217;), Chinese and foreign alike, on Hongqiao Road in the western outskirts (founded 1909); Stephen is buried here (ch28&#8211;ch29)."
+    },
+    "静安寺": {
+      "en": "Jing'an Temple",
+      "pinyin": "Jing'ansi",
+      "status": "attested",
+      "note": "The Jing'an (Bubbling Well) Temple, which gave its name to Bubbling Well Road; the district around it, where the narrator and Helen breakfast (ch29)."
+    },
+    "马浪路": {
+      "en": "Malang Road",
+      "pinyin": "Malang Lu",
+      "status": "decided",
+      "note": "A road in the French Concession officially the Rue Brenier de Montmorand (named 1906 for the French consul-general Brenier; today Madang Road). Shanghai residents shortened it to <span lang=\"zh-Hans\">马浪路</span>, and the source uses that colloquial form, kept here as Malang Road. Named among the places where the narrator pictures Stephen (ch29)."
+    },
+    "北平": {
+      "en": "Beiping",
+      "pinyin": "Beiping",
+      "status": "attested",
+      "note": "The name borne by Beijing from 1928 to 1949; Helen tells the Japanese she is going to Beiping to return the party invitation (ch29)."
+    },
+    "汇美饭店": {
+      "en": "the Huimei Hotel",
+      "pinyin": "Huimei Fandian",
+      "status": "provisional",
+      "note": "The establishment where Mrs. Manfield now works (ch29); <span lang=\"zh-Hans\">汇美</span> romanized here, the source giving no Western form."
+    },
+    "高叶路": {
+      "en": "Gaoye Road",
+      "pinyin": "Gaoye Lu",
+      "status": "provisional",
+      "note": "The road on which the small private Gaolang Hospital stands (ch28); <span lang=\"zh-Hans\">高叶路</span> romanized here. The source names the road <span lang=\"zh-Hans\">高叶</span> and the hospital <span lang=\"zh-Hans\">高朗</span> (Gaolang); the two forms are kept as printed."
+    },
+    "高朗医院": {
+      "en": "the Gaolang Hospital",
+      "pinyin": "Gaolang Yiyuan",
+      "status": "provisional",
+      "note": "A small, clean private hospital on Gaoye Road where Stephen is nursed and dies (ch28); <span lang=\"zh-Hans\">高朗</span> romanized here (see Dr. Gaolang)."
+    },
+    "源裕泰": {
+      "en": "the Yuanyutai",
+      "pinyin": "Yuanyutai",
+      "status": "provisional",
+      "note": "A small, shabby tavern in a lane off Fourth Avenue to which the narrator takes Mei Yingzi (ch31); <span lang=\"zh-Hans\">源裕泰</span>, a Chinese shop-name, romanized here."
+    },
+    "大世界": {
+      "en": "the Great World",
+      "pinyin": "Da Shijie",
+      "status": "attested",
+      "note": "The famous many-storeyed amusement palace at the edge of the French Concession (opened 1917); a dance hall behind it is the scene of ch31."
+    },
+    "江湾": {
+      "en": "Jiangwan",
+      "pinyin": "Jiangwan",
+      "status": "attested",
+      "note": "District in the northern outskirts of Shanghai, site of the Nationalist 'Greater Shanghai Plan' civic centre of the 1930s; under Japanese occupation put to military use. Standard pinyin. Corroborated."
+    },
+    "凯第饭店": {
+      "en": "the Kaidi Restaurant",
+      "pinyin": "Kaidi",
+      "status": "provisional",
+      "note": "A Shanghai restaurant where the narrator dines alone before the soiree (<span lang=\"zh-Hans\">&#20975;&#31532;&#39277;&#24215;</span>). No external attestation found; rendered by pinyin, provisional."
+    },
+    "白宫舞厅": {
+      "en": "the White Palace",
+      "pinyin": "Baigong",
+      "status": "provisional",
+      "note": "A Shanghai dance hall (<span lang=\"zh-Hans\">&#30333;&#23470;&#33310;&#21381;</span>) named by Honsa as a former workplace of one of the officials' wives. Rendered 'the White Palace' (<span lang=\"zh-Hans\">&#30333;&#23470;</span> lit. 'white palace') rather than 'White House' to avoid the American association. Provisional."
+    },
+    "青岛": {
+      "en": "Qingdao",
+      "pinyin": "Qingdao",
+      "status": "attested",
+      "note": "Port city on the Shandong peninsula and a noted seaside summer resort; former German (Kiautschou) and Japanese leasehold. Helen winters there (ch38&#8211;ch41). Standard pinyin (older &#8216;Tsingtao&#8217;)."
+    },
+    "国泰": {
+      "en": "the Cathay",
+      "pinyin": "Guotai",
+      "status": "attested",
+      "note": "The Cathay Theatre (<span lang=\"zh-Hans\">国泰大戏院</span>) on Avenue Joffre, a first-run picture house opened in 1932; where the narrator and Helen see a film (ch43). <span lang=\"zh-Hans\">国泰</span> (&#8216;Cathay&#8217;) is the house's own Chinese name."
+    },
+    "chez Rovere": {
+      "en": "chez Rovere",
+      "pinyin": "",
+      "status": "provisional",
+      "note": "A Western restaurant where the narrator dines with Helen (ch43); the name appears in the source in Latin script as <i>chez Rovere</i> (French, &#8216;at Rovere's&#8217;), kept as printed. No external attestation."
+    },
+    "明湖春": {
+      "en": "the Minghu Chun",
+      "pinyin": "Minghu Chun",
+      "status": "provisional",
+      "note": "A restaurant whose Beiping (Peking) food is served at Honsa Jiro&#8217;s dinner (ch46); <span lang=\"zh-Hans\">明湖春</span> (&#8216;Bright Lake Spring&#8217;), romanized here."
+    },
+    "歌伦比亚路": {
+      "en": "Columbia Road",
+      "pinyin": "Gelunbiya Lu",
+      "status": "attested",
+      "note": "A road in the far west of Shanghai (Columbia Avenue, <span lang=\"zh-Hans\">歌伦比亚路</span>), laid out by the Municipal Council in 1925 and renamed Panyu Road (<span lang=\"zh-Hans\">番禺路</span>) in 1943; here one of Mei Yingzi&#8217;s private code-names (ch46)."
+    },
+    "有恒路": {
+      "en": "Youheng Road",
+      "pinyin": "Youheng Lu",
+      "status": "decided",
+      "note": "A road in the Hongkou district, a few streets on from North Sichuan Road, where Miyama Yoshiko actually lives (ch48); <span lang=\"zh-Hans\">有恒路</span> in pinyin."
+    },
+    "聚贤村": {
+      "en": "Juxian Village",
+      "pinyin": "Juxian Cun",
+      "status": "provisional",
+      "note": "The lane compound outside which Miyama Yoshiko&#8217;s house stands (ch48); <span lang=\"zh-Hans\">聚贤村</span> (&#8216;village of gathered worthies&#8217;), a lilong name, romanized here."
+    }
+  },
+  "terms": {
+    "孤岛": {
+      "en": "the Solitary Island",
+      "pinyin": "gudao",
+      "status": "attested",
+      "note": "The name for the foreign-concession enclave of Shanghai between the Japanese occupation of the surrounding city in 1937 and the seizure of the concessions after Pearl Harbor in December 1941, during which the concessions kept a precarious neutral status."
+    },
+    "鬼恋": {
+      "en": "Ghost Love",
+      "pinyin": "Gui lian",
+      "status": "attested",
+      "note": "Xu Xu's 1937 novella, the work that made his name."
+    },
+    "江湖行": {
+      "en": "River of Fury",
+      "pinyin": "Jianghu xing",
+      "status": "attested",
+      "note": "Xu Xu's later long novel, published 1956&#8211;1961; rendered <i>River of Fury</i> in the scholarship of Frederik Green. The Chinese <span lang=\"zh-Hans\">江湖行</span> means &#8216;a journey through the rivers and lakes&#8217; (the itinerant world)."
+    },
+    "旗袍": {
+      "en": "cheongsam",
+      "pinyin": "qipao",
+      "status": "decided",
+      "note": "The close-fitting Chinese woman's dress (<span lang=\"zh-Hans\">旗袍</span>, <i>qipao</i>); &#8216;cheongsam&#8217; is the established English form used throughout."
+    },
+    "月宫": {
+      "en": "the Palace of the Moon",
+      "pinyin": "yuegong",
+      "status": "decided",
+      "note": "The lunar palace of the moon-goddess Chang&#8217;e (<span lang=\"zh-Hans\">嫦娥</span>); a figure of cold, remote, solitary beauty, used through Chapter 18 for Mei Yingzi&#8217;s radiance and the narrator&#8217;s seclusion alike."
+    },
+    "寇莉莎": {
+      "en": "Kolisa",
+      "pinyin": "Koulisha",
+      "status": "provisional",
+      "note": "An imported drink Mei Yingzi orders (a liqueur or cocktail); the source gives no other identification, so <span lang=\"zh-Hans\">寇莉莎</span> is romanized here."
+    },
+    "大东亚": {
+      "en": "Greater East Asia",
+      "pinyin": "Da Dongya",
+      "status": "attested",
+      "note": "Shorthand for the Greater East Asia Co-Prosperity Sphere (<span lang=\"zh-Hans\">&#22823;&#19996;&#20122;&#20849;&#33635;&#22280;</span>), the Japanese imperial propaganda concept proclaimed in 1940. Standard English rendering. Corroborated."
+    },
+    "蓝尾蛇": {
+      "en": "the blue-tailed snake",
+      "pinyin": "lanweishe",
+      "status": "decided",
+      "note": "Bai Ping and Mei Yingzi&#8217;s code-name for the ink-marked intruder, from the blue spray on her skirt that dried into a snake-like line of dots (ch47&#8211;ch48). The source varies the epithet&#8212;<span lang=\"zh-Hans\">蓝色响尾蛇</span> &#8216;blue rattlesnake&#8217;, <span lang=\"zh-Hans\">蓝尾蛇</span> &#8216;blue-tailed snake&#8217;, <span lang=\"zh-Hans\">蓝色的小蛇</span> &#8216;little blue snake&#8217;&#8212;and the variation is kept in the translation."
+    }
   }
- },
- "people": {
-  "徐訏": {
-   "en": "Xu Xu",
-   "pinyin": "Xu Xu",
-   "status": "attested",
-   "note": "Chinese writer (1908&#8211;1980), the novel's author; original name Xu Chuanzong (<span lang=\"zh-Hans\">徐傳琮</span>), pen name Xu Xu. Pinyin form standard in English-language scholarship (older romanization Hsu Yu)."
-  },
-  "史蒂芬": {
-   "en": "Stephen",
-   "pinyin": "Shidifen",
-   "status": "decided",
-   "note": "C.&#160;L. Stephen, the American naval surgeon; <span lang=\"zh-Hans\">史蒂芬</span> transliterates the English name Stephen, restored here."
-  },
-  "白苹": {
-   "en": "Bai Ping",
-   "pinyin": "Bai Ping",
-   "status": "decided",
-   "note": "A dancer at the Paramount, secretly a Chinese agent. Pinyin; <span lang=\"zh-Hans\">苹</span> read <i>ping</i>."
-  },
-  "梅瀛子": {
-   "en": "Mei Yingzi",
-   "pinyin": "Mei Yingzi",
-   "status": "decided",
-   "note": "A dazzling Eurasian socialite; her father was Chinese (long resident in Japan), her mother American. Pinyin."
-  },
-  "海伦": {
-   "en": "Helen",
-   "pinyin": "Hailun",
-   "status": "decided",
-   "note": "Helen Manfield, a shy, music-loving young American. <span lang=\"zh-Hans\">海伦</span> = Helen."
-  },
-  "曼斐儿": {
-   "en": "Manfield",
-   "pinyin": "Manfei'er",
-   "status": "provisional",
-   "note": "Helen's surname; <span lang=\"zh-Hans\">曼斐儿</span> transliterates a Western surname whose exact original spelling the source does not give. &#8216;Manfield&#8217; is a plausible reconstruction."
-  },
-  "费利普": {
-   "en": "Dr. Philip",
-   "pinyin": "Feilipu",
-   "status": "provisional",
-   "note": "The surgeon whose clinic Stephen uses; the source spells the name two ways (<span lang=\"zh-Hans\">费利普</span> and <span lang=\"zh-Hans\">菲利浦</span>), both transliterating Philip/Phillips."
-  },
-  "高": {
-   "en": "Gao",
-   "pinyin": "Gao",
-   "status": "decided",
-   "note": "Mr. Gao, the Chinese manager of the Weibai Hotel; his American wife and their daughter, Miss Gao, appear at Stephen's party."
-  },
-  "莎菲": {
-   "en": "Sophie",
-   "pinyin": "Shafei",
-   "status": "decided",
-   "note": "A dancing-girl at the Xiangong; <span lang=\"zh-Hans\">莎菲</span> transliterates a Western name (Sophie/Sophy)."
-  },
-  "铃木次郎": {
-   "en": "Suzuki Jiro",
-   "pinyin": "Lingmu Cilang",
-   "status": "decided",
-   "note": "A Japanese major general in Mei Yingzi's circle; <span lang=\"zh-Hans\">铃木次郎</span> given in its Japanese reading."
-  },
-  "山尾本原": {
-   "en": "Yamao Motohara",
-   "pinyin": "Shanwei Benyuan",
-   "status": "provisional",
-   "note": "A Japanese colonel; <span lang=\"zh-Hans\">山尾本原</span> read here in a plausible Japanese form, the source giving no romanization."
-  },
-  "梅百器": {
-   "en": "Mario Paci",
-   "pinyin": "Mei Baiqi",
-   "status": "attested",
-   "note": "Italian conductor and pianist (1878&#8211;1946), <span lang=\"zh-Hans\">梅百器</span>; led the Shanghai Municipal Orchestra 1919&#8211;1942 and taught many early Chinese pianists. Helen's teacher."
-  },
-  "齐白石": {
-   "en": "Qi Baishi",
-   "pinyin": "Qi Baishi",
-   "status": "attested",
-   "note": "Painter (1864&#8211;1957), a giant of modern Chinese ink painting."
-  },
-  "吴昌硕": {
-   "en": "Wu Changshuo",
-   "pinyin": "Wu Changshuo",
-   "status": "attested",
-   "note": "Painter, calligrapher and seal-carver (1844&#8211;1927), a leading figure of the late Shanghai School."
-  },
-  "任伯年": {
-   "en": "Ren Bonian",
-   "pinyin": "Ren Bonian",
-   "status": "attested",
-   "note": "Painter (1840&#8211;1895) of the Shanghai School, noted for figures and birds-and-flowers."
-  },
-  "阿美": {
-   "en": "Ah Mei",
-   "pinyin": "A Mei",
-   "status": "decided",
-   "note": "Bai Ping's maid; <span lang=\"zh-Hans\">阿美</span>, the familiar &#8216;Ah&#8217; prefix plus <i>Mei</i>."
-  },
-  "吉迷": {
-   "en": "Jimi",
-   "pinyin": "Jimi",
-   "status": "provisional",
-   "note": "Bai Ping's white Persian cat; <span lang=\"zh-Hans\">吉迷</span> transliterates a Western pet-name (perhaps &#8216;Jimmy&#8217;), romanized here as Jimi."
-  },
-  "陶渊明": {
-   "en": "Tao Yuanming",
-   "pinyin": "Tao Yuanming",
-   "status": "attested",
-   "note": "Poet (365&#8211;427), also Tao Qian; the great poet of reclusion and the pastoral in the Chinese tradition."
-  },
-  "武则天": {
-   "en": "Wu Zetian",
-   "pinyin": "Wu Zetian",
-   "status": "attested",
-   "note": "Empress of the Tang (624&#8211;705), the only woman to rule China as emperor in her own right."
-  },
-  "西太后": {
-   "en": "the Western Empress Dowager",
-   "pinyin": "Xi Taihou",
-   "status": "decided",
-   "note": "Cixi (<span lang=\"zh-Hans\">慈禧</span>, 1835&#8211;1908), the Empress Dowager who dominated the late Qing court; the source names her by the palace epithet <span lang=\"zh-Hans\">西太后</span>, kept here as &#8216;the Western Empress Dowager.&#8217;"
-  },
-  "宫间登水": {
-   "en": "Miyama Toshimi",
-   "pinyin": "Gongjian Dengshui",
-   "status": "provisional",
-   "note": "A Japanese admirer who sends Bai Ping flowers in hospital; the narrator cannot recall the name on the card exactly, so <span lang=\"zh-Hans\">宫间登水</span> is given a tentative Japanese reading."
-  },
-  "赛金花": {
-   "en": "Sai Jinhua",
-   "pinyin": "Sai Jinhua",
-   "status": "attested",
-   "note": "Celebrated late-Qing courtesan (c. 1872–1936), linked in legend to Field Marshal von Waldersee during the Boxer occupation of Beijing; invoked in ch22 as a byword for a beauty who consorts with the occupier. Pinyin, the standard form."
-  },
-  "石涛": {
-   "en": "Shitao",
-   "pinyin": "Shitao",
-   "status": "attested",
-   "note": "Monk-painter of the early Qing (1642–c. 1707), a landscapist of the fallen Ming imperial line; a landscape of his hangs in the study in ch23. Pinyin, the standard form."
-  },
-  "任堇": {
-   "en": "Ren Jinshu",
-   "pinyin": "Ren Jinshu",
-   "status": "decided",
-   "note": "Painter-calligrapher of the late Qing and early Republic (1881–1936), styled <span lang=\"zh-Hans\">堇叔</span> (Jinshu); the digital source prints the corrupt <span lang=\"zh-Hans\">任董叔</span> for <span lang=\"zh-Hans\">任堇叔</span>, emended here (ch23)."
-  },
-  "本佐次郎": {
-   "en": "Honsa Jiro",
-   "pinyin": "Benzuo Cilang",
-   "status": "provisional",
-   "note": "A Japanese merchant Mei Yingzi has the narrator take up with (ch25); <span lang=\"zh-Hans\">本佐次郎</span> given a tentative Japanese reading, the source offering no romanization."
-  },
-  "有田": {
-   "en": "Arita",
-   "pinyin": "Youtian",
-   "status": "decided",
-   "note": "A Japanese colonel (<span lang=\"zh-Hans\">有田大佐</span>, Colonel Arita) at whose Hongkou house the gambling of ch25 takes place; <span lang=\"zh-Hans\">有田</span> in its Japanese reading."
-  },
-  "武岛": {
-   "en": "Takeshima",
-   "pinyin": "Wudao",
-   "status": "decided",
-   "note": "A Japanese major general (<span lang=\"zh-Hans\">武岛少将</span>) in the ch25 gambling party; <span lang=\"zh-Hans\">武岛</span> in its Japanese reading."
-  },
-  "山尾": {
-   "en": "Yamao",
-   "pinyin": "Shanwei",
-   "status": "decided",
-   "note": "Surname of <span lang=\"zh-Hans\">山尾少佐</span>, Major Yamao, the officer who forces himself on Helen in ch25; rendered with the same surname form as Yamao Motohara, though the source does not make clear whether the two are the same man."
-  },
-  "野村": {
-   "en": "Nomura",
-   "pinyin": "Yecun",
-   "status": "decided",
-   "note": "A Japanese colonel (<span lang=\"zh-Hans\">野村大佐</span>, Colonel Nomura) whose car comes for Helen at the end of ch27; <span lang=\"zh-Hans\">野村</span> in its standard Japanese reading."
-  },
-  "梅武": {
-   "en": "Umetake",
-   "pinyin": "Meiwu",
-   "status": "provisional",
-   "note": "A Japanese rear admiral (<span lang=\"zh-Hans\">梅武少将</span>) of the Navy Ministry, in whose name the Christmas evening party is given (ch29&#8211;ch31); <span lang=\"zh-Hans\">梅武</span> given a tentative Japanese reading, the source offering no romanization. (<span lang=\"zh-Hans\">少将</span> is the naval rank of rear admiral.)"
-  },
-  "陈寂": {
-   "en": "Chen Ji",
-   "pinyin": "Chen Ji",
-   "status": "decided",
-   "note": "The assumed name the narrator takes when he moves into hiding on Weihaiwei Road (ch26); <span lang=\"zh-Hans\">陈寂</span> in pinyin, the given name <span lang=\"zh-Hans\">寂</span> meaning &#8216;silence, stillness, solitude.&#8217;"
-  },
-  "高朗": {
-   "en": "Dr. Gaolang",
-   "pinyin": "Gaolang",
-   "status": "provisional",
-   "note": "The physician in the white gown at the small private hospital where Stephen dies (ch28), and the hospital&#8217;s namesake; <span lang=\"zh-Hans\">高朗</span> romanized here (rendered Dr. Gaolang to keep it distinct from Mr. Gao of the Weibai Hotel)."
-  },
-  "米可": {
-   "en": "Miko",
-   "pinyin": "Mike",
-   "status": "provisional",
-   "note": "A Japanese teahouse hostess and dancer at Umetake's soiree; the source spells her name <span lang=\"zh-Hans\">&#31859;&#21487;</span> and the narrator explicitly notes he cannot tell its nationality, recording only its sound. Rendered as the plausible Japanese given name Miko; provisional, no external attestation."
-  },
-  "史托亦夫斯基": {
-   "en": "Stoyevsky",
-   "pinyin": "Shituoyifusiji",
-   "status": "provisional",
-   "note": "An elderly White Russian &#233;migr&#233; musician Helen meets in Qingdao, who takes her as a pupil and draws her to Beiping (ch39). <span lang=\"zh-Hans\">&#21490;&#25176;&#20134;&#22827;&#26031;&#22522;</span> transliterates a Russian surname the source does not give in Latin script; romanized here as Stoyevsky. No external attestation."
-  },
-  "福楼拜": {
-   "en": "Flaubert",
-   "pinyin": "Fuloubai",
-   "status": "attested",
-   "note": "Gustave Flaubert (1821&#8211;1880), French novelist, invoked in the narrator&#8217;s Christmas-Eve dream (ch37); the digital source misspells the name as &#8216;Flaulert.&#8217; See the note at that passage on the unidentifiable &#8216;holy robe.&#8217;"
-  },
-  "巴哈": {
-   "en": "Bach",
-   "pinyin": "Baha",
-   "status": "attested",
-   "note": "Johann Sebastian Bach, likened in Helen&#8217;s letter to the solemnity of the hills (ch39); <span lang=\"zh-Hans\">&#24052;&#21704;</span>, the older Chinese form of the composer&#8217;s name."
-  },
-  "贝多芬": {
-   "en": "Beethoven",
-   "pinyin": "Beiduofen",
-   "status": "attested",
-   "note": "Ludwig van Beethoven, likened in Helen&#8217;s letter to the grandeur of the sea (ch39); <span lang=\"zh-Hans\">&#36125;&#22810;&#33452;</span>, the standard Chinese rendering."
-  },
-  "孟德尔仲": {
-   "en": "Mendelssohn",
-   "pinyin": "Mengde'erzhong",
-   "status": "attested",
-   "note": "Felix Mendelssohn, likened in Helen&#8217;s letter to the gentleness of the moonlight (ch39); the source writes <span lang=\"zh-Hans\">&#23391;&#24503;&#23572;&#20210;</span> for the usual <span lang=\"zh-Hans\">&#23391;&#24503;&#23572;&#26494;</span> (Mengde&#8217;ersong), emended in sense here."
-  }
- },
- "organizations": {
-  "工部局乐队": {
-   "en": "Shanghai Municipal Orchestra",
-   "pinyin": "Gongbuju yuedui",
-   "status": "attested",
-   "note": "The orchestra of the Shanghai Municipal Council (<span lang=\"zh-Hans\">工部局</span>), long led by Mario Paci; in its day the most celebrated orchestra in the Far East."
-  },
-  "北京大学": {
-   "en": "Peking University",
-   "pinyin": "Beijing Daxue",
-   "status": "attested",
-   "note": "Conventional English name of the university; Xu Xu read philosophy there."
-  },
-  "百乐门": {
-   "en": "the Paramount",
-   "pinyin": "Bailemen",
-   "status": "attested",
-   "note": "The Paramount Ballroom (<span lang=\"zh-Hans\">百乐门</span>) on Bubbling Well Road, Shanghai's most famous dance hall."
-  },
-  "国立艺术院": {
-   "en": "the National Academy of Art",
-   "pinyin": "Guoli Yishuyuan",
-   "status": "attested",
-   "note": "Founded on the West Lake at Hangzhou in 1928 (first president Lin Fengmian); the source calls it simply <span lang=\"zh-Hans\">艺术院</span>. Rendered by its historical English name."
-  },
-  "福源钱庄": {
-   "en": "the Fuyuan native bank",
-   "pinyin": "Fuyuan qianzhuang",
-   "status": "provisional",
-   "note": "The traditional Chinese banking house (<span lang=\"zh-Hans\">钱庄</span>, native bank) on which Mei Yingzi's check is drawn in ch22; <span lang=\"zh-Hans\">福源</span> romanized as pinyin."
-  },
-  "海邻广播电台": {
-   "en": "the Hailin Broadcasting Station",
-   "pinyin": "Hailin guangbo diantai",
-   "status": "provisional",
-   "note": "The Japanese-controlled Shanghai radio station where Helen sings and reads a little English news (ch26); <span lang=\"zh-Hans\">海邻</span> (<i>Hailin</i>) transliterates a name not otherwise identified, romanized here."
-  }
- },
- "places": {
-  "上海": {
-   "en": "Shanghai",
-   "pinyin": "Shanghai",
-   "status": "attested",
-   "note": ""
-  },
-  "重庆": {
-   "en": "Chongqing",
-   "pinyin": "Chongqing",
-   "status": "attested",
-   "note": "Wartime capital of Nationalist China."
-  },
-  "香港": {
-   "en": "Hong Kong",
-   "pinyin": "Xianggang",
-   "status": "attested",
-   "note": ""
-  },
-  "辣斐德路": {
-   "en": "Route Lafayette",
-   "pinyin": "Lafeide Lu",
-   "status": "attested",
-   "note": "A street in the French Concession (today Fuxing Middle Road)."
-  },
-  "静安寺路": {
-   "en": "Bubbling Well Road",
-   "pinyin": "Jing'ansi Lu",
-   "status": "attested",
-   "note": "Major road in the International Settlement, named for the Jing'an (Bubbling Well) Temple; today Nanjing West Road."
-  },
-  "麦特赫司脱路": {
-   "en": "Medhurst Road",
-   "pinyin": "Maitehesituo Lu",
-   "status": "attested",
-   "note": "A road off Bubbling Well Road (today Taixing Road); the source also spells it <span lang=\"zh-Hans\">麦特赫斯脱路</span>."
-  },
-  "愚园路": {
-   "en": "Yuyuan Road",
-   "pinyin": "Yuyuan Lu",
-   "status": "attested",
-   "note": "A road running west from the Jing'an area."
-  },
-  "霞飞路": {
-   "en": "Avenue Joffre",
-   "pinyin": "Xiafei Lu",
-   "status": "attested",
-   "note": "The French Concession's main thoroughfare, lined with cafés and shops (today Huaihai Middle Road)."
-  },
-  "海格路": {
-   "en": "Avenue Haig",
-   "pinyin": "Haige Lu",
-   "status": "attested",
-   "note": "A road on the western edge of the Settlement (today Huashan Road)."
-  },
-  "善锺路": {
-   "en": "Route de Sieyès",
-   "pinyin": "Shanzhong Lu",
-   "status": "attested",
-   "note": "A French Concession street (today Changshu Road); source form <span lang=\"zh-Hans\">善锺路</span>."
-  },
-  "贝当路": {
-   "en": "Route Pétain",
-   "pinyin": "Beidang Lu",
-   "status": "attested",
-   "note": "A French Concession road (today Hengshan Road)."
-  },
-  "四马路": {
-   "en": "Fourth Avenue",
-   "pinyin": "Sima Lu",
-   "status": "attested",
-   "note": "Popular Shanghai nickname (one of the numbered &#8216;horse roads&#8217;) for the settlement's Foochow Road, today Fuzhou Road, known for small restaurants, bookshops and nightlife."
-  },
-  "南京路": {
-   "en": "Nanjing Road",
-   "pinyin": "Nanjing Lu",
-   "status": "attested",
-   "note": "Shanghai's premier shopping street (historically &#8216;Nanking Road&#8217;)."
-  },
-  "徐家汇": {
-   "en": "Xujiahui",
-   "pinyin": "Xujiahui",
-   "status": "attested",
-   "note": "District in the southwest of Shanghai (older form Zikawei/Ziccawei), site of the Jesuit St Ignatius Cathedral."
-  },
-  "仁济医院": {
-   "en": "Renji Hospital",
-   "pinyin": "Renji Yiyuan",
-   "status": "attested",
-   "note": "A long-established Shanghai hospital (Shanghai's first Western hospital, founded 1844), known to foreigners as the Chinese Hospital or Shantung Road Hospital."
-  },
-  "百乐门舞厅": {
-   "en": "the Paramount",
-   "pinyin": "Bailemen wuting",
-   "status": "attested",
-   "note": "See the Paramount, above."
-  },
-  "维纳斯": {
-   "en": "the Venus",
-   "pinyin": "Weinasi",
-   "status": "decided",
-   "note": "A dance hall; <span lang=\"zh-Hans\">维纳斯</span> = Venus."
-  },
-  "丽都": {
-   "en": "the Lido",
-   "pinyin": "Lidu",
-   "status": "attested",
-   "note": "A Shanghai dance hall / entertainment venue."
-  },
-  "凯莎舞厅": {
-   "en": "the Kaisha",
-   "pinyin": "Kaisha wuting",
-   "status": "provisional",
-   "note": "A dance hall; romanization of <span lang=\"zh-Hans\">凯莎</span>."
-  },
-  "立体咖啡馆": {
-   "en": "the Liti Café",
-   "pinyin": "Liti kafeiguan",
-   "status": "provisional",
-   "note": "A café near the corner of Bubbling Well and Medhurst Roads; <span lang=\"zh-Hans\">立体</span> means &#8216;solid&#8217; or &#8216;three-dimensional&#8217;."
-  },
-  "大华电影院": {
-   "en": "the Majestic Cinema",
-   "pinyin": "Dahua Dianyingyuan",
-   "status": "provisional",
-   "note": "A Shanghai picture house; <span lang=\"zh-Hans\">大华</span> was the Chinese name of the Majestic."
-  },
-  "芭口公寓": {
-   "en": "the Bakou Apartments",
-   "pinyin": "Bakou gongyu",
-   "status": "provisional",
-   "note": "The apartment building where Mrs. Manfield lives; <span lang=\"zh-Hans\">芭口</span> transliterates a Western name not identified in the source (pinyin romanization used here)."
-  },
-  "魏白饭店": {
-   "en": "the Weibai Hotel",
-   "pinyin": "Weibai Fandian",
-   "status": "provisional",
-   "note": "A hotel managed by Mr. Gao; <span lang=\"zh-Hans\">魏白</span> transliterates a Western name not identified in the source."
-  },
-  "阿卡第亚": {
-   "en": "the Arcadia",
-   "pinyin": "Akadiya",
-   "status": "attested",
-   "note": "A Shanghai dance hall / cabaret of the period; <span lang=\"zh-Hans\">阿卡第亚</span> = Arcadia."
-  },
-  "仙宫": {
-   "en": "the Xiangong",
-   "pinyin": "Xiangong",
-   "status": "provisional",
-   "note": "A dance hall where Sophie works; <span lang=\"zh-Hans\">仙宫</span> (&#8216;Celestial Palace&#8217;), romanized here."
-  },
-  "杭州": {
-   "en": "Hangzhou",
-   "pinyin": "Hangzhou",
-   "status": "attested",
-   "note": "City on the West Lake, southwest of Shanghai; the narrator's old haunt."
-  },
-  "西冷饭店": {
-   "en": "the Xiling Hotel",
-   "pinyin": "Xiling Fandian",
-   "status": "attested",
-   "note": "A hotel by the West Lake; the source writes <span lang=\"zh-Hans\">西冷</span> for <span lang=\"zh-Hans\">西泠</span> (Xiling), the name of the district and its famous seal-engravers' society."
-  },
-  "金门": {
-   "en": "the Golden Gate",
-   "pinyin": "Jinmen",
-   "status": "decided",
-   "note": "A restaurant in Shanghai; <span lang=\"zh-Hans\">金门</span> (&#8216;Golden Gate&#8217;)."
-  },
-  "锦湘": {
-   "en": "the Jinxiang",
-   "pinyin": "Jinxiang",
-   "status": "provisional",
-   "note": "A Chinese restaurant; <span lang=\"zh-Hans\">锦湘</span> (the <span lang=\"zh-Hans\">湘</span> suggesting Hunan cooking), romanized here."
-  },
-  "北四川路": {
-   "en": "North Sichuan Road",
-   "pinyin": "Bei Sichuan Lu",
-   "status": "attested",
-   "note": "A road running north through Hongkou, the Japanese-dominated district north of Suzhou Creek (historically North Szechuen Road)."
-  },
-  "马斯南路": {
-   "en": "Route Massenet",
-   "pinyin": "Masinan Lu",
-   "status": "attested",
-   "note": "A French Concession street named for the composer Jules Massenet (today Sinan Road)."
-  },
-  "葛岭": {
-   "en": "Geling",
-   "pinyin": "Geling",
-   "status": "attested",
-   "note": "Ge Ridge, a hill on the north shore of the West Lake, named for the Daoist alchemist Ge Hong."
-  },
-  "苏堤": {
-   "en": "the Su Causeway",
-   "pinyin": "Su Di",
-   "status": "attested",
-   "note": "The causeway across the West Lake raised by the poet-governor Su Shi (Su Dongpo)."
-  },
-  "白堤": {
-   "en": "the Bai Causeway",
-   "pinyin": "Bai Di",
-   "status": "attested",
-   "note": "A causeway on the West Lake, associated with the poet Bai Juyi."
-  },
-  "孤山": {
-   "en": "Solitary Hill",
-   "pinyin": "Gushan",
-   "status": "attested",
-   "note": "The island hill in the West Lake (<span lang=\"zh-Hans\">孤山</span>, Gushan), famous for plum blossom and the site of the Academy's 1928 opening."
-  },
-  "三潭印月": {
-   "en": "the Three Pools Mirroring the Moon",
-   "pinyin": "Santan Yinyue",
-   "status": "attested",
-   "note": "A celebrated West Lake scene, an islet ringed by three small stone pagodas standing in the water."
-  },
-  "牛公墩": {
-   "en": "Niugong Mound",
-   "pinyin": "Niugong Dun",
-   "status": "provisional",
-   "note": "A spot on the West Lake named in the source (<span lang=\"zh-Hans\">牛公墩</span>); not securely identified, romanized here."
-  },
-  "兆丰公园": {
-   "en": "Jessfield Park",
-   "pinyin": "Zhaofeng gongyuan",
-   "status": "attested",
-   "note": "A large public park in the west of the International Settlement, laid out by the Shanghai Municipal Council in 1914; renamed Zhongshan Park in 1941 for Sun Yat-sen. The novel keeps the older concession-era name Jessfield Park."
-  },
-  "汶林路": {
-   "en": "Route Winling",
-   "pinyin": "Wenlin Lu",
-   "status": "attested",
-   "note": "A French Concession street (today Wanping Road), named for J. A. Winling; the Jewish restaurant of Chapter 15 stands at its corner with Avenue Joffre."
-  },
-  "姚主教路": {
-   "en": "Route Prosper Paris",
-   "pinyin": "Yao Zhujiao Lu",
-   "status": "attested",
-   "note": "A French Concession road (today Tianping Road), named for the French Jesuit bishop Prosper Paris (Chinese name 姚宗李, Yao Zongli). The source writes 姚主教路, &#8216;Bishop Yao&#8217;s Road.&#8217;"
-  },
-  "弟弟咖啡店": {
-   "en": "the DD's Café",
-   "pinyin": "Didi kafeidian",
-   "status": "attested",
-   "note": "A fashionable caf&#233; on Avenue Joffre; 弟弟 (&#8216;little brother&#8217;) transliterates the English name DD&#8217;s. Rendered the DD&#8217;s Caf&#233; in the prose."
-  },
-  "天津": {
-   "en": "Tianjin",
-   "pinyin": "Tianjin",
-   "status": "attested",
-   "note": "North China treaty-port city; one of the places Bai Ping speaks of withdrawing to."
-  },
-  "浦东": {
-   "en": "Pudong",
-   "pinyin": "Pudong",
-   "status": "attested",
-   "note": "The east bank of the Huangpu opposite the Bund; site of a wartime internment camp for Allied nationals."
-  },
-  "中西疗养院": {
-   "en": "the Zhongxi Sanatorium",
-   "pinyin": "Zhongxi Liaoyangyuan",
-   "status": "provisional",
-   "note": "A Shanghai sanatorium (<span lang=\"zh-Hans\">中西</span>, &#8216;Chinese-Western&#8217;) the narrator suggests for Bai Ping&#8217;s convalescence; romanized here."
-  },
-  "大西路": {
-   "en": "Great Western Road",
-   "pinyin": "Daxi Lu",
-   "status": "attested",
-   "note": "A road running west out of the International Settlement (today part of Yan'an West Road); the Benner Inn stands off it (ch22)."
-  },
-  "哥伦比亚路": {
-   "en": "Columbia Road",
-   "pinyin": "Gelunbiya Lu",
-   "status": "attested",
-   "note": "A road in the western external-roads area of Shanghai (today Panyu Road); the Standford gambling-club lane opens off it (ch24)."
-  },
-  "施高塔路": {
-   "en": "Scott Road",
-   "pinyin": "Shigaota Lu",
-   "status": "attested",
-   "note": "A road in Hongkou (today Shanyin Road), in the Japanese quarter; Colonel Arita's requisitioned house is off it (ch25)."
-  },
-  "虹口": {
-   "en": "Hongkou",
-   "pinyin": "Hongkou",
-   "status": "attested",
-   "note": "The district north of Suzhou Creek that was the centre of Japanese Shanghai, where the occupying officers are billeted (ch25). Also romanized Hongkew."
-  },
-  "槟纳饭店": {
-   "en": "the Benner Inn",
-   "pinyin": "Binna fandian",
-   "status": "attested",
-   "note": "An English-style residential hotel off Great Western Road where Mei Yingzi lodges (ch22); the name Benner Inn is given in Latin letters in the source, on the porcelain lamp-shade and the brass plate."
-  },
-  "赛罗凡": {
-   "en": "the Sarofan",
-   "pinyin": "Sailuofan",
-   "status": "provisional",
-   "note": "A fashionable Shanghai restaurant or nightspot named in passing (ch22); <span lang=\"zh-Hans\">赛罗凡</span> transliterates a Western name not identified with certainty, rendered here by its sound."
-  },
-  "standford": {
-   "en": "the Standford",
-   "pinyin": "",
-   "status": "provisional",
-   "note": "A gambling-and-dancing club in a walled lane off Columbia Road, in fact a front for Mei Yingzi's espionage ring (ch24); the name appears in the source only in Latin letters on the neon sign, as <i>standford</i>."
-  },
-  "威海卫路": {
-   "en": "Weihaiwei Road",
-   "pinyin": "Weihaiwei Lu",
-   "status": "attested",
-   "note": "A road in the International Settlement (today Weihai Road) where the narrator rents rooms to hide under an assumed name (ch26)."
-  },
-  "跑马厅": {
-   "en": "the Racecourse",
-   "pinyin": "Paomating",
-   "status": "attested",
-   "note": "The large racecourse of the Shanghai Race Club in the heart of the International Settlement (today the site of People's Park and People's Square); the moon rides above it as they drive down Nanjing Road (ch26)."
-  },
-  "万国公墓": {
-   "en": "the International Cemetery",
-   "pinyin": "Wanguo Gongmu",
-   "status": "attested",
-   "note": "The Shanghai cemetery for the dead of all nations (<span lang=\"zh-Hans\">万国公墓</span>, &#8216;Cemetery of All Nations&#8217;), Chinese and foreign alike, on Hongqiao Road in the western outskirts (founded 1909); Stephen is buried here (ch28&#8211;ch29)."
-  },
-  "静安寺": {
-   "en": "Jing'an Temple",
-   "pinyin": "Jing'ansi",
-   "status": "attested",
-   "note": "The Jing'an (Bubbling Well) Temple, which gave its name to Bubbling Well Road; the district around it, where the narrator and Helen breakfast (ch29)."
-  },
-  "马浪路": {
-   "en": "Malang Road",
-   "pinyin": "Malang Lu",
-   "status": "decided",
-   "note": "A road in the French Concession officially the Rue Brenier de Montmorand (named 1906 for the French consul-general Brenier; today Madang Road). Shanghai residents shortened it to <span lang=\"zh-Hans\">马浪路</span>, and the source uses that colloquial form, kept here as Malang Road. Named among the places where the narrator pictures Stephen (ch29)."
-  },
-  "北平": {
-   "en": "Beiping",
-   "pinyin": "Beiping",
-   "status": "attested",
-   "note": "The name borne by Beijing from 1928 to 1949; Helen tells the Japanese she is going to Beiping to return the party invitation (ch29)."
-  },
-  "汇美饭店": {
-   "en": "the Huimei Hotel",
-   "pinyin": "Huimei Fandian",
-   "status": "provisional",
-   "note": "The establishment where Mrs. Manfield now works (ch29); <span lang=\"zh-Hans\">汇美</span> romanized here, the source giving no Western form."
-  },
-  "高叶路": {
-   "en": "Gaoye Road",
-   "pinyin": "Gaoye Lu",
-   "status": "provisional",
-   "note": "The road on which the small private Gaolang Hospital stands (ch28); <span lang=\"zh-Hans\">高叶路</span> romanized here. The source names the road <span lang=\"zh-Hans\">高叶</span> and the hospital <span lang=\"zh-Hans\">高朗</span> (Gaolang); the two forms are kept as printed."
-  },
-  "高朗医院": {
-   "en": "the Gaolang Hospital",
-   "pinyin": "Gaolang Yiyuan",
-   "status": "provisional",
-   "note": "A small, clean private hospital on Gaoye Road where Stephen is nursed and dies (ch28); <span lang=\"zh-Hans\">高朗</span> romanized here (see Dr. Gaolang)."
-  },
-  "源裕泰": {
-   "en": "the Yuanyutai",
-   "pinyin": "Yuanyutai",
-   "status": "provisional",
-   "note": "A small, shabby tavern in a lane off Fourth Avenue to which the narrator takes Mei Yingzi (ch31); <span lang=\"zh-Hans\">源裕泰</span>, a Chinese shop-name, romanized here."
-  },
-  "大世界": {
-   "en": "the Great World",
-   "pinyin": "Da Shijie",
-   "status": "attested",
-   "note": "The famous many-storeyed amusement palace at the edge of the French Concession (opened 1917); a dance hall behind it is the scene of ch31."
-  },
-  "江湾": {
-   "en": "Jiangwan",
-   "pinyin": "Jiangwan",
-   "status": "attested",
-   "note": "District in the northern outskirts of Shanghai, site of the Nationalist 'Greater Shanghai Plan' civic centre of the 1930s; under Japanese occupation put to military use. Standard pinyin. Corroborated."
-  },
-  "凯第饭店": {
-   "en": "the Kaidi Restaurant",
-   "pinyin": "Kaidi",
-   "status": "provisional",
-   "note": "A Shanghai restaurant where the narrator dines alone before the soiree (<span lang=\"zh-Hans\">&#20975;&#31532;&#39277;&#24215;</span>). No external attestation found; rendered by pinyin, provisional."
-  },
-  "白宫舞厅": {
-   "en": "the White Palace",
-   "pinyin": "Baigong",
-   "status": "provisional",
-   "note": "A Shanghai dance hall (<span lang=\"zh-Hans\">&#30333;&#23470;&#33310;&#21381;</span>) named by Honsa as a former workplace of one of the officials' wives. Rendered 'the White Palace' (<span lang=\"zh-Hans\">&#30333;&#23470;</span> lit. 'white palace') rather than 'White House' to avoid the American association. Provisional."
-  },
-  "青岛": {
-   "en": "Qingdao",
-   "pinyin": "Qingdao",
-   "status": "attested",
-   "note": "Port city on the Shandong peninsula and a noted seaside summer resort; former German (Kiautschou) and Japanese leasehold. Helen winters there (ch38&#8211;ch41). Standard pinyin (older &#8216;Tsingtao&#8217;)."
-  },
-  "国泰": {
-   "en": "the Cathay",
-   "pinyin": "Guotai",
-   "status": "attested",
-   "note": "The Cathay Theatre (<span lang=\"zh-Hans\">国泰大戏院</span>) on Avenue Joffre, a first-run picture house opened in 1932; where the narrator and Helen see a film (ch43). <span lang=\"zh-Hans\">国泰</span> (&#8216;Cathay&#8217;) is the house's own Chinese name."
-  },
-  "chez Rovere": {
-   "en": "chez Rovere",
-   "pinyin": "",
-   "status": "provisional",
-   "note": "A Western restaurant where the narrator dines with Helen (ch43); the name appears in the source in Latin script as <i>chez Rovere</i> (French, &#8216;at Rovere's&#8217;), kept as printed. No external attestation."
-  }
- },
- "terms": {
-  "孤岛": {
-   "en": "the Solitary Island",
-   "pinyin": "gudao",
-   "status": "attested",
-   "note": "The name for the foreign-concession enclave of Shanghai between the Japanese occupation of the surrounding city in 1937 and the seizure of the concessions after Pearl Harbor in December 1941, during which the concessions kept a precarious neutral status."
-  },
-  "鬼恋": {
-   "en": "Ghost Love",
-   "pinyin": "Gui lian",
-   "status": "attested",
-   "note": "Xu Xu's 1937 novella, the work that made his name."
-  },
-  "江湖行": {
-   "en": "River of Fury",
-   "pinyin": "Jianghu xing",
-   "status": "attested",
-   "note": "Xu Xu's later long novel, published 1956&#8211;1961; rendered <i>River of Fury</i> in the scholarship of Frederik Green. The Chinese <span lang=\"zh-Hans\">江湖行</span> means &#8216;a journey through the rivers and lakes&#8217; (the itinerant world)."
-  },
-  "旗袍": {
-   "en": "cheongsam",
-   "pinyin": "qipao",
-   "status": "decided",
-   "note": "The close-fitting Chinese woman's dress (<span lang=\"zh-Hans\">旗袍</span>, <i>qipao</i>); &#8216;cheongsam&#8217; is the established English form used throughout."
-  },
-  "月宫": {
-   "en": "the Palace of the Moon",
-   "pinyin": "yuegong",
-   "status": "decided",
-   "note": "The lunar palace of the moon-goddess Chang&#8217;e (<span lang=\"zh-Hans\">嫦娥</span>); a figure of cold, remote, solitary beauty, used through Chapter 18 for Mei Yingzi&#8217;s radiance and the narrator&#8217;s seclusion alike."
-  },
-  "寇莉莎": {
-   "en": "Kolisa",
-   "pinyin": "Koulisha",
-   "status": "provisional",
-   "note": "An imported drink Mei Yingzi orders (a liqueur or cocktail); the source gives no other identification, so <span lang=\"zh-Hans\">寇莉莎</span> is romanized here."
-  },
-  "大东亚": {
-   "en": "Greater East Asia",
-   "pinyin": "Da Dongya",
-   "status": "attested",
-   "note": "Shorthand for the Greater East Asia Co-Prosperity Sphere (<span lang=\"zh-Hans\">&#22823;&#19996;&#20122;&#20849;&#33635;&#22280;</span>), the Japanese imperial propaganda concept proclaimed in 1940. Standard English rendering. Corroborated."
-  }
- }
 }

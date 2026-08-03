@@ -1076,3 +1076,118 @@ reading uncertainty; the blind translation pass independently confirmed 肩牌):
 - ch44: "他但这是不必同海伦说明的" (para 19, stray 他) rendered "only there was no need
   to explain it to Helen."
 - ch45: "肩牌" (para 112, for 肩膀 shoulder) rendered "patted her shoulder."
+
+## Batch B10 (ch46 through ch48: Chapters 46 to 48) — DONE
+
+Translated ch46 (四十六, 50_chapter48.txt, 151 paras), ch47 (四十七, 51_chapter49.txt,
+116 paras), ch48 (四十八, 52_chapter50.txt, 146 paras). ~17,009 source chars. The
+batch is the theft operation and the ball (narrative, not diary). ch46: the night
+before is abandoned (the narrator gives up his plan to say goodbye to Helen and the
+others), Bai Ping telephones and they pass a strained afternoon at the Xiangong tea
+dance, then Honsa Jiro's dinner (the demure Miyama Yoshiko as guest of honor), and the
+masked ball, where the ring codes, palm-traced crosses and the whispered safe
+combination "GH509K8" hand the narrator the key; he climbs the short ladder into the
+safe-room and, hidden under the round table, watches an unknown woman in white open the
+safe, take the two documents, set a bomb inside, and leave, and he squirts ink from his
+Parker onto her trailing skirt. ch47: alone again, he climbs back down, meets Mei
+Yingzi, who reads the intrusion as Bai Ping's "rivalry for credit," and the two of them
+slip back in; the ink-marked woman ("the blue rattlesnake") is danced down, and she
+gives her name as Asamura Toshimiko and lets fall that she spent ten years in Manchukuo.
+ch48: the 5 o'clock unmasking reveals the blue-snake woman to be Miyama Yoshiko (the
+same demure girl from the dinner), the narrator drives Sophie home and goes to Bai
+Ping's, dozes into a snake-and-gunshot dream, and Bai Ping returns in triumph with
+Miyama Yoshiko's real address (Youheng Road, by Juxian Village); the three settle that
+the real target is now the woman herself, and the narrator, unable to leave for Beiping
+with Helen, resolves to stay on.
+
+Bilingual QC files authored via scripts/_zip_bilingual.py (source side copied verbatim
+from data/src, BOM and the two duplicated chapter-numeral heading lines stripped);
+paragraph counts matched on the first pass for all three (151 / 116 / 146). The
+whitespace-stripped char comparison of the joined '>' blockquotes against the joined
+source paragraphs was IDENTICAL for every unit (ch46 9474, ch47 5039, ch48 5218), so
+the source is quoted verbatim. The lone source "──" divider in ch47 (para 43) renders
+as a lone "—" paragraph; the ch46 song (paras 83 to 94) is kept line by line as verse.
+
+The checks (recorded per the QC contract):
+1. Faithful verbatim quotation: confirmed by the char-identical comparison above.
+2. Blind double translation (separate context, subagent, cold): the reflective/analytic
+   and lyric passages (ch46 the three considerations; ch47 the "rivalry for credit"
+   reflection; the ch46 song; the ch47 Manchukuo exchange). No meaningful divergence
+   from the shipped rendering, so the source is not ambiguous in these passages.
+3. Round-trip back-translation (subagent, cold): ch48's closing Stephen reflection and
+   ch46's safe-room paragraph. No omissions or additions; every flag the back-translator
+   raised resolved as faithful when checked against the source (the piled-up
+   "cunning / crookedness / dark quality" = 刁滑/弯曲/阴涩, three real terms; "mystery" =
+   神秘; "waning moon" = 下弦月; "drive past" = the author's own 驶过).
+4. Automated invariant checks: check_numbers.py --noise data/noise.txt GREEN on all
+   three (0 unresolved) after two noise additions (below); check_structure.py --config
+   over the batch (scratch/b10_check.json, regenerated) PASS on all four checks
+   (parity 151/116/146 exact, 4 note anchors resolve, one heading shape, 0 glossary drift).
+5. Term ledger: glossary.json updated (below); one rendering per referent reused.
+6. Annotate, do not smooth: uncertain Japanese name readings marked provisional in the
+   glossary and footnoted (note 73); no uncertainty laundered into fluent prose.
+7. Consistency against scholarship: fact-checked (below).
+8. Random deep audit (~4%, 6 long paragraphs: ch46 002/067/148, ch47 028, ch48 026/145):
+   full verbatim/mistranslation/omission pass. Observed substantive error rate 0; one
+   stylistic note only (the author's mechanical verb 驶 "drive/speed" for a skirt's
+   motion is kept literal rather than smoothed to "glide," per the keep-the-voice rule).
+
+Number-check noise added to data/noise.txt (B10 block), each because the check flagged a
+non-quantity numeral:
+- GH[五○九K八×]+ — the safe-combination cipher "GH509K8" (ch46), plus its redacted
+  GH五××K八 and partial GH五○ forms; the 五/九/八 are cipher digits, not quantities.
+  The English keeps the code as "GH509K8", which the target extractor reads as 509, so
+  the source 五/九 went unaccounted until the whole token was stripped.
+- 万千 / 萬千 — "万千人民" (ch48), "thousands upon thousands / the myriads of our people";
+  rhetorical multitude, parsed as 11000. The built-in strips the reversed 千万 but not
+  万千, so it needed its own entry (cf. 万物 / 万念 / 万国).
+
+Footnotes added (4, notes 70–73, all genuinely new; recurring names/places/terms already
+carry their note at first appearance in B01–B09):
+- note 70 (ch46): Columbia Road and the Xujiahui church as Mei Yingzi's private code for
+  her two collaborators (Bai Ping and Miko); Columbia Road a real western-Shanghai road
+  (Columbia Avenue, laid out 1925, renamed Panyu Road 1943), its old name period-correct.
+- note 71 (ch47): the "blue snake" code, from the ink the narrator squirted on the
+  intruder's skirt drying into a line of dots like a small snake; the source varies the
+  epithet (蓝色响尾蛇 / 蓝尾蛇 / 蓝色的小蛇), and the variation is kept.
+- note 72 (ch47): Manchukuo, the Japanese puppet state (1932–1945) in the Northeast under
+  Puyi; the pointed exchange over whether it is Chinese soil.
+- note 73 (ch48): the Miyama Yoshiko / Asamura Toshimiko reveal, both names Japanese and
+  read tentatively; the surname 宫间 (Miyama) echoes the hospital flower-sender 宫间登水,
+  and the element 登水 recurs in 登水子.
+
+Glossary rows added (glossary.json): people — 宫间美子 Miyama Yoshiko (provisional),
+朝村登水子 Asamura Toshimiko (provisional), 木谷 Kiya (provisional), 本佐太太 Mrs. Honsa
+(decided); places — 明湖春 the Minghu Chun (provisional), 歌伦比亚路 Columbia Road
+(attested), 有恒路 Youheng Road (decided, pinyin), 聚贤村 Juxian Village (provisional);
+terms — 蓝尾蛇 the blue-tailed snake (decided, the code-name). The existing Sophie row
+(莎菲) was updated to record the source's other spelling 沙菲, used throughout ch46–ch48;
+one rendering, Sophie, throughout. Reused the whole prior cast and geography exactly
+(Honsa Jiro, Umetake, Arita, Miko, Dr. Philip, Bai Ping, Mei Yingzi, Helen, the
+Manfields, Ah Mei, Jimi, the Xiangong, Yuyuan Road, North Sichuan Road, Hongkou, Beiping,
+Greater East Asia).
+
+Fact-checking (Wikipedia / Shanghai Daily / Baidu Baike; no LLM-sourced references):
+- Columbia Road (Columbia Avenue, 歌伦比亚路): built by the Shanghai Municipal Council in
+  1925 in the far west of the city, renamed Panyu Road (番禺路) in October 1943.
+  Corroborated; the novel's wartime setting predates the rename, so "Columbia Road" fits.
+  Used for the glossary row and note 70.
+- Manchukuo (满洲国): Japanese puppet state in the Northeast (Manchuria), created 1932,
+  nominally ruled by Puyi the last Qing emperor, dissolved 1945. Corroborated; note 72.
+- 有恒路 (Youheng Road): a real Hongkou road named in the source but its modern name not
+  confirmed in the search, so kept as a project pinyin rendering (status "decided"), not
+  claimed as attested.
+
+Source digitization glitches rendered to plain meaning and NOT footnoted (no genuine
+reading uncertainty):
+- ch46 para 95: "轮桌己撤" (己 for 已) rendered "the trolley tables had been cleared away."
+- ch46 para 141: "有咱五对人" (stray 咱) rendered "some five couples."
+- ch48 para 63: "我摄出桌外" (摄 for 爬, to crawl) rendered "I crawled out from under the
+  table."
+- ch48 para 78: "我听见你梦吃中直叫白苹" (梦吃 for 梦呓, sleep-talking) rendered "I heard
+  you calling out 'Bai Ping' straight through your sleep-talking."
+
+Build: python3 scripts/build_reading_epub.py "out/The Whistling Wind.epub" — 49 of 60
+chapters translated (ch00–ch48), 73 notes; the TOC stays pending-aware, the 11
+untranslated chapters still linking their skeleton outlines. qa_epub.py GREEN
+(72 files, 66 documents, 73 references / 73 bodies / 73 backlinks, all links resolve).
