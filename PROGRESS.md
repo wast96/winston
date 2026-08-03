@@ -1207,3 +1207,63 @@ Peng Dehuai's late-July Changsha raid, Fang Zhimin, the Zhu-Mao drive on Ji'an) 
 the "July nationwide rising" plan Li Yuting names, historically corroborated; 81 the
 "wet shirt" (湿布衫) metaphor for an inescapable dead weight; 82 bird's-nest gruel
 (燕窝粥) as a luxury restorative. All five anchors verified verbatim in the reading text.
+
+---
+
+## Batch B15 — Chapter Fifteen (ch15), source data/src/18_part0016.txt (13,108 chars)
+
+Translated the whole of Chapter Fifteen end to end: the morning reopening of the
+Yuhua filature under police guard, the two brawls at the mill gate, Tu Weiyue's
+sham parley with Qian Baosheng and pockmarked Li while A Xiang is held as his
+proof, the women's storming of the mill and its bloody suppression, and the
+night-time Communist cell meeting in the "front upper room" where Ke Zuofu
+imposes the ultra-left line over Ma Jin's and Su Lun's doubts, closing on the
+shanty-quarter round-up. 266 source paragraphs, 266 English. NO source notes
+(source_notes.json stays frozen at [1]..[9]); grep of the source start for
+\[\d+\] returned nothing.
+
+### The checks run
+
+1. Faithful, complete quotation. Bilingual QC file out/ch15_bilingual.md built by
+   zipping one-English-paragraph-per-line against the verbatim source body lines,
+   with a pre-write assertion (en==body==266) and spot-checks at 10 indices. Source
+   copied, never re-typed.
+4. Automated invariants. check_numbers.py out/ch15_bilingual.md --noise
+   data/noise_zh.txt: 0 unresolved. One real residue fixed in translation, not
+   silenced: 十几个 loses its 十 to the built-in 几个 strip (residue 10), so it is
+   rendered "ten-odd more" so the digit survives. Four idiom flags added to the noise
+   file (两脚朝天, 三对六面, 四边, 胡说八道 — none a real quantity).
+   check_structure.py --pairs data/zh/ch15.txt out/ch15_reading.md: parity 266 | 266 OK.
+   Number habits verified: 四百两 = four hundred taels (tael, not 2), 六百块 = six
+   hundred dollars, 八折 = eight-tenths, 二十多/三百多/二百多 = twenty-odd / three
+   hundred and more / two hundred more, 十五支光 = fifteen-candlepower, 周二姐 =
+   Second Sister Zhou, 黎八 = Li the Eighth, 七生的炮弹 = seven-centimetre shell,
+   clocks 七点半/八点半/九点半 = half past seven/eight/nine, 三分钟/五分钟 = three/five
+   minutes.
+8. Random-sample deep audit (~4%, ~10 paragraphs). Sampled the opening fog/siren
+   pair, the gate brawl and Zeng Jiaju's fall, Tu Weiyue's homily to the women hands,
+   the storming of the mill, the cell-meeting "tailism/Right-deviation" exchange, the
+   Su Lun flirtation, and the closing raid: source verbatim, every quantity held, no
+   omission and no invented bridging. qa_epub.py: PASS (20 docs, 3540 paras, 88
+   notes: 88 refs / 88 bodies / 88 backlinks). epubcheck 5.1.0: 0 errors / 0 warnings.
+
+### Glossary additions (one rendering per referent)
+
+people: Su Lun (苏伦), A Ying (阿英), Li the Eighth (黎八; surname 黎, not the 李 of
+pockmarked Li), Little Huang (小黄). organizations: the Silk Union (丝总), the General
+Strike Committee (总罢委). Reused the fixed cast and terms already in glossary.json:
+Tu Weiyue, Gui Changlin, pockmarked Li, Wang Jinzhen, A Zhen, Qian Baosheng, Mo
+Gancheng, Wu Weicheng, Ma Jingshan, Zeng Jiaju, A Xiang, He Xiumei, Zhang Axin, Chen
+Yue'e, Ma Jin, Cai Zhen, Jin Xiaomei, Zhu Guiying, Xue Baozhu, Qian Qiaolin, Second
+Sister Zhou, Ke Zuofu (= Old Ke), Wu Sunfu (= the Third Master), the Yuhua Silk
+Filature, the Public Security Bureau, Hongkou, Zhabei; Tu the Chamber-pot (屠夜壶).
+
+### Translator notes (builder-numbered 83-88, in reading order)
+
+83 "tailism" (尾巴主义); 84 the proverb inversion 冤家宜结不宜解 vs the standard
+冤家宜解不宜结, rendered in the sense the context demands with the inversion noted;
+85 the ultra-left "Li Lisan line" behind the whole cell scene, and 流寇 "roving
+bandits" thrown back at the Red Army; 86 住机关 "keep the station" (a clandestine
+Party safe-house, and the sexual innuendo it carries); 87 七生的炮弹 (生 = French
+centi-, the "75" field gun); 88 屠夜壶 "Tu the Chamber-pot", the workers' name for
+the steward. All six anchors verified verbatim in out/ch15_reading.md.

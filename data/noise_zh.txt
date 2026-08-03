@@ -252,3 +252,12 @@
 # --- Chapter Fourteen additions ---
 # 四平八稳 "smooth and steady on every side" (idiom; 四/八 not counts) (ch14)
 四平八稳
+# --- Chapter Fifteen additions ---
+# 两脚朝天 "heels over head / flat on his back" (idiom; 两 not the count 2) (ch15)
+两脚朝天
+# 三对六面 "with all parties present, face to face" (idiom; 三/六 not counts) (ch15)
+三对六面
+# 四边 "on every side / all around" (四 idiom, not the count 4; parallel to 四下/四顾) (ch15)
+四边
+# 胡说八道 "talk arrant nonsense" (idiom; 八 not the count 8) (ch15)
+胡说八道
