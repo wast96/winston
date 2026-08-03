@@ -34,7 +34,7 @@ In this state of doubt I opened the door and came out. When I had gone in, the w
 
 It was Mei Yingzi!
 
-"Ah, it's you?" Showing her small almond-colored teeth, Mei Yingzi rose smiling and said:
+"Ah, it's you?" Showing her small almond-tinted teeth, Mei Yingzi rose smiling and said:
 
 "It's been a long time."
 

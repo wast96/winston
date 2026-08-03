@@ -220,7 +220,7 @@ So it was a dinner-party after all; I handed Ah Mei my overcoat and hat, straigh
 
 "Ah, Xu, it is truly a long time since we met." Mei Yingzi, as though after a long parting, was the first to shake my hand; then the Stephens and the Manfields, mother and daughter, exchanged their greetings with me. Helen looked more dazzling than before, and in her smile I could no longer find the low, dreaming grace of her by the water in Jessfield Park. Her mother had grown stouter than before. The Stephens were little changed. As we all sat down, Mei Yingzi looked pointedly at me and said:
 
-"He is browner, and seems a little stouter; country life has had the virtue of a tonic on you."
+"You've grown browner, and seem a little stouter; country life has had the virtue of a tonic on you."
 
 "And Cishan?" Mrs. Stephen asked. "Did you not ask her to come and play in Shanghai?"
 

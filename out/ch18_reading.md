@@ -96,7 +96,7 @@ I heard footsteps go off to the kitchen. Mei Yingzi? How had she come? And what 
 
 "Mei Yingzi—how is it?…"
 
-"Ah, it is a long time since we met." Mei Yingzi came out of the kitchen, girt in one of Ah Mei's snow-white aprons, showing her almond-coloured front teeth, smiling intimately, and came lightly over to shake my hand. Ah Mei hurried into the kitchen; I grasped Mei Yingzi's narcissus-like hand and said:
+"Ah, it is a long time since we met." Mei Yingzi came out of the kitchen, girt in one of Ah Mei's snow-white aprons, showing her almond-tinted front teeth, smiling intimately, and came lightly over to shake my hand. Ah Mei hurried into the kitchen; I grasped Mei Yingzi's narcissus-like hand and said:
 
 "It is a long time since we met; you are forever as lovely as I see you in my dreams."
 
@@ -190,7 +190,7 @@ We drained the glasses, and Mei Yingzi poured, and I said:
 
 "You mean that I did not tell you I had moved here?"
 
-"I mean that you have lived together a long while and never let me bless you." "It is an insult to us!"
+"I mean that you have lived together a long while and never let me bless you." "It is an insult to us!" I said.
 
 "It is loving you," she said.
 

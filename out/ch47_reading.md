@@ -64,7 +64,7 @@ I did not know what Mei Yingzi was thinking, and I said gravely:
 
 "I secretly sprayed ink on her skirt."
 
-"You?" said Mei Yingzi, showing her almond-white front teeth. "Really? Now that is a splendid piece of work..." She seemed about to say something more, but the lights in the corridor came on, the garden already showing a stronger brightness. Mei Yingzi stopped speaking at once, put on her mask, and craned her head out from the corner of the wall; I followed her to look. Many people were crowding into the corridor, and then four or five couples came into the garden and very quickly walked over, scattering to different places. Mei Yingzi at once slipped her hand through my arm and led me out of this passage.
+"You?" said Mei Yingzi, showing her almond-tinted front teeth. "Really? Now that is a splendid piece of work..." She seemed about to say something more, but the lights in the corridor came on, the garden already showing a stronger brightness. Mei Yingzi stopped speaking at once, put on her mask, and craned her head out from the corner of the wall; I followed her to look. Many people were crowding into the corridor, and then four or five couples came into the garden and very quickly walked over, scattering to different places. Mei Yingzi at once slipped her hand through my arm and led me out of this passage.
 
 I felt this was a very rash thing to do; it would surely have been more prudent to lie low and go out following the people when they went back in. And in fact, in the very moment we came into the garden, though no one took notice, there were indeed two couples who saw us, and I was much worried, and I said in a low voice:
 

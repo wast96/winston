@@ -166,7 +166,7 @@ The servant brought in black tea, the big russet-brown dog following at his heel
 
 "They mean that your contrary conduct is all a pretence, and that your whole life is but the instrument of your work."
 
-"That may perhaps be Stephen, not I," I said. "I am no more than a bundle of oppression and contradiction."
+"That may perhaps be Stephen, not I," I said. "I am no more than a bundle of anguish and contradiction."
 
 She smiled and said nothing; I asked:
 

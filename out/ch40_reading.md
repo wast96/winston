@@ -186,7 +186,7 @@ Mei Yingzi told me this course of things in a low, calm, harmonious voice; at th
 
 Then Mei Yingzi showed a peaceful, lovely smile, as if granting my words, and gently asked after my hurts.
 
-The tense worry that had gathered and knotted in my heart while I awaited Mei Yingzi had now long since vanished like smoke; what floated up in my heart in that instant was the joy of victory, the calm of peace. I looked at Mei Yingzi's smile, showing its almond-coloured front teeth, at her bright forehead, her fine bold brows, her radiant eyes, and I seemed to have a foreboding that, after she and Bai Ping had joined forces, how many seeds of victory would blossom into flowers as lovely as Mei Yingzi herself.
+The tense worry that had gathered and knotted in my heart while I awaited Mei Yingzi had now long since vanished like smoke; what floated up in my heart in that instant was the joy of victory, the calm of peace. I looked at Mei Yingzi's smile, showing its almond-tinted front teeth, at her bright forehead, her fine bold brows, her radiant eyes, and I seemed to have a foreboding that, after she and Bai Ping had joined forces, how many seeds of victory would blossom into flowers as lovely as Mei Yingzi herself.
 
 We began to talk at our ease—the first such frank and natural talk in all our friendship. I learned many things I had not known, saw solved the questions that had until now gone unanswered, saw confirmed the correctness of many of my guesses and corrected many errors in my suppositions.
 

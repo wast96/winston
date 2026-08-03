@@ -140,7 +140,7 @@ But Bai Ping did indeed fall at the sound, and for a moment I was aghast; I went
 
 "Bai Ping, Bai Ping!"
 
-But just then the door suddenly opened, and in came Mei Yingzi in a white evening gown, laughing, showing her almond-white front teeth, and she said:
+But just then the door suddenly opened, and in came Mei Yingzi in a white evening gown, laughing, showing her almond-tinted front teeth, and she said:
 
 "Well acted, well acted!"
 
