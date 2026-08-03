@@ -334,3 +334,28 @@
 # without a master"); the 六 is conventional, not a count (cf. 五脏六腑 already
 # listed). English renders "lost all mastery of himself."
 六神无主
+# ch19: 五彩 in 五彩的薄纱 = "many-colored gauze"; 五彩 ("five-colored") is the
+# idiom for "multicolored," not the count 5. English renders "many-colored."
+五彩
+# ch19: 二话 in 自无二话 = "made no demur"; the 二 ("second word") is idiomatic
+# ("without a second word / no objection"), not the count 2. English renders
+# "made no demur."
+二话
+# ch19: 五光十色 = "a riot of color and light" (idiom); 五 and 十 are conventional,
+# not counts. English renders "a riot of color and light."
+五光十色
+# ch19: 四脚朝天 = "sprawled legs-up / on one's back" (idiom); the 四 is part of
+# the fixed phrase, not the count 4. English renders "overturned legs-up."
+四脚朝天
+# ch19: 四肢百骸 = "every limb and bone of the body" (idiom); 四 and 百 are
+# conventional, not counts. A pre-existing 四肢 entry strips first, orphaning
+# 百骸, so noise that residual (the 百 is not the count 100). English renders
+# "all his limbs and frame."
+百骸
+# ch19: 万民 in 下视万民 = "the myriad people below"; 万 is the myriad-idiom
+# ("the multitude"), not the count 10000. English renders "the myriad people."
+万民
+# ch19: 六合 in 六合靴 = "liuhe boots" (a named Tang boot; 六合 = "the six
+# directions/harmonies"), not the count 6. Must precede any built-in that would
+# read the bare 六. English keeps "liuhe boots."
+六合

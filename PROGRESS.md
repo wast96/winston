@@ -2282,3 +2282,118 @@ Company, the lantern-floats, buliang chief, Commander (都尉), the Right Xiao G
   a different call across all named chambers.
 - 遮沟 rendered "the Screened Gully" (translating the residents' nickname, whose sense
   the source itself glosses), not bare pinyin "Zhegou."
+
+## B19 = ch19 (第十九章 寅正 / "The Hour of the Tiger, Second Half, 4 a.m.")
+
+Scope: the whole chapter, 15,712 source characters (book.json), 276 body
+paragraphs plus the source's time-gloss. Built the bilingual with the
+verbatim-guaranteed generator scripts/gen_ch19_bilingual.py (reads the source
+lines from data/src/41_text00039.txt, pairs each with hand-authored English,
+merges the extractor-split halves, and asserts the concatenation of every '>'
+blockquote equals the source content char-for-char before writing).
+
+### Source structure handled
+- Opening flash-forward vignette: L2 (one paragraph) and L3+L4 (extractor-split
+  on a comma, MERGED) — the one-eyed Zhang making out the many-colored gauze,
+  Mao Shun's design. It RECURS verbatim inside L96 (…那是一大串五彩的薄纱。想必
+  这也是出自毛顺的设计…) and both occurrences were translated identically (the
+  VIG_A/VIG_B constants in the generator are re-used in the L96 paragraph).
+- Dateline L5+L6 (extractor-split: …寅正 / 。) MERGED into one pair; the L1
+  content-marker heading 寅正 absorbed into the H2 title, as ch01-ch18. Location
+  line L7 (长安，万年县，兴庆宫。) its own paragraph.
+- Time-gloss L280 rendered as the source's own italic note, prefixed
+  "*[The source appends a note on the hour to each chapter:]*". This chapter's
+  gloss is CORRECT (寅正 = the Tiger hour's second half, 4 a.m.; the source's own
+  parenthetical 北京时间03时至05时 gives the whole double-hour). Trailing L281
+  (U+200B) dropped.
+- Only two extractor-splits this chapter (the vignette-b halves and the dateline
+  halves); every other source line ended terminal. No THREE-line splits.
+
+### Checks run
+- Verbatim quotation: generator assertion PASS — concatenation of all 276
+  blockquotes + the time-gloss equals the source content (data/src lines 2-280)
+  character-for-character (17,848 chars incl. gloss).
+- check_numbers.py --noise noise.txt: 277 pairs, 0 unresolved.
+- check_structure.py --pairs: parity 277/277 OK.
+- qa_epub.py: PASS, 38 files, 32 documents, all links resolve; 67 note refs / 67
+  bodies / 67 backlinks. Build reports 19 of 26 chapters translated.
+- Blind double-translation (literary sample, L142 — Zhang's resolute departure,
+  "路是我选的，我会走到底" scene): independent second rendering diverged only in
+  word choice (跃动 "leaping"/"dancing"; 晃晃悠悠 "swaying and staggering"/"unsteady
+  way"; 眼光 "eye"/"judgment of men"), no semantic divergence. 0 content errors.
+- Round-trip back-translation (number-dense sample, L147 — Li Bi's ride, 六坊/
+  四坊/两刻/十几个人): back-rendered to Chinese and diffed against the source;
+  every quantity survived (six wards, four wards, two marks, ten-odd people),
+  no omission. 0 content errors.
+- Random-sample deep audit (~3%: L2/L96 vignette-parity, L63 planter-cart note,
+  L147 numbers, L236 Analects allusion, L245 Tang hostage law, L272 the emperor
+  close-up) given the full paranoid treatment: observed error rate 0.
+
+### noise.txt extended (7 entries, all NON-quantity)
+- 五彩 (五彩的薄纱 = "many-colored"), 二话 (自无二话 = "made no demur"),
+  五光十色 (idiom "a riot of color and light"), 四脚朝天 (idiom "legs-up"),
+  百骸 (the residual of 四肢百骸 after the pre-existing 四肢 entry strips first;
+  the 百 is not the count 100), 万民 (下视万民 = myriad-idiom), 六合 (六合靴 =
+  "liuhe boots," 六合 = "the six directions," a named boot not the count 6).
+  No REAL quantity was noised: every genuine count is carried in the English as
+  a number-word or digit and survives check_numbers (一百弹指 → "a hundred
+  finger-snaps"; 二十几个弹指 → "twenty-odd finger-snaps"; 十六根柱 → "sixteen
+  pillars"; 三丈/五尺 → "three zhang"/"five chi"; 六十岁 → "sixty"; 三十多年 →
+  "thirty years and more"; 开元二十年 → "the twenty years of Kaiyuan"; the seven
+  floors carried throughout as "seventh/seven").
+
+### Notes added (3; running total 67)
+- "called a spring-moving frame" — the 移春槛, a real Tang mobile planter-cart
+  (Kaiyuan Tianbao Yishi), the improvised scaffolding by which the guards reach
+  the broken stair.
+- "To govern by virtue is to be as the pole-star" — Analects 2.1, glossing the
+  north-facing imperial seat of the Star-Plucking Hall.
+- "one who holds a hostage is to be struck along with the hostage" — the Tang
+  Code's 捕质 provision, void where the hostage is the Son of Heaven; echoed in
+  Chen Xuanli's cry 击质勿疑.
+- Skipped already-noted/appeared subjects: the Pifu, He Zhizhang, Yuan Zai,
+  Prince Yong, Ji Wen, the Self-Raining Pavilion, Taizhen, the tongtian crown,
+  the Tianshu, the suanni, the Nestorian confessional, the Fifth Yama cluster.
+
+### Glossary grown (14 rows)
+- people — 吉顼/Ji Xu (chancellor, Ji Wen's uncle), 薛嶷/Xue Yi (太子文学),
+  登徒子/lecher (Tanqi's decided nickname for Zhang; dominant rendering ch02-ch13).
+  organizations — 羽林军/the Yulin Army, 监门卫/the Gate Guards. places —
+  宣平坊/Xuanping Ward already present (backfill no-op). terms — 通天梯/the
+  sky-reaching stair, 邀风堂/the Wind-Wooing Hall, 天汉桥/the Sky-River Bridge,
+  移春槛/spring-moving frame, 牵春绳/the spring-drawing cords, 靖安令/the Director
+  of the Jing'an Bureau (令 outranks 司丞/Deputy Director), 待诏翰林/Academician-
+  in-Waiting of the Hanlin (李翰林 = "Academician Li"), 太子文学/Litterateur to
+  the heir apparent, 那伽花/naga-flowers.
+- Reused decided forms verbatim: Zhang Xiaojing (大头 = Big-Head), Xiao Gui,
+  Yuan Zai, Chen Xuanli (General Chen / Grand General), Tanqi, Li Bi (Deputy
+  Director Li / Changyuan / Academician Li), He Zhizhang (Director He), Ji Wen
+  (Deputy Director Ji / Vice-Duan Ji / Censor Ji), Li Heng (the heir apparent),
+  Li Linfu (the Right Minister / 李相), Li Longji (the Son of Heaven), Prince Yong
+  Li Lin, Mao Shun, Yuchang, Xu Bin (Recorder Xu), Feng Dalun, Chao Fen, Taizhen,
+  Adjutant Zhao, the Pifu, the Longwu Army / Lüben Guards / Qianniu Guard / Right
+  Xiao Guard, the Jing'an Bureau, the Jingzhao Prefecture, the Secretariat / the
+  Phoenix Pavilion, the Censorate, the Forestry and Crafts Bureau, the Qinzheng
+  Wuben Tower, the Star-Plucking Hall, the Taishang Xuanyuan Lantern-Tower, the
+  Xingqing Palace, the Longchi, the Que-le Huo-duo, fierce-fire thunder/oil,
+  rock-oil (延州石脂 = Yanzhou rock-oil), the tongtian crown, the Tianshu, the
+  suanni, the Self-Raining Pavilion, the Pingkang Quarter, shichen, finger-snap,
+  chi/zhang, mark/quarter, li.
+
+### Figures
+- None. No content illustration in data/figs/ for this chapter (only the source's
+  footnote-marker glyph Image00004.jpg and the scene-break rule Image00005.jpg,
+  neither a figure). figures.json unchanged.
+
+### Flagged for the read-through
+- Register: kept the source's coarseness where coarse (陈玄礼's 还他妈的敢说这种
+  胡话 → "such fucking nonsense"; 元载's 大胆贱婢 → "insolent slut"). 登徒子, Tanqi's
+  pet name for Zhang, standardized as "lecher" (the ch02-ch13 dominant); note the
+  outlier ch14 "amorous rogue" is left as-is (a global rendering-consistency fix
+  is a corrections-pass call, not a per-batch one) — glossary now decides "lecher".
+- The chapter is a two-strand relief sequence (Zhang + Tanqi climbing to the
+  seventh-floor stand-off; Li Bi seizing the Jing'an Bureau back from Ji Wen with
+  He Zhizhang's Director's seal) and ends on twin cliffhangers — Xu Bin found with
+  his neck wrenched round (a mole still loose in the bureau), and Xiao Gui's gift
+  of Prince Yong flung before Zhang at the imperial seat. Faithful to the source;
+  no bridging text invented.

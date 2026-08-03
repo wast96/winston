@@ -661,6 +661,24 @@
       "pinyin": "Tàipíng Gōngzhǔ",
       "status": "attested",
       "note": "Princess Taiping (d. 713), daughter of Emperor Gaozong and Empress Wu; ally of Li Longji in the Tanglong coup, then destroyed by him in the Xiantian coup of 713."
+    },
+    "吉顼": {
+      "en": "Ji Xu",
+      "pinyin": "Jí Xū",
+      "status": "attested",
+      "note": "Ji Xu (d. 700), Tang chancellor under Empress Wu; here named as the uncle (whose brother's-son he was) of Ji Wen. Historical; pinyin."
+    },
+    "薛嶷": {
+      "en": "Xue Yi",
+      "pinyin": "Xuē Yí",
+      "status": "decided",
+      "note": "Litterateur to the heir apparent (太子文学), who recommended Ji Wen to the throne only for the Son of Heaven to reject him. Pinyin."
+    },
+    "登徒子": {
+      "en": "lecher",
+      "pinyin": "Dēngtúzǐ",
+      "status": "decided",
+      "note": "Tanqi's teasing nickname for Zhang Xiaojing, from the byword 登徒子 ('Master Dengtu,' the lecher of Song Yu's rhapsody). Rendered by sense as 'lecher' throughout (dominant rendering ch02-ch13)."
     }
   },
   "organizations": {
@@ -843,6 +861,18 @@
       "pinyin": "Wànqí",
       "status": "attested",
       "note": "The 'Ten-Thousand Horse,' an elite guard cavalry of Wu Zetian's and Zhongzong's reigns, a forerunner of the Longwu Army; kept in pinyin (the 万 is part of the name, not a count)."
+    },
+    "羽林军": {
+      "en": "the Yulin Army",
+      "pinyin": "Yǔlín Jūn",
+      "status": "decided",
+      "note": "The Feather-Forest Army, a household guard of the Northern Command; one of the night-watch guards attending the Son of Heaven. Kept in pinyin like the Longwu Army."
+    },
+    "监门卫": {
+      "en": "the Gate Guards",
+      "pinyin": "Jiānmén Wèi",
+      "status": "decided",
+      "note": "The Palace Gate Guard among the Sixteen Guards, charged with warding the palace gates; rendered by function."
     }
   },
   "places": {
@@ -3079,6 +3109,54 @@
       "pinyin": "Xiāntiān zhèngbiàn",
       "status": "attested",
       "note": "The coup of 713 by which Xuanzong destroyed Princess Taiping's faction; see notes."
+    },
+    "通天梯": {
+      "en": "the sky-reaching stair",
+      "pinyin": "tōngtiān tī",
+      "status": "decided",
+      "note": "The grand suspended stairway of the Qinzheng Wuben Tower, hung in air and borne only at each turn by the tower-pillars; 通天 = 'reaching to the sky.' Rendered by sense."
+    },
+    "邀风堂": {
+      "en": "the Wind-Wooing Hall",
+      "pinyin": "Yāofēng Táng",
+      "status": "decided",
+      "note": "The open, wall-less third floor of the Qinzheng Wuben Tower, a summer place to take the breeze; 邀风 = 'to woo the wind.' Rendered by sense."
+    },
+    "天汉桥": {
+      "en": "the Sky-River Bridge",
+      "pinyin": "Tiānhàn Qiáo",
+      "status": "decided",
+      "note": "A small bridge on the south of the Star-Plucking Hall joining it to an outer viewing-platform; 天汉 = the Milky Way ('Sky River'). Rendered by sense."
+    },
+    "移春槛": {
+      "en": "spring-moving frame",
+      "pinyin": "yíchūn jiàn",
+      "status": "attested",
+      "note": "A Tang court device: a wheeled wood-walled planter-cart of earth and growing flowers, a movable garden. Recorded in the Kaiyuan Tianbao Yishi; footnoted at first appearance (ch19). Rendered by sense."
+    },
+    "牵春绳": {
+      "en": "the spring-drawing cords",
+      "pinyin": "qiānchūn shéng",
+      "status": "decided",
+      "note": "The hempen ropes strung from the suanni cross-frame at the lantern-tower's summit to the palace wall, hung with colored gauze; 牵春 = 'drawing the spring along.' Rendered by sense."
+    },
+    "靖安令": {
+      "en": "the Director of the Jing'an Bureau",
+      "pinyin": "Jìng'ān Lìng",
+      "status": "decided",
+      "note": "The head of the Jing'an Bureau (令 = director), a rank above the Deputy Director (司丞). He Zhizhang holds it; his gold-rimmed turtle-knob seal outranks the Deputy Director's. Rendered by office."
+    },
+    "太子文学": {
+      "en": "Litterateur to the heir apparent",
+      "pinyin": "tàizǐ wénxué",
+      "status": "decided",
+      "note": "A tutorial-secretarial office in the Eastern Palace establishment (Hucker: 'Litterateur'); held by Xue Yi. Rendered by office."
+    },
+    "那伽花": {
+      "en": "naga-flowers",
+      "pinyin": "nàqié huā",
+      "status": "decided",
+      "note": "An exotic bloom named in the flowerbeds of the Qinzheng Wuben Tower; 那伽 transliterates Sanskrit naga (serpent-spirit). Rendered by transliteration."
     }
   }
 }
