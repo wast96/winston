@@ -1585,3 +1585,161 @@ are not figures).
 - No authorial slip in this chapter's time-gloss: the note correctly labels 亥
   (the Pig, 9-11 p.m.) with "晚上9点 … 21时至23时," unlike the mismatched 卯 bodies
   of the ch10 and ch11 notes.
+
+## B13 = ch13 (第十三章 亥正 / "The Hour of the Pig, Second Half, 10 p.m.")
+
+Scope: the whole chapter, 16,497 source characters, 290 paragraphs. The chapter
+opens with a flash-forward vignette (Long Bo climbing out of the cellar, casting
+his gaze into the dark), then the dateline and a location line ("Chang'an; the
+place unknown"). Four strands follow: Li Bi, caged in an unknown cellar, hears
+from a gloating Long Bo that the Bureau has been rebuilt under Ji Wen and a
+citywide warrant issued for Zhang Xiaojing, and the assassin Yuchang announces he
+is leaving to kill Zhang; the identical vignette recurs at its true moment as
+Long Bo turns from the cage. Li Heng's four-windowed carriage is halted by
+Tanqi's cry that the Jing'an is in peril; in a screened tea-stall she tells him
+everything, but the irresolute heir will only wait for word and carries her on to
+the Xingqing Palace banquet. Zhang Xiaojing and Yisi, Zhang disguised as a
+painted Brahman mummer, ride to Guangde Ward, learn the worst from a foreign
+clerk, and Zhang finds his resolve in the vows of Ksitigarbha and the Luminous
+Lord; they cross into the burning Bureau over the Cibei-Temple wall, fail to save
+the evidence room (a collapsing rafter burns Zhang's back), and use the fire and
+Yisi's cave-running to reach Xu Bin in the infirmary, who reveals a second cache
+of the Changming-Ward evidence in the Deliberation Hall of the Jingzhao
+Prefecture; with Adjutant Zhao decoying Ji Wen, Yisi steals the sack of bamboo
+shards from the beam. An interleaved vignette shows the recorder Zhang Luo pushed
+to his death off the Arched-Moon Bridge, his throat cut in the crush. The chapter
+closes at the banquet: Tanqi resolves to rush the throne and appeal to the Sage
+directly, but a hand falls on her shoulder — the Daoist "Sister Taizhen" — as the
+hour of the Rat strikes and the Rainbow-Feather Dance strikes up.
+
+Deliverables shipped: out/ch13_bilingual.md (QC only, never ships),
+out/ch13_reading.md, data/zh/ch13.txt, notes.json (3 new notes, 49 total),
+glossary.json (grown, below), noise.txt (extended, below), the rebuilt EPUB,
+and this log. figures.json unchanged (no content illustration in this chapter;
+Image00004.jpg the footnote-marker glyph and Image00005.jpg the scene-break rule
+are not figures).
+
+### Checks run
+
+- Verbatim-quote check: a script reconstructed the logical source paragraph list
+  from data/src/28_text00027.txt (dropping the 亥正 heading line and the trailing
+  zero-width-space line, merging the opening vignette's three extractor-split
+  halves and the dateline's two halves, and collapsing the dateline artifact
+  。。→。) and diffed it against the bilingual blockquotes: 290/290 paragraphs,
+  ALL VERBATIM MATCH, 0 mismatches.
+- check_structure.py --pairs data/zh/ch13.txt out/ch13_reading.md: parity equal,
+  source 290 | translation 290, OK.
+- check_numbers.py --noise noise.txt: 290 pairs, 0 unresolved. First pass flagged
+  four items, all NON-quantities added to noise.txt (recorded below): 两处
+  (a classifier, "the flanking halls to left and right," cf. 两侧/两片), 二不为
+  (a list enumerator in 一不…二不…, cf. 二不逾制/二是), 万状 (惊恐万状 =
+  "in an extremity of terror," 万 not 10000), and 八成 ("most likely / eight
+  parts in ten," cf. 十成). No real quantity was noised; no number dropped.
+- build_reading_epub.py + qa_epub.py: build wrote 13 of 26 chapters, 49 notes;
+  QA PASS (26 documents, 4407 paragraphs; 49 references / 49 bodies / 49
+  backlinks; 38 files, all links resolve).
+
+### Notes added (notes.json ch13; 3, total now 49)
+
+- "the bodhisattva Ksitigarbha" — Dizang and his great vow ("so long as the hells
+  are not empty, I will not become a Buddha"), which Zhang Xiaojing sets beside
+  the Nestorian redemption to steel his own resolve. First appearance in the book.
+- "Sister Taizhen" — Taizhen, the Daoist name of Yang Yuhuan / the future Yang
+  Guifei: her ordination in 740, her elevation to Guifei in 745 (the year after
+  this one), and her death at Mawei in 756; the dramatic irony of Tanqi knowing
+  her at the foot of the throne. First appearance.
+- "the Rainbow-Feather Dance" — the Nichang yuyi wu, the signature dance-suite of
+  Xuanzong's court bound to Yang Guifei, striking up on cue as Taizhen appears.
+  First appearance.
+
+Recurring subjects already noted in ch01-ch12 and deliberately NOT re-noted:
+He Zhizhang, Ji Wen, the Shouzhuolang, the Pifu, Prince Yong, the Que-le Huo-duo,
+Yuchang, and the Sage; fire-proof cloth (asbestos, glossary-noted, first appeared
+ch06) and the mercy-release pond (ch07) are rendered consistently, unnoted.
+
+### Glossary added (glossary.json)
+
+- People (3): 张洛/Zhang Luo (a recorder of the Forestry and Crafts Bureau);
+  韦氏/Consort Wei (the heir's wife); 太真/Taizhen (Yang Yuhuan's Daoist name).
+- Places (9): 花萼相辉楼/the Hua'e Xianghui Tower; 拱月桥/the Arched-Moon Bridge;
+  兴庆坊/Xingqing Ward; 永嘉坊/Yongjia Ward; 胜业坊/Shengye Ward; 道业坊/Daoye
+  Ward; 太极宫/the Taiji Palace; 南内/the Southern Interior; 春名门/the Chunming
+  Gate (source's 春名门 for the standard 春明门, same reading).
+- Terms (11): 麻搭/fire-mop (matching ch06); 推事厅/the Deliberation Hall; 架阁库/
+  the records store; 设厅/the reception hall; 婆罗门戏/a Brahman farce; 地藏菩萨/
+  the bodhisattva Ksitigarbha; 景尊/the Luminous Lord; 霓裳羽衣舞/the Rainbow-
+  Feather Dance; 黄狮子舞/the Yellow Lion Dance; 通天冠/the tongtian crown;
+  放生池/mercy-release pond (matching ch07).
+
+Reused verbatim (not re-romanized): Zhang Xiaojing, Li Bi/Deputy Director Li,
+Long Bo, Yuchang, Tanqi, Li Heng (heir apparent), Ji Wen, Yisi, Xu Bin/Youde/
+Recorder Xu, Yao Runeng, Wen Ran, Wen Wuji, Adjutant Zhao, Gan Shoucheng/General
+Gan, He Zhizhang, Li Linfu/the Right Minister, Cao Poyan, Feng Dalun; the Pifu,
+the Que-le Huo-duo, the Shouzhuolang, the three-feather order, four-windowed
+carriage, cave-running, fire-proof cloth; the Jing'an Bureau, the Jingzhao
+Prefecture, the Right Xiao Guard, the Forestry and Crafts Bureau, the Censorate,
+the Palace Censor; Guangde Ward, the Pingkang Quarter, the Cibei Temple, the
+Xingqing Palace, the Qinzheng Wuben Tower, the Longshou Canal, the Daming Palace,
+Changming Ward, the Wild Goose Pagoda; the lantern-floats.
+
+### noise.txt extended (recorded, with why)
+
+- 两处 — 左、右两处偏殿 = "the flanking halls to left and right"; a classifier
+  absorbed (cf. 两侧/两片/两道), the two-ness carried by "left and right."
+- 二不为 — 一不为人命，二不为财货 = "not for any man's life, nor for any goods";
+  list enumerator (cf. 二不逾制/二来/二是), not the count 2.
+- 万状 — 惊恐万状 = "in an extremity of terror"; 万状 idiom, not 10000.
+- 八成 — 声音八成是从这里传来 = "most likely came from there"; 八成 = "eight
+  parts in ten / most likely" (cf. 十成), not the count 8.
+
+### Blind double-translation + back-translation (separate contexts)
+
+- Blind double-translation, literary sample (Zhang Xiaojing's Ksitigarbha/Luminous
+  Lord epiphany, source lines 108-112, "景尊怜悯世人之苦 … 无须任何顾忌才对 …
+  笑声上犯夜空"): an independent re-rendering in a fresh context matched the shipped
+  text in sense throughout — 地狱不空，誓不成佛 = "so long as the hells are not
+  empty, he vows never to become a Buddha"; 身临浊世地狱 = "go down in the flesh
+  into the hell of this defiled world"; the epiphany turns on "not why I should
+  drive myself so hard, but that I need not hold back at all." Only surface wording
+  differed (the other rendered 景尊 "the Venerable One"; the project's decided term
+  is "the Luminous Lord"). 0 errors.
+- Round-trip back-translation, number-dense sample (the Xingqing lantern-tower,
+  source lines 77-79 and 156): the English back-translated to 高逾一百五十尺 …
+  一百五十尺 … 四更 … 勤政务本楼 … 大雁塔 … 兴庆宫 … 葫芦, i.e. every numeral
+  and measure survives (150 chi twice, the fourth watch) and all proper names
+  return intact; only 拔灯 ("the lantern-floats") came back as the near-synonym
+  灯船 ("lantern-boats"), a terminology paraphrase, not a lost value. 0 errors.
+- Sample error rate: 0 errors across the two audited passages (~3% of the
+  chapter's characters), consistent with ch01-ch12.
+
+### Flagged for the read-through
+
+- The chapter OPENS with a flash-forward vignette (source lines 2-4, Long Bo
+  climbing out of the cellar) BEFORE the dateline; the identical sentence recurs
+  at its true moment (source line 34, Long Bo turning from Li Bi's cage) and was
+  translated identically in both places, per the ch04-ch12 precedent. The dateline
+  (source lines 5-6) was merged from its two extractor-split halves, and the
+  dateline artifact 。。 collapsed to 。 (as ch12 merged its 亥初 + 。).
+- The location line "长安，不明。" is rendered "Chang'an; the place unknown." —
+  Li Bi is held in a cellar whose location even the narration withholds; not the
+  ward-name format of ch12's "Chang'an; Wannian County; Pingkang Ward."
+- The three "reference a non-specialist won't catch / texture" notes are
+  Ksitigarbha, Taizhen, and the Rainbow-Feather Dance — the last two a linked
+  pair (the dance strikes up as Taizhen appears). Density held near 3: the
+  Hua'e Xianghui Tower (its name a figure for brotherly love) and the tongtian
+  crown's twelve ridges are glossed in the glossary, not footnoted.
+- Zhang Xiaojing's oath "我他妈没说要杀他" is rendered with its full coarseness
+  ("I didn't fucking say I was going to kill him"), matching the book's own
+  register for him.
+- Scene shifts (the cellar / Li Heng's carriage and tea-stall / Zhang and Yisi to
+  Guangde Ward / the burning Bureau / Zhang Luo on the bridge / the infirmary and
+  Xu Bin / the Deliberation Hall / the Xingqing banquet) are divided in the source
+  by decorative rules (Image00005.jpg); following house style the shifts are plain
+  paragraph breaks, no separator glyph.
+- The time-gloss is CORRECT for this hour: 亥 (the Pig, 9-11 p.m.) glossed with
+  "晚上10点 … 21时至23时" (the same 亥 body as ch12's 亥初, only the leading clock
+  changed from 9点 to 10点); rendered identically to ch12's. No authorial slip in
+  this chapter's note, unlike the mismatched 卯 bodies of ch10/ch11.
+- Source form 春名门 (for the standard 春明门, the Chunming Gate): same reading,
+  rendered "the Chunming Gate," not flagged as an error since the pinyin is
+  identical; noted in the glossary.

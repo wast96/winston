@@ -244,3 +244,16 @@
 # ch12: 三步并两步 = "hurry at a half-run / in great haste" (idiom, lit. covering three
 # steps in two); the 三/两 are not quantities. English renders it "in two strides."
 三步并两步
+# ch13: 左、右两处偏殿 = "the flanking halls to left and right"; 两处 is a classifier
+# absorbed (cf. 两侧/两片/两道 already listed), the two-ness carried by "left and
+# right," not a digit.
+两处
+# ch13: 一不为人命，二不为财货 = "not for any man's life, nor for any goods"; the 二 in
+# 二不为 is a list enumerator (cf. 二不逾制/二来/二是 already listed), not the quantity 2.
+二不为
+# ch13: 惊恐万状 = "in an extremity of terror" (idiom, 万状 = "myriad forms"); the 万 is
+# not the quantity 10000 (cf. 万幸/万物/万状-like 万事). English renders the sense, no digit.
+万状
+# ch13: 声音八成是从这里传来 = "the sound had most likely come from there"; 八成 = "most
+# likely / eight parts in ten" (idiom of probability, cf. 十成 already listed), not the count 8.
+八成

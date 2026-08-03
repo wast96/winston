@@ -517,6 +517,24 @@
       "pinyin": "Lǎo Zhào",
       "status": "decided",
       "note": "An aging post-soldier of the Pingkang Ward watch who once served under Zhang Xiaojing and helps him slip the cordon; distinct from Adjutant Zhao (赵参军). 老 renders the familiar &#8216;Old.&#8217;"
+    },
+    "张洛": {
+      "en": "Zhang Luo",
+      "pinyin": "Zhāng Luò",
+      "status": "decided",
+      "note": "A recorder of the Forestry and Crafts Bureau, saddled with the thankless charge of the great lantern-tower. Pinyin."
+    },
+    "韦氏": {
+      "en": "Consort Wei",
+      "pinyin": "Wéi shì",
+      "status": "decided",
+      "note": "The heir apparent Li Heng's principal wife, styled here 太子妃 (consort of the heir). Rendered &#8216;Consort Wei.&#8217;"
+    },
+    "太真": {
+      "en": "Taizhen",
+      "pinyin": "Tàizhēn",
+      "status": "attested",
+      "note": "The Daoist name of Yang Yuhuan (719&#8211;756), later Yang Guifei. Pinyin follows the standard scholarly form."
     }
   },
   "organizations": {
@@ -1481,6 +1499,60 @@
       "pinyin": "Guǎn Zhòng Cí",
       "status": "decided",
       "note": "A ruined shrine to Guan Zhong in Pingkang Ward, patron of the pleasure quarter; next door stands the Shouzhuolang's bookshop. Rendered literally."
+    },
+    "花萼相辉楼": {
+      "en": "the Hua'e Xianghui Tower",
+      "pinyin": "Huā'è Xiānghuī Lóu",
+      "status": "attested",
+      "note": "&#8216;The Tower Where the Blossoms and Their Calyxes Shine on One Another,&#8217; one of the two great towers in the southwest of the Xingqing Palace, its name a figure for brotherly love; a historical structure. Romanized to match the Qinzheng Wuben Tower."
+    },
+    "拱月桥": {
+      "en": "the Arched-Moon Bridge",
+      "pinyin": "Gǒngyuè Qiáo",
+      "status": "decided",
+      "note": "A bridge over the Longshou Canal at the Anxing&#8211;Chongren crossroads, a fine vantage for lantern-viewing; the name is descriptive (&#8216;arched like the moon&#8217;), so rendered by sense."
+    },
+    "兴庆坊": {
+      "en": "Xingqing Ward",
+      "pinyin": "Xīngqìng Fāng",
+      "status": "attested",
+      "note": "The ward that had been Xuanzong's residence before his accession, later expanded into the Xingqing Palace. Standard."
+    },
+    "永嘉坊": {
+      "en": "Yongjia Ward",
+      "pinyin": "Yǒngjiā Fāng",
+      "status": "attested",
+      "note": "A ward of Chang'an, half of which was taken to enlarge Xingqing Ward. Standard."
+    },
+    "胜业坊": {
+      "en": "Shengye Ward",
+      "pinyin": "Shèngyè Fāng",
+      "status": "attested",
+      "note": "A ward of Chang'an, half of which was taken to enlarge Xingqing Ward. Standard."
+    },
+    "道业坊": {
+      "en": "Daoye Ward",
+      "pinyin": "Dàoyè Fāng",
+      "status": "decided",
+      "note": "One of the three wards (with Yongjia and Shengye) half of which was taken to enlarge Xingqing Ward. Pinyin of the source's form."
+    },
+    "太极宫": {
+      "en": "the Taiji Palace",
+      "pinyin": "Tàijí Gōng",
+      "status": "attested",
+      "note": "The original main palace of Tang Chang'an, in the north of the city; with the Daming Palace, one of the three great palace-complexes. Standard."
+    },
+    "南内": {
+      "en": "the Southern Interior",
+      "pinyin": "Nánnèi",
+      "status": "attested",
+      "note": "By-name for the Xingqing Palace, so called for its position relative to the Taiji (&#8216;Western Interior&#8217;) and Daming (&#8216;Eastern Interior&#8217;) palaces. Rendered by sense."
+    },
+    "春名门": {
+      "en": "the Chunming Gate",
+      "pinyin": "Chūnmíng Mén",
+      "status": "attested",
+      "note": "A gate in the east wall of Chang'an, near the Xingqing Palace; the standard form is 春明门, and the source's 春名门 has the same reading. Standard."
     }
   },
   "terms": {
@@ -2281,6 +2353,72 @@
       "pinyin": "pǎokū",
       "status": "decided",
       "note": "A cant term for the acrobatic art of scaling walls and running the eaves and rooftops of the city; Yisi's specialty. Rendered literally."
+    },
+    "麻搭": {
+      "en": "fire-mop",
+      "pinyin": "mádā",
+      "status": "decided",
+      "note": "A fire-fighting tool: a long wooden pole with a great wad of coarse hemp bound at the tip, dipped in water or mud to beat out flames. Rendered &#8216;fire-mop&#8217; (as in Chapter Six)."
+    },
+    "推事厅": {
+      "en": "the Deliberation Hall",
+      "pinyin": "tuīshì tīng",
+      "status": "decided",
+      "note": "A hall in the Jingzhao Prefecture's offices set aside for the deliberating of cases (<i>tuishi</i>); Ji Wen commandeers it as his private office. Rendered by function."
+    },
+    "架阁库": {
+      "en": "the records store",
+      "pinyin": "jiàgé kù",
+      "status": "decided",
+      "note": "A repository for storing documents and files (<i>jiage ku</i>), sharing a roof-beam with the Deliberation Hall. Rendered by function."
+    },
+    "设厅": {
+      "en": "the reception hall",
+      "pinyin": "shè tīng",
+      "status": "decided",
+      "note": "The hall of a government office used for receptions and banquets; here pressed into service as the treatment area for the night's injured. Rendered by function."
+    },
+    "婆罗门戏": {
+      "en": "a Brahman farce",
+      "pinyin": "póluómén xì",
+      "status": "decided",
+      "note": "A comic mummer's turn in Indian (&#8216;Brahman&#8217;) style; 弄婆罗门 is to play such a part. Zhang Xiaojing's painted disguise passes for such a player. Rendered by sense."
+    },
+    "地藏菩萨": {
+      "en": "the bodhisattva Ksitigarbha",
+      "pinyin": "Dìzàng Púsà",
+      "status": "attested",
+      "note": "Ksitigarbha (Chinese Dizang), the bodhisattva who vowed to save the beings of the hells; see the note at his first mention. Standard Sanskrit form."
+    },
+    "景尊": {
+      "en": "the Luminous Lord",
+      "pinyin": "Jǐngzūn",
+      "status": "decided",
+      "note": "Nestorian term of reverence for the Lord (Christ/God); 景 is the &#8216;Luminous Teaching&#8217; (景教). Rendered &#8216;the Luminous Lord.&#8217;"
+    },
+    "霓裳羽衣舞": {
+      "en": "the Rainbow-Feather Dance",
+      "pinyin": "Nícháng Yǔyī Wǔ",
+      "status": "attested",
+      "note": "&#8216;The Dance of the Rainbow Skirt and Feathered Robe,&#8217; the most celebrated dance-suite of Xuanzong's court; see the note at its first mention. Rendered in short form."
+    },
+    "黄狮子舞": {
+      "en": "the Yellow Lion Dance",
+      "pinyin": "Huáng Shīzi Wǔ",
+      "status": "decided",
+      "note": "A lion-dance reserved as the Son of Heaven's own dance (<i>tianzi zhi wu</i>), performed only on such an occasion. Rendered by sense."
+    },
+    "通天冠": {
+      "en": "the tongtian crown",
+      "pinyin": "tōngtiān guān",
+      "status": "decided",
+      "note": "The <i>tongtian guan</i> (&#8216;sky-reaching crown&#8217;), a ridged ceremonial crown worn by the emperor; here counted at twelve ridges. Romanized."
+    },
+    "放生池": {
+      "en": "mercy-release pond",
+      "pinyin": "fàngshēng chí",
+      "status": "decided",
+      "note": "A temple pond where captive creatures are freed as an act of Buddhist merit. Rendered &#8216;mercy-release pond&#8217; (as in Chapter Seven)."
     }
   }
 }
