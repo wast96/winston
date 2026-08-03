@@ -287,3 +287,17 @@
 # English renders "his very innards."
 五脏六腑
 五臟六腑
+# ch16: 千牛卫 = the Qianniu Guard (a unit of the Sixteen Guards); the 千 is part
+# of the unit's name, not the quantity 1000. English keeps it in pinyin, "Qianniu."
+千牛
+# ch16: 万骑 = the Wanqi (an elite guard cavalry); the 万 is part of the unit's
+# name, not the quantity 10000. English keeps it in pinyin, "Wanqi."
+万骑
+# ch16: 五成 in 把五成可能说成十成 = "make a fifty-fifty chance out to be a
+# certainty"; 五成 ("five parts in ten") is a probability idiom, not the count 5
+# (cf. 十成/八成 already listed). English renders "fifty-fifty."
+五成
+# ch16: 千恩万谢 = "thank a thousand times over" (idiom); the 万 in 万谢 is not the
+# quantity 10000 (千 is rendered "a thousand," 万 is idiomatic). English renders
+# "thanked him a thousand times over."
+千恩万谢

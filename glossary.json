@@ -625,6 +625,24 @@
       "pinyin": "Lǎozǐ",
       "status": "attested",
       "note": "The sage Laozi, = Lao Dan (see 老聃); honored 太上玄元 by the Tang house. Pinyin."
+    },
+    "陈玄礼": {
+      "en": "Chen Xuanli",
+      "pinyin": "Chén Xuánlǐ",
+      "status": "attested",
+      "note": "Historical general (d. after 762); commander of the palace guard under Xuanzong, later famous as the man who at the Mawei post-station in 756 forced the deaths of Yang Guozhong and Yang Guifei during the flight from An Lushan's rebellion. Here Grand General of the Longwu Army. Pinyin."
+    },
+    "安禄山": {
+      "en": "An Lushan",
+      "pinyin": "Ān Lùshān",
+      "status": "attested",
+      "note": "Historical general (c. 703–757) of Sogdian and Turkic parentage; in 744 the military commissioner of Pinglu, later of Fanyang and Hedong as well. In 755 he raised the rebellion that shattered the High Tang, taking Chang'an and forcing Xuanzong's flight; killed by his own son in 757. Pinyin."
+    },
+    "颉利可汗": {
+      "en": "Jieli Khagan",
+      "pinyin": "Xiélì Kèhán",
+      "status": "attested",
+      "note": "Illig Qaghan (r. 620–630), last ruler of the Eastern Turkic Khaganate, captured in 630 by the Tang general Li Jing (Duke Li of Wei) in the Yin Mountains campaign; the tableau of the lantern-chamber. Pinyin follows the conventional scholarly rendering of the Chinese form."
     }
   },
   "organizations": {
@@ -789,6 +807,24 @@
       "pinyin": "Zhéchōngfǔ",
       "status": "attested",
       "note": "The local headquarters of the Tang <i>fubing</i> militia system; some of Xiao Gui&#8217;s veterans come from these. Rendering per Hucker."
+    },
+    "左骁卫": {
+      "en": "the Left Xiao Guard",
+      "pinyin": "Zuǒ Xiāo Wèi",
+      "status": "decided",
+      "note": "The left wing of the Xiao Guards of the Sixteen Guards, paired with the Right Xiao Guard (右骁卫) already glossed. Same rendering, 'Left' for 左."
+    },
+    "千牛卫": {
+      "en": "the Qianniu Guard",
+      "pinyin": "Qiānniú Wèi",
+      "status": "decided",
+      "note": "One of the Sixteen Guards, the imperial bodyguard whose officers bore the 'thousand-ox' sword; kept in pinyin (the numeral 千 is part of the unit's name, not a count)."
+    },
+    "万骑": {
+      "en": "the Wanqi",
+      "pinyin": "Wànqí",
+      "status": "attested",
+      "note": "The 'Ten-Thousand Horse,' an elite guard cavalry of Wu Zetian's and Zhongzong's reigns, a forerunner of the Longwu Army; kept in pinyin (the 万 is part of the name, not a count)."
     }
   },
   "places": {
@@ -1745,6 +1781,42 @@
       "pinyin": "Nánshān",
       "status": "decided",
       "note": "The Zhongnan range 终南山 south of Chang&#8217;an; the home of the old charcoal-seller, as in Bai Juyi&#8217;s ballad. Rendered &#8216;the Southern Mountains.&#8217;"
+    },
+    "越州": {
+      "en": "Yuezhou",
+      "pinyin": "Yuèzhōu",
+      "status": "attested",
+      "note": "A prefecture of the southeast, about modern Shaoxing in Zhejiang. Pinyin."
+    },
+    "营州": {
+      "en": "Yingzhou",
+      "pinyin": "Yíngzhōu",
+      "status": "attested",
+      "note": "A northeastern frontier prefecture, about modern Chaoyang in Liaoning; the seat of An Lushan's Pinglu command. Pinyin."
+    },
+    "河北": {
+      "en": "Hebei",
+      "pinyin": "Héběi",
+      "status": "attested",
+      "note": "The region north of the Yellow River; in Tang usage the northeastern circuit, not the modern province of the same name. Pinyin."
+    },
+    "林邑": {
+      "en": "Linyi",
+      "pinyin": "Línyì",
+      "status": "attested",
+      "note": "Champa (Lâm Ấp), the Cham kingdom of the central Vietnamese coast, a source of aromatics such as borneol. Pinyin of the Tang name."
+    },
+    "青云观": {
+      "en": "the Qingyun Abbey",
+      "pinyin": "Qīngyún Guàn",
+      "status": "decided",
+      "note": "A Daoist abbey named in passing (a priest of it is quoted). Rendered like Mystic Abbey with 观 = 'Abbey'; 青云 kept in pinyin."
+    },
+    "武威": {
+      "en": "Wuwei",
+      "pinyin": "Wǔwēi",
+      "status": "decided",
+      "note": "The name of a lantern-chamber (its theme, Duke Li of Wei breaking the Yin Mountains), next to the Tangdi chamber. Kept in pinyin like Tangdi."
     }
   },
   "terms": {
@@ -2749,6 +2821,48 @@
       "pinyin": "fēijìwèi",
       "status": "attested",
       "note": "A Tang prestige-title (<i>xun</i> merit rank) awarded for service; Zhang Xiaojing&#8217;s carries him into a Ministry-of-War post. Rendering per Hucker."
+    },
+    "转机": {
+      "en": "the turning-gear",
+      "pinyin": "zhuǎnjī",
+      "status": "decided",
+      "note": "The fine-steel gear at the crown of Mystic Abbey's roof that takes power from the water-wheels and drives the Tianshu; the point Zhang Xiaojing means to wreck. A project rendering."
+    },
+    "水力宫": {
+      "en": "the Hydraulic Hall",
+      "pinyin": "shuǐlì gōng",
+      "status": "decided",
+      "note": "The underground chamber of six great water-wheels that powers the lantern-tower; 宫 rendered 'Hall' (not 'Palace') for this subterranean machine-room. A project rendering."
+    },
+    "团结兵": {
+      "en": "tuanjie militia",
+      "pinyin": "tuánjié bīng",
+      "status": "decided",
+      "note": "Tang local self-defense levies (团结兵), raised for home-district garrison duty, distinct from the fubing militia and the frontier armies. Kept in pinyin with a gloss word."
+    },
+    "柱国": {
+      "en": "Pillar of State",
+      "pinyin": "zhùguó",
+      "status": "attested",
+      "note": "An honorary merit-title (勋官) of high rank; 柱国子, 'a son of a Pillar of State,' claims descent from a holder. See C. O. Hucker, A Dictionary of Official Titles in Imperial China."
+    },
+    "越骑": {
+      "en": "yueqi horseman",
+      "pinyin": "yuèqí",
+      "status": "decided",
+      "note": "A designation for an elite cavalryman (lit. 'leaping horse'), here a trooper under An Lushan's Pinglu command. Kept in pinyin with a gloss word."
+    },
+    "丁防": {
+      "en": "frontier levy",
+      "pinyin": "dīngfáng",
+      "status": "decided",
+      "note": "Able-bodied men (丁) levied for frontier garrison duty (防) in the border prefectures. A project rendering."
+    },
+    "顶阁": {
+      "en": "the crown-loft",
+      "pinyin": "dǐnggé",
+      "status": "decided",
+      "note": "The square upper chamber atop Mystic Abbey's roof, housing the turning-gear at the tower's base; the linchpin joining tower and Hydraulic Hall. A project rendering."
     }
   }
 }

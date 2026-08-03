@@ -1945,3 +1945,87 @@ Notable renderings/decisions:
   beacon-fort, garrison-town, the Xingqing/Qinzheng Wuben Tower, the Longshou Canal,
   the Taishang Xuanyuan Grand Lantern-Tower, the qilin-arm, fierce-fire thunder,
   rock-oil, the Que-le Huo-duo, the Tianshu, the Five Yamas, the Tang Rhymes, etc.).
+
+## B16 = ch16 (第十六章 丑初 / "The Hour of the Ox, First Half, 1 a.m.")
+
+- Translated ch16 from data/src/34_text00033.txt (14,191 source chars) into
+  out/ch16_bilingual.md (QC only, never shipped), then generated out/ch16_reading.md
+  and data/zh/ch16.txt with split_bilingual.py. 289 aligned paragraph pairs.
+- Opening: a flash-forward vignette (Li Bi crouched in the water-channel, only half
+  his head above the surface, watching the torchlit Pifu), split across three
+  data/src lines; merged into one bilingual pair and translated identically to its
+  in-place recurrence later in the chapter (source line 105), per the recurring-
+  vignette rule. The dateline "天宝三载元月十五日，丑初。" was extractor-split across two
+  lines (…丑初 / 。) and merged. The content-file marker line 丑初 (line 1) is absorbed
+  into the H2 title; the source's per-chapter time-gloss (line 293) is rendered as
+  the source's own italic note, prefixed "*[The source appends a note on the hour to
+  each chapter:]*". This chapter's hour-gloss is CORRECT (凌晨1点…丑…第二个时辰…01时
+  至03时): the Ox hour, 1–3 a.m.; no time-gloss error like ch06/07/08/10/11.
+- Scene shifts (lantern-tower interior → the Hydraulic Hall / Li Bi → Yuan Zai's
+  march on the Xingqing Palace → back to the tower → the descent to Mystic Abbey →
+  the crown-loft → the muster and the tower's awakening) are divided in the source by
+  the decorative rule image (Image00005.jpg); per house style each is a plain
+  paragraph break, no glyph. The chapter's only images are that rule and the
+  footnote-marker glyph (Image00004.jpg); neither is a content illustration, so
+  figures.json is unchanged.
+
+Checks run:
+- check_numbers.py --noise noise.txt: 289 pairs, 0 unresolved. Four false positives
+  cleared by extending noise.txt (all non-quantities): 千牛 (千牛卫 = the Qianniu
+  Guard, unit name, not 1000), 万骑 (the Wanqi, unit name, not 10000), 五成 (in
+  把五成可能说成十成 = "a fifty-fifty chance," a probability idiom, cf. 十成/八成), and
+  千恩万谢 ("thanked a thousand times over," idiom, the 万 non-quantitative). One flag
+  was fixed in the ENGLISH rather than noised: 阴阳两界 now reads "between the two
+  worlds of light and shade" so the 两 = 2 survives. All real quantities carried
+  and checked: the 50/500/5000/50000 escalation of Zhang's moral test, the ~50,000
+  of Chang'an on the plaza, the six water-wheels, thirty crack veterans, ten copper
+  coins for ten deeds, three-tier turning-gear each three chi high, twenty-four
+  lantern-chambers, four bolts / two bolts, ten-odd finger-snaps, nine years / ten
+  years, the Eighth Company.
+- check_structure.py --pairs: parity 289 | 289 OK.
+- Verbatim-quote audit (mechanical): the concatenation of every source blockquote in
+  the bilingual equals the source content character-for-character (16,287 chars,
+  EQUAL: True) — 100% verbatim, no dropped or altered source text.
+- build_reading_epub.py + qa_epub.py: PASS (26 documents, 58 note refs / 58 bodies /
+  58 backlinks, all links resolve, 16 of 26 chapters translated). Note anchors all
+  verified as verbatim English substrings before build.
+- Blind double-translation (literary sample): the lantern-tower descent, the "worlds
+  of light and shade" atmosphere passage (source line 167). Independent re-render
+  diverged only in word choice ("wove/threaded," "ghosts afloat/specters floating,"
+  "worlds of light and shade / yin and yang realms"); no omission, no meaning
+  divergence. 0 errors.
+- Round-trip back-translation (number-dense sample): the machinery that wakes the
+  tower (source line 291). Back-rendering to Chinese preserved every numeral —
+  十几个壮汉, 数条铁杆, 六个水巨轮, 六轮, 一枚转机 — and dropped nothing. 0 errors.
+- Sample error rate: 0 errors across the ~7% audited (verbatim mechanical check over
+  the whole chapter, plus the two deep samples). No authorial slips of the ch03/06/
+  07-type found in ch16; the hour-gloss is correct.
+
+Notes (notes.json ch16, continuous total now 58; +3):
+- "Chen Xuanli, Grand General of the Longwu Army" — the historical palace-guard
+  commander, correctly placed; the man who at Mawei in 756 forced the deaths of Yang
+  Guozhong and Yang Guifei (the Taizhen of ch13). Dramatic-irony note, corroborated.
+- "An Lushan, Commissioner An" — his first in-text appearance (an old trooper of his
+  Pinglu command speaks of him warmly as "a good man, a man of honor"); the future
+  arch-rebel of 755 whose shadow the whole novel is written under. Corroborated.
+- "Duke Li of Wei and Jieli Khagan" — the Wuwei lantern-chamber tableau: Li Jing's
+  630 night march through the Yin Mountains and the capture of Illig Qaghan, ending
+  the Eastern Turkic Khaganate. Jieli Khagan's first appearance; corroborated.
+  (Already-noted/appeared subjects NOT re-noted: Duke Li of Wei and the Yin
+  Mountains campaign are glossary-noted from ch15; the Que-le Huo-duo, the qilin-arm,
+  the Tianshu, the fierce-fire thunder, storax, the beacon-fort, the Eighth Company,
+  Taizhen, the Türks, the Right Xiao Guard, all from earlier chapters.)
+
+Glossary (glossary.json, +19 rows): people — 陈玄礼/Chen Xuanli, 安禄山/An Lushan,
+颉利可汗/Jieli Khagan; places — 越州/Yuezhou, 营州/Yingzhou, 河北/Hebei, 林邑/Linyi,
+青云观/the Qingyun Abbey, 武威/Wuwei (lantern-chamber); organizations — 左骁卫/the
+Left Xiao Guard, 千牛卫/the Qianniu Guard, 万骑/the Wanqi; terms — 转机/the
+turning-gear, 水力宫/the Hydraulic Hall, 团结兵/tuanjie militia, 柱国/Pillar of State,
+越骑/yueqi horseman, 丁防/frontier levy, 顶阁/the crown-loft. Reused decided forms
+verbatim: Zhang Xiaojing, Li Bi (Li Changyuan), Xiao Gui / Long Bo, Mao Shun, Yuchang,
+Yuan Zai, the Pifu, the Lüben Guards, the Longwu Army, the Jing'an Bureau, Mystic
+Abbey, the Tianshu (+ the Tianshu tier), the qilin-arm, the Que-le Huo-duo, the
+fierce-fire thunder, rock-oil, the Taishang Xuanyuan Grand Lantern-Tower, the
+Xingqing Palace / the Qinzheng Wuben Tower, Tangdi, Duke Li of Wei, the Yin
+Mountains, Pinglu, Daozheng Ward, the Chunming Gate, the beacon-fort, the Eighth
+Company, the lantern-floats, buliang chief, Commander (都尉), the Right Xiao Guard.
