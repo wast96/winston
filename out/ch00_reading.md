@@ -6,7 +6,7 @@ The second year of the Xuantong reign, 1910. Early spring.
 
 Under a clear bright sky, a lush green lawn spread its two graceful wings to gather in a courtyard of pear blossom. A butterfly, brilliant with color, alighted on the elegant hem of a skirt and lingered greedily beneath the finely embroidered heart of a peony. A round fan of plain white silk swept up with a flash of red sleeve, meaning to strike at the butterfly—
 
-There was a pop, and in the instant the old camera's shutter came down a puff of white smoke rose into the air.
+There was a pop, and in the instant the old camera’s shutter came down a puff of white smoke rose into the air.
 
 A beautiful photograph was fixed forever within the haze.
 
@@ -36,8 +36,8 @@ A terrible sound of a spade came out of the dark.
 
 The candle, just righted, was carried forward toward the sound—and though her heart was filled with dread, still the pink shoes pressed on along the winding pebbled path, on toward the sound of the spade.
 
-At last she saw. A man and a woman were burying a body beneath the pear tree, and the body's feet still jutted from the earth. At a single glance she knew them for her father's feet, for her father had been born with six toes!!
+At last she saw. A man and a woman were burying a body beneath the pear tree, and the body’s feet still jutted from the earth. At a single glance she knew them for her father’s feet, for her father had been born with six toes!
 
 And in that instant of utter terror, a hand reached out from behind her and clamped down hard over her already-opened mouth—
 
-They say that in that year the pear blossom of the Yang family, of Shanghai's world of finance, bloomed with a rare and bewitching beauty.
+They say that in that year the pear blossom of the Yang family, of Shanghai’s world of finance, bloomed with a rare and bewitching beauty.

@@ -10,7 +10,7 @@ The second year of the Xuantong reign, 1910. Early spring.
 Under a clear bright sky, a lush green lawn spread its two graceful wings to gather in a courtyard of pear blossom. A butterfly, brilliant with color, alighted on the elegant hem of a skirt and lingered greedily beneath the finely embroidered heart of a peony. A round fan of plain white silk swept up with a flash of red sleeve, meaning to strike at the butterfly—
 
 > “嘭”的一声，随着老式相机按下快门的一瞬间，一股白烟升起来。
-There was a pop, and in the instant the old camera's shutter came down a puff of white smoke rose into the air.
+There was a pop, and in the instant the old camera’s shutter came down a puff of white smoke rose into the air.
 
 > 一张美丽的相片定格在烟雾中。
 A beautiful photograph was fixed forever within the haze.
@@ -55,10 +55,10 @@ A terrible sound of a spade came out of the dark.
 The candle, just righted, was carried forward toward the sound—and though her heart was filled with dread, still the pink shoes pressed on along the winding pebbled path, on toward the sound of the spade.
 
 > 她终于看到了。一个男人和一个女人正在梨树下掩埋尸体，这具尸体的脚还露在泥土外，她一眼就认清这是父亲的脚，因为父亲的脚是天生的六趾！！
-At last she saw. A man and a woman were burying a body beneath the pear tree, and the body's feet still jutted from the earth. At a single glance she knew them for her father's feet, for her father had been born with six toes!!
+At last she saw. A man and a woman were burying a body beneath the pear tree, and the body’s feet still jutted from the earth. At a single glance she knew them for her father’s feet, for her father had been born with six toes!
 
 > 就在她惊噩万状之际，一只手突然从背后伸过来，死死地捂住她已经张开的嘴--
 And in that instant of utter terror, a hand reached out from behind her and clamped down hard over her already-opened mouth—
 
 > 据说，这一年，上海金融界杨家的梨花开得异常妖艳。
-They say that in that year the pear blossom of the Yang family, of Shanghai's world of finance, bloomed with a rare and bewitching beauty.
+They say that in that year the pear blossom of the Yang family, of Shanghai’s world of finance, bloomed with a rare and bewitching beauty.
