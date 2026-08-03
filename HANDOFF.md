@@ -51,9 +51,9 @@ kickoff verbatim in a fenced block.
 - REGISTER PASS in progress: the commissioner found the English at many points
   too literal (calqued idioms, scene cards as body copy, transferred syntax).
   `REGISTER_PASS.md` defines the whole pass: taxonomy, triage, two-phase
-  ANALYZE/EXECUTE workflow, hard constraints, batch plan R01 to R12, and the
+  ANALYZE/EXECUTE workflow, hard constraints, batch plan R01 to R08, and the
   definition of done. ch00 + ch01 revised as the exemplar (commit `895d19c`).
-  Next batch: R01 (ch02 to ch04).
+  Next batch: R01 (ch02 to ch06, plus the ch00 note backfill).
 
 ## Reference documents
 
