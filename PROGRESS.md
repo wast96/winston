@@ -967,3 +967,106 @@ Figures: none in this batch.
 Build: out/On a Hair Trigger.epub rebuilt, 28 of 36 units translated, 88 notes.
 qa_epub.py PASS (36 documents, 5365 paragraphs, 88 references = 88 bodies = 88
 backlinks, all links resolve).
+
+## Batch B11 — Chapters 28 to 30 (ch28, ch29, ch30)
+
+Scope: Chapter 28 (ch28, 间不容发生死际, src 31_part0029.txt, 159 paras), Chapter 29
+(ch29, 欲披荒草访疑尘, src 32_part0030.txt, 206 paras), Chapter 30 (ch30, 同生共死亲
+兄弟, src 33_part0031.txt, 262 paras). ~17,303 source chars, 627 paragraphs total.
+Continues from B10 (Prologue + Chapters 1 to 27 already built).
+
+Plot delivered this batch:
+- ch28: Xia Yuechun and Yu Xiaojiang spring the hospital trap. Yu Xiaojiang, in a
+  nurse's uniform behind the ward screen, shoots Li Qinhong dead (silenced, plus the
+  Juntong two extra rounds) and is revealed as the new "Timely Rain," Muci's superior.
+  Cong Feng is passed out via the "Short History of Chinese Philosophy" fallback
+  password to Snow Wolf and the Fourth-Avenue conference; A-Chu removes the body under
+  cover of a false fire alarm; three days later Yu Xiaojiang raids an empty conference
+  site. Du Luning and Yu Xiaojiang discuss the "unidentified radio" (she pins it on the
+  Japanese, citing the Mukden Incident). Cong Feng sails; A-Chu and Xia Yuechun close
+  with the Persian-chessboard parable and the returned cartridge cases.
+- ch29: Winter 1932. Xiong Zida ousted (the Pravda / Xin Zhonghua Bao coverage did him
+  in) and hands over to a Du-planted staff. Yu Xiaojiang tells Muci that Ronghua will be
+  named a martyr and that the secret transmitter near Yuyuan Road is likely Japanese and
+  likely in his own house; Muci names his "mother" as the suspect. Koyama Eiko (小山缨子,
+  the false Xu Yuzhen) is shown at her radio, discovering her girlhood photo gone. Muci,
+  who took it, goes over the wall to Plum Blossom Lane; he and A-Chu read the three
+  photos (mother / disguised false mother / the false mother's true face) and set out at
+  3 a.m. to survey the Ciyun Temple, where a beam drops on A-Chu — cliffhanger.
+- ch30: Muci saves A-Chu into the crypt; the woman above blows the hall. Trapped, the
+  twins talk (backstory, A-Chu's Rong-family childhood, his fall-triggered hallucination
+  of the Nagoya-obi woman) and Muci reads the "mirror" as the water, finding the
+  underwater passage and, in the wooden room, their real mother's skeleton (murdered by
+  waist-cutting, her identity stolen by the Japanese impostor). They climb the hollow
+  tree; at the top "Mother"/Koyama Eiko waits with a gun. Muci hooks A-Chu safe, refuses
+  to drop him, shouts "Sitong!" — a shot rings out (cliffhanger into B12).
+
+Checks run (recorded per unit):
+- check_numbers.py --noise data/noise.txt: ch28 0 unresolved, ch29 0, ch30 0.
+  Noise added this batch (5 rows): 一万亿 (chessboard-legend grain count; the checker has
+  no 亿=10^8 branch so 一万亿 misparses to 10000 — rendered "a trillion" in prose); 百姓
+  (in 老百姓, 百 lexicalized, not 100); 零点 ("zero hour / midnight", 零=0 not a quantity);
+  万籁 (in 万籁俱静, 万 = "myriad", not 10000); 一泻千里 (idiom, 千 not 1000, not in the
+  built-in list). One genuine fix rather than noise: ch30 §62 四个字 rendered "Those four
+  words" (was "Those words") so the count 4 survives and the four-character judgment
+  至柔至刚 stays faithful. Clock/date digits preserved: "three in the morning" (凌晨三点),
+  "about one in the morning" (凌晨一点), midnight; 1910/1922/1932 as digits; the Mukden
+  Incident rendered "the eighteenth of September" (September credits 9; 一八 parses to None
+  so no residue). "sixty-four squares" (64) and "two" (第二/两) both survive.
+- check_structure.py --pairs: parity OK for all three (159/159, 206/206, 262/262); note
+  anchors resolve; headings uniform (one H2 couplet title per chapter, flat prose).
+- Verbatim fidelity: data/zh/<id>.txt (minus ### title) diffed against source (minus 2
+  metadata lines) — zero content diffs for all three (only the source files' missing
+  final newline differs, as expected). The ch28 pirate-site watermark (阳光中文网 …) is
+  kept verbatim in the bilingual `>` line, omitted from the reading text, and footnoted.
+- Blind double translation + round-trip back-translation applied to the argumentative /
+  lyrical passages: the Persian-chessboard parable and the king/minister accusation
+  (ch28 §130, §133, §135), Koyama Eiko's interior monologue (ch29 §80 to §88), the
+  transmitter call-sign scene (ch29 §90 to §92), the crypt Zen exchange (ch30 §38 to §44),
+  and the reconstruction of the murder (ch30 §211 to §219). Divergences were of English
+  phrasing only; no clause dropped, no ambiguity smoothed, nothing invented. Plain
+  narration sampled throughout.
+- Paranoid audit: the mechanical checks (numbers, parity, verbatim) ran on 100% of the
+  627 paragraphs; the full double/back-translation plus fact-dense manual deep read
+  covered ~24 paragraphs (~3.8%). Observed error rate: 0%.
+
+Footnotes (10 this batch, builder-numbered #89 to #98):
+- ch28: title 间不容发 traced to Mei Cheng's 《上书谏吴王》 (西汉), corroborated, and set
+  beside the ch21 千钧一发 (Han Yu); the Mukden Incident / 九一八 (18 Sept 1931, Kwantung
+  Army, South Manchuria Railway, Liutiaohu, Manchukuo 1932), corroborated; the recognition
+  password 《中国哲学简史》 (Feng Youlan, Macmillan 1948) flagged as anachronism (book and
+  publisher corroborated, the 1948 date makes it the author's anachronism); the ch28
+  pirate-site watermark line noted (kept in QC, cut from reading text).
+- ch29: title 欲披荒草访疑尘 found to be author's pastiche, no single source (uncorroborated);
+  the 中国民权保障同盟 / China League for Civil Rights (Shanghai, Dec 1932), corroborated,
+  dating the chapter; Wang Jingwei's 曲线救亡 accommodationist slogan, corroborated.
+- ch30: title 同生共死亲兄弟 found to be a plain line in the old manner, not a traceable
+  quotation (uncorroborated), answered by 有缘共死，不枉同生; 假作真时真亦假 traced to the
+  《红楼梦》 太虚幻境 couplet (companion line 无为有处有还无), corroborated, 红楼梦 first
+  noted at ch24; the 名古屋带 / Nagoya obi (a modern c.1920 sash), whose tie to the 桃山
+  age the source gives loosely — contradicts the actual origin.
+
+Glossary: 16 new rows (one decided rendering per referent; existing renderings reused —
+Xu Yuzhen, Xiong Zida, Huamei Bookstore, Ciyun Temple, Amah A-Yue, the Imperial Flower,
+Liu Yun, Rong'er, Shenyang, Timely Rain, Snow Wolf, all carried over unchanged).
+New people: Koyama Eiko (小山缨子, provisional; the false Xu Yuzhen / Imperial Flower),
+Wang Jingwei (汪精卫), Mao Zedong (毛泽东). New orgs: the China League for Civil Rights
+(中国民权保障同盟), the Kwantung Army (关东军), the Northeast Army (东北军), Pravda (真理报),
+the Xin Zhonghua Bao (新中华报). New places: Liutiaohu (柳条湖), the South Manchuria Railway
+(南满铁路). New terms: a Nagoya obi (名古屋带), the Momoyama age (桃山时代), A Short History
+of Chinese Philosophy (中国哲学简史), salvation by a roundabout path (曲线救亡), Green Bamboo,
+Spring Dawn (翠竹春晓), the puppet state of Manchukuo (伪满).
+
+Twin / identity handling this batch:
+- A-Chu is written 阿初/杨慕初 and A-Ci 阿次/杨慕次 throughout; no genuine twin-name slip.
+  The two spend chs 29-30 alone together for the first time; both self-designations are
+  rendered by referent as established (A-Chu / A-Ci; Muci for narration of 阿次).
+- The impostor's reveal is rendered as it stands: "徐玉真" (false mother, in quotes) is
+  the Japanese agent Koyama Eiko (小山缨子); the murdered birth mother's skeleton and the
+  identity-theft reconstruction are given faithfully, not reconciled or softened.
+
+Figures: none in this batch.
+
+Build: out/On a Hair Trigger.epub rebuilt, 31 of 36 units translated, 98 notes.
+qa_epub.py PASS (36 documents, 5989 paragraphs, 98 references = 98 bodies = 98
+backlinks, all links resolve).

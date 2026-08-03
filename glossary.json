@@ -516,6 +516,24 @@
       "pinyin": "A-Chun",
       "status": "provisional",
       "note": "Tian Xiuyun's husband; ostensibly a Special Branch peripheral (a police runner) who bails out arrested comrades, but exposed as the Juntong mole 'the Rivet' (Chapter 26)."
+    },
+    "小山缨子": {
+      "en": "Koyama Eiko",
+      "pinyin": "Koyama Eiko (Xiaoshan Yingzi)",
+      "status": "provisional",
+      "note": "The Japanese intelligence agent who lives in the Yang house as the false 徐玉真/Xu Yuzhen and radios under the call-sign the Imperial Flower; her real name is disclosed at Chapter 29. Reading of 缨子 as &#8216;Eiko&#8217; is a provisional romanization."
+    },
+    "汪精卫": {
+      "en": "Wang Jingwei",
+      "pinyin": "Wang Jingwei",
+      "status": "attested",
+      "note": "Senior Nationalist leader; the slogan 曲线救亡 (&#8216;salvation by a roundabout path&#8217;) attaches to him, and he headed a Japanese-sponsored government at Nanjing in 1940. Named at Chapter 29 (footnoted)."
+    },
+    "毛泽东": {
+      "en": "Mao Zedong",
+      "pinyin": "Mao Zedong",
+      "status": "attested",
+      "note": "CCP leader; named at Chapter 29 as the author of a newspaper article."
     }
   },
   "organizations": {
@@ -878,6 +896,36 @@
       "pinyin": "Ren'ai yiyuan",
       "status": "provisional",
       "note": "A hospital in England to which Xia Yuechun sends the nurses as year-long probationers (Chapter 25)."
+    },
+    "中国民权保障同盟": {
+      "en": "the China League for Civil Rights",
+      "pinyin": "Zhongguo Minquan Baozhang Tongmeng",
+      "status": "attested",
+      "note": "Civil-liberties body founded in Shanghai, December 1932 (Song Qingling, Cai Yuanpei, Yang Quan). Chapter 29 (footnoted)."
+    },
+    "关东军": {
+      "en": "the Kwantung Army",
+      "pinyin": "Guandong jun",
+      "status": "attested",
+      "note": "The Japanese army in the Northeast; staged the Mukden Incident of 18 September 1931. Chapter 28."
+    },
+    "东北军": {
+      "en": "the Northeast Army",
+      "pinyin": "Dongbei jun",
+      "status": "decided",
+      "note": "Zhang Xueliang&#8217;s forces in Manchuria. Chapter 28."
+    },
+    "真理报": {
+      "en": "Pravda",
+      "pinyin": "Zhenli Bao",
+      "status": "attested",
+      "note": "The Soviet Communist Party newspaper. Chapter 29."
+    },
+    "新中华报": {
+      "en": "the Xin Zhonghua Bao",
+      "pinyin": "Xin Zhonghua Bao",
+      "status": "decided",
+      "note": "A Chinese Communist newspaper. Chapter 29. (The paper of this name ran at Yan&#8217;an from 1937; the reference is loose for the early-1930s setting.)"
     }
   },
   "places": {
@@ -1204,6 +1252,18 @@
       "pinyin": "Zhabei qu",
       "status": "attested",
       "note": "A district of Shanghai; Bai Yun was arrested there in 1927 (Chapter 26)."
+    },
+    "柳条湖": {
+      "en": "Liutiaohu",
+      "pinyin": "Liutiaohu",
+      "status": "attested",
+      "note": "The stretch of the South Manchuria Railway, near Shenyang, where the Kwantung Army staged its 1931 explosion. Chapter 28."
+    },
+    "南满铁路": {
+      "en": "the South Manchuria Railway",
+      "pinyin": "Nan Man tielu",
+      "status": "attested",
+      "note": "The Japanese-run railway in the Northeast. Chapter 28."
     }
   },
   "terms": {
@@ -1392,6 +1452,42 @@
       "pinyin": "Shaoxing wenxi",
       "status": "decided",
       "note": "The Shaoxing sung drama, forerunner of Yue opera (越剧); named by He Yashu (Chapter 25)."
+    },
+    "名古屋带": {
+      "en": "a Nagoya obi",
+      "pinyin": "Nagoya obi (Mingguwu dai)",
+      "status": "decided",
+      "note": "A pre-folded kimono sash (a modern, c. 1920 invention). Chapter 30 (footnoted); the memory-clue that marks the murderer as Japanese."
+    },
+    "桃山时代": {
+      "en": "the Momoyama age",
+      "pinyin": "Momoyama (Taoshan shidai)",
+      "status": "decided",
+      "note": "Late-16th-century Japanese period; used loosely in the source for &#8216;old Japanese.&#8217; Chapter 30."
+    },
+    "中国哲学简史": {
+      "en": "A Short History of Chinese Philosophy",
+      "pinyin": "Zhongguo Zhexue Jianshi",
+      "status": "decided",
+      "note": "Feng Youlan&#8217;s book (Macmillan, 1948); used as a recognition password. Chapter 28 (footnoted, anachronism)."
+    },
+    "曲线救亡": {
+      "en": "salvation by a roundabout path",
+      "pinyin": "quxian jiuwang",
+      "status": "decided",
+      "note": "Wang Jingwei&#8217;s accommodationist slogan (also 曲线救国). Chapter 29 (footnoted)."
+    },
+    "翠竹春晓": {
+      "en": "Green Bamboo, Spring Dawn",
+      "pinyin": "Cuizhu Chunxiao",
+      "status": "decided",
+      "note": "The ink landscape in A-Chu&#8217;s study, painted by his wife. Chapter 29."
+    },
+    "伪满": {
+      "en": "the puppet state of Manchukuo",
+      "pinyin": "wei Man",
+      "status": "attested",
+      "note": "The Japanese client state proclaimed in the Northeast, March 1932 (伪满 = &#8216;bogus Manchukuo&#8217;). Chapter 28."
     }
   }
 }

@@ -193,3 +193,14 @@
 百花
 # 五内 in 五内如焚 ("burning within, the five viscera afire"); 五 lexicalized, not 5
 五内
+# 一万亿 (chessboard-legend grain count, ch28): the checker lacks a 亿(10^8)
+# branch, so 一万亿 misparses to 10000; rendered "a trillion" in prose
+一万亿
+# 百姓 in 老百姓 ("common people"); 百 is lexicalized, not the count 100
+百姓
+# 零点 = "zero hour / midnight" (clock), the 零 is 0 not a quantity (cf. 零度)
+零点
+# 万籁 in 万籁俱静 ("every sound stilled"); 万 = "myriad", not 10000
+万籁
+# 一泻千里 ("pour out in a flood"): built-in idiom list lacks it; 千 not 1000
+一泻千里
