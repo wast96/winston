@@ -270,3 +270,20 @@
 # (English "the Seven Killings" happens to carry it, so the check passed either
 # way; noised here to keep it principled, cf. 武三思/贾十七 already listed).
 七杀
+# ch15: 四下 in 双目四下扫视 = "scanning all around / in every direction" (an
+# all-directions 四X idiom, cf. 四面/四方/四处 already listed but with 下); the 四
+# is not the quantity 4. English renders "swept his eyes about."
+四下
+# ch15: 千古 in 千古未有 = "never in all the ages" (千古 = "through the ages /
+# eternity"); the 千 is an intensifier, not the quantity 1000 (cf. 千万/千方百计
+# already listed). English renders "such as no age has ever seen."
+千古
+# ch15: 涕零 in 感激涕零 = "weep with gratitude" (涕零 = "tears fall"); the 零 here
+# means "drip/fall," not the number 0. cn_to_int reads the bare 零 as 0. English
+# renders "did not weep out his gratitude."
+涕零
+# ch15: 五脏六腑 = "the five viscera and six bowels" (a fixed idiom for the inner
+# organs); the 五/六 are conventional, not a count (cf. 五花八门 already listed).
+# English renders "his very innards."
+五脏六腑
+五臟六腑

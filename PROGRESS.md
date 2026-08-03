@@ -1845,3 +1845,103 @@ Notable renderings/decisions:
   Luo), 伍长 = "guard-corporal," 行头 = "foreman (of the craftsmen's guild)," 婆子
   = "serving-woman," 痴缠货 = "lovesick pest" — office/common-noun renderings kept
   consistent within the chapter.
+
+## B15 = ch15 (第十五章 子正 / "The Hour of the Rat, Second Half, midnight")
+
+Scope: the whole chapter, 16,941 source characters, 321 paragraphs. This is the
+pivot of the book. Structure is unusual — it carries TWO datelines. It opens with
+a flash-forward vignette (source lines 2-4, the reversed-crossbow standoff, three
+extractor-split halves merged into one pair), which recurs verbatim at its true
+moment (source line 144) and was translated identically in both places. Then a
+long flashback under its own dateline "开元二十三年七月十四日，午时" (Kaiyuan 23 =
+735 CE, the hour of the Horse / noon; lines 5-6 merged) — the last stand of the
+Eighth Company at the beacon-fort thirty li north of Balhuan, where Zhang
+Xiaojing, Wen Wuji and the archer Xiao Gui are three of thirteen survivors; Wen
+Wuji loses his leg and Zhang his left eye, Xiao Gui detonates the last fierce-fire
+thunder and leaps clear wrapped in the dragon-banner as Gai Jiayun's relief
+arrives. Back in the present (dateline "天宝三载元月十五日，子正," lines 101-102
+merged; midnight, beneath the Xingqing Palace), Zhang realizes the hunted "Long
+Bo" IS Xiao Gui, his old comrade. Xiao Gui tells how a corrupt Guangwu county-aide
+destroyed his family, how he became a fugitive and then leader of the Pifu — the
+embittered veterans the Tang used up and betrayed — and that his target is only
+the Taishang Xuanyuan Lantern-Tower and the court feasting beside it. Zhang, with
+no reason left to refuse, "joins," and passes Xiao Gui's loyalty test by seeming
+to shoot Li Bi (a headless test-bolt). The chapter ends on the Tangyun rhyme-code
+Zhang plants in his mock-Daoist jibe — 三、十一、八、四、五、十八 → 不退, "No
+retreat" — and Li Bi's escape via the iron file hidden in the returned waist-tablet.
+
+Checks run and results:
+- check_structure --pairs data/zh/ch15.txt out/ch15_reading.md: parity EQUAL,
+  321 | 321, OK.
+- check_numbers out/ch15_bilingual.md --noise noise.txt: 0 unresolved (321 pairs).
+  Seven initial flags resolved. FIVE were non-quantity numerals, noised (recorded
+  in noise.txt): 四下 ("all around," a 四X all-directions idiom); 千古 in 千古未有
+  ("through the ages," intensifier not 1000); 涕零 in 感激涕零 (零 = "tears fall,"
+  read as 0 by cn_to_int); 五脏六腑 (the organs idiom, 5/6 conventional). TWO were
+  REAL quantities fixed in the ENGLISH, not noised: the charcoal "一千多斤" needed
+  "a thousand" adjacent for the checker ("a good thousand" -> "a thousand jin and
+  more"), and "一两百骑" (cn_to_int reads 一两百 as 200) was rendered "a hundred or
+  two hundred more riders" to carry the value. Also the Tangyun-cipher decode line
+  was reworded from ordinals to cardinals ("rhyme eleven... place eighteen") so the
+  checker's number parser catches 11 and 18 (ordinals "eleventh/eighteenth" are not
+  in WORD_NUM; the cardinal display line already passed). No real number dropped.
+- Verbatim-quote check (mechanical): all 321 bilingual '>' source lines are exact
+  whitespace-insensitive substrings of data/src/32_text00031.txt (correctly
+  covering the three merged pairs) — 321/321, 0 non-verbatim. Source quoted
+  verbatim and in full.
+- Blind double-translation (separate context) of a literary/argumentative sample
+  (Xiao Gui's "一百个、五百个人...病入膏肓" manifesto, source line 136): independent
+  rendering matched mine in meaning with zero divergence — all of 1/5/100/500
+  present, 病入膏肓 = "sick beyond all cure," 根子已经烂了 / 火和血 / 让所有人警醒
+  all carried. 0 errors.
+- Round-trip back-translation (separate context) of a number-dense sample (the
+  old-charcoal-seller paragraph, source line 166): back-translation reproduced
+  every detail and every quantity — 半匹红纱、一丈绫、一车、一千多斤 all intact, plus
+  南山, 雪白如银, 火力十足, 民心所向. 0 omissions.
+- Sample deep-audit error rate: 0 errors across the two samples (~4% of the
+  chapter).
+- qa_epub: PASS, 38 files, 32 documents, 55 note references / 55 bodies / 55
+  backlinks, all links resolve. 15 of 26 chapters translated.
+
+Notable renderings/decisions:
+- TWO source time-glosses this chapter (one per dateline): source line 324 glosses
+  午时 (noon) and line 326 glosses 子正 — both rendered as the source's own italic
+  notes, under the standing prefix "*[The source appends a note on the hour to each
+  chapter...]*," each labeling which dateline it belongs to. The 子 gloss is
+  word-for-word the same as ch14's and was rendered identically. No authorial slip
+  in either gloss.
+- The recurring flash-forward vignette (source lines 2-4 = the first two sentences
+  of line 144) was translated identically in both places, per the ch04-ch14
+  precedent for recurring vignettes.
+- Xiao Gui (萧规) is decided as the true name of Long Bo (龙波); the reveal is not
+  allowed to rewrite Long Bo's pre-reveal glossary note (the ledger records the
+  state of knowledge). The lantern-tower's central 天枢 pillar reuses "the Tianshu"
+  (established ch14 for the Luoyang monument, also cast by Mao's line), contextually
+  the sky-axis; 天枢层 = "the Tianshu tier."
+- Scene shifts (the beacon-fort flashback / the underground revelation / the Yuan
+  Zai interlude deciding to march on the Xingqing Palace / the lantern-tower ascent
+  / Li Bi's escape) are divided in the source by decorative rules (Image00005.jpg);
+  per house style each is a plain paragraph break, no separator glyph. No content
+  illustration in the chapter, so figures.json is unchanged.
+- Office/title renderings kept consistent: 李司丞 = "Deputy Director Li," 都尉 =
+  "Commander," 李郎君 = "young Master Li" (the address that marks Zhang renouncing
+  his Jing'an post), 盖都护 = "Protector Gai," 校尉 = "commandant," 火师 =
+  "fire-master." 玄观 = "Mystic Abbey" (reused from ch14).
+- 3 footnotes added (notes.json ch15, continuous total now 55): the old
+  charcoal-seller (Bai Juyi's ballad 卖炭翁 and the 宫市 palace-purchase abuse,
+  corroborated — Ma Boyong quotes 千余斤 and 半匹红纱一丈绫 near-verbatim); "pinning
+  on the dogwood" (茱萸, the Double Ninth custom inverted into Western-Regions army
+  slang for drawing blood); and "a pledge of blood-guilt" (投名状, the Water Margin
+  term for a killing that cuts off any return). glossary.json grown by 26 rows
+  (people: Xiao Gui, Zhao Xiao, Zhao Li, Duke Li of Wei, the Sage Confucius, Laozi;
+  places: the Protectorate of Anxi, Guangwu, Lingwu, Lanzhou, the Yin Mountains,
+  Hedong, Jiannan, Shayan, the Southern Mountains; orgs: the Ministry of War, the
+  Assault-Resisting Garrison; terms: the Eighth Company, Mystic Abbey, ring-pommeled
+  saber, the Three Pure Ones, the Eleven Luminaries, the Eight Trigrams, the Four
+  Peaks and Five Marchmounts, rue-incense, Xinfeng wine, Tangdi, Flying Cavalry
+  Commandant). Reused decided forms verbatim (Zhang Xiaojing, Li Bi, Long Bo,
+  Wen Wuji, Wen Ran, Yuchang, Yuan Zai, Gai Jiayun, Türgesh, Mao Shun, the Pifu,
+  the Shouzhuolang, the Lüben Guards, the Longwu Army, Kucha, Balhuan, the
+  beacon-fort, garrison-town, the Xingqing/Qinzheng Wuben Tower, the Longshou Canal,
+  the Taishang Xuanyuan Grand Lantern-Tower, the qilin-arm, fierce-fire thunder,
+  rock-oil, the Que-le Huo-duo, the Tianshu, the Five Yamas, the Tang Rhymes, etc.).

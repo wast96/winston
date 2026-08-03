@@ -589,6 +589,42 @@
       "pinyin": "Dòu Tàihòu",
       "status": "attested",
       "note": "The Zhaocheng Empress Dowager, n&#233;e Dou, Xuanzong's mother; praying for her blessing was the pretext under which Yang Yuhuan was made a Daoist nun. Historical."
+    },
+    "萧规": {
+      "en": "Xiao Gui",
+      "pinyin": "Xiāo Guī",
+      "status": "decided",
+      "note": "The true name of Long Bo (see 龙波): once an archer of the Eighth Company at the beacon-fort, comrade of Zhang Xiaojing and Wen Wuji. After a corrupt county-aide destroyed his family he turned outlaw, and became the mastermind who plans the destruction of the lantern-tower under the alias Long Bo. Pinyin."
+    },
+    "赵孝": {
+      "en": "Zhao Xiao",
+      "pinyin": "Zhào Xiào",
+      "status": "attested",
+      "note": "One of a pair of Later Han brothers (with 赵礼 Zhao Li) proverbial for fraternal love, each offering himself to bandits to spare the other; a lantern-figure in the &#8216;Tangdi&#8217; chamber. Recorded in the <i>Hou Han shu</i>."
+    },
+    "赵礼": {
+      "en": "Zhao Li",
+      "pinyin": "Zhào Lǐ",
+      "status": "attested",
+      "note": "Brother of Zhao Xiao (see 赵孝); a lantern-figure in the &#8216;Tangdi&#8217; chamber of brotherly love."
+    },
+    "李卫公": {
+      "en": "Duke Li of Wei",
+      "pinyin": "Lǐ Wèi Gōng",
+      "status": "attested",
+      "note": "Li Jing (571&#8211;649), enfeoffed Duke of Wei, the foremost general of the early Tang; his 630 campaign that crushed the Eastern Türks in the Yin Mountains is the subject of a lantern-chamber. Title plus pinyin."
+    },
+    "孔圣": {
+      "en": "the Sage Confucius",
+      "pinyin": "Kǒng Shèng",
+      "status": "attested",
+      "note": "Confucius (551&#8211;479 BCE), &#8216;the Sage&#8217; 孔圣; shown in a lantern-chamber questioning Laozi, to figure the way of civil governance."
+    },
+    "老子": {
+      "en": "Laozi",
+      "pinyin": "Lǎozǐ",
+      "status": "attested",
+      "note": "The sage Laozi, = Lao Dan (see 老聃); honored 太上玄元 by the Tang house. Pinyin."
     }
   },
   "organizations": {
@@ -741,6 +777,18 @@
       "pinyin": "Lóngwǔ Jūn",
       "status": "attested",
       "note": "The Militant Dragon Army, one of the Tang northern (palace) armies most trusted by the emperor; here charged with the outer cordon of the Xingqing Palace. Rendered 'the Longwu Army' (pinyin), as with the Jinwu Guard."
+    },
+    "兵部": {
+      "en": "the Ministry of War",
+      "pinyin": "Bīngbù",
+      "status": "attested",
+      "note": "One of the Six Ministries; here it runs the selection of foot-archers that gives Zhang Xiaojing his Chang&#8217;an post. Rendering per Hucker."
+    },
+    "折冲府": {
+      "en": "the Assault-Resisting Garrison",
+      "pinyin": "Zhéchōngfǔ",
+      "status": "attested",
+      "note": "The local headquarters of the Tang <i>fubing</i> militia system; some of Xiao Gui&#8217;s veterans come from these. Rendering per Hucker."
     }
   },
   "places": {
@@ -1655,6 +1703,48 @@
       "pinyin": "Tōngyáng Mén",
       "status": "decided",
       "note": "One of the gates below the Qinzheng Wuben Tower, held by the Longwu Army on the festival night."
+    },
+    "安西都护府": {
+      "en": "the Protectorate of Anxi",
+      "pinyin": "Ānxī Dūhùfǔ",
+      "status": "attested",
+      "note": "The Tang Protectorate-General of Anxi, governing the Western Regions from its seat at Kucha; 都护府 rendered &#8216;the Protectorate&#8217; per Hucker."
+    },
+    "广武": {
+      "en": "Guangwu",
+      "pinyin": "Guǎngwǔ",
+      "status": "attested",
+      "note": "A Tang county in the Lanzhou region (near modern Yongdeng, Gansu); Xiao Gui&#8217;s sister&#8217;s home, where his family was destroyed. Pinyin."
+    },
+    "灵武": {
+      "en": "Lingwu",
+      "pinyin": "Língwǔ",
+      "status": "attested",
+      "note": "A frontier town in the Guannei region (modern Lingwu, Ningxia); Xiao Gui and Yuchang shelter in a garrison-town nearby. Pinyin."
+    },
+    "兰州": {
+      "en": "Lanzhou",
+      "pinyin": "Lánzhōu",
+      "status": "attested",
+      "note": "Prefecture and Area Command on the upper Yellow River (modern Lanzhou, Gansu). Pinyin."
+    },
+    "阴山": {
+      "en": "the Yin Mountains",
+      "pinyin": "Yīnshān",
+      "status": "attested",
+      "note": "The Yinshan range across the northern steppe frontier, where Li Jing broke the Eastern Türks in 630. Rendered &#8216;the Yin Mountains.&#8217;"
+    },
+    "沙雁": {
+      "en": "Shayan",
+      "pinyin": "Shāyàn",
+      "status": "provisional",
+      "note": "A place named in the flashback as lying behind the beacon-fort, between it and Balhuan/Kucha; not securely identified. Provisional pinyin."
+    },
+    "南山": {
+      "en": "the Southern Mountains",
+      "pinyin": "Nánshān",
+      "status": "decided",
+      "note": "The Zhongnan range 终南山 south of Chang&#8217;an; the home of the old charcoal-seller, as in Bai Juyi&#8217;s ballad. Rendered &#8216;the Southern Mountains.&#8217;"
     }
   },
   "terms": {
@@ -2593,6 +2683,72 @@
       "pinyin": "zhújí",
       "status": "decided",
       "note": "The craftsman's identity permit written on bamboo strips (name, appearance, native place, master-lineage, ward and shop, authorizations, with an officer's countersignature), required to approach the lantern-tower; cf. 匠牒, 'craftsman's warrant.'"
+    },
+    "第八团": {
+      "en": "the Eighth Company",
+      "pinyin": "dì-bā tuán",
+      "status": "decided",
+      "note": "The 第八都护团, a garrison company of the Protectorate, three hundred strong at full muster, wiped out but for three men at the beacon-fort. Rendered &#8216;the Eighth Company.&#8217;"
+    },
+    "玄观": {
+      "en": "Mystic Abbey",
+      "pinyin": "xuánguàn",
+      "status": "decided",
+      "note": "A Daoist abbey (guan); here the broad brick-and-stone base built up under the lantern-tower. Rendered &#8216;Mystic Abbey&#8217; (first used ch14)."
+    },
+    "环首刀": {
+      "en": "ring-pommeled saber",
+      "pinyin": "huánshǒudāo",
+      "status": "decided",
+      "note": "The straight, ring-pommeled single-edged saber of the Han&#8211;Tang armies. Rendered &#8216;ring-pommeled saber.&#8217;"
+    },
+    "三清": {
+      "en": "the Three Pure Ones",
+      "pinyin": "Sānqīng",
+      "status": "attested",
+      "note": "The three highest Daoist deities. Rendered &#8216;the Three Pure Ones.&#8217;"
+    },
+    "十一曜": {
+      "en": "the Eleven Luminaries",
+      "pinyin": "shíyī yào",
+      "status": "attested",
+      "note": "The eleven heavenly bodies of Tang astrology (sun, moon, five planets, and the four calculated points Rahu, Ketu, and the rest). Rendered &#8216;the Eleven Luminaries.&#8217;"
+    },
+    "八卦": {
+      "en": "the Eight Trigrams",
+      "pinyin": "bāguà",
+      "status": "attested",
+      "note": "The eight trigrams of the <i>Yijing</i>, used here both to set out the tripods and for divination. Rendered &#8216;the Eight Trigrams.&#8217;"
+    },
+    "四山五岳": {
+      "en": "the Four Peaks and Five Marchmounts",
+      "pinyin": "sìshān wǔyuè",
+      "status": "decided",
+      "note": "The four sacred Buddhist mountains and the five sacred marchmounts of China. Rendered &#8216;the Four Peaks and the Five Marchmounts.&#8217;"
+    },
+    "芸香": {
+      "en": "rue-incense",
+      "pinyin": "yúnxiāng",
+      "status": "decided",
+      "note": "Rue (<i>Ruta</i>), long used to protect books and to scent; the hereditary craft of the Wen family. Rendered &#8216;rue-incense.&#8217;"
+    },
+    "新丰酒": {
+      "en": "Xinfeng wine",
+      "pinyin": "Xīnfēng jiǔ",
+      "status": "attested",
+      "note": "The celebrated wine of Xinfeng, east of Chang&#8217;an, praised in Tang verse. Rendered &#8216;Xinfeng wine.&#8217;"
+    },
+    "棠棣": {
+      "en": "Tangdi",
+      "pinyin": "tángdì",
+      "status": "decided",
+      "note": "The name of a lantern-chamber, from the <i>Shijing</i> ode 常棣/棠棣 on brotherhood; the theme is fraternal love. Kept as pinyin, glossed in text."
+    },
+    "飞骑尉": {
+      "en": "Flying Cavalry Commandant",
+      "pinyin": "fēijìwèi",
+      "status": "attested",
+      "note": "A Tang prestige-title (<i>xun</i> merit rank) awarded for service; Zhang Xiaojing&#8217;s carries him into a Ministry-of-War post. Rendering per Hucker."
     }
   }
 }
