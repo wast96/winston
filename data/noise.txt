@@ -220,3 +220,13 @@
 # 五分属(江户) in the Japanese verse 此景五分属江户 ("half this scene belongs to Edo");
 # 五分 = "half / five parts in ten", figurative, not the count 5
 五分属
+# ---- B13 (ch34-35) additions ----
+# 百川丛惠子 = Momokawa Keiko, the false Amah's Japanese name; 百 is part of the
+# surname 百川 (Momokawa), not the count 100
+百川丛惠子
+# 五金 in 五金商行 ("hardware shop", lit. "five metals"); 五 lexicalized, not 5
+五金
+# 万物 in 宇宙万物 / 万物复苏 ("all things / all creation"); 万 = "myriad", not 10000
+万物
+# 万念俱灰 ("every hope turned to ash"); 万 = "myriad", idiom, not 10000
+万念俱灰

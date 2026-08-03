@@ -1144,3 +1144,85 @@ Figures: none in this batch.
 Build: out/On a Hair Trigger.epub rebuilt, 34 of 36 units translated, 107 notes.
 qa_epub.py PASS (36 documents, 6560 paragraphs, 107 references = 107 bodies = 107
 backlinks, all links resolve).
+
+## Batch B13 — Chapters 34 to 35 (ch34, ch35) — DONE (FINAL BATCH)
+
+Translated end to end: ch34 (6,568 source chars, 240 paragraphs) and ch35 (8,534
+chars, 284 paragraphs); ~15,102 source chars, 524 paragraphs. This finishes the
+novel: all 36 units (Prologue + 35 chapters) are now translated and built. One
+bilingual QC file per unit, reading text and parity source generated with
+split_bilingual.py. Flat book, one H2 couplet title per chapter; no mid-sentence
+paragraph splits occurred (source paragraphs are sentence-complete).
+
+Authoring flow: wrote out/<id>_en.txt (one English paragraph per source
+paragraph), assembled the bilingual with make_bilingual.py (verbatim `>` source
+lines), then split_bilingual.py. Not one source line hand-typed. No pirate-site
+watermark line in either chapter.
+
+Checks run and what they found:
+- Check 1, faithful verbatim quotation: data/zh/ch34.txt and data/zh/ch35.txt
+  diffed line-for-line against the raw source paragraphs (data/src, minus the two
+  metadata lines). ZERO content diffs (only the source files' missing final
+  newline). Every source paragraph quoted verbatim, none dropped or merged.
+- Check 4, automated invariants:
+  * check_structure.py parity OK for both (240/240, 284/284).
+  * check_numbers.py --noise data/noise.txt: 0 unresolved for both. Real
+    counts were rendered so their digits survive; a few flags were genuine
+    counts fixed in the prose rather than noised: 三人 -> "the three of them"
+    (ch35), 百感交集 rendered "a hundred feelings" (not "a thousand"; the first
+    draft's "thousand" was the one genuine content slip, caught mechanically by
+    check_numbers and corrected), and the closing dates rewritten with Arabic
+    day numbers (August 13 / August 14 / September 22 / November 12) because
+    WORD_NUM does not know thirteenth/fourteenth/twenty-second/twelfth.
+  * noise.txt additions (4, all non-quantity numerals): 百川丛惠子 (百 in the
+    Japanese surname Momokawa, not 100), 五金 (五金商行 "hardware," not 5), 万物
+    (宇宙万物 / 万物复苏 "all things," 万 = myriad), 万念俱灰 (idiom, 万 = myriad).
+- Checks 2/3, blind double translation + round-trip back-translation on the
+  argumentative/lyrical passages (Keiko's 1909 confession, A-Chu's hypnotic
+  dream, the 上邪 love-oath, the father-son bomb confrontation, the linked-verse
+  coda, the 1937 broadcast): no divergence of sense and no omission surfaced.
+- Check 5, term ledger: existing renderings reused throughout (A-Chu/A-Ci/Muci,
+  Yang Yuhua/Yubo, He Yashu, Xia Yuechun, Du Luning, Yu Xiaojiang, Gao Lei, Han
+  Zhengqi/Han Yu, Young Tang, Huang Sanyuan, Koyama Eiko/Chino, Rong Sheng/
+  Rong'er, the Fourth Madam Yang Mulian, Rongrong/Ronghua, the Land Survey
+  Department, the Imperial Flower, Plum Blossom Lane, the Park Hotel, and so on).
+- Check 8, deep paranoid audit: ~14 paragraphs (~2.7%) given the full
+  verbatim/double/back-translation treatment (ch34 pairs 10, 39, 46, 104, 200,
+  238; ch35 pairs 16, 19, 44, 74, 107, 225, 246, 283). No residual omission or
+  mistranslation; observed error rate ~0% post-correction.
+
+Notes added: 7 (builder numbers #108 to #114 in reading order).
+- ch34 (3): 反客为主 = Stratagem No. 30 of the Thirty-Six Stratagems (three十六计),
+  anchored "turned the guest into the host" (corroborated); Momokawa Keiko
+  (百川丛惠子) provisional Japanese reading, anchored "Momokawa Keiko"; the
+  陆地测量部 / Land Survey Department of the IJA General Staff, a real 1888-1945
+  mapping body (corroborated), anchored "the Land Survey Department of the Army
+  General Staff."
+- ch35 (4): the title 一举锄奸雁归行 as the author's own pastiche + the 雁行
+  (geese-in-formation = brothers) image, anchored "Brothers are like geese in
+  flight"; the closing 1937 broadcast as a real National Government / Chiang
+  Kai-shek wartime statement issued around the fall of Shanghai in November 1937
+  (corroborated; exact document/date given variously), anchored "an order given
+  at dawn is answered by dusk"; the sons' names 爱中/爱华 = "love China" (爱中华),
+  anchored "Aizhong and Aihua"; the linked verse 愿君怜取眼前人 echoing Yan Shu's
+  (晏殊) Huanxi sha, anchored "May you cherish the one before your eyes."
+- Recurring refs cross-referenced, not re-noted: 上邪 (noted ch33), the Nine
+  Springs / 九泉 (noise), the Imperial Flower and Xu Yuzhen (earlier).
+
+Glossary rows added (9): people 百川丛惠子 (Momokawa Keiko, provisional), 爱中
+(Aizhong), 爱华 (Aihua); orgs 东方杂志 (the Eastern Miscellany, attested), 申报 (the
+Shen Bao, attested), 明风矿厂 (the Mingfeng Mine), 荣氏药业公司 (the Rong
+Pharmaceutical Company); places 芸香阁 (the Yunxiang Pavilion, provisional); terms
+木符 (wooden charm). Twin/identity handling: bare 阿次 in narration rendered
+"Muci," in address "A-Ci," per the established convention; no name-slip in either
+chapter to footnote.
+
+Translator's note: updated its middle sentence in book.json for the finished book
+(the chapter titles are now rendered and their sources set out in the notes,
+rather than "will be finalized ... as each chapter is translated").
+
+Figures: none.
+
+Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 114 notes.
+qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 114 references = 114
+bodies = 114 backlinks, all links resolve).

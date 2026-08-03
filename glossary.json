@@ -1,1595 +1,1649 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
-  "people": {
-    "荣家": {
-      "en": "the Rong family",
-      "pinyin": "Rong jia",
-      "status": "decided",
-      "note": "The Shanghai medicine-trade house at the centre of the novel; Bannermen (旗人)."
-    },
-    "荣老爷": {
-      "en": "Master Rong",
-      "pinyin": "Rong laoye",
-      "status": "decided",
-      "note": "Head of the household; takes four wives in turn."
-    },
-    "荣老太太": {
-      "en": "Old Madam Rong",
-      "pinyin": "Rong laotaitai",
-      "status": "decided",
-      "note": "Master Rong's mother."
-    },
-    "瑜儿": {
-      "en": "Yu'er",
-      "pinyin": "Yu'er",
-      "status": "provisional",
-      "note": "A pet name (瑜) used by Old Madam Rong; apparently Master Rong himself."
-    },
-    "大太太": {
-      "en": "First Madam",
-      "pinyin": "da taitai",
-      "status": "decided",
-      "note": "The senior wife (大 = senior); runs the household; mother of Rong Sheng."
-    },
-    "二太太": {
-      "en": "Second Madam",
-      "pinyin": "er taitai",
-      "status": "decided",
-      "note": "A rice-merchant's daughter; mother of Rong Gui; dies in the countryside."
-    },
-    "三太太": {
-      "en": "Third Madam",
-      "pinyin": "san taitai",
-      "status": "decided",
-      "note": "A tailor's daughter; mother of the twin daughters."
-    },
-    "四太太": {
-      "en": "Fourth Madam",
-      "pinyin": "si taitai",
-      "status": "decided",
-      "note": "The bride Jinlian; A-Chu's adoptive mother."
-    },
-    "金莲": {
-      "en": "Jinlian",
-      "pinyin": "Jinlian",
-      "status": "decided",
-      "note": "'Golden Lotus'; the fourth wife. See the note at Chapter 1."
-    },
-    "荣升": {
-      "en": "Rong Sheng",
-      "pinyin": "Rong Sheng",
-      "status": "decided",
-      "note": "Eldest son (升, 'rise'); frail, opium-addicted, widowed."
-    },
-    "荣归": {
-      "en": "Rong Gui",
-      "pinyin": "Rong Gui",
-      "status": "decided",
-      "note": "Second son (归, 'return'); born in mourning, raised in the country."
-    },
-    "荣初": {
-      "en": "Rong Chu",
-      "pinyin": "Rong Chu",
-      "status": "decided",
-      "note": "'Rong the Beginning' (初); the family's youngest son, and the name at the heart of the book's doubling."
-    },
-    "阿初": {
-      "en": "A-Chu",
-      "pinyin": "A-Chu",
-      "status": "decided",
-      "note": "The foster boy picked up by Fourth Madam, raised as Rong Sheng's study-companion; becomes a physician. 阿 is a familiar prefix."
-    },
-    "荣荣": {
-      "en": "Rongrong",
-      "pinyin": "Rongrong",
-      "status": "decided",
-      "note": "One of the twin daughters of Third Madam."
-    },
-    "荣华": {
-      "en": "Ronghua",
-      "pinyin": "Ronghua",
-      "status": "decided",
-      "note": "The other twin daughter of Third Madam; revealed in Chapter 8 as a CCP Special Branch liaison agent, codename Floating Dust, running the Shanghai–Yan’an wireless link under cover of her Huamei Bookstore."
-    },
-    "江丽水": {
-      "en": "Jiang Lishui",
-      "pinyin": "Jiang Lishui",
-      "status": "decided",
-      "note": "A distant niece of First Madam; often 'Lishui.' Comes to Cardiff to find Rong Sheng."
-    },
-    "丛惠": {
-      "en": "Cong Hui",
-      "pinyin": "Cong Hui",
-      "status": "decided",
-      "note": "A wealthy overseas-Chinese merchant's daughter; A-Chu's classmate and love."
-    },
-    "丛锋": {
-      "en": "Cong Feng",
-      "pinyin": "Cong Feng",
-      "status": "decided",
-      "note": "Cong Hui's elder cousin; a radical."
-    },
-    "夏跃春": {
-      "en": "Xia Yuechun",
-      "pinyin": "Xia Yuechun",
-      "status": "decided",
-      "note": "A student in the Cardiff circle; later a doctor."
-    },
-    "韩禹": {
-      "en": "Han Yu",
-      "pinyin": "Han Yu",
-      "status": "decided",
-      "note": "A student in the Cardiff circle."
-    },
-    "霍尔曼": {
-      "en": "Holman",
-      "pinyin": "Huo'erman",
-      "status": "decided",
-      "note": "Professor Holman, A-Chu's supervisor at the Royal Medical College. English name reconstructed from the transliteration."
-    },
-    "玛丽亚": {
-      "en": "Maria",
-      "pinyin": "Maliya",
-      "status": "decided",
-      "note": "A-Chu's neighbour in Cardiff, whose child he delivers."
-    },
-    "冬儿": {
-      "en": "Dong'er",
-      "pinyin": "Dong'er",
-      "status": "decided",
-      "note": "A young Rong maidservant, present at the kidnapping."
-    },
-    "翠儿": {
-      "en": "Cui'er",
-      "pinyin": "Cui'er",
-      "status": "decided",
-      "note": "A Rong maidservant."
-    },
-    "阿桂": {
-      "en": "A-Gui",
-      "pinyin": "A-Gui",
-      "status": "decided",
-      "note": "Nurse to the twin daughters."
-    },
-    "杨慕次": {
-      "en": "Yang Muci",
-      "pinyin": "Yang Muci",
-      "status": "decided",
-      "note": "Eldest son of the Yang finance family; a secret Communist agent, codename Drifting Wind."
-    },
-    "杨羽柏": {
-      "en": "Yang Yubo",
-      "pinyin": "Yang Yubo",
-      "status": "decided",
-      "note": "A magnate of Shanghai finance; Yang Muci's father."
-    },
-    "杨家": {
-      "en": "the Yang family",
-      "pinyin": "Yang jia",
-      "status": "decided",
-      "note": "The Shanghai finance house of the Prologue's pear-blossom courtyard."
-    },
-    "老余": {
-      "en": "Lao Yu",
-      "pinyin": "Lao Yu",
-      "status": "decided",
-      "note": "A CCP courier (老 = familiar 'Old'); public identity a financial reporter; codename Timely Rain."
-    },
-    "杜旅宁": {
-      "en": "Du Luning",
-      "pinyin": "Du Luning",
-      "status": "decided",
-      "note": "The boat traveller of Chapter 4; revealed in Chapter 5 as Major-General and Chief of the Juntong Intelligence Section, running the secret Special Police training class."
-    },
-    "吴次长": {
-      "en": "Vice-Minister Wu",
-      "pinyin": "Wu cizhang",
-      "status": "decided",
-      "note": "A well-connected household the Rongs telephone about the kidnapping."
-    },
-    "俞晓江": {
-      "en": "Yu Xiaojiang",
-      "pinyin": "Yu Xiaojiang",
-      "status": "decided",
-      "note": "A female major and operative of the Juntong Bureau; Du Luning's aide at the training school and Yang Muci's instructor in ciphers and wireless."
-    },
-    "辛丽丽": {
-      "en": "Xin Lili",
-      "pinyin": "Xin Lili",
-      "status": "decided",
-      "note": "A trainee at the Special Police class, transferred from the Seventh Branch School; first met by Yang Muci at registration."
-    },
-    "郭字琼": {
-      "en": "Guo Ziqiong",
-      "pinyin": "Guo Ziqiong",
-      "status": "decided",
-      "note": "A trainee recruited from the telecommunications school; He Yashan's lover, killed attempting to flee the school."
-    },
-    "和雅姗": {
-      "en": "He Yashan",
-      "pinyin": "He Yashan",
-      "status": "decided",
-      "note": "'He Gege,' of fallen-Qing descent; pregnant and in flight from an arranged marriage, she dies with Guo Ziqiong. See the note at Chapter 6."
-    },
-    "和雅淑": {
-      "en": "He Yashu",
-      "pinyin": "He Yashu",
-      "status": "decided",
-      "note": "He Yashan's younger sister; the girl who faints at the Shanghai harbour and is taken to hospital by Rong Sheng."
-    },
-    "杏儿": {
-      "en": "Xing'er",
-      "pinyin": "Xing'er",
-      "status": "decided",
-      "note": "Third Madam's clever maidservant; sweet on A-Chu."
-    },
-    "蝉儿": {
-      "en": "Chan'er",
-      "pinyin": "Chan'er",
-      "status": "decided",
-      "note": "A Rong household maidservant."
-    },
-    "阿福": {
-      "en": "A-Fu",
-      "pinyin": "A-Fu",
-      "status": "decided",
-      "note": "The Rong family's driver; a round, portly, devoted man."
-    },
-    "二少奶奶": {
-      "en": "the second young mistress",
-      "pinyin": "er shaonainai",
-      "status": "decided",
-      "note": "Rong Gui's wife, expecting a child in the countryside."
-    },
-    "戴局长": {
-      "en": "Director Dai",
-      "pinyin": "Dai juzhang",
-      "status": "attested",
-      "note": "Dai Li (戴笠), head of the Nationalists' military intelligence. See the note at Chapter 5."
-    },
-    "杨思桐": {
-      "en": "Yang Sitong",
-      "pinyin": "Yang Sitong",
-      "status": "decided",
-      "note": "Yang Yubo’s daughter; the young lady whose birthday ball opens Chapter 8. Yang Muci’s sister."
-    },
-    "汤少棋": {
-      "en": "Tang Shaoqi",
-      "pinyin": "Tang Shaoqi",
-      "status": "decided",
-      "note": "A young lady of Yang Sitong’s set; Tang Shaoli’s younger sister."
-    },
-    "汤少礼": {
-      "en": "Tang Shaoli",
-      "pinyin": "Tang Shaoli",
-      "status": "decided",
-      "note": "A dissolute dandy of fallen fortune who scrapes by on a few antique shops; once betrothed to He Yashan, then to He Yashu, and jilted by both. Styles himself the ‘Gallant of the Crimson Bower.’"
-    },
-    "杨太太": {
-      "en": "Madam Yang",
-      "pinyin": "Yang taitai",
-      "status": "decided",
-      "note": "Yang Yubo’s wife; personal name Yingzi. In black mourning she keeps a shrine to her dead infant son, Yang Muchu."
-    },
-    "英子": {
-      "en": "Yingzi",
-      "pinyin": "Yingzi",
-      "status": "decided",
-      "note": "Madam Yang’s given name, used by Yang Yubo."
-    },
-    "杨慕初": {
-      "en": "Yang Muchu",
-      "pinyin": "Yang Muchu",
-      "status": "decided",
-      "note": "The Yang son enshrined as dead; his spirit-tablet reads 杨慕初之灵位. The name 慕初 (初, ‘the beginning’) pairs with his brother 杨慕次 Yang Muci, and its echo of 荣初/阿初 marks him, by the chapter’s insinuation, as the child secretly alive."
-    },
-    "阿次": {
-      "en": "A-Ci",
-      "pinyin": "A-Ci",
-      "status": "decided",
-      "note": "Familiar form of Yang Muci; the name the delirious Lao Yu calls A-Chu, mistaking one twin’s face for the other."
-    },
-    "红儿": {
-      "en": "Hong’er",
-      "pinyin": "Hong'er",
-      "status": "decided",
-      "note": "Fourth Madam’s personal maid."
-    },
-    "云儿": {
-      "en": "Yun’er",
-      "pinyin": "Yun'er",
-      "status": "decided",
-      "note": "A young Rong maidservant at the Liyun Pavilion."
-    },
-    "和家": {
-      "en": "the He family",
-      "pinyin": "He jia",
-      "status": "decided",
-      "note": "A fallen Manchu house of imperial descent; the two daughters are He Yashan and He Yashu."
-    },
-    "汤家": {
-      "en": "the Tang family",
-      "pinyin": "Tang jia",
-      "status": "decided",
-      "note": "The house of Tang Shaoli and Tang Shaoqi; would-be in-laws of the He family."
-    },
-    "杨慕莲": {
-      "en": "Yang Mulian",
-      "pinyin": "Yang Mulian",
-      "status": "decided",
-      "note": "Fourth Madam's true name, revealed in Chapter 13: elder sister of the twins Yang Muchu (A-Chu) and Yang Muci, and the architect of the twenty-year revenge. She married into the Rong house under a false identity to raise A-Chu in safety."
-    },
-    "杨羽桦": {
-      "en": "Yang Yuhua",
-      "pinyin": "Yang Yuhua",
-      "status": "decided",
-      "note": "The Yang family's second master (杨家二老爷), a concubine's son schooled in Japan; murders his elder brother Yang Yubo and, being alike in looks, takes over his identity, wealth and wife. The man now living as 'Yang Yubo' in the novel's present."
-    },
-    "徐玉真": {
-      "en": "Xu Yuzhen",
-      "pinyin": "Xu Yuzhen",
-      "status": "decided",
-      "note": "The eighteen-year-old palace maid bestowed on the elder Yang Yubo as a concubine (the 'aunt-mother'); Yang Yuhua's paramour and accomplice in the murder."
-    },
-    "韩正齐": {
-      "en": "Han Zhengqi",
-      "pinyin": "Han Zhengqi",
-      "status": "decided",
-      "note": "Yang Mulian's lover, a military man and member of the Golden Dragon Society, once a driver in the Yang house; saves her and the infant A-Chu on the night of the murder, then vanishes."
-    },
-    "阿岳": {
-      "en": "A-Yue",
-      "pinyin": "A-Yue",
-      "status": "decided",
-      "note": "Yang Mulian's wet-nurse (嬷嬷), her face ruined in the fire that destroyed the Yang house; she helps raise and hide the infant A-Chu."
-    },
-    "汤少": {
-      "en": "Young Tang",
-      "pinyin": "Tang shao",
-      "status": "decided",
-      "note": "Familiar form of address for the Tang son who spars with A-Chu in Chapters 14&#8211;15. The source names him inconsistently as 汤少礼 (Tang Shaoli) and 汤少棋 (Tang Shaoqi) within the same scene; we keep each verbatim where it stands and render the bare 汤少 as 'Young Tang.'"
-    },
-    "香严閒禅师": {
-      "en": "the Chan master Xiangyan Xian",
-      "pinyin": "Xiangyan Xian chanshi",
-      "status": "attested",
-      "note": "The Tang Chan monk to whom the novel ascribes the waterfall couplet A-Chu quotes in Chapter 15; the poem (瀑布联句) is more commonly attributed to Huangbo Xiyun with the future Emperor Xuanzong, Xiangyan being a competing ascription. See the note at Chapter 15."
-    },
-    "黄三元": {
-      "en": "Huang Sanyuan",
-      "pinyin": "Huang Sanyuan",
-      "status": "decided",
-      "note": "Senior detective of the French Concession police and chief of the Hongmen; a power on both the lawful and the underworld side (\"black and white\") of the Shanghai waterfront. A-Chu swears brotherhood with him."
-    },
-    "土肥原贤二": {
-      "en": "Doihara Kenji",
-      "pinyin": "Tu Feiyuan Xian’er",
-      "status": "attested",
-      "note": "Historical Japanese Army general and spymaster in China (1883–1948); hanged as a Class-A war criminal in 1948. See the note at Chapter 17."
-    },
-    "方致同": {
-      "en": "Fang Zhitong",
-      "pinyin": "Fang Zhitong",
-      "status": "decided",
-      "note": "Secretary of the CCP Central Special Branch; the direct commander of Muci’s mission."
-    },
-    "刘阿四": {
-      "en": "Liu A-Si",
-      "pinyin": "Liu A-Si",
-      "status": "provisional",
-      "note": "One of A-Chu’s men, formerly in Rong Chu’s following; a jianghu tough. (阿四 = \"A-Si,\" a familiar name, not a number.)"
-    },
-    "陆良晨": {
-      "en": "Lu Liangchen",
-      "pinyin": "Lu Liangchen",
-      "status": "provisional",
-      "note": "One of A-Chu’s men, formerly in Rong Chu’s following."
-    },
-    "酒井一郎": {
-      "en": "Sakai Ichirō",
-      "pinyin": "Jiujing Yilang",
-      "status": "decided",
-      "note": "A Japanese among the four men Xu Yuzhen sent to kidnap Han Yu; killed by A-Chu’s men."
-    },
-    "陆羽": {
-      "en": "Lu Yu",
-      "pinyin": "Lu Yu",
-      "status": "attested",
-      "note": "Tang author of the Classic of Tea (茶经), honored as the Sage of Tea. See the note at Chapter 17."
-    },
-    "李沁红": {
-      "en": "Li Qinhong",
-      "pinyin": "Li Qinhong",
-      "status": "decided",
-      "note": "A major of the Second Section (二处) of the Detective Division, Central Shanghai Garrison Command; 'the Flower of Juntong' (军统之花), its star operative, who takes Fang Zhitong on the river boat."
-    },
-    "熊自达": {
-      "en": "Xiong Zida",
-      "pinyin": "Xiong Zida",
-      "status": "decided",
-      "note": "Chief (处长) of the Detective Division of the Central Shanghai Garrison Command; Muci's superior."
-    },
-    "高磊": {
-      "en": "Gao Lei",
-      "pinyin": "Gao Lei",
-      "status": "decided",
-      "note": "A captain (高队长, Captain Gao) in the Detective Division; Muci's colleague."
-    },
-    "明参谋": {
-      "en": "Staff Officer Ming",
-      "pinyin": "Ming canmou",
-      "status": "decided",
-      "note": "A staff officer of the Second Section of the Detective Division; Muci's colleague."
-    },
-    "向": {
-      "en": "Xiang",
-      "pinyin": "Xiang",
-      "status": "decided",
-      "note": "The underground cover-surname of Fang Zhitong (方致同): 老向 Old Xiang, 向先生 Mr. Xiang, 向书记 Secretary Xiang. See Chapter 21 footnote."
-    },
-    "岳嬷嬷": {
-      "en": "Amah A-Yue",
-      "pinyin": "Yue mama",
-      "status": "decided",
-      "note": "The 嬷嬷 (amah/nurse) form of 阿岳 (A-Yue), Yang Mulian's wet-nurse, her face burned in the fire; she keeps house for A-Chu. Same referent as 阿岳; rendered 'Amah A-Yue' when named."
-    },
-    "荣儿": {
-      "en": "Rong'er",
-      "pinyin": "Rong'er",
-      "status": "decided",
-      "note": "Affectionate diminutive of 荣初 (Rong Chu), used by A-Chu and Amah A-Yue."
-    },
-    "初儿": {
-      "en": "Chu'er",
-      "pinyin": "Chu'er",
-      "status": "decided",
-      "note": "Diminutive of the dead twin 杨慕初; the name his mother cries out. Rendered 'Chu'er' to keep it distinct from the living A-Chu (阿初)."
-    },
-    "小吴": {
-      "en": "Little Wu",
-      "pinyin": "Xiao Wu",
-      "status": "decided",
-      "note": "Muci's orderly (勤务兵) at the Central Shanghai Commandant's Office."
-    },
-    "焦同顺": {
-      "en": "Jiao Tongshun",
-      "pinyin": "Jiao Tongshun",
-      "status": "provisional",
-      "note": "Head of the decryption group of the Detective Division's Second Section."
-    },
-    "徐诚": {
-      "en": "Xu Cheng",
-      "pinyin": "Xu Cheng",
-      "status": "provisional",
-      "note": "Head of the intelligence group of the Detective Division's Second Section."
-    },
-    "刘云": {
-      "en": "Liu Yun",
-      "pinyin": "Liu Yun",
-      "status": "decided",
-      "note": "Major Liu Yun, an adjutant of the Detective Division; addressed throughout as Adjutant Liu (刘副官)."
-    },
-    "陆阿贞": {
-      "en": "Lu A-Zhen",
-      "pinyin": "Lu A-Zhen",
-      "status": "provisional",
-      "note": "Fang Zhitong's woman; shot dead by Li Qinhong at Chapter 22."
-    },
-    "顾顺章": {
-      "en": "Gu Shunzhang",
-      "pinyin": "Gu Shunzhang",
-      "status": "attested",
-      "note": "Historical CCP Special Branch security / Red Squad chief who defected in 1931. See the note at Chapter 22."
-    },
-    "伍豪": {
-      "en": "Wu Hao",
-      "pinyin": "Wu Hao",
-      "status": "attested",
-      "note": "A documented alias of Zhou Enlai (周恩来), directing the Special Branch in Shanghai. See the note at Chapter 22."
-    },
-    "向成发": {
-      "en": "Xiang Chengfa",
-      "pinyin": "Xiang Chengfa",
-      "status": "decided",
-      "note": "Fang Zhitong's full underground cover name (cover-surname 向 Xiang; see the note at Chapter 21). The Detective Division uses both names for the one man."
-    },
-    "钟云迪": {
-      "en": "Zhong Yundi",
-      "pinyin": "Zhong Yundi",
-      "status": "provisional",
-      "note": "Deputy leader of the CCP Central Special Branch's Red Spear Squad; conducts the interviews that flush out the mole (Chapter 26)."
-    },
-    "田秀芸": {
-      "en": "Tian Xiuyun",
-      "pinyin": "Tian Xiuyun",
-      "status": "provisional",
-      "note": "A woman courier of the Special Branch, cover as a cigarette-seller; her alias is Bai Yun (白云), and an old recantation exposes her as a 1927 defector (Chapter 26)."
-    },
-    "白云": {
-      "en": "Bai Yun",
-      "pinyin": "Bai Yun",
-      "status": "provisional",
-      "note": "The alias of Tian Xiuyun (田秀芸); a Communist woman who recanted in 1927. The chapter title 白云可杀不可留 puns on the name. See the note at Chapter 26."
-    },
-    "阿春": {
-      "en": "A-Chun",
-      "pinyin": "A-Chun",
-      "status": "provisional",
-      "note": "Tian Xiuyun's husband; ostensibly a Special Branch peripheral (a police runner) who bails out arrested comrades, but exposed as the Juntong mole 'the Rivet' (Chapter 26)."
-    },
-    "小山缨子": {
-      "en": "Koyama Eiko",
-      "pinyin": "Koyama Eiko (Xiaoshan Yingzi)",
-      "status": "provisional",
-      "note": "The Japanese intelligence agent who lives in the Yang house as the false 徐玉真/Xu Yuzhen and radios under the call-sign the Imperial Flower; her real name is disclosed at Chapter 29. Reading of 缨子 as &#8216;Eiko&#8217; is a provisional romanization."
-    },
-    "汪精卫": {
-      "en": "Wang Jingwei",
-      "pinyin": "Wang Jingwei",
-      "status": "attested",
-      "note": "Senior Nationalist leader; the slogan 曲线救亡 (&#8216;salvation by a roundabout path&#8217;) attaches to him, and he headed a Japanese-sponsored government at Nanjing in 1940. Named at Chapter 29 (footnoted)."
-    },
-    "毛泽东": {
-      "en": "Mao Zedong",
-      "pinyin": "Mao Zedong",
-      "status": "attested",
-      "note": "CCP leader; named at Chapter 29 as the author of a newspaper article."
-    },
-    "明堂": {
-      "en": "Ming Tang",
-      "pinyin": "Ming Tang",
-      "status": "decided",
-      "note": "Head of the Ming enterprises (mining), thirty-eight, one of those in charge of the Shanghai Stock Exchange; go-between and buyer's broker for the ruin of the Yang enterprises."
-    },
-    "小山千野": {
-      "en": "Koyama Chino",
-      "pinyin": "Koyama Chino",
-      "status": "provisional",
-      "note": "Koyama Eiko's elder sibling and handler, a senior Japanese Army General Staff intelligence officer who cultivated her and unearthed Yang Yuhua; the source assigns no gendered pronoun, so none is supplied."
-    },
-    "泰利士": {
-      "en": "Thales",
-      "pinyin": "Tailishi",
-      "status": "attested",
-      "note": "Thales of Miletus, the Greek philosopher; invoked via Plato's well anecdote (see the note at Chapter 32)."
-    },
-    "柏拉图": {
-      "en": "Plato",
-      "pinyin": "Bailatu",
-      "status": "attested",
-      "note": "The Greek philosopher; the coded book between Xia Yuechun and A-Chu, source of the Thales anecdote."
-    },
-    "尼采": {
-      "en": "Nietzsche",
-      "pinyin": "Nicai",
-      "status": "attested",
-      "note": "Friedrich Nietzsche; Yang Yuhua quotes the tree-and-roots line from Thus Spoke Zarathustra (see the note at Chapter 32)."
-    },
-    "梁启超": {
-      "en": "Liang Qichao",
-      "pinyin": "Liang Qichao",
-      "status": "attested",
-      "note": "The reformist thinker (1873-1929), credited in the text with On the Distinction of the Three Realms of Civilized and Barbarous (see the note at Chapter 32)."
-    },
-    "明轩": {
-      "en": "Mingxuan",
-      "pinyin": "Mingxuan",
-      "status": "provisional",
-      "note": "The two characters penned on the silk cover of the notebook in the blue book-bag; a studio- or given-name whose bearer is not yet identified."
-    }
+ "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
+ "people": {
+  "荣家": {
+   "en": "the Rong family",
+   "pinyin": "Rong jia",
+   "status": "decided",
+   "note": "The Shanghai medicine-trade house at the centre of the novel; Bannermen (旗人)."
   },
-  "organizations": {
-    "中共": {
-      "en": "the Chinese Communist Party",
-      "pinyin": "Zhonggong",
-      "status": "attested",
-      "note": "Abbreviated CCP."
-    },
-    "特科": {
-      "en": "the Special Branch",
-      "pinyin": "Teke",
-      "status": "attested",
-      "note": "The CCP's clandestine intelligence and security service (中央特科), founded 1927 and active in Shanghai; here Yang Muci's and Lao Yu's organ. See the note at Chapter 4."
-    },
-    "军统": {
-      "en": "Juntong",
-      "pinyin": "Juntong",
-      "status": "attested",
-      "note": "The Kuomintang's Bureau of Investigation and Statistics (secret police). The name is strictly of 1938; its use for 1931 is a mild anachronism. See the note at Chapter 4."
-    },
-    "中央警官学校": {
-      "en": "the Central Police Academy",
-      "pinyin": "Zhongyang Jingguan Xuexiao",
-      "status": "decided",
-      "note": "Whose 'Special Police' training class is the cover for Juntong recruitment in the novel."
-    },
-    "丰汇银行": {
-      "en": "Fenghui Bank",
-      "pinyin": "Fenghui Yinhang",
-      "status": "provisional",
-      "note": "The Yang family bank."
-    },
-    "英国皇家医学院": {
-      "en": "the Royal Medical College",
-      "pinyin": "Yingguo Huangjia Yixueyuan",
-      "status": "decided",
-      "note": "The novel's British medical institution; rendered literally. Britain's actual bodies are the Royal Colleges of Physicians and of Surgeons."
-    },
-    "东京大学": {
-      "en": "Tokyo Imperial University",
-      "pinyin": "Dongjing Daxue",
-      "status": "attested",
-      "note": "Where Yang Muci studied; in the 1931 setting its name was Tokyo Imperial University (东京帝国大学)."
-    },
-    "兰心西餐厅": {
-      "en": "the Lanxin Western Restaurant",
-      "pinyin": "Lanxin Xicanting",
-      "status": "provisional",
-      "note": "兰心 ('orchid heart') is the Chinese name of Shanghai's Lyceum."
-    },
-    "刘记珠宝行": {
-      "en": "the Liu Jewelry House",
-      "pinyin": "Liuji Zhubaohang",
-      "status": "decided",
-      "note": "刘记 = 'Liu's'; the shop from which the Rong child is snatched."
-    },
-    "共产党宣言": {
-      "en": "the Communist Manifesto",
-      "pinyin": "Gongchandang Xuanyan",
-      "status": "attested",
-      "note": "Marx and Engels, 1848. See the note at Chapter 2."
-    },
-    "人权宣言": {
-      "en": "the Declaration of the Rights of Man",
-      "pinyin": "Renquan Xuanyan",
-      "status": "attested",
-      "note": "The French revolutionary declaration of 1789."
-    },
-    "杭州警察学校": {
-      "en": "the Hangzhou Police School",
-      "pinyin": "Hangzhou Jingcha Xuexiao",
-      "status": "decided",
-      "note": "The public front through which recruits are funnelled to the Central Police Academy's Special Police class."
-    },
-    "虹霞女子学校": {
-      "en": "the Hongxia Girls' School",
-      "pinyin": "Hongxia Nuzi Xuexiao",
-      "status": "provisional",
-      "note": "A Shanghai aristocratic girls' school named in the novel (also 虹霞女子贵族学校, the Hongxia Girls' Aristocratic School)."
-    },
-    "圣玛利亚女子学校": {
-      "en": "St. Mary's Girls' School",
-      "pinyin": "Sheng Maliya Nuzi Xuexiao",
-      "status": "attested",
-      "note": "St. Mary's Hall, a real elite girls' school in Republican Shanghai."
-    },
-    "明晨女子学校": {
-      "en": "the Mingchen Girls' School",
-      "pinyin": "Mingchen Nuzi Xuexiao",
-      "status": "provisional",
-      "note": "The Shanghai girls' school Xin Lili names as her own."
-    },
-    "华美书店": {
-      "en": "the Huamei Bookstore",
-      "pinyin": "Huamei Shudian",
-      "status": "decided",
-      "note": "The two-story bookstore run by Ronghua."
-    },
-    "同济医院": {
-      "en": "the Tongji Hospital",
-      "pinyin": "Tongji Yiyuan",
-      "status": "attested",
-      "note": "Where A-Chu takes a post on returning to Shanghai; 同济 is the real Tongji."
-    },
-    "上海白话报": {
-      "en": "the Shanghai Vernacular News",
-      "pinyin": "Shanghai Baihua Bao",
-      "status": "provisional",
-      "note": "A Shanghai newspaper named in the novel."
-    },
-    "妇女先锋": {
-      "en": "the Women's Vanguard",
-      "pinyin": "Funu Xianfeng",
-      "status": "provisional",
-      "note": "A women's magazine whose reporters accost Lishui at the harbour."
-    },
-    "电讯技术": {
-      "en": "Telecommunications Technology",
-      "pinyin": "Dianxun Jishu",
-      "status": "decided",
-      "note": "A trade magazine Muci is sent to fetch at the training school."
-    },
-    "财经新闻报": {
-      "en": "the Financial News",
-      "pinyin": "Caijing Xinwen Bao",
-      "status": "provisional",
-      "note": "A Shanghai financial newspaper; Lao Yu’s public cover and, in its basement, a Special Branch transmitting spot."
-    },
-    "上海警备司令部": {
-      "en": "the Shanghai Garrison Command",
-      "pinyin": "Shanghai Jingbei Silingbu",
-      "status": "attested",
-      "note": "The Nationalist military garrison authority for the city, whose cars close on the newspaper offices minutes too late."
-    },
-    "金龙帮": {
-      "en": "the Golden Dragon Society",
-      "pinyin": "Jinlong Bang",
-      "status": "decided",
-      "note": "Also 金龙帮会; the old-Shanghai secret society led by Yang Mulian's maternal grandfather, wiped out by Japanese in the same season as the Yang murders. Its scattered remnants still answer to A-Chu as the Yang heir."
-    },
-    "第三共产国际": {
-      "en": "the Third Communist International",
-      "pinyin": "Disan Gongchan Guoji",
-      "status": "attested",
-      "note": "The Comintern (共产国际), founded by Lenin in 1919; Cong Feng is said to have joined it in the Soviet Union. See the note at Chapter 12."
-    },
-    "大光明电影院": {
-      "en": "the Grand Theatre",
-      "pinyin": "Daguangming Dianyingyuan",
-      "status": "attested",
-      "note": "大光明 ('great brightness'); a famous Shanghai cinema. Here only a passing reference (the girls touting at its door)."
-    },
-    "万家灯火": {
-      "en": "the Myriad Lamplights",
-      "pinyin": "Wanjia Denghuo",
-      "status": "provisional",
-      "note": "The eating-house where A-Chu stands host to Han Yu and Xia Yuechun; the name is the set phrase for a city aglow with a myriad household lamps."
-    },
-    "上海警察局": {
-      "en": "the Shanghai Police Bureau",
-      "pinyin": "Shanghai jingchaju",
-      "status": "decided",
-      "note": "Han Zhengqi is its deputy chief (副局长); addressed as Chief Han (韩局长)."
-    },
-    "龙华分局": {
-      "en": "the Longhua sub-bureau",
-      "pinyin": "Longhua fenju",
-      "status": "decided",
-      "note": "The Longhua district police sub-bureau of Shanghai, whose chief (an old army friend) brings Han Zhengqi into the police."
-    },
-    "青红帮": {
-      "en": "the Green and Red Gangs",
-      "pinyin": "Qing-Hong bang",
-      "status": "attested",
-      "note": "The Green Gang (青帮) and the Hong/Red Gang (洪帮), the great secret-society brotherhoods of Republican Shanghai; Young Tang names them as A-Chu's likely enemies after the hospital bombing."
-    },
-    "外务部": {
-      "en": "the Ministry of Foreign Affairs",
-      "pinyin": "Waiwubu",
-      "status": "decided",
-      "note": "The government office where A-Chu processes his papers to go abroad."
-    },
-    "东洋公司": {
-      "en": "the Dongyang Company",
-      "pinyin": "Dongyang gongsi",
-      "status": "decided",
-      "note": "A Japanese-owned trading firm, the Yang family bank's longest and closest partner; A-Chu brands the tie treason."
-    },
-    "森林溜冰俱乐部": {
-      "en": "the Forest Skating Club",
-      "pinyin": "Senlin liubing julebu",
-      "status": "decided",
-      "note": "The signature on a coded newspaper notice used to arrange a clandestine meeting."
-    },
-    "上海时事日报": {
-      "en": "the Shanghai Current Affairs Daily",
-      "pinyin": "Shanghai Shishi Ribao",
-      "status": "provisional",
-      "note": "English-language Shanghai daily; its classified/advertisement column carries the CCP contact signals (Drifting Wind, Timely Rain, Mr. Lin Tan)."
-    },
-    "新闻晚报": {
-      "en": "the Evening News",
-      "pinyin": "Xinwen Wanbao",
-      "status": "provisional",
-      "note": "A Shanghai evening paper A-Chu throws down at the dinner table."
-    },
-    "沪中警备司令部": {
-      "en": "the Central Shanghai Garrison Command",
-      "pinyin": "Huzhong jingbei silingbu",
-      "status": "decided",
-      "note": "Yang Muci's cover posting (a major and adjutant in its Detective Division). Distinct rendering from 上海警备司令部, the Shanghai Garrison Command."
-    },
-    "侦缉处": {
-      "en": "the Detective Division",
-      "pinyin": "zhenjichu",
-      "status": "decided",
-      "note": "Investigation/detective branch of the Central Shanghai Garrison Command; Muci's cover unit."
-    },
-    "白玫瑰": {
-      "en": "the White Rose",
-      "pinyin": "Bai Meigui",
-      "status": "decided",
-      "note": "The ballroom where Xin Lili takes a cover post as a dance hostess after graduation."
-    },
-    "玫瑰舞厅": {
-      "en": "the Rose Ballroom",
-      "pinyin": "Meigui wuting",
-      "status": "decided",
-      "note": "A Shanghai ballroom named in a tabloid headline."
-    },
-    "洪门": {
-      "en": "the Hongmen",
-      "pinyin": "Hongmen",
-      "status": "attested",
-      "note": "A historical Chinese secret society and sworn-brotherhood network; here represented on the French Concession side by Huang Sanyuan."
-    },
-    "立洋社": {
-      "en": "the Liyang Society",
-      "pinyin": "Liyang-she",
-      "status": "provisional",
-      "note": "A Japanese intelligence organ in the novel; not attested under this name in the historical record (see note at Chapter 17)."
-    },
-    "东洋学馆": {
-      "en": "the Eastern Institute",
-      "pinyin": "Dongyang Xueguan",
-      "status": "provisional",
-      "note": "The \"Eastern Institute\" on Kunshan Road, a front of the Liyang Society in the novel (see note at Chapter 17)."
-    },
-    "中央特委": {
-      "en": "the Central Special Committee",
-      "pinyin": "Zhongyang Tewei",
-      "status": "decided",
-      "note": "The CCP’s Central Special Committee, whose enlarged meeting Muci’s cell is charged with servicing."
-    },
-    "特高科": {
-      "en": "the Special Higher Police",
-      "pinyin": "Tegao-ke",
-      "status": "attested",
-      "note": "The Tokkō, Japan’s Special Higher Police."
-    },
-    "参谋本部": {
-      "en": "the Army General Staff",
-      "pinyin": "Canmou Benbu",
-      "status": "decided",
-      "note": "The Japanese Army General Staff (Sanbō Honbu), named on the captured survey maps."
-    },
-    "陆地测量部": {
-      "en": "the Land Survey Department",
-      "pinyin": "Ludi Celiang-bu",
-      "status": "decided",
-      "note": "The Japanese Army’s land-survey bureau, named on the maps (also 陆军测量部)."
-    },
-    "春和医院": {
-      "en": "the Chunhe Hospital",
-      "pinyin": "Chunhe Yiyuan",
-      "status": "decided",
-      "note": "Xia Yuechun’s family hospital, held as ancestral property."
-    },
-    "海关总署": {
-      "en": "the Customs House",
-      "pinyin": "Haiguan Zongshu",
-      "status": "decided",
-      "note": "The Maritime Customs head office, where Han Yu is posted."
-    },
-    "百乐门": {
-      "en": "the Paramount",
-      "pinyin": "Bailemen",
-      "status": "attested",
-      "note": "The Paramount Ballroom, a famous Shanghai dance hall; here the house to which Young Tang is packed off."
-    },
-    "英伦茶室": {
-      "en": "the English Tearoom",
-      "pinyin": "Yinglun Chashi",
-      "status": "decided",
-      "note": "The English-style tearoom near the garrison command where A-Chu meets his twin; distinct from the plain 英国茶室 ('an English tearoom') mentioned once."
-    },
-    "英伦时报": {
-      "en": "the English Times",
-      "pinyin": "Yinglun Shibao",
-      "status": "provisional",
-      "note": "An English-language newspaper A-Chu reads in the tearoom (fictional)."
-    },
-    "大光明旅社": {
-      "en": "the Grand Light Hostel",
-      "pinyin": "Daguangming Lushe",
-      "status": "decided",
-      "note": "The 大光明 ('great brightness') hostel proposed as the meeting site; distinct from the like-named 大光明电影院 (the Grand Theatre)."
-    },
-    "沪中长官公署": {
-      "en": "the Central Shanghai Commandant's Office",
-      "pinyin": "Huzhong Zhangguan Gongshu",
-      "status": "decided",
-      "note": "The administrative seat where Muci is posted; the headquarters office of the 沪中警备司令部 (the Central Shanghai Garrison Command)."
-    },
-    "美琪大戏院": {
-      "en": "the Majestic Theatre",
-      "pinyin": "Meiqi da xiyuan",
-      "status": "attested",
-      "note": "Cinema at No. 66 Gordon Road; still standing today as the 美琪大戏院."
-    },
-    "英国巡捕房": {
-      "en": "the British police station",
-      "pinyin": "Yingguo xunbufang",
-      "status": "decided",
-      "note": "The International Settlement (British) police station at No. 511 Gordon Road."
-    },
-    "红枪队": {
-      "en": "the Red Spear Squad",
-      "pinyin": "Hongqiang dui",
-      "status": "decided",
-      "note": "An action unit of the CCP Central Special Branch, sworn to root out traitors and avenge fallen comrades (Chapter 26)."
-    },
-    "杨氏实业社": {
-      "en": "the Yang Industrial Company",
-      "pinyin": "Yangshi shiye she",
-      "status": "decided",
-      "note": "A-Chu's business front; reported to have bought out the Xianghe Cotton Mill (Chapter 26)."
-    },
-    "祥和纱厂": {
-      "en": "the Xianghe Cotton Mill",
-      "pinyin": "Xianghe shachang",
-      "status": "decided",
-      "note": "A cotton mill bought out by the Yang Industrial Company (Chapter 26). Distinct from 祥和里, Xianghe Lane."
-    },
-    "兰心大戏院": {
-      "en": "the Lanxin Theatre",
-      "pinyin": "Lanxin da xiyuan",
-      "status": "decided",
-      "note": "A Shanghai theatre (the historical Lyceum Theatre); He Yashu says they saw a Shaoxing opera there (Chapter 25). Romanized 'Lanxin' to match the Lanxin Western Restaurant."
-    },
-    "白玫瑰舞厅": {
-      "en": "the White Rose Ballroom",
-      "pinyin": "Bai Meigui wuting",
-      "status": "decided",
-      "note": "A dance hall A-Chu offers to stand the Detective Division men (Chapter 25); cf. the White Rose (白玫瑰)."
-    },
-    "仁爱医院": {
-      "en": "the Ren'ai Hospital",
-      "pinyin": "Ren'ai yiyuan",
-      "status": "provisional",
-      "note": "A hospital in England to which Xia Yuechun sends the nurses as year-long probationers (Chapter 25)."
-    },
-    "中国民权保障同盟": {
-      "en": "the China League for Civil Rights",
-      "pinyin": "Zhongguo Minquan Baozhang Tongmeng",
-      "status": "attested",
-      "note": "Civil-liberties body founded in Shanghai, December 1932 (Song Qingling, Cai Yuanpei, Yang Quan). Chapter 29 (footnoted)."
-    },
-    "关东军": {
-      "en": "the Kwantung Army",
-      "pinyin": "Guandong jun",
-      "status": "attested",
-      "note": "The Japanese army in the Northeast; staged the Mukden Incident of 18 September 1931. Chapter 28."
-    },
-    "东北军": {
-      "en": "the Northeast Army",
-      "pinyin": "Dongbei jun",
-      "status": "decided",
-      "note": "Zhang Xueliang&#8217;s forces in Manchuria. Chapter 28."
-    },
-    "真理报": {
-      "en": "Pravda",
-      "pinyin": "Zhenli Bao",
-      "status": "attested",
-      "note": "The Soviet Communist Party newspaper. Chapter 29."
-    },
-    "新中华报": {
-      "en": "the Xin Zhonghua Bao",
-      "pinyin": "Xin Zhonghua Bao",
-      "status": "decided",
-      "note": "A Chinese Communist newspaper. Chapter 29. (The paper of this name ran at Yan&#8217;an from 1937; the reference is loose for the early-1930s setting.)"
-    },
-    "明氏企业": {
-      "en": "the Ming enterprises",
-      "pinyin": "Ming shi qiye",
-      "status": "decided",
-      "note": "Ming Tang's family firm, in mining; also a power at the Shanghai Stock Exchange."
-    },
-    "上海证券交易所": {
-      "en": "the Shanghai Stock Exchange",
-      "pinyin": "Shanghai zhengquan jiaoyisuo",
-      "status": "decided",
-      "note": "Where the Yang fortune is sold off; A-Chu, through Ming Tang, engineers its collapse."
-    },
-    "上海新闻报": {
-      "en": "the Shanghai News",
-      "pinyin": "Shanghai Xinwen Bao",
-      "status": "provisional",
-      "note": "The newspaper whose photograph of Yang Sitong and 'Young Master Rong' helps push Yang Yuhua to sell."
-    },
-    "陈氏温室花房": {
-      "en": "Chen's Greenhouse Flower-House",
-      "pinyin": "Chen shi wenshi huafang",
-      "status": "decided",
-      "note": "The florist named on the card in the blue book-bag left in the Huamei Bookstore."
-    }
+  "荣老爷": {
+   "en": "Master Rong",
+   "pinyin": "Rong laoye",
+   "status": "decided",
+   "note": "Head of the household; takes four wives in turn."
   },
-  "places": {
-    "中国": {
-      "en": "China",
-      "pinyin": "Zhongguo",
-      "status": "attested",
-      "note": ""
-    },
-    "上海": {
-      "en": "Shanghai",
-      "pinyin": "Shanghai",
-      "status": "attested",
-      "note": "The novel's principal setting."
-    },
-    "日本": {
-      "en": "Japan",
-      "pinyin": "Riben",
-      "status": "attested",
-      "note": ""
-    },
-    "东京": {
-      "en": "Tokyo",
-      "pinyin": "Dongjing",
-      "status": "attested",
-      "note": ""
-    },
-    "山东": {
-      "en": "Shandong",
-      "pinyin": "Shandong",
-      "status": "attested",
-      "note": "The bride's home province."
-    },
-    "英国": {
-      "en": "England / Britain",
-      "pinyin": "Yingguo",
-      "status": "attested",
-      "note": "Rendered 'England' or 'Britain' as the sense requires."
-    },
-    "伦敦": {
-      "en": "London",
-      "pinyin": "Lundun",
-      "status": "attested",
-      "note": ""
-    },
-    "卡迪芙": {
-      "en": "Cardiff",
-      "pinyin": "Kadifu",
-      "status": "attested",
-      "note": "In Wales; where Rong Sheng and A-Chu live. See the note at Chapter 3 on the source's 威尔逊卡迪芙."
-    },
-    "威尔士": {
-      "en": "Wales",
-      "pinyin": "Wei'ershi",
-      "status": "attested",
-      "note": ""
-    },
-    "巴黎": {
-      "en": "Paris",
-      "pinyin": "Bali",
-      "status": "attested",
-      "note": "Where Cong Hui hopes to open a clinic with A-Chu."
-    },
-    "加拿大": {
-      "en": "Canada",
-      "pinyin": "Jianada",
-      "status": "attested",
-      "note": ""
-    },
-    "杭州": {
-      "en": "Hangzhou",
-      "pinyin": "Hangzhou",
-      "status": "attested",
-      "note": "Yang Muci's destination, and the police school's city."
-    },
-    "嘉兴": {
-      "en": "Jiaxing",
-      "pinyin": "Jiaxing",
-      "status": "attested",
-      "note": "Where the boat lies overnight."
-    },
-    "苏区": {
-      "en": "the Soviet areas",
-      "pinyin": "Suqu",
-      "status": "attested",
-      "note": "The Chinese Communist base areas of the early 1930s, where Yang Muci wishes to be sent."
-    },
-    "梨云阁": {
-      "en": "the Liyun Pavilion",
-      "pinyin": "Liyun Ge",
-      "status": "decided",
-      "note": "A courtyard structure in the Rong mansion."
-    },
-    "墨菊斋": {
-      "en": "the Moju Studio",
-      "pinyin": "Moju Zhai",
-      "status": "decided",
-      "note": "A-Chu's quarters in the Rong mansion."
-    },
-    "红梨阁": {
-      "en": "the Hongli Pavilion",
-      "pinyin": "Hongli Ge",
-      "status": "decided",
-      "note": "Fourth Madam's quarters in the Rong mansion."
-    },
-    "延安": {
-      "en": "Yan’an",
-      "pinyin": "Yan'an",
-      "status": "attested",
-      "note": "The Communist base in northern Shaanxi; Ronghua’s wireless link runs between Shanghai and Yan’an. (The Party’s seat only from 1937; its use in the novel’s earlier setting is a mild anachronism, as with ‘Juntong.’)"
-    },
-    "愚园路": {
-      "en": "Yuyuan Road",
-      "pinyin": "Yuyuan Lu",
-      "status": "attested",
-      "note": "A fashionable road in western Shanghai; the site of Yang Yubo’s mansion."
-    },
-    "慈云寺": {
-      "en": "the Ciyun Temple",
-      "pinyin": "Ciyun Si",
-      "status": "provisional",
-      "note": "The temple Fourth Madam visits at Qingming to burn incense."
-    },
-    "祥和里": {
-      "en": "Xianghe Lane",
-      "pinyin": "Xianghe Li",
-      "status": "provisional",
-      "note": "He Yashu’s address (a 里, a Shanghai lane-house compound)."
-    },
-    "法国公园": {
-      "en": "the French Park",
-      "pinyin": "Faguo Gongyuan",
-      "status": "attested",
-      "note": "Shanghai’s French Park (Parc de Koukaza, now Fuxing Park), in the French Concession; Rong Sheng’s tea rendezvous with He Yashu."
-    },
-    "醉菊榭": {
-      "en": "the Zuiju Waterside Pavilion",
-      "pinyin": "Zuiju Xie",
-      "status": "decided",
-      "note": "Ronghua’s dwelling in the Rong mansion (榭, a waterside pavilion), where she hides the wounded Lao Yu."
-    },
-    "东方饭店": {
-      "en": "the Dongfang Hotel",
-      "pinyin": "Dongfang Fandian",
-      "status": "provisional",
-      "note": "The Shanghai hotel (东方, 'the East') where Fourth Madam stages the storytelling that opens A-Chu's origins to him; rendered by pinyin, since the source's 东方饭店 does not map cleanly onto any one attested Republican-era English hotel name."
-    },
-    "东方书场": {
-      "en": "the Dongfang storytelling house",
-      "pinyin": "Dongfang Shuchang",
-      "status": "provisional",
-      "note": "The storytelling hall (书场) within the Dongfang Hotel, where the tanci performance is given."
-    },
-    "金陵": {
-      "en": "Jinling",
-      "pinyin": "Jinling",
-      "status": "attested",
-      "note": "The classical name for Nanjing; the Yang family's home city in the sung account of their past."
-    },
-    "上海滩": {
-      "en": "the Shanghai Bund",
-      "pinyin": "Shanghai tan",
-      "status": "attested",
-      "note": "The Bund, by metonymy Shanghai itself as a world of money and power."
-    },
-    "长安": {
-      "en": "Chang'an",
-      "pinyin": "Chang'an",
-      "status": "attested",
-      "note": "The Tang capital (modern Xi'an), standing for the far-off imperial city in the tanci aria sung in Chapters 12 and 15."
-    },
-    "德国": {
-      "en": "Germany",
-      "pinyin": "Deguo",
-      "status": "attested",
-      "note": "Where the father's steel talisman was made; Yang Sitong's private physician is likewise a German doctor."
-    },
-    "皇冠酒店": {
-      "en": "the Crown Hotel",
-      "pinyin": "Huangguan jiudian",
-      "status": "provisional",
-      "note": "A Hangzhou hotel where Muci and Xin Lili stay before their final examination."
-    },
-    "玉佛寺路": {
-      "en": "Yufo Temple Road",
-      "pinyin": "Yufosi Lu",
-      "status": "provisional",
-      "note": "Shanghai street (Jade Buddha Temple Road) where the Milan Cafe stands."
-    },
-    "米兰咖啡馆": {
-      "en": "the Milan Cafe",
-      "pinyin": "Milan kafeiguan",
-      "status": "decided",
-      "note": "Cafe on Yufo Temple Road; the second, successful contact site between Ronghua and Muci."
-    },
-    "玫瑰园": {
-      "en": "the Rose Garden",
-      "pinyin": "Meigui yuan",
-      "status": "decided",
-      "note": "A walk within the French Park; the first (failed) rendezvous site."
-    },
-    "飞来峰": {
-      "en": "Feilai Peak",
-      "pinyin": "Feilai Feng",
-      "status": "attested",
-      "note": "The limestone crag by the Lingyin Temple in Hangzhou, famed for its grottoes; A-Chu contrasts it with the pyramids."
-    },
-    "东三省": {
-      "en": "the Three Eastern Provinces",
-      "pinyin": "Dong san sheng",
-      "status": "attested",
-      "note": "Manchuria (Liaoning, Jilin, Heilongjiang), occupied by Japan after the September 18th Incident of 1931."
-    },
-    "昆山路": {
-      "en": "Kunshan Road",
-      "pinyin": "Kunshan Lu",
-      "status": "attested",
-      "note": "A street in the Hongkou district of Shanghai; site of the Japanese Eastern Institute in the novel."
-    },
-    "国际大饭店": {
-      "en": "the Park Hotel",
-      "pinyin": "Guoji Da Fandian",
-      "status": "attested",
-      "note": "The Park Hotel (国际饭店) on Nanjing Road; a Shanghai landmark. (It opened in 1934, slightly later than the story’s date.)"
-    },
-    "黄浦江": {
-      "en": "the Huangpu",
-      "pinyin": "Huangpu Jiang",
-      "status": "attested",
-      "note": "The river through Shanghai; A-Chu’s men dump the kidnappers’ bodies in it."
-    },
-    "沈阳": {
-      "en": "Shenyang",
-      "pinyin": "Shenyang",
-      "status": "attested",
-      "note": "Mukden; seized by the Japanese army in the September 18th Incident."
-    },
-    "中原": {
-      "en": "the Central Plains",
-      "pinyin": "Zhongyuan",
-      "status": "decided",
-      "note": "The Central Plains, the historic heartland of China."
-    },
-    "梅花巷": {
-      "en": "Plum Blossom Lane",
-      "pinyin": "Meihua Xiang",
-      "status": "decided",
-      "note": "An out-of-the-way lane; the delegate Cong Feng is lodged at Number Five, and A-Chu looks at renting Number Seven next door."
-    },
-    "霞飞路": {
-      "en": "Avenue Joffre",
-      "pinyin": "Xiafei Lu",
-      "status": "attested",
-      "note": "The main thoroughfare of the French Concession (today Huaihai Road); here a café on it is the twins' second meeting place."
-    },
-    "恒吉里": {
-      "en": "Hengji Li",
-      "pinyin": "Hengji li",
-      "status": "decided",
-      "note": "Shikumen lane off Gordon Road; in the novel No. 1141 houses the CCP Central Political Bureau's meeting room and confidential secretariat."
-    },
-    "戈登路": {
-      "en": "Gordon Road",
-      "pinyin": "Gedeng lu",
-      "status": "attested",
-      "note": "International Settlement street, printed in the source in Roman letters too; today Jiangning Road (江宁路)."
-    },
-    "静安寺路": {
-      "en": "Bubbling Well Road",
-      "pinyin": "Jingansi lu",
-      "status": "attested",
-      "note": "The concession-era English name of 静安寺路 (today Nanjing West Road, 南京西路)."
-    },
-    "苏州河": {
-      "en": "Suzhou Creek",
-      "pinyin": "Suzhou he",
-      "status": "attested",
-      "note": "The creek forming the north end of Gordon Road."
-    },
-    "威海路": {
-      "en": "Weihai Road",
-      "pinyin": "Weihai lu",
-      "status": "attested",
-      "note": "Shanghai street; site of the Special Branch's old base."
-    },
-    "云南路": {
-      "en": "Yunnan Road",
-      "pinyin": "Yunnan lu",
-      "status": "attested",
-      "note": "Shanghai street; site of the Central Special Committee."
-    },
-    "广东路": {
-      "en": "Guangdong Road",
-      "pinyin": "Guangdong lu",
-      "status": "attested",
-      "note": "Shanghai street; the Central Military Commission is at Qinghefang here."
-    },
-    "清河坊": {
-      "en": "Qinghefang",
-      "pinyin": "Qinghefang",
-      "status": "provisional",
-      "note": "A locale on Guangdong Road named in the novel."
-    },
-    "四马路": {
-      "en": "Fourth Avenue",
-      "pinyin": "Simalu",
-      "status": "decided",
-      "note": "A busy, crowded Shanghai street (present-day Fuzhou Road), rendered by its old foreign-settlement name (Chapter 26)."
-    },
-    "跑马厅": {
-      "en": "the Racecourse",
-      "pinyin": "Paomating",
-      "status": "decided",
-      "note": "The Shanghai Race Course; A-Chun works the quarter around it (Chapter 26)."
-    },
-    "洛阳": {
-      "en": "Luoyang",
-      "pinyin": "Luoyang",
-      "status": "attested",
-      "note": "The ancient capital; in the peony legend Empress Wu Zetian banishes the flower to Luoyang, whence 'the peony of Luoyang is first under heaven' (Chapter 27)."
-    },
-    "闸北区": {
-      "en": "Zhabei District",
-      "pinyin": "Zhabei qu",
-      "status": "attested",
-      "note": "A district of Shanghai; Bai Yun was arrested there in 1927 (Chapter 26)."
-    },
-    "柳条湖": {
-      "en": "Liutiaohu",
-      "pinyin": "Liutiaohu",
-      "status": "attested",
-      "note": "The stretch of the South Manchuria Railway, near Shenyang, where the Kwantung Army staged its 1931 explosion. Chapter 28."
-    },
-    "南满铁路": {
-      "en": "the South Manchuria Railway",
-      "pinyin": "Nan Man tielu",
-      "status": "attested",
-      "note": "The Japanese-run railway in the Northeast. Chapter 28."
-    },
-    "长乐街": {
-      "en": "Changle Street",
-      "pinyin": "Changle jie",
-      "status": "decided",
-      "note": "No. 18 Changle Street, the quiet house Han Zhengqi first found for A-Chu, where Amah A-Yue keeps his household."
-    },
-    "江户": {
-      "en": "Edo",
-      "pinyin": "Jianghu",
-      "status": "attested",
-      "note": "The old name of Tokyo; A-Chu's clue to the false Amah A-Yue's Japanese origin."
-    },
-    "富士山": {
-      "en": "Mount Fuji",
-      "pinyin": "Fushishan",
-      "status": "attested",
-      "note": "Where Yang Yuhua and Koyama Eiko met among the cherry blossoms in 1909; its snowbound summit recalled by the plum-scene embroidery on A-Chu's shoes."
-    }
+  "荣老太太": {
+   "en": "Old Madam Rong",
+   "pinyin": "Rong laotaitai",
+   "status": "decided",
+   "note": "Master Rong's mother."
   },
-  "terms": {
-    "宣统": {
-      "en": "the Xuantong reign",
-      "pinyin": "Xuantong",
-      "status": "attested",
-      "note": "Reign title of the last Qing emperor, Puyi. See the note at the Prologue."
-    },
-    "旗人": {
-      "en": "Bannermen",
-      "pinyin": "qiren",
-      "status": "attested",
-      "note": "Members of the Manchu Eight Banners. See the note at Chapter 1."
-    },
-    "天足": {
-      "en": "natural feet",
-      "pinyin": "tianzu",
-      "status": "decided",
-      "note": "Unbound feet, opposed to the bound 'golden lotus.'"
-    },
-    "黄包车": {
-      "en": "rickshaw",
-      "pinyin": "huangbaoche",
-      "status": "decided",
-      "note": "The man-pulled two-wheeled cab of Republican Shanghai."
-    },
-    "箫": {
-      "en": "xiao",
-      "pinyin": "xiao",
-      "status": "attested",
-      "note": "An end-blown vertical bamboo flute of plaintive tone; Rong Sheng's instrument."
-    },
-    "飘风": {
-      "en": "Drifting Wind",
-      "pinyin": "Piaofeng",
-      "status": "decided",
-      "note": "Yang Muci's codename. See the note at Chapter 4."
-    },
-    "时雨": {
-      "en": "Timely Rain",
-      "pinyin": "Shiyu",
-      "status": "decided",
-      "note": "Lao Yu's codename. See the note at Chapter 4."
-    },
-    "林潭": {
-      "en": "Mr. Lin Tan",
-      "pinyin": "Lin Tan",
-      "status": "decided",
-      "note": "The recognition passphrase for post-graduation contact."
-    },
-    "格格": {
-      "en": "gege",
-      "pinyin": "gege",
-      "status": "attested",
-      "note": "A Manchu title for a daughter of the Qing imperial house or higher nobility. See the note at Chapter 6 (He Gege)."
-    },
-    "浮尘": {
-      "en": "Floating Dust",
-      "pinyin": "Fuchen",
-      "status": "decided",
-      "note": "Ronghua’s codename as a Special Branch liaison agent, alongside Yang Muci’s ‘Drifting Wind’ and Lao Yu’s ‘Timely Rain.’"
-    },
-    "龙井": {
-      "en": "Longjing",
-      "pinyin": "Longjing",
-      "status": "attested",
-      "note": "‘Dragon Well,’ the celebrated green tea of Hangzhou."
-    },
-    "清明节": {
-      "en": "the Qingming Festival",
-      "pinyin": "Qingming",
-      "status": "attested",
-      "note": "The spring tomb-sweeping festival, when families tend graves and honor ancestors."
-    },
-    "温莎公爵": {
-      "en": "the Duke of Windsor",
-      "pinyin": "Wensha Gongjue",
-      "status": "attested",
-      "note": "Edward VIII, who abdicated in 1936 to marry Wallis Simpson. See the note at Chapter 10."
-    },
-    "同心结": {
-      "en": "heart-knit knot",
-      "pinyin": "tongxin jie",
-      "status": "decided",
-      "note": "A looped love-token symbolizing joined hearts; the 同心 of the Chapter 10 title. See the note there."
-    },
-    "评弹": {
-      "en": "pingtan",
-      "pinyin": "pingtan",
-      "status": "attested",
-      "note": "Suzhou ballad-storytelling, chanted to the pipa and sanxian; Fourth Madam takes it up as a pretext, and its arias carry the plot in Chapters 12 and 13."
-    },
-    "琵琶": {
-      "en": "pipa",
-      "pinyin": "pipa",
-      "status": "attested",
-      "note": "The four-stringed plucked lute of Chinese music; Fourth Madam's instrument in the pingtan scenes, and the emblem of lament in the Chapter 13 title."
-    },
-    "三弦": {
-      "en": "sanxian",
-      "pinyin": "sanxian",
-      "status": "attested",
-      "note": "A three-stringed long-necked lute that accompanies pingtan; the 小三弦 is its smaller form."
-    },
-    "姨奶奶": {
-      "en": "aunt-mistress",
-      "pinyin": "yi'nainai",
-      "status": "decided",
-      "note": "The household's form of address for a concubine; used by the servants and by Ronghua of the Third and Fourth Madams, and by Rong Chu of his dead mother."
-    },
-    "先生": {
-      "en": "Xiansheng",
-      "pinyin": "xiansheng",
-      "status": "decided",
-      "note": "As a society address: the honorific by which the Golden Dragon Society is to call its chief, which A-Chu imposes in place of the household's 'young master.' The same word is rendered 'Mr.' in ordinary use (e.g. Mr. Chu)."
-    },
-    "沙蟹": {
-      "en": "show-hand",
-      "pinyin": "shaxie",
-      "status": "decided",
-      "note": "The poker game (from English 'show hand'), a Shanghai gambling staple; A-Chu wins Young Tang's tutoring services at it."
-    },
-    "法币": {
-      "en": "fabi",
-      "pinyin": "fabi",
-      "status": "attested",
-      "note": "The Nationalist government's legal-tender paper currency (introduced 1935 in fact; the novel uses the term loosely)."
-    },
-    "弹词": {
-      "en": "tanci",
-      "pinyin": "tanci",
-      "status": "attested",
-      "note": "Sung storytelling to string accompaniment, a Jiangnan tradition; cf. 评弹 (pingtan). Rong Chu keeps quoting it."
-    },
-    "三硝基甲苯": {
-      "en": "trinitrotoluene (TNT)",
-      "pinyin": "sanxiaoji jiaben",
-      "status": "attested",
-      "note": "The high explosive identified in the powder from the hospital bombing."
-    },
-    "帝国之花": {
-      "en": "the Imperial Flower",
-      "pinyin": "diguo zhi hua",
-      "status": "decided",
-      "note": "A codename inked on the Japanese survey maps (帝国之花, \"flower of the empire\"), also used by the spymaster of Japan’s women agents."
-    },
-    "九·一八事变": {
-      "en": "the September 18th Incident",
-      "pinyin": "Jiu-Yi-Ba Shibian",
-      "status": "attested",
-      "note": "The Mukden Incident, 18 September 1931. See note at Chapter 17."
-    },
-    "昭和": {
-      "en": "Shōwa",
-      "pinyin": "Zhaohe",
-      "status": "attested",
-      "note": "A Japanese reign era; Shōwa 4 = 1929."
-    },
-    "姨娘": {
-      "en": "concubine-aunt",
-      "pinyin": "yiniang",
-      "status": "decided",
-      "note": "A concubine of the household as referred to by the children; distinct in direct address from 姨奶奶 (aunt-mistress). As a vocative it is rendered \"Auntie.\""
-    },
-    "铆钉": {
-      "en": "the Rivet",
-      "pinyin": "maoding",
-      "status": "decided",
-      "note": "Codename for the Detective Division's informant planted inside the CCP Special Branch, who telephones in the Hengji Li address."
-    },
-    "雪狼": {
-      "en": "Snow Wolf",
-      "pinyin": "Xuelang",
-      "status": "decided",
-      "note": "Codename of a Central Secretariat secretary, arrested as a murder suspect over the Hengji Li killing and later bailed out (Chapter 26)."
-    },
-    "包打听": {
-      "en": "police runner",
-      "pinyin": "baodating",
-      "status": "provisional",
-      "note": "Old Shanghai slang for a private informer/runner attached to the patrol houses and police; A-Chun's cover identity (Chapter 26)."
-    },
-    "绍兴文戏": {
-      "en": "Shaoxing opera",
-      "pinyin": "Shaoxing wenxi",
-      "status": "decided",
-      "note": "The Shaoxing sung drama, forerunner of Yue opera (越剧); named by He Yashu (Chapter 25)."
-    },
-    "名古屋带": {
-      "en": "a Nagoya obi",
-      "pinyin": "Nagoya obi (Mingguwu dai)",
-      "status": "decided",
-      "note": "A pre-folded kimono sash (a modern, c. 1920 invention). Chapter 30 (footnoted); the memory-clue that marks the murderer as Japanese."
-    },
-    "桃山时代": {
-      "en": "the Momoyama age",
-      "pinyin": "Momoyama (Taoshan shidai)",
-      "status": "decided",
-      "note": "Late-16th-century Japanese period; used loosely in the source for &#8216;old Japanese.&#8217; Chapter 30."
-    },
-    "中国哲学简史": {
-      "en": "A Short History of Chinese Philosophy",
-      "pinyin": "Zhongguo Zhexue Jianshi",
-      "status": "decided",
-      "note": "Feng Youlan&#8217;s book (Macmillan, 1948); used as a recognition password. Chapter 28 (footnoted, anachronism)."
-    },
-    "曲线救亡": {
-      "en": "salvation by a roundabout path",
-      "pinyin": "quxian jiuwang",
-      "status": "decided",
-      "note": "Wang Jingwei&#8217;s accommodationist slogan (also 曲线救国). Chapter 29 (footnoted)."
-    },
-    "翠竹春晓": {
-      "en": "Green Bamboo, Spring Dawn",
-      "pinyin": "Cuizhu Chunxiao",
-      "status": "decided",
-      "note": "The ink landscape in A-Chu&#8217;s study, painted by his wife. Chapter 29."
-    },
-    "伪满": {
-      "en": "the puppet state of Manchukuo",
-      "pinyin": "wei Man",
-      "status": "attested",
-      "note": "The Japanese client state proclaimed in the Northeast, March 1932 (伪满 = &#8216;bogus Manchukuo&#8217;). Chapter 28."
-    },
-    "鸳鸯剑": {
-      "en": "the mandarin-duck swords",
-      "pinyin": "yuanyang jian",
-      "status": "decided",
-      "note": "The lovers' twin-bladed sword of the Dream of the Red Chamber; part of the Chapter 32 title (see the note there)."
-    },
-    "上邪": {
-      "en": "Shang Ye",
-      "pinyin": "Shang Ye",
-      "status": "attested",
-      "note": "A Han yuefu love-oath from the eighteen Nao songs; He Yashu marks it as her own vow (see the note at Chapter 33)."
-    },
-    "文野三界之别": {
-      "en": "On the Distinction of the Three Realms of Civilized and Barbarous",
-      "pinyin": "Wen ye san jie zhi bie",
-      "status": "decided",
-      "note": "The Liang Qichao title A-Chu keeps on his shelves (see the note at Chapter 32)."
-    }
+  "瑜儿": {
+   "en": "Yu'er",
+   "pinyin": "Yu'er",
+   "status": "provisional",
+   "note": "A pet name (瑜) used by Old Madam Rong; apparently Master Rong himself."
+  },
+  "大太太": {
+   "en": "First Madam",
+   "pinyin": "da taitai",
+   "status": "decided",
+   "note": "The senior wife (大 = senior); runs the household; mother of Rong Sheng."
+  },
+  "二太太": {
+   "en": "Second Madam",
+   "pinyin": "er taitai",
+   "status": "decided",
+   "note": "A rice-merchant's daughter; mother of Rong Gui; dies in the countryside."
+  },
+  "三太太": {
+   "en": "Third Madam",
+   "pinyin": "san taitai",
+   "status": "decided",
+   "note": "A tailor's daughter; mother of the twin daughters."
+  },
+  "四太太": {
+   "en": "Fourth Madam",
+   "pinyin": "si taitai",
+   "status": "decided",
+   "note": "The bride Jinlian; A-Chu's adoptive mother."
+  },
+  "金莲": {
+   "en": "Jinlian",
+   "pinyin": "Jinlian",
+   "status": "decided",
+   "note": "'Golden Lotus'; the fourth wife. See the note at Chapter 1."
+  },
+  "荣升": {
+   "en": "Rong Sheng",
+   "pinyin": "Rong Sheng",
+   "status": "decided",
+   "note": "Eldest son (升, 'rise'); frail, opium-addicted, widowed."
+  },
+  "荣归": {
+   "en": "Rong Gui",
+   "pinyin": "Rong Gui",
+   "status": "decided",
+   "note": "Second son (归, 'return'); born in mourning, raised in the country."
+  },
+  "荣初": {
+   "en": "Rong Chu",
+   "pinyin": "Rong Chu",
+   "status": "decided",
+   "note": "'Rong the Beginning' (初); the family's youngest son, and the name at the heart of the book's doubling."
+  },
+  "阿初": {
+   "en": "A-Chu",
+   "pinyin": "A-Chu",
+   "status": "decided",
+   "note": "The foster boy picked up by Fourth Madam, raised as Rong Sheng's study-companion; becomes a physician. 阿 is a familiar prefix."
+  },
+  "荣荣": {
+   "en": "Rongrong",
+   "pinyin": "Rongrong",
+   "status": "decided",
+   "note": "One of the twin daughters of Third Madam."
+  },
+  "荣华": {
+   "en": "Ronghua",
+   "pinyin": "Ronghua",
+   "status": "decided",
+   "note": "The other twin daughter of Third Madam; revealed in Chapter 8 as a CCP Special Branch liaison agent, codename Floating Dust, running the Shanghai–Yan’an wireless link under cover of her Huamei Bookstore."
+  },
+  "江丽水": {
+   "en": "Jiang Lishui",
+   "pinyin": "Jiang Lishui",
+   "status": "decided",
+   "note": "A distant niece of First Madam; often 'Lishui.' Comes to Cardiff to find Rong Sheng."
+  },
+  "丛惠": {
+   "en": "Cong Hui",
+   "pinyin": "Cong Hui",
+   "status": "decided",
+   "note": "A wealthy overseas-Chinese merchant's daughter; A-Chu's classmate and love."
+  },
+  "丛锋": {
+   "en": "Cong Feng",
+   "pinyin": "Cong Feng",
+   "status": "decided",
+   "note": "Cong Hui's elder cousin; a radical."
+  },
+  "夏跃春": {
+   "en": "Xia Yuechun",
+   "pinyin": "Xia Yuechun",
+   "status": "decided",
+   "note": "A student in the Cardiff circle; later a doctor."
+  },
+  "韩禹": {
+   "en": "Han Yu",
+   "pinyin": "Han Yu",
+   "status": "decided",
+   "note": "A student in the Cardiff circle."
+  },
+  "霍尔曼": {
+   "en": "Holman",
+   "pinyin": "Huo'erman",
+   "status": "decided",
+   "note": "Professor Holman, A-Chu's supervisor at the Royal Medical College. English name reconstructed from the transliteration."
+  },
+  "玛丽亚": {
+   "en": "Maria",
+   "pinyin": "Maliya",
+   "status": "decided",
+   "note": "A-Chu's neighbour in Cardiff, whose child he delivers."
+  },
+  "冬儿": {
+   "en": "Dong'er",
+   "pinyin": "Dong'er",
+   "status": "decided",
+   "note": "A young Rong maidservant, present at the kidnapping."
+  },
+  "翠儿": {
+   "en": "Cui'er",
+   "pinyin": "Cui'er",
+   "status": "decided",
+   "note": "A Rong maidservant."
+  },
+  "阿桂": {
+   "en": "A-Gui",
+   "pinyin": "A-Gui",
+   "status": "decided",
+   "note": "Nurse to the twin daughters."
+  },
+  "杨慕次": {
+   "en": "Yang Muci",
+   "pinyin": "Yang Muci",
+   "status": "decided",
+   "note": "Eldest son of the Yang finance family; a secret Communist agent, codename Drifting Wind."
+  },
+  "杨羽柏": {
+   "en": "Yang Yubo",
+   "pinyin": "Yang Yubo",
+   "status": "decided",
+   "note": "A magnate of Shanghai finance; Yang Muci's father."
+  },
+  "杨家": {
+   "en": "the Yang family",
+   "pinyin": "Yang jia",
+   "status": "decided",
+   "note": "The Shanghai finance house of the Prologue's pear-blossom courtyard."
+  },
+  "老余": {
+   "en": "Lao Yu",
+   "pinyin": "Lao Yu",
+   "status": "decided",
+   "note": "A CCP courier (老 = familiar 'Old'); public identity a financial reporter; codename Timely Rain."
+  },
+  "杜旅宁": {
+   "en": "Du Luning",
+   "pinyin": "Du Luning",
+   "status": "decided",
+   "note": "The boat traveller of Chapter 4; revealed in Chapter 5 as Major-General and Chief of the Juntong Intelligence Section, running the secret Special Police training class."
+  },
+  "吴次长": {
+   "en": "Vice-Minister Wu",
+   "pinyin": "Wu cizhang",
+   "status": "decided",
+   "note": "A well-connected household the Rongs telephone about the kidnapping."
+  },
+  "俞晓江": {
+   "en": "Yu Xiaojiang",
+   "pinyin": "Yu Xiaojiang",
+   "status": "decided",
+   "note": "A female major and operative of the Juntong Bureau; Du Luning's aide at the training school and Yang Muci's instructor in ciphers and wireless."
+  },
+  "辛丽丽": {
+   "en": "Xin Lili",
+   "pinyin": "Xin Lili",
+   "status": "decided",
+   "note": "A trainee at the Special Police class, transferred from the Seventh Branch School; first met by Yang Muci at registration."
+  },
+  "郭字琼": {
+   "en": "Guo Ziqiong",
+   "pinyin": "Guo Ziqiong",
+   "status": "decided",
+   "note": "A trainee recruited from the telecommunications school; He Yashan's lover, killed attempting to flee the school."
+  },
+  "和雅姗": {
+   "en": "He Yashan",
+   "pinyin": "He Yashan",
+   "status": "decided",
+   "note": "'He Gege,' of fallen-Qing descent; pregnant and in flight from an arranged marriage, she dies with Guo Ziqiong. See the note at Chapter 6."
+  },
+  "和雅淑": {
+   "en": "He Yashu",
+   "pinyin": "He Yashu",
+   "status": "decided",
+   "note": "He Yashan's younger sister; the girl who faints at the Shanghai harbour and is taken to hospital by Rong Sheng."
+  },
+  "杏儿": {
+   "en": "Xing'er",
+   "pinyin": "Xing'er",
+   "status": "decided",
+   "note": "Third Madam's clever maidservant; sweet on A-Chu."
+  },
+  "蝉儿": {
+   "en": "Chan'er",
+   "pinyin": "Chan'er",
+   "status": "decided",
+   "note": "A Rong household maidservant."
+  },
+  "阿福": {
+   "en": "A-Fu",
+   "pinyin": "A-Fu",
+   "status": "decided",
+   "note": "The Rong family's driver; a round, portly, devoted man."
+  },
+  "二少奶奶": {
+   "en": "the second young mistress",
+   "pinyin": "er shaonainai",
+   "status": "decided",
+   "note": "Rong Gui's wife, expecting a child in the countryside."
+  },
+  "戴局长": {
+   "en": "Director Dai",
+   "pinyin": "Dai juzhang",
+   "status": "attested",
+   "note": "Dai Li (戴笠), head of the Nationalists' military intelligence. See the note at Chapter 5."
+  },
+  "杨思桐": {
+   "en": "Yang Sitong",
+   "pinyin": "Yang Sitong",
+   "status": "decided",
+   "note": "Yang Yubo’s daughter; the young lady whose birthday ball opens Chapter 8. Yang Muci’s sister."
+  },
+  "汤少棋": {
+   "en": "Tang Shaoqi",
+   "pinyin": "Tang Shaoqi",
+   "status": "decided",
+   "note": "A young lady of Yang Sitong’s set; Tang Shaoli’s younger sister."
+  },
+  "汤少礼": {
+   "en": "Tang Shaoli",
+   "pinyin": "Tang Shaoli",
+   "status": "decided",
+   "note": "A dissolute dandy of fallen fortune who scrapes by on a few antique shops; once betrothed to He Yashan, then to He Yashu, and jilted by both. Styles himself the ‘Gallant of the Crimson Bower.’"
+  },
+  "杨太太": {
+   "en": "Madam Yang",
+   "pinyin": "Yang taitai",
+   "status": "decided",
+   "note": "Yang Yubo’s wife; personal name Yingzi. In black mourning she keeps a shrine to her dead infant son, Yang Muchu."
+  },
+  "英子": {
+   "en": "Yingzi",
+   "pinyin": "Yingzi",
+   "status": "decided",
+   "note": "Madam Yang’s given name, used by Yang Yubo."
+  },
+  "杨慕初": {
+   "en": "Yang Muchu",
+   "pinyin": "Yang Muchu",
+   "status": "decided",
+   "note": "The Yang son enshrined as dead; his spirit-tablet reads 杨慕初之灵位. The name 慕初 (初, ‘the beginning’) pairs with his brother 杨慕次 Yang Muci, and its echo of 荣初/阿初 marks him, by the chapter’s insinuation, as the child secretly alive."
+  },
+  "阿次": {
+   "en": "A-Ci",
+   "pinyin": "A-Ci",
+   "status": "decided",
+   "note": "Familiar form of Yang Muci; the name the delirious Lao Yu calls A-Chu, mistaking one twin’s face for the other."
+  },
+  "红儿": {
+   "en": "Hong’er",
+   "pinyin": "Hong'er",
+   "status": "decided",
+   "note": "Fourth Madam’s personal maid."
+  },
+  "云儿": {
+   "en": "Yun’er",
+   "pinyin": "Yun'er",
+   "status": "decided",
+   "note": "A young Rong maidservant at the Liyun Pavilion."
+  },
+  "和家": {
+   "en": "the He family",
+   "pinyin": "He jia",
+   "status": "decided",
+   "note": "A fallen Manchu house of imperial descent; the two daughters are He Yashan and He Yashu."
+  },
+  "汤家": {
+   "en": "the Tang family",
+   "pinyin": "Tang jia",
+   "status": "decided",
+   "note": "The house of Tang Shaoli and Tang Shaoqi; would-be in-laws of the He family."
+  },
+  "杨慕莲": {
+   "en": "Yang Mulian",
+   "pinyin": "Yang Mulian",
+   "status": "decided",
+   "note": "Fourth Madam's true name, revealed in Chapter 13: elder sister of the twins Yang Muchu (A-Chu) and Yang Muci, and the architect of the twenty-year revenge. She married into the Rong house under a false identity to raise A-Chu in safety."
+  },
+  "杨羽桦": {
+   "en": "Yang Yuhua",
+   "pinyin": "Yang Yuhua",
+   "status": "decided",
+   "note": "The Yang family's second master (杨家二老爷), a concubine's son schooled in Japan; murders his elder brother Yang Yubo and, being alike in looks, takes over his identity, wealth and wife. The man now living as 'Yang Yubo' in the novel's present."
+  },
+  "徐玉真": {
+   "en": "Xu Yuzhen",
+   "pinyin": "Xu Yuzhen",
+   "status": "decided",
+   "note": "The eighteen-year-old palace maid bestowed on the elder Yang Yubo as a concubine (the 'aunt-mother'); Yang Yuhua's paramour and accomplice in the murder."
+  },
+  "韩正齐": {
+   "en": "Han Zhengqi",
+   "pinyin": "Han Zhengqi",
+   "status": "decided",
+   "note": "Yang Mulian's lover, a military man and member of the Golden Dragon Society, once a driver in the Yang house; saves her and the infant A-Chu on the night of the murder, then vanishes."
+  },
+  "阿岳": {
+   "en": "A-Yue",
+   "pinyin": "A-Yue",
+   "status": "decided",
+   "note": "Yang Mulian's wet-nurse (嬷嬷), her face ruined in the fire that destroyed the Yang house; she helps raise and hide the infant A-Chu."
+  },
+  "汤少": {
+   "en": "Young Tang",
+   "pinyin": "Tang shao",
+   "status": "decided",
+   "note": "Familiar form of address for the Tang son who spars with A-Chu in Chapters 14&#8211;15. The source names him inconsistently as 汤少礼 (Tang Shaoli) and 汤少棋 (Tang Shaoqi) within the same scene; we keep each verbatim where it stands and render the bare 汤少 as 'Young Tang.'"
+  },
+  "香严閒禅师": {
+   "en": "the Chan master Xiangyan Xian",
+   "pinyin": "Xiangyan Xian chanshi",
+   "status": "attested",
+   "note": "The Tang Chan monk to whom the novel ascribes the waterfall couplet A-Chu quotes in Chapter 15; the poem (瀑布联句) is more commonly attributed to Huangbo Xiyun with the future Emperor Xuanzong, Xiangyan being a competing ascription. See the note at Chapter 15."
+  },
+  "黄三元": {
+   "en": "Huang Sanyuan",
+   "pinyin": "Huang Sanyuan",
+   "status": "decided",
+   "note": "Senior detective of the French Concession police and chief of the Hongmen; a power on both the lawful and the underworld side (\"black and white\") of the Shanghai waterfront. A-Chu swears brotherhood with him."
+  },
+  "土肥原贤二": {
+   "en": "Doihara Kenji",
+   "pinyin": "Tu Feiyuan Xian’er",
+   "status": "attested",
+   "note": "Historical Japanese Army general and spymaster in China (1883–1948); hanged as a Class-A war criminal in 1948. See the note at Chapter 17."
+  },
+  "方致同": {
+   "en": "Fang Zhitong",
+   "pinyin": "Fang Zhitong",
+   "status": "decided",
+   "note": "Secretary of the CCP Central Special Branch; the direct commander of Muci’s mission."
+  },
+  "刘阿四": {
+   "en": "Liu A-Si",
+   "pinyin": "Liu A-Si",
+   "status": "provisional",
+   "note": "One of A-Chu’s men, formerly in Rong Chu’s following; a jianghu tough. (阿四 = \"A-Si,\" a familiar name, not a number.)"
+  },
+  "陆良晨": {
+   "en": "Lu Liangchen",
+   "pinyin": "Lu Liangchen",
+   "status": "provisional",
+   "note": "One of A-Chu’s men, formerly in Rong Chu’s following."
+  },
+  "酒井一郎": {
+   "en": "Sakai Ichirō",
+   "pinyin": "Jiujing Yilang",
+   "status": "decided",
+   "note": "A Japanese among the four men Xu Yuzhen sent to kidnap Han Yu; killed by A-Chu’s men."
+  },
+  "陆羽": {
+   "en": "Lu Yu",
+   "pinyin": "Lu Yu",
+   "status": "attested",
+   "note": "Tang author of the Classic of Tea (茶经), honored as the Sage of Tea. See the note at Chapter 17."
+  },
+  "李沁红": {
+   "en": "Li Qinhong",
+   "pinyin": "Li Qinhong",
+   "status": "decided",
+   "note": "A major of the Second Section (二处) of the Detective Division, Central Shanghai Garrison Command; 'the Flower of Juntong' (军统之花), its star operative, who takes Fang Zhitong on the river boat."
+  },
+  "熊自达": {
+   "en": "Xiong Zida",
+   "pinyin": "Xiong Zida",
+   "status": "decided",
+   "note": "Chief (处长) of the Detective Division of the Central Shanghai Garrison Command; Muci's superior."
+  },
+  "高磊": {
+   "en": "Gao Lei",
+   "pinyin": "Gao Lei",
+   "status": "decided",
+   "note": "A captain (高队长, Captain Gao) in the Detective Division; Muci's colleague."
+  },
+  "明参谋": {
+   "en": "Staff Officer Ming",
+   "pinyin": "Ming canmou",
+   "status": "decided",
+   "note": "A staff officer of the Second Section of the Detective Division; Muci's colleague."
+  },
+  "向": {
+   "en": "Xiang",
+   "pinyin": "Xiang",
+   "status": "decided",
+   "note": "The underground cover-surname of Fang Zhitong (方致同): 老向 Old Xiang, 向先生 Mr. Xiang, 向书记 Secretary Xiang. See Chapter 21 footnote."
+  },
+  "岳嬷嬷": {
+   "en": "Amah A-Yue",
+   "pinyin": "Yue mama",
+   "status": "decided",
+   "note": "The 嬷嬷 (amah/nurse) form of 阿岳 (A-Yue), Yang Mulian's wet-nurse, her face burned in the fire; she keeps house for A-Chu. Same referent as 阿岳; rendered 'Amah A-Yue' when named."
+  },
+  "荣儿": {
+   "en": "Rong'er",
+   "pinyin": "Rong'er",
+   "status": "decided",
+   "note": "Affectionate diminutive of 荣初 (Rong Chu), used by A-Chu and Amah A-Yue."
+  },
+  "初儿": {
+   "en": "Chu'er",
+   "pinyin": "Chu'er",
+   "status": "decided",
+   "note": "Diminutive of the dead twin 杨慕初; the name his mother cries out. Rendered 'Chu'er' to keep it distinct from the living A-Chu (阿初)."
+  },
+  "小吴": {
+   "en": "Little Wu",
+   "pinyin": "Xiao Wu",
+   "status": "decided",
+   "note": "Muci's orderly (勤务兵) at the Central Shanghai Commandant's Office."
+  },
+  "焦同顺": {
+   "en": "Jiao Tongshun",
+   "pinyin": "Jiao Tongshun",
+   "status": "provisional",
+   "note": "Head of the decryption group of the Detective Division's Second Section."
+  },
+  "徐诚": {
+   "en": "Xu Cheng",
+   "pinyin": "Xu Cheng",
+   "status": "provisional",
+   "note": "Head of the intelligence group of the Detective Division's Second Section."
+  },
+  "刘云": {
+   "en": "Liu Yun",
+   "pinyin": "Liu Yun",
+   "status": "decided",
+   "note": "Major Liu Yun, an adjutant of the Detective Division; addressed throughout as Adjutant Liu (刘副官)."
+  },
+  "陆阿贞": {
+   "en": "Lu A-Zhen",
+   "pinyin": "Lu A-Zhen",
+   "status": "provisional",
+   "note": "Fang Zhitong's woman; shot dead by Li Qinhong at Chapter 22."
+  },
+  "顾顺章": {
+   "en": "Gu Shunzhang",
+   "pinyin": "Gu Shunzhang",
+   "status": "attested",
+   "note": "Historical CCP Special Branch security / Red Squad chief who defected in 1931. See the note at Chapter 22."
+  },
+  "伍豪": {
+   "en": "Wu Hao",
+   "pinyin": "Wu Hao",
+   "status": "attested",
+   "note": "A documented alias of Zhou Enlai (周恩来), directing the Special Branch in Shanghai. See the note at Chapter 22."
+  },
+  "向成发": {
+   "en": "Xiang Chengfa",
+   "pinyin": "Xiang Chengfa",
+   "status": "decided",
+   "note": "Fang Zhitong's full underground cover name (cover-surname 向 Xiang; see the note at Chapter 21). The Detective Division uses both names for the one man."
+  },
+  "钟云迪": {
+   "en": "Zhong Yundi",
+   "pinyin": "Zhong Yundi",
+   "status": "provisional",
+   "note": "Deputy leader of the CCP Central Special Branch's Red Spear Squad; conducts the interviews that flush out the mole (Chapter 26)."
+  },
+  "田秀芸": {
+   "en": "Tian Xiuyun",
+   "pinyin": "Tian Xiuyun",
+   "status": "provisional",
+   "note": "A woman courier of the Special Branch, cover as a cigarette-seller; her alias is Bai Yun (白云), and an old recantation exposes her as a 1927 defector (Chapter 26)."
+  },
+  "白云": {
+   "en": "Bai Yun",
+   "pinyin": "Bai Yun",
+   "status": "provisional",
+   "note": "The alias of Tian Xiuyun (田秀芸); a Communist woman who recanted in 1927. The chapter title 白云可杀不可留 puns on the name. See the note at Chapter 26."
+  },
+  "阿春": {
+   "en": "A-Chun",
+   "pinyin": "A-Chun",
+   "status": "provisional",
+   "note": "Tian Xiuyun's husband; ostensibly a Special Branch peripheral (a police runner) who bails out arrested comrades, but exposed as the Juntong mole 'the Rivet' (Chapter 26)."
+  },
+  "小山缨子": {
+   "en": "Koyama Eiko",
+   "pinyin": "Koyama Eiko (Xiaoshan Yingzi)",
+   "status": "provisional",
+   "note": "The Japanese intelligence agent who lives in the Yang house as the false 徐玉真/Xu Yuzhen and radios under the call-sign the Imperial Flower; her real name is disclosed at Chapter 29. Reading of 缨子 as &#8216;Eiko&#8217; is a provisional romanization."
+  },
+  "汪精卫": {
+   "en": "Wang Jingwei",
+   "pinyin": "Wang Jingwei",
+   "status": "attested",
+   "note": "Senior Nationalist leader; the slogan 曲线救亡 (&#8216;salvation by a roundabout path&#8217;) attaches to him, and he headed a Japanese-sponsored government at Nanjing in 1940. Named at Chapter 29 (footnoted)."
+  },
+  "毛泽东": {
+   "en": "Mao Zedong",
+   "pinyin": "Mao Zedong",
+   "status": "attested",
+   "note": "CCP leader; named at Chapter 29 as the author of a newspaper article."
+  },
+  "明堂": {
+   "en": "Ming Tang",
+   "pinyin": "Ming Tang",
+   "status": "decided",
+   "note": "Head of the Ming enterprises (mining), thirty-eight, one of those in charge of the Shanghai Stock Exchange; go-between and buyer's broker for the ruin of the Yang enterprises."
+  },
+  "小山千野": {
+   "en": "Koyama Chino",
+   "pinyin": "Koyama Chino",
+   "status": "provisional",
+   "note": "Koyama Eiko's elder sibling and handler, a senior Japanese Army General Staff intelligence officer who cultivated her and unearthed Yang Yuhua; the source assigns no gendered pronoun, so none is supplied."
+  },
+  "泰利士": {
+   "en": "Thales",
+   "pinyin": "Tailishi",
+   "status": "attested",
+   "note": "Thales of Miletus, the Greek philosopher; invoked via Plato's well anecdote (see the note at Chapter 32)."
+  },
+  "柏拉图": {
+   "en": "Plato",
+   "pinyin": "Bailatu",
+   "status": "attested",
+   "note": "The Greek philosopher; the coded book between Xia Yuechun and A-Chu, source of the Thales anecdote."
+  },
+  "尼采": {
+   "en": "Nietzsche",
+   "pinyin": "Nicai",
+   "status": "attested",
+   "note": "Friedrich Nietzsche; Yang Yuhua quotes the tree-and-roots line from Thus Spoke Zarathustra (see the note at Chapter 32)."
+  },
+  "梁启超": {
+   "en": "Liang Qichao",
+   "pinyin": "Liang Qichao",
+   "status": "attested",
+   "note": "The reformist thinker (1873-1929), credited in the text with On the Distinction of the Three Realms of Civilized and Barbarous (see the note at Chapter 32)."
+  },
+  "明轩": {
+   "en": "Mingxuan",
+   "pinyin": "Mingxuan",
+   "status": "provisional",
+   "note": "The two characters penned on the silk cover of the notebook in the blue book-bag; a studio- or given-name whose bearer is not yet identified."
+  },
+  "百川丛惠子": {
+   "en": "Momokawa Keiko",
+   "pinyin": "Momokawa Keiko (Baichuan Conghuizi)",
+   "status": "provisional",
+   "note": "The false Amah A-Yue's true name, disclosed under interrogation in Chapter 34: a Tokyo kabuki performer recruited as a seduction agent in 1909, who murdered the real Amah A-Yue (岳嬷嬷) twenty years before and lay hidden at Ciyun Temple in her guise. Read in the Japanese manner like her fellow agents (百川 = Momokawa, 惠子 = Keiko); the graph 丛 has no settled kana reading, so the romanization is provisional."
+  },
+  "爱中": {
+   "en": "Aizhong",
+   "pinyin": "Aizhong",
+   "status": "decided",
+   "note": "One of the twin sons born to A-Chu and He Yashu in December 1933 (Chapter 35). With 爱华/Aihua the names read together as 爱中华, 'love China.'"
+  },
+  "爱华": {
+   "en": "Aihua",
+   "pinyin": "Aihua",
+   "status": "decided",
+   "note": "The other twin son of A-Chu and He Yashu (Chapter 35); see 爱中/Aizhong."
   }
+ },
+ "organizations": {
+  "中共": {
+   "en": "the Chinese Communist Party",
+   "pinyin": "Zhonggong",
+   "status": "attested",
+   "note": "Abbreviated CCP."
+  },
+  "特科": {
+   "en": "the Special Branch",
+   "pinyin": "Teke",
+   "status": "attested",
+   "note": "The CCP's clandestine intelligence and security service (中央特科), founded 1927 and active in Shanghai; here Yang Muci's and Lao Yu's organ. See the note at Chapter 4."
+  },
+  "军统": {
+   "en": "Juntong",
+   "pinyin": "Juntong",
+   "status": "attested",
+   "note": "The Kuomintang's Bureau of Investigation and Statistics (secret police). The name is strictly of 1938; its use for 1931 is a mild anachronism. See the note at Chapter 4."
+  },
+  "中央警官学校": {
+   "en": "the Central Police Academy",
+   "pinyin": "Zhongyang Jingguan Xuexiao",
+   "status": "decided",
+   "note": "Whose 'Special Police' training class is the cover for Juntong recruitment in the novel."
+  },
+  "丰汇银行": {
+   "en": "Fenghui Bank",
+   "pinyin": "Fenghui Yinhang",
+   "status": "provisional",
+   "note": "The Yang family bank."
+  },
+  "英国皇家医学院": {
+   "en": "the Royal Medical College",
+   "pinyin": "Yingguo Huangjia Yixueyuan",
+   "status": "decided",
+   "note": "The novel's British medical institution; rendered literally. Britain's actual bodies are the Royal Colleges of Physicians and of Surgeons."
+  },
+  "东京大学": {
+   "en": "Tokyo Imperial University",
+   "pinyin": "Dongjing Daxue",
+   "status": "attested",
+   "note": "Where Yang Muci studied; in the 1931 setting its name was Tokyo Imperial University (东京帝国大学)."
+  },
+  "兰心西餐厅": {
+   "en": "the Lanxin Western Restaurant",
+   "pinyin": "Lanxin Xicanting",
+   "status": "provisional",
+   "note": "兰心 ('orchid heart') is the Chinese name of Shanghai's Lyceum."
+  },
+  "刘记珠宝行": {
+   "en": "the Liu Jewelry House",
+   "pinyin": "Liuji Zhubaohang",
+   "status": "decided",
+   "note": "刘记 = 'Liu's'; the shop from which the Rong child is snatched."
+  },
+  "共产党宣言": {
+   "en": "the Communist Manifesto",
+   "pinyin": "Gongchandang Xuanyan",
+   "status": "attested",
+   "note": "Marx and Engels, 1848. See the note at Chapter 2."
+  },
+  "人权宣言": {
+   "en": "the Declaration of the Rights of Man",
+   "pinyin": "Renquan Xuanyan",
+   "status": "attested",
+   "note": "The French revolutionary declaration of 1789."
+  },
+  "杭州警察学校": {
+   "en": "the Hangzhou Police School",
+   "pinyin": "Hangzhou Jingcha Xuexiao",
+   "status": "decided",
+   "note": "The public front through which recruits are funnelled to the Central Police Academy's Special Police class."
+  },
+  "虹霞女子学校": {
+   "en": "the Hongxia Girls' School",
+   "pinyin": "Hongxia Nuzi Xuexiao",
+   "status": "provisional",
+   "note": "A Shanghai aristocratic girls' school named in the novel (also 虹霞女子贵族学校, the Hongxia Girls' Aristocratic School)."
+  },
+  "圣玛利亚女子学校": {
+   "en": "St. Mary's Girls' School",
+   "pinyin": "Sheng Maliya Nuzi Xuexiao",
+   "status": "attested",
+   "note": "St. Mary's Hall, a real elite girls' school in Republican Shanghai."
+  },
+  "明晨女子学校": {
+   "en": "the Mingchen Girls' School",
+   "pinyin": "Mingchen Nuzi Xuexiao",
+   "status": "provisional",
+   "note": "The Shanghai girls' school Xin Lili names as her own."
+  },
+  "华美书店": {
+   "en": "the Huamei Bookstore",
+   "pinyin": "Huamei Shudian",
+   "status": "decided",
+   "note": "The two-story bookstore run by Ronghua."
+  },
+  "同济医院": {
+   "en": "the Tongji Hospital",
+   "pinyin": "Tongji Yiyuan",
+   "status": "attested",
+   "note": "Where A-Chu takes a post on returning to Shanghai; 同济 is the real Tongji."
+  },
+  "上海白话报": {
+   "en": "the Shanghai Vernacular News",
+   "pinyin": "Shanghai Baihua Bao",
+   "status": "provisional",
+   "note": "A Shanghai newspaper named in the novel."
+  },
+  "妇女先锋": {
+   "en": "the Women's Vanguard",
+   "pinyin": "Funu Xianfeng",
+   "status": "provisional",
+   "note": "A women's magazine whose reporters accost Lishui at the harbour."
+  },
+  "电讯技术": {
+   "en": "Telecommunications Technology",
+   "pinyin": "Dianxun Jishu",
+   "status": "decided",
+   "note": "A trade magazine Muci is sent to fetch at the training school."
+  },
+  "财经新闻报": {
+   "en": "the Financial News",
+   "pinyin": "Caijing Xinwen Bao",
+   "status": "provisional",
+   "note": "A Shanghai financial newspaper; Lao Yu’s public cover and, in its basement, a Special Branch transmitting spot."
+  },
+  "上海警备司令部": {
+   "en": "the Shanghai Garrison Command",
+   "pinyin": "Shanghai Jingbei Silingbu",
+   "status": "attested",
+   "note": "The Nationalist military garrison authority for the city, whose cars close on the newspaper offices minutes too late."
+  },
+  "金龙帮": {
+   "en": "the Golden Dragon Society",
+   "pinyin": "Jinlong Bang",
+   "status": "decided",
+   "note": "Also 金龙帮会; the old-Shanghai secret society led by Yang Mulian's maternal grandfather, wiped out by Japanese in the same season as the Yang murders. Its scattered remnants still answer to A-Chu as the Yang heir."
+  },
+  "第三共产国际": {
+   "en": "the Third Communist International",
+   "pinyin": "Disan Gongchan Guoji",
+   "status": "attested",
+   "note": "The Comintern (共产国际), founded by Lenin in 1919; Cong Feng is said to have joined it in the Soviet Union. See the note at Chapter 12."
+  },
+  "大光明电影院": {
+   "en": "the Grand Theatre",
+   "pinyin": "Daguangming Dianyingyuan",
+   "status": "attested",
+   "note": "大光明 ('great brightness'); a famous Shanghai cinema. Here only a passing reference (the girls touting at its door)."
+  },
+  "万家灯火": {
+   "en": "the Myriad Lamplights",
+   "pinyin": "Wanjia Denghuo",
+   "status": "provisional",
+   "note": "The eating-house where A-Chu stands host to Han Yu and Xia Yuechun; the name is the set phrase for a city aglow with a myriad household lamps."
+  },
+  "上海警察局": {
+   "en": "the Shanghai Police Bureau",
+   "pinyin": "Shanghai jingchaju",
+   "status": "decided",
+   "note": "Han Zhengqi is its deputy chief (副局长); addressed as Chief Han (韩局长)."
+  },
+  "龙华分局": {
+   "en": "the Longhua sub-bureau",
+   "pinyin": "Longhua fenju",
+   "status": "decided",
+   "note": "The Longhua district police sub-bureau of Shanghai, whose chief (an old army friend) brings Han Zhengqi into the police."
+  },
+  "青红帮": {
+   "en": "the Green and Red Gangs",
+   "pinyin": "Qing-Hong bang",
+   "status": "attested",
+   "note": "The Green Gang (青帮) and the Hong/Red Gang (洪帮), the great secret-society brotherhoods of Republican Shanghai; Young Tang names them as A-Chu's likely enemies after the hospital bombing."
+  },
+  "外务部": {
+   "en": "the Ministry of Foreign Affairs",
+   "pinyin": "Waiwubu",
+   "status": "decided",
+   "note": "The government office where A-Chu processes his papers to go abroad."
+  },
+  "东洋公司": {
+   "en": "the Dongyang Company",
+   "pinyin": "Dongyang gongsi",
+   "status": "decided",
+   "note": "A Japanese-owned trading firm, the Yang family bank's longest and closest partner; A-Chu brands the tie treason."
+  },
+  "森林溜冰俱乐部": {
+   "en": "the Forest Skating Club",
+   "pinyin": "Senlin liubing julebu",
+   "status": "decided",
+   "note": "The signature on a coded newspaper notice used to arrange a clandestine meeting."
+  },
+  "上海时事日报": {
+   "en": "the Shanghai Current Affairs Daily",
+   "pinyin": "Shanghai Shishi Ribao",
+   "status": "provisional",
+   "note": "English-language Shanghai daily; its classified/advertisement column carries the CCP contact signals (Drifting Wind, Timely Rain, Mr. Lin Tan)."
+  },
+  "新闻晚报": {
+   "en": "the Evening News",
+   "pinyin": "Xinwen Wanbao",
+   "status": "provisional",
+   "note": "A Shanghai evening paper A-Chu throws down at the dinner table."
+  },
+  "沪中警备司令部": {
+   "en": "the Central Shanghai Garrison Command",
+   "pinyin": "Huzhong jingbei silingbu",
+   "status": "decided",
+   "note": "Yang Muci's cover posting (a major and adjutant in its Detective Division). Distinct rendering from 上海警备司令部, the Shanghai Garrison Command."
+  },
+  "侦缉处": {
+   "en": "the Detective Division",
+   "pinyin": "zhenjichu",
+   "status": "decided",
+   "note": "Investigation/detective branch of the Central Shanghai Garrison Command; Muci's cover unit."
+  },
+  "白玫瑰": {
+   "en": "the White Rose",
+   "pinyin": "Bai Meigui",
+   "status": "decided",
+   "note": "The ballroom where Xin Lili takes a cover post as a dance hostess after graduation."
+  },
+  "玫瑰舞厅": {
+   "en": "the Rose Ballroom",
+   "pinyin": "Meigui wuting",
+   "status": "decided",
+   "note": "A Shanghai ballroom named in a tabloid headline."
+  },
+  "洪门": {
+   "en": "the Hongmen",
+   "pinyin": "Hongmen",
+   "status": "attested",
+   "note": "A historical Chinese secret society and sworn-brotherhood network; here represented on the French Concession side by Huang Sanyuan."
+  },
+  "立洋社": {
+   "en": "the Liyang Society",
+   "pinyin": "Liyang-she",
+   "status": "provisional",
+   "note": "A Japanese intelligence organ in the novel; not attested under this name in the historical record (see note at Chapter 17)."
+  },
+  "东洋学馆": {
+   "en": "the Eastern Institute",
+   "pinyin": "Dongyang Xueguan",
+   "status": "provisional",
+   "note": "The \"Eastern Institute\" on Kunshan Road, a front of the Liyang Society in the novel (see note at Chapter 17)."
+  },
+  "中央特委": {
+   "en": "the Central Special Committee",
+   "pinyin": "Zhongyang Tewei",
+   "status": "decided",
+   "note": "The CCP’s Central Special Committee, whose enlarged meeting Muci’s cell is charged with servicing."
+  },
+  "特高科": {
+   "en": "the Special Higher Police",
+   "pinyin": "Tegao-ke",
+   "status": "attested",
+   "note": "The Tokkō, Japan’s Special Higher Police."
+  },
+  "参谋本部": {
+   "en": "the Army General Staff",
+   "pinyin": "Canmou Benbu",
+   "status": "decided",
+   "note": "The Japanese Army General Staff (Sanbō Honbu), named on the captured survey maps."
+  },
+  "陆地测量部": {
+   "en": "the Land Survey Department",
+   "pinyin": "Ludi Celiang-bu",
+   "status": "decided",
+   "note": "The Japanese Army’s land-survey bureau, named on the maps (also 陆军测量部)."
+  },
+  "春和医院": {
+   "en": "the Chunhe Hospital",
+   "pinyin": "Chunhe Yiyuan",
+   "status": "decided",
+   "note": "Xia Yuechun’s family hospital, held as ancestral property."
+  },
+  "海关总署": {
+   "en": "the Customs House",
+   "pinyin": "Haiguan Zongshu",
+   "status": "decided",
+   "note": "The Maritime Customs head office, where Han Yu is posted."
+  },
+  "百乐门": {
+   "en": "the Paramount",
+   "pinyin": "Bailemen",
+   "status": "attested",
+   "note": "The Paramount Ballroom, a famous Shanghai dance hall; here the house to which Young Tang is packed off."
+  },
+  "英伦茶室": {
+   "en": "the English Tearoom",
+   "pinyin": "Yinglun Chashi",
+   "status": "decided",
+   "note": "The English-style tearoom near the garrison command where A-Chu meets his twin; distinct from the plain 英国茶室 ('an English tearoom') mentioned once."
+  },
+  "英伦时报": {
+   "en": "the English Times",
+   "pinyin": "Yinglun Shibao",
+   "status": "provisional",
+   "note": "An English-language newspaper A-Chu reads in the tearoom (fictional)."
+  },
+  "大光明旅社": {
+   "en": "the Grand Light Hostel",
+   "pinyin": "Daguangming Lushe",
+   "status": "decided",
+   "note": "The 大光明 ('great brightness') hostel proposed as the meeting site; distinct from the like-named 大光明电影院 (the Grand Theatre)."
+  },
+  "沪中长官公署": {
+   "en": "the Central Shanghai Commandant's Office",
+   "pinyin": "Huzhong Zhangguan Gongshu",
+   "status": "decided",
+   "note": "The administrative seat where Muci is posted; the headquarters office of the 沪中警备司令部 (the Central Shanghai Garrison Command)."
+  },
+  "美琪大戏院": {
+   "en": "the Majestic Theatre",
+   "pinyin": "Meiqi da xiyuan",
+   "status": "attested",
+   "note": "Cinema at No. 66 Gordon Road; still standing today as the 美琪大戏院."
+  },
+  "英国巡捕房": {
+   "en": "the British police station",
+   "pinyin": "Yingguo xunbufang",
+   "status": "decided",
+   "note": "The International Settlement (British) police station at No. 511 Gordon Road."
+  },
+  "红枪队": {
+   "en": "the Red Spear Squad",
+   "pinyin": "Hongqiang dui",
+   "status": "decided",
+   "note": "An action unit of the CCP Central Special Branch, sworn to root out traitors and avenge fallen comrades (Chapter 26)."
+  },
+  "杨氏实业社": {
+   "en": "the Yang Industrial Company",
+   "pinyin": "Yangshi shiye she",
+   "status": "decided",
+   "note": "A-Chu's business front; reported to have bought out the Xianghe Cotton Mill (Chapter 26)."
+  },
+  "祥和纱厂": {
+   "en": "the Xianghe Cotton Mill",
+   "pinyin": "Xianghe shachang",
+   "status": "decided",
+   "note": "A cotton mill bought out by the Yang Industrial Company (Chapter 26). Distinct from 祥和里, Xianghe Lane."
+  },
+  "兰心大戏院": {
+   "en": "the Lanxin Theatre",
+   "pinyin": "Lanxin da xiyuan",
+   "status": "decided",
+   "note": "A Shanghai theatre (the historical Lyceum Theatre); He Yashu says they saw a Shaoxing opera there (Chapter 25). Romanized 'Lanxin' to match the Lanxin Western Restaurant."
+  },
+  "白玫瑰舞厅": {
+   "en": "the White Rose Ballroom",
+   "pinyin": "Bai Meigui wuting",
+   "status": "decided",
+   "note": "A dance hall A-Chu offers to stand the Detective Division men (Chapter 25); cf. the White Rose (白玫瑰)."
+  },
+  "仁爱医院": {
+   "en": "the Ren'ai Hospital",
+   "pinyin": "Ren'ai yiyuan",
+   "status": "provisional",
+   "note": "A hospital in England to which Xia Yuechun sends the nurses as year-long probationers (Chapter 25)."
+  },
+  "中国民权保障同盟": {
+   "en": "the China League for Civil Rights",
+   "pinyin": "Zhongguo Minquan Baozhang Tongmeng",
+   "status": "attested",
+   "note": "Civil-liberties body founded in Shanghai, December 1932 (Song Qingling, Cai Yuanpei, Yang Quan). Chapter 29 (footnoted)."
+  },
+  "关东军": {
+   "en": "the Kwantung Army",
+   "pinyin": "Guandong jun",
+   "status": "attested",
+   "note": "The Japanese army in the Northeast; staged the Mukden Incident of 18 September 1931. Chapter 28."
+  },
+  "东北军": {
+   "en": "the Northeast Army",
+   "pinyin": "Dongbei jun",
+   "status": "decided",
+   "note": "Zhang Xueliang&#8217;s forces in Manchuria. Chapter 28."
+  },
+  "真理报": {
+   "en": "Pravda",
+   "pinyin": "Zhenli Bao",
+   "status": "attested",
+   "note": "The Soviet Communist Party newspaper. Chapter 29."
+  },
+  "新中华报": {
+   "en": "the Xin Zhonghua Bao",
+   "pinyin": "Xin Zhonghua Bao",
+   "status": "decided",
+   "note": "A Chinese Communist newspaper. Chapter 29. (The paper of this name ran at Yan&#8217;an from 1937; the reference is loose for the early-1930s setting.)"
+  },
+  "明氏企业": {
+   "en": "the Ming enterprises",
+   "pinyin": "Ming shi qiye",
+   "status": "decided",
+   "note": "Ming Tang's family firm, in mining; also a power at the Shanghai Stock Exchange."
+  },
+  "上海证券交易所": {
+   "en": "the Shanghai Stock Exchange",
+   "pinyin": "Shanghai zhengquan jiaoyisuo",
+   "status": "decided",
+   "note": "Where the Yang fortune is sold off; A-Chu, through Ming Tang, engineers its collapse."
+  },
+  "上海新闻报": {
+   "en": "the Shanghai News",
+   "pinyin": "Shanghai Xinwen Bao",
+   "status": "provisional",
+   "note": "The newspaper whose photograph of Yang Sitong and 'Young Master Rong' helps push Yang Yuhua to sell."
+  },
+  "陈氏温室花房": {
+   "en": "Chen's Greenhouse Flower-House",
+   "pinyin": "Chen shi wenshi huafang",
+   "status": "decided",
+   "note": "The florist named on the card in the blue book-bag left in the Huamei Bookstore."
+  },
+  "东方杂志": {
+   "en": "the Eastern Miscellany",
+   "pinyin": "Dongfang Zazhi",
+   "status": "attested",
+   "note": "The long-running Shanghai magazine (Commercial Press, 1904&#8211;1948), rendered by its standard English title; it carries the Yang wedding photograph in Chapter 35."
+  },
+  "申报": {
+   "en": "the Shen Bao",
+   "pinyin": "Shen Bao",
+   "status": "attested",
+   "note": "Shanghai's most famous daily newspaper (1872&#8211;1949); among the papers A-Chu lays out for Muci in Chapter 35."
+  },
+  "明风矿厂": {
+   "en": "the Mingfeng Mine",
+   "pinyin": "Mingfeng Kuangchang",
+   "status": "decided",
+   "note": "One of the Yang concerns (with the Xianghe Cotton Mill) from which Yang Yuhua is accused of stealing fifty million; part of the Ming enterprises."
+  },
+  "荣氏药业公司": {
+   "en": "the Rong Pharmaceutical Company",
+   "pinyin": "Rongshi Yaoye Gongsi",
+   "status": "decided",
+   "note": "The Rong family's pharmaceutical business, of which Rong Sheng is heir (Chapter 35 marriage notice)."
+  }
+ },
+ "places": {
+  "中国": {
+   "en": "China",
+   "pinyin": "Zhongguo",
+   "status": "attested",
+   "note": ""
+  },
+  "上海": {
+   "en": "Shanghai",
+   "pinyin": "Shanghai",
+   "status": "attested",
+   "note": "The novel's principal setting."
+  },
+  "日本": {
+   "en": "Japan",
+   "pinyin": "Riben",
+   "status": "attested",
+   "note": ""
+  },
+  "东京": {
+   "en": "Tokyo",
+   "pinyin": "Dongjing",
+   "status": "attested",
+   "note": ""
+  },
+  "山东": {
+   "en": "Shandong",
+   "pinyin": "Shandong",
+   "status": "attested",
+   "note": "The bride's home province."
+  },
+  "英国": {
+   "en": "England / Britain",
+   "pinyin": "Yingguo",
+   "status": "attested",
+   "note": "Rendered 'England' or 'Britain' as the sense requires."
+  },
+  "伦敦": {
+   "en": "London",
+   "pinyin": "Lundun",
+   "status": "attested",
+   "note": ""
+  },
+  "卡迪芙": {
+   "en": "Cardiff",
+   "pinyin": "Kadifu",
+   "status": "attested",
+   "note": "In Wales; where Rong Sheng and A-Chu live. See the note at Chapter 3 on the source's 威尔逊卡迪芙."
+  },
+  "威尔士": {
+   "en": "Wales",
+   "pinyin": "Wei'ershi",
+   "status": "attested",
+   "note": ""
+  },
+  "巴黎": {
+   "en": "Paris",
+   "pinyin": "Bali",
+   "status": "attested",
+   "note": "Where Cong Hui hopes to open a clinic with A-Chu."
+  },
+  "加拿大": {
+   "en": "Canada",
+   "pinyin": "Jianada",
+   "status": "attested",
+   "note": ""
+  },
+  "杭州": {
+   "en": "Hangzhou",
+   "pinyin": "Hangzhou",
+   "status": "attested",
+   "note": "Yang Muci's destination, and the police school's city."
+  },
+  "嘉兴": {
+   "en": "Jiaxing",
+   "pinyin": "Jiaxing",
+   "status": "attested",
+   "note": "Where the boat lies overnight."
+  },
+  "苏区": {
+   "en": "the Soviet areas",
+   "pinyin": "Suqu",
+   "status": "attested",
+   "note": "The Chinese Communist base areas of the early 1930s, where Yang Muci wishes to be sent."
+  },
+  "梨云阁": {
+   "en": "the Liyun Pavilion",
+   "pinyin": "Liyun Ge",
+   "status": "decided",
+   "note": "A courtyard structure in the Rong mansion."
+  },
+  "墨菊斋": {
+   "en": "the Moju Studio",
+   "pinyin": "Moju Zhai",
+   "status": "decided",
+   "note": "A-Chu's quarters in the Rong mansion."
+  },
+  "红梨阁": {
+   "en": "the Hongli Pavilion",
+   "pinyin": "Hongli Ge",
+   "status": "decided",
+   "note": "Fourth Madam's quarters in the Rong mansion."
+  },
+  "延安": {
+   "en": "Yan’an",
+   "pinyin": "Yan'an",
+   "status": "attested",
+   "note": "The Communist base in northern Shaanxi; Ronghua’s wireless link runs between Shanghai and Yan’an. (The Party’s seat only from 1937; its use in the novel’s earlier setting is a mild anachronism, as with ‘Juntong.’)"
+  },
+  "愚园路": {
+   "en": "Yuyuan Road",
+   "pinyin": "Yuyuan Lu",
+   "status": "attested",
+   "note": "A fashionable road in western Shanghai; the site of Yang Yubo’s mansion."
+  },
+  "慈云寺": {
+   "en": "the Ciyun Temple",
+   "pinyin": "Ciyun Si",
+   "status": "provisional",
+   "note": "The temple Fourth Madam visits at Qingming to burn incense."
+  },
+  "祥和里": {
+   "en": "Xianghe Lane",
+   "pinyin": "Xianghe Li",
+   "status": "provisional",
+   "note": "He Yashu’s address (a 里, a Shanghai lane-house compound)."
+  },
+  "法国公园": {
+   "en": "the French Park",
+   "pinyin": "Faguo Gongyuan",
+   "status": "attested",
+   "note": "Shanghai’s French Park (Parc de Koukaza, now Fuxing Park), in the French Concession; Rong Sheng’s tea rendezvous with He Yashu."
+  },
+  "醉菊榭": {
+   "en": "the Zuiju Waterside Pavilion",
+   "pinyin": "Zuiju Xie",
+   "status": "decided",
+   "note": "Ronghua’s dwelling in the Rong mansion (榭, a waterside pavilion), where she hides the wounded Lao Yu."
+  },
+  "东方饭店": {
+   "en": "the Dongfang Hotel",
+   "pinyin": "Dongfang Fandian",
+   "status": "provisional",
+   "note": "The Shanghai hotel (东方, 'the East') where Fourth Madam stages the storytelling that opens A-Chu's origins to him; rendered by pinyin, since the source's 东方饭店 does not map cleanly onto any one attested Republican-era English hotel name."
+  },
+  "东方书场": {
+   "en": "the Dongfang storytelling house",
+   "pinyin": "Dongfang Shuchang",
+   "status": "provisional",
+   "note": "The storytelling hall (书场) within the Dongfang Hotel, where the tanci performance is given."
+  },
+  "金陵": {
+   "en": "Jinling",
+   "pinyin": "Jinling",
+   "status": "attested",
+   "note": "The classical name for Nanjing; the Yang family's home city in the sung account of their past."
+  },
+  "上海滩": {
+   "en": "the Shanghai Bund",
+   "pinyin": "Shanghai tan",
+   "status": "attested",
+   "note": "The Bund, by metonymy Shanghai itself as a world of money and power."
+  },
+  "长安": {
+   "en": "Chang'an",
+   "pinyin": "Chang'an",
+   "status": "attested",
+   "note": "The Tang capital (modern Xi'an), standing for the far-off imperial city in the tanci aria sung in Chapters 12 and 15."
+  },
+  "德国": {
+   "en": "Germany",
+   "pinyin": "Deguo",
+   "status": "attested",
+   "note": "Where the father's steel talisman was made; Yang Sitong's private physician is likewise a German doctor."
+  },
+  "皇冠酒店": {
+   "en": "the Crown Hotel",
+   "pinyin": "Huangguan jiudian",
+   "status": "provisional",
+   "note": "A Hangzhou hotel where Muci and Xin Lili stay before their final examination."
+  },
+  "玉佛寺路": {
+   "en": "Yufo Temple Road",
+   "pinyin": "Yufosi Lu",
+   "status": "provisional",
+   "note": "Shanghai street (Jade Buddha Temple Road) where the Milan Cafe stands."
+  },
+  "米兰咖啡馆": {
+   "en": "the Milan Cafe",
+   "pinyin": "Milan kafeiguan",
+   "status": "decided",
+   "note": "Cafe on Yufo Temple Road; the second, successful contact site between Ronghua and Muci."
+  },
+  "玫瑰园": {
+   "en": "the Rose Garden",
+   "pinyin": "Meigui yuan",
+   "status": "decided",
+   "note": "A walk within the French Park; the first (failed) rendezvous site."
+  },
+  "飞来峰": {
+   "en": "Feilai Peak",
+   "pinyin": "Feilai Feng",
+   "status": "attested",
+   "note": "The limestone crag by the Lingyin Temple in Hangzhou, famed for its grottoes; A-Chu contrasts it with the pyramids."
+  },
+  "东三省": {
+   "en": "the Three Eastern Provinces",
+   "pinyin": "Dong san sheng",
+   "status": "attested",
+   "note": "Manchuria (Liaoning, Jilin, Heilongjiang), occupied by Japan after the September 18th Incident of 1931."
+  },
+  "昆山路": {
+   "en": "Kunshan Road",
+   "pinyin": "Kunshan Lu",
+   "status": "attested",
+   "note": "A street in the Hongkou district of Shanghai; site of the Japanese Eastern Institute in the novel."
+  },
+  "国际大饭店": {
+   "en": "the Park Hotel",
+   "pinyin": "Guoji Da Fandian",
+   "status": "attested",
+   "note": "The Park Hotel (国际饭店) on Nanjing Road; a Shanghai landmark. (It opened in 1934, slightly later than the story’s date.)"
+  },
+  "黄浦江": {
+   "en": "the Huangpu",
+   "pinyin": "Huangpu Jiang",
+   "status": "attested",
+   "note": "The river through Shanghai; A-Chu’s men dump the kidnappers’ bodies in it."
+  },
+  "沈阳": {
+   "en": "Shenyang",
+   "pinyin": "Shenyang",
+   "status": "attested",
+   "note": "Mukden; seized by the Japanese army in the September 18th Incident."
+  },
+  "中原": {
+   "en": "the Central Plains",
+   "pinyin": "Zhongyuan",
+   "status": "decided",
+   "note": "The Central Plains, the historic heartland of China."
+  },
+  "梅花巷": {
+   "en": "Plum Blossom Lane",
+   "pinyin": "Meihua Xiang",
+   "status": "decided",
+   "note": "An out-of-the-way lane; the delegate Cong Feng is lodged at Number Five, and A-Chu looks at renting Number Seven next door."
+  },
+  "霞飞路": {
+   "en": "Avenue Joffre",
+   "pinyin": "Xiafei Lu",
+   "status": "attested",
+   "note": "The main thoroughfare of the French Concession (today Huaihai Road); here a café on it is the twins' second meeting place."
+  },
+  "恒吉里": {
+   "en": "Hengji Li",
+   "pinyin": "Hengji li",
+   "status": "decided",
+   "note": "Shikumen lane off Gordon Road; in the novel No. 1141 houses the CCP Central Political Bureau's meeting room and confidential secretariat."
+  },
+  "戈登路": {
+   "en": "Gordon Road",
+   "pinyin": "Gedeng lu",
+   "status": "attested",
+   "note": "International Settlement street, printed in the source in Roman letters too; today Jiangning Road (江宁路)."
+  },
+  "静安寺路": {
+   "en": "Bubbling Well Road",
+   "pinyin": "Jingansi lu",
+   "status": "attested",
+   "note": "The concession-era English name of 静安寺路 (today Nanjing West Road, 南京西路)."
+  },
+  "苏州河": {
+   "en": "Suzhou Creek",
+   "pinyin": "Suzhou he",
+   "status": "attested",
+   "note": "The creek forming the north end of Gordon Road."
+  },
+  "威海路": {
+   "en": "Weihai Road",
+   "pinyin": "Weihai lu",
+   "status": "attested",
+   "note": "Shanghai street; site of the Special Branch's old base."
+  },
+  "云南路": {
+   "en": "Yunnan Road",
+   "pinyin": "Yunnan lu",
+   "status": "attested",
+   "note": "Shanghai street; site of the Central Special Committee."
+  },
+  "广东路": {
+   "en": "Guangdong Road",
+   "pinyin": "Guangdong lu",
+   "status": "attested",
+   "note": "Shanghai street; the Central Military Commission is at Qinghefang here."
+  },
+  "清河坊": {
+   "en": "Qinghefang",
+   "pinyin": "Qinghefang",
+   "status": "provisional",
+   "note": "A locale on Guangdong Road named in the novel."
+  },
+  "四马路": {
+   "en": "Fourth Avenue",
+   "pinyin": "Simalu",
+   "status": "decided",
+   "note": "A busy, crowded Shanghai street (present-day Fuzhou Road), rendered by its old foreign-settlement name (Chapter 26)."
+  },
+  "跑马厅": {
+   "en": "the Racecourse",
+   "pinyin": "Paomating",
+   "status": "decided",
+   "note": "The Shanghai Race Course; A-Chun works the quarter around it (Chapter 26)."
+  },
+  "洛阳": {
+   "en": "Luoyang",
+   "pinyin": "Luoyang",
+   "status": "attested",
+   "note": "The ancient capital; in the peony legend Empress Wu Zetian banishes the flower to Luoyang, whence 'the peony of Luoyang is first under heaven' (Chapter 27)."
+  },
+  "闸北区": {
+   "en": "Zhabei District",
+   "pinyin": "Zhabei qu",
+   "status": "attested",
+   "note": "A district of Shanghai; Bai Yun was arrested there in 1927 (Chapter 26)."
+  },
+  "柳条湖": {
+   "en": "Liutiaohu",
+   "pinyin": "Liutiaohu",
+   "status": "attested",
+   "note": "The stretch of the South Manchuria Railway, near Shenyang, where the Kwantung Army staged its 1931 explosion. Chapter 28."
+  },
+  "南满铁路": {
+   "en": "the South Manchuria Railway",
+   "pinyin": "Nan Man tielu",
+   "status": "attested",
+   "note": "The Japanese-run railway in the Northeast. Chapter 28."
+  },
+  "长乐街": {
+   "en": "Changle Street",
+   "pinyin": "Changle jie",
+   "status": "decided",
+   "note": "No. 18 Changle Street, the quiet house Han Zhengqi first found for A-Chu, where Amah A-Yue keeps his household."
+  },
+  "江户": {
+   "en": "Edo",
+   "pinyin": "Jianghu",
+   "status": "attested",
+   "note": "The old name of Tokyo; A-Chu's clue to the false Amah A-Yue's Japanese origin."
+  },
+  "富士山": {
+   "en": "Mount Fuji",
+   "pinyin": "Fushishan",
+   "status": "attested",
+   "note": "Where Yang Yuhua and Koyama Eiko met among the cherry blossoms in 1909; its snowbound summit recalled by the plum-scene embroidery on A-Chu's shoes."
+  },
+  "芸香阁": {
+   "en": "the Yunxiang Pavilion",
+   "pinyin": "Yunxiang Ge",
+   "status": "provisional",
+   "note": "A pleasure-house named only in passing in Chapter 35, where Rong'er is said to have kept a girl hidden."
+  }
+ },
+ "terms": {
+  "宣统": {
+   "en": "the Xuantong reign",
+   "pinyin": "Xuantong",
+   "status": "attested",
+   "note": "Reign title of the last Qing emperor, Puyi. See the note at the Prologue."
+  },
+  "旗人": {
+   "en": "Bannermen",
+   "pinyin": "qiren",
+   "status": "attested",
+   "note": "Members of the Manchu Eight Banners. See the note at Chapter 1."
+  },
+  "天足": {
+   "en": "natural feet",
+   "pinyin": "tianzu",
+   "status": "decided",
+   "note": "Unbound feet, opposed to the bound 'golden lotus.'"
+  },
+  "黄包车": {
+   "en": "rickshaw",
+   "pinyin": "huangbaoche",
+   "status": "decided",
+   "note": "The man-pulled two-wheeled cab of Republican Shanghai."
+  },
+  "箫": {
+   "en": "xiao",
+   "pinyin": "xiao",
+   "status": "attested",
+   "note": "An end-blown vertical bamboo flute of plaintive tone; Rong Sheng's instrument."
+  },
+  "飘风": {
+   "en": "Drifting Wind",
+   "pinyin": "Piaofeng",
+   "status": "decided",
+   "note": "Yang Muci's codename. See the note at Chapter 4."
+  },
+  "时雨": {
+   "en": "Timely Rain",
+   "pinyin": "Shiyu",
+   "status": "decided",
+   "note": "Lao Yu's codename. See the note at Chapter 4."
+  },
+  "林潭": {
+   "en": "Mr. Lin Tan",
+   "pinyin": "Lin Tan",
+   "status": "decided",
+   "note": "The recognition passphrase for post-graduation contact."
+  },
+  "格格": {
+   "en": "gege",
+   "pinyin": "gege",
+   "status": "attested",
+   "note": "A Manchu title for a daughter of the Qing imperial house or higher nobility. See the note at Chapter 6 (He Gege)."
+  },
+  "浮尘": {
+   "en": "Floating Dust",
+   "pinyin": "Fuchen",
+   "status": "decided",
+   "note": "Ronghua’s codename as a Special Branch liaison agent, alongside Yang Muci’s ‘Drifting Wind’ and Lao Yu’s ‘Timely Rain.’"
+  },
+  "龙井": {
+   "en": "Longjing",
+   "pinyin": "Longjing",
+   "status": "attested",
+   "note": "‘Dragon Well,’ the celebrated green tea of Hangzhou."
+  },
+  "清明节": {
+   "en": "the Qingming Festival",
+   "pinyin": "Qingming",
+   "status": "attested",
+   "note": "The spring tomb-sweeping festival, when families tend graves and honor ancestors."
+  },
+  "温莎公爵": {
+   "en": "the Duke of Windsor",
+   "pinyin": "Wensha Gongjue",
+   "status": "attested",
+   "note": "Edward VIII, who abdicated in 1936 to marry Wallis Simpson. See the note at Chapter 10."
+  },
+  "同心结": {
+   "en": "heart-knit knot",
+   "pinyin": "tongxin jie",
+   "status": "decided",
+   "note": "A looped love-token symbolizing joined hearts; the 同心 of the Chapter 10 title. See the note there."
+  },
+  "评弹": {
+   "en": "pingtan",
+   "pinyin": "pingtan",
+   "status": "attested",
+   "note": "Suzhou ballad-storytelling, chanted to the pipa and sanxian; Fourth Madam takes it up as a pretext, and its arias carry the plot in Chapters 12 and 13."
+  },
+  "琵琶": {
+   "en": "pipa",
+   "pinyin": "pipa",
+   "status": "attested",
+   "note": "The four-stringed plucked lute of Chinese music; Fourth Madam's instrument in the pingtan scenes, and the emblem of lament in the Chapter 13 title."
+  },
+  "三弦": {
+   "en": "sanxian",
+   "pinyin": "sanxian",
+   "status": "attested",
+   "note": "A three-stringed long-necked lute that accompanies pingtan; the 小三弦 is its smaller form."
+  },
+  "姨奶奶": {
+   "en": "aunt-mistress",
+   "pinyin": "yi'nainai",
+   "status": "decided",
+   "note": "The household's form of address for a concubine; used by the servants and by Ronghua of the Third and Fourth Madams, and by Rong Chu of his dead mother."
+  },
+  "先生": {
+   "en": "Xiansheng",
+   "pinyin": "xiansheng",
+   "status": "decided",
+   "note": "As a society address: the honorific by which the Golden Dragon Society is to call its chief, which A-Chu imposes in place of the household's 'young master.' The same word is rendered 'Mr.' in ordinary use (e.g. Mr. Chu)."
+  },
+  "沙蟹": {
+   "en": "show-hand",
+   "pinyin": "shaxie",
+   "status": "decided",
+   "note": "The poker game (from English 'show hand'), a Shanghai gambling staple; A-Chu wins Young Tang's tutoring services at it."
+  },
+  "法币": {
+   "en": "fabi",
+   "pinyin": "fabi",
+   "status": "attested",
+   "note": "The Nationalist government's legal-tender paper currency (introduced 1935 in fact; the novel uses the term loosely)."
+  },
+  "弹词": {
+   "en": "tanci",
+   "pinyin": "tanci",
+   "status": "attested",
+   "note": "Sung storytelling to string accompaniment, a Jiangnan tradition; cf. 评弹 (pingtan). Rong Chu keeps quoting it."
+  },
+  "三硝基甲苯": {
+   "en": "trinitrotoluene (TNT)",
+   "pinyin": "sanxiaoji jiaben",
+   "status": "attested",
+   "note": "The high explosive identified in the powder from the hospital bombing."
+  },
+  "帝国之花": {
+   "en": "the Imperial Flower",
+   "pinyin": "diguo zhi hua",
+   "status": "decided",
+   "note": "A codename inked on the Japanese survey maps (帝国之花, \"flower of the empire\"), also used by the spymaster of Japan’s women agents."
+  },
+  "九·一八事变": {
+   "en": "the September 18th Incident",
+   "pinyin": "Jiu-Yi-Ba Shibian",
+   "status": "attested",
+   "note": "The Mukden Incident, 18 September 1931. See note at Chapter 17."
+  },
+  "昭和": {
+   "en": "Shōwa",
+   "pinyin": "Zhaohe",
+   "status": "attested",
+   "note": "A Japanese reign era; Shōwa 4 = 1929."
+  },
+  "姨娘": {
+   "en": "concubine-aunt",
+   "pinyin": "yiniang",
+   "status": "decided",
+   "note": "A concubine of the household as referred to by the children; distinct in direct address from 姨奶奶 (aunt-mistress). As a vocative it is rendered \"Auntie.\""
+  },
+  "铆钉": {
+   "en": "the Rivet",
+   "pinyin": "maoding",
+   "status": "decided",
+   "note": "Codename for the Detective Division's informant planted inside the CCP Special Branch, who telephones in the Hengji Li address."
+  },
+  "雪狼": {
+   "en": "Snow Wolf",
+   "pinyin": "Xuelang",
+   "status": "decided",
+   "note": "Codename of a Central Secretariat secretary, arrested as a murder suspect over the Hengji Li killing and later bailed out (Chapter 26)."
+  },
+  "包打听": {
+   "en": "police runner",
+   "pinyin": "baodating",
+   "status": "provisional",
+   "note": "Old Shanghai slang for a private informer/runner attached to the patrol houses and police; A-Chun's cover identity (Chapter 26)."
+  },
+  "绍兴文戏": {
+   "en": "Shaoxing opera",
+   "pinyin": "Shaoxing wenxi",
+   "status": "decided",
+   "note": "The Shaoxing sung drama, forerunner of Yue opera (越剧); named by He Yashu (Chapter 25)."
+  },
+  "名古屋带": {
+   "en": "a Nagoya obi",
+   "pinyin": "Nagoya obi (Mingguwu dai)",
+   "status": "decided",
+   "note": "A pre-folded kimono sash (a modern, c. 1920 invention). Chapter 30 (footnoted); the memory-clue that marks the murderer as Japanese."
+  },
+  "桃山时代": {
+   "en": "the Momoyama age",
+   "pinyin": "Momoyama (Taoshan shidai)",
+   "status": "decided",
+   "note": "Late-16th-century Japanese period; used loosely in the source for &#8216;old Japanese.&#8217; Chapter 30."
+  },
+  "中国哲学简史": {
+   "en": "A Short History of Chinese Philosophy",
+   "pinyin": "Zhongguo Zhexue Jianshi",
+   "status": "decided",
+   "note": "Feng Youlan&#8217;s book (Macmillan, 1948); used as a recognition password. Chapter 28 (footnoted, anachronism)."
+  },
+  "曲线救亡": {
+   "en": "salvation by a roundabout path",
+   "pinyin": "quxian jiuwang",
+   "status": "decided",
+   "note": "Wang Jingwei&#8217;s accommodationist slogan (also 曲线救国). Chapter 29 (footnoted)."
+  },
+  "翠竹春晓": {
+   "en": "Green Bamboo, Spring Dawn",
+   "pinyin": "Cuizhu Chunxiao",
+   "status": "decided",
+   "note": "The ink landscape in A-Chu&#8217;s study, painted by his wife. Chapter 29."
+  },
+  "伪满": {
+   "en": "the puppet state of Manchukuo",
+   "pinyin": "wei Man",
+   "status": "attested",
+   "note": "The Japanese client state proclaimed in the Northeast, March 1932 (伪满 = &#8216;bogus Manchukuo&#8217;). Chapter 28."
+  },
+  "鸳鸯剑": {
+   "en": "the mandarin-duck swords",
+   "pinyin": "yuanyang jian",
+   "status": "decided",
+   "note": "The lovers' twin-bladed sword of the Dream of the Red Chamber; part of the Chapter 32 title (see the note there)."
+  },
+  "上邪": {
+   "en": "Shang Ye",
+   "pinyin": "Shang Ye",
+   "status": "attested",
+   "note": "A Han yuefu love-oath from the eighteen Nao songs; He Yashu marks it as her own vow (see the note at Chapter 33)."
+  },
+  "文野三界之别": {
+   "en": "On the Distinction of the Three Realms of Civilized and Barbarous",
+   "pinyin": "Wen ye san jie zhi bie",
+   "status": "decided",
+   "note": "The Liang Qichao title A-Chu keeps on his shelves (see the note at Chapter 32)."
+  },
+  "木符": {
+   "en": "wooden charm",
+   "pinyin": "mufu",
+   "status": "decided",
+   "note": "A carved wooden talisman of the kind hung in Japanese temples 'to drive out demons'; in Chapter 34 Muci uses one, swung like a clock-hand, to hypnotize A-Chu, the same craft the false Amah worked on him as a child."
+  }
+ }
 }
