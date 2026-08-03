@@ -1437,3 +1437,145 @@ Build: python3 scripts/build_reading_epub.py "out/The Whistling Wind.epub": 58 o
 translated (ch00-ch57), 93 notes; the TOC stays pending-aware, the 2 untranslated chapters
 (ch58-ch59) still linking their skeleton outlines. qa_epub.py GREEN (72 files, 66 documents,
 93 references / 93 bodies / 93 backlinks, all links resolve).
+
+================================================================================
+## Batch B13 — ch58 (Chapter 58) and ch59 (Impressions of Xu Xu). THE LAST BATCH.
+================================================================================
+
+Scope: the novel's final chapter (ch58, 五十八, 166 source paragraphs) plus the
+appendix ch59 (徐訏印象 "Impressions of Xu Xu", 77 source paragraphs) — a mini-
+anthology of five 2013 Apple Daily appreciations by Joseph S. M. Lau (刘绍铭),
+Liu Bo (刘波, two essays), Shen Xicheng (沈西城), and Chip Tsao (陶杰). Also this
+batch: the deferred Colophon back matter, a whole-book QA pass, and this
+completion record. Register: ch58 in the book's own first-person novelistic
+voice; ch59 in an expository / critical-biographical register (not Xu Xu's
+narration), like ch00.
+
+Note on the source's structure: contrary to the B12 handoff's caveat, the
+appendix title 徐訏印象 IS duplicated at the head of ch59's source (the same
+dittography the numbered chapters carry), so scripts/_zip_bilingual.py worked
+as-is for BOTH units (heads 五十八 and 徐訏印象); no scratch variant was needed.
+
+Pipeline run:
+- Authored English-only files (scratch/ch58_en.txt 166 lines, scratch/ch59_en.txt
+  77 lines), paired to the VERBATIM source with _zip_bilingual.py, then
+  split_bilingual.py to out/<id>_reading.md + data/zh/<id>.txt.
+- Verbatim quotation check (joined '>' blockquotes vs joined source paragraphs,
+  whitespace-stripped): ch58 6,099 == 6,099 chars MATCH; ch59 12,657 == 12,657
+  chars MATCH. No source sentence dropped or paraphrased.
+
+Checks and results:
+- check_numbers.py --noise data/noise.txt: ch58 166 pairs, 0 unresolved; ch59
+  77 pairs, 0 unresolved (after extending data/noise.txt, below).
+- check_structure.py --config over the WHOLE book (all 60 units ch00–ch59):
+  parity OK on every unit (ch58 166/166, ch59 77/77); anchors 103 notes, 0
+  unresolved; headings 1 distinct shape (uniform ## title); glossary drift 0.
+  ALL STRUCTURAL CHECKS PASS.
+- Blind double-translation / back-translation: a subagent cross-translation
+  fact-check was launched but terminated on an API session cap; substituted a
+  manual second pass over the analytical/lyrical passages (ch59's criticism, the
+  Lu Xun letters and the two Lu-Xun couplets in ch59 para 48, ch58's farewell
+  letters), checked line-by-line against the source — faithful, no omission or
+  divergence beyond the intended glitch-normalizations below.
+- Random deep audit (~4%, 10 paragraphs: ch58 14/88/128/157/164, ch59
+  18/32/44/48/71) given the full paranoid treatment against the source. Observed
+  error rate: 0. The two highest-risk passages — ch59 para 32 (the bilingual
+  Lin-Yutang mistranslation comparison, English quotes kept verbatim) and para
+  48 (the two transcribed couplets, 郑思肖 / 李贺) — verified whole.
+- Wade-Giles spot-grep: "Hsu Yu / Lu Hsun / Ts'ung-wen / Wen-ping" appear ONLY
+  inside ch59's quoted mistranslation (intended), nowhere else.
+
+data/noise.txt additions (B13): 正儿八经 (八 idiom, not 8); 「十一」/「七一」 (the
+festival date-names Oct 1 / Jul 1 in guillemets, not quantities); the ch59 essay
+set — [一二三四五六七八九]十年代 (decade labels), 百姓 / 百感交集 / 百货 / 百年 (百 not
+100), 九龙 (Kowloon, 九 not 9), 胡说八道 (八 idiom), 千不该万不该 (千/万 idiom), 万宜
+(Man Yee Bldg, 万 not 10000), 亿万 (billionaire idiom, 万 not 10000), 三不管 (三 not
+3), 二Ｏ一三 (Apple Daily year digitized with a fullwidth Latin O; stray 2), 廿七
+(廿=20 unrecognized, orphans a 7). check_numbers.py WORD_NUM also gained the
+ordinal "nineteenth": 19 (十九世纪 "the nineteenth century").
+
+Source digitization glitches (ch58) — rendered to plain sense, none footnoted:
+- ch58 para 029: 史蒂芬宋太 (intruding 宋) for 史蒂芬太太 → "Mrs. Stephen."
+- ch58 para 052: 我内行的生命 (内行 for 内地) → "the life I am going to in the interior."
+- ch58 para 083: 我又抱话语支开 (抱 for 把) → "I turned the talk aside once more."
+- ch58 para 088: 梅浪子散後 (浪 for 瀛) → "Mei Yingzi gone."
+- ch58 para 123: 一意爱大利的seranade (一意→一支, 爱大利→意大利, seranade sic) → "An
+  Italian serenade."
+- ch58 para 128: 我是多麽自形惭愧 (自形 for 相形 / 自惭形秽) → "how shamed I am by the
+  comparison."
+- ch58 para 129: 换那面环境 (那面 for 个) → "a change of scene."
+- ch58 para 157: 内行旅途生的危险 (内行→内地, 旅途生→旅途中) → "the perils of the road to
+  the interior."
+- ch58 para 158: 频频为我视福 (视 for 祝) → "blessed me over and over."
+ch59 (a 2013 digitized essay) carried no reading glitches; its only artifacts
+were the number-check digitizations handled in noise (fullwidth Latin O in
+二Ｏ一三; the unrecognized 廿).
+
+Footnotes added (10, notes 94–103, assigned by the builder in reading order):
+- note 94 (ch58): the 还乡证 homeward pass — the exit permit to leave occupied
+  Shanghai for the interior; the narrator's quiet acquisition marks his decision
+  as irreversible.
+- note 95 (ch58): the closing 征途 "journey" (a campaign/mission road) returning
+  to the title 风萧萧 and the Jing Ke parting-song motif — the book's last image.
+- note 96 (ch59): the appendix's provenance (five 2013 Apple Daily appreciations,
+  not by Xu Xu) and who Joseph S. M. Lau is.
+- note 97 (ch59): C. T. Hsia (夏志清) and A History of Modern Chinese Fiction
+  (Yale UP 1961) — the omission of Xu Xu that frames essays 1–2. Corroborated.
+- note 98 (ch59): "The Knight of the Sorrowful Countenance" = Don Quixote's
+  self-title (el Caballero de la Triste Figura). Texture.
+- note 99 (ch59): Lin Yutang, coiner of 幽默 and editor of 论语 / 人间世.
+- note 100 (ch59): the 1926 Duan Qirui warrant of forty-eight intellectuals after
+  the March 18 massacre. Corroborated (Xu Shoushang recalled the list of 48, Lu
+  Xun among them; Lu Xun's "darkest day since the founding of the Republic").
+- note 101 (ch59): Lu Xun (周树人), author of The True Story of Ah Q; the
+  Wade-Giles "Lu Hsun" note.
+- note 102 (ch59): the 八股文 "eight-legged essay" of the examination system.
+- note 103 (ch59): the source's "Jewish economist Keynes" CONTRADICTED — Keynes
+  (1883–1946) was of a Congregationalist family, self-described agnostic, not
+  Jewish, and had died before the 1950s policy he is credited with; kept and
+  corrected, not silently amended.
+
+Glossary rows added (glossary.json, now 209 rows across
+book/people/organizations/places/terms): +59 rows for the appendix's real
+figures, works, and places. People (38): the four essayists (Joseph S. M. Lau,
+Liu Bo, Shen Xicheng, Chip Tsao) and the writers/figures they name — C. T. Hsia,
+Lin Yutang, Lu Xun, Eileen Chang, Qian Zhongshu, Shi Tuo, Shen Congwen, Feng
+Wenbing (Fei Ming), Liang Shiqiu, Guan Guan, Wu Luqin, Dong Qiao, Jin Yong (Louis
+Cha), Xiao Tong, Su Xuelin, Chen Yuan (Chen Xiying), Yang Zhensheng, Xu Guangping,
+Zhou Haiying, Tao Kangde, Xu Shiquan, Cao Juren, Zheng Sixiao, Li He, Chen
+Dingshan, Qian Mu, Shu Xiangcheng, Huang Guliu, Wang Zengqi, Zhang Xiaofeng, Li
+Hanxiang, King Hu, Xiao Si (Lo Wai-luen), Ge Fucan, Ge Yuan. Works/orgs (14): A
+History of Modern Chinese Fiction, Lu Xun's Poetry Manuscripts, The Complete
+Works of Lu Xun, Ghost Love, The Analects Fortnightly, This Human World, Humour,
+World Today, Contemporary Review, Biographical Literature, Yu Jun, The True Story
+of Ah Q, The Story of Shrimp Ball, Mulian opera. Places (8): New Asia College,
+Uchiyama Bookstore, Ruttonjee Sanatorium, Shanghai Lu Xun Memorial Hall, Avenue
+Joffre, Bubbling Well Road, Apple Daily, Kowloon City. ch58 reused the whole
+prior cast exactly (Mrs. Manfield, Mrs. Stephen, Helen, Bai Ping, Mei Yingzi,
+Cishan's Third Uncle → the ring's "Cishan's Third Aunt", Ah Mei, Dr. Philip,
+Route Lafayette, Route Prosper Paris, Beiping, the interior, "confirmed bachelor"
+/ "the single life").
+
+Fact-checking (Wikipedia / Baidu Baike / Britannica / zh.wikipedia; no
+LLM-sourced references, no Grok/Grokipedia):
+- C. T. Hsia, A History of Modern Chinese Fiction, Yale UP 1961. Corroborated;
+  note 97.
+- 1926 三一八 massacre and the Duan Qirui government's warrant of "fifty — in fact
+  forty-eight" intellectuals (Xu Shoushang's memoir), Lu Xun named. Corroborated;
+  note 100.
+- J. M. Keynes NOT Jewish (Congregationalist family, agnostic), died 1946.
+  CONTRADICTS the essay's "Jewish economist Keynes ... framer of Britain's [1950s]
+  economic policy"; note 103.
+- Don Quixote's epithet el Caballero de la Triste Figura. Corroborated; note 98.
+
+Colophon (back_matter.json → top-level "colophon", from data/src/02_chapter61.txt):
+风萧萧 / 徐訏 / 成都东方书店 first book edition 1944, and the 上海夜窗书屋 1949 edition,
+with a translated notice_en/date_en. NOTE: the source imprint prints "1944年
+（民国三十一年）", but 民国三十一年 = 1942; 1944 = 民国三十三年. Treated the Republican-year
+figure as a source misprint and rendered the colophon with the correct 民国三十三年
+（一九四四年）, recording the discrepancy here rather than reproducing the error.
+
+Build: python3 scripts/build_reading_epub.py "out/The Whistling Wind.epub":
+60 of 60 chapters translated (ch00–ch59), 103 notes, plus the Colophon back
+matter. qa_epub.py GREEN — 73 files, 67 documents, 103 references / 103 bodies /
+103 backlinks, all links resolve. THE BOOK IS COMPLETE.

@@ -43,6 +43,9 @@ WORD_NUM = {
     # would go missing on a spelled-out date without these.
     "twelfth": 12,
     "thirteenth": 13,
+    # ordinal "nineteenth" renders 十九 (B13, ch59: "the nineteenth century" = 十九世纪).
+    # \bnineteen\b does not match inside "nineteenth", so 19 would go missing without this.
+    "nineteenth": 19,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}

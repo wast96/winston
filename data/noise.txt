@@ -145,3 +145,40 @@ GH[五○九K八×]+
 三叔
 二婶
 三妹
+# --- B13 (ch58-ch59) additions ---
+# 正儿八经 = "proper / straight-faced" idiom (ch59, of Lin Yutang's magazine title); the
+# 八 is idiom, not the count 8. (cf. 八股文 "eight-legged essay" which DOES keep its 8.)
+正儿八经
+# 「十一」/「七一」 = the festival date-names October 1 (PRC National Day) and July 1 (HK
+# Handover), quoted in guillemets (ch59, Chip Tsao essay). 「十一」 parses as 11 and 「七一」
+# would sum to nothing; both are calendar labels, not quantities. Only the quoted forms are
+# stripped, so a bare 十一 (eleven) elsewhere still survives.
+「十一」
+「七一」
+# --- ch59 essay: idioms / place-names / decade labels / date artifacts ---
+# decade labels 七十/五十/四十年代 (a labelled tens, English says "the seventies"); not a count
+[一二三四五六七八九]十年代
+# 寻常百姓 "common folk"; 百 not 100
+百姓
+# 百感交集 "a hundred feelings mingled"; 百 not 100
+百感交集
+# 百货公司 "department store"; 百 not 100
+百货
+# 百年来 "in the past century/lifetime"; 百 not a precise 100
+百年
+# 九龙(城) Kowloon (City); 九 is "nine dragons" in the place-name, not the count 9
+九龙
+# 胡说八道 "talk utter nonsense"; 八 not 8 (cf. 八股文 which keeps its 8)
+胡说八道
+# 千不该万不该 "should never ever have"; 千/万 not 1000/10000
+千不该万不该
+# 万宜大厦 Man Yee Building; 万 not 10000
+万宜
+# 亿万富豪 "billionaire"; 万 in 亿万 is idiom, not 10000 (亿 is unrecognized, orphaning the 万)
+亿万
+# 三不管 "no-man's-land / hands-off"; 三 not 3
+三不管
+# Apple Daily attribution year 二Ｏ一三, digitized with a fullwidth Latin O; the stray 二 parses as 2
+二Ｏ一三
+# 廿七日 "the 27th"; 廿(20) is unrecognized, orphaning a 七 read as 7
+廿七

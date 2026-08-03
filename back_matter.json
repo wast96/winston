@@ -1,11 +1,11 @@
 {
-  "_README": "OPTIONAL back matter. This file is INERT as shipped: the builder only renders a colophon when a top-level 'colophon' key is present. To enable, rename '_colophon_schema' -> 'colophon' and fill it in (e.g. the source's copyright/imprint page, translated). Delete if not needed.",
-  "_colophon_schema": {
-    "title_zh": "中文書名",
-    "author_zh": "作者",
-    "notice_zh": "版權所有",
-    "notice_en": "All rights reserved",
-    "date_zh": "二〇二〇年",
-    "date_en": "First published 2020"
+  "_README": "Back matter. The builder renders a colophon ONLY when a top-level 'colophon' key is present. Filled on B13 from the source's imprint page (data/src/02_chapter61.txt). Numeric character references not required here: render_colophon() HTML-escapes each field, so plain Unicode is written to the UTF-8 XHTML as-is.",
+  "colophon": {
+    "title_zh": "風蕭蕭",
+    "author_zh": "徐訏",
+    "notice_zh": "成都東方書店",
+    "notice_en": "First book edition: Chengdu, Dongfang Book Company, 1944",
+    "date_zh": "民國三十三年（一九四四年）初版・上海夜窗書屋一九四九年版",
+    "date_en": "First serialized in the Sao dang bao literary supplement, Chongqing, March 1943; a Shanghai Yechuang Shuwu edition followed in 1949."
   }
 }

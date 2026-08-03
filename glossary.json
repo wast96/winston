@@ -308,6 +308,240 @@
    "pinyin": "Xiao Heizi",
    "status": "decided",
    "note": "The boy of fifteen or sixteen who crews Cishan&#8217;s Third Uncle&#8217;s boat (ch53&#8211;ch54); the nickname <span lang=\"zh-Hans\">小黑子</span> means &#8216;Little Blackie.&#8217; Pinyin."
+  },
+  "刘绍铭": {
+   "en": "Joseph S. M. Lau",
+   "pinyin": "Liu Shaoming",
+   "status": "attested",
+   "note": "Scholar and translator of modern Chinese literature; a co-translator of C. T. Hsia's history; author of the first appreciation (ch59)."
+  },
+  "刘波": {
+   "en": "Liu Bo",
+   "pinyin": "Liu Bo",
+   "status": "provisional",
+   "note": "Author of two of the 2013 Apple Daily appreciations of Xu Xu (ch59)."
+  },
+  "沈西城": {
+   "en": "Shen Xicheng",
+   "pinyin": "Shen Xicheng",
+   "status": "attested",
+   "note": "Hong Kong writer and editor; author of the fourth appreciation, on interviewing Xu Xu (ch59)."
+  },
+  "陶杰": {
+   "en": "Chip Tsao",
+   "pinyin": "Tao Jie",
+   "status": "attested",
+   "note": "Hong Kong columnist (a pen name); author of the closing appendix essay 'The Most Noble A' (ch59)."
+  },
+  "夏志清": {
+   "en": "C. T. Hsia",
+   "pinyin": "Xia Zhiqing",
+   "status": "attested",
+   "note": "Literary historian (1921-2013); A History of Modern Chinese Fiction, Yale UP 1961."
+  },
+  "林语堂": {
+   "en": "Lin Yutang",
+   "pinyin": "Lin Yutang",
+   "status": "attested",
+   "note": "Writer and editor (1895-1976); coined 幽默 for 'humour'; ran 论语 and 人间世. Xu Xu was his editorial assistant."
+  },
+  "鲁迅": {
+   "en": "Lu Xun",
+   "pinyin": "Lu Xun",
+   "status": "attested",
+   "note": "Pen name of Zhou Shuren (1881-1936); author of The True Story of Ah Q; the central figure of essay 3."
+  },
+  "张爱玲": {
+   "en": "Eileen Chang",
+   "pinyin": "Zhang Ailing",
+   "status": "attested",
+   "note": "Shanghai fiction writer; raised to prominence by Hsia's history, and disparaged by Xu Xu (ch59)."
+  },
+  "钱锺书": {
+   "en": "Qian Zhongshu",
+   "pinyin": "Qian Zhongshu",
+   "status": "attested",
+   "note": "Author of Fortress Besieged; one of the three writers Hsia singled out."
+  },
+  "师陀": {
+   "en": "Shi Tuo",
+   "pinyin": "Shi Tuo",
+   "status": "attested",
+   "note": "Modern fiction writer; one of the three Hsia singled out."
+  },
+  "沈从文": {
+   "en": "Shen Congwen",
+   "pinyin": "Shen Congwen",
+   "status": "attested",
+   "note": "Modern fiction writer named among the best short-story writers (ch59)."
+  },
+  "冯文炳": {
+   "en": "Feng Wenbing",
+   "pinyin": "Feng Wenbing",
+   "status": "attested",
+   "note": "Modern writer, better known by the pen name Fei Ming (废名)."
+  },
+  "梁实秋": {
+   "en": "Liang Shiqiu",
+   "pinyin": "Liang Shiqiu",
+   "status": "attested",
+   "note": "Essayist and Shakespeare translator; the wartime 'Refined Hut' sketches (雅舍小品)."
+  },
+  "管管": {
+   "en": "Guan Guan",
+   "pinyin": "Guan Guan",
+   "status": "attested",
+   "note": "Taiwan modernist poet; the essay 'Obsession' (ch59)."
+  },
+  "吴鲁芹": {
+   "en": "Wu Luqin",
+   "pinyin": "Wu Luqin",
+   "status": "attested",
+   "note": "Essayist (1918-1983) who taught at National Taiwan University."
+  },
+  "董桥": {
+   "en": "Dong Qiao",
+   "pinyin": "Dong Qiao",
+   "status": "attested",
+   "note": "Hong Kong essayist, quoted on Xu Xu's cultivated loneliness (ch59)."
+  },
+  "金庸": {
+   "en": "Jin Yong",
+   "pinyin": "Jin Yong",
+   "status": "attested",
+   "note": "Pen name of Louis Cha (查良镛); wuxia novelist who, unlike Xu Xu, grew rich (ch59)."
+  },
+  "萧铜": {
+   "en": "Xiao Tong",
+   "pinyin": "Xiao Tong",
+   "status": "provisional",
+   "note": "Hong Kong writer paired with Xu Xu as one who 'died in poverty' (ch59)."
+  },
+  "苏雪林": {
+   "en": "Su Xuelin",
+   "pinyin": "Su Xuelin",
+   "status": "attested",
+   "note": "Writer and critic; her 1966 'Essay on the Life of Lu Xun' attacked him, and Xu Xu rebutted it (ch59)."
+  },
+  "陈源": {
+   "en": "Chen Yuan",
+   "pinyin": "Chen Yuan",
+   "status": "attested",
+   "note": "Critic (also known as Chen Xiying, 陈西滢) of the Contemporary Review circle; feuded with Lu Xun."
+  },
+  "杨振声": {
+   "en": "Yang Zhensheng",
+   "pinyin": "Yang Zhensheng",
+   "status": "attested",
+   "note": "Author of the novella Yu Jun (玉君)."
+  },
+  "许广平": {
+   "en": "Xu Guangping",
+   "pinyin": "Xu Guangping",
+   "status": "attested",
+   "note": "Lu Xun's companion; solicited and edited his letters."
+  },
+  "周海婴": {
+   "en": "Zhou Haiying",
+   "pinyin": "Zhou Haiying",
+   "status": "attested",
+   "note": "Lu Xun's son."
+  },
+  "陶亢德": {
+   "en": "Tao Kangde",
+   "pinyin": "Tao Kangde",
+   "status": "attested",
+   "note": "Editor at 人间世; co-recipient of Lu Xun's letters with Xu Xu."
+  },
+  "徐诗荃": {
+   "en": "Xu Shiquan",
+   "pinyin": "Xu Shiquan",
+   "status": "attested",
+   "note": "Also known as Xu Fancheng (徐梵澄); philosopher-translator; his essays ran in 人间世 on Lu Xun's recommendation."
+  },
+  "曹聚仁": {
+   "en": "Cao Juren",
+   "pinyin": "Cao Juren",
+   "status": "attested",
+   "note": "Writer and journalist; a correspondent of Lu Xun's."
+  },
+  "郑思肖": {
+   "en": "Zheng Sixiao",
+   "pinyin": "Zheng Sixiao",
+   "status": "attested",
+   "note": "Song-Yuan loyalist poet-painter (sobriquet Suonan, 所南); Lu Xun transcribed his Jinqian yuxiao for Xu Xu."
+  },
+  "李贺": {
+   "en": "Li He",
+   "pinyin": "Li He",
+   "status": "attested",
+   "note": "Tang poet (courtesy name Changji, 长吉); a line of his is on the second scroll Lu Xun gave Xu Xu."
+  },
+  "陈定山": {
+   "en": "Chen Dingshan",
+   "pinyin": "Chen Dingshan",
+   "status": "attested",
+   "note": "Painter and writer (sobriquet Dinggong, 定公); author of Old Tales of Shanghai (春申旧闻)."
+  },
+  "钱穆": {
+   "en": "Qian Mu",
+   "pinyin": "Qian Mu",
+   "status": "attested",
+   "note": "Historian; a founder of New Asia College; taken as representative of the Republican men of letters who came south (ch59)."
+  },
+  "舒巷城": {
+   "en": "Shu Xiangcheng",
+   "pinyin": "Shu Xiangcheng",
+   "status": "attested",
+   "note": "Hong Kong poet and novelist."
+  },
+  "黄谷柳": {
+   "en": "Huang Guliu",
+   "pinyin": "Huang Guliu",
+   "status": "attested",
+   "note": "Author of The Story of Shrimp Ball (虾球传)."
+  },
+  "汪曾祺": {
+   "en": "Wang Zengqi",
+   "pinyin": "Wang Zengqi",
+   "status": "attested",
+   "note": "Modern fiction writer admired by Guan Guan (ch59)."
+  },
+  "张晓风": {
+   "en": "Zhang Xiaofeng",
+   "pinyin": "Zhang Xiaofeng",
+   "status": "attested",
+   "note": "Taiwan essayist."
+  },
+  "李翰祥": {
+   "en": "Li Hanxiang",
+   "pinyin": "Li Hanxiang",
+   "status": "attested",
+   "note": "Film director who prospered where others foundered (ch59)."
+  },
+  "胡金铨": {
+   "en": "King Hu",
+   "pinyin": "Hu Jinquan",
+   "status": "attested",
+   "note": "Film director (King Hu)."
+  },
+  "小思": {
+   "en": "Xiao Si",
+   "pinyin": "Xiao Si",
+   "status": "attested",
+   "note": "Pen name of Lo Wai-luen (卢玮銮), Hong Kong essayist and literary scholar; her recollections of Xu Xu are quoted in essay 1."
+  },
+  "葛福灿": {
+   "en": "Ge Fucan",
+   "pinyin": "Ge Fucan",
+   "status": "provisional",
+   "note": "Xu Xu's wife; kept and later donated the two Lu Xun scrolls (ch59)."
+  },
+  "葛原": {
+   "en": "Ge Yuan",
+   "pinyin": "Ge Yuan",
+   "status": "provisional",
+   "note": "Xu Xu's daughter; author of the memoir Waning Moon, Lone Star (残月孤星)."
   }
  },
  "organizations": {
@@ -346,6 +580,90 @@
    "pinyin": "Hailin guangbo diantai",
    "status": "provisional",
    "note": "The Japanese-controlled Shanghai radio station where Helen sings and reads a little English news (ch26); <span lang=\"zh-Hans\">海邻</span> (<i>Hailin</i>) transliterates a name not otherwise identified, romanized here."
+  },
+  "中国现代小说史": {
+   "en": "A History of Modern Chinese Fiction",
+   "pinyin": "Zhongguo xiandai xiaoshuo shi",
+   "status": "attested",
+   "note": "C. T. Hsia's study, Yale UP 1961; its omission of Xu Xu frames essays 1-2."
+  },
+  "鲁迅诗稿": {
+   "en": "Lu Xun's Poetry Manuscripts",
+   "pinyin": "Lu Xun shigao",
+   "status": "decided",
+   "note": "The 1961 album that suppressed Xu Xu's name from the scrolls' dedication, restored in the 1976 edition."
+  },
+  "鲁迅全集": {
+   "en": "The Complete Works of Lu Xun",
+   "pinyin": "Lu Xun quanji",
+   "status": "attested",
+   "note": "Given to the Ge family in thanks for the scroll donation (ch59)."
+  },
+  "鬼恋": {
+   "en": "Ghost Love",
+   "pinyin": "Gui lian",
+   "status": "decided",
+   "note": "Xu Xu's 1937 novella, the work that first made his name."
+  },
+  "论语": {
+   "en": "The Analects Fortnightly",
+   "pinyin": "Lunyu",
+   "status": "decided",
+   "note": "Lin Yutang's humour magazine, founded 1932."
+  },
+  "人间世": {
+   "en": "This Human World",
+   "pinyin": "Renjianshi",
+   "status": "decided",
+   "note": "Lin Yutang's familiar-essay fortnightly, founded April 1934; where Xu Xu was a young editor."
+  },
+  "幽默": {
+   "en": "Humour",
+   "pinyin": "Youmo",
+   "status": "decided",
+   "note": "The fortnightly Xu Xu founded in Hong Kong in 1952, with its 'Ten Rules' (ch59)."
+  },
+  "今日世界": {
+   "en": "World Today",
+   "pinyin": "Jinri shijie",
+   "status": "decided",
+   "note": "The USIS Hong Kong magazine that carried the abridged translation of Lin Yutang's 1961 lecture."
+  },
+  "现代评论": {
+   "en": "Contemporary Review",
+   "pinyin": "Xiandai pinglun",
+   "status": "attested",
+   "note": "The Anglo-American-leaning journal of Chen Yuan's circle, opposed to Lu Xun."
+  },
+  "传记文学": {
+   "en": "Biographical Literature",
+   "pinyin": "Zhuanji wenxue",
+   "status": "decided",
+   "note": "Taipei monthly that ran Su Xuelin's 1966 attack on Lu Xun."
+  },
+  "玉君": {
+   "en": "Yu Jun",
+   "pinyin": "Yu Jun",
+   "status": "decided",
+   "note": "Yang Zhensheng's novella, set beside The True Story of Ah Q in the polemic (ch59)."
+  },
+  "阿Q正传": {
+   "en": "The True Story of Ah Q",
+   "pinyin": "A Q zhengzhuan",
+   "status": "attested",
+   "note": "Lu Xun's masterpiece, 'known to the whole nation' (ch59)."
+  },
+  "虾球传": {
+   "en": "The Story of Shrimp Ball",
+   "pinyin": "Xiaqiu zhuan",
+   "status": "decided",
+   "note": "Huang Guliu's novel of the Hong Kong poor (ch59)."
+  },
+  "目连戏": {
+   "en": "Mulian opera",
+   "pinyin": "Mulian xi",
+   "status": "decided",
+   "note": "The Shaoxing folk-opera cycle Xu Xu asked Lu Xun about (ch59)."
   }
  },
  "places": {
@@ -834,6 +1152,42 @@
    "pinyin": "Huanggong Fandian",
    "status": "provisional",
    "note": "The hotel at whose banquet Miyama Yoshiko is poisoned, as reported in the paper (ch56); <span lang=\"zh-Hans\">皇宫</span> (&#8216;imperial palace&#8217;) rendered &#8216;Palace&#8217; here. Provisional."
+  },
+  "新亚书院": {
+   "en": "New Asia College",
+   "pinyin": "Xinya Shuyuan",
+   "status": "attested",
+   "note": "The Hong Kong college where Xu Xu taught a modern-fiction course in 1963 (ch59)."
+  },
+  "内山书店": {
+   "en": "Uchiyama Bookstore",
+   "pinyin": "Neishan Shudian",
+   "status": "attested",
+   "note": "The Shanghai bookshop, run by Uchiyama Kanzo, through which Lu Xun passed his calligraphy to Xu Xu."
+  },
+  "律敦治肺病疗养院": {
+   "en": "Ruttonjee Sanatorium",
+   "pinyin": "Ludunzhi feibing liaoyangyuan",
+   "status": "attested",
+   "note": "The Hong Kong tuberculosis sanatorium where Xu Xu died in 1980 (ch59)."
+  },
+  "上海鲁迅纪念馆": {
+   "en": "Shanghai Lu Xun Memorial Hall",
+   "pinyin": "Shanghai Lu Xun jinianguan",
+   "status": "attested",
+   "note": "Recipient of the donated scrolls; publisher of the restored Poetry Manuscripts."
+  },
+  "苹果日报": {
+   "en": "Apple Daily",
+   "pinyin": "Pingguo ribao",
+   "status": "attested",
+   "note": "The Hong Kong newspaper in which these five appreciations appeared in 2013."
+  },
+  "九龙城": {
+   "en": "Kowloon City",
+   "pinyin": "Jiulong Cheng",
+   "status": "attested",
+   "note": "The Kowloon district Xu Xu lived in because its streets recalled Avenue Joffre (ch59)."
   }
  },
  "terms": {

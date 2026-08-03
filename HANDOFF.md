@@ -1,12 +1,16 @@
 # HANDOFF — The Whistling Wind (风萧萧) by Xu Xu
 
-State: Batch B12 (ch53 through ch57: Chapters 53 to 57) is COMPLETE, checked, and
-committed. The cumulative EPUB `out/The Whistling Wind.epub` has 58 of 60 chapters
-translated (ch00 through ch57); the last 2 (ch58 and ch59) still link to their skeleton
-outlines and the TOC stays fully navigable. Next up: Batch B13 = ch58 through ch59, the
-LAST batch (back matter plus a whole-book QA pass and a completion report).
+State: **THE BOOK IS COMPLETE.** All 13 batches are done (B13 = ch58 and ch59, the
+novel's final chapter and the appendix *Impressions of Xu Xu*, translated end to end;
+the deferred Colophon rendered; a whole-book QA pass run). The cumulative EPUB
+`out/The Whistling Wind.epub` contains all 60 units (ch00–ch59), 103 notes, 209 glossary
+rows, the Translator's Note, the Glossary, and the Colophon; `qa_epub.py` PASSES across
+the full spine and every structural check is green. There is no next batch.
 
-## Message to paste into the next chat
+See **`COMPLETION.md`** for the completion report (final counts, book-wide checks and
+their results, and the residual provisional readings a reader should know about).
+
+## (Archived) Message that launched the final batch, B13
 
 ```
 Whistling Wind B13 — Chapter 58 and Impressions of Xu Xu (ch58 through ch59). THE LAST BATCH.
