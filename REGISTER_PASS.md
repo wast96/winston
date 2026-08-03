@@ -285,21 +285,21 @@ needed, run `scripts/ingest_epub.py source.epub`.
 
 ## Batch plan
 
-Twelve batches, labeled R01 to R12. A batch = ANALYZE then EXECUTE for its
-chapters, end to end, no pause between phases unless the roles run in
-separate sessions (in which case ANALYZE commits its edit lists and hands off).
+Eight batches, labeled R01 to R08, balanced by source size (roughly 750 to
+960 paragraphs each). A batch = ANALYZE then EXECUTE for its chapters, end to
+end, no pause between phases unless the roles run in separate sessions (in
+which case ANALYZE commits its edit lists and hands off).
 
 | Batch | Chapters | Batch | Chapters |
 |-------|----------|-------|----------|
-| R01 | ch02 ch03 ch04 | R07 | ch18 ch19 ch20 |
-| R02 | ch05 ch06 ch07 | R08 | ch21 ch22 ch23 |
-| R03 | ch08 ch09 ch10 | R09 | ch24 ch25 ch26 |
-| R04 | ch11 ch12 ch13 | R10 | ch27 ch28 ch29 |
-| R05 | ch14 ch15 | R11 | ch30 ch31 ch32 |
-| R06 | ch16 ch17 | R12 | ch33 ch34 ch35 |
+| R01 | ch02 ch03 ch04 ch05 ch06 | R05 | ch20 ch21 ch22 ch23 |
+| R02 | ch07 ch08 ch09 ch10 ch11 | R06 | ch24 ch25 ch26 ch27 |
+| R03 | ch12 ch13 ch14 ch15 | R07 | ch28 ch29 ch30 ch31 |
+| R04 | ch16 ch17 ch18 ch19 | R08 | ch32 ch33 ch34 ch35 |
 
 Kickoff labels follow the house convention: first line `Hair Trigger R<nn>`.
-R01 additionally backfills the footnote densification of ch00 and ch01.
+R01 additionally backfills the footnote densification of ch00 (ch01's
+backfill is already done; see CHANGELOG.md).
 
 ## Definition of done (whole pass)
 

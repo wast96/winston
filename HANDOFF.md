@@ -18,9 +18,9 @@ annotation gap"): the reader is a Westerner with no background in Chinese
 history, family structure, or custom; anything such a reader would miss earns
 a note at first occurrence, roughly 8 to 15 per chapter.
 
-Do batch R01 = ch02, ch03, ch04, end to end, PLUS the note-densification
-backfill of ch00 and ch01 (their prose is done; two notes, wedding red and
-the Madams hierarchy, are seeded as models). ANALYZE each chapter against the
+Do batch R01 = ch02, ch03, ch04, ch05, ch06, end to end, PLUS the
+note-densification backfill of ch00 (ch00/ch01 prose is done; ch01's notes
+are already densified to 15 and are the model). ANALYZE each chapter against the
 source in out/<id>_bilingual.md and commit the edit lists to
 edits/<id>_edits.md in the format REGISTER_PASS.md specifies (TOUCH/RECAST
 blocks, NOTE-ANCHOR items, NOTE-ADD blocks), then EXECUTE them exactly
@@ -33,7 +33,7 @@ check_numbers --noise per chapter, run the straight-quote typography guard,
 rebuild "out/On a Hair Trigger.epub", run qa_epub.py until green. Spot-audit
 10% of edited paragraphs against the source for meaning drift. Record
 everything in PROGRESS.md, append a dated CHANGELOG.md entry, rewrite
-HANDOFF.md's kickoff for R02 (ch05 to ch07), commit and push to
+HANDOFF.md's kickoff for R02 (ch07 to ch11), commit and push to
 claude/on-a-hair-trigger (the ONLY branch). Do not pause for approval
 mid-batch. Deliver the rebuilt EPUB in chat, and end the reply with the R02
 kickoff verbatim in a fenced block.
