@@ -740,6 +740,30 @@
       "pinyin": "Huashang zhengquan jiaoyisuo",
       "status": "decided",
       "note": "华商证券交易所; the Chinese-run securities exchange on Hankou Road (San Malu), the floor on which the whole bond speculation of the novel is fought."
+    },
+    "字林西报": {
+      "en": "the North China Daily News",
+      "pinyin": "Zilin Xibao",
+      "status": "attested",
+      "note": "字林西报 (North-China Daily News); the leading British-owned English-language daily of Shanghai, whose advertisement board carried the day's headlines."
+    },
+    "长丰水果店": {
+      "en": "the Changfeng Fruit Shop",
+      "pinyin": "Changfeng shuiguodian",
+      "status": "decided",
+      "note": "长丰水果店; a Shanghai fruit shop named among Feng Yunqing's household bills."
+    },
+    "老大房": {
+      "en": "the Laodafang confectioner's",
+      "pinyin": "Laodafang",
+      "status": "attested",
+      "note": "老大房糖食店; a well-known Shanghai confectionery and sweetmeats shop."
+    },
+    "北洋政府": {
+      "en": "the Beiyang government",
+      "pinyin": "Beiyang zhengfu",
+      "status": "attested",
+      "note": "北洋政府; the Beijing-based warlord governments of 1912–1928 that preceded the Nanjing Nationalist regime. The 'old bonds' traded late in the session were issues left over from its day."
     }
   },
   "places": {
@@ -1270,6 +1294,42 @@
       "pinyin": "Hengbao",
       "status": "provisional",
       "note": "亨堡; the name of Tang Yunshan’s smuggled arms consignment, probably Hamburg (the German port of origin) but perhaps only a cover-word; identification provisional. See the footnote at ‘shipped to Yantai.’"
+    },
+    "爱多亚路": {
+      "en": "Avenue Edward VII",
+      "pinyin": "Aiduoya lu",
+      "status": "attested",
+      "note": "爱多亚路; the International Settlement boulevard running inland from the Bund (今延安东路), named for King Edward VII. The meteorological signal tower at its Bund end hoisted the storm-warning balls."
+    },
+    "霞飞路": {
+      "en": "Avenue Joffre",
+      "pinyin": "Xiafei lu",
+      "status": "attested",
+      "note": "霞飞路; the great avenue of the French Concession (今淮海中路), lined with apartment blocks and shops."
+    },
+    "津浦线": {
+      "en": "the Tianjin–Pukou line",
+      "pinyin": "Jinpu xian",
+      "status": "attested",
+      "note": "津浦线 (also 津浦路); the Tianjin–Pukou railway, the north–south trunk line fought over in the 1930 war. Pukou faces Nanjing across the Yangtze, so the line's fate bore directly on the bond market."
+    },
+    "山西": {
+      "en": "Shanxi",
+      "pinyin": "Shanxi",
+      "status": "attested",
+      "note": "山西; the northern province, base of the warlord Yan Xishan, whose army's movements the speculators watch here."
+    },
+    "西牢": {
+      "en": "the Western Gaol",
+      "pinyin": "xilao",
+      "status": "decided",
+      "note": "西牢; the colloquial name for the prison of the foreign-administered Shanghai International Settlement, where a Chinese offender sentenced through the Settlement's courts might be held."
+    },
+    "江海关": {
+      "en": "the Customs House",
+      "pinyin": "Jianghaiguan",
+      "status": "decided",
+      "note": "江海关; the Shanghai Maritime Customs House on the Bund."
     }
   },
   "terms": {
@@ -1726,6 +1786,42 @@
       "pinyin": "yaotan",
       "status": "decided",
       "note": "摇摊; fantan, a gambling game of staking on the remainder when a heap of coins is counted out in fours; named beside 打宝 (dice-guessing) as Wu Sunfu’s games of choice."
+    },
+    "涨风": {
+      "en": "rising wind",
+      "pinyin": "zhangfeng",
+      "status": "decided",
+      "note": "涨风; the season's rising storm-wind, punning on 涨 ('to rise, to swell') in its market sense — a 'bull wind.' See the translator's note at its first appearance."
+    },
+    "茄门": {
+      "en": "Jiamen",
+      "pinyin": "Jiamen",
+      "status": "attested",
+      "note": "茄门; a transliteration of English 'German,' old Shanghai slang for Germany or a German — here the German arms dealer. Glossed by the author's own note [9]."
+    },
+    "七年长期公债": {
+      "en": "the Seven-Year Long-Term Bonds",
+      "pinyin": "qinian changqi gongzhai",
+      "status": "decided",
+      "note": "七年长期公债; an older government bond issue, no longer a speculative target, traded after the main 'Reorganization' session."
+    },
+    "九六公债": {
+      "en": "the Ninety-Six Bonds",
+      "pinyin": "jiuliu gongzhai",
+      "status": "decided",
+      "note": "九六公债; an old, all-but-worthless bond issue still thinly traded at the exchange."
+    },
+    "垫箱钱": {
+      "en": "bottom-of-the-chest money",
+      "pinyin": "dianxiang qian",
+      "status": "decided",
+      "note": "垫箱钱; the private nest-egg a bride keeps at the bottom of her trousseau chest — Feng Meiqing's own dowry money."
+    },
+    "快报": {
+      "en": "bulletin",
+      "pinyin": "kuaibao",
+      "status": "decided",
+      "note": "快报; a 'fast report,' the rush war-news bulletins hawked outside the exchange, often mere rumour manufactured to move prices."
     }
   }
 }

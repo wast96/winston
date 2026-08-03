@@ -207,3 +207,13 @@
 # 一万五 = 15,000 (a bead on Du Zhuzhai's mental abacus); the checker mis-sums 一万五
 # as 10005 (五 read as a units digit); rendered "fifteen thousand" (ch10)
 一万五
+# --- Chapter Eleven additions ---
+# 老忘八 "old cuckold/turtle," a curse (王八/忘八); the 八 is part of the word, not
+# the count 8 (ch11)
+忘八
+# 杀千刀 "wretch deserving death by a thousand cuts," a curse; the 千 is fixed
+# hyperbole in the set phrase, not the quantity 1000 (ch11)
+杀千刀
+# 零碎 "odds and ends / piecemeal" (零碎拆卖 "sell off piecemeal"); the 零 is part
+# of the word, not the quantity 0 (ch11)
+零碎

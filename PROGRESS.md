@@ -935,3 +935,105 @@ pawnshop, Shuangqiao, Changsha, Hunan, Wuhan, Hankou, Hongkou, Hong Kong.
   rather than smoothed into a confident gloss.
 - Peng Dehuai's Red Army capture of Yuezhou/Changsha is historically late July 1930,
   not 4 June; the compression is Mao Dun's and is flagged in note 58, not corrected.
+
+## B11 = Chapter Eleven (ch11), 11,782 source chars
+
+Done. A two-part chapter, both parts driven by the same gale that howls through it
+from first line to last. Part one: Liu Yuying (刘玉英), the widowed daughter-in-law
+of Lu Kuangshi, tricks the broker Han Mengxiang (韩孟翔) into giving up Zhao Botao's
+new address, talks her way into the Avenue Joffre flat where Zhao Botao (老赵) and
+Shang Zhongli (尚仲礼) are conferring, spins them a lie about overhearing Xu Manli
+and "Wu the Third," is bundled into the bedroom where she finds her friend Feng
+Meiqing (冯眉卿) asleep, and from the balcony overhears the two men's real secret:
+the contraband arms, the "Jiamen" (German) go-between paid fifty thousand in
+lobbying-money, and Zhao Botao's plan to break Wu Sunfu on the Reorganization
+bonds. Part two: Liu Yuying at the Chinese Securities Exchange, the "rear-area
+field hospital" bench where she watches Feng Yunqing (冯云卿) and his two partners
+He Shen'an (何慎庵) and Li Zhuangfei (李壮飞) quarrel over their 200,000-bond
+position, and dangles her "sell-it-piecemeal" secret before the ruined Feng
+Yunqing; then Feng Yunqing home in the wind, the concubine Old Ninth's 431-dollar
+bills and her demand for the 10,000-silver passbook, and the closing scene where
+he coaxes his daughter Meiqing into the guess that Zhao Botao is a "bull," reads a
+flying window-blind as a fortune-omen, and resolves to stake Meiqing's dowry on the
+market.
+
+Carries the LAST TWO of the source's own author notes, [8] and [9] - the only ones
+left in the book. Both placed at their inline markers: [8] on the English dispatch
+"Reds threaten Hankow, reported!" (source line 15), [9] on "Jiamen" (茄门, source
+line 66). Both went into source_notes.json under "ch11" with their ORIGINAL numbers
+8 and 9, never into notes.json. All nine author notes [1]..[9] now appear in the
+built EPUB (snote1..snote9). The book's author-note stream is complete.
+
+### Pipeline run
+
+- out/ch11_bilingual.md authored as 205 verbatim source/English pairs. Built the
+  safe way: English written one paragraph per line, zipped against the source body
+  (line 1 = title 十一 dropped; the 205 remaining are the body). Pre-zip assertion
+  len(en)==len(body)==205 passed; alignment spot-checked at paras 1/14/65/104/136/
+  146/205 before writing. No paragraph dropped or merged. The inline [8]/[9] markers
+  were kept in the verbatim source line only; no stray bracket reached the English.
+- split_bilingual.py -> out/ch11_reading.md (205 paras) + data/zh/ch11.txt.
+- check_numbers.py --noise data/noise_zh.txt: 0 unresolved (4 flags on first pass,
+  all resolved: 1 by English rewording, 3 by documented noise).
+- check_structure.py --pairs: parity 205 | 205 OK.
+- Verbatim-quotation check: all 205 '>' lines equal the source body exactly (script,
+  0 mismatches).
+- build_reading_epub.py out/Midnight.epub: 11 of 20 chapters, 66 notes.
+- qa_epub.py out/Midnight.epub: PASS (66 refs / 66 bodies / 66 backlinks; all links
+  resolve). Confirmed sref8/sref9 in ch11 and snote1..snote9 on the notes page.
+
+### Numbers: rewording and noise (source number faithfully present, checker could
+### not read the rendering)
+
+- 一百多助手 reworded "over a hundred assistants of their own" (was "hundred-odd",
+  which the checker cannot read as 100 without the article).
+- 杀千刀 (curse, "wretch deserving a thousand cuts"): 千 is fixed hyperbole in the
+  set phrase, not the quantity 1000 -> noise rule 杀千刀.
+- 零碎 ("piecemeal", in 零碎拆卖): 零 is part of the word, not the quantity 0 -> noise
+  rule 零碎.
+- 老忘八 (curse, "old cuckold/turtle"): 八 is part of 忘八/王八, not the count 8 ->
+  noise rule 忘八.
+- Number-rendering habits kept clean by hand: 十五号 rendered "the 15th" in digits
+  ("fifteenth" is not in the checker's word-list); 四百三十一 rendered "431" in digits
+  (the checker cannot sum 400+31); 六成 rendered "six-tenths"; 二角 "two dimes",
+  一万 "ten thousand", 十万 "one hundred thousand", 二十万 "two hundred thousand",
+  五万元 "fifty thousand", 六七百万 "six or seven million". Already-handled recurring
+  items (夹七夹八, 十二分) used the existing ch02/ch04 noise lines.
+
+### Glossary
+
+New places: Avenue Edward VII (爱多亚路), Avenue Joffre (霞飞路), the Tianjin-Pukou
+line (津浦线), Shanxi (山西), the Western Gaol (西牢), the Customs House (江海关). New
+orgs: the North China Daily News (字林西报), the Changfeng Fruit Shop (长丰水果店),
+the Laodafang confectioner's (老大房), the Beiyang government (北洋政府). New terms:
+rising wind (涨风, the bull-market pun), Jiamen (茄门, transliteration of "German"),
+the Seven-Year Long-Term Bonds (七年长期公债), the Ninety-Six Bonds (九六公债),
+bottom-of-the-chest money (垫箱钱), bulletin (快报). Reused unchanged: Liu Yuying
+(刘玉英), Han Mengxiang (韩孟翔), Zhao Botao (老赵), Shang Zhongli (尚仲礼), Xu Manli
+(徐曼丽), Feng Meiqing (冯眉卿), Feng Yunqing (冯云卿), He Shen'an (何慎庵), Li
+Zhuangfei (李壮飞), Lu Kuangshi (陆匡时), Wu Sunfu / Wu the Third (吴老三), Old Ninth
+(老九), the Yizhong Company (益中公司), the Cathay Hotel (华懋饭店), the Majestic
+(大华), San Malu (三马路), Hankou (汉口), Changsha (长沙), the Yuanfeng native bank
+(元丰钱庄), and the bond terms 公债/多头/空头/交割/停板/编遣.
+
+### Translator notes (builder-numbered 62-66)
+
+62 rising wind (the 涨风 pun on 涨 "to rise/swell" = a bull market); 63 the dog
+biting Lu Dongbin (狗咬吕洞宾, meeting kindness with hostility; Lu Dongbin the
+Daoist immortal); 64 the Western Gaol (西牢, the Settlement's foreign-run prison);
+65 bottom-of-the-chest money (垫箱钱, a bride's private dowry nest-egg); 66 the
+window-blind fortune-omen. All anchors verified verbatim in the reading text.
+
+### Read-through / open items
+
+- Random-sample deep audit (~4%, 8 paragraphs across the Bund opening, the balcony
+  eavesdrop, the biographical sketch of Liu Yuying, the exchange bench scene, and
+  the bills-and-daughter close): verbatim quotation exact, quantities and referents
+  all held, no omission or invented bridging. Tricky quantities checked by hand:
+  431 = 四百三十一; 六成 = six-tenths; 六七百万 = six or seven million; 廿来万 = some
+  two hundred thousand (廿 cleared by the bare-万 rule); 十五号 = the 15th.
+- 茄门 (Jiamen): rendered as the transliteration to which the author's note [9] is
+  attached, matching how ch06 handled 绯洋伞/feiyangsan; the note supplies "German".
+- The author-note stream is now complete: all nine [1]..[9] are placed. No further
+  chapter carries a source note (ch12..ch20 confirmed to have none in earlier
+  planning; re-confirm by grep at each batch).
