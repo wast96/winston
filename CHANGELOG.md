@@ -33,6 +33,14 @@ Commissioner feedback: the book reads rough. Two causes found and addressed.
   NOTE-ADD edit-list blocks; R01 backfills ch00/ch01. Two model notes seeded in
   ch01: wedding red, and the First/Second/Third/Fourth Madam hierarchy (now 119
   notes; qa green).
+- ch01 note-densification backfill done ahead of R01 (commissioner asked what
+  else ch01 needed): ten notes added under the new policy: the bridal sedan
+  chair (and its blue-satin opposite), the lamp-flower double-bloom omen and
+  wedding-night curtain, the three-years mourning rite, an honest check of the
+  "extreme penalty" legal claim against the Qing Code (contradicted; the clan
+  danger corroborated), the cold palace, birth-sign clashes, the ghost
+  stand-in belief, the longevity lock, the moon gate, and gan-son nominal
+  kinship. ch01 now 15 notes; book 129; qa green.
 - REGISTER_PASS.md written: the full instruction set for revising ch02-ch35
   (taxonomy, triage, ANALYZE/EXECUTE two-phase workflow, constraints, batch
   plan R01-R12). HANDOFF.md now carries the R01 kickoff.
