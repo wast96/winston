@@ -1,33 +1,56 @@
 # HANDOFF — On a Hair Trigger (一触即发) by Zhang Yong
 
-## The book is COMPLETE. There is no next batch.
+## Message to paste into the next chat
 
-All thirteen batches are done. The Prologue and all 35 chapters (36 units,
-ch00 to ch35) are translated, annotated, and built into the cumulative EPUB
-`out/On a Hair Trigger.epub`, with a full hyperlinked table of contents, 114
-footnotes, a glossary of 273 entries, and the Translator's Note. Every check is
-green book-wide (verbatim parity zero diffs; `check_structure` parity OK and
-`check_numbers` 0 unresolved on all 36 units; `qa_epub.py` PASS, 114 references =
-114 bodies = 114 backlinks).
+```
+Hair Trigger R01
 
-Because this was the last batch, a completion report was written INSTEAD of a new
-kickoff message. See:
+Read CLAUDE.md, then REGISTER_PASS.md (in full; it is the operating
+instruction for this pass), then HANDOFF.md, then book.json. The translation
+is complete (B01 to B13); this is the REGISTER PASS: a style-only revision of
+the English, per the commissioner's readability feedback. ch00 and ch01 are
+already revised and are the exemplar; study `git show 895d19c` before
+starting.
 
-- `COMPLETION.md` — the whole-book completion report (what was produced, the
-  checks run book-wide and their results, known anachronisms and annotations,
-  and rebuild-from-clean-checkout instructions).
-- `PROGRESS.md` — the per-batch log, B01 through B13.
-- `CHANGELOG.md` — dated record; corrections go here going forward.
+Do batch R01 = ch02, ch03, ch04, end to end: ANALYZE each chapter against the
+source in out/<id>_bilingual.md and commit the edit lists to
+edits/<id>_edits.md in the format REGISTER_PASS.md specifies, then EXECUTE
+them exactly (exact-match replacement, count == 1, via Python). Style only:
+never touch a source line, never merge or split paragraphs, nothing invented,
+nothing dropped, names per glossary.json, note anchors kept in step with
+notes.json. After editing: regenerate with split_bilingual.py, run
+check_structure --pairs and check_numbers --noise per chapter, run the
+straight-quote typography guard, rebuild "out/On a Hair Trigger.epub", run
+qa_epub.py until green. Spot-audit 10% of edited paragraphs against the
+source for meaning drift. Record everything in PROGRESS.md, append a dated
+CHANGELOG.md entry, rewrite HANDOFF.md's kickoff for R02 (ch05 to ch07),
+commit and push to claude/on-a-hair-trigger (the ONLY branch). Do not pause
+for approval mid-batch. Deliver the rebuilt EPUB in chat, and end the reply
+with the R02 kickoff verbatim in a fenced block.
+```
 
-## If the commissioner files corrections
+## State of the project
 
-Read `CLAUDE.md` "Corrections workflow." In brief: GLOBAL corrections (a
-rendering, a register rule, a note policy) cascade via a glossary/style change
-plus a grep-driven edit across ALL built units, then a rebuild and full QA; LOCAL
-corrections are a single-spot fix. After any corrections batch: rebuild
-`out/On a Hair Trigger.epub`, run `qa_epub.py` until green, list every file
-touched, and append a dated entry to `CHANGELOG.md`. Deliver the rebuilt EPUB in
-chat.
+- Translation COMPLETE: B01 to B13 done, all 36 units (ch00 to ch35)
+  translated, annotated (117 footnotes), glossary 273 entries, EPUB
+  `out/On a Hair Trigger.epub` with full TOC, qa green book-wide.
+- 2026-08-03 whole-book QC read-through: done, minor fixes applied (see
+  CHANGELOG.md).
+- Typography normalized book-wide (uniform curly quotes, apostrophes,
+  ellipses); a straight quote in prose is now a regression.
+- REGISTER PASS in progress: the commissioner found the English at many points
+  too literal (calqued idioms, scene cards as body copy, transferred syntax).
+  `REGISTER_PASS.md` defines the whole pass: taxonomy, triage, two-phase
+  ANALYZE/EXECUTE workflow, hard constraints, batch plan R01 to R12, and the
+  definition of done. ch00 + ch01 revised as the exemplar (commit `895d19c`).
+  Next batch: R01 (ch02 to ch04).
+
+## Reference documents
+
+- `REGISTER_PASS.md` — the operating instruction for the register pass.
+- `COMPLETION.md` — whole-book completion report for the translation itself.
+- `PROGRESS.md` — per-batch log, B01 through B13 (R-batches append here).
+- `CHANGELOG.md` — dated record of corrections and revisions.
 
 ## Rebuilding from a clean checkout
 

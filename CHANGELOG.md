@@ -8,6 +8,28 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
 
+## 2026-08-03 — Readability: typography normalized; register pass begun
+Commissioner feedback: the book reads rough. Two causes found and addressed.
+
+- GLOBAL typography (commit e24c96b): ch01-ch11 used curly quotes while
+  ch12-ch35 used straight typewriter quotes; ellipses and apostrophes switched
+  styles mid-book; a few !! survived from the source. All English prose is now
+  uniform book typography (paired curly quotes, typographic apostrophes, real
+  ellipses, single !). Note anchors, glossary en/pinyin fields, and book.json
+  titles converted in lockstep. This supersedes the earlier same-day
+  straight-apostrophe normalization of Hong'er/Yun'er/Yan'an (whole ledger and
+  text are now consistently typographic).
+- Register (commit 895d19c): the English at many points calqued the Chinese
+  (铺天盖地 "a red that covered heaven and earth", 迅雷不及掩耳 "quick as a
+  thunderclap that leaves no time to cover the ears", 水落石出 "until the water
+  sinks and the stones show through") and kept the source's cinematic scene
+  cards as bare body copy. Prologue (ch00) recast wholesale; ch01 smoothed at 9
+  spots; scene cards now italic scene-setting lines. Content unchanged; anchors
+  kept in step; all checks green.
+- REGISTER_PASS.md written: the full instruction set for revising ch02-ch35
+  (taxonomy, triage, ANALYZE/EXECUTE two-phase workflow, constraints, batch
+  plan R01-R12). HANDOFF.md now carries the R01 kickoff.
+
 ## 2026-08-03 — Final whole-book QC read-through (accuracy, readability, apparatus)
 A close bilingual pass over all 36 units against the source, plus an apparatus and
 EPUB-structure audit. No critical defects; the fixes below are minor accuracy,
