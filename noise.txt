@@ -234,3 +234,13 @@
 # not the quantity 17. Strip this context only, so 第十七句 ("the seventeenth line" of the
 # poem, a real number the English carries as "seventeenth") is still checked.
 十七违背
+# ch12: 六个字 = "these six words/characters" (Yuan Zai's phrase 终于等到你了, a count of
+# the uttered characters, cf. 四个字/[二三四]字 already listed but with 六 and 个); not a
+# quantity of things. English renders the sense ("at last I have found you"), no digit.
+六个字
+# ch12: 说三道四 = "wag one's tongue / gossip and carp" (idiom); the 三/四 are not the
+# quantities 3/4 (cf. 推三阻四 already listed). English renders it "wag his tongue about it."
+说三道四
+# ch12: 三步并两步 = "hurry at a half-run / in great haste" (idiom, lit. covering three
+# steps in two); the 三/两 are not quantities. English renders it "in two strides."
+三步并两步

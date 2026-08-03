@@ -469,6 +469,54 @@
       "pinyin": "Mójiāluó",
       "status": "provisional",
       "note": "The code-name of another Shouzhuolang, paired with Liu Shiqi as one the firepoint expects; a transliteration of Sanskrit Makara (the sea-monster, cf. 摩羯 = makara). Kept as the pinyin transliteration to distinguish the person from the decorative motif."
+    },
+    "鱼肠": {
+      "en": "Yuchang",
+      "pinyin": "Yúcháng",
+      "status": "decided",
+      "note": "The one-armed assassin who cuts every thread for the Türk conspiracy, killing the firemaster and Liu Shiqi; he names himself after the ancient dagger <i>Yuchang</i> (&#8216;fish-gut&#8217;). Kept as the pinyin of the weapon-name. Footnoted at first appearance."
+    },
+    "卑路斯": {
+      "en": "Peroz",
+      "pinyin": "Bēilùsī",
+      "status": "attested",
+      "note": "Peroz III (fl. 7th c.), son of Yazdegerd III, last of the Sasanian royal line of Persia; fled to the Tang court after the Arab conquest and was given an honorary generalship. Yisi claims descent from his exiled house. Standard sinological form. Footnoted at first appearance."
+    },
+    "太宗": {
+      "en": "Emperor Taizong",
+      "pinyin": "Tàizōng",
+      "status": "attested",
+      "note": "Emperor Taizong of Tang (r. 626&#8211;649), the dynasty's second and most celebrated ruler. Standard English form."
+    },
+    "高宗": {
+      "en": "Emperor Gaozong",
+      "pinyin": "Gāozōng",
+      "status": "attested",
+      "note": "Emperor Gaozong of Tang (r. 649&#8211;683), son of Taizong; under him the Persian refugees reached Chang'an. Standard English form."
+    },
+    "管仲": {
+      "en": "Guan Zhong",
+      "pinyin": "Guǎn Zhòng",
+      "status": "attested",
+      "note": "Guan Zhong (d. 645 BCE), the great minister who made Duke Huan of Qi the first hegemon of the Spring and Autumn period; traditionally honored as the patron of the courtesan trade. Historical; standard pinyin. Footnoted at first appearance."
+    },
+    "老聃": {
+      "en": "Lao Dan",
+      "pinyin": "Lǎo Dān",
+      "status": "attested",
+      "note": "Lao Dan, that is Laozi, the reputed author of the <i>Daodejing</i>; Yuan Zai quotes its 36th chapter. Rendered by the personal name the source uses."
+    },
+    "燕子李": {
+      "en": "Li the Swallow",
+      "pinyin": "Yànzi Lǐ",
+      "status": "decided",
+      "note": "A notorious thief once hunted by the ward watch, recalled by the old post-soldier Old Zhao as the occasion Zhang Xiaojing saved his life. 燕子 (&#8216;swallow&#8217;) is the roof-running burglar's byname."
+    },
+    "老赵": {
+      "en": "Old Zhao",
+      "pinyin": "Lǎo Zhào",
+      "status": "decided",
+      "note": "An aging post-soldier of the Pingkang Ward watch who once served under Zhang Xiaojing and helps him slip the cordon; distinct from Adjutant Zhao (赵参军). 老 renders the familiar &#8216;Old.&#8217;"
     }
   },
   "organizations": {
@@ -609,6 +657,12 @@
       "pinyin": "Shǒuzhuō Láng",
       "status": "provisional",
       "note": "A guild of mercenaries recruited out of the frontier garrison-towns (守捉), hiring themselves to officials, military commissioners, and merchants; two of its assassins are planted in the Persian Temple. The novel's extrapolation from a real Tang institution (see the term 守捉城). Kept as the transliteration &#8216;the Shouzhuolang&#8217;; a member is a Shouzhuolang. Footnoted at first appearance."
+    },
+    "右威卫": {
+      "en": "the Right Awesome Guard",
+      "pinyin": "Yòuwēi Wèi",
+      "status": "attested",
+      "note": "One of the Tang Sixteen Guards of the Southern Command; the guard in which the refugee Persian prince Peroz was given an honorary generalship. Rendering per C. O. Hucker."
     }
   },
   "places": {
@@ -1415,6 +1469,18 @@
       "pinyin": "Tiānzhú",
       "status": "attested",
       "note": "The Tang name for India (from Sanskrit Sindhu); source of the sal trees transplanted into Long Bo's courtyard. Standard identification."
+    },
+    "波斯": {
+      "en": "Persia",
+      "pinyin": "Bōsī",
+      "status": "attested",
+      "note": "Sasanian Persia, whose royal house Yisi claims; officially the Nestorian church was styled the &#8216;Persian Temple&#8217; (波斯寺) until it was recognized as coming from Daqin. Standard English form."
+    },
+    "管仲祠": {
+      "en": "the Guan Zhong shrine",
+      "pinyin": "Guǎn Zhòng Cí",
+      "status": "decided",
+      "note": "A ruined shrine to Guan Zhong in Pingkang Ward, patron of the pleasure quarter; next door stands the Shouzhuolang's bookshop. Rendered literally."
     }
   },
   "terms": {
@@ -2191,6 +2257,30 @@
       "pinyin": "wànzì wén",
       "status": "decided",
       "note": "The Buddhist auspicious emblem 卍 (wan) used as a decorative fret on the requisitioned lanterns. Rendered 'the wan-character motif.'"
+    },
+    "四望车": {
+      "en": "four-windowed carriage",
+      "pinyin": "sìwàng chē",
+      "status": "decided",
+      "note": "A stately carriage open to view on all four sides (四望 = &#8216;views on four sides&#8217;), used in noble processions; the vehicle in the chapter's flash-forward vignette. Rendered descriptively."
+    },
+    "甩霞舞": {
+      "en": "the Rosy-Cloud Fling",
+      "pinyin": "shuǎixiá wǔ",
+      "status": "decided",
+      "note": "A fashionable dance in which the dancer flings out long ribbons of brocade that trace patterns in the air like flying rosy clouds (甩 = &#8216;fling,&#8217; 霞 = &#8216;rosy cloud&#8217;). The source coins and glosses the name; rendered to keep the image."
+    },
+    "绿矾油": {
+      "en": "green-vitriol oil",
+      "pinyin": "lǜfán yóu",
+      "status": "decided",
+      "note": "Oil of green vitriol, that is sulfuric acid, distilled by the Daoist alchemists from ferrous sulfate (绿矾, green vitriol); it corrodes paper, wood, and skin. Yuchang carries it in a sleeve-pouch. Rendered literally."
+    },
+    "跑窟": {
+      "en": "cave-running",
+      "pinyin": "pǎokū",
+      "status": "decided",
+      "note": "A cant term for the acrobatic art of scaling walls and running the eaves and rooftops of the city; Yisi's specialty. Rendered literally."
     }
   }
 }

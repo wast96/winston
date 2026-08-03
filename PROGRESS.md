@@ -1440,3 +1440,148 @@ English, not noised.
   constable-post / Li Bi in Long Bo's courtyard) are divided in the source by
   decorative rules (Image00005.jpg); following house style the shifts are plain
   paragraph breaks, no separator glyph.
+
+## B12 = ch12 (第十二章 亥初 / "The Hour of the Pig, First Half, 9 p.m.")
+
+Scope: the whole chapter, 18,171 source characters, 375 paragraphs. Five
+interwoven strands after the flash-forward vignette and dateline: Zhang Xiaojing,
+wounded, runs the Shouzhuolang-and-constable cordon across Pingkang Ward (the
+stove-and-spindle decoy; the watchtower net turned to his aid; the old
+post-soldier Old Zhao's disguise) until he collapses and a black hand catches
+him; Yuan Zai murders the young toughs to silence them, frames the abduction on
+Zhang, and delivers the "rescued" Wang Yunxiu to Ji Wen, who has purged the
+Bureau's foreign clerks; the raid on the Cibei-Temple thatched hut takes Cen
+Shen and Wen Ran (the release-pond ice-knife; Wen Ran's despair when told her
+benefactor is dead and given to Prince Yong; her sacrifice to free Cen Shen; the
+reunion cry "Sister Wang"); Old Ge's ox-cart carries Zhang to the Guan Zhong
+shrine, where he and the squad leader spring a joint trap on the assassin, who
+escapes with green-vitriol oil at the cost of an arm, naming himself Yuchang;
+and Yisi reappears, runs Zhang over the rooftops to safety, and presses on him
+the eight-cornered bamboo shard that reopens the trail, telling his own tale of
+the fallen Persian royal house. Tanqi reaches the heir apparent's carriage and
+cries that the Jing'an is in peril; the chapter closes on the great watchtower's
+repeating "Do not come back."
+
+Deliverables shipped: out/ch12_bilingual.md (QC only, never ships),
+out/ch12_reading.md, data/zh/ch12.txt, notes.json (3 new notes, 46 total),
+glossary.json (grown, below), noise.txt (extended, below), the rebuilt EPUB,
+and this log. figures.json unchanged (no content illustration in this chapter;
+Image00004.jpg the footnote-marker glyph and Image00005.jpg the scene-break rule
+are not figures).
+
+### Checks run
+
+- Verbatim-quote check: a script reconstructed the source paragraph list from
+  data/src/26_text00025.txt (dropping the 亥初 heading line and the trailing
+  zero-width-space line, merging the two extractor-split pairs) and diffed it
+  against data/zh/ch12.txt: 375/375 paragraphs, ALL VERBATIM MATCH, 0 mismatches.
+- check_structure.py --pairs data/zh/ch12.txt out/ch12_reading.md: parity equal,
+  source 375 | translation 375, OK.
+- check_numbers.py --noise noise.txt: 375 pairs, 0 unresolved. First pass flagged
+  four items. Three were NON-quantities added to noise.txt (recorded below):
+  三步并两步 (a "half-run/haste" idiom, 3/2 not counts), 六个字 ("these six words,"
+  a character-count of Yuan Zai's uttered phrase, cf. the existing 四个字), and
+  说三道四 ("wag one's tongue," 3/4 not counts, cf. the existing 推三阻四). The
+  fourth, 两边必须选一边 ("of the two he had to choose one"), was a REAL count:
+  the English had read "one or the other," dropping the 两 (two), so it was FIXED
+  in the ENGLISH to "of the two he had to choose one," carrying both 2 and 1
+  (not noised).
+- build_reading_epub.py + qa_epub.py: build wrote 12 of 26 chapters, 46 notes;
+  QA PASS (26 documents, 4118 paragraphs; 46 references / 46 bodies / 46
+  backlinks; 38 files, all links resolve).
+
+### Notes added (notes.json ch12; 3, total now 46)
+
+- "the Guan Zhong shrine" — Guan Zhong (d. 645 BCE) as the traditional patron of
+  the courtesan trade, from the state-licensed brothels (女闾) of Qi; the shrine
+  in the pleasure quarter is a wry historical joke, not the source's invention.
+- "I, Yuchang, will surely have your life" — 鱼肠 ("fish-gut") as the ancient
+  dagger with which Zhuan Zhu killed King Liao of Wu in 515 BCE (Zuozhuan /
+  Shiji "Assassins"); the killer takes the weapon's name. First appearance.
+- "The late king Peroz led his whole clan" — Peroz III, last Sasanian heir, who
+  fled the Arab conquest to the Tang court (honorary generalship; the short-lived
+  Persian Area Command, c. 661; Old Book of Tang); Yisi's claim of royal descent.
+  First appearance.
+- Deliberately NOT re-noted (already noted or already passed in ch01-ch11): the
+  Shouzhuolang (ch10), Liu Shiqi (ch11), the Que-le Huo-duo, He Zhizhang, Yuan
+  Zai, Prince Yong, Ji Wen, the Censorate, the Nestorian/Persian-Temple cluster
+  (ch08), Cen Shen. The Analects tag 名不正则言不顺 ("if the name is not right,
+  speech does not accord") and the Daodejing-36 tag Yuan Zai quotes are rendered
+  faithfully in prose without notes, to hold the chapter to ~3.
+
+### Glossary added (glossary.json)
+
+- People: 鱼肠/Yuchang (the one-armed assassin; the dagger-name), 卑路斯/Peroz
+  (last Sasanian heir), 太宗/Emperor Taizong, 高宗/Emperor Gaozong, 管仲/Guan Zhong,
+  老聃/Lao Dan (= Laozi), 燕子李/Li the Swallow (the thief Old Zhao recalls),
+  老赵/Old Zhao (the old post-soldier; distinct from 赵参军 Adjutant Zhao).
+- Organizations: 右威卫/the Right Awesome Guard (Hucker; Peroz's honorary guard).
+- Places: 波斯/Persia, 管仲祠/the Guan Zhong shrine.
+- Terms: 四望车/four-windowed carriage, 甩霞舞/the Rosy-Cloud Fling (the
+  ribbon-flinging dance, self-glossed by the source), 绿矾油/green-vitriol oil
+  (sulfuric acid, a Daoist alchemical product), 跑窟/cave-running (Yisi's roof-art).
+- Reused verbatim (not re-romanized): Zhang Xiaojing, the Shouzhuolang, squad
+  leader (队正), firemaster (火师), constable (武侯) / post-soldier (铺兵), the
+  watchtower / great watchtower, Yao Runeng, Li Bi, the Jing'an Bureau, the
+  Que-le Huo-duo, Wang Yunxiu, Yuan Zai (zi Gongfu), Ji Wen, Feng Dalun, Xu Bin,
+  Wen Ran, Cen Shen, Old Ge, Tanqi, the heir apparent, the Xingqing Palace, the
+  Qinzheng Wuben Tower, the Jingzhao Prefecture, the Cibei/Persian Temples, the
+  Kunlun slave, Liu Shiqi, Yisi, the Arab lands (大食), Kucha (龟兹), the lantern-
+  floats (拔灯), the Xi cart (奚车), Guangde/Changming/Anren Wards, "Zhang the
+  Yama," "every kindness repaid, every debt settled."
+
+### noise.txt extended (recorded, with why)
+
+- 六个字 — "these six words" (a count of the characters in Yuan Zai's phrase
+  终于等到你了), not a quantity of things; cf. the existing 四个字 / [二三四]字.
+- 说三道四 — "wag one's tongue / gossip and carp" (idiom); the 3/4 are not counts,
+  cf. the existing 推三阻四.
+- 三步并两步 — "hurry at a half-run" (idiom, lit. three steps in two); 3/2 not
+  counts. English renders it "in two strides."
+- ORDERING: all three are four-plus-character strings with no shorter built-in
+  that would eat part of them first, so placement at the file's end is safe.
+- The one real dropped number (两边必须选一边) was fixed in the ENGLISH, not noised.
+
+### Blind double-translation + back-translation (separate contexts)
+
+- Blind double-translation, literary sample (source line 330, Zhang's despair:
+  "希望一断绝，无穷的压力便从四面八方涌过来 … 一个人，到底没办法对抗一个组织").
+  The independent re-rendering matched the shipped text in sense throughout:
+  从四面八方 = "from every side" / "from all directions"; 心力交瘁 = "worn out in
+  heart and strength"; 孤军奋战 / 逆转不了大局 = "a lone fighter … could not turn
+  the whole tide back." No omission, no divergence. 0 errors.
+- Round-trip back-translation, number-dense sample (the flash-forward vignette,
+  source line 2 = 255): the English back-translated to 六名 … 八名 … 四望车 … 四匹
+  … 十几名, i.e. all five numerals (6 horsemen, 8 attendants, the four-windowed
+  car, 4 horses, ten-odd guards) survive intact; the recurring vignette is
+  rendered identically at both occurrences. 0 errors.
+- Sample error rate: 0 errors across the two audited passages (~2% of the
+  chapter's characters), consistent with ch01-ch11.
+
+### Flagged for the read-through
+
+- The chapter OPENS with a flash-forward vignette (source line 2, the golden
+  horsemen and the four-windowed carriage) BEFORE the dateline; the identical
+  sentence recurs at its true moment (source line 255, Tanqi before the Xingqing
+  Palace) and was translated identically in both places, per the ch04-ch11
+  precedent. The dateline (source lines 3-4) and its two split halves were merged
+  into one pair; likewise Zhang's split speech (source lines 347-348).
+- Preserved pun (费/废): Old Ge says the Shouzhuolang "cost us a bit of hand and
+  foot" (费了点手脚 = took some doing), and Zhang thinks the truer phrase is that
+  it "cost them a few hands and feet" (废了点手脚 = crippled some limbs). The
+  shared literal 手脚 ("hands and feet") carries the wordplay in English without
+  a note.
+- The assassin's self-naming ("I, Yuchang") and Yisi's Persian-royal backstory
+  (Peroz) are the chapter's two "reference a non-specialist won't catch" notes;
+  the Guan Zhong shrine is the third. The Analects rectification-of-names tag
+  (名不正则言不顺) and the Daodejing-36 tag are rendered in prose, unnoted, to
+  hold the density near 3.
+- Scene shifts (the ward-cordon chase / Wang Yunxiu's mule-cart / Ji Wen at the
+  new Bureau / Yuan Zai and Feng Dalun / Old Ge's ox-cart / Wang Yunxiu's chamber
+  and Xu Bin / the Cibei-Temple raid / Tanqi at the Xingqing Palace / the Guan
+  Zhong shrine / Yisi's rooftop rescue) are divided in the source by decorative
+  rules (Image00005.jpg); following house style the shifts are plain paragraph
+  breaks, no separator glyph.
+- No authorial slip in this chapter's time-gloss: the note correctly labels 亥
+  (the Pig, 9-11 p.m.) with "晚上9点 … 21时至23时," unlike the mismatched 卯 bodies
+  of the ch10 and ch11 notes.
