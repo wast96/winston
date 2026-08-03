@@ -359,3 +359,12 @@
 # directions/harmonies"), not the count 6. Must precede any built-in that would
 # read the bare 六. English keeps "liuhe boots."
 六合
+# ch20: 万流归宗 = "All Streams Return to the Source" (the name of one of Lai
+# Junchen's tortures, 来氏八法); 万流 ("myriad streams") is idiomatic, not the
+# quantity 10000. cn_to_int reads the bare 万 as 10000. English renders the
+# name "All Streams Return to the Source" (appears twice, ch20 L21/L71).
+万流归宗
+# ch20: 四外 in 抬头朝四外望去 = "looked out on every side" (an all-directions 四X
+# idiom, cf. 四下/四面/四处/四方 already listed but with 外); the 四 is not the
+# quantity 4. English renders "on every side."
+四外

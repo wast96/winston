@@ -2397,3 +2397,146 @@ blockquote equals the source content char-for-char before writing).
   his neck wrenched round (a mole still loose in the bureau), and Xiao Gui's gift
   of Prince Yong flung before Zhang at the imperial seat. Faithful to the source;
   no bridging text invented.
+
+## B20 = ch20 (第二十章 卯初 / "The Hour of the Rabbit, First Half, 5 a.m.")
+
+Scope: the whole chapter, 15,148 source characters (book.json); 17,211 source
+chars incl. the time-gloss, 263 body paragraphs. Built the bilingual with the
+verbatim-guaranteed generator scripts/gen_ch20_bilingual.py (reads the source
+lines from data/src/43_text00041.txt, pairs each with hand-authored English,
+merges the extractor-split halves, and asserts the concatenation of every '>'
+blockquote equals the source content char-for-char before writing).
+
+### Source structure handled
+- Opening flash-forward vignette: L2 (one paragraph) and L3+L4 (extractor-split
+  on a comma, MERGED) — the whole company turning to the girl who is this year's
+  lantern-float red tally. It RECURS verbatim inside L93 (说到这里，众人不由得一起
+  回头… = L2+L3+L4 concatenated) and both occurrences were translated identically
+  (the VIG_A/VIG_B constants are re-used in the L93 paragraph).
+- Dateline L5+L6 (extractor-split: …午正 / 。) MERGED into one pair; the L1
+  content-marker heading 卯初 absorbed into the H2 title, as ch01-ch19. Location
+  line L7 (长安，万年县，靖恭坊。) its own paragraph. NOTE: this dateline (午正 =
+  the Horse hour's second half, noon) belongs to a FLASHBACK — 天宝二载十月七日
+  (743 CE), several months before the main day — narrated L8-L61 (Zhang capturing
+  Prince Yong at the polo ground, the oath at the Guanyin temple, the surrender).
+  The present frame resumes L62 (事隔数月 "several months later"), at the tower.
+- Time-gloss L267 rendered as the source's own italic note, prefixed
+  "*[The source appends a note on the hour to each chapter:]*". This gloss
+  describes 午正/noon (中午12点…北京时间11时至13时), i.e. it is attached to the
+  in-body FLASHBACK dateline (午正), NOT to the chapter's nominal hour 卯初/5 a.m.
+  Both are internally correct: the flashback is at noon months earlier, the
+  present-day tower scenes are pre-dawn (L241 黎明之前最黑暗的时候 confirms 卯初).
+  This is NOT the ch10/ch11-type mismatch; it is a gloss-on-the-flashback-dateline.
+  Trailing L268 (U+200B) dropped.
+- Only two extractor-splits this chapter (the vignette-b halves L3+L4 and the
+  dateline halves L5+L6); every other source line ended terminal. The multi-
+  paragraph quotation L91/L92 (Xiao Gui naming the three named Pifu; L91's second
+  quote left open, L92 continuing it) kept as two separate pairs, per house style.
+
+### Checks run
+- Verbatim quotation: generator assertion PASS — concatenation of all 263
+  blockquotes + the time-gloss equals the source content (data/src lines 2-267)
+  character-for-character (17,211 chars).
+- check_numbers.py --noise noise.txt: 264 pairs, 0 unresolved.
+- check_structure.py --pairs: parity 264/264 OK.
+- qa_epub.py: PASS, 38 files, 32 documents, all links resolve; 70 note refs / 70
+  bodies / 70 backlinks. Build reports 20 of 26 chapters translated.
+- Blind double-translation (literary sample, L119 — the emperor's forgotten
+  warrior youth, 承平的日子太久了…九五之尊…唐隆先天两场政变): independent second
+  rendering matched in content throughout; both fresh contexts independently
+  rendered 九五之尊 as "most exalted of sovereigns," 弓骑高手 as "master of the
+  mounted bow," and the two coups identically. 0 content errors, 0 divergences
+  of substance (only "settled peace"/"days of peace" and "picked men"/"finest
+  troops" wording).
+- Round-trip back-translation (number-dense sample, L86 — 九年前…二十余日…三人…
+  两人…日理万机): back-rendered to Chinese and diffed against the source; every
+  quantity survived (nine years, twenty-odd days, three survivors, two present,
+  the myriad "ten thousand affairs"). 0 dropped numbers, 0 content errors (only
+  synonym drift 第八团/第八队, 犯境/犯边 — back-translation artifacts).
+- Random-sample deep audit (~3%: L2/L93 vignette-parity, L21 the 万流归宗 torture,
+  L86 the beacon-fort numbers, L97 the Cao Gui allusion, L145-L146 Xu Bin's "四日"
+  wall-scratch clue, L252 the arithmetic of lives, L264 the chiwen) given the full
+  paranoid treatment: observed error rate 0.
+
+### noise.txt extended (2 entries, both NON-quantity)
+- 万流归宗 — the name of Lai Junchen's emetic torture ("All Streams Return to the
+  Source"); 万流 ("myriad streams") is idiomatic, cn_to_int reads the bare 万 as
+  10000. English carries the name (L21/L71), no digit.
+- 四外 — 抬头朝四外望去 = "looked out on every side," an all-directions 四X idiom
+  (cf. 四下/四面/四处/四方 already listed), not the count 4.
+- No REAL quantity was noised: every genuine count is carried in the English and
+  survives check_numbers — 二十余日 → "above twenty days"; 三人/两人 → "three men"/
+  "two"; 日理万机 → "ten thousand affairs"; 十六皇子 → "sixteenth ... son"
+  (WORD_NUM has "sixteenth"); 三百人/一千人/一万人不到 → "three hundred men"/"a
+  thousand"/"under ten thousand men"; 百万百姓 → "a million commonfolk" (rendered
+  "a million" so the checker's MULT handling matches 1,000,000); 一百多具 → "a
+  hundred and more"; 六丈 → "six zhang"; 开元二十年 → "the twentieth year of
+  Kaiyuan"; the seven floors carried as "seventh/sixth/fifth/fourth/third".
+
+### Notes added (3; running total 70)
+- "Those who eat meat are of mean discernment" — Cao Gui in the Zuozhuan (Duke
+  Zhuang, 10th year; 曹刿论战), quoted by Xiao Gui; the commoner's scorn for the
+  ruling class before the Battle of Changshao (684 BCE). Corroborated.
+- "When the sovereign is troubled, the minister toils" — 君忧臣劳，君辱臣死, from
+  the Discourses of Yue in the Guoyu, spoken by Fan Li to King Goujian; the
+  classic maxim of a minister's duty to die for his lord's honor. Corroborated.
+- "a chiwen of fired clay" — the 鸱吻 dragon-fish roof-ridge ornament, a
+  water-spirit charm set to ward off fire (魇火), as the text explains.
+  Corroborated.
+- Skipped already-noted/appeared subjects: Prince Yong Li Lin (ch05), Yuan Zai
+  (ch05), Lai Junchen (ch10), the Pifu (ch09), Taizhen (ch13), the makara
+  (appeared ch08/ch09, in glossary), the tongtian crown, the Pear Garden, the
+  Tanglong/Xiantian coups (ch18), the beacon-fort backstory / Suluk Khagan /
+  Balhuan (ch02/ch15), Emperor Yang of Sui (a general-knowledge figure).
+
+### Glossary grown (29 rows; one referent, one rendering)
+- people (+12) — 郭氏/the Lady Guo (Prince Yong's mother); the three named Pifu
+  伍归一/Wu Guiyi, 莫洼儿/Mo Wa'er, 索法惠/Suo Fahui; the Eighth Company death-roll
+  甘校尉/Commandant Gan, 刘文办/Liu the Clerk, 宋十六/Song Sixteen, 杜婆罗/Du Poluo,
+  王河东/Wang Hedong, 樊老四/Fan the Fourth (all first appeared ch15, now ledgered
+  so the death-roll reads consistently); 曹刿/Cao Gui; 隋炀帝/Emperor Yang of Sui.
+- places (+5) — 观音寺/the Guanyin temple, 华清池/the Huaqing Pool, 河间/Hejian,
+  金城/Jincheng, 河南县/Henan County.
+- organizations (+2) — 户部/the Ministry of Revenue (Xu Bin's origin office),
+  西域都护府/the Protectorate of the Western Regions.
+- terms (+10) — 观音/Guanyin (滴水观音 = the Water-Dripping Guanyin), 坤道/female
+  Daoist, 来氏八法/the Eight Methods of the house of Lai, 万流归宗/All Streams
+  Return to the Source, 蹀躞带/the diexie belt, 鸱吻/chiwen, 楼内楼/the tower within
+  the tower, 敛式斗拱/close-set bracket-sets, 附转梁/attached turning-beams,
+  拔灯红筹/the lantern-float red tally.
+- Reused decided forms verbatim: Zhang Xiaojing (大头 = Big-Head), Xiao Gui, the
+  Son of Heaven (朕 rendered "Us/We/Our"; 陛下 = "Your Majesty"), Prince Yong Li
+  Lin, Taizhen, Li Bi, Xu Bin (Recorder Xu), Chen Xuanli (the General), Yuan Zai
+  (Evaluator Yuan), Ji Wen, He Zhizhang (Director He), Feng Dalun, Adjutant Zhao,
+  Wen Ran, Wen Wuji, the Wen Incense Shop, the Bear Fire Gang, the Pifu, the Five
+  Yamas, Mao Shun, Chao Fen, the makara, the Eighth Company, the Türk (Wolf
+  Guards), Suluk Khagan, Balhuan, the beacon-fort, the Jing'an Bureau, the
+  Jingzhao Prefecture, the Jinwu Guard / Longwu Army / Lüben Guards / Right Xiao
+  Guard, the Qinzheng Wuben Tower, the Star-Plucking Hall / Wind-Wooing Hall, the
+  broken bridge (断桥, the seventh-floor span), the sky-reaching stair, the
+  Taishang Xuanyuan Lantern-Tower, the Que-le Huo-duo, the Xingqing Palace, the
+  Pear Garden, the tongtian crown, the Protectorate of Anxi, Dunyi Ward, Jinggong
+  Ward, the art of the Great Archive, shichen, finger-snap, chi/zhang/li.
+
+### Figures
+- None. No content illustration in data/figs/ for this chapter (only the source's
+  footnote-marker glyph Image00004.jpg and the scene-break rule Image00005.jpg,
+  neither a figure). figures.json unchanged.
+
+### Flagged for the read-through
+- Register: kept the source's coarseness and the emperor's imperial voice — 朕
+  rendered with the royal "Us/We/Our" throughout the Son of Heaven's speech; the
+  Pifu's mock-humble 微臣/微臣所想 kept as "your humble servant." Xiao Gui's
+  arithmetic of lives (L252, 三百/一千/一万) rendered as bald cardinals to land
+  the coldness. 独眼龙 rendered "one-eyed man" (not "one-eyed dragon") for flow.
+- The chapter braids a FLASHBACK (the polo-ground capture of Prince Yong and his
+  forced oath at the Guanyin temple, 743 CE) into the present tower stand-off, and
+  reveals the tower's secret: Mao Shun's hidden "tower within the tower" floor-load
+  structure, whose sabotage (Zhang's plan, carried out by Tanqi via Prince Yong's
+  fall onto the makara eave-beast) collapses the seventh floor and foils the
+  mass burning — but a hair too slowly to catch Xiao Gui. Meanwhile Li Bi finds
+  Xu Bin murdered, his fingernails scratching "四" + an unfinished "日" into the
+  wall — the mole's trail. Ends with the captors out on the eaves at a chiwen,
+  beside "a thing that could by no possibility have been there." Faithful to the
+  source; no bridging text invented; the one genuine ambiguity flagged is the
+  time-gloss/flashback relation (recorded above), not smoothed over.

@@ -679,6 +679,78 @@
       "pinyin": "Dēngtúzǐ",
       "status": "decided",
       "note": "Tanqi's teasing nickname for Zhang Xiaojing, from the byword 登徒子 ('Master Dengtu,' the lecher of Song Yu's rhapsody). Rendered by sense as 'lecher' throughout (dominant rendering ch02-ch13)."
+    },
+    "郭氏": {
+      "en": "the Lady Guo",
+      "pinyin": "Guō",
+      "status": "decided",
+      "note": "Prince Yong (Li Lin)&#8217;s mother, who prayed at the Guanyin temple in Jinggong Ward during his childhood illness and died soon after; her spirit-tablet stands there. ch20."
+    },
+    "伍归一": {
+      "en": "Wu Guiyi",
+      "pinyin": "Wǔ Guīyī",
+      "status": "decided",
+      "note": "A Pifu, a man of Hejian falsely charged with desertion; named by Xiao Gui before the Son of Heaven. ch20."
+    },
+    "莫洼儿": {
+      "en": "Mo Wa'er",
+      "pinyin": "Mò Wā&#8217;ér",
+      "status": "decided",
+      "note": "A Pifu, a Hu of mixed blood from Jincheng, ruined by an imperial camel-levy. ch20."
+    },
+    "索法惠": {
+      "en": "Suo Fahui",
+      "pinyin": "Suǒ Fǎhuì",
+      "status": "decided",
+      "note": "A Pifu, a cartwright of Henan County ruined by lantern-fair corvée; he burns the fleeing envoy alive. ch20."
+    },
+    "甘校尉": {
+      "en": "Commandant Gan",
+      "pinyin": "Gān",
+      "status": "decided",
+      "note": "Commandant of the Eighth Company, who taught them in the Western Regions (&#8216;forethought brings success&#8217;); among the dead whose ashes were brought back. First named ch15, recurs ch20."
+    },
+    "刘文办": {
+      "en": "Liu the Clerk",
+      "pinyin": "Liú",
+      "status": "decided",
+      "note": "An Eighth Company comrade among the dead of the Western Regions. First named ch15, recurs in the death-roll ch20."
+    },
+    "宋十六": {
+      "en": "Song Sixteen",
+      "pinyin": "Sòng",
+      "status": "decided",
+      "note": "An Eighth Company comrade among the dead; the 十六 (&#8216;Sixteen&#8217;) is a ranking-name. First named ch15, recurs ch20."
+    },
+    "杜婆罗": {
+      "en": "Du Poluo",
+      "pinyin": "Dù Póluó",
+      "status": "decided",
+      "note": "An Eighth Company comrade among the dead. First named ch15, recurs ch20."
+    },
+    "王河东": {
+      "en": "Wang Hedong",
+      "pinyin": "Wáng Hédōng",
+      "status": "decided",
+      "note": "An Eighth Company comrade, a Hedong man (as &#8216;Old Wang&#8230;Hedong&#8217; ch15; in the death-roll as 王河东 ch20)."
+    },
+    "樊老四": {
+      "en": "Fan the Fourth",
+      "pinyin": "Fán",
+      "status": "decided",
+      "note": "An Eighth Company comrade (Old Fan, of Jiannan). First ch15; in the death-roll as 樊老四 ch20."
+    },
+    "曹刿": {
+      "en": "Cao Gui",
+      "pinyin": "Cáo Guì",
+      "status": "attested",
+      "note": "The commoner strategist of Lu in the <i>Zuozhuan</i> (曹刿论战); Xiao Gui quotes his &#8216;those who eat meat are of mean discernment.&#8217; ch20 (see note)."
+    },
+    "隋炀帝": {
+      "en": "Emperor Yang of Sui",
+      "pinyin": "Suí Yángdì",
+      "status": "attested",
+      "note": "Yang Guang (569&#8211;618), last effective emperor of the Sui, a byword for a ruler brought down by extravagance and misrule. ch20."
     }
   },
   "organizations": {
@@ -873,6 +945,18 @@
       "pinyin": "Jiānmén Wèi",
       "status": "decided",
       "note": "The Palace Gate Guard among the Sixteen Guards, charged with warding the palace gates; rendered by function."
+    },
+    "户部": {
+      "en": "the Ministry of Revenue",
+      "pinyin": "Hùbù",
+      "status": "attested",
+      "note": "One of the Six Ministries, charged with population, land and revenue (Hucker: Ministry of Revenue); Xu Bin was seconded from it to the Jing&#8217;an Bureau. ch20."
+    },
+    "西域都护府": {
+      "en": "the Protectorate of the Western Regions",
+      "pinyin": "Xīyù Dūhùfǔ",
+      "status": "decided",
+      "note": "The frontier protectorate-general under which the Eighth Company served (cf. the Protectorate of Anxi, 安西都护府). ch20."
     }
   },
   "places": {
@@ -1967,6 +2051,36 @@
       "pinyin": "Xuánwǔ Mén",
       "status": "attested",
       "note": "The northern palace gate of the Tang capital, scene of the coup of 626; here invoked for the 'kin-slaying' strain in the Li house."
+    },
+    "观音寺": {
+      "en": "the Guanyin temple",
+      "pinyin": "Guānyīn Sì",
+      "status": "decided",
+      "note": "A small temple in Jinggong Ward with a famous jade Guanyin, bound to Prince Yong through his mother the Lady Guo; site of the polo-field flashback. ch20."
+    },
+    "华清池": {
+      "en": "the Huaqing Pool",
+      "pinyin": "Huáqīng Chí",
+      "status": "attested",
+      "note": "The hot-spring pool at Mount Li east of Chang&#8217;an, famed for the bathing of Xuanzong and Yang Guifei (Bai Juyi, &#8216;Song of Everlasting Regret&#8217;). ch20."
+    },
+    "河间": {
+      "en": "Hejian",
+      "pinyin": "Héjiān",
+      "status": "attested",
+      "note": "A prefecture in Hebei; home of the Pifu Wu Guiyi. ch20."
+    },
+    "金城": {
+      "en": "Jincheng",
+      "pinyin": "Jīnchéng",
+      "status": "attested",
+      "note": "A commandery about modern Lanzhou; home of the Pifu Mo Wa&#8217;er. ch20."
+    },
+    "河南县": {
+      "en": "Henan County",
+      "pinyin": "Hénán Xiàn",
+      "status": "attested",
+      "note": "A metropolitan county at Luoyang; home of the Pifu Suo Fahui. ch20."
     }
   },
   "terms": {
@@ -3157,6 +3271,66 @@
       "pinyin": "nàqié huā",
       "status": "decided",
       "note": "An exotic bloom named in the flowerbeds of the Qinzheng Wuben Tower; 那伽 transliterates Sanskrit naga (serpent-spirit). Rendered by transliteration."
+    },
+    "观音": {
+      "en": "Guanyin",
+      "pinyin": "Guānyīn",
+      "status": "attested",
+      "note": "Avalokitesvara, bodhisattva of compassion; the &#8216;Water-Dripping Guanyin&#8217; (滴水观音) is the willow-and-vase form pouring sweet dew. ch20."
+    },
+    "坤道": {
+      "en": "female Daoist",
+      "pinyin": "kūndào",
+      "status": "decided",
+      "note": "A woman ordained as a Daoist priest (坤 = the female principle); Taizhen appears in such robes. ch20."
+    },
+    "来氏八法": {
+      "en": "the Eight Methods of the house of Lai",
+      "pinyin": "Lái shì bā fǎ",
+      "status": "decided",
+      "note": "The eight named tortures the text ascribes to Lai Junchen (see ch10 note); the emetic method 万流归宗 is called the lightest. ch20."
+    },
+    "万流归宗": {
+      "en": "All Streams Return to the Source",
+      "pinyin": "wàn liú guī zōng",
+      "status": "decided",
+      "note": "A named emetic torture (fish-mint and baiwei broth forced down, the mouth then stopped), the lightest of the Eight Methods of the house of Lai. ch20."
+    },
+    "蹀躞带": {
+      "en": "the diexie belt",
+      "pinyin": "diéxiè dài",
+      "status": "attested",
+      "note": "A Tang leather utility belt hung with detachable straps and small tools; the Son of Heaven&#8217;s folding knife hangs from his. ch20."
+    },
+    "鸱吻": {
+      "en": "chiwen",
+      "pinyin": "chīwěn",
+      "status": "attested",
+      "note": "The dragon-fish ridge-end ornament of Chinese roofs, a fire-warding water-charm. ch20 (see note)."
+    },
+    "楼内楼": {
+      "en": "the tower within the tower",
+      "pinyin": "lóu nèi lóu",
+      "status": "decided",
+      "note": "Mao Shun&#8217;s hidden independent floor-load structure in the Qinzheng Wuben Tower, carrying weight through bracket-sets rather than corner-pillars; wrecking its junctures collapses the floors. ch20."
+    },
+    "敛式斗拱": {
+      "en": "close-set bracket-sets",
+      "pinyin": "liǎnshì dǒugǒng",
+      "status": "decided",
+      "note": "The compacted <i>dougong</i> bracket clusters that, with the attached turning-beams, transmit the floor-loads of the &#8216;tower within the tower.&#8217; ch20."
+    },
+    "附转梁": {
+      "en": "attached turning-beams",
+      "pinyin": "fùzhuǎn liáng",
+      "status": "decided",
+      "note": "The load-transferring beams paired with the close-set bracket-sets in Mao Shun&#8217;s hidden support system. ch20."
+    },
+    "拔灯红筹": {
+      "en": "the lantern-float red tally",
+      "pinyin": "bádēng hóngchóu",
+      "status": "decided",
+      "note": "The title and prize won by the year&#8217;s foremost lantern-float troupe (拔灯 + 红筹); its holder, a girl, is glimpsed in the flash-forward. ch20."
     }
   }
 }
