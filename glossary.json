@@ -450,6 +450,48 @@
    "pinyin": "Xiao Wu",
    "status": "decided",
    "note": "Muci's orderly (勤务兵) at the Central Shanghai Commandant's Office."
+  },
+  "焦同顺": {
+   "en": "Jiao Tongshun",
+   "pinyin": "Jiao Tongshun",
+   "status": "provisional",
+   "note": "Head of the decryption group of the Detective Division's Second Section."
+  },
+  "徐诚": {
+   "en": "Xu Cheng",
+   "pinyin": "Xu Cheng",
+   "status": "provisional",
+   "note": "Head of the intelligence group of the Detective Division's Second Section."
+  },
+  "刘云": {
+   "en": "Liu Yun",
+   "pinyin": "Liu Yun",
+   "status": "decided",
+   "note": "Major Liu Yun, an adjutant of the Detective Division; addressed throughout as Adjutant Liu (刘副官)."
+  },
+  "陆阿贞": {
+   "en": "Lu A-Zhen",
+   "pinyin": "Lu A-Zhen",
+   "status": "provisional",
+   "note": "Fang Zhitong's woman; shot dead by Li Qinhong at Chapter 22."
+  },
+  "顾顺章": {
+   "en": "Gu Shunzhang",
+   "pinyin": "Gu Shunzhang",
+   "status": "attested",
+   "note": "Historical CCP Special Branch security / Red Squad chief who defected in 1931. See the note at Chapter 22."
+  },
+  "伍豪": {
+   "en": "Wu Hao",
+   "pinyin": "Wu Hao",
+   "status": "attested",
+   "note": "A documented alias of Zhou Enlai (周恩来), directing the Special Branch in Shanghai. See the note at Chapter 22."
+  },
+  "向成发": {
+   "en": "Xiang Chengfa",
+   "pinyin": "Xiang Chengfa",
+   "status": "decided",
+   "note": "Fang Zhitong's full underground cover name (cover-surname 向 Xiang; see the note at Chapter 21). The Detective Division uses both names for the one man."
   }
  },
  "organizations": {
@@ -764,6 +806,18 @@
    "pinyin": "Huzhong Zhangguan Gongshu",
    "status": "decided",
    "note": "The administrative seat where Muci is posted; the headquarters office of the 沪中警备司令部 (the Central Shanghai Garrison Command)."
+  },
+  "美琪大戏院": {
+   "en": "the Majestic Theatre",
+   "pinyin": "Meiqi da xiyuan",
+   "status": "attested",
+   "note": "Cinema at No. 66 Gordon Road; still standing today as the 美琪大戏院."
+  },
+  "英国巡捕房": {
+   "en": "the British police station",
+   "pinyin": "Yingguo xunbufang",
+   "status": "decided",
+   "note": "The International Settlement (British) police station at No. 511 Gordon Road."
   }
  },
  "places": {
@@ -1018,6 +1072,54 @@
    "pinyin": "Xiafei Lu",
    "status": "attested",
    "note": "The main thoroughfare of the French Concession (today Huaihai Road); here a café on it is the twins' second meeting place."
+  },
+  "恒吉里": {
+   "en": "Hengji Li",
+   "pinyin": "Hengji li",
+   "status": "decided",
+   "note": "Shikumen lane off Gordon Road; in the novel No. 1141 houses the CCP Central Political Bureau's meeting room and confidential secretariat."
+  },
+  "戈登路": {
+   "en": "Gordon Road",
+   "pinyin": "Gedeng lu",
+   "status": "attested",
+   "note": "International Settlement street, printed in the source in Roman letters too; today Jiangning Road (江宁路)."
+  },
+  "静安寺路": {
+   "en": "Bubbling Well Road",
+   "pinyin": "Jingansi lu",
+   "status": "attested",
+   "note": "The concession-era English name of 静安寺路 (today Nanjing West Road, 南京西路)."
+  },
+  "苏州河": {
+   "en": "Suzhou Creek",
+   "pinyin": "Suzhou he",
+   "status": "attested",
+   "note": "The creek forming the north end of Gordon Road."
+  },
+  "威海路": {
+   "en": "Weihai Road",
+   "pinyin": "Weihai lu",
+   "status": "attested",
+   "note": "Shanghai street; site of the Special Branch's old base."
+  },
+  "云南路": {
+   "en": "Yunnan Road",
+   "pinyin": "Yunnan lu",
+   "status": "attested",
+   "note": "Shanghai street; site of the Central Special Committee."
+  },
+  "广东路": {
+   "en": "Guangdong Road",
+   "pinyin": "Guangdong lu",
+   "status": "attested",
+   "note": "Shanghai street; the Central Military Commission is at Qinghefang here."
+  },
+  "清河坊": {
+   "en": "Qinghefang",
+   "pinyin": "Qinghefang",
+   "status": "provisional",
+   "note": "A locale on Guangdong Road named in the novel."
   }
  },
  "terms": {
@@ -1182,6 +1284,12 @@
    "pinyin": "yiniang",
    "status": "decided",
    "note": "A concubine of the household as referred to by the children; distinct in direct address from 姨奶奶 (aunt-mistress). As a vocative it is rendered \"Auntie.\""
+  },
+  "铆钉": {
+   "en": "the Rivet",
+   "pinyin": "maoding",
+   "status": "decided",
+   "note": "Codename for the Detective Division's informant planted inside the CCP Special Branch, who telephones in the Hengji Li address."
   }
  }
 }

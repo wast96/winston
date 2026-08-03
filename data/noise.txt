@@ -152,3 +152,29 @@
 四肢
 # 四周 = "all around" (the four sides); 四 idiomatic, not the count 4
 四周
+# --- B09 (ch22-ch24) non-quantity numerals ---
+# 三刻 = the 45-minute quarter of a clock hour (三 = "three quarter-hours"); the
+# built-in list already noises 一刻 the same way. English renders it "forty-five".
+三刻
+# 两句 in 少说两句 ("hold your tongue / say a couple of words less"); 两 idiom
+两句
+# 万不得已 = "the last extremity"; simplified form of the built-in 萬不得已
+万不得已
+# 七窍 in 七窍流血 ("blood from every orifice"); 七 lexicalized, not the count 7
+七窍
+# 零星 = "odd, scattered (scraps)"; 零 = 0, not a quantity
+零星
+# 急三火四 = "in a frantic rush"; 三/四 idiom, not counts
+急三火四
+# 第二个人 = "a second person / anyone else" (不告诉第二个人); 二 ordinal idiom
+第二个人
+# 三长两短 = "should anything untoward happen"; 三/两 idiom, not counts
+三长两短
+# 万事 in 万事皆休 ("then all is over and done"); 万 idiom, not 10000
+万事
+# 两个人 = "the two of them" (like the built-in 二人); 两 idiomatic pair
+两个人
+# 万能 in 万能输血者 ("universal donor"); 万能 = "all-purpose", 万 not 10000
+万能
+# 千帕 = kilopascal; the 千 is the SI prefix "kilo", part of the unit name
+千帕

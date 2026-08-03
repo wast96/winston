@@ -804,3 +804,97 @@ Flagged for the read-through:
 Build: out/On a Hair Trigger.epub rebuilt, 22 of 36 units translated, 70 notes.
 qa_epub.py PASS (36 documents, 3866 paragraphs, 70 references = 70 bodies = 70
 backlinks, all links resolve).
+
+================================================================================
+## Batch B09 — Chapters 22 to 24 (ch22, ch23, ch24)
+
+Scope: ch22 (25_part0023.txt, 330 paragraphs, ~8,986 chars), ch23 (26_part0024.txt,
+223 paragraphs, ~5,211 chars), ch24 (27_part0025.txt, 218 paragraphs, ~6,626 chars).
+771 paragraphs, ~20,823 source chars. The novel's crisis: Fang Zhitong is poisoned
+in his cell (the orderly Little Wu, a Party man, then shot by Li Qinhong); Ronghua
+rams her car into the disguised raid convoy to warn the comrades and dies with
+Muci gravely hurt beside her; A-Chu operates on his own twin and their blood mingles;
+the Detective Division sets a telephone voice-trap to expose the "Rivet"/mole.
+
+Authoring flow: wrote out/<id>_en.txt (one English paragraph per source paragraph),
+ran make_bilingual.py (verbatim `>` source lines; errors on count mismatch), then
+split_bilingual.py. No mid-sentence paragraph splits in any of the three chapters
+(every source paragraph ends on terminal punctuation).
+
+Checks run and results:
+- check_numbers.py --noise data/noise.txt : ch22 0 unresolved, ch23 0, ch24 0.
+  12 new noise.txt rows (B09 section), all NON-quantity numerals:
+  三刻 (clock 45-min quarter, like the built-in 一刻; rendered "forty-five"),
+  两句 (少说两句), 万不得已 (simplified of built-in 萬不得已), 七窍 (七窍流血),
+  零星 (零=0), 急三火四, 第二个人 (二 ordinal idiom), 三长两短, 万事 (万事皆休),
+  两个人 (like built-in 二人), 万能 (万能输血者 "universal donor"), 千帕 (kilopascal,
+  千 = SI kilo-). Clock times rendered so digits survive: 四点三刻→"four forty-five",
+  五点三刻→"five forty-five", 六点三刻→"six forty-five", 六点三十分→"six thirty",
+  七点四十五分→"seven forty-five". 108套刑具 rendered "108" (source uses Arabic
+  digits); 2594米 rendered "2594 metres" (no thousands comma, which the checker
+  would split).
+- check_structure.py --pairs : parity OK for all three (330/330, 223/223, 218/218).
+- Verbatim fidelity: data/zh/<id>.txt (minus ### title) diffed against source
+  paragraphs (minus 2 metadata lines) = 0 content diffs for all three.
+- Blind double translation + round-trip back-translation applied to the lyrical /
+  argumentative passages (Ronghua's death choice and its rationale, ch22 §327-331;
+  the blood-kinship reflection, ch23 §196-197; Rong Sheng's elegy for Ronghua,
+  ch24 §22-24; A-Ci's coded farewell, ch24 §206). Paranoid audit of ~30 paragraphs
+  (~4%) across all three chapters: observed error rate 0% (no omissions or
+  mistranslations; the coded farewell 风、雨俱已不在 correctly preserves the double
+  sense — the weather and the codenames Drifting Wind / Timely Rain both "gone").
+
+Footnotes: 9 (builder-numbered #71 to #79), all anchors verified verbatim/unique.
+- ch22 (4): title 截断众流大气魄 (author's pastiche; borrows the Yunmen Chan phrase
+  截断众流, "cut off the myriad streams" — uncorroborated as a full quotation,
+  the Chan source corroborated); Gu Shunzhang (顾顺章, 1931 defection — corroborated
+  against the historical record, incl. Qian Zhuangfei's cipher-office warning);
+  Wu Hao (伍豪 = Zhou Enlai's documented alias — corroborated); the source's own
+  bookstore-name slip (荣华书店 here vs 华美书店 elsewhere — rendered as it stands,
+  not reconciled).
+- ch23 (2): title 恶氛弥天血火焚 (author's own line — uncorroborated as a quotation;
+  草木皆腥 plays on 草木皆兵 from the Fei River rout, corroborated); Rh-negative type A
+  as the rare blood type (~3/1000 in Han Chinese) and the physical proof of kinship.
+- ch24 (3): title 风雨未肯收余寒 (author's line in the old manner — uncorroborated as
+  a quotation, rendered literally); 黛玉焚稿 (Dream of the Red Chamber ch.97 —
+  corroborated literary allusion + foreshadowing); 宁可错杀一千 / 宁枉勿纵 (the
+  Nationalist White Terror slogan — documented as a watchword, attribution to
+  Chiang traditional and disputed).
+Recurring refs already noted (not re-noted): the Xiang cover-name of Fang Zhitong
+was footnoted at Chapter 21 (so "Xiang Chengfa" 向成发, the full cover name new here,
+is glossed in the glossary only, not re-footnoted).
+
+Glossary: 20 new rows, one decided rendering per referent; existing renderings
+reused (A-Chu, A-Ci, Ronghua, Fang Zhitong, Xiong Zida, Li Qinhong, Gao Lei, Du
+Luning, Han Zhengqi, Han Yu, Xia Yuechun, Rong Chu, Rong Sheng, Lu Liangchen, Liu
+A-Si, Amah A-Yue, Yang Sitong, He Yashu, Little Wu, the Detective Division, the
+Special Branch, Plum Blossom Lane, the Huamei Bookstore, the Chunhe Hospital, the
+Grand Light Hostel, the Central Shanghai Commandant's Office, Longjing). New people:
+Jiao Tongshun (焦同顺), Xu Cheng (徐诚), Liu Yun (刘云 = Adjutant Liu, 刘副官), Lu A-Zhen
+(陆阿贞), Gu Shunzhang (顾顺章), Wu Hao (伍豪), Xiang Chengfa (向成发, Fang Zhitong's
+full cover name). New orgs: the Majestic Theatre (美琪大戏院), the British police
+station (英国巡捕房). New places: Hengji Li (恒吉里), Gordon Road (戈登路), Bubbling Well
+Road (静安寺路), Suzhou Creek (苏州河), Weihai Road (威海路), Yunnan Road (云南路),
+Guangdong Road (广东路), Qinghefang (清河坊). New term: the Rivet (铆钉, the Division's
+informant codename).
+
+Twin / identity handling this batch:
+- No 杨慕次/杨慕初 twin-name slip occurs in ch22-24 (A-Chu is written 阿初 throughout;
+  杨慕次 always denotes Muci). Rendered straight.
+- Fang Zhitong appears under both his real name and his full cover name 向成发
+  (Xiang Chengfa) within Xiong Zida's one speech (ch22 §18-22); rendered by context,
+  with the Xiang cover-identity already footnoted at Chapter 21.
+- Bookstore name slip (荣华书店 / 华美书店) rendered as it stands and footnoted, NOT
+  reconciled (per CLAUDE.md rule 4).
+
+Register / rendering notes:
+- Clock times deliberately rendered so their digits survive per the QC contract
+  ("four forty-five", "seven fifty-two"), not "a quarter to five" / "half past".
+- 英国巡捕房 standardized to "the British police station" (ch24 initially had
+  "British patrol house"; fixed to one rendering and glossed).
+
+Figures: none in this batch.
+
+Build: out/On a Hair Trigger.epub rebuilt, 25 of 36 units translated, 79 notes.
+qa_epub.py PASS (36 documents, 4634 paragraphs, 79 references = 79 bodies = 79
+backlinks, all links resolve).
