@@ -1,10 +1,10 @@
 ## H2 Chapter 2. Born at Dawn to Spring’s Light, Wrapped in Mist by Dusk
 
 > 1931年，英国，卡迪芙。
-1931. England. Cardiff.
+*1931. England. Cardiff.*
 
 > 清晨的阳光洒满了幽静的竹林，阿初和丛惠骑着脚踏车穿过沾染了春色的小径。两个人恣意的笑声回荡在春风里。
-The early morning sun poured over a quiet bamboo grove as A-Chu and Cong Hui rode their bicycles down a lane touched with the colors of spring. The unrestrained laughter of the two of them echoed on the spring breeze.
+The early morning sun poured over a quiet bamboo grove as A-Chu and Cong Hui rode their bicycles down a lane touched with the colors of spring. Their unrestrained laughter echoed on the spring breeze.
 
 > 阿初和丛惠是二年前在英国皇家医学院霍尔曼先生的研究室里相识的。丛惠第一眼看到阿初时，就不自觉地喜欢上了他，阿初淡淡而有神的眸子，聪明又谦逊的语言，甚至略显羞怯地微笑，都深深吸引着丛惠。而丛惠的出现，也使阿初平淡的生活平添了一层斑斓有趣的色彩。
 A-Chu and Cong Hui had met two years before, in Mr. Holman’s research laboratory at the Royal Medical College. From the first glance she had at A-Chu, Cong Hui found herself, in spite of herself, drawn to him: his calm, bright eyes, his clever and modest way of speaking, even his faintly shy smile—all of it drew Cong Hui deeply in. And Cong Hui’s appearance, in turn, added to A-Chu’s plain existence a layer of vivid and interesting color.
@@ -91,7 +91,7 @@ Like a madman he tore and bit at everything that could be torn and bitten, hurle
 “Mind the needle!” A-Chu emptied the whole dose into Rong Sheng’s body. Rong Sheng gave a cry and seemed to lose part of his fight; but when his eyes swept over Cong Hui he cursed on, still gasping: “Get out! Wicked woman! You—you aren’t fit to be a doctor at all.” And Rong Sheng flung the xiao in his hand at her.
 
 > 强弩之末，箫掉在丛惠的脚尖。
-A spent arrow at the end of its flight, the flute fell at the tip of Cong Hui’s toe.
+A spent arrow at the end of its flight, the flute fell at the tips of Cong Hui’s toes.
 
 > “初，你是不是对这种场面已经司空见惯了？”丛惠问。阿初却一心一意的将荣升扶上床，“他需要休息。”初说。
 “Chu, are these scenes something you’ve grown quite used to?” Cong Hui asked. But A-Chu was helping Rong Sheng onto the bed with all his attention. “He needs rest,” Chu said.

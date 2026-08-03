@@ -404,7 +404,7 @@ Suddenly a woman caught in the very middle of the crowd was knocked down by the 
 
 Everyone cried out in alarm.
 
-A-Chu hurriedly crouched down, laid the woman’s head level, and gave her a quick examination. Blood was seeping from her forehead, and her fingers, slender as spring scallion sprouts, spread open pale and limp…
+A-Chu hurriedly crouched down, laid the woman’s head level, and gave her a quick examination. Blood was seeping from her forehead, and her slender, tapering fingers spread open, pale and limp…
 
 Rong Sheng seemed to see a beautiful flower falling and withering before his very eyes.
 

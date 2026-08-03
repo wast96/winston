@@ -1,7 +1,7 @@
 ## H2 Chapter 4. By a Cross-Grained Twist of Fate, Hard to Guard Against
 
 > 中国，上海，1931年3月16日。
-China. Shanghai. The sixteenth of March, 1931.
+*China. Shanghai. The sixteenth of March, 1931.*
 
 > “兰心西餐厅”的时钟指向下午三点四十五分。
 The clock in the Lanxin Western Restaurant stood at three forty-five in the afternoon.

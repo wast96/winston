@@ -58,7 +58,7 @@ Lishui was too angry to speak, and stood pressing both hands to her chest, gaspi
 A-Chu gave a cold laugh and turned to go.
 
 > “你给我站住！”丽水直冲过来。“你以为现在你身份不同了，就可以肆无忌惮地欺负主子了！”丽水扬起手来就要打，阿初一伸手捏紧她手腕，对着她的脸，咬金嚼铁地说：“你再打我，我就要还手了。”
-“Stop right there!” Lishui charged straight at him. “You think that now your station has changed you can bully your masters without any restraint!” Lishui raised her hand to strike, but A-Chu shot out his own and gripped her wrist, and with his teeth set like grinding iron he said to her face, “Strike me again, and I will strike back.”
+“Stop right there!” Lishui charged straight at him. “You think that now your station has changed you can bully your masters without any restraint!” Lishui raised her hand to strike, but A-Chu shot out his own and gripped her wrist, and his jaw set like iron, he said to her face, “Strike me again, and I will strike back.”
 
 > “你敢！”
 “You wouldn’t dare!”

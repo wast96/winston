@@ -8,6 +8,37 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
 
+## 2026-08-03 — Register pass R01 (ch02 to ch06, plus ch00 note backfill)
+First execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source line touched, no
+paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/. Book-wide notes 129 to 149.
+
+- ch02: 3 prose touches (opening scene card italicized; "the laughter of the two
+  of them" to "their"; "the tip of Cong Hui's toe" to "the tips of her toes").
+  5 notes (household bond-servant 家奴; the 私塾/洋学堂 school divide; the xiao;
+  opium and the pipe; the Confucian 报恩 gratitude-debt). Now 8 notes.
+- ch03: 1 prose touch (咬金嚼铁, "teeth set like grinding iron" to "jaw set like
+  iron"). 3 notes (the karmic-foe idiom 冤家; the meaning of being made to kneel;
+  the traditional-medicine 虚不受补 behind the tonic self-poisoning). Now 6.
+- ch04: 1 prose touch (opening scene card italicized). 3 notes (the "iron
+  rooster" miser; the 1927 rupture and White Terror behind the CCP underground;
+  the Soviet base areas 苏区). Now 6.
+- ch05: 0 prose touches (already-clean action and interrogation). 1 note (the
+  storm-before-upheaval allusion 山雨欲来风满楼). Now 4.
+- ch06: 1 prose touch (春葱, "fingers like spring scallion sprouts" to "slender,
+  tapering fingers"). 5 notes (elite Shanghai girls' schools; the Butterfly
+  Lovers behind the paper butterflies; the cupped-hand bow 长揖; the earth-god
+  shrine 土地庙; the Bund 上海滩 with 英雄救美). Now 9.
+- ch00: note backfill only (prose was done in 895d19c). 3 notes (the pear-blossom
+  and parting motif; the peony as emblem of rank; the golden-lotus bound foot).
+  Now 4.
+
+Per chapter: parity OK, check_numbers 0 unresolved (data/noise.txt unchanged),
+straight-quote guard clean. Rebuilt out/On a Hair Trigger.epub; qa_epub PASS
+(149 refs = 149 bodies = 149 backlinks). Spot-audit of all 6 edited paragraphs
+against source: no meaning drift.
+
 ## 2026-08-03 — Readability: typography normalized; register pass begun
 Commissioner feedback: the book reads rough. Two causes found and addressed.
 

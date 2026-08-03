@@ -1226,3 +1226,68 @@ Figures: none.
 Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 114 notes.
 qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 114 references = 114
 bodies = 114 backlinks, all links resolve).
+
+---
+
+## Register pass R01 (2026-08-03): ch02, ch03, ch04, ch05, ch06 + ch00 note backfill
+
+First execution batch of the whole-book register pass (see REGISTER_PASS.md).
+Two workstreams run together: a style-only prose revision (never a
+retranslation) and footnote densification to the new policy (a Western reader
+with no background in Chinese custom, notes at first occurrence, coverage-driven
+not a quota). ch00 and ch01 were the exemplar (commit 895d19c); ch01's notes
+were already densified. Analysis was committed to edits/<id>_edits.md
+(TOUCH/RECAST blocks and NOTE-ADD blocks) and then executed exactly (exact-match
+replacement asserting count == 1, via Python; notes appended and anchors
+verified as verbatim substrings before building).
+
+Triage was deliberately conservative, per the exemplar's calibration: these are
+ordinary chapters (like ch01), so most paragraphs LEAVE and prose touches are
+few. The value this batch adds is chiefly in the notes.
+
+Prose edits applied (6 total, all verified against source, no drift):
+- ch02 p1 (T2) scene card "1931, England, Cardiff" set italic; p2 (T3) "the
+  laughter of the two of them" to "their"; p31 (T3) "the tip of Cong Hui's toe"
+  to "the tips of her toes".
+- ch03 p20 (T1) 咬金嚼铁 "teeth set like grinding iron" to "jaw set like iron".
+- ch04 p1 (T2) scene card "China, Shanghai, 16 March 1931" set italic.
+- ch06 p203 (T3/T1) 春葱 "fingers like spring scallion sprouts" to "slender,
+  tapering fingers" (the stock beauty-simile reads comically in English; effect
+  kept, 苍白无力 kept as "pale and limp").
+- ch05: no prose edits (a clean action/interrogation chapter; forcing edits
+  would be churn).
+
+Notes added (20 total; each checked against all prior units for first-occurrence
+coverage, scholarship verified, XHTML with numeric character references):
+- ch00 (+3, now 4): pear-blossom whiteness/parting motif; peony as emblem of
+  rank; the golden-lotus bound foot.
+- ch02 (+5, now 8): household bond-servant 家奴; the 私塾/洋学堂 (traditional vs
+  Western school) divide; the xiao flute; opium and the pipe (with morphine
+  weaning); the Confucian 报恩 gratitude-debt.
+- ch03 (+3, now 6): the karmic-foe idiom 冤家 ("five hundred years"); the meaning
+  of being made to kneel (下跪); the traditional-medicine 虚不受补 behind Rong
+  Sheng's feigned illness by overdosing tonics.
+- ch04 (+3, now 6): the "iron rooster" 铁公鸡 miser idiom; the 1927 KMT-CCP
+  rupture and White Terror behind the underground; the rural Soviet base areas 苏区.
+- ch05 (+1, now 4): the storm-before-upheaval allusion 山雨欲来风满楼 (Xu Hun).
+- ch06 (+5, now 9): elite Shanghai girls' schools (St. Mary's Hall); the Butterfly
+  Lovers 梁祝 / 殉情 behind the paper butterflies; the cupped-hand bow 长揖; the
+  earth-god shrine 土地庙; the Bund 上海滩 with the 英雄救美 trope.
+
+Recurring subjects were cross-referenced, not re-noted: Bannermen, the Madams,
+wedding red, the moon gate and longevity lock (all ch01); Juntong and the
+Special Branch, Dai Li, the codenames (ch04-05); the chapter-title poem
+allusions and the existing Manifesto / Dream of the Red Chamber / Lu Xun notes.
+Notes not added where the scene already makes the point plain or the item is not
+Chinese-specific (mimeograph, telegraph office, Tokyo Imperial University).
+
+Checks: per chapter, split_bilingual.py regenerated reading + data/zh; parity OK
+(ch02 191, ch03 132, ch04 133, ch05 119, ch06 220); check_numbers 0 unresolved
+(data/noise.txt unchanged, no idiom lost a real quantity); straight-quote guard
+clean on all six reading files; no source ">" line changed in any bilingual file.
+
+Glossary/figures: no changes (this pass never re-romanizes or renames).
+
+Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 149 notes.
+qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 149 references = 149
+bodies = 149 backlinks, all links resolve).

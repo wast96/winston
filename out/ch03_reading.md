@@ -38,7 +38,7 @@ Lishui was too angry to speak, and stood pressing both hands to her chest, gaspi
 
 A-Chu gave a cold laugh and turned to go.
 
-“Stop right there!” Lishui charged straight at him. “You think that now your station has changed you can bully your masters without any restraint!” Lishui raised her hand to strike, but A-Chu shot out his own and gripped her wrist, and with his teeth set like grinding iron he said to her face, “Strike me again, and I will strike back.”
+“Stop right there!” Lishui charged straight at him. “You think that now your station has changed you can bully your masters without any restraint!” Lishui raised her hand to strike, but A-Chu shot out his own and gripped her wrist, and his jaw set like iron, he said to her face, “Strike me again, and I will strike back.”
 
 “You wouldn’t dare!”
 

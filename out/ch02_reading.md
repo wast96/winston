@@ -1,8 +1,8 @@
 ## Chapter 2. Born at Dawn to Spring’s Light, Wrapped in Mist by Dusk
 
-1931. England. Cardiff.
+*1931. England. Cardiff.*
 
-The early morning sun poured over a quiet bamboo grove as A-Chu and Cong Hui rode their bicycles down a lane touched with the colors of spring. The unrestrained laughter of the two of them echoed on the spring breeze.
+The early morning sun poured over a quiet bamboo grove as A-Chu and Cong Hui rode their bicycles down a lane touched with the colors of spring. Their unrestrained laughter echoed on the spring breeze.
 
 A-Chu and Cong Hui had met two years before, in Mr. Holman’s research laboratory at the Royal Medical College. From the first glance she had at A-Chu, Cong Hui found herself, in spite of herself, drawn to him: his calm, bright eyes, his clever and modest way of speaking, even his faintly shy smile—all of it drew Cong Hui deeply in. And Cong Hui’s appearance, in turn, added to A-Chu’s plain existence a layer of vivid and interesting color.
 
@@ -60,7 +60,7 @@ Like a madman he tore and bit at everything that could be torn and bitten, hurle
 
 “Mind the needle!” A-Chu emptied the whole dose into Rong Sheng’s body. Rong Sheng gave a cry and seemed to lose part of his fight; but when his eyes swept over Cong Hui he cursed on, still gasping: “Get out! Wicked woman! You—you aren’t fit to be a doctor at all.” And Rong Sheng flung the xiao in his hand at her.
 
-A spent arrow at the end of its flight, the flute fell at the tip of Cong Hui’s toe.
+A spent arrow at the end of its flight, the flute fell at the tips of Cong Hui’s toes.
 
 “Chu, are these scenes something you’ve grown quite used to?” Cong Hui asked. But A-Chu was helping Rong Sheng onto the bed with all his attention. “He needs rest,” Chu said.
 

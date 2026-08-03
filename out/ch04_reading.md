@@ -1,6 +1,6 @@
 ## Chapter 4. By a Cross-Grained Twist of Fate, Hard to Guard Against
 
-China. Shanghai. The sixteenth of March, 1931.
+*China. Shanghai. The sixteenth of March, 1931.*
 
 The clock in the Lanxin Western Restaurant stood at three forty-five in the afternoon.
 
