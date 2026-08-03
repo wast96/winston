@@ -122,3 +122,11 @@ GH[五○九K八×]+
 # reversed 千万 but not 万千, so it needs its own entry (cf. 万物/万念/万国).
 万千
 萬千
+# --- B11 (ch49-ch52) additions ---
+# 三郎 = the Japanese given-name suffix Saburo (in 秋雨三郎, Miyama Yoshiko's male
+# alias, ch49); the 三 names the third son, not a count.
+三郎
+# 第一万 = a source corruption in ch52 (a dropped negative: "第一，千万[不]要告诉
+# 人..."); the collapsed "第一万" parses as the ordinal 1 + 一万 = 10000, neither a
+# real quantity. Strips the artifact. (The dropped negative is footnoted, not silently smoothed.)
+第一万

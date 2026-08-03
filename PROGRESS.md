@@ -1191,3 +1191,128 @@ Build: python3 scripts/build_reading_epub.py "out/The Whistling Wind.epub" — 4
 chapters translated (ch00–ch48), 73 notes; the TOC stays pending-aware, the 11
 untranslated chapters still linking their skeleton outlines. qa_epub.py GREEN
 (72 files, 66 documents, 73 references / 73 bodies / 73 backlinks, all links resolve).
+
+## Batch B11 — Chapters 49 to 52 (ch49, ch50, ch51, ch52)
+
+Units and sizes (source chars, from the ingest): ch49 = 6,129 (源 四十九),
+ch50 = 4,330 (源 五十), ch51 = 5,313 (源 五十一), ch52 = 5,045 (源 五十二).
+Batch = 346 source paragraphs. This is the aftermath of the failed theft turning into
+the book's action climax: ch49 the second visit to Honsa Jiro's and the intercepted
+dossier signed "S.V"; ch50 Mei Yingzi burning the two sheets and Bai Ping's resolve to
+go for the documents; ch51 the drive to Youheng Road, the shooting of Bai Ping and the
+narrator's reflexive return fire, the flight to the Suzhou Creek boats, and the
+introduction of the boat girl Cishan; ch52 the night on the boat, grief for Bai Ping,
+Mei Yingzi's disguise, and the heroin-slum passage.
+
+The checks (QC contract), all run this batch:
+1. Faithful, complete quotation: the bilingual QC files quote the source VERBATIM
+   (built with scripts/_zip_bilingual.py, which copies the source paragraphs and errors
+   on any paragraph-count mismatch). Confirmed by the whitespace-stripped char comparison
+   of the joined '>' blockquotes vs the joined source paragraphs: ch49 5998=5998,
+   ch50 4235=4235, ch51 5228=5228, ch52 4973=4973; paragraph counts 121/87/75/63 exact.
+2. Blind double translation (separate context, subagent): 15 sample paragraphs across the
+   batch (the analytical/lyrical passages plus the intercept dossier and the shooting)
+   forward-translated blind and diffed. FULL substantive agreement; the only divergences
+   were provisional name readings where this project already fixes the form in the
+   glossary (梅武 Umetake, 朝村登水子 Asamura Toshimiko, 秋雨三郎 Akiu Saburo) and the
+   八角/四角 money unit (rendered "eight jiao / four jiao" here to keep the source numeral,
+   glossed in note 81, vs the subagent's naturalizing "eighty/forty cents"). The subagent
+   independently flagged the same two ch52 digitization corruptions handled below.
+3. Round-trip back-translation (separate context, subagent): 5 English paragraphs
+   (the dossier letter, the shooting, the ch52 opening, the intimacy paragraph, the
+   coincidence paragraph) translated back to Chinese and diffed against the source as an
+   omission detector. No omissions; every clause, name, and number present.
+4. Automated invariant checks: check_numbers.py --noise data/noise.txt on each bilingual
+   file — 0 unresolved on all four (121/87/75/63 pairs). check_structure.py --config
+   over all 53 translated units (scratch/b11_check.json, regenerated) PASS on all four:
+   parity 121/87/75/63 exact, 83 note anchors resolve (0 unresolved), one heading shape,
+   0 glossary drift.
+5. Term ledger: glossary.json updated (below); one rendering per referent reused across
+   the whole cast and geography.
+6. Annotate, do not smooth: uncertain name readings marked provisional in the glossary and
+   footnoted (notes 74, 75); the ch52 source corruption (a dropped negative) footnoted
+   (note 80) rather than silently smoothed; no uncertainty laundered into fluent prose.
+7. Consistency against scholarship: fact-checked (below).
+8. Random deep audit (~4.3%, 15 paragraphs: ch49 005/071/074/115/118, ch50 023/047,
+   ch51 015/016/065/074, ch52 001/026/030/037): full verbatim / mistranslation / omission
+   pass via the blind forward-translation and back-translation above. Observed substantive
+   error rate 0.
+
+Number-check noise added to data/noise.txt (B11 block), each because the check flagged a
+non-quantity numeral:
+- 三郎 — the Japanese given-name suffix Saburo (in 秋雨三郎, Miyama Yoshiko's male alias,
+  ch49); the 三 names the third son, not a count. The English keeps "Akiu Saburo" (no
+  digit), so the source 三 went unaccounted until stripped.
+- 第一万 — a source corruption in ch52 (a dropped negative: "第一，千万[不]要告诉人…"); the
+  collapsed "第一万" parses as the ordinal 1 + 一万 = 10000, neither a real quantity.
+
+Source digitization glitches rendered to plain meaning and NOT footnoted (no genuine
+reading uncertainty):
+- ch50 para 2: "看她E 我换了" (stray "E" for a period) rendered as a sentence break,
+  "...to look at her so any longer. I turned my eyes instead to Bai Ping..."
+- ch50 para 7: "我以为我你现在的问题" (dittographic 我 before 你) rendered "I thought your
+  problem now was Miyama Yoshiko..."
+- ch50 para 77: "我对於白苹的坚决开始非常饮佩" (饮佩 for 钦佩, "admire") rendered "I began to
+  admire Bai Ping's resolve greatly."
+- ch52 para 26: "第一万要告诉人你有客人在这里" — a dropped negative reversing the sense;
+  restored to "on no account tell anyone you have guests here" AND footnoted (note 80),
+  left visible rather than smoothed.
+- ch52 para 26 ends on a stray "、" (dun-comma for a full stop); rendered with a period.
+- ch52 para 26: "鸩溺" (for 沉溺, "immersed/drowned in") rendered "drowned in"; "极桌"
+  (for 板桌, the plank table used earlier in the chapter) rendered "the plank table."
+
+Footnotes added (10, notes 74-83, all genuinely new; recurring names/places/terms already
+carry their note at first appearance in B01-B10):
+- note 74 (ch49): Kawashima Yoshiko (川岛芳子, 1907-1948), the real Manchu-princess spy
+  Miyama Yoshiko is said to have followed; corroborated.
+- note 75 (ch49): the aliases Lang Diyi (郎第仪) and Akiu Saburo (秋雨三郎), both provisional
+  romanizations, the source giving none; the mannish alias echoes Kawashima.
+- note 76 (ch49): Edinburgh Road (忆定盘路, today Jiangsu Road), whose Chinese name
+  transliterates "Edinburgh"; the Yuyuan Road corner address differs from the Youheng
+  Road house the ch48 intelligence gave as Miyama's real residence.
+- note 77 (ch51): the dialect romanization Tche San / Teh-San mapped to the Mandarin name
+  Cishan, and the coincidence with the fictitious country girl of the narrator's decoy
+  letters.
+- note 78 (ch51): the boat people (船户) of Suzhou Creek, the destitute sampan community
+  the pair take refuge among.
+- note 79 (ch51): sealing off a district (封锁), the Japanese barbed-wire/rope-barrier
+  cordon used to trap a fugitive after an incident.
+- note 80 (ch52): the dropped-negative corruption in the source (第一万要告诉人…), sense
+  restored, left visible.
+- note 81 (ch52): "white powder" (白面) = heroin, and the jiao (角) money unit of the
+  addicts' fixed daily dose.
+- note 82 (ch52): Mei Lanfang (梅兰芳, 1894-1961) and "The Heavenly Maiden Scatters Flowers"
+  (天女散花, first staged 1917); corroborated.
+- note 83 (ch52): the paired 寿 (shou, "long life") character on the earrings as an
+  auspicious charm, set against Bai Ping's "lucky earrings."
+
+Glossary rows added (glossary.json, now 141 rows): people — 慈珊 Cishan (provisional),
+川岛芳子 Kawashima Yoshiko (attested), 郎第仪 Lang Diyi (provisional), 秋雨三郎 Akiu Saburo
+(provisional), 梅兰芳 Mei Lanfang (attested); places — 忆定盘路 Edinburgh Road (attested),
+斐伦路 Fearon Road (attested), 聚贤里 Juxian Li (decided; the ch51 sign for the same lane
+ch48 wrote 聚贤村 Juxian Village, source varies the suffix 里/村), 苏州河 Suzhou Creek
+(attested); terms — 摩理斯 Morris (attested), 白面 white powder (attested; heroin),
+天女散花 The Heavenly Maiden Scatters Flowers (attested), 大英牌 Great Britain brand
+(decided). Reused the whole prior cast and geography exactly (Honsa Jiro, Umetake,
+Miyama Yoshiko, Asamura Toshimiko, Bai Ping, Mei Yingzi, Ah Mei, Stephen, Yuyuan Road,
+Youheng Road, Route Prosper Paris, Hongkou, North Sichuan Road, Pudong, Chongqing,
+Manchukuo, the Pacific war, the cheongsam).
+
+Fact-checking (Wikipedia / Baidu Baike / Shanghai road-history sources; no LLM-sourced
+references):
+- Kawashima Yoshiko (川岛芳子): real historical figure, born Aisin Gioro Xianyu, Manchu
+  princess raised in Japan by Kawashima Naniwa, spy for the Kwantung Army and Manchukuo,
+  known for male dress, executed for treason 1948. Corroborated; note 74, glossary row.
+- Mei Lanfang (梅兰芳, 1894-1961) and "The Heavenly Maiden Scatters Flowers" (天女散花,
+  premiered 1917, from the Vimalakirti Sutra, famous for the ribbon dance). Corroborated;
+  note 82, glossary rows.
+- 忆定盘路 = Edinburgh Road (transliteration of "Edinburgh"), today Jiangsu Road.
+  Corroborated. 斐伦路 = Fearon Road (transliteration of "Fearon"), by the Hongkou
+  waterfront near Suzhou Creek, today Jiulong Road. Corroborated. 姚主教路 confirmed again
+  as Route Prosper Paris (Route Mgr. Prosper Paris, today Tianping Road), the form already
+  fixed in the glossary. Reused.
+
+Build: python3 scripts/build_reading_epub.py "out/The Whistling Wind.epub" — 53 of 60
+chapters translated (ch00-ch52), 83 notes; the TOC stays pending-aware, the 7 untranslated
+chapters (ch53-ch59) still linking their skeleton outlines. qa_epub.py GREEN
+(72 files, 66 documents, 83 references / 83 bodies / 83 backlinks, all links resolve).
