@@ -1037,3 +1037,59 @@ window-blind fortune-omen. All anchors verified verbatim in the reading text.
 - The author-note stream is now complete: all nine [1]..[9] are placed. No further
   chapter carries a source note (ch12..ch20 confirmed to have none in earlier
   planning; re-confirm by grep at each batch).
+
+## Batch B12 — Chapter Twelve (ch12)
+
+Chapter Twelve translated end to end: 232 body paragraphs, 13,308 source chars,
+NO source notes (grep of the source for a leading `[n]` returned nothing; the
+author-note stream [1]..[9] stays frozen). out/ch12_reading.md and
+data/zh/ch12.txt written from out/ch12_bilingual.md (QC only, not shipped).
+
+### Checks run
+
+- check_numbers.py out/ch12_bilingual.md --noise data/noise_zh.txt: 232 pairs, 0
+  unresolved. One REAL number error was caught and fixed, not silenced: 二十万 had
+  been rendered "twenty thousand" — corrected to "two hundred thousand"
+  (二十万 = 200,000); and the matching 十万 to "one hundred thousand". New noise
+  lines (all idiom/slang/measure, never a dropped quantity): 瘪三 (ragamuffin,
+  三 not a count), 二千五六百 (approx. range the checker sums to 2600), 六成 / 二成
+  (sixty/twenty per cent; 成 = a tenth), 第二天 ("the next day", ordinal), a second
+  零碎 pass (clears the 零 residue the ch11 rule leaves in 零零碎碎), and (?<=百多)两
+  (the tael in 九百多两, which the ch03 (?<=百)两 rule misses).
+- check_structure.py --pairs data/zh/ch12.txt out/ch12_reading.md: parity 232 | 232 OK.
+- qa_epub.py out/Midnight.epub: PASS, 32 files, 26 documents, 72 notes (references,
+  bodies, backlinks all 72), all links resolve. Build reports 12 of 20 chapters.
+- Pre-zip parity assertion (English-per-line vs source body) held at 232; alignment
+  spot-checked at indices 0,1,17,44,84,120,159,231 before writing the bilingual.
+
+### Glossary additions
+
+people: Yan Xishan (阎锡山). organizations: the Yuanda native bank (元大庄).
+places: Dezhou (德州), Jinan (济南), Xuzhou (徐州), Hongkou (虹口), Zhabei (闸北).
+terms: the Northern Enlarged Conference (北方扩大会议), general sympathetic strike
+(总同盟罢工), held-back pay (存工), Ramona (雷梦娜), Big Cannon (大炮), the White
+Wuchang (白无常), the plum-rain season (黄梅天), the Industrial Plan (实业计划).
+Reused the fixed cast/terms: Wu Sunfu, Liu Yuying, Han Mengxiang, Xu Manli, Zhao
+Botao/老赵, Wang Hefu, Sun Jiren, Huang Fen, Lu Kuangshi, Shang Zhongli, Tang
+Yunshan/云山, Zhu Yinqiu, Chen Junyi, Tu Weiyue, Qian Baosheng, the Third Master
+(三先生), the young mistress, and the bond terms 公债/多头/空头/交割/停板/快报.
+
+### Translator notes (builder-numbered 67-72)
+
+67 Uncle (表叔, the courtesy cousin-uncle title and the "what shall I call you"
+joke); 68 Big Cannon (大炮, slang for a loudmouth; Huang Fen's nickname); 69 the
+White Wuchang (白无常, the white-robed death-herald); 70 Ramona (the 1928 song);
+71 the Industrial Plan (实业计划, Sun Yat-sen's program on the office-wall map);
+72 the plum-rain season (黄梅天, Wu Sunfu's figure for the Communist "vermin").
+All six anchors verified verbatim in the reading text.
+
+### Random-sample deep audit (~4%, ~9 paragraphs)
+
+Sampled the opening brooding/bulletin-seller pair, the Liu Yuying hotel instructions,
+the great-contradiction interior monologue, the Yizhong balance-sheet dialogue, the
+bond-loss reveal, and the study confrontation with Tu Weiyue: source quoted verbatim
+(copied by the zip script, not re-typed), every quantity held, no omission or invented
+bridging. Hand-checked quantities: 二十万 = 200,000 (fixed), 十万 = 100,000, 八十万 =
+800,000, 三十万 = 300,000, 一千万 = 10,000,000, 五百万 = 5,000,000, 六十五元 = 65,
+十七八岁 = 17/18, 九百多两 = 900+ taels; per-cent/discount idioms (八折→eight-tenths,
+九折→nine-tenths, 二成/六成) rendered in words so the fraction survives.

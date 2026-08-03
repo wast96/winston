@@ -558,6 +558,12 @@
       "pinyin": "Mingfei",
       "status": "attested",
       "note": "明妃; Wang Zhaojun (王昭君), the Han palace beauty sent in marriage beyond the Great Wall, subject of the kesi tapestry ‘The Lady Ming Goes Out to the Frontier.’ See the footnote at that title."
+    },
+    "阎锡山": {
+      "en": "Yan Xishan",
+      "pinyin": "Yan Xishan",
+      "status": "attested",
+      "note": "阎锡山 (1883–1960), the militarist governor of Shanxi (the 'model governor'); in 1930 a leader of the anti-Chiang Northern coalition whose armies drive down the Tianjin–Pukou line in this chapter's war news."
     }
   },
   "organizations": {
@@ -764,6 +770,12 @@
       "pinyin": "Beiyang zhengfu",
       "status": "attested",
       "note": "北洋政府; the Beijing-based warlord governments of 1912–1928 that preceded the Nanjing Nationalist regime. The 'old bonds' traded late in the session were issues left over from its day."
+    },
+    "元大庄": {
+      "en": "the Yuanda native bank",
+      "pinyin": "Yuanda",
+      "status": "decided",
+      "note": "元大庄; the native bank whose promised hundred-thousand-tael loan to Yizhong was arranged through Du Zhuzhai and is withdrawn once he pulls out."
     }
   },
   "places": {
@@ -1330,6 +1342,36 @@
       "pinyin": "Jianghaiguan",
       "status": "decided",
       "note": "江海关; the Shanghai Maritime Customs House on the Bund."
+    },
+    "德州": {
+      "en": "Dezhou",
+      "pinyin": "Dezhou",
+      "status": "attested",
+      "note": "德州; city in northwestern Shandong on the Tianjin–Pukou line, a front in the 1930 war."
+    },
+    "济南": {
+      "en": "Jinan",
+      "pinyin": "Jinan",
+      "status": "attested",
+      "note": "济南; capital of Shandong, on the Tianjin–Pukou line; older English Tsinan."
+    },
+    "徐州": {
+      "en": "Xuzhou",
+      "pinyin": "Xuzhou",
+      "status": "attested",
+      "note": "徐州; rail junction in northern Jiangsu where the Tianjin–Pukou and Longhai lines cross."
+    },
+    "虹口": {
+      "en": "Hongkou",
+      "pinyin": "Hongkou",
+      "status": "attested",
+      "note": "虹口; district of Shanghai north of Suzhou Creek, part of the International Settlement, with many Japanese residents and mills; older English Hongkew."
+    },
+    "闸北": {
+      "en": "Zhabei",
+      "pinyin": "Zhabei",
+      "status": "attested",
+      "note": "闸北; Chinese-administered industrial district of Shanghai north of the Settlement, where Wu Sunfu's own mill stands; older English Chapei."
     }
   },
   "terms": {
@@ -1822,6 +1864,54 @@
       "pinyin": "kuaibao",
       "status": "decided",
       "note": "快报; a 'fast report,' the rush war-news bulletins hawked outside the exchange, often mere rumour manufactured to move prices."
+    },
+    "北方扩大会议": {
+      "en": "the Northern Enlarged Conference",
+      "pinyin": "Beifang Kuoda Huiyi",
+      "status": "attested",
+      "note": "北方扩大会议; the 'Enlarged Conference' of Kuomintang factions opposed to Chiang Kai-shek, convened at Beiping in 1930 as the rival government of the anti-Chiang war."
+    },
+    "总同盟罢工": {
+      "en": "general sympathetic strike",
+      "pinyin": "zong tongmeng bagong",
+      "status": "decided",
+      "note": "总同盟罢工; a general or federated strike in which all the trade's workers across the city walk out together in sympathy — here, the silk-mill hands of all Shanghai."
+    },
+    "存工": {
+      "en": "held-back pay",
+      "pinyin": "cungong",
+      "status": "decided",
+      "note": "存工; wages the mill withholds month by month (here ten per cent, up to a cap) and returns only on an orderly discharge — a device to bind workers and dock the unruly."
+    },
+    "雷梦娜": {
+      "en": "Ramona",
+      "pinyin": "Leimengna",
+      "status": "attested",
+      "note": "雷梦娜; 'Ramona,' a 1928 American waltz-song (Mabel Wayne), a hit of the day that Lin Peishan hums by the pool."
+    },
+    "大炮": {
+      "en": "Big Cannon",
+      "pinyin": "da pao",
+      "status": "decided",
+      "note": "大炮; Shanghai slang for a braggart or loudmouth who 'fires off' grand talk; Huang Fen's nickname."
+    },
+    "白无常": {
+      "en": "the White Wuchang",
+      "pinyin": "bai wuchang",
+      "status": "decided",
+      "note": "白无常; a white-robed ghostly herald of the underworld in folk belief, who comes to fetch the dead."
+    },
+    "黄梅天": {
+      "en": "the plum-rain season",
+      "pinyin": "huangmei tian",
+      "status": "decided",
+      "note": "黄梅天; the warm, humid rainy spell over the lower Yangtze in early summer, when plums ripen and mould and insects breed."
+    },
+    "实业计划": {
+      "en": "the Industrial Plan",
+      "pinyin": "Shiye Jihua",
+      "status": "attested",
+      "note": "实业计划; Sun Yat-sen's program for the large-scale industrial development of China, part of his Fundamentals of National Reconstruction."
     }
   }
 }
