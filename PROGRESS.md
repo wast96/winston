@@ -898,3 +898,72 @@ Figures: none in this batch.
 Build: out/On a Hair Trigger.epub rebuilt, 25 of 36 units translated, 79 notes.
 qa_epub.py PASS (36 documents, 4634 paragraphs, 79 references = 79 bodies = 79
 backlinks, all links resolve).
+
+---
+
+## Batch B10 — Chapters 25 to 27 (ch25, ch26, ch27)
+
+Scope: ch25 (退步原来是向前, 256 paragraphs), ch26 (白云可杀不可留, 253 paragraphs),
+ch27 (踏破冰火九重天, 225 paragraphs). ~20,965 source chars, 734 paragraphs total.
+Authoring flow as established: wrote out/<id>_en.txt (one English paragraph per
+source paragraph), assembled the bilingual with make_bilingual.py (verbatim `>`
+source lines), then split_bilingual.py for the reading files and parity sources.
+No mid-sentence paragraph splits occurred in any of the three chapters; parity is
+one English paragraph per source paragraph throughout.
+
+Checks run and results:
+- check_numbers.py --noise data/noise.txt: 0 unresolved on all three (ch25 256/256,
+  ch26 253/253, ch27 225/225). New noise.txt rows added this batch (all non-quantity):
+  零度 (降到零度 "to zero"), 万劳苦 (residue of 千百万劳苦大众 after the built-in 千百 rule
+  orphans a stray 万), 九泉 (九泉之下), 二来 (一来...二来 enumerator), 一干二净, 百花
+  (命百花盛开 / 百花神主), 五内 (五内如焚). 十足 and 一百八十度 were already present.
+- check_structure.py --pairs: parity OK on all three (256/256, 253/253, 225/225).
+- Verbatim fidelity: data/zh/<id>.txt (minus title) diffed against the source
+  paragraphs (minus the 2 metadata lines) = zero content diffs on all three (only the
+  source files' missing final newline differs, as expected).
+- Blind double translation + round-trip back-translation run in a separate context on
+  12 lyrical/argumentative paragraphs (Xia Yuechun's auditory-vs-visual-memory speech,
+  the 插秧诗 quatrain, Zhong Yundi's mole-hunt logic, Bai Yun's recantation, the peony/
+  Wu Zetian legend, Du Luning's clown-in-the-open strategy, the 移花接木 analysis, Li
+  Qinhong's deduction, the 回头是岸/水到渠成 exchange, and others). No substantive
+  divergences: every number, name, relationship and allusion survived both directions.
+- Paranoid audit: the mechanical checks (numbers, parity, verbatim) ran on 100% of
+  paragraphs; the full double/back-translation treatment plus a manual fact-dense deep
+  read covered ~25 paragraphs (~3.4%). Observed error rate: 0%.
+
+Footnotes (9 this batch, builder-numbered #80 to #88, ~3 per chapter):
+- ch25: the title 退步原来是向前 traced to the 《插秧诗》 attributed to the Cloth-Bag Monk
+  (布袋和尚 / 契此), corroborated as the traditional attribution (noting the novel's
+  variant third line and its "former Tang" mislabel); 移花接木 (the substitution ruse);
+  耳听为虚，眼见为实 (the visual-over-auditory proverb the trick exploits).
+- ch26: 进亦不喜，退亦不忧 traced to Fan Zhongyan's 《岳阳楼记》 "是进亦忧，退亦忧"
+  (corroborated); the title 白云可杀不可留 found to be the author's own line, punning on
+  the character-name Bai Yun (uncorroborated as a quotation); 踏破铁鞋无觅处，得来全不费
+  功夫 (corroborated proverb, from 夏元鼎 / 《水浒传》).
+- ch27: the title 踏破冰火九重天 found to be author's pastiche, 九重天 glossed as the
+  ninefold heaven (uncorroborated as a quotation); the peony / Wu Zetian legend and
+  洛阳牡丹甲天下 (corroborated as a widely told legend, folklore not official history,
+  though Wu Zetian's fondness for Luoyang peonies is attested); the 回头是岸 / 水到渠成
+  proverb exchange between Muci and Rong Chu.
+
+Glossary: 17 new rows (one decided rendering per referent, existing renderings reused).
+New people: Zhong Yundi (钟云迪), Tian Xiuyun (田秀芸), Bai Yun (白云, her alias), A-Chun
+(阿春, exposed as the Rivet). New orgs: the Red Spear Squad (红枪队), the Yang Industrial
+Company (杨氏实业社), the Xianghe Cotton Mill (祥和纱厂), the Lanxin Theatre (兰心大戏院),
+the White Rose Ballroom (白玫瑰舞厅), the Ren'ai Hospital (仁爱医院). New places: Fourth
+Avenue (四马路), the Racecourse (跑马厅), Luoyang (洛阳), Zhabei District (闸北区). New
+terms: Snow Wolf (雪狼, codename), police runner (包打听), Shaoxing opera (绍兴文戏).
+
+Twin / identity handling this batch:
+- A-Chu is written 阿初/杨慕初 and A-Ci 阿次/杨慕次 throughout; no genuine twin-name slip.
+  ch25 deliberately marks the body double with quotes ("杨慕次") in the first-call scene
+  and drops them for the real man; rendered faithfully with the quotes preserved, and
+  the 移花接木 substitution is explained by the source itself (ch25 §178-189) and glossed.
+- The mole/double-agent reveal (阿春, ostensibly a Special Branch peripheral, exposed as
+  the Juntong "Rivet"; his wife 田秀芸 = 白云, a 1927 defector) is rendered as it stands.
+
+Figures: none in this batch.
+
+Build: out/On a Hair Trigger.epub rebuilt, 28 of 36 units translated, 88 notes.
+qa_epub.py PASS (36 documents, 5365 paragraphs, 88 references = 88 bodies = 88
+backlinks, all links resolve).

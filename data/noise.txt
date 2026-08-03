@@ -178,3 +178,18 @@
 万能
 # 千帕 = kilopascal; the 千 is the SI prefix "kilo", part of the unit name
 千帕
+# 零度 in 降到零度 ("dropped to zero"); 零 = 0, figurative not a temperature count
+零度
+# 千百万劳苦大众 ("the toiling millions"): built-in 千百 strips first and orphans
+# a stray 万 (=10000); noise that residue, as B08 did for 万的输赢
+万劳苦
+# 九泉 in 九泉之下 ("in the world below / the underworld"); 九 lexicalized, not 9
+九泉
+# 二来 = "for another (thing)" (一来...二来 enumerator); 二 not a count
+二来
+# 一干二净 = "completely clean, utterly"; 一/二 idiom, not counts
+一干二净
+# 百花 = "all the flowers / the hundred flowers"; 百 figurative, not 100
+百花
+# 五内 in 五内如焚 ("burning within, the five viscera afire"); 五 lexicalized, not 5
+五内
