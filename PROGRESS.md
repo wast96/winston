@@ -2029,3 +2029,114 @@ fierce-fire thunder, rock-oil, the Taishang Xuanyuan Grand Lantern-Tower, the
 Xingqing Palace / the Qinzheng Wuben Tower, Tangdi, Duke Li of Wei, the Yin
 Mountains, Pinglu, Daozheng Ward, the Chunming Gate, the beacon-fort, the Eighth
 Company, the lantern-floats, buliang chief, Commander (都尉), the Right Xiao Guard.
+
+## B17 = ch17 (第十七章 丑正 / "The Hour of the Ox, Second Half, 2 a.m.")
+
+- Translated ch17 from data/src/37_text00035.txt (13,753 source chars) into
+  out/ch17_bilingual.md (QC only, never shipped), then generated out/ch17_reading.md
+  and data/zh/ch17.txt with split_bilingual.py. 237 aligned paragraph pairs.
+- Opening: a flash-forward vignette (the crowd, performers, officials, kinsmen and
+  envoys all falling silent for the coming wonder), extractor-split across three
+  data/src lines (2+3+4, ending 、 / ， / 。); merged into one bilingual pair and
+  translated identically to its in-place recurrence later (source line 129, where it
+  closes a fuller paragraph), per the recurring-vignette rule. The dateline
+  "天宝三载元月十五日，丑正。" was extractor-split across two lines (…丑正 / 。) and merged.
+  The content-file marker line 丑正 (line 1) is absorbed into the H2 title. A separate
+  scene-setting location line ("长安，兴庆宫广场东南角。") follows the dateline as its own
+  paragraph. The source's per-chapter time-gloss (line 241) is rendered as the
+  source's own italic note, prefixed "*[The source appends a note on the hour to each
+  chapter:]*". This chapter's hour-gloss is CORRECT (凌晨2点…丑…荒鸡…十二时辰的第二个
+  时辰…01时至03时): the Ox hour, its second half = 2 a.m.; no time-gloss error like
+  ch06/07/08/10/11.
+- Scene shifts (Yuan Zai at the tower foot → Zhang Xiaojing's ambush of the two
+  escorts and the dud fierce-fire thunder → Li Bi wading out of the water-channel and
+  racing to Chen Xuanli, glimpsing the heir apparent's carriage fleeing → the
+  lighting of the twenty-four lantern-chambers → Zhang Xiaojing's climb up the
+  turning-arm → the final duel with Yuchang at the Tianshu tier) are rendered as plain
+  paragraph breaks with no separator glyph (house style; the source's Image00005.jpg
+  rule is not a figure), matching ch01–ch16.
+
+### Checks run
+- check_numbers.py out/ch17_bilingual.md --noise noise.txt → PASS (237 pairs, 0
+  unresolved). One new noise entry: 首鼠两端 = "blow hot and cold / waver
+  irresolutely" (idiom, lit. "a rat hesitating between two ends of its hole"); the 两
+  is idiomatic, not the quantity 2. All real quantities carried in the English:
+  the twenty-four lantern-chambers and their sequential lighting (第五/第十/十五/
+  二十一/第二十二/第二十三/最后一 → "fifth," "tenth," "fifteen/fifteenth," "twenty-one,"
+  "twenty-two … twenty-second," "twenty-three … twenty-third," "last"); note that the
+  checker's English parser does NOT read the ordinals "twenty-first/second/third," so
+  22 and 23 are carried by cardinal apposition ("twenty-two now ablaze in all,"
+  "twenty-three now ablaze"). 五万 = "fifty thousand"; 百里挑一 = "one picked from a
+  hundred"; 十来/十几 = "ten-odd" (keeps 10); 三分之一 = "a third"; 驷马/两匹 = "a team
+  of four" / "two horses"; 七八/十个弹指 = "seven or eight / ten finger-snaps"; 七岁 =
+  "the year he was seven"; 一百零八坊 = "the hundred and eight wards."
+- check_structure.py --pairs data/zh/ch17.txt out/ch17_reading.md → parity 237/237 OK.
+- Verbatim-quote check (check 1): the concatenation of every source blockquote in the
+  bilingual file equals the source content character-for-character (15,439 chars,
+  lines 2–241). The bilingual was built by pairing verbatim source lines (copied, not
+  re-typed) with the English, so no paragraph or sentence of the source is dropped.
+- Build → out/The Longest Day in Chang'an.epub (17 of 26 chapters translated, 61
+  notes). qa_epub.py → PASS (38 files, 32 documents, all links resolve; 61 refs / 61
+  bodies / 61 backlinks).
+
+### Blind double-translation (check 2)
+- Literary sample: the finale passage of the colored gauzes and banners at the tower's
+  crown (source line 238, "…把灯光滤成绯红、葡萄紫、翠芽绿、石赭黄等多彩光色…有如仙家幻境").
+  An independent blind rendering matched ours in content and register; the only
+  divergences were trivial word choices (its "a dozen or more" vs our number-preserving
+  "ten-odd"; "jade-bud green" vs "jade-sprout green"; "ochre yellow" vs "ocher-yellow").
+  No semantic divergence → the source is not ambiguous here. 0 errors.
+
+### Round-trip back-translation (check 3)
+- Number-dense sample: the lantern-chamber tallies (eight turning-arms driving three
+  chambers each; fifth chamber lit; forty-odd chi; fifteen lit / nine left; twenty-four
+  total; twenty-one lit). A fresh-context back-translation into Chinese preserved every
+  numeral exactly (八/三/第五/四十余/十五/九/二十四/二十一). 0 omissions.
+
+### Random-sample deep audit (check 8)
+- ~4% of the chapter given the full treatment (verbatim-quote check across the whole
+  chapter, plus the two sampled passages above). Observed error rate: 0.
+
+### Notes added (3; continuous total now 61; numbered by the builder in reading order)
+- "Kuafu of high antiquity" — the sun-racing giant of the Classic of Mountains and
+  Seas, first in-book appearance, lending the dark tower its menace (texture/allusion).
+- "net opened on one side" — the Shang founder Tang's clemency to the netted beasts
+  (Records of the Grand Historian), the allusion the "Benevolence" tableau names;
+  corroborated, with a note that the Shiji form is "open three sides."
+- "the Longchi within the Xingqing Palace" — the Dragon Pool of Xuanzong's
+  pre-accession residence and its dragon-omen legend; the one point where the
+  conspirators' tunnel opens into the palace. Corroborated. (First appearances all;
+  nothing already noted in ch01–ch16 was re-noted. Reused-and-not-re-noted subjects
+  that recur here: the qilin-arm, the Que-le Huo-duo, the Tianshu, the fierce-fire
+  thunder, Chen Xuanli, the heir apparent, the modao, the Pear Garden's Xuanzong ties.)
+
+### Glossary rows added (+10)
+- places — 龙池/the Longchi, 摘星殿/the Star-Plucking Hall, 龙亭/the Dragon Pavilion,
+  灵官阁/the Lingguan Loft (first glossed, appeared ch16). terms — 灯屋/lantern-chamber,
+  天枢层/the Tianshu tier (first glossed, appeared ch16), 鹘喙/the falcon's-beak,
+  猛火油/fierce-fire oil (cf. 石脂 rock-oil, 猛火雷 fierce-fire thunder), 梨园/the Pear
+  Garden, 教坊/the entertainers' quarter. Reused decided forms verbatim: Zhang
+  Xiaojing, Li Bi (Deputy Director Li), Yuan Zai, Yuchang, Xiao Gui, Mao Shun (master
+  builder / 大都料), Chen Xuanli (General Chen), Li Heng / the heir apparent, the Pifu,
+  the Lüben Guards, the Longwu Army, the Jing'an Bureau, the Wolf Guards / Türk, the
+  Taishang Xuanyuan (Grand) Lantern-Tower, the Qinzheng Wuben Tower, the Xingqing
+  Palace, the Hua'e Xianghui Tower, the Chenxiang Pavilion, the Longshou Canal,
+  Daozheng Ward, the Jinming/Tongyang/Chuyang Gates ("Three Yang"), the qilin-arm, the
+  turning-gear, the Hydraulic Hall, the crown-loft, the Tianshu, the Que-le Huo-duo,
+  fierce-fire thunder, rock-oil, green-vitriol oil, the barrier-knife, the
+  four-windowed carriage, gleaming armor, the Cibei Temple, the Mystic Abbey, the
+  lantern-floats / Lantern-Crown Red Tally, the Lantern Festival, shichen, finger-snap,
+  chi, fen.
+
+### Figures
+- None. The chapter has no content illustration in data/figs/ (only the source's
+  footnote-marker glyph Image00004.jpg and the scene-break rule Image00005.jpg, neither
+  a figure). figures.json unchanged.
+
+### Flagged for the read-through
+- Cliffhanger ending: Yuchang pushes the crimson-red lever "all the way to its end"
+  as the last lantern-chamber lights; the chapter cuts off on the act, not its result
+  (faithful to the source — no bridging text invented).
+- 临行通道 (line 76, "龙武军有自己的临行通道") rendered "passages of its own for coming
+  and going"; 临行 reads as a variant/slip for 临时 or "for setting out," the sense
+  being the guard's own service routes. Rendered for intent, not flagged as a note.

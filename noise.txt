@@ -301,3 +301,7 @@
 # quantity 10000 (千 is rendered "a thousand," 万 is idiomatic). English renders
 # "thanked him a thousand times over."
 千恩万谢
+# ch17: 首鼠两端 = "blow hot and cold / waver irresolutely" (idiom, lit. "a rat
+# hesitating between two ends of its hole"); the 两 ("two") is idiomatic, not the
+# quantity 2. English renders "blew hot and cold."
+首鼠两端

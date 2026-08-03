@@ -1817,6 +1817,30 @@
       "pinyin": "Wǔwēi",
       "status": "decided",
       "note": "The name of a lantern-chamber (its theme, Duke Li of Wei breaking the Yin Mountains), next to the Tangdi chamber. Kept in pinyin like Tangdi."
+    },
+    "龙池": {
+      "en": "the Longchi",
+      "pinyin": "Lóngchí",
+      "status": "decided",
+      "note": "The Dragon Pool at the heart of the Xingqing Palace gardens; deep and broad enough for pleasure-boats, ringed by the palace pavilions. Historically the pool on the grounds of Xuanzong’s princely residence before his accession. Pinyin."
+    },
+    "摘星殿": {
+      "en": "the Star-Plucking Hall",
+      "pinyin": "Zhāixīng Diàn",
+      "status": "decided",
+      "note": "The seven-story upper hall of the Qinzheng Wuben Tower, from whose outward terrace the Lantern-Crown Red Tally casts the lighting-candle. Literal rendering of “pluck the stars.”"
+    },
+    "龙亭": {
+      "en": "the Dragon Pavilion",
+      "pinyin": "Lóng Tíng",
+      "status": "decided",
+      "note": "One of the pavilions rising along the Longchi in the Xingqing Palace gardens. Literal."
+    },
+    "灵官阁": {
+      "en": "the Lingguan Loft",
+      "pinyin": "Língguān Gé",
+      "status": "decided",
+      "note": "A level of the Mystic Abbey beneath the lantern-tower where Li Bi was held captive (ch16). Pinyin + “loft.”"
     }
   },
   "terms": {
@@ -2863,6 +2887,42 @@
       "pinyin": "dǐnggé",
       "status": "decided",
       "note": "The square upper chamber atop Mystic Abbey's roof, housing the turning-gear at the tower's base; the linchpin joining tower and Hydraulic Hall. A project rendering."
+    },
+    "灯屋": {
+      "en": "lantern-chamber",
+      "pinyin": "dēngwū",
+      "status": "decided",
+      "note": "One of the twenty-four rotating illuminated tableaux-rooms mounted around the outer ring of the Taishang Xuanyuan Lantern-Tower, each depicting a scene as it turns to the zenith and lights."
+    },
+    "天枢层": {
+      "en": "the Tianshu tier",
+      "pinyin": "Tiānshū céng",
+      "status": "decided",
+      "note": "The core level of the lantern-tower, built around the central Tianshu pillar; its broad revolving ring of boards cuts across the whole interior."
+    },
+    "鹘喙": {
+      "en": "the falcon’s-beak",
+      "pinyin": "gǔhuì",
+      "status": "decided",
+      "note": "A narrow observation-hole jutting from the tower’s outer face, used by the craftsmen to true the turning-arms; named for its beak-narrow foothold and a falcon’s keen eye. Literal."
+    },
+    "猛火油": {
+      "en": "fierce-fire oil",
+      "pinyin": "měnghuǒ yóu",
+      "status": "decided",
+      "note": "The black, sticky refined petroleum packed into the qilin-arms (fierce-fire thunder); when its seal breaks it burns instead of bursting. Cf. 石脂 rock-oil, 猛火雷 fierce-fire thunder."
+    },
+    "梨园": {
+      "en": "the Pear Garden",
+      "pinyin": "Líyuán",
+      "status": "attested",
+      "note": "Xuanzong’s imperial music-and-dance academy; its performers passed through the Jinming Gate. Standard English form."
+    },
+    "教坊": {
+      "en": "the entertainers’ quarter",
+      "pinyin": "jiàofáng",
+      "status": "decided",
+      "note": "The Tang office and quarter for court musicians and performers (the Jiaofang)."
     }
   }
 }
