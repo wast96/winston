@@ -1,43 +1,43 @@
 ## Prologue
 
-China. Shanghai.
+*China. Shanghai.*
 
-The second year of the Xuantong reign, 1910. Early spring.
+*Early spring, 1910 — the second year of the Xuantong reign.*
 
-Under a clear bright sky, a lush green lawn spread its two graceful wings to gather in a courtyard of pear blossom. A butterfly, brilliant with color, alighted on the elegant hem of a skirt and lingered greedily beneath the finely embroidered heart of a peony. A round fan of plain white silk swept up with a flash of red sleeve, meaning to strike at the butterfly—
+Under a clear sky, a green lawn curved like two graceful wings around a courtyard of pear blossom. A butterfly, bright with color, settled on the elegant hem of a skirt and lingered, greedy, at the heart of an embroidered peony. A round fan of white silk rose with a flash of red sleeve to strike at it—
 
-There was a pop, and in the instant the old camera’s shutter came down a puff of white smoke rose into the air.
+There was a pop; the shutter of an old-fashioned camera came down, and a puff of white smoke went up.
 
-A beautiful photograph was fixed forever within the haze.
+A beautiful photograph, caught and fixed forever in the smoke.
 
-Japan. Tokyo.
+*Japan. Tokyo.*
 
-1910. Spring.
+*Spring, 1910.*
 
-A dim wall lamp threw its light across a grey-white wall, where a cluster of people in white coats stood gathered at the bed of someone whose whole head was swathed in gauze.
+A dim wall-lamp glowed against a grey-white wall. A crowd of people in white coats stood gathered around a bed where someone lay with head wound entirely in gauze.
 
-Not one of them spoke. The silence was so complete it was almost suffocating; the faintest sound, it seemed, would have set every nerve in the room trembling.
+No one spoke. The silence was close to suffocating; the least sound, it seemed, would have jarred every nerve in the room.
 
-The gauze was lifted away layer by layer—layer by layer the mystery was peeled back—and the answer stood revealed.
+Layer by layer the gauze came away—layer by layer the mystery was peeled back—and there was the answer.
 
-Someone cried out.
+Someone screamed.
 
-China. Shanghai.
+*China. Shanghai.*
 
-The second year of the Xuantong reign, 1910. Spring.
+*Spring, 1910 — the second year of Xuantong.*
 
-Deep in the night.
+*Deep in the night.*
 
-Without a moon, the courtyard lay in an unnatural gloom.
+There was no moon, and the courtyard was strangely dark.
 
-Half a candle, guttering between light and dark, drifted through the black air. A pink shoe was sunk in the mud; a foot soft as fine jade drew itself free of the earth. The candlelight slanted across it and fell clear upon the shoe, upon a single golden lotus embroidered there and fouled now with mud.
+The stub of a candle, neither quite burning nor quite dying, moved through the black air. A pink shoe sank in the mud; a foot soft as fine jade pulled itself free. The candlelight slanted down and caught the shoe clearly: a golden lotus embroidered on its side, soiled now with mud.
 
-A terrible sound of a spade came out of the dark.
+Out of the dark came the dreadful sound of a spade.
 
-The candle, just righted, was carried forward toward the sound—and though her heart was filled with dread, still the pink shoes pressed on along the winding pebbled path, on toward the sound of the spade.
+The candle, barely steadied, moved toward it. Her heart was thick with dread, but the pink shoes pressed on along the winding pebble path, toward the sound of the digging.
 
-At last she saw. A man and a woman were burying a body beneath the pear tree, and the body’s feet still jutted from the earth. At a single glance she knew them for her father’s feet, for her father had been born with six toes!
+Then she saw. Under the pear tree a man and a woman were burying a body. Its feet still showed above the soil, and she knew them at one glance for her father’s feet—her father had been born with six toes!
 
-And in that instant of utter terror, a hand reached out from behind her and clamped down hard over her already-opened mouth—
+And in that instant of pure terror, a hand came from behind and clamped hard over her open mouth—
 
-They say that in that year the pear blossom of the Yang family, of Shanghai’s world of finance, bloomed with a rare and bewitching beauty.
+They say that year, at the house of the Yangs of Shanghai finance, the pear blossom bloomed strangely, bewitchingly bright.
