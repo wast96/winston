@@ -1,6 +1,25 @@
 {
   "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. status: 'attested' (form used in English scholarship / corroborated by reference works, citation in note), 'decided' (project style call, e.g. standard pinyin or a fixed convention), 'provisional' (a romanization of mine not found attested; the builder appends a visible marker). Sections render as glossary headings; keys starting with '_' are ignored.",
-  "book": {},
+  "book": {
+    "仁学": {
+      "en": "Study of Benevolence",
+      "pinyin": "Rénxué",
+      "status": "attested",
+      "note": "Tan Sitong's treatise (Renxue); the author's father helped put it in order. One rendering in ch01 and ch09."
+    },
+    "词林韵准": {
+      "en": "Prosodic Standard for the Forest of Lyrics",
+      "pinyin": "Cílín yùnzhǔn",
+      "status": "provisional",
+      "note": "The author's father's work on ci prosody; one rendering in ch01 and ch12."
+    },
+    "洪波曲": {
+      "en": "Song of the Great Waves",
+      "pinyin": "Hóngbō qǔ",
+      "status": "decided",
+      "note": "Guo Moruo's 1948 memoir of the 1938 Wuhan period; one rendering in ch15 and ch43."
+    }
+  },
   "people": {
     "黄慕兰": {
       "en": "Huang Mulan",
@@ -412,7 +431,7 @@
       "en": "Wang Huazhen",
       "pinyin": "Wāng Huázhēn",
       "status": "decided",
-      "note": "Director of the Institute for Reforming New People at Wuhan."
+      "note": "Director of the New People's Trades Institute at Wuhan."
     },
     "刘少文": {
       "en": "Liu Shaowen",
@@ -622,7 +641,7 @@
       "en": "Chen Yuanlong",
       "pinyin": "Chén Yuánlóng",
       "status": "attested",
-      "note": "The &#8216;Grand Councilor Chen&#8217; of the Kangxi&#8211;Yongzheng era, ancestor of the Haining Chen clan."
+      "note": "The &#8216;Grand Secretary Chen&#8217; of the Kangxi&#8211;Yongzheng era, ancestor of the Haining Chen clan."
     },
     "陈其寿": {
       "en": "Chen Qishou",
@@ -697,7 +716,7 @@
       "note": "The young judge who tried Guan Xiangying&#8217;s case. Romanization by pinyin."
     },
     "贝淞生": {
-      "en": "Bei Songsun",
+      "en": "Bei Songsheng",
       "pinyin": "Bèi Sōngshēng",
       "status": "provisional",
       "note": "Manager of the Bank of China and a sworn friend of the elder Chen. Romanization by pinyin."
@@ -865,7 +884,7 @@
       "note": "A Shanghai lawyer and colleague of Chen Zhigao and Shen Junru in the Bar Association and the wrongful-imprisonment-compensation movement."
     },
     "周孝庵": {
-      "en": "Zhou Xiao&#8217;an",
+      "en": "Zhou Xiao'an",
       "pinyin": "Zhōu Xiào&#8217;ān",
       "status": "provisional",
       "note": "A Shanghai journalist and lawyer who ran a law office jointly with Chen Zhigao."
@@ -886,7 +905,7 @@
       "en": "He Shuheng",
       "pinyin": "Hé Shūhéng",
       "status": "attested",
-      "note": "1876–1935; a delegate to the First Congress of the CCP; killed in 1935. His daughters He Shishan and He Sisi survived to witness the author&#8217;s rescue work."
+      "note": "1876–1935; a delegate to the First Congress of the CCP; killed in 1935. His daughters He Shishan and He Shisi survived to witness the author&#8217;s rescue work."
     },
     "何实山": {
       "en": "He Shishan",
@@ -895,8 +914,8 @@
       "note": "Elder daughter of the martyr He Shuheng."
     },
     "何实嗣": {
-      "en": "He Sisi",
-      "pinyin": "Hé Sìsì",
+      "en": "He Shisi",
+      "pinyin": "Hé Shísì",
       "status": "provisional",
       "note": "Younger daughter of He Shuheng; later director of the Beijing Research Institute of Culture and History."
     },
@@ -1000,7 +1019,7 @@
       "en": "Zhang Dongsun",
       "pinyin": "Zhāng Dōngsūn",
       "status": "attested",
-      "note": "1886–1973; philosopher and National Socialist Party figure, professor at Peking University."
+      "note": "1886–1973; philosopher and Democratic Socialist Party figure, professor at Peking University."
     },
     "杜月笙": {
       "en": "Du Yuesheng",
@@ -1546,7 +1565,7 @@
       "en": "Mao Wang Ruizhu",
       "pinyin": "Máo Wáng Ruìzhú",
       "status": "provisional",
-      "note": "A co-founder, with Li Qiujun and Qi Yiying, of a home for disaster orphans; romanization provisional."
+      "note": "A co-founder, with Li Qiujun and Qi Yiying, of a home for disaster-stricken children; romanization provisional."
     },
     "饶家驹": {
       "en": "Rao Jiaju",
@@ -2559,13 +2578,13 @@
       "en": "Chen Yunzhong",
       "pinyin": "Chén Yǔnzhōng",
       "status": "decided",
-      "note": "The author's elder daughter; co-author (with Chen Dazhong) of the Editor's Postscript. Same person as the glossary's &#20801;&#20013;."
+      "note": "The author's elder daughter; co-author (with Chen Dazhong) of the Editors' Postscript. Same person as the glossary's &#20801;&#20013;."
     },
     "陈大中": {
       "en": "Chen Dazhong",
       "pinyin": "Chén Dàzhōng",
       "status": "decided",
-      "note": "The author's younger daughter; co-author of the Editor's Postscript, and the 'second daughter Dazhong' of the 1991 US trip (ch40). Same person as the glossary's &#22823;&#20013;."
+      "note": "The author's younger daughter; co-author of the Editors' Postscript, and the 'second daughter Dazhong' of the 1991 US trip (ch40). Same person as the glossary's &#22823;&#20013;."
     },
     "叶炳南": {
       "en": "Ye Bingnan",
@@ -2643,11 +2662,6 @@
       "pinyin": "Yuè-Hàn tiělù",
       "status": "decided",
       "note": "Conventional English form of the Guangzhou&#8211;Hankou line."
-    },
-    "株萍铁路": {
-      "en": "Zhuping Railway",
-      "pinyin": "Zhū-Píng tiělù",
-      "status": "decided"
     },
     "岳麓书院": {
       "en": "Yuelu Academy",
@@ -2799,7 +2813,7 @@
       "note": "Shanghai trust company that went bankrupt in 1935 and, through the author and Chen Zhigao&#8217;s mediation, uniquely resumed business; it became a covert base for the underground."
     },
     "银行俱乐部": {
-      "en": "Bankers&#8217; Club",
+      "en": "Bankers' Club",
       "pinyin": "Yínháng Jùlèbù",
       "status": "decided",
       "note": "A Shanghai club of the banking elite, which the author joined as one of its rare women members."
@@ -2877,10 +2891,10 @@
       "note": "The Eighth Route Army&#8217;s liaison office in Shanghai, abbreviated ‘ba ban,’ which led the resistance periodical Documents."
     },
     "民社党": {
-      "en": "National Socialist Party",
+      "en": "Democratic Socialist Party",
       "pinyin": "Guójiā Shèhuì Dǎng",
-      "status": "attested",
-      "note": "The memoir's 民社党; in the mid-1930s the party of Zhang Junmai and Zhang Dongsun was the China National Socialist Party (国家社会党, founded 1932), which merged into the Democratic Socialist Party (民社党) only in 1946. Rendered by the party these figures belonged to at the time; unrelated to European fascism."
+      "status": "decided",
+      "note": "The memoir's 民社党. In the mid-1930s the party of Zhang Junmai and Zhang Dongsun was the China National Socialist Party (国家社会党, founded 1932, unrelated to European fascism); it took the name Democratic Socialist Party only in 1946. The memoir's retrospective name is rendered as written and footnoted at its first occurrence (ch14)."
     },
     "全国各界救国联合会": {
       "en": "All-Circles National Salvation Federation",
@@ -3240,6 +3254,24 @@
       "en": "Association of Chinese Young Scientific and Technical Personnel",
       "status": "provisional",
       "note": "Wartime body Liu Shaowen led in Chongqing to organize scientific and technical workers (ch41)."
+    },
+    "银联": {
+      "en": "Banking Union",
+      "pinyin": "Yínlián",
+      "status": "decided",
+      "note": "The bankers' fellowship of the wartime Solitary Island years (\"Yinlian\"), in which underground Party members played a leading part. One rendering across ch16, ch21, and the chronology."
+    },
+    "文联": {
+      "en": "Cultural Federation",
+      "pinyin": "Wénlián",
+      "status": "decided",
+      "note": "Short form paired with 银联 in ch21; the Shanghai cultural-circles salvation body of ch15. One rendering throughout."
+    },
+    "国民政府": {
+      "en": "National Government",
+      "pinyin": "Guómín zhèngfǔ",
+      "status": "decided",
+      "note": "The Kuomintang's Nanjing (later Chongqing) government; rendered \"National Government\" throughout, never \"Nationalist government.\""
     }
   },
   "places": {
@@ -3343,7 +3375,7 @@
       "note": "A city in Liaoning; Guan Xiangying&#8217;s native region, site of his memorial statue."
     },
     "延安": {
-      "en": "Yan&#8217;an",
+      "en": "Yan'an",
       "pinyin": "Yán&#8217;ān",
       "status": "attested",
       "note": "The Communist base in northern Shaanxi from 1937."
@@ -3664,7 +3696,7 @@
       "en": "Fuxing Middle Road",
       "pinyin": "Fùxīng Zhōnglù",
       "status": "attested",
-      "note": "Shanghai street where the author lived (formerly Rue Lafayette)."
+      "note": "Shanghai street where the author lived (formerly Route Lafayette)."
     },
     "启德机场": {
       "en": "Kai Tak Airport",
@@ -3775,7 +3807,7 @@
       "note": "A city in Sichuan to which the narrator's mother moved (ch20)."
     },
     "株萍铁路": {
-      "en": "Zhuzhou-Pingxiang Railway",
+      "en": "Zhuzhou–Pingxiang Railway",
       "pinyin": "Zhūpíng Tiělù",
       "status": "attested",
       "note": "The Zhuzhou–Pingxiang line where the narrator's father and, later, Zhang Fusheng worked (ch21)."
@@ -3832,6 +3864,12 @@
       "en": "Central Plains",
       "status": "decided",
       "note": "The Central Plains (Zhongyuan) Liberated Area, linked to Chongqing by a secret line Liu Shaowen laid (ch41)."
+    },
+    "长江": {
+      "en": "Yangtze",
+      "pinyin": "Chángjiāng",
+      "status": "attested",
+      "note": "The conventional English form, used throughout."
     }
   },
   "terms": {
@@ -3976,6 +4014,18 @@
       "en": "underground Great Wall",
       "status": "decided",
       "note": "'Underground Great Wall,' the Party's clandestine front; the title of the Part Two ci poem, echoed at the close of the Liu Shaowen bio (ch41)."
+    },
+    "巡捕房": {
+      "en": "police station",
+      "pinyin": "xúnbǔfáng",
+      "status": "decided",
+      "note": "The police of the foreign concessions (the Municipal Police); 巡捕 rendered \"policeman.\" One rendering from ch07 on."
+    },
+    "土豹子": {
+      "en": "Earth Leopard",
+      "pinyin": "tǔbàozi",
+      "status": "decided",
+      "note": "He Chang's nickname; literally a \"country bumpkin\" (with the leopard image kept), glossed at its first occurrence (ch08). One rendering across ch08, ch10, ch12, ch20."
     }
   }
 }

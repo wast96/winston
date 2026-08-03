@@ -29,12 +29,12 @@
   ],
   "uid": "urn:uuid:huang-mulan-autobiography-en-1",
   "cover_image": "cover.jpeg",
-  "_source_note": "Source: a digital (calibre-produced) EPUB of 《黄慕兰自传》, Encyclopedia of China Publishing House, 2016 reissue (first published 2004), ISBN 9787500097044. Reliable Unicode text, no OCR. The source carries NO footnotes/endnotes of its own; all notes in this edition are the translator's. Structure notes: (a) each of the five parts opens on a divider page carrying a 《临江仙》 ci poem by the author; these poems are folded in as an epigraph at the head of the first chapter of each part (marked with a 'part_poem_src' locator). (b) The source's own table-of-contents page (index_split_001.html) and the running header 黄慕兰自传 are not reproduced; the EPUB generates its own hyperlinked TOC. (c) The copyright leaf (index_split_000.html) is carried as book metadata / colophon, not as a chapter. (d) The source labels BOTH 我的外婆 党的女儿 and 编后记 as 附录四 (appendix IV) -- an apparent source numbering slip; rendered faithfully, with the editor's postscript titled as such and the duplication noted here rather than silently renumbered.",
+  "_source_note": "Source: a digital (calibre-produced) EPUB of 《黄慕兰自传》, Encyclopedia of China Publishing House, 2016 reissue (first published 2004), ISBN 9787500097044. Reliable Unicode text, no OCR. The source carries FOUR editorial endnotes of its own (ch05 [1], ch08 [2], ch11 [3][4], in a \u3010\u6ce8\u91ca\u3011 block at the tail of index_split_016); each is rendered inside the corresponding translator's note and expressly marked as the source's. All other notes are the translator's. Structure notes: (a) each of the five parts opens on a divider page carrying a 《临江仙》 ci poem by the author; these poems are folded in as an epigraph at the head of the first chapter of each part (marked with a 'part_poem_src' locator). (b) The source's own table-of-contents page (index_split_001.html) and the running header 黄慕兰自传 are not reproduced; the EPUB generates its own hyperlinked TOC. (c) The copyright leaf (index_split_000.html) is carried as book metadata / colophon, not as a chapter. (d) The source labels BOTH 我的外婆 党的女儿 and 编后记 as 附录四 (appendix IV) -- an apparent source numbering slip; rendered faithfully, with the editors' postscript titled as such and the duplication noted here rather than silently renumbered.",
   "source_epub": "source.epub",
   "_translator_note": "Rendered verbatim as the Translator's Note back-matter page; inline <i>...</i> honored; use NUMERIC character references (&#8212;, &#160;), never named entities. Reviewed at the close of the commissioned scope (ch00, ch01-ch21, ch39-ch43); the general text below still holds.",
   "translator_note": [
     "This is an English translation of <i>黄慕兰自传</i> (<i>The Autobiography of Huang Mulan</i>), made from the 2016 reissue published by the Encyclopedia of China Publishing House (first edition 2004).",
-    "The source was translated in full and in the book&#8217;s own voice. Names follow pinyin except where a conventional English form is established; each proper noun is fixed once in the glossary. The source book carries no notes of its own, so every note here is the translator&#8217;s: they identify people, places, and institutions a non-specialist will not know, flag genuinely ambiguous passages rather than smoothing them over, and gloss allusions and idioms whose flavor does not survive translation.",
+    "The source was translated in full and in the book&#8217;s own voice. Names follow pinyin except where a conventional English form is established; each proper noun is fixed once in the glossary. The source carries only a handful of editorial endnotes of its own, quoted inside the notes and expressly marked as the source&#8217;s; all other notes are the translator&#8217;s. They identify people, places, and institutions a non-specialist will not know, flag genuinely ambiguous passages rather than smoothing them over, and gloss allusions and idioms whose flavor does not survive translation.",
     "Where the memoir meets documented history, claims are checked against scholarship and the note says whether they are corroborated, uncorroborated, or contradicted. Nothing is invented to bridge a gap in the source."
   ],
   "_structure_note": "One entry per translatable unit, in reading order. ch00 is front matter; ch01-ch38 are the numbered chapters grouped into five parts; ch39-ch43 are the appendices (grouped under the 'Appendices' label). These chapters are flat (no internal sections), as in the source. Keep each unit's 'src' (source spine href) and 'chars' (source CJK character count from ingest) so the survey can size batches; 'text_file' points at the extracted source text.",
@@ -277,7 +277,7 @@
       "chapter": 21,
       "part": "Part Three. Resistance and National Salvation",
       "title": "二十一 同陷冤狱",
-      "title_en": "Chapter 21. Cast into Prison Together",
+      "title_en": "Chapter 21. Wrongfully Imprisoned Together",
       "src": "index_split_026.html",
       "chars": 11130,
       "text_file": "data/src/28_index-split-026.txt",
@@ -488,7 +488,7 @@
       "chapter": 40,
       "part": "Appendices",
       "title": "附录二 黄慕兰生平大事表",
-      "title_en": "Appendix II. A Chronology of Huang Mulan’s Life",
+      "title_en": "Appendix II. A Chronology of Huang Mulan's Life",
       "src": "index_split_048.html",
       "chars": 2116,
       "text_file": "data/src/50_index-split-048.txt",
@@ -521,7 +521,7 @@
       "chapter": 43,
       "part": "Appendices",
       "title": "编后记",
-      "title_en": "Editor’s Postscript",
+      "title_en": "Editors' Postscript",
       "src": "index_split_051.html",
       "chars": 1514,
       "text_file": "data/src/53_index-split-051.txt",
@@ -637,7 +637,7 @@
         "ch43"
       ],
       "chars": 7625,
-      "covers": "Appendix I. Afterword → Editor’s Postscript"
+      "covers": "Appendix I. Afterword → Editors' Postscript"
     }
   ],
   "_scope_note": "Commissioned scope: translate ONLY the front matter (ch00), chapters 1-21 (ch01-ch21), and the appendices (ch39-ch43). Chapters 22-38 (ch22-ch38) are intentionally NOT translated and remain as pending skeleton outline pages in the build. Batch target: 21,000 source chars max per batch. Batches never span the ch22-ch38 gap."

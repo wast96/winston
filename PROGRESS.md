@@ -1000,3 +1000,18 @@ Build: out/The Autobiography of Huang Mulan.epub, 27 of 44 chapters translated
 (ch00-ch21 + ch39-ch43), 89 notes. qa_epub.py PASS (105 files, 50 documents, 44
 reading documents, 555 paragraphs, 89 refs/89 bodies/89 backlinks, all links
 resolve). ch22-ch38 remain pending skeleton pages, as commissioned.
+
+
+## REVIEW PASS (post-B09)  (DONE)
+
+Whole-book tire-kick at the commissioner's request: 10 parallel bilingual
+review passes (one per chapter group, plus a cross-cutting consistency audit)
+over all 27 translated units; ~150 findings verified against the source and
+applied. See CHANGELOG.md for the full inventory. Checks re-run after the
+edits: data/zh verbatim vs data/src (the ch03 caption splice re-verified),
+parity 27/27 OK, check_numbers 0 unresolved everywhere (noise +三湘), build
+green with 98 notes, qa_epub PASS. Known items NOT changed, deliberately:
+ch11 "Fuchang Bed Company" (period reproductions of the Shen Bao notice
+corroborate 床); ch40 "Long March Sketches" (source itself says 长征漫画);
+the ch17-21 curly-quote correction surfaces (display unified by the builder's
+typography pass instead).

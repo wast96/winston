@@ -155,3 +155,4 @@
 # "more than four hundred thousand words". Strip the whole so 40/10000 don't orphan.
 四十余万
 四十餘萬
+三湘

@@ -15,17 +15,16 @@ appendix; translated chapters show their content, and the out-of-scope chapters
 22-38 link to skeleton outline pages that state their source size.
 
 Final whole-book state (qa_epub.py PASS): 105 files, 50 documents, 44 reading
-documents, 555 paragraphs; 89 note references / 89 bodies / 89 backlinks, numbering
+documents, 555 paragraphs; 98 note references / 98 bodies / 98 backlinks, numbering
 continuous and sequential in reading order; all internal links resolve.
 
 ## Final counts
 
 - Chapters translated: 27 of 44 — ch00 (front matter), ch01-ch21 (Parts One-Three,
-  through "Cast into Prison Together"), and ch39-ch43 (the five appendices).
+  through "Wrongfully Imprisoned Together"), and ch39-ch43 (the five appendices).
 - Chapters intentionally pending (skeleton pages): ch22-ch38 (Parts Four-Five), out
   of the commissioned scope.
-- Footnotes: 89 total (translator's; the source carries none of its own — its four
-  editorial endnotes, ch05[1]/ch08[2]/ch11[3][4], are rendered as the source's own
+- Footnotes: 98 total (translator's; the source carries none of its own — its four editorial endnotes, ch05[1]/ch08[2]/ch11[3][4], are rendered as the source's own
   notes). B09 added notes 75-89.
 - Glossary rows: 438 people / 112 organizations / 100 places / 26 terms (676 total),
   one rendering per referent, statuses attested / provisional / decided.
@@ -84,7 +83,7 @@ change glossary.json AND grep every built unit for the old form and rebuild.
   rehabilitation, and old age) are NOT translated and stand as skeleton pages. If
   those are ever commissioned, the machinery is ready: extend gen_bilingual_b02.py's
   DROP/POEM maps (Part Four opens at ch22, Part Five at ch32 — each needs its 临江仙
-  folded in), reuse the checks and noise list, continue note numbering from 89, and
+  folded in), reuse the checks and noise list, continue note numbering from 98, and
   keep to the single branch claude/huang-mulan. Batch target 21,000 source chars.
 - The build is driven entirely by book.json. Reading text lives in out/<id>_reading.md
   (the correction surface); notes.json / glossary.json / figures.json / back_matter.json

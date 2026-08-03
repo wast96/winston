@@ -370,15 +370,19 @@ def render_glossary(gloss):
                      % esc(section.replace("_", " ").title()))
         for zh, rec in sorted(entries.items(),
                               key=lambda kv: kv[1].get("pinyin", kv[0])):
-            note = (" &#183; " + esc(rec["note"])) if rec.get("note") else ""
+            # note fields are XHTML fragments (numeric refs + <i>), inserted
+            # raw like the notes page; en/pinyin may carry numeric refs but
+            # no markup, so decode them before escaping.
+            note = (" &#183; " + rec["note"]) if rec.get("note") else ""
             status = ""
             if rec.get("status") == "provisional":
                 status = (" &#183; <i>romanization mine; not found in English "
                           "scholarship</i>")
-            pinyin = esc(rec.get("pinyin", ""))
+            pinyin = esc(html.unescape(rec.get("pinyin", "")))
             parts.append("<dt>%s <span lang=\"zh-Hans\">%s</span></dt>"
                          "<dd>%s%s%s</dd>"
-                         % (esc(rec["en"]), esc(zh), pinyin, note, status))
+                         % (esc(html.unescape(rec["en"])), esc(zh),
+                            pinyin, note, status))
         parts.append("</dl>")
     return "\n".join(parts)
 

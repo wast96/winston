@@ -1,6 +1,6 @@
 ## Appendix I. Afterword
 
-*In tender years I entered school; in the Northern Expedition I took up arms; a whole life's road — a diligent old soldier.*
+*In tender years I entered school; in the Northern Expedition I took up arms; a whole life's road — an old orderly-soldier.*
 
 *Charged with the sweeping of the fine dust within and without; an odd soldier of odd encounters, quick and alert to sound the alarm.*
 

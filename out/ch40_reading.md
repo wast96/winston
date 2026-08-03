@@ -12,11 +12,11 @@
 
 1925: unable to bear it, she returned to her parents' home and soon after broke off the marriage; she went on studying at home, preparing to continue her schooling.
 
-1926: in early summer went alone to Hankou to join the revolution, serving as secretary of the municipal Women's Department. In the autumn joined the Communist Youth League. In November became a member of the Chinese Communist Party. At the Second Congress of Party Delegates of the Kuomintang's Hankou Special Municipal Party Headquarters she was elected to the executive committee and as head of the Women's Department. She took part in the work of the Relief Society and the Red Cross as a director. In December she and Yuan Puzhi and others were selected to study in the Soviet Union, but she was ordered back en route; she resumed her former posts, concurrently editing the women's supplement of the Hankou Republican Daily.
+1926: in early summer went alone to Hankou to join the revolution, serving as secretary of the municipal Women's Department. In the autumn joined the Communist Youth League. In November became a member of the Chinese Communist Party. At the Second Congress of Party Delegates of the Kuomintang's Hankou Special Municipal Party Headquarters she was elected to the executive committee and as head of the Women's Department. She took part in the work of the Relief Society and the Red Cross as a director. In December she and Yuan Puzhi and others were selected to study in the Soviet Union, but she was ordered back en route; she resumed her former posts, concurrently editing the women's supplement of the Hankou *Republican Daily*.
 
 1927: in January took part in the anti-imperialist struggle to recover the British Concession. In February concurrently served as director of studies of the Central Women Cadres' Training Class and as head of the Committee for the Movement to Unbind Women's Feet. In March she was general chair of the mass rally of two hundred thousand people in the three towns of Wuhan celebrating International Working Women's Day. On 8 March she announced in the press her marriage to Wan Xiyan. On 1 May she helped organize the mass rally and was in charge of receiving the international workers' delegation. In July she and Wan were ordered together to Nanchang in Jiangxi and went over to underground work, she serving as secretary of the CCP Jiangxi Provincial Committee and as confidential courier. After the Nanchang Uprising she went into hiding with the organs of the CCP Jiangxi Provincial Committee.
 
-1929: in January was transferred to Shanghai as secretary of the Secretariat of the CCP Central Political Bureau and as confidential courier. In the spring married He Chang. She left central work to take part in the labor movement, under the leadership of the Jiangsu Provincial Committee. In April and May she worked as an apprentice at the Naigai Wata No. 13 Mill in western Shanghai; she was arrested on the eve of May Day, released a few days later, and not sentenced. In June, under the alias Liu Axiu, she moved to the Hengfeng Cotton Mill in eastern Shanghai as an apprentice; during a strike she served as the apprentice workers' representative and was arrested, held in Longhua Prison for a hundred days, where she worked together with Peng Pai, keeping up liaison and organizing the struggle. In the autumn she was transferred with He Chang to Hong Kong, serving as secretary of the Southern Bureau and as confidential courier. In December she carried a large sum of funds allocated by the Communist International from Hong Kong to Shanghai and handed it over to the Party Center.
+1929: in January was transferred to Shanghai as secretary of the Secretariat of the CCP Central Political Bureau and as confidential courier. In the spring married He Chang. She left central work to take part in the labor movement, under the leadership of the Jiangsu Provincial Committee. In April and May she worked as an apprentice at the Naigai Wata No. 13 Mill in western Shanghai; she was arrested on the eve of May Day, released a few days later, and not sentenced. In June, under the alias Liu Axiu, she moved to the Hengfeng Spinning Mill in eastern Shanghai as an apprentice; during a strike she served as the apprentice workers' representative and was arrested, held in Longhua Prison for a hundred days, where she worked together with Peng Pai, keeping up liaison and organizing the struggle. In the autumn she was transferred with He Chang to Hong Kong, serving as secretary of the Southern Bureau and as confidential courier. In December she carried a large sum of funds allocated by the Communist International from Hong Kong to Shanghai and handed it over to the Party Central.
 
 1930: in March went with He Chang to Tianjin, serving as secretary of the Northern Bureau and as confidential courier. In October returned to Shanghai with He Chang. In December became head of the Rescue Department of the Mutual Aid General Association.
 
@@ -26,15 +26,15 @@
 
 1933: at the start of the year returned to Shanghai. In May she went home to Hunan to visit family, for her second sister's marriage and her third brother's advancement to a higher school.
 
-1933–1935: helped rescue comrades Xiong Jinding, Zhu Duanshou, He Sisi, He Shishan, and others.
+1933–1935: helped rescue comrades Xiong Jinding, Zhu Duanshou, He Shisi, He Shishan, and others.
 
 1935: in May married Chen Zhigao. In the winter she took over the bankruptcy-and-revival case of the Shanghai Tongyi Trust Company and joined the Bankers' Club.
 
-1936: in March the Shanghai Banking Friendship Association was founded; she was one of its initiators and served as deputy chair. In November she assisted in the rescue of the "Seven Gentlemen."
+1936: in March the Shanghai Banking and Money Trades Friendship Association was founded; she was one of its initiators and served as deputy chair. In November she assisted in the rescue of the "Seven Gentlemen."
 
-1937: early in the year she went to Beijing to celebrate her teacher Yu's seventieth birthday and to seek support for the rescue of the "Seven Gentlemen" and for mediating the Tongyi Company's return to business. After the revival succeeded, she served as managing director and deputy general manager. In July the International Relief Association was founded, with her as its secretary-general. On 27 July she was ordered to the wharf to welcome Guo Moruo back to China. On 28 July she took part in the symposium welcoming Guo Moruo. On 4 August she joined the work of the "Shanghai Branch of the Chinese Women's Association for Comforting the Officers and Men Defending the Country and Resisting the Enemy" (the Women's Comfort Association for short). After the Battle of Songhu broke out on 13 August, she went to the front to bring comfort. She set up first-aid training classes and trained relief workers. She gathered and donated scrap copper and old iron to support the arsenals. In November she saw off those urgently needing to evacuate. She served as one of the conveners of the "Tuesday Dining Club." She took over the "Chinese Vocational Women's School." In December she became chair of the board of the Daily Translation Herald and concurrently chair of the board of the National Defense Publishing Company.
+1937: early in the year she went to Beiping to celebrate her teacher Yu's seventieth birthday and to seek support for the rescue of the "Seven Gentlemen" and for mediating the Tongyi Company's return to business. After the revival succeeded, she served as managing director and deputy general manager. In July the International Relief Association was founded, with her as its general secretary. On 27 July she was ordered to the wharf to welcome Guo Moruo back to China. On 28 July she took part in the symposium welcoming Guo Moruo. On 4 August she joined the work of the "Shanghai Branch of the Chinese Women's Association for Comforting the Officers and Men Defending the Country and Resisting the Enemy" (the Women's Comfort Association for short). After the Battle of Songhu broke out on 13 August, she went to the front to bring comfort. She set up first-aid training classes and trained relief workers. She gathered and donated scrap copper and old iron to support the arsenals. In November she saw off those urgently needing to evacuate. She served as one of the conveners of the "Tuesday Dining Club." She took over the "Chinese Women's Vocational School." In December she became chair of the board of the Daily Translation Herald and concurrently chair of the board of the Defend-the-Nation Publishing Company.
 
-1938: in January Liu Shaowen conveyed Zhou Enlai's instructions. In the autumn she went to Hong Kong to raise funds. (After returning to Shanghai,) in October she inscribed the masthead for the monthly Documents, published the Long March Sketches, and printed On Protracted War.
+1938: in January Liu Shaowen conveyed Zhou Enlai's instructions. In the autumn she went to Hong Kong to raise funds. (After returning to Shanghai,) in October she inscribed the masthead for the monthly *Documents*, published the *Long March Sketches*, and printed *On Protracted War*.
 
 1939: in January organized the transport of supplies to support the resistance, and purchased and shipped the classical books and other items chosen in a letter in Chairman Mao's own hand. In the autumn moved from Shanghai to Hong Kong.
 
@@ -44,7 +44,7 @@
 
 1945: in January she and Chen Zhigao were released on bail at the same time. She lived at Qingmuguan in Chongqing. She was directed to "keep a low profile, recover her health, and quietly await further orders." In September and October she returned to Shanghai. From October to December she prepared to reopen the Tongyi Trust Company.
 
-1946: in Shanghai she helped bring about the revival of the Bankers' Union and the founding of the "Niuwei Dining Club," and served as its head. She actively supported revolutionary cultural work and relief work.
+1946: in Shanghai she helped bring about the revival of the Banking Union and the founding of the "Niuwei Dining Club," and served as its head. She actively supported revolutionary cultural work and relief work.
 
 1948: in the autumn the Tongyi Company was persecuted and ceased business.
 
@@ -54,9 +54,9 @@
 
 1951: took part in the "Three-Anti" campaign and was rated a model worker. She was put in charge of winding up eight foreign-capital bodies and 116 old associations. She continued taking part in neighborhood residents' work and promoted the elimination of illiteracy among women. At the end of the year her eldest son Wan Changjie came to Shanghai, and mother and son were reunited.
 
-1952–1953: assisted Li Lantian of the Central Propaganda Department, who came to Shanghai to retrieve from the Tongyi safe-deposit boxes the large store of documents and relics of left-wing writers from around the time of the War of Resistance. She helped Li collect a full sixty years' run of Shen Bao and the News Daily to send to the Central Archives. She helped Li Lantian, through Yang Shuhui and Bao Huiseng, find and confirm the site of the First Congress.
+1952–1953: assisted Li Lantian of the Central Propaganda Department, who came to Shanghai to retrieve from the Tongyi safe-deposit boxes the large store of documents and relics of left-wing writers from around the time of the War of Resistance. She helped Li collect a full sixty years' run of *Shen Bao* and the *News Daily* to send to the Central Archives. She helped Li Lantian, through Yang Shuhui and Bao Huiseng, find and confirm the site of the First Congress.
 
-1953: in the summer her second son He Ping was brought to Beijing by Chen Geng for a meeting.
+1953: in the summer her second son He Ping was brought to Beijing by Chen Geng to meet her.
 
 1955: in early June she was detained for interrogation by the Shanghai Public Security Bureau, prisoner number 1067. She was transferred to the Deshengmen Prison in Beijing.
 
@@ -74,7 +74,7 @@
 
 1978: in the winter she went from Shanghai to Beijing for a fourth appeal.
 
-1980: in April Deng Yingchao sent word for her to come to Zhongnanhai for a talk; following instructions she returned to Shanghai and took up work at the Shanghai Municipal Counselors' Office. The Ministry of Public Security revoked the Supreme People's Court's erroneous verdict and declared her innocent. In early May she was formally appointed a counselor of the Shanghai municipal government. In the autumn she sat in on the Fifth Plenary Session of the Shanghai People's Political Consultative Conference.
+1980: in April Deng Yingchao sent word for her to come to Zhongnanhai for a talk; following instructions she returned to Shanghai and took up work at the Shanghai Municipal Counselors' Office. The Ministry of Public Security revoked the Supreme People's Court's erroneous verdict and declared her innocent. In early May she was formally appointed a counselor of the Shanghai municipal government. In the autumn she sat in on the plenary session of the Fifth Shanghai People's Political Consultative Conference.
 
 1982: in the spring she went to Beijing to petition, appealing to the Central Commission for Discipline Inspection over the questions of her Party membership and Party standing. From 1982 to 1992 she served as a member of the Sixth and Seventh Shanghai People's Political Consultative Conferences.
 
@@ -82,11 +82,11 @@
 
 1985: in the autumn she went from Shanghai to Guangzhou, intending to meet Zhigao, but it came to nothing.
 
-1986: in the winter the head of the Supreme People's Court's group for reviewing the Pan case, leading staff of the Shanghai Higher Court and the deputy director of the Counselors' Office, formally announced that the review of the Pan case was complete, offered apologies and respects, and returned some of the materials.
+1986: in the winter the head of the Supreme People's Court's group for reviewing the Pan case, bringing along staff of the Shanghai Higher Court and the deputy director of the Counselors' Office, formally announced that the review of the Pan case was complete, offered apologies and respects, and returned some of the materials.
 
 1987: the Organization Department of the Shanghai Party Committee conveyed the decision of the Central Organization Department: her joining the Party in 1926 was recognized, but as she had left the Party in 1933, her standing was counted from her rejoining in 1951. She continued to appeal over her Party standing.
 
-1989: in the summer she completed a memoir of two hundred thousand words and asked Luo Qingchang to report it to Deng Yingchao and hand it to the Central Organization Department.
+1989: in the summer she completed a memoir of two hundred thousand characters and asked Luo Qingchang to report it to Deng Yingchao and hand it to the Central Organization Department.
 
 1991: went to the United States with her second daughter Dazhong to visit relatives. Celebrated the fortieth anniversary of the Shanghai Counselors' Office; her continuous Party standing was recognized.
 
