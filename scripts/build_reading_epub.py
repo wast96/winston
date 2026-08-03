@@ -143,7 +143,17 @@ def insert_notes(paragraph, notes, counter, doc):
         ref = ('<a class="noteref" epub:type="noteref" id="ref%d" '
                'href="notes.xhtml#note%d"><sup>%d</sup></a>'
                % (note["n"], note["n"], note["n"]))
-        paragraph = paragraph.replace(note["anchor"], note["anchor"] + ref, 1)
+        # The marker follows any closing punctuation right after the anchor
+        # (convention: superscript after the period/comma/quote), but an
+        # apostrophe followed by a letter is a possessive, not punctuation.
+        pos = paragraph.find(note["anchor"])
+        j = pos + len(note["anchor"])
+        while j < len(paragraph) and paragraph[j] in ".,;:!?)…”’]\"'":
+            if paragraph[j] in "’'" and j + 1 < len(paragraph) \
+               and paragraph[j + 1].isalpha():
+                break
+            j += 1
+        paragraph = paragraph[:j] + ref + paragraph[j:]
     return paragraph
 
 
@@ -320,7 +330,7 @@ def render_contents(structure, translated, ids_present=None):
             mark = "" if done else ' <span class="pending">&#183; pending</span>'
             parts.append('<li class="chap"><a href="%s.xhtml">%s</a>%s%s</li>'
                          % (cid, esc(chap["title_en"]),
-                            _span_suffix(chap), mark))
+                            "" if done else _span_suffix(chap), mark))
             if not chap.get("sections"):
                 continue
             parts.append('<ol>')
@@ -332,7 +342,8 @@ def render_contents(structure, translated, ids_present=None):
                     label = ('%s <span class="pending">&#183; pending</span>'
                              % esc(sec["title_en"]))
                 parts.append('<li class="sec">%s%s</li>'
-                             % (label, _span_suffix(sec)))
+                             % (label,
+                                "" if sec["id"] in here else _span_suffix(sec)))
                 if sec.get("subsections"):
                     parts.append('<ol class="secs">')
                     for sub in sec["subsections"]:
@@ -342,7 +353,8 @@ def render_contents(structure, translated, ids_present=None):
                         else:
                             sl = esc(sub["title_en"])
                         parts.append('<li class="sub">%s%s</li>'
-                                     % (sl, _span_suffix(sub)))
+                                     % (sl, "" if sub["id"] in here
+                                        else _span_suffix(sub)))
                     parts.append('</ol>')
             parts.append('</ol>')
     parts.append('</ol>')
@@ -364,7 +376,7 @@ def render_glossary(gloss):
                 status = (" &#183; <i>romanization mine; not found in English "
                           "scholarship</i>")
             pinyin = esc(rec.get("pinyin", ""))
-            parts.append("<dt>%s <span lang=\"zh-Hant\">%s</span></dt>"
+            parts.append("<dt>%s <span lang=\"zh-Hans\">%s</span></dt>"
                          "<dd>%s%s%s</dd>"
                          % (esc(rec["en"]), esc(zh), pinyin, note, status))
         parts.append("</dl>")
@@ -376,13 +388,13 @@ def render_colophon(bm):
     return (
         '<h1>Colophon</h1>'
         '<p class="note">The book\'s original copyright leaf '
-        '(<span lang="zh-Hant">版權頁</span>), reproduced and translated.</p>'
+        '(<span lang="zh-Hans">版权页</span>), reproduced and translated.</p>'
         '<div class="colophon">'
-        '<p lang="zh-Hant">%s</p>'
-        '<p lang="zh-Hant">%s&#160;著</p>'
-        '<p class="notice" lang="zh-Hant">%s</p>'
+        '<p lang="zh-Hans">%s</p>'
+        '<p lang="zh-Hans">%s&#160;著</p>'
+        '<p class="notice" lang="zh-Hans">%s</p>'
         '<p>%s</p>'
-        '<p lang="zh-Hant">%s</p>'
+        '<p lang="zh-Hans">%s</p>'
         '<p>%s</p>'
         '</div>'
         % (esc(c.get("title_zh", "")), esc(c.get("author_zh", "")),
@@ -423,9 +435,66 @@ def translator_note(meta, n_chapters):
            "title_en": esc(meta["title_en"]), "n": n_chapters})
 
 
+_OPENERS = " \t\n([{—–/‘“"  # after these, a quote opens
+
+
+def _curl_text(text, prev):
+    """Typographic pass on ONE text node: straight quotes/apostrophes to curly,
+    '...' to an ellipsis. `prev` is the last text character emitted before this
+    node (tags skipped), so quotes just after markup still resolve correctly.
+    Already-curly text passes through unchanged (idempotent)."""
+    out = []
+    i, n = 0, len(text)
+    while i < n:
+        c = text[i]
+        nxt = text[i + 1] if i + 1 < n else ""
+        if c == '"':
+            out.append("“" if (not prev or prev in _OPENERS) else "”")
+        elif c == "'":
+            if prev.isalnum() and (nxt.isalnum()):
+                out.append("’")          # contraction / possessive
+            elif nxt.isdigit():
+                out.append("’")          # '30s
+            elif not prev or prev in _OPENERS or prev == '"' or prev == "“":
+                out.append("‘")
+            else:
+                out.append("’")          # closing quote or s' possessive
+        elif c == "." and text[i:i + 3] == "...":
+            out.append("…")
+            prev = "…"
+            i += 3
+            continue
+        else:
+            out.append(c)
+        prev = out[-1]
+        i += 1
+    return "".join(out), prev
+
+
+_TAG_SPLIT = re.compile(r"(<[^>]+>|&#?\w+;)")
+
+
+def typographize(markup):
+    """Apply _curl_text to the text nodes of an XHTML fragment, skipping tags
+    and character references so attributes/entities are never touched."""
+    prev = ""
+    parts = []
+    block = re.compile(r"</?(p|h\d|li|figcaption|div|blockquote|dt|dd|br|ol|ul)\b")
+    for seg in _TAG_SPLIT.split(markup):
+        if seg.startswith("<") or seg.startswith("&"):
+            if block.match(seg):
+                prev = ""
+            parts.append(seg)
+        else:
+            seg, prev = _curl_text(seg, prev)
+            parts.append(seg)
+    return "".join(parts)
+
+
 def write(path, body, title):
     with open(path, "w") as fh:
-        fh.write(XHTML % {"title": esc(title), "body": body})
+        fh.write(XHTML % {"title": esc(typographize(title)),
+                          "body": typographize(body)})
 
 
 def main(epub_path):
@@ -508,13 +577,13 @@ def main(epub_path):
     # title page
     byline = esc(meta["author_en"])
     if meta["author_zh"]:
-        byline += ' &#183; <span lang="zh-Hant">%s</span>' % esc(meta["author_zh"])
+        byline += ' &#183; <span lang="zh-Hans">%s</span>' % esc(meta["author_zh"])
     yr = (' <p class="note">%s</p>' % esc(str(meta["year"]))) if meta["year"] else ""
     sub = ('<p class="subtitle">%s</p>' % esc(meta["subtitle_en"])
            if meta["subtitle_en"] else "")
     write(os.path.join(oebps, "titlepage.xhtml"),
           '<div class="tp"><h1>%s</h1>%s'
-          '<p lang="zh-Hant">%s</p>'
+          '<p lang="zh-Hans">%s</p>'
           '<p>%s</p>%s'
           '<p class="note">English translation</p></div>'
           % (esc(meta["title_en"]), sub, esc(meta["title_zh"]), byline, yr),
@@ -554,6 +623,17 @@ def main(epub_path):
                          "would be silently dropped:\n" % len(orphans))
         for cid, a in orphans:
             sys.stderr.write("  %-9s %s\n" % (cid, a[:88]))
+        sys.exit(2)
+
+    # same contract for figures: an unmatched 'before' anchor would silently
+    # drop the image; refuse.
+    lost = [(cid, f["file"], f["before"]) for cid, lst in figspec.items()
+            if not cid.startswith("_") and cid in translated
+            for f in lst if not f.get("placed")]
+    if lost:
+        sys.stderr.write("BUILD FAILED: %d figure(s) never placed:\n" % len(lost))
+        for cid, fn, b in lost:
+            sys.stderr.write("  %-9s %s before=%s\n" % (cid, fn, b[:60]))
         sys.exit(2)
 
     write(os.path.join(oebps, "notes.xhtml"),
