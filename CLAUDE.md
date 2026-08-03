@@ -197,8 +197,14 @@ Three kinds earn a note:
 3. **Texture lost in translation** — idioms with their literal image, classical
    allusions, register shifts, names whose meaning matters.
 
-Density: about 3 notes per chapter-equivalent is a fair calibration; do not pad,
-do not starve. Recurring subjects get their note at FIRST appearance in the book.
+Density (commissioner-set, 2026-08-03): the reader is a Westerner with NO
+background in Chinese history, family structure, or custom. Anything such a
+reader would miss earns a note: material culture (wedding red, sedan chairs,
+longevity locks), social structure (the wife/concubine hierarchy, forms of
+address), customs and belief, institutions and money. Expect roughly 8 to 15
+notes per chapter, coverage-driven, not a quota; do not pad with what the
+context already makes plain. Recurring subjects get their note at FIRST
+appearance in the book.
 Numbering is continuous across the book and assigned by the builder from note
 order; you just append to the unit's list.
 

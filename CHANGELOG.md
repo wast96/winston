@@ -26,6 +26,13 @@ Commissioner feedback: the book reads rough. Two causes found and addressed.
   cards as bare body copy. Prologue (ch00) recast wholesale; ch01 smoothed at 9
   spots; scene cards now italic scene-setting lines. Content unchanged; anchors
   kept in step; all checks green.
+- Footnote policy raised (commissioner): the reader is a Westerner with no
+  background in Chinese custom; the old ~3-notes-per-chapter calibration
+  under-annotated. CLAUDE.md density rule rewritten (expect 8-15 per chapter,
+  coverage-driven); REGISTER_PASS.md gains "The annotation gap" workstream and
+  NOTE-ADD edit-list blocks; R01 backfills ch00/ch01. Two model notes seeded in
+  ch01: wedding red, and the First/Second/Third/Fourth Madam hierarchy (now 119
+  notes; qa green).
 - REGISTER_PASS.md written: the full instruction set for revising ch02-ch35
   (taxonomy, triage, ANALYZE/EXECUTE two-phase workflow, constraints, batch
   plan R01-R12). HANDOFF.md now carries the R01 kickoff.

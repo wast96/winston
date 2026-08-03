@@ -28,7 +28,12 @@ The commissioner's finding, confirmed by inspection: the translation is
 faithful but at many points keeps too much Chinese. Idioms are rendered
 image-by-image (calques), the source's cinematic scene cards sit as broken
 body copy, and some sentences carry transferred Chinese syntax that reads as
-translationese. The fix is a STYLE-ONLY editing pass.
+translationese. Separately, the commissioner reports feeling LOST as a
+Western reader: the original ~3-notes-per-chapter calibration under-annotated
+the book's cultural texture (what wedding red means, what "First Madam" and
+"Third Madam" are, and so on). The pass therefore has TWO workstreams, run
+together batch by batch: a style-only prose revision, and a footnote
+densification (see "The annotation gap" below).
 
 This pass is NOT a retranslation. Content is frozen: every clause of the
 source survives, nothing is added, all names and terms keep their
@@ -102,6 +107,51 @@ dashes in prose. Introducing a straight quote is a build-stopping regression
 (the guard command below catches it). Multi-paragraph quotations keep the
 convention: each continuing paragraph reopens `“`, only the final one closes.
 
+## The annotation gap — footnote densification (runs with every batch)
+
+The reader to write for is a Westerner with NO background in Chinese history,
+family structure, or custom. The old calibration (about 3 notes per chapter)
+assumed context would carry such a reader; the commissioner reports it does
+not. New policy (now also in CLAUDE.md): anything that reader would miss
+earns a note at its FIRST occurrence in the book. Expect roughly 8 to 15
+notes per chapter after densification; coverage-driven, not a quota.
+
+What to cover (with examples of the kind already reported missing):
+
+- **Material culture**: why the wedding house is decked in red (and that
+  white, not black, is the mourning color); bridal sedan chairs; gold
+  longevity locks on children; moon gates; the qipao; kang beds; spirit
+  tablets; paper money burned for the dead.
+- **Social structure**: the wife/concubine hierarchy behind "First Madam,"
+  "Second Madam," "Third Madam," "Fourth Madam" (order-of-entry ranking, the
+  legal status of concubines, whose children count as whose, what "Old
+  Madam" is); forms of address (Master/Young Master, Amah, the -er and A-
+  diminutives); study-companions; wet-nurses; match-making and dowries.
+- **Customs and belief**: mourning rules (the three years, plain lodging,
+  abstinence), filial piety, birth-sign clashes, ghost stand-ins (替身), the
+  "cold palace," ancestral graves and grave-keeping, taboo on children born
+  in mourning.
+- **Institutions and money**: silver dollars and fabi, the concession system
+  and extraterritorial Shanghai, compradors, the police/garrison structure,
+  schools of the era.
+- **History**: any event, figure, or institution the text leans on, even when
+  the narration half-explains it. Verify against real scholarship and say
+  corroborated / uncorroborated / contradicted (CLAUDE.md rule 5; never cite
+  AI-generated references).
+
+Rules of craft (unchanged from CLAUDE.md): note at FIRST occurrence only, so
+CHECK `notes.json` for earlier coverage before adding; the anchor must be a
+verbatim substring of the (post-edit) English prose; note bodies are XHTML
+with `<i>` and NUMERIC character references only; keep each note tight, two
+to five sentences; do not pad with what the scene already makes plain, and do
+not duplicate the glossary's job of fixing renderings (a note explains, the
+glossary attests).
+
+Backfill: ch00 and ch01 had their prose revised before this policy existed.
+R01 also densifies the notes of ch00 and ch01 (the commissioner's named
+examples, wedding red and the Madams, are seeded there already; audit both
+chapters for the rest).
+
 ## Triage discipline — do not churn
 
 Per paragraph, exactly one verdict:
@@ -167,8 +217,23 @@ cannot survive verbatim, add immediately after that block:
 NOTE-ANCHOR: OLD: <current anchor> NEW: <new anchor, verbatim substring of NEW>
 ```
 
+New footnotes (the densification workstream) are emitted as NOTE-ADD blocks,
+placed in paragraph order among the edit blocks:
+
+```
+NOTE-ADD p<NNN>
+ANCHOR: <verbatim substring of the paragraph's final (post-edit) English>
+NOTE: <XHTML body: <i> allowed, NUMERIC character references only, two to
+      five sentences, scholarship verified>
+WHY: <one line: what a Western reader would otherwise miss>
+```
+
+Before writing a NOTE-ADD, check `notes.json` across ALL units for prior
+coverage of the subject; recurring subjects are noted once, at first
+occurrence in the book.
+
 End the file with a summary line:
-`SUMMARY: <n> paragraphs, <n> leave, <n> touch, <n> recast`.
+`SUMMARY: <n> paragraphs, <n> leave, <n> touch, <n> recast, <n> notes added`.
 
 Analysis quality bar: every OLD must be copied exactly (not retyped); every
 NEW must be checked against the source line for meaning drift before it is
@@ -186,7 +251,10 @@ For each chapter in the batch, in order:
 2. Apply edits to `out/<id>_bilingual.md` programmatically with exact-match
    replacement asserting count == 1 per OLD (write via Python, not shell
    heredoc, per the CJK-mangling trap). Apply NOTE-ANCHOR items to
-   `notes.json` in the same operation.
+   `notes.json` in the same operation, and append each NOTE-ADD to the unit's
+   list in `notes.json`, verifying the anchor is a verbatim substring of the
+   post-edit reading text before committing (the builder refuses otherwise;
+   verify first, do not discover at build time).
 3. Regenerate and verify the chapter:
    ```
    python3 scripts/split_bilingual.py out/<id>_bilingual.md <id> "<zh_title from book.json>"
@@ -231,11 +299,15 @@ separate sessions (in which case ANALYZE commits its edit lists and hands off).
 | R06 | ch16 ch17 | R12 | ch33 ch34 ch35 |
 
 Kickoff labels follow the house convention: first line `Hair Trigger R<nn>`.
+R01 additionally backfills the footnote densification of ch00 and ch01.
 
 ## Definition of done (whole pass)
 
 - All 34 chapters triaged with committed edit lists in `edits/`.
 - All accepted edits applied; skips documented in `PROGRESS.md`.
+- Footnote coverage at the new policy across all 36 units (including the
+  ch00/ch01 backfill): a Western reader is never left without a note at the
+  first occurrence of an opaque cultural, social, or historical item.
 - Book-wide after R12: parity OK and 0 unresolved numerals on all 36 units,
   `qa_epub` PASS, typography guard clean on all 36 reading files, and a final
   whole-book read-through of the EPUB's first and last pages of every chapter

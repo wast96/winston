@@ -12,21 +12,31 @@ the English, per the commissioner's readability feedback. ch00 and ch01 are
 already revised and are the exemplar; study `git show 895d19c` before
 starting.
 
-Do batch R01 = ch02, ch03, ch04, end to end: ANALYZE each chapter against the
+The pass has TWO workstreams, run together: (1) the style revision, and
+(2) footnote densification to the new policy (REGISTER_PASS.md, "The
+annotation gap"): the reader is a Westerner with no background in Chinese
+history, family structure, or custom; anything such a reader would miss earns
+a note at first occurrence, roughly 8 to 15 per chapter.
+
+Do batch R01 = ch02, ch03, ch04, end to end, PLUS the note-densification
+backfill of ch00 and ch01 (their prose is done; two notes, wedding red and
+the Madams hierarchy, are seeded as models). ANALYZE each chapter against the
 source in out/<id>_bilingual.md and commit the edit lists to
-edits/<id>_edits.md in the format REGISTER_PASS.md specifies, then EXECUTE
-them exactly (exact-match replacement, count == 1, via Python). Style only:
-never touch a source line, never merge or split paragraphs, nothing invented,
-nothing dropped, names per glossary.json, note anchors kept in step with
-notes.json. After editing: regenerate with split_bilingual.py, run
-check_structure --pairs and check_numbers --noise per chapter, run the
-straight-quote typography guard, rebuild "out/On a Hair Trigger.epub", run
-qa_epub.py until green. Spot-audit 10% of edited paragraphs against the
-source for meaning drift. Record everything in PROGRESS.md, append a dated
-CHANGELOG.md entry, rewrite HANDOFF.md's kickoff for R02 (ch05 to ch07),
-commit and push to claude/on-a-hair-trigger (the ONLY branch). Do not pause
-for approval mid-batch. Deliver the rebuilt EPUB in chat, and end the reply
-with the R02 kickoff verbatim in a fenced block.
+edits/<id>_edits.md in the format REGISTER_PASS.md specifies (TOUCH/RECAST
+blocks, NOTE-ANCHOR items, NOTE-ADD blocks), then EXECUTE them exactly
+(exact-match replacement, count == 1, via Python). Style only: never touch a
+source line, never merge or split paragraphs, nothing invented, nothing
+dropped, names per glossary.json, note anchors kept in step with notes.json,
+new-note anchors verified as verbatim substrings BEFORE building. After
+editing: regenerate with split_bilingual.py, run check_structure --pairs and
+check_numbers --noise per chapter, run the straight-quote typography guard,
+rebuild "out/On a Hair Trigger.epub", run qa_epub.py until green. Spot-audit
+10% of edited paragraphs against the source for meaning drift. Record
+everything in PROGRESS.md, append a dated CHANGELOG.md entry, rewrite
+HANDOFF.md's kickoff for R02 (ch05 to ch07), commit and push to
+claude/on-a-hair-trigger (the ONLY branch). Do not pause for approval
+mid-batch. Deliver the rebuilt EPUB in chat, and end the reply with the R02
+kickoff verbatim in a fenced block.
 ```
 
 ## State of the project
