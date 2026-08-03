@@ -1743,3 +1743,105 @@ Changming Ward, the Wild Goose Pagoda; the lantern-floats.
 - Source form 春名门 (for the standard 春明门, the Chunming Gate): same reading,
   rendered "the Chunming Gate," not flagged as an error since the pinyin is
   identical; noted in the glossary.
+
+## B14 = ch14 (第十四章 子初 / "The Hour of the Rat, First Half, 11 p.m.")
+
+Scope: the whole chapter, 17,484 source characters, 324 paragraphs. The chapter
+opens with a flash-forward vignette (source lines 2-3, Taizhen catching Tanqi's
+hands in delight on the Qinzheng Wuben Tower) BEFORE the dateline; the identical
+sentence recurs at its true moment (source line 126, Taizhen greeting Tanqi at the
+banquet) and was translated identically in both places, per the ch04-ch13
+precedent. Three strands: (1) Yuan Zai, back at the Jingzhao Prefecture, spots the
+disguised Yisi and Zhang Xiaojing leaving and pays out the line to trap them;
+Zhang and Yisi visit the Japanese master craftsman Chao Fen in Zhiye Ward, who
+reads the bamboo offcuts and reveals the Pifu's plot — the Taishang Xuanyuan Grand
+Lantern-Tower, packed with rock-oil "qilin-arms," to become one vast fierce-fire
+thunder under the emperor and court at the hour of the Ox, second half; the
+coerced lantern-master Mao Shun and Long Bo's disguised craftsmen bluff past the
+Longwu Army cordon. (2) On the tower, Tanqi begs the Daoist Taizhen (Yang Yuhuan)
+to have the Sage ask one question about the Que-le Huo-duo, forcing Li Heng and Li
+Linfu to join hands; Zhang's citywide warrant is held off. (3) Yuan Zai's Lüben
+Guards trap Zhang at Chao Fen's, Yisi is arrow-shot and crippled; Zhang goes
+berserk (the "sixth Yama — Mad"), slaughters the guards, and Yuan Zai, reading the
+three-feather dispatch, lets him go. Zhang commandeers the singer Xu Hezi's
+phoenix-tail lantern-float to cross the jammed city, then enters the lantern-tower
+by Chao Fen's secret water-channel under the Longshou Canal — and comes face to
+face with Long Bo at last.
+
+Checks run and results:
+- check_structure --pairs data/zh/ch14.txt out/ch14_reading.md: parity EQUAL,
+  324 | 324, OK.
+- check_numbers out/ch14_bilingual.md --noise noise.txt: 0 unresolved (324 pairs).
+  Three flags cleared: 千百人 ("hundreds and thousands," cn_to_int misreads 千百 as
+  1100 — non-quantity idiom, noised) and 万变不离其宗 (万变 "myriad changes," idiom,
+  noised) added to noise.txt with 七杀 (the Seven Killings star, non-quantity, added
+  for principle though English "Seven" happened to carry it). One flag was a REAL
+  quantity — 数以百计的灯俑 — and was fixed in the ENGLISH ("a hundred and more
+  lantern-figures") rather than noised, per the standing rule. No real number
+  dropped.
+- Verbatim-quote check (mechanical): the 324 bilingual '>' source lines were
+  regenerated from data/src/30_text00029.txt under the same merge rules and
+  compared — 324/324 exact, 0 diffs. Source quoted verbatim and in full.
+- qa_epub: PASS, 38 files, 32 documents, 52 note references / 52 bodies / 52
+  backlinks, all links resolve. 14 of 26 chapters translated.
+- Blind double-translation (literary sample, source lines 185-187, Zhang's
+  killing-frenzy — the "met a god, killed the god" passage, the cold-as-rock
+  puppet, the triple Asura-vision overlay): a fresh independent rendering matched
+  mine in meaning and every image; the only differences were glossary-form
+  variants (the blind pass wrote "Brave Guard"/"Bear-Fire Gang" where the project's
+  decided forms are "the Lüben Guards"/"the Bear Fire Gang"). No divergence of
+  sense; source not ambiguous. 0 errors.
+- Round-trip back-translation (number-dense sample, the lantern-tower spec + the
+  timing, source lines 79/90/92): a fresh back-translation into Chinese preserved
+  every quantity — 一百五十尺 (150 chi), 二十四间 (24 bays), 数里, 三十步 (30
+  paces), 丑正 (hour of the Ox, 2nd half), 子初 (hour of the Rat, 1st half),
+  一个时辰, 一个半时辰, 万国 — with no omission or drift; only expected lexical
+  paraphrase (放灯/元宵 for 拔灯/上元). 0 errors.
+- Sample error rate: the two samples (~710 source chars) are ~4% of the chapter;
+  0 errors observed → 0% observed error rate.
+
+Notes (3, all "reference a non-specialist won't catch," at first appearance):
+Chao Heng (= Abe no Nakamaro, the Japanese envoy-official, Li Bai's elegized
+friend), the Tianshu (Wu Zetian's bronze Axis of Heaven before the Duanmen Gate),
+and Xu Hezi (the historical star singer Yongxin of Xuanzong's court). All checked
+against scholarship and marked historical/corroborated. Recurring subjects already
+noted in ch01-ch13 were skipped (Prince Yong, the Right Shad, the Pifu, Yuan Zai,
+the Rainbow-Feather Dance, the tongtian crown, Taizhen/Yang Yuhuan, etc.).
+
+Glossary grown (all new referents, one decided rendering each): people Chao Fen
+(晁分), Chao Heng (晁衡), Mao Shun (毛顺), Mao Poluo (毛婆罗), Xu Hezi (许合子),
+Yang Yuhuan (杨玉环, = Taizhen), Prince Shou (寿王), Li Mao (李瑁), Empress Dowager
+Dou (窦太后); org the Longwu Army (龙武军); places Daozheng Ward (道政坊), Izumo
+(出云), Japan (日本), the Duanmen Gate (端门), the Jinming/Chuyang/Tongyang gates;
+terms the Taishang Xuanyuan Grand Lantern-Tower (太上玄元大灯楼), the qilin-arm
+(麒麟臂), the Dance of the Prince of Qin Breaking the Line (秦王破阵舞), the
+phoenix-tail cart (凤尾车), the spring-ewer cart (春壶车), the Tianshu (天枢),
+a Japanese embassy to the Tang (遣唐使), the Seven Killings (七杀), the Director of
+Lanterns (尚灯监), Vice-Minister of the Court of the Imperial Regalia (卫尉少卿),
+Aide in the Directorate for Imperial Manufactories (尚方丞), bamboo tally (竹籍).
+Reused decided forms verbatim (Zhang Xiaojing, Tanqi, Yisi, Long Bo, Yuan Zai, the
+Lüben Guards, the Bear Fire Gang, the Wolf Guards, the Pifu, the Xingqing Palace,
+the Qinzheng Wuben Tower, the Longshou Canal, Zhiye Ward, Xingqing Ward, Recorder
+Zhang = Zhang Luo, the Persian/Nestorian temples, rock-oil, fierce-fire thunder,
+the Que-le Huo-duo, cave-running, the Rainbow-Feather Dance, the tongtian crown,
+etc.).
+
+Notable renderings/decisions:
+- The opening vignette (source lines 2-3, a flash-forward) and the dateline
+  (source lines 4-5) were each merged from their two extractor-split halves; the
+  dateline reads "the fifteenth day of the first month" — the source advances from
+  ch13's 十四日 to 元月十五日 at 子初, since the traditional day rolls at the Rat
+  hour. Rendered faithfully.
+- The source's per-chapter time-gloss (source line 327) is rendered as the
+  source's own italic note, prefixed "*[The source appends a note on the hour to
+  each chapter:]*"; correct for this hour (子 = the Rat, 11 p.m.-1 a.m., glossed
+  "23时至01时"). No authorial slip in this note.
+- Scene shifts (Yuan Zai at the prefecture / Chao Fen's yard / the banquet-tower /
+  the massacre / the flight by lantern-float / the water-channel into the tower)
+  are divided in the source by decorative rules (Image00005.jpg); following house
+  style each is a plain paragraph break, no separator glyph. No content
+  illustration in the chapter, so figures.json is unchanged.
+- 都尉 = "Commander" (Commander Zhang), 主事 = "recorder" (Recorder Zhang = Zhang
+  Luo), 伍长 = "guard-corporal," 行头 = "foreman (of the craftsmen's guild)," 婆子
+  = "serving-woman," 痴缠货 = "lovesick pest" — office/common-noun renderings kept
+  consistent within the chapter.

@@ -535,6 +535,60 @@
       "pinyin": "Tàizhēn",
       "status": "attested",
       "note": "The Daoist name of Yang Yuhuan (719&#8211;756), later Yang Guifei. Pinyin follows the standard scholarly form."
+    },
+    "晁分": {
+      "en": "Chao Fen",
+      "pinyin": "Cháo Fēn",
+      "status": "decided",
+      "note": "A master craftsman of Chang'an, a native of Izumo in Japan and servant of Chao Heng; he built the sand-table of Chang'an for the Jing'an Bureau, reads the bamboo offcuts, and gives Zhang Xiaojing the knife, crossbow, and the secret way into the lantern-tower. Pinyin of the Chinese surname 晁."
+    },
+    "晁衡": {
+      "en": "Chao Heng",
+      "pinyin": "Cháo Héng",
+      "status": "attested",
+      "note": "Chao Heng, the Chinese name of Abe no Nakamaro (698&#8211;770), the Japanese student-envoy who became a high Tang official; here Chao Fen's master-house, styled Vice-Minister of the Court of the Imperial Regalia. Historical; footnoted at first appearance."
+    },
+    "毛顺": {
+      "en": "Mao Shun",
+      "pinyin": "Máo Shùn",
+      "status": "attested",
+      "note": "Mao Shun, the master lantern-maker, styled Director of Lanterns, designer of the Taishang Xuanyuan Grand Lantern-Tower; coerced by Long Bo through a threat to his family. A craftsman of this name is recorded in Tang sources as having built a great lantern-tower for the court. Pinyin."
+    },
+    "毛婆罗": {
+      "en": "Mao Poluo",
+      "pinyin": "Máo Póluó",
+      "status": "decided",
+      "note": "Mao Shun's father, a painter and carver who served as Aide in the Directorate for Imperial Manufactories under the Wu Zhou and cast the Tianshu column before the Duanmen Gate. Pinyin (the name 婆罗 reads as a foreign one)."
+    },
+    "许合子": {
+      "en": "Xu Hezi",
+      "pinyin": "Xǔ Hézǐ",
+      "status": "attested",
+      "note": "Xu Hezi (also written 许和子), byname Yongxin, the most famous woman singer of Xuanzong's court; here a lantern-float star whose cart Zhang Xiaojing commandeers. Historical; footnoted at first appearance. Pinyin."
+    },
+    "杨玉环": {
+      "en": "Yang Yuhuan",
+      "pinyin": "Yáng Yùhuán",
+      "status": "attested",
+      "note": "Yang Yuhuan (719&#8211;756), later Yang Guifei; the same person as Taizhen (太真), the Daoist name under which she waits at Xuanzong's side. Originally the consort of Prince Shou. Pinyin per standard scholarship."
+    },
+    "寿王": {
+      "en": "Prince Shou",
+      "pinyin": "Shòu Wáng",
+      "status": "attested",
+      "note": "The princely title (Prince of Shou) held by Li Mao, a son of Emperor Xuanzong and Yang Yuhuan's first husband. Rendered 'Prince Shou.'"
+    },
+    "李瑁": {
+      "en": "Li Mao",
+      "pinyin": "Lǐ Mào",
+      "status": "attested",
+      "note": "Li Mao (d. 775), Prince Shou, a son of Emperor Xuanzong; Yang Yuhuan was taken from him into the palace. Historical; pinyin."
+    },
+    "窦太后": {
+      "en": "Empress Dowager Dou",
+      "pinyin": "Dòu Tàihòu",
+      "status": "attested",
+      "note": "The Zhaocheng Empress Dowager, n&#233;e Dou, Xuanzong's mother; praying for her blessing was the pretext under which Yang Yuhuan was made a Daoist nun. Historical."
     }
   },
   "organizations": {
@@ -681,6 +735,12 @@
       "pinyin": "Yòuwēi Wèi",
       "status": "attested",
       "note": "One of the Tang Sixteen Guards of the Southern Command; the guard in which the refugee Persian prince Peroz was given an honorary generalship. Rendering per C. O. Hucker."
+    },
+    "龙武军": {
+      "en": "the Longwu Army",
+      "pinyin": "Lóngwǔ Jūn",
+      "status": "attested",
+      "note": "The Militant Dragon Army, one of the Tang northern (palace) armies most trusted by the emperor; here charged with the outer cordon of the Xingqing Palace. Rendered 'the Longwu Army' (pinyin), as with the Jinwu Guard."
     }
   },
   "places": {
@@ -1553,6 +1613,48 @@
       "pinyin": "Chūnmíng Mén",
       "status": "attested",
       "note": "A gate in the east wall of Chang'an, near the Xingqing Palace; the standard form is 春明门, and the source's 春名门 has the same reading. Standard."
+    },
+    "道政坊": {
+      "en": "Daozheng Ward",
+      "pinyin": "Dàozhèng Fāng",
+      "status": "decided",
+      "note": "A ward on the south side of the Xingqing Palace's south plaza; Zhang Xiaojing enters it to reach the underground water-channel beneath the Longshou Canal."
+    },
+    "出云": {
+      "en": "Izumo",
+      "pinyin": "Chūyún",
+      "status": "attested",
+      "note": "Izumo, an old province on the Japan Sea coast of Japan; Chao Fen's birthplace. Standard form."
+    },
+    "日本": {
+      "en": "Japan",
+      "pinyin": "Rìběn",
+      "status": "attested",
+      "note": "Japan. Standard English form."
+    },
+    "端门": {
+      "en": "the Duanmen Gate",
+      "pinyin": "Duān Mén",
+      "status": "attested",
+      "note": "The southern gate of the imperial city of Luoyang, before which Wu Zetian's Tianshu column stood. Standard identification."
+    },
+    "金明门": {
+      "en": "the Jinming Gate",
+      "pinyin": "Jīnmíng Mén",
+      "status": "decided",
+      "note": "One of the gates below the Qinzheng Wuben Tower, held by the Longwu Army on the festival night."
+    },
+    "初阳门": {
+      "en": "the Chuyang Gate",
+      "pinyin": "Chūyáng Mén",
+      "status": "decided",
+      "note": "One of the gates below the Qinzheng Wuben Tower, held by the Longwu Army on the festival night."
+    },
+    "通阳门": {
+      "en": "the Tongyang Gate",
+      "pinyin": "Tōngyáng Mén",
+      "status": "decided",
+      "note": "One of the gates below the Qinzheng Wuben Tower, held by the Longwu Army on the festival night."
     }
   },
   "terms": {
@@ -2419,6 +2521,78 @@
       "pinyin": "fàngshēng chí",
       "status": "decided",
       "note": "A temple pond where captive creatures are freed as an act of Buddhist merit. Rendered &#8216;mercy-release pond&#8217; (as in Chapter Seven)."
+    },
+    "太上玄元大灯楼": {
+      "en": "the Taishang Xuanyuan Grand Lantern-Tower",
+      "pinyin": "Tàishàng Xuányuán Dà Dēnglóu",
+      "status": "decided",
+      "note": "The giant festival lantern-tower designed by Mao Shun before the Xingqing Palace, named for the honorific 太上玄元 conferred on Laozi; the Pifu turn it into a vast fierce-fire thunder. 太上玄元 kept as pinyin (a title), the rest rendered."
+    },
+    "麒麟臂": {
+      "en": "the qilin-arm",
+      "pinyin": "qílín bì",
+      "status": "decided",
+      "note": "A precision jointing-piece of hollow bamboo, saw-toothed at both ends so two interlock and turn, used to make the lantern-tower's figures move; the Pifu pack them with rock-oil as bomblets. Named for the 麒麟 (qilin); rendered 'qilin-arm.'"
+    },
+    "秦王破阵舞": {
+      "en": "the Dance of the Prince of Qin Breaking the Line",
+      "pinyin": "Qín Wáng Pò Zhèn Wǔ",
+      "status": "attested",
+      "note": "A celebrated Tang martial dance-and-music piece (秦王破阵乐) glorifying the campaigns of the future Emperor Taizong while still Prince of Qin. Historical; rendered by sense."
+    },
+    "凤尾车": {
+      "en": "the phoenix-tail cart",
+      "pinyin": "fèngwěi chē",
+      "status": "decided",
+      "note": "A lantern-float cart fanned with thousands of colored feathers into a phoenix's tail; Xu Hezi's cart, which Zhang Xiaojing commandeers. Rendered literally."
+    },
+    "春壶车": {
+      "en": "the spring-ewer cart",
+      "pinyin": "chūnhú chē",
+      "status": "decided",
+      "note": "A lantern-float cart of Western-Regions style that challenges the phoenix-tail cart. Rendered literally."
+    },
+    "天枢": {
+      "en": "the Tianshu",
+      "pinyin": "Tiānshū",
+      "status": "attested",
+      "note": "The 'Axis of Heaven,' Wu Zetian's great bronze commemorative column before the Duanmen Gate of Luoyang, cast by Mao Poluo. Historical; footnoted at first appearance. Kept as pinyin."
+    },
+    "遣唐使": {
+      "en": "a Japanese embassy to the Tang",
+      "pinyin": "qiǎn-Táng shǐ",
+      "status": "attested",
+      "note": "The official embassies Japan sent to Tang China (the kentōshi); Chao Fen and Chao Heng came to Chang'an with one. Rendered by sense."
+    },
+    "七杀": {
+      "en": "the Seven Killings",
+      "pinyin": "Qī Shā",
+      "status": "decided",
+      "note": "The malefic 'Seven Killings' star of Chinese astrology, invoked for a berserk, death-dealing frenzy (七杀附体, 'possessed by the Seven Killings'). Rendered literally."
+    },
+    "尚灯监": {
+      "en": "the Director of Lanterns",
+      "pinyin": "Shàngdēng Jiān",
+      "status": "decided",
+      "note": "The office (and its holder, Mao Shun) charged with the festival lantern-works; addressed 毛监, 'Director Mao.' Rendered 'Director of Lanterns.'"
+    },
+    "卫尉少卿": {
+      "en": "Vice-Minister of the Court of the Imperial Regalia",
+      "pinyin": "Wèiwèi Shàoqīng",
+      "status": "attested",
+      "note": "A Tang office (少卿 of the 卫尉寺); Chao Heng's post. Rendering per C. O. Hucker, <i>A Dictionary of Official Titles in Imperial China</i>."
+    },
+    "尚方丞": {
+      "en": "Aide in the Directorate for Imperial Manufactories",
+      "pinyin": "Shàngfāng Chéng",
+      "status": "attested",
+      "note": "A Tang office (丞 of the 尚方); Mao Poluo's post under the Wu Zhou. Rendering per C. O. Hucker."
+    },
+    "竹籍": {
+      "en": "bamboo tally",
+      "pinyin": "zhújí",
+      "status": "decided",
+      "note": "The craftsman's identity permit written on bamboo strips (name, appearance, native place, master-lineage, ward and shop, authorizations, with an officer's countersignature), required to approach the lantern-tower; cf. 匠牒, 'craftsman's warrant.'"
     }
   }
 }

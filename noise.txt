@@ -257,3 +257,16 @@
 # ch13: 声音八成是从这里传来 = "the sound had most likely come from there"; 八成 = "most
 # likely / eight parts in ten" (idiom of probability, cf. 十成 already listed), not the count 8.
 八成
+# ch14: 千百人 = "hundreds and thousands of people" (idiom for a great many);
+# cn_to_int misreads 千百 as the compound 1100. Not a quantity. English renders
+# "a thousand and more people." Strip 千百.
+千百
+# ch14: 万变不离其宗 = "for all its changes it never departs from the one
+# principle" (idiom); the 万 ("myriad") in 万变 is not the quantity 10000. English
+# renders the sense, no digit.
+万变
+# ch14: 七杀附体 = "as though possessed by the Seven Killings" (the malefic star
+# 七杀 of Chinese astrology); the 七 is part of the star-name, not the quantity 7
+# (English "the Seven Killings" happens to carry it, so the check passed either
+# way; noised here to keep it principled, cf. 武三思/贾十七 already listed).
+七杀
