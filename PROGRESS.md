@@ -2140,3 +2140,145 @@ Company, the lantern-floats, buliang chief, Commander (都尉), the Right Xiao G
 - 临行通道 (line 76, "龙武军有自己的临行通道") rendered "passages of its own for coming
   and going"; 临行 reads as a variant/slip for 临时 or "for setting out," the sense
   being the guard's own service routes. Rendered for intent, not flagged as a note.
+
+## B18 = ch18 (第十八章 寅初 / "The Hour of the Tiger, First Half, 3 a.m.")
+
+- Translated ch18 from data/src/39_text00037.txt (15,604 source chars quoted, book.json
+  count 13,861) into out/ch18_bilingual.md (QC only, never shipped), then generated
+  out/ch18_reading.md and data/zh/ch18.txt with split_bilingual.py. 219 body paragraph
+  pairs + the source's time-gloss = 220 pairs.
+- Opening: a two-line flash-forward vignette (the carriage-horses turning their ears
+  and snorting; the guards turning their necks north), lines 2–3, each its own
+  bilingual pair, translated identically to its in-place recurrence at source line 38
+  (where it closes a fuller paragraph), per the recurring-vignette rule. The dateline
+  "天宝三载元月十五日，寅初。" was extractor-split across two lines (…寅初 / 。) and merged.
+  The content-file marker line 寅初 (line 1) is absorbed into the H2 title. A separate
+  scene-setting location line ("长安，万年县，安邑常乐路口。") follows the dateline as its own
+  paragraph. The source's per-chapter time-gloss (line 222) is rendered as the source's
+  own italic note, prefixed "*[The source appends a note on the hour to each chapter:]*".
+  This chapter's hour-gloss is CORRECT (凌晨3点…寅…黎明/早晨/日旦…夜与日的交替之际…03时至
+  05时): the Tiger hour, its first half = 3 a.m.; no time-gloss error like ch06/07/08/10/11.
+- Scene shifts (Li Bi trailing the heir apparent's carriage south to the Shengping-Ward
+  physic garden → the twenty-four lantern-chambers firing and Yuchang's death by the
+  charge under his own stand → Zhang Xiaojing bleeding the Tianshu of its rock-oil and
+  climbing to the tower's summit → Yuan Zai fleeing to Chen Xuanli at the Jinming Gate →
+  Zhang Xiaojing's "no regret" and the tower's low rumble → Xiao Gui's water-borne
+  party surfacing in the Longchi and the tower's upper half toppling onto the Qinzheng
+  Wuben Tower → Li Bi confronting the heir apparent, who came only to save him) are
+  rendered as plain paragraph breaks with no separator glyph (house style; the source's
+  Image00005.jpg rule is not a figure), matching ch01–ch17. Only one extractor-split
+  paragraph in the chapter (the dateline); a full scan confirmed lines 2–221 are
+  otherwise terminally punctuated (line 4 the only non-terminal body line; line 223 is
+  a stray U+200B, dropped).
+
+### Checks run
+- check_numbers.py out/ch18_bilingual.md --noise noise.txt → PASS (220 pairs, 0
+  unresolved). Seven new noise entries (all non-quantity numerals; recorded in
+  noise.txt with why): 接二连三 ("one after another," 二/三 idiomatic), 两不相欠
+  ("quits," 两 idiomatic), 三光 ("the three luminaries," fixed term), 百十余
+  ("a hundred-odd," approximate compound whose cn_to_int reads 110; placed in the
+  --noise file so it strips BEFORE the built-ins can eat the 十), 两声 ("a couple of
+  clicks," the idiomatic "a couple of" 两), 零件 ("parts," the 零 = "odd/spare," not
+  the number 0), 六神无主 ("out of one's wits," 六 conventional). One REAL quantity was
+  carried in the English rather than noised: 拦腰撕扯成了两截 → "torn in two across the
+  middle" (keeps the 2). Other real quantities carried: 一百五十尺 → "more than 150 chi"
+  (the checker's English word-parser cannot build 150 from "a hundred and fifty," so
+  the value is carried as a digit); 七十多尺 → "better than seventy chi"; 二十四 →
+  "twenty-four" throughout; 十九年前 → "nineteen years ago"; 二十几 → "twenty-odd";
+  数百/数万 → "several hundred / tens of thousands" (both stripped by the built-in
+  数[百/万]); 三品以上/五品 → "the third grade and above / the fifth rank"; 七香车 →
+  "the seven-fragrance carriage"; 十王宅 → "the Ten Kings' Residence."
+- check_structure.py --pairs data/zh/ch18.txt out/ch18_reading.md → parity 220/220 OK.
+- Verbatim-quote check (check 1): the concatenation of every source blockquote in the
+  bilingual file equals the source content character-for-character (15,604 chars,
+  lines 2–222; asserted in scripts/gen_ch18_bilingual.py before writing). The bilingual
+  was built by pairing verbatim source lines (read from disk, never re-typed) with the
+  English, so no paragraph or sentence of the source is dropped.
+- Build → out/The Longest Day in Chang'an.epub (18 of 26 chapters translated, 64
+  notes). qa_epub.py → PASS (38 files, 32 documents, all links resolve; 64 refs / 64
+  bodies / 64 backlinks).
+
+### Blind double-translation (check 2)
+- Literary sample: the 'Martial Might' lantern-chamber bursting into a peony of fire
+  (source line 44, "数十个弹指之后…就把整个灯俑布景吞噬"). An independent blind rendering
+  matched ours in content and register (crimson flower-heart → tuft of stamens →
+  leaping fire-petals → a peony's blooming sped dozens of times → the whole tableau
+  swallowed). The one divergence was the chamber name 武威: the blind pass romanized it
+  as the place-name "Wuwei," ours renders it as the virtue-tableau 'Martial Might' —
+  chosen for series consistency with ch17's named chambers '仁'/Benevolence and
+  '明察'/Discernment (the 24 chambers are named for virtue-concepts illustrated by
+  moving tableaux, not for places). A genuine ambiguity, resolved in favor of the
+  virtue reading. 0 semantic errors.
+
+### Round-trip back-translation (check 3)
+- Number-dense sample: the tower's height and Zhang Xiaojing's nineteen-year echo
+  (source lines 138 + 140). A fresh-context back-translation into Chinese preserved
+  every numeral exactly (一百五十尺; 十九年前 / 十九年; and the sense of the beacon-fort
+  flagstaff and "no relief force"). 0 omissions.
+
+### Random-sample deep audit (check 8)
+- ~3–4% of the chapter given the full treatment (verbatim-quote check across the whole
+  chapter, plus the two sampled passages above). Observed error rate: 0 (one naming
+  ambiguity flagged and resolved, no content/omission errors).
+
+### Notes added (3; continuous total now 64; numbered by the builder in reading order)
+- "the Xuanwu Gate" — the Xuanwu Gate Incident of 626 (Li Shimin killing his brothers
+  and forcing Gaozu's abdication), the type-case of the Li house's "kin-slaying" strain
+  Li Bi fears here. First in-book appearance; corroborated from the Tang histories and
+  the Zizhi tongjian.
+- "the Tanglong and the Xiantian" — Xuanzong's own two coups (710 against Empress Wei,
+  713 against Princess Taiping), both turning on first seizing the palace guards, which
+  grounds Chen Xuanli's dread of moving the Longwu Army unbidden. First in-book
+  appearance (Empress Wei and Princess Taiping the persons both new; "Taiping" in ch03
+  was the WARD, not the princess); corroborated.
+- "Changle Ward" — a translation note: 长乐坊 (the heir apparent's ward, NE city) and
+  常乐坊 (SE city, passed en route) are different wards that fall together in pinyin as
+  "Changle"; Li Bi's alarm turns on the distinction. First point in the book where the
+  two collide (常乐坊 established earlier as "Changle Ward"; 长乐坊 new here).
+- Reused-and-not-re-noted subjects that recur here: the Que-le Huo-duo, the Tianshu,
+  the qilin-arm, fierce-fire thunder/oil, rock-oil, the Longchi (noted ch17), the
+  Rainbow-Feather Dance (noted), Chen Xuanli / An Lushan-era guard politics (Chen noted
+  ch16), Xinfeng wine (appeared ch15), the jie-drum (appeared ch06/ch10), the beacon-
+  fort last stand (noted ch15).
+
+### Glossary rows added (+25; one referent, one rendering)
+- people — 李隆基/Li Longji (Xuanzong's given name), 韦后/Empress Wei (distinct from 韦氏
+  the present Consort Wei), 太平公主/Princess Taiping. places — 长乐坊/Changle Ward
+  (long-乐, homophone-noted), 修行坊/Xiuxing Ward, 安国寺/the Anguo Temple, 十王宅/the Ten
+  Kings' Residence, 终南山/the Zhongnan Mountains (= 南山/the Southern Mountains), 通法寺/
+  the Tongfa Temple, 遮沟/the Screened Gully, 隆庆坊/Longqing Ward, 隆庆池/the Longqing
+  Pool, 玄武门/the Xuanwu Gate, plus backfilled rows for forms already used in prose:
+  沉香亭/the Chenxiang Pavilion, 平康坊/Pingkang Ward, 东宫/the Eastern Palace. terms —
+  七香车/the seven-fragrance carriage, 倒碑门/a toppled-stele gate, 药圃/the physic garden,
+  浑脱舞/the Hutuo dance, 唐隆政变/the Tanglong coup, 先天政变/the Xiantian coup, plus
+  backfilled 弹指/finger-snap, 狻猊/suanni, 旋臂/turning-arm, 灯楼/lantern-tower. Reused
+  decided forms verbatim: Zhang Xiaojing, Li Bi (Deputy Director Li) / Changyuan, Li
+  Heng / the heir apparent, Yuan Zai, Yuchang, Xiao Gui, Mao Shun, Chen Xuanli (General
+  Chen), Wen Wuji, Wen Ran, Xu Bin, Yao Runeng, Yisi, Tanqi, Chao Fen, the Right
+  Minister (李相 = Li Linfu), the Pifu, the Longwu Army, the Lüben Guards, the Jing'an
+  Bureau, the Türk Wolf Guards, the Taishang Xuanyuan Lantern-Tower, the Qinzheng Wuben
+  Tower, the Hua'e Xianghui Tower, the Xingqing Palace, the Longchi, the Dragon
+  Pavilion, the Leyou Plateau, Changming/Daozheng/Anyi/Jinggong/Xinchang/Shengdao/
+  Shengping wards, the Jinming Gate, the Tianshu, the qilin-arm, the turning-gear, the
+  crown-loft, the Hydraulic Hall, the Que-le Huo-duo, fierce-fire thunder/oil, rock-oil,
+  the four-windowed carriage, the Eighth Company, the Vermilion Bird, shichen,
+  finger-snap, chi, jin.
+- 武威 rendered inline as the tableau name 'Martial Might' (NOT the glossary's place
+  武威/Wuwei); a one-off virtue-chamber name like ch17's 'Benevolence'/'Discernment',
+  so no glossary row (see the double-translation note above).
+
+### Figures
+- None. The chapter has no content illustration in data/figs/ (only the source's
+  footnote-marker glyph Image00004.jpg and the scene-break rule Image00005.jpg, neither
+  a figure). figures.json unchanged.
+
+### Flagged for the read-through
+- Cliffhanger: the chapter ends on Li Bi wheeling his horse for "the Jing'an Bureau"
+  as the twin threats (the toppling tower on the Qinzheng Wuben Tower; Xiao Gui's
+  water-party inside the Longchi) are both live. Faithful to the source; no bridging
+  text invented.
+- 武威 lantern-chamber → 'Martial Might' (virtue-tableau reading, for series
+  consistency), not the place-name Wuwei. Noted here in case the read-through prefers
+  a different call across all named chambers.
+- 遮沟 rendered "the Screened Gully" (translating the residents' nickname, whose sense
+  the source itself glosses), not bare pinyin "Zhegou."

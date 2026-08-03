@@ -305,3 +305,32 @@
 # hesitating between two ends of its hole"); the 两 ("two") is idiomatic, not the
 # quantity 2. English renders "blew hot and cold."
 首鼠两端
+# ch18: 接二连三 = "one after another / in quick succession" (idiom); the 二/三
+# are idiomatic sequence, not the quantities 2/3. English renders "one upon
+# another."
+接二连三
+# ch18: 两不相欠 = "quits, neither owing the other" (idiom); the 两 ("both/the
+# two") is idiomatic, not the count 2 (cf. 首鼠两端 already listed). English
+# renders "quits, the one owing the other nothing."
+两不相欠
+# ch18: 三光 in 三光迭耀 = "the three luminaries (sun, moon, stars) shine each in
+# turn"; 三光 is a fixed term, not the count 3. English renders "sun, moon, and
+# stars shine each in turn."
+三光
+# ch18: 百十余步 = "a hundred-odd paces" (an approximate compound, 百十 + 余);
+# cn_to_int reads 百十 as 110, but the value is not meant literally (cf. 数百
+# handled by the built-in). MUST precede the built-in patterns that would eat
+# 十 out of it. English renders "no more than a hundred-odd paces apart."
+百十余
+# ch18: 两声 in 啧啧了两声 = "gave a couple of clicks of the tongue"; the 两 here
+# is the idiomatic "a couple of" (like 说两句), not the count 2 (cf. the 两-
+# classifier noise 两处/两界 noted before). English renders "a couple of clicks."
+两声
+# ch18: 零件 = "parts/components"; the 零 means "odd/spare pieces," not the
+# number 0. cn_to_int reads the bare 零 as 0. English renders "the crossbow
+# parts."
+零件
+# ch18: 六神无主 = "all at sea, out of one's wits" (idiom, lit. "the six spirits
+# without a master"); the 六 is conventional, not a count (cf. 五脏六腑 already
+# listed). English renders "lost all mastery of himself."
+六神无主

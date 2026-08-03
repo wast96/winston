@@ -643,6 +643,24 @@
       "pinyin": "Xiélì Kèhán",
       "status": "attested",
       "note": "Illig Qaghan (r. 620–630), last ruler of the Eastern Turkic Khaganate, captured in 630 by the Tang general Li Jing (Duke Li of Wei) in the Yin Mountains campaign; the tableau of the lantern-chamber. Pinyin follows the conventional scholarly rendering of the Chinese form."
+    },
+    "李隆基": {
+      "en": "Li Longji",
+      "pinyin": "Lǐ Lóngjī",
+      "status": "attested",
+      "note": "Personal name of Emperor Xuanzong (685–762), the reigning Son of Heaven of the novel. Pinyin follows the standard scholarly form."
+    },
+    "韦后": {
+      "en": "Empress Wei",
+      "pinyin": "Wéi Hòu",
+      "status": "attested",
+      "note": "Empress Wei (d. 710), consort of Emperor Zhongzong, who is said to have poisoned him and seized power; overthrown and killed in the Tanglong coup of 710. Distinct from 韦氏, the heir apparent's Consort Wei of the present reign."
+    },
+    "太平公主": {
+      "en": "Princess Taiping",
+      "pinyin": "Tàipíng Gōngzhǔ",
+      "status": "attested",
+      "note": "Princess Taiping (d. 713), daughter of Emperor Gaozong and Empress Wu; ally of Li Longji in the Tanglong coup, then destroyed by him in the Xiantian coup of 713."
     }
   },
   "organizations": {
@@ -1841,6 +1859,84 @@
       "pinyin": "Língguān Gé",
       "status": "decided",
       "note": "A level of the Mystic Abbey beneath the lantern-tower where Li Bi was held captive (ch16). Pinyin + “loft.”"
+    },
+    "长乐坊": {
+      "en": "Changle Ward",
+      "pinyin": "Chánglè Fāng",
+      "status": "decided",
+      "note": "A ward in the northeastern city near the Xingqing Palace, holding the Ten Kings' Residence where the heir apparent dwelt. Written 长乐; falls together in pinyin with the southeastern 常乐坊 (also 'Changle Ward'), a distinction footnoted at first appearance."
+    },
+    "修行坊": {
+      "en": "Xiuxing Ward",
+      "pinyin": "Xiūxíng Fāng",
+      "status": "decided",
+      "note": "A ward in the southeastern city, site of the Tongfa Temple and its pagoda."
+    },
+    "安国寺": {
+      "en": "the Anguo Temple",
+      "pinyin": "Ānguó Sì",
+      "status": "decided",
+      "note": "A great Chang'an monastery; the Ten Kings' Residence lay in the annexed park-city to its east."
+    },
+    "十王宅": {
+      "en": "the Ten Kings' Residence",
+      "pinyin": "Shíwáng Zhái",
+      "status": "attested",
+      "note": "The walled compound near the Daming Palace where Xuanzong housed his adult sons, the heir apparent among them, under close watch."
+    },
+    "终南山": {
+      "en": "the Zhongnan Mountains",
+      "pinyin": "Zhōngnán Shān",
+      "status": "attested",
+      "note": "The range south of Chang'an (the same range called 南山, the Southern Mountains, in verse); source of the fantastic garden-stones of the Longchi rockery."
+    },
+    "通法寺": {
+      "en": "the Tongfa Temple",
+      "pinyin": "Tōngfǎ Sì",
+      "status": "provisional",
+      "note": "A temple in Xiuxing Ward, its tall pagoda a landmark of the southern city."
+    },
+    "遮沟": {
+      "en": "the Screened Gully",
+      "pinyin": "Zhēgōu",
+      "status": "decided",
+      "note": "The Chang'an residents' nickname (遮沟, lit. 'screened gully') for the valley-road running between the eastern city wall and the high slope of the Leyou Plateau; the source glosses the name in the text."
+    },
+    "隆庆坊": {
+      "en": "Longqing Ward",
+      "pinyin": "Lóngqìng Fāng",
+      "status": "attested",
+      "note": "The former Wannian-County ward beside the well-fed marsh that became the Longchi; absorbed into the Xingqing Palace."
+    },
+    "隆庆池": {
+      "en": "the Longqing Pool",
+      "pinyin": "Lóngqìng Chí",
+      "status": "attested",
+      "note": "The marsh-pool of Longqing Ward, renamed the Longchi ('Dragon Pool') on Xuanzong's accession as a token of the dragon's rising."
+    },
+    "沉香亭": {
+      "en": "the Chenxiang Pavilion",
+      "pinyin": "Chénxiāng Tíng",
+      "status": "decided",
+      "note": "The 'Aloeswood Pavilion' on the bank of the Longchi within the Xingqing Palace gardens."
+    },
+    "平康坊": {
+      "en": "Pingkang Ward",
+      "pinyin": "Píngkāng Fāng",
+      "status": "decided",
+      "note": "A ward of the eastern capital; its Pingkang Quarter (平康里) was the famed courtesans' district."
+    },
+    "东宫": {
+      "en": "the Eastern Palace",
+      "pinyin": "Dōnggōng",
+      "status": "decided",
+      "note": "The residence and establishment of the heir apparent; by metonymy the heir apparent himself."
+    },
+    "玄武门": {
+      "en": "the Xuanwu Gate",
+      "pinyin": "Xuánwǔ Mén",
+      "status": "attested",
+      "note": "The northern palace gate of the Tang capital, scene of the coup of 626; here invoked for the 'kin-slaying' strain in the Li house."
     }
   },
   "terms": {
@@ -2923,6 +3019,66 @@
       "pinyin": "jiàofáng",
       "status": "decided",
       "note": "The Tang office and quarter for court musicians and performers (the Jiaofang)."
+    },
+    "弹指": {
+      "en": "finger-snap",
+      "pinyin": "tánzhǐ",
+      "status": "decided",
+      "note": "A finger-snap (弹指), used through the book as a very short unit of elapsed time."
+    },
+    "狻猊": {
+      "en": "suanni",
+      "pinyin": "suānní",
+      "status": "decided",
+      "note": "The suanni, a lion-like beast of legend, one of the traditional 'nine sons of the dragon'; here the form of the wooden cross-frame at the lantern-tower's summit."
+    },
+    "旋臂": {
+      "en": "turning-arm",
+      "pinyin": "xuánbì",
+      "status": "decided",
+      "note": "The great rotating bamboo arms of the lantern-tower, each driving three lantern-chambers around the tower's outer ring."
+    },
+    "灯楼": {
+      "en": "lantern-tower",
+      "pinyin": "dēnglóu",
+      "status": "decided",
+      "note": "The lantern-tower; in this book the Taishang Xuanyuan Lantern-Tower raised for the Lantern Festival."
+    },
+    "七香车": {
+      "en": "the seven-fragrance carriage",
+      "pinyin": "qīxiāng chē",
+      "status": "decided",
+      "note": "A luxurious carriage scented with seven aromatics; here the Right Minister's conveyance."
+    },
+    "倒碑门": {
+      "en": "a toppled-stele gate",
+      "pinyin": "dǎobēi mén",
+      "status": "decided",
+      "note": "A ward-wall gate whose leaf, in opening, topples forward to lie flat on the ground like a fallen stele, hauled back up by iron chains; the source glosses the name."
+    },
+    "药圃": {
+      "en": "the physic garden",
+      "pinyin": "yàopǔ",
+      "status": "decided",
+      "note": "The Eastern Palace's medicinal-herb garden in Shengping Ward."
+    },
+    "浑脱舞": {
+      "en": "the Hutuo dance",
+      "pinyin": "Húntuō wǔ",
+      "status": "provisional",
+      "note": "A vigorous, tumbling Central-Asian dance popular in Tang; here a figure for the leaping of the flames."
+    },
+    "唐隆政变": {
+      "en": "the Tanglong coup",
+      "pinyin": "Tánglóng zhèngbiàn",
+      "status": "attested",
+      "note": "The coup of 710 that overthrew Empress Wei and restored Ruizong; see notes."
+    },
+    "先天政变": {
+      "en": "the Xiantian coup",
+      "pinyin": "Xiāntiān zhèngbiàn",
+      "status": "attested",
+      "note": "The coup of 713 by which Xuanzong destroyed Princess Taiping's faction; see notes."
     }
   }
 }
