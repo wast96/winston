@@ -486,6 +486,54 @@
       "pinyin": "A Shun",
       "status": "decided",
       "note": "Feng Yunqing's rickshaw-man."
+    },
+    "柏青": {
+      "en": "Boqing",
+      "pinyin": "Bo Qing",
+      "status": "decided",
+      "note": "柏青; a fellow-student of Wu Zhisheng’s who draws him into the May Thirtieth demonstration and is arrested in it. 柏 is the surname, as with Dr. Bo (柏医生); addressed ‘Mr. Bo’ (密斯脱柏)."
+    },
+    "柯仲谋": {
+      "en": "Ke Zhongmou",
+      "pinyin": "Ke Zhongmou",
+      "status": "decided",
+      "note": "柯仲谋; a newspaper reporter, friend of the lawyer Qiu Sun and a familiar caller at the Wu house, who professes a detached ‘liberal’ standpoint toward the demonstration."
+    },
+    "尼禄": {
+      "en": "Nero",
+      "pinyin": "Niluo",
+      "status": "attested",
+      "note": "尼禄; the Roman emperor Nero (37–68 CE), by legend taking his ease while Rome burned; Wu Zhisheng’s gibe at Fan Bowen."
+    },
+    "荷马": {
+      "en": "Homer",
+      "pinyin": "Homa",
+      "status": "attested",
+      "note": "荷马; Homer, the Greek epic poet, author of the Iliad."
+    },
+    "海克托": {
+      "en": "Hector",
+      "pinyin": "Haiketuo",
+      "status": "attested",
+      "note": "海克托; Hector, the Trojan hero of Homer’s Iliad, whose valour the poem honours though he fights on the losing side."
+    },
+    "莎士比亚": {
+      "en": "Shakespeare",
+      "pinyin": "Shashibiya",
+      "status": "attested",
+      "note": "莎士比亚; William Shakespeare; Du Xintuo offers Fan Bowen a copy of Love’s Labour’s Lost."
+    },
+    "武松": {
+      "en": "Wu Song",
+      "pinyin": "Wu Song",
+      "status": "attested",
+      "note": "武松; the tiger-slaying hero of the Ming novel Water Margin (水浒传), who kills a man-eating tiger with his bare hands on Jingyang Ridge. Zhao Botao’s mistress invokes him against the Communist ‘tigers.’"
+    },
+    "小张": {
+      "en": "young Zhang",
+      "pinyin": "Xiao Zhang",
+      "status": "attested",
+      "note": "小张; Zhang Xueliang (1901–2001), the ‘Young Marshal’ of Manchuria, whose allegiance both sides courted in the 1930 Central Plains War; his ‘unclear attitude’ could tip the whole conflict."
     }
   },
   "organizations": {
@@ -626,6 +674,42 @@
       "pinyin": "Yuanfeng qianzhuang",
       "status": "decided",
       "note": "The native bank (钱庄) holding the ten-thousand-dollar deposit set aside as Feng Meiqing's trousseau."
+    },
+    "新世界饭店": {
+      "en": "the Xin Shijie Hotel",
+      "pinyin": "Xin Shijie fandian",
+      "status": "decided",
+      "note": "新世界饭店; a hotel by the ‘New World’ amusement hall at the west end of Nanjing Road."
+    },
+    "新新公司": {
+      "en": "the Sun Sun Company",
+      "pinyin": "Xinxin gongsi",
+      "status": "attested",
+      "note": "新新公司; the Sun Sun Department Store, one of the three great Chinese-owned emporia on Nanjing Road."
+    },
+    "大三元酒家": {
+      "en": "the Da San Yuan restaurant",
+      "pinyin": "Da San Yuan jiujia",
+      "status": "decided",
+      "note": "大三元酒家; a large Cantonese restaurant near Nanjing Road."
+    },
+    "华安大厦": {
+      "en": "the Hua’an Building",
+      "pinyin": "Hua'an Dasha",
+      "status": "attested",
+      "note": "华安大厦; the China United Assurance building on Nanjing Road (today the Pacific Hotel), where Zhao Botao keeps a suite."
+    },
+    "益中信托公司": {
+      "en": "the Yizhong Trust Company",
+      "pinyin": "Yizhong xintuo gongsi",
+      "status": "decided",
+      "note": "益中信托公司; the trust company Wu Sunfu and his partners have seized as the base for their operations, here named for the first time. See the note on ‘trust company.’"
+    },
+    "老闸捕房": {
+      "en": "the Louza police station",
+      "pinyin": "Laozha buo fang",
+      "status": "attested",
+      "note": "老闸捕房; the Louza (老闸) police station of the International Settlement, the very station whose men fired the shots of 30 May 1925."
     }
   },
   "places": {
@@ -934,6 +1018,180 @@
       "pinyin": "Bai gongguan",
       "status": "decided",
       "note": "The household of the Fifth Concubine of the Bai family (白府五姨太), the concubine's sworn sister and protector; also rendered the House of Bai."
+    },
+    "泥城桥": {
+      "en": "Nichengqiao",
+      "pinyin": "Nichengqiao",
+      "status": "provisional",
+      "note": "泥城桥; a place at the western end of Nanjing Road (‘the Nicheng Bridge’), the starting-point of the demonstration."
+    },
+    "跑马厅": {
+      "en": "the Racecourse",
+      "pinyin": "Paomating",
+      "status": "decided",
+      "note": "跑马厅 (also 跑马场); the great racecourse of the International Settlement, off Bubbling Well Road (today People’s Square and People’s Park)."
+    },
+    "北四川路": {
+      "en": "North Sichuan Road",
+      "pinyin": "Bei Sichuan Lu",
+      "status": "attested",
+      "note": "北四川路; a main road running north from the Settlement into the Hongkou district; older English North Szechuen Road."
+    },
+    "浙江路": {
+      "en": "Zhejiang Road",
+      "pinyin": "Zhejiang Lu",
+      "status": "attested",
+      "note": "浙江路; a Settlement road crossing Nanjing Road; older English Chekiang Road."
+    },
+    "云南路": {
+      "en": "Yunnan Road",
+      "pinyin": "Yunnan Lu",
+      "status": "attested",
+      "note": "云南路; a Settlement road near the racecourse; older English Yunnan Road."
+    },
+    "东新桥": {
+      "en": "Dongxinqiao",
+      "pinyin": "Dongxinqiao",
+      "status": "provisional",
+      "note": "东新桥; a place (‘the Dongxin Bridge’) on the way, where Li Yuting’s carriage meets the demonstrators."
+    },
+    "大新街": {
+      "en": "Daxin Street",
+      "pinyin": "Daxin Jie",
+      "status": "provisional",
+      "note": "大新街; a street near Nanjing Road."
+    },
+    "日升楼": {
+      "en": "the Risheng Lou",
+      "pinyin": "Risheng Lou",
+      "status": "provisional",
+      "note": "日升楼; a well-known tea-house and landmark at a corner of Nanjing Road, named by Fan Bowen as the eastern bound of the view."
+    },
+    "长浜路": {
+      "en": "Changbang Road",
+      "pinyin": "Changbang Lu",
+      "status": "provisional",
+      "note": "长浜路; a road along the filled-in Yangjing Creek (today part of Yan’an East Road)."
+    },
+    "大华": {
+      "en": "the Majestic",
+      "pinyin": "Dahua",
+      "status": "attested",
+      "note": "大华 (大华饭店/舞厅); the Majestic Hotel and ballroom, a fashionable Shanghai resort of 1930."
+    },
+    "丽娃丽妲村": {
+      "en": "the Liwalida",
+      "pinyin": "Liwalida Cun",
+      "status": "decided",
+      "note": "丽娃丽妲村 (a transliteration of ‘Riviera’); a lakeside pleasure-garden on Suzhou Creek opened by White Russian émigrés, with wine, music and boating."
+    },
+    "色奈河": {
+      "en": "the Seine",
+      "pinyin": "Sena He",
+      "status": "attested",
+      "note": "色奈河; the river Seine, at Paris; Du Xintuo’s memory of his years in France."
+    },
+    "罗马": {
+      "en": "Rome",
+      "pinyin": "Luoma",
+      "status": "attested",
+      "note": "罗马; the city of Rome."
+    },
+    "希腊": {
+      "en": "Greece",
+      "pinyin": "Xila",
+      "status": "attested",
+      "note": "希腊; ancient Greece, whose host Homer extols in the Iliad."
+    },
+    "法兰西": {
+      "en": "France",
+      "pinyin": "Falanxi",
+      "status": "attested",
+      "note": "法兰西; France (a transliteration alongside the standard 法国); Du Xintuo’s years abroad."
+    },
+    "蚌埠": {
+      "en": "Bengbu",
+      "pinyin": "Bengbu",
+      "status": "attested",
+      "note": "蚌埠; a rail city on the Jinpu line in Anhui, to which Boqing’s family flee the fighting."
+    },
+    "湖北": {
+      "en": "Hubei",
+      "pinyin": "Hubei",
+      "status": "attested",
+      "note": "湖北; the central Yangtze province; older English Hupeh."
+    },
+    "江西": {
+      "en": "Jiangxi",
+      "pinyin": "Jiangxi",
+      "status": "attested",
+      "note": "江西; the province south of the Yangtze, a centre of the Communist rising; older English Kiangsi."
+    },
+    "江苏": {
+      "en": "Jiangsu",
+      "pinyin": "Jiangsu",
+      "status": "attested",
+      "note": "江苏; the coastal province of which Shanghai is part; older English Kiangsu."
+    },
+    "浙江": {
+      "en": "Zhejiang",
+      "pinyin": "Zhejiang",
+      "status": "attested",
+      "note": "浙江; the province south of Jiangsu; older English Chekiang."
+    },
+    "福建": {
+      "en": "Fujian",
+      "pinyin": "Fujian",
+      "status": "attested",
+      "note": "福建; the south-eastern coastal province; older English Fukien."
+    },
+    "长江": {
+      "en": "the Yangtze",
+      "pinyin": "Changjiang",
+      "status": "attested",
+      "note": "长江; the Yangtze River."
+    },
+    "温台": {
+      "en": "the Wenzhou–Taizhou country",
+      "pinyin": "Wen-Tai",
+      "status": "decided",
+      "note": "温台; the Wenzhou–Taizhou region of coastal Zhejiang."
+    },
+    "宁绍": {
+      "en": "the Ningbo–Shaoxing country",
+      "pinyin": "Ning-Shao",
+      "status": "decided",
+      "note": "宁绍; the Ningbo–Shaoxing region of eastern Zhejiang."
+    },
+    "武穴": {
+      "en": "Wuxue",
+      "pinyin": "Wuxue",
+      "status": "attested",
+      "note": "武穴; a Yangtze river-port in Hubei."
+    },
+    "沙市": {
+      "en": "Shashi",
+      "pinyin": "Shashi",
+      "status": "attested",
+      "note": "沙市; a Yangtze river-port in Hubei; older English Shasi."
+    },
+    "天津": {
+      "en": "Tianjin",
+      "pinyin": "Tianjin",
+      "status": "attested",
+      "note": "天津; the great northern treaty-port; older English Tientsin."
+    },
+    "广州": {
+      "en": "Guangzhou",
+      "pinyin": "Guangzhou",
+      "status": "attested",
+      "note": "广州; the southern port city; older English Canton."
+    },
+    "澳门": {
+      "en": "Macau",
+      "pinyin": "Aomen",
+      "status": "attested",
+      "note": "澳门; the Portuguese colony at the mouth of the Pearl River."
     }
   },
   "terms": {
@@ -1318,6 +1576,42 @@
       "en": "native-bank draft",
       "status": "decided",
       "note": "庄票, a draft drawn on a native bank (钱庄), negotiable like cash among merchants."
+    },
+    "五卅": {
+      "en": "May Thirtieth",
+      "pinyin": "Wusa",
+      "status": "attested",
+      "note": "五卅 (五卅运动/五卅纪念); the May Thirtieth Movement of 1925 and its anniversary. See the footnote at first appearance."
+    },
+    "三道头": {
+      "en": "three-stripes",
+      "pinyin": "san dao tou",
+      "status": "decided",
+      "note": "三道头; Shanghai slang for the Western sergeant-inspectors of the Municipal Police, from the chevrons on their sleeves. See the footnote at first appearance."
+    },
+    "红头阿三": {
+      "en": "red-turbaned Ah-San",
+      "pinyin": "hongtou A-san",
+      "status": "decided",
+      "note": "红头阿三; derisive Shanghai slang for the turbaned Sikh constables of the Municipal Police. See the footnote at first appearance."
+    },
+    "白俄": {
+      "en": "the White Russians",
+      "pinyin": "Bai’e",
+      "status": "attested",
+      "note": "白俄; the White Russian émigrés who fled to Shanghai after the Bolshevik revolution, many of them destitute; here both a pleasure-garden’s proprietors and Li Yuting’s image of a stateless people."
+    },
+    "马赛曲": {
+      "en": "the Marseillaise",
+      "pinyin": "Masaiqu",
+      "status": "attested",
+      "note": "马赛曲; the French revolutionary anthem, whistled by Du Xintuo in mock answer to the question of what is to be done."
+    },
+    "张桂军": {
+      "en": "the Zhang-Gui armies",
+      "pinyin": "Zhang-Gui jun",
+      "status": "decided",
+      "note": "张桂军; the combined forces of Zhang Fakui (张发奎) and the Guangxi (‘Gui’) clique, ranged against Nanjing in the 1930 war."
     }
   }
 }

@@ -746,3 +746,92 @@ Third, the Hongmen, the Dragon-Boat Festival, 编遣/裁兵/印子钱/庄票.
 - 双管齐下 (ply both together) kept literal in the interior monologue; 美人计 rendered
   "the beauty-trap"; 国骂 "national curse" (the turtle graffiti). 六点十分 (6:10) reads
   clean because the built-in 十分 strip removes the "十分" as the idiom, leaving 六.
+
+## B09 = Chapter Nine (ch09), 13,659 source chars
+
+Done. A crowd-and-talk chapter in two movements: the young people (Zhang Susu,
+Wu Zhisheng, and his classmate Boqing, then Fan Bowen, Lin Peishan, Du Xintuo,
+and the professor Li Yuting) caught up in the May Thirtieth anniversary
+demonstration on Nanjing Road and taking refuge in the Da San Yuan restaurant;
+then Li Yuting's errand for Wu Sunfu to the bond-king Zhao Botao's hotel suite,
+where Zhao names his real price (Shang Zhongli as general manager of the Yizhong
+Trust Company) and shows how completely he has read Wu Sunfu's hand. No source
+notes (confirmed by grep: no inline [n] marker in the source; the last author
+notes [8][9] fall in ch11).
+
+### Pipeline run
+
+- out/ch09_bilingual.md authored as 213 verbatim source/English pairs. Built the
+  safe way: English written one paragraph per line, zipped against the source body
+  (line 1 = title 九 dropped; the 213 remaining are the body). Pre-zip assertion
+  len(en)==len(body)==213 passed; alignment spot-checked at paras 1/5/34/69/94-98
+  (the four verse lines)/176/197/213 before writing. No paragraph dropped or merged.
+- split_bilingual.py -> out/ch09_reading.md (213 paras) + data/zh/ch09.txt.
+- check_numbers.py --noise data/noise_zh.txt: 0 unresolved (16 flags on first pass,
+  all resolved: 3 by English rewording, the rest by documented noise plus one
+  checker word added).
+- check_structure.py --pairs: parity 213 | 213 OK.
+- build_reading_epub.py out/Midnight.epub: 9 of 20 chapters, 55 notes.
+- qa_epub.py out/Midnight.epub: PASS (55 refs / 55 bodies / 55 backlinks; all links
+  resolve).
+
+### Numbers: English rewordings (source number faithfully in the prose, the checker
+### could not read the rendering)
+
+- 九点四十分 (9:40) rendered "nine-forty" (was "twenty minutes to ten", which shows
+  neither 9 nor 40); the built-in 十分 strip also eats the 十分 out of 四十分 and
+  leaves a bare 四, cleared by a new (?<=点)四 residue rule (see noise notes).
+- 杜范两位 rendered "the two of them, Du and Fan" (was just "Du and Fan", no 2).
+- 张素素他们四个 rendered "the four of them" (was "the other three", which the source
+  count 四 does not support: the group is Zhang Susu plus three, four in all).
+- 今天是五月三十 rendered "the thirtieth of May"; "thirtieth"=30 added to the checker's
+  WORD_NUM (the built-in list stops below thirty), so the ordinal date reads clean.
+
+### Numbers: documented noise added to data/noise_zh.txt (ch09 block)
+
+四川 (北四川路, place-name, not the count 4); 十字 (十字街头 "crossroads", not 10);
+四散 ("scatter", 四 idiom); 四伏 (危机四伏 "perils on all sides"); 大三元 (restaurant
+name, not 3); 阿三 (红头阿三 Sikh-constable slang, not 3); 七猜八猜 ("guess this way
+and that"); 斤两 ("weight, heft", 两 the tael unit not the count 2); (?<=点)四 (the
+clock residue described above).
+
+### Footnotes (builder-numbered 50-55)
+
+50 May Thirtieth Memorial (五卅运动, the 1925 Louza-Station shooting and its fifth
+anniversary here); 51 three-stripes (三道头, the Western police sergeants); 52 red-
+turbaned Ah-San (红头阿三, the Sikh constables); 53 make nothing of lesser waters
+(Yuan Zhen, 曾经沧海难为水); 54 gibbon and to crane (君子为猿鹤，小人为虫沙, war-dead
+allusion in Du Xintuo's chant); 55 Diu na ma (丢那妈, Zhao Botao's Cantonese oath,
+with 寡老 flagged as uncertain). All anchors verified verbatim in the reading text.
+
+### Glossary
+
+New people: Boqing (柏青), Ke Zhongmou (柯仲谋), and the cultural/historical names
+Nero (尼禄), Homer (荷马), Hector (海克托), Shakespeare (莎士比亚), Wu Song (武松),
+young Zhang (小张 = Zhang Xueliang). New orgs: the Xin Shijie Hotel (新世界饭店), the
+Sun Sun Company (新新公司, attested), the Da San Yuan restaurant (大三元酒家), the
+Hua'an Building (华安大厦), the Yizhong Trust Company (益中信托公司, first named here),
+the Louza police station (老闸捕房). New places: Nichengqiao, the Racecourse (跑马厅),
+North Sichuan Road, Zhejiang/Yunnan Roads, Dongxinqiao, Daxin Street, the Risheng
+Lou (日升楼), Changbang Road, the Majestic (大华), the Liwalida (丽娃丽妲村), the Seine,
+Rome, Greece, France, Bengbu, Hubei, Jiangxi, Jiangsu, Zhejiang, Fujian, the Yangtze,
+Wen-Tai (温台), Ning-Shao (宁绍), Wuxue, Shashi, Tianjin, Guangzhou, Macau. New terms:
+May Thirtieth (五卅), three-stripes (三道头), red-turbaned Ah-San (红头阿三), the White
+Russians (白俄), the Marseillaise (马赛曲), the Zhang-Gui armies (张桂军). Reused
+unchanged: Wu Sunfu/荪甫, Zhao Botao/伯翁/老赵, Zhu Yinqiu, Du Zhuzhai, Shang Zhongli,
+Du Xintuo/老箨, Du Xueshi (小杜/老六), Li Yuting, Zhang Susu, Wu Zhisheng, Fan Bowen,
+Lin Peishan, Liu Yuying (玉英), Tang Yunshan (the "man surnamed Tang").
+
+### Read-through / open items
+
+- Random-sample deep audit (~5%, ~11 paragraphs across the street demonstration,
+  the restaurant debate, the poem, and the Zhao-Li negotiation): verbatim quotation,
+  quantities and referents all held; no omission or invented bridging. Tricky
+  quantities checked by hand: 五英里 = five miles; 两三百 = two or three hundred;
+  两三万 = twenty or thirty thousand; 半年六个月 / 三个月 = half a year, six months /
+  three months; 十之八九 = eight or nine times out of ten; 万卷 = ten thousand volumes.
+- 小杜 in para 137 refers to Du Xintuo (who has just left), not to Du Xueshi (the
+  glossary's "Young Du"/老六); to avoid the referent collision it is rendered
+  "Xintuo" there. Elsewhere 老箨 = Old Tuo, 老六/学诗 = Du Xueshi.
+- 寡老 (Cantonese, after 丢那妈) left as an honest uncertainty in note 55 rather than
+  smoothed into a confident gloss.

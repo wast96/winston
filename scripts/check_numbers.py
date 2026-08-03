@@ -27,7 +27,7 @@ WORD_NUM = {
     # Extend WORD_NUM with any spelled-out numbers your translation uses that the
     # source prints as digits/hanzi. Example: teen ordinals for regnal years
     # ("the seventeenth year of the reign", 十七年); the built-ins stop at "tenth".
-    "seventeenth": 17, "eleventh": 11, "sixteenth": 16,
+    "seventeenth": 17, "eleventh": 11, "sixteenth": 16, "thirtieth": 30,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}

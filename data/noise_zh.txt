@@ -174,3 +174,26 @@
 # or a stripper residue (百几十万 "over a million": the built-in 几十万 strip leaves a
 # bare 百). Parallel to the ch03 bare-万 rule. (ch08)
 (?<![零一二两兩三四五六七八九十百千])百
+# --- Chapter Nine additions ---
+# 四川 in 北四川路 (North Sichuan Road); 四 is part of the place-name, not the count 4 (ch09)
+四川
+# 十字 in 十字街头/十字路口 "crossroads"; 十字 = cross-shape, not the quantity 10 (ch09)
+十字
+# 四散 "scatter in all directions" (四 idiom, not the count 4) (ch09)
+四散
+# 危机四伏 "beset with perils on every side" (四 idiom, not the count 4) (ch09)
+四伏
+# 大三元 the Da San Yuan restaurant; 三 is part of the name, not the count 3 (ch09)
+大三元
+# 红头阿三 "red-turbaned Ah-San," Shanghai slang for a Sikh policeman; 三 is part of
+# the nickname, not the count 3 (ch09)
+阿三
+# 七猜八猜 "guess this way and that" (七/八 idiom, not counts) (ch09)
+七猜八猜
+# 斤两 "weight, heft" (估量每句话的斤两); 两 here is the tael/weight unit, not the count 2
+# (parallel to the ch03/ch08 tael rules) (ch09)
+斤两
+# clock residue: the built-in 十[分] rule strips 十分 out of 四十分 ("forty minutes"),
+# leaving a bare 四 after 点 (九点四十分 -> 九点四). Rendered "nine-forty"; strip the
+# residual 四 that follows 点 so it is not read as the count 4 (ch09)
+(?<=点)四
