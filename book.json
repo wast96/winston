@@ -7,7 +7,7 @@
   "author_en": "Huang Mulan",
   "author_zh": "黄慕兰",
   "author_sort": "Huang, Mulan",
-  "author_note": "Born Huang Dinghui (黄定慧) in Liuyang, Hunan; also known during her underground years by several cover names. Lived 1907-2017.",
+  "author_note": "Born Huang Zhangding (黄彰定) in Liuyang, Hunan, in 1907; took the name Mulan (慕兰) on joining the revolution in 1926 and the name Dinghui (定慧) in 1932; also known during her underground years by several cover names. Lived 1907-2017.",
   "year": 2016,
   "original_year": 2004,
   "publisher_en": "Encyclopedia of China Publishing House",
@@ -31,7 +31,7 @@
   "cover_image": "cover.jpeg",
   "_source_note": "Source: a digital (calibre-produced) EPUB of 《黄慕兰自传》, Encyclopedia of China Publishing House, 2016 reissue (first published 2004), ISBN 9787500097044. Reliable Unicode text, no OCR. The source carries NO footnotes/endnotes of its own; all notes in this edition are the translator's. Structure notes: (a) each of the five parts opens on a divider page carrying a 《临江仙》 ci poem by the author; these poems are folded in as an epigraph at the head of the first chapter of each part (marked with a 'part_poem_src' locator). (b) The source's own table-of-contents page (index_split_001.html) and the running header 黄慕兰自传 are not reproduced; the EPUB generates its own hyperlinked TOC. (c) The copyright leaf (index_split_000.html) is carried as book metadata / colophon, not as a chapter. (d) The source labels BOTH 我的外婆 党的女儿 and 编后记 as 附录四 (appendix IV) -- an apparent source numbering slip; rendered faithfully, with the editor's postscript titled as such and the duplication noted here rather than silently renumbered.",
   "source_epub": "source.epub",
-  "_translator_note": "Provisional (no chapters translated yet). Rendered verbatim as the Translator's Note back-matter page; inline <i>...</i> honored; use NUMERIC character references (&#8212;, &#160;), never named entities.",
+  "_translator_note": "Rendered verbatim as the Translator's Note back-matter page; inline <i>...</i> honored; use NUMERIC character references (&#8212;, &#160;), never named entities. Reviewed at the close of the commissioned scope (ch00, ch01-ch21, ch39-ch43); the general text below still holds.",
   "translator_note": [
     "This is an English translation of <i>黄慕兰自传</i> (<i>The Autobiography of Huang Mulan</i>), made from the 2016 reissue published by the Encyclopedia of China Publishing House (first edition 2004).",
     "The source was translated in full and in the book&#8217;s own voice. Names follow pinyin except where a conventional English form is established; each proper noun is fixed once in the glossary. The source book carries no notes of its own, so every note here is the translator&#8217;s: they identify people, places, and institutions a non-specialist will not know, flag genuinely ambiguous passages rather than smoothing them over, and gloss allusions and idioms whose flavor does not survive translation.",

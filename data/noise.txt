@@ -123,3 +123,35 @@
 港九
 四目
 十两
+# --- B09 (the appendices) ---
+# 红十字会 the Red Cross (红十字 = "red cross"), a name: 十 is not the count 10.
+红十字
+紅十字
+# Prisoner ID numbers (编号一○六七 / 编号五一三): identifiers, not quantities; the
+# English carries the digits. The ○ (U+25CB) breaks the numeral run, so strip whole.
+# 五一三 MUST precede 五一 below (longest literal first) or the 五一 rule eats its
+# prefix and orphans the trailing 三 as a stray 3.
+一○六七
+五一三
+# 五一 "May Day / May First" (五一前夕): a festival name, not the quantity 51/5+1.
+五一
+# 八一三 the "August Thirteenth" (1937 Shanghai) Incident, an event name, not 8/1/3.
+八一三
+# 数百 "several hundred" (数百人): a vague quantity carried as "several hundred", not 100.
+数百
+數百
+# 几十/幾十 "several tens / decades" (几十年): vague, not the count 10.
+几十
+幾十
+# 一一 "one by one" (一一化解): idiom, not the count 11.
+一一
+# 家和万事兴 "when the family is at peace all things prosper": 万 is idiomatic, not 10000.
+万事
+萬事
+# 20年代 "the 1920s" (上个世纪20年代): rendered "the 1920s"; the bare decade 20 is a
+# false positive against the four-digit year.
+20年代
+# 四十余万字 "more than 400,000 characters": 余 splits the run (四十 + 万); carried as
+# "more than four hundred thousand words". Strip the whole so 40/10000 don't orphan.
+四十余万
+四十餘萬

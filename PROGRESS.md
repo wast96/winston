@@ -866,3 +866,137 @@ areas" (non-canonical, 19 is the 1945 figure). No source endnotes in either chap
 Build: out/The Autobiography of Huang Mulan.epub, 22 of 44 chapters translated
 (ch00-ch21), 74 notes. qa_epub.py PASS (105 files, 50 documents, 462 paragraphs,
 all links resolve). ch22-ch38 remain pending skeleton pages, as commissioned.
+
+---
+
+## Batch B09 (ch39-ch43, the appendices) — DONE — FINAL BATCH
+
+Chapters: Appendix I. Afterword (后记, ch39); Appendix II. A Chronology of Huang
+Mulan's Life (大事表, ch40); Appendix III. A Brief Life of Comrade Liu Shaowen
+(刘少文同志简介, ch41); Appendix IV. My Grandmother, a Daughter of the Party
+(我的外婆 党的女儿, ch42); Editor's Postscript (编后记, ch43). Source: 7,625 CJK
+chars (ch39 184; ch40 2,116; ch41 1,504; ch42 2,307; ch43 1,514). No part poem.
+This completes the commissioned scope (ch00, ch01-ch21, ch39-ch43). Worked on the
+single branch claude/huang-mulan (the per-session branch
+claude/huang-mulan-b09-appendices-1g3892 pointed at the same B08 commit and carried
+no unique work; consolidated onto claude/huang-mulan and deleted, per CLAUDE.md
+rule 2).
+
+Bilingual/parity: gen_bilingual_b02.py extended with ch39-ch43, each dropping only
+header(1)+label(2)+title(3) -- NONE of the five appendices carries an image (grep of
+index_split_047..051.html: zero images), so no captions/rosters/说明 to drop and
+figures.json is unchanged this batch. Two source structures kept as reading text
+rather than dropped: ch41's article attribution + dateline (——摘自罗青长、柴成文
+《无名英雄垂范千秋》 / 1996年6月10日《人民日报》), and the signatures of ch39/ch42/ch43
+(author, date, place). Paragraph parity: ch39 11 (10-line verse + dateline), ch40 48
+(one chronology entry per line), ch41 12, ch42 17, ch43 10. split_bilingual.py ->
+reading + data/zh. check_structure clean on all five (11|11, 48|48, 12|12, 17|17,
+10|10).
+
+check_numbers: clean on all five (0 unresolved) after noise/WORD_NUM work. The ch40
+chronology leaned hard on the target-side facts: every real date/quantity carried as
+digits or a parser-recognized spelled form (years; day-ordinals 8/24/27/28; "two
+hundred thousand"=200000; "a hundred days"=100; "116 old associations" as digits
+since "one hundred sixteen" only yields 100+16; "180 degrees" as digits since "a
+hundred and eighty" only yields 100+80). data/noise.txt gained (all real false
+positives): 红十字/紅十字 (Red Cross, 十≠10), 五一 (May Day, ordered AFTER the two
+prisoner-ID lines below or it eats their prefix), 一○六七 & 五一三 (prisoner IDs; the
+○=U+25CB breaks the numeral run, strip whole), 八一三 (the "August Thirteenth"
+Incident name), 数百/數百 (vague "several hundred"), 几十/幾十 (vague "several
+tens/decades"), 一一 (idiom "one by one"≠11), 万事/萬事 (家和万事兴, 万 idiomatic),
+20年代 (rendered "the 1920s"; bare decade 20 vs the four-digit year), 四十余万/四十餘萬
+(余 splits 四十+万; carried as "more than four hundred thousand words"). One
+ordering bug found and fixed: the prisoner-ID line 五一三 MUST precede 五一 in
+noise.txt (longest-literal-first), or the 五一 rule strips its prefix and orphans a
+3. check_numbers.py WORD_NUM gained "hundredth"=100 (for 百岁/"hundredth birthday").
+NB the CYL entry: memoir dates it 秋 (autumn) 1926; scholarship says June 1926 (day
+right, season off) -- a minor discrepancy left as the author wrote it, not footnoted.
+
+QC. Blind double-translation (fresh-context subagent, source only) of the ch39
+valedictory verse and the ch42 closing (the Dena Gutman citation + the peroration):
+no material divergence from the shipped text; the subagent independently confirmed
+the allusion sources folded into the ch39 notes (柳暗花明 = Lu You; 老骥伏枥 = Cao
+Cao's 龟虽寿; 甘棠 = Shijing 召南·甘棠 / Lord Shao; 干城 = Shijing 周南·兔罝;
+刎颈之交 = Shiji, Lian Po & Lin Xiangru). Fact-check against scholarship
+(Wikipedia zh/en, Baidu Baike, 人民网/澎湃/中国作家网/光明网, dswxyjy.org.cn; never
+Grok/AI):
+- ch40 chronology landmark dates all CORROBORATED: birth 18 Jul 1907 Liuyang;
+  Zhounan 1919 + May Fourth; CCP Nov 1926 Hankou; Wan Xiyan marriage announced 8 Mar
+  1927; He Chang marriage 1929 + Longhua ~100 days; Guan Xiangying freed Dec 1931 +
+  巴和/周少山 notice Mar 1932; Chen Zhigao marriage May 1935; welcomed Guo Moruo at
+  the wharf 27 Jul 1937; arrest Dec 1942 / bail Jan 1945; detained Jun 1955 (the
+  潘汉年/潘扬 case), ~17 years across two Qincheng terms, rehabilitated Apr 1980, Pan
+  posthumously cleared Aug 1982; name timeline 黄彰定 -> 慕兰 (1926) -> 定慧 (1932);
+  party-standing recognized-1926/left-1933/counted-from-1951, continuity granted
+  1991. Footnoted: the Pan Hannian case (at the 1955 entry, note 78); the First
+  Congress site located 1950-52 with delegate Bao Huiseng (note 79); 离休/lixiu as a
+  veteran-cadre status (note 80).
+- ch41 Liu Shaowen bio: dates 1905-1987, Xinyang Henan origin, Moscow Sun Yat-sen
+  Univ 1925, Zunyi secretarial work, NW Bureau SG 27 Jul 1936, Eighth Route Shanghai
+  office, the HK rescue after Dec 1941, alias 张明, dep. head 中央社会部 1948, 中将
+  1955 -- all CORROBORATED. CONTRADICTED and footnoted (note 81): the appendix's
+  original name 刘自章/Liu Zizhang; standard references attest 刘国章/Liu Guozhang
+  (one-character difference, likely a slip) -- kept faithful, footnoted. How the Steel
+  Was Tempered (note 82): CORROBORATED in all particulars -- Liu Shaowen handed the
+  book to Mei Yi Apr 1938, Mei translated from Alec Brown's 1937 English, first
+  Chinese edition New Knowledge Bookstore 1942. The 地下长城 close ties back to the
+  Part Two ci title (note 83). The People's Daily citation (罗青长/柴成文, 10 Jun
+  1996) could not be independently verified (both are real intelligence-establishment
+  figures; UNVERIFIED, not contradicted) -- noted as the appendix's own attribution.
+- ch42 the granddaughter's tribute: the cited authority "Professor Dena Gutman"
+  (德纳·古特曼) of Stanford and her book "A New Culture, a New Stage" (Stanford UP,
+  1997, p.21) is UNCORROBORATED / apparently spurious -- no such author or title
+  found in any catalog or scholarly record. Rendered faithfully as the granddaughter
+  quotes it, footnoted with the caveat (note 86). Also noted: the author 陈弘欣
+  (Chen Hongxin, granddaughter, writing from Sydney 2003, note 84) and the 1975 Daye
+  exile rule / geological team (note 85).
+- ch43 Editor's Postscript: Mei Yi died 13 Sep 2003 (CORROBORATED; note 88), matching
+  "今年9月". The drafting chain (dictated 1993, Ye Bingnan from 1996, first draft 2000,
+  Qian Lin second, Hongshen's young-reader notes in the third) noted at "We two
+  sisters" (note 87). CONTRADICTED and footnoted (note 89): the "Monument to the
+  Nameless Heroes standing in Tiananmen Square" -- the Tiananmen Square monument is the
+  人民英雄纪念碑 (Monument to the People's Heroes); the dedicated 无名英雄 monument is
+  at Xishan, unveiled Dec 2013, a decade after this 2003 text. Kept faithful,
+  footnoted.
+
+Notes: 15 added (89 total; builder-assigned in reading order 75-89). ch39 75-77
+(the valedictory verse / self-image; 甘棠 Shijing allusion; 老骥伏枥 Cao Cao).
+ch40 78-80 (Pan Hannian case; First Congress site + Bao Huiseng; lixiu). ch41 81-83
+(刘自章 vs attested 刘国章; How the Steel Was Tempered / Mei Yi; underground Great
+Wall + the appendix's source). ch42 84-86 (the granddaughter author; the 1975 Daye
+exile; the unverifiable Dena Gutman citation). ch43 87-89 (the two-daughter editors
++ drafting chain; Mei Yi's death; the Tiananmen "nameless heroes" monument
+clarification). Recurring subjects already noted earlier were NOT re-noted (checked
+notes.json: no prior Pan-case, Liu-Shaowen, Mei-Yi, lixiu, First-Congress notes).
+
+Glossary: 34 rows added (17 people, 7 places, 7 orgs, 3 terms; totals now 438 people
+/ 112 orgs / 100 places / 26 terms). Reused every prior decision (Liu Shaowen, Zhou
+Enlai, Chen Zhigao, He Chang, Guan Xiangying, Pan Hannian, Rao Shushi, Mei Yi, Wan
+Xiyan, Ren Bishi, Guo Moruo, Chen Geng, Nie Rongzhen, Deng Yingchao, Xiong Jinding,
+Zhu Duanshou, He Sisi, He Shishan, Yuan Puzhi, Gong Yinbing, Dai Xiaoyun, Wan
+Changjie, He Ping, the author's three name rows, etc. -- verified in the built
+appendix xhtml). New notables: Zhu De, Li Kenong, Bao Huiseng, Li Lantian, Yang
+Shuhui, Liu Zizhang (appendix form) + Zhang Ming (Liu Shaowen aliases), Chen Hongxin
++ Chen Yunzhong + Chen Dazhong (granddaughter + the two daughters), Ye Bingnan, Qian
+Lin, Hongshen, Liang Yunfu, Tong Xingkan, Shen Yingying, Dena Gutman (provisional/
+unverified). Places: Daye, Huangshi, Xinyang, Zhangjiakou, Pingshan, Deshengmen,
+Central Plains. Orgs: Sun Yat-sen University (Moscow), Central Social Affairs
+Department, New Knowledge Bookstore, People's Daily, Anhui Daily, China People's
+Relief Administration, Association of Chinese Young Scientific and Technical
+Personnel. Terms: lixiu, Three-Anti campaign, underground Great Wall.
+
+Figures: none (no images in any appendix chapter). figures.json unchanged. Next free
+figure basename remains 00053.
+
+Metadata tidy (final pass): book.json author_note corrected -- it had called Huang
+Dinghui the "birth name"; now names 黄彰定/Zhangding as the birth name, 慕兰 (1926)
+and 定慧 (1932) as later names, matching the translation, the glossary, and the ch01
+footnote. The stale "_translator_note" scaffolding comment updated. No colophon
+enabled: back_matter.json ships inert by design and the source's imprint is already
+carried in the EPUB metadata (publisher/ISBN/year/rights); the Translator's Note
+back-matter page renders from book.json.
+
+Build: out/The Autobiography of Huang Mulan.epub, 27 of 44 chapters translated
+(ch00-ch21 + ch39-ch43), 89 notes. qa_epub.py PASS (105 files, 50 documents, 44
+reading documents, 555 paragraphs, 89 refs/89 bodies/89 backlinks, all links
+resolve). ch22-ch38 remain pending skeleton pages, as commissioned.

@@ -68,6 +68,23 @@ DROP = {
     # siblings group photo, 00052) with its two roster lines 44 (front row) and
     # 45 (back row).
     "ch21": ("28_index-split-026.txt", {1, 2, 26, 43, 44, 45}),
+    # B09 (the appendices): each drops header(1) + the 附录X label(2) + title(3).
+    # None carries an image, so there are no captions/rosters to drop.
+    # ch39 = 后记: an afterword written as a self-composed four-character verse
+    # (lines 4-13) plus a dateline (line 14) -- all kept as reading text.
+    "ch39": ("49_index-split-047.txt", {1, 2, 3}),
+    # ch40 = 大事表: a chronology, one dated entry per line (lines 4-51).
+    "ch40": ("50_index-split-048.txt", {1, 2, 3}),
+    # ch41 = 刘少文简介: the source attribution (line 4) and its dateline (line 5)
+    # are kept as reading text above the ten body paragraphs (lines 6-15).
+    "ch41": ("51_index-split-049.txt", {1, 2, 3}),
+    # ch42 = 我的外婆 党的女儿: 14 body paragraphs (lines 4-17) + a three-line
+    # signature (author / date / place, lines 18-20), all kept.
+    "ch42": ("52_index-split-050.txt", {1, 2, 3}),
+    # ch43 = 编后记: source-labeled 附录四 (a duplicate label; drop line 2) with the
+    # real title 编后记 on line 3; 8 body paragraphs (lines 4-11) + a two-line
+    # signature (the two daughters / date, lines 12-13).
+    "ch43": ("53_index-split-051.txt", {1, 2, 3}),
 }
 # Part-opening chapters prepend the part's 临江仙 poem: file, 1-indexed lines to
 # KEEP (poem title + 2 stanzas). ch05 = Part Two; ch13 = Part Three.

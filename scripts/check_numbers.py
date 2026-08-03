@@ -34,7 +34,7 @@ WORD_NUM = {
     "fifteenth": 15, "sixteenth": 16, "seventeenth": 17, "eighteenth": 18,
     "nineteenth": 19, "twentieth": 20, "thirtieth": 30, "fortieth": 40,
     "fiftieth": 50, "sixtieth": 60, "seventieth": 70, "eightieth": 80,
-    "ninetieth": 90,
+    "ninetieth": 90, "hundredth": 100,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}

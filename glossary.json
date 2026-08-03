@@ -2501,6 +2501,107 @@
       "pinyin": "Pān Yǒushēng",
       "status": "attested",
       "note": "d. 1952, a businessman, husband of the film star Hu Die (ch20)."
+    },
+    "朱德": {
+      "en": "Zhu De",
+      "pinyin": "Zhū Dé",
+      "status": "attested",
+      "note": "Commander-in-chief of the Red Army and later of the PLA; here (ch41) he and Ren Bishi struggle against Zhang Guotao's move to split from the Party Center, 1936."
+    },
+    "李克农": {
+      "en": "Li Kenong",
+      "pinyin": "Lǐ Kènóng",
+      "status": "attested",
+      "note": "A founder of the CCP's intelligence service; ran the Party's clandestine work in Shanghai and later headed PRC intelligence and the Korean-armistice delegation. Left Shanghai after the 1937 fighting (ch41)."
+    },
+    "李兰天": {
+      "en": "Li Lantian",
+      "pinyin": "Lǐ Lántiān",
+      "status": "provisional",
+      "note": "Of the Central Propaganda Department; came to Shanghai 1952-53 to recover left-wing writers' documents held in the Tongyi safe-deposit boxes and to help locate the First Congress site (ch40)."
+    },
+    "包惠僧": {
+      "en": "Bao Huiseng",
+      "pinyin": "Bāo Huìsēng",
+      "status": "attested",
+      "note": "A delegate to the CCP's First Congress (1921); consulted in the 1950s to help confirm the congress site in Shanghai (ch40)."
+    },
+    "杨淑惠": {
+      "en": "Yang Shuhui",
+      "pinyin": "Yáng Shúhuì",
+      "status": "provisional",
+      "note": "Named (ch40) with Bao Huiseng as helping locate and confirm the First Congress site."
+    },
+    "刘自章": {
+      "en": "Liu Zizhang",
+      "pinyin": "Liú Zìzhāng",
+      "status": "provisional",
+      "note": "The original name given for Liu Shaowen in the Appendix III bio; standard references attest Liu Guozhang (&#21016;&#22269;&#31456;) instead. See the ch41 note."
+    },
+    "张明": {
+      "en": "Zhang Ming",
+      "pinyin": "Zhāng Míng",
+      "status": "decided",
+      "note": "Cover name used by Liu Shaowen from 1942 in Chongqing (ch41)."
+    },
+    "陈弘欣": {
+      "en": "Chen Hongxin",
+      "pinyin": "Chén Hóngxīn",
+      "status": "provisional",
+      "note": "The author's granddaughter; wrote the tribute 'My Grandmother, a Daughter of the Party' (Appendix IV) from Sydney, 2003."
+    },
+    "德纳·古特曼": {
+      "en": "Dena Gutman",
+      "status": "provisional",
+      "note": "Cited in Appendix IV as an American women's-studies scholar at Stanford, author of 'A New Culture, a New Stage' (Stanford UP, 1997); the name and title could not be traced and appear garbled. See the ch42 note."
+    },
+    "陈允中": {
+      "en": "Chen Yunzhong",
+      "pinyin": "Chén Yǔnzhōng",
+      "status": "decided",
+      "note": "The author's elder daughter; co-author (with Chen Dazhong) of the Editor's Postscript. Same person as the glossary's &#20801;&#20013;."
+    },
+    "陈大中": {
+      "en": "Chen Dazhong",
+      "pinyin": "Chén Dàzhōng",
+      "status": "decided",
+      "note": "The author's younger daughter; co-author of the Editor's Postscript, and the 'second daughter Dazhong' of the 1991 US trip (ch40). Same person as the glossary's &#22823;&#20013;."
+    },
+    "叶炳南": {
+      "en": "Ye Bingnan",
+      "pinyin": "Yè Bǐngnán",
+      "status": "provisional",
+      "note": "Former deputy director of the Literary and Historical Materials Committee of the Zhejiang CPPCC; edited the memoir's transcript from 1996 (ch43)."
+    },
+    "钱林": {
+      "en": "Qian Lin",
+      "pinyin": "Qián Lín",
+      "status": "provisional",
+      "note": "The author's elder cousin, former Party group secretary of the Anhui Daily; worked the memoir into its second draft (ch43)."
+    },
+    "弘莘": {
+      "en": "Hongshen",
+      "pinyin": "Hóngshēn",
+      "status": "provisional",
+      "note": "Chen Yunzhong's daughter; her advice prompted the background notes added for young readers in the third draft (ch43)."
+    },
+    "梁云福": {
+      "en": "Liang Yunfu",
+      "pinyin": "Liáng Yúnfú",
+      "status": "provisional",
+      "note": "Responsible editor at the Encyclopedia of China Publishing House (ch43)."
+    },
+    "童行侃": {
+      "en": "Tong Xingkan",
+      "pinyin": "Tóng Xíngkǎn",
+      "status": "provisional",
+      "note": "Art editor at the Encyclopedia of China Publishing House (ch43)."
+    },
+    "沈英影": {
+      "en": "Shen Yingying",
+      "pinyin": "Shěn Yīngyǐng",
+      "status": "provisional",
+      "note": "Of the Zhejiang CPPCC general office; typed the memoir's first draft (ch43)."
     }
   },
   "organizations": {
@@ -3104,6 +3205,41 @@
       "pinyin": "Dìfāng Xiéhuì",
       "status": "decided",
       "note": "Du Yuesheng's Shanghai Local Association, in whose name funds supported anti-Japanese propaganda (ch21)."
+    },
+    "莫斯科中山大学": {
+      "en": "Sun Yat-sen University, Moscow",
+      "status": "attested",
+      "note": "Sun Yat-sen University in Moscow (KUTK), which trained Chinese revolutionaries in the 1920s; Liu Shaowen studied there from 1925 (ch41)."
+    },
+    "中央社会部": {
+      "en": "Central Social Affairs Department",
+      "status": "attested",
+      "note": "The CCP Central Committee's intelligence and security organ; Liu Shaowen was its deputy head from 1948 (ch41)."
+    },
+    "新知书店": {
+      "en": "New Knowledge Bookstore",
+      "status": "attested",
+      "note": "Shanghai left-wing publisher that issued Mei Yi's translation of How the Steel Was Tempered in 1942 (ch41 note)."
+    },
+    "人民日报": {
+      "en": "People's Daily",
+      "status": "attested",
+      "note": "The Party's central newspaper; source of the 1996 Liu Shaowen tribute excerpted as Appendix III."
+    },
+    "安徽日报": {
+      "en": "Anhui Daily",
+      "status": "attested",
+      "note": "Provincial newspaper; the cousin Qian Lin was its Party group secretary (ch43)."
+    },
+    "中国人民救济总会": {
+      "en": "China People's Relief Administration",
+      "status": "attested",
+      "note": "National relief body; the author headed a section of its Shanghai branch from 1950 (ch40)."
+    },
+    "中国青年科学技术人员协会": {
+      "en": "Association of Chinese Young Scientific and Technical Personnel",
+      "status": "provisional",
+      "note": "Wartime body Liu Shaowen led in Chongqing to organize scientific and technical workers (ch41)."
     }
   },
   "places": {
@@ -3655,6 +3791,47 @@
       "pinyin": "Wànglóngmén",
       "status": "attested",
       "note": "The Chongqing site of the Juntong secret detention house where the narrator was held (ch21)."
+    },
+    "大冶": {
+      "en": "Daye",
+      "pinyin": "Dàyě",
+      "status": "decided",
+      "note": "County (now city) in Hubei where the author was sent on leaving Qincheng in 1975, her daughter's family being posted there with a geological team (ch40, ch42)."
+    },
+    "黄石": {
+      "en": "Huangshi",
+      "pinyin": "Huángshí",
+      "status": "decided",
+      "note": "City in Hubei; the author appealed to its municipal Party organization department in the 1970s (ch42)."
+    },
+    "信阳": {
+      "en": "Xinyang",
+      "pinyin": "Xìnyáng",
+      "status": "decided",
+      "note": "City in Henan, Liu Shaowen's birthplace (ch41)."
+    },
+    "张家口": {
+      "en": "Zhangjiakou",
+      "pinyin": "Zhāngjiākǒu",
+      "status": "decided",
+      "note": "City in Hebei; Liu Shaowen went to its anti-Japanese front after 1931 (ch41)."
+    },
+    "平山": {
+      "en": "Pingshan",
+      "pinyin": "Píngshān",
+      "status": "decided",
+      "note": "County in Hebei near the Party Center's wartime seat (Xibaipo); Liu Shaowen withdrew there in 1948 (ch41)."
+    },
+    "德胜门": {
+      "en": "Deshengmen",
+      "pinyin": "Déshèngmén",
+      "status": "decided",
+      "note": "A Beijing prison to which the author was moved in 1955 (ch40)."
+    },
+    "中原": {
+      "en": "Central Plains",
+      "status": "decided",
+      "note": "The Central Plains (Zhongyuan) Liberated Area, linked to Chongqing by a secret line Liu Shaowen laid (ch41)."
     }
   },
   "terms": {
@@ -3784,6 +3961,21 @@
       "pinyin": "xiàjiāng lǎo",
       "status": "decided",
       "note": "A colloquial term for refugees from the lower Yangtze who fled to the wartime rear (ch21)."
+    },
+    "离休": {
+      "en": "lixiu (honorable retirement)",
+      "status": "decided",
+      "note": "Retirement status for veteran cadres who joined the revolution before 1949, distinct from ordinary &#36864;&#20241;; fuller pay and standing. The author's was settled in 1994 (ch40)."
+    },
+    "三反": {
+      "en": "Three-Anti campaign",
+      "status": "attested",
+      "note": "The 1951-52 campaign against corruption, waste, and bureaucratism; the author was rated a model worker in it (ch40)."
+    },
+    "地下长城": {
+      "en": "underground Great Wall",
+      "status": "decided",
+      "note": "'Underground Great Wall,' the Party's clandestine front; the title of the Part Two ci poem, echoed at the close of the Liu Shaowen bio (ch41)."
     }
   }
 }
