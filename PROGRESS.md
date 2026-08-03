@@ -2540,3 +2540,135 @@ blockquote equals the source content char-for-char before writing).
   beside "a thing that could by no possibility have been there." Faithful to the
   source; no bridging text invented; the one genuine ambiguity flagged is the
   time-gloss/flashback relation (recorded above), not smoothed over.
+
+## B21 = ch21 (第二十一章 卯正 / "The Hour of the Rabbit, Second Half, 6 a.m.")
+
+Scope: the whole chapter, 12,986 source characters (book.json); 14,710 source
+chars incl. the time-gloss, 229 body paragraphs. Built the bilingual with the
+verbatim-guaranteed generator scripts/gen_ch21_bilingual.py (reads the source
+lines from data/src/45_text00043.txt, pairs each with hand-authored English,
+merges the extractor-split dateline halves, and asserts the concatenation of
+every '>' blockquote equals the source content char-for-char before writing).
+
+### Source structure handled
+- Opening flash-forward vignette: L2 and L3, TWO separate paragraphs (each ends
+  in 。, so neither is extractor-split). The pair RECURS verbatim at the head of
+  L53 (这两个人畏畏缩缩地… = L2 + L3 concatenated, then continues) and both
+  occurrences are translated identically (the VIG_A/VIG_B constants are re-used in
+  the L53 paragraph). Verified: L53's English opens with exactly the L2+L3 text.
+- Dateline L4+L5 (extractor-split: 天宝三载元月十五日，卯正 / 。) MERGED into one
+  pair; the L1 content-marker heading 卯正 absorbed into the H2 title, as
+  ch01-ch20. Location line L6 (长安，兴庆宫。) its own paragraph.
+- Time-gloss L232 rendered as the source's own italic note, prefixed
+  "*[The source appends a note on the hour to each chapter:]*". THIS TIME THE
+  GLOSS MATCHES THE NOMINAL HOUR: it describes 卯/凌晨6点 (北京时间05时至07时),
+  which is exactly this chapter's hour 卯正/6 a.m. Unlike ch20 (whose gloss was
+  on its flashback dateline 午正), ch21 has no flashback and no hour mismatch.
+  Trailing L233 (U+200B) dropped.
+- Scene breaks (house style, no glyph): the chapter cuts between the tower-wall
+  escape (Xiao Gui, the Son of Heaven, Taizhen, Zhang) and Li Bi's thread (Yao
+  Runeng's cell at L72; the Anye Ward raid at L100/L116; back to the wall at L126).
+  Each shift is a plain paragraph break, matching ch01-ch20.
+
+### Checks run
+- Verbatim quotation: generator asserts concat of every '>' blockquote + the
+  time-gloss == source content char-for-char (14,710 chars, L2-L232). PASS.
+- check_structure.py --pairs: parity 230/230 EQUAL. PASS.
+- check_numbers.py --noise noise.txt: 230 pairs, 0 unresolved. PASS.
+- qa_epub.py on the rebuilt cumulative EPUB: PASS (38 files, 32 documents, all
+  links resolve; 73 note references / 73 bodies / 73 backlinks).
+- Blind double-translation (literary sample, L39-L41: the couplet, the dream of
+  "a man surnamed Bai," and the emperor's comfort): re-rendered in a fresh pass
+  and diffed — no divergence of meaning; 比翼鸟/连理枝, 白姓之人, 坤道 (= "female
+  Daoist," glossary form), 鱼水之欢 all faithful. 0 content errors.
+- Round-trip back-translation (number-dense sample, L129-L130: the walled-corridor
+  construction): back-rendered to Chinese and diffed against source — 开元十六年
+  = "sixteenth year of Kaiyuan" (16), 十六里 = "sixteen li" (16), 两宫/两地 = 2,
+  望仙门/通化门/曲江 all present. 0 omissions.
+- Sample error rate over the audited ~4% (L39-L41, L129-L130, plus the dateline
+  and time-gloss): 0 errors.
+
+### Numbers (check_numbers) — what was carried, what was noised
+- Carried as real quantities (English fixed to hold the value): 三载→"third year"
+  (3), 十五日→"fifteenth day" (15), 五指→"five fingers" (5), 三丈→"three zhang" (3),
+  五个蚍蜉→"five aphids" (5), 三下→"three ... tugs" (3), 六进→"six courtyards" (6),
+  第四坊→"fourth ward" (4)/四坊→"four wards" (4), 开元二十五年→"twenty-fifth year
+  of Kaiyuan" (25, see WORD_NUM below), 三十多→"thirty-odd" (30), 七香车→
+  "seven-fragrance carriage" (7, decided glossary form carries "seven"), 三百下→
+  "three hundred times" (300), 开元十六年/十六里→"sixteenth"/"sixteen" (16), 十里→
+  "ten li" (10), 二百步→"two hundred paces" (200), 五十步→"fifty paces" (50), 三个
+  哨位→"three posts" (3), 十次→"ten times" (10), 行百里者半九十→"a hundred-li … ninety
+  li" (100/90, carried AND footnoted). Many 两/二 rendered "two/both/either" (=2).
+  三步并作两步→"in two strides for three" (self-carries 3 and 2, so no noise). 四目
+  相对→"four eyes meeting" (self-carries 4). Time-gloss 6/05/07 all carried.
+- WORD_NUM extended in check_numbers.py: added "twenty-fifth": 25 (the English
+  parser reads only 20 out of the compound ordinal "twenty-fifth"; 开元二十五年
+  needs the 25). Recorded here per the numbers protocol.
+- noise.txt extended by 5 entries (all NON-quantity): 漏洞百出 (百出="countless"),
+  智计百出 (百出="countless"), 两情相悦 (两="both parties", a 两-idiom), 判若两人
+  (两-idiom), 三个字 (a CHARACTER-COUNT for 走夹城, not a quantity). Already present
+  and reused: 七手八脚, 百姓, 十足, 百感交集, 三步并两步 (note: source has 三步并作
+  两步 with 作, so that built-in did not match — handled by "two strides for three").
+- 九五之尊 (L201) needs no noise: cn_to_int returns None (no place-value char), so
+  it is ignored by the checker.
+
+### Notes added (3; total now 73)
+- ch21 note 1 (anchor "on earth, two branches twined into one", L39): the couplet
+  在天愿作比翼鸟，在地愿为连理枝 is Bai Juyi's 长恨歌; the dreamed "man surnamed Bai"
+  is the poet himself, a deliberate anachronism (Bai Juyi b. 772, poem c. 806).
+- ch21 note 2 (anchor "This god is called Yaluoshan", L11): 轧荦山 was An Lushan's
+  childhood name — the hidden war-god idol already bears the future rebel's name.
+  (An Lushan the person was noted at ch16; this notes the statue/Easter egg.)
+- ch21 note 3 (anchor "of a hundred-li journey ninety li is but the halfway mark",
+  L136): 行百里者半九十 from the 战国策 — the last stretch is the hardest.
+
+### Glossary
+- Grew by 27 rows. People: 轧荦山/Yaluoshan, 贞顺武皇后/Empress Wu Zhenshun,
+  武惠妃/Consort Wu, 李瑛/Li Ying, 高祖/Emperor Gaozu. Places: 疾陵城/Jiling,
+  陇西/Longxi, 太极殿/the Taiji Hall, 永安宫/the Yong'an Palace, 望仙门/the Wangxian
+  Gate, 通化门/the Tonghua Gate, 曲江/Qujiang, 朱雀街/the Vermilion Bird Avenue (alias),
+  贞顺武皇后庙/the Temple of Empress Wu Zhenshun. Terms: 夹城/the walled corridor,
+  复道/the elevated corridor, 跸口/passing-bay, 缒架/the lowering-frame, 号旗/
+  signal-flag, 披帛/silk stole, 假披/false drape, 手实/hand-declaration, 隐寄/
+  concealed holding, 授宅推恩令/the Edict of Grace on the Bestowal of Residences,
+  象牙柄折刀/ivory-handled folding knife, 城上郎/wall-officer, 邀风阁/the Wind-Wooing
+  Hall (source variant of 邀风堂, same referent — SEE flag below). 兴庆坊 already
+  present. Reused all decided renderings (Taizhen, the Son of Heaven=朕→"Us/We",
+  陛下=Your/His Majesty, 圣人=the Sage, Li Bi/Deputy Director Li, Yao Runeng,
+  Recorder Xu, Ji Wen, Yuan Zai, Li Linfu=the Right Minister, Li Heng/heir apparent,
+  Li Mao, Yang Yuhuan, the Pifu/aphids, the Jing'an Bureau, the Lüben Guards, the
+  great watchtower, the Qinzheng Wuben Tower, the Wind-Wooing Hall, the
+  Star-Plucking Hall, the Taishang Xuanyuan Lantern-Tower, the Longchi, the
+  Chenxiang Pavilion, the Self-Raining Pavilion, the Daming Palace, the Xingqing
+  Palace, the Chengtian/Zhuque Gates, the Yanxing Gate, Anye/Guangde/Jinggong
+  Wards, the Vermilion Bird Avenue, the Qujiang Pool, Emperor Taizong/Gaozong, the
+  fierce-fire thunder, the Que-le Huo-duo, finger-snap, chi/zhang/li).
+
+### Figures
+- None. No content illustration in data/figs/ for this chapter (only the source's
+  footnote-marker glyph Image00004.jpg and the scene-break rule Image00005.jpg,
+  neither a figure). figures.json unchanged.
+
+### Flagged for the read-through
+- HOUR-GLOSS MATCH: ch21's time-gloss describes 卯/6 a.m., which equals its
+  nominal hour 卯正 — no flashback, no mismatch (contrast ch20). Noted for the
+  record, not a defect.
+- SOURCE VARIANT 邀风阁 vs 邀风堂: this chapter writes the tower's open third floor
+  as 邀风阁 (阁, "loft/pavilion") at L26 and L31, where ch19/ch20 wrote 邀风堂 (堂,
+  "hall"). Same referent (the third floor). Rendered with the decided form "the
+  Wind-Wooing Hall" for one-referent-one-rendering consistency; glossary carries a
+  邀风阁 row cross-referencing 邀风堂. Not "corrected" in the source quotation.
+- Register: kept the emperor's imperial voice (朕 → royal "Us/We/Our"; 陛下 =
+  "Your Majesty" in address, "His Majesty" in reference), the coarse "vile wench"
+  for 臭娘们 (L207), and Xiao Gui's cold register. 坤道 = "female Daoist" (glossary),
+  披帛/假披 rendered "silk stole"/"false drape" so Taizhen's stole-as-weapon ruse
+  reads clearly.
+- The chapter braids two threads: the Pifu's escape down the tower wall and along
+  the 夹城 walled corridor toward Qujiang (all three trapped tower-top Pifu, then
+  two more, die on the ropes — Zhang secretly sabotaging each — until only Xiao
+  Gui remains); and Li Bi's release of Yao Runeng to restart the watchtowers plus
+  his raid on the Anye Ward mansion, where the 手实 (hand-declaration) points at
+  Li Linfu via a 隐寄 concealed holding. Ends with Zhang and Xiao Gui plunging
+  together off the eastern wall wrapped in the signal-flag "just as in years gone
+  by," as the first dawn breaks and the curfew drums sound. No bridging text
+  invented; the single flagged ambiguity is the 邀风阁/邀风堂 variant (above).

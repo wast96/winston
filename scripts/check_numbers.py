@@ -30,6 +30,9 @@ WORD_NUM = {
     "seventeenth": 17,
     "thirteenth": 13, "fourteenth": 14, "fifteenth": 15, "sixteenth": 16,
     "twentieth": 20,
+    # ch21: compound ordinal regnal year 开元二十五年; the built-in "twenty"/TENS
+    # reads only 20 out of "twenty-fifth", so the 25 in the source needs this.
+    "twenty-fifth": 25,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}

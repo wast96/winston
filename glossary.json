@@ -751,6 +751,36 @@
       "pinyin": "Suí Yángdì",
       "status": "attested",
       "note": "Yang Guang (569&#8211;618), last effective emperor of the Sui, a byword for a ruler brought down by extravagance and misrule. ch20."
+    },
+    "轧荦山": {
+      "en": "Yaluoshan",
+      "pinyin": "Yàluòshān",
+      "status": "attested",
+      "note": "A Persian war-god idol hidden atop the Qinzheng Wuben Tower; the name was also the childhood name of the rebel general An Lushan (安禄山). See the note at its first appearance (ch21)."
+    },
+    "贞顺武皇后": {
+      "en": "Empress Wu Zhenshun",
+      "pinyin": "Zhēnshùn Wǔ Huánghòu",
+      "status": "attested",
+      "note": "Consort Wu Huifei (武惠妃, d. 737), Xuanzong's most beloved consort, posthumously raised to empress with the name Zhenshun. Mother of Li Mao (Prince Shou) and of the plot to depose the heir apparent Li Ying."
+    },
+    "武惠妃": {
+      "en": "Consort Wu",
+      "pinyin": "Wǔ Huìfēi",
+      "status": "attested",
+      "note": "The living style of the woman posthumously titled Empress Wu Zhenshun; <i>Huifei</i> is her consort rank."
+    },
+    "李瑛": {
+      "en": "Li Ying",
+      "pinyin": "Lǐ Yīng",
+      "status": "attested",
+      "note": "Xuanzong's eldest surviving son and heir apparent until 737, framed by Consort Wu and driven to his death; the title then passed to Li Heng."
+    },
+    "高祖": {
+      "en": "Emperor Gaozu",
+      "pinyin": "Gāozǔ",
+      "status": "attested",
+      "note": "Li Yuan (566–635), founding emperor of the Tang. Rendered by temple name, as with Taizong/Gaozong already in the glossary."
     }
   },
   "organizations": {
@@ -2081,6 +2111,60 @@
       "pinyin": "Hénán Xiàn",
       "status": "attested",
       "note": "A metropolitan county at Luoyang; home of the Pifu Suo Fahui. ch20."
+    },
+    "疾陵城": {
+      "en": "Jiling",
+      "pinyin": "Jílíng chéng",
+      "status": "attested",
+      "note": "A city of the far Western Regions (Zaranj, in Sistan), seat of the Tang Persian Governorate set up for the exiled Sasanian prince Peroz. Home of the old artisan who built the Yaluoshan into the tower."
+    },
+    "陇西": {
+      "en": "Longxi",
+      "pinyin": "Lǒngxī",
+      "status": "attested",
+      "note": "A commandery west of the Long mountains (in modern Gansu); ancestral seat of the Li clan, including the imperial house and Li Linfu."
+    },
+    "太极殿": {
+      "en": "the Taiji Hall",
+      "pinyin": "Tàijí diàn",
+      "status": "attested",
+      "note": "The main audience hall of the Taiji Palace (the 'Western Precinct'), where the earliest Tang emperors held court before the Daming and Xingqing palaces were built."
+    },
+    "永安宫": {
+      "en": "the Yong'an Palace",
+      "pinyin": "Yǒng'ān gōng",
+      "status": "attested",
+      "note": "The palace Taizong raised east of the Taiji Hall (the 'Eastern Precinct'), later renamed the Daming Palace."
+    },
+    "望仙门": {
+      "en": "the Wangxian Gate",
+      "pinyin": "Wàngxiān mén",
+      "status": "attested",
+      "note": "A gate on the southern wall of the Daming Palace; the northern terminus of the walled corridor."
+    },
+    "通化门": {
+      "en": "the Tonghua Gate",
+      "pinyin": "Tōnghuà mén",
+      "status": "attested",
+      "note": "A gate in Chang'an's eastern outer rampart, passed by the walled corridor on its way to the Xingqing Palace."
+    },
+    "曲江": {
+      "en": "Qujiang",
+      "pinyin": "Qūjiāng",
+      "status": "attested",
+      "note": "The scenic Qujiang district and pool in Chang'an's southeast, southern terminus of the extended walled corridor; also written 曲江池, the Qujiang Pool."
+    },
+    "朱雀街": {
+      "en": "the Vermilion Bird Avenue",
+      "pinyin": "Zhūquè jiē",
+      "status": "decided",
+      "note": "Short form of 朱雀大街, Chang'an's central north–south boulevard."
+    },
+    "贞顺武皇后庙": {
+      "en": "the Temple of Empress Wu Zhenshun",
+      "pinyin": "Zhēnshùn Wǔ Huánghòu miào",
+      "status": "decided",
+      "note": "The shrine to Consort Wu in Anye Ward, the ward's most famous building."
     }
   },
   "terms": {
@@ -3331,6 +3415,84 @@
       "pinyin": "bádēng hóngchóu",
       "status": "decided",
       "note": "The title and prize won by the year&#8217;s foremost lantern-float troupe (拔灯 + 红筹); its holder, a girl, is glimpsed in the flash-forward. ch20."
+    },
+    "夹城": {
+      "en": "the walled corridor",
+      "pinyin": "jiāchéng",
+      "status": "decided",
+      "note": "A concealed passage running within a doubled city wall, built so the emperor could move between his palaces unseen; here 夹城复道, the walled corridor. Historical."
+    },
+    "复道": {
+      "en": "the elevated corridor",
+      "pinyin": "fùdào",
+      "status": "decided",
+      "note": "The covered/raised way running through the 夹城; often paired as 夹城复道, the walled corridor."
+    },
+    "跸口": {
+      "en": "passing-bay",
+      "pinyin": "bìkǒu",
+      "status": "decided",
+      "note": "A widened bay set at intervals along the corridor where attendants could step aside and vehicles pass; <i>bi</i> is the clearing of the way before an imperial progress."
+    },
+    "缒架": {
+      "en": "the lowering-frame",
+      "pinyin": "zhuìjià",
+      "status": "decided",
+      "note": "A windlass-and-basket rig on the city wall for hoisting a man or horse over when the gates were shut at night."
+    },
+    "号旗": {
+      "en": "signal-flag",
+      "pinyin": "hàoqí",
+      "status": "decided",
+      "note": "A flag on the wall-top used for signaling."
+    },
+    "披帛": {
+      "en": "silk stole",
+      "pinyin": "pībó",
+      "status": "decided",
+      "note": "The long draped silk scarf worn over the shoulders and arms by Tang women of rank."
+    },
+    "假披": {
+      "en": "false drape",
+      "pinyin": "jiǎpī",
+      "status": "decided",
+      "note": "An informal way of wearing the silk stole—looped loosely over one arm rather than round the neck—used in private among intimates; here Taizhen turns it into a weapon."
+    },
+    "手实": {
+      "en": "hand-declaration",
+      "pinyin": "shǒushí",
+      "status": "decided",
+      "note": "A Tang self-declared register of a household's persons and property; here the deed-record of a residence."
+    },
+    "隐寄": {
+      "en": "concealed holding",
+      "pinyin": "yǐnjì",
+      "status": "decided",
+      "note": "The practice of buying property in a dependent's or slave's name to hide the true owner's identity."
+    },
+    "授宅推恩令": {
+      "en": "the Edict of Grace on the Bestowal of Residences",
+      "pinyin": "Shòuzhái Tuī'ēn Lìng",
+      "status": "decided",
+      "note": "A decree restricting sale of the residences in the four wards flanking the Vermilion Bird Avenue to the imperial lineage and titled nobility. Novelistic."
+    },
+    "象牙柄折刀": {
+      "en": "ivory-handled folding knife",
+      "pinyin": "xiàngyá bǐng zhédāo",
+      "status": "decided",
+      "note": "The Son of Heaven's own folding knife, taken by Zhang Xiaojing in the Star-Plucking Hall and passed to Taizhen; a recurring prop through ch20–ch21."
+    },
+    "城上郎": {
+      "en": "wall-officer",
+      "pinyin": "chéngshàngláng",
+      "status": "decided",
+      "note": "An officer set over a group of sentry posts on the city wall."
+    },
+    "邀风阁": {
+      "en": "the Wind-Wooing Hall",
+      "pinyin": "Yāofēng gé",
+      "status": "decided",
+      "note": "A source variant of 邀风堂 (the Wind-Wooing Hall), the open third floor of the Qinzheng Wuben Tower; rendered with the same decided form."
     }
   }
 }

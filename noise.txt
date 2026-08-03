@@ -368,3 +368,21 @@
 # idiom, cf. 四下/四面/四处/四方 already listed but with 外); the 四 is not the
 # quantity 4. English renders "on every side."
 四外
+# ch21: 漏洞百出 = "riddled with holes/flaws" (idiom, lit. "a hundred holes
+# appearing"); the 百 is "countless," not the count 100. English renders
+# "riddled with such gaps."
+漏洞百出
+# ch21: 智计百出 = "endless in scheme and stratagem" (idiom); 百出 = "countless,"
+# not the count 100. English renders "for all their endless schemes."
+智计百出
+# ch21: 两情相悦 = "mutual love / both in love" (a 两-idiom, cf. 首鼠两端/两不相欠
+# already listed); the 两 is "both parties," not the count 2. English renders
+# "sweethearts, their affections mutual."
+两情相悦
+# ch21: 判若两人 = "like two utterly different people" (a 两-idiom); the 两 is
+# conventional, not the count 2. English renders "a different person altogether."
+判若两人
+# ch21: 三个字 in 吐出三个字 = a CHARACTER-COUNT (走夹城 is three characters), not a
+# quantity (cf. 四个字/六个字 handling); English renders the line naturally without
+# forcing "three."
+三个字
