@@ -130,3 +130,18 @@ GH[五○九K八×]+
 # 人..."); the collapsed "第一万" parses as the ordinal 1 + 一万 = 10000, neither a
 # real quantity. Strips the artifact. (The dropped negative is footnoted, not silently smoothed.)
 第一万
+# --- B12 (ch53-ch57) additions ---
+# 零票 = small-denomination / loose banknotes (三四元零票, ch53); the 零 means "odd,
+# small change", not the quantity 0. (cf. 零星/零碎/飘零 above.)
+零票
+# 六安 = Lu'an, an Anhui place name in the hotel name 六安旅社 (the Lu'an Hotel on Rue
+# du Consulat, ch54); the 六 is not the count 6. (六 read "lu" in this place name.)
+六安
+# Chinese kinship titles ranked by seniority, rendered by their English relational
+# names (Third Uncle / Second Auntie / Third Sister); the numeral ranks the kin, not a
+# count. 三叔 = Cishan's Third Uncle (ch53-54); 二婶 = Second Auntie (Bingfu's address to
+# Cishan's mother, ch53); 三妹 = "Third Sister", Mei Yingzi's telephone alias (ch55).
+# (cf. 三郎 the -Saburo suffix, B11.)
+三叔
+二婶
+三妹

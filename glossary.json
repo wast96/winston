@@ -290,6 +290,24 @@
    "pinyin": "Mei Lanfang",
    "status": "attested",
    "note": "Real historical figure (1894&#8211;1961), the most celebrated Peking-opera performer of his age, renowned for his female roles; a stage photograph of him in <span lang=\"zh-Hans\">天女散花</span> backs the boat girl's mirror (ch52). Corroborated."
+  },
+  "丙福": {
+   "en": "Bingfu",
+   "pinyin": "Bingfu",
+   "status": "decided",
+   "note": "A son of the eldest uncle (<span lang=\"zh-Hans\">大伯</span>) of Cishan&#8217;s boat family, once a strong young man with a little land, now a heroin addict who begs from the boat and informs on its guests (ch53); <span lang=\"zh-Hans\">丙福</span> in pinyin."
+  },
+  "慈珊的三叔": {
+   "en": "Cishan's Third Uncle",
+   "pinyin": "Cishan de san shu",
+   "status": "decided",
+   "note": "Cishan&#8217;s father&#8217;s youngest brother, a Suzhou Creek boatman who proves to be a resistance agent and smuggles the narrator and Mei Yingzi ashore through the sealed-off district (ch53&#8211;ch54); named by relation, as in the source (<span lang=\"zh-Hans\">三叔</span>, &#8216;Third Uncle&#8217;). See the Chapter 53 note on the kinship numbering."
+  },
+  "小黑子": {
+   "en": "Xiao Heizi",
+   "pinyin": "Xiao Heizi",
+   "status": "decided",
+   "note": "The boy of fifteen or sixteen who crews Cishan&#8217;s Third Uncle&#8217;s boat (ch53&#8211;ch54); the nickname <span lang=\"zh-Hans\">小黑子</span> means &#8216;Little Blackie.&#8217; Pinyin."
   }
  },
  "organizations": {
@@ -786,6 +804,36 @@
    "pinyin": "Suzhou He",
    "status": "attested",
    "note": "The creek (Wusong River) winding through northern Shanghai, its banks crowded with the sampans and junks of the boat people among whom the pair take refuge (ch51). Standard English name."
+  },
+  "法大马路": {
+   "en": "Rue du Consulat",
+   "pinyin": "Fada Malu",
+   "status": "attested",
+   "note": "A chief east&#8211;west thoroughfare of the French Concession, the Rue du Consulat (<span lang=\"zh-Hans\">公馆马路</span>), known colloquially as <span lang=\"zh-Hans\">法大马路</span> (&#8216;the French great road&#8217;) and lined with small hotels; the narrator and Mei Yingzi take refuge there (ch54). Today East Jinling Road. Corroborated."
+  },
+  "六安旅社": {
+   "en": "the Lu'an Hotel",
+   "pinyin": "Lu'an Lushe",
+   "status": "provisional",
+   "note": "A cheap little hotel on Rue du Consulat where the pair pass the night as country brother and sister (ch54); <span lang=\"zh-Hans\">六安</span> (Lu&#8217;an, a prefecture in Anhui) romanized here."
+  },
+  "戈登路": {
+   "en": "Gordon Road",
+   "pinyin": "Gedeng Lu",
+   "status": "attested",
+   "note": "A road in the International Settlement named for Charles George (&#8216;Chinese&#8217;) Gordon; the narrator changes to a tram for it on the way to Dr. Philip&#8217;s clinic (ch55). Today Jiangning Road. Corroborated."
+  },
+  "新世界": {
+   "en": "the New World",
+   "pinyin": "Xin Shijie",
+   "status": "attested",
+   "note": "A multi-storey amusement hall by the Racecourse, opened 1915, the elder rival of the Great World; the narrator hires a rickshaw to it and changes there for a tram (ch55). Corroborated."
+  },
+  "皇宫饭店": {
+   "en": "the Palace Hotel",
+   "pinyin": "Huanggong Fandian",
+   "status": "provisional",
+   "note": "The hotel at whose banquet Miyama Yoshiko is poisoned, as reported in the paper (ch56); <span lang=\"zh-Hans\">皇宫</span> (&#8216;imperial palace&#8217;) rendered &#8216;Palace&#8217; here. Provisional."
   }
  },
  "terms": {

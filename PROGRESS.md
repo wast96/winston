@@ -1316,3 +1316,124 @@ Build: python3 scripts/build_reading_epub.py "out/The Whistling Wind.epub" — 5
 chapters translated (ch00-ch52), 83 notes; the TOC stays pending-aware, the 7 untranslated
 chapters (ch53-ch59) still linking their skeleton outlines. qa_epub.py GREEN
 (72 files, 66 documents, 83 references / 83 bodies / 83 backlinks, all links resolve).
+
+## Batch B12 — Chapters 53 to 57 (ch53, ch54, ch55, ch56, ch57)
+
+Units and sizes (source chars, whitespace-stripped, from the ingest): ch53 = 7,476
+(源 五十三), ch54 = 3,929 (源 五十四), ch55 = 4,932 (源 五十五), ch56 = 4,787 (源 五十六),
+ch57 = 3,134 (源 五十七). Batch = 542 source paragraphs (154/78/109/126/75). The
+escape-and-aftermath run after the action climax: ch53 the desolate wait on the Suzhou
+Creek boat, the heroin-addict cousin Bingfu who begs and then informs, Cishan fetching her
+Third Uncle, and the Third Uncle (a resistance agent) taking them onto his boat and
+revealing himself once the narrator surrenders his pistol and confesses, plus the newspaper
+report of Bai Ping's death; ch54 the passage through the bridge-gates, ashore to the tailor's
+shop and the tingzijian, the sight of Bai Ping's own suitcases ("held for the Tao residence"),
+and the little hotel on Rue du Consulat; ch55 the wish-fulfilment dream of a Stephen-Bai Ping
+wedding and an enemy surrendered, then the waking, the phone call, Dr. Philip's clinic and the
+disguise, and Mei Yingzi's 100,000-yuan farewell; ch56 the reunion with the weeping Ah Mei at
+Helen's, Bai Ping's bequests (Jimi, the ring, the diary, the portrait), Mrs. Manfield's
+midnight plea, and the news of Miyama Yoshiko poisoned; ch57 the heart-pounding night, Mrs.
+Manfield at half past eleven, the flight to the Standford to find Mei Yingzi (gone), farewell
+to Miko, and the dead-hearted return.
+
+The checks (QC contract), all run this batch:
+1. Faithful, complete quotation: bilingual QC files built with scripts/_zip_bilingual.py
+   (copies source paragraphs verbatim, errors on any count mismatch). Whitespace-stripped char
+   comparison of joined '>' blockquotes vs joined source paragraphs EXACT: ch53 7476=7476,
+   ch54 3929=3929, ch55 4932=4932, ch56 4787=4787, ch57 3134=3134; paragraph counts
+   154/78/109/126/75 exact.
+2. Blind double translation (separate context, subagent): 10 analytical/lyrical + plot
+   passages (ch53-024/111, ch54-025, ch55-007/029, ch56-105/119/126, ch57-065/074)
+   forward-translated blind and diffed. FULL substantive agreement; the only divergences were
+   glossary-fixed provisional forms the subagent could not know (立体咖啡馆 the Liti Café,
+   槟纳饭店 the Benner Inn, 梅武 Umetake, 有恒路 Youheng Road, 宫间美子 Miyama Yoshiko), all
+   rendered here in the established glossary form.
+3. Round-trip back-translation (separate context, subagent): 6 English passages (the
+   confession ch53-118, the Tao-residence cases ch54-051, the 100k farewell ch55-096, the
+   keepsakes/foreknowledge ch56-036, the two song-code lines ch57-045/047) translated back to
+   Chinese and diffed against the source. No omissions; every clause, name and number present.
+4. Automated invariant checks: check_numbers.py --noise data/noise.txt, 0 unresolved on all
+   five (154/78/109/126/75 pairs). check_structure.py --config over all 58 translated units
+   (scratch/b12_check.json, regenerated) PASS: parity exact on the five, 93 note anchors
+   resolve (0 unresolved), one heading shape, 0 glossary drift.
+5. Term ledger: glossary.json updated (below); one rendering per referent reused across the
+   whole cast and geography.
+6. Annotate, do not smooth: source digitization glitches rendered to plain sense and listed
+   below; recurring provisional readings kept provisional in the glossary; no uncertainty
+   laundered into fluent prose.
+7. Consistency against scholarship: fact-checked (below).
+8. Random deep audit (~3%, 16 paragraphs across the five via the blind forward + back
+   translations above): full verbatim / mistranslation / omission pass. Observed substantive
+   error rate 0.
+
+Number-check noise added to data/noise.txt (B12 block), each because the check flagged (or
+would flag) a non-quantity numeral:
+- 零票: "small/loose banknotes" (三四元零票, ch53); the 零 means "odd, small change", not 0.
+- 六安: the Anhui place name in 六安旅社 the Lu'an Hotel (ch54); the 六 (read "lu") is not 6.
+- 三叔 / 二婶 / 三妹: kinship/seniority titles (Third Uncle / Second Auntie / Third Sister the
+  phone alias); the numeral ranks the kin, not a count. Stripped for safety (both source and
+  target carry the ordinal), as with 三郎 the -Saburo suffix in B11.
+
+Source digitization glitches rendered to plain meaning and NOT footnoted (no reading
+uncertainty):
+- ch53 para 020: 年强力壮 (for 身强力壮 / 年轻力壮, "strong and in his prime") → "a strong
+  young fellow ... in his prime."
+- ch53 para 035: a mismatched guillemet 『我有啦。『 (open where a close was expected) inside
+  Cishan's reported dialogue; rendered as the nested quote.
+- ch53 para 131: 亦即倒地硕命 (硕 for 殒, as 殒命 "drop dead" earlier in the same sentence) →
+  "she too fell dead."
+- ch53 para 143: a full-width variant period 「．」 for a full stop; rendered with a period.
+- ch53 para 153: 我相传他 (相传 for 相信, "believe") → "I felt sure he..."
+- ch53 para 154: 他字虽并不纯悉 (纯悉 for 纯熟, "practiced/fluent") → "his hand, though not
+  very practiced."
+- ch54 para 009: 靠窗有一气张方桌 (一气张 for 一张, "one") → "a square table."
+- ch57 para 046: 掌声噪动之肘 (之肘 for 之时, "when") → "when the applause broke out at the
+  song's end."
+
+Footnotes added (10, notes 84-93, assigned by the builder in reading order; all genuinely new,
+recurring names/places/terms keep their note at first appearance in B01-B11):
+- note 84 (ch53): the boat family's kinship-by-seniority naming (大伯 eldest uncle / 二婶 Second
+  Auntie / 三叔 Third Uncle).
+- note 85 (ch53): 野鸡生意 "unlicensed ferrying" (野鸡 = unlicensed / off-the-books), the Third
+  Uncle's illicit trade.
+- note 86 (ch53): Xiao Heizi (小黑子, "Little Blackie"), the boat boy.
+- note 87 (ch54): Rue du Consulat (法大马路 / 公馆马路, today East Jinling Road); corroborated.
+- note 88 (ch54): the suitcase label 陶宅寄存 "held for the Tao residence", disclosing Bai
+  Ping's real surname Tao behind the stage name.
+- note 89 (ch55): the 1943 novel's dream of the enemy's "unconditional surrender", anticipating
+  by two years the event of August 1945; corroborated as to the later event.
+- note 90 (ch55): 三妹 "Third Sister", Mei Yingzi's telephone cover-name.
+- note 91 (ch56): Bai Ping's disposal of her keepsakes (cat, ring, diary, portrait) as
+  foreknowledge of her death, read against the ch45 will.
+- note 92 (ch56): 军部报导部 the Japanese military press-and-information bureau (Hōdōbu);
+  corroborated as an institution.
+- note 93 (ch57): the two song titles ("the Sunset over the Huangpu" / "Autumn Green amid the
+  Cries of the Flower-Sellers") exchanged as a recognition code with Miko.
+
+Glossary rows added (glossary.json, now 150 rows across book/people/organizations/places/terms):
+people: 丙福 Bingfu (decided), 慈珊的三叔 Cishan's Third Uncle (decided), 小黑子 Xiao Heizi
+(decided); places: 法大马路 Rue du Consulat (attested), 六安旅社 the Lu'an Hotel (provisional),
+戈登路 Gordon Road (attested), 新世界 the New World (attested), 皇宫饭店 the Palace Hotel
+(provisional). Reused the whole prior cast and geography exactly (Cishan, Mei Yingzi, Bai Ping,
+Stephen, Mrs. Stephen, Helen, Mrs. Manfield, Ah Mei, Jimi, Dr. Philip, Miko, Miyama Yoshiko,
+Umetake, Arita, Suzhou Creek, Route Prosper Paris, Columbia Road, the Standford, Youheng Road,
+Hongkou, Beiping, the cheongsam).
+
+Fact-checking (Wikipedia / Baidu Baike / Shanghai road-history sources; no LLM-sourced
+references):
+- 法大马路 = the Rue du Consulat (公馆马路), the French Concession's chief east-west
+  thoroughfare, colloquially "the French great road"; renamed 金陵路 in 1943, today East Jinling
+  Road. Corroborated; note 87, glossary.
+- 戈登路 = Gordon Road (for Charles George "Chinese" Gordon), International Settlement, today
+  Jiangning Road. Corroborated; glossary.
+- 新世界 = the New World amusement hall, opened 1915 by the Racecourse, the forerunner and
+  rival of the Great World. Corroborated; glossary.
+- 军部报导部 = the Japanese military press-and-information bureau (Hōdōbu), the occupation's
+  news-control organ. Corroborated as an institution; note 92.
+- Japan's unconditional surrender (August 1945), which the ch55 dream (novel written 1943)
+  anticipates. Corroborated; note 89.
+
+Build: python3 scripts/build_reading_epub.py "out/The Whistling Wind.epub": 58 of 60 chapters
+translated (ch00-ch57), 93 notes; the TOC stays pending-aware, the 2 untranslated chapters
+(ch58-ch59) still linking their skeleton outlines. qa_epub.py GREEN (72 files, 66 documents,
+93 references / 93 bodies / 93 backlinks, all links resolve).
