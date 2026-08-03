@@ -21,7 +21,7 @@ flags. It replaces a handoff: there is no next batch.
   of English, one per source paragraph).
 - Bilingual QC files: `out/<id>_bilingual.md` for every unit (QC only, never
   shipped), source `>` line copied verbatim beneath which sits the English.
-- 114 footnotes (`notes.json`), numbered #1 to #114 by the builder in reading
+- 117 footnotes (`notes.json`), numbered #1 to #117 by the builder in reading
   order, at roughly reference density (about three per chapter-equivalent).
 - Glossary (`glossary.json`): 273 entries — 99 people, 73 organizations, 60
   places, 41 terms — of which 145 are `decided`, 90 `attested`, 38 `provisional`.
@@ -45,7 +45,7 @@ B13 ch34-35 (final).
   0 unresolved for all 36 units. Every date, year, count, and clock time in the
   source survives into the English; the project non-quantity list `data/noise.txt`
   records each lexicalized/idiomatic numeral excluded, with its reason.
-- Note integrity (`qa_epub.py`): 114 references = 114 bodies = 114 backlinks,
+- Note integrity (`qa_epub.py`): 117 references = 117 bodies = 117 backlinks,
   numbering sequential in reading order; every internal link resolves. PASS
   (48 files, 42 documents).
 - Term ledger (check 5): one decided rendering per referent, enforced across all
@@ -56,6 +56,11 @@ B13 ch34-35 (final).
   Observed residual error rate ~0% after correction; the failure mode caught in
   practice was numeric (e.g. a "hundred" idiom first rendered "thousand"),
   surfaced mechanically by `check_numbers` before build.
+- Final whole-book QC read-through (2026-08-03): a close bilingual pass over all
+  36 units plus an apparatus/EPUB audit. No critical defects; it produced a set of
+  minor accuracy, readability, and formatting corrections (three added footnotes,
+  a back-matter glossary escaping fix, and a dozen small prose/heading touch-ups),
+  all recorded in `CHANGELOG.md`. Rebuilt and re-verified green.
 
 ## Known annotations, anachronisms, and editorial flags
 

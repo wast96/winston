@@ -1,4 +1,4 @@
-## A Meeting Met with a Smile Is Not Easily Won
+## Chapter 20. A Meeting Met with a Smile Is Not Easily Won
 
 Cong Feng wore a long gown, his hair standing stiff and erect; he was full of spirit, and on his face was the smile of friends long parted and met again. Ronghua wore a lake-blue qipao embroidered with plum blossoms, close-cut and slender at the waist, radiant and lovely. The two of them were for all the world like a figure painting in ink-wash, and under the cover of the evening mist they appeared before A-Chu dim and blurred, dreamlike, smoke-like.
 

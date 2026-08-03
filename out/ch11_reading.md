@@ -256,7 +256,7 @@ The maids did not understand. They only bowed their heads and gave way before th
 
 A-Chu understood.
 
-He pitied Rong Sheng for the narrowness and selfishness of his "love"; he pitied him too for the unhappy fortunes that had met him on the road of love. He thought of Hui—perhaps his own return to China was, for Cong Hui, a kind of injury.
+He pitied Rong Sheng for the narrowness and selfishness of his "love"; he pitied him too for the unhappy fortunes that had met him on the road of love. He thought of Cong Hui—perhaps his own return to China was, for Cong Hui, a kind of injury.
 
 He heard Rong Sheng's departing footsteps, and the sound of the maids coming into the room one after another.
 

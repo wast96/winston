@@ -115,7 +115,7 @@ This speech, mild in tone and strange in its words, roused no suspicion in A-Chu
 A-Chu laughed. "That is because you do not understand the tradition."
 
 > “也许是。”
-"Perhaps not."
+"Perhaps so."
 
 > “您下个星期来复诊吧。”阿初在轻松愉快地气氛中结束了和病人的谈话。
 "Come back next week for a follow-up." In an easy, cheerful atmosphere A-Chu brought the talk with his patient to a close.

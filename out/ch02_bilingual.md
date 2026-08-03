@@ -397,7 +397,7 @@ Jiang Lishui was a distant niece of the Rong family's First Madam. Both her pare
 A-Chu paid Lishui's fare and came to help carry her suitcase. “Weren't you afraid it was merely a case of the same name?”
 
 > “要是有名有姓，我还真不敢相信您初先生已经是赫赫有名的英国皇家医学院的博士了。想必，再过两年，您就是一位十足的英国绅士了。忘恩负义的东西！你吃着我们荣家、喝着我们荣家，花着我们荣家的钱，居然，不肯冠上我们荣家的姓氏--”丽水义愤填膺地说着。“我不用想，闻也闻到您初先生厚颜无耻的味道了。”
-“If it hadn't had a full name attached, I truly wouldn't have dared believe that you, Mr. Chu, were already the illustrious doctor of the Royal Medical College. Another two years, no doubt, and you'll be a thorough English gentleman. You ungrateful thing! You have eaten off the Rong family, drunk off the Rong family, spent the Rong family's money—and yet you refuse to take the Rong family's surname—” Lishui spoke, swelling with righteous indignation. “I needn't even think about it; I can smell the stink of your barefaced shamelessness, Mr. Chu, from here.”
+“If it had had a full name attached, I truly wouldn't have dared believe that you, Mr. Chu, were already the illustrious doctor of the Royal Medical College. Another two years, no doubt, and you'll be a thorough English gentleman. You ungrateful thing! You have eaten off the Rong family, drunk off the Rong family, spent the Rong family's money—and yet you refuse to take the Rong family's surname—” Lishui spoke, swelling with righteous indignation. “I needn't even think about it; I can smell the stink of your barefaced shamelessness, Mr. Chu, from here.”
 
 > 阿初并不生气，只是轻描淡写地说：“我从来没有怀疑过您的嗅觉，它甚至比猎犬还灵。”
 A-Chu was not angered, and only said lightly, “I have never doubted your sense of smell—it is keener even than a hound's.”

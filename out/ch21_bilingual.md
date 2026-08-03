@@ -1,4 +1,4 @@
-## H2 A Thousandweight on a Hair, the Arrow on the String
+## H2 Chapter 21. A Thousandweight on a Hair, the Arrow on the String
 
 > 慕次走到花园通往佛堂的铁栅门前，铁栅门被一根铁皮条拴住，他正准备打开铁栅门，突然第六感告诉自己，自己背后有人。他从准备开门的动作中突袭式转身，他的手在要掐住来人下巴的一瞬间，停在半空中，他的黑眸凝住了，他险些失声惊叫，整个人被卡住般懵了。
 Muci walked up to the iron-barred gate that led from the garden to the Buddha hall; it was fastened shut with a strip of sheet iron. Just as he was making ready to open it, all at once a sixth sense told him there was someone behind him. Out of the very motion of reaching for the gate he spun around to strike — and his hand, in the instant it was about to clamp down on the intruder's jaw, halted in midair. His dark eyes froze; he all but cried out aloud, and stood there stunned, as though his whole body had jammed fast.

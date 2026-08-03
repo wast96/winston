@@ -230,3 +230,6 @@
 万物
 # 万念俱灰 ("every hope turned to ash"); 万 = "myriad", idiom, not 10000
 万念俱灰
+# 二丈金刚(摸不着头脑) — the "eight-foot monk" idiom (properly 丈二/二丈和尚·金刚
+# 摸不着头脑, "utterly baffled"); 二丈 is the idiom's figurative measure, not the count 2
+二丈金刚

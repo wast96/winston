@@ -208,7 +208,7 @@ Muci did not answer.
 
 “Sir!” Muci went out, pulling the door shut behind him.
 
-At that same moment the other door leading into Du Luning's office was pushed open, and Yu Xiaojiang—a female operative of the Juntong Bureau, a dossier in her hand—came in. She was plain of feature, with a shrewdness about the brow; the sort of person whose joys and sorrows, likes and angers, are never easily read, the sort who vanishes without a trace the moment she plunges into a crowd.
+At that same moment the other door leading into Du Luning's office was pushed open, and Yu Xiaojiang—a Juntong Bureau major, a female operative, a dossier in her hand—came in. She was plain of feature, with a shrewdness about the brow; the sort of person whose joys and sorrows, likes and angers, are never easily read, the sort who vanishes without a trace the moment she plunges into a crowd.
 
 “You heard all of it?” Du Luning asked.
 

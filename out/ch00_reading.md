@@ -36,7 +36,7 @@ A terrible sound of a spade came out of the dark.
 
 The candle, just righted, was carried forward toward the sound—and though her heart was filled with dread, still the pink shoes pressed on along the winding pebbled path, on toward the sound of the spade.
 
-At last she saw. A man and a woman were burying a body beneath the pear tree, and the body's feet still jutted from the earth. At a single glance she knew them for her father's feet, for her father had been born with six toes on each foot!!
+At last she saw. A man and a woman were burying a body beneath the pear tree, and the body's feet still jutted from the earth. At a single glance she knew them for her father's feet, for her father had been born with six toes!!
 
 And in that instant of utter terror, a hand reached out from behind her and clamped down hard over her already-opened mouth—
 

@@ -313,7 +313,7 @@ Muci did not answer.
 “Sir!” Muci went out, pulling the door shut behind him.
 
 > 与此同时，通往杜旅宁办公室的另一道门被推开，军统局少校女特务俞晓江手里拿着一本卷宗走了进来。她相貌平常，眉宇间透着精明，是那一种喜怒哀乐都不会被人轻易察觉的人，也是那种一扎进人堆里就找不到踪影的人。
-At that same moment the other door leading into Du Luning's office was pushed open, and Yu Xiaojiang—a female operative of the Juntong Bureau, a dossier in her hand—came in. She was plain of feature, with a shrewdness about the brow; the sort of person whose joys and sorrows, likes and angers, are never easily read, the sort who vanishes without a trace the moment she plunges into a crowd.
+At that same moment the other door leading into Du Luning's office was pushed open, and Yu Xiaojiang—a Juntong Bureau major, a female operative, a dossier in her hand—came in. She was plain of feature, with a shrewdness about the brow; the sort of person whose joys and sorrows, likes and angers, are never easily read, the sort who vanishes without a trace the moment she plunges into a crowd.
 
 > “都听见了？”杜旅宁问。
 “You heard all of it?” Du Luning asked.

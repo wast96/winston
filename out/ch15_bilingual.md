@@ -418,7 +418,7 @@ A-Chu said: "It suits me exactly. After you…"
 Han Yu watched dumbly as his father and A-Chu walked off side by side, his head all a paste of confusion. Young Tang and Xia Yuechun came over to ask him: isn't your old man usually so hard to talk to? Has the weather turned today? Bowing to the worthy and stooping to the lowly, is he?
 
 > “我还二丈金刚摸不着头脑呢。”韩禹说。
-"I'm as much a colossus two zhang tall who can't make out his own head as you are," said Han Yu.
+"I'm every bit as much in the dark about it as you are," said Han Yu.
 
 > “他们讲什么？”夏跃春好奇地问。
 "What are they talking about?" Xia Yuechun asked, curious.

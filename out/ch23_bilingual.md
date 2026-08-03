@@ -220,10 +220,10 @@ Rh-negative type A is a rare blood type; the proportion of it in the country is 
 "Sir! It's me." Han Zhengqi's voice came over the line.
 
 > “有事吗？”阿初隐隐约约地感觉到要出大事，或者说，已经出了大事了。
-"What is it?"
+"What is it?" A-Chu had a faint, obscure sense that something big was about to happen—or rather, that something big had already happened.
 
 > “荣家二小姐没了。”
-"The Rong family's second young lady is gone." A-Chu had a faint, obscure sense that something big was about to happen—or rather, that something big had already happened.
+"The Rong family's second young lady is gone."
 
 > “没了？怎么死的？”
 "Gone? How did she die?"

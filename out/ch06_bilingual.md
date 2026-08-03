@@ -154,7 +154,7 @@ When I was at the modern school I came to know young Guo. He is a very kind man,
 Guo and I live very happily here in this school; we already have a little baby soon to be born, and for the child's sake we have decided to leave the school and go back to Shanghai to work, so that the child may grow up in a quiet and peaceful place. We have set the date of our return for this very month; I believe that in no more than a week we shall see each other.
 
 > 未来得日子里，我们可以自由而幸福的生活在一起，希望雅淑你和我一样，企盼光明得到来。
-In the days to come, we shall be able to live together, free and happy. I hope that you, Yashu, like me, may look forward to the coming of the light.
+In the days to come, we can live together, free and happy; I hope that you, Yashu, like me, will look forward to the coming of the light.
 
 > 接下去，就是和雅姗的署名和年月日的落款。雅姗万万想不到她已经投递到邮局信箱里的私人信件，此刻，又辗转回到学校里来。更想不到，有人已经拆看了她全部内心的秘密。慕次想了约半分钟，将信重新放入一个不起眼的新信封里，自己掏出钢笔来，重新抄写了新的地址，只不过把收信人的称呼改了改，改成和雅淑女士亲启。然后，将信放进给老婆孩子的一类信中。他希望，真能像和雅姗信中所写，他们会有一个美好的未来，也希望她的妹妹能及时收到这封信，不至于陷入生活得泥潭。
 What followed was He Yashan's signature and the date. Little did Yashan dream that a private letter she had already dropped into the post-office box would, at this very moment, find its way back to the school by roundabout ways. Still less did she dream that someone had already opened and read every secret of her heart. Muci thought for about half a minute, then put the letter into a new, unremarkable envelope, took out his own fountain pen, and copied out a fresh address, changing only the form of address for the recipient, to read: To be opened by Miss He Yashu in person. Then he placed the letter among those to wives and children. He hoped that things might truly turn out as He Yashan had written—that they would have a fine future—and hoped, too, that her sister might receive the letter in time, and not sink into the mire of life.
@@ -658,4 +658,4 @@ A-Chu shook his head.
 “Then what will they write?” Lishui asked.
 
 > “荣大少与一神秘女子入住同一家病房……”话音未落，即遭丽水迎头痛击，阿初大笑不止，汽车绝尘而去。
-“Young Master Rong and a mysterious woman check into the same hospital room…” Before the words were out of her mouth, Lishui dealt him a blow head-on, and A-Chu laughed without stopping as the car sped off in a cloud of dust.
+“Young Master Rong and a mysterious woman check into the same hospital room…” Before the words were out of his mouth, Lishui dealt him a blow head-on, and A-Chu laughed without stopping as the car sped off in a cloud of dust.

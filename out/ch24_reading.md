@@ -140,7 +140,7 @@ Li Qinhong and Gao Lei came to attention.
 
 "Han Zhengqi did well." As usual Li Qinhong took another's task upon herself, reaching out to receive the document; then, all at once feeling she had breached decorum, she made a smart turn, came to attention, and handed the document respectfully to Xiong Zida. "Sir, I'd like to add more men to conduct a forced search around Hengji Li, to give the Communists the false impression that we are still blindly, aimlessly hunting for their organ. This way, first, it protects our 'Rivet' from drawing the Communists' suspicion. Second, they may well bring No. 5 Plum Blossom Lane back into use as a liaison point. Third, the Communists' Special Committee meeting never came off; they are bound to choose a new, reliable place to hold it. And then our 'Rivet' will bring us a real surprise."
 
-"Well spoken." The reason Xiong Zida was willing to bear so much and yield to Li Qinhong again and again was that Li Qinhong had once been Du Luning's underground lover, and he himself was Du Luning's schoolmate; and, most important of all, the Detective Division needed a posture of "two armies facing off," so that he could control the whole board at his ease. Besides, Li Qinhong was indeed a "doer." She had gone through fire and death, and had won military credit for him too. Overbearing she might be, but a capable "Monkey King" was better than a useless "Sandy."
+"Well spoken." The reason Xiong Zida was willing to bear so much and yield to Li Qinhong again and again was that Li Qinhong had once been Du Luning's underground lover, and he himself was Du Luning's schoolmate; and, most important of all, the Detective Division needed a posture of "two armies facing off," so that he could control the whole board at his ease. Besides, Li Qinhong was indeed a "doer." She had gone through fire and death, and had won military credit for him too. Overbearing she might be, but a capable "Monkey King" was better than a useless "Sha Monk."
 
 "As for the men who go to survey the scene at No. 1141 Hengji Li, I suggest, sir, it's more fitting to leave it to the police bureau. It can throw dust in the Communists' eyes." said Gao Lei.
 
@@ -398,7 +398,7 @@ A-Chu and A-Ci felt the shock at the same moment. A-Chu thought he had already c
 
 Dimly A-Ci grasped the Detective Division's intent: the enemy meant, through a telephone, to identify who he was; long premeditated, they had laid down the fragrant bait and were only waiting for the fish to take it. Today, it seemed, the omens for him were grim, the doom past escaping.
 
-He struggled a little, but did not wish it; his body was too weak, and sweat ran over the whole of him.
+He struggled a little, but was so weak—unexpectedly so—that sweat broke out all over him.
 
 A-Chu caught the subtle change in A-Ci's eyes, and asked him: "You know what they mean to do—don't you?"
 

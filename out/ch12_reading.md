@@ -76,7 +76,7 @@ This speech, mild in tone and strange in its words, roused no suspicion in A-Chu
 
 A-Chu laughed. "That is because you do not understand the tradition."
 
-"Perhaps not."
+"Perhaps so."
 
 "Come back next week for a follow-up." In an easy, cheerful atmosphere A-Chu brought the talk with his patient to a close.
 

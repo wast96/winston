@@ -1,4 +1,4 @@
-## A Thousandweight on a Hair, the Arrow on the String
+## Chapter 21. A Thousandweight on a Hair, the Arrow on the String
 
 Muci walked up to the iron-barred gate that led from the garden to the Buddha hall; it was fastened shut with a strip of sheet iron. Just as he was making ready to open it, all at once a sixth sense told him there was someone behind him. Out of the very motion of reaching for the gate he spun around to strike — and his hand, in the instant it was about to clamp down on the intruder's jaw, halted in midair. His dark eyes froze; he all but cried out aloud, and stood there stunned, as though his whole body had jammed fast.
 

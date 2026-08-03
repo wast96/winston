@@ -102,7 +102,7 @@ When I was at the modern school I came to know young Guo. He is a very kind man,
 
 Guo and I live very happily here in this school; we already have a little baby soon to be born, and for the child's sake we have decided to leave the school and go back to Shanghai to work, so that the child may grow up in a quiet and peaceful place. We have set the date of our return for this very month; I believe that in no more than a week we shall see each other.
 
-In the days to come, we shall be able to live together, free and happy. I hope that you, Yashu, like me, may look forward to the coming of the light.
+In the days to come, we can live together, free and happy; I hope that you, Yashu, like me, will look forward to the coming of the light.
 
 What followed was He Yashan's signature and the date. Little did Yashan dream that a private letter she had already dropped into the post-office box would, at this very moment, find its way back to the school by roundabout ways. Still less did she dream that someone had already opened and read every secret of her heart. Muci thought for about half a minute, then put the letter into a new, unremarkable envelope, took out his own fountain pen, and copied out a fresh address, changing only the form of address for the recipient, to read: To be opened by Miss He Yashu in person. Then he placed the letter among those to wives and children. He hoped that things might truly turn out as He Yashan had written—that they would have a fine future—and hoped, too, that her sister might receive the letter in time, and not sink into the mire of life.
 
@@ -438,4 +438,4 @@ A-Chu shook his head.
 
 “Then what will they write?” Lishui asked.
 
-“Young Master Rong and a mysterious woman check into the same hospital room…” Before the words were out of her mouth, Lishui dealt him a blow head-on, and A-Chu laughed without stopping as the car sped off in a cloud of dust.
+“Young Master Rong and a mysterious woman check into the same hospital room…” Before the words were out of his mouth, Lishui dealt him a blow head-on, and A-Chu laughed without stopping as the car sped off in a cloud of dust.

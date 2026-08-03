@@ -1,4 +1,4 @@
-## H2 In a Single Night the Plum Blossom Betrays Spring's Craft
+## H2 Chapter 19. In a Single Night the Plum Blossom Betrays Spring's Craft
 
 > 自杀是需要血性的。
 Suicide takes hot blood.

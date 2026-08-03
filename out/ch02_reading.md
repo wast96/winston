@@ -264,7 +264,7 @@ Jiang Lishui was a distant niece of the Rong family's First Madam. Both her pare
 
 A-Chu paid Lishui's fare and came to help carry her suitcase. “Weren't you afraid it was merely a case of the same name?”
 
-“If it hadn't had a full name attached, I truly wouldn't have dared believe that you, Mr. Chu, were already the illustrious doctor of the Royal Medical College. Another two years, no doubt, and you'll be a thorough English gentleman. You ungrateful thing! You have eaten off the Rong family, drunk off the Rong family, spent the Rong family's money—and yet you refuse to take the Rong family's surname—” Lishui spoke, swelling with righteous indignation. “I needn't even think about it; I can smell the stink of your barefaced shamelessness, Mr. Chu, from here.”
+“If it had had a full name attached, I truly wouldn't have dared believe that you, Mr. Chu, were already the illustrious doctor of the Royal Medical College. Another two years, no doubt, and you'll be a thorough English gentleman. You ungrateful thing! You have eaten off the Rong family, drunk off the Rong family, spent the Rong family's money—and yet you refuse to take the Rong family's surname—” Lishui spoke, swelling with righteous indignation. “I needn't even think about it; I can smell the stink of your barefaced shamelessness, Mr. Chu, from here.”
 
 A-Chu was not angered, and only said lightly, “I have never doubted your sense of smell—it is keener even than a hound's.”
 

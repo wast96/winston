@@ -385,7 +385,7 @@ The maids did not understand. They only bowed their heads and gave way before th
 A-Chu understood.
 
 > 他可怜荣升对“爱”的狭隘和自私；他也怜悯荣升在爱情旅途里不幸的遭遇。他想到了丛惠，自己回国，对丛惠也许是一种伤害。
-He pitied Rong Sheng for the narrowness and selfishness of his "love"; he pitied him too for the unhappy fortunes that had met him on the road of love. He thought of Hui—perhaps his own return to China was, for Cong Hui, a kind of injury.
+He pitied Rong Sheng for the narrowness and selfishness of his "love"; he pitied him too for the unhappy fortunes that had met him on the road of love. He thought of Cong Hui—perhaps his own return to China was, for Cong Hui, a kind of injury.
 
 > 他听见荣升离去的脚步声和丫鬟们纷纷进屋的声音。
 He heard Rong Sheng's departing footsteps, and the sound of the maids coming into the room one after another.
