@@ -112,7 +112,7 @@ Fourth Madam told A-Chu that at the Qingming Festival she would go to the Ciyun 
 “It’s the Republic now, the Republic,” Rongrong clamored. “No call to stand on ceremony. Do you still fancy it’s the old Qing? Let me have a good look at you—so our family can turn out a doctor too?”
 
 > 阿初被她说的不好意思，倒也不回避她挑剔的目光，站直了说：“大小姐，几年没见了，还这么急风暴雨的？”
-A-Chu was made bashful by her words, yet he did not shrink from her critical gaze; standing straight, he said, “Young mistress, some years since we last met, and still such wind and rainstorm as ever?”
+A-Chu was made bashful by her words, yet he did not shrink from her critical gaze; standing straight, he said, “Young mistress, some years since we last met, and still such a whirlwind as ever?”
 
 > “天生的脾气，改不了。”荣荣笑得很灿烂。“简直不敢相信，阿初活像是洋画里的绅士。就算我告诉别人，他是荣家大少爷，别人也会信的！”
 “It’s the temper I was born with; there’s no changing it.” Rongrong laughed radiantly. “I simply can’t believe it—A-Chu looks the very image of a gentleman out of a foreign painting. Even if I told people he was the eldest Young Master of the Rong house, they’d believe it!”

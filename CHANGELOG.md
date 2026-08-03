@@ -8,6 +8,32 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
 
+## 2026-08-03 — Register pass R02 (ch07 to ch11)
+Second execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source line touched, no
+paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/. Book-wide notes 149 to 170.
+
+- ch07: 2 prose touches (眼高手低 "high of eye and low of hand" to "her sights set
+  high and her gifts modest"; 虎头蛇尾 "a tiger's head and a snake's tail" to
+  "began with a flourish and trailed off to nothing"). 6 notes (New Year print
+  年画; kowtow 磕头; burning incense to the ancestors; Qingming 清明节; Guanyin
+  观音 and charitable merit; Tongji Hospital 同济医院). Now 9.
+- ch08: 1 prose touch (急风暴雨 "wind and rainstorm" to "whirlwind"). 5 notes
+  (qipao 旗袍; Longjing 龙井 tea; "white medicine" 白药; Shanghai Garrison Command;
+  the Yan'an anachronism). Now 8.
+- ch09: 0 prose touches. 2 notes (spirit-tablet 灵牌; death-day 祭日). Now 5.
+- ch10: 0 prose touches. 3 notes (jade bangle 玉镯; French Park / French Concession;
+  the 温补 warming-tonic decoction). Now 6.
+- ch11: 0 prose touches. 5 notes (family discipline 家法; temple lot-drawing 求签;
+  bird's-nest soup 燕窝银耳; Chinese painting's scattered-point perspective;
+  Han Yu's 不平则鸣). Now 9.
+
+Checks: parity OK all five (144 / 170 / 120 / 129 / 190); check_numbers 0
+unresolved; straight-quote guard clean; spot-audit of the whole touched set, no
+drift. Rebuilt out/On a Hair Trigger.epub, qa_epub PASS (170 refs = 170 bodies =
+170 backlinks).
+
 ## 2026-08-03 — Register pass R01 (ch02 to ch06, plus ch00 note backfill)
 First execution batch of the register pass (REGISTER_PASS.md): style-only prose
 revision plus footnote densification. Content frozen; no source line touched, no

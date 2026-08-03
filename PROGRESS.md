@@ -1291,3 +1291,63 @@ Glossary/figures: no changes (this pass never re-romanizes or renames).
 Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 149 notes.
 qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 149 references = 149
 bodies = 149 backlinks, all links resolve).
+
+
+## Register pass R02 (ch07 to ch11) — 2026-08-03
+
+Second execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source ">" line touched,
+no paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/ (ch07 to ch11). Book-wide notes 149 to 170.
+
+Prose edits (3 total; these are ordinary chapters like ch01, so most paragraphs
+LEAVE and only genuine calques were touched):
+- ch07 p005 (T1) 眼高手低 "high of eye and low of hand" to "her sights set high
+  and her gifts modest" (high standards, modest ability; the image-by-image
+  calque does not carry in English).
+- ch07 p022 (T1) 虎头蛇尾 "ended like a tiger's head and a snake's tail" to
+  "began with a flourish and trailed off to nothing" (imposing start, feeble
+  finish; the tiger/snake image does not land).
+- ch08 p038 (T1) 急风暴雨 "still such wind and rainstorm as ever?" to "still such
+  a whirlwind as ever?" (of a person's headlong manner; "whirlwind" is natural).
+- ch09, ch10, ch11: no prose edits (clean literary/dialogue chapters; forcing
+  edits would be churn).
+
+Notes added (21 total; each checked against ALL prior units for first-occurrence
+coverage, scholarship verified, XHTML with numeric character references):
+- ch07 (+6, now 9): the New Year print 年画 and its stock "advertisement girls";
+  the kowtow 磕头 (with the old-rules waiver); burning incense to the ancestors
+  祭祖; the Qingming tomb-sweeping festival 清明节; Guanyin 观音 with "building
+  bridges and mending roads" 修桥铺路; Tongji Hospital 同济医院 (Paulun, 1907).
+- ch08 (+5, now 8): the qipao 旗袍; Longjing 龙井 tea; the traditional styptic
+  "white medicine" 白药 (Yunnan Baiyao); the Shanghai Garrison Command 淞沪警备司令部;
+  the Yan'an 延安 anachronism (the 1931 base was the Jiangxi Soviet; Yan'an post-1935).
+- ch09 (+2, now 5): the spirit-tablet 灵牌 and its shrine offerings; the death-day
+  祭日 memorial anniversary.
+- ch10 (+3, now 6): the jade bangle 玉镯 as an intimate love-token; the French
+  Park / French Concession 法国公园 and extraterritorial Shanghai; the "warming,
+  restorative" 温补 prescription and herbal decoction.
+- ch11 (+5, now 9): the family head's private penal power 家法; temple lot-drawing
+  divination 求签; bird's-nest-and-white-fungus 燕窝银耳 delicacy; Chinese painting's
+  scattered-point perspective 散点透视 (国画); the Han Yu maxim 不平则鸣.
+
+Recurring subjects were cross-referenced, not re-noted: the Special Branch and
+Juntong and the Soviet base areas (ch04); the wife/concubine hierarchy and the
+Madams, the bridal sedan, the longevity lock and three-years mourning (ch01); the
+"five poisons" and the Aisin Gioro renaming (ch09 existing notes); the Bund and
+the 英雄救美 trope (ch06). Notes NOT added where the scene already makes the point
+plain (the substitute-bride 代嫁 logic is spelled out in ch09; ballroom dancing is
+self-explained in ch08) or the item is not Chinese-specific (Cinderella, cocktail).
+
+Checks: per chapter, split_bilingual.py regenerated reading + data/zh; parity OK
+(ch07 144, ch08 170, ch09 120, ch10 129, ch11 190); check_numbers 0 unresolved
+(data/noise.txt unchanged, no idiom lost a real quantity); straight-quote guard
+clean on all five reading files; no source ">" line changed in any bilingual file.
+Spot-audit: all 21 edited/annotated paragraphs (the whole touched set) re-read
+against their source lines, no meaning drift.
+
+Glossary/figures: no changes (this pass never re-romanizes or renames).
+
+Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 170 notes.
+qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 170 references = 170
+bodies = 170 backlinks, all links resolve).
