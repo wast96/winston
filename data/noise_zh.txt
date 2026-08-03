@@ -261,3 +261,9 @@
 四边
 # 胡说八道 "talk arrant nonsense" (idiom; 八 not the count 8) (ch15)
 胡说八道
+# --- Chapter Sixteen additions ---
+# 凋零 "wither / decline" (商业凋零); 零 here is "wither," not the number zero (ch16)
+凋零
+# 二百五 colloquial "250" = a simpleton/half-wit; the parser misreads it as 205 (two-
+# hundred-five), so strip the slang form but NOT the real quantity 二百五十 (=250) (ch16)
+二百五(?!十)

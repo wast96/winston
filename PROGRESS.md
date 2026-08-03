@@ -1267,3 +1267,67 @@ bandits" thrown back at the Red Army; 86 住机关 "keep the station" (a clandes
 Party safe-house, and the sexual innuendo it carries); 87 七生的炮弹 (生 = French
 centi-, the "75" field gun); 88 屠夜壶 "Tu the Chamber-pot", the workers' name for
 the steward. All six anchors verified verbatim in out/ch15_reading.md.
+
+## Batch B16 — Chapter Sixteen (ch16), source data/src/19_part0017.txt (10,416 chars)
+
+Translated the whole of Chapter Sixteen end to end: the dawn after the mill raid in
+Zhu Guiying's mother's shanty (her son Xiao Sanzi and Jin Heshang set off to wreck
+the match-boss's house); the long central set-piece at Zhou Zhongwei's "mansion" —
+"the Red-Headed Match" laughing the eight, then the ten, workers' delegates away with
+his Empty-City bluff, his mock-funeral "little ornaments," the trade circular about
+the Swedish Match Trust, and the comprador scene with Zhu Yinqiu and Chen Junyi over
+letting versus selling the factory; then Zhou's humiliating afternoon at the Yizhong
+Company (Wang Hefu and Xu Manli both refuse him) and the closing reopening of the
+works with his nationalist harangue to the stone-faced hands. 154 source paragraphs,
+154 English. NO source notes (source_notes.json stays frozen at [1]..[9]); grep of the
+source for a leading \[\d+\] returned nothing.
+
+### The checks run
+
+1. Faithful, complete quotation. Bilingual QC file out/ch16_bilingual.md built by
+   zipping one-English-paragraph-per-line against the verbatim source body lines, with
+   a pre-write assertion (en == body == 154) and spot-checks at 8 indices. Source
+   copied, never re-typed.
+4. Automated invariants. check_numbers.py out/ch16_bilingual.md --noise
+   data/noise_zh.txt: 0 unresolved. Two idiom/slang flags added to the noise file, both
+   documented and neither a real quantity: 凋零 (零 = "wither" in 商业凋零, not zero) and
+   二百五(?!十) (colloquial "250" = a simpleton, which the parser misreads as 205; the
+   real quantity 二百五十 = 250 is left intact). Two renderings were fixed rather than
+   silenced so the digit survives: 四十岁 → "fortieth birthday, on his turning forty"
+   (the word-list lacks "fortieth"), and 递给…两位 → "handed it to the two of them"
+   (the 两 had been dropped). check_structure.py --pairs data/zh/ch16.txt
+   out/ch16_reading.md: parity 154 | 154 OK. Number habits verified: 三万两/八万(两) =
+   thirty thousand / eighty thousand taels, 五百两 = five hundred taels, 五万/两三万 =
+   fifty thousand / twenty or thirty thousand, 千分之十 = ten parts in a thousand,
+   十二分 = twelve parts, 十分之五有奇 = five-tenths and more, 好几万万 = several hundred
+   million, 一九三〇年 = 1930, 八个厂/十个代表/八个代表 held, 十万八千 kept as the vague
+   idiom "a hundred thousand or more."
+8. Random-sample deep audit (~4%, ~7 paragraphs). Sampled the opening shanty scene,
+   the balcony "thirty-thousand-tael" taunt, the mimeographed trade circular, the
+   "250" salary gibe, the Xu Manli refusal, and the closing factory harangue: source
+   verbatim, every quantity held, no omission and no invented bridging.
+   qa_epub.py: PASS (20 docs, 3693 paras, 94 notes: 94 refs / 94 bodies / 94
+   backlinks). epubcheck 5.1.0: 0 errors / 0 warnings.
+
+### Glossary additions (one rendering per referent)
+
+people: Zhuge Liang (诸葛亮, attested). organizations: the Swedish Match Trust
+(瑞典火柴托辣斯), the Sino-Swedish Match Company (瑞中火柴公司), the All-China Match
+Manufacturers' Association (中华全国火柴业联合会), the Guangdong Match Trade Guild
+(广东火柴行商业公会), the Match Trade Federation of the Three Eastern Provinces
+(东三省火柴同业联合会), the Ministry of Industry and Commerce (工商部), the Hongyun Lou
+(鸿运楼). Reused fixed renderings already in glossary.json: Zhou Zhongwei (= "the
+Red-Headed Match"), the Guangda Match Factory, Zhu Yinqiu, Chen Junyi, Wang Hefu, Sun
+Jiren, Wu Sunfu (= Wu the Third), Staff Officer Lei, Xu Manli, Zhao Botao, Tu Weiyue
+(= Tu the Chamber-pot), Zhu Guiying, Xiao Sanzi, Jin Heshang, Yao Jinfeng, Lu Xiaobao,
+the Yuhua Silk Filature, the Yizhong (Trust) Company, the Public Security Bureau.
+
+### Translator notes (builder-numbered 89-94, in reading order)
+
+89 A-Ying = the mother's pet name for her daughter Zhu Guiying, distinct from the
+Chapter-Fifteen delegate A Ying (the source reuses 阿英 for both); 90 the "Empty City
+Stratagem" of Zhuge Liang; 91 the Swedish Match Trust (Ivar Kreuger's Svenska
+Tändsticks AB; 托辣斯 = "trust"; the empire fell in 1932); 92 花旗人/茄门人 = a
+Flowery-Flag man (American) / a German, the old Chinese names; 93 开门七件事, the seven
+daily household necessities; 94 二百五 as slang for a half-wit, on which the salary
+gibe turns. All six anchors verified verbatim in out/ch16_reading.md before building.

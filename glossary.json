@@ -1,2109 +1,2157 @@
 {
- "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
- "book": {},
- "people": {
-  "吴荪甫": {
-   "en": "Wu Sunfu",
-   "pinyin": "Wu Sunfu",
-   "status": "decided",
-   "note": "The industrialist hero of the novel; the &#8220;Third Master&#8221; (三老爷) of the Wu family. Older English versions write the name Wu Sun-fu; pinyin is used here."
-  },
-  "吴老太爷": {
-   "en": "old Mr. Wu",
-   "pinyin": "Wu laotaiye",
-   "status": "decided",
-   "note": "Wu Sunfu's father; a late-Qing reformer turned devout Daoist recluse, whose collapse and death open the book."
-  },
-  "杜竹斋": {
-   "en": "Du Zhuzhai",
-   "pinyin": "Du Zhuzhai",
-   "status": "decided",
-   "note": "A banker; Wu Sunfu's brother-in-law (the family &#8216;son-in-law,&#8217; 姑老爷), married to Fufang."
-  },
-  "芙芳": {
-   "en": "Fufang",
-   "pinyin": "Fufang",
-   "status": "decided",
-   "note": "The Second Young Lady (二小姐), Wu Sunfu's elder sister and Du Zhuzhai's wife; addressed as Mrs. Du (杜姑太太)."
-  },
-  "蕙芳": {
-   "en": "Huifang",
-   "pinyin": "Huifang",
-   "status": "decided",
-   "note": "The Fourth Young Lady (四小姐), Wu Sunfu's younger sister, newly come from the country."
-  },
-  "阿萱": {
-   "en": "Ah Xuan",
-   "pinyin": "A Xuan",
-   "status": "decided",
-   "note": "The Seventh Young Master (七少爷), nineteen years old; the family's naive &#8216;golden boy.&#8217;"
-  },
-  "林佩瑶": {
-   "en": "Lin Peiyao",
-   "pinyin": "Lin Peiyao",
-   "status": "decided",
-   "note": "Wu Sunfu's wife, addressed throughout as the Wu young mistress (吴少奶奶); the elder of the two Lin sisters."
-  },
-  "林佩珊": {
-   "en": "Lin Peishan",
-   "pinyin": "Lin Peishan",
-   "status": "decided",
-   "note": "Peiyao's younger sister (&#8216;the second Miss Lin&#8217;), courted by her cousin Fan Bowen."
-  },
-  "张素素": {
-   "en": "Zhang Susu",
-   "pinyin": "Zhang Susu",
-   "status": "decided",
-   "note": "A restless young woman guest at the Wu house."
-  },
-  "范博文": {
-   "en": "Fan Bowen",
-   "pinyin": "Fan Bowen",
-   "status": "decided",
-   "note": "A young would-be poet; Lin Peishan's cousin."
-  },
-  "李玉亭": {
-   "en": "Li Yuting",
-   "pinyin": "Li Yuting",
-   "status": "decided",
-   "note": "A professor of economics."
-  },
-  "丁医生": {
-   "en": "Dr. Ding",
-   "pinyin": "Ding yisheng",
-   "status": "decided",
-   "note": "The physician called to old Mr. Wu."
-  },
-  "福生": {
-   "en": "Fusheng",
-   "pinyin": "Fusheng",
-   "status": "decided",
-   "note": "Clerk at the Daishengchang steamship office; son of an old Wu family servant."
-  },
-  "老关": {
-   "en": "Old Guan",
-   "pinyin": "Lao Guan",
-   "status": "decided",
-   "note": "Wu Sunfu's bodyguard."
-  },
-  "高升": {
-   "en": "Gaosheng",
-   "pinyin": "Gaosheng",
-   "status": "decided",
-   "note": "A manservant of the Wu household."
-  },
-  "王妈": {
-   "en": "Amah Wang",
-   "pinyin": "Wang ma",
-   "status": "decided",
-   "note": "A maidservant of the Wu household (妈, &#8216;amah&#8217;)."
-  },
-  "莫先生": {
-   "en": "Mr. Mo",
-   "pinyin": "Mo xiansheng",
-   "status": "decided",
-   "note": "Accountant (账房) at Wu Sunfu's factory."
-  },
-  "秋律师": {
-   "en": "Lawyer Qiu",
-   "pinyin": "Qiu lushi",
-   "status": "decided",
-   "note": "The Wu family's lawyer."
-  },
-  "曾沧海": {
-   "en": "Zeng Canghai",
-   "pinyin": "Zeng Canghai",
-   "status": "decided",
-   "note": "The Wu children's maternal uncle (舅父)."
-  },
-  "文昌帝君": {
-   "en": "the Lord Wenchang (Wenchang Dijun)",
-   "pinyin": "Wenchang Dijun",
-   "status": "attested",
-   "note": "The Daoist god of literature and of success in the imperial examinations."
-  },
-  "雷鸣": {
-   "en": "Lei Ming",
-   "pinyin": "Lei Ming",
-   "status": "decided",
-   "note": "A serving staff officer, addressed throughout as Staff Officer Lei (雷参谋); a Whampoa graduate and old suitor of Lin Peiyao before her marriage."
-  },
-  "黄奋": {
-   "en": "Huang Fen",
-   "pinyin": "Huang Fen",
-   "status": "decided",
-   "note": "A young man in Western dress, fellow Whampoa graduate of Lei Ming; a blunt leftist sympathizer forever 'firing off big guns.'"
-  },
-  "孙吉人": {
-   "en": "Sun Jiren",
-   "pinyin": "Sun Jiren",
-   "status": "decided",
-   "note": "General manager of the Pacific Steamship Company; addressed Sun Jiren or, deferentially, Jiren (吉翁)."
-  },
-  "周仲伟": {
-   "en": "Zhou Zhongwei",
-   "pinyin": "Zhou Zhongwei",
-   "status": "decided",
-   "note": "Owner of the Guangda Match Factory, nicknamed 'the Red-Headed Match' (红头火柴) for the way he 'strikes alight' with everyone; a great one for bringing people together."
-  },
-  "王和甫": {
-   "en": "Wang Hefu",
-   "pinyin": "Wang Hefu",
-   "status": "decided",
-   "note": "General manager of the Daxing Coal Mining Company."
-  },
-  "朱吟秋": {
-   "en": "Zhu Yinqiu",
-   "pinyin": "Zhu Yinqiu",
-   "status": "decided",
-   "note": "A silk-filature owner squeezed between his creditors and the collapse of silk prices; addressed Zhu Yinqiu or Yinqiu (吟翁)."
-  },
-  "陈君宜": {
-   "en": "Chen Junyi",
-   "pinyin": "Chen Junyi",
-   "status": "decided",
-   "note": "Owner of the Wuyun Silk-Weaving Mill; addressed Chen Junyi or Junyi (君翁)."
-  },
-  "唐云山": {
-   "en": "Tang Yunshan",
-   "pinyin": "Tang Yunshan",
-   "status": "decided",
-   "note": "A political man, bald and worldly; later associated with the Nationalist faction talk of the 'Enlarged Conference.'"
-  },
-  "李壮飞": {
-   "en": "Li Zhuangfei",
-   "pinyin": "Li Zhuangfei",
-   "status": "decided",
-   "note": "A bond speculator with a 'toothbrush moustache,' heavily long in the Troop-Disbandment issue."
-  },
-  "韩孟翔": {
-   "en": "Han Mengxiang",
-   "pinyin": "Han Mengxiang",
-   "status": "decided",
-   "note": "A broker at the exchange who also writes (good) poetry; 'gold and the poetic spirit in strange alliance.'"
-  },
-  "徐曼丽": {
-   "en": "Xu Manli",
-   "pinyin": "Xu Manli",
-   "status": "decided",
-   "note": "A celebrated socialite (交际花) of the Shanghai scene."
-  },
-  "赵伯韬": {
-   "en": "Zhao Botao",
-   "pinyin": "Zhao Botao",
-   "status": "decided",
-   "note": "The 'devil-king' of the government-bond market, a big-operator bull (大户多头); speaks Mandarin with a Cantonese accent. Wu Sunfu's chief antagonist in the speculation to come."
-  },
-  "尚仲礼": {
-   "en": "Shang Zhongli",
-   "pinyin": "Shang Zhongli",
-   "status": "decided",
-   "note": "Chairman of a trust company, a man of sixty 'passed from office into trade'; addressed Old Zhong (仲老). Zhao Botao's partner, with secret connections to the war-lords."
-  },
-  "吴芝生": {
-   "en": "Wu Zhisheng",
-   "pinyin": "Wu Zhisheng",
-   "status": "decided",
-   "note": "A distant clansman-cousin of Wu Sunfu, a university student of sociology."
-  },
-  "杜学诗": {
-   "en": "Du Xueshi",
-   "pinyin": "Du Xueshi",
-   "status": "decided",
-   "note": "Du Zhuzhai's youngest brother, an engineering student, addressed Young Du (小杜); a hot-headed statist who preaches the 'iron hand.'"
-  },
-  "秋隼": {
-   "en": "Qiu Sun",
-   "pinyin": "Qiu Sun",
-   "status": "decided",
-   "note": "Personal name of the Wu family's lawyer, addressed throughout as Lawyer Qiu (秋律师)."
-  },
-  "陆匡时": {
-   "en": "Lu Kuangshi",
-   "pinyin": "Lu Kuangshi",
-   "status": "decided",
-   "note": "A distant relative of the Wu family; a broker at the exchange and assistant manager of the Daya Securities Trust Company, himself a bond speculator."
-  },
-  "莫干丞": {
-   "en": "Mo Gancheng",
-   "pinyin": "Mo Gancheng",
-   "status": "decided",
-   "note": "The accountant (账房) at Wu Sunfu's silk filature, addressed Gancheng (干丞); the same figure listed as Mr. Mo (莫先生)."
-  },
-  "屠维岳": {
-   "en": "Tu Weiyue",
-   "pinyin": "Tu Weiyue",
-   "status": "decided",
-   "note": "A young clerk at Wu Sunfu's filature, suspected of leaking the wage-cut; a figure who will loom large later."
-  },
-  "姚金凤": {
-   "en": "Yao Jinfeng",
-   "pinyin": "Yao Jinfeng",
-   "status": "decided",
-   "note": "A woman worker at reeling-frame number twelve who takes the lead in the filature's go-slow."
-  },
-  "朱桂英": {
-   "en": "Zhu Guiying",
-   "pinyin": "Zhu Guiying",
-   "status": "decided",
-   "note": "A woman worker at reeling-frame number nineteen, linked by rumour to Tu Weiyue."
-  },
-  "薛宝珠": {
-   "en": "Xue Baozhu",
-   "pinyin": "Xue Baozhu",
-   "status": "decided",
-   "note": "Overseer number nine (九号管车) at the filature, whose dismissal the strikers demand."
-  },
-  "王金贞": {
-   "en": "Wang Jinzhen",
-   "pinyin": "Wang Jinzhen",
-   "status": "decided",
-   "note": "Overseer number two (第二号管车) at the filature."
-  },
-  "李麻子": {
-   "en": "pockmarked Li",
-   "pinyin": "Li Mazi",
-   "status": "decided",
-   "note": "A hired inspector (稽查) at the filature; 李麻子, 'Li the pockmarked.'"
-  },
-  "费小胡子": {
-   "en": "Fei the little-moustache",
-   "pinyin": "Fei xiaohuzi",
-   "status": "decided",
-   "note": "Wu Sunfu's man managing the family concerns in their home town of Shuangqiao; signs the alarm telegram 'Fei.'"
-  },
-  "柏医生": {
-   "en": "Dr. Bo",
-   "pinyin": "Bo yisheng",
-   "status": "provisional",
-   "note": "A doctor at the French Hospital, named as Dr. Ding's former classmate; romanization of 柏 is provisional."
-  },
-  "李贵": {
-   "en": "Li Gui",
-   "pinyin": "Li Gui",
-   "status": "decided",
-   "note": "A manservant of the Wu household; once a servant in the young mistress's own family, and counted of her party among the Wu servants."
-  },
-  "曾家驹": {
-   "en": "Zeng Jiaju",
-   "pinyin": "Zeng Jiaju",
-   "status": "decided",
-   "note": "Zeng Canghai's son, an ugly, wild-tempered youth of nineteen; addressed A Ju (阿驹). Newly enrolled in the Nationalist party, whose membership card he flaunts."
-  },
-  "阿二": {
-   "en": "A Er",
-   "pinyin": "A Er",
-   "status": "decided",
-   "note": "A long-hired labourer (长工) of the Zeng household, ten years in service; his name is literally 'Number Two.'"
-  },
-  "阿金": {
-   "en": "A Jin",
-   "pinyin": "A Jin",
-   "status": "decided",
-   "note": "Zeng Canghai's unofficial concubine (非正式的小老婆); her former husband, Jinbao, is among the peasant insurgents."
-  },
-  "进宝": {
-   "en": "Jinbao",
-   "pinyin": "Jinbao",
-   "status": "decided",
-   "note": "A Jin's former husband, now one of the armed peasants who storm the Zeng house."
-  },
-  "费晓生": {
-   "en": "Fei Xiaosheng",
-   "pinyin": "Fei Xiaosheng",
-   "status": "decided",
-   "note": "The personal name of Fei the little-moustache (费小胡子), Wu Sunfu's steward at Shuangqiao; addressed here Xiaosheng and Elder Cang's counterpart in the money quarrel."
-  },
-  "何营长": {
-   "en": "Battalion Commander He",
-   "pinyin": "He yingzhang",
-   "status": "decided",
-   "note": "Commander of the provincial garrison battalion quartered at Shuangqiao (何营长); his concubine flees the town on the eve of the raid."
-  },
-  "李四": {
-   "en": "Li Si",
-   "pinyin": "Li Si",
-   "status": "decided",
-   "note": "An opium-peddler (土贩) of Shuangqiao and a rising local power, once Zeng Canghai's familiar; his name is literally 'Number Four.' See the note on 'earth-peddler.'"
-  },
-  "王麻子": {
-   "en": "pockmarked Wang",
-   "pinyin": "Wang Mazi",
-   "status": "decided",
-   "note": "A Shuangqiao boatman (王麻子, 'Wang the pockmarked'), whose boat carries Commander He's concubine to safety."
-  },
-  "陈老八": {
-   "en": "Chen Laoba",
-   "pinyin": "Chen Laoba",
-   "status": "decided",
-   "note": "A committee-man of the Qiliqiao Peasants' Association (陈老八, 'Chen the eighth') who, Zeng Canghai complains, lends at usury himself."
-  },
-  "孙传芳": {
-   "en": "Sun Chuanfang",
-   "pinyin": "Sun Chuanfang",
-   "status": "attested",
-   "note": "The militarist (1885–1935) who ruled the lower Yangtze until the Northern Expedition of 1926–27; see the note at his name."
-  },
-  "孙中山": {
-   "en": "Sun Yat-sen",
-   "pinyin": "Sun Zhongshan",
-   "status": "attested",
-   "note": "The founder of the Nationalist party, revered as 孙总理 (the Premier, zongli) and rendered here 'the late Premier Sun'; author of the Fundamentals of National Reconstruction that Tang Yunshan quotes."
-  },
-  "李鸿章": {
-   "en": "Li Hongzhang",
-   "pinyin": "Li Hongzhang",
-   "status": "attested",
-   "note": "李鸿章 (1823–1901); the late-Qing statesman who launched the self-strengthening state industries Wang Hefu cites as the beginning of Chinese industry."
-  },
-  "张之洞": {
-   "en": "Zhang Zhidong",
-   "pinyin": "Zhang Zhidong",
-   "status": "attested",
-   "note": "张之洞 (1837–1909); the late-Qing viceroy and industrial reformer, named beside Li Hongzhang as a founder of the old official enterprises."
-  },
-  "杜新箨": {
-   "en": "Du Xintuo",
-   "pinyin": "Du Xintuo",
-   "status": "decided",
-   "note": "Du Zhuzhai's eldest son, newly back from several years in France; nephew of Du Xueshi. The dilettante 'Doctor of All Trades' (万能博士) and a professed Bakuninist — gentle, detached, finding nothing to his liking yet caring about nothing; he addresses the Fourth Young Lady as 'Aunt.'"
-  },
-  "屈原": {
-   "en": "Qu Yuan",
-   "pinyin": "Qu Yuan",
-   "status": "attested",
-   "note": "The Chu poet and loyal minister Qu Yuan (c. 340–278 BCE), called here Grand Master Qu (屈大夫); he drowned himself in the Miluo River. See the note at 'Grand Master Qu.'"
-  },
-  "钱葆生": {
-   "en": "Qian Baosheng",
-   "pinyin": "Qian Baosheng",
-   "status": "decided",
-   "note": "钱葆生; a union man at the Wu silk filature, boss of one of the two rival union factions and Gui Changlin's mortal enemy."
-  },
-  "桂长林": {
-   "en": "Gui Changlin",
-   "pinyin": "Gui Changlin",
-   "status": "decided",
-   "note": "桂长林; a union man at the Wu filature, of the faction tied to the distant 'Mr. Wang' (Wang Jingwei); Qian Baosheng's rival, brought to heel and won over by Tu Weiyue."
-  },
-  "何秀妹": {
-   "en": "He Xiumei",
-   "pinyin": "He Xiumei",
-   "status": "decided",
-   "note": "何秀妹; a militant among the women workers at the Wu filature, marked by Tu Weiyue as a hot-head to be lured away and neutralized."
-  },
-  "阿珍": {
-   "en": "A Zhen",
-   "pinyin": "A Zhen",
-   "status": "decided",
-   "note": "阿珍; the woman overseer of No. 10 frame, one of Tu Weiyue's trusted agents among the women workers."
-  },
-  "云卿": {
-   "en": "Yunqing",
-   "pinyin": "Yunqing",
-   "status": "provisional",
-   "note": "云卿; a crescent-bearded, long-faced country landlord and bond bear whom Wu Sunfu overhears at the Bankers' Guild, pressed for rent-rice he can no longer collect against the rent-resistance in the villages."
-  },
-  "汪先生": {
-   "en": "Mr. Wang",
-   "pinyin": "Wang xiansheng",
-   "status": "decided",
-   "note": "汪先生; Wang Jingwei (汪精卫), here the faraway patron in Hong Kong of Gui Changlin's union faction. See the note on 'our Mr. Wang' in Chapter Three."
-  },
-  "道威斯": {
-   "en": "Dawes",
-   "pinyin": "Daoweisi",
-   "status": "attested",
-   "note": "道威斯; Charles G. Dawes. See the note at 'her Dawes, and her Young.'"
-  },
-  "杨格": {
-   "en": "Young",
-   "pinyin": "Yangge",
-   "status": "attested",
-   "note": "杨格; Owen D. Young. See the note at 'her Dawes, and her Young.'"
-  },
-  "冯云卿": {
-   "en": "Feng Yunqing",
-   "pinyin": "Feng Yunqing",
-   "status": "decided",
-   "note": "The ruined usurer-landlord at the centre of Chapter Eight: a half-fledged Qing juren who built a fortune by lending at usury and foreclosing on peasants' land, then fled to Shanghai and lost it all speculating in government bonds. His nickname among the peasants he ruined is the 'smiling tiger.'"
-  },
-  "何慎庵": {
-   "en": "He Shen’an",
-   "pinyin": "He Shen'an",
-   "status": "decided",
-   "note": "A former magistrate and fellow bond-speculator of Feng Yunqing's, ruined in the same crash; it is he who proposes baiting the lecherous Zhao Botao with Feng's own daughter."
-  },
-  "冯眉卿": {
-   "en": "Feng Meiqing",
-   "pinyin": "Feng Meiqing",
-   "status": "decided",
-   "note": "Feng Yunqing's seventeen-year-old daughter, a modern schoolgirl, called Ah Mei (阿眉) and Meiqing at home. Her ten-thousand-dollar trousseau fund and her acquaintance with Zhao Botao's mistress make her the pawn in her father's scheme."
-  },
-  "刘玉英": {
-   "en": "Liu Yuying",
-   "pinyin": "Liu Yuying",
-   "status": "decided",
-   "note": "A young widow, friend of Feng Meiqing's and mistress of the bond-king Zhao Botao; daughter-in-law of the broker Lu Kuangshi. She is the intended channel to Zhao's market secrets."
-  },
-  "老九": {
-   "en": "Old Ninth",
-   "status": "decided",
-   "note": "Feng Yunqing's young concubine (his 姨太太), taken after his wife's death; 'Old Ninth' is her house-style. Backed by her sworn sister the Fifth Concubine of the Bai residence, she rules the household and openly defies Feng's questioning of her nightlife."
-  },
-  "张大千": {
-   "en": "Zhang Daqian",
-   "pinyin": "Zhang Daqian",
-   "status": "attested",
-   "note": "Zhang Daqian (1899–1983), later one of the most celebrated of modern Chinese painters; a hanging scroll of his tiger adorns Feng's wing-room."
-  },
-  "张资平": {
-   "en": "Zhang Ziping",
-   "pinyin": "Zhang Ziping",
-   "status": "attested",
-   "note": "Zhang Ziping (1893–1959), a hugely popular writer of the 1920s and 1930s known for his 'triangle-love' romances; his name stands here for light erotic fiction. He later collaborated with the Japanese and his reputation collapsed."
-  },
-  "朱伯庐": {
-   "en": "Zhu Bolu",
-   "pinyin": "Zhu Bolu",
-   "status": "attested",
-   "note": "Zhu Yong (1627–1698), styled Bolu, a Ming-loyalist scholar whose Maxims for the Ordering of a Household (治家格言, the 'Zhu Bolu Maxims') became one of the most widely copied moral primers of late imperial China. The framed text hangs, in irony, over the scene of Feng's scheming."
-  },
-  "六宝": {
-   "en": "Liu Bao",
-   "pinyin": "Liu Bao",
-   "status": "decided",
-   "note": "The little maidservant (小大姐) in Feng Yunqing's household."
-  },
-  "金妈": {
-   "en": "Jin Ma",
-   "pinyin": "Jin Ma",
-   "status": "decided",
-   "note": "The hairdressing amah in Feng Yunqing's household."
-  },
-  "阿顺": {
-   "en": "A Shun",
-   "pinyin": "A Shun",
-   "status": "decided",
-   "note": "Feng Yunqing's rickshaw-man."
-  },
-  "柏青": {
-   "en": "Boqing",
-   "pinyin": "Bo Qing",
-   "status": "decided",
-   "note": "柏青; a fellow-student of Wu Zhisheng’s who draws him into the May Thirtieth demonstration and is arrested in it. 柏 is the surname, as with Dr. Bo (柏医生); addressed ‘Mr. Bo’ (密斯脱柏)."
-  },
-  "柯仲谋": {
-   "en": "Ke Zhongmou",
-   "pinyin": "Ke Zhongmou",
-   "status": "decided",
-   "note": "柯仲谋; a newspaper reporter, friend of the lawyer Qiu Sun and a familiar caller at the Wu house, who professes a detached ‘liberal’ standpoint toward the demonstration."
-  },
-  "尼禄": {
-   "en": "Nero",
-   "pinyin": "Niluo",
-   "status": "attested",
-   "note": "尼禄; the Roman emperor Nero (37–68 CE), by legend taking his ease while Rome burned; Wu Zhisheng’s gibe at Fan Bowen."
-  },
-  "荷马": {
-   "en": "Homer",
-   "pinyin": "Homa",
-   "status": "attested",
-   "note": "荷马; Homer, the Greek epic poet, author of the Iliad."
-  },
-  "海克托": {
-   "en": "Hector",
-   "pinyin": "Haiketuo",
-   "status": "attested",
-   "note": "海克托; Hector, the Trojan hero of Homer’s Iliad, whose valour the poem honours though he fights on the losing side."
-  },
-  "莎士比亚": {
-   "en": "Shakespeare",
-   "pinyin": "Shashibiya",
-   "status": "attested",
-   "note": "莎士比亚; William Shakespeare; Du Xintuo offers Fan Bowen a copy of Love’s Labour’s Lost."
-  },
-  "武松": {
-   "en": "Wu Song",
-   "pinyin": "Wu Song",
-   "status": "attested",
-   "note": "武松; the tiger-slaying hero of the Ming novel Water Margin (水浒传), who kills a man-eating tiger with his bare hands on Jingyang Ridge. Zhao Botao’s mistress invokes him against the Communist ‘tigers.’"
-  },
-  "小张": {
-   "en": "young Zhang",
-   "pinyin": "Xiao Zhang",
-   "status": "attested",
-   "note": "小张; Zhang Xueliang (1901–2001), the ‘Young Marshal’ of Manchuria, whose allegiance both sides courted in the 1930 Central Plains War; his ‘unclear attitude’ could tip the whole conflict."
-  },
-  "彭德怀": {
-   "en": "Peng Dehuai",
-   "pinyin": "Peng Dehuai",
-   "status": "attested",
-   "note": "彭德怀 (1898–1974); the Communist Red Army commander whose forces seize Yuezhou and briefly hold Changsha in the 1930 offensive. See the footnote at his name."
-  },
-  "吴为成": {
-   "en": "Wu Weicheng",
-   "pinyin": "Wu Weicheng",
-   "status": "decided",
-   "note": "吴为成; a distant nephew of Wu Sunfu, a shrewd-faced man of thirty-odd, brought up from Shuangqiao by Fei the little-moustache to seek a place in Wu Sunfu’s concerns."
-  },
-  "马景山": {
-   "en": "Ma Jingshan",
-   "pinyin": "Ma Jingshan",
-   "status": "decided",
-   "note": "马景山; brother-in-law of Zeng Jiaju, a young man of twenty-odd brought up with Wu Weicheng to seek work under Wu Sunfu; called Little Ma (小马)."
-  },
-  "明妃": {
-   "en": "the Lady Ming",
-   "pinyin": "Mingfei",
-   "status": "attested",
-   "note": "明妃; Wang Zhaojun (王昭君), the Han palace beauty sent in marriage beyond the Great Wall, subject of the kesi tapestry ‘The Lady Ming Goes Out to the Frontier.’ See the footnote at that title."
-  },
-  "阎锡山": {
-   "en": "Yan Xishan",
-   "pinyin": "Yan Xishan",
-   "status": "attested",
-   "note": "阎锡山 (1883–1960), the militarist governor of Shanxi (the 'model governor'); in 1930 a leader of the anti-Chiang Northern coalition whose armies drive down the Tianjin–Pukou line in this chapter's war news."
-  },
-  "周二姐": {
-   "en": "Second Sister Zhou",
-   "pinyin": "Zhou Er-jie",
-   "status": "decided",
-   "note": "周二姐; a dumpy woman worker at the Yuhua filature and Qian Baosheng’s running dog, known by her birth-order nickname (二, “the second”)."
-  },
-  "钱巧林": {
-   "en": "Qian Qiaolin",
-   "pinyin": "Qian Qiaolin",
-   "status": "decided",
-   "note": "钱巧林; Qian Baosheng’s younger sister, a woman worker who slips into the militants’ meeting to spy and is driven out."
-  },
-  "徐阿姨": {
-   "en": "Auntie Xu",
-   "pinyin": "Xu Ayi",
-   "status": "decided",
-   "note": "徐阿姨; a timid woman worker of thirty-odd at the filature, forever urging the others to break up and go home."
-  },
-  "陆小宝": {
-   "en": "Lu Xiaobao",
-   "pinyin": "Lu Xiaobao",
-   "status": "decided",
-   "note": "陆小宝; a woman worker who argues for waiting on the other mills rather than striking out first."
-  },
-  "张阿新": {
-   "en": "Zhang Axin",
-   "pinyin": "Zhang Axin",
-   "status": "decided",
-   "note": "张阿新; a militant woman worker at the filature, one of the two Tu Weiyue orders tailed."
-  },
-  "陈月娥": {
-   "en": "Chen Yue’e",
-   "pinyin": "Chen Yue'e",
-   "status": "decided",
-   "note": "陈月娥; a woman worker and the Party’s contact inside the filature, addressed as 月大姐, “Sister Yue.”"
-  },
-  "玛金": {
-   "en": "Ma Jin",
-   "pinyin": "Ma Jin",
-   "status": "decided",
-   "note": "玛金; a young woman Communist organizer who distrusts the ready-made “formulas” and wants to weigh the real situation."
-  },
-  "蔡真": {
-   "en": "Cai Zhen",
-   "pinyin": "Cai Zhen",
-   "status": "decided",
-   "note": "蔡真; a young woman Communist organizer, doctrinaire, who meets every doubt with a Party formula."
-  },
-  "金小妹": {
-   "en": "Jin Xiaomei",
-   "pinyin": "Jin Xiaomei",
-   "status": "decided",
-   "note": "金小妹; a thirteen-year-old basin-girl at the filature, Jin Heshang’s sister."
-  },
-  "金和尚": {
-   "en": "Jin Heshang",
-   "pinyin": "Jin Heshang",
-   "status": "decided",
-   "note": "金和尚; literally “Jin the Monk,” a match-factory worker who lives next door to the Zhu family."
-  },
-  "小三子": {
-   "en": "Xiao Sanzi",
-   "pinyin": "Xiao Sanzi",
-   "status": "decided",
-   "note": "小三子; Zhu Guiying’s younger brother, a worker at Zhou Zhongwei’s match factory."
-  },
-  "四喜子": {
-   "en": "Sixizi",
-   "pinyin": "Sixizi",
-   "status": "decided",
-   "note": "四喜子; a rag-picking neighbour boy who scavenged the wad of Communist leaflets the Zhu family unknowingly used as wrapping-paper."
-  },
-  "阿祥": {
-   "en": "A Xiang",
-   "pinyin": "A Xiang",
-   "status": "decided",
-   "note": "阿祥; a man at the filature whom Gui Changlin suspects is Qian Baosheng’s planted informer."
-  },
-  "克佐甫": {
-   "en": "Ke Zuofu",
-   "pinyin": "Ke Zuofu",
-   "status": "decided",
-   "note": "克佐甫; a higher Communist Party functionary, unseen in this chapter, from whom Cai Zhen takes her “formulas” at second hand."
-  },
-  "贺龙": {
-   "en": "He Long",
-   "pinyin": "He Long",
-   "status": "attested",
-   "note": "贺龙 (1896–1969); a Communist Red Army commander, named in the drawing-room war-talk as operating about Shashi and Daye in the 1930 offensive. See the footnote on the summer-1930 campaign."
-  },
-  "方志敏": {
-   "en": "Fang Zhimin",
-   "pinyin": "Fang Zhimin",
-   "status": "attested",
-   "note": "方志敏 (1899–1935); Communist leader of the northeast-Jiangxi soviet, named as active about Jingdezhen. See the footnote on the summer-1930 campaign."
-  },
-  "朱毛": {
-   "en": "Zhu and Mao",
-   "pinyin": "Zhu Mao",
-   "status": "attested",
-   "note": "朱毛; the paired name for Zhu De (朱德) and Mao Zedong (毛泽东), whose First Army Corps drove on Ji'an in 1930. See the footnote on the summer-1930 campaign."
-  },
-  "苏伦": {
-   "en": "Su Lun",
-   "pinyin": "Su Lun",
-   "status": "decided",
-   "note": "苏伦; a Communist organizer in the silk-strike cell, reckoned a 'theorist' and a fluent talker, who half-privately doubts the ultra-left line even as he defers to it."
-  },
-  "阿英": {
-   "en": "A Ying",
-   "pinyin": "A Ying",
-   "status": "decided",
-   "note": "阿英; a courier who liaises with the Zhabei mill delegates; she fails to appear at the cell meeting."
-  },
-  "黎八": {
-   "en": "Li the Eighth",
-   "pinyin": "Li Ba",
-   "status": "decided",
-   "note": "黎八; a Party functionary pressing to have Ma Jin transferred to 'keep the station' with him. The surname is 黎 (Li), distinct from the 李 (Li) of pockmarked Li."
-  },
-  "小黄": {
-   "en": "Little Huang",
-   "pinyin": "Xiao Huang",
-   "status": "decided",
-   "note": "小黄; Su Lun's former lover, who 'turned her coat' on him after leaving Shanghai."
+  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
+  "book": {},
+  "people": {
+    "吴荪甫": {
+      "en": "Wu Sunfu",
+      "pinyin": "Wu Sunfu",
+      "status": "decided",
+      "note": "The industrialist hero of the novel; the &#8220;Third Master&#8221; (三老爷) of the Wu family. Older English versions write the name Wu Sun-fu; pinyin is used here."
+    },
+    "吴老太爷": {
+      "en": "old Mr. Wu",
+      "pinyin": "Wu laotaiye",
+      "status": "decided",
+      "note": "Wu Sunfu's father; a late-Qing reformer turned devout Daoist recluse, whose collapse and death open the book."
+    },
+    "杜竹斋": {
+      "en": "Du Zhuzhai",
+      "pinyin": "Du Zhuzhai",
+      "status": "decided",
+      "note": "A banker; Wu Sunfu's brother-in-law (the family &#8216;son-in-law,&#8217; 姑老爷), married to Fufang."
+    },
+    "芙芳": {
+      "en": "Fufang",
+      "pinyin": "Fufang",
+      "status": "decided",
+      "note": "The Second Young Lady (二小姐), Wu Sunfu's elder sister and Du Zhuzhai's wife; addressed as Mrs. Du (杜姑太太)."
+    },
+    "蕙芳": {
+      "en": "Huifang",
+      "pinyin": "Huifang",
+      "status": "decided",
+      "note": "The Fourth Young Lady (四小姐), Wu Sunfu's younger sister, newly come from the country."
+    },
+    "阿萱": {
+      "en": "Ah Xuan",
+      "pinyin": "A Xuan",
+      "status": "decided",
+      "note": "The Seventh Young Master (七少爷), nineteen years old; the family's naive &#8216;golden boy.&#8217;"
+    },
+    "林佩瑶": {
+      "en": "Lin Peiyao",
+      "pinyin": "Lin Peiyao",
+      "status": "decided",
+      "note": "Wu Sunfu's wife, addressed throughout as the Wu young mistress (吴少奶奶); the elder of the two Lin sisters."
+    },
+    "林佩珊": {
+      "en": "Lin Peishan",
+      "pinyin": "Lin Peishan",
+      "status": "decided",
+      "note": "Peiyao's younger sister (&#8216;the second Miss Lin&#8217;), courted by her cousin Fan Bowen."
+    },
+    "张素素": {
+      "en": "Zhang Susu",
+      "pinyin": "Zhang Susu",
+      "status": "decided",
+      "note": "A restless young woman guest at the Wu house."
+    },
+    "范博文": {
+      "en": "Fan Bowen",
+      "pinyin": "Fan Bowen",
+      "status": "decided",
+      "note": "A young would-be poet; Lin Peishan's cousin."
+    },
+    "李玉亭": {
+      "en": "Li Yuting",
+      "pinyin": "Li Yuting",
+      "status": "decided",
+      "note": "A professor of economics."
+    },
+    "丁医生": {
+      "en": "Dr. Ding",
+      "pinyin": "Ding yisheng",
+      "status": "decided",
+      "note": "The physician called to old Mr. Wu."
+    },
+    "福生": {
+      "en": "Fusheng",
+      "pinyin": "Fusheng",
+      "status": "decided",
+      "note": "Clerk at the Daishengchang steamship office; son of an old Wu family servant."
+    },
+    "老关": {
+      "en": "Old Guan",
+      "pinyin": "Lao Guan",
+      "status": "decided",
+      "note": "Wu Sunfu's bodyguard."
+    },
+    "高升": {
+      "en": "Gaosheng",
+      "pinyin": "Gaosheng",
+      "status": "decided",
+      "note": "A manservant of the Wu household."
+    },
+    "王妈": {
+      "en": "Amah Wang",
+      "pinyin": "Wang ma",
+      "status": "decided",
+      "note": "A maidservant of the Wu household (妈, &#8216;amah&#8217;)."
+    },
+    "莫先生": {
+      "en": "Mr. Mo",
+      "pinyin": "Mo xiansheng",
+      "status": "decided",
+      "note": "Accountant (账房) at Wu Sunfu's factory."
+    },
+    "秋律师": {
+      "en": "Lawyer Qiu",
+      "pinyin": "Qiu lushi",
+      "status": "decided",
+      "note": "The Wu family's lawyer."
+    },
+    "曾沧海": {
+      "en": "Zeng Canghai",
+      "pinyin": "Zeng Canghai",
+      "status": "decided",
+      "note": "The Wu children's maternal uncle (舅父)."
+    },
+    "文昌帝君": {
+      "en": "the Lord Wenchang (Wenchang Dijun)",
+      "pinyin": "Wenchang Dijun",
+      "status": "attested",
+      "note": "The Daoist god of literature and of success in the imperial examinations."
+    },
+    "雷鸣": {
+      "en": "Lei Ming",
+      "pinyin": "Lei Ming",
+      "status": "decided",
+      "note": "A serving staff officer, addressed throughout as Staff Officer Lei (雷参谋); a Whampoa graduate and old suitor of Lin Peiyao before her marriage."
+    },
+    "黄奋": {
+      "en": "Huang Fen",
+      "pinyin": "Huang Fen",
+      "status": "decided",
+      "note": "A young man in Western dress, fellow Whampoa graduate of Lei Ming; a blunt leftist sympathizer forever 'firing off big guns.'"
+    },
+    "孙吉人": {
+      "en": "Sun Jiren",
+      "pinyin": "Sun Jiren",
+      "status": "decided",
+      "note": "General manager of the Pacific Steamship Company; addressed Sun Jiren or, deferentially, Jiren (吉翁)."
+    },
+    "周仲伟": {
+      "en": "Zhou Zhongwei",
+      "pinyin": "Zhou Zhongwei",
+      "status": "decided",
+      "note": "Owner of the Guangda Match Factory, nicknamed 'the Red-Headed Match' (红头火柴) for the way he 'strikes alight' with everyone; a great one for bringing people together."
+    },
+    "王和甫": {
+      "en": "Wang Hefu",
+      "pinyin": "Wang Hefu",
+      "status": "decided",
+      "note": "General manager of the Daxing Coal Mining Company."
+    },
+    "朱吟秋": {
+      "en": "Zhu Yinqiu",
+      "pinyin": "Zhu Yinqiu",
+      "status": "decided",
+      "note": "A silk-filature owner squeezed between his creditors and the collapse of silk prices; addressed Zhu Yinqiu or Yinqiu (吟翁)."
+    },
+    "陈君宜": {
+      "en": "Chen Junyi",
+      "pinyin": "Chen Junyi",
+      "status": "decided",
+      "note": "Owner of the Wuyun Silk-Weaving Mill; addressed Chen Junyi or Junyi (君翁)."
+    },
+    "唐云山": {
+      "en": "Tang Yunshan",
+      "pinyin": "Tang Yunshan",
+      "status": "decided",
+      "note": "A political man, bald and worldly; later associated with the Nationalist faction talk of the 'Enlarged Conference.'"
+    },
+    "李壮飞": {
+      "en": "Li Zhuangfei",
+      "pinyin": "Li Zhuangfei",
+      "status": "decided",
+      "note": "A bond speculator with a 'toothbrush moustache,' heavily long in the Troop-Disbandment issue."
+    },
+    "韩孟翔": {
+      "en": "Han Mengxiang",
+      "pinyin": "Han Mengxiang",
+      "status": "decided",
+      "note": "A broker at the exchange who also writes (good) poetry; 'gold and the poetic spirit in strange alliance.'"
+    },
+    "徐曼丽": {
+      "en": "Xu Manli",
+      "pinyin": "Xu Manli",
+      "status": "decided",
+      "note": "A celebrated socialite (交际花) of the Shanghai scene."
+    },
+    "赵伯韬": {
+      "en": "Zhao Botao",
+      "pinyin": "Zhao Botao",
+      "status": "decided",
+      "note": "The 'devil-king' of the government-bond market, a big-operator bull (大户多头); speaks Mandarin with a Cantonese accent. Wu Sunfu's chief antagonist in the speculation to come."
+    },
+    "尚仲礼": {
+      "en": "Shang Zhongli",
+      "pinyin": "Shang Zhongli",
+      "status": "decided",
+      "note": "Chairman of a trust company, a man of sixty 'passed from office into trade'; addressed Old Zhong (仲老). Zhao Botao's partner, with secret connections to the war-lords."
+    },
+    "吴芝生": {
+      "en": "Wu Zhisheng",
+      "pinyin": "Wu Zhisheng",
+      "status": "decided",
+      "note": "A distant clansman-cousin of Wu Sunfu, a university student of sociology."
+    },
+    "杜学诗": {
+      "en": "Du Xueshi",
+      "pinyin": "Du Xueshi",
+      "status": "decided",
+      "note": "Du Zhuzhai's youngest brother, an engineering student, addressed Young Du (小杜); a hot-headed statist who preaches the 'iron hand.'"
+    },
+    "秋隼": {
+      "en": "Qiu Sun",
+      "pinyin": "Qiu Sun",
+      "status": "decided",
+      "note": "Personal name of the Wu family's lawyer, addressed throughout as Lawyer Qiu (秋律师)."
+    },
+    "陆匡时": {
+      "en": "Lu Kuangshi",
+      "pinyin": "Lu Kuangshi",
+      "status": "decided",
+      "note": "A distant relative of the Wu family; a broker at the exchange and assistant manager of the Daya Securities Trust Company, himself a bond speculator."
+    },
+    "莫干丞": {
+      "en": "Mo Gancheng",
+      "pinyin": "Mo Gancheng",
+      "status": "decided",
+      "note": "The accountant (账房) at Wu Sunfu's silk filature, addressed Gancheng (干丞); the same figure listed as Mr. Mo (莫先生)."
+    },
+    "屠维岳": {
+      "en": "Tu Weiyue",
+      "pinyin": "Tu Weiyue",
+      "status": "decided",
+      "note": "A young clerk at Wu Sunfu's filature, suspected of leaking the wage-cut; a figure who will loom large later."
+    },
+    "姚金凤": {
+      "en": "Yao Jinfeng",
+      "pinyin": "Yao Jinfeng",
+      "status": "decided",
+      "note": "A woman worker at reeling-frame number twelve who takes the lead in the filature's go-slow."
+    },
+    "朱桂英": {
+      "en": "Zhu Guiying",
+      "pinyin": "Zhu Guiying",
+      "status": "decided",
+      "note": "A woman worker at reeling-frame number nineteen, linked by rumour to Tu Weiyue."
+    },
+    "薛宝珠": {
+      "en": "Xue Baozhu",
+      "pinyin": "Xue Baozhu",
+      "status": "decided",
+      "note": "Overseer number nine (九号管车) at the filature, whose dismissal the strikers demand."
+    },
+    "王金贞": {
+      "en": "Wang Jinzhen",
+      "pinyin": "Wang Jinzhen",
+      "status": "decided",
+      "note": "Overseer number two (第二号管车) at the filature."
+    },
+    "李麻子": {
+      "en": "pockmarked Li",
+      "pinyin": "Li Mazi",
+      "status": "decided",
+      "note": "A hired inspector (稽查) at the filature; 李麻子, 'Li the pockmarked.'"
+    },
+    "费小胡子": {
+      "en": "Fei the little-moustache",
+      "pinyin": "Fei xiaohuzi",
+      "status": "decided",
+      "note": "Wu Sunfu's man managing the family concerns in their home town of Shuangqiao; signs the alarm telegram 'Fei.'"
+    },
+    "柏医生": {
+      "en": "Dr. Bo",
+      "pinyin": "Bo yisheng",
+      "status": "provisional",
+      "note": "A doctor at the French Hospital, named as Dr. Ding's former classmate; romanization of 柏 is provisional."
+    },
+    "李贵": {
+      "en": "Li Gui",
+      "pinyin": "Li Gui",
+      "status": "decided",
+      "note": "A manservant of the Wu household; once a servant in the young mistress's own family, and counted of her party among the Wu servants."
+    },
+    "曾家驹": {
+      "en": "Zeng Jiaju",
+      "pinyin": "Zeng Jiaju",
+      "status": "decided",
+      "note": "Zeng Canghai's son, an ugly, wild-tempered youth of nineteen; addressed A Ju (阿驹). Newly enrolled in the Nationalist party, whose membership card he flaunts."
+    },
+    "阿二": {
+      "en": "A Er",
+      "pinyin": "A Er",
+      "status": "decided",
+      "note": "A long-hired labourer (长工) of the Zeng household, ten years in service; his name is literally 'Number Two.'"
+    },
+    "阿金": {
+      "en": "A Jin",
+      "pinyin": "A Jin",
+      "status": "decided",
+      "note": "Zeng Canghai's unofficial concubine (非正式的小老婆); her former husband, Jinbao, is among the peasant insurgents."
+    },
+    "进宝": {
+      "en": "Jinbao",
+      "pinyin": "Jinbao",
+      "status": "decided",
+      "note": "A Jin's former husband, now one of the armed peasants who storm the Zeng house."
+    },
+    "费晓生": {
+      "en": "Fei Xiaosheng",
+      "pinyin": "Fei Xiaosheng",
+      "status": "decided",
+      "note": "The personal name of Fei the little-moustache (费小胡子), Wu Sunfu's steward at Shuangqiao; addressed here Xiaosheng and Elder Cang's counterpart in the money quarrel."
+    },
+    "何营长": {
+      "en": "Battalion Commander He",
+      "pinyin": "He yingzhang",
+      "status": "decided",
+      "note": "Commander of the provincial garrison battalion quartered at Shuangqiao (何营长); his concubine flees the town on the eve of the raid."
+    },
+    "李四": {
+      "en": "Li Si",
+      "pinyin": "Li Si",
+      "status": "decided",
+      "note": "An opium-peddler (土贩) of Shuangqiao and a rising local power, once Zeng Canghai's familiar; his name is literally 'Number Four.' See the note on 'earth-peddler.'"
+    },
+    "王麻子": {
+      "en": "pockmarked Wang",
+      "pinyin": "Wang Mazi",
+      "status": "decided",
+      "note": "A Shuangqiao boatman (王麻子, 'Wang the pockmarked'), whose boat carries Commander He's concubine to safety."
+    },
+    "陈老八": {
+      "en": "Chen Laoba",
+      "pinyin": "Chen Laoba",
+      "status": "decided",
+      "note": "A committee-man of the Qiliqiao Peasants' Association (陈老八, 'Chen the eighth') who, Zeng Canghai complains, lends at usury himself."
+    },
+    "孙传芳": {
+      "en": "Sun Chuanfang",
+      "pinyin": "Sun Chuanfang",
+      "status": "attested",
+      "note": "The militarist (1885–1935) who ruled the lower Yangtze until the Northern Expedition of 1926–27; see the note at his name."
+    },
+    "孙中山": {
+      "en": "Sun Yat-sen",
+      "pinyin": "Sun Zhongshan",
+      "status": "attested",
+      "note": "The founder of the Nationalist party, revered as 孙总理 (the Premier, zongli) and rendered here 'the late Premier Sun'; author of the Fundamentals of National Reconstruction that Tang Yunshan quotes."
+    },
+    "李鸿章": {
+      "en": "Li Hongzhang",
+      "pinyin": "Li Hongzhang",
+      "status": "attested",
+      "note": "李鸿章 (1823–1901); the late-Qing statesman who launched the self-strengthening state industries Wang Hefu cites as the beginning of Chinese industry."
+    },
+    "张之洞": {
+      "en": "Zhang Zhidong",
+      "pinyin": "Zhang Zhidong",
+      "status": "attested",
+      "note": "张之洞 (1837–1909); the late-Qing viceroy and industrial reformer, named beside Li Hongzhang as a founder of the old official enterprises."
+    },
+    "杜新箨": {
+      "en": "Du Xintuo",
+      "pinyin": "Du Xintuo",
+      "status": "decided",
+      "note": "Du Zhuzhai's eldest son, newly back from several years in France; nephew of Du Xueshi. The dilettante 'Doctor of All Trades' (万能博士) and a professed Bakuninist — gentle, detached, finding nothing to his liking yet caring about nothing; he addresses the Fourth Young Lady as 'Aunt.'"
+    },
+    "屈原": {
+      "en": "Qu Yuan",
+      "pinyin": "Qu Yuan",
+      "status": "attested",
+      "note": "The Chu poet and loyal minister Qu Yuan (c. 340–278 BCE), called here Grand Master Qu (屈大夫); he drowned himself in the Miluo River. See the note at 'Grand Master Qu.'"
+    },
+    "钱葆生": {
+      "en": "Qian Baosheng",
+      "pinyin": "Qian Baosheng",
+      "status": "decided",
+      "note": "钱葆生; a union man at the Wu silk filature, boss of one of the two rival union factions and Gui Changlin's mortal enemy."
+    },
+    "桂长林": {
+      "en": "Gui Changlin",
+      "pinyin": "Gui Changlin",
+      "status": "decided",
+      "note": "桂长林; a union man at the Wu filature, of the faction tied to the distant 'Mr. Wang' (Wang Jingwei); Qian Baosheng's rival, brought to heel and won over by Tu Weiyue."
+    },
+    "何秀妹": {
+      "en": "He Xiumei",
+      "pinyin": "He Xiumei",
+      "status": "decided",
+      "note": "何秀妹; a militant among the women workers at the Wu filature, marked by Tu Weiyue as a hot-head to be lured away and neutralized."
+    },
+    "阿珍": {
+      "en": "A Zhen",
+      "pinyin": "A Zhen",
+      "status": "decided",
+      "note": "阿珍; the woman overseer of No. 10 frame, one of Tu Weiyue's trusted agents among the women workers."
+    },
+    "云卿": {
+      "en": "Yunqing",
+      "pinyin": "Yunqing",
+      "status": "provisional",
+      "note": "云卿; a crescent-bearded, long-faced country landlord and bond bear whom Wu Sunfu overhears at the Bankers' Guild, pressed for rent-rice he can no longer collect against the rent-resistance in the villages."
+    },
+    "汪先生": {
+      "en": "Mr. Wang",
+      "pinyin": "Wang xiansheng",
+      "status": "decided",
+      "note": "汪先生; Wang Jingwei (汪精卫), here the faraway patron in Hong Kong of Gui Changlin's union faction. See the note on 'our Mr. Wang' in Chapter Three."
+    },
+    "道威斯": {
+      "en": "Dawes",
+      "pinyin": "Daoweisi",
+      "status": "attested",
+      "note": "道威斯; Charles G. Dawes. See the note at 'her Dawes, and her Young.'"
+    },
+    "杨格": {
+      "en": "Young",
+      "pinyin": "Yangge",
+      "status": "attested",
+      "note": "杨格; Owen D. Young. See the note at 'her Dawes, and her Young.'"
+    },
+    "冯云卿": {
+      "en": "Feng Yunqing",
+      "pinyin": "Feng Yunqing",
+      "status": "decided",
+      "note": "The ruined usurer-landlord at the centre of Chapter Eight: a half-fledged Qing juren who built a fortune by lending at usury and foreclosing on peasants' land, then fled to Shanghai and lost it all speculating in government bonds. His nickname among the peasants he ruined is the 'smiling tiger.'"
+    },
+    "何慎庵": {
+      "en": "He Shen’an",
+      "pinyin": "He Shen'an",
+      "status": "decided",
+      "note": "A former magistrate and fellow bond-speculator of Feng Yunqing's, ruined in the same crash; it is he who proposes baiting the lecherous Zhao Botao with Feng's own daughter."
+    },
+    "冯眉卿": {
+      "en": "Feng Meiqing",
+      "pinyin": "Feng Meiqing",
+      "status": "decided",
+      "note": "Feng Yunqing's seventeen-year-old daughter, a modern schoolgirl, called Ah Mei (阿眉) and Meiqing at home. Her ten-thousand-dollar trousseau fund and her acquaintance with Zhao Botao's mistress make her the pawn in her father's scheme."
+    },
+    "刘玉英": {
+      "en": "Liu Yuying",
+      "pinyin": "Liu Yuying",
+      "status": "decided",
+      "note": "A young widow, friend of Feng Meiqing's and mistress of the bond-king Zhao Botao; daughter-in-law of the broker Lu Kuangshi. She is the intended channel to Zhao's market secrets."
+    },
+    "老九": {
+      "en": "Old Ninth",
+      "status": "decided",
+      "note": "Feng Yunqing's young concubine (his 姨太太), taken after his wife's death; 'Old Ninth' is her house-style. Backed by her sworn sister the Fifth Concubine of the Bai residence, she rules the household and openly defies Feng's questioning of her nightlife."
+    },
+    "张大千": {
+      "en": "Zhang Daqian",
+      "pinyin": "Zhang Daqian",
+      "status": "attested",
+      "note": "Zhang Daqian (1899–1983), later one of the most celebrated of modern Chinese painters; a hanging scroll of his tiger adorns Feng's wing-room."
+    },
+    "张资平": {
+      "en": "Zhang Ziping",
+      "pinyin": "Zhang Ziping",
+      "status": "attested",
+      "note": "Zhang Ziping (1893–1959), a hugely popular writer of the 1920s and 1930s known for his 'triangle-love' romances; his name stands here for light erotic fiction. He later collaborated with the Japanese and his reputation collapsed."
+    },
+    "朱伯庐": {
+      "en": "Zhu Bolu",
+      "pinyin": "Zhu Bolu",
+      "status": "attested",
+      "note": "Zhu Yong (1627–1698), styled Bolu, a Ming-loyalist scholar whose Maxims for the Ordering of a Household (治家格言, the 'Zhu Bolu Maxims') became one of the most widely copied moral primers of late imperial China. The framed text hangs, in irony, over the scene of Feng's scheming."
+    },
+    "六宝": {
+      "en": "Liu Bao",
+      "pinyin": "Liu Bao",
+      "status": "decided",
+      "note": "The little maidservant (小大姐) in Feng Yunqing's household."
+    },
+    "金妈": {
+      "en": "Jin Ma",
+      "pinyin": "Jin Ma",
+      "status": "decided",
+      "note": "The hairdressing amah in Feng Yunqing's household."
+    },
+    "阿顺": {
+      "en": "A Shun",
+      "pinyin": "A Shun",
+      "status": "decided",
+      "note": "Feng Yunqing's rickshaw-man."
+    },
+    "柏青": {
+      "en": "Boqing",
+      "pinyin": "Bo Qing",
+      "status": "decided",
+      "note": "柏青; a fellow-student of Wu Zhisheng’s who draws him into the May Thirtieth demonstration and is arrested in it. 柏 is the surname, as with Dr. Bo (柏医生); addressed ‘Mr. Bo’ (密斯脱柏)."
+    },
+    "柯仲谋": {
+      "en": "Ke Zhongmou",
+      "pinyin": "Ke Zhongmou",
+      "status": "decided",
+      "note": "柯仲谋; a newspaper reporter, friend of the lawyer Qiu Sun and a familiar caller at the Wu house, who professes a detached ‘liberal’ standpoint toward the demonstration."
+    },
+    "尼禄": {
+      "en": "Nero",
+      "pinyin": "Niluo",
+      "status": "attested",
+      "note": "尼禄; the Roman emperor Nero (37–68 CE), by legend taking his ease while Rome burned; Wu Zhisheng’s gibe at Fan Bowen."
+    },
+    "荷马": {
+      "en": "Homer",
+      "pinyin": "Homa",
+      "status": "attested",
+      "note": "荷马; Homer, the Greek epic poet, author of the Iliad."
+    },
+    "海克托": {
+      "en": "Hector",
+      "pinyin": "Haiketuo",
+      "status": "attested",
+      "note": "海克托; Hector, the Trojan hero of Homer’s Iliad, whose valour the poem honours though he fights on the losing side."
+    },
+    "莎士比亚": {
+      "en": "Shakespeare",
+      "pinyin": "Shashibiya",
+      "status": "attested",
+      "note": "莎士比亚; William Shakespeare; Du Xintuo offers Fan Bowen a copy of Love’s Labour’s Lost."
+    },
+    "武松": {
+      "en": "Wu Song",
+      "pinyin": "Wu Song",
+      "status": "attested",
+      "note": "武松; the tiger-slaying hero of the Ming novel Water Margin (水浒传), who kills a man-eating tiger with his bare hands on Jingyang Ridge. Zhao Botao’s mistress invokes him against the Communist ‘tigers.’"
+    },
+    "小张": {
+      "en": "young Zhang",
+      "pinyin": "Xiao Zhang",
+      "status": "attested",
+      "note": "小张; Zhang Xueliang (1901–2001), the ‘Young Marshal’ of Manchuria, whose allegiance both sides courted in the 1930 Central Plains War; his ‘unclear attitude’ could tip the whole conflict."
+    },
+    "彭德怀": {
+      "en": "Peng Dehuai",
+      "pinyin": "Peng Dehuai",
+      "status": "attested",
+      "note": "彭德怀 (1898–1974); the Communist Red Army commander whose forces seize Yuezhou and briefly hold Changsha in the 1930 offensive. See the footnote at his name."
+    },
+    "吴为成": {
+      "en": "Wu Weicheng",
+      "pinyin": "Wu Weicheng",
+      "status": "decided",
+      "note": "吴为成; a distant nephew of Wu Sunfu, a shrewd-faced man of thirty-odd, brought up from Shuangqiao by Fei the little-moustache to seek a place in Wu Sunfu’s concerns."
+    },
+    "马景山": {
+      "en": "Ma Jingshan",
+      "pinyin": "Ma Jingshan",
+      "status": "decided",
+      "note": "马景山; brother-in-law of Zeng Jiaju, a young man of twenty-odd brought up with Wu Weicheng to seek work under Wu Sunfu; called Little Ma (小马)."
+    },
+    "明妃": {
+      "en": "the Lady Ming",
+      "pinyin": "Mingfei",
+      "status": "attested",
+      "note": "明妃; Wang Zhaojun (王昭君), the Han palace beauty sent in marriage beyond the Great Wall, subject of the kesi tapestry ‘The Lady Ming Goes Out to the Frontier.’ See the footnote at that title."
+    },
+    "阎锡山": {
+      "en": "Yan Xishan",
+      "pinyin": "Yan Xishan",
+      "status": "attested",
+      "note": "阎锡山 (1883–1960), the militarist governor of Shanxi (the 'model governor'); in 1930 a leader of the anti-Chiang Northern coalition whose armies drive down the Tianjin–Pukou line in this chapter's war news."
+    },
+    "周二姐": {
+      "en": "Second Sister Zhou",
+      "pinyin": "Zhou Er-jie",
+      "status": "decided",
+      "note": "周二姐; a dumpy woman worker at the Yuhua filature and Qian Baosheng’s running dog, known by her birth-order nickname (二, “the second”)."
+    },
+    "钱巧林": {
+      "en": "Qian Qiaolin",
+      "pinyin": "Qian Qiaolin",
+      "status": "decided",
+      "note": "钱巧林; Qian Baosheng’s younger sister, a woman worker who slips into the militants’ meeting to spy and is driven out."
+    },
+    "徐阿姨": {
+      "en": "Auntie Xu",
+      "pinyin": "Xu Ayi",
+      "status": "decided",
+      "note": "徐阿姨; a timid woman worker of thirty-odd at the filature, forever urging the others to break up and go home."
+    },
+    "陆小宝": {
+      "en": "Lu Xiaobao",
+      "pinyin": "Lu Xiaobao",
+      "status": "decided",
+      "note": "陆小宝; a woman worker who argues for waiting on the other mills rather than striking out first."
+    },
+    "张阿新": {
+      "en": "Zhang Axin",
+      "pinyin": "Zhang Axin",
+      "status": "decided",
+      "note": "张阿新; a militant woman worker at the filature, one of the two Tu Weiyue orders tailed."
+    },
+    "陈月娥": {
+      "en": "Chen Yue’e",
+      "pinyin": "Chen Yue'e",
+      "status": "decided",
+      "note": "陈月娥; a woman worker and the Party’s contact inside the filature, addressed as 月大姐, “Sister Yue.”"
+    },
+    "玛金": {
+      "en": "Ma Jin",
+      "pinyin": "Ma Jin",
+      "status": "decided",
+      "note": "玛金; a young woman Communist organizer who distrusts the ready-made “formulas” and wants to weigh the real situation."
+    },
+    "蔡真": {
+      "en": "Cai Zhen",
+      "pinyin": "Cai Zhen",
+      "status": "decided",
+      "note": "蔡真; a young woman Communist organizer, doctrinaire, who meets every doubt with a Party formula."
+    },
+    "金小妹": {
+      "en": "Jin Xiaomei",
+      "pinyin": "Jin Xiaomei",
+      "status": "decided",
+      "note": "金小妹; a thirteen-year-old basin-girl at the filature, Jin Heshang’s sister."
+    },
+    "金和尚": {
+      "en": "Jin Heshang",
+      "pinyin": "Jin Heshang",
+      "status": "decided",
+      "note": "金和尚; literally “Jin the Monk,” a match-factory worker who lives next door to the Zhu family."
+    },
+    "小三子": {
+      "en": "Xiao Sanzi",
+      "pinyin": "Xiao Sanzi",
+      "status": "decided",
+      "note": "小三子; Zhu Guiying’s younger brother, a worker at Zhou Zhongwei’s match factory."
+    },
+    "四喜子": {
+      "en": "Sixizi",
+      "pinyin": "Sixizi",
+      "status": "decided",
+      "note": "四喜子; a rag-picking neighbour boy who scavenged the wad of Communist leaflets the Zhu family unknowingly used as wrapping-paper."
+    },
+    "阿祥": {
+      "en": "A Xiang",
+      "pinyin": "A Xiang",
+      "status": "decided",
+      "note": "阿祥; a man at the filature whom Gui Changlin suspects is Qian Baosheng’s planted informer."
+    },
+    "克佐甫": {
+      "en": "Ke Zuofu",
+      "pinyin": "Ke Zuofu",
+      "status": "decided",
+      "note": "克佐甫; a higher Communist Party functionary, unseen in this chapter, from whom Cai Zhen takes her “formulas” at second hand."
+    },
+    "贺龙": {
+      "en": "He Long",
+      "pinyin": "He Long",
+      "status": "attested",
+      "note": "贺龙 (1896–1969); a Communist Red Army commander, named in the drawing-room war-talk as operating about Shashi and Daye in the 1930 offensive. See the footnote on the summer-1930 campaign."
+    },
+    "方志敏": {
+      "en": "Fang Zhimin",
+      "pinyin": "Fang Zhimin",
+      "status": "attested",
+      "note": "方志敏 (1899–1935); Communist leader of the northeast-Jiangxi soviet, named as active about Jingdezhen. See the footnote on the summer-1930 campaign."
+    },
+    "朱毛": {
+      "en": "Zhu and Mao",
+      "pinyin": "Zhu Mao",
+      "status": "attested",
+      "note": "朱毛; the paired name for Zhu De (朱德) and Mao Zedong (毛泽东), whose First Army Corps drove on Ji'an in 1930. See the footnote on the summer-1930 campaign."
+    },
+    "苏伦": {
+      "en": "Su Lun",
+      "pinyin": "Su Lun",
+      "status": "decided",
+      "note": "苏伦; a Communist organizer in the silk-strike cell, reckoned a 'theorist' and a fluent talker, who half-privately doubts the ultra-left line even as he defers to it."
+    },
+    "阿英": {
+      "en": "A Ying",
+      "pinyin": "A Ying",
+      "status": "decided",
+      "note": "阿英; a courier who liaises with the Zhabei mill delegates; she fails to appear at the cell meeting."
+    },
+    "黎八": {
+      "en": "Li the Eighth",
+      "pinyin": "Li Ba",
+      "status": "decided",
+      "note": "黎八; a Party functionary pressing to have Ma Jin transferred to 'keep the station' with him. The surname is 黎 (Li), distinct from the 李 (Li) of pockmarked Li."
+    },
+    "小黄": {
+      "en": "Little Huang",
+      "pinyin": "Xiao Huang",
+      "status": "decided",
+      "note": "小黄; Su Lun's former lover, who 'turned her coat' on him after leaving Shanghai."
+    },
+    "诸葛亮": {
+      "en": "Zhuge Liang",
+      "pinyin": "Zhuge Liang",
+      "status": "attested",
+      "note": "Statesman and strategist of Shu-Han (181–234), the archetypal wise counsellor of the Romance of the Three Kingdoms; here invoked for his “Empty City Stratagem.”"
+    }
+  },
+  "organizations": {
+    "觉林素菜馆": {
+      "en": "the Juelin Vegetarian Restaurant",
+      "pinyin": "Juelin sucaiguan",
+      "status": "decided",
+      "note": "觉林素菜馆; a Shanghai vegetarian restaurant, whose kitchen staff are hired in to cater the funeral."
+    },
+    "戴生昌轮船局": {
+      "en": "the Daishengchang Steamship Office",
+      "pinyin": "Daishengchang lunchuan ju",
+      "status": "decided",
+      "note": "戴生昌; a river-steamer company and its wharf office."
+    },
+    "云飞": {
+      "en": "the Yunfei",
+      "pinyin": "Yunfei",
+      "status": "decided",
+      "note": "云飞轮船, a passenger-steamer line (&#8216;Flying Cloud&#8217;); the boat that brings old Mr. Wu to Shanghai."
+    },
+    "上海总商会": {
+      "en": "the Shanghai General Chamber of Commerce",
+      "pinyin": "Shanghai zong shanghui",
+      "status": "attested",
+      "note": "上海总商会."
+    },
+    "万国殡仪馆": {
+      "en": "the International Funeral Parlour",
+      "pinyin": "Wanguo binyiguan",
+      "status": "attested",
+      "note": "万国殡仪馆; a well-known Shanghai funeral establishment."
+    },
+    "大来饭店": {
+      "en": "the Dalai Hotel",
+      "pinyin": "Dalai fandian",
+      "status": "provisional",
+      "note": "大来饭店; a Western-style Shanghai hotel where Fan Bowen keeps a room. The name transliterates 大来; romanization provisional."
+    },
+    "太平洋轮船公司": {
+      "en": "the Pacific Steamship Company",
+      "pinyin": "Taipingyang lunchuan gongsi",
+      "status": "decided",
+      "note": "Sun Jiren's shipping firm, running Yangtze passenger and cargo boats."
+    },
+    "大兴煤矿公司": {
+      "en": "the Daxing Coal Mining Company",
+      "pinyin": "Daxing meikuang gongsi",
+      "status": "decided",
+      "note": "Wang Hefu's coal-mining concern."
+    },
+    "光大火柴厂": {
+      "en": "the Guangda Match Factory",
+      "pinyin": "Guangda huochai chang",
+      "status": "decided",
+      "note": "Zhou Zhongwei's match factory."
+    },
+    "五云织绸厂": {
+      "en": "the Wuyun Silk-Weaving Mill",
+      "pinyin": "Wuyun zhichou chang",
+      "status": "decided",
+      "note": "Chen Junyi's silk-weaving mill."
+    },
+    "大亚证券信托公司": {
+      "en": "the Daya Securities Trust Company",
+      "pinyin": "Daya zhengquan xintuo gongsi",
+      "status": "decided",
+      "note": "A securities-and-trust house; Lu Kuangshi is its assistant manager."
+    },
+    "上海银行": {
+      "en": "the Shanghai Bank",
+      "pinyin": "Shanghai yinhang",
+      "status": "attested",
+      "note": "The Shanghai Commercial and Savings Bank (上海商业储蓄银行), founded 1915 on a small capital and grown into a leading Chinese bank; Wu Sunfu cites it as the chance he missed."
+    },
+    "华懋饭店": {
+      "en": "the Cathay Hotel",
+      "pinyin": "Huamao fandian",
+      "status": "attested",
+      "note": "Victor Sassoon's Cathay Hotel on the Bund (今和平饭店), the most fashionable hotel of 1930 Shanghai."
+    },
+    "公安局": {
+      "en": "the Public Security Bureau",
+      "pinyin": "Gong'an ju",
+      "status": "attested",
+      "note": "The municipal police authority."
+    },
+    "社会局": {
+      "en": "the Bureau of Social Affairs",
+      "pinyin": "Shehui ju",
+      "status": "attested",
+      "note": "The municipal office handling labour and social matters, to which factory disputes were reported."
+    },
+    "保安队": {
+      "en": "the security corps",
+      "pinyin": "bao'an dui",
+      "status": "decided",
+      "note": "Provincial peace-preservation troops (保安队), called in to put down rural unrest."
+    },
+    "宏昌典当": {
+      "en": "the Hongchang pawnshop",
+      "pinyin": "Hongchang diandang",
+      "status": "decided",
+      "note": "宏昌典当 (shortened 宏昌当); a large pawnshop in Shuangqiao, stormed and set ablaze in the peasant raid."
+    },
+    "锦华洋货店": {
+      "en": "the Jinhua foreign-goods store",
+      "pinyin": "Jinhua yanghuo dian",
+      "status": "decided",
+      "note": "锦华洋货店; an emporium of imported goods on the main street of Shuangqiao, whose mistress Zeng Jiaju assaults."
+    },
+    "农民协会": {
+      "en": "the Peasants' Association",
+      "pinyin": "nongmin xiehui",
+      "status": "attested",
+      "note": "农民协会; the village peasant associations of the late-1920s revolution, through which the rural poor organized against landlords and usurers."
+    },
+    "银行公会": {
+      "en": "the Bankers' Guild",
+      "pinyin": "Yinhang Gonghui",
+      "status": "attested",
+      "note": "银行公会; the Shanghai Bankers' Association, whose splendid clubhouse dining-room Wu Sunfu frequents for his midday meal and the day's market talk."
+    },
+    "通源钱庄": {
+      "en": "the Tongyuan native bank",
+      "pinyin": "Tongyuan qianzhuang",
+      "status": "provisional",
+      "note": "通源钱庄; a native bank (钱庄) among the Wu family's holdings at Shuangqiao, looted in the peasant rising."
+    },
+    "洪门": {
+      "en": "the Hongmen",
+      "pinyin": "Hongmen",
+      "status": "attested",
+      "note": "洪门; the sworn-brotherhood secret society of south China. See the note at 'a Hongmen brother.'"
+    },
+    "元丰钱庄": {
+      "en": "the Yuanfeng native bank",
+      "pinyin": "Yuanfeng qianzhuang",
+      "status": "decided",
+      "note": "The native bank (钱庄) holding the ten-thousand-dollar deposit set aside as Feng Meiqing's trousseau."
+    },
+    "新世界饭店": {
+      "en": "the Xin Shijie Hotel",
+      "pinyin": "Xin Shijie fandian",
+      "status": "decided",
+      "note": "新世界饭店; a hotel by the ‘New World’ amusement hall at the west end of Nanjing Road."
+    },
+    "新新公司": {
+      "en": "the Sun Sun Company",
+      "pinyin": "Xinxin gongsi",
+      "status": "attested",
+      "note": "新新公司; the Sun Sun Department Store, one of the three great Chinese-owned emporia on Nanjing Road."
+    },
+    "大三元酒家": {
+      "en": "the Da San Yuan restaurant",
+      "pinyin": "Da San Yuan jiujia",
+      "status": "decided",
+      "note": "大三元酒家; a large Cantonese restaurant near Nanjing Road."
+    },
+    "华安大厦": {
+      "en": "the Hua’an Building",
+      "pinyin": "Hua'an Dasha",
+      "status": "attested",
+      "note": "华安大厦; the China United Assurance building on Nanjing Road (today the Pacific Hotel), where Zhao Botao keeps a suite."
+    },
+    "益中信托公司": {
+      "en": "the Yizhong Trust Company",
+      "pinyin": "Yizhong xintuo gongsi",
+      "status": "decided",
+      "note": "益中信托公司; the trust company Wu Sunfu and his partners have seized as the base for their operations, here named for the first time. See the note on ‘trust company.’"
+    },
+    "老闸捕房": {
+      "en": "the Louza police station",
+      "pinyin": "Laozha buo fang",
+      "status": "attested",
+      "note": "老闸捕房; the Louza (老闸) police station of the International Settlement, the very station whose men fired the shots of 30 May 1925."
+    },
+    "华商证券交易所": {
+      "en": "the Chinese Securities Exchange",
+      "pinyin": "Huashang zhengquan jiaoyisuo",
+      "status": "decided",
+      "note": "华商证券交易所; the Chinese-run securities exchange on Hankou Road (San Malu), the floor on which the whole bond speculation of the novel is fought."
+    },
+    "字林西报": {
+      "en": "the North China Daily News",
+      "pinyin": "Zilin Xibao",
+      "status": "attested",
+      "note": "字林西报 (North-China Daily News); the leading British-owned English-language daily of Shanghai, whose advertisement board carried the day's headlines."
+    },
+    "长丰水果店": {
+      "en": "the Changfeng Fruit Shop",
+      "pinyin": "Changfeng shuiguodian",
+      "status": "decided",
+      "note": "长丰水果店; a Shanghai fruit shop named among Feng Yunqing's household bills."
+    },
+    "老大房": {
+      "en": "the Laodafang confectioner's",
+      "pinyin": "Laodafang",
+      "status": "attested",
+      "note": "老大房糖食店; a well-known Shanghai confectionery and sweetmeats shop."
+    },
+    "北洋政府": {
+      "en": "the Beiyang government",
+      "pinyin": "Beiyang zhengfu",
+      "status": "attested",
+      "note": "北洋政府; the Beijing-based warlord governments of 1912–1928 that preceded the Nanjing Nationalist regime. The 'old bonds' traded late in the session were issues left over from its day."
+    },
+    "元大庄": {
+      "en": "the Yuanda native bank",
+      "pinyin": "Yuanda",
+      "status": "decided",
+      "note": "元大庄; the native bank whose promised hundred-thousand-tael loan to Yizhong was arranged through Du Zhuzhai and is withdrawn once he pulls out."
+    },
+    "裕华丝厂": {
+      "en": "the Yuhua Silk Filature",
+      "pinyin": "Yuhua sichang",
+      "status": "decided",
+      "note": "裕华丝厂; Wu Sunfu’s silk filature, where the wage-cut and the strike of this chapter break out."
+    },
+    "乾和丝厂": {
+      "en": "the Qianhe Silk Filature",
+      "pinyin": "Qianhe sichang",
+      "status": "decided",
+      "note": "乾和丝厂; Zhu Yinqiu's silk filature, foundering under its debts and become, in Wu Sunfu's phrase, a 'wet shirt.'"
+    },
+    "丝总": {
+      "en": "the Silk Union",
+      "pinyin": "Si Zong",
+      "status": "decided",
+      "note": "丝总; the abbreviated name of the silk-filature workers' general union, the body coordinating the general strike and issuing its resolutions."
+    },
+    "总罢委": {
+      "en": "the General Strike Committee",
+      "pinyin": "Zong Ba Wei",
+      "status": "decided",
+      "note": "总罢委, short for 总罢工委员会; the committee directing the general strike, whose delegate conference (代表会) the organizers are hurrying to attend."
+    },
+    "瑞典火柴托辣斯": {
+      "en": "the Swedish Match Trust",
+      "pinyin": "Ruidian huochai tuolasi",
+      "status": "decided",
+      "note": "The global match monopoly built by Ivar Kreuger (Svenska Tändsticks AB); 托辣斯 transliterates “trust.”"
+    },
+    "瑞中火柴公司": {
+      "en": "the Sino-Swedish Match Company",
+      "pinyin": "Rui-Zhong huochai gongsi",
+      "status": "decided",
+      "note": "The Swedish firm named in the trade circular as seeking a loan-for-monopoly with the Chinese government; 瑞 = Sweden, 中 = China."
+    },
+    "中华全国火柴业联合会": {
+      "en": "the All-China Match Manufacturers’ Association",
+      "pinyin": "Zhonghua quanguo huochaiye lianhehui",
+      "status": "decided",
+      "note": "The national trade body whose circular Zhou Zhongwei shows off."
+    },
+    "广东火柴行商业公会": {
+      "en": "the Guangdong Match Trade Guild",
+      "pinyin": "Guangdong huochaihang shangye gonghui",
+      "status": "decided",
+      "note": "Also given in full as the Guangdong Native-Match Trade Guild (广东土造火柴行商业公会); author of the memorial to the Ministry of Industry and Commerce."
+    },
+    "东三省火柴同业联合会": {
+      "en": "the Match Trade Federation of the Three Eastern Provinces",
+      "pinyin": "Dongsansheng huochai tongye lianhehui",
+      "status": "decided",
+      "note": "The match trade federation of Manchuria (the Three Eastern Provinces)."
+    },
+    "工商部": {
+      "en": "the Ministry of Industry and Commerce",
+      "pinyin": "Gongshangbu",
+      "status": "attested",
+      "note": "The Nationalist government ministry to which the match-trade memorials are addressed."
+    },
+    "鸿运楼": {
+      "en": "the Hongyun Lou",
+      "pinyin": "Hongyun Lou",
+      "status": "decided",
+      "note": "A restaurant; Zhou Zhongwei offers a feast there as a joke."
+    }
+  },
+  "places": {
+    "苏州河": {
+      "en": "Suzhou Creek",
+      "pinyin": "Suzhou He",
+      "status": "attested",
+      "note": "The creek meeting the Huangpu at the north end of the Bund."
+    },
+    "黄浦": {
+      "en": "the Huangpu",
+      "pinyin": "Huangpu",
+      "status": "attested",
+      "note": "The river along the Bund; older English Whangpoo."
+    },
+    "浦东": {
+      "en": "Pudong",
+      "pinyin": "Pudong",
+      "status": "attested",
+      "note": "The east bank of the Huangpu; older English Pootung."
+    },
+    "外滩": {
+      "en": "the Bund",
+      "pinyin": "Waitan",
+      "status": "attested",
+      "note": "外滩; the riverfront boulevard of the International Settlement (外滩公园, the park on the Bund)."
+    },
+    "外白渡桥": {
+      "en": "the Waibaidu Bridge",
+      "pinyin": "Waibaidu Qiao",
+      "status": "attested",
+      "note": "The steel bridge at the mouth of Suzhou Creek, known in the foreign settlements as the Garden Bridge."
+    },
+    "北苏州路": {
+      "en": "North Suzhou Road",
+      "pinyin": "Bei Suzhou Lu",
+      "status": "attested",
+      "note": ""
+    },
+    "北河南路": {
+      "en": "North Henan Road",
+      "pinyin": "Bei Henan Lu",
+      "status": "attested",
+      "note": "Older English Honan Road."
+    },
+    "南京路": {
+      "en": "Nanjing Road",
+      "pinyin": "Nanjing Lu",
+      "status": "attested",
+      "note": "Older English Nanking Road."
+    },
+    "河南路": {
+      "en": "Henan Road",
+      "pinyin": "Henan Lu",
+      "status": "attested",
+      "note": "Older English Honan Road."
+    },
+    "西藏路": {
+      "en": "Xizang Road",
+      "pinyin": "Xizang Lu",
+      "status": "attested",
+      "note": "Older English Tibet (Thibet) Road."
+    },
+    "静安寺路": {
+      "en": "Jing'an Temple Road",
+      "pinyin": "Jing'an Si Lu",
+      "status": "attested",
+      "note": "Known in the settlement as Bubbling Well Road."
+    },
+    "抛球场": {
+      "en": "Paoqiuchang",
+      "pinyin": "Paoqiuchang",
+      "status": "decided",
+      "note": "The crossing of Nanjing Road and Henan Road, long known by this name."
+    },
+    "铁马路": {
+      "en": "the Iron-Horse Road",
+      "pinyin": "Tie Malu",
+      "status": "decided",
+      "note": "Colloquial name (俗名) for the stretch of road west of the Chamber of Commerce where the river launches gathered."
+    },
+    "关帝庙": {
+      "en": "the Guandi Temple",
+      "pinyin": "Guandi Miao",
+      "status": "attested",
+      "note": "A temple of Guan Yu; here a rural garrison's billet."
+    },
+    "北京路": {
+      "en": "Beijing Road",
+      "pinyin": "Beijing Lu",
+      "status": "attested",
+      "note": "Older English Peking Road."
+    },
+    "金神父路": {
+      "en": "Rue Père Robert",
+      "pinyin": "Jin Shenfu Lu",
+      "status": "attested",
+      "note": "A street in the Shanghai French Concession (金神父路, today part of 瑞金二路); site of the French Hospital."
+    },
+    "法国医院": {
+      "en": "the French Hospital",
+      "pinyin": "Faguo yiyuan",
+      "status": "attested",
+      "note": "The Hôpital Sainte-Marie (广慈医院) of the French Concession, on Rue Père Robert."
+    },
+    "皖北": {
+      "en": "northern Anhui",
+      "pinyin": "Wanbei",
+      "status": "attested",
+      "note": "The northern part of Anhui province (皖 = Anhui); a theatre of the 1930 fighting."
+    },
+    "浦口": {
+      "en": "Pukou",
+      "pinyin": "Pukou",
+      "status": "attested",
+      "note": "The Yangtze river-port opposite Nanjing."
+    },
+    "常州": {
+      "en": "Changzhou",
+      "pinyin": "Changzhou",
+      "status": "attested",
+      "note": "A city in southern Jiangsu on the Shanghai–Nanjing line."
+    },
+    "无锡": {
+      "en": "Wuxi",
+      "pinyin": "Wuxi",
+      "status": "attested",
+      "note": "A silk and industrial city in southern Jiangsu."
+    },
+    "河南": {
+      "en": "Henan",
+      "pinyin": "Henan",
+      "status": "attested",
+      "note": "The central province; older English Honan."
+    },
+    "京汉线": {
+      "en": "the Beijing–Hankou line",
+      "pinyin": "Jinghan xian",
+      "status": "attested",
+      "note": "The Beijing–Hankou (Jinghan) railway; older English the Peking–Hankow line. Scene of the 1927 Northern Expedition fighting Lei recalls."
+    },
+    "汉口": {
+      "en": "Hankou",
+      "pinyin": "Hankou",
+      "status": "attested",
+      "note": "The great Yangtze treaty-port, part of the Wuhan tri-cities; older English Hankow."
+    },
+    "武昌": {
+      "en": "Wuchang",
+      "pinyin": "Wuchang",
+      "status": "attested",
+      "note": "The city across the river from Hankou, part of Wuhan."
+    },
+    "野鸡岗": {
+      "en": "Yejigang",
+      "pinyin": "Yejigang",
+      "status": "provisional",
+      "note": "A place named as the scene of a 1930 rout in which the newly-formed First Division was destroyed."
+    },
+    "陇海": {
+      "en": "the Longhai railway",
+      "pinyin": "Longhai",
+      "status": "attested",
+      "note": "The east–west Longhai (Lunghai) trunk railway, a front of the 1930 war."
+    },
+    "平汉": {
+      "en": "the Pinghan line",
+      "pinyin": "Pinghan",
+      "status": "attested",
+      "note": "The Beijing–Hankou railway under its 1928 name, Pinghan (Peiping–Hankow); a front of the 1930 war."
+    },
+    "里昂": {
+      "en": "Lyon",
+      "pinyin": "Li'ang",
+      "status": "attested",
+      "note": "The French silk-trade city, a chief foreign market for Chinese raw silk."
+    },
+    "纽约": {
+      "en": "New York",
+      "pinyin": "Niuyue",
+      "status": "attested",
+      "note": "The other chief foreign market for silk named here."
+    },
+    "江北": {
+      "en": "Jiangbei",
+      "pinyin": "Jiangbei",
+      "status": "attested",
+      "note": "The region of Jiangsu north of the Yangtze; the site Sun Jiren proposes for a long-distance motor-bus line."
+    },
+    "广东": {
+      "en": "Guangdong",
+      "pinyin": "Guangdong",
+      "status": "attested",
+      "note": "The southern province; older English Kwangtung. Site of Whampoa, whence Lei Ming set out with the Northern Expedition."
+    },
+    "湖南": {
+      "en": "Hunan",
+      "pinyin": "Hunan",
+      "status": "attested",
+      "note": "The province north of Guangdong; older English Hunan."
+    },
+    "长沙": {
+      "en": "Changsha",
+      "pinyin": "Changsha",
+      "status": "attested",
+      "note": "The capital of Hunan, taken in the Northern Expedition Lei Ming recalls."
+    },
+    "武汉": {
+      "en": "Wuhan",
+      "pinyin": "Wuhan",
+      "status": "attested",
+      "note": "The Yangtze tri-city of Wuchang, Hankou and Hanyang; a chief objective of the 1926-27 Northern Expedition."
+    },
+    "郑州": {
+      "en": "Zhengzhou",
+      "pinyin": "Zhengzhou",
+      "status": "attested",
+      "note": "The Henan rail junction of the Beijing-Hankou and Longhai lines; older English Chengchow."
+    },
+    "北平": {
+      "en": "Beiping",
+      "pinyin": "Beiping",
+      "status": "attested",
+      "note": "The name given to Beijing (北京) when the Nationalist government moved the capital to Nanjing in 1928; older English Peiping. Lei Ming names its capture in the northern campaign."
+    },
+    "双桥镇": {
+      "en": "Shuangqiao",
+      "pinyin": "Shuangqiao zhen",
+      "status": "provisional",
+      "note": "双桥镇; the market town some two hundred li by water from Shanghai that is Zeng Canghai's seat and the site of Wu Sunfu's country enterprises (an electric-power plant, a rice-mill, an oil-press). A fictional town."
+    },
+    "七里桥": {
+      "en": "Qiliqiao",
+      "pinyin": "Qiliqiao",
+      "status": "provisional",
+      "note": "七里桥; a village near Shuangqiao where the peasant uprising of this chapter begins."
+    },
+    "太白楼": {
+      "en": "the Taibai Lou",
+      "pinyin": "Taibai Lou",
+      "status": "decided",
+      "note": "太白楼酒馆; a tavern ('Li Bai's Tower') on the main street of Shuangqiao."
+    },
+    "杭州": {
+      "en": "Hangzhou",
+      "pinyin": "Hangzhou",
+      "status": "attested",
+      "note": "杭州; the silk-weaving city on the West Lake; older English Hangchow."
+    },
+    "苏堤": {
+      "en": "the Su Causeway",
+      "pinyin": "Su Di",
+      "status": "attested",
+      "note": "苏堤; the willow-planted dyke across the West Lake, traditionally credited to the poet Su Shi. See the note in Fan Bowen's poem."
+    },
+    "西子": {
+      "en": "the Lady of the West",
+      "pinyin": "Xizi",
+      "status": "decided",
+      "note": "西子; the West Lake at Hangzhou, likened since Su Shi to the antique beauty Xi Shi. See the note at 'the Lady of the West.'"
+    },
+    "东方大港": {
+      "en": "the Great Eastern Port",
+      "pinyin": "Dongfang Dagang",
+      "status": "attested",
+      "note": "东方大港; the vast harbour near the Yangtze's mouth proposed in Sun Yat-sen's Fundamentals of National Reconstruction — still a paper vision in 1930."
+    },
+    "兆丰公园": {
+      "en": "Jessfield Park",
+      "pinyin": "Zhaofeng Gongyuan",
+      "status": "attested",
+      "note": "兆丰公园; the large park in the western part of the International Settlement, known in English as Jessfield Park (today Zhongshan Park, 中山公园), with a lake and a small zoo."
+    },
+    "香港": {
+      "en": "Hong Kong",
+      "pinyin": "Xianggang",
+      "status": "attested",
+      "note": "香港; Hong Kong, then a British colony; here the refuge of the union faction's absent patron, 'Mr. Wang.'"
+    },
+    "美国": {
+      "en": "America",
+      "pinyin": "Meiguo",
+      "status": "attested",
+      "note": "美国; the United States, whose finance capital stands behind the 'great plan' Li Yuting reports."
+    },
+    "英国": {
+      "en": "England",
+      "pinyin": "Yingguo",
+      "status": "attested",
+      "note": "英国; Britain, named with Japan as America's two rivals in the East."
+    },
+    "日本": {
+      "en": "Japan",
+      "pinyin": "Riben",
+      "status": "attested",
+      "note": "日本; Japan, named with England as America's two rivals in the East."
+    },
+    "明园": {
+      "en": "Mingyuan",
+      "pinyin": "Mingyuan",
+      "status": "decided",
+      "note": "A Shanghai racing and pleasure ground; the concubine goes there for the evening's 'special race.'"
+    },
+    "白公馆": {
+      "en": "the Bai residence",
+      "pinyin": "Bai gongguan",
+      "status": "decided",
+      "note": "The household of the Fifth Concubine of the Bai family (白府五姨太), the concubine's sworn sister and protector; also rendered the House of Bai."
+    },
+    "泥城桥": {
+      "en": "Nichengqiao",
+      "pinyin": "Nichengqiao",
+      "status": "provisional",
+      "note": "泥城桥; a place at the western end of Nanjing Road (‘the Nicheng Bridge’), the starting-point of the demonstration."
+    },
+    "跑马厅": {
+      "en": "the Racecourse",
+      "pinyin": "Paomating",
+      "status": "decided",
+      "note": "跑马厅 (also 跑马场); the great racecourse of the International Settlement, off Bubbling Well Road (today People’s Square and People’s Park)."
+    },
+    "北四川路": {
+      "en": "North Sichuan Road",
+      "pinyin": "Bei Sichuan Lu",
+      "status": "attested",
+      "note": "北四川路; a main road running north from the Settlement into the Hongkou district; older English North Szechuen Road."
+    },
+    "浙江路": {
+      "en": "Zhejiang Road",
+      "pinyin": "Zhejiang Lu",
+      "status": "attested",
+      "note": "浙江路; a Settlement road crossing Nanjing Road; older English Chekiang Road."
+    },
+    "云南路": {
+      "en": "Yunnan Road",
+      "pinyin": "Yunnan Lu",
+      "status": "attested",
+      "note": "云南路; a Settlement road near the racecourse; older English Yunnan Road."
+    },
+    "东新桥": {
+      "en": "Dongxinqiao",
+      "pinyin": "Dongxinqiao",
+      "status": "provisional",
+      "note": "东新桥; a place (‘the Dongxin Bridge’) on the way, where Li Yuting’s carriage meets the demonstrators."
+    },
+    "大新街": {
+      "en": "Daxin Street",
+      "pinyin": "Daxin Jie",
+      "status": "provisional",
+      "note": "大新街; a street near Nanjing Road."
+    },
+    "日升楼": {
+      "en": "the Risheng Lou",
+      "pinyin": "Risheng Lou",
+      "status": "provisional",
+      "note": "日升楼; a well-known tea-house and landmark at a corner of Nanjing Road, named by Fan Bowen as the eastern bound of the view."
+    },
+    "长浜路": {
+      "en": "Changbang Road",
+      "pinyin": "Changbang Lu",
+      "status": "provisional",
+      "note": "长浜路; a road along the filled-in Yangjing Creek (today part of Yan’an East Road)."
+    },
+    "大华": {
+      "en": "the Majestic",
+      "pinyin": "Dahua",
+      "status": "attested",
+      "note": "大华 (大华饭店/舞厅); the Majestic Hotel and ballroom, a fashionable Shanghai resort of 1930."
+    },
+    "丽娃丽妲村": {
+      "en": "the Liwalida",
+      "pinyin": "Liwalida Cun",
+      "status": "decided",
+      "note": "丽娃丽妲村 (a transliteration of ‘Riviera’); a lakeside pleasure-garden on Suzhou Creek opened by White Russian émigrés, with wine, music and boating."
+    },
+    "色奈河": {
+      "en": "the Seine",
+      "pinyin": "Sena He",
+      "status": "attested",
+      "note": "色奈河; the river Seine, at Paris; Du Xintuo’s memory of his years in France."
+    },
+    "罗马": {
+      "en": "Rome",
+      "pinyin": "Luoma",
+      "status": "attested",
+      "note": "罗马; the city of Rome."
+    },
+    "希腊": {
+      "en": "Greece",
+      "pinyin": "Xila",
+      "status": "attested",
+      "note": "希腊; ancient Greece, whose host Homer extols in the Iliad."
+    },
+    "法兰西": {
+      "en": "France",
+      "pinyin": "Falanxi",
+      "status": "attested",
+      "note": "法兰西; France (a transliteration alongside the standard 法国); Du Xintuo’s years abroad."
+    },
+    "蚌埠": {
+      "en": "Bengbu",
+      "pinyin": "Bengbu",
+      "status": "attested",
+      "note": "蚌埠; a rail city on the Jinpu line in Anhui, to which Boqing’s family flee the fighting."
+    },
+    "湖北": {
+      "en": "Hubei",
+      "pinyin": "Hubei",
+      "status": "attested",
+      "note": "湖北; the central Yangtze province; older English Hupeh."
+    },
+    "江西": {
+      "en": "Jiangxi",
+      "pinyin": "Jiangxi",
+      "status": "attested",
+      "note": "江西; the province south of the Yangtze, a centre of the Communist rising; older English Kiangsi."
+    },
+    "江苏": {
+      "en": "Jiangsu",
+      "pinyin": "Jiangsu",
+      "status": "attested",
+      "note": "江苏; the coastal province of which Shanghai is part; older English Kiangsu."
+    },
+    "浙江": {
+      "en": "Zhejiang",
+      "pinyin": "Zhejiang",
+      "status": "attested",
+      "note": "浙江; the province south of Jiangsu; older English Chekiang."
+    },
+    "福建": {
+      "en": "Fujian",
+      "pinyin": "Fujian",
+      "status": "attested",
+      "note": "福建; the south-eastern coastal province; older English Fukien."
+    },
+    "长江": {
+      "en": "the Yangtze",
+      "pinyin": "Changjiang",
+      "status": "attested",
+      "note": "长江; the Yangtze River."
+    },
+    "温台": {
+      "en": "the Wenzhou–Taizhou country",
+      "pinyin": "Wen-Tai",
+      "status": "decided",
+      "note": "温台; the Wenzhou–Taizhou region of coastal Zhejiang."
+    },
+    "宁绍": {
+      "en": "the Ningbo–Shaoxing country",
+      "pinyin": "Ning-Shao",
+      "status": "decided",
+      "note": "宁绍; the Ningbo–Shaoxing region of eastern Zhejiang."
+    },
+    "武穴": {
+      "en": "Wuxue",
+      "pinyin": "Wuxue",
+      "status": "attested",
+      "note": "武穴; a Yangtze river-port in Hubei."
+    },
+    "沙市": {
+      "en": "Shashi",
+      "pinyin": "Shashi",
+      "status": "attested",
+      "note": "沙市; a Yangtze river-port in Hubei; older English Shasi."
+    },
+    "天津": {
+      "en": "Tianjin",
+      "pinyin": "Tianjin",
+      "status": "attested",
+      "note": "天津; the great northern treaty-port; older English Tientsin."
+    },
+    "广州": {
+      "en": "Guangzhou",
+      "pinyin": "Guangzhou",
+      "status": "attested",
+      "note": "广州; the southern port city; older English Canton."
+    },
+    "澳门": {
+      "en": "Macau",
+      "pinyin": "Aomen",
+      "status": "attested",
+      "note": "澳门; the Portuguese colony at the mouth of the Pearl River."
+    },
+    "岳州": {
+      "en": "Yuezhou",
+      "pinyin": "Yuezhou",
+      "status": "attested",
+      "note": "岳州; the Hunan city on Dongting Lake (today Yueyang, 岳阳), taken by Peng Dehuai’s Red Army."
+    },
+    "宜昌": {
+      "en": "Yichang",
+      "pinyin": "Yichang",
+      "status": "attested",
+      "note": "宜昌; a Yangtze river-port in western Hubei; older English Ichang."
+    },
+    "南昌": {
+      "en": "Nanchang",
+      "pinyin": "Nanchang",
+      "status": "attested",
+      "note": "南昌; the capital of Jiangxi province."
+    },
+    "烟台": {
+      "en": "Yantai",
+      "pinyin": "Yantai",
+      "status": "attested",
+      "note": "烟台; the port on the north coast of Shandong; older English Chefoo. The intended landfall of Tang Yunshan’s smuggled arms."
+    },
+    "山东": {
+      "en": "Shandong",
+      "pinyin": "Shandong",
+      "status": "attested",
+      "note": "山东; the northern coastal province; older English Shantung."
+    },
+    "三马路": {
+      "en": "San Malu",
+      "pinyin": "San Malu",
+      "status": "decided",
+      "note": "三马路; the colloquial name of Hankou Road (汉口路), the financial street of Chinese Shanghai where the securities exchange stood. See the footnote at first appearance."
+    },
+    "昼锦里": {
+      "en": "Zhaojinli",
+      "pinyin": "Zhaojinli",
+      "status": "provisional",
+      "note": "昼锦里; a lane of brothels near the securities exchange in the old Chinese city quarter."
+    },
+    "亨堡": {
+      "en": "the Hamburg lot",
+      "pinyin": "Hengbao",
+      "status": "provisional",
+      "note": "亨堡; the name of Tang Yunshan’s smuggled arms consignment, probably Hamburg (the German port of origin) but perhaps only a cover-word; identification provisional. See the footnote at ‘shipped to Yantai.’"
+    },
+    "爱多亚路": {
+      "en": "Avenue Edward VII",
+      "pinyin": "Aiduoya lu",
+      "status": "attested",
+      "note": "爱多亚路; the International Settlement boulevard running inland from the Bund (今延安东路), named for King Edward VII. The meteorological signal tower at its Bund end hoisted the storm-warning balls."
+    },
+    "霞飞路": {
+      "en": "Avenue Joffre",
+      "pinyin": "Xiafei lu",
+      "status": "attested",
+      "note": "霞飞路; the great avenue of the French Concession (今淮海中路), lined with apartment blocks and shops."
+    },
+    "津浦线": {
+      "en": "the Tianjin–Pukou line",
+      "pinyin": "Jinpu xian",
+      "status": "attested",
+      "note": "津浦线 (also 津浦路); the Tianjin–Pukou railway, the north–south trunk line fought over in the 1930 war. Pukou faces Nanjing across the Yangtze, so the line's fate bore directly on the bond market."
+    },
+    "山西": {
+      "en": "Shanxi",
+      "pinyin": "Shanxi",
+      "status": "attested",
+      "note": "山西; the northern province, base of the warlord Yan Xishan, whose army's movements the speculators watch here."
+    },
+    "西牢": {
+      "en": "the Western Gaol",
+      "pinyin": "xilao",
+      "status": "decided",
+      "note": "西牢; the colloquial name for the prison of the foreign-administered Shanghai International Settlement, where a Chinese offender sentenced through the Settlement's courts might be held."
+    },
+    "江海关": {
+      "en": "the Customs House",
+      "pinyin": "Jianghaiguan",
+      "status": "decided",
+      "note": "江海关; the Shanghai Maritime Customs House on the Bund."
+    },
+    "德州": {
+      "en": "Dezhou",
+      "pinyin": "Dezhou",
+      "status": "attested",
+      "note": "德州; city in northwestern Shandong on the Tianjin–Pukou line, a front in the 1930 war."
+    },
+    "济南": {
+      "en": "Jinan",
+      "pinyin": "Jinan",
+      "status": "attested",
+      "note": "济南; capital of Shandong, on the Tianjin–Pukou line; older English Tsinan."
+    },
+    "徐州": {
+      "en": "Xuzhou",
+      "pinyin": "Xuzhou",
+      "status": "attested",
+      "note": "徐州; rail junction in northern Jiangsu where the Tianjin–Pukou and Longhai lines cross."
+    },
+    "虹口": {
+      "en": "Hongkou",
+      "pinyin": "Hongkou",
+      "status": "attested",
+      "note": "虹口; district of Shanghai north of Suzhou Creek, part of the International Settlement, with many Japanese residents and mills; older English Hongkew."
+    },
+    "闸北": {
+      "en": "Zhabei",
+      "pinyin": "Zhabei",
+      "status": "attested",
+      "note": "闸北; Chinese-administered industrial district of Shanghai north of the Settlement, where Wu Sunfu's own mill stands; older English Chapei."
+    },
+    "意大利": {
+      "en": "Italy",
+      "pinyin": "Yidali",
+      "status": "attested",
+      "note": "意大利; Italy, invoked by Du Xueshi as the model of a corporate-statist order that forbids both strikes and lockouts."
+    },
+    "大冶": {
+      "en": "Daye",
+      "pinyin": "Daye",
+      "status": "attested",
+      "note": "大冶; a mining town in southeastern Hubei, named in the war-talk."
+    },
+    "浏阳": {
+      "en": "Liuyang",
+      "pinyin": "Liuyang",
+      "status": "attested",
+      "note": "浏阳; a county town in eastern Hunan, named in the war-talk."
+    },
+    "景德镇": {
+      "en": "Jingdezhen",
+      "pinyin": "Jingdezhen",
+      "status": "attested",
+      "note": "景德镇; the porcelain city of northeastern Jiangxi, named in the war-talk."
+    },
+    "吉安": {
+      "en": "Ji'an",
+      "pinyin": "Ji'an",
+      "status": "attested",
+      "note": "吉安; a city on the Gan River in central Jiangxi, objective of the Zhu–Mao army in 1930."
+    },
+    "胶济路": {
+      "en": "the Jiaoji railway",
+      "pinyin": "Jiaoji lu",
+      "status": "attested",
+      "note": "胶济路; the Qingdao–Jinan railway across Shandong (胶 Jiaozhou to 济 Jinan), the line the Central Army still holds after giving up Jinan."
+    }
+  },
+  "terms": {
+    "太上感应篇": {
+      "en": "the Taishang Ganying Pian",
+      "pinyin": "Taishang Ganying Pian",
+      "status": "attested",
+      "note": "The Daoist &#8220;Tract of the Most High on Action and Response&#8221; that old Mr. Wu worships; see the note at its first appearance."
+    },
+    "大亨": {
+      "en": "big shot / magnate",
+      "pinyin": "daheng",
+      "status": "decided",
+      "note": "大亨; a tycoon of the Shanghai business world."
+    },
+    "少奶奶": {
+      "en": "young mistress",
+      "pinyin": "shaonainai",
+      "status": "decided",
+      "note": "吴少奶奶 is rendered &#8216;the Wu young mistress&#8217;: the young married lady of the house (here Lin Peiyao)."
+    },
+    "金童玉女": {
+      "en": "golden boy and jade maiden",
+      "pinyin": "jintong yunu",
+      "status": "decided",
+      "note": "The paired child-attendants of a Daoist immortal; see the note at first appearance."
+    },
+    "公债": {
+      "en": "government bonds",
+      "pinyin": "gongzhai",
+      "status": "attested",
+      "note": "公债; government (i.e. state) bonds, the speculative instrument at the heart of the chapter. The Nanjing government financed itself by successive bond issues, and their prices rose and fell with the war news."
+    },
+    "库券": {
+      "en": "treasury notes",
+      "pinyin": "kuquan",
+      "status": "attested",
+      "note": "库券; short-term government treasury notes, traded alongside the bonds."
+    },
+    "交易所": {
+      "en": "the exchange",
+      "pinyin": "jiaoyisuo",
+      "status": "attested",
+      "note": "交易所; the Shanghai securities exchange where bonds and standard gold were traded."
+    },
+    "经纪人": {
+      "en": "broker",
+      "pinyin": "jingjiren",
+      "status": "attested",
+      "note": "经纪人; a broker executing trades on the exchange for clients."
+    },
+    "多头": {
+      "en": "bull",
+      "pinyin": "duotou",
+      "status": "attested",
+      "note": "多头; a 'long,' one who buys expecting a rise (also 'the bulls'). 大户多头 is a big-operator bull, 散户多头 the small holders."
+    },
+    "空头": {
+      "en": "bear",
+      "pinyin": "kongtou",
+      "status": "attested",
+      "note": "空头; a 'short,' one who sells expecting a fall (also 'the bears')."
+    },
+    "标金": {
+      "en": "standard gold",
+      "pinyin": "biaojin",
+      "status": "attested",
+      "note": "标金; bar gold of standard fineness traded for future delivery on the Shanghai exchange, the other great speculative market beside the bonds."
+    },
+    "花纱": {
+      "en": "cotton and yarn",
+      "pinyin": "huasha",
+      "status": "decided",
+      "note": "花纱; raw cotton and cotton yarn, quoted on the commodity market ('so many taels and mace' = by weight and price)."
+    },
+    "交割": {
+      "en": "settlement",
+      "pinyin": "jiaoge",
+      "status": "attested",
+      "note": "交割 / 交割期; the monthly settlement or delivery day on which futures positions must be closed or the goods taken up. Its nearness governs every calculation here."
+    },
+    "停板": {
+      "en": "limit halt",
+      "pinyin": "tingban",
+      "status": "decided",
+      "note": "停板; a halt of trading when a price hits the day's permitted limit, here on the plunging bonds."
+    },
+    "补进": {
+      "en": "to cover",
+      "pinyin": "bujin",
+      "status": "decided",
+      "note": "补进; to buy back, closing a short position or accumulating a long one ('buying back in')."
+    },
+    "出笼": {
+      "en": "to dump on the market",
+      "pinyin": "chulong",
+      "status": "decided",
+      "note": "出笼, lit. 'to come out of the cage'; for a big operator to unload a large holding, driving the price down."
+    },
+    "裁兵": {
+      "en": "the Troop-Disbandment bonds",
+      "pinyin": "caibing",
+      "status": "decided",
+      "note": "裁兵(公债); one of the three current bond issues, named for army disbandment. See the source's own note at 'Coffin-edge.'"
+    },
+    "关税": {
+      "en": "the Customs bonds",
+      "pinyin": "guanshui",
+      "status": "decided",
+      "note": "关税(公债); the bond issue secured on customs revenue, one of the three named. See the source's own note at 'Coffin-edge.'"
+    },
+    "编遣": {
+      "en": "the Reorganization bonds",
+      "pinyin": "bianqian",
+      "status": "decided",
+      "note": "编遣(公债); the bond issue tied to the reorganization-and-disbandment of the armies, one of the three named. See the source's own note at 'Coffin-edge.'"
+    },
+    "交际花": {
+      "en": "socialite",
+      "pinyin": "jiaojihua",
+      "status": "decided",
+      "note": "交际花, lit. 'a flower of society'; a fashionable woman of the demimonde who moves among wealthy men, here Xu Manli."
+    },
+    "金贵银贱": {
+      "en": "dear gold, cheap silver",
+      "pinyin": "jingui yinjian",
+      "status": "decided",
+      "note": "金贵银贱; the rise of gold against silver on which China's silver currency floated, ruinous to importers of foreign materials though nominally a spur to exports."
+    },
+    "厂丝": {
+      "en": "filature silk",
+      "pinyin": "changsi",
+      "status": "decided",
+      "note": "厂丝 (also 厂经); machine-reeled silk from a steam filature, the top grade, as against 土丝, native hand-reeled silk."
+    },
+    "人造丝": {
+      "en": "rayon",
+      "pinyin": "renzaosi",
+      "status": "attested",
+      "note": "人造丝, lit. 'man-made silk'; rayon, the cheap artificial fibre displacing Chinese silk."
+    },
+    "端阳节": {
+      "en": "the Dragon-Boat Festival",
+      "pinyin": "Duanyang jie",
+      "status": "attested",
+      "note": "端阳节 (端午); the fifth-of-the-fifth festival, one of the three traditional debt-settlement dates. See the note at its first appearance."
+    },
+    "铁掌": {
+      "en": "the iron hand",
+      "pinyin": "tiezhang",
+      "status": "decided",
+      "note": "铁掌; Du Xueshi's image for an authoritarian state that would seize the helm and override both capital and labour by force."
+    },
+    "钱庄": {
+      "en": "native bank",
+      "pinyin": "qianzhuang",
+      "status": "attested",
+      "note": "钱庄; a traditional Chinese private bank or money-shop, distinct from the modern 银行. The silk men's working credit runs through these houses, and it is a native-bank manager who will not stretch a point for Chen Junyi."
+    },
+    "银团": {
+      "en": "banking syndicate",
+      "pinyin": "yintuan",
+      "status": "decided",
+      "note": "银团; a consortium of banks or moneyed men joined to make a large loan. Tang Yunshan urges the three industrialists to form one; Wu Sunfu later uses a nameless 'syndicate' as the front for his squeeze on Zhu Yinqiu."
+    },
+    "押款": {
+      "en": "mortgage-loan",
+      "pinyin": "yakuan",
+      "status": "decided",
+      "note": "押款; a loan secured against pledged goods (here bales of silk or dried cocoons). Its falling due at the festival is what drives Zhu Yinqiu's whole plight."
+    },
+    "干茧": {
+      "en": "dried cocoons",
+      "pinyin": "ganjian",
+      "status": "decided",
+      "note": "干茧; silk cocoons dried for storage, the raw material a filature reels. Zhu Yinqiu's hoard of them is the prize Wu Sunfu means to seize."
+    },
+    "干经": {
+      "en": "dry-reeled silk",
+      "pinyin": "ganjing",
+      "status": "decided",
+      "note": "干经; a grade of reeled silk, named beside 厂经 (filature silk) and 灰经 (ash silk) as the grades Wu Sunfu will not accept as security. 川经 is the Sichuan-reeled sort."
+    },
+    "洋庄": {
+      "en": "the foreign-trade lot",
+      "pinyin": "yangzhuang",
+      "status": "decided",
+      "note": "洋庄; goods (here silk) made up for the export market, as against 庄口 for home sale. Wu Sunfu's timely sale of a thousand bales of it is why his case is the soundest of the silk men."
+    },
+    "东汇": {
+      "en": "the eastward exchange",
+      "pinyin": "donghui",
+      "status": "decided",
+      "note": "东汇; the exchange rate on Japan ('eastward' remittance). Its rise makes even duty-free Japanese dried cocoons dear for Wu Sunfu to import."
+    },
+    "土皇帝": {
+      "en": "local emperor",
+      "pinyin": "tu huangdi",
+      "status": "decided",
+      "note": "土皇帝; a rural despot who rules his district as a petty sovereign. See the note at first appearance."
+    },
+    "三民主义": {
+      "en": "the Three Principles of the People",
+      "pinyin": "Sanmin zhuyi",
+      "status": "attested",
+      "note": "三民主义; Sun Yat-sen's doctrine of nationalism, democracy, and the people's livelihood, made the Nationalist creed. See the note at first appearance."
+    },
+    "圣谕广训": {
+      "en": "the Sacred Edict",
+      "pinyin": "Shengyu Guangxun",
+      "status": "attested",
+      "note": "圣谕广训; the Qing 'Amplified Instructions on the Sacred Edict,' the imperial moral primer against which Zeng Canghai measures the new party scripture. See the note at first appearance."
+    },
+    "保卫团": {
+      "en": "the militia",
+      "pinyin": "baowei tuan",
+      "status": "decided",
+      "note": "保卫团; a town's own local defence corps, distinct from the regular provincial garrison (省防军)."
+    },
+    "省防军": {
+      "en": "the provincial garrison",
+      "pinyin": "sheng fangjun",
+      "status": "decided",
+      "note": "省防军; provincial defence troops, a battalion of them quartered in Shuangqiao and three months in arrears of pay."
+    },
+    "印子钱": {
+      "en": "seal-money",
+      "pinyin": "yinzi qian",
+      "status": "decided",
+      "note": "印子钱; money lent at ruinous interest and repaid in instalments stamped off on a tally-sheet — the usury by which Zeng Canghai and Chen Laoba bleed the country poor."
+    },
+    "公安分局": {
+      "en": "the Public Security sub-bureau",
+      "pinyin": "gong'an fenju",
+      "status": "attested",
+      "note": "公安分局; a local branch office of the Public Security Bureau (公安局)."
+    },
+    "曾剥皮": {
+      "en": "Zeng the Skinner",
+      "pinyin": "Zeng Bopi",
+      "status": "decided",
+      "note": "曾剥皮; the peasants' name for Zeng Canghai — 'Zeng who flays the skin' — for his usury and his seizing of their land."
+    },
+    "党证": {
+      "en": "party membership certificate",
+      "pinyin": "dangzheng",
+      "status": "decided",
+      "note": "党证 (党员证); the Nationalist party membership card Zeng Jiaju flourishes, and by which he means to squeeze money out of his father."
+    },
+    "建国方略": {
+      "en": "the Fundamentals of National Reconstruction",
+      "pinyin": "Jianguo fanglue",
+      "status": "attested",
+      "note": "建国方略; Sun Yat-sen's programme for China's development (1917–20), cited by Tang Yunshan for its Great Eastern Port and trunk-railway schemes. See the note at first appearance."
+    },
+    "四大干路": {
+      "en": "the Four Great Trunk Lines",
+      "pinyin": "si da ganlu",
+      "status": "decided",
+      "note": "四大干路; the national grid of trunk railways proposed in Sun Yat-sen's Fundamentals of National Reconstruction, named beside the Great Eastern Port."
+    },
+    "期丝": {
+      "en": "futures-silk",
+      "pinyin": "qisi",
+      "status": "decided",
+      "note": "期丝; filature silk sold forward for future delivery. Wu Sunfu has sold off a large quantity and must reel and deliver against it — which is what gives the women workers their leverage."
+    },
+    "米贴": {
+      "en": "rice-allowance",
+      "pinyin": "mitie",
+      "status": "decided",
+      "note": "米贴; a cost-of-living supplement pegged to the price of rice, the workers' central demand in the filature dispute."
+    },
+    "赏工": {
+      "en": "merit-bonus",
+      "pinyin": "shanggong",
+      "status": "decided",
+      "note": "赏工; a bonus paid on top of wages for good work. The union's counter-offer is to raise it 'by half a tithe' (加半成, half of one-tenth)."
+    },
+    "信托公司": {
+      "en": "trust company",
+      "pinyin": "xintuo gongsi",
+      "status": "decided",
+      "note": "信托公司; a trust-and-investment house. The ready-made one Sun Jiren finds becomes the vehicle the three industrialists seize control of, sparing them the wait for a bank charter."
+    },
+    "公债套利": {
+      "en": "bond arbitrage",
+      "pinyin": "gongzhai taoli",
+      "status": "decided",
+      "note": "公债套利; speculative trading of government bonds for profit, which Wu Sunfu counts among the new financial house's proper lines of business."
+    },
+    "工会": {
+      "en": "the union",
+      "pinyin": "gonghui",
+      "status": "decided",
+      "note": "工会; the factory's labour union, which Tu Weiyue dismisses as an 'empty signboard' and a 'paper tiger' — obeying the owner while pretending to speak for the workers."
+    },
+    "铜牌子": {
+      "en": "brass tally",
+      "pinyin": "tong paizi",
+      "status": "decided",
+      "note": "铜牌子; the numbered brass badge that marks a mill employee; to surrender it is to be dismissed, to receive it back is to be re-engaged."
+    },
+    "巴枯宁主义": {
+      "en": "Bakuninism",
+      "pinyin": "Bakuning zhuyi",
+      "status": "attested",
+      "note": "巴枯宁主义; the collectivist anarchism of Mikhail Bakunin, which Du Xintuo professes as a fashionable pose. See the note at 'a Bakuninist.'"
+    },
+    "万能博士": {
+      "en": "Doctor of All Trades",
+      "pinyin": "wanneng boshi",
+      "status": "decided",
+      "note": "万能博士, lit. 'omnipotent doctor'; the ironic nickname for the dabbler Du Xintuo, who has tried a dozen studies and finished none. See the note at 'Doctor of All Trades.'"
+    },
+    "布尔乔亚": {
+      "en": "bourgeois",
+      "pinyin": "bu'erqiaoya",
+      "status": "decided",
+      "note": "布尔乔亚; a transliteration of 'bourgeois,' the fashionable May Fourth loanword for the propertied class, used by Fan Bowen as a term of contempt."
+    },
+    "诺贝尔文学奖金": {
+      "en": "the Nobel Prize for Literature",
+      "pinyin": "Nuobei'er wenxue jiangjin",
+      "status": "attested",
+      "note": "诺贝尔文学奖金; the Nobel Prize for Literature, which Wu Zhisheng jokingly says Lin Peishan is waiting for Fan Bowen to win."
+    },
+    "管车": {
+      "en": "overseer",
+      "pinyin": "guanche",
+      "status": "decided",
+      "note": "管车; a woman overseer of a bank of reeling frames on the filature floor, ranking below the inspectors (稽查) and identified by her frame number."
+    },
+    "稽查": {
+      "en": "inspector",
+      "pinyin": "jicha",
+      "status": "decided",
+      "note": "稽查; an inspector on the filature floor, set over the overseers (管车)."
+    },
+    "汽油船": {
+      "en": "naphtha-launch",
+      "pinyin": "qiyou chuan",
+      "status": "decided",
+      "note": "汽油船; a small gasoline-engined launch, hired for the run up the creeks to Shuangqiao."
+    },
+    "白相人": {
+      "en": "loafer",
+      "pinyin": "baixiangren",
+      "status": "attested",
+      "note": "白相人; Shanghai (Wu-dialect) slang for an idler, loafer or petty rogue; here the hired toughs who hustle He Xiumei away."
+    },
+    "实业公债": {
+      "en": "industrial bonds",
+      "pinyin": "shiye gongzhai",
+      "status": "decided",
+      "note": "实业公债; a large government bond issue that, floated in the name of relieving industry, would open the way for finance capital to master industrial capital."
+    },
+    "反间计": {
+      "en": "the stratagem of the double agent",
+      "pinyin": "fanjian ji",
+      "status": "decided",
+      "note": "反间计; one of the Thirty-Six Stratagems. See the note at 'stratagem of the double agent.'"
+    },
+    "金融资本": {
+      "en": "finance capital",
+      "pinyin": "jinrong ziben",
+      "status": "decided",
+      "note": "金融资本; finance capital, the banking interests that in Li Yuting's account mean to bring industry under their sway."
+    },
+    "工业资本": {
+      "en": "industrial capital",
+      "pinyin": "gongye ziben",
+      "status": "decided",
+      "note": "工业资本; industrial capital, the manufacturers' capital that finance capital seeks to swallow; Wu Sunfu's own class."
+    },
+    "笑面虎": {
+      "en": "smiling tiger",
+      "status": "decided",
+      "note": "笑面虎, a man of genial face and predatory heart; Feng Yunqing's standing nickname. See the footnote at its first appearance."
+    },
+    "庄票": {
+      "en": "native-bank draft",
+      "status": "decided",
+      "note": "庄票, a draft drawn on a native bank (钱庄), negotiable like cash among merchants."
+    },
+    "五卅": {
+      "en": "May Thirtieth",
+      "pinyin": "Wusa",
+      "status": "attested",
+      "note": "五卅 (五卅运动/五卅纪念); the May Thirtieth Movement of 1925 and its anniversary. See the footnote at first appearance."
+    },
+    "三道头": {
+      "en": "three-stripes",
+      "pinyin": "san dao tou",
+      "status": "decided",
+      "note": "三道头; Shanghai slang for the Western sergeant-inspectors of the Municipal Police, from the chevrons on their sleeves. See the footnote at first appearance."
+    },
+    "红头阿三": {
+      "en": "red-turbaned Ah-San",
+      "pinyin": "hongtou A-san",
+      "status": "decided",
+      "note": "红头阿三; derisive Shanghai slang for the turbaned Sikh constables of the Municipal Police. See the footnote at first appearance."
+    },
+    "白俄": {
+      "en": "the White Russians",
+      "pinyin": "Bai’e",
+      "status": "attested",
+      "note": "白俄; the White Russian émigrés who fled to Shanghai after the Bolshevik revolution, many of them destitute; here both a pleasure-garden’s proprietors and Li Yuting’s image of a stateless people."
+    },
+    "马赛曲": {
+      "en": "the Marseillaise",
+      "pinyin": "Masaiqu",
+      "status": "attested",
+      "note": "马赛曲; the French revolutionary anthem, whistled by Du Xintuo in mock answer to the question of what is to be done."
+    },
+    "张桂军": {
+      "en": "the Zhang-Gui armies",
+      "pinyin": "Zhang-Gui jun",
+      "status": "decided",
+      "note": "张桂军; the combined forces of Zhang Fakui (张发奎) and the Guangxi (‘Gui’) clique, ranged against Nanjing in the 1930 war."
+    },
+    "苏维埃": {
+      "en": "Soviet",
+      "pinyin": "suweiai",
+      "status": "attested",
+      "note": "苏维埃; a transliteration of the Russian ‘soviet’ (a workers’ or peasants’ council), here the rural revolutionary governments the Communists set up in the countryside they held."
+    },
+    "红军": {
+      "en": "the Red Army",
+      "pinyin": "Hongjun",
+      "status": "attested",
+      "note": "红军; the Chinese Workers’ and Peasants’ Red Army, the Communist armed forces of the late 1920s and 1930s."
+    },
+    "铁军": {
+      "en": "the Iron Army",
+      "pinyin": "Tiejun",
+      "status": "decided",
+      "note": "铁军; ‘the Iron Army,’ the honorific won by the Fourth Army in the Northern Expedition and carried by Zhang Fakui’s troops; here marching from Changsha toward the Jiangxi border."
+    },
+    "中秋节": {
+      "en": "the Mid-Autumn Festival",
+      "pinyin": "Zhongqiu jie",
+      "status": "attested",
+      "note": "中秋节 (中秋); the eighth-month full-moon festival, one of the three traditional debt-settlement dates, to which the Dragon-Boat accounts are here put off."
+    },
+    "托辣斯": {
+      "en": "trust",
+      "pinyin": "tuolasi",
+      "status": "decided",
+      "note": "托辣斯; a transliteration of English ‘trust,’ the great combine or monopoly, distinct from the 信托公司 (trust company); the American-style industrial trust Zhao Botao is rumoured to be forming."
+    },
+    "摇摊": {
+      "en": "fantan",
+      "pinyin": "yaotan",
+      "status": "decided",
+      "note": "摇摊; fantan, a gambling game of staking on the remainder when a heap of coins is counted out in fours; named beside 打宝 (dice-guessing) as Wu Sunfu’s games of choice."
+    },
+    "涨风": {
+      "en": "rising wind",
+      "pinyin": "zhangfeng",
+      "status": "decided",
+      "note": "涨风; the season's rising storm-wind, punning on 涨 ('to rise, to swell') in its market sense — a 'bull wind.' See the translator's note at its first appearance."
+    },
+    "茄门": {
+      "en": "Jiamen",
+      "pinyin": "Jiamen",
+      "status": "attested",
+      "note": "茄门; a transliteration of English 'German,' old Shanghai slang for Germany or a German — here the German arms dealer. Glossed by the author's own note [9]."
+    },
+    "七年长期公债": {
+      "en": "the Seven-Year Long-Term Bonds",
+      "pinyin": "qinian changqi gongzhai",
+      "status": "decided",
+      "note": "七年长期公债; an older government bond issue, no longer a speculative target, traded after the main 'Reorganization' session."
+    },
+    "九六公债": {
+      "en": "the Ninety-Six Bonds",
+      "pinyin": "jiuliu gongzhai",
+      "status": "decided",
+      "note": "九六公债; an old, all-but-worthless bond issue still thinly traded at the exchange."
+    },
+    "垫箱钱": {
+      "en": "bottom-of-the-chest money",
+      "pinyin": "dianxiang qian",
+      "status": "decided",
+      "note": "垫箱钱; the private nest-egg a bride keeps at the bottom of her trousseau chest — Feng Meiqing's own dowry money."
+    },
+    "快报": {
+      "en": "bulletin",
+      "pinyin": "kuaibao",
+      "status": "decided",
+      "note": "快报; a 'fast report,' the rush war-news bulletins hawked outside the exchange, often mere rumour manufactured to move prices."
+    },
+    "北方扩大会议": {
+      "en": "the Northern Enlarged Conference",
+      "pinyin": "Beifang Kuoda Huiyi",
+      "status": "attested",
+      "note": "北方扩大会议; the 'Enlarged Conference' of Kuomintang factions opposed to Chiang Kai-shek, convened at Beiping in 1930 as the rival government of the anti-Chiang war."
+    },
+    "总同盟罢工": {
+      "en": "general sympathetic strike",
+      "pinyin": "zong tongmeng bagong",
+      "status": "decided",
+      "note": "总同盟罢工; a general or federated strike in which all the trade's workers across the city walk out together in sympathy — here, the silk-mill hands of all Shanghai."
+    },
+    "存工": {
+      "en": "held-back pay",
+      "pinyin": "cungong",
+      "status": "decided",
+      "note": "存工; wages the mill withholds month by month (here ten per cent, up to a cap) and returns only on an orderly discharge — a device to bind workers and dock the unruly."
+    },
+    "雷梦娜": {
+      "en": "Ramona",
+      "pinyin": "Leimengna",
+      "status": "attested",
+      "note": "雷梦娜; 'Ramona,' a 1928 American waltz-song (Mabel Wayne), a hit of the day that Lin Peishan hums by the pool."
+    },
+    "大炮": {
+      "en": "Big Cannon",
+      "pinyin": "da pao",
+      "status": "decided",
+      "note": "大炮; Shanghai slang for a braggart or loudmouth who 'fires off' grand talk; Huang Fen's nickname."
+    },
+    "白无常": {
+      "en": "the White Wuchang",
+      "pinyin": "bai wuchang",
+      "status": "decided",
+      "note": "白无常; a white-robed ghostly herald of the underworld in folk belief, who comes to fetch the dead."
+    },
+    "黄梅天": {
+      "en": "the plum-rain season",
+      "pinyin": "huangmei tian",
+      "status": "decided",
+      "note": "黄梅天; the warm, humid rainy spell over the lower Yangtze in early summer, when plums ripen and mould and insects breed."
+    },
+    "实业计划": {
+      "en": "the Industrial Plan",
+      "pinyin": "Shiye Jihua",
+      "status": "attested",
+      "note": "实业计划; Sun Yat-sen's program for the large-scale industrial development of China, part of his Fundamentals of National Reconstruction."
+    },
+    "罢工委员会": {
+      "en": "the strike committee",
+      "pinyin": "bagong weiyuanhui",
+      "status": "decided",
+      "note": "罢工委员会; the workers' own strike committee, set up in place of the company union; the single-mill committees answer in turn to the 丝厂总同盟罢工委员会 (总罢委), the General Federated Strike Committee of the silk filatures."
+    }
   }
- },
- "organizations": {
-  "觉林素菜馆": {
-   "en": "the Juelin Vegetarian Restaurant",
-   "pinyin": "Juelin sucaiguan",
-   "status": "decided",
-   "note": "觉林素菜馆; a Shanghai vegetarian restaurant, whose kitchen staff are hired in to cater the funeral."
-  },
-  "戴生昌轮船局": {
-   "en": "the Daishengchang Steamship Office",
-   "pinyin": "Daishengchang lunchuan ju",
-   "status": "decided",
-   "note": "戴生昌; a river-steamer company and its wharf office."
-  },
-  "云飞": {
-   "en": "the Yunfei",
-   "pinyin": "Yunfei",
-   "status": "decided",
-   "note": "云飞轮船, a passenger-steamer line (&#8216;Flying Cloud&#8217;); the boat that brings old Mr. Wu to Shanghai."
-  },
-  "上海总商会": {
-   "en": "the Shanghai General Chamber of Commerce",
-   "pinyin": "Shanghai zong shanghui",
-   "status": "attested",
-   "note": "上海总商会."
-  },
-  "万国殡仪馆": {
-   "en": "the International Funeral Parlour",
-   "pinyin": "Wanguo binyiguan",
-   "status": "attested",
-   "note": "万国殡仪馆; a well-known Shanghai funeral establishment."
-  },
-  "大来饭店": {
-   "en": "the Dalai Hotel",
-   "pinyin": "Dalai fandian",
-   "status": "provisional",
-   "note": "大来饭店; a Western-style Shanghai hotel where Fan Bowen keeps a room. The name transliterates 大来; romanization provisional."
-  },
-  "太平洋轮船公司": {
-   "en": "the Pacific Steamship Company",
-   "pinyin": "Taipingyang lunchuan gongsi",
-   "status": "decided",
-   "note": "Sun Jiren's shipping firm, running Yangtze passenger and cargo boats."
-  },
-  "大兴煤矿公司": {
-   "en": "the Daxing Coal Mining Company",
-   "pinyin": "Daxing meikuang gongsi",
-   "status": "decided",
-   "note": "Wang Hefu's coal-mining concern."
-  },
-  "光大火柴厂": {
-   "en": "the Guangda Match Factory",
-   "pinyin": "Guangda huochai chang",
-   "status": "decided",
-   "note": "Zhou Zhongwei's match factory."
-  },
-  "五云织绸厂": {
-   "en": "the Wuyun Silk-Weaving Mill",
-   "pinyin": "Wuyun zhichou chang",
-   "status": "decided",
-   "note": "Chen Junyi's silk-weaving mill."
-  },
-  "大亚证券信托公司": {
-   "en": "the Daya Securities Trust Company",
-   "pinyin": "Daya zhengquan xintuo gongsi",
-   "status": "decided",
-   "note": "A securities-and-trust house; Lu Kuangshi is its assistant manager."
-  },
-  "上海银行": {
-   "en": "the Shanghai Bank",
-   "pinyin": "Shanghai yinhang",
-   "status": "attested",
-   "note": "The Shanghai Commercial and Savings Bank (上海商业储蓄银行), founded 1915 on a small capital and grown into a leading Chinese bank; Wu Sunfu cites it as the chance he missed."
-  },
-  "华懋饭店": {
-   "en": "the Cathay Hotel",
-   "pinyin": "Huamao fandian",
-   "status": "attested",
-   "note": "Victor Sassoon's Cathay Hotel on the Bund (今和平饭店), the most fashionable hotel of 1930 Shanghai."
-  },
-  "公安局": {
-   "en": "the Public Security Bureau",
-   "pinyin": "Gong'an ju",
-   "status": "attested",
-   "note": "The municipal police authority."
-  },
-  "社会局": {
-   "en": "the Bureau of Social Affairs",
-   "pinyin": "Shehui ju",
-   "status": "attested",
-   "note": "The municipal office handling labour and social matters, to which factory disputes were reported."
-  },
-  "保安队": {
-   "en": "the security corps",
-   "pinyin": "bao'an dui",
-   "status": "decided",
-   "note": "Provincial peace-preservation troops (保安队), called in to put down rural unrest."
-  },
-  "宏昌典当": {
-   "en": "the Hongchang pawnshop",
-   "pinyin": "Hongchang diandang",
-   "status": "decided",
-   "note": "宏昌典当 (shortened 宏昌当); a large pawnshop in Shuangqiao, stormed and set ablaze in the peasant raid."
-  },
-  "锦华洋货店": {
-   "en": "the Jinhua foreign-goods store",
-   "pinyin": "Jinhua yanghuo dian",
-   "status": "decided",
-   "note": "锦华洋货店; an emporium of imported goods on the main street of Shuangqiao, whose mistress Zeng Jiaju assaults."
-  },
-  "农民协会": {
-   "en": "the Peasants' Association",
-   "pinyin": "nongmin xiehui",
-   "status": "attested",
-   "note": "农民协会; the village peasant associations of the late-1920s revolution, through which the rural poor organized against landlords and usurers."
-  },
-  "银行公会": {
-   "en": "the Bankers' Guild",
-   "pinyin": "Yinhang Gonghui",
-   "status": "attested",
-   "note": "银行公会; the Shanghai Bankers' Association, whose splendid clubhouse dining-room Wu Sunfu frequents for his midday meal and the day's market talk."
-  },
-  "通源钱庄": {
-   "en": "the Tongyuan native bank",
-   "pinyin": "Tongyuan qianzhuang",
-   "status": "provisional",
-   "note": "通源钱庄; a native bank (钱庄) among the Wu family's holdings at Shuangqiao, looted in the peasant rising."
-  },
-  "洪门": {
-   "en": "the Hongmen",
-   "pinyin": "Hongmen",
-   "status": "attested",
-   "note": "洪门; the sworn-brotherhood secret society of south China. See the note at 'a Hongmen brother.'"
-  },
-  "元丰钱庄": {
-   "en": "the Yuanfeng native bank",
-   "pinyin": "Yuanfeng qianzhuang",
-   "status": "decided",
-   "note": "The native bank (钱庄) holding the ten-thousand-dollar deposit set aside as Feng Meiqing's trousseau."
-  },
-  "新世界饭店": {
-   "en": "the Xin Shijie Hotel",
-   "pinyin": "Xin Shijie fandian",
-   "status": "decided",
-   "note": "新世界饭店; a hotel by the ‘New World’ amusement hall at the west end of Nanjing Road."
-  },
-  "新新公司": {
-   "en": "the Sun Sun Company",
-   "pinyin": "Xinxin gongsi",
-   "status": "attested",
-   "note": "新新公司; the Sun Sun Department Store, one of the three great Chinese-owned emporia on Nanjing Road."
-  },
-  "大三元酒家": {
-   "en": "the Da San Yuan restaurant",
-   "pinyin": "Da San Yuan jiujia",
-   "status": "decided",
-   "note": "大三元酒家; a large Cantonese restaurant near Nanjing Road."
-  },
-  "华安大厦": {
-   "en": "the Hua’an Building",
-   "pinyin": "Hua'an Dasha",
-   "status": "attested",
-   "note": "华安大厦; the China United Assurance building on Nanjing Road (today the Pacific Hotel), where Zhao Botao keeps a suite."
-  },
-  "益中信托公司": {
-   "en": "the Yizhong Trust Company",
-   "pinyin": "Yizhong xintuo gongsi",
-   "status": "decided",
-   "note": "益中信托公司; the trust company Wu Sunfu and his partners have seized as the base for their operations, here named for the first time. See the note on ‘trust company.’"
-  },
-  "老闸捕房": {
-   "en": "the Louza police station",
-   "pinyin": "Laozha buo fang",
-   "status": "attested",
-   "note": "老闸捕房; the Louza (老闸) police station of the International Settlement, the very station whose men fired the shots of 30 May 1925."
-  },
-  "华商证券交易所": {
-   "en": "the Chinese Securities Exchange",
-   "pinyin": "Huashang zhengquan jiaoyisuo",
-   "status": "decided",
-   "note": "华商证券交易所; the Chinese-run securities exchange on Hankou Road (San Malu), the floor on which the whole bond speculation of the novel is fought."
-  },
-  "字林西报": {
-   "en": "the North China Daily News",
-   "pinyin": "Zilin Xibao",
-   "status": "attested",
-   "note": "字林西报 (North-China Daily News); the leading British-owned English-language daily of Shanghai, whose advertisement board carried the day's headlines."
-  },
-  "长丰水果店": {
-   "en": "the Changfeng Fruit Shop",
-   "pinyin": "Changfeng shuiguodian",
-   "status": "decided",
-   "note": "长丰水果店; a Shanghai fruit shop named among Feng Yunqing's household bills."
-  },
-  "老大房": {
-   "en": "the Laodafang confectioner's",
-   "pinyin": "Laodafang",
-   "status": "attested",
-   "note": "老大房糖食店; a well-known Shanghai confectionery and sweetmeats shop."
-  },
-  "北洋政府": {
-   "en": "the Beiyang government",
-   "pinyin": "Beiyang zhengfu",
-   "status": "attested",
-   "note": "北洋政府; the Beijing-based warlord governments of 1912–1928 that preceded the Nanjing Nationalist regime. The 'old bonds' traded late in the session were issues left over from its day."
-  },
-  "元大庄": {
-   "en": "the Yuanda native bank",
-   "pinyin": "Yuanda",
-   "status": "decided",
-   "note": "元大庄; the native bank whose promised hundred-thousand-tael loan to Yizhong was arranged through Du Zhuzhai and is withdrawn once he pulls out."
-  },
-  "裕华丝厂": {
-   "en": "the Yuhua Silk Filature",
-   "pinyin": "Yuhua sichang",
-   "status": "decided",
-   "note": "裕华丝厂; Wu Sunfu’s silk filature, where the wage-cut and the strike of this chapter break out."
-  },
-  "乾和丝厂": {
-   "en": "the Qianhe Silk Filature",
-   "pinyin": "Qianhe sichang",
-   "status": "decided",
-   "note": "乾和丝厂; Zhu Yinqiu's silk filature, foundering under its debts and become, in Wu Sunfu's phrase, a 'wet shirt.'"
-  },
-  "丝总": {
-   "en": "the Silk Union",
-   "pinyin": "Si Zong",
-   "status": "decided",
-   "note": "丝总; the abbreviated name of the silk-filature workers' general union, the body coordinating the general strike and issuing its resolutions."
-  },
-  "总罢委": {
-   "en": "the General Strike Committee",
-   "pinyin": "Zong Ba Wei",
-   "status": "decided",
-   "note": "总罢委, short for 总罢工委员会; the committee directing the general strike, whose delegate conference (代表会) the organizers are hurrying to attend."
-  }
- },
- "places": {
-  "苏州河": {
-   "en": "Suzhou Creek",
-   "pinyin": "Suzhou He",
-   "status": "attested",
-   "note": "The creek meeting the Huangpu at the north end of the Bund."
-  },
-  "黄浦": {
-   "en": "the Huangpu",
-   "pinyin": "Huangpu",
-   "status": "attested",
-   "note": "The river along the Bund; older English Whangpoo."
-  },
-  "浦东": {
-   "en": "Pudong",
-   "pinyin": "Pudong",
-   "status": "attested",
-   "note": "The east bank of the Huangpu; older English Pootung."
-  },
-  "外滩": {
-   "en": "the Bund",
-   "pinyin": "Waitan",
-   "status": "attested",
-   "note": "外滩; the riverfront boulevard of the International Settlement (外滩公园, the park on the Bund)."
-  },
-  "外白渡桥": {
-   "en": "the Waibaidu Bridge",
-   "pinyin": "Waibaidu Qiao",
-   "status": "attested",
-   "note": "The steel bridge at the mouth of Suzhou Creek, known in the foreign settlements as the Garden Bridge."
-  },
-  "北苏州路": {
-   "en": "North Suzhou Road",
-   "pinyin": "Bei Suzhou Lu",
-   "status": "attested",
-   "note": ""
-  },
-  "北河南路": {
-   "en": "North Henan Road",
-   "pinyin": "Bei Henan Lu",
-   "status": "attested",
-   "note": "Older English Honan Road."
-  },
-  "南京路": {
-   "en": "Nanjing Road",
-   "pinyin": "Nanjing Lu",
-   "status": "attested",
-   "note": "Older English Nanking Road."
-  },
-  "河南路": {
-   "en": "Henan Road",
-   "pinyin": "Henan Lu",
-   "status": "attested",
-   "note": "Older English Honan Road."
-  },
-  "西藏路": {
-   "en": "Xizang Road",
-   "pinyin": "Xizang Lu",
-   "status": "attested",
-   "note": "Older English Tibet (Thibet) Road."
-  },
-  "静安寺路": {
-   "en": "Jing'an Temple Road",
-   "pinyin": "Jing'an Si Lu",
-   "status": "attested",
-   "note": "Known in the settlement as Bubbling Well Road."
-  },
-  "抛球场": {
-   "en": "Paoqiuchang",
-   "pinyin": "Paoqiuchang",
-   "status": "decided",
-   "note": "The crossing of Nanjing Road and Henan Road, long known by this name."
-  },
-  "铁马路": {
-   "en": "the Iron-Horse Road",
-   "pinyin": "Tie Malu",
-   "status": "decided",
-   "note": "Colloquial name (俗名) for the stretch of road west of the Chamber of Commerce where the river launches gathered."
-  },
-  "关帝庙": {
-   "en": "the Guandi Temple",
-   "pinyin": "Guandi Miao",
-   "status": "attested",
-   "note": "A temple of Guan Yu; here a rural garrison's billet."
-  },
-  "北京路": {
-   "en": "Beijing Road",
-   "pinyin": "Beijing Lu",
-   "status": "attested",
-   "note": "Older English Peking Road."
-  },
-  "金神父路": {
-   "en": "Rue Père Robert",
-   "pinyin": "Jin Shenfu Lu",
-   "status": "attested",
-   "note": "A street in the Shanghai French Concession (金神父路, today part of 瑞金二路); site of the French Hospital."
-  },
-  "法国医院": {
-   "en": "the French Hospital",
-   "pinyin": "Faguo yiyuan",
-   "status": "attested",
-   "note": "The Hôpital Sainte-Marie (广慈医院) of the French Concession, on Rue Père Robert."
-  },
-  "皖北": {
-   "en": "northern Anhui",
-   "pinyin": "Wanbei",
-   "status": "attested",
-   "note": "The northern part of Anhui province (皖 = Anhui); a theatre of the 1930 fighting."
-  },
-  "浦口": {
-   "en": "Pukou",
-   "pinyin": "Pukou",
-   "status": "attested",
-   "note": "The Yangtze river-port opposite Nanjing."
-  },
-  "常州": {
-   "en": "Changzhou",
-   "pinyin": "Changzhou",
-   "status": "attested",
-   "note": "A city in southern Jiangsu on the Shanghai–Nanjing line."
-  },
-  "无锡": {
-   "en": "Wuxi",
-   "pinyin": "Wuxi",
-   "status": "attested",
-   "note": "A silk and industrial city in southern Jiangsu."
-  },
-  "河南": {
-   "en": "Henan",
-   "pinyin": "Henan",
-   "status": "attested",
-   "note": "The central province; older English Honan."
-  },
-  "京汉线": {
-   "en": "the Beijing–Hankou line",
-   "pinyin": "Jinghan xian",
-   "status": "attested",
-   "note": "The Beijing–Hankou (Jinghan) railway; older English the Peking–Hankow line. Scene of the 1927 Northern Expedition fighting Lei recalls."
-  },
-  "汉口": {
-   "en": "Hankou",
-   "pinyin": "Hankou",
-   "status": "attested",
-   "note": "The great Yangtze treaty-port, part of the Wuhan tri-cities; older English Hankow."
-  },
-  "武昌": {
-   "en": "Wuchang",
-   "pinyin": "Wuchang",
-   "status": "attested",
-   "note": "The city across the river from Hankou, part of Wuhan."
-  },
-  "野鸡岗": {
-   "en": "Yejigang",
-   "pinyin": "Yejigang",
-   "status": "provisional",
-   "note": "A place named as the scene of a 1930 rout in which the newly-formed First Division was destroyed."
-  },
-  "陇海": {
-   "en": "the Longhai railway",
-   "pinyin": "Longhai",
-   "status": "attested",
-   "note": "The east–west Longhai (Lunghai) trunk railway, a front of the 1930 war."
-  },
-  "平汉": {
-   "en": "the Pinghan line",
-   "pinyin": "Pinghan",
-   "status": "attested",
-   "note": "The Beijing–Hankou railway under its 1928 name, Pinghan (Peiping–Hankow); a front of the 1930 war."
-  },
-  "里昂": {
-   "en": "Lyon",
-   "pinyin": "Li'ang",
-   "status": "attested",
-   "note": "The French silk-trade city, a chief foreign market for Chinese raw silk."
-  },
-  "纽约": {
-   "en": "New York",
-   "pinyin": "Niuyue",
-   "status": "attested",
-   "note": "The other chief foreign market for silk named here."
-  },
-  "江北": {
-   "en": "Jiangbei",
-   "pinyin": "Jiangbei",
-   "status": "attested",
-   "note": "The region of Jiangsu north of the Yangtze; the site Sun Jiren proposes for a long-distance motor-bus line."
-  },
-  "广东": {
-   "en": "Guangdong",
-   "pinyin": "Guangdong",
-   "status": "attested",
-   "note": "The southern province; older English Kwangtung. Site of Whampoa, whence Lei Ming set out with the Northern Expedition."
-  },
-  "湖南": {
-   "en": "Hunan",
-   "pinyin": "Hunan",
-   "status": "attested",
-   "note": "The province north of Guangdong; older English Hunan."
-  },
-  "长沙": {
-   "en": "Changsha",
-   "pinyin": "Changsha",
-   "status": "attested",
-   "note": "The capital of Hunan, taken in the Northern Expedition Lei Ming recalls."
-  },
-  "武汉": {
-   "en": "Wuhan",
-   "pinyin": "Wuhan",
-   "status": "attested",
-   "note": "The Yangtze tri-city of Wuchang, Hankou and Hanyang; a chief objective of the 1926-27 Northern Expedition."
-  },
-  "郑州": {
-   "en": "Zhengzhou",
-   "pinyin": "Zhengzhou",
-   "status": "attested",
-   "note": "The Henan rail junction of the Beijing-Hankou and Longhai lines; older English Chengchow."
-  },
-  "北平": {
-   "en": "Beiping",
-   "pinyin": "Beiping",
-   "status": "attested",
-   "note": "The name given to Beijing (北京) when the Nationalist government moved the capital to Nanjing in 1928; older English Peiping. Lei Ming names its capture in the northern campaign."
-  },
-  "双桥镇": {
-   "en": "Shuangqiao",
-   "pinyin": "Shuangqiao zhen",
-   "status": "provisional",
-   "note": "双桥镇; the market town some two hundred li by water from Shanghai that is Zeng Canghai's seat and the site of Wu Sunfu's country enterprises (an electric-power plant, a rice-mill, an oil-press). A fictional town."
-  },
-  "七里桥": {
-   "en": "Qiliqiao",
-   "pinyin": "Qiliqiao",
-   "status": "provisional",
-   "note": "七里桥; a village near Shuangqiao where the peasant uprising of this chapter begins."
-  },
-  "太白楼": {
-   "en": "the Taibai Lou",
-   "pinyin": "Taibai Lou",
-   "status": "decided",
-   "note": "太白楼酒馆; a tavern ('Li Bai's Tower') on the main street of Shuangqiao."
-  },
-  "杭州": {
-   "en": "Hangzhou",
-   "pinyin": "Hangzhou",
-   "status": "attested",
-   "note": "杭州; the silk-weaving city on the West Lake; older English Hangchow."
-  },
-  "苏堤": {
-   "en": "the Su Causeway",
-   "pinyin": "Su Di",
-   "status": "attested",
-   "note": "苏堤; the willow-planted dyke across the West Lake, traditionally credited to the poet Su Shi. See the note in Fan Bowen's poem."
-  },
-  "西子": {
-   "en": "the Lady of the West",
-   "pinyin": "Xizi",
-   "status": "decided",
-   "note": "西子; the West Lake at Hangzhou, likened since Su Shi to the antique beauty Xi Shi. See the note at 'the Lady of the West.'"
-  },
-  "东方大港": {
-   "en": "the Great Eastern Port",
-   "pinyin": "Dongfang Dagang",
-   "status": "attested",
-   "note": "东方大港; the vast harbour near the Yangtze's mouth proposed in Sun Yat-sen's Fundamentals of National Reconstruction — still a paper vision in 1930."
-  },
-  "兆丰公园": {
-   "en": "Jessfield Park",
-   "pinyin": "Zhaofeng Gongyuan",
-   "status": "attested",
-   "note": "兆丰公园; the large park in the western part of the International Settlement, known in English as Jessfield Park (today Zhongshan Park, 中山公园), with a lake and a small zoo."
-  },
-  "香港": {
-   "en": "Hong Kong",
-   "pinyin": "Xianggang",
-   "status": "attested",
-   "note": "香港; Hong Kong, then a British colony; here the refuge of the union faction's absent patron, 'Mr. Wang.'"
-  },
-  "美国": {
-   "en": "America",
-   "pinyin": "Meiguo",
-   "status": "attested",
-   "note": "美国; the United States, whose finance capital stands behind the 'great plan' Li Yuting reports."
-  },
-  "英国": {
-   "en": "England",
-   "pinyin": "Yingguo",
-   "status": "attested",
-   "note": "英国; Britain, named with Japan as America's two rivals in the East."
-  },
-  "日本": {
-   "en": "Japan",
-   "pinyin": "Riben",
-   "status": "attested",
-   "note": "日本; Japan, named with England as America's two rivals in the East."
-  },
-  "明园": {
-   "en": "Mingyuan",
-   "pinyin": "Mingyuan",
-   "status": "decided",
-   "note": "A Shanghai racing and pleasure ground; the concubine goes there for the evening's 'special race.'"
-  },
-  "白公馆": {
-   "en": "the Bai residence",
-   "pinyin": "Bai gongguan",
-   "status": "decided",
-   "note": "The household of the Fifth Concubine of the Bai family (白府五姨太), the concubine's sworn sister and protector; also rendered the House of Bai."
-  },
-  "泥城桥": {
-   "en": "Nichengqiao",
-   "pinyin": "Nichengqiao",
-   "status": "provisional",
-   "note": "泥城桥; a place at the western end of Nanjing Road (‘the Nicheng Bridge’), the starting-point of the demonstration."
-  },
-  "跑马厅": {
-   "en": "the Racecourse",
-   "pinyin": "Paomating",
-   "status": "decided",
-   "note": "跑马厅 (also 跑马场); the great racecourse of the International Settlement, off Bubbling Well Road (today People’s Square and People’s Park)."
-  },
-  "北四川路": {
-   "en": "North Sichuan Road",
-   "pinyin": "Bei Sichuan Lu",
-   "status": "attested",
-   "note": "北四川路; a main road running north from the Settlement into the Hongkou district; older English North Szechuen Road."
-  },
-  "浙江路": {
-   "en": "Zhejiang Road",
-   "pinyin": "Zhejiang Lu",
-   "status": "attested",
-   "note": "浙江路; a Settlement road crossing Nanjing Road; older English Chekiang Road."
-  },
-  "云南路": {
-   "en": "Yunnan Road",
-   "pinyin": "Yunnan Lu",
-   "status": "attested",
-   "note": "云南路; a Settlement road near the racecourse; older English Yunnan Road."
-  },
-  "东新桥": {
-   "en": "Dongxinqiao",
-   "pinyin": "Dongxinqiao",
-   "status": "provisional",
-   "note": "东新桥; a place (‘the Dongxin Bridge’) on the way, where Li Yuting’s carriage meets the demonstrators."
-  },
-  "大新街": {
-   "en": "Daxin Street",
-   "pinyin": "Daxin Jie",
-   "status": "provisional",
-   "note": "大新街; a street near Nanjing Road."
-  },
-  "日升楼": {
-   "en": "the Risheng Lou",
-   "pinyin": "Risheng Lou",
-   "status": "provisional",
-   "note": "日升楼; a well-known tea-house and landmark at a corner of Nanjing Road, named by Fan Bowen as the eastern bound of the view."
-  },
-  "长浜路": {
-   "en": "Changbang Road",
-   "pinyin": "Changbang Lu",
-   "status": "provisional",
-   "note": "长浜路; a road along the filled-in Yangjing Creek (today part of Yan’an East Road)."
-  },
-  "大华": {
-   "en": "the Majestic",
-   "pinyin": "Dahua",
-   "status": "attested",
-   "note": "大华 (大华饭店/舞厅); the Majestic Hotel and ballroom, a fashionable Shanghai resort of 1930."
-  },
-  "丽娃丽妲村": {
-   "en": "the Liwalida",
-   "pinyin": "Liwalida Cun",
-   "status": "decided",
-   "note": "丽娃丽妲村 (a transliteration of ‘Riviera’); a lakeside pleasure-garden on Suzhou Creek opened by White Russian émigrés, with wine, music and boating."
-  },
-  "色奈河": {
-   "en": "the Seine",
-   "pinyin": "Sena He",
-   "status": "attested",
-   "note": "色奈河; the river Seine, at Paris; Du Xintuo’s memory of his years in France."
-  },
-  "罗马": {
-   "en": "Rome",
-   "pinyin": "Luoma",
-   "status": "attested",
-   "note": "罗马; the city of Rome."
-  },
-  "希腊": {
-   "en": "Greece",
-   "pinyin": "Xila",
-   "status": "attested",
-   "note": "希腊; ancient Greece, whose host Homer extols in the Iliad."
-  },
-  "法兰西": {
-   "en": "France",
-   "pinyin": "Falanxi",
-   "status": "attested",
-   "note": "法兰西; France (a transliteration alongside the standard 法国); Du Xintuo’s years abroad."
-  },
-  "蚌埠": {
-   "en": "Bengbu",
-   "pinyin": "Bengbu",
-   "status": "attested",
-   "note": "蚌埠; a rail city on the Jinpu line in Anhui, to which Boqing’s family flee the fighting."
-  },
-  "湖北": {
-   "en": "Hubei",
-   "pinyin": "Hubei",
-   "status": "attested",
-   "note": "湖北; the central Yangtze province; older English Hupeh."
-  },
-  "江西": {
-   "en": "Jiangxi",
-   "pinyin": "Jiangxi",
-   "status": "attested",
-   "note": "江西; the province south of the Yangtze, a centre of the Communist rising; older English Kiangsi."
-  },
-  "江苏": {
-   "en": "Jiangsu",
-   "pinyin": "Jiangsu",
-   "status": "attested",
-   "note": "江苏; the coastal province of which Shanghai is part; older English Kiangsu."
-  },
-  "浙江": {
-   "en": "Zhejiang",
-   "pinyin": "Zhejiang",
-   "status": "attested",
-   "note": "浙江; the province south of Jiangsu; older English Chekiang."
-  },
-  "福建": {
-   "en": "Fujian",
-   "pinyin": "Fujian",
-   "status": "attested",
-   "note": "福建; the south-eastern coastal province; older English Fukien."
-  },
-  "长江": {
-   "en": "the Yangtze",
-   "pinyin": "Changjiang",
-   "status": "attested",
-   "note": "长江; the Yangtze River."
-  },
-  "温台": {
-   "en": "the Wenzhou–Taizhou country",
-   "pinyin": "Wen-Tai",
-   "status": "decided",
-   "note": "温台; the Wenzhou–Taizhou region of coastal Zhejiang."
-  },
-  "宁绍": {
-   "en": "the Ningbo–Shaoxing country",
-   "pinyin": "Ning-Shao",
-   "status": "decided",
-   "note": "宁绍; the Ningbo–Shaoxing region of eastern Zhejiang."
-  },
-  "武穴": {
-   "en": "Wuxue",
-   "pinyin": "Wuxue",
-   "status": "attested",
-   "note": "武穴; a Yangtze river-port in Hubei."
-  },
-  "沙市": {
-   "en": "Shashi",
-   "pinyin": "Shashi",
-   "status": "attested",
-   "note": "沙市; a Yangtze river-port in Hubei; older English Shasi."
-  },
-  "天津": {
-   "en": "Tianjin",
-   "pinyin": "Tianjin",
-   "status": "attested",
-   "note": "天津; the great northern treaty-port; older English Tientsin."
-  },
-  "广州": {
-   "en": "Guangzhou",
-   "pinyin": "Guangzhou",
-   "status": "attested",
-   "note": "广州; the southern port city; older English Canton."
-  },
-  "澳门": {
-   "en": "Macau",
-   "pinyin": "Aomen",
-   "status": "attested",
-   "note": "澳门; the Portuguese colony at the mouth of the Pearl River."
-  },
-  "岳州": {
-   "en": "Yuezhou",
-   "pinyin": "Yuezhou",
-   "status": "attested",
-   "note": "岳州; the Hunan city on Dongting Lake (today Yueyang, 岳阳), taken by Peng Dehuai’s Red Army."
-  },
-  "宜昌": {
-   "en": "Yichang",
-   "pinyin": "Yichang",
-   "status": "attested",
-   "note": "宜昌; a Yangtze river-port in western Hubei; older English Ichang."
-  },
-  "南昌": {
-   "en": "Nanchang",
-   "pinyin": "Nanchang",
-   "status": "attested",
-   "note": "南昌; the capital of Jiangxi province."
-  },
-  "烟台": {
-   "en": "Yantai",
-   "pinyin": "Yantai",
-   "status": "attested",
-   "note": "烟台; the port on the north coast of Shandong; older English Chefoo. The intended landfall of Tang Yunshan’s smuggled arms."
-  },
-  "山东": {
-   "en": "Shandong",
-   "pinyin": "Shandong",
-   "status": "attested",
-   "note": "山东; the northern coastal province; older English Shantung."
-  },
-  "三马路": {
-   "en": "San Malu",
-   "pinyin": "San Malu",
-   "status": "decided",
-   "note": "三马路; the colloquial name of Hankou Road (汉口路), the financial street of Chinese Shanghai where the securities exchange stood. See the footnote at first appearance."
-  },
-  "昼锦里": {
-   "en": "Zhaojinli",
-   "pinyin": "Zhaojinli",
-   "status": "provisional",
-   "note": "昼锦里; a lane of brothels near the securities exchange in the old Chinese city quarter."
-  },
-  "亨堡": {
-   "en": "the Hamburg lot",
-   "pinyin": "Hengbao",
-   "status": "provisional",
-   "note": "亨堡; the name of Tang Yunshan’s smuggled arms consignment, probably Hamburg (the German port of origin) but perhaps only a cover-word; identification provisional. See the footnote at ‘shipped to Yantai.’"
-  },
-  "爱多亚路": {
-   "en": "Avenue Edward VII",
-   "pinyin": "Aiduoya lu",
-   "status": "attested",
-   "note": "爱多亚路; the International Settlement boulevard running inland from the Bund (今延安东路), named for King Edward VII. The meteorological signal tower at its Bund end hoisted the storm-warning balls."
-  },
-  "霞飞路": {
-   "en": "Avenue Joffre",
-   "pinyin": "Xiafei lu",
-   "status": "attested",
-   "note": "霞飞路; the great avenue of the French Concession (今淮海中路), lined with apartment blocks and shops."
-  },
-  "津浦线": {
-   "en": "the Tianjin–Pukou line",
-   "pinyin": "Jinpu xian",
-   "status": "attested",
-   "note": "津浦线 (also 津浦路); the Tianjin–Pukou railway, the north–south trunk line fought over in the 1930 war. Pukou faces Nanjing across the Yangtze, so the line's fate bore directly on the bond market."
-  },
-  "山西": {
-   "en": "Shanxi",
-   "pinyin": "Shanxi",
-   "status": "attested",
-   "note": "山西; the northern province, base of the warlord Yan Xishan, whose army's movements the speculators watch here."
-  },
-  "西牢": {
-   "en": "the Western Gaol",
-   "pinyin": "xilao",
-   "status": "decided",
-   "note": "西牢; the colloquial name for the prison of the foreign-administered Shanghai International Settlement, where a Chinese offender sentenced through the Settlement's courts might be held."
-  },
-  "江海关": {
-   "en": "the Customs House",
-   "pinyin": "Jianghaiguan",
-   "status": "decided",
-   "note": "江海关; the Shanghai Maritime Customs House on the Bund."
-  },
-  "德州": {
-   "en": "Dezhou",
-   "pinyin": "Dezhou",
-   "status": "attested",
-   "note": "德州; city in northwestern Shandong on the Tianjin–Pukou line, a front in the 1930 war."
-  },
-  "济南": {
-   "en": "Jinan",
-   "pinyin": "Jinan",
-   "status": "attested",
-   "note": "济南; capital of Shandong, on the Tianjin–Pukou line; older English Tsinan."
-  },
-  "徐州": {
-   "en": "Xuzhou",
-   "pinyin": "Xuzhou",
-   "status": "attested",
-   "note": "徐州; rail junction in northern Jiangsu where the Tianjin–Pukou and Longhai lines cross."
-  },
-  "虹口": {
-   "en": "Hongkou",
-   "pinyin": "Hongkou",
-   "status": "attested",
-   "note": "虹口; district of Shanghai north of Suzhou Creek, part of the International Settlement, with many Japanese residents and mills; older English Hongkew."
-  },
-  "闸北": {
-   "en": "Zhabei",
-   "pinyin": "Zhabei",
-   "status": "attested",
-   "note": "闸北; Chinese-administered industrial district of Shanghai north of the Settlement, where Wu Sunfu's own mill stands; older English Chapei."
-  },
-  "意大利": {
-   "en": "Italy",
-   "pinyin": "Yidali",
-   "status": "attested",
-   "note": "意大利; Italy, invoked by Du Xueshi as the model of a corporate-statist order that forbids both strikes and lockouts."
-  },
-  "大冶": {
-   "en": "Daye",
-   "pinyin": "Daye",
-   "status": "attested",
-   "note": "大冶; a mining town in southeastern Hubei, named in the war-talk."
-  },
-  "浏阳": {
-   "en": "Liuyang",
-   "pinyin": "Liuyang",
-   "status": "attested",
-   "note": "浏阳; a county town in eastern Hunan, named in the war-talk."
-  },
-  "景德镇": {
-   "en": "Jingdezhen",
-   "pinyin": "Jingdezhen",
-   "status": "attested",
-   "note": "景德镇; the porcelain city of northeastern Jiangxi, named in the war-talk."
-  },
-  "吉安": {
-   "en": "Ji'an",
-   "pinyin": "Ji'an",
-   "status": "attested",
-   "note": "吉安; a city on the Gan River in central Jiangxi, objective of the Zhu–Mao army in 1930."
-  },
-  "胶济路": {
-   "en": "the Jiaoji railway",
-   "pinyin": "Jiaoji lu",
-   "status": "attested",
-   "note": "胶济路; the Qingdao–Jinan railway across Shandong (胶 Jiaozhou to 济 Jinan), the line the Central Army still holds after giving up Jinan."
-  }
- },
- "terms": {
-  "太上感应篇": {
-   "en": "the Taishang Ganying Pian",
-   "pinyin": "Taishang Ganying Pian",
-   "status": "attested",
-   "note": "The Daoist &#8220;Tract of the Most High on Action and Response&#8221; that old Mr. Wu worships; see the note at its first appearance."
-  },
-  "大亨": {
-   "en": "big shot / magnate",
-   "pinyin": "daheng",
-   "status": "decided",
-   "note": "大亨; a tycoon of the Shanghai business world."
-  },
-  "少奶奶": {
-   "en": "young mistress",
-   "pinyin": "shaonainai",
-   "status": "decided",
-   "note": "吴少奶奶 is rendered &#8216;the Wu young mistress&#8217;: the young married lady of the house (here Lin Peiyao)."
-  },
-  "金童玉女": {
-   "en": "golden boy and jade maiden",
-   "pinyin": "jintong yunu",
-   "status": "decided",
-   "note": "The paired child-attendants of a Daoist immortal; see the note at first appearance."
-  },
-  "公债": {
-   "en": "government bonds",
-   "pinyin": "gongzhai",
-   "status": "attested",
-   "note": "公债; government (i.e. state) bonds, the speculative instrument at the heart of the chapter. The Nanjing government financed itself by successive bond issues, and their prices rose and fell with the war news."
-  },
-  "库券": {
-   "en": "treasury notes",
-   "pinyin": "kuquan",
-   "status": "attested",
-   "note": "库券; short-term government treasury notes, traded alongside the bonds."
-  },
-  "交易所": {
-   "en": "the exchange",
-   "pinyin": "jiaoyisuo",
-   "status": "attested",
-   "note": "交易所; the Shanghai securities exchange where bonds and standard gold were traded."
-  },
-  "经纪人": {
-   "en": "broker",
-   "pinyin": "jingjiren",
-   "status": "attested",
-   "note": "经纪人; a broker executing trades on the exchange for clients."
-  },
-  "多头": {
-   "en": "bull",
-   "pinyin": "duotou",
-   "status": "attested",
-   "note": "多头; a 'long,' one who buys expecting a rise (also 'the bulls'). 大户多头 is a big-operator bull, 散户多头 the small holders."
-  },
-  "空头": {
-   "en": "bear",
-   "pinyin": "kongtou",
-   "status": "attested",
-   "note": "空头; a 'short,' one who sells expecting a fall (also 'the bears')."
-  },
-  "标金": {
-   "en": "standard gold",
-   "pinyin": "biaojin",
-   "status": "attested",
-   "note": "标金; bar gold of standard fineness traded for future delivery on the Shanghai exchange, the other great speculative market beside the bonds."
-  },
-  "花纱": {
-   "en": "cotton and yarn",
-   "pinyin": "huasha",
-   "status": "decided",
-   "note": "花纱; raw cotton and cotton yarn, quoted on the commodity market ('so many taels and mace' = by weight and price)."
-  },
-  "交割": {
-   "en": "settlement",
-   "pinyin": "jiaoge",
-   "status": "attested",
-   "note": "交割 / 交割期; the monthly settlement or delivery day on which futures positions must be closed or the goods taken up. Its nearness governs every calculation here."
-  },
-  "停板": {
-   "en": "limit halt",
-   "pinyin": "tingban",
-   "status": "decided",
-   "note": "停板; a halt of trading when a price hits the day's permitted limit, here on the plunging bonds."
-  },
-  "补进": {
-   "en": "to cover",
-   "pinyin": "bujin",
-   "status": "decided",
-   "note": "补进; to buy back, closing a short position or accumulating a long one ('buying back in')."
-  },
-  "出笼": {
-   "en": "to dump on the market",
-   "pinyin": "chulong",
-   "status": "decided",
-   "note": "出笼, lit. 'to come out of the cage'; for a big operator to unload a large holding, driving the price down."
-  },
-  "裁兵": {
-   "en": "the Troop-Disbandment bonds",
-   "pinyin": "caibing",
-   "status": "decided",
-   "note": "裁兵(公债); one of the three current bond issues, named for army disbandment. See the source's own note at 'Coffin-edge.'"
-  },
-  "关税": {
-   "en": "the Customs bonds",
-   "pinyin": "guanshui",
-   "status": "decided",
-   "note": "关税(公债); the bond issue secured on customs revenue, one of the three named. See the source's own note at 'Coffin-edge.'"
-  },
-  "编遣": {
-   "en": "the Reorganization bonds",
-   "pinyin": "bianqian",
-   "status": "decided",
-   "note": "编遣(公债); the bond issue tied to the reorganization-and-disbandment of the armies, one of the three named. See the source's own note at 'Coffin-edge.'"
-  },
-  "交际花": {
-   "en": "socialite",
-   "pinyin": "jiaojihua",
-   "status": "decided",
-   "note": "交际花, lit. 'a flower of society'; a fashionable woman of the demimonde who moves among wealthy men, here Xu Manli."
-  },
-  "金贵银贱": {
-   "en": "dear gold, cheap silver",
-   "pinyin": "jingui yinjian",
-   "status": "decided",
-   "note": "金贵银贱; the rise of gold against silver on which China's silver currency floated, ruinous to importers of foreign materials though nominally a spur to exports."
-  },
-  "厂丝": {
-   "en": "filature silk",
-   "pinyin": "changsi",
-   "status": "decided",
-   "note": "厂丝 (also 厂经); machine-reeled silk from a steam filature, the top grade, as against 土丝, native hand-reeled silk."
-  },
-  "人造丝": {
-   "en": "rayon",
-   "pinyin": "renzaosi",
-   "status": "attested",
-   "note": "人造丝, lit. 'man-made silk'; rayon, the cheap artificial fibre displacing Chinese silk."
-  },
-  "端阳节": {
-   "en": "the Dragon-Boat Festival",
-   "pinyin": "Duanyang jie",
-   "status": "attested",
-   "note": "端阳节 (端午); the fifth-of-the-fifth festival, one of the three traditional debt-settlement dates. See the note at its first appearance."
-  },
-  "铁掌": {
-   "en": "the iron hand",
-   "pinyin": "tiezhang",
-   "status": "decided",
-   "note": "铁掌; Du Xueshi's image for an authoritarian state that would seize the helm and override both capital and labour by force."
-  },
-  "钱庄": {
-   "en": "native bank",
-   "pinyin": "qianzhuang",
-   "status": "attested",
-   "note": "钱庄; a traditional Chinese private bank or money-shop, distinct from the modern 银行. The silk men's working credit runs through these houses, and it is a native-bank manager who will not stretch a point for Chen Junyi."
-  },
-  "银团": {
-   "en": "banking syndicate",
-   "pinyin": "yintuan",
-   "status": "decided",
-   "note": "银团; a consortium of banks or moneyed men joined to make a large loan. Tang Yunshan urges the three industrialists to form one; Wu Sunfu later uses a nameless 'syndicate' as the front for his squeeze on Zhu Yinqiu."
-  },
-  "押款": {
-   "en": "mortgage-loan",
-   "pinyin": "yakuan",
-   "status": "decided",
-   "note": "押款; a loan secured against pledged goods (here bales of silk or dried cocoons). Its falling due at the festival is what drives Zhu Yinqiu's whole plight."
-  },
-  "干茧": {
-   "en": "dried cocoons",
-   "pinyin": "ganjian",
-   "status": "decided",
-   "note": "干茧; silk cocoons dried for storage, the raw material a filature reels. Zhu Yinqiu's hoard of them is the prize Wu Sunfu means to seize."
-  },
-  "干经": {
-   "en": "dry-reeled silk",
-   "pinyin": "ganjing",
-   "status": "decided",
-   "note": "干经; a grade of reeled silk, named beside 厂经 (filature silk) and 灰经 (ash silk) as the grades Wu Sunfu will not accept as security. 川经 is the Sichuan-reeled sort."
-  },
-  "洋庄": {
-   "en": "the foreign-trade lot",
-   "pinyin": "yangzhuang",
-   "status": "decided",
-   "note": "洋庄; goods (here silk) made up for the export market, as against 庄口 for home sale. Wu Sunfu's timely sale of a thousand bales of it is why his case is the soundest of the silk men."
-  },
-  "东汇": {
-   "en": "the eastward exchange",
-   "pinyin": "donghui",
-   "status": "decided",
-   "note": "东汇; the exchange rate on Japan ('eastward' remittance). Its rise makes even duty-free Japanese dried cocoons dear for Wu Sunfu to import."
-  },
-  "土皇帝": {
-   "en": "local emperor",
-   "pinyin": "tu huangdi",
-   "status": "decided",
-   "note": "土皇帝; a rural despot who rules his district as a petty sovereign. See the note at first appearance."
-  },
-  "三民主义": {
-   "en": "the Three Principles of the People",
-   "pinyin": "Sanmin zhuyi",
-   "status": "attested",
-   "note": "三民主义; Sun Yat-sen's doctrine of nationalism, democracy, and the people's livelihood, made the Nationalist creed. See the note at first appearance."
-  },
-  "圣谕广训": {
-   "en": "the Sacred Edict",
-   "pinyin": "Shengyu Guangxun",
-   "status": "attested",
-   "note": "圣谕广训; the Qing 'Amplified Instructions on the Sacred Edict,' the imperial moral primer against which Zeng Canghai measures the new party scripture. See the note at first appearance."
-  },
-  "保卫团": {
-   "en": "the militia",
-   "pinyin": "baowei tuan",
-   "status": "decided",
-   "note": "保卫团; a town's own local defence corps, distinct from the regular provincial garrison (省防军)."
-  },
-  "省防军": {
-   "en": "the provincial garrison",
-   "pinyin": "sheng fangjun",
-   "status": "decided",
-   "note": "省防军; provincial defence troops, a battalion of them quartered in Shuangqiao and three months in arrears of pay."
-  },
-  "印子钱": {
-   "en": "seal-money",
-   "pinyin": "yinzi qian",
-   "status": "decided",
-   "note": "印子钱; money lent at ruinous interest and repaid in instalments stamped off on a tally-sheet — the usury by which Zeng Canghai and Chen Laoba bleed the country poor."
-  },
-  "公安分局": {
-   "en": "the Public Security sub-bureau",
-   "pinyin": "gong'an fenju",
-   "status": "attested",
-   "note": "公安分局; a local branch office of the Public Security Bureau (公安局)."
-  },
-  "曾剥皮": {
-   "en": "Zeng the Skinner",
-   "pinyin": "Zeng Bopi",
-   "status": "decided",
-   "note": "曾剥皮; the peasants' name for Zeng Canghai — 'Zeng who flays the skin' — for his usury and his seizing of their land."
-  },
-  "党证": {
-   "en": "party membership certificate",
-   "pinyin": "dangzheng",
-   "status": "decided",
-   "note": "党证 (党员证); the Nationalist party membership card Zeng Jiaju flourishes, and by which he means to squeeze money out of his father."
-  },
-  "建国方略": {
-   "en": "the Fundamentals of National Reconstruction",
-   "pinyin": "Jianguo fanglue",
-   "status": "attested",
-   "note": "建国方略; Sun Yat-sen's programme for China's development (1917–20), cited by Tang Yunshan for its Great Eastern Port and trunk-railway schemes. See the note at first appearance."
-  },
-  "四大干路": {
-   "en": "the Four Great Trunk Lines",
-   "pinyin": "si da ganlu",
-   "status": "decided",
-   "note": "四大干路; the national grid of trunk railways proposed in Sun Yat-sen's Fundamentals of National Reconstruction, named beside the Great Eastern Port."
-  },
-  "期丝": {
-   "en": "futures-silk",
-   "pinyin": "qisi",
-   "status": "decided",
-   "note": "期丝; filature silk sold forward for future delivery. Wu Sunfu has sold off a large quantity and must reel and deliver against it — which is what gives the women workers their leverage."
-  },
-  "米贴": {
-   "en": "rice-allowance",
-   "pinyin": "mitie",
-   "status": "decided",
-   "note": "米贴; a cost-of-living supplement pegged to the price of rice, the workers' central demand in the filature dispute."
-  },
-  "赏工": {
-   "en": "merit-bonus",
-   "pinyin": "shanggong",
-   "status": "decided",
-   "note": "赏工; a bonus paid on top of wages for good work. The union's counter-offer is to raise it 'by half a tithe' (加半成, half of one-tenth)."
-  },
-  "信托公司": {
-   "en": "trust company",
-   "pinyin": "xintuo gongsi",
-   "status": "decided",
-   "note": "信托公司; a trust-and-investment house. The ready-made one Sun Jiren finds becomes the vehicle the three industrialists seize control of, sparing them the wait for a bank charter."
-  },
-  "公债套利": {
-   "en": "bond arbitrage",
-   "pinyin": "gongzhai taoli",
-   "status": "decided",
-   "note": "公债套利; speculative trading of government bonds for profit, which Wu Sunfu counts among the new financial house's proper lines of business."
-  },
-  "工会": {
-   "en": "the union",
-   "pinyin": "gonghui",
-   "status": "decided",
-   "note": "工会; the factory's labour union, which Tu Weiyue dismisses as an 'empty signboard' and a 'paper tiger' — obeying the owner while pretending to speak for the workers."
-  },
-  "铜牌子": {
-   "en": "brass tally",
-   "pinyin": "tong paizi",
-   "status": "decided",
-   "note": "铜牌子; the numbered brass badge that marks a mill employee; to surrender it is to be dismissed, to receive it back is to be re-engaged."
-  },
-  "巴枯宁主义": {
-   "en": "Bakuninism",
-   "pinyin": "Bakuning zhuyi",
-   "status": "attested",
-   "note": "巴枯宁主义; the collectivist anarchism of Mikhail Bakunin, which Du Xintuo professes as a fashionable pose. See the note at 'a Bakuninist.'"
-  },
-  "万能博士": {
-   "en": "Doctor of All Trades",
-   "pinyin": "wanneng boshi",
-   "status": "decided",
-   "note": "万能博士, lit. 'omnipotent doctor'; the ironic nickname for the dabbler Du Xintuo, who has tried a dozen studies and finished none. See the note at 'Doctor of All Trades.'"
-  },
-  "布尔乔亚": {
-   "en": "bourgeois",
-   "pinyin": "bu'erqiaoya",
-   "status": "decided",
-   "note": "布尔乔亚; a transliteration of 'bourgeois,' the fashionable May Fourth loanword for the propertied class, used by Fan Bowen as a term of contempt."
-  },
-  "诺贝尔文学奖金": {
-   "en": "the Nobel Prize for Literature",
-   "pinyin": "Nuobei'er wenxue jiangjin",
-   "status": "attested",
-   "note": "诺贝尔文学奖金; the Nobel Prize for Literature, which Wu Zhisheng jokingly says Lin Peishan is waiting for Fan Bowen to win."
-  },
-  "管车": {
-   "en": "overseer",
-   "pinyin": "guanche",
-   "status": "decided",
-   "note": "管车; a woman overseer of a bank of reeling frames on the filature floor, ranking below the inspectors (稽查) and identified by her frame number."
-  },
-  "稽查": {
-   "en": "inspector",
-   "pinyin": "jicha",
-   "status": "decided",
-   "note": "稽查; an inspector on the filature floor, set over the overseers (管车)."
-  },
-  "汽油船": {
-   "en": "naphtha-launch",
-   "pinyin": "qiyou chuan",
-   "status": "decided",
-   "note": "汽油船; a small gasoline-engined launch, hired for the run up the creeks to Shuangqiao."
-  },
-  "白相人": {
-   "en": "loafer",
-   "pinyin": "baixiangren",
-   "status": "attested",
-   "note": "白相人; Shanghai (Wu-dialect) slang for an idler, loafer or petty rogue; here the hired toughs who hustle He Xiumei away."
-  },
-  "实业公债": {
-   "en": "industrial bonds",
-   "pinyin": "shiye gongzhai",
-   "status": "decided",
-   "note": "实业公债; a large government bond issue that, floated in the name of relieving industry, would open the way for finance capital to master industrial capital."
-  },
-  "反间计": {
-   "en": "the stratagem of the double agent",
-   "pinyin": "fanjian ji",
-   "status": "decided",
-   "note": "反间计; one of the Thirty-Six Stratagems. See the note at 'stratagem of the double agent.'"
-  },
-  "金融资本": {
-   "en": "finance capital",
-   "pinyin": "jinrong ziben",
-   "status": "decided",
-   "note": "金融资本; finance capital, the banking interests that in Li Yuting's account mean to bring industry under their sway."
-  },
-  "工业资本": {
-   "en": "industrial capital",
-   "pinyin": "gongye ziben",
-   "status": "decided",
-   "note": "工业资本; industrial capital, the manufacturers' capital that finance capital seeks to swallow; Wu Sunfu's own class."
-  },
-  "笑面虎": {
-   "en": "smiling tiger",
-   "status": "decided",
-   "note": "笑面虎, a man of genial face and predatory heart; Feng Yunqing's standing nickname. See the footnote at its first appearance."
-  },
-  "庄票": {
-   "en": "native-bank draft",
-   "status": "decided",
-   "note": "庄票, a draft drawn on a native bank (钱庄), negotiable like cash among merchants."
-  },
-  "五卅": {
-   "en": "May Thirtieth",
-   "pinyin": "Wusa",
-   "status": "attested",
-   "note": "五卅 (五卅运动/五卅纪念); the May Thirtieth Movement of 1925 and its anniversary. See the footnote at first appearance."
-  },
-  "三道头": {
-   "en": "three-stripes",
-   "pinyin": "san dao tou",
-   "status": "decided",
-   "note": "三道头; Shanghai slang for the Western sergeant-inspectors of the Municipal Police, from the chevrons on their sleeves. See the footnote at first appearance."
-  },
-  "红头阿三": {
-   "en": "red-turbaned Ah-San",
-   "pinyin": "hongtou A-san",
-   "status": "decided",
-   "note": "红头阿三; derisive Shanghai slang for the turbaned Sikh constables of the Municipal Police. See the footnote at first appearance."
-  },
-  "白俄": {
-   "en": "the White Russians",
-   "pinyin": "Bai’e",
-   "status": "attested",
-   "note": "白俄; the White Russian émigrés who fled to Shanghai after the Bolshevik revolution, many of them destitute; here both a pleasure-garden’s proprietors and Li Yuting’s image of a stateless people."
-  },
-  "马赛曲": {
-   "en": "the Marseillaise",
-   "pinyin": "Masaiqu",
-   "status": "attested",
-   "note": "马赛曲; the French revolutionary anthem, whistled by Du Xintuo in mock answer to the question of what is to be done."
-  },
-  "张桂军": {
-   "en": "the Zhang-Gui armies",
-   "pinyin": "Zhang-Gui jun",
-   "status": "decided",
-   "note": "张桂军; the combined forces of Zhang Fakui (张发奎) and the Guangxi (‘Gui’) clique, ranged against Nanjing in the 1930 war."
-  },
-  "苏维埃": {
-   "en": "Soviet",
-   "pinyin": "suweiai",
-   "status": "attested",
-   "note": "苏维埃; a transliteration of the Russian ‘soviet’ (a workers’ or peasants’ council), here the rural revolutionary governments the Communists set up in the countryside they held."
-  },
-  "红军": {
-   "en": "the Red Army",
-   "pinyin": "Hongjun",
-   "status": "attested",
-   "note": "红军; the Chinese Workers’ and Peasants’ Red Army, the Communist armed forces of the late 1920s and 1930s."
-  },
-  "铁军": {
-   "en": "the Iron Army",
-   "pinyin": "Tiejun",
-   "status": "decided",
-   "note": "铁军; ‘the Iron Army,’ the honorific won by the Fourth Army in the Northern Expedition and carried by Zhang Fakui’s troops; here marching from Changsha toward the Jiangxi border."
-  },
-  "中秋节": {
-   "en": "the Mid-Autumn Festival",
-   "pinyin": "Zhongqiu jie",
-   "status": "attested",
-   "note": "中秋节 (中秋); the eighth-month full-moon festival, one of the three traditional debt-settlement dates, to which the Dragon-Boat accounts are here put off."
-  },
-  "托辣斯": {
-   "en": "trust",
-   "pinyin": "tuolasi",
-   "status": "decided",
-   "note": "托辣斯; a transliteration of English ‘trust,’ the great combine or monopoly, distinct from the 信托公司 (trust company); the American-style industrial trust Zhao Botao is rumoured to be forming."
-  },
-  "摇摊": {
-   "en": "fantan",
-   "pinyin": "yaotan",
-   "status": "decided",
-   "note": "摇摊; fantan, a gambling game of staking on the remainder when a heap of coins is counted out in fours; named beside 打宝 (dice-guessing) as Wu Sunfu’s games of choice."
-  },
-  "涨风": {
-   "en": "rising wind",
-   "pinyin": "zhangfeng",
-   "status": "decided",
-   "note": "涨风; the season's rising storm-wind, punning on 涨 ('to rise, to swell') in its market sense — a 'bull wind.' See the translator's note at its first appearance."
-  },
-  "茄门": {
-   "en": "Jiamen",
-   "pinyin": "Jiamen",
-   "status": "attested",
-   "note": "茄门; a transliteration of English 'German,' old Shanghai slang for Germany or a German — here the German arms dealer. Glossed by the author's own note [9]."
-  },
-  "七年长期公债": {
-   "en": "the Seven-Year Long-Term Bonds",
-   "pinyin": "qinian changqi gongzhai",
-   "status": "decided",
-   "note": "七年长期公债; an older government bond issue, no longer a speculative target, traded after the main 'Reorganization' session."
-  },
-  "九六公债": {
-   "en": "the Ninety-Six Bonds",
-   "pinyin": "jiuliu gongzhai",
-   "status": "decided",
-   "note": "九六公债; an old, all-but-worthless bond issue still thinly traded at the exchange."
-  },
-  "垫箱钱": {
-   "en": "bottom-of-the-chest money",
-   "pinyin": "dianxiang qian",
-   "status": "decided",
-   "note": "垫箱钱; the private nest-egg a bride keeps at the bottom of her trousseau chest — Feng Meiqing's own dowry money."
-  },
-  "快报": {
-   "en": "bulletin",
-   "pinyin": "kuaibao",
-   "status": "decided",
-   "note": "快报; a 'fast report,' the rush war-news bulletins hawked outside the exchange, often mere rumour manufactured to move prices."
-  },
-  "北方扩大会议": {
-   "en": "the Northern Enlarged Conference",
-   "pinyin": "Beifang Kuoda Huiyi",
-   "status": "attested",
-   "note": "北方扩大会议; the 'Enlarged Conference' of Kuomintang factions opposed to Chiang Kai-shek, convened at Beiping in 1930 as the rival government of the anti-Chiang war."
-  },
-  "总同盟罢工": {
-   "en": "general sympathetic strike",
-   "pinyin": "zong tongmeng bagong",
-   "status": "decided",
-   "note": "总同盟罢工; a general or federated strike in which all the trade's workers across the city walk out together in sympathy — here, the silk-mill hands of all Shanghai."
-  },
-  "存工": {
-   "en": "held-back pay",
-   "pinyin": "cungong",
-   "status": "decided",
-   "note": "存工; wages the mill withholds month by month (here ten per cent, up to a cap) and returns only on an orderly discharge — a device to bind workers and dock the unruly."
-  },
-  "雷梦娜": {
-   "en": "Ramona",
-   "pinyin": "Leimengna",
-   "status": "attested",
-   "note": "雷梦娜; 'Ramona,' a 1928 American waltz-song (Mabel Wayne), a hit of the day that Lin Peishan hums by the pool."
-  },
-  "大炮": {
-   "en": "Big Cannon",
-   "pinyin": "da pao",
-   "status": "decided",
-   "note": "大炮; Shanghai slang for a braggart or loudmouth who 'fires off' grand talk; Huang Fen's nickname."
-  },
-  "白无常": {
-   "en": "the White Wuchang",
-   "pinyin": "bai wuchang",
-   "status": "decided",
-   "note": "白无常; a white-robed ghostly herald of the underworld in folk belief, who comes to fetch the dead."
-  },
-  "黄梅天": {
-   "en": "the plum-rain season",
-   "pinyin": "huangmei tian",
-   "status": "decided",
-   "note": "黄梅天; the warm, humid rainy spell over the lower Yangtze in early summer, when plums ripen and mould and insects breed."
-  },
-  "实业计划": {
-   "en": "the Industrial Plan",
-   "pinyin": "Shiye Jihua",
-   "status": "attested",
-   "note": "实业计划; Sun Yat-sen's program for the large-scale industrial development of China, part of his Fundamentals of National Reconstruction."
-  },
-  "罢工委员会": {
-   "en": "the strike committee",
-   "pinyin": "bagong weiyuanhui",
-   "status": "decided",
-   "note": "罢工委员会; the workers' own strike committee, set up in place of the company union; the single-mill committees answer in turn to the 丝厂总同盟罢工委员会 (总罢委), the General Federated Strike Committee of the silk filatures."
-  }
- }
 }
