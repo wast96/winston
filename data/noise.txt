@@ -204,3 +204,19 @@
 万籁
 # 一泻千里 ("pour out in a flood"): built-in idiom list lacks it; 千 not 1000
 一泻千里
+# ---- B12 (ch31-33) additions ----
+# 阿九 = A-Jiu, a minor agent's name; 九 romanized as "Jiu", not the count 9
+阿九
+# 百看不厌 ("never tire of it, read a hundred times over"); 百 figurative, not 100
+百看不厌
+# 百合 = lily / lily bulb (plant name); 百 is lexicalized, not the count 100
+百合
+# 千野 = Koyama Chino (小山千野), Eiko's handler; 千 is part of the name, not 1000
+千野
+# 一万个 in 一万个不痛快 ("ten-thousandfold displeased"); 万 intensifier, not 10000
+一万个
+# 两边 = "both sides / to and fro" (simplified 两; built-in list only strips 兩边); 两 not 2
+两边
+# 五分属(江户) in the Japanese verse 此景五分属江户 ("half this scene belongs to Edo");
+# 五分 = "half / five parts in ten", figurative, not the count 5
+五分属

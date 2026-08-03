@@ -534,6 +534,48 @@
       "pinyin": "Mao Zedong",
       "status": "attested",
       "note": "CCP leader; named at Chapter 29 as the author of a newspaper article."
+    },
+    "明堂": {
+      "en": "Ming Tang",
+      "pinyin": "Ming Tang",
+      "status": "decided",
+      "note": "Head of the Ming enterprises (mining), thirty-eight, one of those in charge of the Shanghai Stock Exchange; go-between and buyer's broker for the ruin of the Yang enterprises."
+    },
+    "小山千野": {
+      "en": "Koyama Chino",
+      "pinyin": "Koyama Chino",
+      "status": "provisional",
+      "note": "Koyama Eiko's elder sibling and handler, a senior Japanese Army General Staff intelligence officer who cultivated her and unearthed Yang Yuhua; the source assigns no gendered pronoun, so none is supplied."
+    },
+    "泰利士": {
+      "en": "Thales",
+      "pinyin": "Tailishi",
+      "status": "attested",
+      "note": "Thales of Miletus, the Greek philosopher; invoked via Plato's well anecdote (see the note at Chapter 32)."
+    },
+    "柏拉图": {
+      "en": "Plato",
+      "pinyin": "Bailatu",
+      "status": "attested",
+      "note": "The Greek philosopher; the coded book between Xia Yuechun and A-Chu, source of the Thales anecdote."
+    },
+    "尼采": {
+      "en": "Nietzsche",
+      "pinyin": "Nicai",
+      "status": "attested",
+      "note": "Friedrich Nietzsche; Yang Yuhua quotes the tree-and-roots line from Thus Spoke Zarathustra (see the note at Chapter 32)."
+    },
+    "梁启超": {
+      "en": "Liang Qichao",
+      "pinyin": "Liang Qichao",
+      "status": "attested",
+      "note": "The reformist thinker (1873-1929), credited in the text with On the Distinction of the Three Realms of Civilized and Barbarous (see the note at Chapter 32)."
+    },
+    "明轩": {
+      "en": "Mingxuan",
+      "pinyin": "Mingxuan",
+      "status": "provisional",
+      "note": "The two characters penned on the silk cover of the notebook in the blue book-bag; a studio- or given-name whose bearer is not yet identified."
     }
   },
   "organizations": {
@@ -926,6 +968,30 @@
       "pinyin": "Xin Zhonghua Bao",
       "status": "decided",
       "note": "A Chinese Communist newspaper. Chapter 29. (The paper of this name ran at Yan&#8217;an from 1937; the reference is loose for the early-1930s setting.)"
+    },
+    "明氏企业": {
+      "en": "the Ming enterprises",
+      "pinyin": "Ming shi qiye",
+      "status": "decided",
+      "note": "Ming Tang's family firm, in mining; also a power at the Shanghai Stock Exchange."
+    },
+    "上海证券交易所": {
+      "en": "the Shanghai Stock Exchange",
+      "pinyin": "Shanghai zhengquan jiaoyisuo",
+      "status": "decided",
+      "note": "Where the Yang fortune is sold off; A-Chu, through Ming Tang, engineers its collapse."
+    },
+    "上海新闻报": {
+      "en": "the Shanghai News",
+      "pinyin": "Shanghai Xinwen Bao",
+      "status": "provisional",
+      "note": "The newspaper whose photograph of Yang Sitong and 'Young Master Rong' helps push Yang Yuhua to sell."
+    },
+    "陈氏温室花房": {
+      "en": "Chen's Greenhouse Flower-House",
+      "pinyin": "Chen shi wenshi huafang",
+      "status": "decided",
+      "note": "The florist named on the card in the blue book-bag left in the Huamei Bookstore."
     }
   },
   "places": {
@@ -1264,6 +1330,24 @@
       "pinyin": "Nan Man tielu",
       "status": "attested",
       "note": "The Japanese-run railway in the Northeast. Chapter 28."
+    },
+    "长乐街": {
+      "en": "Changle Street",
+      "pinyin": "Changle jie",
+      "status": "decided",
+      "note": "No. 18 Changle Street, the quiet house Han Zhengqi first found for A-Chu, where Amah A-Yue keeps his household."
+    },
+    "江户": {
+      "en": "Edo",
+      "pinyin": "Jianghu",
+      "status": "attested",
+      "note": "The old name of Tokyo; A-Chu's clue to the false Amah A-Yue's Japanese origin."
+    },
+    "富士山": {
+      "en": "Mount Fuji",
+      "pinyin": "Fushishan",
+      "status": "attested",
+      "note": "Where Yang Yuhua and Koyama Eiko met among the cherry blossoms in 1909; its snowbound summit recalled by the plum-scene embroidery on A-Chu's shoes."
     }
   },
   "terms": {
@@ -1488,6 +1572,24 @@
       "pinyin": "wei Man",
       "status": "attested",
       "note": "The Japanese client state proclaimed in the Northeast, March 1932 (伪满 = &#8216;bogus Manchukuo&#8217;). Chapter 28."
+    },
+    "鸳鸯剑": {
+      "en": "the mandarin-duck swords",
+      "pinyin": "yuanyang jian",
+      "status": "decided",
+      "note": "The lovers' twin-bladed sword of the Dream of the Red Chamber; part of the Chapter 32 title (see the note there)."
+    },
+    "上邪": {
+      "en": "Shang Ye",
+      "pinyin": "Shang Ye",
+      "status": "attested",
+      "note": "A Han yuefu love-oath from the eighteen Nao songs; He Yashu marks it as her own vow (see the note at Chapter 33)."
+    },
+    "文野三界之别": {
+      "en": "On the Distinction of the Three Realms of Civilized and Barbarous",
+      "pinyin": "Wen ye san jie zhi bie",
+      "status": "decided",
+      "note": "The Liang Qichao title A-Chu keeps on his shelves (see the note at Chapter 32)."
     }
   }
 }

@@ -1070,3 +1070,77 @@ Figures: none in this batch.
 Build: out/On a Hair Trigger.epub rebuilt, 31 of 36 units translated, 98 notes.
 qa_epub.py PASS (36 documents, 5989 paragraphs, 98 references = 98 bodies = 98
 backlinks, all links resolve).
+
+## Batch B12 — Chapters 31 to 33 (ch31, ch32, ch33) — DONE
+
+Scope: ch31 (游鱼见食不见钩, 207 paras), ch32 (醇酒美人鸳鸯剑, 172 paras), ch33
+(假做真时真亦假, 195 paras). ~17,971 source chars, 574 paragraphs.
+
+Pipeline: wrote out/<id>_en.txt (one English paragraph per source paragraph), assembled
+out/<id>_bilingual.md with make_bilingual.py (verbatim `>` source lines), split with
+split_bilingual.py to out/<id>_reading.md + data/zh/<id>.txt. Register per B11: straight
+ASCII double quotes, ASCII ellipsis (...), semicolons/colons for flow, no em dashes, no
+curly quotes.
+
+Checks:
+- check_structure parity OK: ch31 207/207, ch32 172/172, ch33 195/195.
+- Verbatim fidelity: diff of data/zh/<id>.txt (minus title) against the source paragraphs
+  = zero content diffs on all three (only the source's missing final newline differs).
+- check_numbers --noise data/noise.txt: 0 unresolved on all three (and no regression:
+  re-ran ch00..ch30, all still 0). Fixes this batch:
+  * check_numbers.py: added a monetary rule r"[一二三四五六七八九十]千万" / r"[...]千萬"
+    BEFORE the generic 千万 intensifier, which otherwise fragments 三千万/七千万/五千万
+    and orphans a bare 3/7/5 (the residue cannot be safely noised, as extra-noise runs
+    after the built-in NOISE). English carries the amounts faithfully ("thirty/seventy/
+    fifty million"). Added WORD_NUM "eighteenth": 18 for 十八层地狱 ("the eighteenth level
+    of hell").
+  * data/noise.txt: 7 rows — 阿九 (A-Jiu, agent name; 九), 百看不厌 (idiom; 百),
+    百合 (lily, plant name; 百), 千野 (Koyama Chino name; 千), 一万个 (in 一万个不痛快,
+    intensifier; 万), 两边 (simplified "both sides", built-in list only strips 兩边; 两),
+    五分属 (Japanese verse 此景五分属江户 = "half belongs to Edo"; 五分 = "half").
+- Blind double translation (ch32 Koyama Chino's imperial-loyalty harangue; ch33 A-Chu's
+  unmasking of the false Amah A-Yue): independent renderings matched in sense; only
+  difference a subagent romanizing 缨子 as "Yingzi" vs the glossary's decided "Eiko".
+- Round-trip back-translation (ch31 He Yashu's love monologue): every element survived
+  (all five verbs 爱/敬/疼/恨/怨, the prejudice, the dream imagery); no omissions.
+- Paranoid deep audit ~3.5% of the batch (the three hardest passages above + all-paragraph
+  verbatim/number checks): observed error rate 0%.
+
+Footnotes: 9 (#99 to #107). ch31 title 游鱼见食不见钩 (proverb 人见利而不见害，鱼见食而不见钩,
+《镜花缘》/《鬼谷子》; the exact 7-char line the author's own — corroborated as a saying).
+ch32 title 醇酒美人鸳鸯剑 traced to 醇酒美人 (史记·魏公子列传, 信陵君) + 鸳鸯剑 (红楼梦 尤三姐/
+柳湘莲) — both corroborated; plus Thales/Thracian-girl (Plato, Theaetetus 174a, corroborated),
+Nietzsche's tree (Thus Spoke Zarathustra I, "The Tree on the Mountainside", corroborated),
+the ch32 pirate-site watermark line (阳光中文网, kept in QC, cut from reading text), and
+文野三界之别 (Liang Qichao's 文野三界 schema via Fukuzawa — corroborated as his idea).
+ch33 title 假做真时真亦假 cross-referenced to the ch30 红楼梦 太虚幻境 couplet note (variant
+做 for 作, not re-noted); plus 上邪 (Han yuefu love-oath, 铙歌十八曲, corroborated) and the
+富士山顶雪飘飘 Japanese verse (author's pastiche, uncorroborated).
+
+Glossary: 17 new rows (existing renderings reused — He Yashu, Yang Yuhua, Xu Yuzhen, Amah
+A-Yue, Koyama Eiko, Sakai Ichiro, Rong Sheng, Rong Gui, Rong Chu/Rong'er, Yang Sitong,
+Young Tang, Liu A-Si, Lu Liangchen, Han Zhengqi, the Dongyang Company, Plum Blossom Lane,
+the Huamei Bookstore, the Ciyun Temple, Mount Wu, the Imperial Flower — all carried over).
+New people: Ming Tang (明堂), Koyama Chino (小山千野, provisional; source gives no gendered
+pronoun, so none supplied), Thales (泰利士), Plato (柏拉图), Nietzsche (尼采), Liang Qichao
+(梁启超), Mingxuan (明轩, provisional). New orgs: the Ming enterprises (明氏企业), the
+Shanghai Stock Exchange (上海证券交易所), the Shanghai News (上海新闻报), Chen's Greenhouse
+Flower-House (陈氏温室花房). New places: Changle Street (长乐街), Edo (江户), Mount Fuji
+(富士山). New terms: the mandarin-duck swords (鸳鸯剑), Shang Ye (上邪), On the Distinction
+of the Three Realms of Civilized and Barbarous (文野三界之别).
+
+Twin / identity handling this batch:
+- A-Chu (阿初/杨慕初) and A-Ci/Muci (阿次/杨慕次) rendered by referent as established. The
+  ch33 climax turns on a body-double swap: Muci, disguised as A-Chu, is the one hypnotized
+  while the real A-Chu waits at the door; both are rendered plainly as who they are, with
+  Amah A-Yue's confusion ("You're not Yang Muchu?!") left as it stands.
+- The impostor chain is rendered faithfully, not reconciled: the hypnotist falsely tells
+  A-Chu the young skeleton is his birth mother (ch33 mid), and A-Chu later exposes that the
+  cut-in-two skeleton is in fact the real Amah A-Yue (40+), murdered 20 years ago, whose
+  identity the Japanese agent (present "Amah A-Yue") stole. Left visible, not smoothed.
+
+Figures: none in this batch.
+
+Build: out/On a Hair Trigger.epub rebuilt, 34 of 36 units translated, 107 notes.
+qa_epub.py PASS (36 documents, 6560 paragraphs, 107 references = 107 bodies = 107
+backlinks, all links resolve).

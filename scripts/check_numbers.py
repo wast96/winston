@@ -30,6 +30,8 @@ WORD_NUM = {
     "seventeenth": 17,
     # Date ordinals used in this book's prose ("the sixteenth of March", 3月16日).
     "sixteenth": 16,
+    # "the eighteenth level of hell" (十八层地狱), a Buddhist set phrase, ch32.
+    "eighteenth": 18,
 }
 TEENS = {"fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17,
          "eighteen": 18, "nineteen": 19}
@@ -82,6 +84,11 @@ NOISE = [
     # --- 萬/万 and 千 as intensifier, not the quantity 10000/1000 ---
     # ORDERING: 千萬/萬萬 must precede bare 萬X, or r"萬不可" eats the 萬 out of
     # 千萬不可 and orphans a 千 read as 1000. Longest literal first, always.
+    # A monetary N千万 (30 million, 70 million, ...) must precede the bare 千万
+    # intensifier below, or that rule strips 千万 out of 三千万 and orphans a
+    # 三 read as the quantity 3. English carries these faithfully as
+    # "thirty million" etc.; the check cannot combine 千万 into a multiplier.
+    r"[一二三四五六七八九十]千萬", r"[一二三四五六七八九十]千万",
     r"千萬", r"万万", r"萬萬", r"萬不得已", r"萬不可", r"萬一", r"萬分",
     r"千万", r"万一", r"万分", r"以萬計", r"以万计", r"萬計", r"万计",
     # --- common four-character idioms carrying non-quantity numerals ---
