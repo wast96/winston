@@ -1153,3 +1153,57 @@ Hand-checked quantities: 三十二支光 = 32, 二十/五十 men = 20/50, 一百
 七点半 = half past seven, 六角/一角 = six jiao/one jiao, 八折 = eight-tenths, 十九岁 =
 nineteen, 十三岁 = thirteen, 三十多岁 = thirty-odd, 二排/三排 = two or three, 三下 =
 three (knocks), 三只床 = three beds.
+
+## Batch B14 — Chapter Fourteen (ch14)
+
+Longest chapter in the book: 19,912 source chars, 372 body paragraphs, NO source
+notes (the author-note stream is frozen). The strike carried out onto the street,
+then the night salon at the Wu house. Translated to the novelistic register.
+
+### Checks run and results
+
+1. Faithful verbatim quotation. The bilingual QC file quotes the source VERBATIM:
+   English written one paragraph per line to a scratch file, then zipped against the
+   source body with a pre-zip assertion. Pre-zip parity assertion passed at 372 == 372;
+   alignment spot-checked at ~23 sampled indices, all aligned.
+4. Automated invariants. check_numbers.py out/ch14_bilingual.md --noise data/noise_zh.txt:
+   0 unresolved (caught and fixed 3 real digit-drops: 第二步 rendered with "second";
+   吴为成他们三个 rendered "the three of them"; 踱了两步 rendered "a step or two"; and
+   added one noise line, 四平八稳). check_structure.py --pairs data/zh/ch14.txt
+   out/ch14_reading.md: parity 372 | 372 OK.
+   Number-trap handling verified: 一百零二 = 102, 七八万 = seventy or eighty thousand,
+   五折六折 = five-tenths/six-tenths, 八折 = eight-tenths, 五十/五十多 = fifty/fifty-odd,
+   两百块钱 = two hundred dollars, 三百左右/一百光景 = three hundred or so / about a
+   hundred, 六个月/半年 = six months / half a year, 六叔 = Sixth Uncle, 曾老二 = Zeng
+   the Second, 九号/二号管车 = overseer number nine / number two, 七月 = July.
+8. Random-sample deep audit (~4%, ~15 paragraphs). Sampled the opening thunder/strike
+   pair, the frontal assault on the office, the Wu-Sunfu / Mo-Gancheng interrogation,
+   the council-of-war and the dismissal order, the Zhu Guiying shanty raid, the He
+   Xiumei interrogation, the car besieged at the gate, and the drawing-room war-talk:
+   source copied verbatim (not re-typed), every quantity held, no omission or invented
+   bridging. epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings.
+
+### Glossary additions (one rendering per referent)
+
+people: He Long (贺龙), Fang Zhimin (方志敏), Zhu and Mao (朱毛). places: Italy (意大利),
+Daye (大冶), Liuyang (浏阳), Jingdezhen (景德镇), Ji'an (吉安), the Jiaoji railway (胶济路).
+organizations: the Qianhe Silk Filature (乾和丝厂, Zhu Yinqiu's). terms: the strike
+committee (罢工委员会). Reused the fixed cast/terms: Tu the Chamber-pot (屠夜壶), Wu
+Sunfu = the Third Master (三先生), Tu Weiyue, Mo Gancheng, Gui Changlin, Qian Baosheng,
+pockmarked Li, A Zhen, Wang Jinzhen, Yao Jinfeng, Zhu Guiying, Xue Baozhu, He Xiumei,
+Zhang Axin, Chen Yue'e, Ma Jin, Jin Xiaomei, A Xiang, Second Sister Zhou, Qian Qiaolin,
+Auntie Xu, Lu Xiaobao, Wu Weicheng, Ma Jingshan, Zeng Jiaju, Lei Ming (Staff Officer
+Lei), Du Xueshi, Du Xintuo, Li Yuting, Wang Hefu, Sun Jiren, Zhao Botao, Zhu Yinqiu,
+Amah Wang; the Public Security Bureau, the defence corps (保卫团), the Yuhua Silk
+Filature, the Yizhong company; Jinan, Xuzhou, Tianjin, Zhabei, Hongkou, the
+Tianjin-Pukou line; 八折, 米贴, 白相人, 管车, 稽查, 总同盟罢工.
+
+### Translator notes (builder-numbered 78-82)
+
+78 the maxim 士可杀而不可辱 ("a man of honour may be slain but not shamed"), the pose
+Tu Weiyue strikes to master Wu Sunfu; 79 杀鸡吓猴 ("kill the chicken to scare the
+monkey"); 80 the real summer-1930 Red Army offensive on the Li Lisan line (He Long,
+Peng Dehuai's late-July Changsha raid, Fang Zhimin, the Zhu-Mao drive on Ji'an) and
+the "July nationwide rising" plan Li Yuting names, historically corroborated; 81 the
+"wet shirt" (湿布衫) metaphor for an inescapable dead weight; 82 bird's-nest gruel
+(燕窝粥) as a luxury restorative. All five anchors verified verbatim in the reading text.

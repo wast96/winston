@@ -648,6 +648,24 @@
       "pinyin": "Ke Zuofu",
       "status": "decided",
       "note": "克佐甫; a higher Communist Party functionary, unseen in this chapter, from whom Cai Zhen takes her “formulas” at second hand."
+    },
+    "贺龙": {
+      "en": "He Long",
+      "pinyin": "He Long",
+      "status": "attested",
+      "note": "贺龙 (1896–1969); a Communist Red Army commander, named in the drawing-room war-talk as operating about Shashi and Daye in the 1930 offensive. See the footnote on the summer-1930 campaign."
+    },
+    "方志敏": {
+      "en": "Fang Zhimin",
+      "pinyin": "Fang Zhimin",
+      "status": "attested",
+      "note": "方志敏 (1899–1935); Communist leader of the northeast-Jiangxi soviet, named as active about Jingdezhen. See the footnote on the summer-1930 campaign."
+    },
+    "朱毛": {
+      "en": "Zhu and Mao",
+      "pinyin": "Zhu Mao",
+      "status": "attested",
+      "note": "朱毛; the paired name for Zhu De (朱德) and Mao Zedong (毛泽东), whose First Army Corps drove on Ji'an in 1930. See the footnote on the summer-1930 campaign."
     }
   },
   "organizations": {
@@ -866,6 +884,12 @@
       "pinyin": "Yuhua sichang",
       "status": "decided",
       "note": "裕华丝厂; Wu Sunfu’s silk filature, where the wage-cut and the strike of this chapter break out."
+    },
+    "乾和丝厂": {
+      "en": "the Qianhe Silk Filature",
+      "pinyin": "Qianhe sichang",
+      "status": "decided",
+      "note": "乾和丝厂; Zhu Yinqiu's silk filature, foundering under its debts and become, in Wu Sunfu's phrase, a 'wet shirt.'"
     }
   },
   "places": {
@@ -1462,6 +1486,42 @@
       "pinyin": "Zhabei",
       "status": "attested",
       "note": "闸北; Chinese-administered industrial district of Shanghai north of the Settlement, where Wu Sunfu's own mill stands; older English Chapei."
+    },
+    "意大利": {
+      "en": "Italy",
+      "pinyin": "Yidali",
+      "status": "attested",
+      "note": "意大利; Italy, invoked by Du Xueshi as the model of a corporate-statist order that forbids both strikes and lockouts."
+    },
+    "大冶": {
+      "en": "Daye",
+      "pinyin": "Daye",
+      "status": "attested",
+      "note": "大冶; a mining town in southeastern Hubei, named in the war-talk."
+    },
+    "浏阳": {
+      "en": "Liuyang",
+      "pinyin": "Liuyang",
+      "status": "attested",
+      "note": "浏阳; a county town in eastern Hunan, named in the war-talk."
+    },
+    "景德镇": {
+      "en": "Jingdezhen",
+      "pinyin": "Jingdezhen",
+      "status": "attested",
+      "note": "景德镇; the porcelain city of northeastern Jiangxi, named in the war-talk."
+    },
+    "吉安": {
+      "en": "Ji'an",
+      "pinyin": "Ji'an",
+      "status": "attested",
+      "note": "吉安; a city on the Gan River in central Jiangxi, objective of the Zhu–Mao army in 1930."
+    },
+    "胶济路": {
+      "en": "the Jiaoji railway",
+      "pinyin": "Jiaoji lu",
+      "status": "attested",
+      "note": "胶济路; the Qingdao–Jinan railway across Shandong (胶 Jiaozhou to 济 Jinan), the line the Central Army still holds after giving up Jinan."
     }
   },
   "terms": {
@@ -2002,6 +2062,12 @@
       "pinyin": "Shiye Jihua",
       "status": "attested",
       "note": "实业计划; Sun Yat-sen's program for the large-scale industrial development of China, part of his Fundamentals of National Reconstruction."
+    },
+    "罢工委员会": {
+      "en": "the strike committee",
+      "pinyin": "bagong weiyuanhui",
+      "status": "decided",
+      "note": "罢工委员会; the workers' own strike committee, set up in place of the company union; the single-mill committees answer in turn to the 丝厂总同盟罢工委员会 (总罢委), the General Federated Strike Committee of the silk filatures."
     }
   }
 }

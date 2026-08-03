@@ -249,3 +249,6 @@
 # 小三子 Zhu Guiying's younger brother "Xiao Sanzi," a match-factory worker; 三 is part of
 # his name, not the count 3 (ch13)
 小三子
+# --- Chapter Fourteen additions ---
+# 四平八稳 "smooth and steady on every side" (idiom; 四/八 not counts) (ch14)
+四平八稳
