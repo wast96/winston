@@ -1093,3 +1093,63 @@ bridging. Hand-checked quantities: 二十万 = 200,000 (fixed), 十万 = 100,000
 800,000, 三十万 = 300,000, 一千万 = 10,000,000, 五百万 = 5,000,000, 六十五元 = 65,
 十七八岁 = 17/18, 九百多两 = 900+ taels; per-cent/discount idioms (八折→eight-tenths,
 九折→nine-tenths, 二成/六成) rendered in words so the fraction survives.
+
+## Batch B13 — Chapter Thirteen (ch13)
+
+Chapter Thirteen translated end to end: 190 body paragraphs, 10,419 source chars,
+NO source notes (grep of the source for a leading `[n]` returned nothing; the
+author-note stream [1]..[9] stays frozen). out/ch13_reading.md and data/zh/ch13.txt
+written from out/ch13_bilingual.md (QC only, not shipped). This is the strike chapter:
+the wage-cut at the Yuhua filature, Tu Weiyue's counter-plot, the workers' meeting at
+Yao Jinfeng's, and the Party organizers Ma Jin and Cai Zhen arguing "formula" against
+formula in the back-lane room.
+
+### Checks run
+
+- check_numbers.py out/ch13_bilingual.md --noise data/noise_zh.txt: 190 pairs, 0
+  unresolved. The five initial flags were all non-quantities (names/idioms with a
+  digit in them), silenced with documented noise lines, never a dropped quantity:
+  七搭八搭 (chat idly/flirt; 七/八 idiom), 不三不四 (disreputable; 三/四 idiom),
+  四喜子 (the neighbour boy Sixizi; 四 in a name), 小三子 (Zhu Guiying's brother
+  Xiao Sanzi; 三 in a name, covers pairs 98 and 102). Number-rendering habits kept
+  clean: 八折 -> "eight-tenths", 六角 -> "six jiao", 一百块钱 -> "a hundred dollars",
+  三十二支光 -> "thirty-two candlepower", 二十来岁 -> "about twenty", 十九岁 ->
+  "nineteen", 十三岁 -> "thirteen", 三十多岁 -> "thirty-odd", 七点半 -> "half past
+  seven"; 周二姐 rendered "Second Sister Zhou" and 老八 "Old Eight" so the birth-order
+  digit survives without a noise line.
+- check_structure.py --pairs data/zh/ch13.txt out/ch13_reading.md: parity 190 | 190 OK.
+- qa_epub.py out/Midnight.epub: PASS, 32 files, 26 documents, 77 notes (references,
+  bodies, backlinks all 77), all links resolve. Build reports 13 of 20 chapters.
+- Pre-zip parity assertion (English-per-line vs source body) held at 190; alignment
+  spot-checked at indices 0,4,25,41,98,104,141,167,189 before writing the bilingual.
+
+### Glossary additions
+
+people: Second Sister Zhou (周二姐), Qian Qiaolin (钱巧林), Auntie Xu (徐阿姨),
+Lu Xiaobao (陆小宝), Zhang Axin (张阿新), Chen Yue'e (陈月娥), Ma Jin (玛金),
+Cai Zhen (蔡真), Jin Xiaomei (金小妹), Jin Heshang (金和尚), Xiao Sanzi (小三子),
+Sixizi (四喜子), A Xiang (阿祥), Ke Zuofu (克佐甫). organizations: the Yuhua Silk
+Filature (裕华丝厂). Reused the fixed cast/terms: Tu Weiyue/屠夜壶 jeer, Mo Gancheng,
+Wu Sunfu = the Third Master (三先生), Gui Changlin, Qian Baosheng, pockmarked Li,
+A Zhen, Wang Jinzhen, Yao Jinfeng, Zhu Guiying, Xue Baozhu, He Xiumei, Zeng Jiaju,
+Zhou Zhongwei (the match-factory owner), Hongkou, Zhabei, 白相人, 米贴, 工会.
+
+### Translator notes (builder-numbered 73-77)
+
+73 Tu the Chamber-pot (屠夜壶, the workers' pun on Tu Weiyue's name); 74 the jiao
+(角, a tenth of a yuan; the match-factory wage and the "eight-tenths" filature wage);
+75 the yellow union (黄色工会, a company/reformist union; the two management factions);
+76 the revolutionary high tide (革命高潮 / 总路线 / 右倾, the Li Lisan-line jargon
+Cai Zhen parrots against Ma Jin); 77 Ke Zuofu (克佐甫, the offstage Party functionary
+who supplies the "formulas"). All five anchors verified verbatim in the reading text.
+
+### Random-sample deep audit (~4%, ~8 paragraphs)
+
+Sampled the opening storm/workshop pair, the Tu Weiyue council-of-war, the promotion
+trap with Zhu Guiying, the peanut-basket/leaflet scene, the meeting at Yao Jinfeng's,
+and the closing formula-vs-formula argument: source quoted verbatim (copied by the zip
+script, not re-typed), every quantity held, no omission or invented bridging.
+Hand-checked quantities: 三十二支光 = 32, 二十/五十 men = 20/50, 一百块钱 = a hundred,
+七点半 = half past seven, 六角/一角 = six jiao/one jiao, 八折 = eight-tenths, 十九岁 =
+nineteen, 十三岁 = thirteen, 三十多岁 = thirty-odd, 二排/三排 = two or three, 三下 =
+three (knocks), 三只床 = three beds.

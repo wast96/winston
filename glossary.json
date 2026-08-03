@@ -564,6 +564,90 @@
       "pinyin": "Yan Xishan",
       "status": "attested",
       "note": "阎锡山 (1883–1960), the militarist governor of Shanxi (the 'model governor'); in 1930 a leader of the anti-Chiang Northern coalition whose armies drive down the Tianjin–Pukou line in this chapter's war news."
+    },
+    "周二姐": {
+      "en": "Second Sister Zhou",
+      "pinyin": "Zhou Er-jie",
+      "status": "decided",
+      "note": "周二姐; a dumpy woman worker at the Yuhua filature and Qian Baosheng’s running dog, known by her birth-order nickname (二, “the second”)."
+    },
+    "钱巧林": {
+      "en": "Qian Qiaolin",
+      "pinyin": "Qian Qiaolin",
+      "status": "decided",
+      "note": "钱巧林; Qian Baosheng’s younger sister, a woman worker who slips into the militants’ meeting to spy and is driven out."
+    },
+    "徐阿姨": {
+      "en": "Auntie Xu",
+      "pinyin": "Xu Ayi",
+      "status": "decided",
+      "note": "徐阿姨; a timid woman worker of thirty-odd at the filature, forever urging the others to break up and go home."
+    },
+    "陆小宝": {
+      "en": "Lu Xiaobao",
+      "pinyin": "Lu Xiaobao",
+      "status": "decided",
+      "note": "陆小宝; a woman worker who argues for waiting on the other mills rather than striking out first."
+    },
+    "张阿新": {
+      "en": "Zhang Axin",
+      "pinyin": "Zhang Axin",
+      "status": "decided",
+      "note": "张阿新; a militant woman worker at the filature, one of the two Tu Weiyue orders tailed."
+    },
+    "陈月娥": {
+      "en": "Chen Yue’e",
+      "pinyin": "Chen Yue'e",
+      "status": "decided",
+      "note": "陈月娥; a woman worker and the Party’s contact inside the filature, addressed as 月大姐, “Sister Yue.”"
+    },
+    "玛金": {
+      "en": "Ma Jin",
+      "pinyin": "Ma Jin",
+      "status": "decided",
+      "note": "玛金; a young woman Communist organizer who distrusts the ready-made “formulas” and wants to weigh the real situation."
+    },
+    "蔡真": {
+      "en": "Cai Zhen",
+      "pinyin": "Cai Zhen",
+      "status": "decided",
+      "note": "蔡真; a young woman Communist organizer, doctrinaire, who meets every doubt with a Party formula."
+    },
+    "金小妹": {
+      "en": "Jin Xiaomei",
+      "pinyin": "Jin Xiaomei",
+      "status": "decided",
+      "note": "金小妹; a thirteen-year-old basin-girl at the filature, Jin Heshang’s sister."
+    },
+    "金和尚": {
+      "en": "Jin Heshang",
+      "pinyin": "Jin Heshang",
+      "status": "decided",
+      "note": "金和尚; literally “Jin the Monk,” a match-factory worker who lives next door to the Zhu family."
+    },
+    "小三子": {
+      "en": "Xiao Sanzi",
+      "pinyin": "Xiao Sanzi",
+      "status": "decided",
+      "note": "小三子; Zhu Guiying’s younger brother, a worker at Zhou Zhongwei’s match factory."
+    },
+    "四喜子": {
+      "en": "Sixizi",
+      "pinyin": "Sixizi",
+      "status": "decided",
+      "note": "四喜子; a rag-picking neighbour boy who scavenged the wad of Communist leaflets the Zhu family unknowingly used as wrapping-paper."
+    },
+    "阿祥": {
+      "en": "A Xiang",
+      "pinyin": "A Xiang",
+      "status": "decided",
+      "note": "阿祥; a man at the filature whom Gui Changlin suspects is Qian Baosheng’s planted informer."
+    },
+    "克佐甫": {
+      "en": "Ke Zuofu",
+      "pinyin": "Ke Zuofu",
+      "status": "decided",
+      "note": "克佐甫; a higher Communist Party functionary, unseen in this chapter, from whom Cai Zhen takes her “formulas” at second hand."
     }
   },
   "organizations": {
@@ -776,6 +860,12 @@
       "pinyin": "Yuanda",
       "status": "decided",
       "note": "元大庄; the native bank whose promised hundred-thousand-tael loan to Yizhong was arranged through Du Zhuzhai and is withdrawn once he pulls out."
+    },
+    "裕华丝厂": {
+      "en": "the Yuhua Silk Filature",
+      "pinyin": "Yuhua sichang",
+      "status": "decided",
+      "note": "裕华丝厂; Wu Sunfu’s silk filature, where the wage-cut and the strike of this chapter break out."
     }
   },
   "places": {
