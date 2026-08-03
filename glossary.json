@@ -534,6 +534,30 @@
       "pinyin": "Xiao Zhang",
       "status": "attested",
       "note": "小张; Zhang Xueliang (1901–2001), the ‘Young Marshal’ of Manchuria, whose allegiance both sides courted in the 1930 Central Plains War; his ‘unclear attitude’ could tip the whole conflict."
+    },
+    "彭德怀": {
+      "en": "Peng Dehuai",
+      "pinyin": "Peng Dehuai",
+      "status": "attested",
+      "note": "彭德怀 (1898–1974); the Communist Red Army commander whose forces seize Yuezhou and briefly hold Changsha in the 1930 offensive. See the footnote at his name."
+    },
+    "吴为成": {
+      "en": "Wu Weicheng",
+      "pinyin": "Wu Weicheng",
+      "status": "decided",
+      "note": "吴为成; a distant nephew of Wu Sunfu, a shrewd-faced man of thirty-odd, brought up from Shuangqiao by Fei the little-moustache to seek a place in Wu Sunfu’s concerns."
+    },
+    "马景山": {
+      "en": "Ma Jingshan",
+      "pinyin": "Ma Jingshan",
+      "status": "decided",
+      "note": "马景山; brother-in-law of Zeng Jiaju, a young man of twenty-odd brought up with Wu Weicheng to seek work under Wu Sunfu; called Little Ma (小马)."
+    },
+    "明妃": {
+      "en": "the Lady Ming",
+      "pinyin": "Mingfei",
+      "status": "attested",
+      "note": "明妃; Wang Zhaojun (王昭君), the Han palace beauty sent in marriage beyond the Great Wall, subject of the kesi tapestry ‘The Lady Ming Goes Out to the Frontier.’ See the footnote at that title."
     }
   },
   "organizations": {
@@ -710,6 +734,12 @@
       "pinyin": "Laozha buo fang",
       "status": "attested",
       "note": "老闸捕房; the Louza (老闸) police station of the International Settlement, the very station whose men fired the shots of 30 May 1925."
+    },
+    "华商证券交易所": {
+      "en": "the Chinese Securities Exchange",
+      "pinyin": "Huashang zhengquan jiaoyisuo",
+      "status": "decided",
+      "note": "华商证券交易所; the Chinese-run securities exchange on Hankou Road (San Malu), the floor on which the whole bond speculation of the novel is fought."
     }
   },
   "places": {
@@ -1192,6 +1222,54 @@
       "pinyin": "Aomen",
       "status": "attested",
       "note": "澳门; the Portuguese colony at the mouth of the Pearl River."
+    },
+    "岳州": {
+      "en": "Yuezhou",
+      "pinyin": "Yuezhou",
+      "status": "attested",
+      "note": "岳州; the Hunan city on Dongting Lake (today Yueyang, 岳阳), taken by Peng Dehuai’s Red Army."
+    },
+    "宜昌": {
+      "en": "Yichang",
+      "pinyin": "Yichang",
+      "status": "attested",
+      "note": "宜昌; a Yangtze river-port in western Hubei; older English Ichang."
+    },
+    "南昌": {
+      "en": "Nanchang",
+      "pinyin": "Nanchang",
+      "status": "attested",
+      "note": "南昌; the capital of Jiangxi province."
+    },
+    "烟台": {
+      "en": "Yantai",
+      "pinyin": "Yantai",
+      "status": "attested",
+      "note": "烟台; the port on the north coast of Shandong; older English Chefoo. The intended landfall of Tang Yunshan’s smuggled arms."
+    },
+    "山东": {
+      "en": "Shandong",
+      "pinyin": "Shandong",
+      "status": "attested",
+      "note": "山东; the northern coastal province; older English Shantung."
+    },
+    "三马路": {
+      "en": "San Malu",
+      "pinyin": "San Malu",
+      "status": "decided",
+      "note": "三马路; the colloquial name of Hankou Road (汉口路), the financial street of Chinese Shanghai where the securities exchange stood. See the footnote at first appearance."
+    },
+    "昼锦里": {
+      "en": "Zhaojinli",
+      "pinyin": "Zhaojinli",
+      "status": "provisional",
+      "note": "昼锦里; a lane of brothels near the securities exchange in the old Chinese city quarter."
+    },
+    "亨堡": {
+      "en": "the Hamburg lot",
+      "pinyin": "Hengbao",
+      "status": "provisional",
+      "note": "亨堡; the name of Tang Yunshan’s smuggled arms consignment, probably Hamburg (the German port of origin) but perhaps only a cover-word; identification provisional. See the footnote at ‘shipped to Yantai.’"
     }
   },
   "terms": {
@@ -1612,6 +1690,42 @@
       "pinyin": "Zhang-Gui jun",
       "status": "decided",
       "note": "张桂军; the combined forces of Zhang Fakui (张发奎) and the Guangxi (‘Gui’) clique, ranged against Nanjing in the 1930 war."
+    },
+    "苏维埃": {
+      "en": "Soviet",
+      "pinyin": "suweiai",
+      "status": "attested",
+      "note": "苏维埃; a transliteration of the Russian ‘soviet’ (a workers’ or peasants’ council), here the rural revolutionary governments the Communists set up in the countryside they held."
+    },
+    "红军": {
+      "en": "the Red Army",
+      "pinyin": "Hongjun",
+      "status": "attested",
+      "note": "红军; the Chinese Workers’ and Peasants’ Red Army, the Communist armed forces of the late 1920s and 1930s."
+    },
+    "铁军": {
+      "en": "the Iron Army",
+      "pinyin": "Tiejun",
+      "status": "decided",
+      "note": "铁军; ‘the Iron Army,’ the honorific won by the Fourth Army in the Northern Expedition and carried by Zhang Fakui’s troops; here marching from Changsha toward the Jiangxi border."
+    },
+    "中秋节": {
+      "en": "the Mid-Autumn Festival",
+      "pinyin": "Zhongqiu jie",
+      "status": "attested",
+      "note": "中秋节 (中秋); the eighth-month full-moon festival, one of the three traditional debt-settlement dates, to which the Dragon-Boat accounts are here put off."
+    },
+    "托辣斯": {
+      "en": "trust",
+      "pinyin": "tuolasi",
+      "status": "decided",
+      "note": "托辣斯; a transliteration of English ‘trust,’ the great combine or monopoly, distinct from the 信托公司 (trust company); the American-style industrial trust Zhao Botao is rumoured to be forming."
+    },
+    "摇摊": {
+      "en": "fantan",
+      "pinyin": "yaotan",
+      "status": "decided",
+      "note": "摇摊; fantan, a gambling game of staking on the remainder when a heap of coins is counted out in fours; named beside 打宝 (dice-guessing) as Wu Sunfu’s games of choice."
     }
   }
 }

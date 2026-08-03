@@ -835,3 +835,103 @@ Lin Peishan, Liu Yuying (玉英), Tang Yunshan (the "man surnamed Tang").
   "Xintuo" there. Elsewhere 老箨 = Old Tuo, 老六/学诗 = Du Xueshi.
 - 寡老 (Cantonese, after 丢那妈) left as an honest uncertainty in note 55 rather than
   smoothed into a confident gloss.
+
+## B10 = Chapter Ten (ch10), 13,366 source chars
+
+Done. A single-scene chapter set entirely at the Wu mansion on the afternoon the
+war news breaks: the Zhang-Gui armies burst into Changsha and Peng Dehuai's Red
+Army takes Yuezhou, and the bond market convulses. Three interlocking movements:
+(1) Fei the little-moustache and the two job-seekers Wu Weicheng and Ma Jingshan
+up from Shuangqiao, and Wu Sunfu's decision to keep the town concerns open till
+Mid-Autumn; (2) Li Yuting shut in the small parlour with Lawyer Qiu (the eight
+small factories bought for the Yizhong) and his spy-paranoia; the women's mahjong
+upstairs and the Du-Xintuo / Lin-Peishan generation problem and the Staff Officer
+Lei proposal; (3) the long Wu-Sunfu / Du-Zhuzhai study scene over the 500,000 bond
+squeeze against Zhao Botao, Tang Yunshan's arms-smuggling and Changsha-retreat
+news, and Wu Sunfu's closing plot to scare Du Zhuzhai into the market with a faked
+tale of Staff Officer Lei's capture. NO source notes (confirmed by grep: no inline
+[n] marker; the last author notes [8][9] fall in ch11). source_notes.json untouched.
+
+### Pipeline run
+
+- out/ch10_bilingual.md authored as 230 verbatim source/English pairs. Built the
+  safe way: English written one paragraph per line, zipped against the source body
+  (line 1 = title 十 dropped; the 230 remaining are the body). Pre-zip assertion
+  len(en)==len(body)==230 passed; alignment spot-checked at paras 1/5/62/129/173/
+  192/230 before writing. No paragraph dropped or merged.
+- split_bilingual.py -> out/ch10_reading.md (230 paras) + data/zh/ch10.txt.
+- check_numbers.py --noise data/noise_zh.txt: 0 unresolved (6 flags on first pass,
+  all resolved: 4 by English rewording, 2 by documented noise).
+- check_structure.py --pairs: parity 230 | 230 OK.
+- Verbatim-quotation check: all 230 '>' lines equal the source body exactly (script).
+- build_reading_epub.py out/Midnight.epub: 10 of 20 chapters, 61 notes.
+- qa_epub.py out/Midnight.epub: PASS (61 refs / 61 bodies / 61 backlinks; all links
+  resolve).
+
+### Numbers: English rewordings (source number faithfully in the prose, the checker
+### could not read the rendering)
+
+- 只他和老赵两个 rendered "only he and Old Zhao, the two of them" (was without "two",
+  which dropped 两个 = 2).
+- 我们那五六万 rendered "our fifty or sixty thousand" (was mistranslated "fifty
+  thousand-odd", 五万多; 五六万 = 60000).
+- 五百和 rendered "a few 'five hundred' hands" with a space (was hyphenated
+  "five-hundred", which the checker's \bfive hundred\b could not match).
+- 二楼 rendered "the second floor" (was "the upper floor", which dropped 二 = 2).
+
+### Numbers: documented noise added to data/noise_zh.txt (ch10 block)
+
+三马 (三马路 San Malu, the exchange's road, 三 part of the name not the count 3);
+十九万五千 (195,000, Du Zhuzhai's remaining Yizhong capital; the checker cannot sum a
+compound teen-myriad + thousand; rendered "a hundred and ninety-five thousand");
+一万五 (15,000; the checker mis-sums it to 10005, 五 read as a units digit; rendered
+"fifteen thousand"). All other quantities (七八万, 五六万, 四五十万, 五十万, 一百万,
+三十万两, 十九万五千, 四十多万, etc.) render clean without whitelisting.
+
+### Footnotes (builder-numbered 56-61)
+
+56 San Malu (三马路, Hankou Road, the exchange's financial street); 57 put the greater
+right above kinship (大义灭亲, the Zuo Zhuan phrase Li Yuting turns to urging Du
+Zhuzhai against Wu Sunfu); 58 Peng Dehuai (彭德怀; the Red Army did take Yuezhou /
+Changsha, but in late July 1930, ~7 weeks after the novel's 4 June date — Mao Dun
+compresses the chronology; corroborated against the 1930 record); 59 The Lady Ming
+Goes Out to the Frontier (明妃出塞, Wang Zhaojun, the kesi tapestry); 60 a whole
+generation the elder (the Peishan/Xintuo cross-generation kinship taboo); 61 shipped
+to Yantai (the 亨堡/"Hamburg lot" contraband-arms subplot, tying Wu Sunfu to the
+anti-Nanjing coalition's gun-running; 亨堡's identity left provisional). All anchors
+verified verbatim in the reading text.
+
+### Glossary
+
+New people: Peng Dehuai (彭德怀, attested), Wu Weicheng (吴为成), Ma Jingshan (马景山,
+called Little Ma 小马), the Lady Ming (明妃 = Wang Zhaojun, attested). New places:
+Yuezhou (岳州), Yichang (宜昌), Nanchang (南昌), Yantai (烟台), Shandong (山东), San
+Malu (三马路), Zhaojinli (昼锦里), the Hamburg lot (亨堡, provisional). New org: the
+Chinese Securities Exchange (华商证券交易所). New terms: Soviet (苏维埃), the Red Army
+(红军), the Iron Army (铁军, Zhang Fakui's Fourth Army), the Mid-Autumn Festival
+(中秋节), trust (托辣斯, the American-style combine, distinct from 信托公司 trust
+company), fantan (摇摊). Reused unchanged: Wu Sunfu / the Third Master (三先生, in
+noise) / 荪老三; Du Zhuzhai (姑老爷/son-in-law master), Mrs. Du (姑奶奶 = Fufang), the
+Wu young mistress (吴少奶奶 = Lin Peiyao/佩瑶), Lin Peishan, Du Xintuo (阿新), Du
+Xueshi (老六/Old Sixth), Ah Xuan, Li Yuting, Lawyer Qiu (秋律师/秋隼), Zhao Botao
+(老赵), Zhu Yinqiu, Chen Junyi, Tang Yunshan, Huang Fen, Sun Jiren, Wang Hefu, Tu
+Weiyue, Mo Gancheng, Lu Kuangshi, Fei the little-moustache (费小胡子/费晓生 Fei
+Xiaosheng), Zeng Jiaju (曾老二 Zeng the Second), Staff Officer Lei (雷参谋 = Lei Ming),
+the Yizhong Trust Company (益中信托公司), the Tongyuan native bank, the Hongchang
+pawnshop, Shuangqiao, Changsha, Hunan, Wuhan, Hankou, Hongkou, Hong Kong.
+
+### Read-through / open items
+
+- Random-sample deep audit (~5%, ~11 paragraphs across the war-news opening, Fei's
+  self-interest, the lawyer scene, Li Yuting's paranoia, the mahjong/generation
+  talk, and the study bond-scene): verbatim quotation, quantities and referents all
+  held; no omission or invented bridging. Tricky quantities checked by hand: 六成 =
+  six-tenths; 七八万 = seventy or eighty thousand; 五六万 = fifty or sixty thousand
+  (60000); 四五十万 = four or five hundred thousand; 三十万两 = three hundred thousand
+  taels (the (?<=万)两 rule clears the tael); 十九万五千 = a hundred and ninety-five
+  thousand; 四十多万 = four hundred thousand and more; 十成里有九成 = nine parts in ten.
+- 亨堡 (the "Hamburg lot") is genuinely obscure — probably Hamburg (the arms' origin)
+  or a cover-word for the consignment; left provisional in glossary and note 61
+  rather than smoothed into a confident gloss.
+- Peng Dehuai's Red Army capture of Yuezhou/Changsha is historically late July 1930,
+  not 4 June; the compression is Mao Dun's and is flagged in note 58, not corrected.

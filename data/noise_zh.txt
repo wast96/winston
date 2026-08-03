@@ -197,3 +197,13 @@
 # leaving a bare 四 after 点 (九点四十分 -> 九点四). Rendered "nine-forty"; strip the
 # residual 四 that follows 点 so it is not read as the count 4 (ch09)
 (?<=点)四
+# --- Chapter Ten additions ---
+# 三马路 "San Malu," the colloquial name of Hankou Road, the road of the Chinese
+# securities exchange; 三 is part of the road-name, not the count 3 (ch10)
+三马
+# 十九万五千 = 195,000 (Du Zhuzhai's remaining Yizhong capital); the checker cannot
+# sum a compound teen-myriad + thousand; rendered "a hundred and ninety-five thousand" (ch10)
+十九万五千
+# 一万五 = 15,000 (a bead on Du Zhuzhai's mental abacus); the checker mis-sums 一万五
+# as 10005 (五 read as a units digit); rendered "fifteen thousand" (ch10)
+一万五
