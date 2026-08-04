@@ -1,6 +1,6 @@
 ## Chapter 16. The Hills Wind, the Road Turns, and I Meet You Again
 
-“The sunlight pours down over the earth, and the clouds go soaring in freedom across the deep-blue vault of heaven. That is their domain; up on the canopy of the sky the rosy clouds and the light of day are playing out a stirring love affair.” Yang Muci intoned the words under his breath, but the gun in his hand “never missed”; behind him he could hear the querulous “cursing” of the man he had just “shot.”
+“The sunlight pours down over the earth, and the clouds go soaring in freedom across the deep-blue vault of heaven. That is their domain; up on the canopy of the sky the rosy clouds and the light of day are playing out a stirring love affair.” Yang Muci intoned the words under his breath, but the gun in his hand never missed; behind him he could hear the querulous cursing of the man he had just “shot.”
 
 “No one can halt the march of my advance…” Alert, Yang Muci wheeled and brought his hand back around; the muzzle came to bear on Xin Lili, who was coming up the stairs toward him, and he snatched the gun back at once.
 
@@ -12,25 +12,25 @@
 
 “An exercise and a battlefield are no different,” said Yang Muci.
 
-This was the last “live-combat exercise” examination Yang Muci would sit at the school. If today he could plant, within the set time, the flag that stood for his action team on the roof of the main teaching building, and at the same moment “wipe out” the defenders and take out the “enemy” command post, he would graduate with the highest possible marks. To put it another way, he would have “bought” himself a handsome “pass,” and could stage a triumphant, aboveboard “jailbreak.” The half year of brutal massed training had been no less than a spell trapped in “hell,” the heart shut up in a cell; now, with the first light almost at hand, he could allow himself not the slightest slackening, not a hair’s carelessness. Otherwise everything he had achieved would be thrown away.
+This was the last “live-combat exercise” examination Yang Muci would sit at the school. If today he could plant, within the set time, the flag that stood for his action team on the roof of the main teaching building, and at the same moment “wipe out” the defenders and take out the “enemy” command post, he would graduate with the highest possible marks. To put it another way, he would have bought himself a handsome pass, and could stage a triumphant, aboveboard jailbreak. The half year of brutal massed training had been no less than a spell trapped in hell, the heart shut up in a cell; now, with the first light almost at hand, he could allow himself not the slightest slackening, not a hair’s carelessness. Otherwise everything he had achieved would be thrown away.
 
 “Do you know why I picked you for my partner?” Muci said. “Look out!” Quicker than the words could come, Lili caught sight of someone overhead; before she could make a sound, Muci settled the crisis with a single shot. Their faces were close, cheek to cheek, each feeling the other’s slightly labored breath. “Thank you,” Lili said.
 
 “A trap hidden in the dark is nothing to fear. What is to be feared is a trap that moves.”
 
-A figure came flying along a steel wire, swinging through the air. “Unluckily for us, you’ve called it!” Xin Lili loosed two shots in succession and “saved” Muci, who had been left exposed at the muzzle’s end. The steel cable dropped into Muci’s hand. “Perfect harmony,” Muci said with a smile. “That is exactly why I chose you.”
+A figure came flying along a steel wire, swinging through the air. “Unluckily for us, you’ve called it!” Xin Lili loosed two shots in succession and saved Muci, who had been left exposed at the muzzle’s end. The steel cable dropped into Muci’s hand. “Perfect harmony,” Muci said with a smile. “That is exactly why I chose you.”
 
-Yang Muci lashed the wire around his waist, sprang into the air, and flew up a whole story, his movements savage, unstoppable as a blade splitting bamboo. With a corkscrewing kick of both legs he flung his “opponents” over. Xin Lili led her people charging straight up, dropping one man with each shot.
+Yang Muci lashed the wire around his waist, sprang into the air, and flew up a whole story, his movements savage, unstoppable as a blade splitting bamboo. With a corkscrewing kick of both legs he flung his opponents over. Xin Lili led her people charging straight up, dropping one man with each shot.
 
 “Nobody move!” A violent roar came down the corridor. “Move, and I shoot the hostage!”
 
-Yang Muci and the others darted behind the wall, taking it for cover, and in an instant broke off the “assault.”
+Yang Muci and the others darted behind the wall, taking it for cover, and in an instant broke off the assault.
 
 The team member at the southeast corner signed to Muci in hand-language: he clamped a hand around his own throat, then with his forefinger traced a closed rectangle in the air, up, right, down, and back to the left.
 
 “The hostage is below the window,” Muci told Lili.
 
-“Doesn’t it strike you as too quiet?” Lili said. The narrow, featureless passage looked all the more like a “death” trap. “This is a warning without words. We can’t just bull ahead. Think it over again.”
+“Doesn’t it strike you as too quiet?” Lili said. The narrow, featureless passage looked all the more like a death trap. “This is a warning without words. We can’t just bull ahead. Think it over again.”
 
 “I don’t need you to map out a line of reasoning. What I need is a result you can see the instant you raise the pole,” Muci said, and then let his eyes travel, with deliberate intent, over the hills and hollows of Xin Lili’s chest.
 
@@ -48,7 +48,7 @@ The check done, Yang Muci crooked his elbow, forearm angled to the ground, finge
 
 “Want to trade for the hostage? Fine. Take off your clothes and walk over.”
 
-“All right.” Xin Lili agreed with brisk good cheer; there seemed to come through the air the sound of cloth being torn, and then, with a soft phut, the instructor playing the “enemy” saw only a blur before his eyes and took a round in the chest. Yang Muci directed his team in seizing the commanding heights of the whole building. The hostage was freed—the one playing the “hostage” was the instructor Yu Xiaojiang.
+“All right.” Xin Lili agreed with brisk good cheer; there seemed to come through the air the sound of cloth being torn, and then, with a soft phut, the instructor playing the enemy saw only a blur before his eyes and took a round in the chest. Yang Muci directed his team in seizing the commanding heights of the whole building. The hostage was freed—the one playing the hostage was the instructor Yu Xiaojiang.
 
 “I’ll take you to the command post,” said Yu Xiaojiang.
 
@@ -60,13 +60,13 @@ Yang Muci walked on without so much as turning his head.
 
 “If you want to win by surprise, you’ll do as I say. Otherwise you—”
 
-Yang Muci fired a shot back over his hand and caught Yu Xiaojiang in a “vital spot.”
+Yang Muci fired a shot back over his hand and caught Yu Xiaojiang in a vital spot.
 
 “Are you mad?” Xin Lili shrieked. “You’ve killed the hostage—they’ll dock us points.”
 
 “Why did you do that?” Yu Xiaojiang demanded of Muci.
 
-“Teacher, you’re already dead. The dead shouldn’t be any trouble.” Coolly, Yang Muci put a second round into Yu Xiaojiang. Caught off guard, she took the jolt of the “casing” without warning and slid to the floor. “Move.” Yang Muci stepped over her body and led the way on.
+“Teacher, you’re already dead. The dead shouldn’t be any trouble.” Coolly, Yang Muci put a second round into Yu Xiaojiang. Caught off guard, she took the jolt of the casing without warning and slid to the floor. “Move.” Yang Muci stepped over her body and led the way on.
 
 “Why did you kill the hostage? She could have led us by a shortcut.” Xin Lili hurried to match Muci’s stride. Muci stopped short; they had come again to a crossing of the ways.
 
@@ -110,17 +110,17 @@ Muci gave Lili a glance and, feigning deep feeling, declared, “Then I, Yang Mu
 
 Muci, using the steel cable, went down the face of the wall, his limbs spreading open in the wind so that he came at the half-shut window in the attitude of flight. Bracing his feet at a slant against the wall, he peered inside, and he saw Du Luning. Yang Muci turned side-on and, laying his forefinger, middle finger, and ring finger out straight and side by side across his other arm, told his fellow trainees that the commander was right before them.
 
-Du Luning was here, directing his “troops.”
+Du Luning was here, directing his troops.
 
-“Everything on the line—go!” Almost roughly, Xin Lili sprang up all at once and led the squad rushing down from the rooftop. In an instant every gun of the squad was trained on the door of the “command post.”
+“Everything on the line—go!” Almost roughly, Xin Lili sprang up all at once and led the squad rushing down from the rooftop. In an instant every gun of the squad was trained on the door of the command post.
 
-Muci plunged in violently from outside the window, and the sheer force of his charge swept through the whole “command post.” Shattered glass sprayed across the floor for yards.
+Muci plunged in violently from outside the window, and the sheer force of his charge swept through the whole command post. Shattered glass sprayed across the floor for yards.
 
 There was no transition of any kind, not half a second’s hesitation; Yang Muci did not leave Du Luning so much as the space of a blink. In the very moment Du Luning steadied himself, Muci brought the butt of his gun to bear on Du Luning’s face and dealt him one hard, powerful blow.
 
-For a trainee to knock a “commander” to the ground before every watching eye was, at the school, the first case of its kind. Du Luning heard clearly the mechanical clack of a bolt being drawn, but he could not move at all, could not get back up.
+For a trainee to knock a commander to the ground before every watching eye was, at the school, the first case of its kind. Du Luning heard clearly the mechanical clack of a bolt being drawn, but he could not move at all, could not get back up.
 
-Du Luning had never once lost this “regulation” kind of exercise, because the “infirmary” lay outside the bounds of the war-game. And so the “command post” had no defending force, still less any relief; only a handful of “soldiers” were on hand, and the squad that had broken in through the door had already shot them into “sieves.”
+Du Luning had never once lost this regulation kind of exercise, because the infirmary lay outside the bounds of the war-game. And so the command post had no defending force, still less any relief; only a handful of soldiers were on hand, and the squad that had broken in through the door had already shot them into sieves.
 
 Yang Muci had won.
 

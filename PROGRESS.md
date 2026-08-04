@@ -1419,3 +1419,81 @@ Glossary/figures: no changes (this pass never re-romanizes or renames).
 Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 191 notes.
 qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 191 references = 191
 bodies = 191 backlinks, all links resolve).
+
+## Register pass R04 (ch16 to ch19) — 2026-08-04
+
+Fourth execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source ">" line touched,
+no paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/ (ch16 to ch19). Book-wide notes 191 to 206.
+
+Prose edits (15 total, all in ch16, all T4/T6 scare-quote de-cluttering; ch17-19
+are ordinary/dialogue chapters in the ch01 mode whose prose already reads in the
+target register, so every paragraph LEAVES):
+- ch16: the mock final-exam "live-combat exercise" scene (p001-p061) is the T4
+  example named in REGISTER_PASS. The source saturates it with 引号 marking
+  pretense. Kept the establishing quotes — "shot" (p001), "live-combat exercise"
+  + "wipe out" + "enemy" (p007) — and dropped the quotes on the later
+  repetitions within the same scene: 弹无虚发/咒骂 (p001); 买/通行证/越狱/地狱
+  figurative emphasis (p007); 救 (p010); 对手 (p011); 进攻 (p013); 死亡 (p016);
+  敌人/人质 role-quotes already marked by "playing the" (p025); 要害 (p031);
+  弹壳 (p034); 部队 (p056); 指挥部 (p057, p058, p061); 指挥官 (p060); 规范/
+  医务所/兵/筛子 (p061). Words unchanged; only the quote marks removed.
+- ch17, ch18, ch19: no prose edits. The tearoom confrontation and tea duel
+  (ch17), A-Chu's interior deduction (ch18), and the ballroom/twin mix-ups (ch19)
+  all read cleanly in register; their scare quotes mark genuine irony and citation
+  (the fake "truth," the "gift" of severed limbs, the impostor "Xu Yuzhen," the
+  nicknamed "roses") in scenes distinct from the ch16 exercise, so they stay.
+
+Notes added (15 total; each checked against ALL prior units for first-occurrence
+coverage, scholarship verified, XHTML with numeric character references):
+- ch16 (+4, now 9): the snow-goose trace 雪泥鸿爪 (Su Shi, the fleeting mark of
+  a vanished past); fabi 法币 (Nationalist paper legal tender, 1935 reform, used
+  a little ahead of the 1932 scene); the comprador 买办 (a foreign firm's Chinese
+  manager, and its political charge); the Eight-Nation Alliance 八国联军 and the
+  1900 sack of Peking.
+- ch17 (+7, now 13): the Central Special Branch 中央特科 (the CCP's Teke, the
+  clandestine intelligence/security service — first occurrence in the book, so
+  the note lives here rather than at its later recurrences); the Special Higher
+  Police 特高科 (Tokkō); the Hongmen 洪门 brotherhood; the red apricot over the
+  wall 红杏出墙 (adultery idiom); the four principles of Japanese tea 和敬清寂
+  (wa-kei-sei-jaku, Sen no Rikyū); the named gongfu-tea pours 关公巡城/韩信点兵
+  (Guan Yu / Han Xin); the sworn-brother rite 拜码头/开香堂拜把子.
+- ch18 (+2, now 3): the Mencian filial-heir maxim 不孝有三无后为大 and the
+  ancestral incense-fire 香火; the Buddhist fast-and-vow retreat 吃斋还愿 (timed
+  to the murder). ch18 is a short, abstract interior monologue whose remaining
+  cultural furniture (the concubine line, Cixi, ancestor worship, the twin/heir
+  structure) is already noted earlier; densification kept deliberately light and
+  coverage-driven, not padded.
+- ch19 (+2, now 5): the elder-brother family hierarchy 长兄如父 (the eldest as
+  stand-in father, the ground of the twins' contest); the gentleman-amateur's
+  opera 票戏 and Peking opera as "national essence" 国粹.
+
+Recurring subjects were cross-referenced, not re-noted: the September 18th
+Incident (existing ch16/ch17 notes) and Doihara Kenji (existing ch17 note); the
+concession system, Garrison Command, and Central Special Committee/Comintern
+(ch04/ch08/ch10/ch12); the qipao (ch08); the French Park (ch10); the ballroom and
+dance hostesses (first at ch06, so not re-noted at ch16/ch19); the Old Buddha /
+Empress Dowager Cixi (ch07) behind ch18's palace-maid gift; the Yellow Springs
+(ch14) recurring in ch17; the Seven-Step Poem (existing ch17 note) recurring
+within ch18. Notes NOT added where the scene self-glosses (the TNT and gunpowder
+history in ch16; the samurai belly-cutting in ch17) or the item is decorative
+rather than load-bearing (Yixing/Tenmoku teaware, the Paramount, 红尘/red dust,
+the moon-palace dew). The dragon-gate carp (鱼跃龙门) recurs in ch16 but first
+appears in ch13 and so is left for a book-wide coverage sweep, not misplaced here.
+
+Checks: per chapter, split_bilingual.py regenerated reading + data/zh; parity OK
+(ch16 320, ch17 251, ch18 127, ch19 241); check_numbers 0 unresolved (data/noise.txt
+unchanged, the quote-only edits lost no quantity); straight-quote guard clean on
+all four reading files; no source ">" line changed in any bilingual file. Spot-audit:
+all 14 edited paragraphs (ch16) re-read against their source lines — every edit is
+a pure scare-quote-mark removal with words, numerals, names, and meaning preserved
+verbatim, zero drift; the required establishing quotes ("shot", "live-combat
+exercise", "wipe out", "enemy") confirmed retained; all 15 new note anchors verified
+as unique verbatim substrings of the post-edit reading text, no HTML named entities.
+
+Glossary/figures: no changes (this pass never re-romanizes or renames).
+
+Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 206 notes.
+qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 206 references = 206
+bodies = 206 backlinks, all links resolve).

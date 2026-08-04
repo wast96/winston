@@ -1,7 +1,7 @@
 ## H2 Chapter 16. The Hills Wind, the Road Turns, and I Meet You Again
 
 > “阳光照耀着大地，云彩以自由的姿态飞翔在湛蓝的天际。那是属于它的领域，云霞和天光在天幕上上演着动人的爱情。”杨慕次嘴里念念有词，手上的枪却是“弹无虚发”，他听见耳后“中枪”者唧唧歪歪的“咒骂”声。
-“The sunlight pours down over the earth, and the clouds go soaring in freedom across the deep-blue vault of heaven. That is their domain; up on the canopy of the sky the rosy clouds and the light of day are playing out a stirring love affair.” Yang Muci intoned the words under his breath, but the gun in his hand “never missed”; behind him he could hear the querulous “cursing” of the man he had just “shot.”
+“The sunlight pours down over the earth, and the clouds go soaring in freedom across the deep-blue vault of heaven. That is their domain; up on the canopy of the sky the rosy clouds and the light of day are playing out a stirring love affair.” Yang Muci intoned the words under his breath, but the gun in his hand never missed; behind him he could hear the querulous cursing of the man he had just “shot.”
 
 > “谁也不能阻挡我前进的步伐……”杨慕次警觉地返身回手，枪口对准了楼梯下迎面而上的辛丽丽，他把枪迅速收回。
 “No one can halt the march of my advance…” Alert, Yang Muci wheeled and brought his hand back around; the muzzle came to bear on Xin Lili, who was coming up the stairs toward him, and he snatched the gun back at once.
@@ -19,7 +19,7 @@
 “An exercise and a battlefield are no different,” said Yang Muci.
 
 > 这是杨慕次在学校，参加的最后一场“实战演习”考试。如果，他今天能顺利的在规定时间内，把像征着他们行动小组的旗帜插到教学主楼的楼顶，并同时“消灭”守军，端掉“敌方”指挥部，他就可以以最优异的成绩毕业了。换句话说，他给自己“买”了一张漂亮的“通行证”，他可以堂而皇之的成功“越狱”了。半年来得残酷集训，不亚于身困“地狱”，心锁囚牢，现在，曙光在即，容不得自己有一丝松懈，半点马虎。否则，前功尽弃。
-This was the last “live-combat exercise” examination Yang Muci would sit at the school. If today he could plant, within the set time, the flag that stood for his action team on the roof of the main teaching building, and at the same moment “wipe out” the defenders and take out the “enemy” command post, he would graduate with the highest possible marks. To put it another way, he would have “bought” himself a handsome “pass,” and could stage a triumphant, aboveboard “jailbreak.” The half year of brutal massed training had been no less than a spell trapped in “hell,” the heart shut up in a cell; now, with the first light almost at hand, he could allow himself not the slightest slackening, not a hair’s carelessness. Otherwise everything he had achieved would be thrown away.
+This was the last “live-combat exercise” examination Yang Muci would sit at the school. If today he could plant, within the set time, the flag that stood for his action team on the roof of the main teaching building, and at the same moment “wipe out” the defenders and take out the “enemy” command post, he would graduate with the highest possible marks. To put it another way, he would have bought himself a handsome pass, and could stage a triumphant, aboveboard jailbreak. The half year of brutal massed training had been no less than a spell trapped in hell, the heart shut up in a cell; now, with the first light almost at hand, he could allow himself not the slightest slackening, not a hair’s carelessness. Otherwise everything he had achieved would be thrown away.
 
 > “你知道吗？我为什么选你做搭档？”慕次说。“小心！”说时迟，那时快，丽丽发现头顶有人，还没等她出声，慕次一枪解决了危机。丽丽和慕次脸靠着脸，彼此都能感觉到对方略带沉重的鼻息。丽丽说：“谢谢。”
 “Do you know why I picked you for my partner?” Muci said. “Look out!” Quicker than the words could come, Lili caught sight of someone overhead; before she could make a sound, Muci settled the crisis with a single shot. Their faces were close, cheek to cheek, each feeling the other’s slightly labored breath. “Thank you,” Lili said.
@@ -28,16 +28,16 @@ This was the last “live-combat exercise” examination Yang Muci would sit at 
 “A trap hidden in the dark is nothing to fear. What is to be feared is a trap that moves.”
 
 > 一条钢丝飞送人影，从空晃过，“不幸被你言中了！”辛丽丽连发两枪，“救”了暴露在枪口下的慕次。钢丝绳落在慕次手上。“极度和谐。”慕次笑着说。“这就是我挑你的理由。”
-A figure came flying along a steel wire, swinging through the air. “Unluckily for us, you’ve called it!” Xin Lili loosed two shots in succession and “saved” Muci, who had been left exposed at the muzzle’s end. The steel cable dropped into Muci’s hand. “Perfect harmony,” Muci said with a smile. “That is exactly why I chose you.”
+A figure came flying along a steel wire, swinging through the air. “Unluckily for us, you’ve called it!” Xin Lili loosed two shots in succession and saved Muci, who had been left exposed at the muzzle’s end. The steel cable dropped into Muci’s hand. “Perfect harmony,” Muci said with a smile. “That is exactly why I chose you.”
 
 > 杨慕次把钢丝系在腰间，腾空而跃，飞上一层楼，动作凶猛，势如破竹。双脚螺旋式的甩翻“对手”。辛丽丽率人直冲上来，一枪一个。
-Yang Muci lashed the wire around his waist, sprang into the air, and flew up a whole story, his movements savage, unstoppable as a blade splitting bamboo. With a corkscrewing kick of both legs he flung his “opponents” over. Xin Lili led her people charging straight up, dropping one man with each shot.
+Yang Muci lashed the wire around his waist, sprang into the air, and flew up a whole story, his movements savage, unstoppable as a blade splitting bamboo. With a corkscrewing kick of both legs he flung his opponents over. Xin Lili led her people charging straight up, dropping one man with each shot.
 
 > “都别动！”走廊上传来一声暴烈的吼声。“动，我就打死人质！”
 “Nobody move!” A violent roar came down the corridor. “Move, and I shoot the hostage!”
 
 > 杨慕次等人闪到墙后，以墙作为掩体，霎时停止了“进攻”。
-Yang Muci and the others darted behind the wall, taking it for cover, and in an instant broke off the “assault.”
+Yang Muci and the others darted behind the wall, taking it for cover, and in an instant broke off the assault.
 
 > 东南角的组员，给慕次手语。他用手卡住自己的脖子，然后，用食指由下向上，向右，向下再向左作出一个闭合矩形的手势。
 The team member at the southeast corner signed to Muci in hand-language: he clamped a hand around his own throat, then with his forefinger traced a closed rectangle in the air, up, right, down, and back to the left.
@@ -46,7 +46,7 @@ The team member at the southeast corner signed to Muci in hand-language: he clam
 “The hostage is below the window,” Muci told Lili.
 
 > “你不觉得很安静吗？”丽丽说。原本狭窄单一的过道显得更加像一个“死亡”陷阱。“这是无声的警告。我们不能蛮干，再想想。”
-“Doesn’t it strike you as too quiet?” Lili said. The narrow, featureless passage looked all the more like a “death” trap. “This is a warning without words. We can’t just bull ahead. Think it over again.”
+“Doesn’t it strike you as too quiet?” Lili said. The narrow, featureless passage looked all the more like a death trap. “This is a warning without words. We can’t just bull ahead. Think it over again.”
 
 > “我不需要你致思取径，我需要的是立竿见影。”慕次说完话，有目的地看了看辛丽丽胸前丘壑。
 “I don’t need you to map out a line of reasoning. What I need is a result you can see the instant you raise the pole,” Muci said, and then let his eyes travel, with deliberate intent, over the hills and hollows of Xin Lili’s chest.
@@ -73,7 +73,7 @@ The check done, Yang Muci crooked his elbow, forearm angled to the ground, finge
 “Want to trade for the hostage? Fine. Take off your clothes and walk over.”
 
 > “好。”辛丽丽答应得非常爽快，空气中仿佛有撕裂衣服的声音，紧接着，“噗”的一声，扮“敌人”的教官只觉眼前一花，胸口中弹。杨慕次指挥小组成员占领了整楼的制高点。人质被解救了，扮“人质”的是俞晓江教官。
-“All right.” Xin Lili agreed with brisk good cheer; there seemed to come through the air the sound of cloth being torn, and then, with a soft phut, the instructor playing the “enemy” saw only a blur before his eyes and took a round in the chest. Yang Muci directed his team in seizing the commanding heights of the whole building. The hostage was freed—the one playing the “hostage” was the instructor Yu Xiaojiang.
+“All right.” Xin Lili agreed with brisk good cheer; there seemed to come through the air the sound of cloth being torn, and then, with a soft phut, the instructor playing the enemy saw only a blur before his eyes and took a round in the chest. Yang Muci directed his team in seizing the commanding heights of the whole building. The hostage was freed—the one playing the hostage was the instructor Yu Xiaojiang.
 
 > “我带你们去指挥部。”俞晓江说。
 “I’ll take you to the command post,” said Yu Xiaojiang.
@@ -91,7 +91,7 @@ Yang Muci walked on without so much as turning his head.
 “If you want to win by surprise, you’ll do as I say. Otherwise you—”
 
 > 杨慕次回手就是一枪，击中俞晓江的“要害”。
-Yang Muci fired a shot back over his hand and caught Yu Xiaojiang in a “vital spot.”
+Yang Muci fired a shot back over his hand and caught Yu Xiaojiang in a vital spot.
 
 > “你疯了？”辛丽丽尖叫起来。“你把人质杀了，我们会被扣分的。”
 “Are you mad?” Xin Lili shrieked. “You’ve killed the hostage—they’ll dock us points.”
@@ -100,7 +100,7 @@ Yang Muci fired a shot back over his hand and caught Yu Xiaojiang in a “vital 
 “Why did you do that?” Yu Xiaojiang demanded of Muci.
 
 > “老师，您已经死了。死人应该没问题。”杨慕次冷静地又在俞晓江身上补了一枪。俞晓江没防备，意外地受到“弹壳”的冲击，滑倒在地。“走。”杨慕次带头从俞晓江身上跨了过去。
-“Teacher, you’re already dead. The dead shouldn’t be any trouble.” Coolly, Yang Muci put a second round into Yu Xiaojiang. Caught off guard, she took the jolt of the “casing” without warning and slid to the floor. “Move.” Yang Muci stepped over her body and led the way on.
+“Teacher, you’re already dead. The dead shouldn’t be any trouble.” Coolly, Yang Muci put a second round into Yu Xiaojiang. Caught off guard, she took the jolt of the casing without warning and slid to the floor. “Move.” Yang Muci stepped over her body and led the way on.
 
 > “你为什么要杀人质？她可以领我们走捷径。”辛丽丽追着慕次的步伐。慕次突然停住，又到了相互交叉的道口。
 “Why did you kill the hostage? She could have led us by a shortcut.” Xin Lili hurried to match Muci’s stride. Muci stopped short; they had come again to a crossing of the ways.
@@ -166,22 +166,22 @@ Muci gave Lili a glance and, feigning deep feeling, declared, “Then I, Yang Mu
 Muci, using the steel cable, went down the face of the wall, his limbs spreading open in the wind so that he came at the half-shut window in the attitude of flight. Bracing his feet at a slant against the wall, he peered inside, and he saw Du Luning. Yang Muci turned side-on and, laying his forefinger, middle finger, and ring finger out straight and side by side across his other arm, told his fellow trainees that the commander was right before them.
 
 > 杜旅宁就在这里，指挥着他的“部队”。
-Du Luning was here, directing his “troops.”
+Du Luning was here, directing his troops.
 
 > “豁出去了，干！”辛丽丽接近粗鲁地突然站起来，率小分队从楼顶往下冲。霎时间，小分队所有的火力都对准了“指挥部”的门。
-“Everything on the line—go!” Almost roughly, Xin Lili sprang up all at once and led the squad rushing down from the rooftop. In an instant every gun of the squad was trained on the door of the “command post.”
+“Everything on the line—go!” Almost roughly, Xin Lili sprang up all at once and led the squad rushing down from the rooftop. In an instant every gun of the squad was trained on the door of the command post.
 
 > 慕次“猛”地从窗子外扎进去，强大的冲击力席卷整个“指挥部”。满地碎玻璃溅出几丈远。
-Muci plunged in violently from outside the window, and the sheer force of his charge swept through the whole “command post.” Shattered glass sprayed across the floor for yards.
+Muci plunged in violently from outside the window, and the sheer force of his charge swept through the whole command post. Shattered glass sprayed across the floor for yards.
 
 > 中间没有任何过渡，没有半秒的迟疑，杨慕次连眨眼的工夫都没有留给杜旅宁。就在杜旅宁刚刚稳住身形的同时，慕次用枪托对准杜旅宁的脸，给予他强劲有力的一击。
 There was no transition of any kind, not half a second’s hesitation; Yang Muci did not leave Du Luning so much as the space of a blink. In the very moment Du Luning steadied himself, Muci brought the butt of his gun to bear on Du Luning’s face and dealt him one hard, powerful blow.
 
 > 众目睽睽之下，一个学员把一个“指挥官”打倒在地，在学校尚属首例。杜旅宁清晰地听到拉枪栓的机械声，但是，他根本动不了，爬不起来了。
-For a trainee to knock a “commander” to the ground before every watching eye was, at the school, the first case of its kind. Du Luning heard clearly the mechanical clack of a bolt being drawn, but he could not move at all, could not get back up.
+For a trainee to knock a commander to the ground before every watching eye was, at the school, the first case of its kind. Du Luning heard clearly the mechanical clack of a bolt being drawn, but he could not move at all, could not get back up.
 
 > 杜旅宁从来没有输过这种“规范”的演习，因为“医务所”不在军演范围内。所以，“指挥部”没有守军，更没有援军。只有少数几个“兵”在场，已经被破门而入的小分队打成了“筛子”。
-Du Luning had never once lost this “regulation” kind of exercise, because the “infirmary” lay outside the bounds of the war-game. And so the “command post” had no defending force, still less any relief; only a handful of “soldiers” were on hand, and the squad that had broken in through the door had already shot them into “sieves.”
+Du Luning had never once lost this regulation kind of exercise, because the infirmary lay outside the bounds of the war-game. And so the command post had no defending force, still less any relief; only a handful of soldiers were on hand, and the squad that had broken in through the door had already shot them into sieves.
 
 > 杨慕次赢了。
 Yang Muci had won.

@@ -8,6 +8,34 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
 
+## 2026-08-04 — Register pass R04 (ch16 to ch19)
+Fourth execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source line touched, no
+paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/. Book-wide notes 191 to 206.
+
+- ch16: 15 prose edits, all T4/T6 scare-quote de-cluttering in the mock final-exam
+  "live-combat exercise" scene (the example named in REGISTER_PASS): kept the
+  establishing "shot", "live-combat exercise", "wipe out", "enemy" and dropped the
+  quotes on the later pretense-word repetitions within the same scene (words
+  unchanged, only quote marks removed). 4 notes (雪泥鸿爪 Su Shi snow-goose; fabi
+  法币; comprador 买办; the Eight-Nation Alliance 八国联军 / 1900 sack of Peking).
+  Now 9.
+- ch17: 0 prose touches (dialogue confrontation and tea duel already in register;
+  its scare quotes mark genuine irony and stay). 7 notes (the Central Special
+  Branch 中央特科 / Teke, at first occurrence; the Special Higher Police 特高科;
+  the Hongmen 洪门; 红杏出墙 adultery idiom; 和敬清寂 the four tea principles;
+  关公巡城/韩信点兵 gongfu-tea pours; 拜码头/开香堂 sworn brotherhood). Now 13.
+- ch18: 0 prose touches (short abstract interior monologue). 2 notes (不孝有三无后
+  为大 Mencian filial-heir maxim + 香火 incense-fire; 吃斋还愿 fast-and-vow
+  retreat). Now 3.
+- ch19: 0 prose touches (ballroom and twin mix-ups already in register). 2 notes
+  (长兄如父 elder-brother hierarchy; 票戏 amateur opera + 国粹 national essence).
+  Now 5.
+- Checks: parity OK on all four (320/251/127/241); check_numbers 0 unresolved
+  (data/noise.txt unchanged); straight-quote guard clean; qa_epub PASS (206 notes,
+  all references = bodies = backlinks). EPUB rebuilt and delivered.
+
 ## 2026-08-04 — Register pass R03 (ch12 to ch15)
 Third execution batch of the register pass (REGISTER_PASS.md): style-only prose
 revision plus footnote densification. Content frozen; no source line touched, no
