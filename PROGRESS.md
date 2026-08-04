@@ -2954,3 +2954,140 @@ before writing).
   killed by Feng Dalun before Wen Ran/Cen Shen intervene; the three are then cornered
   by a Longwu ambush led by Chen Xuanli, Prince Yong, and the escaped Feng Dalun. No
   bridging text invented.
+
+## B24 = ch24 (第二十四章 巳初 / "The Hour of the Snake, First Half, 9 a.m.")
+
+Scope: the whole chapter, 18,618 source characters (21,169 incl. the time-gloss),
+351 body paragraphs. The FINAL narrative chapter. The gate-commander of the
+Yanxing Gate finds the swooning Son of Heaven at the lowering-frame and signals
+"The Son of Heaven is unharmed!" across the city; before the Yixiang Pavilion,
+Zhang Xiaojing, Wen Ran, and Cen Shen are cornered by a Longwu ambush under Chen
+Xuanli, Prince Yong, and the escaped Feng Dalun, until Yuan Zai arrives and, timing
+his turn to the "unharmed" signal, reverses the frame-up onto Feng Dalun. Li Bi,
+at the Pinglu resident-agent courtyard, gets Liu Luogu's account-ledger and traces
+the plot's paymaster through the 寄粜 ("consignment-sale") to the Shengping / Eastern
+Palace physic garden. Zhang Xiaojing and Li Bi race to the Yongchong-Xuanping
+crossroads; the dying Xiao Gui's clue (He Zhizhang's willow poem) points to the
+Director of the Jing'an Bureau, He Zhizhang — but the true mastermind proves to be
+his adopted son He Dong, who blows himself up in the He residence on the Leyou
+Plateau. The book ends with Zhang Xiaojing weeping the first tear of his nine years
+in Chang'an, over the whole hundred-and-eight-ward city. Ends （全文终） "The End."
+
+Deliverables shipped: out/ch24_bilingual.md (QC only, never ships),
+out/ch24_reading.md, data/zh/ch24.txt, scripts/gen_ch24_bilingual.py (the verbatim
+generator, 351 body paragraphs). Rebuilt out/The Longest Day in Chang'an.epub
+(24 of 26 chapters translated; ch01-ch24 content, ch25/ch26 skeleton; 82 notes).
+
+### Method
+- gen_ch24_bilingual.py reads the source lines from data/src/52_text00049.txt,
+  pairs each with the hand-authored English, MERGES the two extractor-split logical
+  paragraphs, and ASSERTS the concatenation of every '>' blockquote (+ the gloss)
+  equals the source content char-for-char before writing. Verbatim check OK: 21,169
+  source chars (L2-L356), 351 body paragraphs. Then split_bilingual.py generated the
+  reading text and the parity source.
+- Extractor splits this chapter (only two, both at the head):
+  * the OPENING VIGNETTE was split across THREE lines (L2/L3 end on commas, L4 on 。)
+    — merged into one paragraph. It recurs VERBATIM as a single line at L223; both
+    are rendered from one shared VIG constant (the "two little black specks" image).
+  * the DATELINE was split L5+L6, the tail being a single full-width period 。 (as in
+    ch23) — merged. No other split lines: a scan of L2-L355 for a non-terminal last
+    char returned only L1(heading)/L2/L4, all accounted for.
+- The content-marker heading line 巳初 (L1) is absorbed into the H2 title, as in
+  ch01-ch23. The location line 长安，万年县，延兴门。 (L7) is its own paragraph, as with
+  ch18/ch22/ch23. （全文终） (L355) is rendered "(The End)" as its own paragraph.
+
+### Checks run
+1. Verbatim quotation: PASS. Concatenation of all source blockquotes + the gloss
+   equals data/src content char-for-char (21,169 chars, L2-L356). The bilingual QC
+   file quotes the source, never re-typed.
+2. check_numbers.py --noise noise.txt: PASS, 352 pairs, 0 unresolved. noise.txt +2:
+   * 百思 — 百思不得其解 idiom ("think as he might"), the 百 not the count 100.
+   * 八千六百 — the mystery consignment payment 八千六百贯 = "eight thousand six hundred
+     strings"; like 二百八十五/一百五十/一百零八 the checker cannot reassemble 8600 from
+     the analytic English words, so it is noised while the VALUE is carried faithfully
+     in the English ("eight thousand six hundred strings"), appearing twice (L108/L111).
+   Real quantities carried in the English and verified by the checker: 三人 → "the three
+   of them" (L185, fixed the English to carry the 3); 一万贯/两千贯/八千贯 → ten/two/eight
+   thousand strings; 两贯/八贯/三十九贯 → two/eight/thirty-nine strings; 十座留后院 → "ten
+   resident-agent courtyards"; 第三所 → "the third courtyard"; 四坊/两坊 → four/two wards;
+   八个马蹄 → "eight horse-hooves"; 十二个时辰 → "twelve double-hours"; 九年/十年 → nine/ten
+   years; 百万之众 → "a million strong"; 五指 → "five fingers"; 四个门簪/四个坑 → four
+   door-studs / four pits; 三枚棋子 → "three chess-pieces"; 一百零八坊 → "a hundred and
+   eight wards." No WORD_NUM change needed.
+3. check_structure.py --pairs: PASS, parity EQUAL (source 352 | translation 352);
+   note anchors resolve; heading shape uniform.
+4. qa_epub.py: PASS — 38 files, 32 documents, all links resolve; 82 note refs / 82
+   bodies / 82 backlinks; 7,388 paragraphs across 26 documents.
+5. Blind double-translation (literary sample, L353, the closing city-panorama
+   "一百零八坊…永远会这样持续下去似的"): a fresh independent rendering matched the shipped
+   text in content and image; 0 divergences, 0 omissions.
+6. Round-trip back-translation (number-dense sample, L108 + L111, the account entry
+   and market rates): back-translation preserved every quantity — 8600贯, 两贯, 八贯,
+   三十九贯, 天宝二载/八月 — and the referents (寄粜人, 镔铁横刀, 弩机, 突厥敦马); 0 content
+   errors. Combined with the mechanical check_numbers pass this covers the chapter's
+   number-dense passages.
+   Sample deep-audit error rate: 0 content errors over the two samples (~5% of the
+   chapter given the paranoid treatment).
+
+### Notes (notes.json ch24, +3 -> 82 total)
+- "Ode to the Willow" — He Zhizhang's 咏柳 / 柳枝词, the willow-and-shears poem Xiao
+  Gui quotes as his coded name for the mastermind; cross-refs the He Zhizhang note
+  (ch02). First appearance of the poem.
+- "the great wind-sickness" — the Medicine King (Sun Simiao, ch01) 茵芋酒 yinyu-wine
+  prescription and 大风疾 (leprosy/the severe "wind" disorders); the irony of Li Bi's
+  poisoning method. First appearance.
+- "a wengzhong stone statue" — the 翁仲 colossal tomb-guardian stone figures (Ruan
+  Weng-zhong); the simile for the ash-faced, lifeless Li Bi. First appearance.
+  (Skipped as already-noted/already-appeared: He Zhizhang [ch02], An Lushan [ch16],
+  利高者疑 [ch22], Lai Junchen's 罗织经 [ch10], the self-raining pavilion [ch11], the
+  emperor's regalia 通天冠/六合靴 [appeared ch19, unnoted then], 猛火雷 fierce-fire
+  thunder [ch06], Sun Simiao/Medicine King [ch01], the Longchi [ch17].)
+
+### Glossary (glossary.json, +6 rows, each one rendering, decided before romanizing)
+- people: 刘骆谷 = Liu Luogu (the Pinglu resident-agent courtyard's capital manager,
+  An Lushan's confidant); 张守珪 = Zhang Shougui (attested; the general who adopted
+  An Lushan).
+- terms: 寄粜 = consignment-sale (the fund-laundering practice the text glosses;
+  寄粜人 = the consignment client); 太子宾客 = Guest of the Heir Apparent (He
+  Zhizhang's post, Hucker-style); 翰林 = Hanlin academician (Li Bi).
+- places: 柳京 = the Willow Capital (byname of Xuanping Ward, the willow quarter).
+  All decided renderings from ch01-ch23 reused verbatim (Zhang Xiaojing, Li Bi /
+  Deputy Director Li, Director He / He Zhizhang, He Dong, He Zeng, Zhang Luo, Chen
+  Xuanli, Prince Yong, Feng Dalun [recorder of the Forestry and Crafts Bureau; the
+  Bear Fire Gang], Yuan Zai [Gongfu], Wang Yunxiu, Wen Ran, Cen Shen, Tanqi, Aluoyue,
+  An Lushan, Lu San, Xiao Gui, the aphids, Taizhen, the Son of Heaven; 员外郎 =
+  vice-director, 主事 = recorder, 都尉 = Commander [张都尉 = Commander Zhang], 靖安都尉 =
+  Commander of the Jing'an Bureau, 靖安令 = the Director of the Jing'an Bureau, 靖安司丞 =
+  Deputy Director; the Yanxing/Qixia Gates, the Leyou Plateau, Shengping/Xuanping/
+  Xinchang/Shengdao/Yongchong/Anye Wards, the physic garden [of the Eastern Palace],
+  the Qinzheng Wuben Tower, the Star-Plucking Hall, the Taishang Xuanyuan Lantern-
+  Tower, the Yixiang Pavilion, the resident-agent courtyard, 节度使 = military
+  commissioner, 缒架 = the lowering-frame, 通天冠 = tongtian crown, 弹指 = finger-snap,
+  猛火雷 = fierce-fire thunder, 阙勒霍多 = Que-le Huo-duo, the hailing-salute).
+
+### Figures
+- None. No content illustration in data/figs/ for this chapter (only the source's
+  footnote-marker glyph Image00004.jpg and the scene-break rule Image00005.jpg,
+  neither a figure). figures.json unchanged.
+
+### Flagged for the read-through
+- HOUR: MATCHES. The chapter is nominally 巳初 (Snake, first half, 9 a.m.); its
+  in-body dateline is 巳初; and the source's time-gloss describes 巳/9 a.m. ("上午9点。
+  巳,又名日禺等…隅中…北京时间09时至11时"). Dateline, nominal hour, and gloss all agree
+  (contrast the ch10/ch11/ch20/ch22 mismatches). Rendered as the source's own italic
+  note with the standard prefix.
+- SOURCE VARIANT: L85 营山杂胡 for 营州杂胡. An Lushan's origin is the well-attested
+  营州 (Yingzhou, already in the glossary), and 张守珪's adopted son is historically a
+  营州杂胡; 营山 is an authorial slip/variant for 营州. Rendered with the DECIDED referent
+  ("a mongrel Hu of Yingzhou"), per house style for a mis-named established referent
+  (cf. ch13 春名门-for-春明门, ch09 远怀坊-for-怀远坊). Flagged, not silently "corrected."
+- The opening vignette is a flash-forward: the two-riders-converging image (L2-L4)
+  is fulfilled at L223, where Zhang Xiaojing and Li Bi actually meet at the Yongchong-
+  Xuanping crossroads. Rendered identically in both places (shared VIG constant), per
+  house style for a recurring vignette.
+- CLIMAX/RESOLUTION (no bridging text invented): the traitor 陆三 (ch23) was bought by
+  the 平卢留后院; the paymaster is 安禄山 (An Lushan, note ch16), but the TRUE mastermind
+  is 贺东 (He Dong), adopted son of 贺知章 (He Zhizhang / Director He), acting out of
+  filial devotion to his father's loyalty to the heir apparent. He Dong self-immolates
+  with a 猛火雷; the cover-up will scapegoat Feng Dalun. Li Bi confesses he poisoned the
+  comatose He Zhizhang (茵芋酒). The novel closes on Zhang Xiaojing's tear over Chang'an.

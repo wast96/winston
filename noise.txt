@@ -409,6 +409,16 @@
 # balanced 4- and 6-character couplets); the 四/六 are not the counts 4/6. English
 # renders "in balanced fours and sixes."
 骈四丽六
+# ch24: 百思 in 百思不得其解 = "think as he might, he could not puzzle it out"
+# (idiom, 百思 = "a hundred ponderings"); the 百 is not the count 100. English
+# renders "by no means puzzle out."
+百思
+# ch24: 八千六百 in 八千六百贯 = "eight thousand six hundred strings" (the mystery
+# consignment payment, real amount 8600). Like 二百八十五/一百五十/一百零八, the
+# checker cannot reassemble 8600 from the analytic English words ("eight thousand
+# six hundred"), so it is noised; the value IS carried faithfully in the English.
+# Appears twice (the found entry, and its recap in the market-rate paragraph).
+八千六百
 # ch23: 十一 in 十一个守捉城 = "eleven garrison-towns" (real count 11, rendered
 # "eleven"). LOAD-BEARING for ordering: it must strip in the --noise pass, because
 # the built-in measure rule 一[…个…] runs later and eats the 一 out of 十一个,

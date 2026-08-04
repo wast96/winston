@@ -793,6 +793,18 @@
       "pinyin": "Lù Sān",
       "status": "decided",
       "note": "The main-hall runner of the Jing'an Bureau and the traitor within; surnamed Lu (陆), third-born (行三), a man of Yuezhou, once a soldier, secretly an agent of the Shouzhuolang planted by the Pinglu resident-agent courtyard. 'San' renders 行三, 'the third.' ch23."
+    },
+    "刘骆谷": {
+      "en": "Liu Luogu",
+      "pinyin": "Liú Luògǔ",
+      "status": "decided",
+      "note": "The manager of the Pinglu resident-agent courtyard in the capital and a confidant of An Lushan's; thick-browed and soldierly, but smooth as a merchant. He gives Li Bi the master-ledger that traces the plot's paymaster to the Shengping physic garden. Pinyin. ch24."
+    },
+    "张守珪": {
+      "en": "Zhang Shougui",
+      "pinyin": "Zhāng Shǒuguī",
+      "status": "attested",
+      "note": "Zhang Shougui (684–740), Tang military commissioner of Youzhou/Pinglu on the northeastern frontier; the historical general who took the young An Lushan as his adopted son. Named only in passing. Historical; pinyin."
     }
   },
   "organizations": {
@@ -2237,6 +2249,12 @@
       "pinyin": "Hù Xiàn",
       "status": "attested",
       "note": "A county southwest of Chang'an (modern Huyi District, Xi'an), at the northern foot of the Qinling range. Pinyin."
+    },
+    "柳京": {
+      "en": "the Willow Capital",
+      "pinyin": "Liǔ Jīng",
+      "status": "decided",
+      "note": "A byname of Xuanping Ward on the Leyou Plateau, the willow-thickest quarter of Chang'an, where He Zhizhang's residence stood. Rendered literally. ch24."
     }
   },
   "terms": {
@@ -3643,6 +3661,24 @@
       "pinyin": "yúfú",
       "status": "decided",
       "note": "A Tang credential in the form of a bronze fish split into halves, matched to authenticate an official's or courier's identity and authority. Rendered 'fish-tally.'"
+    },
+    "寄粜": {
+      "en": "consignment-sale",
+      "pinyin": "jì tiào",
+      "status": "decided",
+      "note": "A term the text glosses: court officials laundered large, unavowable transactions by entrusting a rich merchant—later a military commissioner's resident-agent courtyard—to run the receipts and outlays through its own books, so that the true principal (the 寄粜人, the 'consignment client') stayed hidden. Literally 寄 'to consign' + 粜 'to sell grain.' Rendered 'consignment-sale.'"
+    },
+    "太子宾客": {
+      "en": "Guest of the Heir Apparent",
+      "pinyin": "Tàizǐ Bīnkè",
+      "status": "attested",
+      "note": "A senior honorary post attached to the household of the heir apparent (Hucker: Adviser to the Heir Apparent / 'Guest'); the office He Zhizhang held. Rendered by function."
+    },
+    "翰林": {
+      "en": "Hanlin academician",
+      "pinyin": "Hànlín",
+      "status": "attested",
+      "note": "A scholar of the Hanlin Academy (翰林院), the emperor's inner circle of literary and drafting talent; Li Bi serves the Eastern Palace as one. Kept in pinyin, 'Hanlin,' with 'academician.'"
     }
   }
 }
