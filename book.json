@@ -1,6 +1,6 @@
 {
   "_README": "Single source of the book's structure; the build is driven ENTIRELY by this file. Authored from book.draft.json (scripts/ingest_epub.py). The source EPUB splits every chapter into a numbered heading file (第X章) and a time-marker content file; each has been MERGED into one logical chapter here. Five pirate-site advertisement interstitials in the source spine ('读累了记得休息一会哦~') were DROPPED. Chapter ids start with 'ch'. A chapter is treated as translated once out/<id>_reading.md exists.",
-  "title_en": "The Longest Day in Chang'an",
+  "title_en": "The Longest Day in Chang’an",
   "title_zh": "长安十二时辰",
   "author_en": "Ma Boyong",
   "author_zh": "马伯庸",
@@ -10,7 +10,7 @@
   "uid": "urn:uuid:changan-12-shichen-en-annotated-1",
   "publisher": "Annotated English edition (translation project)",
   "translator": "",
-  "description": "Ma Boyong's historical thriller unfolds over twenty-four hours (the twelve double-hours of the traditional Chinese day) during the Lantern Festival of Tianbao 3 (744 CE) in the Tang capital of Chang'an. A death-row convict, Zhang Xiaojing, is given one day to uncover and stop a plot to burn the greatest city in the world. This is an annotated English translation with footnotes, a glossary, and a translator's apparatus.",
+  "description": "Ma Boyong’s historical thriller unfolds over twenty-four hours (the twelve double-hours of the traditional Chinese day) during the Lantern Festival of Tianbao 3 (744 CE) in the Tang capital of Chang’an. A death-row convict, Zhang Xiaojing, is given one day to uncover and stop a plot to burn the greatest city in the world. This is an annotated English translation with footnotes, a glossary, and a translator’s apparatus.",
   "subjects": [
     "Fiction / Historical / General",
     "Fiction / Thrillers / Historical",
@@ -31,9 +31,9 @@
   "cover": "Image00010.jpg",
   "_translator_note": "Rendered verbatim as the Translator's Note back-matter page.",
   "translator_note": [
-    "This is an English translation of <i>&#38271;&#23433;&#21313;&#20108;&#26102;&#36784;</i> (<i>The Longest Day in Chang'an</i>) by Ma Boyong, made from the digital source EPUB.",
+    "This is an English translation of <i>&#38271;&#23433;&#21313;&#20108;&#26102;&#36784;</i> (<i>The Longest Day in Chang’an</i>) by Ma Boyong, made from the digital source EPUB.",
     "The novel is built like a real-time thriller: its twenty-four chapters are the twenty-four half-<i>shichen</i> of one day, from the Snake hour of one morning around the clock to the Snake hour of the next. Each chapter heading names a traditional double-hour and its half; the English chapter titles gloss each one with its modern clock time so a reader can feel the countdown.",
-    "Notes are the translator's throughout, except where a note explicitly marks the author's own. Chinese personal and place names use pinyin, with conventional English forms kept where they exist. Genuinely ambiguous passages are footnoted, never smoothed over."
+    "Notes are the translator’s throughout, except where a note explicitly marks the author’s own. Chinese personal and place names use pinyin, with conventional English forms kept where they exist. Genuinely ambiguous passages are footnoted, never smoothed over."
   ],
   "_structure_note": "24 numbered chapters (each a half-shichen of the day) plus two authorial afterwords. No sub-sections: each source chapter body is a single continuous unit. 'src' is the content spine href; 'text_file' the extracted source text; 'chars' the source character count of the body.",
   "structure": [

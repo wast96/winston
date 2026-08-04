@@ -49,14 +49,18 @@ import sys
 
 
 def body_lines(path, skip_heads=True):
+    """Non-blank lines that count as paragraphs. Scene-break markers ('***'
+    alone on a line) are layout, not text, and are skipped; the set-off
+    prefixes {v}/{d}/{g}/{p} (vignette, dateline, hour-gloss, verse) are
+    stripped so the line text compares clean."""
     out = []
     for l in open(path):
         s = l.strip()
-        if not s:
+        if not s or s == '***':
             continue
         if skip_heads and s.startswith('#'):
             continue
-        out.append(s)
+        out.append(re.sub(r'^\{[vdgp]\} ', '', s))
     return out
 
 

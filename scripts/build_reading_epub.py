@@ -20,7 +20,15 @@ the substitution would eat them.
 
 Reading markdown per chapter uses: '## ' chapter title (h1), '### ' section
 (h2, given the section's book.json id), '#### ' subsection (h3); every other
-non-blank line is a paragraph.
+non-blank line is a paragraph, except for the set-off markers:
+
+  ***    on its own line: a scene break (the source's centered rule image),
+         rendered as a spaced-asterisk divider; not a paragraph for parity.
+  {v}    line prefix: the chapter-opening vignette (the source sets it in
+         kaiti type) -- italic, set off from the body.
+  {d}    line prefix: the chapter dateline/place line -- centered small caps.
+  {g}    line prefix: the source's own hour-note block at chapter end.
+  {p}    line prefix: verse -- indented, no first-line indent.
 
 Optional back matter (a colophon) is rendered when back_matter.json supplies one;
 translator's note text can be supplied via book.json's "translator_note" field.
@@ -43,7 +51,12 @@ BUILD = os.path.join(ROOT, "build")
 
 CSS = """\
 body { font-family: serif; line-height: 1.6; margin: 1em 1.2em; }
-h1 { font-size: 1.5em; margin: 1.4em 0 0.6em; font-weight: normal; }
+h1 { font-size: 1.5em; margin: 1.4em 0 1em; font-weight: normal; text-align: center; }
+p.scenebreak { text-indent: 0; text-align: center; margin: 1.5em 0; color: #777; }
+p.vignette { text-indent: 0; font-style: italic; color: #444; margin: 0 1.6em 0.85em; }
+p.dateline { text-indent: 0; text-align: center; font-variant: small-caps; letter-spacing: 0.06em; margin: 1.2em 0 0.3em; }
+p.hourgloss { text-indent: 0; font-size: 0.9em; color: #444; margin: 2.4em 0 0; padding-top: 0.9em; border-top: 1px solid #bbb; }
+p.verse { text-indent: 0; font-style: italic; margin: 0.2em 2.2em 0.85em; }
 h2 { font-size: 1.15em; margin: 1.6em 0 0.6em; font-weight: normal; color: #333; }
 h3 { font-size: 1.02em; margin: 1.4em 0 0.5em; font-weight: bold; color: #444; }
 p { margin: 0 0 0.85em; text-indent: 1.4em; }
@@ -239,6 +252,16 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
             continue
         if line.startswith("# "):
             continue
+        if line == "***":
+            out.append('<p class="scenebreak">*&#8195;*&#8195;*</p>')
+            first = True
+            continue
+        special = None
+        m = re.match(r"^\{([vdgp])\} ", line)
+        if m:
+            special = {"v": "vignette", "d": "dateline",
+                       "g": "hourgloss", "p": "verse"}[m.group(1)]
+            line = line[4:]
         for fig in figures:
             if not fig.get("placed") and fig["before"] in line[:80]:
                 out.append(
@@ -248,6 +271,10 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
                 fig["placed"] = True
         text = insert_notes(esc(line), notes, counter, doc)
         text = re.sub(r"\*([^*\n]+)\*", r"<i>\1</i>", text)
+        if special:
+            out.append('<p class="%s">%s</p>' % (special, text))
+            first = True
+            continue
         cls = ' class="first"' if first else ""
         out.append("<p%s>%s</p>" % (cls, text))
         first = False
@@ -257,8 +284,9 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
 def render_notes_page(chapters, notes_by_chap):
     parts = ['<h1>Notes</h1>',
              '<p class="note">Each number links back to its place in the '
-             'text. Notes are the translator\'s throughout; the source book '
-             'carries none of its own.</p>']
+             'text. Notes are the translator\'s throughout; the source\'s own '
+             'per-chapter hour-notes are rendered in the text, in the marked '
+             'block at each chapter\'s end.</p>']
     any_used = False
     for chap in chapters:
         used = sorted([n for n in notes_by_chap.get(chap["id"], [])
@@ -294,6 +322,7 @@ def render_contents(structure, translated, ids_present=None):
     time links only its finished sections and shows the rest as pending text
     (never a link to an anchor that does not exist, which qa_epub rejects)."""
     ids_present = ids_present or {}
+    all_done = all(c["id"] in translated for c in structure)
     n_ch = len(structure)
     n_sec = sum(len(c.get("sections", [])) for c in structure)
     n_sub = sum(len(s.get("subsections", [])) for c in structure
@@ -303,12 +332,14 @@ def render_contents(structure, translated, ids_present=None):
     tally = ("%s%d chapters, %d sections"
              % ("%d parts, " % n_parts if n_parts else "", n_ch, n_sec)
              + (", %d subsections" % n_sub if n_sub else ""))
-    parts = ['<h1>Contents</h1>',
+    parts = ['<h1>Contents</h1>']
+    if not all_done:
+        parts.append(
              '<p class="note">The complete book: %s. Every entry links to its '
              'place; units not yet translated link to a skeleton outline showing '
              'their source size, so the whole shape of the book is navigable '
-             'from the start.</p>' % tally,
-             '<ol class="contents">']
+             'from the start.</p>' % tally)
+    parts.append('<ol class="contents">')
     for part_label, chaps in groups:
         if part_label:
             parts.append('<li class="part">%s</li>' % esc(part_label))
@@ -319,7 +350,7 @@ def render_contents(structure, translated, ids_present=None):
             mark = "" if done else ' <span class="pending">&#183; pending</span>'
             parts.append('<li class="chap"><a href="%s.xhtml">%s</a>%s%s</li>'
                          % (cid, esc(chap["title_en"]),
-                            _span_suffix(chap), mark))
+                            "" if all_done else _span_suffix(chap), mark))
             if not chap.get("sections"):
                 continue
             parts.append('<ol>')
