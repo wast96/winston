@@ -696,6 +696,18 @@
       "pinyin": "Zhuge Liang",
       "status": "attested",
       "note": "Statesman and strategist of Shu-Han (181–234), the archetypal wise counsellor of the Romance of the Three Kingdoms; here invoked for his “Empty City Stratagem.”"
+    },
+    "拿破仑": {
+      "en": "Napoleon",
+      "pinyin": "Napolun",
+      "status": "attested",
+      "note": "拿破仑; Napoleon Bonaparte (1769–1821). Wang Hefu jokes that Old Zhao wants to be Napoleon — win his battle first and only then present his terms."
+    },
+    "曹操": {
+      "en": "Cao Cao",
+      "pinyin": "Cao Cao",
+      "status": "attested",
+      "note": "曹操 (155–220); the warlord of the late Han and founder of the Wei power, the archetypal schemer of the Romance of the Three Kingdoms. Here in the proverb ‘talk of Cao Cao and Cao Cao arrives.’ See the note at ‘Cao Cao arrives.’"
     }
   },
   "organizations": {
@@ -974,6 +986,12 @@
       "pinyin": "Hongyun Lou",
       "status": "decided",
       "note": "A restaurant; Zhou Zhongwei offers a feast there as a joke."
+    },
+    "中国烟草公司": {
+      "en": "the China Tobacco Company",
+      "pinyin": "Zhongguo yancao gongsi",
+      "status": "decided",
+      "note": "中国烟草公司; a large Chinese-owned cigarette manufacturer named as the oldest brand and largest in capital, closing its Shanghai factory in the slump."
     }
   },
   "places": {
@@ -1606,6 +1624,42 @@
       "pinyin": "Jiaoji lu",
       "status": "attested",
       "note": "胶济路; the Qingdao–Jinan railway across Shandong (胶 Jiaozhou to 济 Jinan), the line the Central Army still holds after giving up Jinan."
+    },
+    "高桥": {
+      "en": "Gaoqiao",
+      "pinyin": "Gaoqiao",
+      "status": "attested",
+      "note": "高桥沙; the sandy flats and shoal on the Pudong bank near the mouth of the Huangpu, past which the pleasure-launch heads out toward Woosung."
+    },
+    "吴淞口": {
+      "en": "the Woosung mouth",
+      "pinyin": "Wusongkou",
+      "status": "attested",
+      "note": "吴淞口; the mouth of the Huangpu where it meets the Yangtze estuary, the seaward gate of Shanghai; older English Woosung."
+    },
+    "铜人码头": {
+      "en": "the Bronze-Man Wharf",
+      "pinyin": "Tongren matou",
+      "status": "provisional",
+      "note": "铜人码头; a wharf on the Shanghai waterfront where the party goes ashore."
+    },
+    "玉佛寺": {
+      "en": "the Jade Buddha Temple",
+      "pinyin": "Yufo Si",
+      "status": "attested",
+      "note": "玉佛寺; the well-known Buddhist temple in the west of Shanghai, housing two jade Buddha images; here the site of old Mr. Wu’s funeral rites."
+    },
+    "镇扬": {
+      "en": "Zhenjiang and Yangzhou",
+      "pinyin": "Zhen-Yang",
+      "status": "attested",
+      "note": "镇扬; Zhenjiang and Yangzhou, the two Yangtze cities whose ferry-line (镇扬班) the newly built launch belongs to."
+    },
+    "九十四号": {
+      "en": "Number Ninety-Four",
+      "pinyin": "Jiushisi hao",
+      "status": "decided",
+      "note": "九十四号; ‘Number Ninety-Four,’ a notorious secret brothel named only by its house number."
     }
   },
   "terms": {

@@ -267,3 +267,14 @@
 # 二百五 colloquial "250" = a simpleton/half-wit; the parser misreads it as 205 (two-
 # hundred-five), so strip the slang form but NOT the real quantity 二百五十 (=250) (ch16)
 二百五(?!十)
+# --- Chapter Seventeen additions ---
+# 牌九 pai-gow, the domino gambling game (推过牌九); 九 is part of the game's name,
+# not the count 9 (九十四号 "Number Ninety-Four" = 94 is accounted separately) (ch17)
+牌九
+# 二百五十万 = 2,500,000 (the syndicate's priority to lend a further two and a half
+# million); the checker cannot sum a compound hundred-myriad; rendered "two and a
+# half million" (ch17). NOTE: the ch16 二百五(?!十) rule does not fire here (followed by 十)
+二百五十万
+# 五十二万 = 520,000 (the floor price held for the eight factories); the checker cannot
+# sum a compound ten-myriad; rendered "five hundred and twenty thousand" (ch17)
+五十二万

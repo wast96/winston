@@ -1331,3 +1331,55 @@ Tändsticks AB; 托辣斯 = "trust"; the empire fell in 1932); 92 花旗人/茄�
 Flowery-Flag man (American) / a German, the old Chinese names; 93 开门七件事, the seven
 daily household necessities; 94 二百五 as slang for a half-wit, on which the salary
 gibe turns. All six anchors verified verbatim in out/ch16_reading.md before building.
+
+## Batch B17 — Chapter Seventeen (ch17)
+
+Source: data/src/20_part0018.txt (13,863 chars), src Text/part0018.xhtml. Translated
+end to end into out/ch17_reading.md via the aligned bilingual QC file
+out/ch17_bilingual.md (215 source paragraphs, one English paragraph each; the pre-zip
+parity assertion held at 215/215 before writing). NO source notes in this chapter;
+source_notes.json remains frozen.
+
+Checks run and results:
+- Faithful/complete quotation: bilingual zipped English-per-line against the verbatim
+  source body (title 十七 dropped); assertion 215 == 215 passed before writing;
+  alignment spot-checked at indices 0/1/3/11/56/113/178/214.
+- check_numbers.py (--noise data/noise_zh.txt): 215 pairs, 0 unresolved. Three initial
+  flags were all non-quantities or uncomputable compounds and were noised (ch17 block):
+  牌九 pai-gow (九 part of the game's name; 九十四号 = 94 accounted separately);
+  二百五十万 = 2,500,000 (checker cannot sum a compound hundred-myriad; rendered "two and
+  a half million"); 五十二万 = 520,000 (compound ten-myriad; rendered "five hundred and
+  twenty thousand"). Number habits honoured: 三十万 casualties = "three hundred thousand",
+  三百万 mobilized = "three million", 四十多万 shortfall = "four hundred thousand and more",
+  五十万 = "five hundred thousand", 六十万 = "six hundred thousand", 三千 per 万 = "three
+  thousand for every ten thousand".
+- check_structure.py --pairs: parity ch17 source 215 | translation 215 OK.
+- Builder anchor check: all six ch17 translator anchors verified verbatim in
+  out/ch17_reading.md before building; qa_epub.py PASS (32 files, 26 documents, 100
+  notes: 100 references / 100 bodies / 100 backlinks, all links resolve).
+- epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings.
+
+### Translator notes (builder-numbered 95-100, in reading order)
+
+95 天字第一号 "the very best under heaven" (Thousand-Character-Classic filing order,
+天 first); 96 王母娘娘 the Queen Mother of the West (Xiwangmu; the pun on Wang Hefu's
+surname 王); 97 上有天堂，下有苏杭 "above there is paradise, below Suzhou and Hangzhou";
+98 说曹操曹操到 "talk of Cao Cao and Cao Cao arrives" (Cao Cao, 155-220); 99 拜皇忏 the
+Imperial Litany (梁皇宝忏, Emperor Wu of Liang); 100 三山五岳 the Three Mountains and the
+Five Peaks (every quarter of the land / the greenwood world).
+
+### Glossary rows added (one rendering per referent)
+
+people: Napoleon (拿破仑, attested), Cao Cao (曹操, attested). organizations: the China
+Tobacco Company (中国烟草公司, decided). places: Gaoqiao (高桥, attested), the Woosung
+mouth (吴淞口, attested), the Bronze-Man Wharf (铜人码头, provisional), the Jade Buddha
+Temple (玉佛寺, attested), Zhenjiang and Yangzhou (镇扬, attested), Number Ninety-Four
+(九十四号, decided). Reused fixed renderings already in glossary.json for the launch
+party and the Zhao Botao / Yizhong cast: Wu Sunfu, Sun Jiren, Wang Hefu, Han Mengxiang,
+Xu Manli, Zhao Botao, Li Yuting, Shang Zhongli, Du Zhuzhai, Zhu Yinqiu, Lawyer Qiu,
+Lu Kuangshi, Huang Fen, Tang Yunshan, Liu Yuying, Fan Bowen, Staff Officer Lei Ming,
+Huifang (the Fourth Young Lady), Ah Xuan, Lin Peishan, Du Xintuo, Gaosheng, the young
+mistress, the Yizhong (Trust) Company, the Chinese Securities Exchange, the exchange,
+government bonds, the Customs/Disbandment/Reorganization bonds, trust, banking
+syndicate, mortgage-loan, broker, bull, native bank, the Huangpu, Hankou, Changsha,
+Ji'an, Hunan, Jiangxi, Xuzhou, Zhenjiang, Ningbo, Nanjing.
