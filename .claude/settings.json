@@ -9,5 +9,19 @@
       "mcp__Claude_Code_Remote__fire_trigger",
       "mcp__github__get_file_contents"
     ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PROJECT_DIR:-.}/scripts/check_kickoff_pasted.py\"",
+            "timeout": 20,
+            "statusMessage": "Checking the next-batch kickoff message was pasted"
+          }
+        ]
+      }
+    ]
   }
 }

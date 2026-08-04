@@ -266,6 +266,14 @@ verbatim at the end of your chat reply too. On the LAST batch, the message says
 to do any back matter and a whole-book QA pass and write a completion report
 instead of another handoff.
 
+> **Enforced.** A `Stop` hook (`scripts/check_kickoff_pasted.py`, wired in
+> `.claude/settings.json`) blocks the turn from ending after any commit that
+> touches `HANDOFF.md` unless the kickoff block's first AND last lines both
+> appear verbatim in your final chat reply. If you get blocked with that
+> message, you forgot to paste the block: paste it verbatim from HANDOFF.md and
+> end again. A casual mention of the batch name is not enough; the whole fenced
+> block must be in the reply.
+
 **Chat naming convention (commissioner's request).** Each batch runs in its own
 chat, and every chat is named `Chang'an B<batch number>`: Batch 5 is
 `Chang'an B5`, Batch 6 is `Chang'an B6`, and so on for every batch after. The
