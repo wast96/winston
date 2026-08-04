@@ -781,6 +781,12 @@
       "pinyin": "Gāozǔ",
       "status": "attested",
       "note": "Li Yuan (566–635), founding emperor of the Tang. Rendered by temple name, as with Taizong/Gaozong already in the glossary."
+    },
+    "赫连勃勃": {
+      "en": "Helian Bobo",
+      "pinyin": "Hèlián Bóbó",
+      "status": "attested",
+      "note": "Xiongnu founder (r. 407&#8211;425) of the Xia kingdom of the Sixteen Kingdoms period; builder of the fortress-capital Tongwan, cited here for the legendary hardness of its rammed-earth walls. Pinyin. (Noted at ch22.)"
     }
   },
   "organizations": {
@@ -987,6 +993,24 @@
       "pinyin": "Xīyù Dūhùfǔ",
       "status": "decided",
       "note": "The frontier protectorate-general under which the Eighth Company served (cf. the Protectorate of Anxi, 安西都护府). ch20."
+    },
+    "南衙": {
+      "en": "the Southern Command",
+      "pinyin": "Nányá",
+      "status": "attested",
+      "note": "The Southern Command: the metropolitan guard forces under the civil government (their offices lying south of the palace), as opposed to the Northern Command's palace guards. Hucker-style rendering."
+    },
+    "北衙": {
+      "en": "the Northern Command",
+      "pinyin": "Běiyá",
+      "status": "attested",
+      "note": "The Northern Command: the emperor's own palace guard armies (Longwu, Yulin, and the rest, quartered north of the palace), as opposed to the Southern Command. Hucker-style rendering."
+    },
+    "大理司": {
+      "en": "the Court of Judicial Review",
+      "pinyin": "Dàlǐ Sī",
+      "status": "decided",
+      "note": "A source variant for 大理寺 (the Court of Judicial Review), the high court; Yuan Zai is its 评事 (Evaluator). Rendered with the decided form for 大理寺."
     }
   },
   "places": {
@@ -2165,6 +2189,18 @@
       "pinyin": "Zhēnshùn Wǔ Huánghòu miào",
       "status": "decided",
       "note": "The shrine to Consort Wu in Anye Ward, the ward's most famous building."
+    },
+    "统万城": {
+      "en": "Tongwan City",
+      "pinyin": "Tǒngwàn Chéng",
+      "status": "attested",
+      "note": "Helian Bobo's Xia capital (built from 413) on the Ordos steppe; a byword for indestructibly hard rammed-earth walls, to which the outer rampart of Chang'an is compared. Pinyin + &#8216;City&#8217;."
+    },
+    "兴化坊": {
+      "en": "Xinghua Ward",
+      "pinyin": "Xīnghuà Fāng",
+      "status": "decided",
+      "note": "A residential ward southeast of Guangde Ward, holding two watchtowers set catty-corner; where the runner-traitor ambushes Yao Runeng. Pinyin + &#8216;Ward&#8217; (as the other 坊)."
     }
   },
   "terms": {
@@ -3493,6 +3529,36 @@
       "pinyin": "Yāofēng gé",
       "status": "decided",
       "note": "A source variant of 邀风堂 (the Wind-Wooing Hall), the open third floor of the Qinzheng Wuben Tower; rendered with the same decided form."
+    },
+    "巽位": {
+      "en": "the Xun position",
+      "pinyin": "xùn wèi",
+      "status": "decided",
+      "note": "In the watchtower grid, the country around the great watchtower is divided into eight sectors named for the Eight Trigrams; the Xun (巽) trigram lies to the southeast. Pinyin for the trigram + &#8216;position&#8217;."
+    },
+    "中元节": {
+      "en": "the Ghost Festival",
+      "pinyin": "Zhōngyuán Jié",
+      "status": "attested",
+      "note": "The fifteenth of the seventh lunar month, when the dead are honored and lanterns floated for them; here the source notes that its custom of water-lanterns for the departed has been carried over into the Lantern Festival (上元节). Conventional English name."
+    },
+    "祖道庙": {
+      "en": "the roadside shrine of the god of journeys",
+      "pinyin": "zǔdào miào",
+      "status": "decided",
+      "note": "A small shrine to the god of roads, standing on the highway outside the city gates, where travelers and those seeing them off made an offering for a safe journey (the rite of 祖). Descriptive rendering; the custom is footnoted at ch22."
+    },
+    "风脚野驼": {
+      "en": "wind-footed wild camel",
+      "pinyin": "fēngjiǎo yětuó",
+      "status": "decided",
+      "note": "Aluoyue's dreamed-of camel breed, prized for swiftness (&#8216;wind-footed&#8217;). Literal rendering."
+    },
+    "水灯": {
+      "en": "water-lantern",
+      "pinyin": "shuǐdēng",
+      "status": "decided",
+      "note": "A small float&#8212;a board or sheet of oiled paper bearing a candle&#8212;set adrift (here, on the frozen moat) to ferry the dead; a Ghost-Festival custom carried into the Lantern Festival. Literal rendering."
     }
   }
 }

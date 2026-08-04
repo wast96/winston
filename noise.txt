@@ -386,3 +386,18 @@
 # quantity (cf. 四个字/六个字 handling); English renders the line naturally without
 # forcing "three."
 三个字
+# ch22: 统万 in 统万城 = Tongwan City (Helian Bobo's Xia capital); the 万 is part of
+# the place-name, not the quantity 10000. English keeps "Tongwan City" (footnoted).
+统万
+# ch22: 万一 = "in the event / if by chance" (idiom), never the quantity 10000. This
+# entry is LOAD-BEARING for ordering: it must strip in the --noise pass, because the
+# built-in measure-word rules 一[…张…] / 一[…天…] run later and eat the 一 out of
+# 万一张/万一天, orphaning a bare 万 read as 10000 (the B22 trap). English renders it
+# "if by chance" / "should ... happen", no digit.
+万一
+# ch22: 千辛万苦 = "a thousand toils and hardships" (idiom); 千 rendered "a thousand,"
+# 万 idiomatic ("countless"), not 1000/10000. Strip so the orphaned 万 does not flag.
+千辛万苦
+# ch22: 四出 in 精骑四出 = "sallying out on every side" (all-directions 四X idiom, cf.
+# 四散/四下/四外 already listed but with 出); the 四 is not the count 4.
+四出

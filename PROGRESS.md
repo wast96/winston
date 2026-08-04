@@ -2672,3 +2672,140 @@ every '>' blockquote equals the source content char-for-char before writing).
   together off the eastern wall wrapped in the signal-flag "just as in years gone
   by," as the first dawn breaks and the curfew drums sound. No bridging text
   invented; the single flagged ambiguity is the 邀风阁/邀风堂 variant (above).
+
+## B22 = ch22 (第二十二章 辰初 / "The Hour of the Dragon, First Half, 7 a.m.")
+
+Scope: the whole chapter, 14,446 source characters (book.json); 16,401 source
+chars incl. the time-gloss (concat of L2-L272), 269 body paragraphs. Built the
+bilingual with the verbatim-guaranteed generator scripts/gen_ch22_bilingual.py
+(reads the source lines from data/src/48_text00045.txt, pairs each with
+hand-authored English, merges the extractor-split dateline halves, and asserts
+the concatenation of every '>' blockquote equals the source content
+char-for-char before writing).
+
+### Source structure handled
+- Opening flash-forward vignette: L2 and L3, TWO separate paragraphs (each ends
+  in 。). The pair RECURS verbatim at the head of L161 (看着张小敬左右为难的窘境，
+  萧规十分享受。他努力把身子挪过去… = L2 + L3 concatenated, then continues); both
+  occurrences translated identically (the VIG_A/VIG_B constants re-used in L161).
+- Dateline L4+L5 extractor-split MERGED into one pair. NOTE the split here is
+  unusual: L4 = 天宝三载元月十五日，辰初 and L5 = the two full-width periods 。。
+  (not a single 。 as in ch21) — merged to 天宝三载元月十五日，辰初。。 and quoted
+  verbatim. L1 content-marker heading 辰初 absorbed into the H2 title. Location
+  line L6 (长安，长安县，安业坊。) its own paragraph (note: 长安县, not 万年县).
+- Time-gloss L272 rendered as the source's own italic note, prefixed
+  "*[The source appends a note on the hour to each chapter:]*". Trailing L273
+  (U+200B) dropped.
+- Only ONE extractor-split in the whole chapter (the dateline); a scan confirmed
+  every other source line ends in a terminal glyph. Multi-line dialogue stayed as
+  separate pairs.
+- Scene breaks (house style, no glyph): the chapter braids four threads — (a) Li
+  Bi's confrontation with Li Linfu at the Self-Raining Pavilion (L7-L45, resumed
+  L212-L235); (b) Yao Runeng restarting the watchtowers and being used as bait to
+  draw out the traitor (L46-L93, resumed in the sewer chase L236-L254); (c) the
+  moat/water-lantern rescue of Zhang Xiaojing and Xiao Gui, Aluoyue, and Xiao
+  Gui's death (L94-L162, resumed L255-L271); (d) Tanqi taking Yuan Zai hostage
+  and their bargain (L163-L211). Each shift is a plain paragraph break.
+
+### HOUR MISMATCH (flagged, not "corrected")
+- This chapter is nominally 辰初 (Dragon, first half, 7 a.m.) and its in-body
+  dateline is 辰初. But the time-gloss L272 reads "凌晨5点。卯,又名日始、破晓、旭日
+  等…（北京时间05时至07时）" — i.e. it describes the 卯/Rabbit hour (5 a.m.,
+  Beijing 05:00-07:00), the SAME gloss ch21 (卯正) carried. So the ch22 gloss does
+  NOT match its nominal hour 辰初; it repeats the previous chapter's 卯 gloss. This
+  is a source-side gloss/hour mismatch (like the ch10/ch11 mismatches), NOT a
+  flashback (contrast ch20). Rendered faithfully ("Five o'clock in the early
+  morning. Mao, also called…"); the discrepancy is the author/editor's, left
+  visible per rule 4.
+
+### Checks run
+- Verbatim quotation: generator asserts concat of every '>' blockquote + the
+  time-gloss == source content char-for-char (16,401 chars, L2-L272). PASS.
+- check_structure.py --pairs: parity 270/270 EQUAL. PASS.
+- check_numbers.py --noise noise.txt: 270 pairs, 0 unresolved. PASS.
+- qa_epub.py on the rebuilt cumulative EPUB: PASS (38 files, 32 documents, all
+  links resolve; 76 note references / 76 bodies / 76 backlinks).
+- Blind double-translation (literary sample, L148-L152: Xiao Gui's "whom are you
+  protecting" speech, the "ten years / nine years" line, the Eighth Company
+  salute): re-rendered cold in a separate context and diffed — no divergence of
+  meaning; 官吏/永王/朝廷, 十年西域兵/九年长安帅 (10/9), 第八团/九死无悔 all faithful.
+  0 content errors (only stylistic: "captain" vs the decided "chief" for 帅).
+- Round-trip back-translation (number-dense sample, L94/L95/L215/L228): back-
+  rendered to Chinese in a separate context and diffed against source — 四丈 (4),
+  两次 (2), 十二座城门 (12), 三丈 (3), 二丈 (2), 广通/永安/龙首三大渠 (3), 一丈多,
+  开元二十年 (20), 近十年 (10), 十倍 (10) ALL survive. 0 omissions.
+- Sample error rate over the audited ~4% (L94-L95, L148-L152, L215, L228, plus
+  the dateline and time-gloss): 0 errors.
+
+### Numbers (check_numbers) — what was carried, what was noised
+- Carried as real quantities (English fixed to hold the value): 四丈→"four zhang"
+  (4), 两次→"twice" (2), 十二座城门→"twelve gates" (12), 三丈/二丈→"three/two zhang"
+  (3/2), 三大渠→"three great canals" (3), 五下→"Five reports" (5), 十几下→"ten-odd
+  thrashings" (10), 十几名→"ten-odd" (10), 两百步→"two hundred paces" (200), 六层/
+  七楼→"sixth/seventh floor" (6/7), 八个区域/八卦→"eight regions"/"Eight Trigrams"
+  (8), 二楼/第二楼→"the second tower" (2), 十年/九年→"ten/nine years" (10/9),
+  九死→"nine deaths" (9), 三魂七魄→"three souls and seven spirits" (3/7), 五脏六腑→
+  the idiom, 碎尸万段→"ten thousand pieces" (10000), 开元二十年→"twentieth year of
+  Kaiyuan" (20, via WORD_NUM "twentieth"), 近十年→"close upon ten years" (10),
+  十倍→"ten times" (10), 十二/十指→"ten fingers" (10).
+- noise.txt extended by 4 entries (all NON-quantity), recorded on their own
+  comment lines: 统万 (统万城 = Tongwan City, place-name 万); 万一 ("in the event,"
+  idiom — LOAD-BEARING: it must strip in the --noise pass because the built-in
+  measure rules 一[…张…]/一[…天…] run later and eat the 一 out of 万一张/万一天,
+  orphaning a bare 万=10000, the B22 trap); 千辛万苦 ("a thousand toils," idiom);
+  四出 (精骑四出 = "out on every side," an all-directions 四X idiom). No WORD_NUM
+  change needed (twentieth:20 already present).
+
+### Notes added (3; total now 76)
+- 统万城/赫连勃勃 (anchor "Tongwan City that Helian Bobo had raised in his day"):
+  Helian Bobo's Xia capital and its legendarily hard rammed-earth walls (the
+  awl-test). First appearance in the book. Corroborated by the standard histories.
+- 祖道 (anchor "roadside shrine of the god of journeys"): the ancient rite of
+  sacrificing to the god of roads before a journey, and the roadside shrines to it.
+- 利高者疑 (anchor "He who profits most is suspect"): the investigative maxim (the
+  Chinese cui bono) on which Li Linfu turns Li Bi's reasoning back onto the heir
+  apparent.
+- SKIPPED as already-appeared: 口蜜腹剑 ("honey on the lips, a sword in the belly,"
+  Li Linfu's epithet) first appears at ch09, so not re-noted here per the
+  first-appearance rule.
+
+### Glossary grown (11 rows)
+- People: 赫连勃勃/Helian Bobo. Places: 统万城/Tongwan City, 兴化坊/Xinghua Ward.
+  Orgs: 南衙/the Southern Command, 北衙/the Northern Command, 大理司/the Court of
+  Judicial Review (source variant of 大理寺, rendered with the decided form). Terms:
+  巽位/the Xun position, 中元节/the Ghost Festival, 祖道庙/the roadside shrine of the
+  god of journeys, 风脚野驼/wind-footed wild camel, 水灯/water-lantern.
+- Reused all decided renderings: Zhang Xiaojing (张大头 = Zhang Big-Head; 张帅 =
+  "Chief Zhang" as the townsfolk hail him, per ch06; 张阎罗 = Zhang the Yama; 不良帅
+  = buliang chief; 靖安都尉 = Commander of the Jing'an Bureau), Xiao Gui, Li Bi
+  (长源 Changyuan) / Deputy Director Li, Li Linfu = the Right Minister / 中书令 = the
+  Secretariat Director, Yao Runeng, Tanqi, Yuan Zai (= Evaluator of the Court of
+  Judicial Review), Adjutant Zhao, Aluoyue (established ch06), 登徒子 = "the lecher,"
+  the Son of Heaven / the Sage, Taizhen, Chen Xuanli, Wen Wuji, Prince Yong, the
+  Pifu/aphids, the runner (通传, incl. the traitor), the Jing'an Bureau, the Lüben
+  Guards, the Longwu/Yulin/Left-Right Xiao Guard/Left-Right Qianniu Guard, the
+  great watchtower, the Qinzheng Wuben Tower, the Self-Raining Pavilion, the
+  Longchi, the Xingqing Palace, the Chunming Gate (source 春名门 for 春明门, the
+  known slip), the Yanxing Gate, the Guangtong/Yong'an/Longshou Canals, Anye/
+  Guangde/Zhiye/Wannian, the Eighth Company, the beacon-fort (source 烽燧堡 for the
+  decided 烽燧城), the Que-le Huo-duo, the Eastern Palace / heir apparent (Li Heng),
+  the tower within the tower, zhang/li/chi, the Lantern Festival.
+
+### Figures
+- None. No content illustration in data/figs/ for this chapter (only the source's
+  footnote-marker glyph Image00004.jpg and the scene-break rule Image00005.jpg,
+  neither a figure). figures.json unchanged.
+
+### Flagged for the read-through
+- HOUR-GLOSS MISMATCH (above): ch22's gloss describes 卯/5 a.m., not its nominal
+  辰初/7 a.m. — the source repeats ch21's 卯 gloss. Left visible.
+- Two established referents appear under source variant forms and are rendered with
+  their decided renderings: 烽燧堡 (堡) for the decided 烽燧城 = "the beacon-fort";
+  春名门 for 春明门 = "the Chunming Gate" (the known recurring slip). Not "corrected"
+  in the source quotation.
+- The traitor within the Jing'an Bureau is revealed to be 通传, "the runner" (the
+  message-relay man introduced back in ch01); rendered "the runner" throughout, per
+  the ch01+ decided common-noun rendering. Xiao Gui dies in the roadside shrine
+  after whispering a last secret to Zhang; Li Bi is left, with the truth reversed
+  onto the heir apparent, unable to decide between the truth and his promise to the
+  Eastern Palace. No bridging text invented.
