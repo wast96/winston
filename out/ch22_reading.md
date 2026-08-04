@@ -164,11 +164,11 @@ Ronghua picked up the handbag she had made ready long before and prepared to set
 
 She resolved that, come what may, she would wait for A-Ci’s call. She had to wait.
 
-Meanwhile.
+*Meanwhile.*
 
 The General Staff sent a man to see Xiong Zida. Xiong Zida drew the visitor inside and shut the inner door. Yang Muci came in to make tea for the two of them. He poured two cups of Longjing and carried them into the inner room.
 
-About four forty-five.
+*About four forty-five.*
 
 Yang Muci came out of the inner room and found that the “death button” he had “left behind” was, of all places, sitting on the windowsill of his own office. Adjutant Liu lolled asleep on the sofa.
 
@@ -176,7 +176,7 @@ The orderly, Little Wu, had just finished cleaning the office.
 
 Yang Muci watched Little Wu pass out of his sight, then turned and gave the sleeping Adjutant Liu a kick to wake him.
 
-A quarter past five.
+*A quarter past five.*
 
 The telephone on the desk rang out sharply.
 
@@ -266,7 +266,7 @@ Gao Lei, Adjutant Liu and the rest were searching every room, floor by floor. Ya
 
 “Yes, sir.” At his utmost speed Yang Muci vanished at the stairhead.
 
-Five forty-five.
+*Five forty-five.*
 
 Yang Muci slipped back to the office, went swiftly into the inner room, crouched under the desk, dragged the telephone down to the floor, and at great risk dialled Ronghua’s number.
 
@@ -308,7 +308,7 @@ Ronghua drove at a tearing pace to the “Grand Light Hostel” to warn every Sp
 
 In frantic haste Ronghua came back to Plum Blossom Lane. Cong Feng had already left ahead of her, leaving her a note: Long a stranger to the sights of Shanghai, I go on ahead to feast my eyes on the mirage of the city. See you at the preparatory meeting at Hengji Li. Feng.
 
-Six thirty.
+*Six thirty.*
 
 Yang Muci and Adjutant Liu got a piece of exact news: Little Wu had been found. He had been hiding all along in a military transport truck, meaning to pass the checkpoint under cover of the army vehicle.
 
@@ -316,7 +316,7 @@ Unluckily, he had been discovered.
 
 Taken without a struggle.
 
-Meanwhile.
+*Meanwhile.*
 
 Ronghua drove to No. 1141 Hengji Li on Gordon Road. This was where the Central Political Bureau’s meeting room and confidential secretariat were.
 
@@ -360,7 +360,7 @@ Mr. Wu meant Wu Hao—the highest man in charge of the Party Central’s Special
 
 The instant Ronghua left No. 1141 Hengji Li, a red bedsheet was hung out on the drying-rack of the little attic of No. 1141 Hengji Li, signalling “no passage.”
 
-Six forty-five.
+*Six forty-five.*
 
 A cold, dank wind blew through the passages of the Detective Division, as though a thunderstorm had just passed; a killing air lay over the whole building.
 
@@ -600,7 +600,7 @@ Muci took the passenger seat; Gao Lei gripped the wheel.
 
 With a bang Li Qinhong shut their door tight with her own hand. She waved lightly with her left hand: “Move out!” The convoy set off in mighty array toward Gordon Road.
 
-Evening, seven forty-five.
+*Evening, seven forty-five.*
 
 Ronghua’s car came out from the Majestic Theatre at No. 66 Gordon Road; she had already got several Special Committee members safely away. Because she could not set her mind at ease, she had never once left the Gordon Road stretch.
 
@@ -626,7 +626,7 @@ But in less than half a second the conclusion was overturned: Muci saw Ronghua�
 
 Ronghua saw Muci’s face. She knew: the disguised army trucks had arrived, the Detective Division’s agents had arrived, the annihilating strike had arrived. And so too had the Special Committee members who had not received the last-minute word.
 
-Seven fifty-two.
+*Seven fifty-two.*
 
 There was no time left, no room to turn at all.
 

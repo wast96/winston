@@ -430,7 +430,7 @@ A-Chu secretly gave Rong Chu a pinch; Rong Chu understood, and crumpled to the g
 
 “Very well.” Seeing the tacit consent in A-Chu’s eyes, Xia Yuechun granted Yang Sitong’s wish.
 
-In the course of a single night.
+*In the course of a single night.*
 
 Yang Muci’s contact below and his contact above had given their lives. His highest superior, Fang Zhitong, had betrayed the revolution and been put to death. In the course of a single night A-Ci had become a lone, masterless soul.
 

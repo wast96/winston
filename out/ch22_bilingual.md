@@ -247,13 +247,13 @@ Ronghua picked up the handbag she had made ready long before and prepared to set
 She resolved that, come what may, she would wait for A-Ci’s call. She had to wait.
 
 > 与此同时。
-Meanwhile.
+*Meanwhile.*
 
 > 参谋部派人来见熊自达。熊自达引来人如内，关上里间的门。杨慕次进来给二人泡茶。他倒了两杯龙井，端进里间去。
 The General Staff sent a man to see Xiong Zida. Xiong Zida drew the visitor inside and shut the inner door. Yang Muci came in to make tea for the two of them. He poured two cups of Longjing and carried them into the inner room.
 
 > 四点三刻左右。
-About four forty-five.
+*About four forty-five.*
 
 > 杨慕次从里间出来，他发现自己“遗留”的“死扣”居然放在了自己办公室的窗台上。刘副官懒洋洋地靠在沙发上，睡着。
 Yang Muci came out of the inner room and found that the “death button” he had “left behind” was, of all places, sitting on the windowsill of his own office. Adjutant Liu lolled asleep on the sofa.
@@ -265,7 +265,7 @@ The orderly, Little Wu, had just finished cleaning the office.
 Yang Muci watched Little Wu pass out of his sight, then turned and gave the sleeping Adjutant Liu a kick to wake him.
 
 > 五点一刻。
-A quarter past five.
+*A quarter past five.*
 
 > 桌上的电话铃声骤响。
 The telephone on the desk rang out sharply.
@@ -400,7 +400,7 @@ Gao Lei, Adjutant Liu and the rest were searching every room, floor by floor. Ya
 “Yes, sir.” At his utmost speed Yang Muci vanished at the stairhead.
 
 > 五点三刻。
-Five forty-five.
+*Five forty-five.*
 
 > 杨慕次偷偷回到办公室，迅速走入里间，他蹲在办公桌下，把电话拖到地上，冒险拨通了荣华的电话。
 Yang Muci slipped back to the office, went swiftly into the inner room, crouched under the desk, dragged the telephone down to the floor, and at great risk dialled Ronghua’s number.
@@ -463,7 +463,7 @@ Ronghua drove at a tearing pace to the “Grand Light Hostel” to warn every Sp
 In frantic haste Ronghua came back to Plum Blossom Lane. Cong Feng had already left ahead of her, leaving her a note: Long a stranger to the sights of Shanghai, I go on ahead to feast my eyes on the mirage of the city. See you at the preparatory meeting at Hengji Li. Feng.
 
 > 六点三十分。
-Six thirty.
+*Six thirty.*
 
 > 杨慕次和刘副官得到了一个准确消息，小吴找到了，他一直潜藏在一辆军用运输车中，企图通过军车的掩护，顺利走出关卡。
 Yang Muci and Adjutant Liu got a piece of exact news: Little Wu had been found. He had been hiding all along in a military transport truck, meaning to pass the checkpoint under cover of the army vehicle.
@@ -475,7 +475,7 @@ Unluckily, he had been discovered.
 Taken without a struggle.
 
 > 与此同时。
-Meanwhile.
+*Meanwhile.*
 
 > 荣华开车来到了戈登路的恒吉里1141号。这里是中央政治局会议室和机要秘书处所在地。
 Ronghua drove to No. 1141 Hengji Li on Gordon Road. This was where the Central Political Bureau’s meeting room and confidential secretariat were.
@@ -541,7 +541,7 @@ Mr. Wu meant Wu Hao—the highest man in charge of the Party Central’s Special
 The instant Ronghua left No. 1141 Hengji Li, a red bedsheet was hung out on the drying-rack of the little attic of No. 1141 Hengji Li, signalling “no passage.”
 
 > 六点三刻。
-Six forty-five.
+*Six forty-five.*
 
 > 侦缉处的过道上吹着阴冷的风，仿佛刚下过一场雷暴雨，杀气覆盖着整栋大楼。
 A cold, dank wind blew through the passages of the Detective Division, as though a thunderstorm had just passed; a killing air lay over the whole building.
@@ -901,7 +901,7 @@ Muci took the passenger seat; Gao Lei gripped the wheel.
 With a bang Li Qinhong shut their door tight with her own hand. She waved lightly with her left hand: “Move out!” The convoy set off in mighty array toward Gordon Road.
 
 > 晚上，七点四十五分。
-Evening, seven forty-five.
+*Evening, seven forty-five.*
 
 > 荣华的车从戈登路66号美琪大戏院开出来，她已经顺利地送走了几名特委。因为不放心的缘故，她始终没有离开戈登路的地段。
 Ronghua’s car came out from the Majestic Theatre at No. 66 Gordon Road; she had already got several Special Committee members safely away. Because she could not set her mind at ease, she had never once left the Gordon Road stretch.
@@ -940,7 +940,7 @@ But in less than half a second the conclusion was overturned: Muci saw Ronghua�
 Ronghua saw Muci’s face. She knew: the disguised army trucks had arrived, the Detective Division’s agents had arrived, the annihilating strike had arrived. And so too had the Special Committee members who had not received the last-minute word.
 
 > 七点五十二分。
-Seven fifty-two.
+*Seven fifty-two.*
 
 > 没有时间了，没有任何回旋余地了。
 There was no time left, no room to turn at all.

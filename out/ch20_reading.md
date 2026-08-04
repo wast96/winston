@@ -1,6 +1,6 @@
 ## Chapter 20. A Meeting Met with a Smile Is Not Easily Won
 
-Cong Feng wore a long gown, his hair standing stiff and erect; he was full of spirit, and on his face was the smile of friends long parted and met again. Ronghua wore a lake-blue qipao embroidered with plum blossoms, close-cut and slender at the waist, radiant and lovely. The two of them were for all the world like a figure painting in ink-wash, and under the cover of the evening mist they appeared before A-Chu dim and blurred, dreamlike, smoke-like.
+Cong Feng wore a long gown, his hair standing stiff and erect; he was full of spirit, and on his face was the smile of friends long parted and met again. Ronghua wore a lake-blue qipao embroidered with plum blossoms, close-cut and slender at the waist, radiant and lovely. The two of them were for all the world like a figure painting in ink-wash, and under the cover of the evening mist they appeared before A-Chu dim and blurred, dreamlike and faint as smoke.
 
 In spite of himself A-Chu edged a step forward; the movement began in the stirrings of his heart, and his heart was shaken.
 
@@ -280,7 +280,7 @@ For the Yang family?
 
 “You have no kin left. Except me.” With that A-Chu flung out through the door. The glass spring-door swung to and fro, and its swinging left Muci’s heart in a tangled snarl.
 
-Nine o’clock at night.
+*Nine o’clock at night.*
 
 The chiming clock rang out ding-dong without a stop. In the sitting room a hanging lotus lamp was lit, its flowing light airy and soft and lovely; A-Chu, fresh from his bath, wore a loose scarlet dressing gown, his hair still wet, and stood before a little cabinet in the sitting room making coffee.
 

@@ -160,7 +160,7 @@ When he had walked out of the room, he said only one sentence to his father.
 
 “This business needs to be settled once and for all.”
 
-On the river boat. A thin rain; cold swallows.
+*On the river boat. A thin rain; cold swallows.*
 
 Fang Zhitong woke at seven in the morning, and, listening to the sound of the water and the oars, caught the fragrance of osmanthus New Year cake. He had lodged more than one cold night on the river boats, but only last night had felt the warmest of all — for the quilts this boat-girl used were all brand new, the pillow soft, and the woman herself was not coarse, nor did she chatter at him, but kept him quiet company, so that on that still, desolate, rainy night he had tasted a moment’s comfort and safety.
 
@@ -196,7 +196,7 @@ In the instant Li Qinhong drew near, a mouthful of thick, salty phlegm sealed up
 
 The boatman straightened up and said: “Yes.”
 
-Twelve noon. A middling café on Avenue Joffre.
+*Twelve noon. A middling café on Avenue Joffre.*
 
 A-Chu kept the appointment as arranged.
 

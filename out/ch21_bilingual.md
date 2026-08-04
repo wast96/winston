@@ -241,7 +241,7 @@ When he had walked out of the room, he said only one sentence to his father.
 “This business needs to be settled once and for all.”
 
 > 河船上。微雨，冷燕。
-On the river boat. A thin rain; cold swallows.
+*On the river boat. A thin rain; cold swallows.*
 
 > 方致同早晨七点钟就醒了，听着水声和橹声，闻到了桂花年糕的香。他在河船上住了不止一个寒宵，只有昨夜感觉是最温暖的。因为，这家船妓用的棉被都是簇新的，枕头也柔软，女人也不粗俗，也不和他絮叨，静静地陪着他，让他在静寂和萧条的雨夜享受到片刻的舒适和安全。
 Fang Zhitong woke at seven in the morning, and, listening to the sound of the water and the oars, caught the fragrance of osmanthus New Year cake. He had lodged more than one cold night on the river boats, but only last night had felt the warmest of all — for the quilts this boat-girl used were all brand new, the pillow soft, and the woman herself was not coarse, nor did she chatter at him, but kept him quiet company, so that on that still, desolate, rainy night he had tasted a moment’s comfort and safety.
@@ -295,7 +295,7 @@ In the instant Li Qinhong drew near, a mouthful of thick, salty phlegm sealed up
 The boatman straightened up and said: “Yes.”
 
 > 中午十二点。霞飞路的一家中型咖啡馆。
-Twelve noon. A middling café on Avenue Joffre.
+*Twelve noon. A middling café on Avenue Joffre.*
 
 > 阿初如期赴约了。
 A-Chu kept the appointment as arranged.

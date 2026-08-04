@@ -1497,3 +1497,68 @@ Glossary/figures: no changes (this pass never re-romanizes or renames).
 Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 206 notes.
 qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 206 references = 206
 bodies = 206 backlinks, all links resolve).
+
+## Register pass R05 (ch20 to ch23) — 2026-08-04
+
+Fifth execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source ">" line touched,
+no paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/. Book-wide notes 206 to 213.
+
+Triage: these are ordinary chapters in the ch01 mode, and the prose already reads
+in the target register, so almost every paragraph was LEAVE. The only style edits
+are scene cards (T2) plus one over-literal image (T3); no paragraph was recast.
+
+- ch20 (2 touch, +4 notes now 8): p001 T3, the calque "dreamlike, smoke-like"
+  (如梦如烟) loosened to "dreamlike and faint as smoke"; p141 T2, the bare stamp
+  "Nine o'clock at night" set as an italic scene card. Notes: the Chinese foot 七尺
+  (a grown man, not a giant); the Dragon King folk-saying 大水冲了龙王庙; the
+  imperial examination and its statecraft essay 策论 (anchored on "policy
+  dissertation", not on the recurring 鱼跃龙门 image); the folk deity 顺风耳
+  Ears-that-hear-on-the-wind (with 千里眼).
+- ch21 (2 touch, +0 notes): p081 and p099, the two bare scene-setting stamps
+  (河船上。微雨，冷燕。 and 中午十二点。霞飞路。) set as italic cards. Zero new
+  notes: the chapter's cultural surface is already covered earlier in the book
+  (Special Branch/Juntong ch04, ch17; Comintern ch12; Guanyin and merit-making
+  修桥铺路 ch07; the Buddha hall 佛堂 first at ch08; incense-line 香火 ch18;
+  Longjing ch08; the Gu Shunzhang defection dramatized here, noted at ch22).
+  Coverage-driven, not padded.
+- ch22 (9 touch, +2 notes now 6): the ticking-clock climax, whose bare time and
+  transition stamps the source sets as their own paragraphs (与此同时。 x2,
+  四点三刻。 五点一刻。 五点三刻。 六点三十分。 六点三刻。 晚上七点四十五分。
+  七点五十二分。) are all set as italic scene cards per T2. No prose recast. Notes:
+  the shikumen row house 石库门 (the safe-house escape logic turns on it); the
+  Liangshan Marsh / Water Margin allusion 梁山泊 behind the "108 instruments of
+  torture" boast. Both subjects are unique to ch22.
+- ch23 (1 touch, +1 note now 3): p216, the bare transition 一夜之间。 set as an
+  italic card. Note: the concession plane trees 法国梧桐 (first at ch23). The rest
+  of the chapter is medical or modern and needs no gloss; Rh-negative blood is
+  already noted.
+
+Recurring subjects cross-referenced, not re-noted: 割股 (the thigh-cutting filial
+trope, noted ch14) recurs in ch20; the Yellow Springs 黄泉 (ch14) recurs in ch22;
+Dostoevsky's "insulted and injured" already sits inside the ch20 Pushkin note;
+"build bridges and mend roads" 修桥铺路 (ch07) covers ch21's merit-works; the
+elder-brother-as-father maxim 长兄为父 (ch19) recurs in ch20; the family
+incense-line 香火 (ch18) recurs in ch20. The bare 鱼跃龙门 carp image recurs from
+ch13/ch16 and is left for a book-wide idiom sweep; the ch20 note is on the
+examination system/策论, a distinct subject first raised here.
+
+Checks: per chapter, split_bilingual.py regenerated reading + data/zh; parity OK
+(ch20 231, ch21 177, ch22 330, ch23 223); check_numbers 0 unresolved on all four
+(data/noise.txt unchanged; the B09 additions already cover ch22-ch24 numerals, and
+scene-card italics remove no quantity); straight-quote guard clean on all four
+reading files; no source ">" line changed in any bilingual file. Spot-audit: all
+14 edited paragraphs re-read against their source lines. Thirteen are scene-card
+italicizations with the words, numerals, and names left verbatim (formatting only,
+zero meaning risk); the one prose touch (ch20 p001) renders 如梦如烟 faithfully,
+nothing added or dropped. All 7 new note anchors verified as unique verbatim
+substrings of the post-edit reading text, no HTML named entities, scholarship
+checked (all Corroborated). New notes confirmed attached with noterefs in the built
+EPUB.
+
+Glossary/figures: no changes (this pass never re-romanizes or renames).
+
+Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 213 notes.
+qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 213 references = 213
+bodies = 213 backlinks, all links resolve).

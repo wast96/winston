@@ -1,7 +1,7 @@
 ## H2 Chapter 20. A Meeting Met with a Smile Is Not Easily Won
 
 > 丛锋一袭长衫，头发强硬地挺拔，他很精神，脸上带着久别重逢的笑容。荣华穿一件绣着梅花的湖色旗袍，窄身修腰，明艳动人。他们活像一幅水墨人物画，在夜霭的掩护下，朦朦胧胧，如梦如烟般呈现在阿初面前。
-Cong Feng wore a long gown, his hair standing stiff and erect; he was full of spirit, and on his face was the smile of friends long parted and met again. Ronghua wore a lake-blue qipao embroidered with plum blossoms, close-cut and slender at the waist, radiant and lovely. The two of them were for all the world like a figure painting in ink-wash, and under the cover of the evening mist they appeared before A-Chu dim and blurred, dreamlike, smoke-like.
+Cong Feng wore a long gown, his hair standing stiff and erect; he was full of spirit, and on his face was the smile of friends long parted and met again. Ronghua wore a lake-blue qipao embroidered with plum blossoms, close-cut and slender at the waist, radiant and lovely. The two of them were for all the world like a figure painting in ink-wash, and under the cover of the evening mist they appeared before A-Chu dim and blurred, dreamlike and faint as smoke.
 
 > 阿初不由自主地向前挪动了一下，挪动始于内心的感触，他的心在震动。
 In spite of himself A-Chu edged a step forward; the movement began in the stirrings of his heart, and his heart was shaken.
@@ -421,7 +421,7 @@ For the Yang family?
 “You have no kin left. Except me.” With that A-Chu flung out through the door. The glass spring-door swung to and fro, and its swinging left Muci’s heart in a tangled snarl.
 
 > 夜九点钟。
-Nine o’clock at night.
+*Nine o’clock at night.*
 
 > 自鸣钟叮叮当当地响个不停。客厅里开着悬吊的莲花灯，流光轻盈软美，阿初刚洗完澡，他穿了件宽松的猩红色睡袍，头发很湿润，他站在客厅的小柜前煮咖啡。
 The chiming clock rang out ding-dong without a stop. In the sitting room a hanging lotus lamp was lit, its flowing light airy and soft and lovely; A-Chu, fresh from his bath, wore a loose scarlet dressing gown, his hair still wet, and stood before a little cabinet in the sitting room making coffee.

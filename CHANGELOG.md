@@ -8,6 +8,35 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
 
+## 2026-08-04 — Register pass R05 (ch20 to ch23)
+Fifth execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source line touched, no
+paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/. Book-wide notes 206 to 213. Ordinary ch01-mode chapters: almost every
+paragraph LEAVE, edits confined to scene cards (T2) and one over-literal image
+(T3); no recasts.
+
+- ch20: 2 prose edits (p001 T3, 如梦如烟 "dreamlike, smoke-like" loosened to
+  "dreamlike and faint as smoke"; p141 T2 scene card). 4 notes (the Chinese foot
+  七尺; the Dragon King folk-saying 大水冲了龙王庙; the imperial examination and
+  its 策论 statecraft essay; the folk deity 顺风耳). Now 8.
+- ch21: 2 prose edits, both T2 scene cards (河船上。微雨，冷燕。 and 中午十二点。
+  霞飞路。). 0 notes: the chapter's cultural surface is all covered earlier
+  (Special Branch/Juntong ch04/ch17, Comintern ch12, merit-works ch07, Buddha hall
+  ch08, incense-line ch18, Longjing ch08). Coverage-driven, not padded.
+- ch22: 9 prose edits, all T2 scene cards (the ticking-clock time and transition
+  stamps 与此同时。/四点三刻。/五点一刻。 and the rest). 2 notes (the shikumen row
+  house 石库门; the Liangshan Marsh / Water Margin allusion 梁山泊 behind the "108
+  instruments of torture"). Now 6.
+- ch23: 1 prose edit (p216 T2 scene card 一夜之间。). 1 note (the concession plane
+  trees 法国梧桐). Now 3.
+
+Checks: parity OK (ch20 231, ch21 177, ch22 330, ch23 223); check_numbers 0
+unresolved on all four (noise.txt unchanged); straight-quote guard clean; no source
+line changed. Spot-audit of all 14 edited paragraphs: 13 formatting-only scene
+cards, 1 faithful image touch, zero drift. out/On a Hair Trigger.epub rebuilt, 213
+notes, qa_epub PASS.
+
 ## 2026-08-04 — Register pass R04 (ch16 to ch19)
 Fourth execution batch of the register pass (REGISTER_PASS.md): style-only prose
 revision plus footnote densification. Content frozen; no source line touched, no

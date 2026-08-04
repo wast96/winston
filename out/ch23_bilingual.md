@@ -646,7 +646,7 @@ A-Chu secretly gave Rong Chu a pinch; Rong Chu understood, and crumpled to the g
 “Very well.” Seeing the tacit consent in A-Chu’s eyes, Xia Yuechun granted Yang Sitong’s wish.
 
 > 一夜之间。
-In the course of a single night.
+*In the course of a single night.*
 
 > 杨慕次的下线和上线牺牲了。他的最高领导人方致同叛变革命，被处死了。阿次一夜之间，成了无主的孤魂。
 Yang Muci’s contact below and his contact above had given their lives. His highest superior, Fang Zhitong, had betrayed the revolution and been put to death. In the course of a single night A-Ci had become a lone, masterless soul.
