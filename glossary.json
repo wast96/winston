@@ -787,6 +787,12 @@
       "pinyin": "Hèlián Bóbó",
       "status": "attested",
       "note": "Xiongnu founder (r. 407&#8211;425) of the Xia kingdom of the Sixteen Kingdoms period; builder of the fortress-capital Tongwan, cited here for the legendary hardness of its rammed-earth walls. Pinyin. (Noted at ch22.)"
+    },
+    "陆三": {
+      "en": "Lu San",
+      "pinyin": "Lù Sān",
+      "status": "decided",
+      "note": "The main-hall runner of the Jing'an Bureau and the traitor within; surnamed Lu (陆), third-born (行三), a man of Yuezhou, once a soldier, secretly an agent of the Shouzhuolang planted by the Pinglu resident-agent courtyard. 'San' renders 行三, 'the third.' ch23."
     }
   },
   "organizations": {
@@ -2201,6 +2207,36 @@
       "pinyin": "Xīnghuà Fāng",
       "status": "decided",
       "note": "A residential ward southeast of Guangde Ward, holding two watchtowers set catty-corner; where the runner-traitor ambushes Yao Runeng. Pinyin + &#8216;Ward&#8217; (as the other 坊)."
+    },
+    "永崇坊": {
+      "en": "Yongchong Ward",
+      "pinyin": "Yǒngchóng Fāng",
+      "status": "attested",
+      "note": "A residential ward in the eastern half of Chang'an, near the Yanxing Gate; the site of an abandoned mercy-release pond said to be haunted by a fox-spirit. Pinyin."
+    },
+    "靖安坊": {
+      "en": "Jing'an Ward",
+      "pinyin": "Jìng'ān Fāng",
+      "status": "attested",
+      "note": "A ward in the eastern city marking a dividing line across Wannian County; site of Feng Dalun's Yixiang Pavilion. Shares its two characters 靖安 ('pacify and secure') with the Jing'an Bureau (靖安司), an irony the text notes. Pinyin."
+    },
+    "涪州": {
+      "en": "Fuzhou",
+      "pinyin": "Fúzhōu",
+      "status": "attested",
+      "note": "A prefecture on the Yangzi in the east of modern Chongqing (about modern Fuling); in later tradition the source of the fresh lychees rushed to Yang Guifei. Some 2,000 li from Chang'an. Pinyin."
+    },
+    "子午谷": {
+      "en": "the Ziwu Valley",
+      "pinyin": "Zǐwǔ Gǔ",
+      "status": "attested",
+      "note": "The northern mouth of the Ziwu Road, a route through the Qinling Mountains south of Chang'an; the post-road by which the lychee courier's horse reaches the capital. Pinyin."
+    },
+    "户县": {
+      "en": "Hu County",
+      "pinyin": "Hù Xiàn",
+      "status": "attested",
+      "note": "A county southwest of Chang'an (modern Huyi District, Xi'an), at the northern foot of the Qinling range. Pinyin."
     }
   },
   "terms": {
@@ -3559,6 +3595,54 @@
       "pinyin": "shuǐdēng",
       "status": "decided",
       "note": "A small float&#8212;a board or sheet of oiled paper bearing a candle&#8212;set adrift (here, on the frozen moat) to ferry the dead; a Ghost-Festival custom carried into the Lantern Festival. Literal rendering."
+    },
+    "应龙旗": {
+      "en": "the Yinglong flag",
+      "pinyin": "yìnglóng qí",
+      "status": "decided",
+      "note": "The crimson, saw-toothed pennant of an imperial express courier; before it, even a strict gate-closure order is void. 应龙 (yinglong) is the winged 'responding dragon' of myth. Its seven teeth mark the seven days allowed for the delivery. Footnoted at first appearance (ch23)."
+    },
+    "山文甲": {
+      "en": "mountain-pattern armor",
+      "pinyin": "shānwén jiǎ",
+      "status": "decided",
+      "note": "Tang lamellar armor whose plates are each shaped like the character 山 ('mountain'), interlocking into a scaled surface. Rendered 'mountain-pattern armor.'"
+    },
+    "迷幻香": {
+      "en": "befuddling-incense",
+      "pinyin": "míhuàn xiāng",
+      "status": "decided",
+      "note": "A hallucinogenic incense of datura flower, hemp seed, and nutmeg that dulls the senses and raises illusions; Wen Ran's weapon at the Yixiang Pavilion. Rendered 'befuddling-incense' (distinct from the fabled 迷魂香)."
+    },
+    "迷魂香": {
+      "en": "soul-stealing incense",
+      "pinyin": "míhún xiāng",
+      "status": "decided",
+      "note": "The legendary incense said to drop a man senseless at one whiff; the text has Wen Ran deny that any such thing exists. Rendered 'soul-stealing incense.'"
+    },
+    "双陆": {
+      "en": "shuanglu",
+      "pinyin": "shuānglù",
+      "status": "decided",
+      "note": "A Tang two-player race-game played with dice on a board, a relative of backgammon; a favorite pastime of the age. Kept as the transliteration 'shuanglu.' Footnoted at first appearance (ch23)."
+    },
+    "城门郎": {
+      "en": "the gate-commander",
+      "pinyin": "chéngmén láng",
+      "status": "decided",
+      "note": "The officer commanding the soldiers of a city gate (under the Gate Directorate); may move the guard-soldiers but does not hold the keys. Rendered 'the gate-commander.' The supervising 城门监 is 'the Gate Inspectorate.'"
+    },
+    "监门": {
+      "en": "the Gate Watch",
+      "pinyin": "jiānmén",
+      "status": "decided",
+      "note": "The gate-guard office (监门卫) that keeps the city-gate keys, deliberately separate from the gate-commander so no one man can both open and unlock a gate; its 门仆 are the 'gate-servants' who carry the keys. Rendered 'the Gate Watch.'"
+    },
+    "鱼符": {
+      "en": "fish-tally",
+      "pinyin": "yúfú",
+      "status": "decided",
+      "note": "A Tang credential in the form of a bronze fish split into halves, matched to authenticate an official's or courier's identity and authority. Rendered 'fish-tally.'"
     }
   }
 }

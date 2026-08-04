@@ -2809,3 +2809,148 @@ char-for-char before writing).
   after whispering a last secret to Zhang; Li Bi is left, with the truth reversed
   onto the heir apparent, unable to decide between the truth and his promise to the
   Eastern Palace. No bridging text invented.
+
+## B23 = ch23 (第二十三章 辰正 / "The Hour of the Dragon, Second Half, 8 a.m.")
+
+Scope: the whole chapter, 12,529 source characters (book.json); 14,239 source
+chars incl. the time-gloss (concat of L2-L211), 207 body paragraphs. Built the
+bilingual with the verbatim-guaranteed generator scripts/gen_ch23_bilingual.py
+(reads the source lines from data/src/50_text00047.txt, pairs each with hand-
+authored English, merges the two extractor-split halves, and asserts the
+concatenation of every '>' blockquote equals the source content char-for-char
+before writing).
+
+### Source structure handled
+- Opening vignette L2+L3, extractor-split (L2 ends on a comma 出，) MERGED into
+  ONE paragraph: 这时候远方东边的日头正喷薄而出，天色大亮，整个移香阁开始弥漫起
+  醉人的香味。 This same sentence RECURS verbatim at the HEAD of L88 (封大伦把张小敬
+  的头发再一次揪得高高… follows it); both occurrences translated identically from
+  the single VIG constant.
+- Dateline L4+L5 extractor-split MERGED into one pair: L4 = 天宝三载元月十五日，辰正
+  and L5 = the single full-width period 。 (contrast ch22, whose tail was 。。) →
+  天宝三载元月十五日，辰正。 quoted verbatim. L1 content-marker heading 辰正 absorbed
+  into the H2 title. Location line L6 (长安，长安县，兴化坊。) its own paragraph.
+- Time-gloss L211 rendered as the source's own italic note, prefixed
+  "*[The source appends a note on the hour to each chapter:]*". Trailing L212
+  (U+200B) dropped.
+- Only TWO extractor-splits in the chapter (the vignette and the dateline); a
+  scan (last char not in 。！？"）…—：) confirmed every other source line ends in a
+  terminal glyph. Multi-line dialogue stayed as separate pairs.
+- Scene breaks (house style, no glyph): the chapter braids five threads — (a) the
+  runner captured, Yao Runeng wounded, Adjutant Zhao (L7-L21); (b) Wen Ran and
+  Cen Shen plan to seize Feng Dalun (L22-L36); (c) the Yanxing-Gate commander and
+  the lychee courier = Aluoyue smuggling Zhang Xiaojing into the city, Zhang taken
+  by a patrol to Feng Dalun's Yixiang Pavilion and tortured (L37-L91); (d) Li Bi
+  interrogates the runner, who bites off his own tongue; the "kindness repaid,
+  debt paid" tell exposes the Shouzhuolang (L92-L137); (e) Wen Ran/Cen Shen's
+  befuddling-incense raid on the Yixiang Pavilion, Feng's escape and the Longwu
+  ambush (L138-L176); and Li Bi's account-book audit that names the Pinglu
+  courtyard = An Lushan (L177-L210). Each shift is a plain paragraph break.
+
+### HOUR — the gloss MATCHES this chapter (unlike ch10/ch11/ch20/ch22)
+- This chapter is nominally 辰正 (Dragon, second half, 8 a.m.), its in-body
+  dateline is 辰正, AND the time-gloss L211 reads "上午8点。辰,又名早食等…（北京时间
+  07时至09时）" — i.e. it describes 辰/8 a.m. (Beijing 07:00-09:00). Dateline, nominal
+  hour, and gloss are ALL in agreement. No mismatch this chapter. Rendered
+  "Eight o'clock in the morning. Chen, also called zao-shi (the morning meal)…".
+
+### Checks run
+- Verbatim quotation: generator asserts concat of every '>' blockquote + the
+  time-gloss == source content char-for-char (14,239 chars, L2-L211). PASS.
+- check_structure.py --pairs: parity 208/208 EQUAL. PASS.
+- check_numbers.py --noise noise.txt: 208 pairs, 0 unresolved. PASS.
+- qa_epub.py on the rebuilt cumulative EPUB: PASS (38 files, 32 documents, all
+  links resolve; 79 note references / 79 bodies / 79 backlinks).
+- Blind double-translation (literary sample, L114-L116: the runner's "everyone who
+  knows must die" and his biting through his own tongue): re-rendered cold in a
+  separate context and diffed — no divergence of meaning; 咬断舌头/吞下/塞在喉管/
+  活活噎死 all faithful, 所有知情的人都得死 rendered identically. 0 content errors
+  (only 通传 = "messenger" in the blind pass vs the decided "the runner").
+- Round-trip back-translation (number-dense sample, L130 + L206 + L208): back-
+  rendered to Chinese in a separate context and diffed against source — 三千钱 (3000),
+  两匹绢 (2), 两个月 (2), 天宝二载 (2nd yr), 一万贯 (>10000), 两千贯 (2000), 九位
+  节度使 (9), 两年 (2), 十一座守捉城 (11), 一军 (1), 范阳/营州 ALL survive. 0 omissions.
+  Notably the noised 十一 round-trips as 十一座 — confirming "eleven" carries the count
+  faithfully. The blind pass independently rendered 留后院 as 进奏院 (the standard Tang
+  synonym), corroborating the decided "resident-agent courtyard."
+- Sample error rate over the audited ~3% (L114-L116, L130, L206, L208, plus the
+  vignette and time-gloss): 0 errors.
+
+### Numbers (check_numbers) — what was carried, what was noised
+- Carried as real quantities (English holds the value): 两千里→"two thousand li"
+  (2000), 三千钱→"three thousand cash" (3000), 两匹绢→"two bolts" (2), 两个月→"two
+  months" (2), 一万贯→"ten thousand strings" (10000), 两千贯→"two thousand strings"
+  (2000), 九位节度使→"nine" (9), 十一个守捉城→"eleven garrison-towns" (11), 三个人→
+  "three men" (3), 一百人骑队→"a hundred-man" (100), 几百→"several hundred" (100),
+  十二个时辰→"twelve double-hours" (12), 十指→"ten fingers" (10), 十来/十几个→"ten-odd"
+  (10), 两人→"two men" (2), 四件铜页→"four brass plates" (4), 三千/两千/etc. all held;
+  the gloss's 8 / 07 / 09 held as "Eight o'clock" and "07:00 to 09:00".
+- noise.txt extended (3 entries, all NON-quantity or checker-artifact):
+  * 陆三 — the runner's real NAME (surnamed Lu, third-born); the 三 is part of the
+    name, not the count 3. (His birth-order 行三 in L122 is rendered "third-born,"
+    so THAT 三 is still verified via the built-in "third":3.)
+  * 骈四丽六 — literary-style idiom ("parallel prose of fours and sixes"); the 四/六
+    are not counts. English "in balanced fours and sixes."
+  * 十一 — LOAD-BEARING reverse-trap fix: the built-in measure rule 一[…个…] runs
+    AFTER the --noise pass and eats the 一 out of 十一个, orphaning a bare 十 read as
+    10. Noising 十一 first prevents the orphan. The real count 11 is carried in the
+    English as "eleven" (confirmed by the round-trip back-translation → 十一座).
+
+### Notes added (3; running total 79)
+- "a crimson Yinglong flag with a saw-toothed edge" (L46): 应龙 = the winged
+  "responding dragon" of myth (dammed the flood for Yu, slew Chiyou for the Yellow
+  Emperor); the seven saw-teeth = seven days for the delivery. Texture/reference.
+- "a whole lychee tree must be given up" (L51): the Yang Guifei / Du Mu lychee
+  allusion (过华清宫: "一骑红尘妃子笑，无人知是荔枝来"); winter lychees forced out of
+  season, run from Fuzhou, one tree felled per basket — the extravagance the gate-
+  commander will not name aloud. Reference; corroborated (Du Mu; New Book of Tang).
+- "a game or two of shuanglu" (L124): 双陆, the Tang dice-and-board race game
+  (a relative of backgammon, from India via the Western Regions). Specialist term.
+- Skipped (already noted / already appeared): An Lushan (ch16 — the ch23 reveal
+  lands on the existing note), Taizhen/Yang Guifei (ch13), the Shouzhuolang (ch10),
+  the Eight Methods of the house of Lai / Lai Junchen (ch10/ch20), the Pifu/aphids,
+  the Zhongnan Mountains, the Türk Wolf Guards, the Five-Faced Yama, the buliang
+  chief, the Eighth Company, the Forestry and Crafts Bureau — all prior.
+
+### Glossary grown (14 rows; one referent, one rendering)
+- People: 陆三/Lu San (the runner's real name, revealed here). Places: 永崇坊/
+  Yongchong Ward, 靖安坊/Jing'an Ward (note the 靖安 irony with the Jing'an Bureau),
+  涪州/Fuzhou, 子午谷/the Ziwu Valley, 户县/Hu County. Terms: 应龙旗/the Yinglong
+  flag, 山文甲/mountain-pattern armor, 迷幻香/befuddling-incense, 迷魂香/soul-stealing
+  incense, 双陆/shuanglu, 城门郎/the gate-commander, 监门/the Gate Watch, 鱼符/
+  fish-tally.
+- Reused all decided renderings: Zhang Xiaojing (张阎王 = Zhang the Yama, matching
+  the earlier 张阎罗; 张大帅 = "the great Chief Zhang," keeping 帅 = Chief; 独眼 =
+  single eye; 五尊阎罗 = the Five-Faced Yama; 不良帅 = buliang chief), Li Bi (靖安
+  司丞 = Deputy Director), Li Linfu, Li Heng / the heir apparent / the Eastern
+  Palace, Yao Runeng, Adjutant Zhao, Aluoyue, Cen Shen, Wen Ran, Wen Wuji, Feng
+  Dalun (虞部主事 = a recorder of the Forestry and Crafts Bureau; 熊火帮 = the Bear
+  Fire Gang), Yuan Zai, Wang Yunxiu, Xiao Gui, Chen Xuanli, Prince Yong, An Lushan,
+  the Türk Right Shad, the Shouzhuolang (队正 = squad leader, 火师 = firemaster,
+  守捉城 = garrison-town, 留后院 = resident-agent courtyard, 节度使 = military
+  commissioner), the Pifu/aphids, the Jing'an Bureau, the Jingzhao Prefecture, the
+  Longwu Army, the Lüben Guards, the Right Xiao Guard, the watchtower/号旗 =
+  signal-flag, the Xingqing Palace, the Yanxing Gate, Guangde/Anye/Xinghua Wards,
+  the Cibei Temple, the Wen Incense Shop, the Pingkang Quarter, Liu's Bookshop,
+  Yuezhou/Pinglu/Fanyang/Yingzhou, 时辰 = double-hour, 弹指 = finger-snap, li/zhang/
+  chi, the Lantern Festival.
+
+### Figures
+- None. No content illustration in data/figs/ for this chapter (only the source's
+  footnote-marker glyph Image00004.jpg and the scene-break rule Image00005.jpg,
+  neither a figure). figures.json unchanged.
+
+### Flagged for the read-through
+- HOUR: no mismatch this chapter — dateline 辰正, nominal 辰正, and the gloss's
+  辰/8 a.m. all agree (contrast ch10/ch11/ch20/ch22). Recorded above.
+- 蚍蜉 rendered "the aphids" (consistent with ch20-ch22; the glossary's older
+  "the Pifu" form dominates ch01-ch19 but the last three chapters use "the aphids").
+  One referent, but the book carries both surface forms across its run.
+- The traitor within (通传/"the runner," introduced ch01) is revealed to be 陆三, a
+  Shouzhuolang agent bought by the Pinglu 留后院; he bites off his tongue rather than
+  talk. Li Bi tracks the paymaster through the account-books to 平卢节度使 = 安禄山
+  (An Lushan), the chapter's climactic reveal (An Lushan's note stands at ch16).
+  Zhang Xiaojing, smuggled in by Aluoyue in a lychee basket, is captured and nearly
+  killed by Feng Dalun before Wen Ran/Cen Shen intervene; the three are then cornered
+  by a Longwu ambush led by Chen Xuanli, Prince Yong, and the escaped Feng Dalun. No
+  bridging text invented.

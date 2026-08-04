@@ -401,3 +401,17 @@
 # ch22: 四出 in 精骑四出 = "sallying out on every side" (all-directions 四X idiom, cf.
 # 四散/四下/四外 already listed but with 出); the 四 is not the count 4.
 四出
+# ch23: 陆三 = Lu San (the runner's real name; surnamed Lu, third-born); the 三 is
+# part of the personal name, not the count 3. English keeps "Lu San." (His birth-
+# order 行三 elsewhere is rendered "third-born," so that 三 is still verified.)
+陆三
+# ch23: 骈四丽六 = "parallel prose of fours and sixes" (a literary-style idiom for
+# balanced 4- and 6-character couplets); the 四/六 are not the counts 4/6. English
+# renders "in balanced fours and sixes."
+骈四丽六
+# ch23: 十一 in 十一个守捉城 = "eleven garrison-towns" (real count 11, rendered
+# "eleven"). LOAD-BEARING for ordering: it must strip in the --noise pass, because
+# the built-in measure rule 一[…个…] runs later and eats the 一 out of 十一个,
+# orphaning a bare 十 read as 10 (the reverse trap). The 11 is carried faithfully
+# in the English as "eleven."
+十一
