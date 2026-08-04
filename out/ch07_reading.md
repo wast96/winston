@@ -8,7 +8,7 @@
 
 The change came so suddenly that it caught every one of them off guard.
 
-Two Lüben Guards soldiers roughly pinned Zhang Xiaojing to the ground, bound his wrists with an oxsinew binding-cord, and then thrust a wad of hemp into his mouth, so that Zhang Xiaojing was left wholly unable to resist, unable even to make a sound. Throughout it all Cui Qi kept his right hand on his hilt, watching Zhang Xiaojing’s every movement, coiled and ready to spring—as though at the least sign of resistance he would cut him down where he lay.
+Two Lüben Guards soldiers roughly pinned Zhang Xiaojing to the ground, bound his wrists with an ox-sinew binding-cord, and then thrust a wad of hemp into his mouth, leaving him wholly unable to resist, unable even to make a sound. Throughout it all Cui Qi kept his right hand on his hilt, watching Zhang Xiaojing’s every movement, coiled and ready to spring—as though at the least sign of resistance he would cut him down where he lay.
 
 A few quarter-hours before, this same man had stood on the edge of collapse, pitifully looking to Zhang Xiaojing to save his life; now his face had changed altogether. Zhang Xiaojing could not speak, but his neck could still turn. He lifted his head and glared at Cui Qi out of his single eye. Cui Qi turned his face away, yet the corner of his mouth twitched a little—within, he was not so calm as he labored to appear.
 
@@ -22,9 +22,9 @@ The people on the far bank were confounded by this turn as well; the water was t
 
 Yao Runeng murmured. Two white braids hung beside their shoulder-guards; there could be no mistaking them.
 
-The moment Xu Bin heard it was the Lüben Guards, his eyes filled with confusion: “Impossible! What would they be seizing their own men for? Isn’t there some misunderstanding in this?” He paced anxiously back and forth along the embankment, meaning to go over and get to the bottom of it, when his foot slipped and he all but tumbled into the water. It was only by catching Yao Runeng’s arm that he barely kept his feet.
+The moment Xu Bin heard it was the Lüben Guards, his eyes filled with confusion: “Impossible! What would they be seizing their own men for? Isn’t there some misunderstanding in this?” He paced anxiously back and forth along the embankment, meaning to go over and get to the bottom of it, when his foot slipped and he all but tumbled into the water. Only by catching Yao Runeng’s arm did he keep his feet.
 
-Yao Runeng’s heart was rising and falling like a swell. Simple and straightforward as the young man was, he was no fool. The Jing’an Bureau’s stance toward Zhang Xiaojing had always been an equivocal one—admiring his skill at getting things done, yet wary of him as a condemned man. Never mind He Zhizhang; even Li Bi, who had pushed the matter through with all his strength, kept his guard up against Zhang Xiaojing, or he would never have sent Yao Runeng to watch him.
+Yao Runeng’s heart was pitching like a swell at sea. Simple and straightforward as the young man was, he was no fool. The Jing’an Bureau’s stance toward Zhang Xiaojing had always been an equivocal one—admiring his skill at getting things done, yet wary of him as a condemned man. Never mind He Zhizhang; even Li Bi, who had pushed the matter through with all his strength, kept his guard up against Zhang Xiaojing, or he would never have sent Yao Runeng to watch him.
 
 The Lüben Guards were troops under the Jing’an Bureau’s direct command, and Cui Qi took orders from Li Bi alone. Yao Runeng guessed that those above were unwilling to let it be known abroad that the whole Jing’an Bureau had needed a condemned man to bring the thing off, and so were trying at the first instant to blot out the taint of it—but it was too shameless by half!
 
@@ -48,19 +48,19 @@ Li Bi’s face darkened, and he waved a hand: “This is no place to talk. Back 
 
 By now the residents and traveling merchants of the West Market were gathering in from every side, buzzing with talk as they eyed the canal. The string of disturbances just now had raised too great a din, and had drawn in all these lantern-goers. The clerks of the West Market Office were straining every nerve to keep order, but it was a cup of water on a burning cart. It was no fit occasion, in truth, for talk.
 
-Only a single street divided the Jing’an Bureau from the West Market. As Li Bi’s party crossed the corner, they saw a great crowd of servants clearing away the several corpses of the Wolf Guards. Ma Ge’er’s gross bulk lay on a flatbed cart like a wild boar’s, the eyes staring wide. A few commoners spat at him in disgust, yet dared not go near, but flicked salt about him from a distance with willow sprigs.
+Only a single street divided the Jing’an Bureau from the West Market. As Li Bi’s party crossed the corner, they saw a great crowd of servants clearing away the several corpses of the Wolf Guards. Ma Ge’er’s gross bulk lay like a wild boar’s carcass on a flatbed cart, eyes staring wide. A few commoners spat at him in disgust, yet dared not go near, but scattered salt about him from a distance with willow sprigs.
 
 These picked warriors of the steppe now lay thus in the streets of Chang’an, loathed and cast aside like so much refuse. Yao Runeng had no great pity for them; but it came to him that if the hero who had done these Türks in were to come to the very same end, it would be an irony indeed.
 
 The words Zhang Xiaojing had said to him rose again, unbidden, in his ears: “In Chang’an, if you do not become a monster like it, it will devour you.”
 
-The party returned to the great hall of the Jing’an Bureau, where the taut atmosphere that had hung over the place for a dozen double-hours had eased at last. The great foe was destroyed; the weary clerks and the hoarse-throated criers alike wore looks of relief. Not a few had begun quietly to put away their scrolls and implements, meaning to go home early and take their families out to see the lanterns. It was, after all, the Lantern Festival, the merriest night of the whole year.
+The party returned to the great hall of the Jing’an Bureau, where the taut atmosphere that had hung over the place for a dozen-odd double-hours had eased at last. The great foe was destroyed; the weary clerks and the hoarse-throated criers alike wore looks of relief. Not a few had begun quietly to put away their scrolls and implements, meaning to go home early and take their families out to see the lanterns. It was, after all, the Lantern Festival, the merriest night of the whole year.
 
 Li Bi flushed with displeasure: “The daughter of the military commissioner Wang is still nowhere to be found, and here is such slackness—what will outsiders think, to see it!”
 
 With the Wolf Guards annihilated, the abduction of Wang Yunxiu had become the most pressing matter the Jing’an Bureau had to resolve. Wang Zhongsi was a great minister of the court, and should any harm come to his kin, it would deal a heavy blow to the heir apparent. Li Bi could by no means allow such a thing to happen.
 
-Xu Bin hurried over and, kicking at the corners of the desks, urged them all to rouse themselves. The petty clerks could only spread their satchels open again and sit back down, though in their hearts many thought it beside the point. They all reckoned she must have died in the blast at Changming Ward, without so much as bones left, and that there was no need to trouble further over it.
+Xu Bin hurried over and, kicking at the corners of the desks, urged them all to rouse themselves. The petty clerks could only spread their satchels open again and sit back down, though in their hearts many were unconvinced. They all reckoned she must have died in the blast at Changming Ward, without so much as bones left, and that there was no need to trouble further over it.
 
 Li Bi paid the men no further heed. Heavy with care, he walked past the great sand-table of Chang’an and came straight to his own desk. On it stood seven or eight document-cases of varying make, each holding the dispatches, records, and papers that came in from every quarter. The most sumptuous of them was a purple-figured brocade case, kept for official correspondence alone. It had all along stood empty; but now within it lay a silver-edged document.
 
@@ -86,7 +86,7 @@ Li Bi took no interest in where Cui Qi would land. He rapped the desktop with a 
 
 This was the very heart of the riddle. What did the Right Xiao Guard stand to gain by braving a clash with the Jing’an Bureau and seizing a man by naked overreach?
 
-No one answered. The matter touched on court factions; Yao Runeng was of too low a grade, and Xu Bin was in a muddle, so that neither of the two could offer any counsel of worth. Tanqi stood quietly to one side, a fingertip to her chin, her lovely eyes fixed vacantly on the sand-table. All at once she gave a soft little cough, and put out a slender finger, seeming to point, as if by chance, at Pingkang Ward on the sand-table.
+No one answered. The matter touched on court factions; Yao Runeng was of too low a grade, and Xu Bin was in a muddle, so that neither of the two could offer any counsel of worth. Tanqi stood quietly to one side, a fingertip to her chin, her lovely eyes fixed vacantly on the sand-table. All at once she gave a soft little cough, and put out a slender finger and pointed, as if by chance, at Pingkang Ward on the sand-table.
 
 Understanding flashed suddenly before Li Bi’s eyes.
 

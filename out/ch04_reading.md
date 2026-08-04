@@ -6,7 +6,7 @@
 
 {d} Chang’an; Wannian County; Xiuzheng Ward.
 
-Xiuzheng Ward sat in the southeast corner of the city wall, far from the imperial city, from the East and West Markets, and from such bustling places as Yanshou and Pingkang Wards; but it bordered Qujiang Pool and the Furong Garden, which made it wonderfully convenient for outings, feasting, and the enjoyment of scenery. Though most of the capital’s grandees and nobles did not live here, they all contrived to acquire a villa or two, a detached lodge, in the ward.
+Xiuzheng Ward sat in the southeast corner of the city wall, far from the imperial city, from the East and West Markets, and from such bustling places as Yanshou and Pingkang Wards; but it bordered Qujiang Pool and the Furong Garden, which made it wonderfully convenient for outings, feasting, and the enjoyment of scenery. Though most of the capital’s grandees and nobles did not live here, they all contrived to acquire a detached villa or two, an out-of-the-way lodge, in the ward.
 
 For Long Bo or the Türks to take shelter here was indeed a shrewd choice. In this season few people were living in the mansions of the district; many stood empty, ideal for hiding in.
 
@@ -24,13 +24,13 @@ From the outside the empty house showed nothing amiss. But Zhang Xiaojing knew t
 
 “Alone?” Yao Runeng asked, startled.
 
-Zhang Xiaojing said coolly, “Just now I wouldn’t dare trust you at my back.”
+Zhang Xiaojing said coolly, “Right now I don’t dare trust you at my back.”
 
 The corner of Yao Runeng’s mouth twitched. He lowered his head and silently drew back a few paces. After that quarrel in Pingkang Ward, things between the two of them had grown delicate.
 
 A moment earlier Yao Runeng had already reported Zhang Xiaojing’s base conduct up to the Jing’an Bureau by watchtower. The Bureau’s reply, however, had been a rebuke to him: a single informer was nothing set against the safety of all Chang’an, and he was warned not to interfere again with Commander Zhang’s work, nor to use the watchtower to pass along such trifles.
 
-Stubbornly, Yao Runeng held that Zhang Xiaojing must have some scheme of his own, and that it was only his superiors, kept in the dark, who could not see it. Now that the man wanted to go into the house alone—could he be meaning to slip away and escape? Yet if he had a mind to run, he could have knocked Yao out cold just now and gone; why wait until now?
+Stubbornly, Yao Runeng held that Zhang Xiaojing must have some scheme of his own, and that it was only his superiors, kept in the dark, who could not see it. Now that the man wanted to go into the house alone—could he be meaning to slip away and escape? Yet if he had a mind to run, he could have knocked Yao out cold earlier and gone; why wait until now?
 
 He stood rooted where he was, his thoughts in a tangle, unsure whether he should follow to keep watch or obey the order and stand by to lend support. Before Yao Runeng could decide, Zhang Xiaojing over there had already clamped the barrier-knife between his teeth, backed off a dozen-odd paces from the wall, then suddenly broke into a run, sprang up to catch the top, and vaulted nimbly over the courtyard wall.
 
@@ -42,19 +42,19 @@ The gallery curved round behind the main hall and ran on into a stand of pines, 
 
 Zhang Xiaojing hid himself beneath the gallery’s eaves and put his head out to watch for about the time it takes half a stick of incense to burn. Nothing seemed to stir in the courtyard, and his heart sank a little. He had, after all, only been guessing that this might be a Türk safe-house; if the guess proved empty, he would have no usable lead left in hand, and the whole strategy would have to begin again from the start.
 
-He decided to press on a little further, and stepped up onto the gallery, edging forward. Suddenly Zhang Xiaojing twitched his nose: he had caught the faintest trace of powder and rouge—a woman had passed this way not long before, and certainly not long ago at all. Tong’er had been taken into custody, so it could not be her; who, then, was here? He crouched again and rubbed his fingers over the wooden floorboards of the gallery, and a bluish-white dust clung to the pads of his fingers. This was no ordinary dust: it was stone-grit.
+He decided to press on a little further, and stepped up onto the gallery, edging forward. Suddenly Zhang Xiaojing twitched his nose: he had caught the faintest trace of powder and rouge—a woman had passed this way just now, and she could not have been gone long. Tong’er had been taken into custody, so it could not be her; who, then, was here? He crouched again and rubbed his fingers over the wooden floorboards of the gallery, and a bluish-white dust clung to the pads of his fingers. This was no ordinary dust: it was stone-grit.
 
 There was no such material anywhere in the house; it must have been tracked in on the soles of an outsider’s shoes.
 
 Beyond doubt, someone had been here. And since they were not in the front hall, could they be hidden away in the two-story pavilion behind?
 
-Zhang Xiaojing was just rising when he felt a rush of wind above his head. His reflexes were lightning-quick: he rolled forward on the spot, dodging the blade’s edge and righting his posture at once, and drove his elbow back with a bolt. There was a soft thud—the sound of a crossbow bolt sinking into flesh. Zhang Xiaojing kicked off hard with his left leg and lunged the other way; over there a man had already toppled aslant to the ground. With his right hand like a pair of pincers he clamped the man’s jaw shut so he could make no sound, flung the pocket crossbow aside with his left, drew the barrier-knife and drove it savagely into the man’s belly—three times over, giving the hilt a twist each time.
+Zhang Xiaojing was just rising when he felt a rush of wind above his head. His reflexes were lightning-quick: he rolled forward on the spot, dodging the blade’s edge and righting himself in the same motion, and snapped his elbow back to loose a bolt. There was a soft thud—the sound of a crossbow bolt sinking into flesh. Zhang Xiaojing kicked off hard with his left leg and lunged back the way his bolt had flown; there a man had already toppled aslant to the ground. With his right hand like a pair of pincers he clamped the man’s jaw shut so he could make no sound, flung the pocket crossbow aside with his left, drew the barrier-knife and drove it savagely into the man’s belly—three times over, giving the hilt a twist each time.
 
 The man slumped limp to the ground, dead. Only now had Zhang Xiaojing leisure to study his face: another Türk, but wearing the tabard of the Directorate for the Palace Buildings. One side of the gallery was pierced with a straight-latticed moon-window that blocked half the view. This Türk had likely been relieving himself in the thicket behind the window, which was why Zhang Xiaojing had not seen him.
 
-It had been a hair’s breadth. Had Zhang Xiaojing been a fraction slower to react, the Türk’s blade would have split his skull. And had the man not been greedy for the credit of a stealthy kill, but instead cried out first to warn his fellows, Zhang Xiaojing would very likely have found himself trapped in a converging slaughter.
+It had been a matter of a hair’s breadth. Had Zhang Xiaojing been a fraction slower to react, the Türk’s blade would have split his skull. And had the man not been greedy for the credit of a stealthy kill, but instead cried out first to warn his fellows, Zhang Xiaojing would very likely have found himself ringed round and slaughtered.
 
-Only one man set to roam and patrol the front hall, rather than two posts, one seen and one hidden—it seemed the enemy’s numbers could not be great either. Zhang Xiaojing was all but certain now: the enemy was in that two-story pavilion behind.
+Only one man set to patrol the front hall, rather than two posts, one in the open and one hidden—the enemy’s numbers, it seemed, could not be great either. Zhang Xiaojing was all but certain now: the enemy was in that two-story pavilion behind.
 
 Caught the wolves by the tail at last, Zhang Xiaojing thought, exhilarated.
 
@@ -64,17 +64,17 @@ The two-story pavilion behind the central hall bore the name “Zhuxin.” From 
 
 Zhang Xiaojing watched for a while. No figure showed at the windows; these people were careful. He decided to withdraw for the moment—the pavilion’s inner structure was intricate and its spaces cramped, and to blunder in would be too dangerous. But just as he was about to slip quietly away, from one of the rooms on the second floor there suddenly came a woman’s shriek.
 
-At the sound—so familiar—Zhang Xiaojing’s two silkworm brows knotted together. He hesitated a moment, then leveled the pocket crossbow and crept along beneath the lower windows toward the front door. Reaching it, he set his back to the wall, turned side-on to face the doorway, and flung a garden stone he had picked up in the court off in the opposite direction.
+At the sound—so familiar—Zhang Xiaojing’s two silkworm brows knotted together. He hesitated a moment, then leveled the pocket crossbow and crept along beneath the lower windows toward the front door. Reaching it, he set his back to the wall, turned side-on to face the doorway, and flung a garden stone he had picked up in the court away in the opposite direction.
 
-As he had foreseen, the man in the pavilion’s main room heard the sound and opened the door to look. Zhang Xiaojing gave the door a violent shove from the side; it slammed hard against the back of the man’s skull, and then his arm cinched savagely around the throat. The fellow’s neck was seized all at once; he struggled desperately, and his right leg kicked over a flower-stand beside him. A fine-veined earthen pot fell to the ground and shattered with a crash into countless shards, ringing out across the whole courtyard.
+As he had foreseen, the man in the pavilion’s main room heard the sound and opened the door to look. Zhang Xiaojing gave the door a violent shove from the side; it slammed hard against the back of the man’s skull, and then his arm cinched savagely around the man’s throat. The fellow’s neck was seized all at once; he struggled desperately, and his right leg kicked over a flower-stand beside him. A fine-veined earthen pot fell to the ground and shattered with a crash into countless shards, ringing out across the whole courtyard.
 
 With a backhand wrench Zhang Xiaojing snapped the man’s neck. But his scheme to slip in unnoticed was now in ruins. Hurried footsteps sounded from the second floor, dust sifted swiftly down from the ceiling, and with it came loud shouting in Turkic. Things having come to this, Zhang Xiaojing wasted no time on regret; he took up the pocket crossbow and charged up the bamboo stairs. The first man to come rushing down he felled with a single bolt, and the body tumbled the rest of the way.
 
-Zhang Xiaojing seized the chance and rushed straight up to the second floor in one breath, ducking behind a trim embroidered screen that stood facing the stairs. The Türks had hand-crossbows too, and loosed a wild volley—whiss, whiss, whiss—that riddled the screen into a sieve. Zhang Xiaojing deliberately held his fire; then, the moment one man came forward with a raised blade, he loosed a swift bolt that took him square in the knee.
+Zhang Xiaojing seized the chance and rushed straight up to the second floor in one breath, ducking behind a handsome embroidered screen that stood facing the stairs. The Türks had hand-crossbows too, and loosed a wild volley—whiss, whiss, whiss—that riddled the screen into a sieve. Zhang Xiaojing deliberately held his fire; then, the moment one man came forward with a raised blade, he loosed a swift bolt that took him square in the knee.
 
 The others dragged their screaming comrade back and dared not close for a while. So the two sides took cover and, each holding one end of the corridor, shot it out. For a moment bolts flew crosswise through the little pavilion like a storm blown indoors.
 
-Bows and bolts were forbidden to be carried into the city, so these Türks’ crossbows were all privately made—inferior to the army’s regulation issue in both rate of shooting and accuracy. With the strength of a single crossbow, Zhang Xiaojing could actually pin down three men and three crossbows so they could not raise their heads.
+Arrows and crossbows were forbidden entry into the city, so these Türks’ crossbows were all privately made—inferior to the army’s regulation issue in both rate of fire and accuracy. With the strength of a single crossbow, Zhang Xiaojing could actually pin down three men and three crossbows so they could not raise their heads.
 
 Zhang Xiaojing’s trouble was that the bolts he carried were nearly spent. He guessed the enemy still had at least four men, all shrinking back inside the second-floor rooms and refusing to come out, and a private anxiety gnawed at him.
 
@@ -96,9 +96,9 @@ Ma Ge’er issued his threat a third time, and this time he meant to make good o
 
 Zhang Xiaojing could only cast the barrier-knife aside as well and step out with both hands raised high.
 
-Two Türks rushed him and pinned him to the floor. His hands mastered and all resistance gone, Zhang Xiaojing could only struggle to lift his head, trying to make out the woman’s face—but Ma Ge’er had already shoved her back into the room.
+Two Türks rushed him and pinned him to the floor. His hands pinned and all power of resistance gone, Zhang Xiaojing could only struggle to lift his head, trying to make out the woman’s face—but Ma Ge’er had already shoved her back into the room.
 
-He was still struggling when a great hand yanked him up by the hair and slammed him down against the floor. The brutal impact set stars bursting before his eyes, and two streams of blood knocked from his nostrils; then a second time, and a third, until soon an appalling smear of blood spread across the fine cypress floorboards...
+He was still struggling when a great hand yanked him up by the hair and slammed him down against the floor. The brutal impact set stars bursting before his eyes and knocked two streams of blood from his nostrils; then came a second time, and a third, until soon an appalling smear of blood spread across the fine cypress floorboards...
 
 ***
 
@@ -124,7 +124,7 @@ But Li Bi was still not satisfied with this answer; he wanted to know more of th
 
 In the simulation, one full turn of the sand-glass marked one quarter-hour, and one cluster of crimson slips stood for a fire’s spread over three hundred paces around. Xu Bin’s report—“forty leaks, thirty-seven wards”—meant that once fire broke out, within four double-hours it could spread to thirty-seven wards, all of them in the flourishing northern city, the very cream of Chang’an.
 
-And this was only the simulation of a single outbreak. Were someone set on it, and were to start fires in several places at once, the outcome would likely be several times more harrowing.
+And this was only the simulation of a single outbreak. If someone were set on it and lit fires in several places at once, the outcome would likely be several times more harrowing.
 
 Looking at the crimson slips crowded thick across the sand-table, every onlooker saw rise in his mind a horrifying vision of a hell of raging fire. Could this—could this be the true face of the Que-le Huo-duo?
 
@@ -142,7 +142,7 @@ Cui Qi fell silent; he of all people knew how terrible a panicked mob could be. 
 
 The best answer, of course, would be to cancel the lantern fair and restore the night curfew—utterly impossible; the next best, to search every ward one by one—also impossible. Li Bi shook his head helplessly. Hemmed in on every side, within the Bureau and without, unable to have his way, he was truly like a man dancing the Sogdian whirl in fetters.
 
-There was, in fact, one more method: to have the veteran clerks mark on the sand-table the spots best suited for arson, and send men ahead to lie in wait there. But this was no better than a gamble—let a single one be guessed wrong, and the whole thing collapsed. Li Bi did not care for such leaving-it-to-heaven.
+There was, in fact, one more method: to have the veteran clerks mark on the sand-table the spots best suited for arson, and send men ahead to lie in wait there. But this was no better than a gamble—let a single one be guessed wrong, and the whole thing collapsed. Li Bi did not care for that kind of trusting to heaven.
 
 Yet if he did not do this, what else could he do? Was he to pin all his hopes on Zhang Xiaojing alone?
 
@@ -152,7 +152,7 @@ Just then a white-bearded old clerk beside him put in: “Better than searching 
 
 “The Deputy Director sees clearly. In your servant’s humble view, only keep close watch on any bulk store of these two kinds of goods, and something is sure to come of it.”
 
-This was an idea struck out fresh, and all who heard it nodded inwardly. Li Bi said in praise: “Xun Yue’s Extended Reflections has it: ‘Prevention comes first; remedy comes second.’ This method draws the firewood from under the cauldron—one might say it grasps the very heart of the matter.”
+This was a fresh stroke of thought, and all who heard it nodded inwardly. Li Bi said in praise: “Xun Yue’s Extended Reflections has it: ‘Prevention comes first; remedy comes second.’ This method draws the firewood from under the cauldron—one might say it grasps the very heart of the matter.”
 
 Seeing a colleague win a nod from on high, the others grew bolder too. One said: “Firewood and the like all comes from the hill-folk of the capital region, scattered and piecemeal, hard to trace at short notice; better to concentrate on the oil. That is not easily rendered and pressed—only a great house or a great ward can manage it, so its sources all rest in the hands of a few large merchants, and it can be traced the faster.”
 

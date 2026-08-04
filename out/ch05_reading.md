@@ -26,11 +26,11 @@ Cao Poyan stood with his arms folded, watching the whole business in silence. Lo
 
 Long Bo laid a deliberate weight on the words “last task,” and Cao Poyan slowly nodded. His crown-lock had been taken from him; that marked him out to be given up as a sacrifice within the walls of Chang’an, and he had long since steeled himself to it.
 
-Still, there was a small grievance in Cao Poyan’s heart: at so crucial a moment the noble Right Shad did not come in person, but had instead set a man of Kucha over them to point and direct. The Right Shad had said he had a more important matter to see to; but what could there be more important than the Que-le Huo-duo?
+Still, there was a small grievance in Cao Poyan’s heart: at so crucial a moment the noble Right Shad did not come in person, but had instead set a man of Kucha over them to order them about. The Right Shad had said he had a more important matter to see to; but what could there be more important than the Que-le Huo-duo?
 
 Long Bo took up a hemp cloth to cover his face and went into the warehouse. Behind him the great doors swung creaking shut again. What went on inside, no outsider could know.
 
-Cao Poyan sat down slowly in the warehouse doorway, his back against a gallery-pillar, and drew from his neck that necklace of colored stones to turn it over in his hands. They were smooth shoal-pebbles his daughter had gathered by the Onon River, strung with her own hands on a cord she had twisted of white horsehair, into which she had worked three strands of her own hair and one breath of her own breathing. So bound, it was said, however far the two of them might be parted, their souls could still speak to each other. Cao Poyan’s fingers slid nimbly over every stone, the way a monk of the Central Plains tells his prayer-beads. The stones’ faces were worn glass-smooth, rubbed past all counting, and each time it calmed his heart.
+Cao Poyan sat down slowly in the warehouse doorway, his back against a gallery-pillar, and drew from his neck that necklace of colored stones to turn it over in his hands. They were smooth shoal-pebbles his daughter had gathered by the Onon River, strung with her own hands on a cord she had twisted of white horsehair, into which she had worked three strands of her own hair and a single breath of her own. So bound, it was said, however far the two of them might be parted, their souls could still speak to each other. Cao Poyan’s fingers slid nimbly over every stone, the way a monk of the Central Plains tells his prayer-beads. The stones’ faces were worn glass-smooth, rubbed past all counting, and each time it calmed his heart.
 
 The Right Shad had already cut away Cao Poyan’s crown-lock. By what the steppe shamans held, should he ever harbor a treasonous heart, then even in death his soul would be tormented in the underworld. But Cao Poyan cared not a whit for that. What he truly cared about was no trifling thing like his own life, but whether the mission would come off, and whether the khagan’s will would be carried through.
 
@@ -38,7 +38,7 @@ Only one more double-hour to endure, and it would all be over. Gripping the neck
 
 Before long a banging came at the courtyard gate, in a rhythm of three short and four long, repeated four times. Cao Poyan hung the necklace of colored stones back around his neck, but did not hurry to open up; instead he climbed a raised platform nearby and looked out over the gate.
 
-He saw Ma Ge’er standing outside the gate with two others, and between them, held fast, a woman of the Central Plains. His brows knit despite himself.
+He saw Ma Ge’er standing outside the gate with two others, and between them, held fast, a woman of the Central Plains. Despite himself, his brows knit.
 
 They had gone to abduct Wang Zhongsi’s daughter; that much Cao Poyan knew. But she was supposed to be shut up in the safe-house in Xiuzheng Ward. How came she to be brought here? And eight Wolf Guards had gone in all; how was it that only three were left now?
 
@@ -54,7 +54,7 @@ One safe-house was no great loss; what mattered was how the Tang had come to kno
 
 Seeing Cao Poyan’s face darken, Ma Ge’er hastened to curry favor: “We got Wang Zhongsi’s daughter out; we didn’t let them take her from us.”
 
-Cao Poyan asked, “As I recall, you seized two women. How did you judge which was she?” A touch smugly, Ma Ge’er answered: “We only made it out after we’d brought them back to the safe-house. The scent on her is the fuller of the two.” With that he grabbed Wen Ran’s jacket and wrenched it roughly open to either side, baring the pink under-shift; Wen Ran gave a shriek, but her arms were clamped fast, and a wave of fragrance rushed up into their faces.
+Cao Poyan asked, “As I recall, you seized two women. How did you judge which was she?” A touch smugly, Ma Ge’er answered: “We only made it out after we’d brought them back to the safe-house. The scent on her is the stronger of the two.” With that he grabbed Wen Ran’s jacket and wrenched it roughly open to either side, baring the pink under-shift; Wen Ran gave a shriek, but her arms were clamped fast, and a wave of fragrance rushed up into their faces.
 
 Cao Poyan looked Wen Ran over, then made a sign and ordered her taken for the moment to the well-pavilion a little way off, and went up to the warehouse. He knocked. The door soon cracked open; first the stinging smell came out, and then Long Bo thrust his head out impatiently, pulling aside the hemp cloth at his mouth.
 
@@ -78,7 +78,7 @@ Long Bo looked him in the eye and sighed: “Are the wolves of the steppe all as
 
 “For money, they’ll do anything at all,” said Long Bo. Then he leaned in and murmured a few words to Cao Poyan, after which he slammed the warehouse door shut again. The business of the Que-le Huo-duo would wait for no man.
 
-Cao Poyan did not like Long Bo, but he had to grant that the man’s suggestion was the best to be had just now, and it solved the trouble of too few hands for the watch. Turning about with a mind full of cares, he was casting over how to go and find the beggars’ headman when he raised his eyes, and his fury flared at once.
+Cao Poyan did not like Long Bo, but he had to grant that the man’s suggestion was the best to be had just now, and it solved the trouble of too few hands for the watch. Turning about with a mind full of cares, he was still casting about for how to find the beggars’ headman when he raised his eyes, and his fury flared at once.
 
 He saw Ma Ge’er in the well-pavilion, astride Wen Ran and tearing at her clothes in a fever. Already in Xiuzheng Ward Ma Ge’er had been burning with lust; and having just dragged Wen Ran with him the whole flight, skin brushing skin and her fragrance in his nose, he had long been unable to hold himself in. Wen Ran writhed and struggled with all her might, but could not fend off the brutal assault; she could only weep and cry out “Papa, Papa,” begging for a rescue that could not possibly come.
 
@@ -88,9 +88,9 @@ His eyes gone red, Ma Ge’er howled and reached to grab Cao Poyan by the should
 
 “The depot’s short of hands. The three of you, get in there and work. We’re one step from the Que-le Huo-duo. Don’t you idle out here and make trouble for me!”
 
-Sullenly Ma Ge’er pulled up his trousers and headed for the warehouse with his two men. Wen Ran lay on the ground, gasping and gasping, her breast heaving, her hair-knot torn to a shambles. Cao Poyan bent to drag her up, but she braced herself, snatched a broken stone from the ground, and struck violently at his forehead. Cao Poyan had not reckoned that in such a plight the woman would still try to fight back. He dodged aside, and his foot flashed up and caught her by the wrist. The stone flew to the well-mouth and dropped with a plop into the water.
+Sullenly Ma Ge’er pulled up his trousers and headed for the warehouse with his two men. Wen Ran lay on the ground, gasping and gasping, her breast heaving, her hair-knot torn to a shambles. Cao Poyan bent to drag her up, but she braced herself, snatched a broken stone from the ground, and struck violently at his forehead. Cao Poyan had not reckoned that in such a plight the woman would still try to fight back. He dodged aside, and his foot flashed up and struck her on the wrist. The stone flew to the well-mouth and dropped with a plop into the water.
 
-This time Wen Ran truly despaired. The killing air about this fellow was far heavier than that of the Bear Fire Gang riff-raff, or of that swine a moment ago. Rubbing the fierce pain in her wrist, she watched the man slowly reach a hand into his breast, and closed her eyes in defeat.
+This time Wen Ran truly despaired. The killing air about this fellow was far heavier than that of the Bear Fire Gang riff-raff, or of that swine a moment ago. Rubbing her fiercely aching wrist, she watched the man slowly reach a hand into his breast, and closed her eyes in defeat.
 
 But what Cao Poyan drew out was not a knife; it was a portable box of boxwood.
 
@@ -106,7 +106,7 @@ The woman was the Right Shad’s quarry; however his own heart might rebel, Cao 
 
 All at once it came to Wen Ran: these foreigners had nothing to do with the Bear Fire Gang; they had plainly taken her for Wang Yunxiu, and they meant to kill her. She cried out in haste that she was not the one, she was not the one, her name was Wen Ran.
 
-But Cao Poyan simply did not believe her; he took it that the girl was only casting about for excuses, unwilling to accept the cruel fact. He drew the dagger slowly from his belt and, with a soft thut, drove it into the ink-box, as much as to say she should stop struggling to no purpose and honestly write out the last words of her life.
+But Cao Poyan simply did not believe her; he took it that the girl was only casting about for excuses, unwilling to accept the cruel fact. He drew the dagger slowly from his belt and, with a soft thunk, drove it into the ink-box, as much as to say she should stop struggling to no purpose and honestly write out the last words of her life.
 
 Wen Ran bit her lip and gripped the brush once more, though tears welled uncontrollably from her eyes. To be seized twice over within two double-hours had worn her out in body and spirit, and now, driven to such a pass, she could hold out no longer. Exhaustion, terror, and the fear of death came upon her all at once and broke down her defenses.
 
@@ -118,9 +118,9 @@ Wen Ran broke into loud weeping.
 
 Cao Poyan did not grow angry; he took it for a good sign, that her resistance was crumbling, like the gazelles of the steppe, which, once they know there is no escaping the wolf-pack, kneel down on their forelegs and bleat out their lament.
 
-And so, unangered, he bent down, picked up the brush, and pressed it back into Wen Ran’s hand. Just then a heavy, rumbling crash came from within the depot, as though one of the great casks had rolled down onto the floor.
+And so, keeping his temper, he bent down, picked up the brush, and pressed it back into Wen Ran’s hand. Just then a heavy, rumbling crash came from within the depot, as though one of the great casks had rolled down onto the floor.
 
-Cao Poyan’s attention was drawn to the sound, and in the space of no more than a few snaps of the fingers; but when he turned back again, the pavilion and its surroundings stood empty, and Wen Ran was nowhere to be seen.
+Cao Poyan’s attention was drawn away by the sound for no more than a few snaps of the fingers; but when he turned back again, the pavilion and its surroundings stood empty, and Wen Ran was nowhere to be seen.
 
 ***
 
@@ -160,21 +160,21 @@ Just then Li Bi’s voice rose again, harsh and impatient: “Keep searching for
 
 To this impractical demand Xu Bin made no protest, but answered respectfully, handed the scroll to Tanqi, and withdrew with a bow. No joke: the Deputy Director was in the heat of his temper, and to cross him to his face would be plain suicide; in a while he would come round of himself.
 
-It was, after all, the weather of the first month, and though braziers had been lit in all four corners of the great hall, one’s hands still felt the cold. Xu Bin tucked his hands into his sleeves and passed between the rows of clerks laboring with bowed heads, his ears full of the rustle of scrolls and the clack of counting-rods. Looking at these worn-out petty clerks, Xu Bin found himself unconsciously straightening his back, moved to a certain feeling.
+It was, after all, the weather of the first month, and though braziers had been lit in all four corners of the great hall, one’s hands still felt the cold. Xu Bin tucked his hands into his sleeves and passed between the rows of clerks laboring with bowed heads, his ears full of the rustle of scrolls and the clack of counting-rods. Looking at these worn-out petty clerks, Xu Bin found himself unconsciously straightening his back, moved by a certain feeling.
 
-Xu Bin’s memory was famous throughout Chang’an. He could overturn a game of Go near its end and then set every stone back, one by one. A pity that his career had never come to much; he had always been a petty clerk of no standing. This summons to the Jing’an Bureau had let Xu Bin glimpse a faint dawn of a chance to rise. His title just now was Acting Recorder of the Jing’an Bureau; and if he could win some great merit and strike off that “Acting,” why, that would be a proper official’s rank, the junior eighth grade, lower class!
+Xu Bin’s memory was famous throughout Chang’an. He could overturn a game of Go near its end and then set every stone back, one by one. A pity that his career had never come to much; he had always been a petty clerk of no standing. This summons to the Jing’an Bureau had shown Xu Bin the first faint glimmer of a chance to rise. His title just now was Acting Recorder of the Jing’an Bureau; and if he could win some great merit and strike off that “Acting,” why, that would be a proper official’s rank, the junior eighth grade, lower class!
 
 And so the more troublesome the situation, the readier the chance to distinguish himself!
 
-A rush of excitement rose in him, and as he caught up a handful of counting-rods, Li Bi’s near-brutal order sprang suddenly into his mind: “Everything that can be set alight, search the whole of it through for me!” Turning it over so far, Xu Bin’s eyes all at once went bright, as though he had caught hold of some inspiration.
+A rush of excitement rose in him, and as he caught up a handful of counting-rods, Li Bi’s near-brutal order sprang suddenly into his mind: “Everything that can be set alight, search the whole of it through for me!” He turned it over, and all at once his eyes went bright, as though he had caught hold of some inspiration.
 
 Xu Bin halted, thinking to gather a few clerks and go through the files afresh. But the words came to his lips, and he swallowed them again. Everyone just now was busy to the death; to have them spend their strength on a spur-of-the-moment guess was a bit too great a risk.
 
 No help for it; he would have to do it himself. Xu Bin sighed, caught hold of a passing message-clerk, reeled off a string of catalogue numbers for him to fetch the files, then went back to his own desk, rolled up his sleeves halfway, and took up a fine-tipped vermilion brush.
 
-I cannot charge into the fray as Zhang Xiaojing does; if I would win merit, the files are my battlefield. Thinking so far, Xu Bin turned his eager gaze despite himself toward the Deputy Director, not far off.
+I cannot charge into the fray as Zhang Xiaojing does; if I would win merit, the files are my battlefield. At the thought, Xu Bin could not keep his eager gaze from straying toward the Deputy Director, not far off.
 
-But Li Bi took no notice of Xu Bin’s doings, and would not have cared had he noticed. His eyes held nothing but the great sand-table of Chang’an, as though only by staring a while longer he might discover how those Türk Wolf Guards had smuggled fuel-oil into Chang’an without gods or ghosts being the wiser.
+But Li Bi took no notice of Xu Bin’s doings, and would not have cared had he noticed. His eyes held nothing but the great sand-table of Chang’an, as though, if he only stared a while longer, he might discover how those Türk Wolf Guards had smuggled fuel-oil into Chang’an without gods or ghosts being the wiser.
 
 The water-clock in the corner of the hall dripped on, neither hurried nor slow; less than three double-hours remained until the lantern fair, and yet the matter had made no real progress at all.
 

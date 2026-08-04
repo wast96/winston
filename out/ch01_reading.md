@@ -8,9 +8,9 @@ The spring cold still bit, but the sun was brilliant. Not a cloud hung over Chan
 
 With a long creak, the two heavy leaves of the West Market’s gate were pushed slowly open, a Kaiming-beast banner hanging high at the center of the lintel. Out in the avenue a dozen or more camel trains had long since gathered, and the moment the banner went up they broke into a clamor. Hands cracked little oxhide whips to rouse the camels lying on the ground, counted the crates, called to their fellows; the shouting in outland accents rose and fell on every side.
 
-These were the last of the foreign merchant caravans to reach Chang’an before the Lantern Festival. They had set out from far-off Fulin, from Persia and the like, traveling day and night to be in time for the capital’s most important festival. For from this very evening the lantern fair would run three full nights, and the great and noble of the Tang did not spare their purses.
+These were the last of the foreign merchant caravans to reach Chang’an before the Lantern Festival. They had set out from far-off Fulin, from Persia and the like, traveling day and night to be in time for the capital’s most important festival. From this very evening, after all, the lantern fair would run three full nights, and the great and noble of the Tang did not spare their purses.
 
-The clerks of the West Market office stood on either side of the western entrance, ledger in one hand, brush in the other, checking transit papers and goods one party at a time with blank faces. Today was a special day: the market had opened half a double-hour earlier than usual. Every clerk wanted the work done and to be home for the festival, and their inspections went a shade faster than their wont.
+The clerks of the West Market office stood on either side of the western entrance, ledger in one hand, brush in the other, checking transit papers and goods one party at a time with blank faces. Today was a special day: the market had opened half a double-hour earlier than usual. Every clerk wanted the work done and to be home for the festival, and their inspections went a shade faster than usual.
 
 One old clerk finished registering a party of Persian merchants at speed, then beckoned to the next in line. A foreign trader in a chestnut-brown short robe with double lapels stepped forward and presented his travel pass with both hands.
 
@@ -28,7 +28,7 @@ The old clerk asked a few simple questions, and Cao Poyan answered each one. His
 
 For safety’s sake, every merchant’s blades were confiscated by the gate wardens on entering the city, to be returned only when they left.
 
-Without a flicker, the old clerk set down his brush and ledger and walked once around Cao Poyan’s train. The goods were nothing out of the ordinary, common stock. All fifteen companions were foreigners in tight trousers and pointed shoes, none far from Cao Poyan’s own age. Each led a camel in silence, but every man’s shoulders were faintly taut.
+Without a flicker, the old clerk set down his brush and ledger and walked once around Cao Poyan’s train. The goods were nothing out of the ordinary, common stock. All fifteen companions were foreigners in tight trousers and pointed shoes, none far from Cao Poyan’s own age. Each led a camel in silence, every man’s shoulders drawn faintly tight.
 
 “These fellows are nervous,” the old clerk judged to himself, and lifted his brush to mark the pass with the word “pending”—meaning the caravan’s identity was in doubt and the deputy of the market office must look into it further. But before the brush came down, a large hand stopped it.
 
@@ -38,15 +38,15 @@ The old clerk looked up to find a thick-browed, broad-faced man smiling at him.
 
 The man was a well-known broker in the West Market, with wide connections; whether it was moving goods and pawnbroking, renting rooms and finding people, or greasing a lawsuit, he was the middleman to go to. So though he held no office, on the ground of the West Market he did very well for himself.
 
-Cui Liulang beamed. “You’ve not had your morning bite yet, I’d wager? I brought you a cake, old sir.” He held out a steaming sesame flatcake studded on top with glossy, plump sesame seeds, fragrant enough to make the mouth water. The old clerk gave it a squeeze and found a small ingot of plain silver pressed deep into its underside. He weighed it in secret—two taels at least, he thought; not spendable as coin, but enough to have a fine hairpin made for his daughter.
+Cui Liulang beamed. “You’ve not had your morning bite yet, I’d wager? I brought you a cake, old sir.” He held out a steaming sesame flatcake studded on top with glossy, plump sesame seeds, fragrant enough to make the mouth water. The old clerk gave it a squeeze and found a small ingot of plain silver pressed deep into its underside. He hefted it covertly—two taels at least, he thought; not spendable as coin, but enough to have a fine hairpin made for his daughter.
 
 “These friends of mine are in Chang’an for the first time and don’t know half the rules; I’ll trouble you to be accommodating, old sir,” Cui Liulang said, lowering his voice.
 
 The old clerk hesitated a moment, then took the cake after all and marked the pass with “allowed,” granting entry to the market. Cui Liulang folded his hands in thanks, turned, and rattled off a fluent stream of Sogdian. Cao Poyan only gave a slight nod, with neither pleasure nor excitement.
 
-Led by Cui Liulang, the little camel train filed in single file up the ramp and into the West Market.
+Led by Cui Liulang, the little camel train filed up the ramp and into the West Market.
 
-Past the ramp lay a broad crossroads, its four wide lanes—east, south, west, north—lined on both sides with shops and stalls. Silk and cloth shops, ironmongers, porcelain shops, saddleries, cloth-and-grain shops, jewelers and inlay-work shops, instrument sellers—everything was there. The roofs of these shops were unlike the buildings of Chang’an elsewhere, flat as terraces—not out of any foreigner’s homesickness, but because here land was worth its weight in gold, and a broad flat roof could stack more goods.
+Past the ramp lay a broad crossroads, its four wide lanes—east, south, west, north—lined on both sides with shops and stalls. Silk and cloth shops, ironmongers, porcelain shops, saddleries, cloth-and-grain shops, jewelers and inlay-work shops, instrument sellers—everything was there. The roofs of these shops were unlike the buildings of Chang’an elsewhere, flat as terraces—not out of any foreigner’s homesickness, but because here an inch of ground cost an inch of gold, and a broad flat roof could stack more goods.
 
 The shops had not yet formally opened, but every one had already hung its signs out high, pennant joined to pennant until they all but curtained the sky above the lane. The peachwood charms hung at the lintels on New Year’s Eve had not yet been taken down, and beside them now stood bamboo frames for lanterns of every shape—all made ready for tonight’s lantern procession. The lanterns were not yet up, but the smell of festivity already soared to the heavens.
 
@@ -54,17 +54,17 @@ The shops had not yet formally opened, but every one had already hung its signs 
 
 As he walked, Cui Liulang warmly acquainted his guests with the lore of Chang’an. Cao Poyan’s eyes swept left and right, ever wary, like a fierce hawk not yet broken to the hand. All around, horses and mules brayed and cart wheels rumbled, and the travelers passing by were all hurrying on their way; no one paid the little caravan any mind.
 
-The two came to the very center of the crossroads. Cui Liulang halted. “Where to next? Shall we find an inn, or does your lordship have a house you’re consigned to?” Cao Poyan drew a folded slip of paper from his robe and handed it over. Cui Liulang started, then smiled. “Ah, you’ve booked it all already. Come, this way.” He stretched out his arm and pointed to the right with a touch of flourish, then strode ahead, the others close behind.
+The two came to the very center of the crossroads. Cui Liulang halted. “Where to next? Shall we find an inn, or has your lordship a house already engaged?” Cao Poyan drew a folded slip of paper from his robe and handed it over. Cui Liulang started, then smiled. “Ah, you’ve booked it all already. Come, this way.” He stretched out his arm and pointed to the right with a touch of flourish, then strode ahead, the others close behind.
 
 What Cao Poyan did not know was that this small exchange between him and Cui Liulang had been taken in, every bit of it, by the constable in the watchtower not far off.
 
 The watchtower was a tall pavilion of black-lacquered timber, more than eight zhang high, standing at the dead center of the West Market, from which one could look down on all the market’s comings and goings. The constables who manned it were carefully chosen for their sharp eyes; nothing that stirred in the market escaped them.
 
-From the moment Cui Liulang and Cao Poyan entered the market, the watchtower had kept them under close guard. Seeing Cui Liulang’s gesture, a constable straightened, took up a solid black flag, and waved it three times toward the east, repeating the signal three times over.
+From the moment Cui Liulang and Cao Poyan entered the market, the watchtower had kept them under close watch. Seeing Cui Liulang’s gesture, a constable straightened, took up a solid black flag, and waved it three times toward the east, repeating the signal three times over.
 
 Two snaps of the fingers later, another watchtower three hundred paces to the east waved the same black flag; then a tower farther east swiftly answered in turn. So it passed from tower to tower, and in the space of a few dozen finger-snaps the black flag’s message had crossed a whole avenue, carried from the West Market to Guangde Ward, a ward’s breadth to the east.
 
-In the northeast corner of Guangde Ward stood the offices of the Jingzhao Prefecture, and beside them the Temple of Mercy. Wedged between the two was an unremarkable side courtyard, once the former residence of Sun Simiao; but every trace of the Medicine King was gone now, replaced by a grim, martial air, and in the yard rose a tall black watchtower far larger than the rest.
+In the northeast corner of Guangde Ward stood the offices of the Jingzhao Prefecture, and beside them the Temple of Mercy. Wedged between the two was an unremarkable side courtyard, once the residence of Sun Simiao; but every trace of the Medicine King was gone now, replaced by a grim, martial air, and in the yard rose a tall black watchtower far larger than the rest.
 
 The constable atop it saw the black flag waving in the distance, noted the flag’s color and the number of waves on a wooden slip, and flung it swiftly to the ground below.
 
@@ -72,9 +72,9 @@ A tall, sturdy runner below caught the slip and ran with it into a broad, high h
 
 The first thing one saw on entering was an enormous sand-table of the city of Chang’an. The outer walls were molded of red clay, the ward and market walls of yellow beeswax; the hundred and eight wards and twenty-five great streets were laid out as trim as a chessboard, and even the crooked lanes within the wards and the transport canals were rendered down to the last hair—only the palace city, of course, was left a blank. In one corner of the hall stood a four-tiered bronze water-clock with coiled dragons, set to the same time as the clepsydra before the Shuntian Gate.
 
-To look down on this table, with the water-clock to aid you, was to gaze on Chang’an from the clouds, every shift of the hour and the situation plain to the heart.
+To look down on this table, with the water-clock to aid you, was to gaze on Chang’an from the clouds, every shift of hour and circumstance laid plain.
 
-Beside the sand-table two officials stood studying it intently. The elder was white of hair and beard, in a wide-sleeved purple robe with a round collar, a gold fish-pouch at his waist. The younger had a small, round face still not free of its greenness, yet three faint lines already showed between his brows—plainly a man who thought too much. He wore a narrow-sleeved green robe, a silver fish-pouch hanging at his waist, and yet in his hand he held a Daoist’s fly-whisk.
+Beside the sand-table two officials stood studying it intently. The elder was white of hair and beard, in a wide-sleeved purple robe with a round collar, a gold fish-pouch at his waist. The younger man had a small, round face, the greenness of youth not yet gone from it, yet three faint lines already showed between his brows—plainly a man who thought too much. He wore a narrow-sleeved green robe, a silver fish-pouch hanging at his waist, and yet in his hand he held a Daoist’s fly-whisk.
 
 The runner ran up before the two officials and, slip in hand, cried out in a booming voice that rang through the hall: “The wolf has entered the West Market—past the crossroads already!”
 
@@ -126,13 +126,13 @@ The command passed from the hall of the Jing’an Bureau up to the watchtower, t
 
 Before the slip reached the ground, a large hand caught it fast.
 
-The one who caught it was a tall, curly-bearded giant with arms as thick as roof-beams. He took the slip, scanned the order on it, and with a jolt of spirit turned and roared, “All hands, form up!”
+The one who caught it was a tall, curly-bearded giant with arms as thick as roof-beams. He took the slip, scanned the order on it, and with a surge of spirit turned and roared, “All hands, form up!”
 
 From the storehouse beside him, fifty Lüben Guardsmen filed swiftly out. Each wore ink-black infantry armor and carried a short arm-drawn crossbow, a ringless saber hung at the waist; ten of them also bore long bows slung across their backs. Through the whole forming-up not a man spoke; there was only the dull tramp of feet and the sound of breathing.
 
 Cui Qi swept the ranks with a grim face. “The target is in Warehouse Bing-6. Surround first, strike after; take them alive so far as you can. Keep your wits about you, and let no man shame the Lüben Guards!” With that he waved his hand and set off at a run. The soldiers followed their commander close, five to a rank, first at a trot, then at a hard sprint.
 
-They flashed across the crossroads by the routes they knew well and slipped into the winding lanes, making for the southern part of the West Market. Merchants along the way, seeing the dust suddenly fly and so many soldiers pounding past, showed their alarm. Before they could put their heads together, a great many buliang men came up and asked each shop to close its doors for the time; the people in the streets, too, were ushered into nearby shops to wait, and no one was allowed to leave.
+They flashed across the crossroads by the routes they knew well and slipped into the winding lanes, making for the southern part of the West Market. Merchants along the way, seeing the dust suddenly fly and so many soldiers pounding past, showed their alarm. Before they could put their heads together, a great many buliang men came up and asked each shop to close its doors for the moment; the people in the streets, too, were ushered into nearby shops to wait, and no one was allowed to leave.
 
 At the West Market’s east and west entrances, the gate soldiers heaved the stone ward-bars up out of their pits, ready to shut the gates at a moment’s notice.
 
@@ -144,7 +144,7 @@ With that, Warehouse Bing-6 was cut off entirely from the West Market.
 
 Half-crouched at the corner of an earthen wall near Warehouse Bing-6, Cui Qi took the heart-guard mirror from his chest, hung it on the tip of his saber, and eased it carefully out into the open. By the mirror’s reflection he could see what lay ahead without ever putting his head out.
 
-Warehouse Bing-6 was a timber building with low, overhanging eaves, sixty paces long and forty-five wide, very nearly square, with only one entrance and vent windows on all four sides—but the windows were especially small, too narrow for a grown man to pass. Because the quarter lay close to the canal and flooded easily in summer, the building’s floor hung clear of the ground, borne up on sixteen wooden pillars, somewhat in the manner of Lingnan building.
+Warehouse Bing-6 was a timber building with low, overhanging eaves, sixty paces long and forty-five wide, very nearly square, with only one entrance and vent windows on all four sides—but the windows were especially small, too narrow for a grown man to pass. Because the quarter lay close to the canal and flooded easily in summer, the building’s floor hung clear of the ground, borne up on sixteen wooden pillars, somewhat in the style of the buildings of Lingnan.
 
 A big-nosed foreigner guarded the door—one of Cao Poyan’s fifteen companions. He leaned against the wooden door and now and then bent his head to toy with a string of wooden beads at his wrist, looking distracted. Cui Qi gauged the crossbow’s range: if it truly came to it, he was confident he could break the door within ten finger-snaps.
 
@@ -170,11 +170,11 @@ Cui Liulang laughed aloud and stepped back to sit cross-legged on the ground. �
 
 “I want you to mark on this ward-map of Chang’an every hidden door, secret culvert, wall-cavity passage, and other vital point,” Cao Poyan said, one word at a time.
 
-Cui Liulang assented while his mind raced. The lay of the land within Chang’an was a tangled thing, not so simple as its twenty-five crossing streets. Between the wards ran canals by land and water; between the city walls there were cavity-walls; under the bridges there were ditches, and along the slopes there were drops. How they all linked into a net, and where each led—most inhabitants of Chang’an never worked it out in a lifetime.
+Cui Liulang assented while his mind raced. The lay of the land within Chang’an was a tangled thing, not so simple as its twenty-five crossing streets. Between the wards ran ways by water and by land; between the city walls there were cavity-walls; under the bridges there were ditches, and along the slopes there were drops. How they all linked into a net, and where each led—most inhabitants of Chang’an never worked it out in a lifetime.
 
 With such a complete map in hand, half of Chang’an’s strengths and weaknesses would be in one’s grasp, and one could come and go at will. It seemed these Türks were after no small thing...
 
-One man drew out a leather flask, poured a little clear water on the inkstone, and in a moment had ground out a shallow pool of ink. Cui Liulang wetted the tip of the wolf-hair brush with his tongue, dipped it, and drew a few strokes—then suddenly stopped. “Master Cao, you’re no man of the Central Plains; you don’t know cloth. This won’t do. This is called stiff yellow cloth—fine for making clothes, but it takes ink stiffly. Better I go and buy some first-grade Xuan paper...”
+One man drew out a leather flask, poured a little clear water on the inkstone, and in a moment had ground out a shallow pool of ink. Cui Liulang wetted the tip of the wolf-hair brush with his tongue, dipped it, and drew a few strokes—then suddenly stopped. “Master Cao, you’re no man of the Central Plains; you don’t know cloth. This won’t do. This is called stiff yellow cloth—fine for making clothes, but the ink drags on it. Better I go and buy some first-grade Xuan paper...”
 
 “You are not to leave,” Cao Poyan flatly refused.
 
@@ -190,7 +190,7 @@ Cui Liulang hesitated but did not dodge. He knew the Jing’an Bureau’s men we
 
 One more bluff of his own, and he would have their true purpose.
 
-The hand at Cui Liulang’s throat abruptly stopped, and Cui Liulang eased inside, knowing he had bet right. Holding the pose, Cao Poyan suddenly cocked his head toward the window, as if listening. Cui Liulang tensed—could some careless Lüben Guardsman have made a noise? He asked quickly, “Master Cao, what is it?”
+The hand at Cui Liulang’s throat abruptly stopped, and inwardly Cui Liulang relaxed, knowing he had bet right. Holding the pose, Cao Poyan suddenly cocked his head toward the window, as if listening. Cui Liulang tensed—could some careless Lüben Guardsman have made a noise? He asked quickly, “Master Cao, what is it?”
 
 “Do you hear anything?” Cao Poyan pointed out the window.
 
@@ -208,7 +208,7 @@ Again he eased the heart-guard mirror out on his saber, this time trained on the
 
 No good! Cui Qi’s heart skipped a beat; he snatched the saber back and roared urgently to those around him, “Break the door! Now!”
 
-The Lüben Guards had long been ready at their posts, and at the command eight crossbow bolts shot at once from three directions, pinning the Türk at the door into a very hedgehog. In the same moment two soldiers leapt up the wooden steps before the door, brushed past the enemy just crumpling to the ground, and drove their thick shoulders hard against it.
+The Lüben Guards had long been ready at their posts, and at the command eight crossbow bolts shot at once from three directions, pinning the Türk at the door into a hedgehog of bolts. In the same moment two soldiers leapt up the wooden steps before the door, brushed past the enemy just crumpling to the ground, and drove their thick shoulders hard against it.
 
 The bamboo door-pivot could not hold against the pressure and split in an instant. With a crash the soldiers’ bodies fell inward together with the door-plank. Behind them, two more soldiers stepped without hesitation over their comrades’ bodies and charged into the room. They loosed one volley from their crossbows into the interior, then swiftly dropped low. By now the two who had gone down with the door had rolled up and lifted the plank to form a makeshift wooden shield, guarding their fellows and buying them the time to span their bows again.
 
@@ -248,7 +248,7 @@ Cui Qi gave a tiger’s roar of grief and rage, knelt on one knee on the floor, 
 
 A Lüben Guardsman ran up, and seeing his commander in such a state, did not quite dare come near. Cui Qi turned his head and asked with a look what the matter was. The soldier came smartly to attention. “We’ve finished counting the bodies—fifteen in all.”
 
-Cui Liulang aside, sixteen Türks had gone into the warehouse. Which meant one was still uncaught—and by the reckoning, it was their leader, Cao Poyan. Cui Qi drew a sharp breath and rose to his feet again, flame leaping in his eyes.
+Cui Liulang aside, sixteen Türks had gone into the warehouse. Which meant one was still uncaught—and once the dead were identified, the missing man was their leader, Cao Poyan. Cui Qi drew a sharp breath and rose to his feet again, flame leaping in his eyes.
 
 “Search!” he barked, his face grim.
 
@@ -264,7 +264,7 @@ It had likely been cut in secret by some earlier tenant and never reported to th
 
 The warehouse was ringed now with Lüben Guards; even if Cao Poyan had gone to the roof, he had nowhere to run—it was as good as catching a turtle in a jar.
 
-For fear of any further slip, Cui Qi mounted the ladder himself and climbed. At the top, just as he was about to push the cover aside, he felt a sudden killing intent. He pulled his head back in haste, and a hard wooden bar studded with iron nails whipped past, grazing his scalp. Without a word he raised the crossbow and loosed. There was a soft thud, as if it had struck something. Cui Qi was glad of it and scrambled up hand and foot—only to be caught full in the left eye by a lashing belt.
+For fear of any further slip, Cui Qi mounted the ladder himself and climbed. At the top, just as he was about to push the cover aside, he felt a sudden killing intent. He pulled his head back in haste, and a hard wooden bar studded with iron nails whipped past, grazing his scalp. Without a word he raised the crossbow and loosed. There was a soft thud, as if it had struck something. Heartened, Cui Qi scrambled on up—only to be caught full in the left eye by a lashing belt.
 
 The belt was of cured oxhide, exceedingly hard, and the blow sent a wave of blinding pain through Cui Qi. A small copper hook at its end, drawn back, opened a long bloody gash down his cheek. The attack roused Cui Qi’s fighting fury; rather than retreat he pressed in, whipped his hand back to catch and coil the belt, and with a hard heave forced his way up onto the roof.
 
@@ -272,7 +272,7 @@ Before he could steady himself, the belt suddenly went slack—the other man had
 
 The sound was strange—not like a fall onto ground. Cui Qi was seized with alarm; his left eye was swollen and blind, but his mind was still clear. He realized he had made an enormous mistake.
 
-Beside Warehouse Bing-6 ran the Guangtong Canal, hard against the ward wall. A year before it had been widened for transport, to carry timber from the Qinling Mountains, so it was deep and full, broad enough for boats. It was still the first month, and the canal had not yet thawed; over it lay a thin sheet of ice, level as the Vermilion Bird Avenue—and the water-gate had no guard posted at all. In his earlier arrangements Cui Qi had thought only of the land routes and clean overlooked this.
+Beside Warehouse Bing-6 ran the Guangtong Canal, hard against the ward wall. A year before it had been widened for transport, to carry timber from the Qinling Mountains, so it was deep and full, broad enough for boats. It was still the first month, and the canal had not yet thawed; over it lay a thin sheet of ice, level as the Vermilion Bird Avenue—and the water-gate had no guard posted at all. In his earlier arrangements Cui Qi had thought only of the land routes and simply overlooked this.
 
 What he had heard was precisely the sound of Cao Poyan breaking through the ice and dropping into the water.
 
@@ -310,7 +310,7 @@ The younger man’s face was iron-dark, and he flicked his fly-whisk. “What go
 
 “Changyuan, a fly-whisk is not for striking people with.” The old man raised a palm and checked him, gently but firmly. “Sealing the West Market for half a double-hour just now already smacks of overstepping. A citywide sweep would throw all of Chang’an into unrest—and today is the Lantern Festival, with lanterns being raised and set out on every street. Make too great a disturbance and even the Sage will call for an accounting.”
 
-The younger man would argue on. “Director He does not hold the charge, so he does not know! These sixteen with Cao Poyan are only the last party to enter the city; they have many more confederates long hidden within it. If we do not learn the Türks’ intent soon, I fear a great calamity is about to fall on Chang’an!”
+The younger man would argue on. “Director He does not carry this charge, so he cannot know! These sixteen with Cao Poyan are only the last party to enter the city; they have many more confederates long hidden within it. If we do not learn the Türks’ intent soon, I fear a great calamity is about to fall on Chang’an!”
 
 His tone had come near to insolence. But the elder did not take offense; he put out one finger and pointed to the northeast, where the palace city lay. “I did not say leave it be. But an open manhunt will not do—we cannot make trouble for that person.”
 
@@ -362,7 +362,7 @@ Chang’an was split into two counties, east and west: Chang’an County to the 
 
 But Li Bi’s face gave nothing away. “I do not want a saint; I want an able man. Is this the best there is?”
 
-Xu Bin hurriedly raised his voice. “Within Chang’an, at investigating and catching thieves there is none to surpass him.”
+Xu Bin hurriedly raised his voice. “Within Chang’an there is none to surpass him at running down thieves.”
 
 A silver fish-pouch arced through the air; Xu Bin scrambled to catch it and nearly missed. Li Bi said, “Take my horse and fetch him. Within two quarters I want that man here before me.”
 
@@ -394,7 +394,7 @@ The boom-boom of the war drums in his dream turned out to be someone rapping the
 
 “Xu Bin, Xu Youde?” Zhang Xiaojing was briefly taken aback, then laughed. “I’d never have guessed the last man to see me off would be you.” In his words there was not the faintest trace of a soul unmoored on the eve of execution.
 
-Xu Bin knew he had misunderstood, but it was awkward to explain, so he cupped his hands toward the warden and said, “Trouble you to open the cell and strike off the cangue.” The warden bulged his two slightly protruding eyes, like a toad that would not concede. But when his gaze swept over the silver fish-pouch clutched in Xu Bin’s right hand, he shrank back, and could only fish out the key, unlocking the cell with a clatter and sending two turnkeys in to remove the cangue.
+Xu Bin knew he had misunderstood, but it was awkward to explain, so he cupped his hands toward the warden and said, “Trouble you to open the cell and strike off the cangue.” The warden bulged his two slightly protruding eyes, like a toad that refused to back down. But when his gaze swept over the silver fish-pouch clutched in Xu Bin’s right hand, he shrank back, and could only fish out the key, unlocking the cell with a clatter and sending two turnkeys in to remove the cangue.
 
 The two turnkeys trembled, seemingly in great awe of Zhang Xiaojing, so nervous that they could not get the cangue apart no matter what. Zhang Xiaojing gave a cold snort. “Idiots. It’s a triple-twist snake lock. Pry it from below with your thumb, and bear down in the middle.” The turnkeys followed his instruction, and with a crack the cangue finally split into two pieces. Each held one half and backed away in alarm. Zhang Xiaojing shot a sidelong glance at the warden, who gave a shudder and hurriedly avoided his eyes.
 
@@ -410,7 +410,7 @@ Xu Bin did not explain overmuch, only pressed the warden to see to the formaliti
 
 Doubts crowded thick in Zhang Xiaojing’s mind, but this was not the moment to ask; he held his silence.
 
-Xu Bin signed his name with a flourish like flying dragons, and then the whole party left the dim death cell and came back up to ground level. Sunlight streamed in through the entrance, throwing the last few steps into sharp contrast of light and dark. As Zhang Xiaojing set foot on the last step, he suddenly halted, and something of feeling rose in his face.
+Xu Bin signed his name with a flourish like flying dragons, and then the whole party left the dim death cell and came back up to ground level. Sunlight streamed in through the entrance, throwing the last few steps into sharp contrast of light and dark. As Zhang Xiaojing set foot on the last step, he suddenly halted, a stir of feeling in his face.
 
 This one step was the dividing line between the worlds of the dead and the living. He had set his heart on death—and never thought that, having turned once at the very gate of the underworld, he would somehow, inexplicably, come back.
 
@@ -444,11 +444,11 @@ Xu Bin explained, “‘To quell revolt and pacify is jing; when the four quarte
 
 Zhang Xiaojing arched a silkworm brow. The keeping of order in Chang’an fell to the street commissioners of the Jinwu Guard, to the patrol commissioners of the Censorate, to the constable-magistrates of Chang’an and Wannian counties. What manner of “threat” could this be, to force the court to found a whole new office to meet it?
 
-Xu Bin went on, “The man in charge of the Bureau is called Li Bi, courtesy name Changyuan. He holds the deputy directorship of the Bureau while a Hanlin academician-in-waiting. It is Deputy Director Li who wants to see you.”
+Xu Bin went on, “The man in charge of the Bureau is called Li Bi, courtesy name Changyuan. He holds the deputy directorship of the Bureau while serving as a Hanlin academician-in-waiting. It is Deputy Director Li who wants to see you.”
 
 Zhang Xiaojing gave a hiss between his teeth, his doubts only mounting; this was stranger yet. The Bureau’s charge was “threat-prevention,” its business bound to be heavy and hard. To set a Hanlin academician—an idle, honorable sort of civil post—over the catching of thieves? Was this not nonsense?
 
-Zhang Xiaojing searched the name in his memory, and it came to him. “Could it be... the prodigy who spoke on the chessboard?”
+Zhang Xiaojing searched the name in his memory, and it came to him. “Could it be... the prodigy who versified on the chessboard?”
 
 Xu Bin nodded, with a meaning behind it.
 
@@ -466,17 +466,17 @@ Xu Bin looked ahead, his face grave. “That... ah, ah... is truly hard to say.�
 
 ***
 
-Even as the two galloped toward the Bureau, Cao Poyan had just clambered up the steep bank of the transport canal. On the bank, as it happened, stood a bluestone road-marker more than two zhang high, bearing four characters: “Yong’an North Canal.” Hand and foot he scrambled to it and sat down with his back against its face, deathly pale and gasping for breath.
+Even as the two galloped toward the Bureau, Cao Poyan had just clambered up the steep bank of the transport canal. On the bank, as it happened, stood a bluestone road-marker more than two zhang high, bearing four characters: “Yong’an North Canal.” He scrambled to it on hands and feet and sat down with his back against its face, deathly pale and gasping for breath.
 
 His left elbow stayed bent; from the joint jutted the dark tail of a steel crossbow bolt, and blood showed faintly on the sleeve. He was lucky—had the bolt been fitted with its head, the whole arm would likely have been ruined.
 
-Suddenly Cao Poyan’s ear twitched; he swiftly crouched low, hiding his shape behind the marker. On the road not far off, a Jinwu Guard street patrol came rumbling past. That road was thick with people and carts and forever jamming up, and the patrol had to shout loudly to open a way through—and in such a case, almost no one would notice a stir beside the canal.
+Suddenly Cao Poyan’s ear twitched; he swiftly crouched low, hiding himself behind the marker. On the road not far off, a Jinwu Guard street patrol came rumbling past. That road was thick with people and carts and forever jamming up, and the patrol had to shout loudly to open a way through—and amid such a press, almost no one would notice a stir beside the canal.
 
 When the patrol had gone off into the distance, Cao Poyan clamped his right hand over his left elbow and rose slowly. He looked about him and was on the point of stepping out when his gaze sharpened. Some way off a man had left the main road, stepped over the drainage ditch, and was weaving toward the marker.
 
 It was a drunkard past forty, in a white side-slit robe with a wet stain spread down the breast, reeling three ways to every step—he had plainly had a good deal to drink. Cao Poyan could only lower himself again and hush his breathing as much as he could.
 
-The drunkard came up to the marker, first let out a resounding wine-belch, then with one hand hitched up the hem of his robe through the slit and with the other fumbled his belt loose, and fell to pissing against the stone. It was a very long piss, and the drunkard, taking a lively interest, steadied himself to rinse the loose dust off the marker. Done, he cinched his belt back with a careless tug and was turning to go when he suddenly lowered his head and let out a sound: “Eh?”
+The drunkard came up to the marker, first let out a resounding wine-belch, then with one hand hitched up the hem of his robe through the slit and with the other fumbled his belt loose, and fell to pissing against the stone. It was a very long piss, and the drunkard, taking a lively interest, took his member in hand to sluice the loose dust off the marker. Done, he cinched his belt back with a careless tug and was turning to go when he suddenly lowered his head and let out a sound: “Eh?”
 
 He had seen, along the bank between the canal and the marker, a straggling line of wet footprints. Curious, the drunkard stepped forward a few paces, rounded the stone, and came eye to eye with Cao Poyan behind it.
 
@@ -488,7 +488,7 @@ Before long Cao Poyan, now in the side-slit robe, walked toward the avenue with 
 
 Zhang Xiaojing and Xu Bin reached Guangde Ward in exactly one quarter—at the cost of Xu Bin’s headcloth, jolted loose along the way. After a strict search, the two were brought to see Li Bi in a secluded courtyard behind the Bureau’s great hall.
 
-It was a retiring room—plain walls, gray tiles, flat mats and a bare desk; beneath the window grew, carelessly, honeysuckle, redbud, and a few clumps of half-withered yellow bamboo. The master had plainly spent no thought on ornament. The one unusual thing was a small bronze-sparrow sundial slanting up at the sky—a sign that the master cared greatly for time. Around the sundial a little channel had been cut, and clear water murmured and wound away to the back of the yard.
+It was a retiring room—plain walls, gray tiles, flat mats and a bare desk; beneath the window honeysuckle, redbud, and a few clumps of half-withered yellow bamboo grew untended. The master had plainly spent no thought on ornament. The one unusual thing was a small bronze-sparrow sundial slanting up at the sky—a sign that the master cared greatly for time. Around the sundial a little channel had been cut, and clear water murmured and wound away to the back of the yard.
 
 Xu Bin returned the silver fish-pouch, bowed, and withdrew, leaving Zhang Xiaojing and Li Bi to face each other alone.
 
@@ -502,19 +502,19 @@ Li Bi gave the fly-whisk a shake and, without any pleasantries, came straight to
 
 Zhang Xiaojing held his silence; he knew the other did not need an answer but was only fixing who led the conversation.
 
-Li Bi went to the desk, gave a hard pull, and tore down the thin white broad silk on the wall, uncovering a general map of the Tang domains, and pointed his fly-whisk at a place in the north.
+Li Bi went to the desk, gave a hard pull, and tore down the broad sheet of thin white silk on the wall, uncovering a general map of the Tang domains, and pointed his fly-whisk at a place in the north.
 
 “In the eighth month of the first year of Tianbao, the Türks fell into civil strife; the newly raised Ozmish Khagan would not submit to our rule and rose in revolt. Wang Zhongsi, Military Commissioner of Shuofang, joined with the Basmyl, the Uyghurs, the Karluks, and other tribes to march against him, and fought a full year and a half; now the Türk khagan is at the end of his road.”
 
 His voice was clear, cool, and wholly orderly, as if he had rehearsed it many times over.
 
-As he spoke, Li Bi took from the bookshelf beside him a records-scroll tagged with red silk and tossed it to Zhang Xiaojing. It was a long roll, with slips of paper pasted across it one after another. The hand on the slips was all hasty scrawl—a hundred characters at most, a single line at least—arranged in order of time. Taken singly, each was vague; but as the scroll unrolled slowly, the more Zhang Xiaojing read, the more his heart misgave him.
+As he spoke, Li Bi took from the bookshelf beside him a records-scroll tagged with red silk and tossed it to Zhang Xiaojing. It was a long roll, with slips of paper pasted across it one after another. The hand on the slips was all hasty scrawl—a hundred characters at most, a single line at least—arranged in order of time. Taken singly, each was vague; but as the scroll slowly unrolled, the more Zhang Xiaojing read, the deeper his misgivings grew.
 
 “Early in the ninth month of the second year, a secret memorial came from the Shuofang rear-office, saying the Türk khagan had sent several parties of his close-attending Wolf Guards to slip into Chang’an, meaning harm to the Son of Heaven, to turn the war at the front. Those Türk Wolf Guards are the steppe’s most fearsome elite—cruel, cunning, and utterly loyal to the khagan. It was to guard against precisely this menace that the court established the Jing’an Bureau.” Li Bi paused a little, then went on. “But what the Türks’ plan actually is, we do not know. The rear-office and the Bureau strained every nerve, and could barely so much as track the movements of one of their parties.”
 
 Here Li Bi tapped the pinewood desk lightly with his knuckle. “The Bureau laid a plan to invite the guest into the jar—to use this one party of Wolf Guards as bait to draw out the others in hiding. But my men are mediocre, and the thing failed on the very brink of success: half a double-hour ago they let the key man escape!”
 
-Li Bi had all the documents from that operation brought and set before him to look over, with a faint air of testing him. Zhang Xiaojing leafed through them once and pointed at one record. “The Türks come from the steppe and are keenest of all to the crying of horses. You gave the order to clear the beasts from around the warehouse too soon, Deputy Director; sound turning to silence would naturally rouse their guard.”
+Li Bi had all the documents from that operation brought for Zhang Xiaojing to look over, with a faint air of testing him. Zhang Xiaojing leafed through them once and pointed at one record. “The Türks come from the steppe and are keenest of all to the crying of horses. You gave the order to clear the beasts from around the warehouse too soon, Deputy Director; sound turning to silence would naturally rouse their guard.”
 
 At this Li Bi was struck motionless where he stood. The Bureau had argued the matter before—how Cao Poyan had seen through the trap—and had reached no agreement. Li Bi had all along held that it was Cui Liulang’s incompetence that showed the flaw, and never dreamed the cause lay in himself. He had meant to test this man, to see whether he had real ability; instead the man had picked out his own mistake.
 
@@ -606,7 +606,7 @@ Throughout Chang’an, every ward had two or three watchtowers, used in ordinary
 
 In this way, whatever any watchtower in Chang’an saw could be relayed swiftly to the Bureau’s center; and likewise, the center could send an order swiftly to any point.
 
-The system was plainly learned from the frontier beacon-fires, but handier than they. The watchtowers stood no more than half a li apart, and word could cross the whole of Chang’an in an instant. At a glance Zhang Xiaojing saw its practical worth: it meant that wherever in the city he was, he could stay in touch with the Bureau through the towers—an unseen great eye added, looking down on Chang’an.
+The system was plainly learned from the frontier beacon-fires, but handier. The watchtowers stood no more than half a li apart, and word could cross the whole of Chang’an in an instant. At a glance Zhang Xiaojing saw its practical worth: it meant that wherever in the city he was, he could stay in touch with the Bureau through the towers—one more great unseen eye looking down on Chang’an.
 
 But the tower system cost a very great deal to run, and only a freakish creature like the Jing’an Bureau could afford it.
 
@@ -630,7 +630,7 @@ The one who explained was the graceful maidservant with the crescent mallet. Fac
 
 Tanqi said, “That we don’t yet know. The one piece of intelligence comes from the Shuofang rear-office. A Türk chieftain of one tribe once declared that the whole of Chang’an was about to become Que-le Huo-duo—you know what that means, don’t you?”
 
-Zhang Xiaojing nodded. Que-le was a Türk word, close to the nine-layered blood-hell of the underworld, and huo-duo meant to be turned to dust. The whole phrase was at once a curse and a legendary beast of destruction. Even one who knew no Turkic could feel, in those words “Que-le Huo-duo,” the heaven-high murder in them.
+Zhang Xiaojing nodded. Que-le was a Türk word, close to the nine-layered blood-hell of the underworld, and huo-duo meant to be turned to dust. The whole phrase was at once a curse and a legendary beast of destruction. Even one who knew no Turkic could feel the towering murder in those words, “Que-le Huo-duo.”
 
 That Chang’an was about to become Que-le Huo-duo might be an extravagant figure of speech, or a metaphor for something—no one knew.
 
@@ -660,7 +660,7 @@ After Cui Liulang was exposed, Cao Poyan would not dare approach a Tang man agai
 
 “But do you know which merchant to look for?” Li Bi asked with a frown. The foreign traders of the West Market were far too many to check one by one.
 
-Zhang Xiaojing clenched his fist and answered lightly, “Extraordinary times have their own extraordinary methods.” Li Bi looked faintly uneasy, but the words at his lips he swallowed after all.
+Zhang Xiaojing clenched his fist and answered lightly, “Extraordinary times have their own extraordinary methods.” Li Bi looked faintly uneasy, but in the end swallowed the words on his lips.
 
 The “extraordinary methods” this fellow spoke of were likely some means not in keeping with humanity. But there was no time now for the luxury of debating law and conscience. In the corner of the hall the bronze water-clock still struck its drops one by one against the time-cylinder. Each drop might mean the loss of hundreds of lives.
 

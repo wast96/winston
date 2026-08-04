@@ -8,11 +8,11 @@
 
 Xu Bin leafed through the records scroll by scroll, his fingers sliding over the rough edges of the paper, the inked characters leaping line by line into his eyes.
 
-A moment ago the Deputy Director had let fall an angry word: “Everything that can be set alight, search the whole of it through for me!” And that had struck a fresh spark of thought in Xu Bin: what could touch off a fire need not be oil alone.
+A moment ago the Deputy Director had let fall an angry word: “Everything that can be set alight—comb through the whole of it for me!” And that had struck a fresh spark of thought in Xu Bin: what could touch off a fire need not be oil alone.
 
 Of the goods carried into Chang’an every day there were, at the least, several hundred kinds, and no small number of them would burn. Following this line, Xu Bin called up the customs declarations of the past several days and went through the classified catalogues, to see whether there was any suspicious bulk shipment of the inflammable.
 
-But search as he might, and long, he came away with nothing.
+But long as he searched, he came away with nothing.
 
 Inflammable goods there were, and many of them traded in bulk; but when Xu Bin thought it carefully over, he found them all impractical. Firewood took up too much room; paper and reed caught fire and went out as readily; bamboo and timber were too troublesome to haul; candle-tallow, cloth and taffeta, silk and hemp cost too much. To start a fire with such things was easy enough, but to burn the whole of Chang’an to ash in short order was far too hard.
 
@@ -56,7 +56,7 @@ Zhang Xiaojing swept his eye over it and his face changed on the instant. Yao Ru
 
 Said Zhang Xiaojing: “When I soldiered in the northwest, I once saw a kind of water. It seeps out from the crevices of the rock, with a skin of black oil floating on its surface, sticky and greasy to the touch, much like the fat of pork, and so it is called rock-oil. The people there gather that floating grease off the top with straw scoops and use it to light fires and give light, and very bright it is.”
 
-“So it will burn, then?” said Yao Runeng in wonder. Zhang Xiaojing answered: “Rock-oil does not catch easily; it must be refined by a secret art, and then lit off with burning lard or castor oil to draw the flame. But once it takes, it will not rest until it is done. When we held a fortress in the Western Regions, one jar of rock-oil poured down could carry off dozens of lives at a breath: the grease clings the raging fire fast to a man’s body, and no matter what he does he cannot shake it off or put it out. I never saw a fiercer fuel. And so in the army we called it fierce-fire.”
+“So it will burn, then?” said Yao Runeng in wonder. Zhang Xiaojing answered: “Rock-oil does not catch easily; it must be refined by a secret art, and then lit off with burning lard or castor oil to draw the flame. But once it takes, it will not rest until it is done. When we held a fortress in the Western Regions, one jar of rock-oil poured down could carry off dozens of lives at a breath: the grease glues the raging fire fast to a man’s body, and no matter what he does he cannot shake it off or put it out. I never saw a fiercer fuel. And so in the army we called it fierce-fire.”
 
 For a thing to move even a man as hard as Zhang Xiaojing, the scene of that day must have been ghastly indeed. Yao Runeng drew a sharp cold breath, and then his face altered fast: “Do you mean to say the Türks have already brought a thing so dangerous into the city?” Zhang Xiaojing nodded heavily.
 
@@ -86,13 +86,13 @@ Zhang Xiaojing shook his head. Since the Türks had the means to bring the rock-
 
 “Then... what’s to be done?”
 
-Zhang Xiaojing patted the hound at his side: “Rock-oil gives off a stinging smell, heavier still when it burns. So it will do only for torches out of doors; you cannot burn it for a candle indoors or cook a meal by it—no help for it, it is far too choking. We can try to hunt out an odd smell nearby.”
+Zhang Xiaojing patted the hound at his side: “Rock-oil gives off a stinging smell, heavier still when it burns. So it will do only for torches out of doors; you cannot burn it for a candle indoors or cook a meal by it—no help for it, the stuff is far too choking. We can try to hunt out an odd smell nearby.”
 
 Yao Runeng’s face brightened, but a doubt came to him at once: “The dog has to have something to go by before it can search. Where are we to get it a sniff of rock-oil?”
 
 Zhang Xiaojing put out his hand and pointed west: “The Jinguang Gate.”
 
-The Jinguang Gate stood at the midpoint of Chang’an’s west side, one street east of the West Market; it was the road every caravan coming from the west had to pass. A convoy hauling rock-oil, coming from Yanzhou, must certainly have entered the city by it.
+The Jinguang Gate stood at the midpoint of Chang’an’s west side, a single street west of the West Market; it was the road every caravan coming from the west had to pass. A convoy hauling rock-oil, coming from Yanzhou, must certainly have entered the city by it.
 
 “By the inspection routine, the guards run a long spear down into each cask to make sure no one is hidden inside. The stuff is hard to wash off; have the gate-guards find that spear, and it will be enough,” said Zhang Xiaojing.
 
@@ -108,7 +108,7 @@ Zhang Xiaojing smiled faintly and did not correct him. The seeing-through of the
 
 He had not many friends in Chang’an, and Xu Bin was the one he had known the longest. If the fellow could win great merit by this chance, and cast off his commoner’s cloth for an official’s robe and rank, it would fulfill a wish he had cherished for years.
 
-“I only hope we’re in time. We’ve lost far too much of it.” Zhang Xiaojing murmured, gazing at the sky as it slowly dimmed. Seeing the anxiety on his face, Yao Runeng was touched in spite of himself. He had begun full of suspicion toward this condemned man, but through one thing after another he had found that he was wrong: whatever might be said for or against Zhang Xiaojing’s every move, there was not a trace of self-interest in it, and he had come near to losing his life for it besides.
+“I only hope we’re in time. We’ve lost far too much time.” Zhang Xiaojing murmured, gazing at the sky as it slowly dimmed. Seeing the anxiety on his face, Yao Runeng was touched in spite of himself. He had begun full of suspicion toward this condemned man, but through one thing after another he had found that he was wrong: whatever might be said for or against Zhang Xiaojing’s every move, there was not a trace of self-interest in it, and he had come near to losing his life for it besides.
 
 Yao Runeng hesitated a moment, then all at once cupped his hands and dropped to one knee: “Your servant harbored much suspicion of you before, Commander Zhang, and asks to be punished for it. I beg that you, Commander Zhang, will not, for one man’s fault, hold a grudge in your heart and let the great work of the Jing’an Bureau suffer for it.”
 

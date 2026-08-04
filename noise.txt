@@ -237,7 +237,8 @@
 # ch12: 六个字 = "these six words/characters" (Yuan Zai's phrase 终于等到你了, a count of
 # the uttered characters, cf. 四个字/[二三四]字 already listed but with 六 and 个); not a
 # quantity of things. English renders the sense ("at last I have found you"), no digit.
-六个字
+# (lookbehind: must not eat the 六 out of a real 十六/廿六 compound, e.g. ch07 十六个字.)
+(?<![十一二三四五六七八九])六个字
 # ch12: 说三道四 = "wag one's tongue / gossip and carp" (idiom); the 三/四 are not the
 # quantities 3/4 (cf. 推三阻四 already listed). English renders it "wag his tongue about it."
 说三道四
@@ -424,7 +425,8 @@
 # the built-in measure rule 一[…个…] runs later and eats the 一 out of 十一个,
 # orphaning a bare 十 read as 10 (the reverse trap). The 11 is carried faithfully
 # in the English as "eleven."
-十一
+# (lookbehind: must not eat the 十一 out of a real 二十一/三十一 compound, e.g. ch06 二十一名.)
+(?<![一二三四五六七八九])十一
 # ch26 (后记二): 三教九流 = "people of every station/all walks of life" (idiom); the
 # 三/九 are conventional, not the counts 3/9. English renders "people of every
 # station." (Applied before the built-in NOISE, so nothing is orphaned.)
