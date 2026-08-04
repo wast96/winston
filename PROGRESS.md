@@ -3091,3 +3091,126 @@ generator, 351 body paragraphs). Rebuilt out/The Longest Day in Chang'an.epub
   filial devotion to his father's loyalty to the heir apparent. He Dong self-immolates
   with a 猛火雷; the cover-up will scapegoat Feng Dalun. Li Bi confesses he poisoned the
   comatose He Zhizhang (茵芋酒). The novel closes on Zhang Xiaojing's tear over Chang'an.
+
+## B25 = ch25 (后记一 / "Afterword I") + ch26 (后记二 / "Afterword II")
+
+Scope: the two authorial afterwords together, the LAST batch of the 25-batch
+plan. ch25 后记一 = 1,838 source chars (21 body paragraphs); ch26 后记二 = 966
+source chars (10 body paragraphs). These are ESSAYS, not numbered chapters
+(part="Afterword" in book.json): no dateline, no opening vignette, no per-chapter
+time-gloss (none was invented). 后记一 is a historical epilogue tracing what
+became of the cast after Tianbao 3 (He Zhizhang's death, the Türk collapse, An
+Lushan's quiet rise, Li Bi's four reigns, Yuan Zai, the Nestorian Yisi), ending
+on the metafictional reveal that the real Tang text 《安禄山事迹》 names a Zhang
+Xiaojing at the Mawei mutiny. 后记二 is Ma Boyong's first-person account of the
+novel's origin: a Zhihu question about Assassin's Creed, Chang'an as a dream
+city, and the 24-half-shichen structure borrowed from the series 24.
+
+Deliverables shipped: out/ch25_bilingual.md and out/ch26_bilingual.md (QC only,
+never ship), out/ch25_reading.md, out/ch26_reading.md, data/zh/ch25.txt,
+data/zh/ch26.txt, scripts/gen_ch25_bilingual.py and scripts/gen_ch26_bilingual.py
+(the verbatim-generator method: 21 and 10 body paragraphs; concat of every '>'
+blockquote == source content char-for-char, asserted before the checks),
+notes.json (+4 notes, 86 total), glossary.json (+44 rows), noise.txt (+3
+entries), the rebuilt cumulative EPUB, and this log. back_matter.json left INERT
+(no source imprint/colophon page to translate; the book already ships front
+matter + the translator's note) and figures.json unchanged (the afterwords carry
+no content illustration).
+
+### Checks run
+
+- Verbatim-quote guarantee: gen_ch25/gen_ch26 read the source lines from
+  data/src, and assert the concatenation of all blockquotes equals the source
+  content character-for-character before emitting. Both PASS (2,065 and 1,071
+  chars over 21 and 10 paragraphs; the counts include the H2-absorbed title
+  line's body being excluded). No extractor-split paragraphs in either file (every
+  body line ends on a terminal mark; 后记一 L16's colon legitimately introduces
+  the following narrative block, a genuine paragraph break). No trailing U+200B
+  line in this ingest of either file.
+- check_numbers.py --noise noise.txt: ch25 21 pairs, 0 unresolved; ch26 10 pairs,
+  0 unresolved. Every real quantity is carried in the English: Tianbao 3/4/5/14/15
+  and Jianzhong 2, the 4th/9th/7th months, He Zhizhang's 84 years (八十有四 →
+  "eighty-four," which the checker composes from TENS+ONES), the two poems, the
+  two years of peace and two marriage-ruptures, the three powers / three volumes,
+  Li Bi's four emperors and four falls-and-rises and two reigns, Wang Yunxiu's
+  13th-daughter / 20 years / 16 years, the stele's thousand years, and 后记二's
+  twenty-four chapters and the series 24. noise.txt +3 entries, all NON-quantity
+  idiom numerals (三教九流 = "every station," not 3/9; 五湖四海 = "every corner of
+  the land," not 5/4 — stripped whole so the built-in 四海 rule does not orphan a
+  bare 五; 铭感五内 = "graven on my heart," not the count 5). No WORD_NUM change was
+  needed. No real number was noised: every 一/两/三/… idiom collapses to a bare 一
+  (auto-skipped) or is a genuine count carried in words.
+- check_structure.py --pairs: ch25 21 | 21 EQUAL; ch26 10 | 10 EQUAL. Paragraph
+  parity holds; note anchors resolve; heading shape uniform (one H2 per unit).
+- Blind double-translation (literary sample, 后记二's Chang'an-as-dream /
+  Assassin's-Creed passage, raw4+raw5) in a fresh context: independent version
+  agrees with the shipped text in content and register; divergences are stylistic
+  only (三教九流/五湖四海 rendered as idioms either way; "Leyou Plain" vs the
+  glossary's decided "Leyou Plateau"; "Great Wild Goose Pagoda" vs "Wild Goose
+  Pagoda"). No omission, no invented content.
+- Round-trip back-translation (number-dense sample, 后记一's Tianbao-3 epilogue,
+  raw3+raw4) in a fresh context: the Chinese back-translation preserves every
+  name, number, and date — 四月, 山阴, 享年八十四, 两首诗, 天宝三载(=三年), 朔方,
+  王忠嗣, 突厥, 猛烈数倍, 数月, 乌苏米施可汗 traitor's-head-to-the-capital, 白眉可汗
+  killed 次年, 余部为回纥所吞并. No omission, no number drop.
+- Random-sample deep audit: the two QA samples above cover ~4 of the 31 body
+  paragraphs (~13%, well above the 3–5% floor). Observed content-error rate: 0.
+- qa_epub.py on the rebuilt EPUB: PASS. 26 documents (full spine), 7,417
+  paragraphs, 86 references == 86 bodies == 86 backlinks, numbering sequential in
+  reading order, all links resolve. The build reports 26 of 26 chapters
+  translated — no skeleton pages remain; the full hyperlinked TOC links every
+  part and chapter, with the two afterwords grouped under the "Afterword" part.
+
+### Notes added (4; 86 total)
+
+- ch25 #83 (the Nestorian Stele, 《大秦景教流行中国碑》): the 781 monument set up
+  by Yisi at the Daqin Temple, rediscovered near Xi'an c. 1625, now in the Beilin.
+  Corroborated. (景教/大秦寺/波斯寺/伊斯 were already glossed; the stele itself is new.)
+- ch25 #84 (the tale of Changxin and Zhaoyang): Wang Yunxiu's dying allusion to
+  the Han palaces of Ban Jieyu (长信宫) and Zhao Feiyan (昭阳殿) — a consort's story
+  written into history. Texture that is opaque in English without the note.
+- ch25 #85 (The Deeds of An Lushan, 《安禄山事迹》): the genuine Tang work by Yao
+  Runeng whose Mawei passage names a Zhang Xiaojing — the book's metafictional
+  seed. Corroborated.
+- ch26 #86 (Assassin's Creed / Zhihu): the Ubisoft game and the Zhihu question
+  that seeded the novel; the origin story of 后记二.
+- NOT re-noted (already carried in ch01–ch24): An Lushan (ch16), He Zhizhang
+  (ch02), Ozmish Khagan / the Second Turkic Khaganate (ch01/ch02), Chen Xuanli and
+  the Mawei mutiny of 756 (ch16), Cen Shen / Du Fu / Yan Zhenqing / the shichen
+  system / Tianbao's zai-styling (ch01–ch02).
+
+### Glossary added (+44 rows: 16 people, 9 places, 19 terms; 150/37/213/256)
+
+People: 白眉可汗 (the Baimei Khagan, provisional), 杨国忠 (Yang Guozhong), 韦坚 (Wei
+Jian), 杜有邻 (Du Youlin), 郭子仪 (Guo Ziyi), 李辅国 (Li Fuguo), 玄宗 (Xuanzong), 肃宗
+(Suzong), 代宗 (Daizong), 德宗 (Dezong), 杨贵妃 (Yang Guifei = Taizhen), 于赓哲 (Yu
+Gengzhe) and the four thanked online handles 惊鸿/扫书喵/森林鹿/黑肚皮小蹄 (Jinghong /
+Saoshu Mao / Senlin Lu / Hei Dupi Xiaoti, pinyin). Places: 山阴 (Shanyin), 江陵
+(Jiangling), 蜀中 (Shu), 太原 (Taiyuan), 马嵬坡 (Mawei Slope), 华阴 (Huayin), 西安
+(Xi'an), 长信/昭阳 (Changxin/Zhaoyang). Terms: 回纥 (the Uyghurs), 采访使 (Surveillance
+Commissioner), 贵妃 (Noble Consort), 太上皇 (Retired Emperor), 客卿 (guest counselor),
+白衣宰相 (the White-Robed Chancellor), 宰相 (chancellor), 邺县侯 (Marquis of Ye County),
+金紫光禄大夫, 节度副使 (vice military commissioner), 殿中监 (Director of the Palace
+Administration), 紫袈裟 (the purple kasaya), 安史之乱 (the An Lushan Rebellion),
+大秦景教流行中国碑, 安禄山事迹, 刺客信条 (Assassin's Creed), 知乎 (Zhihu), 24小时 (24),
+靖安司丞 (Deputy Director). Reused verbatim from the ledger: He Zhizhang / Director
+He, Ozmish Khagan, Wang Zhongsi, An Lushan, Fanyang/Pinglu/Shuofang, the Türks,
+Li Bi, Taizhen, Wang Yunxiu, Yuan Zai, Yisi / Nestorian, the Daqin & Persian
+Temples, Chen Xuanli, Prince Yong, Li Heng, Li Linfu, the Wild Goose Pagoda, the
+Vermilion Bird Avenue, Qujiang Pool, the Leyou Plateau, 节度使 = military
+commissioner, 龙武军 = the Longwu Army (大将军 = Grand General), 右相 = the Right
+Minister, 县尉 = county commandant.
+
+### Figures
+- None. The afterwords carry no content illustration; figures.json unchanged.
+
+### Flagged for the read-through
+- No hour to watch this batch: the afterwords are essays, with no shichen,
+  dateline, or time-gloss. Nothing invented to supply one.
+- 后记一 is a historical epilogue; every claim checked against scholarship and
+  rendered as corroborated where it meets the record (He Zhizhang's 744 death and
+  two farewell poems; the 744–745 Türk collapse and the Uyghur absorption; An
+  Lushan's 9th-month 744 elevation to Fanyang/Hebei; Li Bi's service under four
+  reigns and his 邺县侯 fief; Yuan Zai and Wang Yunxiu's recorded dying words; the
+  Nestorian Yisi and the 781 stele; the 756 Mawei mutiny). The Zhang-Xiaojing-in-
+  《安禄山事迹》 reveal is genuine and footnoted, not authorial invention.

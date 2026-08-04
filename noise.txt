@@ -425,3 +425,16 @@
 # orphaning a bare 十 read as 10 (the reverse trap). The 11 is carried faithfully
 # in the English as "eleven."
 十一
+# ch26 (后记二): 三教九流 = "people of every station/all walks of life" (idiom); the
+# 三/九 are conventional, not the counts 3/9. English renders "people of every
+# station." (Applied before the built-in NOISE, so nothing is orphaned.)
+三教九流
+# ch26 (后记二): 五湖四海 = "from every corner of the land / all quarters" (idiom);
+# the 五/四 are not the counts 5/4. The built-in 四[…海] would strip 四海 but orphan
+# 五湖 (a bare 五 = 5), so strip the whole four-character idiom here first. English
+# renders "from every corner of the land."
+五湖四海
+# ch26 (后记二): 铭感五内 = "engraved upon my heart / deeply grateful" (idiom, lit.
+# graven on the five viscera); the 五 is conventional (cf. 五官/五脏六腑 already
+# listed), not the count 5. English renders "kept graven upon my heart."
+铭感五内

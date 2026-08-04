@@ -805,6 +805,102 @@
       "pinyin": "Zhāng Shǒuguī",
       "status": "attested",
       "note": "Zhang Shougui (684–740), Tang military commissioner of Youzhou/Pinglu on the northeastern frontier; the historical general who took the young An Lushan as his adopted son. Named only in passing. Historical; pinyin."
+    },
+    "白眉可汗": {
+      "en": "the Baimei Khagan",
+      "pinyin": "Báiméi Kèhán",
+      "status": "provisional",
+      "note": "The Türk khagan who briefly succeeded Ozmish and was killed the next year (745); the Second Turkic Khaganate then collapsed and its remnant was absorbed by the Uyghurs. 白眉 = &#8216;White Brows.&#8217; Romanization provisional."
+    },
+    "杨国忠": {
+      "en": "Yang Guozhong",
+      "pinyin": "Yáng Guózhōng",
+      "status": "attested",
+      "note": "A cousin of Yang Guifei who rose to be chief minister of the late Tianbao court; put to death by the mutinous guards at Mawei in 756. Standard pinyin."
+    },
+    "韦坚": {
+      "en": "Wei Jian",
+      "pinyin": "Wéi Jiān",
+      "status": "attested",
+      "note": "A Tang official and affine of the heir apparent; his case (韦坚案, 746) was one of Li Linfu&#8217;s purges of the crown prince&#8217;s circle."
+    },
+    "杜有邻": {
+      "en": "Du Youlin",
+      "pinyin": "Dù Yǒulín",
+      "status": "attested",
+      "note": "Father-in-law of the heir apparent; the Du Youlin case (747) was another of Li Linfu&#8217;s prosecutions that struck at the crown prince&#8217;s intimates."
+    },
+    "郭子仪": {
+      "en": "Guo Ziyi",
+      "pinyin": "Guō Zǐyí",
+      "status": "attested",
+      "note": "The great Tang general (697&#8211;781) whose campaigns were decisive in suppressing the An Lushan Rebellion; ennobled Prince of Fenyang. Standard form."
+    },
+    "李辅国": {
+      "en": "Li Fuguo",
+      "pinyin": "Lǐ Fǔguó",
+      "status": "attested",
+      "note": "The powerful eunuch who dominated the courts of Suzong and Daizong. Standard pinyin."
+    },
+    "玄宗": {
+      "en": "Xuanzong",
+      "pinyin": "Xuánzōng",
+      "status": "attested",
+      "note": "Temple name of Emperor Li Longji (r. 712&#8211;756), the reigning &#8216;Son of Heaven&#8217; / &#8216;the Sage&#8217; of the novel; the name-form appears in the afterword&#8217;s historical epilogue."
+    },
+    "肃宗": {
+      "en": "Suzong",
+      "pinyin": "Sùzōng",
+      "status": "attested",
+      "note": "Temple name of Li Heng (r. 756&#8211;762), the heir apparent of the novel, who took the throne at Lingwu during the rebellion."
+    },
+    "代宗": {
+      "en": "Daizong",
+      "pinyin": "Dàizōng",
+      "status": "attested",
+      "note": "Temple name of the emperor (r. 762&#8211;779) who followed Suzong; recalled Li Bi to the chancellorship and later had Yuan Zai executed."
+    },
+    "德宗": {
+      "en": "Dezong",
+      "pinyin": "Dézōng",
+      "status": "attested",
+      "note": "Temple name of the emperor (r. 779&#8211;805) who followed Daizong; the last of the four sovereigns Li Bi served."
+    },
+    "杨贵妃": {
+      "en": "Yang Guifei",
+      "pinyin": "Yáng Guìfēi",
+      "status": "attested",
+      "note": "The Precious Consort Yang, the same person as Taizhen (太真) of the novel; strangled at Mawei in 756. Standard form."
+    },
+    "于赓哲": {
+      "en": "Yu Gengzhe",
+      "pinyin": "Yú Gēngzhé",
+      "status": "decided",
+      "note": "A modern historian of the Tang, thanked by the author in Afterword II. Pinyin."
+    },
+    "惊鸿": {
+      "en": "Jinghong",
+      "pinyin": "Jīnghóng",
+      "status": "decided",
+      "note": "One of the friends thanked in Afterword II; an online handle, romanized in pinyin (lit. &#8216;startled swan&#8217;)."
+    },
+    "扫书喵": {
+      "en": "Saoshu Mao",
+      "pinyin": "Sǎoshū Māo",
+      "status": "decided",
+      "note": "One of the friends thanked in Afterword II; an online handle, romanized in pinyin (lit. &#8216;book-sweeping cat&#8217;)."
+    },
+    "森林鹿": {
+      "en": "Senlin Lu",
+      "pinyin": "Sēnlín Lù",
+      "status": "decided",
+      "note": "One of the friends thanked in Afterword II; an online handle, romanized in pinyin (lit. &#8216;forest deer&#8217;)."
+    },
+    "黑肚皮小蹄": {
+      "en": "Hei Dupi Xiaoti",
+      "pinyin": "Hēi Dùpí Xiǎotí",
+      "status": "decided",
+      "note": "One of the friends thanked in Afterword II; an online handle, romanized in pinyin (lit. &#8216;black-belly little-hoof&#8217;)."
     }
   },
   "organizations": {
@@ -2255,6 +2351,60 @@
       "pinyin": "Liǔ Jīng",
       "status": "decided",
       "note": "A byname of Xuanping Ward on the Leyou Plateau, the willow-thickest quarter of Chang'an, where He Zhizhang's residence stood. Rendered literally. ch24."
+    },
+    "山阴": {
+      "en": "Shanyin",
+      "pinyin": "Shānyīn",
+      "status": "attested",
+      "note": "He Zhizhang&#8217;s native place (in modern Shaoxing, Zhejiang), to which he retired in 744."
+    },
+    "江陵": {
+      "en": "Jiangling",
+      "pinyin": "Jiānglíng",
+      "status": "attested",
+      "note": "A city on the Yangzi (modern Jingzhou, Hubei); seat of Prince Yong&#8217;s power during the rebellion."
+    },
+    "蜀中": {
+      "en": "Shu",
+      "pinyin": "Shǔzhōng",
+      "status": "decided",
+      "note": "The Shu region (modern Sichuan), to which Xuanzong fled in 756. Rendered &#8216;Shu.&#8217;"
+    },
+    "太原": {
+      "en": "Taiyuan",
+      "pinyin": "Tàiyuán",
+      "status": "attested",
+      "note": "The great northern city and military headquarters (modern Taiyuan, Shanxi); Wang Zhongsi held its command."
+    },
+    "马嵬坡": {
+      "en": "Mawei Slope",
+      "pinyin": "Mǎwéi Pō",
+      "status": "decided",
+      "note": "The post-station west of Chang'an (马嵬驿) where the 756 mutiny forced the deaths of Yang Guozhong and Yang Guifei. Rendered &#8216;Mawei Slope.&#8217;"
+    },
+    "华阴": {
+      "en": "Huayin",
+      "pinyin": "Huáyīn",
+      "status": "attested",
+      "note": "A county at the foot of Mount Hua (modern Huayin, Shaanxi); Yao Runeng is styled its commandant."
+    },
+    "西安": {
+      "en": "Xi'an",
+      "pinyin": "Xī'ān",
+      "status": "attested",
+      "note": "The modern city on the site of Tang Chang'an, where the author did field research. Standard form."
+    },
+    "长信": {
+      "en": "Changxin",
+      "pinyin": "Chángxìn",
+      "status": "decided",
+      "note": "A Han palace (长信宫) associated with the neglected consort Ban Jieyu; invoked in Wang Yunxiu&#8217;s dying words as a byword for a consort&#8217;s fate written into history."
+    },
+    "昭阳": {
+      "en": "Zhaoyang",
+      "pinyin": "Zhāoyáng",
+      "status": "decided",
+      "note": "A Han palace hall (昭阳殿) associated with the favorite Zhao Feiyan; paired with Changxin in Wang Yunxiu&#8217;s allusion."
     }
   },
   "terms": {
@@ -3679,6 +3829,120 @@
       "pinyin": "Hànlín",
       "status": "attested",
       "note": "A scholar of the Hanlin Academy (翰林院), the emperor's inner circle of literary and drafting talent; Li Bi serves the Eastern Palace as one. Kept in pinyin, 'Hanlin,' with 'academician.'"
+    },
+    "回纥": {
+      "en": "the Uyghurs",
+      "pinyin": "Huíhé",
+      "status": "attested",
+      "note": "The Uyghur (Huihe) confederation that overran the last Türk remnant in 745 and became the Tang&#8217;s chief steppe ally. Standard form &#8216;Uyghur.&#8217;"
+    },
+    "采访使": {
+      "en": "Surveillance Commissioner",
+      "pinyin": "cǎifǎngshǐ",
+      "status": "decided",
+      "note": "A regional inspecting official of the Tang (Hucker: Surveillance Commissioner). 河北采访使 = Surveillance Commissioner of Hebei."
+    },
+    "贵妃": {
+      "en": "Noble Consort",
+      "pinyin": "guìfēi",
+      "status": "decided",
+      "note": "The highest rank of imperial consort below the empress; Yang Yuhuan (Taizhen) was invested with it. Rendered &#8216;Noble Consort.&#8217;"
+    },
+    "太上皇": {
+      "en": "Retired Emperor",
+      "pinyin": "tàishànghuáng",
+      "status": "decided",
+      "note": "The honorific of an abdicated or superseded emperor; Xuanzong held it after 756. Rendered &#8216;Retired Emperor.&#8217;"
+    },
+    "客卿": {
+      "en": "guest counselor",
+      "pinyin": "kèqīng",
+      "status": "decided",
+      "note": "An adviser serving without formal office; Li Bi&#8217;s chosen standing at Suzong&#8217;s court."
+    },
+    "白衣宰相": {
+      "en": "the White-Robed Chancellor",
+      "pinyin": "báiyī zǎixiàng",
+      "status": "decided",
+      "note": "&#8216;Chancellor in commoner&#8217;s white,&#8217; the epithet for Li Bi, who guided policy while refusing office and rank."
+    },
+    "宰相": {
+      "en": "chancellor",
+      "pinyin": "zǎixiàng",
+      "status": "decided",
+      "note": "The chief minister of the Tang; rendered &#8216;chancellor&#8217; (distinct from the specific office 右相, the Right Minister)."
+    },
+    "邺县侯": {
+      "en": "Marquis of Ye County",
+      "pinyin": "Yèxiàn Hóu",
+      "status": "decided",
+      "note": "Li Bi&#8217;s fief-title, conferred for his services under four reigns."
+    },
+    "金紫光禄大夫": {
+      "en": "Grand Master of the Palace with Golden Seal and Purple Ribbon",
+      "pinyin": "jīnzǐ guānglù dàfū",
+      "status": "decided",
+      "note": "A senior prestige title of the Tang (Hucker). Held by the Nestorian Yisi."
+    },
+    "节度副使": {
+      "en": "vice military commissioner",
+      "pinyin": "jiédù fùshǐ",
+      "status": "decided",
+      "note": "The deputy to a 节度使 (military commissioner); Yisi held it concurrently for Shuofang."
+    },
+    "殿中监": {
+      "en": "Director of the Palace Administration",
+      "pinyin": "diànzhōngjiān",
+      "status": "decided",
+      "note": "Head of the Palace Administration (殿中省) (Hucker); Yisi held it on a probationary (试) basis."
+    },
+    "紫袈裟": {
+      "en": "the purple kasaya",
+      "pinyin": "zǐ jiāshā",
+      "status": "decided",
+      "note": "A purple monastic robe granted as an imperial honor to eminent clerics."
+    },
+    "安史之乱": {
+      "en": "the An Lushan Rebellion",
+      "pinyin": "Ān-Shǐ zhī luàn",
+      "status": "decided",
+      "note": "The rebellion of 755&#8211;763 led by An Lushan and Shi Siming that broke the High Tang; named 安史 for the two leaders, rendered &#8216;the An Lushan Rebellion&#8217; as in the ch16 note."
+    },
+    "大秦景教流行中国碑": {
+      "en": "the Stele of the Propagation in China of the Luminous Religion of Daqin",
+      "pinyin": "Dàqín Jǐngjiào liúxíng Zhōngguó bēi",
+      "status": "attested",
+      "note": "The Nestorian Stele of 781, erected by Yisi at the Daqin Temple in Chang'an and rediscovered in the Ming; a primary monument of Tang Christianity."
+    },
+    "安禄山事迹": {
+      "en": "The Deeds of An Lushan",
+      "pinyin": "Ān Lùshān Shìjì",
+      "status": "attested",
+      "note": "A real Tang work in three juan attributed to Yao Runeng; its Mawei passage names a Zhang Xiaojing, the seed of the novel."
+    },
+    "刺客信条": {
+      "en": "Assassin's Creed",
+      "pinyin": "Cìkè Xìntiáo",
+      "status": "decided",
+      "note": "The Ubisoft video-game series; a Zhihu question about setting one in China seeded the novel."
+    },
+    "知乎": {
+      "en": "Zhihu",
+      "pinyin": "Zhīhū",
+      "status": "decided",
+      "note": "A Chinese question-and-answer website. Standard romanization."
+    },
+    "24小时": {
+      "en": "24",
+      "pinyin": "Èrshísì Xiǎoshí",
+      "status": "decided",
+      "note": "The American real-time television series 24; its per-episode structure inspired the novel&#8217;s division into the half-shichen of one day."
+    },
+    "靖安司丞": {
+      "en": "Deputy Director",
+      "pinyin": "Jìng'ānsī chéng",
+      "status": "decided",
+      "note": "The 丞 (deputy) of the Jing'an Bureau; Li Bi&#8217;s office. Rendered &#8216;Deputy Director&#8217; throughout."
     }
   }
 }
