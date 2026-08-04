@@ -1351,3 +1351,71 @@ Glossary/figures: no changes (this pass never re-romanizes or renames).
 Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 170 notes.
 qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 170 references = 170
 bodies = 170 backlinks, all links resolve).
+
+## Register pass R03 (ch12 to ch15) — 2026-08-04
+
+Third execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source ">" line touched,
+no paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/ (ch12 to ch15). Book-wide notes 170 to 191.
+
+Prose edits (1 total; ch12-15 are dramatic/operatic chapters whose heightened
+register is intentional and already well made, so almost every paragraph LEAVES
+and only one genuine calque was touched):
+- ch12 p080 (T1) 不打自招 "a confession before the whip" to "as good as a
+  confession" (the scarf in April weather was itself self-incrimination; the
+  literal version wrongly imports a whip/torture image and reads as anticipating
+  torture rather than giving oneself away).
+- ch13, ch14, ch15: no prose edits (the revelation, the climax, and the funeral
+  confrontation all read cleanly in their own register; forcing edits would be
+  churn, per the ch01 calibration).
+
+Notes added (21 total; each checked against ALL prior units for first-occurrence
+coverage, scholarship verified, XHTML with numeric character references):
+- ch12 (+5, now 8): Amitabha 阿弥陀佛 (Pure Land invocation); the "white-duck"
+  scapegoat 宰白鸭 (paid substitute-convict executed for another); pingtan 评弹
+  (Suzhou storytelling-ballad, pipa/sanxian, storytelling houses); the Herd-Boy
+  and Weaving-Maid stars 牵牛织女 (the Milky-Way lovers' legend); the top-graduate
+  状元 / imperial examinations.
+- ch13 (+6, now 9): the Romance of the Three Kingdoms 三国演义 as byword for
+  stratagem; hemp-and-white deep mourning 披麻戴孝 (vs Western black); the Manchu
+  queue 辫子 (compulsory Qing badge, cut after 1911); "aunt-mother" 姨娘 (the
+  children's form of address for a father's concubine); 李代桃僵 (the plum dying
+  for the peach; the substitution stratagem — first occurrence in the book, so
+  the note lives here though REGISTER_PASS anticipated ch29; prose kept per T1);
+  the bride-price 彩礼 (paid groom-to-bride, opposite a dowry).
+- ch14 (+5, now 10): 救世渡人 (the Buddhist "ferry beings across" metaphor of
+  A-Chu's creed); "building the Great Wall" 砌长城 (mahjong); 朝秦暮楚 "Qin by
+  morning and Chu by nightfall" (fickleness, the rival Warring States); the Green
+  and Red Gangs 青红帮 (real Shanghai secret societies, distinct from the invented
+  Golden Dragon Society); the Yellow Springs 黄泉 (the underworld).
+- ch15 (+5, now 8): the 嫡/庶 principal-wife/concubine child hierarchy and the
+  ritual-mother 嫡母 / birth-mother 生母 relation; 忠孝节义 (the four cardinal
+  virtues of a traditional schooling); the "yellow crane" 黄鹤 elegy (Cui Hao's
+  Yellow Crane Tower); the Warlord Era 军阀混战; the disciple-pledge card 拜师帖.
+
+Recurring subjects were cross-referenced, not re-noted: the Comintern and the
+British/French concessions and Garrison Command (ch04/ch08/ch10); Tongji Hospital
+and Longjing tea (ch07/ch08); the wife/concubine hierarchy and the Madams and
+three-years mourning (ch01); the spirit-tablet, kowtow, burning paper money and
+Qingming (ch07/ch09); the Xuantong reign and the Old Buddha (ch00/ch07); the Jiao
+Guiying aria and the three-knives-six-holes penance (existing ch12/ch15 notes);
+the Yellow Springs (noted at its first occurrence, ch14) where it recurs in ch15.
+Notes NOT added where the scene already makes the point plain (福祸相依/否极泰来 and
+子欲养而亲不待 are self-glossed inline; the side-gate/main-gate concubine funeral is
+dramatized in the text) or the item is decorative rather than load-bearing (the
+mandarin-duck/butterfly image in ch15, whose emblem is carried by the ch32 note).
+
+Checks: per chapter, split_bilingual.py regenerated reading + data/zh; parity OK
+(ch12 204, ch13 118, ch14 260, ch15 254); check_numbers 0 unresolved (data/noise.txt
+unchanged, the one prose edit lost no quantity); straight-quote guard clean on all
+four reading files; no source ">" line changed in any bilingual file. Spot-audit:
+17 paragraphs (the one touched paragraph plus a spread of note-anchor paragraphs
+across all four chapters) re-read against their source lines — no meaning drift,
+every anchor verbatim, every note's claim matches the source.
+
+Glossary/figures: no changes (this pass never re-romanizes or renames).
+
+Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 191 notes.
+qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 191 references = 191
+bodies = 191 backlinks, all links resolve).

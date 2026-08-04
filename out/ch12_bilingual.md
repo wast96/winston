@@ -238,7 +238,7 @@ Ronghua and Lao Yu parted at the gate of the Tongji Hospital; Lao Yu got into A-
 Halfway there, the car ran into a “spot check” by the police of the British Concession. This “spot check” was part of a joint operation, mounted together with the Shanghai Garrison Command, to net the fish that had slipped through in the roundup of the CCP Special Branch. The questioning was rigorous, the scale wide, a dragnet search; among the crowd submitting to inspection, one after another of the so-called “Communist” suspects was detained, questioned, examined, and some arrested on the spot.
 
 > 老余虽然化了装，但是，脖子上的弹痕依然清晰可辨，而在四月天气裹紧围脖，本身就是“不打自招”。
-Disguised though Lao Yu was, the bullet-scar on his neck was still plainly to be seen; and to wrap one’s neck tightly in a scarf in the weather of April was, in itself, a confession before the whip.
+Disguised though Lao Yu was, the bullet-scar on his neck was still plainly to be seen; and to wrap one’s neck tightly in a scarf in the weather of April was, in itself, as good as a confession.
 
 > “怎么办？”老余在想。
 “What’s to be done?” Lao Yu was thinking.

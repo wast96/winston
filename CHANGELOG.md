@@ -8,6 +8,32 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
 
+## 2026-08-04 — Register pass R03 (ch12 to ch15)
+Third execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source line touched, no
+paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/. Book-wide notes 170 to 191.
+
+- ch12: 1 prose touch (不打自招 "a confession before the whip" to "as good as a
+  confession"). 5 notes (Amitabha 阿弥陀佛; the "white-duck" scapegoat 宰白鸭;
+  pingtan 评弹; the Herd-Boy and Weaving-Maid stars 牵牛织女; the top-graduate
+  状元). Now 8.
+- ch13: 0 prose touches. 6 notes (Romance of the Three Kingdoms 三国演义; hemp-and-
+  white deep mourning 披麻戴孝; the Manchu queue 辫子; "aunt-mother" 姨娘; the
+  substitution stratagem 李代桃僵, noted at its first occurrence; the bride-price
+  彩礼). Now 9.
+- ch14: 0 prose touches. 5 notes (救世渡人 the Buddhist "ferry across" metaphor;
+  "building the Great Wall" 砌长城 = mahjong; 朝秦暮楚 fickleness; the Green and
+  Red Gangs 青红帮; the Yellow Springs 黄泉). Now 10.
+- ch15: 0 prose touches. 5 notes (the 嫡/庶 concubine-child hierarchy and
+  嫡母/生母 mothers; 忠孝节义 the four virtues; the "yellow crane" 黄鹤 elegy;
+  the Warlord Era 军阀混战; the disciple-pledge card 拜师帖). Now 8.
+
+Checks: parity OK on all four (204/118/260/254); check_numbers 0 unresolved
+(noise.txt unchanged); straight-quote guard clean; qa_epub PASS (191 references =
+191 bodies = 191 backlinks). Spot-audit of 17 paragraphs: no meaning drift.
+Glossary/figures unchanged. EPUB rebuilt and delivered.
+
 ## 2026-08-03 — Register pass R02 (ch07 to ch11)
 Second execution batch of the register pass (REGISTER_PASS.md): style-only prose
 revision plus footnote densification. Content frozen; no source line touched, no
