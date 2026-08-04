@@ -66,7 +66,7 @@ A muffled “phut,” low and heavy; plainly there was a silencer fitted to the 
 
 One shot, and death.
 
-Yu Xiaojiang had killed Li Qinhong with the speed of a thunderclap that leaves no time to cover the ears.
+Yu Xiaojiang had killed Li Qinhong with the suddenness of a thunderclap.
 
 Then Yu Xiaojiang put two more rounds into her, in the invariable manner in which Juntong kills.
 
@@ -112,7 +112,7 @@ By now Xia Yuechun had dragged Li Qinhong’s body behind the wooden screen; the
 
 Yang Muci understood at last the whole process by which the organisation had carried out its plan.
 
-About ten minutes earlier.
+*About ten minutes earlier.*
 
 Under Yu Xiaojiang’s coercion he had handed over Lili’s gun; then they had returned to the ring-shaped corridor on the second floor of the inpatient wing. Muci had not gone back to his own ward but had walked the other way, to the more out-of-the-way right-hand curving corridor. With his own eyes he had watched Yu Xiaojiang flip the “Dissection Room” door-plate over to its other side, Bed 19, second floor, and he had grown suspicious.
 

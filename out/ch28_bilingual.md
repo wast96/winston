@@ -100,7 +100,7 @@ A muffled “phut,” low and heavy; plainly there was a silencer fitted to the 
 One shot, and death.
 
 > 俞晓江以迅雷不及掩耳之势杀了李沁红。
-Yu Xiaojiang had killed Li Qinhong with the speed of a thunderclap that leaves no time to cover the ears.
+Yu Xiaojiang had killed Li Qinhong with the suddenness of a thunderclap.
 
 > 接下来，俞晓江又补了两枪，这是军统杀人的一贯作风。
 Then Yu Xiaojiang put two more rounds into her, in the invariable manner in which Juntong kills.
@@ -169,7 +169,7 @@ By now Xia Yuechun had dragged Li Qinhong’s body behind the wooden screen; the
 Yang Muci understood at last the whole process by which the organisation had carried out its plan.
 
 > 大约十分钟前。
-About ten minutes earlier.
+*About ten minutes earlier.*
 
 > 他在俞晓江的胁迫下交出了丽丽的枪，随后，他们回到住院部二楼环形走廊上。慕次并没有回到自己的病房，而是逆向走到比较偏的右侧回旋走廊。他亲眼看见俞晓江把“解剖室”的门牌翻转到另一面二楼十九床，他狐疑了。
 Under Yu Xiaojiang’s coercion he had handed over Lili’s gun; then they had returned to the ring-shaped corridor on the second floor of the inpatient wing. Muci had not gone back to his own ward but had walked the other way, to the more out-of-the-way right-hand curving corridor. With his own eyes he had watched Yu Xiaojiang flip the “Dissection Room” door-plate over to its other side, Bed 19, second floor, and he had grown suspicious.

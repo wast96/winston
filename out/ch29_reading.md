@@ -1,6 +1,6 @@
 ## Chapter 29. Parting the Wild Grass to Seek the Doubtful Dust
 
-The winter of 1932.
+*The winter of 1932.*
 
 On the desk of Xiong Zida, chief of the Detective Division of the Central Shanghai Commandant’s Office, lay a stack of newspapers and a single official document.
 

@@ -1,7 +1,7 @@
 ## H2 Chapter 29. Parting the Wild Grass to Seek the Doubtful Dust
 
 > 一九三二年，冬天。
-The winter of 1932.
+*The winter of 1932.*
 
 > 沪中长官公署侦缉处处长熊自达的办公桌上，叠放着几张报纸和一纸公文。
 On the desk of Xiong Zida, chief of the Detective Division of the Central Shanghai Commandant’s Office, lay a stack of newspapers and a single official document.

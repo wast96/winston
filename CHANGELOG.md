@@ -8,6 +8,40 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
 
+## 2026-08-04 — Register pass R07 (ch28 to ch31)
+Seventh execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source line touched, no
+paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/ (ch28 to ch31). Ordinary ch01-mode chapters deep in the book: almost every
+paragraph LEAVE; edits confined to scene cards (T2) and a single idiom de-calque
+(T1), no recasts. New notes run low and coverage-driven per the R07 brief.
+Book-wide notes 218 to 221.
+
+- ch28: 2 prose edits — one T2 time-stamp scene card (大约十分钟前。) and one T1
+  de-calque of 迅雷不及掩耳之势 ("the speed of a thunderclap that leaves no time to
+  cover the ears" to "the suddenness of a thunderclap"). 0 notes (Juntong, the
+  September 18th Incident/Manchukuo, the Comintern, and the Yellow Springs all noted
+  earlier; the wheat-and-chessboard legend is Western-familiar). Stays 4.
+- ch29: 1 prose edit — one T2 time-stamp scene card (一九三二年，冬天。). 2 notes
+  (the newspaper "skylight" 开天窗 of Republican press censorship; the four treasures
+  of the scholar's studio 文房四宝 — brush, ink-stick, paper, inkstone; both first in
+  book). Now 5.
+- ch30: 0 prose edits, 0 notes (a fully LEAVE cavern two-hander; opaque furniture —
+  Nagoya obi/Momoyama kimono this chapter, Yellow Springs ch14, lineage-drowning
+  ch03 — already covered). Stays 3.
+- ch31: 0 prose edits. 1 note (the golden-cicada stratagem 金蝉脱壳, 21st of the
+  Thirty-Six Stratagems, first as this stratagem in book; paired with the ch13
+  李代桃僵 note). Now 2.
+
+Source oddities preserved: the Ronghua/Huamei bookstore inconsistency (footnoted
+ch22) and the 李代桃僵 idiom (footnoted ch13) recur in ch29; the Muci/Muchu and
+A-Chu/A-Ci twin-name usages left as printed across all four. Checks: parity OK
+(159/206/262/207), check_numbers 0 unresolved (noise.txt unchanged), typography
+guard clean; qa_epub PASS (221 refs = 221 bodies = 221 backlinks). Files touched:
+out/ch28_bilingual.md, out/ch29_bilingual.md (prose), out/ch28_reading.md,
+out/ch29_reading.md (regenerated), notes.json (+3), edits/ch28..ch31_edits.md (new),
+out/On a Hair Trigger.epub (rebuilt), PROGRESS.md, HANDOFF.md.
+
 ## 2026-08-04 — Register pass R06 (ch24 to ch27)
 Sixth execution batch of the register pass (REGISTER_PASS.md): style-only prose
 revision plus footnote densification. Content frozen; no source line touched, no

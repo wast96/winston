@@ -1630,3 +1630,74 @@ Glossary/figures: no changes (this pass never re-romanizes or renames).
 Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 218 notes.
 qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 218 references = 218
 bodies = 218 backlinks, all links resolve).
+
+## Register pass R07 (ch28 to ch31) — 2026-08-04
+
+Seventh execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source ">" line touched,
+no paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/ (ch28 to ch31). These are ordinary ch01-mode chapters deep in the book, so
+almost every paragraph LEAVE; the prose already reads in the target register and
+was not churned. Per the R07 brief, this deep the cultural furniture is largely
+covered, so new notes run low and coverage-driven, not to a quota. Book-wide notes
+218 to 221.
+
+- ch28 (2 touch, 0 notes now 4): one T2 scene card — the bare time-stamp
+  大约十分钟前。 (p057) set in italics — and one T1 de-calque: 迅雷不及掩耳之势
+  (p034), "the speed of a thunderclap that leaves no time to cover the ears" to
+  "the suddenness of a thunderclap" (the "cover the ears" tail is an idiom-calque
+  that does not land; no numeral, nothing dropped). No recast. No densification:
+  Juntong (ch04), the September 18th Incident / Manchukuo (ch16/17), the Comintern
+  (ch12), and the Yellow Springs (ch14) are all noted earlier, and the
+  wheat-and-chessboard legend is familiar to a Western reader.
+- ch29 (1 touch, +2 notes now 5): one T2 scene card — the bare time-stamp
+  一九三二年，冬天。 (p001) set in italics. No recast. Notes: the newspaper
+  "skylight" 开天窗 (p019, first in book), the Republican-era practice of printing a
+  visible blank where the censor struck copy; the four treasures of the scholar's
+  studio 文房四宝 (p122, first in book), brush / ink-stick / paper / inkstone, which
+  makes the "ink not yet dry" a clue. The 李代桃僵 stand-in idiom (p235) is already
+  footnoted at first occurrence (ch13) and left; the Huamei/Ronghua bookstore
+  oddity (footnoted ch22) recurs verbatim.
+- ch30 (0 touch, 0 notes, unchanged now 3): a fully LEAVE chapter. The one-line
+  atmospheric beats in the action ("Utter silence."; "Every sound stilled...") sit
+  inside a continuous cavern scene, not at a setting transition, and stay roman per
+  the T2 caveat. The chengyu/allusions either land in English (至刚易折, 花非花雾非
+  雾, the mock-Chan mondo) or are already footnoted (假作真时真亦假, 名古屋带, 有缘
+  共死). All opaque furniture is covered: the Nagoya obi / Momoyama kimono (this
+  chapter), the Yellow Springs (ch14), the lineage-drowning custom (ch03). No
+  first-occurrence item un-noted, so no densification.
+- ch31 (0 touch, +1 note now 2): no bare stamps, so no scene cards; the one-line
+  dramatic beats ("He did not know.") are narrative sentences and stay roman. The
+  chengyu/proverbs either land in English (天网恢恢疏而不漏, 斩草除根, 冰炭不同炉,
+  呆若木鸡) or are already footnoted (the chapter-title roaming-fish-and-hook; 七尺
+  男儿 noted ch20). Note: the golden-cicada stratagem 金蝉脱壳 (p103, first as this
+  stratagem in book; ch14's "cicada's wing" is an unrelated thinness image), the
+  21st of the Thirty-Six Stratagems, paired with the ch13 note on 李代桃僵. The
+  lineage-drowning behind "steeped in a pig-cage" 浸猪笼 (p195) is already covered
+  at first occurrence (ch03, 沉塘) and left un-noted.
+
+Source oddities preserved (style pass, not story repair): the Ronghua/Huamei
+bookstore-name inconsistency (footnoted at ch22) recurs verbatim in ch29; the
+李代桃僵 stand-in idiom (footnoted ch13) recurs in ch29; the Muci/Muchu and
+A-Chu/A-Ci twin-name usages are left exactly as printed across all four chapters.
+
+Checks: per chapter, split_bilingual.py regenerated reading + data/zh; parity OK
+(ch28 159, ch29 206, ch30 262, ch31 207); check_numbers 0 unresolved on all four
+(data/noise.txt unchanged — its ch28 一万亿 chessboard entry and the ch31-33 block
+already cover these numerals, and the thunderclap de-calque and scene-card italics
+remove no quantity); straight-quote guard clean on all four reading files; no source
+">" line changed in any bilingual file. Spot-audit: the three prose edits re-read
+against their source lines — the two scene-card italicizations are formatting-only
+(identical text after stripping asterisks; words, numerals, names verbatim), and the
+one T1 de-calque (迅雷不及掩耳之势 to "the suddenness of a thunderclap") preserves the
+sense of startling suddenness with no numeral and nothing dropped; a further sample of
+LEAVE paragraphs (ch28 门前雪/瓦上霜 proverb, ch30 花非花, ch31 天网恢恢 and 浸猪笼)
+confirmed faithful to source. All 3 new note anchors verified as unique verbatim
+substrings of the post-edit reading text, no HTML named entities, scholarship checked
+(all Corroborated). New notes confirmed attached with noterefs in the built EPUB.
+
+Glossary/figures: no changes (this pass never re-romanizes or renames).
+
+Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 221 notes.
+qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 221 references = 221
+bodies = 221 backlinks, all links resolve).
