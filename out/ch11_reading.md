@@ -362,7 +362,7 @@ There were no marks of a struggle on the scene. Yao Runeng did not believe there
 
 Yao Runeng wondered whether poison might have been put beforehand into the mutton broth or the water, so that these ten-odd men, having taken the poison, were then attacked and so had no power at all to resist. What had truly happened, he feared, could only be learned when the coroner came to open the bodies and examine them.
 
-If this surmise held, then the poisoner must be a traitor the Pifu had planted within the Jing’an Bureau—and that traitor was very likely still alive. At the thought, Yao Runeng’s heart could not help but sink.
+If this surmise held, then the poisoner must be a traitor the Pifu had planted within the Jing’an Bureau—and that traitor was very likely still alive. At the thought, Yao Runeng’s heart sank despite himself.
 
 It could well be imagined: the Pifu were the organization behind the Turkic Wolf Guards, and in attacking the Jing’an Bureau they must surely have some deeper design.
 

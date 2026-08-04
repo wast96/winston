@@ -32,7 +32,7 @@ Long Bo took up a hemp cloth to cover his face and went into the warehouse. Behi
 
 Cao Poyan sat down slowly in the warehouse doorway, his back against a gallery-pillar, and drew from his neck that necklace of colored stones to turn it over in his hands. They were smooth shoal-pebbles his daughter had gathered by the Onon River, strung with her own hands on a cord she had twisted of white horsehair, into which she had worked three strands of her own hair and a single breath of her own. So bound, it was said, however far the two of them might be parted, their souls could still speak to each other. Cao Poyan’s fingers slid nimbly over every stone, the way a monk of the Central Plains tells his prayer-beads. The stones’ faces were worn glass-smooth, rubbed past all counting, and each time it calmed his heart.
 
-The Right Shad had already cut away Cao Poyan’s crown-lock. By what the steppe shamans held, should he ever harbor a treasonous heart, then even in death his soul would be tormented in the underworld. But Cao Poyan cared not a whit for that. What he truly cared about was no trifling thing like his own life, but whether the mission would come off, and whether the khagan’s will would be carried through.
+The Right Shad had already cut away Cao Poyan’s crown-lock. By what the steppe shamans held, should he ever harbor a treasonous heart, then even in death his soul would be tormented in the underworld. But Cao Poyan cared nothing for that. What he truly cared about was no trifling thing like his own life, but whether the mission would come off, and whether the khagan’s will would be carried through.
 
 Only one more double-hour to endure, and it would all be over. Gripping the necklace, Cao Poyan smiled for the first time.
 
@@ -130,7 +130,7 @@ This was fresh-pressed flax oil, still carrying its fragrance. Sunlight came sla
 
 Not far off, several ledger-clerks held greasy account-books and were checking off the heaps of rapeseed cake, turnip-seed cake, and bushel-measures of sesame at their feet. In the storehouse of the rear court, another party was counting yet more jars and urns, and did not overlook so much as the stoves where the rendered oil was cooked.
 
-The owner of the oil-works came hurrying out, and at the sight of all this disorder flew first into a rage, only to be called aside at once by an official who murmured a few words in his ear, whereupon his whole manner changed, and he fell to nodding and bowing and scraping.
+The owner of the oil-works came hurrying out, and at the sight of all this disorder flew first into a rage, only to be called aside at once by an official who murmured a few words in his ear, at which his whole manner changed, and he fell to nodding and bowing and scraping.
 
 The like was happening at the same moment in a dozen-odd oil-works, of animal and vegetable oils both, across Chang’an. Whether they supplied the palace or the common wards, every one without exception was searched from top to bottom and required to produce a full account of its dealings over the past month. Some proprietors, presuming on their backers, tried to resist, and were put down without ceremony.
 

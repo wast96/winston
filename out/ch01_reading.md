@@ -458,7 +458,7 @@ Reckoning it up, Li Bi would be twenty-six now, just at the age when a man burns
 
 Xu Bin turned his eyes away, a little embarrassed. His friend’s eye was too venomously sharp, and his tongue too blunt, and the two together were more than a man could bear.
 
-“Sorry, I can’t say that yet. Ah, ah... Deputy Director Li will tell you presently.”
+“Sorry, I can’t say that yet. Ah, ah... Deputy Director Li will tell you soon.”
 
 Zhang Xiaojing laughed aloud. “Fine, I won’t ask. Whatever it is, it’s all the same to me—could anything be more wretched than losing one’s head?”
 

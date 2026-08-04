@@ -262,7 +262,7 @@ Several young men in brocade robes stood at his side. They all nodded.
 
 The middle-aged man spoke with venomous spite: “That business with her and her father last year turned everything upside down, and cost a county commandant his life into the bargain. Running into her today is surely Heaven’s will. If I don’t settle this grudge, people will think Feng Dalun is easy to push around.
 
-“You boys are to give her a proper welcome presently.”
+“You boys are to give her a proper welcome in a little while.”
 
 The young men in brocade burst out laughing, their eyes gleaming with vicious lust.
 
@@ -410,7 +410,7 @@ This was not a matter of prejudice, of course. In fact, of the four suspected ho
 
 The Xifu sat on the northwest corner of the third crossroads in the West Market, a prime location where every road converged and trade was at its busiest. The shop-front stood apart from its neighbors: on either side rose great pillars as thick as two men’s arms, lacquered in gleaming black and inlaid with coiling dragon-and-cloud designs. Zhang Xiaojing pushed aside the cloth curtain and stepped inside.
 
-Inside it was quiet, nearly empty of customers. Just inside the door a crescent-shaped wooden counter blocked the way. It stood a head taller than an ordinary man; one could barely see its bare surface, and nothing at all behind it. He shook a bronze bell that hung beside it, and presently a goateed foreign old man put his head above the counter and looked down at him, expressionless.
+Inside it was quiet, nearly empty of customers. Just inside the door a crescent-shaped wooden counter blocked the way. It stood a head taller than an ordinary man; one could barely see its bare surface, and nothing at all behind it. He shook a bronze bell that hung beside it, and a moment later a goateed foreign old man put his head above the counter and looked down at him, expressionless.
 
 “Exchanging wares or exchanging coin?” the old man asked dryly, his tone unfriendly.
 

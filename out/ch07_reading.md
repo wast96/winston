@@ -236,11 +236,11 @@ Men who are greedy and yet know how to hold themselves in are, more often than n
 
 Yuan Zai smiled: “For instance—who exactly is this man? And why is he in jail?”
 
-Feng Dalun hesitated a moment, then spoke: “The man to be requisitioned is called Zhang Xiaojing. He was once a soldier in the Western Regions, and for his merits was promoted to buliang chief of Wannian County. In the tenth month of the second year of Tianbao, the court, meaning to build a hostel for the envoy come from Little Balur, requisitioned land in Dunyi Ward. A shop called the Wen’s would not remove, and men of the Forestry and Crafts Bureau went to treat with them; whereupon the shopkeeper, one Wen Wuji, died in some unaccountable way. This Zhang Xiaojing was an old comrade-in-arms of the shopkeeper’s, and insisted the man had been done to death by villains, and would pursue it to the very bottom; in the end he fell out with his superior, the county commandant of Wannian. The fellow killed his superior, and was hauled off to jail.”
+Feng Dalun hesitated a moment, then spoke: “The man to be requisitioned is called Zhang Xiaojing. He was once a soldier in the Western Regions, and for his merits was promoted to buliang chief of Wannian County. In the tenth month of the second year of Tianbao, the court, meaning to build a hostel for the envoy come from Little Balur, requisitioned land in Dunyi Ward. A shop called the Wen’s would not remove, and men of the Forestry and Crafts Bureau went to treat with them; the shopkeeper, one Wen Wuji, then died in some unaccountable way. This Zhang Xiaojing was an old comrade-in-arms of the shopkeeper’s, and insisted the man had been done to death by villains, and would pursue it to the very bottom; in the end he fell out with his superior, the county commandant of Wannian. The fellow killed his superior, and was hauled off to jail.”
 
 Yuan Zai listened, the smile on his face unchanging. Feng Dalun’s account was neither whole nor honest—this “building a hostel, requisitioning land,” for one thing, hid within it who knew how much profit; and the Forestry and Crafts Bureau’s “treating” with the master of the Wen’s shop was hardly likely to have been so gentle. As for the part Prince Yong had played in it, Feng Dalun had not breathed a word...
 
-But... none of it mattered. Yuan Zai cared not a whit for the truth; the thing that mattered was what Prince Yong wanted.
+But... none of it mattered. Yuan Zai cared nothing for the truth; the thing that mattered was what Prince Yong wanted.
 
 He tapped the rim of the bronze goblet with a fingernail: “A capital sentence passed in the tenth month last year should, by rights, have been carried out that same winter; how is it he is still alive now?”
 
@@ -296,7 +296,7 @@ The two men rose and left the Yixiang Pavilion, crossed the courtyard, and came 
 
 While they talked, Yuan Zai took the moment to push open the woodshed door first. Within, a woman in foreign robes lay bound on the ground, her cloud of hair in disarray, her look one of terror, a wad of hemp stuffed in her mouth so that she could make only a muffled moaning.
 
-Yuan Zai’s eyes met hers, and of a sudden he noticed several kingfisher-blue花钿 of twisted silver at the woman’s cheek, and, thrust into her coiled hair, a phoenix-tail nanmu hairpin; his expression could not but stir.
+Yuan Zai’s eyes met hers, and of a sudden he noticed several twisted-silver kingfisher ornaments at the woman’s cheek, and, thrust into her coiled hair, a phoenix-tail nanmu hairpin; his expression could not but stir.
 
 He stood where he was, a flicker in his eyes, and then did a strange thing—he turned and pulled the door shut behind him.
 
@@ -334,7 +334,7 @@ Xuanping Ward, where He Zhizhang lived, stood at the northeast corner of the Ley
 
 After He Zhizhang had retired from office, he had sold off all his properties in the capital, keeping only this one—by which one might see how greatly he loved it.
 
-Li Bi drove his horse up onto the plateau, straight up along a broad and level road of yellow earth, the scene rising higher by stages as he went. The willows on the plateau grew so thick that it had even the by-name of “the Willow Capital.” Winter being just past, the dead branches were too many, and the authorities had strictly forbidden the lighting of lanterns; so neither within the wards nor along the roadsides were there any colored lanterns raised on high. But the ground here stood high and swelling, and from the height, at a glance, all the bright lamps of the whole city fell within one’s view; and so not a few families of officials had come up onto the plateau early to seize a good place. All along the way there was the din of carts and horses and an unbroken chain of song, not a whit behind other quarters.
+Li Bi drove his horse up onto the plateau, straight up along a broad and level road of yellow earth, the scene rising higher by stages as he went. The willows on the plateau grew so thick that it had even the by-name of “the Willow Capital.” Winter being just past, the dead branches were too many, and the authorities had strictly forbidden the lighting of lanterns; so neither within the wards nor along the roadsides were there any colored lanterns raised on high. But the ground here stood high and swelling, and from the height, at a glance, all the bright lamps of the whole city fell within one’s view; and so not a few families of officials had come up onto the plateau early to seize a good place. All along the way there was the din of carts and horses and an unbroken chain of song, in no way behind the other quarters.
 
 Li Bi barely hacked his way out of the press and came to the southeast corner of Xuanping Ward. There were few residences here, but every lintel was studded with four gate-pins alike—a sign that each householder was of no common birth. He Zhizhang’s house was easy to know: a great stand of willows was planted before the gate. Li Bi went straight to a residence behind the green wood and knocked at the corner door. The servant within recognized his standing and, not daring to be slack, led him all the way through to the rear court.
 
@@ -562,7 +562,7 @@ The pressing thing of the moment, however, was how to get out.
 
 These two fledglings had plainly gotten in by passing themselves off as someone; but the crux was how they meant to get themselves out of the Right Xiao Guard.
 
-Zhang Xiaojing turned his head and saw that Tanqi, over yonder, had already taken off the brocade robe and laid it on the top of a chest nearby, and was pulling loose the ring of thin gauze around the curtained hat. That flippant remark had truly angered her, and so Zhang Xiaojing, knowing better, did not go over, but waited patiently where he was.
+Zhang Xiaojing turned his head and saw that Tanqi, over on the far side, had already taken off the brocade robe and laid it on the top of a chest nearby, and was pulling loose the ring of thin gauze around the curtained hat. That flippant remark had truly angered her, and so Zhang Xiaojing, knowing better, did not go over, but waited patiently where he was.
 
 Puffed up with anger, Tanqi finished with the curtained hat, then threw it, together with the brocade robe, to Zhang Xiaojing, and said coldly: “Put them on.” Zhang Xiaojing felt the hat and found that the gauze within had been changed for a thicker ring. It was the same color as the old thin gauze, but of a far denser weave. With this on, one need only let the veil hang down, and those outside could not make out the face at all.
 
@@ -642,7 +642,7 @@ Cui Qi’s face changed in a flash. He wore the armor of the Lüben Guards, whil
 
 Cui Qi turned quickly to explain, but the whole affair was too tangled to be made clear in two or three words. What cared the soldiers for that? Three or four of them came up and pinned Cui Qi down. Zhang Xiaojing and the other two seized the chance to slip past them and ran for the inner gate.
 
-Cui Qi dared not resist, and could only cry over and over that the man was an impostor. At last a soldier heard something amiss and made to stop Zhang Xiaojing and get to the bottom of it—whereupon Zhang Xiaojing flung up his right hand, and a great cloud of white lime-powder went flying through the air, so that the several soldiers nearby, in wretched pain, clapped their hands over their eyes and crouched down.
+Cui Qi dared not resist, and could only cry over and over that the man was an impostor. At last a soldier heard something amiss and made to stop Zhang Xiaojing and get to the bottom of it—at which Zhang Xiaojing flung up his right hand, and a great cloud of white lime-powder went flying through the air, so that the several soldiers nearby, in wretched pain, clapped their hands over their eyes and crouched down.
 
 This was lime-powder scraped from the corner of the storehouse wall; before leaving, Zhang Xiaojing had gotten a packet of it and tucked it in his breast, and sure enough it had come in useful. Yao Runeng, watching from the side, thought Zhang Xiaojing nothing less than a demon-man, forever breaking out, at every last extremity, from some angle beyond all imagining. He half suspected that, even without his and Tanqi’s venturing in, the fellow would have found a way to escape all the same.
 
@@ -688,7 +688,7 @@ Gan Shoucheng’s gaze rested a moment on this wretched creature, and lightly he
 
 Wang Yunxiu felt this had been a thoroughly wretched day.
 
-First she had met with a carriage wreck, then been dragged about hither and yon by her captors, and there had even been a savage brute who tried to kill her. Now she was flung like refuse into this filthy woodshed, her two hands bound fast, a wad of hemp rudely thrust into her mouth besides.
+First she had met with a carriage wreck, then been dragged this way and that by her captors, and there had even been a savage brute who tried to kill her. Now she was flung like refuse into this filthy woodshed, her two hands bound fast, a wad of hemp rudely thrust into her mouth besides.
 
 Wang Yunxiu had cursed them times beyond counting in her heart. Who under heaven were these damnable worms and dogs? Did they not know I am the daughter of Wang Zhongsi?
 
@@ -704,7 +704,7 @@ The man did not come near, but only stared at Wang Yunxiu and studied her a whil
 
 Yuan Zai shut the door fast, turned back, set his eyes again upon the woman before him, and his mind ran at speed.
 
-He had a native instinct for costly things, and the moment he entered he had marked it: what was stuck to this woman’s cheek was a花钿 of twisted silver. The material of the ornament itself was of no great worth, but to twist fine silver into the very texture of a kingfisher’s plumage was a craft worth, at the least, some tens of bolts of fine damask; and the phoenix-tail nanmu hairpin on her head, plain though its shaping was, had a grain in the wood like so many threads of gold, even and close-set—one glance told it was the finest golden-thread nanmu.
+He had a native instinct for costly things, and the moment he entered he had marked it: what was stuck to this woman’s cheek was a twisted-silver kingfisher ornament. The cheek-ornament itself was of no great worth as material, but to twist fine silver into the very texture of a kingfisher’s plumage was a craft worth, at the least, some tens of bolts of fine damask; and the phoenix-tail nanmu hairpin on her head, plain though its shaping was, had a grain in the wood like so many threads of gold, even and close-set—one glance told it was the finest golden-thread nanmu.
 
 These two things, falling under the common man’s eye, might amount to no more than the two words “worth money.” But under the eye of a connoisseur like Yuan Zai, one could savor, in the fine details, the very air of a house of the first rank.
 

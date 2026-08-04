@@ -3214,3 +3214,57 @@ Minister, 县尉 = county commandant.
   reigns and his 邺县侯 fief; Yuan Zai and Wang Yunxiu's recorded dying words; the
   Nestorian Yisi and the 781 stele; the 756 Mawei mutiny). The Zhang-Xiaojing-in-
   《安禄山事迹》 reveal is genuine and footnoted, not authorial invention.
+
+## R1 = ch01–ch13 (register-polish + footnote-expansion, revision pass 1)
+
+Executed per REVISION_PLAN.md §3.4 method, chapter by chapter, end to end. Each
+chapter: aligned read (English-primary with zh spot-checks against the strong
+prior fidelity baseline), conservative register polish (§3.2/§3.3), footnote
+collection (§4), verse check (§5), then `verify_unit.py`. All 13 units verified
+green (parity + numbers + anchors). smart_quotes idempotent; build + qa_epub PASS
+(26/26 documents, 141 references = 141 bodies = 141 backlinks).
+
+### Register polish — 15 edits across 6 chapters (7 chapters already clean)
+Defect classes hit (§3.2): archaic adverbs and fake-antique diction, one calque.
+- ch01: 1 — "presently" (archaic) → "soon".
+- ch02: 2 — "presently" → "in a little while"; "presently" → "a moment later".
+- ch05: 2 — "cared not a whit" → "cared nothing"; "whereupon" → "at which".
+- ch07: 6 — "whereupon" → "then"/"at which" (×2); "not a whit" → "cared nothing"/"in
+  no way" (×2); "yonder" → "on the far side"; "hither and yon" → "this way and that".
+- ch10: 1 — "whereupon" → "at which". ("make yourself scarce" kept: live idiom.)
+- ch11: 1 — "could not help but sink" → "sank despite himself" (不由得 calque).
+- ch03, ch04, ch06, ch08, ch09, ch12, ch13: swept, already clean — no edits.
+
+### Fidelity fixes — 2 (ch07), logged per instruction
+- ch07 L299 & L707: raw untranslated CJK 花钿 left in the English body. Rendered to
+  English consistent with ch04's decided rendering of 绞银翠钿 ("twisted-silver
+  kingfisher ornaments"; 花钿 = "cheek-ornament"). Confirmed by full scan that no
+  other stray CJK remains in the ch01–ch13 English bodies (only {d}/{g} lines
+  legitimately carry CJK).
+
+### Footnotes — +55 net (86 → 141); first-appearance protocol observed
+Per-chapter net: ch01 +11 (incl. 2 retro: Qujiang Pool, Wang Zhongsi, both first
+appearing ch01), ch02 +6, ch03 +5, ch04 +3, ch05 +3, ch06 +5, ch07 +4, ch08 +5,
+ch09 +2 (+3, −1), ch10 +3, ch11 +3, ch12 +3, ch13 +2. Highlights: the Jing'an
+Bureau as authorial invention; 望楼 watchtower relay; the ward-grid + curfew;
+Sun Simiao / Medicine King; Zoroastrianism 祆教 and its good-thought/word/deed
+triad; the Three Foreign Religions 三夷教 (Manichaeism, Nestorianism/Mishihe,
+Zoroastrianism) and the 745 Daqin renaming; 负荆请罪; 请君入瓮 (tied back to ch01's
+jar-trap); the golden-peach and sal-tree botany; the two Xingqing towers 花萼相辉 /
+勤政务本 and the Yellow Lion Dance.
+
+- Relocation: 胡旋舞 (Sogdian Whirl) first appears ch04 (the "dancing … in fetters"
+  metaphor); moved its note there and removed the ch09 duplicate — both within R1.
+
+### Source-quirk observation (NOT a defect; rendered faithfully per house style)
+- ch10 and ch11 {g} hour-glosses: the source's own gloss names the correct hour
+  branch (戌/Dog, 亥/…) but its parenthetical clock time is internally wrong (ch10 zh
+  "凌晨5点", ch11 zh "凌晨6点" — dawn, not evening). {g} lines are rendered verbatim
+  per the don't-edit-the-source's-gloss rule; the error is the source's and is left
+  visible. ch12/ch13 glosses are correct.
+
+### R2 flags (whole-book sweep, next revision batch)
+- 投名状: "oath-token of blood" (ch03 L583, first appearance) vs "a pledge of
+  blood-guilt" + note (ch15) — rendering + first-appearance mismatch; reconcile.
+- 双陆: "double-sixes" (ch04 L417, first appearance) vs romanized "shuanglu" + note
+  (ch23) — same class of mismatch; reconcile.

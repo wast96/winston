@@ -2,6 +2,25 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-04 — revision batch R1: register polish + footnote expansion (ch01–ch13)
+- REGISTER (15 edits, 6 chapters): removed archaic/fake-antique diction and one
+  calque per REVISION_PLAN §3.2 — "presently"(archaic), "not a whit", "whereupon",
+  "yonder", "hither and yon", 不由得="could not help but". Files: out/ch01, ch02,
+  ch05, ch07, ch10, ch11 _reading.md. ch03/ch04/ch06/ch08/ch09/ch12/ch13 swept,
+  already clean.
+- LOCAL fidelity (2, ch07): rendered raw untranslated CJK 花钿 in the English body
+  at two spots into English, consistent with ch04's decided 绞银翠钿 rendering.
+  Files: out/ch07_reading.md.
+- FOOTNOTES: +55 net (86 → 141) across ch01–ch13, per REVISION_PLAN §4. Includes
+  2 retroactive first-appearance notes into ch01 (Qujiang Pool, Wang Zhongsi) and
+  relocation of the 胡旋舞 note from ch09 to its first appearance in ch04. Files:
+  notes.json.
+- Ran verify_unit.py on all 13 units (green), smart_quotes.py (idempotent; 5 known
+  benign continuation-line warnings), rebuilt out/book.epub, qa_epub PASS (141
+  refs = bodies = backlinks). Files: PROGRESS.md (R1 entry), CHANGELOG.md.
+- Logged for R2: 投名状 and 双陆 rendering + first-appearance mismatches across the
+  book; ch10/ch11 source {g} hour-gloss quirk left faithfully as-is.
+
 ## 2026-08-04 — revision pass 1: formatting, typography, plan for register pass
 - GLOBAL: recovered the source EPUB's set-off formatting into all 24 chapter
   reading files (110 scene breaks as `***`, opening vignettes `{v}`, datelines

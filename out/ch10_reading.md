@@ -524,7 +524,7 @@ Last October, just when Zhang Xiaojing happened to be away on business, the Wen 
 
 Wen Ran had meant to go and report to the authorities, but ran straight into the county commandant leading a night patrol in person, who insisted flatly that she had broken the curfew and had her arrested. She wept and pleaded every way she could, but no one paid her any heed, and she was kept shut in a deep cell. Before long a deposition was passed in to her from outside, requiring her to confess that her father had colluded with bandits and been beaten to death in a falling-out over the spoils, and that the incense shop had been bought with stolen goods. If she would not put her mark to it, she was to be sold off into slavery.
 
-When Wen Ran heard this she refused outright, whereupon several jailers came and pinned her down and forced her fingerprint onto the deposition. Utterly despairing in her heart, she had more than once thought of killing herself.
+When Wen Ran heard this she refused outright, at which several jailers came and pinned her down and forced her fingerprint onto the deposition. Utterly despairing in her heart, she had more than once thought of killing herself.
 
 After a few days she was suddenly let out. Once free, Wen Ran made inquiries and learned that the world outside had been turned upside down. Zhang Xiaojing had come back to the capital, and on learning what had befallen the Wen Incense Shop had first all but torn the Bear Fire Gang up by the roots, and then—for what reason no one knew—killed the county commandant of Wannian, throwing the whole Wannian county yamen into an uproar. In the end he had actually seized Prince Yong and all but poked the trouble clear up into the heavens.
 
