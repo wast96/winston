@@ -20,11 +20,13 @@ translator's note, and an honest apparatus for uncertain and editorial passages.
 - **26 documents translated end to end:** 24 numbered chapters (ch01–ch24, the
   24 half-shichen of the day) plus 2 authorial afterwords (ch25 后记一, ch26
   后记二). ~407,000 source characters.
-- **86 footnotes**, numbered continuously in reading order, at reference density
-  (~3 per chapter-equivalent): translation uncertainties, historical references
-  checked against scholarship, and texture lost in translation. The afterwords
-  added 4 (the Nestorian Stele; the Changxin/Zhaoyang allusion; the real Tang
-  text 《安禄山事迹》 that names a Zhang Xiaojing; Assassin's Creed / Zhihu).
+- **181 footnotes** (86 first-draft → 141 after revision R1 → 181 after R2),
+  numbered continuously in reading order, at reference density (~7 per
+  chapter-equivalent): translation uncertainties, historical references checked
+  against scholarship, and texture lost in translation. The afterwords carry 7
+  (the Nestorian Stele; the Changxin/Zhaoyang allusion; the real Tang text
+  《安禄山事迹》 that names a Zhang Xiaojing; the White-Robed Chancellor; Yang
+  Guozhong; Assassin's Creed; Zhihu).
 - **Glossary: 656 rows** (150 people, 37 organizations, 213 places, 256 terms),
   the single term ledger — one decided rendering per referent, with status and
   attestation on each.
@@ -70,9 +72,10 @@ Run per batch and recorded in PROGRESS.md; the whole-book state at completion:
    《安禄山事迹》 Zhang-Xiaojing notice) checked against the Tang record.
 8. **Random-sample deep audit.** 3–5%+ of each batch given the full paranoid
    treatment; observed content-error rate at completion: 0.
-9. **`qa_epub.py`: PASS** on the final EPUB — 26 documents (full spine), 7,417
-   paragraphs, 86 references == 86 bodies == 86 backlinks, numbering sequential
-   in reading order, all links resolve, 26 of 26 chapters translated (no
+9. **`qa_epub.py`: PASS** on the final EPUB — 26 documents (full spine), 7,527
+   paragraphs, 181 references == 181 bodies == 181 backlinks (after revision R2;
+   86 at first completion), numbering sequential in reading order, all links
+   resolve, 26 of 26 chapters translated (no
    skeleton pages), full hyperlinked TOC nesting part → chapter, with the two
    afterwords grouped under the "Afterword" part.
 
@@ -98,3 +101,19 @@ commissioner files corrections in `CORRECTIONS.md`, and a corrections batch
 rebuilds, re-runs `qa_epub`, lists every file touched, and appends a dated entry
 to `CHANGELOG.md`. Global renderings cascade via a glossary/style change plus a
 grep-driven edit across all built units, then a full rebuild and QA.
+
+## Revision addendum (2026-08-04)
+
+After completion the finished translation went through a two-batch revision pass
+(REVISION_PLAN.md): a conservative register polish that stripped fake-antique
+diction and stilted inversions while keeping the book's own voice, and a generous
+footnote expansion. R1 covered ch01–ch13; R2 covered ch14–ch26 and closed the
+whole book. Footnotes grew from 86 to 181 (continuous numbering preserved), and
+two book-wide rendering inconsistencies were reconciled to a single form at first
+appearance (投名状 = "oath-token of blood"; 双陆 = "double-sixes"). The source's
+own set-off formatting (scene breaks, opening vignettes, datelines, the source's
+hour-notes) was also recovered into the reading files and rendered distinctly, and
+all display strings were converted to typographic quotes. All 26 units pass
+verify_unit (parity, numbers, anchors) and qa_epub PASS across the full spine (181
+references = bodies = backlinks). The register and annotation are the only
+substantive changes; the translation itself is unaltered in meaning.

@@ -314,7 +314,7 @@ Xiao Gui led the twenty-odd men into the lake, and holding their oilcloth bundle
 
 The twenty-odd men stripped off their water-suits one after another, opened their oilcloth bundles, and took out the crossbow parts and keen blades within. Through the silent willow grove rose the clicking and clacking of assembly—yet from first to last not one man spoke.
 
-Xiao Gui was the first to finish assembling his. He raised the crossbow and loosed a trial shot at a willow ahead; the bolt drove straight into the trunk, only the fletching left showing without. Xiao Gui nodded in satisfaction—the spring-lock, it seemed, had not been fouled by the water. They would be before the Son of Heaven presently, and were a crossbow to fail then, it would be a grave discourtesy indeed.
+Xiao Gui was the first to finish assembling his. He raised the crossbow and loosed a trial shot at a willow ahead; the bolt drove straight into the trunk, only the fletching left showing without. Xiao Gui nodded in satisfaction—the spring-lock, it seemed, had not been fouled by the water. They would be before the Son of Heaven before long, and were a crossbow to fail then, it would be a grave discourtesy indeed.
 
 His preparations made, he stepped to the edge of the thicket, lifted a willow-branch, and looked off toward the south. His line of sight passed over the city wall, and he could see that towering lantern-tower turned now into a huge torch, raging flames leaping up from its every part. Those twenty-four fireballs still turned of themselves. The handiwork of Master Mao Shun—it was durable and long-lasting, and out of the common run indeed.
 
@@ -332,7 +332,7 @@ In that instant the city of Chang’an passed from clamor to a dead hush. Whethe
 
 Xiao Gui gripped the willow-tips tight, trembling all over with excitement. After so long and bitter a labor, the Pifu had at last shaken the towering tree. Those sufferings he had borne in years past—it was time now those others had a taste of them too.
 
-But of a sudden he found something was not right! The Tianshu of the Taishang Xuanyuan Lantern-Tower had truly and verily blown apart—yet the force of the explosion was far smaller than Xiao Gui had looked for.
+But of a sudden he found something was not right! The Tianshu of the Taishang Xuanyuan Lantern-Tower had well and truly blown apart—yet the force of the explosion was far smaller than Xiao Gui had looked for.
 
 For it must be understood that the Que-le Huo-duo’s chief means of destruction was not the fire, but the shock-force that burst forth in an instant—formless and without substance, yet enough to shatter the stoutest city wall. By the earlier reckoning, the charge of rock-oil should have split the lantern-tower from top to bottom, loosing a shock enough to level the neighboring Qinzheng Wuben Tower to the ground. But now the Taishang Xuanyuan Lantern-Tower had merely been blasted through across the middle. For all its rolling smoke and fire, its imposing show of sound and fury, its killing power had been greatly discounted.
 

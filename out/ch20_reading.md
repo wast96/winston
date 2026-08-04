@@ -374,7 +374,7 @@ The guests stood rooted where they were, feeling that all that hot-blooded outcr
 
 The black smoke about the Qinzheng Wuben Tower spread ever thicker; after the lantern-tower’s fall, the fire had by degrees passed to the main body of the tower itself. From without could faintly be heard the clash of arms and armor and the sound of shouting: the relief of the imperial guards must by now be no great way off.
 
-Xiao Gui knew the hour was near enough come. He gave a whistle, and the aphids, receiving their order, at once fell busily to work. First they dragged the Son of Heaven and Taizhen, and Zhang Xiaojing too, who had scarce any strength, to beneath the bronze crane in the southwest corner of the great hall; then, as one drives a flock of sheep, they herded the guests toward the center of the hall.
+Xiao Gui knew the hour was near enough come. He gave a whistle, and the aphids, receiving their order, at once fell busily to work. First they dragged the Son of Heaven and Taizhen, and Zhang Xiaojing too, who had scarcely any strength left, to beneath the bronze crane in the southwest corner of the great hall; then, as one drives a flock of sheep, they herded the guests toward the center of the hall.
 
 Just then Chen Xuanli came slowly round where he lay on the floor. His hands were bound behind him, but his mouth had not been stopped. Lifting his head, he cried aloud: ‘The palace guards are even now hastening in from every side; though you hold His Majesty hostage, where can you hope to flee?’
 

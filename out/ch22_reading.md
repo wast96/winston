@@ -124,7 +124,7 @@ The traitor within had not yet been caught, and so the Jingzhao Prefecture and t
 
 The second tower of the Xun position lay in Xinghua Ward, to the southeast of Guangde Ward. This ward held two watchtowers in all—a first tower at its northwestern corner, and a second at its southeastern, set catty-corner to each other. Yao Runeng came at a jog-trot to Xinghua Ward, where he saw many of the common folk yawning as they made their way back, while the ward-soldiers already stood guard at the gate, urging the residents to get home as fast as they could, for the gate was about to be shut.
 
-Yao Runeng flashed his waist-tally and went straight into the ward, making directly for the second tower. That watchtower stood beside a great livestock pen, penned full of pigs and sheep, chickens and geese, the reek of dung thick upon the air. Holding his nose, he ducked his head and passed through the pen, and soon saw the long wooden ladder standing at the foot of the watchtower.
+Yao Runeng flashed his waist-tally and went straight into the ward, making directly for the second tower. That watchtower stood beside a great livestock pen, penned full of pigs and sheep, chickens and geese, the reek of dung thick in the air. Holding his nose, he ducked his head and passed through the pen, and soon saw the long wooden ladder standing at the foot of the watchtower.
 
 Intent only on his errand, he did not mark a low, grim clank of metal that rose from the pen beside him. Yao Runeng tilted his head back, reached up and gripped a rung of the wooden ladder, climbed two rungs, and set his feet upon it in turn. Soon his body hung in mid-air, wholly off its guard.
 

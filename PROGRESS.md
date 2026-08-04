@@ -3268,3 +3268,112 @@ jar-trap); the golden-peach and sal-tree botany; the two Xingqing towers 花萼�
   blood-guilt" + note (ch15) — rendering + first-appearance mismatch; reconcile.
 - 双陆: "double-sixes" (ch04 L417, first appearance) vs romanized "shuanglu" + note
   (ch23) — same class of mismatch; reconcile.
+
+## R2 = ch14–ch26 + whole-book close (register-polish + footnote-expansion, revision pass 2)
+
+Executed per REVISION_PLAN.md §6-R2, chapter by chapter, in-session and
+sequentially (no subagent fan-out). Each numbered chapter: aligned read of the
+reading file against its zh line (fidelity spot-checks against the strong prior
+baseline), conservative register polish (§3.2/§3.3), footnote collection (§4),
+verse check (§5), then verify_unit.py. ch25/ch26 (the two afterwords) polished
+for the author's own expository, first-person voice only, no thriller-izing.
+All 26 units verified green after the close; smart_quotes idempotent; build +
+qa_epub PASS (26/26 documents, 181 references = 181 bodies = 181 backlinks).
+
+### Two whole-book reconciliations R1 flagged (both done, re-verified)
+- 投名状: unified on the glossary-decided rendering "oath-token of blood" (first
+  appearance ch03 L583). Changed the ch15 L355 rendering "a pledge of blood-guilt"
+  to "an oath-token of blood"; moved the explanatory note from ch15 to ch03 (first
+  appearance), rewording its closing sentence to fit the ch03 scene; refreshed the
+  glossary row's first-appearance pointer. ch04 L395 "blood-guilt" is a DIFFERENT
+  term (杀孽, the killing-debt to Xiao Yi) and was left untouched. Grep confirms only
+  ch03 and ch15 carry the term now (2 occurrences).
+- 双陆: unified on the clearer "double-sixes" (first appearance ch04 L417). Changed
+  the ch23 L249 rendering "a game or two of shuanglu" to "double-sixes"; moved the
+  note from ch23 to ch04 (first appearance); updated glossary.json 双陆 en from
+  "shuanglu" to "double-sixes" with the first-appearance pointer. Grep confirms only
+  ch04 and ch23 carry the term now (2 occurrences); no "shuanglu" remains anywhere.
+
+### Register polish — 16 edits across 7 chapters (6 chapters already clean)
+Defect classes hit (§3.2): archaic adverbs/particles, fake-antique verb forms,
+stilted inversion, "upon the air".
+- ch15: 1 — "steam as it might ... upon the air" (opening desert description),
+  un-inverted to "for all its steaming ... in the air".
+- ch18: 2 — "presently"(archaic)→"before long"; "truly and verily"→"well and truly".
+- ch19: 2 — "well-nigh an impossible feat"→"all but impossible"; "scarce"(adverb)→
+  "barely", with "struck of a sudden"→"struck all at once".
+- ch20: 1 — "scarce any strength"→"scarcely any strength left".
+- ch22: 1 — "the reek of dung thick upon the air"→"thick in the air".
+- ch23: 1 — "not a whit wrong"→"not wrong in the least".
+- ch24: 8 — "presently"→dropped; "well-nigh, his alone"→"very nearly, his alone";
+  "scarce able"→"scarcely able"; "were become"→"had become"; "Broad and high it
+  spread"→"It spread broad and high"; "there could be seen an exquisite residence"→
+  "stood an exquisite residence"; "in a twinkling"→"in an instant"; "was become"→
+  "had become". (These are the exact §3.2 example instances.)
+- ch14, ch16, ch17, ch21, ch25, ch26: swept, already clean — no register edits.
+
+### Fidelity — 0 new fixes; the prior baseline held
+Reading each chapter against its zh line surfaced no omission, addition, or
+laundered ambiguity in ch14–ch26. The only content-touching changes were the two
+reconciliation renderings above (both faithful to the zh, both logged). No stray
+raw CJK remains in any English body except the intentional Tang Rhymes cipher
+glyphs (退/不) at ch15 L639, which the plot requires and which are glossed with
+pinyin and meaning (house style).
+
+### Footnotes — +40 net (141 → 181); first-appearance protocol observed
+Per-chapter net (after the two note relocations): ch03 +1 and ch04 +1 are the
+relocated first-appearance notes moved IN from ch15/ch23; then ch14 +5, ch15 +5,
+ch16 +5, ch17 +3, ch18 +3, ch19 +2, ch20 +3, ch21 +2, ch22 +3, ch23 +3, ch24 +3,
+ch25 +2, ch26 +1. Every new note fact-checked; the glossary's researched rows
+were the quarry (§4.3). Highlights: Mao Shun and the historical lantern-tower
+(明皇杂录); the Longwu/Wanqi/Qianniu palace armies and the fubing/tuanjie levies;
+the Seven Killings star; 马革裹尸 (Ma Yuan) and 九死无悔 (Li Sao); the Pear Garden;
+Kuafu and King Tang's net (both already present, so not re-noted); the Ten Kings'
+Residence; the Xuanwu Gate and Tanglong/Xiantian coups (already present); 口蜜腹剑
+as the idiom coined about Li Linfu himself; Emperor Yang of Sui; the Consort Wu /
+Li Ying succession case; the jiacheng walled corridor; Yang Guifei's lychee relay
+and the Yinglong flag (already present); mountain-pattern armor and datura incense;
+He Zhizhang's Ode to the Willow as Xiao Gui's dying cipher (already present); the
+White-Robed Chancellor and Yang Guozhong; the Mawei mutiny and the real 《安禄山事迹》
+line naming a Zhang Xiaojing (already present, the book's own germ). Recurring
+subjects whose first appearance fell in an R1 chapter (An Lushan ch16, Shouzhuolang
+ch10, the Self-Raining Pavilion ch11, modao ch08, Ji Wen ch10, Leyou Plateau ch07,
+Duke Li of Wei ch02, etc.) were deliberately NOT re-noted.
+
+### Verse ({p}) — none added
+No paragraph in ch14–ch26 is ENTIRELY a set-off recited poem. The two verse
+candidates are both couplets quoted INLINE within prose sentences and correctly
+stay prose: He Zhizhang's Ode to the Willow (ch24, Xiao Gui's chanted cipher) and
+the "birds that share a wing / branches twined into one" lines of the Song of
+Everlasting Sorrow (ch21, the emperor reciting to Taizhen). This matches §5's own
+prediction. No {p} across the whole book, by design.
+
+### Source-quirk observation (NOT a defect; rendered faithfully per house style)
+- ch22 {g} hour-gloss: the chapter is 辰初 (Dragon hour, 7 a.m.), but the source's
+  own gloss line reads "Five o'clock ... Mao" (Mao = Rabbit hour). This is the same
+  class of internal clock error the source's {g} lines carry at ch10/ch11, and is
+  left verbatim per the don't-edit-the-source's-gloss rule. (ch21's gloss "Six
+  o'clock ... Mao" is consistent; ch23/ch24 glosses are correct.)
+
+### Whole-book close (§6-R2 steps 2–4)
+- Notes integrated into notes.json via Python (no hand-edited braces).
+- smart_quotes.py re-run: 26 files converted, 0 unresolved anchors; the only
+  "unbalanced doubles" warnings are the five known-legitimate continuation lines
+  (ch02:263, ch02:603, ch03:197, ch10:61, ch10:593). My edits introduced no new ones.
+- Consistency sweep: spot-checked ~20 high-frequency decided renderings by grep
+  (the Sage 19, the Jing'an Bureau 529, Wolf Guards 167, the Pifu 96, aphids 84,
+  fierce-fire thunder 96, Que-le Huo-duo 80, the Son of Heaven 239, Xiao Gui 449,
+  Lüben 114, shichen, finger-snap, ten-odd, etc.), all consistent; no drift forms
+  (no "shuanglu", "pledge of blood-guilt", "Jingan Bureau", etc.).
+- verify_unit.py re-run on ALL 26 units: parity EQUAL, numbers 0 unresolved, every
+  anchor resolves (exit 0). No noise.txt change was needed this batch.
+- Rebuilt out/"The Longest Day in Chang'an.epub"; qa_epub PASS: 38 files, 32
+  documents, all links resolve; 181 references = 181 bodies = 181 backlinks,
+  numbering sequential in reading order.
+
+### Final whole-book counts after R2
+- Footnotes: 181 total (86 first-draft → 141 after R1 → 181 after R2), continuous
+  numbering, ~7 per chapter-equivalent across the numbered chapters.
+- 26/26 documents translated; glossary 656 rows unchanged in scope (two term rows
+  edited for the reconciliations: 双陆 rendering, and first-appearance pointers on
+  双陆 and 投名状). qa_epub PASS across the full spine.

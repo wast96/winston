@@ -292,7 +292,7 @@ Tanqi’s eyes flashed, and a thread of glad surprise welled up in her. For some
 
 Li Bi had all but worked a miracle.
 
-From Shengping Ward to Guangde Ward, crossing six wards and running north through four, he had taken less than two marks of time. Given the press of the Lantern Festival traffic, this was well-nigh an impossible feat. Ten-odd people at the least were sent flying by his galloping steed, and he had not even the time to stop and look.
+From Shengping Ward to Guangde Ward, crossing six wards and running north through four, he had taken less than two marks of time. Given the press of the Lantern Festival traffic, this was all but impossible. Ten-odd people at the least were sent flying by his galloping steed, and he had not even the time to stop and look.
 
 The sudden explosion of the Taishang Xuanyuan Lantern-Tower had wrought the greatest chaos in Wannian County to the west. But further off, the common folk, knowing nothing of the truth of it, took it only for a fine bit of spectacle. In Chang’an County to the east above all, everyone went on viewing the lanterns as before, went on seeking out food to eat as before, wholly unaware that a great disaster was quietly unfolding.
 
@@ -518,7 +518,7 @@ This was so much empty talk—did he need telling by the likes of you? Chen Xuan
 
 ‘I too am one of the Pifu.’
 
-The words scarce out, Zhang Xiaojing struck of a sudden, smiting with that gnawed mutton thigh-bone the short crossbow in Chen Xuanli’s hand. As the bow’s mouth dipped on the one side, Xiao Gui on the other instantly wheeled and loosed a bolt at Chen Xuanli, driving it clean through his shoulder. Zhang Xiaojing hooked out a foot and tripped him in the same motion, then raised a hand to catch the dagger Xiao Gui had just tossed over, and set it to Chen Xuanli’s throat.
+The words barely out, Zhang Xiaojing struck all at once, smiting with that gnawed mutton thigh-bone the short crossbow in Chen Xuanli’s hand. As the bow’s mouth dipped on the one side, Xiao Gui on the other instantly wheeled and loosed a bolt at Chen Xuanli, driving it clean through his shoulder. Zhang Xiaojing hooked out a foot and tripped him in the same motion, then raised a hand to catch the dagger Xiao Gui had just tossed over, and set it to Chen Xuanli’s throat.
 
 This string of movements flowed like drifting cloud and running water, the two men working together in perfect concert, as though they had drilled it a thousand times over. Zhang Xiaojing bestrode Chen Xuanli, feinted a slash with the dagger, and barked at the soldiers about him: ‘Lay down your weapons, or General Chen dies!’
 

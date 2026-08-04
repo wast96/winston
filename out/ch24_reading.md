@@ -296,7 +296,7 @@ And the more this was so, the more it proved Yuan Zai’s words no lie.
 
 ‘Then his carrying-off of the Son of Heaven...’ Chen Xuanli asked again.
 
-Yuan Zai explained at his ease: ‘The aphids were then in great force; Zhang Xiaojing could not break in among them, and could only follow along with the rebels and bide his chance to strike. Now that the Son of Heaven is unharmed, does that not go to show that he is loyal still to the great Tang? I believe that, when presently we come before His Majesty, the whole truth will be made plain.’
+Yuan Zai explained at his ease: ‘The aphids were then in great force; Zhang Xiaojing could not break in among them, and could only follow along with the rebels and bide his chance to strike. Now that the Son of Heaven is unharmed, does that not go to show that he is loyal still to the great Tang? I believe that, when we come before His Majesty, the whole truth will be made plain.’
 
 His words dovetailed so exactly with Zhang Xiaojing’s own defense a moment before that others could not but believe. Chen Xuanli could only wave a hand, bidding the soldiers lower their crossbows first, to avoid any hurt by mischance.
 
@@ -344,7 +344,7 @@ Feng Dalun’s eyes started round; he could have burst with rage. The seizing of
 
 Feng Dalun would have argued on, but found he knew not how to begin.
 
-The several matters Yuan Zai had set out were, in truth, either blunders or ambiguities, with no connection among them. Yet he had, of all things, the art to make everyone believe them a tight and rigorous chain, proving to perfection that Feng Dalun was a traitor, who had first helped the Türks abduct a great minister’s kinswoman and then secretly aided the aphid artisans to steal into the lantern-tower, so that every evil deed was, well-nigh, his alone.
+The several matters Yuan Zai had set out were, in truth, either blunders or ambiguities, with no connection among them. Yet he had, of all things, the art to make everyone believe them a tight and rigorous chain, proving to perfection that Feng Dalun was a traitor, who had first helped the Türks abduct a great minister’s kinswoman and then secretly aided the aphid artisans to steal into the lantern-tower, so that every evil deed was, very nearly, his alone.
 
 He remembered, too, how, when Yuan Zai had earlier framed Zhang Xiaojing, he had laid out a few pieces of proof, nailed fast to the board, that had won his boundless admiration. Who would have thought that a few double-hours later he would set out a few more pieces of proof and reach a wholly opposite, yet equally convincing, conclusion?
 
@@ -424,7 +424,7 @@ Yuan Zai looked over that way: Chen Xuanli was directing the soldiers to search 
 
 The words were scarcely out when there came all at once a crisp, sharp crack.
 
-Yuan Zai clutched his swelling, smarting cheek and stared, wide-eyed, scarce able to believe it. This fellow had, of all things, hauled off and slapped him full in the face, when he had but this moment saved him!
+Yuan Zai clutched his swelling, smarting cheek and stared, wide-eyed, scarcely able to believe it. This fellow had, of all things, hauled off and slapped him full in the face, when he had but this moment saved him!
 
 ‘This is on behalf of every man of the Jing’an Bureau.’ Zhang Xiaojing said coldly.
 
@@ -472,9 +472,9 @@ Li Bi raised an eyebrow; he knew Zhang Xiaojing would not say such a thing witho
 
 ‘What was it?’
 
-Zhang Xiaojing did not answer at once, but lifted his head and gazed toward the east. The bright sun hung high in the blue sky now, glorious and dazzling, and the whole hundred and eight wards of Chang’an were bathed in the mild sunlight of early spring. Against it, however splendid the lantern-wheels of the night before, they were become as humble and laughable as fireflies.
+Zhang Xiaojing did not answer at once, but lifted his head and gazed toward the east. The bright sun hung high in the blue sky now, glorious and dazzling, and the whole hundred and eight wards of Chang’an were bathed in the mild sunlight of early spring. Against it, however splendid the lantern-wheels of the night before, they had become as humble and laughable as fireflies.
 
-Li Bi followed Zhang Xiaojing’s gaze. East of the Yongchong-Xuanping crossroads where they stood rose the Leyou Plateau, arching up over the due east of Chang’an. Broad and high it spread, covering the four wards of Xuanping, Xinchang, Shengping, and Shengdao; and the physic garden of the Eastern Palace lay in Shengping Ward, on the plateau’s southern skirt. Spring had come, and the plateau was lush and green, and above all those rows upon rows of willows showed a vigorous green under the caress of the sun.
+Li Bi followed Zhang Xiaojing’s gaze. East of the Yongchong-Xuanping crossroads where they stood rose the Leyou Plateau, arching up over the due east of Chang’an. It spread broad and high, covering the four wards of Xuanping, Xinchang, Shengping, and Shengdao; and the physic garden of the Eastern Palace lay in Shengping Ward, on the plateau’s southern skirt. Spring had come, and the plateau was lush and green, and above all those rows upon rows of willows showed a vigorous green under the caress of the sun.
 
 ‘One more breath of spring wind, and by the second month at the latest, the Leyou Plateau will be all green willow-shade.’ Zhang Xiaojing said with a sigh.
 
@@ -564,7 +564,7 @@ He Zhizhang had stayed all this while in his residence on the Leyou Plateau, and
 
 The night before, many great and noble folk had climbed the Leyou Plateau to view the lanterns, and both sides of the roads on the plateau were strewn with carelessly discarded scraps of food and bits of colored silk. Eight horse-hooves trod crossing and recrossing over this refuse, kicking up clouds of dust. The two riders never slackened, but made straight for Xuanping Ward in the northeastern corner. Along the way Zhang Xiaojing told, in passing, of the affair at the Yixiang Pavilion, but Li Bi offered no comment upon it.
 
-Xuanping Ward was easy to find: one had only to make for where the willows grew thickest. It was the place with the most willows in the whole city, and had a byname, the Willow Capital. The two rode on a stretch, and saw from afar a luxuriant willow-wood; and half-hidden amid the green willows there could be seen an exquisite residence of black tiles and white walls.
+Xuanping Ward was easy to find: one had only to make for where the willows grew thickest. It was the place with the most willows in the whole city, and had a byname, the Willow Capital. The two rode on a stretch, and saw from afar a luxuriant willow-wood; and half-hidden amid the green willows stood an exquisite residence of black tiles and white walls.
 
 The ground hereabouts was none too level, and by rights a horse coming here should have slowed. But Li Bi, as though gone mad, lashed his mount without cease to drive its speed higher, and bore straight down upon that residence.
 
@@ -574,7 +574,7 @@ The two riders drew nearer and nearer to the house, when all at once Zhang Xiaoj
 
 ‘Deputy Director Li, slow down!’
 
-Zhang Xiaojing shouted aloud, but Li Bi turned a deaf ear and drove on madly, whip flying, and in a twinkling had passed through the willow-wood and made straight for the house. Zhang Xiaojing, seeing he could not catch up, swept his palm down in his anxiety and, without meaning to, touched something hard. He looked down: it was, of all things, a short crossbow hung at the side of the horse’s belly.
+Zhang Xiaojing shouted aloud, but Li Bi turned a deaf ear and drove on madly, whip flying, and in an instant had passed through the willow-wood and made straight for the house. Zhang Xiaojing, seeing he could not catch up, swept his palm down in his anxiety and, without meaning to, touched something hard. He looked down: it was, of all things, a short crossbow hung at the side of the horse’s belly.
 
 The horse Tanqi had got for Zhang Xiaojing was from the string that rode with the Longwu Army, and its bridle and battle-gear had not yet been stripped off. Without hesitation Zhang Xiaojing took down the short crossbow, snicked a bolt into place, and pulled the trigger toward what lay ahead.
 
@@ -588,7 +588,7 @@ Who could have thought that hidden within this residence there was, of all thing
 
 Zhang Xiaojing pressed Li Bi’s head down with all his might, holding him as close to the floor of the pit as he could, to keep clear of the shock-wave sweeping across. Sand and soil showered rustling down over their heads, and soon the two of them were buried under a thick layer of earth.
 
-When all had grown still again, Zhang Xiaojing at last raised his head and shook the soil from the crown of it. The scene before him had changed utterly, heaven and earth overturned: the willow-wood was flattened, the rockery in ruins, and that once elegant and quiet residence upon the plateau was become a stretch of broken walls and toppled masonry, curling black smoke rising straight to the sky. As for the man who had waited before the gate, he too, of course, had been wholly devoured by that fire-beast and blown to powder and shards.
+When all had grown still again, Zhang Xiaojing at last raised his head and shook the soil from the crown of it. The scene before him had changed utterly, heaven and earth overturned: the willow-wood was flattened, the rockery in ruins, and that once elegant and quiet residence upon the plateau had become a stretch of broken walls and toppled masonry, curling black smoke rising straight to the sky. As for the man who had waited before the gate, he too, of course, had been wholly devoured by that fire-beast and blown to powder and shards.
 
 ‘Ha-ha-ha-ha...’
 

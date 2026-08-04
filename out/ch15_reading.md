@@ -6,7 +6,7 @@
 
 {d} The Protectorate of Anxi; thirty li north of Balhuan; the beacon-fort.
 
-Not a wisp of cloud, not a breath of wind — only a single fierce sun riding high overhead, flinging down its endless heat upon this stretch of land without restraint. The whole desert steamed like a cage, the very sand scalding underfoot; yet steam as it might, it could not boil away the thick reek of blood and rotting corpses that hung upon the air.
+Not a wisp of cloud, not a breath of wind — only a single fierce sun riding high overhead, flinging down its endless heat upon this stretch of land without restraint. The whole desert steamed like a cage, the very sand scalding underfoot; yet for all its steaming, it could not boil away the thick reek of blood and rotting corpses that hung in the air.
 
 A dragon-banner drooped from a flagpole split half through, long since so blackened by wolf-smoke that its color could no longer be told. Over the shattered battlements, above and below, bodies lay heaped — horsemen of the Türgesh of the Türk, and Tang soldiers alike. No one had gathered them up, for there was all but no one left.
 
@@ -352,7 +352,7 @@ Li Bi said not a word. Xiao Gui pressed his own crossbow into Zhang Xiaojing’s
 
 Xiao Gui, brimming with smiles, jerked his chin toward Li Bi.
 
-His meaning was plain enough. Half a shichen ago Zhang Xiaojing had still been the enemy Commander of the Jing’an Bureau; now that he had crossed over, to make men believe it he must hand in a pledge of blood-guilt — and the head of Li Bi, Deputy Director of the Jing’an Bureau, would serve for that better than anything else.
+His meaning was plain enough. Half a shichen ago Zhang Xiaojing had still been the enemy Commander of the Jing’an Bureau; now that he had crossed over, to make men believe it he must hand in an oath-token of blood — and the head of Li Bi, Deputy Director of the Jing’an Bureau, would serve for that better than anything else.
 
 To kill his own superior would cut off any road of return for good and all; only so would he truly win the trust of the Pifu.
 
