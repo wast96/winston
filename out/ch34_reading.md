@@ -476,6 +476,6 @@ This was a passage from “Shang Ye,” among the Eighteen Nao-Bell Songs of the
 
 Unless heaven should fall and earth split apart, Yashu’s love for A-Chu would never change.
 
-A-Chu felt his nose sting all at once, his heart and bowels torn to pieces, that he had failed so deep a devotion. He had thought Yashu “shallow in feeling and fond of gold,” a woman through whose soul he could come and go as he pleased; who could have known she held her feelings so dear, and that he himself had become the one drowning in the “river of love”?
+A-Chu felt the sting of tears rise all at once, his heart and bowels torn to pieces, that he had failed so deep a devotion. He had thought Yashu “shallow in feeling and fond of gold,” a woman through whose soul he could come and go as he pleased; who could have known she held her feelings so dear, and that he himself had become the one drowning in the “river of love”?
 
 To save Yashu was, in the end, to save himself.

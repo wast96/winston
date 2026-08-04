@@ -715,7 +715,7 @@ This was a passage from “Shang Ye,” among the Eighteen Nao-Bell Songs of the
 Unless heaven should fall and earth split apart, Yashu’s love for A-Chu would never change.
 
 > 阿初顿时感到鼻酸，只觉得肝肠寸断，辜负了佳人深恩。他原以为雅淑“浅于情、重其金”，自己可以在她的灵魂里来去自如，谁知，她如此重情，自己反做了“爱河”中的溺水者。
-A-Chu felt his nose sting all at once, his heart and bowels torn to pieces, that he had failed so deep a devotion. He had thought Yashu “shallow in feeling and fond of gold,” a woman through whose soul he could come and go as he pleased; who could have known she held her feelings so dear, and that he himself had become the one drowning in the “river of love”?
+A-Chu felt the sting of tears rise all at once, his heart and bowels torn to pieces, that he had failed so deep a devotion. He had thought Yashu “shallow in feeling and fond of gold,” a woman through whose soul he could come and go as he pleased; who could have known she held her feelings so dear, and that he himself had become the one drowning in the “river of love”?
 
 > 救雅淑，就等于救自己。
 To save Yashu was, in the end, to save himself.

@@ -226,7 +226,7 @@ Eiko wept.
 
 Koyama Eiko’s line of defense collapsed utterly.
 
-The first year of Xuantong, early May of 1909.
+*Early May 1909 — the first year of the Xuantong reign.*
 
 In Japan, at the foot of Mount Fuji, in a quaint little tavern, the young Chinese student Yang Yuhua drank himself into a blurred stupor; a lovely, moving geisha sang an old Japanese folk song, twisting a waist like a flower, like a colored ancient painting flowing across a screen, the lines exquisite, teasing Yang Yuhua’s heart into wandering and rousing his high spirits. He lifted the wine-jug and danced idly along to the simple music.
 
@@ -286,7 +286,7 @@ She seemed to hear a woman’s voice from beyond the world, a voice most wretche
 
 “Since ancient times: rich wine, a fair woman, the mandarin-duck swords. If he’s a man, there’ll be no mishap.” Koyama Chino pressed down on Eiko’s shoulders. “For the Empire, for the Emperor, for the great Japanese imperial army, go and fight, go and battle alone, go and shed your blood.”
 
-In Japan in late May, the cherry blossoms of Tokyo were still blooming in great profusion; but because the Tokyo influenza was spreading, many people kept indoors. Yang Yuhua lingered in the bustling streets and markets; he wired his elder brother in Shanghai, still stretching out his hand for money, for in Japan, apart from learning to appreciate geisha performances and to speak fluent Japanese, he had achieved nothing at all in his studies. Yang Yubo wrote to him, saying he had secured him a translator’s post at the Shanghai Commercial Guild, and pressing him to come home and take it up. But how would he go meekly back? At the mere thought of returning home and once more being at another’s mercy, unable to lead a life of wine and flowers and ease, his heart was ten thousandfold displeased. So he wrote back to Yang Yubo that he was reading for a degree in international commerce at Japan’s college of finance and economics, and hoped to complete his studies with honors and one day serve his country. The elder brother, feeling his younger brother held such lofty ambition, let him have his way.
+In Japan in late May, the cherry blossoms of Tokyo were still blooming in great profusion; but because the Tokyo influenza was spreading, many people kept indoors. Yang Yuhua lingered in the bustling streets and markets; he wired his elder brother in Shanghai, still stretching out his hand for money, for in Japan, apart from learning to appreciate geisha performances and to speak fluent Japanese, he had achieved nothing at all in his studies. Yang Yubo wrote to him, saying he had secured him a translator’s post at the Shanghai Commercial Guild, and pressing him to come home and take it up. But how would he go meekly back? At the mere thought of returning home and once more being at another’s mercy, unable to lead a life of wine and flowers and ease, he could not have been more put out. So he wrote back to Yang Yubo that he was reading for a degree in international commerce at Japan’s college of finance and economics, and hoped to complete his studies with honors and one day serve his country. The elder brother, feeling his younger brother held such lofty ambition, let him have his way.
 
 Koyama Eiko cleverly played a lost traveller, and by “accident” met Yang Yuhua again in a strange place.
 

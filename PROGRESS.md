@@ -1701,3 +1701,76 @@ Glossary/figures: no changes (this pass never re-romanizes or renames).
 Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 221 notes.
 qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 221 references = 221
 bodies = 221 backlinks, all links resolve).
+
+## 2026-08-04 — Register pass R08 (ch32 to ch35) — FINAL register batch
+
+Eighth and last execution batch of the register pass (REGISTER_PASS.md):
+style-only prose revision plus footnote densification. Content frozen; no source
+line touched, no paragraph merged or split, names per glossary.json. Edit lists
+committed under edits/ (ch32 to ch35). Ordinary ch01-mode chapters at the book's
+climax: almost every paragraph LEAVE; edits confined to scene cards (T2) and two
+single-image de-calques (T1/T3), no recasts. New notes run low and coverage-driven,
+as the R08 brief anticipated. Book-wide notes 221 to 224.
+
+- ch32 (2 touch, +1 note now 6): one T2 reign-and-date scene card (宣统元年，1909年
+  5月上旬。 to an italic card in the ch00 reign-card style) and one T1 de-calque of
+  心里一万个不痛快 ("his heart was ten thousandfold displeased" to "he could not
+  have been more put out"; lexicalized 一万个 already in noise.txt B12 block). Note:
+  the Mandarin Ducks and Butterflies school of popular fiction 鸳鸯蝴蝶派 (p80,
+  first as the literary school in book; the mandarin duck as lovers' emblem is in
+  the chapter-title note, a distinct subject). 巫山云雨 "clouds and rain of Mount Wu"
+  is noted at first occurrence (ch25) and left; tonic food (ch03/10/11), Guanyin
+  (ch07) already covered.
+- ch33 (0 touch, +1 note now 4): no bare stamps, so no scene cards; the one-line
+  beats ("Unbelievable.") are narrative sentences and stay roman. Chengyu land in
+  English (若要人不知除非己莫为, 手无缚鸡之力, 物极必反 with gloss) or are carried by
+  the chapter's three notes. Note: the "golden-turtle son-in-law" 金龟婿 (p35, first
+  and only occurrence; the Tang gold-tortoise badge of rank behind "a rich, high
+  husband"). The house-born servile origin (家生/家奴) first appears at ch20 and is
+  left un-noted here per the first-occurrence rule; 庶出 covered by ch15's 嫡/庶 note.
+- ch34 (1 touch, 0 notes): one T3 de-calque of 鼻酸 ("felt his nose sting" to "felt
+  the sting of tears rise" — the exact taxonomy example; 肝肠寸断 following preserved).
+  The 1909 date opening Keiko's account sits inside her continuing quotation, not a
+  standalone stamp, and stays as dialogue. All furniture covered: 反客为主 (title
+  note), 李代桃僵 (ch13), Guanyin (ch07), Manchu dress/旗装 by the qipao note (ch08),
+  九泉 by the Yellow Springs note (ch14). No densification warranted.
+- ch35 (1 touch, +1 note now 6): one T2 transition scene card (四年后…… to an italic
+  card, ellipsis preserved); the dated lines of the 1937 war montage are full
+  narrative sentences of the historical record and stay roman. Note: the Second
+  United Front 第二次国共合作 (p279, first occurrence; the KMT-CCP alliance against
+  Japan, following the failed first front). Shang Ye noted ch33; betrothal by the
+  ch13 bride-price note; Hongmen ch17; jianghu ch15; the source's Tang Shaoli/Shaoqi
+  reporter-name slip left as printed.
+
+Source oddities preserved (style pass, not story repair): the Huamei/Ronghua
+bookstore-name inconsistency (footnoted at ch22) recurs verbatim in ch33; 李代桃僵
+(footnoted ch13) recurs in ch34; the Yang Muci/Muchu and A-Chu/A-Ci twin-name usages,
+the Tang Shaoli/Shaoqi slip, and the 反客为主 chapter-title footnote are all left
+exactly as printed.
+
+Checks: per chapter, split_bilingual.py regenerated reading + data/zh; parity OK
+(ch32 172, ch33 195, ch34 240, ch35 284); check_numbers 0 unresolved on all four
+(data/noise.txt unchanged — its B12 ch31-33 block and B13 ch34-35 block already
+cover these numerals, and the two scene-card italicizations and two de-calques
+remove no quantity); straight-quote guard clean on all four reading files; no source
+">" line changed in any bilingual file. Spot-audit (all 4 edited paragraphs, minimum
+met by adding 6 LEAVE samples): the two scene-card italicizations are formatting-only
+(identical words, numerals, names after stripping asterisks); the 一万个不痛快 de-calque
+preserves "utterly displeased" with no numeral; the 鼻酸 de-calque preserves welling
+tears with 肝肠寸断 intact; sampled LEAVE paragraphs (ch32 Thales-well code, ch33 the
+物极必反 unmasking, ch34 the mother's suicide account, ch35 the emptied-pistol climax,
+ch35 愿君怜取眼前人, ch33 golden-turtle context) all faithful to source. All 3 new note
+anchors verified unique verbatim substrings of the post-edit reading text, no HTML
+named entities, scholarship checked (all Corroborated), attached with noterefs in the
+built EPUB.
+
+Glossary/figures: no changes (this pass never re-romanizes or renames).
+
+Whole-book QA (final batch): out/On a Hair Trigger.epub rebuilt, 36 of 36 units
+translated, 224 notes. qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs,
+224 references = 224 bodies = 224 backlinks, all links resolve). Straight-quote guard
+clean across ALL 36 reading files. First-and-last-paragraph register read-through of
+every chapter: consistent target register throughout (italic scene cards where the
+source sets a bare stamp, uniform curly typography, fluent literary English, no
+residual translationese). No back matter/colophon (source has none; back_matter.json
+is inert; the Translator's Note renders from book.json).

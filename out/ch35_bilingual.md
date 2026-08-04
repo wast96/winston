@@ -826,7 +826,7 @@ That same month, Yang Muci sent Sitong to Edo in Japan for treatment.
 In December of the same year, He Yashu was safely delivered of a pair of twin boys at Chunhe Hospital. A-Chu was overjoyed beyond measure, and the children were named Aizhong and Aihua.
 
 > 四年后……
-Four years later…
+*Four years later…*
 
 > 一九三七年，八月十三日，日军大举进攻上海，扬言“３月亡华”。
 On August 13, 1937, Japanese forces launched a great assault on Shanghai, boasting that they would “conquer China in three months.”

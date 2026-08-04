@@ -8,6 +8,28 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
 
+## 2026-08-04 — Register pass R08 (ch32 to ch35) — FINAL register batch, pass complete
+Eighth and last execution batch of the register pass (REGISTER_PASS.md): style-only
+prose revision plus footnote densification, and the whole-book close-out. Content
+frozen; no source line touched, no paragraph merged or split, names per glossary.json.
+Edit lists committed under edits/ (ch32 to ch35). Book-wide notes 221 to 224.
+- ch32: 2 prose edits — one T2 reign-and-date scene card (宣统元年，1909年5月上旬。) and
+  one T1 de-calque of 心里一万个不痛快 ("ten thousandfold displeased" to "could not have
+  been more put out"). +1 note (Mandarin Ducks and Butterflies fiction school 鸳鸯蝴蝶派,
+  distinct from the mandarin-duck emblem in the title note). Now 6.
+- ch33: 0 prose edits. +1 note (the "golden-turtle son-in-law" 金龟婿, the Tang
+  gold-tortoise badge of rank behind "a rich, high-placed husband"). Now 4.
+- ch34: 1 prose edit — one T3 de-calque of 鼻酸 ("felt his nose sting" to "felt the
+  sting of tears rise", the taxonomy's own example). 0 notes (furniture all covered).
+  Stays 3.
+- ch35: 1 prose edit — one T2 transition scene card (四年后……). +1 note (the Second
+  United Front 第二次国共合作, the KMT-CCP alliance against Japan). Now 6.
+- Whole-book close-out: qa_epub PASS across the full spine (48 files, 42 documents,
+  224 references = 224 bodies = 224 backlinks); straight-quote guard clean on all 36
+  reading files; first-and-last-paragraph register read-through of every chapter clean.
+  No colophon (source has none). Register pass complete; recorded in COMPLETION.md.
+  Rebuilt out/On a Hair Trigger.epub, qa green.
+
 ## 2026-08-04 — Register pass R07 (ch28 to ch31)
 Seventh execution batch of the register pass (REGISTER_PASS.md): style-only prose
 revision plus footnote densification. Content frozen; no source line touched, no

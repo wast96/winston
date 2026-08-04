@@ -100,3 +100,48 @@ fresh clone: run `scripts/ingest_epub.py source.epub` to rebuild `data/src`, the
 zh titles in `book.json`) to rebuild `data/zh` and `out/<id>_reading.md`, then
 `scripts/build_reading_epub.py "out/On a Hair Trigger.epub"` and
 `scripts/qa_epub.py "out/On a Hair Trigger.epub"`.
+
+## Register pass (the R-series), 2026-08-04 — complete
+
+After the translation was finished, the whole book was given a style-only
+register revision on the commissioner's readability feedback (see
+`REGISTER_PASS.md`): the English was brought to a fluent mid-century literary
+register for a 1930s Shanghai thriller, and the footnote apparatus was densified
+to a new policy that annotates anything a Western reader with no background in
+Chinese history, family structure, or custom would miss, at its first occurrence
+in the book. ch00 and ch01 were the revised exemplar (commit `895d19c`); the pass
+then ran in eight balanced batches, R01 (ch02-06, plus the ch00 note backfill)
+through R08 (ch32-35), each a two-phase ANALYZE-then-EXECUTE cycle with the
+per-chapter edit lists committed under `edits/`. Content stayed frozen throughout:
+no source line was touched, no paragraph merged, split, added, or dropped, all
+names and terms kept their `glossary.json` renderings, and every footnoted source
+oddity was preserved (the Tang Shaoli/Shaoqi reporter-name slip, the Yang
+Muci/Muchu and A-Chu/A-Ci twin-name usages, the Huamei/Ronghua bookstore
+inconsistency, the source's own watermark line). Across ch02-ch35 the pass applied
+about fifty targeted prose edits — chengyu and idiom de-calques (T1), cinematic
+scene cards set in italics (T2), transferred-syntax and over-literal-image repairs
+(T3), scare-quote pruning (T4), dialogue loosening (T5), all under the frozen
+typography (T6) — with no whole-paragraph recasts outside the ch00/ch01 exemplar;
+triage stayed conservative, most paragraphs left untouched as already reading well.
+The footnote apparatus grew from 117 at translation completion to **224**, all at
+reference density and at first-occurrence, covering the book's material culture,
+the wife/concubine hierarchy and forms of address, customs and belief,
+institutions and money, and the history the narration leans on (each checked
+against scholarship and marked corroborated / uncorroborated / contradicted, never
+sourced from AI-generated references).
+
+Definition of done (REGISTER_PASS.md), confirmed:
+- All 34 chapters (ch02-ch35) triaged with committed edit lists in `edits/` (plus
+  the ch00 backfill list); every accepted edit applied, every skip and rationale
+  recorded in `PROGRESS.md`.
+- Footnote coverage at the new policy across all 36 units, including the ch00/ch01
+  backfill: no first occurrence of an opaque cultural, social, or historical item
+  is left without a note.
+- Book-wide: paragraph parity OK and 0 unresolved numerals on all 36 units;
+  `qa_epub.py` PASS (48 files, 42 documents, 7,082 paragraphs, 224 references = 224
+  bodies = 224 backlinks, all links resolve); the straight-quote typography guard
+  clean on all 36 reading files; and a final whole-book read-through of the first
+  and last page of every chapter confirming register consistency.
+- `CHANGELOG.md` carries one dated entry per batch (R01-R08); this paragraph
+  records the pass.
+- The finished `out/On a Hair Trigger.epub` delivered in chat.
