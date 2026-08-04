@@ -992,6 +992,21 @@
       "pinyin": "Zhongguo yancao gongsi",
       "status": "decided",
       "note": "中国烟草公司; a large Chinese-owned cigarette manufacturer named as the oldest brand and largest in capital, closing its Shanghai factory in the slump."
+    },
+    "内国公债维持会": {
+      "en": "the Domestic Bond Maintenance Association",
+      "status": "decided",
+      "note": "内国公债维持会; the front body Zhao Botao invokes to petition the government to ban short selling and double the sellers' margin, so squeezing Wu Sunfu's bears. See the note at its first mention (ch. 18)."
+    },
+    "女青年会": {
+      "en": "the YWCA",
+      "status": "attested",
+      "note": "女青年会; the Young Women's Christian Association, whose Shanghai hostel (寄宿舍) lodges Zhang Susu over the vacation."
+    },
+    "云飞汽车": {
+      "en": "a Yunfei taxi",
+      "status": "decided",
+      "note": "云飞(汽车); the Yunfei Motor-Car Company, a well-known Shanghai taxicab firm — a distinct referent from the 云飞 passenger-steamer line named earlier. Here Zhang Susu hires a Yunfei cab."
     }
   },
   "places": {
@@ -1660,6 +1675,30 @@
       "pinyin": "Jiushisi hao",
       "status": "decided",
       "note": "九十四号; ‘Number Ninety-Four,’ a notorious secret brothel named only by its house number."
+    },
+    "青岛": {
+      "en": "Qingdao",
+      "pinyin": "Qingdao",
+      "status": "attested",
+      "note": "青岛; the port city on the Shandong peninsula, a fashionable seaside summer resort."
+    },
+    "秦皇岛": {
+      "en": "Qinhuangdao",
+      "pinyin": "Qinhuangdao",
+      "status": "attested",
+      "note": "秦皇岛; the northern port whose Beidaihe strand was the great bourgeois seaside resort of the day."
+    },
+    "牯岭": {
+      "en": "Guling",
+      "pinyin": "Guling",
+      "status": "attested",
+      "note": "牯岭 (also romanized Kuling); the hill-station atop Mount Lu (庐山) above Jiujiang, a summer retreat from the Yangzi heat."
+    },
+    "九江": {
+      "en": "Jiujiang",
+      "pinyin": "Jiujiang",
+      "status": "attested",
+      "note": "九江; the Yangzi river-port in Jiangxi, below Mount Lu."
     }
   },
   "terms": {
@@ -2206,6 +2245,56 @@
       "pinyin": "bagong weiyuanhui",
       "status": "decided",
       "note": "罢工委员会; the workers' own strike committee, set up in place of the company union; the single-mill committees answer in turn to the 丝厂总同盟罢工委员会 (总罢委), the General Federated Strike Committee of the silk filatures."
+    },
+    "宣德炉": {
+      "en": "a Xuande censer",
+      "status": "attested",
+      "note": "宣德炉; a bronze incense-burner in the style of the Ming Xuande reign (1426–1435), byword for the finest such vessels. See the note at its first mention (ch. 18)."
+    },
+    "藏香": {
+      "en": "Tibetan incense",
+      "status": "attested",
+      "note": "藏香; compressed fragrant incense-sticks used in Buddhist and Daoist devotion."
+    },
+    "蒲团": {
+      "en": "a hassock",
+      "status": "attested",
+      "note": "蒲团; the round rush prayer-cushion a devotee kneels or sits on."
+    },
+    "坐关和尚": {
+      "en": "a walled-in monk",
+      "status": "decided",
+      "note": "坐关和尚; a monk sealed in a cell for a term of solitary meditation; Fan Bowen's mocking name for the Fourth Young Lady's seclusion. See the note at its first mention (ch. 18)."
+    },
+    "鸟赋": {
+      "en": "the Rhapsody on the Owl",
+      "status": "attested",
+      "note": "鸟赋 (also 鵩鸟赋, Funiao fu); Jia Yi's fu of c. 174 BCE on fate and cosmic transformation. See the note at its first mention (ch. 18)."
+    },
+    "灵飞经": {
+      "en": "the Lingfei-jing hand",
+      "status": "attested",
+      "note": "灵飞经; a Tang small-regular-script Daoist copybook, model for a delicate upright calligraphic hand. See the note at its first mention (ch. 18)."
+    },
+    "空心汤圆": {
+      "en": "a hollow dumpling",
+      "status": "decided",
+      "note": "空心汤圆; a fillingless rice-ball, idiom for an empty promise. See the note at its first mention (ch. 19)."
+    },
+    "轧空": {
+      "en": "to squeeze the bears",
+      "status": "attested",
+      "note": "轧空; a bear squeeze — forcing the shorts to buy back at a rising price as the settlement compels them to deliver."
+    },
+    "保证金": {
+      "en": "margin",
+      "status": "attested",
+      "note": "保证金; the security deposit a speculator must post; doubling the sellers' margin is the weapon turned against the bears here."
+    },
+    "新儒林外史": {
+      "en": "the new Scholars of the Grove",
+      "status": "decided",
+      "note": "新儒林外史; Mao Dun's phrase in the afterword for the modern-literati satire he planned but dropped, echoing Wu Jingzi's Rulin waishi. See the note at its first mention (ch. 20)."
     }
   }
 }

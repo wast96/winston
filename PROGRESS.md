@@ -1383,3 +1383,68 @@ mistress, the Yizhong (Trust) Company, the Chinese Securities Exchange, the exch
 government bonds, the Customs/Disbandment/Reorganization bonds, trust, banking
 syndicate, mortgage-loan, broker, bull, native bank, the Huangpu, Hankou, Changsha,
 Ji'an, Hunan, Jiangxi, Xuzhou, Zhenjiang, Ningbo, Nanjing.
+
+## B18 — Chapters Eighteen and Nineteen and the Afterword (ch18, ch19, ch20) — FINAL BATCH
+
+- Translated the last three units end to end from data/src/ (all authoritative): ch18
+  (十八, 12,247 chars, 210 paragraphs), ch19 (十九, 5,137 chars, 69 paragraphs), ch20
+  (后记 / Afterword, 452 chars, 7 paragraphs). Rendered into the book's own novelistic
+  register; no bridging text invented, nothing dropped or smoothed.
+- Verbatim quotation check: every '>' source line in each bilingual QC file matches the
+  source .txt body line exactly — 0 mismatches across all 286 paragraphs (210/69/7).
+- No source (author) notes in any of the three units; source_notes.json stays FROZEN at
+  the nine author endnotes [1]..[9] (ch01/ch02/ch05/ch06/ch11). Grepped each source file
+  for a leading [\d+]: none present.
+- check_numbers.py (--noise data/noise_zh.txt): ch18 210 pairs 0 unresolved; ch19 69
+  pairs 0 unresolved; ch20 7 pairs 0 unresolved. Number habits honoured (the big-myriad
+  trap): 十万 = "one hundred thousand", 二十万 = "two hundred thousand", 三十万 = "three
+  hundred thousand", 五十万 = "five hundred thousand", 五十多万 = "five hundred thousand
+  and more", 二十多万 = "two hundred thousand and more", 一百万 = "one million", 二百万 /
+  两百万 = "two million", 三百万 = "three million", 一万头...二十元 = "ten thousand lots
+  ... twenty dollars", 四成 = "four-tenths", 三头六臂 = "three heads and six arms",
+  十九章 = "nineteen chapters".
+  Noise lines added: 七颠八倒 (topsy-turvy idiom, ch18); 十八世纪 (era label, ch19,
+  parallel to ch03 二十世纪); 九江 (Jiujiang place-name, ch19); 一九三十 (positional-year
+  residue: the built-in 一[年] measure-strip eats the 一年 out of 一九三一年, fusing the
+  remainder into 一九三十 read as 30 — ch20).
+- check_structure.py --pairs: parity OK — ch18 210|210, ch19 69|69, ch20 7|7.
+- Builder anchor check: all nine B18 translator anchors verified verbatim in the reading
+  files before building.
+- Build: build_reading_epub.py out/Midnight.epub — 20 of 20 chapters translated, 109
+  notes. qa_epub.py out/Midnight.epub: PASS (32 files, 26 documents, 109 references /
+  109 bodies / 109 backlinks, all links resolve). epubcheck 5.1.0: 0 fatals / 0 errors /
+  0 warnings.
+- Random-sample deep audit (~5%, 14 paragraphs spread across the batch): verbatim-quote,
+  omission, and fidelity re-checked; 0 substantive errors observed.
+
+### Translator notes (builder-numbered 101-109, in reading order)
+
+101 宣德炉 / 藏香 the Xuande censer and Tibetan incense (the dead patriarch's ritual gear);
+102 坐关和尚 the "walled-in monk" (zuoguan, a sealed Chan retreat; Fan Bowen's jibe);
+103 《鸟赋》 the Rhapsody on the Owl (Jia Yi's Funiao fu, c. 174 BCE, and the furnace
+couplet); 104 《灵飞经》体 the Lingfei-jing hand (Tang xiaokai copybook); 105 内国公债维持会
+the Domestic Bond Maintenance Association (Zhao Botao's front to ban short selling);
+106 空心汤圆 "hollow dumpling" (idiom for an empty promise); 107 红军打吉安 the Red Army at
+Ji'an / Changsha under siege (summer 1930, the Li Lisan line — dates the action);
+108 青岛/秦皇岛/牯岭 the bourgeois summer resorts (Qingdao, Beidaihe, Kuling); 109 新儒林外史
+the "new Scholars of the Grove" (Mao Dun's afterword nod to Wu Jingzi's Rulin waishi).
+
+### Glossary rows added (one rendering per referent)
+
+places: Qingdao (青岛), Qinhuangdao (秦皇岛), Guling (牯岭/Kuling), Jiujiang (九江).
+organizations: the Domestic Bond Maintenance Association (内国公债维持会), the YWCA
+(女青年会), a Yunfei taxi (云飞汽车, the taxicab firm — distinct referent from the 云飞
+steamer line). terms: a Xuande censer (宣德炉), Tibetan incense (藏香), a hassock (蒲团),
+a walled-in monk (坐关和尚), the Rhapsody on the Owl (鸟赋), the Lingfei-jing hand (灵飞经),
+a hollow dumpling (空心汤圆), to squeeze the bears (轧空), margin (保证金), the new Scholars
+of the Grove (新儒林外史). Reused the fixed bond-market / household cast already in
+glossary.json (Wu Sunfu, Zhao Botao, Wang Hefu, Sun Jiren, Du Zhuzhai, Tang Yunshan, Han
+Mengxiang, Liu Yuying, Xu Manli, Staff Officer Lei, Lu Kuangshi, Lawyer Qiu, Huang Fen,
+Tu Weiyue, Huifang/the Fourth Young Lady, Zhang Susu, Fan Bowen, Wu Zhisheng, Lin
+Peishan, Du Xintuo, Lin Peiyao/the young mistress, Ah-xuan, Dr. Ding, Li Gui, Amah Wang,
+the Taishang Ganying Pian, the Liwalida, the Yizhong, bear/bull, settlement, the Reor-
+ganization/Troop-Disbandment bonds).
+
+## BOOK COMPLETE
+
+All 20 units translated. See COMPLETION_REPORT.md for the whole-book summary.

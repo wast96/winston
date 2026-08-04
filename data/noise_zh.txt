@@ -278,3 +278,17 @@
 # 五十二万 = 520,000 (the floor price held for the eight factories); the checker cannot
 # sum a compound ten-myriad; rendered "five hundred and twenty thousand" (ch17)
 五十二万
+# --- Chapter Eighteen additions ---
+# 七颠八倒 "topsy-turvy / all in disorder" (七颠八倒的女青年会寄宿舍); 七/八 are idiom, not counts (ch18)
+七颠八倒
+# --- Chapter Nineteen additions ---
+# 十八世纪 "the eighteenth century" -- an era label, not a quantity (parallel to the
+# ch03 二十世纪 rule) (ch19)
+十八世纪
+# 九江 the city Jiujiang (南昌，九江都很吃紧); 九 is part of the place-name, not the count 9 (ch19)
+九江
+# --- Chapter Twenty (Afterword) additions ---
+# positional-year residue: the built-in 一[年] measure-strip eats the 一年 out of the
+# year 一九三一年, fusing the remainder into 一九三十(月), which the parser then reads as
+# the quantity 30. Strip that residue; a positional year is not a counted quantity (ch20)
+一九三十
