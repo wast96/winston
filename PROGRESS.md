@@ -1562,3 +1562,71 @@ Glossary/figures: no changes (this pass never re-romanizes or renames).
 Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 213 notes.
 qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 213 references = 213
 bodies = 213 backlinks, all links resolve).
+
+## Register pass R06 (ch24 to ch27) — 2026-08-04
+
+Sixth execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source ">" line touched,
+no paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/ (ch24 to ch27). These are ordinary ch01-mode chapters deep in the book, so
+almost every paragraph LEAVE; the prose already reads in the target register and
+was not churned. Per the R06 brief, by ch24 the cultural furniture is largely
+covered, so new notes run low and coverage-driven, not to a quota. Book-wide notes
+213 to 218.
+
+- ch24 (3 touch, +1 note now 5): three of the source's bare place stamps set as
+  their own paragraphs are italic scene cards (T2) — 梅花巷7号。 (p086),
+  中央警官学校。 (p114), 春和医院。 (p132). No prose recast. Note: the White-Bone
+  Demon 白骨精 (p063, first in book), the shape-shifting Journey to the West demon
+  behind Xiong Zida's "show its true shape" mole-hunt image; Journey to the West is
+  also named in the existing Monkey King note later in the chapter, a distinct
+  figure. Chiang/the Generalissimo, the Special Branch, Daiyu-burns-manuscripts,
+  and the White-Terror slogan are already noted and untouched.
+- ch25 (0 touch, +2 notes now 5): no bare stamps, so no scene cards; the body-
+  double set-piece and the courtship already read in register — every paragraph
+  LEAVE. Notes: Shaoxing opera 绍兴文戏 (p137, the early name of Yue opera 越剧,
+  first in book); the "clouds and rain" euphemism 共赴巫山 (p256, the Gaotang-fu /
+  Mount Wu allusion, first in book). The Lyceum/Lanxin Theatre (first ch04) and the
+  Park Hotel (first ch17) are earlier first-occurrences and left for their own
+  chapters; the chapter-title Cloth-Bag Monk poem, 移花接木, and 耳听为虚眼见为实
+  are already noted.
+- ch26 (1 touch, +2 notes now 5): one bare seasonal-atmosphere stamp set as an
+  italic scene card (T2) — 冷秋，寒色。 (p001). No recast. Notes: Fourth Avenue
+  四马路 (p103, = Fuzhou Road, the busy Shanghai book-street chosen for cover,
+  first in book); the "police runner" 包打听 (p127, the concession-era plainclothes
+  informer/fixer, A-Chun's cover, first in book). The Special Branch, its Red Squad,
+  Wu Hao/Zhou Enlai, Bai Yun's alias, 进亦不喜退亦不忧, and the iron-shoes idiom are
+  already noted; Yan'an (first ch08) and the spirit-tablet (noted ch09) are left.
+- ch27 (0 touch, 0 notes, unchanged now 3): a fully LEAVE chapter. The one-line
+  dramatic beats (e.g. "Cong Feng had come.") are narrative sentences, not setting
+  labels, and stay roman per the T2 caveat; the chengyu either land in English or
+  are already footnoted (游鱼视死如归, 回头是岸, the peony/Wu Zetian legend). No
+  first-occurrence cultural item is left un-noted (Comintern, the Huangpu first
+  ch17, Yan'an first ch08; rickshaw/dishes self-evident), so no densification —
+  coverage-driven, not forced.
+
+Source oddities preserved (style pass, not story repair): the Ronghua/Huamei
+bookstore-name inconsistency (footnoted at ch22) recurs verbatim in ch24 and ch26;
+the Muci/Muchu and A-Chu/A-Ci twin-name usages are left exactly as printed in ch24,
+ch25, and ch27.
+
+Checks: per chapter, split_bilingual.py regenerated reading + data/zh; parity OK
+(ch24 218, ch25 256, ch26 253, ch27 225); check_numbers 0 unresolved on all four
+(data/noise.txt unchanged — the B09 block already covers ch22-ch24 numerals, no new
+non-quantity numeral flagged, and scene-card italics remove no quantity); straight-
+quote guard clean on all four reading files and re-run clean across all 36 reading
+files; no source ">" line changed in any bilingual file. Spot-audit: all edited
+paragraphs re-read against their source lines. The four prose touches are scene-card
+italicizations, mathematically verified as formatting-only (identical text after
+stripping the asterisks; words, numerals, names verbatim, zero meaning risk); the
+reading-file diffs contain exactly those four card lines and nothing else (ch25 and
+ch27 reading files byte-identical to baseline). All 5 new note anchors verified as
+unique verbatim substrings of the post-edit reading text, no HTML named entities,
+scholarship checked (all Corroborated). New notes confirmed attached with noterefs
+in the built EPUB.
+
+Glossary/figures: no changes (this pass never re-romanizes or renames).
+
+Build: out/On a Hair Trigger.epub rebuilt, 36 of 36 units translated, 218 notes.
+qa_epub.py PASS (48 files, 42 documents, 7,082 paragraphs, 218 references = 218
+bodies = 218 backlinks, all links resolve).

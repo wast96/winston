@@ -1,6 +1,6 @@
 ## Chapter 26. The White Cloud May Be Slain but Not Detained
 
-A cold autumn; a chill in the light.
+*A cold autumn; a chill in the light.*
 
 The moon showed its ghastly-white face with an eerie air, stroking the earth with a cold hand.
 

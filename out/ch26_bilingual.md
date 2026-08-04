@@ -1,7 +1,7 @@
 ## H2 Chapter 26. The White Cloud May Be Slain but Not Detained
 
 > 冷秋，寒色。
-A cold autumn; a chill in the light.
+*A cold autumn; a chill in the light.*
 
 > 月亮阴森森地露出惨白的脸，阴凉地抚摸着大地。
 The moon showed its ghastly-white face with an eerie air, stroking the earth with a cold hand.

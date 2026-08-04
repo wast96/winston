@@ -8,6 +8,37 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
 
+## 2026-08-04 — Register pass R06 (ch24 to ch27)
+Sixth execution batch of the register pass (REGISTER_PASS.md): style-only prose
+revision plus footnote densification. Content frozen; no source line touched, no
+paragraph merged or split, names per glossary.json. Edit lists committed under
+edits/ (ch24 to ch27). Book-wide notes 213 to 218. Ordinary ch01-mode chapters deep
+in the book: almost every paragraph LEAVE; edits confined to scene cards (T2), no
+recasts. New notes run low and coverage-driven per the R06 brief.
+
+- ch24: 4 prose edits — three T2 place-stamp scene cards (梅花巷7号。/中央警官学校。/
+  春和医院。). 1 note (the White-Bone Demon 白骨精, the shape-shifting Journey to
+  the West demon behind the "show its true shape" mole-hunt image; first in book).
+  Now 5.
+- ch25: 0 prose edits (no bare stamps; the body-double set-piece and courtship
+  already read in register). 2 notes (Shaoxing opera 绍兴文戏, the early Yue-opera
+  genre; the "clouds and rain" euphemism 共赴巫山 and its Gaotang-fu / Mount Wu
+  source; both first in book). Now 5.
+- ch26: 1 prose edit — one T2 seasonal-atmosphere scene card (冷秋，寒色。). 2 notes
+  (Fourth Avenue 四马路 = Fuzhou Road, the busy Shanghai book-street used for cover;
+  the "police runner" 包打听, the concession-era plainclothes informer/fixer; both
+  first in book). Now 5.
+- ch27: 0 prose edits, 0 notes (a fully LEAVE chapter; one-line beats are narrative
+  sentences not cards, and its allusions — the peony/Wu Zetian legend, the roaming
+  fish, turn-back-to-shore — are already footnoted). Unchanged at 3.
+
+Source oddities preserved: the Ronghua/Huamei bookstore-name inconsistency (noted
+ch22) recurs in ch24/ch26; the Muci/Muchu and A-Chu/A-Ci twin-name usages left as
+printed. Checks: parity OK on all four (218/256/253/225); check_numbers 0 unresolved
+(noise.txt unchanged); straight-quote guard clean on all 36 reading files; the four
+card edits verified formatting-only. Rebuilt out/On a Hair Trigger.epub, 218 notes,
+qa_epub PASS (48 files, 42 documents, 218 references = 218 bodies = 218 backlinks).
+
 ## 2026-08-04 — Register pass R05 (ch20 to ch23)
 Fifth execution batch of the register pass (REGISTER_PASS.md): style-only prose
 revision plus footnote densification. Content frozen; no source line touched, no

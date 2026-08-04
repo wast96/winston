@@ -170,7 +170,7 @@ Li Qinhong and Gao Lei came to attention.
 
 A cryptic smile opened at the corner of Li Qinhong’s mouth; she had a foreboding that she was about to lay hold of the riddle’s answer. “We ought to go and look in on this little friend of ours…”
 
-No. 7 Plum Blossom Lane.
+*No. 7 Plum Blossom Lane.*
 
 Yashu, in a Chinese-collared cheongsam of embroidered silk with a little waistcoat, a handbag of novel design tucked under her arm, came out of the courtyard gate. Brilliant sun, a few idle clouds—they mirrored Yashu’s mood just now to a nicety.
 
@@ -226,7 +226,7 @@ The two parted in the sunlight; Yashu went off with short, mincing steps, gracef
 
 No sooner had Yashu gone than A-Chu got into the car. He told Liu A-Si to drive to the “Chunhe Hospital.” The car cut through by another lane; so this meeting, it turned out, had been arranged on purpose.
 
-The Central Police Academy.
+*The Central Police Academy.*
 
 The telephone in Du Luning’s office rang. Du Luning was reading a document; Yu Xiaojiang, standing in attendance at his side, took the call.
 
@@ -262,7 +262,7 @@ Yu Xiaojiang covered the mouthpiece and said softly to Du Luning: “Gao Lei, fo
 
 “Good! Well said.” Du Luning laid the document aside and smiled coldly. “If Yang Muci is a Communist, I will execute him with my own hand. And if he is not a Communist, then let whoever picks a quarrel over him, and bullies my man, not blame me for a cruel and merciless heart.”
 
-The Chunhe Hospital.
+*The Chunhe Hospital.*
 
 Yang Muci’s sickroom brimmed with a warm cosiness; the fresh flowers Yang Sitong had brought stood in a vase, giving off wave upon wave of quiet fragrance; the sky-blue curtain was rolled up, and A-Chu came strolling to the head of Muci’s bed.
 
