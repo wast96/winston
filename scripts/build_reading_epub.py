@@ -626,35 +626,39 @@ def render_contents(structure, translated, ids_present=None):
             here = ids_present.get(cid, set())
             done = cid in translated
             mark = "" if done else ' <span class="pending">&#183; pending</span>'
-            parts.append('<li class="chap"><a href="%s.xhtml">%s</a>%s%s</li>'
+            # A nested list must live INSIDE its parent <li>: an <ol> that
+            # is a direct child of an <ol> is invalid XHTML, and epubcheck
+            # rejected two shipped books' contents pages for exactly this.
+            parts.append('<li class="chap"><a href="%s.xhtml">%s</a>%s%s'
                          % (cid, esc(chap["title_en"]),
                             "" if done else _span_suffix(chap), mark))
-            if not chap.get("sections"):
-                continue
-            parts.append('<ol>')
-            for sec in chap["sections"]:
-                if sec["id"] in here:
-                    label = ('<a href="%s.xhtml#%s">%s</a>'
-                             % (cid, esc(sec["id"]), esc(sec["title_en"])))
-                else:
-                    label = ('%s <span class="pending">&#183; pending</span>'
-                             % esc(sec["title_en"]))
-                parts.append('<li class="sec">%s%s</li>'
-                             % (label,
-                                "" if sec["id"] in here else _span_suffix(sec)))
-                if sec.get("subsections"):
-                    parts.append('<ol class="secs">')
-                    for sub in sec["subsections"]:
-                        if sub["id"] in here:
-                            sl = ('<a href="%s.xhtml#%s">%s</a>'
-                                  % (cid, esc(sub["id"]), esc(sub["title_en"])))
-                        else:
-                            sl = esc(sub["title_en"])
-                        parts.append('<li class="sub">%s%s</li>'
-                                     % (sl, "" if sub["id"] in here
-                                        else _span_suffix(sub)))
-                    parts.append('</ol>')
-            parts.append('</ol>')
+            if chap.get("sections"):
+                parts.append('<ol>')
+                for sec in chap["sections"]:
+                    if sec["id"] in here:
+                        label = ('<a href="%s.xhtml#%s">%s</a>'
+                                 % (cid, esc(sec["id"]), esc(sec["title_en"])))
+                    else:
+                        label = ('%s <span class="pending">&#183; pending</span>'
+                                 % esc(sec["title_en"]))
+                    parts.append('<li class="sec">%s%s'
+                                 % (label,
+                                    "" if sec["id"] in here else _span_suffix(sec)))
+                    if sec.get("subsections"):
+                        parts.append('<ol class="secs">')
+                        for sub in sec["subsections"]:
+                            if sub["id"] in here:
+                                sl = ('<a href="%s.xhtml#%s">%s</a>'
+                                      % (cid, esc(sub["id"]), esc(sub["title_en"])))
+                            else:
+                                sl = esc(sub["title_en"])
+                            parts.append('<li class="sub">%s%s</li>'
+                                         % (sl, "" if sub["id"] in here
+                                            else _span_suffix(sub)))
+                        parts.append('</ol>')
+                    parts.append('</li>')
+                parts.append('</ol>')
+            parts.append('</li>')
     parts.append('</ol>')
     return "\n".join(parts)
 
