@@ -737,7 +737,10 @@ def main(epub_path):
     for i, (f, _) in enumerate(docs, 1):
         items.append('<item id="d%d" href="%s" media-type="application/xhtml+xml"/>' % (i, f))
     for i, f in enumerate(manifest_figs, 1):
-        items.append('<item id="fig%d" href="images/%s" media-type="image/png"/>' % (i, f))
+        _ext = os.path.splitext(f)[1].lower()
+        _mt = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".gif": "image/gif"}.get(_ext, "image/png")
+        # a JPEG declared as PNG is an epubcheck error (it flagged ~50 here)
+        items.append('<item id="fig%d" href="images/%s" media-type="%s"/>' % (i, f, _mt))
     if cover_img:
         ext = os.path.splitext(cover_img)[1].lower()
         cmt = "image/jpeg" if ext in (".jpg", ".jpeg") else "image/png"
@@ -759,8 +762,10 @@ def main(epub_path):
     if meta["subtitle_en"]:
         md.append('<dc:title id="subtitle">%s</dc:title>' % esc(meta["subtitle_en"]))
         md.append('<meta refines="#subtitle" property="title-type">subtitle</meta>')
-    md.append('<dc:creator id="creator" opf:role="aut" opf:file-as="%s">%s</dc:creator>'
-              % (esc(meta["author_sort"]), esc(meta["author_en"])))
+    # opf:role/opf:file-as are OPF2-only; in an EPUB3 package they are a
+    # validation ERROR. The refines metas below carry the same information.
+    md.append('<dc:creator id="creator">%s</dc:creator>'
+              % esc(meta["author_en"]))
     md.append('<meta refines="#creator" property="role" scheme="marc:relators">aut</meta>')
     md.append('<meta refines="#creator" property="file-as">%s</meta>'
               % esc(meta["author_sort"]))
