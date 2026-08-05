@@ -1,13 +1,11 @@
 {
   "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. Authored from book.draft.json (ingest_epub.py). Chapter ids start with 'ch'. A chapter is treated as translated once out/<id>_reading.md exists.",
-
   "title_en": "A Thousand Li of Rivers and Mountains",
   "title_zh": "千里江山图",
   "author_en": "Sun Ganlu",
   "author_zh": "孙甘露",
   "year": 2022,
-  "uid": "urn:uuid:thousand-li-rivers-mountains-1",
-
+  "uid": "urn:uuid:b68c8035-5644-558a-b471-62ac5a4c8c5a",
   "translator_note": [
     "This is an English translation of <i>&#21315;&#37324;&#27743;&#23665;&#22270;</i> (<i>A Thousand Li of Rivers and Mountains</i>), Sun Ganlu's 2022 novel of the Communist underground in Shanghai in early 1933, made from the digital source edition. The source was translated in full; a paragraph-by-paragraph bilingual audit file exists alongside this edition for anyone who wants to check the workings.",
     "The novel's principal characters &#8212; Chen Qianli, Ling Wen, Yi Junnian, Fang Yunping, You Tianxiao and the rest &#8212; are the author's invention, but their world is real. The book dramatizes a fictional secret mission against the true background of the underground Party in the Shanghai of the White Terror, and its closing appendix frames the whole as an homage to the real, and largely nameless, Communists shot at Longhua. Where the story touches documented history, the notes say whether a person, place or event is real, and whether the particular claim is corroborated; the few places where the novel departs from the record (the garrison's &#8216;32nd Army,&#8217; for one) are flagged as its own.",
@@ -15,10 +13,8 @@
     "A word on the look of the page. The source marks its scene changes lightly: sometimes with a terse line of time and place (set here centered, as a dateline), and often with a hard cut and no divider at all. To keep those cuts legible, this edition sets a centered break between scenes. No word of the text has been added, dropped or altered; the breaks and datelines are typography only.",
     "This is a cumulative edition: chapters not yet translated appear in the table of contents, each linked to a short outline giving its size in the source, so the whole shape of the book is in view from the start."
   ],
-
   "_source_note": "Digital EPUB, Shanghai Literature and Art Publishing House (上海文艺出版社), first edition April 2022, ISBN 978-7-5321-8331-9. Reliable Unicode text, no OCR. The colophon page names 上海文化出版社 while the ISBN prefix, Weibo and WeChat handles all belong to 上海文艺出版社; to be confirmed during translation. One image only (the cover). The source carries no footnotes/endnotes of its own. Front matter in the spine (cover, copyright leaf, the source's own 目录/CONTENTS) is reproduced by the builder's generated title page, colophon and Contents, so it is not a translation unit here; the copyright leaf will be rendered via back_matter.json.",
   "source_epub": "source.epub",
-
   "_structure_note": "Logical structure in reading order: an opening epigraph, 34 titled chapters (the source numbers them by title, not number), a closing unsigned letter, and a two-part appendix. Each unit keeps 'src' and 'chars' from ingest so the survey can size batches. English titles are provisional for a few place/brand names (marked below) and will be settled in the glossary before translation.",
   "structure": [
     {
@@ -412,20 +408,91 @@
       ]
     }
   ],
-
   "_batches_note": "Approved by the commissioner on 2026-07-28 (12 batches, ~16k source chars each). first/last are unit ids.",
   "batches": [
-    {"batch": "B01", "first": "ch01", "last": "ch05", "chars": 15918, "title": "Epigraph through Xuanwu Lake"},
-    {"batch": "B02", "first": "ch06", "last": "ch08", "chars": 13949, "title": "Identity through The Race Ticket"},
-    {"batch": "B03", "first": "ch09", "last": "ch11", "chars": 12297, "title": "The Photograph through The Tenant"},
-    {"batch": "B04", "first": "ch12", "last": "ch14", "chars": 14113, "title": "A Letter from Afar through New Year's Eve"},
-    {"batch": "B05", "first": "ch15", "last": "ch17", "chars": 12668, "title": "Code Words through The Suitcase"},
-    {"batch": "B06", "first": "ch18", "last": "ch20", "chars": 13802, "title": "The Maochang Coal Company through The Xingchang Apothecary"},
-    {"batch": "B07", "first": "ch21", "last": "ch22", "chars": 13142, "title": "The Tanglong Door through The Tiannan Teahouse"},
-    {"batch": "B08", "first": "ch23", "last": "ch25", "chars": 12269, "title": "Garrick through Jiaoli"},
-    {"batch": "B09", "first": "ch26", "last": "ch27", "chars": 9145, "title": "The Guisheng through The Gonghexiang Wharf"},
-    {"batch": "B10", "first": "ch28", "last": "ch30", "chars": 15511, "title": "Xiaotaoyuan through The Yangzhou Master"},
-    {"batch": "B11", "first": "ch31", "last": "ch33", "chars": 12408, "title": "The Cemetery through North Station"},
-    {"batch": "B12", "first": "ch34", "last": "ch37", "chars": 11948, "title": "Fish Congee through Appendix"}
+    {
+      "batch": "B01",
+      "first": "ch01",
+      "last": "ch05",
+      "chars": 15918,
+      "title": "Epigraph through Xuanwu Lake"
+    },
+    {
+      "batch": "B02",
+      "first": "ch06",
+      "last": "ch08",
+      "chars": 13949,
+      "title": "Identity through The Race Ticket"
+    },
+    {
+      "batch": "B03",
+      "first": "ch09",
+      "last": "ch11",
+      "chars": 12297,
+      "title": "The Photograph through The Tenant"
+    },
+    {
+      "batch": "B04",
+      "first": "ch12",
+      "last": "ch14",
+      "chars": 14113,
+      "title": "A Letter from Afar through New Year's Eve"
+    },
+    {
+      "batch": "B05",
+      "first": "ch15",
+      "last": "ch17",
+      "chars": 12668,
+      "title": "Code Words through The Suitcase"
+    },
+    {
+      "batch": "B06",
+      "first": "ch18",
+      "last": "ch20",
+      "chars": 13802,
+      "title": "The Maochang Coal Company through The Xingchang Apothecary"
+    },
+    {
+      "batch": "B07",
+      "first": "ch21",
+      "last": "ch22",
+      "chars": 13142,
+      "title": "The Tanglong Door through The Tiannan Teahouse"
+    },
+    {
+      "batch": "B08",
+      "first": "ch23",
+      "last": "ch25",
+      "chars": 12269,
+      "title": "Garrick through Jiaoli"
+    },
+    {
+      "batch": "B09",
+      "first": "ch26",
+      "last": "ch27",
+      "chars": 9145,
+      "title": "The Guisheng through The Gonghexiang Wharf"
+    },
+    {
+      "batch": "B10",
+      "first": "ch28",
+      "last": "ch30",
+      "chars": 15511,
+      "title": "Xiaotaoyuan through The Yangzhou Master"
+    },
+    {
+      "batch": "B11",
+      "first": "ch31",
+      "last": "ch33",
+      "chars": 12408,
+      "title": "The Cemetery through North Station"
+    },
+    {
+      "batch": "B12",
+      "first": "ch34",
+      "last": "ch37",
+      "chars": 11948,
+      "title": "Fish Congee through Appendix"
+    }
   ]
 }
