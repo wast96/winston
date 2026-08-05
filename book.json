@@ -1,93 +1,269 @@
 {
-  "_README": "This is the single source of the book's structure. The build is driven ENTIRELY by this file. Fill in every field, delete the _comment/_README keys or leave them (the builder ignores unknown keys). Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists. Cite the book's own PRINTED FOLIO in notes, never the PDF page.",
+  "_README": "Single source of the book's structure; the build is driven ENTIRELY by this file. Chapter ids start with 'ch'. A chapter is treated as translated once out/<id>_reading.md exists. Cite the book's own PRINTED FOLIO in notes, never the PDF page. This book is an ANTHOLOGY of memoir/reminiscence articles by many contributors, compiled by the Shanghai CPPCC's historical-materials committee; each 'chapter' below is one article (or a front-matter/appendix piece), modelled as a chapter so the builder gives it its own spine document. Article bylines are carried in the reading text, not in this file. Internal numbered sections (一、二、...) exist in some articles; they are captured per batch as each article is OCR'd, since the printed TOC lists only article-level entries and there are no usable PDF bookmarks below that level.",
 
-  "deliverable": "out/book.epub",
-  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this; never rely on the default.",
+  "deliverable": "out/gangs-of-old-shanghai.epub",
 
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 1933,
-  "uid": "urn:uuid:my-book-slug-1",
+  "title_en": "The Gangs of Old Shanghai",
+  "subtitle_en": "Selected Shanghai Historical and Cultural Materials, Volume 54",
+  "title_zh": "旧上海的帮会",
+  "title_file_as": "Gangs of Old Shanghai, The",
 
-  "_metadata_note": "EPUB metadata for e-reader compatibility (Kindle, Apple Books). All values should be in English. publisher is the original publisher; description is a short blurb; subject is a list of genre/topic strings; language defaults to 'en'. publication_date is ISO format (YYYY-MM-DD) of the original publication; if only the year is known, use YYYY-01-01. If uid is missing, or is a urn:uuid whose tail is not a real UUID (like this stub's), the builder substitutes a deterministic UUIDv5 of title_en; a malformed urn:uuid once made Apple Books refuse a book.",
+  "author_en": "Shanghai CPPCC Committee on Cultural and Historical Materials",
+  "author_zh": "中国人民政治协商会议上海市委员会文史资料工作委员会",
+  "author_file_as": "Shanghai CPPCC Committee on Cultural and Historical Materials",
+  "translator_en": "Winston",
 
-  "_metadata_schema": "OPTIONAL richer fields the builder also reads: subtitle_en; title_file_as / author_file_as (sort keys; default to the display forms); translator_en (dc:contributor, MARC role trl); rights; source_ref (dc:source, e.g. the scanned edition or a library call number); subjects (list; preferred over the legacy 'subject', which is still honored); series + series_index (calibre metas plus EPUB3 belongs-to-collection); source_language (BCP-47 of the original, emitted as dcterms:language); source_script (lang tag for source-script spans, e.g. 'zh-Hant' or 'zh-Hans'; default 'zh'); cover_image (path under data/figs/ or data/png/, copied byte-identical; without one a typographic cover is generated when Pillow and fonts allow); modified (RFC-3339 dcterms:modified stamp; defaults to a FIXED value so rebuilds are byte-identical — bump it when you ship a meaningfully new edition).",
-  "publisher": "",
-  "description": "",
-  "subject": [],
+  "year": 1986,
+  "publication_date": "1986-08-01",
+  "publisher": "Shanghai People's Publishing House (上海人民出版社)",
   "language": "en",
-  "publication_date": "",
+  "source_language": "zh",
+  "source_script": "zh-Hans",
 
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212; em dash, &#160; nbsp), never named entities. If omitted, a generic method note is generated.",
-  "translator_note": [
-    "This is an English translation of <i>中文書名</i>, from an image-only scan with no digital text layer.",
-    "Say here how the text was recovered and verified, what the register decisions were, who the author is and how to read the source, and how any damaged or missing passages were handled. Keep it honest about method and provenance."
+  "series": "Winston Translations",
+  "series_index": 10,
+
+  "rights": "English translation prepared for private study. The original Chinese work (1986) remains the property of its authors and the Shanghai People's Publishing House.",
+  "source_ref": "旧上海的帮会 (上海文史资料选辑 第五十四辑). 上海人民出版社, 1986年8月. 上海市报刊登记证第424号. 定价 2.90 元.",
+
+  "description": "An annotated English translation of volume 54 of the Shanghai Selected Historical and Cultural Materials series (1986): twenty-six memoirs and studies on the secret-society gangs that ran the Shanghai underworld from the late Qing to 1949. Contributors who knew the gangs from the inside — a labour organizer, a French Concession detective, household stewards, sworn brothers and family — reconstruct the Green Gang and the Hongmen, the rise of the 'three big bosses' Huang Jinrong, Du Yuesheng and Zhang Xiaolin, and their entanglement with warlords, the concessions, the Nationalist secret service and the Communist underground. Compiled by the Shanghai CPPCC's committee on historical materials, with a preface by the historian Wei Jianyou and a contribution by Zhu Xuefan, who also inscribed the title.",
+  "subjects": [
+    "HISTORY / Asia / China",
+    "TRUE CRIME / Organized Crime",
+    "SOCIAL SCIENCE / Criminology",
+    "HISTORY / Modern / 20th Century",
+    "BIOGRAPHY & AUTOBIOGRAPHY / Cultural, Ethnic & Regional / Asian"
   ],
 
-  "_source_note": "Free-text provenance: where the scan came from, how many PDF pages, seal/artifact warnings, whether the PDF has bookmarks. Informational only.",
-  "source_note": "Image-only PDF scan; NN pages; no text layer. Note any library seal, dark-edge artifacts, or embedded bookmarks here.",
+  "translator_note": [
+    "This is an English translation of <i>旧上海的帮会</i> (<i>The Gangs of Old Shanghai</i>), volume 54 of the series <i>Selected Historical and Cultural Materials of Shanghai</i> (<i>上海文史资料选辑</i>), published by the Shanghai People's Publishing House in August 1986. It was translated from an image-only scan with no digital text layer; the Chinese text was recovered by optical character recognition and verified against the page images.",
+    "The book is not by a single author. It is an anthology of twenty-six memoirs, oral histories and short studies, compiled by the Committee on Cultural and Historical Materials of the Shanghai Committee of the Chinese People's Political Consultative Conference. Some pieces are old manuscripts the committee had held unpublished; some are reprinted from other publications; many were freshly solicited from people who had known the gangs at first hand or belonged to them. Each article's contributor (and, for the oral histories, the person who took it down) is named at its head, exactly as in the original. Zhu Xuefan, then a vice-chairman of the National People's Congress Standing Committee and himself a veteran of the gang-ridden Shanghai labour movement, contributed the opening article and brushed the title on the cover; the preface is by Wei Jianyou, a professor of history at Shanghai Normal University.",
+    "The editors' own note warns that the contributors' recollections sometimes disagree, that some could not be fully checked, and that names and usages were left as each writer gave them rather than forced into uniformity. This translation keeps that honesty: where the source contradicts itself or the historical record, the text is rendered as printed and the discrepancy is footnoted, never silently repaired. Footnotes supply the people, places, institutions and customs a reader without a background in modern Chinese history would miss, and say whether the book's claims are corroborated, uncorroborated, or contradicted by outside scholarship. Chinese names use pinyin except where an older English form is conventional; damaged or uncertain readings are flagged in the notes. Passages that could not be read from the scan are marked rather than guessed at."
+  ],
 
-  "_offset_note": "The PDF-page-to-printed-folio offset usually DRIFTS as unpaginated plates accumulate. Do NOT use a constant formula. Record per-section pdf_page/printed_page anchors below and READ the folio off the scan at each opener.",
+  "source_note": "Image-only PDF scan, 391 pages, no text layer (producer: FreePic2Pdf). Cover bears a library seal; title page carries an accession number (124054) and a Shandong Normal University library stamp. Body is simplified Chinese, horizontal. Printed-to-PDF offset is a constant 9 (printed = pdf - 9) from the body's first page to the last, verified at multiple anchors. Front matter (editorial note, preface, table of contents) runs its own short sequences ahead of the body.",
 
-  "_end_note": "The last PDF page and printed folio of the body text. Set these so the LAST chapter's/section's page length is known in the survey; without them its length shows as '?'.",
-  "pdf_end": 292,
-  "printed_end": 236,
+  "pdf_end": 391,
+  "printed_end": 382,
 
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (zh), title_en, pdf_page + printed_page of its opener, and a sections list. OPTIONAL 'part': a label like 'Part One. ...' — consecutive chapters sharing a part are grouped under it in the TOC. Each section: id (ch01s01..), section (int), title (zh), title_en, pdf_page, printed_page, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en, pdf_page, printed_page). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front (from the TOC or PDF bookmarks): the survey and the skeleton EPUB are built from it before any translation.",
   "structure": [
     {
-      "level": 1,
-      "id": "ch01",
-      "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "pdf_page": 27,
-      "printed_page": 1,
-      "sections": [
-        {
-          "id": "ch01s01",
-          "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "pdf_page": 27,
-          "printed_page": 1,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)",
-              "pdf_page": 27,
-              "printed_page": 1
-            }
-          ]
-        },
-        {
-          "id": "ch01s02",
-          "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "pdf_page": 33,
-          "printed_page": 7
-        }
-      ]
-    }
-  ],
-
-  "_batches_note": "Your work plan: split the book into batches (a chapter, or a run of sections) and do each end to end. Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
-  "batches": [
+      "level": 1, "id": "ch01", "chapter": 1,
+      "part": "Front Matter",
+      "title": "编辑说明", "title_en": "Editorial Note",
+      "pdf_page": 4, "printed_page": 1
+    },
     {
-      "batch": "B01",
-      "title": "ch1",
-      "pdf_range": [27, 42],
-      "printed_range": [1, 16],
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
+      "level": 1, "id": "ch02", "chapter": 2,
+      "part": "Front Matter",
+      "title": "序言", "title_en": "Preface",
+      "pdf_page": 6, "printed_page": 1
+    },
+
+    {
+      "level": 1, "id": "ch03", "chapter": 3,
+      "part": "The Gangs and the Workers' Movement",
+      "title": "上海工人运动与帮会二三事",
+      "title_en": "A Few Notes on the Shanghai Workers' Movement and the Gangs",
+      "pdf_page": 10, "printed_page": 1
+    },
+    {
+      "level": 1, "id": "ch04", "chapter": 4,
+      "part": "The Gangs and the Workers' Movement",
+      "title": "在革命工作中运用帮会关系的片段资料",
+      "title_en": "Fragmentary Materials on Using Gang Connections in Revolutionary Work",
+      "pdf_page": 30, "printed_page": 21
+    },
+
+    {
+      "level": 1, "id": "ch05", "chapter": 5,
+      "part": "The Green Gang and the Hongmen: Origins",
+      "title": "青帮早期组织考略",
+      "title_en": "A Brief Study of the Early Organization of the Green Gang",
+      "pdf_page": 38, "printed_page": 29
+    },
+    {
+      "level": 1, "id": "ch06", "chapter": 6,
+      "part": "The Green Gang and the Hongmen: Origins",
+      "title": "青帮的源流及其演变",
+      "title_en": "The Origins and Evolution of the Green Gang",
+      "pdf_page": 60, "printed_page": 51
+    },
+    {
+      "level": 1, "id": "ch07", "chapter": 7,
+      "part": "The Green Gang and the Hongmen: Origins",
+      "title": "洪门历史初探",
+      "title_en": "A Preliminary Inquiry into the History of the Hongmen",
+      "pdf_page": 77, "printed_page": 68
+    },
+    {
+      "level": 1, "id": "ch08", "chapter": 8,
+      "part": "The Green Gang and the Hongmen: Origins",
+      "title": "我接触过的上海帮会人物",
+      "title_en": "Shanghai Gang Figures I Have Known",
+      "pdf_page": 96, "printed_page": 87
+    },
+
+    {
+      "level": 1, "id": "ch09", "chapter": 9,
+      "part": "Figures of the Older Generation",
+      "title": "张仁奎与仁社",
+      "title_en": "Zhang Renkui and the Ren Society",
+      "pdf_page": 117, "printed_page": 108
+    },
+    {
+      "level": 1, "id": "ch10", "chapter": 10,
+      "part": "Figures of the Older Generation",
+      "title": "我的老师袁寒云",
+      "title_en": "My Teacher Yuan Hanyun",
+      "pdf_page": 124, "printed_page": 115
+    },
+    {
+      "level": 1, "id": "ch11", "chapter": 11,
+      "part": "Figures of the Older Generation",
+      "title": "先父徐朗西生平事略",
+      "title_en": "A Brief Life of My Late Father Xu Langxi",
+      "pdf_page": 135, "printed_page": 126
+    },
+
+    {
+      "level": 1, "id": "ch12", "chapter": 12,
+      "part": "Huang Jinrong",
+      "title": "黄金荣事略",
+      "title_en": "A Brief Account of Huang Jinrong",
+      "pdf_page": 140, "printed_page": 131
+    },
+    {
+      "level": 1, "id": "ch13", "chapter": 13,
+      "part": "Huang Jinrong",
+      "title": "我当黄金荣管家的见闻",
+      "title_en": "What I Saw as Huang Jinrong's Steward",
+      "pdf_page": 147, "printed_page": 138
+    },
+    {
+      "level": 1, "id": "ch14", "chapter": 14,
+      "part": "Huang Jinrong",
+      "title": "我所知道的黄金荣",
+      "title_en": "The Huang Jinrong I Knew",
+      "pdf_page": 176, "printed_page": 167
+    },
+
+    {
+      "level": 1, "id": "ch15", "chapter": 15,
+      "part": "Du Yuesheng",
+      "title": "关于杜月笙",
+      "title_en": "On Du Yuesheng",
+      "pdf_page": 204, "printed_page": 195
+    },
+    {
+      "level": 1, "id": "ch16", "chapter": 16,
+      "part": "Du Yuesheng",
+      "title": "杜门话旧",
+      "title_en": "Reminiscences of the Du Household",
+      "pdf_page": 257, "printed_page": 248
+    },
+    {
+      "level": 1, "id": "ch17", "chapter": 17,
+      "part": "Du Yuesheng",
+      "title": "我所知道的杜月笙",
+      "title_en": "The Du Yuesheng I Knew",
+      "pdf_page": 277, "printed_page": 268
+    },
+    {
+      "level": 1, "id": "ch18", "chapter": 18,
+      "part": "Du Yuesheng",
+      "title": "杜月笙打进大达轮船公司经过",
+      "title_en": "How Du Yuesheng Broke into the Dada Steamship Company",
+      "pdf_page": 293, "printed_page": 284
+    },
+    {
+      "level": 1, "id": "ch19", "chapter": 19,
+      "part": "Du Yuesheng",
+      "title": "杜月笙出任上海面粉交易所理事长的经过",
+      "title_en": "How Du Yuesheng Became Chairman of the Shanghai Flour Exchange",
+      "pdf_page": 302, "printed_page": 293
+    },
+    {
+      "level": 1, "id": "ch20", "chapter": 20,
+      "part": "Du Yuesheng",
+      "title": "杜月笙与恒社",
+      "title_en": "Du Yuesheng and the Heng Society",
+      "pdf_page": 309, "printed_page": 300
+    },
+    {
+      "level": 1, "id": "ch21", "chapter": 21,
+      "part": "Du Yuesheng",
+      "title": "杜月笙与戴笠及军统的关系",
+      "title_en": "Du Yuesheng's Ties to Dai Li and the Juntong",
+      "pdf_page": 330, "printed_page": 321
+    },
+
+    {
+      "level": 1, "id": "ch22", "chapter": 22,
+      "part": "Zhang Xiaolin and the Three Big Bosses",
+      "title": "张啸林的一生",
+      "title_en": "The Life of Zhang Xiaolin",
+      "pdf_page": 351, "printed_page": 342
+    },
+    {
+      "level": 1, "id": "ch23", "chapter": 23,
+      "part": "Zhang Xiaolin and the Three Big Bosses",
+      "title": "我所知道的张啸林",
+      "title_en": "The Zhang Xiaolin I Knew",
+      "pdf_page": 356, "printed_page": 347
+    },
+    {
+      "level": 1, "id": "ch24", "chapter": 24,
+      "part": "Zhang Xiaolin and the Three Big Bosses",
+      "title": "上海三大亨的勾结和斗争",
+      "title_en": "The Collusion and Rivalry of Shanghai's Three Big Bosses",
+      "pdf_page": 359, "printed_page": 350
+    },
+
+    {
+      "level": 1, "id": "ch25", "chapter": 25,
+      "part": "Gu Zhuxuan",
+      "title": "顾竹轩在闸北发迹和开设天蟾舞台",
+      "title_en": "How Gu Zhuxuan Rose in Zhabei and Opened the Tianchan Stage",
+      "pdf_page": 366, "printed_page": 357
+    },
+    {
+      "level": 1, "id": "ch26", "chapter": 26,
+      "part": "Gu Zhuxuan",
+      "title": "我利用顾竹轩的掩护进行革命活动",
+      "title_en": "Revolutionary Work Under Gu Zhuxuan's Cover",
+      "pdf_page": 369, "printed_page": 360
+    },
+
+    {
+      "level": 1, "id": "ch27", "chapter": 27,
+      "part": "Appendix",
+      "title": "恒社社章",
+      "title_en": "Appendix I. Charter of the Heng Society",
+      "pdf_page": 376, "printed_page": 367
+    },
+    {
+      "level": 1, "id": "ch28", "chapter": 28,
+      "part": "Appendix",
+      "title": "恒社社员录（一九三四年）",
+      "title_en": "Appendix II. Roll of Heng Society Members (1934)",
+      "pdf_page": 378, "printed_page": 369
     }
   ],
 
-  "_back_matter_note": "Optional. If the book has a publisher's errata table or a colophon you want reproduced as translator's back matter, put the data in back_matter.json (see that file). This list is just a human record of what exists.",
-  "back_matter": []
+  "batches": [
+    { "batch": "B01", "title": "Front matter + the gangs and the workers' movement (ch01-ch04)", "pdf_range": [4, 37], "printed_range": [1, 28], "first_section": "ch01", "last_section": "ch04" },
+    { "batch": "B02", "title": "Green Gang origins: Li Shiyu + Jiang Hao (ch05-ch06)", "pdf_range": [38, 76], "printed_range": [29, 67], "first_section": "ch05", "last_section": "ch06" },
+    { "batch": "B03", "title": "Hongmen history + gang figures known (ch07-ch08)", "pdf_range": [77, 116], "printed_range": [68, 107], "first_section": "ch07", "last_section": "ch08" },
+    { "batch": "B04", "title": "Older-generation figures + Huang Jinrong intro (ch09-ch12)", "pdf_range": [117, 146], "printed_range": [108, 137], "first_section": "ch09", "last_section": "ch12" },
+    { "batch": "B05", "title": "Huang Jinrong: the steward's and the insider's memoirs (ch13-ch14)", "pdf_range": [147, 203], "printed_range": [138, 194], "first_section": "ch13", "last_section": "ch14" },
+    { "batch": "B06", "title": "On Du Yuesheng (Fan Shaozeng, recorded by Shen Zui) (ch15)", "pdf_range": [204, 256], "printed_range": [195, 247], "first_section": "ch15", "last_section": "ch15" },
+    { "batch": "B07", "title": "Du Yuesheng: household, the man, the Dada Steamship (ch16-ch18)", "pdf_range": [257, 301], "printed_range": [248, 292], "first_section": "ch16", "last_section": "ch18" },
+    { "batch": "B08", "title": "Du Yuesheng: Flour Exchange, Heng Society, Dai Li & the Juntong (ch19-ch21)", "pdf_range": [302, 350], "printed_range": [293, 341], "first_section": "ch19", "last_section": "ch21" },
+    { "batch": "B09", "title": "Zhang Xiaolin and the three big bosses (ch22-ch24)", "pdf_range": [351, 365], "printed_range": [342, 356], "first_section": "ch22", "last_section": "ch24" },
+    { "batch": "B10", "title": "Gu Zhuxuan + appendices + back matter, cover, whole-book QA (ch25-ch28)", "pdf_range": [366, 391], "printed_range": [357, 382], "first_section": "ch25", "last_section": "ch28" }
+  ],
+
+  "back_matter": [],
+  "modified": "2026-08-05T00:00:00Z"
 }

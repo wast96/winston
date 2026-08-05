@@ -1,15 +1,71 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
+  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here AND authority.json (the cross-book ledger). status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). Keys starting with '_' are ignored. Seeded at the survey from authority.json; enriched per batch. Bylines/contributors are added as each article is translated.",
   "book": {},
-  "people": {},
-  "organizations": {},
+  "people": {
+    "杜月笙": {
+      "en": "Du Yuesheng", "pinyin": "Du Yuesheng", "status": "attested",
+      "principal": true, "cast_order": 1,
+      "cast": "1888&#8211;1951; the foremost of Shanghai's &#8216;three big bosses,&#8217; a Green Gang chief who rose from a fruit-stall boy to a power broker between the underworld, the concessions and the Nationalist state. The subject of seven articles here.",
+      "note": "1888&#8211;1951. Foremost of the Shanghai Green Gang &#8216;three tycoons.&#8217; Pinyin form standard across the collection."
+    },
+    "黄金荣": {
+      "en": "Huang Jinrong", "pinyin": "Huang Jinrong", "status": "attested",
+      "principal": true, "cast_order": 2,
+      "cast": "1868&#8211;1953; the senior of the three bosses, and the only Chinese chief detective of the French Concession police. Three articles here.",
+      "note": "Green Gang boss and the sole Chinese chief inspector of the French Concession detective squad; Chiang Kai-shek was once nominally his disciple."
+    },
+    "张啸林": {
+      "en": "Zhang Xiaolin", "pinyin": "Zhang Xiaolin", "status": "attested",
+      "principal": true, "cast_order": 3,
+      "cast": "1877&#8211;1940; the third of the three bosses, a Hangzhou-born strongman; later a collaborator with the Japanese, assassinated in 1940.",
+      "note": "One of the &#8216;three big bosses&#8217; of the Shanghai gangs, with Huang Jinrong and Du Yuesheng."
+    },
+    "顾竹轩": {
+      "en": "Gu Zhuxuan", "pinyin": "Gu Zhuxuan", "status": "provisional",
+      "principal": true, "cast_order": 4,
+      "cast": "b. 1885; Green Gang boss of the Zhabei district, rickshaw-fleet magnate and owner of the Tianchan Stage; sheltered Communist underground workers.",
+      "note": "Jiangsu-born gang figure who dominated Zhabei; two articles here treat his rise and his cover for revolutionary work."
+    },
+    "张仁奎": {
+      "en": "Zhang Renkui", "pinyin": "Zhang Renkui", "status": "provisional",
+      "principal": true, "cast_order": 5,
+      "cast": "1865&#8211;1944; a senior Green Gang master of the &#8216;Big&#8217; (Da) generation whose disciples filled Shanghai; founder of the Ren Society.",
+      "note": "Elder Green Gang figure; Du Yuesheng and many others were ranked below his generation."
+    },
+    "戴笠": {
+      "en": "Dai Li", "pinyin": "Dai Li", "status": "attested",
+      "principal": true, "cast_order": 6,
+      "cast": "1897&#8211;1946; head of the Nationalists' secret service (the Juntong); Du Yuesheng's wartime partner.",
+      "note": "Head of the Nationalists' Bureau of Investigation and Statistics (军统/Juntong), the KMT secret police."
+    }
+  },
+  "organizations": {
+    "青帮": {
+      "en": "the Green Gang", "pinyin": "Qingbang", "status": "attested",
+      "note": "青帮; the great secret-society brotherhood of the lower Yangtze and Shanghai. Rendered &#8216;Green Gang&#8217; across the collection."
+    },
+    "洪门": {
+      "en": "the Hongmen", "pinyin": "Hongmen", "status": "attested",
+      "note": "洪门; the sworn-brotherhood secret society of south China (the &#8216;Red Gang,&#8217; 洪帮). Kept as Hongmen across the collection."
+    },
+    "恒社": {
+      "en": "the Heng Society", "pinyin": "Hengshe", "status": "provisional",
+      "note": "恒社; Du Yuesheng's mutual-aid society, founded 1932, through which he organized his following. Its charter and 1934 member roll are the book's appendices."
+    },
+    "仁社": {
+      "en": "the Ren Society", "pinyin": "Renshe", "status": "provisional",
+      "note": "仁社; the society founded around the elder gang master Zhang Renkui, a counterpart to Du Yuesheng's Heng Society."
+    },
+    "军统": {
+      "en": "the Juntong", "pinyin": "Juntong", "status": "decided",
+      "note": "军统; the Nationalists' Bureau of Investigation and Statistics (secret service). Cross-shelf rendering is unsettled (Military Statistics Bureau / the Juntong); this book's rendering is decided at the batch that translates ch21 and reconciled into authority.json then."
+    }
+  },
   "places": {},
   "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
-      "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+    "帮会": {
+      "en": "the gangs", "pinyin": "banghui", "status": "decided",
+      "note": "帮会; the secret-society brotherhoods (青帮 and 洪门) collectively &#8212; the book's subject. Rendered &#8216;the gangs&#8217; or &#8216;the secret-society gangs&#8217; as context needs; the title's 帮会 is &#8216;Gangs.&#8217;"
     }
   }
 }
