@@ -4,6 +4,31 @@ A project forked from this template should note here WHICH version it forked,
 so a mid-book "template upgrade pass" knows what fixes it predates. Keep this
 file when instantiating a project.
 
+## v2.1 — 2026-08-05
+
+The reader-experience pass, plus conformance hardening.
+
+- POPUP FOOTNOTES: markers carry epub:type="noteref" and bodies are <aside
+  epub:type="footnote">, so Apple Books and Kindle show notes (both streams,
+  on the EPUB template) as popups over the page; the endnotes page remains
+  as fallback.
+- PRINCIPAL CHARACTERS page rendered from glossary rows flagged
+  principal:true (optional cast one-liner, cast_order).
+- Per-character VOICE SHEETS in HANDOFF (register spec at first appearance,
+  consulted at every dialogue scene) and the batch-seam splice (read the
+  previous unit's final two pages before translating).
+- check_register gains an informational sentence-rhythm CV column (the
+  droning class nothing else measures).
+- check_reconcile.py mechanizes the whole-book reconciliation sweep
+  (compound rendering drift, glossary-forward usage, spelling locale).
+- Conformance: TOC sub-lists nest inside their parent li; nav entries for
+  pending sections link instead of sitting as bare text; reserved marc
+  prefix dropped; skeleton and fixture builds check 0/0/0 in epubcheck.
+- The kickoff Stop hook stands down when HANDOFF.md still carries the
+  template placeholder; the test harness covers both hook paths and the
+  builder round trip. verify_unit reads data/noise.txt; check_content
+  refuses to measure nothing; authority.json disagreements adjudicated.
+
 ## v2.0 — 2026-08-05
 
 The nine-book harvest. Everything below was learned on gu-shunzhang, wang-
