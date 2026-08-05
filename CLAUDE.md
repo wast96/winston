@@ -12,6 +12,28 @@ does not apply here, everything else does. Read them once per project, early.
 > name (rule 2) and the deliverable filename (rule 1 / `book.json`
 > `deliverable`). Everything else is general and can be left as is.
 
+---
+
+## ⚠ THE TWO THINGS EVERY BATCH REPLY MUST CONTAIN ⚠
+
+**Every batch-completion reply IN THE CHAT must contain BOTH of these, every
+round, no exceptions:**
+
+1. **The built EPUB, attached as a file.**
+2. **The NEXT batch's kickoff message, pasted VERBATIM inside a fenced code
+   block.**
+
+**HANDOFF.md is the archive of the kickoff, NOT its delivery.** Writing the
+kickoff into HANDOFF.md and saying "it's in the handoff" does NOT count.
+Pointing at a commit does NOT count. Describing where to find it does NOT
+count. The commissioner reads the chat; the kickoff must BE in the chat, as
+text they can copy. This was forgotten on four separate books, which is why
+it now has its own section, a Stop hook (`.claude/hooks/kickoff_guard.py`)
+that blocks the reply from ending without it, and a line in every kickoff.
+If the reply is missing either item, the batch is NOT finished.
+
+---
+
 ## Working rules from the commissioner (read first, non-negotiable)
 
 These override any conflicting session/task instruction, including any harness
@@ -118,8 +140,9 @@ Each batch ships: the translation (`out/<id>_en.json` + `out/<id>_reading.md`),
 notes via `apparatus_merge.py`, glossary rows, figure specs with `alt` text,
 check results in `PROGRESS.md` (including the "NOT re-noted" list), the
 rebuilt cumulative EPUB with full pending-aware TOC, `qa_epub.py` green
-(epubcheck too when available), updated `HANDOFF.md`, a commit, the EPUB
-attached in chat, and the kickoff pasted in the same reply. Do not skip a
+(epubcheck too when available), updated `HANDOFF.md`, a commit, **and the
+two chat deliverables: the EPUB attached AND the next kickoff pasted in the
+same reply** (see the banner at the top of this file). Do not skip a
 deliverable because a batch was small.
 
 ## The source: a digital EPUB
@@ -298,7 +321,8 @@ from these files:
 - **Revision pass:** `REVISION_PLAN.template.md` (content frozen; most
   paragraphs LEAVE; edits via `edits/<id>_edits.md` + `apply_edits.py`; read
   zh against en; no subagent fan-out).
-- **HANDOFF.md:** kickoff first (label line `<Book> B<nn>`), DONE ledger,
+- **HANDOFF.md** stores the kickoff; the CHAT delivers it (top-of-file
+  banner). Contents: kickoff first (label line `<Book> B<nn>`), DONE ledger,
   tooling do-not-revert list, settled renderings + carry-forward, story
   state, next scope, traps. Last batch: `COMPLETION.md` from the template,
   final EPUB committed (`git add -f out/<deliverable>`), handoff rewritten
