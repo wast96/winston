@@ -137,6 +137,13 @@ def classify(page):
     # way, merged real paragraphs. The layout is constant across the book, so
     # one measurement over thousands of lines is both more accurate and
     # stable.
+    #
+    # NOTE (The Gangs of Old Shanghai): this geometric path is NOT used on this
+    # book. Its scan carries heavy left-margin speckle and tight line spacing,
+    # so the row-band detector does not align one-to-one with the cropped OCR
+    # lines and the per-line indent flags land on the wrong lines. Assembly
+    # therefore runs from the blank-line/short-line fallback (no data/indent),
+    # and paragraph seams are corrected by reading the scan while translating.
     char = 0.024 * w                     # one Han character at this render
     m = MARGIN.get(page % 2)
     margin = m * w if m else float(np.median([l["x0"] for l in body]))

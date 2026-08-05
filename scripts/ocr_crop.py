@@ -108,6 +108,74 @@ def strip_folio(lines):
     return lines
 
 
+def _line_bands(page):
+    """Text-line bands of a FULL-page render, top to bottom, each
+    {y0,y1,x0,x1} in pixels. Kept byte-for-byte identical to
+    indents.line_starts' band detection so that folio_present and the indent
+    measurement can never disagree about what "the last line" is (two copies
+    of that test once disagreed on 140 of 515 pages, sliding whole pages out
+    of step). Returns (bands, w, h) or None if the render is missing."""
+    import cv2
+    import numpy as np
+    img = cv2.imread(os.path.join(PNG, "p%04d.png" % page), cv2.IMREAD_GRAYSCALE)
+    if img is None:
+        return None
+    h, w = img.shape
+    ink = (img < 160).astype(np.uint8)
+    rows = ink.sum(axis=1)
+    bands, start = [], None
+    for i, v in enumerate(rows):
+        if v > 4 and start is None:
+            start = i
+        elif v <= 4 and start is not None:
+            if i - start > 3:
+                bands.append((start, i))
+            start = None
+    if start is not None:
+        bands.append((start, len(rows)))
+    out = []
+    for y0, y1 in bands:
+        cols = ink[y0:y1, :].sum(axis=0)
+        nz = np.nonzero(cols > 0)[0]
+        if not len(nz):
+            continue
+        out.append({"y0": int(y0), "y1": int(y1),
+                    "x0": int(nz[0]), "x1": int(nz[-1])})
+    return out, w, h
+
+
+def folio_present(page):
+    """Does this FULL-page render carry a folio as its last text band?
+
+    The folio prints as a short, isolated numeral at the very foot ('. 2 .'),
+    set well below the last line of prose. indents.py calls this to drop that
+    band before it measures paragraph indents, so its per-line flags line up
+    with the folio-free CROPPED OCR text.
+
+    The digits are OCR-unreliable, so the test is purely geometric, and the
+    third clause is the one that matters: a folio is separated from the prose
+    above it by a clear vertical GAP, whereas a genuinely short LAST LINE of a
+    paragraph sits one ordinary line-height below its predecessor. Testing only
+    "short and low" would delete real short closing lines (the failure that
+    once silently ate the last line of 41% of a chapter's pages); requiring the
+    gap does not. Scanner speckle in the foot margin is wider than a folio and
+    fails the narrowness clause, so it does not trip the test either."""
+    got = _line_bands(page)
+    if not got:
+        return False
+    lines, w, h = got
+    if len(lines) < 2:
+        return False
+    import numpy as np
+    measure = float(np.median([l["x1"] - l["x0"] for l in lines]))
+    line_h = float(np.median([l["y1"] - l["y0"] for l in lines])) or 1.0
+    last, prev = lines[-1], lines[-2]
+    narrow = (last["x1"] - last["x0"]) < 0.35 * measure
+    low = last["y0"] > 0.85 * h
+    gap = (last["y0"] - prev["y1"]) > 0.7 * line_h
+    return bool(narrow and low and gap)
+
+
 def strip_runfoot(lines):
     """Drop the running foot (the chapter title) if it survived the crop.
 
