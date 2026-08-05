@@ -292,12 +292,13 @@ def render_contents(structure, translated, sec_done=None):
         cid = chap["id"]
         done = cid in translated
         if done:
-            parts.append('<li class="chap"><a href="%s.xhtml">%s</a></li>'
+            parts.append('<li class="chap"><a href="%s.xhtml">%s</a>'
                          % (cid, esc(chap["title_en"])))
         else:
             parts.append('<li class="chap">%s '
-                         '<span class="pending">&#183; not yet translated</span></li>'
+                         '<span class="pending">&#183; not yet translated</span>'
                          % esc(chap["title_en"]))
+        # nested list lives INSIDE the parent li (epubcheck rejects ol>ol)
         if chap.get("sections"):
             parts.append('<ol>')
             done_secs = sec_done.get(cid)
@@ -311,6 +312,7 @@ def render_contents(structure, translated, sec_done=None):
                                  '&#183; not yet translated</span></li>'
                                  % esc(sec["title_en"]))
             parts.append('</ol>')
+        parts.append('</li>')
     parts.append('</ol>')
     return "\n".join(parts)
 
@@ -469,7 +471,7 @@ def main(epub_path):
         "author_en": book.get("author_en", "Gu Shunzhang"),
         "author_zh": book.get("author_zh", ""),
         "year": book.get("year", 1933),
-        "uid": "urn:uuid:gu-shunzhang-theory-practice-1",
+        "uid": "urn:uuid:92c48f9c-e348-5c24-9df6-8931026a8c03",  # deterministic UUIDv5; a non-hex tail is invalid and Apple Books refuses it
         "md": book.get("metadata", {}),
     }
     structure = [c for c in book.get("structure", []) if c.get("id", "").startswith("ch")]
