@@ -46,8 +46,12 @@ cp /path/to/scan.pdf source.pdf
 
 1. **Survey** (message 1): structure, counts, proposed batches, skeleton EPUB
    with a fully hyperlinked TOC, attached in chat. The session stops.
-2. **You approve the batch plan** (or adjust it).
-3. **Batch 1 runs, then stops again — the voice gate.** You read the first
+2. **You approve the batch plan** (or adjust it). The survey session replies
+   with the Batch 1 kickoff pasted in the chat and ends. It does NOT start
+   translating.
+3. **You paste that kickoff into a NEW chat.** Every batch gets its own
+   conversation; the pasted kickoff is always how the next one starts.
+   **Batch 1 runs, then stops again — the voice gate.** You read the first
    chapter in the EPUB and judge three things: the voice, the footnote
    density (does it catch everything you'd miss), and the formatting. This is
    the cheapest moment to change the whole book; every completed book that
@@ -71,7 +75,7 @@ Do STEP 0 (a, b) and NOTHING past it yet:
 3. Characterize the book (script, orientation, register, apparatus, quirks) and build the complete structure in book.json: every part/chapter/section/subsection with pdf_page and printed_page, titles in both languages. Use PDF bookmarks if present but verify against the scan; if there is no TOC and no bookmarks, use find_headings.py + build_structure.py. Read folios off the scan; the offset drifts.
 4. Run scripts/survey.py; build the skeleton EPUB; run scripts/qa_epub.py until green.
 5. Report: the characterization, the counts, every unit's title and length, the proposed batches (final batch light), AND attach the skeleton EPUB.
-6. STOP and wait for approval. Once approved, write the Batch 1 kickoff into HANDOFF.md, ending it with the reminder that Batch 1 ends at the voice gate.
+6. STOP and wait for approval. Once approved: write the Batch 1 kickoff into HANDOFF.md AND paste it in the chat, then end the session. Do NOT start Batch 1 in this conversation; I will paste the kickoff into a new chat. (The Batch 1 kickoff ends at the voice gate.)
 
 Cite printed folios, never PDF pages. Commit the survey.
 ```
