@@ -67,6 +67,7 @@ source.pdf ─render.py─▶ data/png ─ocr_crop.py + ocr_dual.py─▶ data/t
 | `check_align.py` / `check_content.py` | Ratio runs find missing text; glossary-name content finds MISPLACED text. |
 | `qc_entities.py` | Every glossary hanzi's decided rendering survives into the pair. |
 | `check_register.py --ref <chapter>` | Voice drift vs the frozen Batch 1 reference. |
+| `check_reconcile.py` | Whole-book sweep: repeated-compound rendering drift, glossary-forward usage, spelling locale. |
 | `apparatus_merge.py <batch.json>` | Validated, idempotent merge into notes/glossary/figures (kills the heredoc trap). |
 | `check_apparatus.py` | Mojibake / named-entity / double-escape / anchor scan of the ledgers. |
 | `apply_edits.py <id>` | Mechanical, verifiable application of `edits/<id>_edits.md` (revision passes). |

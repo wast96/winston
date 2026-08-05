@@ -304,11 +304,14 @@ Once per book, bounded:
     contradicted IN the note. Contradicted source claims stay faithful in the
     text and get footnoted, never silently corrected.
 12. **Whole-book reconciliation** (final batch) — cross-chapter drift that no
-    per-unit check can see: grep-count ~20 high-frequency decided renderings;
-    hunt repeated source epithets (3+ occurrences) with more than one English
-    rendering; check every glossary `en` form is actually used and no known
-    wrong form survives (variants map: wrong forms ONLY, never the canonical);
-    one spelling locale throughout; notes attached at FIRST appearance.
+    per-unit check can see. `check_reconcile.py` mechanizes it: repeated
+    source compounds with more than one English rendering (on a real book it
+    surfaced one workshop term rendered FIVE ways), every glossary `en` form
+    actually used, no known wrong form surviving (variants map: wrong forms
+    ONLY, never the canonical), one spelling locale (curated pairs). Its
+    drift candidates are for a HUMAN read; some variation is legitimate.
+    Still by hand: grep-count ~20 decided renderings; notes at FIRST
+    appearance.
 
 ## Footnotes — what earns one (be generous; never invent)
 
