@@ -45,7 +45,13 @@ def hook_test(failures):
     first = next((l.strip() for l in m.group(1).splitlines() if l.strip()),
                  "") if m else ""
 
+    import uuid as _uuid
+    _run_tag = _uuid.uuid4().hex[:8]
+
     def run(reply, session):
+        session = session + "-" + _run_tag  # the hook caps blocks per
+        # session in a /tmp counter; a reused id would exhaust the cap
+        # across test runs and fake a failure
         tr = tempfile.NamedTemporaryFile("w", suffix=".jsonl", delete=False)
         tr.write(json.dumps({"type": "assistant",
                              "message": {"content": [
