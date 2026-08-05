@@ -88,6 +88,12 @@ def main():
     print("content alignment: %d glossary names usable as anchors" % len(names))
 
     failed = False
+    if not cfg.get("docs"):
+        print("check_content: config has no 'docs' map; NOTHING was checked. "
+              "Pass --config with a check_structure-style config "
+              "({docs:{id:path}, sources:{id:path}}); a check that quietly "
+              "measures nothing is worse than no check.")
+        sys.exit(1)
     for unit, doc in cfg.get("docs", {}).items():
         src_path = os.path.join(ROOT, cfg["sources"][unit])
         tgt_path = os.path.join(ROOT, doc)
