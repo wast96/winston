@@ -123,8 +123,12 @@ out, and footnotes that catch everything such a reader would miss.
    back matter, whole-book QA, and the completion report).
 5. **Build the skeleton EPUB**, `qa_epub.py` green.
 6. **Present in chat:** counts/outline, proposed batches, AND the skeleton
-   EPUB attached. STOP and wait for approval. Then write the Batch 1 kickoff
-   into `HANDOFF.md`, ending at the voice gate.
+   EPUB attached. STOP and wait for approval.
+7. **On approval: write the Batch 1 kickoff into `HANDOFF.md` AND paste it
+   in the chat, then END THE SESSION. Do NOT begin Batch 1 in this
+   conversation.** Every batch runs in its own fresh chat, started by the
+   commissioner pasting the kickoff; the survey chat's last act is serving
+   up the Batch 1 kickoff (which ends at the voice gate, Step 0c).
 
 ## Step 0c: the first-chapter voice gate (SECOND approval gate)
 
@@ -135,6 +139,12 @@ against a moving baseline, drift is invisible by construction). Every
 completed book that skipped this gate needed a whole-book revision pass.
 
 ## Workflow: the book runs in BATCHES
+
+**One batch = one conversation.** Every batch runs in its own fresh chat,
+started by the commissioner pasting the previous reply's kickoff block; no
+session rolls from one batch into the next (or from the survey into Batch
+1). That is why the kickoff must be IN the chat: it is the only bridge
+between conversations.
 
 Each batch ships: the translation (`out/<id>_en.json` + `out/<id>_reading.md`),
 notes via `apparatus_merge.py`, glossary rows, figure specs with `alt` text,

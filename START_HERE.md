@@ -29,8 +29,12 @@ first session does itself.
 
 1. **Survey** (message 1): ingest, `book.json`, counts, proposed batches, and
    a skeleton EPUB with a fully hyperlinked TOC, attached in chat. Stops.
-2. **You approve the batch plan.**
-3. **Batch 1 runs, then stops at the voice gate.** You read the first chapter
+2. **You approve the batch plan.** The survey session replies with the
+   Batch 1 kickoff pasted in the chat and ends. It does NOT start
+   translating.
+3. **You paste that kickoff into a NEW chat.** Every batch gets its own
+   conversation; the pasted kickoff is always how the next one starts.
+   **Batch 1 runs, then stops at the voice gate.** You read the first chapter
    and judge voice, footnote density, and formatting. On approval it becomes
    the frozen register reference. (Every book that skipped this gate needed a
    whole-book revision pass at the end.)
@@ -50,7 +54,7 @@ Do STEP 0, ingest + survey, and NOTHING past it:
 3. Author book.json from book.draft.json: real titles plus English titles, MERGE or SPLIT units where file boundaries do not match logical chapters, record excluded spine documents in _source_note, and fill in the full metadata block (Step 0 list in CLAUDE.md), including series/series_index per COLLECTION.md and the source's own cover as cover_image. Check authority.json for any name a previous book has already decided.
 4. Run scripts/survey.py (final batch light), build the skeleton EPUB, run scripts/qa_epub.py until green.
 5. Report: the counts, every unit's title and size, the proposed batches, AND attach the skeleton EPUB.
-6. STOP and wait for approval. Once approved, write the Batch 1 kickoff into HANDOFF.md, ending it with the reminder that Batch 1 stops at the voice gate.
+6. STOP and wait for approval. Once approved: write the Batch 1 kickoff into HANDOFF.md AND paste it in the chat, then end the session. Do NOT start Batch 1 in this conversation; I will paste the kickoff into a new chat. (The Batch 1 kickoff ends at the voice gate.)
 
 Cite chapters and sections, never pages. Commit the survey.
 ```
