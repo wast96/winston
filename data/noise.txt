@@ -1,0 +1,37 @@
+# Project noise file for check_numbers.py — pass with --noise data/noise.txt
+#
+# One regex per line. '#' comment lines only — NO trailing comments; the
+# loader keeps the whole non-# line as the pattern.
+#
+# RULES (each learned on a real book):
+#   1. ORDERING IS LOAD-BEARING. Longest literal first. A rule that is the
+#      prefix of a longer form eats the front of it and orphans the tail:
+#      a prisoner ID 五一三 must appear BEFORE a 五一 (May Day) rule, or 五一
+#      strips the prefix and a phantom 三 is reported dropped.
+#   2. Prefer a lookbehind over a broad strip. Built-in numeral-initial rules
+#      are auto-guarded now, but a rule you write that can match the TAIL of
+#      a larger number still needs (?<![零一二两兩三四五六七八九十百千万萬億]).
+#   3. This file runs BEFORE the built-in list, so an entry here can protect
+#      one of your numbers from a greedy built-in (strip 两三百 whole before
+#      the generic 两三 fires and orphans the 百).
+#   4. Noise only ever removes SOURCE numerals, so it can never mask a drop.
+#      If a flag is a REAL quantity, fix the English to carry the value.
+#      Never noise a real number.
+#   5. Every entry gets a comment line above it: what the idiom/name means,
+#      and what phrase the English uses instead. An uncommented entry cannot
+#      be audited and will eventually be deleted by someone it burns.
+#
+# WHAT BELONGS HERE (accumulate as the check flags them):
+#   - personal names containing numerals      (陈千里, 吴四宝, 小五子)
+#   - place names                             (九龙, 四川, 八仙桥, 百老汇)
+#   - four-character idioms not in the built-ins
+#   - lexical-numeral compounds               (百货, 三轮车, 零钱, 五金)
+#   - decade/era labels                       (二十年代, 十八世纪)
+#   - weekday indices                         (星期[一二三四五六], 礼拜[一二三四五六])
+#   - the source's own note markers, if any   (\[\d+\])
+#
+# Example entries (delete these; they are here to show the format):
+# the Nine Dragons of Kowloon — rendered "Kowloon"
+# 九龍
+# weekdays carry no quantity — rendered "Monday" etc.
+# 星期[一二三四五六]

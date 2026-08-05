@@ -1,16 +1,36 @@
-# Regenerable working files (rebuild from source.pdf; never project work)
+# Tracked-vs-regenerable is a DECIDED policy, not per-project taste; every
+# ignore below carries its reason. The rule: derived GEOMETRY and verified
+# READINGS are cheap to commit and expensive to recompute, so they are
+# tracked; the book's own raw text and page images rebuild from source.pdf
+# and are not project work, so they are not.
+
+# Page renders and raw OCR text: rebuild from source.pdf with render.py /
+# ocr_crop.py; also, data/txt and data/zh are the copyrighted text of the
+# book itself, not project work.
 data/png/
 data/crop/
 data/txt/
 data/zh/
 data/raw/
+data/ocr/
 data/verify/
+data/zh_work/
 data/figs/manifest.json
 build/
 __pycache__/
 *.pyc
+SETUP_REPORT.txt
 
-# Deliverable artifacts that rebuild from the sources
+# TRACKED on purpose (listed for the record, do not add ignore rules for
+# them): data/noise.txt, data/indent/, data/pagemap/, data/headings.json,
+# data/structure.json, data/ocr_fixes.json — derived geometry and the
+# crop-verification ledger. A fresh checkout without ocr_fixes.json silently
+# reinstates every OCR mangle already paid to fix.
+
+# Deliverable artifacts that rebuild from the sources. EXCEPTION: on
+# completion, the FINAL deliverable EPUB is committed with
+#   git add -f out/<deliverable>
+# because branches outlive containers and chat attachments do not.
 out/*.epub
 out/*_bilingual.md
 

@@ -53,8 +53,12 @@ def main(path):
         if href not in names:
             fails.append("manifest item not in archive: " + href)
 
-    declared = set(manifest.values()) | {"mimetype", "META-INF/container.xml", rootfile}
+    # META-INF/* is reserved for the OCF layer (container.xml, Apple's
+    # display-options, encryption.xml ...) and is never manifested.
+    declared = set(manifest.values()) | {"mimetype", rootfile}
     for name in names:
+        if name.startswith("META-INF/"):
+            continue
         if name.endswith("/"):
             continue
         if name not in declared:
@@ -97,8 +101,19 @@ def main(path):
     spine_order = [manifest[ref.get("idref")] for ref in
                    opf.findall(".//" + OPF + "itemref")
                    if ref.get("idref") in manifest]
+    # Identify content documents by EXCLUDING the known apparatus documents,
+    # rather than by matching a filename pattern. The pattern version looked
+    # for prologue/chNN and silently reported "0 documents, 0 paragraphs" the
+    # first time a unit was named anything else -- here the front matter,
+    # fm01_gaikuang. A check that quietly measures nothing is worse than no
+    # check, and this one is meant to be the last gate before a build ships,
+    # so it must not depend on a naming convention it does not enforce.
+    APPARATUS = {"cover.xhtml", "titlepage.xhtml", "nav.xhtml",
+                 "contents.xhtml", "notes.xhtml", "backmatter.xhtml",
+                 "errata.xhtml", "colophon.xhtml", "glossary.xhtml"}
     content_docs = [d for d in spine_order
-                    if re.search(r"(prologue|ch\d\d)\.xhtml$", d)]
+                    if posixpath.basename(d) not in APPARATUS
+                    and d.endswith(".xhtml")]
 
     total_paras = 0
     for doc in content_docs:
@@ -113,6 +128,19 @@ def main(path):
         else:
             total_paras += len(re.findall(r"<p[ >]", body))
     print("reading edition: %d documents, %d paragraphs" % (len(content_docs), total_paras))
+
+    nav_doc = [d for d in docs if d.endswith("nav.xhtml")]
+    if nav_doc:
+        nv = z.read(nav_doc[0]).decode()
+        pl = re.search(r'page-list.*?</nav>', nv, re.S)
+        n_pages = len(re.findall(r"<li>", pl.group(0))) if pl else 0
+        n_marks = sum(len(re.findall(r'epub:type="pagebreak"', z.read(d).decode()))
+                      for d in content_docs)
+        print("pagination: %d page-list entries, %d markers in the text"
+              % (n_pages, n_marks))
+        if n_pages != n_marks:
+            fails.append("page-list entries (%d) and page-break markers (%d) "
+                         "disagree" % (n_pages, n_marks))
 
     notes_doc = [d for d in docs if d.endswith("notes.xhtml")]
     if notes_doc:
@@ -141,4 +169,16 @@ def main(path):
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1]))
+    if len(sys.argv) > 1:
+        _p = sys.argv[1]
+    else:
+        import json as _json, os as _os
+        _root = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+        try:
+            _p = _json.load(open(_os.path.join(_root, "book.json")))\
+                .get("deliverable") or _os.path.join(_root, "out", "book.epub")
+        except Exception:
+            _p = _os.path.join(_root, "out", "book.epub")
+        if not _os.path.isabs(_p):
+            _p = _os.path.join(_root, _p)
+    sys.exit(main(_p))

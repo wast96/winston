@@ -2,117 +2,127 @@
 
 This branch (`translation-template-master`) is a ready-to-clone starter kit for
 translating one scanned book into an annotated English EPUB, using the same
-process we built on real books. It carries the pipeline scripts, the operating
-manual (`CLAUDE.md`), and empty data files. No book is loaded in.
+process we built on nine real books. It carries the pipeline scripts, the
+operating manual (`CLAUDE.md`), the enforcement layer (`.claude/`), the method
+references (the `scanned-book-translation` skill), and empty data files. No
+book is loaded in.
 
 There are two ways to use it. Pick one.
 
 ## Option A — a new folder inside this repo (simplest)
 
-Good when you want all your translation projects living side by side in one repo.
-
 ```
-# from the repo root, on the template branch:
 git checkout translation-template-master
-# copy the template into a new project folder named after the book:
-mkdir -p ../my-book && git archive translation-template-master | tar -x -C ../my-book
-# actually keep it in-repo:
 git checkout <your-main-branch>
 git checkout -b claude/my-book
 mkdir my-book && git archive translation-template-master | tar -x -C my-book
-# drop the scan in and start editing:
 cp /path/to/scan.pdf my-book/source.pdf
 ```
 
-Then all commands run from inside `my-book/` and paths in `book.json` stay
-relative to it (the scripts locate the project root themselves).
+Then all commands run from inside `my-book/`.
 
 ## Option B — a fresh branch that IS the project (cleanest history)
-
-Good when you want one book per branch with nothing else in it.
 
 ```
 git checkout -b claude/my-book translation-template-master
 cp /path/to/scan.pdf source.pdf
 ```
 
-Now the branch root IS the project.
-
 ## One-time setup (either option)
 
 1. **Drop the scan in as `source.pdf`.**
-2. **Set two names in `book.json`/`CLAUDE.md`:** the working branch (rule 2) and
-   the EPUB filename (rule 1 / Build). Search `CLAUDE.md` for `[SET PER PROJECT]`.
-3. That is it for you. You do NOT hand-enter the structure or plan the batches:
-   the first session does the survey (below), fills in `book.json`, proposes the
-   batches, and shows you a navigable skeleton EPUB to approve. `notes.json`,
-   `glossary.json`, `figures.json` start empty; `back_matter.json` is inert until
-   enabled.
+2. **Set the two [SET PER PROJECT] values:** the working branch (CLAUDE.md
+   rule 2) and the deliverable filename (`book.json` `deliverable`). Also set
+   the kickoff label (`My Book` in the messages below).
+3. **Consult `authority.json`** (the cross-book name ledger) if this book
+   shares people, places or institutions with earlier books on the shelf, so
+   renderings agree across the collection; set `series`/`series_index` in
+   `book.json` per `COLLECTION.md`.
+4. That is it. You do NOT hand-enter the structure or plan the batches: the
+   first session runs the survey, fills in `book.json`, proposes the batches,
+   and shows you a navigable skeleton EPUB to approve.
 
-## The flow: survey first, then batches
+## The flow: survey, then ONE chapter, then batches
 
-1. **Survey** (message 1, below): the session reads the book's table of contents
-   / bookmarks, fills in the whole structure, and hands you back the counts (how
-   many parts, chapters, sections, subsections), each unit's title and page
-   length, a proposed batch breakdown, and a **skeleton EPUB with a fully
-   hyperlinked table of contents** attached in chat. It then stops.
-2. **You approve** the batch plan (or adjust it).
-3. **Batches** (message 2, below): the session runs Batch 1 end to end and, from
-   then on, each batch's `HANDOFF.md` hands you the next batch's kickoff message
-   ready to paste.
+1. **Survey** (message 1): structure, counts, proposed batches, skeleton EPUB
+   with a fully hyperlinked TOC, attached in chat. The session stops.
+2. **You approve the batch plan** (or adjust it).
+3. **Batch 1 runs, then stops again — the voice gate.** You read the first
+   chapter in the EPUB and judge three things: the voice, the footnote
+   density (does it catch everything you'd miss), and the formatting. This is
+   the cheapest moment to change the whole book; every completed book that
+   skipped this gate needed a whole-book revision pass at the end. On your
+   approval the chapter is frozen as the register reference.
+4. **Batches** run to completion from then on, each ending with the EPUB
+   attached and the next kickoff pasted in the same reply.
 
 ## Message 1 — the survey (paste into a NEW session first)
 
-Fill the **`<...>`** blanks and send. This produces the structure report and the
-hyperlinked-TOC EPUB for your approval; it does not translate anything yet.
+Fill the **`<...>`** blanks and send.
 
 ```
-Read CLAUDE.md in full (the working rules at the top are non-negotiable). We are translating <BOOK TITLE (author, year)> from an image-only scan (source.pdf) into an annotated English EPUB, following CLAUDE.md exactly. Work only on the branch <claude/my-book>; build the deliverable as <out/my-book.epub>.
+My Book SURVEY
 
-Do STEP 0, the structural survey, and NOTHING past it yet:
-1. Set up the environment (PyMuPDF, pillow, numpy, opencv). Render the front matter / table of contents pages and read the book's own contents; if the PDF has bookmarks, use them too.
-2. Fill in book.json completely: every part, chapter, section and subsection in reading order, with each opener's pdf_page and printed_page and both the source title and an English title, plus pdf_end/printed_end. Spot-verify openers by reading the printed folio off the scan (the offset drifts; never assume a constant).
-3. Run scripts/survey.py and build the skeleton EPUB with scripts/build_reading_epub.py; run scripts/qa_epub.py until green.
-4. Report back to me with: the counts (parts / chapters / sections / subsections), every unit's title and page length, and a proposed batch breakdown — and attach the skeleton EPUB (the hyperlinked table of contents) to the chat so I can navigate it.
-5. STOP and wait for me to approve the batch plan. Do not start translating. Once I approve, write the Batch 1 kickoff message into HANDOFF.md.
+Read CLAUDE.md in full (the working rules at the top are non-negotiable). We are translating <BOOK TITLE (author, year)> from an image-only scan (source.pdf) into an annotated English EPUB, following CLAUDE.md exactly. Work only on the branch <claude/my-book>; the deliverable is <out/my-book.epub> (set book.json "deliverable").
 
-Cite printed folios, never PDF pages. Commit the survey (book.json + SURVEY.md).
+Do STEP 0 (a, b) and NOTHING past it yet:
+1. Run ./setup.sh; record anything that failed in PROGRESS.md.
+2. Fill in book.json metadata (Step 0a), including series/series_index per COLLECTION.md, and check authority.json for any recurring names.
+3. Characterize the book (script, orientation, register, apparatus, quirks) and build the complete structure in book.json: every part/chapter/section/subsection with pdf_page and printed_page, titles in both languages. Use PDF bookmarks if present but verify against the scan; if there is no TOC and no bookmarks, use find_headings.py + build_structure.py. Read folios off the scan; the offset drifts.
+4. Run scripts/survey.py; build the skeleton EPUB; run scripts/qa_epub.py until green.
+5. Report: the characterization, the counts, every unit's title and length, the proposed batches (final batch light), AND attach the skeleton EPUB.
+6. STOP and wait for approval. Once approved, write the Batch 1 kickoff into HANDOFF.md, ending it with the reminder that Batch 1 ends at the voice gate.
+
+Cite printed folios, never PDF pages. Commit the survey.
 ```
 
-## Message 2 — a translation batch (after you approve the plan)
+## Message 2 — a translation batch (after approvals)
 
-The survey session writes this into `HANDOFF.md` for you, already filled in. It
-is reproduced here so you know what it looks like; normally you just copy it from
-`HANDOFF.md`.
+The survey session writes this into `HANDOFF.md`, already filled in; normally
+you just copy it from there. Reproduced so you know its shape:
 
 ```
-Read CLAUDE.md in full (the working rules at the top are non-negotiable), then book.json, then HANDOFF.md. We are translating <BOOK TITLE> into an annotated English EPUB per CLAUDE.md. Work only on <claude/my-book>; build <out/my-book.epub>.
+My Book B01
 
-Do Batch <B01> = <scope, e.g. Chapter 1, sections ch01s01-ch01s03>, PDF pages <A-B> (printed folios <a-b>), end to end:
-1. Environment: tesseract with the <Traditional/simplified> + vertical language packs (<script/orientation of this book>). If PaddleOCR will not install quickly, fall back to a full eye-read and say so.
-2. First engineering task (batch 1 only): measure this book's page furniture on a dozen rendered pages and configure scripts/ocr_crop.py (crop box, --lang, --psm, --running-head). Render, then OCR; verify pgrep -c tesseract is 0 after.
-3. Read every page off the 300 dpi scan by eye and translate to the register in CLAUDE.md. Verify every name, number, and low-confidence span against a magnified crop before writing. Never invent bridging text — if the scan cuts off or is damaged, crop and read it, and if it truly can't be read, footnote the gap.
-4. Author one aligned out/<id>_bilingual.md, generate the reading text and parity source with scripts/split_bilingual.py, then run scripts/check_numbers.py and scripts/check_structure.py --pairs. Run scripts/find_figures.py and also eyeball every page for line art (the detector misses charts); crop figures by hand into figures.json.
-5. Blind double-translation and back-translation on the argumentative passages; fact-check names/dates against real scholarship (never Grok/Grokipedia).
-6. Add footnotes to notes.json (keyed by unit id, three kinds, ~3/printed page, XHTML bodies with numeric character references) and extend glossary.json with attestation.
-7. Rebuild the EPUB (the TOC stays fully linked, nested to subsection level), run scripts/qa_epub.py until green.
-8. Commit, present the EPUB to me directly as an attached file in this chat (not a git link), and rewrite HANDOFF.md whose first section is the ready-to-paste kickoff message for the NEXT batch.
+Read CLAUDE.md in full, then HANDOFF.md, then book.json. We are translating <BOOK TITLE> per CLAUDE.md. Work only on <claude/my-book>; expect the harness to start you on a stray branch and consolidate per rule 2. Deliverable <out/my-book.epub>.
 
-Cite printed folios, never PDF pages. Don't pause for my approval; run the whole batch and report back when it's built and QA-green, and paste the next-batch kickoff message at the end of your reply.
+Do Batch <B01> = <scope>, PDF pages <A-B> (printed folios <a-b>), end to end per the CLAUDE.md pipeline:
+1. ./setup.sh; batch 1 only: measure the page furniture and configure ocr_crop.py (crop box, --lang, --psm); render; OCR (ocr_crop.py + ocr_dual.py); pgrep -c tesseract must be 0 after.
+2. indents.py + assemble.py for paragraph structure; find_figures.py AND eyeball every page for line art.
+3. Translate to the register contract, consulting glossary.json and authority.json BEFORE romanizing anything. Crop-verify every name, number, and low-confidence span (verify_names.py --auto for disagreements, crop_lines.py for systematic mangles); record verified readings via apply_fixes.py. Never invent bridging text; verify each unit's tail against the scan.
+4. Write out/<id>_en.json, make_bilingual.py, then verify_unit.py per unit AS YOU GO; check_align.py + check_content.py; check_register.py --ref <frozen reference> (from B02 on).
+5. Footnotes per the reader model in CLAUDE.md (coverage-driven; grep for first appearances; keep the NOT-re-noted list) via apparatus_merge.py; glossary rows with attestation; figures with alt text.
+6. Rebuild the EPUB, qa_epub.py until green, epubcheck if available; record all check results in PROGRESS.md; commit.
+7. Attach the EPUB in this chat AND paste the next batch's kickoff message verbatim in a fenced block in the same reply (the Stop hook checks).
+
+Cite printed folios. Do not pause for approval mid-batch.
 ```
 
-On the last batch, ask for the final back matter (errata/colophon if the book has
-them), a whole-book QA pass, and a completion report instead of another handoff.
+Batch 1's kickoff differs in one way: it ends "then STOP at the voice gate:
+present the chapter and ask for approval of voice, note density and
+formatting before writing the B02 kickoff."
+
+On the LAST batch, the kickoff instead asks for back matter, the whole-book
+reconciliation sweep, COMPLETION.md from the template, the final EPUB
+committed (git add -f), and the handoff rewritten to COMPLETE.
 
 ## What each file is
 
-- `CLAUDE.md` — the operating manual. Read by the assistant every session.
-- `book.json` — the whole book's structure; drives the build. You fill this in.
-- `notes.json` / `glossary.json` / `figures.json` — apparatus, fill as you go.
+- `CLAUDE.md` — the operating manual; read by the assistant every session.
+- `.claude/` — enforcement (Stop hook for the kickoff paste; permission
+  allowlist) and the `scanned-book-translation` skill with the method
+  references (cost model, register drift, build gates, fact-checking).
+- `book.json` — structure + metadata; drives the whole build.
+- `notes.json` / `glossary.json` / `figures.json` — apparatus ledgers, edited
+  only via `scripts/apparatus_merge.py`.
+- `authority.json` / `COLLECTION.md` — the cross-book name ledger and the
+  collection conventions (series metadata, reading order).
 - `back_matter.json` — optional errata/colophon; inert until enabled.
-- `scripts/` — the pipeline (survey, render, OCR-crop, figures, split-bilingual,
-  the two checks, the EPUB builder, the EPUB QA). Each has a docstring.
-- `out/` — deliverables: `SURVEY.md`, `<id>_reading.md` per unit, and the EPUB.
-- `data/` — working files (renders, OCR text, crops); regenerable, git-ignored.
-- `PROGRESS.md` / `HANDOFF.md` / `CORRECTIONS.md` / `CHANGELOG.md` — the log, the
-  baton, the correction inbox, the change record.
+- `scripts/` — the pipeline; each has a docstring. `tests/run_tests.py` is
+  the regression harness for the checkers; keep it green.
+- `REVISION_PLAN.template.md` / `COMPLETION.template.md` / `review/` — the
+  post-completion instruments.
+- `out/` — deliverables; `data/` — working files (see `.gitignore` for what
+  is tracked and why).
+- `PROGRESS.md` / `HANDOFF.md` / `CORRECTIONS.md` / `CHANGELOG.md` — the log,
+  the baton, the correction ledger, the change record.
