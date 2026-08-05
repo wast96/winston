@@ -1,7 +1,9 @@
 # HANDOFF — <book title>
 
 This file is the baton. A fresh session with no memory reads it and starts
-immediately. Rewrite it at the end of every batch; always keep the paste-ready
+immediately. **It is the ARCHIVE of the kickoff message, not its delivery:
+every batch ends with this file's kickoff block PASTED VERBATIM INTO THE
+CHAT, alongside the attached EPUB. Writing it here alone does not count.** Rewrite it at the end of every batch; always keep the paste-ready
 kickoff message below as its first section. When the book completes, replace
 the kickoff with the completion notice and do not touch it afterward (the Stop
 hook keys off it).

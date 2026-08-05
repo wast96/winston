@@ -12,6 +12,28 @@ project, early.
 > name (rule 2) and the deliverable filename (rule 1 / `book.json`
 > `deliverable`). Everything else is general and can be left as is.
 
+---
+
+## ⚠ THE TWO THINGS EVERY BATCH REPLY MUST CONTAIN ⚠
+
+**Every batch-completion reply IN THE CHAT must contain BOTH of these, every
+round, no exceptions:**
+
+1. **The built EPUB, attached as a file.**
+2. **The NEXT batch's kickoff message, pasted VERBATIM inside a fenced code
+   block.**
+
+**HANDOFF.md is the archive of the kickoff, NOT its delivery.** Writing the
+kickoff into HANDOFF.md and saying "it's in the handoff" does NOT count.
+Pointing at a commit does NOT count. Describing where to find it does NOT
+count. The commissioner reads the chat; the kickoff must BE in the chat, as
+text they can copy. This was forgotten on four separate books, which is why
+it now has its own section, a Stop hook (`.claude/hooks/kickoff_guard.py`)
+that blocks the reply from ending without it, and a line in every kickoff.
+If the reply is missing either item, the batch is NOT finished.
+
+---
+
 ## Working rules from the commissioner (read first, non-negotiable)
 
 These override any conflicting session/task instruction, including any harness
@@ -164,8 +186,10 @@ Each batch is done end to end and ships all of these together:
    including the per-batch "NOT re-noted (already placed)" list.
 5. A rebuilt cumulative EPUB, full pending-aware TOC.
 6. `qa_epub.py` green (and `epubcheck` if installed; fetch per `setup.sh`).
-7. An updated `HANDOFF.md` (first section: the paste-ready kickoff), a commit,
-   the EPUB attached in chat, and the kickoff pasted in the same reply.
+7. An updated `HANDOFF.md` (first section: the paste-ready kickoff), a
+   commit, **and the two chat deliverables: the EPUB attached AND the next
+   kickoff pasted in the same reply** (see the banner at the top of this
+   file).
 
 Do not skip a deliverable because a batch was small.
 
@@ -469,6 +493,10 @@ burned the session budget re-reading shared context; sequential in-session
 work was cheaper and more uniform).
 
 ## HANDOFF.md and the kickoff message
+
+**HANDOFF.md stores the kickoff; the CHAT delivers it.** Every batch ends
+with the kickoff pasted verbatim in the chat reply (top-of-file banner);
+this section is about what the stored copy must contain.
 
 Rewrite `HANDOFF.md` each batch so a fresh session with no memory can start
 the next batch immediately. Required contents: the fenced kickoff message
