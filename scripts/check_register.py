@@ -58,6 +58,15 @@ def measure(path):
         'emdash_per_1k': 1000.0 * t.count('—') / aw,
         'semicolon_per_1k': 1000.0 * t.count(';') / aw,
         'sent_median': st.median([len(s.split()) for s in sents]) if sents else 0,
+        # Rhythm: coefficient of variation of sentence length. Translationese
+        # that "drones" comes out with every sentence the same size and shape
+        # (defect class G in the revision taxonomy), which no other metric
+        # sees. Healthy narrative prose usually sits around 0.55-0.75; a
+        # collapse toward uniformity reads as monotone even when every word
+        # is right. INFORMATIONAL only: report, never fail — a legitimately
+        # staccato action chapter can run low.
+        'sent_cv': (st.pstdev(L := [len(s.split()) for s in sents]) /
+                    (st.mean(L) or 1)) if len(sents) > 10 else 0,
     }
 
 
@@ -74,12 +83,14 @@ def main():
     ref = measure(a.ref)
     print("reference: %s" % a.ref)
     print("   dialogue contractions %.1f/1k   shall-share %.0f%%   "
-          "em-dash %.1f/1k\n" % (ref['contr_per_1k'], ref['shall_share'],
-                                 ref['emdash_per_1k']))
+          "em-dash %.1f/1k   rhythm CV %.2f\n"
+          % (ref['contr_per_1k'], ref['shall_share'],
+             ref['emdash_per_1k'], ref['sent_cv']))
 
-    hdr = ('file', 'contr/1k', 'vs ref', 'shall%', 'em-dash/1k', 'sent med')
-    print('%-26s %9s %8s %7s %11s %9s' % hdr)
-    print('-' * 78)
+    hdr = ('file', 'contr/1k', 'vs ref', 'shall%', 'em-dash/1k', 'sent med',
+           'rhythm')
+    print('%-26s %9s %8s %7s %11s %9s %7s' % hdr)
+    print('-' * 86)
 
     failures, warnings = [], []
     for f in a.files:
@@ -96,9 +107,12 @@ def main():
             # because a speaker's stiffness is deliberate. Look, then judge.
             flag = '  <-- check "shall" (may be deliberate)'
             warnings.append(f)
-        print('%-26s %9.1f %7.2fx %6.0f%% %11.1f %9.0f%s'
+        if (m['sent_cv'] and ref['sent_cv'] and not flag
+                and m['sent_cv'] < 0.7 * ref['sent_cv']):
+            flag = '  <-- rhythm flattening (read it aloud; informational)'
+        print('%-26s %9.1f %7.2fx %6.0f%% %11.1f %9.0f %7.2f%s'
               % (f.split('/')[-1], m['contr_per_1k'], ratio, m['shall_share'],
-                 m['emdash_per_1k'], m['sent_median'], flag))
+                 m['emdash_per_1k'], m['sent_median'], m['sent_cv'], flag))
 
     if warnings:
         print("\nNOTE: elevated \"shall\" in %s — verify it is a deliberately"

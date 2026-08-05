@@ -33,6 +33,12 @@ COMPLETION.md, and the final EPUB committed.)
 - (new glossary decisions; the standing carry-forward list a memoryless
   session needs so it does not re-romanize)
 
+## Voice sheets (one per major character, written at first appearance)
+
+- (e.g. "CHEN QIANLI: terse, working-class Shanghai; contracts everything;
+  calls seniors 'Old <surname>'. Never florid." Two lines each; consult at
+  every dialogue scene.)
+
 ## Where the book stands
 
 - (two or three sentences of plot/argument state at the end of the last

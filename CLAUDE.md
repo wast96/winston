@@ -248,7 +248,20 @@ note; numbering is the builder's.
 
 ## Register, formatting, glossary
 
-The scanned template's contracts apply verbatim:
+The scanned template's contracts apply verbatim, plus:
+
+- **Every major character gets a VOICE SHEET.** At first appearance, write a
+  two-line register spec into HANDOFF's carry-forward section (educated or
+  rough, terse or windy, verbal tics, formality toward whom) and consult it
+  at every dialogue scene; "characters must differ from each other" only
+  happens when their differences are written down.
+- **Batch seams:** before translating, read the final two pages of the
+  previous unit's English. HANDOFF describes the voice; the pages ARE the
+  voice.
+- **Principal Characters page:** flag the main cast in `glossary.json` with
+  `"principal": true` (optional `cast` one-liner and `cast_order`); the
+  builder renders a front-matter cast page, the standard courtesy of
+  published Chinese translations.
 
 - The falsifiable voice test (could a good contemporary translator of Mo Yan
   have written it?); the defect classes (calques, transferred syntax,
@@ -271,7 +284,9 @@ As the scanned template, minus page machinery: full pending-aware TOC
 reused byte-identical (both EPUB3 and legacy declarations), store-ready OPF
 with the unified field vocabulary, valid deterministic UUIDv5, deterministic
 `dcterms:modified`, render-layer typography, note markers after closing
-punctuation, refuse-on-unmatched-anchor for BOTH note streams,
+punctuation with popup semantics (`epub:type="noteref"` markers, `<aside
+epub:type="footnote">` bodies, so Apple Books and Kindle pop notes over the
+page), refuse-on-unmatched-anchor for BOTH note streams,
 figure-placement guard + alt text, series metadata. Run `qa_epub.py` after
 every build and epubcheck when available; a failure stops the line.
 

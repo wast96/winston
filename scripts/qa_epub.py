@@ -110,7 +110,8 @@ def main(path):
     # so it must not depend on a naming convention it does not enforce.
     APPARATUS = {"cover.xhtml", "titlepage.xhtml", "nav.xhtml",
                  "contents.xhtml", "notes.xhtml", "backmatter.xhtml",
-                 "errata.xhtml", "colophon.xhtml", "glossary.xhtml"}
+                 "errata.xhtml", "colophon.xhtml", "glossary.xhtml",
+                 "characters.xhtml"}
     content_docs = [d for d in spine_order
                     if posixpath.basename(d) not in APPARATUS
                     and d.endswith(".xhtml")]

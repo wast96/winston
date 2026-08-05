@@ -67,7 +67,7 @@ Read CLAUDE.md in full, then HANDOFF.md, then book.json. We are translating <BOO
 
 Do Batch <B01> = <scope>, end to end per the CLAUDE.md pipeline:
 1. Read the batch's units from data/src/. Fix extractor-split paragraphs; recover set-off formatting with apply_format_markers.py where the source HTML encodes it.
-2. Translate to the register contract, consulting glossary.json and authority.json BEFORE romanizing anything. Never invent bridging text; digitization glitches render to plain sense and are LISTED in PROGRESS.md; the source's own errors stay visible and footnoted.
+2. FIRST read the final two pages of the previous unit's English and the HANDOFF voice sheets (splice onto the actual voice, not a description of it). Then translate to the register contract, consulting glossary.json and authority.json BEFORE romanizing anything; keep the voice sheets current and flag main-cast glossary rows principal: true. Never invent bridging text; digitization glitches render to plain sense and are LISTED in PROGRESS.md; the source's own errors stay visible and footnoted.
 3. Write out/<id>_en.json (one English paragraph per source line) and run make_bilingual.py; then verify_unit.py per unit AS YOU GO; check_align.py + check_content.py; verify each unit's tail against the source; check_register.py --ref <frozen reference> (from B02 on).
 4. Footnotes per the reader model in CLAUDE.md (coverage-driven, first-appearance greps, NOT-re-noted list) via apparatus_merge.py; glossary rows with attestation; source's-own notes into source_notes.json; figures with translated captions and alt text.
 5. Rebuild the EPUB, qa_epub.py until green, epubcheck if available; record all check results in PROGRESS.md; commit.

@@ -38,12 +38,17 @@ def hook_test(failures):
     hook = os.path.join(ROOT, ".claude", "hooks", "kickoff_guard.py")
     if not os.path.exists(hook):
         return
-    handoff = open(os.path.join(ROOT, "HANDOFF.md")).read()
-    import re
-    m = re.search(r"## Message to paste into the next chat.*?```[^\n]*\n(.*?)```",
-                  handoff, re.S)
-    first = next((l.strip() for l in m.group(1).splitlines() if l.strip()),
-                 "") if m else ""
+    # The hook deliberately stands down when HANDOFF.md still carries the
+    # template's placeholder kickoff (a template-maintenance session is not
+    # a book batch). To test the ENFORCING path, stage a realistic kickoff,
+    # and restore the real file afterward no matter what.
+    hpath = os.path.join(ROOT, "HANDOFF.md")
+    handoff_backup = open(hpath).read()
+    first = "Test Book B02"
+    open(hpath, "w").write(
+        "# HANDOFF\n\n## Message to paste into the next chat\n\n"
+        "```\n%s\n\nRead CLAUDE.md, then HANDOFF.md. Do batch B02.\n```\n"
+        % first)
 
     import uuid as _uuid
     _run_tag = _uuid.uuid4().hex[:8]
@@ -88,6 +93,16 @@ def hook_test(failures):
         failures.append("hook: did not fail open on garbage input")
     print("hook fails open on garbage:", "OK"
           if p.returncode == 0 and "block" not in p.stdout else "FAIL")
+
+    # placeholder stand-down: with the template's stub HANDOFF restored, a
+    # wrap-up-looking reply must NOT be blocked (the false positive happened)
+    open(hpath, "w").write(handoff_backup)
+    rc, out = run("Batch done, qa_epub green, book.epub attached.", "t-stub")
+    if "block" in out:
+        failures.append("hook: blocked during template maintenance "
+                        "(placeholder stand-down broken)")
+    print("hook stands down on template stub:", "OK"
+          if "block" not in out else "FAIL")
 
 
 def builder_test(failures):
