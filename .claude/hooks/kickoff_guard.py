@@ -118,6 +118,11 @@ def main():
         return 0
 
     first = kickoff_first_line()
+    if first.startswith("(First line:"):
+        # HANDOFF.md still carries the template's placeholder block: this is
+        # a template-maintenance session, not a book batch. Demanding the
+        # placeholder be pasted is a false positive (it happened).
+        return 0
     if first:
         ok = first in text
         want = ("paste the kickoff block from HANDOFF.md verbatim; its first "

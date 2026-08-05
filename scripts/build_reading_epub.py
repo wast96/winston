@@ -87,6 +87,7 @@ a.noteref sup { font-size: 0.72em; color: #7a1f1f; padding-left: 1px; }
 div.endnote { margin: 0 0 1.05em; }
 div.endnote p { text-indent: 0; font-size: 0.94em; }
 a.backref { text-decoration: none; font-weight: bold; color: #7a1f1f; }
+p.castrow { text-indent: 0; margin: 0.55em 0; }
 .tp { text-align: center; margin-top: 3em; }
 .tp h1 { font-size: 1.7em; }
 .tp p { text-indent: 0; }
@@ -570,8 +571,8 @@ def render_notes_page(chapters, notes_by_chap):
         parts.append('<h3 class="notechap">%s</h3>' % esc(chap["title_en"]))
         for note in used:
             parts.append(
-                '<div class="endnote" id="note%d" epub:type="footnote">'
-                '<p><a class="backref" href="%s#ref%d">%d.</a> %s</p></div>'
+                '<aside class="endnote" id="note%d" epub:type="footnote">'
+                '<p><a class="backref" href="%s#ref%d">%d.</a> %s</p></aside>'
                 % (note["n"], note["doc"], note["n"], note["n"], note["note"]))
     if not any_used:
         parts.append("<p>No notes yet.</p>")
@@ -660,6 +661,42 @@ def render_contents(structure, translated, ids_present=None):
                 parts.append('</ol>')
             parts.append('</li>')
     parts.append('</ol>')
+    return "\n".join(parts)
+
+
+def render_characters(gloss):
+    """Front-matter "Principal Characters" page, from glossary rows flagged
+    "principal": true. Published translations of Chinese books nearly always
+    carry one, because Western readers reliably lose track of Chinese names;
+    the glossary already holds everything needed. The optional "cast" field
+    is the one-line description shown here (falls back to the row's note);
+    optional "cast_order" sorts the page (default: alphabetical by en).
+    Returns None when no row is flagged, and the page simply does not exist.
+    """
+    rows = []
+
+    def walk(d):
+        for k, v in d.items():
+            if k.startswith("_"):
+                continue
+            if isinstance(v, dict) and "en" in v:
+                if v.get("principal"):
+                    rows.append((v.get("cast_order", 999),
+                                 v.get("en", ""), v, k))
+            elif isinstance(v, dict):
+                walk(v)
+    walk(gloss)
+    if not rows:
+        return None
+    rows.sort(key=lambda r: (r[0], r[1]))
+    parts = ["<h2>Principal Characters</h2>"]
+    for _, en, v, hz in rows:
+        desc = v.get("cast") or v.get("note") or ""
+        zh = ' <span lang="%s">%s</span>' % (SRC_LANG, esc(hz))
+        # desc is an XHTML fragment like note bodies: numeric refs, <i> --
+        # inserted raw (the glossary double-escape lesson)
+        parts.append('<p class="castrow"><b>%s</b>%s &#8212; %s</p>'
+                     % (esc(html.unescape(en)), zh, desc))
     return "\n".join(parts)
 
 
@@ -1028,8 +1065,13 @@ def main(epub_path):
     docs = []
     if have_cover:
         docs.append(("cover.xhtml", "Cover"))
-    docs += [("titlepage.xhtml", "Title Page"),
-             ("contents.xhtml", "Contents")]
+    docs += [("titlepage.xhtml", "Title Page")]
+    cast_page = render_characters(gloss)
+    if cast_page:
+        write(os.path.join(oebps, "characters.xhtml"), cast_page,
+              "Principal Characters")
+        docs += [("characters.xhtml", "Principal Characters")]
+    docs += [("contents.xhtml", "Contents")]
     docs += [(c["id"] + ".xhtml", c["title_en"]) for c in structure]
     docs += [("notes.xhtml", "Notes"),
              ("backmatter.xhtml", "Translator's Note and Glossary")]
@@ -1050,17 +1092,22 @@ def main(epub_path):
                     ('<li><a href="%s.xhtml#%s">%s</a></li>'
                      % (cid, esc(s["id"]), esc(s["title_en"]))
                      if s["id"] in here
-                     else '<li>%s</li>' % esc(s["title_en"]))
+                     else '<li><a href="%s.xhtml">%s</a></li>'
+                     % (cid, esc(s["title_en"])))
                     for s in sec["subsections"]) + "</ol>"
             if sec["id"] in here:
                 items.append('<li><a href="%s.xhtml#%s">%s</a>%s</li>'
                              % (cid, esc(sec["id"]), esc(sec["title_en"]), sub))
             else:
-                items.append('<li>%s%s</li>' % (esc(sec["title_en"]), sub))
+                items.append('<li><a href="%s.xhtml">%s</a>%s</li>'
+                             % (cid, esc(sec["title_en"]), sub))
         return "<ol>" + "".join(items) + "</ol>" if items else ""
 
-    nav_items = ['<li><a href="titlepage.xhtml">Title Page</a></li>',
-                 '<li><a href="contents.xhtml">Contents</a></li>']
+    nav_items = ['<li><a href="titlepage.xhtml">Title Page</a></li>']
+    if cast_page:
+        nav_items.append('<li><a href="characters.xhtml">Principal '
+                         'Characters</a></li>')
+    nav_items.append('<li><a href="contents.xhtml">Contents</a></li>')
     for part_label, chaps in part_groups(structure):
         chap_lis = []
         for chap in chaps:

@@ -363,6 +363,12 @@ glossary row. Numbering is continuous book-wide and assigned by the builder.
   sentence? If it sounds like a Victorian rendering of Scripture, it goes. Do
   not import another register, another book's voice, or academic distance into
   a popular text.
+- **Every major character gets a VOICE SHEET.** At first appearance, write
+  a two-line register spec into HANDOFF's carry-forward section (educated or
+  rough, terse or windy, verbal tics, formality toward whom) and consult it
+  at every dialogue scene. "Characters must differ from each other" only
+  happens when their differences are written down; the book that improvised
+  this convention had the best dialogue on the shelf.
 - **Merge sentences where English wants them merged.** Source information order
   is not sacred. Stiltedness is the failure mode to avoid. The recurring
   defect classes: idiom calques, transferred syntax, fake-antique verb forms,
@@ -404,7 +410,11 @@ entry: `attested` (form used in scholarship, with the citation), `provisional`
 book. Record per batch which existing rows were REUSED unchanged, not just
 what was added; that is what keeps drift at zero. If you find a better
 attested form mid-book, change the glossary AND grep every built unit for the
-old form and rebuild. On completion, render the ledger as `out/term_ledger.md`
+old form and rebuild. Flag the book's main cast with `"principal": true` (optional `cast`
+one-liner and `cast_order`): the builder renders them as a front-matter
+**Principal Characters** page, the standard courtesy of published Chinese
+translations, because Western readers reliably lose track of Chinese names.
+On completion, render the ledger as `out/term_ledger.md`
 so someone who reads no Chinese can audit every rendering, and feed new
 decisions back into `authority.json`.
 
@@ -421,6 +431,9 @@ decisions back into `authority.json`.
   source files stay plain ASCII and anchors never break.
 - Footnote numbering is continuous; note markers sit after closing
   punctuation; `qa_epub.py` checks ref/body/backlink and sequential order.
+  Markers carry `epub:type="noteref"` and bodies are `<aside
+  epub:type="footnote">`, so Apple Books and Kindle show notes as POPUPS
+  over the page; the endnotes page remains for readers that do not.
 - The builder REFUSES to build on an unmatched note anchor or an unplaced
   figure spec (both were silent losses on real books: twelve notes once
   vanished for weeks; images silently dropped). Anchors are inserted BEFORE
@@ -462,13 +475,16 @@ the next batch immediately. Required contents: the fenced kickoff message
 FIRST (under `## Message to paste into the next chat`); what is DONE, one
 line per batch, do not redo; tooling in place, with an explicit "do not
 revert" list of accumulated script patches; renderings settled this batch and
-the carry-forward list; where the story/argument stands; exact next-batch
+the carry-forward list (including the per-character VOICE SHEETS); where the
+story/argument stands; exact next-batch
 scope with unit ids and page ranges; open traps and environment state.
 
 The kickoff message's FIRST LINE is the project label and batch,
 **[SET PER PROJECT]** e.g. `My Book B07`, then a blank line, then: read
 `CLAUDE.md`, then `HANDOFF.md`, then `book.json`; do batch `<Bxx>` =
-`<scope>` (PDF `<a-b>`, printed `<a-b>`) end to end per the pipeline; cite
+`<scope>` (PDF `<a-b>`, printed `<a-b>`) end to end per the pipeline;
+BEFORE translating, read the final two pages of the previous unit's English
+(HANDOFF describes the voice; the pages ARE the voice); cite
 printed folios; never invent bridging text; do not pause for approval;
 deliver the EPUB in chat and paste the next kickoff. Paste the current
 kickoff verbatim at the end of your batch-completion reply too.
