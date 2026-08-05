@@ -1,5 +1,5 @@
 {
- "_about": "Cross-book name authority for the whole translation shelf. Consult BEFORE romanizing anything in a new book; one rendering per referent ACROSS BOOKS unless a book records a deliberate deviation (e.g. a period-flavor style like Chungking/Peiping in a 1940s memoir) in its own glossary note. Feed every new book's decided renderings back in on completion. Entries carry every rendering observed on the shelf with the books that used it; status 'reconcile' marks a live cross-book disagreement (article-only differences excluded). Sources: the nine completed books, 2026-08.",
+ "_about": "Cross-book name authority for the whole translation shelf. Consult BEFORE romanizing anything in a new book; one rendering per referent ACROSS BOOKS unless a book records a deliberate deviation (e.g. a period-flavor style like Chungking/Peiping in a 1940s memoir) in its own glossary note. Feed every new book's decided renderings back in on completion. Entries carry every rendering observed on the shelf with the books that used it; status 'reconcile' marks a live cross-book disagreement (article-only differences excluded). Sources: the nine completed books, 2026-08. Reconcile entries now carry an adjudication: 'decided' (one form is objectively right, use the recommendation), 'style' (a register call; the recommendation is the modern default and period deviations are legitimate when recorded), 'context' (the zh names different things in different books; do not unify).",
  "terms": {
   "万国公墓": {
    "renderings": {
@@ -52,7 +52,9 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "三马路; the colloquial name of Hankou Road (汉口路), the financial street of Chinese Shanghai where the securities exchange stood. See the footnote at first appearance."
+   "note": "三马路; the colloquial name of Hankou Road (汉口路), the financial street of Chinese Shanghai where the securities exchange stood. See the footnote at first appearance.",
+   "adjudication": "context",
+   "why": "CONTEXT: period Shanghai street nicknames; render per book's register (San Malu period flavor vs a descriptive form)."
   },
   "上海": {
    "renderings": {
@@ -77,7 +79,10 @@
    },
    "category": "organizations",
    "status": "reconcile",
-   "note": "The Shanghai hotel (东方, 'the East') where Fourth Madam stages the storytelling that opens A-Chu's origins to him; rendered by pinyin, since the source's 东方饭店 does not map cleanly onto any one attested Republican-era English hotel name."
+   "note": "The Shanghai hotel (东方, 'the East') where Fourth Madam stages the storytelling that opens A-Chu's origins to him; rendered by pinyin, since the source's 东方饭店 does not map cleanly onto any one attested Republican-era English hotel name.",
+   "recommendation": "the Oriental Hotel",
+   "adjudication": "decided",
+   "why": "The hotel's own contemporary English name."
   },
   "中原": {
    "renderings": {
@@ -103,7 +108,10 @@
    },
    "category": "organizations",
    "status": "reconcile",
-   "note": "Civil-liberties body founded in Shanghai, December 1932 (Song Qingling, Cai Yuanpei, Yang Quan). Chapter 29 (footnoted)."
+   "note": "Civil-liberties body founded in Shanghai, December 1932 (Song Qingling, Cai Yuanpei, Yang Quan). Chapter 29 (footnoted).",
+   "recommendation": "the China League for Civil Rights",
+   "adjudication": "decided",
+   "why": "Standard form in English scholarship."
   },
   "中央特科": {
    "renderings": {
@@ -172,7 +180,9 @@
    },
    "category": "terms",
    "status": "reconcile",
-   "note": "交际花, lit. 'a flower of society'; a fashionable woman of the demimonde who moves among wealthy men, here Xu Manli."
+   "note": "交际花, lit. 'a flower of society'; a fashionable woman of the demimonde who moves among wealthy men, here Xu Manli.",
+   "adjudication": "context",
+   "why": "CONTEXT: common noun; register call per book."
   },
   "伍豪": {
    "renderings": {
@@ -241,7 +251,10 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "A Shanghai theatre (the historical Lyceum Theatre); He Yashu says they saw a Shaoxing opera there (Chapter 25). Romanized 'Lanxin' to match the Lanxin Western Restaurant."
+   "note": "A Shanghai theatre (the historical Lyceum Theatre); He Yashu says they saw a Shaoxing opera there (Chapter 25). Romanized 'Lanxin' to match the Lanxin Western Restaurant.",
+   "recommendation": "the Lyceum Theatre",
+   "adjudication": "decided",
+   "why": "The theatre's own contemporary English name."
   },
   "关东军": {
    "renderings": {
@@ -283,7 +296,10 @@
    },
    "category": "organizations",
    "status": "reconcile",
-   "note": "The Kuomintang's Bureau of Investigation and Statistics (secret police). The name is strictly of 1938; its use for 1931 is a mild anachronism. See the note at Chapter 4."
+   "note": "The Kuomintang's Bureau of Investigation and Statistics (secret police). The name is strictly of 1938; its use for 1931 is a mild anachronism. See the note at Chapter 4.",
+   "recommendation": "the Juntong",
+   "adjudication": "style",
+   "why": "Recommend the romanized short form with 'the Military Statistics Bureau' glossed at first mention; a documentary register may prefer the full translated name throughout. Pick per book and record it."
   },
   "冯玉祥": {
    "renderings": {
@@ -437,7 +453,9 @@
    },
    "category": "terms",
    "status": "reconcile",
-   "note": "A Nationalist ‘Three People’s Principles’ re-education facility to which unconvicted political prisoners could be transferred, used as a rescue channel."
+   "note": "A Nationalist ‘Three People’s Principles’ re-education facility to which unconvicted political prisoners could be transferred, used as a rescue channel.",
+   "adjudication": "style",
+   "why": "Differences are article/phrasing-level or register-driven; pick the fuller attested form for a new book and record any deliberate deviation in that book's glossary."
   },
   "史良": {
    "renderings": {
@@ -482,7 +500,10 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "吴淞口; the mouth of the Huangpu where it meets the Yangtze estuary, the seaward gate of Shanghai; older English Woosung."
+   "note": "吴淞口; the mouth of the Huangpu where it meets the Yangtze estuary, the seaward gate of Shanghai; older English Woosung.",
+   "recommendation": "the Wusong mouth",
+   "adjudication": "style",
+   "why": "Modern pinyin default; 'Woosung' period deviation, recorded."
   },
   "吴铁城": {
    "renderings": {
@@ -584,7 +605,10 @@
    },
    "category": "organizations",
    "status": "reconcile",
-   "note": "The wartime advisory body; Dong Biwu and Deng Yingchao launched there a motion against the secret imprisonment of patriots (ch21)."
+   "note": "The wartime advisory body; Dong Biwu and Deng Yingchao launched there a motion against the secret imprisonment of patriots (ch21).",
+   "recommendation": "the People's Political Council",
+   "adjudication": "decided",
+   "why": "Standard form in English scholarship."
   },
   "复兴社": {
    "renderings": {
@@ -669,7 +693,10 @@
    },
    "category": "organizations",
    "status": "reconcile",
-   "note": "Real. The Shanghai Evening Post and Mercury, American-owned and foreign-registered; Chinese edition from 16 Jan 1933."
+   "note": "Real. The Shanghai Evening Post and Mercury, American-owned and foreign-registered; Chinese edition from 16 Jan 1933.",
+   "recommendation": "the Shanghai Evening Post and Mercury",
+   "adjudication": "decided",
+   "why": "The paper's real English masthead."
   },
   "天津": {
    "renderings": {
@@ -715,7 +742,10 @@
    },
    "category": "people",
    "status": "reconcile",
-   "note": "H.&#160;H. Kung (1881&#8211;1967); financier and premier, husband of Song Ailing."
+   "note": "H.&#160;H. Kung (1881&#8211;1967); financier and premier, husband of Song Ailing.",
+   "recommendation": "H. H. Kung",
+   "adjudication": "decided",
+   "why": "Conventional English form he used himself."
   },
   "孙中山": {
    "renderings": {
@@ -792,7 +822,10 @@
    },
    "category": "people",
    "status": "reconcile",
-   "note": "Real. Nationalist finance minister 1928-1933; evoked (unnamed) by the hint that 'Mr. Song's' elder brother is a great personage and the bank does Ministry of Finance bond business."
+   "note": "Real. Nationalist finance minister 1928-1933; evoked (unnamed) by the hint that 'Mr. Song's' elder brother is a great personage and the bank does Ministry of Finance bond business.",
+   "recommendation": "T. V. Soong",
+   "adjudication": "decided",
+   "why": "Conventional English form; spaced initials per standard style."
   },
   "宋庆龄": {
    "renderings": {
@@ -805,7 +838,10 @@
    },
    "category": "people",
    "status": "reconcile",
-   "note": "conventional form; Sun Yat-sen's widow"
+   "note": "conventional form; Sun Yat-sen's widow",
+   "recommendation": "Soong Ching-ling",
+   "adjudication": "decided",
+   "why": "Conventional English form, as she herself published under it."
   },
   "宋美龄": {
    "renderings": {
@@ -818,7 +854,10 @@
    },
    "category": "people",
    "status": "reconcile",
-   "note": "1898&#8211;2003; Madame Chiang Kai-shek, youngest of the Soong sisters."
+   "note": "1898&#8211;2003; Madame Chiang Kai-shek, youngest of the Soong sisters.",
+   "recommendation": "Soong Mei-ling",
+   "adjudication": "decided",
+   "why": "Conventional English form."
   },
   "山东": {
    "renderings": {
@@ -845,7 +884,9 @@
    },
    "category": "terms",
    "status": "reconcile",
-   "note": "The police stations of the foreign concessions (Shanghai's International Settlement and French Concession). Their Chinese informers were 包打聽."
+   "note": "The police stations of the foreign concessions (Shanghai's International Settlement and French Concession). Their Chinese informers were 包打聽.",
+   "adjudication": "context",
+   "why": "CONTEXT: a common noun; 'concession police station' vs 'the Municipal Police' both correct by sentence."
   },
   "常州": {
    "renderings": {
@@ -890,7 +931,9 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "A mountain resort in Jiangxi where Chiang Kai-shek was staying."
+   "note": "A mountain resort in Jiangxi where Chiang Kai-shek was staying.",
+   "adjudication": "style",
+   "why": "Differences are article/phrasing-level or register-driven; pick the fuller attested form for a new book and record any deliberate deviation in that book's glossary."
   },
   "廖仲恺": {
    "renderings": {
@@ -927,7 +970,10 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "The Communist base in northern Shaanxi; Ronghua’s wireless link runs between Shanghai and Yan’an. (The Party’s seat only from 1937; its use in the novel’s earlier setting is a mild anachronism, as with ‘Juntong.’)"
+   "note": "The Communist base in northern Shaanxi; Ronghua’s wireless link runs between Shanghai and Yan’an. (The Party’s seat only from 1937; its use in the novel’s earlier setting is a mild anachronism, as with ‘Juntong.’)",
+   "recommendation": "Yan'an",
+   "adjudication": "style",
+   "why": "Modern pinyin default; 'Yenan' is a legitimate period-voice deviation (juntong), recorded there."
   },
   "张国焘": {
    "renderings": {
@@ -994,7 +1040,10 @@
    },
    "category": "organizations",
    "status": "reconcile",
-   "note": "A Dai Li / Juntong-affiliated irregular force active in the lower Yangtze during the war; its Hengyang-region commander Zhou Kuilong held the couple (ch21)."
+   "note": "A Dai Li / Juntong-affiliated irregular force active in the lower Yangtze during the war; its Hengyang-region commander Zhou Kuilong held the couple (ch21).",
+   "recommendation": "the Loyal and Patriotic Army",
+   "adjudication": "decided",
+   "why": "Established short form in English scholarship."
   },
   "愚园路": {
    "renderings": {
@@ -1067,7 +1116,10 @@
    },
    "category": "organizations",
    "status": "reconcile",
-   "note": "The Communist Party&#8217;s newspaper in the Nationalist areas."
+   "note": "The Communist Party&#8217;s newspaper in the Nationalist areas.",
+   "recommendation": "the Xinhua Daily",
+   "adjudication": "style",
+   "why": "Standard form; a 1940s-voiced memoir may keep 'the New China Daily' as a recorded period deviation."
   },
   "方志敏": {
    "renderings": {
@@ -1169,7 +1221,9 @@
    },
    "category": "terms",
    "status": "reconcile",
-   "note": "Literally a substitute-death ghost."
+   "note": "Literally a substitute-death ghost.",
+   "adjudication": "context",
+   "why": "CONTEXT: idiom; render for effect per passage."
   },
   "望龙门": {
    "renderings": {
@@ -1278,7 +1332,10 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "Landmark on the road out to Longhua."
+   "note": "Landmark on the road out to Longhua.",
+   "recommendation": "Fenglin Bridge",
+   "adjudication": "decided",
+   "why": "A proper place name; translating the elements ('Maple Grove') loses the referent."
   },
   "标金": {
    "renderings": {
@@ -1302,7 +1359,10 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "Period English form."
+   "note": "Period English form.",
+   "recommendation": "Guilin",
+   "adjudication": "style",
+   "why": "Modern pinyin default; 'Kweilin' period deviation, recorded."
   },
   "梅花山": {
    "renderings": {
@@ -1326,7 +1386,10 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "A hill west of Chongqing; site of Xu Shiying's birthday banquet (ch20)."
+   "note": "A hill west of Chongqing; site of Xu Shiying's birthday banquet (ch20).",
+   "recommendation": "Geleshan",
+   "adjudication": "style",
+   "why": "Romanized place name; 'Gele Mountain' acceptable descriptive form. Pick per book."
   },
   "武昌": {
    "renderings": {
@@ -1371,7 +1434,10 @@
    },
    "category": "organizations",
    "status": "reconcile",
-   "note": "Wing On Co., opened on Nanjing Road in 1918 facing Sincere; another of the 'four great' Shanghai department stores. ch05."
+   "note": "Wing On Co., opened on Nanjing Road in 1918 facing Sincere; another of the 'four great' Shanghai department stores. ch05.",
+   "recommendation": "Wing On",
+   "adjudication": "decided",
+   "why": "The company's own English trade name; 'the Wing On Company' as a long first-mention form is fine."
   },
   "汉口": {
    "renderings": {
@@ -1529,7 +1595,10 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "Real. Avenue Haig (after Field Marshal Douglas Haig); today Huashan Road (华山路)."
+   "note": "Real. Avenue Haig (after Field Marshal Douglas Haig); today Huashan Road (华山路).",
+   "recommendation": "Avenue Haig",
+   "adjudication": "decided",
+   "why": "Concession-era official name."
   },
   "湖南": {
    "renderings": {
@@ -1552,7 +1621,9 @@
    },
    "category": "terms",
    "status": "reconcile",
-   "note": "pole-slung carrying chair"
+   "note": "pole-slung carrying chair",
+   "adjudication": "context",
+   "why": "CONTEXT: 'huagan' romanized-with-gloss vs 'mountain chair' descriptive; both defensible, pick per book."
   },
   "牯岭": {
    "renderings": {
@@ -1657,7 +1728,9 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "The household of the Fifth Concubine of the Bai family (白府五姨太), the concubine's sworn sister and protector; also rendered the House of Bai."
+   "note": "The household of the Fifth Concubine of the Bai family (白府五姨太), the concubine's sworn sister and protector; also rendered the House of Bai.",
+   "adjudication": "context",
+   "why": "CONTEXT: in juntong 白公馆 is Baigongguan, the Geleshan prison (keep romanized); in midnight it is a private residence. The same characters name different things; no unification wanted."
   },
   "白区": {
    "renderings": {
@@ -1670,7 +1743,9 @@
    },
    "category": "terms",
    "status": "reconcile",
-   "note": "Kuomintang-controlled territory, as opposed to the Red (soviet) areas; the author&#8217;s underground post was in the Shanghai white area."
+   "note": "Kuomintang-controlled territory, as opposed to the Red (soviet) areas; the author&#8217;s underground post was in the Shanghai white area.",
+   "adjudication": "style",
+   "why": "Differences are article/phrasing-level or register-driven; pick the fuller attested form for a new book and record any deliberate deviation in that book's glossary."
   },
   "百乐门": {
    "renderings": {
@@ -1716,7 +1791,10 @@
    },
    "category": "organizations",
    "status": "reconcile",
-   "note": "老闸捕房; the Louza (老闸) police station of the International Settlement, the very station whose men fired the shots of 30 May 1925."
+   "note": "老闸捕房; the Louza (老闸) police station of the International Settlement, the very station whose men fired the shots of 30 May 1925.",
+   "recommendation": "the Louza police station",
+   "adjudication": "decided",
+   "why": "The Shanghai Municipal Police's own period name for the station."
   },
   "胡宗南": {
    "renderings": {
@@ -1789,7 +1867,9 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "英国; Britain, named with Japan as America's two rivals in the East."
+   "note": "英国; Britain, named with Japan as America's two rivals in the East.",
+   "adjudication": "context",
+   "why": "CONTEXT: England vs Britain by sentence sense."
   },
   "董必武": {
    "renderings": {
@@ -1869,7 +1949,10 @@
    },
    "category": "people",
    "status": "reconcile",
-   "note": "1900-1972; Whampoa 1st class, Blue Shirt political-warfare leader"
+   "note": "1900-1972; Whampoa 1st class, Blue Shirt political-warfare leader",
+   "recommendation": "He Zhonghan",
+   "adjudication": "decided",
+   "why": "The wang-yaqiao form 'He Zhongyan' is a wrong romanization; the man is He Zhonghan in all scholarship."
   },
   "贺龙": {
    "renderings": {
@@ -1936,7 +2019,10 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "The Nationalist wartime capital (the &#8216;great rear&#8217;)."
+   "note": "The Nationalist wartime capital (the &#8216;great rear&#8217;).",
+   "recommendation": "Chongqing",
+   "adjudication": "style",
+   "why": "Modern pinyin default; 'Chungking' is a legitimate period-voice deviation, recorded."
   },
   "钱庄": {
    "renderings": {
@@ -2150,7 +2236,10 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "The concession-era English name of 静安寺路 (today Nanjing West Road, 南京西路)."
+   "note": "The concession-era English name of 静安寺路 (today Nanjing West Road, 南京西路).",
+   "recommendation": "Bubbling Well Road",
+   "adjudication": "decided",
+   "why": "The road's own concession-era English name; two books already use it."
   },
   "顾祝同": {
    "renderings": {
@@ -2209,7 +2298,10 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "Real. Rue Massenet, after the composer Jules Massenet; today Sinan Road (思南路). The recognition-signal address."
+   "note": "Real. Rue Massenet, after the composer Jules Massenet; today Sinan Road (思南路). The recognition-signal address.",
+   "recommendation": "Route Massenet",
+   "adjudication": "decided",
+   "why": "French-concession streets carried French official names."
   },
   "鲁迅": {
    "renderings": {
@@ -2266,7 +2358,9 @@
    },
    "category": "places",
    "status": "reconcile",
-   "note": "The river through Shanghai; A-Chu’s men dump the kidnappers’ bodies in it."
+   "note": "The river through Shanghai; A-Chu’s men dump the kidnappers’ bodies in it.",
+   "adjudication": "style",
+   "why": "Differences are article/phrasing-level or register-driven; pick the fuller attested form for a new book and record any deliberate deviation in that book's glossary."
   },
   "黄金荣": {
    "renderings": {
