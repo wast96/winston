@@ -38,7 +38,7 @@ META = {
     "author_sort": "Dou, Yingtai",
     "publisher": "Tuanjie Publishing House (团结出版社), Beijing, 2007",
     "isbn": "978-7-80130-758-3",
-    "uid": "urn:uuid:wang-yaqiao-full-book-1",
+    "uid": "urn:uuid:be74aab7-03a8-5ccb-9f41-b54824f7cf6f",  # deterministic UUIDv5; a non-hex tail is an invalid UUID
     "language": "en",
     "date": "2007",
     "description": ("A popular biography of Wang Yaqiao (1889–1936), the "
