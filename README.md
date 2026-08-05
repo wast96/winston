@@ -31,9 +31,9 @@ source.pdf ─render.py─▶ data/png ─ocr_crop.py + ocr_dual.py─▶ data/t
                         └─indents.py─▶ data/indent ─┐
                                                     ▼
                        assemble.py ──▶ data/zh/<id>.txt (one paragraph a line)
-   (translate; crop-verify names/numbers; apply_fixes.py ledger)
+   (translate → out/<id>_reading.md; crop-verify names/numbers; apply_fixes.py)
                                                     ▼
-   out/<id>_en.json ──make_bilingual.py──▶ out/<id>_bilingual.md (QC only)
+   out/<id>_reading.md ─make_bilingual.py─▶ out/<id>_bilingual.md (QC only)
         │                                           │
         └── verify_unit.py (parity+numbers+anchors) ├── check_align.py
             check_register.py --ref                 └── check_content.py
@@ -59,7 +59,7 @@ source.pdf ─render.py─▶ data/png ─ocr_crop.py + ocr_dual.py─▶ data/t
 | `verify_names.py --auto` | Show only the spans the two OCR reads disagree on; crop-verify those. |
 | `crop_lines.py --spec p:term ...` | Stitched line crops for SYSTEMATIC mangles both engines agree on. |
 | `apply_fixes.py` | Replayable ledger of crop-verified readings (`data/ocr_fixes.json`). |
-| `make_bilingual.py <id> ...` | Zip verbatim source lines with `out/<id>_en.json`; refuses on count mismatch. |
+| `make_bilingual.py <id>` | Pair `data/zh/<id>.txt` with the reading file positionally for QC (run parity first). |
 | `split_bilingual.py <bilingual> <id> "<zh title>"` | Split a QC bilingual into reading text + parity source. |
 | `verify_unit.py <id> ...` | **The per-unit gate:** parity + numbers + anchors in one command. |
 | `check_numbers.py <bilingual> --noise data/noise.txt` | Every numeral survives source to target. |

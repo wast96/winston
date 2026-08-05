@@ -155,8 +155,8 @@ revision pass at the end; one evening of reading here replaces it.
 
 Each batch is done end to end and ships all of these together:
 
-1. Clean English translation of the batch: `out/<id>_reading.md` (plus
-   `out/<id>_en.json`, the tracked paragraph array it derives from).
+1. Clean English translation of the batch: `out/<id>_reading.md`, one
+   paragraph per source line (the tracked correction surface).
 2. Footnotes folded into `notes.json` via `scripts/apparatus_merge.py`.
 3. New/changed glossary rows in `glossary.json`; figure specs (with `alt`
    text) in `figures.json`.
@@ -240,10 +240,12 @@ what would not install. Key facts it encodes:
    you must name and look at (build the per-book mangle map as you go). Record
    every crop-verified reading in `data/ocr_fixes.json` via `apply_fixes.py`
    so a fresh checkout can replay them.
-6. Write the English as `out/<id>_en.json` (a flat array, one paragraph per
-   source line) and generate the bilingual QC file with `make_bilingual.py` —
-   the source side is paired in verbatim, never re-typed, and a count mismatch
-   refuses to write. **The bilingual file is QC only and never ships.**
+6. Write the English as `out/<id>_reading.md`, one paragraph per source
+   line (headings as `###`). `make_bilingual.py <id>` then pairs it
+   POSITIONALLY with `data/zh/<id>.txt` for QC — the source side comes from
+   the file verbatim, never re-typed. Pairing is positional, so run parity
+   FIRST; after a mismatch every pair downstream is garbage. **The bilingual
+   file is QC only and never ships.**
 7. `verify_unit.py <id>` — the one-command gate: parity, numbers (with
    `--noise data/noise.txt`), anchors. Run it per unit AS YOU FINISH, not at
    the end: the checks do not get more expensive at the end, the fixes do, and
@@ -528,7 +530,7 @@ corrections batch: rebuild, `qa_epub`, list every file touched, dated entry in
 - Keep `mimetype` first and stored in the EPUB zip (the builder does).
 - Numerals in unit designations (第37军) are load-bearing; always crop-verify.
 - Tracked vs regenerable is DECIDED (see `.gitignore`'s reasons): track
-  `source.pdf`, `out/*_en.json`, `out/*_reading.md`, all ledgers, derived
+  `source.pdf`, `out/*_reading.md`, all ledgers, derived
   geometry (`data/indent/`, `data/pagemap/`, `data/ocr_fixes.json`,
   `data/structure.json`, `data/headings.json`); ignore renders, raw OCR text
   and bilinguals.
@@ -540,8 +542,8 @@ corrections batch: rebuild, `qa_epub`, list every file touched, dated entry in
   glossary and translator's note current, `qa_epub` PASS across the whole
   spine, epubcheck clean if available, back matter if the book has any, and
   the file itself committed.
-- `out/<id>_reading.md` + `out/<id>_en.json` per unit (the correction
-  surface), `out/term_ledger.md`, `out/deep_audit.md`.
+- `out/<id>_reading.md` per unit (the correction surface),
+  `out/term_ledger.md`, `out/deep_audit.md`.
 - `notes.json`, `glossary.json`, `figures.json`, `book.json` current;
   `authority.json` updated with this book's decided renderings.
 - `COMPLETION.md` written from the template, with the sampled error rate and

@@ -45,7 +45,11 @@ def main(cids):
         tmp.close()
         r = subprocess.run([sys.executable,
                             os.path.join(ROOT, 'scripts', 'check_numbers.py'),
-                            tmp.name, '--noise', os.path.join(ROOT, 'noise.txt')],
+                            tmp.name, '--noise',
+                            next((p for p in
+                                  (os.path.join(ROOT, 'data', 'noise.txt'),
+                                   os.path.join(ROOT, 'noise.txt'))
+                                  if os.path.exists(p)), os.devnull)],
                            capture_output=True, text=True)
         tail = r.stdout.strip().splitlines()
         if r.returncode:

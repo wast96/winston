@@ -90,7 +90,7 @@ Do Batch <B01> = <scope>, PDF pages <A-B> (printed folios <a-b>), end to end per
 1. ./setup.sh; batch 1 only: measure the page furniture and configure ocr_crop.py (crop box, --lang, --psm); render; OCR (ocr_crop.py + ocr_dual.py); pgrep -c tesseract must be 0 after.
 2. indents.py + assemble.py for paragraph structure; find_figures.py AND eyeball every page for line art.
 3. Translate to the register contract, consulting glossary.json and authority.json BEFORE romanizing anything. Crop-verify every name, number, and low-confidence span (verify_names.py --auto for disagreements, crop_lines.py for systematic mangles); record verified readings via apply_fixes.py. Never invent bridging text; verify each unit's tail against the scan.
-4. Write out/<id>_en.json, make_bilingual.py, then verify_unit.py per unit AS YOU GO; check_align.py + check_content.py; check_register.py --ref <frozen reference> (from B02 on).
+4. Write out/<id>_reading.md (one paragraph per source line), run make_bilingual.py <id>, then verify_unit.py per unit AS YOU GO; check_align.py + check_content.py; check_register.py --ref <frozen reference> (from B02 on).
 5. Footnotes per the reader model in CLAUDE.md (coverage-driven; grep for first appearances; keep the NOT-re-noted list) via apparatus_merge.py; glossary rows with attestation; figures with alt text.
 6. Rebuild the EPUB, qa_epub.py until green, epubcheck if available; record all check results in PROGRESS.md; commit.
 7. Attach the EPUB in this chat AND paste the next batch's kickoff message verbatim in a fenced block in the same reply (the Stop hook checks).
