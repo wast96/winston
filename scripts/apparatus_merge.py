@@ -94,19 +94,43 @@ def main(path):
 
     if "glossary" in batch:
         g = load("glossary.json", {})
+        # The glossary is SECTIONED (people/organizations/places/terms/...);
+        # the builder renders each top-level section as a heading. A row may
+        # name its section with a "section" key (default "terms"); it is placed
+        # there, and the presence check spans EVERY section so the same zh key
+        # can never be duplicated across two sections (a flat merge once added a
+        # second 戴笠 at top level beside the one under "people", which broke
+        # render_glossary). Sections are created on demand.
+        def existing_keys(gl):
+            seen = {}
+            for sec, entries in gl.items():
+                if sec.startswith("_") or not isinstance(entries, dict):
+                    continue
+                # a sectioned container holds zh->rec; a stray flat rec has "en"
+                if "en" in entries:
+                    seen[sec] = None
+                    continue
+                for k in entries:
+                    seen[k] = sec
+            return seen
+        seen = existing_keys(g)
         added = skipped = 0
         for zh, row in batch["glossary"].items():
-            if zh in g:
+            row = dict(row)
+            section = row.pop("section", "terms")
+            if zh in seen:
                 skipped += 1
             else:
-                g[zh] = row
+                g.setdefault(section, {})[zh] = row
+                seen[zh] = section
                 added += 1
         back = save("glossary.json", g)
-        for zh, row in batch["glossary"].items():
-            if zh not in back:
+        back_seen = existing_keys(back)
+        for zh in batch["glossary"]:
+            if zh not in back_seen:
                 sys.exit("re-read verification failed for glossary %s" % zh)
         print("glossary: %d added, %d already present (left untouched), "
-              "%d total" % (added, skipped, len(g)))
+              "%d total" % (added, skipped, len(back_seen)))
 
     if "notes" in batch:
         n = load("notes.json", {})

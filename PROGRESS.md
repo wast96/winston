@@ -59,4 +59,54 @@ Society (恒社), Ren Society (仁社), the gangs (帮会).
 
 ## Batches
 
-- B01–B10: see `book.json` `batches`. Not started.
+- **B01 DONE (ch01–ch04, printed 1–28)** — pending the voice-gate approval.
+  - Units: ch01 Editorial Note (5 paras), ch02 Preface / Wei Jianyou (8), ch03
+    Zhu Xuefan, "A Few Notes on the Shanghai Workers' Movement and the Gangs"
+    (42, three parts + five subsections), ch04 Wu Chengfang, "Fragmentary
+    Materials..." (18).
+  - Notes: 43 (ch01 2, ch02 6, ch03 19, ch04 16). Continuous book-wide numbering
+    by the builder. Glossary: 33 rows (people 24, orgs 8, terms 1).
+  - Checks all green: parity 5/8/42/18 = OK; check_numbers 0 unresolved (see the
+    noise + digit notes below); check_apparatus 0/0; qc_entities 0 misses;
+    check_align OK (ch02's short "April 1986" dateline is the one expected
+    short-pair flag); check_content OK; qa_epub PASS (43 ref/body/backlink);
+    epubcheck 0/0.
+  - **Register:** ch03/ch04 are expository memoir with almost no dialogue
+    (0.0 contractions/1k), so the dialogue-contraction metric is not meaningful
+    yet. The dialogue-register REFERENCE should be set from the first
+    dialogue-heavy chapter (a Huang Jinrong / Du Yuesheng memoir, B04+), not
+    from B01. Noted so drift-checking measures against a real dialogue baseline.
+  - **Paragraph structure:** built by hand from the OCR + scan, because this
+    scan defeats the geometric indent detector (see Setup). zh source files in
+    data/zh are reconstructed clean (numbers verified) and segmented to match
+    the English 1:1.
+  - **Number-check accounting:** event/movement date-names (八一三 一二八 一二九
+    四一二 五卅 七七), the pricing idiom 八折, decade labels, and numeral-bearing
+    proper names (李立三 万邦和 王懂百 九江路 万里浪 王震百) are in data/noise.txt.
+    Genuine large quantities are written as digits in the English so the check
+    can verify them.
+  - **Tail-verified** (rule 4 corollary): ch04's true last line is "…很有帮助的。"
+    — strip_folio had eaten the one-character line "的。" as if it were a folio;
+    restored. Watch short one-glyph closing lines each batch.
+
+## Tooling patches this project (do NOT revert)
+
+- `ocr_crop.py`: added `folio_present()` (was referenced by indents.py but never
+  defined — crashed every book). Geometric folio test; kept in lock-step with
+  `indents.line_starts`.
+- `indents.py`: documented that geometric indent detection is bypassed on this
+  scan (speckle + tight lines break band↔OCR-line alignment); assembly uses the
+  blank/short-line fallback.
+- `check_numbers.py`: added 〇 (ideographic zero, U+3007) to CN_DIGIT and the
+  extraction class, so years like 一九四〇 read as 1940; guarded the built-in
+  `一一` ("one by one") rule with a lookahead so it no longer eats the head of a
+  compound like 一一七 (117 → orphan 7).
+- `apparatus_merge.py`: made the glossary merge SECTION-aware (rows carry an
+  optional `section`, default `terms`; dup-check spans all sections). It had
+  merged rows flat at the top level, which broke render_glossary and duplicated
+  戴笠.
+- `check_content.py`: skip `_`-prefixed / non-dict glossary keys in name_map
+  (it crashed on the `_about` string).
+- **Measured OCR crop** (this book): `--left 0.06 --right 0.91 --top 0.09
+  --bottom 0.89 --lang chi_sim --psm 6`. Folio at the foot centre (`• N •`),
+  cropped out. No running head.

@@ -35,3 +35,29 @@
 # 九龍
 # weekdays carry no quantity — rendered "Monday" etc.
 # 星期[一二三四五六]
+#
+# --- The Gangs of Old Shanghai ---
+# Republican-era event/movement names built from a date; proper nouns, not
+# quantities. Rendered by name (e.g. "the August Thirteenth resistance",
+# "the December Ninth student movement", "the April 12 coup").
+八一三
+一二八
+一二九
+四一二
+五卅
+七七
+# 八折 — a pricing idiom, "eight-tenths" = 80% (pay at 80%). Rendered "eighty
+# percent"; the bare 八 is not a separate quantity.
+八折
+# decade labels — rendered "the 1920s"/"the 1930s", not the count 20/30.
+三十年代
+二十年代
+# personal names / place names carrying a numeral glyph (romanized in English,
+# so the digit is not a quantity). Longest literal first.
+李立三
+万邦和
+王懂百
+九江路
+万里浪
+立三
+王震百

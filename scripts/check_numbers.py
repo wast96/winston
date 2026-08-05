@@ -31,7 +31,7 @@ Usage: check_numbers.py out/ch03_bilingual.md [--noise noise.txt]
 import re
 import sys
 
-CN_DIGIT = {"零": 0, "一": 1, "二": 2, "两": 2, "兩": 2, "三": 3, "四": 4,
+CN_DIGIT = {"零": 0, "〇": 0, "一": 1, "二": 2, "两": 2, "兩": 2, "三": 3, "四": 4,
             "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
 WORD_NUM = {
     "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
@@ -116,7 +116,7 @@ NOISE = [
     # bare 一 as adverb/idiom fragment: 一[direction/time/manner], not the count
     r"一[舉举動动身面言語语氣气日夜時时刻步分寸點点]", r"兩[頭头端邊边面全難难]",
     r"三[番兩两]", r"四[面方處处海座周]", r"九[鼎]", r"八[面方]",
-    r"一一",                                        # 一一 "one by one"
+    r"一一(?![零〇一二两兩三四五六七八九十百千万萬億])",  # 一一 "one by one" -- but NOT the head of a compound like 一一七 (117)
 ]
 
 # Any noise pattern that could fire INSIDE a larger compound number gets a
@@ -125,7 +125,7 @@ NOISE = [
 # 十一点. Applied automatically to every pattern that begins with a Chinese
 # numeral or with a character class containing one. This one guard killed the
 # recurring "orphaned digit" false-positive class across nine books.
-_CN_NUM_CLASS = "零一二两兩三四五六七八九十百千万萬億"
+_CN_NUM_CLASS = "零〇一二两兩三四五六七八九十百千万萬億"
 _GUARD = "(?<![" + _CN_NUM_CLASS + "])"
 
 
@@ -199,7 +199,7 @@ def source_numbers(text, extra_noise=()):
     for pat in list(extra_noise) + list(NOISE):
         stripped = re.sub(_guard(pat), "", stripped)
     nums = set(int(n) for n in re.findall(r"\d+", stripped))
-    for tok in re.findall(r"[零一二两兩三四五六七八九十百千万萬億]+", stripped):
+    for tok in re.findall(r"[零〇一二两兩三四五六七八九十百千万萬億]+", stripped):
         val = cn_to_int(tok)
         # A bare 一 is nearly always a measure word, not a quantity.
         if val is not None and not (val == 1 and tok == "一"):

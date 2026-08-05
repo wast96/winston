@@ -3,68 +3,223 @@
   "book": {},
   "people": {
     "杜月笙": {
-      "en": "Du Yuesheng", "pinyin": "Du Yuesheng", "status": "attested",
-      "principal": true, "cast_order": 1,
+      "en": "Du Yuesheng",
+      "pinyin": "Du Yuesheng",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 1,
       "cast": "1888&#8211;1951; the foremost of Shanghai's &#8216;three big bosses,&#8217; a Green Gang chief who rose from a fruit-stall boy to a power broker between the underworld, the concessions and the Nationalist state. The subject of seven articles here.",
       "note": "1888&#8211;1951. Foremost of the Shanghai Green Gang &#8216;three tycoons.&#8217; Pinyin form standard across the collection."
     },
     "黄金荣": {
-      "en": "Huang Jinrong", "pinyin": "Huang Jinrong", "status": "attested",
-      "principal": true, "cast_order": 2,
+      "en": "Huang Jinrong",
+      "pinyin": "Huang Jinrong",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 2,
       "cast": "1868&#8211;1953; the senior of the three bosses, and the only Chinese chief detective of the French Concession police. Three articles here.",
       "note": "Green Gang boss and the sole Chinese chief inspector of the French Concession detective squad; Chiang Kai-shek was once nominally his disciple."
     },
     "张啸林": {
-      "en": "Zhang Xiaolin", "pinyin": "Zhang Xiaolin", "status": "attested",
-      "principal": true, "cast_order": 3,
+      "en": "Zhang Xiaolin",
+      "pinyin": "Zhang Xiaolin",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 3,
       "cast": "1877&#8211;1940; the third of the three bosses, a Hangzhou-born strongman; later a collaborator with the Japanese, assassinated in 1940.",
       "note": "One of the &#8216;three big bosses&#8217; of the Shanghai gangs, with Huang Jinrong and Du Yuesheng."
     },
     "顾竹轩": {
-      "en": "Gu Zhuxuan", "pinyin": "Gu Zhuxuan", "status": "provisional",
-      "principal": true, "cast_order": 4,
+      "en": "Gu Zhuxuan",
+      "pinyin": "Gu Zhuxuan",
+      "status": "provisional",
+      "principal": true,
+      "cast_order": 4,
       "cast": "b. 1885; Green Gang boss of the Zhabei district, rickshaw-fleet magnate and owner of the Tianchan Stage; sheltered Communist underground workers.",
       "note": "Jiangsu-born gang figure who dominated Zhabei; two articles here treat his rise and his cover for revolutionary work."
     },
     "张仁奎": {
-      "en": "Zhang Renkui", "pinyin": "Zhang Renkui", "status": "provisional",
-      "principal": true, "cast_order": 5,
+      "en": "Zhang Renkui",
+      "pinyin": "Zhang Renkui",
+      "status": "provisional",
+      "principal": true,
+      "cast_order": 5,
       "cast": "1865&#8211;1944; a senior Green Gang master of the &#8216;Big&#8217; (Da) generation whose disciples filled Shanghai; founder of the Ren Society.",
       "note": "Elder Green Gang figure; Du Yuesheng and many others were ranked below his generation."
     },
     "戴笠": {
-      "en": "Dai Li", "pinyin": "Dai Li", "status": "attested",
-      "principal": true, "cast_order": 6,
+      "en": "Dai Li",
+      "pinyin": "Dai Li",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 6,
       "cast": "1897&#8211;1946; head of the Nationalists' secret service (the Juntong); Du Yuesheng's wartime partner.",
       "note": "Head of the Nationalists' Bureau of Investigation and Statistics (军统/Juntong), the KMT secret police."
+    },
+    "朱学范": {
+      "en": "Zhu Xuefan",
+      "pinyin": "Zhu Xuefan",
+      "status": "attested",
+      "note": "1905&#8211;1996; postal-workers&#8217; leader who rose through the Green Gang and the Nationalist labour apparatus, broke with the Kuomintang in 1948, and became a minister and vice-chairman of the NPC Standing Committee in the People&#8217;s Republic. Author of this article and calligrapher of the book&#8217;s title."
+    },
+    "陆京士": {
+      "en": "Lu Jingshi",
+      "pinyin": "Lu Jingshi",
+      "status": "provisional",
+      "note": "d. 1975; Du Yuesheng&#8217;s foremost disciple in the labour world, boss of the postal union and a Nationalist party and Garrison Command official; the author&#8217;s colleague and rival. Followed the Kuomintang to Taiwan."
+    },
+    "李立三": {
+      "en": "Li Lisan",
+      "pinyin": "Li Lisan",
+      "status": "attested",
+      "note": "1899&#8211;1967; early Communist labour organizer, a leader of the May Thirtieth Movement and briefly the Party&#8217;s top leader (the &#8216;Li Lisan line,&#8217; 1930)."
+    },
+    "杨度": {
+      "en": "Yang Du",
+      "pinyin": "Yang Du",
+      "status": "attested",
+      "note": "1875&#8211;1931; classical scholar who championed constitutional monarchy under Yuan Shikai, then reinvented himself&#8212;joining the Communist Party in secret in 1929 while serving as an adviser to Du Yuesheng. His CCP membership was made public only in 1975."
+    },
+    "李大钊": {
+      "en": "Li Dazhao",
+      "pinyin": "Li Dazhao",
+      "status": "attested",
+      "note": "1889&#8211;1927; co-founder of the Chinese Communist Party. Seized from the Soviet embassy in Beijing and hanged on Zhang Zuolin&#8217;s orders in April 1927."
+    },
+    "赵朴初": {
+      "en": "Zhao Puchu",
+      "pinyin": "Zhao Puchu",
+      "status": "attested",
+      "note": "1907&#8211;2000; Buddhist lay leader, poet, and relief organizer; secretly aided the Communist underground through Shanghai&#8217;s charitable and refugee bodies in the war years, and later headed the Buddhist Association of China."
+    },
+    "闻兰亭": {
+      "en": "Wen Lanting",
+      "pinyin": "Wen Lanting",
+      "status": "provisional",
+      "note": "Green Gang figure prominent in Shanghai commercial and charitable circles; used by the underground through the wartime relief committees, later pressed into a puppet commercial-control post."
+    },
+    "关炯之": {
+      "en": "Guan Jiongzhi",
+      "pinyin": "Guan Jiongzhi",
+      "status": "provisional"
+    },
+    "向海潜": {
+      "en": "Xiang Haiqian",
+      "pinyin": "Xiang Haiqian",
+      "status": "attested",
+      "note": "1888&#8211;1974; also called Xiang Songpo; a leader of the Hongmen (the &#8216;Five Lakes&#8217; lodges) and a veteran of the 1911 Revolution."
+    },
+    "张克昌": {
+      "en": "Zhang Kechang",
+      "pinyin": "Zhang Kechang",
+      "status": "provisional",
+      "note": "Postal-union gangster and the author&#8217;s fellow disciple under Du Yuesheng; founder of the Chang Society (<span lang=\"zh-Hans\">&#30021;&#31038;</span>), who went over to the puppet Wang Jingwei regime as a deputy minister."
+    },
+    "金廷荪": {
+      "en": "Jin Tingsu",
+      "pinyin": "Jin Tingsu",
+      "status": "provisional",
+      "note": "Green Gang figure and Du Yuesheng associate; patron of the Ming Society (<span lang=\"zh-Hans\">&#38125;&#31038;</span>), one of the disciple-societies modelled on Du&#8217;s Heng Society."
+    },
+    "章士钊": {
+      "en": "Zhang Shizhao",
+      "pinyin": "Zhang Shizhao",
+      "status": "attested",
+      "note": "1881&#8211;1973; scholar, lawyer, and sometime Beiyang education minister who named Du Yuesheng&#8217;s Heng Society; later a noted public figure in the People&#8217;s Republic."
+    },
+    "汪精卫": {
+      "en": "Wang Jingwei",
+      "pinyin": "Wang Jingwei",
+      "status": "attested",
+      "note": "1883&#8211;1944; senior Nationalist leader who in 1938 defected to Japan and headed the collaborationist &#8216;reorganized&#8217; government at Nanjing; his name is a byword in these pages for the puppet regime."
+    },
+    "吴铁城": {
+      "en": "Wu Tiecheng",
+      "pinyin": "Wu Tiecheng",
+      "status": "attested",
+      "note": "1888&#8211;1953; mayor of Shanghai 1932&#8211;37."
+    },
+    "吴成方": {
+      "en": "Wu Chengfang",
+      "pinyin": "Wu Chengfang",
+      "status": "provisional",
+      "note": "Author of this article; a Communist underground organizer who ran united-front work with gang and secret-society figures in Beijing and Shanghai from the 1920s to the 1940s."
+    },
+    "胡鄂公": {
+      "en": "Hu Egong",
+      "pinyin": "Hu Egong",
+      "status": "provisional",
+      "note": "1884&#8211;1951; also known as Hu Nanhu; a 1911 revolutionary and Beiyang official who joined the Communist Party in the 1920s and worked the united front among old revolutionaries and gang figures."
+    },
+    "翁文灏": {
+      "en": "Weng Wenhao",
+      "pinyin": "Weng Wenhao",
+      "status": "attested",
+      "note": "1889&#8211;1971; geologist and Nationalist official, acting president of Tsinghua University in 1931 and later premier; returned to the mainland in 1951."
+    },
+    "冯玉祥": {
+      "en": "Feng Yuxiang",
+      "pinyin": "Feng Yuxiang",
+      "status": "attested",
+      "note": "1882&#8211;1948; the &#8216;Christian general,&#8217; a warlord who at times allied with the Nationalists, the Soviets, and the left; organized the short-lived Chahar People&#8217;s Anti-Japanese Allied Army in 1933."
     }
   },
   "organizations": {
     "青帮": {
-      "en": "the Green Gang", "pinyin": "Qingbang", "status": "attested",
+      "en": "the Green Gang",
+      "pinyin": "Qingbang",
+      "status": "attested",
       "note": "青帮; the great secret-society brotherhood of the lower Yangtze and Shanghai. Rendered &#8216;Green Gang&#8217; across the collection."
     },
     "洪门": {
-      "en": "the Hongmen", "pinyin": "Hongmen", "status": "attested",
+      "en": "the Hongmen",
+      "pinyin": "Hongmen",
+      "status": "attested",
       "note": "洪门; the sworn-brotherhood secret society of south China (the &#8216;Red Gang,&#8217; 洪帮). Kept as Hongmen across the collection."
     },
     "恒社": {
-      "en": "the Heng Society", "pinyin": "Hengshe", "status": "provisional",
+      "en": "the Heng Society",
+      "pinyin": "Hengshe",
+      "status": "provisional",
       "note": "恒社; Du Yuesheng's mutual-aid society, founded 1932, through which he organized his following. Its charter and 1934 member roll are the book's appendices."
     },
     "仁社": {
-      "en": "the Ren Society", "pinyin": "Renshe", "status": "provisional",
+      "en": "the Ren Society",
+      "pinyin": "Renshe",
+      "status": "provisional",
       "note": "仁社; the society founded around the elder gang master Zhang Renkui, a counterpart to Du Yuesheng's Heng Society."
     },
     "军统": {
-      "en": "the Juntong", "pinyin": "Juntong", "status": "decided",
+      "en": "the Juntong",
+      "pinyin": "Juntong",
+      "status": "decided",
       "note": "军统; the Nationalists' Bureau of Investigation and Statistics (secret service). Cross-shelf rendering is unsettled (Military Statistics Bureau / the Juntong); this book's rendering is decided at the batch that translates ch21 and reconciled into authority.json then."
+    },
+    "毅社": {
+      "en": "the Yi Society",
+      "pinyin": "Yishe",
+      "status": "provisional",
+      "note": "<span lang=\"zh-Hans\">&#27589;&#31038;</span>; the disciple-society the author founded in 1934&#8211;36 among Shanghai unionists, modelled on Du Yuesheng&#8217;s Heng Society; its emblem punned on the author&#8217;s name, Zhu Xuefan."
+    },
+    "畅社": {
+      "en": "the Chang Society",
+      "pinyin": "Changshe",
+      "status": "provisional",
+      "note": "<span lang=\"zh-Hans\">&#30021;&#31038;</span>; the rival postal disciple-society founded by Zhang Kechang."
+    },
+    "别动队": {
+      "en": "the Special Operations Corps",
+      "pinyin": "biedongdui",
+      "status": "decided",
+      "note": "<span lang=\"zh-Hans\">&#21035;&#21160;&#38431;</span>; the irregular units raised from Green Gang and Hongmen men during the 1937 Battle of Shanghai, armed and run in connection with Dai Li&#8217;s secret service."
     }
   },
   "places": {},
   "terms": {
     "帮会": {
-      "en": "the gangs", "pinyin": "banghui", "status": "decided",
+      "en": "the gangs",
+      "pinyin": "banghui",
+      "status": "decided",
       "note": "帮会; the secret-society brotherhoods (青帮 and 洪门) collectively &#8212; the book's subject. Rendered &#8216;the gangs&#8217; or &#8216;the secret-society gangs&#8217; as context needs; the title's 帮会 is &#8216;Gangs.&#8217;"
     }
   }
