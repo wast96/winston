@@ -224,11 +224,10 @@ Once per book, bounded:
 10. **Scholarship consistency** — verdicts IN the notes (corroborated /
     uncorroborated / contradicted); contradicted claims stay faithful and
     footnoted.
-11. **Whole-book reconciliation** (final batch) — grep-count ~20 decided
-    renderings; repeated source epithets (3+ occurrences) with >1 English
-    rendering; every glossary form used, no known wrong form surviving
-    (variants: wrong forms ONLY); one spelling locale; notes at first
-    appearance.
+11. **Whole-book reconciliation** (final batch) — `check_reconcile.py`
+    (repeated-compound rendering drift, candidates for a human read;
+    glossary-forward usage; spelling locale by curated pairs), plus by hand:
+    grep-count ~20 decided renderings; notes at first appearance.
 
 ## Footnotes — what earns one (be generous; never invent)
 
