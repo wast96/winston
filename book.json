@@ -1,6 +1,9 @@
 {
   "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. For an EPUB source, author it from book.draft.json (produced by scripts/ingest_epub.py) — refine the titles, add English titles, and MERGE or SPLIT units where the source EPUB's file boundaries do not match its logical chapters. Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists.",
 
+  "deliverable": "out/book.epub",
+  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this; never rely on the default.",
+
   "title_en": "English Title of the Book",
   "title_zh": "中文書名",
   "author_en": "Author Name (pinyin)",
@@ -10,6 +13,8 @@
 
   "_source_note": "The source is a digital EPUB with reliable text (no OCR). Record its title/edition and anything notable (missing chapters, embedded notes, image-heavy sections) here.",
   "source_epub": "source.epub",
+
+  "_metadata_note": "Optional richer metadata, all read by the builder: subtitle_en; title_file_as / author_file_as (library sort keys; default to the display forms); translator_en; publication_date (ISO, else year-01-01); rights; source_ref (a dc:source line naming the source edition); subjects (a JSON list; legacy singular 'subject' still honored); series + series_index (calibre metas and the EPUB3 collection); language (default 'en'); source_language (BCP-47, e.g. 'zh'); source_script (lang tag for source-script spans, e.g. 'zh-Hant' or 'zh-Hans'; default 'zh'); cover_image (a file under the project or data/ dirs, copied byte-identical); modified (deterministic dcterms:modified stamp, default 2026-01-01T00:00:00Z -- rebuilds are byte-identical); deliverable (output path used when the builder/qa get no argv); uid (kept verbatim unless it is a malformed urn:uuid, which is replaced by a deterministic UUIDv5 of title_en). The source book's own notes go in source_notes.json, a second stream kept separate from the translator's notes.json.",
 
   "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212;, &#160;), never named entities. If omitted, a generic method note is generated.",
   "translator_note": [

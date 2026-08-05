@@ -16,31 +16,60 @@ Footnote numbering is CONTINUOUS across the translated chapters (notes.json is
 keyed by chapter id). The builder REFUSES to build if any note anchor fails to
 match its prose (a silent-skip builder once lost twelve notes on a real
 project). Note anchors are inserted BEFORE the italic markup substitution, or
-the substitution would eat them.
+the substitution would eat them. The same refuse-don't-skip contract covers
+source notes and figures: an unmatched 'before' anchor once silently dropped an
+image, so that too is a build failure now.
+
+TWO note streams, never conflated:
+  notes.json         the translator's notes; numbered by the builder's running
+                     count, red superscript, backlinked from the Notes page.
+  source_notes.json  the SOURCE book's own author/editor notes; each entry
+                     carries "n", the author's OWN number, rendered as a
+                     bracketed marker in a distinct colour (teal) and gathered
+                     under "Notes in the Original Edition" on the Notes page.
 
 Reading markdown per chapter uses: '## ' chapter title (h1), '### ' section
 (h2, given the section's book.json id), '#### ' subsection (h3); every other
-non-blank line is a paragraph.
+non-blank line is a paragraph, except for the set-off markers:
+
+  ***    on its own line: a scene break, rendered as a spaced-asterisk
+         divider; not a paragraph for parity.
+  {v}    line prefix: a chapter-opening vignette -- italic, set off.
+  {d}    line prefix: a dateline/place line -- centered small caps.
+  {g}    line prefix: the source's own gloss block at chapter end.
+  {p}    line prefix: verse -- indented, no first-line indent.
 
 Optional back matter (a colophon) is rendered when back_matter.json supplies one;
 translator's note text can be supplied via book.json's "translator_note" field.
 See the template's data files for the shapes.
 
+A cover is emitted when book.json names a "cover_image": copied byte-identical
+(a cover is chrome, not a figure, so it is never greyscaled or re-encoded).
+
 Usage: build_reading_epub.py [out/book.epub]
+With no argument the deliverable name is read from book.json's "deliverable"
+(so builder, QA and hooks agree on it); the out/book.epub default once let a
+real project build the default name and ship a stale deliverable.
 """
-import datetime
 import html
 import json
 import os
 import re
 import shutil
 import sys
+import uuid
 import zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIGS = os.path.join(ROOT, "data", "figs")
 PNG = os.path.join(ROOT, "data", "png")
 BUILD = os.path.join(ROOT, "build")
+
+# The source language tag used on lang= attributes for source-script spans
+# (title page, glossary, colophon). Set from book.json's "source_script"
+# (e.g. "zh-Hant", "zh-Hans"); a hardcoded script tag on a
+# simplified-character book (or vice versa) mislabels every span.
+SRC_LANG = "zh"
 
 CSS = """\
 body { font-family: serif; line-height: 1.6; margin: 1em 1.2em; }
@@ -50,6 +79,11 @@ h3 { font-size: 1.02em; margin: 1.4em 0 0.5em; font-weight: bold; color: #444; }
 p { margin: 0 0 0.85em; text-indent: 1.4em; }
 p.first, p.note { text-indent: 0; }
 p.note { font-size: 0.92em; color: #444; }
+p.scenebreak { text-indent: 0; text-align: center; margin: 1.5em 0; color: #777; }
+p.vignette { text-indent: 0; font-style: italic; color: #444; margin: 0 1.6em 0.85em; }
+p.dateline { text-indent: 0; text-align: center; font-variant: small-caps; letter-spacing: 0.06em; margin: 1.2em 0 0.3em; }
+p.hourgloss { text-indent: 0; font-size: 0.9em; color: #444; margin: 2.4em 0 0; padding-top: 0.9em; border-top: 1px solid #bbb; }
+p.verse { text-indent: 0; font-style: italic; margin: 0.2em 2.2em 0.85em; }
 figure { margin: 1.6em auto; text-align: center; page-break-inside: avoid; }
 figure img { max-width: 70%; }
 figcaption { font-size: 0.85em; color: #444; margin-top: 0.5em; }
@@ -57,12 +91,19 @@ dl.gloss dt { font-weight: bold; margin-top: 0.7em; }
 dl.gloss dd { margin: 0 0 0 1.2em; }
 a.noteref { text-decoration: none; }
 a.noteref sup { font-size: 0.72em; color: #7a1f1f; padding-left: 1px; }
+a.snoteref { text-decoration: none; }
+a.snoteref sup { font-size: 0.72em; color: #1f5f7a; padding-left: 1px; }
 div.endnote { margin: 0 0 1.05em; }
 div.endnote p { text-indent: 0; font-size: 0.94em; }
+div.snote { margin: 0 0 1.05em; }
+div.snote p { text-indent: 0; font-size: 0.94em; }
 a.backref { text-decoration: none; font-weight: bold; color: #7a1f1f; }
+a.sbackref { text-decoration: none; font-weight: bold; color: #1f5f7a; }
+h3.srcnotes { margin-top: 2.4em; font-style: italic; font-weight: normal; color: #1f5f7a; }
 .tp { text-align: center; margin-top: 3em; }
 .tp h1 { font-size: 1.7em; }
 .tp p { text-indent: 0; }
+.tp p.subtitle { font-size: 1.1em; color: #444; }
 h3.notechap { margin-top: 2em; font-style: italic; font-weight: normal; }
 ol.contents { list-style: none; padding-left: 0; }
 ol.contents li { margin: 0.15em 0; }
@@ -76,6 +117,8 @@ span.span { color: #888; font-size: 0.85em; }
 ol.contents ol.secs { padding-left: 1.4em; }
 nav#toc ol ol { list-style: none; padding-left: 1.3em; }
 nav#toc ol ol li { font-size: 0.95em; }
+div.coverpage { margin: 0; padding: 0; text-align: center; }
+div.coverpage img { max-width: 100%; max-height: 100%; height: auto; }
 .colophon { text-align: center; margin-top: 2em; }
 .colophon .notice { border: 2px solid #444; display: inline-block; padding: 0.4em 1.6em; margin: 1em 0; font-size: 1.3em; letter-spacing: 0.3em; }
 .colophon p { text-indent: 0; }
@@ -94,8 +137,20 @@ XHTML = """<?xml version="1.0" encoding="utf-8"?>
 
 MAX_FIG_WIDTH = 1100
 
+# Declared media type follows the file EXTENSION for every image, cover and
+# figure alike: a JPEG declared as image/png is an epubcheck error, and a
+# builder that hardcoded image/png once shipped exactly that.
+MIME = {".jpg": "image/jpeg", ".jpeg": "image/jpeg",
+        ".png": "image/png", ".gif": "image/gif"}
+
+
+def mime_of(filename):
+    return MIME.get(os.path.splitext(filename)[1].lower(), "image/png")
+
 
 def shrink_image(src, dest):
+    """Downsample an interior FIGURE for the reading edition (covers never come
+    through here -- a cover is chrome and is copied byte-identical)."""
     try:
         from PIL import Image
     except ImportError:
@@ -117,6 +172,20 @@ def load_json(name, default):
     if not os.path.exists(path):
         return default
     return json.load(open(path))
+
+
+def _insert_after_punct(paragraph, anchor, ref):
+    """Insert a marker after the anchor, skipping past any closing punctuation
+    right after it (convention: superscript after the period/comma/quote) --
+    but an apostrophe followed by a letter is a possessive, not punctuation."""
+    pos = paragraph.find(anchor)
+    j = pos + len(anchor)
+    while j < len(paragraph) and paragraph[j] in ".,;:!?)…”’]\"'":
+        if paragraph[j] in "’'" and j + 1 < len(paragraph) \
+           and paragraph[j + 1].isalpha():
+            break
+        j += 1
+    return paragraph[:j] + ref + paragraph[j:]
 
 
 def insert_notes(paragraph, notes, counter, doc):
@@ -141,7 +210,38 @@ def insert_notes(paragraph, notes, counter, doc):
         ref = ('<a class="noteref" epub:type="noteref" id="ref%d" '
                'href="notes.xhtml#note%d"><sup>%d</sup></a>'
                % (note["n"], note["n"], note["n"]))
-        paragraph = paragraph.replace(note["anchor"], note["anchor"] + ref, 1)
+        paragraph = _insert_after_punct(paragraph, note["anchor"], ref)
+    return paragraph
+
+
+def insert_source_notes(paragraph, snotes, doc):
+    """Attach the source's OWN note marker after its anchor phrase.
+
+    These are the author's/editor's notes carried by the original edition, kept
+    a separate stream from the translator's footnotes so the two are never
+    confused: their reference is a bracketed number in a distinct colour, and it
+    PRESERVES the author's own numbering (each entry's "n" in
+    source_notes.json) rather than the builder's running count. They resolve to
+    the "Notes in the Original Edition" section of the notes page. Like
+    insert_notes, matching happens on the escaped text before markup
+    substitution, and the marker follows the same after-punctuation placement.
+    The sref/snote id namespaces are disjoint from ref/note, so qa_epub's
+    translator-note regexes never count them.
+    """
+    hits = []
+    for note in snotes:
+        if note.get("used"):
+            continue
+        pos = paragraph.find(note["anchor"])
+        if pos >= 0:
+            hits.append((pos + len(note["anchor"]), note))
+    for _, note in sorted(hits, key=lambda h: h[0]):
+        note["used"] = True
+        note["doc"] = doc
+        n = int(note["n"])
+        ref = ('<a class="snoteref" epub:type="noteref" id="sref%d" '
+               'href="notes.xhtml#snote%d"><sup>[%d]</sup></a>' % (n, n, n))
+        paragraph = _insert_after_punct(paragraph, note["anchor"], ref)
     return paragraph
 
 
@@ -198,17 +298,24 @@ def render_skeleton(chap):
 
 
 def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
-                ids=None):
+                ids=None, snotes=()):
     """Render one chapter's reading markdown to XHTML.
 
     section_ids / sub_ids are the chapter's book.json section and subsection ids,
     consumed in order as '### ' and '#### ' headings are met, so the contents
     page can deep-link each section and subsection. Either list may be empty,
     in which case the matching heading gets no id (linked at the coarser level).
+
+    snotes are the source's own notes for this chapter (a separate stream from
+    the translator's notes); their markers are inserted alongside.
     """
     out, first = [], True
     ids = ids if ids is not None else set()
     sids, ssids = list(section_ids), list(sub_ids)
+
+    def annotate(txt):
+        return insert_source_notes(
+            insert_notes(txt, notes, counter, doc), snotes, doc)
     for raw in open(md_path):
         line = raw.strip()
         if not line:
@@ -219,8 +326,7 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
             if subid:
                 ids.add(subid)
             out.append("<h3%s>%s</h3>"
-                       % (idattr,
-                          insert_notes(esc(line[5:]), notes, counter, doc)))
+                       % (idattr, annotate(esc(line[5:]))))
             first = True
             continue
         if line.startswith("### "):
@@ -228,8 +334,7 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
             idattr = ' id="%s"' % esc(sid) if sid else ""
             if sid:
                 ids.add(sid)
-            out.append("<h2%s>%s</h2>"
-                       % (idattr, insert_notes(esc(line[4:]), notes, counter, doc)))
+            out.append("<h2%s>%s</h2>" % (idattr, annotate(esc(line[4:]))))
             first = True
             continue
         if line.startswith("## "):
@@ -238,6 +343,16 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
             continue
         if line.startswith("# "):
             continue
+        if line == "***":
+            out.append('<p class="scenebreak">*&#8195;*&#8195;*</p>')
+            first = True
+            continue
+        special = None
+        m = re.match(r"^\{([vdgp])\} ", line)
+        if m:
+            special = {"v": "vignette", "d": "dateline",
+                       "g": "hourgloss", "p": "verse"}[m.group(1)]
+            line = line[4:]
         for fig in figures:
             if not fig.get("placed") and fig["before"] in line[:80]:
                 out.append(
@@ -245,19 +360,39 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
                     "<figcaption>%s</figcaption></figure>"
                     % (fig["file"], esc(fig["alt"]), esc(fig["caption"])))
                 fig["placed"] = True
-        text = insert_notes(esc(line), notes, counter, doc)
+        text = annotate(esc(line))
         text = re.sub(r"\*([^*\n]+)\*", r"<i>\1</i>", text)
+        if special:
+            out.append('<p class="%s">%s</p>' % (special, text))
+            first = True
+            continue
         cls = ' class="first"' if first else ""
         out.append("<p%s>%s</p>" % (cls, text))
         first = False
     return "\n".join(out), ids
 
 
-def render_notes_page(chapters, notes_by_chap):
-    parts = ['<h1>Notes</h1>',
-             '<p class="note">Each number links back to its place in the '
-             'text. Notes are the translator\'s throughout; the source book '
-             'carries none of its own.</p>']
+def render_notes_page(chapters, notes_by_chap, snotes_by_chap=None):
+    """The notes page carries two distinct streams. Plain numbered notes are the
+    translator's. Bracketed-number notes are the source book's OWN, gathered in
+    the original at its end and reproduced here under their own heading, so a
+    reader can always tell the author's apparatus from the translator's."""
+    snotes_by_chap = snotes_by_chap or {}
+    used_src = sorted([n for cid, lst in snotes_by_chap.items()
+                       if not cid.startswith("_")
+                       for n in lst if n.get("used")],
+                      key=lambda x: int(x["n"]))
+    if used_src:
+        intro = ('<p class="note">Each marker links back to its place in the '
+                 'text. Plain numbered notes are the translator\'s. Notes keyed '
+                 'to a bracketed number in a different colour are the source '
+                 'book\'s own, reproduced below under "Notes in the Original '
+                 'Edition."</p>')
+    else:
+        intro = ('<p class="note">Each number links back to its place in the '
+                 'text. Notes are the translator\'s throughout; the source '
+                 'book carries none of its own.</p>')
+    parts = ['<h1>Notes</h1>', intro]
     any_used = False
     for chap in chapters:
         used = sorted([n for n in notes_by_chap.get(chap["id"], [])
@@ -271,7 +406,20 @@ def render_notes_page(chapters, notes_by_chap):
                 '<div class="endnote" id="note%d" epub:type="footnote">'
                 '<p><a class="backref" href="%s#ref%d">%d.</a> %s</p></div>'
                 % (note["n"], note["doc"], note["n"], note["n"], note["note"]))
-    if not any_used:
+
+    if used_src:
+        parts.append('<h3 class="srcnotes">Notes in the Original Edition</h3>')
+        parts.append('<p class="note">These notes are the author\'s own, keyed '
+                     'to the bracketed markers in the text; they are given here '
+                     'as they stand in the source.</p>')
+        for note in used_src:
+            n = int(note["n"])
+            parts.append(
+                '<div class="snote" id="snote%d" epub:type="footnote">'
+                '<p><a class="sbackref" href="%s#sref%d">[%d]</a> %s</p></div>'
+                % (n, note["doc"], n, n, note["note"]))
+
+    if not any_used and not used_src:
         parts.append("<p>No notes yet.</p>")
     return "\n".join(parts)
 
@@ -291,8 +439,14 @@ def render_contents(structure, translated, ids_present=None):
     ids_present maps a chapter id to the set of section/subsection anchor ids
     actually emitted in that chapter's page, so a chapter translated a batch at a
     time links only its finished sections and shows the rest as pending text
-    (never a link to an anchor that does not exist, which qa_epub rejects)."""
+    (never a link to an anchor that does not exist, which qa_epub rejects).
+
+    Size labels are shown only on PENDING units (they are work-planning
+    apparatus, not reading matter), and once every chapter is translated the
+    explanatory note paragraph disappears too: the finished book's contents
+    page carries no scaffolding."""
     ids_present = ids_present or {}
+    all_done = all(c["id"] in translated for c in structure)
     n_ch = len(structure)
     n_sec = sum(len(c.get("sections", [])) for c in structure)
     n_sub = sum(len(s.get("subsections", [])) for c in structure
@@ -302,12 +456,14 @@ def render_contents(structure, translated, ids_present=None):
     tally = ("%s%d chapters, %d sections"
              % ("%d parts, " % n_parts if n_parts else "", n_ch, n_sec)
              + (", %d subsections" % n_sub if n_sub else ""))
-    parts = ['<h1>Contents</h1>',
+    parts = ['<h1>Contents</h1>']
+    if not all_done:
+        parts.append(
              '<p class="note">The complete book: %s. Every entry links to its '
              'place; units not yet translated link to a skeleton outline showing '
              'their source size, so the whole shape of the book is navigable '
-             'from the start.</p>' % tally,
-             '<ol class="contents">']
+             'from the start.</p>' % tally)
+    parts.append('<ol class="contents">')
     for part_label, chaps in groups:
         if part_label:
             parts.append('<li class="part">%s</li>' % esc(part_label))
@@ -318,7 +474,7 @@ def render_contents(structure, translated, ids_present=None):
             mark = "" if done else ' <span class="pending">&#183; pending</span>'
             parts.append('<li class="chap"><a href="%s.xhtml">%s</a>%s%s</li>'
                          % (cid, esc(chap["title_en"]),
-                            _span_suffix(chap), mark))
+                            "" if done else _span_suffix(chap), mark))
             if not chap.get("sections"):
                 continue
             parts.append('<ol>')
@@ -330,7 +486,8 @@ def render_contents(structure, translated, ids_present=None):
                     label = ('%s <span class="pending">&#183; pending</span>'
                              % esc(sec["title_en"]))
                 parts.append('<li class="sec">%s%s</li>'
-                             % (label, _span_suffix(sec)))
+                             % (label,
+                                "" if sec["id"] in here else _span_suffix(sec)))
                 if sec.get("subsections"):
                     parts.append('<ol class="secs">')
                     for sub in sec["subsections"]:
@@ -340,7 +497,8 @@ def render_contents(structure, translated, ids_present=None):
                         else:
                             sl = esc(sub["title_en"])
                         parts.append('<li class="sub">%s%s</li>'
-                                     % (sl, _span_suffix(sub)))
+                                     % (sl, "" if sub["id"] in here
+                                        else _span_suffix(sub)))
                     parts.append('</ol>')
             parts.append('</ol>')
     parts.append('</ol>')
@@ -356,15 +514,20 @@ def render_glossary(gloss):
                      % esc(section.replace("_", " ").title()))
         for zh, rec in sorted(entries.items(),
                               key=lambda kv: kv[1].get("pinyin", kv[0])):
-            note = (" &#183; " + esc(rec["note"])) if rec.get("note") else ""
+            # note fields are XHTML fragments (numeric refs + <i>), inserted
+            # raw like the notes page; en/pinyin may carry numeric refs but
+            # no markup, so decode them before escaping (double-escaping once
+            # shipped a visible '&#8217;' into a built glossary).
+            note = (" &#183; " + rec["note"]) if rec.get("note") else ""
             status = ""
             if rec.get("status") == "provisional":
                 status = (" &#183; <i>romanization mine; not found in English "
                           "scholarship</i>")
-            pinyin = esc(rec.get("pinyin", ""))
-            parts.append("<dt>%s <span lang=\"zh-Hant\">%s</span></dt>"
+            pinyin = esc(html.unescape(rec.get("pinyin", "")))
+            parts.append("<dt>%s <span lang=\"%s\">%s</span></dt>"
                          "<dd>%s%s%s</dd>"
-                         % (esc(rec["en"]), esc(zh), pinyin, note, status))
+                         % (esc(html.unescape(rec["en"])), SRC_LANG, esc(zh),
+                            pinyin, note, status))
         parts.append("</dl>")
     return "\n".join(parts)
 
@@ -373,19 +536,21 @@ def render_colophon(bm):
     c = bm.get("colophon", {})
     return (
         '<h1>Colophon</h1>'
-        '<p class="note">The book\'s original copyright leaf '
-        '(<span lang="zh-Hant">版權頁</span>), reproduced and translated.</p>'
+        '<p class="note">The book\'s original copyright leaf, '
+        'reproduced and translated.</p>'
         '<div class="colophon">'
-        '<p lang="zh-Hant">%s</p>'
-        '<p lang="zh-Hant">%s&#160;著</p>'
-        '<p class="notice" lang="zh-Hant">%s</p>'
-        '<p>%s</p>'
-        '<p lang="zh-Hant">%s</p>'
-        '<p>%s</p>'
+        '<p lang="%(l)s">%(title)s</p>'
+        '<p lang="%(l)s">%(author)s&#160;著</p>'
+        '<p class="notice" lang="%(l)s">%(nz)s</p>'
+        '<p>%(ne)s</p>'
+        '<p lang="%(l)s">%(dz)s</p>'
+        '<p>%(de)s</p>'
         '</div>'
-        % (esc(c.get("title_zh", "")), esc(c.get("author_zh", "")),
-           esc(c.get("notice_zh", "")), esc(c.get("notice_en", "")),
-           esc(c.get("date_zh", "")), esc(c.get("date_en", ""))))
+        % {"l": SRC_LANG,
+           "title": esc(c.get("title_zh", "")),
+           "author": esc(c.get("author_zh", "")),
+           "nz": esc(c.get("notice_zh", "")), "ne": esc(c.get("notice_en", "")),
+           "dz": esc(c.get("date_zh", "")), "de": esc(c.get("date_en", ""))})
 
 
 def translator_note(meta, n_chapters):
@@ -421,30 +586,132 @@ def translator_note(meta, n_chapters):
            "title_en": esc(meta["title_en"]), "n": n_chapters})
 
 
+# ---------------------------------------------------------------------------
+# Typography: straight quotes to curly, '...' to an ellipsis, applied to the
+# TEXT NODES of every page at write time (tags and character references are
+# never touched, so attributes and entities survive).
+# ---------------------------------------------------------------------------
+
+_OPENERS = " \t\n([{—–/‘“"  # after these, a quote opens
+
+
+def _curl_text(text, prev):
+    """Typographic pass on ONE text node: straight quotes/apostrophes to curly,
+    '...' to an ellipsis. `prev` is the last text character emitted before this
+    node (tags skipped), so quotes just after markup still resolve correctly.
+    Already-curly text passes through unchanged (idempotent)."""
+    out = []
+    i, n = 0, len(text)
+    while i < n:
+        c = text[i]
+        nxt = text[i + 1] if i + 1 < n else ""
+        if c == '"':
+            out.append("“" if (not prev or prev in _OPENERS) else "”")
+        elif c == "'":
+            if prev.isalnum() and (nxt.isalnum()):
+                out.append("’")          # contraction / possessive
+            elif nxt.isdigit():
+                out.append("’")          # '30s
+            elif not prev or prev in _OPENERS or prev == '"' or prev == "“":
+                out.append("‘")
+            else:
+                out.append("’")          # closing quote or s' possessive
+        elif c == "." and text[i:i + 3] == "...":
+            out.append("…")
+            prev = "…"
+            i += 3
+            continue
+        else:
+            out.append(c)
+        prev = out[-1]
+        i += 1
+    return "".join(out), prev
+
+
+_TAG_SPLIT = re.compile(r"(<[^>]+>|&#?\w+;)")
+
+
+def typographize(markup):
+    """Apply _curl_text to the text nodes of an XHTML fragment, skipping tags
+    and character references so attributes/entities are never touched."""
+    prev = ""
+    parts = []
+    block = re.compile(r"</?(p|h\d|li|figcaption|div|blockquote|dt|dd|br|ol|ul)\b")
+    for seg in _TAG_SPLIT.split(markup):
+        if seg.startswith("<") or seg.startswith("&"):
+            if block.match(seg):
+                prev = ""
+            parts.append(seg)
+        else:
+            seg, prev = _curl_text(seg, prev)
+            parts.append(seg)
+    return "".join(parts)
+
+
 def write(path, body, title):
     with open(path, "w") as fh:
-        fh.write(XHTML % {"title": esc(title), "body": body})
+        fh.write(XHTML % {"title": esc(typographize(title)),
+                          "body": typographize(body)})
+
+
+def resolve_uid(uid, title_en):
+    """The package's unique identifier. A urn:uuid whose tail is not a real
+    UUID gets REPLACED with a deterministic UUIDv5 of the title -- a malformed
+    urn:uuid once made Apple Books silently refuse a finished book, and the
+    stub uid a template ships with is exactly that shape. Any other non-empty
+    uid (a DOI, an ISBN urn, a proper uuid) is kept verbatim."""
+    if uid:
+        if not uid.startswith("urn:uuid:"):
+            return uid
+        try:
+            uuid.UUID(uid[len("urn:uuid:"):])
+            return uid
+        except ValueError:
+            pass
+    return "urn:uuid:%s" % uuid.uuid5(uuid.NAMESPACE_URL,
+                                      "winston-translation:" + title_en)
 
 
 def main(epub_path):
+    global SRC_LANG
     book = load_json("book.json", {})
+    # Legacy field names (title_en, author_en, year, publication_date,
+    # publisher, description, subject, language, uid) are honored as-is;
+    # the richer optional fields extend them without replacing anything.
+    subjects = book.get("subjects", book.get("subject", []))
+    if isinstance(subjects, str):
+        subjects = [subjects]
     meta = {
         "title_en": book.get("title_en", "Untitled"),
         "title_zh": book.get("title_zh", ""),
+        "subtitle_en": book.get("subtitle_en", ""),
+        "title_file_as": book.get("title_file_as", ""),
         "author_en": book.get("author_en", ""),
         "author_zh": book.get("author_zh", ""),
-        "year": book.get("year", ""),
-        "uid": book.get("uid", "urn:uuid:translation-" +
-                        re.sub(r"[^a-z0-9]+", "-",
-                               book.get("title_en", "book").lower())[:48]),
+        "author_file_as": book.get("author_file_as", ""),
         "translator_en": book.get("translator_en", ""),
+        "year": book.get("year", ""),
+        "publication_date": book.get("publication_date", ""),
         "publisher": book.get("publisher", ""),
         "description": book.get("description", ""),
-        "subject": book.get("subject", ""),
-        "publication_date": book.get("publication_date", ""),
-        "source_language": book.get("source_language", "zh"),
+        "subjects": subjects,
+        "rights": book.get("rights", ""),
+        "source_ref": book.get("source_ref", ""),
+        "series": book.get("series", ""),
+        "series_index": book.get("series_index", ""),
+        "language": book.get("language", "en"),
+        "source_language": book.get("source_language", ""),
+        "source_script": book.get("source_script", "zh"),
+        "cover_image": book.get("cover_image", ""),
+        "uid": resolve_uid(book.get("uid", ""),
+                           book.get("title_en", "Untitled")),
+        # dcterms:modified is DETERMINISTIC: book.json's "modified" if set,
+        # else a fixed stamp -- so rebuilding an unchanged tree produces a
+        # byte-identical content.opf and the deliverable diffs clean.
+        "modified": book.get("modified", "2026-01-01T00:00:00Z"),
         "translator_note_paragraphs": book.get("translator_note"),
     }
+    SRC_LANG = meta["source_script"]
     structure = [c for c in book.get("structure", []) if c.get("id", "").startswith("ch")]
     if not structure:
         sys.exit("no chapters in book.json structure")
@@ -468,6 +735,7 @@ def main(epub_path):
 
     gloss = load_json("glossary.json", {})
     notes_by_chap = load_json("notes.json", {})
+    source_notes_by_chap = load_json("source_notes.json", {})
     figspec = load_json("figures.json", {})
 
     manifest_figs = []
@@ -485,17 +753,43 @@ def main(epub_path):
     with open(os.path.join(oebps, "style.css"), "w") as fh:
         fh.write(CSS)
 
+    # cover: copy the named cover image byte-identical (a cover is chrome, not
+    # a figure -- never greyscale or re-encode it) and wrap it in a full-page
+    # XHTML. Kindle and Apple Books key the library thumbnail off the
+    # manifest's properties="cover-image" item AND the legacy
+    # <meta name="cover"> hint, so both are emitted below. A named cover that
+    # cannot be found is a build failure, not a silent no-cover build.
+    have_cover = False
+    cover_name = ""
+    if meta["cover_image"]:
+        for base in (ROOT, os.path.join(ROOT, "data"), FIGS, PNG):
+            csrc = os.path.join(base, meta["cover_image"])
+            if os.path.exists(csrc):
+                cover_name = "cover" + os.path.splitext(csrc)[1].lower()
+                shutil.copy(csrc, os.path.join(oebps, "images", cover_name))
+                have_cover = True
+                break
+        if not have_cover:
+            sys.exit("book.json cover_image not found: %s" % meta["cover_image"])
+        write(os.path.join(oebps, "cover.xhtml"),
+              '<div class="coverpage"><img src="images/%s" alt="Cover: %s"/></div>'
+              % (esc(cover_name), esc(meta["title_en"])), "Cover")
+
     # title page
     byline = esc(meta["author_en"])
     if meta["author_zh"]:
-        byline += ' &#183; <span lang="zh-Hant">%s</span>' % esc(meta["author_zh"])
+        byline += (' &#183; <span lang="%s">%s</span>'
+                   % (SRC_LANG, esc(meta["author_zh"])))
     yr = (' <p class="note">%s</p>' % esc(str(meta["year"]))) if meta["year"] else ""
+    sub = ('<p class="subtitle">%s</p>' % esc(meta["subtitle_en"])
+           if meta["subtitle_en"] else "")
     write(os.path.join(oebps, "titlepage.xhtml"),
-          '<div class="tp"><h1>%s</h1>'
-          '<p lang="zh-Hant">%s</p>'
+          '<div class="tp"><h1>%s</h1>%s'
+          '<p lang="%s">%s</p>'
           '<p>%s</p>%s'
           '<p class="note">English translation</p></div>'
-          % (esc(meta["title_en"]), esc(meta["title_zh"]), byline, yr),
+          % (esc(meta["title_en"]), sub, SRC_LANG, esc(meta["title_zh"]),
+             byline, yr),
           meta["title_en"])
 
     # chapter bodies: EVERY chapter gets a page -- real content if translated,
@@ -514,7 +808,9 @@ def main(epub_path):
             body, ids = render_body(md_of(chap["id"]), section_ids, sub_ids,
                                     figspec.get(chap["id"], []),
                                     notes_by_chap.get(chap["id"], []),
-                                    counter, doc)
+                                    counter, doc,
+                                    snotes=source_notes_by_chap.get(
+                                        chap["id"], []))
         else:
             body, ids = render_skeleton(chap)
         ids_present[chap["id"]] = ids
@@ -525,8 +821,12 @@ def main(epub_path):
           render_contents(structure, translated, ids_present), "Contents")
 
     # a note whose anchor never matched would be silently dropped; refuse.
+    # Both streams: the translator's notes AND the source's own notes.
     orphans = [(cid, n["anchor"]) for cid, lst in notes_by_chap.items()
                for n in lst if cid in translated and not n.get("used")]
+    orphans += [(cid, n["anchor"]) for cid, lst in source_notes_by_chap.items()
+                if not cid.startswith("_")
+                for n in lst if cid in translated and not n.get("used")]
     if orphans:
         sys.stderr.write("BUILD FAILED: %d note anchor(s) never matched and "
                          "would be silently dropped:\n" % len(orphans))
@@ -534,8 +834,20 @@ def main(epub_path):
             sys.stderr.write("  %-9s %s\n" % (cid, a[:88]))
         sys.exit(2)
 
+    # same contract for figures: an unmatched 'before' anchor would silently
+    # drop the image; refuse.
+    lost = [(cid, f["file"], f["before"]) for cid, lst in figspec.items()
+            if not cid.startswith("_") and cid in translated
+            for f in lst if not f.get("placed")]
+    if lost:
+        sys.stderr.write("BUILD FAILED: %d figure(s) never placed:\n" % len(lost))
+        for cid, fn, b in lost:
+            sys.stderr.write("  %-9s %s before=%s\n" % (cid, fn, b[:60]))
+        sys.exit(2)
+
     write(os.path.join(oebps, "notes.xhtml"),
-          render_notes_page(chapters, notes_by_chap), "Notes")
+          render_notes_page(chapters, notes_by_chap, source_notes_by_chap),
+          "Notes")
 
     write(os.path.join(oebps, "backmatter.xhtml"),
           translator_note(meta, len(chapters))
@@ -549,9 +861,13 @@ def main(epub_path):
         write(os.path.join(oebps, "colophon.xhtml"),
               render_colophon(back_matter), "Colophon")
 
-    # spine order: every chapter (translated or skeleton) is in the spine.
-    docs = [("titlepage.xhtml", "Title Page"),
-            ("contents.xhtml", "Contents")]
+    # spine order: cover FIRST when present (Kindle/Books open on it), then
+    # every chapter (translated or skeleton) in the spine.
+    docs = []
+    if have_cover:
+        docs.append(("cover.xhtml", "Cover"))
+    docs += [("titlepage.xhtml", "Title Page"),
+             ("contents.xhtml", "Contents")]
     docs += [(c["id"] + ".xhtml", c["title_en"]) for c in structure]
     docs += [("notes.xhtml", "Notes"),
              ("backmatter.xhtml", "Translator's Note and Glossary")]
@@ -603,7 +919,9 @@ def main(epub_path):
     nav = ('<nav epub:type="toc" id="toc"><h1>Contents</h1><ol>'
            + "".join(nav_items) + "</ol></nav>"
            '<nav epub:type="landmarks" hidden="hidden"><ol>'
-           '<li><a epub:type="titlepage" href="titlepage.xhtml">Title Page</a></li>'
+           + ('<li><a epub:type="cover" href="cover.xhtml">Cover</a></li>'
+              if have_cover else '')
+           + '<li><a epub:type="titlepage" href="titlepage.xhtml">Title Page</a></li>'
            '<li><a epub:type="toc" href="contents.xhtml">Contents</a></li>'
            '<li><a epub:type="bodymatter" href="%s">Begin Reading</a></li>'
            "</ol></nav>" % (structure[0]["id"] + ".xhtml"))
@@ -626,50 +944,113 @@ def main(epub_path):
     for i, (f, _) in enumerate(docs, 1):
         items.append('<item id="d%d" href="%s" media-type="application/xhtml+xml"/>' % (i, f))
     for i, f in enumerate(manifest_figs, 1):
-        items.append('<item id="fig%d" href="images/%s" media-type="image/png"/>' % (i, f))
+        items.append('<item id="fig%d" href="images/%s" media-type="%s"/>'
+                     % (i, f, mime_of(f)))
+    if have_cover:
+        items.append('<item id="cover-image" href="images/%s" media-type="%s" '
+                     'properties="cover-image"/>' % (cover_name,
+                                                     mime_of(cover_name)))
     spine = "".join('<itemref idref="d%d"/>' % i for i in range(1, len(docs) + 1))
 
-    modified = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-    opf_meta = [
-        '<dc:identifier id="pub-id">%s</dc:identifier>' % esc(meta["uid"]),
-        '<dc:title id="title">%s</dc:title>' % esc(meta["title_en"]),
-        '<dc:language>en</dc:language>',
-    ]
+    # Rich Dublin Core metadata, formatted for the catalogues Kindle and Apple
+    # Books build: a main title with sort form (+ optional subtitle and the
+    # source title as dcterms:alternative), a creator with MARC role, file-as
+    # sort key and alternate-script original name, the translator as a
+    # contributor, publisher, date, description, subjects, rights, source
+    # reference, series (both the calibre legacy metas and the EPUB3
+    # collection), the Apple fonts flag, and the deterministic modified stamp.
+    lang = esc(meta["language"] or "en")
+    src_primary = SRC_LANG.split("-")[0]
+    md = ['<dc:identifier id="pub-id">%s</dc:identifier>' % esc(meta["uid"]),
+          '<dc:title id="title">%s</dc:title>' % esc(meta["title_en"]),
+          '<meta refines="#title" property="title-type">main</meta>',
+          '<meta refines="#title" property="file-as">%s</meta>'
+          % esc(meta["title_file_as"] or meta["title_en"])]
+    if meta["subtitle_en"]:
+        md += ['<dc:title id="subtitle">%s</dc:title>' % esc(meta["subtitle_en"]),
+               '<meta refines="#subtitle" property="title-type">subtitle</meta>']
+    if meta["title_zh"]:
+        md.append('<meta property="dcterms:alternative" xml:lang="%s">%s</meta>'
+                  % (esc(src_primary), esc(meta["title_zh"])))
+    md.append('<dc:language>%s</dc:language>' % lang)
+    if meta["source_language"]:
+        md.append('<meta property="dcterms:language">%s</meta>'
+                  % esc(meta["source_language"]))
     if meta["author_en"]:
-        opf_meta.append('<dc:creator id="creator">%s</dc:creator>' % esc(meta["author_en"]))
-        file_as = ", ".join(reversed(meta["author_en"].split(" ", 1))) if " " in meta["author_en"] else meta["author_en"]
-        opf_meta.append('<meta refines="#creator" property="role" scheme="marc:relators">aut</meta>')
-        opf_meta.append('<meta refines="#creator" property="file-as">%s</meta>' % esc(file_as))
+        md += ['<dc:creator id="creator">%s</dc:creator>' % esc(meta["author_en"]),
+               '<meta refines="#creator" property="role" scheme="marc:relators">aut</meta>',
+               '<meta refines="#creator" property="file-as">%s</meta>'
+               % esc(meta["author_file_as"] or meta["author_en"])]
+        if meta["author_zh"]:
+            md.append('<meta refines="#creator" property="alternate-script" '
+                      'xml:lang="%s">%s</meta>'
+                      % (esc(src_primary), esc(meta["author_zh"])))
     if meta["translator_en"]:
-        opf_meta.append('<dc:contributor id="translator">%s</dc:contributor>' % esc(meta["translator_en"]))
-        opf_meta.append('<meta refines="#translator" property="role" scheme="marc:relators">trl</meta>')
-    if meta["publication_date"]:
-        opf_meta.append('<dc:date>%s</dc:date>' % esc(str(meta["publication_date"])))
-    elif meta["year"]:
-        opf_meta.append('<dc:date>%s</dc:date>' % esc(str(meta["year"])))
+        md += ['<dc:contributor id="translator">%s</dc:contributor>'
+               % esc(meta["translator_en"]),
+               '<meta refines="#translator" property="role" '
+               'scheme="marc:relators">trl</meta>']
     if meta["publisher"]:
-        opf_meta.append('<dc:publisher>%s</dc:publisher>' % esc(meta["publisher"]))
+        md.append('<dc:publisher>%s</dc:publisher>' % esc(meta["publisher"]))
+    if meta["publication_date"]:
+        md.append('<dc:date>%s</dc:date>' % esc(meta["publication_date"]))
+    elif meta["year"]:
+        md.append('<dc:date>%s-01-01</dc:date>' % esc(str(meta["year"])))
     if meta["description"]:
-        opf_meta.append('<dc:description>%s</dc:description>' % esc(meta["description"]))
-    if meta["subject"]:
-        opf_meta.append('<dc:subject>%s</dc:subject>' % esc(meta["subject"]))
-    if meta["source_language"] and meta["title_zh"]:
-        opf_meta.append('<dc:source>%s</dc:source>' % esc(meta["title_zh"]))
-    opf_meta.append('<meta property="dcterms:modified">%s</meta>' % modified)
-    # Kindle/Apple Books: mark the title page as the cover
-    opf_meta.append('<meta name="cover" content="d1"/>')
+        md.append('<dc:description>%s</dc:description>' % esc(meta["description"]))
+    for subj in meta["subjects"]:
+        md.append('<dc:subject>%s</dc:subject>' % esc(subj))
+    if meta["rights"]:
+        md.append('<dc:rights>%s</dc:rights>' % esc(meta["rights"]))
+    if meta["source_ref"]:
+        md.append('<dc:source>%s</dc:source>' % esc(meta["source_ref"]))
+    if meta["series"]:
+        idx = str(meta["series_index"] or 1)
+        md += ['<meta name="calibre:series" content="%s"/>'
+               % esc(meta["series"]),
+               '<meta name="calibre:series_index" content="%s"/>' % esc(idx),
+               '<meta id="series" property="belongs-to-collection">%s</meta>'
+               % esc(meta["series"]),
+               '<meta refines="#series" property="collection-type">series</meta>',
+               '<meta refines="#series" property="group-position">%s</meta>'
+               % esc(idx)]
+    md.append('<meta property="ibooks:specified-fonts">true</meta>')
+    md.append('<meta property="dcterms:modified">%s</meta>' % esc(meta["modified"]))
+    if have_cover:
+        md.append('<meta name="cover" content="cover-image"/>')
+
+    # EPUB2 guide block: obsolete in EPUB3 but still read by Kindle's older
+    # ingestion paths, and harmless everywhere else.
+    guide = ""
+    if have_cover:
+        guide += '<reference type="cover" title="Cover" href="cover.xhtml"/>'
+    guide += ('<reference type="toc" title="Contents" href="contents.xhtml"/>'
+              '<reference type="text" title="Begin Reading" href="%s"/>'
+              % (structure[0]["id"] + ".xhtml"))
 
     with open(os.path.join(oebps, "content.opf"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>\n'
                  '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" '
-                 'unique-identifier="pub-id" '
-                 'prefix="rendition: http://www.idpf.org/vocab/rendition/#">\n'
-                 '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" '
-                 'xmlns:opf="http://www.idpf.org/2007/opf">\n'
-                 '%s\n'
-                 '</metadata>\n<manifest>\n%s\n</manifest>\n'
-                 '<spine toc="ncx">\n%s\n</spine>\n</package>'
-                 % ("\n".join(opf_meta), "\n".join(items), spine))
+                 'unique-identifier="pub-id" xml:lang="%s" '
+                 'prefix="marc: http://id.loc.gov/vocabulary/relators/ '
+                 'ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/'
+                 'vocabulary-extensions-1.0/">\n'
+                 '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">\n'
+                 % lang
+                 + "\n".join(md) + "\n"
+                 "</metadata>\n<manifest>\n" + "\n".join(items) + "\n</manifest>\n"
+                 '<spine toc="ncx" page-progression-direction="ltr">\n'
+                 + spine + "\n</spine>\n"
+                 "<guide>" + guide + "</guide>\n</package>")
+
+    # Apple Books honours embedded/specified fonts only when this OCF-level
+    # file says so as well as the OPF property.
+    with open(os.path.join(BUILD, "META-INF",
+                           "com.apple.ibooks.display-options.xml"), "w") as fh:
+        fh.write('<?xml version="1.0" encoding="utf-8"?>'
+                 '<display_options><platform name="*">'
+                 '<option name="specified-fonts">true</option>'
+                 "</platform></display_options>")
 
     with open(os.path.join(BUILD, "META-INF", "container.xml"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'
@@ -693,10 +1074,24 @@ def main(epub_path):
                 full = os.path.join(base, name)
                 z.write(full, os.path.relpath(full, BUILD),
                         compress_type=zipfile.ZIP_DEFLATED)
-    print("wrote %s (%d of %d chapters translated, %d notes)"
-          % (epub_path, len(chapters), len(structure), counter[0]))
+    n_src = sum(1 for cid, lst in source_notes_by_chap.items()
+                if not cid.startswith("_") for n in lst if n.get("used"))
+    print("wrote %s (%d of %d chapters translated, %d notes, %d source notes)"
+          % (epub_path, len(chapters), len(structure), counter[0], n_src))
 
 
 if __name__ == "__main__":
-    main(sys.argv[1] if len(sys.argv) > 1 else
-         os.path.join(ROOT, "out", "book.epub"))
+    if len(sys.argv) > 1:
+        _out = sys.argv[1]
+    else:
+        # The deliverable name lives in book.json so builder, QA and the Stop
+        # hook agree on it; the out/book.epub default bit real projects that
+        # built the default name and shipped a stale deliverable.
+        try:
+            _out = json.load(open(os.path.join(ROOT, "book.json")))\
+                .get("deliverable") or os.path.join(ROOT, "out", "book.epub")
+        except Exception:
+            _out = os.path.join(ROOT, "out", "book.epub")
+        if not os.path.isabs(_out):
+            _out = os.path.join(ROOT, _out)
+    main(_out)

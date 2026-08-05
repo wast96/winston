@@ -1,4 +1,9 @@
-# Regenerable working files (rebuild from source.epub; never project work)
+# Tracked-vs-regenerable is a DECIDED policy; every ignore carries its
+# reason. Derived work (verified English, pairing sources, ledgers) is
+# tracked; the source's own extracted text rebuilds from source.epub via
+# ingest_epub.py and is not project work.
+
+# Unpacked/extracted source: regenerate with scripts/ingest_epub.py
 data/src_epub/
 data/src/
 data/verify/
@@ -6,16 +11,29 @@ data/figs/manifest.json
 build/
 __pycache__/
 *.pyc
+SETUP_REPORT.txt
 
-# Deliverable artifacts that rebuild from the sources
-out/*.epub
+# TRACKED on purpose (do not add ignore rules for them): data/zh/ (the
+# parity source the revision pass and verify_unit.py depend on),
+# out/*_en.json (the authored English, one array per unit), data/noise.txt.
+# A project that gitignored data/zh paid for it: every fresh session had to
+# regenerate it before any check could run.
+
+# QC intermediates and reports that rebuild from tracked files
 out/*_bilingual.md
 out/INGEST.md
 out/SURVEY.md
 
+# Deliverable artifacts that rebuild from the sources. EXCEPTION: on
+# completion, the FINAL deliverable EPUB is committed with
+#   git add -f out/<deliverable>
+# because branches outlive containers and chat attachments do not.
+out/*.epub
+
 # Draft structure emitted by ingest (you promote it into book.json)
 book.draft.json
 
-# Keep source.epub and committed figure images (data/figs/*.png|jpg) TRACKED.
-# If your source EPUB is large and you would rather not commit it, add:
+# Keep source.epub and committed figure images (data/figs/*.png|jpg) TRACKED
+# (a clean checkout must be able to regenerate data/src/). If your source
+# EPUB is very large and you would rather not commit it, add:
 #   source.epub
