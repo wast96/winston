@@ -6,6 +6,11 @@ glossary, and a cumulative EPUB with a full linked table of contents, a cover,
 and store-ready metadata. Distilled from nine completed books; the hard-won
 lessons live in `CLAUDE.md` and the `scanned-book-translation` skill.
 
+> This branch is UPSTREAM for the scripts shared with the sibling EPUB
+> template (`translation-template-epub-master`): checkers, tests, hook,
+> process templates, authority/collection files. Fix shared things here
+> first, then sync them across, so a fix lands once, not twice.
+
 **New here? Read [`START_HERE.md`](START_HERE.md).** It has the setup steps and
 the paste-ready messages. The full operating manual is [`CLAUDE.md`](CLAUDE.md).
 Template version: see [`TEMPLATE_CHANGELOG.md`](TEMPLATE_CHANGELOG.md).
