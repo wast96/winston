@@ -711,8 +711,7 @@ def main(epub_path):
     with open(os.path.join(oebps, "content.opf"), "w") as fh:
         fh.write('<?xml version="1.0" encoding="utf-8"?>'
                  '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" '
-                 'unique-identifier="pub-id" prefix="marc: '
-                 'http://id.loc.gov/vocabulary/relators/"><metadata '
+                 'unique-identifier="pub-id"><metadata '
                  'xmlns:dc="http://purl.org/dc/elements/1.1/">'
                  "%s</metadata><manifest>%s</manifest>"
                  "<spine toc=\"ncx\">%s</spine>%s</package>"
