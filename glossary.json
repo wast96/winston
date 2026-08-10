@@ -28,7 +28,12 @@
     "カスミ": {"en": "Kasumi", "pinyin": "Kasumi", "status": "decided", "note": "Kashii's uncle, who taught him the ninja arts."},
     "明智光春": {"en": "Akechi Mitsuharu", "pinyin": "Akechi Mitsuharu", "status": "attested", "note": "Mitsuhide's nephew; abandoned Azuchi and died at the fall of Sakamoto Castle."},
     "ワリニヤーニ": {"en": "Valignano", "pinyin": "Warinyani", "status": "attested", "note": "Alessandro Valignano (1539&#8211;1606), Jesuit Visitor to the Indies; organized the seminaries and the Tensho embassy."},
-    "清水宗治": {"en": "Shimizu Muneharu", "pinyin": "Shimizu Muneharu", "status": "attested", "note": "Commander of Takamatsu Castle, who took his own life as the price of the Mori's peace with Hideyoshi."}
+    "清水宗治": {"en": "Shimizu Muneharu", "pinyin": "Shimizu Muneharu", "status": "attested", "note": "Commander of Takamatsu Castle, who took his own life as the price of the Mori's peace with Hideyoshi."},
+    "多羅尾道可": {"en": "Tarao Dōka", "pinyin": "Tarao Doka", "status": "attested", "note": "Lay-monk and chief of the Tarao, one of the fifty-three houses of Koga; sheltered and guided Ieyasu on the Tarao crossing."},
+    "新兵衛": {"en": "Shinbei", "pinyin": "Shinbei", "status": "decided", "note": "Tarao Doka's second son, a handsome, clever seventeen-year-old at the Azuchi seminary and a Christian; he hid the mission's sacred vessels at Oki-no-shima."},
+    "藤林長門守": {"en": "Fujibayashi Nagato-no-kami", "pinyin": "Fujibayashi Nagato-no-kami", "status": "attested", "note": "One of the two great jonin (upper ninja) masters of Iga."},
+    "百地三太夫": {"en": "Momochi Sandayū", "pinyin": "Momochi Sandayu", "status": "attested", "note": "The most famous jonin of Iga; the Momochi fort where Tamo was maimed was of this house."},
+    "半左衛門": {"en": "Hanzaemon", "pinyin": "Hanzaemon", "status": "decided", "note": "Tarao Doka's eldest son."}
   },
   "organizations": {
     "一向宗": {"en": "the Ikkō sect", "pinyin": "Ikko-shu", "status": "attested", "note": "A militant strand of Jodo Shinshu (True Pure Land) Buddhism whose peasant leagues warred with the warlords."},

@@ -314,5 +314,47 @@ In the generation of Hanzō's father the family left Iga to serve Ieyasu, and wa
 
 He was a quick-witted, tireless man, and that was why he had been taken into the personal guard. He was not so grimly hard-bitten a figure as Ishikawa Goemon; but, every inch the descendant of mainland stock, he was fair-skinned and long of eye, standing better than five shaku eight sun, his irises brown and the whites of his eyes touched with blue. He was now forty-two years old.
 
-Ieyasu, thirteen days before the affair at Honnō-ji — on the twenty-first of the fifth month — had set out for the capital at Nobunaga's invitation,
+Ieyasu, thirteen days before the affair at Honnō-ji — on the twenty-first of the fifth month — had set out for the capital at Nobunaga's invitation, and had been feasted by Nobunaga at Azuchi, treated to kōwaka dances and sarugaku and all the rest.
+
+It was a sightseeing journey — Kyoto, Ōsaka, Sakai — so his following was very small, no more than a few dozen: Honda Tadakatsu, Sakai Tadatsugu, Ishikawa Kazumasa, and the others. Hattori Hanzō was among them.
+
+After taking in Kyoto, Ieyasu viewed the old site of Ishiyama Castle at Ōsaka, went by way of Sumiyoshi toward Sakai, and put up at Myōkoku-ji. There, planted when the temple was built, stood a sago palm bought off a foreign ship; in twenty years it had grown to a wonderful size, and the sight of it took Ieyasu aback. Nobunaga had lent him his attendant Hasegawa Takemaru for a steward, and the great Kyoto merchant Chaya Shirōjirō for a guide.
+
+Now, after four or five days, thinking to make his way back to Kyoto before long and see Nobunaga once more, Ieyasu sent Honda Tadakatsu on ahead — on the early morning of the second of the sixth month — to give word that he would return to the capital that day; and set out from Sakai himself a little after.
+
+Tadakatsu had galloped as far as Katano, just midway to Kyoto, when out of the Kyoto direction came Chaya Shirōjirō on a packsaddled horse, his face gone deathly white. "It's a catastrophe. The world is finished," he said, the tears rolling down. In the small hours, he told them, Nobunaga had been cut down at Honnō-ji, and Nobutada too had died at the Nijō Palace.
+
+Tadakatsu was thunderstruck; the two of them wheeled about, riding stirrup to stirrup, and met Ieyasu coming up at the foot of Mount Iimori. Ieyasu was aghast at the news. With so small a band, to dither and lose his head here was out of the question — there could be no thought yet of carrying a war of revenge to Mitsuhide; the one certainty was that unless he got clear of this place, Mitsuhide's men would hunt him down and kill him.
+
+He had to reckon that Mitsuhide's soldiers were ranging at will over Yamashiro, Ōmi, and Yamato; and that once fighting was in the wind, the peasants everywhere would turn in a moment into robber-gangs, falling on stragglers and small parties.
+
+Honda Tadakatsu pressed them: "There's nothing for it but to pick the roughest mountain tracks and run flat out for Ise by the shortest way there is. I don't know the country myself, and there's not a man in the escort who does; but let's get out to Nara, cross over from Shigaraki into Iga, and break through to Ise. Every moment we stand debating, the time slips by. Quickly — quickly!" And so the rest came round to it.
+
+They caught a passing peasant and threatened him — "Set us on the wrong road and I'll wrench your head clean off!" — and made him guide them; they crossed Mount Shigi, passed west of Nara, forded the Kizu River, and came out at Shigaraki in the province of Ōmi.
+
+Already, back at the crossing of Mount Shigi, Hattori Hanzō had run on alone ahead, reached the village of Tarao on the southern rim of Kōga, and talked round the lay-monk Tarao Dōka, who as one of the fifty-three houses of Kōga held sway in those parts.
+
+This house of Tarao had done the very same thing once before, as far back as the first year of Ōnin — 1467, a hundred and sixteen years earlier. When Ashikaga Yoshimi, caught up in the Ōnin War, sought to flee the fighting into Ise, and in the eighth month slipped out of Kyoto, crossed Lake Biwa, and came into Shigaraki, the Tarao had escorted him, brought him through Iga, and seen him safe to Ise. And in the sixth month of the very next year, when the shogun Yoshimasa wished to call Yoshimi back and laid the errand upon Shōgoin Dōyo, Dōyo too, guarded by Tarao men, went back and forth to Ise and carried out his charge.
+
+The records speak of "some three thousand mountain-warriors," so the Tarao already had a force of that size at their command. From their fortress, looking to the southeast, you could take in the whole of Iga at a glance. The house itself, though, was nothing like the grim windowless strongholds of a Fujibayashi Nagato-no-kami or a Momochi Sandayū; it was no more than an ordinary residence built a little stouter than most.
+
+Here, with everyone else sent from the room, Hanzō — a man in his prime of forty-one, big-framed and a shade odd of feature, yet a fine figure of a man — sat down face to face with a little fellow whose face was like a boiled-down, wrinkled black bean. This was Dōka the lay-monk, then fifty-eight.
+
+"The lord of Hamamatsu is the master my house has served since my father's time," said Hanzō.
+
+"That I know," said the black-bean monk, picking the rheum from the corners of his small eyes. "But a man doesn't throw in with another so hard unless he sees something rare in him. Hmm — the lord of Hamamatsu, is it? And what is it you see in him, to back him the way you do?"
+
+He began now to pick at his teeth. "Well — whatever the case, I've taken a shine to him myself. With Lord Nobunaga gone, mark my words, there's a general who'll rise in the world. A little trouble now, and a man could make himself the savior of the great lord's very life. This is a stone worth setting down on the board. And better yet, on the money side that great Kyoto merchant, Chaya Shirōjirō, stands behind it — so there's no fear there. Good. I'm decided. I'll get word to the men along the road at once. Hey — Kawarake! Get out and meet him, as far as the Nono-tono pass."
+
+From Sakai to Nara is thirteen ri by the Shigi crossing, and from there another eight ri of mountain road to Tarao. By now the night of the second had come down pitch black. The lower-ninja called Kawarake shot off into the dark.
+
+Astride Mount Sasagatake, which rises on the Iga–Kōga border, lie the village of Marubashira in Iga and the village of Shigaraki in Kōga. Far back in the Tenpyō era, immigrants naturalized out of the mainland settled in these parts and, for the use of the great shrines and the court, made and delivered plain unglazed earthenware — sake flasks, clay pots, kawarake cups and the like. In time it grew into a local trade, supplying the peasants' tableware, and it comes down to this day as Marubashira ware and Shigaraki ware. And so, in the Tarao house, the lower ninja who had no proper names of their own were given names such as Kawarake ("cup"), Sarahei ("plate-Hei"), Heishi ("flask"), Tsubosuke ("jar"), Yukihira (a clay pot), Kanteki (a little stove), and the rest.
+
+Word of the affair at Honnō-ji had reached Dōka from Azuchi by the afternoon of that same day. For Dōka's second son, a boy named Shinbei, was enrolled at the Azuchi seminary. His mother had been a beauty who turned heads in that country, and Shinbei had grown into a clever, handsome youth of seventeen; Dōka, who took a particular interest in the Christians, had placed him there, and it was from Shinbei that the news came. And the young man who had hidden the precious sacred vessels away on the hill at Oki-no-shima was none other than this same Shinbei — a shrewd, tough article for all his fair looks, and that he came by honestly, from his father.
+
+As he sent out the welcoming party, the lay-monk also sent runners to the Iga ninja of Ise, of Hattori, and of Tsuge, asking them to put on their proper black garb and come as far as the Otogi Pass, on the Iga–Kōga line, to meet the party. Survivors overlooked in last year's Tenshō Iga War, and men who had been out of the province at the time and so escaped it, gathered on the instant — three hundred of them. For them it was the chance to get a first grip, a new field to work in, in a realm where their hated enemy Nobunaga was dead at last.
+
+Before long Ieyasu and his men reached the Tarao house. Kōga and Iga were already known the length of the land as the lairs of crooked ninja; that the party came through there at all was only because there was no other short road, and because Hattori Hanzō, himself of ninja stock, had given his word that with him along they were safe. For Ieyasu, and for his retainers too, it was the first time any of them had lodged under a ninja's roof; and once they were fairly across the threshold it was eerie after all — even seasoned men of the battlefield traded glances and shifted where they sat.
+
+Honda, seeing it, spoke up. "If Tarao Dōka means us any treachery, then thrash about as we may, there's no getting clear of it. We've had next to nothing to eat since we left Sakai at first light; so let's take the monk's hospitality, at the least, and put something in our bellies. Living or dying can come after that." At that they all steadied their minds and eased. And Dōka, reading their mood as you would expect of him,
 
