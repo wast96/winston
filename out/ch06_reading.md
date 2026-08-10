@@ -110,7 +110,7 @@ Fan Jincheng, an Anhui man whose history is unclear, was Zhang Xiaolin's elder-m
 
 Zhang Shusheng, a Jiangsu man nicknamed "the Heavenly King's Father" and also a boss of the Li sect, took in mostly Peking-opera actors as disciples and died in the 1920s. During the War of Resistance there was in Chongqing another "Da"-generation Zhang Shusheng, a northerner and a man of the Northwest Army, who took in a great many disciples, mostly of the transport trade.
 
-Wang Delin, an Anhui man, was originally a soldier and later went into business in Shanghai, taking in a great many disciples, such as Jin Tingsu, Gao Xinbao, and Gu Jiatang.
+Wang Delin, an Anhui man, was originally a soldier and later went into business in Shanghai, taking in a great many disciples, such as Jin Tingsun, Gao Xinbao, and Gu Jiatang.
 
 Bu Zhangwu, styled Linwu Shanren, a man of Xiangcheng in Henan, is said to have been a private secretary to Yuan Shikai. Coming to Shanghai, he first practiced planchette divination at the China Relief Society, later hung out his shingle as a Chinese-medicine doctor, and ran the tabloid *Da Bao*, writing Mandarin-Duck-and-Butterfly sketches; fond too of writing opera notices and puffing actresses, he took in, besides idle literati as disciples, actresses as adopted daughters.
 
@@ -130,7 +130,7 @@ Ma Xiangsheng, a Jiangsu man, was one of the opium-dealing "Eight-Stock Party" a
 
 Chen Shichang, a Jiangsu man and a disciple of Zhang Renkui, was Du Yuesheng's elder-master, kept by Du after Du made his fortune.
 
-Jin Tingsu, a Zhejiang man, ran the aviation lottery before the War of Resistance through his connection with Du Yuesheng.
+Jin Tingsun, a Zhejiang man, ran the aviation lottery before the War of Resistance through his connection with Du Yuesheng.
 
 Gao Xinbao, a disciple of Wang Delin, was before liberation manager of the Lido Garden (now the seat of the Municipal CPPCC), and one of the "Eight-Stock Party."
 
