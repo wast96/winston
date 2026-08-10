@@ -1,15 +1,51 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
+  "_about": "Single source of truth for every rendering, and the auditable term ledger. ONE rendering per referent for the whole book. status per entry: 'attested' (form used in English scholarship), 'provisional' (romanization mine, not found outside), 'decided' (a project style call). Sections are rendered as glossary headings; keys starting with '_' are ignored. This book is Japanese; the 'pinyin' field holds the romaji reading.",
   "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
+  "people": {
+    "石川五右衛門": {"en": "Ishikawa Goemon", "pinyin": "Ishikawa Goemon", "status": "attested", "note": "The semi-legendary thief and shinobi who is the novel's hero; by tradition put to death by boiling in 1594.", "principal": true, "cast": "The hero: thief, shinobi, and outlaw.", "cast_order": 1},
+    "秀吉": {"en": "Hideyoshi", "pinyin": "Toyotomi Hideyoshi", "status": "attested", "note": "Toyotomi Hideyoshi (1537&#8211;1598), Nobunaga's foremost general and, after 1582, the unifier of Japan.", "principal": true, "cast": "Nobunaga's general; the coming master of Japan and Goemon's great antagonist.", "cast_order": 2},
+    "信長": {"en": "Nobunaga", "pinyin": "Oda Nobunaga", "status": "attested", "note": "Oda Nobunaga (1534&#8211;1582), the warlord who had brought most of central Japan under his power.", "principal": true, "cast": "The overlord of the realm as the story opens; patron of the Jesuit mission.", "cast_order": 3},
+    "タモ": {"en": "Tamo", "pinyin": "Tamo", "status": "decided", "note": "A young beggar-woman, burned and half-crippled, taken under Organtino's protection at the Nanban-ji.", "principal": true, "cast": "A young beggar-woman, burned and mute with grief, sheltered at the Nanban-ji.", "cast_order": 4},
+    "オルガンチノ": {"en": "Organtino", "pinyin": "Organtino", "status": "attested", "note": "Gnecchi-Soldo Organtino (1533&#8211;1609), Italian Jesuit, for many years superior of the Kyoto mission.", "principal": true, "cast": "Italian Jesuit padre of the Nanban-ji; the beggar-woman Tamo's protector.", "cast_order": 5},
+    "信忠": {"en": "Nobutada", "pinyin": "Oda Nobutada", "status": "attested", "note": "Oda Nobutada (1557&#8211;1582), Nobunaga's eldest son and heir; commanded the vanguard against the Takeda."},
+    "明智光秀": {"en": "Akechi Mitsuhide", "pinyin": "Akechi Mitsuhide", "status": "attested", "note": "Akechi Mitsuhide (1528?&#8211;1582), one of Nobunaga's chief generals; the man who would strike at Honn&#333;-ji."},
+    "家康": {"en": "Ieyasu", "pinyin": "Tokugawa Ieyasu", "status": "attested", "note": "Tokugawa Ieyasu (1543&#8211;1616), Nobunaga's ally and, in time, founder of the Tokugawa shogunate."},
+    "勝頼": {"en": "Katsuyori", "pinyin": "Takeda Katsuyori", "status": "attested", "note": "Takeda Katsuyori (1546&#8211;1582), son and heir of Shingen; the last lord of the Takeda."},
+    "信玄": {"en": "Shingen", "pinyin": "Takeda Shingen", "status": "attested", "note": "Takeda Shingen (1521&#8211;1573), the great warlord of Kai, Katsuyori's father."},
+    "快川": {"en": "Kaisen", "pinyin": "Kaisen Joki", "status": "attested", "note": "Kaisen Joki (d. 1582), Zen abbot of Erin-ji, burned to death with his monks by Nobunaga's men."},
+    "穴山梅雪": {"en": "Anayama Baisetsu", "pinyin": "Anayama Baisetsu", "status": "attested", "note": "Takeda kinsman and general who defected to Nobunaga and Ieyasu as the house fell."},
+    "木曾義昌": {"en": "Kiso Yoshimasa", "pinyin": "Kiso Yoshimasa", "status": "attested", "note": "Takeda vassal in Shinano whose secret defection to Nobunaga touched off the Takeda's final campaign."},
+    "村井貞勝": {"en": "Murai Sadakatsu", "pinyin": "Murai Sadakatsu", "status": "attested", "note": "Nobunaga's shoshidai (military governor) of Kyoto; a patron of the Nanban-ji, killed defending Nobutada in 1582."},
+    "信孝": {"en": "Nobutaka", "pinyin": "Oda Nobutaka", "status": "attested", "note": "Oda Nobutaka (1558&#8211;1583), Nobunaga's third son, joint commander of the projected Shikoku campaign."},
+    "佐々木承禎": {"en": "Sasaki Jōtei", "pinyin": "Sasaki Jotei", "status": "attested", "note": "A defeated commander (of the Rokkaku/Sasaki line) sheltered at Erin-ji, as the novel has it."},
+    "フランシスコ・ザビエル": {"en": "Francisco Xavier", "pinyin": "Furanshisuko Zabieru", "status": "attested", "note": "St Francis Xavier (1506&#8211;1552), who opened the Japan mission at Kagoshima in 1549."},
+    "ルイス・フロイス": {"en": "Luís Fróis", "pinyin": "Ruisu Furoisu", "status": "attested", "note": "Luis Frois (1532&#8211;1597), Portuguese Jesuit and the mission's great chronicler."},
+    "ガスパル・クエリョ": {"en": "Gaspar Coelho", "pinyin": "Gasuparu Kueryo", "status": "attested", "note": "Portuguese Jesuit, vice-provincial of the Japan mission."},
+    "ガスパル・ビレラ": {"en": "Gaspar Vilela", "pinyin": "Gasuparu Birera", "status": "attested", "note": "Portuguese Jesuit, among the first to work in Kyoto (cited here for a report on the peasants)."},
+    "高山右近": {"en": "Takayama Ukon", "pinyin": "Takayama Ukon", "status": "attested", "note": "The most famous of the Christian daimyo; chose exile over apostasy, dying in Manila in 1615."}
+  },
+  "organizations": {
+    "一向宗": {"en": "the Ikkō sect", "pinyin": "Ikko-shu", "status": "attested", "note": "A militant strand of Jodo Shinshu (True Pure Land) Buddhism whose peasant leagues warred with the warlords."},
+    "法華宗": {"en": "the Hokke sect", "pinyin": "Hokke-shu", "status": "attested", "note": "Nichiren Buddhism; Honno-ji was one of its temples."},
+    "ヤソ教": {"en": "the Christian faith", "pinyin": "Yaso-kyo", "status": "decided", "note": "Yaso-kyo, from 'Jesus'; the ordinary period Japanese term for Christianity. Rendered 'the Christian faith' / 'Christianity' throughout."}
+  },
+  "places": {
+    "南蛮寺": {"en": "the Nanban-ji", "pinyin": "Nanban-ji", "status": "attested", "note": "The Jesuit church in Kyoto (Our Lady of the Assumption), completed c. 1576."},
+    "安土": {"en": "Azuchi", "pinyin": "Azuchi", "status": "attested", "note": "Nobunaga's castle town on Lake Biwa, seat of the seminary."},
+    "本能寺": {"en": "Honnō-ji", "pinyin": "Honno-ji", "status": "attested", "note": "The Kyoto temple where Nobunaga would die in 1582."},
+    "比叡山": {"en": "Mount Hiei", "pinyin": "Hiei-zan", "status": "attested", "note": "Seat of the Tendai monastery Enryaku-ji, burned by Nobunaga in 1571."},
+    "恵林寺": {"en": "Erin-ji", "pinyin": "Erin-ji", "status": "attested", "note": "The Takeda's devotional temple in Kai, burned with its monks in 1582."},
+    "天目山": {"en": "Mount Tenmoku", "pinyin": "Tenmoku-zan", "status": "attested", "note": "Where Katsuyori and the last of the Takeda died."},
+    "有馬": {"en": "Arima", "pinyin": "Arima", "status": "attested", "note": "Christian domain in Hizen (Kyushu); site of the first Japanese seminary."},
+    "臼杵": {"en": "Usuki", "pinyin": "Usuki", "status": "attested", "note": "Town in Bungo; site of the Jesuit noviciate."},
+    "府内": {"en": "Funai", "pinyin": "Funai", "status": "attested", "note": "The capital of Bungo (modern Oita); site of a Jesuit college."}
+  },
   "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
-      "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
-    }
+    "でうす": {"en": "Deus", "pinyin": "Deusu", "status": "attested", "note": "The Kirishitan word for God, from Latin/Portuguese Deus."},
+    "がらさ": {"en": "garça", "pinyin": "garasa", "status": "attested", "note": "Grace (Portuguese graça), a loanword of the mission."},
+    "おらしょ": {"en": "orasho", "pinyin": "orasho", "status": "attested", "note": "The Christians' set prayers (from Latin oratio), memorized and handed down by rote."},
+    "バテレン": {"en": "padre / bateren", "pinyin": "bateren", "status": "attested", "note": "Bateren, from Portuguese padre: a Jesuit priest. Rendered 'padre'."},
+    "イルマン": {"en": "irmão", "pinyin": "iruman", "status": "attested", "note": "Irmao (Portuguese 'brother'): a Jesuit lay brother or catechist, below the padre."},
+    "念仏": {"en": "the nenbutsu", "pinyin": "nenbutsu", "status": "attested", "note": "The invocation 'Namu Amida Butsu', central to Pure Land practice."}
   }
 }

@@ -1,0 +1,58 @@
+[
+ {
+  "pdf": 7,
+  "printed": 5,
+  "id": "ch01",
+  "title": "第一章　新しい波",
+  "title_en": "Chapter 1. New Waves"
+ },
+ {
+  "pdf": 71,
+  "printed": 69,
+  "id": "ch02",
+  "title": "第二章　暖かい流れ",
+  "title_en": "Chapter 2. A Warm Current"
+ },
+ {
+  "pdf": 137,
+  "printed": 135,
+  "id": "ch03",
+  "title": "第三章　表と裏",
+  "title_en": "Chapter 3. Surface and Underside"
+ },
+ {
+  "pdf": 201,
+  "printed": 199,
+  "id": "ch04",
+  "title": "第四章　いくさいくさ",
+  "title_en": "Chapter 4. War upon War"
+ },
+ {
+  "pdf": 259,
+  "printed": 257,
+  "id": "ch05",
+  "title": "第五章　ふたり",
+  "title_en": "Chapter 5. The Two of Them"
+ },
+ {
+  "pdf": 361,
+  "printed": 359,
+  "id": "ch06",
+  "title": "第六章　土と水",
+  "title_en": "Chapter 6. Earth and Water"
+ },
+ {
+  "pdf": 415,
+  "printed": 413,
+  "id": "ch07",
+  "title": "第七章　死、死、死",
+  "title_en": "Chapter 7. Death, Death, Death"
+ },
+ {
+  "pdf": 461,
+  "printed": 459,
+  "id": "ch08",
+  "title": "第八章　断末魔",
+  "title_en": "Chapter 8. Death Throes"
+ }
+]
