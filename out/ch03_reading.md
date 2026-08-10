@@ -1,0 +1,651 @@
+## Chapter 2. Princess Danfeng
+
+The wine-cup was still in Lu Xiaofeng's hand, though more than half of what it had held was down his front now. Old Huo had been drinking too when he came bursting in.
+
+It was a plain little hut of wood, standing alone in a stand of jujube trees on the mountainside. Old as it was, the inside had been swept clean, and furnished, surprisingly, with real taste.
+
+Old Huo himself was much like the hut: small, solitary, clean, and tough, for all the world like a hard-shelled nut dried in the wind. He sat drinking in a small, finely made chair.
+
+The wine smelled good. Jars of every size stood about the room, and every one of them, by the look of it, held something fine.
+
+He caught sight of the cup in Lu Xiaofeng's hand and could not help laughing, and shook his head. "Afraid I wouldn't guess you'd come to drink my wine? So you bring your own cup along to remind me?"
+
+Lu Xiaofeng laughed too. "When I left I'd barely time to get my trousers on, let alone set down a cup. And there was still wine in it. A waste to throw it away on the road."
+
+Old Huo seemed to find this strange, and knit his brows. "What could put you in such a hurry?" He honestly could not think.
+
+Lu Xiaofeng sighed, with a rueful smile. "Nothing much, really. Only a woman turned up in my room."
+
+Old Huo laughed again. "As I recall, there's a woman in your room most days of the week, and not once has one of them frightened you off."
+
+"This one was different," said Lu Xiaofeng.
+
+"Different how?"
+
+"Different in every way," said Lu Xiaofeng.
+
+Old Huo narrowed his eyes. "Was she some frightful hag, then?"
+
+Lu Xiaofeng shook his head hard at once. "A hag? Far from it. Beautiful as a fairy come down from heaven, and noble as a princess."
+
+"Then what were you afraid of? That she'd force herself on you?"
+
+Lu Xiaofeng laughed. "If she'd truly meant to force herself on me, you could have come at me with a broom and I still wouldn't have budged."
+
+"What did she do, then, to send you running?"
+
+Lu Xiaofeng sighed again. "She knelt down to me."
+
+Old Huo's eyes went wide, and he stared at Lu Xiaofeng as though a morning-glory had suddenly sprouted from the end of his nose.
+
+Lu Xiaofeng seemed to fear the old man hadn't grasped it, and explained further. "The moment she stepped into my room, down she went on her knees to me. All the way down, both knees."
+
+Old Huo let out a long breath at last. "I've always taken you for a perfectly sound young fellow, not a thing wrong with you. But now I'm beginning to have my doubts."
+
+"You doubt there's something wrong with me?" said Lu Xiaofeng ruefully.
+
+"A woman lovely as a fairy comes to your room and kneels to you, and you take fright and flee for your life?"
+
+Lu Xiaofeng nodded. "Not only fled for my life. I went out through the roof."
+
+Old Huo sighed. "It seems there's something wrong with your head after all, and a bad case of it."
+
+"It's because my head has always been clear," said Lu Xiaofeng, "that I ran."
+
+"Oh?" said the old man.
+
+"I told you," said Lu Xiaofeng, "she's not only beautiful. She carries herself with an air, a tremendous one."
+
+"How great an air?"
+
+"Grander than a princess," said Lu Xiaofeng, "near enough."
+
+"Have you ever seen a princess?"
+
+"No," said Lu Xiaofeng. "But I know this: the three bodyguards she keeps, a real princess could never engage."
+
+"And who are these three bodyguards?"
+
+"Liu Yuhen, Xiao Qiuyu, and Dugu Fang," said Lu Xiaofeng.
+
+Old Huo knit his brows again. "The Liu Yuhen who fights as though he holds his own life cheap?"
+
+"The same," said Lu Xiaofeng.
+
+"The Xiao Qiuyu who looks the perfect gentleman, and is stronger than a wild ox?"
+
+"That one," said Lu Xiaofeng.
+
+"The Dugu Fang who comes and goes like a ghost, and walks alone?"
+
+"Him too," said Lu Xiaofeng.
+
+"And all three have taken service as her guards?"
+
+"They have," said Lu Xiaofeng.
+
+"She has three such guards at her back, and she knelt to you?"
+
+"She did," said Lu Xiaofeng.
+
+Old Huo said nothing more. He poured himself a cup of wine and drank it off at a draught.
+
+Lu Xiaofeng drank off what was left in his own cup. "Do you see it now?"
+
+"I do," said the old man.
+
+"And why do you suppose she knelt to me?" said Lu Xiaofeng.
+
+"She wants something of you."
+
+"A woman like that, who'll go down on her knees to beg me," said Lu Xiaofeng. "For what?"
+
+"For something very troublesome."
+
+"I'd never so much as laid eyes on her," said Lu Xiaofeng. "Why should I take on trouble for her sake?"
+
+"Only a fool would take on trouble like that."
+
+"And am I a fool?" said Lu Xiaofeng.
+
+"You are not."
+
+"If you were me, and this happened to you," said Lu Xiaofeng, "what would you do?"
+
+"I'd run for my life, exactly as you did. And likely faster."
+
+Lu Xiaofeng let out a long breath and smiled. "Old as you are, it seems you're still a muddle-headed old fool."
+
+"And you're a muddle-headed young one," said Old Huo.
+
+"Oh?" said Lu Xiaofeng.
+
+"A woman of her sort, willing to kneel and beg you. Plainly this is something no one else can put right."
+
+Lu Xiaofeng granted it.
+
+"And now that she's found you, do you imagine you can get away?"
+
+"You think she'll come after me?" said Lu Xiaofeng.
+
+"She may have found you already."
+
+Lu Xiaofeng smiled. "I've few gifts to boast of. But at running away I'm very quick."
+
+"Quick enough that no one can catch you?"
+
+"The ones who can catch me aren't many, at least," said Lu Xiaofeng.
+
+Old Huo gave a cold laugh.
+
+"And what's that cold laugh supposed to mean?" said Lu Xiaofeng.
+
+"A cold laugh means a cold laugh."
+
+"I don't take your meaning," said Lu Xiaofeng.
+
+"There's a great deal you don't take."
+
+Lu Xiaofeng laughed again. "I take which of these jars of yours is the best wine, at least."
+
+He put out a careless hand and picked, sure enough, the finest jar of the lot. He was just about to slap off the clay seal when, boom, boom, boom, three great blows sounded, and in three of the walls, before him and to left and right, a great hole was smashed open at once.
+
+Three men strolled in through the holes: Liu Yuhen, Xiao Qiuyu, and Dugu Fang, just as he'd said.
+
+All three wore an easy, untroubled look, as if the three holes in the walls were no doing of theirs, as if they were three men home from a good meal out, who had opened their own front door and walked in.
+
+Xiao Qiuyu was even smiling. "We didn't come jumping in through a window," he said mildly.
+
+"Which means we're not wild dogs," said Dugu Fang.
+
+Even as they spoke the two of them had each taken up a chair; a careless twist, a crack, and both finely carved seats were wrenched to splinters.
+
+Liu Yuhen, meanwhile, lowered himself slowly onto the bed. He had not even settled before another crack came, and the bed collapsed under him.
+
+Xiao Qiuyu frowned. "The furniture here is not sound."
+
+"We must be sure to remember," said Dugu Fang, "never to shop at this establishment again."
+
+The two remarks were scarcely out before five or six more things had been smashed to bits.
+
+Lu Xiaofeng and Old Huo might have seen none of it.
+
+Old Huo went on sipping his wine, without the least sign of distress, as though the things being wrecked were no property of his at all.
+
+In a few moments the three of them had reduced everything in the hut to wreckage, and smashed some seventeen or eighteen jars of good wine along with it.
+
+Xiao Qiuyu looked around him. "The house itself doesn't seem too sound either. Better to pull it down and build afresh."
+
+Dugu Fang and Xiao Qiuyu traded a glance, turned their heads, and found that Lu Xiaofeng and Old Huo were now seated on the open ground before the hut, in the very same two chairs, with the same jar of wine standing on the table before them.
+
+"Lust is a blade that scrapes the bone, and wine a poison that rots the gut," said Xiao Qiuyu. "Leave it standing and it does a man harm."
+
+"Just so," said Dugu Fang. "Not one jar can be spared."
+
+And he came swaggering over, caught up the last jar from the table, and dashed it to the ground.
+
+This time the jar did not shatter. All at once it was back on the table.
+
+Dugu Fang frowned, took it up again, and flung it down.
+
+This time it was plain to see: before the jar could strike the floor, Lu Xiaofeng's hand shot out and caught it.
+
+Dugu Fang threw it down again; again Lu Xiaofeng caught it. In no time he had dashed the jar to the ground seven or eight times, and still it sat safe and sound on the table. Dugu Fang stared at it, and seemed to be losing his wits.
+
+He gaped a long while, then turned to Xiao Qiuyu with a rueful smile. "There's a ghost in this jar. It won't break."
+
+"What ghost?" said Xiao Qiuyu.
+
+"A wine-ghost, of course," said Dugu Fang.
+
+"Let me try," said Xiao Qiuyu.
+
+He too came over, and as though he did not see the two men sitting by the table at all, snatched up the jar and hurled it with all his strength.
+
+With a rush of air the jar flew off five or six zhang. And still it did not break.
+
+As the jar flew, Lu Xiaofeng flew after it.
+
+By the time Lu Xiaofeng had settled back into his chair, the jar was back on the table.
+
+Xiao Qiuyu caught it up and flung it again with all his might; this time it flew faster and farther still.
+
+He was a man of prodigious natural strength; a hurl like that could have sent hundreds of catties of iron flying.
+
+But the jar came back all the same, back with Lu Xiaofeng.
+
+Xiao Qiuyu too began to lose countenance. "There's a ghost in it, sure enough," he muttered. "A wine-ghost with wings."
+
+Liu Yuhen gave a sudden cold laugh, a single laugh, and he was at the table. He seized the jar in both hands, gripped it hard, and brought it down with all his weight on his own head.
+
+The others had meant to smash the jar. He seemed to mean to smash his own skull.
+
+Xiao Qiuyu sighed. This time the jar must surely break, and Liu Yuhen's head would fare no better.
+
+But Liu Yuhen's head did not split, and the jar did not break.
+
+Lu Xiaofeng's hand had darted up over his head and caught the jar.
+
+Liu Yuhen gave another cold laugh, and lashed out a sudden kick at Lu Xiaofeng's belly.
+
+That did not land either.
+
+Lu Xiaofeng had flipped over backwards, clean over the top of Liu Yuhen's head, and come down behind him, the jar still balanced in his hand.
+
+Liu Yuhen kicked backward, and Lu Xiaofeng flipped to the front again. Then he sighed. "This is the last jar of wine we have left, and that is the only head you have left. Why so set on breaking the pair of them?"
+
+Liu Yuhen glared at him, and his one good eye seemed to go the way of the blind one, a black, deep socket.
+
+Xiao Qiuyu smiled all at once. "It seems this really is Lu Xiaofeng."
+
+"Oh?" said Dugu Fang.
+
+"Who but Lu Xiaofeng," said Xiao Qiuyu, "would go to such lengths for a single jar of wine?"
+
+Dugu Fang laughed aloud. "True enough. Fools of this stamp are rare in the world."
+
+Smiling, Xiao Qiuyu took the jar from Liu Yuhen's hand and set it gently on the table.
+
+Then, with a soft pop, the jar burst all at once, and the wine ran out across the floor. Liu Yuhen's two hands and Lu Xiaofeng's one had put such force on it between them that clay or no, iron even, it must have been crushed flat.
+
+Xiao Qiuyu was taken aback, and smiled wryly. "That's the way of the world. When you want a thing to break, it won't; when you don't, it breaks after all."
+
+"There's a great deal in this world past helping," said Lu Xiaofeng lightly. "So why take any of it too much to heart?"
+
+Into Liu Yuhen's one eye there came a look of grief and bitterness beyond words. Without a sound he turned and walked out.
+
+Lu Xiaofeng's words seemed to have stirred some old sorrow long buried in his heart.
+
+Just then a voice rang out, sweet and clear. "The Princess Danfeng, daughter of His Majesty the Great King of the Golden Roc, comes in person to beg audience of the young lord Lu Xiaofeng."
+
+The speaker was that same little girl, the well-mannered one with the big eyes, dressed in motley colours.
+
+She came out of the dense jujube grove, and all the starlight and moonlight of the sky seemed gathered in her eyes.
+
+"Princess Danfeng?" said Lu Xiaofeng.
+
+The little girl looked at him with her shining eyes and pressed her lips into a smile. "Princess Danfeng. Not Princess Little Phoenix."
+
+Lu Xiaofeng looked at Old Huo and sighed. "So she really is a princess," he murmured.
+
+"Not the least bit of a lie in it," said the little girl.
+
+"And where is she?" said Lu Xiaofeng.
+
+The little girl smiled again, sweetly. "She was afraid of frightening the young lord Lu off a second time, so she's waiting outside."
+
+Sweet as her smile was, there was a little vinegar in the words.
+
+Lu Xiaofeng could only smile ruefully.
+
+The little girl smiled, wide-eyed. "She's waiting out there now. Though whether the young lord Lu dares to see her, I couldn't say."
+
+"He dares," said Old Huo suddenly. The deep, secretive old man smiled, and went on at his leisure. "For if he won't go and see this Princess Danfeng, I shouldn't wonder if they pull down the houses of every friend he has."
+
+***
+
+The stars glittered, and a waxing crescent moon hung curved in the starry sky. Through the jujube grove drifted wave upon wave of sweet scent, not the scent of jujubes, but of flowers.
+
+The flower-scent came off a dog, a lithe and powerful hunting hound, broad of ear and long of leg.
+
+It was draped with strings of many-coloured blossoms, and carried a basket of flowers in its mouth.
+
+Among the flowers heaped in the basket something shone golden: four ingots of gold, fifty taels apiece at the least.
+
+The little girl took the basket. "This is our Princess's amends to the old gentleman," she said prettily. "Will the young lord Lu accept it on his behalf?"
+
+Lu Xiaofeng blinked. "Amends for what? Because you pulled his house down?"
+
+The little girl nodded.
+
+"Four ingots, a hundred taels and more," said Lu Xiaofeng. "No small sum, to be sure."
+
+For a hut like this, fifty taels of gold would put up several; so the sum was indeed no trifle.
+
+"A trifling token," said the little girl. "I hope the old gentleman will be so kind as to accept it."
+
+"He won't accept it," said Lu Xiaofeng.
+
+"Why not?" said the little girl.
+
+"Because if this gold, a hundred taels and more, is meant as a gift," said Lu Xiaofeng, "he has no need of it; and if it's meant to pay for the hut, it doesn't seem quite enough."
+
+"These are gold ingots of fifty taels each!"
+
+"So I see," said Lu Xiaofeng.
+
+"And that's not enough to make good his hut?"
+
+"It falls a little short," said Lu Xiaofeng.
+
+"A little short by how much?"
+
+"Just how much short, I couldn't reckon exactly," said Lu Xiaofeng. "But another thirty or forty thousand taels ought to about cover it."
+
+"Thirty or forty thousand taels of what?"
+
+"Of gold, of course," said Lu Xiaofeng. "Thirty or forty thousand taels of it."
+
+The little girl laughed.
+
+"You don't believe me?" said Lu Xiaofeng.
+
+The little girl giggled and could not stop. Faced with such a barefaced swindler, what could she do but laugh? She could hardly hand over thirty or forty thousand taels of gold in earnest.
+
+Lu Xiaofeng suddenly took up the carved wooden chair he had been sitting in. "Do you know what chair this is?"
+
+"It looks," said the little girl, laughing, "like a chair for sitting on."
+
+"This chair," said Lu Xiaofeng, "was carved by the master craftsman Lu Zhi four hundred years ago, with his own hands, for the Son of Heaven. Twelve of them are left in all the world. Five are in the imperial palace; six were here, until just now, when your friends smashed four of them to kindling."
+
+The little girl's eyes went wide. She stared at the chair in his hands, and little by little the laugh went out of her.
+
+"And do you know who once lived in this hut?" said Lu Xiaofeng.
+
+The little girl shook her head.
+
+"This was the great poet Lu Fangweng's summer retreat," said Lu Xiaofeng, "where he came to walk and to make his verses. There were poems on these walls in his own hand, and now they've been smashed to rubble too."
+
+The little girl's eyes grew wider still, and she could not keep the astonishment from her face.
+
+"So every splinter of wood in this hut," said Lu Xiaofeng lightly, "may be counted a priceless treasure. Even forty or fifty thousand taels of gold might not be enough to make it good."
+
+He smiled. "Happily, the old gentleman won't ask you for so much as a single cash. For to him, forty or fifty thousand taels of gold and one copper coin are much of a muchness."
+
+The little girl stole her tongue out to wet her lips, and looked at the strange old man in wonder.
+
+Old Huo only sat on at his ease, slowly sipping the half-cup of wine that was left him, as though there were nothing in the world of more moment than the drinking of it.
+
+Lu Xiaofeng turned suddenly to Dugu Fang with a smile. "Your knowledge of the world is wide, I know. You'll have heard, then, who the richest man alive is?"
+
+Dugu Fang considered. "For land, the Hua family of Jiangnan hold the most; for jewels, the Yan family of Guanzhong. But the richest of all is likely Huo Xiu."
+
+"And do you know what manner of man he is?" said Lu Xiaofeng.
+
+"Rich as he is above all the world," said Dugu Fang, "he chooses to live like a hermit, so that few have ever seen his true face. They say only that he is a solitary, cranky old man, and—" He stopped short, and looked at Old Huo.
+
+And now everyone understood at last: this strange and solitary old man was Huo Xiu, the richest man in the world.
+
+Old Huo sighed suddenly and rose, slow to his feet. "Now that someone knows I'm here, I can't well go on living in the place. You may as well have it."
+
+Lu Xiaofeng looked at the heaps of broken wood on the ground. "As I recall, I asked you for it once before, and you wouldn't so much as lend it me for a few nights."
+
+"You said it yourself just now," said Old Huo mildly. "Everything here was a treasure. And how can a man give a treasure away?"
+
+"But once the treasures are so much broken wood, you can give them away?" said Lu Xiaofeng.
+
+"Precisely so," said the old man.
+
+Lu Xiaofeng sighed, with a rueful smile. "Now I understand how you came to be rich."
+
+Old Huo's face did not change. "There's another thing you'd do well to understand."
+
+"And what's that?" said Lu Xiaofeng.
+
+"When you run," said Old Huo, "there may truly be no man alive who can catch you. The pity of it is that the world holds more than men. Take, for instance—"
+
+"Take, for instance, a hound with a keen nose," said Lu Xiaofeng.
+
+Old Huo sighed too. "You're not such a fool after all. One day, who knows, you may even grow rich."
+
+***
+
+A jet-black carriage, jet-black horses, black to a sheen. And over that gleaming black, carriage and team both, were strewn flowers of every colour.
+
+"Our Princess is waiting for you in the carriage," said the little girl. "Get in."
+
+"Get in?" said Lu Xiaofeng.
+
+"Mm," said the little girl.
+
+"And then?" said Lu Xiaofeng.
+
+"And then this carriage will take you to a place you've never been. Once you're there, I promise you, you won't be sorry."
+
+"No, I won't be sorry," said Lu Xiaofeng, "because I'm not going at all."
+
+The little girl's eyes went wide again, as if in surprise. "Why won't you go?"
+
+"Why should I follow someone I've never met to a place I've never been?" said Lu Xiaofeng.
+
+The little girl blinked. "Because—because we'll give you a great deal of gold."
+
+Lu Xiaofeng laughed.
+
+"You don't like gold?"
+
+"I like gold well enough," said Lu Xiaofeng. "I just don't like risking my neck for it."
+
+The little girl's eyes went round and round. "It's very quiet inside the carriage," she said, low. "And our Princess is a great beauty, and the road is long. All manner of things might happen along the way."
+
+Lu Xiaofeng smiled. "Now there's something that begins to tempt me."
+
+A light sprang into the little girl's eyes. "Then you'll get in?"
+
+"No," said Lu Xiaofeng.
+
+The little girl pouted. "Why not, still?"
+
+"I've always been fond of beautiful women," said Lu Xiaofeng. "But I don't like risking my neck for one, either."
+
+"What would you risk your neck for, then?"
+
+"For myself," said Lu Xiaofeng.
+
+"And for no one else in all the world?" said the little girl.
+
+"No one," said Lu Xiaofeng.
+
+The little girl's eyes went round again. "Not even for Hua Manlou?"
+
+"Hua Manlou?" said Lu Xiaofeng.
+
+"You'll know Hua Manlou, I should think," said the little girl easily. "He's waiting for you there too. If you don't come, he'll be so disappointed."
+
+"If he wanted me to come, he'd have come for me himself," said Lu Xiaofeng.
+
+"Only just now he can't."
+
+"Why not?" said Lu Xiaofeng.
+
+"Because just now he can't walk a single step."
+
+"You mean he's fallen into your hands?" said Lu Xiaofeng.
+
+"It rather seems so."
+
+Lu Xiaofeng burst out laughing, as though he had just heard the most absurd thing in the world, and held his sides with it.
+
+The little girl could not help asking, "What are you laughing at?"
+
+"At you," said Lu Xiaofeng. "You're a child after all. You can't even lie properly."
+
+"Oh?" said the little girl.
+
+"If you could lay Hua Manlou by the heels," said Lu Xiaofeng, "there'd be nothing in the world you couldn't do, and no need to come to me."
+
+The little girl gave a faint smile. "You're no fool. But you're not so very clever, either."
+
+"Oh?" said Lu Xiaofeng.
+
+"If you were truly clever, you'd have grasped two things long ago."
+
+"Oh?" Lu Xiaofeng said again.
+
+"First: I'm no child. I'm Princess Danfeng's elder cousin. She's only nineteen this year, and I'm already twenty."
+
+This time Lu Xiaofeng was truly taken aback. He looked the little girl up and down, several times over, and could not for the life of him see a young woman of twenty in her. She scarcely looked twelve.
+
+"You ought to know," the little girl went on evenly, "that some people simply never grow tall. There are old men of sixty and seventy a good head shorter than I am. You must have seen them."
+
+Lu Xiaofeng still half disbelieved it, yet he could not deny that such people did exist.
+
+"Second: you ought to know that Hua Manlou is not like you."
+
+"He's cleverer than I am," said Lu Xiaofeng.
+
+"But he's a good man."
+
+"And I'm not?" said Lu Xiaofeng.
+
+"Just because you're not a good man, you're not easily taken in. But he trusts everyone, and a man like that is far easier to fool."
+
+Lu Xiaofeng looked at her, up and down again, several times more, then asked abruptly, "Are you really twenty?"
+
+"I turned twenty only last month."
+
+Lu Xiaofeng smiled. "A person of twenty ought to know that a bad sort like me will never risk his neck for a friend. Not for any friend under heaven."
+
+The little girl stared at him. "Truly?"
+
+"Truly," said Lu Xiaofeng.
+
+Lu Xiaofeng was already seated in the carriage, and the carriage was already rolling.
+
+The cabin too was heaped with flowers of every colour, and Princess Danfeng sat among them like the rarest and loveliest of black roses. Her eyes were black as well, black and bright, and they rested on Lu Xiaofeng.
+
+Lu Xiaofeng did not look at her. He had shut his eyes, as though he meant to sleep the journey away.
+
+Princess Danfeng smiled of a sudden, and said softly, "A moment ago I thought you wouldn't get in."
+
+"Oh?" said Lu Xiaofeng.
+
+"I fancy I heard you say just now," said Princess Danfeng, "that you'd never risk your neck for any friend."
+
+"Nor will I," said Lu Xiaofeng lightly. "But there's no harm in taking a carriage ride for a friend."
+
+Princess Danfeng smiled again. When she smiled at you, it was as though a whole garden of spring flowers had opened all at once before your eyes.
+
+Lu Xiaofeng's eyes had just opened; at once he shut them again.
+
+"You seem unwilling even to look at me," said Princess Danfeng softly. "Why is that?"
+
+"Because the cabin is small," said Lu Xiaofeng, "and I'm a man who can't withstand temptation."
+
+"You're afraid I'll tempt you?" said Princess Danfeng.
+
+"I'd as soon not risk my neck for you either," said Lu Xiaofeng.
+
+"And how do you know it's your neck I want?" said Princess Danfeng.
+
+"Because I'm not a fool," said Lu Xiaofeng.
+
+Princess Danfeng plucked up a flower and gazed at it in silence. A long while passed before she sighed, gently. "You're quite right. We did come to ask you to do a thing for us. But I've no wish to tempt you into it, nor any need to."
+
+"Oh?" said Lu Xiaofeng.
+
+"Because I know there is a kind of man who will do anything at all for a friend," said Princess Danfeng.
+
+"What kind of man is that?" said Lu Xiaofeng.
+
+"Your kind," said Princess Danfeng.
+
+Lu Xiaofeng smiled. "I don't know my own kind myself. And you do?"
+
+"I'd never met you before," said Princess Danfeng. "But I've heard a great many tales of you."
+
+Lu Xiaofeng listened. Perhaps the only man who had never heard these tales was Lu Xiaofeng himself.
+
+"Plenty of people have told me you're a scoundrel," said Princess Danfeng. "But even they can't help owning that you're the most likeable scoundrel of the lot."
+
+Lu Xiaofeng sighed. He honestly could not tell whether this was praise or mockery. But his eyes were open now, at least.
+
+"They all say that for all you look like a stone out of a privy-pit, hard and foul," said Princess Danfeng, "your heart is soft as bean-curd."
+
+Lu Xiaofeng could only smile ruefully.
+
+Princess Danfeng smiled again. "Tales aren't always to be trusted, of course. But in one thing at least they told no lie."
+
+Lu Xiaofeng could not help asking, "Which thing?"
+
+"I could never make out," said Princess Danfeng prettily, "why they said you had four eyebrows. Now, at last, I understand."
+
+Lu Xiaofeng knit his brows, and as he did, his moustache seemed to knit along with them.
+
+"Have you guessed yet," said Princess Danfeng, "who it was that told me all this?"
+
+Lu Xiaofeng frowned. "Is Hua Manlou truly with you?"
+
+"Why should I lie to you?" said Princess Danfeng. "You'll see him soon enough."
+
+"Blind as he is, he can feel danger ten li off," said Lu Xiaofeng. "I can't for the life of me see how he fell into your hands."
+
+"Because he's a good man, and a man besides," said Princess Danfeng. "Let a good man meet a bad woman, and he's bound to be taken in."
+
+"And he met you?" said Lu Xiaofeng.
+
+Princess Danfeng sighed. "Now and then I like to play a trick on someone myself. But ten of me together are no match for one Shangguan Feiyan."
+
+"Shangguan Feiyan?" said Lu Xiaofeng.
+
+"Shangguan Feiyan is Xue'er's elder sister," said Princess Danfeng.
+
+"And who is Xue'er?" said Lu Xiaofeng.
+
+"Xue'er is my little cousin," said Princess Danfeng, "the same small girl who came to fetch you just now."
+
+"Not your elder cousin, then?" said Lu Xiaofeng.
+
+Princess Danfeng laughed. "She's twelve years old this year. How should she be my elder cousin?"
+
+Lu Xiaofeng was dumbstruck, and could not tell whether to weep three times or to laugh three.
+
+He could scarcely believe he had been led round in circles by a chit of a girl of twelve.
+
+With a little sister like that, one could well imagine what the elder must be.
+
+Princess Danfeng, seeing the caught-between-tears-and-laughter look on his face, could not help another lovely smile. "That little imp can lie without so much as a blink. Did she take you in too?"
+
+"At the least," said Lu Xiaofeng ruefully, "I understand now how Hua Manlou came to be taken in."
+
+"He's with us, yes, but we hold him in great respect," said Princess Danfeng, "and not only because he's your good friend. Because he is truly a remarkable man."
+
+"That he is," said Lu Xiaofeng.
+
+"You and he, and Zhu Ting," said Princess Danfeng, "knew one another when you were very small, did you not?"
+
+"You seem to know a great deal about me," said Lu Xiaofeng.
+
+Princess Danfeng smiled. "To be honest, we've been seven months at least preparing to find you."
+
+Lu Xiaofeng sighed. "When anyone spends seven whole months hunting for a man, that man is generally in for a bad time of it."
+
+"But we mean you no harm," said Princess Danfeng softly.
+
+Lu Xiaofeng could only smile ruefully.
+
+"What we ask of you is dangerous," said Princess Danfeng. "But I believe you can do it."
+
+She gazed at him, her eyes full of admiration and faith. "And what is it, exactly, that you want me to do?" said Lu Xiaofeng.
+
+Princess Danfeng lowered her head, and hesitated. "There's no need to tell you now. You'll know soon enough."
+
+"Liu Yuhen, Xiao Qiuyu, Dugu Fang," said Lu Xiaofeng. "They've come for this same thing?"
+
+Princess Danfeng nodded, then smiled. "They weren't easy to find either. But a great deal easier than you."
+
+"And how did you bring the three of them in?" said Lu Xiaofeng.
+
+"Every man has his weak spot," said Princess Danfeng with a smile. "Just as they'd never guess how I mean to bring you in."
+
+She held the flower in her hand out before Lu Xiaofeng, and went on slowly. "Liu Yuhen, Xiao Qiuyu, Dugu Fang, Hua Manlou, and you to make five. If there were anything in the world the five of you together could not do, that would be a wonder indeed."
+
+Beyond the carriage windows a milk-white mist was rising, and the lamplight within grew softer.
+
+Lu Xiaofeng gazed at the flower in her hand. Bright as the flower was, her hand was lovelier.
+
+With that slender, soft hand she tucked the flower gently into the breast of Lu Xiaofeng's robe. "You'd do better to get to sleep quickly," she said softly.
+
+"Why?" said Lu Xiaofeng.
+
+Princess Danfeng bowed her head, her voice softer still, and gentler. "Because I can no longer keep myself from beginning to tempt you."
+
+The carriage rolled on and broke through the thick mist, thick, but a morning mist; the long night was over at last.
+
+Lu Xiaofeng lay back in the cabin, seemingly asleep.
+
+"Sleep well," said Princess Danfeng softly. "When you wake, it may be you'll see him."
+
+Lu Xiaofeng could not help opening his eyes again. "See whom?"
+
+"The Great King of the Golden Roc," said Princess Danfeng.

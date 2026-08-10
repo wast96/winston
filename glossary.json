@@ -144,6 +144,75 @@
       "pinyin": "Jiangdong Sijie",
       "status": "decided",
       "note": "The four grand men Lu Xiaofeng humiliated with a stroke of the pen, left kneeling in the Peach Blossom Hall with mocking labels painted on their brows (ch02)."
+    },
+    "丹凤公主": {
+      "en": "Princess Danfeng",
+      "pinyin": "Danfeng Gongzhu",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 5,
+      "cast": "The princess of the fallen kingdom of the Golden Roc, and the girl in black who knelt to Lu Xiaofeng at the close of Chapter 1. Soft-spoken, gracious and shrewd, she draws him into her father&#8217;s cause.",
+      "note": "<i>Danfeng</i> (丹凤) means &#8216;scarlet phoenix&#8217;; her surname is Shangguan. She teases that she is Princess <i>Danfeng</i>, not Princess <i>Xiaofeng</i> (&#8216;little phoenix&#8217;), which is Lu Xiaofeng&#8217;s own name (ch03)."
+    },
+    "大金鹏王": {
+      "en": "the Great King of the Golden Roc",
+      "pinyin": "Da Jinpeng Wang",
+      "status": "decided",
+      "note": "The aged, fallen monarch of the kingdom of the Golden Roc, carried into China as a child when his realm was overrun; Princess Danfeng&#8217;s father. He seeks justice from the three ministers who betrayed the old King (ch04)."
+    },
+    "霍休": {
+      "en": "Huo Xiu",
+      "pinyin": "Huo Xiu",
+      "status": "decided",
+      "note": "The richest man under heaven, who lives as a reclusive, cranky old man (&#8216;old Huo&#8217;) in a hut on the mountainside; revealed to be Shangguan Mu, one of the four ministers entrusted with the Golden Roc&#8217;s treasure, and the secret source of his own vast fortune (ch03&#8211;ch04)."
+    },
+    "独孤一鹤": {
+      "en": "Dugu Yihe",
+      "pinyin": "Dugu Yihe",
+      "status": "decided",
+      "note": "The present master of the Emei sword-sect and secret head of the Blue-Robe Tower; revealed to be Ping Duhe, one of the four traitor-ministers. Not to be confused with Dugu Fang, who shares the two-syllable surname Dugu but is his enemy (ch04)."
+    },
+    "阎铁珊": {
+      "en": "Yan Tieshan",
+      "pinyin": "Yan Tieshan",
+      "status": "decided",
+      "note": "The jewel magnate of Guanzhong, of the Yan house; revealed to be Yan Liben, one of the four traitor-ministers. It was he who sliced away half of Liu Yuhen&#8217;s face (ch04)."
+    },
+    "上官雪儿": {
+      "en": "Shangguan Xue'er",
+      "pinyin": "Shangguan Xue'er",
+      "status": "decided",
+      "note": "The little cousin of Princess Danfeng and younger sister of Shangguan Feiyan; a girl of twelve who lies without a blink and leads Lu Xiaofeng in circles. She fears her vanished sister has been murdered (ch03&#8211;ch04)."
+    },
+    "上官谨": {
+      "en": "Shangguan Jin",
+      "pinyin": "Shangguan Jin",
+      "status": "decided",
+      "note": "The Great King&#8217;s maternal uncle and one of the four ministers; the only one to stay loyal, he raised the exiled king in China and has since died (ch04)."
+    },
+    "上官木": {
+      "en": "Shangguan Mu",
+      "pinyin": "Shangguan Mu",
+      "status": "decided",
+      "note": "The original name of Huo Xiu, one of the four ministers of the Golden Roc (ch04)."
+    },
+    "平独鹤": {
+      "en": "Ping Duhe",
+      "pinyin": "Ping Duhe",
+      "status": "decided",
+      "note": "The original name of Dugu Yihe, one of the four ministers of the Golden Roc (ch04)."
+    },
+    "严立本": {
+      "en": "Yan Liben",
+      "pinyin": "Yan Liben",
+      "status": "decided",
+      "note": "The original name of Yan Tieshan, one of the four ministers of the Golden Roc (ch04)."
+    },
+    "叶孤城": {
+      "en": "Ye Gucheng",
+      "pinyin": "Ye Gucheng",
+      "status": "decided",
+      "note": "The Lord of White Cloud City, of Flying-Immortal Isle in the Southern Sea; named in passing by Lu Xiaofeng as one of the few peerless swordsmen of the age, beside Ximen Chuixue (ch04)."
     }
   },
   "organizations": {
@@ -158,6 +227,12 @@
       "pinyin": "Qingyi Lou",
       "status": "decided",
       "note": "A vast, tightly-run criminal organisation: a hundred and eight towers, a hundred and eight men to each, whose portraits hang in a First Tower whose location no one knows. Its enforcers come for Lu Xiaofeng in ch02. See the note on the number 108. The Tower is Gu Long&#8217;s invention."
+    },
+    "金鹏王朝": {
+      "en": "the Golden Roc",
+      "pinyin": "Jinpeng Wangchao",
+      "status": "decided",
+      "note": "The ancient kingdom whose name gives this volume its title, <i>The Golden Roc Dynasty</i>: a far realm overrun fifty years before the story, whose royal house bore the surname Shangguan. The <i>jinpeng</i> (金鹏) is the golden <i>peng</i>, the vast mythic bird of Chinese legend (ch04)."
     }
   },
   "places": {
@@ -196,6 +271,24 @@
       "pinyin": "Qingyun Kezhan",
       "status": "decided",
       "note": "The inn where Lu Xiaofeng is putting up when the Blue-Robe Tower&#8217;s enforcers find him (ch02)."
+    },
+    "关中": {
+      "en": "Guanzhong",
+      "pinyin": "Guanzhong",
+      "status": "decided",
+      "note": "&#8216;Within the passes&#8217;: the region around the ancient capital Chang&#8217;an (modern Xi&#8217;an), in the Wei River valley. The Yan jewel-house is seated there (ch03&#8211;ch04)."
+    },
+    "中土": {
+      "en": "the Central Lands",
+      "pinyin": "Zhongtu",
+      "status": "decided",
+      "note": "Literally &#8216;the central land&#8217;: China proper, the settled heartland, as named from the vantage of the frontier kingdom of the Golden Roc (ch04)."
+    },
+    "峨嵋": {
+      "en": "Emei",
+      "pinyin": "Emei",
+      "status": "decided",
+      "note": "Mount Emei in Sichuan, one of the sacred mountains of Chinese Buddhism and the seat of a great martial sect; here its sword-school, whose master is secretly the traitor Dugu Yihe (ch04). See also the later Four Beauties of Emei (ch09)."
     }
   },
   "terms": {

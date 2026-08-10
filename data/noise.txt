@@ -80,4 +80,36 @@
 # 两位/两杯/两条(count 2) has no numerical prefix and stays. The rule is
 # a lookbehind so the built-in _guard is not needed.
 (?<=[百千万萬])两
+# --- B03 (ch03 丹凤公主 / ch04 大金鹏王) ---
+# 五十两一锭 (fifty taels the ingot): the tael 两 sits between 五十 and 一(锭),
+# and cn_to_int reads the whole run 五十两一 as 51. Strip 两一 (tael marker +
+# the bare measure-一 of 一锭) when it sits between 十 and 锭, leaving 五十锭 =
+# 50. MUST precede the (?<=十)两 rule below, or that rule strips the 两 first
+# and 五十一锭 still reads 51. Rendered "gold ingots of fifty taels each" (ch03).
+(?<=十)两一(?=锭)
+# 两 as the tael measure word after 十 (五十两 = 50 taels; 一百多两 handled by
+# the 多 rule below). Parallel to the 百/千/万 rule above: without it 五十两
+# parses as 52 (十→50, then 两→digit 2). The count "two" (两位/两条/两腿) never
+# follows 十, so this is safe. Rendered "fifty taels" etc. (ch03, the golden
+# ingots the Princess sends to pay for Huo Xiu's smashed hut).
+(?<=十)两
+# 两 as the tael measure word after 多 (一百多两 = "a hundred-odd taels"): the
+# 多 breaks the numeral run, so the trailing 两 would otherwise orphan a stray
+# 2. Rendered "a hundred taels and more" (ch03). The count "two" never follows
+# 多, so this is safe.
+(?<=多)两
+# 丑八怪 = "ugly freak/hag" (lit. "ugly eight-monster"); the 八 is idiom, not a
+# count. Rendered "frightful hag" / "a hag" (ch03).
+丑八怪
+# 五色缤纷 / 五彩衣 = "a riot of colour" / "motley robe"; the 五 ("five colours")
+# is the colour idiom, not a count. Parallel to the B02 五彩缤纷 rule. Rendered
+# "flowers of every colour" / "motley colours" (ch03). Longest-first: the 缤纷
+# forms first, then the bare colour prefixes.
+五色缤纷
+五色
+五彩
+# 威棱四射 / 四射 = "(authority) radiating in all directions"; the 四 is the
+# "four directions" idiom, not a count. Rendered "flashed with authority"
+# (ch04, the traitor Ping Duhe's triangular eyes).
+四射
 

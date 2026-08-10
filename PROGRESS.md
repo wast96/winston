@@ -482,3 +482,142 @@ HANDOFF as his voice sheet.
 - `scratchpad/qc_config.json` — the check_content / check_structure config
   ({docs, sources, notes, heading_depth}). Extend `docs`/`sources` as each
   new unit lands.
+
+## B03 = Chapters 2-3 (ch03 丹凤公主 / ch04 大金鹏王)
+
+### Environment / setup
+
+- `./setup.sh`: pillow present, epubcheck at /tmp/epubcheck-5.1.0/. Regression
+  harness 9/10 as documented (the one FAIL is the expected `hook stands down on
+  template stub` case; HANDOFF carries a real kickoff, so the hook correctly
+  enforces). Not a defect.
+- `data/src/*` was gitignored/absent; regenerated with `scripts/ingest_epub.py
+  source.epub` (18 spine docs, 3 images, 124,096 src chars). book.json untouched.
+- **Source's own notes: none present.** `grep -cE '\[[0-9]+\]'` over
+  `data/src/08_part0000-split-006.txt` and `09_part0000-split-007.txt`: 0 each.
+
+### Scope
+
+- ch03 (第二章 丹凤公主 / Chapter 2. Princess Danfeng), 7,656 src chars, 330
+  source lines. **Three scenes** (bare-numeric dividers at source lines 3, 147,
+  200). `***` inserted after paragraphs 141 and 193.
+- ch04 (第三章 大金鹏王 / Chapter 3. The Great King of the Golden Roc), 8,931 src
+  chars, 344 source lines. **Four scenes** (dividers at 3, 174, 255, 308).
+  `***` inserted after paragraphs 167, 247, 297.
+- make_bilingual skip=2 both (line 1 running-title stub, line 2 chapter title).
+- **No extractor-split paragraphs** (every body line ends on terminal
+  punctuation; joined with '' into merged paragraphs). No U+200B, no doubled
+  headings, no spliced captions.
+
+### Digitization glitches (rendered to plain sense; not footnoted)
+
+- **ch03 / ch04: none identified.** Quote marks balanced (246/246, 248/248),
+  no fullwidth Latin in digits, no zero-width chars, no guillemets. Source clean.
+- Note: line 129 of ch03 says Xiao takes the jar "从柳余恨手里" though Lu was
+  last holding it (source's own continuity looseness, one line earlier). Rendered
+  faithfully to the source ("took the jar from Liu Yuhen's hand"); not a
+  digitization glitch, not footnoted.
+
+### Merged-paragraphs pipeline
+
+- **ch03: 330 body lines → 323 merged paragraphs** (2 merges: opening narration
+  (4,5) and (6,7); the rest 1:1 — this chapter is dialogue-dense).
+- **ch04: 344 body lines → 333 merged paragraphs** (merges (4,5), (6,8) at the
+  King's introduction; (256,257) and (259,260) at the garden scene; rest 1:1).
+- Builder `scratchpad/build_b03.py` (re-ranged copy of the B02 method): writes
+  merged source (two title lines + one line per paragraph), make_bilingual (parity
+  by construction), split_bilingual, then post-inserts `***` at the scene
+  boundaries. `apply_format_markers.py` NOT run (source HTML has no markers).
+
+### Checks (all green)
+
+- `verify_unit.py ch03 ch04`: parity 323/333, **numbers 0 unresolved**
+  (`--noise data/noise.txt`), anchors 4/6 ok.
+- `check_align.py`: ch03 median 3.81, ch04 median 3.88 en/han; **no strays**
+  (2.2x). (Both cleared only after adding dialogue attributions to short turns —
+  see Attribution below.)
+- `check_content.py --config scratchpad/qc_config.json`: ch03 252 name
+  occurrences, ch04 295, **all in the paired paragraph**.
+- `qc_entities.py`: ch03 0 misses, ch04 0 misses.
+- `check_apparatus.py`: 0 failures, 0 warnings.
+- `check_structure.py`: parity 154/289/323/333 all OK; 36 note anchors, 0
+  unresolved; headings OK; ALL PASS.
+- **Tail verification:** ch03 final lines (陆小凤斜倚…似已睡着 / 你好好地睡一觉…
+  / 他是谁？ / 大金鹏王) and ch04 final lines (我也有个希望 / 什么希望 /
+  人肉包子…迷魂酒) checked verbatim against source L328-330 and L342-344 before
+  shipping.
+- Build: `build_reading_epub.py` → 4 of 13 chapters, 36 notes, 0 source notes.
+  `qa_epub.py` PASS (27 files, 20 documents, 36 refs/36 bodies/36 backlinks).
+  **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.**
+- `check_register.py --ref out/ch01_reading.md`: ch03 27.3/1k (0.68x ref),
+  ch04 23.2/1k (0.58x) — **within tolerance** (fail is <0.45x). ch04 "shall"
+  15% flagged as a WARNING: this is the Great King's deliberately ceremonial,
+  archaic register ("I will have them…", "I shall never… forget") — a fallen
+  monarch's dignified speech, intended, not drift. Rhythm CV 0.67/0.68 vs ref
+  0.75 (within; no flattening).
+
+### Attribution (check_content + check_align, same fix as B02)
+
+- ch03's rapid Lu/old-Huo and Lu/little-girl banter and ch04's dialogue left
+  many short turns as bare quotes. `check_content` requires each capitalised
+  glossary name (Lu Xiaofeng, Princess Danfeng, Shangguan Xue'er, Xiao Qiuyu,
+  Dugu Fang, …) in every paragraph its source names; `qc_entities` also wants
+  the first/last name-word present; and bare interjections ("Oh?" / "Mm.")
+  register as `check_align` ratio outliers. All three were resolved together by
+  adding natural speaker attributions ("said Lu Xiaofeng", "said the old man",
+  "said the little girl", "said Princess Danfeng") — 70 turns in ch03, 3 in ch04.
+  Continue this pattern (it is the frozen ch02 approach).
+
+### Footnotes (4 for ch03, 6 for ch04; density tapering from B02's 11)
+
+ch03: (1) Princess Little Phoenix — the Danfeng/Xiaofeng name-play and the
+Shangguan royal surname; (2) "A wine-ghost, of course" — the 酒鬼 (ghost /
+drunkard) pun; (3) Lu Fangweng — the real poet Lu You (1125-1210), and that the
+whole provenance speech is Lu's extortion patter; (4) "Lust is a blade that
+scrapes the bone" — the folk couplet on the four vices.
+ch04: (1) "the Central Lands" (中土, China proper from the frontier vantage);
+(2) the Cossacks (the deliberately vague north-western steppe geography);
+(3) the Emei sword-sect (Mt Emei; Dugu Yihe's cover); (4) the spirit-tablet
+(灵位, ancestral veneration); (5) the Shaolin abbot (Shaolin & Wudang, the two
+great traditions); (6) man-flesh buns (the Water Margin bandit-inn allusion;
+also glosses the "soul-stealing wine").
+
+**NOT re-noted / deliberately not footnoted:**
+- Period units — tael (五十两/一百多两), cash (一文钱), zhang (五六丈/三丈),
+  li (十里), catty (几百斤): all footnoted at first appearance in ch01; NOT
+  re-noted (money/units settled book-wide).
+- "多情自古空余恨" (ch04 L173): noted in ch02; NOT re-noted.
+- wangba / point-sealing / jianghu / lightness-skill: prior chapters.
+- 太师椅 mandarin's chair, 判官 etc.: prior chapters.
+- 鸡冠花 cockscomb, 波斯葡萄酒 Persian wine, 三角眼 three-cornered eyes, 天子
+  Son of Heaven, 茅坑里的石头 privy-stone idiom, 敲竹杠 swindle: rendered to
+  plain sense in the English, no note.
+
+### Apparatus / glossary added
+
+- **notes.json**: 4 under ch03, 6 under ch04 (total 36 book-wide).
+- **glossary.json**: 15 new rows (two-level, added directly under sections;
+  apparatus_merge used for NOTES only). People (11): Princess Danfeng
+  (principal, cast_order 5), the Great King of the Golden Roc, Huo Xiu, Dugu
+  Yihe, Yan Tieshan, Shangguan Xue'er, Shangguan Jin, Shangguan Mu, Ping Duhe,
+  Yan Liben, Ye Gucheng. Organisation (1): the Golden Roc (金鹏王朝, the
+  kingdom / the volume's title). Places (3): Guanzhong, the Central Lands, Emei.
+  All `status: decided`.
+- No figures (the book has none).
+
+### noise.txt additions (all justified by real B03 flags; documented in-file)
+
+- `(?<=十)两一(?=锭)` then `(?<=十)两` then `(?<=多)两` — the tael measure word
+  after 十/多 (五十两→50, 五十两一锭→50, 一百多两→100). Order load-bearing.
+- `丑八怪` (ugly-hag idiom, the 八 is not a count).
+- `五色缤纷` / `五色` / `五彩` (the "five colours" colour-idiom, not a count).
+- `四射` (威棱四射 "radiating in all directions", the 四 is idiom).
+
+### Decided shelf renderings (this batch sets them)
+
+- 丹凤公主 → Princess Danfeng; 大金鹏王 → the Great King of the Golden Roc;
+  金鹏王朝 → the Golden Roc (the kingdom); 霍休 → Huo Xiu (the reclusive
+  "old Huo"); 独孤一鹤 → Dugu Yihe; 阎铁珊 → Yan Tieshan; 上官雪儿 → Shangguan
+  Xue'er; 上官谨 → Shangguan Jin; 上官木/平独鹤/严立本 → Shangguan Mu / Ping
+  Duhe / Yan Liben (the traitors' original names); 叶孤城 → Ye Gucheng;
+  关中 → Guanzhong; 中土 → the Central Lands; 峨嵋 → Emei. 波斯 → Persian.
