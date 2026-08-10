@@ -5,7 +5,12 @@ commissioner approved the revised B01 voice on the second pass). ch03 is now the
 FROZEN register reference: measure every later unit with
 `check_register.py --ref out/ch03_reading.md`. The natural contemporary-English
 voice of the revised B01 (see the voice-gate revision note in PROGRESS.md) is
-the standard for the whole book. B02 is in progress.
+the standard for the whole book.
+
+**B01 is COMPLETE and approved. B02 has NOT been started.** Run B02 in a FRESH
+session by pasting the kickoff below. (Note for whoever runs it: ch05 is a
+scholarly paper whose author footnotes are to be reproduced in full, each marked
+as the author's, alongside the translator notes — the commissioner's decision.)
 
 ## Message to paste into the next chat
 
