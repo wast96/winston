@@ -272,3 +272,47 @@ Mitsuhide strictly forbade the setting of fires, and after three days of feastin
 
 Hideyoshi, the moment word of the disaster reached him, patched up a hasty peace with the Mōri — on terms that had Shimizu Muneharu, commander of the Takamatsu castle he had been flooding out, cut open his own belly — and on the seventh drove through wind and rain back to Himeji, and on the morning of the ninth set out for Kyoto. On the afternoon of the thirteenth the two armies joined battle at Yamazaki; in a little while Mitsuhide's army broke, and Mitsuhide himself, fleeing under cover of the black night, was killed near Ogurusu by peasants out to strip the armor from beaten stragglers.
 
+The next day, the fourteenth, was a day of much head-taking. An order had gone out that the heads taken were to be brought to Honnō-ji, to be offered up for the repose of Nobunaga's own head; and so in no long time more than two thousand heads were brought in.
+
+Past the front of the Nanban-ji people went by in an unbroken file, heads swinging from their hands. There were even parties of three lugging thirty heads and more, roped together — some slung over a shoulder, some dragged along the ground.
+
+The heat that day was savage, and the stench lay thick over the whole quarter; whenever the wind came from the direction of Honnō-ji, the Nanban-ji, heat or no heat, had to shut every window tight.
+
+Akechi Mitsuharu, Mitsuhide's nephew, hearing of the rout at Yamazaki, threw up Azuchi in haste and fell back on Sakamoto Castle; that very day Sakamoto fell, and Mitsuhide's wife and children, and all the Akechi kin with them, perished in the flames. In the confusion fires were set, and Azuchi Castle in all its boasted splendor, and the seminary along with it, were in no time reduced to ash.
+
+The dead of those eight days came to more than ten thousand in all. Padre Joseph, who went up from Sakai to Kyoto on the seventeenth, reported on his return to the Nanban-ji that in the course of that one afternoon he had met more than five hundred corpses drifting down the Yodo River.
+
+To this same Nanban-ji the whole company of the Azuchi seminary, burned out of house and home, had come to settle, so that the place grew very crowded and full of life.
+
+Hideyoshi had Mitsuhide's head and trunk skewered together on bamboo spits, raised on a cross, and set up for show at a place called Hi-no-oka, east of Higashiyama and north of Yamashina.
+
+Hearing the rumor of it, Tamo went dragging her feet up the slope that runs south from before the Nanzen-ji, and came at last to the place where the cross stood. The head, buried a while in the earth at Ogurusu, had fallen horribly to rot, and become a thing of dread to look upon.
+
+Nobunaga, who had massacred Kashii and all the rest of the Iga folk in a wall of fire; and this man, who had burned that same Nobunaga to death in the flames of Honnō-ji — here he was, a bare fifteen days after killing Nobunaga, hung up in this hideous shape.
+
+And Tamo herself: ten years before, at Ichijōdani in Echizen, she had had the left side of her face burned and had died, as it were, once; and last year she had had her left hand and left foot burned, and had died a second time. Somehow her body had never been defiled — but the ugliness and the terror of men she had been taught, in her wandering from Echizen to Iga, past all bearing.
+
+Facing the crucified corpse, a lone forlorn shape between heaven and earth, she was gripped by a loneliness that gnawed at the bone. If this was the loneliness she must taste, she wanted no more of life at all; she wanted to die, and be rid of it.
+
+But just as she began to totter off, meaning to hang herself from some tree or fling herself into the water, far in the distance the Angelus bell began to ring. No one yet knew who the new master of the land would be, nor how that master would deal with the Christian faith; and so, for caution's sake no doubt, they rang it only softly — a thin, feeble sound.
+
+Yet that faint sound, and the memory of the people there — the only people who ever spoke her a kind word — held Tamo back to life.
+
+She did not, even now, truly believe in the Santa Maria or the Jesus Christ that Organtino and the others told her of. It was only that some vague something hovering about the Nanban-ji had become a slender thread, and drew her in.
+
+***
+
+Now: we have spent all this while on the great convulsions of history, and for a good stretch there has been no opening for the ninja to come on. But here, at last, their turn comes round.
+
+It begins with the famous Tarao Crossing of Tokugawa Ieyasu, and out of it is born the bond between the house of Tokugawa and the ninja that would hold all through the Edo shogunate.
+
+Fifteen chō north of Iga-Ueno, on the far bank of the Hattori River, lies a village called Hattori.
+
+The Hattori, like the Hata, were of the Kurehatori — the "Kure weavers" — descended from immigrants naturalized out of the mainland. By their own genealogy they sprang, in the beginning, from the spirit of smoke. An ancestor had served as a retainer of Taira no Tomomori, come back alive from the battle of Dan-no-ura, gone to ground in the Yono estate two ri south of Ueno, and set himself up as a local magnate under the surname Chigachi. His descendants turned to the ninja's art, took the lower shinobi of the district under them, and rose to be shinobi of the middle rank.
+
+In the generation of Hanzō's father the family left Iga to serve Ieyasu, and was taken into his close guard. They kept up a coming and going with Iga, so that although Hanzō himself was not there when Nobunaga trampled the province, he had many friends among its people.
+
+He was a quick-witted, tireless man, and that was why he had been taken into the personal guard. He was not so grimly hard-bitten a figure as Ishikawa Goemon; but, every inch the descendant of mainland stock, he was fair-skinned and long of eye, standing better than five shaku eight sun, his irises brown and the whites of his eyes touched with blue. He was now forty-two years old.
+
+Ieyasu, thirteen days before the affair at Honnō-ji — on the twenty-first of the fifth month — had set out for the capital at Nobunaga's invitation,
+
