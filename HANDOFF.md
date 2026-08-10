@@ -1,23 +1,30 @@
 # HANDOFF — The Gangs of Old Shanghai (旧上海的帮会)
 
-The baton. A fresh session reads this and continues. **At the voice gate right
-now:** Batch 1 is built and delivered; the project is STOPPED for the
-commissioner to judge voice, note density, and formatting before the rest of
-the book follows. Do not start Batch 2 until that approval comes; on approval,
-ch03 becomes the FROZEN register reference and the real Batch 2 kickoff gets
-written into the block below.
+The baton. A fresh session reads this and continues. **Voice gate PASSED** (the
+commissioner approved the revised B01 voice on the second pass). ch03 is now the
+FROZEN register reference: measure every later unit with
+`check_register.py --ref out/ch03_reading.md`. The natural contemporary-English
+voice of the revised B01 (see the voice-gate revision note in PROGRESS.md) is
+the standard for the whole book. B02 is in progress.
 
 ## Message to paste into the next chat
 
 ```
-(First line: the project label and batch, e.g. "Gangs of Old Shanghai B02",
-then a blank line. Then the kickoff body per CLAUDE.md: read CLAUDE.md,
-HANDOFF.md, book.json; do batch B02 = ch05–ch06 (Green Gang origins: Li Shiyu
-+ Jiang Hao), PDF 38–76, printed 29–67, end to end per the pipeline; BEFORE
-translating, read the final two pages of ch04's English (the voice); cite
-printed folios; never invent bridging text; do not pause for approval; deliver
-the EPUB in chat and paste the next kickoff. — Written only AFTER the voice
-gate is approved.)
+Gangs of Old Shanghai B02
+
+Read CLAUDE.md, then HANDOFF.md, then book.json. Do batch B02 = ch05 (青帮早期组织考略,
+Li Shiyu) + ch06 (青帮的源流及其演变, Jiang Hao), PDF 38–76, printed 29–50 and 51–67,
+end to end per the pipeline. This scan defeats geometric indent detection, so
+assemble from the fallback and hand-build the zh files to match the English 1:1
+(see B01). BEFORE translating, read the final two pages of ch04's English and skim
+ch03 — that natural voice is the frozen reference; no stilted/period register,
+digits for specific quantities. ch05 is a scholarly paper with the AUTHOR'S OWN
+numbered footnotes/citations (captured at each page foot in the OCR): reproduce
+them as author-attributed notes, distinct from translator notes. Green Gang lore
+is dense (前三祖/后三祖, the 24-generation characters, 漕运 grain transport, 罗祖/罗教,
+翁潘钱); consult authority.json before romanizing, keep 军统 unsettled until B08.
+Cite printed folios; never invent bridging text; do not pause for approval;
+deliver the EPUB in chat and paste the next kickoff.
 ```
 
 ## What is DONE (do not redo)
