@@ -406,5 +406,27 @@ At this — headlong, desperate flight though it was — Ieyasu could not master
 
 "As you command."
 
-Leaving Iga at Tsuge and climbing up into the Suzuka mountains, they came to the Kabuto Pass, where in those days mountain-bandits nested in numbers; but hearing that three hundred ninja were on the road, the bandits never showed themselves. By way of Kameyama, Kō, Yokota, and Noda, they reached at last, as night came down, the beach of Shiroko. From Sakai to here was thirty-nine ri, most of it sheer mountain track. Had it not been ninja who forced the way through,
+Leaving Iga at Tsuge and climbing up into the Suzuka mountains, they came to the Kabuto Pass, where in those days mountain-bandits nested in numbers; but hearing that three hundred ninja were on the road, the bandits never showed themselves. By way of Kameyama, Kō, Yokota, and Noda, they reached at last, as night came down, the beach of Shiroko. From Sakai to here was thirty-nine ri, most of it sheer mountain track. Had it not been ninja who forced the way through, it was a road no man could have got over in two days.
+
+Having come this far, they paid a handsome fee in thanks, took their leave of Dōka and his ninja, and put up at the house of a local merchant, Kadoya Kyūemon.
+
+The wind stood fair, and they meant to sail at first light. As Hanzō went about the house ordering the boat and the bath made ready, his eye fell on a girl of sixteen or seventeen at work in the inner rooms. Her skin was a shade dark, but her eyes were wide and bright, and there was a life in the way she moved and carried herself that seemed to wash the mind clean to watch. "Who is that?" he asked a maid. "The one daughter of the house," was the answer; "her name is Hatsuko."
+
+After all the strain of the road since he had left his own province — Kyoto, Ōsaka, Sakai, the crossing of Iga — now, come this far at last, Hanzō wanted the girl, and wanted her badly. But then he checked himself and thought: as I want her, so, surely, does the lord. Only, in the matter of women Ieyasu was the sort who lusts in silence and will never say a word of it. So Hanzō went and had it out with the master, Kyūemon.
+
+"When my lord is safe home in Mikawa, you'll come in for a handsome reward," he said. "But here's the difficulty: among his retainers there is one who half suspects you of nursing some treachery. Send that girl to his bedchamber tonight. If she takes his fancy, then, over and above the reward, it will do you a further good turn." A humble merchant of the Ise-bay shore could hardly hold out against such words. Hatsuko was put in the bath, told to yield to whatever might be done and do as she was bidden, and sent in to Ieyasu's chamber.
+
+For a girl of that day, all dealings with a man — even after a lawful marriage — were understood to begin in just this fashion: dispatched one night, without warning, to the room of a man she had never met, she must let herself be despoiled of the thing she had guarded till then, and kept hidden, as her most precious possession. Whatever her own bent of nature, whatever notions of her own she might hold, none of it entered into the reckoning at all. No road lay open to her but to yield in silence.
+
+Ieyasu was then forty-one. Squat and barrel-built, thick-fleshed and well-larded, yet hard-knit for all that, and never soft or flabby; no marvel of virility, perhaps, but of the enduring, long-lasting make — on the same principle by which a much-wrinkled hide, stretched out, proves surprisingly long. He had thirty-five more years to live after this, so he had not yet spent two-thirds of his span.
+
+Hatsuko was thus taken, that night, at this man's pleasure; yet her nature was not for that changed, nor was she broken by it. Only — that the man should have been, not some other, but Ieyasu, blown down to her from the Kabuto Pass — was to draw her, from this time on, into all manner of things.
+
+"The wind's fair! Aboard, quick, aboard with you!" — and at the shout Ieyasu was hauled awake while it was still pitch dark. Springing up, he made to say a word to Hatsuko, who had burrowed clean under the bedclothes, head and all; but he let it go, dressed in haste, and stepped out to the passage. And so Hanzō, who had wanted to read off the girl's face what his little contrivance had worked in her, went unsatisfied of his wish as well.
+
+The wind was as fair as could be, blowing out of the west. Standing straight east, they began to cross Ise Bay; rounding the point of the Chita peninsula and bearing north, they ran the fifteen sea-ri without mishap, made land that same day at Ōhama in Mikawa, and on the seventh came into Okazaki.
+
+On the next day, the eighth, he gave out the marching-orders against Mitsuhide, chivvied his generals on, and on the fourteenth set out from Okazaki, pressing the six-ri road as far as Narumi. Etegi and Karasumaru too were fitted out with belly-wrap and sword and spear, and though they had not the least idea how any of it was done, their faces shone with delight.
+
+But on the sixteenth one of Tarao's lower ninja came hurrying up with the news of Yamazaki — that Mitsuhide was beaten and dead, and there was no more call to march on the capital — so Ieyasu drew in his army and went back to Okazaki. And on the nineteenth a messenger came from Hideyoshi to tell him the affair was over, and there was no need to go up to Kyoto after all.
 
