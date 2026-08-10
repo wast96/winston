@@ -294,3 +294,191 @@ top level (breaks render/qc). Fix applied (removed the 21 flat dupes). Going
 forward: strip the glossary block from the apparatus JSON before merging, or
 clean the flat dupes after — see HANDOFF do-not-revert. NOTES-only merges are
 safe.
+
+## B02 = Chapter 1 (ch02, 有四条眉毛的人 / The Man with Four Eyebrows)
+
+### Environment / setup
+
+- `./setup.sh`: pillow present, epubcheck at /tmp/epubcheck-5.1.0/. Regression
+  harness 9/10 as documented (the one FAIL is the expected `hook stands down
+  on template stub` case; HANDOFF now carries a real kickoff, so the hook
+  correctly enforces).
+- `data/src/*` was gitignored; regenerated with `scripts/ingest_epub.py
+  source.epub`. book.json untouched.
+- **Source's own notes: none present.** Re-grep of
+  `data/src/07_part0000-split-005.txt` for `\[\d+\]`: 0 matches.
+
+### Scope
+
+- ch02 (第一章 有四条眉毛的人 / Chapter 1. The Man with Four Eyebrows),
+  10,407 src chars, 379 source lines (line 1 = running-title stub, line 2 =
+  chapter title, both skipped by make_bilingual skip=2).
+- **Six bare-numeric scene dividers** at source lines 3, 37, 111, 153, 222,
+  353 (the `01/02/03/04/05/06` markers). These are NOT titled sections
+  (ch02 has no book.json sections) — they are `***` scene breaks. Recovery
+  method: excluded from the merged-source file so parity counts only real
+  paragraphs; `***` inserted into `out/ch02_reading.md` AFTER paragraphs 21,
+  83, 111, 167, 274 by a small post-`split_bilingual` step in the batch's
+  scratchpad builder. `apply_format_markers.py` was NOT run — the source HTML
+  has no `kt`/Image00005/dateline markers; hand-insertion is the documented
+  approach for this book (HANDOFF trap).
+- **No extractor-split paragraphs.** Every body line ends on terminal
+  punctuation. No U+200B lines, no doubled headings, no spliced captions.
+
+### Digitization glitches (rendered to plain sense; not footnoted)
+
+- **ch02**: none identified. Source is clean.
+
+### Merged-paragraphs pipeline (per Paragraphing rule)
+
+- **370 source body lines -> 289 merged English paragraphs.** Written as a
+  RANGES list in `scratchpad/build_ch02.py` (line-span per paragraph),
+  concatenated verbatim into `out/ch02_src_merged.txt` (throwaway); then
+  `make_bilingual.py ch02 out/ch02_src_merged.txt ... 2` -> parity by
+  construction; `split_bilingual.py` -> reading.md + `data/zh/ch02.txt`; then
+  the `***` post-insert step.
+- Chapter opens with Scene 01 (Dragon-Soaring Inn / Miss Nine on the beam),
+  runs through six scenes, and ends on Scene 06 (the flower-strewn Princess
+  in black kneels and Lu bolts through the roof).
+
+### Checks (all green)
+
+- `verify_unit.py ch02`: 289 pairs, numbers 0 unresolved, anchors 11 ok.
+- `check_align.py ch02`: 289 pairs, median ratio 3.75 en/han, no strays
+  (threshold 2.2x).
+- `check_content.py`: 143 name occurrences (ch02), all in the paired
+  paragraph. 22 glossary names in the anchor pool.
+- `qc_entities.py out/ch02_bilingual.md`: 0 misses. Census: 陆小凤 x50,
+  老板娘 x42, 铁面判官 x35, 朱停 x28, 勾魂手 x24, 柳余恨 x17, 王八 x14,
+  萧秋雨 x13, 青衣楼 x9, 独孤方 x9, 判官笔 x6, 小北京 x5.
+- `check_apparatus.py`: 0 failures, 0 warnings.
+- `check_structure.py`: parity 289|289 OK; 26 note anchors, 0 unresolved,
+  0 waived (5 attach at first of several occurrences); ALL PASS.
+- **Tail verification:** the last three paragraphs (Lu bolts through the
+  roof, the little girl's whispered question, the Princess's "very, very
+  clever") verified verbatim against source L376-379 before shipping.
+- Build: `build_reading_epub.py` -> 2 of 13 chapters, 26 notes, 0 source
+  notes. `qa_epub.py` PASS (27 files, 20 documents, 26 refs/26 bodies/26
+  backlinks). `epubcheck` 5.1.0: **0 fatals / 0 errors / 0 warnings /
+  0 infos**.
+- `check_register.py --ref out/ch01_reading.md out/ch02_reading.md`:
+  contractions 29.5/1k (0.73x ref), shall 14% (one occurrence: the
+  Iron-Faced Judge's formal 'not one hair of him shall be touched' — a
+  deliberately formal register for the Blue-Robe Tower enforcer), em-dash
+  9.5/1k, rhythm CV 0.77. WITHIN TOLERANCE.
+
+### Footnotes (11 for ch02; density tapers from B01's 15 as expected)
+
+Aimed at a Western reader with no Chinese background. In document order:
+1. wangba / turtle / cuckold / green-cap cluster (first appearance) — one
+   comprehensive note covering the whole running joke of the chapter (the
+   graffiti, the "live/dead wangba" banter, the empty green wine jar). NOT
+   re-noted at any subsequent wangba occurrence.
+2. dianxue point-sealing (first appearance).
+3. Room Heaven — 天字号房 = the Heaven-graded top-tier room, per the
+   Thousand-Character Text's opening 天地玄黄.
+4. Yingchun Pavilion — the brothel and the name-play.
+5. one hundred and eight — the 108-fold Blue-Robe Tower, and Water Margin.
+6. the Iron-Faced Judge — panguan = hell-clerk, the pens, and the "off to
+   meet the real Judge" pay-off at scene close (NOT re-noted at that pay-off).
+7. Pan Jinlian — with the Ximen Qing / Ximen Chuixue surname joke.
+8. Liu Xiahui — proverbial chastity, said with heavy sarcasm.
+9. split-crotch pants — kaidangku idiom for earliest childhood.
+10. "Love, from of old, leaves only regret behind" — the Liu Yuhen
+    name-couplet; explains his given-name pun.
+11. "Autumn wind, autumn rain — enough to sicken a man to death" — Qiu Jin
+    quote and the Xiao Qiuyu name-play.
+
+**NOT re-noted / deliberately not footnoted:**
+- wangba after L32 (graffiti L65-68, green jar L99, cuckold banter L173-174).
+- Blue-Robe Tower / one hundred and eight after L132 (Lu's threat at L261).
+- "off to meet the real Judge" (L331): covered by the first Iron-Faced Judge
+  note at L137.
+- "The Green Cloud" (青云客栈): glossary line only, no footnote.
+- "the Peach Blossom Hall" (桃花厅): inline gloss; no footnote.
+- 潘金莲/西门庆 further appearances: none in ch02.
+- 关内 ("east of the Pass"): geographical inline gloss, no footnote.
+- Miss Nine (九姑娘): inline naming convention; no footnote.
+
+### Apparatus added
+
+- **glossary.json**: 20 new rows added (17 people/orgs/places/terms for ch02
+  entities). People (10): Little Beijing, Zhu Ting (principal), the Boss's
+  Wife, Iron-Faced Judge, Soul-Hook, Liu Yuhen, Xiao Qiuyu, Dugu Fang, the
+  Four Heroes of Jiangdong. Organisation (1): Blue-Robe Tower. Places (4):
+  Dragon-Soaring Inn, Huangshi Town, Yingchun Pavilion, Green Cloud Inn.
+  Terms (3): wangba, dianxue (point-sealing), judge's pens (panguan bi).
+  All `status: decided`. notes.json: 11 entries under ch02.
+- No figures (the book has none).
+
+### Decided shelf renderings (this batch sets them)
+
+- 龙翔客栈 → the Dragon-Soaring Inn; 青云客栈 → the Green Cloud Inn;
+  黄石镇 → Huangshi Town; 迎春阁 → the Yingchun Pavilion.
+- 老板娘 → the Boss's Wife (matches 朱停 = Zhu Ting, called "the Boss").
+- 青衣楼 → the Blue-Robe Tower (the whole organisation, its 108 towers).
+- 铁面判官 → the Iron-Faced Judge; 勾魂手 → Soul-Hook; 判官笔 → judge's
+  pens.
+- 玉面郎君 → the Jade-Faced Gentleman (Liu Yuhen's old sobriquet);
+  断肠剑客 → the Heartbreak Swordsman (Xiao Qiuyu); 千里独行 → the
+  Solitary Rider of a Thousand Li (Dugu Fang).
+- 江东四杰 → the Four Heroes of Jiangdong.
+- 天字号房 → Room Heaven (top-grade inn room).
+- 王八 → wangba (kept romanised, since the whole running joke of the
+  chapter turns on the word; footnoted at first appearance).
+- 点穴 → point-sealing / dianxue.
+- 穿开裆裤 → wore split-crotch pants (idiom, footnoted).
+- 潘金莲/西门庆 → Pan Jinlian / Ximen Qing (footnoted; Ximen surname pun).
+- 柳下惠 → Liu Xiahui (footnoted).
+- 秋风秋雨愁煞人 → "Autumn wind, autumn rain — enough to sicken a man to
+  death" (footnoted; Qiu Jin, and the Xiao Qiuyu name pun).
+- 多情自古空余恨，往事如烟不堪提 → "Love, from of old, leaves only regret
+  behind; the past is smoke, unbearable to speak of" (footnoted; Liu Yuhen
+  name pun).
+- Empty-jar-lands-on-wangba's-head joke rendered plain ("Now *there's* a
+  wangba out and out"); the green-cap logic is folded into the wangba
+  footnote at first appearance, not re-noted at the closing line.
+
+### Lu Xiaofeng's voice — first appearance
+
+He is drawn as the LAZIEST man alive: lies flat on a bed with a full cup of
+wine on his chest, breathes wine up and back into the cup by lung-craft, does
+not stir when the Blue-Robe Tower's enforcers crash through the window,
+pinches a walnut-cracking snakeskin whip between two fingers "the way an old
+beggar pinches a bedbug," and even at the sight of the poisonous
+Jade-Faced Gentleman, of the Heartbreak Swordsman, and of the Solitary
+Rider of a Thousand Li converging on his room, does not sit up. Written into
+HANDOFF as his voice sheet.
+
+### Tooling touched (see HANDOFF do-not-revert)
+
+- **`data/noise.txt`** — B02 additions (all justified in the file's
+  comments): `王八蛋` (curse; longest-first), `王八` (base insult; the 八 =
+  8 confounder), `三七二十一` (idiom "willy-nilly"), the two Chinese-quote
+  bracketings of `十` ("十字" as a shape-name, not the count 10), `四分五裂`
+  (idiom "in pieces"), `五彩缤纷` (idiom "riot of colour"), `四顾` (idiom
+  "look about"), `百炼` (idiom "hundred-forged / finest tempered"),
+  `四平八稳` (idiom "steadily balanced"), and `(?<=[百千万萬])两` — a
+  measure-word disambiguator: 两 after 百/千/万 is the tael measure
+  (银X两), not the count 2, so 三百两 = 300 not 302.
+- **`scripts/check_numbers.py`** — one small additive extension in
+  `spelled_numbers`: recognise "N hundred and M" and "a hundred and M"
+  where M is a bare ones-digit (108, 205, ...). Nine complete books never
+  had a natural "108"; this one does (Blue-Robe Tower's 108). Safe: the
+  check's regression tests still pass 5/5. Do NOT revert.
+- **`scripts/check_align.py`** — `paras()` now skips `***` scene-break
+  markers (already skipped by `check_structure.py` and `verify_unit.py`);
+  without it a target with scene breaks slips one pair off the source per
+  break. Do NOT revert.
+- **`scripts/check_content.py`** — same `***` skip in `paragraphs()`, same
+  reason. Do NOT revert.
+
+### Batch scratchpad tools
+
+- `scratchpad/build_ch02.py` — the RANGES-and-en list, plus the merged-source
+  writer. Copy-and-re-range this per chapter for B03+ (the same shape works
+  for every unit; the merged-source file `out/<id>_src_merged.txt` is a
+  throwaway, gitignored).
+- `scratchpad/qc_config.json` — the check_content / check_structure config
+  ({docs, sources, notes, heading_depth}). Extend `docs`/`sources` as each
+  new unit lands.

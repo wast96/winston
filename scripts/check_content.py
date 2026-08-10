@@ -78,8 +78,12 @@ def name_map(path):
 def paragraphs(src_path, tgt_path):
     src = [l.rstrip("\n") for l in open(src_path) if l.strip()]
     src = [l for l in src if not l.startswith("###")]
+    # Scene-break markers ('***' on their own line) are not paragraphs and
+    # must be skipped, or a target that carries them counts short of source
+    # by one per scene break. Same rule as check_structure.py / check_align.py.
     tgt = [l.strip() for l in open(tgt_path)
-           if l.strip() and not l.strip().startswith("#")]
+           if l.strip() and l.strip() != '***'
+           and not l.strip().startswith("#")]
     return src, tgt
 
 

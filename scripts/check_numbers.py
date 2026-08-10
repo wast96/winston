@@ -258,6 +258,21 @@ def spelled_numbers(low):
             found.add(oval * 100)
         if re.search(r"\b%s thousand\b" % ones, low):
             found.add(oval * 1000)
+        # "one hundred and eight" = 108, one number. The tens×ones loop above
+        # catches "one hundred and thirty-five" (135) and "one hundred and
+        # thirty" (130); this covers the missing case where the ones-digit
+        # rides bare after the hundred ("hundred and one" .. "hundred and
+        # nine"), which the source writes as 一百零X and the check otherwise
+        # reports as a dropped X-hundred-and-something (nine complete books
+        # never had a natural "108"; this one does — the Blue-Robe Tower).
+        for o2, o2v in ONES.items():
+            if re.search(r"\b%s hundred(?: and)? %s\b" % (ones, o2), low):
+                found.add(oval * 100 + o2v)
+        # "a hundred and eight" (a = 1); the same pattern with the indefinite
+        # article, which already gives 100 above but leaves 108 uncaught.
+        for o2, o2v in ONES.items():
+            if re.search(r"\ba hundred(?: and)? %s\b" % o2, low):
+                found.add(100 + o2v)
     return found
 
 

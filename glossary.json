@@ -88,6 +88,62 @@
       "pinyin": "Xiaoyun",
       "status": "decided",
       "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+    },
+    "小北京": {
+      "en": "Little Beijing",
+      "pinyin": "Xiao Beijing",
+      "status": "decided",
+      "note": "The waiter at the Dragon-Soaring Inn who serves as the Blue-Robe Tower&#8217;s eyes and hands in Chapter 1; his nickname (&#8216;Little Peking&#8217;) is a servant&#8217;s stage-name, not a home town."
+    },
+    "朱停": {
+      "en": "Zhu Ting",
+      "pinyin": "Zhu Ting",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 4,
+      "cast": "A stout, easygoing tinkerer of Lu Xiaofeng&#8217;s childhood, called &#8216;the Boss&#8217; though he has never done a day&#8217;s trade; married to the Boss&#8217;s Wife. His given name Ting means &#8216;stop&#8217;, matching his motto that whatever he plans to do he first has to <i>stop</i> and think it over."
+    },
+    "老板娘": {
+      "en": "the Boss's Wife",
+      "pinyin": "the Boss's Wife",
+      "status": "decided",
+      "note": "Zhu Ting&#8217;s wife; called only by this title (老板娘, &#8216;Boss&#8217;s Wife&#8217;) throughout, since her husband&#8217;s nickname is the Boss. A great beauty, and Lu Xiaofeng&#8217;s decoy for keeping Zhu Ting alive."
+    },
+    "铁面判官": {
+      "en": "the Iron-Faced Judge",
+      "pinyin": "Tiemian Panguan",
+      "status": "decided",
+      "note": "One of the two Blue-Robe Tower enforcers sent after Lu Xiaofeng in Chapter 1; his scarred face is said to have notched the blade that cut him. See the note at his first appearance (ch02)."
+    },
+    "勾魂手": {
+      "en": "Soul-Hook",
+      "pinyin": "Gouhun Shou",
+      "status": "decided",
+      "note": "The Iron-Faced Judge&#8217;s partner from the Blue-Robe Tower; famed for a pair of silver hooks and for a snakeskin whip that can crack a walnut on three cubes of bean-curd (ch02)."
+    },
+    "柳余恨": {
+      "en": "Liu Yuhen",
+      "pinyin": "Liu Yuhen",
+      "status": "decided",
+      "note": "Once the Jade-Faced Gentleman (玉面郎君); a swordsman ruined ten years ago, his face half sliced away, hands struck off at the wrist. Comes seeking his own death (ch02). See the note at &#8216;Love, from of old, leaves only regret behind.&#8217;"
+    },
+    "萧秋雨": {
+      "en": "Xiao Qiuyu",
+      "pinyin": "Xiao Qiuyu",
+      "status": "decided",
+      "note": "The Heartbreak Swordsman (断肠剑客); a scholarly-looking killer who kills to his own pleasure and quotes classical verse before the stroke (ch02). See the note at &#8216;Autumn wind, autumn rain.&#8217;"
+    },
+    "独孤方": {
+      "en": "Dugu Fang",
+      "pinyin": "Dugu Fang",
+      "status": "decided",
+      "note": "The Solitary Rider of a Thousand Li (千里独行), one of the strangest and most reclusive figures of the jianghu; a spectator, not an assassin, in Chapter 1&#8217;s three-against-two exchange. Dugu is a two-syllable surname."
+    },
+    "江东四杰": {
+      "en": "the Four Heroes of Jiangdong",
+      "pinyin": "Jiangdong Sijie",
+      "status": "decided",
+      "note": "The four grand men Lu Xiaofeng humiliated with a stroke of the pen, left kneeling in the Peach Blossom Hall with mocking labels painted on their brows (ch02)."
     }
   },
   "organizations": {
@@ -96,6 +152,12 @@
       "pinyin": "Shuishe Bang",
       "status": "decided",
       "note": "A band of river-pirates wiped out overnight by the Honest Monk (Prologue)."
+    },
+    "青衣楼": {
+      "en": "the Blue-Robe Tower",
+      "pinyin": "Qingyi Lou",
+      "status": "decided",
+      "note": "A vast, tightly-run criminal organisation: a hundred and eight towers, a hundred and eight men to each, whose portraits hang in a First Tower whose location no one knows. Its enforcers come for Lu Xiaofeng in ch02. See the note on the number 108. The Tower is Gu Long&#8217;s invention."
     }
   },
   "places": {
@@ -110,6 +172,30 @@
       "pinyin": "Jiuzhou",
       "status": "decided",
       "note": "The Nine Provinces of legend, a classical name for the whole of China. See the note at the epithet &#8216;One Blade Quells the Nine Provinces&#8217; (Prologue)."
+    },
+    "龙翔客栈": {
+      "en": "the Dragon-Soaring Inn",
+      "pinyin": "Longxiang Kezhan",
+      "status": "decided",
+      "note": "The busy inn where the Blue-Robe Tower&#8217;s decoy-search for Lu Xiaofeng opens Chapter 1."
+    },
+    "黄石镇": {
+      "en": "Huangshi Town",
+      "pinyin": "Huangshi Zhen",
+      "status": "decided",
+      "note": "The town north of the Dragon-Soaring Inn to which the Blue-Robe Tower riders chase their quarry (ch02); rendered by its literal pinyin (&#8216;Yellow-Stone Town&#8217;), a fictional locale."
+    },
+    "迎春阁": {
+      "en": "the Yingchun Pavilion",
+      "pinyin": "Yingchun Ge",
+      "status": "decided",
+      "note": "The best pleasure-house in Huangshi Town; see the note at first appearance (ch02)."
+    },
+    "青云客栈": {
+      "en": "the Green Cloud Inn",
+      "pinyin": "Qingyun Kezhan",
+      "status": "decided",
+      "note": "The inn where Lu Xiaofeng is putting up when the Blue-Robe Tower&#8217;s enforcers find him (ch02)."
     }
   },
   "terms": {
@@ -142,6 +228,24 @@
       "pinyin": "huo pusa",
       "status": "decided",
       "note": "An idiom of praise for a person of boundless mercy; here bitterly ironic. See the note at first appearance (Prologue)."
+    },
+    "王八": {
+      "en": "wangba",
+      "pinyin": "wangba",
+      "status": "decided",
+      "note": "Coarse slang, literally &#8216;tortoise&#8217;: a scoundrel, and above all a cuckold. Kept romanised because the whole running gag of ch02 turns on the word. See the note at first appearance (ch02)."
+    },
+    "点穴": {
+      "en": "point-sealing",
+      "pinyin": "dianxue",
+      "status": "decided",
+      "note": "The wuxia trick of striking a specific acupuncture point to freeze the limb, seal off the voice, or immobilise the whole man. See the note at first appearance (ch02)."
+    },
+    "判官笔": {
+      "en": "judge's pens",
+      "pinyin": "panguan bi",
+      "status": "decided",
+      "note": "Iron writing-brushes used as weapons; the traditional arms of the underworld clerks called <i>panguan</i>. The Iron-Faced Judge carries a pair (ch02)."
     }
   }
 }

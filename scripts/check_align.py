@@ -28,8 +28,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def paras(path, head_prefix):
+    # Scene-break markers ('***' on their own line) are not paragraphs and
+    # must be skipped, or a target that carries them slips one pair off the
+    # source for every scene break in the chapter (ch02 onward). Same rule as
+    # check_structure.py and verify_unit.py.
     return [l.strip() for l in open(path)
-            if l.strip() and not l.strip().startswith(head_prefix)]
+            if l.strip() and l.strip() != '***'
+            and not l.strip().startswith(head_prefix)]
 
 
 def main():

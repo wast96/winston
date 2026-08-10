@@ -41,3 +41,43 @@
 # rendered "The next morning" (ch01). Do NOT noise 第一/第二 elsewhere: the
 # broken plank's 第一块/第二块 (ch01) ARE rendered "first/second piece".
 第二天
+# --- B02 (ch02 The Man with Four Eyebrows) ---
+# 王八蛋 = "wangba's egg", coarse curse ("bastard"). Kept as "wangba" in the
+# translation (the whole cuckold pun turns on the word); the 八 inside is not
+# a count. Longest-first: 王八蛋 must strip before 王八 or the 蛋 tail orphans.
+王八蛋
+# 王八 = "wangba", the base insult (tortoise → cuckold). Same reason.
+王八
+# 三七二十一 is the multiplication idiom "3×7=21" used in 不管三七二十一,
+# "willy-nilly, without caring". Rendered "without a second thought" (ch02).
+三七二十一
+# The character 十 named as a shape (a cross in the branding on Liu Yuhen's
+# brow, ch02) is the character-shape reference, not the count 10. Source uses
+# 「十」 or “十”; either bracketing marks 十 as a name-in-quotes, not a
+# numeral. Both bracket styles are covered.
+[「“]十[」”]
+# 四顾 = "look about in all four directions", idiom for glancing around. The
+# source has "勒马四顾" (reined in and looked about him). Rendered "looked
+# about him" (ch02).
+四顾
+# 百炼精钢 / 百炼 = "hundred-times-forged steel", idiom for finest tempered
+# steel; the "hundred" is figurative, not a count. Rendered "tempered steel"
+# (ch02, Iron-Faced Judge's judge's pens).
+百炼
+# 四平八稳 = "four-flat, eight-stable", idiom for "steadily balanced,
+# rock-solid". Not counts of 4 or 8. Rendered "squarely" (ch02, the woman
+# perched on the rafter).
+四平八稳
+# 四分五裂 = "shattered to pieces" (four-parts, five-splits), an idiom for
+# broken up utterly. Rendered "in pieces" (ch02).
+四分五裂
+# 五彩缤纷 = "riot of colour", idiom for "brilliantly many-coloured".
+# Rendered "many colours" (ch02).
+五彩缤纷
+# 两 following 百/千/万 is the tael measure word (银两/白银X两), not the count
+# 2 — the source writes "三百两银子" (300 taels), whose cn_to_int otherwise
+# reads as 302 because 两 is also the digit 2. Strip only that trailing 两;
+# 两位/两杯/两条(count 2) has no numerical prefix and stays. The rule is
+# a lookbehind so the built-in _guard is not needed.
+(?<=[百千万萬])两
+
