@@ -362,3 +362,90 @@ is the standard for the rest of the book.
   (qa_epub "not sequential"); re-anchored the Yuan Kewen note to end earlier ("Yuan
   Hanyun, whose given name was Kewen"). Lesson for later batches: never give two notes
   anchors that END at the same point.
+
+## B05 (ch13-ch14, printed 138-194): Huang Jinrong's steward and insider memoirs
+
+Finished from the mid-flight resume: the two long Huang Jinrong memoirs, ch13
+(Cheng Xiwen, the steward) and ch14 (Huang Zhenshi, the insider), had their
+English drafted and pushed by the prior session; this batch built the zh
+sources, the apparatus, the glossary, and the EPUB.
+
+- **zh sources rebuilt from OCR, not from the candidate.** build_zh_candidate's
+  output was misaligned (embedded section markers, offset boundaries), usable
+  only as raw OCR. Both files were reconstructed paragraph by paragraph against
+  the English: data/zh/ch13.txt (69 body lines) and data/zh/ch14.txt (87 body
+  lines), force-added because data/zh/ is gitignored. Sections I-III of ch13
+  came from the prior session's hand-verified partial.
+- **Checks ran, all clean.** verify_unit (parity + numbers) 69/69 and 87/87,
+  0 unresolved numbers each; qc_entities 0 misses both; check_align OK
+  (median 4.92 and 5.06 en/han); check_content OK (215 and 233 name
+  occurrences, all in the paired paragraph); check_register within tolerance
+  of the ch03 reference (ch13 17.5 contr/1k, ch14 11.4, both 1.00x); qa_epub
+  PASS (238 refs/bodies/backlinks); epubcheck 0 errors 0 warnings.
+- **Crop-verified names (dual-OCR flagged or English-source disagreement).**
+  The recurring secretary is 龚天健 = Gong Tianjian (one man across both
+  chapters; the English "Fei Tianjian" and the resume note's 费天健 were both
+  wrong, corrected in ch14 zh and en). Also read off the scan and corrected:
+  马鸿魁 = Ma Hongkui (not 奎), 龚兆熊 = Gong Zhaoxiong (English had "Pei
+  Zhaoneng"), 徐笠衫 = Xu Lishan (English had "Xu Dashan"), 胡憨珠 = Hu Hanzhu
+  (English had "Hu Shuzhu"/"Hu Bingzhu"), 李云生 = Li Yunsheng (English had "Li
+  Yunbi"), 郑慕周, and 蒋恒祥 = Jiang Hengxiang (ch13 OCR 蒋重祥 was a mangle).
+  三菱洋行 (Mitsubishi) and 傅筱庵 (Fu Xiaoan) confirmed on the same pass.
+- **Cross-chapter ledger fixes.** 金廷荪 was carried in glossary and in
+  ch03/ch06/ch08 as the typo "Jin Tingsu"; corrected to Jin Tingsun everywhere
+  (correct pinyin, 荪 = sun). 王柏龄 conformed to the glossary form Wang
+  Bailing in ch13/ch14 (ch12 already used it). These are book-wide corrections,
+  applied now rather than deferred.
+- **Numbers: noise vs digits.** Extended data/noise.txt with this batch's
+  numeral-bearing proper nouns and idioms (八仙桥, 六国饭店, 三菱洋行, 王八妹,
+  成千成万, 呼幺喝六, 三分, 一两万, 二三千-class, 九一八, 黄楚九, 万荣, 万墨林,
+  阿三/阿四/阿六, etc.). Genuine specific quantities were carried as digits in
+  the English per the book's convention (100,000 yuan; 50,000; 9,600 cash;
+  150 li), correcting a few word-form amounts the prior session had left
+  spelled out.
+- **NO figures in B05, deliberate.** The two long household memoirs carry no
+  plates in the source; figures.json has no ch13/ch14 entries by decision.
+- **24 footnotes (12 per chapter).** The source's own apparatus reproduced:
+  the ch13 author's note defining the "Five-Sheng Party" (p138), and the two
+  ch14 editors' notes at p167 (the two-sisters correction pointing to Cheng
+  Xiwen's account, and the Ye/Lin Guisheng variant). Two claims fact-checked
+  against scholarship and footnoted as printed: the "Bishop Yao" rescue
+  (conflates/contradicts the 1923 Lincheng Outrage, Sun Meiyao's bandits on
+  the Blue Express, no French bishop in the record) and the Rong Desheng
+  kidnapping (the real case was 1946, extorted 600,000+ USD by Nationalist
+  officials, not Huang's early-career doing). Huang's aid to Sun Yat-sen
+  footnoted as uncorroborated self-report. Plus reader-model glosses (bairen /
+  men about town, Annamese constables, share-parties, gudao "solitary
+  island", January 28 and August 13, the Anqing Gang generations, girl-show
+  troupes, reasoning-tea, red-and-white rice, Wing On, Su Yu, pingtan).
+- **NOT re-noted (already placed):** the April 12 coup (ch02), the Green Gang
+  generation-poem and Da/Tong ranks (ch05), the Sanxin opium combine and No.
+  76 Jessfield Road (both well covered in ch05-ch12; No. 76 has eleven prior
+  notes), Lu Lanchun (ch12, cross-referenced from the ch13 An Shuyuan note),
+  the Rong and Heng Societies (ch12/earlier), Dai Li and the Juntong, Yang Hu,
+  Gu Zhuxuan, Chen Shichang. The ch13/ch14 recurrences cross-reference these
+  rather than repeat them.
+- **Ye/Lin Guisheng kept as printed:** ch13 (steward) names Huang's first wife
+  Lin Guisheng, ch14 (insider) names her Ye Guisheng; the source's own editors
+  flag the variant and later scholarship favours Lin. Rendered as each narrator
+  prints, with the editors' note reproduced and a translator's cross-reference.
+- **Provisional / left as printed (for the B10 reconciliation):** the
+  single-appearance City God Temple circle (黄玉斋, 陈涵秦 as native-place
+  witnesses; 王两般 for "Wang Liangchen"; 席德才 for the English "Xi Delin";
+  藤曲三郎 for the Japanese ronin; 燃石八仙 for the "carved-stone Eight
+  Immortals"); the long ch14 disciple rosters carry many nicknames rendered
+  as printed. 潘七分/潘子欣 (Pan Qifen / Pan Zixin) kept as the source's two
+  spellings of one man. 黄源焘/黄元涛 both kept (the source writes Huang
+  Yuantao two ways).
+- **Voice sheets (Huang household, in use from here).** HUANG JINRONG in
+  dialogue: swaggering, boastful, colloquial, contractions throughout, "hmph,"
+  boasts of his honour and his services to Sun and Chiang, the "bend when you
+  must, stretch when you may" refrain. CHENG XIWEN (ch13): the steward, plain
+  and matter-of-fact, non-editorial. HUANG ZHENSHI (ch14): the insider,
+  openly contemptuous, "grand hoodlum," reflective and judgmental, with the
+  1980s wenshi-ziliao political vocabulary (footnoted once).
+- **Tooling:** no script changes. work/content_cfg.json regenerated for
+  ch13-ch14 (it is gitignored). The zh files were hand-corrected against the
+  OCR rather than replayed through data/ocr_fixes.json, since data/zh/ is
+  tracked (force-added) and a fresh checkout carries the corrected files
+  directly.
