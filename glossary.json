@@ -38,7 +38,12 @@
     "烏丸": {"en": "Karasumaru", "pinyin": "Karasumaru", "status": "decided", "note": "A fat thirteen-year-old, orphan of an Ikko-ikki commander, Etegi's inseparable companion.", "principal": true, "cast": "A fat orphan boy of thirteen, Etegi's shadow.", "cast_order": 8},
     "蒲生賢秀": {"en": "Gamō Katahide", "pinyin": "Gamo Katahide", "status": "attested", "note": "Keeper of Azuchi, who spirited Nobunaga's family to safety at Hino after Honno-ji."},
     "葉津子": {"en": "Hatsuko", "pinyin": "Hatsuko", "status": "decided", "note": "The daughter of the Shiroko merchant Kadoya Kyuemon, sent to Ieyasu's bed on the night of his escape.", "principal": true, "cast": "A Shiroko merchant's daughter drawn into Ieyasu's orbit.", "cast_order": 9},
-    "角屋久右衛門": {"en": "Kadoya Kyūemon", "pinyin": "Kadoya Kyuemon", "status": "decided", "note": "A merchant of Shiroko on Ise Bay, Hatsuko's father, who sheltered Ieyasu the night before he sailed for Mikawa."}
+    "角屋久右衛門": {"en": "Kadoya Kyūemon", "pinyin": "Kadoya Kyuemon", "status": "decided", "note": "A merchant of Shiroko on Ise Bay, Hatsuko's father, who sheltered Ieyasu the night before he sailed for Mikawa."},
+    "信康": {"en": "Nobuyasu", "pinyin": "Matsudaira Nobuyasu", "status": "attested", "note": "Ieyasu's eldest son and heir, forced to commit seppuku in 1579 at the age of twenty-one, with Hanzo as his second."},
+    "築山どの": {"en": "the Lady Tsukiyama", "pinyin": "Tsukiyama-dono", "status": "attested", "note": "Ieyasu's principal wife and Nobuyasu's mother, accused of treasonous dealings with the Takeda and killed in 1579."},
+    "五徳": {"en": "Toku", "pinyin": "Tokuhime", "status": "attested", "note": "Nobunaga's daughter, married to Nobuyasu; her twelve-article accusation set his ruin in motion."},
+    "酒井忠次": {"en": "Sakai Tadatsugu", "pinyin": "Sakai Tadatsugu", "status": "attested", "note": "One of Ieyasu's chief retainers; his silence before Nobunaga sealed Nobuyasu's fate."},
+    "大久保忠世": {"en": "Ōkubo Tadayo", "pinyin": "Okubo Tadayo", "status": "attested", "note": "Tokugawa retainer, lord of Futamata Castle, where Nobuyasu died."}
   },
   "organizations": {
     "一向宗": {"en": "the Ikkō sect", "pinyin": "Ikko-shu", "status": "attested", "note": "A militant strand of Jodo Shinshu (True Pure Land) Buddhism whose peasant leagues warred with the warlords."},

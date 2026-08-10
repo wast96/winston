@@ -458,5 +458,31 @@ Within a plot of a hundred and twenty ken north to south and a hundred and ten e
 
 In these strange fires, these night-raids, these treacheries from within, the middle-ninja of the so-called fifty-three houses of Kōga had a conspicuous hand, and at a single stroke made the name of Kōga ninjutsu ring through the realm. As the years went by, the ninja's work at the Magari no Jin grew in the telling: how one night a ball of fire had come raining down out of the sky; how the several dozen men of the night-watch had every one been seized by an irresistible drowsiness, and woke to find that all but one of them had lost their heads; how the death of the shogun Yoshihisa was owing not to debauchery and hard living at all, but to a ninja's incantation — and every kind of such tale went round. With the fame of the Magari no Jin, the demand for the ninja of Kōga and Iga rose sharply; but at the same time there came tragedies — men hired in the expectation of miraculous arts who, when the arts were not forthcoming, were cut down in a rage, or had their ears and noses sliced away and were driven off.
 
-But war is a realistic business; and so, let the least breath of notion or fantasy creep in among the Sengoku warriors, and they came just so much the nearer to defeat.
+But war is a realistic business; and so, let the least breath of notion or fantasy creep in among the Sengoku warriors, and they came just so much the nearer to defeat. And thus the worth of ninjutsu, as against all the marvels dreamed up about it, was fast being cut down to its true size.
+
+A thorough-going realist like Ieyasu had, if anything, rated the reality of it too low, and had taken small interest in ninjutsu; but the crossing of Iga made him look again. And so, at Hanzō's urging, he was won over, and to begin with took a hundred or so of them into his service. And of this man Hattori Hanzō — who gave his name to the Hanzō Gate we all know, and who was the master of the Tokugawa spy service, that very service which became the model for the Special Higher Police, and for the whole apparatus and usage of the lock-up and the prison that we have so often had cause to rue — of this man it is worth knowing a little more.
+
+***
+
+Hanzō — his given name was Masanari. His was a house of ninja for generations back, but in his father's day, for reasons of their own, they left their home country and took service with the Matsudaira; and it was the Matsudaira who in time became the Tokugawa.
+
+Hanzō was such a hand with the spear that men nicknamed him "Hanzō of the Spear." In Yotsuya he built a temple, the Saienji, and dedicated his favorite spear there. The spear stayed in the temple until the war-damage of recent years, they say, and many people saw it: a great spear whose blade alone ran to some five shaku, a thing there could be no thought of thrusting with — made, most likely, to beat an enemy down. On the Sengoku battlefield such a weapon was for smashing straight down through armor and helmet together and hammering a man into the earth; and that Hanzō swung a spear with a blade five shaku long shows he must have been a strapping, thick-thewed giant of a man.
+
+That Hatsuko had bowed so soon to her fate was, no doubt, because the man was this same Hanzō.
+
+Now, Ieyasu had, by his lawful wife the Lady Tsukiyama, a legitimate heir named Nobuyasu; and out of this mother and son was brewed one of those grim tragedies so peculiar to the age of war. Nobuyasu was a brave and quick-witted young man, and yet, at a bare twenty-one, he was forced to take his own life by his own father, Ieyasu.
+
+It was by Nobunaga's order. Nobunaga's eldest son was Nobutada, twenty-three that year. The one who might, in time — once Nobunaga himself was gone — grow into Nobutada's rival was Ieyasu's son Nobuyasu. Shibata Katsuie had no grown son of his own; neither had Hashiba Hideyoshi; and Akechi Mitsuhide's boy was still barely ten. Set Nobuyasu beside Nobutada, Nobunaga reckoned, and Nobuyasu was plainly the abler; unless he were put out of the way, the Oda mastery of the realm might one day stand in danger.
+
+Nobuyasu's wife, Toku, was a daughter of Nobunaga's by his lawful wife of the Ikoma house. The two were of an age, had been married at nine, and had two little girls already. Which is to say that Nobunaga had set his heart on killing his own daughter's husband.
+
+As was the way of Sengoku warlords, Nobuyasu too kept a concubine, and from that the marital quarrels began. Toku wrote to her father at Gifu a bill of twelve articles blackening Nobuyasu: that he had shot a town dancing-girl dead with an arrow for dancing badly; that his mother, the Lady Tsukiyama, was of loose life; that there was talk of treason — she had sent for a Chinese from Takeda Katsuyori's country in Kōshū and was hatching a rebellion — and so on down the list.
+
+Nobunaga at once sent to Hamamatsu, summoned Ieyasu's senior retainer Sakai Tadatsugu, and put him to the question. Tadatsugu, who was on bad terms with Nobuyasu, said not a word in his defense; and so Nobunaga demanded that Nobuyasu be made to cut his belly.
+
+This was three and a half years after Nagashino. Ieyasu's power had grown a good deal, but his domain was still only the two provinces of Mikawa and Tōtōmi, while directly to the north lay Takeda Katsuyori's, spanning Kai, Suruga, and Shinano, and half of Kōzuke besides. With an enemy so strong at his shoulder, Ieyasu had no choice but to do as Nobunaga bade. And so Nobuyasu, on the fifteenth of the ninth month of Tenshō 7, cut his belly and made an end at Futamata Castle.
+
+The inspecting officer that day was Amagata Yamashiro, and the second was Hattori Hanzō. Nobuyasu commended the future of his two daughters to the two men, gave keepsakes to the household of Ōkubo Tadayo, the lord of Futamata, and to others, chanted the nenbutsu, and drove the blade into his belly. "Now," he said — "the stroke." But Hanzō could not, for the life of him, bring himself to take his master's head; he burst out weeping and pitched forward on the ground. "Quick! — quick!" Nobuyasu urged him. And Yamashiro, unable to bear the sight, struck the head off.
+
+The Saienji in Yotsuya, spoken of a moment ago, is the temple Hanzō raised to pray for the repose of this Nobuyasu.
 
