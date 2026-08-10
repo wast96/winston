@@ -430,3 +430,33 @@ On the next day, the eighth, he gave out the marching-orders against Mitsuhide, 
 
 But on the sixteenth one of Tarao's lower ninja came hurrying up with the news of Yamazaki — that Mitsuhide was beaten and dead, and there was no more call to march on the capital — so Ieyasu drew in his army and went back to Okazaki. And on the nineteenth a messenger came from Hideyoshi to tell him the affair was over, and there was no need to go up to Kyoto after all.
 
+With that behind him, Ieyasu now remembered Hatsuko of Shiroko, and, wishing to send for her, broached it to Hanzō. "The Shiroko merchant — Kadoya, was it?"
+
+"Yes, my lord. Kadoya Kyūemon, he gave his name as."
+
+So answered Hanzō, who had already caught the drift of his lord's feeling, and put on, of a purpose, a most solemn face.
+
+"A shrewd old fellow, was he not."
+
+"Yes, my lord, just so."
+
+"Did you see him paid his thank-money?"
+
+"Yes — in full —"
+
+And there it stopped; Ieyasu could carry the matter no further. The other's face was so very grave that it made the thing awkward.
+
+Hanzō lost no time. He sent his genin Kabuto — a man from near the Kabuto Pass — to steal Hatsuko away; and that done, sent another retainer to wait on Kyūemon, hand over a fair sum in thanks, and tell him: "It is Lord Ieyasu's own wish, so have no fear." Hatsuko was brought to Hanzō's house in the castle town of Okazaki. The house was small, and the two great bulks of Etegi and Karasumaru were quartered in it; there was nowhere to put a Hatsuko he did not want seen. So, for want of anything better, he had a word with the abbot of Jiun-ji, an acquaintance, and got her lodged a while in the temple's kitchen-quarters.
+
+And that very night Hanzō stole into Hatsuko's bed. Startled, she fought him; but when she made out that it was Hanzō, the man who had brought her here, she gave over at once. "Ah — so that is the way of it. I had thought I was to be the great lord's, that night; but I had it wrong, then, had I?" And once she was resigned to it, the sturdy, good-looking Hanzō was the better of the two. For Hanzō, besides, there was the added relish of neatly filching what belonged to his lord, and he lost himself in her.
+
+Ieyasu had, till now, known little of the ninja. He had heard only the tale of how, at the Magari no Jin, the Kōga ninja had done great things. Hanzō, all innocence, came before him and proposed that he take the ninja of Iga and Kōga into his pay: they would be sure to prove their worth.
+
+The Magari no Jin was in the first year of Chōkyō — 1487. Rokkaku Takayori, the military governor of Ōmi, had been seizing at will the manors scattered across the province — those of the Enryaku-ji on Mount Hiei above all, and the estates of shrines, temples, and court nobles — until some of the nobles were near starving and lawsuits came thick and fast; and so the ninth Ashikaga shogun, Yoshihisa, resolved to lead a campaign against Ōmi in his own person, and in the ninth month took the field with three hundred commanders and ten thousand men. Takayori fled into Kōga and, with the backing of the Kōga warrior-league, fought back. Advancing from Sakamoto, the shogun raised a new residence and camp at Magari, in the district of Kurita.
+
+Within a plot of a hundred and twenty ken north to south and a hundred and ten east to west, they dug a moat, marked out an inner bailey, a second and a third, and settled in for a long stay. But Yoshihisa sank into elegant idleness — poetry gatherings, the Kanze master fetched in to perform Noh, dog-hunts got up for sport, never a quiet day — so that, in the words of the records of the time, "as a rule he took no food at all, but only water and wine and wenching," or "he would touch nothing but water and wine — a wonder." And now weird fires broke out in the camp, again and again, and then night-raids over and over, until the spirit of the army sank; and in the third year of the encampment, at the end of the third month of Entoku 1, the shogun died in the field, twenty-five years old. Then a man in secret league with the Kōga appeared, fired the camp, and fled; and the expedition ended, in the end, in failure.
+
+In these strange fires, these night-raids, these treacheries from within, the middle-ninja of the so-called fifty-three houses of Kōga had a conspicuous hand, and at a single stroke made the name of Kōga ninjutsu ring through the realm. As the years went by, the ninja's work at the Magari no Jin grew in the telling: how one night a ball of fire had come raining down out of the sky; how the several dozen men of the night-watch had every one been seized by an irresistible drowsiness, and woke to find that all but one of them had lost their heads; how the death of the shogun Yoshihisa was owing not to debauchery and hard living at all, but to a ninja's incantation — and every kind of such tale went round. With the fame of the Magari no Jin, the demand for the ninja of Kōga and Iga rose sharply; but at the same time there came tragedies — men hired in the expectation of miraculous arts who, when the arts were not forthcoming, were cut down in a rage, or had their ears and noses sliced away and were driven off.
+
+But war is a realistic business; and so, let the least breath of notion or fantasy creep in among the Sengoku warriors, and they came just so much the nearer to defeat.
+
