@@ -356,5 +356,55 @@ As he sent out the welcoming party, the lay-monk also sent runners to the Iga ni
 
 Before long Ieyasu and his men reached the Tarao house. Kōga and Iga were already known the length of the land as the lairs of crooked ninja; that the party came through there at all was only because there was no other short road, and because Hattori Hanzō, himself of ninja stock, had given his word that with him along they were safe. For Ieyasu, and for his retainers too, it was the first time any of them had lodged under a ninja's roof; and once they were fairly across the threshold it was eerie after all — even seasoned men of the battlefield traded glances and shifted where they sat.
 
-Honda, seeing it, spoke up. "If Tarao Dōka means us any treachery, then thrash about as we may, there's no getting clear of it. We've had next to nothing to eat since we left Sakai at first light; so let's take the monk's hospitality, at the least, and put something in our bellies. Living or dying can come after that." At that they all steadied their minds and eased. And Dōka, reading their mood as you would expect of him,
+Honda, seeing it, spoke up. "If Tarao Dōka means us any treachery, then thrash about as we may, there's no getting clear of it. We've had next to nothing to eat since we left Sakai at first light; so let's take the monk's hospitality, at the least, and put something in our bellies. Living or dying can come after that." At that they all steadied their minds and eased. And Dōka, reading their mood as you would expect of him, had Hanzaemon's wife bring out his eldest son's grandchildren — a boy of six and a girl of four — and set them, of a purpose, beside Tadakatsu.
+
+The two little ones, roused from sleep, at first only stared round-eyed; but Honda, thinking here was a fine hostage, played and played with them, until in no time they had taken to him and sat on his knee, beaming.
+
+So for an hour or so they took their ease, and with their bellies full at last, retied their straw sandals and set off.
+
+This time they set Ieyasu in a mountain palanquin, with Hanzō guarding its side; and as they came, a ri or so on, to the Otogi Pass, jet-black figures — when, and out of where, no one could tell — closed in tight before and behind, and fell into step with them. A low voice would come — "The scouts from Azuchi are back" — and Hanzō would answer, "Good. Report." Without a footfall they moved along. "Gamō Katahide, the keeper of Azuchi, has quit the castle," ran one, "taking Lord Nobunaga's wives and children, and made for his own seat at Hino." Reporters like this appeared without end, out of nowhere, and melted back into the dark. In the palanquin, lifting the blind now and then to watch, Ieyasu seemed struck to the heart by it.
+
+By the time the party ran down the Otogi Pass and came to the bank of the Tsuge River, the night had broken clean into day.
+
+There, at a short halt, Ieyasu saw a curious sight. Among the men in their black garb were two whose build set them sharply apart from the rest — and one of them was scooping up river-water in his cupped hand and giving the other to drink.
+
+"Those two — who are they?" Ieyasu asked Hanzō, at the palanquin's side.
+
+It was Dōka who answered, in Hanzō's place. "That, my lord, is Etegi of Ōyamada, with a boy named Karasumaru in his keeping."
+
+"A boy? Where do you see a boy?"
+
+"The one being given the water — he looks otherwise, but he is only thirteen —"
+
+"Oh? That, thirteen —"
+
+"Thirteen, and twenty-two kan in weight. Etegi there is twenty-four, and forty-one kan."
+
+"Brothers?"
+
+"No, my lord. Karasumaru is the orphan of one Kashiwagi Shirōbei — the commander when the Ikkō league held Toyama Castle. He was passed from hand to hand, and at the siege of Ishiyama the two of them fell in together; and ever since — being, well, two of a kind, I daresay — they've stuck to each other and won't be parted."
+
+"Hm. They say a ninja must shed the common flesh — that to make the body light he pares away every last ounce of it. Yet a man so fat is no hindrance?"
+
+"No, my lord — with a frame like that, there's no hope in the end of his making a good ninja. But the two of them are thoroughly good souls, and they set to the training so hard that one hasn't the heart to tell them to leave off — and besides, there's a use even in being fat. Last year, when Lord Nobunaga fell on us and burned all this country round without mercy, at the Momochi fort over there" — and as he spoke he pointed to a hill that rose away to the southeast — "the two of them all but burned to death. They missed their footing and went off a cliff. Two great fat men locked in each other's arms — sixty-three kan between them, would it be — went rolling and tumbling down and pitched clean into a muddy paddy far below, with nothing but their heads left above the mud; and that, as luck would have it, was the very thing that saved their lives."
+
+At this — headlong, desperate flight though it was — Ieyasu could not master the laughter that rose in him, and shook, doubling up with it.
+
+"Splendid — splendid! Make me a present of those two."
+
+"Eh?"
+
+"— for a ninja's work they'd be no use at all —"
+
+"No, never mind that. Just let me have them. Agreed?"
+
+"Why — of course, my lord."
+
+"Then I'll take them along as they are. Hanzō — put them under you."
+
+"My lord."
+
+"As you command."
+
+Leaving Iga at Tsuge and climbing up into the Suzuka mountains, they came to the Kabuto Pass, where in those days mountain-bandits nested in numbers; but hearing that three hundred ninja were on the road, the bandits never showed themselves. By way of Kameyama, Kō, Yokota, and Noda, they reached at last, as night came down, the beach of Shiroko. From Sakai to here was thirty-nine ri, most of it sheer mountain track. Had it not been ninja who forced the way through,
 

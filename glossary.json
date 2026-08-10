@@ -33,7 +33,10 @@
     "新兵衛": {"en": "Shinbei", "pinyin": "Shinbei", "status": "decided", "note": "Tarao Doka's second son, a handsome, clever seventeen-year-old at the Azuchi seminary and a Christian; he hid the mission's sacred vessels at Oki-no-shima."},
     "藤林長門守": {"en": "Fujibayashi Nagato-no-kami", "pinyin": "Fujibayashi Nagato-no-kami", "status": "attested", "note": "One of the two great jonin (upper ninja) masters of Iga."},
     "百地三太夫": {"en": "Momochi Sandayū", "pinyin": "Momochi Sandayu", "status": "attested", "note": "The most famous jonin of Iga; the Momochi fort where Tamo was maimed was of this house."},
-    "半左衛門": {"en": "Hanzaemon", "pinyin": "Hanzaemon", "status": "decided", "note": "Tarao Doka's eldest son."}
+    "半左衛門": {"en": "Hanzaemon", "pinyin": "Hanzaemon", "status": "decided", "note": "Tarao Doka's eldest son."},
+    "エテギ": {"en": "Etegi", "pinyin": "Etegi", "status": "decided", "note": "A hugely fat young ninja of Oyamada, twenty-four, good-natured and hopeless at stealth; taken into Ieyasu's service on the Tarao crossing.", "principal": true, "cast": "A vast, good-hearted young ninja, inseparable from the boy Karasumaru.", "cast_order": 7},
+    "烏丸": {"en": "Karasumaru", "pinyin": "Karasumaru", "status": "decided", "note": "A fat thirteen-year-old, orphan of an Ikko-ikki commander, Etegi's inseparable companion.", "principal": true, "cast": "A fat orphan boy of thirteen, Etegi's shadow.", "cast_order": 8},
+    "蒲生賢秀": {"en": "Gamō Katahide", "pinyin": "Gamo Katahide", "status": "attested", "note": "Keeper of Azuchi, who spirited Nobunaga's family to safety at Hino after Honno-ji."}
   },
   "organizations": {
     "一向宗": {"en": "the Ikkō sect", "pinyin": "Ikko-shu", "status": "attested", "note": "A militant strand of Jodo Shinshu (True Pure Land) Buddhism whose peasant leagues warred with the warlords."},
