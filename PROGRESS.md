@@ -125,3 +125,61 @@ is the standard for the rest of the book.
 - **Measured OCR crop** (this book): `--left 0.06 --right 0.91 --top 0.09
   --bottom 0.89 --lang chi_sim --psm 6`. Folio at the foot centre (`• N •`),
   cropped out. No running head.
+
+## B02 DONE (ch05–ch06, printed 29–67)
+
+- **Units:** ch05 Li Shiyu, "A Brief Study of the Early Organization of the
+  Green Gang" (79 paras, 3 sections + conclusion; a scholarly paper);
+  ch06 Jiang Hao, "The Origins and Evolution of the Green Gang" (103 paras,
+  6 sections; memoir-study with a long who's-who of the Shanghai gang).
+- **Notes:** 77 this batch (ch05 65, ch06 12); running total 120. ch05 carries
+  the AUTHOR'S OWN citation footnotes reproduced in full and marked "Author's
+  note." (57 of them), plus one "Editors' note." and 7 translator notes; ch06
+  is translator notes only (no source footnotes in it).
+- **Glossary:** +21 rows (people 12, orgs 7, terms 3 → after the 罗祖 removal,
+  net 21 added this batch; 54 total). Removed the standalone 罗祖 anchor
+  (it is a substring of 罗祖教 and appears in tablet-list short form; Patriarch
+  Luo stays consistent in prose and is covered by its note). 军统 rendered
+  "the Juntong" (still shelf-UNSETTLED; binding decision deferred to B08).
+- **Checks all green:** parity 79/79 and 103/103; check_numbers 0 unresolved
+  (see noise notes below); check_apparatus 0/0; qc_entities 0 misses;
+  check_align (ch05 the one expected short "15 August 1984" dateline flag;
+  ch06 OK); check_content 0 displaced; qa_epub PASS (120 ref/body/backlink);
+  epubcheck 0/0; check_register within tolerance of the ch03 reference
+  (both units near-zero dialogue, so the contraction metric is not meaningful).
+- **Number-check accounting (data/noise.txt additions):** official titles and
+  name/place/idiom numerals were added as noise, each with a comment —
+  千总 (battalion officer), 王七/何二/步章五/庄铸九/金九龄/孙百群 (names),
+  四川/百姓/十六铺/五台山/五行山/两狼山/百龄 (places/lodges/restaurant),
+  零星/千百成群/千百万/十万八千里/万历/万象/万恶/千秋/两面派/三青团 (idioms
+  and proper terms), 四百多万 (the "over 4 million" compound the 多 splits),
+  and a general tael rule `(?<=[十百千万萬])两` so e.g. 五六百两 reads 600,
+  not 602 (两 as the measure "tael", not the digit 2). Genuine quantities are
+  carried as digits/spelled ordinals in the English so the check verifies them.
+- **Classical block quotes:** ch05 quotes some three dozen Qing memorials and
+  gang texts; each is rendered inline (not set off), keeping the source's own
+  paragraph structure, and each carries the author's citation as an
+  author-note. Three gang doggerel verses on p.48 use the {p} verse marker.
+- **Tail-verified** (rule 4 corollary): ch05's true last lines ("…重要工具。"
+  + the 一九八四年八月十五日 dateline) and ch06's last paragraph ("…直到解放后
+  才肃清。") read against the p50 and p67 scans; faithful, no invented tail.
+- **Source discrepancies noted (rendered as printed):** the gang's legendary
+  genealogy in ch06 (前三祖/后三祖) is unhistorical and is footnoted as such,
+  cross-referencing Li Shiyu's archival account in ch05; the two studies also
+  give the 24 generation-characters in slightly different characters (元明兴理
+  vs 圆明行理; 临持康泰 vs 临持广泰), footnoted. 樊瑾成 (p60) / 樊瑾丞 (p64)
+  are printed with different third characters but both romanize "Fan Jincheng",
+  so no reader-visible discrepancy. 曹志功 (p60 Ren Society roll) vs 曹立功
+  (p62 own entry) left as printed.
+- **Yi Society homophony:** 毅社 (B01, Zhu Xuefan) / 逸社 (Xu Yimin) / 怡社
+  (Sun Yixiang) all romanize "the Yi Society"; distinct bodies, footnoted once
+  at ch06. Flag for the B10 whole-book reconciliation (check_reconcile will
+  surface "the Yi Society" against three hanzi — legitimate).
+- **NOT re-noted (already placed in B01):** Du Yuesheng, Huang Jinrong, Zhang
+  Xiaolin, Dai Li, Chiang Kai-shek, the Green Gang, the Hongmen, the April 12
+  coup, the August Thirteenth resistance, the yellow unions, No.76's parent
+  regime — the Green Gang/Hongmen themselves were introduced in B01. New notes
+  here are for the gang's own history and its early-modern cast.
+- **Tooling:** qc_entities.py made tolerant of a glossary row without a
+  `pinyin` field (it crashed the whole check before); org/term rows given
+  pinyin for consistency. No other script changes.

@@ -52,7 +52,7 @@ def main(path, gloss_path="glossary.json"):
                 continue
             totals[form] = totals.get(form, 0) + hits
             en_ok = rec["en"].lower() in low
-            py_ok = rec["pinyin"].lower() in low
+            py_ok = rec.get("pinyin", "").lower() in low if rec.get("pinyin") else False
             # surname-only mentions are normal Chinese usage; accept the
             # rendering's final word (family or given name) as presence
             last_ok = rec["en"].split()[-1].lower() in low or \

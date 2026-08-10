@@ -162,6 +162,69 @@
       "pinyin": "Feng Yuxiang",
       "status": "attested",
       "note": "1882&#8211;1948; the &#8216;Christian general,&#8217; a warlord who at times allied with the Nationalists, the Soviets, and the left; organized the short-lived Chahar People&#8217;s Anti-Japanese Allied Army in 1933."
+    },
+    "李世瑜": {
+      "en": "Li Shiyu",
+      "pinyin": "Lǐ Shìyú",
+      "status": "decided",
+      "note": "1922&#8211;2010; folklorist and historian of Chinese popular religion and secret societies, author of this study of the Green Gang."
+    },
+    "姜豪": {
+      "en": "Jiang Hao",
+      "pinyin": "Jiāng Háo",
+      "status": "decided",
+      "note": "The author of the second study; a Baoshan-born Kuomintang figure and initiated Green Gang member of the &#8216;Da&#8217; generation who writes here partly from the inside."
+    },
+    "金幼孜": {
+      "en": "Jin Youzi",
+      "pinyin": "Jīn Yòuzī",
+      "status": "decided",
+      "note": "The gang legend&#8217;s &#8216;first patriarch.&#8217; A real Ming official (1368&#8211;1431), Grand Secretary under the Yongle emperor; the gang genealogy built around him is legend."
+    },
+    "罗清": {
+      "en": "Luo Qing",
+      "pinyin": "Luó Qīng",
+      "status": "decided",
+      "note": "The gang legend&#8217;s &#8216;second patriarch,&#8217; conflated with Patriarch Luo, founder of the Luo (Non-Action) sect."
+    },
+    "陆逵": {
+      "en": "Lu Kui",
+      "pinyin": "Lù Kuí",
+      "status": "decided"
+    },
+    "翁岩": {
+      "en": "Weng Yan",
+      "pinyin": "Wēng Yán",
+      "status": "decided"
+    },
+    "钱坚": {
+      "en": "Qian Jian",
+      "pinyin": "Qián Jiān",
+      "status": "decided"
+    },
+    "潘清": {
+      "en": "Pan Qing",
+      "pinyin": "Pān Qīng",
+      "status": "decided",
+      "note": "Of the three founder-patriarchs, Pan is reckoned the chief; Green Gang men called one another &#8216;the Pan brothers.&#8217;"
+    },
+    "王伦": {
+      "en": "Wang Lun",
+      "pinyin": "Wáng Lún",
+      "status": "decided",
+      "note": "d. 1774; leader of the Clear Water sect (a White Lotus offshoot) whose 1774 rising at Linqing drew on the grain-transport boatmen."
+    },
+    "陈世昌": {
+      "en": "Chen Shichang",
+      "pinyin": "Chén Shìchāng",
+      "status": "decided",
+      "note": "Du Yuesheng&#8217;s Green Gang master."
+    },
+    "杨虎": {
+      "en": "Yang Hu",
+      "pinyin": "Yáng Hǔ",
+      "status": "decided",
+      "note": "Also named Xiaotian; Songhu garrison commander and Green Gang figure."
     }
   },
   "organizations": {
@@ -212,6 +275,45 @@
       "pinyin": "biedongdui",
       "status": "decided",
       "note": "<span lang=\"zh-Hans\">&#21035;&#21160;&#38431;</span>; the irregular units raised from Green Gang and Hongmen men during the 1937 Battle of Shanghai, armed and run in connection with Dai Li&#8217;s secret service."
+    },
+    "天地会": {
+      "en": "the Heaven and Earth Society",
+      "status": "decided",
+      "note": "The Tiandihui, the great anti-Qing sworn-brotherhood movement of south China, aiming to &#8216;overthrow the Qing and restore the Ming&#8217;; part of the Hongmen tradition.",
+      "pinyin": "Tiandihui"
+    },
+    "罗教": {
+      "en": "the Luo sect",
+      "status": "decided",
+      "pinyin": "Luojiao"
+    },
+    "罗祖教": {
+      "en": "the Luo sect",
+      "status": "decided",
+      "pinyin": "Luozujiao"
+    },
+    "安庆道友会": {
+      "en": "the Anqing Fellowship",
+      "status": "decided",
+      "note": "The Anqing Daoyou Hui, rendered &#8216;the Anqing Fellowship of the Way&#8217;; the fuller early form of the Green Gang, from which the names An-Qing Gang, Clear Gang, and Green Gang evolved.",
+      "pinyin": "Anqing Daoyou Hui"
+    },
+    "荣社": {
+      "en": "the Rong Society",
+      "status": "decided",
+      "note": "Huang Jinrong&#8217;s disciple-organization, its name taken from his.",
+      "pinyin": "Rong She"
+    },
+    "文社": {
+      "en": "the Wen Society",
+      "status": "decided",
+      "pinyin": "Wen She"
+    },
+    "忠义救国军": {
+      "en": "the Loyal and Patriotic Army",
+      "status": "decided",
+      "note": "A Dai Li / Juntong-affiliated irregular force active in the lower Yangtze during the war.",
+      "pinyin": "Zhongyi Jiuguo Jun"
     }
   },
   "places": {},
@@ -221,6 +323,24 @@
       "pinyin": "banghui",
       "status": "decided",
       "note": "帮会; the secret-society brotherhoods (青帮 and 洪门) collectively &#8212; the book's subject. Rendered &#8216;the gangs&#8217; or &#8216;the secret-society gangs&#8217; as context needs; the title's 帮会 is &#8216;Gangs.&#8217;"
+    },
+    "通草": {
+      "en": "tongcao",
+      "status": "provisional",
+      "note": "The gang&#8217;s internal secret handbooks (<span lang=\"zh-Hans\">&#36890;&#33609;</span>, also written <span lang=\"zh-Hans\">&#36890;&#28518;</span>, <span lang=\"zh-Hans\">&#36890;&#38062;</span>, or <span lang=\"zh-Hans\">&#32479;&#25220;</span>), recording the patriarchs, the boat system, gang rules, ritual, and argot; kept provisional as no standard English form is attested.",
+      "pinyin": "tongcao"
+    },
+    "香堂": {
+      "en": "incense hall",
+      "status": "decided",
+      "note": "The <i>xiangtang</i>, the altar-hall where initiations and gang rites were held, before the spirit-tablets of the patriarchs.",
+      "pinyin": "xiangtang"
+    },
+    "青皮": {
+      "en": "green skin",
+      "status": "decided",
+      "note": "Literally &#8216;green skin&#8217;; a term for a bold local tough, one proposed origin of the name &#8216;Green Gang.&#8217;",
+      "pinyin": "qingpi"
     }
   }
 }

@@ -64,3 +64,54 @@
 # 星五 = 星期五 (Friday), the 'Friday Dinner Club' (星五聚餐会); a weekday, not the count 5.
 星五
 
+# --- ch05/ch06 (Green Gang origins) ---
+# 千总 = "battalion officer", an official title; not the count 1000.
+千总
+# 王七 = Wang Qi, a boatman's name (lit. "Wang Seven"); romanized.
+王七
+# 何二 = He Er, a name; romanized.
+何二
+# 四川 = Sichuan province; romanized.
+四川
+# 百姓 = "the common people"; 百 is not a quantity.
+百姓
+# 零星 = "piecemeal/sporadic"; 零 is not a quantity.
+零星
+# 千百成群 = idiom "in their hundreds and thousands"; rendered so.
+千百成群
+# 千百万 = idiom "millions upon millions"; rendered "millions".
+千百万
+# 十万八千里 = idiom "a world apart"; rendered "as far apart as heaven and earth".
+十万八千里
+# 四百多万 = "over 4 million (piculs)"; 多 splits the compound, so strip whole (English carries "over 4 million").
+四百多万
+# a 两 that follows 十/百/千 is the measure word "tael", not the digit 2 (两). Strip it so e.g. 五六百两 reads 600, not 602.
+(?<=[十百千万萬])两
+# --- ch06 name/place/idiom numerals ---
+# 五台山 Wutai Mountain; 五 is part of the name.
+五台山
+# 万历 the Wanli reign; 万 not a quantity.
+万历
+# 万象 = the latter-24 generation-character "Wan"(象); not 10000.
+万象
+# 万恶 = idiom "every manner of evil"; not 10000.
+万恶
+# 千秋 = "a thousand autumns / eternity" (义气千秋); not the count 1000.
+千秋
+# 五行山 the Wuxing (Five Elements) Mountain lodge of the Hongmen; romanized.
+五行山
+# 两狼山 the Lianglang (Two-Wolves) Mountain; romanized.
+两狼山
+# personal names / place carrying a numeral glyph (romanized):
+步章五
+庄铸九
+金九龄
+孙百群
+# 百龄餐厅 the Bailing Restaurant; 百 is part of the name.
+百龄
+# 十六铺 Shiliupu (a Shanghai district); 十六 is part of the name.
+十六铺
+# 三青团 = the (Three People's Principles) Youth Corps; org name, 三 not a bare count.
+三青团
+# 两面派 = idiom "double-dealer/two-faced"; not the count 2.
+两面派
