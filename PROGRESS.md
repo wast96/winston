@@ -43,15 +43,12 @@ Status: survey delivered; awaiting commissioner approval of the batch plan
 - out/SURVEY.md written; skeleton EPUB out/the-stealthy-ones.epub built.
 - qa_epub: PASS. epubcheck: 0 fatals / 0 errors / 0 warnings.
 
-### Open decisions for the commissioner (see chat / SURVEY)
-1. Batch granularity: whole chapters (8 batches; ch5 is 102 pp.) vs. finer
-   splits at scene breaks (~30–35 pp. each). Recommended: split ch5, and any
-   other chapter that proves too large for one conversation.
-2. The afterword 解説 (third-party 1987 critical essay by Musashino Jiro):
-   translate as back matter, summarize, or omit. Recommended: translate as
-   back matter in the final batch, clearly attributed.
-3. Cover: generated typographic cover (default) vs. the scanned colour cover
-   (publisher artwork). Recommended: typographic cover for the ebook.
+### Decisions — RESOLVED by the commissioner (survey approval)
+1. Batch granularity: **whole chapters, as surveyed** (8 batches; Chapter 5
+   stays a single 102 pp. batch). No pre-splitting.
+2. The afterword 解説 (Musashino Jiro): **translate it**, as clearly-attributed
+   back matter in the final batch (after ch08).
+3. Cover: **generated typographic cover** (default). cover_image left empty.
 
 ### Chapter English titles are PROVISIONAL
 Confirmed at the voice gate / refined as the book is read. Current drafts:

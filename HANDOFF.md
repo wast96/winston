@@ -34,12 +34,16 @@ pasted verbatim in a fenced code block (update it for ch02 first).
   verified everywhere; OCR geometry measured; skeleton EPUB built; qa_epub
   PASS; epubcheck clean. Awaiting approval of the batch plan.
 
-## Batch plan (proposed; pending commissioner approval)
-- Baseline = one chapter per batch (survey B01–B08). Chapter 5 is 102 pp. and
-  should be split at a scene break; other 64–70 pp. chapters may be split too
-  if a full chapter overruns one conversation.
-- Final batch: afterword 解説 decision, back matter, cover, whole-book
-  reconciliation (check 12), COMPLETION.md.
+## Batch plan (APPROVED by the commissioner)
+- One chapter per batch: B01=ch01 … B08=ch08. Chapter 5 stays a single
+  102 pp. batch (no splitting).
+- B09 (final): translate the afterword 解説 (Musashino Jiro) as
+  clearly-attributed back matter; then back matter, whole-book reconciliation
+  (check 12), COMPLETION.md, commit the final EPUB.
+- Cover: generated typographic (cover_image empty). Decided.
+- Afterword rendering: it is prose, not errata/colophon, so it does not fit
+  back_matter.json cleanly; in B09 add a back-matter mechanism for it (or
+  extend the builder) and attribute it to Musashino Jiro, 文芸評論家 (1987).
 
 ## Tooling in place — do NOT revert
 - setup.sh pack list is Japanese (`tesseract-ocr-jpn`, `-jpn-vert`), not
