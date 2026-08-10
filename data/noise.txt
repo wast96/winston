@@ -213,3 +213,73 @@
 数以千计
 # 牌九 pai gow (the gambling game); 九 part of the game name, not the count 9.
 牌九
+
+# --- B05 / ch13 additions ---
+# 惧怕她三分 = hold in some awe; en "a little in awe" (not 三分之 = a third)
+三分(?!之)
+# 十余岁 = ten-odd years old / in his teens; en "in his teens"
+十余岁
+# 零碎生活 = odd jobs; en "odd jobs"
+零碎
+# 八仙桥 Baxianqiao, place name
+八仙桥
+# 六国饭店 Liuguo Hotel, place name
+六国饭店
+# 六角亭 hexagonal pavilion; en "hexagonal pavilion"
+六角亭
+# 三菱洋行 Mitsubishi firm; en "Mitsubishi"
+三菱洋行
+# 藤曲三郎 Teng Qusaburo, Japanese ronin name
+藤曲三郎
+# 杨仁千 Yang Renqian, personal name
+杨仁千
+# 曾九如 Zeng Jiuru, personal name
+曾九如
+# 双枪王八妹 "Two-Gun Wang Bamei", guerrilla name
+王八妹
+# 沈阿三 Shen Asan, personal name
+沈阿三
+# 五新木工厂 Wuxin Woodworking Factory
+五新
+# 万墨林 Wan Molin, personal name
+万墨林
+# 成千成万 = tens of thousands (idiom); en "tens of thousands"
+成千成万
+# 呼幺喝六 = crying the dice-calls (idiom)
+呼幺喝六
+# 两人 = the two of them; English names both parties instead
+两人
+# 三十四亿多元 = more than 3.4 billion; en "more than 3.4 billion"
+三十四亿
+# 三亿六千多万元 = more than 360 million; en "three hundred and sixty million"
+三亿六千多万
+# 十多万元 = more than 100,000; en "more than a hundred thousand"
+十多万
+
+# --- B05 / ch14 additions ---
+# 一、二百个门生 = a hundred or two; en "a hundred or two"
+一、二百
+# 各有一二千名徒弟 = a thousand or two; en "a thousand or two"
+一二千
+# 至少可赚一两万元 = ten or twenty thousand; en "ten or twenty thousand"
+一两万
+# 九一八 = the September 18 (Mukden) incident; en "September 18"
+九一八
+# 黄楚九 Huang Chujiu, personal name (founder of the Great World)
+黄楚九
+# 陈三林 Chen Sanlin, personal name (French-police detective-chief)
+陈三林
+# 王两般 Wang Liangchen, personal name (Zhabei)
+王两般
+# 王五权 Wang Wuquan, Hangzhou grand hoodlum
+王五权
+# 阿四 = Ah-Si, nickname element (夜壶阿四, 阿四徒)
+阿四
+# 哑喉咙阿六 = Ah-Liu, nickname element
+阿六
+# 三上吊长生 "Thrice-Hanged" Changsheng, nickname
+三上吊
+# 万荣 Wan Rong, personal name (ran the Taohua Palace caterer)
+万荣
+# 金廷荪（阿三）= Ah San, nickname element
+阿三
