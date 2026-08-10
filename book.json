@@ -1,74 +1,259 @@
 {
-  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. For an EPUB source, author it from book.draft.json (produced by scripts/ingest_epub.py) — refine the titles, add English titles, and MERGE or SPLIT units where the source EPUB's file boundaries do not match its logical chapters. Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists.",
-
-  "deliverable": "out/book.epub",
-  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this; never rely on the default.",
-
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 2020,
-  "uid": "urn:uuid:my-book-slug-1",
-
-  "_source_note": "The source is a digital EPUB with reliable text (no OCR). Record its title/edition and anything notable (missing chapters, embedded notes, image-heavy sections) here.",
-  "source_epub": "source.epub",
-
-  "_metadata_note": "Optional richer metadata, all read by the builder: subtitle_en; title_file_as / author_file_as (library sort keys; default to the display forms); translator_en; publication_date (ISO, else year-01-01); rights; source_ref (a dc:source line naming the source edition); subjects (a JSON list; legacy singular 'subject' still honored); series + series_index (calibre metas and the EPUB3 collection); language (default 'en'); source_language (BCP-47, e.g. 'zh'); source_script (lang tag for source-script spans, e.g. 'zh-Hant' or 'zh-Hans'; default 'zh'); cover_image (a file under the project or data/ dirs, copied byte-identical); modified (deterministic dcterms:modified stamp, default 2026-01-01T00:00:00Z -- rebuilds are byte-identical); deliverable (output path used when the builder/qa get no argv); uid (kept verbatim unless it is a malformed urn:uuid, which is replaced by a deterministic UUIDv5 of title_en). The source book's own notes go in source_notes.json, a second stream kept separate from the translator's notes.json.",
-
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212;, &#160;), never named entities. If omitted, a generic method note is generated.",
-  "translator_note": [
-    "This is an English translation of <i>中文書名</i>, made from the digital source EPUB.",
-    "Say here what the register decisions were, who the author is, and how any editorial choices (the source's own notes, ambiguous passages, cut material) were handled."
+  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. Authored from book.draft.json (scripts/ingest_epub.py). The source EPUB split its one text file mechanically into part0000_split_NNN.html chunks that DO line up one-to-one with the logical chapters (each chunk opens with a <p class=\"x2\" id=\"toc-anchor\"> heading). ch01 is the prologue (楔子), ch02..ch13 are the twelve numbered chapters. Chapter ids start with 'ch'. A chapter is treated as translated once out/<id>_reading.md exists.",
+  "deliverable": "out/lu-xiaofeng-1.epub",
+  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this.",
+  "title_en": "The Golden Roc Dynasty",
+  "subtitle_en": "The Legend of Lu Xiaofeng, Volume One",
+  "title_zh": "陆小凤传奇·金鹏王朝",
+  "title_file_as": "Legend of Lu Xiaofeng 1, The Golden Roc Dynasty",
+  "author_en": "Gu Long",
+  "author_zh": "古龙",
+  "author_file_as": "Gu, Long",
+  "translator_en": "Winston",
+  "year": 2013,
+  "publication_date": "2013-05-01",
+  "publisher": "Winston Translations",
+  "language": "en",
+  "source_language": "zh",
+  "source_script": "zh-Hans",
+  "rights": "English translation prepared for private, non-commercial study. The original novel remains © the Estate of Gu Long; no rights in the underlying work are claimed.",
+  "source_ref": "陆小凤传奇·1·金鹏王朝, 古龙著. 郑州: 河南文艺出版社, 2013. ISBN 978-7-80765-772-9.",
+  "series": "Winston Translations",
+  "series_index": 10,
+  "cover_image": "data/figs/cover.jpeg",
+  "modified": "2026-01-01T00:00:00Z",
+  "subjects": [
+    "Wuxia fiction",
+    "Martial arts fiction",
+    "Chinese fiction -- 20th century -- Translations into English",
+    "Detective and mystery fiction",
+    "Gu Long, 1938-1985 -- Translations into English"
   ],
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (source), title_en, and OPTIONAL 'part' (a label like 'Part One. ...'; consecutive chapters sharing it are grouped in the TOC). Keep 'src' (the source spine href, optionally with #anchor) and 'chars' (source character count, from ingest) so the survey can size batches; 'text_file' points at the extracted source text for that unit. Each section: id (ch01s01..), section (int), title, title_en, src, chars, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front: the survey and the skeleton EPUB are built from it before any translation.",
+  "description": "The first volume of Gu Long's Lu Xiaofeng saga. Lu Xiaofeng -- the idle, quick-witted swordsman famed for the two extra 'eyebrows' of his moustache and for the Spirit-Skewering Finger that can catch a blade between two fingertips -- is drawn into the intrigue of a fallen kingdom, a vanished dynasty of the Golden Roc, a princess seeking vengeance, and a killer hidden among friends. A locked-room mystery told at a swordsman's pace, with the swordsmen Ximen Chuixue and the blind, gentle Hua Manlou at his side.",
+  "_source_note": "Source: a 2013 Henan Literature and Art Publishing House digital EPUB of 陆小凤传奇·1·金鹏王朝 (from the 古龙文集 collected-works line; the source's own calibre title-sort is 古龙文集·陆小凤传奇１：金鹏王朝). Simplified characters throughout. The novel itself was first serialised 1976-77; the translator's note states the composition date so the 2013 metadata is not read as the work's date. The spine has 18 documents; only 13 carry the book (ch01-ch13 below). Excluded, and what became of each: titlepage.xhtml (cover image, reused byte-identical as the EPUB cover); part0000_split_000.html and _001.html (9-char half-title stubs, each nothing but the running title 陆小凤：金鹏王朝 13-03-07 副本 plus a decorative endpaper image, dropped); part0000_split_002.html (the CIP / copyright colophon -- data captured in source_ref and rights, page dropped); part0000_split_003.html (the source table of contents 目录, regenerated natively by the builder). Images: cover.jpeg is the cover; 00001.jpeg and 00002.jpeg are decorative publisher endpapers (alt text 知识小说环衬) with no story content -- NOT carried into figures.json. The book has NO images of its own and NO source-edition footnotes (grep for [\\d+] over every unit returns none; recorded in PROGRESS.md).",
+  "source_epub": "source.epub",
+  "_translator_note": "Rendered verbatim as the Translator's Note back-matter page.",
+  "translator_note": [
+    "This is an English translation of <i>金鹏王朝</i> (<i>The Golden Roc Dynasty</i>), the first volume of Gu Long's <i>Legend of Lu Xiaofeng</i> (<i>陆小凤传奇</i>). Gu Long (古龙, 1938-1985) first serialised it in 1976-77; this translation was made from a 2013 Henan Literature and Art Publishing House digital edition of the collected-works text.",
+    "The aim is a translation that reads as the wuxia entertainment it is -- fast, spare, and wry, built from Gu Long's characteristic short paragraphs and abrupt line breaks -- while a Western reader with no background in Chinese martial-arts fiction still catches what the original assumes: the conventions of the <i>jianghu</i>, the martial sects and their rivalries, the weights and money, the courtesies and their violations. Footnotes supply that context; a glossary collects recurring names and terms; and where the source is ambiguous or its digitisation is corrupt, the note says so rather than smoothing it over.",
+    "Names are given in Hanyu Pinyin without tone marks (Lu Xiaofeng, Ximen Chuixue, Hua Manlou). Where a name carries meaning the plot turns on, the meaning is glossed at first appearance."
+  ],
+  "_structure_note": "One entry per logical unit, in reading order. ch01 = the prologue; ch02..ch13 = numbered chapters 1..12 (the source labels its closing chapter 第十二竡 尾声, a coda, and its opening piece 楞子, a prologue). Only the prologue carries named internal sections (four vignettes, each a <p class=\"x\"> title line); chapters 1-12 divide themselves with bare numeric markers (01, 02, ...) that are scene breaks, not titled sections -- they render as '***' via apply_format_markers.py, not as TOC entries. 'chars' is the source character count from ingest (chapter 11, 第六根足趾, is the long climax at ~31k). 'src' is the spine href; 'text_file' the extracted source text.",
   "structure": [
     {
       "level": 1,
       "id": "ch01",
-      "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "src": "text/chapter01.xhtml",
-      "chars": 8200,
-      "text_file": "data/src/01_chapter01.txt",
+      "chapter": 0,
+      "title": "楔 子",
+      "title_en": "Prologue",
+      "src": "text/part0000_split_004.html",
+      "chars": 6069,
+      "text_file": "data/src/06_part0000-split-004.txt",
       "sections": [
         {
           "id": "ch01s01",
           "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "src": "text/chapter01.xhtml#sec1",
-          "chars": 4100,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)"
-            }
-          ]
+          "title": "熊姥姥的糖炒栗子",
+          "title_en": "Granny Xiong's Sugar-Roasted Chestnuts",
+          "src": "text/part0000_split_004.html",
+          "chars": 785
         },
         {
           "id": "ch01s02",
           "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "src": "text/chapter01.xhtml#sec2",
-          "chars": 4100
+          "title": "老实和尚",
+          "title_en": "The Honest Monk",
+          "src": "text/part0000_split_004.html",
+          "chars": 1474
+        },
+        {
+          "id": "ch01s03",
+          "section": 3,
+          "title": "西门吹雪",
+          "title_en": "Ximen Chuixue",
+          "src": "text/part0000_split_004.html",
+          "chars": 893
+        },
+        {
+          "id": "ch01s04",
+          "section": 4,
+          "title": "花满楼",
+          "title_en": "Hua Manlou",
+          "src": "text/part0000_split_004.html",
+          "chars": 2887
         }
       ]
+    },
+    {
+      "level": 1,
+      "id": "ch02",
+      "chapter": 1,
+      "title": "第一章  有四条眉毛的人",
+      "title_en": "Chapter 1. The Man with Four Eyebrows",
+      "src": "text/part0000_split_005.html",
+      "chars": 10407,
+      "text_file": "data/src/07_part0000-split-005.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch03",
+      "chapter": 2,
+      "title": "第二章  丹凤公主",
+      "title_en": "Chapter 2. Princess Danfeng",
+      "src": "text/part0000_split_006.html",
+      "chars": 7656,
+      "text_file": "data/src/08_part0000-split-006.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch04",
+      "chapter": 3,
+      "title": "第三章  大金鹏王",
+      "title_en": "Chapter 3. The Great King of the Golden Roc",
+      "src": "text/part0000_split_007.html",
+      "chars": 8931,
+      "text_file": "data/src/09_part0000-split-007.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch05",
+      "chapter": 4,
+      "title": "第四章  盛 宴",
+      "title_en": "Chapter 4. The Feast",
+      "src": "text/part0000_split_008.html",
+      "chars": 9797,
+      "text_file": "data/src/10_part0000-split-008.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch06",
+      "chapter": 5,
+      "title": "第五章  悲 歌",
+      "title_en": "Chapter 5. A Song of Sorrow",
+      "src": "text/part0000_split_009.html",
+      "chars": 7898,
+      "text_file": "data/src/11_part0000-split-009.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch07",
+      "chapter": 6,
+      "title": "第六章  珠光宝气",
+      "title_en": "Chapter 6. Pearls and Splendour",
+      "src": "text/part0000_split_010.html",
+      "chars": 7174,
+      "text_file": "data/src/12_part0000-split-010.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch08",
+      "chapter": 7,
+      "title": "第七章  市井七侠",
+      "title_en": "Chapter 7. The Seven Heroes of the Marketplace",
+      "src": "text/part0000_split_011.html",
+      "chars": 9841,
+      "text_file": "data/src/13_part0000-split-011.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch09",
+      "chapter": 8,
+      "title": "第八章  峨嵋四秀",
+      "title_en": "Chapter 8. The Four Beauties of Emei",
+      "src": "text/part0000_split_012.html",
+      "chars": 8448,
+      "text_file": "data/src/14_part0000-split-012.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch10",
+      "chapter": 9,
+      "title": "第九章  飞燕去来",
+      "title_en": "Chapter 9. The Flying Swallow Comes and Goes",
+      "src": "text/part0000_split_013.html",
+      "chars": 6913,
+      "text_file": "data/src/15_part0000-split-013.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch11",
+      "chapter": 10,
+      "title": "第十章  迷 楼",
+      "title_en": "Chapter 10. The Maze Tower",
+      "src": "text/part0000_split_014.html",
+      "chars": 6769,
+      "text_file": "data/src/16_part0000-split-014.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch12",
+      "chapter": 11,
+      "title": "第十一章  第六根足趾",
+      "title_en": "Chapter 11. The Sixth Toe",
+      "src": "text/part0000_split_015.html",
+      "chars": 31104,
+      "text_file": "data/src/17_part0000-split-015.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch13",
+      "chapter": 12,
+      "title": "第十二章  尾 声",
+      "title_en": "Chapter 12. Coda",
+      "src": "text/part0000_split_016.html",
+      "chars": 2785,
+      "text_file": "data/src/18_part0000-split-016.txt"
     }
   ],
-
-  "_batches_note": "Your work plan (proposed by scripts/survey.py, approved by the commissioner). Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
+  "_batches_note": "Proposed plan (approve or adjust). Batch 1 is the prologue alone and ends at the first-chapter voice gate (Step 0c); it becomes the frozen register reference. Footnote density is heaviest early, so early batches are deliberately smaller. Chapter 11 (ch12, ~31k, the climax) stands as its own batch. The final batch (ch13, the short coda) carries the back matter, whole-book reconciliation, and the completion report. first_unit/last_unit are chapter ids.",
   "batches": [
     {
       "batch": "B01",
-      "title": "ch1",
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
+      "title": "Prologue (voice gate)",
+      "first_unit": "ch01",
+      "last_unit": "ch01"
+    },
+    {
+      "batch": "B02",
+      "title": "Chapter 1",
+      "first_unit": "ch02",
+      "last_unit": "ch02"
+    },
+    {
+      "batch": "B03",
+      "title": "Chapters 2-3",
+      "first_unit": "ch03",
+      "last_unit": "ch04"
+    },
+    {
+      "batch": "B04",
+      "title": "Chapters 4-5",
+      "first_unit": "ch05",
+      "last_unit": "ch06"
+    },
+    {
+      "batch": "B05",
+      "title": "Chapters 6-7",
+      "first_unit": "ch07",
+      "last_unit": "ch08"
+    },
+    {
+      "batch": "B06",
+      "title": "Chapters 8-10",
+      "first_unit": "ch09",
+      "last_unit": "ch11"
+    },
+    {
+      "batch": "B07",
+      "title": "Chapter 11 (the climax)",
+      "first_unit": "ch12",
+      "last_unit": "ch12"
+    },
+    {
+      "batch": "B08",
+      "title": "Chapter 12 + back matter, reconciliation, completion",
+      "first_unit": "ch13",
+      "last_unit": "ch13"
     }
   ]
 }
