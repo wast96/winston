@@ -2,85 +2,641 @@
   "_about": "Single source of truth for every rendering, and the auditable term ledger. ONE rendering per referent for the whole book. status per entry: 'attested' (form used in English scholarship), 'provisional' (romanization mine, not found outside), 'decided' (a project style call). Sections are rendered as glossary headings; keys starting with '_' are ignored. This book is Japanese; the 'pinyin' field holds the romaji reading.",
   "book": {},
   "people": {
-    "石川五右衛門": {"en": "Ishikawa Goemon", "pinyin": "Ishikawa Goemon", "status": "attested", "note": "The semi-legendary thief and shinobi who is the novel's hero; by tradition put to death by boiling in 1594.", "principal": true, "cast": "The hero: thief, shinobi, and outlaw.", "cast_order": 1},
-    "秀吉": {"en": "Hideyoshi", "pinyin": "Toyotomi Hideyoshi", "status": "attested", "note": "Toyotomi Hideyoshi (1537&#8211;1598), Nobunaga's foremost general and, after 1582, the unifier of Japan.", "principal": true, "cast": "Nobunaga's general; the coming master of Japan and Goemon's great antagonist.", "cast_order": 2},
-    "信長": {"en": "Nobunaga", "pinyin": "Oda Nobunaga", "status": "attested", "note": "Oda Nobunaga (1534&#8211;1582), the warlord who had brought most of central Japan under his power.", "principal": true, "cast": "The overlord of the realm as the story opens; patron of the Jesuit mission.", "cast_order": 3},
-    "タモ": {"en": "Tamo", "pinyin": "Tamo", "status": "decided", "note": "A young beggar-woman, burned and half-crippled, taken under Organtino's protection at the Nanban-ji.", "principal": true, "cast": "A young beggar-woman, burned and mute with grief, sheltered at the Nanban-ji.", "cast_order": 4},
-    "オルガンチノ": {"en": "Organtino", "pinyin": "Organtino", "status": "attested", "note": "Gnecchi-Soldo Organtino (1533&#8211;1609), Italian Jesuit, for many years superior of the Kyoto mission.", "principal": true, "cast": "Italian Jesuit padre of the Nanban-ji; the beggar-woman Tamo's protector.", "cast_order": 5},
-    "信忠": {"en": "Nobutada", "pinyin": "Oda Nobutada", "status": "attested", "note": "Oda Nobutada (1557&#8211;1582), Nobunaga's eldest son and heir; commanded the vanguard against the Takeda."},
-    "明智光秀": {"en": "Akechi Mitsuhide", "pinyin": "Akechi Mitsuhide", "status": "attested", "note": "Akechi Mitsuhide (1528?&#8211;1582), one of Nobunaga's chief generals; the man who would strike at Honn&#333;-ji."},
-    "家康": {"en": "Ieyasu", "pinyin": "Tokugawa Ieyasu", "status": "attested", "note": "Tokugawa Ieyasu (1543&#8211;1616), Nobunaga's ally and, in time, founder of the Tokugawa shogunate."},
-    "勝頼": {"en": "Katsuyori", "pinyin": "Takeda Katsuyori", "status": "attested", "note": "Takeda Katsuyori (1546&#8211;1582), son and heir of Shingen; the last lord of the Takeda."},
-    "信玄": {"en": "Shingen", "pinyin": "Takeda Shingen", "status": "attested", "note": "Takeda Shingen (1521&#8211;1573), the great warlord of Kai, Katsuyori's father."},
-    "快川": {"en": "Kaisen", "pinyin": "Kaisen Joki", "status": "attested", "note": "Kaisen Joki (d. 1582), Zen abbot of Erin-ji, burned to death with his monks by Nobunaga's men."},
-    "穴山梅雪": {"en": "Anayama Baisetsu", "pinyin": "Anayama Baisetsu", "status": "attested", "note": "Takeda kinsman and general who defected to Nobunaga and Ieyasu as the house fell."},
-    "木曾義昌": {"en": "Kiso Yoshimasa", "pinyin": "Kiso Yoshimasa", "status": "attested", "note": "Takeda vassal in Shinano whose secret defection to Nobunaga touched off the Takeda's final campaign."},
-    "村井貞勝": {"en": "Murai Sadakatsu", "pinyin": "Murai Sadakatsu", "status": "attested", "note": "Nobunaga's shoshidai (military governor) of Kyoto; a patron of the Nanban-ji, killed defending Nobutada in 1582."},
-    "信孝": {"en": "Nobutaka", "pinyin": "Oda Nobutaka", "status": "attested", "note": "Oda Nobutaka (1558&#8211;1583), Nobunaga's third son, joint commander of the projected Shikoku campaign."},
-    "佐々木承禎": {"en": "Sasaki Jōtei", "pinyin": "Sasaki Jotei", "status": "attested", "note": "A defeated commander (of the Rokkaku/Sasaki line) sheltered at Erin-ji, as the novel has it."},
-    "フランシスコ・ザビエル": {"en": "Francisco Xavier", "pinyin": "Furanshisuko Zabieru", "status": "attested", "note": "St Francis Xavier (1506&#8211;1552), who opened the Japan mission at Kagoshima in 1549."},
-    "ルイス・フロイス": {"en": "Luís Fróis", "pinyin": "Ruisu Furoisu", "status": "attested", "note": "Luis Frois (1532&#8211;1597), Portuguese Jesuit and the mission's great chronicler."},
-    "ガスパル・クエリョ": {"en": "Gaspar Coelho", "pinyin": "Gasuparu Kueryo", "status": "attested", "note": "Portuguese Jesuit, vice-provincial of the Japan mission."},
-    "ガスパル・ビレラ": {"en": "Gaspar Vilela", "pinyin": "Gasuparu Birera", "status": "attested", "note": "Portuguese Jesuit, among the first to work in Kyoto (cited here for a report on the peasants)."},
-    "高山右近": {"en": "Takayama Ukon", "pinyin": "Takayama Ukon", "status": "attested", "note": "The most famous of the Christian daimyo; chose exile over apostasy, dying in Manila in 1615."},
-    "ロレンソ": {"en": "Lourenço", "pinyin": "Rorenso Ryosai", "status": "attested", "note": "Lourenco Ryosai (c.1526-1592), the blind biwa-player of Hizen converted by Xavier at Yamaguchi, and one of the first and most gifted Japanese Jesuit brothers; the beggar-woman Tamo's one confidant.", "principal": true, "cast": "The blind Japanese Jesuit brother and former biwa-player; Tamo's one friend.", "cast_order": 13},
-    "服部半蔵": {"en": "Hattori Hanzō", "pinyin": "Hattori Hanzo", "status": "attested", "note": "Hattori Masanari (1542&#8211;1596), 'Hanzo the Devil', the famed ninja captain in Tokugawa Ieyasu's service.", "principal": true, "cast": "Ieyasu's ninja captain, of the Iga Hattori line.", "cast_order": 6},
-    "カシイ": {"en": "Kashii", "pinyin": "Kashii", "status": "decided", "note": "A young Iga shinobi, Tamo's companion, who died shielding her when Iga was destroyed."},
-    "カスミ": {"en": "Kasumi", "pinyin": "Kasumi", "status": "decided", "note": "An Iga ninja master, uncle to both Kashii and Etegi, who taught them the arts; died at the Momochi fort in 1581."},
-    "明智光春": {"en": "Akechi Mitsuharu", "pinyin": "Akechi Mitsuharu", "status": "attested", "note": "Mitsuhide's nephew; abandoned Azuchi and died at the fall of Sakamoto Castle."},
-    "ワリニヤーニ": {"en": "Valignano", "pinyin": "Warinyani", "status": "attested", "note": "Alessandro Valignano (1539&#8211;1606), Jesuit Visitor to the Indies; organized the seminaries and the Tensho embassy."},
-    "清水宗治": {"en": "Shimizu Muneharu", "pinyin": "Shimizu Muneharu", "status": "attested", "note": "Commander of Takamatsu Castle, who took his own life as the price of the Mori's peace with Hideyoshi."},
-    "多羅尾道可": {"en": "Tarao Dōka", "pinyin": "Tarao Doka", "status": "attested", "note": "Lay-monk and chief of the Tarao, one of the fifty-three houses of Koga; sheltered and guided Ieyasu on the Tarao crossing."},
-    "新兵衛": {"en": "Shinbei", "pinyin": "Tarao Shinbei", "status": "decided", "note": "Tarao Doka's second son, seventeen, quick and handsome, the leader of the three Koga ninja sons at the seminary; hid the mission's sacred vessels at Oki-no-shima. A future antagonist of Goemon.", "principal": true, "cast": "The ablest of the three Koga ninja youths at the seminary; Goemon's coming adversary.", "cast_order": 10},
-    "多喜右近": {"en": "Taki Ukon", "pinyin": "Taki Ukon", "status": "decided", "note": "Nineteen, a Koga seminary pupil; reserved and methodical, he reasons from stored-up fact and is usually right. One of the three who will contend with Goemon.", "principal": true, "cast": "The methodical one of the three Koga youths; slow but rarely wrong.", "cast_order": 11},
-    "鳥居守一郎": {"en": "Torii Moriichirō", "pinyin": "Torii Moriichiro", "status": "decided", "note": "Nineteen, eldest of the three Koga seminary pupils; sallow, thick-fleshed, flighty, and the most cruel of them. A future antagonist of Goemon.", "principal": true, "cast": "The eldest and cruelest of the three Koga youths.", "cast_order": 12},
-    "藤林長門守": {"en": "Fujibayashi Nagato-no-kami", "pinyin": "Fujibayashi Nagato-no-kami", "status": "attested", "note": "One of the two great jonin (upper ninja) masters of Iga."},
-    "百地三太夫": {"en": "Momochi Sandayū", "pinyin": "Momochi Sandayu", "status": "attested", "note": "The most famous jonin of Iga; the Momochi fort where Tamo was maimed was of this house."},
-    "半左衛門": {"en": "Hanzaemon", "pinyin": "Hanzaemon", "status": "decided", "note": "Tarao Doka's eldest son."},
-    "エテギ": {"en": "Etegi", "pinyin": "Etegi", "status": "decided", "note": "A hugely fat young ninja of Oyamada, twenty-four, good-natured and hopeless at stealth; taken into Ieyasu's service on the Tarao crossing.", "principal": true, "cast": "A vast, good-hearted young ninja, inseparable from the boy Karasumaru.", "cast_order": 7},
-    "烏丸": {"en": "Karasumaru", "pinyin": "Karasumaru", "status": "decided", "note": "A fat thirteen-year-old, orphan of an Ikko-ikki commander, Etegi's inseparable companion.", "principal": true, "cast": "A fat orphan boy of thirteen, Etegi's shadow.", "cast_order": 8},
-    "蒲生賢秀": {"en": "Gamō Katahide", "pinyin": "Gamo Katahide", "status": "attested", "note": "Keeper of Azuchi, who spirited Nobunaga's family to safety at Hino after Honno-ji."},
-    "柏木四郎兵衛": {"en": "Kashiwagi Shirōbei", "pinyin": "Kashiwagi Shirobei", "status": "decided", "note": "Karasumaru's father: an ex-Mori samurai turned Ikko-ikki commander at Toyama Castle, beheaded by an unknown ninja."},
-    "小一": {"en": "Koichi", "pinyin": "Koichi", "status": "decided", "note": "Koichi of Higashi-Yubune, the small man who carried the orphaned Karasumaru on his back through six happy years of childhood."},
-    "葉津子": {"en": "Hatsuko", "pinyin": "Hatsuko", "status": "decided", "note": "The daughter of the Shiroko merchant Kadoya Kyuemon, sent to Ieyasu's bed on the night of his escape.", "principal": true, "cast": "A Shiroko merchant's daughter drawn into Ieyasu's orbit.", "cast_order": 9},
-    "角屋久右衛門": {"en": "Kadoya Kyūemon", "pinyin": "Kadoya Kyuemon", "status": "decided", "note": "A merchant of Shiroko on Ise Bay, Hatsuko's father, who sheltered Ieyasu the night before he sailed for Mikawa."},
-    "信康": {"en": "Nobuyasu", "pinyin": "Matsudaira Nobuyasu", "status": "attested", "note": "Ieyasu's eldest son and heir, forced to commit seppuku in 1579 at the age of twenty-one, with Hanzo as his second."},
-    "築山どの": {"en": "the Lady Tsukiyama", "pinyin": "Tsukiyama-dono", "status": "attested", "note": "Ieyasu's principal wife and Nobuyasu's mother, accused of treasonous dealings with the Takeda and killed in 1579."},
-    "五徳": {"en": "Toku", "pinyin": "Tokuhime", "status": "attested", "note": "Nobunaga's daughter, married to Nobuyasu; her twelve-article accusation set his ruin in motion."},
-    "酒井忠次": {"en": "Sakai Tadatsugu", "pinyin": "Sakai Tadatsugu", "status": "attested", "note": "One of Ieyasu's chief retainers; his silence before Nobunaga sealed Nobuyasu's fate."},
-    "大久保忠世": {"en": "Ōkubo Tadayo", "pinyin": "Okubo Tadayo", "status": "attested", "note": "Tokugawa retainer, lord of Futamata Castle, where Nobuyasu died."}
+    "石川五右衛門": {
+      "en": "Ishikawa Goemon",
+      "pinyin": "Ishikawa Goemon",
+      "status": "attested",
+      "note": "The semi-legendary thief and shinobi who is the novel's hero; by tradition put to death by boiling in 1594.",
+      "principal": true,
+      "cast": "The hero: thief, shinobi, and outlaw.",
+      "cast_order": 1
+    },
+    "秀吉": {
+      "en": "Hideyoshi",
+      "pinyin": "Toyotomi Hideyoshi",
+      "status": "attested",
+      "note": "Toyotomi Hideyoshi (1537&#8211;1598), Nobunaga's foremost general and, after 1582, the unifier of Japan.",
+      "principal": true,
+      "cast": "Nobunaga's general; the coming master of Japan and Goemon's great antagonist.",
+      "cast_order": 2
+    },
+    "信長": {
+      "en": "Nobunaga",
+      "pinyin": "Oda Nobunaga",
+      "status": "attested",
+      "note": "Oda Nobunaga (1534&#8211;1582), the warlord who had brought most of central Japan under his power.",
+      "principal": true,
+      "cast": "The overlord of the realm as the story opens; patron of the Jesuit mission.",
+      "cast_order": 3
+    },
+    "タモ": {
+      "en": "Tamo",
+      "pinyin": "Tamo",
+      "status": "decided",
+      "note": "A young beggar-woman, burned and half-crippled, taken under Organtino's protection at the Nanban-ji.",
+      "principal": true,
+      "cast": "A young beggar-woman, burned and mute with grief, sheltered at the Nanban-ji.",
+      "cast_order": 4
+    },
+    "オルガンチノ": {
+      "en": "Organtino",
+      "pinyin": "Organtino",
+      "status": "attested",
+      "note": "Gnecchi-Soldo Organtino (1533&#8211;1609), Italian Jesuit, for many years superior of the Kyoto mission.",
+      "principal": true,
+      "cast": "Italian Jesuit padre of the Nanban-ji; the beggar-woman Tamo's protector.",
+      "cast_order": 5
+    },
+    "信忠": {
+      "en": "Nobutada",
+      "pinyin": "Oda Nobutada",
+      "status": "attested",
+      "note": "Oda Nobutada (1557&#8211;1582), Nobunaga's eldest son and heir; commanded the vanguard against the Takeda."
+    },
+    "明智光秀": {
+      "en": "Akechi Mitsuhide",
+      "pinyin": "Akechi Mitsuhide",
+      "status": "attested",
+      "note": "Akechi Mitsuhide (1528?&#8211;1582), one of Nobunaga's chief generals; the man who would strike at Honn&#333;-ji."
+    },
+    "家康": {
+      "en": "Ieyasu",
+      "pinyin": "Tokugawa Ieyasu",
+      "status": "attested",
+      "note": "Tokugawa Ieyasu (1543&#8211;1616), Nobunaga's ally and, in time, founder of the Tokugawa shogunate."
+    },
+    "勝頼": {
+      "en": "Katsuyori",
+      "pinyin": "Takeda Katsuyori",
+      "status": "attested",
+      "note": "Takeda Katsuyori (1546&#8211;1582), son and heir of Shingen; the last lord of the Takeda."
+    },
+    "信玄": {
+      "en": "Shingen",
+      "pinyin": "Takeda Shingen",
+      "status": "attested",
+      "note": "Takeda Shingen (1521&#8211;1573), the great warlord of Kai, Katsuyori's father."
+    },
+    "快川": {
+      "en": "Kaisen",
+      "pinyin": "Kaisen Joki",
+      "status": "attested",
+      "note": "Kaisen Joki (d. 1582), Zen abbot of Erin-ji, burned to death with his monks by Nobunaga's men."
+    },
+    "穴山梅雪": {
+      "en": "Anayama Baisetsu",
+      "pinyin": "Anayama Baisetsu",
+      "status": "attested",
+      "note": "Takeda kinsman and general who defected to Nobunaga and Ieyasu as the house fell."
+    },
+    "木曾義昌": {
+      "en": "Kiso Yoshimasa",
+      "pinyin": "Kiso Yoshimasa",
+      "status": "attested",
+      "note": "Takeda vassal in Shinano whose secret defection to Nobunaga touched off the Takeda's final campaign."
+    },
+    "村井貞勝": {
+      "en": "Murai Sadakatsu",
+      "pinyin": "Murai Sadakatsu",
+      "status": "attested",
+      "note": "Nobunaga's shoshidai (military governor) of Kyoto; a patron of the Nanban-ji, killed defending Nobutada in 1582."
+    },
+    "信孝": {
+      "en": "Nobutaka",
+      "pinyin": "Oda Nobutaka",
+      "status": "attested",
+      "note": "Oda Nobutaka (1558&#8211;1583), Nobunaga's third son, joint commander of the projected Shikoku campaign."
+    },
+    "佐々木承禎": {
+      "en": "Sasaki Jōtei",
+      "pinyin": "Sasaki Jotei",
+      "status": "attested",
+      "note": "A defeated commander (of the Rokkaku/Sasaki line) sheltered at Erin-ji, as the novel has it."
+    },
+    "フランシスコ・ザビエル": {
+      "en": "Francisco Xavier",
+      "pinyin": "Furanshisuko Zabieru",
+      "status": "attested",
+      "note": "St Francis Xavier (1506&#8211;1552), who opened the Japan mission at Kagoshima in 1549."
+    },
+    "ルイス・フロイス": {
+      "en": "Luís Fróis",
+      "pinyin": "Ruisu Furoisu",
+      "status": "attested",
+      "note": "Luis Frois (1532&#8211;1597), Portuguese Jesuit and the mission's great chronicler."
+    },
+    "ガスパル・クエリョ": {
+      "en": "Gaspar Coelho",
+      "pinyin": "Gasuparu Kueryo",
+      "status": "attested",
+      "note": "Portuguese Jesuit, vice-provincial of the Japan mission."
+    },
+    "ガスパル・ビレラ": {
+      "en": "Gaspar Vilela",
+      "pinyin": "Gasuparu Birera",
+      "status": "attested",
+      "note": "Portuguese Jesuit, among the first to work in Kyoto (cited here for a report on the peasants)."
+    },
+    "高山右近": {
+      "en": "Takayama Ukon",
+      "pinyin": "Takayama Ukon",
+      "status": "attested",
+      "note": "The most famous of the Christian daimyo; chose exile over apostasy, dying in Manila in 1615."
+    },
+    "ロレンソ": {
+      "en": "Lourenço",
+      "pinyin": "Rorenso Ryosai",
+      "status": "attested",
+      "note": "Lourenco Ryosai (c.1526-1592), the blind biwa-player of Hizen converted by Xavier at Yamaguchi, and one of the first and most gifted Japanese Jesuit brothers; the beggar-woman Tamo's one confidant.",
+      "principal": true,
+      "cast": "The blind Japanese Jesuit brother and former biwa-player; Tamo's one friend.",
+      "cast_order": 13
+    },
+    "服部半蔵": {
+      "en": "Hattori Hanzō",
+      "pinyin": "Hattori Hanzo",
+      "status": "attested",
+      "note": "Hattori Masanari (1542&#8211;1596), 'Hanzo the Devil', the famed ninja captain in Tokugawa Ieyasu's service.",
+      "principal": true,
+      "cast": "Ieyasu's ninja captain, of the Iga Hattori line.",
+      "cast_order": 6
+    },
+    "カシイ": {
+      "en": "Kashii",
+      "pinyin": "Kashii",
+      "status": "decided",
+      "note": "A young Iga shinobi, Tamo's companion, who died shielding her when Iga was destroyed."
+    },
+    "カスミ": {
+      "en": "Kasumi",
+      "pinyin": "Kasumi",
+      "status": "decided",
+      "note": "An Iga ninja master, uncle to both Kashii and Etegi, who taught them the arts; died at the Momochi fort in 1581."
+    },
+    "明智光春": {
+      "en": "Akechi Mitsuharu",
+      "pinyin": "Akechi Mitsuharu",
+      "status": "attested",
+      "note": "Mitsuhide's nephew; abandoned Azuchi and died at the fall of Sakamoto Castle."
+    },
+    "ワリニヤーニ": {
+      "en": "Valignano",
+      "pinyin": "Warinyani",
+      "status": "attested",
+      "note": "Alessandro Valignano (1539&#8211;1606), Jesuit Visitor to the Indies; organized the seminaries and the Tensho embassy."
+    },
+    "清水宗治": {
+      "en": "Shimizu Muneharu",
+      "pinyin": "Shimizu Muneharu",
+      "status": "attested",
+      "note": "Commander of Takamatsu Castle, who took his own life as the price of the Mori's peace with Hideyoshi."
+    },
+    "多羅尾道可": {
+      "en": "Tarao Dōka",
+      "pinyin": "Tarao Doka",
+      "status": "attested",
+      "note": "Lay-monk and chief of the Tarao, one of the fifty-three houses of Koga; sheltered and guided Ieyasu on the Tarao crossing."
+    },
+    "新兵衛": {
+      "en": "Shinbei",
+      "pinyin": "Tarao Shinbei",
+      "status": "decided",
+      "note": "Tarao Doka's second son, seventeen, quick and handsome, the leader of the three Koga ninja sons at the seminary; hid the mission's sacred vessels at Oki-no-shima. A future antagonist of Goemon.",
+      "principal": true,
+      "cast": "The ablest of the three Koga ninja youths at the seminary; Goemon's coming adversary.",
+      "cast_order": 10
+    },
+    "多喜右近": {
+      "en": "Taki Ukon",
+      "pinyin": "Taki Ukon",
+      "status": "decided",
+      "note": "Nineteen, a Koga seminary pupil; reserved and methodical, he reasons from stored-up fact and is usually right. One of the three who will contend with Goemon.",
+      "principal": true,
+      "cast": "The methodical one of the three Koga youths; slow but rarely wrong.",
+      "cast_order": 11
+    },
+    "鳥居守一郎": {
+      "en": "Torii Moriichirō",
+      "pinyin": "Torii Moriichiro",
+      "status": "decided",
+      "note": "Nineteen, eldest of the three Koga seminary pupils; sallow, thick-fleshed, flighty, and the most cruel of them. A future antagonist of Goemon.",
+      "principal": true,
+      "cast": "The eldest and cruelest of the three Koga youths.",
+      "cast_order": 12
+    },
+    "藤林長門守": {
+      "en": "Fujibayashi Nagato-no-kami",
+      "pinyin": "Fujibayashi Nagato-no-kami",
+      "status": "attested",
+      "note": "One of the two great jonin (upper ninja) masters of Iga."
+    },
+    "百地三太夫": {
+      "en": "Momochi Sandayū",
+      "pinyin": "Momochi Sandayu",
+      "status": "attested",
+      "note": "The most famous jonin of Iga; the Momochi fort where Tamo was maimed was of this house."
+    },
+    "半左衛門": {
+      "en": "Hanzaemon",
+      "pinyin": "Hanzaemon",
+      "status": "decided",
+      "note": "Tarao Doka's eldest son."
+    },
+    "エテギ": {
+      "en": "Etegi",
+      "pinyin": "Etegi",
+      "status": "decided",
+      "note": "A hugely fat young ninja of Oyamada, twenty-four, good-natured and hopeless at stealth; taken into Ieyasu's service on the Tarao crossing.",
+      "principal": true,
+      "cast": "A vast, good-hearted young ninja, inseparable from the boy Karasumaru.",
+      "cast_order": 7
+    },
+    "烏丸": {
+      "en": "Karasumaru",
+      "pinyin": "Karasumaru",
+      "status": "decided",
+      "note": "A fat thirteen-year-old, orphan of an Ikko-ikki commander, Etegi's inseparable companion.",
+      "principal": true,
+      "cast": "A fat orphan boy of thirteen, Etegi's shadow.",
+      "cast_order": 8
+    },
+    "蒲生賢秀": {
+      "en": "Gamō Katahide",
+      "pinyin": "Gamo Katahide",
+      "status": "attested",
+      "note": "Keeper of Azuchi, who spirited Nobunaga's family to safety at Hino after Honno-ji."
+    },
+    "柏木四郎兵衛": {
+      "en": "Kashiwagi Shirōbei",
+      "pinyin": "Kashiwagi Shirobei",
+      "status": "decided",
+      "note": "Karasumaru's father: an ex-Mori samurai turned Ikko-ikki commander at Toyama Castle, beheaded by an unknown ninja."
+    },
+    "小一": {
+      "en": "Koichi",
+      "pinyin": "Koichi",
+      "status": "decided",
+      "note": "Koichi of Higashi-Yubune, the small man who carried the orphaned Karasumaru on his back through six happy years of childhood."
+    },
+    "葉津子": {
+      "en": "Hatsuko",
+      "pinyin": "Hatsuko",
+      "status": "decided",
+      "note": "The daughter of the Shiroko merchant Kadoya Kyuemon, sent to Ieyasu's bed on the night of his escape.",
+      "principal": true,
+      "cast": "A Shiroko merchant's daughter drawn into Ieyasu's orbit.",
+      "cast_order": 9
+    },
+    "角屋久右衛門": {
+      "en": "Kadoya Kyūemon",
+      "pinyin": "Kadoya Kyuemon",
+      "status": "decided",
+      "note": "A merchant of Shiroko on Ise Bay, Hatsuko's father, who sheltered Ieyasu the night before he sailed for Mikawa."
+    },
+    "信康": {
+      "en": "Nobuyasu",
+      "pinyin": "Matsudaira Nobuyasu",
+      "status": "attested",
+      "note": "Ieyasu's eldest son and heir, forced to commit seppuku in 1579 at the age of twenty-one, with Hanzo as his second."
+    },
+    "築山どの": {
+      "en": "the Lady Tsukiyama",
+      "pinyin": "Tsukiyama-dono",
+      "status": "attested",
+      "note": "Ieyasu's principal wife and Nobuyasu's mother, accused of treasonous dealings with the Takeda and killed in 1579."
+    },
+    "五徳": {
+      "en": "Toku",
+      "pinyin": "Tokuhime",
+      "status": "attested",
+      "note": "Nobunaga's daughter, married to Nobuyasu; her twelve-article accusation set his ruin in motion."
+    },
+    "酒井忠次": {
+      "en": "Sakai Tadatsugu",
+      "pinyin": "Sakai Tadatsugu",
+      "status": "attested",
+      "note": "One of Ieyasu's chief retainers; his silence before Nobunaga sealed Nobuyasu's fate."
+    },
+    "大久保忠世": {
+      "en": "Ōkubo Tadayo",
+      "pinyin": "Okubo Tadayo",
+      "status": "attested",
+      "note": "Tokugawa retainer, lord of Futamata Castle, where Nobuyasu died."
+    },
+    "マキ": {
+      "en": "Maki",
+      "pinyin": "Maki",
+      "status": "attested",
+      "note": "Goemon's wife, a poor fisher-and-farmer's daughter from the hills above Saiga in Kishu; guileless, devoted, and the still center of his new life in Sakai. She is the physical double of Hatsuko, though the two are of no kin.",
+      "principal": true,
+      "cast": "Goemon's wife: a Saiga peasant girl, his treasure.",
+      "cast_order": 1.5
+    },
+    "おゆう": {
+      "en": "Oyu",
+      "pinyin": "Oyu",
+      "status": "attested",
+      "note": "A kunoichi (woman shinobi) of Tarao, planted by Hattori Hanzo among Nobunaga's waiting-women at Azuchi. She feeds rumor to Nobunaga's page Ranmaru and works the smitten Soda Yoichiro."
+    },
+    "左右田与一郎": {
+      "en": "Soda Yoichiro",
+      "pinyin": "Soda Yoichiro",
+      "status": "attested",
+      "note": "A young retainer of the Akechi general Yomoda Tajima-no-kami; Tarao-born and Oyu's childhood friend, hopelessly in love with her, and so a channel by which she reaches the Akechi camp."
+    },
+    "九鬼嘉隆": {
+      "en": "Kuki Yoshitaka",
+      "pinyin": "Kuki Yoshitaka",
+      "status": "attested",
+      "note": "Nobunaga's admiral, who built the iron-plated warships that broke the Mori navy off the Kizu River in 1578."
+    },
+    "納屋助左衛門": {
+      "en": "Naya Sukezaemon",
+      "pinyin": "Naya Sukezaemon",
+      "status": "attested",
+      "note": "A great merchant of Sakai, later famed as Ruson (Luzon) Sukezaemon; Goemon robs his storehouse."
+    },
+    "森蘭丸": {
+      "en": "Mori Ranmaru",
+      "pinyin": "Mori Ranmaru",
+      "status": "attested",
+      "note": "Nobunaga's best-loved page and reputed boy-lover, who died with him at the Honno-ji; elder of the three Mori brothers (with Bomaru and Rikimaru)."
+    },
+    "弘法大師": {
+      "en": "Kobo Daishi",
+      "pinyin": "Kobo Daishi (Kukai)",
+      "status": "attested",
+      "note": "Kukai (774-835), founder of Shingon esoteric Buddhism, held to lie not dead but in eternal meditation at Koya-san, awaiting the future Buddha Maitreya."
+    }
   },
   "organizations": {
-    "一向宗": {"en": "the Ikkō sect", "pinyin": "Ikko-shu", "status": "attested", "note": "A militant strand of Jodo Shinshu (True Pure Land) Buddhism whose peasant leagues warred with the warlords."},
-    "法華宗": {"en": "the Hokke sect", "pinyin": "Hokke-shu", "status": "attested", "note": "Nichiren Buddhism; Honno-ji was one of its temples."},
-    "ヤソ教": {"en": "the Christian faith", "pinyin": "Yaso-kyo", "status": "decided", "note": "Yaso-kyo, from 'Jesus'; the ordinary period Japanese term for Christianity. Rendered 'the Christian faith' / 'Christianity' throughout."}
+    "一向宗": {
+      "en": "the Ikkō sect",
+      "pinyin": "Ikko-shu",
+      "status": "attested",
+      "note": "A militant strand of Jodo Shinshu (True Pure Land) Buddhism whose peasant leagues warred with the warlords."
+    },
+    "法華宗": {
+      "en": "the Hokke sect",
+      "pinyin": "Hokke-shu",
+      "status": "attested",
+      "note": "Nichiren Buddhism; Honno-ji was one of its temples."
+    },
+    "ヤソ教": {
+      "en": "the Christian faith",
+      "pinyin": "Yaso-kyo",
+      "status": "decided",
+      "note": "Yaso-kyo, from 'Jesus'; the ordinary period Japanese term for Christianity. Rendered 'the Christian faith' / 'Christianity' throughout."
+    }
   },
   "places": {
-    "南蛮寺": {"en": "the Nanban-ji", "pinyin": "Nanban-ji", "status": "attested", "note": "The Jesuit church in Kyoto (Our Lady of the Assumption), completed c. 1576."},
-    "安土": {"en": "Azuchi", "pinyin": "Azuchi", "status": "attested", "note": "Nobunaga's castle town on Lake Biwa, seat of the seminary."},
-    "本能寺": {"en": "Honnō-ji", "pinyin": "Honno-ji", "status": "attested", "note": "The Kyoto temple where Nobunaga would die in 1582."},
-    "比叡山": {"en": "Mount Hiei", "pinyin": "Hiei-zan", "status": "attested", "note": "Seat of the Tendai monastery Enryaku-ji, burned by Nobunaga in 1571."},
-    "恵林寺": {"en": "Erin-ji", "pinyin": "Erin-ji", "status": "attested", "note": "The Takeda's devotional temple in Kai, burned with its monks in 1582."},
-    "天目山": {"en": "Mount Tenmoku", "pinyin": "Tenmoku-zan", "status": "attested", "note": "Where Katsuyori and the last of the Takeda died."},
-    "有馬": {"en": "Arima", "pinyin": "Arima", "status": "attested", "note": "Christian domain in Hizen (Kyushu); site of the first Japanese seminary."},
-    "臼杵": {"en": "Usuki", "pinyin": "Usuki", "status": "attested", "note": "Town in Bungo; site of the Jesuit noviciate."},
-    "府内": {"en": "Funai", "pinyin": "Funai", "status": "attested", "note": "The capital of Bungo (modern Oita); site of a Jesuit college."},
-    "伊賀": {"en": "Iga", "pinyin": "Iga", "status": "attested", "note": "The mountainous province (modern western Mie) famed as a heartland of the shinobi; its self-governing communities were destroyed by Nobunaga in 1581."},
-    "越前": {"en": "Echizen", "pinyin": "Echizen", "status": "attested", "note": "Province on the Sea of Japan (modern Fukui); the Asakura domain, destroyed by Nobunaga in 1573."},
-    "坂本": {"en": "Sakamoto", "pinyin": "Sakamoto", "status": "attested", "note": "Akechi Mitsuhide's castle town on Lake Biwa."},
-    "高槻": {"en": "Takatsuki", "pinyin": "Takatsuki", "status": "attested", "note": "Takayama Ukon's castle town between Kyoto and Osaka, where the seminary was rebuilt after Azuchi."},
-    "雑賀": {"en": "Saiga", "pinyin": "Saiga", "status": "attested", "note": "Saiga (Saika) in Kishu, home of a famed league of gunsmiths and mercenary gunners, a hub of the arms trade."}
+    "南蛮寺": {
+      "en": "the Nanban-ji",
+      "pinyin": "Nanban-ji",
+      "status": "attested",
+      "note": "The Jesuit church in Kyoto (Our Lady of the Assumption), completed c. 1576."
+    },
+    "安土": {
+      "en": "Azuchi",
+      "pinyin": "Azuchi",
+      "status": "attested",
+      "note": "Nobunaga's castle town on Lake Biwa, seat of the seminary."
+    },
+    "本能寺": {
+      "en": "Honnō-ji",
+      "pinyin": "Honno-ji",
+      "status": "attested",
+      "note": "The Kyoto temple where Nobunaga would die in 1582."
+    },
+    "比叡山": {
+      "en": "Mount Hiei",
+      "pinyin": "Hiei-zan",
+      "status": "attested",
+      "note": "Seat of the Tendai monastery Enryaku-ji, burned by Nobunaga in 1571."
+    },
+    "恵林寺": {
+      "en": "Erin-ji",
+      "pinyin": "Erin-ji",
+      "status": "attested",
+      "note": "The Takeda's devotional temple in Kai, burned with its monks in 1582."
+    },
+    "天目山": {
+      "en": "Mount Tenmoku",
+      "pinyin": "Tenmoku-zan",
+      "status": "attested",
+      "note": "Where Katsuyori and the last of the Takeda died."
+    },
+    "有馬": {
+      "en": "Arima",
+      "pinyin": "Arima",
+      "status": "attested",
+      "note": "Christian domain in Hizen (Kyushu); site of the first Japanese seminary."
+    },
+    "臼杵": {
+      "en": "Usuki",
+      "pinyin": "Usuki",
+      "status": "attested",
+      "note": "Town in Bungo; site of the Jesuit noviciate."
+    },
+    "府内": {
+      "en": "Funai",
+      "pinyin": "Funai",
+      "status": "attested",
+      "note": "The capital of Bungo (modern Oita); site of a Jesuit college."
+    },
+    "伊賀": {
+      "en": "Iga",
+      "pinyin": "Iga",
+      "status": "attested",
+      "note": "The mountainous province (modern western Mie) famed as a heartland of the shinobi; its self-governing communities were destroyed by Nobunaga in 1581."
+    },
+    "越前": {
+      "en": "Echizen",
+      "pinyin": "Echizen",
+      "status": "attested",
+      "note": "Province on the Sea of Japan (modern Fukui); the Asakura domain, destroyed by Nobunaga in 1573."
+    },
+    "坂本": {
+      "en": "Sakamoto",
+      "pinyin": "Sakamoto",
+      "status": "attested",
+      "note": "Akechi Mitsuhide's castle town on Lake Biwa."
+    },
+    "高槻": {
+      "en": "Takatsuki",
+      "pinyin": "Takatsuki",
+      "status": "attested",
+      "note": "Takayama Ukon's castle town between Kyoto and Osaka, where the seminary was rebuilt after Azuchi."
+    },
+    "雑賀": {
+      "en": "Saiga",
+      "pinyin": "Saiga",
+      "status": "attested",
+      "note": "Saiga (Saika) in Kishu, home of a famed league of gunsmiths and mercenary gunners, a hub of the arms trade."
+    },
+    "堺": {
+      "en": "Sakai",
+      "pinyin": "Sakai",
+      "status": "attested",
+      "note": "The great free port and merchant city on the bay, self-governed by its guild of townsmen; the setting of the chapter's opening. Nobunaga brought it under a magistrate of his own."
+    },
+    "浜松": {
+      "en": "Hamamatsu",
+      "pinyin": "Hamamatsu",
+      "status": "attested",
+      "note": "Ieyasu's castle town in Totomi, where Goemon is settled under the alias Saeki Dennai."
+    },
+    "妙国寺": {
+      "en": "the Myokoku-ji",
+      "pinyin": "Myokoku-ji",
+      "status": "attested",
+      "note": "A great Nichiren temple in Sakai, famous for the giant sotetsu in its garden; Ieyasu was lodged there at the time of the Honno-ji Incident."
+    },
+    "本受寺": {
+      "en": "the Honjuji",
+      "pinyin": "Honjuji",
+      "status": "decided",
+      "note": "The small Sakai temple behind which Goemon and Maki keep house."
+    },
+    "浄福寺": {
+      "en": "the Jofukuji",
+      "pinyin": "Jofukuji",
+      "status": "decided",
+      "note": "A Sakai temple a cho or so from Goemon's house, in whose grounds he buries his stolen gold."
+    },
+    "南禅寺": {
+      "en": "Nanzen-ji",
+      "pinyin": "Nanzen-ji",
+      "status": "attested",
+      "note": "A great Zen monastery in eastern Kyoto whose gate-tower is bound up with the Goemon legend."
+    },
+    "根来寺": {
+      "en": "Negoro-ji",
+      "pinyin": "Negoro-ji",
+      "status": "attested",
+      "note": "The head temple of the Shingi Shingon warrior-monks in Kii, and a nest of gunners; Hideyoshi destroyed it in 1585."
+    },
+    "高野山": {
+      "en": "Koya-san",
+      "pinyin": "Koya-san",
+      "status": "attested",
+      "note": "Mount Koya, the monastic center of Shingon Buddhism, where Kobo Daishi is held to sit in eternal meditation."
+    },
+    "ちぬの海": {
+      "en": "the Chinu Sea",
+      "pinyin": "Chinu no umi",
+      "status": "attested",
+      "note": "The old poetic name for the stretch of sea off Sakai and Izumi, much sung in the ancient verse."
+    },
+    "名張": {
+      "en": "Nabari",
+      "pinyin": "Nabari",
+      "status": "attested",
+      "note": "A town in northern Iga; the home Goemon invents for his false self, 'Tahei.'"
+    }
   },
   "terms": {
-    "でうす": {"en": "Deus", "pinyin": "Deusu", "status": "attested", "note": "The Kirishitan word for God, from Latin/Portuguese Deus."},
-    "がらさ": {"en": "garça", "pinyin": "garasa", "status": "attested", "note": "Grace (Portuguese graça), a loanword of the mission."},
-    "おらしょ": {"en": "orasho", "pinyin": "orasho", "status": "attested", "note": "The Christians' set prayers (from Latin oratio), memorized and handed down by rote."},
-    "バテレン": {"en": "padre / bateren", "pinyin": "bateren", "status": "attested", "note": "Bateren, from Portuguese padre: a Jesuit priest. Rendered 'padre'."},
-    "イルマン": {"en": "irmão", "pinyin": "iruman", "status": "attested", "note": "Irmao (Portuguese 'brother'): a Jesuit lay brother or catechist, below the padre."},
-    "念仏": {"en": "the nenbutsu", "pinyin": "nenbutsu", "status": "attested", "note": "The invocation 'Namu Amida Butsu', central to Pure Land practice."},
-    "忍者": {"en": "ninja / shinobi", "pinyin": "ninja / shinobi", "status": "attested", "note": "The covert agents of Iga and Koga; rendered 'ninja' or 'shinobi' as the sentence wants."},
-    "忍術": {"en": "ninjutsu", "pinyin": "ninjutsu", "status": "attested", "note": "The shinobi's craft of stealth, evasion, espionage and sabotage."},
-    "五遁の術": {"en": "the Five Escapes", "pinyin": "gotton no jutsu", "status": "decided", "note": "The ninja's arts of evasion, grouped into five (wood, fire, earth, metal, water) and their inner counterparts."},
-    "多羅尾越え": {"en": "the Tarao Crossing", "pinyin": "Tarao-goe", "status": "attested", "note": "Ieyasu's flight across Iga after Nobunaga's death; also called the Iga-goe."}
+    "でうす": {
+      "en": "Deus",
+      "pinyin": "Deusu",
+      "status": "attested",
+      "note": "The Kirishitan word for God, from Latin/Portuguese Deus."
+    },
+    "がらさ": {
+      "en": "garça",
+      "pinyin": "garasa",
+      "status": "attested",
+      "note": "Grace (Portuguese graça), a loanword of the mission."
+    },
+    "おらしょ": {
+      "en": "orasho",
+      "pinyin": "orasho",
+      "status": "attested",
+      "note": "The Christians' set prayers (from Latin oratio), memorized and handed down by rote."
+    },
+    "バテレン": {
+      "en": "padre / bateren",
+      "pinyin": "bateren",
+      "status": "attested",
+      "note": "Bateren, from Portuguese padre: a Jesuit priest. Rendered 'padre'."
+    },
+    "イルマン": {
+      "en": "irmão",
+      "pinyin": "iruman",
+      "status": "attested",
+      "note": "Irmao (Portuguese 'brother'): a Jesuit lay brother or catechist, below the padre."
+    },
+    "念仏": {
+      "en": "the nenbutsu",
+      "pinyin": "nenbutsu",
+      "status": "attested",
+      "note": "The invocation 'Namu Amida Butsu', central to Pure Land practice."
+    },
+    "忍者": {
+      "en": "ninja / shinobi",
+      "pinyin": "ninja / shinobi",
+      "status": "attested",
+      "note": "The covert agents of Iga and Koga; rendered 'ninja' or 'shinobi' as the sentence wants."
+    },
+    "忍術": {
+      "en": "ninjutsu",
+      "pinyin": "ninjutsu",
+      "status": "attested",
+      "note": "The shinobi's craft of stealth, evasion, espionage and sabotage."
+    },
+    "五遁の術": {
+      "en": "the Five Escapes",
+      "pinyin": "gotton no jutsu",
+      "status": "decided",
+      "note": "The ninja's arts of evasion, grouped into five (wood, fire, earth, metal, water) and their inner counterparts."
+    },
+    "多羅尾越え": {
+      "en": "the Tarao Crossing",
+      "pinyin": "Tarao-goe",
+      "status": "attested",
+      "note": "Ieyasu's flight across Iga after Nobunaga's death; also called the Iga-goe."
+    },
+    "くノ一": {
+      "en": "kunoichi",
+      "pinyin": "kunoichi",
+      "status": "attested",
+      "note": "A woman of the shinobi."
+    },
+    "七方出": {
+      "en": "the shichihode",
+      "pinyin": "shichihode",
+      "status": "attested",
+      "note": "The 'seven ways out,' the shinobi's seven stock disguises for travel in hostile provinces."
+    },
+    "会合衆": {
+      "en": "the egoshu",
+      "pinyin": "egoshu",
+      "status": "attested",
+      "note": "The council of thirty-six townsmen who governed Sakai; the ten strongest were the naya-shu (warehouse men)."
+    },
+    "蘇鉄": {
+      "en": "the sotetsu",
+      "pinyin": "sotetsu",
+      "status": "attested",
+      "note": "The sago palm (cycad), not native to Japan; the great specimen at Myokoku-ji is the subject of a Sakai legend."
+    },
+    "鬼子母神": {
+      "en": "Kishimojin",
+      "pinyin": "Kishimojin (Kariteimo)",
+      "status": "attested",
+      "note": "The child-guarding goddess Hariti, once a child-devouring ogress, converted by the Buddha; shown with a pomegranate."
+    },
+    "入定": {
+      "en": "nyujo",
+      "pinyin": "nyujo",
+      "status": "attested",
+      "note": "'Entering samadhi': the eternal meditation into which Kobo Daishi is said to have passed, neither living nor dead."
+    },
+    "万葉集": {
+      "en": "the Man'yoshu",
+      "pinyin": "Man'yoshu",
+      "status": "attested",
+      "note": "Japan's oldest anthology of verse, compiled in the eighth century."
+    }
   }
 }
