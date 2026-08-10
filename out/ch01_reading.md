@@ -162,5 +162,113 @@ Among the ten methods of heaven-escape is the art of star-escape. From of old th
 
 Kashii, too, was a master of the beast arts, but at star-escape he seemed a poor hand; all he had taught her was the courses of the Big Dipper and of Venus, Saturn, and Jupiter, and how to fix one's direction by them.
 
-So to Kashii the stars were a thing there was still study to be done of, and yet no way to truly know;
+So to Kashii the stars were a thing there was still study to be done of, and yet no real way to know them — a vexing business. And so, even lying side by side to watch the stars, the two of them were forever thinking at cross-purposes, and their talk never quite met.
+
+***
+
+Around the middle of the fifth month a rumor went round that Ieyasu, at Nobunaga's invitation, would be coming up to the capital to take in the sights of Kyoto, Ōsaka, Nara, and Sakai, and that the Nanban-ji was to be given over for his Kyoto lodging.
+
+At that time the church had in it the padre Cariam and the irmãos Lourenço and Bertolameu, while Organtino was away at Azuchi.
+
+On the twenty-first, word came that Ieyasu had started up for the capital, and at the Nanban-ji they were at their wits' end over how to receive him. But in the event Ieyasu never lodged with them at all: he put up elsewhere for a couple of days and then went off to see Sakai, and one and all breathed again.
+
+On the twenty-ninth, Nobunaga set out from Azuchi and took up quarters at Honnō-ji — a stone's throw from the Nanban-ji — while his son Nobutada lodged at Myōkaku-ji, over by the Kurama gate.
+
+Just then urgent calls for reinforcement were coming in from Hideyoshi, who had pushed into the Chūgoku country and was flooding out Takamatsu Castle; so Nobunaga had sent off Takayama Ukon and a great many men, and kept only a bare handful of guards about himself.
+
+On the night of the first of the sixth month — the twentieth of June by the solar calendar — the muggy heat that had hung over the town of Kyoto since daylight would not slacken; the city tossed and turned, unable to sleep, and dropped off only as dawn came on.
+
+At the Nanban-ji, Padre Cariam, who had got up while it was still pitch dark to say the dawn Mass of the second, was changing into his vestments.
+
+Then, all at once, someone was hammering at the gate. When the gatekeeper opened it, five or six of the faithful came tumbling in, the color gone from their faces. "It seems something dreadful's broken out at Honnō-ji," they said. "It looks to be a grave matter, so you'd do best to hold off a while on the preparations for Mass."
+
+Straining to listen, one could indeed catch a tumult of noise and voices. Before long came the crack — crack — crack of bursting gunfire, and at last, with a great whoosh, flames leapt up.
+
+The converts who came running up behind were crying, "It's Koretō!" "It's Lord Akechi!"
+
+Mitsuhide — who by Nobunaga's own order should by now have marched off to reinforce the Chūgoku front — had turned traitor without warning and thrown a ring around Honnō-ji.
+
+That anyone would rise against a man whose very name set people trembling was a thing not one soul had dreamed of.
+
+And so all Kyoto stood simply thunderstruck; the cry that wanted out froze in the throat.
+
+The padres went white.
+
+Nobunaga was a cruel man, true enough; but he was, for all that, the protector of the Christian faith. It was only because he had given his leave that the Nanban-ji stood at all, and the Azuchi seminary with it. And he was, besides, the easiest of men to win over — weak, utterly weak, for anything rare and strange.
+
+Take, for instance, the visit the year before, in the third month, when the visitador — the inspector Valignano — went up to Azuchi for his audience with Nobunaga and brought along a black man he had carried with him from Africa. Nobunaga was astonished beyond measure, and could not for the life of him believe the man was black by nature and not smeared over with ink; in the end he had him stripped naked to a loincloth and ran his hands over the whole of him, and only then was satisfied.
+
+What was more, the black man was strong, could do a turn or two, and spoke a little broken Japanese, so that Nobunaga was more delighted than ever and never tired of talking with him. He took the man for his own and made him a body-servant, kept him always at his side, and was hugely pleased whenever people gaped — so that Valignano gained no little credit by the gift.
+
+Nobunaga had this black man with him when the blow fell at Honnō-ji.
+
+The black man stood and faced Akechi's soldiers as they poured in, but they were unnerved by him and gave way, none daring to close with him, so that he broke calmly out through the ring and fled to the Nanban-ji.
+
+Tamo, who from the dry bed of the Gojō had seen the flames going up over the quarter of the Nanban-ji and had come dragging her body to the spot, all but ran full into this vast, coal-black shape at the temple gate; she loosed a shriek that tore from her throat and dropped in a dead faint. For what she had seen was a phantom — the charred corpses that had lain heaped all about her when she came back to life at the Momochi fort, rising up of a sudden and bearing down on her.
+
+The converts carried Tamo inside and tended her.
+
+The church was crowded already: the beggars and the sick who were fed there day by day had fled in in throngs, in dread of the fighting.
+
+In those days the common people of Japan were wretchedly poor. An infant that could not be aborted, nor strangled at the birth, was set out as a foundling; lepers and others in the grip of grave disease were driven from their homes; famine came round again and again, and many starved.
+
+The Christians could not look on all this and pretend not to see it, and so, in one place after another, they raised free infirmaries and foundling homes and homes for the aged.
+
+The hospitals and old-age homes the people called yōjō-ya, "health-houses." And, as the jar at the Nanban-ji gate bore witness, they carried on a wide work besides, taking in alms and dealing them out to the poor.
+
+The year after the affair at Honnō-ji, a hundred converts came together at Nagasaki as dues-paying members and founded a misericórdia — a charitable society that did its good works out of the funds they raised. People called it the "charity-house," and in time the like was set up at Funai, at Kyoto, at Ōsaka, at Sakai, and elsewhere.
+
+So it was that the padres and irmãos even picked up a rough practice of medicine, and with their own hands would wipe and wash the pus of a leper.
+
+This kind of social work went far beyond anything the Ikkō sect had done, and it was, in the end, one more thing that won them their crowds of converts.
+
+By the black man's account, when the rebel army came surging up, Nobunaga had only just woken.
+
+Still in his nightclothes, he threw the sliding door roughly open — and from the soldiers already loose in the inner court, arrows came at him thick as hail. One drove into his shoulder; he pulled it out with his own hand, caught up his long sword, and flung himself on the attackers. But before long a bullet went through him somewhere, and he reeled and toppled backward. He had strength enough left to slide the door shut; what came after that, the black man says, he does not know.
+
+The converts, though, kept bringing in word by the minute, from every side. The mansion of the shoshidai, Murai Sadakatsu, stood right before the gate of Honnō-ji. He had tried to get inside, but seeing it hopeless with Mitsuhide's men swarming everywhere, he raced the four kilometers to Myōkaku-ji to carry the news, and urged Nobutada that Myōkaku-ji could not be held — he must fall back into the Nijō Palace.
+
+In the Nijō Palace was Prince Sanehito, son of the Retired Emperor Ōgimachi; they moved him across to the Imperial Palace, and shut themselves in with a bare five hundred men.
+
+By now it was full day. To see the flames roaring up from Honnō-ji, and the host that had ringed it raising its victory cry and rolling on toward the Nijō Palace, was to know past all doubting that Nobunaga was dead.
+
+And indeed the enemy commanders were calling out, this one and that: "The Minister of the Right" — that is, Nobunaga — "is no more!" "Let the Third-Rank Middle Captain" — meaning Nobutada — "make up his mind at once to meet his end!" "How long will you not have done? It is an unseemly sight!"
+
+The Nijō Palace had a narrow moat and low walls — no fastness to hold off an army. When soldiers climbed to the roof of the Konoe mansion that adjoined it on the north and loosed fire-arrows, the gable of the main keep's study burst into flame. It was beaten back; but by the last third of the hour of the Dragon — nine in the morning — the fighting here too was over. Nobutada killed himself at the last and put the palace to the torch; and when the main hall of Honnō-ji, that had blazed so long, burned through and fell in, there was no more fear of the fire carrying to the streets around.
+
+But the converts at the Nanban-ji could not be easy in their minds. Mitsuhide had no love for the Christian faith, and the faith had lived under Nobunaga's protection; surely, they thought, he would burn the Nanban-ji down.
+
+But Mitsuhide sent a proclamation through the streets — he would on no account burn the town, and would take no one's life so long as they raised no hand against his soldiers — and at that they could breathe again.
+
+Even so, his men were going house to house through the town, routing out the survivors of Nobunaga's party, striking off their heads and bringing them in, until the heads made a hill before Mitsuhide and the bodies lay abandoned in the streets.
+
+The black man spoken of before had, out of curiosity perhaps, slipped from the Nanban-ji before anyone noticed and wandered as far as the Nijō Palace; Mitsuhide's men seized him on the spot and dragged him before their lord. Mitsuhide gave him one glance and spat out: "Hm — so the Minister of the Right doted on such a creature as this, and for it came himself to a charred and miserable end. A thing like this is a benighted savage that knows nothing, and no Japanese at that. Hand him over to the Nanban-ji this instant!"
+
+And so, his arms still bound behind him, the black man was sent back to the church.
+
+The converts lost no time in giving thanks to Deus that, through all this great upheaval, church and faithful alike had come through unharmed.
+
+But they were not altogether at ease. For it was a certainty that Mitsuhide would fall upon the Azuchi seminary, and the seminary stood hard beside the castle.
+
+And so their thanksgiving ran on into a petition — keep the Azuchi seminary safe, we beseech thee. Three messengers had already been sent off to carry word of the affair to the seminary.
+
+And in fact Mitsuhide, once he had performed the victory rite before the burnt-out ruins of the Nijō Palace, put himself at the head of his troops and set off for Sakamoto, his own castle.
+
+By noon the people of Azuchi had caught the rumor that something terrible had happened at Honnō-ji and that Nobunaga was likely dead; but no sure word could reach them. This was because the Seta Bridge — reckoned the finest bridge in Japan, thrown by Nobunaga across the Seta River where it empties into the southern end of Lake Biwa — had been cut down by one of Nobunaga's own generals to slow Mitsuhide's march on Azuchi.
+
+So the rumors of catastrophe swelled and swelled, until all Azuchi was in an uproar such as men picture the Last Judgment to be.
+
+Organtino and the rest, certain that Mitsuhide would burn Azuchi to the ground, took hurried counsel and resolved to put the seminary's twenty-eight pupils aboard a boat and flee with them to Oki-no-shima, an island out in the lake — for a man of that island had come and, all kindness, urged them to it.
+
+Padre Francisco Fróis carried a crucifix with the holy image upon it, a little statue of the Virgin, silver candlesticks, a censer, sacred plate; Padre Pereira too was laden with altar-vessels. But many of the townsfolk had already turned thief: Pereira had his hat and his cloak torn off him, and the very sleeves and hem cut from the robe beneath, and the others too were robbed of this and that. Still, they got aboard at last and reached Oki-no-shima — only to find that the folk they had taken for kind souls were in truth pirates.
+
+The pirates herded the converts into a stable and, in a cold manner utterly unlike their first, demanded half of everything they carried. After no end of wrangling it was settled, at last, by the payment of ten ryō in gold.
+
+But Organtino did not trust them, and had one of the converts steal the costliest of the sacred vessels away in the dead of night and hide them on a hill in the middle of the island. At the same time, one of the seminary's pupils — a boy named Araki, who happened to be the nephew of one of Akechi's own generals — got a message smuggled out to his uncle; and the uncle came to Oki-no-shima with soldiers and brought the converts and their sacred vessels off to safety.
+
+Meanwhile, the repair of the Seta Bridge was finished on the fifth, so Mitsuhide and his men came into Azuchi, broke open the castle storehouses, and in two or three days shared out among themselves the whole hoard of gold and silver that Nobunaga had been fifteen years amassing.
+
+Mitsuhide strictly forbade the setting of fires, and after three days of feasting shouldered the plunder and departed for Kyoto. Whereupon looting and highway robbery broke out on the instant, and the seminary was stripped bare — all but a few altar-vessels and books — the window shutters and even the linings of the walls torn away, till nothing was left of it but its pillars and its roof-tiles.
+
+Hideyoshi, the moment word of the disaster reached him, patched up a hasty peace with the Mōri — on terms that had Shimizu Muneharu, commander of the Takamatsu castle he had been flooding out, cut open his own belly — and on the seventh drove through wind and rain back to Himeji, and on the morning of the ninth set out for Kyoto. On the afternoon of the thirteenth the two armies joined battle at Yamazaki; in a little while Mitsuhide's army broke, and Mitsuhide himself, fleeing under cover of the black night, was killed near Ogurusu by peasants out to strip the armor from beaten stragglers.
 
