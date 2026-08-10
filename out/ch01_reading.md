@@ -522,3 +522,43 @@ But Karasumaru had been in the thick of upheaval from the day he was born. Three
 
 Who Hatsuko was, was a five-league fog to Karasumaru. What she might be to his master Hanzō he had not the least idea. But taking her, at all events, for one of the master's household, he did not cross her. "Karasumaru dear, let's play. Come on," Hatsuko was forever calling to him. To Hatsuko, this Karasumaru — huge of body yet in truth a child — was a strong attraction she could enjoy with an easy mind, with never a danger to fear.
 
+Her body, moving on from sumo, took up the study of ninjutsu. She had strong, supple springs in her, and in the leaping-arts she was soon a match for Karasumaru himself. Tucking the skirts of her kimono up between her legs, she would spring nimbly into the air, and turn somersaults too.
+
+Some readers may recall Tamo — now a beggar-woman past all knowing — as she had been at twelve or thirteen. In those days, working the cat-art among the "four-legged practices," Tamo would run up a zelkova in three bounds, flit along a branch near the crown, spin through the air, and come down without a sound, leaving Kashii, who watched her, struck dumb.
+
+Hatsuko was a bigger, better-fleshed girl than Tamo, and had by so much the more strength.
+
+The teacher of Mr. Hatsumi Masaaki — the thirty-fourth master of the Togakure school, who lives at Noda, in Chiba, and whom I have lately come to know — was one Takahashi Yokuō, the thirty-third, of Kashiwara in Nara, who received the transmission in Meiji 40 from the thirty-second master, Toda Shinryūken Masamitsu. This Shinryūken, in the Ansei years, when his father Toda Daisaburō Chikashige was living as a wandering monk, once watched his father set himself at a round pillar three shaku across in the main hall of a mountain temple, run up it in one rush from some four ken off, and, near the ceiling, with a single cry of "Ei!" kick off the ceiling with both feet, curl up like a cat as he fell, and land with hands and feet flung wide, on his feet. And Master Takahashi told how Shinryūken himself, saying "I cannot do what my father did, but—," had run at a great round pillar in a certain temple, gone a ken and a half up it, and with one shout seated himself square on a ceiling beam better than two ken overhead, and sat there laughing — a thing Takahashi saw with his own eyes. He kicked the pillar with both feet; and no sooner did he seem to have caught the beam with both hands than he had whipped his body over, and with another shout turned a somersault down and stood on the floor in a low crouch — so the story goes; and this Takahashi told to Mr. Hatsumi.
+
+Lately I too saw, on a television program called "Circuses of the World," a performer doing something near to that art. By reason alone the thing is perfectly possible, and what Tamo and Hatsuko did was nothing else than this — only, they did it in a flapping-skirted Japanese kimono.
+
+Hatsuko made outstanding strides with the shuriken as well: flinging twenty in a blur too quick for the eye, she could plant as many as eighteen of them in the black spot at the center of the target. And she showed a fine hand at the blow-dart — the art of holding a little tube between those red lips, blowing hard, and loosing the needle set inside it to pierce a man through.
+
+One day Etegi brought himself to speak out. "Lady Hatsuko — strive how you will, in the end a woman cannot become a ninja."
+
+"Who decided that?" Hatsuko cocked an eyebrow.
+
+"It has been so from of old."
+
+"Why?"
+
+"By what I had from my uncle Kasumi, a woman, train as she may, can never match a man. And a woman's feelings swing too wildly, and she cannot master the swinging — above all when her heart is stolen away by a man, it comes to no earthly use."
+
+"Be quiet. — Hmph. And where is this uncle Kasumi of yours?"
+
+"Last year, when Lord Nobunaga fell on us, he died at the Momochi fort in Iga."
+
+"Mmm — a pity! Were he alive, I'd have made him see, once and for all, that not every woman is that woman."
+
+"He can hardly have known the whole of Japan."
+
+"But in Iga and in Kōga alike, from ancient times, there has never once been such a thing as a woman ninja."
+
+"There — you see. And when you say there are none, you mean the ninja who take up the art as a trade, a way to feed themselves, and hire out to whoever will pay. I've no mind to sell my ninjutsu. I'll not sell the art — I'll use it as I please, for my own ends."
+
+"That may be so, but—"
+
+"I am a woman ninja!" So Hatsuko declared.
+
+The reader must be told this: down to the years before the recent war, a woman was held to be "a modest thing, in bondage to man." My own mother was so retiring a woman that even over the telephone her voice came out too small for the person at the other end to catch. Widowed at thirty-five, she raised the two of us, my younger brother and me; and my late father's stepmother, a foolish woman, kept up a ceaseless bullying of her daughter-in-law. However vicious the persecution she met —
+
