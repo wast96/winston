@@ -30,12 +30,14 @@ contradictions with scholarship, choices you were unsure of).
   plus printed folio as stacked digits in the top outer corner. Body block
   sits below; measure the crop box on B01's pages before OCR. Model
   chi_tra_vert, --psm 5.
-- Excluded from translation, standing decisions: (1) the 2019 導讀 by Cai
-  Dengshan (modern copyrighted text; noted in translator_note); (2) the
-  reprint-added period photographs with modern one-line captions (added by the
-  2019 editor, not part of the 1933 book) — excluded by default pending the
-  commissioner's call at the survey gate; (3) reprint cover artwork (builder
-  generates a typographic cover, consistent with the shelf).
+- Standing decisions (survey gate, commissioner-approved 2026-08-10): (1) the
+  2019 導讀 by Cai Dengshan is EXCLUDED (modern copyrighted text; noted in
+  translator_note); (2) the reprint-added period photographs are INCLUDED per
+  the commissioner's explicit instruction: run them through the figure
+  pipeline per batch (crop from the scan, alt text, caption translating the
+  reprint's label and stating provenance: photographs added by the 2019
+  editor, not figures of the 1933 book); (3) reprint cover artwork excluded
+  (builder generates a typographic cover, consistent with the shelf).
 - book.json: metadata filled (series Winston Translations #10); complete
   structure, 168 chapters (ch000 = author's 1933 preface, signed 癸酉七夕
   天虛我生 = Chen Diexian; ch001-ch167 = the essays); 10 proposed batches.
