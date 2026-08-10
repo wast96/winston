@@ -23,13 +23,13 @@ Read CLAUDE.md in full (the working rules at the top are non-negotiable), then H
 
 Run ./setup.sh first and record any failure in PROGRESS.md. NOTE: the checker regression harness reports 9/10 green with ONE expected failure ("hook stands down on template stub") — that case only passes while HANDOFF.md holds the template placeholder; now that HANDOFF carries a real kickoff the Stop hook correctly enforces, so that one test necessarily reads FAIL for the rest of the book. Not a defect; do not "fix" it. data/src and data/src_epub are gitignored and regenerable: if they are missing, run scripts/ingest_epub.py source.epub (do NOT overwrite book.json). This book has NO source-edition footnotes; re-grep this unit's source for \[\d+\] and record "none present" in PROGRESS.md.
 
-ch01 (the Prologue) is the APPROVED FROZEN REFERENCE for register and PARAGRAPHING. Before translating, READ out/ch01_reading.md end to end and study HANDOFF's "Voice / house style", "Paragraphing", and voice sheets — the pages ARE the voice. Money/units are SETTLED: keep the period units (cash/catty/tael/li/cun/zhang) with footnotes, no domestication. Watch comma density (split clumsy comma runs; use em dashes only sparingly). Consult glossary.json and authority.json BEFORE romanizing anything (glossary.json holds the B01 shelf renderings; keep one rendering per referent).
+ch01 (the Prologue) is the APPROVED FROZEN REFERENCE for register and PARAGRAPHING. Before translating, READ out/ch01_reading.md end to end and study STYLE.md (the in-depth style guide) plus HANDOFF's "Paragraphing" and voice sheets — the pages ARE the voice. Money/units are SETTLED: keep the period units (cash/catty/tael/li/cun/zhang) with footnotes, no domestication. Watch comma density (split clumsy comma runs; use em dashes only sparingly). Consult glossary.json and authority.json BEFORE romanizing anything (glossary.json holds the B01 shelf renderings; keep one rendering per referent).
 
 Do Batch B02 = Chapter 1 (ch02, 第一章 有四条眉毛的人 / "The Man with Four Eyebrows"; ~10,407 source chars; text_file data/src/07_part0000-split-005.txt), end to end per the CLAUDE.md pipeline:
 1. Read ch02 from its text_file. Fix extractor-split paragraphs (a line whose last char is not in 。！？"）…— continues the next). Chapters 1-12 divide themselves with BARE NUMERIC markers (01, 02, ...) that are scene breaks, NOT titled sections: recover them as *** (a *** line, not a paragraph) at the numeric-divider boundaries and record how in PROGRESS. ch02 has NO book.json sections, so its reading.md is one H1 + prose + *** breaks.
-2. Translate to the frozen ch01 house style (HANDOFF "Voice / house style"): fluent, literary, image-forward, economical; recast freely for natural English; punch-lines on their own line; contractions measured; dialogue characterised; watch comma density; no invented substance. FOLLOW THE PARAGRAPHING RULE: MERGE adjacent narration into paragraphs by beat — do NOT render one source line per paragraph — keeping dialogue turns and punch-lines on their own. Lu Xiaofeng himself arrives here — write his voice sheet into HANDOFF at first speech. Never invent bridging text; render digitization glitches to plain sense and LIST each in PROGRESS.md; the source's own errors of fact stay visible and get a footnote. Verify the chapter's TAIL against the source before shipping.
+2. Translate to the frozen ch01 house style (read STYLE.md): fluent, literary, image-forward, economical; recast freely for natural English; punch-lines on their own line; contractions measured; dialogue characterised; watch comma density; no invented substance. FOLLOW THE PARAGRAPHING RULE: MERGE adjacent narration into paragraphs by beat — do NOT render one source line per paragraph — keeping dialogue turns and punch-lines on their own. Lu Xiaofeng himself arrives here — write his voice sheet into HANDOFF at first speech. Never invent bridging text; render digitization glitches to plain sense and LIST each in PROGRESS.md; the source's own errors of fact stay visible and get a footnote. Verify the chapter's TAIL against the source before shipping.
 3. Author out/ch02_en.json as MERGED English paragraphs, then build via the merged-source method (Paragraphing step 2): group the source lines, concatenate each group VERBATIM into out/ch02_src_merged.txt, run make_bilingual.py ch02 <merged_src> "Chapter 1. The Man with Four Eyebrows" out/ch02_en.json 2, insert the bare-numeric -> *** scene breaks, split_bilingual.py. Then verify_unit.py ch02 (parity + numbers with --noise data/noise.txt + anchors); check_align.py ch02; check_content.py --config <cfg>; qc_entities.py out/ch02_bilingual.md glossary.json. Add ch02 to a check config with docs/sources (copy the scratchpad qc_config from B01, or make one: {"docs":{"ch01":...,"ch02":...},"sources":{...},"notes":"notes.json","heading_depth":2}).
-4. Footnotes per the reader model (Western reader, no Chinese background); first-appearance greps + a NOT-re-noted list; note density tapers from B01's 14 as the furniture is covered — expect fewer. Use apparatus_merge.py for NOTES (its glossary path adds rows FLAT and must NOT be used — add glossary rows under the two-level sections directly and validate with check_apparatus.py; see the do-not-revert note). check_apparatus.py clean.
+4. Footnotes per the reader model (Western reader, no Chinese background); first-appearance greps + a NOT-re-noted list; note density tapers from B01's 15 as the furniture is covered — expect fewer. Use apparatus_merge.py for NOTES (its glossary path adds rows FLAT and must NOT be used — add glossary rows under the two-level sections directly and validate with check_apparatus.py; see the do-not-revert note). check_apparatus.py clean.
 5. Rebuild, qa_epub.py green, epubcheck (/tmp/epubcheck-5.1.0/epubcheck.jar) clean, check_register.py --ref out/ch01_reading.md out/ch02_reading.md within tolerance. Record every check in PROGRESS.md; update HANDOFF.md; commit and push to claude/lu-xiaofeng-1.
 6. End the batch per CLAUDE.md: attach the rebuilt out/lu-xiaofeng-1.epub in the chat AND paste the B03 kickoff verbatim in the same reply.
 
@@ -40,13 +40,14 @@ Cite chapters and sections, never pages. Do not pause for approval mid-batch (B0
 
 - **Step 0 survey** (prior session): ingested the source, authored book.json
   (13 units), built the skeleton EPUB. Committed to claude/lu-xiaofeng-1.
-- **B01 = the Prologue (ch01)** — COMPLETE, at the voice gate, REVISED TWICE on
-  commissioner feedback (round 2: merge paragraphs; round 3: full literary
-  re-render to the house style below). 4 vignette sections; **154 paragraphs**;
-  14 footnotes; 21 glossary rows; 0 figures. Every check green (parity,
+- **B01 = the Prologue (ch01)** — COMPLETE, at the voice gate, REVISED across
+  rounds 2-5 on commissioner feedback (merge paragraphs; full literary
+  re-render; comma/rhythm pass; outlaw-register for the low-life voices +
+  gambler-superstition footnote). 4 vignette sections; **154 paragraphs**;
+  **15 footnotes**; 21 glossary rows; 0 figures. Every check green (parity,
   numbers, align, content, entities, apparatus, structure, qa_epub, epubcheck
   0/0/0/0). ch01 is the intended FROZEN REGISTER REFERENCE (contractions
-  **38.9/1k**, rhythm CV 0.78), pending the commissioner's re-read at the gate.
+  **40.3/1k**, rhythm CV 0.75), pending the commissioner's re-read at the gate.
   Full detail in PROGRESS.md. **Money/units DECIDED: keep the period units
   (cash / catty / tael / li / cun / zhang) with footnotes, book-wide — no
   domestication.**
@@ -62,7 +63,12 @@ Cite chapters and sections, never pages. Do not pause for approval mid-batch (B0
   choke on. **So: use apparatus_merge.py for NOTES only; add glossary rows
   under the sections directly (Write tool, never a shell heredoc — that is the
   rule's real target) and validate with `check_apparatus.py`.** Do not "fix"
-  by flattening the glossary.
+  by flattening the glossary. **CONCRETE TRAP (hit twice):** if the batch
+  apparatus JSON you pass to `apparatus_merge.py` still contains a `"glossary"`
+  block, the merge re-adds those rows FLAT every time. Either strip the
+  `glossary` block from the apparatus JSON before a notes merge, or after
+  merging remove the flat dupes (any top-level non-`_` key with an `en` field)
+  and re-run `check_apparatus.py`. NOTES-only merges are safe.
 - `scripts/check_content.py`: `name_map` skips `_`-prefixed / non-dict
   top-level glossary keys (it crashed on the string-valued `_about`). Matches
   the guard already in `qc_entities` and `render_glossary`. Keep it; the
@@ -101,7 +107,9 @@ punch-lines on their own. Method that preserves the pipeline's guarantees:
 
 Set by the commissioner at the voice gate. The bar: it should read like a
 **novel a good translator chose to publish in English**, not a crib of the
-source. Project-agnostic; applies to every chapter.
+source. Project-agnostic; applies to every chapter. **`STYLE.md` (repo root) is
+the in-depth, worked-example version — read it before translating; this is the
+compact companion.**
 
 - **Fluency over literalism.** Translate the meaning and the image, not the
   word order. Recast, reorder, resubordinate freely so each sentence lands as

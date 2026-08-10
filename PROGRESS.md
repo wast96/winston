@@ -266,3 +266,31 @@ Re-checks all green (verify_unit 154/0/14, align no strays, content all placed,
 qc_entities 0, apparatus 0/0, structure PASS, qa_epub PASS, epubcheck 0/0/0/0,
 register 38.9/1k CV 0.76). The HANDOFF house-style guide was rewritten
 project-agnostic and given the comma/rhythm rule.
+
+### Voice-gate revision (round 5) — outlaw register, two edits' worth of notes
+
+More commissioner line edits, all in the Honest Monk vignette, plus the goal
+stated outright: an American reader should not be able to tell the book was
+translated. Key shift: **register-differentiate the low-life voices** — the
+Water Snake Gang now talk like road-agents ("Easy, now… nobody need get hurt…
+we'll be gone before you know it"; "Let's get outta here"), not a police
+report. Also: crow opener recast; "the old ferryman"; "respectable and
+harmless enough"; the monk's feet split into two sentences.
+- **New footnote (now 15).** The ferryman's dread of monks is a real gamblers'
+  superstition (a bald/shaved head omens 输光/光, being "cleaned out");
+  footnoted at "taken for all he was worth". It also covers the passengers'
+  later "cross a monk / foul luck" curse (NOT separately re-noted).
+- **Water Snake Gang: NO footnote** — it is Gu Long's invention, not a real
+  gang (commissioner: footnote only if real). Glossary line only.
+- **STYLE.md written** (repo root): the in-depth, worked-example style guide
+  analysing every round of feedback; HANDOFF's house-style is the compact
+  companion. B02+ read STYLE.md.
+- Checks all green; **register 40.3/1k** (the colloquial outlaw speech lifted
+  it), CV 0.75. 15 refs / 15 bodies / 15 backlinks; epubcheck 0/0/0/0.
+
+**Tooling trap re-confirmed:** running `apparatus_merge.py` on a batch file
+that still contains a "glossary" block re-adds those rows FLAT at glossary.json
+top level (breaks render/qc). Fix applied (removed the 21 flat dupes). Going
+forward: strip the glossary block from the apparatus JSON before merging, or
+clean the flat dupes after — see HANDOFF do-not-revert. NOTES-only merges are
+safe.
