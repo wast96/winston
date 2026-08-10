@@ -22,12 +22,25 @@ named here, not yet on stage.
   resolve, 48 pagebreak markers, all links resolve).
 - `epubcheck 5.1.0`: 0 fatals / 0 errors / 0 warnings / 0 infos (store-clean).
 - `check_apparatus.py`: 0 failures, 0 warnings.
-- `check_register.py`: baseline recorded (this is the FROZEN REFERENCE):
-  dialogue contractions 7.8/1k, shall-share 0%, em-dash 16.3/1k, rhythm CV 0.62,
-  sentence median 23. The contraction rate is moderate because the chapter is
-  largely narration; the dialogue that exists is either period-formal (prayers,
-  proclamations, the arms-dealer's confession) or deliberately archaic
-  (Lourenco, Doka), with ordinary speech contracted naturally.
+- `check_register.py`: baseline recorded (this is the FROZEN REFERENCE), taken
+  AFTER the voice-gate re-voice (see below): dialogue contractions 8.8/1k,
+  shall-share 0%, em-dash 0.3/1k, rhythm CV 0.63, sentence median 17.
+
+### Voice-gate revision (commissioner feedback)
+The first build was judged too stilted. The commissioner rewrote the opening
+paragraphs to model the target voice; from that comparison a prose contract was
+written to `STYLE.md` (approved), and the WHOLE chapter was re-voiced to it.
+The fix was structural, not lexical: kill the dashed-in appositive gloss, break
+long periodic sentences into short varied ones, break dense paragraphs at each
+shift of focus, trim doubled synonyms, de-translationese, prefer active verbs,
+hold understatement in narration while keeping the author's heat where the
+source has it. The register numbers show the change: em-dash use fell from
+16.3/1k to 0.3/1k (the four survivors are all interrupted/trailing dialogue),
+sentence median from 23 words to 17. All 67 footnote anchors were reconciled to
+the new prose (12 re-pointed in notes.json; all resolve). Content fidelity
+verified: 47 critical name/number tokens all present, 18,321 words (tighter than
+the first draft's 18,693, from trimming, not cutting). `STYLE.md` now governs
+every remaining chapter.
 
 ### OCR and fidelity method (important, book-specific)
 - OCR: tesseract `jpn_vert`, psm 5, crop left 0.06 / right 0.96 / top 0.09 /

@@ -80,15 +80,9 @@ like a novel, it passes.
   abstract, find the living English equivalent rather than tracing its shape.
 - **Compress where English compresses.** If English would carry a whole clause
   in a single word or phrase, do that. Terseness is a virtue, not a loss.
-- **Enrich the physical scene, but never invent events.** It is right to ground
-  an image in the light, the weather, the ground underfoot when the source
-  implies them, and to choose the more exact noun over the general one. It is
-  never right to add an action, a fact, a number, or a piece of dialogue the
-  source does not contain. Enrichment makes the existing scene vivid; it does
-  not add to the story. This line is absolute.
-- **Understatement over intensifiers.** Trust the facts to carry weight. Cut
-  "hideously," "utterly," "very." A plain statement of something terrible is
-  stronger than the same thing with an adverb pushing on it.
+- **Enrich the physical scene, but never invent events.** See the enrichment
+  doctrine below.
+- **Understatement over intensifiers.** See the understatement doctrine below.
 - **No archaism, no purple.** No mock-antique diction, no Victorian cadence, no
   ornamental adjectives. The register is clean, controlled, contemporary
   literary English.
@@ -123,6 +117,61 @@ like a novel, it passes.
 - **The author's direct intrusions (fourth-wall asides):** keep their buttonholing,
   conversational energy. These should sound like a person talking straight to the
   reader, which is exactly the target register at its most relaxed.
+
+## Enrichment doctrine — where rendering ends and inventing begins
+
+Enriching the RENDERING of what the source already holds is craft. Adding to the
+CONTENT is fabrication, and fabrication is the worst error in this work because
+nothing downstream catches it.
+
+Legitimate enrichment (make the implicit explicit; choose the exact word):
+- ambient conditions the scene has already fixed (name the failing light once
+  dusk is established);
+- physical properties inherent in a thing already named (the greyness and
+  rope-like matting of named river-weed);
+- the physical completion of a stated action in its stated setting;
+- the sensory quality the source has already asserted.
+Test: would a reader of the source already picture this, unprompted, from what
+the source built? If yes, enrich. If not, stop.
+
+Invention (forbidden, absolutely):
+- new events or actions;
+- new facts about place, person, motive, history;
+- INVENTED PRECISION — the deadly one, dressed as enrichment: where the source is
+  vague, English stays vague. "A good while" never becomes "three weeks"; "a man"
+  never becomes "a tall man." Definiteness the source withholds is withheld.
+- emotional or interpretive overlay the source keeps closed.
+Second test: could a careful bilingual reader point at the source and say "that
+is not there and is not entailed"? If yes, cut it.
+
+Asymmetry: enrichment touches only atmosphere and word-choice. It NEVER touches a
+number, name, date, unit, or factual specific; those are copied exactly, never
+grounded, rounded, or sharpened.
+
+The dial: a light touch, not a repaint. One exact noun and one grounding phrase
+usually suffice to lift a line from decoded to composed. Piling on detail becomes
+its own infidelity by overriding the source's economy.
+
+## Understatement doctrine — trust the fact, without draining the author
+
+Default: trust the fact to carry its charge; the reflexive intensifier weakens.
+Put intensity in the verb and the noun, not in an adverb. This disciplines the
+NARRATOR'S DESCRIPTIVE register: strip "very," "utterly," "hideously," "terribly"
+from straight description, physical horror, and grief, where the plain statement
+hits harder.
+
+But understatement has a direction. It never lowers the temperature of a source
+that already runs hot. Keep the heat where the source has it:
+- the author's own raised voice (frank, sardonic, and genuinely indignant in his
+  political asides): vehement in the source, vehement in English;
+- rhetorical set-pieces (curse, oath, proclamation, prayer, confession): full force;
+- comedy and the bawdy register: full flavor, never made genteel;
+- a character's heightened moment: a speaker who rages, rages.
+
+Governing test: is the heat in the source, or am I adding it, or removing it?
+Match the source's temperature. Plain where it is plain, hot where it is hot.
+Avoid both failure modes: purple adverb-pushed English, and a bloodless uniform
+cool that drains the author's passion, humor, and anger.
 
 ## The one-line summary
 Cut the scaffolding. Break the walls. Trust the short sentence. Hide the machine.
