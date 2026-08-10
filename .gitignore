@@ -37,3 +37,8 @@ out/*_bilingual.md
 # Keep source.pdf and committed figure crops (data/figs/*.png) TRACKED.
 # If your scan is very large and you would rather not commit it, add:
 #   source.pdf
+
+# Per-batch scratch: raw eye-read transcriptions, one-time apparatus merge
+# files, and the regenerable check_content config. Provenance, not pipeline
+# inputs; the tracked correction surface is data/zh/*.txt + out/*_reading.md.
+/work/
