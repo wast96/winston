@@ -41,6 +41,8 @@
 # quantities. Rendered by name (e.g. "the August Thirteenth resistance",
 # "the December Ninth student movement", "the April 12 coup").
 八一三
+# 一二八五弄 Lane 1285 (Avenue Joffre address, ch09); MUST precede the 一二八 (Jan-28) rule or that shorter rule eats the prefix and orphans 五. Carried as digits in the English.
+一二八五
 一二八
 一二九
 四一二
@@ -167,3 +169,47 @@
 阿五
 # 零售 "retail"; 零 is part of the word, not the count 0.
 零售
+# --- B04 (ch09-ch12) ---
+# 红十字会 the Red Cross (hospital); 十 part of the name, not the count 10.
+红十字
+# 只知其一，不知其二 "know the one but not the other"; 二 is idiomatic, not a count.
+不知其二
+# 四明银行 the Ningbo Commercial (Siming) Bank; 四 part of the bank name, not the count 4.
+四明
+# 李征五 Li Zhengwu (Green Gang figure in the 1911 Shanghai uprising); 五 part of the name.
+李征五
+# 化整为零 "break the whole into parts"; 零 is idiomatic, not the count 0.
+化整为零
+# 两腿弯曲 "his legs bent"; 两 is "both", not the count 2 / a tael.
+两腿
+# 第二天 "the next day"; 二 idiomatic, rendered without a digit.
+第二天
+# 数千或竟上万 "thousands or even tens of thousands" (rhetorical); 上万 not a counted quantity.
+上万
+# 先生二字 / 老头子三字 — "the word 'xiansheng' / 'laotouzi'"; 二字/三字 name a word by its character-count, not a quantity (English names the word).
+二字
+三字
+# 三原 Sanyuan (Xu Langxi's home county in Shaanxi); 三 part of the place name.
+三原
+# 直皖两系 "the Zhili and Anhui factions"; 两 is "the two", not a counted quantity.
+两系
+# 十二万分 idiom "immeasurably / a hundredfold" (grateful); not the number 120,000.
+十二万分
+# 三轮车 pedicab / trishaw; 三 part of the word (three-wheeler), not a count.
+三轮车
+# 委员长万岁 "Long live the Generalissimo"; 万岁 is "long live", not the count 10,000.
+万岁
+# 三牌楼 Sanpailou (a Shanghai locality); 三 part of the place name.
+三牌楼
+# 一百零八将 the "Hundred and Eight Generals" (Huang Jinrong's gang, after the Water Margin); a named group, 108 not a bare count.
+一百零八将
+# 三鑫公司 the Sanxin Company (the opium monopoly); 三 part of the firm name.
+三鑫
+# 两手空空 idiom "empty-handed"; 两 is not a count.
+两手空空
+# 家产巨万 idiom "a vast fortune"; 巨万 rhetorical, not the count 10,000.
+巨万
+# 数以千计 "numbering in the thousands" (rhetorical); not the count 1,000.
+数以千计
+# 牌九 pai gow (the gambling game); 九 part of the game name, not the count 9.
+牌九

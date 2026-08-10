@@ -354,6 +354,400 @@
       "pinyin": "Chuandao Fangzi",
       "status": "attested",
       "note": "See the note at her first appearance."
+    },
+    "袁寒云": {
+      "en": "Yuan Hanyun",
+      "pinyin": "Yuan Hanyun",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 20,
+      "cast": "1889&#8211;1931; the poet, collector and Green Gang celebrity Yuan Kewen, second son of Yuan Shikai, who opposed his father's monarchy. The subject of ch10, told by his disciple Chen Timin.",
+      "note": "Yuan Kewen (袁克文), hao Hanyun; pinyin form used across the collection."
+    },
+    "袁克文": {
+      "en": "Yuan Kewen",
+      "pinyin": "Yuan Kewen",
+      "status": "attested"
+    },
+    "袁世凯": {
+      "en": "Yuan Shikai",
+      "pinyin": "Yuan Shikai",
+      "status": "attested"
+    },
+    "袁克定": {
+      "en": "Yuan Keding",
+      "pinyin": "Yuan Keding",
+      "status": "attested"
+    },
+    "袁家骝": {
+      "en": "Yuan Jialiu",
+      "pinyin": "Yuan Jialiu",
+      "status": "attested"
+    },
+    "陈惕敏": {
+      "en": "Chen Timin",
+      "pinyin": "Chen Timin",
+      "status": "provisional"
+    },
+    "段祺瑞": {
+      "en": "Duan Qirui",
+      "pinyin": "Duan Qirui",
+      "status": "attested"
+    },
+    "梅兰芳": {
+      "en": "Mei Lanfang",
+      "pinyin": "Mei Lanfang",
+      "status": "attested"
+    },
+    "张宗昌": {
+      "en": "Zhang Zongchang",
+      "pinyin": "Zhang Zongchang",
+      "status": "attested"
+    },
+    "褚玉璞": {
+      "en": "Chu Yupu",
+      "pinyin": "Chu Yupu",
+      "status": "attested"
+    },
+    "许世英": {
+      "en": "Xu Shiying",
+      "pinyin": "Xu Shiying",
+      "status": "attested"
+    },
+    "隆裕太后": {
+      "en": "the Empress Dowager Longyu",
+      "pinyin": "Longyu",
+      "status": "attested"
+    },
+    "余大雄": {
+      "en": "Yu Daxiong",
+      "pinyin": "Yu Daxiong",
+      "status": "provisional"
+    },
+    "钱芥尘": {
+      "en": "Qian Jiechen",
+      "pinyin": "Qian Jiechen",
+      "status": "provisional"
+    },
+    "钱化佛": {
+      "en": "Qian Huafo",
+      "pinyin": "Qian Huafo",
+      "status": "provisional"
+    },
+    "李金标": {
+      "en": "Li Jinbiao",
+      "pinyin": "Li Jinbiao",
+      "status": "provisional"
+    },
+    "步章五": {
+      "en": "Bu Zhangwu",
+      "pinyin": "Bu Zhangwu",
+      "status": "provisional"
+    },
+    "俞佩文": {
+      "en": "Yu Peiwen",
+      "pinyin": "Yu Peiwen",
+      "status": "provisional"
+    },
+    "浦应仙": {
+      "en": "Pu Yingxian",
+      "pinyin": "Pu Yingxian",
+      "status": "provisional"
+    },
+    "吴桐渊": {
+      "en": "Wu Tongyuan",
+      "pinyin": "Wu Tongyuan",
+      "status": "provisional"
+    },
+    "张謇": {
+      "en": "Zhang Jian",
+      "pinyin": "Zhang Jian",
+      "status": "attested"
+    },
+    "张詧": {
+      "en": "Zhang Cha",
+      "pinyin": "Zhang Cha",
+      "status": "provisional"
+    },
+    "徐宝山": {
+      "en": "Xu Baoshan",
+      "pinyin": "Xu Baoshan",
+      "status": "attested"
+    },
+    "冯国璋": {
+      "en": "Feng Guozhang",
+      "pinyin": "Feng Guozhang",
+      "status": "attested"
+    },
+    "齐燮元": {
+      "en": "Qi Xieyuan",
+      "pinyin": "Qi Xieyuan",
+      "status": "attested"
+    },
+    "卢永祥": {
+      "en": "Lu Yongxiang",
+      "pinyin": "Lu Yongxiang",
+      "status": "attested"
+    },
+    "何丰林": {
+      "en": "He Fenglin",
+      "pinyin": "He Fenglin",
+      "status": "attested"
+    },
+    "李纯": {
+      "en": "Li Chun",
+      "pinyin": "Li Chun",
+      "status": "attested"
+    },
+    "陈光甫": {
+      "en": "Chen Guangfu",
+      "pinyin": "Chen Guangfu",
+      "status": "attested"
+    },
+    "朱成章": {
+      "en": "Zhu Chengzhang",
+      "pinyin": "Zhu Chengzhang",
+      "status": "provisional"
+    },
+    "钱新之": {
+      "en": "Qian Xinzhi",
+      "pinyin": "Qian Xinzhi",
+      "status": "attested"
+    },
+    "徐静仁": {
+      "en": "Xu Jingren",
+      "pinyin": "Xu Jingren",
+      "status": "provisional"
+    },
+    "葛光庭": {
+      "en": "Ge Guangting",
+      "pinyin": "Ge Guangting",
+      "status": "provisional"
+    },
+    "韩复榘": {
+      "en": "Han Fuju",
+      "pinyin": "Han Fuju",
+      "status": "attested"
+    },
+    "宋哲元": {
+      "en": "Song Zheyuan",
+      "pinyin": "Song Zheyuan",
+      "status": "attested"
+    },
+    "蒋鼎文": {
+      "en": "Jiang Dingwen",
+      "pinyin": "Jiang Dingwen",
+      "status": "attested"
+    },
+    "朱绍良": {
+      "en": "Zhu Shaoliang",
+      "pinyin": "Zhu Shaoliang",
+      "status": "attested"
+    },
+    "左宗棠": {
+      "en": "Zuo Zongtang",
+      "pinyin": "Zuo Zongtang",
+      "status": "attested"
+    },
+    "张之江": {
+      "en": "Zhang Zhijiang",
+      "pinyin": "Zhang Zhijiang",
+      "status": "attested"
+    },
+    "张竹平": {
+      "en": "Zhang Zhuping",
+      "pinyin": "Zhang Zhuping",
+      "status": "provisional"
+    },
+    "张孝若": {
+      "en": "Zhang Xiaoruo",
+      "pinyin": "Zhang Xiaoruo",
+      "status": "attested"
+    },
+    "赵子超": {
+      "en": "Zhao Zichao",
+      "pinyin": "Zhao Zichao",
+      "status": "provisional"
+    },
+    "赵丹": {
+      "en": "Zhao Dan",
+      "pinyin": "Zhao Dan",
+      "status": "attested"
+    },
+    "孔祥熙": {
+      "en": "H. H. Kung",
+      "pinyin": "Kong Xiangxi",
+      "status": "attested"
+    },
+    "宋子文": {
+      "en": "T. V. Soong",
+      "pinyin": "Song Ziwen",
+      "status": "attested"
+    },
+    "汪寿华": {
+      "en": "Wang Shouhua",
+      "pinyin": "Wang Shouhua",
+      "status": "attested"
+    },
+    "蒋介石": {
+      "en": "Chiang Kai-shek",
+      "pinyin": "Jiang Jieshi",
+      "status": "attested"
+    },
+    "周象贤": {
+      "en": "Zhou Xiangxian",
+      "pinyin": "Zhou Xiangxian",
+      "status": "provisional"
+    },
+    "袁良": {
+      "en": "Yuan Liang",
+      "pinyin": "Yuan Liang",
+      "status": "provisional"
+    },
+    "徐晓耕": {
+      "en": "Xu Xiaogeng",
+      "pinyin": "Xu Xiaogeng",
+      "status": "provisional"
+    },
+    "郑弼臣": {
+      "en": "Zheng Bichen",
+      "pinyin": "Zheng Bichen",
+      "status": "provisional"
+    },
+    "头山满": {
+      "en": "Toyama Mitsuru",
+      "pinyin": "Toyama Mitsuru",
+      "status": "attested"
+    },
+    "宫崎寅藏": {
+      "en": "Miyazaki Torazo",
+      "pinyin": "Miyazaki Torazo",
+      "status": "attested"
+    },
+    "唐继尧": {
+      "en": "Tang Jiyao",
+      "pinyin": "Tang Jiyao",
+      "status": "attested"
+    },
+    "陈树藩": {
+      "en": "Chen Shufan",
+      "pinyin": "Chen Shufan",
+      "status": "attested"
+    },
+    "姚以价": {
+      "en": "Yao Yijia",
+      "pinyin": "Yao Yijia",
+      "status": "provisional"
+    },
+    "徐永昌": {
+      "en": "Xu Yongchang",
+      "pinyin": "Xu Yongchang",
+      "status": "attested"
+    },
+    "于右任": {
+      "en": "Yu Youren",
+      "pinyin": "Yu Youren",
+      "status": "attested"
+    },
+    "黎元洪": {
+      "en": "Li Yuanhong",
+      "pinyin": "Li Yuanhong",
+      "status": "attested"
+    },
+    "戴传贤": {
+      "en": "Dai Chuanxian",
+      "pinyin": "Dai Chuanxian",
+      "status": "attested"
+    },
+    "周佛海": {
+      "en": "Zhou Fohai",
+      "pinyin": "Zhou Fohai",
+      "status": "attested"
+    },
+    "汪亚尘": {
+      "en": "Wang Yachen",
+      "pinyin": "Wang Yachen",
+      "status": "attested"
+    },
+    "张国威": {
+      "en": "Zhang Guowei",
+      "pinyin": "Zhang Guowei",
+      "status": "provisional"
+    },
+    "胡振家": {
+      "en": "Hu Zhenjia",
+      "pinyin": "Hu Zhenjia",
+      "status": "provisional"
+    },
+    "黄炳泉": {
+      "en": "Huang Bingquan",
+      "pinyin": "Huang Bingquan",
+      "status": "provisional"
+    },
+    "樊尔谛": {
+      "en": "Fan Erdi",
+      "pinyin": "Fan Erdi",
+      "status": "provisional"
+    },
+    "周荫人": {
+      "en": "Zhou Yinren",
+      "pinyin": "Zhou Yinren",
+      "status": "attested"
+    },
+    "白崇禧": {
+      "en": "Bai Chongxi",
+      "pinyin": "Bai Chongxi",
+      "status": "attested"
+    },
+    "陈群": {
+      "en": "Chen Qun",
+      "pinyin": "Chen Qun",
+      "status": "attested"
+    },
+    "王柏龄": {
+      "en": "Wang Bailing",
+      "pinyin": "Wang Bailing",
+      "status": "attested"
+    },
+    "郝鹏举": {
+      "en": "Hao Pengju",
+      "pinyin": "Hao Pengju",
+      "status": "attested"
+    },
+    "丁默村": {
+      "en": "Ding Mocun",
+      "pinyin": "Ding Mocun",
+      "status": "attested"
+    },
+    "梅思平": {
+      "en": "Mei Siping",
+      "pinyin": "Mei Siping",
+      "status": "attested"
+    },
+    "李长江": {
+      "en": "Li Changjiang",
+      "pinyin": "Li Changjiang",
+      "status": "attested"
+    },
+    "龚天健": {
+      "en": "Gong Tianjian",
+      "pinyin": "Gong Tianjian",
+      "status": "provisional"
+    },
+    "王文奎": {
+      "en": "Wang Wenkui",
+      "pinyin": "Wang Wenkui",
+      "status": "provisional"
+    },
+    "李志清": {
+      "en": "Li Zhiqing",
+      "pinyin": "Li Zhiqing",
+      "status": "provisional"
+    },
+    "黄源焘": {
+      "en": "Huang Yuantao",
+      "pinyin": "Huang Yuantao",
+      "status": "provisional"
     }
   },
   "organizations": {
@@ -517,9 +911,35 @@
       "en": "the Yellow Way Society",
       "pinyin": "Huangdaohui",
       "status": "decided"
+    },
+    "三鑫公司": {
+      "en": "the Sanxin Company",
+      "pinyin": "Sanxin Gongsi",
+      "status": "decided"
+    },
+    "中华共进会": {
+      "en": "the China Mutual Progress Society",
+      "pinyin": "Zhonghua Gongjinhui",
+      "status": "attested"
+    },
+    "晶报": {
+      "en": "The Crystal",
+      "pinyin": "Jingbao",
+      "status": "attested"
+    },
+    "峪云山": {
+      "en": "Yuyun Mountain",
+      "pinyin": "Yuyun Shan",
+      "status": "provisional"
     }
   },
-  "places": {},
+  "places": {
+    "大世界": {
+      "en": "the Great World",
+      "pinyin": "Da Shijie",
+      "status": "attested"
+    }
+  },
   "terms": {
     "帮会": {
       "en": "the gangs",

@@ -15,8 +15,16 @@
       "note": "The standard frame of Chinese Marxist historiography for the century from the Opium War (1840) to 1949: China as &#8216;semi-colonial&#8217; (dominated by foreign powers through treaty ports and concessions rather than formally colonized) and &#8216;semi-feudal&#8217; (its landlord-peasant order eroded but not replaced). The preface reads the gangs through this lens throughout."
     },
     {
+      "anchor": "the Taiping Heavenly Kingdom",
+      "note": "The Taiping Heavenly Kingdom (<span lang=\"zh-Hans\">&#22826;&#24179;&#22825;&#22269;</span>, 1851&#8211;64), the vast religious-political rebellion against the Qing led by Hong Xiuquan, which convulsed south and central China at a cost of tens of millions of lives."
+    },
+    {
       "anchor": "the Small Sword Society uprising",
       "note": "The Small Sword Society (<span lang=\"zh-Hans\">&#23567;&#20992;&#20250;</span>), a Triad-linked secret society, seized the walled Chinese city of Shanghai in September 1853 and held it seventeen months before the Qing retook it in February 1855. Overlapping the Taiping war, it is treated in official history as an early anti-feudal, anti-imperialist revolt."
+    },
+    {
+      "anchor": "the recovery of Shanghai in the Revolution of 1911",
+      "note": "In the Revolution of 1911 (the Xinhai Revolution) that ended the Qing dynasty, gang and secret-society forces helped wrest Shanghai from the imperial authorities in November 1911. &#8216;Recovery&#8217; (<span lang=\"zh-Hans\">&#20809;&#22797;</span>) is the period word for a city&#8217;s passing out of Qing hands."
     },
     {
       "anchor": "the counterrevolutionary coup of April 12",
@@ -25,14 +33,6 @@
     {
       "anchor": "the ten years of catastrophe",
       "note": "The Cultural Revolution (1966&#8211;76), by its official PRC name (<span lang=\"zh-Hans\">&#21313;&#24180;&#28009;&#21163;</span>). Writing in 1986, the preface makes the era&#8217;s conventional move of tracing the gangs&#8217; lingering &#8216;poison&#8217; to Lin Biao (Mao&#8217;s designated heir, who died in 1971 fleeing an alleged coup) and the &#8216;Gang of Four&#8217; (Jiang Qing and her allies, blamed after 1976 for the upheaval)&#8212;a rhetorical link, not a documented one."
-    },
-    {
-      "anchor": "the Taiping Heavenly Kingdom",
-      "note": "The Taiping Heavenly Kingdom (<span lang=\"zh-Hans\">&#22826;&#24179;&#22825;&#22269;</span>, 1851&#8211;64), the vast religious-political rebellion against the Qing led by Hong Xiuquan, which convulsed south and central China at a cost of tens of millions of lives."
-    },
-    {
-      "anchor": "the recovery of Shanghai in the Revolution of 1911",
-      "note": "In the Revolution of 1911 (the Xinhai Revolution) that ended the Qing dynasty, gang and secret-society forces helped wrest Shanghai from the imperial authorities in November 1911. &#8216;Recovery&#8217; (<span lang=\"zh-Hans\">&#20809;&#22797;</span>) is the period word for a city&#8217;s passing out of Qing hands."
     }
   ],
   "ch03": [
@@ -45,20 +45,20 @@
       "note": "1899&#8211;1967; a founding labour organizer of the Chinese Communist Party, a leader of the May Thirtieth Movement, and, in 1930, briefly its paramount leader (the &#8216;Li Lisan line&#8217;)."
     },
     {
-      "anchor": "Li Qihan",
-      "note": "1898&#8211;1927; pioneer Communist labour organizer in Shanghai, active among the Pudong mill and dock workers; executed by the Nationalists in 1927."
+      "anchor": "the Rihua Cotton Mill in Pudong",
+      "note": "The Rihua (Nihua) mill (<span lang=\"zh-Hans\">&#26085;&#21326;&#32433;&#21378;</span>), a Sino-Japanese cotton mill across the Huangpu in Pudong, was an early battleground of the Shanghai labour movement; the author cites its lost strike as a lesson in the gangs&#8217; power."
     },
     {
-      "anchor": "the May Thirtieth Movement",
-      "note": "The nationwide anti-imperialist upsurge touched off on 30 May 1925, when British-officered police in the Shanghai International Settlement shot dead demonstrators protesting the killing of a Chinese worker at a Japanese mill. It set off strikes and boycotts across China and was a turning point for the labour and revolutionary movements."
+      "anchor": "Li Qihan",
+      "note": "1898&#8211;1927; pioneer Communist labour organizer in Shanghai, active among the Pudong mill and dock workers; executed by the Nationalists in 1927."
     },
     {
       "anchor": "at Anyuan",
       "note": "Anyuan, a colliery and rail town on the Hunan&#8211;Jiangxi border, was the site of a celebrated Communist-led miners&#8217; and railwaymen&#8217;s movement in the early 1920s (Li Lisan and Liu Shaoqi among its organizers), in which the Party learned to work with&#8212;and through&#8212;the local secret societies."
     },
     {
-      "anchor": "the Rihua Cotton Mill in Pudong",
-      "note": "The Rihua (Nihua) mill (<span lang=\"zh-Hans\">&#26085;&#21326;&#32433;&#21378;</span>), a Sino-Japanese cotton mill across the Huangpu in Pudong, was an early battleground of the Shanghai labour movement; the author cites its lost strike as a lesson in the gangs&#8217; power."
+      "anchor": "the May Thirtieth Movement",
+      "note": "The nationwide anti-imperialist upsurge touched off on 30 May 1925, when British-officered police in the Shanghai International Settlement shot dead demonstrators protesting the killing of a Chinese worker at a Japanese mill. It set off strikes and boycotts across China and was a turning point for the labour and revolutionary movements."
     },
     {
       "anchor": "iron rice bowl",
@@ -85,12 +85,12 @@
       "note": "The student demonstrations that began in Beiping (Beijing) on 9 December 1935, demanding resistance to Japanese encroachment in north China; they helped touch off the national salvation movement of 1935&#8211;37."
     },
     {
-      "anchor": "Funatsu",
-      "note": "Funatsu Tatsuichir&#333; (1873&#8211;1947), a Japanese diplomat and, in the 1930s, chairman of the association of Japanese cotton mills in China; his appeal to Du Yuesheng to mediate the 1936 general strike measures the gang boss&#8217;s standing with foreign capital."
-    },
-    {
       "anchor": "White Russians",
       "note": "&#8216;White&#8217; Russians&#8212;&#233;migr&#233;s who had fled the Bolshevik revolution&#8212;formed a large, often destitute community in Shanghai and were a ready pool of strike-breakers and armed guards for foreign firms."
+    },
+    {
+      "anchor": "Funatsu",
+      "note": "Funatsu Tatsuichir&#333; (1873&#8211;1947), a Japanese diplomat and, in the 1930s, chairman of the association of Japanese cotton mills in China; his appeal to Du Yuesheng to mediate the 1936 general strike measures the gang boss&#8217;s standing with foreign capital."
     },
     {
       "anchor": "at Lushan",
@@ -101,16 +101,16 @@
       "note": "During the Battle of Shanghai (August&#8211;November 1937), Du Yuesheng and Dai Li&#8217;s secret service armed irregular units (<span lang=\"zh-Hans\">&#21035;&#21160;&#38431;</span>) drawn largely from Green Gang and Hongmen men and from workers; the author commanded one of the five detachments. Poorly armed and barely used, they were disbanded when the city fell."
     },
     {
-      "anchor": "After Shanghai became a solitary island",
-      "note": "The &#8216;solitary island&#8217; (<span lang=\"zh-Hans\">&#23396;&#23707;</span>) period: after the Chinese city fell in November 1937, the foreign concessions kept a precarious neutral existence, an island of unoccupied ground ringed by Japanese-held territory, until Japan seized them after Pearl Harbor in December 1941."
-    },
-    {
       "anchor": "the Hongmen's Xiang Songpo",
       "note": "Xiang Songpo, better known as Xiang Haiqian (1888&#8211;1974): a leader of the Hongmen&#8217;s &#8216;Five Lakes&#8217; lodges and a 1911 revolutionary, who used the brotherhoods for anti-Japanese organizing in this period."
     },
     {
       "anchor": "Lu Liankui",
       "note": "Lu Liankui, former chief detective inspector of the International Settlement police, and Lu Bohong (Joseph Lo Pa Hong), a prominent Catholic industrialist who headed a Japanese-sponsored &#8216;maintenance&#8217; body&#8212;both assassinated as collaborators early in the occupation. The author&#8217;s claim that his hidden pistols were the weapons used is his own; the killings themselves are attested."
+    },
+    {
+      "anchor": "After Shanghai became a solitary island",
+      "note": "The &#8216;solitary island&#8217; (<span lang=\"zh-Hans\">&#23396;&#23707;</span>) period: after the Chinese city fell in November 1937, the foreign concessions kept a precarious neutral existence, an island of unoccupied ground ringed by Japanese-held territory, until Japan seized them after Pearl Harbor in December 1941."
     }
   ],
   "ch04": [
@@ -127,16 +127,16 @@
       "note": "1884&#8211;1951; also Hu Nanhu. A 1911 revolutionary and Beiyang education official who joined the Communist Party in the 1920s and worked its united front among old revolutionaries and gang figures."
     },
     {
-      "anchor": "Yang Du",
-      "note": "Yang Du (1875&#8211;1931): the classical scholar who had once championed monarchy under Yuan Shikai, then joined the Communist Party in secret in 1929 while serving as an adviser to Du Yuesheng&#8212;a startling double life the Party did not confirm publicly until 1975. The book&#8217;s account of his role is broadly corroborated."
-    },
-    {
       "anchor": "Li Dazhao",
       "note": "1889&#8211;1927; co-founder of the Chinese Communist Party. In April 1927 Zhang Zuolin&#8217;s troops raided the Soviet embassy compound in Beijing&#8217;s Legation Quarter, where he had taken refuge, and hanged him&#8212;the event this passage describes."
     },
     {
       "anchor": "Karakhan",
       "note": "Lev Karakhan (1889&#8211;1937), Soviet deputy foreign commissar and ambassador to China in the mid-1920s, known for the &#8216;Karakhan Manifesto&#8217; renouncing Tsarist privileges. He was executed in Stalin&#8217;s purges."
+    },
+    {
+      "anchor": "Yang Du",
+      "note": "Yang Du (1875&#8211;1931): the classical scholar who had once championed monarchy under Yuan Shikai, then joined the Communist Party in secret in 1929 while serving as an adviser to Du Yuesheng&#8212;a startling double life the Party did not confirm publicly until 1975. The book&#8217;s account of his role is broadly corroborated."
     },
     {
       "anchor": "the Legation Quarter",
@@ -163,6 +163,10 @@
       "note": "76 Jessfield Road (<span lang=\"zh-Hans\">&#26497;&#21496;&#38750;&#23572;&#36335;</span>, today Wanhangdu Road) was the headquarters of the secret service of the puppet Wang Jingwei regime, notorious for torture and assassination; its address became a synonym for the collaborationist terror apparatus."
     },
     {
+      "anchor": "Xu Langxi",
+      "note": "1885&#8211;1961; a well-known Shanghai gang figure with revolutionary sympathies, treated at length in a later article of this volume."
+    },
+    {
       "anchor": "Zhao Puchu",
       "note": "1907&#8211;2000; Buddhist lay leader, poet, and relief organizer who used Shanghai&#8217;s charitable and refugee bodies to shelter and channel Communist work in the war years, and later headed the Buddhist Association of China. The refugee network he built here fed cadres to the New Fourth Army, as the article claims."
     },
@@ -173,10 +177,6 @@
     {
       "anchor": "the \"Jiangnan Anti-Japanese Volunteer Army\"",
       "note": "The &#8216;Jiang-kang&#8217; (<span lang=\"zh-Hans\">&#27743;&#25239;</span>), an early Communist-influenced guerrilla force built in the Yangtze delta from local gang levies; reorganized under regular military command, it fed into the New Fourth Army&#8217;s eastward push."
-    },
-    {
-      "anchor": "Xu Langxi",
-      "note": "1885&#8211;1961; a well-known Shanghai gang figure with revolutionary sympathies, treated at length in a later article of this volume."
     }
   ],
   "ch05": [
@@ -191,6 +191,10 @@
     {
       "anchor": "*tongcao* handbooks that circulate within the gang",
       "note": "Author&#8217;s note. The <i>tongcao</i> are also written <span lang=\"zh-Hans\">&#36890;&#28518;</span>, <span lang=\"zh-Hans\">&#36890;&#38062;</span>, or <span lang=\"zh-Hans\">&#32479;&#25220;</span> (all pronounced roughly <i>tongcao</i>), secret handbooks internal to the gang. The editions are many; I have seen more than thirty in print or manuscript. Their contents amount to records of the Green Gang&#8217;s successive patriarchs, the grain-boat system, gang rules, ritual observances, argot, and the like&#8212;mostly a cobbled-together jumble, but preserving some of the gang&#8217;s own original material."
+    },
+    {
+      "anchor": "the Qing grain-tribute transport",
+      "note": "The <i>caoyun</i>, the state system that shipped grain levied as land tax from the provinces to the capital, chiefly along the Grand Canal; it employed hundreds of thousands of boatmen and was the seedbed of the Green Gang. The grain was measured in <i>dan</i> or piculs (here &#8216;piculs&#8217;), a unit of about 100 catties, roughly 60&#160;kilograms."
     },
     {
       "anchor": "one must begin with that transport",
@@ -233,8 +237,16 @@
       "note": "Author&#8217;s note. <i>Reference-Copy Memorials</i>, juan&#160;451, containing memorials of Li Wei and Zhang Dayou (Yongzheng&#160;5), Zhang Dayou and Chen Mingxia (Yongzheng&#160;6), and Fei Jinwu and Shi Yizhi (Yongzheng&#160;7)."
     },
     {
+      "anchor": "ranked, by the order in which they entered, into twenty-four generations",
+      "note": "The generation-characters are the key to Green Gang rank. Each member belonged to one of the twenty-four generations, named in fixed order by the characters of the verse; seniority ran by generation, not by age or wealth, so that a man of an earlier character outranked all of a later one. Thus of the late bosses, Zhang Renkui was of the &#8216;Da&#8217; generation, Huang Jinrong of the &#8216;Tong,&#8217; and Du Yuesheng of the &#8216;Wu&#8217;&#8212;Du being, in strict gang terms, junior to the other two."
+    },
+    {
       "anchor": "Da, Tong, Wu, Xue.\"",
       "note": "Author&#8217;s note. The Green Gang also has a so-called latter twenty-four generation-characters: &#8216;Wan, Xiang, Gui, Yi, Jie, L&#252;, Chuan; Bao, Hua, Du, Xin, Hui, Lin, Chi, Kang, Tai, Pu, Men; Kai, Fang, Guang, Zhao, Qian, Kun&#8217;&#8212;but these were fixed by later Green Gang men, and the gang was wiped out before the ranking by them could be reached. <span>[Translator: this is Li Shiyu&#8217;s version; Jiang Hao&#8217;s account in the next study gives the sequence in slightly different characters.]</span>"
+    },
+    {
+      "anchor": "the Boxers' turn from",
+      "note": "The Yihetuan or &#8216;Boxers,&#8217; whose 1900 anti-foreign rising began under the slogan &#8216;overthrow the Qing&#8217; but shifted to &#8216;support the Qing, destroy the foreigner&#8217; as the court took them up&#8212;the parallel Li Shiyu draws for the gang&#8217;s passage from &#8216;Anqing&#8217; to &#8216;An-Qing&#8217; (&#8216;pacify the Qing&#8217;)."
     },
     {
       "anchor": "the Clear are the An-Qing Fellows of the Way",
@@ -245,12 +257,20 @@
       "note": "Author&#8217;s note. <i>Reference-Copy Memorials</i>, juan&#160;451, no.&#160;13."
     },
     {
+      "anchor": "even Mr. Lu Xun once discussed",
+      "note": "Lu Xun (pen name of Zhou Shuren, 1881&#8211;1936), the foremost modern Chinese writer, who wrote on the Shanghai &#8216;green-skin&#8217; toughs."
+    },
+    {
       "anchor": "have not to this day been wholly rooted out",
       "note": "Author&#8217;s note. <i>Reference-Copy Memorials</i>, juan&#160;2967."
     },
     {
       "anchor": "in the south the Green Gang, the Anqing Gang, and so on",
       "note": "Author&#8217;s note. <i>Zhongguo heimu daguan</i> (A Panorama of China&#8217;s Dark Curtain), first collection, part 1, &#8216;Danghui zhi heimu&#8217; (The Dark Curtain of Parties and Societies), p.&#160;3, 1918 edition."
+    },
+    {
+      "anchor": "the founder of the Luo sect",
+      "note": "Patriarch Luo (Luo Menghong, c.&#160;1442&#8211;1527) founded the lay-Buddhist Luo or &#8216;Non-Action&#8217; sect, whose scriptures and hermitages spread widely among the grain-boat crews. Li Shiyu argues below that the Green Gang grew out of this milieu but was not simply a branch of the Luo sect."
     },
     {
       "anchor": "took to the Luo sect and gave lodging to the boatmen",
@@ -313,6 +333,10 @@
       "note": "Author&#8217;s note. <i>Shengwu ji</i>, juan&#160;8."
     },
     {
+      "anchor": "a branch of the White Lotus",
+      "note": "The White Lotus (Bailianjiao) was a broad family of millenarian sects, repeatedly rising against the Qing; several risings named here&#8212;Wang Lun&#8217;s Clear Water sect, the Eight Trigrams, the Sichuan&#8211;Hubei&#8211;Shaanxi rising&#8212;belonged to this tradition."
+    },
+    {
       "anchor": "the name of the Green Gang (Clear Sect) is bound up with the Clear Water sect",
       "note": "Author&#8217;s note. Chen Guoping, <i>Qingmen kaoyuan</i> (An Inquiry into the Origins of the Clear Sect), Shanghai: Daode shantang, 1939, original preface."
     },
@@ -337,6 +361,10 @@
       "note": "Author&#8217;s note. <i>Qingmen kaoyuan</i>, p.&#160;201."
     },
     {
+      "anchor": "the Nian army entered Shandong",
+      "note": "The Taiping (1851&#8211;64) and the Nian (a linked peasant insurgency in the Huai region, 1850s&#8211;68) were the two great mid-century risings against the Qing; the shift of the grain transport to the sea route during the Taiping war threw the canal boatmen out of work and drove many into revolt."
+    },
+    {
       "anchor": "and once taking Zouxian",
       "note": "Author&#8217;s note. See the anonymous <i>Shandong junxing shilue</i>, juan&#160;17; also <i>Shandong jindaishi ziliao</i> (Materials on the Modern History of Shandong), part 1, p.&#160;207, comp. Jinan Branch of the Chinese Historical Society (Shandong People&#8217;s Publishing House, 1957)."
     },
@@ -351,6 +379,10 @@
     {
       "anchor": "a good magistrate is well able to handle",
       "note": "Author&#8217;s note. Shen Baozhen, &#8216;Caoxiang wucong huabo haiyun nanyi yifen shu&#8217; (Memorial That the Transport Funds Cannot Be Reallocated and the Sea Route Is Hard to Apportion), <i>Continuation</i>, juan&#160;40."
+    },
+    {
+      "anchor": "Tan Renfeng",
+      "note": "Tan Renfeng (1860&#8211;1920), a veteran revolutionary of Sun Yat-sen&#8217;s Revolutionary Alliance."
     },
     {
       "anchor": "alas, and to be counted our fellows!",
@@ -407,38 +439,6 @@
     {
       "anchor": "a \"party-state notable\" of no small weight",
       "note": "Author&#8217;s note. See the Shanghai Academy of Social Sciences, Institute of Political Science and Law, <i>Da liumang Du Yuesheng</i> (Du Yuesheng, the Great Gangster), ch.&#160;3 (Qunzhong chubanshe, 1964)."
-    },
-    {
-      "anchor": "the Qing grain-tribute transport",
-      "note": "The <i>caoyun</i>, the state system that shipped grain levied as land tax from the provinces to the capital, chiefly along the Grand Canal; it employed hundreds of thousands of boatmen and was the seedbed of the Green Gang. The grain was measured in <i>dan</i> or piculs (here &#8216;piculs&#8217;), a unit of about 100 catties, roughly 60&#160;kilograms."
-    },
-    {
-      "anchor": "the founder of the Luo sect",
-      "note": "Patriarch Luo (Luo Menghong, c.&#160;1442&#8211;1527) founded the lay-Buddhist Luo or &#8216;Non-Action&#8217; sect, whose scriptures and hermitages spread widely among the grain-boat crews. Li Shiyu argues below that the Green Gang grew out of this milieu but was not simply a branch of the Luo sect."
-    },
-    {
-      "anchor": "ranked, by the order in which they entered, into twenty-four generations",
-      "note": "The generation-characters are the key to Green Gang rank. Each member belonged to one of the twenty-four generations, named in fixed order by the characters of the verse; seniority ran by generation, not by age or wealth, so that a man of an earlier character outranked all of a later one. Thus of the late bosses, Zhang Renkui was of the &#8216;Da&#8217; generation, Huang Jinrong of the &#8216;Tong,&#8217; and Du Yuesheng of the &#8216;Wu&#8217;&#8212;Du being, in strict gang terms, junior to the other two."
-    },
-    {
-      "anchor": "the Boxers' turn from",
-      "note": "The Yihetuan or &#8216;Boxers,&#8217; whose 1900 anti-foreign rising began under the slogan &#8216;overthrow the Qing&#8217; but shifted to &#8216;support the Qing, destroy the foreigner&#8217; as the court took them up&#8212;the parallel Li Shiyu draws for the gang&#8217;s passage from &#8216;Anqing&#8217; to &#8216;An-Qing&#8217; (&#8216;pacify the Qing&#8217;)."
-    },
-    {
-      "anchor": "a branch of the White Lotus",
-      "note": "The White Lotus (Bailianjiao) was a broad family of millenarian sects, repeatedly rising against the Qing; several risings named here&#8212;Wang Lun&#8217;s Clear Water sect, the Eight Trigrams, the Sichuan&#8211;Hubei&#8211;Shaanxi rising&#8212;belonged to this tradition."
-    },
-    {
-      "anchor": "even Mr. Lu Xun once discussed",
-      "note": "Lu Xun (pen name of Zhou Shuren, 1881&#8211;1936), the foremost modern Chinese writer, who wrote on the Shanghai &#8216;green-skin&#8217; toughs."
-    },
-    {
-      "anchor": "the Nian army entered Shandong",
-      "note": "The Taiping (1851&#8211;64) and the Nian (a linked peasant insurgency in the Huai region, 1850s&#8211;68) were the two great mid-century risings against the Qing; the shift of the grain transport to the sea route during the Taiping war threw the canal boatmen out of work and drove many into revolt."
-    },
-    {
-      "anchor": "Tan Renfeng",
-      "note": "Tan Renfeng (1860&#8211;1920), a veteran revolutionary of Sun Yat-sen&#8217;s Revolutionary Alliance."
     }
   ],
   "ch06": [
@@ -455,6 +455,18 @@
       "note": "The Eight Immortals, the twenty-eight lunar mansions, the thirty-six Heavenly Stars, and the seventy-two Earthly Fiends are stock numbers of Chinese cosmology and popular fiction (the thirty-six and seventy-two are the number of the bandit-heroes of <i>Water Margin</i>); the legend borrows them for the founders&#8217; first intakes of disciples."
     },
     {
+      "anchor": "Mandarin-Duck-and-Butterfly sketches",
+      "note": "The &#8216;Mandarin Duck and Butterfly&#8217; school was a popular current of sentimental and romantic fiction in early-Republican Shanghai, looked down on by the new-literature writers."
+    },
+    {
+      "anchor": "the Japanese spy Kawashima Yoshiko",
+      "note": "Kawashima Yoshiko (1907&#8211;1948), a Manchu Qing princess raised in Japan who worked as a Japanese agent; executed as a traitor after the war."
+    },
+    {
+      "anchor": "No. 76 Jessfield Road",
+      "note": "No.&#160;76 Jessfield Road was the notorious headquarters of the secret service of the puppet Wang Jingwei regime during the occupation, a byword for terror and torture."
+    },
+    {
       "anchor": "through his Juntong connections",
       "note": "The Juntong (<span lang=\"zh-Hans\">&#20891;&#32479;</span>), the Nationalists&#8217; Bureau of Investigation and Statistics, the Kuomintang secret service run by Dai Li. The English form is not yet settled across this series and is treated fully at the chapter on Du Yuesheng&#8217;s ties to Dai Li; here it is rendered &#8216;the Juntong.&#8217;"
     },
@@ -463,28 +475,16 @@
       "note": "Several minor Shanghai clubs bore near-homophonous names all rendered &#8216;Yi Society&#8217; here: Zhu Xuefan&#8217;s <span lang=\"zh-Hans\">&#27589;&#31038;</span> (Chapter&#160;3), Xu Yimin&#8217;s <span lang=\"zh-Hans\">&#36920;&#31038;</span>, and Sun Yixiang&#8217;s <span lang=\"zh-Hans\">&#24596;&#31038;</span>&#8212;distinct bodies that happen to sound alike."
     },
     {
-      "anchor": "one of the \"Three Big Bosses\" among the Shanghai gangsters",
-      "note": "The &#8216;Three Big Bosses&#8217; (<i>san da heng</i>) of the Shanghai underworld&#8212;Huang Jinrong, Zhang Xiaolin, and Du Yuesheng&#8212;the trio around whom much of this book turns."
-    },
-    {
-      "anchor": "Mandarin-Duck-and-Butterfly sketches",
-      "note": "The &#8216;Mandarin Duck and Butterfly&#8217; school was a popular current of sentimental and romantic fiction in early-Republican Shanghai, looked down on by the new-literature writers."
-    },
-    {
-      "anchor": "No. 76 Jessfield Road",
-      "note": "No.&#160;76 Jessfield Road was the notorious headquarters of the secret service of the puppet Wang Jingwei regime during the occupation, a byword for terror and torture."
-    },
-    {
-      "anchor": "the Japanese spy Kawashima Yoshiko",
-      "note": "Kawashima Yoshiko (1907&#8211;1948), a Manchu Qing princess raised in Japan who worked as a Japanese agent; executed as a traitor after the war."
-    },
-    {
       "anchor": "the noted film actress Ruan Lingyu",
       "note": "Ruan Lingyu (1910&#8211;1935), one of the great stars of Shanghai silent film, whose suicide at twenty-four was a national sensation."
     },
     {
       "anchor": "Silas Hardoon",
       "note": "Silas Aaron Hardoon (1851&#8211;1931), a Baghdadi-Jewish property magnate, reputedly the richest foreigner in Shanghai; his wife Luo Jialing (Liza Hardoon) was Eurasian."
+    },
+    {
+      "anchor": "one of the \"Three Big Bosses\" among the Shanghai gangsters",
+      "note": "The &#8216;Three Big Bosses&#8217; (<i>san da heng</i>) of the Shanghai underworld&#8212;Huang Jinrong, Zhang Xiaolin, and Du Yuesheng&#8212;the trio around whom much of this book turns."
     },
     {
       "anchor": "the CC Clique",
@@ -513,14 +513,6 @@
       "note": "The oath at the Red Flower Pavilion (<span lang=\"zh-Hans\">红花亭</span>) is the Hongmen's mythic founding assembly. The splitting of the surname-character <span lang=\"zh-Hans\">洪</span> (Hong) into the strokes \"three, eight, twenty-one\" was a genuine Hongmen recognition-cipher, used, as the text later explains, in passwords and on ritual objects."
     },
     {
-      "anchor": "the four characters \"fan you fu lei,\"",
-      "note": "The altar objects encode the society's aim by homophone and rebus: <span lang=\"zh-Hans\">反油复泪</span> (fan you fu lei) stands for <span lang=\"zh-Hans\">反清复明</span> (fan Qing fu Ming), \"overthrow the Qing and restore the Ming.\" This restorationist slogan&#8212;whatever the members' actual conduct&#8212;defined the Hongmen's self-image against the Green Gang, which had served the Qing grain transport."
-    },
-    {
-      "anchor": "the Small Sword Society",
-      "note": "See the note on the Small Sword Society's 1853 seizure of the Shanghai county city, earlier in the book."
-    },
-    {
       "anchor": "In 1893, in Honolulu in the United States",
       "note": "Sun Yat-sen's tie to the Hongmen is well attested: he was initiated into the overseas brotherhood (the Chee Kung Tong / Hongmen) and drew on its members and its funds through the early risings, formally taking a Hongmen \"Red Staff\" rank in Honolulu in 1904. The dates and details here are the author's; the essential fact&#8212;that the republican revolution leaned heavily on the Hongmen abroad&#8212;is corroborated."
     },
@@ -537,16 +529,24 @@
       "note": "The Huanghuagang uprising at Guangzhou, 27 April 1911, in which many revolutionaries died; its \"seventy-two martyrs\" became a revered symbol. It was the last of the pre-1911 risings before the Wuchang rising that October brought down the dynasty."
     },
     {
-      "anchor": "the noted Hongmen man Xu Langxi",
-      "note": "Xu Langxi (1885&#8211;1961), a Shaanxi revolutionary, Tongmenghui member, and Hongmen leader who founded the Xinhua Art School in Shanghai. A later chapter of this book is his son's memoir of him."
+      "anchor": "the four characters \"fan you fu lei,\"",
+      "note": "The altar objects encode the society's aim by homophone and rebus: <span lang=\"zh-Hans\">反油复泪</span> (fan you fu lei) stands for <span lang=\"zh-Hans\">反清复明</span> (fan Qing fu Ming), \"overthrow the Qing and restore the Ming.\" This restorationist slogan&#8212;whatever the members' actual conduct&#8212;defined the Hongmen's self-image against the Green Gang, which had served the Qing grain transport."
+    },
+    {
+      "anchor": "Chen Qimei (styled Yingshi)",
+      "note": "Chen Qimei (1878&#8211;1916), revolutionary organizer, military governor of Shanghai in 1911, and an early patron of Chiang Kai-shek. He was assassinated in Shanghai in 1916 on Yuan Shikai's orders."
     },
     {
       "anchor": "the Zhaohe warship uprising",
       "note": "The rising aboard the cruiser <i>Zhaohe</i> (<span lang=\"zh-Hans\">肇和</span>) in Shanghai, December 1915, an attempt led by Chen Qimei against Yuan Shikai's monarchy; Yang Hu took part. It failed, but the naval mutinies of these years were an important thread of the anti-Yuan struggle."
     },
     {
-      "anchor": "Chen Qimei (styled Yingshi)",
-      "note": "Chen Qimei (1878&#8211;1916), revolutionary organizer, military governor of Shanghai in 1911, and an early patron of Chiang Kai-shek. He was assassinated in Shanghai in 1916 on Yuan Shikai's orders."
+      "anchor": "the noted Hongmen man Xu Langxi",
+      "note": "Xu Langxi (1885&#8211;1961), a Shaanxi revolutionary, Tongmenghui member, and Hongmen leader who founded the Xinhua Art School in Shanghai. A later chapter of this book is his son's memoir of him."
+    },
+    {
+      "anchor": "the Small Sword Society",
+      "note": "See the note on the Small Sword Society's 1853 seizure of the Shanghai county city, earlier in the book."
     },
     {
       "anchor": "Situ Meitang and Zhao Yu",
@@ -575,10 +575,6 @@
       "note": "Yu Youren (1879&#8211;1964), a founding revolutionary, renowned calligrapher, and long-serving president of the Control Yuan of the Nationalist government."
     },
     {
-      "anchor": "through Yu Qiaqing's introduction",
-      "note": "Yu Qiaqing (1867&#8211;1945), the leading Ningbo comprador-financier of Shanghai and a president of its General Chamber of Commerce; a major thoroughfare, today's Xizang Road, was for a time named for him."
-    },
-    {
       "anchor": "over the famous actress Lu Lanchun",
       "note": "The Huang Jinrong&#8211;Lu Lanchun affair of the early 1920s: Huang, infatuated with the opera actress Lu Lanchun, clashed with Lu Xiaojia, son of the Zhejiang warlord Lu Yongxiang, was seized and publicly humiliated, and had to be ransomed&#8212;a loss of face that is usually reckoned the turning point after which Du Yuesheng eclipsed him."
     },
@@ -587,8 +583,16 @@
       "note": "The nationwide campaign to suppress counterrevolutionaries (<span lang=\"zh-Hans\">镇反</span>) of 1950&#8211;1951, under which many former gangsters and collaborators were tried; \"lifelong control\" (<span lang=\"zh-Hans\">管制</span>) was a supervised-residence penalty short of prison."
     },
     {
+      "anchor": "through Yu Qiaqing's introduction",
+      "note": "Yu Qiaqing (1867&#8211;1945), the leading Ningbo comprador-financier of Shanghai and a president of its General Chamber of Commerce; a major thoroughfare, today's Xizang Road, was for a time named for him."
+    },
+    {
       "anchor": "what is colloquially called \"planting lotus.\"",
       "note": "Gangland slang (<span lang=\"zh-Hans\">种荷花</span>) for drowning a victim, weighted, off the mouth of the Wusong. The murder recounted here&#8212;of a pregnant dance-hall girl carrying the child of a member of the Soong family&#8212;rests on the author's word alone; he presents it as a secret he was sworn to keep, and it is uncorroborated by any outside source."
+    },
+    {
+      "anchor": "manager of the Great World",
+      "note": "The Great World (<span lang=\"zh-Hans\">大世界</span>), the sprawling amusement hall opened on Avenue &#201;douard VII in 1917, Shanghai's most famous popular entertainment palace and long a prize the gangs fought over."
     },
     {
       "anchor": "it touched the affairs of the Soong family",
@@ -597,10 +601,6 @@
     {
       "anchor": "his name was Lin Huaibu (nicknamed",
       "note": "The assassination of Zhang Xiaolin on 14 August 1940 is recounted, consistently, in an earlier chapter of this book: killed at his window by his own bodyguard Lin Huaibu on the Juntong's order, on the pretext of his coming defection to the Japanese puppets. The two accounts agree on the killer and the Juntong's hand."
-    },
-    {
-      "anchor": "manager of the Great World",
-      "note": "The Great World (<span lang=\"zh-Hans\">大世界</span>), the sprawling amusement hall opened on Avenue &#201;douard VII in 1917, Shanghai's most famous popular entertainment palace and long a prize the gangs fought over."
     },
     {
       "anchor": "the Subei Native-Place Association",
@@ -619,40 +619,264 @@
       "note": "\"Yellow-croaker dealing\" (<span lang=\"zh-Hans\">贩黄鱼</span>) was cant for smuggling people: as the text explains, a Chinese who died in transit was thrown overboard \"like a fish.\" The racket ran Qingtian stone-carvers and bound-foot women through Portugal into France."
     },
     {
-      "anchor": "the China-destroying apparatus led by Toyama Mitsuru",
-      "note": "The Black Dragon Society (<span lang=\"zh-Hans\">黑龙会</span>, Kokury&#363;kai), a Japanese ultranationalist and expansionist organization; Toyama Mitsuru (1855&#8211;1944) was the veteran &#233;minence grise of the pan-Asianist secret-society world behind it."
+      "anchor": "Opium was of four grades: \"Indian earth,\"",
+      "note": "The opium grades named the source: \"Indian earth\" (imported), and the domestic \"Yunnan earth,\" \"Sichuan earth,\" and \"Mongol earth.\" Home-grown opium was a mainstay of warlord finance in the southwest and northwest, which is why the trade and the militarists were inseparable."
     },
     {
-      "anchor": "so touching off the January 28 Shanghai resistance war",
-      "note": "The January 28 Incident of 1932 (<span lang=\"zh-Hans\">一二八</span>): Japanese forces attacked Chinese-held Zhabei, and the 19th Route Army fought them for weeks. The burning of the Sanyou Industrial Company&#8212;a firm effective in the boycott of Japanese goods&#8212;was one of the provocations that set it off."
+      "anchor": "the China-destroying apparatus led by Toyama Mitsuru",
+      "note": "The Black Dragon Society (<span lang=\"zh-Hans\">黑龙会</span>, Kokury&#363;kai), a Japanese ultranationalist and expansionist organization; Toyama Mitsuru (1855&#8211;1944) was the veteran &#233;minence grise of the pan-Asianist secret-society world behind it."
     },
     {
       "anchor": "who took Chu Minyi as his adoptive father",
       "note": "Chu Minyi (1884&#8211;1946), foreign minister of the Wang Jingwei collaborationist regime, executed as a traitor after the war; Ding Mocun (1901&#8211;1947), a chief of the regime's secret police, likewise executed. To claim either as patron or backer was to stand openly with the occupation."
     },
     {
-      "anchor": "the staff of the French police and the Mixed Court",
-      "note": "The Mixed Court (<span lang=\"zh-Hans\">会审公堂</span>), the tribunal in the foreign settlements in which a Chinese magistrate sat with a foreign assessor&#8212;an instrument of extraterritorial control over Chinese residents until it was returned to Chinese authority in the later 1920s."
-    },
-    {
       "anchor": "founded the \"Yiyuan greyhound track\" and a \"jai alai fronton\"",
       "note": "Jai alai (<span lang=\"zh-Hans\">回力球</span>), the fast Basque ball game, was run as a betting spectacle at the Auditorium in the French Concession; with the greyhound tracks and the racecourse it made up the settlements' legal-gambling apparatus."
     },
     {
-      "anchor": "had foreigners and their \"second devils\" to back them",
-      "note": "\"Second devils\" (<span lang=\"zh-Hans\">二鬼子</span>), a contemptuous term for Chinese who served foreign masters as enforcers or agents&#8212;the foreigners being the \"foreign devils.\""
-    },
-    {
-      "anchor": "Opium was of four grades: \"Indian earth,\"",
-      "note": "The opium grades named the source: \"Indian earth\" (imported), and the domestic \"Yunnan earth,\" \"Sichuan earth,\" and \"Mongol earth.\" Home-grown opium was a mainstay of warlord finance in the southwest and northwest, which is why the trade and the militarists were inseparable."
+      "anchor": "the staff of the French police and the Mixed Court",
+      "note": "The Mixed Court (<span lang=\"zh-Hans\">会审公堂</span>), the tribunal in the foreign settlements in which a Chinese magistrate sat with a foreign assessor&#8212;an instrument of extraterritorial control over Chinese residents until it was returned to Chinese authority in the later 1920s."
     },
     {
       "anchor": "the freight charge ran from ten to twenty-five cents in fabi",
       "note": "<i>Fabi</i> (<span lang=\"zh-Hans\">法币</span>), the Nationalist government's managed paper currency, introduced in the 1935 currency reform in place of the silver dollar."
     },
     {
+      "anchor": "had foreigners and their \"second devils\" to back them",
+      "note": "\"Second devils\" (<span lang=\"zh-Hans\">二鬼子</span>), a contemptuous term for Chinese who served foreign masters as enforcers or agents&#8212;the foreigners being the \"foreign devils.\""
+    },
+    {
+      "anchor": "so touching off the January 28 Shanghai resistance war",
+      "note": "The January 28 Incident of 1932 (<span lang=\"zh-Hans\">一二八</span>): Japanese forces attacked Chinese-held Zhabei, and the 19th Route Army fought them for weeks. The burning of the Sanyou Industrial Company&#8212;a firm effective in the boycott of Japanese goods&#8212;was one of the provocations that set it off."
+    },
+    {
       "anchor": "Lu Bohong, general manager of the Nanshi Water and Electric Company",
       "note": "Lu Bohong (1875&#8211;1937), a prominent Catholic industrialist and philanthropist of Shanghai. He was assassinated in December 1937; the attribution of the killing to the Juntong's Chen Mo, and the charge that he had been bought by Chang Yuqing, are the author's."
+    }
+  ],
+  "ch09": [
+    {
+      "anchor": "In his later years he organized the Ren Society in Shanghai",
+      "note": "The Ren Society (<span lang=\"zh-Hans\">仁社</span>), founded by Zhang Renkui in 1935, was one of the disciple-fraternities the Shanghai bosses set up on the model of a modern club to bind their followings together, alongside Huang Jinrong's Rong Society and Du Yuesheng's Heng Society (the last is the subject of ch20 and its charter is appended). For Zhang Renkui himself see the note at ch08."
+    },
+    {
+      "anchor": "the bomb blew him to pieces",
+      "note": "The salt-bandit Xu Baoshan (<span lang=\"zh-Hans\">徐宝山</span>) was in fact killed by a bomb hidden in a curio case on 24&#160;May 1913 &#8212; during the &#8220;Second Revolution&#8221; against Yuan Shikai, not, as the surrounding passage implies, during the 1911 Revolution itself. Contemporary accounts credit the assassination to the revolutionaries around Chen Qimei, who had the bomb-maker plant it in an antique Xu had agreed to buy; the book's outline of the method is otherwise correct."
+    },
+    {
+      "anchor": "the \"twenty-four dou\"",
+      "note": "The <i>dou</i> here (<span lang=\"zh-Hans\">颗当</span>, a gang term) mark seniority by the Green Gang's twenty-four generation-characters, the fixed sequence that fixes every member's rank; the ordering is explained in the note at ch05. To &#8220;wear the twenty-four&#8221; was to stand at the top of that ladder."
+    },
+    {
+      "anchor": "took Zhang Jian as his teacher",
+      "note": "Zhang Jian (<span lang=\"zh-Hans\">张謇</span>, 1853&#8211;1926), the Nantong-born reformer, top graduate (<i>zhuangyuan</i>) of the 1894 palace examination, and pioneer industrialist whose Dasheng cotton mills, schools and land-reclamation works made Nantong a model town. &#8220;Haonan Villa&#8221; (<span lang=\"zh-Hans\">濠南别业</span>) was his Nantong residence, now a museum. That a salt-smuggler-turned-garrison-commander should court him as a teacher shows how far Zhang Renkui sought respectability."
+    },
+    {
+      "anchor": "Zhang Cha, styled Tui'an",
+      "note": "Zhang Cha (<span lang=\"zh-Hans\">张詧</span>), Zhang Jian's elder brother and partner in his enterprises; &#8220;Mr.&#160;Zhang the Third&#8221; reflects his rank among the wider cousinry, not among his own siblings."
+    },
+    {
+      "anchor": "the father of Zhao Dan",
+      "note": "Zhao Dan (<span lang=\"zh-Hans\">赵丹</span>, 1915&#8211;1980) became one of China's most celebrated film actors (<i>Crossroads</i>, <i>Street Angel</i>, <i>The Lin Family Shop</i>). His father, here named Zhao Zichao, was indeed a military man of the warlord years who later ran cinemas at Nantong; the detail of his service under Zhang Renkui is the memoirist's own."
+    },
+    {
+      "anchor": "Chen Guangfu, general manager of the Shanghai Commercial Bank",
+      "note": "Chen Guangfu (<span lang=\"zh-Hans\">陈光甫</span>, 1881&#8211;1976), known in the West as K.&#160;P. Chen, founder and head of the Shanghai Commercial and Savings Bank and the most respected Chinese banker of the Republican era. His appearance here as a man forced to seek gang protection over a private scandal shows how far the underworld's reach ran into respectable finance."
+    },
+    {
+      "anchor": "chairman of the management committee of the Jiaoji Railway",
+      "note": "Ge Guangting (<span lang=\"zh-Hans\">葛光庭</span>) is named here as a Japanese-trained Beiyang veteran and Ren Society member; his identity as chairman of the Jiaoji (Qingdao&#8211;Jinan) Railway committee and graduate of the Japanese Military Academy could not be independently confirmed, and is given as the memoirist reports it."
+    },
+    {
+      "anchor": "stabbed to death at home by his own bodyguard",
+      "note": "Zhang Xiaoruo (<span lang=\"zh-Hans\">张孝若</span>, 1898&#8211;1935), Zhang Jian's only son and his successor in the Dasheng enterprises, was shot dead by his own servant Wu Yigao at his Shanghai residence on 17&#160;October 1935; the servant then killed himself, and the motive was never established."
+    },
+    {
+      "anchor": "Han Fuju too was introduced",
+      "note": "Han Fuju (<span lang=\"zh-Hans\">韩复榘</span>, 1890&#8211;1938), a general who rose under Feng Yuxiang and became governor of Shandong; Chiang Kai-shek had him executed in 1938 for abandoning the province to the Japanese without a fight. &#8220;Xiangfang&#8221; (<span lang=\"zh-Hans\">向方</span>) was his style-name."
+    },
+    {
+      "anchor": "they had to welcome the Great Dragon Head",
+      "note": "The &#8220;Great Dragon Head&#8221; (<span lang=\"zh-Hans\">大龙头</span>) is a supreme secret-society chief. This tale of Zuo Zongtang's army halting at Pingliang to receive one, and of Zuo himself later taking a gang master, is Green Gang oral legend meant to dignify the brotherhood; it is not found in the historical record of Zuo's 1870s Xinjiang campaign and should be read as lore, not fact."
+    },
+    {
+      "anchor": "one Jiang Dingwen, the other Zhu Shaoliang",
+      "note": "Both were senior Nationalist generals: Jiang Dingwen (<span lang=\"zh-Hans\">蒋鼎文</span>, 1895&#8211;1974) and Zhu Shaoliang (<span lang=\"zh-Hans\">朱绍良</span>, 1891&#8211;1963), each of whom held front commands and provincial governorships. That such men sought a gang elder's card is the point the memoirist is making about Zhang Renkui's standing."
+    },
+    {
+      "anchor": "going in for \"three knives and six holes\"",
+      "note": "&#8220;Three knives and six holes&#8221; (<span lang=\"zh-Hans\">三刀六洞</span>) is gang shorthand for a violent ordeal or punishment &#8212; a man stabbed through so that each of three thrusts leaves an entry and an exit wound &#8212; used both to test nerve and to settle scores. Chen's boast is that his lower-tier disciples are the muscle, as against the &#8220;refined&#8221; front men the narrator usually meets."
+    },
+    {
+      "anchor": "to lure and seize its chairman, Wang Shouhua",
+      "note": "Wang Shouhua (<span lang=\"zh-Hans\">汪寿华</span>, 1901&#8211;1927), a Communist and chairman of the Shanghai General Labor Union, was lured to Du Yuesheng's house on the night of 11&#160;April 1927 and murdered there &#8212; the opening act of the April&#160;12 purge (see the note at ch02). His killing recurs, from the gangsters' side, in ch12."
+    },
+    {
+      "anchor": "much of the \"strength of the North\" about him",
+      "note": "An allusion to the <i>Doctrine of the Mean</i>, which contrasts the &#8220;strength of the South&#8221; (forbearance) with the &#8220;strength of the North&#8221; (unflinching hardness, &#8220;to lie under arms and die without regret&#8221;). Applied to Zhang Renkui it marks him as a hard northern soldier."
+    }
+  ],
+  "ch10": [
+    {
+      "anchor": "Yuan Hanyun, whose given name was Kewen",
+      "note": "Yuan Kewen (<span lang=\"zh-Hans\">袁克文</span>, 1889&#8211;1931), hao Hanyun, second son of Yuan Shikai: a poet, calligrapher, coin- and jade-collector, Kunqu amateur and famous spendthrift who openly opposed his father's imperial venture. A Green Gang &#8220;Da&#8221;-generation celebrity, he died in poverty at Tianjin in 1931, his funeral &#8212; the memoir's subject remembers &#8212; paid for by friends and thronged by the city's singsong girls."
+    },
+    {
+      "anchor": "the second son of Yuan Shikai",
+      "note": "Yuan Shikai (<span lang=\"zh-Hans\">袁世凯</span>, 1859&#8211;1916), the Beiyang army-builder who became the Republic's first president in 1912 and then had himself proclaimed emperor at the end of 1915; the monarchy collapsed within months amid nationwide revolt, and he died in June 1916. His household politics drive this whole chapter."
+    },
+    {
+      "anchor": "meaning Yuan Keding",
+      "note": "Yuan Keding (<span lang=\"zh-Hans\">袁克定</span>, 1878&#8211;1955), Yuan Shikai's eldest son and the chief pusher of the monarchy, in which he expected to be crown prince. Lame from a riding accident, he is notorious for having a counterfeit edition of the <i>Shuntian Times</i> printed daily to feed his father only pro-monarchy news &#8212; the deception the narrator alludes to below."
+    },
+    {
+      "anchor": "A few days ago Wanhua",
+      "note": "&#8220;Wanhua&#8221; (<span lang=\"zh-Hans\">畹华</span>) was the style-name of Mei Lanfang (<span lang=\"zh-Hans\">梅兰芳</span>, 1894&#8211;1961), the supreme <i>dan</i> (female-role) actor of Peking opera, whose art carried the form to Japan, the United States and the Soviet Union. His friendship with the opera-loving Yuan Kewen is well documented."
+    },
+    {
+      "anchor": "On the very morning Duan Qirui went to Xiaozhan",
+      "note": "Duan Qirui (<span lang=\"zh-Hans\">段祺瑞</span>, 1865&#8211;1936), one of Yuan Shikai's original Xiaozhan-era commanders and later premier and Beiyang strongman; he broke with Yuan over the monarchy. Xiaozhan, near Tianjin, was where Yuan had drilled his New Army in the 1890s. The anecdote of Yuan Keding's insult (&#8220;I grant you a seat&#8221;) driving Duan to raise troops is the memoirist's; Duan's opposition to the monarchy is well attested."
+    },
+    {
+      "anchor": "the Shuntian Times, I published an article",
+      "note": "The <i>Shuntian Times</i> (<span lang=\"zh-Hans\">顺天时报</span>) was an influential Japanese-run Chinese-language daily in Beijing. Its independence is what made Yuan Keding's forged in-house edition necessary; that Yuan Kewen used the real paper to publish against the monarchy sharpened the family quarrel he describes."
+    },
+    {
+      "anchor": "a rectangular seal of four characters, 'the Sovereign's Second Son,'",
+      "note": "Yuan Kewen is famous for signing himself the &#8220;Imperial Second Son&#8221; (<span lang=\"zh-Hans\">皇二子</span>); the seal here is given in the memoir as four characters, <span lang=\"zh-Hans\">上第二子</span>, &#8220;the Sovereign's Second Son&#8221; (<span lang=\"zh-Hans\">上</span> standing for the emperor). Stamped on his books, it was his father's way of marking him as untouchable while spiriting him out of the capital."
+    },
+    {
+      "anchor": "'honor the patriarch' before your Grandfather Zhang",
+      "note": "To &#8220;honor the patriarch&#8221; (<span lang=\"zh-Hans\">孝祖</span>) is to enter the Green Gang by doing formal obeisance before the founding masters &#8212; often, as here, before a deceased master's tablet. Yuan speaks in gang-kinship banter: because his listener Chen is Yuan's own disciple, Yuan's gang-master ranks as Chen's &#8220;grandfather,&#8221; hence &#8220;your Grandfather Zhang.&#8221;"
+    },
+    {
+      "anchor": "When Zhang Zongchang came to Beijing",
+      "note": "Zhang Zongchang (<span lang=\"zh-Hans\">张宗昌</span>, 1881&#8211;1932), the &#8220;Dogmeat General,&#8221; warlord of Shandong under the Zhili&#8211;Shandong alliance, notorious for his brutality, his concubines and his doggerel verse. He was assassinated in 1932."
+    },
+    {
+      "anchor": "The Crystal in Shanghai",
+      "note": "<i>The Crystal</i> (<span lang=\"zh-Hans\">晶报</span>), founded 1919 and appearing every three days, was the most celebrated of Shanghai's &#8220;mosquito papers&#8221; &#8212; small sheets of gossip, anecdote and society news. Yuan Kewen was one of its star contributors; his serialized reminiscences of the Beiyang court helped make its name. Its editor-manager was Yu Daxiong."
+    },
+    {
+      "anchor": "This was what was then called the way of the \"man about town.\"",
+      "note": "&#8220;Man about town&#8221; renders <i>baixiangren</i> (<span lang=\"zh-Hans\">白相人</span>), Shanghai slang for a well-connected idler who lives by his contacts and his wits &#8212; the milieu of favors, face and free performances the passage describes."
+    },
+    {
+      "anchor": "play old Tang in Beheading Tang",
+      "note": "<i>Beheading Tang</i> (<span lang=\"zh-Hans\">审头刺汤</span>, &#8220;Examining the Head and Stabbing Tang&#8221;) is a Peking-opera piece of intrigue and revenge; &#8220;old Tang&#8221; is the villain Tang Qin, a comic-villain (<i>chou</i>) role. Yuan Kewen was a noted amateur of exactly this part."
+    },
+    {
+      "anchor": "Zhang Zongchang made Teacher Hanyun \"Commander of the Advance Army\"",
+      "note": "This appointment, and the elaborate but hollow &#8220;Advance Army headquarters&#8221; the chapter goes on to describe, rest on the memoirist's account; no independent record of Zhang Zongchang naming Yuan Kewen an army commander has been found, and the honor was plainly a sinecure traded on his name."
+    },
+    {
+      "anchor": "the third was the cleverest",
+      "note": "The third son, Yuan Jialiu (<span lang=\"zh-Hans\">袁家骝</span>, 1912&#8211;2003), became the distinguished physicist known in the West as Luke Chia-Liu Yuan, a specialist in high-energy accelerators; in 1942 he married the physicist Chien-Shiung Wu (<span lang=\"zh-Hans\">吴健雄</span>), the &#8220;first lady of physics.&#8221; His father's judgment proved sound."
+    }
+  ],
+  "ch11": [
+    {
+      "anchor": "My late father Xu Langxi was born in 1885",
+      "note": "For Xu Langxi (<span lang=\"zh-Hans\">徐朗西</span>, 1885&#8211;1961) &#8212; Shaanxi revolutionary, Tongmenghui member, Hongmen leader and art educator &#8212; see the notes at ch07 and ch04. This article is written by his son and, dating from 1986, dwells on his ties to the Communist underground; the account is affectionate and should be read as a family memoir, sound in outline but weighted, in places, toward its subject's later loyalties."
+    },
+    {
+      "anchor": "When he organized the Revive China Society in Tokyo",
+      "note": "This misremembers the founding: Sun Yat-sen's Revive China Society (<span lang=\"zh-Hans\">兴中会</span>) was set up in Honolulu (1894) and Hong Kong (1895); the body founded at Tokyo in 1905 was the larger Revolutionary Alliance (Tongmenghui). Sun's own tie to the secret societies is real, however: he was initiated into the Chee Kung Tong (a Hongmen lodge) at Honolulu on 11&#160;January 1904."
+    },
+    {
+      "anchor": "the Qing, the Hong, the Li, and the Bai are all revolutionary bodies",
+      "note": "The dictum groups the secret brotherhoods &#8212; the Qing (Green) Gang, the Hongmen, and the smaller Li and Bai currents &#8212; as fellow anti-Qing bodies. It is widely attributed to Sun Yat-sen but is hard to pin to a exact passage of the <i>Three People's Principles</i>; take the attribution as the tradition of the gangs' own literature rather than a verified quotation."
+    },
+    {
+      "anchor": "the Japanese Toyama Mitsuru and Miyazaki Torazo",
+      "note": "Toyama Mitsuru (<span lang=\"zh-Hans\">头山满</span>, 1855&#8211;1944), the pan-Asianist and founder of the Gen'y&#333;sha, and Miyazaki T&#333;ten (<span lang=\"zh-Hans\">宫崎寅藏</span>, 1871&#8211;1922), the &#8220;benefactor of the Chinese republic&#8221; who introduced Sun to Huang Xing and Song Jiaoren, were the two Japanese most closely tied to Sun's movement and, through it, to the Chinese secret societies."
+    },
+    {
+      "anchor": "a \"National Nine-Dragons Conference\"",
+      "note": "This conference of the Hongmen's nine &#8220;Great Dragon Heads,&#8221; called to modernize the brotherhood's feudal usages, is reported only in this family memoir; no independent record of it has been found, and it should be treated as the memoirist's account."
+    },
+    {
+      "anchor": "the Jingguo Army under Yu Youren to answer the call",
+      "note": "In 1918 an anti-Duan &#8220;Constitution-Protection&#8221; rising at Sanyuan formed the Shaanxi Jingguo (&#8220;pacify-the-nation&#8221;) Army against the Beiyang governor Chen Shufan; Yu Youren (<span lang=\"zh-Hans\">于右任</span>, 1879&#8211;1964), the poet, calligrapher and revolutionary, returned to head it, while Tang Jiyao of Yunnan led the wider allied command. This framework is well attested; Xu Langxi's personal role as vanguard commander rests on his son's account."
+    },
+    {
+      "anchor": "the four great characters \"The world belongs to all.\"",
+      "note": "&#8220;The world belongs to all&#8221; (<span lang=\"zh-Hans\">天下为公</span>, <i>tianxia wei gong</i>), from the &#8220;Liyun&#8221; chapter of the <i>Book of Rites</i>, was Sun Yat-sen's signature inscription, brushed for countless followers; its use as a personal keepsake here is entirely in character."
+    },
+    {
+      "anchor": "introduced three Kuomintang Juntong underground agents",
+      "note": "That Xu Langxi personally introduced these three named agents to the collaborator Zhou Fohai, and fed the resulting intelligence to the Communist underground, is the son's claim and has not been independently corroborated. Its general shape is plausible: Zhou Fohai did run a documented secret channel to Dai Li's Juntong and Chongqing from about 1943, &#8220;surrendering&#8221; to the Nationalists in 1945. On the standing of the Juntong (<span lang=\"zh-Hans\">军统</span>) see the note at ch06."
+    },
+    {
+      "anchor": "found a library at the Chinese Academy of Fine Arts",
+      "note": "Xu Langxi was a founder and head of an early private art college in Shanghai (associated with Liu Haisu and Wang Yachen, and usually named as the Xinhua Academy of Fine Arts); the exact name given here, the Chinese Academy of Fine Arts (<span lang=\"zh-Hans\">中华艺术专科学校</span>), is left as printed."
+    },
+    {
+      "anchor": "Yu Youren and Dai Chuanxian even came in person",
+      "note": "Dai Chuanxian (<span lang=\"zh-Hans\">戴传贤</span>, 1891&#8211;1949) is the Nationalist elder better known as Dai Jitao, ideologue and long-serving president of the Examination Yuan. &#8220;Chen Yingshi,&#8221; named just below as an early sworn brother of Xu's and of Chiang's, is Chen Qimei (see the note at ch07); Yu Youren, nicknamed &#8220;the Beard,&#8221; was then president of the Control Yuan, the barb behind Xu's retort about &#8220;Long live the Generalissimo.&#8221;"
+    }
+  ],
+  "ch12": [
+    {
+      "anchor": "Huang Jinrong, styled Jinyong",
+      "note": "This life of Huang Jinrong (<span lang=\"zh-Hans\">黄金荣</span>, 1868&#8211;1953; see also the note at ch02) is reprinted from a Republican-history biographical series and is written in an openly hostile, prosecutorial key, unlike the household memoirs that follow. Its outline is sound &#8212; Suzhou birth, a constable father, a French Concession police career, retirement in the mid-1920s as the force's only Chinese chief inspector &#8212; though sources put his entry into the police variously at 1892 or 1894."
+    },
+    {
+      "anchor": "the \"Thirty-Six Gang\" of the wharves",
+      "note": "The &#8220;Thirty-Six Gang,&#8221; &#8220;Eight Gang&#8221; and &#8220;Hundred and Eight Generals&#8221; (the last echoing the outlaw-heroes of the <i>Water Margin</i>) are the standard furniture of Shanghai gang recollection &#8212; Huang's networks of informers and enforcers &#8212; but they are descriptive lore rather than externally documented bodies."
+    },
+    {
+      "anchor": "sent Gao Xinbao, who had ties to the Lake Tai bandit chiefs, to \"pay respects to the mountain.\"",
+      "note": "To &#8220;pay respects to the mountain&#8221; (<span lang=\"zh-Hans\">拜山</span>) is to approach a bandit chief through the etiquette of the brotherhoods. This rescue of a French consular clerk's wife kidnapped at Lake Tai is a memoir anecdote, told to Huang's credit; no independent record of it has been found."
+    },
+    {
+      "anchor": "the Green Gang \"Da\"-generation man Zhang Jinghu",
+      "note": "&#8220;Zhang Jinghu&#8221; is Zhang Renkui, whose hao appears here as Jinghu (<span lang=\"zh-Hans\">镜湖</span>) though ch08 and ch09 give it as Jinhu (<span lang=\"zh-Hans\">锦湖</span>) &#8212; one of the book's own small inconsistencies, left as printed. The passage confirms from the other side what ch09 relates: Huang, never formally initiated, paid Zhang 20,000 yuan late in life to buy the &#8220;Tong&#8221;-generation standing he had long claimed."
+    },
+    {
+      "anchor": "Chiang sent Yang Hu, Chen Qun, and Wang Bailing",
+      "note": "Chiang Kai-shek's three agents for the Shanghai purge: Yang Hu (<span lang=\"zh-Hans\">杨虎</span>), head of the garrison's secret-police apparatus (see ch08); Chen Qun (<span lang=\"zh-Hans\">陈群</span>), political-department director and later a Wang Jingwei-regime official; and Wang Bailing (<span lang=\"zh-Hans\">王柏龄</span>), deputy commander of the First Army. Bai Chongxi (<span lang=\"zh-Hans\">白崇禧</span>), named below, held the Shanghai garrison command during the coup. Their roles are well attested."
+    },
+    {
+      "anchor": "organized the \"China Mutual Progress Society\"",
+      "note": "The China Mutual Progress Society (<span lang=\"zh-Hans\">中华共进会</span>) was the front organization through which the gangs' gunmen were marshalled for the April&#160;12 purge; it drew on Green and Hong Gang manpower under Nationalist direction."
+    },
+    {
+      "anchor": "Learning, Conduct, Loyalty, Faith",
+      "note": "&#8220;Learning, conduct, loyalty, faith&#8221; (<span lang=\"zh-Hans\">文行忠信</span>) are the four things Confucius is said in the <i>Analects</i> to have taught &#8212; an incongruously scholarly motto for a gangster's pleasure-garden, and a mark of how far Chiang went to flatter his useful ally."
+    },
+    {
+      "anchor": "the great Shanghai pigment merchant Bei",
+      "note": "The Bei (<span lang=\"zh-Hans\">贝</span>) family were among Shanghai's wealthiest, their fortune founded on the pigment and dyestuffs trade; the architect I.&#160;M. Pei was of this line. A kidnapping of one of their children, brokered by Huang for a ransom, epitomizes the &#8220;protection&#8221; racket the passage describes."
+    },
+    {
+      "anchor": "the Great World amusement park",
+      "note": "The Great World (<span lang=\"zh-Hans\">大世界</span>), opened 1917 near Avenue Edward VII, was Shanghai's largest popular entertainment complex &#8212; a multi-storey warren of opera stages, sideshows, food and games. Huang controlled it; his refusal to give it over as a refugee shelter in 1937 is offered as a measure of the man."
+    },
+    {
+      "anchor": "the Japanese naval attaché's office in China sent Rear Admiral Satō",
+      "note": "The standard account of Huang Jinrong's war is the one implied here: unlike his fellow boss Zhang Xiaolin, who went over to the Japanese and was assassinated for it in 1940, Huang stayed in Shanghai, kept a low profile, and declined to head a puppet government. The specific 1938 overture by a Rear Admiral Sat&#333;, and the terms said to have been agreed, rest on this account; his followers' drift into collaborationist posts, described next, is not in doubt."
+    },
+    {
+      "anchor": "his disciple Hao Pengju was security commander of Huaihai province",
+      "note": "Hao Pengju (<span lang=\"zh-Hans\">郝鹏举</span>, 1903&#8211;1947) was the era's most notorious turncoat, changing sides among the Nationalists, the Xi'an mutineers, the Japanese-puppet forces, the Nationalists again, and finally the Communists; the Communists captured and executed him in 1947. Li Changjiang (<span lang=\"zh-Hans\">李长江</span>), named just below, defected with his troops to the Japanese in February 1941, prompting the New Fourth Army's &#8220;punish Li Changjiang&#8221; campaign."
+    },
+    {
+      "anchor": "Ding Mocun, and its minister of industry and commerce, Mei Siping",
+      "note": "Ding Mocun (<span lang=\"zh-Hans\">丁默村</span>, 1901&#8211;1947), a former Communist turned Nationalist secret-policeman turned Wang Jingwei minister of social affairs and secret-service chief; and Mei Siping (<span lang=\"zh-Hans\">梅思平</span>, 1896&#8211;1946), the regime's minister of industry (later interior). Both were tried and shot as traitors after the war."
+    },
+    {
+      "anchor": "buy houses and property in Hong Kong, Macao, and elsewhere.",
+      "note": "Editors' note. According to recollection, it was Li Zhiqing who made off with Huang's rolled-up valuables; see Cheng's article in this volume."
+    },
+    {
+      "anchor": "Huang Jinrong publicly confessed his crimes in the press",
+      "note": "This refers to Huang's famous self-criticism (<span lang=\"zh-Hans\">自白书</span>), published in the Shanghai press in May 1951, after which the aged boss was set to sweeping the street outside his own Great World as a public spectacle. He died in Shanghai in 1953. The People's Government's &#8220;lenient treatment&#8221; spared him the fate of many lesser figures."
+    },
+    {
+      "anchor": "Draft Historical Materials of the Republic of China",
+      "note": "The source, <i>Zhonghua minguo shi ziliao congkao</i> (<span lang=\"zh-Hans\">中华民国史资料丛稿</span>), was a mainland scholarly series of Republican-era historical materials; this biography is a reprint from its &#8220;Biographies&#8221; section, lightly revised for the present volume."
     }
   ]
 }

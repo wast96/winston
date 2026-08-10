@@ -267,3 +267,98 @@ is the standard for the rest of the book.
   reading); 和丛亮（又名徐为彬） and 杨庆/杨庆山 in the ch07 Juntong-committee
   list (garbled, rendered as best-read); 赵志游 (ch08, distinct from Du's
   disciple 赵志英); 张法党 (Zhang Xiaolin's son, as printed).
+
+## B04 DONE (ch09–ch12, printed 108–137)
+
+- **Scope.** ch09 "张仁奎与仁社" (Zhang Renkui and the Ren Society, UNBYLINED memoir);
+  ch10 "我的老师袁寒云" (My Teacher Yuan Hanyun), by **Chen Timin (陈惕敏)**, Yuan's
+  Green Gang disciple; ch11 "先父徐朗西生平事略" (A Brief Life of My Late Father Xu
+  Langxi), by his son **Xu Xiaogeng (徐晓耕)**, set down by Yang Shi (杨×实, middle
+  graph spaced/illegible); ch12 "黄金荣事略" (A Brief Account of Huang Jinrong), byline
+  **乡波 (Xiang Bo, a pen name)**, reprinted from 中华民国史资料丛稿·人物传记. PDF 117–146,
+  printed 108–137.
+- **Author footnotes:** ch09/ch10/ch11 carry NONE (page feet checked by eye). ch12
+  carries ONE editors' note ① (李志清 absconding with Huang's valuables), reproduced as
+  an "Editors' note." entry. ch11's "(Set down by Yang Shi.)" and ch12's source-line are
+  in-text attributions, not foot-notes.
+- **Checks, all green:** verify_unit parity 26/26 (ch09), 29/29 (ch10), 16/16 (ch11),
+  26/26 (ch12); check_numbers 0 unresolved all four (noise extended, below);
+  check_align OK (medians 5.22 / 4.68 / 5.10 / 4.95 en/han); check_content OK all units
+  (docs/sources cfg regenerated in work/ to cover ch01–ch12); qc_entities 0 misses all
+  four (and no glossary miss surfaced in ch01–ch08 against the enlarged glossary);
+  check_structure ALL PASS (214 anchors 0 unresolved, headings OK); check_register vs
+  the frozen ch03 reference within tolerance; check_apparatus 0/0; qa_epub PASS
+  (214 ref/body/backlink); **epubcheck 0/0**.
+- **Apparatus:** 54 notes (ch09 15, ch10 14, ch11 10, ch12 15); running total 214.
+  Glossary +83 rows (178 total).
+- **Figures:** NONE. All four are text-only (page images eyeballed). Recorded as a
+  deliberate empty figure decision.
+- **Crop-verified against the scan (systematic mangles both OCR configs shared / that I
+  named):** ch09 — 张仁奎 (dozens of variants), 赵子超 (=Zhao Dan's father, ✓超 not 起),
+  张詧字退庵, 徐静仁, 陈光甫, 高鑫宝, 蒋鼎文/朱绍良, 韦敬周, 盛昇颐 (not 盛异虞), 周象贤,
+  袁良 (not 者良), 吴启鼎, 张竹平/葛福田, 葛光庭/宋哲元/韩复榘, 大生第八纺织公司, 76th
+  brigade, 二十四颗当. ch10 — byline 陈惕敏, 袁家嘏/家彰/家骝 (老三=Yuan Jialiu the
+  physicist), 步章五(号林屋山人), 褚玉璞, seal "上第二子", 段祺瑞小站. ch11 — byline 徐晓耕,
+  郑弼臣, 头山满/宫崎寅藏, 峪云山, 唐继尧/姚以价/徐永昌/阎志远, 陈树藩/于右任, 程克祥/彭盛木/
+  彭寿, 张国威, recorder 杨×实. ch12 — 字锦镛, 黄炳泉/邹氏女/余姚, 聚宝茶楼 (not 又宝),
+  樊尔谛+樊菊丽, 太保阿书/猪猡阿美, 周荫人/杨知候, 俞叶封, 苏州唯亭乡 (not 叭亭), 张镜湖,
+  杨虎/陈群/王柏龄/白崇禧, 王文奎 (not 王文计), 龚天健 (not 裴天健), 郝鹏举 (not 骆股举),
+  鲁锦臣 (not 伍锦臣), 邱子善 (not 骆子善), 黄源焘, 李志清, 徐林诚/陶雪生/颜秀吾/田铁夫/
+  丁聚堂/沈靖华/韦长镇/杨士杰/周阿福, 3,500,000 银元 + 60 余亩. Tails read against the
+  p123/p134/p139/p146 scans (rule 4): faithful, no invented bridging.
+- **Source claims footnoted honestly:** Xu Baoshan's curio-bomb killing dated to 24 May
+  1913 (the text frames it "during the 1911 Revolution" — hedged as CONTRADICTED); the
+  Xingzhonghui "organized in Tokyo" is CONTRADICTED (Honolulu 1894 / Hong Kong 1895; the
+  Tongmenghui was the Tokyo body) — Sun's Hongmen membership itself corroborated (Chee
+  Kung Tong, 1904). Memoir-tier / uncorroborated, footnoted as such: the Zuo Zongtang
+  "Dragon Head" legend, Ge Guangting's Jiaoji-Railway identity, Zhang Zongchang making
+  Yuan Kewen "Advance Army commander," the "National Nine-Dragons Conference," the Lake
+  Tai consul-clerk rescue, Huang Yuantao as a Zhongtong agent, and — with its outline
+  plausible but unverified — Xu Langxi's introduction of three named Juntong agents to
+  Zhou Fohai (Zhou's own Dai Li/Chongqing channel IS documented). ch11's pro-CCP framing
+  (a son's 1986 memoir) is flagged as an interested witness. CORROBORATED and noted:
+  Zhang Xiaoruo's 1935 assassination, Zhao Dan's father, Yuan Jialiu = the physicist,
+  the April-12 agents (Yang Hu/Chen Qun/Wang Bailing/Bai Chongxi), Ding Mocun/Mei Siping,
+  Hao Pengju, Huang's 1951 self-confession and 1953 death.
+- **Source's own inconsistency (left as printed, footnoted):** Zhang Renkui's hao given
+  as 锦湖 (Jinhu) in ch08/ch09 but 镜湖 (Jinghu) in ch12 — rendered as printed in each,
+  cross-referenced in the ch12 note.
+- **Cross-shelf reconciliation done this batch:** 宋子文 → **"T. V. Soong"** (ch07 already
+  used it; my ch09 draft "Song Ziwen" corrected; authority.json agrees). 孔祥熙 →
+  **"H. H. Kung"** (authority.json marks it a reconcile; picked the conventional form to
+  parallel Soong; 孔祥熙 is new to this book). 晶报 → **"The Crystal"** (ch06 had rendered
+  it "Jing Bao"; updated ch06 to match ch10 — one rendering per referent). glossary +
+  ch06/ch09 readings updated, rebuilt, re-verified.
+- **noise.txt extended (each entry commented, longest-literal-first; 一二八五 relocated
+  ABOVE 一二八 so the Jan-28 rule can't orphan its 五):** 红十字, 一二八五, 不知其二, 四明,
+  李征五, 化整为零, 两腿, 第二天, 上万, 二字, 三字, 三原, 两系, 十二万分, 三轮车, 万岁,
+  三牌楼, 一百零八将, 三鑫, 两手空空, 巨万, 数以千计, 牌九. Genuine quantities carried as
+  digits in the English (100,000 yuan; 20,000 silver yuan; 3,500,000 銀元; 100 yuan/day).
+- **NOT re-noted (already placed):** Zhang Renkui bio (ch08), the 24 generation-
+  characters / Da-Tong-Wu ranks (ch05), the April 12 coup (ch02), Chen Qimei / 陈英士
+  (ch07), Xu Langxi bio (ch04, ch07), the Juntong (ch06), Du Yuesheng / Huang Jinrong /
+  Zhang Xiaolin as the three bosses (B01–B02), Kawashima Yoshiko (ch06), Yang Hu / Gu
+  Zhuxuan (ch08). Wang Shouhua gets his first dedicated note here (ch09), cross-referenced
+  from ch12.
+- **Voice sheets (dialogue begins here).** YUAN HANYUN (ch10 speaker): a cultured,
+  relaxed, faintly ironic aristocrat-aesthete; opium-couch ease, literary allusion,
+  gang-kinship banter ("your Grandfather Zhang"); contractions in his speech but not
+  street-colloquial. CHEN TIMIN (ch10 narrator): deferential, precise, self-deprecating.
+  ch10 is the FIRST genuinely dialogue-bearing chapter (2.8 contractions/1k — right for
+  cultured reminiscence, not the gangster register to come); it can serve as a dialogue
+  reference for later cultured-memoir speech, while the boastful Huang/Du household voices
+  (B05+) will want their own, higher-contraction baseline.
+- **Provisional / left as printed (for the B10 reconciliation):** ch09 single-appearance
+  Nantong figures (蒋暇堂, 韩奉持, 赵汉生, 许泽初, 赵鸿祠), 盛昇颐; ch10 黄伯炮, 俞佩文,
+  浦应仙, 吴桐渊, and the seal 上第二子; ch11 徐晓耕, 郑弼臣, 张国威, 峪云山 romanization,
+  中华艺术专科学校 (sources give 新华艺专/上海美专), recorder 杨×实; ch12 樊尔谛, 龚天健,
+  王文奎, 鲁锦臣, 邱子善, 李志清, 黄源焘, and the puppet-army/-county roster (徐林诚,
+  陶雪生, 颜秀吾, 田铁夫, 丁聚堂, 沈靖华, 韦长镇, 杨士杰, 周阿福), plus the bandit
+  nicknames 太保阿书 / 猪猡阿美.
+- **Tooling:** no script logic changes. work/structure_cfg.json + work/content_cfg.json
+  regenerated to cover ch01–ch12 (heading_depth 1). A note-ordering trap fixed at build
+  time, NOT in code: two ch10 notes ended at the same character ("...the second son of
+  Yuan Shikai"), one anchor a suffix of the other, so their markers tied and inverted
+  (qa_epub "not sequential"); re-anchored the Yuan Kewen note to end earlier ("Yuan
+  Hanyun, whose given name was Kewen"). Lesson for later batches: never give two notes
+  anchors that END at the same point.

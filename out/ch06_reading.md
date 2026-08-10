@@ -104,7 +104,7 @@ Gao Shikui, a Shandong man, was head of the Zhili water police in the days of th
 
 Wang Yucheng, an Anhui man, had taken part in the 1911 Revolution, and when Sun Yat-sen was Provisional President served as captain of the presidential guard; he also held posts for many years in the Shanghai police bureau and at the *Shen Bao* office, and in the Hongmen was lord of the Wuxing Mountain lodge; he died of illness in Hong Kong during the War of Resistance.
 
-Yuan Kewen, styled Hanyun, a man of Xiangcheng in Henan, was the second son of Yuan Shikai and wrote for the old Shanghai tabloid *Jing Bao*, so that the disciples he took in were mostly of the literary and theatrical world—men such as Yu Yifen and Jin Biyan.
+Yuan Kewen, styled Hanyun, a man of Xiangcheng in Henan, was the second son of Yuan Shikai and wrote for the old Shanghai tabloid *The Crystal*, so that the disciples he took in were mostly of the literary and theatrical world—men such as Yu Yifen and Jin Biyan.
 
 Fan Jincheng, an Anhui man whose history is unclear, was Zhang Xiaolin's elder-master, kept by Zhang in Shanghai. It is said that after Zhang made his fortune he did not wish Fan to take in more disciples, so the disciples Fan took in were few.
 
