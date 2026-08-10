@@ -115,3 +115,55 @@
 三青团
 # 两面派 = idiom "double-dealer/two-faced"; not the count 2.
 两面派
+# --- ch07 (Hongmen history) name/place/lodge/idiom numerals (romanized) ---
+# 三汊河 Sanchahe, the river where Hong Ying died; 三 part of the place name.
+三汊河
+# 九连山 Jiulian Mountain (site of the Shaolin Temple); 九 part of the name.
+九连山
+# 万云龙/万云山/万云寺 Wan Yunlong and the Wanyun Mountain/Temple; 万 part of the name.
+万云
+# 万寿节 the Longevity Festival (Cixi's birthday); 万寿 an honorific, not 10000.
+万寿
+# 万福香 the Myriad Blessings Incense (a Hongmen incense name); 万福 idiom, not 10000.
+万福
+# 万宝山 Wanbao Mountain lodge; 万 part of the name.
+万宝
+# 三星棉铁厂 the Sanxing Cotton-and-Iron Works; 三 part of the firm name.
+三星
+# 五方杂处 idiom "a mixing-place of people from every quarter"; 五方 not the count 5.
+五方
+# 五圣山 the Wusheng Mountain lodge (Five Saints); romanized, 五 part of the name.
+五圣
+# 十龙山 the Shilong Mountain lodge; 十 part of the name.
+十龙
+# 九华山 Jiuhua Mountain lodge; 九 part of the name.
+九华
+# 九龙山 Jiulong Mountain lodge; 九 part of the name.
+九龙
+# --- ch08 (Xue Gengshen memoir) enumerators, names, idiom numerals ---
+# CJK list enumerators （一）（二）...（十）: structure, like the built-in "1." rule.
+（[一二三四五六七八九十]）
+# 顾四 Gu Si (Gu Zhuxuan's alias); 四 part of the name.
+顾四
+# 饶老四 Rao Laosi (a corrupt inspector's nickname); 四 part of the name.
+饶老四
+# 九亩地 Jiumudi (a Nanshi locality); 九 part of the place name.
+九亩地
+# 潘三省 Pan Sansheng (a gangster); 三 part of the name.
+潘三省
+# 三友实业社 the Sanyou Industrial Company; 三 part of the firm name.
+三友
+# 百货公司 a department store; 百货 is the word, not the count 100.
+百货
+# 青洪两帮 / 两帮 "both gangs"; rendered "the Green and Hong gangs", 两 not the tael or count 2.
+两帮
+# 二季 春秋二季 "the two seasons"; rendered without a digit where 二 is not a load-bearing count.
+二季
+# 瘪三 / 小瘪三 biesan, Shanghai slang for a petty street punk; 三 part of the word.
+瘪三
+# 朱葆三 Zhu Baosan (the comprador); 三 part of the name.
+朱葆三
+# 阿五 Ah Wu (Huang Jinrong's head bath-boy); 五 part of the name.
+阿五
+# 零售 "retail"; 零 is part of the word, not the count 0.
+零售

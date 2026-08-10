@@ -183,3 +183,87 @@ is the standard for the rest of the book.
 - **Tooling:** qc_entities.py made tolerant of a glossary row without a
   `pinyin` field (it crashed the whole check before); org/term rows given
   pinyin for consistency. No other script changes.
+
+## B03 DONE (ch07–ch08, printed 68–107)
+
+- **Scope.** ch07 "洪门历史初探" (A Preliminary Inquiry into the History of the
+  Hongmen), by Jiang Hao (姜豪, same author as ch06); ch08 "我接触过的上海帮会
+  人物" (Shanghai Gang Figures I Have Known), by **Xue Gengshen (薛耕莘**, byline
+  printed with the variant graph 畊 for 耕), the French Concession police's most
+  senior Chinese detective. PDF 77–116, printed 68–107.
+- **Author footnotes:** NEITHER ch07 nor ch08 carries the author's own numbered
+  page-foot notes (checked the page feet by eye; ch05 had them, ch06–ch08 do
+  not). The `*`/`%`/`?` glyphs the OCR scattered are mis-read closing quotation
+  marks, not note markers. So no "Author's note." entries this batch.
+- **Checks, all green:** verify_unit parity 54/54 (ch07), 76/76 (ch08);
+  check_numbers 0 unresolved both (noise extended, below); check_align OK
+  (median 5.50 / 5.11 en/han); check_content OK (docs/sources cfg in
+  work/content_cfg.json — regenerated for ch07/ch08); qc_entities 0 misses both
+  (and ch01–ch06 re-checked 0 against the enlarged glossary); check_register vs
+  the frozen ch03 within tolerance (both expository/memoir with little dialogue,
+  flagged noisy not failed); check_apparatus 0/0; check_structure ALL PASS
+  (anchors 160/0 unresolved, headings OK); qa_epub PASS; **epubcheck 0/0**.
+- **Apparatus:** 40 notes (ch07 15, ch08 25); +41 glossary rows (95 total).
+  Running note total 160.
+- **Figures:** NONE. Both chapters are text-only (page images eyeballed; the two
+  mountain-lodge grids in ch07 are tabular text, rendered as prose lists, not
+  images). Recorded as a deliberate empty figure decision.
+- **Crop-verified against the scan (dual-OCR mangles both configs shared or that
+  I named):** byline 薛畊莘; the French romanizations the source itself glosses —
+  夏才立/夏才拉 (Chazel), 费沃利上尉 (Capitaine Fiori), 谭斯脱 (Destes), 《真理报》
+  (La Vérité), 葛格霖 (Koeclin, consul-general), 法伯尔中校 (L. Fabrer), 饶伯泽
+  (Jobez), 马莫雅 (Marmorat), 范浪打 (Yolenti); both ch07 mountain-lodge tables
+  (44 + post-1911 rows) — OCR mangled most founder names, corrected by eye;
+  key body-text catches — 魏廷荣 (OCR 魏延荣/犁廷荣), 高鑫宝 (高读宝), 虞洽卿
+  (广/处洽卿), 汪禹丞 = Wang Yucheng (汪珊丕/汪台丞), 徐逸民 (徐揭民), 留美西医
+  (not 留德), 肇和兵舰起义 (侯和), 李咸池 (李威池), 山东泰安 (秦安), 三合会三千人
+  (三和于人), 叔嫂相敬 (rule 7), 筑青山 (锁青山), 先烈祠 (忠烈祠), and the author's
+  father 薛仲江 (OCR garbled to 龚/巷仲江 — same surname as the author). Tails of
+  both chapters read against the p95/p116 scans (rule 4 corollary): ch07 ends
+  "上述决议案也没有实现。" + the closing note; ch08 ends "常玉清被处决。" No
+  invented bridging text.
+- **noise.txt extended (each entry commented, longest-literal-first by hand):**
+  ch07 — 三汊河, 九连山, 万云, 万寿, 万福, 万宝, 三星, 五方, 五圣, 十龙, 九华,
+  九龙 (names/lodges/idioms carrying a numeral glyph the romanization drops).
+  ch08 — a CJK list-enumerator rule `（[一二…十]）` (the source's （一）（二）…
+  sub-heads, like the built-in "1." rule), 顾四, 饶老四, 九亩地, 潘三省, 三友,
+  百货, 两帮, 二季, 瘪三, 朱葆三, 阿五, 零售. Genuine quantities carried as digits
+  in the English (register: digits for specific quantities), incl. the large
+  money amounts (100,000 yuan; 8,000–10,000 francs; 10,000–12,000 yuan).
+- **Source claims footnoted honestly (corroborated / uncorroborated):** the
+  Hongmen founding legend (Shaolin, Five Ancestors, the Red Flower Pavilion) is
+  footnoted as myth, not history — the Tiandihui traces to mid-18th-c Fujian;
+  Sun Yat-sen's Hongmen initiation is corroborated; the Tongmenghui passage
+  conflates the 1905 Tokyo founding with the 1911 Hankou central bureau (noted).
+  ch08's Song-family drowning anecdote and the 支那十勇士 episode rest on the
+  author's word alone and are footnoted as uncorroborated; Lu Bohong's 1937
+  assassination is corroborated but the attribution to Chen Mo / Chang Yuqing is
+  the author's. The source's own inconsistency 夏才立/夏才拉 (Chazel) kept as
+  printed; the printed Latin glosses (L. Fabrer, La Vérité) reproduced as the
+  author gave them.
+- **NOT re-noted (already placed):** the April 12 coup (ch02), Kawashima
+  Yoshiko (ch06), Lu Liankui (ch03), the "ten years of turmoil" (ch02), the
+  Green/Hong Gang names (ch01), the Small Sword Society's 1853 rising (ch02,
+  cross-referenced), the generation-characters / 通字辈 (ch05), the Juntong
+  (ch06), Xiang Songpo (ch03), Water Margin / Liangshan (ch06; Shi Qian gets a
+  fresh pickpocket-specific note), Zhang Xiaolin as one of the Three Big Bosses
+  (ch06; his assassination cross-referenced from ch06).
+- **Renderings settled B03 (in glossary; reuse):** the Three Harmonies Society
+  (三合会, the Triads), the Elder Brothers Society (哥老会), the Chee Kung Tong
+  (致公堂), the Small Sword Society (小刀会), the Hanliu (汉留, provisional), the
+  Revive China Society (兴中会), the Revolutionary Alliance / Tongmenghui, the
+  Revive Han Society (兴汉会), the Hongxing Association (洪兴协会), the Wusheng
+  Mountain (五圣山), the "Seabed" (海底), the Red Flower Pavilion (红花亭), the
+  Yellow Way Society (黄道会); Hong Ying, Chen Jinnan, Zheng Chenggong (Koxinga),
+  Wan Yunlong, Su Hongguang, Sun Yat-sen, Huang Xing, Song Jiaoren, Situ
+  Meitang, Xu Langxi, Wang Yucheng (汪禹丞), Xiang Songpo, Zheng Ziliang, Xue
+  Gengshen, Yu Qiaqing, Cheng Ziqing, Jin Jiuling, Chang Yuqing, Lu Liankui,
+  Gao Xinbao, Xu Caicheng, Wei Tingrong, Lu Lanchun, Chen Qimei, Kawashima
+  Yoshiko. Kept 军统 = "the Juntong" (unsettled until B08).
+- **Provisional / left as printed (for the B10 reconciliation):** the Hanliu
+  romanization; the lodge founder names in the ch07 tables (many single-
+  appearance, OCR-corrected but unattested); 荩忠山 (Guo Yongtai's lodge, the
+  top graph faint on the scan); 福建霞宁县 (Guo Yongtai's county, uncertain
+  reading); 和丛亮（又名徐为彬） and 杨庆/杨庆山 in the ch07 Juntong-committee
+  list (garbled, rendered as best-read); 赵志游 (ch08, distinct from Du's
+  disciple 赵志英); 张法党 (Zhang Xiaolin's son, as printed).

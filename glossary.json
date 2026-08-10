@@ -225,6 +225,135 @@
       "pinyin": "Yáng Hǔ",
       "status": "decided",
       "note": "Also named Xiaotian; Songhu garrison commander and Green Gang figure."
+    },
+    "洪英": {
+      "en": "Hong Ying",
+      "pinyin": "Hong Ying",
+      "status": "decided"
+    },
+    "陈近南": {
+      "en": "Chen Jinnan",
+      "pinyin": "Chen Jinnan",
+      "status": "decided"
+    },
+    "郑成功": {
+      "en": "Zheng Chenggong",
+      "pinyin": "Zheng Chenggong",
+      "status": "attested",
+      "note": "Koxinga."
+    },
+    "万云龙": {
+      "en": "Wan Yunlong",
+      "pinyin": "Wan Yunlong",
+      "status": "decided"
+    },
+    "苏洪光": {
+      "en": "Su Hongguang",
+      "pinyin": "Su Hongguang",
+      "status": "decided"
+    },
+    "孙中山": {
+      "en": "Sun Yat-sen",
+      "pinyin": "Sun Zhongshan",
+      "status": "attested"
+    },
+    "黄兴": {
+      "en": "Huang Xing",
+      "pinyin": "Huang Xing",
+      "status": "attested"
+    },
+    "宋教仁": {
+      "en": "Song Jiaoren",
+      "pinyin": "Song Jiaoren",
+      "status": "attested"
+    },
+    "司徒美堂": {
+      "en": "Situ Meitang",
+      "pinyin": "Situ Meitang",
+      "status": "attested"
+    },
+    "徐朗西": {
+      "en": "Xu Langxi",
+      "pinyin": "Xu Langxi",
+      "status": "provisional"
+    },
+    "汪禹丞": {
+      "en": "Wang Yucheng",
+      "pinyin": "Wang Yucheng",
+      "status": "provisional"
+    },
+    "向松坡": {
+      "en": "Xiang Songpo",
+      "pinyin": "Xiang Songpo",
+      "status": "attested",
+      "note": "Xiang Haiqian; see the note at his first appearance."
+    },
+    "郑子良": {
+      "en": "Zheng Ziliang",
+      "pinyin": "Zheng Ziliang",
+      "status": "provisional"
+    },
+    "薛耕莘": {
+      "en": "Xue Gengshen",
+      "pinyin": "Xue Gengshen",
+      "status": "decided",
+      "note": "The author of this chapter; the byline prints the variant graph 畊 for 耕."
+    },
+    "虞洽卿": {
+      "en": "Yu Qiaqing",
+      "pinyin": "Yu Qiaqing",
+      "status": "attested"
+    },
+    "程子卿": {
+      "en": "Cheng Ziqing",
+      "pinyin": "Cheng Ziqing",
+      "status": "provisional"
+    },
+    "金九龄": {
+      "en": "Jin Jiuling",
+      "pinyin": "Jin Jiuling",
+      "status": "provisional"
+    },
+    "常玉清": {
+      "en": "Chang Yuqing",
+      "pinyin": "Chang Yuqing",
+      "status": "provisional"
+    },
+    "陆连奎": {
+      "en": "Lu Liankui",
+      "pinyin": "Lu Liankui",
+      "status": "attested"
+    },
+    "高鑫宝": {
+      "en": "Gao Xinbao",
+      "pinyin": "Gao Xinbao",
+      "status": "provisional"
+    },
+    "徐采丞": {
+      "en": "Xu Caicheng",
+      "pinyin": "Xu Caicheng",
+      "status": "provisional"
+    },
+    "魏廷荣": {
+      "en": "Wei Tingrong",
+      "pinyin": "Wei Tingrong",
+      "status": "provisional"
+    },
+    "露兰春": {
+      "en": "Lu Lanchun",
+      "pinyin": "Lu Lanchun",
+      "status": "attested"
+    },
+    "陈其美": {
+      "en": "Chen Qimei",
+      "pinyin": "Chen Qimei",
+      "status": "attested"
+    },
+    "川岛芳子": {
+      "en": "Kawashima Yoshiko",
+      "pinyin": "Chuandao Fangzi",
+      "status": "attested",
+      "note": "See the note at her first appearance."
     }
   },
   "organizations": {
@@ -314,6 +443,80 @@
       "status": "decided",
       "note": "A Dai Li / Juntong-affiliated irregular force active in the lower Yangtze during the war.",
       "pinyin": "Zhongyi Jiuguo Jun"
+    },
+    "三合会": {
+      "en": "the Three Harmonies Society",
+      "pinyin": "Sanhehui",
+      "status": "attested",
+      "note": "The Triads of Western usage."
+    },
+    "哥老会": {
+      "en": "the Elder Brothers Society",
+      "pinyin": "Gelaohui",
+      "status": "attested"
+    },
+    "致公堂": {
+      "en": "the Chee Kung Tong",
+      "pinyin": "Zhigongtang",
+      "status": "attested",
+      "note": "The overseas Hongmen lodge network; Cantonese romanization."
+    },
+    "小刀会": {
+      "en": "the Small Sword Society",
+      "pinyin": "Xiaodaohui",
+      "status": "attested"
+    },
+    "三点会": {
+      "en": "the Three Dots Society",
+      "pinyin": "Sandianhui",
+      "status": "decided"
+    },
+    "大刀会": {
+      "en": "the Big Sword Society",
+      "pinyin": "Dadaohui",
+      "status": "decided"
+    },
+    "汉留": {
+      "en": "the Hanliu",
+      "pinyin": "Hanliu",
+      "status": "provisional",
+      "note": "Literally the 'Remnant of Han.'"
+    },
+    "兴中会": {
+      "en": "the Revive China Society",
+      "pinyin": "Xingzhonghui",
+      "status": "attested"
+    },
+    "中国革命同盟会": {
+      "en": "the Chinese Revolutionary Alliance",
+      "pinyin": "Tongmenghui",
+      "status": "attested",
+      "note": "The Tongmenghui."
+    },
+    "华兴会": {
+      "en": "the China Arise Society",
+      "pinyin": "Huaxinghui",
+      "status": "decided"
+    },
+    "兴汉会": {
+      "en": "the Revive Han Society",
+      "pinyin": "Xinghanhui",
+      "status": "decided"
+    },
+    "洪兴协会": {
+      "en": "the Hongxing Association",
+      "pinyin": "Hongxing xiehui",
+      "status": "decided"
+    },
+    "五圣山": {
+      "en": "the Wusheng Mountain",
+      "pinyin": "Wusheng Shan",
+      "status": "decided"
+    },
+    "黄道会": {
+      "en": "the Yellow Way Society",
+      "pinyin": "Huangdaohui",
+      "status": "decided"
     }
   },
   "places": {},
@@ -341,6 +544,17 @@
       "status": "decided",
       "note": "Literally &#8216;green skin&#8217;; a term for a bold local tough, one proposed origin of the name &#8216;Green Gang.&#8217;",
       "pinyin": "qingpi"
+    },
+    "海底": {
+      "en": "the \"Seabed\"",
+      "pinyin": "haidi",
+      "status": "decided",
+      "note": "The Hongmen's book of rules and ritual."
+    },
+    "红花亭": {
+      "en": "the Red Flower Pavilion",
+      "pinyin": "Honghuating",
+      "status": "decided"
     }
   }
 }
