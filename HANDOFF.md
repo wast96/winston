@@ -27,8 +27,8 @@ ch01 (the Prologue) is the APPROVED FROZEN REFERENCE for register. Before transl
 
 Do Batch B02 = Chapter 1 (ch02, 第一章 有四条眉毛的人 / "The Man with Four Eyebrows"; ~10,407 source chars; text_file data/src/07_part0000-split-005.txt), end to end per the CLAUDE.md pipeline:
 1. Read ch02 from its text_file. Fix extractor-split paragraphs (a line whose last char is not in 。！？"）…— continues the next). Chapters 1-12 divide themselves with BARE NUMERIC markers (01, 02, ...) that are scene breaks, NOT titled sections: recover them as *** via apply_format_markers.py (note ch02's source is <div class="calibre1"> prose like ch01; if apply_format_markers cannot align/mark, insert the *** scene breaks by hand at the numeric-divider boundaries and record how in PROGRESS). ch02 has NO book.json sections, so its reading.md is one H1 + prose + *** breaks.
-2. Translate to the frozen ch01 register: fast, spare, wry Gu Long; short paragraphs; contracted, differentiated dialogue. Lu Xiaofeng himself arrives here — write his voice sheet into HANDOFF at first speech. Never invent bridging text; render digitization glitches to plain sense and LIST each in PROGRESS.md; the source's own errors of fact stay visible and get a footnote. Verify the chapter's TAIL against the source before shipping.
-3. Write out/ch02_en.json (flat JSON array, one English paragraph per source body line; make_bilingual skip=2). Run make_bilingual.py ch02 ...; then verify_unit.py ch02 (parity + numbers with --noise data/noise.txt + anchors); check_align.py ch02; check_content.py --config <cfg>; qc_entities.py out/ch02_bilingual.md glossary.json. Add ch02 to a check config with docs/sources (see the scratchpad qc_config from B01, or make one: {"docs":{"ch01":...,"ch02":...},"sources":{...},"notes":"notes.json","heading_depth":2}).
+2. Translate to the frozen ch01 register: fast, spare, wry Gu Long; contracted, differentiated dialogue; contractions in narration too, varied constructions, no stilted ESL-feel, no invented colour. FOLLOW THE PARAGRAPHING RULE (see the "Paragraphing" section below): MERGE adjacent narration into paragraphs by beat — do NOT render one source line per paragraph — keeping dialogue turns and punch-lines on their own. Lu Xiaofeng himself arrives here — write his voice sheet into HANDOFF at first speech. Never invent bridging text; render digitization glitches to plain sense and LIST each in PROGRESS.md; the source's own errors of fact stay visible and get a footnote. Verify the chapter's TAIL against the source before shipping.
+3. Author out/ch02_en.json as MERGED English paragraphs, then build via the merged-source method (Paragraphing step 2): group the source lines, concatenate each group VERBATIM into out/ch02_src_merged.txt, run make_bilingual.py ch02 <merged_src> "..." out/ch02_en.json 2, do the bare-numeric -> *** step, split_bilingual.py. Then verify_unit.py ch02 (parity + numbers with --noise data/noise.txt + anchors); check_align.py ch02; check_content.py --config <cfg>; qc_entities.py out/ch02_bilingual.md glossary.json. Add ch02 to a check config with docs/sources (copy the scratchpad qc_config from B01, or make one: {"docs":{"ch01":...,"ch02":...},"sources":{...},"notes":"notes.json","heading_depth":2}).
 4. Footnotes per the reader model (Western reader, no Chinese background); first-appearance greps + a NOT-re-noted list; note density tapers from B01's 14 as the furniture is covered — expect fewer. Use apparatus_merge.py for NOTES (its glossary path adds rows FLAT and must NOT be used — add glossary rows under the two-level sections directly and validate with check_apparatus.py; see the do-not-revert note). check_apparatus.py clean.
 5. Rebuild, qa_epub.py green, epubcheck (/tmp/epubcheck-5.1.0/epubcheck.jar) clean, check_register.py --ref out/ch01_reading.md out/ch02_reading.md within tolerance. Record every check in PROGRESS.md; update HANDOFF.md; commit and push to claude/lu-xiaofeng-1.
 6. End the batch per CLAUDE.md: attach the rebuilt out/lu-xiaofeng-1.epub in the chat AND paste the B03 kickoff verbatim in the same reply.
@@ -40,12 +40,13 @@ Cite chapters and sections, never pages. Do not pause for approval mid-batch (B0
 
 - **Step 0 survey** (prior session): ingested the source, authored book.json
   (13 units), built the skeleton EPUB. Committed to claude/lu-xiaofeng-1.
-- **B01 = the Prologue (ch01)** — COMPLETE, at the voice gate. 213 prose
-  paragraphs across 4 vignette sections; 14 footnotes; 21 glossary rows;
-  0 figures. Every check green (parity, numbers, align, content, entities,
-  apparatus, structure, qa_epub, epubcheck 0/0/0/0). ch01 is the intended
-  FROZEN REGISTER REFERENCE (contractions 25.4/1k, rhythm CV 0.70), pending
-  the commissioner's voice-gate approval. Full detail in PROGRESS.md.
+- **B01 = the Prologue (ch01)** — COMPLETE, at the voice gate, REVISED once on
+  commissioner feedback. 4 vignette sections; **153 merged paragraphs** (see
+  Paragraphing below); 14 footnotes; 21 glossary rows; 0 figures. Every check
+  green (parity, numbers, align, content, entities, apparatus, structure,
+  qa_epub, epubcheck 0/0/0/0). ch01 is the intended FROZEN REGISTER REFERENCE
+  (contractions **35.8/1k**, rhythm CV 0.76), pending the commissioner's
+  re-read at the gate. Full detail in PROGRESS.md.
 
 ## Tooling in place (do NOT revert)
 
@@ -71,6 +72,32 @@ Cite chapters and sections, never pages. Do not pause for approval mid-batch (B0
   placeholder ("(First line: ..."). Now that HANDOFF carries a real kickoff,
   the hook correctly ENFORCES, so that one test necessarily fails for the rest
   of the book. Do not attempt to "fix" it; it is the guard working.
+
+## Paragraphing (book-wide rule set at the voice gate — do NOT revert)
+
+The commissioner rejected the first, 1:1 rendering (one source line = one
+English paragraph) as too choppy. **From here on, MERGE adjacent narration
+lines into paragraphs grouped by beat**; keep dialogue turns and deliberate
+punch-lines on their own. Method that preserves the pipeline's guarantees:
+
+1. Author `out/<id>_en.json` as the MERGED English paragraphs (one array
+   entry per final paragraph, in reading order; section-title entries stay
+   plain and become `### ` H3 in the H3 step).
+2. Group the source body lines into the same paragraphs and build a MERGED
+   source by concatenating each group's original lines VERBATIM (no re-typing
+   — join with '' since every ch01 line ends on terminal punctuation; check
+   this per unit). Run `make_bilingual.py <id> <merged_src> <title> en.json 2`
+   so parity + verbatim stay true by construction, then the H3 step, then
+   `split_bilingual.py`. (B01's generator is the pattern:
+   scratchpad `regen_ch01.py` with a `RANGES` list of inclusive line spans;
+   copy and re-range it per chapter. The merged-source file
+   `out/<id>_src_merged.txt` is a throwaway, gitignored.)
+3. All checks then run on the merged pairs exactly as before.
+
+Voice within paragraphs: contractions in narration as well as dialogue; vary
+constructions; name a character at a new beat or as an object, pronoun within
+a run; never invent detail to add colour (foreboding comes from rhythm and
+irony). This is what makes ch01 the register reference.
 
 ## Voice sheets (consult at every dialogue scene)
 

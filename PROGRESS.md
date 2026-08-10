@@ -183,3 +183,47 @@ name-pun 12. Taisui ("Terror") + Cui Yidong's "One Hole" name-pun 13. guqin
   top-level keys (it crashed on the glossary's string-valued `_about`). Matches
   the guard already in `qc_entities` and `render_glossary`. Regression harness
   still 9/10 (only the expected template-stub hook case).
+
+### Voice-gate revision (round 2) — commissioner feedback applied
+
+The commissioner read the opening at the voice gate and flagged the voice.
+Core note: rendering Gu Long's one-sentence-per-line source 1:1 made English
+that "breaks every sentence onto its own line" until the breaks lose meaning;
+the prose was also stilted (uncontracted, repetitive "they had just... they
+had just"), and forced character names where a fluent writer uses a pronoun.
+
+Changes made across the WHOLE prologue:
+- **Merged-paragraph parity.** Adjacent NARRATION lines are now grouped into
+  paragraphs by beat; dialogue turns and deliberate punch-lines ("Blood.";
+  "Five words, one life.") stay on their own. 213 source lines -> **153 merged
+  paragraphs**. Parity is still 1:1 and verbatim-by-construction, but the unit
+  is now a merged paragraph: a small script concatenates each group's source
+  lines VERBATIM (no re-typing) into a merged source, which make_bilingual
+  pairs against the merged English. data/zh/ch01.txt and out/ch01_reading.md
+  hold the merged pairs; all checks run on them.
+- **Voice pass.** Contractions in narration as well as dialogue; varied
+  constructions; trimmed doublings; foreboding carried by rhythm and irony,
+  never by invented detail (rule 4 held — nothing added). Natural pronouns
+  within a paragraph, the name re-anchored only at a new beat or as an object.
+- Concrete fixes from the note: crisp standalone opening line; "not a pair"
+  (not "no pair"); "one of them" (not "someone"); horse-froth simile
+  rewritten; "wonderfully light and at ease" doubling cut; the chestnut name
+  said once, not twice.
+
+Re-checks after the revision (all green):
+- verify_unit: 153 pairs, numbers 0 unresolved, anchors 14 ok.
+- check_align 153/153, median ratio 3.78, no strays (the one short atmospheric
+  closer was trimmed to clear the ratio gate).
+- check_content 114 name occurrences all placed; qc_entities 0 misses (the 4
+  pronoun paragraphs the detectors flagged were re-anchored with the name at a
+  natural beat/object position — a fluent re-use, not the consecutive
+  repetition that was objected to). check_apparatus 0/0; check_structure ALL
+  PASS.
+- qa_epub PASS (165 paragraphs); epubcheck 0/0/0/0.
+- **check_register: contractions 35.8/1k (up from 25.4), shall 0%, em-dash
+  0.2/1k, rhythm CV 0.76.** This revised ch01 is the frozen reference (pending
+  the re-read at the gate).
+
+Note count unchanged at 14 (anchors "three cun thick" -> "three cun of solid
+wood" and "What Ximen Chuixue blows is not snow" -> "...blows from his sword is
+not snow" to match the revised prose).

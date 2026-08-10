@@ -37,3 +37,6 @@ book.draft.json
 # (a clean checkout must be able to regenerate data/src/). If your source
 # EPUB is very large and you would rather not commit it, add:
 #   source.epub
+
+# Merged-paragraph source intermediate (rebuilds from data/src + the batch grouping)
+out/*_src_merged.txt
