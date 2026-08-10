@@ -89,6 +89,21 @@ Society (恒社), Ren Society (仁社), the gangs (帮会).
     — strip_folio had eaten the one-character line "的。" as if it were a folio;
     restored. Watch short one-glyph closing lines each batch.
 
+## Voice-gate revision (round 1)
+
+Commissioner read to printed p.12 and rejected the prose as clunky and stilted:
+faux-period formality, inversions (&#8220;needed all the more someone&#8230;&#8221;), calque
+idioms (&#8220;lay hands on that pension,&#8221; &#8220;have a voice put in for them&#8221;), and
+inconsistent number styling (&#8220;sixty-eight&#8221; beside &#8220;2,400&#8221;). RECALIBRATED the
+whole batch to natural contemporary English: removed inversions and archaisms,
+broke run-ons, fixed the flagged phrasings, dropped the confusing &#8220;twenty-fourth
+part,&#8221; and adopted ONE number rule &#8212; digits for specific quantities (counts,
+ages, years of service, sums, percentages), words only for rounded/rhetorical
+ones. ch03 and ch04 rewritten in full; ch02 preface lightly de-flowered (its
+scholarly register kept); ch01 already clean. Note anchors re-pointed to the
+new prose (7 anchors updated); all checks re-run green. This natural register
+is the standard for the rest of the book.
+
 ## Tooling patches this project (do NOT revert)
 
 - `ocr_crop.py`: added `folio_present()` (was referenced by indents.py but never

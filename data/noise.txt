@@ -61,3 +61,6 @@
 万里浪
 立三
 王震百
+# 星五 = 星期五 (Friday), the 'Friday Dinner Club' (星五聚餐会); a weekday, not the count 5.
+星五
+
