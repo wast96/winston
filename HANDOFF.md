@@ -1,72 +1,137 @@
-# HANDOFF — The Stealthy Ones (忍びの者〈五右衛門釜煎り〉)
+# HANDOFF
 
 ## Message to paste into the next chat
 
 ```
-The Stealthy Ones B01
+The Stealthy Ones B02
 
 Read CLAUDE.md, then HANDOFF.md, then book.json.
 
-Do Batch 1 = Chapter 1 「新しい波」 / "New Waves" (PDF pages 7–70, printed
-folios 5–68), end to end per the CLAUDE.md pipeline. This is a Japanese book:
-vertical, right-to-left, heavy furigana. Use OCR lang=jpn_vert, psm 5, crop
-left 0.06 / right 0.96 / top 0.09 / bottom 0.935 (validated in Batch 0; drops
-the top-corner folio, keeps all body text). Run ocr_dual.py for the second
-read; crop-verify every proper name, number, and low-confidence span by eye —
-furigana sit beside the kanji and can bleed into the main column.
+Do Batch 2 = Chapter 2 「暖かい流れ」 / "A Warm Current" (PDF pages 71–136,
+printed folios 69–134), end to end per the CLAUDE.md pipeline. Chapter 1 is
+DONE and, once the voice gate is approved, out/ch01_reading.md is the FROZEN
+register reference. Goemon's story proper begins in this chapter.
 
-Cite the book's PRINTED FOLIO in every note, never the PDF page. Never invent
-bridging text: if OCR cuts off, crop the scan and read the real continuation.
-Build the per-character VOICE SHEETS in HANDOFF as characters first appear.
-Do not pause for approval mid-batch.
+BEFORE translating, read the final two pages of the previous unit's English
+(the close of out/ch01_reading.md: Lourenço, the arms-dealer's confession, and
+the bridge back to Goemon). HANDOFF describes the voice; those pages ARE the
+voice. Keep the register measured against ch01:
+check_register.py --ref out/ch01_reading.md out/ch02_reading.md
 
-Batch 1 is the FIRST-CHAPTER VOICE GATE (CLAUDE.md Step 0c): when it is done,
-STOP and present the built chapter for the commissioner to judge voice, note
-density, and formatting. Do NOT start Batch 2. On approval, out/ch01_reading.md
-becomes the FROZEN register reference for the rest of the book.
+This is a Japanese book: vertical, right-to-left, heavy furigana. OCR with
+lang=jpn_vert, psm 5, crop left 0.06 / right 0.96 / top 0.09 / bottom 0.935
+(validated). Run render.py then ocr_crop.py; verify pgrep -c tesseract is 0.
+DO NOT rely on ocr_dual.py (hard-wired to chi_sim, wrong for JP) or indents.py
+(horizontal-axis, calls a missing folio_present, does not apply to vertical
+text). The OCR is too furigana-corrupted to translate from: TRANSLATE BY
+READING THE PAGE IMAGES directly (data/png/p00NN.png), OCR as a structural aid
+only, and crop-verify every proper name, number, date, and low-confidence span
+by eye (PIL crop + Read). Record source inconsistencies; render them as printed,
+never harmonize.
 
-End your reply with the built EPUB attached in chat AND this Batch-2 kickoff
-pasted verbatim in a fenced code block (update it for ch02 first).
+Apparatus: notes via scripts/apparatus_merge.py (folio-cited, XHTML numeric
+character references only). Glossary is SECTIONED (people/organizations/places/
+terms) and edited with the Write tool, NOT apparatus_merge (its glossary merge
+is flat and breaks the sectioned builder). Flag principals with "principal":
+true. Build with build_reading_epub.py, then qa_epub.py and epubcheck
+(java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/the-stealthy-ones.epub).
+
+Cite printed folios in every note; never invent bridging text; do not pause for
+approval. Deliver the built EPUB in chat AND paste the next kickoff verbatim in
+a fenced code block.
 ```
 
-## Status — what is DONE
-- Batch 0 (survey): book.json metadata + full 8-chapter structure; offset +2
-  verified everywhere; OCR geometry measured; skeleton EPUB built; qa_epub
-  PASS; epubcheck clean. Awaiting approval of the batch plan.
-
-## Batch plan (APPROVED by the commissioner)
-- One chapter per batch: B01=ch01 … B08=ch08. Chapter 5 stays a single
-  102 pp. batch (no splitting).
-- B09 (final): translate the afterword 解説 (Musashino Jiro) as
-  clearly-attributed back matter; then back matter, whole-book reconciliation
-  (check 12), COMPLETION.md, commit the final EPUB.
-- Cover: generated typographic (cover_image empty). Decided.
-- Afterword rendering: it is prose, not errata/colophon, so it does not fit
-  back_matter.json cleanly; in B09 add a back-matter mechanism for it (or
-  extend the builder) and attribute it to Musashino Jiro, 文芸評論家 (1987).
+## What is DONE (one line per batch, do not redo)
+- Batch 0 (survey): 8-chapter structure, metadata, skeleton EPUB, batching
+  approved (8 chapter-batches; translate the afterword; typographic cover).
+- Batch 1 (Chapter 1, "New Waves", PDF 7-70 / folios 5-68): COMPLETE. Full
+  translation (out/ch01_reading.md, 328 body paras), 67 folio-cited notes,
+  glossary with 13 principals, cumulative EPUB. qa_epub PASS, epubcheck 0/0,
+  check_apparatus clean, register baseline recorded. This chapter is the VOICE
+  GATE and, on approval, the frozen register reference. See PROGRESS.md.
 
 ## Tooling in place — do NOT revert
-- setup.sh pack list is Japanese (`tesseract-ocr-jpn`, `-jpn-vert`), not
-  Chinese. Keep it.
-- book.json: source_language "ja", source_script "ja"; source-title/author
-  live in the *_zh fields (tagged ja by the builder). pdf_end/printed_end =
-  530/528 so ch8 length excludes the afterword.
+- `data/structure.json` written from book.json (assemble.py and the builder
+  read it). Offset printed = pdf - 2.
+- Glossary is edited directly (Write tool) as a SECTIONED file; apparatus_merge
+  is used for NOTES only. This split is deliberate: apparatus_merge writes a
+  FLAT glossary that the builder's render_glossary/render_principals cannot use.
+- Fidelity method for this book: translate from page images, not from OCR. The
+  ocr_dual / indents scripts are Chinese-template holdovers and are not used
+  (see PROGRESS.md for why). If a later batch wants automated parity, adapt
+  those scripts for vertical Japanese first; do not trust their current output.
 
-## Carry-forward
-- Chapter English titles are PROVISIONAL (see book.json / PROGRESS); confirm
-  at the voice gate.
-- Principal cast to watch as they appear (flag `principal:true` in glossary,
-  build voice sheets): Ishikawa Goemon (石川五右衛門, hero); his wife Maki
-  (マキ); Toyotomi Hideyoshi (秀吉); Oda Nobunaga (信長, dies early); Hattori
-  Hanzō (服部半蔵). Verify all readings against the scan before fixing them.
-- Historical frame: opens 天正十年 (1582), the year of Nobunaga's fall;
-  proceeds through Hideyoshi's rise, the Saiga/Negoro campaigns, to Goemon's
-  execution 文禄三年 (1594). Murayama reads it through a political-left lens
-  (peasant/ninja world; note the "socialist"/"revolutionary" asides) — footnote
-  the author-as-interested-witness moments.
+## Renderings settled this batch (in glossary.json; reuse unchanged)
+People: Ishikawa Goemon, Hideyoshi, Nobunaga, Tamo, Organtino, Hattori Hanzo,
+Etegi, Karasumaru, Hatsuko, Tarao Shinbei, Taki Ukon, Torii Moriichiro,
+Lourenço (all flagged principal); plus Nobutada, Nobutaka, Akechi Mitsuhide,
+Akechi Mitsuharu, Ieyasu, Katsuyori, Shingen, Kaisen, Anayama Baisetsu, Kiso
+Yoshimasa, Murai Sadakatsu, Sasaki Jotei, Xavier, Luis Frois, Gaspar Coelho,
+Gaspar Vilela, Takayama Ukon, Tarao Doka, Fujibayashi Nagato-no-kami, Momochi
+Sandayu, Hanzaemon, Gamo Katahide, Shimizu Muneharu, Kashiwagi Shirobei, Koichi,
+Kadoya Kyuemon, Nobuyasu, Lady Tsukiyama, Toku, Sakai Tadatsugu, Okubo Tadayo,
+Valignano, Kasumi, Kashii.
+Terms: Deus, garça, orasho, padre/bateren, irmão, the nenbutsu, ninja/shinobi,
+ninjutsu, the Five Escapes, the Tarao Crossing. Organizations: the Ikko sect,
+the Hokke sect, the Christian faith (Yaso-kyo). Places: Nanban-ji, Azuchi,
+Honno-ji, Mount Hiei, Erin-ji, Mount Tenmoku, Arima, Usuki, Funai, Iga,
+Echizen, Sakamoto, Takatsuki, Saiga.
 
-## Environment state
-- PaddleOCR unavailable; use ocr_dual.py. epubcheck at /tmp/epubcheck-5.1.0.
-- Working branch: `claude/the-stealthy-ones` (single branch for the whole
-  book; stray per-task branches get consolidated onto it — see CLAUDE.md
-  rule 2).
+## Carry-forward VOICE SHEETS (consult at every scene)
+- NARRATOR (the load-bearing voice): Murayama's own, a man of the political
+  left writing in 1962. Wry, materialist, sweeping in exposition and intimate in
+  scene. He breaks the fourth wall constantly: addresses "readers," inserts
+  himself and his real family, predicts a socialist Japan, traces the Tokugawa
+  spy service to the modern thought-police. Frank and earthy about sex and
+  violence. Keep the wit, keep the interventions, keep it flowing and vernacular
+  (the commissioner's explicit ask: natural, smooth, native-speaker English).
+- Goemon (coming in ch2, only named here): the hero; hard-bitten, striking, an
+  Iga exception to the "plain, poor-featured" type. Thief, shinobi, folk avenger.
+- Tamo: a burned, half-crippled beggar-woman, once an Iga kunoichi (the cat-art),
+  survivor of Ichijodani (1573) and Momochi/Iga (1581). Mute with grief; speaks
+  rarely and simply; mourns Kashii, who died shielding her. Even kindness wounds
+  her.
+- Lourenço (Irmão): blind former biwa-player, gentle and humble, western dialect.
+  Render as an old, kindly, faintly archaic voice ("Aye," "I, now, Tamo," "there
+  is no sorrow like it").
+- Organtino: the Italian padre; gentle, patient, warm; halting Japanese.
+- Hattori Hanzo: sharp, tireless, calculating; loyal to Ieyasu yet self-serving
+  (filches Hatsuko from his lord); a big, hard-bitten man. Deferential in speech
+  to his lord.
+- Tarao Doka: canny old Koga ninja chief; folksy, colloquial, western dialect
+  (uses "ja"), fond of go/gambling metaphors; shrewd under a deferential surface.
+- Honda Tadakatsu: blunt, decisive, fatalistic-practical loyal retainer.
+- Ieyasu: genial, curious, decisive; a "silent lecher" who warms to people
+  ("Splendid, splendid! Make me a present of those two.").
+- Hatsuko: bold merchant's daughter turned kunoichi; energetic, fearless,
+  defiant ("I am a woman ninja!"); playful with Etegi.
+- Etegi: enormous (41 kan), good-natured, earnest, humble; devoted to Karasumaru.
+- Karasumaru: fat 13-year-old orphan; shy, taciturn, gentle, a child's heart.
+- The three Koga antagonists (Goemon's coming enemies): Shinbei (youngest, quick,
+  handsome, the leader), Taki Ukon (reserved, methodical, slow but always right),
+  Torii Moriichiro (eldest, sallow, thick-fleshed, flighty, cruel; mock-gallant
+  menace, one forefinger missing).
+
+## Where the story stands
+Chapter 1 ends on a metafictional hinge: the narrator leaves Torii tailing the
+Sakai gunpowder-merchant, turns time back a year, and promises to follow how
+Goemon has lived through "the new waves of history" since the previous novel
+closed. Threads left live: Tamo at the Takatsuki seminary (kitchen-hand, drawn
+to the faith only by loneliness, mourning Kashii); the three Koga ninja youths
+there on a secret mission to get muskets and powder from the Christians; Hatsuko
+hidden by Hanzo, training as a kunoichi with Etegi and Karasumaru; Hideyoshi
+risen after Yamazaki; Ieyasu bound to the ninja after the Tarao crossing.
+
+## Batch 2 scope
+Chapter 2, "A Warm Current" (第二章 暖かい流れ), PDF 71-136, printed folios
+69-134. Longer than ch01 (about 66 PDF pages). Goemon's story proper begins.
+Read the folio off the scan at each opener (offset printed = pdf - 2) and
+re-measure if unpaginated plates appear.
+
+## Open traps / environment
+- Vertical-JP OCR is furigana-corrupted; translate from images, crop-verify.
+- Glossary sectioned (Write tool); apparatus_merge for notes only.
+- OMP_THREAD_LIMIT=1 for tesseract; check pgrep -c tesseract = 0 after OCR.
+- epubcheck at /tmp/epubcheck-5.1.0/epubcheck.jar (java present).
+- One checker regression test ("hook stands down on template stub") fails; it is
+  a template corner case and does not affect real batch replies.
