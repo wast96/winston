@@ -23,6 +23,7 @@
     "ガスパル・クエリョ": {"en": "Gaspar Coelho", "pinyin": "Gasuparu Kueryo", "status": "attested", "note": "Portuguese Jesuit, vice-provincial of the Japan mission."},
     "ガスパル・ビレラ": {"en": "Gaspar Vilela", "pinyin": "Gasuparu Birera", "status": "attested", "note": "Portuguese Jesuit, among the first to work in Kyoto (cited here for a report on the peasants)."},
     "高山右近": {"en": "Takayama Ukon", "pinyin": "Takayama Ukon", "status": "attested", "note": "The most famous of the Christian daimyo; chose exile over apostasy, dying in Manila in 1615."},
+    "ロレンソ": {"en": "Lourenço", "pinyin": "Rorenso Ryosai", "status": "attested", "note": "Lourenco Ryosai (c.1526-1592), the blind biwa-player of Hizen converted by Xavier at Yamaguchi, and one of the first and most gifted Japanese Jesuit brothers; the beggar-woman Tamo's one confidant.", "principal": true, "cast": "The blind Japanese Jesuit brother and former biwa-player; Tamo's one friend.", "cast_order": 13},
     "服部半蔵": {"en": "Hattori Hanzō", "pinyin": "Hattori Hanzo", "status": "attested", "note": "Hattori Masanari (1542&#8211;1596), 'Hanzo the Devil', the famed ninja captain in Tokugawa Ieyasu's service.", "principal": true, "cast": "Ieyasu's ninja captain, of the Iga Hattori line.", "cast_order": 6},
     "カシイ": {"en": "Kashii", "pinyin": "Kashii", "status": "decided", "note": "A young Iga shinobi, Tamo's companion, who died shielding her when Iga was destroyed."},
     "カスミ": {"en": "Kasumi", "pinyin": "Kasumi", "status": "decided", "note": "An Iga ninja master, uncle to both Kashii and Etegi, who taught them the arts; died at the Momochi fort in 1581."},
@@ -66,7 +67,9 @@
     "府内": {"en": "Funai", "pinyin": "Funai", "status": "attested", "note": "The capital of Bungo (modern Oita); site of a Jesuit college."},
     "伊賀": {"en": "Iga", "pinyin": "Iga", "status": "attested", "note": "The mountainous province (modern western Mie) famed as a heartland of the shinobi; its self-governing communities were destroyed by Nobunaga in 1581."},
     "越前": {"en": "Echizen", "pinyin": "Echizen", "status": "attested", "note": "Province on the Sea of Japan (modern Fukui); the Asakura domain, destroyed by Nobunaga in 1573."},
-    "坂本": {"en": "Sakamoto", "pinyin": "Sakamoto", "status": "attested", "note": "Akechi Mitsuhide's castle town on Lake Biwa."}
+    "坂本": {"en": "Sakamoto", "pinyin": "Sakamoto", "status": "attested", "note": "Akechi Mitsuhide's castle town on Lake Biwa."},
+    "高槻": {"en": "Takatsuki", "pinyin": "Takatsuki", "status": "attested", "note": "Takayama Ukon's castle town between Kyoto and Osaka, where the seminary was rebuilt after Azuchi."},
+    "雑賀": {"en": "Saiga", "pinyin": "Saiga", "status": "attested", "note": "Saiga (Saika) in Kishu, home of a famed league of gunsmiths and mercenary gunners, a hub of the arms trade."}
   },
   "terms": {
     "でうす": {"en": "Deus", "pinyin": "Deusu", "status": "attested", "note": "The Kirishitan word for God, from Latin/Portuguese Deus."},

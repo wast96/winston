@@ -606,3 +606,61 @@ Of them all, I have seen the Mochizuki house that stands to this day at Ryūhōs
 
 But whether one thinks of the Nijō house in Kyoto or of this Mochizuki house — was there really any need to lavish such strange ingenuity on a private dwelling?
 
+Once the enemy has broken right into your house, surely the fight is already lost. And so a suspicion takes shape: that these devices were not for ninjutsu at all, but had to do with the Kirishitan. Take this Mochizuki house: its whole floor area is fifty-two tsubo, yet the hidden third storey of the main building is a great room of better than thirty. There is a window there, contrived not to be seen from outside — a bare shaku and five sun high, some five shaku wide — but fitted with heavy iron bars and stretched over with wire mesh. Part of the floor is a trap-door, and the mouth of the hidden ladder, kept hoisted up out of the way, is strictly concealed on the first floor and the second alike.
+
+I cannot help thinking that the holding of secret meetings here was the whole purpose of the building — and, at need, a safe way out in a moment of danger; the more I turn it over, the stronger the suspicion grows. The house as it stands is, of course, not of the Sengoku age, but likely of the mid-Tokugawa period or after. And since it is plain that the ninja drew close to the Kirishitan precisely to lay hands on gunpowder and the other secret Nanban arts and instruments, it may well be a case of the mummy-hunter turned mummy himself.
+
+To win the rulers' favor and be granted the freedom to preach, the Christian missionaries sent home for all manner of rare treasures and presented them — and among these were muskets and cannon, powder and shot. The Kōga ninja were wild to get their hands on such things before anyone else.
+
+The three who had entered the Takatsuki seminary on just such a secret errand could not, whether they liked it or not, do without the help of one ugly woman. Tamo had become a kitchen-hand there, and had come along from Kyoto. The towering Padre Organtino, who had shown her such kindness at the Nanban-ji, did not come to this place; and the only man that she — shut fast as a clam-shell — would open her mouth to at all was a single one.
+
+That man had a ruined left eye, and a right so dim he was all but blind; a little fellow under five shaku, forever in a filthy, baggy black cotton cassock, and — whether from a bad gait or a bad road — mud-spattered to the very seat of it. When he went abroad he drew a kite-brown hood over a head shaved bare at the crown. He knew Japan through and through, every cove and corner of it, and whenever he had an idle hour would tell Tamo of it. Ugly little man though he was, everyone called him "Saint Lourenço," or "Irmão Lourenço," and held him in reverence; Tamo too called him "your holiness."
+
+"Tamo — have you ever seen a thing called a biwa?"
+
+"A biwa?"
+
+"Never seen one? Good — I'll show you." Rummaging in the storeroom cupboard, he drew out an old instrument like a great wooden rice-paddle, laid it slantwise across his knee, and plucked it with a plectrum shaped like a ginkgo leaf. Beeen, beeen — a sound that seemed to drag the soul down into the depths of the earth came flowing out into the dim, stagnant air. Then all at once, working the plectrum fiercely up and down in small quick strokes — jararan, jararan — he set the notes tangling and leaping and dancing.
+
+His figure as he played was a strange one indeed.
+
+"I, now, Tamo — I used to stand at people's doorways and play this biwa, and beg my bread. Born in Hizen, I was, so I begged my way from one end of Kyushu to the other. Blind in the left eye from my birth, and the right one as though a mist lay always over it. My father and my mother — the two of them went off somewhere, and were gone. From a child I was a beggar. I followed a biwa hōshi about as his boy, and learned the biwa; and when that hōshi died, he left me this biwa for a keepsake, and gave me the name Ryōsai."
+
+"When that hōshi died, you say? Aye — I grieved. To be alone in all this wide world — just one soul, all by itself — there is no sorrow like it. You are alone too, Tamo, are you not?"
+
+"Since the ninth month of last year, yes. Truly, to be all alone is a sorrowful thing."
+
+"In my twenty-fifth year, I ceased to be alone."
+
+"You took a wife?"
+
+"No, no. By then I had crossed the sea and gone to Yamaguchi in Suō, and there I met his holiness Xavier. And ever since, I have been two — I, and almighty Deus. Two months on I received bautismo, baptism, and was given the Christian name Lourenço. You too, Tamo — learn well, and be alone no more."
+
+Tamo cast down her eyes, sorrowful, and went away. She was lonely.
+
+Tamo was all alone.
+
+And yet, within her, the memory of Kashii grew and grew, until it had settled into the very center of her breast and left no crack for "almighty Deus" to enter. So in the flesh she was alone, but in her mind she was not.
+
+When she went to the kitchen, one of the Kōga three, Torii Moriichirō, was drawing water from the jar with a ladle and drinking. Catching sight of Tamo, he threw her a sidelong look out of those sunken, yellow-whited eyes, and clicked his tongue. Tamo was afraid of him.
+
+The pupils of this seminary were all young, yet full of a grave restraint; lively, and yet graceful. Only this Torii was otherwise.
+
+"Tamo must have been a great beauty once. Nay — a beauty even now, seen from the right side. The right side is a thing of paraíso, of paradise; the left, a thing of inferno, of hell. When the whole of her was paraíso, how the men must have swarmed to court her. I should have liked to meet the Tamo of those days myself." He said it quietly, with a straight, serious face. But Tamo felt in it a freezing mockery. And, as she always did, she bent low, made her little bob of a bow, and slipped past. Torii saw her retreating figure off with cold eyes, clicked his tongue once more, and betook himself to the chapel, where he sat down at the very back of the confession-gathering — a congregation of some fifty — then in progress.
+
+The padre, helped along by Lourenço at his side, was preaching in his uncertain Japanese.
+
+"Even as a physician, to heal a sick man, cures the root of his sickness and teaches him the way of health, that it may never come upon him again — even so, when the anima, the soul, of any sinner is stained with the filth of his faults, there is no cleansing that filth of evil but by confession. Deus has given to his Son, Lord Jesus Christ, the office of sifting all the good and evil of mankind, and of dealing out reward and punishment both; and Christ bestowed this power upon his disciples. Therefore, whosoever shall make confession, and repent his sins from the depths, and firmly resolve to commit no fault whatsoever from this day on — for him Deus forgives, wholly, every fault that he has done, and grants him graça, his grace, besides. I am the very deputy of Deus; so that if, for any sin, out of shame or out of fear, you keep it hidden, you do but deceive Lord Jesus Christ, and heap fault upon fault, and all your confessions thereafter are made void. Let him who can confess before all the people confess; and he who cannot, let him confess to the padre alone."
+
+On the instant, a middle-aged man flung up both hands, half-rose to his feet, and cried out: "I will make my confession! I am a man of Sakai, a maker of gunpowder for muskets; and I have dealt with the Dutch pirates — rowed out to meet their ships off Saiga in Kishū, sold them the sulfur that makes the powder, and bought of them muskets, and shot, and firearms. Knowing well that, being pirates, they would use these to sink ships and kill men and plunder — yet for four years together I kept up such dealings. And more: the muskets and shot and firearms I got in exchange, I sold at high prices to the daimyō of every quarter. Only a little while since, I sold ten muskets to Lord Tokugawa Ieyasu himself, when he had come to Sakai."
+
+And crying it out, he broke into great, manly sobs.
+
+The padre, his face gone red with feeling, stretched both hands high toward heaven and offered up a loud prayer; and the old hands of the congregation joined their voices to his: "This is my fault. This is my grievous fault. Wherefore, calling upon the Virgin Santa Maria and all the saints, I humbly beg them to plead my cause before Deus. And from this day on, holding fast to the intent of this confession, I will strive only to do good, and firmly purpose never to fall into sin again. Amen." — so that it seemed this was the prayer that must always be said after a confession.
+
+All were deeply moved; yet no one else, after him, made to rise before the crowd. And so, leaving seven who would confess to the padre in private, the gathering broke up.
+
+Torii set off at once after the Sakai gunpowder-seller.
+
+Now, however, we must leave that pursuit where it stands, and here turn time back, and come round once more to the place where the novel The Stealthy Ones came to its close. For the moment has arrived to set down how our hero, Ishikawa Goemon, has lived through the new waves of history in the barely a year since then.
+
