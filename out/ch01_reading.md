@@ -560,5 +560,29 @@ One day Etegi brought himself to speak out. "Lady Hatsuko — strive how you wil
 
 "I am a woman ninja!" So Hatsuko declared.
 
-The reader must be told this: down to the years before the recent war, a woman was held to be "a modest thing, in bondage to man." My own mother was so retiring a woman that even over the telephone her voice came out too small for the person at the other end to catch. Widowed at thirty-five, she raised the two of us, my younger brother and me; and my late father's stepmother, a foolish woman, kept up a ceaseless bullying of her daughter-in-law. However vicious the persecution she met —
+The reader must be told this: down to the years before the recent war, a woman was held to be "a modest thing, in bondage to man." My own mother was so retiring a woman that even over the telephone her voice came out too small for the person at the other end to catch. Widowed at thirty-five, she raised the two of us, my younger brother and me; and my late father's stepmother, a foolish woman, kept up a ceaseless bullying of her daughter-in-law. However vicious the persecution she met, she never, with that mild face of hers, resisted it, but served the old woman faithfully to the last. When I was in my fifth year of primary school, I, at the end of my patience, once meant to kill that grandmother, and chased her about the house brandishing a kitchen knife.
+
+But the women of Japan down to the Sengoku age were not like that. The peasant women above all, having the same labor to give as the men, carried themselves just as the men did. It was the upper warrior class that first made a chattel of woman; and under Tokugawa feudalism this evil custom worked its way down to townsman and peasant, and the Meiji age took it over whole. So there is nothing to marvel at in Hatsuko — daughter of the Kadoya, a marine-goods wholesaler of the Ise-bay shore — having a spirit that would yield to no man.
+
+***
+
+Now, while Hatsuko is hard at her ninja training, let us turn our eyes back to the capital.
+
+The Azuchi seminary having burned, the whole company had removed to the Nanban-ji in Kyoto; but that stood in the crowded heart of the city, on cramped ground, so they moved again — to Takatsuki, just about halfway between Kyoto and Ōsaka — and opened a seminary there. The lord of that castle, Takayama Ukon — Justo, by his Christian name, the famous Christian daimyō — had upward of thirty thousand vassals; the chapel grounds were ample and the buildings splendid. Those already there and those come over from Azuchi made thirty-two pupils boarding together; and one of them, needless to say, was Shinbei, second son of the Kōga middle-ninja Tarao Dōka.
+
+Besides him, two more had joined: Ukon, third son of Taki Shirōbei of Aburahi in Kōga, nineteen; and Moriichirō, heir of Torii Kihachirō of Ōhara, nineteen.
+
+In the annual report Fróis sent that year to the General of the Society of Jesus, this is set down: "Among the pupils of the seminary, some twelve or thirteen, of seventeen or eighteen years, are of very rare talent. Being of superior wit, these boys have made great progress, and several have shown, within a few months, the power to begin preaching; and we are no little pleased that this foundation has been laid. Moreover, in the teaching of the Catholic faith from its very roots, what a boy learns in three years these will readily master in three or four months. Most of them write our script well" — and so it runs on.
+
+The sons of the Kōga ninja houses named above are important players who will, before long, act out a struggle to the death with our Ishikawa Goemon; so I must ask you, readers, to fix them in your memory.
+
+Tarao Shinbei — as the exploit of saving the sacred vessels on Oki-no-shima in Lake Biwa shows — was a quick, handsome youth; the youngest of the three, yet rather the one who led. Taki Ukon, set against Shinbei's flashing quickness, was reserved, by no means quick-witted; but he was the sort to store up all manner of data and build a conclusion by piling one fact upon another, so that his conclusions often ran wide of other men's slapdash, hunch-bred ones — and yet, in the end, it was his that hit the mark. And the third, Torii Moriichirō, though the eldest, was rather flighty, and quick to take fire. His complexion was a sallow yellow, his eyes dull and clouded, his nose cocked at the ceiling, his flesh thick all over; and for all that, his nature was the most sinister of the three, with a bent toward cruelty.
+
+The whites of his sunken eyes showed a queasy yellow; his was the longest face of the three, and his cheekbones sharp. The forefinger of his right hand was gone from the root — snapped off, they said, when he was small, in a trap set for foxes.
+
+For all that the three had three faces of their own, there was yet a common stamp somewhere among them, very unlike that of the lower ninja of Iga. The Iga men — barring such exceptions as Ishikawa Goemon — had small, triangular skulls, faces the color of tanned paper, and altogether a plain and paltry set of features; whereas these Kōga men ran, in the main, to large features deeply cut, and big, well-fleshed bodies.
+
+And where does this difference come from?
+
+Along the borders of Kōga, Iga, and Ise the Suzuka range humps up, running from east to west — Nasugahara, Aburahi-dake, Iwao-yama, Sasagatake — but its height, even at the loftiest, Mount Gozaisho, is no more than twelve hundred meters above the sea, and south of the Suzuka pass, about Tarao at the far southern end, it stands around six hundred. From these mountains bunched in the southeast the land tilts sharply off to the northwest, sloping gently down through the Ōmi plain to Lake Biwa. So, set beside Iga — all mountains, and not one great river — the soil here was rich, and Ōmi rice had early won the highest name in the land. And thus, in the Sengoku age, when the manorial system had begun to crumble, a great many local magnates and land-samurai sprang up; and as the power of the Ashikaga shogunate waned, theirs grew, until even a campaign led by the shogun in person could accomplish nothing —
 
