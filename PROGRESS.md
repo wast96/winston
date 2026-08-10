@@ -249,9 +249,20 @@ was re-rendered to it. Distilled in HANDOFF "Voice / house style".
   check_apparatus 0/0; check_structure PASS; qa_epub PASS; epubcheck 0/0/0/0.
 - **check_register: contractions 38.9/1k, rhythm CV 0.78** (frozen reference).
 
-**OPEN QUESTION for the commissioner (money/units).** One model line rendered
-十文钱一斤 as "ten bucks apiece". Kept as "ten cash a catty" for now, because
-full domestication would clash with the monk's "four taels of silver" a few
-paragraphs on, with li/zhang/cun elsewhere, and with the two units footnotes.
-Flagged in chat: keep period units (current) vs. domesticate money book-wide.
-Answer decides the treatment for all 12 chapters and the units notes.
+**Money/units — DECIDED.** The commissioner chose to KEEP the period units
+(cash / catty / tael / li / cun / zhang) with their footnotes, book-wide. No
+domestication.
+
+### Voice-gate revision (round 4) — comma / rhythm pass
+
+The commissioner approved the voice ("this is better") and gave targeted line
+edits, all about COMMA DENSITY and rhythm (not anti-comma; against awkward
+pile-ups). Applied the flagged fixes and swept the rest of the prologue for the
+same: split over-long comma runs into two sentences, cut a stray comma before a
+coordinated verb, and used a single sparing em-dash only where it beats a comma
+cluster (per the commissioner: em dashes sparingly, only to keep an absurd
+comma count down). Lists and deliberate parenthetical asides left alone.
+Re-checks all green (verify_unit 154/0/14, align no strays, content all placed,
+qc_entities 0, apparatus 0/0, structure PASS, qa_epub PASS, epubcheck 0/0/0/0,
+register 38.9/1k CV 0.76). The HANDOFF house-style guide was rewritten
+project-agnostic and given the comma/rhythm rule.

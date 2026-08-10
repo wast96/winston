@@ -23,12 +23,12 @@ Read CLAUDE.md in full (the working rules at the top are non-negotiable), then H
 
 Run ./setup.sh first and record any failure in PROGRESS.md. NOTE: the checker regression harness reports 9/10 green with ONE expected failure ("hook stands down on template stub") — that case only passes while HANDOFF.md holds the template placeholder; now that HANDOFF carries a real kickoff the Stop hook correctly enforces, so that one test necessarily reads FAIL for the rest of the book. Not a defect; do not "fix" it. data/src and data/src_epub are gitignored and regenerable: if they are missing, run scripts/ingest_epub.py source.epub (do NOT overwrite book.json). This book has NO source-edition footnotes; re-grep this unit's source for \[\d+\] and record "none present" in PROGRESS.md.
 
-ch01 (the Prologue) is the APPROVED FROZEN REFERENCE for register. Before translating, read the last two pages of out/ch01_reading.md so B02 continues in the same voice, and consult the voice sheets in HANDOFF. Consult glossary.json and authority.json BEFORE romanizing anything (glossary.json now holds the B01 shelf renderings; keep one rendering per referent).
+ch01 (the Prologue) is the APPROVED FROZEN REFERENCE for register and PARAGRAPHING. Before translating, READ out/ch01_reading.md end to end and study HANDOFF's "Voice / house style", "Paragraphing", and voice sheets — the pages ARE the voice. Money/units are SETTLED: keep the period units (cash/catty/tael/li/cun/zhang) with footnotes, no domestication. Watch comma density (split clumsy comma runs; use em dashes only sparingly). Consult glossary.json and authority.json BEFORE romanizing anything (glossary.json holds the B01 shelf renderings; keep one rendering per referent).
 
 Do Batch B02 = Chapter 1 (ch02, 第一章 有四条眉毛的人 / "The Man with Four Eyebrows"; ~10,407 source chars; text_file data/src/07_part0000-split-005.txt), end to end per the CLAUDE.md pipeline:
-1. Read ch02 from its text_file. Fix extractor-split paragraphs (a line whose last char is not in 。！？"）…— continues the next). Chapters 1-12 divide themselves with BARE NUMERIC markers (01, 02, ...) that are scene breaks, NOT titled sections: recover them as *** via apply_format_markers.py (note ch02's source is <div class="calibre1"> prose like ch01; if apply_format_markers cannot align/mark, insert the *** scene breaks by hand at the numeric-divider boundaries and record how in PROGRESS). ch02 has NO book.json sections, so its reading.md is one H1 + prose + *** breaks.
-2. Translate to the frozen ch01 register: fast, spare, wry Gu Long; contracted, differentiated dialogue; contractions in narration too, varied constructions, no stilted ESL-feel, no invented colour. FOLLOW THE PARAGRAPHING RULE (see the "Paragraphing" section below): MERGE adjacent narration into paragraphs by beat — do NOT render one source line per paragraph — keeping dialogue turns and punch-lines on their own. Lu Xiaofeng himself arrives here — write his voice sheet into HANDOFF at first speech. Never invent bridging text; render digitization glitches to plain sense and LIST each in PROGRESS.md; the source's own errors of fact stay visible and get a footnote. Verify the chapter's TAIL against the source before shipping.
-3. Author out/ch02_en.json as MERGED English paragraphs, then build via the merged-source method (Paragraphing step 2): group the source lines, concatenate each group VERBATIM into out/ch02_src_merged.txt, run make_bilingual.py ch02 <merged_src> "..." out/ch02_en.json 2, do the bare-numeric -> *** step, split_bilingual.py. Then verify_unit.py ch02 (parity + numbers with --noise data/noise.txt + anchors); check_align.py ch02; check_content.py --config <cfg>; qc_entities.py out/ch02_bilingual.md glossary.json. Add ch02 to a check config with docs/sources (copy the scratchpad qc_config from B01, or make one: {"docs":{"ch01":...,"ch02":...},"sources":{...},"notes":"notes.json","heading_depth":2}).
+1. Read ch02 from its text_file. Fix extractor-split paragraphs (a line whose last char is not in 。！？"）…— continues the next). Chapters 1-12 divide themselves with BARE NUMERIC markers (01, 02, ...) that are scene breaks, NOT titled sections: recover them as *** (a *** line, not a paragraph) at the numeric-divider boundaries and record how in PROGRESS. ch02 has NO book.json sections, so its reading.md is one H1 + prose + *** breaks.
+2. Translate to the frozen ch01 house style (HANDOFF "Voice / house style"): fluent, literary, image-forward, economical; recast freely for natural English; punch-lines on their own line; contractions measured; dialogue characterised; watch comma density; no invented substance. FOLLOW THE PARAGRAPHING RULE: MERGE adjacent narration into paragraphs by beat — do NOT render one source line per paragraph — keeping dialogue turns and punch-lines on their own. Lu Xiaofeng himself arrives here — write his voice sheet into HANDOFF at first speech. Never invent bridging text; render digitization glitches to plain sense and LIST each in PROGRESS.md; the source's own errors of fact stay visible and get a footnote. Verify the chapter's TAIL against the source before shipping.
+3. Author out/ch02_en.json as MERGED English paragraphs, then build via the merged-source method (Paragraphing step 2): group the source lines, concatenate each group VERBATIM into out/ch02_src_merged.txt, run make_bilingual.py ch02 <merged_src> "Chapter 1. The Man with Four Eyebrows" out/ch02_en.json 2, insert the bare-numeric -> *** scene breaks, split_bilingual.py. Then verify_unit.py ch02 (parity + numbers with --noise data/noise.txt + anchors); check_align.py ch02; check_content.py --config <cfg>; qc_entities.py out/ch02_bilingual.md glossary.json. Add ch02 to a check config with docs/sources (copy the scratchpad qc_config from B01, or make one: {"docs":{"ch01":...,"ch02":...},"sources":{...},"notes":"notes.json","heading_depth":2}).
 4. Footnotes per the reader model (Western reader, no Chinese background); first-appearance greps + a NOT-re-noted list; note density tapers from B01's 14 as the furniture is covered — expect fewer. Use apparatus_merge.py for NOTES (its glossary path adds rows FLAT and must NOT be used — add glossary rows under the two-level sections directly and validate with check_apparatus.py; see the do-not-revert note). check_apparatus.py clean.
 5. Rebuild, qa_epub.py green, epubcheck (/tmp/epubcheck-5.1.0/epubcheck.jar) clean, check_register.py --ref out/ch01_reading.md out/ch02_reading.md within tolerance. Record every check in PROGRESS.md; update HANDOFF.md; commit and push to claude/lu-xiaofeng-1.
 6. End the batch per CLAUDE.md: attach the rebuilt out/lu-xiaofeng-1.epub in the chat AND paste the B03 kickoff verbatim in the same reply.
@@ -47,8 +47,9 @@ Cite chapters and sections, never pages. Do not pause for approval mid-batch (B0
   numbers, align, content, entities, apparatus, structure, qa_epub, epubcheck
   0/0/0/0). ch01 is the intended FROZEN REGISTER REFERENCE (contractions
   **38.9/1k**, rhythm CV 0.78), pending the commissioner's re-read at the gate.
-  Full detail in PROGRESS.md. **Open question still to settle: money/units —
-  keep period units (cash/catty/tael/li) or domesticate book-wide.**
+  Full detail in PROGRESS.md. **Money/units DECIDED: keep the period units
+  (cash / catty / tael / li / cun / zhang) with footnotes, book-wide — no
+  domestication.**
 
 ## Tooling in place (do NOT revert)
 
@@ -98,46 +99,60 @@ punch-lines on their own. Method that preserves the pipeline's guarantees:
 
 ## Voice / house style (the register ch01 froze — match it exactly)
 
-The commissioner set this at the voice gate with model paragraphs. The bar:
-it should read like a **novel a good translator published**, not a gloss.
+Set by the commissioner at the voice gate. The bar: it should read like a
+**novel a good translator chose to publish in English**, not a crib of the
+source. Project-agnostic; applies to every chapter.
 
 - **Fluency over literalism.** Translate the meaning and the image, not the
-  word order. Recast and reorder freely so each sentence lands as natural
-  English. Dynamic equivalence, not calque.
-- **Economy.** Cut pleonasm and flat connective tissue. If the source doubles
-  an idea, say it once, well. Trim a limp simile rather than render it limply
-  (the poisoning dropped "frothing like a horse"; line 3 dropped the
-  moon-dismissal). NEVER cut plot, a name, a number, or a real image — keep the
-  substance, lose the padding. When in doubt, keep it.
-- **Image-forward diction.** Reach for the concrete, evocative phrase: "a
-  crooked shape," "a happy stupor," "a shape too wicked for words," "gone into
-  the wind." Not purple; exact.
-- **Rhythm.** Vary sentence length and opening. Let a long, flowing sentence be
-  followed by a short one. A deliberate fragment or one-line paragraph is a
-  tool — use it for a beat that should land ("*Blood*."; "Five words, one
-  life."; "He had come to kill, not to talk."). Punch-lines get their own
-  paragraph.
-- **Contractions, measured.** Use them for a natural voice in BOTH narration
-  and dialogue, but don't stuff them — three "they'd"s in one sentence is worse
-  than none. Two grave, uncontracted lines can be right for weight ("Because I
-  am a blind man.").
+  word order. Recast, reorder, resubordinate freely so each sentence lands as
+  natural English. If a rendering smells of source grammar, tear the structure
+  down and rebuild it. Dynamic equivalence, not calque.
+- **Economy — the big one.** Cut pleonasm and limp connective tissue. Source
+  prose often repeats or pads; English shouldn't. If an idea is doubled, say it
+  once, well. Trim a weak simile rather than render it weakly. But NEVER cut
+  plot, a name, a number, or a real image — lose the padding, keep the
+  substance. When genuinely unsure, keep it.
+- **Comma density / rhythm (watch this).** The reader is not anti-comma, but
+  hates awkward pile-ups. Don't let one sentence carry a long train of commas
+  that reads clumsily. Fixes, in order of preference: split into two sentences;
+  drop a needless comma (e.g. before a coordinated verb: "he stumbled and
+  pitched down", not "he stumbled, and pitched down"); recast to remove a
+  parenthetical. Use an em dash ONLY when it genuinely beats a comma cluster,
+  and sparingly — most sentences want none. Serial-list commas and one
+  deliberate parenthetical aside are fine; it's the 4-, 5-, 6-comma runs that
+  read like a speech, not prose. Read the sentence aloud; if you'd run out of
+  breath, break it.
+- **Image-forward diction.** Reach for the concrete, evocative phrase over the
+  flat one. Exact, not purple. One vivid word beats three vague ones.
+- **Rhythm.** Vary sentence length and opening. Follow a long, flowing sentence
+  with a short flat one. A deliberate fragment or one-line paragraph is a tool
+  — spend it on a beat that should land. Punch-lines get their own line; never
+  bury them mid-paragraph.
+- **Contractions, measured.** Use them for a living voice in BOTH narration and
+  dialogue, but don't stuff them — three of the same contraction in one
+  sentence reads worse than none. A couple of grave, uncontracted lines can be
+  right for weight.
+- **Paragraph by beat, not by sentence.** Group narration into paragraphs that
+  hold one moment together; break at a shift of subject, place, or beat.
+  Dialogue turns each get their own line.
 - **Dialogue is characterised.** Each voice distinct (see the voice sheets). A
   small idiomatic touch that fits the speaker is welcome even if not literally
-  in the source (Granny Xiong's "dear"). Keep it to flavour, never plot.
+  in the source. Flavour only, never plot.
 - **Names vs pronouns.** Name a character on a new beat or as an object; use a
-  pronoun within a run. Do NOT re-state the name every line (the checks are
-  satisfied by one mention per paragraph, which merged paragraphs give you).
+  pronoun within a run. Do NOT re-state the name every line. (The name checks
+  want the character's rendering once per paragraph it appears in, which merged
+  paragraphs give you naturally — keep the FULL rendering there, since
+  check_content matches the full glossary form.)
 - **No invented substance.** Colour comes from diction and rhythm, never from
-  facts, thoughts, or events the source doesn't have. Foreboding is tone, not
+  facts, thoughts, or events the source doesn't have. Atmosphere is tone, not
   added narration.
-- **Italics** via `*word*` in the en.json (builder renders `<i>`). Ellipsis
-  `...` and an em-dash cutoff `pois—` for broken/trailing speech.
-- **Cultural nouns/units kept and footnoted** (jianghu, guqin, li, cun, zhang,
-  cash, catty, tael) — UNLESS the money/units open question is settled the
-  other way; check HANDOFF's DONE line before rendering money.
+- **Mechanics.** Italics via `*word*` in the en.json (builder renders `<i>`).
+  Ellipsis `...` for a trailing voice, an em-dash cutoff (`pois—`) for speech
+  cut off. Keep cultural nouns and the period units, footnoted (see the DONE
+  line for the settled money/units call).
 
-Read out/ch01_reading.md end to end before B02 — the pages ARE the voice; this
-list only names what they do.
+Read the frozen reference chapter (out/ch01_reading.md) end to end before
+translating — the pages ARE the voice; this list only names what they do.
 
 ## Voice sheets (consult at every dialogue scene)
 
