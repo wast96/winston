@@ -1,30 +1,34 @@
 ## Chapter 1. New Waves
 
-One day near the end of the third month of Tenshō 10 — the year 1582 — was drawing toward its close.
+The final week of the third month of Tenshō 10, 1582. Evening.
 
-That spring, people said, the cherry trees had bloomed everywhere in Kyoto and beyond with a wild, almost frantic abandon. Under the power of Nobunaga — who sat in his great castle at Azuchi with the whole realm under his eye — the townsfolk had been enjoying a rare run of settled, untroubled days, and out they poured to Ōhara, to Daigo, to Arashiyama, to see the blossoms. One sigh of admiration piled onto the next until the word went round that this year the flowers had opened more beautifully than ever.
+That spring, people said, the cherry blossoms had bloomed everywhere in Kyoto and beyond with a wild, almost frantic abandon. Nobunaga held the whole realm under his eye from his great castle at Azuchi, and in that long calm the townsfolk had come into a rare stretch of untroubled days. So they poured out to see the blossoms: to Ōhara, to Daigo, to Arashiyama. One sigh of admiration piled onto the next until word went round that this year the flowers had opened more beautifully than ever.
 
-Today those same blossoms had already scattered and fallen. From a beggars' hut beneath the Gojō Bridge, a single beggar came crawling out. Hair like dried river-weed, thick with dust, hung down in matted strands, and the face that showed dimly through it was, on its left side, hideously burned and raw. The right side was crusted with grime, but it was the face of a young woman. The good right eye and the puckered, drawn left eye did not match, and both were dull and clouded. Yet look closely and you understood: they had been so wholly given over to a grief and despair too deep to sound that they could take in nothing more of the world.
+But now, those same blossoms lay fallen and browning along the roads; and beneath the Gojō Bridge, out of a beggars' hut, a single beggar came crawling into the last of the light.
 
-From under the rags she wore — these too hanging down like river-weed — came two legs like a pair of charred bones stood on end. The left one seemed to be hurt; she dragged it behind her, leaning on a stick, hauling herself along at a slow crawl.
+Her hair hung in matted ropes, dried and grey as river-weed, thick with the dust of the bank. Through it a face showed dimly. The left side had been burned away to something raw and terrible; the right was merely crusted with grime, the face of a young woman showing underneath.
 
-The beggar woman followed the bank of the Kamo River as far as the foot of the Shijō Bridge, then turned off west from Kawaramachi and went along Tako-Yakushi Street.
+Her eyes did not match. The good right one and the puckered, half-shut left one had each gone dull and clouded. Anyone who held her gaze for long enough could see why. They had been given over so wholly to a grief too deep to sound that nothing else could find room in them. Whatever the world held up before that gaze, it reached her and found nothing to catch upon.
 
-Just then, threading clean through the dull, heavy evening air, came the strange notes of a bell. Strange, though only in a manner of speaking: for five years now it had been a familiar sound to the people of this quarter of Kyoto. What made it "strange" was that it was utterly unlike the countless temple bells of the city. It was not low and solemn like a temple bell but light and high and quick — a sound that seemed to rejoice, to play, to laugh.
+From under her rags, which hung down in the same weedy strands, came two legs like a pair of charred bones stood on end. The left one was hurt. She dragged it behind her, leaning on a stick, hauling herself along at a crawl.
 
-Two young women coming east along the street, on the point of passing the beggar woman, heard it and stopped dead in their tracks.
+She followed the bank of the Kamo River to the foot of the Shijō Bridge, turned west off Kawaramachi, and went on down Tako-Yakushi Street.
 
-"The bell for the Angelus," one of them said.
+Just then a strange bell came threading through the thick evening air. Strange, but only in a manner of speaking: for five years now it had been a familiar sound in this quarter of Kyoto. What made it strange was that it was nothing like the temple bells of the city. Not low and solemn, but light and high and quick, a sound that seemed to rejoice, to play, to laugh.
 
-With that they pressed their palms together and turned their faces to the sky, and in one voice they began to recite their orasho, their prayer:
+Two young women were coming the other way. On the point of passing the beggar, they heard it and stopped dead.
 
-"O saving Victim, who openest the gate of Heaven — because the armies of the enemy press hard upon us, lend us thy power and come to our aid, amen. To the one Lord in whom the Three Persons dwell, be praise without end; and grant us, we beseech thee, life everlasting in Paradise, amen."
+"The bell for the Angelus," said one.
 
-Then the two of them walked on past the beggar woman, who had come to a halt as well. She too had stopped and put her hands together — but her lips stayed shut.
+They pressed their palms together, lifted their faces to the sky, and began, in one voice, to recite their orasho:
 
-To the people passing back and forth, a figure at prayer like this was evidently nothing out of the ordinary; they spared her no more than a glance.
+"O saving Victim, who openest the gate of Heaven: the armies of the enemy press hard upon us; lend us thy power, come to our aid, amen. To the one Lord in whom the Three Persons dwell, praise without end; and grant us, we beseech thee, life everlasting in Paradise, amen."
 
-The beggar woman's slow feet reached their destination at last.
+Then they walked on past. The beggar had halted too, and put her hands together as they did. But her lips never moved.
+
+To the people going back and forth, a figure at prayer was nothing to remark on. They gave her no more than a glance.
+
+Her slow feet came to their journey's end.
 
 Before her stood a gate like a Chinese-style karamon, its black tiled roof sweeping up at the eaves. Beside it ran a row of low shops, their plank roofs weighted down with stones, selling brightly colored Nanban hats and contas — rosaries — and crosses. At the foot of one of the gateposts stood a jar with a mouth about a foot across, and beside it a signboard, lettered in a beautiful hand: "A vessel for the rice given in alms to the poor, for the garça — the grace — of Deus."
 
