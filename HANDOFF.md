@@ -5,17 +5,25 @@
 ```
 The Stealthy Ones B02
 
-Read CLAUDE.md, then HANDOFF.md, then book.json.
+Read CLAUDE.md, then STYLE.md, then HANDOFF.md, then book.json.
 
 Do Batch 2 = Chapter 2 「暖かい流れ」 / "A Warm Current" (PDF pages 71–136,
 printed folios 69–134), end to end per the CLAUDE.md pipeline. Chapter 1 is
-DONE and, once the voice gate is approved, out/ch01_reading.md is the FROZEN
-register reference. Goemon's story proper begins in this chapter.
+DONE and out/ch01_reading.md is the FROZEN register reference. Goemon's story
+proper begins in this chapter.
+
+STYLE.md is the approved prose contract and is non-negotiable: write clean,
+muscular, contemporary English that hides the translation machinery. No dashed-in
+appositive glosses; break long sentences into short varied ones; break dense
+paragraphs at each shift of focus; trim doubled synonyms; active verbs;
+understatement in narration but keep the author's heat where the source has it.
+The ch01 baseline to match: em-dash ~0.3/1k (dashes only for interrupted or
+trailing dialogue), sentence median ~17 words.
 
 BEFORE translating, read the final two pages of the previous unit's English
 (the close of out/ch01_reading.md: Lourenço, the arms-dealer's confession, and
-the bridge back to Goemon). HANDOFF describes the voice; those pages ARE the
-voice. Keep the register measured against ch01:
+the bridge back to Goemon). STYLE.md and HANDOFF describe the voice; those pages
+ARE the voice. Keep the register measured against ch01:
 check_register.py --ref out/ch01_reading.md out/ch02_reading.md
 
 This is a Japanese book: vertical, right-to-left, heavy furigana. OCR with
