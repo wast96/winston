@@ -1,15 +1,147 @@
 {
   "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
   "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
-  "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
+  "people": {
+    "陆小凤": {
+      "en": "Lu Xiaofeng",
+      "pinyin": "Lu Xiaofeng",
       "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+      "principal": true,
+      "cast_order": 1,
+      "cast": "The hero of the series: an idle, quick-witted swordsman known for the four &#8216;eyebrows&#8217; of his moustache and for the Spirit-Skewering Finger, which can pluck a blade out of the air between two fingertips.",
+      "note": "The protagonist. His given name, Xiaofeng, means &#8216;little phoenix&#8217; and sounds like a woman&#8217;s name; the joke and the &#8216;four eyebrows&#8217; riddle are noted at his first mention (Prologue)."
+    },
+    "西门吹雪": {
+      "en": "Ximen Chuixue",
+      "pinyin": "Ximen Chuixue",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 2,
+      "cast": "A peerless swordsman, austere and deadly, who purifies himself before a killing as for a sacred rite and is robed always in white.",
+      "note": "Ximen is a two-syllable Chinese surname; the given name Chuixue means &#8216;blowing snow.&#8217; See the note at his first appearance (Prologue)."
+    },
+    "花满楼": {
+      "en": "Hua Manlou",
+      "pinyin": "Hua Manlou",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 3,
+      "cast": "A gentle swordsman of a great family, blind since the age of seven, who lives alone among his flowers and delights in being alive; Lu Xiaofeng&#8217;s closest friend.",
+      "note": "The name means &#8216;flowers fill the tower.&#8217; See the note at his first appearance (Prologue)."
+    },
+    "张放": {
+      "en": "Zhang Fang",
+      "pinyin": "Zhang Fang",
+      "status": "decided",
+      "note": "The escort captain poisoned by Granny Xiong in the opening vignette (Prologue)."
+    },
+    "熊姥姥": {
+      "en": "Granny Xiong",
+      "pinyin": "Xiong Laolao",
+      "status": "decided",
+      "note": "&#8216;Granny&#8217; renders <i>laolao</i> (姥姥), a homely word for an old woman or grandmother; her surname is Xiong. The poisoner of the first vignette (Prologue)."
+    },
+    "洪涛": {
+      "en": "Hong Tao",
+      "pinyin": "Hong Tao",
+      "status": "decided",
+      "note": "The swordsman called the Lightning Blade, killed by Ximen Chuixue (Prologue)."
+    },
+    "赵刚": {
+      "en": "Zhao Gang",
+      "pinyin": "Zhao Gang",
+      "status": "decided",
+      "note": "&#8216;One Blade Quells the Nine Provinces,&#8217; a hero murdered by Hong Tao; Ximen Chuixue avenges him although the two never met (Prologue)."
+    },
+    "崔一洞": {
+      "en": "Cui Yidong",
+      "pinyin": "Cui Yidong",
+      "status": "decided",
+      "note": "A blade-bully disarmed by Hua Manlou; his given name means &#8216;One Hole&#8217; (Prologue)."
+    },
+    "上官飞燕": {
+      "en": "Shangguan Feiyan",
+      "pinyin": "Shangguan Feiyan",
+      "status": "decided",
+      "note": "A thief-girl of Jiangnan; Shangguan is a two-syllable surname and Feiyan means &#8216;flying swallow&#8217; (Prologue)."
+    },
+    "小红": {
+      "en": "Xiaohong",
+      "pinyin": "Xiaohong",
+      "status": "decided",
+      "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+    },
+    "小翠": {
+      "en": "Xiaocui",
+      "pinyin": "Xiaocui",
+      "status": "decided",
+      "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+    },
+    "小玉": {
+      "en": "Xiaoyu",
+      "pinyin": "Xiaoyu",
+      "status": "decided",
+      "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+    },
+    "小云": {
+      "en": "Xiaoyun",
+      "pinyin": "Xiaoyun",
+      "status": "decided",
+      "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+    }
+  },
+  "organizations": {
+    "水蛇帮": {
+      "en": "Water Snake Gang",
+      "pinyin": "Shuishe Bang",
+      "status": "decided",
+      "note": "A band of river-pirates wiped out overnight by the Honest Monk (Prologue)."
+    }
+  },
+  "places": {
+    "江南": {
+      "en": "Jiangnan",
+      "pinyin": "Jiangnan",
+      "status": "decided",
+      "note": "Literally &#8216;south of the river&#8217;: the prosperous, cultured region south of the lower Yangtze."
+    },
+    "九州": {
+      "en": "the Nine Provinces",
+      "pinyin": "Jiuzhou",
+      "status": "decided",
+      "note": "The Nine Provinces of legend, a classical name for the whole of China. See the note at the epithet &#8216;One Blade Quells the Nine Provinces&#8217; (Prologue)."
+    }
+  },
+  "terms": {
+    "江湖": {
+      "en": "jianghu",
+      "pinyin": "jianghu",
+      "status": "decided",
+      "note": "Literally &#8216;rivers and lakes&#8217;: the wandering world of martial artists, sects and outlaws that is the stage of all wuxia fiction. See the note at first appearance (Prologue)."
+    },
+    "糖炒栗子": {
+      "en": "sugar-roasted chestnuts",
+      "pinyin": "tang chao lizi",
+      "status": "decided",
+      "note": "A common cold-weather street food. See the note at first appearance (Prologue)."
+    },
+    "轻功": {
+      "en": "lightness-skill",
+      "pinyin": "qinggong",
+      "status": "decided",
+      "note": "The martial art of lightness: moving as though almost weightless, to leap great distances or skim across water. See the note at first appearance (Prologue)."
+    },
+    "古琴": {
+      "en": "guqin",
+      "pinyin": "guqin",
+      "status": "decided",
+      "note": "The seven-stringed zither of the Chinese scholar, an emblem of cultivation. See the note at first appearance (Prologue)."
+    },
+    "活菩萨": {
+      "en": "living Bodhisattva",
+      "pinyin": "huo pusa",
+      "status": "decided",
+      "note": "An idiom of praise for a person of boundless mercy; here bitterly ironic. See the note at first appearance (Prologue)."
     }
   }
 }

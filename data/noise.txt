@@ -35,3 +35,9 @@
 # 九龍
 # weekdays carry no quantity — rendered "Monday" etc.
 # 星期[一二三四五六]
+#
+# --- B01 (Prologue) ---
+# 第二天 is the idiom "the next day/morning", not the ordinal "second day";
+# rendered "The next morning" (ch01). Do NOT noise 第一/第二 elsewhere: the
+# broken plank's 第一块/第二块 (ch01) ARE rendered "first/second piece".
+第二天

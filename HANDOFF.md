@@ -8,85 +8,142 @@ at the end of every batch; always keep the paste-ready kickoff message below as
 its first section. When the book completes, replace the kickoff with the
 completion notice and do not touch it afterward (the Stop hook keys off it).
 
+> **B01 ended at the first-chapter VOICE GATE (Step 0c). B02 does NOT begin
+> until the commissioner has read the Prologue and approved the voice, note
+> density, and formatting.** The block below is the B02 kickoff-in-waiting:
+> paste it to start B02 ONLY after that approval. On approval, ch01 becomes the
+> permanent frozen reference for `check_register.py --ref`.
+
 ## Message to paste into the next chat
 
 ```
-Lu Xiaofeng 1 B01
+Lu Xiaofeng 1 B02
 
 Read CLAUDE.md in full (the working rules at the top are non-negotiable), then HANDOFF.md, then book.json. We are translating 金鹏王朝 (The Golden Roc Dynasty), Volume 1 of Gu Long's Legend of Lu Xiaofeng, from a digital source EPUB (source.epub) into an annotated English EPUB, following CLAUDE.md exactly. Work ONLY on branch claude/lu-xiaofeng-1; expect the harness to start you on a stray per-task branch and consolidate per rule 2 (check out claude/lu-xiaofeng-1, reset to origin, and if a stray branch carries commits, fast-forward or cherry-pick them on, push, and delete the stray). Deliverable out/lu-xiaofeng-1.epub.
 
-Run ./setup.sh first and record any failure in PROGRESS.md. data/src and data/src_epub are gitignored and regenerable: if they are missing, run scripts/ingest_epub.py source.epub to recreate them (the survey already authored book.json, so do NOT overwrite book.json). This book has NO source-edition footnotes; re-grep this unit's source for \[\d+\] and record "none present" in PROGRESS.md.
+Run ./setup.sh first and record any failure in PROGRESS.md. NOTE: the checker regression harness reports 9/10 green with ONE expected failure ("hook stands down on template stub") — that case only passes while HANDOFF.md holds the template placeholder; now that HANDOFF carries a real kickoff the Stop hook correctly enforces, so that one test necessarily reads FAIL for the rest of the book. Not a defect; do not "fix" it. data/src and data/src_epub are gitignored and regenerable: if they are missing, run scripts/ingest_epub.py source.epub (do NOT overwrite book.json). This book has NO source-edition footnotes; re-grep this unit's source for \[\d+\] and record "none present" in PROGRESS.md.
 
-Do Batch B01 = the Prologue (ch01, 楔子; ~6,069 source chars; four named vignettes that are book.json sections: Granny Xiong's Sugar-Roasted Chestnuts / The Honest Monk / Ximen Chuixue / Hua Manlou), end to end per the CLAUDE.md pipeline:
-1. Read ch01 from data/src/06_part0000-split-004.txt. Fix extractor-split paragraphs (a line whose last char is not in 。！？"）…— continues the next). Recover set-off formatting with apply_format_markers.py where the source HTML encodes it: the four vignette titles render as ### section headings (they match book.json sections ch01s01..ch01s04 in order); any bare numeric divider renders as a *** scene break.
-2. This is the REGISTER-SETTING chapter and it defines the frozen reference for the whole book, so get the voice right. Translate to the CLAUDE.md register contract: fast, spare, wry Gu Long, short paragraphs, abrupt line breaks; readable modern English, not fake-antique. Consult glossary.json and authority.json BEFORE romanizing anything (both are empty of wuxia terms, so you are DECIDING the shelf renderings here: Hanyu Pinyin without tone marks, e.g. Lu Xiaofeng, Ximen Chuixue, Hua Manlou). Write a two-line voice sheet into HANDOFF for every character who speaks (Ximen Chuixue and Hua Manlou both appear in the prologue). Never invent bridging text; render digitization glitches to plain sense and LIST each in PROGRESS.md; the source's own errors of fact stay visible and get a footnote. Verify the chapter's TAIL against the source explicitly before shipping.
-3. Write out/ch01_en.json (a flat JSON array, one English paragraph per source line) and run make_bilingual.py ch01 ...; then verify_unit.py ch01 (parity + numbers with --noise data/noise.txt + anchors); check_align.py and check_content.py; qc_entities.py.
-4. Footnotes per the reader model in CLAUDE.md (a Western reader with no Chinese background): the jianghu itself, 糖炒栗子 street food, Shaolin and the 老实和尚, and the standing reputations of Ximen Chuixue and Hua Manlou are the kind of thing that earns one; expect roughly 8-15. Use apparatus_merge.py (never a shell heredoc), first-appearance greps, and a NOT-re-noted list; check_apparatus.py clean. Flag the principal cast (Lu Xiaofeng, Ximen Chuixue, Hua Manlou) with "principal": true and a one-line cast blurb in glossary.json. No figures (the book has none).
-5. Rebuild the EPUB, run qa_epub.py until green and epubcheck (/tmp/epubcheck-5.1.0/epubcheck.jar) clean; record every check result in PROGRESS.md; update HANDOFF.md (voice sheets, settled renderings, story state); commit and push to claude/lu-xiaofeng-1.
-6. STOP at the first-chapter voice gate (Step 0c). Do NOT begin Batch 2. Your final chat reply must (a) attach the built out/lu-xiaofeng-1.epub and (b) say this is the voice gate and ask the commissioner to read the Prologue and judge voice, footnote density, and formatting. Paste the reply's fenced block as the frozen-reference note / the B02 kickoff-in-waiting so the Stop hook is satisfied, but make clear B02 does not start until the voice is approved.
+ch01 (the Prologue) is the APPROVED FROZEN REFERENCE for register. Before translating, read the last two pages of out/ch01_reading.md so B02 continues in the same voice, and consult the voice sheets in HANDOFF. Consult glossary.json and authority.json BEFORE romanizing anything (glossary.json now holds the B01 shelf renderings; keep one rendering per referent).
 
-Cite chapters and sections, never pages. Do not pause for approval mid-batch; the only stop is the voice gate at the end.
+Do Batch B02 = Chapter 1 (ch02, 第一章 有四条眉毛的人 / "The Man with Four Eyebrows"; ~10,407 source chars; text_file data/src/07_part0000-split-005.txt), end to end per the CLAUDE.md pipeline:
+1. Read ch02 from its text_file. Fix extractor-split paragraphs (a line whose last char is not in 。！？"）…— continues the next). Chapters 1-12 divide themselves with BARE NUMERIC markers (01, 02, ...) that are scene breaks, NOT titled sections: recover them as *** via apply_format_markers.py (note ch02's source is <div class="calibre1"> prose like ch01; if apply_format_markers cannot align/mark, insert the *** scene breaks by hand at the numeric-divider boundaries and record how in PROGRESS). ch02 has NO book.json sections, so its reading.md is one H1 + prose + *** breaks.
+2. Translate to the frozen ch01 register: fast, spare, wry Gu Long; short paragraphs; contracted, differentiated dialogue. Lu Xiaofeng himself arrives here — write his voice sheet into HANDOFF at first speech. Never invent bridging text; render digitization glitches to plain sense and LIST each in PROGRESS.md; the source's own errors of fact stay visible and get a footnote. Verify the chapter's TAIL against the source before shipping.
+3. Write out/ch02_en.json (flat JSON array, one English paragraph per source body line; make_bilingual skip=2). Run make_bilingual.py ch02 ...; then verify_unit.py ch02 (parity + numbers with --noise data/noise.txt + anchors); check_align.py ch02; check_content.py --config <cfg>; qc_entities.py out/ch02_bilingual.md glossary.json. Add ch02 to a check config with docs/sources (see the scratchpad qc_config from B01, or make one: {"docs":{"ch01":...,"ch02":...},"sources":{...},"notes":"notes.json","heading_depth":2}).
+4. Footnotes per the reader model (Western reader, no Chinese background); first-appearance greps + a NOT-re-noted list; note density tapers from B01's 14 as the furniture is covered — expect fewer. Use apparatus_merge.py for NOTES (its glossary path adds rows FLAT and must NOT be used — add glossary rows under the two-level sections directly and validate with check_apparatus.py; see the do-not-revert note). check_apparatus.py clean.
+5. Rebuild, qa_epub.py green, epubcheck (/tmp/epubcheck-5.1.0/epubcheck.jar) clean, check_register.py --ref out/ch01_reading.md out/ch02_reading.md within tolerance. Record every check in PROGRESS.md; update HANDOFF.md; commit and push to claude/lu-xiaofeng-1.
+6. End the batch per CLAUDE.md: attach the rebuilt out/lu-xiaofeng-1.epub in the chat AND paste the B03 kickoff verbatim in the same reply.
+
+Cite chapters and sections, never pages. Do not pause for approval mid-batch (B02 is a normal batch, no gate).
 ```
 
 ## What is DONE (do not redo)
 
-- Step 0 survey: ingested the source, authored book.json (13 units: prologue +
-  12 chapters; prologue's 4 vignettes are sections; chapters 1-12 use ***
-  scene breaks), built the skeleton EPUB, ran the survey. Committed and pushed
-  to claude/lu-xiaofeng-1 (99521e0). No chapters translated yet.
+- **Step 0 survey** (prior session): ingested the source, authored book.json
+  (13 units), built the skeleton EPUB. Committed to claude/lu-xiaofeng-1.
+- **B01 = the Prologue (ch01)** — COMPLETE, at the voice gate. 213 prose
+  paragraphs across 4 vignette sections; 14 footnotes; 21 glossary rows;
+  0 figures. Every check green (parity, numbers, align, content, entities,
+  apparatus, structure, qa_epub, epubcheck 0/0/0/0). ch01 is the intended
+  FROZEN REGISTER REFERENCE (contractions 25.4/1k, rhythm CV 0.70), pending
+  the commissioner's voice-gate approval. Full detail in PROGRESS.md.
 
-## Tooling in place (do not revert)
+## Tooling in place (do NOT revert)
 
-- Nothing patched yet. Scripts are the template defaults. epubcheck lives at
-  /tmp/epubcheck-5.1.0/epubcheck.jar (setup.sh fetched it).
+- `data/noise.txt`: `第二天` added (idiom "the next day/morning"; NOT the
+  ordinal). Keep it. Do not noise 第一/第二 generally — ch01's plank pieces
+  are legitimately "first/second piece".
+- **glossary.json is TWO-LEVEL** (`section -> {zh: row}`), which is what the
+  builder (`render_glossary`) and `qc_entities` require. `apparatus_merge.py`
+  adds glossary rows FLAT at the top level, which BOTH of those consumers
+  choke on. **So: use apparatus_merge.py for NOTES only; add glossary rows
+  under the sections directly (Write tool, never a shell heredoc — that is the
+  rule's real target) and validate with `check_apparatus.py`.** Do not "fix"
+  by flattening the glossary.
+- `scripts/check_content.py`: `name_map` skips `_`-prefixed / non-dict
+  top-level glossary keys (it crashed on the string-valued `_about`). Matches
+  the guard already in `qc_entities` and `render_glossary`. Keep it; the
+  regression harness stays 9/10 (the 1 failure is the expected template-stub
+  hook case, see below).
+- **Regression harness**: `./setup.sh` reports "CHECKER REGRESSION TESTS
+  FAILED", but it is 9/10 with ONE EXPECTED failure — `hook stands down on
+  template stub`. That test asserts the Stop hook stays quiet against the
+  current HANDOFF.md, which is only true while HANDOFF holds the template
+  placeholder ("(First line: ..."). Now that HANDOFF carries a real kickoff,
+  the hook correctly ENFORCES, so that one test necessarily fails for the rest
+  of the book. Do not attempt to "fix" it; it is the guard working.
+
+## Voice sheets (consult at every dialogue scene)
+
+- **Ximen Chuixue** — near-silent, absolute, monosyllabic. Speaks only to
+  state intent, never to explain or observe courtesy ("Kill you." / "Zhao
+  Gang."; four words in the whole vignette). Treats killing as a sacred office
+  and speech as waste. Cold, exact, white-robed.
+- **Hua Manlou** — gentle, warm, unhurried; courteous even to a man trying to
+  kill him. Short serene declaratives; dry understatement for a weapon ("I
+  have no need of any more holes, big holes or small"). Open-hearted and
+  entirely unself-pitying about his blindness; talks of snow-sound and
+  flower-scent with real joy.
+- **Granny Xiong** — grandmotherly, sing-song vendor patter over casual
+  cruelty; flat candour when the mask drops ("Only that I felt like killing
+  someone"); teasing ("Silly boy").
+- **Shangguan Feiyan** — quick, bright, forthright, teasing; frank about being
+  a thief ("I only ever steal from robbers"); girlish silver-bell laugh;
+  curious, quick to warm.
+- **Cui Yidong** — swaggering bully; third-person "老子" bluster and threats
+  built on his One-Hole name; deflates instantly the moment real power appears.
+- **Lu Xiaofeng** — NOT yet heard (only described: four eyebrows, two pairs of
+  eyes/ears, three hands). Write his voice sheet in B02 at his first speech.
 
 ## Renderings settled this batch / carry-forward
 
-- None yet. glossary.json and authority.json hold no wuxia terms, so B01
-  decides the first shelf renderings. Pinyin without tone marks. Names seen so
-  far and awaiting a decided rendering: 陆小凤 (Lu Xiaofeng), 西门吹雪 (Ximen
-  Chuixue), 花满楼 (Hua Manlou), 熊姥姥 (Granny Xiong / the villainess of the
-  prologue), 上官丹凤 / 丹凤公主 (Princess Danfeng, appears from ch03), 金鹏王朝
-  (The Golden Roc Dynasty), 峨嵋 (Emei). Provisional English chapter titles are
-  in book.json and may change as the text is read.
+- Pinyin, no tone marks. People: Lu Xiaofeng, Ximen Chuixue, Hua Manlou, Zhang
+  Fang, **Granny Xiong** (熊姥姥; pinyin Xiong Laolao), Hong Tao, Zhao Gang,
+  Cui Yidong, Shangguan Feiyan, and courtesans Xiaohong/Xiaocui/Xiaoyu/Xiaoyun.
+- Orgs: **Water Snake Gang** (水蛇帮). Places: **Jiangnan** (江南), **the Nine
+  Provinces** (九州). Terms: **jianghu** (江湖, kept romanized), **lightness-
+  skill** (轻功/qinggong), **guqin** (古琴), **sugar-roasted chestnuts**,
+  **living Bodhisattva** (活菩萨).
+- Epithets (in footnotes, not glossary — one-offs): the Lightning Blade
+  (闪电刀), "One Blade Quells the Nine Provinces" (一刀镇九州), Jade
+  Linked-Rings (玉连环), the Flower-Blade Terror (花刀太岁; Taisui = "Terror").
+- Character-count idiom 五个字/四个字/两个字 rendered with "words" (matches the
+  English word counts in the Ximen exchange); note 10 tells the reader Chinese
+  counts by character so "five words" for the 5-char 一刀镇九州 and 我是个瞎子
+  ("I am a blind man", 5 words) reads true. 瞎子 -> "a blind man" (keeps the
+  five-word tally). Carry this policy forward.
+- authority.json holds no wuxia terms yet; feed the decided renderings back on
+  completion (final batch).
 
-## Voice sheets (one per major character, written at first appearance)
+## Where the book stands (story state)
 
-- (none yet; B01 writes the first ones for Ximen Chuixue and Hua Manlou)
-
-## Where the book stands
-
-- Nothing translated. The prologue opens the book with four vignettes that
-  introduce the world and two of the principal swordsmen (Ximen Chuixue, Hua
-  Manlou) before Lu Xiaofeng's own plot begins in Chapter 1.
+- The Prologue is four self-contained vignettes, each introducing a figure of
+  the jianghu: Granny Xiong the moon-mad poisoner (a threat, not yet tied to
+  the plot); the "Honest Monk", a humble-seeming master who robs and then
+  slaughters the Water Snake Gang; Ximen Chuixue, who rides a thousand li to
+  avenge a stranger; and Hua Manlou, the blind, joyful swordsman, whose closing
+  talk turns to his friend Lu Xiaofeng — the man with four eyebrows — which
+  hands the reader straight into Chapter 1. No continuing plot thread yet; the
+  prologue sets tone and dramatis personae.
 
 ## What is NEXT
 
-- Batch B01 = the Prologue (ch01), ending at the voice gate. Then B02 = Ch 1,
-  and the plan in book.json "batches" (B03 ch2-3, B04 ch4-5, B05 ch6-7, B06
-  ch8-10, B07 ch11 the ~31k climax, B08 ch12 + back matter/reconciliation/
-  completion).
+- **B02 = Chapter 1 (ch02, 有四条眉毛的人)** once the voice is approved. Then
+  the book.json plan: B03 ch2-3, B04 ch4-5, B05 ch6-7, B06 ch8-10, B07 ch11
+  (the ~31k climax), B08 ch12 + back matter / reconciliation / completion.
 
-## Open items for the read-through
+## Traps / environment
 
-- English chapter titles are provisional (set in the survey, not yet checked
-  against the translated text).
-- The rendering of 熊姥姥 (literal "Bear-Granny"; likely surname Xiong) is a
-  first-batch call worth flagging.
-
-## Environment / traps state
-
-- epubcheck available (path above). qa_epub + epubcheck both clean on the
-  skeleton.
-- Source: a 2013 Henan Wenyi digital EPUB; simplified characters; NO source
-  footnotes; NO story images (cover + 2 decorative endpapers only). The 18
-  spine chunks map 1:1 to logical units; excluded front matter is listed in
-  book.json _source_note.
-- The source puts a full-width space inside chapter headings (第一章　...);
-  cosmetic, collapses on extraction.
+- Stray-branch trap: each session starts on a stray per-task branch;
+  consolidate onto claude/lu-xiaofeng-1 (rule 2) and delete the stray.
+- ch2 onward: bare-numeric section dividers (01, 02, ...) render as `***`
+  scene breaks, NOT TOC sections. The source is `<div class="calibre1">`
+  prose; apply_format_markers may not find `kt`/Image00005/dateline markers
+  (there are none), so scene breaks may need inserting by hand at the divider
+  lines — record the method in PROGRESS.
+- make_bilingual skip=2 for every unit (line 1 = running-title stub, line 2 =
+  chapter title). Confirm per unit.
 - data/src and data/src_epub are gitignored (regenerate with ingest_epub.py);
-  data/figs images and source.epub ARE tracked, so the cover builds without
-  re-ingesting.
-- Stray-branch trap: the harness starts each session on a claude/new-session-*
-  branch. The canonical, only branch for this book is claude/lu-xiaofeng-1
-  (rule 2). Consolidate onto it every batch.
+  source.epub and data/figs (the cover) ARE tracked.
+- epubcheck at /tmp/epubcheck-5.1.0/epubcheck.jar (setup.sh fetched it).
+- English chapter titles in book.json are provisional; check against the
+  translated text as each chapter is done.

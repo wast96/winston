@@ -1,0 +1,199 @@
+{
+  "glossary": {
+    "陆小凤": {
+      "en": "Lu Xiaofeng",
+      "pinyin": "Lu Xiaofeng",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 1,
+      "cast": "The hero of the series: an idle, quick-witted swordsman known for the four &#8216;eyebrows&#8217; of his moustache and for the Spirit-Skewering Finger, which can pluck a blade out of the air between two fingertips.",
+      "note": "The protagonist. His given name, Xiaofeng, means &#8216;little phoenix&#8217; and sounds like a woman&#8217;s name; the joke and the &#8216;four eyebrows&#8217; riddle are noted at his first mention (Prologue)."
+    },
+    "西门吹雪": {
+      "en": "Ximen Chuixue",
+      "pinyin": "Ximen Chuixue",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 2,
+      "cast": "A peerless swordsman, austere and deadly, who purifies himself before a killing as for a sacred rite and is robed always in white.",
+      "note": "Ximen is a two-syllable Chinese surname; the given name Chuixue means &#8216;blowing snow.&#8217; See the note at his first appearance (Prologue)."
+    },
+    "花满楼": {
+      "en": "Hua Manlou",
+      "pinyin": "Hua Manlou",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 3,
+      "cast": "A gentle swordsman of a great family, blind since the age of seven, who lives alone among his flowers and delights in being alive; Lu Xiaofeng&#8217;s closest friend.",
+      "note": "The name means &#8216;flowers fill the tower.&#8217; See the note at his first appearance (Prologue)."
+    },
+    "张放": {
+      "en": "Zhang Fang",
+      "pinyin": "Zhang Fang",
+      "status": "decided",
+      "note": "The escort captain poisoned by Granny Xiong in the opening vignette (Prologue)."
+    },
+    "熊姥姥": {
+      "en": "Granny Xiong",
+      "pinyin": "Xiong Laolao",
+      "status": "decided",
+      "note": "&#8216;Granny&#8217; renders <i>laolao</i> (姥姥), a homely word for an old woman or grandmother; her surname is Xiong. The poisoner of the first vignette (Prologue)."
+    },
+    "洪涛": {
+      "en": "Hong Tao",
+      "pinyin": "Hong Tao",
+      "status": "decided",
+      "note": "The swordsman called the Lightning Blade, killed by Ximen Chuixue (Prologue)."
+    },
+    "赵刚": {
+      "en": "Zhao Gang",
+      "pinyin": "Zhao Gang",
+      "status": "decided",
+      "note": "&#8216;One Blade Quells the Nine Provinces,&#8217; a hero murdered by Hong Tao; Ximen Chuixue avenges him although the two never met (Prologue)."
+    },
+    "崔一洞": {
+      "en": "Cui Yidong",
+      "pinyin": "Cui Yidong",
+      "status": "decided",
+      "note": "A blade-bully disarmed by Hua Manlou; his given name means &#8216;One Hole&#8217; (Prologue)."
+    },
+    "上官飞燕": {
+      "en": "Shangguan Feiyan",
+      "pinyin": "Shangguan Feiyan",
+      "status": "decided",
+      "note": "A thief-girl of Jiangnan; Shangguan is a two-syllable surname and Feiyan means &#8216;flying swallow&#8217; (Prologue)."
+    },
+    "小红": {
+      "en": "Xiaohong",
+      "pinyin": "Xiaohong",
+      "status": "decided",
+      "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+    },
+    "小翠": {
+      "en": "Xiaocui",
+      "pinyin": "Xiaocui",
+      "status": "decided",
+      "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+    },
+    "小玉": {
+      "en": "Xiaoyu",
+      "pinyin": "Xiaoyu",
+      "status": "decided",
+      "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+    },
+    "小云": {
+      "en": "Xiaoyun",
+      "pinyin": "Xiaoyun",
+      "status": "decided",
+      "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+    },
+    "水蛇帮": {
+      "en": "Water Snake Gang",
+      "pinyin": "Shuishe Bang",
+      "status": "decided",
+      "note": "A band of river-pirates wiped out overnight by the Honest Monk (Prologue)."
+    },
+    "江南": {
+      "en": "Jiangnan",
+      "pinyin": "Jiangnan",
+      "status": "decided",
+      "note": "Literally &#8216;south of the river&#8217;: the prosperous, cultured region south of the lower Yangtze."
+    },
+    "九州": {
+      "en": "the Nine Provinces",
+      "pinyin": "Jiuzhou",
+      "status": "decided",
+      "note": "The Nine Provinces of legend, a classical name for the whole of China. See the note at the epithet &#8216;One Blade Quells the Nine Provinces&#8217; (Prologue)."
+    },
+    "江湖": {
+      "en": "jianghu",
+      "pinyin": "jianghu",
+      "status": "decided",
+      "note": "Literally &#8216;rivers and lakes&#8217;: the wandering world of martial artists, sects and outlaws that is the stage of all wuxia fiction. See the note at first appearance (Prologue)."
+    },
+    "糖炒栗子": {
+      "en": "sugar-roasted chestnuts",
+      "pinyin": "tang chao lizi",
+      "status": "decided",
+      "note": "A common cold-weather street food. See the note at first appearance (Prologue)."
+    },
+    "轻功": {
+      "en": "lightness-skill",
+      "pinyin": "qinggong",
+      "status": "decided",
+      "note": "The martial art of lightness: moving as though almost weightless, to leap great distances or skim across water. See the note at first appearance (Prologue)."
+    },
+    "古琴": {
+      "en": "guqin",
+      "pinyin": "guqin",
+      "status": "decided",
+      "note": "The seven-stringed zither of the Chinese scholar, an emblem of cultivation. See the note at first appearance (Prologue)."
+    },
+    "活菩萨": {
+      "en": "living Bodhisattva",
+      "pinyin": "huo pusa",
+      "status": "decided",
+      "note": "An idiom of praise for a person of boundless mercy; here bitterly ironic. See the note at first appearance (Prologue)."
+    }
+  },
+  "notes": {
+    "ch01": [
+      {
+        "anchor": "escorted in from far away",
+        "note": "Zhang Fang and his men are <i>biaoshi</i>, the armed guards of an escort agency (<i>biaoju</i>)&#8212;a real institution of the period, professionals who convoyed silver, goods and travellers through bandit country for a fee. Having just delivered their cargo and been paid off, they are flush with money and off their guard."
+      },
+      {
+        "anchor": "ten cash a catty",
+        "note": "Old money and weight. A <i>wen</i> or &#8216;cash&#8217; was the low-value copper coin of daily life, strung together by the hundred; a <i>liang</i> or tael (the monk&#8217;s silver, below) was a far larger silver unit. A <i>jin</i> or catty is a weight of about 600 grams. Ten cash a catty is street-vendor cheap."
+      },
+      {
+        "anchor": "Sugar-roasted chestnuts",
+        "note": "<i>Tang chao lizi</i>: chestnuts stir-roasted in a wok with sugar and coarse grit until glossy and sweet, still sold hot from a barrow on cold streets today&#8212;a homely, reassuring thing for a poisoner to be selling."
+      },
+      {
+        "anchor": "mandarin ducks",
+        "note": "Mandarin ducks (<i>yuanyang</i>), thought to pair for life, are the stock emblem of wedded love and the natural thing to embroider on a bride&#8217;s red shoes. An owl in their place is a pointed reversal: in Chinese folk belief the owl is a bird of ill omen, a harbinger of death."
+      },
+      {
+        "anchor": "three cun thick",
+        "note": "More old units of measure. A <i>cun</i> or &#8216;inch&#8217; is about 3 cm, so the plank is a good hand&#8217;s-breadth thick; a <i>zhang</i> (just below) is ten <i>chi</i>, roughly 3.3 metres, so a leap of four zhang clears some thirteen metres; a <i>li</i> (the &#8216;thousand li&#8217; of the next vignette) is about half a kilometre, and &#8216;a thousand li&#8217; is the stock phrase for a very great distance."
+      },
+      {
+        "anchor": "Lightness-skill",
+        "note": "<i>Qinggong</i>, &#8216;lightness-skill&#8217;: the martial discipline, taken for granted throughout wuxia fiction, of moving as though almost weightless&#8212;leaping rooftops, running up walls, skimming across water. The shabby, humble monk who proves to be a lethal master is itself a stock figure; the Shaolin monastery is the archetypal home of such fighting monks, though this one&#8217;s sect is never named."
+      },
+      {
+        "anchor": "living Bodhisattva",
+        "note": "A <i>huo pusa</i> or &#8216;living Bodhisattva&#8217; is a common term of praise for one of great mercy&#8212;a Bodhisattva being an enlightened being who remains in the world to save others. The passengers mean it in earnest; the reader, who has just watched the monk beg pardon for a single lie and then kill eight men in the night, is meant to feel the irony."
+      },
+      {
+        "anchor": "What Ximen Chuixue blows is not snow",
+        "note": "A play on the name. <i>Ximen</i> is a two-syllable surname; the given name <i>Chuixue</i> means &#8216;blowing snow.&#8217; A swordsman was said to test a fine blade by laying a hair on the edge and blowing it apart&#8212;but what this one blows from his blade is not snow, it is blood. Ximen Chuixue is among the great swordsmen of Gu Long&#8217;s world, and his cold devotion to the sword, purifying himself before a killing as for a holy office, is fixed in this first glimpse of him."
+      },
+      {
+        "anchor": "Everyone in the jianghu",
+        "note": "The <i>jianghu</i> (literally &#8216;rivers and lakes&#8217;) is the free-floating world in which these stories move: the society of wandering swordsmen, sects, escorts, thieves and outlaws that stands apart from settled town-and-magistrate life, with its own codes of honour, reputation and revenge. Much of what the characters do makes sense only by its rules."
+      },
+      {
+        "anchor": "the Nine Provinces",
+        "note": "The Nine Provinces (<i>jiuzhou</i>) were the divisions into which legend split the realm of the sage-kings; the name stands poetically for all of China. In the original the boast runs to exactly five characters&#8212;<i>yi dao zhen jiu zhou</i>, &#8216;one blade quells the Nine Provinces&#8217;&#8212;which is the point of the tally that follows: five characters, one life. (Chinese counts by the written character where English counts by the word.)"
+      },
+      {
+        "anchor": "Fresh flowers filled the tower",
+        "note": "Another name-play. <i>Hua Manlou</i> reads literally as &#8216;flowers fill the tower,&#8217; and the vignette opens by turning the name back into a picture: fresh flowers filling his upper room. Blind since childhood, gentle and quietly formidable, he is the third of the swordsmen introduced here and Lu Xiaofeng&#8217;s closest friend."
+      },
+      {
+        "anchor": "the Flower-Blade Terror",
+        "note": "His swagger rests on two puns. <i>Taisui</i>&#8212;here &#8216;Terror&#8217;&#8212;is the dreaded star-deity Grand Duke Jupiter, whose name became slang for a local strongman no one dares cross (&#8216;to break ground over Taisui&#8217;s head&#8217; is to court ruin). And his given name, <i>Yidong</i>, means literally &#8216;one hole&#8217;&#8212;hence his boast that one stroke of his blade will leave one more hole in you, and Hua Manlou&#8217;s dry answer that he wants no more holes of any size."
+      },
+      {
+        "anchor": "guqin",
+        "note": "The <i>guqin</i> is the seven-stringed zither of the Chinese scholar, played softly for one&#8217;s own ear and long the emblem of cultivation and inward calm. That a blind man alone in a tower should count it among his contentments is of a piece with everything else he says here."
+      },
+      {
+        "anchor": "four eyebrows",
+        "note": "The riddle that names the book&#8217;s hero and titles its first chapter. Lu Xiaofeng wears a moustache whose two upswept tips read like a second pair of eyebrows&#8212;hence &#8216;four eyebrows.&#8217; The answer is withheld here on purpose; Hua Manlou&#8217;s friend is about to walk into the story proper."
+      }
+    ]
+  }
+}
