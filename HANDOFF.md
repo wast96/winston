@@ -40,13 +40,15 @@ Cite chapters and sections, never pages. Do not pause for approval mid-batch (B0
 
 - **Step 0 survey** (prior session): ingested the source, authored book.json
   (13 units), built the skeleton EPUB. Committed to claude/lu-xiaofeng-1.
-- **B01 = the Prologue (ch01)** — COMPLETE, at the voice gate, REVISED once on
-  commissioner feedback. 4 vignette sections; **153 merged paragraphs** (see
-  Paragraphing below); 14 footnotes; 21 glossary rows; 0 figures. Every check
-  green (parity, numbers, align, content, entities, apparatus, structure,
-  qa_epub, epubcheck 0/0/0/0). ch01 is the intended FROZEN REGISTER REFERENCE
-  (contractions **35.8/1k**, rhythm CV 0.76), pending the commissioner's
-  re-read at the gate. Full detail in PROGRESS.md.
+- **B01 = the Prologue (ch01)** — COMPLETE, at the voice gate, REVISED TWICE on
+  commissioner feedback (round 2: merge paragraphs; round 3: full literary
+  re-render to the house style below). 4 vignette sections; **154 paragraphs**;
+  14 footnotes; 21 glossary rows; 0 figures. Every check green (parity,
+  numbers, align, content, entities, apparatus, structure, qa_epub, epubcheck
+  0/0/0/0). ch01 is the intended FROZEN REGISTER REFERENCE (contractions
+  **38.9/1k**, rhythm CV 0.78), pending the commissioner's re-read at the gate.
+  Full detail in PROGRESS.md. **Open question still to settle: money/units —
+  keep period units (cash/catty/tael/li) or domesticate book-wide.**
 
 ## Tooling in place (do NOT revert)
 
@@ -94,10 +96,48 @@ punch-lines on their own. Method that preserves the pipeline's guarantees:
    `out/<id>_src_merged.txt` is a throwaway, gitignored.)
 3. All checks then run on the merged pairs exactly as before.
 
-Voice within paragraphs: contractions in narration as well as dialogue; vary
-constructions; name a character at a new beat or as an object, pronoun within
-a run; never invent detail to add colour (foreboding comes from rhythm and
-irony). This is what makes ch01 the register reference.
+## Voice / house style (the register ch01 froze — match it exactly)
+
+The commissioner set this at the voice gate with model paragraphs. The bar:
+it should read like a **novel a good translator published**, not a gloss.
+
+- **Fluency over literalism.** Translate the meaning and the image, not the
+  word order. Recast and reorder freely so each sentence lands as natural
+  English. Dynamic equivalence, not calque.
+- **Economy.** Cut pleonasm and flat connective tissue. If the source doubles
+  an idea, say it once, well. Trim a limp simile rather than render it limply
+  (the poisoning dropped "frothing like a horse"; line 3 dropped the
+  moon-dismissal). NEVER cut plot, a name, a number, or a real image — keep the
+  substance, lose the padding. When in doubt, keep it.
+- **Image-forward diction.** Reach for the concrete, evocative phrase: "a
+  crooked shape," "a happy stupor," "a shape too wicked for words," "gone into
+  the wind." Not purple; exact.
+- **Rhythm.** Vary sentence length and opening. Let a long, flowing sentence be
+  followed by a short one. A deliberate fragment or one-line paragraph is a
+  tool — use it for a beat that should land ("*Blood*."; "Five words, one
+  life."; "He had come to kill, not to talk."). Punch-lines get their own
+  paragraph.
+- **Contractions, measured.** Use them for a natural voice in BOTH narration
+  and dialogue, but don't stuff them — three "they'd"s in one sentence is worse
+  than none. Two grave, uncontracted lines can be right for weight ("Because I
+  am a blind man.").
+- **Dialogue is characterised.** Each voice distinct (see the voice sheets). A
+  small idiomatic touch that fits the speaker is welcome even if not literally
+  in the source (Granny Xiong's "dear"). Keep it to flavour, never plot.
+- **Names vs pronouns.** Name a character on a new beat or as an object; use a
+  pronoun within a run. Do NOT re-state the name every line (the checks are
+  satisfied by one mention per paragraph, which merged paragraphs give you).
+- **No invented substance.** Colour comes from diction and rhythm, never from
+  facts, thoughts, or events the source doesn't have. Foreboding is tone, not
+  added narration.
+- **Italics** via `*word*` in the en.json (builder renders `<i>`). Ellipsis
+  `...` and an em-dash cutoff `pois—` for broken/trailing speech.
+- **Cultural nouns/units kept and footnoted** (jianghu, guqin, li, cun, zhang,
+  cash, catty, tael) — UNLESS the money/units open question is settled the
+  other way; check HANDOFF's DONE line before rendering money.
+
+Read out/ch01_reading.md end to end before B02 — the pages ARE the voice; this
+list only names what they do.
 
 ## Voice sheets (consult at every dialogue scene)
 

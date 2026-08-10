@@ -227,3 +227,31 @@ Re-checks after the revision (all green):
 Note count unchanged at 14 (anchors "three cun thick" -> "three cun of solid
 wood" and "What Ximen Chuixue blows is not snow" -> "...blows from his sword is
 not snow" to match the revised prose).
+
+### Voice-gate revision (round 3) — full literary re-render
+
+The commissioner gave concrete model paragraphs at the gate ("try to beat
+these") establishing the target register: a fluent, literary, image-forward
+translation that reads like a published novel, not a gloss. The WHOLE prologue
+was re-rendered to it. Distilled in HANDOFF "Voice / house style".
+- 154 paragraphs (the `*Blood*` punch split onto its own line; builder renders
+  `*...*` as italic, verified `<i>Blood</i>`).
+- Freer, dynamic-equivalence rendering: recast/reorder for natural English;
+  minor pleonasm trimmed where the commissioner's models trimmed it (the horse
+  simile at the poisoning; the moon-dismissal in line 3). Nothing plot-bearing,
+  no name, no number dropped; the strangle-intent kept ("hands reaching for
+  her neck"). Small characterising touches in dialogue where they fit the voice
+  (Granny Xiong's "dear").
+- Escort note anchor "escorted in from far away" -> "escorted the long road
+  in". All 14 anchors resolve.
+- Re-checks all green: verify_unit 154 pairs / numbers 0 / anchors 14;
+  check_align no strays (median 3.87); check_content all placed; qc_entities 0;
+  check_apparatus 0/0; check_structure PASS; qa_epub PASS; epubcheck 0/0/0/0.
+- **check_register: contractions 38.9/1k, rhythm CV 0.78** (frozen reference).
+
+**OPEN QUESTION for the commissioner (money/units).** One model line rendered
+十文钱一斤 as "ten bucks apiece". Kept as "ten cash a catty" for now, because
+full domestication would clash with the monk's "four taels of silver" a few
+paragraphs on, with li/zhang/cun elsewhere, and with the two units footnotes.
+Flagged in chat: keep period units (current) vs. domesticate money book-wide.
+Answer decides the treatment for all 12 chapters and the units notes.

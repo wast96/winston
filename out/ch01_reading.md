@@ -2,314 +2,316 @@
 
 ### Granny Xiong's Sugar-Roasted Chestnuts
 
-A full moon, and a thick fog. In the fog the moon hung blurred and cold, forlorn enough to break your heart.
+The moon was full that night, and the fog lay thick. Sunk deep in the mist, the moon hung wan and blurred, forlorn enough to break a man's heart.
 
-Zhang Fang and his men had no eye for it. They only wanted to wander where they pleased a while, with nowhere to be. They'd just delivered a cargo they'd escorted in from far away, they'd been drinking to mark the end of it, and the strain and toil of all those days on the road were behind them at last.
+Zhang Fang and his men had just delivered a consignment they'd escorted the long road in, and drunk themselves merry to toast the end of it; now they wanted nothing more than to wander, loose and aimless, wherever their feet led.
 
-They felt light, and easy, and glad, and that was when they saw Granny Xiong. She had come out of the thick fog all at once, like a ghost, bent almost double under some invisible weight, as though it had cracked her spine in two; and in one hand she carried a big bamboo basket, covered close with a heavy cloth.
+It was in the thick of that happy stupor that they came upon Granny Xiong. She loomed up out of the fog all at once, a crooked shape, her back bent double as though some unseen stone were crushing her spine; and in one hand she carried a big bamboo basket, a heavy cloth drawn close over its mouth.
 
-"What's in the basket?" one of them asked. Their spirits were high; just then they'd have taken an interest in anything at all.
+"What've you got in the basket?" one of them asked. Their spirits were high; just then almost anything could have caught their fancy.
 
-"Sugar-roasted chestnuts." A smile spread across Granny Xiong's wrinkled face. "Sweet and hot, only ten cash a catty."
+"Sugar-roasted chestnuts, dear." The smile that spread across Granny Xiong's wrinkled face was wide and friendly. "Sweet and hot, only ten cash a catty."
 
-"We'll take five catties. A catty apiece." The chestnuts were hot, sure enough, and sweet, and fragrant; but Zhang Fang ate only one. He'd never liked chestnuts, and he'd had far too much to drink besides, and that single one sat so ill in his stomach he thought he might bring it up.
+"We'll take five catties. A catty each." The chestnuts were hot, right enough, and sweet, and fragrant; but Zhang Fang ate only the one. He'd never had much taste for chestnuts, he'd drunk far too much, and that single one sat so ill in his belly he thought he might bring it back up.
 
-He hadn't brought it up yet when his companions went down, all of them, at once. Their bodies snapped rigid as they hit the ground, white froth spilling from the corners of their mouths like a foundered horse's. Then the froth turned red. Blood.
+He hadn't yet brought it up when his companions dropped, all of them, in the same breath. Their bodies snapped rigid as they struck the ground, white froth bubbling from the corners of their mouths.
 
-The old woman only stood there watching, the smile on her face gone sly and secret and horrible past telling. "The chestnuts are poisoned—" Zhang Fang ground the words out and made to lunge at her, and found in that instant he had no strength at all. He'd meant to crush her throat; instead he pitched down at her feet.
+The froth turned red. *Blood*.
 
-And there, on the feet she kept hidden under her long grey skirt, he saw a pair of gaudy embroidered shoes, red as a bride's. Only what was stitched across them was not a pair of mandarin ducks. It was an owl, and its green eyes seemed to fix on him, jeering at how little he had understood. Zhang Fang froze.
+The old woman only stood and watched, the smile on her face twisting into a shape too wicked for words. "The chestnuts... they're... pois—" The word caught in Zhang Fang's throat. He threw himself at her, hands reaching for her neck, only to find his strength had drained clean out of him; he stumbled, and pitched down at her feet.
 
-Granny Xiong tittered. "So the boy isn't honest after all. Never looks at a thing, except that he does like to sneak a look at a woman's feet."
+And there, on the feet she kept hidden beneath her long grey skirt, he saw a pair of gaudy red shoes, embroidered like a bride's. Only what was stitched across them was not a pair of mandarin ducks. It was an owl, and its green eyes seemed to fix on him and jeer at the fool he had been. Zhang Fang went still.
 
-Zhang Fang forced his head up at last. "What quarrel," he rasped, "do you have with us?"
+Granny Xiong tittered. "So the boy's not so honest after all. Won't look at a thing, but he'll steal a peek at a woman's feet."
 
-Granny Xiong laughed. "Silly boy. I've never once laid eyes on you. What quarrel could I have?"
+Zhang Fang forced his head up at last. "What quarrel," he croaked, "could you have with us?"
 
-Zhang Fang clenched his teeth. "Then why kill us?"
+Granny Xiong laughed. "Foolish boy. I've never once set eyes on you. What quarrel could there be?"
 
-"No reason," said Granny Xiong, mild as could be. "Only that I felt like killing someone."
+Zhang Fang set his teeth. "Then why kill us?"
 
-She lifted her face to the cold blurred moon in the fog and went on, slowly. "Every time the moon comes full, I want to kill."
+"No reason," said Granny Xiong, mild as you please. "Only that I felt like killing someone."
 
-Zhang Fang stared at her, rage and terror in his eyes, wanting nothing so much as to tear out her throat with his teeth. But the old woman had already gone, vanished like a ghost, back into the fog.
+She lifted her face to the wan, blurred moon in the fog and went on, slow and dreamy. "Every time the moon comes full, I get the urge to kill."
+
+Zhang Fang stared at her, his eyes brimming with fury and dread, wanting nothing in the world so much as to tear her throat out with his teeth. But the old woman was already gone, vanished like a ghost back into the fog.
 
 The night mist thickened, and the moon grew rounder still.
 
 ### The Honest Monk
 
-The sun was going down. An autumn wind combed the dead grass, and there was no one on the bank at all, only a crow that came winging in from far off to settle on the mooring-post at the water's edge.
+The sun was sinking in the west. An autumn wind worried at the withered grass, and not a soul was left on the bank, only a lone crow that came winging in from far off to perch on a mooring-post at the water's edge.
 
-It had always been a lonely crossing, and now the day's last ferry had already pulled away. The old man at the oar had a beard long since gone white.
+It had always been a desolate crossing, and the day's last ferry had already gone. The old man poling it wore a beard gone white with the years.
 
-For twenty years he'd rowed this battered boat over and back, over and back, every day of his life. Little was left him now to take any pleasure in but drink and a wager, and tonight he'd sworn off gambling, because there was a monk aboard.
+For twenty years he had rowed this shabby ferry across and back, across and back, day after day. Little was left to give him any joy now but his drink and his gambling, and tonight he had sworn off the gambling, for there was a monk aboard.
 
-The monk looked decent enough, harmless enough; but a monk was a monk. Every time the ferryman so much as set eyes on one, he was sure to lose down to his last copper.
+The monk looked respectable enough, harmless enough; but a monk was a monk. Every time this ferryman so much as laid eyes on one, he was sure to lose down to his last copper.
 
-The Honest Monk sat properly in his corner, head bowed, studying his own feet, filthy feet, shod in a pair of straw sandals worn to nothing. The others kept well clear of him, as if the lice on him might come crawling across; and he didn't dare look at any of them either, being not only honest but painfully shy.
+The Honest Monk sat meek in his corner, head bowed, gazing at his own feet, grubby feet shod in a pair of straw sandals worn to threads. The others gave him a wide berth, as though his lice might come creeping across to them; and he dared not look at any of them either, being not only honest but painfully shy.
 
-He didn't so much as lift his head when the bandits came over the side. He heard the passengers cry out, heard four men land on the prow, and then heard the bandits snarl: "Your betters here are the good lads of the Water Snake Gang. We only ever want your money, never your lives, so there's no call to be afraid. Just hand over every scrap of gold and silver on you, and no harm will come."
+He never so much as raised his head when the bandits swung aboard. He heard the passengers cry out, heard four men land at the prow, and then heard the bandits bark: "We're the good lads of the Water Snake Gang, and we only ever want your money, not your lives, so there's no cause for fear. Just hand over every last piece of gold and silver you're carrying, and we'll trouble you no further."
 
-The last of the sun caught the blades in their hands and set the steel glinting through the cabin. The men shook and the women wept, and the more a body was carrying, the harder he shook and the faster the tears came.
+The last of the sun caught the blades in their hands, and the light of the steel flickered through the cabin. The men shook and the women wept; and the more a man carried on him, the harder he shook, and the faster his tears came.
 
-The Honest Monk sat on, head down, looking at his feet.
+The Honest Monk sat on, head down, watching his own feet.
 
-Then a pair of feet stopped in front of him, big feet, in big sharp-toed shoes, and the man they belonged to barked, "Your turn. Out with it, and be quick."
+Then a pair of feet planted themselves before him, big feet in big sharp-toed shoes, and their owner roared, "Your turn. Out with it, and be quick."
 
-The Honest Monk seemed not to follow him at all. "What is it you want me to give?" he mumbled.
+The Honest Monk seemed not to take his meaning at all. "What is it you would have me give?" he mumbled.
 
-"Anything worth having. All of it."
+"Whatever's worth anything. All of it."
 
-"But I've nothing on me." His head sank lower still.
+"But I've nothing at all on me." His head sank lower still.
 
-The man looked ready to swing a boot at him, but another held him back. "Forget it. This grubby monk doesn't look worth the squeezing. Let's clear out."
+The man looked ready to drive a boot into him, but another caught his arm. "Leave off. This filthy monk doesn't look worth the squeezing. Let's be gone."
 
-Clear out they did. They'd come fast and they went fast; a man who lives by theft always carries a little fear in him somewhere.
+And gone they were. Quick to come, quick to leave, for a man who lives by robbery always keeps a little fear in him somewhere.
 
-The boat was in an uproar at once, men stamping, men swearing, cursing the bandits and cursing the monk too: "Cross paths with a monk and it's bad luck, right enough!"
+At once the boat was in an uproar, men stamping and swearing, cursing the bandits and cursing the monk too. "Cross a monk and you're in for foul luck, right enough!"
 
-They didn't trouble to keep their voices down, and the Honest Monk gave no sign of hearing a word.
+They were at no pains to keep it down, and the Honest Monk gave no sign of hearing a word of it.
 
-He only sat there, head bowed, looking somehow uneasy, and then all at once he was on his feet and rushing to the prow, where a plank lay ready, the kind used to bridge the gap to shore.
+He only sat there, head bowed, looking ill at ease, and then all at once he sprang up and made for the prow, where a plank lay ready to bridge the boat to shore.
 
-The Honest Monk took up the plank and gave it the lightest slap, and the board, three cun of solid wood, burst into five or six pieces. Everyone aboard sat stunned. He flung the first piece out, and before it had well touched the water he was already in the air, toe-tip grazing the wood, sending the second piece flying out ahead of him. In a breath he had become a dragonfly skating the river: four or five touches down and up, and he had run down the Water Snake Gang's fast boat.
+The Honest Monk caught up the plank and gave it the gentlest slap, and the board, three cun of solid wood, shattered into five or six pieces. Every soul aboard sat frozen. He flung the first piece out, and before it had well kissed the water he was already aloft, the tip of one foot barely grazing it as he sent the second spinning ahead. In the space of a breath he had become a dragonfly skimming the river: four or five light touches down and up, and he had run the Water Snake Gang's swift boat to ground.
 
-The bold lads of the Water Snake Gang were still counting the day's take when a figure came skimming to them over the water like a flying immortal and lit on the deck, light as a drifting feather, the same shabby monk from the ferry. Lightness-skill like this they had never seen, never so much as heard of.
+The Water Snake Gang's bold lads were still tallying the day's haul when a figure came gliding to them across the water like some flying immortal and settled on the deck light as a drifting feather, the selfsame ragged monk. Lightness-skill of this order they had never seen; they had never so much as heard it spoken of.
 
-"So the monk's a real master, hiding it, biding his time till we'd gathered it all before coming to take his cut."
+"So the monk's a true master, playing the fool, biding his time till we'd gathered it all, and coming now to claim his share."
 
-Every palm was slick with cold sweat, each man praying the monk, like them, wanted only their money and not their lives.
+Every palm ran with cold sweat, each man praying that the monk, like themselves, wanted their money and not their lives.
 
-None of them dreamed he would kneel bolt upright before them and say, all humility, "I have four taels of silver left on me. I'd meant them for a new robe and new sandals, and even that was already a sin of greed."
+Not one of them dreamed he would kneel bolt upright before them and say, in all humility, "I have four taels of silver left on me. I'd meant them for a new robe and a new pair of sandals, and even that was already the sin of greed."
 
-He had already dug the little ingot out and laid it at their feet. "And a man who has left the world should never tell a lie, yet I lied to your faces just now. I ask only your pardon; when I am home I will sit facing the wall to reflect on my fault, and repent of it before the Buddha for three months together."
+He had already fished out the little ingot and set it at their feet. "And a man who has left the world should never tell a lie, yet I lied to your faces just now. I beg only your pardon; when I am home again I will sit facing the wall and repent of it before the Buddha, three months together."
 
-Not a man among them could find a word to say.
+Not a man among them could find his tongue.
 
-The Honest Monk kept his head bowed. "If your honors won't pardon me, then I've no choice but to kneel here and not go."
+The Honest Monk kept his head low. "If your honors will not pardon me, then I have no choice but to kneel here and never stir."
 
-And who wanted a man like that staying aboard his boat?
+And who wanted a man like that aboard his boat?
 
-At last one of them worked up the nerve. "All right, I... we'll... we'll let it go."
+At last one of them screwed up his courage. "All right, I... that is, we'll... we'll let it pass."
 
-It was the sort of thing a man ought to say from solid ground; but this one's voice cracked as he said it.
+It was the sort of thing a man ought to say standing on firm ground; but this one's voice cracked clean through as he said it.
 
-Joy came over the monk's face at once. Thud, thud, thud, three times his brow struck the deck; then he rose, unhurried, and in a single sideways sweep of four zhang he was ashore, and gone before they could so much as find his shadow.
+Joy lit the monk's face. Thud, thud, thud, three times his brow struck the deck; then he rose, unhurried, and in a single sidelong leap of four zhang he was ashore, gone before they could so much as catch his shadow.
 
-They stood dumb on the prow, looking at one another, then all together at the ingot of silver, until, who knows how long after, one man let out a long breath and offered them his opinion. "You don't really think that was a monk?"
+They stood stupefied at the prow, staring at one another, then all of them at the little ingot of silver, until, no telling how long after, one man let out a long breath and gave them his verdict. "You don't honestly think that was a monk?"
 
 "What else would he be?"
 
-"A living Bodhisattva. A living Bodhisattva to the life."
+"A living Bodhisattva. A living Bodhisattva to the very life."
 
-The next morning all eight of the Water Snake Gang's good lads, top to bottom, were found dead in their own den. Every one of them seemed to have died easy, without a wound on him, without a trace of poison, and no one left who could say how they had died.
+By the next morning all eight of the Water Snake Gang's good lads, top to bottom, were found dead in their own lair. Every one of them looked to have died easy, not a wound on him, not a trace of poison, and no one left alive who could say how it had been done.
 
 ### Ximen Chuixue
 
 What Ximen Chuixue blows from his sword is not snow. It is blood.
 
-The water in the basin was still warm, still faintly sweet with jasmine. Ximen Chuixue had just bathed and washed his hair; every inch of him was scrubbed clean.
+The water in the basin was still warm, still faintly breathing jasmine. Ximen Chuixue had just bathed and washed his hair, and scrubbed himself clean to the last inch.
 
-Xiaohong was combing his hair up and binding it now, while Xiaocui and Xiaoyu pared the nails of his hands and feet, and Xiaoyun had a whole set of new clothes laid ready, everything, down to the underthings and the socks, white as snow.
+Xiaohong was combing his hair up and binding it now, while Xiaocui and Xiaoyu trimmed the nails of his hands and feet, and Xiaoyun stood ready with a whole set of new clothes, every stitch of it, down to the underthings and the socks, as white as snow.
 
-They were the city's famous courtesans, every one of them lovely, and young, and versed in the arts of pleasing a man, in every kind of pleasing there was. But Ximen Chuixue had chosen only one of those arts. He had not so much as touched them.
+They were the most celebrated courtesans in the city, every one of them young and lovely and versed in all the arts of pleasing a man. But of those arts Ximen Chuixue had chosen only one. He had not so much as laid a finger on them.
 
-He had fasted three days as well, for he was about to do what he held to be the most sacred act in all the world. He was going to kill a man. The man's name was Hong Tao.
+He had fasted three days into the bargain, for he was about to do the thing he held most sacred in all the world. He was going to kill a man. The man's name was Hong Tao.
 
-He said he had never met Hong Tao, never laid eyes on him; he meant to kill him for one reason only, that Hong Tao had killed Zhao Gang. Everyone knew Zhao Gang for a straight man, a man of his word, a true hero. Ximen Chuixue knew it too, and he had never met Zhao Gang either, had never once seen his face.
+He had never met Hong Tao, he said, never once laid eyes on him; he meant to kill him for a single reason, that Hong Tao had killed Zhao Gang. Everyone knew Zhao Gang for an upright man, a man of his word, a hero true to the bone. Ximen Chuixue knew it too, and he had never met Zhao Gang either, had never once looked upon his face.
 
-He had crossed a thousand li, three days on horseback under a blazing sun, to reach this strange city; had perfumed and bathed and fasted three days, and all of it to avenge a stranger he had never met, by killing another stranger he had never met.
+He had ridden a thousand li, three days under a blazing sun, to reach this strange city; had bathed and perfumed himself and fasted three days more, all to avenge a stranger he had never met, by killing another stranger he had never met.
 
-Hong Tao looked at Ximen Chuixue and could scarcely believe the world held such a man, or that any man would do such a thing. White as snow, Ximen Chuixue stood waiting, quietly, for him to draw.
+Hong Tao looked at Ximen Chuixue and could scarcely credit that the world held such a man, or that any man would do such a thing. White as snow, Ximen Chuixue stood waiting, in perfect quiet, for him to draw.
 
-Everyone in the jianghu knew Hong Tao as the Lightning Blade; if his blade had not truly been quick as lightning, Zhao Gang, One Blade Quells the Nine Provinces, would never have died beneath it. And it was for those five words that Hong Tao had killed him.
+Everyone in the jianghu knew Hong Tao as the Lightning Blade; had his sword not truly been swift as lightning, Zhao Gang, One Blade Quells the Nine Provinces, would never have fallen beneath it. And it was for those five words that Hong Tao had killed him.
 
 Five words, one life.
 
-Ximen Chuixue spoke four words in all. Two when Hong Tao asked what he had come for, "Kill you," and two more when he asked why: "Zhao Gang."
+Ximen Chuixue spoke just four words in all. Two when Hong Tao asked what he had come for, "Kill you," and two more when he asked why: "Zhao Gang."
 
-Hong Tao asked, "You're a friend of Zhao Gang's?" He only shook his head.
+"You're a friend of Zhao Gang's?" Hong Tao asked. He only shook his head.
 
-Hong Tao asked again, "You've come a thousand li to kill me, for a man you never knew?" He only nodded.
+"You've ridden a thousand li to kill me, for a man you never even knew?" Hong Tao pressed. He only nodded.
 
 He had come to kill, not to talk.
 
-Hong Tao's face had changed. He had the man placed now; he had heard of Ximen Chuixue's swordplay and his strange temper, and the temper was strange, and the swordplay no less so.
+Hong Tao's face had changed. He had the man placed now; he had heard tell of Ximen Chuixue's swordplay, and of his strange temper, and the temper was strange indeed, and the swordplay no less so.
 
-When Ximen Chuixue set his mind on killing a man, he left himself two roads and only two: you die, or I die. And now Hong Tao found that those same two roads were the only ones left him, with no third turning anywhere.
+Once Ximen Chuixue fixed on killing a man, he allowed himself two roads and only two: you die, or I die. And now Hong Tao saw that those same two roads were the only ones left open to him, with no third turning anywhere.
 
-The west wind swept the long street, and the leaves came whispering down. Behind the high garden wall a flock of dusk-crows started up all at once and scattered into the red of the western sky.
+The west wind swept the long street, and the leaves came down with a dry whisper. Behind the high garden wall a flock of dusk-crows burst up all together and scattered into the red of the western sky.
 
 Hong Tao drew in a single heartbeat and struck, eight strokes, quick as lightning. It was beneath these eight lightning strokes, his Jade Linked-Rings, that Zhao Gang had died.
 
-But the Jade Linked-Rings, like every other blade-form under heaven, had a flaw. Just one. And so Ximen Chuixue loosed a single thrust, and that one thrust went clean through Hong Tao's throat.
+But the Jade Linked-Rings, like every blade-form under heaven, had its flaw. Just the one. And so Ximen Chuixue loosed a single thrust, and that one thrust passed clean through Hong Tao's throat.
 
-The sword came away bloody. Ximen Chuixue blew on it, lightly, and a thread of bright blood ran off the point to fall, as it happened, on a single yellow leaf. By the time the west wind lifted the leaf to dance again, Ximen Chuixue was gone, gone past the last of the sunset, gone into the west wind.
+The sword came away bloodied. Ximen Chuixue blew on it, lightly, and a thread of bright blood spilled from the point to fall, as chance would have it, upon a single yellow leaf. By the time the west wind stirred the leaf to dancing again, Ximen Chuixue was gone: gone beyond the last of the afterglow, gone into the wind.
 
 ### Hua Manlou
 
-Fresh flowers filled the tower. Hua Manlou loved fresh flowers with a fierce love, the way he loved every living thing.
+Fresh flowers filled the tower. Hua Manlou loved fresh flowers with a fierce and tender love, the same love he bore every living thing.
 
-At dusk he liked to sit by the window in the last of the sun, brushing petals soft as a lover's lips, breathing a fragrance sweet as a lover's breath. It was dusk now, the light warm and the evening wind soft; and up in the peaceful little tower he sat alone, his heart full of gratitude, grateful to Heaven for a life so lovely and for the chance to taste so lovely a world.
+At dusk he liked to sit at the window in the last of the light, stroking petals soft as a lover's lips and drinking a fragrance sweet as a lover's breath. It was dusk now, the light warm, the evening wind gentle; and in the hush of the little tower he sat alone, his heart brimming with gratitude, to Heaven, for granting him so lovely a life, and the chance to taste so lovely a world.
 
-Then he heard it: a rush of quick footsteps on the stairs. A girl of seventeen or eighteen came racing up, her face frightened, her breath ragged.
+It was then that he heard them: quick footsteps, hurrying up the stair. A girl of seventeen or eighteen came flying up, her face white with fright, her breath coming in gasps.
 
-She was no great beauty, but her big eyes were bright and quick, only just now they held a fright she couldn't have put a name to. Hua Manlou turned to face her. He didn't know the girl, but his manner was gentle, and full of concern. "Has something happened, miss?"
+She was no great beauty, but her big eyes were bright and quick, save that just now they held a terror she could not have named. Hua Manlou turned to face her. He did not know the girl, yet his manner was gentle, and full of care. "Has something happened, miss?"
 
-The girl gasped for breath. "There's someone after me. Can I hide here, with you?"
+The girl fought for breath. "There's a man after me. May I hide here, with you?"
 
-"You can." Hua Manlou answered almost before she had finished.
+"You may." Hua Manlou answered almost before she had finished.
 
-There was no one downstairs, and the front door always stood open; plainly she had blundered in by chance, in her fright. But had it been a wounded wolf fleeing the hounds that fled to him for refuge, he would have taken it in just the same. His door stood open always, for the very reason that whoever came to him was equally welcome.
+There was no one below, and the door forever stood open; plainly she had blundered in by chance, in her panic. Yet had she been a wounded wolf fleeing the hounds, come to him for shelter, he would have taken her in all the same. His door stood always open, for the simple reason that whoever came through it was welcome alike.
 
-Her eyes went darting about for somewhere safe to hide. "There's no need to hide now," Hua Manlou said softly. "Once you're here, you're safe."
+Her eyes went darting about for some place to hide. "There's no need to hide now," said Hua Manlou softly. "You've come here. You're safe."
 
-"Truly?" She blinked her big eyes, as if she half doubted it. "The man after me is a brute, and he's carrying a blade, he could kill someone any moment!"
+"Truly?" She blinked her wide eyes, half in doubt. "The man after me is a brute, and he's got a blade, he could kill in a heartbeat!"
 
-Hua Manlou smiled. "I give you my word, no one gets killed here."
+Hua Manlou smiled. "You have my word. No one is killed here."
 
-She was still in a panic, and about to ask him: why? But she never got the chance. Her pursuer had already reached the place, already come up the stairs.
+She was still in a fright, and about to ask him: why? But she never had the chance. Her pursuer had already gained the place, already climbed the stair.
 
-He was a big, tall man, though light enough on the steps. Sure enough he had a blade in his hand, and in his eyes something worse than the blade; the moment he saw the girl he glared and roared, "Now let's see where you think you'll run."
+He was a big, tall man, though light enough on his feet. Sure enough a blade hung in his hand, and in his eyes sat something worse than any blade; the instant he caught sight of the girl he glared and bellowed, "Now let's see where you think you can run!"
 
-The girl was already ducking behind Hua Manlou, and Hua Manlou only smiled. "She has come here now," he said. "There's no more need to run."
+The girl was already shrinking behind Hua Manlou, and Hua Manlou only smiled. "She's come here now," he said. "There's no more need to run."
 
-The big man shot him a glare, saw nothing but a soft, well-bred young fellow, and sneered at once, "You know who I am? And you dare stick your nose in my business?"
+The big man threw him a glare, saw nothing but a soft, well-bred young man, and sneered, "You know who I am, and you'd stick your nose in my business?"
 
-Hua Manlou was as mild as ever. "Who are you?"
+Hua Manlou was mild as ever. "Who are you?"
 
-The big man threw out his chest. "I'm Cui Yidong, the Flower-Blade Terror. One cut of my blade, and you'll have one more hole in you than you were born with!"
+The big man threw out his chest. "I'm Cui Yidong, the Flower-Blade Terror. One stroke of my blade, and you'll wear one more hole than you were born with!"
 
-"I'm terribly sorry," said Hua Manlou, "but I've never once heard the name. And I've no use for another hole, big or small, I'd sooner not have one."
+"I'm dreadfully sorry," said Hua Manlou, "but I've never heard the name in my life. And I've no use for another hole, great or small, I'd as soon do without."
 
-The girl couldn't help herself; she burst out laughing.
+The girl couldn't hold it in; she burst out laughing.
 
-Cui Yidong's color had changed. "Want one or not, you'll have one!" he suddenly bellowed.
+Cui Yidong's color changed. "You'll wear one whether you like it or not!" he suddenly roared.
 
-He whipped the blade up backhand in a bright little flourish, and in that flash of steel it drove straight at Hua Manlou's chest. Hua Manlou did not move, did not move anything but two fingers. His hand shot out, the two fingers closed, and they had caught Cui Yidong's blade and held it fast.
+He snapped the blade up backhand in a bright little flourish, and through the flash of steel it drove straight at Hua Manlou's breast. Hua Manlou did not stir, stirred nothing but two fingers. His hand darted out, the two fingers closed, and they had the blade fast, Cui Yidong's blade, caught and held.
 
-The blade might have taken root that instant between his fingers. Cui Yidong put every ounce he had into it and still could not drag it free, and the cold sweat had started off him now.
+The blade might have grown roots there between his fingers. Cui Yidong strained with every ounce of his strength and still could not tear it loose, and now the cold sweat was starting from him.
 
-Hua Manlou was still smiling. "If you'd care to leave the blade with me," he said gently, "I'll keep it safe for you. My door is always open; come for it whenever you like."
+Hua Manlou was smiling yet. "If you'd care to leave the blade with me," he said gently, "I'll keep it safe for you. My door is always open. Come for it whenever you please."
 
-Sweat pouring down his face, Cui Yidong stamped his foot, let go of the blade, and bolted down the stairs without a backward look, a good deal faster going down than he had come up.
+Sweat streaming down his face, Cui Yidong stamped his foot, let the blade go, and bolted down the stair without a backward glance, a great deal faster going down than he had come up.
 
-The girl laughed, bright as a silver bell, and looked at Hua Manlou with wonder and admiration together. "I'd never have taken you for a man with skill like that."
+The girl laughed, bright as a silver bell, gazing at Hua Manlou in wonder and admiration both. "I'd never have guessed you had skill like that in you."
 
 Hua Manlou smiled. "It isn't that I have skill. It's that he has none."
 
-"Says who?" said the girl. "Plenty of people in the jianghu can't beat him. Even I can't beat him."
+"Says who?" said the girl. "There are plenty in the jianghu who can't best him. I can't best him myself."
 
 "You?" said Hua Manlou.
 
-"I can't beat him," said the girl, "but there are plenty of grown men who can't beat me. I'm Shangguan Feiyan, of Jiangnan."
+"I can't best him," said the girl, "but there are plenty of grown men who can't best me. I'm Shangguan Feiyan, of Jiangnan."
 
-Then she shook her head at herself and sighed. "Which of course you won't have heard of either."
+Then she shook her head at herself and sighed. "Which of course you won't have heard either."
 
-Hua Manlou crossed over and laid the blade gently on the table by the wall, then turned back to ask, "Why was he after you?"
+Hua Manlou crossed the room, laid the blade gently on the table by the wall, and turned back to her. "Why was he after you?"
 
-Shangguan Feiyan bit her lip and hesitated, then gave him a radiant smile. "Because I stole something of his."
+Shangguan Feiyan bit her lip and hesitated, then broke into a dazzling smile. "Because I stole something of his."
 
-Hua Manlou wasn't shocked. If anything, he laughed.
+Hua Manlou was not shocked. If anything, it made him laugh.
 
-Shangguan Feiyan pressed on, "I'm a thief, yes, but he's a robber. I never steal from honest folk. Robbers are all I steal from."
+Shangguan Feiyan hurried on, "I'm a thief, yes, but he's a robber. I never steal from honest folk. Robbers are the only ones I steal from."
 
-She dropped her head, watching Hua Manlou from the corner of her eye. "I only hope you won't look down on me. Won't think me disgusting."
+She dropped her head, stealing a look at Hua Manlou from the corner of her eye. "I only hope you won't think the less of me. Won't find me low."
 
 Hua Manlou smiled. "I like you. I like people who tell the truth."
 
-Shangguan Feiyan blinked. "And may someone who tells the truth sit a while longer?"
+Shangguan Feiyan blinked. "And might a truth-teller sit here a while longer?"
 
-"Of course she may," said Hua Manlou.
+"Of course she might," said Hua Manlou.
 
 Shangguan Feiyan seemed to breathe again. "Then I'm easy," she said sweetly. "For a moment there I was truly afraid you'd turn me out."
 
-She went to the window and drew a long breath. The wind was thick with the scent of flowers; outside the dusk was deepening, and the room had gone dark.
+She went to the window and drew a deep breath. The wind was heavy with the scent of flowers; beyond it the dusk was thickening, and the room had gone dark.
 
-Shangguan Feiyan gave a soft sigh. "A day goes so fast. Dark again already."
+Shangguan Feiyan sighed. "How quickly a day goes. Dark again already."
 
 "Mm," said Hua Manlou.
 
 "Why haven't you lit a lamp?" said Shangguan Feiyan.
 
-Hua Manlou smiled. "Forgive me. I forgot I had a guest."
+Hua Manlou smiled. "Forgive me. I'd forgotten I had a guest."
 
 "You only light a lamp when you have a guest?" said Shangguan Feiyan.
 
 "Mm," said Hua Manlou.
 
-"You mean you never light one at night for yourself?" said Shangguan Feiyan.
+"You mean you never light one at night for your own sake?" said Shangguan Feiyan.
 
-"I've no need of a lamp," Hua Manlou said, smiling.
+"I've no need of a lamp," said Hua Manlou, smiling.
 
 "Why not?" said Shangguan Feiyan.
 
-She turned to look at him, her eyes filling with wonder. But Hua Manlou's face was as easy and cheerful as ever, and his answer came slowly. "Because I am a blind man."
+She turned to look at him, wonder filling her eyes. But Hua Manlou's face was as easy and glad as ever, and his answer came slowly. "Because I am a blind man."
 
-The dusk grew deeper, and still the wind was full of the sweet scent of flowers. But Shangguan Feiyan sat utterly stunned.
+The dusk deepened, and still the wind ran full of the sweet breath of flowers. But Shangguan Feiyan sat utterly stunned.
 
 "I am a blind man."
 
-Five plain, ordinary words, and yet in all her life Shangguan Feiyan had never heard five words that astonished her more.
+Five plain, ordinary words, and yet in all her life Shangguan Feiyan had never heard five words to astonish her more.
 
-She stared at Hua Manlou. This was the man brimming with love of people and of life, full of hope for all that was to come; the man who could put out two idle fingers and pluck from the air a blade swung at him with a grown man's whole strength; the man who lived up here alone and not only needed no one's help but stood ready, always, to help anyone else.
+She stared at Hua Manlou. Here was a man brimming with love of people and of life, alight with hope for all that was to come; a man who could put out two idle fingers and pluck from the air a blade swung at him with a grown man's whole strength; a man who lived up here alone and not only needed no one's help, but stood forever ready to help everyone else.
 
-Shangguan Feiyan simply could not believe he was blind, and could not stop herself asking again, "You're really blind?"
+Shangguan Feiyan simply could not believe he was blind, and could not keep from asking again, "You're truly blind?"
 
-Hua Manlou nodded. "I went blind when I was seven."
+Hua Manlou nodded. "I lost my sight at seven."
 
 "But you don't seem it in the least," said Shangguan Feiyan.
 
 Hua Manlou laughed again. "And what is a blind man supposed to seem like?"
 
-Shangguan Feiyan had no answer. She had known plenty of blind people, and had always thought a blind man must be some hunched, wretched creature, since for such people this bright and many-colored world had shrunk to a single sheet of dark.
+Shangguan Feiyan had no answer. She had known plenty of blind people, and had always supposed a blind man must be some stooped, woebegone creature, for to such people this bright and teeming world had shrunk to a single sheet of black.
 
-She said none of it aloud, but Hua Manlou had plainly caught her meaning all the same. "I know," he said, smiling, "you're sure a blind man could never live as happily as I do."
+She said none of it aloud, but Hua Manlou had plainly caught her meaning all the same. "I know," he said, smiling. "You're sure a blind man could never live as gladly as I do."
 
-Shangguan Feiyan could only admit it.
+Shangguan Feiyan could only grant it.
 
-"There's really nothing so bad about being blind," said Hua Manlou. "I can't see, but I can still hear, still feel, and now and then I get more pleasure out of a thing than other people do."
+"There's really nothing so bad in being blind," said Hua Manlou. "I can't see, but I can still hear, still feel, and now and then I take more pleasure in a thing than other people do."
 
-A glow of pure contentment came over his face as he went on, slowly. "Have you ever heard the sound of snow settling on a roof? Can you feel the wonderful life in a bud as it opens, slow, on the spring wind? Do you know the autumn wind carries a clean smell of leaves down off the far hills?"
+A glow of pure content spread over his face as he went on, slow and soft. "Have you ever heard the sound of snow settling on a rooftop? Can you feel the wondrous life in a bud as it opens, slow, on the spring wind? Do you know that the autumn wind comes carrying a clean smell of leaves down from the far hills?"
 
 Shangguan Feiyan listened without a word, as though to some soft and lovely song.
 
-"Only take the trouble to notice it," said Hua Manlou, "and you'll find how dear life really is. Every season has its own delights, enough to make you forget every last care you have."
+"Only trouble yourself to notice," said Hua Manlou, "and you'll find how dear this life is. Every season keeps its own delights, enough to make you forget your every care."
 
-Shangguan Feiyan shut her eyes, and all at once the wind seemed gentler, the flowers sweeter.
+Shangguan Feiyan closed her eyes, and all at once the wind seemed gentler, the flowers sweeter.
 
-"Whether you can live happily," said Hua Manlou, "has nothing to do with whether you're blind. It has to do with whether you truly love your own life, whether you truly mean to live it glad."
+"Whether you can live happily," said Hua Manlou, "has nothing to do with whether you're blind. It turns on whether you truly love your own life, whether you truly mean to live it glad."
 
-Shangguan Feiyan raised her head and, in the dim of the dusk, looked into his calm and happy face. What was in her eyes now was no longer wonder, nor pity, but respect, and gratitude.
+Shangguan Feiyan raised her head and, through the dimming dusk, looked into that calm and happy face. What stood in her eyes now was no longer wonder, nor pity, but respect, and gratitude.
 
-She was grateful to him, not for saving her, but for showing her what living was truly for. And she honored him, not for his kung fu, but for the greatness of the heart and the vision behind it.
+She was grateful to him, not for saving her, but for showing her what a life was truly for. And she honored him, not for his kung fu, but for the great heart and the vision behind it.
 
-Still she couldn't help asking, "Is there no one else in your family?"
+Still she couldn't help asking, "Have you no family of your own?"
 
-Hua Manlou smiled. "My family is a great clan. A houseful of us, every one hale and happy."
+Hua Manlou smiled. "My family is a great clan, a whole houseful of us, every one hale and happy."
 
 "Then why live here alone?" said Shangguan Feiyan.
 
-"Because I wanted to see whether I could truly stand on my own," said Hua Manlou. "Because I don't want people forever making way for me, helping me. I don't want to be treated as a blind man."
+"Because I wanted to know whether I could truly stand on my own," said Hua Manlou. "Because I won't have people forever stepping aside for me, doing for me, won't be treated as a blind man."
 
-"And you... you really do all right here, all on your own?" said Shangguan Feiyan.
+"And you... you really do well enough here, all on your own?" said Shangguan Feiyan.
 
-"I've lived in this place eight months," said Hua Manlou, "and I've never once been happier in my life."
+"I've lived in this place eight months," said Hua Manlou, "and I've never in my life been happier."
 
-Shangguan Feiyan let out a soft sigh. "But besides the winter's snow and the spring's flowers, what else do you have?"
+Shangguan Feiyan let out a soft sigh. "But beyond the snow of winter and the flowers of spring, what else have you got?"
 
-"Sleep enough, a good appetite, this fine room, and a guqin with a lovely voice," said Hua Manlou. "That would be plenty on its own. And besides all that, I have a very good friend."
+"Sleep enough, a good appetite, this fine room, and a guqin with a lovely voice," said Hua Manlou. "That would be plenty on its own. And beyond all that, I have one very good friend."
 
-"Who is your friend?" said Shangguan Feiyan.
+"And who is your friend?" said Shangguan Feiyan.
 
 The light came back into Hua Manlou's face. "His surname is Lu. Lu Xiaofeng."
 
-He smiled. "You mustn't go thinking he's a woman. His name may be Xiaofeng, Little Phoenix, but he's a man to the bone."
+He smiled. "You mustn't take him for a woman. His name may be Xiaofeng, Little Phoenix, but he's a man to the very bone."
 
-"Lu Xiaofeng?" said Shangguan Feiyan. "I think I've heard the name too, but I've no idea what sort of man he really is."
+"Lu Xiaofeng?" said Shangguan Feiyan. "I think I've heard the name somewhere, though I've no notion what sort of man he is."
 
-Hua Manlou's laugh was merrier still. "He's a strange one too. See him just once and you'll never forget him, for he has two pairs of eyes and ears, three hands, and four eyebrows."
+Hua Manlou's laugh came merrier still. "He's a strange one too. See him but once and you'll never forget him, for he has two pairs of eyes and ears, three hands, and four eyebrows."
 
-Two pairs of eyes and ears meant, of course, that he saw and heard more than other men. Three hands, perhaps, that his own were quicker and defter than anyone's. But four eyebrows, what on earth could that mean? That, Shangguan Feiyan honestly could not work out.
+Two pairs of eyes and ears meant, of course, that he saw and heard more than other men. Three hands, perhaps, that his own were quicker and defter than anyone's. But four eyebrows, whatever could that mean? That, Shangguan Feiyan honestly could not puzzle out.
 
-She made up her mind, then and there, that one day she would find a way to go and see this four-eyebrowed Lu Xiaofeng for herself.
+She made up her mind, there and then, that one day she would find some way to go and see this four-eyebrowed Lu Xiaofeng for herself.
