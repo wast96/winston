@@ -16,15 +16,15 @@ for pkg in pymupdf pillow numpy opencv-python-headless; do
 done
 
 # --- OCR: tesseract + language packs. Install ONE AT A TIME. Edit the pack
-# list for this book's script (Traditional: chi-tra + chi-tra-vert;
-# simplified: chi-sim + chi-sim-vert). ---
+# list for this book's script. THIS BOOK is Japanese, vertical (jpn +
+# jpn-vert). (Traditional Chinese: chi-tra + chi-tra-vert; simplified:
+# chi-sim + chi-sim-vert.) ---
 if ! command -v tesseract >/dev/null; then
   sudo apt-get update -qq 2>>"$REPORT" || true
   sudo apt-get install -y -qq tesseract-ocr 2>>"$REPORT" \
     || note "APT FAILED: tesseract-ocr"
 fi
-for pack in tesseract-ocr-chi-sim tesseract-ocr-chi-sim-vert \
-            tesseract-ocr-chi-tra tesseract-ocr-chi-tra-vert; do
+for pack in tesseract-ocr-jpn tesseract-ocr-jpn-vert; do
   dpkg -s "$pack" >/dev/null 2>&1 || sudo apt-get install -y -qq "$pack" \
     2>>"$REPORT" || note "APT FAILED: $pack"
 done
