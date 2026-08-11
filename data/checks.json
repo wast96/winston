@@ -1,9 +1,11 @@
 {
   "_about": "Config for check_content.py / check_structure.py: maps each unit id to its translation (docs) and source (sources). Extend as batches complete.",
   "docs": {
-    "ch01": "out/ch01_reading.md"
+    "ch01": "out/ch01_reading.md",
+    "ch02": "out/ch02_reading.md"
   },
   "sources": {
-    "ch01": "data/zh/ch01.txt"
+    "ch01": "data/zh/ch01.txt",
+    "ch02": "data/zh/ch02.txt"
   }
 }

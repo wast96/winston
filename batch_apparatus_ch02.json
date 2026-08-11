@@ -1,0 +1,38 @@
+{
+  "glossary": {
+    "松永久秀/弾正久秀/久秀": {"en": "Matsunaga Hisahide", "pinyin": "Matsunaga Hisahide", "status": "attested", "note": "The warlord who burned the Tōdai-ji Great Buddha in 1567; 弾正 (Danjō) is his court title. Died 1577."},
+    "松倉蔵人/蔵人": {"en": "Matsukura Kurando", "pinyin": "Matsukura Kurando", "status": "provisional", "note": "The scarred leader in the Aizen-dō, who claims to be a rōnin of the Shibata house; Jūzō takes him for a broken Mino bandit and kills him. 蔵人 doubles as a court-office name, hence Jūzō's mockery."},
+    "雲兵衛": {"en": "Kumobei", "pinyin": "Kumobei", "status": "provisional", "note": "The young ex-sailor and one-time balladeer in Matsukura's band; Jūzō spares and conscripts him."},
+    "懸巣ノ次郎": {"en": "Kakesu-no-Jirō", "pinyin": "Kakesu-no-Jirō", "status": "provisional", "note": "Matsukura's foster-retainer, found stabbed dead beneath the Great Buddha. 懸巣 = a jay."},
+    "小萩": {"en": "Kohagi", "pinyin": "Kohagi", "status": "decided", "note": "The taciturn Nara courtesan who is in fact Imai Sōkyū's guide-agent, sent to meet Jūzō; a Kōga woman, Jūzō suspects."},
+    "武田勝頼": {"en": "Takeda Katsuyori", "pinyin": "Takeda Katsuyori", "status": "attested", "note": "Last lord of the Takeda of Kai; destroyed by Nobunaga and Ieyasu in 1582."},
+    "伊勢屋嘉兵衛": {"en": "Iseya Kahei", "pinyin": "Iseya Kahei", "status": "decided", "note": "The Kyōto shopkeeper's cover identity Jūzō assigns to Kuroami at the end of ch01."},
+    "東大寺": {"en": "Tōdai-ji", "pinyin": "Tōdai-ji", "status": "attested", "note": "The great Nara temple; its colossal bronze Vairocana is the 'rain-soaked Buddha' of the chapter."},
+    "二月堂": {"en": "Nigatsu-dō", "pinyin": "Nigatsu-dō", "status": "attested", "note": "The Hall of the Second Month at Tōdai-ji."},
+    "油坂": {"en": "Aburazaka", "pinyin": "Aburazaka", "status": "provisional", "note": "A slope on the eastern edge of Nara where Jūzō takes an inn."},
+    "飛火野": {"en": "Tobuhino", "pinyin": "Tobuhino", "status": "attested", "note": "A meadow in the Kasuga precinct of Nara."},
+    "甲斐": {"en": "Kai", "pinyin": "Kai", "status": "attested", "note": "Province of the Takeda house."},
+    "三河": {"en": "Mikawa", "pinyin": "Mikawa", "status": "attested", "note": "Tokugawa Ieyasu's home province."},
+    "駿河": {"en": "Suruga", "pinyin": "Suruga", "status": "attested"},
+    "呂宋": {"en": "Luzon", "pinyin": "Ruson", "status": "attested", "note": "The northern Philippines, newly under Spanish rule from Manila."},
+    "愛染堂": {"en": "the Aizen-dō", "pinyin": "Aizen-dō", "status": "decided", "note": "A hall of Aizen Myō-ō in the ruined Tōdai-ji cloister; the scene of the killing."},
+    "三好三人衆": {"en": "the Miyoshi Triumvirate", "pinyin": "Miyoshi Sanninshū", "status": "attested", "note": "The three Miyoshi captains who contested control of the Kinai after 1564; Matsunaga's war with them burned the Great Buddha."},
+    "愛染明王": {"en": "Aizen Myō-ō", "pinyin": "Aizen Myō-ō", "status": "attested", "note": "The 'wisdom king' of passion, Rāgarāja; a patron of love."},
+    "毘廬遮那仏": {"en": "Vairocana", "pinyin": "Birushana-butsu", "status": "attested", "note": "The cosmic Buddha; the Tōdai-ji colossus is a Vairocana."},
+    "多聞院": {"en": "the Tamon-in", "pinyin": "Tamon-in", "status": "attested", "note": "A cloister of Kōfuku-ji whose diary, the Tamon-in nikki, records the 1567 fire."},
+    "ばはん船": {"en": "bahan ship", "pinyin": "bahan-sen", "status": "attested", "note": "A wakō pirate-trader."}
+  },
+  "notes": {
+    "ch01": [
+      {"anchor": "at the Hour of the Ox", "note": "The old day was divided into twelve two-hour periods, each named for an animal of the zodiac and counted from the Rat at midnight. The Hour of the Ox fell roughly between one and three in the morning: the rendezvous is set for the dead of night."}
+    ],
+    "ch02": [
+      {"anchor": "The Rain-Soaked Buddha", "note": "The title names the colossal bronze Buddha of Tōdai-ji in Nara. Its hall had burned in 1567 (see below), and for well over a century the Buddha sat out in the open, exposed to sun and rain, until a new hall was finally raised in 1709. The chapter's night meeting takes place at its feet."},
+      {"anchor": "Matsunaga Danjō Hisahide", "note": "Matsunaga Hisahide (1508?&#8211;1577), a byword in Japanese memory for treachery, rose from obscurity to rule Yamato; <i>Danjō</i> was his court title. In the tenth month of 1567 (Eiroku 10), during his war with the Miyoshi Triumvirate (a coalition of three Miyoshi captains then contesting the Kinai), his forces fired the hall in which the enemy had entrenched, and the Great Buddha burned with it. He later defied Oda Nobunaga and, besieged in 1577, is said to have destroyed himself and a prized tea-caddy rather than surrender."},
+      {"anchor": "a monk of the Tamon-in", "note": "The <i>Tamon-in nikki</i>, the diary kept by successive heads of the Tamon-in, a cloister of the great Nara temple Kōfuku-ji, is a major eyewitness chronicle of these years; the quoted passage records the burning of the Great Buddha Hall. The diarist calls the image a Shakya, the historical Buddha, though the Tōdai-ji colossus is in fact a Vairocana."},
+      {"anchor": "Aizen Myō-ō", "note": "Aizen Myō-ō (Rāgarāja) is a fierce, red-bodied Buddhist &#8220;wisdom king&#8221; who turns worldly passion into the energy of enlightenment; he was invoked as a patron of love, and by extension by those whose living depended on it. His image, set in the ruined hall, shadows the chapter's crossing of desire and killing."},
+      {"anchor": "a bahan ship", "note": "A <i>bahan</i> ship was a pirate-trader of the sort manned by the <i>wakō</i>, the Japanese-and-continental sea-raiders who preyed and traded along the China coast and beyond. Luzon, the northern Philippines, had just come under Spanish rule from Manila; Korea would be invaded by Hideyoshi the following year. That a hired thug had ranged such waters marks how far Japan's violent men now reached."},
+      {"anchor": "Takeda Katsuyori of Kai", "note": "Takeda Katsuyori (1546&#8211;1582), last lord of the Takeda of Kai, the great cavalry house broken by Nobunaga and Ieyasu; hunted down, he died in 1582. Shiba's point is that Iga men served the Takeda and their Tokugawa enemies at once, keeping up contact across the lines&#8212;his emblem of the Iga spies as a guild loyal only to their own trade. The anecdote is the author's; take it as characterization rather than documented fact."}
+    ]
+  }
+}

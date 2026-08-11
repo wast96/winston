@@ -1041,3 +1041,7 @@ Kuroami said nothing. For a while the sound of the rain filled the silence betwe
 "We are going to kill Hideyoshi."
 
 "Is that so."
+
+"You'll keep a shop in the capital a while, and live there. We'll give out your name as Iseya Kahei. When the time comes, I'll send word from my end."
+
+This man, who had been raised among the shinobi from birth, took it in as though it were idle talk of the world.

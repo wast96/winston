@@ -67,3 +67,15 @@
 三河
 # 零細 = tiny/petty (idiom): the 零 is not the count 0 — rendered "petty"
 零細
+# 二月堂 = Nigatsu-dō, a hall of Tōdai-ji: the 二 is the hall's name — rendered "Nigatsu-dō"
+二月堂
+# 手向山八幡 = Tamukeyama Hachiman shrine: the 八 is the shrine's name — rendered "Tamukeyama Hachiman"
+手向山八幡
+# 三好三人衆 = the Miyoshi Sanninshū (a named triumvirate); 三好 a surname, 三人衆 the fixed term — rendered "Miyoshi Triumvirate"
+三好三人衆
+# 三好 = Miyoshi (surname): the 三 is the name — rendered "Miyoshi"
+三好
+# 三人衆 = a "three-man group", a fixed historical label — rendered "Triumvirate"
+三人衆
+# 千手堂 = Senju-dō (Hall of the Thousand-Armed Kannon): the 千 is the hall's name — rendered "Senju-dō"
+千手堂
