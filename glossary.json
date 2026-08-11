@@ -1,15 +1,292 @@
 {
   "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
   "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
-  "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
+  "people": {
+    "陈恭澍": {
+      "en": "Chen Gongshu",
+      "pinyin": "Chén Gōngshù",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 1,
+      "cast": "The author and narrator. A Juntong operative who ran the Beiping and Tianjin stations in the 1930s, commanded the Shanghai District, directed the 1939 Hanoi attempt on Wang Jingwei, and led a special unit in the 1946–49 civil war."
+    },
+    "戴笠": {
+      "en": "Dai Li",
+      "pinyin": "Dài Lì",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 2,
+      "cast": "Courtesy name Yunong (雨农). Founder and lifelong head of the Juntong, the Nationalist secret service, and Chen's chief; died in a 1946 air crash."
+    },
+    "汪精卫": {
+      "en": "Wang Jingwei",
+      "pinyin": "Wāng Jīngwèi",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 3,
+      "cast": "Founding Nationalist leader who broke with Chongqing in 1938 to seek peace with Japan and headed a Japanese-sponsored government at Nanjing; target of the 1939 Hanoi attempt."
+    },
+    "张敬尧": {
+      "en": "Zhang Jingyao",
+      "pinyin": "Zhāng Jìngyáo",
+      "status": "attested",
+      "note": "1881–1933; Beiyang general and former military governor of Hunan, assassinated in Beiping in 1933."
+    },
+    "孙传芳": {
+      "en": "Sun Chuanfang",
+      "pinyin": "Sūn Chuánfāng",
+      "status": "attested",
+      "note": "1885–1935; Beiyang warlord, later assassinated by Shi Jianqiao."
+    },
+    "施剑翘": {
+      "en": "Shi Jianqiao",
+      "pinyin": "Shī Jiànqiào",
+      "status": "attested",
+      "note": "Avenger who shot Sun Chuanfang dead in 1935; publicly pardoned."
+    },
+    "吉鸿昌": {
+      "en": "Ji Hongchang",
+      "pinyin": "Jí Hóngchāng",
+      "status": "attested",
+      "note": "1895–1934; Northwest Army general, figure in the 1933 Chahar anti-Japanese army; executed by the Nationalists. Honoured as a Communist martyr in the People's Republic."
+    },
+    "冯玉祥": {
+      "en": "Feng Yuxiang",
+      "pinyin": "Féng Yùxiáng",
+      "status": "attested",
+      "note": "1882–1948; the 'Christian General,' a powerful and often-shifting warlord."
+    },
+    "方振武": {
+      "en": "Fang Zhenwu",
+      "pinyin": "Fāng Zhènwǔ",
+      "status": "attested"
+    },
+    "石友三": {
+      "en": "Shi Yousan",
+      "pinyin": "Shí Yǒusān",
+      "status": "attested",
+      "note": "1891–1940; a general notorious for switching sides repeatedly."
+    },
+    "殷汝耕": {
+      "en": "Yin Rugeng",
+      "pinyin": "Yīn Rǔgēng",
+      "status": "attested",
+      "note": "1885–1947; head of the Japanese-sponsored East Hebei regime; executed as a traitor after the war."
+    },
+    "王克敏": {
+      "en": "Wang Kemin",
+      "pinyin": "Wāng Kèmǐn",
+      "status": "attested",
+      "note": "1879–1945; head of the Japanese puppet 'Provisional Government' at Beiping; called 'Blind Wang.'"
+    },
+    "刘绍勷": {
+      "en": "Liu Shaorang",
+      "pinyin": "Liú Shàoráng",
+      "status": "provisional",
+      "note": "The 'Southwest delegate' killed by mistake in the 1934 Tianjin attempt on Ji Hongchang; romanization uncertain."
+    },
+    "陈璧君": {
+      "en": "Chen Bijun",
+      "pinyin": "Chén Bìjūn",
+      "status": "attested",
+      "note": "1891–1959; Wang Jingwei's wife, a forceful political figure; imprisoned after the war."
+    },
+    "曾仲鸣": {
+      "en": "Zeng Zhongming",
+      "pinyin": "Zēng Zhòngmíng",
+      "status": "attested",
+      "note": "1896–1939; Wang Jingwei's close aide, killed at Hanoi in the attack meant for Wang."
+    },
+    "李士群": {
+      "en": "Li Shiqun",
+      "pinyin": "Lǐ Shìqún",
+      "status": "attested",
+      "note": "1905–1943; ex-Communist who ran the Wang regime's secret police at No. 76; poisoned by the Japanese."
+    },
+    "傅筱庵": {
+      "en": "Fu Xiao'an",
+      "pinyin": "Fù Xiǎo'ān",
+      "status": "attested",
+      "note": "1872–1940; banker installed as puppet mayor of Shanghai; assassinated in 1940."
+    },
+    "张啸林": {
+      "en": "Zhang Xiaolin",
+      "pinyin": "Zhāng Xiàolín",
+      "status": "attested",
+      "note": "One of the Green Gang's 'Three Tycoons' of Shanghai; killed in 1940 for collaborating."
+    },
+    "郑介民": {
+      "en": "Zheng Jiemin",
+      "pinyin": "Zhèng Jièmín",
+      "status": "attested",
+      "note": "Senior Nationalist intelligence chief; rose to full general."
+    },
+    "毛人凤": {
+      "en": "Mao Renfeng",
+      "pinyin": "Máo Rénfèng",
+      "status": "attested",
+      "note": "Dai Li's successor as head of the postwar secret service (the Baomiju)."
+    },
+    "毛泽东": {
+      "en": "Mao Zedong",
+      "pinyin": "Máo Zédōng",
+      "status": "attested",
+      "note": "Leader of the Chinese Communist Party; Chen calls him 'the bandit chief Mao' throughout."
+    },
+    "林彪": {
+      "en": "Lin Biao",
+      "pinyin": "Lín Biāo",
+      "status": "attested",
+      "note": "Communist commander whose army took Beiping and Tianjin in 1948–49."
+    },
+    "聂荣臻": {
+      "en": "Nie Rongzhen",
+      "pinyin": "Niè Róngzhēn",
+      "status": "attested",
+      "note": "Communist commander in the North China campaign of 1948–49."
+    },
+    "刘少奇": {
+      "en": "Liu Shaoqi",
+      "pinyin": "Liú Shàoqí",
+      "status": "attested",
+      "note": "1898–1969; PRC head of state, purged and hounded to death in the Cultural Revolution."
+    },
+    "陶铸": {
+      "en": "Tao Zhu",
+      "pinyin": "Táo Zhù",
+      "status": "attested",
+      "note": "Senior Communist official, another victim of the Cultural Revolution."
+    },
+    "唐英杰": {
+      "en": "Tang Yingjie",
+      "pinyin": "Táng Yīngjié",
+      "status": "provisional",
+      "note": "Member of the Hanoi action team; romanization mine."
+    },
+    "余鉴声": {
+      "en": "Yu Jiansheng",
+      "pinyin": "Yú Jiànshēng",
+      "status": "provisional",
+      "note": "Member of the Hanoi action team; romanization mine."
+    },
+    "王鲁翘": {
+      "en": "Wang Luqiao",
+      "pinyin": "Wáng Lǔqiáo",
+      "status": "provisional",
+      "note": "Member of the Hanoi action team; romanization mine."
+    },
+    "郑修元": {
+      "en": "Zheng Xiuyuan",
+      "pinyin": "Zhèng Xiūyuán",
+      "status": "provisional",
+      "note": "Secretary of the Shanghai District headquarters; romanization mine."
+    },
+    "张亚民": {
+      "en": "Zhang Yamin",
+      "pinyin": "Zhāng Yàmín",
+      "status": "provisional",
+      "note": "Wireless operative sent to Shanghai; romanization mine."
+    },
+    "毛万里": {
+      "en": "Mao Wanli",
+      "pinyin": "Máo Wànlǐ",
+      "status": "provisional",
+      "note": "Juntong officer stationed at Yanshan, Jiangxi; romanization mine."
+    },
+    "山本荣治": {
+      "en": "Yamamoto Eiji",
+      "pinyin": "Shānběn Róngzhì",
+      "status": "provisional",
+      "note": "Japanese adviser who shielded Wang Kemin in the 1938 attempt; the Japanese reading is reconstructed from the Chinese characters."
+    },
+    "大冢清": {
+      "en": "Ōtsuka Kiyoshi",
+      "pinyin": "Dàzhǒng Qīng",
+      "status": "provisional",
+      "note": "Former Japanese military-police officer at Nanjing; the Japanese reading is reconstructed."
+    },
+    "中岛信一": {
+      "en": "Nakajima Shin'ichi",
+      "pinyin": "Zhōngdǎo Xìnyī",
+      "status": "provisional",
+      "note": "Japanese Ume Kikan captain who shielded Chen; the Japanese reading is reconstructed."
+    },
+    "冈村": {
+      "en": "Okamura",
+      "pinyin": "Gāngcūn",
+      "status": "provisional",
+      "note": "Japanese Kempeitai Tokkō section chief at Shanghai; the Japanese reading is reconstructed."
+    }
+  },
+  "organizations": {
+    "军统": {
+      "en": "the Juntong",
+      "pinyin": "Jūntǒng",
       "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+      "note": "Short for the Bureau of Investigation and Statistics of the Military Affairs Commission (军事委员会调查统计局), the Nationalist military secret service under Dai Li; rendered 'the Juntong' throughout. See the note at the third introduction."
+    },
+    "力行社": {
+      "en": "the Lixingshe",
+      "pinyin": "Lìxíngshè",
+      "status": "attested",
+      "note": "The 'Society for Vigorous Practice of the Three Principles of the People' (三民主义力行社), a secret Whampoa-clique organization of 1932, popularly the 'Blue Shirts.'"
+    },
+    "特务处": {
+      "en": "the Special Services Department",
+      "pinyin": "tèwù chù",
+      "status": "decided",
+      "note": "The covert-operations department of the Lixingshe, headed by Dai Li; the operational seed of the Juntong."
+    },
+    "调查统计局": {
+      "en": "the Bureau of Investigation and Statistics",
+      "pinyin": "Diàochá Tǒngjì Jú",
+      "status": "attested",
+      "note": "The Military Affairs Commission bureau (1932) whose Second Department, under Dai Li, grew into the Juntong."
+    },
+    "抗日杀奸团": {
+      "en": "the Anti-Japanese Traitor-Killing Corps",
+      "pinyin": "Kàng-Rì Shājiān Tuán",
+      "status": "decided",
+      "note": "A patriotic assassination group of young people in occupied North China."
+    },
+    "特工总部": {
+      "en": "the Special Operations Headquarters",
+      "pinyin": "tègōng zǒngbù",
+      "status": "decided",
+      "note": "The Wang regime's secret police, known from its address as 'No. 76.'"
+    }
+  },
+  "places": {
+    "北平": {
+      "en": "Beiping",
+      "pinyin": "Běipíng",
+      "status": "attested",
+      "note": "The name of Beijing from 1928 to 1949, after the capital moved to Nanjing."
+    },
+    "天津": {
+      "en": "Tianjin",
+      "pinyin": "Tiānjīn",
+      "status": "attested"
+    },
+    "察哈尔": {
+      "en": "Chahar",
+      "pinyin": "Cháhā'ěr",
+      "status": "attested",
+      "note": "A former province north-west of Beiping, abolished in 1952."
+    }
+  },
+  "terms": {
+    "制裁": {
+      "en": "sanction",
+      "pinyin": "zhìcái",
+      "status": "decided",
+      "note": "The service's euphemism for the targeted killing or execution of an enemy or traitor; kept as the book's own term."
+    },
+    "绥靖": {
+      "en": "pacification",
+      "pinyin": "suíjìng",
+      "status": "decided",
+      "note": "A Nationalist term for the 1946–49 civil war, casting the Communists as rebels to be pacified."
     }
   }
 }

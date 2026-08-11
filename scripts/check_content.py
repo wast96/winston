@@ -57,7 +57,11 @@ def name_map(path):
     if not os.path.exists(path):
         return out
     for _cat, entries in json.load(open(path)).items():
+        if _cat.startswith("_") or not isinstance(entries, dict):
+            continue
         for zh, e in entries.items():
+            if zh.startswith("_") or not isinstance(e, dict):
+                continue
             en = e.get("en", "")
             if zh in AUTHOR:
                 continue

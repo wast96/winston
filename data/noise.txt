@@ -30,8 +30,42 @@
 #   - weekday indices                         (星期[一二三四五六], 礼拜[一二三四五六])
 #   - the source's own note markers, if any   (\[\d+\])
 #
-# Example entries (delete these; they are here to show the format):
-# the Nine Dragons of Kowloon — rendered "Kowloon"
-# 九龍
-# weekdays carry no quantity — rendered "Monday" etc.
-# 星期[一二三四五六]
+# --- B01 (front matter) entries ---
+#
+# Event date-names read as bare digit strings (九一八 -> 918, 一二八 -> 128):
+# the Mukden Incident of 18 Sept 1931 and the Shanghai Incident of 28 Jan 1932.
+# English names them "the September 18th Incident" / "the January 28th Incident".
+九一八
+一二八
+# Decade / era labels, not counted quantities. The abbreviated 二、三十年代 form
+# (the 1920s-30s) also orphans a spurious 2 from the 十 it shares. Also 七十年代
+# (the 1970s). English renders them "the 1920s and 1930s", "the 1970s".
+[一二三四五六七八九十]、?[一二三四五六七八九]?十年代
+# 三十多万 (over 300,000): the built-in strip of 三十多 orphans a bare 万 read as
+# 10000. Strip the whole approximate; English carries "over three hundred thousand".
+[一二三四五六七八九]十多[万萬]
+# Personal name ending in a numeral: 石友三 (the warlock general Shi Yousan);
+# the 三 is part of the name, not the count 3.
+石友三
+# Digitization glitch: a stray "1364" injected mid-sentence in the ch04
+# introduction (source: "结果 1364；没有任何收获"); not a quantity. Rendered to
+# plain sense (dropped) and listed in PROGRESS.md.
+1364
+# Four-character idioms carrying non-quantity numerals (not in the built-ins):
+# 万恶 "utterly evil"; 一波三折 "twists and turns"; 千头万绪 "a myriad tangled
+# threads"; 一了百了 "settled at a stroke"; 千变万化 "changing a thousand ways";
+# 十恶不赦 "guilty past all pardon".
+万恶
+一波三折
+千头万绪
+一了百了
+千变万化
+十恶不赦
+# Personal names containing a numeral glyph: 毛万里 (Mao Wanli) and the surname
+# 万 (Wan) in 姓万 — the 万 is a name, not the count 10000.
+毛万里
+姓万
+# Digitization glitch (ch05): a stray 三 stands in for punctuation in
+# 秘密组织三「军统局」 (should be a semicolon); rendered as ";" and listed in
+# PROGRESS.md. Strip the orphaned 三 after 组织.
+组织三
