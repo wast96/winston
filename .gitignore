@@ -8,6 +8,8 @@
 # ocr_crop.py; also, data/txt and data/zh are the copyrighted text of the
 # book itself, not project work.
 data/png/
+data/png_survey/
+data/txt_survey/
 data/crop/
 data/txt/
 data/zh/
