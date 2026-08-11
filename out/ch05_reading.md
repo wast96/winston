@@ -844,4 +844,34 @@ In the days when she had lost Kashii, her body maimed, the will to live gone out
 
 "Then—then—" Hanzō groaned. "Then there is no guarantee of grace at all?"
 
-"It is not a thing of guarantees. You must not look for such a thing. Deus is almighty; there is nothing he cannot do, if he wills it. But what he does, and how, lies within the heart of the boundless, measureless Deus alone. And Maria-sama, to plead our human cause before Deus, watches over us day and night. Nothing, however small, does she ever overlook. The good, in the end, are raised up to Heaven,
+"It is not a thing of guarantees. You must not look for such a thing. Deus is almighty; there is nothing he cannot do, if he wills it. But what he does, and how, lies within the heart of the boundless, measureless Deus alone. And Maria-sama, to plead our human cause before Deus, watches over us day and night. Nothing, however small, does she ever overlook. The good, in the end, are raised up to Heaven, and receive joy without end; while the wicked are cast down into inheruno, hell, and must suffer punishments of every kind."
+
+"What I want is not paradise after death, nor hell either. It is that my wife be kept safe from the devil—"
+
+"That cannot be. Deus's work embraces the whole of this world; and the life of every single soul, from Adan and Eva down, and of every single soul yet to come until the world's end, must be brought into one with the whole life of the great world at its ending. On the Last Day, at the end of the world, in the Judgment, all is brought to its conclusion."
+
+"And—and until then, what is to become of my wife?"
+
+"That depends, first of all, on the truth and the depth of your compisan."
+
+"What is compisan?" He had, it seemed, quite forgotten the teaching he had once heard here from the Venerable Lorenzo.
+
+"Compisan is confession. It is to confess before Deus, holding nothing back, the sins one has committed; to beg his forgiveness; and to declare in the heart that one will never sin again. If that confession is true and deep, Deus will grant the person's prayer. If it is not, then not even Maria-sama can intercede."
+
+"Then—then Deus demands proof of a man, but a man can get no proof at all from Deus?"
+
+Sister Kiara went white and shook all over. "What a dreadful thing to say!" And then, with a vehemence one would never have looked for in a nun of such gentle eyes and voice, she rounded on him. "Deus is the Maker of all things, the Almighty God. And you—you are a child of sin from your birth, a wretched, defiled creature! How dare you ask proof of Deus!"
+
+Hanzō felt himself being bound fast, hand and foot, in invisible spider's threads, until he could not stir. Sweat him though it might, the oily sweat starting from his brow, this doctrine—built up through long ages by hundreds of millions of people—had its escape ready for every contradiction, every doubt. Once you accept the two premises, "the Maker of all things, the Almighty God" and "man, a created thing, a child of sin," then thereafter, for nineteen hundred years, even the finest minds and hearts of humankind (no—in some ages, just because they were the finest) have been shut fast within the mesh of that net; and within it, now tossing and turning, now content, now in rapture, they have lived out their lives and handed the doctrine down, generation to generation. That a man like Hanzō should lose himself utterly in the net was, if anything, only to be expected.
+
+Hanzō searched his conscience, but could find nothing he ought to confess. And that is exactly what made Hanzō Hanzō.
+
+"I have nothing in particular I need to confess," he said.
+
+At which Sister Kiara gazed a while, steadily, into his face, with eyes full of pity, and then, "You poor, poor man," she murmured, and, bowing her head, withdrew into the inner rooms.
+
+"What's the matter with the damned nun," Hanzō spat. And putting her words out of mind, he looked up once more at the image of Maria. Maria-sama, as though wholly unaware of the talk that had gone on before her, bent on Hanzō her eyes brimming with tender love; and looking into those eyes, the very image of Hatsuko's, he took heart again. "Keep Hatsuko safe! Keep her safe!" he said, over and over; and, laying an offering before the image, he left the temple.
+
+Before long he turned up at his own house at Yono. There Chika, left half a year without so much as a message, was keeping house with an easy face, as though she had seen Hanzō off only yesterday. Her plump, rose-colored skin had grown richer still, breathing with health. Without a word Hanzō fell upon her body, and grappled with her as if to beat out all his pent-up frustration. In his mind not the faintest doubt arose that this was a betrayal of Hatsuko. On the contrary, he even reckoned that to set his body and his temper right in this way was a service he did her.
+
+He wiped off the sweat, went up into the pine wood on the hill behind, and threw himself down in the usual spot, on the dry grass where the sun was thickly shut out.
