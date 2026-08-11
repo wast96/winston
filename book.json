@@ -1,74 +1,672 @@
 {
-  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. For an EPUB source, author it from book.draft.json (produced by scripts/ingest_epub.py) — refine the titles, add English titles, and MERGE or SPLIT units where the source EPUB's file boundaries do not match its logical chapters. Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists.",
-
-  "deliverable": "out/book.epub",
-  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this; never rely on the default.",
-
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
+  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. Chapter ids start 'ch01'. A chapter is translated once out/<id>_reading.md exists.",
+  "deliverable": "out/the_rebel.epub",
+  "title_en": "The Rebel",
+  "subtitle_en": "Four Novellas",
+  "title_zh": "叛逆者",
+  "title_file_as": "Rebel, The",
+  "author_en": "Bi Yu",
+  "author_zh": "畀愚",
+  "author_file_as": "Bi Yu",
+  "translator_en": "Winston",
   "year": 2020,
-  "uid": "urn:uuid:my-book-slug-1",
-
-  "_source_note": "The source is a digital EPUB with reliable text (no OCR). Record its title/edition and anything notable (missing chapters, embedded notes, image-heavy sections) here.",
-  "source_epub": "source.epub",
-
-  "_metadata_note": "Optional richer metadata, all read by the builder: subtitle_en; title_file_as / author_file_as (library sort keys; default to the display forms); translator_en; publication_date (ISO, else year-01-01); rights; source_ref (a dc:source line naming the source edition); subjects (a JSON list; legacy singular 'subject' still honored); series + series_index (calibre metas and the EPUB3 collection); language (default 'en'); source_language (BCP-47, e.g. 'zh'); source_script (lang tag for source-script spans, e.g. 'zh-Hant' or 'zh-Hans'; default 'zh'); cover_image (a file under the project or data/ dirs, copied byte-identical); modified (deterministic dcterms:modified stamp, default 2026-01-01T00:00:00Z -- rebuilds are byte-identical); deliverable (output path used when the builder/qa get no argv); uid (kept verbatim unless it is a malformed urn:uuid, which is replaced by a deterministic UUIDv5 of title_en). The source book's own notes go in source_notes.json, a second stream kept separate from the translator's notes.json.",
-
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212;, &#160;), never named entities. If omitted, a generic method note is generated.",
-  "translator_note": [
-    "This is an English translation of <i>中文書名</i>, made from the digital source EPUB.",
-    "Say here what the register decisions were, who the author is, and how any editorial choices (the source's own notes, ambiguous passages, cut material) were handled."
+  "publication_date": "2020-06-01",
+  "publisher": "People's Literature Publishing House (人民文学出版社)",
+  "language": "en",
+  "source_language": "zh",
+  "source_script": "zh-Hans",
+  "rights": "Translation © 2026. Original text © Bi Yu. This English translation is a study edition.",
+  "source_ref": "叛逆者 (Bi Yu), People's Literature Publishing House, 2020 (digital EPUB edition).",
+  "series": "Winston Translations",
+  "series_index": 10,
+  "subjects": [
+    "Fiction/Historical",
+    "Fiction/War & Military",
+    "Fiction/Espionage",
+    "Fiction/Short Stories (single author)",
+    "China -- History -- 1937-1945 -- Fiction",
+    "Shanghai (China) -- Fiction"
   ],
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (source), title_en, and OPTIONAL 'part' (a label like 'Part One. ...'; consecutive chapters sharing it are grouped in the TOC). Keep 'src' (the source spine href, optionally with #anchor) and 'chars' (source character count, from ingest) so the survey can size batches; 'text_file' points at the extracted source text for that unit. Each section: id (ch01s01..), section (int), title, title_en, src, chars, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front: the survey and the skeleton EPUB are built from it before any translation.",
+  "cover_image": "data/figs/cover00144.jpeg",
+  "uid": null,
+  "modified": "2026-01-01T00:00:00Z",
+  "description": "Four novellas of the secret war in Republican-era China by Bi Yu. The title story follows Lin Nansheng, a Nationalist intelligence agent whose loyalties are remade across the war against Japan and the civil war that follows; the companion stories -- The Postman, Potassium Cyanide, and Rouge -- move through the same world of Shanghai spycraft, occupation, and divided allegiance. Annotated English translation with footnotes and a glossary for readers with no background in modern Chinese history.",
+  "_source_note": "Source: digital EPUB of 叛逆者 (Bi Yu), People's Literature Publishing House, first published June 2020. A collection of four novellas: 叛逆者 (The Rebel, installments 1-14), 邮差 (The Postman, installments 1-15 plus a 后记/afterword coda), 氰化钾 (Potassium Cyanide, 1-10), and 胭脂 (Rouge, 1-11). The source numbers these as 51 continuous chapters (第1章..第51章); modeled here as 51 translation units grouped into four parts. Three spine documents are NOT chapters and are excluded: Text/cover_page.xhtml (cover image, reused as the EPUB cover), Text/part0000.xhtml (版权信息 copyright/imprint page), and Text/part0001.xhtml (目录 source table of contents, regenerated by the build). No source has its own footnotes/endnotes (grepped: none present). One image in the source: the cover.",
+  "translator_note": [
+    "This is an English translation of <i>叛逆者</i> (<i>The Rebel</i>) by Bi Yu, a collection of four novellas of the secret intelligence war in China during the war against Japan and the civil war that followed. It was made from the digital source EPUB (People's Literature Publishing House, 2020).",
+    "The stories are set in the world of Republican-era Shanghai spycraft: the Nationalist secret services, the Wang Jingwei collaborationist regime and its intelligence apparatus, the foreign concessions, and the occupation. Footnotes supply the historical people, places, institutions, and customs a reader with no background in the period would otherwise miss; the glossary collects recurring terms and names. Where the source states something a historian would dispute, the translation renders it faithfully and the note records the discrepancy.",
+    "Register aims at natural, literary contemporary English while preserving the original's restraint and its shifts between narration and terse dialogue. Ambiguities and any digitization glitches in the source are handled visibly rather than smoothed over."
+  ],
+  "_structure_note": "51 chapters in reading order, grouped by the optional 'part' field into the four novellas. 'src' is the source spine href; 'chars' the source character count; 'text_file' the extracted source text.",
   "structure": [
     {
       "level": 1,
       "id": "ch01",
       "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "src": "text/chapter01.xhtml",
-      "chars": 8200,
-      "text_file": "data/src/01_chapter01.txt",
-      "sections": [
-        {
-          "id": "ch01s01",
-          "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "src": "text/chapter01.xhtml#sec1",
-          "chars": 4100,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)"
-            }
-          ]
-        },
-        {
-          "id": "ch01s02",
-          "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "src": "text/chapter01.xhtml#sec2",
-          "chars": 4100
-        }
-      ]
+      "part": "The Rebel · 叛逆者",
+      "title": "第1章 叛逆者（1）",
+      "title_en": "1",
+      "src": "Text/part0002.xhtml",
+      "chars": 2722,
+      "text_file": "data/src/04_part0002.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch02",
+      "chapter": 2,
+      "part": "The Rebel · 叛逆者",
+      "title": "第2章 叛逆者（2）",
+      "title_en": "2",
+      "src": "Text/part0003.xhtml",
+      "chars": 2692,
+      "text_file": "data/src/05_part0003.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch03",
+      "chapter": 3,
+      "part": "The Rebel · 叛逆者",
+      "title": "第3章 叛逆者（3）",
+      "title_en": "3",
+      "src": "Text/part0004.xhtml",
+      "chars": 2495,
+      "text_file": "data/src/06_part0004.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch04",
+      "chapter": 4,
+      "part": "The Rebel · 叛逆者",
+      "title": "第4章 叛逆者（4）",
+      "title_en": "4",
+      "src": "Text/part0005.xhtml",
+      "chars": 2652,
+      "text_file": "data/src/07_part0005.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch05",
+      "chapter": 5,
+      "part": "The Rebel · 叛逆者",
+      "title": "第5章 叛逆者（5）",
+      "title_en": "5",
+      "src": "Text/part0006.xhtml",
+      "chars": 2043,
+      "text_file": "data/src/08_part0006.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch06",
+      "chapter": 6,
+      "part": "The Rebel · 叛逆者",
+      "title": "第6章 叛逆者（6）",
+      "title_en": "6",
+      "src": "Text/part0007.xhtml",
+      "chars": 2445,
+      "text_file": "data/src/09_part0007.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch07",
+      "chapter": 7,
+      "part": "The Rebel · 叛逆者",
+      "title": "第7章 叛逆者（7）",
+      "title_en": "7",
+      "src": "Text/part0008.xhtml",
+      "chars": 1854,
+      "text_file": "data/src/10_part0008.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch08",
+      "chapter": 8,
+      "part": "The Rebel · 叛逆者",
+      "title": "第8章 叛逆者（8）",
+      "title_en": "8",
+      "src": "Text/part0009.xhtml",
+      "chars": 3050,
+      "text_file": "data/src/11_part0009.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch09",
+      "chapter": 9,
+      "part": "The Rebel · 叛逆者",
+      "title": "第9章 叛逆者（9）",
+      "title_en": "9",
+      "src": "Text/part0010.xhtml",
+      "chars": 3020,
+      "text_file": "data/src/12_part0010.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch10",
+      "chapter": 10,
+      "part": "The Rebel · 叛逆者",
+      "title": "第10章 叛逆者（10）",
+      "title_en": "10",
+      "src": "Text/part0011.xhtml",
+      "chars": 2324,
+      "text_file": "data/src/13_part0011.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch11",
+      "chapter": 11,
+      "part": "The Rebel · 叛逆者",
+      "title": "第11章 叛逆者（11）",
+      "title_en": "11",
+      "src": "Text/part0012.xhtml",
+      "chars": 3218,
+      "text_file": "data/src/14_part0012.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch12",
+      "chapter": 12,
+      "part": "The Rebel · 叛逆者",
+      "title": "第12章 叛逆者（12）",
+      "title_en": "12",
+      "src": "Text/part0013.xhtml",
+      "chars": 2687,
+      "text_file": "data/src/15_part0013.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch13",
+      "chapter": 13,
+      "part": "The Rebel · 叛逆者",
+      "title": "第13章 叛逆者（13）",
+      "title_en": "13",
+      "src": "Text/part0014.xhtml",
+      "chars": 2990,
+      "text_file": "data/src/16_part0014.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch14",
+      "chapter": 14,
+      "part": "The Rebel · 叛逆者",
+      "title": "第14章 叛逆者（14）",
+      "title_en": "14",
+      "src": "Text/part0015.xhtml",
+      "chars": 1968,
+      "text_file": "data/src/17_part0015.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch15",
+      "chapter": 15,
+      "part": "The Postman · 邮差",
+      "title": "第15章 邮差（1）",
+      "title_en": "1",
+      "src": "Text/part0016.xhtml",
+      "chars": 2155,
+      "text_file": "data/src/18_part0016.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch16",
+      "chapter": 16,
+      "part": "The Postman · 邮差",
+      "title": "第16章 邮差（2）",
+      "title_en": "2",
+      "src": "Text/part0017.xhtml",
+      "chars": 1505,
+      "text_file": "data/src/19_part0017.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch17",
+      "chapter": 17,
+      "part": "The Postman · 邮差",
+      "title": "第17章 邮差（3）",
+      "title_en": "3",
+      "src": "Text/part0018.xhtml",
+      "chars": 2344,
+      "text_file": "data/src/20_part0018.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch18",
+      "chapter": 18,
+      "part": "The Postman · 邮差",
+      "title": "第18章 邮差（4）",
+      "title_en": "4",
+      "src": "Text/part0019.xhtml",
+      "chars": 1318,
+      "text_file": "data/src/21_part0019.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch19",
+      "chapter": 19,
+      "part": "The Postman · 邮差",
+      "title": "第19章 邮差（5）",
+      "title_en": "5",
+      "src": "Text/part0020.xhtml",
+      "chars": 1898,
+      "text_file": "data/src/22_part0020.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch20",
+      "chapter": 20,
+      "part": "The Postman · 邮差",
+      "title": "第20章 邮差（6）",
+      "title_en": "6",
+      "src": "Text/part0021.xhtml",
+      "chars": 2553,
+      "text_file": "data/src/23_part0021.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch21",
+      "chapter": 21,
+      "part": "The Postman · 邮差",
+      "title": "第21章 邮差（7）",
+      "title_en": "7",
+      "src": "Text/part0022.xhtml",
+      "chars": 2917,
+      "text_file": "data/src/24_part0022.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch22",
+      "chapter": 22,
+      "part": "The Postman · 邮差",
+      "title": "第22章 邮差（8）",
+      "title_en": "8",
+      "src": "Text/part0023.xhtml",
+      "chars": 2266,
+      "text_file": "data/src/25_part0023.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch23",
+      "chapter": 23,
+      "part": "The Postman · 邮差",
+      "title": "第23章 邮差（9）",
+      "title_en": "9",
+      "src": "Text/part0024.xhtml",
+      "chars": 2203,
+      "text_file": "data/src/26_part0024.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch24",
+      "chapter": 24,
+      "part": "The Postman · 邮差",
+      "title": "第24章 邮差（10）",
+      "title_en": "10",
+      "src": "Text/part0025.xhtml",
+      "chars": 2709,
+      "text_file": "data/src/27_part0025.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch25",
+      "chapter": 25,
+      "part": "The Postman · 邮差",
+      "title": "第25章 邮差（11）",
+      "title_en": "11",
+      "src": "Text/part0026.xhtml",
+      "chars": 2029,
+      "text_file": "data/src/28_part0026.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch26",
+      "chapter": 26,
+      "part": "The Postman · 邮差",
+      "title": "第26章 邮差（12）",
+      "title_en": "12",
+      "src": "Text/part0027.xhtml",
+      "chars": 3154,
+      "text_file": "data/src/29_part0027.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch27",
+      "chapter": 27,
+      "part": "The Postman · 邮差",
+      "title": "第27章 邮差（13）",
+      "title_en": "13",
+      "src": "Text/part0028.xhtml",
+      "chars": 1536,
+      "text_file": "data/src/30_part0028.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch28",
+      "chapter": 28,
+      "part": "The Postman · 邮差",
+      "title": "第28章 邮差（14）",
+      "title_en": "14",
+      "src": "Text/part0029.xhtml",
+      "chars": 1733,
+      "text_file": "data/src/31_part0029.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch29",
+      "chapter": 29,
+      "part": "The Postman · 邮差",
+      "title": "第29章 邮差（15）",
+      "title_en": "15",
+      "src": "Text/part0030.xhtml",
+      "chars": 1805,
+      "text_file": "data/src/32_part0030.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch30",
+      "chapter": 30,
+      "part": "The Postman · 邮差",
+      "title": "第30章 后记",
+      "title_en": "Afterword",
+      "src": "Text/part0031.xhtml",
+      "chars": 287,
+      "text_file": "data/src/33_part0031.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch31",
+      "chapter": 31,
+      "part": "Potassium Cyanide · 氰化钾",
+      "title": "第31章 氰化钾（1）",
+      "title_en": "1",
+      "src": "Text/part0032.xhtml",
+      "chars": 3109,
+      "text_file": "data/src/34_part0032.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch32",
+      "chapter": 32,
+      "part": "Potassium Cyanide · 氰化钾",
+      "title": "第32章 氰化钾（2）",
+      "title_en": "2",
+      "src": "Text/part0033.xhtml",
+      "chars": 3132,
+      "text_file": "data/src/35_part0033.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch33",
+      "chapter": 33,
+      "part": "Potassium Cyanide · 氰化钾",
+      "title": "第33章 氰化钾（3）",
+      "title_en": "3",
+      "src": "Text/part0034.xhtml",
+      "chars": 3214,
+      "text_file": "data/src/36_part0034.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch34",
+      "chapter": 34,
+      "part": "Potassium Cyanide · 氰化钾",
+      "title": "第34章 氰化钾（4）",
+      "title_en": "4",
+      "src": "Text/part0035.xhtml",
+      "chars": 3246,
+      "text_file": "data/src/37_part0035.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch35",
+      "chapter": 35,
+      "part": "Potassium Cyanide · 氰化钾",
+      "title": "第35章 氰化钾（5）",
+      "title_en": "5",
+      "src": "Text/part0036.xhtml",
+      "chars": 2382,
+      "text_file": "data/src/38_part0036.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch36",
+      "chapter": 36,
+      "part": "Potassium Cyanide · 氰化钾",
+      "title": "第36章 氰化钾（6）",
+      "title_en": "6",
+      "src": "Text/part0037.xhtml",
+      "chars": 2453,
+      "text_file": "data/src/39_part0037.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch37",
+      "chapter": 37,
+      "part": "Potassium Cyanide · 氰化钾",
+      "title": "第37章 氰化钾（7）",
+      "title_en": "7",
+      "src": "Text/part0038.xhtml",
+      "chars": 3041,
+      "text_file": "data/src/40_part0038.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch38",
+      "chapter": 38,
+      "part": "Potassium Cyanide · 氰化钾",
+      "title": "第38章 氰化钾（8）",
+      "title_en": "8",
+      "src": "Text/part0039.xhtml",
+      "chars": 4356,
+      "text_file": "data/src/41_part0039.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch39",
+      "chapter": 39,
+      "part": "Potassium Cyanide · 氰化钾",
+      "title": "第39章 氰化钾（9）",
+      "title_en": "9",
+      "src": "Text/part0040.xhtml",
+      "chars": 3169,
+      "text_file": "data/src/42_part0040.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch40",
+      "chapter": 40,
+      "part": "Potassium Cyanide · 氰化钾",
+      "title": "第40章 氰化钾（10）",
+      "title_en": "10",
+      "src": "Text/part0041.xhtml",
+      "chars": 588,
+      "text_file": "data/src/43_part0041.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch41",
+      "chapter": 41,
+      "part": "Rouge · 胭脂",
+      "title": "第41章 胭脂（1）",
+      "title_en": "1",
+      "src": "Text/part0042.xhtml",
+      "chars": 1580,
+      "text_file": "data/src/44_part0042.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch42",
+      "chapter": 42,
+      "part": "Rouge · 胭脂",
+      "title": "第42章 胭脂（2）",
+      "title_en": "2",
+      "src": "Text/part0043.xhtml",
+      "chars": 2244,
+      "text_file": "data/src/45_part0043.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch43",
+      "chapter": 43,
+      "part": "Rouge · 胭脂",
+      "title": "第43章 胭脂（3）",
+      "title_en": "3",
+      "src": "Text/part0044.xhtml",
+      "chars": 2126,
+      "text_file": "data/src/46_part0044.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch44",
+      "chapter": 44,
+      "part": "Rouge · 胭脂",
+      "title": "第44章 胭脂（4）",
+      "title_en": "4",
+      "src": "Text/part0045.xhtml",
+      "chars": 2149,
+      "text_file": "data/src/47_part0045.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch45",
+      "chapter": 45,
+      "part": "Rouge · 胭脂",
+      "title": "第45章 胭脂（5）",
+      "title_en": "5",
+      "src": "Text/part0046.xhtml",
+      "chars": 2947,
+      "text_file": "data/src/48_part0046.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch46",
+      "chapter": 46,
+      "part": "Rouge · 胭脂",
+      "title": "第46章 胭脂（6）",
+      "title_en": "6",
+      "src": "Text/part0047.xhtml",
+      "chars": 2042,
+      "text_file": "data/src/49_part0047.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch47",
+      "chapter": 47,
+      "part": "Rouge · 胭脂",
+      "title": "第47章 胭脂（7）",
+      "title_en": "7",
+      "src": "Text/part0048.xhtml",
+      "chars": 1542,
+      "text_file": "data/src/50_part0048.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch48",
+      "chapter": 48,
+      "part": "Rouge · 胭脂",
+      "title": "第48章 胭脂（8）",
+      "title_en": "8",
+      "src": "Text/part0049.xhtml",
+      "chars": 2077,
+      "text_file": "data/src/51_part0049.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch49",
+      "chapter": 49,
+      "part": "Rouge · 胭脂",
+      "title": "第49章 胭脂（9）",
+      "title_en": "9",
+      "src": "Text/part0050.xhtml",
+      "chars": 2459,
+      "text_file": "data/src/52_part0050.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch50",
+      "chapter": 50,
+      "part": "Rouge · 胭脂",
+      "title": "第50章 胭脂（10）",
+      "title_en": "10",
+      "src": "Text/part0051.xhtml",
+      "chars": 973,
+      "text_file": "data/src/53_part0051.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch51",
+      "chapter": 51,
+      "part": "Rouge · 胭脂",
+      "title": "第51章 胭脂（11）",
+      "title_en": "11",
+      "src": "Text/part0052.xhtml",
+      "chars": 536,
+      "text_file": "data/src/54_part0052.txt"
     }
   ],
-
-  "_batches_note": "Your work plan (proposed by scripts/survey.py, approved by the commissioner). Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
   "batches": [
     {
       "batch": "B01",
-      "title": "ch1",
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
+      "title": "The Rebel 1-5",
+      "first_section": "ch01",
+      "last_section": "ch05"
+    },
+    {
+      "batch": "B02",
+      "title": "The Rebel 6-10",
+      "first_section": "ch06",
+      "last_section": "ch10"
+    },
+    {
+      "batch": "B03",
+      "title": "The Rebel 11-14",
+      "first_section": "ch11",
+      "last_section": "ch14"
+    },
+    {
+      "batch": "B04",
+      "title": "The Postman 1-6",
+      "first_section": "ch15",
+      "last_section": "ch20"
+    },
+    {
+      "batch": "B05",
+      "title": "The Postman 7-11",
+      "first_section": "ch21",
+      "last_section": "ch25"
+    },
+    {
+      "batch": "B06",
+      "title": "The Postman 12-15 + Afterword",
+      "first_section": "ch26",
+      "last_section": "ch30"
+    },
+    {
+      "batch": "B07",
+      "title": "Potassium Cyanide 1-3",
+      "first_section": "ch31",
+      "last_section": "ch33"
+    },
+    {
+      "batch": "B08",
+      "title": "Potassium Cyanide 4-7",
+      "first_section": "ch34",
+      "last_section": "ch37"
+    },
+    {
+      "batch": "B09",
+      "title": "Potassium Cyanide 8-10",
+      "first_section": "ch38",
+      "last_section": "ch40"
+    },
+    {
+      "batch": "B10",
+      "title": "Rouge 1-6",
+      "first_section": "ch41",
+      "last_section": "ch46"
+    },
+    {
+      "batch": "B11",
+      "title": "Rouge 7-11 + back matter & whole-book QA",
+      "first_section": "ch47",
+      "last_section": "ch51"
     }
   ]
 }
