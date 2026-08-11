@@ -1,93 +1,76 @@
 {
-  "_README": "This is the single source of the book's structure. The build is driven ENTIRELY by this file. Fill in every field, delete the _comment/_README keys or leave them (the builder ignores unknown keys). Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists. Cite the book's own PRINTED FOLIO in notes, never the PDF page.",
+  "_README": "Single source of the book's structure; the build is driven entirely by this file. Owl's Castle is a flat novel of 19 titled sections (no numbered chapters, no sub-sections), so each titled section is modelled as a top-level chapter (ch01..). Cite the book's own PRINTED FOLIO in notes, never the PDF page. NOTE the page-offset wrinkle recorded in source_note.",
 
-  "deliverable": "out/book.epub",
-  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this; never rely on the default.",
+  "deliverable": "out/owls-castle.epub",
 
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 1933,
-  "uid": "urn:uuid:my-book-slug-1",
-
-  "_metadata_note": "EPUB metadata for e-reader compatibility (Kindle, Apple Books). All values should be in English. publisher is the original publisher; description is a short blurb; subject is a list of genre/topic strings; language defaults to 'en'. publication_date is ISO format (YYYY-MM-DD) of the original publication; if only the year is known, use YYYY-01-01. If uid is missing, or is a urn:uuid whose tail is not a real UUID (like this stub's), the builder substitutes a deterministic UUIDv5 of title_en; a malformed urn:uuid once made Apple Books refuse a book.",
-
-  "_metadata_schema": "OPTIONAL richer fields the builder also reads: subtitle_en; title_file_as / author_file_as (sort keys; default to the display forms); translator_en (dc:contributor, MARC role trl); rights; source_ref (dc:source, e.g. the scanned edition or a library call number); subjects (list; preferred over the legacy 'subject', which is still honored); series + series_index (calibre metas plus EPUB3 belongs-to-collection); source_language (BCP-47 of the original, emitted as dcterms:language); source_script (lang tag for source-script spans, e.g. 'zh-Hant' or 'zh-Hans'; default 'zh'); cover_image (path under data/figs/ or data/png/, copied byte-identical; without one a typographic cover is generated when Pillow and fonts allow); modified (RFC-3339 dcterms:modified stamp; defaults to a FIXED value so rebuilds are byte-identical — bump it when you ship a meaningfully new edition).",
-  "publisher": "",
-  "description": "",
-  "subject": [],
+  "title_en": "The Owl's Castle",
+  "subtitle_en": "A Novel of the Iga Ninja",
+  "title_zh": "梟の城",
+  "title_file_as": "Owl's Castle, The",
+  "author_en": "Shiba Ryōtarō",
+  "author_zh": "司馬遼太郎",
+  "author_file_as": "Shiba, Ryōtarō",
+  "translator_en": "",
+  "year": 1959,
+  "publication_date": "1959-09-01",
+  "publisher": "Shinchōsha (Shinchō Bunko)",
   "language": "en",
-  "publication_date": "",
+  "source_language": "ja",
+  "source_script": "ja",
+  "rights": "English translation and apparatus © 2026. Original work 梟の城 © the Estate of Shiba Ryōtarō.",
+  "source_ref": "Shinchō Bunko edition, ISBN 978-4-10-115201-1 (¥890); the novel was first published by Kōdansha, September 1959 (Shōwa 34). Scanned by the Internet Archive, 2024 (fukuronoshiro0000ryot).",
+  "description": "Shiba Ryōtarō's debut novel and winner of the 42nd Naoki Prize (1960). In the last years of the sixteenth century, with the country newly unified under Toyotomi Hideyoshi, an Iga ninja named Tsuzura Jūzō, whose family was slaughtered in Oda Nobunaga's invasion of the ninja province, is hired for one last impossible commission: to assassinate the ruler of Japan. His fellow disciple Kazama Gohei, who has abandoned the shadow arts to climb in the new order, is set against him. Through these two contrasted lives Shiba draws the ninja as he really was, a creature of shadow at the end of his age.",
+  "subjects": [
+    "FICTION / Historical",
+    "FICTION / Action & Adventure",
+    "FICTION / World Literature / Japan",
+    "Ninja",
+    "Japan / Azuchi-Momoyama period, 1568-1600"
+  ],
+  "series": "Winston Translations",
+  "series_index": 10,
 
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212; em dash, &#160; nbsp), never named entities. If omitted, a generic method note is generated.",
+  "cover_image": "",
+
+  "modified": "2026-08-11T00:00:00Z",
+
   "translator_note": [
-    "This is an English translation of <i>中文書名</i>, from an image-only scan with no digital text layer.",
-    "Say here how the text was recovered and verified, what the register decisions were, who the author is and how to read the source, and how any damaged or missing passages were handled. Keep it honest about method and provenance."
+    "This is an English translation of <i>梟の城</i> (<i>Fukurō no shiro</i>), Shiba Ryōtarō's first novel, made from an image-only scan of the Shinchō Bunko paperback with no digital text layer. The novel was serialised in 1958&#8211;59, published in book form by Kōdansha in September 1959, and won the 42nd Naoki Prize the following year. There is no prior published English translation of the novel; the title has reached English only through two film adaptations, released as <i>Castle of Owls</i> (1963) and <i>Owls' Castle</i> (1999).",
+    "The source is a vertical, right-to-left text set in the traditional way, with <i>furigana</i> reading-glosses printed beside the harder characters. The page images were recovered by optical character recognition tuned for vertical Japanese, and every proper name, number, and doubtful reading was checked against a magnified crop of the scan before it was translated. The scanned copy is missing the first of the book's two table-of-contents leaves, and its page numbering drifts by a leaf or two in the middle of the book; the section structure was rebuilt from the body itself and each opener's folio read directly off the page.",
+    "The apparatus is written for a reader with no Japanese and no background in the country's history. Footnotes supply the historical figures (Hideyoshi, Ishida Mitsunari, Tokugawa Ieyasu), the geography of Iga and Kōga and the capital, and the customs, offices and objects of the late sixteenth century that a Japanese reader would take for granted; the glossary fixes one English rendering per name. Where the scan is damaged or a reading is uncertain, the note says so rather than guessing.",
+    "Section titles are the author's own; several are evocative codenames or emblems (<i>Water Dog</i>, <i>Carnage</i>, <i>The Paulownia Crest</i>) rather than plain place-names, and are footnoted where the sense is not obvious in English."
   ],
 
-  "_source_note": "Free-text provenance: where the scan came from, how many PDF pages, seal/artifact warnings, whether the PDF has bookmarks. Informational only.",
-  "source_note": "Image-only PDF scan; NN pages; no text layer. Note any library seal, dark-edge artifacts, or embedded bookmarks here.",
+  "source_note": "Image-only PDF scan from the Internet Archive (fukuronoshiro0000ryot), 674 pages, no usable text layer (the Archive's own OCR misread the vertical Japanese as Latin and is unusable). Vertical, right-to-left; furigana throughout; all page furniture (running head 梟の城, folio) is at the TOP of the page, cropped away for OCR. The scan is MISSING the first table-of-contents leaf (the sections before 伊賀ノ山); the full section list was recovered from the second TOC leaf plus the body. PAGE-OFFSET WRINKLE: printed folio == PDF render page for folios 7-302 and again from 425 to the end, but drifts by +2 render pages across folios ~338-397 (an unnumbered leaf around folio 302-338, and an apparent 1-leaf scan gap around folio 397-425). READ folios off the scan in that middle span; do not compute. No embedded bookmarks.",
 
-  "_offset_note": "The PDF-page-to-printed-folio offset usually DRIFTS as unpaginated plates accumulate. Do NOT use a constant formula. Record per-section pdf_page/printed_page anchors below and READ the folio off the scan at each opener.",
+  "pdf_end": 660,
+  "printed_end": 660,
 
-  "_end_note": "The last PDF page and printed folio of the body text. Set these so the LAST chapter's/section's page length is known in the survey; without them its length shows as '?'.",
-  "pdf_end": 292,
-  "printed_end": 236,
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (zh), title_en, pdf_page + printed_page of its opener, and a sections list. OPTIONAL 'part': a label like 'Part One. ...' — consecutive chapters sharing a part are grouped under it in the TOC. Each section: id (ch01s01..), section (int), title (zh), title_en, pdf_page, printed_page, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en, pdf_page, printed_page). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front (from the TOC or PDF bookmarks): the survey and the skeleton EPUB are built from it before any translation.",
   "structure": [
-    {
-      "level": 1,
-      "id": "ch01",
-      "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "pdf_page": 27,
-      "printed_page": 1,
-      "sections": [
-        {
-          "id": "ch01s01",
-          "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "pdf_page": 27,
-          "printed_page": 1,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)",
-              "pdf_page": 27,
-              "printed_page": 1
-            }
-          ]
-        },
-        {
-          "id": "ch01s02",
-          "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "pdf_page": 33,
-          "printed_page": 7
-        }
-      ]
-    }
+    {"level": 1, "id": "ch01", "chapter": 1, "title": "おとぎ峠", "title_en": "Otogi Pass", "pdf_page": 7, "printed_page": 7},
+    {"level": 1, "id": "ch02", "chapter": 2, "title": "濡れ大仏", "title_en": "The Rain-Soaked Buddha", "pdf_page": 64, "printed_page": 64},
+    {"level": 1, "id": "ch03", "chapter": 3, "title": "白い法印", "title_en": "The White Hōin", "pdf_page": 90, "printed_page": 90},
+    {"level": 1, "id": "ch04", "chapter": 4, "title": "木さると五平", "title_en": "Kisaru and Gohei", "pdf_page": 124, "printed_page": 124},
+    {"level": 1, "id": "ch05", "chapter": 5, "title": "羅刹谷", "title_en": "Rakshasa Valley", "pdf_page": 149, "printed_page": 149},
+    {"level": 1, "id": "ch06", "chapter": 6, "title": "忍び文字", "title_en": "The Ninja Cipher", "pdf_page": 167, "printed_page": 167},
+    {"level": 1, "id": "ch07", "chapter": 7, "title": "聚楽", "title_en": "Juraku", "pdf_page": 207, "printed_page": 207},
+    {"level": 1, "id": "ch08", "chapter": 8, "title": "京の盗賊", "title_en": "The Thief of the Capital", "pdf_page": 237, "printed_page": 237},
+    {"level": 1, "id": "ch09", "chapter": 9, "title": "甲賀ノ摩利", "title_en": "Mari of Kōga", "pdf_page": 302, "printed_page": 302},
+    {"level": 1, "id": "ch10", "chapter": 10, "title": "奇妙な事故", "title_en": "A Strange Accident", "pdf_page": 340, "printed_page": 338},
+    {"level": 1, "id": "ch11", "chapter": 11, "title": "伊賀ノ山", "title_en": "The Hills of Iga", "pdf_page": 375, "printed_page": 373},
+    {"level": 1, "id": "ch12", "chapter": 12, "title": "吉野天人", "title_en": "The Celestial Maiden of Yoshino", "pdf_page": 399, "printed_page": 397},
+    {"level": 1, "id": "ch13", "chapter": 13, "title": "水狗", "title_en": "The Water Dog", "pdf_page": 425, "printed_page": 425},
+    {"level": 1, "id": "ch14", "chapter": 14, "title": "修羅", "title_en": "Carnage", "pdf_page": 456, "printed_page": 456},
+    {"level": 1, "id": "ch15", "chapter": 15, "title": "五三ノ桐", "title_en": "The Paulownia Crest", "pdf_page": 508, "printed_page": 508},
+    {"level": 1, "id": "ch16", "chapter": 16, "title": "甘南備山", "title_en": "Mount Kannabi", "pdf_page": 566, "printed_page": 566},
+    {"level": 1, "id": "ch17", "chapter": 17, "title": "尾行", "title_en": "The Shadowing", "pdf_page": 584, "printed_page": 584},
+    {"level": 1, "id": "ch18", "chapter": 18, "title": "石田屋敷", "title_en": "The Ishida Mansion", "pdf_page": 591, "printed_page": 591},
+    {"level": 1, "id": "ch19", "chapter": 19, "title": "伏見城", "title_en": "Fushimi Castle", "pdf_page": 608, "printed_page": 608},
+    {"level": 1, "id": "ch20", "chapter": 20, "title": "解説（村松剛）", "title_en": "Afterword (by Muramatsu Tsuyoshi)", "pdf_page": 653, "printed_page": 653}
   ],
 
-  "_batches_note": "Your work plan: split the book into batches (a chapter, or a run of sections) and do each end to end. Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
-  "batches": [
-    {
-      "batch": "B01",
-      "title": "ch1",
-      "pdf_range": [27, 42],
-      "printed_range": [1, 16],
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
-    }
-  ],
+  "_batches_note": "Proposed by survey.py; final plan approved by the commissioner. The 解説 (ch20) is a third-party critical essay; translating it is the commissioner's call (see SURVEY.md).",
+  "batches": [],
 
-  "_back_matter_note": "Optional. If the book has a publisher's errata table or a colophon you want reproduced as translator's back matter, put the data in back_matter.json (see that file). This list is just a human record of what exists.",
   "back_matter": []
 }
