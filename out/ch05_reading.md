@@ -646,4 +646,32 @@ The manner of this meeting shows to perfection how Hideyoshi went about winning 
 
 Nobukatsu, taken aback at such extravagant courtesy, flushed and flustered, and stammered out, "I too—am truly glad of it."
 
-Cutting in on the words, Hideyoshi pointed to the sky, where just then the clouds had broken and the sun had shown its face, and
+Cutting in on the words, Hideyoshi pointed to the sky, where just then the clouds had broken and the sun had shown its face, and:
+
+"Look there! The very sun has come out for gladness. It rejoices, no doubt, that Japan is to have peace at last. And that we can look up at this mild, smiling sun—that too is owing, wholly, to your lordship's great goodness. This kindness Hideyoshi will not forget so long as he lives."
+
+Dragging in even the sun to praise him, he so worked on Nobukatsu that the man melted quite away. That in the time after the Komaki-Nagakute war Ieyasu had planted none of Hanzō's ninja about Nobukatsu's person was what, in this sudden reversal, had brought such a state of things to pass.
+
+Even Ieyasu, at the news, bit his navel for chagrin. But to act on it would only lower him the further in men's eyes. When word came from Nobukatsu, he had no choice. "Excellent news indeed," he answered. "All the people of the realm will rejoice, I am sure." And he sent his congratulations to Hideyoshi as well. So Ieyasu lost his pretext for opposing Hideyoshi, had to make peace, and found himself forced to consent to give up Ogimaru as Hideyoshi's adopted son.
+
+Ieyasu was in the tea-room in the garden of Hamamatsu castle, making tea to settle his mind. At such times he always called for Honda Heihachirō Tadakatsu, to vent his spleen. Ieyasu was forty-three, Tadakatsu thirty-six; and seven years the younger though he was, Tadakatsu had the knack of quieting his lord. He was by no means only a man who could read what lay in another's belly; he could do bold deeds of arms too, as he had shown at Nagakute.
+
+When Honda came, Ieyasu suddenly went crimson to the roots of his hair and burst out shouting.
+
+"Why must it be we who hand over a hostage? The war of Komaki and Nagakute was a draw. No—the advantage was well on our side!"
+
+"I feel for what is in your heart, my lord. Truly the advantage in the war was ours—and that with a third of the enemy's numbers. In all the realm there is none but marvels at your generalship."
+
+"It was but five years ago I made Nobuyasu cut his belly against his will. And now I must send Ogimaru too, for a hostage?"
+
+"Truly, truly, it is a thing there are no words for."
+
+"Ogimaru is all fierce temper and a frail body. Eleven years old, and still not eight kan in weight. Even kept here at my knee he is a worry to me. And now this—"
+
+"You yourself, my lord, tasted the hardships of a hostage in your own boyhood, so I know your grief is the keener; but in this case, though it is called a hostage, he is to be made the adopted son of Hideyoshi, who at fifty has still no son of his own, and, they say, is to come of age as soon as he reaches the capital, and be allotted ten thousand koku in Kawachi. So—"
+
+Having let Honda get so far, Ieyasu changed countenance all at once and said, cutting him short: "Enough—the sight of your face made me want to whine a little, that is all. I give up Ogimaru. If the boy has it in him, he will carve out his own fortune by his own strength; and if not, then even had he come after me, it would have gone ill."
+
+"As you say, my lord—"
+
+"Heihachirō. You were going to say 'but wait,' were you not?"
