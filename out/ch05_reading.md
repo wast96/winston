@@ -610,4 +610,24 @@ Meanwhile Honda Heihachirō Tadakatsu, who had begged for the task of the detach
 
 When Hideyoshi asked who that bold, insolent fellow might be, a captain named Inaba Ittetsu answered, "I saw him once, my lord, years back, at the battle of the Anegawa. A captain with stag's-horns for his helmet-crest, and a white rain-cape: it can be none but Honda Heihachirō."
 
-Said Hideyoshi, "That fellow, taking on my whole army with so paltry a handful—he means to die here and save Ieyasu, I'll be bound. A stout-hearted man. I've quite lost my heart to him. One day I'll surely pluck him loose and make him mine—"
+Said Hideyoshi, "That fellow, taking on my whole army with so paltry a handful—he means to die here and save Ieyasu, I'll be bound. A stout-hearted man. I've quite lost my heart to him. One day I'll surely pluck him loose and make him mine. Not a single arrow at him. Keep your hands off. March on and take no notice." So he ordered.
+
+Honda's men grew more and more nettled and tried every way to bring on a fight, but Hideyoshi would not rise to it. And Ieyasu, warned by the ninja that Hideyoshi was coming, broke off the head-inspection in haste, took the road home by a southerly loop, passed south of the Hakusan wood, and by about four in the afternoon was safely back at Obata castle.
+
+Just about then, along a path between the paddies at the foot of a hill due south of Nagakute, going toward Okazaki, came a vast fat peasant. On his back a small peasant girl was being carried. Now and then, as if remembering it, she would set up a loud wail: "It hurts! It hurts! Do something, can't you!"
+
+She had hurt her left leg below the knee, it seemed, and a cloth was wound thick about it. The fat peasant, now coaxing, now scolding, pushed on along the road. "—Didn't I tell you not to? But no, you would go out, whatever anyone said—and now, having got yourself a bit of a hurt, if only you wouldn't blubber and bawl like this. Call yourself a woman ninja! Listen to me: a ninja, though his very bones be crushed, does not let out a single sound."
+
+And on the instant he yelped. "Ow!—what are you doing?"
+
+"There, you see? You cried out yourself. And all I did was bite the skin of your neck. Ha-ha-ha-ha."
+
+"It wasn't from pain I cried out—I was scolding you. What an impossible creature you are. If the master finds that leg-wound of yours, what then? You'll be thrown out on your ear."
+
+At this the woman on his back drew herself up at once and cried out, high and defiant, "Ha! Thrown out, indeed—I'll walk out on him first! What's he to me, a man like that!"
+
+So that night Ieyasu camped at Komaki castle and Hideyoshi at Ryūsenji, a little over two kilometers to the northeast. Each thought to try a night attack, and each, sensing the other on his guard, thought better of it; and by early next morning they had gone back to their old positions, drawn up facing each other at Komaki. And on to the first of the fifth month the two armies did nothing but strengthen their works; neither made a move, and the days went by.
+
+The ninth of the fourth month, when the battle of Nagakute was fought, is the eighteenth of May by the new calendar. For twenty days after it, day upon day, the heat-haze shimmered mild and the larks wheeled overhead, and the soldiers had hard work to keep from dozing.
+
+On the first of the fifth month Hideyoshi at last ordered a general withdrawal. Leaving garrisons only at Gakuden and Inuyama, he passed by way of Kagamigahara, took two or three of Nobukatsu's nearby castles, went through Ōgaki, and by the twenty-eighth of that month was back in Osaka. Nobukatsu, once Hideyoshi withdrew, went back to Nagashima; and Ieyasu stayed on at Komaki until, on the twelfth of the sixth month, he returned to Kiyosu. And so this strange war of Komaki and Nagakute came to an end.
