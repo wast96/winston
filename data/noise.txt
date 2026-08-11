@@ -98,3 +98,10 @@
 二千二百
 # 千二百(石) = 1,200 koku; same parser limitation — carried "one thousand two hundred"
 千二百
+# --- Owl's Castle (ch04) Japanese entries ---
+# 四条 = Shijō ("Fourth Avenue"), a Kyoto street/bridge/riverbank name — the 四 is the place name, not the count 4 — rendered "Shijō"
+四条
+# 三条 = Sanjō ("Third Avenue"), a Kyoto street; Gohei's official residence — the 三 is the place name, not the count 3 — rendered "Sanjō"
+三条
+# 六波羅 = Rokuhara, a Kyoto district — the 六 is the place name, not the count 6 — rendered "Rokuhara"
+六波羅

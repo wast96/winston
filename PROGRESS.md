@@ -470,3 +470,139 @@ with a one-off byte-preserving script (no stray root keys; content/entity clean)
 ### No figures
 `find_figures.py 90 123` returned nothing; every page eyeballed for line art —
 ch03 is text-only (as ch01–ch02). Recorded as a deliberate empty figure list.
+
+## Batch B04 — ch04 木さると五平 / Kisaru and Gohei (PDF/printed 124-148, offset 0)
+
+**Status: complete.** 25 pages, 286 source paragraphs, ~4.6k English words, 5 new
+footnotes. All checks green (details below). ch01 is the frozen register
+reference; ch04 measured against it and within tolerance (contr 24.0/1k = 1.52x,
+em-dash 21.5/1k, rhythm CV 0.68). The high contraction/dash counts are the
+chapter's nature: it is almost all dialogue, much of it interrupted (source ——),
+rendered faithfully.
+
+The chapter shifts to Kyoto and the OTHER pair. Kisaru, on the Shijō riverbank,
+works a ninja crowd-illusion (めくらまし) — she hypnotises a whole crowd into a
+phantom summer squall under a clear sky. Gohei has been shadowing her; he follows
+her to her lodging in the half-ruined Chinnō-in, where the eccentric monk-abbot
+Iten Gyōzan (who buries himself in the bamboo grove "to become the bamboo") reads
+Gohei at once as a rappa with an evil face. In her room Kisaru interrogates Gohei
+in her father's name; he confesses he has deserted Iga, taken the alias Gero
+Shōbei Yasuji, and now serves Maeda Gen'i, the magistrate of Kyoto, at 200 koku,
+hunting the provinces' spies in the capital. He forces himself on her (a flat,
+un-purpled rape scene), makes her his creature, and extracts that Jūzō is in the
+capital — the lead that could raise him to 1000 koku. Kisaru, wiping Jūzō's face
+from her mind, parts from Iga. The chapter closes on Gohei leaving and a
+muffled-footed woman passing Gyōzan on the path: "It was not Kisaru. ……"
+
+### Tail verified against the scan (rule 4)
+ch04's final sentence runs OFF folio 148 ("赤い口を開けて、") and completes on the
+FIRST lines of folio 149 (the Gohei/Gyōzan alms exchange, then "五平が立ち去った
+あと…それは木さるではなかった。……"), just above the ch05 title 羅刹谷. Folio 149 was
+rendered and read to recover the true continuation; paragraphs 280-286 are faithful
+to it (no invented bridging text). B05 must NOT re-include folio 149's ch04 portion
+(everything before the 羅刹谷 title); ch05's body begins "東山の南に、泉山という…".
+Likewise the ch03-tail line at the very top of folio 124 (体への思慕が…) is ch03's,
+already placed, and is NOT part of ch04.
+
+### Pipeline / engineering
+- Rendered 124-148 (+149 for the tail) at 300 dpi; `ocr_crop.py` with the batch-1
+  crop (L 0.035 R 0.965 T 0.075 B 0.955), `jpn_vert --psm 5`, `--no-furniture-strip`;
+  second read via `ocr_dual.py`. `pgrep -c tesseract` == 0 after every run. No
+  scripts changed.
+- Translated by reading the rendered page images directly; `data/zh/ch04.txt` is
+  the hand-corrected, paragraph-aligned transcription (the parity surface and the
+  crop-verification record). Force-added (data/zh is gitignored).
+- **Crop-verified** off the page image / furigana: the alias 下呂正兵衛康次 (OCR
+  read 康光; the 冫+欠 radical of 次 is unmistakable at 6x — Gero Shōbei **Yasuji**,
+  not Yasumitsu); 蔵縄手ノ鹿次 (furigana くらなわて/ししじ → Kuranawate-no-Shishiji);
+  and all proper names/numbers (如意ヶ岳, 青蓮院, 鴨川, 四条大橋, 祇園, 建仁寺, 松原通,
+  六波羅, 清水, 珍皇院, 以天仰山, 竹ノ上人, 前田玄以, 加藤肥後守, 三条, 二百石, 千石).
+  OCR "人竹" was spurious — the monk is 竹ノ上人 (the Bamboo Saint) and elsewhere
+  bare 竹; folio 124 「艮（うしとら）」 (northeast) was OCR'd as 上/良.
+- **Figures:** none. `find_figures.py 124 148` returned nothing and every page was
+  eyeballed for line art; ch04 is text-only (as ch01-ch03). Empty figure list
+  recorded as a deliberate decision.
+
+### Checks run (all green)
+- **Parity:** 286 | 286 (`check_structure --pairs`, `verify_unit`).
+- **Numbers:** `check_numbers` 0 unresolved over 286 pairs (with `data/noise.txt`).
+  New noise entries — Kyoto place-names whose numeral is the name, not a count:
+  四条 (Shijō), 三条 (Sanjō), 六波羅 (Rokuhara). Every real quantity is carried in
+  the English (二十年 twenty years, 五、六歩 five or six steps, 二百石 two hundred
+  koku, 千石 a thousand koku, 二つ三つ two or three, 八月 eighth month, 半月 half a
+  month, 一間 a single ken). Reworded one line so the parser reads the carried
+  1000 ("a thousand-koku place", not a bare "that thousand-koku").
+- **Entities:** `qc_entities` 0 misses (census 五平×73, 伊賀×15, 仰山×14, 重蔵×8, …).
+  Named Gohei in 8 pronoun-only 五平 paragraphs (STYLE: name once per paragraph the
+  character appears in; pronouns carry the rest). `check_content` OK across all
+  units (ch04 114 name occurrences, all in the paired paragraph).
+- **Alignment:** `check_align` median ratio 10.50; 23 outliers, all short dialogue
+  lines (benign high-ratio inflation; no low-ratio drop). Exit 0.
+- **Apparatus:** `check_apparatus` 0 failures / 0 warnings; 5 note anchors all
+  resolve (`verify_unit`: 5 anchors ok). `build_reading_epub` PASS; `qa_epub`
+  PASS (44 refs / 44 bodies / 44 backlinks, 49 pagebreaks); **epubcheck 0/0/0/0**.
+- **Register:** `check_register --ref out/ch01_reading.md` — within tolerance.
+
+### Regression caught and fixed in-batch
+Adding 木さる → Kisaru as a glossary key retroactively broke ch02's check_content
+(ch02 introduced Kisaru as 木さる with pronoun-carried paragraphs, and passed only
+because 木さる was NOT a glossary key). Removed the 木さる row; the 木猿 entry already
+notes the ch04 spelling. 木さる is therefore uncensused, exactly as in ch02.
+
+### Footnotes — NOT re-noted (already placed in ch01-ch03; cross-referenced)
+Iga/Kōga, rappa/shinobi, jizamurai/gōshi, Tenshō dating (the "1591" fixed here by
+this spring / eighth month), the measures (koku/ken/shaku/chō/ri — 二百石/千石/一間
+carried), the Iga Rebellion, Nobunaga, Hideyoshi, Ieyasu, Honnō-ji, Tōdai-ji (the
+ch02 plot the narration ties Gohei back to), Matsukura Kurando, Sōkyū/the Sakai
+tea-masters. The zodiac double-hours, Aizen Myō-ō, etc. do not recur here.
+
+### Footnotes — new this batch (5, ch04's own first-appearances)
+放下僧 juggler-priests (itinerant entertainer-monks); 如意ヶ岳 Nyoigatake (Higashiyama
+peak, later the Daimonji bonfire slope); the 祇園 Gion aside (not yet a teahouse
+quarter in 1591); 加藤肥後守 = Katō Kiyomasa (why an Iga man in his service was
+killed); 前田玄以 Maeda Gen'i (Hideyoshi's magistrate of Kyoto and his web of
+informers — the office Gohei has entered). Kyoto street/temple geography and the
+novel's own props (Chinnō-in, the Bamboo Saint/Gyōzan, the めくらまし illusion) get
+glossary rows, not footnotes, per STYLE (don't footnote the fiction's own furniture).
+
+### Minor points left unfootnoted (the low-stakes tier)
+The 珍皇院 Chinnō-in and 竹ノ上人 Bamboo Saint are the story's own inventions (evoking
+the real Rokudō-Chinnō-ji); the 土佐旧一条家 (Tosa Ichijō) surname Gohei borrows is a
+passing colour detail. All are glossary rows only. The temple is called both a
+Shingon foundation and its monk a 禅僧 (Zen monk) — Shiba's own slight inconsistency,
+rendered as printed.
+
+### Renderings — reused unchanged (consulted before romanizing)
+Tsuzura Jūzō / 重蔵 Jūzō, Kazama Gohei / 五平 Gohei, Shimotsuge Jirōzaemon /
+次郎左衛門, Kisaru (木さる = 木猿), Matsukura Kurando, Tōdai-ji, Iga, rappa,
+Tenshō, koku/ken/shaku.
+
+### Renderings — added this batch (glossary.json; 21 rows)
+People (8): Maeda Gen'i (前田玄以) / Gen'i (玄以) / Maeda (前田), Katō Higo-no-kami
+(加藤肥後守), Iten Gyōzan (以天仰山) / Gyōzan (仰山), Kuranawate-no-Shishiji
+(蔵縄手ノ鹿次, provisional), Gero Shōbei Yasuji (下呂正兵衛康次, Gohei's alias).
+Places (12): Shijō (四条), Sanjō (三条), the Kamo river (鴨川), Higashiyama (東山),
+Nyoigatake (如意ヶ岳), the Shōren-in (青蓮院), Gion (祇園), Kennin-ji (建仁寺),
+Matsubara road (松原通), Rokuhara (六波羅), Kiyomizu (清水), the Chinnō-in (珍皇院,
+provisional), Tosa (土佐). Terms (1): the Bamboo Saint (竹ノ上人). All added directly
+into people/places/terms sections (no apparatus_merge glossary flatten this batch —
+notes-only merge). Removed one stray row (木さる) after the ch02 regression above.
+
+### Voice sheets — updates
+- **Kazama Gohei (五平):** now a lead. Cold, clerkly, cruel; a beautiful face with
+  "a mean little shadow at the corner of the mouth" when he smiles. To Kisaru he
+  uses superior/intimate わし・じゃ (not the polite ます・です he gave his master in
+  ch01). Has deserted Iga for ambition, serves Maeda Gen'i as a spy-catcher under
+  the alias Gero Shōbei Yasuji, and rapes and recruits his own betrothed without
+  warmth — "a hollow look," "a barefaced emptiness." Means to use her against Jūzō.
+- **Kisaru (木さる):** the crowd-illusion virtuoso (playful, imperious, cheeky as
+  she browbeats the mob), then the fierce ninja-daughter interrogator ("In my
+  father's stead I will ask you"), then broken open: her body betrays "the child in
+  her," Jūzō's face rises unbidden as she is taken, and by the act's end she has
+  "parted from Iga for good." Ends half-believing she loves Gohei, tempted by the
+  thousand-koku wife she might become — and still secretly holding Jūzō.
+- **Iten Gyōzan (仰山), new:** the monk-abbot of the ruined Chinnō-in; old, riddling,
+  self-mocking, unkillable in argument. Buries himself in the bamboo "to become the
+  bamboo"; reads Gohei's face as a rappa's on sight. Craggy, wry じゃ/わい/おる
+  register — a one-chapter chorus figure who names the theme (the shadow arts turned
+  to selfish gain leave an "evil cast" on the face).

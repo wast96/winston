@@ -359,6 +359,54 @@
       "pinyin": "Sen no Rikyū",
       "status": "attested",
       "note": "The supreme tea master; the same man recorded elsewhere under his lay name 千宗易 Sen no Sōeki."
+    },
+    "前田玄以": {
+      "en": "Maeda Gen'i",
+      "pinyin": "Maeda Gen'i",
+      "status": "attested",
+      "note": "Hideyoshi's magistrate of Kyoto (Kyoto shoshidai/bugyō), a former monk who administered the capital and its temples; Gohei's new master, at 200 koku."
+    },
+    "玄以": {
+      "en": "Gen'i",
+      "pinyin": "Gen'i",
+      "status": "attested",
+      "note": "Bare name of Maeda Gen'i."
+    },
+    "前田": {
+      "en": "Maeda",
+      "pinyin": "Maeda",
+      "status": "attested",
+      "note": "The Maeda house of Maeda Gen'i (distinct from the Kaga Maeda)."
+    },
+    "加藤肥後守": {
+      "en": "Katō Higo-no-kami",
+      "pinyin": "Katō Higo-no-kami",
+      "status": "attested",
+      "note": "Katō Kiyomasa, under his court title Governor of Higo; the Iga man Kuranawate-no-Shishiji was killed for entering his service."
+    },
+    "以天仰山": {
+      "en": "Iten Gyōzan",
+      "pinyin": "Iten Gyōzan",
+      "status": "provisional",
+      "note": "The eccentric monk-abbot of the Chinnō-in who buries himself in the bamboo grove; a fictional figure. Reading of 以天 not independently confirmed."
+    },
+    "仰山": {
+      "en": "Gyōzan",
+      "pinyin": "Gyōzan",
+      "status": "provisional",
+      "note": "Bare name of the abbot Iten Gyōzan."
+    },
+    "蔵縄手ノ鹿次": {
+      "en": "Kuranawate-no-Shishiji",
+      "pinyin": "Kuranawate-no-Shishiji",
+      "status": "provisional",
+      "note": "An Iga man cut down by his own comrades in the spring of 1591 for taking service with Katō Kiyomasa; reading of 鹿次 (Shishiji) not independently confirmed."
+    },
+    "下呂正兵衛康次": {
+      "en": "Gero Shōbei Yasuji",
+      "pinyin": "Gero Shōbei Yasuji",
+      "status": "decided",
+      "note": "The false name Gohei adopts after deserting Iga, claiming descent from a retainer surname of the old Ichijō house of Tosa. Furigana げろ on 下呂; reading of 康次 (Yasuji) a project call."
     }
   },
   "places": {
@@ -630,6 +678,84 @@
       "pinyin": "Byakugō-ji",
       "status": "attested",
       "note": "A temple on a hill at the eastern edge of Nara."
+    },
+    "四条": {
+      "en": "Shijō",
+      "pinyin": "Shijō",
+      "status": "attested",
+      "note": "The Fourth Avenue of Kyoto (and its riverbank, 四条の河原, and bridge, 四条大橋, over the Kamo)."
+    },
+    "三条": {
+      "en": "Sanjō",
+      "pinyin": "Sanjō",
+      "status": "attested",
+      "note": "The Third Avenue of Kyoto; the site of Gohei's official residence."
+    },
+    "鴨川": {
+      "en": "the Kamo river",
+      "pinyin": "Kamo-gawa",
+      "status": "attested",
+      "note": "The river running north to south through the capital."
+    },
+    "東山": {
+      "en": "Higashiyama",
+      "pinyin": "Higashiyama",
+      "status": "attested",
+      "note": "The eastern hills of Kyoto."
+    },
+    "如意ヶ岳": {
+      "en": "Nyoigatake",
+      "pinyin": "Nyoigatake",
+      "status": "attested",
+      "note": "A low mountain in the Higashiyama range east of Kyoto, later famous for the 大文字 bonfire; its western slope is Daimonji-yama."
+    },
+    "青蓮院": {
+      "en": "the Shōren-in",
+      "pinyin": "Shōren-in",
+      "status": "attested",
+      "note": "A monzeki (imperial-abbot) temple at the northern foot of Higashiyama."
+    },
+    "祇園": {
+      "en": "Gion",
+      "pinyin": "Gion",
+      "status": "attested",
+      "note": "The district below the Yasaka Shrine; not yet a quarter of teahouses in 1591, as the narration notes."
+    },
+    "建仁寺": {
+      "en": "Kennin-ji",
+      "pinyin": "Kennin-ji",
+      "status": "attested",
+      "note": "The great Rinzai Zen monastery east of the Kamo, at the foot of Higashiyama."
+    },
+    "松原通": {
+      "en": "Matsubara road",
+      "pinyin": "Matsubara-dōri",
+      "status": "attested",
+      "note": "An east-west street of the capital, running toward Kiyomizu."
+    },
+    "六波羅": {
+      "en": "Rokuhara",
+      "pinyin": "Rokuhara",
+      "status": "attested",
+      "note": "A district on the east bank of the Kamo below Higashiyama, once the seat of the Taira and of the Kamakura shogunate's Kyoto office."
+    },
+    "清水": {
+      "en": "Kiyomizu",
+      "pinyin": "Kiyomizu",
+      "status": "attested",
+      "note": "Kiyomizu-dera, the great temple on the Higashiyama slope; its pagoda is the landmark seen from the fields."
+    },
+    "珍皇院": {
+      "en": "the Chinnō-in",
+      "pinyin": "Chinnō-in",
+      "status": "provisional",
+      "note": "A half-ruined, landless temple in the Rokuhara district where the monk Gyōzan lodges travelers; evokes the real Rokudō-Chinnō-ji. Reading a project call."
+    },
+    "土佐": {
+      "en": "Tosa",
+      "pinyin": "Tosa",
+      "status": "attested",
+      "note": "The province on the south of Shikoku; the old Ichijō house whose retainer-surname Gohei borrows had ruled part of it."
     }
   },
   "terms": {
@@ -734,6 +860,12 @@
       "pinyin": "Kita-no-mandokoro",
       "status": "attested",
       "note": "Title of the principal wife of a Regent; here Hideyoshi's wife."
+    },
+    "竹ノ上人": {
+      "en": "the Bamboo Saint",
+      "pinyin": "Take-no-Shōnin",
+      "status": "decided",
+      "note": "The local nickname for the monk Gyōzan, who gazes at (and claims to become) the bamboo. 上人 (Shōnin) is an honorific for a holy monk."
     }
   }
 }
