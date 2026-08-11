@@ -682,3 +682,120 @@ Torii Kihachirō & Ikenaga Kurō Chōa & Yasaka Kinbei & Shibatsuji Seiuemon &
 Etegi (ch05), Hatsuko & Kazue & Goichi & Maki & Saeki Dennai (placed), Nagakute
 & Kishiwada & Ōkusa (ch05), the koku/ri/shaku/sun/chō/tan/tsubo units and the
 hour-names (ch01-04), the nenbutsu (ch01). Prefer cross-referencing these.
+
+## Batch 7 = Chapter 7, "Death, Death, Death" (第七章 死、死、死, PDF 415-460, printed folios 413-457) COMPLETE
+
+The catastrophe of the book. It opens inside the burning Negoro-ji (Goemon's
+chain-swing escape from the Great Pagoda; Tsuda Kenmotsu Kazunaga taken, and his
+confession that he cleaves to life only for the gun's sake), turns to the
+author's twin indictment of the Taiko kenchi and the sword-hunt, then to
+Hideyoshi's water-attack on Ota Castle: the peasant vignette on the dike, the
+fall of the castle, and Goemon returning from a fruitless errand to Mount Koya
+to find Maki dead in the mud and Goichi tied alive and high on a scaffold by her
+own sash. A long expository arc on Mount Koya (its founding, routes, and defiance
+of Nobunaga) frames the errand; a biographical arc on Hideyoshi (his conquests,
+the kanpaku appointment, Nene and Nobunaga's "bald rat" letter, and his lust for
+Maa-hime) frames the aftermath. The chapter closes by resolving Kazue's open
+thread in two dream-visions: she was trafficked overseas and is a sex-slave in
+Luzon. It ends on Goichi asleep and the shrilling of insects.
+
+### Deliverables shipped
+- out/ch07_reading.md: full clean translation, one chapter heading, ~11,800
+  words, 441 body paragraphs. The correction surface. House macron romanization
+  applied (o/u-macron; only o-macron, u-macron and the em-dash are the non-ASCII
+  used; no a-macron occurred).
+- 13 footnotes in notes.json (folio-cited; book total now 196). New glossary
+  rows: 8 people, 4 places, 2 terms (14 total). Figures ch07 recorded EMPTY
+  (text-only novel; find_figures returned nothing, confirmed by eye).
+- out/the-stealthy-ones.epub: cumulative build, 7 of 8 chapters.
+
+### Checks run and results
+- Translated from the page images directly (data/png/p0NNN.png; the vertical-JP
+  OCR at data/txt was regenerated as a structural aid only and is furigana-noisy).
+  Every proper name, troop number, date, unit and toponym was crop-verified by
+  eye against the scan. Notable crop-verifications and OCR corrections: "380
+  years" (folio 414); the chain char 鎖 (folio 415, OCR read 負); "43 years" and
+  Tsuda Kenmotsu Kazunaga (folio 416); Kuroda Kanbei and Goto Matabei (folio 418);
+  the land-survey edict figures (6 shaku 3 sun = 1 bu; 30 bu = 1 se; 10 se = 1
+  tan; 10 tan = 1 cho; yields 1koku5to / 1koku3to / 1koku1to / 1koku2to / 1koku /
+  8to; tax two-thirds) (folio 424); the family relations and Hori Kyutaro Hidemasa
+  (folios 422-423); Ota Castle "36 forts" at Kurikara (OCR read 30), 3 ri SW,
+  embankment 3/10/2 ken, 1 ri 17 cho = 5,782 m, 469,300 laborers, 13 days, Goichi
+  1yr2mo (folios 427-428); the peasant-vignette names and ages (folios 429-432);
+  the Mount Koya dates and distances (Konin 7 = 816, Jowa 2 = 835, 7 ri square,
+  770 years, 180 cho, 32 ri = 80 km, 5 days, 455 years, Hoei 6 = 1709), Koya =
+  280,000 koku vs Hideyoshi 3,000,000 (OCR read 21), 1,383 monks, Tensho 9
+  (folios 438-444); the seven-shaku scaffold and Mokujiki Ogo age 37 / temple
+  lands 3,000 then 50,000+ koku (folios 445-446); the Hideyoshi-career dates and
+  the Five Commissioners (folios 449-452); the Sakai / Nanban-trade and
+  trafficking figures (Tensho 7, 80 women, 16 sold, Luzon, 30 girls) (folios
+  455-456). The chapter tail (folio 457) was read against the scan as the final
+  page was written (rule 4 corollary).
+- qa_epub.py: PASS (196 refs / 196 bodies / 196 backlinks all resolve).
+- epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- check_apparatus.py: 0 failures, 0 warnings.
+- check_register.py --ref out/ch01_reading.md: within tolerance. The em-dash
+  figure (12.1/1k vs 0.3 ref) is inflated by dialogue and quoted documents, as
+  the kickoff predicted, not by narration: the narration was swept for
+  appositive dash-glosses and they were converted to commas / colons /
+  parentheses (parentheses where the source itself parenthesizes, e.g. the metric
+  and calendar glosses). check_numbers / positional-bilingual parity NOT used as
+  a gate (documented at ch01: the vertical-JP OCR over-splits and mangles).
+
+### Source inconsistencies / readings rendered as printed (not harmonized)
+- Maki names her own father Yagoemon her "father-in-law" (舅, folio 423); the
+  term fits Goemon's relation to him, not hers. Kept as printed and footnoted.
+- Hidetsugu is called Hideyoshi's "son" (he was the adopted nephew-heir) and his
+  death dated "eleven years" on from Tensho 13, i.e. 1596; it fell in 1595. Kept
+  as printed and footnoted.
+- The concubine "Kaga-dono" is named Go-hime (folio 453); historically that name
+  belonged to another of Toshiie's daughters, and the concubine was Maa-hime
+  (摩阿姫). The two sisters are run together. Kept as printed and footnoted.
+- The formal go-bugyo board is placed here (Tensho 13); historians usually date
+  it a few years later. Footnoted at the Kanpaku/commissioners passage indirectly;
+  flagged in the Five-Commissioners glossary note.
+- Sasa Narimasa: rendered "Sasa" to match the existing glossary decided form,
+  though standard Hepburn is "Sassa" and one prior chapter already drifted to
+  "Sassa". SEE reconcile list below.
+
+### Note-density and the "NOT re-noted (already placed)" list
+13 ch07 notes: Kuroda Kanbei, Goto Matabei, the Taiko kenchi, the kanpaku office,
+Kobo Daishi's nyujo, Toyotomi Hidetsugu, the overseas slave-trade in women,
+Maa-hime / Kaga-dono, Mokujiki Ogo, the Takamatsu Castle water-attack, Nobunaga's
+"bald rat" letter to Nene, the Nanban cloths, and the 舅 kinship slip. Cross-
+referenced, NOT re-noted: Luzon (ch02), the Koya hijiri (ch05), Kobo Daishi /
+Shingon / Mount Koya (ch01/ch02), the go-bugyo / Five Commissioners (ch03 +
+glossary), the sword-hunt / katanazarae (ch06), Fudo Myo-o (ch05), Kakuban
+(ch05/ch06), En no Gyoja (ch02), the Negoro-ji / Kokawa-dera / Saiga / Tsuda
+Kenmotsu Kazunaga (ch05/ch06), the matchlock / Tanegashima / Kunitomo (ch05),
+Nanban (ch01), the Honno-ji and Nobunaga's death (ch01), Ishiyama Hongan-ji
+(ch01/ch02), Shima Sakon (ch04), Hori Kyutaro Hidemasa and Nagaoka Tadaoki (ch06),
+Yoshino / the Tahei alias / Kudoyama / Nagao (ch02/ch06), Maeda Toshiie / Shibata
+Katsuie / Kita-no-sho (ch04/ch05), the Suginobo and the sohei (ch06), the
+nenbutsu / Amida / Ikko (ch01/ch02), Nene (glossary), and the koku/ri/shaku/sun/
+ken/cho/cho units and hour-names (ch01-ch06).
+
+### Rendered-as-read one-off spellings (reuse if they recur)
+People: Gennojo, Genzaburo, Tane, Kine, Denbei, Sugi, Tomi, Michi, Uno (the
+Oikejiri peasants); Nagaoka Hantayu (a foot-captain, distinct from Nagaoka
+Tadaoki), Hyoezaburo (the Nagao headman); Yuko Ajari; Asano Nagakatsu, Sakuma
+Juzo, Achako, Oda Nobutaka, Mashita Nagamori, Natsuka Masaie, Asano Nagamasa.
+Places/routes: Renge-join, Kongobu-ji, Jingamine, Mizugamine, Goma-no-Danzan,
+Amabikiyama, Amano, Koda, Fudono, Kaketani, Kaseda, Hanasaka, Yatate, the Daimon,
+Gokuraku-bashi, Hashimoto, Shiide, Furusawa, Yamazaki, the Iwafune Highway,
+Shijonawate, Mount Ikoma, the Amami Pass, the Kishi River, the Konpon Daito, the
+Kondo, the Miei-do, the Nyonin-do, the Oku-no-in, the Danjo; Gofuku-yama, the
+Kurikara Pass, Kibune, Moriyama, Masuyama, Toyama; Kanazawa, Kaga, Etchu, Tosa,
+Shingu, the Kumano Sanzan, Tennoji, Shimogyo, Fuchu, the Iseya, Nagoya in Hizen.
+Terms: nyujo, the Nanban cloths (birodo/rasha/moru/kaneken/sarasa), the nenneko
+baby-quilt, the mokujiki austerity, the roban (ch06), koku/to/bu/se/tan/cho.
+
+### For the whole-book reconciliation (final batch), OPEN items
+- Mount Koya: glossary key 高野山 renders "Koya-san"; ch04-ch07 prose renders
+  "Mount Koya" (macron). Pick one.
+- Osaka: 31 prior "Osaka" vs 7 "Osaka" with macron; ch07 uses plain "Osaka" to
+  match the majority. Standardize.
+- Daito: prior chapters mixed "Daito" (9) and "Daito" with macron (5); HANDOFF/
+  glossary use plain "Daito". ch07 uses "Konpon Daito" (plain). Standardize.
+- Sasa vs Sassa Narimasa: glossary "Sasa", prior chapters have both, ch07 uses
+  "Sasa". Decide (standard Hepburn is "Sassa") and grep-fix all units + glossary.
