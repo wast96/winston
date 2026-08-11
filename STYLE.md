@@ -99,6 +99,42 @@ like a novel, it passes.
   literary English. Period flavour comes from precise nouns (the offices, arms,
   and geography of 1591), not from fake-old grammar.
 
+### Diction, calibrated at the ch01 voice gate (commissioner's taste)
+These are specific rulings, not new theory; they sharpen the bullets above.
+- **Never send the reader to a dictionary.** Prefer the common word to the exact
+  but arcane one, unless the precision is the whole point (then keep it and
+  footnote). Calibrated swaps: *crimson* not *madder*; *slime-sheathed
+  sea-creature* not *coelenterate*; *darting fish* not *sweetfish*; *a barricade
+  of spiked branches* not *abatis*. A rare botanical/zoological/military term is
+  a red flag: reach for the plain equivalent first.
+- **People and things act; body parts do not.** Recast the disembodied-body-part
+  calque so the person is the agent: "He had the toothy grin of an old ape," not
+  "The teeth grinned like an old ape's." (Genuinely idiomatic English like "her
+  eyes smiled" is fine; the target is the Japanese calque where a mouth, teeth,
+  or hand performs a human act on its own.)
+- **Prefer the natural phrasal verb and everyday collocation.** "propped up by,"
+  not "propped by."
+- **Concrete and visual beats vague-poetic.** "the setting sun must have begun to
+  dip below the horizon," not "coming to its full."
+- **Unpack a stiff state into a felt, physical one.** "as he understood the old
+  man meant kindly, the tension seemed suddenly to leave him," not "all at once
+  at ease once he saw the old man meant kindly" (which also stutters *at
+  once…once*). Watch for and kill that kind of accidental repetition.
+- **Carry no implication the source withholds** (an instance of the enrichment
+  doctrine): the old man offers a useful herb in general terms — "Dry it and
+  make a stomach medicine of it, won't you?" — he is NOT told, and must not seem
+  to be told, that *this* listener's stomach is bad.
+- **Translate or gloss technical/religious vocabulary; do not leave a bare romaji
+  common noun.** "the liturgical chant," not "the *shōmyō* chant"; footnote a
+  term of art like *gatha* the first time it appears. Keep romaji only for names
+  and for culturally specific terms that carry a note (rappa, shinobi, koku).
+- **TENSE: keep the author's own tense in establishing / gnomic description.**
+  Shiba opens in a timeless present ("The sky over Iga rests on two ranges… it is
+  propped up by the peaks of Kasagi"); leave it there. Do NOT mechanically
+  convert scene-setting or geographic asides to the narrative past — the mix of
+  gnomic present (standing geography) and past (the action, and habitual "the sun
+  sank… cloud gathered") is deliberate and correct.
+
 ### Punctuation
 - **Use the full toolkit for rhythm.** The period chops and isolates for
   emphasis. The colon states then expands. The semicolon yokes two balanced,

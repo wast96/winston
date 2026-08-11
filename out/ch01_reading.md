@@ -1,6 +1,6 @@
 ## Otogi Pass
 
-The sky over Iga rested on two ranges. To the west, along the Yamashiro border, it was propped up by the peaks of Kasagi; to the north, along the border with Ōmi, by Otogi Pass. Whenever the sun sank behind Kasagi, cloud gathered without fail above the pass.
+The sky over Iga rests on two ranges. To the west, along the Yamashiro border, it is propped up by the peaks of Kasagi; to the north, along the border with Ōmi, by Otogi Pass. Whenever the sun sank behind Kasagi, cloud gathered without fail above the pass.
 
 Tenshō nineteen. Only a few days of the third month were left. On an evening when the low, unwilling sun had begun to stain the Ōmi sky a deep crimson, an old man was climbing the pass road beneath the burning cloud, so bent he seemed to crawl.
 
@@ -296,7 +296,7 @@ The one hundred shinobi, in their twenty squads, from the rear gate, from the wi
 
 Tsuzura Jūzō, who had climbed the bank from the southern stream and come out at the castle's rear gate, put his mouth to the genin's ear.
 
-The man called Kuroami twisted his body, lowered a grappling ladder from his back, and went forward with his face to the roots of the grass. Where he touched the grass the insects fell silent; and in their place, from the teeth of the other genin around him, came the counterfeit cry of insects.
+The man called Kuroami twisted his body, lowered a grappling ladder from his back, and went forward with his face to the roots of the grass. Where he touched the grass the insects fell silent; and in their place the other genin around him let a counterfeit insect-cry hiss from between their teeth.
 
 Within the gate a watch-fire burned red. Kuroami climbed the wall beside it and flattened himself there, still, as though he had turned to a roof-tile. Below him he could make out the heads of several sentries.
 
@@ -394,9 +394,9 @@ As the man folded and slumped against him, Jirōzaemon propped him up with an ai
 
 Jirōzaemon flung the still-warm corpse to the ground and ran off through the dark toward the hall.
 
-The hall stood in the shadow of a great camphor. A double palisade ringed it; before the palisade an abatis bit into the ground; and before that a moat, brimming with water, that on this night at the full flush of spring gave back a keen, clear, star-crowded sky.
+The hall stood in the shadow of a great camphor. A double palisade ringed it; before the palisade a barricade of spiked branches bit into the ground; and before that a moat, brimming with water, that on this night at the full flush of spring gave back a keen, clear, star-crowded sky.
 
-A warrior came pushing out through the line of the abatis, made out Jirōzaemon, and—
+A warrior came pushing out through the line of spiked branches, made out Jirōzaemon, and—
 
 "Ah—Master. It is you, Master, is it not?"
 
@@ -754,13 +754,13 @@ So Kazama Gohei thought, even so. But the rain was really falling. Whether Jirō
 
 "Here."
 
-"You take the fire-work at the camp on the northwest of the headquarters."
+"You take the firing of the camp on the northwest of the headquarters."
 
 "Gohei."
 
 "Yes."
 
-"You, the fire-work at the house on the north-northeast. Jūzō and I will slip into the headquarters in the confusion and cut down Nagahide. When it's done, don't linger: each man over the border on his own, and away into another province. Keep your fire-tools dry."
+"You, the firing of the house on the north-northeast. Jūzō and I will slip into the headquarters in the confusion and cut down Nagahide. When it's done, don't linger: each man over the border on his own, and away into another province. Keep your fire-tools dry."
 
 With that, Jirōzaemon crawled up the embankment, fell on one of Niwa's men patrolling the road, swiftly stripped his armor, and put it on.
 
@@ -854,7 +854,7 @@ Within the room three lamp-stands wavered, and on the white matting there was no
 
 (He's fled!)
 
-The instant he thought it, Jūzō's body had already shifted, as if by reflex, into a flight of its own. Once resolved to die though he was, the ninja instinct in him, apart from his will, sent him leaping—quick as a sweetfish—into the narrow gap between one danger and the next.
+The instant he thought it, Jūzō's body had already shifted, as if by reflex, into a flight of its own. Once resolved to die though he was, the ninja instinct in him, apart from his will, sent him leaping—quick as a darting fish—into the narrow gap between one danger and the next.
 
 With his left hand he seized a lamp-stand.
 
