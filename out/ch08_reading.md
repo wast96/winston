@@ -305,3 +305,30 @@ But about then a worry started up. The boy was a dreadful coward. He was mortall
 By and by Goemon understood that the boy was badly nearsighted. On the paddy dike at the midday meal, a millet dumpling rolled from Goichi's hand and came to rest right in front of him, a bare two shaku off; and yet Goichi groped about with his hands—"Where? Where? Where?"
 
 "It's right there, isn't it. Look properly, now. There—just in front of you, off to the right."
+ Goichi cut his eyes sideways to the right, cried "Ah, there it is!", and snatched it up.
+
+Watching closely, Goemon saw that to look at a thing the boy brought his eyes to within a shaku of it. "You—is it your eyes are short on you?" In this son he had thought better than common men in every inch of skin and hair, from crown to sole, a great flaw had shown itself.
+
+Goemon took Goichi on his back at once, went to the house of Yamatoya Tarōbei in Sakai, got a doctor recommended, and had the boy looked at. "His fear of the dark is because he can't see well. Torime, night-blindness; yamōshō, in the hard word. Feed him plenty of nourishing food." Goemon was taken aback. All along he had fed the boy the richest food he could come by. And now to be told he had gone short of nourishment—it was on that very food that he had grown so fine. Goemon took endless pains, put together a handsome gift, and begged the treatment of a Nanban doctor who had come over with the Portuguese captain.
+
+The doctor, golden-haired and blue-eyed, stripped Goichi and went over his whole body closely, then said, with a look of pain: "This appears, even in Europe, in about one person in a hundred thousand. It comes of a strain inherited from the forebears; and by that one strain alone it does not show, but only when it crosses with a certain other strain. It runs most in the heavy-bodied. First the eyes are struck; the field of sight narrows in from either side; less and less light is taken in, so that by night one cannot see; and in the end comes total blindness. I am sorry to say that no medicine and no operation will cure it. There are exceptions—but the life, as a rule, is not a long one."
+
+"Cut out these eyes of mine! Put them in the boy's place!" So Goemon knelt before the Nanban doctor and pleaded; but "No such operation can be done, not by any Nanban medicine in the world," and he was waved off.
+
+The doctors of that day had of course not yet come so far as to name it for what it is, an endocrine disease, congenital retinitis pigmentosa. But the disease exists to this day, and still no cure for it has been found. In 1962, of the causes of blindness among the pupils of all the schools for the blind in our country, 52.3 percent were of congenital origin, and in America the figure reaches 64.1 percent—and the greater part of it is this retinitis pigmentosa.
+
+Was he to stand by with folded hands and watch this child—this keepsake of Maki, his one and only—go dark? When the light was gone, and the boy cried out weeping, "I can't see!", what was he to say to comfort him? Goemon made up his mind on the spot. "I will give my whole life for this poor child. To make his unlucky life happier by even a little, let my own self come to whatever end it will."
+
+But things had only seemed to quiet a little; war might break out again at any hour. And as a peasant—one who, sound of body, could work and work and still not manage a bowl of rice-gruel—how was Goichi ever to live? As long as I live, Goemon thought, I will be a wall about him by whatever means, and keep him. But when I am dead, what then? He could only gaze and gaze at the profile of the boy, who, knowing nothing of his fate, played merrily or lent a hand at the work; gaze at those eyes still clear and grave; and sob inside his heart.
+
+Some say that if a man is to lose his sight at all, better it go early, so he can school the inner sense; that to go blind grown is the harder suffering. But unless a man has looked on all the beautiful things of this world and known them beautiful and stored them in his breast—so that when the light is gone he has at least their memory, a thread for the imagination to hold—then the world is truly a darkness without light. And when the boy grew up and came to long for a woman, would any girl come forward to answer that wish? Shut in the dark, with little to turn his heart aside, he would long for others more than an ordinary man; and to meet a girl who would answer him was next to hopeless.
+
+Yes—to keep Goichi alive was to keep him in pain. Before he woke to that pain, let me kill him. And let me die too.
+
+Watching the boy's sleeping face as he snored his easy, innocent snore, Goemon thought so more than once. But—leave Hideyoshi be, and only he and his son go down to death? Ieyasu lived too, who had defiled Maki and lived on without a ripple. Was he to leave such men to go on in their pomp and splendor, and only he and his boy die? No—he could not let them live. Men like that he could not let live.
+
+Toward the end of Bunroku 2, Goichi, at nine, went wholly blind at last. What sorrow, what suffering was in the boy's heart, Goemon could not even guess. To look at, the eyes were no different from before—the whites clear, the dark irises black as though they hid a keen, deep sight. Goichi only bore his fate, still and passive. Sparing of words from the first, he grew more silent yet, and only groped for his father's hand; and he seemed forever ashamed of his own clumsiness, of the tasks he could no longer do.
+
+"Daddy will do anything in the world for you. Daddy's eyes are your eyes. Just think of Daddy as your own self."
+
+One day, at the Shinjō-ji in Sakai, when they turned over the ground to raise a new bell-tower, a jar came to light, half-filled with treasure of every kind; and so it went into the storehouse the egōshū kept,
