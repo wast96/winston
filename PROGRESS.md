@@ -175,3 +175,38 @@ month of Tenshō 19, a month before the scene); the Hōkō-ji Great Buddha.
 ### Register reference
 On approval at the voice gate, `out/ch01_reading.md` becomes the FROZEN register
 reference: run `check_register.py --ref out/ch01_reading.md` from B02 on.
+
+### Voice-gate re-presentation (fresh container)
+Branch hygiene: harness opened this session on a stray branch
+(`claude/owls-castle-b01-nvvquy`) that was already identical to
+`origin/claude/owls-castle` (both at `fdd978f`); fast-forwarded local
+`claude/owls-castle` and deleted the stray (local + remote) per rule 2. No work
+was stranded.
+
+Rebuilt from a clean checkout and re-verified every gate (the container was
+recycled, so `out/` had no build):
+- Build: `qa_epub.py` **PASS** (34 files, 27 documents; 16 refs / 16 bodies /
+  16 backlinks; 49 page-list entries). **epubcheck 5.1.0: 0/0/0/0.**
+- `check_structure.py --pairs`: parity **521 | 521 OK**.
+- `check_numbers.py --noise data/noise.txt` (bilingual): **0 unresolved** (521).
+- `check_content.py`: **286 name occurrences, all in the paired paragraph**.
+- `qc_entities.py`: **0 misses** (census 重蔵 x72, 伊賀 x64 …).
+- `check_apparatus.py`: **0 failures / 0 warnings** (16 notes).
+- `verify_unit.py ch01`: numbers 0 unresolved, **16 anchors ok**.
+- Principal Characters page renders (5 flagged: Jūzō, Gohei, Jirōzaemon,
+  Kisaru, Kuroami).
+- **Tail re-verified against the scan** (rendered p63): 次郎左衛門が帰ってから →
+  "After Jirōzaemon had gone, the mountain rain settled into a steady fall";
+  菜種梅雨 → "the rape-blossom rains"; closing 「秀吉を刺す」/「左様か」 → "We are
+  going to kill Hideyoshi." / "Is that so." Faithful.
+
+Note count is **16** (the 15 logged above plus the sunset-gatha note added in the
+voice-gate revisions).
+
+Environment note (out of scope for this batch, pre-existing): the checker
+regression suite has one FAIL, `hook stands down on template stub` in
+`tests/run_tests.py` — the `kickoff_guard.py` placeholder stand-down for
+*template-maintenance* sessions. It does not touch this book: our `HANDOFF.md`
+carries a real B01 kickoff (first line `Owl's Castle B01`), not the template
+placeholder, so the guard behaves correctly here. Left for a template-tooling
+session; not fixed inside a translation batch to avoid disturbing the Stop hook.
