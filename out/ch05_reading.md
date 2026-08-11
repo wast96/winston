@@ -675,3 +675,43 @@ Having let Honda get so far, Ieyasu changed countenance all at once and said, cu
 "As you say, my lord—"
 
 "Heihachirō. You were going to say 'but wait,' were you not?"
+
+Honda gave a great nod, and with those glaring eyes of his looked into Ieyasu's. "Just so—a 'wait' it is. Always, always, exactly as my lord says—"
+
+"Just so. And that 'always the same' of mine—I must put it to you now and then to test it. Past forty now, am I grown short-tempered, do you think?"
+
+"No, no."
+
+"Or grown soft, perhaps?"
+
+"By no means. You have grown only more patient, more seasoned. Look back on your handling of this Komaki-Nagakute war, and one can only marvel that, with victory in your grasp, you did not press the pursuit, but held fast where you stood."
+
+"Heihachirō—now then. I'm going to grumble again."
+
+"Yes, yes—say on, by all means. No one is listening."
+
+Outside the tea-room a fine snow, half sleet, had begun to flit down; but within, the talk of lord and man did not break off.
+
+"How I loathe a traitor!" Again Ieyasu cried out, his face working.
+
+"Eh? Yes—just so."
+
+"This war began with Ikeda Shōnyū turning his coat, and ended with Lord Oda Nobukatsu's betrayal—how I loathe them!"
+
+"As you say, my lord—yet Shōnyū had his punishment straightway, and his head struck off. And Lord Nobukatsu, before long, will learn his lesson too, I doubt not."
+
+"I know. I know."
+
+"Young Ogimaru must set out at the beginning of the twelfth month. He is to arrive there within the year, they say. And with that, an end to grumbling."
+
+"Good, good—we'll have him ready in time. Heihachirō, I am forty-three, and Lord Hideyoshi forty-nine. Is those six years' difference all the rope I have to hold to, then?"
+
+"No, no, my lord, not that alone. Lord Hashiba is of a truly restless nature; not for one hour is his mind ever at rest. Summer and winter he runs east and runs west, spending body and soul to the last. Do you but hold your ground, and take your time."
+
+At this a smile came to Ieyasu's face. "Just so, just so. A man cannot keep on like that."
+
+"Take your ease, my lord, and let those who would turn their coats turn them. These three provinces, Suruga, Tōtōmi, and Mikawa, with Kai and Shinano added, come to a million four hundred thousand koku: a rock that no longer stirs. Until now you paid Lord Hideyoshi the courtesies of a subject; but now that you have fought him to a draw at Komaki and Nagakute, you have risen, one must say, to the standing of a guest and equal."
+
+"Lord Nobukatsu too will come to his senses by and by, and come back to us."
+
+"Just so, my lord. At the meeting at Yatagawara, they say, Lord Hideyoshi prostrated himself on the sand and, vowing that from that day he looked up to Nobukatsu as his lord, let the tears stream down. But Lord Hideyoshi's tears are tears he can shed whenever he pleases, and as many as he pleases. A truly handy tool, good for the moment and no more."
