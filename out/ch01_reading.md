@@ -1,8 +1,8 @@
 ## Otogi Pass
 
-The sky over Iga rests on two ranges. To the west, along the Yamashiro border, it is propped by the peaks of Kasagi; to the north, along the border with Ōmi, by Otogi Pass. Whenever the sun sank behind Kasagi, cloud gathered without fail above the pass.
+The sky over Iga rested on two ranges. To the west, along the Yamashiro border, it was propped up by the peaks of Kasagi; to the north, along the border with Ōmi, by Otogi Pass. Whenever the sun sank behind Kasagi, cloud gathered without fail above the pass.
 
-Tenshō nineteen. Only a few days of the third month were left. On an evening when the low, unwilling sun had begun to stain the Ōmi sky a deep madder, an old man was climbing the pass road beneath the burning cloud, so bent he seemed to crawl.
+Tenshō nineteen. Only a few days of the third month were left. On an evening when the low, unwilling sun had begun to stain the Ōmi sky a deep crimson, an old man was climbing the pass road beneath the burning cloud, so bent he seemed to crawl.
 
 He wore a farmer's coarse clothes and leaned on a staff of black wood, some seven shaku long. If anything, it was the staff that seemed to carry him, for he was astonishingly small.
 
@@ -10,7 +10,7 @@ A long shadow trailed behind him. He set the staff down and hauled himself up th
 
 The old man stopped. Someone was near. A moment later a woodcutter came up the path, treading on the old man's shadow, and made to pass him—
 
-A small fear woke in the woodcutter's face as he turned. The old man's features were too dreadful. The right eye and the nose were crushed, an old burn crept across the whole of the face, and from lips small and slit-looking a few broken teeth showed. The teeth grinned like an old ape's.
+A small fear woke in the woodcutter's face as he turned. The old man's features were too dreadful. The right eye and the nose were crushed, an old burn crept across the whole of the face, and a few broken teeth showed from a slit-like opening between his thin lips. He had the toothy grin of an old ape.
 
 "There's tōyaku growing."
 
@@ -18,11 +18,11 @@ A small fear woke in the woodcutter's face as he turned. The old man's features 
 
 "..."
 
-"There, at your feet. Dry it—won't you take it for your stomach?"
+"There, at your feet. Dry it and make a stomach medicine of it, won't you?"
 
 "...won't you."
 
-The man hurriedly pulled two or three stalks of the green roadside weed; then, all at once at ease once he saw the old man meant kindly—
+The man hurriedly pulled two or three stalks of the green roadside weed; then, as he understood the old man meant kindly, the tension seemed suddenly to leave him, and—
 
 "And you, sir—where are you from?"
 
@@ -70,7 +70,7 @@ A hermitage stood in it.
 
 The eaves sagged, but the building was not so small for all that. It was like a wayside chapel.
 
-All at once the air filled with pale red light. In the western sky the setting sun must have been coming to its full. Light lodged in the beads of the drifting cloud, and the red cloud sank until it seemed to wrap the hermitage round.
+All at once the air filled with pale red light. In the western sky the setting sun must have begun to dip below the horizon. Light lodged in the beads of the drifting cloud, and the red cloud sank until it seemed to wrap the hermitage round.
 
 The old man stood at the edge of the clearing and stared at the hermitage. He was not, of course, admiring the view.
 
@@ -574,7 +574,7 @@ The basket kind lit their tripod legs to the base in a red glow. This unfamiliar
 
 By the time he tried to cry out, it was already too late. A hand had come round from behind, and a blade, blacked over, had driven clean through the man's throat.
 
-It was Kazama Gohei who swiftly stripped the fallen man's armor and put it on. Without so much as a flutter of his lovely lashes, with the blank face of a practiced clerk, he finished dressing the corpse—madder-red there in the firelight—in a shinobi's garb; then he laid his face to the ground and let a low call, the shinobi's own, escape his throat, pitched to be heard by nothing but the insects in the earth.
+It was Kazama Gohei who swiftly stripped the fallen man's armor and put it on. Without so much as a flutter of his lovely lashes, with the blank face of a practiced clerk, he finished dressing the corpse—crimson there in the firelight—in a shinobi's garb; then he laid his face to the ground and let a low call, the shinobi's own, escape his throat, pitched to be heard by nothing but the insects in the earth.
 
 "Jūzō. The Master hasn't come. Nor has the rain. With watch-fires all over the ground like this, there's no way to move."
 
@@ -808,7 +808,7 @@ The shinobi mind keeps none of the fixed discipline of the warriors of other pro
 
 But even granting the fear, in a shinobi who had passed through the intricate forging of the mind's true and false, none of the naked reaction of an ordinary man showed in any shadow of his face.
 
-With the blank look peculiar to the rappa who dwell in Iga—a face like some coelenterate sheathed in slime—Jirōzaemon watched, cold, the fire blazing up beyond the headquarters.
+With the blank look peculiar to the rappa who dwell in Iga—a face like some slime-sheathed sea-creature—Jirōzaemon watched, cold, the fire blazing up beyond the headquarters.
 
 This man lived in a flux so complete that he could not so much as bring his own shifting heart to his own judgment. In truth he might be called an apparition. Nobunaga's extermination of Iga sprang, in part, from a fierce loathing of that strange Iga mind.
 
@@ -958,7 +958,7 @@ When he hid himself in the dark of another's house, a clean excitement would com
 
 If it could be done, it was to let this blood of his settle out into idleness. To have no aim to act on, and yet to keep a cramped, knotted spirit burning inside—that, surely, is one of the misfortunes of a life.
 
-To read the sutras, to sing the Sanskrit hymns, to intone the shōmyō chant, and in the end to grow able to take pleasure in idleness itself—that alone seemed now, to the Jūzō who dwelt at the pass, the one aim of living.
+To read the sutras, to sing the Sanskrit hymns and intone the liturgical chant, and in the end to grow able to take pleasure in idleness itself—that alone seemed now, to the Jūzō who dwelt at the pass, the one aim of living.
 
 That Jūzō had shaped his life like a novice monk's, and yet had never shaved his head, was because at bottom there was no seeker's heart in him.
 
