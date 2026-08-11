@@ -1980,6 +1980,114 @@
       "pinyin": "Liao Chengzhi",
       "status": "attested",
       "note": "1908&#8211;1983. Chinese Communist leader active in overseas and united-front work."
+    },
+    "郁咏馥": {
+      "en": "Yu Yongfu",
+      "pinyin": "Yu Yongfu",
+      "status": "provisional",
+      "note": "The narrator of this chapter: Du Yuesheng's opium-pipe attendant for some twenty years. Romanization provisional; name crop-verified from the byline and the source footnote (both 郁咏馥, not the OCR 郁咏敌/郁咏禾)."
+    },
+    "汤玉麟": {
+      "en": "Tang Yulin",
+      "pinyin": "Tang Yulin",
+      "status": "attested",
+      "note": "1871&#8211;1949; warlord governor of Rehe (Jehol), notorious for the opium trade. Attested form."
+    },
+    "史量才": {
+      "en": "Shi Liangcai",
+      "pinyin": "Shi Liangcai",
+      "status": "attested",
+      "note": "1880&#8211;1934; owner of the Shenbao, assassinated 1934 on Chiang Kai-shek's orders."
+    },
+    "张学良": {
+      "en": "Zhang Xueliang",
+      "pinyin": "Zhang Xueliang",
+      "status": "attested",
+      "note": "1901&#8211;2001; the &#8216;Young Marshal.&#8217; Courtesy name Hanqing (汉卿)."
+    },
+    "于凤至": {
+      "en": "Yu Fengzhi",
+      "pinyin": "Yu Fengzhi",
+      "status": "attested",
+      "note": "1897&#8211;1990; Zhang Xueliang's wife."
+    },
+    "徐国梁": {
+      "en": "Xu Guoliang",
+      "pinyin": "Xu Guoliang",
+      "status": "attested",
+      "note": "Shanghai police commissioner, assassinated 1923."
+    },
+    "田洪元": {
+      "en": "Tian Hongyuan",
+      "pinyin": "Tian Hongyuan",
+      "status": "provisional",
+      "note": "Accountant at the Commercial Bank who kept Du supplied with bank drafts; provisional romanization."
+    },
+    "顾鳌": {
+      "en": "Gu Ao",
+      "pinyin": "Gu Ao",
+      "status": "attested",
+      "note": "1879&#8211;1949; a Beiyang-era politician styled a &#8216;meritorious servant of the Hongxian&#8217; monarchy; here one of Du's opium-smoking retainers, called &#8216;Secretary Gu.&#8217;"
+    },
+    "唐缴之": {
+      "en": "Tang Jiaozhi",
+      "pinyin": "Tang Jiaozhi",
+      "status": "provisional",
+      "note": "Named in ch17 alongside Luo Qinghua as one of Du's business-world &#8216;feelers.&#8217; The middle character (缴) reads uncertainly in the scan; romanization provisional."
+    },
+    "毛子坚": {
+      "en": "Mao Zijian",
+      "pinyin": "Mao Zijian",
+      "status": "provisional",
+      "note": "A Nanshi gangster-gentleman who borrowed the City God's sedan-chairs for the Du temple procession; provisional."
+    },
+    "焦文彬": {
+      "en": "Jiao Wenbin",
+      "pinyin": "Jiao Wenbin",
+      "status": "provisional",
+      "note": "The Du household accountant before Huang Guodong; provisional."
+    },
+    "黄国法": {
+      "en": "Huang Guofa",
+      "pinyin": "Huang Guofa",
+      "status": "decided",
+      "note": "Younger son of Huang Wenxiang, placed by Du in the Zhonghui Bank; brother of the ch16 narrator Huang Guodong."
+    },
+    "小兰英": {
+      "en": "Xiao Lanying",
+      "pinyin": "Xiao Lanying",
+      "status": "provisional",
+      "note": "Yao Yulan's foster-mother, a noted actress in old-male (laosheng) roles; provisional."
+    },
+    "玉英": {
+      "en": "Yuying",
+      "pinyin": "Yuying",
+      "status": "provisional",
+      "note": "Yao Yulan's foster-sister, whom Du first meant to take; she died young. Provisional."
+    },
+    "王彬彦": {
+      "en": "Wang Binyan",
+      "pinyin": "Wang Binyan",
+      "status": "provisional",
+      "note": "A Subei performer who invited Du to a charity benefit; provisional."
+    },
+    "杜镛": {
+      "en": "Du Yong",
+      "pinyin": "Du Yong",
+      "status": "decided",
+      "note": "Du Yuesheng's formal given name (镛); the two characters he practiced signing after becoming a company chairman."
+    },
+    "杜维仁": {
+      "en": "Du Weiren",
+      "pinyin": "Du Weiren",
+      "status": "provisional",
+      "note": "A son named in ch17 as remaining in Shanghai after liberation; not in ch16's fuller enumeration of Du's sons (see note). Provisional."
+    },
+    "杭州阿发": {
+      "en": "Hangzhou A-fa",
+      "pinyin": "Hangzhou A-fa",
+      "status": "provisional",
+      "note": "A hoodlum companion of young Du around Shiliupu; a by-name, provisional."
     }
   },
   "organizations": {
@@ -2240,6 +2348,36 @@
       "pinyin": "Nanyang Xiongdi Yancao Gongsi",
       "status": "attested",
       "note": "One of China's largest cigarette makers, founded by the Jian brothers."
+    },
+    "招商局": {
+      "en": "the China Merchants company",
+      "pinyin": "Zhaoshangju",
+      "status": "attested",
+      "note": "The China Merchants Steam Navigation Company."
+    },
+    "通商银行": {
+      "en": "the Commercial Bank",
+      "pinyin": "Tongshang Yinhang",
+      "status": "decided",
+      "note": "The Commercial Bank of China (中国通商银行), of whose board Du became chairman."
+    },
+    "大运公司": {
+      "en": "the Dayun Company",
+      "pinyin": "Dayun Gongsi",
+      "status": "decided",
+      "note": "The company set up to run the aviation-lottery monopoly, with Jin Tingsun as GM."
+    },
+    "上海地方协会": {
+      "en": "the Shanghai Local Association",
+      "pinyin": "Shanghai Difang Xiehui",
+      "status": "decided",
+      "note": "A civic body of the 1930s."
+    },
+    "江苏长途汽车公司": {
+      "en": "the Jiangsu Long-Distance Bus Company",
+      "pinyin": "Jiangsu Changtu Qiche Gongsi",
+      "status": "decided",
+      "note": "A firm Wang Xiaolai managed by Du's arrangement."
     }
   },
   "places": {
@@ -2283,6 +2421,96 @@
       "pinyin": "Fuxing Dao",
       "status": "attested",
       "note": "An island in the Huangpu where Chiang Kai-shek stayed and received callers on the eve of the fall of Shanghai."
+    },
+    "亨利路": {
+      "en": "Route Paul Henry",
+      "pinyin": "Henglilu",
+      "status": "attested",
+      "note": "French Concession road (Route Paul Henry), today's Xinle Road."
+    },
+    "辣斐德路": {
+      "en": "Route Lafayette",
+      "pinyin": "Lafeidelu",
+      "status": "attested",
+      "note": "French Concession road (Route Lafayette), today's Fuxing Middle Road."
+    },
+    "敏体尼荫路": {
+      "en": "Rue Montauban",
+      "pinyin": "Mintiniyinlu",
+      "status": "attested",
+      "note": "French Concession road, today's South Xizang Road. Book form 'Rue Montauban' matches ch08; historically this was Route Montigny (敏体尼 = Montigny) -- FLAG FOR B10 reconciliation."
+    },
+    "丽都花园": {
+      "en": "the Lido Garden",
+      "pinyin": "Lidu Huayuan",
+      "status": "attested",
+      "note": "A Shanghai entertainment garden/ballroom Du frequented."
+    },
+    "华懋饭店": {
+      "en": "the Cathay Hotel",
+      "pinyin": "Huamao Fandian",
+      "status": "attested",
+      "note": "Sassoon's Cathay Hotel on the Bund (今 Peace Hotel north building)."
+    },
+    "城隍庙": {
+      "en": "the City God Temple",
+      "pinyin": "Chenghuang Miao",
+      "status": "attested",
+      "note": "The City God Temple in the old Shanghai city."
+    },
+    "金利源码头": {
+      "en": "the Jinliyuan Wharf",
+      "pinyin": "Jinliyuan Matou",
+      "status": "decided",
+      "note": "The China Merchants' Jinliyuan wharf, haunt of young Du's gambling."
+    },
+    "郑家木桥": {
+      "en": "Zhengjia Wooden Bridge",
+      "pinyin": "Zhengjiamuqiao",
+      "status": "decided",
+      "note": "A quarter and old bridge on the French Concession edge; book form 'Zhengjia Wooden Bridge', per ch08."
+    },
+    "八仙桥": {
+      "en": "Baxianqiao",
+      "pinyin": "Baxianqiao",
+      "status": "attested",
+      "note": "A district of the French Concession (lit. 'Eight Immortals Bridge'). Book form 'Baxianqiao', consistent across ch08/13/14/16."
+    },
+    "小东门": {
+      "en": "the Small East Gate",
+      "pinyin": "Xiaodongmen",
+      "status": "decided",
+      "note": "The Small East Gate quarter of the old Shanghai city (per ch08)."
+    },
+    "共舞台": {
+      "en": "the Gongwutai",
+      "pinyin": "Gongwutai",
+      "status": "provisional",
+      "note": "A Shanghai opera theater where Yao Yulan and Yuying performed."
+    },
+    "长生桥": {
+      "en": "Changsheng Bridge",
+      "pinyin": "Changshengqiao",
+      "status": "decided",
+      "note": "A place in the old walled city; crop-verified (OCR misread 长生帮)."
+    },
+    "莫干山": {
+      "en": "Moganshan",
+      "pinyin": "Moganshan",
+      "status": "attested",
+      "note": "The hill resort in Zhejiang where Du kept a villa."
+    },
+    "里咸瓜街": {
+      "en": "Li Xiangua Street",
+      "pinyin": "Li Xianguajie",
+      "status": "decided",
+      "note": "A street by the money-shop guildhall (then Xiexing Street) in the old city."
+    },
+    "金陵东路": {
+      "en": "East Jinling Road",
+      "pinyin": "Jinling Donglu",
+      "status": "decided",
+      "note": "Today's name for the former Rue du Consulat (法大马路). Book form 'East Jinling Road', per ch08/14/16."
     }
   },
   "terms": {

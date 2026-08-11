@@ -370,3 +370,15 @@
 沙千里
 # 中百一店 = the Shanghai No. 1 Department Store (中百 = department store, 一店 = branch one); 百一 is not the number 101.
 中百一店
+#
+# --- ch17 (B07b) ---
+# 二百多万 = "over 2 million yuan" (Huang Jinrong's opium-company cut); 多 splits 二百 from 万. English carries "more than two million".
+二百多万
+# 四十多万 = "over 400,000 yuan" (Du's yearly outgoings); 多 splits 四十 from 万. English carries "more than four hundred thousand".
+四十多万
+# 两角(小洋) = a twenty-cent silver coin; 两 here is the count "two" of 角(jiao), rendered "twenty-cent". Not the tael and not a bare 2.
+两角
+# 老四 = "Lao Si", Du's senior wife's by-name (lit. "number four"); 四 is the name, not the count 4. Rendered "Lao Si".
+老四
+# 老五 = "Lao Wu", Du's concubine née Chen (lit. "number five"); 五 is the name, not the count 5. Rendered "Lao Wu".
+老五
