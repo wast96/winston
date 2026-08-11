@@ -382,3 +382,17 @@
 老四
 # 老五 = "Lao Wu", Du's concubine née Chen (lit. "number five"); 五 is the name, not the count 5. Rendered "Lao Wu".
 老五
+#
+# --- ch18 (B07b) ---
+# Tael-unit 两 (liang) after any numeral is a UNIT, not the digit 2. Because 两 sits in the numeral class, the tokenizer greedily fuses "<number>两" and mis-values it (五百两 -> 502, 二万三千五百三十七两 -> 23532). Strip the unit 两 when a numeral precedes it; 两 meaning "two" (两艘, 两个, 两三百) is never numeral-preceded and is untouched. Fixes every silver/opium-tael figure book-wide.
+(?<=[0-9０-９零〇一二三四五六七八九十百千万亿])两
+# 垂涎三尺 = "mouths watering three feet" (envious longing); 三 is the idiom, not the count 3. English renders the sense.
+垂涎三尺
+# 三北 = the Sanbei Steamship Company (Yu Qiaqing's line); 三 is the company name, not the count 3. Rendered "the Sanbei".
+三北
+# 百分比 = percentage; 百 here is "per-cent", not the number 100. English "percentage".
+百分比
+# 沈荣三 = Shen Rongsan, a comprador; 三 is the personal name, not the count 3.
+沈荣三
+# 谢葆三 = Xie Baosan, a comprador; 三 is the personal name, not the count 3.
+谢葆三
