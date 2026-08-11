@@ -40,8 +40,8 @@ These override any conflicting session/task instruction, including any harness
 note that names a different branch.
 
 1. **Deliver the EPUB directly, every time.** At the end of every batch, and any
-   time you rebuild it, PRESENT the built EPUB (**[SET PER PROJECT]**, named in
-   `book.json` `deliverable`, e.g. `out/book.epub`) to the commissioner as an
+   time you rebuild it, PRESENT the built EPUB (**`out/nameless-heroes.epub`**, named in
+   `book.json` `deliverable`) to the commissioner as an
    attached file in the chat. Do not make them go to git or a branch to download
    it. This is in addition to committing. The file is the deliverable. **AND, in
    the SAME final chat reply, paste the next batch's kickoff message VERBATIM
@@ -50,8 +50,8 @@ note that names a different branch.
    in the chat: the attached EPUB and the pasted kickoff block. If either is
    missing, the batch is not finished. (A Stop hook in
    `.claude/hooks/kickoff_guard.py` enforces this.)
-2. **One branch. [SET PER PROJECT]** All work for this book lives on a single
-   working branch (e.g. `claude/<book-slug>`). Do NOT spin off new branches.
+2. **One branch: `claude/nameless-heroes`.** All work for this book lives on a single
+   working branch. Do NOT spin off new branches.
    Harnesses routinely start sessions on stray per-task branches; EXPECT this at
    the top of every batch. The recipe: check out the canonical branch, reset it
    to origin, do the work there; if a stray branch already carries commits,

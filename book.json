@@ -1,74 +1,1007 @@
 {
-  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. For an EPUB source, author it from book.draft.json (produced by scripts/ingest_epub.py) — refine the titles, add English titles, and MERGE or SPLIT units where the source EPUB's file boundaries do not match its logical chapters. Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists.",
-
-  "deliverable": "out/book.epub",
-  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this; never rely on the default.",
-
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 2020,
-  "uid": "urn:uuid:my-book-slug-1",
-
-  "_source_note": "The source is a digital EPUB with reliable text (no OCR). Record its title/edition and anything notable (missing chapters, embedded notes, image-heavy sections) here.",
-  "source_epub": "source.epub",
-
-  "_metadata_note": "Optional richer metadata, all read by the builder: subtitle_en; title_file_as / author_file_as (library sort keys; default to the display forms); translator_en; publication_date (ISO, else year-01-01); rights; source_ref (a dc:source line naming the source edition); subjects (a JSON list; legacy singular 'subject' still honored); series + series_index (calibre metas and the EPUB3 collection); language (default 'en'); source_language (BCP-47, e.g. 'zh'); source_script (lang tag for source-script spans, e.g. 'zh-Hant' or 'zh-Hans'; default 'zh'); cover_image (a file under the project or data/ dirs, copied byte-identical); modified (deterministic dcterms:modified stamp, default 2026-01-01T00:00:00Z -- rebuilds are byte-identical); deliverable (output path used when the builder/qa get no argv); uid (kept verbatim unless it is a malformed urn:uuid, which is replaced by a deterministic UUIDv5 of title_en). The source book's own notes go in source_notes.json, a second stream kept separate from the translator's notes.json.",
-
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212;, &#160;), never named entities. If omitted, a generic method note is generated.",
-  "translator_note": [
-    "This is an English translation of <i>中文書名</i>, made from the digital source EPUB.",
-    "Say here what the register decisions were, who the author is, and how any editorial choices (the source's own notes, ambiguous passages, cut material) were handled."
+  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. Chapter ids start with 'ch'. A chapter is treated as translated once out/<id>_reading.md exists.",
+  "deliverable": "out/nameless-heroes.epub",
+  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this.",
+  "title_en": "Nameless Heroes",
+  "subtitle_en": "The Memoirs of a Nationalist Secret Agent",
+  "title_zh": "英雄无名",
+  "title_file_as": "Nameless Heroes",
+  "author_en": "Chen Gongshu",
+  "author_zh": "陈恭澍",
+  "author_file_as": "Chen, Gongshu",
+  "translator_en": "",
+  "year": 1983,
+  "publisher": "Winston Translations",
+  "description": "The memoirs of Chen Gongshu, a senior operative of the Chinese Nationalist secret service (the Juntong), spanning his work from the founding of the Beiping station in 1932, through the failed 1939 attempt on Wang Jingwei at Hanoi and the Shanghai underground war against Japan, to the Nationalist–Communist fighting around Beiping and Tianjin in 1946–49. It collects the four books of his “Nameless Heroes” series.",
+  "rights": "English translation prepared for private study. Original text © the estate of Chen Gongshu.",
+  "source_ref": "Translated from 陈恭澍《英雄无名》 (Chen Gongshu, Nameless Heroes), 传记文学出版社 (Biographical Literature Press), Taipei; the four constituent books appeared separately in the early-to-mid 1980s.",
+  "subjects": [
+    "Chen Gongshu",
+    "Juntong (China)",
+    "Secret service -- China -- History -- 20th century",
+    "Sino-Japanese War, 1937-1945 -- Secret service",
+    "Wang Jingwei, 1883-1944",
+    "China -- History -- Civil War, 1945-1949",
+    "Espionage -- China",
+    "Autobiographies"
   ],
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (source), title_en, and OPTIONAL 'part' (a label like 'Part One. ...'; consecutive chapters sharing it are grouped in the TOC). Keep 'src' (the source spine href, optionally with #anchor) and 'chars' (source character count, from ingest) so the survey can size batches; 'text_file' points at the extracted source text for that unit. Each section: id (ch01s01..), section (int), title, title_en, src, chars, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front: the survey and the skeleton EPUB are built from it before any translation.",
+  "series": "Winston Translations",
+  "series_index": 10,
+  "language": "en",
+  "source_language": "zh",
+  "source_script": "zh-Hans",
+  "source_epub": "source.epub",
+  "cover_image": "data/figs/英雄无名-陈恭澍.png",
+  "_source_note": "Source is a digital EPUB (no OCR): the collected 'Nameless Heroes' (英雄无名) tetralogy by Chen Gongshu, a Nationalist (Juntong) secret-service memoir. 45 spine documents; 43 are modeled as chapters. EXCLUDED: Text/cover.xhtml (0 chars) -> reused as the cover image; Text/nav.xhtml -> the source's own EPUB TOC, superseded by the builder's generated navigation. The source carries NO footnotes/endnotes of its own (grep for [n] in data/src: none present), so there is no source_notes stream. Every content file opens with the running-header line '英雄无名-陈恭澍'; it is furniture, not text, and is dropped at translation time. Chapter numbering is faithful to the source, INCLUDING its gaps: Part Three skips chapter 7 and splits chapter 10 into (上)/(下).",
+  "_translator_note": "Rendered verbatim as the Translator's Note back-matter page.",
+  "translator_note": [
+    "This is an English translation of <i>英雄无名</i> (<i>Nameless Heroes</i>) by Chen Gongshu (陈恭澍), made from the digital source EPUB. The book is a memoir of the Chinese Nationalist secret service &#8212; the organization Chen calls the Juntong &#8212; told from the inside by a man who ran its Beiping station, took part in the 1939 attempt on Wang Jingwei at Hanoi, directed operations in occupied Shanghai, and commanded a special unit in the Nationalist&#8211;Communist fighting around Beiping and Tianjin.",
+    "The volume collects four separately published books: <i>Rooting Out Traitors in the North</i>, <i>Disgrace at Hanoi</i> (published under the title <i>The Full Story of the Wang Case at Hanoi</i>), <i>Renown Won in a Hundred Battles</i> (the Shanghai operations), and <i>Pacification of the Beiping&#8211;Tianjin Region</i>. Chen wrote them in the early-to-mid 1980s; his own prefaces and the introductions collected at the front are translated here alongside the narrative.",
+    "Chen writes as an interested witness: a participant defending his own conduct and that of his service, in the political idiom of the Nationalist side (the Communist forces are &#8220;bandits,&#8221; the war of 1946&#8211;49 a &#8220;pacification&#8221;). That idiom is preserved, not softened; where a claim is contested by scholarship, the footnote says so and the text stands as written. Footnotes supply the historical, geographic, and institutional background a reader without a background in modern Chinese history would need.",
+    "Where the source is genuinely ambiguous, corrupt, or self-contradictory, the note says so rather than smoothing it over."
+  ],
   "structure": [
     {
       "level": 1,
       "id": "ch01",
       "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "src": "text/chapter01.xhtml",
-      "chars": 8200,
-      "text_file": "data/src/01_chapter01.txt",
+      "title": "「英雄无名」卷前",
+      "title_en": "Foreword: The Conception of Nameless Heroes",
+      "src": "Text/index_split_000.xhtml",
+      "chars": 890,
+      "text_file": "data/src/02_index-split-000.txt",
+      "part": "Prefaces and Introductions"
+    },
+    {
+      "level": 1,
+      "id": "ch02",
+      "chapter": 2,
+      "title": "「北国锄奸」介绍",
+      "title_en": "Introduction to Rooting Out Traitors in the North",
+      "src": "Text/index_split_000_0001.xhtml",
+      "chars": 2006,
+      "text_file": "data/src/03_index-split-000-0001.txt",
+      "part": "Prefaces and Introductions"
+    },
+    {
+      "level": 1,
+      "id": "ch03",
+      "chapter": 3,
+      "title": "「河内辱命」介绍",
+      "title_en": "Introduction to Disgrace at Hanoi",
+      "src": "Text/index_split_000_0002.xhtml",
+      "chars": 877,
+      "text_file": "data/src/04_index-split-000-0002.txt",
+      "part": "Prefaces and Introductions"
+    },
+    {
+      "level": 1,
+      "id": "ch04",
+      "chapter": 4,
+      "title": "「百战声威」介绍",
+      "title_en": "Introduction to Renown Won in a Hundred Battles",
+      "src": "Text/index_split_000_0003.xhtml",
+      "chars": 6455,
+      "text_file": "data/src/05_index-split-000-0003.txt",
+      "part": "Prefaces and Introductions"
+    },
+    {
+      "level": 1,
+      "id": "ch05",
+      "chapter": 5,
+      "title": "北国锄奸",
+      "title_en": "Prefatory Note",
+      "src": "Text/index_split_000_0004.xhtml",
+      "chars": 361,
+      "text_file": "data/src/06_index-split-000-0004.txt",
+      "part": "Part One. Rooting Out Traitors in the North"
+    },
+    {
+      "level": 1,
+      "id": "ch06",
+      "chapter": 6,
+      "title": "第一节 任重道远 勇往直前",
+      "title_en": "Section 1. A Heavy Charge, Pressing Onward",
+      "src": "Text/index_split_000_0005.xhtml",
+      "chars": 25236,
+      "text_file": "data/src/07_index-split-000-0005.txt",
+      "part": "Part One. Rooting Out Traitors in the North"
+    },
+    {
+      "level": 1,
+      "id": "ch07",
+      "chapter": 7,
+      "title": "第二节 一鸣惊人 不同凡响",
+      "title_en": "Section 2. A Startling Debut",
+      "src": "Text/index_split_000_0006.xhtml",
+      "chars": 21263,
+      "text_file": "data/src/08_index-split-000-0006.txt",
+      "part": "Part One. Rooting Out Traitors in the North"
+    },
+    {
+      "level": 1,
+      "id": "ch08",
+      "chapter": 8,
+      "title": "第三节 盘根错节 李代桃僵",
+      "title_en": "Section 3. Tangled Roots, a Substitute Sacrifice",
+      "src": "Text/index_split_000_0007.xhtml",
+      "chars": 36344,
+      "text_file": "data/src/09_index-split-000-0007.txt",
+      "part": "Part One. Rooting Out Traitors in the North"
+    },
+    {
+      "level": 1,
+      "id": "ch09",
+      "chapter": 9,
+      "title": "第四节 急功躁进铸成大错",
+      "title_en": "Section 4. Impatience Breeds a Grave Blunder",
+      "src": "Text/index_split_000_0008.xhtml",
+      "chars": 35150,
+      "text_file": "data/src/10_index-split-000-0008.txt",
+      "part": "Part One. Rooting Out Traitors in the North"
+    },
+    {
+      "level": 1,
+      "id": "ch10",
+      "chapter": 10,
+      "title": "「河内汪案始末」自序",
+      "title_en": "Author's Preface: The Full Story of the Wang Case at Hanoi",
+      "src": "Text/index_split_000_0009.xhtml",
+      "chars": 2295,
+      "text_file": "data/src/11_index-split-000-0009.txt",
+      "part": "Part Two. Disgrace at Hanoi"
+    },
+    {
+      "level": 1,
+      "id": "ch11",
+      "chapter": 11,
+      "title": "第一章 浴血杀敌奋勇抗战",
+      "title_en": "Chapter 1. Bloodshed Against the Enemy, Valiant Resistance",
+      "src": "Text/index_split_000_0010.xhtml",
+      "chars": 11439,
+      "text_file": "data/src/12_index-split-000-0010.txt",
+      "part": "Part Two. Disgrace at Hanoi"
+    },
+    {
+      "level": 1,
+      "id": "ch12",
+      "chapter": 12,
+      "title": "第二章 人心叵测别有肺肠",
+      "title_en": "Chapter 2. Unfathomable Hearts, Hidden Designs",
+      "src": "Text/index_split_000_0011.xhtml",
+      "chars": 19990,
+      "text_file": "data/src/13_index-split-000-0011.txt",
+      "part": "Part Two. Disgrace at Hanoi"
+    },
+    {
+      "level": 1,
+      "id": "ch13",
+      "chapter": 13,
+      "title": "第三章 波诡云谲 风雨欲来",
+      "title_en": "Chapter 3. Treacherous Tides, a Gathering Storm",
+      "src": "Text/index_split_000_0012.xhtml",
+      "chars": 35117,
+      "text_file": "data/src/14_index-split-000-0012.txt",
+      "part": "Part Two. Disgrace at Hanoi"
+    },
+    {
+      "level": 1,
+      "id": "ch14",
+      "chapter": 14,
+      "title": "第四章 三面受敌 一往无前",
+      "title_en": "Chapter 4. Beset on Three Sides, Ever Forward",
+      "src": "Text/index_split_000_0013.xhtml",
+      "chars": 520,
+      "text_file": "data/src/15_index-split-000-0013.txt",
+      "part": "Part Two. Disgrace at Hanoi"
+    },
+    {
+      "level": 1,
+      "id": "ch15",
+      "chapter": 15,
+      "title": "第五章 博浪一击 误中副车",
+      "title_en": "Chapter 5. A Blow at Bolang, the Wrong Carriage Struck",
+      "src": "Text/index_split_000_0014.xhtml",
+      "chars": 21830,
+      "text_file": "data/src/16_index-split-000-0014.txt",
+      "part": "Part Two. Disgrace at Hanoi"
+    },
+    {
+      "level": 1,
+      "id": "ch16",
+      "chapter": 16,
+      "title": "第六章 奸伪卑劣 寿张为幻",
+      "title_en": "Chapter 6. Vile Treachery, Illusions Undone",
+      "src": "Text/index_split_000_0015.xhtml",
+      "chars": 23759,
+      "text_file": "data/src/17_index-split-000-0015.txt",
+      "part": "Part Two. Disgrace at Hanoi"
+    },
+    {
+      "level": 1,
+      "id": "ch17",
+      "chapter": 17,
+      "title": "第七章 临深履薄锲而不舍",
+      "title_en": "Chapter 7. Treading Thin Ice, Never Relenting",
+      "src": "Text/index_split_000_0016.xhtml",
+      "chars": 17446,
+      "text_file": "data/src/18_index-split-000-0016.txt",
+      "part": "Part Two. Disgrace at Hanoi"
+    },
+    {
+      "level": 1,
+      "id": "ch18",
+      "chapter": 18,
+      "title": "第八章 再接再励前仆后继",
+      "title_en": "Chapter 8. Renewed Effort, Wave upon Wave",
+      "src": "Text/index_split_000_0017.xhtml",
+      "chars": 16173,
+      "text_file": "data/src/19_index-split-000-0017.txt",
+      "part": "Part Two. Disgrace at Hanoi"
+    },
+    {
+      "level": 1,
+      "id": "ch19",
+      "chapter": 19,
+      "title": "「英雄无名」作者小启",
+      "title_en": "A Note from the Author",
+      "src": "Text/index_split_000_0018.xhtml",
+      "chars": 510,
+      "text_file": "data/src/20_index-split-000-0018.txt",
+      "part": "Part Two. Disgrace at Hanoi"
+    },
+    {
+      "level": 1,
+      "id": "ch20",
+      "chapter": 20,
+      "title": "「上海抗日敌后行动」自序",
+      "title_en": "Author's Preface: Shanghai Behind-the-Lines Operations Against Japan",
+      "src": "Text/index_split_000_0019.xhtml",
+      "chars": 3417,
+      "text_file": "data/src/21_index-split-000-0019.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch21",
+      "chapter": 21,
+      "title": "第一章 十里洋场重振雄威",
+      "title_en": "Chapter 1. Back in Shanghai, Our Might Restored",
+      "src": "Text/index_split_000_0020.xhtml",
+      "chars": 21426,
+      "text_file": "data/src/22_index-split-000-0020.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch22",
+      "chapter": 22,
+      "title": "第二章 春云乍展风雷初动杀",
+      "title_en": "Chapter 2. Spring Clouds Unfurl, the First Thunder Stirs",
+      "src": "Text/index_split_000_0021.xhtml",
+      "chars": 35471,
+      "text_file": "data/src/23_index-split-000-0021.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch23",
+      "chapter": 23,
+      "title": "第三章 爱国情操 道德规范",
+      "title_en": "Chapter 3. Patriotic Spirit, Moral Bounds",
+      "src": "Text/index_split_000_0022.xhtml",
+      "chars": 534,
+      "text_file": "data/src/24_index-split-000-0022.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch24",
+      "chapter": 24,
+      "title": "第四章 三面受敌 一往无前",
+      "title_en": "Chapter 4. Beset on Three Sides, Ever Forward",
+      "src": "Text/index_split_000_0023.xhtml",
+      "chars": 17105,
+      "text_file": "data/src/25_index-split-000-0023.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch25",
+      "chapter": 25,
+      "title": "第五章 全面检讨奇人奇事",
+      "title_en": "Chapter 5. A Full Reckoning: Remarkable People, Remarkable Deeds",
+      "src": "Text/index_split_000_0024.xhtml",
+      "chars": 15600,
+      "text_file": "data/src/26_index-split-000-0024.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch26",
+      "chapter": 26,
+      "title": "第六章 泰山鸿毛 同此一掷",
+      "title_en": "Chapter 6. Mount Tai or a Feather, All on One Throw",
+      "src": "Text/index_split_000_0025.xhtml",
+      "chars": 32563,
+      "text_file": "data/src/27_index-split-000-0025.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch27",
+      "chapter": 27,
+      "title": "第八章 大亨之死 扑朔迷离",
+      "title_en": "Chapter 8. The Death of a Tycoon, Shrouded in Mystery",
+      "src": "Text/index_split_000_0026.xhtml",
+      "chars": 12537,
+      "text_file": "data/src/28_index-split-000-0026.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch28",
+      "chapter": 28,
+      "title": "第九章 声威大震血浪腥风",
+      "title_en": "Chapter 9. Fearsome Renown, Waves of Blood",
+      "src": "Text/index_split_000_0027.xhtml",
+      "chars": 17285,
+      "text_file": "data/src/29_index-split-000-0027.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch29",
+      "chapter": 29,
+      "title": "第十章 祸不单行 柱折梁摧(上)",
+      "title_en": "Chapter 10. Troubles Never Come Singly; Pillars Snap, Beams Fall (Part 1)",
+      "src": "Text/index_split_000_0028.xhtml",
+      "chars": 13891,
+      "text_file": "data/src/30_index-split-000-0028.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch30",
+      "chapter": 30,
+      "title": "第十章 祸不单行 柱折梁摧(下)",
+      "title_en": "Chapter 10. Troubles Never Come Singly; Pillars Snap, Beams Fall (Part 2)",
+      "src": "Text/index_split_000_0029.xhtml",
+      "chars": 15420,
+      "text_file": "data/src/31_index-split-000-0029.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch31",
+      "chapter": 31,
+      "title": "写在「英雄无名」第三部专书出版前",
+      "title_en": "Written Before the Third Volume Went to Press",
+      "src": "Text/index_split_000_0030.xhtml",
+      "chars": 855,
+      "text_file": "data/src/32_index-split-000-0030.txt",
+      "part": "Part Three. Renown Won in a Hundred Battles"
+    },
+    {
+      "level": 1,
+      "id": "ch32",
+      "chapter": 32,
+      "title": "自序",
+      "title_en": "Author's Preface",
+      "src": "Text/index_split_000_0031.xhtml",
+      "chars": 3806,
+      "text_file": "data/src/33_index-split-000-0031.txt",
+      "part": "Part Four. Pacification of the Beiping–Tianjin Region"
+    },
+    {
+      "level": 1,
+      "id": "ch33",
+      "chapter": 33,
+      "title": "第一章 振衰起敝 二次出发",
+      "title_en": "Chapter 1. Reviving the Ailing, a Second Start",
+      "src": "Text/index_split_000_0032.xhtml",
+      "chars": 16819,
+      "text_file": "data/src/34_index-split-000-0032.txt",
+      "part": "Part Four. Pacification of the Beiping–Tianjin Region",
       "sections": [
         {
-          "id": "ch01s01",
+          "id": "ch33s01",
           "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "src": "text/chapter01.xhtml#sec1",
-          "chars": 4100,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)"
-            }
-          ]
+          "title": "一、一支新制特种部队的产生",
+          "title_en": "1. The Birth of a New Special-Operations Unit"
         },
         {
-          "id": "ch01s02",
+          "id": "ch33s02",
           "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "src": "text/chapter01.xhtml#sec2",
-          "chars": 4100
+          "title": "二、重返旧地景物依稀",
+          "title_en": "2. Return to Old Ground, Faintly Familiar"
+        },
+        {
+          "id": "ch33s03",
+          "section": 3,
+          "title": "三、复杂的人事关系与重叠的工作任务",
+          "title_en": "3. Tangled Personnel Ties and Overlapping Duties"
+        },
+        {
+          "id": "ch33s04",
+          "section": 4,
+          "title": "四、亦师亦友战斗中的伙伴工作上的能手",
+          "title_en": "4. Mentors and Friends: Comrades in Battle, Masters at the Work"
         }
       ]
+    },
+    {
+      "level": 1,
+      "id": "ch34",
+      "chapter": 34,
+      "title": "第二章 自动自发 同心同德",
+      "title_en": "Chapter 2. Self-Starting, of One Heart and Mind",
+      "src": "Text/index_split_000_0033.xhtml",
+      "chars": 13372,
+      "text_file": "data/src/35_index-split-000-0033.txt",
+      "part": "Part Four. Pacification of the Beiping–Tianjin Region",
+      "sections": [
+        {
+          "id": "ch34s01",
+          "section": 1,
+          "title": "一、解答﹁特种组织﹂与﹁特种部队﹂",
+          "title_en": "1. Defining ‘Special Organization’ and ‘Special Forces’"
+        },
+        {
+          "id": "ch34s02",
+          "section": 2,
+          "title": "二、一幅轮廓突出三个特点",
+          "title_en": "2. An Outline in Sharp Relief: Three Distinctive Features"
+        },
+        {
+          "id": "ch34s03",
+          "section": 3,
+          "title": "三、主管会报联合办事与集体领导",
+          "title_en": "3. Command Briefings, Joint Operations, Collective Leadership"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch35",
+      "chapter": 35,
+      "title": "第三章 一番风雨 几片落叶",
+      "title_en": "Chapter 3. A Spell of Storm, a Few Fallen Leaves",
+      "src": "Text/index_split_000_0034.xhtml",
+      "chars": 17152,
+      "text_file": "data/src/36_index-split-000-0034.txt",
+      "part": "Part Four. Pacification of the Beiping–Tianjin Region",
+      "sections": [
+        {
+          "id": "ch35s01",
+          "section": 1,
+          "title": "一、投文报到确定配属关系",
+          "title_en": "1. Reporting for Duty, Fixing the Chain of Command"
+        },
+        {
+          "id": "ch35s02",
+          "section": 2,
+          "title": "二、广纳故旧情义重实力增强",
+          "title_en": "2. Gathering Old Comrades: Loyalty Deepens, Strength Grows"
+        },
+        {
+          "id": "ch35s03",
+          "section": 3,
+          "title": "三、从个人关系中理出来一条线索",
+          "title_en": "3. A Lead Teased from Personal Connections"
+        },
+        {
+          "id": "ch35s04",
+          "section": 4,
+          "title": "四、往事已成云烟结局足堪警惕",
+          "title_en": "4. The Past Now Vapor, the Ending a Warning"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch36",
+      "chapter": 36,
+      "title": "第四章 掌握先机 备多力分",
+      "title_en": "Chapter 4. Seizing the Initiative, Spread Too Thin",
+      "src": "Text/index_split_000_0035.xhtml",
+      "chars": 16011,
+      "text_file": "data/src/37_index-split-000-0035.txt",
+      "part": "Part Four. Pacification of the Beiping–Tianjin Region",
+      "sections": [
+        {
+          "id": "ch36s01",
+          "section": 1,
+          "title": "一、从情报的价値观念说到情报运用",
+          "title_en": "1. From the Value of Intelligence to Its Use"
+        },
+        {
+          "id": "ch36s02",
+          "section": 2,
+          "title": "二、阴错阳差几乎牵涉到弄权事件",
+          "title_en": "2. A Freak Mischance, Nearly Drawn into an Abuse of Power"
+        },
+        {
+          "id": "ch36s03",
+          "section": 3,
+          "title": "三、﹁掏心战术﹂失时机毛酋在逃",
+          "title_en": "3. The ‘Heart-Extraction’ Tactic Mistimed; the Bandit Chief Escapes"
+        },
+        {
+          "id": "ch36s04",
+          "section": 4,
+          "title": "四、我们在石家庄之役的战斗和牺牲",
+          "title_en": "4. Our Fighting and Sacrifice at the Battle of Shijiazhuang"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch37",
+      "chapter": 37,
+      "title": "第五章 兵连祸结 民不聊生",
+      "title_en": "Chapter 5. War Unending, the People Destitute",
+      "src": "Text/index_split_000_0036.xhtml",
+      "chars": 14130,
+      "text_file": "data/src/38_index-split-000-0036.txt",
+      "part": "Part Four. Pacification of the Beiping–Tianjin Region",
+      "sections": [
+        {
+          "id": "ch37s01",
+          "section": 1,
+          "title": "一、石门之失共军十万总攻国军数千人苦撑",
+          "title_en": "1. The Fall of Shimen: 100,000 Communist Troops Attack, a Few Thousand Nationalists Hold On"
+        },
+        {
+          "id": "ch37s02",
+          "section": 2,
+          "title": "二、环境不同受欢迎与被排斥",
+          "title_en": "2. Different Ground: Welcomed Here, Shunned There"
+        },
+        {
+          "id": "ch37s03",
+          "section": 3,
+          "title": "三、地方团队与中共民兵的一场苦战",
+          "title_en": "3. A Bitter Fight: Local Corps against the Communist Militia"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch38",
+      "chapter": 38,
+      "title": "第六章 曲直分明 反复无常",
+      "title_en": "Chapter 6. Right and Wrong Made Plain, yet Ever Fickle",
+      "src": "Text/index_split_000_0037.xhtml",
+      "chars": 14426,
+      "text_file": "data/src/39_index-split-000-0037.txt",
+      "part": "Part Four. Pacification of the Beiping–Tianjin Region",
+      "sections": [
+        {
+          "id": "ch38s01",
+          "section": 1,
+          "title": "一、日本不侵略就不会发生这种事",
+          "title_en": "1. Had Japan Not Invaded, None of This Would Have Happened"
+        },
+        {
+          "id": "ch38s02",
+          "section": 2,
+          "title": "二、但愿每一支队伍都如此坚强",
+          "title_en": "2. Would That Every Unit Were So Steadfast"
+        },
+        {
+          "id": "ch38s03",
+          "section": 3,
+          "title": "三、莫非是情势逆转而把持不住",
+          "title_en": "3. Or Did the Tide Turn and Their Resolve Fail?"
+        },
+        {
+          "id": "ch38s04",
+          "section": 4,
+          "title": "四、纵有反反复复依然泱泱大度",
+          "title_en": "4. For All the Waverings, Magnanimous Still"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch39",
+      "chapter": 39,
+      "title": "第七章 瞻前顾后 未雨绸缪",
+      "title_en": "Chapter 7. Looking Before and After, Providing Against the Storm",
+      "src": "Text/index_split_000_0038.xhtml",
+      "chars": 14763,
+      "text_file": "data/src/40_index-split-000-0038.txt",
+      "part": "Part Four. Pacification of the Beiping–Tianjin Region",
+      "sections": [
+        {
+          "id": "ch39s01",
+          "section": 1,
+          "title": "一、清理战场中的所见所为",
+          "title_en": "1. What I Saw and Did While Clearing the Battlefield"
+        },
+        {
+          "id": "ch39s02",
+          "section": 2,
+          "title": "二、再三更改迄无定向的战略方针",
+          "title_en": "2. A Strategy Revised Again and Again, Still Without Direction"
+        },
+        {
+          "id": "ch39s03",
+          "section": 3,
+          "title": "三、一点赤心为全队前程预作安排",
+          "title_en": "3. A Loyal Heart Providing for the Whole Unit’s Future"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch40",
+      "chapter": 40,
+      "title": "第八章 抚今追昔 烟波千里",
+      "title_en": "Chapter 8. Musing on Past and Present, Mist over a Thousand Miles",
+      "src": "Text/index_split_000_0039.xhtml",
+      "chars": 13545,
+      "text_file": "data/src/41_index-split-000-0039.txt",
+      "part": "Part Four. Pacification of the Beiping–Tianjin Region",
+      "sections": [
+        {
+          "id": "ch40s01",
+          "section": 1,
+          "title": "一、三人同步各行各事走上了三条路",
+          "title_en": "1. Three Men in Step, Each His Own Way, onto Three Roads"
+        },
+        {
+          "id": "ch40s02",
+          "section": 2,
+          "title": "二、华北战场为人所忽视的头号大敌",
+          "title_en": "2. The Overlooked Arch-Enemy of the North China Front"
+        },
+        {
+          "id": "ch40s03",
+          "section": 3,
+          "title": "三、但愿你们坚苦刻励永远活在那里",
+          "title_en": "3. May You, Steadfast and Striving, Live On There Forever"
+        },
+        {
+          "id": "ch40s04",
+          "section": 4,
+          "title": "四、每一仗败阵都输得心有未甘",
+          "title_en": "4. Every Defeat Lost with Unyielding Regret"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch41",
+      "chapter": 41,
+      "title": "第九章 痛定思痛 来者可追",
+      "title_en": "Chapter 9. Reflecting on Past Pain, the Future Still to Redeem",
+      "src": "Text/index_split_000_0040.xhtml",
+      "chars": 15421,
+      "text_file": "data/src/42_index-split-000-0040.txt",
+      "part": "Part Four. Pacification of the Beiping–Tianjin Region",
+      "sections": [
+        {
+          "id": "ch41s01",
+          "section": 1,
+          "title": "一、大队南移心也忐忑路也坎坷时也蹉跎",
+          "title_en": "1. The Corps Moves South: Hearts Uneasy, the Road Rough, Time Slipping Away"
+        },
+        {
+          "id": "ch41s02",
+          "section": 2,
+          "title": "二、余痛犹在——摘记平津相继沦陷",
+          "title_en": "2. The Ache Remains: Notes on the Fall of Beiping and Tianjin"
+        },
+        {
+          "id": "ch41s03",
+          "section": 3,
+          "title": "三、围城期间看故鄕街头景象",
+          "title_en": "3. Scenes on My Hometown Streets During the Siege"
+        },
+        {
+          "id": "ch41s04",
+          "section": 4,
+          "title": "四、一去不返，别了北平，别了家鄕",
+          "title_en": "4. Gone for Good: Farewell Beiping, Farewell Home"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch42",
+      "chapter": 42,
+      "title": "第十章 落叶归根 善其始终",
+      "title_en": "Chapter 10. Fallen Leaves Return to the Root, Seen Through to the End",
+      "src": "Text/index_split_000_0041.xhtml",
+      "chars": 17192,
+      "text_file": "data/src/43_index-split-000-0041.txt",
+      "part": "Part Four. Pacification of the Beiping–Tianjin Region",
+      "sections": [
+        {
+          "id": "ch42s01",
+          "section": 1,
+          "title": "一、冲动和冒失几几乎行为脱轨",
+          "title_en": "1. Impulse and Rashness, Nearly Off the Rails"
+        },
+        {
+          "id": "ch42s02",
+          "section": 2,
+          "title": "二、承担着无涯之苦勇敢的留下来",
+          "title_en": "2. Bearing Boundless Hardship, Bravely Staying On"
+        },
+        {
+          "id": "ch42s03",
+          "section": 3,
+          "title": "三、移防无定处九阅月渡过千山万水",
+          "title_en": "3. Nine Months of Shifting Posts, over a Thousand Mountains and Rivers"
+        },
+        {
+          "id": "ch42s04",
+          "section": 4,
+          "title": "四、我们都是动乱时代中的幸运者",
+          "title_en": "4. We Are All the Fortunate Ones of a Turbulent Age"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch43",
+      "chapter": 43,
+      "title": "英雄无名 篇后续话",
+      "title_en": "Afterword: Closing Remarks",
+      "src": "Text/index_split_000_0042.xhtml",
+      "chars": 2759,
+      "text_file": "data/src/44_index-split-000-0042.txt"
     }
   ],
-
-  "_batches_note": "Your work plan (proposed by scripts/survey.py, approved by the commissioner). Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
+  "_batches_note": "Proposed by scripts/survey.py and approved by the commissioner.",
   "batches": [
     {
       "batch": "B01",
-      "title": "ch1",
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
+      "first": "ch01",
+      "last": "ch05",
+      "chars": 10589,
+      "title": "Foreword: The Conception of Nameless Heroes .. Prefatory Note"
+    },
+    {
+      "batch": "B02",
+      "first": "ch06",
+      "last": "ch06",
+      "chars": 25236,
+      "title": "Section 1. A Heavy Charge, Pressing Onward"
+    },
+    {
+      "batch": "B03",
+      "first": "ch07",
+      "last": "ch07",
+      "chars": 21263,
+      "title": "Section 2. A Startling Debut"
+    },
+    {
+      "batch": "B04",
+      "first": "ch08",
+      "last": "ch08",
+      "chars": 36344,
+      "title": "Section 3. Tangled Roots, a Substitute Sacrifice"
+    },
+    {
+      "batch": "B05",
+      "first": "ch09",
+      "last": "ch09",
+      "chars": 35150,
+      "title": "Section 4. Impatience Breeds a Grave Blunder"
+    },
+    {
+      "batch": "B06",
+      "first": "ch10",
+      "last": "ch11",
+      "chars": 13734,
+      "title": "Author's Preface: The Full Story of the Wang Case at Hanoi .. Chapter 1. Bloodshed Against the Enemy, Valiant Resistance"
+    },
+    {
+      "batch": "B07",
+      "first": "ch12",
+      "last": "ch12",
+      "chars": 19990,
+      "title": "Chapter 2. Unfathomable Hearts, Hidden Designs"
+    },
+    {
+      "batch": "B08",
+      "first": "ch13",
+      "last": "ch13",
+      "chars": 35117,
+      "title": "Chapter 3. Treacherous Tides, a Gathering Storm"
+    },
+    {
+      "batch": "B09",
+      "first": "ch14",
+      "last": "ch14",
+      "chars": 520,
+      "title": "Chapter 4. Beset on Three Sides, Ever Forward"
+    },
+    {
+      "batch": "B10",
+      "first": "ch15",
+      "last": "ch15",
+      "chars": 21830,
+      "title": "Chapter 5. A Blow at Bolang, the Wrong Carriage Struck"
+    },
+    {
+      "batch": "B11",
+      "first": "ch16",
+      "last": "ch16",
+      "chars": 23759,
+      "title": "Chapter 6. Vile Treachery, Illusions Undone"
+    },
+    {
+      "batch": "B12",
+      "first": "ch17",
+      "last": "ch17",
+      "chars": 17446,
+      "title": "Chapter 7. Treading Thin Ice, Never Relenting"
+    },
+    {
+      "batch": "B13",
+      "first": "ch18",
+      "last": "ch19",
+      "chars": 16683,
+      "title": "Chapter 8. Renewed Effort, Wave upon Wave .. A Note from the Author"
+    },
+    {
+      "batch": "B14",
+      "first": "ch20",
+      "last": "ch20",
+      "chars": 3417,
+      "title": "Author's Preface: Shanghai Behind-the-Lines Operations Against Japan"
+    },
+    {
+      "batch": "B15",
+      "first": "ch21",
+      "last": "ch21",
+      "chars": 21426,
+      "title": "Chapter 1. Back in Shanghai, Our Might Restored"
+    },
+    {
+      "batch": "B16",
+      "first": "ch22",
+      "last": "ch22",
+      "chars": 35471,
+      "title": "Chapter 2. Spring Clouds Unfurl, the First Thunder Stirs"
+    },
+    {
+      "batch": "B17",
+      "first": "ch23",
+      "last": "ch24",
+      "chars": 17639,
+      "title": "Chapter 3. Patriotic Spirit, Moral Bounds .. Chapter 4. Beset on Three Sides, Ever Forward"
+    },
+    {
+      "batch": "B18",
+      "first": "ch25",
+      "last": "ch25",
+      "chars": 15600,
+      "title": "Chapter 5. A Full Reckoning: Remarkable People, Remarkable Deeds"
+    },
+    {
+      "batch": "B19",
+      "first": "ch26",
+      "last": "ch26",
+      "chars": 32563,
+      "title": "Chapter 6. Mount Tai or a Feather, All on One Throw"
+    },
+    {
+      "batch": "B20",
+      "first": "ch27",
+      "last": "ch27",
+      "chars": 12537,
+      "title": "Chapter 8. The Death of a Tycoon, Shrouded in Mystery"
+    },
+    {
+      "batch": "B21",
+      "first": "ch28",
+      "last": "ch28",
+      "chars": 17285,
+      "title": "Chapter 9. Fearsome Renown, Waves of Blood"
+    },
+    {
+      "batch": "B22",
+      "first": "ch29",
+      "last": "ch29",
+      "chars": 13891,
+      "title": "Chapter 10. Troubles Never Come Singly; Pillars Snap, Beams Fall (Part 1)"
+    },
+    {
+      "batch": "B23",
+      "first": "ch30",
+      "last": "ch31",
+      "chars": 16275,
+      "title": "Chapter 10. Troubles Never Come Singly; Pillars Snap, Beams Fall (Part 2) .. Written Before the Third Volume Went to Press"
+    },
+    {
+      "batch": "B24",
+      "first": "ch32",
+      "last": "ch32",
+      "chars": 3806,
+      "title": "Author's Preface"
+    },
+    {
+      "batch": "B25",
+      "first": "ch33",
+      "last": "ch33",
+      "chars": 16819,
+      "title": "Chapter 1. Reviving the Ailing, a Second Start"
+    },
+    {
+      "batch": "B26",
+      "first": "ch34",
+      "last": "ch34",
+      "chars": 13372,
+      "title": "Chapter 2. Self-Starting, of One Heart and Mind"
+    },
+    {
+      "batch": "B27",
+      "first": "ch35",
+      "last": "ch35",
+      "chars": 17152,
+      "title": "Chapter 3. A Spell of Storm, a Few Fallen Leaves"
+    },
+    {
+      "batch": "B28",
+      "first": "ch36",
+      "last": "ch36",
+      "chars": 16011,
+      "title": "Chapter 4. Seizing the Initiative, Spread Too Thin"
+    },
+    {
+      "batch": "B29",
+      "first": "ch37",
+      "last": "ch37",
+      "chars": 14130,
+      "title": "Chapter 5. War Unending, the People Destitute"
+    },
+    {
+      "batch": "B30",
+      "first": "ch38",
+      "last": "ch38",
+      "chars": 14426,
+      "title": "Chapter 6. Right and Wrong Made Plain, yet Ever Fickle"
+    },
+    {
+      "batch": "B31",
+      "first": "ch39",
+      "last": "ch39",
+      "chars": 14763,
+      "title": "Chapter 7. Looking Before and After, Providing Against the Storm"
+    },
+    {
+      "batch": "B32",
+      "first": "ch40",
+      "last": "ch40",
+      "chars": 13545,
+      "title": "Chapter 8. Musing on Past and Present, Mist over a Thousand Miles"
+    },
+    {
+      "batch": "B33",
+      "first": "ch41",
+      "last": "ch41",
+      "chars": 15421,
+      "title": "Chapter 9. Reflecting on Past Pain, the Future Still to Redeem"
+    },
+    {
+      "batch": "B34",
+      "first": "ch42",
+      "last": "ch42",
+      "chars": 17192,
+      "title": "Chapter 10. Fallen Leaves Return to the Root, Seen Through to the End"
+    },
+    {
+      "batch": "B35",
+      "first": "ch43",
+      "last": "ch43",
+      "chars": 2759,
+      "title": "Afterword: Closing Remarks"
     }
   ]
 }
