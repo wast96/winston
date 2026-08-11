@@ -1,15 +1,125 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
-  "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
-  "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
+  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship / standard romanization, give the basis in note), 'provisional' (romanization mine, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. 'pinyin' holds the romaji reading (this is a Japanese book). Flag main cast with \"principal\": true (+ optional \"cast\" one-liner, \"cast_order\") for the Principal Characters page.",
+  "people": {
+    "土方歳三": {
+      "en": "Hijikata Toshizō",
+      "pinyin": "Hijikata Toshizō",
       "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+      "principal": true,
+      "cast_order": 1,
+      "cast": "The novel's hero. A well-off farmer's son of Ishida village in the Tama country west of Edo, who becomes vice-commander of the Shinsengumi.",
+      "note": "Historical figure, 1835&#8211;1869. Japanese name order, surname (Hijikata) first; the given name Toshizō carries a long final vowel. Called <i>Toshi</i> by his intimates."
+    },
+    "近藤勇": {
+      "en": "Kondō Isami",
+      "pinyin": "Kondō Isami",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 2,
+      "cast": "Toshizō's boyhood friend and sword-brother, from the neighboring village of Kamiishiwara; commander of the Shinsengumi.",
+      "note": "Historical figure, 1834&#8211;1868. Head of the Tennen Rishin-ryū school of swordsmanship and, later, commander of the Shinsengumi."
+    },
+    "佐藤彦五郎": {
+      "en": "Satō Hikogorō",
+      "pinyin": "Satō Hikogorō",
+      "status": "attested",
+      "note": "Historical, 1827&#8211;1902. Headman (<i>nanushi</i>) of Hino, married to Toshizō's elder sister; his household kept the Tennen Rishin-ryū training hall where Kondō and Toshizō trained."
+    },
+    "小桜": {
+      "en": "Kozakura",
+      "pinyin": "Kozakura",
+      "status": "provisional",
+      "note": "A bell-shaking shrine maiden (<i>miko</i>) at the Ōkunitama Shrine in Fuchū; a minor character. Romanization mine."
+    },
+    "お佐絵": {
+      "en": "Osae",
+      "pinyin": "Osae",
+      "status": "provisional",
+      "note": "Younger sister of the Saruwatari chief priest of Fuchū; the woman Toshizō meets in the festival dark. Apparently the novelist's invention. Romanization mine."
+    },
+    "猿渡": {
+      "en": "Saruwatari",
+      "pinyin": "Saruwatari",
+      "status": "attested",
+      "note": "The hereditary house of chief priests (<i>gūji</i>) of the Ōkunitama Shrine at Fuchū, documented from the fourteenth century."
+    },
+    "梶川景次": {
+      "en": "Kajikawa Keiji",
+      "pinyin": "Kajikawa Keiji",
+      "status": "provisional",
+      "note": "A master of the Shintō Munen-ryū with a training hall at Sakuramachi in Kōfu; a minor figure. Reading of the given name uncertain; romanization mine."
+    }
+  },
+  "places": {
+    "石田村": {
+      "en": "Ishida village",
+      "pinyin": "Ishida-mura",
+      "status": "attested",
+      "note": "Toshizō's birthplace in the Tama district of Musashi; now part of Hino, Tokyo."
+    },
+    "武州多摩": {
+      "en": "Bushū Tama",
+      "pinyin": "Bushū Tama",
+      "status": "decided",
+      "note": "The Tama district of Musashi Province (Bushū), the farming country west of Edo; the Shinsengumi's home ground."
+    },
+    "府中": {
+      "en": "Fuchū",
+      "pinyin": "Fuchū",
+      "status": "attested",
+      "note": "The old provincial seat of Musashi, on the Kōshū Highway; site of the Ōkunitama Shrine."
+    },
+    "八王子": {
+      "en": "Hachiōji",
+      "pinyin": "Hachiōji",
+      "status": "attested",
+      "note": "A town west of Fuchū on the Kōshū Highway."
+    },
+    "甲州街道": {
+      "en": "the Kōshū Highway",
+      "pinyin": "Kōshū Kaidō",
+      "status": "attested",
+      "note": "One of the five great Tokugawa highways, running west from Edo through Fuchū toward Kōfu in Kai (Kōshū)."
+    },
+    "大国魂神社": {
+      "en": "the Ōkunitama Shrine",
+      "pinyin": "Ōkunitama Jinja",
+      "status": "attested",
+      "note": "The head shrine (<i>sōja</i>) of Musashi Province, at Fuchū; also called the Rokusha Myōjin or Rokusho-gū. Its grand festival is the Kurayami (Darkness) Festival."
+    },
+    "専修坊": {
+      "en": "Senjubō",
+      "pinyin": "Senjubō",
+      "status": "provisional",
+      "note": "The Shinshū temple in Hachiōji of the winter episode. Reading from the source's own furigana; romanization mine."
+    }
+  },
+  "organizations": {
+    "新選組": {
+      "en": "the Shinsengumi",
+      "pinyin": "Shinsengumi",
+      "status": "attested",
+      "note": "The 'Newly Selected Corps,' the shogunate's Kyoto police militia of swordsmen, 1863&#8211;1869; the subject of the novel."
+    }
+  },
+  "terms": {
+    "石田散薬": {
+      "en": "Ishida Powder",
+      "pinyin": "Ishida Sanyaku",
+      "status": "attested",
+      "note": "The Hijikata family's patent remedy for bruises and broken bones, made and peddled from the early eighteenth century until 1948."
+    },
+    "里": {
+      "en": "ri",
+      "pinyin": "ri",
+      "status": "decided",
+      "note": "A unit of distance, about 3.9 km (2.4 miles)."
+    },
+    "名主": {
+      "en": "village headman",
+      "pinyin": "nanushi",
+      "status": "decided",
+      "note": "The headman of a village, lowest office of Tokugawa rural administration: a leading farmer, not a samurai."
     }
   }
 }

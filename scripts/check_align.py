@@ -28,8 +28,18 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def paras(path, head_prefix):
-    return [l.strip() for l in open(path)
-            if l.strip() and not l.strip().startswith(head_prefix)]
+    """Body paragraphs. Scene-break markers ('***' alone) are layout, not text,
+    and the set-off prefixes {v}/{d}/{g}/{p} are stripped, so the reading file's
+    paragraphs line up one-to-one with the parity source exactly as
+    verify_unit.py / check_structure.py already do (a China-template version
+    counted '***' as a paragraph and shifted every pair after the first break)."""
+    out = []
+    for l in open(path):
+        s = l.strip()
+        if not s or s == '***' or s.startswith(head_prefix):
+            continue
+        out.append(re.sub(r'^\{[vdgp]\} ', '', s))
+    return out
 
 
 def main():
@@ -47,7 +57,11 @@ def main():
     n = min(len(src), len(tgt))
     ratios = []
     for i in range(n):
-        zh = len(re.findall(r"[一-鿿]", src[i]))
+        # Count the source's SCRIPT characters -- kanji AND kana. Counting only
+        # kanji (as the Han-only China template did) makes the ratio wildly
+        # unstable on Japanese, where a kana-heavy sentence has almost no kanji;
+        # kanji+kana is the stable denominator that actually reveals a slip.
+        zh = len(re.findall(r"[぀-ヿ一-鿿々ー]", src[i]))
         en = len(tgt[i])
         ratios.append(en / float(zh) if zh else 0.0)
 

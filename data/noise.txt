@@ -35,3 +35,21 @@
 # 九龍
 # weekdays carry no quantity — rendered "Monday" etc.
 # 星期[一二三四五六]
+
+# ── Burn, O Sword! (Japanese source) — name/idiom numerals ──
+# Personal and place names whose kanji include a numeral; the English carries
+# the romanized NAME, not a digit, so the source numeral must be stripped.
+# Hijikata Toshizō — the 三 is part of the given name, not the count 3
+歳三
+# Satō Hikogorō — 五 is part of the name
+彦五郎
+# Kiroku, the farmer (Toshizō's eldest brother) — 六 is part of the name
+喜六
+# Rokusha Myōjin / the gods of the Rokusha — rendered "Rokusha", a name (六 = six shrines)
+六社
+# Hachiōji — place name, 八 is part of it
+八王子
+# hyakushō = peasant/farmer (百姓, 土百姓, 小百姓, 百姓娘); 百 is not the count 100
+百姓
+# futae = a double eyelid (二重の眼); 二 is descriptive idiom, not the count 2
+二重

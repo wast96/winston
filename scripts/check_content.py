@@ -57,7 +57,13 @@ def name_map(path):
     if not os.path.exists(path):
         return out
     for _cat, entries in json.load(open(path)).items():
+        # glossary carries '_'-prefixed metadata keys (e.g. '_about', a string)
+        # and empty sections; skip anything that is not a section of entries.
+        if _cat.startswith("_") or not isinstance(entries, dict):
+            continue
         for zh, e in entries.items():
+            if not isinstance(e, dict):
+                continue
             en = e.get("en", "")
             if zh in AUTHOR:
                 continue
@@ -72,8 +78,12 @@ def name_map(path):
 def paragraphs(src_path, tgt_path):
     src = [l.rstrip("\n") for l in open(src_path) if l.strip()]
     src = [l for l in src if not l.startswith("###")]
-    tgt = [l.strip() for l in open(tgt_path)
-           if l.strip() and not l.strip().startswith("#")]
+    # Scene-break markers ('***' alone) are layout, not paragraphs, and the
+    # set-off prefixes {v}/{d}/{g}/{p} are stripped, so the reading file lines
+    # up one-to-one with the source (matching verify_unit / check_structure).
+    tgt = [re.sub(r'^\{[vdgp]\} ', '', l.strip()) for l in open(tgt_path)
+           if l.strip() and l.strip() != "***"
+           and not l.strip().startswith("#")]
     return src, tgt
 
 
