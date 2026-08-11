@@ -64,11 +64,11 @@ One officer plucked up his nerve and stepped forward.
 
 The man answered in a voice like a ghost choking in its throat.
 
-"Abbot of the Suginobo. Tsuda Kenmotsu Kazunaga."
+"Abbot of the Suginobō. Tsuda Kenmotsu Kazunaga."
 
-"Hm. So you are the Suginobo of the guns."
+"Hm. So you are the Suginobō of the guns."
 
-Forty-three years before, this was the man who had carried a single matchlock home from Tanegashima and thrown himself body and soul into gun-making ever since, until now the name of the Negoro gun rang through all Japan, spoken in one breath with the Kunitomo guns of Omi. This man?
+Forty-three years before, this was the man who had carried a single matchlock home from Tanegashima and thrown himself body and soul into gun-making ever since, until now the name of the Negoro gun rang through all Japan, spoken in one breath with the Kunitomo guns of Ōmi. This man?
 
 Face to face at last with the man whose name they all knew, the samurai faltered in spite of themselves and stood rooted.
 
@@ -108,17 +108,17 @@ In the gunsmiths' shed Tsuda Kenmotsu sat meek now, both hands bound fast behind
 
 "And you, sir—what lord do you serve?" His life warranted at last, the old ascetic trembled still in every limb, but with a little life come back he put the question.
 
-"Goto Matabei, of Lord Kuroda Kanbei's command. I have given my word, and your life is safe past doubt. In return, do not forget your promise to teach me the secrets of the Negoro gun."
+"Gotō Matabei, of Lord Kuroda Kanbei's command. I have given my word, and your life is safe past doubt. In return, do not forget your promise to teach me the secrets of the Negoro gun."
 
 "Y-yes."
 
 Once his life was made certain, Tsuda rallied all at once, and, his white beard shaking, began to talk.
 
-"Goto-sama, a man is a strange thing. I too am an ascetic of the shugen way. My years have come to sixty-eight. A monk's robe on my back and a warrior's heart within it, I have crossed a battlefield more than once. And here, at the very last ditch, of a sudden my life grew dear. Come what may, I found I did not want to die—
+"Gotō-sama, a man is a strange thing. I too am an ascetic of the shugen way. My years have come to sixty-eight. A monk's robe on my back and a warrior's heart within it, I have crossed a battlefield more than once. And here, at the very last ditch, of a sudden my life grew dear. Come what may, I found I did not want to die—
 
 "—did not want to die. You think it strange, no doubt?"
 
-Goto held his tongue, wondering what the old man was working toward.
+Gotō held his tongue, wondering what the old man was working toward.
 
 "I could not sound my own heart. But turning it over, I saw what it was: my hold on this thing, the gun. My own life I do not grudge. It is the gun I cannot bear to lose. When first I crossed to Tanegashima and, after all my pains, got into my hands a single Nanban gun—that is forty-three years gone. And in all those years I have poured myself into the gun and nothing else. The winding of the barrel, the sealing of the breech, the mixing of the charge—there is no telling how I have worn body and soul away. A gun that carries one span farther, that strikes one sun truer to the mark: sleeping and waking, it was my one thought. And now, set on the very edge of life and death, my head was full of the gun. The gun—what would become of the gun? I could not vanish now and cast the gun aside! Fiercely the thought rose in me. And so I clung to you. Spare me, spare my life!—so I cried. Is the old man a coward? No—a coward, then, and welcome. It is not that I fear to die. It is for the gun's sake! For the gun's sake I must not die!
 
@@ -126,15 +126,15 @@ Goto held his tongue, wondering what the old man was working toward.
 
 "—there is still much, so much, for the old man to do."
 
-Listening, Goto Matabei was won over root and branch. Every notion, unheard-of as each was, held to reason; and were any one of them brought off, it would come to something tremendous.
+Listening, Gotō Matabei was won over root and branch. Every notion, unheard-of as each was, held to reason; and were any one of them brought off, it would come to something tremendous.
 
-This man is a tremendous man. On no account must he be killed. He must be kept, and cherished, on our side. So Goto thought.
+This man is a tremendous man. On no account must he be killed. He must be kept, and cherished, on our side. So Gotō thought.
 
 "Mm. Mm. Just so!" He nodded deeply. Then, throwing both arms wide, he gave his order. "Cut his cords! There's no call to bind him."
 
 The cords were cut on the instant. Tsuda Kenmotsu was handled with courtesy, and before long, when Lord Hideyoshi came into the temple, the old man was granted audience and taken into high favor.
 
-What pleased Hideyoshi was the plain fact that the man would turn his retainer and wear himself to the bone at gun-making. But what moved Goto Matabei was the man's heart: that he held his life dear for the gun's sake, that the advance of the gun weighed more with him than his own life.
+What pleased Hideyoshi was the plain fact that the man would turn his retainer and wear himself to the bone at gun-making. But what moved Gotō Matabei was the man's heart: that he held his life dear for the gun's sake, that the advance of the gun weighed more with him than his own life.
 
 Yet when you readers, too, begin to admire him for it, I find I must put in an objection.
 
@@ -171,13 +171,13 @@ She cried it under her breath and ran off.
 
 Maki sprang up and shoved Goemon out the back door.
 
-Before long a captain came in, grim in helmet and armor, four foot-soldiers at his heels, with the headman Hyoezaburo brought along to guide them.
+Before long a captain came in, grim in helmet and armor, four foot-soldiers at his heels, with the headman Hyōezaburō brought along to guide them.
 
-Rubbing his hands, Hyoezaburo made the introductions.
+Rubbing his hands, Hyōezaburō made the introductions.
 
 "The peasant Yagoemon; his son Gisuke; his daughter Maki; her husband Tahei; and the grandchild Goichi."
 
-Then, turning to Maki where she lay prostrate: "This is the inquiry of Nagaoka Hantayu, foot-captain under Lord Hori Kyutaro Hidemasa."
+Then, turning to Maki where she lay prostrate: "This is the inquiry of Nagaoka Hantayū, foot-captain under Lord Hori Kyūtarō Hidemasa."
 
 Nagaoka pointed at the two bodies and asked.
 
@@ -199,7 +199,7 @@ Maki faltered for the space of a breath, and Nagaoka, seeing something amiss, ga
 
 At that Goemon, who had judged it would go worse to be dug out of hiding, came forward wiping his hands.
 
-"The husband. This is Tahei," said Hyoezaburo, and after him Goemon put in,
+"The husband. This is Tahei," said Hyōezaburō, and after him Goemon put in,
 
 "I was at the well, taking a drink of water—"
 
@@ -226,7 +226,7 @@ But the farmers, once their weapons were taken and they were driven into the cor
 
 Grant that the sword-hunt and the survey were stages history required, for the founding of a strong central government. Even so, there was no need to wring the peasant this dry.
 
-And that is why the Hoan Taikoki, written by Oze Hoan, sets down this: that in later years, at the time of the Korean campaign, when Hideyoshi raised his field headquarters at Nagoya in Hizen, the old folk who passed by were struck dumb at the sheer extravagance of it, and said—
+And that is why the Hoan Taikōki, written by Oze Hoan, sets down this: that in later years, at the time of the Korean campaign, when Hideyoshi raised his field headquarters at Nagoya in Hizen, the old folk who passed by were struck dumb at the sheer extravagance of it, and said—
 
 "Truly, this lord has no equal for valor, for cunning, for breadth of spirit. But when you see how he ran his survey, and harried and ground down and squeezed the whole people to spend it all on his own splendor, he is the brigand-demon of Japan."
 
@@ -236,21 +236,21 @@ Hideyoshi it was, in plain truth, who fixed the near-serfdom of the early-modern
 
 At the eastern edge of the Wakayama city of today, a stone's throw east of the East-Wakayama station, on a flat all of rice-paddies with a house dotted here and there, there stands a stone monument some two meters high.
 
-"Site of the Flooding of Ota Castle. Koyama-bori."
+"Site of the Flooding of Ōta Castle. Koyama-bori."
 
 So it is carved.
 
-That a castle should have stood on ground as flat as this is hard to credit; but by the Taikoki, the place was ringed on all four sides by deep marsh, so that a large force could barely move to it or from it, and only one thread of a path led in. The marsh, moreover, was a bog too deep to stand up in. Call it a castle, it was no more than an islet afloat in deep marsh, banked with earthworks, set with stakes, and hedged about with abatis.
+That a castle should have stood on ground as flat as this is hard to credit; but by the Taikōki, the place was ringed on all four sides by deep marsh, so that a large force could barely move to it or from it, and only one thread of a path led in. The marsh, moreover, was a bog too deep to stand up in. Call it a castle, it was no more than an islet afloat in deep marsh, banked with earthworks, set with stakes, and hedged about with abatis.
 
-Root out the Negoro-ji, Hideyoshi had reckoned, and the peasants would give way. The reckoning went clean wrong. From the smashed forts of Shakuzen-ji, Sengokubori, and Hama castle, and out of the Saiga men who had drawn back from the Negoro-ji, they came streaming, one band after another, into this Ota Castle.
+Root out the Negoro-ji, Hideyoshi had reckoned, and the peasants would give way. The reckoning went clean wrong. From the smashed forts of Shakuzen-ji, Sengokubori, and Hama castle, and out of the Saiga men who had drawn back from the Negoro-ji, they came streaming, one band after another, into this Ōta Castle.
 
 The fishermen of Saiga-zaki came too, hurrying in to fight the enemy of their faith—the same men who, in the war at Ishiyama castle, had run provisions and powder in by sea to save it.
 
-Seeing Hideyoshi's decree, the peasants set it down that even without fighting there was nothing left but to die; and so, old and young, man and woman, household by household and village by village, they shut themselves up in Ota Castle. The whole force came to three thousand, and they looked for their commander to a local strongman, Ota Jirozaemon-no-jo.
+Seeing Hideyoshi's decree, the peasants set it down that even without fighting there was nothing left but to die; and so, old and young, man and woman, household by household and village by village, they shut themselves up in Ōta Castle. The whole force came to three thousand, and they looked for their commander to a local strongman, Ōta Jirōzaemon-no-jō.
 
 "Impudent peasant dogs. Trample them flat at one stroke!"
 
-Hideyoshi bore his whole army down on Ota Castle, three ri southwest of the Negoro-ji.
+Hideyoshi bore his whole army down on Ōta Castle, three ri southwest of the Negoro-ji.
 
 "What is this? One fort, no bigger than a fly-speck."
 
@@ -276,13 +276,13 @@ They all caught their breath.
 
 There was no arguing yes or no. Laborers were levied at once from the far bank of the Kino, and the work went forward around the clock.
 
-The embankment that ringed the castle ran one ri and seventeen cho—five thousand seven hundred and eighty-two meters. By the Taikoki the laborers came to four hundred and sixty-nine thousand three hundred in all.
+The embankment that ringed the castle ran one ri and seventeen cho—five thousand seven hundred and eighty-two meters. By the Taikōki the laborers came to four hundred and sixty-nine thousand three hundred in all.
 
 Thirteen days from the start the embankment stood more or less finished, the Kino was dammed, and the water began running down the channel and pooling in the marsh.
 
 Inside the castle were Goemon and Maki, and Goichi too, who was not yet one year and two months old.
 
-Maki, her father and brother killed and her sister carried off, was set afire to be avenged whatever it cost, and it was she, rather, who had driven Goemon on to shut himself in Ota Castle. So she threw herself heart and whole into the work of it—the cooking, the minding of the children and the old.
+Maki, her father and brother killed and her sister carried off, was set afire to be avenged whatever it cost, and it was she, rather, who had driven Goemon on to shut himself in Ōta Castle. So she threw herself heart and whole into the work of it—the cooking, the minding of the children and the old.
 
 Hour by hour the water climbed. By the third day from the opening of the sluice the low ground within the walls stood wholly flooded. The besieged built platforms up in the branches of trees, ran up scaffolds in haste, and worked on.
 
@@ -301,25 +301,25 @@ The sentry came over and said something to them, but the rope that ran out past 
 
 Half an hour or so later a signal came up the rope from outside. A man rose from beside the fire and asked in a hushed voice.
 
-"Gennojo, is that you?"
+"Gennojō, is that you?"
 
 "Aye. Haul me up."
 
-The answer came back. The three hauled, and clinging to the rope's end the young man from before came up, soaked through and plastered with mud. If that man was Gennojo, the other three would be peasants of Oikejiri as well. Huddled about the fire, wringing out Gennojo's clothes and rubbing him down, they were plainly Genzaburo of Oikejiri, his wife Tane, and their daughter Kine, just turned seventeen. Genzaburo had a bad wound in his left leg and could only limp along.
+The answer came back. The three hauled, and clinging to the rope's end the young man from before came up, soaked through and plastered with mud. If that man was Gennojō, the other three would be peasants of Ōikejiri as well. Huddled about the fire, wringing out Gennojō's clothes and rubbing him down, they were plainly Genzaburō of Ōikejiri, his wife Tane, and their daughter Kine, just turned seventeen. Genzaburō had a bad wound in his left leg and could only limp along.
 
 "Are you all right?" Tane asked.
 
-"Aye. Couldn't find a way through," said Gennojo.
+"Aye. Couldn't find a way through," said Gennojō.
 
-"The bank's built already. What are they in such an uproar over, day and night?" Genzaburo asked.
+"The bank's built already. What are they in such an uproar over, day and night?" Genzaburō asked.
 
 "They're raising the bank another two ken or so."
 
 "Eh? Another two ken?"
 
-At that Denbei, another Oikejiri man of thirty or so, and his wife Sugi with a baby on her back, came darting out of the shadows.
+At that Denbei, another Ōikejiri man of thirty or so, and his wife Sugi with a baby on her back, came darting out of the shadows.
 
-"Gennojo—is that true?"
+"Gennojō—is that true?"
 
 "Denbei? You were listening?"
 
@@ -331,7 +331,7 @@ Kine's voice trembled.
 
 "Are we going to drown, then?"
 
-Genzaburo shook his head.
+Genzaburō shook his head.
 
 "No. Dam the Kino how they like, they'll never pool water enough to sink this place clean under."
 
@@ -339,7 +339,7 @@ Denbei said,
 
 "You don't know? This marsh lies lower than the Kino. And at Takamatsu Castle, they say, they pooled water enough to float any number of great ships."
 
-Genzaburo folded his arms and let out a breath.
+Genzaburō folded his arms and let out a breath.
 
 "Then it's too cruel for the old folk, and the women and children. Say what you please that to die is to reach paradise—how is a man to stand and watch the old and the women and children drown? And it isn't only those who came here set on giving their lives to Amida. There are some among us of another faith, you know."
 
@@ -347,7 +347,7 @@ Denbei bowed his head too.
 
 "To fight, and take an arrow or a ball and die—that's easy. But to be starved out, or to drown by inches as the water climbs—that's a hard way to go."
 
-Gennojo suddenly groaned.
+Gennojō suddenly groaned.
 
 "Then what would you have us do? Are you saying we should surrender? Who told you surrender buys your life? Surrender, and it's the pit of hell for certain."
 
@@ -355,35 +355,35 @@ Denbei cut in.
 
 "Who said surrender? I said only that the old folk and the women and children are to be pitied."
 
-Gennojo threw it back at him.
+Gennojō threw it back at him.
 
 "Hm. Go and put it to the commander, then, and see. 'Would you spoil a man's rebirth in paradise?'—that's the roar you'll get. And the strategist, Lord Magoichi, he's a man set like stone in his hatred of Hideyoshi. 'Coward'—one word, and it's done."
 
-Genzaburo broke down weeping.
+Genzaburō broke down weeping.
 
 "We've fought this far. If the women and children slipped out, surely not even Amida would cast them into hell for it. Won't you look the other way while we get them out in secret?"
 
-But Gennojo shut his eyes and shook his head.
+But Gennojō shut his eyes and shook his head.
 
 "Hell! It's the fall into hell! I hold to it, whatever you say."
 
-Genzaburo said, with sorrow in his eyes,
+Genzaburō said, with sorrow in his eyes,
 
 "So that's how it is. You lost your parents young, you've never had a wife or a child of your own; you can't feel your way into this suffering."
 
-Denbei too fixed Gennojo with the same kind of look, and said,
+Denbei too fixed Gennojō with the same kind of look, and said,
 
 "Then—if some did run, would you go and inform on them?"
 
-At that Gennojo lowered his head, and after a while he muttered,
+At that Gennojō lowered his head, and after a while he muttered,
 
 "If it's somewhere I don't know of, there's nothing to be done—"
 
 And with that he went off, far away.
 
-Genzaburo turned to Denbei.
+Genzaburō turned to Denbei.
 
-"Toward the Tanaka gate to the south, the enemy watch seems thin. And even if you're seen, they say Hideyoshi is a commander who won't kill a man for running. Below the third scaffold, climb down the stone facing: the water there is shallow, the bottom firm, and you can get away. Gennojo scouted it three days back. What do you say, Denbei?"
+"Toward the Tanaka gate to the south, the enemy watch seems thin. And even if you're seen, they say Hideyoshi is a commander who won't kill a man for running. Below the third scaffold, climb down the stone facing: the water there is shallow, the bottom firm, and you can get away. Gennojō scouted it three days back. What do you say, Denbei?"
 
 Denbei looked round at his wife Sugi.
 
@@ -406,7 +406,7 @@ Worn so thin you would never have taken her for twenty-five, Sugi shook her head
 
 Sugi clung to Denbei, weeping.
 
-Meanwhile Genzaburo was pleading with his wife and daughter.
+Meanwhile Genzaburō was pleading with his wife and daughter.
 
 "I beg you! You two, get away! I beg you!"
 
@@ -420,7 +420,7 @@ Tane, weeping too, said,
 
 "I never raised you—to send you to your death in a place like this."
 
-Genzaburo said to Tane,
+Genzaburō said to Tane,
 
 "A girl on her own, how's she to live in a world like this? Tane, take Kine and go."
 
@@ -428,7 +428,7 @@ Genzaburo said to Tane,
 
 "—not a bit."
 
-"I can't run." Genzaburo shook his head. "If I run, I can't look the others in the face."
+"I can't run." Genzaburō shook his head. "If I run, I can't look the others in the face."
 
 Then Kine said,
 
@@ -438,7 +438,7 @@ There Denbei came over, lifting the baby down off Sugi's back.
 
 "Tane-dono, I beg you! Won't you take this child and get away? I beg you!"
 
-The baby thrust upon her, Tane took it without thinking, and turned to Genzaburo.
+The baby thrust upon her, Tane took it without thinking, and turned to Genzaburō.
 
 "You—"
 
@@ -446,7 +446,7 @@ Denbei implored him.
 
 "You're wounded. If you fled, no one would say a word against it. I beg you! Get away, quickly!"
 
-At last Genzaburo made up his mind.
+At last Genzaburō made up his mind.
 
 "Denbei! Forgive me! Amida—forgive me!" And to Tane he said, "Come, let's go—"
 
@@ -454,7 +454,7 @@ At last Genzaburo made up his mind.
 
 "Live! You live, do you hear!"
 
-And with Sugi's cry behind them, the three—Genzaburo, Tane, and Kine—went over the bank and were gone.
+And with Sugi's cry behind them, the three—Genzaburō, Tane, and Kine—went over the bank and were gone.
 
 Denbei and Sugi watched a while after them, then went away.
 
@@ -472,11 +472,11 @@ The two passed on, and right behind them came a girl of Nagao village named Uno,
 
 "Ah! Someone's run for it! Traitors! To arms! To arms! There are men deserting the castle!"
 
-Genzaburo came running and caught Uno up in his arms.
+Genzaburō came running and caught Uno up in his arms.
 
 "Uno! I beg you! There's a reason for it. Look the other way. Raise the alarm and the enemy will hear. Look the other way!"
 
-But Uno writhed against his chest, screaming through her tears: "Let traitors go, and what becomes of this castle? What becomes of the fight?"—so that Genzaburo, giving her no choice, gagged her, and, saying "Quiet, now—don't make a sound," dragged her away with him.
+But Uno writhed against his chest, screaming through her tears: "Let traitors go, and what becomes of this castle? What becomes of the fight?"—so that Genzaburō, giving her no choice, gagged her, and, saying "Quiet, now—don't make a sound," dragged her away with him.
 
 All this played out some ten ken before their eyes, in the circle of firelight where the figures loomed up dim and then were gone; and watching it, Goemon said.
 
@@ -500,36 +500,36 @@ As she soothed him, from far off came three or four voices calling.
 
 "Tch. Bad moment—"
 
-While Goemon stood stock-still, seven or eight men came out in a scatter. In their midst was the bearded face of Ota Jirozaemon-no-jo.
+While Goemon stood stock-still, seven or eight men came out in a scatter. In their midst was the bearded face of Ōta Jirōzaemon-no-jō.
 
-"Ah—Lord Ota—"
+"Ah—Lord Ōta—"
 
 Goemon dropped to his knees.
 
-Ota leaned his heavy frame on his spear.
+Ōta leaned his heavy frame on his spear.
 
 "I've been looking for you. Tahei, my man, there's an urgent thing I'd ask of you."
 "Yes."
 
-"By Gennojo's report just now, the enemy are piling the embankment higher by another ken or two. Let them bring more water on top of this, and the castle's fate is sealed with it. Will you fly to Mount Koya for me, and quickly?"
+"By Gennojō's report just now, the enemy are piling the embankment higher by another ken or two. Let them bring more water on top of this, and the castle's fate is sealed with it. Will you fly to Mount Kōya for me, and quickly?"
 
-"Eh? To Mount Koya?"
+"Eh? To Mount Kōya?"
 
-"Once the Negoro-ji is broken and the Saiga rising beaten down, it is plainer than fire that Hideyoshi will turn on Mount Koya. Mount Koya knows it well enough. So rather than sit and wait meekly to be attacked, they are bound to want to throw relief into this castle and blunt Hideyoshi's edge. Word of the Negoro-ji's fall will have reached them, and they will have made ready. They simply do not yet know how far we are sunk. Let them learn it, and they will send men out, I am certain of it."
+"Once the Negoro-ji is broken and the Saiga rising beaten down, it is plainer than fire that Hideyoshi will turn on Mount Kōya. Mount Kōya knows it well enough. So rather than sit and wait meekly to be attacked, they are bound to want to throw relief into this castle and blunt Hideyoshi's edge. Word of the Negoro-ji's fall will have reached them, and they will have made ready. They simply do not yet know how far we are sunk. Let them learn it, and they will send men out, I am certain of it."
 
 "Mm. Mm. I see."
 
 Goemon nodded deeply.
 
-Ota went on.
+Ōta went on.
 
-"Gisuke used to say you walk uncommonly fast—like a very ninja, he said. I want you to go now, this moment, and beg Mount Koya for troops."
+"Gisuke used to say you walk uncommonly fast—like a very ninja, he said. I want you to go now, this moment, and beg Mount Kōya for troops."
 
-"But I don't know my way on Mount Koya—"
+"But I don't know my way on Mount Kōya—"
 
-"To Mount Koya is a bare fourteen or fifteen ri. With legs like yours you can be back within the day tomorrow. The lodging-master of the Renge-join, Yuko Ajari, is a man I have kept close with these many years. Just put this letter of mine into his hands. We fought at the side of the Negoro men too. Our faith is not theirs, but—
+"To Mount Kōya is a bare fourteen or fifteen ri. With legs like yours you can be back within the day tomorrow. The lodging-master of the Renge-jōin, Yūkō Ajari, is a man I have kept close with these many years. Just put this letter of mine into his hands. We fought at the side of the Negoro men too. Our faith is not theirs, but—
 
-"—the enemy, Hideyoshi, is one and the same. Come what may, we must have relief. Let it once be heard that the host of Mount Koya has come down the mountain, and Hideyoshi, taking an enemy front and rear, will surely draw off. He is a general quick to let a thing go; a general who never forces the impossible. I beg you! The lives of three thousand in Ota Castle hang on your legs. At any hour now the bank may close and the water of the Kino come pouring in. I want you gone at once."
+"—the enemy, Hideyoshi, is one and the same. Come what may, we must have relief. Let it once be heard that the host of Mount Kōya has come down the mountain, and Hideyoshi, taking an enemy front and rear, will surely draw off. He is a general quick to let a thing go; a general who never forces the impossible. I beg you! The lives of three thousand in Ōta Castle hang on your legs. At any hour now the bank may close and the water of the Kino come pouring in. I want you gone at once."
 
 "I'll take it on."
 
@@ -537,32 +537,32 @@ Goemon gave his word, set about his gear, and to Maki he said only, "Wait for me
 
 Neither Maki nor Goemon dreamed that this would be their parting in this life. Maki only stood rooted there, gazing after the quarter where he had gone, long after the shape of him—swimming the marsh without a sound—had sunk into the dark, as the hazy moon drew over with thick cloud and the night came down low.
 
-Mount Koya lies on the border of Kii and Yamato, on the southern fall of the mountainside where Jingamine, Mizugamine, and Goma-no-Danzan run on one after another. In some vast heaving of the earth's crust in the remotest past, the mountains here once stood reared and overlapping, sheer with fresh fault-scarps. Long, long ages of weather wore them down and washed them out to the softened look of old age; and over the rotted soil that covered the rock, cedar and cypress, umbrella-pine, fir and pine struck their roots thick, till the place became a perfect ground for the worship of mountains. It was in Konin 7, the year 816, that Kobo Daishi received this mountain from the court, at his own petition; and choosing an open space on the mountain's crown, he made a precinct seven ri square about the Konpon Daito, the Great Pagoda, at its center, and drove the great building works forward for twenty years, until he entered his final meditation in Jowa 2, the year 835.
+Mount Kōya lies on the border of Kii and Yamato, on the southern fall of the mountainside where Jingamine, Mizugamine, and Goma-no-Danzan run on one after another. In some vast heaving of the earth's crust in the remotest past, the mountains here once stood reared and overlapping, sheer with fresh fault-scarps. Long, long ages of weather wore them down and washed them out to the softened look of old age; and over the rotted soil that covered the rock, cedar and cypress, umbrella-pine, fir and pine struck their roots thick, till the place became a perfect ground for the worship of mountains. It was in Kōnin 7, the year 816, that Kōbō Daishi received this mountain from the court, at his own petition; and choosing an open space on the mountain's crown, he made a precinct seven ri square about the Konpon Daito, the Great Pagoda, at its center, and drove the great building works forward for twenty years, until he entered his final meditation in Jōwa 2, the year 835.
 
 By the time Goemon turned toward the mountain, seven hundred and seventy years had passed since the Daishi founded it, and it was a holy ground, sternly closed to women, that drew the devotion of the whole realm.
 
-Nowadays a man going up to Mount Koya from the Wakayama side takes the Wakayama line that runs east along the Kino, changes at Hashimoto to the Nankai Electric Koya line, crosses the Kino, doubles back a little, strikes into the mountains from Kudoyama station, gets down at Gokuraku-bashi, changes to a bus, and arrives with no trouble at all. But in the old days it was a hard road. The way that climbs today from Shiide, where the railway runs, up the Furusawa valley, has steep mountains and deep ravines, so the old road went further west. That is: from Kudoyama southwest, over Amabikiyama, to worship at the Amano Shrine; then by Koda and Fudono, along the easy path that keeps to the western side of the ridge, up to Kaketani; there it met the West Koya Highway coming in from Kaseda in Kishu, turned east, and toiled up the Fifty-cho Slope by way of Hanasaka and Yatate, to reach the Daimon at last. This was the front road of pilgrimage.
+Nowadays a man going up to Mount Kōya from the Wakayama side takes the Wakayama line that runs east along the Kino, changes at Hashimoto to the Nankai Electric Kōya line, crosses the Kino, doubles back a little, strikes into the mountains from Kudoyama station, gets down at Gokuraku-bashi, changes to a bus, and arrives with no trouble at all. But in the old days it was a hard road. The way that climbs today from Shiide, where the railway runs, up the Furusawa valley, has steep mountains and deep ravines, so the old road went further west. That is: from Kudoyama southwest, over Amabikiyama, to worship at the Amano Shrine; then by Kōda and Fudōno, along the easy path that keeps to the western side of the ridge, up to Kaketani; there it met the West Kōya Highway coming in from Kaseda in Kishū, turned east, and toiled up the Fifty-cho Slope by way of Hanasaka and Yatate, to reach the Daimon at last. This was the front road of pilgrimage.
 
-Front road though it was, it ran as a deep-grassed byway, and so, that no pilgrim should lose it, the Daishi marked it off from the Kondo on the Danjo down to Kudoyama into a hundred and eighty cho, and set a wooden stupa at every cho. When these rotted and fell, they were replaced, in the Kamakura age, with stupas of stone.
+Front road though it was, it ran as a deep-grassed byway, and so, that no pilgrim should lose it, the Daishi marked it off from the Kondō on the Danjō down to Kudoyama into a hundred and eighty cho, and set a wooden stupa at every cho. When these rotted and fell, they were replaced, in the Kamakura age, with stupas of stone.
 
-In the old days, to go to Koya from Kyoto, a man went down the Yodo River, put ashore at Yamazaki, cut west across the Iwafune Highway, came out onto the Kawachi plain about Shijonawate, then bore south along the foot of Mount Ikoma, crossed the Amami Pass, forded the Kino, and so reached Kudoyama, and from there climbed the front road. Kyoto to Kudoyama was thirty-two ri, eighty kilometers, and a good five days' journey. It was this road the Daishi went and came by, often; and this road, from Emperor Uda's time on, that the emperors and retired emperors of one reign after another traveled. But now the front road has no one to walk it. The stone stupas too are gone, and there is no one left who knows.
+In the old days, to go to Kōya from Kyoto, a man went down the Yodo River, put ashore at Yamazaki, cut west across the Iwafune Highway, came out onto the Kawachi plain about Shijōnawate, then bore south along the foot of Mount Ikoma, crossed the Amami Pass, forded the Kino, and so reached Kudoyama, and from there climbed the front road. Kyoto to Kudoyama was thirty-two ri, eighty kilometers, and a good five days' journey. It was this road the Daishi went and came by, often; and this road, from Emperor Uda's time on, that the emperors and retired emperors of one reign after another traveled. But now the front road has no one to walk it. The stone stupas too are gone, and there is no one left who knows.
 
-Goemon, on the road the hazy moon lit faintly, went east along the Kino, up the Kishi River a little way, and from Takashima tore east along the West Koya Highway. Taking to the mountain, he climbed on the balls of his feet up a thread of a path that twisted like the gut of a sheep, came onto the front road from Kudoyama at Kaketani, and drove up the steep slope in one rush to the Daimon.
+Goemon, on the road the hazy moon lit faintly, went east along the Kino, up the Kishi River a little way, and from Takashima tore east along the West Kōya Highway. Taking to the mountain, he climbed on the balls of his feet up a thread of a path that twisted like the gut of a sheep, came onto the front road from Kudoyama at Kaketani, and drove up the steep slope in one rush to the Daimon.
 
 Against a sky just paling into dawn, the Daimon stood up pitch-black on the crown of the cliff, looking ready to come crashing down on his head.
 
-From this Daimon, into the ravine beside the slope Goemon was now climbing, four hundred and fifty-five years before this time, was flung the wooden Fudo Myo-o that had taken the place of Kakuban Shonin—as you, readers, already know.
+From this Daimon, into the ravine beside the slope Goemon was now climbing, four hundred and fifty-five years before this time, was flung the wooden Fudō Myō-ō that had taken the place of Kakuban Shōnin—as you, readers, already know.
 
-These days the pilgrim to Mount Koya, as I have said, comes by bus from the back, goes from the Nyonin-do to the Danjo, turns back to worship at the Oku-no-in, and goes home; and so the Daimon has few to look on it, and stands untended, dim, and forlorn. It has fared like most of the other buildings on the mountain, burned time and again by lightning-fire; and yet the one that stands there now is far older than the rest, raised in Hoei 6, the year 1709—two years after Mount Fuji erupted and threw up Mount Hoei.
+These days the pilgrim to Mount Kōya, as I have said, comes by bus from the back, goes from the Nyonin-dō to the Danjō, turns back to worship at the Oku-no-in, and goes home; and so the Daimon has few to look on it, and stands untended, dim, and forlorn. It has fared like most of the other buildings on the mountain, burned time and again by lightning-fire; and yet the one that stands there now is far older than the rest, raised in Hōei 6, the year 1709—two years after Mount Fuji erupted and threw up Mount Hōei.
 
 Late in the Fourth Month it was—the end of May by the new calendar—and yet up here the cold came stealing in, deep and still, and he shivered before he knew it.
 
-Through the Daimon he passed, and into the Danjo—a great open plaza, where the weighty buildings stand gathered: the Konpon Daito, the Kondo, the Miei-do, the bell-tower. Not a soul in sight.
-Climbing this Mount Koya for the first time, even Goemon, a man with no faith in him, felt an air of nameless, solemn awe close in and press hard about his body.
+Through the Daimon he passed, and into the Danjō—a great open plaza, where the weighty buildings stand gathered: the Konpon Daito, the Kondō, the Miei-dō, the bell-tower. Not a soul in sight.
+Climbing this Mount Kōya for the first time, even Goemon, a man with no faith in him, felt an air of nameless, solemn awe close in and press hard about his body.
 
-He asked a temple-servant who had come out to sweep the grounds, and found his way to the Renge-join. Yuko Ajari had already said his morning office. Four or five years past fifty, by the look of him, the ajari fixed Goemon with a great goggling stare. He was a shugen monk of no bottom you could sound, and faintly sinister.
+He asked a temple-servant who had come out to sweep the grounds, and found his way to the Renge-jōin. Yūkō Ajari had already said his morning office. Four or five years past fifty, by the look of him, the ajari fixed Goemon with a great goggling stare. He was a shugen monk of no bottom you could sound, and faintly sinister.
 
-He read Ota Jirozaemon-no-jo's letter.
+He read Ōta Jirōzaemon-no-jō's letter.
 
 "While I hold council with the men of the mountain, wait a while. It is a weighty matter, so it is bound to take a good while—an hour and more, for certain. Your first time on the mountain?"
 
@@ -572,11 +572,11 @@ He read Ota Jirozaemon-no-jo's letter.
 
 And with that he went out.
 
-But Goemon had no ease in him to go the whole way to the Oku-no-in, so he went back to the Danjo he had hurried through, and stood facing the Konpon Daito.
+But Goemon had no ease in him to go the whole way to the Oku-no-in, so he went back to the Danjō he had hurried through, and stood facing the Konpon Daito.
 
 It was the very pagoda the Negoro-ji's had been modeled on; and but for the Negoro one being a size or two larger, they were of exactly the same form. Yet it did not draw at Goemon's heart as the Negoro pagoda had. Perhaps it was its newness: struck by lightning and burned in Daiei 1, the year 1521, it had stood rebuilt not sixty years.
 
-His face all gravity, Yuko Ajari went off to the head temple, the Kongobu-ji, and called together the thirteen leading men of the mountain.
+His face all gravity, Yūkō Ajari went off to the head temple, the Kongōbu-ji, and called together the thirteen leading men of the mountain.
 
 Beyond the great main hall—thirty ken from east to west, thirty-five from north to south—stood a crowd of other buildings, inner halls and annexes.
 
@@ -584,19 +584,19 @@ They gathered in a room called the Willow Room, for the great willow that a pain
 
 That in this same room, eleven years on, Hideyoshi's son, the Kanpaku Hidetsugu, would be made to take his own life by his father's command—that, of course, not one of them could know.
 
-But grave as the matter for counsel was, the thirteen who gathered wore easy faces; and the truth was that by now Mount Koya's stance was already fixed.
+But grave as the matter for counsel was, the thirteen who gathered wore easy faces; and the truth was that by now Mount Kōya's stance was already fixed.
 
-Four years earlier, in Tensho 9, Nobunaga had put it to Mount Koya that it tear down the many forts it had raised at the key points of its temple lands. The mountain's monks refused him flat. Not only that: they refused to give up the ronin who had fled into the temple, and killed outright the officers who came up to hunt them out. Nobunaga, in a fury, seized the Koya hijiri who were abroad on their travels through the provinces and threw them into prison, and caught and killed the monks of Mount Koya to the number of one thousand three hundred and eighty-three. And still not satisfied, he set Oda Nobutaka over the whole army, with Hori Hidemasa for vanguard, and bore down on Mount Koya. Then, one step short of the mountain's surrender, as luck would have it, Nobunaga was killed at the Honno-ji.
+Four years earlier, in Tenshō 9, Nobunaga had put it to Mount Kōya that it tear down the many forts it had raised at the key points of its temple lands. The mountain's monks refused him flat. Not only that: they refused to give up the ronin who had fled into the temple, and killed outright the officers who came up to hunt them out. Nobunaga, in a fury, seized the Kōya hijiri who were abroad on their travels through the provinces and threw them into prison, and caught and killed the monks of Mount Kōya to the number of one thousand three hundred and eighty-three. And still not satisfied, he set Oda Nobutaka over the whole army, with Hori Hidemasa for vanguard, and bore down on Mount Kōya. Then, one step short of the mountain's surrender, as luck would have it, Nobunaga was killed at the Honnō-ji.
 
-But by the lesson of that time, however great the two-hundred-and-eighty-thousand-koku power of Mount Koya, to stake a pitched battle against Hideyoshi's three million was a losing game. Better to meet him with the glib tongue they were masters of, and let it all slide by, this way and that, and off. And more: look at how the Negoro-ji had fared—stocked with more guns than this mountain, and manned by those rough monks and ronin and the marksmen of Saiga, and crushed all the same in a single day. There was nothing for it but to shut themselves in the mountain, cry loud that this was holy ground, bound up with the faith of the imperial house itself, and wait for his eye to turn elsewhere.
+But by the lesson of that time, however great the two-hundred-and-eighty-thousand-koku power of Mount Kōya, to stake a pitched battle against Hideyoshi's three million was a losing game. Better to meet him with the glib tongue they were masters of, and let it all slide by, this way and that, and off. And more: look at how the Negoro-ji had fared—stocked with more guns than this mountain, and manned by those rough monks and ronin and the marksmen of Saiga, and crushed all the same in a single day. There was nothing for it but to shut themselves in the mountain, cry loud that this was holy ground, bound up with the faith of the imperial house itself, and wait for his eye to turn elsewhere.
 
-The mountain's counsel had already settled thus, and so, however Ota Jirozaemon-no-jo might plead, there was no chance of their taking on a march down the mountain to save a flooded flatland castle.
+The mountain's counsel had already settled thus, and so, however Ōta Jirōzaemon-no-jō might plead, there was no chance of their taking on a march down the mountain to save a flooded flatland castle.
 
-Kept waiting a long, long while, and then handed a letter of refusal to carry, Goemon passed back out the mountain gate. On the Danjo and all through the mountain, warrior-monks in their swarms went milling to and fro.
+Kept waiting a long, long while, and then handed a letter of refusal to carry, Goemon passed back out the mountain gate. On the Danjō and all through the mountain, warrior-monks in their swarms went milling to and fro.
 
-Ah, if only this much of an army would come to our aid! So Goemon grieved, and put Mount Koya behind him.
+Ah, if only this much of an army would come to our aid! So Goemon grieved, and put Mount Kōya behind him.
 
-By the time he neared Ota Castle the sun was already down, and only the western sky stood steeped in a crimson afterglow.
+By the time he neared Ōta Castle the sun was already down, and only the western sky stood steeped in a crimson afterglow.
 
 All about him lay dead still, nothing but the crying of the birds in their flocks and the flit of them through the air.
 
@@ -661,11 +661,11 @@ Then—Maki had tied Goichi up high to keep him clear of the water, and died?
 
 Goemon shouldered Maki's body, clasped Goichi hard against him, and got clear of the ruined castle.
 
-Hideyoshi's army, once Ota Castle was taken, rested a while on the floodplain of the Kino, then set out at its leisure toward Mount Koya. He sent an envoy ahead to charge them—monks, and yet toying with weapons, seizing and holding land, taking ronin into their pay—and to tell them that unless they submitted, the whole mountain would be pulled down.
+Hideyoshi's army, once Ōta Castle was taken, rested a while on the floodplain of the Kino, then set out at its leisure toward Mount Kōya. He sent an envoy ahead to charge them—monks, and yet toying with weapons, seizing and holding land, taking ronin into their pay—and to tell them that unless they submitted, the whole mountain would be pulled down.
 
-Mount Koya sent Mokujiki Shonin as its envoy to Hideyoshi's camp.
+Mount Kōya sent Mokujiki Shōnin as its envoy to Hideyoshi's camp.
 
-Mokujiki Ogo had once been of the Sasaki clan of Omi, but at thirty-seven he turned his heart to the Buddha and went up to Mount Koya, where he gave up salt and grain, ate nothing but the plants of the field, and lived a life of hard austerity; and he had a gift for words.
+Mokujiki Ōgo had once been of the Sasaki clan of Ōmi, but at thirty-seven he turned his heart to the Buddha and went up to Mount Kōya, where he gave up salt and grain, ate nothing but the plants of the field, and lived a life of hard austerity; and he had a gift for words.
 
 His pleading carried the day, and Hideyoshi pardoned them at last. He forbade them, on pain of severity, to keep weapons or to shelter rebels, and pared the temple lands down to a bare three thousand koku.
 
@@ -689,7 +689,7 @@ The thought gnawed at his heart and would not stop.
 
 One night he dreamed.
 
-The blood-soaked Ota Jirozaemon-no-jo came and stood before him, looked at Goichi sleeping at Goemon's side, and spoke.
+The blood-soaked Ōta Jirōzaemon-no-jō came and stood before him, looked at Goichi sleeping at Goemon's side, and spoke.
 
 "Ah—so Goichi lived?"
 
@@ -697,11 +697,11 @@ The blood-soaked Ota Jirozaemon-no-jo came and stood before him, looked at Goich
 
 "Ah, he sleeps well."
 
-"Lord Ota, Mount Koya, the cowards—"
+"Lord Ōta, Mount Kōya, the cowards—"
 
 "I know. I know. It's over now, all of it, done. You did well."
 
-"Lord Ota—how did Maki die?"
+"Lord Ōta—how did Maki die?"
 
 "Mm. On the dawn of the very night I sent you out of the castle, the water of the Kino came welling up and spreading, at a speed you'd have doubted was real, and any who climbed the towers or the trees were shot down where they clung. By about noon there were few left alive inside. As I was going the rounds, putting heart into the men, at the fourth tower on the north side I came on Maki-dono, sunk to her neck in water, holding Goichi up over her head and struggling to get to the tower."
 
@@ -709,26 +709,26 @@ The blood-soaked Ota Jirozaemon-no-jo came and stood before him, looked at Goich
 
 Goemon groaned.
 
-Blood running from his mouth as he spoke, Ota went on.
+Blood running from his mouth as he spoke, Ōta went on.
 
-"I put my hands to Maki-dono's back and pushed her, and got her to catch hold of the tower. 'Till my man comes home—won't you, Lord Ota,' Maki-dono said."
+"I put my hands to Maki-dono's back and pushed her, and got her to catch hold of the tower. 'Till my man comes home—won't you, Lord Ōta,' Maki-dono said."
 
 "Oh. Oh."
 
 "Just then came a great crash and splash, and a cannonball struck the trunk of a big tree ten ken off, and the people up in it—how many tens of them there must have been—were flung down with a scream into the water. I pushed through the water toward them. I was trying to save the drowning women and children, to get them holding onto the roof of a mud wall nearby, when there came another crash, behind me this time, and a shriek. I turned and looked, and Maki-dono was there no more. And on one post of the tower, Goichi was tied fast. The instant she'd bound him, it seems, the ball took her. By sending you off on the errand, I kept you from being at Maki-dono's death. It is my sin. I am sorry for it."
 
-"No, no. If you had not pushed Maki, Lord Ota, and got her to the tower, Goichi could never have come through alive as he has—"
+"No, no. If you had not pushed Maki, Lord Ōta, and got her to the tower, Goichi could never have come through alive as he has—"
 
-"Just after that, a ball took me through the head, and that was the end of me. But now I feel no hurt anywhere. I wander the void. And wandering, I pass the wandering souls of the thousands upon thousands of peasants who died at Ota Castle, and at the Negoro-ji. And every one of those souls is raising a desolate, dreadful cry—byo, byo. Listen close, and it is: 'I hate Hideyoshi! I curse Hideyoshi! Curse him! Damn you, Hideyoshi!' That is what they cry. It sounds like byo, byo, but it is not. Listen well, and they are crying, 'I hate Hideyoshi! I curse Hideyoshi!'"
+"Just after that, a ball took me through the head, and that was the end of me. But now I feel no hurt anywhere. I wander the void. And wandering, I pass the wandering souls of the thousands upon thousands of peasants who died at Ōta Castle, and at the Negoro-ji. And every one of those souls is raising a desolate, dreadful cry—byo, byo. Listen close, and it is: 'I hate Hideyoshi! I curse Hideyoshi! Curse him! Damn you, Hideyoshi!' That is what they cry. It sounds like byo, byo, but it is not. Listen well, and they are crying, 'I hate Hideyoshi! I curse Hideyoshi!'"
 
 Goemon saw before his own eyes that terrible, raging void. Souls dripping blood, crying out, wandering, wheeling through the air.
 
-Ota lifted his voice higher.
+Ōta lifted his voice higher.
 
-"But those who lived are no whit the better for it. Hideyoshi, who has made even Mount Koya bow—now
-he will set about surveying the whole of Kishu. And they'll enter acreage on the books many times what was ever recorded, and wring out two parts in every three of what a man harvests. There'll be no rice left to eat. Boiling coarse grain up in thin water and supping it down—that will be the whole of your living. And to fight back, there's neither sword nor spear. Try to run to another district and they'll take you and throw you in a cell. Hateful, Hideyoshi! Cursed, Hideyoshi!—"
+"But those who lived are no whit the better for it. Hideyoshi, who has made even Mount Kōya bow—now
+he will set about surveying the whole of Kishū. And they'll enter acreage on the books many times what was ever recorded, and wring out two parts in every three of what a man harvests. There'll be no rice left to eat. Boiling coarse grain up in thin water and supping it down—that will be the whole of your living. And to fight back, there's neither sword nor spear. Try to run to another district and they'll take you and throw you in a cell. Hateful, Hideyoshi! Cursed, Hideyoshi!—"
 
-And as he said it, as though hauled backward by unseen hands, Ota's shape drew away and was gone.
+And as he said it, as though hauled backward by unseen hands, Ōta's shape drew away and was gone.
 
 Goemon groaned.
 
@@ -736,7 +736,7 @@ Goemon groaned.
 
 And at the sound of his own groan he woke.
 
-It is only a dream, he told himself. Every soul who was there died to the last of them; how Maki died, there is no one left in the world to ask. That thought was in him too. But Goemon, realist as he was, wanted in this one thing to believe that Ota Jirozaemon-no-jo had come to him in the dream on purpose, to let him know the truth of it. And as the days went by, he came to believe it beyond doubting.
+It is only a dream, he told himself. Every soul who was there died to the last of them; how Maki died, there is no one left in the world to ask. That thought was in him too. But Goemon, realist as he was, wanted in this one thing to believe that Ōta Jirōzaemon-no-jō had come to him in the dream on purpose, to let him know the truth of it. And as the days went by, he came to believe it beyond doubting.
 
 His heart burned to go and cut Hideyoshi down. But there was Goichi. Where could he go, and leave this little one, a bare year and two months in the world? The child could not yet live unless Goemon watched over him without a lapse—tramping about to beg a woman's milk, cooling the thin rice-gruel, changing the swaddling, shooing the flies and the mosquitoes off him.
 
@@ -744,13 +744,13 @@ So Goemon, taking in the fields of Maki's family that had died out, spent his da
 
 His longing for the dead Maki did not slacken; and when evening came, the loneliness bit hard into his heart. Looking at Goichi's face, with the eyes and the mouth so like Maki's, he could not stop the tears from welling up and running. The longer he gazed, the more it seemed to him that Maki's soul had been carried over into this little creature and lived and breathed in him. He was not only Goemon's own flesh, but Maki's; and he held his life leaning on Goemon's care and on nothing else.
 
-And so, filled up with the guarding of Goichi and the tending of the fields, the days passed. In that while, Hideyoshi took Kokawa-dera, Shingu, and the Kumano Sanzan, and went back to Osaka. In the seventh month he petitioned the court, had the Kanpaku Nijo Akizane put out, and became Kanpaku himself in his place.
+And so, filled up with the guarding of Goichi and the tending of the fields, the days passed. In that while, Hideyoshi took Kokawa-dera, Shingū, and the Kumano Sanzan, and went back to Osaka. In the seventh month he petitioned the court, had the Kanpaku Nijō Akizane put out, and became Kanpaku himself in his place.
 
-Next he fell on Shikoku, and to Chosokabe Motochika, who sued for terms, he gave the single province of Tosa and took the rest away.
+Next he fell on Shikoku, and to Chōsokabe Motochika, who sued for terms, he gave the single province of Tosa and took the rest away.
 
 Turned forty-nine now, his eyes a little failing, Hideyoshi, the better to run his one-man rule, set five men as commissioners to share the business of government between them: Asano Nagamasa, Maeda Gen'i, Mashita Nagamori, Ishida Mitsunari, and Natsuka Masaie.
 
-That settled, and within the summer, Hideyoshi led out a great army himself to put down Sassa Narimasa of Etchu. Sassa had thrown up forts at thirty-six points to the right and left of the Kurikara Pass, and made his strongholds of Kibune, Moriyama, Masuyama, and Toyama, and fought his defense; but his strength gave out at last, and he shaved his head, put on black robes, took the form of a monk, and came to surrender at Hideyoshi's headquarters on Gofuku-yama. It was the twenty-ninth of the eighth month.
+That settled, and within the summer, Hideyoshi led out a great army himself to put down Sassa Narimasa of Etchū. Sassa had thrown up forts at thirty-six points to the right and left of the Kurikara Pass, and made his strongholds of Kibune, Moriyama, Masuyama, and Toyama, and fought his defense; but his strength gave out at last, and he shaved his head, put on black robes, took the form of a monk, and came to surrender at Hideyoshi's headquarters on Gofuku-yama. It was the twenty-ninth of the eighth month.
 
 In a letter he sent from the camp to his lawful wife, Nene, Hideyoshi wrote, where his name should go, "Tenka"—the Realm. After this he often wrote it in kana, "tenka." From about this time he took himself for the foremost man under heaven, and began to carry himself as one. And with Hideyoshi's appointment as Kanpaku, Nene too became the Kita-no-mandokoro.
 
@@ -758,24 +758,24 @@ In Eiroku 4, Hideyoshi, then a foot-captain of Nobunaga's at twenty-five, had ma
 
 By nature Hideyoshi was a good deal of a lecher, it seems; and once he was past his hard-driven thirties and had come into rank and wealth, his true bent showed, and he grew more and more of an old rake.
 
-There survives a famous letter that Nobunaga sent to Nene around Tensho 4 or 5—that is, about the time Nobunaga built his castle at Azuchi and moved there, and Nene was living at Nagahama Castle. Put into modern speech, it runs like this:
+There survives a famous letter that Nobunaga sent to Nene around Tenshō 4 or 5—that is, about the time Nobunaga built his castle at Azuchi and moved there, and Nene was living at Nagahama Castle. Put into modern speech, it runs like this:
 
-"Just as you say. This time I came out to this Azuchi Castle in Omi myself; and Nagahama being close by, I had the pleasure of seeing you too, which was a glad thing. And on top of that you gave me all manner of gifts, of a beauty to take one aback, whose kindness my brush could never come to the end of writing. Since it is all taking and no giving on my side—and while I was thinking to make you some return, you went and gave me such splendid things that I cannot for the life of me think on the spot what to give you back—there is nothing for it but to be rude this once and leave it for your next visit. All the same, it astonished me that your looks and your figure had grown twice as fine as when I saw you last. And here is Tokichiro grumbling this and that in complaint, so I hear—an outrage, and a thoroughly unpardonable thing. Search where he might, a wife of your quality is not a thing that bald rat could ever, ever come by twice; so from here on you must carry a bright face, and, as befits a lady of the house, bear yourself with a large and easy air, and not fall to being jealous over trifles. That said—since jealousy is a wife's office—make it look as though you were keeping back what you would like to say. And do show this letter, once, to Hashiba Hideyoshi, and give him a piece of your mind."
+"Just as you say. This time I came out to this Azuchi Castle in Ōmi myself; and Nagahama being close by, I had the pleasure of seeing you too, which was a glad thing. And on top of that you gave me all manner of gifts, of a beauty to take one aback, whose kindness my brush could never come to the end of writing. Since it is all taking and no giving on my side—and while I was thinking to make you some return, you went and gave me such splendid things that I cannot for the life of me think on the spot what to give you back—there is nothing for it but to be rude this once and leave it for your next visit. All the same, it astonished me that your looks and your figure had grown twice as fine as when I saw you last. And here is Tōkichirō grumbling this and that in complaint, so I hear—an outrage, and a thoroughly unpardonable thing. Search where he might, a wife of your quality is not a thing that bald rat could ever, ever come by twice; so from here on you must carry a bright face, and, as befits a lady of the house, bear yourself with a large and easy air, and not fall to being jealous over trifles. That said—since jealousy is a wife's office—make it look as though you were keeping back what you would like to say. And do show this letter, once, to Hashiba Hideyoshi, and give him a piece of your mind."
 
 And so this "bald rat," from about that time it seems, set to chasing women in earnest.
 
-In point of fact, when the northern campaign against Sassa was over, at the start of the intercalary eighth month—Tensho 13 was a leap year, with two eighth months—on his way home in triumph he broke his journey at Kanazawa in Kaga, put up some days with the castle's lord, Maeda Toshiie, and was feasted; and there he set eyes on Toshiie's third daughter, Go-hime, whose pet name was Maa, a girl then of fourteen, and lost his heart to her.
+In point of fact, when the northern campaign against Sassa was over, at the start of the intercalary eighth month—Tenshō 13 was a leap year, with two eighth months—on his way home in triumph he broke his journey at Kanazawa in Kaga, put up some days with the castle's lord, Maeda Toshiie, and was feasted; and there he set eyes on Toshiie's third daughter, Gō-hime, whose pet name was Maa, a girl then of fourteen, and lost his heart to her.
 
-This lovely girl Maa-hime is one the novel has spoken of before, in the chapter "War upon War": how, in the days when Toshiie was still allied with Shibata Katsuie, she had been sent as a hostage to Katsuie's castle at Kita-no-sho, and what a beautiful girl she was, is told there.
+This lovely girl Maa-hime is one the novel has spoken of before, in the chapter "War upon War": how, in the days when Toshiie was still allied with Shibata Katsuie, she had been sent as a hostage to Katsuie's castle at Kita-no-shō, and what a beautiful girl she was, is told there.
 
-Maa-hime, twelve at the time, had been betrothed to a young samurai of fourteen, a retainer of Katsuie's named Sakuma Juzo; but that boy-warrior died fighting, weeping and crying out, beneath the keep at the fall of Kita-no-sho. Before that, Katsuie, meaning to send the hostage Maa-hime back to Toshiie—now gone over to the enemy—had her slip out of the castle with a waiting-woman, Achako, to see her safe. No doubt Katsuie too could not bear to let a beauty jewel-like as Maa-hime's be destroyed; but to give a hostage back to a traitor was, all the same, a fine thing to have done.
-Maa-hime got out, hid in a kimono shop called the Iseya, and had a manservant there carry word to Toshiie at Fuchu; and the very next day Hideyoshi's army fell on the castle town of Kita-no-sho, and since its vanguard, moreover, was Toshiie, she was rescued at once, and from then on grew up strong and well under Toshiie's own hand.
+Maa-hime, twelve at the time, had been betrothed to a young samurai of fourteen, a retainer of Katsuie's named Sakuma Jūzō; but that boy-warrior died fighting, weeping and crying out, beneath the keep at the fall of Kita-no-shō. Before that, Katsuie, meaning to send the hostage Maa-hime back to Toshiie—now gone over to the enemy—had her slip out of the castle with a waiting-woman, Achako, to see her safe. No doubt Katsuie too could not bear to let a beauty jewel-like as Maa-hime's be destroyed; but to give a hostage back to a traitor was, all the same, a fine thing to have done.
+Maa-hime got out, hid in a kimono shop called the Iseya, and had a manservant there carry word to Toshiie at Fuchū; and the very next day Hideyoshi's army fell on the castle town of Kita-no-shō, and since its vanguard, moreover, was Toshiie, she was rescued at once, and from then on grew up strong and well under Toshiie's own hand.
 
 It was on this girl that Hideyoshi set his eye. But an old man of forty could scarcely ask straight out for a girl of fourteen as a concubine, so he said instead: give her to me for an adopted daughter.
 
 In the Shibata campaign Toshiie had gone over to Hideyoshi's side in the end, but he had begun on Shibata's side, in arms against Hideyoshi; and with that weakness hanging over him, to refuse was unthinkable—rather, he was in a position where he had to count the asking an honor.
 
-In the spring of the next year, Tensho 14, Maa-hime went up to the capital.
+In the spring of the next year, Tenshō 14, Maa-hime went up to the capital.
 
 A letter Hideyoshi sent her about that time survives.
 
@@ -783,23 +783,23 @@ A letter Hideyoshi sent her about that time survives.
 
 A very short letter—but in it he is nursing a grievance against a girl young enough to be his grandchild, over a cold, perfunctory note given out of bare duty. And the signature reads "Tenka-sama." He is bearing down on a child from on high. When the old lecher first laid a hand on her there is no knowing; but at any rate Maa-hime was soon being called "the Lady of Kaga," and her name came to stand fourth in the ranking of Hideyoshi's concubines.
 
-Let us go back once more to Tensho 13. When the autumn harvest was in, Goemon tied Goichi to his back and went as far as Sakai, in search of where Kazue had been taken.
+Let us go back once more to Tenshō 13. When the autumn harvest was in, Goemon tied Goichi to his back and went as far as Sakai, in search of where Kazue had been taken.
 
 But in this world at war, to hunt for a girl carried off by a samurai was like trying to find, somewhere in the wide sea, a single lost shell.
 
-Sakai too lay under Hideyoshi's hand. In the twelfth month of Tensho 12, when the castle town was being built at Osaka Castle, a fair number of Sakai's townsmen, like the people of Kyoto and Fushimi and Tennoji, had to move to Osaka at a single word of Hideyoshi's command. And in Tensho 14 Hideyoshi would take the field himself and have the moats filled in that had guarded Sakai on three sides against the encroachment of the samurai.
+Sakai too lay under Hideyoshi's hand. In the twelfth month of Tenshō 12, when the castle town was being built at Osaka Castle, a fair number of Sakai's townsmen, like the people of Kyoto and Fushimi and Tennōji, had to move to Osaka at a single word of Hideyoshi's command. And in Tenshō 14 Hideyoshi would take the field himself and have the moats filled in that had guarded Sakai on three sides against the encroachment of the samurai.
 
 By this, Sakai's life as a military power was to be lost; but its self-government was still allowed it to a fair degree, and its shipping and trade—reaching not the Inland Sea only but far out into the South Seas—were more thriving than ever. The various taxes and license-fees and ground-rents drawn out of it were a great source of Hideyoshi's revenue.
 
 Not Ming ships alone but Nanban ships came now in growing numbers; Nanban novelties poured in, and were studied and made and sold in Sakai too. Velvet, rasha, moru, kaneken, sarasa—all of them came in about this time.
 
-The kimono shop in Kobayashidera-machi where Goemon had meant to place Kazue in service—the house of Yamatoya Tarobei—had a great stock of such rare goods as well.
+The kimono shop in Kobayashidera-machi where Goemon had meant to place Kazue in service—the house of Yamatoya Tarōbei—had a great stock of such rare goods as well.
 
 Yamatoya had long since learned by letter from Goemon that Kazue had gone missing, and, sick at heart, had made inquiry after inquiry wherever he could think to. He had even worked a connection among Takayama Ukon's men and dug for news. But of Kazue there was not the faintest word.
 
 As they talked of this and that, Goemon heard something that fastened on his mind.
 
-It was this: that among the merchants trading with the Nanban ships were some who quietly kidnapped women and sold them off overseas. In fact, in Tensho 7, it had come out that the wife of a ward-officer in Shimogyo had kidnapped some eighty women and sold them to Sakai merchants, and of these had sold sixteen onto Nanban ships; the officer's wife and the rest of those concerned were put to the stake. But afterward, what with Nobunaga's death, and Mitsuhide's death, and the Negoro and Saiga risings one on the heels of another, the watch had grown slack, and the smuggling of women out of the country had never stopped.
+It was this: that among the merchants trading with the Nanban ships were some who quietly kidnapped women and sold them off overseas. In fact, in Tenshō 7, it had come out that the wife of a ward-officer in Shimogyō had kidnapped some eighty women and sold them to Sakai merchants, and of these had sold sixteen onto Nanban ships; the officer's wife and the rest of those concerned were put to the stake. But afterward, what with Nobunaga's death, and Mitsuhide's death, and the Negoro and Saiga risings one on the heels of another, the watch had grown slack, and the smuggling of women out of the country had never stopped.
 
 Trudging back downhearted from Sakai to Nagao, that night Goemon dreamed.
 
@@ -819,7 +819,7 @@ Kazue called in a thin voice.
 
 "Eh? When?"
 
-"Half a month after we parted from you, at Ota Castle—shot down by a gun, drowned in the water—"
+"Half a month after we parted from you, at Ōta Castle—shot down by a gun, drowned in the water—"
 
 "Then—she's been dead more than half a year already? I never knew—I never knew—now I can never meet my sister unless I die too—
 
