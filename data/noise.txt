@@ -400,3 +400,13 @@
 # --- ch19 (B08a) ---
 # 再四 = "again and again / repeatedly" (再三再四); 四 is the idiom, not the count 4. English renders "again and again".
 再四
+#
+# --- ch20 (B08b) ---
+# 两季 in 春秋两季 = "spring and autumn" (the two seasons of society meetings); 两 is the idiom, not a data count. English "the spring and autumn general meetings" carries both implicitly.
+两季
+# 朱品三 = Zhu Pinsan, a Heng Society member; 三 is the personal name, not the count 3.
+朱品三
+# 简贯三 = Jian Guansan, a legislator; 三 is the personal name, not the count 3.
+简贯三
+# 四五花洞 = the Peking-opera piece "Si-Wu Hua Dong"; 四/五 are the title, not counts. English keeps the romanized title.
+四五花洞
