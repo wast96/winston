@@ -76,15 +76,17 @@ a fenced code block.
   pass. See PROGRESS.md.
 
 ## Branch note (read this)
-All batches (1, 2, 3) live as one continuous linear history on the working
-branch this session is on (`claude/stealthy-ones-b03-ygoea4`), which is where
-the task harness places the session and the only branch the task rules permit
-pushing to. The local `claude/the-stealthy-ones` is STALE (still at the survey
-commit) and does NOT contain Batch 1-3; do not reset onto it or work would be
-stranded. Keep committing/pushing to the branch the harness gives you; it holds
-the full cumulative history. If the commissioner wants everything consolidated
-onto a single canonical name, that is a deliberate branch-rename decision for
-them to make, not blind surgery.
+CONSOLIDATED onto the canonical branch. `claude/the-stealthy-ones` now holds the
+full linear history of Batches 1-3 (through ab1b943) and is pushed to origin; it
+is the working branch from here on. This was a clean fast-forward (the old
+per-batch branch was just the Batch 2 tip plus the Batch 3 commit).
+
+The old per-task branch `claude/stealthy-ones-b03-ygoea4` was deleted locally,
+but the REMOTE copy could not be deleted: the environment's git egress policy
+returns HTTP 403 on delete-pushes. It is harmless — it points at the exact same
+commit as `claude/the-stealthy-ones` (ab1b943), so nothing is divergent or
+stranded; it is just a duplicate pointer. Delete it from the GitHub UI if you
+want it gone. Do all further work on `claude/the-stealthy-ones`.
 
 ## Tooling in place — do NOT revert
 - `data/structure.json` from book.json (assemble.py and the builder read it).
