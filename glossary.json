@@ -1,15 +1,335 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
-  "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
-  "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
+  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are top-level keys, rendered as glossary headings; keys starting with '_' are ignored. Rows nest UNDER a section: {section: {hanzi: {en, pinyin, status, note, ...}}}. apparatus_merge.py files each row under its 'category' field (default 'terms'). Add/rename sections freely (people, organizations, places, terms, ...).",
+  "people": {
+    "林楠笙": {
+      "en": "Lin Nansheng",
+      "pinyin": "Lín Nánshēng",
       "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+      "principal": true,
+      "cast_order": 1,
+      "cast": "A Nationalist (Juntong) intelligence agent in occupied Shanghai; the novel's protagonist.",
+      "note": "The protagonist; a Juntong agent. Pinyin."
+    },
+    "朱怡贞": {
+      "en": "Zhu Yizhen",
+      "pinyin": "Zhū Yízhēn",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 2,
+      "cast": "A Communist intelligence agent and Lin Nansheng's first love; wife, in cover, of Ji Zhongyuan.",
+      "note": "A Communist agent; Lin's former student and lover. Endearment 贞贞, Zhenzhen. Pinyin."
+    },
+    "顾慎言": {
+      "en": "Gu Shenyan",
+      "pinyin": "Gù Shènyán",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 3,
+      "cast": "Lin Nansheng's superior and former training-class director; an elegant, cultivated spymaster.",
+      "note": "Lin's superior and the director of studies of his training class. Pinyin."
+    },
+    "左秋明": {
+      "en": "Zuo Qiuming",
+      "pinyin": "Zuǒ Qiūmíng",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 4,
+      "cast": "A fellow trainee of Lin Nansheng's, now a Juntong liaison officer in Hong Kong.",
+      "note": "Lin's classmate from the training class; a liaison officer. Pinyin."
+    },
+    "纪中原": {
+      "en": "Ji Zhongyuan",
+      "pinyin": "Jì Zhōngyuán",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 5,
+      "cast": "A Communist controller posing as a seal-engraver; Zhu Yizhen's husband in cover.",
+      "note": "Zhu Yizhen's controller and cover-husband; introduces himself as 'Old Ji.' Pinyin."
+    },
+    "丁默邨": {
+      "en": "Ding Mocun",
+      "pinyin": "Dīng Mòcūn",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 6,
+      "cast": "A real turncoat: director of the No. 76 secret service of the Wang Jingwei regime.",
+      "note": "Historical (1901–1947); Nationalist officer turned collaborator, co-founder of No. 76; executed as a traitor in 1947. Pinyin, the standard form in English scholarship."
+    },
+    "铃木正男": {
+      "en": "Suzuki Masao",
+      "pinyin": "Suzuki Masao",
+      "status": "decided",
+      "note": "The Japanese army surgeon who treats Lin in Hong Kong; addresses Lin as 'Pang-san.' Japanese reading."
+    },
+    "小林大介": {
+      "en": "Kobayashi Daisuke",
+      "pinyin": "Kobayashi Daisuke",
+      "status": "decided",
+      "note": "A second secretary at the Japanese consulate in Shanghai who trades intelligence with Lin. Japanese reading."
+    },
+    "孟安南": {
+      "en": "Meng Annan",
+      "pinyin": "Mèng Ānnán",
+      "status": "decided",
+      "note": "An agent Gu Shenyan planted in Hong Kong years earlier; a member of the Indochinese Communist Party in cover. Pinyin."
+    },
+    "童自重": {
+      "en": "Tong Zizhong",
+      "pinyin": "Tóng Zìzhòng",
+      "status": "decided",
+      "note": "A military-political adviser to the Wang regime; his Japanese army registry name is Uemura Kiyoshi (上村净). Assassinated at the Cathay Hotel. Pinyin."
+    },
+    "蓝小姐": {
+      "en": "Miss Lan",
+      "pinyin": "Lán",
+      "status": "decided",
+      "note": "A celebrated Shanghai socialite (交际花) who serves as Lin's assistant in the assassination attempt. Pinyin of her surname."
+    },
+    "老潘": {
+      "en": "Old Pan",
+      "pinyin": "Lǎo Pān",
+      "status": "decided",
+      "note": "The Communist contact who reactivates Zhu Yizhen after Ji Zhongyuan's presumed death. Pinyin."
+    },
+    "汪精卫": {
+      "en": "Wang Jingwei",
+      "pinyin": "Wāng Jīngwèi",
+      "status": "attested",
+      "note": "Historical (1883–1944); leader of the Japanese-sponsored collaborationist government at Nanjing. Standard English form."
+    },
+    "戴笠": {
+      "en": "Dai Li",
+      "pinyin": "Dài Lì",
+      "status": "attested",
+      "note": "Historical (1897–1946); head of the Juntong, the Nationalist military secret service. Called 'Mr. Dai' in the text. Standard English form."
+    }
+  },
+  "organizations": {
+    "军统": {
+      "en": "the Juntong",
+      "pinyin": "Jūntǒng",
+      "status": "attested",
+      "note": "The Nationalists' military Bureau of Investigation and Statistics, Dai Li's secret service, seated in Chongqing. Attested English abbreviation."
+    },
+    "中统": {
+      "en": "the Zhongtong",
+      "pinyin": "Zhōngtǒng",
+      "status": "attested",
+      "note": "The Nationalist party's (CC Clique's) Bureau of Investigation and Statistics, the Juntong's civilian rival. Attested English abbreviation."
+    },
+    "特工总部": {
+      "en": "the Secret Service Headquarters",
+      "pinyin": "Tègōng Zǒngbù",
+      "status": "attested",
+      "note": "The Wang regime's secret-service headquarters at No. 76 Jessfield Road."
+    },
+    "新四军": {
+      "en": "the New Fourth Army",
+      "pinyin": "Xīn Sì Jūn",
+      "status": "attested",
+      "note": "A Communist army operating in central-eastern China; nominally allied with the Nationalists against Japan. Standard English form."
+    },
+    "和平建国军": {
+      "en": "the Peace Army",
+      "pinyin": "Hépíng Jiànguó Jūn",
+      "status": "decided",
+      "note": "The Wang regime's armed forces, in full the Peace National Construction Army."
+    },
+    "中美合作所": {
+      "en": "the Sino-American Cooperative Organization",
+      "pinyin": "Zhōng-Měi Hézuòsuǒ",
+      "status": "attested",
+      "note": "SACO, the joint Nationalist–US intelligence and training body (1943) under Dai Li and Milton Miles. Attested English name."
+    },
+    "蓝衣社": {
+      "en": "the Blue Shirts",
+      "pinyin": "Lányīshè",
+      "status": "attested",
+      "note": "The Blue Shirts Society, a fascist-influenced Nationalist secret organization tied to the Juntong. Attested English name."
+    },
+    "特高课": {
+      "en": "the Tokko",
+      "pinyin": "Tokkōka",
+      "status": "attested",
+      "note": "The Japanese Special Higher Police (特別高等警察), the political and thought police. Attested English/Japanese term."
+    },
+    "中储银行": {
+      "en": "the Central Reserve Bank",
+      "pinyin": "Zhōngchǔ Yínháng",
+      "status": "attested",
+      "note": "The note-issuing bank of the Wang Jingwei regime."
+    },
+    "华兴洋行": {
+      "en": "the Huaxing Trading Company",
+      "pinyin": "Huáxīng Yángháng",
+      "status": "decided",
+      "note": "A silk-and-tea export firm; the Juntong's Shanghai intelligence relay in cover."
+    },
+    "良友": {
+      "en": "The Young Companion",
+      "pinyin": "Liángyǒu",
+      "status": "attested",
+      "note": "The famous illustrated pictorial of Republican Shanghai (1926–1945). Attested English title."
+    },
+    "大公报": {
+      "en": "Ta Kung Pao",
+      "pinyin": "Dàgōngbào",
+      "status": "attested",
+      "note": "A major, respected Chinese newspaper. Attested romanization."
+    },
+    "中华日报": {
+      "en": "the Zhonghua Ribao",
+      "pinyin": "Zhōnghuá Rìbào",
+      "status": "attested",
+      "note": "The chief newspaper of the Wang Jingwei regime."
+    },
+    "中央日报": {
+      "en": "the Central Daily News",
+      "pinyin": "Zhōngyāng Rìbào",
+      "status": "attested",
+      "note": "The Nationalist party's official newspaper. Attested English name."
+    },
+    "路透社": {
+      "en": "Reuters",
+      "pinyin": "Lùtòushè",
+      "status": "attested",
+      "note": "The British news agency; Lin's journalistic cover. Attested English name."
+    },
+    "朵云轩": {
+      "en": "Duoyunxuan",
+      "pinyin": "Duǒyúnxuān",
+      "status": "attested",
+      "note": "The famous Shanghai studio for painting, calligraphy, and seal-carving (founded 1900). Attested romanization."
+    },
+    "沪江大学": {
+      "en": "the University of Shanghai",
+      "pinyin": "Hùjiāng Dàxué",
+      "status": "attested",
+      "note": "A Baptist missionary university in Shanghai (Hujiang University). Attested English name."
+    }
+  },
+  "places": {
+    "极司菲尔路": {
+      "en": "Jessfield Road",
+      "pinyin": "Jísīfēiěr Lù",
+      "status": "attested",
+      "note": "A road in western Shanghai, today's Wanhangdu Road; No. 76 stood here. Attested period English name."
+    },
+    "愚园路": {
+      "en": "Yuyuan Road",
+      "pinyin": "Yúyuán Lù",
+      "status": "attested",
+      "note": "A fashionable road in western Shanghai. Attested form (per the translation shelf)."
+    },
+    "巨籁达路": {
+      "en": "Rue Ratard",
+      "pinyin": "Jùlàidá Lù",
+      "status": "attested",
+      "note": "A French Concession street lined with plane trees, today's Julu Road. Attested French name."
+    },
+    "霞飞路": {
+      "en": "Avenue Joffre",
+      "pinyin": "Xiáfēi Lù",
+      "status": "attested",
+      "note": "The main thoroughfare of the French Concession, today's Central Huaihai Road. Attested French name."
+    },
+    "苏州河": {
+      "en": "Suzhou Creek",
+      "pinyin": "Sūzhōu Hé",
+      "status": "attested",
+      "note": "The river through central Shanghai. Attested English form."
+    },
+    "众坊街": {
+      "en": "Public Square Street",
+      "pinyin": "Zhòngfāng Jiē",
+      "status": "attested",
+      "note": "A street in Yau Ma Tei, Hong Kong. Attested official English name."
+    },
+    "洛克道": {
+      "en": "Lockhart Road",
+      "pinyin": "Luòkè Dào",
+      "status": "attested",
+      "note": "A street in Wan Chai, Hong Kong. Attested official English name."
+    },
+    "大屿山": {
+      "en": "Lantau Island",
+      "pinyin": "Dàyǔ Shān",
+      "status": "attested",
+      "note": "The large island west of Hong Kong. Attested English form."
+    },
+    "广州湾": {
+      "en": "Guangzhouwan",
+      "pinyin": "Guǎngzhōu Wān",
+      "status": "attested",
+      "note": "A French-leased territory on the Guangdong coast, today's Zhanjiang. Attested romanization."
+    },
+    "启德机场": {
+      "en": "Kai Tak Airport",
+      "pinyin": "Qǐdé Jīchǎng",
+      "status": "attested",
+      "note": "Hong Kong's airport. Attested English name."
+    },
+    "重庆": {
+      "en": "Chongqing",
+      "pinyin": "Chóngqìng",
+      "status": "attested",
+      "note": "The Nationalist wartime capital. Attested pinyin form (per the shelf)."
+    },
+    "华懋饭店": {
+      "en": "the Cathay Hotel",
+      "pinyin": "Huámào Fàndiàn",
+      "status": "attested",
+      "note": "Victor Sassoon's Cathay Hotel on the Bund; today the north building of the Peace Hotel. Attested English name."
+    }
+  },
+  "terms": {
+    "交际花": {
+      "en": "socialite",
+      "pinyin": "jiāojìhuā",
+      "status": "decided",
+      "note": "Literally 'a flower of society'; a fashionable woman of the demimonde who moves among wealthy men."
+    },
+    "旗袍": {
+      "en": "cheongsam",
+      "pinyin": "qípáo",
+      "status": "attested",
+      "note": "The close-fitting Chinese woman's dress; 'cheongsam' is the established English form."
+    },
+    "黄包车": {
+      "en": "rickshaw",
+      "pinyin": "huángbāochē",
+      "status": "attested",
+      "note": "The man-pulled two-wheeled cab of Republican Shanghai."
+    },
+    "皖南事变": {
+      "en": "the New Fourth Army Incident",
+      "pinyin": "Wǎnnán Shìbiàn",
+      "status": "attested",
+      "note": "The Southern Anhui Incident of January 1941. Attested English name."
+    },
+    "淞沪会战": {
+      "en": "the Battle of Shanghai",
+      "pinyin": "Sōng-Hù Huìzhàn",
+      "status": "attested",
+      "note": "The battle of August–November 1937. Attested English name."
+    },
+    "整风运动": {
+      "en": "the Rectification Movement",
+      "pinyin": "Zhěngfēng Yùndòng",
+      "status": "attested",
+      "note": "The Communist ideological campaign begun at Yan'an in 1942. Attested English name."
+    },
+    "蝶恋花": {
+      "en": "Butterflies in Love with Flowers",
+      "pinyin": "Diéliànhuā",
+      "status": "decided",
+      "note": "An embroidery motif of butterflies among blossoms; also a classical song-lyric tune title."
+    },
+    "咏梅": {
+      "en": "Ode to the Plum Blossom",
+      "pinyin": "Yǒng Méi",
+      "status": "decided",
+      "note": "The title of the poem used as a contact signal; a 七律 (regulated verse)."
     }
   }
 }

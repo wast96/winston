@@ -4,78 +4,136 @@ This file is the baton. A fresh session with no memory reads it and starts
 immediately. **It is the ARCHIVE of the kickoff message, not its delivery:
 every batch ends with this file's kickoff block PASTED VERBATIM INTO THE
 CHAT, alongside the attached EPUB. Writing it here alone does not count.**
-Rewrite it at the end of every batch; always keep the paste-ready kickoff
-message below as its first section. When the book completes, replace the
-kickoff with the completion notice and do not touch it afterward (the Stop
-hook keys off it).
+Rewrite it at the end of every batch; always keep the paste-ready message
+below as its first section. When the book completes, replace it with the
+completion notice and do not touch it afterward (the Stop hook keys off it).
+
+Batch 1 is a special case: it ends at the first-chapter VOICE GATE (CLAUDE.md
+Step 0c), not at a normal batch handoff, so the message below is a voice-gate
+decision prompt rather than a Batch 2 kickoff. Batch 2 does not start until the
+gate is passed and ch01 is frozen as the register reference.
 
 ## Message to paste into the next chat
 
 ```
-The Rebel B01
+The Rebel — voice-gate decision (after Batch 1)
 
-Read CLAUDE.md in full (the working rules at the top are non-negotiable), then HANDOFF.md, then book.json. We are translating 《叛逆者》(The Rebel) by Bi Yu (畀愚), People's Literature Publishing House 2020, a collection of FOUR Republican-era espionage novellas, from the digital source EPUB into an annotated English EPUB, following CLAUDE.md exactly. Work ONLY on branch claude/the-rebel; expect the harness to start you on a stray per-session branch and consolidate per CLAUDE.md rule 2 (check out claude/the-rebel, reset to origin, carry over any stray commits, push, delete the stray). Deliverable is out/the_rebel.epub.
+Batch 1 of The Rebel is done and waiting at the first-chapter voice gate (CLAUDE.md Step 0c). Read the built chapters (ch01 through ch07 of the title novella) in the attached EPUB and judge three things before ch01 becomes the FROZEN register reference for the rest of the book:
 
-This is BATCH 1 and it STOPS at the first-chapter voice gate (Step 0c), NOT at a next-batch kickoff. Run ./setup.sh first.
+1. Voice. Literary contemporary English, restrained third person, dialogue set in quotation marks (the source runs dialogue unmarked). Is the register right for a serious espionage novel? Any drift toward pulp or toward stiffness?
+2. Footnote density. This batch carries 35 notes (12 on the opening chapter, tapering), across history, institutions, material culture, and custom, for a reader with no background in modern China. Too many, too few, right?
+3. Formatting. Chapter headings are the installment numbers under the part title "The Rebel"; a Principal Characters page and a four-section glossary sit in the back matter; footnotes pop up in Apple Books and Kindle.
 
-Do Batch B01 = The Rebel installments 1-7 (units ch01 through ch07), end to end per the CLAUDE.md pipeline:
-1. Read ch01-ch07 from data/src/ (04_part0002.txt .. 10_part0008.txt). Fix extractor-split paragraphs (a line whose last char is not in 。！？"）…— continues the next); recover any set-off formatting with apply_format_markers.py where the source HTML encodes it. Grep the batch for the source's own note markers (\[\d+\]) and record "none present" in PROGRESS.md (the survey found none book-wide).
-2. Translate to the register: literary contemporary English, third-person, restrained; preserve the shifts between narration and terse dialogue. This is a serious espionage novel, not pulp. Consult glossary.json and authority.json BEFORE romanizing ANY name or term. Pinyin for names (Lin Nansheng, Gu Shenyan, Zuo Qiuming). Real historical figures and institutions appear from the first page and MUST match the shelf: Ding Mocun (丁默邨), Wang Jingwei (汪精卫), Dai Li (戴笠), the Juntong/军统 and Zhongtong/中统, No. 76 (76号, the Jessfield Road secret-service HQ), the puppet/collaborationist (汪伪) apparatus, Chongqing as the wartime capital. Check authority.json for the decided renderings of 军统/中统/戴笠/汪精卫 and the Shanghai concession streets and institutions before inventing your own.
-3. Write voice sheets (two lines each, into this HANDOFF) at first appearance for at least: Lin Nansheng (林楠笙, the protagonist agent), Gu Shenyan (顾慎言, his elegant spymaster and training-class director), Zuo Qiuming (左秋明, fellow trainee, now a liaison officer), and Ding Mocun (丁默邨, the historical turncoat). Flag the main cast principal: true in glossary.json.
-4. Write out/<id>_en.json (one English paragraph per source line) and run make_bilingual.py per unit; then verify_unit.py per unit AS YOU GO; check_align.py + check_content.py; verify each unit's TAIL against the source (rule 4 corollary). No register --ref yet (this batch defines it).
-5. Footnotes per the reader model in CLAUDE.md: a Westerner with no background in modern Chinese history, so this batch is footnote-dense (expect 8-15 on the opening chapters) across material culture, social structure, custom, and institutions/money, PLUS the historical people and events (Ding Mocun's near-assassination, the 76号 apparatus, the Wang Jingwei regime, Reuters/路透社 cover, the concentration-camp detail in Hong Kong). Fact-check every historical claim against real scholarship (Wikipedia / Baidu Baike / academic; NEVER an AI-written source); state the verdict in the note; the source's own errors of fact stay visible and footnoted. Use apparatus_merge.py, never a shell heredoc; keep the NOT-re-noted ledger in PROGRESS.md; glossary rows with attestation.
-6. Rebuild the EPUB, qa_epub.py until green, epubcheck (jar at /tmp/epubcheck-5.1.0/epubcheck.jar) if available; record all check results in PROGRESS.md; commit; push claude/the-rebel.
-7. STOP at the voice gate: present the built chapter(s) for a read, ATTACH the EPUB in the chat, and ask the commissioner to judge voice, footnote density, and formatting before this becomes the frozen register reference. Do NOT start Batch 2.
-
-Cite chapters and sections, never pages. Do not pause for approval mid-batch; only stop at the voice gate.
+If approved: freeze ch01 as check_register.py --ref, then run Batch B02 = The Rebel 8-14 (units ch08-ch14). If changes are wanted, name them and I will revise Batch 1 first (nothing downstream depends on it yet).
 ```
 
 ## What is DONE (do not redo)
 
-- Step 0 survey complete: source ingested, book.json authored (51 units,
-  ch01-ch51, four parts), skeleton EPUB green (qa_epub PASS, epubcheck 5.1.0
-  clean), branch consolidated onto claude/the-rebel. Batch plan approved
-  (9 batches). No translation yet.
+- Step 0 survey: source ingested, book.json authored (51 units, four parts),
+  skeleton EPUB green, batch plan approved (9 batches).
+- Batch B01 = The Rebel 1-7 (ch01-ch07), 357 paragraphs, translated end to end.
+  All checks green (parity, numbers, alignment, content/displacement, entity
+  survival, anchors, apparatus). 35 footnotes, 51 glossary rows, Principal
+  Characters page. EPUB rebuilt: qa_epub PASS, epubcheck 5.1.0 clean. Committed
+  and pushed to claude/the-rebel. AWAITING THE VOICE GATE (Step 0c); ch01 is
+  not yet frozen as the register reference.
 
-## Tooling in place (do not revert)
+## Tooling in place (do NOT revert)
 
-- None beyond the template. epubcheck jar at /tmp/epubcheck-5.1.0/epubcheck.jar
-  (fetched by setup.sh). No source-notes stream (the source carries none).
-
-## Renderings settled this batch / carry-forward
-
-- Novella English titles: 叛逆者 = The Rebel, 邮差 = The Postman, 氰化钾 =
-  Potassium Cyanide, 胭脂 = Rouge. Collection subtitle: "Four Novellas".
-- Names/terms still to be decided against authority.json in B01 (do not
-  pre-romanize without checking): 军统 Juntong, 中统 Zhongtong, 戴笠 Dai Li,
-  汪精卫 Wang Jingwei, 76号 No. 76 / Jessfield Road, 汪伪 the puppet regime.
+- epubcheck jar at /tmp/epubcheck-5.1.0/epubcheck.jar (fetched by setup.sh).
+- data/noise.txt: project entries for non-quantitative source numerals
+  (第二天, 一言不发, 一动不动, 十六铺, 八仙桥, 零星, 九宫, 三轮车), each commented.
+  Extend as new number idioms surface; never noise a real quantity.
+- scripts/apparatus_merge.py: patched so glossary rows are filed under their
+  section (the row's "category" field, default "terms"), matching the nested
+  {section:{hanzi:row}} shape glossary.json documents and that render_glossary,
+  render_characters and check_content all read. Give every glossary row a
+  "category" in the batch apparatus file (people / organizations / places /
+  terms). The old flat-key behaviour broke the build; keep the fix.
+- scripts/check_content.py: patched so name_map skips non-dict / "_"-prefixed
+  top-level sections (e.g. _about). Run it with a docs/sources config:
+  {"docs":{id:"out/<id>_reading.md"}, "sources":{id:"data/zh/<id>.txt"}}.
+- No source-notes stream (the source carries none).
 
 ## Voice sheets (one per major character, written at first appearance)
 
-- (none yet; B01 writes the first sheets — see kickoff step 3)
+- Lin Nansheng (林楠笙): the protagonist. Educated, controlled, near-silent
+  under pressure; speaks in short flat sentences, states hard truths plainly
+  ("The trouble is I have never killed anyone"). Interiority carried by
+  narration, not speech; irony is dry and self-directed. After his wound he
+  goes colder and blacker. Pinyin.
+- Gu Shenyan (顾慎言): Lin's spymaster and former training-class director.
+  The cultivated aesthete (symphonies, Peking opera, go, Baudelaire in French);
+  speaks in measured aphorism and indirection ("we dance on the point of a
+  knife"; "to forget is the finest remembrance"), warm on the surface, testing
+  underneath. Never raises his voice. Pinyin.
+- Zuo Qiuming (左秋明): Lin's fellow trainee, now a Juntong liaison officer.
+  Brief, warm, professional; the mild traveler's smile over a hard core. Few
+  lines, but the batch turns on his suicide rather than break under
+  interrogation. Pinyin.
+- Ding Mocun (丁默邨): the historical turncoat, director of No. 76, later a
+  minister of the Wang regime. Cold, ironic, unhurried; enjoys the upper hand
+  and needles his visitor ("at bottom you are still a Communist"). Speaks as a
+  man who has already chosen his side and feels no need to justify it.
+  Historical; pinyin (standard form).
+- Zhu Yizhen (朱怡贞): the Communist agent, Lin's former student and lover.
+  Proud, stubborn, wounded; alternates cold formality ("Please let go of my
+  hand") with sudden breaks (the scream that ends ch02, the cut embroidery).
+  Silence and needlework carry what she will not say. Endearment 贞贞 = Zhenzhen.
+  Pinyin.
+- Ji Zhongyuan (纪中原): Zhu's controller and cover-husband, a Communist
+  professional posing as a seal-engraver. Quiet, patient, absolute about the
+  primacy of the work ("intelligence comes before all else"); jealousy shows
+  only as a dryness in the voice. Fakes his own death and returns. Pinyin.
 
-## Where the book stands
+## Where the book stands (story)
 
-- Nothing translated yet. The Rebel opens with Lin Nansheng, a Nationalist
-  intelligence agent, shot and smuggled out of Shanghai to a Japanese army
-  hospital in Hong Kong, his spine wound leaving him unable to feel pain; a
-  colleague, Zuo Qiuming, gives him a new false identity. The narrative then
-  flashes back to his Shanghai station work and his handler Gu Shenyan.
+- The Rebel, installments 1-7. Lin Nansheng, a Juntong agent in occupied
+  Shanghai, is shot in an ambush and smuggled to a Japanese army hospital in
+  Hong Kong, his spine wound leaving him unable to feel pain. The narrative
+  flashes back: his handler Gu Shenyan; the assassination of the collaborator
+  Tong Zizhong at the Cathay Hotel; his re-entangled love with Zhu Yizhen, a
+  Communist agent married in cover to her controller Ji Zhongyuan; their flight
+  from No. 76's dragnet; the killing of the consul Kobayashi; the ambush at the
+  City God Temple that leaves Zhu apparently dead and Lin crippled; Gu's night
+  bargain with Ding Mocun to pull Lin out of Japanese hands. In Hong Kong Lin
+  learns Ji Zhongyuan faked his death; his friend Zuo Qiuming is captured and
+  takes his own life rather than talk; Ji hints Zhu may be alive (two coffins
+  left the hospital). Lin is recalled to Chongqing to instruct at SACO; Ji
+  gives him a poem-cipher for contact. Whether Zhu lives is the open thread.
 
 ## What is NEXT
 
-- Batch B01 = The Rebel 1-7 (ch01-ch07). Ends at the voice gate.
-- After the gate freezes the reference: B02 = The Rebel 8-14 (ch08-ch14).
+- On voice-gate approval: freeze ch01 (check_register.py --ref), then
+  B02 = The Rebel 8-14 (ch08-ch14). Do NOT start B02 before the gate.
+- Batch plan after that: B03-B05 The Postman, B06-B07 Potassium Cyanide,
+  B08-B09 Rouge (+ back matter and whole-book QA). Nine batches total.
+
+## Settled renderings / carry-forward
+
+- Cross-shelf (authority.json) forms in use: Wang Jingwei, Dai Li, the Juntong,
+  the Cathay Hotel, Avenue Joffre, Suzhou Creek, Yuyuan Road, Nanjing Road,
+  rickshaw, cheongsam, Chongqing. New this book: Ding Mocun, No. 76 / Jessfield
+  Road, the Zhongtong, the Peace Army, SACO, the Tokko, Rue Ratard, the
+  Zhonghua Ribao, The Young Companion, Ta Kung Pao. All in glossary.json.
+- 贞贞 = Zhenzhen; Japanese speakers address Lin as "Pang-san" / "Lin-san"
+  (庞桑 / 林桑) under his cover name Pang Jiajun. Kobayashi = 小林大介.
+- Dialogue is unmarked in the source; set it in quotation marks in English.
+  Chapter heading = installment number under the part title.
 
 ## Open items for the read-through
 
-- (none yet)
+- Confirm footnote density on the opening chapter feels right before it becomes
+  the frozen reference (ch01 carries 12).
+- The fur-store attribution note (ch01): confirm the Zhongtong-over-Juntong
+  framing reads as intended (the source is defensible; the note says so).
 
 ## Environment / traps state
 
-- epubcheck available (jar path above). Source is clean simplified-Chinese
-  digital text; watch for the pervasive commercial-ebook glitches CLAUDE.md
-  lists (character swaps, mismatched guillemets, dittography): render to plain
-  sense and LIST in PROGRESS.md, footnote only genuine reading uncertainty.
 - Harness starts sessions on a stray per-session branch; consolidate onto
-  claude/the-rebel per rule 2 (done once this session; expect it again).
+  claude/the-rebel per rule 2 (done again this session; expect it every batch).
+- data/src is gitignored and regenerable by ingest_epub.py (run it if data/src
+  is empty at the top of a batch). data/zh, out/*_en.json, out/*_reading.md and
+  the ledgers are tracked; bilinguals are regenerable and not shipped.
+- Source is clean simplified-Chinese digital text; no OCR, no set-off HTML
+  formatting, no source notes. Doubled heading line per file (skip=2).

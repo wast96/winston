@@ -30,8 +30,26 @@
 #   - weekday indices                         (星期[一二三四五六], 礼拜[一二三四五六])
 #   - the source's own note markers, if any   (\[\d+\])
 #
-# Example entries (delete these; they are here to show the format):
-# the Nine Dragons of Kowloon — rendered "Kowloon"
-# 九龍
 # weekdays carry no quantity — rendered "Monday" etc.
 # 星期[一二三四五六]
+#
+# --- The Rebel: project entries ---
+# 第二天 is the idiom "the next day / the following day"; the 二 is ordinal,
+# not a counted quantity — rendered "the next day".
+第二天
+# 一言不发 "without a word"; 一 is idiomatic, rendered "not a word / said nothing".
+一言不发
+# 一动不动 "without moving a muscle"; rendered "stock-still / did not move".
+一动不动
+# Place names carrying numerals — romanized, so the digit is not in the English.
+# 八仙桥 Baxianqiao (a Shanghai district); 十六铺 Shiliupu (the docks).
+# Longest-literal-first: 十六铺 before any bare 十/六 rule (none here, but keep order).
+十六铺
+八仙桥
+# 零星 "scattered / sporadic"; the 零 is lexical, not the quantity zero —
+# rendered "scattered / thin (snow)".
+零星
+# 九宫航运 Jiugong Shipping (a company name); 九 is lexical, romanized in English.
+九宫
+# 三轮车 "pedicab / trishaw"; 三轮 (three-wheel) is lexical, no quantity rendered.
+三轮车

@@ -94,19 +94,31 @@ def main(path):
 
     if "glossary" in batch:
         g = load("glossary.json", {})
+
+        def _present(gl, zh):
+            # rows nest under section keys ({section: {hanzi: row}}); a row is
+            # present if it appears in ANY section. Never treat _-prefixed keys
+            # (e.g. _about) as sections.
+            return any(isinstance(sec, dict) and zh in sec
+                       for k, sec in gl.items() if not k.startswith("_"))
+
         added = skipped = 0
         for zh, row in batch["glossary"].items():
-            if zh in g:
+            if _present(g, zh):
                 skipped += 1
-            else:
-                g[zh] = row
-                added += 1
+                continue
+            row = dict(row)
+            section = row.pop("category", "terms")
+            g.setdefault(section, {})[zh] = row
+            added += 1
         back = save("glossary.json", g)
-        for zh, row in batch["glossary"].items():
-            if zh not in back:
+        for zh in batch["glossary"]:
+            if not _present(back, zh):
                 sys.exit("re-read verification failed for glossary %s" % zh)
+        total = sum(len(sec) for k, sec in g.items()
+                    if not k.startswith("_") and isinstance(sec, dict))
         print("glossary: %d added, %d already present (left untouched), "
-              "%d total" % (added, skipped, len(g)))
+              "%d total" % (added, skipped, total))
 
     if "notes" in batch:
         n = load("notes.json", {})
