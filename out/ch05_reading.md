@@ -368,4 +368,56 @@ But at that instant something sharp drove up into his side from below. He looked
 
 Two years before, at just such a moment, he had been stabbed by the very Oyu he had pinned, with her short knife. The memory flooded back; he clapped both hands to his side and rolled away to the right.
 
-Hemmed in by the two sham ninja, Moriichirō was at his wits' end. These three years he had been now a seminary student, now a gunsmith's apprentice, and had done no proper ninja training. He had no confidence in his own arts, and that want of confidence unmanned him. He went rolling down the slope, tumbling toward the hamlet of Ōkusa where the Ikeda force had halted only just now, and
+Hemmed in by the two sham ninja, Moriichirō was at his wits' end. These three years he had been now a seminary student, now a gunsmith's apprentice, and had done no proper ninja training. He had no confidence in his own arts, and that want of confidence unmanned him. He went rolling down the slope, tumbling toward the hamlet of Ōkusa where the Ikeda force had halted only just now, and, getting to his feet at the foot of the bluff, bolted headlong to the southeast, straight for Taraga, the far right of Ieyasu's army.
+
+Feeling at his side as he ran, he found the knife had torn his clothes and barely grazed the skin. It was a bare ri to his own lines at Taraga; he should soon have overtaken the Ikeda force that had gone before him, yet not a sign of them was to be seen. Somewhere the twenty thousand of the Ikeda army had vanished away. But Moriichirō, without stopping to make sure where they had gone, ran at full tilt into Matsudaira Nobutada's camp at Taraga.
+
+"A report, sir. Torii Moriichirō, of the Shinobi-gumi under Hattori Hanzō. A while ago I lay hidden on the bluff above Ōkusa village, a ri to the east, and I saw an enemy force of some twenty thousand come down from the north, take their midday meal at Ōkusa, and then, the whole of them, march on southward. So I hastened straight here to report it."
+
+One of Nobutada's captains asked, "And this enemy force, marching south, which way did it go?"
+
+"That, sir—somewhere on the road from Ōkusa to here, it vanished away."
+
+"Twenty thousand men, vanished away? What are you saying? Why did you not follow at once and see where they went?"
+
+"Sir, the fact is—"
+
+"The fact is what?"
+
+"I fell in with two low sham ninja—"
+
+"What? Sham ninja?"
+
+"Yes, sir—and while I was grappling with the two of them, I lost sight of the enemy troops."
+
+"And these sham ninja, what became of them?"
+
+"To my regret, sir, they got away."
+
+"How did you know they were impostors?"
+
+"One was certainly a woman; and the other a great giant of a man, thirty kan if he was a pound."
+
+"What? A woman ninja? No such creature exists."
+
+"That, sir, is why I call them shams—"
+
+"And how did you know it was a woman?"
+
+"Ah—" Moriichirō stuck for words.
+
+"What did her face look like?"
+
+"She—she had a ninja hood on, sir, so—"
+
+"You never saw her face. Then how did you know she was a woman?"
+
+"That was—while we were struggling together, I—"
+
+"Fool!"
+
+And so a feat that should have been to his credit came to nothing. Nobutada at once sent out scouts to find where the vanished enemy had gone. They found that the force, on leaving Ōkusa, had borne off to the left at once, marched straight south for the Shōnai River, and, at the bend of the Shōnai, halted at Kamijō village and begun to throw up a rampart there.
+
+This was reported to the headquarters at Komaki. Hanzō at once ordered out Goemon and ten men to watch what the force would do next. The Ikeda force lay that night at Kamijō, and stayed there the whole of the eighth. Wasting a full day here was to bring decisive consequences down on Shōnyū and his men. They had come a bare five ri, over no road hard enough to need the rest; if they meant to take the enemy by surprise, they should have pushed straight on into Mikawa. No doubt they reckoned that Ieyasu's army, its whole attention fixed on the enemy in its front, would never notice this flanking march. By the reach of scouts and spies in the warfare of that day, it was a reasonable enough assumption; but they were bound by the common assumption, and never reckoned with the powers of Ieyasu's Iga ninja.
+
+At ten o'clock on the night of the eighth they set out. The first and second divisions crossed the Shōnai at Ōdome village, the third from Noda village, the fourth from Matsukawado. Then, after pushing east a while along the Seto road, they turned sharply right just short of Seto, forded the Yada River, marched straight south, passed Nagakute, and before dawn on the ninth reached Iwasaki castle, a ri south of Nagakute.
