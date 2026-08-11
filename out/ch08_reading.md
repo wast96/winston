@@ -296,7 +296,7 @@ Goemon gave himself wholly to Goichi, and so the days passed and the years turne
 
 Goemon loved him past all bearing. He was forever wanting to stroke or touch some part of the little body, and Goichi too was always wanting to cling to him, always calling "Otchan, Otchan"—Daddy. His voice ran a note or two higher than an ordinary boy's, and the mismatch of it with that grave face and big frame only made him the more endearing.
 
-When Goichi was five, word came that Hideyoshi had got a child of his own, Tsurumatsu, and was beside himself with joy. And when Goichi was seven, and Goemon heard that Tsurumatsu was dead, he gave a low growl. "Serves you right, Hideyoshi. Did you not kill this boy's mother, and all but kill the boy as well? There's your judgment from Heaven, plain as day! You have let your own child die, haven't you. Beaten, are you? Does it gall you? Damn you, Hideyoshi! Look here—my Goichi is growing up fine and strong!"
+When Goichi was five, word came that Hideyoshi had got a child of his own, Tsurumatsu, and was beside himself with joy. And when Goichi was seven, and Goemon heard that Tsurumatsu was dead, he gave a low growl. "Serves you right, Hideyoshi. Didn't you kill this boy's mother, and all but kill the boy as well? There's your judgment from Heaven, plain as day! You've let your own child die, haven't you. Beaten, are you? Does it gall you? Damn you, Hideyoshi! Look here—my Goichi is growing up fine and strong!"
 
 Goichi ate well. He was always thirsty, always hungry. At seven and eight he was already dropping a stool thicker than Goemon's own, a lusty thing near a shaku long. On his eighth birthday he weighed eleven kan six hundred, forty-three and a half kilograms. The next year Goemon heard that Hideyoshi's Hiroi had been born, and was unmoved: no child, he was sure, could be born to better Goichi.
 
@@ -317,7 +317,7 @@ The doctor, golden-haired and blue-eyed, stripped Goichi and went over his whole
 
 The doctors of that day had of course not yet come so far as to name it for what it is, an endocrine disease, congenital retinitis pigmentosa. But the disease exists to this day, and still no cure for it has been found. In 1962, of the causes of blindness among the pupils of all the schools for the blind in our country, 52.3 percent were of congenital origin, and in America the figure reaches 64.1 percent—and the greater part of it is this retinitis pigmentosa.
 
-Was he to stand by with folded hands and watch this child—this keepsake of Maki, his one and only—go dark? When the light was gone, and the boy cried out weeping, "I can't see!", what was he to say to comfort him? Goemon made up his mind on the spot. "I will give my whole life for this poor child. To make his unlucky life happier by even a little, let my own self come to whatever end it will."
+Was he to stand by with folded hands and watch this child—this keepsake of Maki, his one and only—go dark? When the light was gone, and the boy cried out weeping, "I can't see!", what was he to say to comfort him? Goemon made up his mind on the spot. "I'll give my whole life for this poor child. To make his unlucky life happier by even a little, let my own self come to whatever end it will."
 
 But things had only seemed to quiet a little; war might break out again at any hour. And as a peasant—one who, sound of body, could work and work and still not manage a bowl of rice-gruel—how was Goichi ever to live? As long as I live, Goemon thought, I will be a wall about him by whatever means, and keep him. But when I am dead, what then? He could only gaze and gaze at the profile of the boy, who, knowing nothing of his fate, played merrily or lent a hand at the work; gaze at those eyes still clear and grave; and sob inside his heart.
 
@@ -329,7 +329,7 @@ Watching the boy's sleeping face as he snored his easy, innocent snore, Goemon t
 
 Toward the end of Bunroku 2, Goichi, at nine, went wholly blind at last. What sorrow, what suffering was in the boy's heart, Goemon could not even guess. To look at, the eyes were no different from before—the whites clear, the dark irises black as though they hid a keen, deep sight. Goichi only bore his fate, still and passive. Sparing of words from the first, he grew more silent yet, and only groped for his father's hand; and he seemed forever ashamed of his own clumsiness, of the tasks he could no longer do.
 
-"Daddy will do anything in the world for you. Daddy's eyes are your eyes. Just think of Daddy as your own self."
+"Daddy'll do anything in the world for you. Daddy's eyes are your eyes. Just think of Daddy as your own self."
 
 One day, at the Shinjō-ji in Sakai, when they turned over the ground to raise a new bell-tower, a jar came to light, half-filled with treasure of every kind; and so it went into the storehouse the egōshū kept,
  he heard. The Shinjō-ji stands next to the Jōfuku-ji; and in the grounds of that Jōfuku-ji, thirteen years before, Goemon had buried a jar of treasure he had stolen in Kyoto and Osaka—only for someone to dig it up and carry it off before long. The kinds of treasure now said to be in the jar were every one of them graven in Goemon's memory.
@@ -343,7 +343,7 @@ When, going north on the Nabari highway, they drew near the village of Azōda, i
 Why was Goemon so drawn to the two of them? For the biwa's sound, no doubt. And for the indescribably gentle, brimming happiness in both their faces. How raptly Goichi was listening, Goemon could tell from the small hands that gripped his own left hand and tightened hard, and from the entranced look on the boy's face as he leaned toward the sound. Goemon asked a night's lodging, and the two took them in gladly. Never, he thought, had he met people so warm and gentle to the very bottom of them as this blind monk, Ryōsai, and this nun, Tamo. That even the maimed could be so happy at heart, so full of joy, filled him with wonder. "Let me leave Goichi with these two; it will be the better for him." So thinking, Goemon set down money enough to keep the boy his whole life long, and begged the two of them
  to keep him. Without asking after his deeper reasons, the two gladly took the charge.
 
-He stayed three days at the temple, and took Goichi to his own birthplace, the village of Ishikawa, and to Ōyamada, and to the ground about the Momochi fort. "Daddy has a piece of work he must do, come what may. Even while I'm about it, whenever I can find the time, I'll come to see you. Wait for me here till the work is done." Goichi nodded; and when they parted he ran both hands over Goemon's face, as though to grave it on his heart.
+He stayed three days at the temple, and took Goichi to his own birthplace, the village of Ishikawa, and to Ōyamada, and to the ground about the Momochi fort. "Daddy's got a piece of work he must do, come what may. Even while I'm about it, whenever I can find the time, I'll come to see you. Wait for me here till the work is done." Goichi nodded; and when they parted he ran both hands over Goemon's face, as though to grave it on his heart.
 
 "Ah—now I have been able to let Goichi go. Now is the time! Now is when I must bring it off!" So Goemon thought. Now.
 
@@ -384,7 +384,7 @@ Goemon twisted his bound neck and looked round. Among the press of men stood Hat
 
 "Hm—and what would a fellow like that want with His Highness the Taikō—"
 
-"That we shall have to ask the man himself. By your leave—" And with that Hanzō turned to face Goemon. "Dennai. It has been a long while."
+"That we'll have to ask the man himself. By your leave—" And with that Hanzō turned to face Goemon. "Dennai. It has been a long while."
 
 "Hanzō—you—what are you doing here—" Goemon glared at him.
 
@@ -410,7 +410,7 @@ Hanzō had heard from Moriichirō only that Goemon had set out east with the boy
 
 A rage boiled up in Goemon, and he roared. "What! The brazen, barefaced gall of you!"
 
-Hanzō gave a thick, deep laugh. "Ha ha ha—shall I tell you a good story? I gave Hatsuko to Lord Ieyasu. She is called the Ocha-no-tsubone now, and has all his love to herself. And I, when Lord Ieyasu entered Edo castle, was raised to a hatamoto of three thousand koku. Karasumaru too, and Etegi, are fine samurai these days. Had you but served quietly, you too, man—"
+Hanzō gave a thick, deep laugh. "Ha ha ha—here is a good story for you. I gave Hatsuko to Lord Ieyasu. She is called the Ocha-no-tsubone now, and has all his love to herself. And I, when Lord Ieyasu entered Edo castle, was raised to a hatamoto of three thousand koku. Karasumaru too, and Etegi, are fine samurai these days. Had you but served quietly, you too, man—"
 
 Just then the golden bell that hung before the door rang, karan, karan.
 
@@ -456,7 +456,7 @@ They ran a pole through the net, hoisted Goemon up, and hurried out with him.
 
 You will think this strange, reader. Ieyasu ought to have wished for nothing so much as the Taikō's earliest death; so why did Hanzō lay out the anti-ninja defenses for the Taikō, ready the net, thicken the night-watch, and take a hand himself? But Ieyasu's heart went deeper than that. Deep in Hideyoshi's trust, he had been set in the Kantō to hold down the newly-attached lords of the northeast, and was not called up for the army sent against Korea; so the longer the war ran on, the more strength he could lay by in the meanwhile. Thus Hideyoshi and the lords alike would wear themselves down; and if he only waited for Hideyoshi's allotted span to run out and the man to die, then, as the daimyo who had been most loyal to Hideyoshi and yet held the greatest wealth and the greatest force of arms, he would have the whole realm tumble entire into his palm. Far better, then, not to hand the lords a pretext to turn against him by some rash stroke like the murder of Hideyoshi.
 
-Goemon was taken on the fifteenth of the sixth month, and until the twenty-fourth of the eighth month lay shut in a strong pit dug behind Fushimi castle. There he was examined; but as to why he had gone against the Taikō, he would say only, "Because he is the enemy of the peasants." This being judged too little, later ages heaped all manner of guesswork upon it. The Shinsho Taikōki above all, which never once saw that Goemon was a friend to the peasant class, could do no better than to imagine this.
+Goemon was taken on the fifteenth of the sixth month, and until the twenty-fourth of the eighth month lay shut in a strong pit dug behind Fushimi castle. There he was examined; but as to why he had gone against the Taikō, he would say only, "Because he's the enemy of the peasants." This being judged too little, later ages heaped all manner of guesswork upon it. The Shinsho Taikōki above all, which never once saw that Goemon was a friend to the peasant class, could do no better than to imagine this.
 
 When his one son Tsurumatsu died of sickness in the eighth month of Tenshō 19, Hideyoshi gave up hope of another and, in the eleventh month, made Hidetsugu his heir. Hidetsugu was the son of Hideyoshi's elder sister, the Zuiryū-in, and Miyoshi Musashi-no-kami—so Hideyoshi's nephew, and twenty-four years old at the time. But once Hiroi was born, Hidetsugu naturally became an obstacle, and Lady Yodo, most of all, was the spearhead of it, and pressed Hideyoshi hard. Hidetsugu, sensing he had gone cold in Hideyoshi's eyes, gave himself up for lost, sank the deeper into debauchery, and grew more and more savage. Among his retainers was one Kimura Hitachi-no-suke, who, seeing well enough where Hidetsugu was bound, thought it better to rise in revolt, kill Hideyoshi and seize the realm, and urged as much upon his lord. And here Goemon comes in. That is: Hitachi-no-suke picks out Goemon and commissions him to kill the Taikō. Goemon, with an eye to the reward, takes it on, slips into the Taikō's bedchamber, draws his blade, and in the very instant he would have run the neck through, the plover incense-burner set at the pillow cried out, so that he failed and was seized.
 
@@ -503,11 +503,11 @@ Goemon glared at Hanzō, who had come near. "You! What do you mean to do with th
 
 "He goes down to the land of the dead along with you."
 
-Goemon raged like a beast. "What has the child done? You have worked me every evil there is—and I have done you not one thing!"
+Goemon raged like a beast. "What has the child done? You've worked me every evil there is—and I've done you not one thing!"
 
 "Goemon. But you hate me, and my lord, over Maki. Since the cause of that hatred lies plainly on our side, since we are hated, we must destroy the one who hates. Kill you though we do, to leave that brat alive—blind or no—would be too dangerous by far. All the more must the one who would hate us be wiped out, root and branch." And, turning to the coroner, he said, "Proceed."
 
-Even hearing it, Goemon could not understand why Goichi too must die. And because he could not understand, he screamed. "I—I'll say no more, my lord Hanzō! Lord Hattori! Only spare Goichi's life! Only the child's! The boy is blind—he can do nothing—spare him!" He screamed it, flinging tears and snot together, and hurled his bound body, net and all, against the ground, again and again. "Only the child's life! He is blind! He can do nothing! Spare him!"
+Even hearing it, Goemon could not understand why Goichi too must die. And because he could not understand, he screamed. "I—I'll say no more, my lord Hanzō! Lord Hattori! Only spare Goichi's life! Only the child's! The boy's blind—he can't do a thing—spare him!" He screamed it, flinging tears and snot together, and hurled his bound body, net and all, against the ground, again and again. "Only the child's life! He's blind! He can't do a thing! Spare him!"
 
 And this Goemon did not know: that Hanzō had fixed on this course in a flash, on his last visit to Azōda, when he had fallen upon the plump Chika, and slept deep in the pine wood on the hill behind, and woken. He did not know that it was nothing but the fierce, unshakable hatred a man bears toward one wholly at odds with the thing he himself craves and lives for. Once Hanzō had settled it in that way, it would never move.
 
