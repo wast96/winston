@@ -959,3 +959,33 @@ The two lifted the bar from the door and carried her outside. One went back at o
 The three raced through the dark town, and reaching the back gate of the castle, knocked—tap, tap.
 
 "Who's there?"
+
+To the challenge, the third ninja answered: "Shinobi-gumi; squad-head, Hattori Hanzō. Likewise the Mill-Wheel of the Shallows, the Purple Scales."
+
+The gate slid open, and the three, with their burden, were drawn inside. A little over an hour later they were let out again by the back gate. At Goemon's house one of them dropped from the ceiling, lifted the door-bar, and stepped out; and with the one who waited there he carried Maki, still deep asleep, back into the house, and laid her down as before. One went out by the door; the other barred it from within, sprang to the ceiling, and was gone. Goichi, knowing nothing, slept on.
+
+Waking late the next morning, Maki felt a throbbing at the core of her head; but what troubled her more was that Goichi was out of sorts, fretful all day, and bringing up his milk.
+
+Two days later, in the afternoon, Hanzō dropped in unexpectedly. "I had a little business nearby—it must be lonely for you, with him away. If anything troubles you, don't hesitate to tell me."
+
+"—Yes."
+
+"This errand of his has no danger in it at all. Rest easy and wait for him." So saying, Hanzō left.
+
+And so, on the night of the twenty-fifth, with the year drawing right to its close, once more, just as on the night seven days before, the same thing happened.
+
+Waking the next morning, her head throbbing, Maki thought: "Ah—what a strange dream I had." The dream was this. Without knowing how she had come there, she lay in a room like a chamber of some splendid mansion, in soft, deep silk bedding. Goichi was not beside her, and she started up—Ah, where is Goichi?—but somehow her body would not move at all. As she struggled, the sliding door before her opened with a hiss, and through it a man like a sea-goblin came in; and with that she lost her senses. All that day Goichi was out of sorts, and brought up his milk.
+
+The year turned, and it became Tenshō 13, the year 1585.
+
+News of Ogimaru came by a messenger from Ishikawa Kazumasa, now living in retirement. On the twenty-sixth the boy had reached Osaka safely, and had audience of Hideyoshi at once. He was lodged at the mansion of Tsutsui Sadatsugu, adopted heir of Tsutsui Junkei; came of age; and was raised to Junior Fifth Rank, Lower, and made a chamberlain. As Hideyoshi's adopted son he took the name Hashiba Hideyasu, and was granted ten thousand koku in the province of Kawachi. And early in the spring, the messenger said, Asano Yahei-no-jō Nagamasa and Horio Mosuke Yoshiharu would come to Hamamatsu as envoys.
+
+Meanwhile Aoba no Kaja brought back from Goemon the following report. At the first audience in Osaka castle, Lord Hideyoshi had himself taken young Ogimaru by the hand and led him into the inner rooms. He presented him to his mother and to his chief wife, and a feast of welcome was set out. Serving at the table were Katō Toranosuke and Fukushima Ichimatsu, and the two waited on him and each gave his name. At which Ogimaru said, without a trace of shyness, "Ho—Toranosuke and Ichimatsu, is it? I have heard your names. You did great work at Shizugatake, I hear." And at that they all marveled: why, here was a remarkable child.
+
+Some days later, when the two envoys, Asano and Horio, were to go to Hamamatsu, they asked young Ogimaru, "Have you any message for your father?" And he said, "The father of Hashiba Ogimaru is none but Lord Hideyoshi. I have no business with Hamamatsu." Hearing this from the two, Hideyoshi was delighted through and through. "Mm," he said. "A charming thing to say. A boy to be counted on."
+
+At that time Osaka castle was in the thick of its rebuilding, with hundreds of thousands of laborers gathered from every province toiling day and night; so that not even Goemon could steal inside. This, then, is all secondhand, gathered here and there, and how much of it is true there is no telling. But Ishikawa Kazumasa, who had brought Ogimaru up to the capital, was a most attentive man, and it may be that he had drilled the boy carefully, over and over, in how to win Hideyoshi's favor.
+
+Hideyoshi, greatly pleased with Ogimaru's spirit, decided to send Asano Yahei-no-jō Nagamasa and Horio Mosuke Yoshiharu to carry word of it to Ieyasu. The two went to Ogimaru, who was shooting at the archery ground, and said, "We are going down now to Enshū, to wait on Lord Ieyasu and tell him how the young lord fares. And if there be anything there that you are used to, some furnishing or the like, we should be glad to bring it back for you. Is there anything?"
+
+At this Ogimaru walked over to Ishikawa Kazumasa, who stood by, handed him his bow and arrows, and, the archer's gloves still on both hands,
