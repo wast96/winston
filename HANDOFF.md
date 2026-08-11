@@ -1,94 +1,116 @@
-# HANDOFF — Owl's Castle (梟の城, Shiba Ryōtarō)
+# HANDOFF — The Owl's Castle (梟の城, Shiba Ryōtarō)
 
-Baton for a fresh session. Read this, then `book.json`, then `STYLE.md`.
+One batch = one conversation. This file is how a fresh session with no memory
+picks up. The paste-ready kickoff is first; everything below it is context.
 
 ## Message to paste into the next chat
 
 ```
-Owl's Castle B01
+Owl's Castle B02
 
-Read CLAUDE.md in full (the working rules at the top are non-negotiable), then HANDOFF.md, then book.json, then STYLE.md. We are translating Owl's Castle (梟の城, Shiba Ryōtarō) from an image-only scan (source.pdf) into an annotated English EPUB, per CLAUDE.md. Work ONLY on branch claude/owls-castle; expect the harness to start you on a stray branch and consolidate per rule 2 (fast-forward/cherry-pick any commits onto claude/owls-castle, push it, delete the stray). Deliverable out/owls-castle.epub. This is a VERTICAL, right-to-left Japanese book with furigana; it is book #10 on a Chinese-Republican shelf, so authority.json has no names for it yet.
+Read CLAUDE.md in full (the working rules at the top are non-negotiable), then HANDOFF.md, then book.json, then STYLE.md (note the new "calibrated at the ch01 voice gate" subsection: plain over arcane diction, people-as-agents not body-part calques, keep the author's own tense in gnomic/establishing description, gloss technical terms). We are translating Owl's Castle (梟の城, Shiba Ryōtarō) from an image-only scan (source.pdf) into an annotated English EPUB, per CLAUDE.md. Work ONLY on branch claude/owls-castle; expect the harness to start you on a stray branch and consolidate per rule 2 (fast-forward/cherry-pick any commits onto claude/owls-castle, push it, delete the stray). Deliverable out/owls-castle.epub. Vertical, right-to-left Japanese with furigana; the offset is 0 in this range (printed folio == PDF render page).
 
-Do Batch B01 = ch01 「おとぎ峠」 (Otogi Pass), PDF pages 7-63 (printed folios 7-63; offset is 0 in this range, folio == render page), end to end per the CLAUDE.md pipeline. This is BATCH 1: it sets the voice and ends at the voice gate.
+Do Batch B02 = ch02 「濡れ大仏」 (The Rain-Soaked Buddha), PDF pages 64-89 (printed folios 64-89), end to end per the CLAUDE.md pipeline. ch01 is the FROZEN register reference now: run scripts/check_register.py --ref out/ch01_reading.md on ch02 and fix any drift.
 
-Setup and OCR (batch-1 engineering):
-1. ./setup.sh, THEN install the Japanese OCR packs setup.sh omits: apt-get install -y tesseract-ocr-jpn tesseract-ocr-jpn-vert. epubcheck is at /tmp/epubcheck-5.1.0/epubcheck.jar (re-fetch per setup.sh if the container was recycled).
-2. Page furniture is ALREADY measured (see PROGRESS.md): all furniture (running head 梟の城 + arabic folio) is at the TOP; body crop left 0.035 right 0.965 top 0.075 bottom 0.955; model jpn_vert --psm 5. BEFORE OCR, patch scripts/ocr_crop.py for Japanese: (a) despace() must also strip spaces adjacent to kana (hiragana U+3040-309F, katakana U+30A0-30FF), not only Han; (b) do NOT apply strip_folio()/strip_runfoot() (they delete short Japanese dialogue lines ending in 。 and match Chinese 第X章 only; furniture is top-only and cropped, so they are unneeded). scripts/ocr_survey.py already does the correct crop+model and can be a reference.
-3. render.py 7 63 --dpi 300; ocr_crop.py 7 63 with the crop/model above; ocr_dual.py for the second read. Verify pgrep -c tesseract is 0 afterward (OMP_THREAD_LIMIT=1; kill the process group if a run stalls).
-4. indents.py 7 63; assemble.py ch01 7 63 to build data/zh/ch01.txt. find_figures.py 7 63 AND eyeball every page for line art (this novel is text-only so far; record an empty figure list as a deliberate decision).
+Environment / pipeline (the batch-1 engineering is already done and committed; do NOT re-patch or revert the scripts):
+1. ./setup.sh, THEN apt-get install -y tesseract-ocr-jpn tesseract-ocr-jpn-vert (setup.sh omits the Japanese packs). epubcheck is at /tmp/epubcheck-5.1.0/epubcheck.jar (re-fetch per setup.sh if the container was recycled).
+2. OCR: render.py 64 89 --dpi 300; then ocr_crop.py 64 89 --left 0.035 --right 0.965 --top 0.075 --bottom 0.955 --lang jpn_vert --psm 5 --no-furniture-strip; ocr_dual.py 64 89 for the second read (already Japanese-adapted). Verify pgrep -c tesseract is 0 afterward (OMP_THREAD_LIMIT=1; kill the process GROUP if a run stalls).
+3. find_figures.py 64 89 AND eyeball every page for line art (ch01 was text-only; if ch02 is too, record an empty figure list as a deliberate decision).
 
 Translate:
-5. Read STYLE.md and the CLAUDE.md register section. Translate to that contract: swift narrative, character-marked dialogue, and Shiba's fourth-wall historical asides each in their own register. Consult glossary.json and authority.json BEFORE romanizing any name (Hepburn with macrons; conventional forms for Hideyoshi, Nobunaga, Kyoto, Tokugawa). As the major cast appears, write a two-line VOICE SHEET per character into HANDOFF's carry-forward and flag them principal:true in glossary (expected here: 葛籠重蔵 Tsuzura Jūzō, 風間五平 Kazama Gohei, 下柘植次郎左衛門, the disfigured old man of Iga, and any others). Crop-verify every proper name, number, unit designation, and low-confidence span (verify_names.py --auto for OCR disagreements; crop_lines.py for systematic mangles; record every verified reading via apply_fixes.py into data/ocr_fixes.json). NEVER invent bridging text: if OCR cuts off mid-sentence or a leaf is damaged, crop the scan and read the actual continuation; verify the unit's FINAL paragraphs against the scan explicitly before shipping.
-6. Write out/ch01_reading.md, one paragraph per source line, '## Otogi Pass' as the h1. make_bilingual.py ch01 (positional pairing; run parity FIRST). verify_unit.py ch01 (parity, numbers with --noise data/noise.txt, anchors); check_align.py; check_content.py.
-7. Footnotes per the CLAUDE.md reader model (a Westerner with no Japanese history): early chapters want ~8-15. Likely notes here: Iga and Kōga (the ninja provinces), 天正十九年 = 1591, the Kasagi / Yamashiro-Ōmi border geography and 御斎峠 (Otodo/Otogi Pass), the 伊賀ノ乱 (Nobunaga's 1581 invasion of Iga) and Oda Nobunaga, 樵/杣人 (woodcutters), and any ninja-art term at first appearance. Add via apparatus_merge.py (never a heredoc); glossary rows with status; check_apparatus.py clean.
-8. Rebuild the EPUB; qa_epub.py until green; epubcheck. Record every check result in PROGRESS.md.
+4. IMPORTANT: the automated assemble.py welds paragraphs on vertical Japanese (the OCR mangles the sentence-final punctuation can_break() relies on). Translate by READING the rendered page images directly (data/png/p00NN.png), and build data/zh/ch02.txt as a hand-corrected, paragraph-aligned transcription read off the scan. That file IS the parity surface and the crop-verification record; force-add it (data/zh/ is gitignored). BEFORE translating, read the final two pages of ch01's English (the tail of out/ch01_reading.md) so the voice carries; the story resumes exactly where ch01 stopped.
+5. Consult glossary.json and STYLE.md BEFORE romanizing any name (Hepburn with macrons; conventional forms for Hideyoshi/Nobunaga/Kyoto/Tokugawa). The principal cast and the major historical names/places are already decided in glossary.json; reuse them unchanged and record in PROGRESS which rows you reused. Add new names with a status; flag any new principal with principal:true. Crop-verify every proper name, number, unit designation and low-confidence span against the page image / furigana. NEVER invent bridging text: if OCR cuts off mid-sentence or a leaf is damaged, crop the scan and read the actual continuation; verify the unit's FINAL paragraphs against the scan explicitly before shipping.
+6. Write out/ch02_reading.md, '## The Rain-Soaked Buddha' as the h1, one paragraph per source paragraph. Add a ch02 entry to data/checks.json (docs + sources). make_bilingual.py ch02 (parity FIRST). Then run: verify_unit.py ch02 (numbers with --noise data/noise.txt); check_structure.py --pairs data/zh/ch02.txt out/ch02_reading.md; check_align.py; qc_entities.py out/ch02_bilingual.md glossary.json; check_content.py --config data/checks.json --glossary glossary.json; check_register.py --ref out/ch01_reading.md.
+7. Footnotes per the CLAUDE.md reader model (a Westerner with no Japanese history). Recurring subjects already noted in ch01 are NOT re-noted (grep notes.json first; cross-reference instead): Iga/Kōga, Tenshō dating, the Iga Rebellion, Honnō-ji, Mount Hiei, Hideyoshi, the Sakai tea-masters/Rikyū, the Hōkō-ji Great Buddha, and the measures shaku/chō/koku/ri/ken, rappa/shinobi, jizamurai/gōshi. Note only ch02's NEW first-appearances. Add via apparatus_merge.py (never a heredoc); check_apparatus.py clean.
+8. Rebuild the cumulative EPUB (build_reading_epub.py); qa_epub.py until green; epubcheck. Record every check result in PROGRESS.md (the per-batch "NOT re-noted" list, the register result, and the renderings reused/added).
 
-THEN STOP at the VOICE GATE (do not start B02). Present the built ch01 and ask the commissioner to judge three things: the voice/register, the footnote density (does it catch everything they'd miss, without padding), and the formatting. Attach the EPUB in the chat. On approval, ch01 becomes the FROZEN register reference (check_register.py --ref out/ch01_reading.md from B02 on), and you write the B02 kickoff. Cite printed folios; do not pause for approval mid-batch before the gate.
+Deliver end to end; do not pause for approval mid-batch. At the end, in the SAME chat reply: attach the built out/owls-castle.epub AND paste the B03 kickoff (ch03 「白い法印」 The White Hōin, PDF/printed 90-123) verbatim in a fenced block. Cite printed folios, never PDF page numbers, in the notes.
 ```
 
-## What is DONE
-
-- **Survey (this session):** whole-book structure recovered and approved.
-  book.json carries full English metadata and all 20 units (19 novel sections
-  ch01-ch19 + the 解説 afterword ch20, which the commissioner asked to INCLUDE).
-  Title approved as **Owl's Castle**. Skeleton EPUB builds; qa_epub PASS;
-  epubcheck 5.1.0 clean. Batch plan approved AS-IS (one section per batch, 19
-  batches; ch16+ch17 combined; see out/SURVEY.md).
-- Nothing translated yet. B01 (おとぎ峠) is next and runs the voice gate.
+## Done so far
+- **Survey:** 19-section structure recovered into book.json; metadata set; skeleton
+  EPUB built; page furniture measured (top-only; crop L0.035 R0.965 T0.075 B0.955;
+  model jpn_vert psm5); offset is 0 for folios 7-302 and 425-660, drifts +2 across
+  ~338-397 (B09-B13 must build data/pagemap by reading folios there).
+- **B01 = ch01 「おとぎ峠」 / Otogi Pass (folios 7-63): COMPLETE and approved at the
+  voice gate.** 521 source paragraphs, ~11.9k words, 16 footnotes. All checks green
+  (numbers 0 unresolved, parity 521|521, qc_entities/check_content/check_apparatus
+  clean, qa_epub PASS, epubcheck 0/0/0/0). ch01 is the FROZEN register reference.
+  Revised in place per the commissioner's voice-gate notes (see STYLE.md).
 
 ## Tooling in place (do NOT revert)
+- `ocr_crop.py`: kana added to the despace class; `--no-furniture-strip` flag skips
+  the Chinese strip_folio/strip_runfoot (they delete short Japanese dialogue lines
+  ending in 。 and only match Chinese 第X章). Furniture here is top-only and cropped.
+- `ocr_dual.py`: Japanese second read (crop the body box, jpn_vert psm5 on a
+  grayscale and an Otsu-binarised variant). `--lang/--psm/--left/...` restore the
+  Chinese behaviour on a Chinese book.
+- `check_content.py`: skips `_`-prefixed / non-dict glossary sections; subsumes a
+  shorter glossary key covered by a longer matched key at the same span
+  (山城-inside-丸山城 collision class). `qc_entities.py`: same subsume fix.
+- `data/checks.json`: the {docs, sources} config for check_content / check_structure.
+  Add each new unit here.
+- `data/noise.txt`: Japanese entries for check_numbers (names 五平/百地/千宗易/三河,
+  idioms 四散/四囲/三脚/四半刻/十数/幾千億/百年松/零細, and carried-but-under-parsed
+  forms 五、六十 / 八〇 / 一万二千). Extend per its header rules, longest literal first.
 
-- `scripts/find_headings_vert.py` — vertical-text heading detector (columns, not
-  rows; furigana filtered by glyph width).
-- `scripts/ocr_survey.py` — survey OCR runner (crop + jpn_vert, keeps paragraph
-  blanks, no Chinese folio/runfoot strips). Reference for the correct crop/model.
-- `STYLE.md` — the prose contract (adapted from the claude/the-stealthy-ones
-  contract, with the comma-density/read-aloud test, names-vs-pronouns rule,
-  measured-contractions and footnote heuristics folded in from
-  claude/lu-xiaofeng-1, tuned to Shiba). Read it every batch.
-- Body OCR for the whole book already exists at data/txt_survey/ (jpn_vert,
-  survey quality) — useful for structure/search, but batches re-OCR at 300 dpi
-  for translation.
+## Method note (important for every batch)
+The automated `assemble.py` is unreliable on this vertical-Japanese OCR (it welds
+paragraphs where the OCR mangled sentence-final punctuation). The working method
+that produced ch01: translate by reading the rendered page images directly, and
+hand-build `data/zh/chNN.txt` as a corrected, paragraph-aligned transcription. That
+transcription is both the parity surface and the crop-verification record (no
+separate ocr_fixes replay). Force-add it (data/zh/ is gitignored).
 
-## Do-not-revert / must-do for batches
+## Renderings settled in glossary.json (reuse unchanged; consult before romanizing)
+Principal cast (principal:true): Tsuzura Jūzō (葛籠重蔵), Kazama Gohei (風間五平),
+Shimotsuge Jirōzaemon (下柘植次郎左衛門), Kisaru (木猿), Kuroami (黒阿弥).
+Historical: Oda Nobunaga, Toyotomi/Hashiba Hideyoshi, Tokugawa Ieyasu, Akechi
+Mitsuhide (惟任日向守光秀 = Koretō Hyūga-no-kami Mitsuhide), Niwa Nagahide, Takigawa
+Kazumasu, Gamō Katahide, Asano Nagamasa, Tsutsui Junkei, Oda Nobukatsu, Shibata
+Katsuie, Tsuge Kiyohiro, Momochi Shinnojō, Tateoka-no-Dōjun, Tsuzura Tarōbei, Imai
+Sōkyū, Tsuda Sōgyū, Sen no Sōeki (Rikyū), Otowa-no-Kido, Yoshitsune. Places and
+terms (Iga, Kōga, Otogi Pass, Sakai, the Honnō-ji, the Aekuni Shrine, rappa, the
+Iga Rebellion, Tenshō, tōyaku, etc.) are in glossary.json too.
 
-- **setup.sh gap:** it installs only Chinese tesseract packs. Every batch must
-  add tesseract-ocr-jpn + tesseract-ocr-jpn-vert.
-- **ocr_crop.py needs Japanese patches** before first use (kana despace; skip
-  the Chinese strip_folio/strip_runfoot). See the kickoff.
+## Voice sheets (consult at every dialogue scene)
+- **Tsuzura Jūzō:** mid-30s, thick-shouldered, unusually tall for a ninja; terse,
+  guarded, minimal. Since his family's murder he runs on a raw human hunger for
+  revenge; purposeless and monk-like at the pass, but a coiled force everyone feels.
+  Plain samurai forms (わし), not uneducated.
+- **Shimotsuge Jirōzaemon:** the disfigured old master; gruff, archaic, teasing, wry
+  (あはは), commanding but secretly tender toward Jūzō. Creed: "be as earth, stone,
+  wind; hold no human heart." Old dialect endings (〜じゃ, 〜のう, 出い, 居申したわ),
+  uses われ for "you". A creature of pure flux.
+- **Kazama Gohei:** beautiful, almost androgynous ("like a shrine-maiden girl");
+  cool, clever, detached, the clerkly killer. Nihilist in a colder key than Jūzō;
+  wants "the pleasures of the human world". Polite ます/です to his master, but
+  distrustful.
+- **Kuroami:** Jūzō's aged genin, under five shaku, past fifty, a face like a boy's;
+  near-silent, flatly loyal, answers with 「左様か」 ("Is that so").
+- **Kisaru:** Jirōzaemon's fierce, unreadable daughter, Gohei's betrothed; vows to
+  run Gohei through herself if he betrayed Iga. Barely onstage yet (a lead later).
 
-## Renderings settled / carry-forward
+## Where the story stands (end of ch01)
+Nine years after Iga was destroyed, Hideyoshi now rules Japan. The purposeless
+hermit-ninja Jūzō is visited at his grandfather's hermitage on Otogi Pass by his
+old master Jirōzaemon, who brings a commission from the Sakai tea-merchant Imai
+Sōkyū: assassinate Hideyoshi. Jūzō, soft from years of idleness, accepts. The
+rendezvous is set for the Hour of the Ox two nights hence, at the foot of the
+Great Buddha (Hōkō-ji) in the capital; a messenger will come. Jūzō tells the old
+genin Kuroami they leave tomorrow. Meanwhile Gohei (betrothed to Kisaru, sent to
+the capital years ago) is reported dead or a traitor there. ch02 「濡れ大仏」 opens
+on the Great Buddha rendezvous.
 
-- Names: Hepburn + macrons; conventional English forms for well-known figures
-  (Hideyoshi, Nobunaga, Kyoto, Tokugawa, Ishida Mitsunari). glossary.json is
-  empty; authority.json has no Japanese entries (first Japanese book on the
-  shelf). Decide each name in glossary before romanizing; feed decisions back
-  into authority.json on completion.
-- **Voice sheets:** none yet. B01 must create them for the major cast as they
-  appear.
-- Provisional English section titles are in book.json; settle them at/after the
-  voice gate.
+## Next batch
+B02 = ch02 「濡れ大仏」 / The Rain-Soaked Buddha, PDF/printed 64-89 (26 pages),
+offset 0. Then B03 = ch03 「白い法印」 / The White Hōin, 90-123.
 
-## Where the story stands
-
-Not started. Opening (ch01, おとぎ峠): Iga, spring of 天正十九年 (1591); a
-disfigured old man of Iga and a woodcutter on a mountain pass. The novel's two
-poles are 葛籠重蔵 (Tsuzura Jūzō), the Iga ninja bent on assassinating Hideyoshi,
-and 風間五平 (Kazama Gohei), his fellow disciple who quit the shadow arts.
-
-## Next-batch scope
-
-- **B01 = ch01 おとぎ峠 / Otogi Pass**, PDF 7-63, printed folios 7-63 (57 pp.).
-  Offset 0 here. Ends at the voice gate.
-
-## Open traps and environment
-
-- **Page-offset wrinkle** (does not affect B01): folio == render page for
-  folios 7-302 and 425-660, but +2 render pages across folios ~338-397. The
-  batches crossing that span (B09-B13) must read folios off the scan and build
-  data/pagemap/ accordingly; watch for a possibly missing leaf around folios
-  397-425.
-- **The scan's first TOC leaf is missing**; structure was rebuilt from the body
-  (already done, in book.json).
-- OMP_THREAD_LIMIT=1 mandatory for tesseract; verify pgrep -c tesseract == 0.
-- Container is ephemeral: commit and push to claude/owls-castle at every point.
+## Open traps / environment
+- Furigana leakage clusters on chapter-opener pages; body pages OCR cleanly.
+- Offset stays 0 through folio 302; do not assume it later (see the survey note).
+- Section English titles beyond ch01 are provisional (drafted for the skeleton);
+  settle each at translation time. ch02 = "The Rain-Soaked Buddha".
+- OMP_THREAD_LIMIT=1 for tesseract; verify pgrep -c tesseract is 0 after OCR.
+- Do not translate CJK into JSON via a shell heredoc; use apparatus_merge.py or the
+  Write tool, then re-read to verify.
