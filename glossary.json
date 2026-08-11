@@ -1,15 +1,146 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
-  "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
-  "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
+  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. status: 'attested' (form used in English scholarship, cite in note), 'provisional' (my romanization, not found outside; builder marks it), 'decided' (a project style call). Sections are rendered as glossary headings; keys starting with '_' are ignored.",
+  "people": {
+    "郁慕俠": {
+      "en": "Yu Muxia",
+      "pinyin": "Yu Muxia",
+      "status": "attested",
+      "principal": true,
+      "cast": "The author: a Shanghai newspaperman of the 1920s-30s, whose beat was the treaty-port city's low life and slang.",
+      "cast_order": 1,
+      "note": "Pen name of the journalist and tabloid (<i>xiaobao</i>) writer who compiled these sketches; the surname is Yu (郁). Active in the Shanghai small-paper press of the 1920s and 1930s."
+    },
+    "天虛我生": {
+      "en": "Tianxuwosheng",
+      "pinyin": "Tianxuwosheng",
+      "status": "attested",
+      "note": "The pen name of Chen Diexian (陳蝶仙, 1879–1940), a prolific novelist of the “Mandarin Ducks and Butterflies” school, editor of the <i>Shenbao</i>’s literary supplement, and industrialist who founded Household Industries (家庭工業社), maker of Butterfly-brand toothpowder. He wrote this preface."
+    }
+  },
+  "places": {
+    "南京路": {
+      "en": "Nanjing Road",
+      "pinyin": "Nanjing Road",
+      "status": "attested",
+      "note": "The premier commercial street of the International Settlement; older English “Nanking Road.”"
+    },
+    "南市": {
+      "en": "Nanshi",
+      "pinyin": "Nanshi",
+      "status": "attested",
+      "note": "The old walled Chinese city of Shanghai and the district around it, south of the foreign concessions."
+    },
+    "城隍廟": {
+      "en": "City God Temple",
+      "pinyin": "Chenghuang Miao",
       "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+      "note": "The temple of the city's tutelary god (<i>chenghuang</i>) in the old Chinese city; the Shanghai City God Temple and the bazaar around it were a great popular resort."
+    },
+    "虹廟": {
+      "en": "Hong Temple",
+      "pinyin": "Hong Miao",
+      "status": "provisional",
+      "note": "A popular temple on (East) Nanjing Road, properly the Bao’an Situ Temple (保安司徒廟), enshrining Guanyin; famous for its dense incense-smoke, and much frequented by Shanghai courtesans."
+    },
+    "西湖": {
+      "en": "West Lake",
+      "pinyin": "Xihu",
+      "status": "attested",
+      "note": "The famous scenic lake at Hangzhou."
+    },
+    "金陵": {
+      "en": "Nanjing",
+      "pinyin": "Jinling",
+      "status": "decided",
+      "note": "Jinling, a classical name for Nanjing, capital of the Nationalist government from 1927."
+    }
+  },
+  "organizations": {
+    "租界": {
+      "en": "the Settlement",
+      "pinyin": "zujie",
+      "status": "decided",
+      "note": "The foreign-administered concession areas of Shanghai — chiefly the International Settlement and the French Concession — each with its own council, police, and by-laws."
+    },
+    "捕房": {
+      "en": "police station",
+      "pinyin": "buhang",
+      "status": "attested",
+      "note": "A police station of the concession forces (the Settlement’s Municipal Police, or the French Concession police)."
+    },
+    "探捕": {
+      "en": "plain-clothes constable",
+      "pinyin": "tanbu",
+      "status": "decided",
+      "note": "A plain-clothes detective or constable of the concession police."
+    },
+    "錢莊": {
+      "en": "native bank",
+      "pinyin": "qianzhuang",
+      "status": "attested",
+      "note": "A traditional Chinese money-shop or bank (<i>qianzhuang</i>), as distinct from the foreign banks; the mainstay of Chinese commercial credit."
+    }
+  },
+  "terms": {
+    "國曆": {
+      "en": "the national calendar",
+      "pinyin": "guoli",
+      "status": "decided",
+      "note": "The Gregorian (solar) calendar, adopted by the Republic on 1 January 1912 as the <i>guoli</i>, “national calendar.”"
+    },
+    "陰曆": {
+      "en": "the lunar calendar",
+      "pinyin": "yinli",
+      "status": "decided",
+      "note": "The traditional lunisolar calendar (also called the old calendar, <i>jiuli</i>), which set the dates of the traditional New Year and festivals."
+    },
+    "財神": {
+      "en": "the God of Wealth",
+      "pinyin": "Caishen",
+      "status": "decided",
+      "note": "The god of wealth, welcomed into shops and homes at the New Year to secure a prosperous year of trade."
+    },
+    "接路頭": {
+      "en": "Welcoming the God of Wealth",
+      "pinyin": "jie lutou",
+      "status": "decided",
+      "note": "The Shanghai term for welcoming the God of Wealth; <i>lutou</i> (“road-head”) is the local name of the god. Kept on the night of the fourth day of the first month."
+    },
+    "元宵": {
+      "en": "the Lantern Festival",
+      "pinyin": "Yuanxiao",
+      "status": "attested",
+      "note": "The fifteenth of the first lunar month, the last day of the New Year season."
+    },
+    "元旦": {
+      "en": "New Year's Day",
+      "pinyin": "Yuandan",
+      "status": "decided",
+      "note": "Here the first day of the first lunar month — the traditional New Year — not the Gregorian 1 January."
+    },
+    "菩薩": {
+      "en": "the Bodhisattva",
+      "pinyin": "pusa",
+      "status": "decided",
+      "note": "In popular speech any temple god or idol, not only a Buddhist bodhisattva."
+    },
+    "小洋": {
+      "en": "small silver",
+      "pinyin": "xiaoyang",
+      "status": "decided",
+      "note": "Subsidiary silver coin (dimes and twenty-cent pieces), which passed at a slight discount to the standard silver dollar (<i>dayang</i>)."
+    },
+    "元寶茶": {
+      "en": "Ingot Tea",
+      "pinyin": "yuanbao cha",
+      "status": "decided",
+      "note": "New Year tea served with two olives on the lid, the olives standing for silver ingots (<i>yuanbao</i>) — an auspicious wish for wealth."
+    },
+    "壓歲錢": {
+      "en": "lucky money",
+      "pinyin": "yasui qian",
+      "status": "decided",
+      "note": "New Year money given by elders to children, “to weigh down the year” (and, by a pun on <i>sui</i>, to ward off evil); the Shanghai word in the text is <i>yasui dian</i> (壓歲鈉), <i>dian</i> being the Wu-dialect word for money."
     }
   }
 }

@@ -1,1 +1,36 @@
-{}
+{
+  "ch000": [
+    {
+      "file": "ch000_shikumen.png",
+      "before": "The condition of Shanghai society",
+      "alt": "A brick archway spanning a Shanghai lane, three roundels on it reading Ping'an Li, opening on a narrow stone-paved alley lined with old shikumen houses.",
+      "caption": "Old shikumen lane-houses of Shanghai. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
+    }
+  ],
+  "ch001": [
+    {
+      "file": "ch001_couplets.png",
+      "before": "It is twenty-four years now",
+      "alt": "A man on a doorstep pressing a diamond-set fortune character and red paper couplets onto a weathered wooden door.",
+      "caption": "Pasting up spring couplets. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
+    },
+    {
+      "file": "ch001_cleaning.png",
+      "before": "The lazy streak in the Chinese",
+      "alt": "An ink line-drawing of a woman in an apron reaching up with a long feather-duster to sweep the eaves of a shopfront while a child looks on; a cartouche reads Sweeping the Eaves-Dust.",
+      "caption": "The year-end cleaning. (The 2019 reprint's caption, given to a period line-drawing titled \"Sweeping the Eaves-Dust\" that its editor added; not a figure of the 1933 book.)"
+    },
+    {
+      "file": "ch001_newclothes.png",
+      "before": "Through the first days of the New Year, men and women",
+      "alt": "A laughing little girl in a red brocade jacket holding a candied-hawthorn stick and red envelopes beside a door bearing the character for spring.",
+      "caption": "In new clothes. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
+    },
+    {
+      "file": "ch001_firecrackers.png",
+      "before": "Close the shop and you let off",
+      "alt": "Fireworks and firecrackers throwing up sprays of sparks in a dark courtyard, with two figures silhouetted against the glare.",
+      "caption": "Setting off firecrackers. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
+    }
+  ]
+}

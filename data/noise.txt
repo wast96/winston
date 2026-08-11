@@ -35,3 +35,11 @@
 # 九龍
 # weekdays carry no quantity — rendered "Monday" etc.
 # 星期[一二三四五六]
+
+# --- Scales and Claws (Shanghai customs) project noise ---
+# 萬事如意 "may your ten-thousand affairs go as you wish" = everything; the 萬
+#   is idiom, not a count — English renders "every wish granted".
+萬事如意
+# 百貨 "hundred goods" = general merchandise / sundries; the 百 is a lexical
+#   compound, not the number 100 — English renders "wares" / "sundries".
+百貨

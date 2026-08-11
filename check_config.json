@@ -1,0 +1,12 @@
+{
+ "docs": {
+  "ch000": "out/ch000_reading.md",
+  "ch001": "out/ch001_reading.md"
+ },
+ "sources": {
+  "ch000": "data/zh/ch000.txt",
+  "ch001": "data/zh/ch001.txt"
+ },
+ "notes": "notes.json",
+ "variants": {}
+}

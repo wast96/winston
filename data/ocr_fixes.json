@@ -1,0 +1,19 @@
+{
+  "_about": "Crop-verified OCR readings for this book (audit trail + replay). The 2019 reprint is vertical-RTL Traditional; tesseract chi_tra_vert --psm 5 OCRs it at only ~85% char accuracy, too error-dense for targeted-fix replay to reconstruct a clean source. For B01 the data/zh source was therefore produced by full-page EYE-TRANSCRIPTION against magnified scans (the whole reference batch was read for the voice gate). The entries below are the readings CROP-VERIFIED at magnification (load-bearing number, proper names, systematic mangles) recorded per CLAUDE.md so the audit trail survives; page is the PDF page the crop was read on. See PROGRESS.md.",
+  "ch000": [
+    {"wrong": "克君慕俠", "right": "郁君慕俠", "page": 13, "why": "author name Yu Muxia; OCR 郁->克"},
+    {"wrong": "格言語輯", "right": "格言叢輯", "page": 13, "why": "Chen Diexian's book title; 叢->語"},
+    {"wrong": "慣在軍閣時代", "right": "曩在軍閥時代", "page": 13, "why": "曩->慣, 閥->閣"},
+    {"wrong": "皇蕉", "right": "皇荂", "page": 13, "why": "Zhuangzi Tiandi chapter tune-name 皇荂"},
+    {"wrong": "人酉七夕", "right": "癸酉七夕", "page": 13, "why": "guiyou (1933) Qixi; signature date crop-verified"},
+    {"wrong": "西湖息養社", "right": "西湖息養社", "page": 13, "why": "Xihu Xiyang She, signature place crop-verified (already clean)"}
+  ],
+  "ch001": [
+    {"wrong": "一潭那已二十四年", "right": "一剎那已二十四年", "page": 23, "why": "LOAD-BEARING number crop-verified at magnification: 二十四 (24), NOT 三十四; 潭->剎"},
+    {"wrong": "定思金陵", "right": "定鼎金陵", "page": 23, "why": "定鼎 (established the capital at) Jinling/Nanjing; 鼎->思"},
+    {"wrong": "城隍講", "right": "城隍廟", "page": 26, "why": "City God Temple; systematic 廟->講 mangle"},
+    {"wrong": "南京路尋講", "right": "南京路虹廟", "page": 26, "why": "Hong Miao on Nanjing Road; 虹->尋, 廟->講"},
+    {"wrong": "更商加於市、工較於業", "right": "更商輟於市、工輟於業", "page": 27, "why": "輟 (cease) crop-verified"},
+    {"wrong": "鑼鼓鏡錢之類", "right": "鑼鼓鐃鈸之類", "page": 32, "why": "gongs, drums, cymbals (鐃鈸)"}
+  ]
+}

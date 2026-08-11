@@ -57,7 +57,13 @@ def name_map(path):
     if not os.path.exists(path):
         return out
     for _cat, entries in json.load(open(path)).items():
+        # Skip documentation and '_'-prefixed section keys (e.g. "_about"),
+        # consistent with the builder's "keys starting with '_' are ignored".
+        if _cat.startswith("_") or not isinstance(entries, dict):
+            continue
         for zh, e in entries.items():
+            if zh.startswith("_") or not isinstance(e, dict):
+                continue
             en = e.get("en", "")
             if zh in AUTHOR:
                 continue
