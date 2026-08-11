@@ -396,3 +396,7 @@
 沈荣三
 # 谢葆三 = Xie Baosan, a comprador; 三 is the personal name, not the count 3.
 谢葆三
+#
+# --- ch19 (B08a) ---
+# 再四 = "again and again / repeatedly" (再三再四); 四 is the idiom, not the count 4. English renders "again and again".
+再四

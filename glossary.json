@@ -1,2997 +1,3183 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here AND authority.json (the cross-book ledger). status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). Keys starting with '_' are ignored. Seeded at the survey from authority.json; enriched per batch. Bylines/contributors are added as each article is translated.",
-  "book": {},
-  "people": {
-    "杜月笙": {
-      "en": "Du Yuesheng",
-      "pinyin": "Du Yuesheng",
-      "status": "attested",
-      "principal": true,
-      "cast_order": 1,
-      "cast": "1888&#8211;1951; the foremost of Shanghai's &#8216;three big bosses,&#8217; a Green Gang chief who rose from a fruit-stall boy to a power broker between the underworld, the concessions and the Nationalist state. The subject of seven articles here.",
-      "note": "1888&#8211;1951. Foremost of the Shanghai Green Gang &#8216;three tycoons.&#8217; Pinyin form standard across the collection."
-    },
-    "黄金荣": {
-      "en": "Huang Jinrong",
-      "pinyin": "Huang Jinrong",
-      "status": "attested",
-      "principal": true,
-      "cast_order": 2,
-      "cast": "1868&#8211;1953; the senior of the three bosses, and the only Chinese chief detective of the French Concession police. Three articles here.",
-      "note": "Green Gang boss and the sole Chinese chief inspector of the French Concession detective squad; Chiang Kai-shek was once nominally his disciple."
-    },
-    "张啸林": {
-      "en": "Zhang Xiaolin",
-      "pinyin": "Zhang Xiaolin",
-      "status": "attested",
-      "principal": true,
-      "cast_order": 3,
-      "cast": "1877&#8211;1940; the third of the three bosses, a Hangzhou-born strongman; later a collaborator with the Japanese, assassinated in 1940.",
-      "note": "One of the &#8216;three big bosses&#8217; of the Shanghai gangs, with Huang Jinrong and Du Yuesheng."
-    },
-    "顾竹轩": {
-      "en": "Gu Zhuxuan",
-      "pinyin": "Gu Zhuxuan",
-      "status": "provisional",
-      "principal": true,
-      "cast_order": 4,
-      "cast": "b. 1885; Green Gang boss of the Zhabei district, rickshaw-fleet magnate and owner of the Tianchan Stage; sheltered Communist underground workers.",
-      "note": "Jiangsu-born gang figure who dominated Zhabei; two articles here treat his rise and his cover for revolutionary work."
-    },
-    "张仁奎": {
-      "en": "Zhang Renkui",
-      "pinyin": "Zhang Renkui",
-      "status": "provisional",
-      "principal": true,
-      "cast_order": 5,
-      "cast": "1865&#8211;1944; a senior Green Gang master of the &#8216;Big&#8217; (Da) generation whose disciples filled Shanghai; founder of the Ren Society.",
-      "note": "Elder Green Gang figure; Du Yuesheng and many others were ranked below his generation."
-    },
-    "戴笠": {
-      "en": "Dai Li",
-      "pinyin": "Dai Li",
-      "status": "attested",
-      "principal": true,
-      "cast_order": 6,
-      "cast": "1897&#8211;1946; head of the Nationalists' secret service (the Juntong); Du Yuesheng's wartime partner.",
-      "note": "Head of the Nationalists' Bureau of Investigation and Statistics (军统/Juntong), the KMT secret police."
-    },
-    "朱学范": {
-      "en": "Zhu Xuefan",
-      "pinyin": "Zhu Xuefan",
-      "status": "attested",
-      "note": "1905&#8211;1996; postal-workers&#8217; leader who rose through the Green Gang and the Nationalist labour apparatus, broke with the Kuomintang in 1948, and became a minister and vice-chairman of the NPC Standing Committee in the People&#8217;s Republic. Author of this article and calligrapher of the book&#8217;s title."
-    },
-    "陆京士": {
-      "en": "Lu Jingshi",
-      "pinyin": "Lu Jingshi",
-      "status": "provisional",
-      "note": "d. 1975; Du Yuesheng&#8217;s foremost disciple in the labour world, boss of the postal union and a Nationalist party and Garrison Command official; the author&#8217;s colleague and rival. Followed the Kuomintang to Taiwan."
-    },
-    "李立三": {
-      "en": "Li Lisan",
-      "pinyin": "Li Lisan",
-      "status": "attested",
-      "note": "1899&#8211;1967; early Communist labour organizer, a leader of the May Thirtieth Movement and briefly the Party&#8217;s top leader (the &#8216;Li Lisan line,&#8217; 1930)."
-    },
-    "杨度": {
-      "en": "Yang Du",
-      "pinyin": "Yang Du",
-      "status": "attested",
-      "note": "1875&#8211;1931; classical scholar who championed constitutional monarchy under Yuan Shikai, then reinvented himself&#8212;joining the Communist Party in secret in 1929 while serving as an adviser to Du Yuesheng. His CCP membership was made public only in 1975."
-    },
-    "李大钊": {
-      "en": "Li Dazhao",
-      "pinyin": "Li Dazhao",
-      "status": "attested",
-      "note": "1889&#8211;1927; co-founder of the Chinese Communist Party. Seized from the Soviet embassy in Beijing and hanged on Zhang Zuolin&#8217;s orders in April 1927."
-    },
-    "赵朴初": {
-      "en": "Zhao Puchu",
-      "pinyin": "Zhao Puchu",
-      "status": "attested",
-      "note": "1907&#8211;2000; Buddhist lay leader, poet, and relief organizer; secretly aided the Communist underground through Shanghai&#8217;s charitable and refugee bodies in the war years, and later headed the Buddhist Association of China."
-    },
-    "闻兰亭": {
-      "en": "Wen Lanting",
-      "pinyin": "Wen Lanting",
-      "status": "provisional",
-      "note": "Green Gang figure prominent in Shanghai commercial and charitable circles; used by the underground through the wartime relief committees, later pressed into a puppet commercial-control post."
-    },
-    "关炯之": {
-      "en": "Guan Jiongzhi",
-      "pinyin": "Guan Jiongzhi",
-      "status": "provisional"
-    },
-    "向海潜": {
-      "en": "Xiang Haiqian",
-      "pinyin": "Xiang Haiqian",
-      "status": "attested",
-      "note": "1888&#8211;1974; also called Xiang Songpo; a leader of the Hongmen (the &#8216;Five Lakes&#8217; lodges) and a veteran of the 1911 Revolution."
-    },
-    "张克昌": {
-      "en": "Zhang Kechang",
-      "pinyin": "Zhang Kechang",
-      "status": "provisional",
-      "note": "Postal-union gangster and the author&#8217;s fellow disciple under Du Yuesheng; founder of the Chang Society (<span lang=\"zh-Hans\">&#30021;&#31038;</span>), who went over to the puppet Wang Jingwei regime as a deputy minister."
-    },
-    "金廷荪": {
-      "en": "Jin Tingsun",
-      "pinyin": "Jin Tingsun",
-      "status": "provisional",
-      "note": "Green Gang figure and Du Yuesheng associate; patron of the Ming Society (<span lang=\"zh-Hans\">&#38125;&#31038;</span>), one of the disciple-societies modelled on Du&#8217;s Heng Society."
-    },
-    "章士钊": {
-      "en": "Zhang Shizhao",
-      "pinyin": "Zhang Shizhao",
-      "status": "attested",
-      "note": "1881&#8211;1973; scholar, lawyer, and sometime Beiyang education minister who named Du Yuesheng&#8217;s Heng Society; later a noted public figure in the People&#8217;s Republic."
-    },
-    "汪精卫": {
-      "en": "Wang Jingwei",
-      "pinyin": "Wang Jingwei",
-      "status": "attested",
-      "note": "1883&#8211;1944; senior Nationalist leader who in 1938 defected to Japan and headed the collaborationist &#8216;reorganized&#8217; government at Nanjing; his name is a byword in these pages for the puppet regime."
-    },
-    "吴铁城": {
-      "en": "Wu Tiecheng",
-      "pinyin": "Wu Tiecheng",
-      "status": "attested",
-      "note": "1888&#8211;1953; mayor of Shanghai 1932&#8211;37."
-    },
-    "吴成方": {
-      "en": "Wu Chengfang",
-      "pinyin": "Wu Chengfang",
-      "status": "provisional",
-      "note": "Author of this article; a Communist underground organizer who ran united-front work with gang and secret-society figures in Beijing and Shanghai from the 1920s to the 1940s."
-    },
-    "胡鄂公": {
-      "en": "Hu Egong",
-      "pinyin": "Hu Egong",
-      "status": "provisional",
-      "note": "1884&#8211;1951; also known as Hu Nanhu; a 1911 revolutionary and Beiyang official who joined the Communist Party in the 1920s and worked the united front among old revolutionaries and gang figures."
-    },
-    "翁文灏": {
-      "en": "Weng Wenhao",
-      "pinyin": "Weng Wenhao",
-      "status": "attested",
-      "note": "1889&#8211;1971; geologist and Nationalist official, acting president of Tsinghua University in 1931 and later premier; returned to the mainland in 1951."
-    },
-    "冯玉祥": {
-      "en": "Feng Yuxiang",
-      "pinyin": "Feng Yuxiang",
-      "status": "attested",
-      "note": "1882&#8211;1948; the &#8216;Christian general,&#8217; a warlord who at times allied with the Nationalists, the Soviets, and the left; organized the short-lived Chahar People&#8217;s Anti-Japanese Allied Army in 1933."
-    },
-    "李世瑜": {
-      "en": "Li Shiyu",
-      "pinyin": "Lǐ Shìyú",
-      "status": "decided",
-      "note": "1922&#8211;2010; folklorist and historian of Chinese popular religion and secret societies, author of this study of the Green Gang."
-    },
-    "姜豪": {
-      "en": "Jiang Hao",
-      "pinyin": "Jiāng Háo",
-      "status": "decided",
-      "note": "The author of the second study; a Baoshan-born Kuomintang figure and initiated Green Gang member of the &#8216;Da&#8217; generation who writes here partly from the inside."
-    },
-    "金幼孜": {
-      "en": "Jin Youzi",
-      "pinyin": "Jīn Yòuzī",
-      "status": "decided",
-      "note": "The gang legend&#8217;s &#8216;first patriarch.&#8217; A real Ming official (1368&#8211;1431), Grand Secretary under the Yongle emperor; the gang genealogy built around him is legend."
-    },
-    "罗清": {
-      "en": "Luo Qing",
-      "pinyin": "Luó Qīng",
-      "status": "decided",
-      "note": "The gang legend&#8217;s &#8216;second patriarch,&#8217; conflated with Patriarch Luo, founder of the Luo (Non-Action) sect."
-    },
-    "陆逵": {
-      "en": "Lu Kui",
-      "pinyin": "Lù Kuí",
-      "status": "decided"
-    },
-    "翁岩": {
-      "en": "Weng Yan",
-      "pinyin": "Wēng Yán",
-      "status": "decided"
-    },
-    "钱坚": {
-      "en": "Qian Jian",
-      "pinyin": "Qián Jiān",
-      "status": "decided"
-    },
-    "潘清": {
-      "en": "Pan Qing",
-      "pinyin": "Pān Qīng",
-      "status": "decided",
-      "note": "Of the three founder-patriarchs, Pan is reckoned the chief; Green Gang men called one another &#8216;the Pan brothers.&#8217;"
-    },
-    "王伦": {
-      "en": "Wang Lun",
-      "pinyin": "Wáng Lún",
-      "status": "decided",
-      "note": "d. 1774; leader of the Clear Water sect (a White Lotus offshoot) whose 1774 rising at Linqing drew on the grain-transport boatmen."
-    },
-    "陈世昌": {
-      "en": "Chen Shichang",
-      "pinyin": "Chén Shìchāng",
-      "status": "decided",
-      "note": "Du Yuesheng&#8217;s Green Gang master."
-    },
-    "杨虎": {
-      "en": "Yang Hu",
-      "pinyin": "Yáng Hǔ",
-      "status": "decided",
-      "note": "Also named Xiaotian; Songhu garrison commander and Green Gang figure."
-    },
-    "洪英": {
-      "en": "Hong Ying",
-      "pinyin": "Hong Ying",
-      "status": "decided"
-    },
-    "陈近南": {
-      "en": "Chen Jinnan",
-      "pinyin": "Chen Jinnan",
-      "status": "decided"
-    },
-    "郑成功": {
-      "en": "Zheng Chenggong",
-      "pinyin": "Zheng Chenggong",
-      "status": "attested",
-      "note": "Koxinga."
-    },
-    "万云龙": {
-      "en": "Wan Yunlong",
-      "pinyin": "Wan Yunlong",
-      "status": "decided"
-    },
-    "苏洪光": {
-      "en": "Su Hongguang",
-      "pinyin": "Su Hongguang",
-      "status": "decided"
-    },
-    "孙中山": {
-      "en": "Sun Yat-sen",
-      "pinyin": "Sun Zhongshan",
-      "status": "attested"
-    },
-    "黄兴": {
-      "en": "Huang Xing",
-      "pinyin": "Huang Xing",
-      "status": "attested"
-    },
-    "宋教仁": {
-      "en": "Song Jiaoren",
-      "pinyin": "Song Jiaoren",
-      "status": "attested"
-    },
-    "司徒美堂": {
-      "en": "Situ Meitang",
-      "pinyin": "Situ Meitang",
-      "status": "attested"
-    },
-    "徐朗西": {
-      "en": "Xu Langxi",
-      "pinyin": "Xu Langxi",
-      "status": "provisional"
-    },
-    "汪禹丞": {
-      "en": "Wang Yucheng",
-      "pinyin": "Wang Yucheng",
-      "status": "provisional"
-    },
-    "向松坡": {
-      "en": "Xiang Songpo",
-      "pinyin": "Xiang Songpo",
-      "status": "attested",
-      "note": "Xiang Haiqian; see the note at his first appearance."
-    },
-    "郑子良": {
-      "en": "Zheng Ziliang",
-      "pinyin": "Zheng Ziliang",
-      "status": "provisional"
-    },
-    "薛耕莘": {
-      "en": "Xue Gengshen",
-      "pinyin": "Xue Gengshen",
-      "status": "decided",
-      "note": "The author of this chapter; the byline prints the variant graph 畊 for 耕."
-    },
-    "虞洽卿": {
-      "en": "Yu Qiaqing",
-      "pinyin": "Yu Qiaqing",
-      "status": "attested"
-    },
-    "程子卿": {
-      "en": "Cheng Ziqing",
-      "pinyin": "Cheng Ziqing",
-      "status": "provisional"
-    },
-    "金九龄": {
-      "en": "Jin Jiuling",
-      "pinyin": "Jin Jiuling",
-      "status": "provisional"
-    },
-    "常玉清": {
-      "en": "Chang Yuqing",
-      "pinyin": "Chang Yuqing",
-      "status": "provisional"
-    },
-    "陆连奎": {
-      "en": "Lu Liankui",
-      "pinyin": "Lu Liankui",
-      "status": "attested"
-    },
-    "高鑫宝": {
-      "en": "Gao Xinbao",
-      "pinyin": "Gao Xinbao",
-      "status": "provisional"
-    },
-    "徐采丞": {
-      "en": "Xu Caicheng",
-      "pinyin": "Xu Caicheng",
-      "status": "provisional"
-    },
-    "魏廷荣": {
-      "en": "Wei Tingrong",
-      "pinyin": "Wei Tingrong",
-      "status": "provisional"
-    },
-    "露兰春": {
-      "en": "Lu Lanchun",
-      "pinyin": "Lu Lanchun",
-      "status": "attested"
-    },
-    "陈其美": {
-      "en": "Chen Qimei",
-      "pinyin": "Chen Qimei",
-      "status": "attested"
-    },
-    "川岛芳子": {
-      "en": "Kawashima Yoshiko",
-      "pinyin": "Chuandao Fangzi",
-      "status": "attested",
-      "note": "See the note at her first appearance."
-    },
-    "袁寒云": {
-      "en": "Yuan Hanyun",
-      "pinyin": "Yuan Hanyun",
-      "status": "attested",
-      "principal": true,
-      "cast_order": 20,
-      "cast": "1889&#8211;1931; the poet, collector and Green Gang celebrity Yuan Kewen, second son of Yuan Shikai, who opposed his father's monarchy. The subject of ch10, told by his disciple Chen Timin.",
-      "note": "Yuan Kewen (袁克文), hao Hanyun; pinyin form used across the collection."
-    },
-    "袁克文": {
-      "en": "Yuan Kewen",
-      "pinyin": "Yuan Kewen",
-      "status": "attested"
-    },
-    "袁世凯": {
-      "en": "Yuan Shikai",
-      "pinyin": "Yuan Shikai",
-      "status": "attested"
-    },
-    "袁克定": {
-      "en": "Yuan Keding",
-      "pinyin": "Yuan Keding",
-      "status": "attested"
-    },
-    "袁家骝": {
-      "en": "Yuan Jialiu",
-      "pinyin": "Yuan Jialiu",
-      "status": "attested"
-    },
-    "陈惕敏": {
-      "en": "Chen Timin",
-      "pinyin": "Chen Timin",
-      "status": "provisional"
-    },
-    "段祺瑞": {
-      "en": "Duan Qirui",
-      "pinyin": "Duan Qirui",
-      "status": "attested"
-    },
-    "梅兰芳": {
-      "en": "Mei Lanfang",
-      "pinyin": "Mei Lanfang",
-      "status": "attested"
-    },
-    "张宗昌": {
-      "en": "Zhang Zongchang",
-      "pinyin": "Zhang Zongchang",
-      "status": "attested"
-    },
-    "褚玉璞": {
-      "en": "Chu Yupu",
-      "pinyin": "Chu Yupu",
-      "status": "attested"
-    },
-    "许世英": {
-      "en": "Xu Shiying",
-      "pinyin": "Xu Shiying",
-      "status": "attested"
-    },
-    "隆裕太后": {
-      "en": "the Empress Dowager Longyu",
-      "pinyin": "Longyu",
-      "status": "attested"
-    },
-    "余大雄": {
-      "en": "Yu Daxiong",
-      "pinyin": "Yu Daxiong",
-      "status": "provisional"
-    },
-    "钱芥尘": {
-      "en": "Qian Jiechen",
-      "pinyin": "Qian Jiechen",
-      "status": "provisional"
-    },
-    "钱化佛": {
-      "en": "Qian Huafo",
-      "pinyin": "Qian Huafo",
-      "status": "provisional"
-    },
-    "李金标": {
-      "en": "Li Jinbiao",
-      "pinyin": "Li Jinbiao",
-      "status": "provisional"
-    },
-    "步章五": {
-      "en": "Bu Zhangwu",
-      "pinyin": "Bu Zhangwu",
-      "status": "provisional"
-    },
-    "俞佩文": {
-      "en": "Yu Peiwen",
-      "pinyin": "Yu Peiwen",
-      "status": "provisional"
-    },
-    "浦应仙": {
-      "en": "Pu Yingxian",
-      "pinyin": "Pu Yingxian",
-      "status": "provisional"
-    },
-    "吴桐渊": {
-      "en": "Wu Tongyuan",
-      "pinyin": "Wu Tongyuan",
-      "status": "provisional"
-    },
-    "张謇": {
-      "en": "Zhang Jian",
-      "pinyin": "Zhang Jian",
-      "status": "attested"
-    },
-    "张詧": {
-      "en": "Zhang Cha",
-      "pinyin": "Zhang Cha",
-      "status": "provisional"
-    },
-    "徐宝山": {
-      "en": "Xu Baoshan",
-      "pinyin": "Xu Baoshan",
-      "status": "attested"
-    },
-    "冯国璋": {
-      "en": "Feng Guozhang",
-      "pinyin": "Feng Guozhang",
-      "status": "attested"
-    },
-    "齐燮元": {
-      "en": "Qi Xieyuan",
-      "pinyin": "Qi Xieyuan",
-      "status": "attested"
-    },
-    "卢永祥": {
-      "en": "Lu Yongxiang",
-      "pinyin": "Lu Yongxiang",
-      "status": "attested"
-    },
-    "何丰林": {
-      "en": "He Fenglin",
-      "pinyin": "He Fenglin",
-      "status": "attested"
-    },
-    "李纯": {
-      "en": "Li Chun",
-      "pinyin": "Li Chun",
-      "status": "attested"
-    },
-    "陈光甫": {
-      "en": "Chen Guangfu",
-      "pinyin": "Chen Guangfu",
-      "status": "attested"
-    },
-    "朱成章": {
-      "en": "Zhu Chengzhang",
-      "pinyin": "Zhu Chengzhang",
-      "status": "provisional"
-    },
-    "钱新之": {
-      "en": "Qian Xinzhi",
-      "pinyin": "Qian Xinzhi",
-      "status": "attested"
-    },
-    "徐静仁": {
-      "en": "Xu Jingren",
-      "pinyin": "Xu Jingren",
-      "status": "provisional"
-    },
-    "葛光庭": {
-      "en": "Ge Guangting",
-      "pinyin": "Ge Guangting",
-      "status": "provisional"
-    },
-    "韩复榘": {
-      "en": "Han Fuju",
-      "pinyin": "Han Fuju",
-      "status": "attested"
-    },
-    "宋哲元": {
-      "en": "Song Zheyuan",
-      "pinyin": "Song Zheyuan",
-      "status": "attested"
-    },
-    "蒋鼎文": {
-      "en": "Jiang Dingwen",
-      "pinyin": "Jiang Dingwen",
-      "status": "attested"
-    },
-    "朱绍良": {
-      "en": "Zhu Shaoliang",
-      "pinyin": "Zhu Shaoliang",
-      "status": "attested"
-    },
-    "左宗棠": {
-      "en": "Zuo Zongtang",
-      "pinyin": "Zuo Zongtang",
-      "status": "attested"
-    },
-    "张之江": {
-      "en": "Zhang Zhijiang",
-      "pinyin": "Zhang Zhijiang",
-      "status": "attested"
-    },
-    "张竹平": {
-      "en": "Zhang Zhuping",
-      "pinyin": "Zhang Zhuping",
-      "status": "provisional"
-    },
-    "张孝若": {
-      "en": "Zhang Xiaoruo",
-      "pinyin": "Zhang Xiaoruo",
-      "status": "attested"
-    },
-    "赵子超": {
-      "en": "Zhao Zichao",
-      "pinyin": "Zhao Zichao",
-      "status": "provisional"
-    },
-    "赵丹": {
-      "en": "Zhao Dan",
-      "pinyin": "Zhao Dan",
-      "status": "attested"
-    },
-    "孔祥熙": {
-      "en": "H. H. Kung",
-      "pinyin": "Kong Xiangxi",
-      "status": "attested"
-    },
-    "宋子文": {
-      "en": "T. V. Soong",
-      "pinyin": "Song Ziwen",
-      "status": "attested"
-    },
-    "汪寿华": {
-      "en": "Wang Shouhua",
-      "pinyin": "Wang Shouhua",
-      "status": "attested"
-    },
-    "蒋介石": {
-      "en": "Chiang Kai-shek",
-      "pinyin": "Jiang Jieshi",
-      "status": "attested"
-    },
-    "周象贤": {
-      "en": "Zhou Xiangxian",
-      "pinyin": "Zhou Xiangxian",
-      "status": "provisional"
-    },
-    "袁良": {
-      "en": "Yuan Liang",
-      "pinyin": "Yuan Liang",
-      "status": "provisional"
-    },
-    "徐晓耕": {
-      "en": "Xu Xiaogeng",
-      "pinyin": "Xu Xiaogeng",
-      "status": "provisional"
-    },
-    "郑弼臣": {
-      "en": "Zheng Bichen",
-      "pinyin": "Zheng Bichen",
-      "status": "provisional"
-    },
-    "头山满": {
-      "en": "Toyama Mitsuru",
-      "pinyin": "Toyama Mitsuru",
-      "status": "attested"
-    },
-    "宫崎寅藏": {
-      "en": "Miyazaki Torazo",
-      "pinyin": "Miyazaki Torazo",
-      "status": "attested"
-    },
-    "唐继尧": {
-      "en": "Tang Jiyao",
-      "pinyin": "Tang Jiyao",
-      "status": "attested"
-    },
-    "陈树藩": {
-      "en": "Chen Shufan",
-      "pinyin": "Chen Shufan",
-      "status": "attested"
-    },
-    "姚以价": {
-      "en": "Yao Yijia",
-      "pinyin": "Yao Yijia",
-      "status": "provisional"
-    },
-    "徐永昌": {
-      "en": "Xu Yongchang",
-      "pinyin": "Xu Yongchang",
-      "status": "attested"
-    },
-    "于右任": {
-      "en": "Yu Youren",
-      "pinyin": "Yu Youren",
-      "status": "attested"
-    },
-    "黎元洪": {
-      "en": "Li Yuanhong",
-      "pinyin": "Li Yuanhong",
-      "status": "attested"
-    },
-    "戴传贤": {
-      "en": "Dai Chuanxian",
-      "pinyin": "Dai Chuanxian",
-      "status": "attested"
-    },
-    "周佛海": {
-      "en": "Zhou Fohai",
-      "pinyin": "Zhou Fohai",
-      "status": "attested"
-    },
-    "汪亚尘": {
-      "en": "Wang Yachen",
-      "pinyin": "Wang Yachen",
-      "status": "attested"
-    },
-    "张国威": {
-      "en": "Zhang Guowei",
-      "pinyin": "Zhang Guowei",
-      "status": "provisional"
-    },
-    "胡振家": {
-      "en": "Hu Zhenjia",
-      "pinyin": "Hu Zhenjia",
-      "status": "provisional"
-    },
-    "黄炳泉": {
-      "en": "Huang Bingquan",
-      "pinyin": "Huang Bingquan",
-      "status": "provisional"
-    },
-    "樊尔谛": {
-      "en": "Fan Erdi",
-      "pinyin": "Fan Erdi",
-      "status": "provisional"
-    },
-    "周荫人": {
-      "en": "Zhou Yinren",
-      "pinyin": "Zhou Yinren",
-      "status": "attested"
-    },
-    "白崇禧": {
-      "en": "Bai Chongxi",
-      "pinyin": "Bai Chongxi",
-      "status": "attested"
-    },
-    "陈群": {
-      "en": "Chen Qun",
-      "pinyin": "Chen Qun",
-      "status": "attested"
-    },
-    "王柏龄": {
-      "en": "Wang Bailing",
-      "pinyin": "Wang Bailing",
-      "status": "attested"
-    },
-    "郝鹏举": {
-      "en": "Hao Pengju",
-      "pinyin": "Hao Pengju",
-      "status": "attested"
-    },
-    "丁默村": {
-      "en": "Ding Mocun",
-      "pinyin": "Ding Mocun",
-      "status": "attested"
-    },
-    "梅思平": {
-      "en": "Mei Siping",
-      "pinyin": "Mei Siping",
-      "status": "attested"
-    },
-    "李长江": {
-      "en": "Li Changjiang",
-      "pinyin": "Li Changjiang",
-      "status": "attested"
-    },
-    "龚天健": {
-      "en": "Gong Tianjian",
-      "pinyin": "Gong Tianjian",
-      "status": "provisional"
-    },
-    "王文奎": {
-      "en": "Wang Wenkui",
-      "pinyin": "Wang Wenkui",
-      "status": "provisional"
-    },
-    "李志清": {
-      "en": "Li Zhiqing",
-      "pinyin": "Li Zhiqing",
-      "status": "provisional"
-    },
-    "黄源焘": {
-      "en": "Huang Yuantao",
-      "pinyin": "Huang Yuantao",
-      "status": "provisional"
-    },
-    "程锡文": {
-      "en": "Cheng Xiwen",
-      "pinyin": "Cheng Xiwen",
-      "status": "provisional",
-      "note": "Narrator of ch13; Huang Jinrong&#8217;s household steward, who tells the family from the inside."
-    },
-    "杨展成": {
-      "en": "Yang Zhancheng",
-      "pinyin": "Yang Zhancheng",
-      "status": "provisional",
-      "note": "Recorder who set down Cheng Xiwen&#8217;s ch13 account."
-    },
-    "黄振世": {
-      "en": "Huang Zhenshi",
-      "pinyin": "Huang Zhenshi",
-      "status": "provisional",
-      "note": "Narrator of ch14; a fishery-company manager, Huang disciple and later a standing director of the Rong Society, who writes as a self-confessed insider."
-    },
-    "何国涛": {
-      "en": "He Guotao",
-      "pinyin": "He Guotao",
-      "status": "provisional",
-      "note": "Recorder who set down Huang Zhenshi&#8217;s ch14 account."
-    },
-    "林桂生": {
-      "en": "Lin Guisheng",
-      "pinyin": "Lin Guisheng",
-      "status": "provisional",
-      "note": "Huang Jinrong&#8217;s first wife as named in ch13; a formidable figure in her own right. ch14 and later scholarship give her surname as Lin; the source&#8217;s own editors flag the variant Ye Guisheng. See the note at ch14."
-    },
-    "叶桂生": {
-      "en": "Ye Guisheng",
-      "pinyin": "Ye Guisheng",
-      "status": "provisional",
-      "note": "Huang Jinrong&#8217;s first wife as named by the ch14 narrator; the source&#8217;s editors add that one account gives her as Lin Guisheng (so ch13). Rendered as each narrator prints; the discrepancy is footnoted."
-    },
-    "范开泰": {
-      "en": "Fan Kaitai",
-      "pinyin": "Fan Kaitai",
-      "status": "provisional",
-      "note": "&#8220;Ebony Kaitai,&#8221; a City God Temple man about town and temple director; his wife was Shi Jinxiu."
-    },
-    "史锦绣": {
-      "en": "Shi Jinxiu",
-      "pinyin": "Shi Jinxiu",
-      "status": "provisional",
-      "note": "&#8220;Bandit Jinxiu,&#8221; a formidable Changzhou woman of the City God Temple demi-monde, sworn sister to Huang&#8217;s first wife."
-    },
-    "范回春": {
-      "en": "Fan Huichun",
-      "pinyin": "Fan Huichun",
-      "status": "provisional",
-      "note": "Younger brother of Fan Kaitai; a bank manager and deputy manager of the Sanxin opium combine."
-    },
-    "徐福生": {
-      "en": "Xu Fusheng",
-      "pinyin": "Xu Fusheng",
-      "status": "provisional",
-      "note": "&#8220;Havoc-in-Heaven Fusheng,&#8221; a Suzhou-Creek wharf hoodlum and Huang disciple, said to have introduced Huang Jinrong to Sun Yat-sen."
-    },
-    "张方庚": {
-      "en": "Zhang Fanggeng",
-      "pinyin": "Zhang Fanggeng",
-      "status": "provisional",
-      "note": "A Huang disciple who ran the Dacheng leather-goods company."
-    },
-    "韩荣浦": {
-      "en": "Han Rongpu",
-      "pinyin": "Han Rongpu",
-      "status": "provisional",
-      "note": "A Wu Peifu adjutant whose stray tip, in Huang&#8217;s telling, cracked the Bishop Yao kidnapping; later a go-between to Yuan Kewen."
-    },
-    "马雨亭": {
-      "en": "Ma Yuting",
-      "pinyin": "Ma Yuting",
-      "status": "provisional",
-      "note": "A Huang disciple skilled at making rigged gambling gear."
-    },
-    "徐阿东": {
-      "en": "Xu Adong",
-      "pinyin": "Xu Adong",
-      "status": "provisional",
-      "note": "The French police hoodlum-squad foreman whom Huang and Du brought to heel, a turning point in the men-about-town&#8217;s rise."
-    },
-    "陈培德": {
-      "en": "Chen Peide",
-      "pinyin": "Chen Peide",
-      "status": "provisional",
-      "note": "Huang Jinrong&#8217;s favored disciple, a British-American Tobacco union chairman; his arrest by Du Yuesheng&#8217;s man Lu Jingshi sharpened the Huang&#8211;Du feud."
-    },
-    "陈福康": {
-      "en": "Chen Fukang",
-      "pinyin": "Chen Fukang",
-      "status": "provisional",
-      "note": "Manager of the Huang household&#8217;s real estate and the Great World accounts; head of a rival clique to the narrator within Huang&#8217;s gate."
-    },
-    "邱子嘉": {
-      "en": "Qiu Zijia",
-      "pinyin": "Qiu Zijia",
-      "status": "provisional",
-      "note": "Works manager of the Renfeng mill and a core Zhongxin/Rong Society organizer allied with the narrator."
-    },
-    "王兴高": {
-      "en": "Wang Xinggao",
-      "pinyin": "Wang Xinggao",
-      "status": "provisional",
-      "note": "The Subei disciple of Gu Zhuxuan who shot Tang Jiapeng dead at the Great World gate."
-    },
-    "周信芳": {
-      "en": "Zhou Xinfang",
-      "pinyin": "Zhou Xinfang",
-      "status": "attested",
-      "note": "1895&#8211;1975; the great Peking-opera actor known by his stage name Qilintong (麒麟童), who took Huang Jinrong as master for protection against Gu Zhuxuan."
-    },
-    "常春恒": {
-      "en": "Chang Chunheng",
-      "pinyin": "Chang Chunheng",
-      "status": "attested",
-      "note": "A <i>wenwu-laosheng</i> Peking-opera actor beaten to death on Gu Zhuxuan&#8217;s order in a salary dispute at the Tianchan Stage."
-    },
-    "吴世宝": {
-      "en": "Wu Shibao",
-      "pinyin": "Wu Shibao",
-      "status": "provisional",
-      "note": "&#8220;Killer Taibao,&#8221; guard chief of the Japanese puppet secret service at No. 76 Jessfield Road; his open threats cowed even the concession detective-chiefs."
-    },
-    "余爱珍": {
-      "en": "Yu Aizhen",
-      "pinyin": "Yu Aizhen",
-      "status": "provisional",
-      "note": "Wife of Wu Shibao; the shooting of her bodyguard by a Settlement constable in May 1941 was a notorious &#8220;76&#8221; incident."
-    },
-    "潘七分": {
-      "en": "Pan Qifen",
-      "pinyin": "Pan Qifen",
-      "status": "provisional",
-      "note": "Styled Zixin (子欣); a Tianjin gang chief in Huang&#8217;s wide network. Huang trusted him in his last years and called him &#8220;Old Seventh Pan.&#8221; The ch14 narrator prints his name both as Pan Qifen and, at his first mention, Pan Zixin."
-    },
-    "潘子欣": {
-      "en": "Pan Zixin",
-      "pinyin": "Pan Zixin",
-      "status": "provisional",
-      "note": "See Pan Qifen; the Tianjin gang chief is named both ways in ch14, rendered as printed."
-    },
-    "杭州阿法": {
-      "en": "Hangzhou Ah Fa",
-      "pinyin": "Hangzhou Ah Fa",
-      "status": "provisional",
-      "note": "A grand hoodlum of the early Republic raised up by Huang Jinrong, who monopolized opium delivery on the Shiliupu wharves; the source notes a variant graph 阿发."
-    },
-    "马鸿魁": {
-      "en": "Ma Hongkui",
-      "pinyin": "Ma Hongkui",
-      "status": "provisional",
-      "note": "The &#8220;Night-soil King&#8221; of the French Concession, a Huang disciple. Not the Ningxia warlord Ma Hongkui (马鸿逵)."
-    },
-    "唐嘉鹏": {
-      "en": "Tang Jiapeng",
-      "pinyin": "Tang Jiapeng",
-      "status": "provisional",
-      "note": "Manager of the Great World and one of the two great pillars of Huang&#8217;s gate; murdered in the feud with Gu Zhuxuan&#8217;s faction."
-    },
-    "丁永昌": {
-      "en": "Ding Yongchang",
-      "pinyin": "Ding Yongchang",
-      "status": "provisional",
-      "note": "A trusted Huang disciple who ran the Great World and carried out kidnappings for him."
-    },
-    "鲁锦臣": {
-      "en": "Lu Jinchen",
-      "pinyin": "Lu Jinchen",
-      "status": "provisional",
-      "note": "A close Huang disciple and French-police detective-chief who attended the old man in his retirement."
-    },
-    "范绍增": {
-      "en": "Fan Shaozeng",
-      "pinyin": "Fan Shaozeng",
-      "status": "attested"
-    },
-    "沈醉": {
-      "en": "Shen Zui",
-      "pinyin": "Shen Zui",
-      "status": "attested"
-    },
-    "顾嘉棠": {
-      "en": "Gu Jiatang",
-      "pinyin": "Gu Jiatang",
-      "status": "attested"
-    },
-    "马世奇": {
-      "en": "Ma Shiqi",
-      "pinyin": "Ma Shiqi",
-      "status": "provisional"
-    },
-    "马祥生": {
-      "en": "Ma Xiangsheng",
-      "pinyin": "Ma Xiangsheng",
-      "status": "provisional"
-    },
-    "杨森": {
-      "en": "Yang Sen",
-      "pinyin": "Yang Sen",
-      "status": "attested"
-    },
-    "刘湘": {
-      "en": "Liu Xiang",
-      "pinyin": "Liu Xiang",
-      "status": "attested"
-    },
-    "贺龙": {
-      "en": "He Long",
-      "pinyin": "He Long",
-      "status": "attested"
-    },
-    "陈坤元": {
-      "en": "Chen Kunyuan",
-      "pinyin": "Chen Kunyuan",
-      "status": "provisional"
-    },
-    "张松涛": {
-      "en": "Zhang Songtao",
-      "pinyin": "Zhang Songtao",
-      "status": "provisional"
-    },
-    "杜美霞": {
-      "en": "Du Meixia",
-      "pinyin": "Du Meixia",
-      "status": "provisional"
-    },
-    "贺贵严": {
-      "en": "He Guiyan",
-      "pinyin": "He Guiyan",
-      "status": "provisional"
-    },
-    "徐慕邢": {
-      "en": "Xu Muxing",
-      "pinyin": "Xu Muxing",
-      "status": "provisional"
-    },
-    "向传义": {
-      "en": "Xiang Chuanyi",
-      "pinyin": "Xiang Chuanyi",
-      "status": "attested"
-    },
-    "何北衡": {
-      "en": "He Beiheng",
-      "pinyin": "He Beiheng",
-      "status": "attested"
-    },
-    "吴国桢": {
-      "en": "Wu Guozhen",
-      "pinyin": "Wu Guozhen",
-      "status": "decided"
-    },
-    "颜惠庆": {
-      "en": "Yan Huiqing",
-      "pinyin": "Yan Huiqing",
-      "status": "attested"
-    },
-    "徐寄庼": {
-      "en": "Xu Jiqing",
-      "pinyin": "Xu Jiqing",
-      "status": "provisional"
-    },
-    "张翼枢": {
-      "en": "Zhang Yishu",
-      "pinyin": "Zhang Yishu",
-      "status": "provisional"
-    },
-    "西园寺": {
-      "en": "Saionji",
-      "pinyin": "Saionji Kinmochi",
-      "status": "attested"
-    },
-    "范之青": {
-      "en": "Fan Zhiqing",
-      "pinyin": "Fan Zhiqing",
-      "status": "provisional"
-    },
-    "刘航琛": {
-      "en": "Liu Hangchen",
-      "pinyin": "Liu Hangchen",
-      "status": "attested"
-    },
-    "杜维藩": {
-      "en": "Du Weifan",
-      "pinyin": "Du Weifan",
-      "status": "provisional"
-    },
-    "姚玉兰": {
-      "en": "Yao Yulan",
-      "pinyin": "Yao Yulan",
-      "status": "attested"
-    },
-    "孟小冬": {
-      "en": "Meng Xiaodong",
-      "pinyin": "Meng Xiaodong",
-      "status": "attested"
-    },
-    "汪盼": {
-      "en": "Wang Pan",
-      "pinyin": "Wang Pan",
-      "status": "provisional"
-    },
-    "孙传芳": {
-      "en": "Sun Chuanfang",
-      "pinyin": "Sun Chuanfang",
-      "status": "attested"
-    },
-    "魏道明": {
-      "en": "Wei Daoming",
-      "pinyin": "Wei Daoming",
-      "status": "attested"
-    },
-    "吴忠信": {
-      "en": "Wu Zhongxin",
-      "pinyin": "Wu Zhongxin",
-      "status": "attested"
-    },
-    "李济深": {
-      "en": "Li Jishen",
-      "pinyin": "Li Jishen",
-      "status": "attested"
-    },
-    "陈独秀": {
-      "en": "Chen Duxiu",
-      "pinyin": "Chen Duxiu",
-      "status": "attested"
-    },
-    "周凤岐": {
-      "en": "Zhou Fengqi",
-      "pinyin": "Zhou Fengqi",
-      "status": "attested"
-    },
-    "祝绍周": {
-      "en": "Zhu Shaozhou",
-      "pinyin": "Zhu Shaozhou",
-      "status": "provisional"
-    },
-    "杜维屏": {
-      "en": "Du Weiping",
-      "pinyin": "Du Weiping",
-      "status": "provisional"
-    },
-    "杜维新": {
-      "en": "Du Weixin",
-      "pinyin": "Du Weixin",
-      "status": "provisional"
-    },
-    "戴戟": {
-      "en": "Dai Ji",
-      "pinyin": "Dai Ji",
-      "status": "attested"
-    },
-    "沈叔眉": {
-      "en": "Shen Shumei",
-      "pinyin": "Shen Shumei",
-      "status": "provisional"
-    },
-    "孙科": {
-      "en": "Sun Ke",
-      "pinyin": "Sun Ke",
-      "status": "attested"
-    },
-    "李宗仁": {
-      "en": "Li Zongren",
-      "pinyin": "Li Zongren",
-      "status": "attested"
-    },
-    "陈立夫": {
-      "en": "Chen Lifu",
-      "pinyin": "Chen Lifu",
-      "status": "attested"
-    },
-    "孙桐萱": {
-      "en": "Sun Tongxuan",
-      "pinyin": "Sun Tongxuan",
-      "status": "attested"
-    },
-    "孙桐岗": {
-      "en": "Sun Tonggang",
-      "pinyin": "Sun Tonggang",
-      "status": "provisional"
-    },
-    "王兆槐": {
-      "en": "Wang Zhaohuai",
-      "pinyin": "Wang Zhaohuai",
-      "status": "provisional"
-    },
-    "金九林": {
-      "en": "Jin Jiulin",
-      "pinyin": "Jin Jiulin",
-      "status": "provisional"
-    },
-    "季云卿": {
-      "en": "Ji Yunqing",
-      "pinyin": "Ji Yunqing",
-      "status": "attested"
-    },
-    "徐懋棠": {
-      "en": "Xu Maotang",
-      "pinyin": "Xu Maotang",
-      "status": "provisional"
-    },
-    "徐懋昌": {
-      "en": "Xu Maochang",
-      "pinyin": "Xu Maochang",
-      "status": "provisional"
-    },
-    "曾扩情": {
-      "en": "Zeng Kuoqing",
-      "pinyin": "Zeng Kuoqing",
-      "status": "attested"
-    },
-    "刘攻芸": {
-      "en": "Liu Gongyun",
-      "pinyin": "Liu Gongyun",
-      "status": "attested"
-    },
-    "张君生": {
-      "en": "Zhang Junsheng",
-      "pinyin": "Zhang Junsheng",
-      "status": "provisional"
-    },
-    "李石曾": {
-      "en": "Li Shizeng",
-      "pinyin": "Li Shizeng",
-      "status": "attested"
-    },
-    "金少山": {
-      "en": "Jin Shaoshan",
-      "pinyin": "Jin Shaoshan",
-      "status": "attested"
-    },
-    "彭伯威": {
-      "en": "Peng Bowei",
-      "pinyin": "Peng Bowei",
-      "status": "provisional"
-    },
-    "芮庆荣": {
-      "en": "Rui Qingrong",
-      "pinyin": "Rui Qingrong",
-      "status": "provisional"
-    },
-    "庞京周": {
-      "en": "Pang Jingzhou",
-      "pinyin": "Pang Jingzhou",
-      "status": "attested",
-      "note": "A prominent Shanghai physician, Du Yuesheng's personal doctor."
-    },
-    "袁履登": {
-      "en": "Yuan Lüdeng",
-      "pinyin": "Yuan Ludeng",
-      "status": "attested"
-    },
-    "李祖夔": {
-      "en": "Li Zukui",
-      "pinyin": "Li Zukui",
-      "status": "attested",
-      "note": "A former magistrate of Shanghai county."
-    },
-    "刘峙": {
-      "en": "Liu Zhi",
-      "pinyin": "Liu Zhi",
-      "status": "attested"
-    },
-    "刘志陆": {
-      "en": "Liu Zhilu",
-      "pinyin": "Liu Zhilu",
-      "status": "attested"
-    },
-    "陈布雷": {
-      "en": "Chen Bulei",
-      "pinyin": "Chen Bulei",
-      "status": "attested",
-      "note": "1890&#8211;1948; Chiang Kai-shek's confidential secretary and chief speechwriter."
-    },
-    "邵力子": {
-      "en": "Shao Lizi",
-      "pinyin": "Shao Lizi",
-      "status": "attested"
-    },
-    "王正廷": {
-      "en": "Wang Zhengting",
-      "pinyin": "Wang Zhengting",
-      "status": "attested"
-    },
-    "郑介民": {
-      "en": "Zheng Jiemin",
-      "pinyin": "Zheng Jiemin",
-      "status": "attested",
-      "note": "A senior Juntong officer."
-    },
-    "唐生明": {
-      "en": "Tang Shengming",
-      "pinyin": "Tang Shengming",
-      "status": "attested"
-    },
-    "吴稚晖": {
-      "en": "Wu Zhihui",
-      "pinyin": "Wu Zhihui",
-      "status": "attested",
-      "note": "1865&#8211;1953; veteran Kuomintang elder and calligrapher; also written 吴敬恒."
-    },
-    "吴敬恒": {
-      "en": "Wu Zhihui",
-      "pinyin": "Wu Jingheng",
-      "status": "attested",
-      "note": "The formal given name of the Kuomintang elder better known by his courtesy name, Wu Zhihui; the same man."
-    },
-    "叶恭绰": {
-      "en": "Ye Gongchuo",
-      "pinyin": "Ye Gongchuo",
-      "status": "attested"
-    },
-    "吴鼎昌": {
-      "en": "Wu Dingchang",
-      "pinyin": "Wu Dingchang",
-      "status": "attested"
-    },
-    "宣铁吾": {
-      "en": "Xuan Tiewu",
-      "pinyin": "Xuan Tiewu",
-      "status": "attested"
-    },
-    "王宠惠": {
-      "en": "Wang Chonghui",
-      "pinyin": "Wang Chonghui",
-      "status": "attested"
-    },
-    "俞鸿钧": {
-      "en": "Yu Hongjun",
-      "pinyin": "Yu Hongjun",
-      "status": "attested"
-    },
-    "俞叔平": {
-      "en": "Yu Shuping",
-      "pinyin": "Yu Shuping",
-      "status": "attested"
-    },
-    "蒋纬国": {
-      "en": "Chiang Wei-kuo",
-      "pinyin": "Jiang Weiguo",
-      "status": "attested",
-      "note": "1916&#8211;1997; Chiang Kai-shek's younger (adopted) son."
-    },
-    "唐绍仪": {
-      "en": "Tang Shaoyi",
-      "pinyin": "Tang Shaoyi",
-      "status": "attested",
-      "note": "1862&#8211;1938; first premier of the Republic; assassinated in Shanghai after contacts with the Japanese."
-    },
-    "高宗武": {
-      "en": "Gao Zongwu",
-      "pinyin": "Gao Zongwu",
-      "status": "attested",
-      "note": "A Nationalist diplomat active in the secret peace talks with Japan that led to Wang Jingwei's defection."
-    },
-    "杨杰": {
-      "en": "Yang Jie",
-      "pinyin": "Yang Jie",
-      "status": "attested",
-      "note": "1889&#8211;1949; Nationalist general who turned against Chiang; assassinated by Juntong agents on the eve of the Communist victory."
-    },
-    "黄琪翔": {
-      "en": "Huang Qixiang",
-      "pinyin": "Huang Qixiang",
-      "status": "attested"
-    },
-    "章伯钧": {
-      "en": "Zhang Bojun",
-      "pinyin": "Zhang Bojun",
-      "status": "attested"
-    },
-    "吴开先": {
-      "en": "Wu Kaixian",
-      "pinyin": "Wu Kaixian",
-      "status": "attested",
-      "note": "A leading member of the CC Clique in Shanghai."
-    },
-    "胡宗南": {
-      "en": "Hu Zongnan",
-      "pinyin": "Hu Zongnan",
-      "status": "attested",
-      "note": "1896&#8211;1962; the Nationalist general who commanded the northwest."
-    },
-    "朱子桥": {
-      "en": "Zhu Ziqiao",
-      "pinyin": "Zhu Ziqiao",
-      "status": "attested",
-      "note": "General Zhu Qinglan, a noted relief philanthropist of the Republican era."
-    },
-    "张嘉璈": {
-      "en": "Zhang Jia'ao",
-      "pinyin": "Zhang Jia'ao",
-      "status": "attested",
-      "note": "Chang Kia-ngau (1889&#8211;1979), the banker and financial administrator."
-    },
-    "顾祝同": {
-      "en": "Gu Zhutong",
-      "pinyin": "Gu Zhutong",
-      "status": "attested",
-      "note": "1893&#8211;1987; senior Nationalist general."
-    },
-    "梅乐斯": {
-      "en": "Miles",
-      "pinyin": "Meilesi",
-      "status": "attested",
-      "note": "1900&#8211;1961; U.S. Navy officer, head of the American side of the Sino-American Cooperation Organization."
-    },
-    "王新衡": {
-      "en": "Wang Xinheng",
-      "pinyin": "Wang Xinheng",
-      "status": "attested",
-      "note": "A Juntong department head and Du Yuesheng's channel to Dai Li."
-    },
-    "吴绍澍": {
-      "en": "Wu Shaoshu",
-      "pinyin": "Wu Shaoshu",
-      "status": "attested",
-      "note": "Du's disciple turned rival; postwar vice-mayor of Shanghai who publicly broke with him."
-    },
-    "毛人凤": {
-      "en": "Mao Renfeng",
-      "pinyin": "Mao Renfeng",
-      "status": "attested",
-      "note": "Dai Li's successor as head of the Baomiju secret service."
-    },
-    "蒋经国": {
-      "en": "Chiang Ching-kuo",
-      "pinyin": "Jiang Jingguo",
-      "status": "attested",
-      "note": "1910&#8211;1988; Chiang Kai-shek's elder son, later president of the Republic of China on Taiwan; here the enforcer of the 1948 gold-yuan reform in Shanghai."
-    },
-    "孔令侃": {
-      "en": "Kong Lingkan",
-      "pinyin": "Kong Lingkan",
-      "status": "attested",
-      "note": "H. H. Kung's son and chairman of the Yangtze Company; Chiang Ching-kuo's cousin."
-    },
-    "宋美龄": {
-      "en": "Song Meiling",
-      "pinyin": "Song Meiling",
-      "status": "attested",
-      "note": "1898&#8211;2003; Madame Chiang Kai-shek, sister of T. V. Soong and aunt of Kong Lingkan."
-    },
-    "方治": {
-      "en": "Fang Zhi",
-      "pinyin": "Fang Zhi",
-      "status": "attested",
-      "note": "A CC Clique figure; chairman of the Shanghai municipal party headquarters."
-    },
-    "杜维垣": {
-      "en": "Du Weiyuan",
-      "pinyin": "Du Weiyuan",
-      "status": "attested",
-      "note": "A son of Du Yuesheng."
-    },
-    "程泽润": {
-      "en": "Cheng Zerun",
-      "pinyin": "Cheng Zerun",
-      "status": "attested"
-    },
-    "俞飞鹏": {
-      "en": "Yu Feipeng",
-      "pinyin": "Yu Feipeng",
-      "status": "attested",
-      "note": "A Chiang confidant who headed wartime transport."
-    },
-    "黄国栋": {
-      "en": "Huang Guodong",
-      "pinyin": "Huang Guodong",
-      "status": "decided",
-      "note": "Chief accountant of the Du Yuesheng household and the narrator of this article; son of Huang Wenxiang."
-    },
-    "罗醴泉": {
-      "en": "Luo Liquan",
-      "pinyin": "Luo Liquan",
-      "status": "decided",
-      "note": "Took down Huang Guodong's oral account."
-    },
-    "黄文祥": {
-      "en": "Huang Wenxiang",
-      "pinyin": "Huang Wenxiang",
-      "status": "decided",
-      "note": "The narrator's father; the Du household accountant before him."
-    },
-    "杨渔笙": {
-      "en": "Yang Yusheng",
-      "pinyin": "Yang Yusheng",
-      "status": "decided",
-      "note": "The Du household accountant before Huang Wenxiang; fled during the war and broke with Du."
-    },
-    "陈帼英": {
-      "en": "Chen Guoying",
-      "pinyin": "Chen Guoying",
-      "status": "decided",
-      "note": "Du Yuesheng's second wife (&#8216;the Fifth&#8217;), a Suzhou woman."
-    },
-    "孙佩豪": {
-      "en": "Sun Peihao",
-      "pinyin": "Sun Peihao",
-      "status": "decided",
-      "note": "Du Yuesheng's third wife (&#8216;the Seventh&#8217;), a Suzhou woman."
-    },
-    "万墨林": {
-      "en": "Wan Molin",
-      "pinyin": "Wan Molin",
-      "status": "attested",
-      "note": "Du Yuesheng's household steward and chief factotum; ran Du's Shanghai affairs during the war and was seized by the puppet secret service."
-    },
-    "万兆棠": {
-      "en": "Wan Zhaotang",
-      "pinyin": "Wan Zhaotang",
-      "status": "decided",
-      "note": "Elder brother of Wan Molin, styled Duxin; the household post passed from him to his brother."
-    },
-    "翁佐卿": {
-      "en": "Weng Zuoqing",
-      "pinyin": "Weng Zuoqing",
-      "status": "decided",
-      "note": "A Du household secretary, disciple of Zhang Xiaolin."
-    },
-    "邱访陌": {
-      "en": "Qiu Fangmo",
-      "pinyin": "Qiu Fangmo",
-      "status": "decided",
-      "note": "A Du household secretary, introduced by Chen Qun; later a puppet income-tax official."
-    },
-    "王幼棠": {
-      "en": "Wang Youtang",
-      "pinyin": "Wang Youtang",
-      "status": "decided"
-    },
-    "胡叙五": {
-      "en": "Hu Xuwu",
-      "pinyin": "Hu Xuwu",
-      "status": "decided",
-      "note": "A Du household secretary."
-    },
-    "陆桂才": {
-      "en": "Lu Guicai",
-      "pinyin": "Lu Guicai",
-      "status": "decided",
-      "note": "A Du bodyguard, disciple of Zhang Xiaolin, known as Lu the Pockmarked."
-    },
-    "陈秦鹤": {
-      "en": "Chen Qinhe",
-      "pinyin": "Chen Qinhe",
-      "status": "decided",
-      "note": "A Du bodyguard, a Taizhou man-about-town."
-    },
-    "陈继藩": {
-      "en": "Chen Jifan",
-      "pinyin": "Chen Jifan",
-      "status": "decided"
-    },
-    "高怀礼": {
-      "en": "Gao Huaili",
-      "pinyin": "Gao Huaili",
-      "status": "decided"
-    },
-    "王宝钰": {
-      "en": "Wang Baoyu",
-      "pinyin": "Wang Baoyu",
-      "status": "decided",
-      "note": "Du Yuesheng's personal chauffeur."
-    },
-    "郁访熏": {
-      "en": "Yu Fangxun",
-      "pinyin": "Yu Fangxun",
-      "status": "decided",
-      "note": "The man who prepared Du Yuesheng's opium pipes, styled Yongfu."
-    },
-    "黄炎培": {
-      "en": "Huang Yanpei",
-      "pinyin": "Huang Yanpei",
-      "status": "attested",
-      "note": "1878&#8211;1965. Educator and founder of the China Democratic National Construction Association; a frequent guest of Du's who did wartime liaison work."
-    },
-    "刘春圃": {
-      "en": "Liu Chunpu",
-      "pinyin": "Liu Chunpu",
-      "status": "decided"
-    },
-    "高士奎": {
-      "en": "Gao Shikui",
-      "pinyin": "Gao Shikui",
-      "status": "decided",
-      "note": "A Hongmen elder kept at Du's expense."
-    },
-    "秦联奎": {
-      "en": "Qin Liankui",
-      "pinyin": "Qin Liankui",
-      "status": "decided",
-      "note": "A lawyer in Du's circle."
-    },
-    "江一平": {
-      "en": "Jiang Yiping",
-      "pinyin": "Jiang Yiping",
-      "status": "decided",
-      "note": "A lawyer in Du's circle."
-    },
-    "王荫泰": {
-      "en": "Wang Yintai",
-      "pinyin": "Wang Yintai",
-      "status": "decided"
-    },
-    "陆彤东": {
-      "en": "Lu Tongdong",
-      "pinyin": "Lu Tongdong",
-      "status": "decided"
-    },
-    "朱文德": {
-      "en": "Zhu Wende",
-      "pinyin": "Zhu Wende",
-      "status": "decided",
-      "note": "One of the four Du men left to run Shanghai affairs during the war."
-    },
-    "王思曾": {
-      "en": "Wang Sizeng",
-      "pinyin": "Wang Sizeng",
-      "status": "decided"
-    },
-    "王晓籁": {
-      "en": "Wang Xiaolai",
-      "pinyin": "Wang Xiaolai",
-      "status": "attested",
-      "note": "A leading figure of the Shanghai General Chamber of Commerce."
-    },
-    "席洽卿": {
-      "en": "Xi Qiaqing",
-      "pinyin": "Xi Qiaqing",
-      "status": "decided"
-    },
-    "刘鸿生": {
-      "en": "Liu Hongsheng",
-      "pinyin": "Liu Hongsheng",
-      "status": "attested",
-      "note": "1888&#8211;1956. Shanghai industrialist, the &#8216;Match King.&#8217;"
-    },
-    "潘公展": {
-      "en": "Pan Gongzhan",
-      "pinyin": "Pan Gongzhan",
-      "status": "attested",
-      "note": "Nationalist CC Clique figure and newspaperman in Shanghai."
-    },
-    "杨管北": {
-      "en": "Yang Guanbei",
-      "pinyin": "Yang Guanbei",
-      "status": "decided"
-    },
-    "杨志雄": {
-      "en": "Yang Zhixiong",
-      "pinyin": "Yang Zhixiong",
-      "status": "decided"
-    },
-    "唐世昌": {
-      "en": "Tang Shichang",
-      "pinyin": "Tang Shichang",
-      "status": "decided",
-      "note": "A Du disciple; manager of the Shen Bao and Xinwen Bao, through whom Du influenced the Shanghai press."
-    },
-    "章荣初": {
-      "en": "Zhang Rongchu",
-      "pinyin": "Zhang Rongchu",
-      "status": "decided",
-      "note": "A Du disciple; manager of the Qingfeng Cotton Mill."
-    },
-    "骆清华": {
-      "en": "Luo Qinghua",
-      "pinyin": "Luo Qinghua",
-      "status": "decided"
-    },
-    "王先青": {
-      "en": "Wang Xianqing",
-      "pinyin": "Wang Xianqing",
-      "status": "decided"
-    },
-    "邵子英": {
-      "en": "Shao Ziying",
-      "pinyin": "Shao Ziying",
-      "status": "decided",
-      "note": "A Du disciple; interpreter for the French utilities, who organized the 1932 strike weapon for Du."
-    },
-    "谢葆生": {
-      "en": "Xie Baosheng",
-      "pinyin": "Xie Baosheng",
-      "status": "decided",
-      "note": "A Green Gang secondary figure; ballroom and theater proprietor."
-    },
-    "施春轩": {
-      "en": "Shi Chunxuan",
-      "pinyin": "Shi Chunxuan",
-      "status": "decided"
-    },
-    "杨顺铨": {
-      "en": "Yang Shunquan",
-      "pinyin": "Yang Shunquan",
-      "status": "decided",
-      "note": "The Shiliupu &#8216;fish tyrant,&#8217; nicknamed Fish-monger Little Shun."
-    },
-    "范恒德": {
-      "en": "Fan Hengde",
-      "pinyin": "Fan Hengde",
-      "status": "decided"
-    },
-    "徐德胜": {
-      "en": "Xu Desheng",
-      "pinyin": "Xu Desheng",
-      "status": "decided",
-      "note": "Called &#8216;the Yangzhou Du Yuesheng.&#8217;"
-    },
-    "袁宝珊": {
-      "en": "Yuan Baoshan",
-      "pinyin": "Yuan Baoshan",
-      "status": "decided"
-    },
-    "叶焯山": {
-      "en": "Ye Zhuoshan",
-      "pinyin": "Ye Zhuoshan",
-      "status": "decided"
-    },
-    "戴步祥": {
-      "en": "Dai Buxiang",
-      "pinyin": "Dai Buxiang",
-      "status": "decided"
-    },
-    "陈荣生": {
-      "en": "Chen Rongsheng",
-      "pinyin": "Chen Rongsheng",
-      "status": "decided"
-    },
-    "樊良伯": {
-      "en": "Fan Liangbo",
-      "pinyin": "Fan Liangbo",
-      "status": "decided"
-    },
-    "夏连良": {
-      "en": "Xia Lianliang",
-      "pinyin": "Xia Lianliang",
-      "status": "decided"
-    },
-    "江肇铭": {
-      "en": "Jiang Zhaoming",
-      "pinyin": "Jiang Zhaoming",
-      "status": "decided",
-      "note": "A Du disciple nicknamed &#8216;the Xuantong Emperor,&#8217; who ran a gambling house on Avenue Foch."
-    },
-    "浦贤元": {
-      "en": "Pu Xianyuan",
-      "pinyin": "Pu Xianyuan",
-      "status": "decided"
-    },
-    "卢小嘉": {
-      "en": "Lu Xiaojia",
-      "pinyin": "Lu Xiaojia",
-      "status": "attested",
-      "note": "Son of the Zhejiang military governor Lu Yongxiang; his quarrel with Huang Jinrong over the actress Lu Lanchun led to Huang's arrest and Du's rescue of him."
-    },
-    "朱葆三": {
-      "en": "Zhu Baosan",
-      "pinyin": "Zhu Baosan",
-      "status": "attested",
-      "note": "A prominent Ningbo-Shanghai comprador and financier."
-    },
-    "李应生": {
-      "en": "Li Yingsheng",
-      "pinyin": "Li Yingsheng",
-      "status": "decided",
-      "note": "A Chinese member of the French Concession Municipal Council."
-    },
-    "蒋伯诚": {
-      "en": "Jiang Bocheng",
-      "pinyin": "Jiang Bocheng",
-      "status": "decided",
-      "note": "A Nationalist figure who kept liaison with Du's Shanghai men during the war."
-    },
-    "汪曼云": {
-      "en": "Wang Manyun",
-      "pinyin": "Wang Manyun",
-      "status": "decided",
-      "note": "A Shanghai figure who later collaborated with the Wang Jingwei regime."
-    },
-    "王民休": {
-      "en": "Wang Minxiu",
-      "pinyin": "Wang Minxiu",
-      "status": "decided",
-      "note": "A democratic-party liaison man in wartime Shanghai, using the alias Li Dacheng."
-    },
-    "傅品圭": {
-      "en": "Fu Pinggui",
-      "pinyin": "Fu Pinggui",
-      "status": "decided",
-      "note": "A Zhonghui Bank manager; son of the puppet mayor Fu Xiao'an."
-    },
-    "傅筱庵": {
-      "en": "Fu Xiao'an",
-      "pinyin": "Fu Xiao'an",
-      "status": "attested",
-      "note": "1872&#8211;1940. Mayor of the Japanese puppet Shanghai municipal government; assassinated in 1940."
-    },
-    "徐庆云": {
-      "en": "Xu Qingyun",
-      "pinyin": "Xu Qingyun",
-      "status": "decided",
-      "note": "Father of Xu Maotang, the Zhonghui Bank manager."
-    },
-    "邵得度": {
-      "en": "Shao Dedu",
-      "pinyin": "Shao Dedu",
-      "status": "decided",
-      "note": "Wan Molin's driver."
-    },
-    "张椿宝": {
-      "en": "Zhang Chunbao",
-      "pinyin": "Zhang Chunbao",
-      "status": "decided"
-    },
-    "潘三省": {
-      "en": "Pan Sansheng",
-      "pinyin": "Pan Sansheng",
-      "status": "decided"
-    },
-    "唐生智": {
-      "en": "Tang Shengzhi",
-      "pinyin": "Tang Shengzhi",
-      "status": "attested",
-      "note": "1889&#8211;1970. Nationalist general, commander of the defense of Nanjing in 1937."
-    },
-    "纪增寿": {
-      "en": "Ji Zengshou",
-      "pinyin": "Ji Zengshou",
-      "status": "decided"
-    },
-    "耿嘉基": {
-      "en": "Geng Jiaji",
-      "pinyin": "Geng Jiaji",
-      "status": "decided"
-    },
-    "顾文达": {
-      "en": "Gu Wenda",
-      "pinyin": "Gu Wenda",
-      "status": "decided",
-      "note": "By-name Gu Qi (&#8216;Gu Seven&#8217;)."
-    },
-    "卢文英": {
-      "en": "Lu Wenying",
-      "pinyin": "Lu Wenying",
-      "status": "decided"
-    },
-    "林康侯": {
-      "en": "Lin Kanghou",
-      "pinyin": "Lin Kanghou",
-      "status": "attested",
-      "note": "One of the &#8216;three notables of Shanghai&#8217; during the occupation."
-    },
-    "金鼎勋": {
-      "en": "Jin Dingxun",
-      "pinyin": "Jin Dingxun",
-      "status": "decided"
-    },
-    "刘绍奎": {
-      "en": "Liu Shaokui",
-      "pinyin": "Liu Shaokui",
-      "status": "decided"
-    },
-    "陆大公": {
-      "en": "Lu Dagong",
-      "pinyin": "Lu Dagong",
-      "status": "decided"
-    },
-    "刘俊卿": {
-      "en": "Liu Junqing",
-      "pinyin": "Liu Junqing",
-      "status": "decided"
-    },
-    "丁如松": {
-      "en": "Ding Rusong",
-      "pinyin": "Ding Rusong",
-      "status": "decided"
-    },
-    "蔡庆其": {
-      "en": "Cai Qingqi",
-      "pinyin": "Cai Qingqi",
-      "status": "decided",
-      "note": "A Taiwanese who bailed the narrator out and drew him into the occupation-era social round."
-    },
-    "马连良": {
-      "en": "Ma Lianliang",
-      "pinyin": "Ma Lianliang",
-      "status": "attested",
-      "note": "1901&#8211;1966. Celebrated Peking-opera actor of the old-man (laosheng) roles."
-    },
-    "汪吟秋": {
-      "en": "Wang Yinqiu",
-      "pinyin": "Wang Yinqiu",
-      "status": "decided"
-    },
-    "张中原": {
-      "en": "Zhang Zhongyuan",
-      "pinyin": "Zhang Zhongyuan",
-      "status": "decided"
-    },
-    "孙兰亭": {
-      "en": "Sun Lanting",
-      "pinyin": "Sun Lanting",
-      "status": "decided"
-    },
-    "改剑飞": {
-      "en": "Gai Jianfei",
-      "pinyin": "Gai Jianfei",
-      "status": "decided"
-    },
-    "张拓生": {
-      "en": "Zhang Tuosheng",
-      "pinyin": "Zhang Tuosheng",
-      "status": "decided"
-    },
-    "孙钧时": {
-      "en": "Sun Junshi",
-      "pinyin": "Sun Junshi",
-      "status": "decided"
-    },
-    "张慰如": {
-      "en": "Zhang Weiru",
-      "pinyin": "Zhang Weiru",
-      "status": "decided"
-    },
-    "张锦寿": {
-      "en": "Zhang Jinshou",
-      "pinyin": "Zhang Jinshou",
-      "status": "decided"
-    },
-    "黄振东": {
-      "en": "Huang Zhendong",
-      "pinyin": "Huang Zhendong",
-      "status": "decided",
-      "note": "A Du disciple and lavish gift-giver."
-    },
-    "孙志飞": {
-      "en": "Sun Zhifei",
-      "pinyin": "Sun Zhifei",
-      "status": "decided"
-    },
-    "周祥生": {
-      "en": "Zhou Xiangsheng",
-      "pinyin": "Zhou Xiangsheng",
-      "status": "attested",
-      "note": "Founder of the Johnson (Xiangsheng) Taxi Company in Shanghai."
-    },
-    "徐涛生": {
-      "en": "Xu Taosheng",
-      "pinyin": "Xu Taosheng",
-      "status": "decided",
-      "note": "A Du household tea-server."
-    },
-    "周恩霆": {
-      "en": "Zhou Enting",
-      "pinyin": "Zhou Enting",
-      "status": "decided",
-      "note": "A disciple Du took on in Chongqing; said to have been a cousin of Zhou Enlai."
-    },
-    "宋霭龄": {
-      "en": "Song Ailing",
-      "pinyin": "Song Ailing",
-      "status": "attested",
-      "note": "Eldest of the Soong sisters, wife of H. H. Kung and mother of Kong Lingkan."
-    },
-    "盛丕华": {
-      "en": "Sheng Pihua",
-      "pinyin": "Sheng Pihua",
-      "status": "attested",
-      "note": "1882&#8211;1961. Shanghai industrialist and democratic figure; after 1949 a deputy mayor of Shanghai."
-    },
-    "潘汉年": {
-      "en": "Pan Hannian",
-      "pinyin": "Pan Hannian",
-      "status": "attested",
-      "note": "1906&#8211;1977. Chinese Communist intelligence chief; after 1949 a deputy mayor of Shanghai, purged in 1955."
-    },
-    "张澜": {
-      "en": "Zhang Lan",
-      "pinyin": "Zhang Lan",
-      "status": "attested",
-      "note": "1872&#8211;1955. Chairman of the China Democratic League; in 1949 a vice-chairman of the Central People's Government."
-    },
-    "史良": {
-      "en": "Shi Liang",
-      "pinyin": "Shi Liang",
-      "status": "attested",
-      "note": "1900&#8211;1985. Woman jurist, one of the &#8216;seven gentlemen&#8217; arrested in 1936; later the PRC's first minister of justice."
-    },
-    "沙千里": {
-      "en": "Sha Qianli",
-      "pinyin": "Sha Qianli",
-      "status": "attested",
-      "note": "1901&#8211;1982. Jurist, another of the &#8216;seven gentlemen.&#8217;"
-    },
-    "郭兰世": {
-      "en": "Guo Lanshi",
-      "pinyin": "Guo Lanshi",
-      "status": "provisional"
-    },
-    "蒯德珍": {
-      "en": "Kuai Dezhen",
-      "pinyin": "Kuai Dezhen",
-      "status": "provisional",
-      "note": "A concubine of Zhang Shizhao's."
-    },
-    "汤二宝": {
-      "en": "Tang Erbao",
-      "pinyin": "Tang Erbao",
-      "status": "decided"
-    },
-    "马镇兴": {
-      "en": "Ma Zhenxing",
-      "pinyin": "Ma Zhenxing",
-      "status": "decided"
-    },
-    "简照南": {
-      "en": "Jian Zhaonan",
-      "pinyin": "Jian Zhaonan",
-      "status": "attested",
-      "note": "Founder of the Nanyang Brothers Tobacco Company."
-    },
-    "廖承志": {
-      "en": "Liao Chengzhi",
-      "pinyin": "Liao Chengzhi",
-      "status": "attested",
-      "note": "1908&#8211;1983. Chinese Communist leader active in overseas and united-front work."
-    },
-    "郁咏馥": {
-      "en": "Yu Yongfu",
-      "pinyin": "Yu Yongfu",
-      "status": "provisional",
-      "note": "The narrator of this chapter: Du Yuesheng's opium-pipe attendant for some twenty years. Romanization provisional; name crop-verified from the byline and the source footnote (both 郁咏馥, not the OCR 郁咏敌/郁咏禾)."
-    },
-    "汤玉麟": {
-      "en": "Tang Yulin",
-      "pinyin": "Tang Yulin",
-      "status": "attested",
-      "note": "1871&#8211;1949; warlord governor of Rehe (Jehol), notorious for the opium trade. Attested form."
-    },
-    "史量才": {
-      "en": "Shi Liangcai",
-      "pinyin": "Shi Liangcai",
-      "status": "attested",
-      "note": "1880&#8211;1934; owner of the Shenbao, assassinated 1934 on Chiang Kai-shek's orders."
-    },
-    "张学良": {
-      "en": "Zhang Xueliang",
-      "pinyin": "Zhang Xueliang",
-      "status": "attested",
-      "note": "1901&#8211;2001; the &#8216;Young Marshal.&#8217; Courtesy name Hanqing (汉卿)."
-    },
-    "于凤至": {
-      "en": "Yu Fengzhi",
-      "pinyin": "Yu Fengzhi",
-      "status": "attested",
-      "note": "1897&#8211;1990; Zhang Xueliang's wife."
-    },
-    "徐国梁": {
-      "en": "Xu Guoliang",
-      "pinyin": "Xu Guoliang",
-      "status": "attested",
-      "note": "Shanghai police commissioner, assassinated 1923."
-    },
-    "田洪元": {
-      "en": "Tian Hongyuan",
-      "pinyin": "Tian Hongyuan",
-      "status": "provisional",
-      "note": "Accountant at the Commercial Bank who kept Du supplied with bank drafts; provisional romanization."
-    },
-    "顾鳌": {
-      "en": "Gu Ao",
-      "pinyin": "Gu Ao",
-      "status": "attested",
-      "note": "1879&#8211;1949; a Beiyang-era politician styled a &#8216;meritorious servant of the Hongxian&#8217; monarchy; here one of Du's opium-smoking retainers, called &#8216;Secretary Gu.&#8217;"
-    },
-    "唐缴之": {
-      "en": "Tang Jiaozhi",
-      "pinyin": "Tang Jiaozhi",
-      "status": "provisional",
-      "note": "Named in ch17 alongside Luo Qinghua as one of Du's business-world &#8216;feelers.&#8217; The middle character (缴) reads uncertainly in the scan; romanization provisional."
-    },
-    "毛子坚": {
-      "en": "Mao Zijian",
-      "pinyin": "Mao Zijian",
-      "status": "provisional",
-      "note": "A Nanshi gangster-gentleman who borrowed the City God's sedan-chairs for the Du temple procession; provisional."
-    },
-    "焦文彬": {
-      "en": "Jiao Wenbin",
-      "pinyin": "Jiao Wenbin",
-      "status": "provisional",
-      "note": "The Du household accountant before Huang Guodong; provisional."
-    },
-    "黄国法": {
-      "en": "Huang Guofa",
-      "pinyin": "Huang Guofa",
-      "status": "decided",
-      "note": "Younger son of Huang Wenxiang, placed by Du in the Zhonghui Bank; brother of the ch16 narrator Huang Guodong."
-    },
-    "小兰英": {
-      "en": "Xiao Lanying",
-      "pinyin": "Xiao Lanying",
-      "status": "provisional",
-      "note": "Yao Yulan's foster-mother, a noted actress in old-male (laosheng) roles; provisional."
-    },
-    "玉英": {
-      "en": "Yuying",
-      "pinyin": "Yuying",
-      "status": "provisional",
-      "note": "Yao Yulan's foster-sister, whom Du first meant to take; she died young. Provisional."
-    },
-    "王彬彦": {
-      "en": "Wang Binyan",
-      "pinyin": "Wang Binyan",
-      "status": "provisional",
-      "note": "A Subei performer who invited Du to a charity benefit; provisional."
-    },
-    "杜镛": {
-      "en": "Du Yong",
-      "pinyin": "Du Yong",
-      "status": "decided",
-      "note": "Du Yuesheng's formal given name (镛); the two characters he practiced signing after becoming a company chairman."
-    },
-    "杜维仁": {
-      "en": "Du Weiren",
-      "pinyin": "Du Weiren",
-      "status": "provisional",
-      "note": "A son named in ch17 as remaining in Shanghai after liberation; not in ch16's fuller enumeration of Du's sons (see note). Provisional."
-    },
-    "杭州阿发": {
-      "en": "Hangzhou A-fa",
-      "pinyin": "Hangzhou A-fa",
-      "status": "provisional",
-      "note": "A hoodlum companion of young Du around Shiliupu; a by-name, provisional."
-    },
-    "黄永言": {
-      "en": "Huang Yongyan",
-      "pinyin": "Huang Yongyan",
-      "status": "provisional",
-      "note": "The narrator of this chapter; provisional romanization."
-    },
-    "杨在田": {
-      "en": "Yang Zaitian",
-      "pinyin": "Yang Zaitian",
-      "status": "provisional",
-      "note": "A salt-trader nicknamed &#8216;Sea-Churning Golden Dragon,&#8217; founder of the Yongji/Datong shipping line; gang-senior to Du."
-    },
-    "张慰慈": {
-      "en": "Zhang Weici",
-      "pinyin": "Zhang Weici",
-      "status": "provisional",
-      "note": "Zhang Cha's grandson, acting manager of Dada; provisional."
-    },
-    "鲍心斋": {
-      "en": "Bao Xinzhai",
-      "pinyin": "Bao Xinzhai",
-      "status": "provisional",
-      "note": "The old-school manager of Dada, forced out after the Deji bank failure; provisional."
-    },
-    "蒋敬堂": {
-      "en": "Jiang Jingtang",
-      "pinyin": "Jiang Jingtang",
-      "status": "provisional",
-      "note": "A Dada standing director who briefly acted as chairman; provisional."
-    },
-    "沈燕谋": {
-      "en": "Shen Yanmou",
-      "pinyin": "Shen Yanmou",
-      "status": "provisional",
-      "note": "A Zhang-family relative, general manager of the Dasheng mills and briefly of Dada; provisional."
-    },
-    "沈敬夫": {
-      "en": "Shen Jingfu",
-      "pinyin": "Shen Jingfu",
-      "status": "provisional",
-      "note": "Shen Yanmou's grandfather, in-law of Zhang Cha; provisional."
-    },
-    "徐陶菴": {
-      "en": "Xu Tao'an",
-      "pinyin": "Xu Tao'an",
-      "status": "provisional",
-      "note": "Yang Guanbei's uncle by marriage, a Dada director and manager of the Nantong Flour Mill; provisional."
-    },
-    "徐揭和": {
-      "en": "Xu Jiehe",
-      "pinyin": "Xu Jiehe",
-      "status": "provisional",
-      "note": "Xu Tao'an's son, US-educated, made a Dada director; provisional."
-    },
-    "沈华亭": {
-      "en": "Shen Huating",
-      "pinyin": "Shen Huating",
-      "status": "provisional",
-      "note": "A steamship-company comprador who took a gang &#8216;old man&#8217;; provisional."
-    },
-    "张延龄": {
-      "en": "Zhang Yanling",
-      "pinyin": "Zhang Yanling",
-      "status": "provisional",
-      "note": "A steamship-company comprador; provisional."
-    },
-    "沈荣三": {
-      "en": "Shen Rongsan",
-      "pinyin": "Shen Rongsan",
-      "status": "provisional",
-      "note": "A steamship-company comprador; provisional."
-    },
-    "谢葆三": {
-      "en": "Xie Baosan",
-      "pinyin": "Xie Baosan",
-      "status": "provisional",
-      "note": "A steamship-company comprador; provisional."
-    },
-    "黄慕宗": {
-      "en": "Huang Muzong",
-      "pinyin": "Huang Muzong",
-      "status": "provisional",
-      "note": "A China Merchants captain who became a gang &#8216;mountain lord&#8217;; provisional."
-    },
-    "俞仙亭": {
-      "en": "Yu Xianting",
-      "pinyin": "Yu Xianting",
-      "status": "provisional",
-      "note": "Chair of the China Merchants Five-Wharf staff union, a pupil of Du's; provisional."
-    },
-    "李公朴": {
-      "en": "Li Gongpu",
-      "pinyin": "Li Gongpu",
-      "status": "attested",
-      "note": "1902&#8211;1946; educator and democracy activist, assassinated by Nationalist agents in 1946; here head of a Northern Expedition army liaison section."
-    },
-    "吴醒亚": {
-      "en": "Wu Xingya",
-      "pinyin": "Wu Xingya",
-      "status": "attested",
-      "note": "A CC-clique Nationalist official; head of the Shanghai Bureau of Social Affairs in the 1930s."
-    },
-    "蔡劲军": {
-      "en": "Cai Jinjun",
-      "pinyin": "Cai Jinjun",
-      "status": "attested",
-      "note": "1900&#8211;1985; Shanghai's chief of police / garrison figure in the mid-1930s."
-    },
-    "许沅": {
-      "en": "Xu Yuan",
-      "pinyin": "Xu Yuan",
-      "status": "provisional",
-      "note": "A former Shanghai commissioner of foreign affairs, brought in to mediate the wharf dispute; provisional."
-    },
-    "郑锡棠": {
-      "en": "Zheng Xitang",
-      "pinyin": "Zheng Xitang",
-      "status": "provisional",
-      "note": "Comprador of the British Gongmao firm and proprietor of the Ping'an Steamship Company; provisional."
-    },
-    "李耀庭": {
-      "en": "Li Yaoting",
-      "pinyin": "Li Yaoting",
-      "status": "provisional",
-      "note": "Deputy manager of Ping'an and manager of the Yixiang Bureau, bought over by Yang Guanbei; provisional."
-    },
-    "杨庆邦": {
-      "en": "Yang Qingbang",
-      "pinyin": "Yang Qingbang",
-      "status": "provisional",
-      "note": "Dada's customs-clearance man, promoted to keep him loyal; provisional."
-    },
-    "寰仲符": {
-      "en": "Huan Zhongfu",
-      "pinyin": "Huan Zhongfu",
-      "status": "provisional",
-      "note": "A nominee in whose name the Datong ship was registered; provisional."
-    },
-    "陆伯鸿": {
-      "en": "Lu Bohong",
-      "pinyin": "Lu Bohong",
-      "status": "attested",
-      "note": "1875&#8211;1937; the Catholic industrialist and philanthropist, a papal knight; co-founder of the Datong line."
-    },
-    "朱志尧": {
-      "en": "Zhu Zhiyao",
-      "pinyin": "Zhu Zhiyao",
-      "status": "attested",
-      "note": "1863&#8211;1955; the Catholic industrialist (Kiangnan Dock, machine works), co-founder of the Datong line."
-    },
-    "徐忠信": {
-      "en": "Xu Zhongxin",
-      "pinyin": "Xu Zhongxin",
-      "status": "provisional",
-      "note": "Proprietor of the Daxing Steamship Company, a Ningbo associate of Yu Qiaqing; provisional."
-    },
-    "吴颙": {
-      "en": "Wu Yong",
-      "pinyin": "Wu Yong",
-      "status": "provisional",
-      "note": "Chief of the Shanghai Shipping Administration; provisional."
-    },
-    "黄静泉": {
-      "en": "Huang Jingquan",
-      "pinyin": "Huang Jingquan",
-      "status": "provisional",
-      "note": "Huang Zhendong's father, a Java-sugar merchant; provisional."
-    },
-    "毕芳来": {
-      "en": "Bi Fanglai",
-      "pinyin": "Bi Fanglai",
-      "status": "provisional",
-      "note": "A Guangdong Road provisions dealer paraded for selling Japanese goods; provisional."
-    },
-    "宣纯叔": {
-      "en": "Xuan Chunshu",
-      "pinyin": "Xuan Chunshu",
-      "status": "provisional",
-      "note": "One of Du's men installed at Dada; provisional."
-    },
-    "阎瑞邬": {
-      "en": "Yan Ruiwu",
-      "pinyin": "Yan Ruiwu",
-      "status": "provisional",
-      "note": "One of Du's men installed at Dada; provisional."
-    },
-    "陈润青": {
-      "en": "Chen Runqing",
-      "pinyin": "Chen Runqing",
-      "status": "provisional",
-      "note": "One of Du's men installed at Dada; provisional."
-    },
-    "尹志衡": {
-      "en": "Yin Zhiheng",
-      "pinyin": "Yin Zhiheng",
-      "status": "provisional",
-      "note": "A Boycott Association man shot as a scapegoat; provisional."
-    },
-    "叶鸿英": {
-      "en": "Ye Hongying",
-      "pinyin": "Ye Hongying",
-      "status": "attested",
-      "note": "1860&#8211;1937; a Shanghai merchant and philanthropist, target of a boycott-era squeeze."
-    }
+ "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here AND authority.json (the cross-book ledger). status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). Keys starting with '_' are ignored. Seeded at the survey from authority.json; enriched per batch. Bylines/contributors are added as each article is translated.",
+ "book": {},
+ "people": {
+  "杜月笙": {
+   "en": "Du Yuesheng",
+   "pinyin": "Du Yuesheng",
+   "status": "attested",
+   "principal": true,
+   "cast_order": 1,
+   "cast": "1888&#8211;1951; the foremost of Shanghai's &#8216;three big bosses,&#8217; a Green Gang chief who rose from a fruit-stall boy to a power broker between the underworld, the concessions and the Nationalist state. The subject of seven articles here.",
+   "note": "1888&#8211;1951. Foremost of the Shanghai Green Gang &#8216;three tycoons.&#8217; Pinyin form standard across the collection."
   },
-  "organizations": {
-    "青帮": {
-      "en": "the Green Gang",
-      "pinyin": "Qingbang",
-      "status": "attested",
-      "note": "青帮; the great secret-society brotherhood of the lower Yangtze and Shanghai. Rendered &#8216;Green Gang&#8217; across the collection."
-    },
-    "洪门": {
-      "en": "the Hongmen",
-      "pinyin": "Hongmen",
-      "status": "attested",
-      "note": "洪门; the sworn-brotherhood secret society of south China (the &#8216;Red Gang,&#8217; 洪帮). Kept as Hongmen across the collection."
-    },
-    "恒社": {
-      "en": "the Heng Society",
-      "pinyin": "Hengshe",
-      "status": "provisional",
-      "note": "恒社; Du Yuesheng's mutual-aid society, founded 1932, through which he organized his following. Its charter and 1934 member roll are the book's appendices."
-    },
-    "仁社": {
-      "en": "the Ren Society",
-      "pinyin": "Renshe",
-      "status": "provisional",
-      "note": "仁社; the society founded around the elder gang master Zhang Renkui, a counterpart to Du Yuesheng's Heng Society."
-    },
-    "军统": {
-      "en": "the Juntong",
-      "pinyin": "Juntong",
-      "status": "decided",
-      "note": "军统; the Nationalists' Bureau of Investigation and Statistics (secret service). Cross-shelf rendering is unsettled (Military Statistics Bureau / the Juntong); this book's rendering is decided at the batch that translates ch21 and reconciled into authority.json then."
-    },
-    "毅社": {
-      "en": "the Yi Society",
-      "pinyin": "Yishe",
-      "status": "provisional",
-      "note": "<span lang=\"zh-Hans\">&#27589;&#31038;</span>; the disciple-society the author founded in 1934&#8211;36 among Shanghai unionists, modelled on Du Yuesheng&#8217;s Heng Society; its emblem punned on the author&#8217;s name, Zhu Xuefan."
-    },
-    "畅社": {
-      "en": "the Chang Society",
-      "pinyin": "Changshe",
-      "status": "provisional",
-      "note": "<span lang=\"zh-Hans\">&#30021;&#31038;</span>; the rival postal disciple-society founded by Zhang Kechang."
-    },
-    "别动队": {
-      "en": "the Special Operations Corps",
-      "pinyin": "biedongdui",
-      "status": "decided",
-      "note": "<span lang=\"zh-Hans\">&#21035;&#21160;&#38431;</span>; the irregular units raised from Green Gang and Hongmen men during the 1937 Battle of Shanghai, armed and run in connection with Dai Li&#8217;s secret service."
-    },
-    "天地会": {
-      "en": "the Heaven and Earth Society",
-      "status": "decided",
-      "note": "The Tiandihui, the great anti-Qing sworn-brotherhood movement of south China, aiming to &#8216;overthrow the Qing and restore the Ming&#8217;; part of the Hongmen tradition.",
-      "pinyin": "Tiandihui"
-    },
-    "罗教": {
-      "en": "the Luo sect",
-      "status": "decided",
-      "pinyin": "Luojiao"
-    },
-    "罗祖教": {
-      "en": "the Luo sect",
-      "status": "decided",
-      "pinyin": "Luozujiao"
-    },
-    "安庆道友会": {
-      "en": "the Anqing Fellowship",
-      "status": "decided",
-      "note": "The Anqing Daoyou Hui, rendered &#8216;the Anqing Fellowship of the Way&#8217;; the fuller early form of the Green Gang, from which the names An-Qing Gang, Clear Gang, and Green Gang evolved.",
-      "pinyin": "Anqing Daoyou Hui"
-    },
-    "荣社": {
-      "en": "the Rong Society",
-      "status": "decided",
-      "note": "Huang Jinrong&#8217;s disciple-organization, its name taken from his.",
-      "pinyin": "Rong She"
-    },
-    "文社": {
-      "en": "the Wen Society",
-      "status": "decided",
-      "pinyin": "Wen She"
-    },
-    "忠义救国军": {
-      "en": "the Loyal and Patriotic Army",
-      "status": "decided",
-      "note": "A Dai Li / Juntong-affiliated irregular force active in the lower Yangtze during the war.",
-      "pinyin": "Zhongyi Jiuguo Jun"
-    },
-    "三合会": {
-      "en": "the Three Harmonies Society",
-      "pinyin": "Sanhehui",
-      "status": "attested",
-      "note": "The Triads of Western usage."
-    },
-    "哥老会": {
-      "en": "the Elder Brothers Society",
-      "pinyin": "Gelaohui",
-      "status": "attested"
-    },
-    "致公堂": {
-      "en": "the Chee Kung Tong",
-      "pinyin": "Zhigongtang",
-      "status": "attested",
-      "note": "The overseas Hongmen lodge network; Cantonese romanization."
-    },
-    "小刀会": {
-      "en": "the Small Sword Society",
-      "pinyin": "Xiaodaohui",
-      "status": "attested"
-    },
-    "三点会": {
-      "en": "the Three Dots Society",
-      "pinyin": "Sandianhui",
-      "status": "decided"
-    },
-    "大刀会": {
-      "en": "the Big Sword Society",
-      "pinyin": "Dadaohui",
-      "status": "decided"
-    },
-    "汉留": {
-      "en": "the Hanliu",
-      "pinyin": "Hanliu",
-      "status": "provisional",
-      "note": "Literally the 'Remnant of Han.'"
-    },
-    "兴中会": {
-      "en": "the Revive China Society",
-      "pinyin": "Xingzhonghui",
-      "status": "attested"
-    },
-    "中国革命同盟会": {
-      "en": "the Chinese Revolutionary Alliance",
-      "pinyin": "Tongmenghui",
-      "status": "attested",
-      "note": "The Tongmenghui."
-    },
-    "华兴会": {
-      "en": "the China Arise Society",
-      "pinyin": "Huaxinghui",
-      "status": "decided"
-    },
-    "兴汉会": {
-      "en": "the Revive Han Society",
-      "pinyin": "Xinghanhui",
-      "status": "decided"
-    },
-    "洪兴协会": {
-      "en": "the Hongxing Association",
-      "pinyin": "Hongxing xiehui",
-      "status": "decided"
-    },
-    "五圣山": {
-      "en": "the Wusheng Mountain",
-      "pinyin": "Wusheng Shan",
-      "status": "decided"
-    },
-    "黄道会": {
-      "en": "the Yellow Way Society",
-      "pinyin": "Huangdaohui",
-      "status": "decided"
-    },
-    "三鑫公司": {
-      "en": "the Sanxin Company",
-      "pinyin": "Sanxin Gongsi",
-      "status": "decided"
-    },
-    "中华共进会": {
-      "en": "the China Mutual Progress Society",
-      "pinyin": "Zhonghua Gongjinhui",
-      "status": "attested"
-    },
-    "晶报": {
-      "en": "The Crystal",
-      "pinyin": "Jingbao",
-      "status": "attested"
-    },
-    "峪云山": {
-      "en": "Yuyun Mountain",
-      "pinyin": "Yuyun Shan",
-      "status": "provisional"
-    },
-    "忠信社": {
-      "en": "the Zhongxin Society",
-      "pinyin": "Zhongxin she",
-      "status": "provisional",
-      "note": "&#8220;Loyalty and Faith&#8221; Society; the disciple-society Huang Jinrong let his men form in 1936 to undermine Du Yuesheng&#8217;s Heng Society. Named from the &#8220;learning, conduct, loyalty, faith&#8221; tablet in Chiang Kai-shek&#8217;s hand at the Huang garden; revived after the war as the Rong Society."
-    },
-    "益社": {
-      "en": "Yi She",
-      "pinyin": "Yi She",
-      "status": "attested",
-      "note": "The disciple-fraternity Fan Shaozeng, this chapter's narrator, ran in Shanghai on the model of Du Yuesheng's Heng Society."
-    },
-    "港济公司": {
-      "en": "the Gangji Company",
-      "pinyin": "Gangji Gongsi",
-      "status": "attested",
-      "note": "The opium-trafficking front company Du set up with Dai Li in 1939, with offices in Chongqing and Hong Kong, nominally under Gu Jiatang."
-    },
-    "通济公司": {
-      "en": "the Tongji Company",
-      "pinyin": "Tongji Gongsi",
-      "status": "attested",
-      "note": "The wartime trading company (c. 1943) fronted by Du for Dai Li, smuggling goods to and from the occupied areas under cover of Juntong privilege."
-    },
-    "中美合作所": {
-      "en": "the Sino-American Cooperation Organization",
-      "pinyin": "Zhong-Mei Hezuosuo",
-      "status": "attested"
-    },
-    "扬子公司": {
-      "en": "the Yangtze Company",
-      "pinyin": "Yangzi Gongsi",
-      "status": "attested",
-      "note": "Kong Lingkan's Shanghai firm, a byword for wartime and postwar profiteering under the protection of H. H. Kung."
-    },
-    "保密局": {
-      "en": "the Baomiju",
-      "pinyin": "Baomiju",
-      "status": "attested",
-      "note": "The Bureau of Confidential Affairs, the 1946 renaming of the Juntong secret service."
-    },
-    "洪帮": {
-      "en": "the Hongmen",
-      "pinyin": "Hongmen",
-      "status": "attested",
-      "note": "The other great Chinese secret-society tradition beside the Green Gang; weaker in Shanghai, stronger in the north."
-    },
-    "中汇银行": {
-      "en": "the Zhonghui Bank",
-      "pinyin": "Zhonghui",
-      "status": "attested",
-      "note": "Du Yuesheng's own bank (the China &amp; Overseas Bank), a pillar of his finances. Rendered &#8216;Zhonghui Bank&#8217; across the collection."
-    },
-    "正始中学": {
-      "en": "the Zhengshi Middle School",
-      "pinyin": "Zhengshi Zhongxue",
-      "status": "decided",
-      "note": "A school Du Yuesheng ran and subsidized; Chen Qun was its principal."
-    },
-    "大东书局": {
-      "en": "the Dadong Book Company",
-      "pinyin": "Dadong Shuju",
-      "status": "attested",
-      "note": "A major Shanghai publishing house; Du Weiping was its deputy general manager."
-    },
-    "祥生汽车公司": {
-      "en": "the Xiangsheng Taxi Company",
-      "pinyin": "Xiangsheng Qiche Gongsi",
-      "status": "attested",
-      "note": "A leading Shanghai taxi firm (Johnson Taxi), founded by Zhou Xiangsheng."
-    },
-    "南洋兄弟烟草公司": {
-      "en": "the Nanyang Brothers Tobacco Company",
-      "pinyin": "Nanyang Xiongdi Yancao Gongsi",
-      "status": "attested",
-      "note": "One of China's largest cigarette makers, founded by the Jian brothers."
-    },
-    "招商局": {
-      "en": "the China Merchants company",
-      "pinyin": "Zhaoshangju",
-      "status": "attested",
-      "note": "The China Merchants Steam Navigation Company."
-    },
-    "通商银行": {
-      "en": "the Commercial Bank",
-      "pinyin": "Tongshang Yinhang",
-      "status": "decided",
-      "note": "The Commercial Bank of China (中国通商银行), of whose board Du became chairman."
-    },
-    "大运公司": {
-      "en": "the Dayun Company",
-      "pinyin": "Dayun Gongsi",
-      "status": "decided",
-      "note": "The company set up to run the aviation-lottery monopoly, with Jin Tingsun as GM."
-    },
-    "上海地方协会": {
-      "en": "the Shanghai Local Association",
-      "pinyin": "Shanghai Difang Xiehui",
-      "status": "decided",
-      "note": "A civic body of the 1930s."
-    },
-    "江苏长途汽车公司": {
-      "en": "the Jiangsu Long-Distance Bus Company",
-      "pinyin": "Jiangsu Changtu Qiche Gongsi",
-      "status": "decided",
-      "note": "A firm Wang Xiaolai managed by Du's arrangement."
-    },
-    "大达轮船公司": {
-      "en": "the Dada Steamship Company",
-      "pinyin": "Dada Lunchuan Gongsi",
-      "status": "decided",
-      "note": "Zhang Jian's Nantong shipping line, the company Du broke into."
-    },
-    "大通仁记航业公司": {
-      "en": "the Datong Renji Navigation Company",
-      "pinyin": "Datong Renji",
-      "status": "decided",
-      "note": "Yang Zaitian's Subei-route rival, later Dada's ally."
-    },
-    "平安轮船公司": {
-      "en": "the Ping'an Steamship Company",
-      "pinyin": "Ping'an",
-      "status": "decided",
-      "note": "Zheng Xitang's line."
-    },
-    "达兴商轮公司": {
-      "en": "the Daxing Commercial Steamship Company",
-      "pinyin": "Daxing",
-      "status": "decided",
-      "note": "Xu Zhongxin's line."
-    },
-    "三北轮船公司": {
-      "en": "the Sanbei Steamship Company",
-      "pinyin": "Sanbei",
-      "status": "decided",
-      "note": "Yu Qiaqing's shipping line."
-    },
-    "华新轮船公司": {
-      "en": "the Huaxin Steamship Company",
-      "pinyin": "Huaxin",
-      "status": "decided",
-      "note": "Huang Zhendong's sole proprietorship."
-    },
-    "益祥轮船局": {
-      "en": "the Yixiang Shipping Bureau",
-      "pinyin": "Yixiang",
-      "status": "decided",
-      "note": "A shell bureau used to register the ex-Datong ship."
-    },
-    "永济航业公司": {
-      "en": "the Yongji Navigation Company",
-      "pinyin": "Yongji",
-      "status": "decided",
-      "note": "Yang Zaitian's original salt-trade shipping firm."
-    },
-    "大生纱厂": {
-      "en": "the Dasheng Cotton Mill",
-      "pinyin": "Dasheng Shachang",
-      "status": "attested",
-      "note": "Zhang Jian's cotton mills at Nantong, a landmark of early Chinese industry."
-    },
-    "怡和洋行": {
-      "en": "Jardine Matheson",
-      "pinyin": "Yihe Yanghang",
-      "status": "attested",
-      "note": "The British trading house Jardine, Matheson and Co. (Chinese hong-name Ewo). Book form \"Jardine Matheson\", per ch07/ch18; ch03 uses the colloquial \"Jardine’s\" in a factory list."
-    },
-    "渣华公司": {
-      "en": "the Java-China Line",
-      "pinyin": "Zhahua",
-      "status": "decided",
-      "note": "The Dutch Java-China-Japan Line (JCJL / Koninklijke Java-China-Paketvaart Lijnen)."
-    },
-    "汉冶萍煤铁公司": {
-      "en": "the Hanyeping Coal and Iron Company",
-      "pinyin": "Hanyeping",
-      "status": "attested",
-      "note": "China's pioneering iron-and-coal combine."
-    },
-    "山下株式会社": {
-      "en": "Yamashita Kaisha",
-      "pinyin": "Yamashita",
-      "status": "attested",
-      "note": "The Japanese shipping firm Yamashita Kisen K.K."
-    },
-    "江南造船厂": {
-      "en": "the Jiangnan Shipyard",
-      "pinyin": "Jiangnan Zaochuanchang",
-      "status": "attested",
-      "note": "The Jiangnan (Kiangnan) Dock and shipyard in Shanghai."
-    },
-    "元和糖行": {
-      "en": "the Yuanhe Sugar House",
-      "pinyin": "Yuanhe Tanghang",
-      "status": "provisional",
-      "note": "Huang Jingquan's Java-sugar firm; provisional."
-    },
-    "大中华旅馆": {
-      "en": "the Great China Hotel",
-      "pinyin": "Dazhonghua Lüguan",
-      "status": "decided",
-      "note": "A Shanghai hotel of which Dai Buxiang was proprietor."
-    },
-    "得记钱庄": {
-      "en": "the Deji native bank",
-      "pinyin": "Deji Qianzhuang",
-      "status": "provisional",
-      "note": "The Nantong native bank whose failure cost Dada its deposit; provisional."
-    },
-    "滋丰钱庄": {
-      "en": "the Zifeng native bank",
-      "pinyin": "Zifeng Qianzhuang",
-      "status": "provisional",
-      "note": "The Shanghai native bank through which Dada shares were bought for Du; provisional."
-    },
-    "交通银行": {
-      "en": "the Bank of Communications",
-      "pinyin": "Jiaotong Yinhang",
-      "status": "attested",
-      "note": "One of China's major government banks."
-    },
-    "上海市社会局": {
-      "en": "the Shanghai Municipal Bureau of Social Affairs",
-      "pinyin": "Shanghai Shi Shehuiju",
-      "status": "decided",
-      "note": "The city bureau Du used to force Dada's reorganization."
-    },
-    "上海航政局": {
-      "en": "the Shanghai Shipping Administration",
-      "pinyin": "Shanghai Hangzhengju",
-      "status": "decided",
-      "note": "The shipping-licensing authority."
-    },
-    "交通部": {
-      "en": "the Ministry of Communications",
-      "pinyin": "Jiaotongbu",
-      "status": "decided",
-      "note": "The Nationalist ministry over railways, posts and shipping."
-    },
-    "上海航业公会": {
-      "en": "the Shanghai Shipping Guild",
-      "pinyin": "Shanghai Hangye Gonghui",
-      "status": "decided",
-      "note": "The shipowners' guild, treated by Yu Qiaqing as his instrument."
-    },
-    "经济绝交大同盟": {
-      "en": "the Grand Alliance for Economic Severance",
-      "pinyin": "Jingji Juejiao Datongmeng",
-      "status": "decided",
-      "note": "The anti-Japanese boycott body, nicknamed the &#8216;Boycott Association.&#8217;"
-    },
-    "公教进行会": {
-      "en": "Catholic Action",
-      "pinyin": "Gongjiao Jinxinghui",
-      "status": "attested",
-      "note": "The lay Catholic organization (Actio Catholica)."
-    },
-    "之江大学": {
-      "en": "Zhijiang University",
-      "pinyin": "Zhijiang Daxue",
-      "status": "attested",
-      "note": "Hangchow (Zhijiang) University, a missionary college."
-    },
-    "南通面粉厂": {
-      "en": "the Nantong Flour Mill",
-      "pinyin": "Nantong Mianfenchang",
-      "status": "decided",
-      "note": "A Zhang-family mill managed by Xu Tao'an."
-    },
-    "祥茂洋行": {
-      "en": "the Xiangmao firm",
-      "pinyin": "Xiangmao Yanghang",
-      "status": "provisional",
-      "note": "A British trading firm whose shipping was crushed by Dada; provisional."
-    },
-    "公茂洋行": {
-      "en": "the Gongmao firm",
-      "pinyin": "Gongmao Yanghang",
-      "status": "provisional",
-      "note": "A British firm; Zheng Xitang was its comprador; provisional."
-    }
+  "黄金荣": {
+   "en": "Huang Jinrong",
+   "pinyin": "Huang Jinrong",
+   "status": "attested",
+   "principal": true,
+   "cast_order": 2,
+   "cast": "1868&#8211;1953; the senior of the three bosses, and the only Chinese chief detective of the French Concession police. Three articles here.",
+   "note": "Green Gang boss and the sole Chinese chief inspector of the French Concession detective squad; Chiang Kai-shek was once nominally his disciple."
   },
-  "places": {
-    "大世界": {
-      "en": "the Great World",
-      "pinyin": "Da Shijie",
-      "status": "attested"
-    },
-    "十六铺": {
-      "en": "Shiliupu",
-      "pinyin": "Shiliupu",
-      "status": "attested",
-      "note": "The wharf-and-market quarter on the Huangpu at the edge of the old Chinese city, Shanghai's busiest goods landing; where Du Yuesheng got his start."
-    },
-    "华格臬路": {
-      "en": "Rue Wagner",
-      "pinyin": "Huagenie Lu",
-      "status": "attested",
-      "note": "A street in the French Concession, today's Ninghai West Road; site of Du Yuesheng's chief residence."
-    },
-    "杜美路": {
-      "en": "Route Doumer",
-      "pinyin": "Dumei Lu",
-      "status": "attested",
-      "note": "A French Concession street, today's Donghu Road."
-    },
-    "哈同花园": {
-      "en": "the Hardoon Garden",
-      "pinyin": "Hatong Huayuan",
-      "status": "attested",
-      "note": "Aili Garden, the vast Nanjing Road estate of the Baghdadi-Jewish tycoon Silas Hardoon."
-    },
-    "福煦路": {
-      "en": "Avenue Foch",
-      "pinyin": "Fuxu Lu",
-      "status": "attested",
-      "note": "A French Concession street, today's Yan'an Middle Road (eastern stretch)."
-    },
-    "复兴岛": {
-      "en": "Fuxing Island",
-      "pinyin": "Fuxing Dao",
-      "status": "attested",
-      "note": "An island in the Huangpu where Chiang Kai-shek stayed and received callers on the eve of the fall of Shanghai."
-    },
-    "亨利路": {
-      "en": "Route Paul Henry",
-      "pinyin": "Henglilu",
-      "status": "attested",
-      "note": "French Concession road (Route Paul Henry), today's Xinle Road."
-    },
-    "辣斐德路": {
-      "en": "Route Lafayette",
-      "pinyin": "Lafeidelu",
-      "status": "attested",
-      "note": "French Concession road (Route Lafayette), today's Fuxing Middle Road."
-    },
-    "敏体尼荫路": {
-      "en": "Rue Montauban",
-      "pinyin": "Mintiniyinlu",
-      "status": "attested",
-      "note": "French Concession road, today's South Xizang Road. Book form 'Rue Montauban' matches ch08; historically this was Route Montigny (敏体尼 = Montigny) -- FLAG FOR B10 reconciliation."
-    },
-    "丽都花园": {
-      "en": "the Lido Garden",
-      "pinyin": "Lidu Huayuan",
-      "status": "attested",
-      "note": "A Shanghai entertainment garden/ballroom Du frequented."
-    },
-    "华懋饭店": {
-      "en": "the Cathay Hotel",
-      "pinyin": "Huamao Fandian",
-      "status": "attested",
-      "note": "Sassoon's Cathay Hotel on the Bund (今 Peace Hotel north building)."
-    },
-    "城隍庙": {
-      "en": "the City God Temple",
-      "pinyin": "Chenghuang Miao",
-      "status": "attested",
-      "note": "The City God Temple in the old Shanghai city."
-    },
-    "金利源码头": {
-      "en": "the Jinliyuan Wharf",
-      "pinyin": "Jinliyuan Matou",
-      "status": "decided",
-      "note": "The China Merchants' Jinliyuan wharf, haunt of young Du's gambling."
-    },
-    "郑家木桥": {
-      "en": "Zhengjia Wooden Bridge",
-      "pinyin": "Zhengjiamuqiao",
-      "status": "decided",
-      "note": "A quarter and old bridge on the French Concession edge; book form 'Zhengjia Wooden Bridge', per ch08."
-    },
-    "八仙桥": {
-      "en": "Baxianqiao",
-      "pinyin": "Baxianqiao",
-      "status": "attested",
-      "note": "A district of the French Concession (lit. 'Eight Immortals Bridge'). Book form 'Baxianqiao', consistent across ch08/13/14/16."
-    },
-    "小东门": {
-      "en": "the Small East Gate",
-      "pinyin": "Xiaodongmen",
-      "status": "decided",
-      "note": "The Small East Gate quarter of the old Shanghai city (per ch08)."
-    },
-    "共舞台": {
-      "en": "the Gongwutai",
-      "pinyin": "Gongwutai",
-      "status": "provisional",
-      "note": "A Shanghai opera theater where Yao Yulan and Yuying performed."
-    },
-    "长生桥": {
-      "en": "Changsheng Bridge",
-      "pinyin": "Changshengqiao",
-      "status": "decided",
-      "note": "A place in the old walled city; crop-verified (OCR misread 长生帮)."
-    },
-    "莫干山": {
-      "en": "Moganshan",
-      "pinyin": "Moganshan",
-      "status": "attested",
-      "note": "The hill resort in Zhejiang where Du kept a villa."
-    },
-    "里咸瓜街": {
-      "en": "Li Xiangua Street",
-      "pinyin": "Li Xianguajie",
-      "status": "decided",
-      "note": "A street by the money-shop guildhall (then Xiexing Street) in the old city."
-    },
-    "金陵东路": {
-      "en": "East Jinling Road",
-      "pinyin": "Jinling Donglu",
-      "status": "decided",
-      "note": "Today's name for the former Rue du Consulat (法大马路). Book form 'East Jinling Road', per ch08/14/16."
-    },
-    "南通": {
-      "en": "Nantong",
-      "pinyin": "Nantong",
-      "status": "attested",
-      "note": "The Jiangsu city on the north bank of the Yangtze, Zhang Jian's base."
-    },
-    "扬州": {
-      "en": "Yangzhou",
-      "pinyin": "Yangzhou",
-      "status": "attested",
-      "note": "The Grand Canal city of Subei."
-    },
-    "苏北": {
-      "en": "northern Jiangsu",
-      "pinyin": "Subei",
-      "status": "decided",
-      "note": "Northern Jiangsu (Subei), the region north of the Yangtze served by the Dada route. Book form \"northern Jiangsu\", per ch09/12/13/15."
-    },
-    "镇江": {
-      "en": "Zhenjiang",
-      "pinyin": "Zhenjiang",
-      "status": "attested",
-      "note": "The Yangtze city, Yang Guanbei's home."
-    },
-    "天生港": {
-      "en": "Tianshenggang",
-      "pinyin": "Tianshenggang",
-      "status": "provisional",
-      "note": "The river port near Nantong with Dada's wharf; provisional."
-    },
-    "龙潭": {
-      "en": "Longtan",
-      "pinyin": "Longtan",
-      "status": "attested",
-      "note": "The 1927 battle where Sun Chuanfang was routed."
-    },
-    "海门": {
-      "en": "Haimen",
-      "pinyin": "Haimen",
-      "status": "attested",
-      "note": "A county at the Yangtze mouth on the Beisha line."
-    },
-    "启东": {
-      "en": "Qidong",
-      "pinyin": "Qidong",
-      "status": "attested",
-      "note": "A county at the Yangtze mouth on the Beisha line."
-    },
-    "河南路": {
-      "en": "Henan Road",
-      "pinyin": "Henanlu",
-      "status": "decided",
-      "note": "The Shanghai road with the Tianhou Temple."
-    },
-    "天后宫": {
-      "en": "the Tianhou Temple",
-      "pinyin": "Tianhou Gong",
-      "status": "decided",
-      "note": "The Empress-of-Heaven (Mazu) temple on Henan Road, the boycott body's office."
-    },
-    "广东路": {
-      "en": "Guangdong Road",
-      "pinyin": "Guangdonglu",
-      "status": "decided",
-      "note": "A Shanghai commercial road."
-    }
+  "张啸林": {
+   "en": "Zhang Xiaolin",
+   "pinyin": "Zhang Xiaolin",
+   "status": "attested",
+   "principal": true,
+   "cast_order": 3,
+   "cast": "1877&#8211;1940; the third of the three bosses, a Hangzhou-born strongman; later a collaborator with the Japanese, assassinated in 1940.",
+   "note": "One of the &#8216;three big bosses&#8217; of the Shanghai gangs, with Huang Jinrong and Du Yuesheng."
   },
-  "terms": {
-    "帮会": {
-      "en": "the gangs",
-      "pinyin": "banghui",
-      "status": "decided",
-      "note": "帮会; the secret-society brotherhoods (青帮 and 洪门) collectively &#8212; the book's subject. Rendered &#8216;the gangs&#8217; or &#8216;the secret-society gangs&#8217; as context needs; the title's 帮会 is &#8216;Gangs.&#8217;"
-    },
-    "通草": {
-      "en": "tongcao",
-      "status": "provisional",
-      "note": "The gang&#8217;s internal secret handbooks (<span lang=\"zh-Hans\">&#36890;&#33609;</span>, also written <span lang=\"zh-Hans\">&#36890;&#28518;</span>, <span lang=\"zh-Hans\">&#36890;&#38062;</span>, or <span lang=\"zh-Hans\">&#32479;&#25220;</span>), recording the patriarchs, the boat system, gang rules, ritual, and argot; kept provisional as no standard English form is attested.",
-      "pinyin": "tongcao"
-    },
-    "香堂": {
-      "en": "incense hall",
-      "status": "decided",
-      "note": "The <i>xiangtang</i>, the altar-hall where initiations and gang rites were held, before the spirit-tablets of the patriarchs.",
-      "pinyin": "xiangtang"
-    },
-    "青皮": {
-      "en": "green skin",
-      "status": "decided",
-      "note": "Literally &#8216;green skin&#8217;; a term for a bold local tough, one proposed origin of the name &#8216;Green Gang.&#8217;",
-      "pinyin": "qingpi"
-    },
-    "海底": {
-      "en": "the \"Seabed\"",
-      "pinyin": "haidi",
-      "status": "decided",
-      "note": "The Hongmen's book of rules and ritual."
-    },
-    "红花亭": {
-      "en": "the Red Flower Pavilion",
-      "pinyin": "Honghuating",
-      "status": "decided"
-    }
+  "顾竹轩": {
+   "en": "Gu Zhuxuan",
+   "pinyin": "Gu Zhuxuan",
+   "status": "provisional",
+   "principal": true,
+   "cast_order": 4,
+   "cast": "b. 1885; Green Gang boss of the Zhabei district, rickshaw-fleet magnate and owner of the Tianchan Stage; sheltered Communist underground workers.",
+   "note": "Jiangsu-born gang figure who dominated Zhabei; two articles here treat his rise and his cover for revolutionary work."
+  },
+  "张仁奎": {
+   "en": "Zhang Renkui",
+   "pinyin": "Zhang Renkui",
+   "status": "provisional",
+   "principal": true,
+   "cast_order": 5,
+   "cast": "1865&#8211;1944; a senior Green Gang master of the &#8216;Big&#8217; (Da) generation whose disciples filled Shanghai; founder of the Ren Society.",
+   "note": "Elder Green Gang figure; Du Yuesheng and many others were ranked below his generation."
+  },
+  "戴笠": {
+   "en": "Dai Li",
+   "pinyin": "Dai Li",
+   "status": "attested",
+   "principal": true,
+   "cast_order": 6,
+   "cast": "1897&#8211;1946; head of the Nationalists' secret service (the Juntong); Du Yuesheng's wartime partner.",
+   "note": "Head of the Nationalists' Bureau of Investigation and Statistics (军统/Juntong), the KMT secret police."
+  },
+  "朱学范": {
+   "en": "Zhu Xuefan",
+   "pinyin": "Zhu Xuefan",
+   "status": "attested",
+   "note": "1905&#8211;1996; postal-workers&#8217; leader who rose through the Green Gang and the Nationalist labour apparatus, broke with the Kuomintang in 1948, and became a minister and vice-chairman of the NPC Standing Committee in the People&#8217;s Republic. Author of this article and calligrapher of the book&#8217;s title."
+  },
+  "陆京士": {
+   "en": "Lu Jingshi",
+   "pinyin": "Lu Jingshi",
+   "status": "provisional",
+   "note": "d. 1975; Du Yuesheng&#8217;s foremost disciple in the labour world, boss of the postal union and a Nationalist party and Garrison Command official; the author&#8217;s colleague and rival. Followed the Kuomintang to Taiwan."
+  },
+  "李立三": {
+   "en": "Li Lisan",
+   "pinyin": "Li Lisan",
+   "status": "attested",
+   "note": "1899&#8211;1967; early Communist labour organizer, a leader of the May Thirtieth Movement and briefly the Party&#8217;s top leader (the &#8216;Li Lisan line,&#8217; 1930)."
+  },
+  "杨度": {
+   "en": "Yang Du",
+   "pinyin": "Yang Du",
+   "status": "attested",
+   "note": "1875&#8211;1931; classical scholar who championed constitutional monarchy under Yuan Shikai, then reinvented himself&#8212;joining the Communist Party in secret in 1929 while serving as an adviser to Du Yuesheng. His CCP membership was made public only in 1975."
+  },
+  "李大钊": {
+   "en": "Li Dazhao",
+   "pinyin": "Li Dazhao",
+   "status": "attested",
+   "note": "1889&#8211;1927; co-founder of the Chinese Communist Party. Seized from the Soviet embassy in Beijing and hanged on Zhang Zuolin&#8217;s orders in April 1927."
+  },
+  "赵朴初": {
+   "en": "Zhao Puchu",
+   "pinyin": "Zhao Puchu",
+   "status": "attested",
+   "note": "1907&#8211;2000; Buddhist lay leader, poet, and relief organizer; secretly aided the Communist underground through Shanghai&#8217;s charitable and refugee bodies in the war years, and later headed the Buddhist Association of China."
+  },
+  "闻兰亭": {
+   "en": "Wen Lanting",
+   "pinyin": "Wen Lanting",
+   "status": "provisional",
+   "note": "Green Gang figure prominent in Shanghai commercial and charitable circles; used by the underground through the wartime relief committees, later pressed into a puppet commercial-control post."
+  },
+  "关炯之": {
+   "en": "Guan Jiongzhi",
+   "pinyin": "Guan Jiongzhi",
+   "status": "provisional"
+  },
+  "向海潜": {
+   "en": "Xiang Haiqian",
+   "pinyin": "Xiang Haiqian",
+   "status": "attested",
+   "note": "1888&#8211;1974; also called Xiang Songpo; a leader of the Hongmen (the &#8216;Five Lakes&#8217; lodges) and a veteran of the 1911 Revolution."
+  },
+  "张克昌": {
+   "en": "Zhang Kechang",
+   "pinyin": "Zhang Kechang",
+   "status": "provisional",
+   "note": "Postal-union gangster and the author&#8217;s fellow disciple under Du Yuesheng; founder of the Chang Society (<span lang=\"zh-Hans\">&#30021;&#31038;</span>), who went over to the puppet Wang Jingwei regime as a deputy minister."
+  },
+  "金廷荪": {
+   "en": "Jin Tingsun",
+   "pinyin": "Jin Tingsun",
+   "status": "provisional",
+   "note": "Green Gang figure and Du Yuesheng associate; patron of the Ming Society (<span lang=\"zh-Hans\">&#38125;&#31038;</span>), one of the disciple-societies modelled on Du&#8217;s Heng Society."
+  },
+  "章士钊": {
+   "en": "Zhang Shizhao",
+   "pinyin": "Zhang Shizhao",
+   "status": "attested",
+   "note": "1881&#8211;1973; scholar, lawyer, and sometime Beiyang education minister who named Du Yuesheng&#8217;s Heng Society; later a noted public figure in the People&#8217;s Republic."
+  },
+  "汪精卫": {
+   "en": "Wang Jingwei",
+   "pinyin": "Wang Jingwei",
+   "status": "attested",
+   "note": "1883&#8211;1944; senior Nationalist leader who in 1938 defected to Japan and headed the collaborationist &#8216;reorganized&#8217; government at Nanjing; his name is a byword in these pages for the puppet regime."
+  },
+  "吴铁城": {
+   "en": "Wu Tiecheng",
+   "pinyin": "Wu Tiecheng",
+   "status": "attested",
+   "note": "1888&#8211;1953; mayor of Shanghai 1932&#8211;37."
+  },
+  "吴成方": {
+   "en": "Wu Chengfang",
+   "pinyin": "Wu Chengfang",
+   "status": "provisional",
+   "note": "Author of this article; a Communist underground organizer who ran united-front work with gang and secret-society figures in Beijing and Shanghai from the 1920s to the 1940s."
+  },
+  "胡鄂公": {
+   "en": "Hu Egong",
+   "pinyin": "Hu Egong",
+   "status": "provisional",
+   "note": "1884&#8211;1951; also known as Hu Nanhu; a 1911 revolutionary and Beiyang official who joined the Communist Party in the 1920s and worked the united front among old revolutionaries and gang figures."
+  },
+  "翁文灏": {
+   "en": "Weng Wenhao",
+   "pinyin": "Weng Wenhao",
+   "status": "attested",
+   "note": "1889&#8211;1971; geologist and Nationalist official, acting president of Tsinghua University in 1931 and later premier; returned to the mainland in 1951."
+  },
+  "冯玉祥": {
+   "en": "Feng Yuxiang",
+   "pinyin": "Feng Yuxiang",
+   "status": "attested",
+   "note": "1882&#8211;1948; the &#8216;Christian general,&#8217; a warlord who at times allied with the Nationalists, the Soviets, and the left; organized the short-lived Chahar People&#8217;s Anti-Japanese Allied Army in 1933."
+  },
+  "李世瑜": {
+   "en": "Li Shiyu",
+   "pinyin": "Lǐ Shìyú",
+   "status": "decided",
+   "note": "1922&#8211;2010; folklorist and historian of Chinese popular religion and secret societies, author of this study of the Green Gang."
+  },
+  "姜豪": {
+   "en": "Jiang Hao",
+   "pinyin": "Jiāng Háo",
+   "status": "decided",
+   "note": "The author of the second study; a Baoshan-born Kuomintang figure and initiated Green Gang member of the &#8216;Da&#8217; generation who writes here partly from the inside."
+  },
+  "金幼孜": {
+   "en": "Jin Youzi",
+   "pinyin": "Jīn Yòuzī",
+   "status": "decided",
+   "note": "The gang legend&#8217;s &#8216;first patriarch.&#8217; A real Ming official (1368&#8211;1431), Grand Secretary under the Yongle emperor; the gang genealogy built around him is legend."
+  },
+  "罗清": {
+   "en": "Luo Qing",
+   "pinyin": "Luó Qīng",
+   "status": "decided",
+   "note": "The gang legend&#8217;s &#8216;second patriarch,&#8217; conflated with Patriarch Luo, founder of the Luo (Non-Action) sect."
+  },
+  "陆逵": {
+   "en": "Lu Kui",
+   "pinyin": "Lù Kuí",
+   "status": "decided"
+  },
+  "翁岩": {
+   "en": "Weng Yan",
+   "pinyin": "Wēng Yán",
+   "status": "decided"
+  },
+  "钱坚": {
+   "en": "Qian Jian",
+   "pinyin": "Qián Jiān",
+   "status": "decided"
+  },
+  "潘清": {
+   "en": "Pan Qing",
+   "pinyin": "Pān Qīng",
+   "status": "decided",
+   "note": "Of the three founder-patriarchs, Pan is reckoned the chief; Green Gang men called one another &#8216;the Pan brothers.&#8217;"
+  },
+  "王伦": {
+   "en": "Wang Lun",
+   "pinyin": "Wáng Lún",
+   "status": "decided",
+   "note": "d. 1774; leader of the Clear Water sect (a White Lotus offshoot) whose 1774 rising at Linqing drew on the grain-transport boatmen."
+  },
+  "陈世昌": {
+   "en": "Chen Shichang",
+   "pinyin": "Chén Shìchāng",
+   "status": "decided",
+   "note": "Du Yuesheng&#8217;s Green Gang master."
+  },
+  "杨虎": {
+   "en": "Yang Hu",
+   "pinyin": "Yáng Hǔ",
+   "status": "decided",
+   "note": "Also named Xiaotian; Songhu garrison commander and Green Gang figure."
+  },
+  "洪英": {
+   "en": "Hong Ying",
+   "pinyin": "Hong Ying",
+   "status": "decided"
+  },
+  "陈近南": {
+   "en": "Chen Jinnan",
+   "pinyin": "Chen Jinnan",
+   "status": "decided"
+  },
+  "郑成功": {
+   "en": "Zheng Chenggong",
+   "pinyin": "Zheng Chenggong",
+   "status": "attested",
+   "note": "Koxinga."
+  },
+  "万云龙": {
+   "en": "Wan Yunlong",
+   "pinyin": "Wan Yunlong",
+   "status": "decided"
+  },
+  "苏洪光": {
+   "en": "Su Hongguang",
+   "pinyin": "Su Hongguang",
+   "status": "decided"
+  },
+  "孙中山": {
+   "en": "Sun Yat-sen",
+   "pinyin": "Sun Zhongshan",
+   "status": "attested"
+  },
+  "黄兴": {
+   "en": "Huang Xing",
+   "pinyin": "Huang Xing",
+   "status": "attested"
+  },
+  "宋教仁": {
+   "en": "Song Jiaoren",
+   "pinyin": "Song Jiaoren",
+   "status": "attested"
+  },
+  "司徒美堂": {
+   "en": "Situ Meitang",
+   "pinyin": "Situ Meitang",
+   "status": "attested"
+  },
+  "徐朗西": {
+   "en": "Xu Langxi",
+   "pinyin": "Xu Langxi",
+   "status": "provisional"
+  },
+  "汪禹丞": {
+   "en": "Wang Yucheng",
+   "pinyin": "Wang Yucheng",
+   "status": "provisional"
+  },
+  "向松坡": {
+   "en": "Xiang Songpo",
+   "pinyin": "Xiang Songpo",
+   "status": "attested",
+   "note": "Xiang Haiqian; see the note at his first appearance."
+  },
+  "郑子良": {
+   "en": "Zheng Ziliang",
+   "pinyin": "Zheng Ziliang",
+   "status": "provisional"
+  },
+  "薛耕莘": {
+   "en": "Xue Gengshen",
+   "pinyin": "Xue Gengshen",
+   "status": "decided",
+   "note": "The author of this chapter; the byline prints the variant graph 畊 for 耕."
+  },
+  "虞洽卿": {
+   "en": "Yu Qiaqing",
+   "pinyin": "Yu Qiaqing",
+   "status": "attested"
+  },
+  "程子卿": {
+   "en": "Cheng Ziqing",
+   "pinyin": "Cheng Ziqing",
+   "status": "provisional"
+  },
+  "金九龄": {
+   "en": "Jin Jiuling",
+   "pinyin": "Jin Jiuling",
+   "status": "provisional"
+  },
+  "常玉清": {
+   "en": "Chang Yuqing",
+   "pinyin": "Chang Yuqing",
+   "status": "provisional"
+  },
+  "陆连奎": {
+   "en": "Lu Liankui",
+   "pinyin": "Lu Liankui",
+   "status": "attested"
+  },
+  "高鑫宝": {
+   "en": "Gao Xinbao",
+   "pinyin": "Gao Xinbao",
+   "status": "provisional"
+  },
+  "徐采丞": {
+   "en": "Xu Caicheng",
+   "pinyin": "Xu Caicheng",
+   "status": "provisional"
+  },
+  "魏廷荣": {
+   "en": "Wei Tingrong",
+   "pinyin": "Wei Tingrong",
+   "status": "provisional"
+  },
+  "露兰春": {
+   "en": "Lu Lanchun",
+   "pinyin": "Lu Lanchun",
+   "status": "attested"
+  },
+  "陈其美": {
+   "en": "Chen Qimei",
+   "pinyin": "Chen Qimei",
+   "status": "attested"
+  },
+  "川岛芳子": {
+   "en": "Kawashima Yoshiko",
+   "pinyin": "Chuandao Fangzi",
+   "status": "attested",
+   "note": "See the note at her first appearance."
+  },
+  "袁寒云": {
+   "en": "Yuan Hanyun",
+   "pinyin": "Yuan Hanyun",
+   "status": "attested",
+   "principal": true,
+   "cast_order": 20,
+   "cast": "1889&#8211;1931; the poet, collector and Green Gang celebrity Yuan Kewen, second son of Yuan Shikai, who opposed his father's monarchy. The subject of ch10, told by his disciple Chen Timin.",
+   "note": "Yuan Kewen (袁克文), hao Hanyun; pinyin form used across the collection."
+  },
+  "袁克文": {
+   "en": "Yuan Kewen",
+   "pinyin": "Yuan Kewen",
+   "status": "attested"
+  },
+  "袁世凯": {
+   "en": "Yuan Shikai",
+   "pinyin": "Yuan Shikai",
+   "status": "attested"
+  },
+  "袁克定": {
+   "en": "Yuan Keding",
+   "pinyin": "Yuan Keding",
+   "status": "attested"
+  },
+  "袁家骝": {
+   "en": "Yuan Jialiu",
+   "pinyin": "Yuan Jialiu",
+   "status": "attested"
+  },
+  "陈惕敏": {
+   "en": "Chen Timin",
+   "pinyin": "Chen Timin",
+   "status": "provisional"
+  },
+  "段祺瑞": {
+   "en": "Duan Qirui",
+   "pinyin": "Duan Qirui",
+   "status": "attested"
+  },
+  "梅兰芳": {
+   "en": "Mei Lanfang",
+   "pinyin": "Mei Lanfang",
+   "status": "attested"
+  },
+  "张宗昌": {
+   "en": "Zhang Zongchang",
+   "pinyin": "Zhang Zongchang",
+   "status": "attested"
+  },
+  "褚玉璞": {
+   "en": "Chu Yupu",
+   "pinyin": "Chu Yupu",
+   "status": "attested"
+  },
+  "许世英": {
+   "en": "Xu Shiying",
+   "pinyin": "Xu Shiying",
+   "status": "attested"
+  },
+  "隆裕太后": {
+   "en": "the Empress Dowager Longyu",
+   "pinyin": "Longyu",
+   "status": "attested"
+  },
+  "余大雄": {
+   "en": "Yu Daxiong",
+   "pinyin": "Yu Daxiong",
+   "status": "provisional"
+  },
+  "钱芥尘": {
+   "en": "Qian Jiechen",
+   "pinyin": "Qian Jiechen",
+   "status": "provisional"
+  },
+  "钱化佛": {
+   "en": "Qian Huafo",
+   "pinyin": "Qian Huafo",
+   "status": "provisional"
+  },
+  "李金标": {
+   "en": "Li Jinbiao",
+   "pinyin": "Li Jinbiao",
+   "status": "provisional"
+  },
+  "步章五": {
+   "en": "Bu Zhangwu",
+   "pinyin": "Bu Zhangwu",
+   "status": "provisional"
+  },
+  "俞佩文": {
+   "en": "Yu Peiwen",
+   "pinyin": "Yu Peiwen",
+   "status": "provisional"
+  },
+  "浦应仙": {
+   "en": "Pu Yingxian",
+   "pinyin": "Pu Yingxian",
+   "status": "provisional"
+  },
+  "吴桐渊": {
+   "en": "Wu Tongyuan",
+   "pinyin": "Wu Tongyuan",
+   "status": "provisional"
+  },
+  "张謇": {
+   "en": "Zhang Jian",
+   "pinyin": "Zhang Jian",
+   "status": "attested"
+  },
+  "张詧": {
+   "en": "Zhang Cha",
+   "pinyin": "Zhang Cha",
+   "status": "provisional"
+  },
+  "徐宝山": {
+   "en": "Xu Baoshan",
+   "pinyin": "Xu Baoshan",
+   "status": "attested"
+  },
+  "冯国璋": {
+   "en": "Feng Guozhang",
+   "pinyin": "Feng Guozhang",
+   "status": "attested"
+  },
+  "齐燮元": {
+   "en": "Qi Xieyuan",
+   "pinyin": "Qi Xieyuan",
+   "status": "attested"
+  },
+  "卢永祥": {
+   "en": "Lu Yongxiang",
+   "pinyin": "Lu Yongxiang",
+   "status": "attested"
+  },
+  "何丰林": {
+   "en": "He Fenglin",
+   "pinyin": "He Fenglin",
+   "status": "attested"
+  },
+  "李纯": {
+   "en": "Li Chun",
+   "pinyin": "Li Chun",
+   "status": "attested"
+  },
+  "陈光甫": {
+   "en": "Chen Guangfu",
+   "pinyin": "Chen Guangfu",
+   "status": "attested"
+  },
+  "朱成章": {
+   "en": "Zhu Chengzhang",
+   "pinyin": "Zhu Chengzhang",
+   "status": "provisional"
+  },
+  "钱新之": {
+   "en": "Qian Xinzhi",
+   "pinyin": "Qian Xinzhi",
+   "status": "attested"
+  },
+  "徐静仁": {
+   "en": "Xu Jingren",
+   "pinyin": "Xu Jingren",
+   "status": "provisional"
+  },
+  "葛光庭": {
+   "en": "Ge Guangting",
+   "pinyin": "Ge Guangting",
+   "status": "provisional"
+  },
+  "韩复榘": {
+   "en": "Han Fuju",
+   "pinyin": "Han Fuju",
+   "status": "attested"
+  },
+  "宋哲元": {
+   "en": "Song Zheyuan",
+   "pinyin": "Song Zheyuan",
+   "status": "attested"
+  },
+  "蒋鼎文": {
+   "en": "Jiang Dingwen",
+   "pinyin": "Jiang Dingwen",
+   "status": "attested"
+  },
+  "朱绍良": {
+   "en": "Zhu Shaoliang",
+   "pinyin": "Zhu Shaoliang",
+   "status": "attested"
+  },
+  "左宗棠": {
+   "en": "Zuo Zongtang",
+   "pinyin": "Zuo Zongtang",
+   "status": "attested"
+  },
+  "张之江": {
+   "en": "Zhang Zhijiang",
+   "pinyin": "Zhang Zhijiang",
+   "status": "attested"
+  },
+  "张竹平": {
+   "en": "Zhang Zhuping",
+   "pinyin": "Zhang Zhuping",
+   "status": "provisional"
+  },
+  "张孝若": {
+   "en": "Zhang Xiaoruo",
+   "pinyin": "Zhang Xiaoruo",
+   "status": "attested"
+  },
+  "赵子超": {
+   "en": "Zhao Zichao",
+   "pinyin": "Zhao Zichao",
+   "status": "provisional"
+  },
+  "赵丹": {
+   "en": "Zhao Dan",
+   "pinyin": "Zhao Dan",
+   "status": "attested"
+  },
+  "孔祥熙": {
+   "en": "H. H. Kung",
+   "pinyin": "Kong Xiangxi",
+   "status": "attested"
+  },
+  "宋子文": {
+   "en": "T. V. Soong",
+   "pinyin": "Song Ziwen",
+   "status": "attested"
+  },
+  "汪寿华": {
+   "en": "Wang Shouhua",
+   "pinyin": "Wang Shouhua",
+   "status": "attested"
+  },
+  "蒋介石": {
+   "en": "Chiang Kai-shek",
+   "pinyin": "Jiang Jieshi",
+   "status": "attested"
+  },
+  "周象贤": {
+   "en": "Zhou Xiangxian",
+   "pinyin": "Zhou Xiangxian",
+   "status": "provisional"
+  },
+  "袁良": {
+   "en": "Yuan Liang",
+   "pinyin": "Yuan Liang",
+   "status": "provisional"
+  },
+  "徐晓耕": {
+   "en": "Xu Xiaogeng",
+   "pinyin": "Xu Xiaogeng",
+   "status": "provisional"
+  },
+  "郑弼臣": {
+   "en": "Zheng Bichen",
+   "pinyin": "Zheng Bichen",
+   "status": "provisional"
+  },
+  "头山满": {
+   "en": "Toyama Mitsuru",
+   "pinyin": "Toyama Mitsuru",
+   "status": "attested"
+  },
+  "宫崎寅藏": {
+   "en": "Miyazaki Torazo",
+   "pinyin": "Miyazaki Torazo",
+   "status": "attested"
+  },
+  "唐继尧": {
+   "en": "Tang Jiyao",
+   "pinyin": "Tang Jiyao",
+   "status": "attested"
+  },
+  "陈树藩": {
+   "en": "Chen Shufan",
+   "pinyin": "Chen Shufan",
+   "status": "attested"
+  },
+  "姚以价": {
+   "en": "Yao Yijia",
+   "pinyin": "Yao Yijia",
+   "status": "provisional"
+  },
+  "徐永昌": {
+   "en": "Xu Yongchang",
+   "pinyin": "Xu Yongchang",
+   "status": "attested"
+  },
+  "于右任": {
+   "en": "Yu Youren",
+   "pinyin": "Yu Youren",
+   "status": "attested"
+  },
+  "黎元洪": {
+   "en": "Li Yuanhong",
+   "pinyin": "Li Yuanhong",
+   "status": "attested"
+  },
+  "戴传贤": {
+   "en": "Dai Chuanxian",
+   "pinyin": "Dai Chuanxian",
+   "status": "attested"
+  },
+  "周佛海": {
+   "en": "Zhou Fohai",
+   "pinyin": "Zhou Fohai",
+   "status": "attested"
+  },
+  "汪亚尘": {
+   "en": "Wang Yachen",
+   "pinyin": "Wang Yachen",
+   "status": "attested"
+  },
+  "张国威": {
+   "en": "Zhang Guowei",
+   "pinyin": "Zhang Guowei",
+   "status": "provisional"
+  },
+  "胡振家": {
+   "en": "Hu Zhenjia",
+   "pinyin": "Hu Zhenjia",
+   "status": "provisional"
+  },
+  "黄炳泉": {
+   "en": "Huang Bingquan",
+   "pinyin": "Huang Bingquan",
+   "status": "provisional"
+  },
+  "樊尔谛": {
+   "en": "Fan Erdi",
+   "pinyin": "Fan Erdi",
+   "status": "provisional"
+  },
+  "周荫人": {
+   "en": "Zhou Yinren",
+   "pinyin": "Zhou Yinren",
+   "status": "attested"
+  },
+  "白崇禧": {
+   "en": "Bai Chongxi",
+   "pinyin": "Bai Chongxi",
+   "status": "attested"
+  },
+  "陈群": {
+   "en": "Chen Qun",
+   "pinyin": "Chen Qun",
+   "status": "attested"
+  },
+  "王柏龄": {
+   "en": "Wang Bailing",
+   "pinyin": "Wang Bailing",
+   "status": "attested"
+  },
+  "郝鹏举": {
+   "en": "Hao Pengju",
+   "pinyin": "Hao Pengju",
+   "status": "attested"
+  },
+  "丁默村": {
+   "en": "Ding Mocun",
+   "pinyin": "Ding Mocun",
+   "status": "attested"
+  },
+  "梅思平": {
+   "en": "Mei Siping",
+   "pinyin": "Mei Siping",
+   "status": "attested"
+  },
+  "李长江": {
+   "en": "Li Changjiang",
+   "pinyin": "Li Changjiang",
+   "status": "attested"
+  },
+  "龚天健": {
+   "en": "Gong Tianjian",
+   "pinyin": "Gong Tianjian",
+   "status": "provisional"
+  },
+  "王文奎": {
+   "en": "Wang Wenkui",
+   "pinyin": "Wang Wenkui",
+   "status": "provisional"
+  },
+  "李志清": {
+   "en": "Li Zhiqing",
+   "pinyin": "Li Zhiqing",
+   "status": "provisional"
+  },
+  "黄源焘": {
+   "en": "Huang Yuantao",
+   "pinyin": "Huang Yuantao",
+   "status": "provisional"
+  },
+  "程锡文": {
+   "en": "Cheng Xiwen",
+   "pinyin": "Cheng Xiwen",
+   "status": "provisional",
+   "note": "Narrator of ch13; Huang Jinrong&#8217;s household steward, who tells the family from the inside."
+  },
+  "杨展成": {
+   "en": "Yang Zhancheng",
+   "pinyin": "Yang Zhancheng",
+   "status": "provisional",
+   "note": "Recorder who set down Cheng Xiwen&#8217;s ch13 account."
+  },
+  "黄振世": {
+   "en": "Huang Zhenshi",
+   "pinyin": "Huang Zhenshi",
+   "status": "provisional",
+   "note": "Narrator of ch14; a fishery-company manager, Huang disciple and later a standing director of the Rong Society, who writes as a self-confessed insider."
+  },
+  "何国涛": {
+   "en": "He Guotao",
+   "pinyin": "He Guotao",
+   "status": "provisional",
+   "note": "Recorder who set down Huang Zhenshi&#8217;s ch14 account."
+  },
+  "林桂生": {
+   "en": "Lin Guisheng",
+   "pinyin": "Lin Guisheng",
+   "status": "provisional",
+   "note": "Huang Jinrong&#8217;s first wife as named in ch13; a formidable figure in her own right. ch14 and later scholarship give her surname as Lin; the source&#8217;s own editors flag the variant Ye Guisheng. See the note at ch14."
+  },
+  "叶桂生": {
+   "en": "Ye Guisheng",
+   "pinyin": "Ye Guisheng",
+   "status": "provisional",
+   "note": "Huang Jinrong&#8217;s first wife as named by the ch14 narrator; the source&#8217;s editors add that one account gives her as Lin Guisheng (so ch13). Rendered as each narrator prints; the discrepancy is footnoted."
+  },
+  "范开泰": {
+   "en": "Fan Kaitai",
+   "pinyin": "Fan Kaitai",
+   "status": "provisional",
+   "note": "&#8220;Ebony Kaitai,&#8221; a City God Temple man about town and temple director; his wife was Shi Jinxiu."
+  },
+  "史锦绣": {
+   "en": "Shi Jinxiu",
+   "pinyin": "Shi Jinxiu",
+   "status": "provisional",
+   "note": "&#8220;Bandit Jinxiu,&#8221; a formidable Changzhou woman of the City God Temple demi-monde, sworn sister to Huang&#8217;s first wife."
+  },
+  "范回春": {
+   "en": "Fan Huichun",
+   "pinyin": "Fan Huichun",
+   "status": "provisional",
+   "note": "Younger brother of Fan Kaitai; a bank manager and deputy manager of the Sanxin opium combine."
+  },
+  "徐福生": {
+   "en": "Xu Fusheng",
+   "pinyin": "Xu Fusheng",
+   "status": "provisional",
+   "note": "&#8220;Havoc-in-Heaven Fusheng,&#8221; a Suzhou-Creek wharf hoodlum and Huang disciple, said to have introduced Huang Jinrong to Sun Yat-sen."
+  },
+  "张方庚": {
+   "en": "Zhang Fanggeng",
+   "pinyin": "Zhang Fanggeng",
+   "status": "provisional",
+   "note": "A Huang disciple who ran the Dacheng leather-goods company."
+  },
+  "韩荣浦": {
+   "en": "Han Rongpu",
+   "pinyin": "Han Rongpu",
+   "status": "provisional",
+   "note": "A Wu Peifu adjutant whose stray tip, in Huang&#8217;s telling, cracked the Bishop Yao kidnapping; later a go-between to Yuan Kewen."
+  },
+  "马雨亭": {
+   "en": "Ma Yuting",
+   "pinyin": "Ma Yuting",
+   "status": "provisional",
+   "note": "A Huang disciple skilled at making rigged gambling gear."
+  },
+  "徐阿东": {
+   "en": "Xu Adong",
+   "pinyin": "Xu Adong",
+   "status": "provisional",
+   "note": "The French police hoodlum-squad foreman whom Huang and Du brought to heel, a turning point in the men-about-town&#8217;s rise."
+  },
+  "陈培德": {
+   "en": "Chen Peide",
+   "pinyin": "Chen Peide",
+   "status": "provisional",
+   "note": "Huang Jinrong&#8217;s favored disciple, a British-American Tobacco union chairman; his arrest by Du Yuesheng&#8217;s man Lu Jingshi sharpened the Huang&#8211;Du feud."
+  },
+  "陈福康": {
+   "en": "Chen Fukang",
+   "pinyin": "Chen Fukang",
+   "status": "provisional",
+   "note": "Manager of the Huang household&#8217;s real estate and the Great World accounts; head of a rival clique to the narrator within Huang&#8217;s gate."
+  },
+  "邱子嘉": {
+   "en": "Qiu Zijia",
+   "pinyin": "Qiu Zijia",
+   "status": "provisional",
+   "note": "Works manager of the Renfeng mill and a core Zhongxin/Rong Society organizer allied with the narrator."
+  },
+  "王兴高": {
+   "en": "Wang Xinggao",
+   "pinyin": "Wang Xinggao",
+   "status": "provisional",
+   "note": "The Subei disciple of Gu Zhuxuan who shot Tang Jiapeng dead at the Great World gate."
+  },
+  "周信芳": {
+   "en": "Zhou Xinfang",
+   "pinyin": "Zhou Xinfang",
+   "status": "attested",
+   "note": "1895&#8211;1975; the great Peking-opera actor known by his stage name Qilintong (麒麟童), who took Huang Jinrong as master for protection against Gu Zhuxuan."
+  },
+  "常春恒": {
+   "en": "Chang Chunheng",
+   "pinyin": "Chang Chunheng",
+   "status": "attested",
+   "note": "A <i>wenwu-laosheng</i> Peking-opera actor beaten to death on Gu Zhuxuan&#8217;s order in a salary dispute at the Tianchan Stage."
+  },
+  "吴世宝": {
+   "en": "Wu Shibao",
+   "pinyin": "Wu Shibao",
+   "status": "provisional",
+   "note": "&#8220;Killer Taibao,&#8221; guard chief of the Japanese puppet secret service at No. 76 Jessfield Road; his open threats cowed even the concession detective-chiefs."
+  },
+  "余爱珍": {
+   "en": "Yu Aizhen",
+   "pinyin": "Yu Aizhen",
+   "status": "provisional",
+   "note": "Wife of Wu Shibao; the shooting of her bodyguard by a Settlement constable in May 1941 was a notorious &#8220;76&#8221; incident."
+  },
+  "潘七分": {
+   "en": "Pan Qifen",
+   "pinyin": "Pan Qifen",
+   "status": "provisional",
+   "note": "Styled Zixin (子欣); a Tianjin gang chief in Huang&#8217;s wide network. Huang trusted him in his last years and called him &#8220;Old Seventh Pan.&#8221; The ch14 narrator prints his name both as Pan Qifen and, at his first mention, Pan Zixin."
+  },
+  "潘子欣": {
+   "en": "Pan Zixin",
+   "pinyin": "Pan Zixin",
+   "status": "provisional",
+   "note": "See Pan Qifen; the Tianjin gang chief is named both ways in ch14, rendered as printed."
+  },
+  "杭州阿法": {
+   "en": "Hangzhou Ah Fa",
+   "pinyin": "Hangzhou Ah Fa",
+   "status": "provisional",
+   "note": "A grand hoodlum of the early Republic raised up by Huang Jinrong, who monopolized opium delivery on the Shiliupu wharves; the source notes a variant graph 阿发."
+  },
+  "马鸿魁": {
+   "en": "Ma Hongkui",
+   "pinyin": "Ma Hongkui",
+   "status": "provisional",
+   "note": "The &#8220;Night-soil King&#8221; of the French Concession, a Huang disciple. Not the Ningxia warlord Ma Hongkui (马鸿逵)."
+  },
+  "唐嘉鹏": {
+   "en": "Tang Jiapeng",
+   "pinyin": "Tang Jiapeng",
+   "status": "provisional",
+   "note": "Manager of the Great World and one of the two great pillars of Huang&#8217;s gate; murdered in the feud with Gu Zhuxuan&#8217;s faction."
+  },
+  "丁永昌": {
+   "en": "Ding Yongchang",
+   "pinyin": "Ding Yongchang",
+   "status": "provisional",
+   "note": "A trusted Huang disciple who ran the Great World and carried out kidnappings for him."
+  },
+  "鲁锦臣": {
+   "en": "Lu Jinchen",
+   "pinyin": "Lu Jinchen",
+   "status": "provisional",
+   "note": "A close Huang disciple and French-police detective-chief who attended the old man in his retirement."
+  },
+  "范绍增": {
+   "en": "Fan Shaozeng",
+   "pinyin": "Fan Shaozeng",
+   "status": "attested"
+  },
+  "沈醉": {
+   "en": "Shen Zui",
+   "pinyin": "Shen Zui",
+   "status": "attested"
+  },
+  "顾嘉棠": {
+   "en": "Gu Jiatang",
+   "pinyin": "Gu Jiatang",
+   "status": "attested"
+  },
+  "马世奇": {
+   "en": "Ma Shiqi",
+   "pinyin": "Ma Shiqi",
+   "status": "provisional"
+  },
+  "马祥生": {
+   "en": "Ma Xiangsheng",
+   "pinyin": "Ma Xiangsheng",
+   "status": "provisional"
+  },
+  "杨森": {
+   "en": "Yang Sen",
+   "pinyin": "Yang Sen",
+   "status": "attested"
+  },
+  "刘湘": {
+   "en": "Liu Xiang",
+   "pinyin": "Liu Xiang",
+   "status": "attested"
+  },
+  "贺龙": {
+   "en": "He Long",
+   "pinyin": "He Long",
+   "status": "attested"
+  },
+  "陈坤元": {
+   "en": "Chen Kunyuan",
+   "pinyin": "Chen Kunyuan",
+   "status": "provisional"
+  },
+  "张松涛": {
+   "en": "Zhang Songtao",
+   "pinyin": "Zhang Songtao",
+   "status": "provisional"
+  },
+  "杜美霞": {
+   "en": "Du Meixia",
+   "pinyin": "Du Meixia",
+   "status": "provisional"
+  },
+  "贺贵严": {
+   "en": "He Guiyan",
+   "pinyin": "He Guiyan",
+   "status": "provisional"
+  },
+  "徐慕邢": {
+   "en": "Xu Muxing",
+   "pinyin": "Xu Muxing",
+   "status": "provisional"
+  },
+  "向传义": {
+   "en": "Xiang Chuanyi",
+   "pinyin": "Xiang Chuanyi",
+   "status": "attested"
+  },
+  "何北衡": {
+   "en": "He Beiheng",
+   "pinyin": "He Beiheng",
+   "status": "attested"
+  },
+  "吴国桢": {
+   "en": "Wu Guozhen",
+   "pinyin": "Wu Guozhen",
+   "status": "decided"
+  },
+  "颜惠庆": {
+   "en": "Yan Huiqing",
+   "pinyin": "Yan Huiqing",
+   "status": "attested"
+  },
+  "徐寄庼": {
+   "en": "Xu Jiqing",
+   "pinyin": "Xu Jiqing",
+   "status": "provisional"
+  },
+  "张翼枢": {
+   "en": "Zhang Yishu",
+   "pinyin": "Zhang Yishu",
+   "status": "provisional"
+  },
+  "西园寺": {
+   "en": "Saionji",
+   "pinyin": "Saionji Kinmochi",
+   "status": "attested"
+  },
+  "范之青": {
+   "en": "Fan Zhiqing",
+   "pinyin": "Fan Zhiqing",
+   "status": "provisional"
+  },
+  "刘航琛": {
+   "en": "Liu Hangchen",
+   "pinyin": "Liu Hangchen",
+   "status": "attested"
+  },
+  "杜维藩": {
+   "en": "Du Weifan",
+   "pinyin": "Du Weifan",
+   "status": "provisional"
+  },
+  "姚玉兰": {
+   "en": "Yao Yulan",
+   "pinyin": "Yao Yulan",
+   "status": "attested"
+  },
+  "孟小冬": {
+   "en": "Meng Xiaodong",
+   "pinyin": "Meng Xiaodong",
+   "status": "attested"
+  },
+  "汪盼": {
+   "en": "Wang Pan",
+   "pinyin": "Wang Pan",
+   "status": "provisional"
+  },
+  "孙传芳": {
+   "en": "Sun Chuanfang",
+   "pinyin": "Sun Chuanfang",
+   "status": "attested"
+  },
+  "魏道明": {
+   "en": "Wei Daoming",
+   "pinyin": "Wei Daoming",
+   "status": "attested"
+  },
+  "吴忠信": {
+   "en": "Wu Zhongxin",
+   "pinyin": "Wu Zhongxin",
+   "status": "attested"
+  },
+  "李济深": {
+   "en": "Li Jishen",
+   "pinyin": "Li Jishen",
+   "status": "attested"
+  },
+  "陈独秀": {
+   "en": "Chen Duxiu",
+   "pinyin": "Chen Duxiu",
+   "status": "attested"
+  },
+  "周凤岐": {
+   "en": "Zhou Fengqi",
+   "pinyin": "Zhou Fengqi",
+   "status": "attested"
+  },
+  "祝绍周": {
+   "en": "Zhu Shaozhou",
+   "pinyin": "Zhu Shaozhou",
+   "status": "provisional"
+  },
+  "杜维屏": {
+   "en": "Du Weiping",
+   "pinyin": "Du Weiping",
+   "status": "provisional"
+  },
+  "杜维新": {
+   "en": "Du Weixin",
+   "pinyin": "Du Weixin",
+   "status": "provisional"
+  },
+  "戴戟": {
+   "en": "Dai Ji",
+   "pinyin": "Dai Ji",
+   "status": "attested"
+  },
+  "沈叔眉": {
+   "en": "Shen Shumei",
+   "pinyin": "Shen Shumei",
+   "status": "provisional"
+  },
+  "孙科": {
+   "en": "Sun Ke",
+   "pinyin": "Sun Ke",
+   "status": "attested"
+  },
+  "李宗仁": {
+   "en": "Li Zongren",
+   "pinyin": "Li Zongren",
+   "status": "attested"
+  },
+  "陈立夫": {
+   "en": "Chen Lifu",
+   "pinyin": "Chen Lifu",
+   "status": "attested"
+  },
+  "孙桐萱": {
+   "en": "Sun Tongxuan",
+   "pinyin": "Sun Tongxuan",
+   "status": "attested"
+  },
+  "孙桐岗": {
+   "en": "Sun Tonggang",
+   "pinyin": "Sun Tonggang",
+   "status": "provisional"
+  },
+  "王兆槐": {
+   "en": "Wang Zhaohuai",
+   "pinyin": "Wang Zhaohuai",
+   "status": "provisional"
+  },
+  "金九林": {
+   "en": "Jin Jiulin",
+   "pinyin": "Jin Jiulin",
+   "status": "provisional"
+  },
+  "季云卿": {
+   "en": "Ji Yunqing",
+   "pinyin": "Ji Yunqing",
+   "status": "attested"
+  },
+  "徐懋棠": {
+   "en": "Xu Maotang",
+   "pinyin": "Xu Maotang",
+   "status": "provisional"
+  },
+  "徐懋昌": {
+   "en": "Xu Maochang",
+   "pinyin": "Xu Maochang",
+   "status": "provisional"
+  },
+  "曾扩情": {
+   "en": "Zeng Kuoqing",
+   "pinyin": "Zeng Kuoqing",
+   "status": "attested"
+  },
+  "刘攻芸": {
+   "en": "Liu Gongyun",
+   "pinyin": "Liu Gongyun",
+   "status": "attested"
+  },
+  "张君生": {
+   "en": "Zhang Junsheng",
+   "pinyin": "Zhang Junsheng",
+   "status": "provisional"
+  },
+  "李石曾": {
+   "en": "Li Shizeng",
+   "pinyin": "Li Shizeng",
+   "status": "attested"
+  },
+  "金少山": {
+   "en": "Jin Shaoshan",
+   "pinyin": "Jin Shaoshan",
+   "status": "attested"
+  },
+  "彭伯威": {
+   "en": "Peng Bowei",
+   "pinyin": "Peng Bowei",
+   "status": "provisional"
+  },
+  "芮庆荣": {
+   "en": "Rui Qingrong",
+   "pinyin": "Rui Qingrong",
+   "status": "provisional"
+  },
+  "庞京周": {
+   "en": "Pang Jingzhou",
+   "pinyin": "Pang Jingzhou",
+   "status": "attested",
+   "note": "A prominent Shanghai physician, Du Yuesheng's personal doctor."
+  },
+  "袁履登": {
+   "en": "Yuan Lüdeng",
+   "pinyin": "Yuan Ludeng",
+   "status": "attested"
+  },
+  "李祖夔": {
+   "en": "Li Zukui",
+   "pinyin": "Li Zukui",
+   "status": "attested",
+   "note": "A former magistrate of Shanghai county."
+  },
+  "刘峙": {
+   "en": "Liu Zhi",
+   "pinyin": "Liu Zhi",
+   "status": "attested"
+  },
+  "刘志陆": {
+   "en": "Liu Zhilu",
+   "pinyin": "Liu Zhilu",
+   "status": "attested"
+  },
+  "陈布雷": {
+   "en": "Chen Bulei",
+   "pinyin": "Chen Bulei",
+   "status": "attested",
+   "note": "1890&#8211;1948; Chiang Kai-shek's confidential secretary and chief speechwriter."
+  },
+  "邵力子": {
+   "en": "Shao Lizi",
+   "pinyin": "Shao Lizi",
+   "status": "attested"
+  },
+  "王正廷": {
+   "en": "Wang Zhengting",
+   "pinyin": "Wang Zhengting",
+   "status": "attested"
+  },
+  "郑介民": {
+   "en": "Zheng Jiemin",
+   "pinyin": "Zheng Jiemin",
+   "status": "attested",
+   "note": "A senior Juntong officer."
+  },
+  "唐生明": {
+   "en": "Tang Shengming",
+   "pinyin": "Tang Shengming",
+   "status": "attested"
+  },
+  "吴稚晖": {
+   "en": "Wu Zhihui",
+   "pinyin": "Wu Zhihui",
+   "status": "attested",
+   "note": "1865&#8211;1953; veteran Kuomintang elder and calligrapher; also written 吴敬恒."
+  },
+  "吴敬恒": {
+   "en": "Wu Zhihui",
+   "pinyin": "Wu Jingheng",
+   "status": "attested",
+   "note": "The formal given name of the Kuomintang elder better known by his courtesy name, Wu Zhihui; the same man."
+  },
+  "叶恭绰": {
+   "en": "Ye Gongchuo",
+   "pinyin": "Ye Gongchuo",
+   "status": "attested"
+  },
+  "吴鼎昌": {
+   "en": "Wu Dingchang",
+   "pinyin": "Wu Dingchang",
+   "status": "attested"
+  },
+  "宣铁吾": {
+   "en": "Xuan Tiewu",
+   "pinyin": "Xuan Tiewu",
+   "status": "attested"
+  },
+  "王宠惠": {
+   "en": "Wang Chonghui",
+   "pinyin": "Wang Chonghui",
+   "status": "attested"
+  },
+  "俞鸿钧": {
+   "en": "Yu Hongjun",
+   "pinyin": "Yu Hongjun",
+   "status": "attested"
+  },
+  "俞叔平": {
+   "en": "Yu Shuping",
+   "pinyin": "Yu Shuping",
+   "status": "attested"
+  },
+  "蒋纬国": {
+   "en": "Chiang Wei-kuo",
+   "pinyin": "Jiang Weiguo",
+   "status": "attested",
+   "note": "1916&#8211;1997; Chiang Kai-shek's younger (adopted) son."
+  },
+  "唐绍仪": {
+   "en": "Tang Shaoyi",
+   "pinyin": "Tang Shaoyi",
+   "status": "attested",
+   "note": "1862&#8211;1938; first premier of the Republic; assassinated in Shanghai after contacts with the Japanese."
+  },
+  "高宗武": {
+   "en": "Gao Zongwu",
+   "pinyin": "Gao Zongwu",
+   "status": "attested",
+   "note": "A Nationalist diplomat active in the secret peace talks with Japan that led to Wang Jingwei's defection."
+  },
+  "杨杰": {
+   "en": "Yang Jie",
+   "pinyin": "Yang Jie",
+   "status": "attested",
+   "note": "1889&#8211;1949; Nationalist general who turned against Chiang; assassinated by Juntong agents on the eve of the Communist victory."
+  },
+  "黄琪翔": {
+   "en": "Huang Qixiang",
+   "pinyin": "Huang Qixiang",
+   "status": "attested"
+  },
+  "章伯钧": {
+   "en": "Zhang Bojun",
+   "pinyin": "Zhang Bojun",
+   "status": "attested"
+  },
+  "吴开先": {
+   "en": "Wu Kaixian",
+   "pinyin": "Wu Kaixian",
+   "status": "attested",
+   "note": "A leading member of the CC Clique in Shanghai."
+  },
+  "胡宗南": {
+   "en": "Hu Zongnan",
+   "pinyin": "Hu Zongnan",
+   "status": "attested",
+   "note": "1896&#8211;1962; the Nationalist general who commanded the northwest."
+  },
+  "朱子桥": {
+   "en": "Zhu Ziqiao",
+   "pinyin": "Zhu Ziqiao",
+   "status": "attested",
+   "note": "General Zhu Qinglan, a noted relief philanthropist of the Republican era."
+  },
+  "张嘉璈": {
+   "en": "Zhang Jia'ao",
+   "pinyin": "Zhang Jia'ao",
+   "status": "attested",
+   "note": "Chang Kia-ngau (1889&#8211;1979), the banker and financial administrator."
+  },
+  "顾祝同": {
+   "en": "Gu Zhutong",
+   "pinyin": "Gu Zhutong",
+   "status": "attested",
+   "note": "1893&#8211;1987; senior Nationalist general."
+  },
+  "梅乐斯": {
+   "en": "Miles",
+   "pinyin": "Meilesi",
+   "status": "attested",
+   "note": "1900&#8211;1961; U.S. Navy officer, head of the American side of the Sino-American Cooperation Organization."
+  },
+  "王新衡": {
+   "en": "Wang Xinheng",
+   "pinyin": "Wang Xinheng",
+   "status": "attested",
+   "note": "A Juntong department head and Du Yuesheng's channel to Dai Li."
+  },
+  "吴绍澍": {
+   "en": "Wu Shaoshu",
+   "pinyin": "Wu Shaoshu",
+   "status": "attested",
+   "note": "Du's disciple turned rival; postwar vice-mayor of Shanghai who publicly broke with him."
+  },
+  "毛人凤": {
+   "en": "Mao Renfeng",
+   "pinyin": "Mao Renfeng",
+   "status": "attested",
+   "note": "Dai Li's successor as head of the Baomiju secret service."
+  },
+  "蒋经国": {
+   "en": "Chiang Ching-kuo",
+   "pinyin": "Jiang Jingguo",
+   "status": "attested",
+   "note": "1910&#8211;1988; Chiang Kai-shek's elder son, later president of the Republic of China on Taiwan; here the enforcer of the 1948 gold-yuan reform in Shanghai."
+  },
+  "孔令侃": {
+   "en": "Kong Lingkan",
+   "pinyin": "Kong Lingkan",
+   "status": "attested",
+   "note": "H. H. Kung's son and chairman of the Yangtze Company; Chiang Ching-kuo's cousin."
+  },
+  "宋美龄": {
+   "en": "Song Meiling",
+   "pinyin": "Song Meiling",
+   "status": "attested",
+   "note": "1898&#8211;2003; Madame Chiang Kai-shek, sister of T. V. Soong and aunt of Kong Lingkan."
+  },
+  "方治": {
+   "en": "Fang Zhi",
+   "pinyin": "Fang Zhi",
+   "status": "attested",
+   "note": "A CC Clique figure; chairman of the Shanghai municipal party headquarters."
+  },
+  "杜维垣": {
+   "en": "Du Weiyuan",
+   "pinyin": "Du Weiyuan",
+   "status": "attested",
+   "note": "A son of Du Yuesheng."
+  },
+  "程泽润": {
+   "en": "Cheng Zerun",
+   "pinyin": "Cheng Zerun",
+   "status": "attested"
+  },
+  "俞飞鹏": {
+   "en": "Yu Feipeng",
+   "pinyin": "Yu Feipeng",
+   "status": "attested",
+   "note": "A Chiang confidant who headed wartime transport."
+  },
+  "黄国栋": {
+   "en": "Huang Guodong",
+   "pinyin": "Huang Guodong",
+   "status": "decided",
+   "note": "Chief accountant of the Du Yuesheng household and the narrator of this article; son of Huang Wenxiang."
+  },
+  "罗醴泉": {
+   "en": "Luo Liquan",
+   "pinyin": "Luo Liquan",
+   "status": "decided",
+   "note": "Took down Huang Guodong's oral account."
+  },
+  "黄文祥": {
+   "en": "Huang Wenxiang",
+   "pinyin": "Huang Wenxiang",
+   "status": "decided",
+   "note": "The narrator's father; the Du household accountant before him."
+  },
+  "杨渔笙": {
+   "en": "Yang Yusheng",
+   "pinyin": "Yang Yusheng",
+   "status": "decided",
+   "note": "The Du household accountant before Huang Wenxiang; fled during the war and broke with Du."
+  },
+  "陈帼英": {
+   "en": "Chen Guoying",
+   "pinyin": "Chen Guoying",
+   "status": "decided",
+   "note": "Du Yuesheng's second wife (&#8216;the Fifth&#8217;), a Suzhou woman."
+  },
+  "孙佩豪": {
+   "en": "Sun Peihao",
+   "pinyin": "Sun Peihao",
+   "status": "decided",
+   "note": "Du Yuesheng's third wife (&#8216;the Seventh&#8217;), a Suzhou woman."
+  },
+  "万墨林": {
+   "en": "Wan Molin",
+   "pinyin": "Wan Molin",
+   "status": "attested",
+   "note": "Du Yuesheng's household steward and chief factotum; ran Du's Shanghai affairs during the war and was seized by the puppet secret service."
+  },
+  "万兆棠": {
+   "en": "Wan Zhaotang",
+   "pinyin": "Wan Zhaotang",
+   "status": "decided",
+   "note": "Elder brother of Wan Molin, styled Duxin; the household post passed from him to his brother."
+  },
+  "翁佐卿": {
+   "en": "Weng Zuoqing",
+   "pinyin": "Weng Zuoqing",
+   "status": "decided",
+   "note": "A Du household secretary, disciple of Zhang Xiaolin."
+  },
+  "邱访陌": {
+   "en": "Qiu Fangmo",
+   "pinyin": "Qiu Fangmo",
+   "status": "decided",
+   "note": "A Du household secretary, introduced by Chen Qun; later a puppet income-tax official."
+  },
+  "王幼棠": {
+   "en": "Wang Youtang",
+   "pinyin": "Wang Youtang",
+   "status": "decided"
+  },
+  "胡叙五": {
+   "en": "Hu Xuwu",
+   "pinyin": "Hu Xuwu",
+   "status": "decided",
+   "note": "A Du household secretary."
+  },
+  "陆桂才": {
+   "en": "Lu Guicai",
+   "pinyin": "Lu Guicai",
+   "status": "decided",
+   "note": "A Du bodyguard, disciple of Zhang Xiaolin, known as Lu the Pockmarked."
+  },
+  "陈秦鹤": {
+   "en": "Chen Qinhe",
+   "pinyin": "Chen Qinhe",
+   "status": "decided",
+   "note": "A Du bodyguard, a Taizhou man-about-town."
+  },
+  "陈继藩": {
+   "en": "Chen Jifan",
+   "pinyin": "Chen Jifan",
+   "status": "decided"
+  },
+  "高怀礼": {
+   "en": "Gao Huaili",
+   "pinyin": "Gao Huaili",
+   "status": "decided"
+  },
+  "王宝钰": {
+   "en": "Wang Baoyu",
+   "pinyin": "Wang Baoyu",
+   "status": "decided",
+   "note": "Du Yuesheng's personal chauffeur."
+  },
+  "郁访熏": {
+   "en": "Yu Fangxun",
+   "pinyin": "Yu Fangxun",
+   "status": "decided",
+   "note": "The man who prepared Du Yuesheng's opium pipes, styled Yongfu."
+  },
+  "黄炎培": {
+   "en": "Huang Yanpei",
+   "pinyin": "Huang Yanpei",
+   "status": "attested",
+   "note": "1878&#8211;1965. Educator and founder of the China Democratic National Construction Association; a frequent guest of Du's who did wartime liaison work."
+  },
+  "刘春圃": {
+   "en": "Liu Chunpu",
+   "pinyin": "Liu Chunpu",
+   "status": "decided"
+  },
+  "高士奎": {
+   "en": "Gao Shikui",
+   "pinyin": "Gao Shikui",
+   "status": "decided",
+   "note": "A Hongmen elder kept at Du's expense."
+  },
+  "秦联奎": {
+   "en": "Qin Liankui",
+   "pinyin": "Qin Liankui",
+   "status": "decided",
+   "note": "A lawyer in Du's circle."
+  },
+  "江一平": {
+   "en": "Jiang Yiping",
+   "pinyin": "Jiang Yiping",
+   "status": "decided",
+   "note": "A lawyer in Du's circle."
+  },
+  "王荫泰": {
+   "en": "Wang Yintai",
+   "pinyin": "Wang Yintai",
+   "status": "decided"
+  },
+  "陆彤东": {
+   "en": "Lu Tongdong",
+   "pinyin": "Lu Tongdong",
+   "status": "decided"
+  },
+  "朱文德": {
+   "en": "Zhu Wende",
+   "pinyin": "Zhu Wende",
+   "status": "decided",
+   "note": "One of the four Du men left to run Shanghai affairs during the war."
+  },
+  "王思曾": {
+   "en": "Wang Sizeng",
+   "pinyin": "Wang Sizeng",
+   "status": "decided"
+  },
+  "王晓籁": {
+   "en": "Wang Xiaolai",
+   "pinyin": "Wang Xiaolai",
+   "status": "attested",
+   "note": "A leading figure of the Shanghai General Chamber of Commerce."
+  },
+  "席洽卿": {
+   "en": "Xi Qiaqing",
+   "pinyin": "Xi Qiaqing",
+   "status": "decided"
+  },
+  "刘鸿生": {
+   "en": "Liu Hongsheng",
+   "pinyin": "Liu Hongsheng",
+   "status": "attested",
+   "note": "1888&#8211;1956. Shanghai industrialist, the &#8216;Match King.&#8217;"
+  },
+  "潘公展": {
+   "en": "Pan Gongzhan",
+   "pinyin": "Pan Gongzhan",
+   "status": "attested",
+   "note": "Nationalist CC Clique figure and newspaperman in Shanghai."
+  },
+  "杨管北": {
+   "en": "Yang Guanbei",
+   "pinyin": "Yang Guanbei",
+   "status": "decided"
+  },
+  "杨志雄": {
+   "en": "Yang Zhixiong",
+   "pinyin": "Yang Zhixiong",
+   "status": "decided"
+  },
+  "唐世昌": {
+   "en": "Tang Shichang",
+   "pinyin": "Tang Shichang",
+   "status": "decided",
+   "note": "A Du disciple; manager of the Shen Bao and Xinwen Bao, through whom Du influenced the Shanghai press."
+  },
+  "章荣初": {
+   "en": "Zhang Rongchu",
+   "pinyin": "Zhang Rongchu",
+   "status": "decided",
+   "note": "A Du disciple; manager of the Qingfeng Cotton Mill."
+  },
+  "骆清华": {
+   "en": "Luo Qinghua",
+   "pinyin": "Luo Qinghua",
+   "status": "decided"
+  },
+  "王先青": {
+   "en": "Wang Xianqing",
+   "pinyin": "Wang Xianqing",
+   "status": "decided"
+  },
+  "邵子英": {
+   "en": "Shao Ziying",
+   "pinyin": "Shao Ziying",
+   "status": "decided",
+   "note": "A Du disciple; interpreter for the French utilities, who organized the 1932 strike weapon for Du."
+  },
+  "谢葆生": {
+   "en": "Xie Baosheng",
+   "pinyin": "Xie Baosheng",
+   "status": "decided",
+   "note": "A Green Gang secondary figure; ballroom and theater proprietor."
+  },
+  "施春轩": {
+   "en": "Shi Chunxuan",
+   "pinyin": "Shi Chunxuan",
+   "status": "decided"
+  },
+  "杨顺铨": {
+   "en": "Yang Shunquan",
+   "pinyin": "Yang Shunquan",
+   "status": "decided",
+   "note": "The Shiliupu &#8216;fish tyrant,&#8217; nicknamed Fish-monger Little Shun."
+  },
+  "范恒德": {
+   "en": "Fan Hengde",
+   "pinyin": "Fan Hengde",
+   "status": "decided"
+  },
+  "徐德胜": {
+   "en": "Xu Desheng",
+   "pinyin": "Xu Desheng",
+   "status": "decided",
+   "note": "Called &#8216;the Yangzhou Du Yuesheng.&#8217;"
+  },
+  "袁宝珊": {
+   "en": "Yuan Baoshan",
+   "pinyin": "Yuan Baoshan",
+   "status": "decided"
+  },
+  "叶焯山": {
+   "en": "Ye Zhuoshan",
+   "pinyin": "Ye Zhuoshan",
+   "status": "decided"
+  },
+  "戴步祥": {
+   "en": "Dai Buxiang",
+   "pinyin": "Dai Buxiang",
+   "status": "decided"
+  },
+  "陈荣生": {
+   "en": "Chen Rongsheng",
+   "pinyin": "Chen Rongsheng",
+   "status": "decided"
+  },
+  "樊良伯": {
+   "en": "Fan Liangbo",
+   "pinyin": "Fan Liangbo",
+   "status": "decided"
+  },
+  "夏连良": {
+   "en": "Xia Lianliang",
+   "pinyin": "Xia Lianliang",
+   "status": "decided"
+  },
+  "江肇铭": {
+   "en": "Jiang Zhaoming",
+   "pinyin": "Jiang Zhaoming",
+   "status": "decided",
+   "note": "A Du disciple nicknamed &#8216;the Xuantong Emperor,&#8217; who ran a gambling house on Avenue Foch."
+  },
+  "浦贤元": {
+   "en": "Pu Xianyuan",
+   "pinyin": "Pu Xianyuan",
+   "status": "decided"
+  },
+  "卢小嘉": {
+   "en": "Lu Xiaojia",
+   "pinyin": "Lu Xiaojia",
+   "status": "attested",
+   "note": "Son of the Zhejiang military governor Lu Yongxiang; his quarrel with Huang Jinrong over the actress Lu Lanchun led to Huang's arrest and Du's rescue of him."
+  },
+  "朱葆三": {
+   "en": "Zhu Baosan",
+   "pinyin": "Zhu Baosan",
+   "status": "attested",
+   "note": "A prominent Ningbo-Shanghai comprador and financier."
+  },
+  "李应生": {
+   "en": "Li Yingsheng",
+   "pinyin": "Li Yingsheng",
+   "status": "decided",
+   "note": "A Chinese member of the French Concession Municipal Council."
+  },
+  "蒋伯诚": {
+   "en": "Jiang Bocheng",
+   "pinyin": "Jiang Bocheng",
+   "status": "decided",
+   "note": "A Nationalist figure who kept liaison with Du's Shanghai men during the war."
+  },
+  "汪曼云": {
+   "en": "Wang Manyun",
+   "pinyin": "Wang Manyun",
+   "status": "decided",
+   "note": "A Shanghai figure who later collaborated with the Wang Jingwei regime."
+  },
+  "王民休": {
+   "en": "Wang Minxiu",
+   "pinyin": "Wang Minxiu",
+   "status": "decided",
+   "note": "A democratic-party liaison man in wartime Shanghai, using the alias Li Dacheng."
+  },
+  "傅品圭": {
+   "en": "Fu Pinggui",
+   "pinyin": "Fu Pinggui",
+   "status": "decided",
+   "note": "A Zhonghui Bank manager; son of the puppet mayor Fu Xiao'an."
+  },
+  "傅筱庵": {
+   "en": "Fu Xiao'an",
+   "pinyin": "Fu Xiao'an",
+   "status": "attested",
+   "note": "1872&#8211;1940. Mayor of the Japanese puppet Shanghai municipal government; assassinated in 1940."
+  },
+  "徐庆云": {
+   "en": "Xu Qingyun",
+   "pinyin": "Xu Qingyun",
+   "status": "decided",
+   "note": "Father of Xu Maotang, the Zhonghui Bank manager."
+  },
+  "邵得度": {
+   "en": "Shao Dedu",
+   "pinyin": "Shao Dedu",
+   "status": "decided",
+   "note": "Wan Molin's driver."
+  },
+  "张椿宝": {
+   "en": "Zhang Chunbao",
+   "pinyin": "Zhang Chunbao",
+   "status": "decided"
+  },
+  "潘三省": {
+   "en": "Pan Sansheng",
+   "pinyin": "Pan Sansheng",
+   "status": "decided"
+  },
+  "唐生智": {
+   "en": "Tang Shengzhi",
+   "pinyin": "Tang Shengzhi",
+   "status": "attested",
+   "note": "1889&#8211;1970. Nationalist general, commander of the defense of Nanjing in 1937."
+  },
+  "纪增寿": {
+   "en": "Ji Zengshou",
+   "pinyin": "Ji Zengshou",
+   "status": "decided"
+  },
+  "耿嘉基": {
+   "en": "Geng Jiaji",
+   "pinyin": "Geng Jiaji",
+   "status": "decided"
+  },
+  "顾文达": {
+   "en": "Gu Wenda",
+   "pinyin": "Gu Wenda",
+   "status": "decided",
+   "note": "By-name Gu Qi (&#8216;Gu Seven&#8217;)."
+  },
+  "卢文英": {
+   "en": "Lu Wenying",
+   "pinyin": "Lu Wenying",
+   "status": "decided"
+  },
+  "林康侯": {
+   "en": "Lin Kanghou",
+   "pinyin": "Lin Kanghou",
+   "status": "attested",
+   "note": "One of the &#8216;three notables of Shanghai&#8217; during the occupation."
+  },
+  "金鼎勋": {
+   "en": "Jin Dingxun",
+   "pinyin": "Jin Dingxun",
+   "status": "decided"
+  },
+  "刘绍奎": {
+   "en": "Liu Shaokui",
+   "pinyin": "Liu Shaokui",
+   "status": "decided"
+  },
+  "陆大公": {
+   "en": "Lu Dagong",
+   "pinyin": "Lu Dagong",
+   "status": "decided"
+  },
+  "刘俊卿": {
+   "en": "Liu Junqing",
+   "pinyin": "Liu Junqing",
+   "status": "decided"
+  },
+  "丁如松": {
+   "en": "Ding Rusong",
+   "pinyin": "Ding Rusong",
+   "status": "decided"
+  },
+  "蔡庆其": {
+   "en": "Cai Qingqi",
+   "pinyin": "Cai Qingqi",
+   "status": "decided",
+   "note": "A Taiwanese who bailed the narrator out and drew him into the occupation-era social round."
+  },
+  "马连良": {
+   "en": "Ma Lianliang",
+   "pinyin": "Ma Lianliang",
+   "status": "attested",
+   "note": "1901&#8211;1966. Celebrated Peking-opera actor of the old-man (laosheng) roles."
+  },
+  "汪吟秋": {
+   "en": "Wang Yinqiu",
+   "pinyin": "Wang Yinqiu",
+   "status": "decided"
+  },
+  "张中原": {
+   "en": "Zhang Zhongyuan",
+   "pinyin": "Zhang Zhongyuan",
+   "status": "decided"
+  },
+  "孙兰亭": {
+   "en": "Sun Lanting",
+   "pinyin": "Sun Lanting",
+   "status": "decided"
+  },
+  "改剑飞": {
+   "en": "Gai Jianfei",
+   "pinyin": "Gai Jianfei",
+   "status": "decided"
+  },
+  "张拓生": {
+   "en": "Zhang Tuosheng",
+   "pinyin": "Zhang Tuosheng",
+   "status": "decided"
+  },
+  "孙钧时": {
+   "en": "Sun Junshi",
+   "pinyin": "Sun Junshi",
+   "status": "decided"
+  },
+  "张慰如": {
+   "en": "Zhang Weiru",
+   "pinyin": "Zhang Weiru",
+   "status": "decided"
+  },
+  "张锦寿": {
+   "en": "Zhang Jinshou",
+   "pinyin": "Zhang Jinshou",
+   "status": "decided"
+  },
+  "黄振东": {
+   "en": "Huang Zhendong",
+   "pinyin": "Huang Zhendong",
+   "status": "decided",
+   "note": "A Du disciple and lavish gift-giver."
+  },
+  "孙志飞": {
+   "en": "Sun Zhifei",
+   "pinyin": "Sun Zhifei",
+   "status": "decided"
+  },
+  "周祥生": {
+   "en": "Zhou Xiangsheng",
+   "pinyin": "Zhou Xiangsheng",
+   "status": "attested",
+   "note": "Founder of the Johnson (Xiangsheng) Taxi Company in Shanghai."
+  },
+  "徐涛生": {
+   "en": "Xu Taosheng",
+   "pinyin": "Xu Taosheng",
+   "status": "decided",
+   "note": "A Du household tea-server."
+  },
+  "周恩霆": {
+   "en": "Zhou Enting",
+   "pinyin": "Zhou Enting",
+   "status": "decided",
+   "note": "A disciple Du took on in Chongqing; said to have been a cousin of Zhou Enlai."
+  },
+  "宋霭龄": {
+   "en": "Song Ailing",
+   "pinyin": "Song Ailing",
+   "status": "attested",
+   "note": "Eldest of the Soong sisters, wife of H. H. Kung and mother of Kong Lingkan."
+  },
+  "盛丕华": {
+   "en": "Sheng Pihua",
+   "pinyin": "Sheng Pihua",
+   "status": "attested",
+   "note": "1882&#8211;1961. Shanghai industrialist and democratic figure; after 1949 a deputy mayor of Shanghai."
+  },
+  "潘汉年": {
+   "en": "Pan Hannian",
+   "pinyin": "Pan Hannian",
+   "status": "attested",
+   "note": "1906&#8211;1977. Chinese Communist intelligence chief; after 1949 a deputy mayor of Shanghai, purged in 1955."
+  },
+  "张澜": {
+   "en": "Zhang Lan",
+   "pinyin": "Zhang Lan",
+   "status": "attested",
+   "note": "1872&#8211;1955. Chairman of the China Democratic League; in 1949 a vice-chairman of the Central People's Government."
+  },
+  "史良": {
+   "en": "Shi Liang",
+   "pinyin": "Shi Liang",
+   "status": "attested",
+   "note": "1900&#8211;1985. Woman jurist, one of the &#8216;seven gentlemen&#8217; arrested in 1936; later the PRC's first minister of justice."
+  },
+  "沙千里": {
+   "en": "Sha Qianli",
+   "pinyin": "Sha Qianli",
+   "status": "attested",
+   "note": "1901&#8211;1982. Jurist, another of the &#8216;seven gentlemen.&#8217;"
+  },
+  "郭兰世": {
+   "en": "Guo Lanshi",
+   "pinyin": "Guo Lanshi",
+   "status": "provisional"
+  },
+  "蒯德珍": {
+   "en": "Kuai Dezhen",
+   "pinyin": "Kuai Dezhen",
+   "status": "provisional",
+   "note": "A concubine of Zhang Shizhao's."
+  },
+  "汤二宝": {
+   "en": "Tang Erbao",
+   "pinyin": "Tang Erbao",
+   "status": "decided"
+  },
+  "马镇兴": {
+   "en": "Ma Zhenxing",
+   "pinyin": "Ma Zhenxing",
+   "status": "decided"
+  },
+  "简照南": {
+   "en": "Jian Zhaonan",
+   "pinyin": "Jian Zhaonan",
+   "status": "attested",
+   "note": "Founder of the Nanyang Brothers Tobacco Company."
+  },
+  "廖承志": {
+   "en": "Liao Chengzhi",
+   "pinyin": "Liao Chengzhi",
+   "status": "attested",
+   "note": "1908&#8211;1983. Chinese Communist leader active in overseas and united-front work."
+  },
+  "郁咏馥": {
+   "en": "Yu Yongfu",
+   "pinyin": "Yu Yongfu",
+   "status": "provisional",
+   "note": "The narrator of this chapter: Du Yuesheng's opium-pipe attendant for some twenty years. Romanization provisional; name crop-verified from the byline and the source footnote (both 郁咏馥, not the OCR 郁咏敌/郁咏禾)."
+  },
+  "汤玉麟": {
+   "en": "Tang Yulin",
+   "pinyin": "Tang Yulin",
+   "status": "attested",
+   "note": "1871&#8211;1949; warlord governor of Rehe (Jehol), notorious for the opium trade. Attested form."
+  },
+  "史量才": {
+   "en": "Shi Liangcai",
+   "pinyin": "Shi Liangcai",
+   "status": "attested",
+   "note": "1880&#8211;1934; owner of the Shenbao, assassinated 1934 on Chiang Kai-shek's orders."
+  },
+  "张学良": {
+   "en": "Zhang Xueliang",
+   "pinyin": "Zhang Xueliang",
+   "status": "attested",
+   "note": "1901&#8211;2001; the &#8216;Young Marshal.&#8217; Courtesy name Hanqing (汉卿)."
+  },
+  "于凤至": {
+   "en": "Yu Fengzhi",
+   "pinyin": "Yu Fengzhi",
+   "status": "attested",
+   "note": "1897&#8211;1990; Zhang Xueliang's wife."
+  },
+  "徐国梁": {
+   "en": "Xu Guoliang",
+   "pinyin": "Xu Guoliang",
+   "status": "attested",
+   "note": "Shanghai police commissioner, assassinated 1923."
+  },
+  "田洪元": {
+   "en": "Tian Hongyuan",
+   "pinyin": "Tian Hongyuan",
+   "status": "provisional",
+   "note": "Accountant at the Commercial Bank who kept Du supplied with bank drafts; provisional romanization."
+  },
+  "顾鳌": {
+   "en": "Gu Ao",
+   "pinyin": "Gu Ao",
+   "status": "attested",
+   "note": "1879&#8211;1949; a Beiyang-era politician styled a &#8216;meritorious servant of the Hongxian&#8217; monarchy; here one of Du's opium-smoking retainers, called &#8216;Secretary Gu.&#8217;"
+  },
+  "唐缴之": {
+   "en": "Tang Jiaozhi",
+   "pinyin": "Tang Jiaozhi",
+   "status": "provisional",
+   "note": "Named in ch17 alongside Luo Qinghua as one of Du's business-world &#8216;feelers.&#8217; The middle character (缴) reads uncertainly in the scan; romanization provisional."
+  },
+  "毛子坚": {
+   "en": "Mao Zijian",
+   "pinyin": "Mao Zijian",
+   "status": "provisional",
+   "note": "A Nanshi gangster-gentleman who borrowed the City God's sedan-chairs for the Du temple procession; provisional."
+  },
+  "焦文彬": {
+   "en": "Jiao Wenbin",
+   "pinyin": "Jiao Wenbin",
+   "status": "provisional",
+   "note": "The Du household accountant before Huang Guodong; provisional."
+  },
+  "黄国法": {
+   "en": "Huang Guofa",
+   "pinyin": "Huang Guofa",
+   "status": "decided",
+   "note": "Younger son of Huang Wenxiang, placed by Du in the Zhonghui Bank; brother of the ch16 narrator Huang Guodong."
+  },
+  "小兰英": {
+   "en": "Xiao Lanying",
+   "pinyin": "Xiao Lanying",
+   "status": "provisional",
+   "note": "Yao Yulan's foster-mother, a noted actress in old-male (laosheng) roles; provisional."
+  },
+  "玉英": {
+   "en": "Yuying",
+   "pinyin": "Yuying",
+   "status": "provisional",
+   "note": "Yao Yulan's foster-sister, whom Du first meant to take; she died young. Provisional."
+  },
+  "王彬彦": {
+   "en": "Wang Binyan",
+   "pinyin": "Wang Binyan",
+   "status": "provisional",
+   "note": "A Subei performer who invited Du to a charity benefit; provisional."
+  },
+  "杜镛": {
+   "en": "Du Yong",
+   "pinyin": "Du Yong",
+   "status": "decided",
+   "note": "Du Yuesheng's formal given name (镛); the two characters he practiced signing after becoming a company chairman."
+  },
+  "杜维仁": {
+   "en": "Du Weiren",
+   "pinyin": "Du Weiren",
+   "status": "provisional",
+   "note": "A son named in ch17 as remaining in Shanghai after liberation; not in ch16's fuller enumeration of Du's sons (see note). Provisional."
+  },
+  "杭州阿发": {
+   "en": "Hangzhou A-fa",
+   "pinyin": "Hangzhou A-fa",
+   "status": "provisional",
+   "note": "A hoodlum companion of young Du around Shiliupu; a by-name, provisional."
+  },
+  "黄永言": {
+   "en": "Huang Yongyan",
+   "pinyin": "Huang Yongyan",
+   "status": "provisional",
+   "note": "The narrator of this chapter; provisional romanization."
+  },
+  "杨在田": {
+   "en": "Yang Zaitian",
+   "pinyin": "Yang Zaitian",
+   "status": "provisional",
+   "note": "A salt-trader nicknamed &#8216;Sea-Churning Golden Dragon,&#8217; founder of the Yongji/Datong shipping line; gang-senior to Du."
+  },
+  "张慰慈": {
+   "en": "Zhang Weici",
+   "pinyin": "Zhang Weici",
+   "status": "provisional",
+   "note": "Zhang Cha's grandson, acting manager of Dada; provisional."
+  },
+  "鲍心斋": {
+   "en": "Bao Xinzhai",
+   "pinyin": "Bao Xinzhai",
+   "status": "provisional",
+   "note": "The old-school manager of Dada, forced out after the Deji bank failure; provisional."
+  },
+  "蒋敬堂": {
+   "en": "Jiang Jingtang",
+   "pinyin": "Jiang Jingtang",
+   "status": "provisional",
+   "note": "A Dada standing director who briefly acted as chairman; provisional."
+  },
+  "沈燕谋": {
+   "en": "Shen Yanmou",
+   "pinyin": "Shen Yanmou",
+   "status": "provisional",
+   "note": "A Zhang-family relative, general manager of the Dasheng mills and briefly of Dada; provisional."
+  },
+  "沈敬夫": {
+   "en": "Shen Jingfu",
+   "pinyin": "Shen Jingfu",
+   "status": "provisional",
+   "note": "Shen Yanmou's grandfather, in-law of Zhang Cha; provisional."
+  },
+  "徐陶菴": {
+   "en": "Xu Tao'an",
+   "pinyin": "Xu Tao'an",
+   "status": "provisional",
+   "note": "Yang Guanbei's uncle by marriage, a Dada director and manager of the Nantong Flour Mill; provisional."
+  },
+  "徐揭和": {
+   "en": "Xu Jiehe",
+   "pinyin": "Xu Jiehe",
+   "status": "provisional",
+   "note": "Xu Tao'an's son, US-educated, made a Dada director; provisional."
+  },
+  "沈华亭": {
+   "en": "Shen Huating",
+   "pinyin": "Shen Huating",
+   "status": "provisional",
+   "note": "A steamship-company comprador who took a gang &#8216;old man&#8217;; provisional."
+  },
+  "张延龄": {
+   "en": "Zhang Yanling",
+   "pinyin": "Zhang Yanling",
+   "status": "provisional",
+   "note": "A steamship-company comprador; provisional."
+  },
+  "沈荣三": {
+   "en": "Shen Rongsan",
+   "pinyin": "Shen Rongsan",
+   "status": "provisional",
+   "note": "A steamship-company comprador; provisional."
+  },
+  "谢葆三": {
+   "en": "Xie Baosan",
+   "pinyin": "Xie Baosan",
+   "status": "provisional",
+   "note": "A steamship-company comprador; provisional."
+  },
+  "黄慕宗": {
+   "en": "Huang Muzong",
+   "pinyin": "Huang Muzong",
+   "status": "provisional",
+   "note": "A China Merchants captain who became a gang &#8216;mountain lord&#8217;; provisional."
+  },
+  "俞仙亭": {
+   "en": "Yu Xianting",
+   "pinyin": "Yu Xianting",
+   "status": "provisional",
+   "note": "Chair of the China Merchants Five-Wharf staff union, a pupil of Du's; provisional."
+  },
+  "李公朴": {
+   "en": "Li Gongpu",
+   "pinyin": "Li Gongpu",
+   "status": "attested",
+   "note": "1902&#8211;1946; educator and democracy activist, assassinated by Nationalist agents in 1946; here head of a Northern Expedition army liaison section."
+  },
+  "吴醒亚": {
+   "en": "Wu Xingya",
+   "pinyin": "Wu Xingya",
+   "status": "attested",
+   "note": "A CC-clique Nationalist official; head of the Shanghai Bureau of Social Affairs in the 1930s."
+  },
+  "蔡劲军": {
+   "en": "Cai Jinjun",
+   "pinyin": "Cai Jinjun",
+   "status": "attested",
+   "note": "1900&#8211;1985; Shanghai's chief of police / garrison figure in the mid-1930s."
+  },
+  "许沅": {
+   "en": "Xu Yuan",
+   "pinyin": "Xu Yuan",
+   "status": "provisional",
+   "note": "A former Shanghai commissioner of foreign affairs, brought in to mediate the wharf dispute; provisional."
+  },
+  "郑锡棠": {
+   "en": "Zheng Xitang",
+   "pinyin": "Zheng Xitang",
+   "status": "provisional",
+   "note": "Comprador of the British Gongmao firm and proprietor of the Ping'an Steamship Company; provisional."
+  },
+  "李耀庭": {
+   "en": "Li Yaoting",
+   "pinyin": "Li Yaoting",
+   "status": "provisional",
+   "note": "Deputy manager of Ping'an and manager of the Yixiang Bureau, bought over by Yang Guanbei; provisional."
+  },
+  "杨庆邦": {
+   "en": "Yang Qingbang",
+   "pinyin": "Yang Qingbang",
+   "status": "provisional",
+   "note": "Dada's customs-clearance man, promoted to keep him loyal; provisional."
+  },
+  "寰仲符": {
+   "en": "Huan Zhongfu",
+   "pinyin": "Huan Zhongfu",
+   "status": "provisional",
+   "note": "A nominee in whose name the Datong ship was registered; provisional."
+  },
+  "陆伯鸿": {
+   "en": "Lu Bohong",
+   "pinyin": "Lu Bohong",
+   "status": "attested",
+   "note": "1875&#8211;1937; the Catholic industrialist and philanthropist, a papal knight; co-founder of the Datong line."
+  },
+  "朱志尧": {
+   "en": "Zhu Zhiyao",
+   "pinyin": "Zhu Zhiyao",
+   "status": "attested",
+   "note": "1863&#8211;1955; the Catholic industrialist (Kiangnan Dock, machine works), co-founder of the Datong line."
+  },
+  "徐忠信": {
+   "en": "Xu Zhongxin",
+   "pinyin": "Xu Zhongxin",
+   "status": "provisional",
+   "note": "Proprietor of the Daxing Steamship Company, a Ningbo associate of Yu Qiaqing; provisional."
+  },
+  "吴颙": {
+   "en": "Wu Yong",
+   "pinyin": "Wu Yong",
+   "status": "provisional",
+   "note": "Chief of the Shanghai Shipping Administration; provisional."
+  },
+  "黄静泉": {
+   "en": "Huang Jingquan",
+   "pinyin": "Huang Jingquan",
+   "status": "provisional",
+   "note": "Huang Zhendong's father, a Java-sugar merchant; provisional."
+  },
+  "毕芳来": {
+   "en": "Bi Fanglai",
+   "pinyin": "Bi Fanglai",
+   "status": "provisional",
+   "note": "A Guangdong Road provisions dealer paraded for selling Japanese goods; provisional."
+  },
+  "宣纯叔": {
+   "en": "Xuan Chunshu",
+   "pinyin": "Xuan Chunshu",
+   "status": "provisional",
+   "note": "One of Du's men installed at Dada; provisional."
+  },
+  "阎瑞邬": {
+   "en": "Yan Ruiwu",
+   "pinyin": "Yan Ruiwu",
+   "status": "provisional",
+   "note": "One of Du's men installed at Dada; provisional."
+  },
+  "陈润青": {
+   "en": "Chen Runqing",
+   "pinyin": "Chen Runqing",
+   "status": "provisional",
+   "note": "One of Du's men installed at Dada; provisional."
+  },
+  "尹志衡": {
+   "en": "Yin Zhiheng",
+   "pinyin": "Yin Zhiheng",
+   "status": "provisional",
+   "note": "A Boycott Association man shot as a scapegoat; provisional."
+  },
+  "叶鸿英": {
+   "en": "Ye Hongying",
+   "pinyin": "Ye Hongying",
+   "status": "attested",
+   "note": "1860&#8211;1937; a Shanghai merchant and philanthropist, target of a boycott-era squeeze."
   }
+ },
+ "organizations": {
+  "青帮": {
+   "en": "the Green Gang",
+   "pinyin": "Qingbang",
+   "status": "attested",
+   "note": "青帮; the great secret-society brotherhood of the lower Yangtze and Shanghai. Rendered &#8216;Green Gang&#8217; across the collection."
+  },
+  "洪门": {
+   "en": "the Hongmen",
+   "pinyin": "Hongmen",
+   "status": "attested",
+   "note": "洪门; the sworn-brotherhood secret society of south China (the &#8216;Red Gang,&#8217; 洪帮). Kept as Hongmen across the collection."
+  },
+  "恒社": {
+   "en": "the Heng Society",
+   "pinyin": "Hengshe",
+   "status": "provisional",
+   "note": "恒社; Du Yuesheng's mutual-aid society, founded 1932, through which he organized his following. Its charter and 1934 member roll are the book's appendices."
+  },
+  "仁社": {
+   "en": "the Ren Society",
+   "pinyin": "Renshe",
+   "status": "provisional",
+   "note": "仁社; the society founded around the elder gang master Zhang Renkui, a counterpart to Du Yuesheng's Heng Society."
+  },
+  "军统": {
+   "en": "the Juntong",
+   "pinyin": "Juntong",
+   "status": "decided",
+   "note": "军统; the Nationalists' Bureau of Investigation and Statistics (secret service). Cross-shelf rendering is unsettled (Military Statistics Bureau / the Juntong); this book's rendering is decided at the batch that translates ch21 and reconciled into authority.json then."
+  },
+  "毅社": {
+   "en": "the Yi Society",
+   "pinyin": "Yishe",
+   "status": "provisional",
+   "note": "<span lang=\"zh-Hans\">&#27589;&#31038;</span>; the disciple-society the author founded in 1934&#8211;36 among Shanghai unionists, modelled on Du Yuesheng&#8217;s Heng Society; its emblem punned on the author&#8217;s name, Zhu Xuefan."
+  },
+  "畅社": {
+   "en": "the Chang Society",
+   "pinyin": "Changshe",
+   "status": "provisional",
+   "note": "<span lang=\"zh-Hans\">&#30021;&#31038;</span>; the rival postal disciple-society founded by Zhang Kechang."
+  },
+  "别动队": {
+   "en": "the Special Operations Corps",
+   "pinyin": "biedongdui",
+   "status": "decided",
+   "note": "<span lang=\"zh-Hans\">&#21035;&#21160;&#38431;</span>; the irregular units raised from Green Gang and Hongmen men during the 1937 Battle of Shanghai, armed and run in connection with Dai Li&#8217;s secret service."
+  },
+  "天地会": {
+   "en": "the Heaven and Earth Society",
+   "status": "decided",
+   "note": "The Tiandihui, the great anti-Qing sworn-brotherhood movement of south China, aiming to &#8216;overthrow the Qing and restore the Ming&#8217;; part of the Hongmen tradition.",
+   "pinyin": "Tiandihui"
+  },
+  "罗教": {
+   "en": "the Luo sect",
+   "status": "decided",
+   "pinyin": "Luojiao"
+  },
+  "罗祖教": {
+   "en": "the Luo sect",
+   "status": "decided",
+   "pinyin": "Luozujiao"
+  },
+  "安庆道友会": {
+   "en": "the Anqing Fellowship",
+   "status": "decided",
+   "note": "The Anqing Daoyou Hui, rendered &#8216;the Anqing Fellowship of the Way&#8217;; the fuller early form of the Green Gang, from which the names An-Qing Gang, Clear Gang, and Green Gang evolved.",
+   "pinyin": "Anqing Daoyou Hui"
+  },
+  "荣社": {
+   "en": "the Rong Society",
+   "status": "decided",
+   "note": "Huang Jinrong&#8217;s disciple-organization, its name taken from his.",
+   "pinyin": "Rong She"
+  },
+  "文社": {
+   "en": "the Wen Society",
+   "status": "decided",
+   "pinyin": "Wen She"
+  },
+  "忠义救国军": {
+   "en": "the Loyal and Patriotic Army",
+   "status": "decided",
+   "note": "A Dai Li / Juntong-affiliated irregular force active in the lower Yangtze during the war.",
+   "pinyin": "Zhongyi Jiuguo Jun"
+  },
+  "三合会": {
+   "en": "the Three Harmonies Society",
+   "pinyin": "Sanhehui",
+   "status": "attested",
+   "note": "The Triads of Western usage."
+  },
+  "哥老会": {
+   "en": "the Elder Brothers Society",
+   "pinyin": "Gelaohui",
+   "status": "attested"
+  },
+  "致公堂": {
+   "en": "the Chee Kung Tong",
+   "pinyin": "Zhigongtang",
+   "status": "attested",
+   "note": "The overseas Hongmen lodge network; Cantonese romanization."
+  },
+  "小刀会": {
+   "en": "the Small Sword Society",
+   "pinyin": "Xiaodaohui",
+   "status": "attested"
+  },
+  "三点会": {
+   "en": "the Three Dots Society",
+   "pinyin": "Sandianhui",
+   "status": "decided"
+  },
+  "大刀会": {
+   "en": "the Big Sword Society",
+   "pinyin": "Dadaohui",
+   "status": "decided"
+  },
+  "汉留": {
+   "en": "the Hanliu",
+   "pinyin": "Hanliu",
+   "status": "provisional",
+   "note": "Literally the 'Remnant of Han.'"
+  },
+  "兴中会": {
+   "en": "the Revive China Society",
+   "pinyin": "Xingzhonghui",
+   "status": "attested"
+  },
+  "中国革命同盟会": {
+   "en": "the Chinese Revolutionary Alliance",
+   "pinyin": "Tongmenghui",
+   "status": "attested",
+   "note": "The Tongmenghui."
+  },
+  "华兴会": {
+   "en": "the China Arise Society",
+   "pinyin": "Huaxinghui",
+   "status": "decided"
+  },
+  "兴汉会": {
+   "en": "the Revive Han Society",
+   "pinyin": "Xinghanhui",
+   "status": "decided"
+  },
+  "洪兴协会": {
+   "en": "the Hongxing Association",
+   "pinyin": "Hongxing xiehui",
+   "status": "decided"
+  },
+  "五圣山": {
+   "en": "the Wusheng Mountain",
+   "pinyin": "Wusheng Shan",
+   "status": "decided"
+  },
+  "黄道会": {
+   "en": "the Yellow Way Society",
+   "pinyin": "Huangdaohui",
+   "status": "decided"
+  },
+  "三鑫公司": {
+   "en": "the Sanxin Company",
+   "pinyin": "Sanxin Gongsi",
+   "status": "decided"
+  },
+  "中华共进会": {
+   "en": "the China Mutual Progress Society",
+   "pinyin": "Zhonghua Gongjinhui",
+   "status": "attested"
+  },
+  "晶报": {
+   "en": "The Crystal",
+   "pinyin": "Jingbao",
+   "status": "attested"
+  },
+  "峪云山": {
+   "en": "Yuyun Mountain",
+   "pinyin": "Yuyun Shan",
+   "status": "provisional"
+  },
+  "忠信社": {
+   "en": "the Zhongxin Society",
+   "pinyin": "Zhongxin she",
+   "status": "provisional",
+   "note": "&#8220;Loyalty and Faith&#8221; Society; the disciple-society Huang Jinrong let his men form in 1936 to undermine Du Yuesheng&#8217;s Heng Society. Named from the &#8220;learning, conduct, loyalty, faith&#8221; tablet in Chiang Kai-shek&#8217;s hand at the Huang garden; revived after the war as the Rong Society."
+  },
+  "益社": {
+   "en": "Yi She",
+   "pinyin": "Yi She",
+   "status": "attested",
+   "note": "The disciple-fraternity Fan Shaozeng, this chapter's narrator, ran in Shanghai on the model of Du Yuesheng's Heng Society."
+  },
+  "港济公司": {
+   "en": "the Gangji Company",
+   "pinyin": "Gangji Gongsi",
+   "status": "attested",
+   "note": "The opium-trafficking front company Du set up with Dai Li in 1939, with offices in Chongqing and Hong Kong, nominally under Gu Jiatang."
+  },
+  "通济公司": {
+   "en": "the Tongji Company",
+   "pinyin": "Tongji Gongsi",
+   "status": "attested",
+   "note": "The wartime trading company (c. 1943) fronted by Du for Dai Li, smuggling goods to and from the occupied areas under cover of Juntong privilege."
+  },
+  "中美合作所": {
+   "en": "the Sino-American Cooperation Organization",
+   "pinyin": "Zhong-Mei Hezuosuo",
+   "status": "attested"
+  },
+  "扬子公司": {
+   "en": "the Yangtze Company",
+   "pinyin": "Yangzi Gongsi",
+   "status": "attested",
+   "note": "Kong Lingkan's Shanghai firm, a byword for wartime and postwar profiteering under the protection of H. H. Kung."
+  },
+  "保密局": {
+   "en": "the Baomiju",
+   "pinyin": "Baomiju",
+   "status": "attested",
+   "note": "The Bureau of Confidential Affairs, the 1946 renaming of the Juntong secret service."
+  },
+  "洪帮": {
+   "en": "the Hongmen",
+   "pinyin": "Hongmen",
+   "status": "attested",
+   "note": "The other great Chinese secret-society tradition beside the Green Gang; weaker in Shanghai, stronger in the north."
+  },
+  "中汇银行": {
+   "en": "the Zhonghui Bank",
+   "pinyin": "Zhonghui",
+   "status": "attested",
+   "note": "Du Yuesheng's own bank (the China &amp; Overseas Bank), a pillar of his finances. Rendered &#8216;Zhonghui Bank&#8217; across the collection."
+  },
+  "正始中学": {
+   "en": "the Zhengshi Middle School",
+   "pinyin": "Zhengshi Zhongxue",
+   "status": "decided",
+   "note": "A school Du Yuesheng ran and subsidized; Chen Qun was its principal."
+  },
+  "大东书局": {
+   "en": "the Dadong Book Company",
+   "pinyin": "Dadong Shuju",
+   "status": "attested",
+   "note": "A major Shanghai publishing house; Du Weiping was its deputy general manager."
+  },
+  "祥生汽车公司": {
+   "en": "the Xiangsheng Taxi Company",
+   "pinyin": "Xiangsheng Qiche Gongsi",
+   "status": "attested",
+   "note": "A leading Shanghai taxi firm (Johnson Taxi), founded by Zhou Xiangsheng."
+  },
+  "南洋兄弟烟草公司": {
+   "en": "the Nanyang Brothers Tobacco Company",
+   "pinyin": "Nanyang Xiongdi Yancao Gongsi",
+   "status": "attested",
+   "note": "One of China's largest cigarette makers, founded by the Jian brothers."
+  },
+  "招商局": {
+   "en": "the China Merchants company",
+   "pinyin": "Zhaoshangju",
+   "status": "attested",
+   "note": "The China Merchants Steam Navigation Company."
+  },
+  "通商银行": {
+   "en": "the Commercial Bank",
+   "pinyin": "Tongshang Yinhang",
+   "status": "decided",
+   "note": "The Commercial Bank of China (中国通商银行), of whose board Du became chairman."
+  },
+  "大运公司": {
+   "en": "the Dayun Company",
+   "pinyin": "Dayun Gongsi",
+   "status": "decided",
+   "note": "The company set up to run the aviation-lottery monopoly, with Jin Tingsun as GM."
+  },
+  "上海地方协会": {
+   "en": "the Shanghai Local Association",
+   "pinyin": "Shanghai Difang Xiehui",
+   "status": "decided",
+   "note": "A civic body of the 1930s."
+  },
+  "江苏长途汽车公司": {
+   "en": "the Jiangsu Long-Distance Bus Company",
+   "pinyin": "Jiangsu Changtu Qiche Gongsi",
+   "status": "decided",
+   "note": "A firm Wang Xiaolai managed by Du's arrangement."
+  },
+  "大达轮船公司": {
+   "en": "the Dada Steamship Company",
+   "pinyin": "Dada Lunchuan Gongsi",
+   "status": "decided",
+   "note": "Zhang Jian's Nantong shipping line, the company Du broke into."
+  },
+  "大通仁记航业公司": {
+   "en": "the Datong Renji Navigation Company",
+   "pinyin": "Datong Renji",
+   "status": "decided",
+   "note": "Yang Zaitian's Subei-route rival, later Dada's ally."
+  },
+  "平安轮船公司": {
+   "en": "the Ping'an Steamship Company",
+   "pinyin": "Ping'an",
+   "status": "decided",
+   "note": "Zheng Xitang's line."
+  },
+  "达兴商轮公司": {
+   "en": "the Daxing Commercial Steamship Company",
+   "pinyin": "Daxing",
+   "status": "decided",
+   "note": "Xu Zhongxin's line."
+  },
+  "三北轮船公司": {
+   "en": "the Sanbei Steamship Company",
+   "pinyin": "Sanbei",
+   "status": "decided",
+   "note": "Yu Qiaqing's shipping line."
+  },
+  "华新轮船公司": {
+   "en": "the Huaxin Steamship Company",
+   "pinyin": "Huaxin",
+   "status": "decided",
+   "note": "Huang Zhendong's sole proprietorship."
+  },
+  "益祥轮船局": {
+   "en": "the Yixiang Shipping Bureau",
+   "pinyin": "Yixiang",
+   "status": "decided",
+   "note": "A shell bureau used to register the ex-Datong ship."
+  },
+  "永济航业公司": {
+   "en": "the Yongji Navigation Company",
+   "pinyin": "Yongji",
+   "status": "decided",
+   "note": "Yang Zaitian's original salt-trade shipping firm."
+  },
+  "大生纱厂": {
+   "en": "the Dasheng Cotton Mill",
+   "pinyin": "Dasheng Shachang",
+   "status": "attested",
+   "note": "Zhang Jian's cotton mills at Nantong, a landmark of early Chinese industry."
+  },
+  "怡和洋行": {
+   "en": "Jardine Matheson",
+   "pinyin": "Yihe Yanghang",
+   "status": "attested",
+   "note": "The British trading house Jardine, Matheson and Co. (Chinese hong-name Ewo). Book form \"Jardine Matheson\", per ch07/ch18; ch03 uses the colloquial \"Jardine’s\" in a factory list."
+  },
+  "渣华公司": {
+   "en": "the Java-China Line",
+   "pinyin": "Zhahua",
+   "status": "decided",
+   "note": "The Dutch Java-China-Japan Line (JCJL / Koninklijke Java-China-Paketvaart Lijnen)."
+  },
+  "汉冶萍煤铁公司": {
+   "en": "the Hanyeping Coal and Iron Company",
+   "pinyin": "Hanyeping",
+   "status": "attested",
+   "note": "China's pioneering iron-and-coal combine."
+  },
+  "山下株式会社": {
+   "en": "Yamashita Kaisha",
+   "pinyin": "Yamashita",
+   "status": "attested",
+   "note": "The Japanese shipping firm Yamashita Kisen K.K."
+  },
+  "江南造船厂": {
+   "en": "the Jiangnan Shipyard",
+   "pinyin": "Jiangnan Zaochuanchang",
+   "status": "attested",
+   "note": "The Jiangnan (Kiangnan) Dock and shipyard in Shanghai."
+  },
+  "元和糖行": {
+   "en": "the Yuanhe Sugar House",
+   "pinyin": "Yuanhe Tanghang",
+   "status": "provisional",
+   "note": "Huang Jingquan's Java-sugar firm; provisional."
+  },
+  "大中华旅馆": {
+   "en": "the Great China Hotel",
+   "pinyin": "Dazhonghua Lüguan",
+   "status": "decided",
+   "note": "A Shanghai hotel of which Dai Buxiang was proprietor."
+  },
+  "得记钱庄": {
+   "en": "the Deji native bank",
+   "pinyin": "Deji Qianzhuang",
+   "status": "provisional",
+   "note": "The Nantong native bank whose failure cost Dada its deposit; provisional."
+  },
+  "滋丰钱庄": {
+   "en": "the Zifeng native bank",
+   "pinyin": "Zifeng Qianzhuang",
+   "status": "provisional",
+   "note": "The Shanghai native bank through which Dada shares were bought for Du; provisional."
+  },
+  "交通银行": {
+   "en": "the Bank of Communications",
+   "pinyin": "Jiaotong Yinhang",
+   "status": "attested",
+   "note": "One of China's major government banks."
+  },
+  "上海市社会局": {
+   "en": "the Shanghai Municipal Bureau of Social Affairs",
+   "pinyin": "Shanghai Shi Shehuiju",
+   "status": "decided",
+   "note": "The city bureau Du used to force Dada's reorganization."
+  },
+  "上海航政局": {
+   "en": "the Shanghai Shipping Administration",
+   "pinyin": "Shanghai Hangzhengju",
+   "status": "decided",
+   "note": "The shipping-licensing authority."
+  },
+  "交通部": {
+   "en": "the Ministry of Communications",
+   "pinyin": "Jiaotongbu",
+   "status": "decided",
+   "note": "The Nationalist ministry over railways, posts and shipping."
+  },
+  "上海航业公会": {
+   "en": "the Shanghai Shipping Guild",
+   "pinyin": "Shanghai Hangye Gonghui",
+   "status": "decided",
+   "note": "The shipowners' guild, treated by Yu Qiaqing as his instrument."
+  },
+  "经济绝交大同盟": {
+   "en": "the Grand Alliance for Economic Severance",
+   "pinyin": "Jingji Juejiao Datongmeng",
+   "status": "decided",
+   "note": "The anti-Japanese boycott body, nicknamed the &#8216;Boycott Association.&#8217;"
+  },
+  "公教进行会": {
+   "en": "Catholic Action",
+   "pinyin": "Gongjiao Jinxinghui",
+   "status": "attested",
+   "note": "The lay Catholic organization (Actio Catholica)."
+  },
+  "之江大学": {
+   "en": "Zhijiang University",
+   "pinyin": "Zhijiang Daxue",
+   "status": "attested",
+   "note": "Hangchow (Zhijiang) University, a missionary college."
+  },
+  "南通面粉厂": {
+   "en": "the Nantong Flour Mill",
+   "pinyin": "Nantong Mianfenchang",
+   "status": "decided",
+   "note": "A Zhang-family mill managed by Xu Tao'an."
+  },
+  "祥茂洋行": {
+   "en": "the Xiangmao firm",
+   "pinyin": "Xiangmao Yanghang",
+   "status": "provisional",
+   "note": "A British trading firm whose shipping was crushed by Dada; provisional."
+  },
+  "公茂洋行": {
+   "en": "the Gongmao firm",
+   "pinyin": "Gongmao Yanghang",
+   "status": "provisional",
+   "note": "A British firm; Zheng Xitang was its comprador; provisional."
+  }
+ },
+ "places": {
+  "大世界": {
+   "en": "the Great World",
+   "pinyin": "Da Shijie",
+   "status": "attested"
+  },
+  "十六铺": {
+   "en": "Shiliupu",
+   "pinyin": "Shiliupu",
+   "status": "attested",
+   "note": "The wharf-and-market quarter on the Huangpu at the edge of the old Chinese city, Shanghai's busiest goods landing; where Du Yuesheng got his start."
+  },
+  "华格臬路": {
+   "en": "Rue Wagner",
+   "pinyin": "Huagenie Lu",
+   "status": "attested",
+   "note": "A street in the French Concession, today's Ninghai West Road; site of Du Yuesheng's chief residence."
+  },
+  "杜美路": {
+   "en": "Route Doumer",
+   "pinyin": "Dumei Lu",
+   "status": "attested",
+   "note": "A French Concession street, today's Donghu Road."
+  },
+  "哈同花园": {
+   "en": "the Hardoon Garden",
+   "pinyin": "Hatong Huayuan",
+   "status": "attested",
+   "note": "Aili Garden, the vast Nanjing Road estate of the Baghdadi-Jewish tycoon Silas Hardoon."
+  },
+  "福煦路": {
+   "en": "Avenue Foch",
+   "pinyin": "Fuxu Lu",
+   "status": "attested",
+   "note": "A French Concession street, today's Yan'an Middle Road (eastern stretch)."
+  },
+  "复兴岛": {
+   "en": "Fuxing Island",
+   "pinyin": "Fuxing Dao",
+   "status": "attested",
+   "note": "An island in the Huangpu where Chiang Kai-shek stayed and received callers on the eve of the fall of Shanghai."
+  },
+  "亨利路": {
+   "en": "Route Paul Henry",
+   "pinyin": "Henglilu",
+   "status": "attested",
+   "note": "French Concession road (Route Paul Henry), today's Xinle Road."
+  },
+  "辣斐德路": {
+   "en": "Route Lafayette",
+   "pinyin": "Lafeidelu",
+   "status": "attested",
+   "note": "French Concession road (Route Lafayette), today's Fuxing Middle Road."
+  },
+  "敏体尼荫路": {
+   "en": "Rue Montauban",
+   "pinyin": "Mintiniyinlu",
+   "status": "attested",
+   "note": "French Concession road, today's South Xizang Road. Book form 'Rue Montauban' matches ch08; historically this was Route Montigny (敏体尼 = Montigny) -- FLAG FOR B10 reconciliation."
+  },
+  "丽都花园": {
+   "en": "the Lido Garden",
+   "pinyin": "Lidu Huayuan",
+   "status": "attested",
+   "note": "A Shanghai entertainment garden/ballroom Du frequented."
+  },
+  "华懋饭店": {
+   "en": "the Cathay Hotel",
+   "pinyin": "Huamao Fandian",
+   "status": "attested",
+   "note": "Sassoon's Cathay Hotel on the Bund (今 Peace Hotel north building)."
+  },
+  "城隍庙": {
+   "en": "the City God Temple",
+   "pinyin": "Chenghuang Miao",
+   "status": "attested",
+   "note": "The City God Temple in the old Shanghai city."
+  },
+  "金利源码头": {
+   "en": "the Jinliyuan Wharf",
+   "pinyin": "Jinliyuan Matou",
+   "status": "decided",
+   "note": "The China Merchants' Jinliyuan wharf, haunt of young Du's gambling."
+  },
+  "郑家木桥": {
+   "en": "Zhengjia Wooden Bridge",
+   "pinyin": "Zhengjiamuqiao",
+   "status": "decided",
+   "note": "A quarter and old bridge on the French Concession edge; book form 'Zhengjia Wooden Bridge', per ch08."
+  },
+  "八仙桥": {
+   "en": "Baxianqiao",
+   "pinyin": "Baxianqiao",
+   "status": "attested",
+   "note": "A district of the French Concession (lit. 'Eight Immortals Bridge'). Book form 'Baxianqiao', consistent across ch08/13/14/16."
+  },
+  "小东门": {
+   "en": "the Small East Gate",
+   "pinyin": "Xiaodongmen",
+   "status": "decided",
+   "note": "The Small East Gate quarter of the old Shanghai city (per ch08)."
+  },
+  "共舞台": {
+   "en": "the Gongwutai",
+   "pinyin": "Gongwutai",
+   "status": "provisional",
+   "note": "A Shanghai opera theater where Yao Yulan and Yuying performed."
+  },
+  "长生桥": {
+   "en": "Changsheng Bridge",
+   "pinyin": "Changshengqiao",
+   "status": "decided",
+   "note": "A place in the old walled city; crop-verified (OCR misread 长生帮)."
+  },
+  "莫干山": {
+   "en": "Moganshan",
+   "pinyin": "Moganshan",
+   "status": "attested",
+   "note": "The hill resort in Zhejiang where Du kept a villa."
+  },
+  "里咸瓜街": {
+   "en": "Li Xiangua Street",
+   "pinyin": "Li Xianguajie",
+   "status": "decided",
+   "note": "A street by the money-shop guildhall (then Xiexing Street) in the old city."
+  },
+  "金陵东路": {
+   "en": "East Jinling Road",
+   "pinyin": "Jinling Donglu",
+   "status": "decided",
+   "note": "Today's name for the former Rue du Consulat (法大马路). Book form 'East Jinling Road', per ch08/14/16."
+  },
+  "南通": {
+   "en": "Nantong",
+   "pinyin": "Nantong",
+   "status": "attested",
+   "note": "The Jiangsu city on the north bank of the Yangtze, Zhang Jian's base."
+  },
+  "扬州": {
+   "en": "Yangzhou",
+   "pinyin": "Yangzhou",
+   "status": "attested",
+   "note": "The Grand Canal city of Subei."
+  },
+  "苏北": {
+   "en": "northern Jiangsu",
+   "pinyin": "Subei",
+   "status": "decided",
+   "note": "Northern Jiangsu (Subei), the region north of the Yangtze served by the Dada route. Book form \"northern Jiangsu\", per ch09/12/13/15."
+  },
+  "镇江": {
+   "en": "Zhenjiang",
+   "pinyin": "Zhenjiang",
+   "status": "attested",
+   "note": "The Yangtze city, Yang Guanbei's home."
+  },
+  "天生港": {
+   "en": "Tianshenggang",
+   "pinyin": "Tianshenggang",
+   "status": "provisional",
+   "note": "The river port near Nantong with Dada's wharf; provisional."
+  },
+  "龙潭": {
+   "en": "Longtan",
+   "pinyin": "Longtan",
+   "status": "attested",
+   "note": "The 1927 battle where Sun Chuanfang was routed."
+  },
+  "海门": {
+   "en": "Haimen",
+   "pinyin": "Haimen",
+   "status": "attested",
+   "note": "A county at the Yangtze mouth on the Beisha line."
+  },
+  "启东": {
+   "en": "Qidong",
+   "pinyin": "Qidong",
+   "status": "attested",
+   "note": "A county at the Yangtze mouth on the Beisha line."
+  },
+  "河南路": {
+   "en": "Henan Road",
+   "pinyin": "Henanlu",
+   "status": "decided",
+   "note": "The Shanghai road with the Tianhou Temple."
+  },
+  "天后宫": {
+   "en": "the Tianhou Temple",
+   "pinyin": "Tianhou Gong",
+   "status": "decided",
+   "note": "The Empress-of-Heaven (Mazu) temple on Henan Road, the boycott body's office."
+  },
+  "广东路": {
+   "en": "Guangdong Road",
+   "pinyin": "Guangdonglu",
+   "status": "decided",
+   "note": "A Shanghai commercial road."
+  }
+ },
+ "terms": {
+  "帮会": {
+   "en": "the gangs",
+   "pinyin": "banghui",
+   "status": "decided",
+   "note": "帮会; the secret-society brotherhoods (青帮 and 洪门) collectively &#8212; the book's subject. Rendered &#8216;the gangs&#8217; or &#8216;the secret-society gangs&#8217; as context needs; the title's 帮会 is &#8216;Gangs.&#8217;"
+  },
+  "通草": {
+   "en": "tongcao",
+   "status": "provisional",
+   "note": "The gang&#8217;s internal secret handbooks (<span lang=\"zh-Hans\">&#36890;&#33609;</span>, also written <span lang=\"zh-Hans\">&#36890;&#28518;</span>, <span lang=\"zh-Hans\">&#36890;&#38062;</span>, or <span lang=\"zh-Hans\">&#32479;&#25220;</span>), recording the patriarchs, the boat system, gang rules, ritual, and argot; kept provisional as no standard English form is attested.",
+   "pinyin": "tongcao"
+  },
+  "香堂": {
+   "en": "incense hall",
+   "status": "decided",
+   "note": "The <i>xiangtang</i>, the altar-hall where initiations and gang rites were held, before the spirit-tablets of the patriarchs.",
+   "pinyin": "xiangtang"
+  },
+  "青皮": {
+   "en": "green skin",
+   "status": "decided",
+   "note": "Literally &#8216;green skin&#8217;; a term for a bold local tough, one proposed origin of the name &#8216;Green Gang.&#8217;",
+   "pinyin": "qingpi"
+  },
+  "海底": {
+   "en": "the \"Seabed\"",
+   "pinyin": "haidi",
+   "status": "decided",
+   "note": "The Hongmen's book of rules and ritual."
+  },
+  "红花亭": {
+   "en": "the Red Flower Pavilion",
+   "pinyin": "Honghuating",
+   "status": "decided"
+  },
+  "黄炳权": {
+   "en": "Huang Bingquan",
+   "pinyin": "Huang Bingquan",
+   "status": "provisional",
+   "note": "Narrator of this chapter; an electric-power operator in Nanhui and Chuansha who was also warehouse director of the Shanghai Flour Exchange. Romanization provisional."
+  },
+  "杨镜澄": {
+   "en": "Yang Jingcheng",
+   "pinyin": "Yang Jingcheng",
+   "status": "provisional"
+  },
+  "王忠良": {
+   "en": "Wang Zhongliang",
+   "pinyin": "Wang Zhongliang",
+   "status": "provisional"
+  },
+  "张松春": {
+   "en": "Zhang Songchun",
+   "pinyin": "Zhang Songchun",
+   "status": "provisional"
+  },
+  "顾竹年": {
+   "en": "Gu Zhunian",
+   "pinyin": "Gu Zhunian",
+   "status": "provisional"
+  },
+  "朱如山": {
+   "en": "Zhu Rushan",
+   "pinyin": "Zhu Rushan",
+   "status": "provisional",
+   "note": "A powerful outside speculator in the 1936 flour corner; romanization provisional."
+  },
+  "钟可澄": {
+   "en": "Zhong Kecheng",
+   "pinyin": "Zhong Kecheng",
+   "status": "provisional"
+  },
+  "诸广成": {
+   "en": "Zhu Guangcheng",
+   "pinyin": "Zhu Guangcheng",
+   "status": "provisional",
+   "note": "A standing director of the Flour Exchange; surname 诸 (Zhu), distinct from 朱如山 (also Zhu). Romanization provisional."
+  },
+  "徐咏棠": {
+   "en": "Xu Yongtang",
+   "pinyin": "Xu Yongtang",
+   "status": "provisional"
+  },
+  "卞筱卿": {
+   "en": "Bian Xiaoqing",
+   "pinyin": "Bian Xiaoqing",
+   "status": "provisional",
+   "note": "Manager of the Nanjing Datong Flour Mill and a co-organizer of the interior mills' association; elected a supervisor of the exchange. Romanization provisional."
+  },
+  "荣宗敬": {
+   "en": "Rong Zongjing",
+   "pinyin": "Rong Zongjing",
+   "status": "attested",
+   "note": "1873&#8211;1938; with his brother Rong Desheng, builder of Republican China's largest private industrial group (the Maoxin and Fuxin flour mills and Shenxin cotton mills). Known as the 'Flour King.'"
+  },
+  "王禹卿": {
+   "en": "Wang Yuqing",
+   "pinyin": "Wang Yuqing",
+   "status": "attested",
+   "note": "Partner and general manager of the Rong family's Maoxin and Fuxin flour mills; a director of the Shanghai Flour Exchange."
+  },
+  "宁钰亭": {
+   "en": "Ning Yuting",
+   "pinyin": "Ning Yuting",
+   "status": "provisional"
+  },
+  "吕玉荪": {
+   "en": "Lü Yusun",
+   "pinyin": "Lü Yusun",
+   "status": "provisional"
+  },
+  "孙仲立": {
+   "en": "Sun Zhongli",
+   "pinyin": "Sun Zhongli",
+   "status": "provisional"
+  },
+  "王一亭": {
+   "en": "Wang Yiting",
+   "pinyin": "Wang Yiting",
+   "status": "attested",
+   "note": "1867&#8211;1938 (born Wang Zhen); comprador, businessman, celebrated Shanghai-School painter and Buddhist-layman philanthropist; longtime chairman of the Flour Exchange."
+  },
+  "顾馨一": {
+   "en": "Gu Xinyi",
+   "pinyin": "Gu Xinyi",
+   "status": "provisional",
+   "note": "A leader of the exchange's 'gentry faction' alongside Wang Yiting. Romanization provisional."
+  },
+  "王叔贤": {
+   "en": "Wang Shuxian",
+   "pinyin": "Wang Shuxian",
+   "status": "provisional",
+   "note": "Wang Yiting's second son, who ran up rent debts on an exchange warehouse. Romanization provisional."
+  },
+  "胡筠庄": {
+   "en": "Hu Yunzhuang",
+   "pinyin": "Hu Yunzhuang",
+   "status": "provisional",
+   "note": "Elected a director of the exchange on the Du-Yang slate. Romanization provisional."
+  },
+  "面粉交易所": {
+   "en": "the Flour Exchange",
+   "pinyin": "mianfen jiaoyisuo",
+   "status": "decided",
+   "note": "上海面粉交易所, the Shanghai Flour Exchange; a commodity-futures market trading flour by delivery month. Rendered 'the Flour Exchange' / 'the Shanghai Flour Exchange.'"
+  },
+  "内地面粉厂同业公会": {
+   "en": "the Association of Interior Flour Mills",
+   "pinyin": "Neidi mianfenchang tongye gonghui",
+   "status": "decided",
+   "note": "The trade association of the up-country ('interior') flour mills, as opposed to those of Shanghai and Wuxi; Du Yuesheng was its chairman."
+  },
+  "茂新": {
+   "en": "Maoxin",
+   "pinyin": "Maoxin",
+   "status": "attested",
+   "note": "茂新面粉厂, the Rong family's Wuxi flour mill, whose 'Green Warship' brand set the exchange's standard grade."
+  },
+  "福新": {
+   "en": "Fuxin",
+   "pinyin": "Fuxin",
+   "status": "attested",
+   "note": "福新面粉厂, the Rong family's Shanghai flour mill."
+  },
+  "阜丰": {
+   "en": "Fufeng",
+   "pinyin": "Fufeng",
+   "status": "attested",
+   "note": "阜丰面粉厂, a leading Shanghai flour mill, whose 'Red-and-Blue Cart' brand ranked with the Green Warship standard."
+  },
+  "大同面粉厂": {
+   "en": "Datong Flour Mill",
+   "pinyin": "Datong mianfenchang",
+   "status": "provisional",
+   "note": "南京大同面粉厂, the Nanjing Datong Flour Mill, managed by Bian Xiaoqing."
+  },
+  "况成造纸厂": {
+   "en": "Kuangcheng Paper Mill",
+   "pinyin": "Kuangcheng zaozhichang",
+   "status": "provisional"
+  },
+  "扬州面粉厂": {
+   "en": "Yangzhou Flour Mill",
+   "pinyin": "Yangzhou mianfenchang",
+   "status": "provisional"
+  },
+  "宁海西路": {
+   "en": "Ninghai West Road",
+   "pinyin": "Ninghai Xilu",
+   "status": "decided",
+   "note": "The present-day name (Ninghai West Road) of the street formerly called Rue Wagner (华格臬路), where Du's mansion stood."
+  },
+  "南汇": {
+   "en": "Nanhui",
+   "pinyin": "Nanhui",
+   "status": "attested",
+   "note": "A rural county on the coast southeast of Shanghai."
+  },
+  "川沙": {
+   "en": "Chuansha",
+   "pinyin": "Chuansha",
+   "status": "attested",
+   "note": "A rural county east of Shanghai, in what is now Pudong."
+  },
+  "东亚旅馆": {
+   "en": "the East Asia Hotel",
+   "pinyin": "Dongya Lüguan",
+   "status": "provisional"
+  },
+  "绿兵船": {
+   "en": "Green Warship",
+   "pinyin": "lü bingchuan",
+   "status": "attested",
+   "note": "The Maoxin/Fuxin mills' flour brand, taken as the exchange's benchmark grade; other mills' flour was discounted against it."
+  },
+  "红蓝车": {
+   "en": "Red-and-Blue Cart",
+   "pinyin": "hong lan che",
+   "status": "provisional",
+   "note": "The Fufeng mill's flour brand, ranked alongside the Green Warship standard."
+  }
+ }
 }
