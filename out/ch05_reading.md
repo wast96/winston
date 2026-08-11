@@ -805,3 +805,43 @@ Some great calamity had befallen her, one saw, and she had become a Christian nu
 "Half a year, it would be. When the Venerable Lorenzo was to go and teach at the seminary in Takatsuki, I was given charge of the place in his absence, and came here."
 
 "And what is your name, sister?"
+
+"I was given the name Kiara."
+
+You will have guessed already, reader. Twelve years ago she was sent as a kunoichi into the castle of Asakura Yoshikage at Ichijōdani in Echizen. After the castle fell she went home to Iga; and five years ago, in Nobunaga's attack on Iga, when she was on the very point of burning to death, Kashii shielded her from the flames with his own body, so that she lived on with only the left side of her burned. On the day Akechi Mitsuhide fell upon Nobunaga at the Honnō-ji, she was the beggar-woman who crawled out from under the Gojō bridge in Kyoto. Taken in, by and by, at the Nanban temple in Kyoto, she became a kitchen-woman at the seminary in Takatsuki. That was Tamo; and now here she stood, a nun by the name of Kiara.
+
+In the days when she had lost Kashii, her body maimed, the will to live gone out of her, Tamo had been a dull, repellent creature, filthy and hideous. But Christianity—a religion born, after all, of an oppressed people—soaked easily into her broken heart; and false thing though it might be, it gave her peace and a sense of fullness. So the parts of her the fire had spared had won back a lustrous life, and gave off a clean, pure fragrance.
+
+"And you, sir?" asked Tamo, the nun Kiara.
+
+"My name—I cannot say it now. A time will come when you will know it—for just now I am a man with a curse in his heart—"
+
+"You must not curse anyone."
+
+"Even a man who would take my own wife from me?"
+
+"Just so—to punish the wicked is Deus's own doing, the work of God; it is not for men to do."
+
+"And I am to stand and suck my thumb while my wife is taken from me, is that it?"
+
+"No. First reason with the man, lay the matter out to him, and persuade him to give up his wrongful wish."
+
+"That is no good. The man is a professional at taking other men's wives. And he is my lord besides. Should I cross him, I would not only be turned out—I would be killed. Living in the world as it is now, sister, you must know what these great lords are. The late Lord Nobunaga, Lord Hideyoshi—you must know how they helped themselves to other men's wives. And the lesser lords, it is all one. They are convinced that a retainer's very life is theirs, to do with as they please. Persuade such a man—it cannot be done."
+
+"Then cast yourself upon Maria-sama."
+
+"That is what I am doing, here and now. But will Maria-sama really grant this prayer?"
+
+"She will grant it, surely, surely; but for that, your prayer must come truly from the heart, and your faith in Maria-sama must be pure and undefiled."
+
+"That goes without saying. It is the very reason I flew the long road here."
+
+"Your prayer must not be a thing forced upon Maria-sama. From the first, we humans, who are a very sink of sin, Maria-sama looks upon with pity, and pours down her mercy. It is ours only to beg that mercy of her."
+
+"That I understand."
+
+"In what form Maria-sama will grant your prayer lies within her own heart, and we foolish mortals cannot fathom it. Here in this dark vale of tears, we cry out for the Holy Mother's mercy as an infant cries. And to be, in however small a measure, worthy of that mercy, we must strive at good works and labor to become good. But to reckon—I have done such-and-such a good deed, therefore such-and-such a mercy is my due—that is not permitted. All lies within Maria-sama's own heart; and whatever she deals us, we receive only as grace, and are thankful."
+
+"Then—then—" Hanzō groaned. "Then there is no guarantee of grace at all?"
+
+"It is not a thing of guarantees. You must not look for such a thing. Deus is almighty; there is nothing he cannot do, if he wills it. But what he does, and how, lies within the heart of the boundless, measureless Deus alone. And Maria-sama, to plead our human cause before Deus, watches over us day and night. Nothing, however small, does she ever overlook. The good, in the end, are raised up to Heaven,
