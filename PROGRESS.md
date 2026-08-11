@@ -627,3 +627,101 @@ sources, the apparatus, the glossary, and the EPUB.
 - **Tooling:** no script changes. work/asm_ch15a.py reused as a starting point;
   the second half was reconstructed paragraph by paragraph from data/txt against
   the English and crop-verified. data/zh/ch15.txt force-added (tracked).
+
+## B07a — ch16 (杜门话旧, "Reminiscences of the Du Household") — DONE
+
+- **Scope:** ch16, PDF 257-276 / printed 248-267. A NEW chapter in new files
+  (out/ch16_reading.md, data/zh/ch16.txt), 58 paragraphs, 4 numbered sections
+  (一-四; the source marks them (一)-(四) with no titles, rendered ### I-IV).
+- **Narrator / byline:** 黄国栋口述　罗醴泉整理 — Huang Guodong (Du's household
+  chief accountant, entered at 24), taken down by Luo Liquan. Byline confirmed
+  by crop. This is the household-insider's view of Du: the two mansions, the
+  wives and children, the whole hired establishment and its cost, Du's gang
+  rise, the wartime Hong Kong years, and the strange last months before
+  liberation.
+- **Pipeline:** render 257-276 --dpi 300; ocr_crop 257-276 --left 0.06 --right
+  0.91 --top 0.09 --bottom 0.89 --lang chi_sim --psm 6 (pgrep -c tesseract = 0
+  after); ocr_dual for the second read. zh reconstructed paragraph by paragraph
+  from data/txt against the English, 1:1, headings ###; build_zh_candidate NOT
+  used (mis-aligns, guardrail c). data/zh/ch16.txt force-added.
+- **Checks (all green):** verify_unit (58 pairs, numbers 0 unresolved, 17
+  anchors ok); check_align (median 4.82 en/han, no stray > 2.2x); check_content
+  (317 name occurrences, all in the paired paragraph — after fixing the drift
+  below); qc_entities (0 misses; census 杜月笙 x43, 黄金荣 x19, 万墨林 x18);
+  check_register --ref out/ch03_reading.md (within tolerance); zh-vs-en
+  sentence-count tail scan (no long-paragraph clause drops); check_apparatus
+  (0 failures). Built cumulative EPUB (16/28, 306 notes), qa_epub PASS,
+  epubcheck 0/0.
+- **Cross-chapter drift caught and fixed:** 叶焯山 was rendered "Ye Zhuoshan" in
+  ch15 (焯 = zhuō); I had written "Ye Chuoshan". Corrected the glossary row and
+  ch16 to "Ye Zhuoshan" — ch15 now passes check_content too. (Adding a glossary
+  row makes check_content re-check every prior chapter for that name; a mismatch
+  surfaces immediately. Worth remembering.)
+- **Register / digits:** house rule "digits for specific quantities" — the
+  salaries, the 600,000-dollar house, the debt figures (5,700,000 / 2,400,000 /
+  300,000 / 2,000,000), the flower-basket sums, Room 705, No. 181, and the
+  120-odd telephone numbers are all digits; small counts (six weddings, three
+  horses, nine at dinner) stay words.
+- **+113 glossary rows (total 421).** The chapter is a who's-who; nearly every
+  hired hand, guest, and gang figure is named. New principal-cast-adjacent:
+  黄国栋, 罗醴泉, 黄文祥, 杨渔笙, 陈帼英, 孙佩豪, 万墨林, 万兆棠. The household staff
+  (翁佐卿, 邱访陌, 王幼棠, 胡叙五, 陆桂才, 陈秦鹤, 陈继藩, 高怀礼, 王宝钰, 郁访熏);
+  the gang gallery (谢葆生, 杨顺铨, 范开泰, 范回春, 范恒德, 徐德胜, 袁宝珊, 叶焯山,
+  戴步祥, 江肇铭, 浦贤元, 樊良伯, 夏连良, 陈荣生); the wartime cast (蒋伯诚, 汪曼云,
+  傅品圭, 傅筱庵, 徐庆云, 邵得度, 唐生明, 唐生智, 袁履登, 林康侯, 金鼎勋, 丁如松,
+  蔡庆其, 张慰如, 张锦寿); and the liberation-eve figures (周恩霆, 宋霭龄, 盛丕华,
+  潘汉年, 张澜, 史良, 沙千里, 廖承志). Reused unchanged from prior batches: Du
+  Yuesheng, Huang Jinrong, Zhang Xiaolin, Jin Tingsun, Gu Jiatang, Chen Qun,
+  Qian Xinzhi, Zhang Shizhao, Yao Yulan, Meng Xiaodong, Du Weiping, Du Weifan,
+  Chiang Ching-kuo, Kong Lingkan, Song Meiling, Xu Caicheng, Lu Jingshi, Zhu
+  Xuefan, Rui Qingrong, Ma Xiangsheng, Gu Zhuxuan, Lu Yongxiang, He Fenglin, Wu
+  Shibao, Wu Kaixian, Zhang Yishu, Lu Lanchun, Wei Tingrong, Ding Yongchang,
+  Tang Jiapeng, Gao Xinbao, Fan Kaitai, Huang Zhenshi, Xu Maotang, Wen Lanting,
+  Wang Xiaolai, Liu Hongsheng, Pan Gongzhan, Xu Jiqing.
+- **+17 notes (ch16), book total 306.** Zhonghui Bank; Shiliupu; the aviation
+  lottery; Meng Xiaodong; the Four Guardians; pingtan; Yang Du (the monarchist
+  who was secretly a CCP member); the Hardoon Garden; the January 28 (1932)
+  incident; Fu Xiao'an (the assassinated puppet mayor); the Dadao puppet city
+  government; the "three notables of Shanghai"; Meng Linghui (= Meng Xiaodong);
+  Zhang Lan; Liao Chengzhi; Pan Hannian; and Zhou Enting (this last reproduces
+  the source's own footnote and flags the uncorroborated "Zhou Enlai's cousin"
+  claim). NOT re-noted (already placed): 老头子 and Chen Shichang as Du's Green
+  Gang master (ch15); the Du family shrine at Gaoqiao (ch15); Huileli (ch15);
+  the Lu Lanchun / Huang-Jinrong-arrest / He-Fenglin rescue (ch08); No. 76
+  Jessfield Road puppet secret service (ch04, ch06); the "solitary island"
+  (ch03, ch14); fabi and the gold yuan certificate (ch08, ch15); Du Weiping's
+  arrest / the 1948 buying panic / Kong Lingkan / Song Meiling (ch15, from the
+  other witness). Cross-referenced, not re-noted.
+- **Figures.** None. find_figures 257-276 flagged nothing; continuous memoir
+  prose. Empty figure list is a deliberate decision.
+- **Crop-verified readings (29) recorded in data/ocr_fixes.json under "ch16".**
+  Key catches: 陈志昌→陈世昌 (Du's Green Gang master); 傅彼攻→傅筱庵; 金策肌→金鼎勋;
+  周恩赴→周恩霆; 座承志→廖承志; 砧否华→盛丕华; 茉证街→菜市街; 徐犯党→徐懋棠;
+  高效宝→高鑫宝; 谢医生→谢葆生; 吉宝组→袁宝珊; 江药铝→江肇铭; 美良信→樊良伯;
+  维得→维翰, plus the Yao Yulan children (维善、维嵩、美如、美霞). Because data/zh
+  is tracked and already corrected, apply_fixes replays as a no-op; the ledger
+  is the audit trail.
+- **Minor low-stakes tier left at best OCR reading (named so as not to
+  over-verify):** the defunct fruit-firm and shop names in §1 and §3; the
+  Cai Qingqi opera-amateur names (张中原, 孙兰亭, 改剑飞, 张拓生, 孙钧时); 郭兰世
+  (provisional) and 蒯德珍 (provisional); the jailbreak plotters (刘绍奎, 陆大公,
+  刘俊卿). None recur or bear weight.
+- **noise.txt additions (ch16 block):** 五百七十余万, 二百数十万, 二十余万,
+  三十多万, 五百多万 (all split by 余/多 before 万); a guarded surname-万 rule
+  (万墨林/万木林/万兆棠/bare 万, never the 10,000 multiplier); a guarded tael
+  rule ((?<=[余多])两, the unit 两 orphaned by 余/多 else reads as 2); 顾七
+  (七 = name), 零用钱 (零 = spare), 沙千里 (千 = name), 中百一店 (百一 ≠ 101).
+  Do NOT remove; extend as the number check flags new ones, longest literal
+  first.
+- **Voice sheet — HUANG GUODONG (ch16 narrator):** the household chief
+  accountant. Plain, precise, ledger-minded — inventories the mansions, the
+  wives and children, the whole staff and its salaries down to the yuan. Loyal
+  insider but a watchful one; survived three wartime arrests and frames himself
+  as an anti-Japanese resister working under Du's cover. Reticent before what
+  he cannot explain ("I never did make out"), and pointed about the
+  liberation-eve mysteries (the sham monk, the Zhou disciple, the Zhang Lan
+  dinner, the three letters to Liao/Sheng/Pan) that hint Du leaned toward the
+  Communists. 1980s CPPCC vocabulary (汉奸, 伪, 解放). No em dashes in prose to
+  the commissioner.
+- **Tooling:** no script changes. work/content_cfg.json regenerated with a ch16
+  docs/sources entry (work/ is gitignored).

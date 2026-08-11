@@ -346,3 +346,27 @@
 万(?=[是来留不])
 # 四川 again, AFTER 几十万 above: the early 四川 rule is guarded and skips 四川 when it follows 万 (几十万四川); once 几十万 is stripped, this second pass strips the now-unguarded 四川. Rendered "Sichuan".
 四川
+#
+# ===== ch16 (B07a) block =====
+# 五百七十余万 = "over 5.7 million yuan" (Du's total debt); 余 splits 五百七十 from 万, orphaning 570 + 10000. English carries "more than 5,700,000".
+五百七十余万
+# 二百数十万 = "two million and some hundred thousand" owed to banks; 数 splits 二百 from 十万. English carries "2,000,000-odd".
+二百数十万
+# 万 as the surname Wan (万墨林 Wan Molin, 万木林, 万兆棠, and bare 万 for "Wan"); NOT the 10,000 multiplier, which is always preceded by a numeral. Guarded so it never fires inside a money compound (六十万, 三十万, 二百四十万, 五百七十余万 all keep their 万).
+(?<![0-9０-９零〇一二两兩三四五六七八九十百千万萬亿億数數几幾余餘多])万
+# 三十多万 = "over 300,000" (Yang Yusheng's cash); 多 splits 三十 from 万. English carries "300,000-odd".
+三十多万
+# 五百多万 = "over 5 million yuan" (Du's debt, post-war); 多 splits 五百 from 万. English carries "more than 5,000,000".
+五百多万
+# 两 as the weight unit tael (liang) when orphaned by a preceding 余/多 (二十余两, 十余两); the parser otherwise reads the unit 两 as the number 2. Only fires right after 余/多, so 两 meaning "two" (两个, 两座, 两天) is untouched.
+(?<=[余多])两
+# 二十余万 = "over 200,000" extorted from Wan's wife; 余 splits 二十 from 万. English carries "more than 200,000".
+二十余万
+# 顾七 = Gu Qi, the by-name of Gu Wenda (lit. "Gu Seven"); 七 is the name, not the number 7.
+顾七
+# 零用钱 = pocket money; 零 here means "spare/petty", not the number 0.
+零用钱
+# 沙千里 = Sha Qianli, the jurist (one of the "seven gentlemen"); 千 is his name, not the number 1000.
+沙千里
+# 中百一店 = the Shanghai No. 1 Department Store (中百 = department store, 一店 = branch one); 百一 is not the number 101.
+中百一店
