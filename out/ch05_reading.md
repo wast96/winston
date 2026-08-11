@@ -988,4 +988,34 @@ At that time Osaka castle was in the thick of its rebuilding, with hundreds of t
 
 Hideyoshi, greatly pleased with Ogimaru's spirit, decided to send Asano Yahei-no-jō Nagamasa and Horio Mosuke Yoshiharu to carry word of it to Ieyasu. The two went to Ogimaru, who was shooting at the archery ground, and said, "We are going down now to Enshū, to wait on Lord Ieyasu and tell him how the young lord fares. And if there be anything there that you are used to, some furnishing or the like, we should be glad to bring it back for you. Is there anything?"
 
-At this Ogimaru walked over to Ishikawa Kazumasa, who stood by, handed him his bow and arrows, and, the archer's gloves still on both hands,
+At this Ogimaru walked over to Ishikawa Kazumasa, who stood by, handed him his bow and arrows, and had him take off his yugake, the leather gloves that guard the fingers.
+
+Had Asano and Horio been more watchful, they would have noticed that at that moment Kazumasa whispered something to Ogimaru. The boy turned to face the two and said: "Ogimaru is Lord Hideyoshi's child. There can be nothing at Hamamatsu, no furnishings I am used to, nothing of the kind. If there is aught I want, I shall ask Lord Hideyoshi, and have it got for me."
+
+The two, who had thought he might grow tearful at the mention of his birthplace, were startled for a moment by these words. But when they thought about it: once a boy was adopted, then—just as by the rule that a daughter married out must never again cross her birth-family's threshold—his only parent could be Hideyoshi. Such was the ordinance of the Japanese family. At this the two were freshly, keenly moved: so much pluck in the child that they even shed tears. And going to Hamamatsu, when they came before Ieyasu, they told him of it at once.
+
+For an instant Ieyasu made a strange face. But he masked it at once. Hmph—that fellow Kazumasa, up to his tricks, was the thought that came to him. "So. I too once had a boy called Ogimaru; but I have sent him off now as another man's adopted son, and he is my child no longer." That was all he said; and after that he never spoke a word of Ogimaru again.
+
+When the two went back up to the capital and reported this, Hideyoshi, a simple man in matters of the heart, said: "Hmph. So Ieyasu has schooled the boy well, and has, it seems, truly come round himself. A dependable fellow."
+
+Goemon, for his part, tried more than once to steal into Osaka castle; but with tens of thousands of laborers at work day and night, wherever he crept the watch was so strict that get in he could not, do what he would. By and by the fifteenth of the second month came, the term Hanzō had set, and he hurried home to Hamamatsu.
+
+At midnight he stood at the door of his own dear home. His heart beating fast, he gave the knock that passed between the two of them alone: tap-tap-tap—swee. The "swee" was a stroke of the palm across the wood. But within, there was no stir at all. Once more—but no answer came.
+
+"Maki—Maki—it's me, I'm home." But there was no reply.
+
+He put his hand to the door to open it, but it seemed barred from within, and would not give. Never before had this happened. However deep the night, one knock of the old sort, and she would be up at once. With a stab of foreboding, Goemon went round to the back, sprang up onto the storehouse roof, pried loose the one wallboard that was always made to come away, and slipped in through the ceiling.
+
+And at that moment he started. The feel of the place was somehow not as it had been. Someone other than Goemon, it seemed, had been coming and going.
+
+Looking down from the ceiling, he saw the bedding laid out neat. He dropped down and turned it back: Goichi was fast asleep, but Maki was not there. Her bed was empty.
+
+"Maki—Maki—." He searched the whole small house, tearing up even the kitchen floorboards, but Maki was nowhere. Presently he noticed that the air of the house held a strange smell. It was the scent of sandalwood and aloeswood.
+
+He started. This was, for certain, an Iga-school sleeping-drug: bat, paulownia leaf, centipede, sandalwood, cottonseed, aloeswood, yellow ox-dung, and quicksilver, ground to powder and mixed, then lit so the smoke is breathed in—the very thing Goemon himself had used, again and again, in the days when he plagued the capital.
+
+"Uhh—Maki—Maki's been made to breathe the sleeping-drug, and carried off!"
+
+He shook Goichi. Goichi too lay in a dead, heavy sleep. Just then he felt, of a sudden, the presence of people outside. In a flash he went to the kitchen, lifted a floorboard, and vanished beneath it.
+
+A moment later a ninja in dark garb dropped soundlessly from the ceiling and lifted the door-bar. At that, another carried in Maki, still asleep. The two laid her in her bed; one slipped out the door; the other barred it from within and sprang to the ceiling. Goemon came out from under the floor, and sprang up to the ceiling after them.
