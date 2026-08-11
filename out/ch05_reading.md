@@ -515,3 +515,57 @@ The Miyoshi men, who had never dreamed the enemy was near, fell at once into wil
 And in a moment a great many broke and ran to the south. Two of these soldiers, thinking, no doubt, to slip away in the confusion, came crashing up into the wood on the hill where Goemon and the others lay hidden. A small ball was flung at their feet: a sharp report, and it burst into a blue fireball. With a shriek the two of them went sprawling. A woman's laugh rang out, shrill and piercing—ha-ha-ha-ha—and a giant ninja stepped out, stripped the two of them bare, bound them hand and foot, and strung them up on a tree-trunk. The pair promptly fainted away.
 
 At this Hatsuko fell into a wild pitch of excitement. Shrieking with laughter, she went racing down the hill, sprang out onto the road where the couriers were running for the main body, and pelted them with flash-balls and smoke-balls, one after another. The soldiers, who had never met such things before, took her for a demon sprung up out of the ground, and scattered like spiderlings, fleeing back the way they had come or off down the side-roads.
+
+"Quick, Karasumaru—flash-balls and smoke-balls!" Karasumaru drew some ten balls from his breast and passed them to Hatsuko.
+
+"Don't go on! There's a she-demon up ahead!" cried a fleeing soldier.
+
+"Nonsense. It's broad daylight now." But the soldier who said it, seeing a woman fling off her black hood, her hair wild about her, her red mouth gaping wide, and flash her hand so that balls came flying out to spit light and smoke, went half mad with terror and fled.
+
+Because of this, word was slow in reaching the main body, and in that interval the fourth division was annihilated. The commander, Miyoshi Hidetsugu, had his horse cut down under him and could not get away; and at the moment when it seemed all was over, a retainer named Kani Saizō happened by. "Lend me that horse," said Hidetsugu. "It is an umbrella in a downpour, my lord; I cannot lend it," the man threw back, and bolted off at full pelt. Just then another retainer, Kinoshita Kangeyu, came up. "Then mount this one, my lord," he said, and gave up the horse he rode; and he drew the sashimono banner from his own back, planted it in the ground, and was cut down on the spot by the enemy closing in. In that space Hidetsugu barely made his escape. Kani Saizō made off from the spot, and no one knows where he went.
+
+Now the first, second, and third divisions, which had assaulted Iwasaki castle from about four that morning, the ninth, and settled the whole business in a two-hour fight, were in the best of humors. They meant to eat their breakfast, take a rest, and then push on south. Just then, far to their rear, a furious clatter of gunfire broke out.
+
+"Hey there! Have they caught us up from behind?"
+
+"Absurd! Some rising of the local kunin—the country squires—no doubt."
+
+"What's that? A peasants' rising? Impudence. Crush them!"
+
+"Wait, wait. If it's a rising of clodhoppers, leave it to the fourth division. In any case, send out scouts and see."
+
+They sent out three scouts, and waited; and after nearly half a watch all three came back white as sheets.
+
+"It's too late! They're wiped out—"
+
+"What? Wiped out?"
+
+Every face went bloodless.
+
+"No peasant rising, that. It wasn't a rising, then?"
+
+"An ambush, then?"
+
+"Fool—how could anyone lay an ambush for a move as lightning-swift as ours? To have caught up with us in a single night—that is what they did."
+
+"Ninja, after all. They say Ieyasu's army has an Iga chief named Hattori Hanzō, with three hundred ninja gathered under him. Those are the ones who must have read our every move."
+
+"Hmm. So this she-demon who did such execution—that too was a ninja?"
+
+"Aye. A woman ninja."
+
+"A woman ninja—I never heard the like."
+
+"Trust Lord Tokugawa. He may well have made such a thing."
+
+"And today its first outing."
+
+"Is it really a woman?"
+
+"So they say. A fearsome beauty, they say, her hair all wild. She flung out balls that flashed light and balls that gave off smoke, faster than the eye could follow, and for very terror no man could come near her."
+
+"And what became of this woman ninja?"
+
+"Before they knew it, they say, she had vanished away into the woods."
+
+In any case there must be no panic. The fourth division was already destroyed; and the cautious counsel carried the day, that they should hold strong ground and wait for the enemy, who would come on flushed with victory and headlong. So first the third division moved a little to the north and drew up at Yarigane, the plain of Nagakute falling away before it, a hill at its back; and there it waited, the muzzles of its guns leveled in a row. It was by then about seven in the morning.
