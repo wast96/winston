@@ -283,3 +283,35 @@
 万荣
 # 金廷荪（阿三）= Ah San, nickname element
 阿三
+
+# --- ch15 (B06a): Fan Shaozeng on Du Yuesheng ---
+# 万县 = Wanxian, the Sichuan county Fan garrisoned; 万 is the place name, not 10000.
+万县
+# 二三两 = two or three taels (Du's daily opium); measure 两, en "two or three taels". Reads as 232.
+二三两
+# a 两 following 多 (三千多两, 二百多两) is the tael measure, not the digit 2.
+(?<=多)两
+# 四乡 = the surrounding countryside; 四 is part of the compound, not a count.
+四乡
+# 成千上万 = idiom "thousands upon thousands"; en renders the sense, not the digits.
+成千上万
+# 两面三刀 = idiom "two-faced / double game"; not the counts 2 and 3.
+两面三刀
+# 七二一惨案 = the July 21 Massacre (a date-name); en "July 21 Massacre".
+七二一
+# 零食 = snacks; 零 is lexical, not the count 0.
+零食
+# 三山会馆 = the Sanshan Guild Hall (a building name); 三 romanized in the name.
+三山会馆
+# 金九林 = Jin Jiulin, the French-Concession police chief inspector; 九 part of the name.
+金九林
+# 推三推四 = idiom "make excuses / stall"; not the counts 3 and 4.
+推三推四
+# 三、四万 = "thirty or forty thousand" (approximation); strip the leading 三 so 四万=40000 matches "forty thousand".
+三(?=、四)
+# 中国、交通两银行 = "the two banks, Bank of China and Bank of Communications"; 两 = "the two", en names both.
+两银行
+# 四角 = four jiao (of the 二元四角 wage rise); en carries it as "forty cents".
+四角
+# 成千 residual of 成千上万 after the built-ins strip 上万; "thousands upon thousands", not a count.
+成千

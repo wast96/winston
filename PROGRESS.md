@@ -449,3 +449,101 @@ sources, the apparatus, the glossary, and the EPUB.
   OCR rather than replayed through data/ocr_fixes.json, since data/zh/ is
   tracked (force-added) and a fresh checkout carries the corrected files
   directly.
+
+## B06a (ch15 first half, printed 195-221): Fan Shaozeng on Du Yuesheng
+
+- **Scope.** First half of ch15, "On Du Yuesheng" (关于杜月笙), narrated by the
+  Sichuan warlord and Du sworn-brother Fan Shaozeng, set down by the Juntong
+  memoirist Shen Zui. PDF 204-230 / printed 195-221. Sections 一 (Early
+  Activities), 二 (The Special Power Built on Anti-Communism), and the opening
+  of 三 (through the first two paragraphs). 119 body paragraphs. B06b continues
+  the SAME out/ch15_reading.md and data/zh/ch15.txt from PDF 231 (筹备工作...).
+- **Checks, all clean.** verify_unit (parity 119=119, numbers 0 unresolved,
+  41 anchors ok), check_align (median 4.79, no pair >2.2x), check_content
+  (199 name occurrences, all placed), qc_entities (0 misses), check_register
+  (within tolerance of the frozen ch03 ref), check_apparatus (0/0), qa_epub
+  PASS, epubcheck 0 errors 0 warnings.
+- **TWO content drops caught and fixed before shipping** (rule 4 corollary --
+  the tail of a long single-pass paragraph is where faithfulness fails). Pair
+  42 (the 1930 strike background) had dropped the whole second half (the
+  lockout, the 8-yuan / abolish-fines demand, the KMT-mediation refusal, the
+  White Russian strikebreakers); pair 55 (Zhang Yishu) had dropped its whole
+  second half (Zhang bailing out Du's disciples by phone/name-card and doing
+  his bribery). Both restored and re-verified. Caught by an en/han ratio scan
+  plus a zh-vs-en sentence-count scan over every pair; the surviving low-ratio
+  pairs (59, 119, 26, 12, 108, 118) were checked by eye and are complete
+  (name-dense or terse, not drops). Lesson for B06b: run the ratio + sentence
+  scans on the long paragraphs BEFORE the first build, not after.
+- **+41 notes** (running total 279). Dense, as planned for the first Du
+  chapter; will taper across ch16-21. New this batch: Fan Shaozeng and Shen
+  Zui (byline, with the interested-witness framing); the Paoge and gengtie
+  birth-cards; He Long; hat-snatching (抛顶宫) and biesan; the Great World
+  founder discrepancy (Huang Chujiu, not Huang Jinrong -- factual); Zhuge
+  Liang, Song Jiang / "Timely Rain", Lord Chunshen / Lord Mengchang; Zhang
+  Jinghu = Zhang Renkui cross-ref (the 镜湖/锦湖 hao); the Chou'an Society "Six
+  Gentlemen"; the Four Great Families; the April-12 fullest-account +
+  witness-stance note (cross-ref ch02); the July 21 / 1930 tramway strike;
+  comprador, Vietnamese constables, White Russians; Li Shizeng; the 1948
+  vice-president election; Aviation-to-save-the-nation; Saionji (boast, flagged
+  uncorroborated and improbable); the Lytton Commission; the "sixteenth year"
+  Central Daily eulogy register; Chiang's first (1927) resignation; Dai Ji vs
+  Dai Li; the Sun Sun Company; wahua / paijiu, "big swindle", the Champions'
+  sweepstakes, the fabi; the Tongshang Bank (Commercial Bank of China), China
+  Merchants, the Jiangyin scuttling; the Heng Society (1932, cross-ref ch03,
+  Qing/Chang sub-fraternities); "taking an old man"; Yao Yulan / Meng Xiaodong
+  / Mei Lanfang; Huang Tianba / Dou Erdun. Chiang-as-Green-Gang-disciple
+  flagged as gang lore, not fact.
+- **Chiang-as-disciple, Saionji, Great World founder** are the three
+  interested-witness / factual-correction notes (rule 5): rendered as printed,
+  the discrepancy stated in the note, never silently corrected.
+- **NOT re-noted (already placed):** the April 12 coup mechanics (ch02; here
+  cross-referenced with the witness-stance note), Wang Shouhua's murder (ch09),
+  the Three Big Bosses (ch06), master-disciple 门生 initiation (ch03), the
+  generation-rank system (ch05), the Sanxin opium combine (ch05/ch13), the
+  Juntong (ch06), Yang Du's double life (ch04), the Heng Society name-pun on
+  Du (ch03), jai alai (ch08), T. V. Soong / H. H. Kung as decided shelf forms.
+- **+54 glossary rows** (people; total 262). Added the byline pair and the
+  large ch15 cast: Gu Jiatang (顾嘉棠 -- a major recurring enforcer that had
+  been MISSING from the ledger through ch12-14; now attested "Gu Jiatang"),
+  Ma Shiqi, Ma Xiangsheng, Yang Sen, Liu Xiang, He Long, Chen Kunyuan, Xiang
+  Chuanyi, He Beiheng, Wu Guozhen, Yan Huiqing, Zhang Yishu, Saionji, Liu
+  Hangchen, the Du children (Weifan/Weiping/Weixin), Yao Yulan, Meng Xiaodong,
+  Sun Chuanfang, Wei Daoming, Wu Zhongxin, Li Jishen, Chen Duxiu, Zhou Fengqi,
+  Dai Ji, Sun Ke, Li Zongren, Chen Lifu, Wang Zhaohuai, Jin Jiulin, Ji
+  Yunqing, Xu Maotang/Maochang, Zeng Kuoqing, Liu Gongyun, Li Shizeng, Jin
+  Shaoshan, and others (see work/batch_gloss_ch15.json). 张镜湖 was NOT added
+  as a separate row (it is Zhang Renkui's hao; handled by footnote cross-ref).
+- **Reused unchanged:** Du Yuesheng, Huang Jinrong, Zhang Xiaolin, Jin
+  Tingsun, Chen Qun, Yang Hu, Dai Li, Lu Jingshi, Chen Shichang, Zhang Renkui,
+  Wei Tingrong, Lu Liankui, Yang Du, Qian Xinzhi, Zhang Shizhao, Bai Chongxi,
+  Han Fuju, Qi Xieyuan, Lu Yongxiang, Gao Xinbao, Wang Jingwei, Yuan Shikai,
+  Mei Lanfang, T. V. Soong, H. H. Kung; the Green Gang, Ren/Heng/Rong
+  Societies, Sanxin Company, Juntong.
+- **noise.txt** grew a ch15 block: 万县, 二三两, (?<=多)两, 四乡, 成千上万,
+  成千, 两面三刀, 七二一, 零食, 三山会馆, 金九林, 推三推四, 三(?=、四),
+  两银行, 四角 -- all placenames / idioms / measure-word 两 (tael) / date-names
+  the extractor read as digits. Every entry commented per the file's rules.
+- **Two real quantities carried, not noised:** the 20,000/19,000 USD loan and
+  the "over a thousand silver dollars" small-game stake are rendered in digits
+  so the number check catches them (the extractor cannot parse "nineteen
+  thousand").
+- **Provisional / left as printed (for B10 reconciliation):** the foreign
+  concession-commanders 巴而雪/邓坎/白多楼 (Ba'erxue / Dengkan / Baiduolou,
+  transliterated, unidentified) rendered as printed and NOT glossaried; the
+  single-appearance functionaries 唐嘉鹏, 芮庆荣, 彭伯威, 祝绍周, 伍文渊, 斯烈,
+  顾苗根, 朱如山, 徐士浩, 吴启鼎, 康心之/康心如, 陆根泉, 张克昌, 张君生,
+  甘格霖/费沃礼/沈叔眉 (French consul, police chief, comprador) -- most now in
+  the glossary, a few (the foreign commanders) left as printed. 张镜湖/张锦湖
+  hao split still open for check_reconcile.
+- **Voice.** Fan Shaozeng narrates plain, worldly, first-person, often
+  self-implicating (his own black-market fortunes, gambling cuts, warehouse
+  killing); Du's dialogue kept to the boastful-boss baseline (the chest-thump
+  "what kind of men would we be if we did not help!", the "spend one cash, get
+  the effect of ten" maxim). No em dashes in prose to the commissioner; the
+  translation uses them as English punctuation.
+- **Tooling:** no script changes. Added work/asm_ch15a.py (one-off ch15
+  assembler, gitignored under work/) and scripts/band.py (crop a page band by
+  OCR line number -- the crop_lines row-mapping is unreliable on this book).
+  data/zh/ch15.txt is force-added (tracked) like the earlier zh files; the
+  97/98 paragraph split (深明大义 / 识时务) was merged by hand to match the scan,
+  and the 106-line drug-income paragraph was restored to the reading.
