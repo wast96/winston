@@ -909,3 +909,53 @@ In the middle of the fourth month this year, while Goemon was away at the war of
 This small, exquisite thing had received its life through him, and here it was, living. If he did not cherish and raise it, it could not live. Maki now was not only his wife, but this child's mother; and he was its father. A feeling took root in him that he was one flesh and one soul with the child. And his bond with Maki, too, came to seem deeper and firmer. As that feeling grew keen in the relation of father and mother, he came to love little Goichi past all bearing. And now the pain of parting from the child for two months was added to the pain of parting from Maki.
 
 On the morning of the eleventh, before even the first cock had crowed, Goemon rose; and as he quickly put on his medicine-seller's disguise, he stood gazing at the sleeping faces of Maki and Goichi.
+
+Then Maki sat up with a start. In silence she helped him into his change of clothes, and then: "You weren't meaning to slip off without a word to me, were you now?"
+
+A ninja, wherever he went, meant always to go without a word of farewell to his family. So Goemon too, had Maki not woken, would have gone without telling her. But that he could not say. "Nothing of the sort—once I'd changed, I meant to wake you properly."
+
+"Back when we were in Sakai, you'd often go off without a word, to Kyoto or Osaka. I'd wake and you'd be gone. No knowing where you'd got to; you might never come back. Truly, it made me so sad."
+
+Just then Goichi woke and began to cry. Maki took him up and gave him the breast. It had grown a size larger than before the child was born, swelling into a perfect hemisphere; and the nipple, that had been sunk and sleeping, drawn out now by the baby's steady sucking, stood up small but rose-pink.
+
+"There now, there, there. Your papa was about to go off on a journey while you slept, so he was. A bad papa, isn't he."
+
+Goemon came close too and soothed him. "There, there. Take all the milk you want. When your papa goes on a journey, he'll always tell your mama and Goichi first, before he goes. Everything—he'll tell the two of you everything."
+
+Maki, pouring the clear light of her eyes into Goemon's, said: "We hide nothing. We tell each other everything. That's how it is with us two, isn't it."
+
+Goemon nodded hard, and, so as not to get in Goichi's way, took her in his arms from behind. "That's it! That's it! Maki and I—there's just the two of us! I am Maki, and Maki is me. The two of us are one person!"
+
+Maki too, with her free hand, clung tight to his arm. "Yes! Yes! The two of us are one!"
+
+At length Goemon let her go. "Now—I must be off. It is only the work of seeing the young lord safe to Osaka castle, and finding out how Lord Hideyoshi treats him. There is no danger in it at all."
+
+"You're not the ninja you used to be, you know. There's no need for you to go near anything dangerous."
+
+"I know. I know."
+
+"When will you be back?"
+
+"By the middle of the second month, they say."
+
+"The middle of the second month—that's a long time."
+
+"It can't be helped. So long as we are here, I must do my service."
+
+And so Goemon went away.
+
+When the stir of young Ogimaru's departure had died down, the castle-town of Hamamatsu fell into the bustle of the year's end and the coming of the new, and so the days changed by.
+
+At midnight on the eighteenth of the twelfth month, through a knothole in the room where Maki and Goichi lay sleeping, a white smoke—so faint you would not see it unless you looked with care—came drifting down like a thread. For half a watch it kept drifting down, and hung heavy, sinking, about the bedding. Presently, from the ceiling, two ninja in dark garb dropped without a sound, laid hold of Maki's body, and lifted her. But Maki was utterly senseless, and let herself be handled without resistance. The white smoke, then, could be nothing but a sleeping-drug.
+
+The two lifted the bar from the door and carried her outside. One went back at once, barred the door again from within, sprang to the ceiling, and vanished. A moment later he appeared at the gable, dropped soundlessly to the road, and with the one who had waited wrapped Maki in a black cloth got ready for the purpose, lifted her, and set off at a run. From the shadow of the street corner a third ninja stepped out and spoke to the two.
+
+"Did it go well?"
+
+"Yes—here she is."
+
+"Then hurry."
+
+The three raced through the dark town, and reaching the back gate of the castle, knocked—tap, tap.
+
+"Who's there?"
