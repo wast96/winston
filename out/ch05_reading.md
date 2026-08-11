@@ -714,4 +714,58 @@ At this a smile came to Ieyasu's face. "Just so, just so. A man cannot keep on l
 
 "Lord Nobukatsu too will come to his senses by and by, and come back to us."
 
-"Just so, my lord. At the meeting at Yatagawara, they say, Lord Hideyoshi prostrated himself on the sand and, vowing that from that day he looked up to Nobukatsu as his lord, let the tears stream down. But Lord Hideyoshi's tears are tears he can shed whenever he pleases, and as many as he pleases. A truly handy tool, good for the moment and no more."
+"Just so, my lord. At the meeting at Yatagawara, they say, Lord Hideyoshi prostrated himself on the sand and, vowing that from that day he looked up to Nobukatsu as his lord, let the tears stream down. But Lord Hideyoshi's tears are tears he can shed whenever he pleases, and as many as he pleases. A truly handy tool, good for the moment and no more. However light-headed Lord Nobukatsu may be, he will soon see through the trick. But more than that, my lord—think back to how things stood this year, about the third month, when Hideyoshi, having destroyed Shibata Katsuie, an old and high-placed retainer of Lord Nobunaga's, and brought Maeda Toshiie to heel, wore the face of a man who owned the realm, and a head-on clash with you seemed all but certain. All Japan on the very brink of becoming one field of fire, the common people half out of their wits with dread, trembling, with nothing left them but to pray to the gods and Buddhas—and it was your lordship's authority that settled it. It was your doing, they say, that you stood up to Lord Hideyoshi and held him fast; the lord of Hamamatsu is a great man, they say, and there is not one but bows to the ground before you. By this one stroke you have grown twice, three times the greater."
+
+"Mm, mm—so it seems. And though I lose Ogimaru, I must set to and get more sturdy sons, more and more of them."
+
+Ieyasu's temper was quite mended. This—the way he would make the effort himself, and set his own mood right in a moment—was the secret of his enduring toughness.
+
+When Honda had gone, his interest turned at once to another matter. He leaned out through the crawl-door of the tea-room and called in a low voice.
+
+"Hanzō—are you there?"
+
+And from somewhere, though no one could be seen, came a low voice: "I am here, my lord."
+
+"Come closer."
+
+From the grass by the pond, at the foot of the little rise on which the tea-room stood, Hanzō came slipping out and crouched down. He wore mouse-gray ninja garb, ready to set off in an instant. To be at Ieyasu's side was one of Hanzō's chief duties.
+
+Ieyasu put an unexpected question. "Hanzō—those two ninja you brought along at the Iga crossing—"
+
+"Yes, Etegi and Karasumaru—"
+
+"Are they well?"
+
+"Yes, my lord. Every day they are at their post in the ninja guardhouse, faithful at their duty."
+
+Then Ieyasu turned to something else. "That merchant we lodged with at Shiroko beach—"
+
+"Yes, Kadoya Kyūemon—"
+
+"He was well rewarded, was he not?"
+
+"Yes, my lord; he was given a handsome reward at the time, and more."
+
+"—There was a daughter in that house, was there not?"
+
+Here it comes, thought Hanzō, and stiffened. "Yes, my lord, there was."
+
+"What was her name?"
+
+"She was called Hatsuko."
+
+Ieyasu's face went a dark red. "A girl who had shot up healthy and strong, as I remember—"
+
+"Yes, my lord, just so—"
+
+It was two years now since then. In all that time Ieyasu had not said a word of her, and Hanzō had reckoned he had forgotten. But it was not so. War upon war had only left him no room to think of her; and now, with peace made with Hideyoshi and his mind at leisure again, it had all come back in a rush.
+
+The blood drained out of Hanzō. But just then Ieyasu said, "Good—withdraw," and slid the door to with a clack; and Hanzō let out a long breath.
+
+Taken up, perhaps, with the preparations for Ogimaru's journey to the capital, Ieyasu let the matter rest a while. Ogimaru's departure was fixed for the twelfth of the twelfth month; by the eighth all was ready. And that evening, all at once, the call came again from the tea-room: "Hanzō—are you there?"
+
+This time he came straight to the point. "Go to Shiroko beach at once, and fetch that girl here to me!"
+
+"My lord—but more than two years have gone by. She will surely have been married off somewhere by now."
+
+At which Ieyasu, thrusting his irritated face at him, shouted,
