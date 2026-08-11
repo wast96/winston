@@ -407,6 +407,36 @@
       "pinyin": "Gero Shōbei Yasuji",
       "status": "decided",
       "note": "The false name Gohei adopts after deserting Iga, claiming descent from a retainer surname of the old Ichijō house of Tosa. Furigana げろ on 下呂; reading of 康次 (Yasuji) a project call."
+    },
+    "服部半蔵": {
+      "en": "Hattori Hanzō",
+      "pinyin": "Hattori Hanzō",
+      "status": "attested",
+      "note": "The historical Iga ninja who served Tokugawa Ieyasu; here recalled by Jūzō as the broker between the Tokugawa and the Iga gōshi. Footnoted at first appearance."
+    },
+    "石見守": {
+      "en": "Iwami-no-kami",
+      "pinyin": "Iwami-no-kami",
+      "status": "attested",
+      "note": "The honorary provincial title Hattori Hanzō later took (Governor of Iwami)."
+    },
+    "光秀": {
+      "en": "Mitsuhide",
+      "pinyin": "Mitsuhide",
+      "status": "attested",
+      "note": "Akechi Mitsuhide, Nobunaga's killer at Honnō-ji, defeated by Hideyoshi at Yamazaki. Bare surname-reading used in ch05 narration; see 明智光秀."
+    },
+    "勝家": {
+      "en": "Katsuie",
+      "pinyin": "Katsuie",
+      "status": "attested",
+      "note": "Shibata Katsuie, Nobunaga's senior general, passed over by Hideyoshi after Yamazaki. Bare given name; see 柴田勝家."
+    },
+    "夏見ノ耳次": {
+      "en": "Natsumi-no-Mimiji",
+      "pinyin": "Natsumi-no-Mimiji",
+      "status": "provisional",
+      "note": "A masterless Iga rappa Kuroami singles out at the muster. 夏見 (Natsumi) is a place in Iga; reading of 耳次 (Mimiji) unglossed in the scan and a project call."
     }
   },
   "places": {
@@ -756,6 +786,114 @@
       "pinyin": "Tosa",
       "status": "attested",
       "note": "The province on the south of Shikoku; the old Ichijō house whose retainer-surname Gohei borrows had ruled part of it."
+    },
+    "羅刹谷": {
+      "en": "Rakshasa Valley",
+      "pinyin": "Rasetsu-dani",
+      "status": "decided",
+      "note": "The chapter-title valley south of Higashiyama, its ruined Yakushi hall the rappa's muster-place. 羅刹 (rakshasa) footnoted at first appearance."
+    },
+    "泉山": {
+      "en": "Senzan",
+      "pinyin": "Senzan",
+      "status": "provisional",
+      "note": "The maple-covered peak south of Higashiyama on which the Sennyū-ji stands; read Senzan (the mountain of 泉涌寺)."
+    },
+    "泉涌寺": {
+      "en": "Sennyū-ji",
+      "pinyin": "Sennyū-ji",
+      "status": "attested",
+      "note": "The imperial mortuary temple on Senzan. Footnoted at first appearance."
+    },
+    "音無川": {
+      "en": "the Otonashi-gawa",
+      "pinyin": "Otonashi-gawa",
+      "status": "attested",
+      "note": "The thin stream running through Rakshasa Valley to the Kamo; furigana おとなしがわ. The name means 'the soundless river'."
+    },
+    "浮世橋": {
+      "en": "the Ukiyo-bashi",
+      "pinyin": "Ukiyo-bashi",
+      "status": "decided",
+      "note": "The vermilion bridge into the valley; furigana うきよばし. Named for the 'floating world'; to cross it is to leave the world of the living."
+    },
+    "下京": {
+      "en": "Shimogyō",
+      "pinyin": "Shimogyō",
+      "status": "attested",
+      "note": "The southern, mercantile half of Kyoto."
+    },
+    "方広寺": {
+      "en": "the Hōkō-ji",
+      "pinyin": "Hōkō-ji",
+      "status": "attested",
+      "note": "Hideyoshi's Great Buddha temple in the capital; Kuroami's whetter-stall stands beside it. The Great Buddha itself was footnoted in ch03."
+    },
+    "佐渡": {
+      "en": "Sado",
+      "pinyin": "Sado",
+      "status": "attested",
+      "note": "The island whose gold mines Hideyoshi engrossed."
+    },
+    "生野": {
+      "en": "Ikuno",
+      "pinyin": "Ikuno",
+      "status": "attested",
+      "note": "The silver-mining district in Tajima; furigana いくの."
+    },
+    "聚楽第": {
+      "en": "the Jurakudai",
+      "pinyin": "Jurakudai",
+      "status": "attested",
+      "note": "Hideyoshi's palace-villa in the capital (ch07's title, 聚楽). Footnoted at first appearance."
+    },
+    "江戸": {
+      "en": "Edo",
+      "pinyin": "Edo",
+      "status": "attested",
+      "note": "Ieyasu's eastern seat, the future Tokugawa capital; here in a proleptic aside about Hattori Hanzō's later mansion."
+    },
+    "関東": {
+      "en": "the Kantō",
+      "pinyin": "Kantō",
+      "status": "attested",
+      "note": "The eastern provinces, Ieyasu's domain of 2,550,000 koku."
+    },
+    "朝鮮": {
+      "en": "Korea",
+      "pinyin": "Chōsen",
+      "status": "attested",
+      "note": "Target of Hideyoshi's invasion; the campaign was footnoted in ch03."
+    },
+    "大明": {
+      "en": "the Ming",
+      "pinyin": "Dai-Min",
+      "status": "attested",
+      "note": "Ming China, the ultimate object of Hideyoshi's continental war."
+    },
+    "四国": {
+      "en": "Shikoku",
+      "pinyin": "Shikoku",
+      "status": "attested",
+      "note": "One of the regions levied for corvée labour for the invasion."
+    },
+    "中国": {
+      "en": "the Chūgoku provinces",
+      "pinyin": "Chūgoku",
+      "status": "decided",
+      "note": "The western provinces of the main island (NOT China); rendered 'the Chūgoku provinces' to avoid confusion with 大明."
+    },
+    "紀州": {
+      "en": "Kishū",
+      "pinyin": "Kishū",
+      "status": "attested",
+      "note": "Kii province."
+    },
+    "五畿内": {
+      "en": "the Five Home Provinces",
+      "pinyin": "Gokinai",
+      "status": "attested",
+      "note": "The five provinces around the capital (Yamashiro, Yamato, Kawachi, Izumi, Settsu)."
     }
   },
   "terms": {
@@ -866,6 +1004,24 @@
       "pinyin": "Take-no-Shōnin",
       "status": "decided",
       "note": "The local nickname for the monk Gyōzan, who gazes at (and claims to become) the bamboo. 上人 (Shōnin) is an honorific for a holy monk."
+    },
+    "羅刹": {
+      "en": "rakshasa",
+      "pinyin": "rasetsu",
+      "status": "attested",
+      "note": "A flesh-eating demon of Buddhist myth. Footnoted at first appearance."
+    },
+    "国広": {
+      "en": "Kunihiro",
+      "pinyin": "Kunihiro",
+      "status": "attested",
+      "note": "Horikawa Kunihiro, a celebrated swordsmith; here the maker of the blade Jūzō leaves to be polished."
+    },
+    "庚申": {
+      "en": "kōshin",
+      "pinyin": "kōshin",
+      "status": "attested",
+      "note": "The kōshin folk-cult and its emblematic monkey; the 'kōshin monkey' simile is footnoted at first appearance."
     }
   }
 }

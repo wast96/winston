@@ -606,3 +606,130 @@ notes-only merge). Removed one stray row (木さる) after the ch02 regression a
   bamboo"; reads Gohei's face as a rappa's on sight. Craggy, wry じゃ/わい/おる
   register — a one-chapter chorus figure who names the theme (the shadow arts turned
   to selfish gain leave an "evil cast" on the face).
+
+## Batch B05 — ch05 羅刹谷 / Rakshasa Valley (PDF/printed 149-166, offset 0)
+
+Jūzō and Kuroami cross the Ukiyo-bashi into Rakshasa Valley, south of Higashiyama,
+to a ruined Yakushi hall where Kuroami has mustered some twenty masterless rappa
+(Iga, Kōga, one from Harima). Jūzō is installed as their unseen chief; their charge
+is not robbery but to "curse the world" — set anti-Toyotomi rumour flying over the
+Korea-war levy. A long essayistic middle (Shiba's own historical digression) turns
+on Hideyoshi's gold: the mines of Sado and Ikuno, the 金賦 largesse of Tenshō 13/17,
+the Jurakudai hoard, and Jūzō's reading of Sōkyū's design — Sakai's wealth behind
+Ieyasu, Hattori Hanzō the broker, the Iga gōshi to rise again. Closes with Jūzō and
+Kuroami on the cliff: Kohagi is a suspected Kōga infiltrator (Kuroami will kill her
+on sight, Jūzō consents); if Gohei has deserted, Jūzō must be the one to cut him
+down. 152 source paragraphs; 6 new notes (book total 50).
+
+### Tail verified against the scan (rule 4)
+ch05's final paragraph (folio 166) reads off the scan as: 重蔵と黒阿弥は…崖の上で
+別れた。黒阿弥は…数丈下の暗い地面へ…跳んだ。重蔵はそのまま更に崖を攀じ、稜線を
+南へ伝って泉涌寺参道の松並木へ出た。まだ、夜が明けるのにだいぶ間がある。夜の京の
+地図を体に入れるために、天明まで町を歩いてみるつもりだった。 Rendered faithfully as
+the closing paragraph. Folio 167 was rendered and confirmed to be entirely the ch06
+opener (忍び文字, Gohei and the kunoichi); ch05 does NOT spill onto it. The top of
+folio 149 is ch04's tail (the Gohei/Gyōzan exchange), already placed in B04 and not
+re-translated here — ch05's body begins after the 羅刹谷 title with 東山の南に、泉山…
+
+### Crop-verified this batch (names / numbers / low-confidence spans)
+- Numbers: 二百五十五万石 (Ieyasu's Kantō, 2,550,000 koku), the gold figures 金子五千枚 /
+  銀子三万枚 / 二万六千枚 / 三十万五千両 (folio 160), 禄高八千石 (Hanzō), 百十軒 / 十八人
+  (the Ōmi levy), 四十万 / 千万石. All confirmed against magnified crops.
+- Names: 服部半蔵 / 石見守 / 江戸麹町半蔵門 (folio 162), 聚楽第 / 別墅 (folio 160),
+  堺の富力 (NOT 合力; folio 161), 夏見ノ耳次 (folio 154, no furigana on 耳次 — reading a
+  project call, provisional). 翕然と従った (folio 159): the OCR "きい、きゅう然" is the
+  complex 翕 mis-split; rendered "fell in behind him… to a man" (robust to the reading).
+
+### Checks run (all green)
+- verify_unit ch05: numbers 0 unresolved (152 pairs), anchors 0.
+- check_structure --pairs: parity 152 | 152 OK.
+- check_align ch05: median 9.79 en/han; the flagged pairs are all short dialogue/
+  one-clause lines (expected ratio noise), no real drops.
+- qc_entities: 0 misses (census: 重蔵 x37, 黒阿弥 x34, 秀吉 x23…).
+- check_content --config data/checks.json: ch05 129 occurrences all in the paired
+  paragraph; content alignment OK across all five units.
+- check_register --ref out/ch01_reading.md: 16.7 contr/1k (1.06x ref) after a pass of
+  natural contractions through Jūzō/Kuroami dialogue; within tolerance (was 5.4/0.34x
+  STILTED on first draft — Kuroami's ござる register kept its weight on a few grave
+  lines and his self-naming).
+- check_apparatus: 0 failures, 0 warnings (50 notes book-wide).
+- build_reading_epub: 5 of 20 chapters, 50 notes, 49 pagebreaks.
+- qa_epub: PASS (34 files, 27 documents, all links resolve).
+- epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+### noise.txt additions (data/noise.txt, ch05 block)
+Two false-positive classes and one parser-limitation class:
+- 百姓 (peasantry) and 何百年 ("hundreds of years"): the 百 is not the count 100.
+- 二百五十五万 / 三十万五千 / 二万六千 / 百十: real quantities carried in the English, but
+  the check_numbers English-word parser cannot compose "two million…thousand",
+  "three hundred and five thousand", "twenty-six thousand", or "hundred and ten".
+  Noised on the SOURCE side per the B03 二千二百/千二百 precedent (safe: noise only
+  removes source numerals, never masks a drop; each value verified present in the EN).
+
+### Footnotes — NOT re-noted (already placed in ch01-ch04; cross-referenced)
+Iga/Kōga, Tenshō dating (Tenshō 9/10/13/17), the Iga Rebellion, Honnō-ji, Hideyoshi/
+Nobunaga/Ieyasu, Imai Sōkyū, the Hōin rank, Sakai the free-city, Tenka Fubu,
+Sekigahara (here foreshadowed "nine years off"), the Korea invasion (唐入り/朝鮮出兵 —
+the ch03 "his design to attack Korea" note covers it), Hideyoshi's heirless-ness
+(秀吉に子がない — the ch03 Tsurumatsu note), the Hōkō-ji Great Buddha (京の大仏 / 方広寺),
+the zodiac double-hours (子ノ刻, 暮四ツ, 二刻), the measures (尺/丁/石/両), rappa/shinobi,
+jizamurai/gōshi, and the B04 first-appearances. The Battle of Yamazaki (1582) and
+Akechi Mitsuhide's usurpation-comparison are historical context the reader already has
+from the ch01 Honnō-ji note and are left un-noted.
+
+### Footnotes — new this batch (6, ch05's own first-appearances)
+1. 羅刹 rakshasa — the flesh-eating demon and the valley legend (anchor "this is
+   Rakshasa Valley").
+2. Sennyū-ji — the imperial mortuary temple since Emperor Shijō; the crossing "out of
+   the world of the living" (anchor "the burial ground of one sovereign after another").
+3. Hattori Hanzō — the historical Iga ninja who served Ieyasu and brokered the
+   Tokugawa–Iga tie (anchor "brought by Hattori Hanzō").
+4. the gold largesse — Hideyoshi's 金賦 of 1585 and 1589; the figures assessed as "of
+   the order reported by contemporaries" (anchor "the gold largesse").
+5. the Jurakudai — Hideyoshi's palace (ch07's title, 聚楽) (anchor "the Jurakudai").
+6. the kōshin monkey — the kōshin vigil and the see/hear/speak-no-evil monkeys (anchor
+   "a carved kōshin monkey").
+
+### Minor points left unfootnoted (the low-stakes tier)
+The swordsmith 国広 Kunihiro (a glossary row; a fine-blade prop, "a Kunihiro" like "a
+Stradivarius"), 音無川 (name means "the soundless river", left plain), 浮世橋 (its sense
+carried by the surrounding lines), 丈 jō and 畳 (tatami) as loose height/area units
+(kept without a note; shaku/ken are already glossed), 五畿内/中国 as region labels.
+
+### No figures
+find_figures 149-166 returned nothing; every page eyeballed for line art. ch05 is
+text-only, like ch01-ch04. Empty figure list is a deliberate decision (figures.json
+stays {} — no chapter in this book has carried a figure).
+
+### Renderings — reused unchanged (consulted before romanizing)
+Tsuzura Jūzō / 重蔵 Jūzō, 黒阿弥 Kuroami, 今井宗久 Imai Sōkyū, 小萩 Kohagi, Kisaru
+(木さる = 木猿), 下柘植次郎左衛門 Shimotsuge Jirōzaemon, 風間五平 Gohei, 伊勢屋嘉兵衛
+Iseya Kahei, Hideyoshi, Ieyasu, Nobunaga, 明智光秀 (Mitsuhide), 柴田勝家 (Katsuie),
+Iga/Kōga, Sakai, Ōsaka, rappa, Tenshō, koku/shaku/chō/ri, the Chinnō-in, Higashiyama.
+
+### Renderings — added this batch (glossary.json; 23 rows)
+People (5): Hattori Hanzō (服部半蔵), Iwami-no-kami (石見守), Mitsuhide (光秀, bare
+surname-reading), Katsuie (勝家, bare given name), Natsumi-no-Mimiji (夏見ノ耳次,
+provisional). Places (16): Rakshasa Valley (羅刹谷), Senzan (泉山, provisional),
+Sennyū-ji (泉涌寺), the Otonashi-gawa (音無川), the Ukiyo-bashi (浮世橋), Shimogyō
+(下京), the Hōkō-ji (方広寺), Sado (佐渡), Ikuno (生野), the Jurakudai (聚楽第), Edo
+(江戸), the Kantō (関東), Korea (朝鮮), the Ming (大明), Shikoku (四国), the Chūgoku
+provinces (中国), Kishū (紀州), the Five Home Provinces (五畿内). Terms (3): rakshasa
+(羅刹), Kunihiro (国広), kōshin (庚申). Added directly into the sectioned
+people/places/terms with the Edit tool (notes-only apparatus_merge, no flatten). A
+bare 宗久→Sōkyū row was tried and REMOVED: its "Sōkyū" substring collided with "Imai
+Sōkyū" across ch03's paragraph alignment and retroactively tripped check_content on a
+pronoun-carried ch03 paragraph that had shipped clean. Bare 宗久 stays consistent in
+prose but is not a checked anchor (same as before this batch).
+
+### Voice sheets — updates
+- **Tsuzura Jūzō:** back onstage as the reflective strategist. Terse, guarded, blunt
+  (わし); reads the age like a merchant reading a ledger, "not a breath of moisture" in
+  the rappa's eye. Won't kill Kohagi himself (has lain with her once) but consents to
+  Kuroami doing it; the revenge-hunger of ch01 now hardens into a will to "throw
+  himself, body and life, into this work" for Iga's sake.
+- **Kuroami:** a LEAD this chapter. Aged (past fifty), the shinobi art made flesh;
+  humble-archaic ござる/ござろう servant register to Jūzō, whom he has known "since
+  swaddling-clothes" and chides like a father. Cold, practical, superstitious in his
+  creed (no women inside a ninja's 結界); can "snuff out his own presence" mid-sentence.
+  Runs the muster as "Iseya Kahei" the whetter; installs the unseen Jūzō as chief.

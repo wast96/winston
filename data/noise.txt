@@ -105,3 +105,16 @@
 三条
 # 六波羅 = Rokuhara, a Kyoto district — the 六 is the place name, not the count 6 — rendered "Rokuhara"
 六波羅
+# --- Owl's Castle (ch05) Japanese entries ---
+# 百姓 = "the peasantry / farmers" (lit. "hundred surnames"); the 百 is not the count 100 — rendered "peasant(s)"
+百姓
+# 何百年 = "hundreds of years" (indefinite idiom); the 百 is not a count — carried "hundreds of years"
+何百年
+# 二百五十五万(石) = 2,550,000 koku (Ieyasu's Kantō); parser cannot compose "two million ... thousand" — value carried in the English. Longest first.
+二百五十五万
+# 三十万五千(両) = 305,000 ryō (the gold-largesse total); parser cannot compose "three hundred and five thousand" — value carried in the English
+三十万五千
+# 二万六千(枚) = 26,000 gold-and-silver pieces; parser cannot compose "twenty-six thousand" — value carried in the English
+二万六千
+# 百十(軒) = 110 households; parser reads the English "hundred and ten" as 100+10 — value carried "hundred and ten households"
+百十
