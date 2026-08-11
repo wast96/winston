@@ -479,3 +479,40 @@ Last year, when I made my pilgrimage to the Konpira shrine in Shikoku, I visited
 Goemon, at the point of death, gave no thought to his own dying. Rather, in such a world as this, he no longer wished to live. He had no hope that there was a world beyond, or that going there he would meet Maki. For him the end of life was the end of everything: he would go out, scatter like mist, and nothing would remain. In that day it was a cast of mind only a man of very tough spirit could hold.
 
 His one regret was Goichi. Had he never chanced on Ryōsai and Tamo, he could never have brought himself to leave the boy and go for Hideyoshi's life. That he had met those two—two maimed people, one of them, like Goichi, robbed of the light of his eyes—had all but lifted the care that looked back over his shoulder. But that he would never see Goichi again—that one thing
+ pierced him. That he would never again hear that shrill, sweet little voice was a loneliness. But that loneliness too would go out the moment his own breath went out.
+
+Through the mesh of the net he watched the guards busy at their work, the fire heating the underside of the cauldron, the oil within it warming. There was no thought in him of the great crowd watching. However they looked on his end, to a man about to vanish it was nothing. In a world where Hideyoshi lived, and Ieyasu flourished, and Hanzō rode high, he no longer wished to live. Enough—enough now—let it be quick. And the pain would last only a moment; soon he would be nothing at all.
+
+The guards rose and dragged him, net and all, under the iron hook that hung from the middle of the three logs. The coroner signaled with his eyes.
+
+There was dread in him still—let it be over!—the dread of going down into that oil. For it seemed they meant, to draw his pain out long, to lower him in before the oil boiled, and it was not yet at the boil. For an instant terror ran through him and his hair stood on end. But—but—so be it. Do what you will. The pain would pass, and be gone.
+
+Just then, from beyond the palisade, rose the nenbutsu the crowd let out without knowing it. And in that instant Goemon took a blow as if heaven and earth had turned over. "Aaah!" He cried out, half rose, and fell with a crash. From one side of the palisade, Hanzō was leading in Goichi, his hands bound behind him. The boy was white as paper, his sightless eyes wide open.
+
+"Goichi!!" Goemon cried.
+
+Goichi heard his father's dear voice and lunged to run to it, but the rope behind held him, and he tripped and fell.
+
+"Goichi! Here! Daddy's here!" Goemon cried.
+
+"Go," said Hanzō, and let go the rope.
+
+Goichi sprang up and ran, dragging the rope. "Goichi! Goichi!" The boy ran into Goemon and pressed himself against him. Father and son both had their hands bound; they could not hold each other. They could only rub their bodies together.
+
+Goemon glared at Hanzō, who had come near. "You! What do you mean to do with the child?"
+
+"He goes down to the land of the dead along with you."
+
+Goemon raged like a beast. "What has the child done? You have worked me every evil there is—and I have done you not one thing!"
+
+"Goemon. But you hate me, and my lord, over Maki. Since the cause of that hatred lies plainly on our side, since we are hated, we must destroy the one who hates. Kill you though we do, to leave that brat alive—blind or no—would be too dangerous by far. All the more must the one who would hate us be wiped out, root and branch." And, turning to the coroner, he said, "Proceed."
+
+Even hearing it, Goemon could not understand why Goichi too must die. And because he could not understand, he screamed. "I—I'll say no more, my lord Hanzō! Lord Hattori! Only spare Goichi's life! Only the child's! The boy is blind—he can do nothing—spare him!" He screamed it, flinging tears and snot together, and hurled his bound body, net and all, against the ground, again and again. "Only the child's life! He is blind! He can do nothing! Spare him!"
+
+And this Goemon did not know: that Hanzō had fixed on this course in a flash, on his last visit to Azōda, when he had fallen upon the plump Chika, and slept deep in the pine wood on the hill behind, and woken. He did not know that it was nothing but the fierce, unshakable hatred a man bears toward one wholly at odds with the thing he himself craves and lives for. Once Hanzō had settled it in that way, it would never move.
+
+The coroner rose. "To it!"
+
+The guards came, and in a moment bound Goichi and Goemon together with a rope, hung them on the iron hook, and with cries of "Ei! Ei!" hauled on the iron chain. The pulley rattled, and the two were hoisted into the air. They were swung about, out over the great cauldron. With a shout of "Ei!" the chain ran out, and the two of them dropped into the boiling oil.
+
+In the cauldron Goemon twisted to bring Goichi's body uppermost—but crying "Goichi! Forgive me!" he rolled clean over, put Goichi beneath him, and sank down into the oil. He wanted to end the boy's suffering as fast as ever he could.
