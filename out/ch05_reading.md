@@ -497,3 +497,21 @@ At that Hatsuko's eyes drew up sharp and narrow. "A playground, you say? The ver
 "Sleep? Out of the question. The battle may start any moment. Very well—you keep watch here. I'll just slip round to the east of the enemy and see how things stand."
 
 Hatsuko, pleased to be given a task of her own, said, "Very well, then," and settled down in the grass. In a moment Goemon was gone from sight.
+
+East of the road where Miyoshi Hidetsugu's fourth division was encamped rose a little hill, an old shrine called the Hakusan-gū on its crest, and woods all about it. Skirting its north side, Goemon crossed the Yada River and came to Inaba, a small hamlet on the Seto road that runs from Obata to Seto. He turned west along the road and made for Obata castle.
+
+A plan of attack had taken shape in his mind. Split the force in two, he thought: one column driving up the road he had just come by, to take the fourth division from behind, the other pushing east along the left bank of the Yada; close on it front and rear, and the fourth division would be a mouse in a bag. Reaching Obata, he laid the plan before Hanzō. "Yes—that's good," said Hanzō, and put it up to Ieyasu at once. Ieyasu adopted it; and by two in the morning Sakakibara Yasumasa was moving along the Seto road, while Mizuno Tadashige and Ōsuga Yasutaka crossed the Shōnai at once and began pushing east along its left bank.
+
+Going on ahead of Mizuno's men, Goemon came back to where he had left the other two, and found Hatsuko sleeping soundly, with Karasumaru beside her at his wits' end. "Come, it's battle now. Up you get—up you get—" And herding the two of them before him, he climbed the hill to the south.
+
+Just as the east seemed to be paling toward dawn, and the cooks of the Miyoshi division had at last woken and begun to send up their white smoke, a single gun cracked from Mizuno's men on the left; and at that signal, bows and guns were loosed all together.
+
+The Miyoshi men, who had never dreamed the enemy was near, fell at once into wild confusion—guns! matchcord! bows! arrows!—and while they were still shouting, they were cut down in heaps. No sooner had they got their weapons in hand and set themselves to face the attack than, this time from dead behind, came Sakakibara's assault.
+
+"Quick—get word to the main body!"
+
+"Across the Kanare, past Nagakute—they'll be a ri and more south of here. Call up the reserves, quick!"
+
+And in a moment a great many broke and ran to the south. Two of these soldiers, thinking, no doubt, to slip away in the confusion, came crashing up into the wood on the hill where Goemon and the others lay hidden. A small ball was flung at their feet: a sharp report, and it burst into a blue fireball. With a shriek the two of them went sprawling. A woman's laugh rang out, shrill and piercing—ha-ha-ha-ha—and a giant ninja stepped out, stripped the two of them bare, bound them hand and foot, and strung them up on a tree-trunk. The pair promptly fainted away.
+
+At this Hatsuko fell into a wild pitch of excitement. Shrieking with laughter, she went racing down the hill, sprang out onto the road where the couriers were running for the main body, and pelted them with flash-balls and smoke-balls, one after another. The soldiers, who had never met such things before, took her for a demon sprung up out of the ground, and scattered like spiderlings, fleeing back the way they had come or off down the side-roads.
