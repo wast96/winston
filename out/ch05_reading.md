@@ -421,3 +421,29 @@ And so a feat that should have been to his credit came to nothing. Nobutada at o
 This was reported to the headquarters at Komaki. Hanzō at once ordered out Goemon and ten men to watch what the force would do next. The Ikeda force lay that night at Kamijō, and stayed there the whole of the eighth. Wasting a full day here was to bring decisive consequences down on Shōnyū and his men. They had come a bare five ri, over no road hard enough to need the rest; if they meant to take the enemy by surprise, they should have pushed straight on into Mikawa. No doubt they reckoned that Ieyasu's army, its whole attention fixed on the enemy in its front, would never notice this flanking march. By the reach of scouts and spies in the warfare of that day, it was a reasonable enough assumption; but they were bound by the common assumption, and never reckoned with the powers of Ieyasu's Iga ninja.
 
 At ten o'clock on the night of the eighth they set out. The first and second divisions crossed the Shōnai at Ōdome village, the third from Noda village, the fourth from Matsukawado. Then, after pushing east a while along the Seto road, they turned sharply right just short of Seto, forded the Yada River, marched straight south, passed Nagakute, and before dawn on the ninth reached Iwasaki castle, a ri south of Nagakute.
+
+The castle's lord, Niwa Ujitsugu, had marched off toward Komaki, and his younger brother Ujishige was holding it in his absence with a bare two hundred and thirty-nine men; so it was wiped out in a moment by the first and second divisions of the invaders. The third division halted a little to the north, at Kanehagihara, the fourth further north still, at the Hakusan wood on the north bank of the Kanare River, and there they thought of taking their breakfast. From here it was another seven ri to Okazaki.
+
+But Ieyasu, who through the reports of Goemon and the other ninja knew the Ikeda force's every move as if he held it in his hand, had, with Mizuno Tadashige for vanguard, sent that vanguard out of Komaki by ten on the night of the eighth. It crossed the Shōnai and entered Obata castle, between the Shōnai and the Yada. At that same tenth hour the Ikeda force set out, bore a little north from Kamijō, and crossed the Shōnai; so it was Ieyasu's men who had crossed the river first.
+
+Ieyasu himself, with Ii Naomasa's Red Guard of one thousand eight hundred and a personal guard of one thousand two hundred, three thousand men in all, left Komaki a bare hour behind the vanguard, crossed the river, and by midnight had entered Obata castle. About then the Ikeda force was still in the very midst of crossing, a ri or so upstream. They call it the Red Guard because officers and men alike wore red helmets and red armor, and even their weapons were lacquered red.
+
+The invaders were in high spirits, sure they had not yet been marked by Ieyasu's men. But Ieyasu's side had got a step ahead of them, stuck fast to their flank, and, through the ceaseless reports of the ninja, knew their every move while it bided its moment to strike. With things so, however great the difference in numbers, the issue was a foregone conclusion.
+
+A little past that midnight, Goemon, who had been trailing the enemy's rearmost, fourth division, reported to Obata castle.
+
+"The fourth division is resting at its ease in the Hakusan wood. They have set sentries, and the rest are all fast asleep."
+
+"Good. Go back to the Hakusan wood once more, and if anything changes, bring me word."
+
+Goemon, in the haze of the moonlit night, was making his way back to the Hakusan wood, a ri and a half off, when in the pitch-dark of the wood along the way he came on two suspicious ninja. Suspicious, because they were not using the arts a ninja naturally uses when abroad by night. One was big and fat, the other small and slight. Both wore ninja garb and looked the part, up to a point; but there was a carelessness about them that no true ninja would ever show. Goemon had no wish to have it out with such as these, and made to let them pass and go on.
+
+Whereupon the small, slight one suddenly called out in a shrill woman's voice: "Master Goemon—too grand to notice us, are you."
+
+Even Goemon started, and stood stock-still. Only two women knew him for Goemon. If it was not Maki's voice, it was Hatsuko's; and the giant beside her would be Karasumaru, fifteen years old.
+
+"Hatsuko—?"
+
+"That's right."
+
+"What are you doing in a place like this? Does Lord Hanzō know?"
