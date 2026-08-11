@@ -185,3 +185,10 @@
 # Rendered "pressed his palms together" (ch12, the Taoist Qingfeng). The count
 # 10 (十天/十年) never rides on 合, so this is safe.
 合十
+
+# --- B08 (ch13 尾声 / Coda) ---
+# 三角架 = a "three-cornered stand", i.e. a wooden measuring tripod (Zhu Ting
+# measuring the cavern); a lexical-numeral compound like 三轮车 (tricycle), the
+# 三 naming the tool's three-legged FORM, not a discrete count. Rendered
+# "tripod" (ch13). Longest-first before any bare 三 idiom.
+三角架

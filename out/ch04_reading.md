@@ -212,7 +212,7 @@ She lifted her own cup first and drank it down, then sighed lightly. "Good wine 
 
 It is a rare host who praises his own wine over and over, and Princess Danfeng was by no means a woman given to showing herself off.
 
-Lu Xiaofeng was still wondering at it when he realized that what he had drunk was no wine at all, only sugar-water with a little colour added.
+Lu Xiaofeng was still wondering at it when he realised that what he had drunk was no wine at all, only sugar-water with a little colour added.
 
 All at once he understood what Princess Danfeng had meant, and feared that Hua Manlou, who could not see her face, would miss it.
 

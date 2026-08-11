@@ -2289,6 +2289,866 @@
    "category": "places",
    "status": "agreed",
    "note": "District in the southern outskirts of Shanghai; site of the Kuomintang Garrison Command&#8217;s prison and execution ground."
+  },
+  "陆小凤": {
+   "renderings": {
+    "Lu Xiaofeng": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The protagonist. His given name, Xiaofeng, means &#8216;little phoenix&#8217; and sounds like a woman&#8217;s name; the joke and the &#8216;four eyebrows&#8217; riddle are noted at his first mention (Prologue)."
+  },
+  "西门吹雪": {
+   "renderings": {
+    "Ximen Chuixue": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "Ximen is a two-syllable Chinese surname; the given name Chuixue means &#8216;blowing snow.&#8217; See the note at his first appearance (Prologue)."
+  },
+  "花满楼": {
+   "renderings": {
+    "Hua Manlou": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The name means &#8216;flowers fill the tower.&#8217; See the note at his first appearance (Prologue)."
+  },
+  "张放": {
+   "renderings": {
+    "Zhang Fang": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The escort captain poisoned by Granny Xiong in the opening vignette (Prologue)."
+  },
+  "熊姥姥": {
+   "renderings": {
+    "Granny Xiong": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "&#8216;Granny&#8217; renders <i>laolao</i> (姥姥), a homely word for an old woman or grandmother; her surname is Xiong. The poisoner of the first vignette (Prologue)."
+  },
+  "洪涛": {
+   "renderings": {
+    "Hong Tao": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The swordsman called the Lightning Blade, killed by Ximen Chuixue (Prologue)."
+  },
+  "赵刚": {
+   "renderings": {
+    "Zhao Gang": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "&#8216;One Blade Quells the Nine Provinces,&#8217; a hero murdered by Hong Tao; Ximen Chuixue avenges him although the two never met (Prologue)."
+  },
+  "崔一洞": {
+   "renderings": {
+    "Cui Yidong": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "A blade-bully disarmed by Hua Manlou; his given name means &#8216;One Hole&#8217; (Prologue)."
+  },
+  "上官飞燕": {
+   "renderings": {
+    "Shangguan Feiyan": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "A thief-girl of Jiangnan; Shangguan is a two-syllable surname and Feiyan means &#8216;flying swallow&#8217; (Prologue)."
+  },
+  "小红": {
+   "renderings": {
+    "Xiaohong": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+  },
+  "小翠": {
+   "renderings": {
+    "Xiaocui": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+  },
+  "小玉": {
+   "renderings": {
+    "Xiaoyu": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+  },
+  "小云": {
+   "renderings": {
+    "Xiaoyun": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "One of the courtesans attending Ximen Chuixue (Prologue)."
+  },
+  "小北京": {
+   "renderings": {
+    "Little Beijing": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The waiter at the Dragon-Soaring Inn who serves as the Blue-Robe Tower&#8217;s eyes and hands in Chapter 1; his nickname (&#8216;Little Peking&#8217;) is a servant&#8217;s stage-name, not a home town."
+  },
+  "朱停": {
+   "renderings": {
+    "Zhu Ting": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": ""
+  },
+  "老板娘": {
+   "renderings": {
+    "the Boss's Wife": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "Zhu Ting&#8217;s wife; called only by this title (老板娘, &#8216;Boss&#8217;s Wife&#8217;) throughout, since her husband&#8217;s nickname is the Boss. A great beauty, and Lu Xiaofeng&#8217;s decoy for keeping Zhu Ting alive."
+  },
+  "铁面判官": {
+   "renderings": {
+    "the Iron-Faced Judge": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "One of the two Blue-Robe Tower enforcers sent after Lu Xiaofeng in Chapter 1; his scarred face is said to have notched the blade that cut him. See the note at his first appearance (ch02)."
+  },
+  "勾魂手": {
+   "renderings": {
+    "Soul-Hook": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The Iron-Faced Judge&#8217;s partner from the Blue-Robe Tower; famed for a pair of silver hooks and for a snakeskin whip that can crack a walnut on three cubes of bean-curd (ch02)."
+  },
+  "柳余恨": {
+   "renderings": {
+    "Liu Yuhen": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "Once the Jade-Faced Gentleman (玉面郎君); a swordsman ruined ten years ago, his face half sliced away, hands struck off at the wrist. Comes seeking his own death (ch02). See the note at &#8216;Love, from of old, leaves only regret behind.&#8217;"
+  },
+  "萧秋雨": {
+   "renderings": {
+    "Xiao Qiuyu": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The Heartbreak Swordsman (断肠剑客); a scholarly-looking killer who kills to his own pleasure and quotes classical verse before the stroke (ch02). See the note at &#8216;Autumn wind, autumn rain.&#8217;"
+  },
+  "独孤方": {
+   "renderings": {
+    "Dugu Fang": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The Solitary Rider of a Thousand Li (千里独行), one of the strangest and most reclusive figures of the jianghu; a spectator, not an assassin, in Chapter 1&#8217;s three-against-two exchange. Dugu is a two-syllable surname."
+  },
+  "江东四杰": {
+   "renderings": {
+    "the Four Heroes of Jiangdong": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The four grand men Lu Xiaofeng humiliated with a stroke of the pen, left kneeling in the Peach Blossom Hall with mocking labels painted on their brows (ch02)."
+  },
+  "丹凤公主": {
+   "renderings": {
+    "Princess Danfeng": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "<i>Danfeng</i> (丹凤) means &#8216;scarlet phoenix&#8217;; her surname is Shangguan. She teases that she is Princess <i>Danfeng</i>, not Princess <i>Xiaofeng</i> (&#8216;little phoenix&#8217;), which is Lu Xiaofeng&#8217;s own name (ch03)."
+  },
+  "大金鹏王": {
+   "renderings": {
+    "the Great King of the Golden Roc": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The aged, fallen monarch of the kingdom of the Golden Roc, carried into China as a child when his realm was overrun; Princess Danfeng&#8217;s father. He seeks justice from the three ministers who betrayed the old King (ch04)."
+  },
+  "霍休": {
+   "renderings": {
+    "Huo Xiu": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The richest man under heaven, who lives as a reclusive, cranky old man (&#8216;old Huo&#8217;) in a hut on the mountainside; revealed to be Shangguan Mu, one of the four ministers entrusted with the Golden Roc&#8217;s treasure, and the secret source of his own vast fortune (ch03&#8211;ch04)."
+  },
+  "独孤一鹤": {
+   "renderings": {
+    "Dugu Yihe": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The present master of the Emei sword-sect and secret head of the Blue-Robe Tower; revealed to be Ping Duhe, one of the four traitor-ministers. Not to be confused with Dugu Fang, who shares the two-syllable surname Dugu but is his enemy (ch04)."
+  },
+  "阎铁珊": {
+   "renderings": {
+    "Yan Tieshan": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The jewel magnate of Guanzhong, of the Yan house; revealed to be Yan Liben, one of the four traitor-ministers. It was he who sliced away half of Liu Yuhen&#8217;s face (ch04)."
+  },
+  "上官雪儿": {
+   "renderings": {
+    "Shangguan Xue'er": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The little cousin of Princess Danfeng and younger sister of Shangguan Feiyan; a girl of twelve who lies without a blink and leads Lu Xiaofeng in circles. She fears her vanished sister has been murdered (ch03&#8211;ch04)."
+  },
+  "上官谨": {
+   "renderings": {
+    "Shangguan Jin": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The Great King&#8217;s maternal uncle and one of the four ministers; the only one to stay loyal, he raised the exiled king in China and has since died (ch04)."
+  },
+  "上官木": {
+   "renderings": {
+    "Shangguan Mu": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The original name of Huo Xiu, one of the four ministers of the Golden Roc (ch04)."
+  },
+  "平独鹤": {
+   "renderings": {
+    "Ping Duhe": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The original name of Dugu Yihe, one of the four ministers of the Golden Roc (ch04)."
+  },
+  "严立本": {
+   "renderings": {
+    "Yan Liben": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The original name of Yan Tieshan, one of the four ministers of the Golden Roc (ch04)."
+  },
+  "叶孤城": {
+   "renderings": {
+    "Ye Gucheng": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The Lord of White Cloud City, of Flying-Immortal Isle in the Southern Sea; named in passing by Lu Xiaofeng as one of the few peerless swordsmen of the age, beside Ximen Chuixue (ch04)."
+  },
+  "老实和尚": {
+   "renderings": {
+    "the Honest Monk": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The ragged monk of the Prologue&#8217;s second vignette, so called because he cannot tell a lie; he destroyed the Water Snake Gang in a night. He resurfaces in ch05, mortified by his one dishonest deed."
+  },
+  "孙老爷": {
+   "renderings": {
+    "Master Sun": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "A tiny, big-headed wastrel whose one talent is that he alone can find the oracles Datong and Dazhi; he pawns himself to pleasure-houses between windfalls. See the note on his &#8216;full style&#8217; (ch05)."
+  },
+  "欧阳情": {
+   "renderings": {
+    "Ouyang Qing": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The reigning name on the flower-board of the Yiqing Court; Ouyang is a two-syllable surname, and her given name Qing means &#8216;passion&#8217;, chiming with the house&#8217;s own (&#8216;Pleasing the Passions&#8217;) (ch05)."
+  },
+  "大通": {
+   "renderings": {
+    "Datong": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "&#8216;Great Penetration&#8217;: one of the two hermit oracles of the jianghu, who knows at least a little of every strange thing that ever happened. No one has seen his face; only Master Sun can find him (ch05)."
+  },
+  "大智": {
+   "renderings": {
+    "Dazhi": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "&#8216;Great Wisdom&#8217;: the other hermit oracle, who can find a way through any question set to him &#8212; save one. Fifty taels of silver a question (ch05)."
+  },
+  "霍天青": {
+   "renderings": {
+    "Huo Tianqing": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "Steward of Yan Tieshan&#8217;s Pavilion of Pearls and Splendour; a master of very high martial generation who serves Yan because Yan once saved his life in the Qilian Mountains (ch05)."
+  },
+  "苏少卿": {
+   "renderings": {
+    "Su Shaoqing": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The name under which Su Shaoying passes himself off as the Yan household&#8217;s resident tutor and man of letters (ch07)."
+  },
+  "苏少英": {
+   "renderings": {
+    "Su Shaoying": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "Su the Second of the Three Heroes and Four Beauties of Emei (峨嵋三英四秀); a disciple of Dugu Yihe. His self-made Saber-and-Sword Double Kill could not save him from Ximen Chuixue&#8217;s blade (ch07)."
+  },
+  "马行空": {
+   "renderings": {
+    "Ma Xingkong": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "Chief armsman of the Allied Escort Houses of Guanzhong, styled the Divine Dragon in the Clouds. An old wound from Huo Tianqing&#8217;s palm halved his skill, so he leans on the Pavilion of Pearls and Splendour (ch07)."
+  },
+  "山西雁": {
+   "renderings": {
+    "the Shanxi Wild Goose": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The great hero of Guanzhong, famed near forty years for his twin iron palms; by martial generation the nephew of Huo Tianqing, though decades his elder. One of the Heaven&#8217;s Bird sect (ch08)."
+  },
+  "司空摘星": {
+   "renderings": {
+    "Sikong Zhaixing": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The king of thieves, who steals only on a wager and never what is truly valuable; being robbed by him is counted an honour. He once matched Lu Xiaofeng at somersaults on the summit of Mount Tai, and takes the likeness of Zhao the Pockmarked in ch08."
+  },
+  "樊鹗": {
+   "renderings": {
+    "Fan E": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "Master Fan the Elder, one of the Two Talents of the Northwest (西北双秀); his long tobacco-pipe strikes the body&#8217;s pressure-points. One of the Seven Heroes of the Marketplace (ch08)."
+  },
+  "简二先生": {
+   "renderings": {
+    "Master Jian the Second": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The other of the Two Talents of the Northwest, sole heir to the Finger-Flicking art (弹指神通). One of the Seven Heroes of the Marketplace (ch08)."
+  },
+  "赵大麻子": {
+   "renderings": {
+    "Zhao the Pockmarked": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The dog-meat cook of the tavern called Yet Another Village, outside the town; his stew has no equal. Sikong Zhaixing wears his face in ch08."
+  },
+  "商山二老": {
+   "renderings": {
+    "the Two Elders of Mount Shang": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "Two aged and revered masters of the Heaven&#8217;s Bird sect, reckoned the polestar of the martial world; Huo Tianqing is their junior martial-brother (ch08)."
+  },
+  "天禽老人": {
+   "renderings": {
+    "the Old Man of Heaven's Birds": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "Founder of the Heaven&#8217;s Bird sect sixty years ago; he took a wife and got an heir only at seventy-seven, and that heir is Huo Tianqing (ch08)."
+  },
+  "马秀真": {
+   "renderings": {
+    "Ma Xiuzhen": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The eldest of the Four Beauties of Emei; tall, with a pair of long phoenix eyes and a killing air even as she smiles. She leads the four in the bath-house interrogation of Lu Xiaofeng (ch09)."
+  },
+  "叶秀珠": {
+   "renderings": {
+    "Ye Xiuzhu": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The third of the Four Beauties of Emei, and the honest, plain-spoken one of the four (ch09)."
+  },
+  "孙秀青": {
+   "renderings": {
+    "Sun Xiuqing": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The second of the Four Beauties of Emei; big-eyed, thin-lipped and sharp-tongued, and taken despite herself with Ximen Chuixue (ch09)."
+  },
+  "石秀雪": {
+   "renderings": {
+    "Shi Xiuxue": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The youngest of the Four Beauties of Emei; gentlest-seeming and hottest-tempered, she fights with a pair of short swords and dares, alone of the four, to love where she will. Hua Manlou catches her blades between two fingers, and she loses her heart to him (ch09)."
+  },
+  "青枫": {
+   "renderings": {
+    "the Taoist Qingfeng": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "The Taoist abbot of the Green Wind Temple and Huo Tianqing&#8217;s friend over the chessboard; bought by Huo Xiu to bear false witness that Huo Tianqing had died by his own hand, and burned with his temple soon after (ch12)."
+  },
+  "鲁班": {
+   "renderings": {
+    "Lu Ban": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "attested",
+   "note": "The legendary master carpenter and engineer of the state of Lu in the fifth century BCE, patron deity of builders and craftsmen; Zhu Ting&#8217;s art of contrivances descends from him. See the note at his first mention (ch12)."
+  },
+  "鲁大师": {
+   "renderings": {
+    "Master Lu": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "people",
+   "status": "decided",
+   "note": "Zhu Ting&#8217;s master in the maker&#8217;s art and a descendant of Lu Ban; now dead, leaving Zhu Ting the first hand under heaven at the making of hidden contrivances (ch12)."
+  },
+  "水蛇帮": {
+   "renderings": {
+    "Water Snake Gang": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "organizations",
+   "status": "decided",
+   "note": "A band of river-pirates wiped out overnight by the Honest Monk (Prologue)."
+  },
+  "青衣楼": {
+   "renderings": {
+    "the Blue-Robe Tower": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "organizations",
+   "status": "decided",
+   "note": "A vast, tightly-run criminal organisation: a hundred and eight towers, a hundred and eight men to each, whose portraits hang in a First Tower whose location no one knows. Its enforcers come for Lu Xiaofeng in ch02. See the note on the number 108. The Tower is Gu Long&#8217;s invention."
+  },
+  "金鹏王朝": {
+   "renderings": {
+    "the Golden Roc": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "organizations",
+   "status": "decided",
+   "note": "The ancient kingdom whose name gives this volume its title, <i>The Golden Roc Dynasty</i>: a far realm overrun fifty years before the story, whose royal house bore the surname Shangguan. The <i>jinpeng</i> (金鹏) is the golden <i>peng</i>, the vast mythic bird of Chinese legend (ch04)."
+  },
+  "天禽门": {
+   "renderings": {
+    "the Heaven's Bird sect": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "organizations",
+   "status": "decided",
+   "note": "The school founded by the Old Man of Heaven&#8217;s Birds; Huo Tianqing is its sole bloodline heir, so its several hundred disciples would die to a man before they let harm come to him (ch08)."
+  },
+  "市井七侠": {
+   "renderings": {
+    "the Seven Heroes of the Marketplace": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "organizations",
+   "status": "decided",
+   "note": "Seven sworn brothers who go disguised as street pedlars (a bun-seller, a quack, a pockmarked innkeeper and the rest), also called the Seven Righteous of Shanxi (山西七义); all of the Heaven&#8217;s Bird sect (ch08)."
+  },
+  "峨嵋四秀": {
+   "renderings": {
+    "the Four Beauties of Emei": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "organizations",
+   "status": "decided",
+   "note": "The four young women disciples of the Emei sword-school (secretly headed by Dugu Yihe): Ma Xiuzhen, Sun Xiuqing, Ye Xiuzhu and Shi Xiuxue. Their given names all share the generation-character <i>xiu</i> (秀, &#8216;graceful, comely&#8217;), marking them as martial-sisters of one generation, whence &#8216;the Four Beauties&#8217; (四秀). They are the counterpart of the Three Heroes (三英) among the Seven Swords of Emei (ch09)."
+  },
+  "江南": {
+   "renderings": {
+    "Jiangnan": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "Literally &#8216;south of the river&#8217;: the prosperous, cultured region south of the lower Yangtze."
+  },
+  "九州": {
+   "renderings": {
+    "the Nine Provinces": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "The Nine Provinces of legend, a classical name for the whole of China. See the note at the epithet &#8216;One Blade Quells the Nine Provinces&#8217; (Prologue)."
+  },
+  "龙翔客栈": {
+   "renderings": {
+    "the Dragon-Soaring Inn": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "The busy inn where the Blue-Robe Tower&#8217;s decoy-search for Lu Xiaofeng opens Chapter 1."
+  },
+  "黄石镇": {
+   "renderings": {
+    "Huangshi Town": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "The town north of the Dragon-Soaring Inn to which the Blue-Robe Tower riders chase their quarry (ch02); rendered by its literal pinyin (&#8216;Yellow-Stone Town&#8217;), a fictional locale."
+  },
+  "迎春阁": {
+   "renderings": {
+    "the Yingchun Pavilion": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "The best pleasure-house in Huangshi Town; see the note at first appearance (ch02)."
+  },
+  "青云客栈": {
+   "renderings": {
+    "the Green Cloud Inn": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "The inn where Lu Xiaofeng is putting up when the Blue-Robe Tower&#8217;s enforcers find him (ch02)."
+  },
+  "关中": {
+   "renderings": {
+    "Guanzhong": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "&#8216;Within the passes&#8217;: the region around the ancient capital Chang&#8217;an (modern Xi&#8217;an), in the Wei River valley. The Yan jewel-house is seated there (ch03&#8211;ch04)."
+  },
+  "中土": {
+   "renderings": {
+    "the Central Lands": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "Literally &#8216;the central land&#8217;: China proper, the settled heartland, as named from the vantage of the frontier kingdom of the Golden Roc (ch04)."
+  },
+  "峨嵋": {
+   "renderings": {
+    "Emei": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "Mount Emei in Sichuan, one of the sacred mountains of Chinese Buddhism and the seat of a great martial sect; here its sword-school, whose master is secretly the traitor Dugu Yihe (ch04). See also the later Four Beauties of Emei (ch09)."
+  },
+  "万梅山庄": {
+   "renderings": {
+    "the Ten Thousand Plum Manor": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "Ximen Chuixue&#8217;s estate, named for its plum trees; in the fourth month it stands flowerless while the peach and azalea bloom on the slopes around it (ch05&#8211;ch06)."
+  },
+  "珠光宝气阁": {
+   "renderings": {
+    "the Pavilion of Pearls and Splendour": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "The seat of Yan Tieshan&#8217;s jewel empire; its name (&#8216;the sheen of pearls, the glow of treasure&#8217;) gives Chapter 6 its title. Huo Tianqing is its steward (ch05)."
+  },
+  "泰山": {
+   "renderings": {
+    "Mount Tai": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "The easternmost and most venerated of China&#8217;s five sacred peaks, in Shandong; watching the sunrise from its summit is an old pilgrimage (ch07)."
+  },
+  "青风观": {
+   "renderings": {
+    "the Green Wind Temple": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "places",
+   "status": "decided",
+   "note": "The Taoist temple on the front of Huo Xiu&#8217;s mountain, where Huo Tianqing&#8217;s body is found; its abbot is the Taoist Qingfeng (青枫), whose name chimes with the temple&#8217;s (both sound <i>Qingfeng</i>). Huo Xiu burns it to the ground to destroy the one witness to his lie (ch12)."
+  },
+  "江湖": {
+   "renderings": {
+    "jianghu": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "terms",
+   "status": "decided",
+   "note": "Literally &#8216;rivers and lakes&#8217;: the wandering world of martial artists, sects and outlaws that is the stage of all wuxia fiction. See the note at first appearance (Prologue)."
+  },
+  "糖炒栗子": {
+   "renderings": {
+    "sugar-roasted chestnuts": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "terms",
+   "status": "decided",
+   "note": "A common cold-weather street food. See the note at first appearance (Prologue)."
+  },
+  "轻功": {
+   "renderings": {
+    "lightness-skill": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "terms",
+   "status": "decided",
+   "note": "The martial art of lightness: moving as though almost weightless, to leap great distances or skim across water. See the note at first appearance (Prologue)."
+  },
+  "古琴": {
+   "renderings": {
+    "guqin": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "terms",
+   "status": "decided",
+   "note": "The seven-stringed zither of the Chinese scholar, an emblem of cultivation. See the note at first appearance (Prologue)."
+  },
+  "活菩萨": {
+   "renderings": {
+    "living Bodhisattva": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "terms",
+   "status": "decided",
+   "note": "An idiom of praise for a person of boundless mercy; here bitterly ironic. See the note at first appearance (Prologue)."
+  },
+  "王八": {
+   "renderings": {
+    "wangba": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "terms",
+   "status": "decided",
+   "note": "Coarse slang, literally &#8216;tortoise&#8217;: a scoundrel, and above all a cuckold. Kept romanised because the whole running gag of ch02 turns on the word. See the note at first appearance (ch02)."
+  },
+  "点穴": {
+   "renderings": {
+    "point-sealing": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "terms",
+   "status": "decided",
+   "note": "The wuxia trick of striking a specific acupuncture point to freeze the limb, seal off the voice, or immobilise the whole man. See the note at first appearance (ch02)."
+  },
+  "判官笔": {
+   "renderings": {
+    "judge's pens": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "terms",
+   "status": "decided",
+   "note": "Iron writing-brushes used as weapons; the traditional arms of the underworld clerks called <i>panguan</i>. The Iron-Faced Judge carries a pair (ch02)."
+  },
+  "竹叶青": {
+   "renderings": {
+    "Bamboo-Leaf Green": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "terms",
+   "status": "decided",
+   "note": "A pale-green liquor of Shanxi: sorghum spirit steeped with bamboo leaves and herbs. See the note at the Shanglin Spring (ch05)."
+  },
+  "飞凤针": {
+   "renderings": {
+    "Flying Phoenix Needles": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "terms",
+   "status": "decided",
+   "note": "Princess Danfeng&#8217;s signature hidden weapon: poisoned needles said to close the throat at the first touch of blood. Xue&#8217;er accuses her cousin of using them on Liu Yuhen (ch06)."
+  },
+  "狐狸精": {
+   "renderings": {
+    "fox-spirit": [
+     "lu-xiaofeng-1"
+    ]
+   },
+   "category": "terms",
+   "status": "decided",
+   "note": "In Chinese folklore a fox that has cultivated the power to take human shape, most often a beautiful woman, and bewitches men; in common speech, an insult for a seductress or husband-stealer, with the ghostly sense worn away. Distinct from the plain &#8216;little fox&#8217; (&#23567;&#29392;&#29432;), which marks only slyness. See the note at first appearance (ch13, the Coda)."
   }
  }
 }

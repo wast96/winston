@@ -88,7 +88,7 @@ He had already fished out the little ingot and set it at their feet. "And a man 
 
 Not a man among them could find his tongue.
 
-The Honest Monk kept his head low. "If your honors will not pardon me, then I have no choice but to kneel here and never stir."
+The Honest Monk kept his head low. "If your honours will not pardon me, then I have no choice but to kneel here and never stir."
 
 And who wanted a man like that aboard his boat?
 
@@ -186,7 +186,7 @@ The big man threw out his chest. "I'm Cui Yidong, the Flower-Blade Terror. One s
 
 The girl couldn't hold it in; she burst out laughing.
 
-Cui Yidong's color changed. "You'll wear one whether you like it or not!" he suddenly roared.
+Cui Yidong's colour changed. "You'll wear one whether you like it or not!" he suddenly roared.
 
 He snapped the blade up backhand in a bright little flourish, and through the flash of steel it drove straight at Hua Manlou's breast. Hua Manlou did not stir, stirred nothing but two fingers. His hand darted out, the two fingers closed, and Cui Yidong's blade was caught fast between them.
 
@@ -284,7 +284,7 @@ Shangguan Feiyan closed her eyes, and all at once the wind seemed gentler, the f
 
 Shangguan Feiyan raised her head and, through the dimming dusk, looked into that calm and happy face. What stood in her eyes now was no longer wonder, nor pity, but respect, and gratitude.
 
-She was grateful to him, not for saving her, but for showing her what a life was truly for. And she honored him, not for his kung fu, but for the great heart and the vision behind it.
+She was grateful to him, not for saving her, but for showing her what a life was truly for. And she honoured him, not for his kung fu, but for the great heart and the vision behind it.
 
 Still she couldn't help asking, "Have you no family of your own?"
 

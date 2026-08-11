@@ -1213,3 +1213,138 @@ geography of the road, and how long Lu has gone clean-shaven).
   青花瓷 → blue-and-white porcelain; 滚龙袍 → dragon-brocade robe; 内监 →
   palace eunuchs; 凌迟 → the slow slicing (footnoted); 红尘 → the red dust
   (footnoted).
+
+## B08 = Chapter 12 (ch13 尾声 / Coda) + WHOLE-BOOK COMPLETION — FINAL batch
+
+### Setup / environment
+
+- `./setup.sh`: reports FAILED but 9/10 with the ONE EXPECTED failure
+  `hook stands down on template stub`. That case passes only while HANDOFF.md
+  holds the template placeholder; HANDOFF now carries a real kickoff (and, at
+  batch end, the COMPLETE notice), so the Stop hook correctly enforces and that
+  test necessarily reads FAIL for the rest of the book. NOT a defect; not
+  "fixed". All other 9 cases green.
+- `data/src` and `data/src_epub` were absent (gitignored); regenerated with
+  `python3 scripts/ingest_epub.py source.epub` (book.json NOT overwritten).
+- Branch: started on stray `claude/lu-xiaofeng-1-final-5iaonk`, which was at the
+  same commit as `origin/claude/lu-xiaofeng-1` (no divergent commits).
+  Consolidated onto `claude/lu-xiaofeng-1` (reset to origin); nothing stranded.
+
+### Translation (ch13, the Coda)
+
+- ch13 source `data/src/18_part0000-split-016.txt`: 121 lines. Line 1 running-
+  title stub, line 2 chapter title (skip=2). Body = lines 3-119 (117 paragraphs).
+  **ONE scene, NO bare-numeric dividers** (grep confirmed) → NO `***` breaks.
+- **Extractor splits: NONE.** Every body line 3-119 ends on terminal punctuation
+  (checked per line; the em-dash-bracketed interior monologue at line 6 is
+  self-closed with `——…——`, terminal). 1:1 mapping (singles).
+- **Two trailing publisher lines EXCLUDED from the body** (recorded in book.json
+  `_source_note`, surfaced in the coda's closing footnote, NOT dropped):
+  line 120 `《陆小凤传奇：金鹏王朝》完` (volume-END marker); line 121
+  `相关情节请看《陆小凤传奇2：绣花大盗》` (teaser for Legend of Lu Xiaofeng 2:
+  The Embroidery Bandit).
+- **Source's own footnotes: none present (ch13)** — re-grep for `\[\d+\]`
+  returns zero, per CLAUDE.md.
+- Built with `scratchpad/build_b08.py` (re-ranged copy of build_b07: ranges =
+  singles(3,119), breaks=[]). Authored English into `scratchpad/ch13_en.txt`
+  (117 lines), `out/ch13_en.json`. English chapter title confirmed: "Coda".
+
+### Digitization glitches (ch13)
+
+- None found. ch13's source text is clean (no dittography, no mismatched
+  guillemets, no fullwidth-Latin-in-years, no U+200B lines). Nothing rendered
+  to plain sense beyond the ordinary; no reading-uncertainty footnote needed.
+
+### Checks (ch13, all green)
+
+- `verify_unit.py ch13` (self-locates data/noise.txt; NOT passed --noise):
+  parity **117 = 117**; numbers **0 unresolved** (117 pairs); anchors **3 ok**.
+- `check_align.py ch13`: 117/117, median **4.29** en/han, no strays.
+- `check_content.py --config scratchpad/qc_config.json` (ch13 added to docs +
+  sources): ch13 **81 name occurrences, all in the paired paragraph**; OK across
+  all 13 units.
+- `qc_entities.py out/ch13_bilingual.md glossary.json`: **0 misses**
+  (陆小凤 x39, 老板娘 x24, 花满楼 x19, 朱停 x16, 霍休 x7, 上官雪儿 x1,
+  上官飞燕 x1).
+- Number-check note: the only flags were 三角架 "tripod" (三 = the tool's
+  three-legged FORM, a lexical-numeral compound like 三轮车), added to
+  `data/noise.txt` as a documented B08 entry. Real quantities carried in the
+  English: 五万两 → "fifty thousand tael", 三年 → "three years", 三天 → "three
+  days", 两个饼 → "two cakes", 四条眉毛 → "four eyebrows", 两个老板娘 → "two
+  Boss's Wives", 第二对 → "a second pair".
+
+### Apparatus / glossary added (ch13)
+
+- **notes.json**: 3 under ch13 (total **78** book-wide), merged with
+  `apparatus_merge.py` (NOTES only), `scratchpad/b08_apparatus.json` tracked.
+  Themes: the spear-and-shield parable (Han Feizi; 矛+盾 = 矛盾 "contradiction");
+  the fox-spirit 狐狸精 (seductress folklore, distinct from the plain "little
+  fox" = sly); and a closing translator's note recording the source's
+  end-of-volume marker + sequel pointer and the deliberate echo of Lu Xiaofeng's
+  ch12 closing line in Xue'er's final lament. NOT re-noted: 吃醋/vinegar (ch10),
+  tael/catty/li/cun/zhang/chi units, jianghu — all prior.
+- **glossary.json**: 1 new row via `scratchpad/add_glossary_b08.py` (json.load/
+  dump path, NOT the flat apparatus path). Terms: 狐狸精 → fox-spirit (decided).
+  Total now **86 rows** (people 56, orgs 6, places 13, terms 11).
+- No figures (the book has none).
+
+### Rebuild + book-level QA (COMPLETE, 13/13)
+
+- `scripts/build_reading_epub.py`: 13 of 13 chapters, 78 notes, 0 source notes.
+  **FULL CLEAN TOC** (0 "pending" markers anywhere in the package; the contents
+  page drops all scaffolding when complete, verified). Coverage is honest (the
+  custom Translator's Note; no misleading "N of M" text).
+- `qa_epub.py`: **PASS** (27 files, 20 documents, all links resolve; 78
+  references / 78 bodies / 78 backlinks).
+- epubcheck 5.1.0: **0 fatals / 0 errors / 0 warnings / 0 infos** (EPUB 3.3).
+- `check_structure.py --config`: **ALL PASS** (all 13 parities OK; 78 notes, 0
+  unresolved; headings OK).
+- `check_register.py --ref ch01 ch13`: **34.7 contr/1k = 0.86x** of the frozen
+  reference, within tolerance (em-dash 2.2/1k, rhythm CV 0.75).
+
+### Whole-book reconciliation (check 11)
+
+- `check_reconcile.py`:
+  - **Spelling locale**: was mixed (British dominant). Cascaded to **uniform
+    British** across reading files AND their `_en.json` sources: honors→honours,
+    honored→honoured, color→colour (ch01), realized→realised (ch04), and
+    saber→sabre (ch07, 6x; ch11 already sabre). Final: **87 British / 0
+    American** on the curated pairs.
+  - **Epithet drift**: one genuine fix — 练子枪 rendered "chain-spear" (ch04,
+    4x) vs "chain-whip spear" (ch07, 2x); unified to **chain-spear** book-wide.
+    The other `check_reconcile` "drift candidates" are distinct source compounds
+    sharing an English stem (剑光 sword-light / 剑锋 sword-point / 剑势
+    sword-force, etc.), not drift; reviewed and left.
+  - **Glossary-forward**: 83/86 decided forms present verbatim; the 3 "unused"
+    are benign surface variants confirmed present (adjectived "Four Heroes of
+    Jiangdong", short-form "The Green Cloud", sentence-initial "Sugar-roasted
+    chestnuts"). Not missing renderings.
+- **By-hand grep-count** of ~25 decided renderings across all 13 built units:
+  all in one form (Lu Xiaofeng 1566, Hua Manlou 616, Huo Xiu 201, the Golden
+  Roc 62, jianghu 21, tael 34, the Pavilion of Pearls and Splendour 20, ...);
+  variant probes (Blue Robe, Golden roc, Pearls and Splendor, lightness skill,
+  Grand helmsman) all **0**.
+
+### Deep audit (check 9)
+
+- `scratchpad/deep_audit_sample.py` → `out/deep_audit.md`. Population 4,410
+  paragraphs; sample **132 (3.0%)**, fixed seed **20260811**, reading order,
+  proportional across all 13 units. Read zh-against-en.
+- **0 faithfulness errors** in 132 (omission / addition / mistranslation /
+  invented precision all clean; two stylistic observations adjudicated as
+  non-defects). Honest bound: zero in 132 puts the paragraph-level error rate
+  below ~**2.3% at 95% confidence** (rule of three), not zero.
+
+### Completion deliverables
+
+- `out/term_ledger.md` — 86-row auditable ledger from glossary.json
+  (`scratchpad/make_term_ledger.py`).
+- `authority.json` — **86 wuxia renderings fed back** (keyed by hanzi, slug
+  `lu-xiaofeng-1`; `scratchpad/feed_authority_b08.py`). Was 194 terms (other
+  books), now 280.
+- `COMPLETION.md` — written (replaces further handoff).
+- `HANDOFF.md` — rewritten to the COMPLETE notice; not touched after.
+- Final EPUB force-committed (`git add -f out/lu-xiaofeng-1.epub`).
+
+**BOOK COMPLETE: 13/13 units, 4,410 paragraphs, 78 notes, 86 glossary rows,
+qa_epub PASS, epubcheck 0/0/0/0.**

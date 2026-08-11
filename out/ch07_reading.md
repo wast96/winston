@@ -104,7 +104,7 @@ Yan Tieshan, in spite of himself, gave back two steps; then all at once he bello
 
 Apart from two young pages waiting at the side to pour the wine, and the blue-clad house-servants who came and went with the dishes, the pavilion within and without lay silent; not a shadow stirred.
 
-But at the Boss's shout, five men came flying in over the sill on the instant, their weapons flashing: a Wu-hook sword, a goose-quill saber, a chain-whip spear, a pair of chicken-claw sickles, a three-section steel staff.
+But at the Boss's shout, five men came flying in over the sill on the instant, their weapons flashing: a Wu-hook sword, a goose-quill sabre, a chain-spear, a pair of chicken-claw sickles, a three-section steel staff.
 
 Five weapons, every one cunningly wrought, and all of the outer, uncommon kind; men who could wield such arms were past doubt masters of the martial world.
 
@@ -112,7 +112,7 @@ Ximen Chuixue did not spare them a glance. "Once my sword leaves the sheath," he
 
 Three of the five had gone green in the face already; but men who do not fear death are to be found everywhere.
 
-There came a swift hiss of wind, and the goose-quill saber whirled up a flowering blur of steel, hacking seven strokes in a breath at Ximen Chuixue.
+There came a swift hiss of wind, and the goose-quill sabre whirled up a flowering blur of steel, hacking seven strokes in a breath at Ximen Chuixue.
 
 The three-section staff turned in the same instant to a low wind sweeping the ground, lashing across at Ximen Chuixue's knees.
 
@@ -156,7 +156,7 @@ This gentle, scholarly youth, with a pair of ivory chopsticks for a sword, was s
 
 Lu Xiaofeng did not move. He only watched Huo Tianqing, quietly; and while Huo Tianqing did not move, neither by any means would he.
 
-Three men lay on the floor already who would never move again. The goose-quill saber stood slanted in the window-lattice; the three-section staff had flown out of doors; the chain-whip spear had snapped in four.
+Three men lay on the floor already who would never move again. The goose-quill sabre stood slanted in the window-lattice; the three-section staff had flown out of doors; the chain-spear had snapped in four.
 
 When the sword came back out, there was blood on its point.
 
@@ -252,11 +252,11 @@ Ximen Chuixue gazed at him. "In another twenty years," he said suddenly, "your s
 
 "Twenty years is too long," Su Shaoying cried out suddenly. "I can't wait so long!"
 
-He was a young man after all, with the hot blood high in him; a surge of it rose in his breast, and the sword in his hand struck out in linked blows, with something in the swordplay of the broad, sweeping violence of the saber.
+He was a young man after all, with the hot blood high in him; a surge of it rose in his breast, and the sword in his hand struck out in linked blows, with something in the swordplay of the broad, sweeping violence of the sabre.
 
-This was Dugu Yihe's own creation, the Saber-and-Sword Double Kill, seven times seven, the forty-nine forms. He had come to the Emei gate already deep-versed in the saber; and over thirty hard years he had worked the saber's fierce, driving weight into the clear and elegant swordplay of Emei.
+This was Dugu Yihe's own creation, the Saber-and-Sword Double Kill, seven times seven, the forty-nine forms. He had come to the Emei gate already deep-versed in the sabre; and over thirty hard years he had worked the sabre's fierce, driving weight into the clear and elegant swordplay of Emei.
 
-These forty-nine forms of his own devising could be plied with saber or with sword alike: a skill without a second anywhere under heaven.
+These forty-nine forms of his own devising could be plied with sabre or with sword alike: a skill without a second anywhere under heaven.
 
 It was a skill that even Lu Xiaofeng had never seen before.
 
