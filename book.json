@@ -1,74 +1,759 @@
 {
-  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. For an EPUB source, author it from book.draft.json (produced by scripts/ingest_epub.py) — refine the titles, add English titles, and MERGE or SPLIT units where the source EPUB's file boundaries do not match its logical chapters. Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists.",
-
-  "deliverable": "out/book.epub",
-  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this; never rely on the default.",
-
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
+  "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. A chapter is treated as translated once out/<id>_reading.md exists. 68 novel chapters (ch01-ch68, titled and unnumbered as in the source) + back matter (afterword, film-director commentary, author bio).",
+  "deliverable": "out/burn-o-sword.epub",
+  "title_en": "Burn, O Sword",
+  "title_ja": "燃えよ剣",
+  "title_zh": "燃えよ剣",
+  "author_en": "Shiba Ryōtarō",
+  "author_ja": "司馬遼太郎",
+  "author_zh": "司馬遼太郎",
+  "title_file_as": "Burn, O Sword",
+  "author_file_as": "Shiba, Ryōtarō",
+  "translator_en": "",
   "year": 2020,
-  "uid": "urn:uuid:my-book-slug-1",
-
-  "_source_note": "The source is a digital EPUB with reliable text (no OCR). Record its title/edition and anything notable (missing chapters, embedded notes, image-heavy sections) here.",
+  "publication_date": "2020-04-20",
+  "publisher": "Bungeishunjū",
+  "uid": "urn:uuid:burn-o-sword-shiba-ryotaro",
+  "language": "en",
+  "source_language": "ja",
+  "source_script": "ja",
+  "series": "Winston Translations",
+  "series_index": 10,
   "source_epub": "source.epub",
-
-  "_metadata_note": "Optional richer metadata, all read by the builder: subtitle_en; title_file_as / author_file_as (library sort keys; default to the display forms); translator_en; publication_date (ISO, else year-01-01); rights; source_ref (a dc:source line naming the source edition); subjects (a JSON list; legacy singular 'subject' still honored); series + series_index (calibre metas and the EPUB3 collection); language (default 'en'); source_language (BCP-47, e.g. 'zh'); source_script (lang tag for source-script spans, e.g. 'zh-Hant' or 'zh-Hans'; default 'zh'); cover_image (a file under the project or data/ dirs, copied byte-identical); modified (deterministic dcterms:modified stamp, default 2026-01-01T00:00:00Z -- rebuilds are byte-identical); deliverable (output path used when the builder/qa get no argv); uid (kept verbatim unless it is a malformed urn:uuid, which is replaced by a deterministic UUIDv5 of title_en). The source book's own notes go in source_notes.json, a second stream kept separate from the translator's notes.json.",
-
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212;, &#160;), never named entities. If omitted, a generic method note is generated.",
-  "translator_note": [
-    "This is an English translation of <i>中文書名</i>, made from the digital source EPUB.",
-    "Say here what the register decisions were, who the author is, and how any editorial choices (the source's own notes, ambiguous passages, cut material) were handled."
+  "cover_image": "data/figs/embed0009_HD.jpg",
+  "_source_note": "Source: 燃えよ剣（新装版）, Shiba Ryōtarō, Bungeishunjū e-book, 2020-04-20 (ASIN B086P34MVL;底本 the 2020-04-05 単行本; itself the new-edition of the 1998-09 ノベルス判). Vertical-rl. First published 1964. Spine has 78 documents; modeled as 68 titled novel chapters + 3 back-matter units. Documents NOT modeled as chapters: cover.xhtml (art reused byte-identical as the cover, 装画 アオジマイコ / 装丁 野中深雪); part0000 (title page, regenerated from metadata); part0001 (a device 縦書き layout notice, dropped); part0002 (the source 目次, regenerated as the TOC); part0074 (a provenance/底本 note, folded into this note and the translator's note); part0075 (奥付 colophon, folded into metadata: publisher 文藝春秋, 発行人 吉永龍太, 東京都千代田区紀尾井町3-23); part0076 (copyright + お断り boilerplate, dropped — its お断り explains that some kanji were simplified/shown as images, which is why the source shipped 8 gaiji glyphs).",
+  "_gaiji_note": "The source encoded 8 characters as <img class='gaiji'> images (font could not carry them); ingest_epub.py substitutes them via data/gaiji_map.json so none is dropped: 遼 (in 司馬遼太郎), 茨 (茨木司), 頤, 葛 (葛山武八郎), 芦 (芦谷), and two reading marks — レ (kanbun kaeriten) and 㝎 (the 之定/Nosada variant of 定, discussed in ch16 as the smith Kanesada's signature glyph).",
+  "subjects": [
+    "Fiction",
+    "Historical fiction",
+    "Japan -- History -- Restoration, 1853-1870 -- Fiction",
+    "Shinsengumi -- Fiction",
+    "Hijikata, Toshizō, 1835-1869 -- Fiction",
+    "Samurai -- Fiction"
   ],
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (source), title_en, and OPTIONAL 'part' (a label like 'Part One. ...'; consecutive chapters sharing it are grouped in the TOC). Keep 'src' (the source spine href, optionally with #anchor) and 'chars' (source character count, from ingest) so the survey can size batches; 'text_file' points at the extracted source text for that unit. Each section: id (ch01s01..), section (int), title, title_en, src, chars, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front: the survey and the skeleton EPUB are built from it before any translation.",
+  "rights": "Original text © the Estate of Shiba Ryōtarō / Bungeishunjū. This annotated English translation is a derivative work made for private, non-commercial study.",
+  "source_ref": "燃えよ剣（新装版）. 司馬遼太郎. 東京: 文藝春秋, 2020. ASIN B086P34MVL.",
+  "translator_note": [
+    "This is an annotated English translation of Shiba Ryōtarō's <i>Moeyo ken</i> (燃えよ剣, \"Burn, O Sword\"), first serialized 1962&#8211;1964, made from the 2020 Bungeishunjū digital new edition. The novel follows Hijikata Toshizō, from a farming family of Bushū Hino, through his making of the Shinsengumi and on to his death in the last battle of the Boshin War at Hakodate&#8217;s Goryōkaku in 1869.",
+    "The aim is prose that reads naturally to an English reader with no background in Japanese history, with footnotes supplying what such a reader would miss &#8212; the offices, ranks, swords, money, geography, and customs of the last years of the Tokugawa order &#8212; and a glossary of recurring people and terms.",
+    "Names are given in Japanese order (surname first): Hijikata Toshizō, not Toshizō Hijikata. Macrons mark long vowels (Toshizō, Kondō, Ōtori). The heroine Oyuki is, as Shiba notes, an invented character.",
+    "The edition&#8217;s back matter is translated in full: the author&#8217;s own afterword, and a 2020 commentary by film director Harada Masato written for his screen adaptation. Both are the writers&#8217; own words, not the translator&#8217;s.",
+    "Where the source itself is ambiguous, or an editorial choice was made, the footnote says so. Nothing is invented to bridge a gap."
+  ],
+  "_structure_note": "68 titled novel chapters (ch01-ch68), unnumbered in the source exactly as here; each is a single source spine document, flat (scene breaks handled by set-off markers, not sections). Back matter (ch69-ch71) grouped under the 'Back Matter' part label. 'chars' is kanji+kana from ingest.",
   "structure": [
     {
       "level": 1,
       "id": "ch01",
       "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "src": "text/chapter01.xhtml",
-      "chars": 8200,
-      "text_file": "data/src/01_chapter01.txt",
-      "sections": [
-        {
-          "id": "ch01s01",
-          "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "src": "text/chapter01.xhtml#sec1",
-          "chars": 4100,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)"
-            }
-          ]
-        },
-        {
-          "id": "ch01s02",
-          "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "src": "text/chapter01.xhtml#sec2",
-          "chars": 4100
-        }
-      ]
-    }
-  ],
-
-  "_batches_note": "Your work plan (proposed by scripts/survey.py, approved by the commissioner). Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
-  "batches": [
+      "title": "女の夜市",
+      "title_en": "The Women's Night Market",
+      "src": "Text/part0003.xhtml",
+      "chars": 5596,
+      "text_file": "data/src/05_part0003.txt"
+    },
     {
-      "batch": "B01",
-      "title": "ch1",
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
+      "level": 1,
+      "id": "ch02",
+      "chapter": 2,
+      "title": "六車斬り",
+      "title_en": "Cutting Down Muruma",
+      "src": "Text/part0004.xhtml",
+      "chars": 5326,
+      "text_file": "data/src/06_part0004.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch03",
+      "chapter": 3,
+      "title": "七里研之助",
+      "title_en": "Shichiri Kennosuke",
+      "src": "Text/part0005.xhtml",
+      "chars": 4657,
+      "text_file": "data/src/07_part0005.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch04",
+      "chapter": 4,
+      "title": "わいわい天王",
+      "title_en": "The Waiwai Tennō",
+      "src": "Text/part0006.xhtml",
+      "chars": 5199,
+      "text_file": "data/src/08_part0006.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch05",
+      "chapter": 5,
+      "title": "分倍河原",
+      "title_en": "Bubaigawara",
+      "src": "Text/part0007.xhtml",
+      "chars": 5291,
+      "text_file": "data/src/09_part0007.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch06",
+      "chapter": 6,
+      "title": "月と泥",
+      "title_en": "The Moon and the Mud",
+      "src": "Text/part0008.xhtml",
+      "chars": 4846,
+      "text_file": "data/src/10_part0008.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch07",
+      "chapter": 7,
+      "title": "江戸道場",
+      "title_en": "The Edo Dōjō",
+      "src": "Text/part0009.xhtml",
+      "chars": 4979,
+      "text_file": "data/src/11_part0009.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch08",
+      "chapter": 8,
+      "title": "桂小五郎",
+      "title_en": "Katsura Kogorō",
+      "src": "Text/part0010.xhtml",
+      "chars": 4538,
+      "text_file": "data/src/12_part0010.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch09",
+      "chapter": 9,
+      "title": "八王子討入り",
+      "title_en": "The Hachiōji Raid",
+      "src": "Text/part0011.xhtml",
+      "chars": 5180,
+      "text_file": "data/src/13_part0011.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch10",
+      "chapter": 10,
+      "title": "スタスタ坊主",
+      "title_en": "The Sutasuta Monk",
+      "src": "Text/part0012.xhtml",
+      "chars": 5143,
+      "text_file": "data/src/14_part0012.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch11",
+      "chapter": 11,
+      "title": "疫病神",
+      "title_en": "The Bringer of Ill Luck",
+      "src": "Text/part0013.xhtml",
+      "chars": 5412,
+      "text_file": "data/src/15_part0013.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch12",
+      "chapter": 12,
+      "title": "浪士組",
+      "title_en": "The Rōshigumi",
+      "src": "Text/part0014.xhtml",
+      "chars": 5175,
+      "text_file": "data/src/16_part0014.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch13",
+      "chapter": 13,
+      "title": "清河と芹沢",
+      "title_en": "Kiyokawa and Serizawa",
+      "src": "Text/part0015.xhtml",
+      "chars": 5378,
+      "text_file": "data/src/17_part0015.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch14",
+      "chapter": 14,
+      "title": "ついに誕生",
+      "title_en": "Born at Last",
+      "src": "Text/part0016.xhtml",
+      "chars": 5292,
+      "text_file": "data/src/18_part0016.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch15",
+      "chapter": 15,
+      "title": "四条大橋",
+      "title_en": "Shijō Great Bridge",
+      "src": "Text/part0017.xhtml",
+      "chars": 5183,
+      "text_file": "data/src/19_part0017.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch16",
+      "chapter": 16,
+      "title": "高瀬川",
+      "title_en": "The Takase River",
+      "src": "Text/part0018.xhtml",
+      "chars": 4191,
+      "text_file": "data/src/20_part0018.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch17",
+      "chapter": 17,
+      "title": "祇園「山の尾」",
+      "title_en": "The Yamanoo in Gion",
+      "src": "Text/part0019.xhtml",
+      "chars": 4829,
+      "text_file": "data/src/21_part0019.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch18",
+      "chapter": 18,
+      "title": "士道",
+      "title_en": "The Warrior's Code",
+      "src": "Text/part0020.xhtml",
+      "chars": 5047,
+      "text_file": "data/src/22_part0020.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch19",
+      "chapter": 19,
+      "title": "再会",
+      "title_en": "Reunion",
+      "src": "Text/part0021.xhtml",
+      "chars": 4973,
+      "text_file": "data/src/23_part0021.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch20",
+      "chapter": 20,
+      "title": "二帖半敷町の辻",
+      "title_en": "The Crossroads at Nijōhanjiki-chō",
+      "src": "Text/part0022.xhtml",
+      "chars": 5293,
+      "text_file": "data/src/24_part0022.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch21",
+      "chapter": 21,
+      "title": "局中法度書",
+      "title_en": "The Code of the Corps",
+      "src": "Text/part0023.xhtml",
+      "chars": 5000,
+      "text_file": "data/src/25_part0023.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch22",
+      "chapter": 22,
+      "title": "池田屋",
+      "title_en": "The Ikedaya",
+      "src": "Text/part0024.xhtml",
+      "chars": 5685,
+      "text_file": "data/src/26_part0024.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch23",
+      "chapter": 23,
+      "title": "断章・池田屋",
+      "title_en": "Ikedaya: A Coda",
+      "src": "Text/part0025.xhtml",
+      "chars": 5123,
+      "text_file": "data/src/27_part0025.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch24",
+      "chapter": 24,
+      "title": "京師の乱",
+      "title_en": "Turmoil in the Capital",
+      "src": "Text/part0026.xhtml",
+      "chars": 5569,
+      "text_file": "data/src/28_part0026.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch25",
+      "chapter": 25,
+      "title": "長州軍乱入",
+      "title_en": "The Chōshū Army Storms In",
+      "src": "Text/part0027.xhtml",
+      "chars": 5600,
+      "text_file": "data/src/29_part0027.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch26",
+      "chapter": 26,
+      "title": "伊東甲子太郎",
+      "title_en": "Itō Kashitarō",
+      "src": "Text/part0028.xhtml",
+      "chars": 5340,
+      "text_file": "data/src/30_part0028.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch27",
+      "chapter": 27,
+      "title": "甲子太郎、京へ",
+      "title_en": "Kashitarō Comes to Kyoto",
+      "src": "Text/part0029.xhtml",
+      "chars": 4930,
+      "text_file": "data/src/31_part0029.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch28",
+      "chapter": 28,
+      "title": "慶応元年正月",
+      "title_en": "New Year, First Year of Keiō",
+      "src": "Text/part0030.xhtml",
+      "chars": 5104,
+      "text_file": "data/src/32_part0030.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch29",
+      "chapter": 29,
+      "title": "憎まれ歳三",
+      "title_en": "Toshizō the Hated",
+      "src": "Text/part0031.xhtml",
+      "chars": 5375,
+      "text_file": "data/src/33_part0031.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch30",
+      "chapter": 30,
+      "title": "四条橋の雲",
+      "title_en": "Clouds over Shijō Bridge",
+      "src": "Text/part0032.xhtml",
+      "chars": 5596,
+      "text_file": "data/src/34_part0032.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch31",
+      "chapter": 31,
+      "title": "堀川の雨",
+      "title_en": "Rain on the Horikawa",
+      "src": "Text/part0033.xhtml",
+      "chars": 5255,
+      "text_file": "data/src/35_part0033.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch32",
+      "chapter": 32,
+      "title": "お雪",
+      "title_en": "Oyuki",
+      "src": "Text/part0034.xhtml",
+      "chars": 4796,
+      "text_file": "data/src/36_part0034.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch33",
+      "chapter": 33,
+      "title": "紅白",
+      "title_en": "Red and White",
+      "src": "Text/part0035.xhtml",
+      "chars": 4930,
+      "text_file": "data/src/37_part0035.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch34",
+      "chapter": 34,
+      "title": "与兵衛の店",
+      "title_en": "Yohei's Place",
+      "src": "Text/part0036.xhtml",
+      "chars": 5050,
+      "text_file": "data/src/38_part0036.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch35",
+      "chapter": 35,
+      "title": "二条中洲の決闘",
+      "title_en": "The Duel at Nijō Nakasu",
+      "src": "Text/part0037.xhtml",
+      "chars": 4541,
+      "text_file": "data/src/39_part0037.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch36",
+      "chapter": 36,
+      "title": "菊章旗",
+      "title_en": "The Chrysanthemum Banner",
+      "src": "Text/part0038.xhtml",
+      "chars": 4823,
+      "text_file": "data/src/40_part0038.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch37",
+      "chapter": 37,
+      "title": "お雪と",
+      "title_en": "With Oyuki",
+      "src": "Text/part0039.xhtml",
+      "chars": 4627,
+      "text_file": "data/src/41_part0039.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch38",
+      "chapter": 38,
+      "title": "江戸日記",
+      "title_en": "Edo Diary",
+      "src": "Text/part0040.xhtml",
+      "chars": 4636,
+      "text_file": "data/src/42_part0040.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch39",
+      "chapter": 39,
+      "title": "剣の運命",
+      "title_en": "The Sword's Fate",
+      "src": "Text/part0041.xhtml",
+      "chars": 5393,
+      "text_file": "data/src/43_part0041.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch40",
+      "chapter": 40,
+      "title": "大暗転",
+      "title_en": "The Great Turn",
+      "src": "Text/part0042.xhtml",
+      "chars": 5200,
+      "text_file": "data/src/44_part0042.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch41",
+      "chapter": 41,
+      "title": "伏見の歳三",
+      "title_en": "Toshizō at Fushimi",
+      "src": "Text/part0043.xhtml",
+      "chars": 4742,
+      "text_file": "data/src/45_part0043.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch42",
+      "chapter": 42,
+      "title": "鳥羽伏見の戦い・その一",
+      "title_en": "The Battle of Toba-Fushimi (I)",
+      "src": "Text/part0044.xhtml",
+      "chars": 5069,
+      "text_file": "data/src/46_part0044.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch43",
+      "chapter": 43,
+      "title": "鳥羽伏見の戦い・その二",
+      "title_en": "The Battle of Toba-Fushimi (II)",
+      "src": "Text/part0045.xhtml",
+      "chars": 5029,
+      "text_file": "data/src/47_part0045.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch44",
+      "chapter": 44,
+      "title": "鳥羽伏見の戦い・その三",
+      "title_en": "The Battle of Toba-Fushimi (III)",
+      "src": "Text/part0046.xhtml",
+      "chars": 4730,
+      "text_file": "data/src/48_part0046.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch45",
+      "chapter": 45,
+      "title": "鳥羽伏見の戦い・その四",
+      "title_en": "The Battle of Toba-Fushimi (IV)",
+      "src": "Text/part0047.xhtml",
+      "chars": 5099,
+      "text_file": "data/src/49_part0047.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch46",
+      "chapter": 46,
+      "title": "大坂の歳三",
+      "title_en": "Toshizō at Osaka",
+      "src": "Text/part0048.xhtml",
+      "chars": 5394,
+      "text_file": "data/src/50_part0048.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch47",
+      "chapter": 47,
+      "title": "松林",
+      "title_en": "The Pine Wood",
+      "src": "Text/part0049.xhtml",
+      "chars": 4845,
+      "text_file": "data/src/51_part0049.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch48",
+      "chapter": 48,
+      "title": "西昭庵",
+      "title_en": "Saishō-an",
+      "src": "Text/part0050.xhtml",
+      "chars": 4126,
+      "text_file": "data/src/52_part0050.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch49",
+      "chapter": 49,
+      "title": "江戸へ",
+      "title_en": "To Edo",
+      "src": "Text/part0051.xhtml",
+      "chars": 4918,
+      "text_file": "data/src/53_part0051.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch50",
+      "chapter": 50,
+      "title": "北征",
+      "title_en": "The Northern March",
+      "src": "Text/part0052.xhtml",
+      "chars": 4643,
+      "text_file": "data/src/54_part0052.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch51",
+      "chapter": 51,
+      "title": "甲州進撃",
+      "title_en": "Advance into Kōshū",
+      "src": "Text/part0053.xhtml",
+      "chars": 4924,
+      "text_file": "data/src/55_part0053.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch52",
+      "chapter": 52,
+      "title": "勝沼の戦い",
+      "title_en": "The Battle of Katsunuma",
+      "src": "Text/part0054.xhtml",
+      "chars": 4695,
+      "text_file": "data/src/56_part0054.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch53",
+      "chapter": 53,
+      "title": "流山屯集",
+      "title_en": "Mustering at Nagareyama",
+      "src": "Text/part0055.xhtml",
+      "chars": 5156,
+      "text_file": "data/src/57_part0055.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch54",
+      "chapter": 54,
+      "title": "袂別",
+      "title_en": "The Parting",
+      "src": "Text/part0056.xhtml",
+      "chars": 5141,
+      "text_file": "data/src/58_part0056.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch55",
+      "chapter": 55,
+      "title": "大鳥圭介",
+      "title_en": "Ōtori Keisuke",
+      "src": "Text/part0057.xhtml",
+      "chars": 5093,
+      "text_file": "data/src/59_part0057.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch56",
+      "chapter": 56,
+      "title": "城攻め",
+      "title_en": "The Siege",
+      "src": "Text/part0058.xhtml",
+      "chars": 5096,
+      "text_file": "data/src/60_part0058.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch57",
+      "chapter": 57,
+      "title": "沖田総司",
+      "title_en": "Okita Sōji",
+      "src": "Text/part0059.xhtml",
+      "chars": 4764,
+      "text_file": "data/src/61_part0059.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch58",
+      "chapter": 58,
+      "title": "陸軍奉行並",
+      "title_en": "Assistant Commissioner of the Army",
+      "src": "Text/part0060.xhtml",
+      "chars": 4920,
+      "text_file": "data/src/62_part0060.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch59",
+      "chapter": 59,
+      "title": "艦隊北上",
+      "title_en": "The Fleet Turns North",
+      "src": "Text/part0061.xhtml",
+      "chars": 5205,
+      "text_file": "data/src/63_part0061.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch60",
+      "chapter": 60,
+      "title": "小姓市村鉄之助",
+      "title_en": "Ichimura Tetsunosuke, the Page",
+      "src": "Text/part0062.xhtml",
+      "chars": 4740,
+      "text_file": "data/src/64_part0062.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch61",
+      "chapter": 61,
+      "title": "松前城略取",
+      "title_en": "The Seizure of Matsumae Castle",
+      "src": "Text/part0063.xhtml",
+      "chars": 4866,
+      "text_file": "data/src/65_part0063.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch62",
+      "chapter": 62,
+      "title": "甲鉄艦",
+      "title_en": "The Ironclad",
+      "src": "Text/part0064.xhtml",
+      "chars": 5083,
+      "text_file": "data/src/66_part0064.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch63",
+      "chapter": 63,
+      "title": "宮古湾海戦",
+      "title_en": "The Sea Fight at Miyako Bay",
+      "src": "Text/part0065.xhtml",
+      "chars": 5077,
+      "text_file": "data/src/67_part0065.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch64",
+      "chapter": 64,
+      "title": "襲撃",
+      "title_en": "The Attack",
+      "src": "Text/part0066.xhtml",
+      "chars": 4509,
+      "text_file": "data/src/68_part0066.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch65",
+      "chapter": 65,
+      "title": "再会",
+      "title_en": "Reunion",
+      "src": "Text/part0067.xhtml",
+      "chars": 4466,
+      "text_file": "data/src/69_part0067.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch66",
+      "chapter": 66,
+      "title": "官軍上陸",
+      "title_en": "The Imperial Army Lands",
+      "src": "Text/part0068.xhtml",
+      "chars": 4869,
+      "text_file": "data/src/70_part0068.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch67",
+      "chapter": 67,
+      "title": "五稜郭",
+      "title_en": "Goryōkaku",
+      "src": "Text/part0069.xhtml",
+      "chars": 4985,
+      "text_file": "data/src/71_part0069.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch68",
+      "chapter": 68,
+      "title": "砲煙",
+      "title_en": "Gunsmoke",
+      "src": "Text/part0070.xhtml",
+      "chars": 5680,
+      "text_file": "data/src/72_part0070.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch69",
+      "chapter": 69,
+      "part": "Back Matter",
+      "title": "あとがき",
+      "title_en": "Afterword",
+      "src": "Text/part0071.xhtml",
+      "chars": 1341,
+      "text_file": "data/src/73_part0071.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch70",
+      "chapter": 70,
+      "part": "Back Matter",
+      "title": "解説──そびえ立つ歴史的遺産『燃えよ剣』を映画化して",
+      "title_en": "Commentary — Adapting Burn, O Sword for the Screen (Harada Masato)",
+      "src": "Text/part0072.xhtml",
+      "chars": 4951,
+      "text_file": "data/src/74_part0072.txt"
+    },
+    {
+      "level": 1,
+      "id": "ch71",
+      "chapter": 71,
+      "part": "Back Matter",
+      "title": "司馬遼太郎",
+      "title_en": "About the Author",
+      "src": "Text/part0073.xhtml",
+      "chars": 311,
+      "text_file": "data/src/75_part0073.txt"
     }
   ]
 }

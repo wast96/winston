@@ -40,6 +40,54 @@ OPF = "{http://www.idpf.org/2007/opf}"
 CN = "{urn:oasis:names:tc:opendocument:xmlns:container}"
 
 
+def subst_gaiji(xhtml, gaiji, missing):
+    """Replace <img class="gaiji" src=".../NAME"> with the real character it
+    encodes (from data/gaiji_map.json). A gaiji is a character the source could
+    not encode in the font, shipped as a tiny image; dropping it silently loses
+    a real character. Unmapped gaiji get a visible sentinel and are reported."""
+    def repl(m):
+        tag = m.group(0)
+        if "gaiji" not in tag:
+            return tag  # a real inline figure, leave for strip_tags to drop
+        s = re.search(r'src="([^"]+)"', tag)
+        name = os.path.basename(s.group(1)) if s else ""
+        if name in gaiji:
+            return gaiji[name]  # may be "" for a decorative mark
+        missing.add(name)
+        return "〓"  # 〓 geta: visible, never silently dropped
+    return re.sub(r"(?is)<img\b[^>]*>", repl, xhtml)
+
+
+def strip_ruby(xhtml):
+    """Drop furigana so it is not interleaved into the base text. <rt> (the
+    reading) and <rp> (fallback parens) are removed; <ruby>/<rb> wrappers are
+    left for strip_tags, keeping only the base characters. Universally safe:
+    a source without ruby is unaffected."""
+    xhtml = re.sub(r"(?is)<rp\b[^>]*>.*?</rp>", "", xhtml)
+    xhtml = re.sub(r"(?is)<rt\b[^>]*>.*?</rt>", "", xhtml)
+    return xhtml
+
+
+def capture_furigana(xhtml):
+    """Word-level (base, reading) pairs from every <ruby> block: the base is the
+    concatenated <rb> text, the reading the concatenated <rt> text. These name
+    and word readings are the digital source's gift for romanization."""
+    pairs = []
+    for rb_block in re.finditer(r"(?is)<ruby\b[^>]*>(.*?)</ruby>", xhtml):
+        inner = rb_block.group(1)
+        rbs = re.findall(r"(?is)<rb\b[^>]*>(.*?)</rb>", inner)
+        rts = re.findall(r"(?is)<rt\b[^>]*>(.*?)</rt>", inner)
+        if not rbs:  # ruby with a bare base and just <rt>
+            base = re.sub(r"(?is)<rt\b[^>]*>.*?</rt>", "", inner)
+            base = re.sub(r"(?s)<[^>]+>", "", base)
+            rbs = [base]
+        base = html.unescape(re.sub(r"(?s)<[^>]+>", "", "".join(rbs))).strip()
+        reading = html.unescape(re.sub(r"(?s)<[^>]+>", "", "".join(rts))).strip()
+        if base and reading:
+            pairs.append((base, reading))
+    return pairs
+
+
 def strip_tags(xhtml):
     """Plain text from an XHTML string: drop script/style, turn block ends into
     newlines, unescape entities, collapse whitespace per line."""
@@ -63,7 +111,10 @@ def headings(xhtml):
 
 
 def cjk_chars(text):
-    return len(re.findall(r"[㐀-鿿豈-﫿]", text))
+    # Kanji (CJK ideographs + compat) AND kana: for a Japanese source the kana
+    # carry as much of the prose as the kanji, so a kanji-only count understates
+    # the translation effort by more than half. Punctuation/latin excluded.
+    return len(re.findall(r"[㐀-鿿豈-﫿぀-ゟ゠-ヿ]", text))
 
 
 def slug(href):
@@ -80,6 +131,14 @@ def main(epub_path):
 
     z = zipfile.ZipFile(epub_path)
     z.extractall(SRC_EPUB)
+
+    gaiji_path = os.path.join(ROOT, "data", "gaiji_map.json")
+    gaiji = {}
+    if os.path.exists(gaiji_path):
+        gaiji = {k: v for k, v in json.load(open(gaiji_path, encoding="utf-8"))
+                 .items() if not k.startswith("_")}
+    missing_gaiji = set()
+    furigana = []
 
     container = ET.fromstring(z.read("META-INF/container.xml"))
     opf_path = container.find(".//" + CN + "rootfile").get("full-path")
@@ -121,6 +180,8 @@ def main(epub_path):
         if "html" not in mt and "xml" not in mt:
             continue
         xhtml = z.read(full).decode("utf-8", "replace")
+        furigana.extend(capture_furigana(xhtml))
+        xhtml = strip_ruby(subst_gaiji(xhtml, gaiji, missing_gaiji))
         text = strip_tags(xhtml)
         if not text.strip():
             continue  # nav, blank, or cover-only page
@@ -165,9 +226,28 @@ def main(epub_path):
     with open(os.path.join(ROOT, "book.draft.json"), "w") as fh:
         json.dump(draft, fh, ensure_ascii=False, indent=2)
 
+    # Furigana readings: unique (base, reading) pairs with counts, for
+    # romanizing names and words. Reference only; never ships.
+    if furigana:
+        from collections import Counter
+        counts = Counter(furigana)
+        os.makedirs(os.path.join(ROOT, "reference"), exist_ok=True)
+        with open(os.path.join(ROOT, "reference", "furigana_readings.tsv"),
+                  "w", encoding="utf-8") as fh:
+            fh.write("base\treading\tcount\n")
+            for (b, r), c in sorted(counts.items(), key=lambda kv: -kv[1]):
+                fh.write("%s\t%s\t%d\n" % (b, r, c))
+
     print("ingested %d spine documents, %d images, %d source chars"
           % (len(draft["structure"]), n_img, total))
     print("wrote data/src/*.txt, data/figs/*, out/INGEST.md, book.draft.json")
+    if furigana:
+        print("furigana: %d ruby occurrences, %d unique -> "
+              "reference/furigana_readings.tsv"
+              % (len(furigana), len(set(furigana))))
+    if missing_gaiji:
+        print("WARNING: unmapped gaiji (rendered as 〓, add to "
+              "data/gaiji_map.json): %s" % ", ".join(sorted(missing_gaiji)))
     print("next: author book.json from book.draft.json (English titles; "
           "merge/split to logical chapters), then run scripts/survey.py")
 

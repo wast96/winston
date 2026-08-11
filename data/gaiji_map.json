@@ -1,0 +1,12 @@
+{
+  "_README": "Maps gaiji <img class='gaiji'> basenames to the real character they encode. Identified by glyph inspection + textual/roster context. ingest_epub.py substitutes these into the extracted source text so no character is silently dropped. embed0008 is the Bungeishunju publisher logo in the colophon (decorative, not a character) -> dropped.",
+  "embed0000.jpg": "遼",
+  "embed0001.jpg": "㝎",
+  "embed0002.jpg": "茨",
+  "embed0003.jpg": "頤",
+  "embed0004.jpg": "レ",
+  "embed0005.jpg": "葛",
+  "embed0006.jpg": "芦",
+  "embed0007.jpg": "遼",
+  "embed0008.jpg": ""
+}
