@@ -346,3 +346,107 @@ Kuranosuke/Narimasa, Mori Katsuzō, Mōri Kawachi-no-kami, Hosokawa Fujitaka/
 Tadaoki, Gamō Ujisato, Takigawa Kazumasu/Shōgen, Shibata Katsutoyo; Sō Sokei and
 Namiki Gohei (kabuki); Kurihara Ryūan, Sawa Juji, the third Enjaku (cited
 authors/actors); Kakunen and Seishin (the Shōfuku-ji monks); Kadoya (ch02).
+
+
+## Batch 4 = Chapter 4, "War upon War" (PDF 201-258, printed folios 199-256) - COMPLETE
+
+Chapter 4 is the war chapter. It carries the Shizugatake campaign end to end:
+Hideyoshi's tireless New Year at Himeji, the Ise expedition, the long stand-off
+around Lake Yogo, Yamaji's betrayal and his family's crucifixion, Sakuma
+Morimasa's raid on Mount Oiwa, Hideyoshi's celebrated Great Return from Ogaki,
+Maeda Toshiie's decisive withdrawal, the Seven Spears, and the fall of
+Kita-no-sho, ending with Katsuie atop the burning nine-storied keep. Goemon
+watches throughout as Ieyasu's observer, is drawn against his will to Hideyoshi,
+and quietly reckons his own life against Maki's love. The chapter's emotional
+core is the death-vigil of Katsuie and Oichi and the parting of their three
+daughters (the eldest, Ochacha, the future Lady Yodo).
+
+### Deliverables shipped
+- `out/ch04_reading.md`: full clean translation, 337 body paragraphs, ~16,140
+  words, one chapter heading, no scene breaks (continuous prose). The
+  correction surface.
+- 20 footnotes in `notes.json` (folio-cited; book total 150), 42 new glossary
+  rows (`glossary.json`: people 67->92, places 32->45, terms 21->25). No new
+  principals. Figures ch04 EMPTY (text-only chapter; no plates or line art).
+- `out/the-stealthy-ones.epub`: cumulative build, 4 of 8 chapters, full
+  pending-aware TOC.
+
+### Checks run and results
+- `qa_epub.py`: PASS (15 documents, 150 refs / 150 bodies / 150 backlinks all
+  resolve, 48 pagebreak markers, all links resolve).
+- `epubcheck 5.1.0`: 0 fatals / 0 errors / 0 warnings / 0 infos (store-clean).
+- `check_apparatus.py`: 0 failures, 0 warnings.
+- `check_register.py --ref out/ch01_reading.md`: within tolerance after a
+  targeted contraction pass. Final: contractions 6.1/1k (ref 8.8, 0.70x),
+  shall-share 23% (elevated but DELIBERATE: confined to the formal death-speeches
+  of Katsuie and Oichi, the Menju/Shima Sakon Taikoki set-piece, and the Frois
+  letter), em-dash 1.0/1k (ref 0.3; the surplus is all interrupted/passionate
+  dialogue and quoted classical text, not narration appositives), sentence
+  median 16, rhythm CV 0.69. Narration em-dashes were converted to
+  commas/colons/periods/parentheses from the first draft, per the ch03 lesson.
+- Tail verification (rule 4 corollary): the final page (folio 256) was
+  translated directly from the p0258 image and re-checked; Katsuie drawing up
+  the ladder, firing the keep, and appearing at the ninth-story window all match.
+
+### OCR and fidelity method (book-specific, unchanged)
+- OCR: tesseract `jpn_vert`, psm 5, crop left 0.06 / right 0.96 / top 0.09 /
+  bottom 0.935. `pgrep -c tesseract` = 0 after the run. OCR used as a
+  STRUCTURAL aid only; the chapter was translated by reading every page image
+  (PDF 202-258) directly, since vertical-JP OCR with furigana bleed is too
+  corrupt to translate from. `ocr_dual.py` / `indents.py` not used
+  (Chinese-template holdovers).
+- Crop-verified by eye (recorded so a fresh checkout knows what was eye-read):
+  the 900-plus / 490,000-koku / 75,000 / 60,000-30,000 / 8,500 / 550m / 420m
+  figures; the Seven Spears roster and its koku rewards (Masanori 3,500, the
+  rest 3,000 each, Ishiko Hyosuke's brother Nagamatsu 1,000); the hyorogan
+  recipe (30/5/30/30/30 monme, 5 bu); the disputed "prowess" line at folio 211
+  (confirmed the source reads 勝家軍, Katsuie's front line); the new name Koichi
+  of Higashi-Yubune (東湯舟の小一). check_numbers / positional parity NOT used
+  as a gate (documented at ch01: the vertical-JP OCR over-splits and mangles).
+
+### Source inconsistencies / readings noted, NOT harmonized (rendered as printed)
+- OICHI'S AGE: folio 246 gives her as thirty-seven, folio 255 as thirty-six.
+  Both rendered as printed; footnoted at folio 255.
+- The seven captives (Yamaji's family), seized by Kimura, a Hideyoshi-side
+  officer at the Shinmei fort, are crucified "on the left wing of Katsuie's
+  front line" (勝家軍, crop-confirmed). Rendered as printed; the oddity is left
+  visible (minor tier, not footnoted).
+- Morimasa's brother is named Yasuda Yasumasa at folio 205 and Sakuma Yasumasa
+  at folio 223. Both rendered as printed; recorded in the glossary row.
+- Manpukumaru's killing is laid to Hideyoshi's hand (Oichi's speech and the
+  narrator), on Nobunaga's order. Historically the order was Nobunaga's; the
+  footnote says so and renders the text as printed.
+- Sakuma Juzo (Maa's betrothed): fourteen at the betrothal "last year" (folio
+  249), fifteen at the final assault (folio 256). A year's passing; not
+  footnoted (minor).
+
+### Rendered-as-read (one-off minor figures/places NOT given glossary rows)
+Reuse these spellings if any recur. Officers: Ogane Tohachiro, Kimura Shigekore,
+Kimura Kinainosuke, Osaki Uemon-no-jo, Nomura Katsujiro, Tonami Hayato, Hori
+Hidemasa (glossed), Ogawa Suketada, Kinoshita Hanuemon, Ujiie Naomichi, Inaba
+Ittetsu, Yamaoka Kagetaka, Tominaga Shinrokuro, Hirano Nagayasu, Kasuya
+Sukeuemon-no-jo, Sakurai Sakichi, Ishiko Hyosuke, Achako (waiting-woman), Iseya
+(draper). Battlefield hills/points (rendered as read): Uchinakao, Fumuro, Mano,
+Doki-yama, Shinmei-yama, Gongen-zaka, Kineyama, Kitsunezuka, Bessho-yama,
+Shige-yama, Nakatani, Anegawa, Iinoura, Chausu-yama, Shufukuji-zaka,
+Shimizu-dani, Hachigamine, Iwasaki, Hayashidani-yama, Gyoichi, Niwato-hama,
+Shimo-Yogo, Kokufu, Seki, Mine, Takatsuki(Omi), Kinomoto (glossed), Sekigahara,
+Tarui, Fujikawa, Odani (glossed), Imajo. Terms rendered in place: kusazuri,
+shikoro, shinobi-no-o, mete-zashi/yoroi-doshi, Rakan-ken, Ryuo-ken, suigetsu,
+kubi-jikken, Soshu Sadamune, "brush-head" helmet, byakudan-migaki, tentsuki
+crest, jumonji-yari.
+
+### NOT re-noted (already placed earlier in the book; cross-referenced)
+koku (ch02), ri/league (ch01), kan (ch01), shaku/sun (ch01), the hour-names
+(ch01), kamari (ch03), tenton no jutsu (glossary), Enma (ch03), the Shinsho
+Taikoki (ch03), Luis Frois and Valignano (ch01), Momochi Sandayu (ch01),
+Ishiyama Hongan-ji (ch01/02), Ichijodani (ch01), Azai Nagamasa and Odani (ch03),
+Oichi and the Lady Yodo (ch03), Koichi/Karasumaru/Etegi/Hatsuko (earlier
+batches), Kiyomasa=Toranosuke (ch03). Prefer cross-referencing these.
+
+### For the whole-book reconciliation (final batch)
+- Koya/Kojirin spelling: the pre-existing glossary renders 高野山 as "Koya-san"
+  (no macron); ch04 prose uses "Mount Koya" with the macron ("K" + long o) at
+  folio 246. Pick one at the final reconcile.
+- The Taikoki is rendered "Shinsho Taikoki" (with the long-o macron on Taiko),
+  matching ch03.
