@@ -604,66 +604,54 @@
   "batches": [
     {
       "batch": "B01",
-      "title": "The Rebel 1-5",
+      "title": "The Rebel 1-7",
       "first_section": "ch01",
-      "last_section": "ch05"
+      "last_section": "ch07"
     },
     {
       "batch": "B02",
-      "title": "The Rebel 6-10",
-      "first_section": "ch06",
-      "last_section": "ch10"
-    },
-    {
-      "batch": "B03",
-      "title": "The Rebel 11-14",
-      "first_section": "ch11",
+      "title": "The Rebel 8-14",
+      "first_section": "ch08",
       "last_section": "ch14"
     },
     {
-      "batch": "B04",
+      "batch": "B03",
       "title": "The Postman 1-6",
       "first_section": "ch15",
       "last_section": "ch20"
     },
     {
-      "batch": "B05",
+      "batch": "B04",
       "title": "The Postman 7-11",
       "first_section": "ch21",
       "last_section": "ch25"
     },
     {
-      "batch": "B06",
+      "batch": "B05",
       "title": "The Postman 12-15 + Afterword",
       "first_section": "ch26",
       "last_section": "ch30"
     },
     {
-      "batch": "B07",
-      "title": "Potassium Cyanide 1-3",
+      "batch": "B06",
+      "title": "Potassium Cyanide 1-5",
       "first_section": "ch31",
-      "last_section": "ch33"
+      "last_section": "ch35"
     },
     {
-      "batch": "B08",
-      "title": "Potassium Cyanide 4-7",
-      "first_section": "ch34",
-      "last_section": "ch37"
-    },
-    {
-      "batch": "B09",
-      "title": "Potassium Cyanide 8-10",
-      "first_section": "ch38",
+      "batch": "B07",
+      "title": "Potassium Cyanide 6-10",
+      "first_section": "ch36",
       "last_section": "ch40"
     },
     {
-      "batch": "B10",
+      "batch": "B08",
       "title": "Rouge 1-6",
       "first_section": "ch41",
       "last_section": "ch46"
     },
     {
-      "batch": "B11",
+      "batch": "B09",
       "title": "Rouge 7-11 + back matter & whole-book QA",
       "first_section": "ch47",
       "last_section": "ch51"
