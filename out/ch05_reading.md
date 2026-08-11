@@ -768,4 +768,40 @@ This time he came straight to the point. "Go to Shiroko beach at once, and fetch
 
 "My lord—but more than two years have gone by. She will surely have been married off somewhere by now."
 
-At which Ieyasu, thrusting his irritated face at him, shouted,
+At which Ieyasu, thrusting his irritated face at him, shouted, "No matter. Reason with the husband and bring her. If the husband defies my command, trick him and bring her anyway! A night, or two nights, will do. In short—by whatever means, bring her here!"
+
+With that he flung the words down and slid the door shut.
+
+Here was a fine business. Must he give Hatsuko up to Ieyasu? No—that he would never do. He would not give Hatsuko up for anything. Not even his own lord should lay a finger on her.
+
+Hanzō, sharp-witted, unshaken in any tight corner, and sure, as a rule, of his own powers, that night tossed and turned and could not sleep. Deep in the night he sprang up all at once, put on his ninja garb, and set off at a run from Hamamatsu.
+
+By the afternoon of the ninth he was already at Asauda, on the southern edge of his native Iga-Ueno. He passed through the gate of the Shōfuku-ji, went straight into the deserted main hall, and lifted the hanging that covered the front. The last time he had come to worship, that hanging had certainly been a plain black cloth. Now it had become a beautiful thing, pieced together with painstaking care out of many small scraps, so that at first glance it looked like a brocade tapestry, or a mandala, one of those pictures crowded with the small figures of many Buddhas.
+
+Ah—it is more than half a year since I came, he thought.
+
+From behind the hanging there appeared that same Holy Mother, blue-eyed and golden-haired, the infant Christ at her breast, her gaze brimming with tenderness.
+
+Hanzō gazed and gazed at that holy face. And presently his heart began to pound and surge. The face of Santa Maria—was it not the very image of Hatsuko's! Ah—why had he never seen it until now?
+
+Without thinking, Hanzō stepped forward and clasped the knees of the Holy Mother. "Maria-sama! Maria-sama!" he sobbed. "A devil is trying to take my wife Hatsuko from me. That devil is a man who has taken other men's wives, over and over, and thinks nothing of it. That man had his own mother killed at his order, by another's hand; and his own child, too, he had killed the same way. Maria-sama! I beg you, save my wife from that devil's hand!"
+
+And the Holy Mother, whose knees Hanzō clasped, spoke, in a voice filled with an unspeakable compassion: "Oh, you poor thing—you poor thing—"
+
+Hanzō started up, thunderstruck. He had heard tell of miracles, many a time, in the sermons of the Venerable Lorenzo. But that one should appear in reality before his own eyes was more than he had ever dreamed.
+
+"Ah! Maria-sama! Will you help me, then?" Hanzō threw himself down on the floor and trembled all over with the force of his emotion.
+
+"Yes—pray so, with your whole heart. The Holy Mother will surely help you."
+
+He turned with a start; behind him stood a figure. If the voice had come from it, it was a woman's. Yet to the eye, in the dim hall, there was nothing anywhere to mark her for a woman. She was wrapped head to foot in a long gray robe, a gray cord bound about the waist. A pure-white cloth covered her from the head right down below the shoulders. Peering under it, Hanzō cried out despite himself: "Ah!"
+
+The right half was the face of a beautiful grown woman; the left half an ugly mass of burn-scars. But at the sight of those eyes, gazing on him full of a deep compassion, the anger that had begun to rise in him—at his own mistake, at having been fooled—crumbled and melted away. The hands that told the beads of a rosary hung with a golden cross: the right was the soft hand of a young woman, but on the left all five fingers were no more than half their length.
+
+Some great calamity had befallen her, one saw, and she had become a Christian nun.
+
+"When did you come here, sister?" Hanzō asked.
+
+"Half a year, it would be. When the Venerable Lorenzo was to go and teach at the seminary in Takatsuki, I was given charge of the place in his absence, and came here."
+
+"And what is your name, sister?"
