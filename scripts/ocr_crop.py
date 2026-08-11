@@ -54,7 +54,12 @@ TXT = os.path.join(ROOT, "data", "txt")
 CROPDIR = os.path.join(ROOT, "data", "crop")
 RAWDIR = os.path.join(ROOT, "data", "raw")
 
-CJK = r"一-鿿　-〿＀-￯"
+# CJK unified + Japanese kana (hiragana U+3040-309F, katakana U+30A0-30FF) +
+# CJK symbols/punctuation + fullwidth forms. The kana ranges were added for
+# Japanese books: tesseract's jpn model spaces kana the same way chi_sim spaces
+# Han, and without them despace() left kana-internal OCR spaces in place. The
+# ranges are inert for Chinese text (no kana present), so this is unconditional.
+CJK = "一-鿿぀-ヿ　-〿＀-￯"
 
 # Whole-page defaults (no crop). MEASURE your book and override on the command
 # line; see the module docstring. These values will NOT give clean OCR as-is.
@@ -188,10 +193,27 @@ def main():
                     help="the book's running head (title+author as printed in "
                          "the margin); used to filter stray head columns. Empty "
                          "disables that filter.")
+    ap.add_argument("--no-furniture-strip", action="store_true",
+                    help="skip strip_folio()/strip_runfoot(). Both encode "
+                         "CHINESE furniture assumptions: strip_folio drops a "
+                         "short last line ending in a dot/punct (which deletes "
+                         "real short Japanese dialogue lines ending in 。), and "
+                         "strip_runfoot only matches Chinese 第X章 headings. For "
+                         "a book whose furniture is entirely at the TOP and "
+                         "cropped away, both are unneeded and harmful. Set this "
+                         "for Japanese (and any book with clean bottom margins).")
     a = ap.parse_args()
 
     LEFT, RIGHT, TOP, BOTTOM = a.left, a.right, a.top, a.bottom
     RUNNING_HEAD = a.running_head
+
+    def strip_furniture(lines):
+        """strip_head always (inert when RUNNING_HEAD is empty); the folio and
+        runfoot strips only when the book uses Chinese-style bottom furniture."""
+        lines = strip_head(lines)
+        if not a.no_furniture_strip:
+            lines = strip_runfoot(strip_folio(lines))
+        return lines
 
     for d in (TXT, CROPDIR, RAWDIR):
         os.makedirs(d, exist_ok=True)
@@ -202,8 +224,7 @@ def main():
             p = os.path.join(TXT, "p%04d.txt" % n)
             if not os.path.exists(p):
                 continue
-            lines = strip_runfoot(strip_folio(strip_head(
-                open(p).read().split("\n"))))
+            lines = strip_furniture(open(p).read().split("\n"))
             with open(p, "w") as fh:
                 fh.write("\n".join(lines))
             n_done += 1
@@ -252,7 +273,7 @@ def main():
             if not l and (not out or not out[-1]):
                 continue
             out.append(l)
-        out = strip_runfoot(strip_folio(strip_head(out)))
+        out = strip_furniture(out)
         with open(os.path.join(TXT, "p%04d.txt" % n), "w") as fh:
             fh.write("\n".join(out))
         os.remove(raw)
