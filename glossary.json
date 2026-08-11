@@ -757,6 +757,36 @@
       "pinyin": "Chosokabe Motochika",
       "status": "attested",
       "note": "Lord of Tosa who had unified Shikoku; submitted to Hideyoshi in 1585 and was left Tosa alone."
+    },
+    "旭姫": {
+      "en": "Asahi-hime",
+      "pinyin": "Asahi-hime",
+      "status": "attested",
+      "note": "Hideyoshi's half-sister (1543-1590), married to Ieyasu in 1586 to seal the alliance of the two houses."
+    },
+    "施薬院全宗": {
+      "en": "Seyakuin Zensō",
+      "pinyin": "Seyakuin Zensō",
+      "status": "attested",
+      "note": "Former Hiei monk turned Hideyoshi's physician and courtier; also called Maeda Tokuun. Cast by the Jesuits as the Taikō's procurer of women."
+    },
+    "秀頼": {
+      "en": "Toyotomi Hideyori",
+      "pinyin": "Toyotomi Hideyori",
+      "status": "attested",
+      "note": "Hideyoshi's son and heir by the Lady Yodo (1593-1615); as an infant called 'Hiroi.' Died at the fall of Ōsaka castle in 1615."
+    },
+    "李舜臣": {
+      "en": "Yi Sun-sin",
+      "pinyin": "Ri Shunshin (Yi Sun-sin)",
+      "status": "attested",
+      "note": "Admiral of the Korean navy (1545-1598) and national hero; inventor of the armored turtle-ships that broke Japan's command of the sea."
+    },
+    "宗義智": {
+      "en": "Sō Yoshitomo",
+      "pinyin": "Sō Yoshitomo",
+      "status": "attested",
+      "note": "Lord of Tsushima; Hideyoshi's go-between with Korea before the invasions."
     }
   },
   "organizations": {
@@ -1127,6 +1157,36 @@
       "pinyin": "Kongobu-ji",
       "status": "attested",
       "note": "The head temple of the Shingon school on Mount Kōya."
+    },
+    "聚楽第": {
+      "en": "the Jurakudai",
+      "pinyin": "Jurakudai",
+      "status": "attested",
+      "note": "Hideyoshi's lavish palace-fortress in Kyoto (built 1587), seat of his regency; demolished in 1595."
+    },
+    "淀城": {
+      "en": "Yodo Castle",
+      "pinyin": "Yodo-jō",
+      "status": "attested",
+      "note": "The castle Hideyoshi rebuilt for the Lady Yodo and their son southwest of Kyoto, fed by great river waterwheels; scene of Goemon's capture."
+    },
+    "伏見城": {
+      "en": "Fushimi Castle",
+      "pinyin": "Fushimi-jō",
+      "status": "attested",
+      "note": "Hideyoshi's great castle southeast of Kyoto, built from 1592."
+    },
+    "江戸城": {
+      "en": "Edo Castle",
+      "pinyin": "Edo-jō",
+      "status": "attested",
+      "note": "The half-ruined castle Ieyasu took as his seat on his transfer to the Kantō in 1590; the future Tokyo."
+    },
+    "名護屋": {
+      "en": "Nagoya (Hizen)",
+      "pinyin": "Nagoya",
+      "status": "attested",
+      "note": "The staging base on the Higashi-Matsuura peninsula in Hizen, north Kyūshū, raised for the invasion of Korea. Not to be confused with Nagoya in Owari."
     }
   },
   "terms": {
@@ -1327,6 +1387,24 @@
       "pinyin": "kanpaku",
       "status": "attested",
       "note": "The imperial regent, the highest court office; assumed by Hideyoshi in 1585."
+    },
+    "ウグイス張り": {
+      "en": "the nightingale floor",
+      "pinyin": "uguisubari",
+      "status": "attested",
+      "note": "A floor built to chirp underfoot and betray an intruder; the trap sprung on Goemon at Yodo Castle."
+    },
+    "千鳥の香炉": {
+      "en": "the plover incense-burner",
+      "pinyin": "chidori no kōro",
+      "status": "attested",
+      "note": "The incense-burner that, by popular legend, cried out and betrayed Goemon at Hideyoshi's pillow; a 'surface' fiction of the kabuki plays."
+    },
+    "文禄・慶長の役": {
+      "en": "the Bunroku-Keichō War",
+      "pinyin": "Bunroku-Keichō no eki",
+      "status": "attested",
+      "note": "Hideyoshi's invasions of Korea, 1592 and 1597 (the Imjin and Jeongyu wars in Korean)."
     }
   }
 }
