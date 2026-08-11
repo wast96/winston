@@ -691,6 +691,24 @@
       "pinyin": "Aoba no Kaja",
       "status": "decided",
       "note": "&#8216;The Green-Leaf Page,&#8217; the refined cover-name Hanz&#333; gave a cold-natured K&#333;ga lower ninja of the Tarao; Goemon&#8217;s contact on the Osaka assignment."
+    },
+    "秀長": {
+      "en": "Hidenaga",
+      "pinyin": "Hashiba Hidenaga",
+      "status": "attested",
+      "note": "Hashiba (Toyotomi) Hidenaga (1540&#8211;1591), Hideyoshi&#8217;s younger half-brother and most trusted general; made governor of Kii and given the vanguard in the Kish&#363; campaign of Tensh&#333; 13. Titled Yamato Dainagon."
+    },
+    "弥五右衛門": {
+      "en": "Yagoemon",
+      "pinyin": "Yagoemon",
+      "status": "decided",
+      "note": "Maki&#8217;s father, a good-natured Ikk&#333;-sect peasant of the hamlet of Nagao; fifty-two in Tensh&#333; 13. Not to be confused with Goemon (五右衛門): Yagoemon is 弥五右衛門."
+    },
+    "儀助": {
+      "en": "Gisuke",
+      "pinyin": "Gisuke",
+      "status": "decided",
+      "note": "Maki&#8217;s elder brother, farming the family plot at Nagao; twenty-two in Tensh&#333; 13."
     }
   },
   "organizations": {
@@ -1019,6 +1037,24 @@
       "pinyin": "Kunitomo",
       "status": "attested",
       "note": "A village of &#332;mi whose swordsmiths, brought under Nobunaga after the fall of the Azai, became famous gun-makers."
+    },
+    "岸和田": {
+      "en": "Kishiwada",
+      "pinyin": "Kishiwada",
+      "status": "attested",
+      "note": "The castle-town on the Izumi coast south of Osaka; the Saiga and Negoro forces built their three forward forts (Sengokubori, Shakuzen-ji, Hama castle) to bar Hideyoshi&#8217;s road here in Tensh&#333; 13."
+    },
+    "九度山": {
+      "en": "Kudoyama",
+      "pinyin": "Kudoyama",
+      "status": "attested",
+      "note": "A fortified height above the Kino River at the foot of Mount K&#333;ya. Long after Goemon&#8217;s day Sanada Yukimura raised his fort here; the author flags it as the central stage of his sequel, <i>The Sanada Ninja Band</i>."
+    },
+    "長尾": {
+      "en": "Nagao",
+      "pinyin": "Nagao",
+      "status": "decided",
+      "note": "Maki&#8217;s home hamlet, a league and a half up the Kishi River at the foot of Mount Tokika; a poor farming village on the border of the Kish&#363; domain and the temple lands, where Goemon, Maki and Goichi take refuge."
     }
   },
   "terms": {
@@ -1189,6 +1225,24 @@
       "pinyin": "akazonae",
       "status": "attested",
       "note": "An <i>akazonae</i>, a unit armored and even armed all in red; Ii Naomasa&#8217;s was the most famous."
+    },
+    "僧兵": {
+      "en": "the s&#333;hei",
+      "pinyin": "sōhei",
+      "status": "attested",
+      "note": "The &#8216;warrior-monks&#8217; kept in arms by the great temples to fight rival lords and hold down their own tenantry; the Negoro-ji fielded them in the thousands."
+    },
+    "刀ざらえ": {
+      "en": "the sword-hunt",
+      "pinyin": "katana-zarae / katanagari",
+      "status": "attested",
+      "note": "The confiscation of swords and other arms from temples, townsmen and peasants; the Negoro edict of Tensh&#333; 13 was a prelude to the general sword-hunt (刀狩) Hideyoshi decreed in 1588."
+    },
+    "多宝塔": {
+      "en": "the Great Pagoda of Negoro",
+      "pinyin": "tah&#333;t&#333;; Negoro no Dait&#333;",
+      "status": "attested",
+      "note": "The Dait&#333; of the Negoro-ji, a two-storied <i>tah&#333;t&#333;</i> raised by Kakuban in 1129 after the Konpon Dait&#333; of Mount K&#333;ya. It survived the burning of the temple and stands today, a National Treasure; its walls still carry the marks of Hideyoshi&#8217;s musket-balls."
     }
   }
 }

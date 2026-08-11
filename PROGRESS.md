@@ -567,3 +567,118 @@ tendo, onchо (grace), Adan & Eva, the Iga sleeping-drug.
   ch05 prose use "Mount Koya"). Settle at the reconcile.
 - Hideyoshi's shifting titles/names (Hashiba Chikuzen, "Chikuzen-dono" in Frois)
   are rendered as they appear; consistent with the glossary "Hideyoshi".
+
+## Batch 6 = Chapter 6, "Earth and Water" (第六章 土と水, PDF 361-414, printed folios 359-412) — COMPLETE
+
+The chapter turns from the Goemon/Maki tragedy of ch05 to the destruction of
+the Negoro-Saiga world. Goemon, Maki and their infant Goichi take refuge at
+Maki's home village of Nagao in Kishū, on temple land under the Negoro-ji. The
+first half is Murayama's expository and materialist backbone: the geography of
+the Kii peninsula and the Kino River; a scathing anticlerical anatomy of the
+temple economy and the fear-of-death it feeds on; the yamabushi/Shugendō
+origins of the warrior-monks and ninjutsu; the wealth and arms of the Negoro-ji,
+its Great Pagoda, and its aged gun-pioneer Tsuda Kenmotsu Kazunaga (with the
+Koga spy Moriichirō lodged at the Suginobō). The second half is the war: Maeda
+Gen'i's sword-edict, the mass muster at Negoro, the class-solidarity scene on
+the riverbed, Kazue's abduction and rape by Moriichirō (who frames Goemon to a
+Takayama patrol and carries her off), the capture and suicide of the abductor
+"Purple Scale," and Hideyoshi's Kishū campaign of Tenshō 13 (1585) ending in the
+storming and burning of the Negoro-ji — told twice, once through two long
+Shinsho Taikōki set-pieces (the Amano/Unkai and Enkaku/Shima Sakon duels) and
+then flatly denounced by the author: "the truth was no such gorgeous thing. It
+was terror and madness... men turned back into beasts."
+
+### Deliverables shipped
+- `out/ch06_reading.md`: full clean translation, one chapter heading, 423 body
+  paragraphs, ~16,200 words. Two register-exempt Shinsho Taikōki battle-quotes
+  rendered inline as quoted paragraphs (matching ch03/ch05). The correction
+  surface.
+- 9 footnotes in `notes.json` (folio-cited; book total now 183): Kudoyama/Sanada
+  Yukimura/the sequel, Shirakawa's "three things," the Great Pagoda (Daitō,
+  extant National Treasure), the Age of the Latter Law (mappō), the sword-hunt,
+  the historical Kishū campaign, Dainichi Nyorai (cross-ref Fudō), the Water
+  Margin, and the war-tale reciters (kōshaku).
+- Glossary: 3 people (Hidenaga, Yagoemon, Gisuke), 3 places (Kishiwada,
+  Kudoyama, Nagao), 3 terms (the sōhei, the sword-hunt, the Great Pagoda of
+  Negoro / tahōtō). No new principals. Edited via structure-preserving JSON
+  round-trip, NOT apparatus_merge.
+- `figures.json`: `ch06` recorded as a deliberate EMPTY list (text-only chapter;
+  `find_figures.py 361 414` returned nothing).
+- `out/the-stealthy-ones.epub`: cumulative build, 6 of 8 chapters translated.
+
+### Checks run and results
+- Translated from the page images directly (vertical-JP OCR furigana-corrupted,
+  as for ch01-05); OCR a structural aid only. Every proper name, troop number,
+  date, unit and toponym crop-verified where not plain. Crop-verifications
+  recorded: the 鶏冠山 = Mount Tokika reading (reused from ch05); the tax figures
+  on folio 362 (one koku four to yield / six to nengu / bare five to left / two
+  koku eaten / one koku five to short) and that it is Yagoemon's reckoning, not
+  Goemon's; the Sengokubori/Hama/Shakuzen-ji commander roster (folios 386-387);
+  and 葉津子 = Hatsuko (the principal, confirmed against glossary — the woman
+  "false ninja" Moriichirō attacked at Nagakute a year before).
+- `build_reading_epub.py`: OK (6/8 chapters, 183 notes, 48 pagebreaks).
+- `qa_epub.py`: PASS (15 documents, 183 refs / 183 bodies / 183 backlinks all
+  resolve; 48 page-list entries match 48 markers; all links resolve).
+- `epubcheck 5.1.0`: 0 fatals / 0 errors / 0 warnings / 0 infos (store-clean).
+- `check_apparatus.py`: 0 failures, 0 warnings.
+- `check_register.py --ref out/ch01_reading.md`: within tolerance. em-dash
+  1.0/1k (ref 0.3; the surplus is interrupted/trailing DIALOGUE and the two
+  quoted Taikōki set-pieces, not narration appositives — those were converted
+  to commas/colons/periods), sentence median 16 (ref 17), rhythm CV 0.68 (ref
+  0.63). Contractions 20.7/1k run high because the chapter is exceptionally
+  dialogue-heavy (villagers, priests, Goemon, Maki, Kazue all colloquial). The
+  "shall" flag is a 2-token artifact: both are register-exempt (the quoted
+  transmigration monologue and Maeda Gen'i's quoted sword-edict).
+- Tail verification (rule 4 corollary): the final page (folio 411) and the two
+  Taikōki quotes were read directly against the p411-413 images; the closing
+  line ("men turned back into beasts") and both duels match the scan.
+
+### Source inconsistencies / readings noted, NOT harmonized (rendered as printed)
+- The author's round-number arithmetic does not perfectly fit a strict Tenshō
+  13 (1585): the Daitō is "four hundred and fifty-eight years" old since its
+  1129 founding (folio 368; = 1587) and "three hundred and eighty years" old at
+  his 1963 visit (folio 370; = 1583); Iwasakibō's oration gives "four hundred
+  and forty years" since Kakuban (folio 383) and "the hundred-and-seventh
+  Emperor" (Ōgimachi is usually counted the 106th). All rendered as printed;
+  these are the author's approximations, not footnoted (minor tier).
+- The Taikōki's "fifteen thousand" at the forts (folio 399) is corrected by the
+  author himself in the same breath ("half that or less"); rendered as printed.
+- Mount Kōya said to have been "granted by the Emperor Kanmu" (folio 363);
+  history usually credits Emperor Saga's 816 grant to Kūkai. Rendered as printed
+  (minor tier, not footnoted).
+
+### Rendered-as-read (one-off names/places/terms NOT given glossary rows)
+Reuse these spellings if any recur. People: Ōtomo no Kujiko, the Retired
+Emperors Toba/Kanmu/Kazan/Shirakawa, Kujō Kanezane, Minamoto no Yoshitsune,
+Hatakeyama Motokuni & Akitaka, Yusa Kawachi-no-kami Masakata, Maeda Gen'i, Hori
+Kyūtarō Hidemasa, Nagaoka Yoichirō Tadaoki, Gamō Chūsaburō Ujisato, Hasegawa
+Tōgorō Hidekazu, Takayama Ukon-tayū Nagafusa, Iwasakibō, Sugimotobō, Iwamurobō,
+Hyōe-Saburō, Gennojō, Denbei, Genzaburō, the old woman Yoshino, Yamauchi
+Saburō-tayū, Takayanagi Kenmotsu, Takamatsu Tōnai, Suzuki Magoichi, Ten'i
+Hamazaemon, Tsuya Magokurō, Nakamura Magoheiji, the Purple Scale (Murasaki no
+Uroko), Amano Gen'uemon, Unkai, Enkaku, Han'nyo, Rendatsu, Kiichi Hōgen Kenkai,
+Iizasa Chōi, Matsumoto Bizen-no-kami, Kawasumi (Kawasumi Taikōki), Oze Hoan
+(Hoan Taikōki), Yamatoya Tarōbei, Kiino (Maki's late mother). Places: Ōmine/Kii/
+Hatenashi ranges, Kishū Fuji, Wakanoura, the Waka River, Katsuragi, the Gyōja
+Hall, Uenoyama, Kumatori, Sengokubori, Shakuzen-ji, Hama castle, Oyama Pass,
+Ochaya Gotenyama, Kobayashidera-machi, Takaya castle, Ryūmon, Mount Kurama.
+Terms rendered in place: goma (self-glossed), the Yoshitsune torch, kunai/
+tsubokiri/shikoro/tetsubishi/kurogaki, earth-/water-/man-hiding (do-/sui-/jin-
+ton), the art of the changed shape (henshi-jutsu), the collar-slipping method,
+the four-legged practice, the art of the shifting decoy voice, esoteric prayer
+(kaji-kitō), the rite of subjugation (chōbuku), the roban, the central pillar,
+the nyoi hōju wish-jewel, the nine-ringed finial, the Niō, the Burning Hell,
+nyobon, jingasa, abatis (sakamogi), the bamboo palisade.
+
+### NOT re-noted (already placed earlier in the book; cross-referenced)
+En no Gyōja / Ozunu & Shugendō (ch02), Kōbō Daishi & Shingon & Mount Kōya
+(ch01/ch02), Fudō Myōō (ch05 — the Dainichi note cross-refs it), the Ikkō sect
+& Ishiyama Hongan-ji (ch01/ch02), Mount Hiei & Mii-dera (ch01/ch05), the
+matchlock & Tanegashima & Kunitomo (ch05), Negoro-ji & Kokawa-dera & Saiga &
+Kakuban & Tsuda Kazunaga (ch05), the cauldron / Nanzen-ji Goemon legend
+(ch02/ch03), kamari & tenton no jutsu (ch03), the Shinsho Taikōki (ch03), Shima
+Sakon (ch04), the realm of the Asura (ch05), chagayu (ch05), Torii Moriichirō &
+Torii Kihachirō & Ikenaga Kurō Chōa & Yasaka Kinbei & Shibatsuji Seiuemon &
+Etegi (ch05), Hatsuko & Kazue & Goichi & Maki & Saeki Dennai (placed), Nagakute
+& Kishiwada & Ōkusa (ch05), the koku/ri/shaku/sun/chō/tan/tsubo units and the
+hour-names (ch01-04), the nenbutsu (ch01). Prefer cross-referencing these.
