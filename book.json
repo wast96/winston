@@ -3,10 +3,10 @@
 
   "deliverable": "out/owls-castle.epub",
 
-  "title_en": "The Owl's Castle",
+  "title_en": "Owl's Castle",
   "subtitle_en": "A Novel of the Iga Ninja",
   "title_zh": "梟の城",
-  "title_file_as": "Owl's Castle, The",
+  "title_file_as": "Owl's Castle",
   "author_en": "Shiba Ryōtarō",
   "author_zh": "司馬遼太郎",
   "author_file_as": "Shiba, Ryōtarō",
@@ -35,7 +35,7 @@
   "modified": "2026-08-11T00:00:00Z",
 
   "translator_note": [
-    "This is an English translation of <i>梟の城</i> (<i>Fukurō no shiro</i>), Shiba Ryōtarō's first novel, made from an image-only scan of the Shinchō Bunko paperback with no digital text layer. The novel was serialised in 1958&#8211;59, published in book form by Kōdansha in September 1959, and won the 42nd Naoki Prize the following year. There is no prior published English translation of the novel; the title has reached English only through two film adaptations, released as <i>Castle of Owls</i> (1963) and <i>Owls' Castle</i> (1999).",
+    "This is an English translation of <i>梟の城</i> (<i>Fukurō no shiro</i>), Shiba Ryōtarō's first novel, made from an image-only scan of the Shinchō Bunko paperback with no digital text layer. The novel was serialised in 1958&#8211;59, published in book form by Kōdansha in September 1959, and won the 42nd Naoki Prize the following year. There is no prior published English translation of the novel; the title has reached English only through two film adaptations, released as <i>Castle of Owls</i> (1963) and <i>Owls' Castle</i> (1999). The present translation renders the title <i>Owl's Castle</i>.",
     "The source is a vertical, right-to-left text set in the traditional way, with <i>furigana</i> reading-glosses printed beside the harder characters. The page images were recovered by optical character recognition tuned for vertical Japanese, and every proper name, number, and doubtful reading was checked against a magnified crop of the scan before it was translated. The scanned copy is missing the first of the book's two table-of-contents leaves, and its page numbering drifts by a leaf or two in the middle of the book; the section structure was rebuilt from the body itself and each opener's folio read directly off the page.",
     "The apparatus is written for a reader with no Japanese and no background in the country's history. Footnotes supply the historical figures (Hideyoshi, Ishida Mitsunari, Tokugawa Ieyasu), the geography of Iga and Kōga and the capital, and the customs, offices and objects of the late sixteenth century that a Japanese reader would take for granted; the glossary fixes one English rendering per name. Where the scan is damaged or a reading is uncertain, the note says so rather than guessing.",
     "Section titles are the author's own; several are evocative codenames or emblems (<i>Water Dog</i>, <i>Carnage</i>, <i>The Paulownia Crest</i>) rather than plain place-names, and are footnoted where the sense is not obvious in English."
