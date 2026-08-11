@@ -257,6 +257,108 @@
       "pinyin": "Miyoshi Sanninshū",
       "status": "attested",
       "note": "The three Miyoshi captains who contested control of the Kinai after 1564; Matsunaga's war with them burned the Great Buddha."
+    },
+    "今井宗薫": {
+      "en": "Imai Sōkun",
+      "pinyin": "Imai Sōkun",
+      "status": "attested",
+      "note": "Son of Imai Sōkyū; formal name Tatewaki Saemon. A tea master and merchant in his own right."
+    },
+    "宗薫": {
+      "en": "Sōkun",
+      "pinyin": "Sōkun",
+      "status": "attested",
+      "note": "Bare given name of Imai Sōkun."
+    },
+    "惣五郎": {
+      "en": "Sōgorō",
+      "pinyin": "Sōgorō",
+      "status": "decided",
+      "note": "The Sakai loafer (遊び人) from the Daimoku Hall who guides Jūzō to the pleasure quarter; a minor invented character."
+    },
+    "会田源右衛門": {
+      "en": "Aida Gen'emon",
+      "pinyin": "Aida Gen'emon",
+      "status": "decided",
+      "note": "The false name Jūzō gives in Sakai, posing as a gōshi of Kanbara in Echigo."
+    },
+    "武野紹鴎": {
+      "en": "Takeno Jōō",
+      "pinyin": "Takeno Jōō",
+      "status": "attested",
+      "note": "1502–1555; Sakai tea master who shaped the wabi style and taught both Sōkyū and Rikyū."
+    },
+    "納屋宗次": {
+      "en": "Naya Sōji",
+      "pinyin": "Naya Sōji",
+      "status": "attested",
+      "note": "Sakai merchant and tea man whose son-in-law and heir Sōkyū became."
+    },
+    "今井信経": {
+      "en": "Imai Nobutsune",
+      "pinyin": "Imai Nobutsune",
+      "status": "attested",
+      "note": "Sōkyū's claimed grandfather, said to have been lord of Imaichi Castle in Ōmi."
+    },
+    "出羽守宗慶": {
+      "en": "Dewa-no-kami Muneyoshi",
+      "pinyin": "Imai Dewa-no-kami Muneyoshi",
+      "status": "attested",
+      "note": "Sōkyū's claimed father, who drifted from Ōmi into Yamato."
+    },
+    "足利義昭": {
+      "en": "Ashikaga Yoshiaki",
+      "pinyin": "Ashikaga Yoshiaki",
+      "status": "attested",
+      "note": "The fifteenth and last Ashikaga shogun, installed by Nobunaga in 1568."
+    },
+    "藤吉郎": {
+      "en": "Tōkichirō",
+      "pinyin": "Tōkichirō",
+      "status": "attested",
+      "note": "The early name of Toyotomi Hideyoshi, when he was a lieutenant of Nobunaga."
+    },
+    "浅井長政": {
+      "en": "Azai Nagamasa",
+      "pinyin": "Azai Nagamasa",
+      "status": "attested",
+      "note": "Lord of Odani Castle in Ōmi and Nobunaga's brother-in-law, turned enemy; besieged from 1570."
+    },
+    "小西隆佐": {
+      "en": "Konishi Ryūsa",
+      "pinyin": "Konishi Ryūsa",
+      "status": "attested",
+      "note": "Sakai merchant risen from a face-powder shop, favoured by Hideyoshi as Sōkyū's rival; father of Konishi Yukinaga."
+    },
+    "小西行長": {
+      "en": "Konishi Yukinaga",
+      "pinyin": "Konishi Yukinaga",
+      "status": "attested",
+      "note": "Ryūsa's son, made Settsu-no-kami and a daimyō; a great Christian lord, executed after Sekigahara."
+    },
+    "行長": {
+      "en": "Yukinaga",
+      "pinyin": "Yukinaga",
+      "status": "attested",
+      "note": "Bare name of Konishi Yukinaga (given as Yakurō Yukinaga / Settsu-no-kami Yukinaga)."
+    },
+    "鶴松": {
+      "en": "Tsurumatsu",
+      "pinyin": "Tsurumatsu",
+      "status": "attested",
+      "note": "Hideyoshi's infant son, died 1591."
+    },
+    "秀次": {
+      "en": "Hidetsugu",
+      "pinyin": "Hidetsugu",
+      "status": "attested",
+      "note": "Hideyoshi's nephew and adopted heir, made Kampaku in 1591; forced to suicide in 1595."
+    },
+    "千利休": {
+      "en": "Sen no Rikyū",
+      "pinyin": "Sen no Rikyū",
+      "status": "attested",
+      "note": "The supreme tea master; the same man recorded elsewhere under his lay name 千宗易 Sen no Sōeki."
     }
   },
   "places": {
@@ -426,6 +528,108 @@
       "pinyin": "Tamon-in",
       "status": "attested",
       "note": "A cloister of Kōfuku-ji whose diary, the Tamon-in nikki, records the 1567 fire."
+    },
+    "大坂": {
+      "en": "Ōsaka",
+      "pinyin": "Ōsaka",
+      "status": "attested",
+      "note": "Site of Hideyoshi's great castle from 1583; the port to which Sakai's trade was drawn off."
+    },
+    "芥川": {
+      "en": "Akutagawa",
+      "pinyin": "Akutagawa",
+      "status": "attested",
+      "note": "In the Nishinari district of Settsu; site of Nobunaga's field camp on his 1568 march to Kyoto."
+    },
+    "茨木": {
+      "en": "Ibaraki",
+      "pinyin": "Ibaraki",
+      "status": "attested",
+      "note": "Town in Settsu, north-east of Ōsaka."
+    },
+    "小谷城": {
+      "en": "Odani Castle",
+      "pinyin": "Odani-jō",
+      "status": "attested",
+      "note": "Azai Nagamasa's stronghold in northern Ōmi."
+    },
+    "山崎": {
+      "en": "Yamazaki",
+      "pinyin": "Yamazaki",
+      "status": "attested",
+      "note": "In Yamashiro, between Kyoto and Ōsaka; where Hideyoshi defeated Akechi Mitsuhide in 1582."
+    },
+    "大徳寺": {
+      "en": "the Daitoku-ji",
+      "pinyin": "Daitoku-ji",
+      "status": "attested",
+      "note": "The great Rinzai Zen monastery in Murasakino, north Kyoto, closely tied to the tea masters; site of Nobunaga's funeral."
+    },
+    "関ヶ原": {
+      "en": "Sekigahara",
+      "pinyin": "Sekigahara",
+      "status": "attested",
+      "note": "The 1600 battle that founded the Tokugawa shogunate."
+    },
+    "塩飽": {
+      "en": "Shiwaku",
+      "pinyin": "Shiwaku",
+      "status": "attested",
+      "note": "Island group in the Inland Sea, home of noted seafarers."
+    },
+    "小豆島": {
+      "en": "Shōdoshima",
+      "pinyin": "Shōdoshima",
+      "status": "attested",
+      "note": "Large island in the Inland Sea."
+    },
+    "九州": {
+      "en": "Kyūshū",
+      "pinyin": "Kyūshū",
+      "status": "attested",
+      "note": "The southern main island; Hideyoshi's campaign to subdue it fell in 1587."
+    },
+    "河内": {
+      "en": "Kawachi",
+      "pinyin": "Kawachi",
+      "status": "attested",
+      "note": "Province east of Ōsaka."
+    },
+    "越後": {
+      "en": "Echigo",
+      "pinyin": "Echigo",
+      "status": "attested",
+      "note": "Province on the Japan Sea coast; the far-off country of Jūzō's assumed identity."
+    },
+    "泉州": {
+      "en": "Izumi",
+      "pinyin": "Izumi",
+      "status": "attested",
+      "note": "Izumi province (Senshū), in which Sakai lay."
+    },
+    "我孫子村": {
+      "en": "Abiko",
+      "pinyin": "Abiko",
+      "status": "attested",
+      "note": "Village on the outskirts of Sakai, Sōkyū's fief and foundry settlement."
+    },
+    "常楽寺": {
+      "en": "the Jōraku-ji",
+      "pinyin": "Jōraku-ji",
+      "status": "attested",
+      "note": "A temple of Sakai."
+    },
+    "妙国寺": {
+      "en": "the Myōkoku-ji",
+      "pinyin": "Myōkoku-ji",
+      "status": "attested",
+      "note": "A temple of Sakai."
+    },
+    "白毫寺": {
+      "en": "Byakugō-ji",
+      "pinyin": "Byakugō-ji",
+      "status": "attested",
+      "note": "A temple on a hill at the eastern edge of Nara."
     }
   },
   "terms": {
@@ -470,6 +674,66 @@
       "pinyin": "bahan-sen",
       "status": "attested",
       "note": "A wakō pirate-trader."
+    },
+    "法印": {
+      "en": "Hōin",
+      "pinyin": "Hōin",
+      "status": "attested",
+      "note": "“Seal of the Law”, the highest Buddhist priestly rank, also conferred by the court on distinguished laymen."
+    },
+    "法眼": {
+      "en": "Hōgen",
+      "pinyin": "Hōgen",
+      "status": "attested",
+      "note": "“Eye of the Law”, the rank below Hōin, likewise granted to laymen of note."
+    },
+    "大蔵卿": {
+      "en": "Ōkurakyō",
+      "pinyin": "Ōkurakyō",
+      "status": "attested",
+      "note": "Titular Minister of the Treasury; Sōkyū's honorary court office."
+    },
+    "関白": {
+      "en": "the Kampaku",
+      "pinyin": "Kampaku",
+      "status": "attested",
+      "note": "Imperial Regent, Hideyoshi's supreme office of state from 1585."
+    },
+    "松島肩衝": {
+      "en": "the Matsushima",
+      "pinyin": "Matsushima katatsuki",
+      "status": "attested",
+      "note": "A celebrated shouldered tea-caddy; Sōkyū's gift of it to Nobunaga made his fortune."
+    },
+    "天下布武": {
+      "en": "Tenka Fubu",
+      "pinyin": "Tenka Fubu",
+      "status": "attested",
+      "note": "“Cover the realm in arms”, Nobunaga's seal motto from 1567."
+    },
+    "南蛮": {
+      "en": "Nanban",
+      "pinyin": "Nanban",
+      "status": "attested",
+      "note": "“Southern Barbarian”: the Japanese term for Europeans and their goods."
+    },
+    "斤": {
+      "en": "kin",
+      "pinyin": "kin",
+      "status": "attested",
+      "note": "A unit of weight, about 600 grams (a catty)."
+    },
+    "摂津守": {
+      "en": "Settsu-no-kami",
+      "pinyin": "Settsu-no-kami",
+      "status": "attested",
+      "note": "“Governor of Settsu”, a court title; borne here by Konishi Yukinaga."
+    },
+    "北政所": {
+      "en": "the Kita-no-mandokoro",
+      "pinyin": "Kita-no-mandokoro",
+      "status": "attested",
+      "note": "Title of the principal wife of a Regent; here Hideyoshi's wife."
     }
   }
 }

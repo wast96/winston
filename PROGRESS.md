@@ -358,3 +358,115 @@ section directly. Notes and figures merge correctly as-is.
   re-fetched to /tmp/epubcheck-5.1.0. The pre-existing checker-regression FAIL
   (`hook stands down on template stub`) persists and is unrelated to this book
   (our HANDOFF carries a real kickoff, so the Stop hook behaves correctly).
+
+## Batch B03 — ch03 白い法印 / The White Hōin (PDF/printed 90-123, offset 0)
+
+**Status: complete.** 34 pages, 385 source paragraphs, ~6.3k English words, 16
+new footnotes. All checks green (details below). ch01 is the frozen register
+reference; ch03 measured against it and within tolerance (contr 19.4/1k = 1.23x,
+em-dash 15.7/1k, rhythm CV 0.81).
+
+The chapter: Jūzō crosses Tobuhino at dawn (still turning over the courtesan
+Kohagi, whom he spared) and rides on to Sakai. In the pleasure quarter he lets a
+Sakai loafer, Sōgorō, lead him to a house, where Kohagi reappears in disguise as
+a hostess — a second, deliberate contact. That night Jūzō breaks into Imai
+Sōkyū's mansion. The long central set-piece is Sōkyū's biography (his rise as
+the arms-merchant who bankrolled Nobunaga's and then Hideyoshi's guns, from the
+Matsushima-caddy audience of 1568 to his eclipse by the Konishi under Hideyoshi)
+and the tea-room confrontation in which the reason for the commission is drawn
+out: Hideyoshi's planned invasion of Korea will strangle Sōkyū's China trade, so
+the merchant wants him dead. Sōkyū appoints Kohagi — revealed as his adopted
+daughter, born a princess of a fallen house — as Jūzō's contact and paymaster.
+Jūzō leaves for the capital, aching for Kohagi against his own creed.
+
+### Tail verified against the scan (rule 4)
+The chapter's final sentence runs OFF folio 123 and completes on the first line
+of folio 124 (「…小萩の肉体への思慕がうずいているのを覚えた。」), just above the
+ch04 title. Folio 124 was rendered and read to recover the true continuation; the
+final paragraph is faithful to it (no invented bridging text).
+
+### Checks run (all green)
+- **Parity:** 385 | 385 (`check_structure --pairs`, `verify_unit`).
+- **Numbers:** `check_numbers` 0 unresolved over 385 pairs (with `data/noise.txt`).
+  New noise entries (proper-noun numerals / idioms, all with the English form they
+  carry): 惣五郎 Sōgorō (5), 千利休 Sen no Rikyū (1000), 九州 Kyūshū (9), 三宅
+  Miyake (3), 巨万 "colossal" (万), 五体 "frame" (5), 四肢 "limbs" (4). Two real
+  koku amounts (千二百 = 1,200; 二千二百 = 2,200) noised because the parser composes
+  千+百 on the source side but not the English "one/two thousand two hundred"; the
+  English carries the full value (same limitation the 一万二千 entry documents).
+- **Entities:** `qc_entities` 0 misses (census 重蔵×90, 秀吉×22, 信長×21, 小萩×18,
+  法印×13, 惣五郎×10, …). `check_content` OK across all units (220 ch03 name
+  occurrences, all in the paired paragraph).
+- **Alignment:** `check_align` median ratio 9.65; the outliers flagged are all
+  short dialogue lines (max source line 27 chars) — benign ratio inflation, no
+  displaced content.
+- **Apparatus:** `check_apparatus` 0 failures / 0 warnings; 16 note anchors all
+  resolve. `build_reading_epub` PASS; `qa_epub` PASS (39 refs / 39 bodies / 39
+  backlinks, 49 pagebreaks); **epubcheck 0 fatals / 0 errors / 0 warnings**.
+
+### Footnotes — NOT re-noted (already placed in ch01–ch02; cross-referenced)
+Iga/Kōga, rappa/shinobi, jizamurai/gōshi, Tenshō/Eiroku dating, the zodiac
+double-hours, koku/kin(new)/chō/ri/ken/shaku, the Iga Rebellion, Honnō-ji, Mount
+Hiei, Hideyoshi, Nobunaga, Ieyasu, the Sakai tea-masters/Rikyū, Tsuda Sōgyū, the
+ruined Nara Great Buddha (Tōdai-ji, burned by Matsunaga 1567), Aizen Myō-ō, the
+bahan/wakō ships and Luzon. Imai Sōkyū already appears in ch01–ch02; ch03 adds one
+crisp identity note at his first ch03 mention (dates, the three-tea-masters
+grouping) rather than re-noting the general tea-master row.
+
+### Footnotes — new this batch (16, ch03's own first-appearances)
+The fox / fourth-hour joke; Sakai as a self-governing merchant free-city (moats
+filled 1583); Imai Sōkyū (identity/dates); **法印 Hōin / 法眼 Hōgen / 大蔵卿**
+(the chapter-title rank, granted to laymen); **関白 Kampaku**; Takeno Jōō; the
+Matsushima caddy and the meibutsu tea-utensil cult; Nobunaga's 1568 Kyoto entry /
+Ashikaga Yoshiaki; Tenka Fubu; the *kin* (catty); the Hōkō-ji Great Buddha
+(Hideyoshi's, distinct from the Nara one); Sekigahara (forward reference, fixes
+the "now" at 1591); the Kita-no-mandokoro; Hideyoshi's Korea invasion (the plot's
+engine); Tsurumatsu's death / Hidetsugu; Nanban iron.
+
+### Minor source point left unfootnoted (the low-stakes tier)
+Folio 105 credits Nobunaga in 1568 with having "just pacified this Suruga and
+Mino"; in fact his base provinces were Owari and Mino, not Suruga. Rendered as
+printed (fidelity), and the discrepancy is named inside the Yoshiaki/1568 note
+rather than given its own note.
+
+### Renderings — reused unchanged (consulted before romanizing)
+Tsuzura Jūzō / 重蔵 Jūzō, Shimotsuge Jirōzaemon, Kohagi, Imai Sōkyū, Oda
+Nobunaga / 信長, Toyotomi Hideyoshi / 秀吉, Tokugawa Ieyasu / 家康, Sen no Sōeki
+(= Rikyū), Tsuda Sōgyū, Matsukura Kurando, Iga, Kōga, Sakai, Nara, the Honnō-ji,
+Tōdai-ji, Tobuhino, Kai, Mikawa, Suruga, Mino, Ōmi, Yamato, Yamashiro, Luzon,
+rappa, Tenshō, Eiroku, koku/chō/ri/ken/shaku.
+
+### Renderings — added this batch (glossary.json; 44 rows)
+People (17): Imai Sōkun (今井宗薫) / Sōkun (宗薫), Sōgorō (惣五郎), Aida Gen'emon
+(会田源右衛門, Jūzō's alias), Takeno Jōō (武野紹鴎), Naya Sōji (納屋宗次), Imai
+Nobutsune (今井信経), Dewa-no-kami Muneyoshi (出羽守宗慶), Ashikaga Yoshiaki
+(足利義昭), Tōkichirō (藤吉郎), Azai Nagamasa (浅井長政), Konishi Ryūsa (小西隆佐),
+Konishi Yukinaga (小西行長) / Yukinaga (行長), Tsurumatsu (鶴松), Hidetsugu (秀次),
+Sen no Rikyū (千利休, = 千宗易). Places (17): Ōsaka, Akutagawa, Ibaraki, Odani
+Castle, Yamazaki, the Daitoku-ji, Sekigahara, Shiwaku, Shōdoshima, Kyūshū,
+Kawachi, Echigo, Izumi, Abiko, the Jōraku-ji, the Myōkoku-ji, Byakugō-ji. Terms
+(10): Hōin (法印), Hōgen (法眼), Ōkurakyō (大蔵卿), the Kampaku (関白), the
+Matsushima (松島肩衝), Tenka Fubu (天下布武), Nanban (南蛮), kin (斤),
+Settsu-no-kami (摂津守), the Kita-no-mandokoro (北政所). All merged via
+`apparatus_merge.py`, then moved from the file root into people/places/terms
+with a one-off byte-preserving script (no stray root keys; content/entity clean).
+
+### Voice sheets — updates
+- **Imai Sōkyū (今井宗久):** the White Hōin. A frail, tiny old man with a large,
+  childlike face; heavy-lidded, near-motionless, urbane. Cold irony under perfect
+  composure; a war-profiteer's pride (he believes he MADE Nobunaga and Hideyoshi
+  — his "one patch of darkness") and a merchant's hatred of the low-born Kampaku
+  who displaced him. Speaks in a cultivated, faintly archaic register (じゃ,
+  くるる, 拝し奉る); a single 小心 (timid) streak shows when Jūzō names the plot.
+- **Kohagi (小萩):** deepened. Revealed as Sōkyū's adopted daughter, born a
+  princess of a fallen noble house, now his agent and Jūzō's appointed contact.
+  Cool, unbreakable poise; a smoky half-smile that never gives way; needles Jūzō
+  and sees straight through him. Offers herself as "a courtesan"; Jūzō is drawn
+  and angry at himself for it.
+- **Sōgorō (惣五郎):** the Sakai loafer. Coarse, cocky townsman-swagger; treats a
+  country samurai as beneath a day-laborer, brags of the merchants' court ranks,
+  a weak head for drink. A one-scene comic guide.
+
+### No figures
+`find_figures.py 90 123` returned nothing; every page eyeballed for line art —
+ch03 is text-only (as ch01–ch02). Recorded as a deliberate empty figure list.

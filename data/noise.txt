@@ -79,3 +79,22 @@
 三人衆
 # 千手堂 = Senju-dō (Hall of the Thousand-Armed Kannon): the 千 is the hall's name — rendered "Senju-dō"
 千手堂
+# --- Owl's Castle (ch03) Japanese entries ---
+# Sōgorō (惣五郎), the Sakai loafer: the 五 is the name, not the count 5 — rendered "Sōgorō"
+惣五郎
+# Sen no Rikyū (千利休): the 千 is the surname Sen — rendered "Sen no Rikyū"
+千利休
+# 九州 = Kyūshū: the 九 is the place name, not the count 9 — rendered "Kyūshū"
+九州
+# 巨万 = a colossal sum (idiom); the 万 is not a real count of 10,000 — rendered "colossal / vast"
+巨万
+# 五体 = the whole body ("five members"), an idiom — rendered "frame / body"
+五体
+# 四肢 = the limbs ("four limbs"), an idiom — rendered "limbs"
+四肢
+# 三宅 = Miyake (a Sakai merchant house): the 三 is the surname — rendered "Miyake"
+三宅
+# 二千二百(石) = 2,200 koku; parser composes 千+百 on the source side but not the English "two thousand two hundred" — value carried in the English. Longest first (before 千二百).
+二千二百
+# 千二百(石) = 1,200 koku; same parser limitation — carried "one thousand two hundred"
+千二百
