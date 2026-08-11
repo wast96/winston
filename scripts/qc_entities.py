@@ -46,9 +46,15 @@ def main(path, gloss_path="glossary.json"):
     totals = {}
     for i, (src, tgt) in enumerate(pairs(path), 1):
         low = tgt.lower()
+        present = [f for f in flat if f in src]
         for form, rec in flat.items():
             hits = src.count(form)
             if not hits:
+                continue
+            # Skip a form subsumed by a longer present key at the same span:
+            # 山城 (Yamashiro) inside 丸山城 (Maruyama Castle) is not a
+            # Yamashiro mention. Longest-key-wins kills this collision class.
+            if any(o != form and form in o for o in present):
                 continue
             totals[form] = totals.get(form, 0) + hits
             en_ok = rec["en"].lower() in low

@@ -57,7 +57,13 @@ def name_map(path):
     if not os.path.exists(path):
         return out
     for _cat, entries in json.load(open(path)).items():
+        # Sections are dicts; keys like "_about" carry documentation strings
+        # and are ignored (same convention qc_entities and the builder follow).
+        if not isinstance(entries, dict):
+            continue
         for zh, e in entries.items():
+            if zh.startswith("_") or not isinstance(e, dict):
+                continue
             en = e.get("en", "")
             if zh in AUTHOR:
                 continue
@@ -108,7 +114,14 @@ def main():
         occurrences = 0
         misses = []
         for i, (z, e) in enumerate(zip(src, tgt)):
-            want = {en for zh, en in names.items() if zh in z}
+            matched = [zh for zh in names if zh in z]
+            # Drop a key subsumed by a longer matched key at the same span:
+            # 山城 (Yamashiro) inside 丸山城 (Maruyama Castle) is not a
+            # Yamashiro mention. Longest-key-wins kills this collision class.
+            matched = [zh for zh in matched
+                       if not any(o != zh and zh in o and o in z
+                                  for o in matched)]
+            want = {names[zh] for zh in matched}
             occurrences += len(want)
             gone = sorted(n for n in want if n not in e)
             if gone:

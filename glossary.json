@@ -1,15 +1,72 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
+  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Japanese names in Hepburn with macrons; conventional English forms for well-known figures (Nobunaga, Hideyoshi, Ieyasu). status per entry: 'attested' (form used in English scholarship), 'provisional' (romanization mine, not found outside), 'decided' (a project style call). The 'pinyin' field holds the romaji reading. Principal cast carry principal:true with a cast one-liner and cast_order.",
+
   "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
+
+  "people": {
+    "葛籠重蔵": {"en": "Tsuzura Jūzō", "pinyin": "Tsuzura Jūzō", "status": "decided", "principal": true, "cast": "The Iga ninja whose family was slaughtered in Nobunaga's invasion; hired for one last impossible commission, the assassination of Hideyoshi.", "cast_order": 1, "note": "葛籠 is glossed つづら (Tsuzura) in the text; given name 重蔵 Jūzō. Referred to in narration as 重蔵."},
+    "重蔵": {"en": "Jūzō", "pinyin": "Jūzō", "status": "decided", "note": "Bare given name of Tsuzura Jūzō, used throughout the narration."},
+    "風間五平": {"en": "Kazama Gohei", "pinyin": "Kazama Gohei", "status": "decided", "principal": true, "cast": "Jūzō's fellow disciple under Jirōzaemon, beautiful and detached; abandoned the shadow arts to climb in the new order, and is set against Jūzō.", "cast_order": 2, "note": "風間 glossed かざま (Kazama); 五平 Gohei."},
+    "五平": {"en": "Gohei", "pinyin": "Gohei", "status": "decided", "note": "Bare given name of Kazama Gohei."},
+    "下柘植次郎左衛門": {"en": "Shimotsuge Jirōzaemon", "pinyin": "Shimotsuge Jirōzaemon", "status": "decided", "principal": true, "cast": "The disfigured old master of Iga, a former ninja captain who harried Nobunaga's armies in the Iga Rebellion; Kisaru's father, and teacher of both Jūzō and Gohei.", "cast_order": 3, "note": "下柘植 glossed しもつげ (Shimotsuge). In the opening he is 老人, 'the old man'."},
+    "次郎左衛門": {"en": "Jirōzaemon", "pinyin": "Jirōzaemon", "status": "decided", "note": "Bare name of Shimotsuge Jirōzaemon in narration; also styled 'the old man' / 'the Master' where the source uses 老人 / お師匠."},
+    "木猿": {"en": "Kisaru", "pinyin": "Kisaru", "status": "decided", "principal": true, "cast": "Jirōzaemon's fierce, unreadable daughter, betrothed to Gohei; she means to learn Gohei's fate herself.", "cast_order": 4, "note": "Written 木さる in the ch04 title; 木猿 here. Her father wishes she had been a son."},
+    "黒阿弥": {"en": "Kuroami", "pinyin": "Kuroami", "status": "decided", "principal": true, "cast": "Jūzō's aged genin, under five shaku tall with a face like a boy's, who has served the Tsuzura since Jūzō's father's day.", "cast_order": 5, "note": "Full form 佐那具ノ黒阿弥, Sanagu-no-Kuroami."},
+    "織田信長": {"en": "Oda Nobunaga", "pinyin": "Oda Nobunaga", "status": "attested", "note": "The warlord whose 1581 invasion destroyed Iga; killed at the Honnō-ji in 1582."},
+    "信長": {"en": "Nobunaga", "pinyin": "Nobunaga", "status": "attested"},
+    "豊臣秀吉": {"en": "Toyotomi Hideyoshi", "pinyin": "Toyotomi Hideyoshi", "status": "attested", "note": "Ruler of Japan by 1591; the assassination target of the novel."},
+    "秀吉": {"en": "Hideyoshi", "pinyin": "Hideyoshi", "status": "attested"},
+    "羽柴秀吉": {"en": "Hashiba Hideyoshi", "pinyin": "Hashiba Hideyoshi", "status": "attested", "note": "Hideyoshi's name during Nobunaga's campaigns."},
+    "家康": {"en": "Ieyasu", "pinyin": "Tokugawa Ieyasu", "status": "attested", "note": "Tokugawa Ieyasu; crossed Iga in 1582 fleeing the Honnō-ji Incident."},
+    "惟任日向守光秀": {"en": "Koretō Hyūga-no-kami Mitsuhide", "pinyin": "Koretō Hyūga-no-kami Mitsuhide", "status": "attested", "note": "Akechi Mitsuhide, who killed Nobunaga at the Honnō-ji; here under the name and court title Nobunaga had granted him."},
+    "明智光秀": {"en": "Akechi Mitsuhide", "pinyin": "Akechi Mitsuhide", "status": "attested"},
+    "丹羽長秀": {"en": "Niwa Nagahide", "pinyin": "Niwa Nagahide", "status": "attested", "note": "Oda commander on the Yamashiro road in the 1581 invasion; his HQ at Ōyado is the target of the fire-raid."},
+    "長秀": {"en": "Nagahide", "pinyin": "Nagahide", "status": "attested"},
+    "滝川一益": {"en": "Takigawa Kazumasu", "pinyin": "Takigawa Kazumasu", "status": "attested"},
+    "滝川勝雄": {"en": "Takigawa Katsuo", "pinyin": "Takigawa Katsuo", "status": "provisional", "note": "Commander of Maruyama Castle in the novel; reading of 勝雄 not independently confirmed."},
+    "蒲生賢秀": {"en": "Gamō Katahide", "pinyin": "Gamō Katahide", "status": "attested"},
+    "浅野長政": {"en": "Asano Nagamasa", "pinyin": "Asano Nagamasa", "status": "attested"},
+    "筒井順慶": {"en": "Tsutsui Junkei", "pinyin": "Tsutsui Junkei", "status": "attested"},
+    "信雄": {"en": "Nobukatsu", "pinyin": "Oda Nobukatsu", "status": "attested", "note": "Oda Nobunaga's son, adopted into the Kitabatake house of Ise; led the failed first Iga campaign."},
+    "柴田勝家": {"en": "Shibata Katsuie", "pinyin": "Shibata Katsuie", "status": "attested"},
+    "柘植清広": {"en": "Tsuge Kiyohiro", "pinyin": "Tsuge Kiyohiro", "status": "provisional", "note": "Also 柘植太郎清広. Named leader of the Iga league in the novel."},
+    "百地新之丞": {"en": "Momochi Shinnojō", "pinyin": "Momochi Shinnojō", "status": "provisional", "note": "An Iga gōshi of Tatsunokuchi, of the Momochi band."},
+    "楯岡ノ道順": {"en": "Tateoka-no-Dōjun", "pinyin": "Tateoka-no-Dōjun", "status": "attested", "note": "Legendary Iga jōnin (a.k.a. Momochi Sandayū); commander of the hundred-man shinobi corps."},
+    "葛籠太郎兵衛": {"en": "Tsuzura Tarōbei", "pinyin": "Tsuzura Tarōbei", "status": "provisional", "note": "Jūzō's ailing father, killed in the invasion."},
+    "今井宗久": {"en": "Imai Sōkyū", "pinyin": "Imai Sōkyū", "status": "attested", "note": "Sakai merchant and tea master high in Hideyoshi's favor; the secret paymaster of the plot."},
+    "津田宗及": {"en": "Tsuda Sōgyū", "pinyin": "Tsuda Sōgyū", "status": "attested"},
+    "千宗易": {"en": "Sen no Sōeki", "pinyin": "Sen no Sōeki", "status": "attested", "note": "Sen no Rikyū, the great tea master; here under his lay name Sōeki."},
+    "音羽ノ城戸": {"en": "Otowa-no-Kido", "pinyin": "Otowa-no-Kido", "status": "attested", "note": "Iga genin; historically the marksman who ambushed Nobunaga at the Aekuni Shrine."},
+    "義経": {"en": "Yoshitsune", "pinyin": "Minamoto no Yoshitsune", "status": "attested"}
+  },
+
+  "places": {
+    "伊賀": {"en": "Iga", "pinyin": "Iga", "status": "attested", "note": "The 'hidden country', home province of the ninja."},
+    "甲賀": {"en": "Kōga", "pinyin": "Kōga", "status": "attested", "note": "The neighbouring ninja district in Ōmi."},
+    "山城": {"en": "Yamashiro", "pinyin": "Yamashiro", "status": "attested"},
+    "近江": {"en": "Ōmi", "pinyin": "Ōmi", "status": "attested"},
+    "大和": {"en": "Yamato", "pinyin": "Yamato", "status": "attested"},
+    "伊勢": {"en": "Ise", "pinyin": "Ise", "status": "attested"},
+    "美濃": {"en": "Mino", "pinyin": "Mino", "status": "attested"},
+    "御斎峠": {"en": "Otogi Pass", "pinyin": "Otogi-tōge", "status": "decided", "note": "御斎峠 (usually Otodo-tōge) is glossed おとぎとうげ in the text, matching the chapter title おとぎ峠; site of Jūzō's grandfather's hermitage."},
+    "笠置": {"en": "Kasagi", "pinyin": "Kasagi", "status": "attested"},
+    "名張": {"en": "Nabari", "pinyin": "Nabari", "status": "attested"},
+    "竜口": {"en": "Tatsunokuchi", "pinyin": "Tatsunokuchi", "status": "provisional"},
+    "大屋戸": {"en": "Ōyado", "pinyin": "Ōyado", "status": "provisional", "note": "Crossroads hamlet north of Kashiwara; Niwa Nagahide's HQ in 1581."},
+    "柏原": {"en": "Kashiwara", "pinyin": "Kashiwara", "status": "provisional", "note": "Site of the Iga gōshi's last-stand fort in 1581."},
+    "堺": {"en": "Sakai", "pinyin": "Sakai", "status": "attested", "note": "The merchant port; home of Imai Sōkyū."},
+    "本能寺": {"en": "the Honnō-ji", "pinyin": "Honnō-ji", "status": "attested"},
+    "敢国神社": {"en": "the Aekuni Shrine", "pinyin": "Aekuni-jinja", "status": "attested", "note": "The ichinomiya (first shrine) of Iga province."},
+    "俱留尊山": {"en": "Mount Kurusu", "pinyin": "Kurusu-san", "status": "provisional"},
+    "琵琶湖": {"en": "Lake Biwa", "pinyin": "Biwa-ko", "status": "attested"},
+    "壇ノ浦": {"en": "Dan-no-ura", "pinyin": "Dan-no-ura", "status": "attested"},
+    "丸山城": {"en": "Maruyama Castle", "pinyin": "Maruyama-jō", "status": "provisional"}
+  },
+
   "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
-      "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
-    }
+    "乱波": {"en": "rappa", "pinyin": "rappa", "status": "attested", "note": "A Kantō term for a shinobi/spy; used interchangeably with 忍び in the text."},
+    "伊賀ノ乱": {"en": "the Iga Rebellion", "pinyin": "Iga-no-ran", "status": "decided", "note": "The Tenshō Iga War; Nobunaga's 1581 invasion (Tenshō 9)."},
+    "天正": {"en": "Tenshō", "pinyin": "Tenshō", "status": "attested", "note": "Era name, 1573-1592. Tenshō 9 = 1581; Tenshō 10 = 1582; Tenshō 19 = 1591."},
+    "当薬": {"en": "tōyaku", "pinyin": "tōyaku", "status": "attested", "note": "The dried herb Swertia japonica, a bitter folk stomach remedy."}
   }
 }

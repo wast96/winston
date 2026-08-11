@@ -35,3 +35,35 @@
 # 九龍
 # weekdays carry no quantity — rendered "Monday" etc.
 # 星期[一二三四五六]
+
+# --- Owl's Castle (ch01+) Japanese entries ---
+# Kazama Gohei (風間五平): the 五 is the name, not the count 5 — rendered "Gohei"
+五平
+# Momochi (百地), an Iga ninja house: the 百 is the name — rendered "Momochi"
+百地
+# Sen no Sōeki / Rikyū (千宗易): the 千 is the surname Sen — rendered "Sen no Sōeki"
+千宗易
+# 五、六十戸 = "fifty or sixty houses"; the 五 elides 五十 (50) — carried "fifty or sixty"
+五、六十
+# 八〇 = 80 written with the ideographic zero 〇 (unparsed) — carried "eighty"
+八〇
+# 一万二千 = 12,000 (Oda army); parser cannot compose teen+thousand — carried "twelve thousand"
+一万二千
+# 幾千億 = "countless" hyperbole (hundreds of millions) — carried "untold hundreds of millions"
+幾千億
+# 百年松 = an ancient pine; 百年 is idiomatic "century-old" — carried "hundred-year pine"
+百年松
+# 十数 = "ten-odd / a dozen and more" (approximate) — carried "a dozen ... and more"
+十数
+# 四半刻 = a quarter of a toki (~30 min); 四半 = one quarter — carried "a quarter of an hour"
+四半刻
+# 四散 = to scatter in all directions (idiom) — carried "scattered to the winds"
+四散
+# 四囲 = all around, on every side (idiom) — carried "ringed / on every side"
+四囲
+# 三脚 = a three-legged stand — carried "tripod"
+三脚
+# 三河 = Mikawa (Ieyasu's home province): the 三 is the place name — rendered "Mikawa"
+三河
+# 零細 = tiny/petty (idiom): the 零 is not the count 0 — rendered "petty"
+零細

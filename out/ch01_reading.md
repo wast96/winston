@@ -266,7 +266,7 @@ A hundred of them, the ablest in fire-craft and stratagem, were picked out and, 
 
 Jirōzaemon, Jūzō, and Kazama Gohei among them had the command of these genin.
 
-And the man who commanded the hundred ninja was Tateoka-no-Dōjun.
+And the man who commanded the one hundred ninja was Tateoka-no-Dōjun.
 
 In all likelihood this was the first time in history, and the last, that ninja fought on such a scale not for hire but for their own defense.
 
@@ -290,7 +290,7 @@ It was the shinobi corps.
 
 As the moon went down, from all four quarters of the besieging army something like a black miasma rose over the grass.
 
-The hundred shinobi, in their twenty squads, from the rear gate, from the wicket-gates, from the shadow of the towers, were drawn as though sucked into the castle.
+The one hundred shinobi, in their twenty squads, from the rear gate, from the wicket-gates, from the shadow of the towers, were drawn as though sucked into the castle.
 
 "Kuroami."
 
@@ -344,7 +344,7 @@ Without this, the words with which he ordered his subordinate corps, in the thir
 
 It was the same turn of phrase he had used when he butchered the monks of Mount Hiei. This was no mere order to take the field; it might better be called an order of extermination.
 
-The forces mustered from Ise, Yamato, Mino, Ōmi, and elsewhere came to more than twelve thousand. The Iga men numbered a bare thousand-odd.
+The forces mustered from Ise, Yamato, Mino, Ōmi, and elsewhere came to more than twelve thousand. The Iga men numbered just over a thousand.
 
 Against that meager force he chose seasoned commanders.
 
@@ -392,7 +392,7 @@ The gōshi brushed off Jirōzaemon's clutching hand and, with a put-upon look, s
 
 As the man folded and slumped against him, Jirōzaemon propped him up with an air of annoyance. A stray ball seemed to have punched from the back of his skull down through the neck below the jaw, and blood was spilling out all around.
 
-He flung the still-warm corpse to the ground and ran off through the dark toward the hall.
+Jirōzaemon flung the still-warm corpse to the ground and ran off through the dark toward the hall.
 
 The hall stood in the shadow of a great camphor. A double palisade ringed it; before the palisade an abatis bit into the ground; and before that a moat, brimming with water, that on this night at the full flush of spring gave back a keen, clear, star-crowded sky.
 
@@ -502,7 +502,7 @@ Shimotsuge Jirōzaemon waved a hand, irritable, as though to brush away the stra
 
 "That is discourteous, Master. I learned the shinobi arts from you, but I am not your genin. The Tsuzura are samurai of the Taira line, and no mean ones. In this place I have every right to sit in the councils of Iga. And that house of Tsuzura, too—"
 
-His voice trailed off. His face did not move, his lips stayed closed; only his two great eyes quietly filled, and soon soaked his cheeks with tears.
+Jūzō's voice trailed off. His face did not move, his lips stayed closed; only his two great eyes quietly filled, and soon soaked his cheeks with tears.
 
 Jirōzaemon, watching with a glare that seemed to rake him from below, said:
 
@@ -579,3 +579,465 @@ It was Kazama Gohei who swiftly stripped the fallen man's armor and put it on. W
 "Jūzō. The Master hasn't come. Nor has the rain. With watch-fires all over the ground like this, there's no way to move."
 
 "..."
+
+"Jūzō. The Master is a man full of guile. He can't mean to leave this dangerous work to us alone and slip off himself in the scattering?"
+
+In the darkness beneath a brazier a dozen ken off, something stirred faintly, and a voice like the chirr of insects reached Gohei's ear where it was pressed to the ground.
+
+"However full of guile the Master is as a ninja, he'll never betray his own. He knows that to betray them is to destroy himself."
+
+"Quiet. Wait for the moment."
+
+In Jūzō's voice, too—though in a different sense than Kazama Gohei's—there was, past denying, a note of grievance against their master, Shimotsuge Jirōzaemon.
+
+An Iga ninja, as a rule, kept his art from outsiders and passed it down only to his own son, or to that son's servants.
+
+When a father was no fine practitioner himself, he would, on rare occasions, place his son with a fellow ninja. It was for that reason that both Jūzō and Gohei had been placed with Jirōzaemon, the gōshi of Shimotsuge; and Jirōzaemon had not been especially pleased to take them.
+
+There was reason in it. For a ninja to hone his art and teach it to his son and his servants was no pastime. It was by answering the demand of the provinces—sending out skilled men and taking their pay—that they clothed and fed themselves.
+
+Disciples who came from families of equal standing were of no use to him: however well he trained them, he could not hand them over to an employer and collect a fee. 
+
+Only, in Jirōzaemon's case, the difference was drawn too plainly. Having pocketed the single paddy-field of their tuition, he left them almost wholly alone, scarcely taking them in hand at all.
+
+Left to themselves, they learned from Jirōzaemon's genin. The genin, when their bodies were not in demand, worked their master's fields; and by lending a hand at that work and winning the genin's goodwill, the boys were taught the secret arts—body-technique, fire-craft, the art of illusion, the shinobi's tools—and for the rest they trained alone in the hills.
+
+Of Jirōzaemon's coldness they had carried a pent-up resentment since boyhood.
+
+One afternoon after they had grown, Jirōzaemon sat at his reading. On the paper screen the shadow of a plum branch stretched out, and heat-shimmer wavered over it as though to boil the branch.
+
+All at once the white of the book's page dimmed. Then it brightened again. In the same instant Jirōzaemon, still seated, took up the bow-staff at his side and struck the screen open.
+
+Through the gap of the opened screen a white pair of butterflies came dancing in. There had been no one outside; but at the sight of them at play in the room, light came into Jirōzaemon's eyes for the first time.
+
+The bow-staff clove the air, and one butterfly dropped. It flapped on the matting, scattering white powder, writhing.
+
+"Only a butterfly, then."
+
+It was not one of the paper ones a ninja uses to dazzle and confound. Smiling wryly at his own fancy, he was turning back to his reading when—
+
+"Ah—"
+
+From the reading-stand, the book had vanished.
+
+"Master."
+
+In a corner of the room, slipped in who knew when, Kazama Gohei knelt, trim and correct.
+
+"By the common rule of a fighting-art, this would be the moment for a seal of mastery. From today I take my leave of you."
+
+"Gohei. Why, you—!"
+
+Jirōzaemon moved swiftly to snatch up his bow-staff, but his fingers closed on air. In that instant a voice welled up from another corner of the room:
+
+"The bow-staff. Here."
+
+Jūzō stood holding the staff.
+
+"Ho. There, is it."
+
+A sudden change came over Jirōzaemon. A crafty old smile rose to his cheeks, and he narrowed his eyes as if to test the air of the room. He had understood this was no ordinary thing. But that look, too, lasted only an instant.
+
+Presently he opened a mouth like a tiger's and roared with laughter.
+
+"Ahahaha. When did you become such ninja as this? And with a brilliance beyond compare. Gohei—who taught you?"
+
+"I stole it."
+
+"Stole it? Just so—I never took you in hand. That was my own blindness. Had I seen you had this much in you, I'd have put more of myself into the schooling. There'll be no ninja left in Iga to surpass the two of you now. Congratulations. Go home to your village."
+
+These last words were heard in mid-air. All at once Jirōzaemon had sprung and slashed down at Gohei. But Gohei was no longer there. On the lattice of the screen where the butterflies had come dancing in a moment before, blood was dripping.
+
+"Master."
+
+Jūzō, moving slowly along the wall, said:
+
+"A cruel man you are."
+
+"Hmf."
+
+Jirōzaemon wore a smile rare in him for having no calculation in it.
+
+"You'll not understand it. This was meant for the finest of parting-gifts. The instant I thought—they have outstripped their master—love and hatred came over me at once. And if that is so, there could be no better seal of mastery than this."
+
+"Why do you not cut me down?"
+
+"A foolish question."
+
+Stepping out to the veranda, slipping his feet into his sandals, Jirōzaemon said:
+
+"If I cut at you, you would draw. Unlike Gohei—that is your temper. And if you drew, it is I who would be cut down. In that corner you stood on guard, while Gohei sat. A seated man is no trouble to kill. You look for which in a place is the weaker: that is how the shinobi mind works."
+
+It was Shimotsuge Jirōzaemon who had proposed picking out the surviving ninja of the Kashiwara fort, striking at the six headquarters of the besiegers, and, with luck, taking a general's head.
+
+He himself volunteered for the attack on Niwa Nagahide, whose camp faced the fort, and put three men under his own command—Kazama Gohei, Tsuzura Jūzō, and Jūzō's genin, Sanagu-no-Kuroami. It was Jirōzaemon, too, who had fixed the very hour of their rendezvous, in the shallows of the Nabari River before Niwa's headquarters.
+
+But when the hour came at which he had so confidently predicted a cold rain, no rain fell—and he himself did not appear.
+
+A star streamed across the sky. It clove the heavens and went out beyond Mount Kurusu, which stained the far northern dark.
+
+Following its track, another star fell.
+
+From among the reed-roots of the Nabari, Kazama Gohei watched the sky; and after the star was gone, the small scrap of heaven where it had hung cast its shadow into his eyes.
+
+That hollow printed its own shape and dark color straight upon his heart, and made him feel, all at once, the emptiness of the labor of human living.
+
+"That I am here now, like this—"
+
+A wind passed through the reed-thicket with a quiet rustle of leaves; and that wind set a faint, secret whisper of going on living murmuring in the hollow that had opened within this man.
+
+"—to the life I go on living, what meaning can there be?"
+
+Since the first dawn of the world, untold hundreds of millions of men have lived, and gone on asking it; and now that same doubt lit a dark little lamp in the heart of the ninja crouched among the reeds.
+
+"For what am I alive?"
+
+"If it is to make some pleasure for myself—"
+
+Gohei asked himself the question.
+
+"If it is Heaven's will that a man be made to chase after pleasure, then I have fallen into the heresy of life."
+
+A ninja, Gohei thought, was—a man who of his own will sealed off the faculty for pleasure that is given to everyone, who denied it, who scourged his own flesh, and at the far end of that self-torture set himself to lick up a dank sport of the spirit, the lonely rapture that belongs to the shinobi alone. He was not unlike some heretic ascetic monk.
+
+"And at the end of that penance—"
+
+what was there? A pittance, no more: enough, at best, to buy a little millet to eat.
+
+"And even so—"
+
+Gohei gazed at the teeming watch-fires of the enemy camp before him.
+
+"And this work before us, that these heretics of life are bent on doing—it earns you not so much as one grain of millet. …The laughable absurdity of it."
+
+To bare your own throat under a hair's breadth of the enemy's blade, and take from it in the end only a self-solace like sour wine, in your own craft. Most ninja let neither god nor Buddha lodge in their spirit. They lived in that solace alone, and died in a rapture that smelled of the body's fluids, wrought by the wounding of their own flesh.
+
+"But I, only I, will not live so. What is wrong in a ninja seeking the pleasures of the human world?"
+
+It was not, of course, that Kazama Gohei came just then to any firm resolve in those exact words. When a young heart writhes with the ache of being alive, every partition that shuts the living body in dissolves, dreamlike, in the rush of racing thought. Awake, Gohei too was, after all, only a young rappa cramped and cringing, ugly, within those partitions.
+
+What pitilessly shattered the man's reverie was a fistful of straw-scraps that came drifting down the shallows below him.
+
+The straw had come from upstream. Fast where it met the rapids, slow in the eddies, it flowed along with the river.
+
+When it reached the place where Kazama Gohei lay, the straw for the first time turned against the current and was drawn, all at once, into the reeds. Presently the straw alone flowed on. On the water among the reed-roots that stayed behind, two eyes floated up.
+
+At Gohei's whispered call, the eyes on the water smiled.
+
+"Master. …Late."
+
+Shimotsuge Jirōzaemon crawled up out of the shallows, laid his face down beside Kazama Gohei, and asked:
+
+"Jūzō's come, I take it?"
+
+"Jūzō's over there. It's you, Master, who mistook the hour."
+
+"The hour? Now that's a blockhead's thing to say. Yes, I set an hour beforehand—but the sky, which is what matters, is still clear. And you two—what work did you fancy you could do in the thick of this starlight and these watch-fires? A ninja holds the moment sacred, by the movements of sun and moon and stars, of earth and water and wind and rain. It's you who are the green fools, keeping the hour and forgetting to keep your lives."
+
+Kazama Gohei took Jirōzaemon's words for the sort of evasion natural to a man covering his own guilt. Most likely, he thought, the old man had meant to slip away from the Kashiwara fort just as he was. But if he fled, then—however far Iga had fallen—sooner or later he would find himself facing one of his own, sent as an assassin. That fear had risen in him, and he had merely thought better of it midway and shown his face here. That was all. So thinking, Gohei said, mockingly:
+
+"Then why did you come at all? If it's the sky you mean, it's clear even now."
+
+"Dolt. Smell this wind."
+
+Kazama Gohei caught his breath. Without his noticing, the wind had begun to grow heavy with damp.
+
+Presently the stars went out, two and five at a time. Cloud came up, and the wind began to sweep low across the fields. Before he could think, the legs of the rain came clattering down among the reed-leaves.
+
+"You see now? This was the hour I read."
+
+(A lie...)
+
+So Kazama Gohei thought, even so. But the rain was really falling. Whether Jirōzaemon's luck had chanced to meet the rain, or whether, as he claimed, he had read it and timed his move to its rhythm—either way, contemplating the uncanny cast of mind of this old Iga ninja, who seemed to breathe in time with the weather of the heavens, Gohei felt a fear close to grovelling.
+
+"Then—to it. Kuroami."
+
+"Here."
+
+"You take the fire-work at the camp on the northwest of the headquarters."
+
+"Gohei."
+
+"Yes."
+
+"You, the fire-work at the house on the north-northeast. Jūzō and I will slip into the headquarters in the confusion and cut down Nagahide. When it's done, don't linger: each man over the border on his own, and away into another province. Keep your fire-tools dry."
+
+With that, Jirōzaemon crawled up the embankment, fell on one of Niwa's men patrolling the road, swiftly stripped his armor, and put it on.
+
+Jūzō and Kuroami did the same.
+
+The countless watch-fires of the field went out one after another in the desolate wet, and, as the wind took them, breathed out white smoke to left and right.
+
+Threading through that smoke, the four shinobi showed themselves on the road and set off walking, unhurried.
+
+Two of them carried torches pulled from the braziers and went ahead, playing Niwa's men on watch in the rain.
+
+As they neared the headquarters they melted into the attackers' soldiers, who were milling this way and that in the sudden downpour.
+
+In less than a quarter of an hour the look of Niwa's camp at Ōyado was wholly changed. From the houses on either wing of the headquarters came the steady crackle of powder, and almost at once fire began to spout from the eaves.
+
+"Put out the fire!"
+
+cried men, running about in a panic. And, against them—
+
+"Don't put it out!"
+
+—another, shouting as he ran:
+
+"Keep to your squads, close up, and watch all round. Don't let the uproar give them their opening. It's only rappa work."
+
+So one man passed the word; and, brief as it was, the camp lost its bearings.
+
+Falling in among the soldiers who ran about till the ground shook, Tsuzura Jūzō, loitering before the headquarters, saw that now was his chance to break in.
+
+He was just easing his feet from the road toward the rear gate when—come near who knew when—
+
+"Are you in your right mind?"
+
+It was Shimotsuge Jirōzaemon.
+
+"In that foot-soldier's get-up, you think you can get inside the headquarters? However good a rappa you are, there's no stealing into the middle of a battlefield where the guard troops stand close. Spare your life."
+
+"…And are you in your right mind, Master? Was it not you who said we'd slip into the headquarters under cover of the fire and cut Nagahide down?"
+
+"As the moment demands, a man may deceive even his own. It was because I said it that Gohei and Kuroami threw themselves body and soul into the firing. Even to have set the fires and put fear into the enemy—count the venture a success. I'm off now, scattering. You flee too. What would it add, at this point, to kill one or two of them more?"
+
+Jūzō did not think Jirōzaemon's move—to flee now that it had come to this—a cowardly one.
+
+The shinobi mind keeps none of the fixed discipline of the warriors of other provinces. Always it shifts and transforms, over-quick to circumstance, until—so they say—an old shinobi-warrior can no longer grasp even his own heart. Whether Jirōzaemon's conduct here had been a planned deception of his own men, or an impulse fear had driven on him in the moment—and even granting there was fear in it—not even Jirōzaemon could have explained himself.
+
+But even granting the fear, in a shinobi who had passed through the intricate forging of the mind's true and false, none of the naked reaction of an ordinary man showed in any shadow of his face.
+
+With the blank look peculiar to the rappa who dwell in Iga—a face like some coelenterate sheathed in slime—Jirōzaemon watched, cold, the fire blazing up beyond the headquarters.
+
+This man lived in a flux so complete that he could not so much as bring his own shifting heart to his own judgment. In truth he might be called an apparition. Nobunaga's extermination of Iga sprang, in part, from a fierce loathing of that strange Iga mind.
+
+Only, in Jūzō's heart there was none of that flux. It owed something to his youth as a ninja; and, too, since his parents had been butchered, Jūzō had lost the apparition out of his heart. A raw, human hunger for revenge burned fiercely in him.
+
+Jūzō opened his mouth quietly.
+
+"I will not flee. I will take my revenge. Deceive our own side though I might, my own heart I cannot deceive. Farewell."
+
+Jūzō stepped toward the rear gate, left carelessly open in the confusion of the fire. In the same instant Jirōzaemon's figure, too, was gone from around him.
+
+Slipping in through the gap of the gate, he came out into a wide back-garden that had once been the farmhouse's rice-drying yard.
+
+No one about—luckily, he thought; and he was wrong, for all at once, from the planting right before his face—
+
+"Who's there?—Ah—"
+
+The armor-piercer stood buried in the warrior's chest, and he fell far behind Jūzō. That Jūzō did not draw the blade out was, no doubt, from his dislike of the blood that would spray back.
+
+The rain had all but stopped.
+
+By the corpse, a single drop fell to the ground from a black pine in the garden, as though it had just remembered to. By the time it reached the earth, Jūzō's shadow had already been drawn into the side-hall.
+
+Of all that had broken the garden's stillness just then, that drop was the only sound.
+
+Passing through, he entered the main hall. The main hall was the headquarters itself. Light spilled from it, voices buzzed, and warriors filled it right up to the inner court before its front.
+
+Jūzō, who had burned every least motion of the men onto his retina, thought—with a vividness like waking, as if he had been dropped into this place out of a dream—that here he would die.
+
+For the barest instant a cold smile touched the man's cheek. These last days, watching his own kin die, he had driven body and will along on his anger; and a self-mocking wish rose in him to laugh the whole of it away. But that too vanished within the instant.
+
+Then Jūzō drew his sword.
+
+Before this press of warriors, he thought, the rappa's arts would serve for nothing now. There was no way left to reach Nagahide but to cast off the shinobi, bare his body to every enemy eye, and charge straight where his blade-point led.
+
+Jūzō, like a black whirlwind, drove into the headquarters. At once confusion broke out, and shouts of rage passed over his head.
+
+(The study—)
+
+The thought flashed through Jūzō, and he vaulted the low garden wall. The side he came down on was a plain dry-landscape garden, a rough imitation in the Zen manner. To left and right of him several spear-heads streamed past. Brushing them aside blindly, he sprang up onto the veranda of the study and, in the same motion, kicked the screen down.
+
+Within the room three lamp-stands wavered, and on the white matting there was no one.
+
+(He's fled!)
+
+The instant he thought it, Jūzō's body had already shifted, as if by reflex, into a flight of its own. Once resolved to die though he was, the ninja instinct in him, apart from his will, sent him leaping—quick as a sweetfish—into the narrow gap between one danger and the next.
+
+With his left hand he seized a lamp-stand.
+
+"Turn out! The rappa is here!"
+
+—and in the same instant he took powder from his breast.
+
+The shouting voices multiplied with every cry. The garden filled with warriors until there was no room to move.
+
+"Mark this face well."
+
+Jūzō cut in two a man rushing up from the garden into the room, and shaped a ghastly dimple of a smile.
+
+"A man of Iga—Tsuzura Jūzō. This night-raid is no maneuver of war. It is, you might call it, a blood-feud. As many of you as I can, I'll send to the netherworld to keep my father company."
+
+He knocked the thrusting spears lightly aside, stepped boldly in along their line, and ran his point into a man's solar plexus. By rights a rappa never names himself—far from it; he never lets the enemy so much as learn his face, and shuns even the crossing of blades. Every one of these Jūzō broke here and now.
+
+"Draw back your spears! It's folly to lose your lives on a single rappa already resigned to death. Level your points in a solid line. Take him all at once."
+
+So one man gave the order, and a dozen spears and more leveled at Jūzō's breast. —At that moment, from somewhere behind the attackers, a cry rose like a night-bird's.
+
+"Ahaha. A single rappa, did you say? He is not alone."
+
+As they all wheeled round in alarm, sharp short-bow arrows came scattering into their very faces.
+
+"Now! Lord Jūzō—make no mistake."
+
+The one bawling was Kuroami. Flat on his belly on the roof of the tea-house at the southeast corner of the garden, he nocked and loosed arrow after arrow.
+
+In the same instant the lamp-fire flew from Jūzō's hand; the powder scattered, struck the paper screens, and burst with a roar, and in the billowing white smoke the screens threw up a bristling wall of flame all at once.
+
+The warriors swarmed onto the veranda and slashed about with their spears, sweeping down the ribs of the screens; but by the time fire and smoke thinned at last, the two rappa were gone.
+
+Jirōzaemon, meanwhile. For this man, who had meant only to make his quiet way out, it turned out the more wretchedly.
+
+"That man—suspicious—"
+
+A patrol grew wary at the sight of Jirōzaemon walking, unconcerned, along the road.
+
+In a moment a pursuing force of a hundred and more had ringed him; and, judging perhaps that it was all up now, he turned lightly on the nearest of those pressing him:
+
+"Suspicious indeed. I am a rappa."
+
+He struck a droll, jaunty pose—and then—
+
+"Ah—"
+
+As they all caught their breath, he flung himself into the roaring fire of a burning house.
+
+In an instant, faster than the eye, he had seized one of the pursuers and was crushing him in the crook of his arm—yet not one of them saw it.
+
+Having run into the fire, he let the man go, and—listening with his own ears to his own flesh scorch and blister—second by second sank into the heart of the blaze.
+
+The man leaped shrieking out of the fire in some wild direction; and as he burst out he was hacked to mincemeat by the crowding warriors. In that hair's-breadth opening, Jirōzaemon was gone.
+
+—Iga, that night, was wiped from the earth.
+
+Ten years pass.
+
+Tenshō nine, the worst year Iga had known, receded into the past. The ninja who had scattered from the province to wander here and there walked, after that calamity, all manner of lives they had never once dreamed of.
+
+Shimotsuge Jirōzaemon drifted first from Yamato to Harima, then went home to his village of Shimotsuge; and there, in a corner of the old holding Nobunaga had seized, he raised a thatched hut, opened new paddy with his own hands, and barely won his daily bread.
+
+Kazama Gohei hid himself away in the streets of the capital.
+
+For a time he lay low at Jirōzaemon's thatched hut in Shimotsuge, lending a hand with the land-clearing and the like; then, at Jirōzaemon's word, he went off to the capital. It must have been while he helped with that clearing that he grew close to Jirōzaemon's daughter Kisaru, who appears later. Jirōzaemon, who had no heir, treated it rather as a windfall and gave his consent to the match.
+
+With Tsuzura Jūzō it was somewhat different.
+
+After the night-raid at Ōyado, he ran with the genin Kuroami through the mountains on the Yamato–Yamashiro border and came at last to Otogi Pass. There, in a fold of the ridge, still stood the hermitage cell of Jūzō's grandfather, a man who had liked to dabble in the Buddha.
+
+Hiding in this hermitage, Kuroami would make the round trip in a single night to Nara, Kōriyama, the capital and the like, and turn thief to keep Jūzō fed.
+
+Jūzō held a great ambition.
+
+It was, of course, to kill Nobunaga.
+
+That a fugitive Iga ninja should try to assassinate Nobunaga was not Jūzō's alone; there were other instances. —After Iga had been subdued, Nobunaga toured the province and rested a while in the precincts of the Aekuni Shrine at Ichinomiya in Iga; and from a hill nearby, Otowa-no-Kido and two fellow ninja rose up, leveled three matchlocks, fired all at once, and dropped several of the samurai who guarded Nobunaga's person.
+
+But they did not so much as scratch Nobunaga.
+
+Tsuzura Jūzō made Otogi Pass his base and would from time to time go up to the capital to watch for a chance at Nobunaga. In those days Jūzō was not many years past twenty; and around the Ōyado raid, with grief and rage at the butchery of his kin bursting out of him, he had given his movements over to a frenzy uncommon in such a man. But once he had gone to ground at the pass, the passion, day by day, wore thin.
+
+Only, this purpose had already begun, for him, to melt into life itself. For a Jūzō of that age—stripped of his land, without a house, his family name blotted out, with nothing to do but bear the weight of his own high spirits—revenge was a goal to live for that he could not have wished better.
+
+But Jūzō's misfortune was that this revenge was carried out not by his own hand, nor by any of his Iga fellows, but by the hand of a man wholly unconnected with them: one Koretō Hyūga-no-kami Mitsuhide.
+
+On the second day of the sixth month of Tenshō ten, Oda Nobunaga died at the Honnō-ji.
+
+It was a bare year on from the Iga Rebellion.
+
+By Nobunaga, Jūzō had been robbed of the foundations of a life—land, name, kin; and having staked everything on killing that same Nobunaga to find, at last, something worth hoping for, at a single stroke, by Nobunaga's death, he lost the whole of it again.
+
+Nine years since. The realm had already passed into the hands of Toyotomi Hideyoshi; but for the Jūzō at the pass, the days held nothing to do.
+
+At times Jūzō's blood would stir, craving action. At such times he would take Kuroami and, quite aimlessly, slip into the capital or Ōsaka. To still his blood, with no purpose at all, he would pick out some daimyō's mansion and work the shinobi arts on it.
+
+When he hid himself in the dark of another's house, a clean excitement would come bubbling up from the depths of his body; and that it loosened, in a moment, the spirit knotted by his everyday sloth was, for Jūzō, something near to nature itself—body and mind reared from childhood inside the shinobi arts.
+
+—To break himself in to a spirit of idleness, Jūzō took up the reading of sutras.
+
+If it could be done, it was to let this blood of his settle out into idleness. To have no aim to act on, and yet to keep a cramped, knotted spirit burning inside—that, surely, is one of the misfortunes of a life.
+
+To read the sutras, to sing the Sanskrit hymns, to intone the shōmyō chant, and in the end to grow able to take pleasure in idleness itself—that alone seemed now, to the Jūzō who dwelt at the pass, the one aim of living.
+
+That Jūzō had shaped his life like a novice monk's, and yet had never shaved his head, was because at bottom there was no seeker's heart in him.
+
+—It was on one such ordinary day that this Tsuzura Jūzō received the sudden visit of Shimotsuge Jirōzaemon.
+
+Spring though it was, once the sun had gone down the mountainside had begun to cool as if scoring the silence. Because the wind had taken on the smell of rain, no doubt, the scent of young leaves came in strong even to the hermitage.
+
+Now and then a bud-smell sharp enough to sting the nose gathered maddeningly in the room on the wind, and then, all at once, was gone.
+
+—Jirōzaemon, hunched over and saying nothing, was lost in fiddling with his leeches. His shadow stretched and shrank eerily beyond the lamp-stand; and this man, aged and rotted past recognition since that war, seemed as though, going on aging just so, he might turn at last into a very goblin.
+
+That Jūzō's eyes, watching him, began now to shine like another man's than before, may have been the smell of young leaves that filled the room.
+
+Jūzō opened his mouth.
+
+"Master."
+
+Whether his ears had grown dull, Jirōzaemon gave no answer; he hunched lower still, all but crawling along the floor, and, the fingers of his right fist raised and his left palm open, toyed with the leech—swollen now to a bead of blood in the hollow of his palm—rolling it about between his fingers.
+
+"Do you not hear me?"
+
+"Mm?"
+
+"If it's work great enough to make this Jūzō burn up his life on it, I'll go back to the shinobi. I'll even become a rappa under your command. —What is it, then, the work?"
+
+"It is to kill Hideyoshi."
+
+Jirōzaemon said it as if it were nothing, and raised his face.
+
+"I see. Hideyoshi, is it."
+
+Jūzō turned it over, was silent a while, then opened his mouth and laughed.
+
+"Very well. …You've brought me a fine piece of business. These last years, mind, my body and my spirit have both gone soft, so I may not do the work as I'd wish. Still—sloth and all—let me take up this task, and see."
+
+When he had said it, Jūzō looked into Jirōzaemon's small eyes.
+
+"Master. This business—where does the money come from?"
+
+"From a certain merchant of Sakai."
+
+"What is his name?"
+
+"Imai Sōkyū."
+
+"Ho—Sōkyū. I've heard Hideyoshi holds him in particular favor. Merchants though they are, Tsuda Sōgyū, Sen no Sōeki—Rikyū—and Imai Sōkyū each draw a fief of two or three thousand koku, so they say. Why should a Sōkyū want Hideyoshi dead?"
+
+"I don't know."
+
+"A strange thing indeed."
+
+"For strange things, the world has no end of them. The world of men outside us rappa is full of strange tales. We had raised no hand against him, and yet a man called Nobunaga rose out of nowhere, seized the whole land, and sent this one and that—me among them—fleeing from the soil our fathers left us. My own case, and a strange tale for all that. But such reckoning and guessing is wasted on a rappa. —Whatever Sōkyū may be turning over in his mind, I have only to take the money, and you have only to kill Hideyoshi. Set beside the doings of the world, a rappa is a plain, clear thing."
+
+"Where do I meet Sōkyū?"
+
+"Two days from now, at the Hour of the Ox, wait at the foot of the Great Buddha. A messenger will come. —This is silver for your present needs."
+
+After Jirōzaemon had gone, the mountain rain settled into a steady fall.
+
+(The rape-blossom rains already.)
+
+Lying on the boarded floor, a single hemp cloth spread beneath him, Jūzō listened to the stubborn tread of the rain.
+
+There came a soft patter of feet at the garden's edge, and Kuroami returned.
+
+The man stood less than five shaku tall. Since he had served the Tsuzura from Jūzō's father's day, he had to be past fifty; yet that bird-like face of his could, at times, look like a boy's.
+
+"Last night—Ōsaka?"
+
+"No. Sakai."
+
+Kuroami stowed what he had brought back—stolen goods, no doubt—up behind the ceiling, and came back into the room. Jūzō, his right elbow still for a pillow, said:
+
+"From tomorrow, we leave here."
+
+"Is that so."
+
+Kuroami said nothing. For a while the sound of the rain filled the silence between Jūzō and Kuroami.
+
+"We are going to kill Hideyoshi."
+
+"Is that so."
