@@ -639,3 +639,235 @@ All at once he began to claw away the mud around her.
 "Goichi! Goichi!"
 
 He widened his search, and raked through the mud on every side.
+When he had worn himself out and dropped down into the mud, from somewhere a faint baby's cry came to him.
+
+He sprang up and looked round.
+
+Nowhere.
+
+A trick of the ear, he thought.
+
+Then the crying came again. From somewhere above.
+
+He looked—
+
+On the fourth tower, burned down now to a single standing post, some seven shaku up from the ground, a baby wrapped in a padded quilt hung tied fast.
+
+Goichi!
+
+Shaking all over, he lifted Goichi down. And he saw that the cord that bound him was Maki's own narrow sash.
+
+Then—Maki had tied Goichi up high to keep him clear of the water, and died?
+
+Goemon shouldered Maki's body, clasped Goichi hard against him, and got clear of the ruined castle.
+
+Hideyoshi's army, once Ota Castle was taken, rested a while on the floodplain of the Kino, then set out at its leisure toward Mount Koya. He sent an envoy ahead to charge them—monks, and yet toying with weapons, seizing and holding land, taking ronin into their pay—and to tell them that unless they submitted, the whole mountain would be pulled down.
+
+Mount Koya sent Mokujiki Shonin as its envoy to Hideyoshi's camp.
+
+Mokujiki Ogo had once been of the Sasaki clan of Omi, but at thirty-seven he turned his heart to the Buddha and went up to Mount Koya, where he gave up salt and grain, ate nothing but the plants of the field, and lived a life of hard austerity; and he had a gift for words.
+
+His pleading carried the day, and Hideyoshi pardoned them at last. He forbade them, on pain of severity, to keep weapons or to shelter rebels, and pared the temple lands down to a bare three thousand koku.
+
+Later—when the temple lands were actually surveyed, they proved to be above fifty thousand koku, and every koku over the three thousand was confiscated.
+
+Goemon went back to his home in Nagao village, and buried Maki behind the house.
+
+Maki was dead.
+
+Maki was gone out of the world.
+
+Goemon dropped into a terrible desolation. He had never known that loneliness could be so terrible a thing. Down and down he slid, caving into an emptiness, in a grief and a wretchedness that would not let him sit or stand.
+
+Only in the small tasks he did for Goichi—tramping about after a woman with milk, changing the child—could he get free of the anguish a little.
+
+How had Maki died?
+
+To die where I was not, and leave Goichi behind—how bitter it must have been.
+
+The thought gnawed at his heart and would not stop.
+
+One night he dreamed.
+
+The blood-soaked Ota Jirozaemon-no-jo came and stood before him, looked at Goichi sleeping at Goemon's side, and spoke.
+
+"Ah—so Goichi lived?"
+
+"Yes. Yes."
+
+"Ah, he sleeps well."
+
+"Lord Ota, Mount Koya, the cowards—"
+
+"I know. I know. It's over now, all of it, done. You did well."
+
+"Lord Ota—how did Maki die?"
+
+"Mm. On the dawn of the very night I sent you out of the castle, the water of the Kino came welling up and spreading, at a speed you'd have doubted was real, and any who climbed the towers or the trees were shot down where they clung. By about noon there were few left alive inside. As I was going the rounds, putting heart into the men, at the fourth tower on the north side I came on Maki-dono, sunk to her neck in water, holding Goichi up over her head and struggling to get to the tower."
+
+"Oh—oh, Maki—"
+
+Goemon groaned.
+
+Blood running from his mouth as he spoke, Ota went on.
+
+"I put my hands to Maki-dono's back and pushed her, and got her to catch hold of the tower. 'Till my man comes home—won't you, Lord Ota,' Maki-dono said."
+
+"Oh. Oh."
+
+"Just then came a great crash and splash, and a cannonball struck the trunk of a big tree ten ken off, and the people up in it—how many tens of them there must have been—were flung down with a scream into the water. I pushed through the water toward them. I was trying to save the drowning women and children, to get them holding onto the roof of a mud wall nearby, when there came another crash, behind me this time, and a shriek. I turned and looked, and Maki-dono was there no more. And on one post of the tower, Goichi was tied fast. The instant she'd bound him, it seems, the ball took her. By sending you off on the errand, I kept you from being at Maki-dono's death. It is my sin. I am sorry for it."
+
+"No, no. If you had not pushed Maki, Lord Ota, and got her to the tower, Goichi could never have come through alive as he has—"
+
+"Just after that, a ball took me through the head, and that was the end of me. But now I feel no hurt anywhere. I wander the void. And wandering, I pass the wandering souls of the thousands upon thousands of peasants who died at Ota Castle, and at the Negoro-ji. And every one of those souls is raising a desolate, dreadful cry—byo, byo. Listen close, and it is: 'I hate Hideyoshi! I curse Hideyoshi! Curse him! Damn you, Hideyoshi!' That is what they cry. It sounds like byo, byo, but it is not. Listen well, and they are crying, 'I hate Hideyoshi! I curse Hideyoshi!'"
+
+Goemon saw before his own eyes that terrible, raging void. Souls dripping blood, crying out, wandering, wheeling through the air.
+
+Ota lifted his voice higher.
+
+"But those who lived are no whit the better for it. Hideyoshi, who has made even Mount Koya bow—now
+he will set about surveying the whole of Kishu. And they'll enter acreage on the books many times what was ever recorded, and wring out two parts in every three of what a man harvests. There'll be no rice left to eat. Boiling coarse grain up in thin water and supping it down—that will be the whole of your living. And to fight back, there's neither sword nor spear. Try to run to another district and they'll take you and throw you in a cell. Hateful, Hideyoshi! Cursed, Hideyoshi!—"
+
+And as he said it, as though hauled backward by unseen hands, Ota's shape drew away and was gone.
+
+Goemon groaned.
+
+"...Hideyoshi is Maki's murderer..."
+
+And at the sound of his own groan he woke.
+
+It is only a dream, he told himself. Every soul who was there died to the last of them; how Maki died, there is no one left in the world to ask. That thought was in him too. But Goemon, realist as he was, wanted in this one thing to believe that Ota Jirozaemon-no-jo had come to him in the dream on purpose, to let him know the truth of it. And as the days went by, he came to believe it beyond doubting.
+
+His heart burned to go and cut Hideyoshi down. But there was Goichi. Where could he go, and leave this little one, a bare year and two months in the world? The child could not yet live unless Goemon watched over him without a lapse—tramping about to beg a woman's milk, cooling the thin rice-gruel, changing the swaddling, shooing the flies and the mosquitoes off him.
+
+So Goemon, taking in the fields of Maki's family that had died out, spent his days one way and another at the work of the fields.
+
+His longing for the dead Maki did not slacken; and when evening came, the loneliness bit hard into his heart. Looking at Goichi's face, with the eyes and the mouth so like Maki's, he could not stop the tears from welling up and running. The longer he gazed, the more it seemed to him that Maki's soul had been carried over into this little creature and lived and breathed in him. He was not only Goemon's own flesh, but Maki's; and he held his life leaning on Goemon's care and on nothing else.
+
+And so, filled up with the guarding of Goichi and the tending of the fields, the days passed. In that while, Hideyoshi took Kokawa-dera, Shingu, and the Kumano Sanzan, and went back to Osaka. In the seventh month he petitioned the court, had the Kanpaku Nijo Akizane put out, and became Kanpaku himself in his place.
+
+Next he fell on Shikoku, and to Chosokabe Motochika, who sued for terms, he gave the single province of Tosa and took the rest away.
+
+Turned forty-nine now, his eyes a little failing, Hideyoshi, the better to run his one-man rule, set five men as commissioners to share the business of government between them: Asano Nagamasa, Maeda Gen'i, Mashita Nagamori, Ishida Mitsunari, and Natsuka Masaie.
+
+That settled, and within the summer, Hideyoshi led out a great army himself to put down Sassa Narimasa of Etchu. Sassa had thrown up forts at thirty-six points to the right and left of the Kurikara Pass, and made his strongholds of Kibune, Moriyama, Masuyama, and Toyama, and fought his defense; but his strength gave out at last, and he shaved his head, put on black robes, took the form of a monk, and came to surrender at Hideyoshi's headquarters on Gofuku-yama. It was the twenty-ninth of the eighth month.
+
+In a letter he sent from the camp to his lawful wife, Nene, Hideyoshi wrote, where his name should go, "Tenka"—the Realm. After this he often wrote it in kana, "tenka." From about this time he took himself for the foremost man under heaven, and began to carry himself as one. And with Hideyoshi's appointment as Kanpaku, Nene too became the Kita-no-mandokoro.
+
+In Eiroku 4, Hideyoshi, then a foot-captain of Nobunaga's at twenty-five, had married Nene, the daughter of a fellow foot-captain, Asano Nagakatsu. Nene was fourteen at the time, eleven years his junior. Hideyoshi kept this, his lawful wife, all his life. She seems on the whole to have been a gentle, honest woman, but a fair hand at jealousy too, and she gave Hideyoshi no end of trouble, so that Hideyoshi was forever coming at her humbly, careful not to put her out of temper.
+
+By nature Hideyoshi was a good deal of a lecher, it seems; and once he was past his hard-driven thirties and had come into rank and wealth, his true bent showed, and he grew more and more of an old rake.
+
+There survives a famous letter that Nobunaga sent to Nene around Tensho 4 or 5—that is, about the time Nobunaga built his castle at Azuchi and moved there, and Nene was living at Nagahama Castle. Put into modern speech, it runs like this:
+
+"Just as you say. This time I came out to this Azuchi Castle in Omi myself; and Nagahama being close by, I had the pleasure of seeing you too, which was a glad thing. And on top of that you gave me all manner of gifts, of a beauty to take one aback, whose kindness my brush could never come to the end of writing. Since it is all taking and no giving on my side—and while I was thinking to make you some return, you went and gave me such splendid things that I cannot for the life of me think on the spot what to give you back—there is nothing for it but to be rude this once and leave it for your next visit. All the same, it astonished me that your looks and your figure had grown twice as fine as when I saw you last. And here is Tokichiro grumbling this and that in complaint, so I hear—an outrage, and a thoroughly unpardonable thing. Search where he might, a wife of your quality is not a thing that bald rat could ever, ever come by twice; so from here on you must carry a bright face, and, as befits a lady of the house, bear yourself with a large and easy air, and not fall to being jealous over trifles. That said—since jealousy is a wife's office—make it look as though you were keeping back what you would like to say. And do show this letter, once, to Hashiba Hideyoshi, and give him a piece of your mind."
+
+And so this "bald rat," from about that time it seems, set to chasing women in earnest.
+
+In point of fact, when the northern campaign against Sassa was over, at the start of the intercalary eighth month—Tensho 13 was a leap year, with two eighth months—on his way home in triumph he broke his journey at Kanazawa in Kaga, put up some days with the castle's lord, Maeda Toshiie, and was feasted; and there he set eyes on Toshiie's third daughter, Go-hime, whose pet name was Maa, a girl then of fourteen, and lost his heart to her.
+
+This lovely girl Maa-hime is one the novel has spoken of before, in the chapter "War upon War": how, in the days when Toshiie was still allied with Shibata Katsuie, she had been sent as a hostage to Katsuie's castle at Kita-no-sho, and what a beautiful girl she was, is told there.
+
+Maa-hime, twelve at the time, had been betrothed to a young samurai of fourteen, a retainer of Katsuie's named Sakuma Juzo; but that boy-warrior died fighting, weeping and crying out, beneath the keep at the fall of Kita-no-sho. Before that, Katsuie, meaning to send the hostage Maa-hime back to Toshiie—now gone over to the enemy—had her slip out of the castle with a waiting-woman, Achako, to see her safe. No doubt Katsuie too could not bear to let a beauty jewel-like as Maa-hime's be destroyed; but to give a hostage back to a traitor was, all the same, a fine thing to have done.
+Maa-hime got out, hid in a kimono shop called the Iseya, and had a manservant there carry word to Toshiie at Fuchu; and the very next day Hideyoshi's army fell on the castle town of Kita-no-sho, and since its vanguard, moreover, was Toshiie, she was rescued at once, and from then on grew up strong and well under Toshiie's own hand.
+
+It was on this girl that Hideyoshi set his eye. But an old man of forty could scarcely ask straight out for a girl of fourteen as a concubine, so he said instead: give her to me for an adopted daughter.
+
+In the Shibata campaign Toshiie had gone over to Hideyoshi's side in the end, but he had begun on Shibata's side, in arms against Hideyoshi; and with that weakness hanging over him, to refuse was unthinkable—rather, he was in a position where he had to count the asking an honor.
+
+In the spring of the next year, Tensho 14, Maa-hime went up to the capital.
+
+A letter Hideyoshi sent her about that time survives.
+
+"The other day I had your dutiful little letter. You were busy, I take it, seeing the sights of Kyoto, and had no time, and that is why you sent me only such a letter as that; so I hold no grudge for it."
+
+A very short letter—but in it he is nursing a grievance against a girl young enough to be his grandchild, over a cold, perfunctory note given out of bare duty. And the signature reads "Tenka-sama." He is bearing down on a child from on high. When the old lecher first laid a hand on her there is no knowing; but at any rate Maa-hime was soon being called "the Lady of Kaga," and her name came to stand fourth in the ranking of Hideyoshi's concubines.
+
+Let us go back once more to Tensho 13. When the autumn harvest was in, Goemon tied Goichi to his back and went as far as Sakai, in search of where Kazue had been taken.
+
+But in this world at war, to hunt for a girl carried off by a samurai was like trying to find, somewhere in the wide sea, a single lost shell.
+
+Sakai too lay under Hideyoshi's hand. In the twelfth month of Tensho 12, when the castle town was being built at Osaka Castle, a fair number of Sakai's townsmen, like the people of Kyoto and Fushimi and Tennoji, had to move to Osaka at a single word of Hideyoshi's command. And in Tensho 14 Hideyoshi would take the field himself and have the moats filled in that had guarded Sakai on three sides against the encroachment of the samurai.
+
+By this, Sakai's life as a military power was to be lost; but its self-government was still allowed it to a fair degree, and its shipping and trade—reaching not the Inland Sea only but far out into the South Seas—were more thriving than ever. The various taxes and license-fees and ground-rents drawn out of it were a great source of Hideyoshi's revenue.
+
+Not Ming ships alone but Nanban ships came now in growing numbers; Nanban novelties poured in, and were studied and made and sold in Sakai too. Velvet, rasha, moru, kaneken, sarasa—all of them came in about this time.
+
+The kimono shop in Kobayashidera-machi where Goemon had meant to place Kazue in service—the house of Yamatoya Tarobei—had a great stock of such rare goods as well.
+
+Yamatoya had long since learned by letter from Goemon that Kazue had gone missing, and, sick at heart, had made inquiry after inquiry wherever he could think to. He had even worked a connection among Takayama Ukon's men and dug for news. But of Kazue there was not the faintest word.
+
+As they talked of this and that, Goemon heard something that fastened on his mind.
+
+It was this: that among the merchants trading with the Nanban ships were some who quietly kidnapped women and sold them off overseas. In fact, in Tensho 7, it had come out that the wife of a ward-officer in Shimogyo had kidnapped some eighty women and sold them to Sakai merchants, and of these had sold sixteen onto Nanban ships; the officer's wife and the rest of those concerned were put to the stake. But afterward, what with Nobunaga's death, and Mitsuhide's death, and the Negoro and Saiga risings one on the heels of another, the watch had grown slack, and the smuggling of women out of the country had never stopped.
+
+Trudging back downhearted from Sakai to Nagao, that night Goemon dreamed.
+
+Kazue stood there in a gaudy, lovely robe, her hair dressed up in some style he had never seen, pale, and broken with grief.
+
+Startled, Goemon made to run to her, but a space of some five ken lay between them, and try as he would he could not get near.
+
+"Brother—! Brother—"
+
+Kazue called in a thin voice.
+
+"Y-you—you were alive? Kazue, h-how do you fare?"
+
+"—Brother—and Sister?"
+
+"Maki—Maki—is dead. She was killed."
+
+"Eh? When?"
+
+"Half a month after we parted from you, at Ota Castle—shot down by a gun, drowned in the water—"
+
+"Then—she's been dead more than half a year already? I never knew—I never knew—now I can never meet my sister unless I die too—
+
+"—now, unless I die, I can never see her again."
+
+"Kazue—where are you now, how do you live?"
+
+"I'm in a bitter way—I long to die, long to die, and cannot; only, once, I thought, if I could get back to Japan—"
+
+"Eh? Get back to Japan? To Japan? Kazue, where are you?"
+
+"Far away—across the sea—a place they call Luzon."
+
+"Where is that?"
+
+"An island—by ship it takes a month, two months even."
+
+"Eh? A month, two months? How ever did you come to such a place?"
+
+"The samurai caught me—used me cruelly—"
+
+"Mm—damn them!"
+
+Goemon ground his teeth in the dream.
+
+"I was carried to Sakai—shut up in a warehouse—put aboard a great ship—a Nanban ship it was—thirty young girls put on with me—in the dark of the hold, thrown about in a fearful storm—and came here."
+
+"I never knew—I never knew—"
+
+"When night comes, the hairy men come—and do cruel things to us—"
+
+"Mm—you poor child—"
+
+Goemon burst out crying aloud.
+Had any waking soul heard it, they would have taken it for the far-off howling of a wolf.
+
+"I've thought of dying, over and over—but only, once, to go home to Japan, to see everyone, to see them all so—Brother—could I ever get home, do you think—"
+
+Kazue's shape drew further off, and thinner.
+
+"Could I ever get home—get home—I wonder—"
+
+And then her voice and her shape alike were gone.
+
+Goemon writhed, and clutched at the empty air with both hands.
+
+"Kazue...! Kazue...!"
+
+He screamed it—and woke at the sound of his own voice.
+
+Goichi slept on, soft and easy, and the insects were shrilling loud in the night—
