@@ -959,6 +959,123 @@ geography of the road, and how long Lu has gone clean-shaven).
   the swallow's-three-skimmings; 关中双绝 → the Twin Perfections of Guanzhong;
   弹指神通 → the Finger-Flicking art; 又一村 → Yet Another Village.
 
+## B07 = Chapter 11 (ch12 第六根足趾 / The Sixth Toe) — the climax
+
+### Environment / setup
+
+- `./setup.sh`: pillow/epubcheck OK; regression harness reports 9/10 with the
+  ONE EXPECTED failure `hook stands down on template stub` (Stop hook correctly
+  enforces against the live HANDOFF kickoff; not a defect, per HANDOFF/kickoff).
+  All other checker regression tests green (`python3 tests/run_tests.py`).
+- `data/src` and `data/src_epub` absent on the fresh container (gitignored);
+  regenerated with `scripts/ingest_epub.py source.epub` (18 spine docs, 3
+  images, 124,096 chars). book.json NOT overwritten (verified: git status clean,
+  no book.json change).
+- Stray-branch consolidation: session started on
+  `claude/lu-xiaofeng-1-translation-wioorr`, whose tip was byte-identical to
+  `origin/claude/lu-xiaofeng-1` (rev-list 0/0). Checked out the canonical branch,
+  reset to origin, deleted the stray (local; remote ref already gone, pruned).
+
+### Scope
+
+- ch12 (第十一章 第六根足趾 "The Sixth Toe"), src 17_part0000-split-015.txt,
+  ~31,104 source chars — the long climax, its own batch. **The source has FOUR
+  bare-numeric scene markers (01/02/03/04 at source lines 3/161/203/363), i.e.
+  4 scenes, not 5** — the kickoff/HANDOFF said "5 scenes / scene 5 ~877 lines"
+  but that is an off-by-one: the long final scene is scene 4 (source lines
+  364–1241, 878 body lines). Verified by grep; recorded here so the next batch's
+  count language is right. The chapter's true final line is 1241 (`wc -l` reports
+  1240 because the last line has no trailing newline).
+- **Source's own notes: none present** (grep `\[\d+\]` over ch12 source → 0).
+- **1235 merged paragraphs, 1:1 mapping** (each source body line is its own
+  beat — dialogue-heavy chapter, matching the ch11 precedent which was likewise
+  all singles). No extractor splits (verified: every body line ends on terminal
+  punctuation). `*** ` post-inserted after paragraphs 157 / 198 / 357.
+  `scratchpad/build_b07.py` (re-ranged copy of build_b06.py) is COMMITTED.
+
+### Checks (all green)
+
+- **verify_unit ch12**: parity 1235=1235; numbers 0 unresolved (with built-in
+  data/noise.txt); anchors 6/6 resolve.
+- **check_numbers** (`--noise data/noise.txt`): 0 unresolved over 1235 pairs.
+  New noise this batch (each justified by a real flag, documented in-file):
+  `三分` (three-tenths "a touch/somewhat"), `千娇百媚` (bewitching, 千/百 idiom),
+  `四散` (incense scatters "in all directions", the four-directions class),
+  `(?<=把)两` (tael 两 after 把, 万把两银子 → "ten thousand taels or so"),
+  `合十` (the palms-together gesture 双手合十/双掌合十 — 十 = the ten fingers,
+  not the count 10; this was the only genuine flag surprise). Tael 五千两 handled
+  by the existing `(?<=[百千万])两`. 1,980-catty iron cage rendered in DIGITS
+  ("1,980 catties") so cn_to_int's single 1980 is carried (spelled-out would
+  split to 1000+980). 一百零八 → "one hundred and eight" (leading "one" kept).
+- **check_align ch12**: median 4.00 en/han, no pair strays > 2.2x.
+- **check_content** (`--config scratchpad/qc_config.json` — ch12 ADDED to the
+  config docs/sources, it was NOT already there despite the kickoff): ch12
+  1169 name occurrences, all in the paired paragraph; all 12 units OK.
+- **qc_entities**: 0 misses (census tops: 陆小凤 x541, 霍休 x167, 上官飞燕 x164,
+  花满楼 x146, 霍天青 x49, 青枫 x23, 青风观 x15).
+- **check_apparatus**: 0 failures / 0 warnings.
+- **check_structure** (`--config`): ALL PASS (parity 1235=1235; 75 anchors,
+  0 unresolved; 5 attach at first of several occurrences, expected).
+- **qa_epub**: PASS (27 files, 20 documents, 75 refs/bodies/backlinks, all
+  links resolve). **epubcheck 5.1.0**: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- **check_register** (`--ref out/ch01_reading.md out/ch12_reading.md`): within
+  tolerance. First build read 0.36x (STILTED — the confrontation was over-formal);
+  fixed by contracting ORDINARY speakers INSIDE dialogue only
+  (`scratchpad/contract_dialogue.py`, COMMITTED — narration left uncontracted as
+  in the frozen reference; the quoted classical lament has nothing contractible),
+  raising it to 0.66x. Two contractible "we shall" → "we'll" trimmed the "shall"
+  flag; Huo Tianqing's grave duel line "which shall it be, you or I?" kept.
+
+### Apparatus / glossary added
+
+- **notes.json**: 6 under ch12 (total 75 book-wide), merged with `apparatus_merge.py`
+  (NOTES only; `scratchpad/b07_apparatus.json` tracked). Themes, all real-world
+  behind the fiction: (1) the six-toe reveal — the 異相 "physiognomy past nature"
+  tradition (double pupils of Shun/Xiang Yu, etc.) that marks Heaven's chosen,
+  the mark itself Gu Long's invention; (2) 愿生生世世莫生于帝王家 — the last
+  Liu-Song boy-emperor's abdication lament (479 CE); (3) the four imperial
+  exemplars — Tian Dan & Emperor Guangwu (restorers) vs Li Houzhu & Song Huizong
+  (artist-emperors who lost their thrones) + the 诗书画 "three perfections";
+  (4) 多情自古空余恨 — the couplet and the pun on Liu Yuhen's name (余恨 =
+  "lingering regret"; the glossary row for 柳余恨 pointed here); (5) 鲁班 Lu Ban,
+  the legendary master of contrivances whose heir Zhu Ting is; (6) 请君入瓮
+  "inviting the ruler into the urn" — the Tang story (Lai Junchen & Zhou Xing)
+  behind the cage that closes on Huo Xiu. NOT re-noted (all prior): jianghu /
+  point-sealing / lightness-skill / Virgin-Body discipline / tael-catty-li-cun-
+  zhang / the Blue-Robe Tower & the number 108 / Daughter's Red / the phoenix
+  pun / Feiyan="flying swallow". CONSIDERED, not noted (kept density at 6, and
+  Hua Manlou glosses it in-text): 忍术/东瀛扶桑三岛 (ninjutsu / Fusang = Japan);
+  大义灭亲 "righteousness before kin"; 黄泉 the Yellow Springs; 白云苍狗.
+- **glossary.json**: 4 new rows (two-level, via `scratchpad/add_glossary_b07.py`
+  — NOT the flat apparatus path). People (3): 青枫 → the Taoist Qingfeng;
+  鲁班 → Lu Ban (status **attested**, real figure); 鲁大师 → Master Lu. Places (1):
+  青风观 → the Green Wind Temple. Total now **85 rows**. All others `decided`.
+- No figures (the book has none).
+
+### Decided shelf renderings / discrepancies flagged (this batch)
+
+- People/places: 青枫 → the Taoist Qingfeng (lowercase-"the" form, exempt from
+  check_content); 青风观 → the Green Wind Temple (note the 青枫/青风 homophone —
+  the abbot's name chimes with the temple's, glossed in the glossary note, not
+  footnoted); 鲁班 → Lu Ban; 鲁大师 → Master Lu; 包乌鸦 → Bao the Crow (the
+  bun-seller of the Seven Heroes; minor, INLINE, not a glossary key so
+  unenforced, like 胡道人 in B06); 玉枕穴 → the Jade Pillow point (inline).
+- Terms/moves (inline): 灵犀一指 / 心有灵犀 → "heart and finger were of one mind"
+  (Lu's Spirit-Skewering Finger); 飞燕针 → the Flying Swallow Needle (deliberately
+  set against 飞凤针 the Flying Phoenix Needles — the phoenix/swallow pun mirrors
+  Danfeng/Feiyan); 总瓢把子 → the Grand Helmsman (secret-society chief, glossed
+  inline); 尺 → chi (new period unit, same family as cun/zhang, rendered plain);
+  时辰 → rendered "hours" (两个时辰 → "two hours").
+- **Source discrepancies (rendered smooth, not footnoted — mechanical, per the
+  digitization-glitch policy):** (a) 樊大先生 names himself 樊天仪 (Fan Tianyi)
+  here, but the ledger name from ch08 is 樊鹗/**Fan E**; rendered "Fan E" for
+  book consistency (the source's two given names are Gu Long's own slip, not an
+  error of fact the English reader can see). (b) Sun Xiuqing, "Sun the Second"
+  (孙老二) in ch09–10, is called 三师妹 ("Third Sister") by Ye Xiuzhu at source
+  line 148; rendered "our Third Sister" (carries the 三=3) — the rank words
+  disagree in the source. (c) 十几枚/十二枚 coins (a dozen-odd, then twelve) —
+  rendered "a dozen-odd" then "twelve", as the source has it.
+
 ## B06 = Chapters 8-10 (ch09 峨嵋四秀 / ch10 飞燕去来 / ch11 迷楼)
 
 ### Environment / setup

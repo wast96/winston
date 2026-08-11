@@ -159,3 +159,29 @@
 # 万 (10,000) is figurative, not a count. Rendered "boundless wealth" (ch11,
 # Huo Tianqing on the Pavilion's fortune).
 万贯
+
+# --- B07 (ch12 第六根足趾 / The Sixth Toe) ---
+# 三分 = "three parts (in ten)", the fen-as-tenths idiom for "a touch / somewhat"
+# (三分娇嗔 "a touch of pretty pique", 三分相像 "somewhat alike"); the 三 is a
+# degree, not a discrete count. Parallel to the B05 五成 rule. Rendered "a touch
+# of" / "somewhat" (ch12). Ordering: 三分之一 (B06) strips first, so this cannot
+# orphan the 之一; and the auto-guard keeps it off the tail of larger numbers.
+三分
+# 千娇百媚 = "a thousand charms, a hundred graces", idiom for bewitching beauty;
+# the 千/百 are figurative, not counts. Rendered "bewitching" (ch12, the Boss's
+# Wife). Longest-first before the built-in 千X/百X rules.
+千娇百媚
+# 四散 = "(incense-smoke) scatters in all directions"; the same four-directions
+# idiom as 四射/四下/四溅. Not a count. Rendered "scattered on the wind" (ch12).
+四散
+# 两 as the tael measure word after 把 (万把两银子 = "ten thousand taels or so"):
+# the 把 breaks the numeral run, so the trailing 两 would otherwise orphan a
+# stray 2. Parallel to the (?<=多)两 rule. The 10,000 is kept ("ten thousand
+# taels or so"); only the tael-marker 两 is stripped. The count "two" never
+# follows 把 here. Rendered "ten thousand taels or so" (ch12, Huo Xiu).
+(?<=把)两
+# 合十 = the Buddhist palms-together gesture (双手合十/双掌合十, "join the ten
+# [fingers]"); the 十 names the ten fingers of the gesture, not the count 10.
+# Rendered "pressed his palms together" (ch12, the Taoist Qingfeng). The count
+# 10 (十天/十年) never rides on 合, so this is safe.
+合十

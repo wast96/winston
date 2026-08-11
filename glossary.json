@@ -333,6 +333,24 @@
       "pinyin": "Shi Xiuxue",
       "status": "decided",
       "note": "The youngest of the Four Beauties of Emei; gentlest-seeming and hottest-tempered, she fights with a pair of short swords and dares, alone of the four, to love where she will. Hua Manlou catches her blades between two fingers, and she loses her heart to him (ch09)."
+    },
+    "青枫": {
+      "en": "the Taoist Qingfeng",
+      "pinyin": "Qingfeng",
+      "status": "decided",
+      "note": "The Taoist abbot of the Green Wind Temple and Huo Tianqing&#8217;s friend over the chessboard; bought by Huo Xiu to bear false witness that Huo Tianqing had died by his own hand, and burned with his temple soon after (ch12)."
+    },
+    "鲁班": {
+      "en": "Lu Ban",
+      "pinyin": "Lu Ban",
+      "status": "attested",
+      "note": "The legendary master carpenter and engineer of the state of Lu in the fifth century BCE, patron deity of builders and craftsmen; Zhu Ting&#8217;s art of contrivances descends from him. See the note at his first mention (ch12)."
+    },
+    "鲁大师": {
+      "en": "Master Lu",
+      "pinyin": "Lu Dashi",
+      "status": "decided",
+      "note": "Zhu Ting&#8217;s master in the maker&#8217;s art and a descendant of Lu Ban; now dead, leaving Zhu Ting the first hand under heaven at the making of hidden contrivances (ch12)."
     }
   },
   "organizations": {
@@ -445,6 +463,12 @@
       "pinyin": "Taishan",
       "status": "decided",
       "note": "The easternmost and most venerated of China&#8217;s five sacred peaks, in Shandong; watching the sunrise from its summit is an old pilgrimage (ch07)."
+    },
+    "青风观": {
+      "en": "the Green Wind Temple",
+      "pinyin": "Qingfeng Guan",
+      "status": "decided",
+      "note": "The Taoist temple on the front of Huo Xiu&#8217;s mountain, where Huo Tianqing&#8217;s body is found; its abbot is the Taoist Qingfeng (青枫), whose name chimes with the temple&#8217;s (both sound <i>Qingfeng</i>). Huo Xiu burns it to the ground to destroy the one witness to his lie (ch12)."
     }
   },
   "terms": {
