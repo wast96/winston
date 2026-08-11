@@ -32,5 +32,97 @@
       "alt": "Fireworks and firecrackers throwing up sprays of sparks in a dark courtyard, with two figures silhouetted against the glare.",
       "caption": "Setting off firecrackers. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
     }
+  ],
+  "ch002": [
+    {
+      "file": "ch002_songjiaoren.png",
+      "before": "Mr. Song Jiaoren of Taoyuan",
+      "alt": "A studio portrait of a clean-shaven young man in a high-collared Western coat and tie, hair swept back.",
+      "caption": "Song Jiaoren. (Reprint caption: 'Song Jiaoren'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+    },
+    {
+      "file": "ch002_yingguixin.png",
+      "before": "everyone knows them for Zhao Bingjun",
+      "alt": "A studio portrait of a mustached man in an embroidered silk mandarin gown with a round dragon roundel.",
+      "caption": "Ying Guixin, the go-between in the plot. (Reprint caption: 'Ying Guixin'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+    },
+    {
+      "file": "ch002_hongshuzu.png",
+      "before": "Earlier, after Mr. Song had declined",
+      "alt": "A drawn portrait of a balding man in wire-rimmed spectacles, wing collar and cravat.",
+      "caption": "Hong Shuzu, who relayed the orders. (Reprint caption: 'Hong Shuzu'. An image added by the 2019 editor, not a figure of the 1933 book.)"
+    },
+    {
+      "file": "ch002_zhaobingjun.png",
+      "before": "At that time Cheng Dequan",
+      "alt": "A studio portrait of a heavyset man with a small mustache in a dark Chinese gown, a landscape backdrop behind.",
+      "caption": "Zhao Bingjun, Yuan's premier and the case's named principal. (Reprint caption: 'Zhao Bingjun'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+    }
+  ],
+  "ch003": [
+    {
+      "file": "ch003_daijitao.png",
+      "before": "Mr. Dai Jitao, President of the Examination Yuan",
+      "alt": "A studio portrait of a man with a small mustache in a pale high-collared Chinese jacket.",
+      "caption": "Dai Jitao. (Reprint caption: 'Dai Jitao'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+    }
+  ],
+  "ch005": [
+    {
+      "file": "ch005_zhangtaiyan.png",
+      "before": "Cai Yuanpei, Wu Zhihui, Zhang Taiyan",
+      "alt": "A portrait of a broad-faced man with short hair and a level gaze, in a dark collared jacket.",
+      "caption": "Zhang Taiyan. (Reprint caption: 'Zhang Taiyan'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+    }
+  ],
+  "ch006": [
+    {
+      "file": "ch006_kangyouwei.png",
+      "before": "In the Wuxu coup at the close",
+      "alt": "A full-length studio portrait of a bearded elderly man in a silk gown, standing before a flowered backdrop.",
+      "caption": "Kang Youwei. (Reprint caption: 'Kang Youwei'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+    }
+  ],
+  "ch010": [
+    {
+      "file": "ch010_libailiu.png",
+      "before": "Among these, one hundred titles",
+      "alt": "A magazine cover, a line drawing of a bobbed-haired young woman resting her chin on her hand over a closed book, lettered 'The Saturday, No. 122'.",
+      "caption": "A cover of the fiction weekly Libai Liu (The Saturday). (Reprint illustration added by the 2019 editor, not a figure of the 1933 book.)"
+    },
+    {
+      "file": "ch010_shenghuo.png",
+      "before": "Speaking of all these many magazines",
+      "alt": "The front page of a tabloid-format weekly with the masthead character-title 'Shenghuo' set in a decorative border.",
+      "caption": "Zou Taofen's Shenghuo (Life) Weekly. (Reprint illustration added by the 2019 editor, not a figure of the 1933 book.)"
+    },
+    {
+      "file": "ch010_shiritan.png",
+      "before": "As for how often they come out",
+      "alt": "A magazine cover with a bold title 'Shiritan' above a crowded allegorical drawing, lettered 'Decameron No. 35'.",
+      "caption": "Shao Xunmei's Shiritan (Decameron). (Reprint illustration added by the 2019 editor, not a figure of the 1933 book.)"
+    }
+  ],
+  "ch012": [
+    {
+      "file": "ch012_fuzhoulu.png",
+      "before": "The middle stretch of Fuzhou Road",
+      "alt": "A street photograph of a busy multi-story corner building with shop signboards and pedestrians, in old Shanghai.",
+      "caption": "Bookshops on Fuzhou Road, old Shanghai. (Reprint caption: 'Old Shanghai, Fuzhou Road bookshops'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+    }
+  ],
+  "ch013": [
+    {
+      "file": "ch013_chunliu.png",
+      "before": "The new drama (that is, spoken drama",
+      "alt": "An ink cartoon of a knot of young men before a large painted playbill that shows two faces and reads, in Chinese and Japanese, 'Chunliu Society' and 'Camille'.",
+      "caption": "A cartoon of the Chunliu Society's benefit performance in Japan (the playbill names Camille). (Reprint caption: 'A cartoon concerning the Chunliu Society's charity performance in Japan'. Added by the 2019 editor, not a figure of the 1933 book.)"
+    },
+    {
+      "file": "ch013_zhengzhengqiu.png",
+      "before": "Then Mr. Zheng Zhengqiu",
+      "alt": "A studio portrait of a man in round spectacles and a Chinese gown, hair brushed back.",
+      "caption": "Zheng Zhengqiu. (Reprint caption: 'Zheng Zhengqiu'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+    }
   ]
 }

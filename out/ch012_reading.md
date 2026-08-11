@@ -1,0 +1,7 @@
+### Culture Street
+
+The middle stretch of Fuzhou Road (popularly called "Fourth Avenue") is what everyone calls "Culture Street," because the bookshops there are so many. The largest are such houses as the Zhonghua Book Company and the World Book Company; of the middling sort there are the Dadong, the Guangyi, the Xiandai, the Beixin, the Kaiming; of the smaller compass, the Taidong, the Guanghua, the Huatong, the Xin Zhongguo, the Qingyun, the Xinyue, together with the antiquarian shops of this "Studio" and that "Pavilion." They come to several dozen in all, and a short stretch that holds several dozen bookshops may fairly bear the name of "Culture Street" without a blush.
+
+But among all these bookshops, some sell only textbooks and translated works, some only new-culture books and periodicals, some only fiction old and new, and there are those besides that put out lewd novels of the "school of vice" and picture-serials — every sort under the sun, a very compendium of the kind, dazzling and dumbfounding to behold. There are also several antiquarian shops that deal only in old editions.
+
+Besides the bookshops, the place has many a sly little sundries-shop as well; and come nightfall it turns into a haunt of streetwalkers, and a headquarters for the boss-peddlers who hawk dirty pictures (that is, "spring-palace" prints). With these several things scattered through it, they are, to my mind, so much of a blot on Culture Street.

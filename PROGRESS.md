@@ -164,3 +164,142 @@ Scope: ch000 (序, Author's Preface, PDF 12-13 / printed 10-11) and ch001
   template placeholder (first line "(First line: ...)"). Our HANDOFF now
   carries a REAL kickoff, so the hook correctly enters its enforcing path.
   Template-only fixture assumption; the hook itself is working as designed.
+
+## B02 = ch002-ch014 (2026-08-11)
+
+Scope: ch002 (宋案的回顧) through ch014 (跳舞), PDF 34-58 / printed 32-56.
+Thirteen essays, the "press and politics" cluster: the Song Jiaoren case, Dai
+Jitao, Zhang Taiyan, Kang Youwei, the revolutionary papers, Zhou Hao, Xue
+Dake, the magazines, the evening papers, Culture Street, the new drama, and
+the dance halls.
+
+### Pipeline / OCR
+- render 34-58 --dpi 300; ocr_crop 34-58 --left 0.03 --right 0.97 --top 0.13
+  --bottom 0.95 --lang chi_tra_vert --psm 5 as a ROUGH scaffold only.
+  pgrep -c tesseract = 0 after the run.
+- As in B01, tesseract on this vertical-Traditional reset is ~85% and too
+  error-dense to trust; every page was EYE-READ at magnification and data/zh
+  hand-transcribed against the scans. Paragraph structure finalized by hand,
+  cross-checked against the OCR blank-line signal (short-line judgment at the
+  page seams where the blank falls off the page; confirmed every break).
+- Crop-verified load-bearing readings recorded in data/ocr_fixes.json: the
+  Song-case telegram phrase 毀宋酬勳; Song's age 三十有二; Hong's 電氣絞刑;
+  the crossed sobriquets on printed p40 (岑西林/黎黃陂, see below); the
+  Minquan Bao staff names (牛霹生, 蔣箸超, 吳雙熱); 薛大可; 砉然; the dance
+  price 三角三分. Verified against magnified column crops (scratch_crops/).
+
+### Figures (13, all reprint-added, provenance stated in every caption)
+- ch002: four portraits from PDF 34-35 (宋教仁 Song Jiaoren, 應桂馨 Ying
+  Guixin, 洪述祖 Hong Shuzu, 趙秉鈞 Zhao Bingjun), placed at paragraph
+  openings across the chapter.
+- ch003 戴季陶; ch005 章太炎; ch006 康有為 (portraits).
+- ch010: three magazine covers (《禮拜六》Libai Liu, 韜奮的《生活》Shenghuo,
+  邵洵美的《十日談》Shiritan/Decameron), one per paragraph P2-P4.
+- ch012 老上海福州路書店 (street photo); ch013 the 春柳社 Camille cartoon
+  and 鄭正秋 portrait.
+- Photos cropped to data/figs/ (tracked); each caption translates the
+  reprint's own label AND states the 2019-editor provenance. NOTE:
+  find_figures.py NOT used (it misses line art / false-positives dense text);
+  every page eyeballed by hand.
+
+### Checks (all green)
+- verify_unit (parity + numbers) ch002-ch014: parity OK on all
+  (6/1/2/2/4/2/3/2/4/4/3/6/3 paragraphs); numbers unresolved 0 after noise.
+- check_numbers noise added (data/noise.txt, with per-entry reasons):
+  十六開/四開/八開 (paper formats), 禮拜六 (the "Saturday" magazine title),
+  九一八/一二八 (event dates carried as month-day), 瞎七搭八 (idiom), the
+  weekday run 星期一、二、三、四、五, 萬丈深淵 (idiom). REAL quantities were
+  carried in the English instead of noised: 十萬元 -> "one hundred thousand
+  dollars"; 一百多種 -> "one hundred titles and more"; 兩字 -> "two-character
+  pen name"; 兩報 -> "both the Shenbao and the Xinwenbao".
+- check_align: all 13 units within 2.2x of the unit median, no stray pair.
+- check_content (check_config.json, ch002-ch014): 0 displaced.
+- qc_entities: 0 misses on every unit (entity census printed per unit).
+- check_structure: parity OK, 93 note anchors resolve (118 book-wide), 0
+  unresolved, heading shape OK.
+- check_apparatus: 0 failures, 0 warnings.
+- Build: qa_epub PASS (200 files, 175 documents, 118 refs/bodies/backlinks
+  ordered, 13 pagebreaks); epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings.
+- check_register --ref out/ch001_reading.md: all 13 units within tolerance.
+- Tail verification (rule 4 corollary): ch002 (膽識俱優 / p37), ch006
+  (好惡不同了 / p42), ch013 (不堪回首之感 / p56), ch014 (不可救藥 / p58)
+  re-read against the scans. Faithful.
+
+### Apparatus
+- Notes: 93 added this batch (book-wide 26-118), numbered by the builder.
+  Dense per the commissioner's standing "go crazy" instruction: who each
+  person/paper/office/party/event was, texture lost in translation (idioms,
+  allusions, the "spring-palace" and "pheasant" slang), and the author as
+  interested witness. Every historical claim fact-checked against Wikipedia
+  (EN/ZH), Baidu Baike and academic/reference sources (NO LLM-written sites);
+  verdicts stated IN the notes.
+- Glossary: 25 rows added (11 people, 3 places, 7 organizations/papers, 4
+  terms), merged into the SECTIONED glossary. Reused unchanged from B01:
+  南京路 (ch009,013), 捕房 (ch003, via 總巡捕房). authority.json feed-back is
+  deferred to book completion (Definition of Done) per the cross-book shelf
+  convention; decided renderings live in glossary.json meanwhile.
+- FACT-CHECK FLAGS recorded in the notes (honest apparatus):
+  * ch002 Song "declined" the Agriculture-Forestry post: CONTRADICTED. He
+    took it (Apr 1912) and resigned (Jul 1912); the book conflates this with
+    his later refusal of Yuan's bribes. Rendered as printed, footnoted.
+  * ch002 age 三十有二 = 32 by Chinese count, 30 Western. Footnoted.
+  * ch002 電氣絞刑: UNCORROBORATED embellishment. Hong Shuzu was hanged
+    (5 Apr 1919), the drop famously botched. Rendered as printed, footnoted.
+  * ch002 telegram phrases 毀宋酬勳 / 梁山: CORROBORATED as real case
+    evidence. Zhao/Ying/Wu deaths CORROBORATED (Zhao poisoning is the
+    traditional allegation, one revisionist stroke view noted).
+  * ch005 光緒三十二年 (1906) for the Subao case: WRONG. The case broke in
+    1903 (Guangxu 29); 1906 is when Zhang was released. Footnoted. Also the
+    Subao's actual editor was Zhang Shizhao, not Zhang Taiyan (footnoted).
+  * ch006 crossed sobriquets 黎元洪之稱岑西林 / 岑春煊之稱黎黃陂: SOURCE
+    ERROR (Li Yuanhong was 黎黃陂, Cen Chunxuan 岑西林). Rendered as printed,
+    footnoted.
+  * ch006 《國是報》: UNCORROBORATED. Kang's documented 1913 Shanghai organ
+    was 《不忍》(Buren); the Guoshi Bao attribution is unverified, possibly a
+    confusion. Footnoted honestly.
+  * ch006 傀儡國 (Manchukuo, 1932) dates the sketch to 1932+; ch010's "Year
+    of the Magazine" and internal reckonings point to composition ~1934-35,
+    a few years past the 1933 imprint (same internal-dating gap flagged in
+    B01; unresolved, cannot collate against a 1933 original in this reset).
+  * ch009 Xue Dake as one of "洪憲六君子": the canonical Six were the
+    Chouan Society (Yang Du et al.); Xue was the press propagandist, not
+    usually counted among them. Clarified in the note.
+
+### Tooling fixes (do NOT revert; added to HANDOFF do-not-revert list)
+- scripts/apparatus_merge.py PATCHED: glossary merge is now SECTION-AWARE.
+  It routes each batch glossary row into people/places/organizations/terms
+  (a row's optional "section" field, default "terms"), treats a zh already
+  present in ANY section as already-present, and preserves the flat behavior
+  for an un-sectioned ledger. The old flat merge shelved rows at the top
+  level and CRASHED the builder's render_glossary. (B02 rows were moved into
+  sections by hand after the fact; B03+ can pass a sectioned batch glossary.)
+- Note bodies are inserted RAW (not escaped): a bare "&" breaks the notes
+  XHTML (it slipped past apparatus_merge's named-entity guard and produced a
+  fatal epubcheck parse error, dropping every later note body). Fixed
+  "S. Moutrie & Co." -> "S. Moutrie &#38; Co." Use &#38; for a literal
+  ampersand in any note/glossary body.
+- Figure "before" anchors MUST fall in the first ~80 chars of the target
+  paragraph (the builder inserts the figure before that paragraph); five
+  B02 specs were repointed to paragraph openings.
+- check_config.json REGENERATED to ch002-ch014 only: ch000/ch001 data/zh is
+  gitignored and not regenerable in a fresh container (B01 reproducibility
+  note), so check_structure/check_content cover the batch's units; the
+  builder still refuses any unmatched anchor book-wide as the backstop.
+
+### Register / voice
+- Held to the frozen ch001 reference. The grave political-history essays
+  (ch002-ch009) keep the newspaperman's quick, worldly, editorializing voice
+  without slipping into academic distance; the author's own asides (the dog
+  cartoon, "trading on his years", the "blot on Culture Street", the dance-
+  hall moral) rendered in his amused register.
+
+### NOT re-noted this batch (already placed; cross-referenced instead)
+- 袁世凱 Yuan Shikai: full note at ch002 (Glossary); later chapters use the
+  short "Yuan". 民立報/民權報/天鐸報: IDed at ch002 (four-paper note +
+  Glossary), not re-noted at ch003/ch007/ch008. Zhou Hao: note at ch002,
+  his own chapter (ch008) adds only new detail (the Su-style calligraphy).
+  南京路, 捕房/巡捕房: B01 notes stand; not re-noted.
+- Deferred to their own later chapters (NOT noted here): 野雞 as a standalone
+  (ch043 野雞大學, ch093 野雞) gets its full glossary decision there; here only
+  a first-appearance footnote at ch012. 舞女 rendered "dance-girl"
+  consistently; glossary decision deferred.

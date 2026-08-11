@@ -1,11 +1,33 @@
 {
  "docs": {
-  "ch000": "out/ch000_reading.md",
-  "ch001": "out/ch001_reading.md"
+  "ch002": "out/ch002_reading.md",
+  "ch003": "out/ch003_reading.md",
+  "ch004": "out/ch004_reading.md",
+  "ch005": "out/ch005_reading.md",
+  "ch006": "out/ch006_reading.md",
+  "ch007": "out/ch007_reading.md",
+  "ch008": "out/ch008_reading.md",
+  "ch009": "out/ch009_reading.md",
+  "ch010": "out/ch010_reading.md",
+  "ch011": "out/ch011_reading.md",
+  "ch012": "out/ch012_reading.md",
+  "ch013": "out/ch013_reading.md",
+  "ch014": "out/ch014_reading.md"
  },
  "sources": {
-  "ch000": "data/zh/ch000.txt",
-  "ch001": "data/zh/ch001.txt"
+  "ch002": "data/zh/ch002.txt",
+  "ch003": "data/zh/ch003.txt",
+  "ch004": "data/zh/ch004.txt",
+  "ch005": "data/zh/ch005.txt",
+  "ch006": "data/zh/ch006.txt",
+  "ch007": "data/zh/ch007.txt",
+  "ch008": "data/zh/ch008.txt",
+  "ch009": "data/zh/ch009.txt",
+  "ch010": "data/zh/ch010.txt",
+  "ch011": "data/zh/ch011.txt",
+  "ch012": "data/zh/ch012.txt",
+  "ch013": "data/zh/ch013.txt",
+  "ch014": "data/zh/ch014.txt"
  },
  "notes": "notes.json",
  "variants": {}

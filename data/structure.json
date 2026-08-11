@@ -1,4 +1,17 @@
 [
  {"id": "ch000", "pdf": 12, "printed": 10, "title": "序", "title_en": "Author's Preface"},
- {"id": "ch001", "pdf": 23, "printed": 21, "title": "上海人的過年忙", "title_en": "The New Year Rush"}
+ {"id": "ch001", "pdf": 23, "printed": 21, "title": "上海人的過年忙", "title_en": "The New Year Rush"},
+ {"id": "ch002", "pdf": 34, "printed": 32, "title": "宋案的回顧", "title_en": "The Song Case, Looked Back On"},
+ {"id": "ch003", "pdf": 38, "printed": 36, "title": "戴季陶被捕", "title_en": "The Arrest of Dai Jitao"},
+ {"id": "ch004", "pdf": 39, "printed": 37, "title": "如同狗屁的《天仇文集》", "title_en": "Like a Dog's Fart: The Tianchou Collection"},
+ {"id": "ch005", "pdf": 40, "printed": 38, "title": "章太炎監禁西牢", "title_en": "Zhang Taiyan in the Western Gaol"},
+ {"id": "ch006", "pdf": 41, "printed": 39, "title": "康聖人辦《國是報》", "title_en": "Sage Kang Runs a Newspaper"},
+ {"id": "ch007", "pdf": 43, "printed": 41, "title": "《天鐸報》人才濟濟", "title_en": "The Talent at the Tianduo Bao"},
+ {"id": "ch008", "pdf": 44, "printed": 42, "title": "周浩膽識俱優", "title_en": "Zhou Hao, Bold and Shrewd"},
+ {"id": "ch009", "pdf": 46, "printed": 44, "title": "薛君子喪膽", "title_en": "Gentleman Xue Loses His Nerve"},
+ {"id": "ch010", "pdf": 47, "printed": 45, "title": "十六開", "title_en": "The Sixteenmo Magazines"},
+ {"id": "ch011", "pdf": 49, "printed": 47, "title": "夜報", "title_en": "The Evening Papers"},
+ {"id": "ch012", "pdf": 51, "printed": 49, "title": "文化街", "title_en": "Culture Street"},
+ {"id": "ch013", "pdf": 53, "printed": 51, "title": "如此新劇", "title_en": "New Drama, Such as It Is"},
+ {"id": "ch014", "pdf": 57, "printed": 55, "title": "跳舞", "title_en": "Dancing"}
 ]

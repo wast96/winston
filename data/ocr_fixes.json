@@ -1,19 +1,149 @@
 {
-  "_about": "Crop-verified OCR readings for this book (audit trail + replay). The 2019 reprint is vertical-RTL Traditional; tesseract chi_tra_vert --psm 5 OCRs it at only ~85% char accuracy, too error-dense for targeted-fix replay to reconstruct a clean source. For B01 the data/zh source was therefore produced by full-page EYE-TRANSCRIPTION against magnified scans (the whole reference batch was read for the voice gate). The entries below are the readings CROP-VERIFIED at magnification (load-bearing number, proper names, systematic mangles) recorded per CLAUDE.md so the audit trail survives; page is the PDF page the crop was read on. See PROGRESS.md.",
-  "ch000": [
-    {"wrong": "克君慕俠", "right": "郁君慕俠", "page": 13, "why": "author name Yu Muxia; OCR 郁->克"},
-    {"wrong": "格言語輯", "right": "格言叢輯", "page": 13, "why": "Chen Diexian's book title; 叢->語"},
-    {"wrong": "慣在軍閣時代", "right": "曩在軍閥時代", "page": 13, "why": "曩->慣, 閥->閣"},
-    {"wrong": "皇蕉", "right": "皇荂", "page": 13, "why": "Zhuangzi Tiandi chapter tune-name 皇荂"},
-    {"wrong": "人酉七夕", "right": "癸酉七夕", "page": 13, "why": "guiyou (1933) Qixi; signature date crop-verified"},
-    {"wrong": "西湖息養社", "right": "西湖息養社", "page": 13, "why": "Xihu Xiyang She, signature place crop-verified (already clean)"}
-  ],
-  "ch001": [
-    {"wrong": "一潭那已二十四年", "right": "一剎那已二十四年", "page": 23, "why": "LOAD-BEARING number crop-verified at magnification: 二十四 (24), NOT 三十四; 潭->剎"},
-    {"wrong": "定思金陵", "right": "定鼎金陵", "page": 23, "why": "定鼎 (established the capital at) Jinling/Nanjing; 鼎->思"},
-    {"wrong": "城隍講", "right": "城隍廟", "page": 26, "why": "City God Temple; systematic 廟->講 mangle"},
-    {"wrong": "南京路尋講", "right": "南京路虹廟", "page": 26, "why": "Hong Miao on Nanjing Road; 虹->尋, 廟->講"},
-    {"wrong": "更商加於市、工較於業", "right": "更商輟於市、工輟於業", "page": 27, "why": "輟 (cease) crop-verified"},
-    {"wrong": "鑼鼓鏡錢之類", "right": "鑼鼓鐃鈸之類", "page": 32, "why": "gongs, drums, cymbals (鐃鈸)"}
-  ]
+ "_about": "Crop-verified OCR readings for this book (audit trail + replay). The 2019 reprint is vertical-RTL Traditional; tesseract chi_tra_vert --psm 5 OCRs it at only ~85% char accuracy, too error-dense for targeted-fix replay to reconstruct a clean source. For B01 the data/zh source was therefore produced by full-page EYE-TRANSCRIPTION against magnified scans (the whole reference batch was read for the voice gate). The entries below are the readings CROP-VERIFIED at magnification (load-bearing number, proper names, systematic mangles) recorded per CLAUDE.md so the audit trail survives; page is the PDF page the crop was read on. See PROGRESS.md.",
+ "ch000": [
+  {
+   "wrong": "克君慕俠",
+   "right": "郁君慕俠",
+   "page": 13,
+   "why": "author name Yu Muxia; OCR 郁->克"
+  },
+  {
+   "wrong": "格言語輯",
+   "right": "格言叢輯",
+   "page": 13,
+   "why": "Chen Diexian's book title; 叢->語"
+  },
+  {
+   "wrong": "慣在軍閣時代",
+   "right": "曩在軍閥時代",
+   "page": 13,
+   "why": "曩->慣, 閥->閣"
+  },
+  {
+   "wrong": "皇蕉",
+   "right": "皇荂",
+   "page": 13,
+   "why": "Zhuangzi Tiandi chapter tune-name 皇荂"
+  },
+  {
+   "wrong": "人酉七夕",
+   "right": "癸酉七夕",
+   "page": 13,
+   "why": "guiyou (1933) Qixi; signature date crop-verified"
+  },
+  {
+   "wrong": "西湖息養社",
+   "right": "西湖息養社",
+   "page": 13,
+   "why": "Xihu Xiyang She, signature place crop-verified (already clean)"
+  }
+ ],
+ "ch001": [
+  {
+   "wrong": "一潭那已二十四年",
+   "right": "一剎那已二十四年",
+   "page": 23,
+   "why": "LOAD-BEARING number crop-verified at magnification: 二十四 (24), NOT 三十四; 潭->剎"
+  },
+  {
+   "wrong": "定思金陵",
+   "right": "定鼎金陵",
+   "page": 23,
+   "why": "定鼎 (established the capital at) Jinling/Nanjing; 鼎->思"
+  },
+  {
+   "wrong": "城隍講",
+   "right": "城隍廟",
+   "page": 26,
+   "why": "City God Temple; systematic 廟->講 mangle"
+  },
+  {
+   "wrong": "南京路尋講",
+   "right": "南京路虹廟",
+   "page": 26,
+   "why": "Hong Miao on Nanjing Road; 虹->尋, 廟->講"
+  },
+  {
+   "wrong": "更商加於市、工較於業",
+   "right": "更商輟於市、工輟於業",
+   "page": 27,
+   "why": "輟 (cease) crop-verified"
+  },
+  {
+   "wrong": "鑼鼓鏡錢之類",
+   "right": "鑼鼓鐃鈸之類",
+   "page": 32,
+   "why": "gongs, drums, cymbals (鐃鈸)"
+  }
+ ],
+ "ch002": [
+  {
+   "wrong": "毀本動",
+   "right": "毀宋酬勳",
+   "page": 34,
+   "why": "the coded telegram phrase (real case evidence); crop-verified"
+  },
+  {
+   "wrong": "三十有二",
+   "right": "三十有二",
+   "page": 35,
+   "why": "Song's age as printed (32 sui = 30 Western); load-bearing number, verified as-printed"
+  },
+  {
+   "wrong": "電氣生刑",
+   "right": "電氣絞刑",
+   "page": 36,
+   "why": "Hong Shuzu execution as printed ('electric garrote'); record: was judicial hanging 1919"
+  }
+ ],
+ "ch006": [
+  {
+   "wrong": "稱冷西林、崔春煊之稱黎黃陂",
+   "right": "稱岑西林、岑春煊之稱黎黃陂",
+   "page": 42,
+   "why": "SOURCE ERROR verified as-printed: sobriquets crossed (Li Yuanhong=Li Huangpi, Cen Chunxuan=Cen Xilin in fact)"
+  }
+ ],
+ "ch008": [
+  {
+   "wrong": "牛露生",
+   "right": "牛霹生",
+   "page": 44,
+   "why": "Minquan Bao writer name; crop-verified 霹 (雨 radical)"
+  },
+  {
+   "wrong": "蔣著超",
+   "right": "蔣箸超",
+   "page": 44,
+   "why": "Minquan Bao writer name; crop-verified 箸"
+  },
+  {
+   "wrong": "吳雙熟",
+   "right": "吳雙熱",
+   "page": 44,
+   "why": "Butterfly-school novelist Wu Shuangre; crop-verified 熱"
+  }
+ ],
+ "ch009": [
+  {
+   "wrong": "薛大司",
+   "right": "薛大可",
+   "page": 46,
+   "why": "Xue Dake, Yaxiya Bao founder; crop-verified"
+  },
+  {
+   "wrong": "甚然一聲",
+   "right": "砉然一聲",
+   "page": 46,
+   "why": "砉 (crash sound); crop-verified"
+  }
+ ],
+ "ch014": [
+  {
+   "wrong": "三角三分",
+   "right": "三角三分",
+   "page": 57,
+   "why": "dance price as printed (0.33 dollar); load-bearing number verified"
+  }
+ ]
 }

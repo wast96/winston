@@ -43,3 +43,30 @@
 # 百貨 "hundred goods" = general merchandise / sundries; the 百 is a lexical
 #   compound, not the number 100 — English renders "wares" / "sundries".
 百貨
+# 十六開 "sixteenmo" — a paper/binding format (a sheet folded into 16 leaves),
+#   not a count of 16; English renders "sixteenmo".
+十六開
+# 四開 "quarto" — a paper format (sheet folded in 4), not a count; English
+#   renders "quarto".
+四開
+# 八開 "octavo" — a paper format (sheet folded in 8), not a count; English
+#   renders "octavo".
+八開
+# 禮拜六 the magazine title Libai Liu ("Saturday"); the 六 is the weekday
+#   name, not a count — English keeps the romanized title "Libai Liu".
+禮拜六
+# 九一八 the "September Eighteenth" (Mukden) Incident of 1931, an event name;
+#   English carries the date as "September Eighteenth", not the value 918.
+九一八
+# 一二八 the "January Twenty-eighth" (Shanghai) Incident of 1932, an event
+#   name; English carries "January Twenty-eighth", not the value 128.
+一二八
+# 瞎七搭八 idiom, "slapdash / any old way"; the 七 and 八 are idiom, not
+#   counts — English renders "any old way".
+瞎七搭八
+# 星期一、二、三、四、五 weekday enumeration (Mon–Fri), no quantity —
+#   English renders "Monday through Friday".
+星期一、二、三、四、五
+# 萬丈深淵 idiom, "a ten-thousand-fathom abyss" = a bottomless pit; the 萬 is
+#   idiom, not a count — English renders "bottomless pit".
+萬丈深淵

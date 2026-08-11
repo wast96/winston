@@ -15,6 +15,72 @@
       "pinyin": "Tianxuwosheng",
       "status": "attested",
       "note": "The pen name of Chen Diexian (陳蝶仙, 1879–1940), a prolific novelist of the “Mandarin Ducks and Butterflies” school, editor of the <i>Shenbao</i>’s literary supplement, and industrialist who founded Household Industries (家庭工業社), maker of Butterfly-brand toothpowder. He wrote this preface."
+    },
+    "袁世凱": {
+      "en": "Yuan Shikai",
+      "pinyin": "Yuan Shikai",
+      "status": "attested",
+      "note": "The strongman of the early Republic (1859-1916): last great minister of the Qing, first President of the Republic, and, in 1915-16, would-be emperor under the reign-title Hongxian."
+    },
+    "戴季陶": {
+      "en": "Dai Jitao",
+      "pinyin": "Dai Jitao",
+      "status": "attested",
+      "note": "Journalist turned Nationalist ideologue (1891-1949); in these years a firebrand writer under the pen name Tianchou, later a founding theorist of the Kuomintang and long-serving President of the Examination Yuan."
+    },
+    "周浩": {
+      "en": "Zhou Hao",
+      "pinyin": "Zhou Hao",
+      "status": "attested",
+      "note": "Journalist, styled Shaoheng; co-founder and director (with Dai Jitao) of the Shanghai Minquan Bao in 1912."
+    },
+    "趙秉鈞": {
+      "en": "Zhao Bingjun",
+      "pinyin": "Zhao Bingjun",
+      "status": "attested",
+      "note": "Yuan Shikai's premier and interior minister, implicated in the 1913 assassination of Song Jiaoren; died suddenly in 1914."
+    },
+    "康有為": {
+      "en": "Kang Youwei",
+      "pinyin": "Kang Youwei",
+      "status": "attested",
+      "note": "Leader of the 1898 Hundred Days Reform and thereafter a lifelong constitutional monarchist (1858-1927)."
+    },
+    "梁啟超/啟超/梁任公": {
+      "en": "Liang Qichao",
+      "pinyin": "Liang Qichao",
+      "status": "attested",
+      "note": "Kang Youwei's foremost disciple (1873-1929), reformer, journalist and scholar; unlike his teacher he served in Republican cabinets."
+    },
+    "章太炎": {
+      "en": "Zhang Taiyan",
+      "pinyin": "Zhang Taiyan",
+      "status": "attested",
+      "note": "Zhang Binglin (1869-1936), the great philologist and revolutionary polemicist, jailed in the 1903 Subao case."
+    },
+    "鄭正秋": {
+      "en": "Zheng Zhengqiu",
+      "pinyin": "Zheng Zhengqiu",
+      "status": "attested",
+      "note": "Pioneer of modern Chinese theater and film (1889-1935); organizer of the Xinmin drama society and, later, a founder of the Mingxing Film Company."
+    },
+    "歐陽予倩": {
+      "en": "Ouyang Yuqian",
+      "pinyin": "Ouyang Yuqian",
+      "status": "attested",
+      "note": "Actor, playwright and dramatist (1889-1962), one of the founders of modern Chinese spoken drama."
+    },
+    "蘇石癡": {
+      "en": "Su Shichi",
+      "pinyin": "Su Shichi",
+      "status": "provisional",
+      "note": "New-drama impresario of the 1910s; head of the Minxing society."
+    },
+    "顧無為": {
+      "en": "Gu Wuwei",
+      "pinyin": "Gu Wuwei",
+      "status": "provisional",
+      "note": "New-drama actor-manager of the 1910s."
     }
   },
   "places": {
@@ -53,6 +119,24 @@
       "pinyin": "Jinling",
       "status": "decided",
       "note": "Jinling, a classical name for Nanjing, capital of the Nationalist government from 1927."
+    },
+    "福州路": {
+      "en": "Fuzhou Road",
+      "pinyin": "Fuzhou Road",
+      "status": "attested",
+      "note": "The Shanghai street popularly called Fourth Avenue (Simalu), lined with bookshops, teahouses and brothels."
+    },
+    "望平街": {
+      "en": "Wangping Street",
+      "pinyin": "Wangping Street",
+      "status": "attested",
+      "note": "The short Shanghai lane, off Nanjing Road, that housed the great newspaper offices; known as Newspaper Street."
+    },
+    "棋盤街": {
+      "en": "Qipan Street",
+      "pinyin": "Qipan Street",
+      "status": "decided",
+      "note": "A street near Nanjing Road, famous for its bookshops and publishers."
     }
   },
   "organizations": {
@@ -79,6 +163,48 @@
       "pinyin": "qianzhuang",
       "status": "attested",
       "note": "A traditional Chinese money-shop or bank (<i>qianzhuang</i>), as distinct from the foreign banks; the mainstay of Chinese commercial credit."
+    },
+    "民立報": {
+      "en": "Minli Bao",
+      "pinyin": "Minli Bao",
+      "status": "attested",
+      "note": "The leading revolutionary daily of the late Qing, founded in Shanghai by Yu Youren in 1910."
+    },
+    "民權報": {
+      "en": "Minquan Bao",
+      "pinyin": "Minquan Bao",
+      "status": "attested",
+      "note": "A fiercely anti-Yuan Shanghai daily of 1912-13, run by Zhou Hao with Dai Jitao as chief writer."
+    },
+    "天鐸報": {
+      "en": "Tianduo Bao",
+      "pinyin": "Tianduo Bao",
+      "status": "attested",
+      "note": "A Shanghai daily of the late Qing and early Republic that turned to revolutionary commentary; an early berth for Dai Jitao, Zhou Hao and Chen Bulei."
+    },
+    "亞細亞報": {
+      "en": "Yaxiya Bao",
+      "pinyin": "Yaxiya Bao",
+      "status": "attested",
+      "note": "The Shanghai Yaxiya Ribao (Asia Daily), a pro-Yuan paper that promoted his monarchy in 1915-16."
+    },
+    "大晚報": {
+      "en": "Da Wanbao",
+      "pinyin": "Da Wanbao",
+      "status": "attested",
+      "note": "An independent Shanghai evening paper founded by Zhang Zhuping in 1932."
+    },
+    "申報": {
+      "en": "Shenbao",
+      "pinyin": "Shenbao",
+      "status": "attested",
+      "note": "Shanghai's oldest and most important Chinese daily (founded 1872)."
+    },
+    "新聞報": {
+      "en": "Xinwenbao",
+      "pinyin": "Xinwenbao",
+      "status": "attested",
+      "note": "A major Shanghai commercial daily, rival of the Shenbao."
     }
   },
   "terms": {
@@ -141,6 +267,30 @@
       "pinyin": "yasui qian",
       "status": "decided",
       "note": "New Year money given by elders to children, “to weigh down the year” (and, by a pun on <i>sui</i>, to ward off evil); the Shanghai word in the text is <i>yasui dian</i> (壓歲鈿), <i>dian</i> being the Wu-dialect word for money."
+    },
+    "新劇": {
+      "en": "new drama",
+      "pinyin": "xinju",
+      "status": "decided",
+      "note": "Early modern Chinese spoken drama (huaju), as against sung opera; in its first years popularly the 'civilized play' (wenmingxi)."
+    },
+    "遊戲場": {
+      "en": "amusement hall",
+      "pinyin": "youxichang",
+      "status": "decided",
+      "note": "A Shanghai indoor amusement arcade (like the Great World), offering variety turns, opera, films and games under one roof."
+    },
+    "小報": {
+      "en": "tabloid",
+      "pinyin": "xiaobao",
+      "status": "decided",
+      "note": "The small-format Shanghai 'mosquito papers' of gossip, entertainment and scandal."
+    },
+    "號外": {
+      "en": "extra",
+      "pinyin": "haowai",
+      "status": "decided",
+      "note": "A special one-sheet newspaper edition rushed out to carry breaking news."
     }
   }
 }

@@ -94,19 +94,56 @@ def main(path):
 
     if "glossary" in batch:
         g = load("glossary.json", {})
+        # The builder wants a SECTIONED glossary ({people,places,organizations,
+        # terms} each a dict of zh->row), plus a top-level "_about" string.
+        # A flat merge (g[zh]=row) both mis-shelves the row and crashes the
+        # builder's render_glossary (it treats every top-level value as a
+        # section). So: when the ledger is sectioned, route each batch row into
+        # a section named by its optional "section" field (default "terms"),
+        # and treat a zh already present in ANY section as already-present.
+        SECTIONS = ("people", "places", "organizations", "terms")
+        sectioned = any(isinstance(g.get(s), dict) for s in SECTIONS)
         added = skipped = 0
-        for zh, row in batch["glossary"].items():
-            if zh in g:
-                skipped += 1
-            else:
-                g[zh] = row
-                added += 1
-        back = save("glossary.json", g)
-        for zh, row in batch["glossary"].items():
-            if zh not in back:
-                sys.exit("re-read verification failed for glossary %s" % zh)
+        if sectioned:
+            for s in SECTIONS:
+                g.setdefault(s, {})
+            present = set()
+            for s in SECTIONS:
+                present.update(g[s].keys())
+            for zh, row in batch["glossary"].items():
+                row = dict(row)
+                sec = row.pop("section", "terms")
+                if sec not in SECTIONS:
+                    sys.exit("glossary %s: bad section %r" % (zh, sec))
+                if zh in present:
+                    skipped += 1
+                else:
+                    g[sec][zh] = row
+                    present.add(zh)
+                    added += 1
+            back = save("glossary.json", g)
+            back_keys = set()
+            for s in SECTIONS:
+                back_keys.update(back.get(s, {}).keys())
+            for zh in batch["glossary"]:
+                if zh not in back_keys:
+                    sys.exit("re-read verification failed for glossary %s" % zh)
+            total = sum(len(back.get(s, {})) for s in SECTIONS)
+        else:
+            for zh, row in batch["glossary"].items():
+                if zh in g:
+                    skipped += 1
+                else:
+                    g[zh] = dict(row)
+                    g[zh].pop("section", None)
+                    added += 1
+            back = save("glossary.json", g)
+            for zh in batch["glossary"]:
+                if zh not in back:
+                    sys.exit("re-read verification failed for glossary %s" % zh)
+            total = len(g)
         print("glossary: %d added, %d already present (left untouched), "
-              "%d total" % (added, skipped, len(g)))
+              "%d total" % (added, skipped, total))
 
     if "notes" in batch:
         n = load("notes.json", {})
