@@ -367,6 +367,84 @@
       "pinyin": "Kobo Daishi (Kukai)",
       "status": "attested",
       "note": "Kukai (774-835), founder of Shingon esoteric Buddhism, held to lie not dead but in eternal meditation at Koya-san, awaiting the future Buddha Maitreya."
+    },
+    "鳥居喜八郎": {
+      "en": "Torii Kihachirō",
+      "pinyin": "Torii Kihachiro",
+      "status": "decided",
+      "note": "A Kōga middle-rank shinobi of Ōhara; father of Torii Moriichirō."
+    },
+    "チカ": {
+      "en": "Chika",
+      "pinyin": "Chika",
+      "status": "decided",
+      "note": "The unhurried, big-boned woman, neither wife nor caretaker, who keeps Hanzō's Chigachi manor at Yono."
+    },
+    "浅野長政": {
+      "en": "Asano Nagamasa",
+      "pinyin": "Asano Nagamasa",
+      "status": "attested",
+      "note": "Asano Nagamasa (1547&#8211;1611), Hideyoshi's brother-in-law and one of the Five Commissioners; a protector of the mission, who led ten thousand men into Iga in the Tenshō war."
+    },
+    "加藤清正": {
+      "en": "Katō Kiyomasa",
+      "pinyin": "Katō Kiyomasa",
+      "status": "attested",
+      "note": "Katō Kiyomasa (1562&#8211;1611), boyhood name Toranosuke; one of Hideyoshi's foremost captains, later daimyo of Higo."
+    },
+    "柴田勝家": {
+      "en": "Shibata Katsuie",
+      "pinyin": "Shibata Katsuie",
+      "status": "attested",
+      "note": "Nobunaga's senior general, lord of Kita-no-shō in Echizen; Hideyoshi's chief rival after 1582, whom he outmanoeuvred at Kiyosu and would destroy at Shizugatake."
+    },
+    "丹羽長秀": {
+      "en": "Niwa Nagahide",
+      "pinyin": "Niwa Nagahide",
+      "status": "attested",
+      "note": "An elder Oda general, lord of Sawayama; his backing of Hideyoshi at the Kiyosu council was decisive."
+    },
+    "織田信雄": {
+      "en": "Nobukatsu",
+      "pinyin": "Oda Nobukatsu",
+      "status": "attested",
+      "note": "Nobunaga's second surviving son, of the same mother as Nobutada; reckoned dull, made the young heir's guardian."
+    },
+    "織田信孝": {
+      "en": "Nobutaka",
+      "pinyin": "Oda Nobutaka",
+      "status": "attested",
+      "note": "Nobunaga's ambitious concubine-born son (Sanshichi); Shibata's ally against Hideyoshi."
+    },
+    "三法師": {
+      "en": "Sanbōshi",
+      "pinyin": "Sanbōshi (Oda Hidenobu)",
+      "status": "attested",
+      "note": "Nobutada's infant son, made Nobunaga's heir at the Kiyosu conference; later known as Oda Hidenobu."
+    },
+    "ねね": {
+      "en": "Nene",
+      "pinyin": "Nene (Kōdai-in)",
+      "status": "attested",
+      "note": "Hideyoshi's principal wife, later honored as the Kōdai-in; recipient of Nobunaga's teasing 'bald rat' letter."
+    },
+    "四方田但馬守": {
+      "en": "Yomoda Tajima-no-kami",
+      "pinyin": "Yomoda Tajima-no-kami Masataka",
+      "status": "decided",
+      "note": "An Akechi general (Soda Yoichiro's lord); the Shinsho Taikōki makes his deeds and death at Yamazaki a set-piece. A kinsman-fighter, Yomoda Matabei, figures in the Honnō-ji account."
+    },
+    "お市": {
+      "en": "Oichi",
+      "pinyin": "Oichi",
+      "status": "attested",
+      "note": "Nobunaga's sister, widow of Azai Nagamasa; married to Shibata Katsuie in the anti-Hideyoshi cause. Mother of the Lady Yodo."
+    },
+    "淀君": {
+      "en": "the Lady Yodo",
+      "pinyin": "Yodo-dono (Chacha)",
+      "status": "attested",
+      "note": "Chacha, daughter of Oichi and Azai Nagamasa; later Hideyoshi's consort and mother of his heir Hideyori."
     }
   },
   "organizations": {
@@ -533,6 +611,54 @@
       "pinyin": "Nabari",
       "status": "attested",
       "note": "A town in northern Iga; the home Goemon invents for his false self, 'Tahei.'"
+    },
+    "予野": {
+      "en": "Yono",
+      "pinyin": "Yono",
+      "status": "attested",
+      "note": "A hidden hamlet in the Iga hills, two ri south of Ueno; site of the Chigachi manor, Hanzō's home seat."
+    },
+    "上野": {
+      "en": "Ueno",
+      "pinyin": "Ueno",
+      "status": "attested",
+      "note": "The chief town of Iga; the Hattori village lies just north of it."
+    },
+    "正福寺": {
+      "en": "the Shōfuku-ji",
+      "pinyin": "Shōfuku-ji",
+      "status": "decided",
+      "note": "A poor Esoteric-sect temple at Azōda, near Ueno, that Lourenço turned into a crypto-Christian church; Hanzō worships there."
+    },
+    "大徳寺": {
+      "en": "the Daitoku-ji",
+      "pinyin": "Daitoku-ji",
+      "status": "attested",
+      "note": "The great Zen monastery in Murasakino, north Kyoto, where Hideyoshi held Nobunaga's funeral and founded the Sōken-in."
+    },
+    "山崎": {
+      "en": "Yamazaki",
+      "pinyin": "Yamazaki",
+      "status": "attested",
+      "note": "The defile between Kyoto and Osaka where Hideyoshi beat Mitsuhide in 1582; site of the Takara-dera (Yamazaki) castle."
+    },
+    "天王山": {
+      "en": "Mount Tennō",
+      "pinyin": "Tennōzan",
+      "status": "attested",
+      "note": "The height commanding the Yamazaki defile; the fight for it made tennōzan a proverb for a decisive contest."
+    },
+    "清洲": {
+      "en": "Kiyosu",
+      "pinyin": "Kiyosu",
+      "status": "attested",
+      "note": "The Owari castle where Nobunaga's generals met in 1582 to settle the succession."
+    },
+    "岐阜": {
+      "en": "Gifu",
+      "pinyin": "Gifu",
+      "status": "attested",
+      "note": "The Mino castle town, held by Nobutaka; the infant heir Sanbōshi was kept there."
     }
   },
   "terms": {
@@ -637,6 +763,30 @@
       "pinyin": "Man'yoshu",
       "status": "attested",
       "note": "Japan's oldest anthology of verse, compiled in the eighth century."
+    },
+    "天遁の術": {
+      "en": "tenton no jutsu",
+      "pinyin": "tenton no jutsu",
+      "status": "attested",
+      "note": "The ninja 'heaven-hiding' art: using cloud, wind, rain, and the alternation of light and dark to slip a watcher's eye."
+    },
+    "かまり": {
+      "en": "kamari",
+      "pinyin": "kamari",
+      "status": "attested",
+      "note": "A stealth-scout or skirmisher; the Taikōki's word for Yomoda's disguised reconnaissance troops."
+    },
+    "五奉行": {
+      "en": "the Five Commissioners",
+      "pinyin": "go-bugyō",
+      "status": "attested",
+      "note": "The five administrators Hideyoshi set over the government of the realm."
+    },
+    "さんまい": {
+      "en": "the sanmai",
+      "pinyin": "sanmai",
+      "status": "attested",
+      "note": "Under the dual-grave custom, the desolate field where corpses alone are buried, apart from the gravestone-site."
     }
   }
 }

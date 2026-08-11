@@ -216,3 +216,133 @@ eternal meditation, and the author's materialism.
   printed-page markers (ch01 does). qa_epub still PASSES (it counts whatever
   markers exist). Every ch02 note cites its printed folio in prose, so notes
   remain followable. A later pass can add ch02 to data/pagemap for parity.
+
+## Batch 3 = Chapter 3, "Surface and Underside" (第三章 表と裏, PDF 137-200, printed folios 135-198) — COMPLETE
+
+The novel's method-chapter. Its title, 表と裏 (surface and underside), is its
+procedure: the fall of Nobunaga and the rise of Hideyoshi are retold from the
+"surface" (the Edo chronicle Shinsho Taikōki, the kabuki stage) and set against
+the "underside" (Goemon, and Hanzō's ninja net). Threads: Oyu's death reported
+by Torii Moriichirō (with the Yamazaki/Chūgoku-return legends the Taikōki
+dresses up); Hanzō's crypto-Christian devotions at the Shōfuku-ji and the
+riddle of his faith; the Iga-remnant ninja who brand Hanzō a traitor and ambush
+him at the Maria image; the Kiyosu Conference and Nobunaga's grand Daitoku-ji
+funeral, where Goemon, hidden in the ceiling, first sees Hideyoshi — the man who
+will one day boil him. The chapter plants the cauldron (folio 181) and the real
+last meeting at Yodo castle thirteen years on (folio 196), and closes on Goemon
+at the crimson Yamazaki battlefield.
+
+### Deliverables shipped
+- `out/ch03_reading.md`: full clean translation, ~17,700 words, one chapter
+  heading, 2 quoted-document vignette blocks (`{v}`: Nobunaga's "bald rat"
+  letter to Nene; the kabuki father's letter). The correction surface.
+- 34 folio-cited notes in `notes.json` (book total 130), front-loaded on the
+  Taikōki/kabuki/history/religion allusions and cross-referencing ch01/ch02
+  where subjects recur.
+- 25 new sectioned glossary rows (`glossary.json`): 13 people, 8 places, 4
+  terms. No new principals (book total 14). Edited via a structure-preserving
+  JSON round-trip, NOT apparatus_merge.
+- `figures.json`: `ch03` recorded as a deliberate EMPTY figure list.
+- `out/the-stealthy-ones.epub`: cumulative build, 3 of 8 chapters translated.
+
+### Checks run and results
+- `build_reading_epub.py`: OK (3/8 chapters, 130 notes, 48 pagebreaks).
+- `qa_epub.py`: PASS (15 documents, 130 refs / 130 bodies / 130 backlinks
+  resolve; 48 page-list entries match 48 markers; all links resolve).
+- `epubcheck 5.1.0`: 0 fatals / 0 errors / 0 warnings / 0 infos (store-clean).
+- `check_apparatus.py`: 0 failures, 0 warnings.
+- `check_register.py --ref out/ch01_reading.md`: em-dash 4.3/1k (ch01 0.3, ch02
+  3.9 — in range), sentence median 17 (matches ch01), rhythm CV 0.69.
+  Contractions 3.2/1k and shall 56% run high-formal and the tool flags DRIFT;
+  this is a deliberate, documented deviation (see below), not the ch01 defect.
+
+### The em-dash / register pass (important)
+First-draft narration leaned on dashed-in appositive glosses (the ch01 defect):
+em-dash ran 14.3/1k, with ~190 of 255 dashes in narration. A targeted pass
+converted every NARRATION appositive/parenthetical dash to commas, semicolons,
+colons, periods, or parentheses (script over quote-aware spans, then hand-fixed
+~15 awkward joins and merged 11 page-boundary continuations that had become
+paragraphs opening with ", ..."). Result: em-dash 4.3/1k; the ~86 survivors are
+interrupted/trailing DIALOGUE and dashes inside quoted classical text (the
+Taikōki battle-scenes, the funeral drama, the kabuki). This is the ch01
+voice-gate fix applied to ch03.
+
+The low contraction rate (3.2/1k vs ch01's 8.8) and high "shall" share (56%) are
+inherent to this chapter, which is ~70% exposition and quoted classical text —
+registers STYLE.md and the checker both mark EXEMPT: the Shinsho Taikōki battle
+account and funeral drama, Lourenço's Christian sermon and the confession
+dialogue, Nobunaga's court-letter, the Sanmon Gosan no Kiri kabuki and the
+Goemon jisei, the Kiyosu council, the ninja-purists' declamation. The genuinely
+casual dialogue (the roadside talk, Hideyoshi and the peasants, the Kyoto
+townsfolk) has been contracted. Forcing the number higher would mean contracting
+quoted ceremonial text, which STYLE forbids.
+
+### OCR and fidelity method (unchanged from ch01/ch02)
+- Rendered PDF 137-200 (render.py, 300 dpi); OCR jpn_vert psm 5, crop
+  0.06/0.96/0.09/0.935; verified `pgrep -c tesseract` = 0. ocr_dual.py and
+  indents.py NOT used (Chinese-template holdovers). Translated by reading every
+  page image directly; OCR a structural aid only.
+- Crop-verified by eye against magnified crops (recorded so a fresh checkout
+  knows what was eye-read): the whole Shinsho Taikōki battle-quotation on the
+  dense pages (PDF 141-142, 149) and the body-double reversal (PDF 149) were
+  read at 2-3x column crops; every proper name, unit number, date, and money
+  figure in the chapter was read off the image (the funeral cost figures on
+  folio 188 — 50 gold / 300 silver / 10,000 kan / 1,000 bales rice / 1,100
+  silver / 50 koku / 1,000 kan; the conversions 1 gold = 35 koku, 1,750 koku,
+  1,680 koku, 4,200 bales; the Yamazaki battle 18,000 / 26,000 / 6,000+;
+  Kiyomasa 22 / Yomoda 38 / Nobunaga 49 / Sanbōshi 7; 550 koku, 300,000 koku,
+  120,000 koku; 185 / 197 / 13 / 124 / 200 / 382 years; 270m / 140m / 10 chō).
+- check_numbers / positional-bilingual parity NOT used as a gate: the assembled
+  vertical-JP OCR is furigana-corrupted and over-splits paragraphs, so
+  positional pairing is not meaningful (documented at ch01). Fidelity guaranteed
+  by direct image reading + eye-verification of every name/number/date.
+- One faithfulness catch, fixed before shipping: a first pass DROPPED a sentence
+  that spanned the PDF 148→149 page break (the Onna Taikōki / Sawa Juji source
+  attribution and the Kōtoku-ji's modern address and war destruction); restored
+  in full. A reminder that page-boundary resumptions are where content is lost.
+
+### Source inconsistencies / readings noted, NOT harmonized (rendered as printed)
+- Hanzō, hunting for who would ambush him (folio 172), thinks first of
+  "Nobunaga's party" — though Nobunaga has been dead some weeks. Rendered as
+  printed; the reasoning still works (he rules out the political actors and
+  lands on the Iga remnant). Left visible, not footnoted (minor tier).
+- 四方田但馬守政孝 Yomoda Tajima-no-kami (the lord, held in reserve) vs 四方田
+  又兵衛 Yomoda Matabei (the veranda-fighter in the Taikōki quote): the author
+  explicitly flags that whether the two were kin is unknown. Both rendered as
+  printed. Recorded in the glossary row.
+- The play (folio 194) calls the Ming emperor 神宗 "Shinsō, the twelfth
+  emperor" — the Wanli emperor (Shenzong), whose reign postdates Goemon; a
+  kabuki anachronism, rendered as printed.
+- タムレ (folio 169), the second of the two modern dances the author names: the
+  reading is uncertain on the scan; rendered "tamure" and footnoted as such.
+
+### Note-density and the "NOT re-noted (already placed)" list
+Front-loaded on the Taikōki/kabuki/history/religion allusions; tapers through
+the action and dialogue stretches, which is healthy. Recurring subjects were
+cross-referenced to their ch01/ch02 notes, NOT re-noted: Nobunaga, Hideyoshi,
+Ieyasu, Mitsuhide, the Honnō-ji, the Tarao/Iga crossing, Momochi=Fujibayashi,
+En no Gyōja / the Peacock King, Kōbō Daishi, the Ikkō sect / Ishiyama, Takayama
+Ukon, the Nanzen-ji Goemon legend, the shaku/sun/ri/chō/koku/kan units, the
+Special-Higher-Police / author-persecution lens (revisited on the postwar-
+Americanization and materialist-religion notes). New notes cover: the surface/
+underside method, the Shinsho Taikōki, Shizuka/Manabe, Bakin's Hakkenden, Enma,
+the Seven Bands of Musashi, kamari/Kōjirin, Katō Kiyomasa, the Onna Taikōki
+modern sources, the bashaku risings, the Chigachi/Hattori dual surname, the Ōnin
+War, Yagyū, the dual-grave sanmai and the outcaste burial-workers, Steichen's
+Christian Daimyō, Asano Nagamasa / the Five Commissioners, the sermon's social
+charge, postwar Americanization, the materialist theory of religion, the Jesuit
+nonresistance claim, the Twist/tamure, the Kiyosu Conference, the Five Constant
+Virtues, the Daitoku-ji funeral / Sōken-in, the cauldron (kamairi), tenton no
+jutsu, the empty coffin / Koretō Taiji-ki, the "bald rat" letter, Namiki Gohei /
+Sanmon Gosan no Kiri, the Goemon jisei, the Yodo-castle foreshadow, Azai/Oichi/
+Yodo, and the Battle of Yamazaki / Tennōzan.
+
+### Rendered-as-read, not glossed (one-off Taikōki / Kiyosu / kabuki names)
+Yomoda Matabei, Kimura Jirō-uemon, Murai Matabei, Yasuda Sakubei, Kajiwara
+Matauemon, Akashi Gitayū, Kuroda Kanbei, Nakagawa Sebei, Fukushima Ichimatsu,
+Katagiri Sukesaku, Asano Hachirōzaemon, Ikeda Shōnyū(sai), Hachiya Dewa-no-kami,
+Tsutsui Junkei, Sakuma Genba/Morimasa, Maeda Matazaemon/Toshiie, Sassa
+Kuranosuke/Narimasa, Mori Katsuzō, Mōri Kawachi-no-kami, Hosokawa Fujitaka/
+Tadaoki, Gamō Ujisato, Takigawa Kazumasu/Shōgen, Shibata Katsutoyo; Sō Sokei and
+Namiki Gohei (kabuki); Kurihara Ryūan, Sawa Juji, the third Enjaku (cited
+authors/actors); Kakunen and Seishin (the Shōfuku-ji monks); Kadoya (ch02).
