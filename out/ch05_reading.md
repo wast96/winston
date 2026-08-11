@@ -333,3 +333,21 @@ And so, nose to nose, a battle-line more than two ri long stood opposed. By nigh
 Both Hideyoshi and Ieyasu were men who, from the first age of understanding, had spent their days at nothing but war. Their experience of commanding great armies was past counting. And each knew the other through and through: his temper, his tactics, his strategy. Each knew that one slip could bring on a crushing defeat. So both armies held themselves at full draw, and it began to seem that neither would move at all.
 
 What broke this deadlock was Ikeda Shōnyū. He had taken Inuyama castle and won himself credit; but his son-in-law Nagayoshi had come to grief in the Hachiman wood and made them all a laughingstock, and Shōnyū, in his shame, laid a plan before Hideyoshi. It was this: for this war Ieyasu had come out with every man mobilized, so his home province of Mikawa must be standing wide open. Seize that opening, slip secretly round to the east, and strike at Okazaki.
+
+The adversary being Ieyasu, Hideyoshi thought it too risky and long withheld his leave; but he gave way at last to Shōnyū's zeal, and consented. On the sixth of the fourth month Hideyoshi mounted an attack in front of Komaki, to draw the eyes of Ieyasu's army his way; and at midnight Shōnyū set out from Inuyama with twenty thousand men, marched south, entered the hills at Ninomiya, and pushed on by Ikeuchi and Ōkusa.
+
+There, as they ate their midday meal, in the scrub of the hill that overlooks the hamlet in that valley, a small ninja in Iga garb crouched watching the column intently. He was small as a child, but frighteningly quick in his movements. Yet the little ninja seemed wholly unaware that a second ninja, in the same garb, was stealthily shadowing him.
+
+Look at the eyes showing through the second one's mask—sunken, the whites of them a sickly yellow—and you, reader, are bound to think: hullo, I know this one. He who had lodged in Ikenaga's house at Sakai learning the making of guns had been called up in haste, it seems, for this war. That is all very well; but the disquieting thing is that this man, like a hunter with his eye on a quarry, keeps his gaze fixed less on the enemy than on that other small ninja.
+
+No ninja of Hanzō's should yet have worked his way to this point, a good ri behind the enemy's front. So this Ikeda force was surely meant to fall on the far right of Ieyasu's line; and if so, the moment their meal was done they would be at the attack, and to carry word of it was a matter of seconds.
+
+Yet the little ninja, though the Ikeda force had finished its meal and showed signs of moving off, made no move to go. On the contrary, he stretched out flat in the grass, as though content to let the whole column pass by under his eyes. For twenty thousand men to file past took two full watches and more. All the while the little ninja would now and then raise his head snake-like to look down at what went by, and then lie back again. And—wonder of wonders—at last he seemed to fall asleep. The faint sound of sleeping breath could be caught.
+
+The great column had gone off to the south. Inch by inch Moriichirō crept toward the sleeping ninja. Keeping his quarry to his left, his left arm across his face to still the stir of his own breath, he crawled forward crab-wise. When the gap had closed to some eight shaku, he sprang, and threw himself full upon the sleeper.
+
+Ninja that the other was, the body rolled sharply to the left. But in that instant Moriichirō's left hand caught the collar, and the cord tied at the breast tore with a rip, and the front fell open wide. And there, sure enough, was a pure-white back, and black hair fallen loose about the neck.
+
+"Mm—a woman..."
+
+Moriichirō's blood took fire all at once. Cursed from birth with a nature that flared into heat at the bare fact of a woman, he had, from the moment he first glimpsed this small ninja at a distance, already caught the scent of one.
