@@ -547,3 +547,83 @@ sources, the apparatus, the glossary, and the EPUB.
   data/zh/ch15.txt is force-added (tracked) like the earlier zh files; the
   97/98 paragraph split (深明大义 / 识时务) was merged by hand to match the scan,
   and the 106-line drug-income paragraph was restored to the reading.
+
+## B06b (ch15 second half, printed 222-247): Fan Shaozeng / Shen Zui on Du Yuesheng, part 2
+
+- **Scope done.** PDF 231-256, printed 222-247, appended to out/ch15_reading.md
+  and data/zh/ch15.txt. Continued section 三 (the ancestral-shrine dedication
+  and the sixtieth birthday) and added sections 四 (the first to make a fortune
+  from the national calamity and the takeover) and 五 (the downward road), then
+  the source colophon. ch15 is now COMPLETE: 217 zh lines, 211 translation
+  pairs after headings, 51 notes.
+- **All checks green.** check_numbers 0 unresolved (with data/noise.txt);
+  check_structure parity 211|211; check_align OK (median 4.83, no strays);
+  check_content OK (406 name occurrences, all in the paired paragraph);
+  qc_entities 0 misses; check_register within tolerance of ch03; check_apparatus
+  0/0; qa_epub PASS (289 notes, 22 pagebreaks); epubcheck 0 fatals/0 errors/0
+  warnings.
+- **Tail-drop scans (the B06a lesson) run clean.** en/han ratio scan flagged no
+  B06b pair below 0.75x the chapter median; zh-vs-en sentence-count scan flagged
+  only high-ratio pairs where the English merged clauses. The four longest
+  paragraphs (the Zhang Xiaolin assassination, han 556; Wan Molin, 388; the
+  price-control saga, 372; the National Assembly election, 318) were each tail-
+  verified against the zh: all end on the source's last clause. No drops.
+- **Crop-verified readings (19 new, all in data/ocr_fixes.json, v:1).** The
+  shrine committee 虞洽卿 (was OCR 嵌洽师) / 庞京周 (须京周) / 袁履登 (媳履登);
+  the sedan-pole magistrate 李祖夔 (李祖间); the consul 甘格霖 (甘格震) and police
+  chief 毛鼎 (毛紧); the opera stars 尚小云 (肖小云), 龚云甫 (族云南), 王又宸
+  (王又宕), 言菊朋 / 肖长华 (言莫朋 / 首长华); 熊式辉 / 段祺瑞 / 刘峙 (能式交 /
+  眉凡瑞 / 刘蛙); 俞飞鹏 (俞飞有聘); 通商银行 (通离银行); 张嘉璈 (张嘉琉);
+  叶焯山 (叶灶山); 吴绍澍 (吴绍潮). Also crop-verified as printed: 金荣小学,
+  两丈见方 flags, 万民伞, the couplet (烟花十万 / 乌履三千 / 以杜甫自况), 三百多人
+  at the eve party (not 三十), the money figures (米价三十多万/五十多万一石,
+  义演二十多亿, 寿仪三十多亿, 卖房一百七十根金条 / 四十五万美元 / 遗产二十五万
+  美元), and folios 222 and 246 (offset 9 confirmed both ends).
+- **noise.txt grew a B06b block.** 五体投地, 接二连三 (idioms); 胡叙五, 万昌米行,
+  and the bare surname 万(?=[是来留不]) = Wan Molin; the 多/几-split myriad
+  compounds 三千多万 / 三十多万 / 五十多万 / 二十多亿 / 三十多亿 / 十几万 / 几万名
+  / 几十万 (English carries "more than thirty million", "three hundred thousand",
+  etc.); 万民伞; and a SECOND 四川 pass after 几十万 (the early guarded 四川 rule
+  skips 四川 when it follows 万 in 几十万四川, so it needs a second unguarded-
+  position pass). Every entry commented per the file's rules. Three real
+  quantities were fixed in the English instead of noised: 十万 blossoms (was
+  "ten thousand"), the 2,800 Yong'an shares, and the 170 gold bars, all now in
+  digits so the check catches them.
+- **Renderings settled this batch.** Two puns footnoted: 武库世家 (Wu Peifu's
+  plaque casting Du as the general Du Yu, "Du of the Arsenal") is glossed inline
+  by the source; the flatterers' essay "以杜甫自况" (a second Du Fu) gets a note.
+  吴敬恒 = 吴稚晖 = Wu Zhihui (the same man; the birthday-essay signer 吴敬恒 was
+  rendered "Wu Jinghen" at first, corrected to Wu Zhihui so there is one
+  referent, one rendering). 梅乐斯 rendered "Miles" in prose (glossary en set to
+  Miles to match). CC clique written "CC" in the zh where the OCR read "O CQ".
+- **Glossary +46 rows (now 308).** Seven organizations (益社, 港济公司, 通济公司,
+  忠义救国军, 中美合作所, 扬子公司, 保密局) and the new political / military /
+  operatic cast (蒋经国, 孔令侃, 宋美龄, 胡宗南, 顾祝同, 唐绍仪, 高宗武, 陈布雷,
+  虞洽卿, 张嘉璈, 毛人凤, 吴开先, 杨杰, 黄琪翔, 章伯钧, 吴绍澍, 王新衡, 杜维屏,
+  杜维垣, and the rest). Reused unchanged: Du Yuesheng, Dai Li, Gu Jiatang,
+  Yang Hu, H. H. Kung, T. V. Soong, Qian Xinzhi, Lu Jingshi, Xu Caicheng, Wan
+  Molin, Yao Yulan, Meng Xiaodong, Zhang Xiaolin, Chen Gongbo, Wang Jingwei,
+  the Heng Society, the Sanxin Company, the Juntong.
+- **+10 notes (ch15 now 51, book 289).** ten-thousand-citizen umbrellas (万民伞);
+  the shrine plaque "Filial thoughts unfailing" (孝思不匮); the Du Fu surname pun;
+  Guo Ziyi as the byword for a complete life; the gold yuan certificate (1948
+  reform and collapse); the Sino-American Cooperation Organization (SACO / Miles);
+  the Baomiju (renamed Juntong) with the note that Shen Zui, the recorder, here
+  steps into his own account; the shangfang "imperial sword"; the Loyal and
+  Patriotic Army; and "a first-rank commoner" (一品老百姓). NOT re-noted (already
+  placed): the April 12 coup (ch02), the Juntong (ch06), the Heng Society and
+  Lord Chunshen and Shen Zui and Fan Shaozeng (ch15 first half), the Sanxin
+  Company and Chiang Ching-kuo's tiger-beating (ch13), fabi and the New Fourth
+  Army and the Marco Polo / July 7 incident (earlier). Cross-referenced, not
+  re-noted.
+- **Figures.** None. find_figures 231-256 flagged nothing; the chapter is
+  continuous memoir prose. Empty figure list is a deliberate decision, as in
+  B06a.
+- **Voice.** Unchanged from B06a: Fan Shaozeng plain, worldly, first-person,
+  self-implicating (the opium-delivery cut, the grenade in Cheng Yanqiu's
+  theater, the six votes bought at the National Assembly); Du's dialogue on the
+  boastful-boss baseline ("I have held Chiang Kai-shek up all these years, and
+  it has come to this"). No em dashes in prose to the commissioner.
+- **Tooling:** no script changes. work/asm_ch15a.py reused as a starting point;
+  the second half was reconstructed paragraph by paragraph from data/txt against
+  the English and crop-verified. data/zh/ch15.txt force-added (tracked).

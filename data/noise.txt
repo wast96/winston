@@ -315,3 +315,34 @@
 四角
 # 成千 residual of 成千上万 after the built-ins strip 上万; "thousands upon thousands", not a count.
 成千
+# --- B06b (ch15 second half, Du Yuesheng) ---
+# 五体投地 idiom "prostrate in admiration"; rendered "admire him to the ground". The 五 is not a count.
+五体投地
+# 接二连三 idiom "one after another"; rendered so. The 二三 are not counts.
+接二连三
+# 胡叙五 Hu Xuwu, Du's secretary; personal name, romanized.
+胡叙五
+# 万昌米行 the Wanchang Rice Firm; 万 is part of the name, not 10,000.
+万昌米行
+# 三千多万 "more than thirty million (yuan)"; 多 splits the compound, English carries "more than thirty million".
+三千多万
+# 三十多万 "more than three hundred thousand (a picul)"; 多 splits the compound, English carries it.
+三十多万
+# 五十多万 "more than five hundred thousand"; 多 splits the compound, English carries it.
+五十多万
+# 二十多亿 "more than two billion (yuan)"; 多 splits the compound, English carries it.
+二十多亿
+# 三十多亿 "more than three billion (yuan)"; 多 splits the compound, English carries it.
+三十多亿
+# 十几万 "more than a hundred thousand (yuan)"; 几 splits the compound, English carries it.
+十几万
+# 几万名 "tens of thousands"; 几 splits the myriad, English carries "tens of thousands".
+几万名
+# 万民伞 "ten-thousand-citizen umbrella", a tribute parasol; 万 is part of the name, rendered so.
+万民伞
+# 几十万 "several hundred thousand"; the myriad is approximate (几十 splits it), English carries it. Also unblocks the guarded 四川 strip in 几十万四川.
+几十万
+# bare surname 万 = Wan Molin (万是他家的总管, 证明万留下, 使万不但, 拿万来开刀); a name, not 10,000. Rendered "Wan".
+万(?=[是来留不])
+# 四川 again, AFTER 几十万 above: the early 四川 rule is guarded and skips 四川 when it follows 万 (几十万四川); once 几十万 is stripped, this second pass strips the now-unguarded 四川. Rendered "Sichuan".
+四川
