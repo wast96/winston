@@ -875,3 +875,37 @@ At which Sister Kiara gazed a while, steadily, into his face, with eyes full of 
 Before long he turned up at his own house at Yono. There Chika, left half a year without so much as a message, was keeping house with an easy face, as though she had seen Hanzō off only yesterday. Her plump, rose-colored skin had grown richer still, breathing with health. Without a word Hanzō fell upon her body, and grappled with her as if to beat out all his pent-up frustration. In his mind not the faintest doubt arose that this was a betrayal of Hatsuko. On the contrary, he even reckoned that to set his body and his temper right in this way was a service he did her.
 
 He wiped off the sweat, went up into the pine wood on the hill behind, and threw himself down in the usual spot, on the dry grass where the sun was thickly shut out.
+
+At one place, where the leaf-cover broke, the patch of sky that showed through glowed a dull mandarin-orange with the last afterglow of the setting sun. As he gazed and gazed at it, energy came welling up and filling his head. When he got into this state, ideas would come to him in flashes.
+
+Those eyes of Maria-sama's—they were Hatsuko's eyes. But were they not, at the same time, the eyes of Goemon's wife, Maki?
+
+"That's it!" Hanzō nodded; and then—well, and what next?—he goaded his own mind on. "The old badger has not laid eyes on Hatsuko in over two years. And that one meeting was for a single night, in the dark."
+
+"And so—so?"
+
+"And so—so?"
+
+"The old badger has never seen Maki."
+
+"And so—so?"
+
+"I'll make Maki the double for Hatsuko."
+
+Yes—that was the obvious conclusion. And to do it, Goemon must be got out of the way somewhere for a while.
+
+Hanzō sprang up and went dashing off toward Hamamatsu. Early the next morning Goemon was summoned by him and given the duty of secret escort to Ogimaru on his journey up to the capital.
+
+"Lord Hideyoshi is to make young Ogimaru his adopted son, they say; but a hostage is what it comes to, of course. I want you to sound out Lord Hideyoshi's true mind. Do not be taken in by the surface; you must make out what is really in his heart. There should be no question of any threat to the boy's life, so the escort is only your outward office. So: set out tomorrow, the eleventh, early, while it is still dark, and spy out how Hideyoshi's people receive young Ogimaru's party when it sets off for the capital on the twelfth. And once he has arrived, you must make out well how they entertain him, how they treat him, what those close about Hideyoshi let slip, and what feelings and opinions they hold. This will take time. For two whole months you must not leave Hideyoshi's side for a moment. Your contact will be Aoba no Kaja."
+
+Such were his orders.
+
+Hanzō was a man bent on raising his ninja to the rank of samurai, and he disliked their bearing the coarse names they had picked up, without knowing when, in the old Iga fashion. He could not well give them names just like samurai's, so he chose instead names more elegant still: such as Aoba no Kaja, the Green-Leaf Page; the Mill-Wheel of the Shallows; the River-Wind off the Waves; the Purple Scales. This Aoba no Kaja was a lower ninja of the Tarao of Kōga: blue-black in the face, sinewy and lean, and of an extremely cold and cruel nature.
+
+Now, at this point the author must report that, in this same span of time, Goemon's household had gained a member.
+
+In the middle of the fourth month this year, while Goemon was away at the war of Nagakute, Maki had borne a boy. Raised a ninja, Goemon had never once dreamed of having a child, and at first he could hardly believe that such a thing had happened to him. But watching Maki cherish the baby with the most natural ease, and give herself over to it at times to the neglect of Goemon himself, he was brought to know that it had truly come to pass. The "Go" of Goemon is written with the character for five; that the boy might grow a somewhat greater man, Goemon gave the syllable more weight and took instead the character for "I, myself"; and, that he might thrive like a flourishing market town, added "ichi," a market. So he named him Goichi. He was a sturdy, good-humored child, and eight months old by now.
+
+This small, exquisite thing had received its life through him, and here it was, living. If he did not cherish and raise it, it could not live. Maki now was not only his wife, but this child's mother; and he was its father. A feeling took root in him that he was one flesh and one soul with the child. And his bond with Maki, too, came to seem deeper and firmer. As that feeling grew keen in the relation of father and mother, he came to love little Goichi past all bearing. And now the pain of parting from the child for two months was added to the pain of parting from Maki.
+
+On the morning of the eleventh, before even the first cock had crowed, Goemon rose; and as he quickly put on his medicine-seller's disguise, he stood gazing at the sleeping faces of Maki and Goichi.
