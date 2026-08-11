@@ -351,3 +351,21 @@ Ninja that the other was, the body rolled sharply to the left. But in that insta
 "Mm—a woman..."
 
 Moriichirō's blood took fire all at once. Cursed from birth with a nature that flared into heat at the bare fact of a woman, he had, from the moment he first glimpsed this small ninja at a distance, already caught the scent of one.
+
+The ninja garb was of the Iga school, and the Iga school could surely have no women in it. Perhaps it was a boy. And once the thought had lodged, he could not rest, though it cost him his life, until he had made certain what this was. When he knew it for a woman, he raised with his whole soul a shout of triumph, bared his fangs, and fell upon her.
+
+"Ha—you sham ninja, you!"
+
+In his mind a justification stood ready on the instant: that he fell on her not because she was a woman, but because she was an impostor. For a man who acts always at the push of a twisted impulse has always his excuse laid ready to hand.
+
+Two years before, behind the Gion shrine in Kyoto, Moriichirō had once fallen upon Oyu, a kunoichi of Hanzō's. And at the last hair's breadth, caught by Katō Toranosuke's city patrol, he had sold her identity away, and she had been butchered for it. That time too his justification had stood ready: "Oyu was sent as Hanzō's kunoichi to spy about Hideyoshi. Yet she has lost her heart to some fellow, this Yoichirō, and gone clean off her wits. The shortest road back to her senses is to take her body."
+
+Moriichirō gripped the collar in his left hand, set on no account to let go, and hauled. The other, light of body, came dragging toward him. He pinned her down beneath him; and then, to make doubly sure it was a woman, he seized the breast of the ninja garb, wrenched it open, and thrust in his right hand. And there, past all expectation for so small and slight a body, was a full, rich breast.
+
+And at that, just like any young street-tough of our own day three hundred and eighty years on, all reason went clean out of him. By now the forces the two armies had actually gathered on this plain were, they say, a hundred thousand for Hideyoshi and seventeen thousand for the allied Ieyasu and Nobukatsu, near a hundred and twenty thousand men in all, drawn up face to face; and the Ikeda column that had just passed below him was about to touch off the decisive battle. All of that, too, was forgotten. Under the pouring light of a serene spring day, a pitiless scene of human lust was about to play itself out.
+
+But at that instant something sharp drove up into his side from below. He looked up; and with a great thud, before his eyes, a man in ninja garb came dropping out of a tree. Were he truly a ninja, no such noise would come of his landing. And the man who had dropped with a thud that shook the ground was of a huge, overwhelming bulk.
+
+Two years before, at just such a moment, he had been stabbed by the very Oyu he had pinned, with her short knife. The memory flooded back; he clapped both hands to his side and rolled away to the right.
+
+Hemmed in by the two sham ninja, Moriichirō was at his wits' end. These three years he had been now a seminary student, now a gunsmith's apprentice, and had done no proper ninja training. He had no confidence in his own arts, and that want of confidence unmanned him. He went rolling down the slope, tumbling toward the hamlet of Ōkusa where the Ikeda force had halted only just now, and
