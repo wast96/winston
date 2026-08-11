@@ -1,7 +1,7 @@
 {
   "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. A chapter is treated as translated once out/<id>_reading.md exists. 68 novel chapters (ch01-ch68, titled and unnumbered as in the source) + back matter (afterword, film-director commentary, author bio).",
   "deliverable": "out/burn-o-sword.epub",
-  "title_en": "Burn, O Sword",
+  "title_en": "Burn, O Sword!",
   "title_ja": "燃えよ剣",
   "title_zh": "燃えよ剣",
   "author_en": "Shiba Ryōtarō",
@@ -34,7 +34,7 @@
   "rights": "Original text © the Estate of Shiba Ryōtarō / Bungeishunjū. This annotated English translation is a derivative work made for private, non-commercial study.",
   "source_ref": "燃えよ剣（新装版）. 司馬遼太郎. 東京: 文藝春秋, 2020. ASIN B086P34MVL.",
   "translator_note": [
-    "This is an annotated English translation of Shiba Ryōtarō's <i>Moeyo ken</i> (燃えよ剣, \"Burn, O Sword\"), first serialized 1962&#8211;1964, made from the 2020 Bungeishunjū digital new edition. The novel follows Hijikata Toshizō, from a farming family of Bushū Hino, through his making of the Shinsengumi and on to his death in the last battle of the Boshin War at Hakodate&#8217;s Goryōkaku in 1869.",
+    "This is an annotated English translation of Shiba Ryōtarō's <i>Moeyo ken</i> (燃えよ剣, \"Burn, O Sword!\"), first serialized 1962&#8211;1964, made from the 2020 Bungeishunjū digital new edition. The novel follows Hijikata Toshizō, from a farming family of Bushū Hino, through his making of the Shinsengumi and on to his death in the last battle of the Boshin War at Hakodate&#8217;s Goryōkaku in 1869.",
     "The aim is prose that reads naturally to an English reader with no background in Japanese history, with footnotes supplying what such a reader would miss &#8212; the offices, ranks, swords, money, geography, and customs of the last years of the Tokugawa order &#8212; and a glossary of recurring people and terms.",
     "Names are given in Japanese order (surname first): Hijikata Toshizō, not Toshizō Hijikata. Macrons mark long vowels (Toshizō, Kondō, Ōtori). The heroine Oyuki is, as Shiba notes, an invented character.",
     "The edition&#8217;s back matter is translated in full: the author&#8217;s own afterword, and a 2020 commentary by film director Harada Masato written for his screen adaptation. Both are the writers&#8217; own words, not the translator&#8217;s.",
