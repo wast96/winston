@@ -18,7 +18,7 @@ contains and how far to trust it.
 - **qa_epub PASS** (27 files, 20 documents, all links resolve; 78 note
   references / 78 bodies / 78 backlinks).
 - **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos** (EPUB 3.3).
-- Deliverable **`out/lu-xiaofeng-1.epub`**, force-committed on branch
+- Deliverable **`out/The Golden Roc Dynasty.epub`**, force-committed on branch
   `claude/lu-xiaofeng-1` in the final B08 commit that also carries this report.
 
 ## What the finished edition contains
@@ -200,8 +200,8 @@ individually in footnotes, each with its verdict (corroborated) stated inline.
 - **Rebuild from clean** (exact commands): `./setup.sh`; if `data/src` is
   absent, `python3 scripts/ingest_epub.py source.epub` (do not overwrite
   book.json); `python3 scripts/build_reading_epub.py`; then
-  `python3 scripts/qa_epub.py out/lu-xiaofeng-1.epub` and
-  `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/lu-xiaofeng-1.epub`.
+  `python3 scripts/qa_epub.py "out/The Golden Roc Dynasty.epub"` and
+  `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar "out/The Golden Roc Dynasty.epub"`.
 - **Regression note**: `./setup.sh` reports 9/10 with one expected failure,
   "hook stands down on template stub"; that case only passes while HANDOFF.md
   holds the template placeholder, and HANDOFF now (correctly) holds the
@@ -210,7 +210,7 @@ individually in footnotes, each with its verdict (corroborated) stated inline.
 
 ## Definition of done — met
 
-- [x] Complete EPUB with cover and clean TOC committed (`out/lu-xiaofeng-1.epub`,
+- [x] Complete EPUB with cover and clean TOC committed (`out/The Golden Roc Dynasty.epub`,
       force-committed with `git add -f`).
 - [x] qa_epub PASS and epubcheck 0/0/0/0.
 - [x] Per-unit `_reading.md` + `_en.json` present for all 13 units.

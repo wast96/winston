@@ -35,3 +35,14 @@ Fix: <what it should be>
 ## Done
 
 (move applied blocks here, with the CHANGELOG date)
+
+## 2026-08-11 — chat correction (transcribed)
+
+- **LOCAL (administrative): retitle the deliverable file with the name of the
+  book.** `out/lu-xiaofeng-1.epub` → `out/The Golden Roc Dynasty.epub`.
+  The EPUB's internal metadata title was already "The Golden Roc Dynasty"
+  (subtitle "The Legend of Lu Xiaofeng, Volume One") and is unchanged; only
+  the filename and the `deliverable` key in book.json changed. Content
+  verified identical entry-by-entry against the previous build. Old file
+  removed from git; new file force-committed. Full QA re-run on the renamed
+  file (see CHANGELOG).

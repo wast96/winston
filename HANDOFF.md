@@ -8,7 +8,7 @@ back to this file.** The whole-book
 completion report is `COMPLETION.md`; read that first for the full picture.
 
 All work lives on branch `claude/lu-xiaofeng-1`. Deliverable:
-`out/lu-xiaofeng-1.epub` (force-committed on the final B08 commit).
+`out/The Golden Roc Dynasty.epub` (force-committed on the final B08 commit).
 
 ### Final state
 
@@ -46,8 +46,8 @@ All work lives on branch `claude/lu-xiaofeng-1`. Deliverable:
     # if data/src is absent (gitignored):
     python3 scripts/ingest_epub.py source.epub      # do NOT overwrite book.json
     python3 scripts/build_reading_epub.py
-    python3 scripts/qa_epub.py out/lu-xiaofeng-1.epub
-    java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/lu-xiaofeng-1.epub
+    python3 scripts/qa_epub.py "out/The Golden Roc Dynasty.epub"
+    java -jar /tmp/epubcheck-5.1.0/epubcheck.jar "out/The Golden Roc Dynasty.epub"
 
 Regression note: `./setup.sh` reports 9/10 with the one expected failure
 `hook stands down on template stub`. That case passes only while this file

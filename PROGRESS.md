@@ -1348,3 +1348,30 @@ geography of the road, and how long Lu has gone clean-shaven).
 
 **BOOK COMPLETE: 13/13 units, 4,410 paragraphs, 78 notes, 86 glossary rows,
 qa_epub PASS, epubcheck 0/0/0/0.**
+
+### B08 addendum — deliverable retitled + final QA re-run (2026-08-11)
+
+- Commissioner chat correction (transcribed in CORRECTIONS.md): retitle the
+  deliverable file with the book's name. `out/lu-xiaofeng-1.epub` →
+  `out/The Golden Roc Dynasty.epub` (book.json `deliverable`). Internal EPUB
+  metadata already carried the correct title ("The Golden Roc Dynasty" /
+  "The Legend of Lu Xiaofeng, Volume One") and is UNCHANGED. Rebuilt; content
+  verified identical to the previous build entry-by-entry (27/27 zip entries,
+  only archive timestamps differ). Old file removed from git; new file
+  force-committed. References updated in HANDOFF.md and COMPLETION.md;
+  CHANGELOG.md entry added.
+- Final QA battery on the renamed file, ALL GREEN:
+  - qa_epub: PASS (27 files, 20 documents, all links resolve; 78/78/78 notes).
+  - epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+  - check_structure --config: ALL PASS (13/13 parities; 78 anchors, 0
+    unresolved).
+  - check_apparatus: 0 failures, 0 warnings.
+  - check_register --ref ch01, ALL 12 units: 0.50x-0.86x, all within tolerance
+    (the ch02/ch04 "shall" notes are the previously adjudicated deliberately
+    formal speakers).
+  - check_reconcile: spelling 87 British / 0 American; 练子枪 no longer flags
+    (the chain-spear fix held); remaining candidates are the previously
+    reviewed distinct-compound cases; glossary forward 83/86 (3 benign
+    surface variants).
+  - tests/run_tests.py: 9/10 with only the expected
+    `hook stands down on template stub` failure. Not a defect.

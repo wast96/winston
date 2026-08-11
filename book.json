@@ -1,6 +1,6 @@
 {
   "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. Authored from book.draft.json (scripts/ingest_epub.py). The source EPUB split its one text file mechanically into part0000_split_NNN.html chunks that DO line up one-to-one with the logical chapters (each chunk opens with a <p class=\"x2\" id=\"toc-anchor\"> heading). ch01 is the prologue (楔子), ch02..ch13 are the twelve numbered chapters. Chapter ids start with 'ch'. A chapter is treated as translated once out/<id>_reading.md exists.",
-  "deliverable": "out/lu-xiaofeng-1.epub",
+  "deliverable": "out/The Golden Roc Dynasty.epub",
   "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this.",
   "title_en": "The Golden Roc Dynasty",
   "subtitle_en": "The Legend of Lu Xiaofeng, Volume One",
