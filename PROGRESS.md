@@ -958,3 +958,141 @@ geography of the road, and how long Lu has gone clean-shaven).
   鱼鳞紫金滚龙棒 → fish-scaled coiling-dragon rod of purple gold; 燕子三抄水 →
   the swallow's-three-skimmings; 关中双绝 → the Twin Perfections of Guanzhong;
   弹指神通 → the Finger-Flicking art; 又一村 → Yet Another Village.
+
+## B06 = Chapters 8-10 (ch09 峨嵋四秀 / ch10 飞燕去来 / ch11 迷楼)
+
+### Environment / setup
+
+- `./setup.sh`: pillow/epubcheck OK; regression harness reports 9/10 with the
+  ONE EXPECTED failure `hook stands down on template stub` (Stop hook correctly
+  enforces against the live HANDOFF kickoff; not a defect). All other checker
+  regression tests green.
+- `data/src` and `data/src_epub` absent on the fresh container (gitignored);
+  regenerated with `scripts/ingest_epub.py source.epub`. book.json NOT
+  overwritten (verified byte-identical before/after).
+- Stray-branch consolidation: session started on
+  `claude/lu-xiaofeng-1-translate-2f7qow`, which carried NO commits beyond
+  `origin/claude/lu-xiaofeng-1`; checked out the canonical branch, reset to
+  origin, deleted the stray (local; the remote ref was already gone, pruned).
+
+### Scope
+
+- ch09 (第八章 峨嵋四秀 "The Four Beauties of Emei"), src
+  14_part0000-split-012.txt, 5 scenes (dividers at source lines 3/26/117/176/239)
+  → 283 merged paragraphs. The four Emei beauties waylay Lu in his bath; Ximen
+  Chuixue fells the tree and Hua Manlou catches Shi Xiuxue's blades (she loses
+  her heart to him); Lu deduces Huo Xiu = Shangguan Mu and Dugu Yihe = Ping
+  Duhe; Huo Tianqing breaks Dugu Yihe with the Paired Phoenixes in Flight, then
+  Ximen Chuixue comes for him at Yan Tieshan's coffin.
+- ch10 (第九章 飞燕去来 "The Flying Swallow Comes and Goes"), src
+  15_part0000-split-013.txt, 2 scenes (dividers at source lines 3/106) → 237
+  merged paragraphs. The beauties' carriage banter; Ximen tells Lu that Dugu
+  Yihe is dead ("I'm hungry"); at the mulberry-wood tavern black poisoned
+  needles kill Sun Xiuqing and Shi Xiuxue (Shi dies in Hua Manlou's arms);
+  Shangguan Feiyan returns to Hua, sent to warn/kill him, then flees.
+- ch11 (第十章 迷楼 "The Maze Tower"), src 16_part0000-split-014.txt, 4 scenes
+  (dividers at source lines 3/112/179/234) → 289 merged paragraphs. Huo
+  Tianqing gives Lu the threat-verse letter and Huo Xiu's Daughter's Red;
+  Lu + Hua climb to Huo Xiu's mountain tower (PUSH / TURN / STOP / DRINK /
+  SMASH), pass the hall of four mad "Great Kings of the Golden Roc," and find
+  Huo Xiu warming wine on the floor.
+
+### Source-edition footnotes
+
+- **None present.** Re-grepped each unit's source for `\[\d+\]`: 0 in ch09,
+  0 in ch10, 0 in ch11. (This book carries no author's-own notes.)
+
+### Merged-paragraphs pipeline
+
+- Builder `scratchpad/build_b06.py` (re-ranged copy of build_b05.py). RANGES vs
+  en.txt line counts asserted equal before build. Bare-numeric dividers
+  EXCLUDED; `***` post-inserted after paragraphs [20, 97, 146, 207] (ch09),
+  [101] (ch10), [107, 173, 227] (ch11). `scratchpad/qc_config.json` extended
+  with ch09/ch10/ch11 docs+sources.
+- Extractor splits: none in ch09 or ch10. In ch11, source lines 43-44 are the
+  two halves of the threat-verse (line 43 ends on a comma); merged into one
+  paragraph. Verified per unit that all other body lines end on terminal
+  punctuation, so the verbatim `''`-join is clean.
+
+### Checks (all green)
+
+- verify_unit ch09/ch10/ch11: numbers 0 unresolved (built-in data/noise.txt),
+  parity OK, anchors 4/4 (ch09), 4/4 (ch10), 5/5 (ch11).
+- check_align: ch09 median 4.11, ch10 4.09, ch11 4.21; no pair strays >2.2x.
+- check_content (`--config scratchpad/qc_config.json`, 53 name-anchors): ch09
+  305 occurrences, ch10 257, ch11 269 — all in the paired paragraph, no
+  displacement. Full re-run across ch01-ch11 still clean (no regression from
+  the 5 new glossary rows).
+- qc_entities: 0 misses all three units. (Two initial ch09 fixes: para 36 and
+  para 77 dropped an in-paragraph name/number — restored.)
+- check_structure `--config scratchpad/qc_config.json`: ALL PASS (parity 283 /
+  237 / 289; 69 anchors book-wide, 0 unresolved; 5 attach at first of several
+  occurrences — the repeated threat-verse and the recurring 童子功 term —
+  expected).
+- qa_epub: PASS (27 files, 20 documents, 69 refs/bodies/backlinks resolve).
+- epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- check_register vs frozen ch01: ch09 0.63x, ch10 0.72x, ch11 0.59x — all
+  within the 0.45x tolerance. (Ximen Chuixue and the four mad "Kings"' archaic
+  royal "We/Our" left uncontracted by design; ordinary speech of Lu / Hua /
+  the beauties / Huo Tianqing / Feiyan contracted.)
+- Tails verified against source for all three units (rule 4 corollary): ch09
+  ends on Ximen's blood "dried by that same wind"; ch10 on the dew-soaked grass
+  beyond the door; ch11 on Huo Xiu's "Fine-scented wine."
+
+### Digitization glitches (rendered to plain sense; not footnoted)
+
+- **None material this batch.** No mangled glyphs, mismatched guillemets or
+  dittography found in any of the three sources. The imperial archaisms of the
+  four mad "Kings" (孤家, 尔等, 凌迟, 寝宫) are the author's register, not a
+  glitch.
+
+### Number check — B06 idioms noised (documented in data/noise.txt)
+
+- `三分之一` / `四分之一` (fraction idioms → "a third" / "a quarter"; the
+  component 三/四/一 are not discrete counts — parallel to the B05 五成 rule).
+- `胡说八道` ("talk utter nonsense", lit. "eight-ways wild talk"; the 八 is
+  idiom — ch10).
+- `万贯` ("immense wealth", lit. "ten-thousand strings of cash"; the 万 is
+  figurative — ch11).
+- Handled WITHOUT noise (English carries the value): 一百零八 → "one hundred and
+  eight" (needs the leading "one" or the matcher misses it); 五百年前 → "five
+  hundred years"; 七七四十九 → "seven times seven, the forty-nine forms";
+  二十一招 → "twenty-one strokes"; 三十招 → "thirty strokes"; 十丈/数十丈 →
+  "ten zhang"/"tens of zhang"; 六角形 → "six-sided"; 第十三代 → "the thirteenth
+  of that line"; 九曲桥 → "nine-turn bridge" (9 preserved, NOT noised).
+
+### Apparatus / glossary added
+
+- **notes.json**: 4 under ch09, 4 under ch10, 5 under ch11 (total 69 book-wide).
+  Merged with `apparatus_merge.py` (NOTES only). `scratchpad/b06_apparatus.json`
+  tracked. Themes: Gongsun Daniang & the jianqi sword-dance (Du Fu); the bagua
+  emblem & the Taoist Emei order; the dantian; hemp mourning-dress (ch09); the
+  花=Hua/flower pun; 吃醋 "eating vinegar" = jealousy; Cao Cao's morning-dew
+  couplet; Feiyan = "flying swallow" & the chapter title (ch10); the
+  Danfeng/Xiaofeng phoenix pun in the threat-verse; Daughter's Red wine;
+  the 童子功 Virgin-Body discipline; 凌迟 death by slow slicing; 红尘 the red
+  dust (ch11). NOT re-noted: Emei/jianghu/lightness-skill/point-sealing/tael/
+  zhang/li/Blue-Robe Tower/the Golden Roc/Flying Phoenix Needles — all prior.
+- **glossary.json**: 5 new rows (two-level, via `scratchpad/add_glossary_b06.py`
+  — NOT the flat apparatus path). People (4): Ma Xiuzhen, Ye Xiuzhu, Sun
+  Xiuqing, Shi Xiuxue. Organizations (1): the Four Beauties of Emei (峨嵋四秀,
+  with the note on the shared 秀 generation-name). Total now 81 rows. All
+  `status: decided`.
+- No figures (the book has none).
+
+### Decided shelf renderings (this batch)
+
+- People: 马秀真 → Ma Xiuzhen; 叶秀珠 → Ye Xiuzhu; 孙秀青 → Sun Xiuqing (孙老二
+  → Sun the Second inline); 石秀雪 → Shi Xiuxue; 峨嵋四秀 → the Four Beauties of
+  Emei; 叶三姑娘 → Miss Ye the Third (inline); 胡道人 → the Taoist Hu / Master Hu
+  (inline, minor). The bare short forms 独孤 / 西门 render "Dugu" / "Ximen"
+  after the full name.
+- Martial moves / terms (inline, fiction's own furniture, no footnote):
+  凤凰展翅 → the Phoenix Spreads its Wings; 凤双飞 → the Paired Phoenixes in
+  Flight; 小天星 → the Little Sky-Star; 天突 → the Tiantu point; 剑器 → the
+  sword-form (Gongsun Daniang, footnoted); 童子功 → the Virgin-Body discipline
+  (footnoted). The maze signs 推/转/停/喝/摔 → *Push* / *Turn* / *Stop* /
+  *Drink* / *Smash* (italic). 女儿红 → Daughter's Red; 泸州大曲 → Luzhou Daqu;
+  青花瓷 → blue-and-white porcelain; 滚龙袍 → dragon-brocade robe; 内监 →
+  palace eunuchs; 凌迟 → the slow slicing (footnoted); 红尘 → the red dust
+  (footnoted).

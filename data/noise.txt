@@ -144,3 +144,18 @@
 # ages" (ch08, Huo Tianqing's letter: 照耀千古者唯义气两字).
 千古
 
+# --- B06 (ch09 峨嵋四秀 / ch10 飞燕去来 / ch11 迷楼) ---
+# 三分之一 = "one third", the fraction idiom (大金鹏王's charge 完成了三分之一).
+# Rendered "a third"; the 三/一 are the fraction's parts, not discrete counts.
+# Parallel to the B05 五成 rule. (ch09)
+三分之一
+# 四分之一 = "one quarter", the fraction idiom (只倒出了四分之一 of the kettle).
+# Rendered "a quarter"; not discrete counts. (ch09)
+四分之一
+# 胡说八道 = "talk utter nonsense" (lit. "eight-ways wild talk"); the 八 is
+# idiom, not a count. Rendered "her mouth's full of nonsense" (ch10).
+胡说八道
+# 万贯家财 / 万贯 = "immense wealth" (lit. "ten-thousand strings of cash"); the
+# 万 (10,000) is figurative, not a count. Rendered "boundless wealth" (ch11,
+# Huo Tianqing on the Pavilion's fortune).
+万贯

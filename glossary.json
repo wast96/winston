@@ -309,6 +309,30 @@
       "pinyin": "Tianqin Laoren",
       "status": "decided",
       "note": "Founder of the Heaven&#8217;s Bird sect sixty years ago; he took a wife and got an heir only at seventy-seven, and that heir is Huo Tianqing (ch08)."
+    },
+    "马秀真": {
+      "en": "Ma Xiuzhen",
+      "pinyin": "Ma Xiuzhen",
+      "status": "decided",
+      "note": "The eldest of the Four Beauties of Emei; tall, with a pair of long phoenix eyes and a killing air even as she smiles. She leads the four in the bath-house interrogation of Lu Xiaofeng (ch09)."
+    },
+    "叶秀珠": {
+      "en": "Ye Xiuzhu",
+      "pinyin": "Ye Xiuzhu",
+      "status": "decided",
+      "note": "The third of the Four Beauties of Emei, and the honest, plain-spoken one of the four (ch09)."
+    },
+    "孙秀青": {
+      "en": "Sun Xiuqing",
+      "pinyin": "Sun Xiuqing",
+      "status": "decided",
+      "note": "The second of the Four Beauties of Emei; big-eyed, thin-lipped and sharp-tongued, and taken despite herself with Ximen Chuixue (ch09)."
+    },
+    "石秀雪": {
+      "en": "Shi Xiuxue",
+      "pinyin": "Shi Xiuxue",
+      "status": "decided",
+      "note": "The youngest of the Four Beauties of Emei; gentlest-seeming and hottest-tempered, she fights with a pair of short swords and dares, alone of the four, to love where she will. Hua Manlou catches her blades between two fingers, and she loses her heart to him (ch09)."
     }
   },
   "organizations": {
@@ -341,6 +365,12 @@
       "pinyin": "Shijing Qi Xia",
       "status": "decided",
       "note": "Seven sworn brothers who go disguised as street pedlars (a bun-seller, a quack, a pockmarked innkeeper and the rest), also called the Seven Righteous of Shanxi (山西七义); all of the Heaven&#8217;s Bird sect (ch08)."
+    },
+    "峨嵋四秀": {
+      "en": "the Four Beauties of Emei",
+      "pinyin": "Emei Si Xiu",
+      "status": "decided",
+      "note": "The four young women disciples of the Emei sword-school (secretly headed by Dugu Yihe): Ma Xiuzhen, Sun Xiuqing, Ye Xiuzhu and Shi Xiuxue. Their given names all share the generation-character <i>xiu</i> (秀, &#8216;graceful, comely&#8217;), marking them as martial-sisters of one generation, whence &#8216;the Four Beauties&#8217; (四秀). They are the counterpart of the Three Heroes (三英) among the Seven Swords of Emei (ch09)."
     }
   },
   "places": {
