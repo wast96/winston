@@ -1,0 +1,617 @@
+## Chapter 4. The Feast
+
+The feast was laid in the same flower-hall where the Great King of the Golden Roc had received them, and the food and wine were lavish and fine. The wine, this time, was real wine: aged Huadiao, of the true first grade.
+
+Lu Xiaofeng raised his cup and drained it at a draught, then sighed. "This is good wine too. But set against that Persian grape-wine of a while ago, it falls a long way short."
+
+The Great King of the Golden Roc laughed aloud. "That wine wants moonlight and flowers, a shallow cup and a slow one. Poured down the way you pour it, sir, it is rather wasted on you."
+
+Hua Manlou smiled. "He doesn't drink wine at all. He decants it. What it tastes of he's never once noticed. Giving him good wine is plain ruin of it."
+
+The Great King laughed again. "You are his soul's friend, I see, and no mistake."
+
+Their host was in high spirits tonight, and he had changed besides into a brocade robe embroidered in gold thread with coiled dragons, so that he truly did look a little like a king feasting his great general on the eve of a campaign. Princess Danfeng, too, seemed lovelier than ever.
+
+She filled Lu Xiaofeng's empty cup herself, and said with a lovely smile, "Now that, I say, is how a man ought to drink. As for the men who take their wine like so much poison, no girl alive would look at one twice!"
+
+The Great King's face went suddenly stern. "Are girls all so fond of drunkards, then?"
+
+Princess Danfeng's eyes made a little turn. "Of course drinking has its one bad side."
+
+"Only the one?" said the Great King.
+
+Princess Danfeng nodded. "If a man drinks too much wine, then when he's old and his legs have gone bad and he can't drink any longer, the sight of other men drinking will make him cross. And it's never good for a man to be always cross."
+
+The Great King tried to keep his face stern, and could not, and burst out laughing. "Truth to tell, when I was young I poured my wine down too. And I'll warrant I poured it no slower than you do."
+
+A clever host knows that laughter entertains a guest better than the richest table ever laid. And a guest who knows gratitude should therefore know how to make his host feel the laughing has been worth his while.
+
+Lu Xiaofeng poured another cup down. "First thing tomorrow," he said suddenly, "I mean to go and find Ximen Chuixue."
+
+The Great King clapped his hands together. "Excellent."
+
+"The man's a freak of nature. No one but I could ever dig him out," said Lu Xiaofeng. "Zhu Ting, though, I needn't fetch myself."
+
+He fished out of his clothes a dirty, crumpled scrap of paper, spread it flat, dipped a chopstick in the soy sauce, and dashed off on the paper one wild, swooping character: feng, "phoenix." Then he handed it to Princess Danfeng. "Send anyone you please to him with this paper, and he'll come back with whoever carries it."
+
+Princess Danfeng hesitated. "I had heard the two of you haven't spoken for a long while."
+
+"I never said I'd speak to him," said Lu Xiaofeng. "I only want him here. Those are two different things entirely."
+
+Princess Danfeng stared. "He won't speak to you. But one look at your mark, and he'll follow a perfect stranger to a place he's never seen?"
+
+"Beyond all question," said Lu Xiaofeng.
+
+Princess Danfeng laughed despite herself. "This Master Zhu sounds a fair freak himself."
+
+"A freak? He's worse," said Lu Xiaofeng. "He's an out-and-out rascal."
+
+Princess Danfeng folded the paper up, and only then saw what it was: a banknote for five thousand taels.
+
+She could not help asking, "Can this note still be cashed?"
+
+"You think I stole it?" said Lu Xiaofeng.
+
+Princess Danfeng coloured a little. "I only meant... the two of you were good friends once. If you send for him this way, won't he feel you look down on him? Won't he be angry?"
+
+"Not he," said Lu Xiaofeng.
+
+He smiled. "The one great virtue of the man is that however much money you give him, he is never, ever angry."
+
+"Only because he's no hypocrite," said Princess Danfeng, with a lovely smile. "And neither are you."
+
+Suppose you know perfectly well that a friend is going hungry, and choose that moment to compliment him as an immortal above mortal food, a man of iron who'd sooner starve than beg. Suppose you know perfectly well he's asking you for money, and send him instead a letter full of comfort and encouragement, with a word on what a noble thing self-reliance is. If that is truly your way, then I can promise you this: the only friend you have is yourself.
+
+Shangguan Danfeng was not of that kind; plainly she had taken Lu Xiaofeng's meaning. Besides a beautiful face, it seemed, she had a heart that understood people and made allowances for them, two things very rarely found in the same girl. And only the cleverest of women know that understanding and forbearance move a man more surely than the loveliest face ever formed.
+
+Lu Xiaofeng found, rather suddenly, that he seemed to like this girl more and more. Even now, this minute, she was still on his mind.
+
+The night was deep now. No lamp was lit in the room; a spring breeze drifted in at the window and filled it with the scent of flowers. Lu Xiaofeng lay alone on the bed, his eyes wide open. At such an hour, why wasn't he asleep? Could he be waiting for someone?
+
+Not for Hua Manlou, certainly. Hua Manlou had left him only a little while before.
+
+The night grew stiller yet, so still you might have heard the dew dripping onto the petals; and so he heard the footsteps in the gallery. They were very light, but his heart had suddenly begun to pound. Now the footsteps had stopped outside his door.
+
+The door was not barred. Someone pushed it softly open, came in, and drew it softly to again. The room was very dark, too dark to tell even whether the figure was tall or short. But Lu Xiaofeng did not ask who she was. It was as though he had known all along.
+
+The steps came lighter still, and slower, slowly to the head of his bed; a hand reached slowly out and touched his face, gently. Her hand was cool and soft, and carried the fragrance of fresh flowers. Only when she had felt the moustache did she have her proof that the man on the bed was indeed Lu Xiaofeng.
+
+Lu Xiaofeng had barely heard the whisper of clothes falling to the floor when a naked body slipped in under his quilt. It had been cool and soft too, that body; all at once it turned burning hot, and it was trembling besides, like a leaping flame, till Lu Xiaofeng felt stopped at the very throat.
+
+A long while passed before he sighed softly and murmured, "I warned you I can't withstand temptation. Why did you come anyway?"
+
+She said nothing. She only trembled harder.
+
+He could not help turning over and taking her hard in his arms. Her skin, smooth as satin, rose at once into little points under his touch, like spring water ruffled into eddy after eddy. Her breast was pressed close against his now, tender and soft as a dove.
+
+Suddenly Lu Xiaofeng pushed her away. "You're not..." he cried. "Who are you?"
+
+Still she would not speak. But her body had curled itself into a ball.
+
+Lu Xiaofeng put out his hand, touched her breast, and snatched it back as if from a lightning-shock. "You're the little big cousin!"
+
+There was no denying it now. She burst into giggles. "And I know you're my little cousin."
+
+Lu Xiaofeng shot up off the bed as though an arrow had struck him. "What are you doing here?"
+
+"Why shouldn't I come?" said Shangguan Xue'er. "Who did you think I was just now?"
+
+By her voice, she was angry now. And perhaps nothing on earth is harder for a girl to bear than a man taking her for someone else at such a moment.
+
+Lu Xiaofeng's tongue was not a slow one. But in a spot like this he honestly did not know what to say.
+
+Shangguan Xue'er gave a cold little laugh. "She can come, and I can't? Tell me that."
+
+Lu Xiaofeng sighed. "Because next to you I'm practically an old man."
+
+"I came here to prove to you that I'm not a child any more, to make you see I wasn't lying," said Shangguan Xue'er. "Do you imagine I like you? I'll tell you this much: don't flatter yourself!"
+
+Her voice rose as she went, angrier word by word, till she seemed on the edge of tears. And Lu Xiaofeng's heart softened after all. He had just put out a hand and smoothed her hair gently, just begun to think of a word or two of comfort...
+
+...when all at once the door was pushed open again, and the dark room sprang alight. A figure stood on the threshold, lamp in hand, in a robe of snow-white; and her face was paler than the robe.
+
+Shangguan Danfeng!
+
+Lu Xiaofeng very nearly crawled under the bed. The look in her eyes as she watched him was more than he could bear.
+
+Xue'er, for her part, wore the look of a child caught in the kitchen with a fist in the sugar-jar.
+
+But in an instant she had squared her shoulders and stood up, naked as she was, and gave Lu Xiaofeng a crooked little smile. "Why didn't you tell me sooner she was coming? I could have left earlier."
+
+Shangguan Danfeng stared at her, lips trembling with anger, and tried to speak, and could not.
+
+Xue'er had her robe about her now. She walked past with her head high, then paused for one more crooked smile. "There's really no need to be angry, you know. Men are all like this. Every one of them."
+
+Shangguan Danfeng did not move, and did not speak; her whole body might have been carved stiff. At last Xue'er's footsteps faded away down the gallery.
+
+Still Shangguan Danfeng stood there, staring at Lu Xiaofeng, a shine of tears in her lovely eyes. "It's as well, this way," she murmured. "At least I've seen clearly what kind of man you are." She stamped her foot, turned on her heel and went.
+
+But Lu Xiaofeng was after her already, and caught her hand.
+
+Shangguan Danfeng bit her lip. "What... what is there left for you to say?"
+
+Lu Xiaofeng sighed. "There shouldn't be anything I need to say. Because you ought to know it was you I was waiting for."
+
+Shangguan Danfeng bowed her head and listened, and after a long while she sighed softly too. "I did mean to come."
+
+"And now?" said Lu Xiaofeng.
+
+"Now..." said Shangguan Danfeng. "Now I'm going."
+
+She raised her head suddenly and gazed at Lu Xiaofeng, and in her eyes was a look tangled and contrary both, that might have been reproach and might have been regret.
+
+"You truly believe that Xue'er and I..." said Lu Xiaofeng ruefully.
+
+Shangguan Danfeng laid a fingertip gently across his mouth. "I know you wouldn't," she said softly. "But tonight... tonight I can't stay here."
+
+No one who had walked in on so killing a scene could have kept much appetite for anything after. Lu Xiaofeng understood her well enough, of course. He let go her hand.
+
+Then Shangguan Danfeng rose suddenly on tiptoe and kissed his cheek. "And you ought to know," she said gently, "that I didn't mean to go, either."
+
+Lu Xiaofeng laughed at that. "You'd best go quickly then. Or I may yet..."
+
+Before he could finish, Shangguan Danfeng had slipped out of his arms. At the door she glanced back with a smile. "I warn you, that little wench is a proper little imp. Next time you see her, you'd best run too. When I'm jealous, I bite."
+
+The night deepened, and stilled. Heaven and earth were filled with quiet and peace. And the hearts of men?
+
+***
+
+Morning. The flagstoned street had just been baked hot in the sun, and on either side of it a few shops had yet to open their doors. How many men of the great cities can still live by "rise with the sun and work"? Lu Xiaofeng and Hua Manlou stood on the hot flagstones.
+
+Princess Danfeng had brought them this far in the flower-strewn carriage before turning back.
+
+"The moment we have news, we'll send you word."
+
+"I know. I'll be waiting for you."
+
+I'll be waiting for you. With a girl like that waiting, what in the world is left to complain of?
+
+Hua Manlou said suddenly, laughing, "Sooner or later, I fear, you're bound to be bitten."
+
+Lu Xiaofeng shot him a glare, and then had to laugh himself. "This fellow's ears are sharper than a rabbit's. Next time I'll be on my guard against him."
+
+Hua Manlou smiled. "That little imp she spoke of... Shangguan Feiyan's younger sister?"
+
+"A little goblin like that one," said Lu Xiaofeng ruefully, "you'd be hard put to find a second of anywhere on earth."
+
+Hua Manlou was silent a moment, and then could not keep from asking, "Has she found her sister?"
+
+"Not yet, it seems," said Lu Xiaofeng. "I should have asked Shangguan Danfeng just now. She might know where that swallow of yours has flown."
+
+Hua Manlou smiled again. "Just as well you didn't. Ask that, and you might have got bitten on the spot."
+
+"I didn't ask," said Lu Xiaofeng. "But Xue'er must have."
+
+"And got no answer either, by the look of it," said Hua Manlou.
+
+He was smiling still, but the worry showed through it on his face.
+
+Lu Xiaofeng thought a while, then asked suddenly, "Do you know how old Shangguan Feiyan is?"
+
+"She told me once she was born in the year of the Goat," said Hua Manlou. "She's only eighteen this year."
+
+Lu Xiaofeng stroked his moustache with a fingertip. "Can a girl of eighteen," he murmured, "have a younger sister of twenty?"
+
+"That would depend," said Hua Manlou, smiling.
+
+Lu Xiaofeng blinked. "Depend?"
+
+"If a man as clever as you can ask a question that foolish," said Hua Manlou, "why shouldn't a girl of eighteen have a sister of twenty? The sister of twenty might yet bear a son of eighty!"
+
+Lu Xiaofeng laughed too, and clapped him hard on the shoulder. "An eighteen-year-old sister plainly cannot have a twenty-year-old younger one. So nothing can have happened to Shangguan Feiyan."
+
+"Oh?" said Hua Manlou.
+
+"Xue'er may very well know exactly where her sister is, and spun me that tale to scare me," said Lu Xiaofeng. "I see it now: not one word out of her is to be believed."
+
+Hua Manlou smiled once more, as though he would rather let the matter drop, and changed the subject. "Didn't you say you'd come here to find someone?"
+
+Lu Xiaofeng nodded.
+
+"Ximen Chuixue doesn't live here, that I know of," said Hua Manlou.
+
+"He doesn't," said Lu Xiaofeng. "It's someone else I'm after."
+
+"Who, then?" said Hua Manlou.
+
+"You seldom go about in the world, so you may not have heard of them," said Lu Xiaofeng. "There are two very strange old men in the jianghu. One knows the heavens above and the earth beneath; of every curious thing that ever was, past or present, he knows at least a little. The other's gift is greater still: set him any question, however strange, however hard, and he'll find you a way through it."
+
+"You mean Datong and Dazhi," said Hua Manlou.
+
+"You know of them too?" said Lu Xiaofeng.
+
+"I'm blind," said Hua Manlou mildly. "I'm not the least bit deaf."
+
+"There are times," said Lu Xiaofeng ruefully, "I could wish you a little deafer."
+
+By now they had come into the cool of the eaves, and along the far side of the street a monk was walking towards them, head bowed, most properly. He had, in fact, the square face and long ears of a man born to good fortune; but what he wore was ragged and dirty, and the straw sandals on his feet were worn very nearly through the soles.
+
+At the sight of him Lu Xiaofeng went straight over, beaming. "Honest Monk! How are you!"
+
+The Honest Monk looked up, saw him, and smiled too. "And have you grown any honester of late?"
+
+Lu Xiaofeng laughed. "The day you turn dishonest, I'll turn honest."
+
+Meeting Lu Xiaofeng, it seemed, left the Honest Monk nothing to do but smile ruefully.
+
+"You look uncommonly cheerful today," Lu Xiaofeng went on. "Some happy occasion, is it?"
+
+"What happy occasions does an honest monk get?" said the Honest Monk ruefully. "Happy occasions are for dishonest young fellows like you."
+
+"Today looks like an exception, though," said Lu Xiaofeng.
+
+The Honest Monk frowned, and then sighed. "Today is indeed an exception."
+
+Anyone could have read in his face that he wanted no more of Lu Xiaofeng's questions.
+
+Unhappily, Lu Xiaofeng was never one to take a hint. "Why?"
+
+The Honest Monk pulled a long face and stammered, "Because... because I have just done a not very honest thing."
+
+He had not wanted to say it. But he could not not say it, because he was an honest monk.
+
+Which only made Lu Xiaofeng the more curious, and the more bent on asking. "You? A dishonest thing?"
+
+"The first time in my life," said the Honest Monk.
+
+This was getting better and better. Lu Xiaofeng dropped his voice. "What did you do?"
+
+The Honest Monk's face seemed to have gone a little red. "I have just been to see Ouyang," he faltered.
+
+"And who is Ouyang?" said Lu Xiaofeng.
+
+The Honest Monk looked at him, and an odd expression came over his face, half smug, half pitying of Lu Xiaofeng's ignorance. He shook his head. "How can you not know Ouyang?"
+
+"And why must I?" said Lu Xiaofeng.
+
+"Because Ouyang," the Honest Monk whispered, "is Ouyang Qing."
+
+"And what manner of person might Ouyang Qing be?" said Lu Xiaofeng.
+
+The Honest Monk went redder still. "She is a... a very famous..." he stuttered, and it seemed to take the very last of his strength to force out the two words at the end: "a courtesan."
+
+Lu Xiaofeng very nearly leapt where he stood. Not in his dreams would he have imagined the Honest Monk going to a courtesan.
+
+But astonished and tickled as he was, his face gave nothing away. "Well, it's no great matter," he said mildly. "That sort of thing is common enough."
+
+It was the Honest Monk's turn to be startled. "Common?"
+
+"A monk has no wife, and no concubine either," said Lu Xiaofeng gravely. "If a strong, healthy man can't even go to a courtesan, what would you have them all do? Go to the nuns?"
+
+The Honest Monk was struck dumb.
+
+"Besides," Lu Xiaofeng went on, "the eminent monk and the famous courtesan aren't only a well-matched pair. There's a close bond between the two callings from of old."
+
+The Honest Monk could not help asking, "What bond?"
+
+"The eminent monk is a monk for a day and strikes the bell for a day," said Lu Xiaofeng, "while the famous courtesan is a bell for a day and gets struck by a monk for a day... now isn't that bond close enough?" He hadn't got the words fairly out before he doubled over laughing at them himself.
+
+The Honest Monk was too angry even to move. He stood stupefied a long moment, then sighed and murmured, "Merciful Buddha. Why must I meet Master Sun last night, and Lu Xiaofeng this morning?"
+
+Lu Xiaofeng stopped laughing at once. "You saw Master Sun? Where? He's the very man I'm looking for."
+
+The Honest Monk seemed not to hear him at all, still telling over his own litany. "Amitabha. Truly an ill deed must never, never be done. I deserve to die for it. The Bodhisattva should sentence me to crawl home."
+
+And chanting still, he dropped suddenly to the ground and went crawling away down the street in good earnest.
+
+There was nothing whatever Lu Xiaofeng could do about it but watch him go, smiling ruefully.
+
+Hua Manlou came over, unable to help himself. "Is he really crawling?"
+
+Lu Xiaofeng sighed. "If that man says he'll crawl ten li, he will not crawl nine and a half," he said ruefully. "Because he's an honest monk."
+
+Hua Manlou laughed. "An honest monk, it seems, and a mad one into the bargain."
+
+"The madness is put on," said Lu Xiaofeng. "Underneath it he's clearer-headed than any of us."
+
+"And what manner of person is Master Sun?" said Hua Manlou.
+
+At the mention of Master Sun, Lu Xiaofeng's spirits rose again. "Master Sun's full style, properly speaking, is Turtle-Spawn Sun the Great Master."
+
+Hua Manlou burst out laughing. "However did he come by so handsome a name?"
+
+"He says himself that when he's penniless he's a turtle-spawn, and when he's in money he's a great master," said Lu Xiaofeng. "And since his surname happens to be Sun, people settled on calling him Master Sun."
+
+"You do know a remarkable number of freaks," said Hua Manlou, laughing.
+
+"Happily, of any ten freaks, nine are not too hard to like," said Lu Xiaofeng. "And Master Sun is easier to like than most."
+
+"And which is it you're really after," said Hua Manlou, "Datong and Dazhi, or him?"
+
+"Datong and Dazhi are two freaks in their own right. No one has ever set eyes on them, still less learned their whereabouts," said Lu Xiaofeng. "No one can find them at all, except Master Sun."
+
+"Then Master Sun is a man of no small parts after all," said Hua Manlou.
+
+"From a boy he's done nothing but eat, drink, whore and gamble; a drifting, easy wastrel all his days, without one honest piece of work to his name and no other talent whatever," said Lu Xiaofeng. "And that one talent has kept him at his ease for half a lifetime."
+
+"How so?" said Hua Manlou.
+
+"Because whoever wants Datong and Dazhi," said Lu Xiaofeng, "must first redeem him out of whatever establishment he's pawned himself into."
+
+"Redeem him? Why should he need redeeming?" said Hua Manlou.
+
+"No man alive spends money harder. His 'great master' never lasts three days before he's a turtle-spawn again, and when the reckoning comes and he can't pay it, he pawns himself where he sits and waits for somebody to buy him out," said Lu Xiaofeng. "He's lived that way ten years together now. I can't help but admire the man."
+
+Hua Manlou laughed. "A man of parts, then, and of fortune too."
+
+"Exactly so," said Lu Xiaofeng. "A man without the fortune for it, living his life, would be raving inside the half-year."
+
+"And where do you mean to redeem him from this time?" said Hua Manlou.
+
+"First, naturally, I must go and see Ouyang," said Lu Xiaofeng.
+
+"Ouyang?" said Hua Manlou.
+
+Lu Xiaofeng laughed, and drawled, "How can you not know Ouyang? Ouyang is..."
+
+Ouyang Qing. On the flower-board of the Yiqing Court, hers was the first name. Her great gift, they said, was that she was the same to everyone: monk or baldpate, so long as you had money, she would treat you as the most adorable man in the world; and in her line of work, that one gift is all the gift required. Nor was she ill-favoured, far from it: a fair white face, hair black and glossy, a dimple in each cheek when she laughed, and a pair of eyes always narrowed at you so merrily that however much silver you spent on her, not a tael of it would ever feel wasted.
+
+Just now those eyes were narrowed merrily at Lu Xiaofeng, at Lu Xiaofeng's little moustache, as though never in her life had she seen so handsome a man, or so splendid a moustache. And Lu Xiaofeng was beginning to float on it; the banknotes in his pocket seemed to be sprouting wings, the better to fly out of it.
+
+Ouyang Qing's smile turned sweeter still. "You've never been here before, I think?"
+
+"Never once," said Lu Xiaofeng.
+
+"And the first time you come, you ask for me?" said Ouyang Qing.
+
+"The first person I asked for was you," said Lu Xiaofeng.
+
+Ouyang Qing lowered her head. "Then can it be," she said softly, "that you and I were truly fated?"
+
+"Not a doubt of it," said Lu Xiaofeng.
+
+Ouyang Qing's glance swam towards him. "But however did you come to know there was such a person as me?"
+
+"An immortal told me this morning, in a dream," said Lu Xiaofeng. "He said our fates were joined eight hundred years ago."
+
+Ouyang Qing laughed, startled. "You don't say!"
+
+"Every word of it true," said Lu Xiaofeng. "The immortal was a monk, and a very honest-looking one. He even said he'd been to see you himself."
+
+Ouyang Qing's face did not so much as flicker. "There was a monk here last night, right enough," she said with a charming smile. "When I went to bed he sat there and watched me the whole night through. I thought something must ail him. I never dreamed he was an immortal."
+
+Suddenly she came over and settled herself on Lu Xiaofeng's lap, stroking his little moustache, and bit her lip, laughing. "Only that one habit of his you're not to copy, mind."
+
+"I'm no immortal," said Lu Xiaofeng.
+
+Ouyang Qing leaned to his ear and nibbled it, giggling. "Being an immortal's no great bargain anyway. Only send this friend of yours out of the room, and I'll make you happier than any immortal ever was."
+
+Hua Manlou had been sitting quietly in a far corner all this while, smiling. Now, it seemed, he had no wish to watch the play run on. "We've come for Master Sun," he said suddenly. "You'll know where Master Sun is, I think?"
+
+"Master Sun? He's still next door at the Xiaoxiang Court, they say, waiting for someone to redeem him. Step out and you'll find the Xiaoxiang Court directly," said Ouyang Qing, who wanted Hua Manlou gone quickly.
+
+But it was Lu Xiaofeng who put her aside and stood up first.
+
+Ouyang Qing knit her brows. "You're going too?"
+
+Lu Xiaofeng sighed. "I'd rather not. Sadly, go I must."
+
+"To redeem him?" said Ouyang Qing.
+
+"Not to redeem him," said Lu Xiaofeng. "To sit with him while we both wait to be redeemed."
+
+He patted his purse with a rueful smile. "To be honest, what money we have left between us wouldn't buy a flat-cake."
+
+Ouyang Qing was still smiling, but it had become another sort of smile altogether: the false kind that no man can sit under for long. Lu Xiaofeng seemed not to notice. "But since you and I are fated," he said cheerfully, "how could I leave? Better, surely, to let him..."
+
+Ouyang Qing cut him off at once. "Since we're fated, we're sure to meet again by and by. Go along with your friend for now. I... I've come over a little poorly all of a sudden. My stomach aches."
+
+Outside, Lu Xiaofeng drew a long breath of the spring wind out of the east, and smiled. "If you want free of a woman, the best way is to get her to say her stomach aches. A man who goes out for his pleasures ought to know three ways at least of giving a woman a stomach-ache."
+
+"I always knew you were a man of many methods," said Hua Manlou mildly. "Until today I never knew you were no gentleman whatsoever."
+
+"How so?" said Lu Xiaofeng.
+
+"You knew perfectly well what kind of woman she is," said Hua Manlou. "Why must you strip her bare to her face?"
+
+"Because I don't like false hearts and painted feeling," said Lu Xiaofeng.
+
+"But she has no choice about it. She has to live. If she gave her true heart to every man who came, how should she live at all, in a place like that?" Hua Manlou smiled, and went on, "You're loyal, you're a friend to your friends; one might even call you a knight of the road. But you have one great failing."
+
+Lu Xiaofeng could only listen.
+
+"There are many people in this world who are hateful, even shameful," said Hua Manlou, "and some of them do what they do because they are driven to it. Your great failing is that you have never once thought how it is for them."
+
+Lu Xiaofeng looked at him a long while before he sighed, quietly. "There are times I truly don't enjoy your company."
+
+"Oh?" said Hua Manlou.
+
+"Because I've always thought myself a decent enough fellow," said Lu Xiaofeng. "Then I stand next to you, and I look a plain rascal."
+
+Hua Manlou smiled. "A man who knows himself a rascal is not past saving yet."
+
+"I'm a rascal! A rascal of the first water, a rascal without precedent or successor! A rascal like me you won't find in a million men!" The moment they set foot in the Xiaoxiang Court they heard the bawling from upstairs.
+
+"Master Sun?" said Hua Manlou.
+
+Lu Xiaofeng laughed. "The very man. Not many know themselves for rascals."
+
+"So he's not past saving either," said Hua Manlou, laughing.
+
+"Just now my one hope is that he's not too drunk to stand," said Lu Xiaofeng.
+
+Master Sun could not, in fact, stand. Happily he could still sit.
+
+He sat bolt upright now in the carriage Lu Xiaofeng had just hired, glassy eyes fixed on him. "However hot you are to find those two old freaks," said Master Sun, "you might at least have sat me out one cup of wine first."
+
+Lu Xiaofeng sighed. "What puzzles me is why they go on giving you wine when they know you're washed clean out."
+
+Master Sun grinned wide. "Because they know that sooner or later some big-headed gull like you will come and buy me out."
+
+And in sober truth his own head was no smaller than any other man's: no one who hadn't seen him could have imagined so small and scrawny a fellow carrying a skull of that size.
+
+"In your present state," said Lu Xiaofeng, "can you still find them straight off?"
+
+"Of course," said Master Sun loftily. "Freakish as those two freaks may be, I happen to be their bane made flesh. But first we settle three rules."
+
+"Name them," said Lu Xiaofeng.
+
+"Fifty taels a question, in full-weight silver ingots. When I go in to find them, you wait outside; whatever you'd ask, you ask it from outside," said Master Sun.
+
+"What I truly can't fathom," said Lu Xiaofeng ruefully, "is why they'll never see a living soul."
+
+Master Sun laughed again. "Because they hold that every man alive, save me, is a great rascal hateful to look upon. Little knowing that the greatest rascal under heaven is me."
+
+***
+
+The cave was black and forbidding, and its mouth so small that no one could enter but on all fours. On all fours, accordingly, Master Sun went in.
+
+Lu Xiaofeng and Hua Manlou had waited outside a long while now, and Lu Xiaofeng's patience was wearing through.
+
+But Hua Manlou was smiling. "You're fretting to be done, I know. But think a moment: how fine this country is; even the wind is a pleasure on the skin. To be allowed to linger a while in such a place... isn't that good fortune?"
+
+"How do you know the country's fine?" said Lu Xiaofeng.
+
+"I can't see it, but I can taste it," said Hua Manlou. "Which is why I hold that the only true blind men are the ones who have eyes and will not see."
+
+Lu Xiaofeng had no answer to that.
+
+Just then Master Sun's voice came out of the cave. "You may begin."
+
+The first fifty-tael ingot of silver went in, and with it the first question: "Fifty years ago, was there in the world a dynasty of the Golden Roc?"
+
+After a moment a voice came back out of the cave, deep and old. "The dynasty of the Golden Roc ruled a very small country in the far south. Its customs were strange; they married within the clan-name, and those in power at court were mostly of the double surname Shangguan. The dynasty was ancient and rich, but fifty years ago it fell, and the remnant of the royal house is said to have fled into the Central Lands."
+
+Lu Xiaofeng let out a breath, well enough pleased with the answer, it seemed, and tossed in a second ingot with the second question: "Besides the heirs of the royal house, did any of the great ministers of that court escape?"
+
+"Four men, it is said, were charged to guard their prince on his journey east. One was himself of the royal clan, Shangguan Jin by name; the other three were the great general Ping Duhe, the Minister of Works Shangguan Mu, and the treasurer of the inner stores, Yan Liben." And the answer carried a postscript: "The offices of that dynasty differed little from our own under the Han and the Tang."
+
+The third question: "What became of them afterwards?"
+
+"Once in the Central Lands they will have buried their names, for when the new dynasty was established it sent assassins into the Central Lands to hunt them down, without result. If the prince of those days is living still, he is an old man now, with one foot in the coffin."
+
+Lu Xiaofeng weighed the fourth question a long while before he asked it. "If a thing of the utmost difficulty required Ximen Chuixue's hand, by what means could he be moved to lend it?"
+
+This time the cave was silent a long while. Then came an answer of four words: "There is no way."
+
+In town, the Shanglin Spring was famed near and far for its Bamboo-Leaf Green, its cured beef, its five-plum pigeon and its twin-delicacy of fish and lamb; so that was where they now sat. For Lu Xiaofeng was a man who took his eating seriously, and understood it too.
+
+"There is no way... what kind of answer is that?" Lu Xiaofeng drank off a cup of the Bamboo-Leaf Green and smiled sourly. "This whole table of food and wine comes to five taels of silver at the outside. That accursed answer cost fifty."
+
+Hua Manlou smiled mildly. "He says there's no way. Is there truly none?"
+
+"Ximen Chuixue has money, and fame, and he's an utterly free man besides; other men's business he has never once minded," said Lu Xiaofeng. "Add that he owns no kin and looks down on the world from a great height... what way could there be with a man like that?"
+
+"And yet at times," said Hua Manlou, "he'll ride three thousand li to avenge a man he never met."
+
+"That's when it pleases him. When it doesn't, the King of Heaven himself couldn't talk him round," said Lu Xiaofeng.
+
+Hua Manlou smiled. "At all events, the trip wasn't wasted. We know now that what the Great King of the Golden Roc told us is no castle in the air."
+
+"And just because it's true, this is a business we can't let alone," said Lu Xiaofeng. "And because we can't let it alone, we can't do without Ximen Chuixue."
+
+"Is his sword truly as terrible as the tales make it?" said Hua Manlou.
+
+"More terrible, perhaps," said Lu Xiaofeng. "From his first stroke at fifteen to this day, no man has ever come away from his sword whole."
+
+"And why must it be he, for this?" said Hua Manlou.
+
+"Because what we're up against is no ordinary man," said Lu Xiaofeng, "and no one man, either."
+
+He poured down another cup. "If Dugu Yihe truly is the great boss of the Blue-Robe Tower, he has five or six men under him at the least who'd be very hard to handle. And that's before you count Emei itself, where masters gather like clouds."
+
+"I've heard tell of the Seven Swords of Emei myself," said Hua Manlou, "the Three Heroes and the Four Beauties: the pick of the rising generation of swordsmen."
+
+"And Yan Tieshan's steward at the Pavilion of Pearls and Splendour, Huo Tianqing, is harder to handle than the seven of them put together," said Lu Xiaofeng. "Not an old man, but of a very high generation in his school. They say even the great hero of Guanzhong, the Shanxi Wild Goose, must address him as a master-uncle."
+
+"How does a man like that come to serve under Yan Liben?" said Hua Manlou.
+
+"Because years ago he was ambushed and left for dead in the Qilian Mountains," said Lu Xiaofeng, "and Yan Liben saved his life."
+
+"And Huo Xiu is not seen from one year's end to the next," said Hua Manlou. "That vast fortune of his must have very capable men to watch over it, and they'll be no easy meat either."
+
+"Just so," said Lu Xiaofeng.
+
+"So we must dig out Ximen Chuixue, come what may," said Hua Manlou.
+
+"You have it exactly," said Lu Xiaofeng.
+
+Hua Manlou considered. "Could we goad him out? Sting him into measuring himself against these masters?"
+
+"We could not," said Lu Xiaofeng.
+
+"Why not?" said Hua Manlou.
+
+"Because the man takes neither the carrot nor the stick. And he's clever to the very top of the tree," said Lu Xiaofeng. "Like me."
+
+He smiled. "Try goading me sometime. You'll get nothing either."
+
+Hua Manlou was silent again a long while. "I have one way," he said slowly, "that might be worth the trying."
+
+"What way?" said Lu Xiaofeng.
+
+What way, Hua Manlou never had time to say. From the doorway came a sudden commotion, and cries of alarm.
+
+A man came reeling in through the door. A man made of blood.
+
+The spring noon of April was past, the sun leaning westward; it slanted in through the doorway and struck him, and lit all that fresh blood to a red glare that chilled a man to the marrow.
+
+The blood ran from seventeen or eighteen places at once: from his scalp, his nose, his ears, his eyes, his mouth, his throat, his chest, his wrists, his knees, both shoulders. Not even Lu Xiaofeng had ever seen so many wounds on one body. The mind refused the thought of it.
+
+The man saw him too, and lurched suddenly across, and gripped Lu Xiaofeng's shoulder with two blood-dyed hands, his throat rattling, kek, kek, as though there were something he would say. But not one word came. His windpipe was half severed. And still he lived.
+
+Was it a miracle? Or was it that, before he died, he meant to look on Lu Xiaofeng once more, and tell Lu Xiaofeng one thing?
+
+Lu Xiaofeng stared into the twisted, terrible face, and the cry broke from him: "Xiao Qiuyu!"
+
+The rattle went on and on in Xiao Qiuyu's throat, and his bleeding eyes were full of urgency, terror, fury, hatred.
+
+"Is there something you want to say?" said Lu Xiaofeng.
+
+Xiao Qiuyu nodded, and then out of him came one scream of despair, the scream of a lone, starved, wounded wolf dying in the ice and snow.
+
+Then his whole body convulsed, as though an unseen whip had come down across it with all its force.
+
+What he had meant to tell Lu Xiaofeng was plainly some secret of the most fearful kind. Now he would never tell it.
+
+When he fell, his four limbs were knotted together with the pain of it, and the bright red blood was darkening, little by little, to purple-black.
+
+Lu Xiaofeng stamped once, swung up his arms, and his tall body swept like a roc over four or five tables and out over the heads of the crowd, through the door.
+
+Down the long flagstoned street ran a trail of fresh blood, from the middle of the road to the door.
+
+"A carriage came through at the gallop just now... that man was pushed out of it." "What sort of carriage?" "A black one. The driver looked to be a fellow in blue." "Which way did it go?" "West."
+
+Lu Xiaofeng said nothing at all. He ran into the slanting sun, down the length of the street; then from the street to his left came a fresh burst of cries and commotion.
+
+A jet-black carriage had just crashed into an apothecary's shop, bowling over four or five people and smashing a pair of tables. The horse was down now, thick white froth still pumping from its jaws.
+
+The driver was down too, but what ran from his mouth was blood, purple-black blood, falling drop by drop onto his lapels. Blue cotton clothes; and his face, twisted out of shape, was turning even as one watched from sallow yellow to a dead black.
+
+Lu Xiaofeng wrenched the carriage door open. There on the seat of the cab, laid out for him, was a pair of silver hooks.
+
+Tied to the hooks was a strip of yellow sackcloth, like the soul-banner hung out for the dead, and the words on it too were written in fresh blood: "Blood for blood!" "This is the end of those who mind other men's business!"
+
+The silver hooks glittered.
+
+Hua Manlou ran a light hand along their edges. "These are the hooks Soul-Hook carried, you say?" he said slowly.
+
+Lu Xiaofeng nodded.
+
+"And it was at Xiao Qiuyu's hands that Soul-Hook died," said Hua Manlou.
+
+Lu Xiaofeng sighed, long and slow. "Blood for blood."
+
+"But the second line," said Hua Manlou, "is plainly a warning to us: let other men's business be."
+
+Lu Xiaofeng laughed coldly. "Quick ears, the Blue-Robe Tower. But they've misjudged their man."
+
+Hua Manlou sighed too. "Misjudged him badly. This is a stupidity the Blue-Robe Tower shouldn't have been capable of. Can they truly think this will frighten you off?"
+
+"There's only one man this serves," said Lu Xiaofeng.
+
+"Whom?" said Hua Manlou.
+
+"The Great King of the Golden Roc," said Lu Xiaofeng.
+
+There is a breed of man born ox-stubborn, who will break before he bends: the more you try to scare him off a thing, the more surely he will see it through.
+
+Lu Xiaofeng was of that breed.
+
+You could lay one hundred and eighty broadswords against his neck now; this business he would mind to the end.
+
+His hand closed hard on the silver hooks. "Come," he said suddenly. "We go for Ximen Chuixue now. And I've thought of a way to handle him myself."
+
+"What way?" said Hua Manlou.
+
+"If this time he still won't lift his hand," said Lu Xiaofeng, "I'll burn the Ten Thousand Plum Manor over his head."

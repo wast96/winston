@@ -213,6 +213,42 @@
       "pinyin": "Ye Gucheng",
       "status": "decided",
       "note": "The Lord of White Cloud City, of Flying-Immortal Isle in the Southern Sea; named in passing by Lu Xiaofeng as one of the few peerless swordsmen of the age, beside Ximen Chuixue (ch04)."
+    },
+    "老实和尚": {
+      "en": "the Honest Monk",
+      "pinyin": "Laoshi Heshang",
+      "status": "decided",
+      "note": "The ragged monk of the Prologue&#8217;s second vignette, so called because he cannot tell a lie; he destroyed the Water Snake Gang in a night. He resurfaces in ch05, mortified by his one dishonest deed."
+    },
+    "孙老爷": {
+      "en": "Master Sun",
+      "pinyin": "Sun Laoye",
+      "status": "decided",
+      "note": "A tiny, big-headed wastrel whose one talent is that he alone can find the oracles Datong and Dazhi; he pawns himself to pleasure-houses between windfalls. See the note on his &#8216;full style&#8217; (ch05)."
+    },
+    "欧阳情": {
+      "en": "Ouyang Qing",
+      "pinyin": "Ouyang Qing",
+      "status": "decided",
+      "note": "The reigning name on the flower-board of the Yiqing Court; Ouyang is a two-syllable surname, and her given name Qing means &#8216;passion&#8217;, chiming with the house&#8217;s own (&#8216;Pleasing the Passions&#8217;) (ch05)."
+    },
+    "大通": {
+      "en": "Datong",
+      "pinyin": "Datong",
+      "status": "decided",
+      "note": "&#8216;Great Penetration&#8217;: one of the two hermit oracles of the jianghu, who knows at least a little of every strange thing that ever happened. No one has seen his face; only Master Sun can find him (ch05)."
+    },
+    "大智": {
+      "en": "Dazhi",
+      "pinyin": "Dazhi",
+      "status": "decided",
+      "note": "&#8216;Great Wisdom&#8217;: the other hermit oracle, who can find a way through any question set to him &#8212; save one. Fifty taels of silver a question (ch05)."
+    },
+    "霍天青": {
+      "en": "Huo Tianqing",
+      "pinyin": "Huo Tianqing",
+      "status": "decided",
+      "note": "Steward of Yan Tieshan&#8217;s Pavilion of Pearls and Splendour; a master of very high martial generation who serves Yan because Yan once saved his life in the Qilian Mountains (ch05)."
     }
   },
   "organizations": {
@@ -289,6 +325,18 @@
       "pinyin": "Emei",
       "status": "decided",
       "note": "Mount Emei in Sichuan, one of the sacred mountains of Chinese Buddhism and the seat of a great martial sect; here its sword-school, whose master is secretly the traitor Dugu Yihe (ch04). See also the later Four Beauties of Emei (ch09)."
+    },
+    "万梅山庄": {
+      "en": "the Ten Thousand Plum Manor",
+      "pinyin": "Wanmei Shanzhuang",
+      "status": "decided",
+      "note": "Ximen Chuixue&#8217;s estate, named for its plum trees; in the fourth month it stands flowerless while the peach and azalea bloom on the slopes around it (ch05&#8211;ch06)."
+    },
+    "珠光宝气阁": {
+      "en": "the Pavilion of Pearls and Splendour",
+      "pinyin": "Zhuguang Baoqi Ge",
+      "status": "decided",
+      "note": "The seat of Yan Tieshan&#8217;s jewel empire; its name (&#8216;the sheen of pearls, the glow of treasure&#8217;) gives Chapter 6 its title. Huo Tianqing is its steward (ch05)."
     }
   },
   "terms": {
@@ -339,6 +387,18 @@
       "pinyin": "panguan bi",
       "status": "decided",
       "note": "Iron writing-brushes used as weapons; the traditional arms of the underworld clerks called <i>panguan</i>. The Iron-Faced Judge carries a pair (ch02)."
+    },
+    "竹叶青": {
+      "en": "Bamboo-Leaf Green",
+      "pinyin": "zhuyeqing",
+      "status": "decided",
+      "note": "A pale-green liquor of Shanxi: sorghum spirit steeped with bamboo leaves and herbs. See the note at the Shanglin Spring (ch05)."
+    },
+    "飞凤针": {
+      "en": "Flying Phoenix Needles",
+      "pinyin": "feifeng zhen",
+      "status": "decided",
+      "note": "Princess Danfeng&#8217;s signature hidden weapon: poisoned needles said to close the throat at the first touch of blood. Xue&#8217;er accuses her cousin of using them on Liu Yuhen (ch06)."
     }
   }
 }

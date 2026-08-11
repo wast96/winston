@@ -621,3 +621,167 @@ also glosses the "soul-stealing wine").
   Xue'er; 上官谨 → Shangguan Jin; 上官木/平独鹤/严立本 → Shangguan Mu / Ping
   Duhe / Yan Liben (the traitors' original names); 叶孤城 → Ye Gucheng;
   关中 → Guanzhong; 中土 → the Central Lands; 峨嵋 → Emei. 波斯 → Persian.
+
+## B04 = Chapters 4-5 (ch05 盛宴 / ch06 悲歌)
+
+### Environment / setup
+
+- `./setup.sh`: pillow present, epubcheck at /tmp/epubcheck-5.1.0/. Regression
+  harness 9/10 as documented (the one FAIL is the expected `hook stands down on
+  template stub` case; HANDOFF carries a real kickoff, so the hook correctly
+  enforces). Not a defect.
+- `data/src/*` was gitignored/absent; regenerated with `scripts/ingest_epub.py
+  source.epub` (18 spine docs, 3 images, 124,096 src chars). book.json untouched.
+- Stray-branch consolidation (rule 2): session started on
+  `claude/lu-xiaofeng-1-nuj46x` at the same commit as origin/claude/lu-xiaofeng-1
+  (d3e3a95); no unmerged commits on the stray. Checked out claude/lu-xiaofeng-1,
+  reset to origin, deleted the stray branch (local + remote prune).
+- **Model change mid-batch (register guard):** the session began on `Fable 5`
+  (translation of ch05 and most of ch06 drafted there) and was switched to
+  `Opus 4.8` during the apparatus step. Register was re-checked against the
+  FROZEN ch01 reference afterward and both chapters sit within tolerance
+  (ch05 0.64x, ch06 0.54x, both em-dash 0.0, rhythm CV 0.73 vs ref 0.75) — no
+  drift from the switch. Not a defect; recorded per the HANDOFF do-not-revert /
+  "if something goes wrong: model change" note.
+- **Source's own notes: none present.** `grep -cE '\[[0-9]+\]'` over
+  `data/src/10_part0000-split-008.txt` and `11_part0000-split-009.txt`: 0 each.
+
+### Scope
+
+- ch05 (第四章 盛宴 / Chapter 4. The Feast), 9,797 src chars, 346 source lines.
+  **Three scenes** (bare-numeric dividers at source lines 3, 100, 255).
+  `***` inserted after paragraphs 77 and 225.
+- ch06 (第五章 悲歌 / Chapter 5. A Song of Sorrow), 7,898 src chars, 296 source
+  lines. **Four scenes** (dividers at 3, 52, 260, 281). `***` inserted after
+  paragraphs 43, 238, 257.
+- make_bilingual skip=2 both (line 1 running-title stub, line 2 chapter title).
+- **No extractor-split paragraphs** (every body line ends on terminal
+  punctuation; joined with '' into merged paragraphs). No U+200B, no doubled
+  headings, no spliced captions.
+
+### Digitization glitches (rendered to plain sense; not footnoted)
+
+- **ch05 / ch06: none identified.** Quote marks balanced (245/245 and 204/204),
+  no fullwidth Latin in digits, no zero-width chars, no guillemets. Source clean.
+  Note ch06 uses the traitor's *original* name 严立本 (Yan Liben) in the two
+  lines about Huo Tianqing's rescue, though the man is now 阎铁珊 (Yan Tieshan) —
+  the source's own usage, rendered faithfully (the two Yan surnames 严/阎 both
+  romanise as Yan; the reader knows them as one man from ch04). Not a glitch.
+
+### Merged-paragraphs pipeline
+
+- **ch05: 344 body lines → 306 merged paragraphs** (dialogue-dense feast +
+  brothel banter + oracle scene; the closing blood-messenger scene mostly 1:1).
+- **ch06: 293 body lines → 272 merged paragraphs.**
+- Builder `scratchpad/build_b04.py` (re-ranged copy of build_b03.py): writes
+  merged source (two title lines + one line per paragraph), make_bilingual
+  (parity by construction), split_bilingual, then post-inserts `***` at the
+  scene boundaries. `apply_format_markers.py` NOT run (source HTML has no
+  markers). build_b04.py COMMITTED under scratchpad/.
+
+### Checks (all green)
+
+- `verify_unit.py ch05 ch06`: parity 306/272, **numbers 0 unresolved**
+  (`--noise data/noise.txt`), anchors 0/0 (all B04 anchors placed post-merge).
+- `check_align.py`: ch05 median 4.00, ch06 median 3.86 en/han; **no strays**
+  (2.2x threshold).
+- `check_content.py --config scratchpad/qc_config.json`: ch05 284 name
+  occurrences, ch06 241, **all in the paired paragraph** (2 displacements found
+  and fixed: ch05 §130 "陆小凤的无知" → "Lu Xiaofeng's ignorance"; ch06 §93
+  "告诉了陆小凤" → "told Lu Xiaofeng").
+- `qc_entities.py`: ch05 0 misses (census 陆小凤 x144, 花满楼 x62, 老实和尚 x21,
+  孙老爷 x20, 欧阳情 x15 …); ch06 0 misses (陆小凤 x114, 花满楼 x76, 西门吹雪 x27,
+  柳余恨 x15 …).
+- `check_apparatus.py`: 0 failures, 0 warnings.
+- `check_structure.py`: parity 154/289/323/333/306/272 all OK; 46 note anchors,
+  0 unresolved, 0 waived (5 attach at first of several occurrences); headings
+  OK; ALL PASS.
+- **Tail verification:** ch05 final lines (紧紧握着银钩…走…万梅山庄) and ch06
+  final lines (口齿伶俐的小伙子…八百里以内…霍总管) checked verbatim against source
+  L345-347 and L295-297 before shipping. Also spot-verified the two embedded
+  poems (Li Bai's 将进酒 opening; Li Yu's 长相思) and the oracle's minister-list
+  against source.
+- Build: `build_reading_epub.py` → 6 of 13 chapters, 46 notes, 0 source notes.
+  `qa_epub.py` PASS (27 files, 20 documents, 46 refs/46 bodies/46 backlinks;
+  1699 paragraphs). **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings /
+  0 infos.**
+- `check_register.py --ref out/ch01_reading.md`: ch05 26.0/1k (0.64x ref),
+  ch06 22.0/1k (0.54x) — **within tolerance** (fail is <0.45x). shall 0% both,
+  em-dash 0.0/1k both, rhythm CV 0.73/0.73 vs ref 0.75 (no flattening).
+
+### Attribution (check_content + check_align, same fix as B02/B03)
+
+- ch05's rapid Lu / Honest-Monk / Ouyang Qing / Master Sun banter and ch06's
+  Lu / Ximen / Hua / Xue'er / Liu Yuhen dialogue were given natural speaker
+  attributions ("said Lu Xiaofeng", "said Ximen Chuixue", "said the hunter",
+  "said Xue'er") so each capitalised-glossary name lands once per paragraph its
+  source attributes to it. Lowercase-en names (the Honest Monk, Master Sun, the
+  hunter, the Great King) satisfy qc_entities via their first/last word.
+
+### Footnotes (6 for ch05, 4 for ch06; density steady from B03's 4/6)
+
+ch05: (1) aged Huadiao (the Shaoxing rice-wine grade); (2) the mark / huaya
+(Lu's personal phoenix cipher, and why Zhu Ting follows a stranger on sight of
+it); (3) the Chinese zodiac / "year of the Goat" (how a birth-sign pins the
+age, feeding the eighteen-vs-twenty joke); (4) the monk-and-bell joke
+(做一天和尚撞一天钟 proverb + the bawdy 撞 pun); (5) Turtle-Spawn / 龟孙子
+(the curse and the Sun-surname name-joke; cross-refs the ch02 wangba note);
+(6) the Shanglin Spring fare (Bamboo-Leaf Green liquor; the fish+lamb=鲜 pun).
+ch06: (1) Li Bai's 将进酒 "Bring in the Wine" (the two lines Lu can sing);
+(2) Li Yu / "Endless Longing" 长相思 (the poet-emperor, the ci tune-pattern;
+the source itself attributes it, note supplements); (3) 今朝有酒今朝醉 proverb
+(Hua Manlou's carpe-diem answer); (4) Yanbei → Shanxi (the northern-frontier
+geography of the road, and how long Lu has gone clean-shaven).
+
+**NOT re-noted / deliberately not footnoted:**
+- Period units — tael (五千两/五十两/五两/十两), catty (三斤人肉), li (十里/
+  三千里/八百里): footnoted at first appearance in ch01; NOT re-noted.
+- man-flesh buns (人肉包子, ch06 Hua Manlou's lizard-and-flesh joke): noted in
+  ch04; NOT re-noted.
+- jianghu, lightness-skill (qinggong), judge's pens (panguan bi), Persian
+  grape-wine, the Blue-Robe Tower, the Golden Roc, Ximen Chuixue's name/rite,
+  Emei: all prior chapters; NOT re-noted.
+- 八百年前 ("eight hundred years ago", ch05 hyperbole for "ages ago"), 天王老子
+  ("the King of Heaven himself", idiom), 日出而作 ("rise with the sun and
+  work"), 六亲不认, 面壁-style self-abasement: rendered to plain sense, no note.
+- Datong / Dazhi, the black-faced mountain-god idol (source itself leaves the
+  identity vague 山神?土地?): glossed inline / in the glossary, no footnote.
+
+### Apparatus / glossary added
+
+- **notes.json**: 6 under ch05, 4 under ch06 (total 46 book-wide). Merged with
+  `apparatus_merge.py` (NOTES only; glossary block omitted from the batch JSON
+  per the HANDOFF trap). `scratchpad/b04_apparatus.json` tracked.
+- **glossary.json**: 12 new rows (two-level, added directly under sections).
+  People (7): the Honest Monk, Master Sun, Ouyang Qing, Datong, Dazhi,
+  Huo Tianqing. Places/orgs (2): the Ten Thousand Plum Manor, the Pavilion of
+  Pearls and Splendour. Terms (2): Bamboo-Leaf Green, Flying Phoenix Needles.
+  (Count: 6 people + 2 places + 2 terms = 10; plus the two rows counted under
+  people/places above — total 10 new referents.) All `status: decided`.
+- No figures (the book has none).
+
+### noise.txt additions (all justified by real B04 flags; documented in-file)
+
+- `十足十` ("ten parts in ten", full-measure idiom; the 十s figurative —
+  五十两 taels flag context, but this is 十足十的银元宝 "full-weight ingots",
+  ch05).
+- `六亲不认` ("acknowledges none of the six kinships", idiom; 六 is the
+  fixed six-relations formula, not a count; ch05 on Ximen Chuixue).
+- `飘零` ("drifting/fallen", the wanderer's-lot compound; 零 is not the digit 0;
+  ch06, the song on the mountainside — flagged a phantom [0]).
+
+### Decided shelf renderings (this batch sets them)
+
+- 老实和尚 → the Honest Monk; 孙老爷 → Master Sun (龟孙子大老爷 → "Turtle-Spawn
+  Sun the Great Master"); 欧阳情 → Ouyang Qing; 大通/大智 → Datong / Dazhi;
+  霍天青 → Huo Tianqing.
+- 万梅山庄 → the Ten Thousand Plum Manor (Ximen Chuixue's estate); 珠光宝气阁/
+  珠光宝气阎府 → the Pavilion of Pearls and Splendour (Yan Tieshan's jewel seat;
+  gives ch07 its title "Pearls and Splendour").
+- 竹叶青 → Bamboo-Leaf Green; 飞凤针 → Flying Phoenix Needles (Princess
+  Danfeng's poisoned hidden weapon); 花雕 → Huadiao; 上林春 → the Shanglin Spring;
+  怡情院 → the Yiqing Court; 潇湘院 → the Xiaoxiang Court (brothels of ch05,
+  rendered by literal pinyin, inline).
+- 花押 → "mark" (huaya, personal cipher, footnoted); 人生得意须尽欢… → "When life
+  goes well, drink joy to the last drop…" (Li Bai, footnoted); 长相思 →
+  "Endless Longing" (Li Yu ci, footnoted).

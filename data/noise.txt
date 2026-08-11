@@ -112,4 +112,17 @@
 # "four directions" idiom, not a count. Rendered "flashed with authority"
 # (ch04, the traitor Ping Duhe's triangular eyes).
 四射
+# --- B04 (ch05 盛宴 / ch06 悲歌) ---
+# 十足十 = "ten parts in ten", idiom for full-measure / 100% pure (Master Sun
+# demands 十足十的银元宝). The 十s are figurative. Rendered "full-weight
+# silver ingots" (ch05).
+十足十
+# 六亲不认 = "acknowledges none of the six kinships", idiom for a man who
+# owns no kin at all; the 六 is the fixed six-relations formula, not a count.
+# Rendered "he owns no kin" (ch05, on Ximen Chuixue).
+六亲不认
+# 飘零 = "drifting, fallen (like a leaf)", the lexical compound for a rootless
+# wanderer's lot; its 零 is not the digit 0. Rendered "driftings" / "drifting
+# orphan girl" (ch06, the song on the mountainside).
+飘零
 
