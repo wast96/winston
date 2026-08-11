@@ -1,0 +1,535 @@
+{
+  "glossary": {
+    "林楠笙": {
+      "en": "Lin Nansheng",
+      "pinyin": "Lín Nánshēng",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 1,
+      "cast": "A Nationalist (Juntong) intelligence agent in occupied Shanghai; the novel's protagonist.",
+      "note": "The protagonist; a Juntong agent. Pinyin.",
+      "category": "people"
+    },
+    "朱怡贞": {
+      "en": "Zhu Yizhen",
+      "pinyin": "Zhū Yízhēn",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 2,
+      "cast": "A Communist intelligence agent and Lin Nansheng's first love; wife, in cover, of Ji Zhongyuan.",
+      "note": "A Communist agent; Lin's former student and lover. Endearment 贞贞, Zhenzhen. Pinyin.",
+      "category": "people"
+    },
+    "顾慎言": {
+      "en": "Gu Shenyan",
+      "pinyin": "Gù Shènyán",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 3,
+      "cast": "Lin Nansheng's superior and former training-class director; an elegant, cultivated spymaster.",
+      "note": "Lin's superior and the director of studies of his training class. Pinyin.",
+      "category": "people"
+    },
+    "左秋明": {
+      "en": "Zuo Qiuming",
+      "pinyin": "Zuǒ Qiūmíng",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 4,
+      "cast": "A fellow trainee of Lin Nansheng's, now a Juntong liaison officer in Hong Kong.",
+      "note": "Lin's classmate from the training class; a liaison officer. Pinyin.",
+      "category": "people"
+    },
+    "纪中原": {
+      "en": "Ji Zhongyuan",
+      "pinyin": "Jì Zhōngyuán",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 5,
+      "cast": "A Communist controller posing as a seal-engraver; Zhu Yizhen's husband in cover.",
+      "note": "Zhu Yizhen's controller and cover-husband; introduces himself as 'Old Ji.' Pinyin.",
+      "category": "people"
+    },
+    "丁默邨": {
+      "en": "Ding Mocun",
+      "pinyin": "Dīng Mòcūn",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 6,
+      "cast": "A real turncoat: director of the No. 76 secret service of the Wang Jingwei regime.",
+      "note": "Historical (1901–1947); Nationalist officer turned collaborator, co-founder of No. 76; executed as a traitor in 1947. Pinyin, the standard form in English scholarship.",
+      "category": "people"
+    },
+    "铃木正男": {
+      "en": "Suzuki Masao",
+      "pinyin": "Suzuki Masao",
+      "status": "decided",
+      "note": "The Japanese army surgeon who treats Lin in Hong Kong; addresses Lin as 'Pang-san.' Japanese reading.",
+      "category": "people"
+    },
+    "小林大介": {
+      "en": "Kobayashi Daisuke",
+      "pinyin": "Kobayashi Daisuke",
+      "status": "decided",
+      "note": "A second secretary at the Japanese consulate in Shanghai who trades intelligence with Lin. Japanese reading.",
+      "category": "people"
+    },
+    "孟安南": {
+      "en": "Meng Annan",
+      "pinyin": "Mèng Ānnán",
+      "status": "decided",
+      "note": "An agent Gu Shenyan planted in Hong Kong years earlier; a member of the Indochinese Communist Party in cover. Pinyin.",
+      "category": "people"
+    },
+    "童自重": {
+      "en": "Tong Zizhong",
+      "pinyin": "Tóng Zìzhòng",
+      "status": "decided",
+      "note": "A military-political adviser to the Wang regime; his Japanese army registry name is Uemura Kiyoshi (上村净). Assassinated at the Cathay Hotel. Pinyin.",
+      "category": "people"
+    },
+    "蓝小姐": {
+      "en": "Miss Lan",
+      "pinyin": "Lán",
+      "status": "decided",
+      "note": "A celebrated Shanghai socialite (交际花) who serves as Lin's assistant in the assassination attempt. Pinyin of her surname.",
+      "category": "people"
+    },
+    "老潘": {
+      "en": "Old Pan",
+      "pinyin": "Lǎo Pān",
+      "status": "decided",
+      "note": "The Communist contact who reactivates Zhu Yizhen after Ji Zhongyuan's presumed death. Pinyin.",
+      "category": "people"
+    },
+    "汪精卫": {
+      "en": "Wang Jingwei",
+      "pinyin": "Wāng Jīngwèi",
+      "status": "attested",
+      "note": "Historical (1883–1944); leader of the Japanese-sponsored collaborationist government at Nanjing. Standard English form.",
+      "category": "people"
+    },
+    "戴笠": {
+      "en": "Dai Li",
+      "pinyin": "Dài Lì",
+      "status": "attested",
+      "note": "Historical (1897–1946); head of the Juntong, the Nationalist military secret service. Called 'Mr. Dai' in the text. Standard English form.",
+      "category": "people"
+    },
+    "军统": {
+      "en": "the Juntong",
+      "pinyin": "Jūntǒng",
+      "status": "attested",
+      "note": "The Nationalists' military Bureau of Investigation and Statistics, Dai Li's secret service, seated in Chongqing. Attested English abbreviation.",
+      "category": "organizations"
+    },
+    "中统": {
+      "en": "the Zhongtong",
+      "pinyin": "Zhōngtǒng",
+      "status": "attested",
+      "note": "The Nationalist party's (CC Clique's) Bureau of Investigation and Statistics, the Juntong's civilian rival. Attested English abbreviation.",
+      "category": "organizations"
+    },
+    "特工总部": {
+      "en": "the Secret Service Headquarters",
+      "pinyin": "Tègōng Zǒngbù",
+      "status": "attested",
+      "note": "The Wang regime's secret-service headquarters at No. 76 Jessfield Road.",
+      "category": "organizations"
+    },
+    "新四军": {
+      "en": "the New Fourth Army",
+      "pinyin": "Xīn Sì Jūn",
+      "status": "attested",
+      "note": "A Communist army operating in central-eastern China; nominally allied with the Nationalists against Japan. Standard English form.",
+      "category": "organizations"
+    },
+    "和平建国军": {
+      "en": "the Peace Army",
+      "pinyin": "Hépíng Jiànguó Jūn",
+      "status": "decided",
+      "note": "The Wang regime's armed forces, in full the Peace National Construction Army.",
+      "category": "organizations"
+    },
+    "中美合作所": {
+      "en": "the Sino-American Cooperative Organization",
+      "pinyin": "Zhōng-Měi Hézuòsuǒ",
+      "status": "attested",
+      "note": "SACO, the joint Nationalist–US intelligence and training body (1943) under Dai Li and Milton Miles. Attested English name.",
+      "category": "organizations"
+    },
+    "蓝衣社": {
+      "en": "the Blue Shirts",
+      "pinyin": "Lányīshè",
+      "status": "attested",
+      "note": "The Blue Shirts Society, a fascist-influenced Nationalist secret organization tied to the Juntong. Attested English name.",
+      "category": "organizations"
+    },
+    "特高课": {
+      "en": "the Tokko",
+      "pinyin": "Tokkōka",
+      "status": "attested",
+      "note": "The Japanese Special Higher Police (特別高等警察), the political and thought police. Attested English/Japanese term.",
+      "category": "organizations"
+    },
+    "中储银行": {
+      "en": "the Central Reserve Bank",
+      "pinyin": "Zhōngchǔ Yínháng",
+      "status": "attested",
+      "note": "The note-issuing bank of the Wang Jingwei regime.",
+      "category": "organizations"
+    },
+    "华兴洋行": {
+      "en": "the Huaxing Trading Company",
+      "pinyin": "Huáxīng Yángháng",
+      "status": "decided",
+      "note": "A silk-and-tea export firm; the Juntong's Shanghai intelligence relay in cover.",
+      "category": "organizations"
+    },
+    "极司菲尔路": {
+      "en": "Jessfield Road",
+      "pinyin": "Jísīfēiěr Lù",
+      "status": "attested",
+      "note": "A road in western Shanghai, today's Wanhangdu Road; No. 76 stood here. Attested period English name.",
+      "category": "places"
+    },
+    "愚园路": {
+      "en": "Yuyuan Road",
+      "pinyin": "Yúyuán Lù",
+      "status": "attested",
+      "note": "A fashionable road in western Shanghai. Attested form (per the translation shelf).",
+      "category": "places"
+    },
+    "巨籁达路": {
+      "en": "Rue Ratard",
+      "pinyin": "Jùlàidá Lù",
+      "status": "attested",
+      "note": "A French Concession street lined with plane trees, today's Julu Road. Attested French name.",
+      "category": "places"
+    },
+    "霞飞路": {
+      "en": "Avenue Joffre",
+      "pinyin": "Xiáfēi Lù",
+      "status": "attested",
+      "note": "The main thoroughfare of the French Concession, today's Central Huaihai Road. Attested French name.",
+      "category": "places"
+    },
+    "苏州河": {
+      "en": "Suzhou Creek",
+      "pinyin": "Sūzhōu Hé",
+      "status": "attested",
+      "note": "The river through central Shanghai. Attested English form.",
+      "category": "places"
+    },
+    "众坊街": {
+      "en": "Public Square Street",
+      "pinyin": "Zhòngfāng Jiē",
+      "status": "attested",
+      "note": "A street in Yau Ma Tei, Hong Kong. Attested official English name.",
+      "category": "places"
+    },
+    "洛克道": {
+      "en": "Lockhart Road",
+      "pinyin": "Luòkè Dào",
+      "status": "attested",
+      "note": "A street in Wan Chai, Hong Kong. Attested official English name.",
+      "category": "places"
+    },
+    "大屿山": {
+      "en": "Lantau Island",
+      "pinyin": "Dàyǔ Shān",
+      "status": "attested",
+      "note": "The large island west of Hong Kong. Attested English form.",
+      "category": "places"
+    },
+    "广州湾": {
+      "en": "Guangzhouwan",
+      "pinyin": "Guǎngzhōu Wān",
+      "status": "attested",
+      "note": "A French-leased territory on the Guangdong coast, today's Zhanjiang. Attested romanization.",
+      "category": "places"
+    },
+    "启德机场": {
+      "en": "Kai Tak Airport",
+      "pinyin": "Qǐdé Jīchǎng",
+      "status": "attested",
+      "note": "Hong Kong's airport. Attested English name.",
+      "category": "places"
+    },
+    "重庆": {
+      "en": "Chongqing",
+      "pinyin": "Chóngqìng",
+      "status": "attested",
+      "note": "The Nationalist wartime capital. Attested pinyin form (per the shelf).",
+      "category": "places"
+    },
+    "交际花": {
+      "en": "socialite",
+      "pinyin": "jiāojìhuā",
+      "status": "decided",
+      "note": "Literally 'a flower of society'; a fashionable woman of the demimonde who moves among wealthy men.",
+      "category": "terms"
+    },
+    "旗袍": {
+      "en": "cheongsam",
+      "pinyin": "qípáo",
+      "status": "attested",
+      "note": "The close-fitting Chinese woman's dress; 'cheongsam' is the established English form.",
+      "category": "terms"
+    },
+    "黄包车": {
+      "en": "rickshaw",
+      "pinyin": "huángbāochē",
+      "status": "attested",
+      "note": "The man-pulled two-wheeled cab of Republican Shanghai.",
+      "category": "terms"
+    },
+    "华懋饭店": {
+      "en": "the Cathay Hotel",
+      "pinyin": "Huámào Fàndiàn",
+      "status": "attested",
+      "note": "Victor Sassoon's Cathay Hotel on the Bund; today the north building of the Peace Hotel. Attested English name.",
+      "category": "places"
+    },
+    "良友": {
+      "en": "The Young Companion",
+      "pinyin": "Liángyǒu",
+      "status": "attested",
+      "note": "The famous illustrated pictorial of Republican Shanghai (1926–1945). Attested English title.",
+      "category": "organizations"
+    },
+    "大公报": {
+      "en": "Ta Kung Pao",
+      "pinyin": "Dàgōngbào",
+      "status": "attested",
+      "note": "A major, respected Chinese newspaper. Attested romanization.",
+      "category": "organizations"
+    },
+    "中华日报": {
+      "en": "the Zhonghua Ribao",
+      "pinyin": "Zhōnghuá Rìbào",
+      "status": "attested",
+      "note": "The chief newspaper of the Wang Jingwei regime.",
+      "category": "organizations"
+    },
+    "中央日报": {
+      "en": "the Central Daily News",
+      "pinyin": "Zhōngyāng Rìbào",
+      "status": "attested",
+      "note": "The Nationalist party's official newspaper. Attested English name.",
+      "category": "organizations"
+    },
+    "皖南事变": {
+      "en": "the New Fourth Army Incident",
+      "pinyin": "Wǎnnán Shìbiàn",
+      "status": "attested",
+      "note": "The Southern Anhui Incident of January 1941. Attested English name.",
+      "category": "terms"
+    },
+    "淞沪会战": {
+      "en": "the Battle of Shanghai",
+      "pinyin": "Sōng-Hù Huìzhàn",
+      "status": "attested",
+      "note": "The battle of August–November 1937. Attested English name.",
+      "category": "terms"
+    },
+    "整风运动": {
+      "en": "the Rectification Movement",
+      "pinyin": "Zhěngfēng Yùndòng",
+      "status": "attested",
+      "note": "The Communist ideological campaign begun at Yan'an in 1942. Attested English name.",
+      "category": "terms"
+    },
+    "蝶恋花": {
+      "en": "Butterflies in Love with Flowers",
+      "pinyin": "Diéliànhuā",
+      "status": "decided",
+      "note": "An embroidery motif of butterflies among blossoms; also a classical song-lyric tune title.",
+      "category": "terms"
+    },
+    "咏梅": {
+      "en": "Ode to the Plum Blossom",
+      "pinyin": "Yǒng Méi",
+      "status": "decided",
+      "note": "The title of the poem used as a contact signal; a 七律 (regulated verse).",
+      "category": "terms"
+    },
+    "路透社": {
+      "en": "Reuters",
+      "pinyin": "Lùtòushè",
+      "status": "attested",
+      "note": "The British news agency; Lin's journalistic cover. Attested English name.",
+      "category": "organizations"
+    },
+    "朵云轩": {
+      "en": "Duoyunxuan",
+      "pinyin": "Duǒyúnxuān",
+      "status": "attested",
+      "note": "The famous Shanghai studio for painting, calligraphy, and seal-carving (founded 1900). Attested romanization.",
+      "category": "organizations"
+    },
+    "沪江大学": {
+      "en": "the University of Shanghai",
+      "pinyin": "Hùjiāng Dàxué",
+      "status": "attested",
+      "note": "A Baptist missionary university in Shanghai (Hujiang University). Attested English name.",
+      "category": "organizations"
+    }
+  },
+  "notes": {
+    "ch01": [
+      {
+        "anchor": "back to the camp",
+        "note": "The Japanese took Hong Kong on 25 December 1941 (“Black Christmas”) and interned Allied nationals there — British and other Allied civilians at Stanley Camp, captured servicemen at camps such as Sham Shui Po. The English surgeon is such a prisoner, brought under guard to consult on the wound. Historically grounded."
+      },
+      {
+        "anchor": "No. 76 Jessfield Road",
+        "note": "No. 76 Jessfield Road (today Wanhangdu Road) was the headquarters of the secret service of Wang Jingwei’s collaborationist government, established under Japanese direction by the turncoats Ding Mocun and Li Shiqun and moved there in the spring of 1939. Its formal name — the gilt title on the false credential just described — was the Secret Service Headquarters of the Special Affairs Committee of the collaborationist Kuomintang’s Central Executive Committee. It became a byword for torture and murder. Historical."
+      },
+      {
+        "anchor": "Wang Jingwei's intelligence apparatus",
+        "note": "Wang Jingwei (1883–1944), once a leading figure of the Nationalist party and heir to Sun Yat-sen’s mantle, broke with Chongqing and in March 1940 set up a Japanese-sponsored “reorganized” National Government at Nanjing. Most Chinese regarded it as a puppet regime of collaborators — the 汪伪, the “Wang puppet” apparatus that runs through these stories. Historical."
+      },
+      {
+        "anchor": "Ding Mocun",
+        "note": "Ding Mocun (1901–1947) is a real figure: a Nationalist intelligence officer who defected and, with Li Shiqun, ran the No. 76 secret service of the Wang Jingwei regime, later holding ministerial posts under it. He was tried as a traitor and shot in 1947. Historical."
+      },
+      {
+        "anchor": "the Siberia Fur Store",
+        "note": "A real event, lightly fictionalized. On 21 December 1939 Ding Mocun escaped an assassination attempt at the Siberia Fur Store, at the corner of Bubbling Well Road and Gordon Road in Shanghai, when his mistress Zheng Pingru led him into an ambush; the episode is the historical seed of Eileen Chang’s <i>Lust, Caution</i>. The novel calls the gunmen Zhongtong agents, which accords with the fuller Chinese record — Zheng was run by Chen Baohua, the Zhongtong’s chief in Shanghai — though some English accounts loosely credit the rival Juntong. See the next note."
+      },
+      {
+        "anchor": "named Chen or named Dai",
+        "note": "Two rival Nationalist secret services, named here by their chiefs. “Chen” means the brothers Chen Guofu and Chen Lifu, whose CC Clique ran the Zhongtong (the party’s Bureau of Investigation and Statistics); “Dai” means Dai Li, who ran the Juntong (the military bureau). Ding is probing which service Lin serves; Lin’s reply refuses to say."
+      },
+      {
+        "anchor": "the Juntong's assassination list",
+        "note": "The Juntong — the Nationalists’ military Bureau of Investigation and Statistics, Dai Li’s secret service, seated in the wartime capital Chongqing. (The name dates strictly from 1938; the novel applies it across the whole period.) It kept standing lists of collaborators marked for death. Lin Nansheng and Gu Shenyan are its Shanghai agents."
+      },
+      {
+        "anchor": "the Peace Army",
+        "note": "The Wang Jingwei regime’s armed forces, in full the Peace National Construction Army (和平建国军), after Wang’s slogan of “peace and national reconstruction.” To Chongqing it was a collaborationist force. Historical."
+      },
+      {
+        "anchor": "calendar poster",
+        "note": "Miss Lan is a 交际花 — a celebrated society beauty of the demimonde, moving among wealthy and powerful men, a figure of glamour and scandal. Her likeness on “calendar posters” (月历牌) refers to the hugely popular Shanghai advertising calendars of the era, on which fashionable women were painted to sell everything from cigarettes to patent medicine."
+      },
+      {
+        "anchor": "the Cathay Hotel",
+        "note": "The Cathay Hotel (华懋饭店) on the Bund, part of Victor Sassoon’s Sassoon House and the most fashionable hotel in the city; today the north building of the Peace Hotel. Historical."
+      },
+      {
+        "anchor": "Xiaguan, in Nanjing",
+        "note": "Xiaguan, the riverside district of Nanjing, saw ferocious fighting and mass killing when the city fell to the Japanese in December 1937 — the Nanjing Massacre. Miss Lan’s husband is among the Chinese soldiers who died there."
+      },
+      {
+        "anchor": "Chongqing headquarters",
+        "note": "Chongqing, deep in the interior on the Yangtze, was the Nationalist government’s wartime capital after the loss of the eastern cities, and the seat of Dai Li’s Juntong. It was bombed relentlessly by Japanese aircraft throughout the war."
+      }
+    ],
+    "ch02": [
+      {
+        "anchor": "the University of Shanghai",
+        "note": "The University of Shanghai (沪江大学), a Baptist missionary institution — hence the “disgrace before God” with which Zhu Yizhen’s mother threatens the principal. Historical."
+      },
+      {
+        "anchor": "Duoyunxuan",
+        "note": "Duoyunxuan (朵云轩), the celebrated Shanghai studio for painting, calligraphy, and seal-carving, founded in 1900; a seal-engraver trained there was a craftsman of standing. Ji Zhongyuan’s cover trade, a 装裱店, is a shop that mounts paintings and calligraphy onto hanging scrolls."
+      },
+      {
+        "anchor": "The Young Companion",
+        "note": "<i>The Young Companion</i> (良友), the best-known illustrated pictorial of Republican Shanghai (1926–1945), famous for its cover portraits of fashionable women. Historical."
+      },
+      {
+        "anchor": "the New Fourth Army Incident",
+        "note": "The New Fourth Army Incident (皖南事变, the “Southern Anhui Incident”) of January 1941: Nationalist forces surrounded and destroyed the headquarters column of the Communist New Fourth Army, killing several thousand, though the two sides were nominally allied against Japan. It wrecked what remained of Nationalist–Communist cooperation, and is Zhu Yizhen’s reason to distrust a Juntong man. Historical."
+      },
+      {
+        "anchor": "Type 97 infantry grenade",
+        "note": "The Type 97 (九七式) fragmentation grenade, standard issue in the Japanese army from 1937. Historical."
+      }
+    ],
+    "ch03": [
+      {
+        "anchor": "Rue Ratard",
+        "note": "Rue Ratard (巨籁达路), a plane-tree-lined street in the Shanghai French Concession, named for a French consul; today’s Julu Road. The concession setting is why the trees are “French.” In these years it still bore its French name. Historical."
+      },
+      {
+        "anchor": "the Battle of Shanghai",
+        "note": "The Battle of Shanghai (淞沪会战) of August–November 1937, the first great battle of the war against Japan, which laid waste much of the city and its outskirts. Historical."
+      },
+      {
+        "anchor": "Hongkou Park",
+        "note": "Hongkou, north of Suzhou Creek, was the district where Shanghai’s large Japanese population was concentrated — the “Japanese quarter” of these chapters. Hongkou Park (today Lu Xun Park) lay at its heart. Historical."
+      },
+      {
+        "anchor": "Butterflies in Love with Flowers",
+        "note": "<i>Butterflies in Love with Flowers</i> (蝶恋花), a set embroidery motif of butterflies among blossoms; the name, also that of a classical song-lyric tune, carries the sense of lovers drawn to each other. Zhu Yizhen’s return, again and again, to this one pattern is not incidental."
+      }
+    ],
+    "ch04": [
+      {
+        "anchor": "Blue Shirts",
+        "note": "The Blue Shirts Society (蓝衣社), a secret, fascist-influenced body of zealots within the Nationalist party, closely tied to Dai Li’s Juntong; here the collaborationist press uses the name to expose Chongqing’s Shanghai network. Historical."
+      },
+      {
+        "anchor": "the Zhonghua Ribao",
+        "note": "The <i>Zhonghua Ribao</i> (中华日报), the chief newspaper of the Wang Jingwei regime. Historical."
+      },
+      {
+        "anchor": "the gunboat Peterel",
+        "note": "HMS <i>Peterel</i>, a British river gunboat, was sunk in the Huangpu at Shanghai in the small hours of 8 December 1941 — hours after Pearl Harbor, across the international date line — when its captain refused a Japanese demand to surrender; six of the crew were killed. It was the sole act of armed resistance to the Japanese seizure of the International Settlement. Historical (the source’s transliteration of the name is preserved)."
+      },
+      {
+        "anchor": "the Central Reserve Bank",
+        "note": "The Central Reserve Bank (中央储备银行), the note-issuing bank of the Wang Jingwei regime. Historical."
+      }
+    ],
+    "ch05": [
+      {
+        "anchor": "No. 101 Yuyuan Road",
+        "note": "A garden mansion on Yuyuan Road, in the fashionable western district; such villas housed the senior men of the collaborationist regime and its secret service. Here it is Ding Mocun’s residence."
+      },
+      {
+        "anchor": "bandit-suppression field headquarters in Nanchang",
+        "note": "In the early 1930s Chiang Kai-shek directed his “encirclement and suppression” campaigns against the Communists from a field headquarters at Nanchang. That Gu Shenyan and Ding Mocun once served there together marks them as old comrades of the anti-Communist secret war — before Ding’s defection. Historical."
+      }
+    ],
+    "ch06": [
+      {
+        "anchor": "the Indochinese Communist Party",
+        "note": "The Indochinese Communist Party, founded in 1930 (Ho Chi Minh among its founders), was active among the Chinese and Vietnamese of Hong Kong and Indochina; Meng Annan’s planted cover has ripened into this deeper allegiance. Historical."
+      },
+      {
+        "anchor": "Rectification campaign",
+        "note": "The Rectification Movement (整风运动), begun by the Communists at Yan’an in 1942 to enforce ideological conformity and weed out suspect cadres; its suspicion of outsiders is the opening Gu Shenyan means to exploit. Historical."
+      },
+      {
+        "anchor": "a stray stone, a dormant piece",
+        "note": "A figure from the board game go (围棋): 闲棋冷子, a stone played early and left dormant, far from the fighting, to be activated much later when it decides the game. Gu Shenyan, a go player, means Meng Annan to lie unused in the enemy’s ranks for years."
+      },
+      {
+        "anchor": "Ta Kung Pao",
+        "note": "<i>Ta Kung Pao</i> (大公报), a major and respected Chinese newspaper of the period. Historical."
+      }
+    ],
+    "ch07": [
+      {
+        "anchor": "the Hong Kong armistice",
+        "note": "Hong Kong surrendered to Japan on 25 December 1941 — “Black Christmas” — after eighteen days of fighting; the “armistice” is the British capitulation. This scene falls on its first anniversary, Christmas 1942. Historical."
+      },
+      {
+        "anchor": "Tokkō credential",
+        "note": "The Tokkō (特高, from 特別高等警察, the “Special Higher Police”) was the Japanese political and thought police, charged with counter-espionage and the suppression of dissent. Historical."
+      },
+      {
+        "anchor": "the Sino-American Cooperative Organization",
+        "note": "The Sino-American Cooperative Organization (SACO, 中美合作所), a joint Nationalist–United States intelligence and guerrilla-training body set up in 1943 under Dai Li and the U.S. naval officer Milton Miles, with headquarters outside Chongqing. Lin Nansheng is recalled to instruct there. Historical."
+      },
+      {
+        "anchor": "seven-character regulated poem",
+        "note": "A 七律 (qīlǜ), a regulated verse of eight lines of seven characters each, in strict tonal and parallel form — the most exacting of the classical Chinese poetic forms. Its ostensibly innocent “Ode to the Plum Blossom,” run in a newspaper over a pen name, is a prearranged signal for contact."
+      }
+    ]
+  }
+}
