@@ -450,3 +450,120 @@ batches), Kiyomasa=Toranosuke (ch03). Prefer cross-referencing these.
   folio 246. Pick one at the final reconcile.
 - The Taikoki is rendered "Shinsho Taikoki" (with the long-o macron on Taiko),
   matching ch03.
+
+## Batch 5 = Chapter 5, "The Two of Them" (PDF 259-360, printed folios 257-358) — COMPLETE
+
+The longest chapter and the emotional pivot of the book. It opens straight into
+the deaths of Katsuie and Oichi, follows Goemon home to Maki, then runs a long
+expository arc (the Shugendo/yamabushi origins of ninjutsu, the wealth and
+warrior-monks of Negoro and Saiga, the coming of the matchlock to Tanegashima
+and its spread through Negoro, Sakai and Kunitomo, the gunpowder and saltpeter
+trade) before turning to the Komaki-Nagakute war of Tensho 12 (1584), where
+Hanzo's unified ninja corps hands Ieyasu the victory. The last third is the
+tragedy: Hideyoshi wins over Nobukatsu by diplomacy; Ieyasu, at peace at last,
+demands Hatsuko; Hanzo, unwilling to give her up, substitutes Maki (Goemon's
+wife, her double) and has her drugged and carried to Ieyasu, again and again,
+while Goemon is sent away escorting Ogimaru to Osaka. Goemon discovers it,
+forgives Maki absolutely, renounces the ninja and samurai world, and the three
+of them (a son, Goichi, has been born) vanish from Hamamatsu.
+
+### Deliverables shipped
+- `out/ch05_reading.md`: full clean translation, one chapter heading, ~28,000
+  words, 571 blocks (verse lines for the two folk songs, the Kokawa hymn, and
+  Kyonyo's poem marked with `{p}`). The correction surface.
+- 24 footnotes in `notes.json` (folio-cited; book total now 174). New glossary
+  rows: 16 people, 6 places, 3 terms. Figures ch05 recorded EMPTY (a text-only
+  novel; the one find_figures hit on p276 is a dense-text-column false positive,
+  confirmed by eye).
+- `out/the-stealthy-ones.epub`: cumulative build, 5 of 8 chapters.
+
+### Checks run and results
+- Translated from the page images directly (OCR furigana-corrupted, as expected);
+  every proper name, troop number, date, unit and toponym crop-verified by eye
+  where the reading was not plain. Recorded crop-verifications include the 250
+  koku of Hanzo's raise (OCR read 350), the moat "forty tatami / seventeen
+  tatami" (an odd unit, rendered as printed), the 3/6 and 3/10 dates, the
+  rampart dimensions, and the Kazue-age and Tokika-yama readings.
+- `qa_epub.py`: PASS (174 refs / 174 bodies / 174 backlinks all resolve).
+- `epubcheck 5.1.0`: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- `check_apparatus.py`: 0 failures, 0 warnings.
+- `check_register.py --ref out/ch01_reading.md`: within tolerance (contractions
+  9.5/1k, 1.07x ref; shall 0%; em-dash 8.5/1k; sentence median 15; rhythm 0.68).
+  The em-dash total is high ONLY because the chapter is exceptionally
+  dialogue-heavy (the whole last third is dialogue, where the source's dashes
+  mark genuine trailing and interrupted speech) and because the two long Frois
+  letters carry the author's own dashed editorial insertions (register-exempt
+  quoted documents). Narration appositive dash-glosses were hunted down and
+  converted to commas, colons or parentheses; the remaining narration dashes are
+  author fourth-wall asides and dramatic breaks.
+- Number-parity and content checks (check_numbers/check_content) need a paired
+  source file; none exists for this image-translation batch (same as ch02-ch04).
+  Numbers were carried by crop-verification at write time instead. The tail was
+  verified against the scan as the final pages were written (rule 4 corollary).
+
+### Register note (ch04 lesson applied)
+The war and death set-pieces are deliberately formal and were NOT contracted:
+Katsuie's death-speech, the Frois Osaka-castle and moat letters, the Teppoki
+quote, the Tamon-in diary, the Kokawa pilgrim-hymn, and Kiara's catechism (a
+faithful rendering of Kirishitan doctrine). The colloquial speakers (Hatsuko,
+Maki in her soft Kishu register, Goemon, the rough soldiers, the modern temple
+priest) were contracted so the whole does not read stilted.
+
+### Source inconsistencies (rendered as printed, never harmonized)
+- Kazue's age: at folio 263 Maki calls her sister "nine years younger" (about
+  seven at their parting); at folio 273 the author's family register makes her
+  "four years younger." Both rendered as printed; footnoted at folio 273.
+- Hideyoshi's departure from Osaka: folio 280 gives the 10th of the third month
+  (advancing to Sakamoto); folio 296 gives the 21st (the march to the front).
+  Both rendered as printed; not footnoted (the reader can read it as a first
+  move and a second).
+- The Shinobi-gumi is "some two hundred" ninja in the author's own voice (folio
+  293) but "three hundred" in the enemy's hearsay (folio 313). Rendered as
+  printed; the enemy figure is plainly rumor and is left to stand.
+- The Nagakute moat is measured in "tatami" (jo) of width and depth in the Frois
+  letter (folio 281); an unusual linear use of the unit, rendered as printed.
+- Hanzo, in his rage before the Madonna, charges Ieyasu with having "his own
+  mother killed"; historically false (Odai-no-kata outlived him). Rendered as
+  printed and footnoted as the measure of Hanzo's bitterness.
+
+### NOT re-noted (already placed earlier in the book; cross-referenced)
+En no Gyoja Ozunu / Shugendo (ch02), Kobo Daishi & Shingon (ch01/ch02), the
+Nagashino battle (ch01), Ichijodani & the Asakura (ch01), Kashii & Tamo (ch01),
+the Iga crossing (ch01/ch02), Luis Frois / Valignano / the Nanban-ji / Deus /
+garasa / Organtino / Lourenco (ch01), the Ikko sect & Ishiyama Hongan-ji
+(ch01/ch02), Kuki's iron ships (ch02), Kato Toranosuke = Kiyomasa (ch03), the
+cauldron (ch03), aloeswood / sanmai / Enma (ch03), the Man'yoshu (ch02), Santa
+Maria & the child Kirishito (ch02), the Seven Spears of Shizugatake (ch04), the
+nine-storied keep & Oichi (ch04), koku/ri/ken/shaku/sun/cho/tsubo/kan units and
+the hour-names (ch01-ch04), kamari (ch03), the intercalary month (ch04), Honda
+Tadakatsu (ch01). Prefer cross-referencing these.
+
+### Rendered-as-read (one-off names/places NOT given glossary rows)
+Reuse these spellings if any recur. People: Bunkasai (glossed as Nakamura
+Bunkasai), Idomotoya Genbei, Saiga Magoshichi, Soeda Ryushun, Nakagawa Kan'emon,
+Nakagawa Seizosu, Nabeta Naitosuke, Kinoshita Kangeyu, Kani Saizo (noted),
+Mizuno Tadashige, Osuga Yasutaka, Nakamura Kazuuji, Inaba Ittetsu, Tsugawa
+Genbanojo, Okada Nagato-no-kami, Asai Tamiyamaru, Oda Nagamasu, Horio Yoshiharu,
+Tsutsui Junkei, Tsutsui Sadatsugu, Miyoshi Hidetsugu (= Hidetsugu), Yagoemon,
+Kiino, Gisuke, Niwa Ujitsugu & Ujishige, Shibatsuji Seiuemon, Tachibanaya
+Matasaburo ("Teppo Mata"), Tanegashima Tokitaka & Oribe-no-jo, Shinokawa
+Koshiro, Yasaka Kinbei & Wakasa (noted), Nanpo Bunshi, Kakuban (glossed),
+Ikenaga Kuro Choa, Murakami Naojiro, Tsuboi Sakae (noted), Gaspar Vilela
+(glossed ch01). Places: Hosono, Tomobuchi R., Kishi R., Kino R., Nagao, Mount
+Tokika, Wakayama, Katsuragi, Mii-dera, Omine, Daigo-ji, Sanbo-in, Renge-jo-in,
+Kakuban Hill, Kokawa-dera, Ebisujima, the Hawk's Nest, Goboyama, Akibayama,
+Sagi-no-mori, Ninomiya-yama, Futatsubori, Iwasaki-yama, Gakuden, Obata, Irogane,
+Fujigatake, Yarigane, Hachiman wood, Kanare R., Shonai R., Yada R., Seto, Inaba,
+Odome/Noda/Matsukawado, Kamijo, Okusa, Ikeuchi, Haguro, Kaneyama, Kariyasuga,
+Hoshizaki, Matsushima, Utsumi, Chita, Kagamigahara, Nagashima, Kishiwada, Yumi-
+cho, Takajo-machi, Shiroko, Shodoshima (Komi/Kobe/Tonohama), Nagara & Machiya
+rivers, Yatagawara. Terms rendered in place: goma, tokin, oizuru, sashimono,
+kubi-jikken / kubi-taimen / kubi-mishiri / kubi-zoroe / kubi-kesho, sanbo,
+san-san-kudo, jinshogi, musha-bashiri, ishibiya, compisan, kurusu, inheruno,
+tendo, onchо (grace), Adan & Eva, the Iga sleeping-drug.
+
+### For the whole-book reconciliation (final batch)
+- The Koya/Koya-san macron question is still open (glossary "Koya-san"; ch04 and
+  ch05 prose use "Mount Koya"). Settle at the reconcile.
+- Hideyoshi's shifting titles/names (Hashiba Chikuzen, "Chikuzen-dono" in Frois)
+  are rendered as they appear; consistent with the glossary "Hideyoshi".
