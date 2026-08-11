@@ -1019,3 +1019,53 @@ He started. This was, for certain, an Iga-school sleeping-drug: bat, paulownia l
 He shook Goichi. Goichi too lay in a dead, heavy sleep. Just then he felt, of a sudden, the presence of people outside. In a flash he went to the kitchen, lifted a floorboard, and vanished beneath it.
 
 A moment later a ninja in dark garb dropped soundlessly from the ceiling and lifted the door-bar. At that, another carried in Maki, still asleep. The two laid her in her bed; one slipped out the door; the other barred it from within and sprang to the ceiling. Goemon came out from under the floor, and sprang up to the ceiling after them.
+
+Watching from the storehouse roof, then dropping to the ground, he saw the two ninja already rounding the corner, about to disappear. Following soundlessly, he passed through Yumi-chō and Takajō-machi and came out on the castle moat; and by a small opening beside the karamete, the postern gate's foul-water drain—the sewer mouth—they slipped into the castle grounds and were gone. There, below the musha-bashiri, the sloping way down into the grounds, of the earthen rampart, stood some ten pines, planted to shield the warriors from the enemy's arrows; and there another man, in the same dark garb, was waiting.
+
+"It went without a hitch, my lord; we've put her back."
+
+"Good."
+
+The voice that answered was unmistakably Hattori Hanzō's.
+
+What could this mean? What in the world had these men done with Maki?
+
+The three went to the ninja duty-station, where Hanzō changed into ordinary clothes, seemingly about to go home. Goemon followed him. Here it must be said: in the art of ninjutsu, Goemon was the better of the two, above Hanzō. Hanzō had been born into a chūnin family and had left Iga early, so he had not trained much in the art, and least of all in the body arts. Goemon, by contrast, was born into a genin family, and from childhood had piled up hard, punishing training. So, trailing Hanzō, he made no such blunder as to let Hanzō notice him.
+
+By the time Hanzō reached home, Goemon was already there, a step ahead, hidden in the ceiling of the bedchamber. Hanzō threw himself roughly upon the sleeping Hatsuko.
+
+"Uh—uh—uh," she struggled; and Hanzō, mauling her, growled: "Who—who would—let that old badger—have you—as if I'd stand for anyone having you—"
+
+Hearing this, Goemon felt as if struck by lightning. The whole shape of the thing flashed clear in his head.
+
+But—could such a thing really be? Could a thing so cruel, so base, have been done?
+
+In any case, Goemon thought, he must see how Maki was.
+
+The next morning Maki woke to find that Goemon had come home, and was aghast. That she had slept till morning, never knowing the man she had longed for was back—how could such a thing be? Never once before had this happened. However he shook her, they said, she had not woken. What in the world was the matter? Her head throbbed, a splitting pain.
+
+"Something's gone wrong with me. I must be badly ill somewhere—"
+
+Goichi, too, would not take the breast, and cried on and on.
+
+"Has this happened before?" Goemon asked.
+
+"Yes," Maki answered. But the moment she said it, her eyes flew wide, her face went white, and, losing all balance, she pitched forward.
+
+"How many times has it happened?" But Maki did not answer, and wept a long while. Goemon, his arms folded, gazed steadily at her.
+
+Some hours passed. At length, her face still hidden, Maki began to speak.
+
+"Between the two of us there must be nothing hidden—that was our promise, wasn't it?" said Goemon.
+
+"Mm. That promise we'll keep. Without it, the two can't be one. —Yes, that's so."
+
+Maki began.
+
+"The very first time was at the end of last year, the night just after you'd gone up to the capital. In the morning, when I woke, my head ached so—I felt so ill, I couldn't bear it."
+
+"—Mm."
+
+"I saw the New Year in all lonely; and one night past the tenth, I had a strange dream—"
+
+"A dream?"
