@@ -595,6 +595,102 @@
       "pinyin": "Sakuma Juzo",
       "status": "attested",
       "note": "A boy samurai of Katsuie&#8217;s, betrothed to Maa; killed in the last assault on Kita-no-shō."
+    },
+    "本多忠勝": {
+      "en": "Honda Tadakatsu",
+      "pinyin": "Honda Tadakatsu",
+      "status": "attested",
+      "note": "Honda Heihachir&#333; Tadakatsu (1548&#8211;1610), one of Ieyasu&#8217;s foremost generals, known by his deer-antler helmet-crest; at Nagakute he shadowed Hideyoshi&#8217;s whole army with six hundred men."
+    },
+    "石川数正": {
+      "en": "Ishikawa Kazumasa",
+      "pinyin": "Ishikawa Kazumasa",
+      "status": "attested",
+      "note": "A senior retainer of Ieyasu&#8217;s who escorted Ogimaru to Hideyoshi; he later defected to Hideyoshi."
+    },
+    "佐々成政": {
+      "en": "Sasa Narimasa",
+      "pinyin": "Sasa Narimasa",
+      "status": "attested",
+      "note": "Lord of Toyama, a staunch Shibata man who submitted to Hideyoshi after Katsuie&#8217;s fall."
+    },
+    "顕如": {
+      "en": "Kennyo",
+      "pinyin": "Kennyo",
+      "status": "attested",
+      "note": "The abbot of the Hongan-ji (1543&#8211;1592) who led the Ikk&#333; league through the long war against Nobunaga and, at Ishiyama&#8217;s fall, withdrew into Kish&#363;."
+    },
+    "教如": {
+      "en": "Ky&#333;nyo",
+      "pinyin": "Kyonyo",
+      "status": "attested",
+      "note": "Kennyo&#8217;s son and the &#8216;new abbot,&#8217; who held out at Ishiyama after his father left and was long estranged from him."
+    },
+    "池田恒興": {
+      "en": "Ikeda Tsuneoki",
+      "pinyin": "Ikeda Tsuneoki",
+      "status": "attested",
+      "note": "Lord of &#332;gaki, a foster-brother of Nobunaga&#8217;s (also called by his lay-monk name Sh&#333;ny&#363;); his defection to Hideyoshi opened the Komaki campaign, and he died at Nagakute."
+    },
+    "森長可": {
+      "en": "Mori Nagayoshi",
+      "pinyin": "Mori Nagayoshi",
+      "status": "attested",
+      "note": "Ikeda Tsuneoki&#8217;s son-in-law, lord of Kaneyama; killed at Nagakute."
+    },
+    "井伊直政": {
+      "en": "Ii Naomasa",
+      "pinyin": "Ii Naomasa",
+      "status": "attested",
+      "note": "One of Ieyasu&#8217;s generals, whose red-lacquered troops were the famous &#8216;Red Guard.&#8217;"
+    },
+    "榊原康政": {
+      "en": "Sakakibara Yasumasa",
+      "pinyin": "Sakakibara Yasumasa",
+      "status": "attested",
+      "note": "A Tokugawa general; he raised the works on Mount Komaki and fought at Nagakute."
+    },
+    "長曾我部元親": {
+      "en": "Ch&#333;sokabe Motochika",
+      "pinyin": "Chosokabe Motochika",
+      "status": "attested",
+      "note": "The lord of Tosa who all but united Shikoku; sounded out by Ieyasu for the anti-Hideyoshi league."
+    },
+    "於義丸": {
+      "en": "Ogimaru",
+      "pinyin": "Ogimaru",
+      "status": "attested",
+      "note": "Ieyasu&#8217;s second son, given to Hideyoshi as adopted son and hostage; renamed Hashiba Hideyasu, later Y&#363;ki Hideyasu (1574&#8211;1607). (See the note at his adoption.)"
+    },
+    "覚鑁": {
+      "en": "Kakuban",
+      "pinyin": "Kakuban",
+      "status": "attested",
+      "note": "The reforming monk of Mount K&#333;ya (1095&#8211;1143) who founded the Negoro-ji; named in Maki&#8217;s lullaby."
+    },
+    "津田算長": {
+      "en": "Tsuda Kazunaga",
+      "pinyin": "Tsuda Kazunaga",
+      "status": "attested",
+      "note": "Head of the Suginob&#333; of the Negoro-ji, who brought one of the first matchlocks from Tanegashima to Kish&#363;."
+    },
+    "カズエ": {
+      "en": "Kazue",
+      "pinyin": "Kazue",
+      "status": "decided",
+      "note": "Maki&#8217;s younger sister. (Her stated age differs between two passages; see the note.)"
+    },
+    "吾市": {
+      "en": "Goichi",
+      "pinyin": "Goichi",
+      "status": "decided",
+      "note": "The son born to Goemon and Maki in Tensh&#333; 12; his name plays on the &#8216;Go&#8217; of Goemon (written &#8216;five&#8217;), remade with the character for &#8216;I,&#8217; plus &#8216;ichi,&#8217; a market."
+    },
+    "青葉の冠者": {
+      "en": "Aoba no Kaja",
+      "pinyin": "Aoba no Kaja",
+      "status": "decided",
+      "note": "&#8216;The Green-Leaf Page,&#8217; the refined cover-name Hanz&#333; gave a cold-natured K&#333;ga lower ninja of the Tarao; Goemon&#8217;s contact on the Osaka assignment."
     }
   },
   "organizations": {
@@ -887,6 +983,42 @@
       "pinyin": "Yanagase",
       "status": "attested",
       "note": "Pass at the head of the Shizugatake front, gateway between Ōmi and Echizen."
+    },
+    "大坂": {
+      "en": "Osaka",
+      "pinyin": "Osaka",
+      "status": "attested",
+      "note": "Hideyoshi&#8217;s new castle and city, raised from Tensh&#333; 11 on the ruins of the Ishiyama Hongan-ji as the seat from which to command the realm."
+    },
+    "長久手": {
+      "en": "Nagakute",
+      "pinyin": "Nagakute",
+      "status": "attested",
+      "note": "The field east of present Nagoya where Ieyasu shattered Ikeda&#8217;s flanking column in the fourth month of Tensh&#333; 12."
+    },
+    "小牧": {
+      "en": "Komaki",
+      "pinyin": "Komaki",
+      "status": "attested",
+      "note": "Komaki-yama, the hill north of Nagoya Ieyasu fortified as his front against Hideyoshi at Gakuden; the campaign is named for it and Nagakute."
+    },
+    "雑賀崎": {
+      "en": "Saigazaki",
+      "pinyin": "Saigazaki",
+      "status": "attested",
+      "note": "The cape south of Wakayama to which the name Saiga later shrank; Maki&#8217;s people were of the old, wider Saiga of the lower Kino."
+    },
+    "種子ケ島": {
+      "en": "Tanegashima",
+      "pinyin": "Tanegashima",
+      "status": "attested",
+      "note": "The island off southern Ky&#363;sh&#363; where the matchlock is traditionally said to have reached Japan in 1543; the gun itself came to be called a <i>tanegashima</i>."
+    },
+    "国友": {
+      "en": "Kunitomo",
+      "pinyin": "Kunitomo",
+      "status": "attested",
+      "note": "A village of &#332;mi whose swordsmiths, brought under Nobunaga after the fall of the Azai, became famous gun-makers."
     }
   },
   "terms": {
@@ -1039,6 +1171,24 @@
       "pinyin": "Shizugatake no shichihon-yari",
       "status": "attested",
       "note": "The seven (in fact nine) young spearmen&#8212;Kiyomasa, Masanori and the rest&#8212;commended for valor at Shizugatake; a fixture of popular art."
+    },
+    "忍び組": {
+      "en": "the Shinobi-gumi",
+      "pinyin": "Shinobi-gumi",
+      "status": "decided",
+      "note": "The &#8216;Stealth Corps,&#8217; the organized body of some two hundred Iga and K&#333;ga ninja under Hanz&#333; in Ieyasu&#8217;s service, whose unified command the author credits with Ieyasu&#8217;s edge at Nagakute."
+    },
+    "茶粥": {
+      "en": "chagayu",
+      "pinyin": "chagayu",
+      "status": "attested",
+      "note": "Tea-gruel; see the note at its first mention."
+    },
+    "赤備え": {
+      "en": "the Red Guard",
+      "pinyin": "akazonae",
+      "status": "attested",
+      "note": "An <i>akazonae</i>, a unit armored and even armed all in red; Ii Naomasa&#8217;s was the most famous."
     }
   }
 }
