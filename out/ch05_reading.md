@@ -1069,3 +1069,73 @@ Maki began.
 "I saw the New Year in all lonely; and one night past the tenth, I had a strange dream—"
 
 "A dream?"
+
+"I'd wake of a sudden, and there I was—not in my own house, but in some grand place like a great lord's mansion, lying in soft, downy silk bedding—"
+
+"—Mm."
+
+"I'd try to get up, but my body wouldn't move, whatever I did—and then the sliding door would open, and a strange man came looming in."
+
+"Wh—what sort of man?"
+
+"I could scarce open my eyes—everything went dim and blurred—a sea-goblin, I thought, coming at me; and then he flung himself down on top of me, and with that I fainted clean away—"
+
+"A man like a sea-goblin—and that is all you remember?"
+
+"Yes—and after that I had the same dream three times more, but that is all I ever knew of it—"
+
+"Three times more, after that—" Goemon, grinding his teeth hard, fought with all his might to keep the storm within him from showing on his face.
+
+"—Why I should have the same dream over and over—it was so eerie—when that sea-goblin came flinging himself down on me—I'd try to cry out, and no sound would come—try to rise, and I couldn't—and then I'd faint, and know nothing more—until in the end the very thought of lying down at night filled me with dread—"
+
+"—So that was it—uhh—"
+
+"What could it have been?—uhh—could I have been possessed by some evil thing?"
+
+"Mm—perhaps so."
+
+"But what could it have been?—if it wasn't a dream—if it was something real, and something happened to me while I lay senseless—"
+
+"Is there anything that makes you think it must be so?"
+
+"There's nothing, really—only, from about that time, Goichi's color went bad, and he took to bringing up his milk, and I did wonder if perhaps—"
+
+Suddenly Goemon forced out a loud, strong voice. "No! No! There's no use fretting over it. It was a dream! A dream!—And even if, by some chance, it was no dream, it is a thing Maki knew nothing of! There is nothing for Maki to feel guilty about!"
+
+He clasped her to him fiercely. "Maki is Maki! Whatever may have happened, whatever it was, no matter! Maki is Maki! My precious, precious Maki!"
+
+And his voice, before he knew it, had broken into open weeping. Maki, held in his arms, at length made quietly to draw herself away, and said, "—It's good of you to say so, but—"
+
+"Maki, what is it?"
+
+"You—you're still hiding something—and there's Goichi to think of—"
+
+"I'm hiding nothing at all!"
+
+"No secrets—that was our promise. Not one single thing hidden—that was the promise."
+
+"Mm—and so—"
+
+Suddenly Maki seized him by the collar and shook him. "Tell me! Tell me! Or I'll go on fretting forever."
+
+Goemon writhed. "I'm hiding nothing—nothing—nothing at all!"
+
+"You are! You are hiding it! Tell me!"
+
+At last Goemon made up his mind. "—It is no fault of Maki's! Whatever may have happened, Maki is the same Maki as before!—You understand? You understand?"
+
+Maki nodded hard. "Mm, mm!"
+
+"—I came home at midnight and knocked, and there was no answer. I got into the house through the ceiling, and your bed was empty."
+
+"Ah—then—then it's true after all—"
+
+"But the door was still barred from the inside. Just then I sensed people; and, hidden, I watched two masked ninja carry you in, senseless, and lay you in the bedding."
+
+Maki clung to him and began to shake violently.
+
+"I followed the two of them. They went into the castle. And there, below the rampart, Hanzō was waiting. And when the ninja said, 'We've delivered her back, all as it was,' Hanzō answered, 'Good.' I thought on the spot to spring at Hanzō; but just then the trick of the whole thing came clear to me in a flash. Lord Ieyasu had demanded that Hatsuko be given to him. Before I went up to the capital, I had heard Hanzō speak of it. Hanzō could not bear to give Hatsuko up; and, taking his chance while I was away, he made you Hatsuko's double."
+
+Maki wept as if her heart would break.
+
+"Shall I take my revenge on Lord Ieyasu and on that Hanzō?—Even if I brought it off, then I, of course, and you too, and Goichi, could none of us go on living. And after all—is this a thing for which all three of us must die? No. It is not. We have only to have done with them, to shut them clean out of our lives! Men like that are not human. They are beasts! We'll break with the beasts, and from this day never again be the tools of such men; we'll go somewhere far off and live out our lives without ever hearing of them again. Isn't that so, Maki? For all that has happened, it changes nothing between you and me. It only makes you the dearer to me. There now, Maki—let's go far away, and turn farmers. Let's live as farmers, with only the earth and the sky to answer to. Anywhere will do, some place with no samurai in it; and there the three of us, you and Goichi and I, will live happy. Yes? With the samurai—who murder for their own ambition, and reckon their own retainers so many worms, to be used at a whim—we'll have no more to do, not by a single hair. Just to think of them defiles the heart. We'll live as far from them as ever we can, just the three of us. And then we can be happy—"
