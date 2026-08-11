@@ -447,3 +447,53 @@ Even Goemon started, and stood stock-still. Only two women knew him for Goemon. 
 "That's right."
 
 "What are you doing in a place like this? Does Lord Hanzō know?"
+
+"Heavens, no. If he knew I was out here, he'd faint dead away."
+
+"And that's Karasumaru with you?"
+
+"—Yes, it is." It was the voice of a boy utterly at his wits' end.
+
+"I see. So you couldn't stop this one from having her way, could you?"
+
+"No."
+
+"And so, in a fret, you've been trailing along at her heels?"
+
+"Yes."
+
+"A hopeless wife, this. Well, go straight home, the pair of you. A terrible battle is about to break hereabouts, any minute now. This is no playground."
+
+At that Hatsuko's eyes drew up sharp and narrow. "A playground, you say? The very idea. I'm doing ninja's work out here, I'll have you know."
+
+"Oh? And what work is that?"
+
+"Scouting the enemy's movements, what else?"
+
+"And what have you found out?"
+
+"I've been following the Ikeda force since morning, that's what. So I know just where it went and what it did, every bit of it."
+
+"And have you reported it?"
+
+"What are you talking about? It's a secret from the master"—Hatsuko always called Hanzō the master—"if I report it, he'll find out I'm here, won't he."
+
+"Then however much you learn of the enemy's movements, it's of no use to a soul, is it?"
+
+"Whether it's of use or not is more than you can say yet."
+
+"What are you saying? The fighting is about to open at any instant."
+
+"Just so—that's why I'm in such a hurry. The enemy's first, second, and third divisions are a ri and twenty chō off, down south by Iwasaki castle. What's here is only the rearmost, the fourth division of eight thousand under Miyoshi Hidetsugu; and a third of that is baggage-train."
+
+"That I know already. What's left is to make out, as early as I can, just when they mean to finish their breakfast and move off, and to carry the hour of it to Obata castle."
+
+"So you're going to sit here and wait till then?"
+
+"That's right."
+
+"How tedious. I'll drop off to sleep."
+
+"Sleep? Out of the question. The battle may start any moment. Very well—you keep watch here. I'll just slip round to the east of the enemy and see how things stand."
+
+Hatsuko, pleased to be given a task of her own, said, "Very well, then," and settled down in the grass. In a moment Goemon was gone from sight.
