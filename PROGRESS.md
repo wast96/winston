@@ -799,3 +799,138 @@ baby-quilt, the mokujiki austerity, the roban (ch06), koku/to/bu/se/tan/cho.
   glossary use plain "Daito". ch07 uses "Konpon Daito" (plain). Standardize.
 - Sasa vs Sassa Narimasa: glossary "Sasa", prior chapters have both, ch07 uses
   "Sasa". Decide (standard Hepburn is "Sassa") and grep-fix all units + glossary.
+
+## Batch 8 = Chapter 8, "Death Throes" (第八章 断末魔, PDF 461-530, printed folios 459-528) COMPLETE
+
+The finale of the book: Goemon's road to the cauldron. The chapter is exposition-
+heavy for its first two thirds (a compressed history of Hideyoshi's late reign:
+Ishikawa Kazumasa's defection, the Asahi-hime marriage and the Omandokoro hostage,
+the Frois report on Osaka castle and the 1587 expulsion edict, the Jurakudai, the
+Ochacha/Lady Yodo and Yodo-castle arc with the author's 1963 research aside, the
+Odawara campaign and Ieyasu's transfer to Edo, the Korea invasion and Yi Sun-sin,
+the author's 1964 Nagoya-castle essay), then turns to the story proper: Goemon
+farming at Nagao raising the blind Goichi (Maki's living image), his discovery that
+the boy has incurable progressive blindness, his resolve, his journey to Iga where
+he leaves Goichi with Ryosai (Lourenso) and Tamo at the Shofuku-ji, his infiltration
+of Yodo castle by riding the noria pots up into a flume, his capture on the
+nightingale floor (a trap Hanzo's ninja designed for him), and the execution: father
+and son boiled together in the cauldron, Goemon turning the boy UNDER him to end his
+suffering fast. The chapter ends at folio 528; the afterword is left for B09.
+
+### Deliverables shipped
+- out/ch08_reading.md: full clean translation, one chapter heading, ~20,270 words
+  (the longest chapter), two register-exempt lampoon couplets marked {p}. House
+  macron romanization applied (o/u/a-macron and the em-dash the only non-ASCII;
+  the loanwords Lourenso and irmao keep their book spellings with c-cedilla and
+  a-tilde, matching ch01-ch05). The correction surface.
+- 17 footnotes in notes.json (folio-cited; book total now 213). New glossary rows:
+  5 people, 5 places, 3 terms (13 total). Figures ch08 recorded EMPTY (find_figures
+  460-530 returned one 76px-wide strip on p0501, the usual dense-text-column false
+  positive on the text-only Nagoya essay page; confirmed by eye).
+- out/the-stealthy-ones.epub: cumulative build, 8 of 8 chapters. THE BOOK IS NOW
+  FULLY TRANSLATED (body). Committed with git add -f.
+
+### Checks run and results
+- Translated from the page images directly (data/png/p0NNN.png; the vertical-JP OCR
+  at data/txt was regenerated as a structural aid only). Every proper name, troop
+  number, date, unit and toponym crop-verified by eye where not plain. Notable
+  crop-verifications: the two Osaka-submission retainer lists (folio 464); Iwanari
+  Chikara-no-suke Tomomichi and the Yodo-castle date sequence 1504/1559/1565/1573/
+  1582/+7 (folio 483); the Miyoshi-Triumvirate name; "Hikawa" as Kato's advance
+  point in Korea (folio 495); the Moriichiro = Torii Moriichiro identity (folios
+  475, 478); the Gojo-to-Iga route (folio 509); all the koku/shaku/ken figures and
+  the waterwheel/cauldron dimensions (8-ken wheels, 2-shaku-5-sun pots, 3-shaku
+  flume, 4-shaku cauldron, 15-shaku logs).
+- qa_epub.py: PASS (15 documents, 213 refs / 213 bodies / 213 backlinks all resolve;
+  48 page-list entries match 48 markers; all links resolve).
+- epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos (store-clean).
+- check_apparatus.py: 0 failures, 0 warnings.
+- check_register.py --ref out/ch01_reading.md: within documented tolerance.
+  Contractions 7.0/1k (0.79x ref) after a targeted pass contracting the colloquial
+  speakers (Goemon, Goichi, Hanzo) while leaving the quoted documents formal. The
+  "shall" share (31%) is ENTIRELY register-exempt quoted documents (Hideyoshi's
+  letters, the 1587 edict); the em-dash figure (8.7/1k vs 0.3 ref) is inflated by
+  dialogue and quoted documents exactly as the kickoff predicted, not by narration
+  (appositive dash-glosses were converted to commas/colons/periods/parentheses).
+  Like ch03/ch07, the low contraction rate is inherent to an exposition- and
+  quoted-document-heavy chapter and is a documented deviation, not the ch01 defect.
+- Tail verification (rule 4 corollary): the final two pages (folios 527-528, the
+  confrontation and the boiling) were read directly against the p0529-p0530 images
+  as the ending was written, and re-checked. The critical last act renders the
+  source exactly: Goemon first twists to bring Goichi UPPERMOST, then rolls over and
+  puts the boy UNDERNEATH ("gururi to Goichi wo shita ni shite") to end his
+  suffering as fast as possible. Murayama INVERTS the traditional legend (in which
+  Goemon holds his son up out of the oil); rendered as printed, not harmonized.
+
+### Source inconsistencies / readings rendered as printed (not harmonized)
+- Yamashina Tokitsugu's diary (folio 522): the author credits Tokitsugu, who died
+  in 1579; the quoted 1594 entry is in fact from his son Tokitsune's diary (the
+  Tokitsune-kyo ki). Rendered as printed and footnoted.
+- Kaga-no-tsubone (加賀の局, folio 482) for Maa-hime, vs "Kaga-dono" in ch07: the
+  same concubine under a variant title. Rendered as printed.
+- "Hikawa" (氷川, folio 495): Kato Kiyomasa's advance point on the eastern road in
+  Korea. An odd toponym (not a standard Korea place-name); the kanji was
+  crop-verified and rendered as printed. Listed here as a rendered-as-read Korea
+  toponym, not footnoted (minor tier).
+- The Okazaki-guard and the Osaka-escort retainer lists (folio 464) both name Honda
+  Tadakatsu and Sakakibara Yasumasa. Rendered as printed.
+- One route waypoint (folio 509, "Gojo kara ? ni nuke", between Gojo and Hatsuse)
+  was illegible on the scan; rendered as motion ("out from Gojo") rather than
+  inventing a toponym (rule 4: an honest gap, not fabricated bridging text). The
+  clear route places (Kino River, Gojo, Hatsuse, Haibara, Sanbonmatsu, the Kuroda
+  River, the Nabari highway, Azoda) are all carried.
+- The colophon line "(1971, Rironsha)" printed at the chapter end is the source
+  edition's imprint, not chapter prose; left out of the reading text.
+
+### Note-density and the "NOT re-noted (already placed)" list
+17 ch08 notes (front-loaded on the new historical material, which is unusually
+dense for a finale because the chapter introduces so many first-appearance
+subjects): the Hoki-no-kami/broom/Kinoshita lampoon pun, Asahi-hime and the
+Omandokoro hostage, Gaspar Coelho and the Jesuit ranks, the Golden Tea Room, the
+1587 expulsion edict, Seyakuin Zenso, the Jurakudai, the Chollima (author's
+politics), the Sute/Hiroi naming custom, Hideyori and the fall of Osaka, Odawara
+and the Kanto transfer / founding of Edo, the Hanzo gate (Hanzomon, extant), the
+Bunroku-Keicho War, Yi Sun-sin and the turtle-ships, the nightingale floor
+(uguisubari), the plover incense-burner legend, and the Yamashina/Razan execution
+record. Cross-referenced, NOT re-noted: Nobunaga, Hideyoshi, Ieyasu, Hanzo, Mount
+Koya / Oku-no-in / Kobo Daishi (ch01/02), the cauldron / kamairi / Nanzen-ji Goemon
+legend (ch03), Fudo Myo-o (ch05), the Bansenshukai (ch02), jonin/chunin/genin
+(ch01), Momochi / Fujibayashi (ch01), Saeki Dennai (ch02), Takayama Ukon (ch01),
+Frois / Valignano / the Nanban-ji / Organtino / the orasho (ch01/02), Ochacha / the
+Lady Yodo / Oichi / Azai Nagamasa / Odani / Kita-no-sho / Manpukumaru (ch03/04),
+Toyotomi Hidetsugu (ch07), the Taiko kenchi / sword-hunt (ch07), the Honno-ji
+Incident / Akechi Mitsuhide (ch01), Shibata Katsuie / Maeda Toshiie (ch04), Nene
+(glossary), Kazue / Maki / Goichi / Kashii / Tamo / Kiara / Lourenso (earlier), the
+Shofuku-ji / the Maria image (ch03), the Seven Bands of Musashi (ch03), and the
+koku/shaku/sun/ken/ri/cho units and era-names (ch01-ch07).
+
+### Rendered-as-read (one-off names NOT given glossary rows; reuse if any recur)
+People: the three Koga ninja codenames (the Green-Leaf Coronet, the Waterwheel at
+the Rapids, the River-Wind that Draws the Waves), Mochizuki, Koga Saburo Kaneie,
+Taki Shirobei, Okuse Heishichiro, Iwanari Chikara-no-suke Tomomichi, Hosokawa
+Ujitsuna, Nagaoka Fujitaka, Oi-no-suke, Yakushiji Yoichi, Chichibu Shigetsugu, Ota
+Dokan, Sakai Yukimasa, Miyoshi Musashi-no-kami Ichiro, Kimura Hitachi-no-suke,
+Matsuura Sanuki-no-kami Shigemasa, Saji Hyuga-no-kami, Saji Yokuro, Kyogoku
+Takatsugu, Go-hime, Hatsu-hime, and Hideyoshi's other concubines (the Matsu-no-maru,
+Sannomaru, Sanjo, Himeji, Nokai, O-Tane), Li Rusong, Shimazu Yoshihisa, Getto,
+Chikamatsu Monzaemon, Namiki Sosuke, Kimura Kinka, Fuji Yoko, Takanashi Katsuhiro,
+Ennosuke. Places/works: Ryuhoshi, the Aikuni Shrine, Oyamada, Higashi-Karatsu,
+Katsuo-dake, the Genkai Sea, Ogura Pond, Mizutare, Oshimozu, Yodo-no-tsu, the
+Konpira shrine / Kotohira / the Kanamaru-za; the Korean places Yeosu, Pusan, Sangju,
+Okpo, Ungcheon, Happo, Goseong, Jeokjinpo, Sacheon, Dangpo, Danghangpo, Hansan,
+Pyongyang, Jincheon, the Yalu; the Kanto castles (Matsuyama, Sano, Maebashi,
+Matsuida, Minowa, Edo, Tamanawa, Kawagoe, Iwatsuki, Tatebayashi, Nirayama, Hachigata,
+Hachioji, Oshi); the works Kanginshu, Utsubozaru, Zokukin Hisei-dan, Keisei
+Yoshioka-zome, Kamagafuchi Futatsu-domoe, Toyotomi Hideyoshi-fu. Terms: the
+Daijo-daijin, the hwacha and bigyeok-jincheollae, the daijin-bashira and sunoko,
+kama-yude.
+
+### For the whole-book reconciliation (B09), OPEN items (carry forward from ch07)
+- Mount Koya: glossary key 高野山 renders "Koya-san"; ch04-ch08 prose renders "Mount
+  Koya" (macron). Pick one.
+- Osaka: majority plain "Osaka" (ch07/ch08 follow it) vs a minority with macron.
+  Standardize.
+- Daito: HANDOFF/glossary plain "Daito"; ch07 "Konpon Daito". Standardize.
+- Sasa vs Sassa Narimasa: glossary "Sasa"; standard Hepburn "Sassa". Decide + grep-fix.
+- NEW in ch08: Kyushu. House macron style gives "Kyushu" with u-macrons (ch08 uses
+  it), but 2 earlier instances are plain "Kyushu". Standardize at the reconcile.
