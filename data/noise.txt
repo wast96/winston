@@ -125,4 +125,22 @@
 # wanderer's lot; its 零 is not the digit 0. Rendered "driftings" / "drifting
 # orphan girl" (ch06, the song on the mountainside).
 飘零
+# --- B05 (ch07 珠光宝气 / ch08 市井七侠) ---
+# 五成 = "five parts in ten", the fraction idiom for one half (Ma Xingkong
+# keeps 剩下五成 of his old skill). Rendered idiomatically as "half"; the 五 is
+# not a discrete count. (ch07). The 九曲桥 nine-turn bridge is NOT noised: it
+# is rendered "nine-turn zigzag bridge" so the 九 survives.
+五成
+# 四下 = "on all sides / in all four directions", the same four-directions
+# idiom as 四顾/四射; not a count. Rendered "cast his eyes about" (ch08, the
+# Shanxi Wild Goose surveying the room).
+四下
+# 四溅 = "(sparks) splash out in all directions"; the 四 is the four-directions
+# idiom, not a count. Rendered "a scattering of sparks" (ch08, the chopstick
+# that shatters the pedlar's knife).
+四溅
+# 千古 = "through all the ages / for a thousand ages", the fixed compound for
+# eternal fame; the 千 is figurative, not the count 1000. Rendered "down the
+# ages" (ch08, Huo Tianqing's letter: 照耀千古者唯义气两字).
+千古
 

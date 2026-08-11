@@ -785,3 +785,176 @@ geography of the road, and how long Lu has gone clean-shaven).
 - 花押 → "mark" (huaya, personal cipher, footnoted); 人生得意须尽欢… → "When life
   goes well, drink joy to the last drop…" (Li Bai, footnoted); 长相思 →
   "Endless Longing" (Li Yu ci, footnoted).
+
+## B05 = Chapters 6-7 (ch07 珠光宝气 / ch08 市井七侠)
+
+### Environment / setup
+
+- `./setup.sh`: pillow/epubcheck OK; regression harness reports 9/10 with the
+  ONE EXPECTED failure `hook stands down on template stub` (the Stop hook now
+  correctly enforces against the live HANDOFF kickoff; not a defect, per the
+  kickoff note). All other checker regression tests green.
+- `data/src` was absent on the fresh container (gitignored); regenerated with
+  `scripts/ingest_epub.py source.epub` (book.json NOT overwritten — verified
+  byte-identical to the committed copy before/after).
+- Stray-branch consolidation: session started on `claude/lu-xiaofeng-1-htybwd`,
+  which carried NO commits beyond `origin/claude/lu-xiaofeng-1`; checked out
+  the canonical branch, reset to origin, deleted the stray (local; remote had
+  already been pruned).
+
+### Scope
+
+- ch07 (第六章 珠光宝气 "Pearls and Splendour"), src 12_part0000-split-010.txt,
+  3 scenes (dividers at source lines 3/59/202) → 226 merged paragraphs.
+  The Pavilion feast: Ximen Chuixue cuts down Yan Tieshan's seven bought
+  blades and Su Shaoying of Emei; Yan Tieshan is unmasked as the traitor Yan
+  Liben and killed from behind by Princess Danfeng; Huo Tianqing challenges Lu
+  to a sunrise duel. Xue'er's "Flying Phoenix Needles" accusation is tested
+  and denied.
+- ch08 (第七章 市井七侠 "The Seven Heroes of the Marketplace"), src
+  13_part0000-split-011.txt, 3 scenes (dividers at source lines 3/98/218) →
+  346 merged paragraphs. The Shanxi Wild Goose and the Seven Heroes of the
+  Marketplace besiege the inn to force Lu to leave (to spare Huo Tianqing);
+  Lu simply agrees to go. Huo's letter calls the duel off. Blue-Robe Tower
+  fire-bombs the tavern; the dog-meat cook "Zhao the Pockmarked" turns out to
+  be the master thief Sikong Zhaixing, hired for 200,000 taels to steal the
+  Princess away.
+
+### Source-edition footnotes
+
+- **None present.** Re-grepped both units' source for `\[\d+\]`: 0 in ch07,
+  0 in ch08. (This book carries no author's-own notes; confirmed per unit.)
+
+### Merged-paragraphs pipeline
+
+- Builder `scratchpad/build_b05.py` (re-ranged copy of the B04 method, now
+  reading the English one-paragraph-per-line from `scratchpad/<id>_en.txt` and
+  JSON-encoding it to `out/<id>_en.json`, so quote-escaping never has to be
+  hand-fought across hundreds of paragraphs). RANGES and en.txt line counts are
+  asserted equal before build. Bare-numeric dividers EXCLUDED from the merged
+  source; `***` post-inserted after paragraphs [48, 190] (ch07) and [89, 197]
+  (ch08). `scratchpad/qc_config.json` extended with ch07/ch08 docs+sources.
+- Extractor splits: none in ch07; in ch08 only source line 222 (霍天青的信：)
+  ends on a colon, and it is a genuine lead-in to the quoted letter (lines
+  223-226), NOT a split — kept as its own paragraph.
+
+### Checks (all green)
+
+- verify_unit ch07/ch08: numbers 0 unresolved (`--noise data/noise.txt`),
+  parity OK, anchors 4/4 (ch07) and 6/6 (ch08).
+- check_align: ch07 median 4.33, ch08 median 4.23; no pair strays >2.2x.
+- check_content (`--config scratchpad/qc_config.json`, glossary expanded to
+  49 name-anchors): ch07 226 name occurrences all in place; ch08 257 all in
+  place. No displacements.
+- qc_entities: 0 misses both units. (One initial ch08 miss — 江湖 in the merged
+  112-113 paragraph rendered "greenwood" — fixed to "jianghu".)
+- check_structure `--config scratchpad/qc_config.json`: ALL PASS (parity 226 /
+  346; 56 anchors, 0 unresolved).
+- qa_epub: PASS (27 files, 20 documents, 56 refs/bodies/backlinks resolve).
+- epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- check_register vs frozen ch01: ch07 0.50x, ch08 0.77x — both within the
+  0.45x tolerance. (ch07 first measured 0.12x STILTED: the confrontation scene
+  is heavy with Ximen Chuixue's deliberately monosyllabic killer register and
+  a quoted classical anecdote, both correctly LEFT uncontracted; drift was
+  fixed by contracting ONLY the non-ceremonial speech of Lu / Danfeng / Huo /
+  Su / Ma / the sly Yan. NOTE the register metric counts only n't/'ll/'re/'ve/'m
+  — apostrophe-s and apostrophe-d contractions do not move it.)
+- Tails verified against source for both units (rule 4 corollary).
+
+### Digitization glitches (rendered to plain sense; not footnoted)
+
+- None material this batch. The letter's classical phrasing (朝朝有日出…明日之
+  黄花…照耀千古者唯义气两字) is the author's literary register, not a glitch;
+  rendered faithfully and footnoted (明日黄花). Two Yan surnames still coexist:
+  阎铁珊 (Yan Tieshan) and 严立本 (Yan Liben) both romanise as Yan and are one
+  man — the source itself uses both; rendered as the two names, mapped in the
+  glossary, and the unmasking turns on the pair.
+
+### Attribution (check_content + qc_entities)
+
+- Capitalised glossary names (Su Shaoqing/Su Shaoying, Ma Xingkong, Sikong
+  Zhaixing, Fan E, Master Jian the Second, Zhao the Pockmarked, Yan Tieshan,
+  Yan Liben, Mount Tai, Guanzhong, the Pavilion of Pearls and Splendour, the
+  Golden Roc, Emei, Dugu Yihe, ...) are named once per paragraph their source
+  attributes them — verb varied to avoid a drone. Lowercase-"the" names (the
+  Shanxi Wild Goose, the Two Elders of Mount Shang, the Heaven's Bird sect, the
+  Seven Heroes of the Marketplace, the Blue-Robe Tower, jianghu) are exempt from
+  check_content and pass qc_entities trivially via first-word "the".
+- 泰山北斗 (idiom "supreme authority") contains 泰山, now a glossary anchor, so
+  it is rendered "the Mount Tai and Pole Star of the martial world" — carries
+  the anchor AND keeps the metaphor.
+
+### Footnotes (4 for ch07, 6 for ch08; density steady/tapering)
+
+- ch07: (1) the Southern Tang pearl-lamp anecdote / the younger Empress Zhou
+  (ties the chapter title 珠光宝气 to the Li Yu note in Chapter 5); (2) Mount
+  Tai and the Sunwatch Peak (the sacred peak, the sunrise pilgrimage); (3) Fen
+  wine (Shanxi's famed spirit, Yan Tieshan's home pride); (4) 心有灵犀一点通
+  (Li Shangyin's couplet, the name of Lu's uncanny art; also glosses the
+  epithet 双飞彩翼 "Twin Painted Wings").
+- ch08: (1) the night watches and double-hours (时辰/子时/更/三更); (2) the Two
+  Elders of Mount Shang / the Four Whitebeards of Mount Shang allusion (天松、
+  云鹤); (3) 肉包子打狗 proverb (the pedlar's grim joke); (4) 明日黄花 (Su Shi)
+  + 义气 in Huo Tianqing's letter; (5) Yu Rang / Zhang Liang's iron-cone (the
+  loyalty-unto-death allusions 黥身吞炭 / 八十三斤大铁椎); (6) 盗亦有道
+  (Zhuangzi, "even thieves have their Way").
+
+**NOT re-noted / deliberately not footnoted:**
+- Mount Tai (footnoted ch07; ch08 uses re-appear, not re-noted); Emei, the
+  Blue-Robe Tower, the Golden Roc, jianghu, lightness-skill, 镖局/escort
+  guards (ch01), Li Yu / Southern Tang (ch06): all prior; NOT re-noted.
+- Period units — tael (一万两/二十万两), catty (八十三斤): footnoted ch01;
+  NOT re-noted.
+- 举人 (glossed inline "a graduate of the provincial examinations"), 三英四秀 /
+  峨嵋七剑 (the fiction's own roster, glossary/inline), 天禽门/天禽老人/商山二老
+  (glossary + the Mount-Shang footnote), the Shanxi Wild Goose, the dish-names
+  of the live-carp-three-ways, 如此星辰如此夜 (Huang Jingren couplet, left as a
+  scholar's affectation), 秤不离锤 / 藏龙卧虎 / 大马金刀 (idioms rendered to
+  sense): no footnote.
+
+### Apparatus / glossary added
+
+- **notes.json**: 4 under ch07, 6 under ch08 (total 56 book-wide). Merged with
+  `apparatus_merge.py` (NOTES only; glossary omitted from the batch JSON per
+  the HANDOFF trap). `scratchpad/b05_apparatus.json` tracked.
+- **glossary.json**: 13 new rows (two-level, added directly under sections via
+  `scratchpad/add_glossary_b05.py`, a json.load/dump helper — NOT the flat
+  apparatus_merge path). People (10): Su Shaoqing, Su Shaoying, Ma Xingkong,
+  the Shanxi Wild Goose, Sikong Zhaixing, Fan E, Master Jian the Second, Zhao
+  the Pockmarked, the Two Elders of Mount Shang, the Old Man of Heaven's Birds.
+  Orgs (2): the Heaven's Bird sect, the Seven Heroes of the Marketplace. Places
+  (1): Mount Tai. Total now 76 rows. All `status: decided`.
+- No figures (the book has none).
+
+### noise.txt additions (all justified by real B05 flags; documented in-file)
+
+- `五成` ("five parts in ten", the fraction idiom for one half — Ma Xingkong
+  keeps 剩下五成 of his skill; rendered "half", the 五 not a discrete count).
+- `四下` ("on all sides", the same four-directions idiom as 四顾/四射; rendered
+  "cast his eyes about").
+- `四溅` ("(sparks) splash out in all directions"; rendered "a scattering of
+  sparks").
+- `千古` ("through all the ages"; 千 figurative; rendered "down the ages" — in
+  Huo Tianqing's letter 照耀千古者唯义气两字).
+- (九曲桥 was NOT noised: rendered "nine-turn zigzag bridge" so the 九 survives.
+  七七四十九式 rendered "seven times seven, the forty-nine forms" — the matcher
+  needs the tens-ones form "forty-nine", not the archaic "nine-and-forty".)
+
+### Decided shelf renderings (this batch sets them)
+
+- People: 苏少卿/苏少英 → Su Shaoqing / Su Shaoying (the tutor-alias and the
+  Emei swordsman's real name; "Su the Second of the Three Heroes and Four
+  Beauties"); 马行空 → Ma Xingkong ("云里神龙" → the Divine Dragon in the
+  Clouds); 山西雁 → the Shanxi Wild Goose; 司空摘星 → Sikong Zhaixing (the king
+  of thieves); 樊鹗 → Fan E (Master Fan the Elder); 简二先生 → Master Jian the
+  Second; 赵大麻子 → Zhao the Pockmarked; 商山二老 → the Two Elders of Mount
+  Shang; 天禽老人 → the Old Man of Heaven's Birds.
+- Orgs/places: 天禽门 → the Heaven's Bird sect; 市井七侠 → the Seven Heroes of
+  the Marketplace (山西七义 → the Seven Righteous of Shanxi, inline); 泰山 →
+  Mount Tai; 珠光宝气阁 → the Pavilion of Pearls and Splendour (title 珠光宝气 →
+  "Pearls and Splendour").
+- Epithets/terms (inline, not glossary): 双飞彩翼 → Twin Painted Wings; 心有灵犀
+  一点通 → "the hearts that beat as one through a single thread" (Li Shangyin);
+  鱼鳞紫金滚龙棒 → fish-scaled coiling-dragon rod of purple gold; 燕子三抄水 →
+  the swallow's-three-skimmings; 关中双绝 → the Twin Perfections of Guanzhong;
+  弹指神通 → the Finger-Flicking art; 又一村 → Yet Another Village.
