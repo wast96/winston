@@ -365,3 +365,79 @@ From a spot he took for the kitchen he lifted a floorboard, and came up at last 
 "This is no ordinary house," Goemon marveled. Surely some man versed in ninjutsu had counseled its building, and it had been designed so that no ninja could break into it. But whatever its make, having come this far he could not draw back. He pressed on.
 
 Around a turn, his dark-schooled eyes saw a corridor some six ken long that ended blind, and in the end wall a strange door. It seemed to be of copper, holding a heavy, sunken gleam, and on its face were carved arabesques and, in relief, a goat. He did not know it was a door carried from an old castle in Spain and presented as tribute; but he sensed that beyond it was the very bedchamber of the Taikō and Lady Yodo he was after. He stepped toward it—and sprang back with a gasp. The floor under his foot had sung out, kiki, kiku.
+
+He stepped out again, warily. It sang out again. He shifted to the edge; that sang too. Setting his will, he made a single bound and came down on the floor some two ken ahead. The floor cried kikiki, kukuku, kiku, keke, for all the world like a greenfinch taking wing. There was nowhere left to set a foot. He stood frozen.
+
+In that instant the walls to left and right swung round, and out sprang a crowd of samurai. Goemon leaped for the ceiling—but it too was smooth plaster, with nowhere to lay a hand, and as he dropped back down in vain, still more men piled on and bore him to the floor. A net like a fishing-net was flung over his head, and he was trussed hand and foot. Lamps were brought, and everything stood plain.
+
+Then a few words struck his ear. "Lord Hattori Hanzō—a fine catch."
+
+Goemon twisted his bound neck and looked round. Among the press of men stood Hattori Hanzō.
+
+"This one's in shinobi black—who might he be?" said one, cutting the net away at his throat and tearing off the hood.
+
+"Ha—Saeki Dennai!" cried Hanzō.
+
+"Does my lord Hattori know this man?"
+
+"I do indeed. An Iga ninja. For a time he served under me at Hamamatsu; but ten years ago he ran off, and his whereabouts were lost."
+
+"Hm—and what would a fellow like that want with His Highness the Taikō—"
+
+"That we shall have to ask the man himself. By your leave—" And with that Hanzō turned to face Goemon. "Dennai. It has been a long while."
+
+"Hanzō—you—what are you doing here—" Goemon glared at him.
+
+"Lord Ieyasu, you see, has come up to the capital for the feast in honor of Fushimi castle's completion, and lodges in the study-hall over yonder. And you crept in here not even knowing it? The design of this castle—my own ninja band's River-Wind that Draws the Waves had a hand in it. This corridor is a nightingale floor. Because we knew that you, out for His Highness's life, would come."
+
+"You knew?"
+
+"Your every move, you see, Moriichirō has been tracking. Where have you put Goichi? The blind Goichi?"
+
+"What—? Goichi—" Goemon shuddered.
+
+"A curious turn of fate, was it not. The Shōfuku-ji at Azōda is the very temple where I keep my faith."
+
+"What—? Goichi—"
+
+"Only twenty days ago I went to the Shōfuku-ji. And I found Goichi there. Ten years old now, he told me."
+
+Goemon reeled, and crumpled where he lay.
+
+Hanzō had heard from Moriichirō only that Goemon had set out east with the boy. By chance, at the Shōfuku-ji, he had marked a blind child there, and had it from Ryōsai and Tamo that the boy was left in their keeping by a well-off farmer on the Ise pilgrimage; but after a good deal of questioning he had guessed it was Goemon's son. And once Goemon had given the blind child up, it followed plainly that he would come up to the capital to go after Hideyoshi.
+
+"You really are a luckless man. I opened the road for you, and what did you do but throw it away—why could you not have stayed quietly a samurai?"
+
+A rage boiled up in Goemon, and he roared. "What! The brazen, barefaced gall of you!"
+
+Hanzō gave a thick, deep laugh. "Ha ha ha—shall I tell you a good story? I gave Hatsuko to Lord Ieyasu. She is called the Ocha-no-tsubone now, and has all his love to herself. And I, when Lord Ieyasu entered Edo castle, was raised to a hatamoto of three thousand koku. Karasumaru too, and Etegi, are fine samurai these days. Had you but served quietly, you too, man—"
+
+Just then the golden bell that hung before the door rang, karan, karan.
+
+One of the night-watch samurai ran to the door and pressed both hands to the floor. The hoarse voice that came from within seemed to be the Taikō's. "What is this? Such a racket."
+
+"We beg your pardon for troubling your rest. Just now a ninja, one Dennai or some such—"
+
+Hanzō cut in. "His true name is Goemon, of Ishikawa."
+
+The whole company was thunderstruck, and, forgetting they stood before the Taikō, burst out in a confusion of voices.
+
+"What? Ishikawa Goemon?"
+
+"That Goemon?"
+
+"The one who in the early years of Tenshō—twenty years ago—set the whole capital in an uproar, the greatest thief of the age—"
+
+Hanzō answered. "The very man."
+
+"He was still alive?"
+
+"He was."
+
+"Where had he been lying hid?"
+
+"In the village of Nagao in Kishū, farming."
+
+The Taikō's voice came. "And what has so thrown this Goemon off his course that he comes forth now?"
+
+Hanzō drew close to the door.
