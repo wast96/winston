@@ -709,6 +709,54 @@
       "pinyin": "Gisuke",
       "status": "decided",
       "note": "Maki&#8217;s elder brother, farming the family plot at Nagao; twenty-two in Tensh&#333; 13."
+    },
+    "後藤又兵衛": {
+      "en": "Gotō Matabei",
+      "pinyin": "Goto Matabei (Goto Mototsugu)",
+      "status": "attested",
+      "note": "Retainer of the Kuroda, and one of the celebrated warriors of the age; died for the Toyotomi at the fall of Osaka in 1615."
+    },
+    "黒田官兵衛": {
+      "en": "Kuroda Kanbei",
+      "pinyin": "Kuroda Kanbei (Kuroda Yoshitaka)",
+      "status": "attested",
+      "note": "Hideyoshi's ablest strategist; later took the monastic name Josui."
+    },
+    "木食応其": {
+      "en": "Mokujiki Ōgo",
+      "pinyin": "Mokujiki Ogo",
+      "status": "attested",
+      "note": "The ascetic-monk whose embassy won Hideyoshi's pardon for Mount Kōya and saved it from destruction."
+    },
+    "豊臣秀次": {
+      "en": "Toyotomi Hidetsugu",
+      "pinyin": "Toyotomi Hidetsugu",
+      "status": "attested",
+      "note": "Hideyoshi's nephew and adopted heir, made kanpaku; forced to commit seppuku on Mount Kōya in 1595."
+    },
+    "摩阿姫": {
+      "en": "Maa-hime",
+      "pinyin": "Maa-hime (Kaga-dono)",
+      "status": "decided",
+      "note": "Maeda Toshiie's daughter, a concubine of Hideyoshi known as Kaga-dono; the novel gives her the name Gō-hime, which properly belonged to another sister."
+    },
+    "太田次郎左衛門尉": {
+      "en": "Ōta Jirōzaemon-no-jō",
+      "pinyin": "Ota Jirozaemon-no-jo",
+      "status": "decided",
+      "note": "The local strongman who commanded the peasant defenders of Ōta Castle."
+    },
+    "石田三成": {
+      "en": "Ishida Mitsunari",
+      "pinyin": "Ishida Mitsunari",
+      "status": "attested",
+      "note": "One of Hideyoshi's Five Commissioners; later led the western army to defeat at Sekigahara (1600)."
+    },
+    "長宗我部元親": {
+      "en": "Chōsokabe Motochika",
+      "pinyin": "Chosokabe Motochika",
+      "status": "attested",
+      "note": "Lord of Tosa who had unified Shikoku; submitted to Hideyoshi in 1585 and was left Tosa alone."
     }
   },
   "organizations": {
@@ -1055,6 +1103,30 @@
       "pinyin": "Nagao",
       "status": "decided",
       "note": "Maki&#8217;s home hamlet, a league and a half up the Kishi River at the foot of Mount Tokika; a poor farming village on the border of the Kish&#363; domain and the temple lands, where Goemon, Maki and Goichi take refuge."
+    },
+    "ルソン": {
+      "en": "Luzon",
+      "pinyin": "Luzon (Ruson)",
+      "status": "attested",
+      "note": "The chief island of the Spanish Philippines; destination of the overseas slave-trade in women. Cf. Ruson Sukezaemon (ch02)."
+    },
+    "太田城": {
+      "en": "Ōta Castle",
+      "pinyin": "Ota-jo",
+      "status": "attested",
+      "note": "The Saiga peasants' marsh stronghold near Wakayama, taken by Hideyoshi's water-attack in 1585."
+    },
+    "高松城": {
+      "en": "Takamatsu Castle",
+      "pinyin": "Takamatsu-jo",
+      "status": "attested",
+      "note": "Bicchū Takamatsu, flooded by Hideyoshi in 1582; the siege broke off at word of Nobunaga's death."
+    },
+    "金剛峯寺": {
+      "en": "Kongōbu-ji",
+      "pinyin": "Kongobu-ji",
+      "status": "attested",
+      "note": "The head temple of the Shingon school on Mount Kōya."
     }
   },
   "terms": {
@@ -1243,6 +1315,18 @@
       "pinyin": "tah&#333;t&#333;; Negoro no Dait&#333;",
       "status": "attested",
       "note": "The Dait&#333; of the Negoro-ji, a two-storied <i>tah&#333;t&#333;</i> raised by Kakuban in 1129 after the Konpon Dait&#333; of Mount K&#333;ya. It survived the burning of the temple and stands today, a National Treasure; its walls still carry the marks of Hideyoshi&#8217;s musket-balls."
+    },
+    "太閤検地": {
+      "en": "the Taiko kenchi",
+      "pinyin": "Taikō kenchi",
+      "status": "attested",
+      "note": "Hideyoshi's nationwide cadastral land-survey, which fixed the tax base of the realm."
+    },
+    "関白": {
+      "en": "Kanpaku",
+      "pinyin": "kanpaku",
+      "status": "attested",
+      "note": "The imperial regent, the highest court office; assumed by Hideyoshi in 1585."
     }
   }
 }

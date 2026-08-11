@@ -750,7 +750,7 @@ Next he fell on Shikoku, and to Chōsokabe Motochika, who sued for terms, he gav
 
 Turned forty-nine now, his eyes a little failing, Hideyoshi, the better to run his one-man rule, set five men as commissioners to share the business of government between them: Asano Nagamasa, Maeda Gen'i, Mashita Nagamori, Ishida Mitsunari, and Natsuka Masaie.
 
-That settled, and within the summer, Hideyoshi led out a great army himself to put down Sassa Narimasa of Etchū. Sassa had thrown up forts at thirty-six points to the right and left of the Kurikara Pass, and made his strongholds of Kibune, Moriyama, Masuyama, and Toyama, and fought his defense; but his strength gave out at last, and he shaved his head, put on black robes, took the form of a monk, and came to surrender at Hideyoshi's headquarters on Gofuku-yama. It was the twenty-ninth of the eighth month.
+That settled, and within the summer, Hideyoshi led out a great army himself to put down Sasa Narimasa of Etchū. Sasa had thrown up forts at thirty-six points to the right and left of the Kurikara Pass, and made his strongholds of Kibune, Moriyama, Masuyama, and Toyama, and fought his defense; but his strength gave out at last, and he shaved his head, put on black robes, took the form of a monk, and came to surrender at Hideyoshi's headquarters on Gofuku-yama. It was the twenty-ninth of the eighth month.
 
 In a letter he sent from the camp to his lawful wife, Nene, Hideyoshi wrote, where his name should go, "Tenka"—the Realm. After this he often wrote it in kana, "tenka." From about this time he took himself for the foremost man under heaven, and began to carry himself as one. And with Hideyoshi's appointment as Kanpaku, Nene too became the Kita-no-mandokoro.
 
@@ -764,7 +764,7 @@ There survives a famous letter that Nobunaga sent to Nene around Tenshō 4 or 5�
 
 And so this "bald rat," from about that time it seems, set to chasing women in earnest.
 
-In point of fact, when the northern campaign against Sassa was over, at the start of the intercalary eighth month (Tenshō 13 was a leap year, with two eighth months), on his way home in triumph he broke his journey at Kanazawa in Kaga, put up some days with the castle's lord, Maeda Toshiie, and was feasted; and there he set eyes on Toshiie's third daughter, Gō-hime, whose pet name was Maa, a girl then of fourteen, and lost his heart to her.
+In point of fact, when the northern campaign against Sasa was over, at the start of the intercalary eighth month (Tenshō 13 was a leap year, with two eighth months), on his way home in triumph he broke his journey at Kanazawa in Kaga, put up some days with the castle's lord, Maeda Toshiie, and was feasted; and there he set eyes on Toshiie's third daughter, Gō-hime, whose pet name was Maa, a girl then of fourteen, and lost his heart to her.
 
 This lovely girl Maa-hime is one the novel has spoken of before, in the chapter "War upon War": how, in the days when Toshiie was still allied with Shibata Katsuie, she had been sent as a hostage to Katsuie's castle at Kita-no-shō, and what a beautiful girl she was, is told there.
 
