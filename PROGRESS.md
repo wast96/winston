@@ -51,7 +51,12 @@ contradictions with scholarship, choices you were unsure of).
   then blank pdf 14 and the printed TOC pdf 15-22, body resumes pdf 23. OCR
   only 12-13 and 23-33.
 
-## B01 = ch000-ch001 (2026-08-11, awaiting voice-gate approval)
+## B01 = ch000-ch001 (2026-08-11, voice gate PASSED)
+
+Voice, note density and formatting approved by the commissioner; ch001 frozen
+as the register reference. Commissioner asked for MORE notes going forward
+(generous/dense annotation is the standing preference).
+
 
 Scope: ch000 (序, Author's Preface, PDF 12-13 / printed 10-11) and ch001
 (上海人的過年忙, The New Year Rush, PDF 23-33 / printed 21-31). PDF 14-22

@@ -7,19 +7,55 @@ THE CHAT, alongside the attached EPUB. Writing it here alone does not count.
 
 ## Message to paste into the next chat
 
-B01 has STOPPED at the first-chapter voice gate (Step 0c) and is awaiting the
-commissioner's judgement of voice, note density, and formatting. Per the
-workflow there is deliberately NO next-batch kickoff yet: the B02 kickoff is
-written only AFTER the commissioner approves the voice, at which point ch001
-freezes as the register reference for the whole book
-(check_register.py --ref out/ch001_reading.md) and B02 begins in a fresh chat.
+```
+Scales and Claws B02
 
-On approval, the B02 kickoff to write here (and paste into the next chat) is:
-Scales and Claws B02, do ch002-ch014 (PDF 34-58, printed 32-56) end to end
-per the CLAUDE.md pipeline; BEFORE translating, read the final two pages of
-out/ch001_reading.md (the frozen voice); run check_register.py --ref
-out/ch001_reading.md every unit; cite printed folios; never invent bridging
-text; deliver the EPUB in chat and paste the following batch's kickoff.
+Read CLAUDE.md in full, then HANDOFF.md, then book.json. We are translating Yu
+Muxia's Scales and Claws of Shanghai (上海鱗爪, 1933; 2019 Taipei reprint,
+customs volume) per CLAUDE.md. Work only on claude/scales-and-claws; expect the
+harness to start you on a stray branch and consolidate per rule 2. Deliverable
+out/scales-and-claws-of-shanghai.epub.
+
+Do Batch B02 = ch002-ch014 (宋案的回顧 through 跳舞; PDF 34-58, printed folios
+32-56) end to end per the CLAUDE.md pipeline: ./setup.sh; render; OCR with the
+B01 crop (ocr_crop.py --left 0.03 --right 0.97 --top 0.13 --lang chi_tra_vert
+--psm 5; set --bottom per page, tighter on any page that carries a reprint
+photo so the photo band stays out of body OCR); indents.py is UNUSABLE on this
+vertical book, so assemble on the blank-line signal and finalize paragraph
+structure by hand against the scan; pgrep -c tesseract must be 0 after OCR.
+Eyeball every page for reprint-added photos and run each through the figure
+pipeline (crop to data/figs/, alt text, caption translating the reprint label
+and stating 2019-editor provenance).
+
+BEFORE translating, read the final two pages of out/ch001_reading.md: HANDOFF
+describes the voice, but those pages ARE the voice, now the FROZEN REFERENCE.
+Run check_register.py --ref out/ch001_reading.md on every unit. Consult
+glossary.json and authority.json BEFORE romanizing any name; crop-verify every
+name, number and low-confidence span (this cluster is thick with 1910s-20s
+politics and the Shanghai press: 宋教仁/宋案, 戴季陶, 章太炎, 康有為, 周浩,
+the newspapers), recording verified readings via apply_fixes.py. Fact-check
+every historical claim against real scholarship (Wikipedia / Baidu Baike /
+academic, NEVER an LLM-written site); state the verdict in the note. Never
+invent bridging text; verify each unit's tail against the scan.
+
+NOTES: the commissioner wants them GENEROUS and dense, more rather than fewer.
+Annotate freely wherever a non-specialist Western reader would miss anything
+(who a person is; what a paper, office, party or event was; texture lost in
+translation; the author as interested witness). Recurring subjects get their
+note at FIRST appearance (grep notes.json and earlier reading files first;
+keep the per-batch "NOT re-noted" list). Do not thin out to hit a number.
+
+Per unit: write out/<id>_reading.md (one paragraph per source line), then
+make_bilingual.py, verify_unit.py, check_align.py; apparatus_merge.py for
+notes/glossary/figures, check_apparatus.py; regenerate check_config.json for
+the built units, then check_structure.py + check_content.py + qc_entities.py.
+Rebuild the EPUB, qa_epub.py until green, epubcheck (jar at
+/tmp/epubcheck-5.1.0/epubcheck.jar). Record every result in PROGRESS.md; commit
+and push claude/scales-and-claws. Do not pause for approval mid-batch.
+
+Deliver in chat: the built EPUB attached, AND the B03 kickoff pasted verbatim
+in a fenced code block in the same reply.
+```
 
 If the commissioner instead sends corrections to B01, transcribe them into
 CORRECTIONS.md and run the corrections workflow (rebuild, qa_epub, epubcheck,
@@ -33,8 +69,12 @@ CHANGELOG entry) before B02.
   New Year Rush) translated end to end. All checks green (verify_unit,
   check_numbers, check_align, check_content, qc_entities, check_structure,
   check_apparatus); qa_epub PASS; epubcheck 5.1.0 clean. 25 notes (7+18),
-  22 glossary rows, 5 figures. See PROGRESS.md for the full log. AWAITING the
-  voice-gate decision — do not start B02 until it is given.
+  22 glossary rows, 5 figures. See PROGRESS.md for the full log.
+- VOICE GATE PASSED (2026-08-11): commissioner approved voice, note density
+  and formatting. ch001 is now the FROZEN register reference
+  (check_register.py --ref out/ch001_reading.md). Standing note from the
+  commissioner: notes are welcome GENEROUS and dense, "go crazy" — err toward
+  more annotation, not less, in every batch from here on.
 
 ## Tooling in place (do not revert)
 
