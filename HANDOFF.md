@@ -18,7 +18,7 @@ gate is passed and ch01 is frozen as the register reference.
 ```
 The Rebel — voice-gate decision (after Batch 1)
 
-Batch 1 of The Rebel is done and waiting at the first-chapter voice gate (CLAUDE.md Step 0c). Read the built chapters (ch01 through ch07 of the title novella) in the attached EPUB and judge three things before ch01 becomes the FROZEN register reference for the rest of the book:
+Batch 1 of The Rebel is done and waiting at the first-chapter voice gate (CLAUDE.md Step 0c). The project prose contract is STYLE.md (read it first; it holds the general rules, no book specifics). Read the built chapters (ch01 through ch07 of the title novella) in the attached EPUB and judge three things before ch01 becomes the FROZEN register reference for the rest of the book:
 
 1. Voice. Literary contemporary English, restrained third person, dialogue set in quotation marks (the source runs dialogue unmarked). Is the register right for a serious espionage novel? Any drift toward pulp or toward stiffness?
 2. Footnote density. This batch carries 35 notes (12 on the opening chapter, tapering), across history, institutions, material culture, and custom, for a reader with no background in modern China. Too many, too few, right?
@@ -40,6 +40,11 @@ If approved: freeze ch01 as check_register.py --ref, then run Batch B02 = The Re
 
 ## Tooling in place (do NOT revert)
 
+- STYLE.md — the project's PROSE CONTRACT (general rules and reasoning, no
+  book specifics). Read it every batch, before translating; it encodes the
+  voice-gate calibrations (de-stiffen the machine not the voice, dialogue
+  quoting, once-per-paragraph naming, natural-idiom-in-text/literal-in-note,
+  the generous footnote doctrine). Do not delete or narrow it.
 - epubcheck jar at /tmp/epubcheck-5.1.0/epubcheck.jar (fetched by setup.sh).
 - data/noise.txt: project entries for non-quantitative source numerals
   (第二天, 一言不发, 一动不动, 十六铺, 八仙桥, 零星, 九宫, 三轮车), each commented.
