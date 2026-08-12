@@ -114,6 +114,10 @@ table.errata td.hz { font-size: 1.05em; }
 .colophon { text-align: center; margin-top: 2em; }
 .colophon .notice { border: 2px solid #444; display: inline-block; padding: 0.4em 1.6em; margin: 1em 0; font-size: 1.3em; letter-spacing: 0.3em; }
 .colophon p { text-indent: 0; }
+p.attrib { text-indent: 0; font-size: 0.9em; color: #555; font-style: italic; margin: 0.3em 0 1.6em; }
+blockquote.aw { margin: 0.85em 1.8em; }
+blockquote.aw p { text-indent: 0; }
+blockquote.aw p.cite { font-size: 0.85em; color: #666; font-style: italic; margin-top: 0.2em; }
 """
 
 XHTML = """<?xml version="1.0" encoding="utf-8"?>
@@ -763,6 +767,32 @@ def render_errata(bm):
         % (headnote, "".join(rows)))
 
 
+def render_afterword(bm):
+    """The source edition's own critical afterword, rendered as clearly
+    attributed back matter (NOT a chapter of the novel). Driven by an
+    'afterword' object in back_matter.json: a heading, an attribution line,
+    and a list of typed blocks (paragraph or block-quote-with-citation).
+    Text passes through typographize() at write time, so plain ASCII quotes
+    curl and inline <i> is honored; use numeric character references (&#8212;)
+    not named entities."""
+    aw = bm.get("afterword", {})
+    parts = ['<h1>%s</h1>' % esc(aw.get("heading", "Afterword"))]
+    attrib = aw.get("attribution", "")
+    if attrib:
+        parts.append('<p class="attrib">%s</p>' % attrib)
+    first = True
+    for blk in aw.get("blocks", []):
+        if blk.get("t") == "quote":
+            cite = ('<p class="cite">%s</p>' % esc(blk["cite"])) if blk.get("cite") else ""
+            parts.append('<blockquote class="aw"><p>%s</p>%s</blockquote>'
+                         % (blk.get("text", ""), cite))
+        else:
+            cls = ' class="first"' if first else ""
+            parts.append('<p%s>%s</p>' % (cls, blk.get("text", "")))
+        first = False
+    return "\n".join(parts)
+
+
 def render_colophon(bm):
     c = bm.get("colophon", {})
     return (
@@ -1052,6 +1082,11 @@ def main(epub_path):
           "Translator's Note and Glossary")
 
     back_matter = load_json("back_matter.json", {})
+    have_afterword = bool(back_matter.get("afterword", {}).get("blocks"))
+    aw_heading = back_matter.get("afterword", {}).get("heading", "Afterword")
+    if have_afterword:
+        write(os.path.join(oebps, "afterword.xhtml"),
+              render_afterword(back_matter), aw_heading)
     have_backmatter = bool(back_matter.get("errata_rows") or
                            back_matter.get("colophon"))
     if have_backmatter:
@@ -1073,6 +1108,8 @@ def main(epub_path):
         docs += [("characters.xhtml", "Principal Characters")]
     docs += [("contents.xhtml", "Contents")]
     docs += [(c["id"] + ".xhtml", c["title_en"]) for c in structure]
+    if have_afterword:
+        docs += [("afterword.xhtml", aw_heading)]
     docs += [("notes.xhtml", "Notes"),
              ("backmatter.xhtml", "Translator's Note and Glossary")]
     if have_backmatter:
@@ -1120,6 +1157,9 @@ def main(epub_path):
                              % (esc(part_label), "".join(chap_lis)))
         else:
             nav_items.extend(chap_lis)
+    if have_afterword:
+        nav_items.append('<li><a href="afterword.xhtml">%s</a></li>'
+                         % esc(aw_heading))
     nav_items += ['<li><a href="notes.xhtml">Notes</a></li>',
                   '<li><a href="backmatter.xhtml">Translator\'s Note and '
                   'Glossary</a></li>']
