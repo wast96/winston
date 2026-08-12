@@ -1,0 +1,120 @@
+{
+  "notes": {
+    "ch07": [
+      {
+        "anchor": "Tsukahara Bokuden, Itō Ittōsai, Miyamoto Musashi",
+        "note": "The legendary sword-saints of the sixteenth and seventeenth centuries: Tsukahara Bokuden and Itō Ittōsai, founders of famous lines, and Miyamoto Musashi, the duelist-philosopher of <i>The Book of Five Rings</i>. Shiba&#8217;s point is not to belittle them but to mark a shift: the great late-shogunate halls had turned swordsmanship from a mystic personal Way into something teachable in bulk, by method, to thousands."
+      },
+      {
+        "anchor": "First, fighting spirit; second, fighting spirit",
+        "note": "The word is <i>kigumi</i>: the marshalling of one&#8217;s whole spirit or will, brought to bear so as to overwhelm an opponent before technique is even joined. It was the watchword of the Tennen Rishin-ryū, whose strength lay less in polished form than in ferocity and nerve &#8212; excellent for a real killing, as the last chapters showed, but a liability in a points bout with the bamboo sword, which is the bind this chapter turns on."
+      },
+      {
+        "anchor": "one of the three great halls of Edo",
+        "note": "The three great fencing halls of late-shogunate Edo were the Genbukan of Chiba Shūsaku (Hokushin Ittō-ryū), the Renpeikan of Saitō Yakurō (the Shintō Munen-ryū hall named here), and the Shigakukan of Momonoi Shunzō. A tag of the day summed them up: &#8216;the technique of Chiba, the rank of Momonoi, the power of Saitō.&#8217; That Kondō&#8217;s obscure country school kept a quiet arrangement to borrow a ringer from so grand an establishment measures the gulf between them."
+      },
+      {
+        "anchor": "Katsura Kogorō",
+        "note": "A momentous first entrance. Katsura Kogorō (1833&#8211;1877), of Chōshū, was at this time head student of Saitō Yakurō&#8217;s Renpeikan and a swordsman of the first rank; he would become, as Kido Takayoshi, one of the three chief architects of the Meiji Restoration that overthrew the shogunate. Here he is merely a hired stand-in earning pocket-money, and Toshizō &#8212; who will spend his life fighting men like him &#8212; meets him for the first time, seeing only a man born to every advantage he himself was denied."
+      },
+      {
+        "anchor": "Sakamoto Ryōma",
+        "note": "Another of the age&#8217;s great names, dropped in passing. Sakamoto Ryōma (1836&#8211;1867), of Tosa, trained in the Hokushin Ittō-ryū at the Chiba hall in Okechō and would become the most famous go-between of the Restoration, brokering the alliance of Chōshū and Satsuma before his assassination. The tale of his scoring the deciding thrust on Katsura at a tournament is a popular one, told here as such."
+      },
+      {
+        "anchor": "His domain is Chōshū.",
+        "note": "Chōshū, the Mōri domain at the far western tip of Honshū, would within a few years become the fiercest engine of the anti-shogunal movement and the Shinsengumi&#8217;s great enemy &#8212; its loyalists the very men the corps was raised to hunt in Kyoto. The narrator is careful to note that in the year of this scene none of that has begun: the name means nothing to Toshizō yet, as he is not yet what he will become."
+      },
+      {
+        "anchor": "Harada Sanosuke",
+        "note": "Harada Sanosuke (1840&#8211;1868), a house-guest here and later a captain of the Shinsengumi, from Iyo in Shikoku; a spearman by training and a famously hot-blooded, open-handed man. He fought with the corps through its Kyoto years and died in the fighting around Edo in 1868."
+      }
+    ]
+  },
+  "glossary": {
+    "桂小五郎": {
+      "en": "Katsura Kogorō",
+      "pinyin": "Katsura Kogorō",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 8,
+      "cast": "A Chōshū swordsman, head student of the Renpeikan, blessed in birth, learning, and skill; later, as Kido Takayoshi, an architect of the Meiji Restoration. Toshizō's opposite in every advantage.",
+      "note": "Historical, 1833&#8211;1877. Later known as Kido Takayoshi, one of the leaders of the Restoration."
+    },
+    "原田左之助": {
+      "en": "Harada Sanosuke",
+      "pinyin": "Harada Sanosuke",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 7,
+      "cast": "A house-guest at the Edo dōjō, a hot-blooded spearman of Iyo; later a captain of the Shinsengumi.",
+      "note": "Historical, 1840&#8211;1868. A spearman of the Hōzōin line; died in the fighting around Edo."
+    },
+    "坂本竜馬": {
+      "en": "Sakamoto Ryōma",
+      "pinyin": "Sakamoto Ryōma",
+      "status": "attested",
+      "note": "Historical, 1836&#8211;1867. Of Tosa, a Hokushin Ittō-ryū swordsman of the Chiba hall; later the great broker of the Restoration, assassinated in 1867."
+    },
+    "斎藤弥九郎": {
+      "en": "Saitō Yakurō",
+      "pinyin": "Saitō Yakurō",
+      "status": "attested",
+      "note": "Master of the Renpeikan, the Shintō Munen-ryū hall reckoned one of the three great dōjō of Edo; Kondō's source of borrowed swordsmen."
+    },
+    "桃井春蔵": {
+      "en": "Momonoi Shunzō",
+      "pinyin": "Momonoi Shunzō",
+      "status": "attested",
+      "note": "Master of the Shigakukan, one of the three great dōjō of Edo. Reading from the source's furigana (もものい)."
+    },
+    "塚原卜伝": {
+      "en": "Tsukahara Bokuden",
+      "pinyin": "Tsukahara Bokuden",
+      "status": "attested",
+      "note": "A sword-saint of the sixteenth century."
+    },
+    "伊藤一刀斎": {
+      "en": "Itō Ittōsai",
+      "pinyin": "Itō Ittōsai",
+      "status": "attested",
+      "note": "Founder of the Ittō-ryū line of swordsmanship."
+    },
+    "宮本武蔵": {
+      "en": "Miyamoto Musashi",
+      "pinyin": "Miyamoto Musashi",
+      "status": "attested",
+      "note": "The famous seventeenth-century duelist, author of The Book of Five Rings."
+    },
+    "おつね": {
+      "en": "Otsune",
+      "pinyin": "Otsune",
+      "status": "provisional",
+      "note": "Kondō Isami's wife, a silent, gloomy woman and, by Toshizō's account, a poor cook."
+    },
+    "長州": {
+      "en": "Chōshū",
+      "pinyin": "Chōshū",
+      "status": "attested",
+      "note": "The Mōri domain of western Honshū, later the chief power of the anti-shogunal movement and the Shinsengumi's great enemy."
+    },
+    "玄武館": {
+      "en": "the Genbukan",
+      "pinyin": "Genbukan",
+      "status": "attested",
+      "note": "Chiba Shūsaku's Hokushin Ittō-ryū hall in Edo, greatest of the three great dōjō."
+    },
+    "三番町": {
+      "en": "Sanbanchō",
+      "pinyin": "Sanbanchō",
+      "status": "attested",
+      "note": "An Edo quarter to which the Saitō hall (Renpeikan) moved after a fire."
+    },
+    "気組": {
+      "en": "fighting spirit",
+      "pinyin": "kigumi",
+      "status": "decided",
+      "note": "The marshalling of spirit to overwhelm an opponent; the watchword of the Tennen Rishin-ryū."
+    }
+  }
+}

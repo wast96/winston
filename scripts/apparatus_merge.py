@@ -11,7 +11,8 @@ a heredoc), then let this script validate and merge it.
 Merge file shape (any key optional):
 
     {
-      "glossary": { "<zh>": {"en": ..., "pinyin": ..., "status":
+      "glossary": { "<zh>": {"section": "people|places|organizations|terms",
+                    "en": ..., "pinyin": ..., "status":
                     "attested|provisional|decided", "note": ...}, ... },
       "notes":    { "<unit_id>": [ {"anchor": ..., "note": ...}, ... ] },
       "figures":  { "<unit_id>": [ {"file": ..., "before": ...,
@@ -74,11 +75,19 @@ def main(path):
     batch = json.load(open(path, encoding="utf-8"))
     problems = 0
 
+    GLOSS_SECTIONS = ("people", "places", "organizations", "terms")
     for zh, row in batch.get("glossary", {}).items():
         check_text("glossary %s" % zh, json.dumps(row, ensure_ascii=False))
         if row.get("status") not in ("attested", "provisional", "decided"):
             sys.exit("glossary %s: status must be attested/provisional/"
                      "decided" % zh)
+        # This project's glossary.json is nested by section (render_glossary
+        # walks the top level as section headings). A flat row placed at the
+        # top level is read as a bogus one-entry section and breaks the build,
+        # so every row MUST name its section.
+        if row.get("section") not in GLOSS_SECTIONS:
+            sys.exit("glossary %s: 'section' must be one of %s"
+                     % (zh, "/".join(GLOSS_SECTIONS)))
     for cid, items in batch.get("notes", {}).items():
         rpath = os.path.join(ROOT, "out", "%s_reading.md" % cid)
         reading = open(rpath, encoding="utf-8").read() \
@@ -94,19 +103,28 @@ def main(path):
 
     if "glossary" in batch:
         g = load("glossary.json", {})
+        # a zh key already present in ANY section is left untouched
+        present = set()
+        for sec in GLOSS_SECTIONS:
+            present |= set(g.get(sec, {}))
         added = skipped = 0
         for zh, row in batch["glossary"].items():
-            if zh in g:
+            if zh in present:
                 skipped += 1
-            else:
-                g[zh] = row
-                added += 1
+                continue
+            row = dict(row)
+            sec = row.pop("section")
+            g.setdefault(sec, {})[zh] = row
+            present.add(zh)
+            added += 1
         back = save("glossary.json", g)
         for zh, row in batch["glossary"].items():
-            if zh not in back:
+            sec = row["section"]
+            if zh not in back.get(sec, {}):
                 sys.exit("re-read verification failed for glossary %s" % zh)
+        total = sum(len(back.get(s, {})) for s in GLOSS_SECTIONS)
         print("glossary: %d added, %d already present (left untouched), "
-              "%d total" % (added, skipped, len(g)))
+              "%d total" % (added, skipped, total))
 
     if "notes" in batch:
         n = load("notes.json", {})

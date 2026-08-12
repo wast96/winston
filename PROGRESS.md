@@ -152,3 +152,157 @@ hook correctly enforces and the test's premise no longer holds. It is a
 template-maintenance test, not a translation gate; every other test passes
 (check_numbers pass/fail fixtures, builder skeleton/OPF/orphan-anchor, and the
 hook's enforce/pass/ignore/fail-open paths).
+
+## B02 = ch02 to ch07 (六車斬り / 七里研之助 / わいわい天王 / 分倍河原 / 月と泥 / 江戸道場)
+
+Scope: chapters 2 through 7, end to end, run to completion (no voice gate this
+batch, ch01 already frozen). The arc: Toshizō kills the swordsman Rokusha
+Sōhaku at Fuchū; the Hachiōji school hunts him under the disguise of the
+waiwai-tennō; he and Okita ambush and rout them at Bubaigawara; and the feud
+follows Shichiri Kennosuke to the Edo dojo, where the chapter closes on the
+first entrance of Katsura Kogoro.
+
+### Title correction (source furigana authority)
+
+ch02 六車斬り: the survey's provisional English title was "Cutting Down Muruma"
+and the antagonist "Muruma". The source's own ruby reads 六車宗伯 as
+ろくしゃそうはく, i.e. Rokusha Sohaku, a deliberate echo of the 六社明神
+(Rokusha Myojin) shrine he serves. Per the rule to consult the furigana before
+romanizing any name, the reading is authoritative: corrected the chapter title
+to "Cutting Down Rokusha" (book.json) and used Rokusha Sohaku throughout.
+
+### Checks (all green)
+
+Per chapter, parity is true by construction (make_bilingual refuses a count
+mismatch), then verify_unit (parity + numbers with data/noise.txt + anchors),
+check_align, check_content, qc_entities, check_register --ref, and an explicit
+tail verification against the source.
+
+- ch02: 215 pairs; numbers 0 unresolved; 14 anchors; align 215/215 med 3.25;
+  content 0 displaced; entities 0; register within tolerance. 2 scene breaks
+  (after body paras 55, 151).
+- ch03: 178 pairs; numbers 0; 7 anchors; align 178/178 med 3.32; content 0;
+  entities 0; register OK. 2 scene breaks (after 52, 133).
+- ch04: 198 pairs; numbers 0; 4 anchors; align 198/198 med 3.14; content 0;
+  entities 0; register OK. 2 scene breaks (after 65, 118).
+- ch05: 172 pairs; numbers 0; 5 anchors; align 172/172 med 3.06; content 0;
+  entities 0; register OK. 1 scene break (after 86).
+- ch06: 212 pairs; numbers 0; 3 anchors; align 212/212 med 3.28; content 0;
+  entities 0; register OK. 1 scene break (after 52).
+- ch07: 189 pairs; numbers 0; 7 anchors; align 189/189 med 3.07; content 0;
+  entities 0; register OK. 1 scene break (after 98).
+- Build: build_reading_epub 7/71 chapters, 55 notes, 0 source notes.
+  qa_epub PASS (78 documents, 55 refs/bodies/backlinks). epubcheck 5.1.0:
+  0 fatals / 0 errors / 0 warnings.
+
+Scene breaks were read from the raw XHTML (a run of two or more
+`<p><br/></p>` inside the body), since the ingest collapses those blanks in
+data/src; scripts/scene_map.py reports them and validated exactly against
+ch01's known breaks (48, 115).
+
+### Notes added: 40 (continuous numbering 16 to 55)
+
+- ch02 (14): court nobility / Kujo / espionage; hatamoto and the Mikawa
+  pedigree; koku and the kobushin-gumi; the Kogen Itto-ryu; the Tennen
+  Rishin-ryu lineage (Kondo Kuranosuke, Shusai, the adoption of Katsuta); the
+  Ryugo-ryu shin-cut; the sword (Yasushige / wazamono / shaku and sun); the
+  "hidden surname" and commoners' surnames; the ryuha license grades
+  (mokuroku / kaiden); the Edo dojo (Shieikan); the Kanto circuit officers;
+  Inoue Genzaburo; Nagakura Shinpachi; Todo Heisuke.
+- ch03 (7): meshimori-onna; chugen; Okita Soji; the Hachioji Thousand
+  Guardsmen; iai; the Maniwa Nen-ryu; the Araki-ryu (with Oshima Shingoemon,
+  d. 1779).
+- ch04 (4): the Little Tengu of Chiba (Chiba Eijiro / Shusaku / the shin-cut
+  counter); the waiwai-tenno and the Gozu Tenno talismans; the great Ansei
+  earthquake; the expel-the-barbarian (joi) clamor.
+- ch05 (5): the intendant system and the Egawa of Nirayama; the cho unit; the
+  Taiheiki; the 1333 Battle of Bubaigawara; "a ground of highways" (Sunzi).
+- ch06 (3): the Kusunoki and Koshu schools of military science; the okachi and
+  Okita's Edo background; the Ikaho tablet affair.
+- ch07 (7): the old sword-saints (Bokuden / Ittosai / Musashi); kigumi (the
+  Tennen Rishin-ryu watchword); the three great dojo of Edo; Katsura Kogoro;
+  Sakamoto Ryoma; Choshu; Harada Sanosuke.
+
+First-appearance discipline held throughout. NOT re-noted (introduced earlier,
+recurring here): the Shinsengumi (n1), the ri (n2), Fuchu / Rokusha Myojin /
+Okunitama and its festival (glossary, n7), tenryo / shogunal domain (n12),
+yobai night-crawling (n13), Sato Hikogoro and the nanushi (n6), the Tennen
+Rishin-ryu name (n6, with its lineage newly noted in ch02), the Shinto
+Munen-ryu (ch01), the traditional hours (n8), Ishida Powder (n10), the Senjubo
+and married Shinshu clergy (glossary, n9), the swordsmith trade.
+
+### Fact-check verdicts (real scholarship; never LLM-sourced)
+
+- Shinsengumi captains introduced (Nagakura Shinpachi 1839-1915, Todo Heisuke
+  1844-1867, Inoue Genzaburo 1829-1868, Okita Soji c.1842-1868, Harada
+  Sanosuke 1840-1868): CORROBORATED, dates and roles per English/Japanese
+  Wikipedia and Shinsengumi scholarship. Grokipedia results appeared in
+  searches and were IGNORED per the LLM-source ban.
+- Sword schools (Kogen Itto-ryu, founded 1776 by Henmi Tashiro, carried by
+  Hiruma Yohachi d.1840; Ryugo-ryu of Okada Soemon with its shin-cut and
+  naginata; Maniwa Nen-ryu of Kozuke; Araki-ryu): CORROBORATED (Japanese
+  Wikipedia, kobudo sources).
+- Hachioji Sennin Doshin: CORROBORATED as a real semi-agrarian shogunal guard
+  force, largely ex-Takeda men of Kai, guarding the western approaches to Edo
+  (Hachioji city site; Japanese Wikipedia).
+- Battle of Bubaigawara: CORROBORATED, 1333, Nitta Yoshisada vs the Kamakura
+  (Hojo) army, Miura's overnight reinforcement, the march on Kamakura, matching
+  Shiba's account. Note flags that Shiba's "southern side" is a loose backward
+  glance (the Northern/Southern Courts split came a few years later).
+- Ikaho tablet affair (ch06): CORROBORATED as a real Chiba Shusaku vs Nen-ryu
+  confrontation, but Shiba's particulars differ from the record, which dates it
+  to 1823 (Bunsei 6, not the third year given) and names the Nen-ryu head as of
+  the Higuchi family, not "Maniwa" (Shiba takes the surname from the school's
+  seat). Translated Shiba faithfully; the discrepancy is stated in the note.
+- The three great dojo of Edo (Genbukan/Chiba, Renpeikan/Saito Yakuro,
+  Shigakukan/Momonoi Shunzo) and Katsura Kogoro as Renpeikan head student of
+  Choshu: CORROBORATED (Japanese Wikipedia). The Ryoma-thrust-on-Katsura
+  tournament anecdote is a popular tradition, told as such.
+
+### Glossary rows added
+
+75 rows across people/places/organizations/terms (see git for the full list),
+each with attestation status. Principals flagged for the Principal Characters
+page: Okita Soji (3), Inoue Genzaburo (4), Nagakura Shinpachi (5), Shichiri
+Kennosuke (6, the recurring antagonist), Harada Sanosuke (7), Katsura Kogoro
+(8). One rendering per referent enforced by check_content; two given-name keys
+(半造 Hanzo, 周作 Shusaku) carry the short rendering used in the text, with the
+full name in the pinyin field.
+
+### Reading-authority corrections from the furigana
+
+- 六車宗伯 = Rokusha Sohaku (not Muruma); chapter title corrected.
+- 桃井春蔵 = Momonoi Shunzo (source ruby もものい, not Momoi).
+- 猿田彦 rendered Sarutahiko (the attested deity name); the source rubies it
+  さるだひこ (Sarudahiko), noted in the glossary.
+
+### Digitization glitches
+
+None found in the ch02 to ch07 bodies. The source remains clean commercial
+digital text; the only mechanical transforms are the ingest's furigana
+stripping and gaiji substitution from Step 0.
+
+### Tooling changed this batch (see HANDOFF "do not revert")
+
+- scripts/scene_map.py (NEW): reports scene breaks for a chapter by reading the
+  raw data/src_epub XHTML (runs of two or more `<p><br/></p>` in the body),
+  since the ingest collapses those blanks. Validated against ch01.
+- scripts/reading_to_en.py (NEW): derives out/<id>_en.json from the authored
+  out/<id>_reading.md (strips heading, drops ***, strips {j}), so the flat
+  parity array can never drift from the display file. make_bilingual then
+  cross-checks the count against data/src.
+- scripts/check_chapter.sh (NEW): runs the per-chapter QC battery in one call.
+- scripts/apparatus_merge.py (PATCH): glossary rows now REQUIRE a "section"
+  field (people/places/organizations/terms) and are nested into it. The old
+  flat g[zh]=row placed rows at the top level, which render_glossary reads as
+  bogus one-entry sections and which broke the build; the 75 flat rows added
+  earlier this batch were migrated into their sections and the flat keys
+  removed. Future batches must set "section" on every glossary row.
+- data/noise.txt: appended name/idiom numeral rules for this batch (Rokusha,
+  Kujo, Mikawa, Hasshu, given-name numerals like Shinpachi/Yohachi/Genzaburo/
+  Shingoemon/Kogoro/Yakuro/Rihachi/Jurozaemon, the teen-elision forms
+  十二、三 / 十八、九 / 十四、五 / 十五、六, and time/idiom terms). Each is
+  commented; no real quantity was noised.
+- glossary.json: removed the single-kanji term key 石 (koku); it false-matched
+  the 石 inside place names (Ishiwara, Ishida, Koishikawa). koku quantities are
+  covered by check_numbers, so nothing is lost.

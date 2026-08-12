@@ -1,0 +1,50 @@
+{
+  "notes": {
+    "ch06": [
+      {
+        "anchor": "the Kusunoki school, that traces itself to Kusunoki Masashige",
+        "note": "Okita is teasing Toshizō by naming the two great traditions of Japanese military science (<i>gungaku</i>). The <i>Kusunoki-ryū</i> claimed descent from Kusunoki Masashige, the fourteenth-century commander famous for holding impossible positions by cunning against the odds; the <i>Kōshū-ryū</i> descended from the celebrated tactics of Takeda Shingen, the sixteenth-century warlord of Kai (Kōshū). To answer &#8216;the Hijikata school&#8217; is Toshizō&#8217;s dry way of saying his generalship is his own invention &#8212; which, the novel insists, it is."
+      },
+      {
+        "anchor": "a shogunal foot-guardsman posted in Edo",
+        "note": "The <i>okachi</i> were foot-samurai in direct shogunal service, a modest rank well below the mounted bannermen. Okita&#8217;s father held such a post in Edo &#8212; his family was formally attached to the Shirakawa domain in the north &#8212; so that Okita, though he passes as a masterless man, was a city child of the samurai class, which is why his tongue is so much quicker and more polished than the farm-bred Toshizō&#8217;s."
+      },
+      {
+        "anchor": "the biggest brawl since Ikaho",
+        "note": "This is the famous tablet affair at the Ikaho shrine in Kōzuke. As the passage recounts, Chiba Shūsaku, the rising founder of the Hokushin Ittō-ryū, meant to hang at the shrine a votive tablet carved with his new pupils&#8217; names; the old-established Nen-ryū of the province, seeing its following poached and its dignity slighted, mustered to stop him, and the two sides nearly came to a pitched battle before Shūsaku withdrew. The episode is genuine and well known. Shiba&#8217;s particulars differ from the documentary record, which puts the confrontation in 1823 (the sixth year of Bunsei, not the third given here) and names the Nen-ryū head as of the Higuchi family, not &#8216;Maniwa&#8217; &#8212; Shiba takes the surname from Maniwa, the school&#8217;s seat. The parallel with the present feud, country school against country school, is the point."
+      }
+    ]
+  },
+  "glossary": {
+    "楠正成": {
+      "en": "Kusunoki Masashige",
+      "pinyin": "Kusunoki Masashige",
+      "status": "attested",
+      "note": "The fourteenth-century loyalist commander, byword for cunning generalship against the odds; claimed founder of the Kusunoki school of military science."
+    },
+    "武田信玄": {
+      "en": "Takeda Shingen",
+      "pinyin": "Takeda Shingen",
+      "status": "attested",
+      "note": "The sixteenth-century warlord of Kai, whose tactics were handed down as the Kōshū school of military science."
+    },
+    "真庭十郎左衛門": {
+      "en": "Maniwa Jūrōzaemon",
+      "pinyin": "Maniwa Jūrōzaemon",
+      "status": "provisional",
+      "note": "As Shiba gives him, the head of the Nen-ryū house at Maniwa and Chiba Shūsaku's antagonist in the Ikaho affair. The historical head of the Maniwa Nen-ryū was of the Higuchi family; Shiba names him from the school's seat."
+    },
+    "深津": {
+      "en": "Fukatsu",
+      "pinyin": "Fukatsu",
+      "status": "provisional",
+      "note": "A pupil of the Kōgen Ittō-ryū, set to make fire during the ambush; a passing figure."
+    },
+    "伊香保": {
+      "en": "Ikaho",
+      "pinyin": "Ikaho",
+      "status": "attested",
+      "note": "A hot-spring town in Kōzuke (Jōshū), site of the shrine tablet affair between Chiba Shūsaku and the Nen-ryū."
+    }
+  }
+}

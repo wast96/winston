@@ -48,6 +48,258 @@
       "pinyin": "Kajikawa Keiji",
       "status": "provisional",
       "note": "A master of the Shintō Munen-ryū with a training hall at Sakuramachi in Kōfu; a minor figure. Reading of the given name uncertain; romanization mine."
+    },
+    "六車宗伯": {
+      "en": "Rokusha Sōhaku",
+      "pinyin": "Rokusha Sōhaku",
+      "status": "decided",
+      "note": "A swordsman of the Kōgen Ittō-ryū, deputy master at Fuchū, whom Toshizō kills in this chapter. The surname is read <i>Rokusha</i> on the source&#8217;s own furigana (ろくしゃそうはく), echoing the Rokusha Myōjin shrine he serves; hence the chapter title, &#8216;Cutting Down Rokusha.&#8217;"
+    },
+    "瀬木掃部": {
+      "en": "Segi Kamon",
+      "pinyin": "Segi Kamon",
+      "status": "provisional",
+      "note": "One of the hereditary priestly houses (<i>shake</i>) of the Rokusha Myōjin at Fuchū, in whose residence Rokusha Sōhaku lodged. Romanization mine."
+    },
+    "松平伊織": {
+      "en": "Matsudaira Iori",
+      "pinyin": "Matsudaira Iori",
+      "status": "provisional",
+      "note": "A hatamoto of eight hundred koku with a residence in Honjo, Edo; Osae&#8217;s late husband, married to her when she was seventeen. A minor figure; reading from the source&#8217;s furigana."
+    },
+    "近藤内蔵助": {
+      "en": "Kondō Kuranosuke",
+      "pinyin": "Kondō Kuranosuke",
+      "status": "attested",
+      "note": "A rōnin of Enshū, late-eighteenth-century founder of the Tennen Rishin-ryū."
+    },
+    "近藤周斎": {
+      "en": "Kondō Shūsai",
+      "pinyin": "Kondō Shūsuke / Shūsai",
+      "status": "attested",
+      "note": "Historical. Third head of the Tennen Rishin-ryū (personal name Shūsuke; in retirement, Shūsai), who adopted the farm boy Katsuta and made him Kondō Isami, his heir."
+    },
+    "井上源三郎": {
+      "en": "Inoue Genzaburō",
+      "pinyin": "Inoue Genzaburō",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 4,
+      "cast": "A steady older man of the Tama circle, from Hino, a Tennen Rishin-ryū fencer who follows Kondō to Kyoto and captains the Shinsengumi's Sixth Unit.",
+      "note": "Historical, 1829&#8211;1868. One of the founding Tama members of the Shinsengumi; killed at Toba-Fushimi."
+    },
+    "永倉新八": {
+      "en": "Nagakura Shinpachi",
+      "pinyin": "Nagakura Shinpachi",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 5,
+      "cast": "A house-guest at the Edo dōjō, a rōnin of Matsumae and one of the corps' great swordsmen; later captain of the Shinsengumi's Second Unit.",
+      "note": "Historical, 1839&#8211;1915. Held the full transmission of the Shintō Munen-ryū; survived the Restoration and left an inside memoir of the corps."
+    },
+    "藤堂平助": {
+      "en": "Tōdō Heisuke",
+      "pinyin": "Tōdō Heisuke",
+      "status": "attested",
+      "note": "Historical, 1844&#8211;1867. A house-guest at the Edo dōjō, of the Hokushin Ittō-ryū; later captain of the Shinsengumi&#8217;s Eighth Unit, killed at the Aburanokōji affair after joining Itō Kashitarō&#8217;s breakaway."
+    },
+    "七里研之助": {
+      "en": "Shichiri Kennosuke",
+      "pinyin": "Shichiri Kennosuke",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 6,
+      "cast": "A fair-skinned iai master with a mark below his right eye, deputy at the Hiruma hall; Toshizō's recurring nemesis, who hunts him for the killing of Rokusha.",
+      "note": "The chief personal antagonist of the novel's early and middle chapters. An iai master of the Araki-ryū, trained first in the Maniwa Nen-ryū; reading from the source's furigana (しちりけんのすけ)."
+    },
+    "沖田総司": {
+      "en": "Okita Sōji",
+      "pinyin": "Okita Sōji",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 3,
+      "cast": "A boyish prodigy of the Tennen Rishin-ryū, raised at Kondō's Edo hall; the corps's finest swordsman, later captain of the First Unit.",
+      "note": "Historical, about 1842&#8211;1868. Died young of consumption; one of the most beloved figures of the Shinsengumi legend."
+    },
+    "お咲": {
+      "en": "Osaki",
+      "pinyin": "Osaki",
+      "status": "provisional",
+      "note": "A meshimori-onna at the Jōshūya inn in Fuda, a thin-lipped Jōshū woman; a minor figure. Romanization mine."
+    },
+    "理兵衛": {
+      "en": "Rihei",
+      "pinyin": "Rihei",
+      "status": "provisional",
+      "note": "Keeper of the Jōshūya inn at Fuda, the Tennen Rishin-ryū men's regular lodging. Romanization mine."
+    },
+    "善海": {
+      "en": "Zenkai",
+      "pinyin": "Zenkai",
+      "status": "provisional",
+      "note": "Abbot of the Senjubō, the Shinshū temple in Hachiōji where Toshizō lodged in his peddling days. Romanization mine."
+    },
+    "大島新五右衛門": {
+      "en": "Ōshima Shingoemon",
+      "pinyin": "Ōshima Shingoemon",
+      "status": "attested",
+      "note": "An eighteenth-century rural samurai of Kōzuke (died 1779) famous for a trick-drawing feat of the Araki-ryū iai."
+    },
+    "半造": {
+      "en": "Hanzō",
+      "pinyin": "Hiruma Hanzō",
+      "status": "attested",
+      "note": "Son of Hiruma Yohachi and head, from a hall in Senninmachi at Hachiōji, of the Kōgen Ittō-ryū; married to Sen, daughter of the abbot of the Senjubō."
+    },
+    "辰吉": {
+      "en": "Tatsukichi",
+      "pinyin": "Tatsukichi",
+      "status": "provisional",
+      "note": "A young man of Renjaku who peddled horse-sandals at Hachiōji; a passing figure."
+    },
+    "石翠": {
+      "en": "Sekisui",
+      "pinyin": "Sekisui",
+      "status": "attested",
+      "note": "Toshizō's eldest brother, blind from birth, who gave up the succession and lived by his arts &#8212; a shrewd, polished man. A historical figure (the eldest Hijikata brother); Sekisui is his elegant by-name."
+    },
+    "喜六": {
+      "en": "Kiroku",
+      "pinyin": "Kiroku",
+      "status": "attested",
+      "note": "A farmer of Ishida village, Toshizō's eldest surviving brother and head of the house."
+    },
+    "千葉栄次郎": {
+      "en": "Chiba Eijirō",
+      "pinyin": "Chiba Eijirō",
+      "status": "attested",
+      "note": "Historical, 1833&#8211;1862. Second son of Chiba Shūsaku and a swordsman prodigy of the Hokushin Ittō-ryū, nicknamed the Little Tengu of Chiba."
+    },
+    "周作": {
+      "en": "Shūsaku",
+      "pinyin": "Chiba Shūsaku",
+      "status": "attested",
+      "note": "Founder of the Hokushin Ittō-ryū and of the Genbukan hall in Edo; father of Eijirō. One of the great sword-reformers of the age."
+    },
+    "岡田総右衛門": {
+      "en": "Okada Sōemon",
+      "pinyin": "Okada Sōemon Masayoshi",
+      "status": "attested",
+      "note": "Founder of the Ryūgō-ryū of Warabi, the shin-cutting country school."
+    },
+    "権": {
+      "en": "Gon",
+      "pinyin": "Gon",
+      "status": "provisional",
+      "note": "An old temple servant of the Shōkōin, once rescued by Toshizō, who serves as his scout. Romanization from the source's furigana."
+    },
+    "おのぶ": {
+      "en": "Onobu",
+      "pinyin": "Onobu",
+      "status": "provisional",
+      "note": "Toshizō's elder sister, wife of Satō Hikogorō."
+    },
+    "新田義貞": {
+      "en": "Nitta Yoshisada",
+      "pinyin": "Nitta Yoshisada",
+      "status": "attested",
+      "note": "The fourteenth-century commander who, for the emperor Go-Daigo, destroyed the Kamakura shogunate; victor at Bubaigawara in 1333."
+    },
+    "三浦義勝": {
+      "en": "Miura Yoshikatsu",
+      "pinyin": "Miura Yoshikatsu",
+      "status": "attested",
+      "note": "A Sagami warrior whose reinforcements turned the Battle of Bubaigawara for Nitta."
+    },
+    "真庭十郎左衛門": {
+      "en": "Maniwa Jūrōzaemon",
+      "pinyin": "Maniwa Jūrōzaemon",
+      "status": "provisional",
+      "note": "As Shiba gives him, the head of the Nen-ryū house at Maniwa and Chiba Shūsaku's antagonist in the Ikaho affair. The historical head of the Maniwa Nen-ryū was of the Higuchi family; Shiba names him from the school's seat."
+    },
+    "深津": {
+      "en": "Fukatsu",
+      "pinyin": "Fukatsu",
+      "status": "provisional",
+      "note": "A pupil of the Kōgen Ittō-ryū, set to make fire during the ambush; a passing figure."
+    },
+    "桂小五郎": {
+      "en": "Katsura Kogorō",
+      "pinyin": "Katsura Kogorō",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 8,
+      "cast": "A Chōshū swordsman, head student of the Renpeikan, blessed in birth, learning, and skill; later, as Kido Takayoshi, an architect of the Meiji Restoration. Toshizō's opposite in every advantage.",
+      "note": "Historical, 1833&#8211;1877. Later known as Kido Takayoshi, one of the leaders of the Restoration."
+    },
+    "原田左之助": {
+      "en": "Harada Sanosuke",
+      "pinyin": "Harada Sanosuke",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 7,
+      "cast": "A house-guest at the Edo dōjō, a hot-blooded spearman of Iyo; later a captain of the Shinsengumi.",
+      "note": "Historical, 1840&#8211;1868. A spearman of the Hōzōin line; died in the fighting around Edo."
+    },
+    "坂本竜馬": {
+      "en": "Sakamoto Ryōma",
+      "pinyin": "Sakamoto Ryōma",
+      "status": "attested",
+      "note": "Historical, 1836&#8211;1867. Of Tosa, a Hokushin Ittō-ryū swordsman of the Chiba hall; later the great broker of the Restoration, assassinated in 1867."
+    },
+    "斎藤弥九郎": {
+      "en": "Saitō Yakurō",
+      "pinyin": "Saitō Yakurō",
+      "status": "attested",
+      "note": "Master of the Renpeikan, the Shintō Munen-ryū hall reckoned one of the three great dōjō of Edo; Kondō's source of borrowed swordsmen."
+    },
+    "桃井春蔵": {
+      "en": "Momonoi Shunzō",
+      "pinyin": "Momonoi Shunzō",
+      "status": "attested",
+      "note": "Master of the Shigakukan, one of the three great dōjō of Edo. Reading from the source's furigana (もものい)."
+    },
+    "塚原卜伝": {
+      "en": "Tsukahara Bokuden",
+      "pinyin": "Tsukahara Bokuden",
+      "status": "attested",
+      "note": "A sword-saint of the sixteenth century."
+    },
+    "伊藤一刀斎": {
+      "en": "Itō Ittōsai",
+      "pinyin": "Itō Ittōsai",
+      "status": "attested",
+      "note": "Founder of the Ittō-ryū line of swordsmanship."
+    },
+    "宮本武蔵": {
+      "en": "Miyamoto Musashi",
+      "pinyin": "Miyamoto Musashi",
+      "status": "attested",
+      "note": "The famous seventeenth-century duelist, author of The Book of Five Rings."
+    },
+    "おつね": {
+      "en": "Otsune",
+      "pinyin": "Otsune",
+      "status": "provisional",
+      "note": "Kondō Isami's wife, a silent, gloomy woman and, by Toshizō's account, a poor cook."
+    },
+    "楠正成": {
+      "en": "Kusunoki Masashige",
+      "pinyin": "Kusunoki Masashige",
+      "status": "attested",
+      "note": "The fourteenth-century loyalist commander, byword for cunning generalship against the odds; claimed founder of the Kusunoki school of military science."
+    },
+    "武田信玄": {
+      "en": "Takeda Shingen",
+      "pinyin": "Takeda Shingen",
+      "status": "attested",
+      "note": "The sixteenth-century warlord of Kai, whose tactics were handed down as the Kōshū school of military science."
+    },
+    "江川": {
+      "en": "the Egawa",
+      "pinyin": "Egawa",
+      "status": "attested",
+      "note": "The hereditary intendant house at Nirayama, administering shogunal land."
     }
   },
   "places": {
@@ -92,6 +344,126 @@
       "pinyin": "Senjubō",
       "status": "provisional",
       "note": "The Shinshū temple in Hachiōji of the winter episode. Reading from the source's own furigana; romanization mine."
+    },
+    "蕨": {
+      "en": "Warabi",
+      "pinyin": "Warabi",
+      "status": "attested",
+      "note": "A post-town just north of Edo, in present-day Saitama; base of the Ryūgō-ryū."
+    },
+    "秩父": {
+      "en": "Chichibu",
+      "pinyin": "Chichibu",
+      "status": "attested",
+      "note": "The hill country of western Musashi; home ground of the Kōgen Ittō-ryū."
+    },
+    "本所": {
+      "en": "Honjo",
+      "pinyin": "Honjo",
+      "status": "attested",
+      "note": "A district on the east bank of the Sumida in Edo."
+    },
+    "小石川小日向柳町": {
+      "en": "Yanagichō in Kohinata, Koishikawa",
+      "pinyin": "Koishikawa Kohinata Yanagichō",
+      "status": "attested",
+      "note": "The Edo neighborhood where Kondō&#8217;s training hall (the Shieikan) stood."
+    },
+    "上州屋": {
+      "en": "the Jōshūya",
+      "pinyin": "Jōshūya",
+      "status": "provisional",
+      "note": "Rihei's inn at the Fuda station on the Kōshū Highway."
+    },
+    "布田": {
+      "en": "Fuda",
+      "pinyin": "Fuda",
+      "status": "attested",
+      "note": "The central station of the Fuda Five Stations on the Kōshū Highway, in present-day Chōfu."
+    },
+    "内藤新宿": {
+      "en": "Naitō Shinjuku",
+      "pinyin": "Naitō Shinjuku",
+      "status": "attested",
+      "note": "The first post-station out of Edo on the Kōshū Highway."
+    },
+    "上石原": {
+      "en": "Kamiishiwara",
+      "pinyin": "Kamiishiwara",
+      "status": "attested",
+      "note": "A village of the Fuda Five Stations on the Kōshū Highway (now part of Chōfu); Kondō Isami's birthplace."
+    },
+    "連雀": {
+      "en": "Renjaku",
+      "pinyin": "Renjaku",
+      "status": "attested",
+      "note": "A village of the Tama country with no fencing hall, where Toshizō taught in the headman's miso storehouse."
+    },
+    "小仏峠": {
+      "en": "Kobotoke Pass",
+      "pinyin": "Kobotoke Tōge",
+      "status": "attested",
+      "note": "The pass west of Hachiōji by which the Kōshū Highway crosses into Kai."
+    },
+    "千人町": {
+      "en": "Senninmachi",
+      "pinyin": "Senninmachi",
+      "status": "attested",
+      "note": "The Hachiōji quarter named for the Thousand Guardsmen settled there; site of the Hiruma hall."
+    },
+    "馬庭": {
+      "en": "Maniwa",
+      "pinyin": "Maniwa",
+      "status": "attested",
+      "note": "The seat of the Maniwa Nen-ryū in Kōzuke (Jōshū), present-day Gunma."
+    },
+    "分倍河原": {
+      "en": "Bubaigawara",
+      "pinyin": "Bubaigawara",
+      "status": "attested",
+      "note": "A district on the old Tama-River flats near Fuchū, a road-junction long fought over; site of the 1333 battle and of the duel of this chapter."
+    },
+    "分倍橋": {
+      "en": "Bubai Bridge",
+      "pinyin": "Bubai-bashi",
+      "status": "attested",
+      "note": "A small bridge south of Bubaigawara, the appointed place of the fight."
+    },
+    "正光院": {
+      "en": "the Shōkōin",
+      "pinyin": "Shōkōin",
+      "status": "attested",
+      "note": "A field-temple with a graveyard near Bubaigawara, where Toshizō sets up his command post."
+    },
+    "韮山": {
+      "en": "Nirayama",
+      "pinyin": "Nirayama",
+      "status": "attested",
+      "note": "A seat in Izu of the Egawa house, hereditary shogunal intendants."
+    },
+    "伊香保": {
+      "en": "Ikaho",
+      "pinyin": "Ikaho",
+      "status": "attested",
+      "note": "A hot-spring town in Kōzuke (Jōshū), site of the shrine tablet affair between Chiba Shūsaku and the Nen-ryū."
+    },
+    "長州": {
+      "en": "Chōshū",
+      "pinyin": "Chōshū",
+      "status": "attested",
+      "note": "The Mōri domain of western Honshū, later the chief power of the anti-shogunal movement and the Shinsengumi's great enemy."
+    },
+    "玄武館": {
+      "en": "the Genbukan",
+      "pinyin": "Genbukan",
+      "status": "attested",
+      "note": "Chiba Shūsaku's Hokushin Ittō-ryū hall in Edo, greatest of the three great dōjō."
+    },
+    "三番町": {
+      "en": "Sanbanchō",
+      "pinyin": "Sanbanchō",
+      "status": "attested",
+      "note": "An Edo quarter to which the Saitō hall (Renpeikan) moved after a fire."
     }
   },
   "organizations": {
@@ -100,6 +472,48 @@
       "pinyin": "Shinsengumi",
       "status": "attested",
       "note": "The 'Newly Selected Corps,' the shogunate's Kyoto police militia of swordsmen, 1863&#8211;1869; the subject of the novel."
+    },
+    "天然理心流": {
+      "en": "the Tennen Rishin-ryū",
+      "pinyin": "Tennen Rishin-ryū",
+      "status": "attested",
+      "note": "The country school of swordsmanship, founded by Kondō Kuranosuke and headed in this book by Kondō Isami; the school of Hijikata, Okita, and the Tama men. Known for overwhelming an opponent&#8217;s spirit and for close, practical fighting rather than polish."
+    },
+    "甲源一刀流": {
+      "en": "the Kōgen Ittō-ryū",
+      "pinyin": "Kōgen Ittō-ryū",
+      "status": "attested",
+      "note": "A sword school of the Chichibu country, founded 1776 by Henmi Tashirō; the school of Rokusha Sōhaku and, along the Kōshū Highway, the chief rival of the Tennen Rishin-ryū."
+    },
+    "柳剛流": {
+      "en": "the Ryūgō-ryū",
+      "pinyin": "Ryūgō-ryū",
+      "status": "attested",
+      "note": "A school founded by Okada Sōemon, based at Warabi, notorious for shin-cutting strikes and for teaching the glaive alongside the sword."
+    },
+    "北辰一刀流": {
+      "en": "the Hokushin Ittō-ryū",
+      "pinyin": "Hokushin Ittō-ryū",
+      "status": "attested",
+      "note": "The great Edo sword school of Chiba Shūsaku, at the height of its fame in these years; Tōdō Heisuke&#8217;s school."
+    },
+    "神道無念流": {
+      "en": "the Shintō Munen-ryū",
+      "pinyin": "Shintō Munen-ryū",
+      "status": "attested",
+      "note": "A widely practiced Edo sword school; Nagakura Shinpachi held its full transmission."
+    },
+    "荒木流": {
+      "en": "the Araki-ryū",
+      "pinyin": "Araki-ryū",
+      "status": "attested",
+      "note": "A composite martial school of Kōzuke, taught iai among other arts; Shichiri Kennosuke's iai line."
+    },
+    "念流": {
+      "en": "the Nen-ryū",
+      "pinyin": "Nen-ryū",
+      "status": "attested",
+      "note": "Here the Maniwa Nen-ryū of Kōzuke, one of the oldest surviving sword schools; where Shichiri first trained."
     }
   },
   "terms": {
@@ -120,288 +534,54 @@
       "pinyin": "nanushi",
       "status": "decided",
       "note": "The headman of a village, lowest office of Tokugawa rural administration: a leading farmer, not a samurai."
+    },
+    "旗本": {
+      "en": "hatamoto",
+      "pinyin": "hatamoto",
+      "status": "decided",
+      "note": "A direct bannerman of the shogun, with the right of audience; a samurai of the Tokugawa house itself, ranked above the ordinary domain retainer."
+    },
+    "居合": {
+      "en": "iai",
+      "pinyin": "iai",
+      "status": "decided",
+      "note": "The art of drawing the sword and cutting in a single motion; a specialty distinct from ordinary fencing."
+    },
+    "代官": {
+      "en": "intendant",
+      "pinyin": "daikan",
+      "status": "decided",
+      "note": "A shogunal officer administering a district of the Tokugawa house's own lands in place of a resident lord."
+    },
+    "衢地": {
+      "en": "a ground of highways",
+      "pinyin": "kuchi",
+      "status": "decided",
+      "note": "From Sunzi's Art of War: a place where the roads of several regions meet, from which armies are readily moved."
+    },
+    "気組": {
+      "en": "fighting spirit",
+      "pinyin": "kigumi",
+      "status": "decided",
+      "note": "The marshalling of spirit to overwhelm an opponent; the watchword of the Tennen Rishin-ryū."
+    },
+    "太平記": {
+      "en": "the Taiheiki",
+      "pinyin": "Taiheiki",
+      "status": "attested",
+      "note": "The fourteenth-century war-chronicle of the wars of the Northern and Southern Courts, a storytellers' staple."
+    },
+    "猿田彦": {
+      "en": "Sarutahiko",
+      "pinyin": "Sarutahiko",
+      "status": "attested",
+      "note": "The guiding deity of Japanese myth, shown as a long-nosed, red-faced figure; his mask (rubied here in the source as <i>Sarudahiko</i>) was one of those the waiwai-tennō wore."
+    },
+    "牛頭天王": {
+      "en": "Gozu Tennō",
+      "pinyin": "Gozu Tennō",
+      "status": "attested",
+      "note": "The 'Ox-Head Heavenly King,' plague-warding deity of the Gion and Tennō shrines, whose talismans the waiwai-tennō sold."
     }
-  },
-  "六車宗伯": {
-    "en": "Rokusha Sōhaku",
-    "pinyin": "Rokusha Sōhaku",
-    "status": "decided",
-    "note": "A swordsman of the Kōgen Ittō-ryū, deputy master at Fuchū, whom Toshizō kills in this chapter. The surname is read <i>Rokusha</i> on the source&#8217;s own furigana (ろくしゃそうはく), echoing the Rokusha Myōjin shrine he serves; hence the chapter title, &#8216;Cutting Down Rokusha.&#8217;"
-  },
-  "瀬木掃部": {
-    "en": "Segi Kamon",
-    "pinyin": "Segi Kamon",
-    "status": "provisional",
-    "note": "One of the hereditary priestly houses (<i>shake</i>) of the Rokusha Myōjin at Fuchū, in whose residence Rokusha Sōhaku lodged. Romanization mine."
-  },
-  "松平伊織": {
-    "en": "Matsudaira Iori",
-    "pinyin": "Matsudaira Iori",
-    "status": "provisional",
-    "note": "A hatamoto of eight hundred koku with a residence in Honjo, Edo; Osae&#8217;s late husband, married to her when she was seventeen. A minor figure; reading from the source&#8217;s furigana."
-  },
-  "近藤内蔵助": {
-    "en": "Kondō Kuranosuke",
-    "pinyin": "Kondō Kuranosuke",
-    "status": "attested",
-    "note": "A rōnin of Enshū, late-eighteenth-century founder of the Tennen Rishin-ryū."
-  },
-  "近藤周斎": {
-    "en": "Kondō Shūsai",
-    "pinyin": "Kondō Shūsuke / Shūsai",
-    "status": "attested",
-    "note": "Historical. Third head of the Tennen Rishin-ryū (personal name Shūsuke; in retirement, Shūsai), who adopted the farm boy Katsuta and made him Kondō Isami, his heir."
-  },
-  "井上源三郎": {
-    "en": "Inoue Genzaburō",
-    "pinyin": "Inoue Genzaburō",
-    "status": "attested",
-    "principal": true,
-    "cast_order": 4,
-    "cast": "A steady older man of the Tama circle, from Hino, a Tennen Rishin-ryū fencer who follows Kondō to Kyoto and captains the Shinsengumi's Sixth Unit.",
-    "note": "Historical, 1829&#8211;1868. One of the founding Tama members of the Shinsengumi; killed at Toba-Fushimi."
-  },
-  "永倉新八": {
-    "en": "Nagakura Shinpachi",
-    "pinyin": "Nagakura Shinpachi",
-    "status": "attested",
-    "principal": true,
-    "cast_order": 5,
-    "cast": "A house-guest at the Edo dōjō, a rōnin of Matsumae and one of the corps' great swordsmen; later captain of the Shinsengumi's Second Unit.",
-    "note": "Historical, 1839&#8211;1915. Held the full transmission of the Shintō Munen-ryū; survived the Restoration and left an inside memoir of the corps."
-  },
-  "藤堂平助": {
-    "en": "Tōdō Heisuke",
-    "pinyin": "Tōdō Heisuke",
-    "status": "attested",
-    "note": "Historical, 1844&#8211;1867. A house-guest at the Edo dōjō, of the Hokushin Ittō-ryū; later captain of the Shinsengumi&#8217;s Eighth Unit, killed at the Aburanokōji affair after joining Itō Kashitarō&#8217;s breakaway."
-  },
-  "天然理心流": {
-    "en": "the Tennen Rishin-ryū",
-    "pinyin": "Tennen Rishin-ryū",
-    "status": "attested",
-    "note": "The country school of swordsmanship, founded by Kondō Kuranosuke and headed in this book by Kondō Isami; the school of Hijikata, Okita, and the Tama men. Known for overwhelming an opponent&#8217;s spirit and for close, practical fighting rather than polish."
-  },
-  "甲源一刀流": {
-    "en": "the Kōgen Ittō-ryū",
-    "pinyin": "Kōgen Ittō-ryū",
-    "status": "attested",
-    "note": "A sword school of the Chichibu country, founded 1776 by Henmi Tashirō; the school of Rokusha Sōhaku and, along the Kōshū Highway, the chief rival of the Tennen Rishin-ryū."
-  },
-  "柳剛流": {
-    "en": "the Ryūgō-ryū",
-    "pinyin": "Ryūgō-ryū",
-    "status": "attested",
-    "note": "A school founded by Okada Sōemon, based at Warabi, notorious for shin-cutting strikes and for teaching the glaive alongside the sword."
-  },
-  "北辰一刀流": {
-    "en": "the Hokushin Ittō-ryū",
-    "pinyin": "Hokushin Ittō-ryū",
-    "status": "attested",
-    "note": "The great Edo sword school of Chiba Shūsaku, at the height of its fame in these years; Tōdō Heisuke&#8217;s school."
-  },
-  "神道無念流": {
-    "en": "the Shintō Munen-ryū",
-    "pinyin": "Shintō Munen-ryū",
-    "status": "attested",
-    "note": "A widely practiced Edo sword school; Nagakura Shinpachi held its full transmission."
-  },
-  "旗本": {
-    "en": "hatamoto",
-    "pinyin": "hatamoto",
-    "status": "decided",
-    "note": "A direct bannerman of the shogun, with the right of audience; a samurai of the Tokugawa house itself, ranked above the ordinary domain retainer."
-  },
-  "石": {
-    "en": "koku",
-    "pinyin": "koku",
-    "status": "decided",
-    "note": "A measure of rice, about 180 litres, reckoned a year&#8217;s eating for one person; the unit in which samurai stipends and domain revenues were counted."
-  },
-  "蕨": {
-    "en": "Warabi",
-    "pinyin": "Warabi",
-    "status": "attested",
-    "note": "A post-town just north of Edo, in present-day Saitama; base of the Ryūgō-ryū."
-  },
-  "秩父": {
-    "en": "Chichibu",
-    "pinyin": "Chichibu",
-    "status": "attested",
-    "note": "The hill country of western Musashi; home ground of the Kōgen Ittō-ryū."
-  },
-  "本所": {
-    "en": "Honjo",
-    "pinyin": "Honjo",
-    "status": "attested",
-    "note": "A district on the east bank of the Sumida in Edo."
-  },
-  "小石川小日向柳町": {
-    "en": "Yanagichō in Kohinata, Koishikawa",
-    "pinyin": "Koishikawa Kohinata Yanagichō",
-    "status": "attested",
-    "note": "The Edo neighborhood where Kondō&#8217;s training hall (the Shieikan) stood."
-  },
-  "七里研之助": {
-    "en": "Shichiri Kennosuke",
-    "pinyin": "Shichiri Kennosuke",
-    "status": "decided",
-    "principal": true,
-    "cast_order": 6,
-    "cast": "A fair-skinned iai master with a mark below his right eye, deputy at the Hiruma hall; Toshizō's recurring nemesis, who hunts him for the killing of Rokusha.",
-    "note": "The chief personal antagonist of the novel's early and middle chapters. An iai master of the Araki-ryū, trained first in the Maniwa Nen-ryū; reading from the source's furigana (しちりけんのすけ)."
-  },
-  "沖田総司": {
-    "en": "Okita Sōji",
-    "pinyin": "Okita Sōji",
-    "status": "attested",
-    "principal": true,
-    "cast_order": 3,
-    "cast": "A boyish prodigy of the Tennen Rishin-ryū, raised at Kondō's Edo hall; the corps's finest swordsman, later captain of the First Unit.",
-    "note": "Historical, about 1842&#8211;1868. Died young of consumption; one of the most beloved figures of the Shinsengumi legend."
-  },
-  "お咲": {
-    "en": "Osaki",
-    "pinyin": "Osaki",
-    "status": "provisional",
-    "note": "A meshimori-onna at the Jōshūya inn in Fuda, a thin-lipped Jōshū woman; a minor figure. Romanization mine."
-  },
-  "理兵衛": {
-    "en": "Rihei",
-    "pinyin": "Rihei",
-    "status": "provisional",
-    "note": "Keeper of the Jōshūya inn at Fuda, the Tennen Rishin-ryū men's regular lodging. Romanization mine."
-  },
-  "上州屋": {
-    "en": "the Jōshūya",
-    "pinyin": "Jōshūya",
-    "status": "provisional",
-    "note": "Rihei's inn at the Fuda station on the Kōshū Highway."
-  },
-  "善海": {
-    "en": "Zenkai",
-    "pinyin": "Zenkai",
-    "status": "provisional",
-    "note": "Abbot of the Senjubō, the Shinshū temple in Hachiōji where Toshizō lodged in his peddling days. Romanization mine."
-  },
-  "大島新五右衛門": {
-    "en": "Ōshima Shingoemon",
-    "pinyin": "Ōshima Shingoemon",
-    "status": "attested",
-    "note": "An eighteenth-century rural samurai of Kōzuke (died 1779) famous for a trick-drawing feat of the Araki-ryū iai."
-  },
-  "半造": {
-    "en": "Hiruma Hanzō",
-    "pinyin": "Hiruma Hanzō",
-    "status": "attested",
-    "note": "Son of Hiruma Yohachi and head, from a hall in Senninmachi at Hachiōji, of the Kōgen Ittō-ryū; married to Sen, daughter of the abbot of the Senjubō."
-  },
-  "辰吉": {
-    "en": "Tatsukichi",
-    "pinyin": "Tatsukichi",
-    "status": "provisional",
-    "note": "A young man of Renjaku who peddled horse-sandals at Hachiōji; a passing figure."
-  },
-  "布田": {
-    "en": "Fuda",
-    "pinyin": "Fuda",
-    "status": "attested",
-    "note": "The central station of the Fuda Five Stations on the Kōshū Highway, in present-day Chōfu."
-  },
-  "内藤新宿": {
-    "en": "Naitō Shinjuku",
-    "pinyin": "Naitō Shinjuku",
-    "status": "attested",
-    "note": "The first post-station out of Edo on the Kōshū Highway."
-  },
-  "上石原": {
-    "en": "Kamiishiwara",
-    "pinyin": "Kamiishiwara",
-    "status": "attested",
-    "note": "A village of the Fuda Five Stations on the Kōshū Highway (now part of Chōfu); Kondō Isami's birthplace."
-  },
-  "連雀": {
-    "en": "Renjaku",
-    "pinyin": "Renjaku",
-    "status": "attested",
-    "note": "A village of the Tama country with no fencing hall, where Toshizō taught in the headman's miso storehouse."
-  },
-  "小仏峠": {
-    "en": "Kobotoke Pass",
-    "pinyin": "Kobotoke Tōge",
-    "status": "attested",
-    "note": "The pass west of Hachiōji by which the Kōshū Highway crosses into Kai."
-  },
-  "千人町": {
-    "en": "Senninmachi",
-    "pinyin": "Senninmachi",
-    "status": "attested",
-    "note": "The Hachiōji quarter named for the Thousand Guardsmen settled there; site of the Hiruma hall."
-  },
-  "荒木流": {
-    "en": "the Araki-ryū",
-    "pinyin": "Araki-ryū",
-    "status": "attested",
-    "note": "A composite martial school of Kōzuke, taught iai among other arts; Shichiri Kennosuke's iai line."
-  },
-  "念流": {
-    "en": "the Nen-ryū",
-    "pinyin": "Nen-ryū",
-    "status": "attested",
-    "note": "Here the Maniwa Nen-ryū of Kōzuke, one of the oldest surviving sword schools; where Shichiri first trained."
-  },
-  "馬庭": {
-    "en": "Maniwa",
-    "pinyin": "Maniwa",
-    "status": "attested",
-    "note": "The seat of the Maniwa Nen-ryū in Kōzuke (Jōshū), present-day Gunma."
-  },
-  "居合": {
-    "en": "iai",
-    "pinyin": "iai",
-    "status": "decided",
-    "note": "The art of drawing the sword and cutting in a single motion; a specialty distinct from ordinary fencing."
-  },
-  "石翠": {
-    "en": "Sekisui",
-    "pinyin": "Sekisui",
-    "status": "attested",
-    "note": "Toshizō's eldest brother, blind from birth, who gave up the succession and lived by his arts &#8212; a shrewd, polished man. A historical figure (the eldest Hijikata brother); Sekisui is his elegant by-name."
-  },
-  "喜六": {
-    "en": "Kiroku",
-    "pinyin": "Kiroku",
-    "status": "attested",
-    "note": "A farmer of Ishida village, Toshizō's eldest surviving brother and head of the house."
-  },
-  "千葉栄次郎": {
-    "en": "Chiba Eijirō",
-    "pinyin": "Chiba Eijirō",
-    "status": "attested",
-    "note": "Historical, 1833&#8211;1862. Second son of Chiba Shūsaku and a swordsman prodigy of the Hokushin Ittō-ryū, nicknamed the Little Tengu of Chiba."
-  },
-  "周作": {
-    "en": "Chiba Shūsaku",
-    "pinyin": "Chiba Shūsaku",
-    "status": "attested",
-    "note": "Founder of the Hokushin Ittō-ryū and of the Genbukan hall in Edo; father of Eijirō. One of the great sword-reformers of the age."
-  },
-  "岡田総右衛門": {
-    "en": "Okada Sōemon",
-    "pinyin": "Okada Sōemon Masayoshi",
-    "status": "attested",
-    "note": "Founder of the Ryūgō-ryū of Warabi, the shin-cutting country school."
-  },
-  "猿田彦": {
-    "en": "Sarutahiko",
-    "pinyin": "Sarutahiko",
-    "status": "attested",
-    "note": "The guiding deity of Japanese myth, shown as a long-nosed, red-faced figure; his mask (rubied here in the source as <i>Sarudahiko</i>) was one of those the waiwai-tennō wore."
-  },
-  "牛頭天王": {
-    "en": "Gozu Tennō",
-    "pinyin": "Gozu Tennō",
-    "status": "attested",
-    "note": "The 'Ox-Head Heavenly King,' plague-warding deity of the Gion and Tennō shrines, whose talismans the waiwai-tennō sold."
   }
 }

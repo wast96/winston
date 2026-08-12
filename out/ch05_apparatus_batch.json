@@ -1,0 +1,100 @@
+{
+  "notes": {
+    "ch05": [
+      {
+        "anchor": "the Nirayama intendant in Izu",
+        "note": "A <i>daikan</i> (rendered &#8216;intendant&#8217;) was a shogunal officer who administered a district of the Tokugawa house&#8217;s own lands &#8212; collecting the tax, keeping the peace, judging suits &#8212; in place of a resident lord. Because the Tama country was such land, it answered not to a daimyō but to these officials, among them the Egawa house, hereditary intendants at Nirayama in Izu, a famous and capable line. Their light hand, the narrator argues, is why the district bred so many independent, sword-bearing farmers."
+      },
+      {
+        "anchor": "some fifteen or sixteen chō",
+        "note": "A <i>chō</i> was a measure of distance of about 109 metres, some 120 yards; thirty-six chō made one <i>ri</i>. Fifteen or sixteen chō is thus rather over a mile."
+      },
+      {
+        "anchor": "the Taiheiki",
+        "note": "The <i>Taiheiki</i> (&#8216;Chronicle of Great Peace&#8217;) is a sprawling fourteenth-century war-tale of the wars between the Northern and Southern Courts, long a staple of the professional storytellers; the <i>Sangokushi</i> that Okita names beside it is the Chinese <i>Romance of the Three Kingdoms</i>. That the variety-hall audiences had lately filled with samurai, and the reciters turned to battle-chronicles to suit them, is Shiba&#8217;s quiet index of a country drifting toward war."
+      },
+      {
+        "anchor": "the Battle of Bubaigawara",
+        "note": "A real battle, fought here in 1333 during the war that brought down the Kamakura shogunate. Nitta Yoshisada, risen for the emperor Go-Daigo against the ruling Hōjō, was checked at Bubaigawara by the Kamakura army, fell back to Horikane, and, reinforced overnight by Miura Yoshikatsu of Sagami, broke the shogunal host the next day and marched on to take Kamakura itself. (Shiba&#8217;s &#8216;southern side&#8217; is a loose backward glance; the split of Northern and Southern Courts came a few years later.) The point for the chapter is the ground: a place shaped for battle, which Toshizō is about to read like a general."
+      },
+      {
+        "anchor": "a ground of highways",
+        "note": "The term is <i>kuchi</i>, taken from the ancient Chinese <i>Art of War</i> of Sunzi, which counts among its nine kinds of ground the one &#8216;where the highways of several states meet,&#8217; a place from which one may command the movements of all. Toshizō, self-taught, applies the classic&#8217;s categories to a paddy-field crossing near his home village; the flourish is meant to show a natural strategist at work with a peasant&#8217;s materials."
+      }
+    ]
+  },
+  "glossary": {
+    "分倍河原": {
+      "en": "Bubaigawara",
+      "pinyin": "Bubaigawara",
+      "status": "attested",
+      "note": "A district on the old Tama-River flats near Fuchū, a road-junction long fought over; site of the 1333 battle and of the duel of this chapter."
+    },
+    "分倍橋": {
+      "en": "Bubai Bridge",
+      "pinyin": "Bubai-bashi",
+      "status": "attested",
+      "note": "A small bridge south of Bubaigawara, the appointed place of the fight."
+    },
+    "正光院": {
+      "en": "the Shōkōin",
+      "pinyin": "Shōkōin",
+      "status": "attested",
+      "note": "A field-temple with a graveyard near Bubaigawara, where Toshizō sets up his command post."
+    },
+    "権": {
+      "en": "Gon",
+      "pinyin": "Gon",
+      "status": "provisional",
+      "note": "An old temple servant of the Shōkōin, once rescued by Toshizō, who serves as his scout. Romanization from the source's furigana."
+    },
+    "おのぶ": {
+      "en": "Onobu",
+      "pinyin": "Onobu",
+      "status": "provisional",
+      "note": "Toshizō's elder sister, wife of Satō Hikogorō."
+    },
+    "新田義貞": {
+      "en": "Nitta Yoshisada",
+      "pinyin": "Nitta Yoshisada",
+      "status": "attested",
+      "note": "The fourteenth-century commander who, for the emperor Go-Daigo, destroyed the Kamakura shogunate; victor at Bubaigawara in 1333."
+    },
+    "三浦義勝": {
+      "en": "Miura Yoshikatsu",
+      "pinyin": "Miura Yoshikatsu",
+      "status": "attested",
+      "note": "A Sagami warrior whose reinforcements turned the Battle of Bubaigawara for Nitta."
+    },
+    "韮山": {
+      "en": "Nirayama",
+      "pinyin": "Nirayama",
+      "status": "attested",
+      "note": "A seat in Izu of the Egawa house, hereditary shogunal intendants."
+    },
+    "江川": {
+      "en": "the Egawa",
+      "pinyin": "Egawa",
+      "status": "attested",
+      "note": "The hereditary intendant house at Nirayama, administering shogunal land."
+    },
+    "太平記": {
+      "en": "the Taiheiki",
+      "pinyin": "Taiheiki",
+      "status": "attested",
+      "note": "The fourteenth-century war-chronicle of the wars of the Northern and Southern Courts, a storytellers' staple."
+    },
+    "代官": {
+      "en": "intendant",
+      "pinyin": "daikan",
+      "status": "decided",
+      "note": "A shogunal officer administering a district of the Tokugawa house's own lands in place of a resident lord."
+    },
+    "衢地": {
+      "en": "a ground of highways",
+      "pinyin": "kuchi",
+      "status": "decided",
+      "note": "From Sunzi's Art of War: a place where the roads of several regions meet, from which armies are readily moved."
+    }
+  }
+}
