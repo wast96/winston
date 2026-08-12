@@ -85,3 +85,21 @@
 # 老六 the courtesan house-name element "Laoliu" (Number Six); the 六 is
 #   romanized in the name — English keeps "Laoliu".
 老六
+# 黃楚九 the entrepreneur Huang Chujiu's name; the 九 is romanized in
+#   "Chujiu", not a count — English keeps "Huang Chujiu".
+黃楚九
+# 九畝地 the old-Shanghai district name "Jiumudi" (Nine-Mu Land); the 九 is
+#   romanized in the name — English keeps "Jiumudi".
+九畝地
+# 億定盤路 the road name Edinburgh Road (Yidingpan Rd); the 億 is inside the
+#   transliteration, not a count — English keeps "Edinburgh Road".
+億定盤路
+# 萬民矚目 idiom "the eyes of all the people upon it"; the 萬 is idiom, not a
+#   count — English renders "the eyes of all the people".
+萬民矚目
+# 十餘萬 compound "over a hundred thousand" (十餘萬金); rendered whole in
+#   English as "over a hundred thousand", not as separate 10 and 10000.
+十餘萬
+# 塵煙四起 idiom "dust and smoke rising on all sides"; the 四 is the four
+#   directions, not a count — English renders "the dust flying up".
+塵煙四起

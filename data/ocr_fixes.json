@@ -193,5 +193,45 @@
    "page": 80,
    "why": "place Mill Street; OCR 磨->呵"
   }
+ ],
+ "ch035": [
+  {
+   "wrong": "土老兒",
+   "right": "土老少",
+   "page": 84,
+   "why": "country-bumpkin phrase 鄉下土老少 crop-verified as printed (not the idiomatic 土老兒)"
+  }
+ ],
+ "ch037": [
+  {
+   "wrong": "嚴芙孫",
+   "right": "嚴芙孫",
+   "page": 87,
+   "why": "name of the gourd-diviner Yan Fusun, read on scan"
+  }
+ ],
+ "ch044": [
+  {
+   "wrong": "軋鹹肉",
+   "right": "斬鹹肉",
+   "page": 98,
+   "why": "vice-list item 斬鹹肉 crop-verified; 斬 (車+斤) not 軋"
+  }
+ ],
+ "ch049": [
+  {
+   "wrong": "釘巴",
+   "right": "釘巴",
+   "page": 104,
+   "why": "obscure beggar term 流為釘巴 crop-verified as printed (金+丁 釘, not 叮/盯)"
+  }
+ ],
+ "ch052": [
+  {
+   "wrong": "味園",
+   "right": "味蒓園",
+   "page": 107,
+   "why": "chapter title printed 味蒓園 (Weichun-yuan, water-shield garden = Zhang Garden); book.json TOC had 味園"
+  }
  ]
 }

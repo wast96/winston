@@ -414,3 +414,94 @@ courtesan beauty-pageant, and the woman physiognomists.
   physiognomist's double-meaning "guaranteed to please you") kept in his
   editorializing voice. Contemptuous period language on male prostitution
   (ch027) rendered as printed, terms footnoted neutrally.
+
+## B04 — ch035-ch052 (一杯茶值五大元 through 味蒓園); PDF 84-108 / printed 82-106
+
+The prices-and-trades cluster: teahouse waitresses, the three-hundred-dollar
+Cantonese dinner, the sixty-cash character-splitters, the fallen street-singer,
+the obscene-book hawkers, the opera master Tan Xinpei, seamstresses and mending
+women, the pheasant universities and gilded doctorates, the flower-vase clerks,
+the booked hotel rooms, Avenue Joffre gone Russian and the White Russian
+drifters, the post-office coolies and parcel companies, and Zhang's Garden.
+
+### Pipeline / method
+- Render 84-108 @300dpi. OCR tesseract chi_tra_vert --psm 5 (crop --left 0.03
+  --right 0.97 --top 0.13 --bottom 0.95) as scaffold ONLY; every page EYE-READ
+  at magnification and data/zh hand-transcribed, exactly as B01-B03. pgrep -c
+  tesseract = 0 after OCR (verified). indents.py unused (horizontal-only);
+  paragraphs finalized by hand on the blank-line + short-line-at-seam signal.
+- Crop-verified spans recorded in data/ocr_fixes.json: ch035 鄉下土老少 (as
+  printed, NOT the idiom 土老兒), ch044 斬鹹肉 (斬 not 軋), ch049 釘巴 (金+丁,
+  obscure beggar term), ch052 title 味蒓園.
+- check_config.json REGENERATED to the 18 units whose data/zh exists (ch035-052).
+
+### Gates (all green)
+- verify_unit (parity+numbers+anchors): PASS on all 18. check_numbers --noise:
+  0 unresolved. check_align: no pair strays >2.2x from median (ratios 4.4-6.1
+  en/han). check_structure: parity OK, 61 notes 0 unresolved, headings OK.
+  check_content: all name occurrences in the paired paragraph. qc_entities: 0
+  misses. check_register --ref out/ch001_reading.md: within tolerance on all 18.
+  check_apparatus: 0 failures / 0 warnings. qa_epub: PASS (272 notes:
+  refs=bodies=backlinks, all links resolve). epubcheck 5.1.0: 0 errors /
+  0 warnings.
+- Numeric-invariant noise added this batch (name/idiom numerals, longest-first):
+  黃楚九, 九畝地, 億定盤路, 萬民矚目, 十餘萬, 塵煙四起. Real quantities carried
+  in the English, never noised (three-hundred-dollar dinner, five-silver-dollar
+  tea, sixty cash, 二元二角 "two dollars and two jiao", etc.).
+
+### Apparatus
+- 61 notes (book-wide 212-272), GENEROUS per the commissioner: 3/3/3/7/4/13/
+  2/2/2/2/2/1/2/3/2/3/1/6 across ch035-052 (ch040 the theatre chapter carries 13).
+- Glossary: 36 rows added (10 people, 14 places, 7 organizations, 5 terms),
+  merged SECTIONED. 永安公司 (Wing On) already present, left untouched.
+- 2 reprint photos through the figure pipeline: ch037 (p88, 老上海的拆字攤,
+  the character-stall) and ch052 (p108, 味蒓園 = Arcadia Hall in Zhang's
+  Garden). Both cropped to data/figs/, alt + provenance caption (2019 editor).
+
+### Fact-check verdicts (recorded IN the notes; Wikipedia/Baidu Baike/academic, no LLM sources)
+- Tan Xinpei 譚鑫培 (1847-1917), 小叫天, Tan-school laosheng master, court
+  purveyor (譚供奉), died Beijing 1917 after a forced performance: CORROBORATED.
+  The couplet 「...滿城爭說叫天兒」: REAL; 2nd line exact, 1st line a variant of
+  the attested 「家國興亡誰管得」, commonly attributed to Fan Zengxiang 樊增祥.
+- Tan + Sai Jinhua 賽金花 cohabitation (ch040): UNCORROBORATED / apocryphal.
+  No standard source records it; the documented companion of those years was
+  the opera amateur Sun Zuozhou 孫作舟, not Tan. Flagged in the note as gossip
+  the author repeats (author-as-interested-witness).
+- Huang Chujiu 黃楚九 (1872-1931), patent-medicine magnate, Great World founder:
+  CORROBORATED (the 醒舞臺 house-name is consistent with his profile but not
+  independently confirmed; noted so).
+- Xia brothers 夏月珊/夏月潤, New Stage 新舞臺 (1908, Jiumudi) founders, and the
+  "beloved son-in-law" tie (Xia Yuerun's father-in-law = Tan Xinpei):
+  CORROBORATED.
+- Lin Daiyu 林黛玉 the courtesan (1864-1924, born Lu Jinbao), one of the "Four
+  Guardians" 四大金剛: CORROBORATED.
+- Joffre / Avenue Joffre (renamed 1915, former Avenue Paul Brunat 寶昌路 1906,
+  now Huaihai Rd): CORROBORATED. Zhang's Garden 張園 / Arcadia Hall 安塏第
+  (built 1882 Zhang Shuhe, opened 1885, closed ~1918): CORROBORATED. The three
+  department stores (Sincere 1917, Wing On 1918, Sun Sun 1926) with roof-gardens:
+  CORROBORATED. 性史 (Zhang Jingsheng, 1926) and 肉蒲團 (Li Yu, 17th c.):
+  CORROBORATED. General Post Office (1924, North Suzhou Road): CORROBORATED.
+
+### Reprint / TOC discrepancies (LISTed per policy)
+- ch052 title: book.json TOC had 味園; the printed title (and running head) is
+  味蒓園 (Weichun-yuan). book.json corrected to 味蒓園; title_en "The Weiyuan"
+  kept.
+
+### NOT re-noted this batch (already placed; cross-referenced instead)
+- Money system (dollar / 大洋 / 小洋 / 毛 / 角 / 分 / 文): ch001 & ch014 notes
+  stand; carried, not re-noted (jiao/mao rendered per convention, never "cents").
+- Avenue Joffre the STREET: full note at ch018; ch048 adds only 寶昌路 (former
+  name) and Joffre the general, and cross-refs the avenue. Bubbling Well Road:
+  ch017; mentioned ch038/ch052, not re-noted. salt-meat houses / 鹹肉: ch015 &
+  ch018; ch044 斬鹹肉 and ch049 活肉 cross-ref. 野雞 pheasant: ch012; the ch043
+  野雞大學 note and ch050 打野雞 note extend the slang rather than redefining it.
+  Fourth Avenue: ch003/ch012. Zheng Zhengqiu & Xinwenbao: glossed B02, ch040/
+  ch043 cross-ref.
+- French Park 法國公園 noted briefly at ch052 (first mention) with a pointer to
+  its own later sketch (ch058).
+
+### Register / voice
+- Held to the frozen ch001 reference throughout. The author's asides kept in
+  his quick, worldly, amused editorializing voice: the "glass-cup" nickname,
+  the sneer at pheasant universities and gilded doctorates, the pity for Weng
+  Meiqian and the post-office coolies, the nostalgic sigh over Zhang's Garden.

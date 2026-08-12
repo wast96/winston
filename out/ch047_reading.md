@@ -1,0 +1,5 @@
+### The Booked Room
+
+These three words, "booked room," are not a term of the brothel (in a brothel's arrangements there is a distinction between a "booked room" and one's own "spread room"); they name a sort of person, nimble in his dealings and rich in friends. In one of the grand hotels he rents a room by the year as a place for gambling and carousing (some sell opium there on the sly), and on what he takes in each day he keeps himself going — this is what is called a "booked room." In such a place one may play mahjong, may drink, may bathe, may call for a courtesan, and may smoke besides. Its inner workings are much like those of a club, only its organization is the simpler of the two, for they hold no license.
+
+Being year-round patrons, they can moreover get a special discount on the rent; and the hotel keeper, since it is a room let by the year, is only too glad to have them. Of this sort of booked-room patron, each of the grand hotels is sure to have several — it has become a new line of business much in vogue nowadays.

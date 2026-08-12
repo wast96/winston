@@ -123,6 +123,63 @@
       "pinyin": "Wu Shuzhen",
       "status": "provisional",
       "note": "Proprietor of the Shanghai tabloid Dianguang Ribao, as the author reports."
+    },
+    "譚鑫培": {
+      "en": "Tan Xinpei",
+      "pinyin": "Tán Xīnpéi",
+      "status": "attested",
+      "note": "The reigning Peking-opera <i>laosheng</i> (bearded-male-role) master (1847&#8211;1917); stage name Xiao Jiaotian."
+    },
+    "小叫天": {
+      "en": "Xiao Jiaotian",
+      "pinyin": "Xiǎo Jiàotiān",
+      "status": "attested",
+      "note": "Stage name of Tan Xinpei; literally 'Little Cry-to-Heaven.'"
+    },
+    "黃楚九": {
+      "en": "Huang Chujiu",
+      "pinyin": "Huáng Chǔjiǔ",
+      "status": "attested",
+      "note": "Shanghai patent-medicine magnate and amusement-hall impresario (1872&#8211;1931)."
+    },
+    "賽金花": {
+      "en": "Sai Jinhua",
+      "pinyin": "Sài Jīnhuā",
+      "status": "attested",
+      "note": "Celebrated late-Qing courtesan, legendary figure of the Boxer year."
+    },
+    "夏月潤": {
+      "en": "Xia Yuerun",
+      "pinyin": "Xià Yuèrùn",
+      "status": "attested",
+      "note": "Peking-opera actor, co-founder with his brother of Shanghai's reformist New Stage."
+    },
+    "夏月珊": {
+      "en": "Xia Yueshan",
+      "pinyin": "Xià Yuèshān",
+      "status": "attested",
+      "note": "Peking-opera actor, co-founder of the New Stage; brother of Xia Yuerun."
+    },
+    "邱治雲": {
+      "en": "Qiu Zhiyun",
+      "pinyin": "Qiū Zhìyún",
+      "status": "provisional"
+    },
+    "林黛玉": {
+      "en": "Lin Daiyu",
+      "pinyin": "Lín Dàiyù",
+      "status": "attested",
+      "note": "The late-Qing Shanghai courtesan who took this stage name (not the heroine of <i>Dream of the Red Chamber</i>)."
+    },
+    "翁梅倩": {
+      "en": "Weng Meiqian",
+      "pinyin": "Wēng Méiqiàn",
+      "status": "provisional"
+    },
+    "嚴芙孫": {
+      "en": "Yan Fusun",
+      "pinyin": "Yán Fúsūn",
+      "status": "provisional"
     }
   },
   "places": {
@@ -221,6 +278,91 @@
       "pinyin": "Sanmalu",
       "status": "decided",
       "note": "Hankou Road, third of the numbered 'Avenues' running back from the Bund; see the note on the avenue-numbering at 'Third Avenue'."
+    },
+    "張園": {
+      "en": "Zhang's Garden",
+      "pinyin": "Zhāng Yuán",
+      "status": "attested",
+      "note": "The famous public pleasure-garden of late-Qing and early-Republican Shanghai; also called the Weiyuan."
+    },
+    "味蒓園": {
+      "en": "the Weiyuan",
+      "pinyin": "Wèichún Yuán",
+      "status": "decided",
+      "note": "Literary alternate name of Zhang's Garden."
+    },
+    "愚園": {
+      "en": "Yu Garden",
+      "pinyin": "Yú Yuán",
+      "status": "attested",
+      "note": "A private pleasure-garden on Edinburgh Road (not the old City-God-Temple Yu Garden of Nanshi)."
+    },
+    "徐園": {
+      "en": "Xu Garden",
+      "pinyin": "Xú Yuán",
+      "status": "attested"
+    },
+    "半淞園": {
+      "en": "Bansong Garden",
+      "pinyin": "Bànsōng Yuán",
+      "status": "attested",
+      "note": "A riverside pleasure-garden in Nanshi, opened 1918."
+    },
+    "安塏第": {
+      "en": "Arcadia Hall",
+      "pinyin": "Ānkǎidì",
+      "status": "attested",
+      "note": "The tall landmark building of Zhang's Garden; its English name was Arcadia Hall."
+    },
+    "康腦脫路": {
+      "en": "Connaught Road",
+      "pinyin": "Kāngnǎotuō Lù",
+      "status": "attested",
+      "note": "Now Kangding Road (康定路)."
+    },
+    "億定盤路": {
+      "en": "Edinburgh Road",
+      "pinyin": "Yìdìngpán Lù",
+      "status": "attested",
+      "note": "Now Jiangsu Road (江蘇路)."
+    },
+    "北蘇州路": {
+      "en": "North Suzhou Road",
+      "pinyin": "Běi Sūzhōu Lù",
+      "status": "attested"
+    },
+    "寶昌路": {
+      "en": "Avenue Paul Brunat",
+      "pinyin": "Bǎochāng Lù",
+      "status": "attested",
+      "note": "The pre-1915 name of Avenue Joffre."
+    },
+    "九畝地": {
+      "en": "Jiumudi",
+      "pinyin": "Jiǔmǔdì",
+      "status": "provisional",
+      "note": "A district of old Shanghai's Zhabei theater quarter; literally 'Nine-Mu Land.'"
+    },
+    "法國公園": {
+      "en": "French Park",
+      "pinyin": "Fǎguó Gōngyuán",
+      "status": "decided",
+      "note": "The French Concession's public park (Koukaza Park), now Fuxing Park (復興公園)."
+    },
+    "北福建路": {
+      "en": "North Fujian Road",
+      "pinyin": "Běi Fújiàn Lù",
+      "status": "decided"
+    },
+    "唐家弄": {
+      "en": "Tang Family Lane",
+      "pinyin": "Tángjiā Lòng",
+      "status": "provisional"
+    },
+    "安康里": {
+      "en": "Ankang Li",
+      "pinyin": "Ānkāng Lǐ",
+      "status": "provisional"
     }
   },
   "organizations": {
@@ -301,6 +443,41 @@
       "pinyin": "Dianguang Ribao",
       "status": "provisional",
       "note": "The 'Electric Light Daily', a small Shanghai tabloid, as the author reports; no independent record traced."
+    },
+    "先施公司": {
+      "en": "Sincere Company",
+      "pinyin": "Xiānshī",
+      "status": "attested",
+      "note": "The earliest of the great Nanjing Road department stores (opened 1917), with a rooftop amusement hall."
+    },
+    "新新公司": {
+      "en": "Sun Sun Company",
+      "pinyin": "Xīnxīn",
+      "status": "attested",
+      "note": "One of the four great Nanjing Road department stores (opened 1926), with a rooftop garden."
+    },
+    "新舞臺": {
+      "en": "the New Stage",
+      "pinyin": "Xīn Wǔtái",
+      "status": "attested",
+      "note": "The pioneering reformed theater at Jiumudi, founded 1908 by the Xia brothers."
+    },
+    "醒舞臺": {
+      "en": "the Awakening Stage",
+      "pinyin": "Xǐng Wǔtái",
+      "status": "provisional"
+    },
+    "新世界": {
+      "en": "the New World",
+      "pinyin": "Xīn Shìjiè",
+      "status": "attested",
+      "note": "A large amusement hall at the corner of Bubbling Well Road, opened 1915."
+    },
+    "群仙": {
+      "en": "the Qunxian",
+      "pinyin": "Qúnxiān",
+      "status": "provisional",
+      "note": "An all-girl opera house on Fourth Avenue."
     }
   },
   "terms": {
@@ -483,6 +660,36 @@
       "pinyin": "sancun jinlian",
       "status": "decided",
       "note": "The elegant name for a woman's bound feet, ideally three Chinese inches long."
+    },
+    "髦兒戲": {
+      "en": "all-girl opera",
+      "pinyin": "máor xì",
+      "status": "decided",
+      "note": "Peking-style opera performed entirely by female troupes, all roles included."
+    },
+    "鬚生": {
+      "en": "bearded-male role",
+      "pinyin": "xūshēng",
+      "status": "decided",
+      "note": "The <i>laosheng</i>, the dignified older-man role type of Peking opera, marked by a beard."
+    },
+    "拆字": {
+      "en": "character-splitting",
+      "pinyin": "chāizì",
+      "status": "decided",
+      "note": "Fortune-telling by dissecting a written Chinese character into its parts."
+    },
+    "白俄": {
+      "en": "White Russians",
+      "pinyin": "báiÉ",
+      "status": "decided",
+      "note": "Anti-Bolshevik Russian émigrés who fled to Shanghai after 1917."
+    },
+    "野雞大學": {
+      "en": "pheasant university",
+      "pinyin": "yějī dàxué",
+      "status": "decided",
+      "note": "A degree-mill; 'pheasant' (yeji) is the Shanghai slang for anything unlicensed and irregular."
     }
   }
 }

@@ -1,0 +1,7 @@
+### The Parcel-Post Companies
+
+The purchasing agents whom out-of-town firms station in Shanghai, once they have bought their goods and want them shipped off, mostly entrust the sending to a parcel-post company, for they do not understand the posting formalities themselves, nor are they up to the ropes; and so, rather than paste full postage on each parcel besides, they hand it over with a fee of so much for the company to send in their stead.
+
+There are now several dozen parcel-post companies, whose sole business is sending parcels for others. Say there is a consignment numbering two hundred parcels: one has only to paste on full postage and hand the lot to the company, and as for the customs inspection and the rest of the formalities at dispatch, they take it entirely in charge, and very handy and quick it is; whereas to go and send a consignment of several hundred parcels oneself at one go is a great trouble indeed, and so the customer would rather pay out an extra fee and have them do the sending.
+
+The very first parcel-post company to open was started by a hotel waiter — for the purchasing agents all lodged at hotels, and having bought their goods would have the waiter take them to the post office to send, paying him cab-fare and a tip besides. Later, as the parcels grew more and more, this waiter threw over his old post and opened a parcel-post company of his own, sending parcels for customers as his special trade. This waiter-turned-proprietor has now amassed a capital of over a hundred thousand, and, plump and round of face, become a rich man.
