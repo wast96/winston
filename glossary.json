@@ -2986,6 +2986,110 @@
    "en": "Wu Jingguan",
    "pinyin": "Wu Jingguan",
    "status": "decided"
+  },
+  "俞云九": {
+   "en": "Yu Yunjiu",
+   "pinyin": "Yu Yunjiu",
+   "status": "decided"
+  },
+  "吴鸿": {
+   "en": "Wu Hong",
+   "pinyin": "Wu Hong",
+   "status": "decided"
+  },
+  "夏超": {
+   "en": "Xia Chao",
+   "pinyin": "Xia Chao",
+   "status": "attested",
+   "note": "夏超; a Zhejiang provincial police chief and later provincial chairman, killed in 1926."
+  },
+  "唐观经": {
+   "en": "Tang Guanjing",
+   "pinyin": "Tang Guanjing",
+   "status": "decided"
+  },
+  "黄楚九": {
+   "en": "Huang Chujiu",
+   "pinyin": "Huang Chujiu",
+   "status": "attested",
+   "note": "黄楚九 (1872&#8211;1931); the entrepreneur who founded the Great World amusement hall and dealt in patent medicines. See the note at ch15."
+  },
+  "土肥原": {
+   "en": "Doihara",
+   "pinyin": "Doihara",
+   "status": "attested"
+  },
+  "永野修身": {
+   "en": "Nagano Osami",
+   "pinyin": "Nagano Osami",
+   "status": "attested"
+  },
+  "殷汝耕": {
+   "en": "Yin Rugeng",
+   "pinyin": "Yin Rugeng",
+   "status": "attested"
+  },
+  "周邦俊": {
+   "en": "Zhou Bangjun",
+   "pinyin": "Zhou Bangjun",
+   "status": "decided"
+  },
+  "包兰文": {
+   "en": "Bao Lanwen",
+   "pinyin": "Bao Lanwen",
+   "status": "decided"
+  },
+  "洪纠咎": {
+   "en": "Hong Jiujiu",
+   "pinyin": "Hong Jiujiu",
+   "status": "provisional",
+   "note": "洪纠咎; a minor associate. The given name is the crop-verified reading of a poorly printed scan; treat as uncertain."
+  },
+  "赵南生": {
+   "en": "Zhao Nansheng",
+   "pinyin": "Zhao Nansheng",
+   "status": "decided"
+  },
+  "俞肇桐": {
+   "en": "Yu Zhaotong",
+   "pinyin": "Yu Zhaotong",
+   "status": "decided"
+  },
+  "郑子褒": {
+   "en": "Zheng Zibao",
+   "pinyin": "Zheng Zibao",
+   "status": "decided"
+  },
+  "张秀英": {
+   "en": "Zhang Xiuying",
+   "pinyin": "Zhang Xiuying",
+   "status": "decided"
+  },
+  "忠尧": {
+   "en": "Zhongyao",
+   "pinyin": "Zhongyao",
+   "status": "decided",
+   "note": "忠尧; Zhang Xiaolin's second (adopted) son, Zhang Zhongyao."
+  },
+  "顾维钧": {
+   "en": "Wellington Koo",
+   "pinyin": "Gu Weijun",
+   "status": "attested"
+  },
+  "褚民谊": {
+   "en": "Chu Minyi",
+   "pinyin": "Chu Minyi",
+   "status": "attested"
+  },
+  "陈公博": {
+   "en": "Chen Gongbo",
+   "pinyin": "Chen Gongbo",
+   "status": "attested"
+  },
+  "江亢虎": {
+   "en": "Jiang Kanghu",
+   "pinyin": "Jiang Kanghu",
+   "status": "attested"
   }
  },
  "organizations": {
@@ -3714,6 +3818,48 @@
    "en": "the \"Little Eight-Gang\" band",
    "pinyin": "Xiao Bagu Dang",
    "status": "decided"
+  },
+  "燕子窠": {
+   "en": "the \"Swallow's Nest\"",
+   "pinyin": "Yanzi Ke",
+   "status": "decided",
+   "note": "燕子窠; a low-grade opium den."
+  },
+  "荣生公司": {
+   "en": "the Rongsheng Company",
+   "pinyin": "Rongsheng Gongsi",
+   "status": "decided"
+  },
+  "远东公共运动场股份有限公司": {
+   "en": "the Far East Public Sports Ground Company, Limited",
+   "pinyin": "Yuandong Gonggong Yundongchang",
+   "status": "decided"
+  },
+  "荣馆": {
+   "en": "the Rongguan",
+   "pinyin": "Rongguan",
+   "status": "decided"
+  },
+  "霖记木行": {
+   "en": "the Linji Timber Firm",
+   "pinyin": "Linji Muhang",
+   "status": "decided"
+  },
+  "长城唱片公司": {
+   "en": "the Great Wall Record Company",
+   "pinyin": "Changcheng Changpian Gongsi",
+   "status": "decided"
+  },
+  "忍庐": {
+   "en": "the Ren Lu",
+   "pinyin": "Ren Lu",
+   "status": "decided",
+   "note": "忍庐; one of Zhang's societies set up to rival Du's Heng Society, its name echoing his hall the Bairen Tang (both on 忍, forbearance)."
+  },
+  "上海佛教会": {
+   "en": "the Shanghai Buddhist Association",
+   "pinyin": "Shanghai Fojiaohui",
+   "status": "decided"
   }
  },
  "places": {
@@ -4091,6 +4237,47 @@
    "pinyin": "Simalu",
    "status": "decided",
    "note": "四马路; the old Shanghai name for today's Fuzhou Road. Rendered &#8216;Fourth Avenue&#8217; across the collection; the numeral is part of the name."
+  },
+  "钱塘门": {
+   "en": "the Qiantang Gate",
+   "pinyin": "Qiantangmen",
+   "status": "decided"
+  },
+  "蒙古桥": {
+   "en": "Menggu Bridge",
+   "pinyin": "Mengguqiao",
+   "status": "decided"
+  },
+  "宝裕里": {
+   "en": "Baoyu Li",
+   "pinyin": "Baoyu Li",
+   "status": "decided"
+  },
+  "马乐里": {
+   "en": "Male Li",
+   "pinyin": "Male Li",
+   "status": "decided"
+  },
+  "重庆路": {
+   "en": "Chongqing Road",
+   "pinyin": "Chongqing Lu",
+   "status": "decided"
+  },
+  "江湾": {
+   "en": "Jiangwan",
+   "pinyin": "Jiangwan",
+   "status": "decided"
+  },
+  "嵩山路": {
+   "en": "Songshan Road",
+   "pinyin": "Songshan Lu",
+   "status": "decided"
+  },
+  "迈尔西爱路": {
+   "en": "Route Cardinal Mercier",
+   "pinyin": "Mai'erxi'ai Lu",
+   "status": "decided",
+   "note": "迈尔西爱路; today's Maoming South Road."
   }
  },
  "terms": {
@@ -4359,6 +4546,35 @@
    "en": "\"Ivory Huichun\"",
    "pinyin": "Xiangya Huichun",
    "status": "decided"
+  },
+  "抱台脚": {
+   "en": "a \"table-leg-holder\"",
+   "pinyin": "bao taijiao",
+   "status": "decided",
+   "note": "抱台脚; gambling-house slang for a hired watcher or checker at the tables."
+  },
+  "梅花馆主": {
+   "en": "\"Master of the Plum-Blossom Studio\"",
+   "pinyin": "Meihua Guanzhu",
+   "status": "decided"
+  },
+  "百忍堂": {
+   "en": "the Bairen Tang",
+   "pinyin": "Bairen Tang",
+   "status": "decided",
+   "note": "百忍堂; the hall-name of Zhang's residence, &#8216;Hall of a Hundred Forbearances.&#8217;"
+  },
+  "颠颠巧": {
+   "en": "diandianqiao",
+   "pinyin": "diandianqiao",
+   "status": "decided",
+   "note": "颠颠巧; a three-dice cheating game."
+  },
+  "撩鬼儿": {
+   "en": "\"liaoguir\"",
+   "pinyin": "liaoguir",
+   "status": "decided",
+   "note": "撩鬼儿; Hangzhou dialect, roughly &#8216;good-for-nothing.&#8217;"
   }
  }
 }
