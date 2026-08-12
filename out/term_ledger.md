@@ -58,7 +58,7 @@ Every rendering decided for this book, grouped by kind, so the choices can be au
 | 片桐且元 | Katagiri Katsumoto | attested | One of the Seven Spears of Shizugatake; later steward of the Toyotomi house. |
 | 勝頼 | Katsuyori | attested | Takeda Katsuyori (1546–1582), son and heir of Shingen; the last lord of the Takeda. |
 | 加藤清正 | Katō Kiyomasa | attested | Katō Kiyomasa (1562–1611), boyhood name Toranosuke; one of Hideyoshi's foremost captains, later daimyo of Higo. |
-| 加藤嘉明 | Katō Yoshiaki | attested | One of the Seven Spears of Shizugatake; later a daimyō and admiral under Hideyoshi. |
+| 加藤嘉明 | Katō Yoshiaki | attested | One of the Seven Spears of Shizugatake; later a daimyo and admiral under Hideyoshi. |
 | カズエ | Kazue | decided | Maki’s younger sister. (Her stated age differs between two passages; see the note.) |
 | 顕如 | Kennyo | attested | The abbot of the Hongan-ji (1543–1592) who led the Ikkō league through the long war against Nobunaga and, at Ishiyama’s fall, withdrew into Kishū. |
 | 木曾義昌 | Kiso Yoshimasa | attested | Takeda vassal in Shinano whose secret defection to Nobunaga touched off the Takeda's final campaign. |
@@ -112,7 +112,7 @@ Every rendering decided for this book, grouped by kind, so the choices can be au
 | 左右田与一郎 | Soda Yoichiro | attested | A young retainer of the Akechi general Yomoda Tajima-no-kami; Tarao-born and Oyu's childhood friend, hopelessly in love with her, and so a channel by which she reaches the Akechi camp. |
 | 宗義智 | Sō Yoshitomo | attested | Lord of Tsushima; Hideyoshi's go-between with Korea before the invasions. |
 | 高山右近 | Takayama Ukon | attested | The most famous of the Christian daimyo; chose exile over apostasy, dying in Manila in 1615. |
-| 滝川一益 | Takigawa Kazumasu | attested | Senior Shibata-faction commander (styled Sakon-shōgen), daimyō of some 300,000 koku in Ise; struck first in the war and drew Hideyoshi’s Ise campaign. |
+| 滝川一益 | Takigawa Kazumasu | attested | Senior Shibata-faction commander (styled Sakon-shōgen), daimyo of some 300,000 koku in Ise; struck first in the war and drew Hideyoshi’s Ise campaign. |
 | 多羅尾道可 | Tarao Dōka | attested | Lay-monk and chief of the Tarao, one of the fifty-three houses of Koga; sheltered and guided Ieyasu on the Tarao crossing. |
 | 築山どの | the Lady Tsukiyama | attested | Ieyasu's principal wife and Nobuyasu's mother, accused of treasonous dealings with the Takeda and killed in 1579. |
 | 淀君 | the Lady Yodo | attested | Chacha, daughter of Oichi and Azai Nagamasa; later Hideyoshi's consort and mother of his heir Hideyori. |

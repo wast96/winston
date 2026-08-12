@@ -288,7 +288,7 @@ But the screw for the breech was beyond him.
 
 Then, hearing a rumor that a man in Sakai had brought off the making of the breech screw, he sent Shibatsuji back to Sakai to steal the method Yasaka Kinbei had learned at the price of his own daughter.
 
-From then on, at the forge in this valley, he made guns in quantity. Some filled the arsenals of the Negoro-ji; the rest went down to Sakai, and through the merchants' hands were sold off to the daimyō.
+From then on, at the forge in this valley, he made guns in quantity. Some filled the arsenals of the Negoro-ji; the rest went down to Sakai, and through the merchants' hands were sold off to the daimyo.
 
 So those guns flowed into the very hands of the samurai, the enemies of his faith. It was the same thing exactly that the merchants of death do today, selling arms to the enemy as well, and turning their profit on the spilled blood of their own countrymen; the same thing as the Roman Pope holding a great block of shares in the companies that make the stuff of war.
 
@@ -618,7 +618,7 @@ Then he went out into the open fields, watched his moment, and slipped into an e
 
 All that while, one prayer was in his heart.
 
-"They said they were Lord Takayama Ukon-tayū's men. Lord Takayama Ukon is a Kirishitan daimyō famous through the land. The captain who set on me a moment ago wore a great crux, a cross, on the breast of his armor too. The Kirishitan forbid the violating of women, and sternly. So it may be that Kazue is safe. Namu, Lord Kirishito, keep Kazue from harm..."
+"They said they were Lord Takayama Ukon-tayū's men. Lord Takayama Ukon is a Kirishitan daimyo famous through the land. The captain who set on me a moment ago wore a great crux, a cross, on the breast of his armor too. The Kirishitan forbid the violating of women, and sternly. So it may be that Kazue is safe. Namu, Lord Kirishito, keep Kazue from harm..."
 
 And Goemon, who knew no way to pray, prayed for the first time in his life to Kirishito.
 
@@ -672,7 +672,7 @@ And Maki too threw herself down on the earthen floor and broke into loud weeping
 
 "Kazue— Kazue— what is becoming of her now—"
 
-"When the fighting dies down, I'll go to Lord Takayama's camp once more and find out! I'll get her back, I swear it! Lord Takayama is a Kirishitan daimyō, so Kazue is safe. She must be."
+"When the fighting dies down, I'll go to Lord Takayama's camp once more and find out! I'll get her back, I swear it! Lord Takayama is a Kirishitan daimyo, so Kazue is safe. She must be."
 
 Just then he caught the sign of someone, and snatching up a stick of firewood that lay by him, hurled it at the beam overhead.
 

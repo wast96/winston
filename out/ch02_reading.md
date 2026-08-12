@@ -100,7 +100,7 @@ But one night Goemon went to the grounds of the Jōfukuji, dug at the usual spot
 
 He had always been careful about the digging here. So the man who had lifted the jar was beyond doubt a ninja, and no mean one. Someone had come from somewhere and shadowed him.
 
-The old Goemon would have thought nothing of losing it. To him, any daimyō's house and any rich man's house alike stood as good as flung open; he had only to walk in and help himself.
+The old Goemon would have thought nothing of losing it. To him, any daimyo's house and any rich man's house alike stood as good as flung open; he had only to walk in and help himself.
 
 But somehow the will to steal had gone out of the Goemon of now. It was as though, once he did such a thing, he would not be able to look Maki in the face. No one had said a word to him. He simply had no heart for it.
 
@@ -202,7 +202,7 @@ At such times he would take himself off to the Myōkoku-ji, a great Nichiren tem
 
 One jō three shaku high, one jō eight shaku round at the root, that strange and teeming shape crouched there in silence under the moon. The sight of it would take Goemon by the chest and drive every other thought out of him. He did not know it for what it was: a voice in his own blood, his far-off ancestors calling; homesickness, in a word.
 
-Nobunaga had heard of this rare sotetsu and would have it, come what may. He had it moved to the garden at Azuchi, called his daimyō together, and feasted the whole day through, gazing at it. But in the dead of night, once everyone had withdrawn, the garden hill shook of a sudden, the pond broke into a chattering roar of waves, and the whole place turned fearful. Out of the dark came a cracked, hoarse voice: "I want to go back to Myōkoku-ji. I want to go back to Myōkoku-ji."
+Nobunaga had heard of this rare sotetsu and would have it, come what may. He had it moved to the garden at Azuchi, called his daimyo together, and feasted the whole day through, gazing at it. But in the dead of night, once everyone had withdrawn, the garden hill shook of a sudden, the pond broke into a chattering roar of waves, and the whole place turned fearful. Out of the dark came a cracked, hoarse voice: "I want to go back to Myōkoku-ji. I want to go back to Myōkoku-ji."
 
 Nobunaga woke. "Who is that! Go and look!" At his order the young pages of the guard searched the garden, but there was no one to be seen. The voice was coming from the trunk of the sotetsu itself.
 
@@ -289,7 +289,7 @@ In time the Hattori shifted their seat to a spot not quite twenty chō north of 
 
 So for a time they were a sort of head house of the Iga ninja. Around the years of the Ōnin War they served the Ashikaga and took the name Chigachi; and at last, in the generation of Hanzō's father, when the power of Momochi Sandayū and Fujibayashi Nagato-no-kami came to overshadow Iga, they went east and took service with the Tokugawa.
 
-Seen this way, the Hattori were plainly a house that would not rest content, generation on generation, to end their days as independent squires shut away in these hills. They meant to serve some powerful daimyō and make their ambition good; and that ambition, it seems, was to hold the rank of samurai, and in time to become daimyō in their own right.
+Seen this way, the Hattori were plainly a house that would not rest content, generation on generation, to end their days as independent squires shut away in these hills. They meant to serve some powerful daimyo and make their ambition good; and that ambition, it seems, was to hold the rank of samurai, and in time to become daimyo in their own right.
 
 "A nasty piece of work, and not to be trusted a moment." So Goemon's father used to say of them, knitting his brows, spitting the words out. And when a master powder-maker, no mean ninja himself, spoke so, the man must indeed have been past handling by any common means: nasty, slippery, not to be trusted.
 
@@ -363,7 +363,7 @@ But a bare five ri east of there stood a great temple compound, the Kentokusan E
 
 It is well known that Shingen's war-banner bore, in gold on indigo silk one jō two shaku long, the words: swift as the wind, still as the forest, ravaging as fire, unmoved as the mountain. Those characters had been brushed by the abbot of this very Erin-ji, the priest Kaisen, Shingen's teacher from his boyhood.
 
-Nobunaga's men ferreted out that Sasaki Jirō was hidden in the temple, the man once sent by the Ashikaga shōgun Yoshiaki as an envoy to beg Shingen to march against Nobunaga. Nobunaga threw a company around the temple and demanded that Sasaki be turned out at once. But Kaisen answered that he had no memory of sheltering any such man.
+Nobunaga's men ferreted out that Sasaki Jirō was hidden in the temple, the man once sent by the Ashikaga shogun Yoshiaki as an envoy to beg Shingen to march against Nobunaga. Nobunaga threw a company around the temple and demanded that Sasaki be turned out at once. But Kaisen answered that he had no memory of sheltering any such man.
 
 At that very hour Goemon lay hidden beneath the floor of the Unpō-ji at Kofuchū, which Nobunaga had made his headquarters, and heard, right over his head, the boom of Nobunaga's voice. It was a shrill voice, higher than a tenor, and withal sweetish and nasal.
 
@@ -397,7 +397,7 @@ He said it gently, yet with the settled confidence of a man sure of his ground. 
 
 At this Nobunaga flung the whip in his hand full in the man's face, and roared.
 
-"Silence, Mitsuhide! You were a masterless man once, who could scarce scrape together a day's food; it was by my mercy you rose, till now you hold the whole of Tanba, and Sakamoto in Gōshū, a daimyō of five hundred thousand koku and more! Loaded with such favor, you dare, here, before the whole muster of my samurai, to pick and cavil at my rule? It is insolence! It is treachery! Look at them — Hashiba of Chikuzen, Takigawa Sakon, the rest — in feats of arms and in loyalty a hundred times your betters; and not once, not once, has any of them called me unjust. Yet you, who set beside those two are no better than a worm — you! Bah! Hateful wretch!"
+"Silence, Mitsuhide! You were a masterless man once, who could scarce scrape together a day's food; it was by my mercy you rose, till now you hold the whole of Tanba, and Sakamoto in Gōshū, a daimyo of five hundred thousand koku and more! Loaded with such favor, you dare, here, before the whole muster of my samurai, to pick and cavil at my rule? It is insolence! It is treachery! Look at them — Hashiba of Chikuzen, Takigawa Sakon, the rest — in feats of arms and in loyalty a hundred times your betters; and not once, not once, has any of them called me unjust. Yet you, who set beside those two are no better than a worm — you! Bah! Hateful wretch!"
 
 He sprang from his horse, strode up, seized Mitsuhide by the scruff with his left hand, and with his right fist beat him about the head, four blows, five.
 
@@ -452,7 +452,7 @@ That he should entrust him with so weighty a charge suggests Nobunaga did not, a
 
 Nobunaga came home through the province of Owari and made his triumphal entry into Azuchi on the twenty-first. Mitsuhide returned in his train. But the business lay piled mountain-high. An army was to be raised against Chōsokabe Motochika in Shikoku; reinforcements were to go to Hideyoshi, who was closing on Takamatsu castle in Bitchū. With no knowing when the order might come, Mitsuhide did not go back to his own castle at Sakamoto, but stayed on at Azuchi.
 
-On the shore, in the lee of the embankment, a young man and woman stood close together. Lake Biwa lay smoking with haze; the trees were pushing out their first buds. The woman wore the deep katsugi of a daimyō's waiting-lady drawn over her head. The man, a samurai who looked to be a squad-captain or a little above, had thick brows and full lips, and was handsome enough. It was the hour of dusk.
+On the shore, in the lee of the embankment, a young man and woman stood close together. Lake Biwa lay smoking with haze; the trees were pushing out their first buds. The woman wore the deep katsugi of a daimyo's waiting-lady drawn over her head. The man, a samurai who looked to be a squad-captain or a little above, had thick brows and full lips, and was handsome enough. It was the hour of dusk.
 
 "Yesterday I overheard Lord Mori Ranmaru speaking to his younger brother, Lord Rikimaru."
 
@@ -502,7 +502,7 @@ At the lodging, the Daihōbō, Mitsuhide had shut himself up for days beforehand
 
 On the morning of the very day the guest was to come that evening, Nobunaga appeared suddenly at the Daihōbō, on the pretext of an inspection. As he went about looking, a fury boiled up in him. He summoned Mitsuhide.
 
-"Just as I thought! The lord of Hamamatsu is a Junior Fourth Rank, Upper, Lesser Captain of the Right Guard; I am Minister of the Right, Junior Second Rank. And you lay on this outrageous fuss, as though we awaited the coming of the shōgun himself! What is the meaning of it? Mitsuhide — you nurse a grievance for having crossed me, and you mean to make a friend of Lord Ieyasu and have him at your back some day. So that is your game! Enough! The office of host I give to Niwa Nagahide. Get you to Bitchū, and fight the Mōri under Hideyoshi's command!"
+"Just as I thought! The lord of Hamamatsu is a Junior Fourth Rank, Upper, Lesser Captain of the Right Guard; I am Minister of the Right, Junior Second Rank. And you lay on this outrageous fuss, as though we awaited the coming of the shogun himself! What is the meaning of it? Mitsuhide — you nurse a grievance for having crossed me, and you mean to make a friend of Lord Ieyasu and have him at your back some day. So that is your game! Enough! The office of host I give to Niwa Nagahide. Get you to Bitchū, and fight the Mōri under Hideyoshi's command!"
 
 He rattled it all out in one breath, and stamped away.
 
@@ -582,7 +582,7 @@ Day was breaking.
 
 Just at that hour, at the Myōkoku-ji in Sakai, Ieyasu woke, meaning to go back to Kyoto that day. And by the road told of in the earlier chapter he came through the perils of the Iga crossing; and after a brief tryst with Hatsuko on the beach at Shiroko in Ise, he made his escape at last back to Hamamatsu.
 
-As for Goemon: once clear of the Honnō-ji, he changed into a peasant's clothes and, now ambling as though half asleep, now breaking into a hurry, took the road as the day opened wide: through Ōtsu and Minakuchi, over the Suzuka pass, eastward, and ever eastward. The horses of the messengers galloping out from Kyoto in every direction, to carry word of the Honnō-ji affair to the daimyō of the provinces, had not yet caught up with him.
+As for Goemon: once clear of the Honnō-ji, he changed into a peasant's clothes and, now ambling as though half asleep, now breaking into a hurry, took the road as the day opened wide: through Ōtsu and Minakuchi, over the Suzuka pass, eastward, and ever eastward. The horses of the messengers galloping out from Kyoto in every direction, to carry word of the Honnō-ji affair to the daimyo of the provinces, had not yet caught up with him.
 
 In the face of so vast an event, it was as though, for one moment, the whole world had gone numb.
 
@@ -702,7 +702,7 @@ To filch his master's woman: that was a thing Goemon had done himself. But the w
 
 "I've a year on him in age, but for looks there's no comparison. Anyone can see it at a glance. And that is the very reason. Hatsuko had believed herself summoned by Lord Ieyasu; and when she found it was I who had slipped into her bed, she minded it not a whit — took to me the more gladly, if anything. So any ordinary man will find nothing strange in the tale.
 
-"Our lord, now — for all that he was packed off as a hostage in boyhood and had his hard years of it, he's a castle-holding daimyō born. Squat and dumpy, a badger just up from its nap; no one would ever take him for the great lover of the realm. Yet he's sure his face holds no end of charm for a woman. That brimful, self-satisfied look that comes into his eye when he weighs one up — you never noticed it? Faugh. It fairly turns my stomach."
+"Our lord, now — for all that he was packed off as a hostage in boyhood and had his hard years of it, he's a castle-holding daimyo born. Squat and dumpy, a badger just up from its nap; no one would ever take him for the great lover of the realm. Yet he's sure his face holds no end of charm for a woman. That brimful, self-satisfied look that comes into his eye when he weighs one up — you never noticed it? Faugh. It fairly turns my stomach."
 
 Goemon had never yet come on Ieyasu in any such scene, so he only watched Hanzō's face and sipped, little by little, at his cup.
 

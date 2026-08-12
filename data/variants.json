@@ -1,17 +1,50 @@
 {
   "_about": "Whole-book reconciliation variants map (check 12). WRONG forms ONLY, keyed by the canonical rendering; never list the canonical form among its own wrongs. Consumed by scripts/check_reconcile.py --variants and scripts/check_structure.py. Matching is word-boundary (\\bWRONG\\b), so substrings like 'Sasaki', 'Daitoku-ji', 'Hanzomon' are safe. Decisions recorded in PROGRESS.md (Batch 9 reconciliation).",
   "variants": {
-    "Mount Kōya": ["Koya-san", "Mount Koya", "Koya"],
-    "Sassa Narimasa": ["Sasa Narimasa"],
-    "Sassa": ["Sasa"],
-    "Daitō": ["Daito"],
-    "Osaka": ["Ōsaka"],
-    "Kyūshū": ["Kyushu"],
-    "Hanzō": ["Hanzo"],
-    "Taikō kenchi": ["Taiko kenchi"],
-    "gray": ["grey"],
-    "theater": ["theatre"],
-    "story": ["storey", "storeys"],
-    "mold": ["mould"]
+    "Mount Kōya": [
+      "Koya-san",
+      "Mount Koya",
+      "Koya"
+    ],
+    "Sassa Narimasa": [
+      "Sasa Narimasa"
+    ],
+    "Sassa": [
+      "Sasa"
+    ],
+    "Daitō": [
+      "Daito"
+    ],
+    "Osaka": [
+      "Ōsaka"
+    ],
+    "Kyūshū": [
+      "Kyushu"
+    ],
+    "Hanzō": [
+      "Hanzo"
+    ],
+    "Taikō kenchi": [
+      "Taiko kenchi"
+    ],
+    "gray": [
+      "grey"
+    ],
+    "theater": [
+      "theatre"
+    ],
+    "story": [
+      "storey",
+      "storeys"
+    ],
+    "mold": [
+      "mould"
+    ],
+    "daimyo": [
+      "daimyō"
+    ],
+    "shogun": [
+      "shōgun"
+    ]
   }
 }
