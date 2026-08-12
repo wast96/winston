@@ -2929,6 +2929,63 @@
    "en": "Zhou Weilong",
    "pinyin": "Zhou Weilong",
    "status": "attested"
+  },
+  "张大林": {
+   "en": "Zhang Dalin",
+   "pinyin": "Zhang Dalin",
+   "status": "decided"
+  },
+  "张载阳": {
+   "en": "Zhang Zaiyang",
+   "pinyin": "Zhang Zaiyang",
+   "status": "attested"
+  },
+  "李休堂": {
+   "en": "Li Xiutang",
+   "pinyin": "Li Xiutang",
+   "status": "decided"
+  },
+  "樊瑾丞": {
+   "en": "Fan Jincheng",
+   "pinyin": "Fan Jincheng",
+   "status": "decided"
+  },
+  "张作霖": {
+   "en": "Zhang Zuolin",
+   "pinyin": "Zhang Zuolin",
+   "status": "attested"
+  },
+  "苏嘉寿": {
+   "en": "Su Jiashou",
+   "pinyin": "Su Jiashou",
+   "status": "decided"
+  },
+  "每吾生": {
+   "en": "Mei Wusheng",
+   "pinyin": "Mei Wusheng",
+   "status": "provisional",
+   "note": "每吾生; evidently a pen-name (&#8216;shameless literatus&#8217;). Romanization is the crop-verified reading; no independent attestation."
+  },
+  "张法尧": {
+   "en": "Zhang Fayao",
+   "pinyin": "Zhang Fayao",
+   "status": "decided"
+  },
+  "俞叶封": {
+   "en": "Yu Yefeng",
+   "pinyin": "Yu Yefeng",
+   "status": "decided"
+  },
+  "林怀部": {
+   "en": "Lin Huaibu",
+   "pinyin": "Lin Huaibu",
+   "status": "attested",
+   "note": "林怀部; Zhang Xiaolin's bodyguard, who shot him dead on 14 August 1940."
+  },
+  "吴静观": {
+   "en": "Wu Jingguan",
+   "pinyin": "Wu Jingguan",
+   "status": "decided"
   }
  },
  "organizations": {
@@ -3631,6 +3688,32 @@
    "en": "the Military Affairs Commission",
    "pinyin": "the Military Affairs Commission",
    "status": "decided"
+  },
+  "新亚和平促进会": {
+   "en": "the New Asia Peace Promotion Association",
+   "pinyin": "Xinya Heping Cujinhui",
+   "status": "decided"
+  },
+  "共进会": {
+   "en": "the Mutual Progress Society",
+   "pinyin": "Gongjinhui",
+   "status": "decided",
+   "note": "共进会; the 1911-revolution Society whose name the 1927 &#8216;China Mutual Progress Society&#8217; (中华共进会) appropriated."
+  },
+  "华商纱布交易所": {
+   "en": "the Shanghai Chinese Merchants' Cotton Yarn and Cloth Exchange",
+   "pinyin": "Huashang Shabu Jiaoyisuo",
+   "status": "decided"
+  },
+  "锡箔局": {
+   "en": "the Tinfoil Bureau",
+   "pinyin": "Xibo Ju",
+   "status": "decided"
+  },
+  "小八股党": {
+   "en": "the \"Little Eight-Gang\" band",
+   "pinyin": "Xiao Bagu Dang",
+   "status": "decided"
   }
  },
  "places": {
@@ -3945,6 +4028,69 @@
    "en": "Kennedy Town",
    "pinyin": "Kennedy Town",
    "status": "attested"
+  },
+  "慈谿县": {
+   "en": "Cixi county",
+   "pinyin": "Cixi",
+   "status": "decided",
+   "note": "慈谿 (also written 慈溪); a county in northeastern Zhejiang, Zhang Xiaolin's birthplace."
+  },
+  "拱宸桥": {
+   "en": "Gongchen Bridge",
+   "pinyin": "Gongchenqiao",
+   "status": "decided"
+  },
+  "杭嘉湖": {
+   "en": "the Hangzhou-Jiaxing-Huzhou region",
+   "pinyin": "Hang-Jia-Hu",
+   "status": "decided"
+  },
+  "满庭芳": {
+   "en": "Mantingfang",
+   "pinyin": "Mantingfang",
+   "status": "decided"
+  },
+  "大兴街": {
+   "en": "Daxing Street",
+   "pinyin": "Daxing Jie",
+   "status": "decided"
+  },
+  "天然饭店": {
+   "en": "the Tianran Hotel",
+   "pinyin": "Tianran Fandian",
+   "status": "decided"
+  },
+  "湖滨路": {
+   "en": "Hubin Road",
+   "pinyin": "Hubin Lu",
+   "status": "decided"
+  },
+  "更新舞台": {
+   "en": "the Gengxin Stage",
+   "pinyin": "Gengxin Wutai",
+   "status": "decided"
+  },
+  "吴淞口": {
+   "en": "the mouth of the Wusong River",
+   "pinyin": "Wusongkou",
+   "status": "decided"
+  },
+  "福州路": {
+   "en": "Fuzhou Road",
+   "pinyin": "Fuzhou Lu",
+   "status": "decided"
+  },
+  "五马路": {
+   "en": "Fifth Avenue",
+   "pinyin": "Wumalu",
+   "status": "decided",
+   "note": "五马路; the old Shanghai name for today's Guangdong Road. Rendered &#8216;Fifth Avenue&#8217;; the numeral is part of the name."
+  },
+  "四马路": {
+   "en": "Fourth Avenue",
+   "pinyin": "Simalu",
+   "status": "decided",
+   "note": "四马路; the old Shanghai name for today's Fuzhou Road. Rendered &#8216;Fourth Avenue&#8217; across the collection; the numeral is part of the name."
   }
  },
  "terms": {
@@ -4186,6 +4332,33 @@
    "pinyin": "huangse gonghui",
    "status": "decided",
    "note": "黄色工会; &#8216;yellow&#8217; (government- or employer-controlled) labor unions, as opposed to Communist-led &#8216;red&#8217; ones."
+  },
+  "奉系": {
+   "en": "the Fengtian clique",
+   "pinyin": "Fengxi",
+   "status": "attested"
+  },
+  "淞沪护军使": {
+   "en": "the Songhu Defense Commissioner",
+   "pinyin": "Songhu Hujunshi",
+   "status": "decided",
+   "note": "淞沪护军使; the officer commanding the Shanghai-Wusong garrison in the warlord years."
+  },
+  "西湖珍宝": {
+   "en": "\"West Lake Treasure\"",
+   "pinyin": "Xihu Zhenbao",
+   "status": "decided",
+   "note": "西湖珍宝; the nickname of a rival Hangzhou gambler."
+  },
+  "乌木开泰": {
+   "en": "\"Ebony Kaitai\"",
+   "pinyin": "Wumu Kaitai",
+   "status": "decided"
+  },
+  "象牙回春": {
+   "en": "\"Ivory Huichun\"",
+   "pinyin": "Xiangya Huichun",
+   "status": "decided"
   }
  }
 }
