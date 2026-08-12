@@ -925,12 +925,58 @@ Yoshioka-zome, Kamagafuchi Futatsu-domoe, Toyotomi Hideyoshi-fu. Terms: the
 Daijo-daijin, the hwacha and bigyeok-jincheollae, the daijin-bashira and sunoko,
 kama-yude.
 
-### For the whole-book reconciliation (B09), OPEN items (carry forward from ch07)
-- Mount Koya: glossary key 高野山 renders "Koya-san"; ch04-ch08 prose renders "Mount
-  Koya" (macron). Pick one.
-- Osaka: majority plain "Osaka" (ch07/ch08 follow it) vs a minority with macron.
-  Standardize.
-- Daito: HANDOFF/glossary plain "Daito"; ch07 "Konpon Daito". Standardize.
-- Sasa vs Sassa Narimasa: glossary "Sasa"; standard Hepburn "Sassa". Decide + grep-fix.
-- NEW in ch08: Kyushu. House macron style gives "Kyushu" with u-macrons (ch08 uses
-  it), but 2 earlier instances are plain "Kyushu". Standardize at the reconcile.
+## Batch 9 (FINAL) — reconciliation, back matter, close-out
+
+### Whole-book reconciliation sweep (check 12) — DONE
+The five OPEN reconcile items were DECIDED, the glossary changed, and EVERY built
+unit + notes.json + glossary.json grep-fixed (variants map = wrong forms only, in
+data/variants.json). Rebuilt; qa PASS, epubcheck 0/0/0/0, check_apparatus clean;
+check_reconcile.py --variants data/variants.json reports NO wrong form surviving and
+spelling locale 0 British / 194 American.
+
+RESOLVED (canonical form -> wrong forms folded in):
+- **Mount Kōya** (macron). Glossary 高野山 `en` set to "Mount Kōya" (56x in prose),
+  `pinyin` "Kōya-san"; the native short forms "Kōya-san" (3) and "Kōya" (8) are
+  macron-correct and legitimate. Folded: "Koya-san", "Mount Koya". Covered by the
+  ch02 "Kōbō Daishi / Oku-no-in" footnote + the glossary entry.
+- **Osaka** (plain, conventional English like Kyoto/Tokyo). Folded 8x "Ōsaka".
+- **Daitō** (macron; 大塔, an architectural term, not a conventional English place).
+  Folded 3x "Konpon Daito". "Daitoku-ji" is unrelated and untouched.
+- **Sassa Narimasa / Sassa** (standard Hepburn, 佐々). Folded "Sasa Narimasa" (7) and
+  bare "Sasa" (2). "Sasaki" (佐々木) is a different name, untouched.
+- **Kyūshū** (macron; house style, ch08's form). Folded 4x plain "Kyushu".
+
+Two further drifts the "no wrong form surviving" pass caught and fixed:
+- **Hattori Hanzō** — the antagonist, 315x with macron, had ~13 macron-less "Hanzo"
+  strays (2 prose, notes, glossary). Fixed. "Hanzomon" (the Edo gate, conventional
+  English) left as-is.
+- **Taikō kenchi** — macron added to match "Taikō" (太閤) used everywhere else (3 spots).
+- **Spelling locale** unified to American: grey->gray (5), theatre->theater (1),
+  storey(s)->story/stories (4), mould->mold (smouldering->smoldering, 1).
+
+The ~20 decided renderings were grep-counted book-wide: each is single-form. Notes
+at first appearance confirmed for the recurring subjects; Negoro-ji (glancing childhood
+dialogue mention in ch02) and the Jurakudai (one-word list item in ch05) keep their
+substantive notes at ch05 and ch08 respectively — the documented defer-to-substantive
+placement, with the glossary carrying the gloss meanwhile.
+
+### Afterword (解説) — DONE
+Musashino Jirō's critical afterword (printed folios 529-534, PDF 531-536) translated
+by reading the page images, every name/title/date crop-verified (scripts/cropview.py):
+Musashino Jirō (literary critic); the 1987 Kabuki-za "Sanmon Gosan no Kiri"; the
+lobby tapestry after Nabei Katsuyuki's painting of the late Jitsukawa Enjaku; Namiki
+Gohei; Yamada Fūtarō / Gomi Yasusuke / Shibata Renzaburō; Sarutobi Sasuke / Kirigakure
+Saizō; Murayama's Shinkyō Gekidan / Yoake-mae / Donzoko / Ishikari-gawa career, d.1977
+age 76; the 1962 Daiei film (dir. Yamamoto Satsuo; Ichikawa Raizō; Itō Yūnosuke as
+Fujibayashi Nagato-no-kami and Momochi Sandayū) and the 1963 sequel (Wakayama
+Tomisaburō as Nobunaga); the execution date Bunroku 3 (1594) 8/24 at Sanjō-gawara.
+Rendered as clearly-attributed back matter via back_matter.json (new render_afterword
+in the builder; placed after the last chapter, before the Notes). The six passages the
+critic quotes from the novel (Ch.3 x2, Ch.1, Ch.8 x3) reuse the published chapter
+translations VERBATIM. House macron romanization throughout.
+
+### Cover — DONE
+The scan's colour cover (PDF p1, an illustration of the Nanzen-ji Sanmon, echoing
+Goemon's rooftop scene) was extracted byte-identical from source.pdf (cover.jpg,
+1152x1748 JPEG) and set as book.json cover_image; the builder copies it byte-identical.
+The generated typographic cover is no longer used.

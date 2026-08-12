@@ -22,7 +22,7 @@ Half-asleep, he lay thinking of her, his pillow in the row beside the pillow-sel
 
 When he woke it was the first day of the first month of Tenshō 11, the year 1583.
 
-The sky was the same leaden grey, snow ready to fall at any moment. Ducking under a token shimenawa, he went out onto the highroad and gazed off toward Takara-dera castle.
+The sky was the same leaden gray, snow ready to fall at any moment. Ducking under a token shimenawa, he went out onto the highroad and gazed off toward Takara-dera castle.
 
 The place was hushed and still; there seemed to be no New Year's rites, nothing at all. Strange, he thought, and then, come afternoon, all at once the people stirred and buzzed, and the air went taut with the sense of something about to break.
 
@@ -174,7 +174,7 @@ Morimasa's camp stood six kilometers north of the Shinmei fort, on Mount Gyoichi
 
 He slipped through the palisades and the abatis and stole into what seemed to be Morimasa's headquarters. It was a moonless dark. In the wood near the summit, something jet-black dropped on him without warning from overhead. A great serpent, he thought, of the kind that infested those hills, and there would be no fighting free once it wound him in its length; he flung himself backward and rolled, and in that instant a sharp pain went through his right shoulder. A blunder, he thought.
 
-But Goemon, reckoning that this journey led to a battlefield where a stray arrow or a stray bullet might come at any moment, had put on under his peasant clothes the coat of nanban-iron chain mail Hanzo had given him. So the sharpened point that found its way between the links bit no more than a centimeter into the flesh.
+But Goemon, reckoning that this journey led to a battlefield where a stray arrow or a stray bullet might come at any moment, had put on under his peasant clothes the coat of nanban-iron chain mail Hanzō had given him. So the sharpened point that found its way between the links bit no more than a centimeter into the flesh.
 
 The enemy was short, and small. And it moved like an Iga ninja.
 
@@ -194,7 +194,7 @@ This Koichi had once been hired by Uesugi Kenshin and used as a tool in the supp
 
 And this same Koichi of Higashi-Yubune was the man who, at the fall of Toyama, took Kashiwagi Shirobei's orphaned son Karasumaru, then five years old, upon his back and fled to Nagashima in Ise; and when Nagashima too was stormed and wiped out by Nobunaga, carried him overland to Ishiyama castle, cherished him as one cherishes a flower, and by the fall of Ishiyama had raised him into a strapping boy of eleven, nineteen kan in weight; and at that fall brought him along to Iga with their friend Etegi.
 
-Of Koichi since then no word has come; but Karasumaru, at the time of Ieyasu's crossing of Iga, was marked out and taken to Hamamatsu, lodged with Etegi in Hattori Hanzo's house, and, falling captive to the wiles of the self-styled woman ninja Hatsuko, has grown into a heavy fellow of fourteen and twenty-four kan. This too the reader knows.
+Of Koichi since then no word has come; but Karasumaru, at the time of Ieyasu's crossing of Iga, was marked out and taken to Hamamatsu, lodged with Etegi in Hattori Hanzō's house, and, falling captive to the wiles of the self-styled woman ninja Hatsuko, has grown into a heavy fellow of fourteen and twenty-four kan. This too the reader knows.
 
 If, then, the ninja who set upon Goemon just now, on the flank of Mount Gyoichi, gave that nasal snort "kukooh," it can be no one but Koichi. And if so, was he in Shibata Katsuie's hire?
 

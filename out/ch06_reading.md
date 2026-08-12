@@ -354,7 +354,7 @@ His spirits high, Hideyoshi set out to take Kishū at a single stroke. He named 
 
 When the rumor of it reached Negoro and Saiga, the whole countryside fell into a great ferment.
 
-In the grey of dawn on the thirteenth, the great bell of the Negoro-ji was rung, and the landed men, the strongmen, the village headmen, and the peasants filled the broad precincts.
+In the gray of dawn on the thirteenth, the great bell of the Negoro-ji was rung, and the landed men, the strongmen, the village headmen, and the peasants filled the broad precincts.
 
 These were days with no such thing as a loudspeaker. One man's voice could never carry to so vast a crowd.
 

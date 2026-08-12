@@ -6,7 +6,7 @@ That spring, people said, the cherry blossoms had bloomed everywhere in Kyoto an
 
 But now, those same blossoms lay fallen and browning along the roads; and beneath the Gojō Bridge, out of a beggars' hut, a single beggar came crawling into the last of the light.
 
-Her hair hung in matted ropes, dried and grey as river-weed, thick with the dust of the bank. Through it a face showed dimly. The left side had been burned away to something raw and terrible; the right was merely crusted with grime, the face of a young woman showing underneath.
+Her hair hung in matted ropes, dried and gray as river-weed, thick with the dust of the bank. Through it a face showed dimly. The left side had been burned away to something raw and terrible; the right was merely crusted with grime, the face of a young woman showing underneath.
 
 Her eyes did not match. The good right one and the puckered, half-shut left one had each gone dull and clouded. Anyone who held her gaze for long enough could see why. They had been given over so wholly to a grief too deep to sound that nothing else could find room in them. Whatever the world held up before that gaze, it reached her and found nothing to catch upon.
 
@@ -82,7 +82,7 @@ It was into the school that Organtino led Tamo. School, here, mostly meant the m
 
 Nobunaga had taken to the rare and wonderful treasures of Europe the missionaries brought along with their doctrine, and he meant to use this new faith to sap the strength of Buddhism. So in Tenshō 7, at Organtino's petition, he had a broad stretch of paddy filled in, north of the Minami-shindō below Azuchi Castle, and a three-storied wooden building raised on it, a chapel on the ground floor and thirty-four rooms above. This he made a seminário, a training house, and into it he enrolled a crowd of high-born sons, among them retainers of Takayama Ukon. Organtino himself became its rector. The Kyoto Nanban-ji he had left, ever since Eiroku 7, nineteen years back, in the hands of Luís Fróis, who was in Japan; but he shuttled between the two without cease.
 
-This Azuchi seminário turns up as an engraving in a book at the archives in Modena, in Italy: the Compendium of the Great Deeds of Pope Gregory XIII. There it appears as a wholly Western building, three storeys of stone, complete with a square medieval bell-tower. But the artist had never laid eyes on the thing built at Azuchi and drew it from imagination. In truth it was a Japanese temple-style building, with only the faintest Western flavor added.
+This Azuchi seminário turns up as an engraving in a book at the archives in Modena, in Italy: the Compendium of the Great Deeds of Pope Gregory XIII. There it appears as a wholly Western building, three stories of stone, complete with a square medieval bell-tower. But the artist had never laid eyes on the thing built at Azuchi and drew it from imagination. In truth it was a Japanese temple-style building, with only the faintest Western flavor added.
 
 The Christian schooling climbed by stages. First the casa de probação, the preparatory house; then the noviciado, the novitiate; then the seminário, the training house; and last the colégio, the college, whose graduates were placed in formal teaching posts. Even before Azuchi opened, the first seminário and colégio in Japan had been founded at Arima, then a colégio at Funai in Bungo, and a noviciado at Usuki. Great numbers of students bent over their books: retórica, rhetoric; filosofia, philosophy; lógica, logic; matemática, astronomy and mathematics; cânones, canon law; teologia, theology; and Portuguese, and Latin, and instrumental and vocal music, and painting, and copperplate engraving.
 
@@ -170,7 +170,7 @@ So to Kashii the stars were a thing there was still study to be done of, and yet
 
 ***
 
-Around the middle of the fifth month a rumor went round: Ieyasu, at Nobunaga's invitation, was coming up to the capital to take in the sights of Kyoto, Ōsaka, Nara, and Sakai, and the Nanban-ji was to be given over for his Kyoto lodging.
+Around the middle of the fifth month a rumor went round: Ieyasu, at Nobunaga's invitation, was coming up to the capital to take in the sights of Kyoto, Osaka, Nara, and Sakai, and the Nanban-ji was to be given over for his Kyoto lodging.
 
 At the time the church held the padre Cariam and the irmãos Lourenço and Bertolameu, while Organtino was away at Azuchi.
 
@@ -220,7 +220,7 @@ The Christians could not look on all this and pretend not to see it. So they rai
 
 The hospitals and old-age homes the people called yōjō-ya, health-houses. And, as the jar at the Nanban-ji gate bore witness, they carried on a wide work besides, taking in alms and dealing them out to the poor.
 
-The year after the affair at Honnō-ji, a hundred converts came together at Nagasaki as dues-paying members and founded a misericórdia, a charitable society that did its good works out of the funds they raised. People called it the charity-house. In time the like was set up at Funai, at Kyoto, at Ōsaka, at Sakai, and elsewhere.
+The year after the affair at Honnō-ji, a hundred converts came together at Nagasaki as dues-paying members and founded a misericórdia, a charitable society that did its good works out of the funds they raised. People called it the charity-house. In time the like was set up at Funai, at Kyoto, at Osaka, at Sakai, and elsewhere.
 
 So it was that the padres and irmãos even picked up a rough practice of medicine, and with their own hands would wipe and wash the pus of a leper.
 
@@ -320,9 +320,9 @@ He was a quick-witted, tireless man, and that was why he had been taken into the
 
 Thirteen days before the affair at Honnō-ji, on the twenty-first of the fifth month, Ieyasu had set out for the capital at Nobunaga's invitation. Nobunaga feasted him at Azuchi and treated him to kōwaka dances and sarugaku and all the rest.
 
-It was a sightseeing journey, Kyoto and Ōsaka and Sakai, so his following was very small, no more than a few dozen: Honda Tadakatsu, Sakai Tadatsugu, Ishikawa Kazumasa, and the others. Hattori Hanzō was among them.
+It was a sightseeing journey, Kyoto and Osaka and Sakai, so his following was very small, no more than a few dozen: Honda Tadakatsu, Sakai Tadatsugu, Ishikawa Kazumasa, and the others. Hattori Hanzō was among them.
 
-After Kyoto, Ieyasu viewed the old site of Ishiyama Castle at Ōsaka, went by way of Sumiyoshi toward Sakai, and put up at Myōkoku-ji. There, planted when the temple was built, stood a sago palm bought off a foreign ship. In twenty years it had grown to a wonderful size, and the sight of it took Ieyasu aback. Nobunaga had lent him his attendant Hasegawa Takemaru for a steward, and the great Kyoto merchant Chaya Shirōjirō for a guide.
+After Kyoto, Ieyasu viewed the old site of Ishiyama Castle at Osaka, went by way of Sumiyoshi toward Sakai, and put up at Myōkoku-ji. There, planted when the temple was built, stood a sago palm bought off a foreign ship. In twenty years it had grown to a wonderful size, and the sight of it took Ieyasu aback. Nobunaga had lent him his attendant Hasegawa Takemaru for a steward, and the great Kyoto merchant Chaya Shirōjirō for a guide.
 
 After four or five days, thinking to go back up to Kyoto before long and see Nobunaga once more, Ieyasu sent Honda Tadakatsu on ahead, on the early morning of the second of the sixth month, to give word he would return that day. He set out from Sakai himself a little after.
 
@@ -416,7 +416,7 @@ Having come this far, they paid a handsome fee in thanks, took their leave of D�
 
 The wind stood fair, and they meant to sail at first light. As Hanzō went about the house ordering the boat and the bath made ready, his eye fell on a girl of sixteen or seventeen at work in the inner rooms. Her skin was a shade dark, but her eyes were wide and bright, and there was a life in the way she moved that seemed to wash the mind clean to watch. "Who is that?" he asked a maid. "The one daughter of the house," was the answer. "Her name is Hatsuko."
 
-The road had been all strain since he left his own province, Kyoto and Ōsaka and Sakai and the crossing of Iga; and now, come this far at last, Hanzō wanted the girl, and wanted her badly. But he checked himself and thought: as I want her, so, surely, does the lord. Only, in the matter of women, Ieyasu was the sort who lusts in silence and will never say a word of it. So Hanzō went and had it out with the master, Kyūemon.
+The road had been all strain since he left his own province, Kyoto and Osaka and Sakai and the crossing of Iga; and now, come this far at last, Hanzō wanted the girl, and wanted her badly. But he checked himself and thought: as I want her, so, surely, does the lord. Only, in the matter of women, Ieyasu was the sort who lusts in silence and will never say a word of it. So Hanzō went and had it out with the master, Kyūemon.
 
 "When my lord is safe home in Mikawa, you'll come in for a handsome reward," he said. "But here's the difficulty. Among his retainers there is one who half suspects you of nursing some treachery. Send that girl to his bedchamber tonight. If she takes his fancy, then, over and above the reward, it will do you a further good turn." A humble merchant of the Ise-bay shore could hardly hold out against such words. Hatsuko was put in the bath, told to yield to whatever might be done and do as she was bidden, and sent in to Ieyasu's chamber.
 
@@ -572,7 +572,7 @@ But the women of Japan down to the Sengoku age were not like that. The peasant w
 
 Now, while Hatsuko is hard at her ninja training, let us turn our eyes back to the capital.
 
-The Azuchi seminary had burned, so the whole company had removed to the Nanban-ji in Kyoto. But that stood in the crowded heart of the city, on cramped ground, so they moved again, to Takatsuki, about halfway between Kyoto and Ōsaka, and opened a seminary there. The lord of that castle was Takayama Ukon, Justo by his Christian name, the famous Christian daimyō, who had upward of thirty thousand vassals. The chapel grounds were ample and the buildings splendid. Those already there and those come over from Azuchi made thirty-two pupils boarding together. One of them, needless to say, was Shinbei, second son of the Kōga middle-ninja Tarao Dōka.
+The Azuchi seminary had burned, so the whole company had removed to the Nanban-ji in Kyoto. But that stood in the crowded heart of the city, on cramped ground, so they moved again, to Takatsuki, about halfway between Kyoto and Osaka, and opened a seminary there. The lord of that castle was Takayama Ukon, Justo by his Christian name, the famous Christian daimyō, who had upward of thirty thousand vassals. The chapel grounds were ample and the buildings splendid. Those already there and those come over from Azuchi made thirty-two pupils boarding together. One of them, needless to say, was Shinbei, second son of the Kōga middle-ninja Tarao Dōka.
 
 Two more had joined him: Ukon, third son of Taki Shirōbei of Aburahi in Kōga, nineteen; and Moriichirō, heir of Torii Kihachirō of Ōhara, nineteen.
 
@@ -606,11 +606,11 @@ And again, Kōga was pierced by the Tōkaidō, which crosses the Suzuka and runs
 
 These were the houses: Uchiki, who live now at Ishibe, and Hattori, likewise of Ishibe; Miyajima of Mikumo, and Mikumo, and Hari; Natsumi of Natsumi; Ukai of Iwane, and Aoki, and Iwane; Ban of Bantani, and Ueyama, and Nakayama, and Hatta; Yamanaka of Kashiwagi, and Uda; Minobe of Minakuchi, and Shinjō; Ayukawa of Ayukawa, and Kurokawa; Ōno of Ōno, and Akutagawa, and Tongū; Tsuchiyama of Tsuchiyama, and Hirako, and Ōkawara, and Ueda, and Torii, and Ōkubo; Ōhara of Aburahi, and Noda, and Yamanaka; Takano of Ōhara, and Wada, and Takamine, and Ueno, and Taki; Mochizuki of Miya, and Ōhara; Katsuragi of Terashō; Saga of Sayama, and Oki, and Kanda; Saji of Saji; Iwamuro of Sayama; Kuraji of Minamisoma, and Sugitani; Takayama of Kitasoma, and Yamakami; Makimura of Kumoi; Nagano of Nagano; Ogawa of Ohara, and Sugiyama; Tarao of Tarao; and Sasayama of Kōka. The Iga forts were mountain strongholds. These, by contrast, were built out in the middle of the flat land, ringed round with forest and banked with earthworks.
 
-Of them all, I have seen the Mochizuki house that stands to this day at Ryūhōshi, in Kōnan-chō. The Mochizuki, among the fifty-three, were of the rank called the Ten Shinobi of Kōga. To the eye it is an ordinary big farmhouse. But within, it runs to three storeys, with hidden rooms, spy-windows, concealed ladders, trap-doors, escape-hatches, the traces of an underground passage, alarm-rattles: a very marvel of intricate cunning. The descendants keep, today, the Ōmi Pharmaceutical Company, and make and sell a stomach-medicine called Ninjutsu-gan, and others besides.
+Of them all, I have seen the Mochizuki house that stands to this day at Ryūhōshi, in Kōnan-chō. The Mochizuki, among the fifty-three, were of the rank called the Ten Shinobi of Kōga. To the eye it is an ordinary big farmhouse. But within, it runs to three stories, with hidden rooms, spy-windows, concealed ladders, trap-doors, escape-hatches, the traces of an underground passage, alarm-rattles: a very marvel of intricate cunning. The descendants keep, today, the Ōmi Pharmaceutical Company, and make and sell a stomach-medicine called Ninjutsu-gan, and others besides.
 
 But whether one thinks of the Nijō house in Kyoto or of this Mochizuki house, was there really any need to lavish such strange ingenuity on a private dwelling?
 
-Once the enemy has broken right into your house, surely the fight is already lost. And so a suspicion takes shape: that these devices were not for ninjutsu at all, but had to do with the Kirishitan. Take this Mochizuki house. Its whole floor area is fifty-two tsubo, yet the hidden third storey of the main building is a great room of better than thirty. There is a window there, made not to be seen from outside, a bare shaku and five sun high and some five shaku wide, but fitted with heavy iron bars and stretched over with wire mesh. Part of the floor is a trap-door, and the mouth of the hidden ladder, kept hoisted up out of the way, is strictly concealed on the first floor and the second alike.
+Once the enemy has broken right into your house, surely the fight is already lost. And so a suspicion takes shape: that these devices were not for ninjutsu at all, but had to do with the Kirishitan. Take this Mochizuki house. Its whole floor area is fifty-two tsubo, yet the hidden third story of the main building is a great room of better than thirty. There is a window there, made not to be seen from outside, a bare shaku and five sun high and some five shaku wide, but fitted with heavy iron bars and stretched over with wire mesh. Part of the floor is a trap-door, and the mouth of the hidden ladder, kept hoisted up out of the way, is strictly concealed on the first floor and the second alike.
 
 I cannot help thinking that the whole purpose of the building was to hold secret meetings, and, at need, to give a safe way out in a moment of danger. The more I turn it over, the stronger the suspicion grows. The house as it stands is, of course, not of the Sengoku age, but likely of the mid-Tokugawa period or after. And since it is plain the ninja drew close to the Kirishitan precisely to lay hands on gunpowder and the other secret Nanban arts and instruments, it may well be a case of the mummy-hunter turned mummy himself.
 
@@ -628,7 +628,7 @@ He had a ruined left eye, and a right so dim he was all but blind, a little fell
 
 His figure as he played was a strange one indeed.
 
-"I, now, Tamo, I used to stand at people's doorways and play this biwa, and beg my bread. Born in Hizen, I was, so I begged my way from one end of Kyushu to the other. Blind in the left eye from my birth, and the right one as though a mist lay always over it. My father and my mother went off somewhere, the two of them, and were gone. From a child I was a beggar. I followed a biwa hōshi about as his boy, and learned the biwa; and when that hōshi died, he left me this biwa for a keepsake, and gave me the name Ryōsai."
+"I, now, Tamo, I used to stand at people's doorways and play this biwa, and beg my bread. Born in Hizen, I was, so I begged my way from one end of Kyūshū to the other. Blind in the left eye from my birth, and the right one as though a mist lay always over it. My father and my mother went off somewhere, the two of them, and were gone. From a child I was a beggar. I followed a biwa hōshi about as his boy, and learned the biwa; and when that hōshi died, he left me this biwa for a keepsake, and gave me the name Ryōsai."
 
 "When that hōshi died, you say? Aye, I grieved. To be alone in all this wide world, just one soul, all by itself, there is no sorrow like it. You are alone too, Tamo, are you not?"
 

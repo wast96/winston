@@ -218,7 +218,7 @@ On them was written the following.
 "By decree of the lord of the domain, a land-survey is to be carried out within this district. Taking a carpenter's measure six shaku three sun to the side as one bu; thirty bu are fixed as one se, ten se as one tan, ten tan as one cho. The yield (meaning the harvest) is fixed thus: for upper paddy, one koku five to; for middle paddy, one koku three to; for lower paddy, one koku one to; and for upper dry field, one koku two to; for middle field, one koku; for lower field, eight to. The tax shall be two parts in every three of the yield (that is, two-thirds), the peasant's share one part in three. To this end three teams of survey-officers to a district will be sent out, who will lay the measuring-rope with all strictness, enter each holding plainly in the survey-register, have the peasants copy it out, and require of them a written bond. Any who work a fraud, or fall into insolent conduct, shall be strictly examined and punished on the spot. Whoever falls into arrears on the tax newly fixed by the survey, or refuses the corvee (meaning the forced levy of laborers), or removes to another village—
 —removing there is strictly forbidden. And should any man conceal a runaway peasant, then he himself, and with him every soul in his hamlet, shall without exception be visited with the severest penalty."
 
-So it was that Hideyoshi's sword-hunt and land-survey, famous in the histories as the Taiko kenchi, came from this time on to be pressed, without pity or pardon, onto the peasants of the whole of Japan.
+So it was that Hideyoshi's sword-hunt and land-survey, famous in the histories as the Taikō kenchi, came from this time on to be pressed, without pity or pardon, onto the peasants of the whole of Japan.
 
 The sword-hunt (at the time they called it the sword-sweep as well) was no invention of Hideyoshi's. There were precedents for it, in China and in Japan alike. But it was Hideyoshi who carried it through nationwide, and to the root. After this reduction of Negoro and Saiga, with a few more years' effort, he stripped the common people of their weapons down to the last. Not swords only, but short-swords, halberds, spears, daggers, sword-skewers, bows, guns, helmets and harness—all of it was called in; and by this he left the farmers wholly without the means to resist. On top of that, an over-heavy survey combed out cultivated ground that had gone unnoticed till then, missing not the smallest hidden paddy, and made it possible to take two parts in three of the harvest, to the last grain. And so it opened the road that made the Tokugawa's whole peasant policy workable: neither let them live, nor let them die.
 
@@ -537,7 +537,7 @@ Goemon gave his word, set about his gear, and to Maki he said only, "Wait for me
 
 Neither Maki nor Goemon dreamed that this would be their parting in this life. Maki only stood rooted there, gazing after the quarter where he had gone, long after the shape of him, swimming the marsh without a sound, had sunk into the dark, as the hazy moon drew over with thick cloud and the night came down low.
 
-Mount Kōya lies on the border of Kii and Yamato, on the southern fall of the mountainside where Jingamine, Mizugamine, and Goma-no-Danzan run on one after another. In some vast heaving of the earth's crust in the remotest past, the mountains here once stood reared and overlapping, sheer with fresh fault-scarps. Long, long ages of weather wore them down and washed them out to the softened look of old age; and over the rotted soil that covered the rock, cedar and cypress, umbrella-pine, fir and pine struck their roots thick, till the place became a perfect ground for the worship of mountains. It was in Kōnin 7, the year 816, that Kōbō Daishi received this mountain from the court, at his own petition; and choosing an open space on the mountain's crown, he made a precinct seven ri square about the Konpon Daito, the Great Pagoda, at its center, and drove the great building works forward for twenty years, until he entered his final meditation in Jōwa 2, the year 835.
+Mount Kōya lies on the border of Kii and Yamato, on the southern fall of the mountainside where Jingamine, Mizugamine, and Goma-no-Danzan run on one after another. In some vast heaving of the earth's crust in the remotest past, the mountains here once stood reared and overlapping, sheer with fresh fault-scarps. Long, long ages of weather wore them down and washed them out to the softened look of old age; and over the rotted soil that covered the rock, cedar and cypress, umbrella-pine, fir and pine struck their roots thick, till the place became a perfect ground for the worship of mountains. It was in Kōnin 7, the year 816, that Kōbō Daishi received this mountain from the court, at his own petition; and choosing an open space on the mountain's crown, he made a precinct seven ri square about the Konpon Daitō, the Great Pagoda, at its center, and drove the great building works forward for twenty years, until he entered his final meditation in Jōwa 2, the year 835.
 
 By the time Goemon turned toward the mountain, seven hundred and seventy years had passed since the Daishi founded it, and it was a holy ground, sternly closed to women, that drew the devotion of the whole realm.
 
@@ -557,7 +557,7 @@ These days the pilgrim to Mount Kōya, as I have said, comes by bus from the bac
 
 Late in the Fourth Month it was (the end of May by the new calendar), and yet up here the cold came stealing in, deep and still, and he shivered before he knew it.
 
-Through the Daimon he passed, and into the Danjō—a great open plaza, where the weighty buildings stand gathered: the Konpon Daito, the Kondō, the Miei-dō, the bell-tower. Not a soul in sight.
+Through the Daimon he passed, and into the Danjō—a great open plaza, where the weighty buildings stand gathered: the Konpon Daitō, the Kondō, the Miei-dō, the bell-tower. Not a soul in sight.
 Climbing this Mount Kōya for the first time, even Goemon, a man with no faith in him, felt an air of nameless, solemn awe close in and press hard about his body.
 
 He asked a temple-servant who had come out to sweep the grounds, and found his way to the Renge-jōin. Yūkō Ajari had already said his morning office. Four or five years past fifty, by the look of him, the ajari fixed Goemon with a great goggling stare. He was a shugen monk of no bottom you could sound, and faintly sinister.
@@ -572,7 +572,7 @@ He read Ōta Jirōzaemon-no-jō's letter.
 
 And with that he went out.
 
-But Goemon had no ease in him to go the whole way to the Oku-no-in, so he went back to the Danjō he had hurried through, and stood facing the Konpon Daito.
+But Goemon had no ease in him to go the whole way to the Oku-no-in, so he went back to the Danjō he had hurried through, and stood facing the Konpon Daitō.
 
 It was the very pagoda the Negoro-ji's had been modeled on; and but for the Negoro one being a size or two larger, they were of exactly the same form. Yet it did not draw at Goemon's heart as the Negoro pagoda had. Perhaps it was its newness: struck by lightning and burned in Daiei 1, the year 1521, it had stood rebuilt not sixty years.
 
@@ -750,7 +750,7 @@ Next he fell on Shikoku, and to Chōsokabe Motochika, who sued for terms, he gav
 
 Turned forty-nine now, his eyes a little failing, Hideyoshi, the better to run his one-man rule, set five men as commissioners to share the business of government between them: Asano Nagamasa, Maeda Gen'i, Mashita Nagamori, Ishida Mitsunari, and Natsuka Masaie.
 
-That settled, and within the summer, Hideyoshi led out a great army himself to put down Sasa Narimasa of Etchū. Sasa had thrown up forts at thirty-six points to the right and left of the Kurikara Pass, and made his strongholds of Kibune, Moriyama, Masuyama, and Toyama, and fought his defense; but his strength gave out at last, and he shaved his head, put on black robes, took the form of a monk, and came to surrender at Hideyoshi's headquarters on Gofuku-yama. It was the twenty-ninth of the eighth month.
+That settled, and within the summer, Hideyoshi led out a great army himself to put down Sassa Narimasa of Etchū. Sassa had thrown up forts at thirty-six points to the right and left of the Kurikara Pass, and made his strongholds of Kibune, Moriyama, Masuyama, and Toyama, and fought his defense; but his strength gave out at last, and he shaved his head, put on black robes, took the form of a monk, and came to surrender at Hideyoshi's headquarters on Gofuku-yama. It was the twenty-ninth of the eighth month.
 
 In a letter he sent from the camp to his lawful wife, Nene, Hideyoshi wrote, where his name should go, "Tenka"—the Realm. After this he often wrote it in kana, "tenka." From about this time he took himself for the foremost man under heaven, and began to carry himself as one. And with Hideyoshi's appointment as Kanpaku, Nene too became the Kita-no-mandokoro.
 
@@ -764,7 +764,7 @@ There survives a famous letter that Nobunaga sent to Nene around Tenshō 4 or 5�
 
 And so this "bald rat," from about that time it seems, set to chasing women in earnest.
 
-In point of fact, when the northern campaign against Sasa was over, at the start of the intercalary eighth month (Tenshō 13 was a leap year, with two eighth months), on his way home in triumph he broke his journey at Kanazawa in Kaga, put up some days with the castle's lord, Maeda Toshiie, and was feasted; and there he set eyes on Toshiie's third daughter, Gō-hime, whose pet name was Maa, a girl then of fourteen, and lost his heart to her.
+In point of fact, when the northern campaign against Sassa was over, at the start of the intercalary eighth month (Tenshō 13 was a leap year, with two eighth months), on his way home in triumph he broke his journey at Kanazawa in Kaga, put up some days with the castle's lord, Maeda Toshiie, and was feasted; and there he set eyes on Toshiie's third daughter, Gō-hime, whose pet name was Maa, a girl then of fourteen, and lost his heart to her.
 
 This lovely girl Maa-hime is one the novel has spoken of before, in the chapter "War upon War": how, in the days when Toshiie was still allied with Shibata Katsuie, she had been sent as a hostage to Katsuie's castle at Kita-no-shō, and what a beautiful girl she was, is told there.
 

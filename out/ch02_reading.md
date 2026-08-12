@@ -184,7 +184,7 @@ His mansion was for all the world a little castle, ringed with stone ramparts an
 
 The trade goods were kept in the naya down along the shore. What stood here seemed to be only the rare pieces meant as gifts for men of power, and the treasure the house held for itself. Pelts of strange beasts no one could name; fragrant woods; woven cloth; Portuguese muskets, great swords, spears, suits of armor; bedsteads, tables, chairs; jars of every kind of liquor; cut-glass goblets; bottles of spice and scent. All of it stood packed and ranged tight, one thing hard against the next.
 
-Goemon went round the hoard wide-eyed, but it was cash he was after. He put his eye to a gap in the wall. A man of fifty-five or six, his hair gone half grey, lay with his oily face turned straight up, snoring as though the world held no one but himself. For an old man his color was frighteningly good, and his red mouth hung wide. Three futon were spread side by side, and on either side of him slept a girl of sixteen or seventeen. His right hand held the left arm of the girl on his right, his left hand the right arm of the girl on his left, gripped fast, as if he would not let them get away.
+Goemon went round the hoard wide-eyed, but it was cash he was after. He put his eye to a gap in the wall. A man of fifty-five or six, his hair gone half gray, lay with his oily face turned straight up, snoring as though the world held no one but himself. For an old man his color was frighteningly good, and his red mouth hung wide. Three futon were spread side by side, and on either side of him slept a girl of sixteen or seventeen. His right hand held the left arm of the girl on his right, his left hand the right arm of the girl on his left, gripped fast, as if he would not let them get away.
 
 Even asleep, in his face and in his whole shape, the man's stubborn, bullish temper showed plain. Here was nothing like a samurai or a ninja. And this one was sated, content, afraid of no one. There is no easier thing in the world than robbing a man like that.
 
@@ -417,7 +417,7 @@ The soldiers heaped firewood and dry grass beneath the great gate and put it to 
 
 Before long the gate burned through and fell, and in a little while more than eighty souls had been slaughtered to the last.
 
-When the fire had died and they raked apart the ashes, "the priest Kaisen was found seated still in the full lotus, majestic, smouldering, in the very posture of a man passing into nirvana"; so the Shinsho Taikōki has it; and the Mikawa Go-Fudoki, too, records that "the abbot of the temple, Kaisen Chishō Kokushi, seated in Zen with his palms joined, passed away of himself." But in the tale as it is commonly told, up in the burning tower the priest Kōzan of Chōzen-ji turned to Kaisen and asked, "And enlightenment — how is it, here in the fire?" And Kaisen left behind that famous gāthā:
+When the fire had died and they raked apart the ashes, "the priest Kaisen was found seated still in the full lotus, majestic, smoldering, in the very posture of a man passing into nirvana"; so the Shinsho Taikōki has it; and the Mikawa Go-Fudoki, too, records that "the abbot of the temple, Kaisen Chishō Kokushi, seated in Zen with his palms joined, passed away of himself." But in the tale as it is commonly told, up in the burning tower the priest Kōzan of Chōzen-ji turned to Kaisen and asked, "And enlightenment — how is it, here in the fire?" And Kaisen left behind that famous gāthā:
 
 {p} For quiet meditation, no need of hills and streams:
 {p} blot out the mind, and the fire itself is cool.
@@ -508,7 +508,7 @@ He rattled it all out in one breath, and stamped away.
 
 Mitsuhide went back first to Sakamoto castle in Ōmi, and then, on the twenty-sixth, into Kameyama castle in Tanba, where his wife and children were, and set about preparing to march to Bitchū.
 
-Ieyasu reached Azuchi without mishap. On the nineteenth he was shown the dancing of Kōwaka Hachirō-dayū, on the twentieth the Noh of Umewaka-dayū, and on the twenty-first he set out to see the sights of Kyoto, Ōsaka, Nara, and Sakai. Nobunaga, meanwhile, on the twenty-ninth, left Azuchi and entered the Honnō-ji in Kyoto, meaning to meet Ieyasu here on his way back from the western tour.
+Ieyasu reached Azuchi without mishap. On the nineteenth he was shown the dancing of Kōwaka Hachirō-dayū, on the twentieth the Noh of Umewaka-dayū, and on the twenty-first he set out to see the sights of Kyoto, Osaka, Nara, and Sakai. Nobunaga, meanwhile, on the twenty-ninth, left Azuchi and entered the Honnō-ji in Kyoto, meaning to meet Ieyasu here on his way back from the western tour.
 
 Goemon's mind kept coming back to Mitsuhide's movements.
 

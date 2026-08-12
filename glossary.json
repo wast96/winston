@@ -154,9 +154,9 @@
     },
     "服部半蔵": {
       "en": "Hattori Hanzō",
-      "pinyin": "Hattori Hanzo",
+      "pinyin": "Hattori Hanzō",
       "status": "attested",
-      "note": "Hattori Masanari (1542&#8211;1596), 'Hanzo the Devil', the famed ninja captain in Tokugawa Ieyasu's service.",
+      "note": "Hattori Masanari (1542&#8211;1596), 'Hanzō the Devil', the famed ninja captain in Tokugawa Ieyasu's service.",
       "principal": true,
       "cast": "Ieyasu's ninja captain, of the Iga Hattori line.",
       "cast_order": 6
@@ -297,7 +297,7 @@
       "en": "Nobuyasu",
       "pinyin": "Matsudaira Nobuyasu",
       "status": "attested",
-      "note": "Ieyasu's eldest son and heir, forced to commit seppuku in 1579 at the age of twenty-one, with Hanzo as his second."
+      "note": "Ieyasu's eldest son and heir, forced to commit seppuku in 1579 at the age of twenty-one, with Hanzō as his second."
     },
     "築山どの": {
       "en": "the Lady Tsukiyama",
@@ -336,7 +336,7 @@
       "en": "Oyu",
       "pinyin": "Oyu",
       "status": "attested",
-      "note": "A kunoichi (woman shinobi) of Tarao, planted by Hattori Hanzo among Nobunaga's waiting-women at Azuchi. She feeds rumor to Nobunaga's page Ranmaru and works the smitten Soda Yoichiro."
+      "note": "A kunoichi (woman shinobi) of Tarao, planted by Hattori Hanzō among Nobunaga's waiting-women at Azuchi. She feeds rumor to Nobunaga's page Ranmaru and works the smitten Soda Yoichiro."
     },
     "左右田与一郎": {
       "en": "Soda Yoichiro",
@@ -366,7 +366,7 @@
       "en": "Kobo Daishi",
       "pinyin": "Kobo Daishi (Kukai)",
       "status": "attested",
-      "note": "Kukai (774-835), founder of Shingon esoteric Buddhism, held to lie not dead but in eternal meditation at Koya-san, awaiting the future Buddha Maitreya."
+      "note": "Kukai (774-835), founder of Shingon esoteric Buddhism, held to lie not dead but in eternal meditation at Kōya-san, awaiting the future Buddha Maitreya."
     },
     "鳥居喜八郎": {
       "en": "Torii Kihachirō",
@@ -609,8 +609,8 @@
       "note": "A senior retainer of Ieyasu&#8217;s who escorted Ogimaru to Hideyoshi; he later defected to Hideyoshi."
     },
     "佐々成政": {
-      "en": "Sasa Narimasa",
-      "pinyin": "Sasa Narimasa",
+      "en": "Sassa Narimasa",
+      "pinyin": "Sassa Narimasa",
       "status": "attested",
       "note": "Lord of Toyama, a staunch Shibata man who submitted to Hideyoshi after Katsuie&#8217;s fall."
     },
@@ -774,7 +774,7 @@
       "en": "Toyotomi Hideyori",
       "pinyin": "Toyotomi Hideyori",
       "status": "attested",
-      "note": "Hideyoshi's son and heir by the Lady Yodo (1593-1615); as an infant called 'Hiroi.' Died at the fall of Ōsaka castle in 1615."
+      "note": "Hideyoshi's son and heir by the Lady Yodo (1593-1615); as an infant called 'Hiroi.' Died at the fall of Osaka castle in 1615."
     },
     "李舜臣": {
       "en": "Yi Sun-sin",
@@ -850,7 +850,7 @@
       "en": "Arima",
       "pinyin": "Arima",
       "status": "attested",
-      "note": "Christian domain in Hizen (Kyushu); site of the first Japanese seminary."
+      "note": "Christian domain in Hizen (Kyūshū); site of the first Japanese seminary."
     },
     "臼杵": {
       "en": "Usuki",
@@ -937,10 +937,10 @@
       "note": "The head temple of the Shingi Shingon warrior-monks in Kii, and a nest of gunners; Hideyoshi destroyed it in 1585."
     },
     "高野山": {
-      "en": "Koya-san",
-      "pinyin": "Koya-san",
+      "en": "Mount Kōya",
+      "pinyin": "Kōya-san",
       "status": "attested",
-      "note": "Mount Koya, the monastic center of Shingon Buddhism, where Kobo Daishi is held to sit in eternal meditation."
+      "note": "Mount Kōya, the monastic center of Shingon Buddhism, where Kobo Daishi is held to sit in eternal meditation."
     },
     "ちぬの海": {
       "en": "the Chinu Sea",
@@ -1377,7 +1377,7 @@
       "note": "The Dait&#333; of the Negoro-ji, a two-storied <i>tah&#333;t&#333;</i> raised by Kakuban in 1129 after the Konpon Dait&#333; of Mount K&#333;ya. It survived the burning of the temple and stands today, a National Treasure; its walls still carry the marks of Hideyoshi&#8217;s musket-balls."
     },
     "太閤検地": {
-      "en": "the Taiko kenchi",
+      "en": "the Taikō kenchi",
       "pinyin": "Taikō kenchi",
       "status": "attested",
       "note": "Hideyoshi's nationwide cadastral land-survey, which fixed the tax base of the realm."
