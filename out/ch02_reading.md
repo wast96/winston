@@ -1,0 +1,435 @@
+## Cutting Down Rokusha
+
+Truly, the man's way in love was a cat's.
+
+After that, all unknown to anyone, Toshizō would steal into the residence of Saruwatari, Lord of Sado, priest of the Rokusha Myōjin at Fuchū, and lie with Osae as she lay alone within her mosquito net.
+
+No one knew of it.
+
+He dreaded being found out to an extreme degree. In that, Toshizō was like a cat.
+
+But stranger still, even to Osae he would not reveal who he was or from what village he came. His secrecy went beyond a cat's.
+
+Only, on the first night he stole to her, when he had held Osae to his fill,
+
+{j} "From now on, call me Toshi,"
+
+{j} was all he said as he took his leave. He seemed so terribly bashful saying it that to Osae he felt like another man altogether from the one bold enough to steal by night into the Saruwatari residence in search of a woman's bed.
+
+(A strange man.)
+
+Just when she thought so, he would turn wonderfully gentle.
+
+The very first time the man stole in under her mosquito net, he clapped his palm over Osae's mouth as she tried to rise, and
+
+{j} "I'm the man from the festival, the other night. My thanks for that night. I've come to return what you left behind,"
+
+{j} he whispered slowly at her ear; and taking up that same dagger in its red brocade bag, he drew the blade clear of its sheath and closed her hand about it,
+
+{j} "and if you find it hateful, you may stab me with this blade,"
+
+{j} he said.
+
+He was practiced at it.
+
+He gave Osae no moment in which to be afraid.
+
+"Where is it you come from?"
+
+{j} Osae asked, again and again.
+
+"Were a babe to come, the father's very name would go unknown, would it not?"
+
+But Toshizō only ever kept his silence.
+
+And yet the man himself, it seemed, knew all he needed to about Osae.
+
+The next night he stole to her,
+
+{j} "Soon you're to go up to Kyoto, they say, to serve a court-noble house,"
+
+{j} he said.
+
+"Oh—wherever did you hear it?"
+
+For news of that kind was known only within the Saruwatari house.
+
+"Who told you?"
+
+"..."
+
+It was as the man said. Come autumn, for reasons of her own, she was to enter the service of the Kujō house in Kyoto.
+
+Osae herself had no heart for the journey, but a certain high official of the shogunate had pressed his hands to the floor before her, begging her to go, and so at last she had been brought round to it. The purpose was to spy out the movements of the Court.
+
+Toshizō, of course, knew nothing so far as that.
+
+"A pity, that. Had your husband but lived, you would be the lady of Matsudaira Iori, a hatamoto of the line since the Mikawa days; you'd have no call to go up to Kyoto or anywhere else."
+
+"You know a great deal about me."
+
+"A thing like that, any hired farmhand hereabouts knows."
+
+At seventeen Osae had been married to Matsudaira Iori, a bannerman of the kobushin-gumi at eight hundred koku, with a residence in Honjo; but before long she lost her husband and returned to her family.
+
+Her family, the Saruwatari, were among the very first houses of the province—come, it was said, from Kyoto to settle in the Kantō in an age older than the Kamakura shogunate—and being not a warrior house but a priestly one, they might marry into an Edo hatamoto family one moment and, the next, trade brides and grooms with the shodaibu houses of the court in Kyoto.
+
+This present matter of service with the Kujō house, too, had come by way of just such kin-lines in Kyoto.
+
+The third time Toshizō stole to her,
+
+{j} "Come autumn, Osae leaves this house and goes up to Kyoto,"
+
+{j} she told him.
+
+"When in autumn?"
+
+"The ninth month."
+
+"Not long now, then."
+
+"Might you not go up to Kyoto yourself, Toshi?"
+
+"To Kyoto?"
+
+"Yes."
+
+Toshizō, with the faraway eyes of a boy,
+
+{j} "In all my life, what business would I ever have in Kyoto?"
+
+"You are a man, after all."
+
+"Meaning?"
+
+"There is no knowing a man's future."
+
+{j} said Osae, carelessly. She had not, of course, read the fate of this man, who a few years hence would be vice-commander of the Shinsengumi.
+
+As it fell out, though, it was this very bond with Osae that sent Toshizō's fate veering wildly off its course.
+
+He killed a man.
+
+***
+
+About that time, in the residence of Segi Kamon—one of the shake, the hereditary priestly families of the Rokusha Myōjin—there had settled as a house-guest a swordsman of the Kōgen Ittō-ryū, a man of some thirty years named Rokusha Sōhaku.
+
+Toshizō, too, knew the man by sight.
+
+He was a stocky, bull-necked fellow who wore his hair loose and swept back in the sōhatsu style; his arm, so it was said, was the finest in all Bushū once the city of Edo was left out of the reckoning.
+
+Rokusha Sōhaku had the use of a training hall in the priestly residence, and was taking on farmer pupils from across the whole of Bushū.
+
+It would be unthinkable in another province, but here in Bushū even farmers and townsmen vied with one another to learn the martial arts.
+
+It was, on the whole, a country with a taste for the warrior's ways; but there was another reason as well. Bushū was tenryō, land held directly for the shogunate, and unlike a daimyō's fief the control kept over its farmers was loose.
+
+Naturally, then, there were many who, farmers though they were, aped the samurai; every village had its young men who prided themselves on their skill at arms, and in the water-disputes with a neighboring village and the like it was these fellows who dashed about and did the work. For sheer dauntless ferocity, the samurai of Edo, softened by three hundred years of peace, were no match for them.
+
+Across Bushū there were three country schools of swordsmanship that taught such men.
+
+One was the Ryūgō-ryū, based at Warabi in Bushū, a brawler's fencing that aimed its blows at nothing but the opponent's shins. Swordsmen in Edo, at the mere name of the Ryūgō-ryū, would decline a bout for dread of that shin-cutting.
+
+Another was the Tennen Rishin-ryū, founded by Kondō Kuranosuke, a rōnin of Enshū: its mark was to overwhelm an opponent's spirit with one's own and, in that opening, to loose one's technique without a breath between. To the deft, polished fencing of Edo it looked a bumpkin's art, but in a real fight it was formidably strong. The head house, the Kondō, had already passed through three generations since Kuranosuke's death, each time a swordsman of peasant stock succeeding to it. The third head was Kondō Shūsuke—Shūsai—now an old man of seventy, who for his heir had taken in adoption the third son of a farming family of Kamiishiwara in Bushū (present-day Chōfu), a youth named Katsuta, changing his name, and had set him to riding the teaching circuit across the three Tama districts. This was Kondō Isami, one year Toshizō's senior.
+
+Last, there was the Kōgen Ittō-ryū.
+
+It was a school long established in the Chichibu country of Bushū, but of late, when a master named Hiruma Yohachi (died in the eleventh year of Tenpō, 1840) came out of Umehara village in the Koma district, it had risen suddenly to prominence.
+
+After Hiruma's death his son Hanzō set the head hall at Hachiōji in Bushū, stationed his deputy master Rokusha Sōhaku permanently at Fuchū, and—working chiefly into the farming villages along the Kōshū Highway—was contesting the count of pupils with Kondō's Tennen Rishin-ryū.
+
+One night, when Toshizō had lingered in Osae's bedchamber until near daybreak and was climbing the earthen wall of the Saruwatari residence to take his leave,
+
+{j} "Thief,"
+
+{j} came a voice, from the grass at his feet.
+
+"——"
+
+As he dropped into a crouch, a black figure stood before his eyes.
+
+(So I've been seen—)
+
+{j} and at the thought a cold sweat ran over his whole body.
+
+The other came slowly on and laid a hand to the hilt of his sword.
+
+"Run, and I cut you down."
+
+"..."
+
+"Say your name."
+
+Toshizō said nothing.
+
+"Word had it that of late someone has been stealing by night into the residence of Lord Saruwatari of Sado, so I have been quietly keeping watch over the precincts—and it is just as the rumor said. Come quietly."
+
+(What's the man blathering about.)
+
+Edging backward, Toshizō swiftly brought a hand behind him, undid the straw-wrapped bundle slung at his shoulder, and drew out the long sword inside.
+
+Whenever he walked the roads by night, he carried it so, slung from his shoulder.
+
+The mounting was plain enough, but the blade within was a fine cutter handed down in his house, an unsigned piece by a Bushū smith; in the judgment of his brother-in-law Satō Hikogorō, headman of the Hino post-town, it might well be a Yasushige.
+
+He whipped it from the sheath with a flash: a blade two shaku four sun long, giving off a chill, frozen scent from the steel.
+
+"Oho."
+
+The other, closing the distance,
+
+{j} "Surely you don't mean this in earnest. For your own good I'll tell you: I am Rokusha Sōhaku, who is sheltered here in this sacred ground."
+
+Rokusha Sōhaku—the name alone was enough to set the whole of Bushū trembling.
+
+"Throw down your blade."
+
+{j} As Rokusha said it, at the worst possible moment the moon of the sixteenth night came out from a gap in the clouds.
+
+The moon lit half of Toshizō's face.
+
+"A face I've seen before."
+
+Rokusha Sōhaku, advancing,
+
+{j} "At Satō Hikogorō's place in the Hino post-town there's a Tennen Rishin-ryū hall, is there not."
+
+"..."
+
+"Some days ago I put a challenge to Kondō, and was refused. And the one at Kondō's side that day—that was you."
+
+(He's placed me.)
+
+Toshizō's mind was made up.
+
+The feet of Toshizō—whom Rokusha had taken for a man about to bolt—came, to his surprise, to a dead halt.
+
+"Rokusha. That Toshizō you spoke of—that's me."
+
+With a start, Rokusha too checked his advance.
+
+Toshizō said,
+
+"My hidden surname is Hijikata. Bear it in mind. I hold the mokuroku of the Tennen Rishin-ryū, and Kondō, my master's line, is my sworn brother. So in Kondō's place I'll take up your challenge to a bout between schools, here and now."
+
+"Give it up, boy."
+
+Rokusha was composed.
+
+"It's only night-crawling, when all's said. I'll let you go, so never come near the Saruwatari house again. Lord Sado has half caught on to the Lady Osae's state, and asked me some while ago to look into it. The word was to seize you and have you jailed—but tonight, as a special thing, I'll let it pass."
+
+"Draw."
+
+{j} Yet even as he said it, Toshizō had taken no stance; the sword hung slack from his right hand. Beneath the thick, heavy, distinctive lids, his cold eyes glinted. Now that the man knew of the affair, he could not be left alive.
+
+"Toshizō—let me ask, to be sure."
+
+Rokusha Sōhaku put on a smile.
+
+"You're surely not braying at me without knowing that I'm the finest hand in all Bushū?"
+
+"I know it."
+
+"Do you."
+
+Rokusha sank his hips and drew his long sword slowly, as though to mow grass, meaning to cow the youth. He held the point at the middle guard and stepped forward, once.
+
+Toshizō answered by drawing back his right foot and sweeping his point up into a left two-handed overhead guard, his body left recklessly wide open.
+
+In an instant, the blades rang.
+
+Recklessly, Toshizō had struck. Rokusha barely caught it above his head, but
+
+{j} (Is the fellow a fool?)
+
+{j} he thought. Toshizō took no pause for breath, and left none to be taken.
+
+*Whsh—*
+
+{j} and the next came at his right temple. Rokusha caught it near the guard, but his wrist went numb.
+
+Then the left.
+
+He barely fended it off.
+
+Before he knew it he was being driven back, cut at and cut at, giving ground fast.
+
+(This cannot be.)
+
+Try as he might to recover, Toshizō's blows came so fiercely they left him no room.
+
+It was no difference of technique.
+
+It was a difference of nerve.
+
+Toshizō, it seemed, had picked up a great jumble of schools in his medicine-peddling: feinting a blow to the head, he let his blade sink straight to the ground and swept it across Rokusha's shins. It was a stroke found only in the Ryūgō-ryū, with something of the glaive folded into it.
+
+"Ah—"
+
+{j} he sprang up and dodged it.
+
+The instant he twisted clear, the sword drove at his belly as though it had lain in wait.
+
+"Hold—"
+
+Rokusha, still cut at and driven back,
+
+{j} "this is sacred ground,"
+
+"..."
+
+"we'll settle it another day."
+
+He had spoken barely half of it—"another day"—when the sword Toshizō swung one-handed split the bone of Rokusha Sōhaku's right temple.
+
+Blood blinded Rokusha's eyes.
+
+"...another day."
+
+Rokusha turned his back.
+
+He struggled to flee. But Toshizō's blade bit with a dull crunch into the back of his head.
+
+It was shallow.
+
+Rokusha's eyes were blinded. His mind, too, must have come unhinged. With what purpose, who could say, he turned once more to face Toshizō. His sword hung down; he could barely keep his feet.
+
+(So this is Rokusha Sōhaku, feared as the master of all Bushū.)
+
+Toshizō slowly raised his sword.
+
+(Now—)
+
+He sank his hips.
+
+Toshizō's blade ran slantwise; Sōhaku's head sprang up into the empty air, and the trunk crumpled down into the grass. So killing a man, he thought, was as easy as this.
+
+***
+
+After that, the culprit was never known.
+
+That same night Toshizō left Fuchū at once and, instead of going home to his own village, tumbled in at Kondō's Edo training hall, which stood atop the slope at Yanagichō in Kohinata, Koishikawa.
+
+"What's happened?"
+
+{j} Kondō did not so much as ask.
+
+And Toshizō held his tongue.
+
+For Kondō, Toshizō was the younger brother-in-law of Satō Hikogorō, the Tennen Rishin-ryū's patron in Bushū, and so, pupil though he was, he had been shown special favor since his adoptive father's day. Their natures differed, yet the two got on strangely well, and some years back they had bound themselves as sworn brothers.
+
+A few days on, the rumor reached even the Kondō hall in Edo: that Rokusha Sōhaku of the Kōgen Ittō-ryū had been cut down by someone unknown.
+
+"Have you heard?"
+
+{j} said Kondō, coming over to where Toshizō lay sprawled at the back of the hall.
+
+"Hard to believe—a man of Sōhaku's caliber, done in. It was the Ryūgō-ryū crowd, they say, the ones lately pushing in from Warabi; the proof is that his shins were cut about terribly. The Kantō officers are poking around Warabi over it."
+
+"The cuts—"
+
+"A dozen or thirteen, big and small. Far too many. It was surely not one man; a whole pack must have set on him and cut him down—so runs the report from Inoue Genzaburō, whom I sent to Fuchū to look into it."
+
+"No,"
+
+{j} said Toshizō, sitting up,
+
+{j} "it was one man."
+
+"How do you know?"
+
+"The many cuts only mean the hand that made them was clumsy. And it was no Ryūgō-ryū."
+
+"..."
+
+Kondō, reading Toshizō's face intently,
+
+{j} "then—what school, and who?"
+
+"It was me."
+
+{j} was what Toshizō did not say; he only soured his already sour face the more and turned away. He was thinking something over.
+
+With that, moved by some thought or other, Toshizō settled in at the Edo hall for good, and changed his appearance to a samurai's.
+
+Ever since he had cut down Rokusha Sōhaku, Toshizō's swordwork in the hall had become something wholly different.
+
+He had found his confidence, one might say. Or else he must have come to some realization.
+
+Until then Kondō—marked out for adoption by old Shūsai, as he had been—was a notch or two the better man; but that had changed.
+
+In practice at the hall, Kondō would be struck on eight passes out of ten, until at last,
+
+{j} "Toshi's sword is not pleasant to face,"
+
+{j} and he stopped crossing swords with him.
+
+At Kondō's hall in Yanagichō there were house-guests aplenty who could hold their own with him—Nagakura Shinpachi, a rōnin of Matsumae holding the full transmission of the Shintō Munen-ryū; Tōdō Heisuke, a rōnin of the Edo precincts holding the mokuroku of the Hokushin Ittō-ryū—yet none of these could make headway against Toshizō either, and
+
+{j} "Hijikata—has something taken possession of you?"
+
+{j} they said, laughing.
+
+Autumn came.
+
+For the first time since that affair, Toshizō went west up the Kōshū Highway and into Fuchū.
+
+It had been a year of little rain, and the Bushū sky was blue without end.
+
+Toshizō cut across the shrine precincts and came out at the rear wall of the residence of Saruwatari, Lord of Sado.
+
+(This is the place.)
+
+He took off his woven sedge hat and tossed it down on the autumn grass.
+
+To his right a ditch-stream ran, and a single young lacquer tree was beginning to turn.
+
+Here, on that moonlit night, he had cut down Rokusha Sōhaku. Cut him down he certainly had, but in a kind of trance, and he remembered none of it.
+
+Just as on that night, Toshizō drew his sword in a smooth motion and set himself in the left overhead guard.
+
+He shut his eyes, the better to call the memory back. Then he opened them and, straining his gaze, tried to conjure up vividly the figure of Sōhaku standing there with his sword at the ready.
+
+(Why could I not cut him down in a single stroke?)
+
+For months now that was the one thing he had worked at. In the hall, whether he faced Kondō or faced Nagakura or Tōdō, he struck as though his opponent were the Rokusha Sōhaku of that night.
+
+(I cannot make sense of it.)
+
+Now, there, stood Rokusha Sōhaku.
+
+Toshizō drove in.
+
+Rokusha twists away.
+
+(Too shallow.)
+
+However many times he tried it, it left him unsatisfied. Too small a stroke. In the end Toshizō stood motionless in the overhead guard, gathering his whole spirit into the charge, and stayed rooted on the grass for the better part of half an hour. The wind teased at him and passed on.
+
+At last, he saw it.
+
+He recalled the instant when Rokusha Sōhaku, his spirit beaten down, had opened a fatal gap in his guard.
+
+Toshizō drove in with a rush, raised the sword high, and brought it down in a great diagonal cut from the right.
+
+*Crack—*
+
+{j} rang the trunk of the lacquer tree as it toppled, sweeping through the air. And at the very moment he saw the Rokusha Sōhaku of his vision cloven cleanly in two, a voice came from behind him.
+
+"What are you doing?"
+
+He turned, and it was Osae. Her jet-black eyes were so frightened that even those few words seemed as much as she could manage.
+
+"It's nothing—only foolery,"
+
+{j} and he slid the sword home and made to slink away. That suddenly wilted look of his brought back to Osae, from the first night—
+
+{j} "Call me Toshi."
+
+{j} So he had said, and gone; and it was that terribly bashful Toshizō she now remembered. Osae, reassured,
+
+{j} "Toshi,"
+
+{j} she said, and let a smile show.
+
+"Tomorrow I set out for Kyoto."

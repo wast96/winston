@@ -1,0 +1,401 @@
+## The Waiwai Tennō
+
+When Hijikata Toshizō, in his armor, stepped out into the middle of the hall, Shichiri Kennosuke had still made no move to get ready.
+
+More than that: at the head of the hall he sat cross-legged in his practice coat, stroking his chin.
+
+"Medicine-seller—ready at last, it seems,"
+
+{j} Shichiri said, loudly.
+
+"Aye, sir,"
+
+{j} Toshizō said, in a voice almost too low to catch,
+
+{j} "pray make ready."
+
+"I am ready."
+
+Shichiri jerked his chin toward five or six pupils who were fastening on masks and wrist-guards in a corner of the hall.
+
+"Try these fellows first. No need to hold back—every one of them ranks at the mokuroku or the toritate certificate in this hall."
+
+Shichiri, it seemed, had already seen that this medicine-seller was no ordinary man.
+
+"And the judge?"
+
+{j} Toshizō asked,
+
+"A judge?"
+
+{j} he said, with a thin smile,
+
+{j} "there are no judges for a bout between schools at this hall. The man who asks for it fights to a finish. The one who cries off has lost—that is the rule of our Kōgen Ittō-ryū of Hachiōji."
+
+With a rush, one of them sprang at him.
+
+Toshizō leapt back and struck the man's trunk. But with no judge to call the point, the man came on and on at his head, though his dō had been struck.
+
+(Rough work, this.)
+
+Parrying and striking the trunk, darting in to strike the rising wrist, sweeping up to strike the head—Toshizō's handling of the shinai reached a finesse that astonished even himself; but the other's whole aim was to wear him out, and struck as he was, again and again, still he flung himself in.
+
+Presently the man would fall smartly back.
+
+And at once, without a breath, a fresh man took his place and came driving in. That was the scheme of it.
+
+There was no end to it.
+
+(The bastards mean to beat me to death.)
+
+The instant the thought came to him, at the third man, Toshizō shifted his grip on the shinai. For this there was a method.
+
+As the third man struck at his head, Toshizō swept the man's point aside from underneath. In the same instant he spun his body clear and, from a left half-stance, hammered with all his strength at the gap in the man's right side.
+
+It was under the armpit, where the leather cuirass gave no guard.
+
+The man, struck hard enough to bend the bare ribs, leapt up with a cry, then dashed himself full-length on the boards and fainted away.
+
+(Come on, then.)
+
+Once it came to this, he was a man whose nerve settled cold.
+
+The next man he beat soundly on the wrist as it came out, so that his shinai fell; then, thrusting and thrusting and thrusting again,
+
+{j} "I yield,"
+
+{j} the man said, and sat down in a corner of the hall and took off his own mask. Blood had seeped even into the quilted collar.
+
+But Toshizō, too, was tired.
+
+Against the fifth man his joints had gone stiff and sticky, and unable to bring off any nimble stroke, he was struck hard instead.
+
+Toshizō could do nothing but defend. The man's shinai bit mercilessly, crack after crack, into the exposed parts—his shoulder, the root of his arm, his elbow—and at times his breath stopped.
+
+(Am I done for?)
+
+His sight was on the point of going dark. The shinai had grown as heavy as an iron bar.
+
+And, in a daze, he whipped the shinai over and swept it from overhead across the man's shins.
+
+It was the stroke he had used to cut down Rokusha Sōhaku. Not to be struck, the man raised his foot as he gave ground.
+
+He struck again.
+
+Again the foot came up.
+
+Over Toshizō's falling shinai the man raised his foot and gave ground, raised it and gave ground, until he looked for all the world as though he were dancing. His whole posture came apart, pitifully.
+
+As was said in the last chapter, this shin-cut is held a foul art in fencing, and no school has it—not, of course, the Kōgen Ittō-ryū of this hall, nor the Tennen Rishin-ryū of Kondō's line.
+
+It is found only in the Ryūgō-ryū.
+
+A farmer's fencing, one might say, that stood on no ceremony, sprung up at Warabi in Bushū and founded by a man of Warabi named Okada Sōemon Masayoshi.
+
+Of the Ryūgō-ryū there is a story.
+
+Around this time, at a grand tournament held by the Owari Dainagon, a certain Ryūgō-ryū man, then fencing-instructor to Lord Wakisaka, felled nearly every swordsman with this shin-cut.
+
+Each man who faced him, his mind drawn willy-nilly to his own legs, had his stance broken and was struck just where the other pleased. The last to stand was Chiba Eijirō, second son of Shūsaku and known as the Little Tengu of Chiba.
+
+The moment he rose,
+
+{j} "A moment,"
+
+{j} he said, raising a hand, and sat down in the middle of the hall. For a while he stayed there, the shinai clasped to him, thinking; then he rose to face the man, and the Ryūgō-ryū was beaten to smithereens.
+
+The defense Eijirō had thought out was this: against the blade that comes for the shin, do not thrust the thigh forward to escape it, but slip the leg back as though kicking your own backside with your heel—so that no thought is wasted on it, and the parry becomes lightning-swift. This became a new secret transmission of the Chiba house's Hokushin Ittō-ryū.
+
+But Toshizō's opponent here was a swordsman of Bushū Hachiōji, who knew nothing of the counter the famous Edo schools had long since worked out. He was struck to pieces.
+
+But watching this,
+
+{j} (So it is, after all.—)
+
+{j} it was Shichiri Kennosuke who rose to his feet.
+
+(This is the man who cut Rokusha down.)
+
+Watching the way Toshizō wielded his shinai, he found it matched the wounds on the body of Rokusha Sōhaku, struck down behind the Saruwatari residence at Fuchū.
+
+(Those wounds were like the Ryūgō-ryū's... but not quite. Most likely the man has a jumble of schools mixed into his sword.)
+
+And that man, he saw, was this medicine-seller.
+
+"The bout—that will do,"
+
+{j} said Shichiri, raising a hand; and, watching Toshizō, spent now to the last,
+
+{j} "medicine-seller—have some tea in the back before you go,"
+
+{j} he said.
+
+***
+
+Toshizō was shown to a small room off the side of the hall; and before he knew it, the light around him had gone dim.
+
+But no tea was brought, and no one lit the lamp.
+
+(Something is amiss.)
+
+And in the instant of the thought, the nimble man had already dropped out through the window.
+
+(Now, then.)
+
+He looked about him.
+
+It seemed to be the back of the hall; what met the soles of his feet was the soft earth of a field.
+
+Just before him was a well, and beyond it the mountains of Kai were beginning to darken in the western sky.
+
+Over the Kobotoke Pass hung a crescent moon.
+
+Not knowing his way, Toshizō worked west along under the eaves, and stopped with a start. There was a little wicket gate, and beyond its board fence rose the roof-ridge of the residence of the hall's master, Hiruma Hanzō; against the white plaster wall a black pine showed.
+
+It was not the sight of that huge black pine that had stopped Toshizō short. It was that the wicket gate beneath the pine's great bough had slid open with a clack, and a woman had come out.
+
+It was Osen.
+
+The daughter of the Senjubō at Hachiōji, she had been intimate with Toshizō once or twice. This was the first time he had seen Osen since she had been married off to Hiruma Hanzō.
+
+She had come to look like the wife of a warrior house.
+
+And what secretly surprised Toshizō was Osen's composure.
+
+She looked at him steadily; then, saying nothing, she softly blew out her hand-lamp, came padding close, and
+
+{j} "Everything concerning you, sir, is known at this hall,"
+
+{j} she said, low.
+
+"...?"
+
+"The deputy master, Shichiri Kennosuke, is making a great to-do, they say, of avenging Rokusha Sōhaku. This matter of Rokusha—have you some knowledge of it, sir?"
+
+"..."
+
+"In any case,"
+
+{j} the woman said,
+
+{j} "you must get away from here, and quickly. Cut straight across by the well and jump down: there is a low bank, and beyond it nothing but mulberry fields, all the way."
+
+"You—it was Osen, was it not?"
+
+"It is Sen, sir."
+
+Comically enough, since this was a woman Toshizō had taken by night-crawling in his medicine-selling days, his body remembered her, but of her name he had only the haziest recollection.
+
+(I want to see her face.)
+
+he thought; but it had grown quite dark, and the wish looked unlikely to be granted.
+
+Only the scent of her sachet reached him. That scent brought back to Toshizō the memory of the time he had stolen into this woman's bedroom.
+
+(That was in the cold season.)
+
+The garden of the Senjubō rose vividly before his eyes; the woman had been in its detached wing. Night-crawling was a custom a thousand years old in the farm country of Bushū, and Toshizō was used to it. The woman had been fast asleep, but when it came to it she did not resist him. She had guessed, no doubt, by a girl's instinct, that this young man, lodging at the temple since the evening before, would come stealing to her that night.
+
+"Here,"
+
+{j} Toshizō said, unable to bear it.
+
+"You must not,"
+
+{j} said the wife of Hiruma Hanzō. The women of this Bushū Tama country, whatever they may get up to while they are girls, are said, once they have taken a husband and entered his house, to be more steadfast than the women of any other place.
+
+Toshizō, too, gave a wry smile at once,
+
+{j} "My fault,"
+
+{j} he apologized, and frankly.
+
+But his taking it so meekly left the woman, if anything, the worse off. Perhaps the wariness that had held her taut all at once gave way,
+
+{j} "Lord Hijikata,"
+
+{j} and she touched Toshizō's hand—meaning, no doubt, that he should take it. But Toshizō's eyes went suddenly hard and still.
+
+"How do you know my surname?"
+
+"You are Hijikata Toshizō, are you not? I know it quite well."
+
+"How do you know it?"
+
+"How, sir?"
+
+"I am asking how you know it."
+
+It was his nature; such things nagged at him.
+
+"I heard it from Shichiri Kennosuke. You are no medicine-seller. You are Hijikata Toshizō, deputy master of the Kondō hall at Yanagichō in Koishikawa, Edo—are you not?"
+
+"——?"
+
+{j} He knit his brows, for he had heard a sound behind him. In the same instant Toshizō was away from Osen's side.
+
+Running like a shadow, he leapt down the bank behind the hall.
+
+By the time Osen had marveled at Toshizō's quickness, the man himself was already walking through the mulberry fields, wary of the moon over the Kobotoke Pass.
+
+***
+
+Toshizō passed some days at the Edo hall.
+
+Changing places with him, Kondō Isami went off on the teaching circuit toward Tama, but was soon back.
+
+It was the busy farming season, he said, and fewer had gathered than he'd expected.
+
+"That was hard work for you, then,"
+
+{j} said Toshizō.
+
+"Nothing else out of the way?"
+
+"Meaning?"
+
+Kondō, with that dull look peculiar to him,
+
+{j} "That's right—I'd forgotten. When I stopped at the Satō place in the Hino post-town, your brother was there. Not Kiroku, mind—Sekisui; and he was saying, that Toshi hasn't shown his face at home at all of late, what's got into him."
+
+Sekisui was Toshizō's eldest brother.
+
+Blind from birth, he had yielded the succession to the next brother and taken for himself a single eight-mat room looking onto the garden, where he lived, playing the shamisen for his pleasure and teaching the village folk to chant gidayū. He was a man of considerable polish, so worldly-wise you would never take him for a blind one.
+
+By instinct Toshizō saw that this Sekisui had told Kondō something,
+
+{j} "Knowing that brother of mine, what he said won't have been only that."
+
+"Hm..."
+
+Kondō seemed to think a while, then,
+
+{j} "Toshi—you've killed a man, haven't you."
+
+Toshizō held his tongue.
+
+"The cutting-down of Rokusha at the Rokusha Myōjin—wasn't that Toshi's doing, Sekisui was saying to me on the quiet. Lately, it seems, the Kōgen Ittō-ryū men from Hachiōji keep pushing into Ishida village and peering in over the fence at the house. Sekisui says they must be looking for you. I told him, surely not—"
+
+"No—it was my doing."
+
+"..."
+
+Now it was Kondō's turn to fall silent. This big-jawed man, born in Kamiishiwara, had had the habit ever since his boyhood as Katsuta of showing no surprise in his face, but scratching his backside instead.
+
+"Is it true?"
+
+"It looks unfriendly of me, but I've kept it to myself till now."
+
+"Why?"
+
+"Because I didn't want to bring trouble on the hall. Let this be something you never heard. I'll settle the business myself."
+
+"Very well."
+
+In Bushū and Jōshū there was no end of quarrels between the schools. Kondō was used to it.
+
+He said "very well"; but afterward Kondō called Okita Sōji, told him the gist of it, and
+
+{j} "That Toshi has his blood up, but the other side has the numbers. If anything should happen to him, the name of the school is at stake."
+
+{j} "Of course. You mean, go out that way and scout about—is that it?"
+
+Okita nodded again and again with that cheerful smile all his own, and by the day's end had vanished from the hall.
+
+Some days later he came back to Edo. After making some report to Kondō, he shut himself in the back room of the hall—he must have run all over the place—laid out his bedding at once, and went to sleep.
+
+The next morning, seeing Toshizō at the well, he bobbed his head and said good morning, then abruptly, in a low voice,
+
+{j} "You're a queer one for company, Hijikata,"
+
+{j} he teased.
+
+"How so?"
+
+"Because you keep company with strange entertainers."
+
+"And what entertainers are those?"
+
+"The waiwai-tennō, I mean."
+
+What Okita meant was lost on him.
+
+"And what is a waiwai-tennō?"
+
+"Mask-wearers.—"
+
+Okita was smiling away with those pretty lips of his.
+
+"Mask-wearers—you mean the ones at the Kuhonbutsu?"
+
+"No, not that. You're slow. Quick as you are, Hijikata, now and then you go dull as though you'd turned into somebody else—it's a trial."
+
+Okita finished washing his face and went briskly off into the hall.
+
+Some days after that, the teaching circuit toward Tama came round to Toshizō's turn.
+
+On the day of a Tama trip one always set out in the dark, before the sun was up.
+
+On such a day, whichever deputy's turn it was, custom had it that the hall's gate was flung wide, high-poled lanterns stamped with the house crest were raised beside it, and Kondō, in his crested formal dress, saw the man off as far as the entrance step.
+
+As Toshizō was tying on his straw sandals, Kondō said over his shoulder,
+
+{j} "I've told Sōji to go along with you. He seems to be running late—wait for him a little, would you."
+
+"Sōji—why?"
+
+Toshizō caught his meaning with a start, and when he turned round looking put out, Kondō, unusually, wore a weak, ingratiating smile,
+
+{j} "Someone to talk to on the road."
+
+"I've no need of anyone to talk to. And besides, being made to travel with a chatterbox like Sōji wears a man out past bearing."
+
+"He's here,"
+
+Sōji had come round, it seemed, from the direction of the hall: his arms and legs were already bound in hand-guards and gaiters, a horseman's lantern thrust at his hip, no hakama on, his skirts tucked up. On this twenty-year-old it looked wonderfully jaunty.
+
+About where they left Naitō Shinjuku and turned onto the Kōshū Highway, Okita Sōji said,
+
+{j} "This trip, I'll wager, we'll run into them in some village or other out in Tama."
+
+"Them—who's that?"
+
+"You and your playing dumb, Hijikata—it's too much."
+
+Okita, tilting at a boyish angle the Ōyama-pilgrim's sedge hat he was fond of,
+
+{j} "Shichiri Kennosuke and that Hachiōji lot, of course,"
+
+{j} he said, straight out.
+
+"Here's how it is,"
+
+{j} and Okita laid out what his scouting had turned up. By his account, the Hachiōji men had disguised themselves as waiwai-tennō and were haunting the line of the Kōshū Highway.
+
+These wore the mask of Sarutahiko.
+
+Ever since the great Ansei earthquake, as the world grew loud and unsettled with the clamor to expel the barbarians, the roving of this sort of fellow had become conspicuous all across the Kantō. They were, in short, beggar-priests who went house to house selling charms—of household safety and freedom from illness—said to carry the prayers of the Gozu Tennō.
+
+In a black crested haori and hakama, a plain pair of swords at the belt,
+
+{j} "Wai-wai Tennō, and how you love a racket,"
+
+{j} they would sing, or the like, as they walked the streets. The times being uneasy, there were many who would buy even such charms.
+
+"But here's the thing,"
+
+{j} said Okita.
+
+"To your Ishida village, Hijikata—that little village—they come in bands of two or three, every third day without fail. And every time, they say, they come from Hachiōji."
+
+That day, as usual, they lodged at the Satō place in the Hino post-town. As Toshizō sat eating supper with Okita, there came a rustle of footsteps out in the garden.
+
+"Sōji,"
+
+{j} Toshizō signed with his eyes.
+
+Okita flung down his chopsticks, sprang up, and threw the paper door open.
+
+On the veranda stood a big man.
+
+He wore the great mask of Sarutahiko, and stood staring at them, motionless.

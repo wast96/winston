@@ -1,0 +1,66 @@
+{
+  "notes": {
+    "ch04": [
+      {
+        "anchor": "the Little Tengu of Chiba",
+        "note": "A famous piece of fencing lore. The Chiba house of Edo ran the Genbukan, one of the three great halls of the late shogunate, and taught the Hokushin Ittō-ryū founded by Chiba Shūsaku. His second son, Chiba Eijirō (1833&#8211;1862), was a prodigy nicknamed the &#8216;Little Tengu&#8217; &#8212; a tengu being a mountain goblin of superhuman swordsmanship. The story is that, faced at a tournament with the Ryūgō-ryū&#8217;s baffling shin-cut, Eijirō sat and thought out the counter on the spot: not to snatch the leg forward, but to draw it back heel-first, so the mind need not dwell on the shin at all. The Owari Dainagon who hosts the tournament was the Tokugawa lord of Owari, one of the three senior branches of the shogunal house."
+      },
+      {
+        "anchor": "The waiwai-tennō, I mean.",
+        "note": "The <i>waiwai-tennō</i> were a real class of Edo-period mendicant &#8212; a kind of licensed beggar-priest who, dressed incongruously in haori, hakama, and two swords and wearing a long-nosed <i>tengu</i> or Sarutahiko mask, hawked cheap woodblock talismans of the Gozu Tennō from house to house, chanting and clamoring for coins. The Gozu Tennō (&#8216;Ox-Head Heavenly King&#8217;) was the plague-warding deity of the Gion and Tennō shrines, and the charms were bought as a guard against summer pestilence. The point here is that the disguise let the Hachiōji swordsmen, masked and armed, loiter along the highway near Toshizō&#8217;s village without remark."
+      },
+      {
+        "anchor": "the great Ansei earthquake",
+        "note": "The Ansei Edo earthquake of 1855 leveled much of the shogunal capital and killed some tens of thousands. Coming two years after Perry&#8217;s black ships forced the country open, it was widely felt as an omen, and Shiba uses it here to date the general unease &#8212; earthquake, foreign crisis, and political ferment running together &#8212; against which the beggar-priests and their charms multiplied."
+      },
+      {
+        "anchor": "the clamor to expel the barbarians",
+        "note": "<i>Jōi</i>, &#8216;expel the barbarian,&#8217; was the cry that swept Japan after the American and European powers forced their treaties on the shogunate in the 1850s. Fused with <i>sonnō</i>, &#8216;revere the emperor,&#8217; it became the slogan of the loyalist movement that would bring the Tokugawa down; the Shinsengumi, whose making this novel tells, were raised in good part to fight the men who raised that cry. Here it is only the distant noise of a world turning uneasy, still years from the events at its center."
+      }
+    ]
+  },
+  "glossary": {
+    "石翠": {
+      "en": "Sekisui",
+      "pinyin": "Sekisui",
+      "status": "attested",
+      "note": "Toshizō's eldest brother, blind from birth, who gave up the succession and lived by his arts &#8212; a shrewd, polished man. A historical figure (the eldest Hijikata brother); Sekisui is his elegant by-name."
+    },
+    "喜六": {
+      "en": "Kiroku",
+      "pinyin": "Kiroku",
+      "status": "attested",
+      "note": "A farmer of Ishida village, Toshizō's eldest surviving brother and head of the house."
+    },
+    "千葉栄次郎": {
+      "en": "Chiba Eijirō",
+      "pinyin": "Chiba Eijirō",
+      "status": "attested",
+      "note": "Historical, 1833&#8211;1862. Second son of Chiba Shūsaku and a swordsman prodigy of the Hokushin Ittō-ryū, nicknamed the Little Tengu of Chiba."
+    },
+    "周作": {
+      "en": "Chiba Shūsaku",
+      "pinyin": "Chiba Shūsaku",
+      "status": "attested",
+      "note": "Founder of the Hokushin Ittō-ryū and of the Genbukan hall in Edo; father of Eijirō. One of the great sword-reformers of the age."
+    },
+    "岡田総右衛門": {
+      "en": "Okada Sōemon",
+      "pinyin": "Okada Sōemon Masayoshi",
+      "status": "attested",
+      "note": "Founder of the Ryūgō-ryū of Warabi, the shin-cutting country school."
+    },
+    "猿田彦": {
+      "en": "Sarutahiko",
+      "pinyin": "Sarutahiko",
+      "status": "attested",
+      "note": "The guiding deity of Japanese myth, shown as a long-nosed, red-faced figure; his mask (rubied here in the source as <i>Sarudahiko</i>) was one of those the waiwai-tennō wore."
+    },
+    "牛頭天王": {
+      "en": "Gozu Tennō",
+      "pinyin": "Gozu Tennō",
+      "status": "attested",
+      "note": "The 'Ox-Head Heavenly King,' plague-warding deity of the Gion and Tennō shrines, whose talismans the waiwai-tennō sold."
+    }
+  }
+}

@@ -53,3 +53,49 @@
 百姓
 # futae = a double eyelid (二重の眼); 二 is descriptive idiom, not the count 2
 二重
+# ── B02 additions (ch02) ──
+# Rokusha Sōhaku — the swordsman's surname; 六 is part of the name, not the count 6
+六車
+# the Kujō house — court regent family; 九 is part of the name, not the count 9
+九条
+# Mikawa — the Tokugawa home province (三河以来 = "since the Mikawa days"); 三 is part of the place name
+三河
+# the eight-province rounds / Kantō circuit officers (八州役人, 八州廻り); 八 is a fixed term rendered "Kantō", not the count 8
+八州
+# Hiruma Yohachi — swordsman's given name; 八 is part of the name
+与八
+# Nagakura Shinpachi — given name; 八 is part of the name
+新八
+# nidoto = "never again" (二度と近寄るな); idiom, not the count 2
+二度と
+# jūni-san = "twelve or thirteen" (十二、三カ所); the 三 stands for 十三, rendered "thirteen"
+十二、三
+# Inoue Genzaburō — given name; 三 is part of the name (源三郎), not the count 3
+源三郎
+# ── B02 additions (ch03) ──
+# Shichiri Kennosuke — the antagonist's surname; 七 is part of the name, not the count 7.
+# (Caveat: 七里 could in principle mean "seven ri"; in this book it is always the name Shichiri.)
+七里
+# Ōshima Shingoemon — given name; 五 is part of the name (新五右衛門), not the count 5
+新五右衛門
+# the Hachiōji Thousand Guardsmen / Senninmachi (八王子千人同心, 千人町); 千 is a fixed name element rendered "Thousand"/"Sennin"
+千人
+# shihankoki = a quarter-hour (四半刻); 四 is part of the time-term, rendered "a quarter-hour"
+四半刻
+# jūhachi-ku = "eighteen or nineteen" (十八、九); the 九 stands for 十九, rendered "nineteen"
+十八、九
+# ichi-ni-mo ni-ni-mo = "first and foremost" (一にも二にも退く); idiom, not the count 2
+一にも二にも
+# ── B02 additions (ch04) ──
+# the Chiba house / Chiba Eijirō / Chiba Shūsaku (千葉栄次郎, 千葉の小天狗); 千 is part of the name, not the count 1000
+千葉
+# mikazuki = a crescent moon (三日月); 三 is part of the word, rendered "crescent"
+三日月
+# hachi-no-ji = splayed like the character 八 (門を八の字にひらき); rendered "flung wide", not the count 8
+八の字
+# Kuhonbutsu — the temple/masked-procession name (九品仏); 九 is part of the name, not the count 9
+九品仏
+# shami(sen) = the three-stringed lute (三味); 三 is part of the word, rendered "shamisen"
+三味
+# shishi = the four limbs (四肢をかため); rendered "arms and legs", not the count 4
+四肢

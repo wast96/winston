@@ -1,0 +1,156 @@
+{
+  "notes": {
+    "ch03": [
+      {
+        "anchor": "Meshimori-onna, they were.",
+        "note": "The <i>meshimori-onna</i>, literally &#8216;rice-serving women,&#8217; were the maids that a post-town inn was licensed to keep &#8212; nominally to wait at table, in fact prostitutes. The shogunate tolerated them within limits (two per inn was a common legal ceiling, freely exceeded), as a lesser evil that kept the highway&#8217;s trade moving. <i>Ojare</i> was the local by-name for them here. They were indentured, poor, and, as the next paragraphs make plain, worked hard and briefly."
+      },
+      {
+        "anchor": "footmen",
+        "note": "<i>Chūgen</i>: the lowest of a samurai household&#8217;s male servants, who carried sandals and spear and did the rough work &#8212; commoners in service, not warriors. That the school&#8217;s pupils ran to townsmen and footmen, not the sons of the bannermen next door, is the narrator&#8217;s way of marking how humble a concern the Tennen Rishin-ryū still was."
+      },
+      {
+        "anchor": "Okita Sōji",
+        "note": "Okita Sōji (about 1842&#8211;1868), later the most gifted swordsman the Shinsengumi produced. A prodigy of the Tennen Rishin-ryū, he had trained at Kondō&#8217;s Edo hall from boyhood and would captain the corps&#8217;s First Unit and, briefly, head the school itself. He is a bright, boyish presence through much of this book; consumption killed him at Edo in 1868, before he was thirty, while his comrades fought on in the north."
+      },
+      {
+        "anchor": "the Hachiōji Thousand Guardsmen",
+        "note": "The Hachiōji Sennin Dōshin (&#8216;thousand foot-guardsmen&#8217;) were a real body, and a peculiar one: some thousand low-ranking warriors, largely remnants of the Takeda of Kai whom Ieyasu took into service, settled at Hachiōji to guard the western approaches to Edo &#8212; the Kōshū Highway and the Kobotoke Pass. Half-samurai and half-farmer, they held their land, drew a small stipend, and worked the fields between duties. Their presence made Hachiōji a town unusually full of men who bore swords, which is why the fencing schools of this chapter throve there."
+      },
+      {
+        "anchor": "A master of iai",
+        "note": "<i>Iai</i> is the art of the sword drawn and cutting in one motion, from the sheath &#8212; the killing stroke delivered before the blade is even fully out, against an enemy at conversational distance. It is a different discipline from the give-and-take of a fencing bout, and a genuine iai master, able to kill from a seated bow or a moment&#8217;s stillness, was a specially dangerous man. Shichiri&#8217;s mastery of it, and Toshizō&#8217;s study of how to counter it, drive the rest of the chapter and the next."
+      },
+      {
+        "anchor": "the Nen-ryū at Maniwa in Jōshū",
+        "note": "The Maniwa Nen-ryū, based at Maniwa in Kōzuke (Jōshū, present-day Gunma), is one of the oldest sword schools still transmitted in Japan, kept in the Higuchi family since the sixteenth century and long rooted among the farmer-warriors of that province. That Shichiri came up through it, before ever he took to the Kōgen Ittō-ryū, marks him as a serious and old-fashioned swordsman."
+      },
+      {
+        "anchor": "His iai was the Araki-ryū of Jōshū",
+        "note": "The Araki-ryū was a composite martial tradition of Kōzuke that taught iai among much else and was known for showy drawing-feats. The anecdote of Ōshima Shingoemon (died 1779) catching over the roof a blade thrown for him is of that kind &#8212; the sort of trick-drawing (<i>kyoku-nuki</i>) prized as a display of control. Shiba offers it to gauge Shichiri&#8217;s pedigree; the point for Toshizō is that a man trained so can put a sword where it is not expected."
+      }
+    ]
+  },
+  "glossary": {
+    "七里研之助": {
+      "en": "Shichiri Kennosuke",
+      "pinyin": "Shichiri Kennosuke",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 6,
+      "cast": "A fair-skinned iai master with a mark below his right eye, deputy at the Hiruma hall; Toshizō's recurring nemesis, who hunts him for the killing of Rokusha.",
+      "note": "The chief personal antagonist of the novel's early and middle chapters. An iai master of the Araki-ryū, trained first in the Maniwa Nen-ryū; reading from the source's furigana (しちりけんのすけ)."
+    },
+    "沖田総司": {
+      "en": "Okita Sōji",
+      "pinyin": "Okita Sōji",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 3,
+      "cast": "A boyish prodigy of the Tennen Rishin-ryū, raised at Kondō's Edo hall; the corps's finest swordsman, later captain of the First Unit.",
+      "note": "Historical, about 1842&#8211;1868. Died young of consumption; one of the most beloved figures of the Shinsengumi legend."
+    },
+    "お咲": {
+      "en": "Osaki",
+      "pinyin": "Osaki",
+      "status": "provisional",
+      "note": "A meshimori-onna at the Jōshūya inn in Fuda, a thin-lipped Jōshū woman; a minor figure. Romanization mine."
+    },
+    "理兵衛": {
+      "en": "Rihei",
+      "pinyin": "Rihei",
+      "status": "provisional",
+      "note": "Keeper of the Jōshūya inn at Fuda, the Tennen Rishin-ryū men's regular lodging. Romanization mine."
+    },
+    "上州屋": {
+      "en": "the Jōshūya",
+      "pinyin": "Jōshūya",
+      "status": "provisional",
+      "note": "Rihei's inn at the Fuda station on the Kōshū Highway."
+    },
+    "善海": {
+      "en": "Zenkai",
+      "pinyin": "Zenkai",
+      "status": "provisional",
+      "note": "Abbot of the Senjubō, the Shinshū temple in Hachiōji where Toshizō lodged in his peddling days. Romanization mine."
+    },
+    "大島新五右衛門": {
+      "en": "Ōshima Shingoemon",
+      "pinyin": "Ōshima Shingoemon",
+      "status": "attested",
+      "note": "An eighteenth-century rural samurai of Kōzuke (died 1779) famous for a trick-drawing feat of the Araki-ryū iai."
+    },
+    "半造": {
+      "en": "Hiruma Hanzō",
+      "pinyin": "Hiruma Hanzō",
+      "status": "attested",
+      "note": "Son of Hiruma Yohachi and head, from a hall in Senninmachi at Hachiōji, of the Kōgen Ittō-ryū; married to Sen, daughter of the abbot of the Senjubō."
+    },
+    "辰吉": {
+      "en": "Tatsukichi",
+      "pinyin": "Tatsukichi",
+      "status": "provisional",
+      "note": "A young man of Renjaku who peddled horse-sandals at Hachiōji; a passing figure."
+    },
+    "布田": {
+      "en": "Fuda",
+      "pinyin": "Fuda",
+      "status": "attested",
+      "note": "The central station of the Fuda Five Stations on the Kōshū Highway, in present-day Chōfu."
+    },
+    "内藤新宿": {
+      "en": "Naitō Shinjuku",
+      "pinyin": "Naitō Shinjuku",
+      "status": "attested",
+      "note": "The first post-station out of Edo on the Kōshū Highway."
+    },
+    "上石原": {
+      "en": "Kamiishiwara",
+      "pinyin": "Kamiishiwara",
+      "status": "attested",
+      "note": "A village of the Fuda Five Stations on the Kōshū Highway (now part of Chōfu); Kondō Isami's birthplace."
+    },
+    "連雀": {
+      "en": "Renjaku",
+      "pinyin": "Renjaku",
+      "status": "attested",
+      "note": "A village of the Tama country with no fencing hall, where Toshizō taught in the headman's miso storehouse."
+    },
+    "小仏峠": {
+      "en": "Kobotoke Pass",
+      "pinyin": "Kobotoke Tōge",
+      "status": "attested",
+      "note": "The pass west of Hachiōji by which the Kōshū Highway crosses into Kai."
+    },
+    "千人町": {
+      "en": "Senninmachi",
+      "pinyin": "Senninmachi",
+      "status": "attested",
+      "note": "The Hachiōji quarter named for the Thousand Guardsmen settled there; site of the Hiruma hall."
+    },
+    "荒木流": {
+      "en": "the Araki-ryū",
+      "pinyin": "Araki-ryū",
+      "status": "attested",
+      "note": "A composite martial school of Kōzuke, taught iai among other arts; Shichiri Kennosuke's iai line."
+    },
+    "念流": {
+      "en": "the Nen-ryū",
+      "pinyin": "Nen-ryū",
+      "status": "attested",
+      "note": "Here the Maniwa Nen-ryū of Kōzuke, one of the oldest surviving sword schools; where Shichiri first trained."
+    },
+    "馬庭": {
+      "en": "Maniwa",
+      "pinyin": "Maniwa",
+      "status": "attested",
+      "note": "The seat of the Maniwa Nen-ryū in Kōzuke (Jōshū), present-day Gunma."
+    },
+    "居合": {
+      "en": "iai",
+      "pinyin": "iai",
+      "status": "decided",
+      "note": "The art of drawing the sword and cutting in a single motion; a specialty distinct from ordinary fencing."
+    }
+  }
+}

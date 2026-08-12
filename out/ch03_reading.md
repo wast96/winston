@@ -1,0 +1,361 @@
+## Shichiri Kennosuke
+
+Six ri from Naitō Shinjuku in Edo.
+
+What is now the city of Chōfu, along the Kōshū Highway, had at that time its center at Fuda, and this, together with the neighboring villages of Kokuryō, Kojima, Shimoishiwara, and Kamiishiwara, went by the one name,
+
+{j} the Fuda Five Stations,
+
+{j} as it was styled.
+
+Even now the look of the place is little changed: a post-town where a highway wind, rank with the smell of horse fodder, blows swirling the year round.
+
+In those days the shingle-roofed inns ranged along the highway each kept two or three pleasure-women, called there ojare. Meshimori-onna, they were. But at this station, oddly, only dark-skinned women ever seemed to gather, so that
+
+{j} "Fuda's dark belles,"
+
+{j} they were called, and the small traders traveling up and down the Kōshū Highway looked forward to putting up at this station.
+
+That day, in the afternoon.
+
+By which time a full half-year had passed since Toshizō saw off Osae, the Saruwatari daughter, on her way up to Kyoto. The sun was still high when the man came striding into the inn of Jōshūya Rihei.
+
+"It's me,"
+
+{j} he said, and pulled the sword, sheath and all, from his sash. He had come from the Edo hall.
+
+"Ah—master!"
+
+The innkeeper Rihei himself came bursting out and showed him up to a room on the second floor.
+
+That day Hijikata Toshizō was got up in style: a black split-back haori dyed with the three-comma crest of his house, and hakama of imported wool trimmed at the hem with dyed leather; only his two swords were somewhat plain, in a plain oak-black lacquer. His hair was dressed loose in the sōhatsu style, and he had altogether the look of a fine samurai, unrecognizable beside the man of those earlier days.
+
+Once a month Toshizō came out this far along the Kōshū Highway. Teaching on circuit in the country districts was, in short, how Kondō's Tennen Rishin-ryū kept itself going—the slender economy of the school.
+
+The slope at Kohinata Yanagichō in Edo, where Kondō's hall stood, had a fair number of lesser hatamoto residences about it; but the sons of such established houses would not study so obscure a little school. What pupils did come were curious townsmen, footmen, or a temple page or two from the Denzū-in. The hall's living, after all, was made on the teaching circuit out in Tama.
+
+Kondō went too, of course. And besides him, those who held the mokuroku or better—Hijikata Toshizō, Okita Sōji, Inoue Genzaburō—took turns, some days of each month, tramping the Kōshū Highway out to the Tama country.
+
+At Fuda this Jōshūya was their regular lodging. A night's stay and a woman to play with was the treat of it—though Toshizō, for his part,
+
+{j} in the "dark belles"
+
+{j} and their like had no interest at all. He would only have them pour his sake, and never so much as took one by the hand.
+
+"Food later,"
+
+{j} he said.
+
+"A flask of sake."
+
+Not that he cared for sake; he only wet his lips at the cup, never enough to call it drinking.
+
+"And a girl,"
+
+{j} he added. The innkeeper Rihei, taken aback,
+
+{j} "And what wind is it blows to bring this about?"
+
+{j} said he; but Toshizō, paying no heed,
+
+{j} "There was a serving-girl here named Osaki, was there not."
+
+"Aye, sir."
+
+"Fetch her."
+
+The innkeeper ran down and straight out the rear gate. Just beyond lay the paddy fields.
+
+Two or three women were out in the grass, rumps in the air, making a racket. By night even women such as these put on a grimy silk kosode, but in the middle of the day they slept, or else changed into deep-indigo field clothes and raked the puddles along the paddy edges for loach.
+
+The women ate them, of course, stewed in a pot. So long as they had loach to eat, they said, a girl's body could bear the night work and see out her term of service free of illness. Which was why the whores of every post-town along the Kōshū Highway all smelled of loach.
+
+"Osaki—wash your hands,"
+
+{j} the innkeeper called, in the voice a man uses to scold an ox. The woman turned her face back over her rump,
+
+{j} "A customer?"
+
+{j} and knit her brows. A customer in the middle of the day was bound to be some rare lecher.
+
+By the time she had changed her clothes, dabbed a token of white powder on the nape of her neck alone, and come out before Toshizō, a quarter-hour had passed. Osaki was a thin-lipped woman of eighteen or nineteen who had never lost her Jōshū accent.
+
+Toshizō was drinking alone in a room that looked out on the southern sky, and the moment he saw Osaki come in,
+
+{j} "You're the one,"
+
+{j} and he turned his goggling eyes on her.
+
+"What of it?"
+
+"The night before last—you were Inoue Genzaburō's girl for the night."
+
+"That's right."
+
+Inoue was the eldest of the men at Kondō's hall. His swordsmanship was not deft, but his blows, steady like the man himself, carried a kind of dignity. He had been a live-in pupil since the former master's day, and was, like the rest, the son of a farmer of southern Tama.
+
+Toshizō had called Osaki because, the night before last, when this girl lay with Inoue, she had let fall in their pillow-talk something not to be taken lightly.
+
+"Now, then—tell it out here, in full."
+
+"I won't,"
+
+{j} Osaki said, and fixed her eyes on him.
+
+"My mistake. They tell me I've a poor way of asking. Let me put it over again: I'd be obliged if you'd tell me."
+
+***
+
+The tale was this: some days before, one of three rōnin swordsmen who had come in together had bought Osaki, and in bed had questioned her, over and over, about the men of Kondō's hall who lodged at the Jōshūya. This she had told to Inoue Genzaburō, the night before last, in their pillow-talk.
+
+Inoue, back at the Edo hall, reported the matter to Toshizō.
+
+"I can't rightly make out what it's about, but the next time you go out, some odd fellow may try to play you a trick. Best not to walk the night roads much in Tama,"
+
+{j} he cautioned.
+
+(A man with some tie to Rokusha Sōhaku.)
+
+{j} was Toshizō's instant thought. Not that he had told a soul at the hall about the killing of Rokusha; Toshizō knew the danger of other men's mouths. Say a thing, and out it will surely leak.
+
+"In any case,"
+
+{j} said Inoue Genzaburō,
+
+{j} "go and ask Osaki at the Jōshūya."
+
+"What sort of thing did he ask?"
+
+{j} Toshizō said to Osaki.
+
+"Faces,"
+
+{j} said Osaki, pouring his sake,
+
+{j} "faces. What you gentlemen of the school all look like. Something about hunting for the man who cut down a lacquer tree behind the Rokusha Myōjin at Fuchū last autumn—was that lacquer a sacred tree, I wonder?"
+
+"There's no such thing as a sacred lacquer tree,"
+
+{j} he thought—the Rokusha business. When, after that affair, he had gone back to the spot to trace his memory and study the line of his cut, some local farmer or other must have seen him.
+
+That rumor, making its way around the paddies along the Kōshū Highway, had by now reached the ears of Rokusha Sōhaku's fellow disciples—so one might suppose.
+
+"This man—what did his face look like? The hair at his temples, was it not curled up and frizzed?"
+
+"It was,"
+
+{j} Osaki said, with a nod.
+
+The mark of the fencing-mask, no doubt. And if so, the man was a swordsman of no small skill.
+
+"A rather good-looking man. His pate was growing out, and he had a mark below his right eye. For height, five shaku seven or eight sun."
+
+"His accent?"
+
+"Well—he seemed to have spent time in Edo. But by the heavy way he had of talking, he might have been Jōshū-born."
+
+The next day Toshizō left the Fuda station.
+
+After teaching the young men of the neighborhood at Kondō's family home in Kamiishiwara, he moved on the following day to the village of Renjaku.
+
+In this village there was no training hall.
+
+They cleared out the miso storehouse of the headman's residence and practiced there; and when Toshizō arrived, five or six young men were already waiting, and
+
+{j} "Yesterday a strange rōnin came to the village. He kept asking when the master would come to give his lesson,"
+
+{j} they said. Toshizō, wiping the expression from his face,
+
+{j} "Asking for me, by name?"
+
+"That's right."
+
+The other side had already tracked down even his name.
+
+"What does he want?"
+
+"He wished to be taught a pass or two, he said. A man with a mark below his right eye—"
+
+"Don't know him,"
+
+{j} said Toshizō; and stripping off his kimono without interest, tying the cords of an all-leather practice cuirass, he added, as though it had only just come to him,
+
+{j} "Where's the man from?"
+
+{j} he said.
+
+"Hachiōji,"
+
+{j} declared a young fellow named Tatsukichi, who loaded up the horse-sandals the village made and went ten days a month to sell them at the Hachiōji post-town. He had seen the face two or three times on the streets there, he said.
+
+Next morning Toshizō left Renjaku and went straight on to Hachiōji.
+
+Five ri from Renjaku.
+
+Bushū Hachiōji was a post-town near the border of Kai; west of it the highway entered the mountains and crossed the Kobotoke Pass into Kai.
+
+From the age of the warring states down to the time of Ieyasu's entry into Edo, many masterless warriors who had lost their lords in the Kantō and in Kai gathered in this place.
+
+The Tokugawa house took these men into its service in a body under the name of the Hachiōji Thousand Guardsmen, and—as a garrison at the Kai gateway against any enemy that might come over the Kobotoke Pass—granted them house-lands and settled them across an area four ri on every side.
+
+Naturally, fencing halls sprang up to serve them as their clientele, and of these the Kōgen Ittō-ryū hall of Hiruma Hanzō flourished most. Rokusha Sōhaku, whom Toshizō had killed, had been the deputy master of this very hall.
+
+(Just as I thought.)
+
+{j} Toshizō reckoned.
+
+The man with the mark was, beyond doubt, one of Rokusha Sōhaku's fellows, a Kōgen Ittō-ryū swordsman based at Hachiōji. They must have been patiently hunting the one who had cut Rokusha down.
+
+Toshizō put up at the Senjubō in Hachiōji.
+
+It was the Shinshū temple where he had always lodged when he came to Hachiōji in his medicine-selling days—and into the room of this temple's daughter he had once, too, crept by night.
+
+The abbot, Zenkai, marveling at how Toshizō's dress had changed, asked whether he had become some steward-for-hire in Edo; but
+
+{j} "Oh, I dress like this to keep off robbers on the road,"
+
+{j} he said, steering the talk away from himself, and asked,
+
+{j} "And your daughter?"
+
+{j} He had no real wish to know; there was simply nothing else at hand to talk of.
+
+"She married, last autumn,"
+
+{j} —so far he was not surprised. The abbot went on,
+
+{j} "As for Sen,"
+
+{j} he said, giving his daughter's name,
+
+{j} "she is now the wife of Hanzō, the present head of the Hiruma hall up the way in Senninmachi."
+
+(Well, now. ...)
+
+As if idly,
+
+{j} "At that hall there was a man called Rokusha Sōhaku, was there not."
+
+"There was. But last year, behind the Saruwatari residence at the Rokusha Myōjin, he was struck down and killed by some person unknown. At first, because his shins had been cut, the rumor was that the Ryūgō-ryū crowd from Warabi had set on him in a pack and killed him; but now there is another rumor."
+
+"What rumor?"
+
+"That it was the Tennen Rishin-ryū. They seem to have some proof, and the men of the hall are hunting frantically."
+
+"At that hall,"
+
+{j} Toshizō said, breaking off a moment,
+
+{j} "there is, I am told, a fair-skinned man with a mark below his right eye—is there not?"
+
+"You'll mean the deputy master, Shichiri Kennosuke."
+
+"Shichiri?"
+
+Toshizō played the innocent.
+
+"And what sort of man is he?"
+
+"A capable one, by all accounts. He did not begin in the Kōgen Ittō-ryū at all, they say, but trained in the Nen-ryū at Maniwa in Jōshū; then he drifted down into Bushū and became a house-guest at the hall. A master of iai—they say there are not many even in Edo to match him."
+
+Toshizō stayed some days. He never set a foot outside the temple, and from the temple servants he knew he gathered up what was said of Shichiri Kennosuke.
+
+He was about thirty years old, and now and then, when he was drunk at the hall, he would have the pupils bind his two hands behind his back, then with a twist of his hips send a naked blade flying high into the air, dart forward, and catch the falling sword back into its scabbard.
+
+His iai was the Araki-ryū of Jōshū. In this Araki-ryū, a rural samurai named Ōshima Shingoemon (died on the fourteenth day of the fourth month of the eighth year of An'ei), who lived at Egi-machi in Umayabashi in Jōshū, would have a pupil fling a drawn blade over the roof, then wait at the eaves and catch it into the scabbard at his hip—a feat like a piece of acrobatics. The Araki-ryū of Jōshū had a tradition of such things, and Shichiri Kennosuke had no doubt learned some such trick-drawing.
+
+(What of it—how much can there be to it?)
+
+Toshizō was a man born with little fear in him, and rather than be hunted down by Shichiri Kennosuke and killed in the end, he meant to strike first and kill his man.
+
+***
+
+Going back for a time to the Edo hall, he asked old Shūsai, the former master, now in retirement,
+
+{j} "If a man comes at me with iai, how ought I to defend against it?"
+
+{j} he asked.
+
+"First and foremost—give ground."
+
+You give ground, and let the first stroke pass. While the other's sword is still in mid-air, he said, drive in at once and cut down, and you cannot fail to win.
+
+"But suppose,"
+
+{j} said Toshizō,
+
+{j} "there is a great tree, or an earthen wall, at my back, so that I cannot give ground as I would—what then?"
+
+"Then there is no defense but to bear down on the other's guard with your spirit."
+
+"And if none of that can be done?"
+
+"Then you are cut down, that is all."
+
+Shūsai knew the terror of iai.
+
+Some days later Toshizō asked the young master, Kondō,
+
+{j} "For a while I'd like to go back to being the old medicine-seller,"
+
+{j} and, changing everything from his hair to his dress, he set out once more for Hachiōji.
+
+This time he did not call at the Senjubō, but went straight to the Kōgen Ittō-ryū hall of the Hiruma in Senninmachi, and—bold as he pleased—came round into the hall's own garden,
+
+{j} "I beg you would announce me to the honored deputy master, Shichiri Kennosuke,"
+
+{j} he asked.
+
+Shichiri came out.
+
+"What, a medicine-seller?"
+
+{j} he said, looking him steadily up and down.
+
+"Aye, sir—Ishida Powder, it's called, for bruises and—"
+
+{j} and, launching into the virtues of the medicine, he studied Shichiri Kennosuke.
+
+Sure enough, there was a mark below his right eye. He was tall, and his right arm seemed a shade longer than his left—an iai man to the life; but the fat gathered thick from his jaw down the nape of his neck was unlike a fighting man. If he was thirty, he looked older than his years.
+
+"Your first time at this house?"
+
+"No, sir—the family of your good lady of this house has favored me with its custom these many years."
+
+"Where's your village?"
+
+{j} said Kennosuke. Toshizō gave the name of a village too fast to catch, and then,
+
+{j} "Your lady knows it well."
+
+"Does she."
+
+Kennosuke signed with his eyes to a pupil to go and carry word within, then, peering suddenly close,
+
+{j} "Medicine-seller—you've a shinai-callus on your hand,"
+
+{j} he said.
+
+He was smiling faintly.
+
+Toshizō did not start.
+
+"I dabble a little, sir."
+
+"What school, and how far did you get?"
+
+"You do me too much honor, sir. It's half in play, so I've no fixed master to speak of."
+
+Just then the pupil came back and said the mistress was out.
+
+"Medicine-seller—"
+
+Something, it seemed, had occurred to Kennosuke.
+
+"I happen to be bored. I'll oblige you—why not work up a little sweat before you go?"
+
+"That—"
+
+It was, of course, the very thing he wanted. He had come all this way for no other reason than to see the quality of Kennosuke's hand.
+
+In a corner of the hall Toshizō drew his knees together and put on the practice armor Kennosuke tossed him.
