@@ -118,3 +118,12 @@
 二万六千
 # 百十(軒) = 110 households; parser reads the English "hundred and ten" as 100+10 — value carried "hundred and ten households"
 百十
+# --- Owl's Castle (ch06) Japanese entries ---
+# 二条 = Nijō ("Second Avenue"), a Kyoto street/riverbank name (also 二条河原) — the 二 is the place name, not the count 2 — rendered "Nijō"
+二条
+# 三方 = sanbō, a footed offering-stand — the 三 is the object's name, not the count 3 — rendered "offering-stand"
+三方
+# 源九郎 = Minamoto no Kurō (Yoshitsune); 九郎 "ninth son" is a name — the 九 is the name, not the count 9 — rendered "Kurō"
+源九郎
+# 五官 = the five senses (idiom) — the 五 is not a real count — rendered "his senses"
+五官

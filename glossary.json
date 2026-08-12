@@ -437,6 +437,72 @@
       "pinyin": "Natsumi-no-Mimiji",
       "status": "provisional",
       "note": "A masterless Iga rappa Kuroami singles out at the muster. 夏見 (Natsumi) is a place in Iga; reading of 耳次 (Mimiji) unglossed in the scan and a project call."
+    },
+    "渡辺慧": {
+      "en": "Watanabe Satoru",
+      "pinyin": "Watanabe Satoru",
+      "status": "provisional",
+      "note": "The Kashima-school rōnin swordsman whom Kohagi bankrolls and sets against Jūzō; a fictional figure. The given name 慧 is left unglossed in the scan; the reading Satoru is a project call. Referred to in narration by the bare given name 慧."
+    },
+    "榊原康政": {
+      "en": "Sakakibara Yasumasa",
+      "pinyin": "Sakakibara Yasumasa",
+      "status": "attested",
+      "note": "One of Tokugawa Ieyasu's 'Four Guardians'; here the lieutenant whose letter of introduction sends Watanabe to Imai Sōkyū. Bare 康政 (Yasumasa) also used in narration."
+    },
+    "塚原卜伝": {
+      "en": "Tsukahara Bokuden",
+      "pinyin": "Tsukahara Bokuden",
+      "status": "attested",
+      "note": "1489–1571; the great swordsman of the Kashima tradition, sword-teacher to the shogun Ashikaga Yoshiteru. Bare 卜伝 (Bokuden) also used."
+    },
+    "松林左馬助": {
+      "en": "Matsubayashi Samanosuke",
+      "pinyin": "Matsubayashi Samanosuke",
+      "status": "provisional",
+      "note": "The Kashima shrine-family swordsman credited with codifying the Kashima-ryū (a.k.a. Shinmei-ryū). Reading of the name not independently confirmed."
+    },
+    "足利義輝": {
+      "en": "Ashikaga Yoshiteru",
+      "pinyin": "Ashikaga Yoshiteru",
+      "status": "attested",
+      "note": "The thirteenth Ashikaga shogun (r. 1546–1565), a noted swordsman who studied under Bokuden; distinct from Yoshiaki, the last shogun."
+    },
+    "宮本武蔵": {
+      "en": "Miyamoto Musashi",
+      "pinyin": "Miyamoto Musashi",
+      "status": "attested",
+      "note": "1584?–1645; the celebrated swordsman and author of the Book of Five Rings, whose duel with the Yoshioka school of Kyoto is legendary. Named here in a proleptic aside ('the later Musashi')."
+    },
+    "平重盛": {
+      "en": "Taira no Shigemori",
+      "pinyin": "Taira no Shigemori",
+      "status": "attested",
+      "note": "1138–1179; eldest son of Taira no Kiyomori, whose mansion once stood at Komatsudani (hence his sobriquet, the Komatsu Minister)."
+    },
+    "義仲": {
+      "en": "Yoshinaka",
+      "pinyin": "Kiso Yoshinaka",
+      "status": "attested",
+      "note": "Minamoto (Kiso) no Yoshinaka, 1154–1184; the rough eastern warrior-cousin of Yoshitsune, briefly master of the capital before his fellow Minamoto destroyed him."
+    },
+    "妙兵衛": {
+      "en": "Myōbei",
+      "pinyin": "Myōbei",
+      "status": "decided",
+      "note": "One of the rappa in Kohagi's employ, disguised as a timid shop-clerk; guides Watanabe to the ambush."
+    },
+    "すね次": {
+      "en": "Sunetsugi",
+      "pinyin": "Sunetsugi",
+      "status": "provisional",
+      "note": "Another of Kohagi's rappa, posted in the streets around the Jurakudai. Reading a project call (すね次, unglossed)."
+    },
+    "長曾我部": {
+      "en": "Chōsokabe",
+      "pinyin": "Chōsokabe",
+      "status": "attested",
+      "note": "The Chōsokabe house of Tosa; here the Kyoto mansion (of 長曾我部宮内少輔, Chōsokabe Kunai-no-shōyū) whose back wall Jūzō vaults during the ambush."
     }
   },
   "places": {
@@ -894,6 +960,90 @@
       "pinyin": "Gokinai",
       "status": "attested",
       "note": "The five provinces around the capital (Yamashiro, Yamato, Kawachi, Izumi, Settsu)."
+    },
+    "二条": {
+      "en": "Nijō",
+      "pinyin": "Nijō",
+      "status": "attested",
+      "note": "The Second Avenue of Kyoto; here its eastern edge and the Nijō riverbank (二条河原) by the Kamo, where Kohagi meets Gohei."
+    },
+    "阿弥陀ヶ峰": {
+      "en": "Amidagamine",
+      "pinyin": "Amidagamine",
+      "status": "attested",
+      "note": "A peak of the Higashiyama range south-east of the capital; Hideyoshi would later be entombed on it."
+    },
+    "小松谷": {
+      "en": "Komatsudani",
+      "pinyin": "Komatsudani",
+      "status": "attested",
+      "note": "A wooded hollow at the eastern foot of Amidagamine, named from Taira no Shigemori's old mansion; site of Sōkyū's Kyoto villa, where Kohagi lives."
+    },
+    "常陸": {
+      "en": "Hitachi",
+      "pinyin": "Hitachi",
+      "status": "attested",
+      "note": "An eastern province (modern Ibaraki), seat of the Kashima Shrine and the Kashima sword tradition."
+    },
+    "鹿島": {
+      "en": "Kashima",
+      "pinyin": "Kashima",
+      "status": "attested",
+      "note": "The great shrine of Hitachi and the sword tradition that grew from its shrine-families; paired with Katori as the twin fountainheads of Japanese swordsmanship."
+    },
+    "香取": {
+      "en": "Katori",
+      "pinyin": "Katori",
+      "status": "attested",
+      "note": "The great shrine of Shimōsa, across the river from Kashima; the other cradle of the classical sword schools."
+    },
+    "坂東": {
+      "en": "Bandō",
+      "pinyin": "Bandō",
+      "status": "attested",
+      "note": "The old name for the eastern provinces (the Kantō), 'east of the passes'."
+    },
+    "大坂城": {
+      "en": "Ōsaka Castle",
+      "pinyin": "Ōsaka-jō",
+      "status": "attested",
+      "note": "Hideyoshi's great stronghold, to which he had removed from the Jurakudai, leaving the Kyoto palace lightly guarded."
+    },
+    "柳町": {
+      "en": "Yanagimachi",
+      "pinyin": "Yanagimachi",
+      "status": "attested",
+      "note": "The licensed pleasure quarter of the capital in this period, in Nakagyō."
+    },
+    "若狭屋": {
+      "en": "Wakasaya",
+      "pinyin": "Wakasaya",
+      "status": "decided",
+      "note": "The Yanagimachi brothel where Watanabe keeps a favourite; a minor invented setting."
+    },
+    "中京": {
+      "en": "Nakagyō",
+      "pinyin": "Nakagyō",
+      "status": "attested",
+      "note": "The central district of Kyoto, between the upper and lower city."
+    },
+    "近衛": {
+      "en": "Konoe",
+      "pinyin": "Konoe",
+      "status": "attested",
+      "note": "The premier regent-house of the court nobility; here its Kyoto mansion, a landmark on the skyline."
+    },
+    "丸太町": {
+      "en": "Marutamachi",
+      "pinyin": "Marutamachi",
+      "status": "attested",
+      "note": "An east–west street of the capital, north of the Jurakudai."
+    },
+    "堺町": {
+      "en": "Sakaimachi",
+      "pinyin": "Sakaimachi",
+      "status": "attested",
+      "note": "A street/quarter of the capital (not the port city of Sakai); one of the crossings watched by Kohagi's rappa."
     }
   },
   "terms": {
@@ -1022,6 +1172,24 @@
       "pinyin": "kōshin",
       "status": "attested",
       "note": "The kōshin folk-cult and its emblematic monkey; the 'kōshin monkey' simile is footnoted at first appearance."
+    },
+    "くノ一": {
+      "en": "kunoichi",
+      "pinyin": "kunoichi",
+      "status": "attested",
+      "note": "The ninja's cant word for a female agent, from breaking the character 女 (woman) into the strokes ku-no-ichi (く-ノ-一). Footnoted at first appearance."
+    },
+    "忍び文字": {
+      "en": "ninja cipher",
+      "pinyin": "shinobi-moji",
+      "status": "attested",
+      "note": "'Shinobi writing': the secret syllabic script ninja used among themselves. The chapter title; footnoted where the device is explained."
+    },
+    "吉祥天女": {
+      "en": "Kisshōten",
+      "pinyin": "Kisshōten-nyo",
+      "status": "attested",
+      "note": "The Buddhist goddess of beauty and good fortune (Sanskrit Lakṣmī / Śrī); a byword for a lovely face. Footnoted at first appearance."
     }
   }
 }

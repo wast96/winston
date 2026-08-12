@@ -733,3 +733,121 @@ prose but is not a checked anchor (same as before this batch).
   swaddling-clothes" and chides like a father. Cold, practical, superstitious in his
   creed (no women inside a ninja's 結界); can "snuff out his own presence" mid-sentence.
   Runs the muster as "Iseya Kahei" the whetter; installs the unseen Jūzō as chief.
+
+## Batch B06 — ch06 忍び文字 / The Ninja Cipher (PDF/printed 167-206, offset 0)
+
+Gohei's thread. The chapter turns on the shinobi cipher and introduces the fictional
+Kashima swordsman Watanabe Satoru, whom Kohagi bankrolls and pits against Jūzō as a
+test; Jūzō spares him without drawing his blade. 312 source paragraphs, 5 new notes
+(book total 55).
+
+### Pipeline
+render 167-207 --dpi 300; ocr_crop 167-206 (--left 0.035 --right 0.965 --top 0.075
+--bottom 0.955 --lang jpn_vert --psm 5 --no-furniture-strip); ocr_dual 167-206;
+`pgrep -c tesseract` 0 after each. assemble.py NOT used (welds paragraphs on this
+vertical OCR, as before). data/zh/ch06.txt hand-transcribed off the rendered page
+images (the parity + crop-verification surface); force-added (data/zh gitignored).
+Setup gap unchanged: setup.sh installs only the Chinese packs; jpn + jpn_vert added
+manually. epubcheck re-fetched to /tmp/epubcheck-5.1.0 (container was recycled).
+
+### Checks (all green)
+- **Numbers:** verify_unit ch06 — 0/312 unresolved. noise.txt gained a ch06 block:
+  二条 (Nijō place-name, the 二 not a count; covers 二条河原), 三方 (sanbō offering-stand,
+  三 not a count), 源九郎 (Kurō, the 九 a name), 五官 (the five senses, idiom). The
+  hyphenated "two-hundred-koku" would not parse — rendered "a warrior of two hundred
+  koku". くノ一 did NOT flag (its 一 is handled by the built-ins).
+- **Parity:** check_structure 312 | 312 OK. One early off-by-one fixed: source folds
+  "それには女は答えず、" with Kohagi's message into one paragraph; the draft had split it.
+- **Entities:** qc_entities 0 misses (census: 重蔵 x78, 小萩 x52, 五平 x29, 乱波 x22).
+  Many fixes: 重蔵さま/様 was first drafted "Lord Tsuzura" (surname) — changed to "Lord
+  Jūzō"/"Master Jūzō" so the 重蔵→Jūzō anchor lands; pronoun-carried 五平/小萩/二条/乱波
+  paragraphs re-anchored with the name/term.
+- **Content:** check_content OK across all units (ch06 216 name occurrences placed).
+  No regression from the new rows (大坂城 already "Ōsaka Castle" in ch03).
+- **Alignment:** check_align — 20 pairs out of the median band, all short dialogue,
+  the parenthetical thoughts, and the cipher block (English shorter than the glyphs);
+  no low-ratio drop on a substantial paragraph.
+- **Register:** check_register --ref out/ch01_reading.md — 0.74x of the ch01 baseline,
+  "within tolerance". Ch06 runs deliberately more formal (Kohagi's でございます register,
+  Watanabe's stilted-then-corrupted speech, Jūzō's gravity); a light contraction pass
+  on the rough easterner Watanabe's lines lifted it from 0.67x. Kohagi's polite
+  register and the grave lines kept uncontracted by design.
+- **Apparatus:** check_apparatus 0/0. qa_epub PASS (20 docs, 55 refs/bodies/backlinks).
+  epubcheck 0 fatals / 0 errors / 0 warnings.
+
+### One real omission caught and fixed (rule 4)
+The draft dropped the clause しかし吉祥天女に似た顔の (a Kisshōten simile) at a column
+boundary on the dense p196 — a mid-sentence drop check_align would not see (9 han in a
+185-han paragraph). Caught on an OCR-coverage cross-check (grep 吉祥 in data/txt hit
+p196), verified against the scan, restored in both data/zh/ch06.txt and the reading,
+and Kisshōten added to the glossary + a footnote. An OCR kanji-bigram coverage diff
+(OCR compounds absent from the transcription) surfaced only OCR garbles of content
+already present (小菊=小萩, 衆楽=聚楽, 炒兵=妙兵衛), no other drop.
+
+### The cipher device — how it is rendered
+The enciphered slip (P20) is set as a centered `verse` block reproducing the printed
+shinobi-moji glyphs as-is; the decoded message (P26) is a `vignette` (italic) block
+carrying the English of the hiragana Gohei reads out. The shinobi-moji note explains
+the invented syllabary. The glyphs are real-but-random CJK; e-readers with a CJK
+fallback font show them, which is the point (an alien script), and the note carries
+the meaning regardless.
+
+### Notes added (5) — ch06 NEW first-appearances only
+kunoichi (the 女→く-ノ-一 word-play, the shadow-world's view of the female agent);
+shinobi-moji / the ninja cipher (the 49-sign syllabary; the chapter title; why writing
+in cipher is itself a threat); the Kashima/Katori swordsmanship tradition (+ Bokuden,
+cross-referenced forward); Miyamoto Musashi / the Yoshioka of Kyoto (flagged as a
+proleptic aside — Musashi a child in 1591); Kisshōten (the Buddhist beauty-goddess).
+
+### NOT re-noted (already placed in ch01-ch05; cross-referenced, not repeated)
+Iga/Kōga, the Iga Rebellion, Tenshō/Eiroku dating, Honnō-ji, Hideyoshi/Nobunaga/
+Ieyasu, Maeda Gen'i and the Kyoto magistracy, Sōkyū and the Sakai tea-masters, the
+Hōin/Ōkurakyō ranks, the Jurakudai (noted in B05), the Hōkō-ji, the zodiac double-hours
+(酉ノ刻/丑ノ刻/子ノ刻 all carried without a fresh note), rappa/shinobi, koku/chō/shaku/ken/
+tsubo, the Kantō, Ōsaka Castle. Yoshitsune already glossed (source here 源九郎義経).
+
+### No figures
+find_figures 167-206 returned nothing; every page eyeballed for line art. ch06 is
+text-only like ch01-ch05. Empty figure list is a deliberate decision (figures.json
+stays {}).
+
+### Renderings — reused unchanged (consulted before romanizing)
+重蔵/葛籠重蔵 Jūzō/Tsuzura Jūzō, 黒阿弥 Kuroami, 風間五平/五平 Kazama Gohei/Gohei, 小萩
+Kohagi, 今井宗久 Imai Sōkyū, 木さる/木猿 Kisaru, 下柘植次郎左衛門 Shimotsuge Jirōzaemon,
+前田玄以 Maeda Gen'i, 伊勢屋嘉兵衛 Iseya Kahei, 珍皇院 the Chinnō-in, 方広寺 the Hōkō-ji,
+聚楽第 the Jurakudai, 大蔵卿/法印 Ōkurakyō/Hōin, 家康 Ieyasu, 秀吉 Hideyoshi, 大坂/大坂城
+Ōsaka/Ōsaka Castle, 三条 Sanjō, 鴨川 the Kamo, 乱波 rappa, koku/chō/shaku/ken.
+
+### Renderings — added this batch (glossary.json; 27 rows)
+People (11): Watanabe Satoru (渡辺慧, provisional — 慧 unglossed in the scan, the reading
+a project call; narration uses bare 慧), Sakakibara Yasumasa (榊原康政), Tsukahara Bokuden
+(塚原卜伝), Matsubayashi Samanosuke (松林左馬助, provisional), Ashikaga Yoshiteru (足利義輝),
+Miyamoto Musashi (宮本武蔵), Taira no Shigemori (平重盛), Yoshinaka (義仲, Kiso Yoshinaka),
+Myōbei (妙兵衛), Sunetsugi (すね次, provisional), Chōsokabe (長曾我部). Places (14): Nijō
+(二条, covers 二条河原), Amidagamine (阿弥陀ヶ峰), Komatsudani (小松谷), Hitachi (常陸),
+Kashima (鹿島), Katori (香取), Bandō (坂東), Ōsaka Castle (大坂城), Yanagimachi (柳町),
+Wakasaya (若狭屋), Nakagyō (中京), Konoe (近衛), Marutamachi (丸太町), Sakaimachi (堺町 —
+NOT the port city 堺). Terms (3): kunoichi (くノ一), ninja cipher / shinobi-moji (忍び文字),
+Kisshōten (吉祥天女). Added directly into the sectioned people/places/terms (Edit tool,
+no apparatus_merge flatten); notes merged via apparatus_merge. Substring-trap guard held
+(B05 lesson): NO bare 慧→Satoru row ("Satoru" ⊂ "Watanabe Satoru"); bare 長曾我部→Chōsokabe
+only (base form, longer renderings contain it); 二条→Nijō as the base (not 二条河原).
+
+### Voice sheets — updates
+- **Kohagi:** the chapter's psychological centre. Imai Sōkyū's adopted daughter and
+  agent; polite ます/でございます, a smoky half-smile, a Noh-mask calm over a rappa's
+  ruthlessness. She engineers the Jūzō-Gohei meeting and, on impulse, conceives of
+  killing Jūzō as a way to reclaim the rappa's heart she feels herself losing to him —
+  "a fierce kind of love". She crumbles for one instant (calls "Lord Tsuzura—") and
+  hates herself for it. Manipulative and tender at once; runs a net of rappa (Myōbei,
+  Sunetsugi) and bankrolls Watanabe with Sōkyū's gold.
+- **Kazama Gohei:** opens the chapter, cold and vain; superior わし/じゃ, a "mean little
+  shadow at the corner of the mouth". Unnerved by the cipher (a rappa lets fear stand,
+  does not master it); slices the letter-box in four. Serves Maeda Gen'i at 200 koku.
+- **Watanabe Satoru (new):** fictional Kashima-school rōnin, 28-29, broad-shouldered,
+  a mad blue light in his eye; earnest and boastful, innocent of money (the east barely
+  used coin) and so enslaved by it. Rough eastern register, contracts freely; his
+  swagger cracks under Jūzō's ninja arts. Killed off — spared, rather — at the close.
+- **Tsuzura Jūzō:** the reflective strategist again; sees through his own heart (he went
+  to "nail" Kohagi's scheme but really went to see her), and grows "shabby by the moment"
+  in his own eyes. The rooftop-of-the-Jurakudai duel he sets is pure ninja theatre.
