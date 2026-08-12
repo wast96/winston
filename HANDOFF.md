@@ -10,33 +10,20 @@ and do not touch it afterward.
 
 ## Message to paste into the next chat
 
-Batch 1 stops at the first-chapter VOICE GATE (CLAUDE.md Step 0c). No Batch 2
-kickoff is issued yet: the commissioner judges the front matter first, and on
-approval it becomes the FROZEN register reference. Paste this block in the
-chat now, with the built EPUB attached:
-
 ```
-Nameless Heroes B01 voice gate (STOP for approval)
+Nameless Heroes B02
 
-Batch B01 (ch01-ch05, the front matter) is complete and built into
-out/nameless-heroes.epub (attached). All gates are green: parity, numbers,
-anchors (verify_unit), check_align, check_content, check_structure, qa_epub,
-and epubcheck 5.1.0 (0 errors / 0 warnings). 67 footnotes, a Principal
-Characters page, and the glossary are in place. 军统 was DECIDED as "the
-Juntong."
+Read CLAUDE.md in full (the working rules at the top are non-negotiable), then HANDOFF.md, then book.json. We are translating 英雄无名 (Nameless Heroes) by Chen Gongshu, a Nationalist/Juntong secret-service memoir, from a digital EPUB (source.epub) into an annotated English EPUB, following CLAUDE.md exactly. Work ONLY on branch claude/nameless-heroes; expect the harness to start you on a stray per-task branch and consolidate per CLAUDE.md rule 2 (check out claude/nameless-heroes, reset to origin, carry over any stray commits, delete the stray local and remote). Deliverable: out/nameless-heroes.epub. Run ./setup.sh once, then re-ingest with scripts/ingest_epub.py source.epub (data/src is gitignored/regenerable). B01 (front matter, ch01-ch05) is DONE and the voice gate is PASSED: the B01 front matter is the FROZEN register reference. Do NOT re-do it.
 
-Please judge, before Batch 2:
-  1. VOICE — the essayistic first-person register of Chen's authorial "I"
-     (read ch01 the Foreword and ch04 "My View of Secret Service Work").
-  2. FOOTNOTE DENSITY — 67 notes across the front matter (ch01 6, ch02 20,
-     ch03 9, ch04 24, ch05 8); too many, too few, or right.
-  3. FORMATTING — including the recovered ch04 sub-headings (five titled
-     sections the digitization had flattened into paragraph text) and the
-     Principal Characters / glossary pages.
+Do Batch B02 = ch06 ONLY (第一节 任重道远 勇往直前, ~25,236 source chars). This is the FIRST NARRATIVE unit: Part One, Section 1, where the story proper begins (the founding of the Beiping station, Chen's meeting with Dai Li, the early work). Run it end to end per the CLAUDE.md pipeline, and run to completion (no mid-batch approval gate now that the voice gate is passed):
+1. Read ch06 from data/src (07_index-split-000-0005.txt). DROP the running-header first line 英雄无名-陈恭澍. Fix extractor-split paragraphs (a line whose last char is not in 。！？」）…— continues into the next; watch the source's own mid-paragraph <p> splits). GREP the source for note markers (\[\d+\]) and record "none present" in PROGRESS.md. Recover set-off formatting with scripts/apply_format_markers.py where the source HTML encodes it — narrative chapters often carry scene breaks (centered rule image -> ***) and opening vignettes ({v}); check the chapter HTML in data/src_epub for <p class="center"> / kaiti spans and apply the markers.
+2. Build data/zh/ch06.txt VERBATIM from data/src: extend scripts/clean_batch.py with ch06's drop/merge/heading spec (it verifies source characters are conserved), OR use make_bilingual.py -> split_bilingual.py if ch06's paragraphs map 1:1 onto the source <p>. Write out/ch06_en.json + out/ch06_reading.md (## chapter title from book.json; one English paragraph per source body line).
+3. Translate to the FROZEN register (Chen's voice sheet is in HANDOFF; read the last two pages of ch05/ch04 English for the seam). Consult glossary.json and authority.json BEFORE romanizing anything new; REUSE the settled renderings (the Juntong; Dai Li / courtesy name Yunong; Beiping; Tianjin; the Lixingshe; the Special Services Department; the Bureau of Investigation and Statistics; Station 站 vs District 区; 制裁 "sanction"; the Nationalist idiom). New characters get a two-line voice sheet in HANDOFF at first appearance. Preserve the Nationalist idiom; footnote where scholarship contests a claim. Render digitization glitches to plain sense and LIST them in PROGRESS.md.
+4. Checks: verify_unit.py ch06 (parity + numbers with --noise data/noise.txt + anchors) AS YOU GO; check_align.py; regenerate checks.json with scripts/batch_artifacts.py and run check_structure.py + check_content.py --config checks.json; verify the TAIL against the source (rule 4 corollary). check_register.py --ref against the frozen B01 front matter (exempt registers per references/register-drift.md). This batch is also the place for the once-per-book blind double-translation (check 7) on a representative narrative passage, and a round-trip back-translation sample (check 8).
+5. Footnotes per the reader model, first-appearance-disciplined with the greps and the NOT-re-noted ledger (do NOT re-note anything already noted in B01: Dai Li, the Juntong, Beiping/Tianjin, War of Resistance, secret service work, the Republican-calendar convention, etc. — the full list is in PROGRESS.md). Add glossary rows with attestation status; flag any new principal cast principal: true. Figures: the survey found only the cover (already placed); confirm ch06 carries no images.
+6. Rebuild the EPUB, qa_epub.py until green, epubcheck if available; record all check results in PROGRESS.md; write the voice sheet(s) and update HANDOFF.md; commit and push to claude/nameless-heroes.
 
-On approval, ch01 (or the front matter as a whole) becomes the frozen
-reference for check_register.py --ref, and Batch 2 = ch06 (Part One,
-Section 1, ~25k, the first narrative unit) begins in a fresh chat.
+End with the TWO chat deliverables in the SAME final reply (CLAUDE.md banner): the rebuilt out/nameless-heroes.epub ATTACHED as a file, and the Batch B03 kickoff message pasted VERBATIM in a fenced code block. Cite chapters and sections, never pages. Do not pause for approval mid-batch.
 ```
 
 ## What is DONE (do not redo)
@@ -47,7 +34,9 @@ Section 1, ~25k, the first narrative unit) begins in a fresh chat.
   introductions, Part One prefatory note. Translated, annotated (67 notes),
   glossary (46 rows) and Principal Characters page authored, cumulative EPUB
   rebuilt. All checks green; epubcheck clean. Continuous note count so far:
-  67. Full detail in PROGRESS.md ("Batch B01"). AWAITING the voice gate.
+  67. Full detail in PROGRESS.md ("Batch B01"). **VOICE GATE PASSED
+  (approved by the commissioner):** the B01 front matter is now the FROZEN
+  register reference for check_register.py --ref from B02 on.
 
 ## Tooling in place (do NOT revert)
 
@@ -121,12 +110,11 @@ Section 1, ~25k, the first narrative unit) begins in a fresh chat.
 
 ## What is NEXT
 
-- STOP at the voice gate. Do NOT begin Batch 2 in this conversation, and do
-  NOT paste a Batch 2 kickoff.
-- After approval: freeze the register reference, then Batch 2 = ch06 (Part
-  One, Section 1, 任重道远 勇往直前, ~25,236 chars) begins in a fresh chat.
-  ch06 is the first narrative unit; reconsider whether the frozen reference
-  should be revisited once narrative prose exists.
+- Batch B02 = ch06 (Part One, Section 1, 任重道远 勇往直前, ~25,236 chars),
+  the first narrative unit. Kickoff is the paste-block at the top of this
+  file. Runs to completion (no gate); ends by pasting the B03 kickoff.
+- The frozen register reference is the B01 front matter; if narrative prose
+  proves to want a different baseline, raise it, but do not silently reset it.
 
 ## Open items for the read-through
 
