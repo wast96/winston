@@ -272,7 +272,13 @@ def target_numbers(text):
     for word, scale in MULT.items():
         for m in re.findall(r"(\d+)\s*" + word, low):
             nums.add(int(m) * scale)
-        for name, val in dict(ONES, **dict(TEENS, **TENS)).items():
+        # ten..thirteen were missing from the name set, so "ten million"
+        # (一千万) went unrecognised; target-side only, so it can only ADD a
+        # recognised value and never mask a source drop (same safety as the
+        # ORDINALS block above).
+        _MULT_NAMES = dict(ONES, **dict(TEENS, **dict(
+            TENS, ten=10, eleven=11, twelve=12, thirteen=13)))
+        for name, val in _MULT_NAMES.items():
             if re.search(r"\b%s %s\b" % (name, word), low):
                 nums.add(val * scale)
         if re.search(r"\b(a|one) %s\b" % word, low):

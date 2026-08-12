@@ -410,3 +410,13 @@
 简贯三
 # 四五花洞 = the Peking-opera piece "Si-Wu Hua Dong"; 四/五 are the title, not counts. English keeps the romanized title.
 四五花洞
+#
+# --- ch21 (B08c) ---
+# 二千六百多万 = "more than twenty-six million" (a numeral compound split by 多); strip whole, or 多 orphans 二千六百 and 万. English "more than twenty-six million".
+二千六百多万
+# 二十亿 = two billion (fabi condolence money); 亿(simplified) is not summed by cn_to_int, so the token mis-reads as a bare 20. English "two billion" carries the value.
+二十亿
+# 忠五 in 许忠五 = Xu Zhongwu, an early Dai Li associate; 五 is the personal name, not the count 5. English "Xu Zhongwu".
+忠五
+# 三有 in 三有公司 = the Sanyou Company (run by Mao Qingxiang); 三 is the firm's name, not the count 3. English "Sanyou Company".
+三有
