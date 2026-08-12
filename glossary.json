@@ -300,6 +300,129 @@
       "pinyin": "Egawa",
       "status": "attested",
       "note": "The hereditary intendant house at Nirayama, administering shogunal land."
+    },
+    "山南敬助": {
+      "en": "Yamanami Keisuke",
+      "pinyin": "Yamanami Keisuke",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 9,
+      "cast": "The eldest of the Shieikan house-guests, a learned Sendai man and Hokushin Ittō-ryū adept; brings the corps its political news. Toshizō despises him.",
+      "note": "Historical, 1833&#8211;1865. Held the full transmission at the Chiba hall; later general secretary (s&#333;ch&#333;) of the Shinsengumi, second only to Kondō, until an attempt to leave the corps forced him to commit seppuku."
+    },
+    "芹沢鴨": {
+      "en": "Serizawa Kamo",
+      "pinyin": "Serizawa Kamo",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 10,
+      "cast": "A huge, violent Mito rōnin of the Shintō Munen-ryū, of the Tengu Party; co-commander of the founding Mibu corps, and Toshizō's uneasy first ally in Kyoto.",
+      "note": "Historical, 1826/27&#8211;1863. A Mito man of the Shindō Munen-ry&#363;, real name given variously as Kimura or Shimomura Tsuguji; first head of the Mibu corps, assassinated by the Kondō faction in the ninth month of 1863."
+    },
+    "斎藤一": {
+      "en": "Saitō Hajime",
+      "pinyin": "Saitō Hajime",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 11,
+      "cast": "A close, taciturn swordsman, a rōnin of Akashi who joins the corps from the Shieikan; one of its finest blades.",
+      "note": "Historical, 1844&#8211;1915. Later captain of the Shinsengumi's Third Unit and one of its deadliest swordsmen; survived the wars, served as a Meiji policeman, and died in old age."
+    },
+    "清河八郎": {
+      "en": "Kiyokawa Hachirō",
+      "pinyin": "Kiyokawa Hachirō",
+      "status": "attested",
+      "note": "Historical, 1830&#8211;1863. A rural samurai of Sh&#333;nai in Dewa, a Hokushin Ittō-ryū adept and strategist; conceived the Rōshigumi and tried to turn it to the imperial cause, and was cut down for it in 1863."
+    },
+    "松平上総介": {
+      "en": "Matsudaira Kazusa-no-suke",
+      "pinyin": "Matsudaira Kazusa-no-suke",
+      "status": "provisional",
+      "note": "As Shiba gives him: a collateral Tokugawa, of the line of Tadanaga, acting as a sponsor of the rōshi levy. A minor figure; reading of the title as the source gives it."
+    },
+    "松平忠敏": {
+      "en": "Matsudaira Tadatoshi",
+      "pinyin": "Matsudaira Tadatoshi",
+      "status": "attested",
+      "note": "A Kōbusho instructor placed in charge of the shogunate's rōshi levy of 1863. Reading from the source's furigana (ただとし)."
+    },
+    "山岡鉄太郎": {
+      "en": "Yamaoka Tetsutarō",
+      "pinyin": "Yamaoka Tetsutarō",
+      "status": "attested",
+      "note": "Historical, 1836&#8211;1888. A shogunal overseer of the Rōshigumi; later famous as Yamaoka Tessh&#363;, a great swordsman, statesman, and Zen adept who helped negotiate the peaceful surrender of Edo Castle."
+    },
+    "松平容保": {
+      "en": "Matsudaira Katamori",
+      "pinyin": "Matsudaira Katamori",
+      "status": "attested",
+      "note": "Historical, 1836&#8211;1893. Lord of Aizu and, from 1862, Kyoto Protector (Kyoto Shugoshoku); under his patronage the Mibu corps became the Shinsengumi."
+    },
+    "板倉周防守": {
+      "en": "Itakura Suō-no-kami",
+      "pinyin": "Itakura Katsukiyo",
+      "status": "attested",
+      "note": "Itakura Katsukiyo (1823&#8211;1889), a senior councilor (rōj&#363;) of the shogunate."
+    },
+    "新見錦": {
+      "en": "Niimi Nishiki",
+      "pinyin": "Niimi Nishiki",
+      "status": "attested",
+      "note": "A Mito man of the Serizawa faction and an early officer of the corps; forced to commit seppuku in 1863. Reading from the source's furigana (にいみにしき)."
+    },
+    "平間重助": {
+      "en": "Hirama Jūsuke",
+      "pinyin": "Hirama Jūsuke",
+      "status": "provisional",
+      "note": "A Mito follower and inner pupil of Serizawa Kamo. Romanization mine."
+    },
+    "野口健司": {
+      "en": "Noguchi Kenji",
+      "pinyin": "Noguchi Kenji",
+      "status": "attested",
+      "note": "A Mito man of the Serizawa faction and an early Shinsengumi officer; died in 1864."
+    },
+    "平山五郎": {
+      "en": "Hirayama Gorō",
+      "pinyin": "Hirayama Gorō",
+      "status": "attested",
+      "note": "A Mito man of the Serizawa faction, killed alongside Serizawa in the assassination of 1863."
+    },
+    "石坂周造": {
+      "en": "Ishizaka Shūzō",
+      "pinyin": "Ishizaka Shūzō",
+      "status": "attested",
+      "note": "A defector from Hikone and follower of Kiyokawa; survived into the mid-Meiji years as a man of business, remembered as a pioneer of the Japanese petroleum trade."
+    },
+    "池田徳太郎": {
+      "en": "Ikeda Tokutarō",
+      "pinyin": "Ikeda Tokutarō",
+      "status": "attested",
+      "note": "A Geish&#363; (Hiroshima) rōnin of the Kiyokawa faction, active in the levying of the Rōshigumi."
+    },
+    "根岸友山": {
+      "en": "Negishi Yūzan",
+      "pinyin": "Negishi Yūzan",
+      "status": "attested",
+      "note": "A wealthy Musashi headman and expel-the-barbarian sympathizer who enrolled in the Rōshigumi with a following of his own."
+    },
+    "八木源之丞": {
+      "en": "Yagi Gennojō",
+      "pinyin": "Yagi Gennojō",
+      "status": "attested",
+      "note": "A rural samurai of Mibu whose house lodged the corps; the Yagi residence survives as a site of Shinsengumi history."
+    },
+    "頼山陽": {
+      "en": "Rai San'yō",
+      "pinyin": "Rai San'yō",
+      "status": "attested",
+      "note": "Historical, 1780&#8211;1832. Confucian historian and poet, author of the Nihon Gaishi, whose romantic, imperial-centered narrative of Japanese history deeply shaped late-shogunate loyalism."
+    },
+    "孝明天皇": {
+      "en": "the Emperor Kōmei",
+      "pinyin": "Kōmei",
+      "status": "attested",
+      "note": "Reigned 1846&#8211;1867. Fiercely opposed to opening the country to foreigners, he lent the loyalist cause an imperial sanction the shogunate could not command."
     }
   },
   "places": {
@@ -464,6 +587,36 @@
       "pinyin": "Sanbanchō",
       "status": "attested",
       "note": "An Edo quarter to which the Saitō hall (Renpeikan) moved after a fire."
+    },
+    "壬生": {
+      "en": "Mibu",
+      "pinyin": "Mibu",
+      "status": "attested",
+      "note": "A village in the western outskirts of Kyoto, the first quarters and base of the corps that became the Shinsengumi (called, in derision, the Mibu-r&#333;, the &#8216;Mibu wolves&#8217;)."
+    },
+    "新徳寺": {
+      "en": "the Shintoku-ji",
+      "pinyin": "Shintoku-ji",
+      "status": "attested",
+      "note": "The temple at Mibu that served as the Rōshigumi's headquarters, where Kiyokawa revealed his true design."
+    },
+    "中仙道": {
+      "en": "the Nakasendō",
+      "pinyin": "Nakasendō",
+      "status": "attested",
+      "note": "The inland highway between Edo and Kyoto, running through the central mountains; longer than the coastal Tōkaidō but free of its river-crossings."
+    },
+    "会津": {
+      "en": "Aizu",
+      "pinyin": "Aizu",
+      "status": "attested",
+      "note": "The Matsudaira domain of the mountainous northeast, staunchly loyal to the shogunate; its lord was Kyoto Protector and the Shinsengumi's patron, and it fought the Restoration to a bitter end in 1868."
+    },
+    "水戸": {
+      "en": "Mito",
+      "pinyin": "Mito",
+      "status": "attested",
+      "note": "A senior Tokugawa branch domain, and the intellectual seedbed of the revere-the-Emperor school; riven in these years by violent factional strife between its radicals (the Tengu Party) and conservatives."
     }
   },
   "organizations": {
@@ -514,6 +667,24 @@
       "pinyin": "Nen-ryū",
       "status": "attested",
       "note": "Here the Maniwa Nen-ryū of Kōzuke, one of the oldest surviving sword schools; where Shichiri first trained."
+    },
+    "浪士組": {
+      "en": "the Rōshigumi",
+      "pinyin": "Rōshigumi",
+      "status": "attested",
+      "note": "The &#8216;corps of masterless men,&#8217; levied by the shogunate in 1863 to go up to Kyoto ostensibly as the shogun's guard. Split by Kiyokawa's imperial gambit; the remnant that stayed in Kyoto became the Shinsengumi."
+    },
+    "天狗党": {
+      "en": "the Tengu Party",
+      "pinyin": "Tenguto",
+      "status": "attested",
+      "note": "The radical revere-the-Emperor faction of the Mito domain, which in 1864 rose in open revolt and was crushed."
+    },
+    "京都守護職": {
+      "en": "the Kyoto Protector",
+      "pinyin": "Kyoto Shugoshoku",
+      "status": "attested",
+      "note": "The shogunal office created in 1862 to keep order in Kyoto, held by Matsudaira Katamori of Aizu; the Shinsengumi served under its authority."
     }
   },
   "terms": {
@@ -582,6 +753,48 @@
       "pinyin": "Gozu Tennō",
       "status": "attested",
       "note": "The 'Ox-Head Heavenly King,' plague-warding deity of the Gion and Tennō shrines, whose talismans the waiwai-tennō sold."
+    },
+    "尊皇攘夷": {
+      "en": "Revere-the-Emperor and Expel-the-Barbarian",
+      "pinyin": "sonnō jōi",
+      "status": "attested",
+      "note": "The rallying slogan of the late-shogunate loyalists: reverence for the Emperor joined to the demand that the foreigner be driven out. Its logic pointed, in the end, past the shogunate itself."
+    },
+    "講武所": {
+      "en": "the Kōbusho",
+      "pinyin": "Kōbusho",
+      "status": "attested",
+      "note": "The shogunate's own military academy in Edo, opened in 1856 to modernize the training of its retainers in swordsmanship, gunnery, and Western arms."
+    },
+    "辻斬り": {
+      "en": "cut-and-run killing",
+      "pinyin": "tsujigiri",
+      "status": "attested",
+      "note": "&#8216;Crossroads-cutting&#8217;: the testing of a blade, or of one's nerve, by cutting down a stranger on the road at night. Long a capital crime, it revived in the murderous mood of these years."
+    },
+    "鉄扇": {
+      "en": "iron war-fan",
+      "pinyin": "tessen",
+      "status": "attested",
+      "note": "A folding fan with iron ribs (or a solid iron bar shaped like one), carried where a sword might give offense and used to parry or strike."
+    },
+    "公用方": {
+      "en": "liaison office",
+      "pinyin": "kōyōgata",
+      "status": "decided",
+      "note": "A domain's political-liaison bureau, handling its dealings with the court, the shogunate, and other domains in Kyoto."
+    },
+    "和泉守兼定": {
+      "en": "Izumi-no-kami Kanesada",
+      "pinyin": "Izumi-no-kami Kanesada",
+      "status": "attested",
+      "note": "A celebrated sword-signature. The blade Hijikata carried through his life bore it; see the note at its first appearance."
+    },
+    "虎徹": {
+      "en": "Kotetsu",
+      "pinyin": "Kotetsu",
+      "status": "attested",
+      "note": "The prized blades of the Edo smith Nagasone Kotetsu. Kondō's famous &#8216;Kotetsu&#8217; was, by most accounts, a forgery; see the note where he hunts for one."
     }
   }
 }

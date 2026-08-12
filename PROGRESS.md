@@ -306,3 +306,183 @@ stripping and gaiji substitution from Step 0.
 - glossary.json: removed the single-kanji term key 石 (koku); it false-matched
   the 石 inside place names (Ishiwara, Ishida, Koishikawa). koku quantities are
   covered by check_numbers, so nothing is lost.
+
+## B03 = ch08 to ch13 (桂小五郎 / 八王子討入り / スタスタ坊主 / 疫病神 / 浪士組 / 清河と芹沢)
+
+Scope: chapters 8 through 13, end to end, run to completion. The arc closes the
+Tama-country prologue and opens the political story: Katsura Kogorō outfences
+Shichiri at the Edo dōjō and Toshizō conceives his class-hatred of the blessed
+man; Toshizō raids the Hiruma hall at Hachiōji (the Sutasuta-monk night ambush)
+and the school is shut; the Koishikawa measles-and-cholera epidemic ruins the
+dōjō and drives the whole company to enlist in the shogunate's Rōshigumi;
+Toshizō buys his sword and kills a night-duelist on the road out of Edo; and in
+Kyoto, at the Mibu Shintokuji, Kiyokawa Hachirō reveals the corps's true
+imperial purpose, whereupon Toshizō resolves to break away, kill Kiyokawa, and
+found a new party, allying first with the violent Mito man Serizawa Kamo. The
+core Shinsengumi is now assembling at Mibu.
+
+### Checks (all green)
+
+Per chapter: parity true by construction (make_bilingual refuses a count
+mismatch), then verify_unit (parity + numbers with data/noise.txt + anchors),
+check_align, check_content, qc_entities, check_apparatus, check_register --ref,
+and an explicit tail verification against the source.
+
+- ch08: 202 pairs; numbers 0; align 202/202 med 3.10; content 0 displaced;
+  entities 0; register within tol (0.62x, little-dialogue noisy). 1 scene break
+  (after body para 115). 5 notes.
+- ch09: 178 pairs; numbers 0; align 178/178 med 3.00; content 0; entities 0;
+  register 0.63x. 1 scene break (after 103). 4 notes.
+- ch10: 168 pairs; numbers 0; align 168/168 med 3.04; content 0; entities 0;
+  register 0.71x. 2 scene breaks (after 12, 50). 6 notes.
+- ch11: 152 pairs; numbers 0; align 152/152 med 3.20; content 0; entities 0;
+  register 0.43x (deliberately formal: Yamanami's stiffness, exposition). 1
+  scene break (after 54). 11 notes.
+- ch12: 187 pairs; numbers 0; align 187/187 med 3.13; content 0; entities 0;
+  register 0.27x (formal speakers: the blind sword-dealer, the night-duelist;
+  little-dialogue noisy). 1 scene break (after 73). 8 notes.
+- ch13: 170 pairs; numbers 0; align 170/170 med 3.00; content 0; entities 0;
+  register 0.36x (Kiyokawa's oratory, Yamanami; noisy). 1 scene break
+  (after 32). 11 notes.
+- Build: build_reading_epub 13/71 chapters, 100 notes, 0 source notes.
+  qa_epub PASS (78 documents, 100 refs/bodies/backlinks all resolve).
+  epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings.
+
+Register note: check_register PASSED (no STILTED flag). The expository chapters
+(ch11 to ch13) score low on the dialogue-contraction ratio, but every one is
+flagged "little dialogue (noisy)" because it holds under 1200 speech-words, so
+the metric is informational there. The low rates are character-driven, not
+drift: Kiyokawa's set-piece oratory, Yamanami's bred-in stiffness, the courtly
+old sword-dealer, and the formal challenge of the night-duelist are speakers
+the register-drift references list as legitimately formal. Toshizō, Kondō,
+Okita, Serizawa, and the Hachiōji meshimori-woman all keep the contracted
+rough voice of the frozen reference.
+
+Scene breaks were read from the raw XHTML via scripts/scene_map.py (a run of
+two or more `<p><br/></p>` in the body).
+
+### Notes added: 45 (continuous numbering 56 to 100)
+
+- ch08 (5): the Kōbusho and formal match etiquette; the three guards
+  (jōdan/chūdan/gedan); the "Tobari Fushigorō" ringer custom; Katsura "I would
+  run" (the historical Runaway Kogorō, author-as-witness foreshadowing);
+  Harada's belly-scar seppuku anecdote.
+- ch09 (4): Idaten (the swift deva); the Day of the Ox in the dog-days
+  (herb-gathering); dokudami; the Genki/Tenshō Warring-States eras.
+- ch10 (6): the sutasuta/gannin proxy-pilgrim mendicant; the Hie (Sannō)
+  deity; the Hijikata warrior pedigree (Ten Horsemen of Tama / Azuma Kagami /
+  Bandō warriors / Odawara Hōjō); Ieyasu's 1590 Kantō entry (why Tama became
+  shogunal farmland); the Aizu and Hakodate Wars (forward reference to
+  Hijikata's death arc); Harada's Hizen Fujiwara Yoshihiro sword.
+- ch11 (11): the Bunkyū era; the 1862 measles/cholera epidemic (with the Faroe
+  fact-check); the Bukō Nenpyō / Saitō Gesshin; the Sakuradamon assassination
+  of Ii Naosuke (1860); the Water Margin / Liangshan; Kiyokawa Hachirō; the
+  Rōshigumi (its conception and significance); the rōjū Itakura Suō-no-kami;
+  Saitō Hajime; Yamanami Keisuke (with his 1865 seppuku foreshadowed);
+  Shiba's Zengakuren analogy (Tōdai/Waseda).
+- ch12 (8): Matsudaira Kazusa-no-suke; Rai San'yō's Nihon Gaishi; Kondō's
+  Kotetsu (the famous forgery, with fact-check); the Nosada / Izumi-no-kami
+  Kanesada (with the fact-check that Hijikata's real blade was the 11th-gen
+  Aizu Kanesada, not the Muromachi Nosada); the wazamono sharpness ranking;
+  Ningen Mukotsu (Mori Nagayoshi's spear); tsujigiri; the Nakasendō route.
+- ch13 (11): Mibu; the Suzaku Avenue; mibuna greens; the Tengu Party; Serizawa
+  Kamo (with fact-check); Matsudaira Katamori and the Kyoto Protector; sonnō
+  jōi; the Emperor Kōmei; Yamaoka Tetsutarō (the future Tesshū); Akechi
+  Mitsuhide as byword for traitor; Kiyokawa's gambit and the birth of the
+  Shinsengumi from the Rōshigumi split.
+
+First-appearance discipline held. NOT re-noted (introduced earlier, recurring
+here): the Shinsengumi (n1), the ri (n2), the traditional hours (n8, though
+Shiba himself now uses the modern clock, e.g. "ten o'clock"), Ishida Powder
+(n10), iai (ch03), the mokuroku/kaiden license grades (ch02), shaku/sun
+(ch02), the Egawa/Nirayama intendant (ch05), jōi (ch04, expanded to sonnō jōi
+in ch13), Kusunoki Masashige (ch06 glossary; his Nihon Gaishi romanticization
+newly noted at ch12), the sword schools and the three great Edo dōjō (ch07),
+Katsura/Harada/Nagakura/Tōdō/Inoue/Okita (ch02 to ch07; Katsura's evasiveness
+and Harada's scar are new-aspect notes, not identity re-notes), the Kōgen
+Ittō-ryū / Shintō Munen-ryū / Genbukan (glossary).
+
+### Fact-check verdicts (real scholarship; never LLM-sourced)
+
+- The Bunkyū-2 (1862) measles epidemic: CORROBORATED as real and catastrophic,
+  the first outbreak in twenty-six years, sweeping Edo through the summer, with
+  the Edo shichū hashika byōnin chōsho recording over 73,000 city deaths (higher
+  estimates to ~240,000), and cholera running with it. Shiba's Bukō Nenpyō
+  entries match. The Faroe-Islands origin is Shiba's dramatization: the
+  celebrated Faroe measles epidemic studied by P. L. Panum was in 1846, not
+  1862; noted as such. Sources: Panum (1846 Faroe study); Edo mortality records;
+  environmental-history scholarship on the 1862 epidemic.
+- Kondō's Kotetsu: CORROBORATED as almost certainly a forgery, by most accounts
+  a Minamoto Kiyomaro blade carrying a faked Kotetsu signature; Saitō Hajime's
+  later account has Kondō knowingly buying the fake and treasuring it. Note
+  states this.
+- Hijikata's Izumi-no-kami Kanesada: the surviving historical blade is by the
+  11th-generation Aizu Kanesada, a bakumatsu smith (the line received the
+  Izumi-no-kami title only in late 1863), acquired in Kyoto in connection with
+  Matsudaira Katamori of Aizu. Shiba's scene of buying a Muromachi 2nd-gen Mino
+  "Nosada" from a blind Asakusa dealer before leaving Edo is therefore
+  novelistic invention; the note says so. Sources: records of the Hijikata
+  Kanesada and the Aizu Kanesada line (Sesko; sword archives).
+- Serizawa Kamo: CORROBORATED as a Mito rōnin of the Shindō Munen-ryū with
+  Tengu-Party ties, co-commander of the founding Mibu corps, assassinated by the
+  Kondō faction in 1863; his real name is disputed (Kimura/Shimomura Tsuguji),
+  matching Shiba's 木村継次. Grokipedia surfaced in this search and was IGNORED
+  per the LLM-source ban.
+- Ii Naosuke / Sakuradamon (1860), Yamaoka Tesshū, Matsudaira Katamori as Kyoto
+  Shugoshoku (1862), Kiyokawa Hachirō and the 1863 Rōshigumi, Yamanami's 1865
+  seppuku, Saitō Hajime's dates, Emperor Kōmei's anti-foreign stance: all
+  CORROBORATED against standard Japanese/English scholarship.
+
+### Reading-authority corrections from the furigana
+
+- 戸張節五郎 = Tobari Fushigorō (source ruby ふしごろう, an unusual reading of 節;
+  the source's furigana is authoritative, as with Rokusha and Momonoi in B02).
+- 山南 = Yamanami (source ruby やまなみ), settling the well-known Sannan/Yamanami
+  reading question in favor of Yamanami.
+- 容保 = Katamori; 芹沢鴨 = Serizawa Kamo; 新見錦 = Niimi Nishiki (all from the
+  source furigana).
+- CAUTION recorded: this source uses the author's EXPRESSIVE gikun furigana in
+  places (将軍 rubied たいじゅ, 京 rubied ここ "here," 近藤 rubied せんせい
+  "sensei"). These are semantic glosses, NOT phonetic readings, and must not be
+  used to romanize. Only the name/word rubies are romanization authority.
+
+### Digitization glitches
+
+None found in the ch08 to ch13 bodies. The source remains clean commercial
+digital text. The one image in ch12's source (part0014) is the class="gaiji"
+glyph for 㝎 (the 之定/Nosada variant of 定), already substituted by the ingest
+via data/gaiji_map.json; it is not an illustration. No dittography, stray
+zero-width lines, or mojibake.
+
+### Tooling changed this batch (see HANDOFF "do not revert")
+
+- scripts/qc_entities.py (PATCH): now skips single-kanji glossary keys (zh forms
+  of length < 2). A single-kanji name key cannot be matched as a whole entity by
+  raw substring: 権 (the scout Gon) false-hits inside 権力 / 権威 / 政権, and 里
+  (ri) inside 郷里, etc. This bit ch12 (3 phantom "Gon" misses) and would recur
+  through the whole political half of the book, which is thick with 権/政権/幕権.
+  check_content already skips zh of length < 2 for the same reason; qc_entities
+  now matches that guard. The named referents (Gon, ri) stay in the glossary and
+  on the glossary page; only the unreliable substring check is dropped for them.
+- data/noise.txt: appended B03 name/idiom numeral rules, each commented:
+  節五郎, 五分五分 (ch08); 八日市, 八幡, 八木 (ch09); 三、四十, 善四郎, 弥八郎,
+  三左衛門 (ch10); 三十郎, 八郎 (ch11); 二合半, 千代田, 十字, 藤四郎, 十文字
+  (ch12); 熊三郎 (ch13). No real quantity was noised.
+
+### Glossary rows added: 34 (nested by section)
+
+People (19): 山南敬助 Yamanami Keisuke (attested, principal 9), 芹沢鴨 Serizawa
+Kamo (attested, principal 10), 斎藤一 Saitō Hajime (attested, principal 11),
+清河八郎 Kiyokawa Hachirō, 松平上総介 Matsudaira Kazusa-no-suke (provisional),
+松平忠敏 Matsudaira Tadatoshi, 山岡鉄太郎 Yamaoka Tetsutarō, 松平容保 Matsudaira
+Katamori, 板倉周防守 Itakura Suō-no-kami, 新見錦 Niimi Nishiki, 平間重助 Hirama
+Jūsuke (provisional), 野口健司 Noguchi Kenji, 平山五郎 Hirayama Gorō, 石坂周造
+Ishizaka Shūzō, 池田徳太郎 Ikeda Tokutarō, 根岸友山 Negishi Yūzan, 八木源之丞
+Yagi Gennojō, 頼山陽 Rai San'yō, 孝明天皇 the Emperor Kōmei. Places (5): 壬生
+Mibu, 新徳寺 the Shintoku-ji, 中仙道 the Nakasendō, 会津 Aizu, 水戸 Mito.
+Organizations (3): 浪士組 the Rōshigumi, 天狗党 the Tengu Party, 京都守護職 the
+Kyoto Protector. Terms (7): 尊皇攘夷 sonnō jōi, 講武所 the Kōbusho, 辻斬り
+tsujigiri, 鉄扇 iron war-fan, 公用方 liaison office, 和泉守兼定 Izumi-no-kami
+Kanesada, 虎徹 Kotetsu. Principals flagged for the cast page: Yamanami (9),
+Serizawa (10), Saitō Hajime (11). One rendering per referent enforced by
+check_content; all 34 new names verified present in their source paragraphs.

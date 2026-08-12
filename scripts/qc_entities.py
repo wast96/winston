@@ -40,6 +40,12 @@ def main(path, gloss_path="glossary.json"):
         for zh, rec in section.items():
             # keys like 盒子枪/驳壳枪 hold alternate hanzi for one referent
             for form in zh.split("/"):
+                # A single-kanji name key cannot be matched as a whole entity
+                # by raw substring: 権 (the scout Gon) false-hits inside 権力
+                # / 権威 / 政権, 里 (ri) inside 郷里, etc. check_content already
+                # skips zh of length < 2 for the same reason; do the same here.
+                if len(form) < 2:
+                    continue
                 flat[form] = rec
 
     bad = 0

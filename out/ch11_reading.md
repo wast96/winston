@@ -1,0 +1,307 @@
+## The Bringer of Ill Luck
+
+The writer is no fatalist, but the history of mankind is built, truly, of the most delicate foreshadowings.
+
+Kondō Isami and Hijikata Toshizō alike were children of history. And that they came to play so extraordinary a part in the history of the shogunate's last days had its own strange foreshadowing.
+
+Measles and cholera.
+
+Of the singular chance by which these two epidemics set the men running and brought them to Kyoto to form the Shinsengumi, they themselves can have had no inkling.
+
+This year, the second of Bunkyū.
+
+Around the New Year a foreign ship had put in at Nagasaki, and all hands but a few sick men went ashore.
+
+Several of them collapsed in the streets with high fevers, coughing hard, and were presently carried back to the ship. It proved to be measles. About this time a violent measles was raging on the Faroe Islands (a Danish possession) out in the Atlantic, and had spread in no time across all Europe; so the contagion this crewman scattered at Nagasaki had, in all likelihood, come by some such road.
+
+Nagasaki was struck house by house, and from there it spread through the Chūgoku country as far as the Kinki region.
+
+It so happened that there were two Edo monks traveling in Kyoto and Osaka.
+
+These monks, Edo men though they were, belonged to the Denzū-in, which stood back to back with Kondō's hall, the "Shieikan," in Yanagichō, Koishikawa.
+
+They came home to Edo without mishap on the road; but no sooner had they unlaced their sandals in the Denzū-in's cloister than they fell ill, and in a trice the greater part of the temple's clergy and lay folk were down with it.
+
+The measles contagion, which nowadays is ever-present in the land and has become endemic, was in the Japan of the closed-country age a thing that struck only rarely, by way of China, and few had any immunity to it.
+
+For that reason the deaths were many.
+
+The "foreign-borne" measles these two Denzū-in monks carried back felled young and old, man and woman, throughout Koishikawa in a moment, and began to spread through all Edo. To this was added an outbreak of cholera.
+
+—This too is because the shogunate flung the ports open to the Western barbarians at its own whim, without waiting for the Kyoto court's sanction.
+
+{j} so the advocates of expelling the barbarians said, in terror of the contagion.
+
+By the Bukō Nenpyō, the Edo chronicle compiled by the Edo man Saitō Gesshin, under the head of the summer of Bunkyū 2:
+
+On the Nihonbashi bridge, on a single day, there were days when upward of two hundred coffins passed across.
+
+Many turned red over the whole body; from the high fever they ran mad, and, seeking to drink, would run to the river and drown, or throw themselves down wells and die. Fever-cooling remedies such as rhinoceros horn did no good at all. In the seventh month it grew fiercer still, and how many thousands lost their lives none could tell. Besides this, the korori—cholera—raged in company with it. (This too had its first Japanese outbreak in the Ansei years a few years before; this summer of Bunkyū 2 was the third. This plague, too, was an epidemic brought in by the Westerners with the opening of the ports.)
+
+"It's a fearful thing,"
+
+{j} the one who went about the town and brought the reports back to Toshizō was Okita Sōji.
+
+By Okita's account, the streets of Edo were shuttered at every house, empty of passersby, gone like a city of the dead.
+
+Summer though it was, none went out to take the cool at Ryōgoku Bridge; the night stalls did not stand; and in the pleasure quarters, Yoshiwara and the unlicensed districts alike, the courtesans being stricken, the houses were shut and took no custom.
+
+Above all, no one came near the public gathering-places—the bathhouses, the barbers' shops—so that the men and women of Edo went filthy with grime, holding their breath indoors like grubs in the earth.
+
+"The whole of Edo, at the name of the Koishikawa neighborhood, thinks it's the very pit of hell,"
+
+"We're upwind of it here, that's why,"
+
+{j} said Kondō, with a gloomy face.
+
+The Koishikawa country, the source of the outbreak, was especially thick with the sick, and people would not come near. At Kondō's hall not a single pupil came any longer.
+
+"That Denzū-in bonze,"
+
+{j} Kondō spat out. Little did Kondō dream that this contagion had come halfway round the globe from a Danish island group in the Atlantic to the very neighborhood of his hall. If he was to hate anyone, it should have been the great councilor Ii, Kamon-no-kami Naosuke, cut down outside the Sakurada Gate two Marches before, and his policy of opening the country.
+
+"But it's a queer thing,"
+
+{j} said Kondō, folding his arms,
+
+{j} "not a man of this hall has taken it."
+
+"They hate us for it in the neighborhood. That every last swordsman at that place should escape, they say, must mean it's a gathering of men with the strongest of ill luck. The old fellow at the Matsu barber's is putting it about that it would be more endearing if just one of them came down with it,"
+
+{j} said Okita.
+
+"There you have it, Toshi,"
+
+{j} Kondō was amused.
+
+{j} "Suppose you play scapegoat for the rest and take a touch of it yourself?"
+
+"Hijikata won't do for that,"
+
+{j} Okita teased.
+
+{j} "The plague-god would turn tail and run. Master Hijikata is himself the great plague-god."
+
+"What are you on about."
+
+"But, Toshi,"
+
+{j} said Kondō. Adopted son though he was, Kondō was the proprietor of this little hall; and he had this worry.
+
+{j} "At this rate the hall will wither on the stalk. What are we to do?"
+
+"There's no help but to wait. Nothing for it but to sit tight in siege until the rice-bin's empty."
+
+"A siege, is it."
+
+For that, one needs money, and rice.
+
+To raise the wherewithal, Toshizō sent messenger after messenger to his brother-in-law, the great village headman Satō Hikogorō of Hino, and drew from him not only money and grain but miso, salt, and medicine besides.
+
+The rampage of the plague ran on through the seventh month and the eighth; and the Unveiling of the Great Bright Deity, the Washi Myōjin at the Chōkoku-ji in the Asakusa fields, which every year drew all the crowds of Edo, this year drew, they said, no more than the stray dogs prowling nearby.
+
+The outbreak did not slacken even in the ninth month.
+
+In the tenth month it dwindled at last.
+
+But a hall once fallen quiet is a curious thing: the pupils did not come back.
+
+For that matter, "pupils" was a large word: of proper stipend-drawing samurai there had been only some magistrate's-office constable back in the elder master Shūsai's day, and no more; the reality was townsmen's young masters, the footmen from hatamoto households, gamblers, temple-servant swordsmen—men with no bottom to them—so that once they had fallen away from practice, the will to it was gone.
+
+***
+
+Autumn waned, and it was winter.
+
+At the hall the house-guests idled about as ever, giving it the look of the Liangshan marsh in the Water Margin. That such men should gather there may be set down to Kondō's own odd force of character.
+
+There was something wanting in him.
+
+That very want made the temper of this town hall. It was easy-going; a man could eat the kitchen's rice with a bold face.
+
+House-guests, too, are of many kinds.
+
+The Edo-born Tōdō Heisuke, who gave himself out to be a love-child of the Tōdō lord of Tsu in Ise (mokuroku of the Hokushin Ittō-ryū); Nagakura Shinpachi, who had left the Matsumae domain and held the full transmission of the Shintō Munen-ryū; Saitō Hajime, a rōnin of Akashi in Banshū—these had each studied other schools, and being, unlike the Tennen Rishin-ryū men Kondō, Hijikata, and Okita, deft with the shinai, they took on the men who came for inter-school bouts. That they ate the hall's rice free was no more than their due, having such a duty—or rather, they were kept for it. But Harada Sanosuke, the broken-down footman of the Iyo Matsuyama domain, was at root a spearman. He had learned the Hōzōin-ryū spearmanship from Tani Sanjūrō, master of a hall on Matsuyamachi Street in Osaka (who would later join the Shinsengumi on Harada's introduction), and had the full transmission from Tani; but at the sword he was none too fine.
+
+In matchless brute strength, and in a courage beyond all measure, he was like one of the fighting-monks of the Genpei age; but he could not, as the other house-guests could, pay for his keep by standing in at fencing.
+
+"A sad case, a sad case,"
+
+{j} he would say, forever eating in a corner of the kitchen.
+
+The hall was in want.
+
+But eat Harada must. And a prodigious trencherman he was.
+
+"Set aside a whole rice-tub for Harada,"
+
+{j} Kondō would always say.
+
+—Master Kondō has the makings of a general.
+
+{j} The one who so pronounced was the eldest of the house-guests (twenty-nine), Yamanami Keisuke, a defector from the Sendai Date domain; and Hijikata Toshizō was none too fond of this man, who wore his scrap of learning on his sleeve.
+
+(Yamanami is a fox.)
+
+{j} he had once let slip to Okita. At the sight of that lean, dried-up, knowing face, Toshizō felt a crawling in his flesh.
+
+The great northeastern domains, Sendai and Aizu and the like, being thorough in their schooling of retainers, Yamanami could set down a truly fine hand when he took up the brush.
+
+(A man with a fine hand is never any good.)
+
+{j} Toshizō said to Okita too.
+
+By Toshizō's reasoning, a talent for fine writing was, in short, a talent for mimicry. To copy a model was proof of a man with no bottom, or with a bottom shriveled dry. The spirit of mimicry was, when all was said, the spirit of the fawner and the flatterer; and the proof was that the tea-servers, town doctors, and haikai masters who hang about rich men wrote, to one's astonishment, a wonderfully accomplished hand—so he said.
+
+Okita, to be sure,
+
+—You do everything your own way, Hijikata,
+
+{j} would tease him.
+
+Yamanami could fence. He was a man who had gone as far as the full transmission at the Chiba hall in Kanda Otamagaike. But that sword of his was short of the "fighting spirit" Kondō forever spoke of. It was his nature, no doubt (and this nature would later bring Yamanami to his own destruction).
+
+Yamanami was well connected.
+
+For he came out of the Chiba school, the greatest hall in Edo, said to number three thousand pupils. That from this school came so many patriots busy in the nation's affairs—Kiyokawa Hachirō, Sakamoto Ryōma, Kaiho Hanpei, Chiba Jūtarō—was owing to the many high-spirited, indignant men gathered there from the various domains, and to their working upon one another; not to say it was the likeness of today's student leagues at Tōdai and Waseda, but imagine that, and you will not be far wrong.
+
+Having many friends within Edo, Yamanami brought word of the state and the news of the realm again and again to this little town hall at the top of the Yanagichō slope.
+
+Had there been no such well-connected clever man as Yamanami Keisuke, Kondō and Toshizō would have ended, in the end, as swordsmen of the back streets.
+
+And this Yamanami,
+
+"Master Kondō, I have word worth your ear,"
+
+{j} brought it in his Sendai accent, at the close of that same second year of Bunkyū.
+
+"What tale is this?"
+
+{j} Kondō was won over by Yamanami's learning.
+
+{j} "A weighty tale?"
+
+"A matter touching the secrets of the shogunate's council."
+
+"Then let me call Hijikata Toshizō here, and we shall hear it together."
+
+"No—the thing is of the utmost secrecy. I would have you hear it alone."
+
+"That, for my part, I cannot do. Hijikata Toshizō and I have drunk the cup of sworn brotherhood, together with Satō Hikogorō of Hino, Toshizō's brother-in-law."
+
+"Sworn brotherhood—that would seem a custom of gamblers."
+
+"Anciently it is found among warriors too."
+
+Called, Toshizō came.
+
+Toshizō and Yamanami did not so much as exchange a bow. Such was the footing between them.
+
+"The fact is, there is a brilliant fellow-pupil of mine from Chiba, one Kiyokawa Hachirō, a rural samurai of Dewa. A man skilled in letters and arms, in eloquence and stratagem, like a strategist of the Warring States; past thirty, he keeps a school of civil and military instruction at Kanda Otamagaike, gathers the expel-the-barbarian patriots of the city, and is on close terms with like-minded shogunal retainers as well."
+
+"I see."
+
+Kondō did not know the name. To be ignorant, in Edo, of the clever Kiyokawa's name was to be very much behind the times.
+
+"This Kiyokawa,"
+
+{j} said Yamanami Keisuke,
+
+{j} had worked upon the shogunate's council to petition for the founding of a corps of masterless warriors at government expense, and by the ruling of the senior councilor Itakura Suō-no-kami, leave had been granted.
+
+The shogunate had its hands full with the ranging and the outrages of the expel-the-barbarian patriots. Two years before, the great councilor Ii had been killed; and since the year past, many an expel-the-barbarian rōnin had been stalking foreigners—men had cut their way, for instance, into the foreigners' hostel at the Tōzen-ji in Takanawa, Edo. In Kyoto, through their rampaging, the place had turned into a country wholly without law, where in the name of "Heaven's punishment" they hewed down the advocates of the shogunate and of opening the country, and some even schemed, with a court noble held up before them, at the overthrow of the shogunate.
+
+—Poison is best gathered and shut in a box. Kept at the shogunate's charge, they will not act to the shogunate's harm.
+
+{j} This was the senior councilor Itakura's thought.
+
+At once, with the Kōbusho instructor Matsudaira Tadatoshi and others as those in charge, the levying of the masterless men was set in train.
+
+The method of the levy was that swordsmen of the Kiyokawa faction (Ishizaka Shūzō, a defector from Hikone—alive into the mid-Meiji years, when he became a man of business; and the Geishū rōnin Ikeda Tokutarō), ostensibly in their own private standing as rōnin, sent broadsides flying not only through the city of Edo but to the fencing halls of the nearby provinces.
+
+"A broadside?"
+
+{j} Kondō was puzzled.
+
+{j} "None has come to this Shieikan."
+
+"That,"
+
+{j} Yamanami looked sorry for him. In Edo, since the middle of the Ansei years, close on three hundred fencing halls had sprung up; a broadside was hardly likely to come round to some never-heard-of peasant-style fencing hall like this one.
+
+{j} "That, I fear, is past hoping for."
+
+"And why past hoping, Master Yamanami?"
+
+{j} it was Toshizō who put in from the side.
+
+Toshizō was, at bottom, a man who could not bear such cold usage and slighting. It was not that the Kiyokawa faction angered him; it was the way that Yamanami Keisuke, bred in a great school, framed his words that he could not stomach.
+
+"Come, Hijikata—there are always some that slip through the net. The oversight is theirs."
+
+"You two, leave off the argument. But, Yamanami, this masterless corps—is it to be taken up as hatamoto?"
+
+"No, that,"
+
+{j} Yamanami shook his head. Yamanami was no mere swordsman. By the common thought of the educated men of that day, he was an advocate of expelling the barbarians. His opinions ran to the formulaic, but his motives were pure enough.
+
+{j} "It is not a question of being made hatamoto or not; as men of Yamato (a fashionable word of the day: meaning something like the pan-warrior, broken free of the domain's parceled loyalties), this corps will be the vanguard of the resolute expulsion of the foreigner, driving the barbarian out."
+
+"Still, one might in time become a direct retainer of the shogun."
+
+Kondō was plain and clear and terribly old-fashioned. What rose in his mind was the pre-Tokugawa custom by which a masterless man of the Warring States, when war came, would borrow a great lord's camp through some connection ("camp-borrowing") and, according to his showing, be taken into service.
+
+"Toshi, what do you say?"
+
+{j} Kondō looked pleased. For his part, in his heart of hearts, whether they became direct retainers or not was all one to him.
+
+As things stood, the hall would only sink deeper into want, and in the end the whole company would be unable to eat. His straits as the hall's proprietor would be solved at a single stroke.
+
+"Well, Toshi?"
+
+"If we join, the Tennen Rishin-ryū Shieikan is done for. The matter's too weighty to speak of before Master Yamanami here, of another school."
+
+That was the spiteful streak in Toshizō. Let him once dislike a man, and he had a persistence that could not rest until that man was gone from the face of the earth.
+
+"The great master, Shūsai, is with us. Rather than debate this and that here, the first thing is to hear his opinion."
+
+"Very well."
+
+Kondō spoke at once to his adoptive father, old Shūsai. Shūsai, being an old man, had no grasp of the times. So rather than expound it in Yamanami's fashion, with principle and doctrine,
+
+{j} "In future one may become a direct retainer of the shogun,"
+
+{j} he explained it in a word. At that one word Shūsai understood.
+
+"So I'm to become the retired father of a direct retainer, am I."
+
+After that, Kondō gathered the pupils and house-guests at the hall and had Yamanami lay it all out.
+
+"Are we in?"
+
+{j} The one who leapt up was the house-guest Harada Sanosuke. It was not merely that he would eat. This was a man born, as it were, to fight. In the Warring States age he would have been a warrior to earn a thousand or two thousand koku with his spear, and easily.
+
+"Sōji, how about you?"
+
+{j} said Kondō.
+
+"Me? Wherever Master Kondō and Hijikata go, I'll go, though it be hell itself. Though paradise would suit me better, mind."
+
+"And Inoue?"
+
+"I'm in,"
+
+{j} said the mild Inoue Genzaburō, who in this hall of Kondō's had served since the last master's day as an inner pupil, near enough a steward, in a low voice.
+
+"Saitō?"
+
+"I'll join. Only, I've matters to set in order and must go back to Akashi, so I may be late to the swearing-in."
+
+"Nagakura, Tōdō?"
+
+"For a warrior, the chance of a thousand years. We join."
+
+The rest did not come in.
+
+All told, Kondō, Hijikata, and the rest, nine men. With this, the hall was, in effect, dissolved.
+
+The shogunate's levied corps of masterless men drew applicants from the lines of hall after hall, to the number of three hundred; but the only hall that was itself dissolved was the Shieikan. Though it would be truer to say that it was less the levy that dissolved it than the measles that had broken out in Koishikawa.

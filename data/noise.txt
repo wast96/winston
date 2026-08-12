@@ -122,3 +122,42 @@
 弥九郎
 # Rihachi, the errand-boy — given name; 八 is part of the name (利八), not the count 8
 利八
+# ── B03 additions (ch08) ──
+# Tobari Fushigorō — the invented stand-in name; 五 is part of 節五郎, not the count 5
+節五郎
+# gobu-gobu = "even, fifty-fifty" (五分五分); idiom, rendered "an even thing", not a count
+五分五分
+# ── B03 additions (ch09) ──
+# Hachiōji sub-station names — 八 is part of each place name, not the count 8:
+# Yōkaichi (八日市), Hachiman (八幡), Yagi (八木)
+八日市
+八幡
+八木
+# ── B03 additions (ch10) ──
+# san-shijū = "thirty or forty" (三、四十人); the 三 stands for 三十, rendered "thirty"
+三、四十
+# Hijikata Zenshirō — ancestor's given name; 四 is part of 善四郎, not the count 4
+善四郎
+# Hijikata Yahachirō — ancestor's given name; 八 is part of 弥八郎, not the count 8
+弥八郎
+# Hara Sanzaemon — Thousand-Guard captain; 三 is part of 三左衛門, not the count 3
+三左衛門
+# ── B03 additions (ch11) ──
+# Tani Sanjūrō — Harada's spear-teacher; 三十 is part of 三十郎, not the count 30
+三十郎
+# Kiyokawa Hachirō — Rōshigumi founder; 八 is part of 八郎, not the count 8
+八郎
+# ── B03 additions (ch12) ──
+# Nigōhanzaka — Ushigome place name (二合半坂); 二 is part of it, not the count 2
+二合半
+# Chiyoda Castle (千代田城); 千 is part of the place name, not the count 1000
+千代田
+# jūjigun = "crusade" and 十字 = "cross"; 十 is the cross-shape, not the count 10
+十字
+# Tōshirō Sukesada — swordsmith's name (藤四郎祐定); 四 is part of 藤四郎, not the count 4
+藤四郎
+# jūmonji-yari = a cross-bladed spear (十文字槍); 十 is the character-shape 十, not the count 10
+十文字
+# ── B03 additions (ch13) ──
+# Saitō Kumasaburō — Kiyokawa's brother; 三 is part of 熊三郎, not the count 3
+熊三郎
