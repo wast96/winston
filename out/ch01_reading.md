@@ -286,7 +286,7 @@ It was a bright voice. And it was not the broad country speech of Bushū; the en
 
 Toshizō pressed the woman down onto the grass and took her, with the dizzying rush of a man knowing a woman for the first time. That in taking this woman he had, before long, taken hold of his own new destiny along with her—of that, of course, he had no inkling now.
 
-(I cannot make her out.)
+(I can't make sense of her.)
 
 The woman's body had known a man already. And yet, by the manner of her dress, she was an unmarried girl.
 
