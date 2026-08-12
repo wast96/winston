@@ -1,6 +1,346 @@
 {
  "_about": "Cross-book name authority for the whole translation shelf. Consult BEFORE romanizing anything in a new book; one rendering per referent ACROSS BOOKS unless a book records a deliberate deviation (e.g. a period-flavor style like Chungking/Peiping in a 1940s memoir) in its own glossary note. Feed every new book's decided renderings back in on completion. Entries carry every rendering observed on the shelf with the books that used it; status 'reconcile' marks a live cross-book disagreement (article-only differences excluded). Sources: the nine completed books, 2026-08.",
  "terms": {
+  "おちゃちゃ": {
+   "renderings": {
+    "Ochacha": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The eldest of Katsuie and Oichi’s three daughters (Oichi’s by Azai Nagamasa), seventeen at Kita-no-shō; the future Lady Yodo (see the Lady Yodo)."
+  },
+  "おゆう": {
+   "renderings": {
+    "Oyu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A kunoichi (woman shinobi) of Tarao, planted by Hattori Hanzō among Nobunaga's waiting-women at Azuchi. She feeds rumor to Nobunaga's page Ranmaru and works the smitten Soda Yoichiro."
+  },
+  "おらしょ": {
+   "renderings": {
+    "orasho": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The Christians' set prayers (from Latin oratio), memorized and handed down by rote."
+  },
+  "お市": {
+   "renderings": {
+    "Oichi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nobunaga's sister, widow of Azai Nagamasa; married to Shibata Katsuie in the anti-Hideyoshi cause. Mother of the Lady Yodo."
+  },
+  "かまり": {
+   "renderings": {
+    "kamari": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A stealth-scout or skirmisher; the Taikōki's word for Yomoda's disguised reconnaissance troops."
+  },
+  "がらさ": {
+   "renderings": {
+    "garça": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Grace (Portuguese graça), a loanword of the mission."
+  },
+  "くノ一": {
+   "renderings": {
+    "kunoichi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A woman of the shinobi."
+  },
+  "さんまい": {
+   "renderings": {
+    "the sanmai": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Under the dual-grave custom, the desolate field where corpses alone are buried, apart from the gravestone-site."
+  },
+  "ちぬの海": {
+   "renderings": {
+    "the Chinu Sea": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The old poetic name for the stretch of sea off Sakai and Izumi, much sung in the ancient verse."
+  },
+  "でうす": {
+   "renderings": {
+    "Deus": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The Kirishitan word for God, from Latin/Portuguese Deus."
+  },
+  "ねね": {
+   "renderings": {
+    "Nene": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Hideyoshi's principal wife, later honored as the Kōdai-in; recipient of Nobunaga's teasing 'bald rat' letter."
+  },
+  "まあ": {
+   "renderings": {
+    "Maa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Maeda Toshiie’s third daughter, twelve, held as a hostage at Kita-no-shō and betrothed to Sakuma Jūzō; later a favorite of Hideyoshi."
+  },
+  "イルマン": {
+   "renderings": {
+    "irmão": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Irmao (Portuguese 'brother'): a Jesuit lay brother or catechist, below the padre."
+  },
+  "ウグイス張り": {
+   "renderings": {
+    "the nightingale floor": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A floor built to chirp underfoot and betray an intruder; the trap sprung on Goemon at Yodo Castle."
+  },
+  "エテギ": {
+   "renderings": {
+    "Etegi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A hugely fat young ninja of Oyamada, twenty-four, good-natured and hopeless at stealth; taken into Ieyasu's service on the Tarao crossing."
+  },
+  "オルガンチノ": {
+   "renderings": {
+    "Organtino": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Gnecchi-Soldo Organtino (1533–1609), Italian Jesuit, for many years superior of the Kyoto mission."
+  },
+  "カシイ": {
+   "renderings": {
+    "Kashii": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A young Iga shinobi, Tamo's companion, who died shielding her when Iga was destroyed."
+  },
+  "カスミ": {
+   "renderings": {
+    "Kasumi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An Iga ninja master, uncle to both Kashii and Etegi, who taught them the arts; died at the Momochi fort in 1581."
+  },
+  "カズエ": {
+   "renderings": {
+    "Kazue": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Maki’s younger sister. (Her stated age differs between two passages; see the note.)"
+  },
+  "ガスパル・クエリョ": {
+   "renderings": {
+    "Gaspar Coelho": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Portuguese Jesuit, vice-provincial of the Japan mission."
+  },
+  "ガスパル・ビレラ": {
+   "renderings": {
+    "Gaspar Vilela": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Portuguese Jesuit, among the first to work in Kyoto (cited here for a report on the peasants)."
+  },
+  "タモ": {
+   "renderings": {
+    "Tamo": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A young beggar-woman, burned and half-crippled, taken under Organtino's protection at the Nanban-ji."
+  },
+  "チカ": {
+   "renderings": {
+    "Chika": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The unhurried, big-boned woman, neither wife nor caretaker, who keeps Hanzō's Chigachi manor at Yono."
+  },
+  "ネジリ": {
+   "renderings": {
+    "Nejiri": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A warped, malevolent ninja of the earlier volume, killed before this book opens; recalled here as having witnessed the fall of Odani."
+  },
+  "バテレン": {
+   "renderings": {
+    "padre / bateren": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Bateren, from Portuguese padre: a Jesuit priest. Rendered 'padre'."
+  },
+  "フランシスコ・ザビエル": {
+   "renderings": {
+    "Francisco Xavier": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "St Francis Xavier (1506–1552), who opened the Japan mission at Kagoshima in 1549."
+  },
+  "マキ": {
+   "renderings": {
+    "Maki": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Goemon's wife, a poor fisher-and-farmer's daughter from the hills above Saiga in Kishu; guileless, devoted, and the still center of his new life in Sakai. She is the physical double of Hatsuko, though the two are of no kin."
+  },
+  "ヤソ教": {
+   "renderings": {
+    "the Christian faith": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "Yaso-kyo, from 'Jesus'; the ordinary period Japanese term for Christianity. Rendered 'the Christian faith' / 'Christianity' throughout."
+  },
+  "ルイス・フロイス": {
+   "renderings": {
+    "Luís Fróis": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Luis Frois (1532–1597), Portuguese Jesuit and the mission's great chronicler."
+  },
+  "ルソン": {
+   "renderings": {
+    "Luzon": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The chief island of the Spanish Philippines; destination of the overseas slave-trade in women. Cf. Ruson Sukezaemon (ch02)."
+  },
+  "ロレンソ": {
+   "renderings": {
+    "Lourenço": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Lourenco Ryosai (c.1526-1592), the blind biwa-player of Hizen converted by Xavier at Yamaguchi, and one of the first and most gifted Japanese Jesuit brothers; the beggar-woman Tamo's one confidant."
+  },
+  "ワリニヤーニ": {
+   "renderings": {
+    "Valignano": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Alessandro Valignano (1539–1606), Jesuit Visitor to the Indies; organized the seminaries and the Tensho embassy."
+  },
+  "一向宗": {
+   "renderings": {
+    "the Ikkō sect": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "A militant strand of Jodo Shinshu (True Pure Land) Buddhism whose peasant leagues warred with the warlords."
+  },
+  "七方出": {
+   "renderings": {
+    "the shichihode": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The 'seven ways out,' the shinobi's seven stock disguises for travel in hostile provinces."
+  },
   "万国公墓": {
    "renderings": {
     "International Cemetery": [
@@ -13,6 +353,26 @@
    "category": "places",
    "status": "agreed-article-varies",
    "note": "The Shanghai cemetery for the dead of all nations (<span lang=\"zh-Hans\">万国公墓</span>, &#8216;Cemetery of All Nations&#8217;), Chinese and foreign alike, on Hongqiao Road in the western outskirts (founded 1909); Stephen is buried here (ch28&#8211;ch29)."
+  },
+  "万福丸": {
+   "renderings": {
+    "Manpukumaru": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Oichi’s son by Azai Nagamasa; hunted down after Odani fell and executed by impalement at Kinomoto in 1573."
+  },
+  "万葉集": {
+   "renderings": {
+    "the Man'yoshu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Japan's oldest anthology of verse, compiled in the eighth century."
   },
   "三民主义": {
    "renderings": {
@@ -27,6 +387,16 @@
    "category": "terms",
    "status": "agreed-article-varies",
    "note": "三民主义; Sun Yat-sen's doctrine of nationalism, democracy, and the people's livelihood, made the Nationalist creed. See the note at first appearance."
+  },
+  "三法師": {
+   "renderings": {
+    "Sanbōshi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nobutada's infant son, made Nobunaga's heir at the Kiyosu conference; later known as Oda Hidenobu."
   },
   "三潭印月": {
    "renderings": {
@@ -65,6 +435,16 @@
    "category": "places",
    "status": "agreed",
    "note": "China&#8217;s largest city and the seat of the Party Central and its underground in this period."
+  },
+  "上野": {
+   "renderings": {
+    "Ueno": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The chief town of Iga; the Hattori village lies just north of it."
   },
   "东方饭店": {
    "renderings": {
@@ -128,6 +508,46 @@
    "category": "organisations",
    "status": "agreed"
   },
+  "中川清秀": {
+   "renderings": {
+    "Nakagawa Kiyohide": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Also Nakagawa Sebei. Held Mount Ōiwa for Hideyoshi and fell defending it against Morimasa’s night raid."
+  },
+  "中村文荷斎": {
+   "renderings": {
+    "Nakamura Bunkasai": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A favorite of Katsuie’s, more tea-master than warrior, entrusted with escorting the three daughters out of the burning castle."
+  },
+  "丹羽長秀": {
+   "renderings": {
+    "Niwa Nagahide": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An elder Oda general, lord of Sawayama; his backing of Hideyoshi at the Kiyosu council was decisive."
+  },
+  "九度山": {
+   "renderings": {
+    "Kudoyama": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A fortified height above the Kino River at the foot of Mount Kōya. Long after Goemon’s day Sanada Yukimura raised his fort here; the author flags it as the central stage of his sequel, <i>The Sanada Ninja Band</i>."
+  },
   "九江": {
    "renderings": {
     "Jiujiang": [
@@ -138,6 +558,26 @@
    "category": "places",
    "status": "agreed",
    "note": "九江; the Yangzi river-port in Jiangxi, below Mount Lu."
+  },
+  "九鬼嘉隆": {
+   "renderings": {
+    "Kuki Yoshitaka": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nobunaga's admiral, who built the iron-plated warships that broke the Mori navy off the Kizu River in 1578."
+  },
+  "予野": {
+   "renderings": {
+    "Yono": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A hidden hamlet in the Iga hills, two ri south of Ueno; site of the Chigachi manor, Hanzō's home seat."
   },
   "于右任": {
    "renderings": {
@@ -161,6 +601,46 @@
    "status": "agreed",
    "note": "云南路; a Settlement road near the racecourse; older English Yunnan Road."
   },
+  "五奉行": {
+   "renderings": {
+    "the Five Commissioners": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The five administrators Hideyoshi set over the government of the realm."
+  },
+  "五徳": {
+   "renderings": {
+    "Toku": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nobunaga's daughter, married to Nobuyasu; her twelve-article accusation set his ruin in motion."
+  },
+  "五遁の術": {
+   "renderings": {
+    "the Five Escapes": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The ninja's arts of evasion, grouped into five (wood, fire, earth, metal, water) and their inner counterparts."
+  },
+  "井伊直政": {
+   "renderings": {
+    "Ii Naomasa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "One of Ieyasu’s generals, whose red-lacquered troops were the famous ‘Red Guard.’"
+  },
   "交际花": {
    "renderings": {
     "socialite": [
@@ -174,6 +654,26 @@
    "status": "reconcile",
    "note": "交际花, lit. 'a flower of society'; a fashionable woman of the demimonde who moves among wealthy men, here Xu Manli."
   },
+  "伊勢": {
+   "renderings": {
+    "Ise": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Province held by Takigawa Kazumasu; Hideyoshi’s first target in the spring campaign."
+  },
+  "伊賀": {
+   "renderings": {
+    "Iga": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The mountainous province (modern western Mie) famed as a heartland of the shinobi; its self-governing communities were destroyed by Nobunaga in 1581."
+  },
   "伍豪": {
    "renderings": {
     "Wu Hao": [
@@ -185,6 +685,86 @@
    "status": "agreed",
    "note": "An alias of Zhou Enlai, from his code name in the Awakening Society; the pivot of the fake &#8216;renunciation&#8217; notices and their rebuttal."
   },
+  "伏見城": {
+   "renderings": {
+    "Fushimi Castle": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Hideyoshi's great castle southeast of Kyoto, built from 1592."
+  },
+  "会合衆": {
+   "renderings": {
+    "the egoshu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The council of thirty-six townsmen who governed Sakai; the ten strongest were the naya-shu (warehouse men)."
+  },
+  "佐々成政": {
+   "renderings": {
+    "Sassa Narimasa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Lord of Toyama, a staunch Shibata man who submitted to Hideyoshi after Katsuie’s fall."
+  },
+  "佐々木承禎": {
+   "renderings": {
+    "Sasaki Jōtei": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A defeated commander (of the Rokkaku/Sasaki line) sheltered at Erin-ji, as the novel has it."
+  },
+  "佐久間十蔵": {
+   "renderings": {
+    "Sakuma Jūzō": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A boy samurai of Katsuie’s, betrothed to Maa; killed in the last assault on Kita-no-shō."
+  },
+  "佐久間盛政": {
+   "renderings": {
+    "Sakuma Morimasa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Katsuie’s nephew (styled Genba-no-jō), a renowned horseman; his raid on Mount Ōiwa and refusal to withdraw opened the disaster at Shizugatake."
+  },
+  "余吾湖": {
+   "renderings": {
+    "Lake Yogo": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The small lake below Shizugatake, around which the decisive fighting turned."
+  },
+  "保田安政": {
+   "renderings": {
+    "Yasuda Yasumasa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Brother of Sakuma Morimasa; the source names him both Yasuda (folio 205) and Sakuma (folio 223) Yasumasa."
+  },
   "俞济时": {
    "renderings": {
     "Yu Jishi": [
@@ -194,6 +774,76 @@
    },
    "category": "people",
    "status": "agreed"
+  },
+  "信孝": {
+   "renderings": {
+    "Nobutaka": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Oda Nobutaka (1558–1583), Nobunaga's third son, joint commander of the projected Shikoku campaign."
+  },
+  "信康": {
+   "renderings": {
+    "Nobuyasu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Ieyasu's eldest son and heir, forced to commit seppuku in 1579 at the age of twenty-one, with Hanzō as his second."
+  },
+  "信忠": {
+   "renderings": {
+    "Nobutada": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Oda Nobutada (1557–1582), Nobunaga's eldest son and heir; commanded the vanguard against the Takeda."
+  },
+  "信玄": {
+   "renderings": {
+    "Shingen": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Takeda Shingen (1521–1573), the great warlord of Kai, Katsuyori's father."
+  },
+  "信長": {
+   "renderings": {
+    "Nobunaga": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Oda Nobunaga (1534–1582), the warlord who had brought most of central Japan under his power."
+  },
+  "僧兵": {
+   "renderings": {
+    "the sōhei": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The ‘warrior-monks’ kept in arms by the great temples to fight rival lords and hold down their own tenantry; the Negoro-ji fielded them in the thousands."
+  },
+  "儀助": {
+   "renderings": {
+    "Gisuke": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Maki’s elder brother, farming the family plot at Nagao; twenty-two in Tenshō 13."
   },
   "兆丰公园": {
    "renderings": {
@@ -216,6 +866,16 @@
    "category": "organizations",
    "status": "agreed",
    "note": "Sincere Co., opened on Nanjing Road, Shanghai, in 1917; one of the 'four great' pre-war department stores. Cited in ch05 as commercial camouflage for moving parcels. Attested in histories of Nanjing Road commerce."
+  },
+  "入定": {
+   "renderings": {
+    "nyujo": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "'Entering samadhi': the eternal meditation into which Kobo Daishi is said to have passed, neither living nor dead."
   },
   "兰州": {
    "renderings": {
@@ -255,6 +915,16 @@
    "category": "organizations",
    "status": "agreed-article-varies",
    "note": "The Japanese army in the Northeast; staged the Mukden Incident of 18 September 1931. Chapter 28."
+  },
+  "兵糧丸": {
+   "renderings": {
+    "hyōrōgan": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A shinobi’s ration-ball of dried rice, buckwheat, bonito, loach, pickled plum and pine bark, said to sustain a man ten days."
   },
   "内山书店": {
    "renderings": {
@@ -307,6 +977,76 @@
    "category": "people",
    "status": "agreed",
    "note": "1903–1976; poet, literary theorist and CCP cultural figure, liaison to Shanghai&#8217;s writers."
+  },
+  "刀ざらえ": {
+   "renderings": {
+    "the sword-hunt": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The confiscation of swords and other arms from temples, townsmen and peasants; the Negoro edict of Tenshō 13 was a prelude to the general sword-hunt (刀狩) Hideyoshi decreed in 1588."
+  },
+  "前田利家": {
+   "renderings": {
+    "Maeda Toshiie": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Shibata general and lord of Noto (1538–1599); his withdrawal at Shizugatake decided the battle for Hideyoshi. Later one of Hideyoshi’s Five Elders."
+  },
+  "前田利長": {
+   "renderings": {
+    "Maeda Toshinaga": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Toshiie’s eldest son, lord of the castle at Fuchū (Takefu) in Echizen."
+  },
+  "加藤嘉明": {
+   "renderings": {
+    "Katō Yoshiaki": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "One of the Seven Spears of Shizugatake; later a daimyō and admiral under Hideyoshi."
+  },
+  "加藤清正": {
+   "renderings": {
+    "Katō Kiyomasa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Katō Kiyomasa (1562–1611), boyhood name Toranosuke; one of Hideyoshi's foremost captains, later daimyo of Higo."
+  },
+  "勝頼": {
+   "renderings": {
+    "Katsuyori": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Takeda Katsuyori (1546–1582), son and heir of Shingen; the last lord of the Takeda."
+  },
+  "北ノ庄": {
+   "renderings": {
+    "Kita-no-shō": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Katsuie’s castle (modern Fukui), built 1575 with a famous nine-storied keep, where he and Oichi died."
   },
   "北伐": {
    "renderings": {
@@ -382,6 +1122,26 @@
    "category": "places",
    "status": "agreed"
   },
+  "千鳥の香炉": {
+   "renderings": {
+    "the plover incense-burner": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The incense-burner that, by popular legend, cried out and betrayed Goemon at Hideyoshi's pillow; a 'surface' fiction of the kabuki plays."
+  },
+  "半左衛門": {
+   "renderings": {
+    "Hanzaemon": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tarao Doka's eldest son."
+  },
   "华懋饭店": {
    "renderings": {
     "the Cathay Hotel": [
@@ -426,6 +1186,26 @@
    "category": "places",
    "status": "agreed"
   },
+  "南禅寺": {
+   "renderings": {
+    "Nanzen-ji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A great Zen monastery in eastern Kyoto whose gate-tower is bound up with the Goemon legend."
+  },
+  "南蛮寺": {
+   "renderings": {
+    "the Nanban-ji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Jesuit church in Kyoto (Our Lady of the Assumption), completed c. 1576."
+  },
   "反省院": {
    "renderings": {
     "reflection institute": [
@@ -459,6 +1239,26 @@
    },
    "category": "people",
    "status": "agreed"
+  },
+  "名張": {
+   "renderings": {
+    "Nabari": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A town in northern Iga; the home Goemon invents for his false self, 'Tahei.'"
+  },
+  "名護屋": {
+   "renderings": {
+    "Nagoya (Hizen)": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The staging base on the Higashi-Matsuura peninsula in Hizen, north Kyūshū, raised for the invasion of Korea. Not to be confused with Nagoya in Owari."
   },
   "吴佩孚": {
    "renderings": {
@@ -494,6 +1294,16 @@
    "category": "people",
    "status": "agreed",
    "note": "Kuomintang statesman; former Guangdong governor and later overseas department minister."
+  },
+  "吾市": {
+   "renderings": {
+    "Goichi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The son born to Goemon and Maki in Tenshō 12; his name plays on the ‘Go’ of Goemon (written ‘five’), remade with the character for ‘I,’ plus ‘ichi,’ a market."
   },
   "周伟龙": {
    "renderings": {
@@ -548,6 +1358,16 @@
    "status": "agreed",
    "note": "1862-1938; first premier of the Republic, assassinated in Shanghai."
   },
+  "四方田但馬守": {
+   "renderings": {
+    "Yomoda Tajima-no-kami": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An Akechi general (Soda Yoichiro's lord); the Shinsho Taikōki makes his deeds and death at Yamazaki a set-piece. A kinsman-fighter, Yomoda Matabei, figures in the Honnō-ji account."
+  },
   "四马路": {
    "renderings": {
     "Fourth Avenue": [
@@ -559,6 +1379,16 @@
    "category": "places",
    "status": "agreed",
    "note": "A busy, crowded Shanghai street (present-day Fuzhou Road), rendered by its old foreign-settlement name (Chapter 26)."
+  },
+  "国友": {
+   "renderings": {
+    "Kunitomo": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A village of Ōmi whose swordsmiths, brought under Nobunaga after the fall of the Azai, became famous gun-makers."
   },
   "国民党": {
    "renderings": {
@@ -585,6 +1415,36 @@
    "category": "organizations",
    "status": "reconcile",
    "note": "The wartime advisory body; Dong Biwu and Deng Yingchao launched there a motion against the secret imprisonment of patriots (ch21)."
+  },
+  "坂本": {
+   "renderings": {
+    "Sakamoto": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Akechi Mitsuhide's castle town on Lake Biwa."
+  },
+  "堀秀政": {
+   "renderings": {
+    "Hori Hidemasa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Hideyoshi commander holding the Higashino fort on Kineyama, facing Katsuie at Kitsunezuka."
+  },
+  "堺": {
+   "renderings": {
+    "Sakai": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The great free port and merchant city on the bay, self-governed by its guild of townsmen; the setting of the chapter's opening. Nobunaga brought it under a magistrate of his own."
   },
   "复兴社": {
    "renderings": {
@@ -623,6 +1483,46 @@
    "status": "agreed-article-varies",
    "note": "The steel bridge at the mouth of Suzhou Creek, known in the foreign settlements as the Garden Bridge."
   },
+  "多喜右近": {
+   "renderings": {
+    "Taki Ukon": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nineteen, a Koga seminary pupil; reserved and methodical, he reasons from stored-up fact and is usually right. One of the three who will contend with Goemon."
+  },
+  "多宝塔": {
+   "renderings": {
+    "the Great Pagoda of Negoro": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The Daitō of the Negoro-ji, a two-storied <i>tahōtō</i> raised by Kakuban in 1129 after the Konpon Daitō of Mount Kōya. It survived the burning of the temple and stands today, a National Treasure; its walls still carry the marks of Hideyoshi’s musket-balls."
+  },
+  "多羅尾越え": {
+   "renderings": {
+    "the Tarao Crossing": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Ieyasu's flight across Iga after Nobunaga's death; also called the Iga-goe."
+  },
+  "多羅尾道可": {
+   "renderings": {
+    "Tarao Dōka": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Lay-monk and chief of the Tarao, one of the fifty-three houses of Koga; sheltered and guided Ieyasu on the Tarao crossing."
+  },
   "大世界": {
    "renderings": {
     "the Great World": [
@@ -633,6 +1533,16 @@
    "category": "places",
    "status": "agreed",
    "note": "The famous many-storeyed amusement palace at the edge of the French Concession (opened 1917); a dance hall behind it is the scene of ch31."
+  },
+  "大久保忠世": {
+   "renderings": {
+    "Ōkubo Tadayo": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tokugawa retainer, lord of Futamata Castle, where Nobuyasu died."
   },
   "大光明电影院": {
    "renderings": {
@@ -657,6 +1567,36 @@
    "category": "places",
    "status": "agreed",
    "note": "County (now city) in Hubei where the author was sent on leaving Qincheng in 1975, her daughter's family being posted there with a geological team (ch40, ch42)."
+  },
+  "大坂": {
+   "renderings": {
+    "Osaka": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Hideyoshi’s new castle and city, raised from Tenshō 11 on the ruins of the Ishiyama Hongan-ji as the seat from which to command the realm."
+  },
+  "大岩山": {
+   "renderings": {
+    "Mount Ōiwa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Hill east of Lake Yogo, held by Nakagawa Kiyohide; Morimasa’s storming of it began the battle."
+  },
+  "大徳寺": {
+   "renderings": {
+    "the Daitoku-ji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The great Zen monastery in Murasakino, north Kyoto, where Hideyoshi held Nobunaga's funeral and founded the Sōken-in."
   },
   "大美晚报": {
    "renderings": {
@@ -683,6 +1623,66 @@
    "status": "agreed",
    "note": "North China treaty port; seat of the Party&#8217;s Northern Bureau."
   },
+  "天王山": {
+   "renderings": {
+    "Mount Tennō": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The height commanding the Yamazaki defile; the fight for it made tennōzan a proverb for a decisive contest."
+  },
+  "天目山": {
+   "renderings": {
+    "Mount Tenmoku": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Where Katsuyori and the last of the Takeda died."
+  },
+  "天遁の術": {
+   "renderings": {
+    "tenton no jutsu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The ninja 'heaven-hiding' art: using cloud, wind, rain, and the alternation of light and dark to slip a watcher's eye."
+  },
+  "太田城": {
+   "renderings": {
+    "Ōta Castle": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Saiga peasants' marsh stronghold near Wakayama, taken by Hideyoshi's water-attack in 1585."
+  },
+  "太田次郎左衛門尉": {
+   "renderings": {
+    "Ōta Jirōzaemon-no-jō": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The local strongman who commanded the peasant defenders of Ōta Castle."
+  },
+  "太閤検地": {
+   "renderings": {
+    "the Taikō kenchi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Hideyoshi's nationwide cadastral land-survey, which fixed the tax base of the realm."
+  },
   "奉化": {
    "renderings": {
     "Fenghua": [
@@ -692,6 +1692,16 @@
    },
    "category": "places",
    "status": "agreed"
+  },
+  "妙国寺": {
+   "renderings": {
+    "the Myokoku-ji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A great Nichiren temple in Sakai, famous for the giant sotetsu in its garden; Ieyasu was lodged there at the time of the Honno-ji Incident."
   },
   "委员长": {
    "renderings": {
@@ -703,6 +1713,16 @@
    "category": "terms",
    "status": "agreed",
    "note": "For Chiang; 'Chairman' would collide with the CCP usage a reader expects."
+  },
+  "姫路": {
+   "renderings": {
+    "Himeji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Hideyoshi’s castle in Harima, to which he galloped from Yamazaki at the New Year."
   },
   "孔祥熙": {
    "renderings": {
@@ -777,6 +1797,16 @@
    "status": "agreed-article-varies",
    "note": "The name for the foreign-concession enclave of Shanghai between the Japanese occupation of the surrounding city in 1937 and the seizure of the concessions after Pearl Harbor in December 1941, during which the concessions kept a precarious neutral status."
   },
+  "安土": {
+   "renderings": {
+    "Azuchi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Nobunaga's castle town on Lake Biwa, seat of the seminary."
+  },
   "宋子文": {
    "renderings": {
     "T.V. Soong": [
@@ -820,6 +1850,56 @@
    "status": "reconcile",
    "note": "1898&#8211;2003; Madame Chiang Kai-shek, youngest of the Soong sisters."
   },
+  "宗義智": {
+   "renderings": {
+    "Sō Yoshitomo": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Lord of Tsushima; Hideyoshi's go-between with Korea before the invasions."
+  },
+  "家康": {
+   "renderings": {
+    "Ieyasu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tokugawa Ieyasu (1543–1616), Nobunaga's ally and, in time, founder of the Tokugawa shogunate."
+  },
+  "小一": {
+   "renderings": {
+    "Koichi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Koichi of Higashi-Yubune, the small man who carried the orphaned Karasumaru on his back through six happy years of childhood."
+  },
+  "小牧": {
+   "renderings": {
+    "Komaki": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Komaki-yama, the hill north of Nagoya Ieyasu fortified as his front against Hideyoshi at Gakuden; the campaign is named for it and Nagakute."
+  },
+  "小谷城": {
+   "renderings": {
+    "Odani castle": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Azai stronghold in northern Ōmi, destroyed by Nobunaga in 1573; Oichi’s home by her first marriage."
+  },
   "山东": {
    "renderings": {
     "Shandong": [
@@ -830,6 +1910,56 @@
    "category": "places",
    "status": "agreed",
    "note": "山东; the northern coastal province; older English Shantung."
+  },
+  "山崎": {
+   "renderings": {
+    "Yamazaki": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The defile between Kyoto and Osaka where Hideyoshi beat Mitsuhide in 1582; site of the Takara-dera (Yamazaki) castle."
+  },
+  "山路正国": {
+   "renderings": {
+    "Yamaji Masakuni": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Also called Yamaji Shōgen. A Katsutoyo officer who betrayed Hideyoshi for a promise of Maruoka castle; his family was crucified, and he was killed at Shizugatake (by Goemon in the novel)."
+  },
+  "岐阜": {
+   "renderings": {
+    "Gifu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Mino castle town, held by Nobutaka; the infant heir Sanbōshi was kept there."
+  },
+  "岸和田": {
+   "renderings": {
+    "Kishiwada": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The castle-town on the Izumi coast south of Osaka; the Saiga and Negoro forces built their three forward forts (Sengokubori, Shakuzen-ji, Hama castle) to bar Hideyoshi’s road here in Tenshō 13."
+  },
+  "島左近": {
+   "renderings": {
+    "Shima Sakon": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Celebrated warrior of Yamato, then in Tsutsui service; in the Taikōki set-piece he cuts down Menju Shōsuke. Later famous as Ishida Mitsunari’s general."
   },
   "巡捕房": {
    "renderings": {
@@ -846,6 +1976,16 @@
    "category": "terms",
    "status": "reconcile",
    "note": "The police stations of the foreign concessions (Shanghai's International Settlement and French Concession). Their Chinese informers were 包打聽."
+  },
+  "左右田与一郎": {
+   "renderings": {
+    "Soda Yoichiro": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A young retainer of the Akechi general Yomoda Tajima-no-kami; Tarao-born and Oyu's childhood friend, hopelessly in love with her, and so a channel by which she reaches the Akechi camp."
   },
   "常州": {
    "renderings": {
@@ -892,6 +2032,26 @@
    "status": "reconcile",
    "note": "A mountain resort in Jiangxi where Chiang Kai-shek was staying."
   },
+  "府中": {
+   "renderings": {
+    "Fuchū": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Echizen town (modern Takefu), seat of Maeda Toshinaga’s castle, on Katsuie’s line of retreat."
+  },
+  "府内": {
+   "renderings": {
+    "Funai": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The capital of Bungo (modern Oita); site of a Jesuit college."
+  },
   "廖仲恺": {
    "renderings": {
     "Liao Zhongkai": [
@@ -928,6 +2088,16 @@
    "category": "places",
    "status": "reconcile",
    "note": "The Communist base in northern Shaanxi; Ronghua’s wireless link runs between Shanghai and Yan’an. (The Party’s seat only from 1937; its use in the novel’s earlier setting is a mild anachronism, as with ‘Juntong.’)"
+  },
+  "弘法大師": {
+   "renderings": {
+    "Kobo Daishi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Kukai (774-835), founder of Shingon esoteric Buddhism, held to lie not dead but in eternal meditation at Kōya-san, awaiting the future Buddha Maitreya."
   },
   "张国焘": {
    "renderings": {
@@ -971,6 +2141,26 @@
    "category": "people",
    "status": "agreed"
   },
+  "弥五右衛門": {
+   "renderings": {
+    "Yagoemon": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Maki’s father, a good-natured Ikkō-sect peasant of the hamlet of Nagao; fifty-two in Tenshō 13. Not to be confused with Goemon (五右衛門): Yagoemon is 弥五右衛門."
+  },
+  "後藤又兵衛": {
+   "renderings": {
+    "Gotō Matabei": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Retainer of the Kuroda, and one of the celebrated warriors of the age; died for the Toyotomi at the fall of Osaka in 1615."
+  },
   "徐家汇": {
    "renderings": {
     "Xujiahui": [
@@ -982,6 +2172,36 @@
    "category": "places",
    "status": "agreed",
    "note": "A district of Shanghai."
+  },
+  "忍び組": {
+   "renderings": {
+    "the Shinobi-gumi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The ‘Stealth Corps,’ the organized body of some two hundred Iga and Kōga ninja under Hanzō in Ieyasu’s service, whose unified command the author credits with Ieyasu’s edge at Nagakute."
+  },
+  "忍者": {
+   "renderings": {
+    "ninja / shinobi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The covert agents of Iga and Koga; rendered 'ninja' or 'shinobi' as the sentence wants."
+  },
+  "忍術": {
+   "renderings": {
+    "ninjutsu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The shinobi's craft of stealth, evasion, espionage and sabotage."
   },
   "忠义救国军": {
    "renderings": {
@@ -996,6 +2216,36 @@
    "status": "reconcile",
    "note": "A Dai Li / Juntong-affiliated irregular force active in the lower Yangtze during the war; its Hengyang-region commander Zhou Kuilong held the couple (ch21)."
   },
+  "快川": {
+   "renderings": {
+    "Kaisen": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Kaisen Joki (d. 1582), Zen abbot of Erin-ji, burned to death with his monks by Nobunaga's men."
+  },
+  "念仏": {
+   "renderings": {
+    "the nenbutsu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The invocation 'Namu Amida Butsu', central to Pure Land practice."
+  },
+  "恵林寺": {
+   "renderings": {
+    "Erin-ji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Takeda's devotional temple in Kai, burned with its monks in 1582."
+  },
   "愚园路": {
    "renderings": {
     "Yuyuan Road": [
@@ -1007,6 +2257,16 @@
    "category": "places",
    "status": "agreed",
    "note": "A fashionable road in western Shanghai; the site of Yang Yubo’s mansion."
+  },
+  "愛宕山": {
+   "renderings": {
+    "Mount Atago": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Height above Kita-no-shō where Hideyoshi set his headquarters for the final assault."
   },
   "戈登路": {
    "renderings": {
@@ -1043,6 +2303,66 @@
    "status": "agreed",
    "note": "1897–1946, head of the Nationalists' Military Statistics Bureau (军统/Juntong), the KMT secret service; Whampoa sixth class (did not graduate). Ordered and oversaw the couple's secret arrest (ch20–21)."
   },
+  "手裏剣": {
+   "renderings": {
+    "shuriken": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The ninja’s throwing-blade; the eight-pointed happō-shuriken is thrown here in a rapid straight-line volley."
+  },
+  "拝郷家嘉": {
+   "renderings": {
+    "Haigo Goemon": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Shibata general (formal name Hisamitsu), killed by Fukushima Masanori at Shizugatake per the Taikōki; a namesake of the hero."
+  },
+  "摩阿姫": {
+   "renderings": {
+    "Maa-hime": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Maeda Toshiie's daughter, a concubine of Hideyoshi known as Kaga-dono; the novel gives her the name Gō-hime, which properly belonged to another sister."
+  },
+  "教如": {
+   "renderings": {
+    "Kyōnyo": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Kennyo’s son and the ‘new abbot,’ who held out at Ishiyama after his father left and was long estranged from him."
+  },
+  "敦賀": {
+   "renderings": {
+    "Tsuruga": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Port in Echizen, Maeda Toshiie’s home ground, where he withdrew from the field."
+  },
+  "文禄・慶長の役": {
+   "renderings": {
+    "the Bunroku-Keichō War": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Hideyoshi's invasions of Korea, 1592 and 1597 (the Imjin and Jeongyu wars in Korean)."
+  },
   "斧头帮": {
    "renderings": {
     "the Hatchet Gang": [
@@ -1055,6 +2375,16 @@
    "category": "organizations",
    "status": "agreed-article-varies",
    "note": "Shanghai assassins' gang; linked to the killing of the China Merchants director."
+  },
+  "新兵衛": {
+   "renderings": {
+    "Shinbei": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tarao Doka's second son, seventeen, quick and handsome, the leader of the three Koga ninja sons at the seminary; hid the mission's sacred vessels at Oki-no-shima. A future antagonist of Goemon."
   },
   "新华日报": {
    "renderings": {
@@ -1080,6 +2410,26 @@
    "status": "agreed",
    "note": "1899–1935; CCP leader of the Northeast Jiangxi soviet; his prison diary was among the papers kept in the Tongyi vault."
   },
+  "於義丸": {
+   "renderings": {
+    "Ogimaru": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Ieyasu’s second son, given to Hideyoshi as adopted son and hostage; renamed Hashiba Hideyasu, later Yūki Hideyasu (1574–1607). (See the note at his adoption.)"
+  },
+  "施薬院全宗": {
+   "renderings": {
+    "Seyakuin Zensō": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Former Hiei monk turned Hideyoshi's physician and courtier; also called Maeda Tokuun. Cast by the Jesuits as the Taikō's procurer of women."
+  },
   "旗袍": {
    "renderings": {
     "cheongsam": [
@@ -1103,6 +2453,16 @@
    "status": "agreed",
    "note": "日本; Japan, named with England as America's two rivals in the East."
   },
+  "旭姫": {
+   "renderings": {
+    "Asahi-hime": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Hideyoshi's half-sister (1543-1590), married to Ieyasu in 1586 to seal the alliance of the two houses."
+  },
   "昆明": {
    "renderings": {
     "Kunming": [
@@ -1113,6 +2473,26 @@
    "category": "places",
    "status": "agreed",
    "note": "Capital of Yunnan."
+  },
+  "明智光春": {
+   "renderings": {
+    "Akechi Mitsuharu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Mitsuhide's nephew; abandoned Azuchi and died at the fall of Sakamoto Castle."
+  },
+  "明智光秀": {
+   "renderings": {
+    "Akechi Mitsuhide": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Akechi Mitsuhide (1528?–1582), one of Nobunaga's chief generals; the man who would strike at Honnō-ji."
   },
   "暨南大学": {
    "renderings": {
@@ -1171,6 +2551,26 @@
    "status": "reconcile",
    "note": "Literally a substitute-death ghost."
   },
+  "有馬": {
+   "renderings": {
+    "Arima": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Christian domain in Hizen (Kyūshū); site of the first Japanese seminary."
+  },
+  "服部半蔵": {
+   "renderings": {
+    "Hattori Hanzō": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Hattori Masanari (1542–1596), 'Hanzō the Devil', the famed ninja captain in Tokugawa Ieyasu's service."
+  },
   "望龙门": {
    "renderings": {
     "Wanglongmen": [
@@ -1181,6 +2581,76 @@
    "category": "places",
    "status": "agreed",
    "note": "The Chongqing site of the Juntong secret detention house where the narrator was held (ch21)."
+  },
+  "朝倉義景": {
+   "renderings": {
+    "Asakura Yoshikage": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Lord of Echizen destroyed by Nobunaga at Ichijōdani in 1573; his lands passed to Shibata Katsuie."
+  },
+  "木ノ本": {
+   "renderings": {
+    "Kinomoto": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Post-town below Shizugatake on the Hokkoku highroad, site of Hideyoshi’s forward headquarters."
+  },
+  "木曾義昌": {
+   "renderings": {
+    "Kiso Yoshimasa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Takeda vassal in Shinano whose secret defection to Nobunaga touched off the Takeda's final campaign."
+  },
+  "木食応其": {
+   "renderings": {
+    "Mokujiki Ōgo": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The ascetic-monk whose embassy won Hideyoshi's pardon for Mount Kōya and saved it from destruction."
+  },
+  "本受寺": {
+   "renderings": {
+    "the Honjuji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The small Sakai temple behind which Goemon and Maki keep house."
+  },
+  "本多忠勝": {
+   "renderings": {
+    "Honda Tadakatsu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Honda Heihachirō Tadakatsu (1548–1610), one of Ieyasu’s foremost generals, known by his deer-antler helmet-crest; at Nagakute he shadowed Hideyoshi’s whole army with six hundred men."
+  },
+  "本能寺": {
+   "renderings": {
+    "Honnō-ji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Kyoto temple where Nobunaga would die in 1582."
   },
   "李公朴": {
    "renderings": {
@@ -1216,6 +2686,16 @@
    "status": "agreed",
    "note": "Guangxi Clique leader; later acting president of the Republic of China."
   },
+  "李舜臣": {
+   "renderings": {
+    "Yi Sun-sin": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Admiral of the Korean navy (1545-1598) and national hero; inventor of the armored turtle-ships that broke Japan's command of the sea."
+  },
   "李鸿章": {
    "renderings": {
     "Li Hongzhang": [
@@ -1227,6 +2707,16 @@
    "category": "people",
    "status": "agreed",
    "note": "李鸿章 (1823–1901); the late-Qing statesman who launched the self-strengthening state industries Wang Hefu cites as the beginning of Chinese industry."
+  },
+  "村井貞勝": {
+   "renderings": {
+    "Murai Sadakatsu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nobunaga's shoshidai (military governor) of Kyoto; a patron of the Nanban-ji, killed defending Nobutada in 1582."
   },
   "杜月笙": {
    "renderings": {
@@ -1280,6 +2770,56 @@
    "status": "reconcile",
    "note": "Landmark on the road out to Longhua."
   },
+  "柏木四郎兵衛": {
+   "renderings": {
+    "Kashiwagi Shirōbei": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Karasumaru's father: an ex-Mori samurai turned Ikko-ikki commander at Toyama Castle, beheaded by an unknown ninja."
+  },
+  "柳ケ瀬": {
+   "renderings": {
+    "Yanagase": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Pass at the head of the Shizugatake front, gateway between Ōmi and Echizen."
+  },
+  "柴田勝家": {
+   "renderings": {
+    "Shibata Katsuie": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nobunaga's senior general, lord of Kita-no-shō in Echizen; Hideyoshi's chief rival after 1582, whom he outmanoeuvred at Kiyosu and would destroy at Shizugatake."
+  },
+  "柴田勝政": {
+   "renderings": {
+    "Shibata Katsumasa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Younger brother of Sakuma Morimasa, holding the cutting near Shizugatake in Katsuie’s army."
+  },
+  "柴田勝豊": {
+   "renderings": {
+    "Shibata Katsutoyo": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Katsuie’s adopted son, made lord of Nagahama; resenting Katsuie’s favor to Morimasa, he defected to Hideyoshi in the twelfth month of 1582."
+  },
   "标金": {
    "renderings": {
     "standard gold": [
@@ -1290,6 +2830,16 @@
    "category": "terms",
    "status": "agreed",
    "note": "标金; bar gold of standard fineness traded for future delivery on the Shanghai exchange, the other great speculative market beside the bonds."
+  },
+  "根来寺": {
+   "renderings": {
+    "Negoro-ji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The head temple of the Shingi Shingon warrior-monks in Kii, and a nest of gunners; Hideyoshi destroyed it in 1585."
   },
   "桂林": {
    "renderings": {
@@ -1304,6 +2854,16 @@
    "status": "reconcile",
    "note": "Period English form."
   },
+  "桑山重晴": {
+   "renderings": {
+    "Kuwayama Shigeharu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Held the Shizugatake position for Hideyoshi (styled Shuri-no-suke)."
+  },
   "梅花山": {
    "renderings": {
     "Plum Blossom Hill": [
@@ -1314,6 +2874,36 @@
    "category": "places",
    "status": "agreed",
    "note": "Real. Hill on Purple Mountain, Nanjing, over Sun Quan's tomb; plum-viewing ground planted from 1929. Noted ch26."
+  },
+  "森蘭丸": {
+   "renderings": {
+    "Mori Ranmaru": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nobunaga's best-loved page and reputed boy-lover, who died with him at the Honno-ji; elder of the three Mori brothers (with Bomaru and Rikimaru)."
+  },
+  "森長可": {
+   "renderings": {
+    "Mori Nagayoshi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Ikeda Tsuneoki’s son-in-law, lord of Kaneyama; killed at Nagakute."
+  },
+  "榊原康政": {
+   "renderings": {
+    "Sakakibara Yasumasa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Tokugawa general; he raised the works on Mount Komaki and fought at Nagakute."
   },
   "歌乐山": {
    "renderings": {
@@ -1327,6 +2917,16 @@
    "category": "places",
    "status": "reconcile",
    "note": "A hill west of Chongqing; site of Xu Shiying's birthday banquet (ch20)."
+  },
+  "正福寺": {
+   "renderings": {
+    "the Shōfuku-ji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A poor Esoteric-sect temple at Azōda, near Ueno, that Lourenço turned into a crypto-Christian church; Hanzō worships there."
   },
   "武昌": {
    "renderings": {
@@ -1348,6 +2948,26 @@
    },
    "category": "places",
    "status": "agreed"
+  },
+  "比叡山": {
+   "renderings": {
+    "Mount Hiei": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Seat of the Tendai monastery Enryaku-ji, burned by Nobunaga in 1571."
+  },
+  "毛受勝介": {
+   "renderings": {
+    "Menju Shōsuke": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Katsuie’s retainer who took his lord’s standard and name to die in his place at Hayashidani, covering Katsuie’s retreat."
   },
   "毛泽东": {
    "renderings": {
@@ -1383,6 +3003,16 @@
    "category": "places",
    "status": "agreed"
   },
+  "江戸城": {
+   "renderings": {
+    "Edo Castle": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The half-ruined castle Ieyasu took as his seat on his transfer to the Kantō in 1590; the future Tokyo."
+  },
   "江苏": {
    "renderings": {
     "Jiangsu": [
@@ -1404,6 +3034,16 @@
    "category": "places",
    "status": "agreed",
    "note": "Southeastern province."
+  },
+  "池田恒興": {
+   "renderings": {
+    "Ikeda Tsuneoki": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Lord of Ōgaki, a foster-brother of Nobunaga’s (also called by his lay-monk name Shōnyū); his defection to Hideyoshi opened the Komaki campaign, and he died at Nagakute."
   },
   "汪精卫": {
    "renderings": {
@@ -1440,6 +3080,16 @@
    "status": "agreed-article-varies",
    "note": "The Nationalist government's legal-tender paper currency (introduced 1935 in fact; the novel uses the term loosely)."
   },
+  "法華宗": {
+   "renderings": {
+    "the Hokke sect": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "Nichiren Buddhism; Honno-ji was one of its temples."
+  },
   "洛阳": {
    "renderings": {
     "Luoyang": [
@@ -1451,6 +3101,16 @@
    "status": "agreed",
    "note": "The ancient capital; in the peony legend Empress Wu Zetian banishes the flower to Luoyang, whence 'the peony of Luoyang is first under heaven' (Chapter 27)."
   },
+  "津田算長": {
+   "renderings": {
+    "Tsuda Kazunaga": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Head of the Suginobō of the Negoro-ji, who brought one of the first matchlocks from Tanegashima to Kishū."
+  },
   "洪门": {
    "renderings": {
     "the Hongmen": [
@@ -1461,6 +3121,26 @@
    "category": "organizations",
    "status": "agreed",
    "note": "洪门; the sworn-brotherhood secret society of south China. See the note at 'a Hongmen brother.'"
+  },
+  "浄福寺": {
+   "renderings": {
+    "the Jofukuji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A Sakai temple a cho or so from Goemon's house, in whose grounds he buries his stolen gold."
+  },
+  "浅野長政": {
+   "renderings": {
+    "Asano Nagamasa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Asano Nagamasa (1547–1611), Hideyoshi's brother-in-law and one of the Five Commissioners; a protector of the mission, who led ten thousand men into Iga in the Tenshō war."
   },
   "浏阳": {
    "renderings": {
@@ -1493,6 +3173,16 @@
    "category": "places",
    "status": "agreed",
    "note": "浙江路; a Settlement road crossing Nanjing Road; older English Chekiang Road."
+  },
+  "浜松": {
+   "renderings": {
+    "Hamamatsu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Ieyasu's castle town in Totomi, where Goemon is settled under the alias Saeki Dennai."
   },
   "浦东": {
    "renderings": {
@@ -1531,6 +3221,46 @@
    "status": "reconcile",
    "note": "Real. Avenue Haig (after Field Marshal Douglas Haig); today Huashan Road (华山路)."
   },
+  "淀君": {
+   "renderings": {
+    "the Lady Yodo": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Chacha, daughter of Oichi and Azai Nagamasa; later Hideyoshi's consort and mother of his heir Hideyori."
+  },
+  "淀城": {
+   "renderings": {
+    "Yodo Castle": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The castle Hideyoshi rebuilt for the Lady Yodo and their son southwest of Kyoto, fed by great river waterwheels; scene of Goemon's capture."
+  },
+  "清水宗治": {
+   "renderings": {
+    "Shimizu Muneharu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Commander of Takamatsu Castle, who took his own life as the price of the Mori's peace with Hideyoshi."
+  },
+  "清洲": {
+   "renderings": {
+    "Kiyosu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Owari castle where Nobunaga's generals met in 1582 to settle the succession."
+  },
   "湖南": {
    "renderings": {
     "Hunan": [
@@ -1553,6 +3283,36 @@
    "category": "terms",
    "status": "reconcile",
    "note": "pole-slung carrying chair"
+  },
+  "滝川一益": {
+   "renderings": {
+    "Takigawa Kazumasu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Senior Shibata-faction commander (styled Sakon-shōgen), daimyō of some 300,000 koku in Ise; struck first in the war and drew Hideyoshi’s Ise campaign."
+  },
+  "烏丸": {
+   "renderings": {
+    "Karasumaru": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A fat thirteen-year-old, orphan of an Ikko-ikki commander, Etegi's inseparable companion."
+  },
+  "片桐且元": {
+   "renderings": {
+    "Katagiri Katsumoto": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "One of the Seven Spears of Shizugatake; later steward of the Toyotomi house."
   },
   "牯岭": {
    "renderings": {
@@ -1683,6 +3443,56 @@
    "status": "agreed",
    "note": "The Paramount Ballroom, a famous Shanghai dance hall; here the house to which Young Tang is packed off."
   },
+  "百地三太夫": {
+   "renderings": {
+    "Momochi Sandayū": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The most famous jonin of Iga; the Momochi fort where Tamo was maimed was of this house."
+  },
+  "石川五右衛門": {
+   "renderings": {
+    "Ishikawa Goemon": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The semi-legendary thief and shinobi who is the novel's hero; by tradition put to death by boiling in 1594."
+  },
+  "石川数正": {
+   "renderings": {
+    "Ishikawa Kazumasa": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A senior retainer of Ieyasu’s who escorted Ogimaru to Hideyoshi; he later defected to Hideyoshi."
+  },
+  "石田三成": {
+   "renderings": {
+    "Ishida Mitsunari": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "One of Hideyoshi's Five Commissioners; later led the western army to defeat at Sekigahara (1600)."
+  },
+  "福島正則": {
+   "renderings": {
+    "Fukushima Masanori": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Also Fukushima Ichimatsu; foremost of the Seven Spears of Shizugatake and a lifelong Hideyoshi man."
+  },
   "福建": {
    "renderings": {
     "Fujian": [
@@ -1694,6 +3504,36 @@
    "status": "agreed",
    "note": "Southeastern coastal province."
   },
+  "秀吉": {
+   "renderings": {
+    "Hideyoshi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Toyotomi Hideyoshi (1537–1598), Nobunaga's foremost general and, after 1582, the unifier of Japan."
+  },
+  "秀長": {
+   "renderings": {
+    "Hidenaga": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Hashiba (Toyotomi) Hidenaga (1540–1591), Hideyoshi’s younger half-brother and most trusted general; made governor of Kii and given the vanguard in the Kishū campaign of Tenshō 13. Titled Yamato Dainagon."
+  },
+  "秀頼": {
+   "renderings": {
+    "Toyotomi Hideyori": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Hideyoshi's son and heir by the Lady Yodo (1593-1615); as an infant called 'Hiroi.' Died at the fall of Osaka castle in 1615."
+  },
   "秦邦宪": {
    "renderings": {
     "Qin Bangxian": [
@@ -1704,6 +3544,66 @@
    "category": "people",
    "status": "agreed",
    "note": "Better known as Bo Gu (&#21338;&#21476;); one of the &#8216;28 Bolsheviks&#8217; and de facto Party leader 1931&#8211;35."
+  },
+  "種子ケ島": {
+   "renderings": {
+    "Tanegashima": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The island off southern Kyūshū where the matchlock is traditionally said to have reached Japan in 1543; the gun itself came to be called a <i>tanegashima</i>."
+  },
+  "穴山梅雪": {
+   "renderings": {
+    "Anayama Baisetsu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Takeda kinsman and general who defected to Nobunaga and Ieyasu as the house fell."
+  },
+  "築山どの": {
+   "renderings": {
+    "the Lady Tsukiyama": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Ieyasu's principal wife and Nobuyasu's mother, accused of treasonous dealings with the Takeda and killed in 1579."
+  },
+  "納屋助左衛門": {
+   "renderings": {
+    "Naya Sukezaemon": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A great merchant of Sakai, later famed as Ruson (Luzon) Sukezaemon; Goemon robs his storehouse."
+  },
+  "織田信孝": {
+   "renderings": {
+    "Nobutaka": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nobunaga's ambitious concubine-born son (Sanshichi); Shibata's ally against Hideyoshi."
+  },
+  "織田信雄": {
+   "renderings": {
+    "Nobukatsu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nobunaga's second surviving son, of the same mother as Nobutada; reckoned dull, made the young heir's guardian."
   },
   "老闸捕房": {
    "renderings": {
@@ -1717,6 +3617,16 @@
    "category": "organizations",
    "status": "reconcile",
    "note": "老闸捕房; the Louza (老闸) police station of the International Settlement, the very station whose men fired the shots of 30 May 1925."
+  },
+  "聚楽第": {
+   "renderings": {
+    "the Jurakudai": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Hideyoshi's lavish palace-fortress in Kyoto (built 1587), seat of his regency; demolished in 1595."
   },
   "胡宗南": {
    "renderings": {
@@ -1751,6 +3661,26 @@
    "category": "people",
    "status": "agreed",
    "note": "1908–1989, the film star 'Butterfly Wu,' twice voted 'Queen of the Screen'; her lost wartime 'luggage' (largely smuggled goods) and her complaint to Dai Li triggered the couple's arrest (ch20–21)."
+  },
+  "脇坂安治": {
+   "renderings": {
+    "Wakisaka Yasuharu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "One of the Seven Spears of Shizugatake."
+  },
+  "臼杵": {
+   "renderings": {
+    "Usuki": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Town in Bungo; site of the Jesuit noviciate."
   },
   "苏堤": {
    "renderings": {
@@ -1791,6 +3721,26 @@
    "status": "reconcile",
    "note": "英国; Britain, named with Japan as America's two rivals in the East."
   },
+  "茶粥": {
+   "renderings": {
+    "chagayu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Tea-gruel; see the note at its first mention."
+  },
+  "葉津子": {
+   "renderings": {
+    "Hatsuko": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The daughter of the Shiroko merchant Kadoya Kyuemon, sent to Ieyasu's bed on the night of his escape."
+  },
   "董必武": {
    "renderings": {
     "Dong Biwu": [
@@ -1825,6 +3775,36 @@
    "status": "agreed",
    "note": "Chiang Kai-shek&#8217;s son; the conventional Wade&#8211;Giles English form is used."
   },
+  "蒲生賢秀": {
+   "renderings": {
+    "Gamō Katahide": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Keeper of Azuchi, who spirited Nobunaga's family to safety at Hino after Honno-ji."
+  },
+  "藤林長門守": {
+   "renderings": {
+    "Fujibayashi Nagato-no-kami": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "One of the two great jonin (upper ninja) masters of Iga."
+  },
+  "蘇鉄": {
+   "renderings": {
+    "the sotetsu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The sago palm (cycad), not native to Japan; the great specimen at Myokoku-ji is the subject of a Sakai legend."
+  },
   "虹口": {
    "renderings": {
     "Hongkou": [
@@ -1835,6 +3815,26 @@
    "category": "places",
    "status": "agreed",
    "note": "虹口; district of Shanghai north of Suzhou Creek, part of the International Settlement, with many Japanese residents and mills; older English Hongkew."
+  },
+  "覚鑁": {
+   "renderings": {
+    "Kakuban": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The reforming monk of Mount Kōya (1095–1143) who founded the Negoro-ji; named in Maki’s lullaby."
+  },
+  "角屋久右衛門": {
+   "renderings": {
+    "Kadoya Kyūemon": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A merchant of Shiroko on Ise Bay, Hatsuko's father, who sheltered Ieyasu the night before he sailed for Mikawa."
   },
   "许广平": {
    "renderings": {
@@ -1858,6 +3858,36 @@
    "status": "agreed",
    "note": "Hunan military governor and Nationalist elder; first president of the Executive Yuan; signed the Wuhan order expelling Chiang in April 1927."
   },
+  "豊臣秀次": {
+   "renderings": {
+    "Toyotomi Hidetsugu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Hideyoshi's nephew and adopted heir, made kanpaku; forced to commit seppuku on Mount Kōya in 1595."
+  },
+  "賤ケ岳": {
+   "renderings": {
+    "Shizugatake": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The ridge between Lake Biwa and Lake Yogo where Hideyoshi broke Katsuie in the fourth month of 1583; gave its name to the battle and the Seven Spears."
+  },
+  "賤ケ岳の七本槍": {
+   "renderings": {
+    "the Seven Spears of Shizugatake": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The seven (in fact nine) young spearmen—Kiyomasa, Masanori and the rest—commended for valor at Shizugatake; a fixture of popular art."
+  },
   "贺衷寒": {
    "renderings": {
     "He Zhonghan": [
@@ -1880,6 +3910,26 @@
    },
    "category": "people",
    "status": "agreed"
+  },
+  "赤備え": {
+   "renderings": {
+    "the Red Guard": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "An <i>akazonae</i>, a unit armored and even armed all in red; Ii Naomasa’s was the most famous."
+  },
+  "越前": {
+   "renderings": {
+    "Echizen": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Province on the Sea of Japan (modern Fukui); the Asakura domain, destroyed by Nobunaga in 1573."
   },
   "跑马厅": {
    "renderings": {
@@ -1924,6 +3974,16 @@
    "category": "people",
    "status": "agreed"
   },
+  "酒井忠次": {
+   "renderings": {
+    "Sakai Tadatsugu": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "One of Ieyasu's chief retainers; his silence before Nobunaga sealed Nobuyasu's fate."
+  },
   "重庆": {
    "renderings": {
     "Chongqing": [
@@ -1938,6 +3998,16 @@
    "status": "reconcile",
    "note": "The Nationalist wartime capital (the &#8216;great rear&#8217;)."
   },
+  "金剛峯寺": {
+   "renderings": {
+    "Kongōbu-ji": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The head temple of the Shingon school on Mount Kōya."
+  },
   "钱庄": {
    "renderings": {
     "native bank": [
@@ -1948,6 +4018,56 @@
    "category": "terms",
    "status": "agreed",
    "note": "钱庄; a traditional Chinese private bank or money-shop, distinct from the modern 银行. The silk men's working credit runs through these houses, and it is a native-bank manager who will not stretch a point for Chen Junyi."
+  },
+  "長久手": {
+   "renderings": {
+    "Nagakute": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The field east of present Nagoya where Ieyasu shattered Ikeda’s flanking column in the fourth month of Tenshō 12."
+  },
+  "長宗我部元親": {
+   "renderings": {
+    "Chōsokabe Motochika": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Lord of Tosa who had unified Shikoku; submitted to Hideyoshi in 1585 and was left Tosa alone."
+  },
+  "長尾": {
+   "renderings": {
+    "Nagao": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Maki’s home hamlet, a league and a half up the Kishi River at the foot of Mount Tokika; a poor farming village on the border of the Kishū domain and the temple lands, where Goemon, Maki and Goichi take refuge."
+  },
+  "長曾我部元親": {
+   "renderings": {
+    "Chōsokabe Motochika": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The lord of Tosa who all but united Shikoku; sounded out by Ieyasu for the anti-Hideyoshi league."
+  },
+  "長浜": {
+   "renderings": {
+    "Nagahama": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Castle town on the east shore of Lake Biwa; Hideyoshi’s rear base in the Shizugatake campaign."
   },
   "长安": {
    "renderings": {
@@ -1983,6 +4103,16 @@
    },
    "category": "places",
    "status": "agreed"
+  },
+  "関白": {
+   "renderings": {
+    "Kanpaku": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The imperial regent, the highest court office; assumed by Hideyoshi in 1585."
   },
   "阎锡山": {
    "renderings": {
@@ -2074,6 +4204,26 @@
    "status": "agreed",
    "note": "Whampoa graduate and head of the intelligence (2nd) section of the Party&#8217;s Special Branch; later a PLA general."
   },
+  "雑賀": {
+   "renderings": {
+    "Saiga": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Saiga (Saika) in Kishu, home of a famed league of gunsmiths and mercenary gunners, a hub of the arms trade."
+  },
+  "雑賀崎": {
+   "renderings": {
+    "Saigazaki": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The cape south of Wakayama to which the name Saiga later shrank; Maki’s people were of the old, wider Saiga of the lower Kino."
+  },
   "霞飞路": {
    "renderings": {
     "Avenue Joffre": [
@@ -2126,6 +4276,16 @@
    "status": "agreed-article-varies",
    "note": "The Green Gang (青帮) and the Hong/Red Gang (洪帮), the great secret-society brotherhoods of Republican Shanghai; Young Tang names them as A-Chu's likely enemies after the hospital bombing."
   },
+  "青葉の冠者": {
+   "renderings": {
+    "Aoba no Kaja": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "‘The Green-Leaf Page,’ the refined cover-name Hanzō gave a cold-natured Kōga lower ninja of the Tarao; Goemon’s contact on the Osaka assignment."
+  },
   "静安寺": {
    "renderings": {
     "Jing'an Temple": [
@@ -2151,6 +4311,16 @@
    "category": "places",
    "status": "reconcile",
    "note": "The concession-era English name of 静安寺路 (today Nanjing West Road, 南京西路)."
+  },
+  "顕如": {
+   "renderings": {
+    "Kennyo": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The abbot of the Hongan-ji (1543–1592) who led the Ikkō league through the long war against Nobunaga and, at Ishiyama’s fall, withdrew into Kishū."
   },
   "顾祝同": {
    "renderings": {
@@ -2187,6 +4357,16 @@
    "status": "agreed",
    "note": "British colony; seat of the Party&#8217;s Southern Bureau."
   },
+  "馬印": {
+   "renderings": {
+    "umajirushi": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A commander’s tall field standard; Katsuie’s was a golden gohei, Hideyoshi’s the golden gourd."
+  },
   "马寅初": {
    "renderings": {
     "Ma Yinchu": [
@@ -2211,6 +4391,56 @@
    "status": "reconcile",
    "note": "Real. Rue Massenet, after the composer Jules Massenet; today Sinan Road (思南路). The recognition-signal address."
   },
+  "高山右近": {
+   "renderings": {
+    "Takayama Ukon": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The most famous of the Christian daimyo; chose exile over apostasy, dying in Manila in 1615."
+  },
+  "高松城": {
+   "renderings": {
+    "Takamatsu Castle": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Bicchū Takamatsu, flooded by Hideyoshi in 1582; the siege broke off at word of Nobunaga's death."
+  },
+  "高槻": {
+   "renderings": {
+    "Takatsuki": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Takayama Ukon's castle town between Kyoto and Osaka, where the seminary was rebuilt after Azuchi."
+  },
+  "高野山": {
+   "renderings": {
+    "Mount Kōya": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Mount Kōya, the monastic center of Shingon Buddhism, where Kobo Daishi is held to sit in eternal meditation."
+  },
+  "鬼子母神": {
+   "renderings": {
+    "Kishimojin": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The child-guarding goddess Hariti, once a child-devouring ogress, converted by the Buddha; shown with a pomegranate."
+  },
   "鲁迅": {
    "renderings": {
     "Lu Xun": [
@@ -2221,6 +4451,26 @@
    "category": "people",
    "status": "agreed",
    "note": "Pen name of Zhou Shuren (1881-1936); author of The True Story of Ah Q; the central figure of essay 3."
+  },
+  "鳥居喜八郎": {
+   "renderings": {
+    "Torii Kihachirō": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Kōga middle-rank shinobi of Ōhara; father of Torii Moriichirō."
+  },
+  "鳥居守一郎": {
+   "renderings": {
+    "Torii Moriichirō": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nineteen, eldest of the three Koga seminary pupils; sallow, thick-fleshed, flighty, and the most cruel of them. A future antagonist of Goemon."
   },
   "鸡鸣寺": {
    "renderings": {
@@ -2278,6 +4528,16 @@
    "category": "people",
    "status": "agreed",
    "note": "Green Gang boss and the sole Chinese chief inspector of the French Concession patrol house; Chiang Kai-shek was once his disciple."
+  },
+  "黒田官兵衛": {
+   "renderings": {
+    "Kuroda Kanbei": [
+     "the-stealthy-ones"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Hideyoshi's ablest strategist; later took the monastic name Josui."
   },
   "龙华": {
    "renderings": {
