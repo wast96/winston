@@ -178,3 +178,18 @@ recur later in the novella). All recurring names/terms carry a glossary row.
   (check_content, all units clean), entity survival (qc_entities, 0 misses),
   apparatus (0/0). Rebuilt: qa_epub PASS, epubcheck 5.1.0 clean.
 - Cover: source original kept byte-identical (commissioner's instruction).
+
+### Second voice-gate pass (commissioner feedback: idioms + more footnotes)
+
+- Idiom fix: 投石问路 was rendered "sounding the ground"; now "testing the
+  waters" (ch01), with a note giving the literal image. Swept for others of
+  that ilk; smoothed one awkward appositive in ch06.
+- Footnotes expanded 35 -> 50 at the commissioner's invitation, weighted
+  toward nuances that vanish in translation: the telling given-names
+  (慎言 "guard your words" for Gu Shenyan; 贞 "fidelity" in Zhu Yizhen's name;
+  中原 "the Central Plain" for Ji Zhongyuan), the title word itself
+  (叛逆者 "rebel" vs 叛徒 "traitor"), and the idioms/allusions rendered plainly
+  in the text but opaque to a Western reader (鱼龙混杂, 你中有我我中有你,
+  马革裹尸 / Ma Yuan, 灯下黑, 人不风流枉少年, 染红, the plum-blossom emblem),
+  plus material-culture glosses (the Red House, Tieguanyin, kabushiki-gaisha).
+- All checks re-run green; qa_epub PASS, epubcheck 5.1.0 clean; 50 notes.

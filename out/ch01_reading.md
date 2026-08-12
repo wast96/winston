@@ -22,7 +22,7 @@ Lin Nansheng did not speak, and right up until Zuo Qiuming rose to take his leav
 
 The envelope Zuo Qiuming had tucked under the pillow held a green credential booklet, two lines of gilt stamped across its cover: Secret Service Headquarters of the Special Affairs Committee of the Central Executive Committee of the Chinese Kuomintang.
 
-This was Wang Jingwei's intelligence apparatus. Lin Nansheng had been there once, back in Shanghai, at No. 76 Jessfield Road, where two machine guns were mounted in the pillbox at the gate and everyone who entered had to submit to a search under their muzzles. He had just been transferred then from the Chongqing headquarters to the Shanghai station, and his chief work was gathering intelligence and turning officials of the Wang puppet government. Interviewing Ding Mocun in the guise of a Reuters correspondent had been headquarters' way of sounding the ground before it decided to try to turn this notorious traitor.
+This was Wang Jingwei's intelligence apparatus. Lin Nansheng had been there once, back in Shanghai, at No. 76 Jessfield Road, where two machine guns were mounted in the pillbox at the gate and everyone who entered had to submit to a search under their muzzles. He had just been transferred then from the Chongqing headquarters to the Shanghai station, and his chief work was gathering intelligence and turning officials of the Wang puppet government. Interviewing Ding Mocun in the guise of a Reuters correspondent had been headquarters' way of testing the waters before it decided to try to turn this notorious traitor.
 
 As they shook hands in parting, he had said, with a smile, "Mr. Ding, none of us wants to see another affair like the one at the Siberia Fur Store."
 

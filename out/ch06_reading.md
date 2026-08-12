@@ -104,4 +104,4 @@ Ji Zhongyuan shook his head. "We need the movements of the Japanese army at Guan
 
 "I'm a soldier." As he spoke, Lin Nansheng pushed the car door open; then, after a moment, he added, "I obey my superiors alone."
 
-Ji Zhongyuan caught hold of him and held his eyes, a hard, pressing look. "Your intelligence can save a great many lives."
+Ji Zhongyuan caught hold of him and fixed him with a hard, insistent stare. "Your intelligence can save a great many lives."
