@@ -19,7 +19,7 @@ batch instead of a handoff. The book is COMPLETE.
 - **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.**
 - **check_apparatus: clean**; **check_reconcile --variants: clean** (no wrong
   form surviving; spelling locale 0 British / 194 American).
-- Deliverable: **`out/the-stealthy-ones.epub`**, committed with `git add -f` on
+- Deliverable: **`out/The Stealthy Ones.epub`**, committed with `git add -f` on
   branch `claude/the-stealthy-ones` (see "Definition of done").
 
 ## What the finished edition contains
@@ -187,7 +187,7 @@ Each of these is already flagged in the notes at its place; consolidated here:
   - `python3 scripts/qa_epub.py`
   - `python3 scripts/check_reconcile.py --variants data/variants.json`
   - `python3 scripts/check_apparatus.py`
-  - `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/the-stealthy-ones.epub`
+  - `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar "out/The Stealthy Ones.epub"`
 - **Environment note:** `OMP_THREAD_LIMIT=1` is mandatory for tesseract; check
   `pgrep -c tesseract` is 0 after any OCR run. One checker self-test ("hook stands
   down on template stub") fails on a template corner case that does not affect
@@ -200,7 +200,7 @@ Each of these is already flagged in the notes at its place; consolidated here:
   translator's note current, no figures (honest, the book has none), no errata /
   colophon (the book prints none). `qa_epub` PASS across the whole spine;
   epubcheck clean. **The file itself is committed (`git add -f
-  out/the-stealthy-ones.epub`).**
+  "out/The Stealthy Ones.epub"`).**
 - `out/<id>_reading.md` per unit (the correction surface), **`out/term_ledger.md`**,
   **`out/deep_audit.md`** all present.
 - `notes.json`, `glossary.json`, `figures.json`, `book.json`, `back_matter.json`

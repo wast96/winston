@@ -24,7 +24,7 @@ translation; the content is frozen.
 
 ## Deliverable and rebuild
 
-- Deliverable: `out/the-stealthy-ones.epub` (committed with `git add -f`;
+- Deliverable: `out/The Stealthy Ones.epub` (committed with `git add -f`;
   branches outlive containers).
 - One branch: `claude/the-stealthy-ones`.
 - Rebuild from a clean checkout:
@@ -34,7 +34,7 @@ translation; the content is frozen.
   - `python3 scripts/qa_epub.py`
   - `python3 scripts/check_reconcile.py --variants data/variants.json`
   - `python3 scripts/check_apparatus.py`
-  - `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/the-stealthy-ones.epub`
+  - `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar "out/The Stealthy Ones.epub"`
 
 ## What is DONE (one line per batch, do not redo)
 - Batch 0 (survey): structure, metadata, skeleton EPUB, batching approved.

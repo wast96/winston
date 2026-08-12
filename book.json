@@ -1,7 +1,7 @@
 {
   "_README": "Single source of the book's structure; the build is driven ENTIRELY by this file. Chapter ids start with 'ch'. A chapter counts as translated once out/<id>_reading.md exists. Cite the PRINTED FOLIO in notes, never the PDF page. THIS BOOK: Japanese, vertical (top-to-bottom, right-to-left), with heavy furigana (rubi). Source-title/author fields are named *_zh for historical reasons but hold the Japanese source text; source_script='ja' tags them.",
 
-  "deliverable": "out/the-stealthy-ones.epub",
+  "deliverable": "out/The Stealthy Ones.epub",
 
   "title_en": "The Stealthy Ones",
   "subtitle_en": "Goemon Boiled in the Cauldron",

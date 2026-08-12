@@ -15,7 +15,7 @@ named here, not yet on stage.
 - 67 footnotes in `notes.json` (folio-cited throughout), glossary rows in
   `glossary.json` (13 principals flagged for the Principal Characters page),
   page map for folio citations.
-- `out/the-stealthy-ones.epub`: cumulative build, full pending-aware TOC.
+- `out/The Stealthy Ones.epub`: cumulative build, full pending-aware TOC.
 
 ### Checks run and results
 - `qa_epub.py`: PASS (8 documents, 67 refs / 67 bodies / 67 backlinks all
@@ -132,7 +132,7 @@ Hatsuko.
   structure-preserving insert, NOT apparatus_merge.
 - `figures.json`: `ch02` recorded as a deliberate EMPTY figure list (unbroken
   body text; no photographs, plates, or line diagrams).
-- `out/the-stealthy-ones.epub`: cumulative build, 2 of 8 chapters translated.
+- `out/The Stealthy Ones.epub`: cumulative build, 2 of 8 chapters translated.
 
 ### Checks run and results
 - `build_reading_epub.py`: OK (2/8 chapters, 96 notes, 48 pagebreaks).
@@ -243,7 +243,7 @@ at the crimson Yamazaki battlefield.
   terms. No new principals (book total 14). Edited via a structure-preserving
   JSON round-trip, NOT apparatus_merge.
 - `figures.json`: `ch03` recorded as a deliberate EMPTY figure list.
-- `out/the-stealthy-ones.epub`: cumulative build, 3 of 8 chapters translated.
+- `out/The Stealthy Ones.epub`: cumulative build, 3 of 8 chapters translated.
 
 ### Checks run and results
 - `build_reading_epub.py`: OK (3/8 chapters, 130 notes, 48 pagebreaks).
@@ -368,7 +368,7 @@ daughters (the eldest, Ochacha, the future Lady Yodo).
 - 20 footnotes in `notes.json` (folio-cited; book total 150), 42 new glossary
   rows (`glossary.json`: people 67->92, places 32->45, terms 21->25). No new
   principals. Figures ch04 EMPTY (text-only chapter; no plates or line art).
-- `out/the-stealthy-ones.epub`: cumulative build, 4 of 8 chapters, full
+- `out/The Stealthy Ones.epub`: cumulative build, 4 of 8 chapters, full
   pending-aware TOC.
 
 ### Checks run and results
@@ -475,7 +475,7 @@ of them (a son, Goichi, has been born) vanish from Hamamatsu.
   rows: 16 people, 6 places, 3 terms. Figures ch05 recorded EMPTY (a text-only
   novel; the one find_figures hit on p276 is a dense-text-column false positive,
   confirmed by eye).
-- `out/the-stealthy-ones.epub`: cumulative build, 5 of 8 chapters.
+- `out/The Stealthy Ones.epub`: cumulative build, 5 of 8 chapters.
 
 ### Checks run and results
 - Translated from the page images directly (OCR furigana-corrupted, as expected);
@@ -604,7 +604,7 @@ was terror and madness... men turned back into beasts."
   round-trip, NOT apparatus_merge.
 - `figures.json`: `ch06` recorded as a deliberate EMPTY list (text-only chapter;
   `find_figures.py 361 414` returned nothing).
-- `out/the-stealthy-ones.epub`: cumulative build, 6 of 8 chapters translated.
+- `out/The Stealthy Ones.epub`: cumulative build, 6 of 8 chapters translated.
 
 ### Checks run and results
 - Translated from the page images directly (vertical-JP OCR furigana-corrupted,
@@ -707,7 +707,7 @@ Luzon. It ends on Goichi asleep and the shrilling of insects.
 - 13 footnotes in notes.json (folio-cited; book total now 196). New glossary
   rows: 8 people, 4 places, 2 terms (14 total). Figures ch07 recorded EMPTY
   (text-only novel; find_figures returned nothing, confirmed by eye).
-- out/the-stealthy-ones.epub: cumulative build, 7 of 8 chapters.
+- out/The Stealthy Ones.epub: cumulative build, 7 of 8 chapters.
 
 ### Checks run and results
 - Translated from the page images directly (data/png/p0NNN.png; the vertical-JP
@@ -827,7 +827,7 @@ suffering fast. The chapter ends at folio 528; the afterword is left for B09.
   5 people, 5 places, 3 terms (13 total). Figures ch08 recorded EMPTY (find_figures
   460-530 returned one 76px-wide strip on p0501, the usual dense-text-column false
   positive on the text-only Nagoya essay page; confirmed by eye).
-- out/the-stealthy-ones.epub: cumulative build, 8 of 8 chapters. THE BOOK IS NOW
+- out/The Stealthy Ones.epub: cumulative build, 8 of 8 chapters. THE BOOK IS NOW
   FULLY TRANSLATED (body). Committed with git add -f.
 
 ### Checks run and results
