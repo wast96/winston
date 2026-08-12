@@ -82,6 +82,16 @@ UNITS = {
                   280: "五 情报活动中的政治运用"},
         "standalone": [3],     # 一 学友小聚初识戴雨农
     },
+    "ch07": {
+        "file": "08_index-split-000-0006.txt",
+        "title": "第二节 一鸣惊人 不同凡响",
+        "drop": 2,             # running header + <h2> section title
+        # one extractor split: 「...这表示有了 / 新的情况。」 broken mid-phrase
+        "merges": [(199, 200)],
+        # ch07's four sub-headings are each their own <p> (no glued tails)
+        "glued": {},
+        "standalone": [3, 90, 194, 288],
+    },
 }
 
 

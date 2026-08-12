@@ -276,3 +276,149 @@ figures (Fan Xing, Yang Ying, Qi Nanpu) marked `provisional`. Feed 胡汉民,
   sub-headings, one standalone). Same verified source-conservation path as B01.
 - `reference/B01_frozen.md` (new) — the concatenated ch01–ch05 readings, the
   single frozen reference file for `check_register.py --ref` from B02 on.
+
+## Batch B03 — ch07 (Part One, Section 2)
+
+Unit: ch07 「第二节 一鸣惊人 不同凡响」 = "Section 2. A Startling Debut." The
+Zhang Jingyao case told in full: the sudden 7-day sanction order relayed by
+Zheng Jiemin (in a brothel-quarter parlor), the reconnaissance of the Legation
+Quarter and the Grand Hôtel des Wagons-Lits, the tailor Ying Yuanxun's unwitting
+tip, Bai Shiwei's three shots on 7 May 1933, and Chen's long reflective coda
+(the intelligence "inside line," the Chiang-record passage, the Lixingshe
+promotion, the tailor and the courtesan Feilong). Closes with the lead-in to
+the 1934 Ji Hongchang case (ch08). ~21,263 source chars; 362 body paragraphs
+across four titled sub-sections.
+
+### Structural recovery (clean_batch.py, ch07 spec added)
+Four numbered sub-sections (一–四), each its OWN standalone `<p>` line (src 3,
+90, 194, 288) — no glued-to-tail headings this chapter (unlike ch06). ONE
+extractor split merged (src 199+200, "…这表示有了 / 新的情况。"). `clean_batch.py
+build` prints "362 body paragraphs, 4 sub-headings, source conserved OK." Source
+HTML has 367 `<p>` (= 2 furniture + 365 body before the merge) and NO set-off
+formatting (no images / center / kt / duokan classes) — plain narrative, so
+`apply_format_markers` had nothing to recover.
+
+### Checks (all green)
+- **Source-note grep (`\[\d+\]`):** none present in ch07 (re-checked). No
+  `source_notes` stream. No images (survey's cover-only finding confirmed).
+- **verify_unit / parity:** source 362 vs translation 362 — equal. Numbers
+  0 unresolved with `--noise data/noise.txt`. Anchors 11/11 resolve.
+- **check_align:** median ratio **4.62 en/han** (in the B01/B02 band). Two
+  pairs flagged at ratio 2.00 — both inherently short declaratives ("It was
+  thus:" for 事情是这样的：; "This day was 7 May 1933." for a bare date line),
+  content-faithful, not a slip; no run.
+- **check_structure:** parity OK; 11 note anchors, 0 unresolved; headings OK.
+- **check_content:** 155 name occurrences, 0 displaced (all in paired para).
+- **qc_entities:** 0 misses (top census: 北平×49, 张敬尧×49, 六国饭店×44,
+  东交民巷×24, 飞龙×19, 天津×17, 含春×14, 杨英×12, 郑介民×10).
+- **check_register --ref reference/B01_frozen.md:** "register within tolerance
+  of the reference." rhythm CV 0.62 (ref 0.60); em-dash 7.3/1k (ref 8.3);
+  dialogue contractions 12.7/1k (ref 0.0 — the frozen front matter has no
+  dialogue; ch07's are natural spoken contractions in the Wang/Feilong/steward
+  speech, flagged within tolerance). One informational flag: "shall" share 33%
+  — VERIFIED DELIBERATE (Chen's formal narrating/reported-speech future: "I
+  shall," "we shall meet," Zheng's declaration), matching frozen B01. Not a
+  defect.
+- **Tail verification (rule 4 corollary):** final four paragraphs (the Ji
+  Hongchang lead-in to ch08 and the closing summary) checked against the
+  source — faithful, nothing invented or dropped; 五十余日 → "more than fifty
+  days", 察、热一带 → "the Chahar-Rehe country", 宣侠父/南汉宸 both named,
+  皆曰可杀 → "all said he might be killed" all carried.
+- **Once-per-book calibration (checks 7,8):** done in B02; spot re-check on the
+  brothel-customs passage (src 18–26) and the killing (src 257–274) — high
+  agreement, no drift, no fabrication.
+- **Build:** `out/nameless-heroes.epub` 7/43, 102 notes (91 + 11), 0 source
+  notes. `qa_epub.py` PASS (57 files, 102 refs = 102 bodies = 102 backlinks).
+  **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings.**
+
+### Digitization glitches (rendered to plain sense; NOT footnoted — mechanical)
+- src 21: `折家`→`这家` ("this house"); `一块饯`→`一块钱` ("one dollar");
+  `面截了当`→`直截了当` ("straight out").
+- src 28: `就走卖唱`→`就是卖唱`; `可走总免不了`→`可是` (走 for 是).
+- src 31: `湖同口`→`胡同口` ("mouth of the lane"; 湖 for 胡).
+- src 32/35: `王人哥`→`王大哥` (人 for 大).
+- src 36: `斟好了苶`→`茶` ("tea"); `拉抬子摆家性`→`拉台子摆家伙` ("set up a
+  gaming table").
+- src 67: `足自告奋勇`→`是自告奋勇`.
+- src 89: paragraph lost its closing `」` and `。` (an unclosed quote); rendered
+  as a complete sentence.
+- src 93: `什縻`→`什么`.
+- src 94: missing `。` after `(军分会代委员长)` before `我和王大哥`; rendered as
+  two sentences.
+- src 99: `这瑰地方`→`这块地方` (瑰 for 块).
+- src 106: `可能走`→`可能是`.
+- src 138: `我地想`→`我倒想`.
+- src 142: `根木`→`根本` (木 for 本).
+- src 143: `参谋长刘某`→`参谋长赵某` (刘 for 赵; the staff officer is 赵庭贵 /
+  赵参谋长 everywhere else). Rendered "the chief of staff, Zhao."
+- src 146: `打个旽`→`打个盹` ("take a nap").
+- src 150: `长袍嵌肩`→`长袍坎肩` ("long gown and sleeveless jacket"; 嵌 for 坎).
+- src 174: `对歭`→`对峙` ("standoff").
+- src 201: `他所指的走`→`他所指的是` (走 for 是).
+- src 211: `揉和在一趄`→`揉和在一起` (趄 for 起).
+- src 213: `绐张督办`→`给张督办` (绐 for 给).
+- src 233: `八面槽华清园`→`清华园` (the bathhouse is 清华园 at src 230/234/
+  238/276/277; 华清园 here is the transposition). Rendered "the Qinghuayuan."
+- src 250: `誊出一间`→`腾出一间` ("free up a room"; 誊 for 腾).
+- src 253: `甬道德交会点`→`甬道的交会点` (德 for 的).
+- src 264: `昴百阔步`→`昂首阔步` ("head high, long strides"; 昴百 for 昂首).
+- src 271: `日木兵`→`日本兵` (木 for 本).
+- src 277: `北良街`→`北长街` (良 for 长; the address is 北长街).
+- src 305: `孙道迹天津`→`孙遁迹天津` ("withdrew into seclusion at Tianjin";
+  道 for 遁); `末放下屠刀`→`未放下屠刀` (末 for 未).
+- src 310: `十三妺`→`十三妹` (妺 for 妹, a variant glyph).
+- src 316/323: `蜜肯相信`→`若肯相信` (src 323, 蜜 for 若); src 323 also missing
+  a sentence break after `「获有内应」`.
+- src 335: `古章简`→`吉章简` (the gendarmerie 4th-regiment commander / cell
+  leader; 古 for 吉; consistent with 吉章简 later in the same line).
+- Variant/traditional glyphs (not glitches, rendered plainly): 彷佛(=仿佛),
+  鬪(=斗, in 鬪胜), 巿(=市), 囗(=口, 门囗), 謢(=护, 维謢), 蹧蹋(=糟蹋), 呵(excl.).
+
+### Noise rules added (`data/noise.txt`, B03 block)
+Itagaki's given name `征四郎` (四 in 坂垣征四郎); idioms `百般`(奉承),
+`千秋`(自有千秋), `四平八稳`, `三三两两`; `第二天` (a next-day reference, not a
+term-day count — those are carried as "first/second"); elided-tens `五、六十`
+(步); place name `东四牌楼`; glitch `昴百阔步` (百 mis-scan of 首); cover name
+`常世五` (Zhang's hotel alias); literary name `十三妺` (Shisanmei, source variant
+妺); vocative `二爷` (Second Master[s] = "gentlemen"). Real quantities were
+carried in the English instead of noised: 一百公尺 "a hundred meters", 十九(都是)
+"nineteen in twenty", 午夜十二点 "twelve, midnight", 两个人 "the two of us",
+中午十二点 "twelve noon", 六点十五分 "six-fifteen", 十二点三刻 "three quarters
+past twelve", 两条甬道 "the two corridors", 二兄 "you two brothers", 三十万银元
+"three hundred thousand silver yuan", 五十余日 "more than fifty days".
+
+### Notes ledger (11 this batch; 102 cumulative)
+First-appearance discipline observed. **NOT re-noted** (already noted in
+B01/B02, per those ledgers): Zhang Jingyao, the Legation Quarter, the Grand
+Hôtel des Wagons-Lits, the Beiping Station, the "sanction" euphemism, the 期
+classes, Itagaki Seishirō, the Kwantung Army (glossed within the Huanggutun and
+Itagaki notes), Sun Chuanfang, Shi Jianqiao (incl. the filial-revenge case),
+Ji Hongchang (incl. the Chahar anti-Japanese army and the contested-attribution
+note), Feng Yuxiang, Chahar, the Lixingshe / Renaissance Society / Youth &
+Military Associations, the Zhongshan tunic, Dai Li, Zheng Jiemin, the yuan, the
+Republican-calendar convention. New notes cover: Rehe (Jehol) and the 1933
+invasion; Cai E and Xiao Fengxian; the Eight Great Hutongs and the "pure-singing
+houses"; "beating the tea-circle" (打茶围); Zhang Zongchang (the Dog-Meat
+General); "a second Manchukuo"; "The Secret Records of President Chiang" (the
+Sankei Shimbun series); Duan Qirui; Song Zheyuan; "A Tale of Heroic Sons and
+Daughters" / Shisanmei; the Boxer Protocol (as the source of the Legation
+Quarter's status).
+
+### Glossary rows added (24; principals unchanged at 6)
+People (attested): 张宗昌 Zhang Zongchang, 蔡锷 Cai E, 小凤仙 Xiao Fengxian,
+宋哲元 Song Zheyuan, 段祺瑞 Duan Qirui, 施从滨 Shi Congbin, 吉章简 Ji Zhangjian,
+宣侠父 Xuan Xiafu, 南汉宸 Nan Hanchen. People (provisional): 赵庭贵 Zhao Tinggui,
+应元勋 Ying Yuanxun, 飞龙 Feilong, 含春 Hanchun, 蒋孝先 Jiang Xiaoxian, 韩文焕
+Han Wenhuan, 丁昌 Ding Chang. Organizations: 关东军 the Kwantung Army, 满洲国
+Manchukuo, 北平军分会 the Beiping Military Branch, 中国人民反法西斯大同盟 the
+Chinese People's Anti-Fascist Grand Alliance. Places: 东交民巷 the Legation
+Quarter, 六国饭店 the Grand Hôtel des Wagons-Lits, 热河 Rehe, 韩家潭 Hanjiatan.
+关东军 feeds from the authority shelf ("the Kwantung Army"); feed 张宗昌/蔡锷/
+宋哲元/段祺瑞/孙传芳(already)/关东军 back to authority.json on completion.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch07 spec added (drop 2, one merge 199+200, four
+  standalone sub-headings, no glued). Same verified source-conservation path.
+- Glossary rows added by hand into the sectioned file (people/orgs/places),
+  idempotent + re-read-verified (the sectioned glossary must NOT go through
+  apparatus_merge's flat-map path); notes merged via apparatus_merge as usual.

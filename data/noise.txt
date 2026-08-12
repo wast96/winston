@@ -107,3 +107,37 @@
 二手货
 # Weekday indices in the abbreviated list 星期一、三、五 (Mon/Wed/Fri); not counts.
 星期一、三、五
+#
+# --- B03 (ch07) entries ---
+#
+# Itagaki Seishiro's given name 征四郎: the 四 is part of the name (坂垣征四郎),
+# not the count 4. English "Itagaki Seishiro".
+征四郎
+# Idiom 百般(奉承) "in a hundred ways" (= endlessly); 百 is not the count 100.
+百般
+# Idiom 自有千秋 / 各有千秋 "each has its own merits" (a thousand autumns); not 1000.
+千秋
+# 第二天 "the next day/morning" (a next-day reference, not a counted quantity);
+# real term-day counts (限期第一天/第二天) are carried as "first/second" in English.
+第二天
+# Elided-tens approximation 五、六十(步) "fifty or sixty (paces)": the leading 五
+# stands for 五十, and the 六十 carries the range; English "fifty or sixty".
+五、六十
+# Place name 东四牌楼 (Dongsi Pailou, a Beiping landmark); the 四 is part of the name.
+东四牌楼
+# Idiom 四平八稳 "four-square and steady/even"; the 四 and 八 are not counts.
+四平八稳
+# Idiom 三三两两 "in twos and threes" (读作 3322 by the checker); not a quantity.
+三三两两
+# Digitization glitch: 昴百阔步 for 昂首阔步 ("head high, long strides"); the 百 is
+# a mis-scan of 首, not the count 100. Listed in PROGRESS.md.
+昴百阔步
+# Cover name 常世五 (Chang Shiwu, a hotel-register alias of Zhang Jingyao); the 五
+# is part of the name, not the count 5.
+常世五
+# Literary character 十三妺 (Shisanmei, "Thirteenth Sister" He Yufeng, of 儿女英雄传);
+# the 十三 is part of the name (source writes the variant 妺 for 妹). English "Shisanmei".
+十三妺
+# Courtesy address 二爷 "Second Master(s)" (诸位二爷 = "you gentlemen"); a vocative,
+# not the count 2. (Cf. 白三爷 "Third Master Bai", carried as "Third" in English.)
+二爷

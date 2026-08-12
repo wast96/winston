@@ -309,6 +309,102 @@
       "pinyin": "Bǎnyuán Zhēngsìláng",
       "status": "attested",
       "note": "1885-1948; general of the Japanese Kwantung Army, an architect of the 1931 Manchurian seizure; hanged as a war criminal. The source writes 坂垣 for the standard 板垣."
+    },
+    "赵庭贵": {
+      "en": "Zhao Tinggui",
+      "pinyin": "Zhào Tíngguì",
+      "status": "provisional",
+      "note": "Zhang Jingyao's chief of staff, lodged with him at the Grand Hôtel des Wagons-Lits; romanization mine."
+    },
+    "应元勋": {
+      "en": "Ying Yuanxun",
+      "pinyin": "Yīng Yuánxūn",
+      "status": "provisional",
+      "note": "Proprietor of the Yingyuantai tailor shop, called 'Manager Ying'; his unwitting remark exposed Zhang Jingyao's room. Romanization mine."
+    },
+    "飞龙": {
+      "en": "Feilong",
+      "pinyin": "Fēilóng",
+      "status": "provisional",
+      "note": "Working name ('Flying Dragon') of the courtesan of the Flower-Cultivating House who served as Wang Tianmu's cover at the hotel."
+    },
+    "含春": {
+      "en": "Hanchun",
+      "pinyin": "Hánchūn",
+      "status": "provisional",
+      "note": "Working name of a courtesan of the Flower-Cultivating House in Hanjiatan, an acquaintance of Wang Tianmu's."
+    },
+    "张宗昌": {
+      "en": "Zhang Zongchang",
+      "pinyin": "Zhāng Zōngchāng",
+      "status": "attested",
+      "note": "1881-1932; warlord of Shandong, the 'Dog-Meat General.' See the note in this section."
+    },
+    "蔡锷": {
+      "en": "Cai E",
+      "pinyin": "Cài È",
+      "status": "attested",
+      "note": "1882-1916; Yunnan general who launched the 1915 National Protection War against Yuan Shikai's monarchy. See the note in this section."
+    },
+    "小凤仙": {
+      "en": "Xiao Fengxian",
+      "pinyin": "Xiǎo Fèngxiān",
+      "status": "attested",
+      "note": "The sing-song girl of Republican legend who helped Cai E flee Yuan Shikai's Beijing in 1915; a stock figure of stage and screen."
+    },
+    "宋哲元": {
+      "en": "Song Zheyuan",
+      "pinyin": "Sòng Zhéyuán",
+      "status": "attested",
+      "note": "1885-1940; commander of the Twenty-Ninth Army in North China. See the note in this section."
+    },
+    "段祺瑞": {
+      "en": "Duan Qirui",
+      "pinyin": "Duàn Qíruì",
+      "status": "attested",
+      "note": "1865-1936; Beiyang premier and head of the Anhui clique. See the note in this section."
+    },
+    "施从滨": {
+      "en": "Shi Congbin",
+      "pinyin": "Shī Cóngbīn",
+      "status": "attested",
+      "note": "Division commander under Sun Chuanfang, executed by him at Bengbu; the killing his daughter Shi Jianqiao avenged in 1935."
+    },
+    "吉章简": {
+      "en": "Ji Zhangjian",
+      "pinyin": "Jí Zhāngjiǎn",
+      "status": "attested",
+      "note": "Nationalist gendarmerie officer, commander of the Fourth Regiment and leader of Chen's Lixingshe cell; later a general. The source's stray '古章简' is the same man."
+    },
+    "蒋孝先": {
+      "en": "Jiang Xiaoxian",
+      "pinyin": "Jiǎng Xiàoxiān",
+      "status": "provisional",
+      "note": "Commander of the gendarmerie's Third Regiment and a kinsman of Chiang Kai-shek's; killed in the 1936 Xi'an Incident. Romanization mine."
+    },
+    "韩文焕": {
+      "en": "Han Wenhuan",
+      "pinyin": "Hán Wénhuàn",
+      "status": "provisional",
+      "note": "Gendarmerie battalion commander in Chen's Lixingshe cell; romanization mine."
+    },
+    "丁昌": {
+      "en": "Ding Chang",
+      "pinyin": "Dīng Chāng",
+      "status": "provisional",
+      "note": "Gendarmerie Third-Regiment adjutant in Chen's Lixingshe cell; romanization mine."
+    },
+    "宣侠父": {
+      "en": "Xuan Xiafu",
+      "pinyin": "Xuān Xiáfù",
+      "status": "attested",
+      "note": "Communist organizer who, with Ji Hongchang, formed the 1934 Chinese People's Anti-Fascist Grand Alliance at Tianjin."
+    },
+    "南汉宸": {
+      "en": "Nan Hanchen",
+      "pinyin": "Nán Hànchén",
+      "status": "attested",
+      "note": "Communist figure, co-organizer of the 1934 Tianjin alliance; later the founding governor of the People's Bank of China."
     }
   },
   "organizations": {
@@ -359,6 +455,30 @@
       "pinyin": "Zhōngtǒng",
       "status": "decided",
       "note": "The Kuomintang party's civilian secret service (Central Statistics Bureau), grown from the Party Central's Investigation Section and run by the Chen brothers' 'CC Clique'; the rival of Dai Li's military Juntong. See the note in Section 1."
+    },
+    "关东军": {
+      "en": "the Kwantung Army",
+      "pinyin": "Guāndōngjūn",
+      "status": "attested",
+      "note": "The Japanese army stationed in the Northeast, driver of the 1931 Manchurian seizure and the 1933 invasion of Rehe; largely autonomous of Tokyo."
+    },
+    "满洲国": {
+      "en": "Manchukuo",
+      "pinyin": "Mǎnzhōuguó",
+      "status": "attested",
+      "note": "The Japanese puppet state set up in the Northeast in 1932 under the last Qing emperor, Puyi. See the note at 'a second Manchukuo.'"
+    },
+    "北平军分会": {
+      "en": "the Beiping Military Branch",
+      "pinyin": "Běipíng jūn fēnhuì",
+      "status": "decided",
+      "note": "The Beiping Branch of the National Military Affairs Commission (军事委员会北平分会), the top Nationalist military organ in North China, headed at this time by acting deputy chairman He Yingqin."
+    },
+    "中国人民反法西斯大同盟": {
+      "en": "the Chinese People's Anti-Fascist Grand Alliance",
+      "pinyin": "Zhōngguó Rénmín Fǎn-Fǎxīsī Dà Tóngméng",
+      "status": "attested",
+      "note": "The anti-Japanese, Communist-linked front Ji Hongchang helped organize at Tianjin in 1934."
     }
   },
   "places": {
@@ -378,6 +498,30 @@
       "pinyin": "Cháhā'ěr",
       "status": "attested",
       "note": "A former province north-west of Beiping, abolished in 1952."
+    },
+    "东交民巷": {
+      "en": "the Legation Quarter",
+      "pinyin": "Dōngjiāomín Xiàng",
+      "status": "attested",
+      "note": "The walled diplomatic quarter of Beiping, extraterritorial under the 1901 Boxer Protocol. Noted at first appearance in the introductions."
+    },
+    "六国饭店": {
+      "en": "the Grand Hôtel des Wagons-Lits",
+      "pinyin": "Liùguó Fàndiàn",
+      "status": "attested",
+      "note": "六国饭店, the 'Six Nations Hotel' in the Legation Quarter; the site of the Zhang Jingyao killing. Noted at first appearance in Section 1."
+    },
+    "热河": {
+      "en": "Rehe",
+      "pinyin": "Rèhé",
+      "status": "attested",
+      "note": "Rehe (Jehol), the borderland province north-east of Beiping, invaded by the Kwantung Army in 1933. See the note at first appearance."
+    },
+    "韩家潭": {
+      "en": "Hanjiatan",
+      "pinyin": "Hánjiātán",
+      "status": "attested",
+      "note": "A lane in Beiping's Eight Great Hutongs pleasure quarter."
     }
   },
   "terms": {
