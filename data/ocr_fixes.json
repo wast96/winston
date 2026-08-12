@@ -145,5 +145,53 @@
    "page": 57,
    "why": "dance price as printed (0.33 dollar); load-bearing number verified"
   }
+ ],
+ "ch015": [
+  {
+   "wrong": "漠溼黃家花園",
+   "right": "漕涇黃家花園",
+   "page": 59,
+   "why": "place name Caojing; OCR 漕涇->漠溼"
+  },
+  {
+   "wrong": "莘鴻銘",
+   "right": "辜鴻銘",
+   "page": 60,
+   "why": "Gu Hongming; OCR 辜->莘"
+  },
+  {
+   "wrong": "俯伏楊上",
+   "right": "俯伏榻上",
+   "page": 59,
+   "why": "couch 榻; the 2019 reprint PRINTS 楊 (poplar), a misprint for 榻 — crop-verified col.8 p59; rendered to sense"
+  },
+  {
+   "wrong": "三十金蓮",
+   "right": "三寸金蓮",
+   "page": 59,
+   "why": "bound feet 'three-inch golden lotus'; OCR 寸->十"
+  }
+ ],
+ "ch034": [
+  {
+   "wrong": "聞鶯",
+   "right": "聞鶯",
+   "page": 82,
+   "why": "physiognomist name Wenying, crop-confirmed (the blood-case)"
+  },
+  {
+   "wrong": "菱清",
+   "right": "菱清",
+   "page": 83,
+   "why": "physiognomist name Lingqing, crop-confirmed on the flyer"
+  }
+ ],
+ "ch033": [
+  {
+   "wrong": "呵坊街",
+   "right": "磨坊街",
+   "page": 80,
+   "why": "place Mill Street; OCR 磨->呵"
+  }
  ]
 }

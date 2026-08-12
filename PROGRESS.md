@@ -303,3 +303,114 @@ the dance halls.
   (ch043 野雞大學, ch093 野雞) gets its full glossary decision there; here only
   a first-appearance footnote at ch012. 舞女 rendered "dance-girl"
   consistently; glossary decision deferred.
+
+## B03 = ch015-ch034 (2026-08-12)
+
+Scope: ch015 (肉林秘聞) through ch034 (女相士), PDF 59-83 / printed 57-81.
+Twenty essays, the Shanghai demimonde cluster: the courtesan houses and their
+grades, brothel slang and catchphrases, foot-fetish and male-prostitution
+curiosities, hotel and street trades, the flower-smoke opium dens, a
+courtesan beauty-pageant, and the woman physiognomists.
+
+### Pipeline / OCR
+- render 59-83 --dpi 300; ocr_crop 59-83 --left 0.03 --right 0.97 --top 0.13
+  --bottom 0.95 --lang chi_tra_vert --psm 5 as a ROUGH scaffold only.
+  pgrep -c tesseract = 0 after the run (verified twice).
+- As in B01/B02, tesseract on this vertical-Traditional reset is ~85% and too
+  error-dense to trust; EVERY page was eye-read at magnification and data/zh
+  hand-transcribed against the scans. Paragraph structure finalized by hand on
+  the blank-line signal, confirmed at the page seams by the short-line signal.
+- Column-order (vertical RTL) verified by eye on every page.
+- FIGURES: none. Every page 59-83 eyeballed; this text-only demimonde cluster
+  carries NO reprint-added photographs (unlike the portrait-heavy B01/B02
+  pages). Empty figure list recorded as a deliberate decision.
+- Offset confirmed printed = pdf - 2 at every opener (folios 057-081 read off
+  the scans).
+
+### Crop / reading verifications (rule 4 corollary + names/numbers)
+- ch015: 榻 in 俯伏[榻]上 crop-verified on p59 (col. 8): the reprint PRINTS 楊
+  (a poplar), plainly a misprint for 榻 'couch'; rendered to sense ("couch")
+  and flagged here (2019 reset, no 1933 collation source). 辜鴻銘 Gu Hongming,
+  漕涇 Caojing crop-read.
+- Tail-verified against the scans: ch015 close (辜鴻銘/別具風味, p60), ch027
+  close (自願作賤...不多罷, p73), ch031 close (提高其「肉」價, p78), ch033
+  close (特別標幟, p81), ch034 close (快點去領教罷, p83). Faithful.
+- Numbers carried, not noised: all prices/rates rendered in period money
+  (叫局兩元, 夜廂六元/八元, 相金兩元, 一元二角, 小洋二毛銅元十枚, etc.).
+
+### Checks (all green)
+- verify_unit ch015-ch034: parity OK on all 20
+  (3/2/2/2/3/2/2/2/2/2/1/2/4/2/1/3/5/3/5/4 paragraphs); numbers unresolved 0
+  after noise; 93 note anchors resolve (0 unresolved).
+- check_numbers noise added (data/noise.txt, reasons in-file): 北四川路 (四
+  romanized in Sichuan), 十八、九 (elided "eighteen or nineteen"), 長三 /
+  么二 / 老六 (courtesan-house names with the numeral romanized). REAL
+  quantities all carried in the English.
+- check_align: all 20 within 2.2x of the unit median, no stray pair.
+- check_content (check_config.json): 0 displaced.
+- qc_entities: 0 misses on every unit after fixing ch032 P1 (added "keeper"
+  so 包客's rendering is present in the introducing paragraph).
+- check_structure: parity OK, 93 anchors resolve, heading shape OK.
+- check_apparatus: 0 failures, 0 warnings.
+- Build: qa_epub PASS (200 files, 175 documents, 211 refs/bodies/backlinks
+  ordered); epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings.
+- check_register --ref out/ch001_reading.md: every unit within tolerance
+  (all flagged "little dialogue - noisy": each essay is short, under the
+  ~1200 speech-word bar, exactly as B02's essays were).
+
+### Apparatus
+- Notes: 93 added this batch (book-wide 119-211), numbered by the builder.
+  Dense per the commissioner's standing preference: the house-grade system,
+  brothel jargon and slang glossed at first appearance, classical allusions
+  (金屋藏嬌, 完璧歸趙, 斷袖, 禁臠, 二八, 執牛耳), material/social culture
+  (三寸金蓮 bound feet, 姨太太 concubine, period money), and the author as
+  interested witness. Every real person/institution/event fact-checked; no
+  LLM sources.
+- Glossary: 32 rows added (7 people, 7 places, 2 organizations, 16 terms),
+  merged SECTIONED. 野雞 given its full glossary decision here ("pheasant",
+  decided) per the kickoff; 姨太太 (concubine), 舞女 (dance-girl), 大洋
+  (silver dollar) carried per the settled money/term policy. House-grade
+  terms 長三/么二/堂子/鹹肉莊/花煙間/淌白/煙妓 all decided.
+- FACT-CHECK verdicts recorded IN the notes:
+  * 抽籤禁娼 (ch019): CORROBORATED. The International Settlement's 1920
+    lottery scheme to abolish licensed prostitution (Hershatter,
+    Dangerous Pleasures); it drove the trade unlicensed and into the French
+    Concession, as the author says.
+  * 辜鴻銘 foot-fetish (ch015): CORROBORATED as the standing anecdote (his
+    wife's bound feet his writing "stimulant"; sniffing bound feet).
+  * 花選/花榜 courtesan beauty-elections (ch023): CORROBORATED as a real
+    newspaper-run Shanghai institution from the 1860s-1917; the 1920
+    candy-company version fits the pattern. 永安公司天韻樓 (Wing On roof
+    garden, opened 1918): venue CORROBORATED.
+  * 美麗牌 / 強盜牌 cigarettes (ch026): CORROBORATED. "Beauty" (My Dear,
+    Hwa Ching, 1925) and "Pirate" (BAT's Old Knife) were real brands.
+  * 斷袖 cut-sleeve (ch027): the Emperor Ai / Dong Xian allusion, standard.
+  * UNCORROBORATED / as-reported (honestly flagged in the notes): the
+    企妹 candy company and 電光日報 (ch023); the procurers 薛大塊頭 and
+    寄生姆媽 (ch022); the 聞鶯 女相士 murder-case (ch034, a Shanghai
+    sensation of the early 1930s, no independent record traced).
+  * SOURCE SELF-CENSORSHIP (ch031): the reprint blanks a word as ××
+    ("a colony of the ×× people"); plainly "Japanese" from the 東洋
+    context. Rendered as printed (××), footnoted.
+
+### Reprint / digitization glitches (LISTed per policy)
+- ch015 p59: 楊 printed for 榻 ('couch'); a reprint misprint, rendered to
+  plain sense, footnoted-free (sense unambiguous), logged here.
+
+### NOT re-noted this batch (already placed; cross-referenced instead)
+- 四馬路 / 福州路 Fourth Avenue: full notes at ch003 and ch012; the ch015
+  glossary row cross-refs. 野雞 pheasant: defined at ch012; a glossary row
+  added here, and the house-grade note at ch019 expands the system rather
+  than re-defining the term. 春宮 spring-palace prints: ch012 (related to
+  ch029's 妖精打架, cross-referenced in sense). Money system (dollar / 大洋 /
+  小洋 / 毛 / 角 / 分): ch001 and ch014 notes stand; carried, not re-noted.
+- Deferred to their own later chapters: 阿羊哥 Brother Sheep (full note at
+  ch078); 野雞 standalone (ch043 野雞大學, ch093 野雞).
+
+### Register / voice
+- Held to the frozen ch001 reference. The demimonde material rendered in the
+  newspaperman's quick, worldly, amused register, the author's asides (the
+  foot-sniffing "school of Gu Hongming", the "Milk President" joke, the
+  physiognomist's double-meaning "guaranteed to please you") kept in his
+  editorializing voice. Contemptuous period language on male prostitution
+  (ch027) rendered as printed, terms footnoted neutrally.

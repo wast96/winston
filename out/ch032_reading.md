@@ -1,6 +1,6 @@
 ### The Big-Spending Keepers
 
-There is a set of fleshpots who, for all their rounds of the brothels and the houses, still find the sport falls short of their fill and their satisfaction on the side of the flesh; and so they go the whole way and book a prostitute, licensed or not, to themselves, for a long-standing place to vent their lust. This game is called "keeping."
+There is a set of fleshpots who, for all their rounds of the brothels and the houses, still find the sport falls short of their fill and their satisfaction on the side of the flesh; and so they go the whole way and book a prostitute, licensed or not, to themselves, for a long-standing place to vent their lust. This game is called "keeping," and the man who does it a "keeper."
 
 The keeper's one obligation is that the whole of the woman's monthly upkeep falls upon him; the sum, from a few tens of dollars up to a few hundred, is fixed by no rule, but goes by her looks, fair or plain, and the height or lowness of her standing. Once she is booked, she may form no further connections with other clients: this one forbidden morsel the keeper alone may feast on, and feast on alone.
 

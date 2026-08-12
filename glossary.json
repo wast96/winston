@@ -81,6 +81,48 @@
       "pinyin": "Gu Wuwei",
       "status": "provisional",
       "note": "New-drama actor-manager of the 1910s."
+    },
+    "辜鴻銘": {
+      "en": "Gu Hongming",
+      "pinyin": "Gu Hongming",
+      "status": "attested",
+      "note": "1857-1928, the Penang-born, Western-educated scholar and eccentric who became the most famous conservative apologist for Confucian China; notorious in his own day for defending foot-binding and concubinage."
+    },
+    "薛大塊頭": {
+      "en": "Xue the Big Fellow",
+      "pinyin": "Xue Dakuaitou",
+      "status": "decided",
+      "note": "A nickname (literally 'Xue the big lump'); a noted Shanghai procurer of an earlier day, as the author presents him."
+    },
+    "寄生姆媽": {
+      "en": "Parasite Mama",
+      "pinyin": "Jisheng Mama",
+      "status": "decided",
+      "note": "A demimonde nickname for a procuress: 'parasite' plus the Wu word for mother/madam."
+    },
+    "聞鶯": {
+      "en": "Wenying",
+      "pinyin": "Wenying",
+      "status": "provisional",
+      "note": "A woman physiognomist whose murder was a Shanghai sensation of the early 1930s, as the author reports it."
+    },
+    "菱清": {
+      "en": "Lingqing",
+      "pinyin": "Lingqing",
+      "status": "provisional",
+      "note": "A woman physiognomist, partner of Wenying on the surviving flyer the author describes."
+    },
+    "張桐花": {
+      "en": "Zhang Tonghua",
+      "pinyin": "Zhang Tonghua",
+      "status": "provisional",
+      "note": "Styled Yiming; engaged as director of the 1920 courtesan poll, as the author reports."
+    },
+    "吳書箴": {
+      "en": "Wu Shuzhen",
+      "pinyin": "Wu Shuzhen",
+      "status": "provisional",
+      "note": "Proprietor of the Shanghai tabloid Dianguang Ribao, as the author reports."
     }
   },
   "places": {
@@ -137,6 +179,48 @@
       "pinyin": "Qipan Street",
       "status": "decided",
       "note": "A street near Nanjing Road, famous for its bookshops and publishers."
+    },
+    "四馬路": {
+      "en": "Fourth Avenue",
+      "pinyin": "Simalu",
+      "status": "decided",
+      "note": "The old popular name of Fuzhou Road (see the glossary entry 福州路), the International Settlement's street of publishers, theatres and courtesan houses."
+    },
+    "靜安寺路": {
+      "en": "Bubbling Well Road",
+      "pinyin": "Jing'ansi Road",
+      "status": "attested",
+      "note": "The road running west from the racecourse to the Bubbling Well (Jing'an Temple); now Nanjing West Road."
+    },
+    "北四川路": {
+      "en": "North Sichuan Road",
+      "pinyin": "Bei Sichuan Road",
+      "status": "attested",
+      "note": "A street running north out of the International Settlement into the Hongkou district, with a large Japanese population and, as the author says, many hidden vice-dens."
+    },
+    "霞飛路": {
+      "en": "Avenue Joffre",
+      "pinyin": "Xiafei Road",
+      "status": "attested",
+      "note": "The main avenue of the French Concession, centre of the White Russian emigre quarter; now Huaihai Road."
+    },
+    "靶子路": {
+      "en": "Range Road",
+      "pinyin": "Bazi Road",
+      "status": "attested",
+      "note": "A Hongkou street named for the old rifle range; now Wujin Road."
+    },
+    "漕涇": {
+      "en": "Caojing",
+      "pinyin": "Caojing",
+      "status": "attested",
+      "note": "A market town southwest of the city (now in Jinshan district), a country retreat well outside the settlements."
+    },
+    "三馬路": {
+      "en": "Third Avenue",
+      "pinyin": "Sanmalu",
+      "status": "decided",
+      "note": "Hankou Road, third of the numbered 'Avenues' running back from the Bund; see the note on the avenue-numbering at 'Third Avenue'."
     }
   },
   "organizations": {
@@ -205,6 +289,18 @@
       "pinyin": "Xinwenbao",
       "status": "attested",
       "note": "A major Shanghai commercial daily, rival of the Shenbao."
+    },
+    "永安公司": {
+      "en": "Wing On Company",
+      "pinyin": "Yong'an",
+      "status": "attested",
+      "note": "Wing On, the great Cantonese-owned department store on Nanjing Road (opened 1918), whose roof-garden amusement hall was the Tianyun Tower."
+    },
+    "電光日報": {
+      "en": "Dianguang Ribao",
+      "pinyin": "Dianguang Ribao",
+      "status": "provisional",
+      "note": "The 'Electric Light Daily', a small Shanghai tabloid, as the author reports; no independent record traced."
     }
   },
   "terms": {
@@ -291,6 +387,102 @@
       "pinyin": "haowai",
       "status": "decided",
       "note": "A special one-sheet newspaper edition rushed out to carry breaking news."
+    },
+    "野雞": {
+      "en": "pheasant",
+      "pinyin": "yeji",
+      "status": "decided",
+      "note": "Literally 'wild chicken', the Shanghai term for the lowest, unlicensed street prostitute; see the fuller note at ch012. Their houses were the third grade (see the note on the house-grades)."
+    },
+    "么二": {
+      "en": "yao-er",
+      "pinyin": "yao-er",
+      "status": "decided",
+      "note": "The second grade of courtesan house ('one-two'); see the note on the house-grades at ch019."
+    },
+    "長三": {
+      "en": "changsan",
+      "pinyin": "changsan",
+      "status": "decided",
+      "note": "The first, highest grade of courtesan house ('long three'); see the note on the house-grades at ch019."
+    },
+    "堂子": {
+      "en": "house",
+      "pinyin": "tangzi",
+      "status": "decided",
+      "note": "A courtesan house or brothel; the ordinary Shanghai word."
+    },
+    "鹹肉莊": {
+      "en": "salt-meat house",
+      "pinyin": "xianrou zhuang",
+      "status": "decided",
+      "note": "Literally 'salted-meat house', slang for a cheap brothel; 'salt-meat' (a preserved, second-rate cut) is demimonde slang for a prostitute."
+    },
+    "鹹肉": {
+      "en": "salt-meat",
+      "pinyin": "xianrou",
+      "status": "decided",
+      "note": "'Salted meat', demimonde slang for a prostitute; hence 'Russian salt-meat', 'Korean salt-meat' for foreign prostitutes."
+    },
+    "花煙間": {
+      "en": "flower-smoke room",
+      "pinyin": "huayanjian",
+      "status": "decided",
+      "note": "The lowest grade of brothel, where opium ('smoke') and sex were sold together; see the chapter of that name (ch033)."
+    },
+    "煙妓": {
+      "en": "smoke-girl",
+      "pinyin": "yanji",
+      "status": "decided",
+      "note": "A prostitute of a flower-smoke room, who served opium."
+    },
+    "淌白": {
+      "en": "streetwalker",
+      "pinyin": "tangbai",
+      "status": "decided",
+      "note": "A clandestine, unlicensed prostitute who solicited in the open; a Shanghai term."
+    },
+    "姨太太": {
+      "en": "concubine",
+      "pinyin": "yitaitai",
+      "status": "decided",
+      "note": "A secondary wife; also called a 'little wife' (小老婆)."
+    },
+    "小先生": {
+      "en": "little master",
+      "pinyin": "xiao xiansheng",
+      "status": "decided",
+      "note": "A young apprentice courtesan, not yet deflowered; 'master' (先生) was the honorific for a courtesan of the better houses."
+    },
+    "舞女": {
+      "en": "dance-girl",
+      "pinyin": "wunü",
+      "status": "decided",
+      "note": "A paid dance-hall partner; the rendering settled at ch014."
+    },
+    "大洋": {
+      "en": "silver dollar",
+      "pinyin": "dayang",
+      "status": "decided",
+      "note": "The standard silver dollar (yuan); 大洋鈿 is 'silver-dollar money'. See the money note at ch001."
+    },
+    "白相人": {
+      "en": "hoodlum",
+      "pinyin": "baixiangren",
+      "status": "decided",
+      "note": "Literally 'a man about town / a player'; Shanghai slang for a petty gangster, tout or idler of the streets."
+    },
+    "包客": {
+      "en": "keeper",
+      "pinyin": "baoke",
+      "status": "decided",
+      "note": "A man who 'books' a prostitute for his exclusive use, paying her keep; see the chapter of that name (ch032)."
+    },
+    "三寸金蓮": {
+      "en": "three-inch golden lotus",
+      "pinyin": "sancun jinlian",
+      "status": "decided",
+      "note": "The elegant name for a woman's bound feet, ideally three Chinese inches long."
     }
   }
 }
