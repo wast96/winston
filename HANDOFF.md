@@ -120,6 +120,9 @@ If approved: freeze ch01 as check_register.py --ref, then run Batch B02 = The Re
   (庞桑 / 林桑) under his cover name Pang Jiajun. Kobayashi = 小林大介.
 - Dialogue is unmarked in the source; set it in quotation marks in English.
   Chapter heading = installment number under the part title.
+- COVER: keep the source's original cover (commissioner's instruction, B01).
+  It is data/figs/cover00144.jpeg, reused byte-identical by the builder
+  (verified: same SHA in the built EPUB). Do NOT replace or regenerate it.
 
 ## Open items for the read-through
 
