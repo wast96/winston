@@ -236,7 +236,7 @@ In the meantime he would appraise the women. If some likely one caught his eye, 
 
 But there was no woman to his liking.
 
-(A warrior's daughter, come from Edo—that would do.)
+(A warrior's daughter, come from Edo; that would do.)
 
 {j} —and Toshizō walked beneath the eave-lamps, and roamed about through the grove of the shrine precincts.
 
@@ -304,7 +304,7 @@ The blade was a splendid piece, its ground raised in a *hijiki* seaweed grain, a
 
 But Kozakura would not so much as look at the blade; she took up the brocade bag, held it to the lamp, and then—
 
-{j} "You—with this person?"
+{j} "You... with this person?"
 
 {j} —made a show of astonishment.
 
