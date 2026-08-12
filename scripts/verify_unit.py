@@ -25,7 +25,7 @@ def body(path):
         s = l.strip()
         if not s or s == '***' or s.startswith('#'):
             continue
-        out.append(re.sub(r'^\{[vdgp]\} ', '', s))
+        out.append(re.sub(r'^\{[vdgpj]\} ', '', s))
     return out
 
 

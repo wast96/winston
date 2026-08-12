@@ -173,7 +173,7 @@ def main():
         nbreak = 0
         bset = set(breaks)
         for n, line in enumerate(body, 1):
-            txt = re.sub(r'^\{[vdgp]\} ', '', line.strip())
+            txt = re.sub(r'^\{[vdgpj]\} ', '', line.strip())
             if n in vignette:
                 txt = '{v} ' + txt
             elif n in dateline:

@@ -49,6 +49,14 @@ first, rebuild, and re-present before freezing the reference.
 - data/noise.txt (B01): Japanese name/idiom numeral rules appended (歳三, 彦五郎,
   喜六, 六社, 八王子, 百姓, 二重). Do not delete; each is a name/idiom, not a
   real quantity. Add more as later chapters introduce numbered names.
+- DISPLAY JOIN MARKER `{j}` (B01, whole-book convention): a reading line
+  prefixed `{j} ` is merged onto the preceding display paragraph at BUILD time
+  (build_reading_epub.py `collapsed()`, em-dash aware), so a quotation the
+  source sets as its own paragraph reads inline with its lead-in and
+  attribution, English-fashion. The reading file keeps one line per source
+  paragraph, so parity/number/entity checks are untouched. USE `{j}` in every
+  chapter to run short quotations inline; keep a back-and-forth exchange as
+  separate paragraphs (one per speaker turn). All parity checks strip `{j}`.
 
 ## Voice sheets (one per major character, written at first appearance)
 

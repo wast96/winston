@@ -122,6 +122,26 @@ ch01 body.
   喜六, 六社, 八王子, 百姓, 二重), each commented. Without them the check flagged
   the 三 in 歳三 on ~60 paragraphs, etc. No real quantity was noised.
 
+### Voice-gate revision 1: inline dialogue
+
+The commissioner disliked the staccato where a quotation and its framing
+narration fell on separate lines (lead-in / quote / attribution as three
+paragraphs). Cause: the source (a Japanese novel) sets every quotation as its
+own paragraph, and the one-line-per-source-paragraph parity carried that into
+English, where fiction runs a short quote inline with its attribution.
+
+Fix (whole-book, settled here before freezing the reference): a display-only
+join marker. A reading line prefixed `{j} ` is appended to the preceding
+display paragraph at build time (a single space, or none across an em-dash
+seam). The reading file still keeps one line per source paragraph, so every 1:1
+check stays honest; only the built page merges. Tooling:
+- build_reading_epub.py: `collapsed()` merges `{j}` lines, em-dash aware.
+- verify_unit / check_structure / check_align / check_content / check_reconcile
+  / apply_format_markers: strip `{j}` alongside `{v}/{d}/{g}/{p}`.
+ch01 now renders 124 display paragraphs from 160 source lines. All checks green,
+qa_epub PASS, epubcheck 0/0 after the change; en.json and the numbers/entities
+are byte-for-byte unchanged (the join is render-only).
+
 ### Known failing test (expected; not book-affecting)
 
 `tests/run_tests.py` reports one failure: "hook stands down on template stub."

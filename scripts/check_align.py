@@ -38,7 +38,7 @@ def paras(path, head_prefix):
         s = l.strip()
         if not s or s == '***' or s.startswith(head_prefix):
             continue
-        out.append(re.sub(r'^\{[vdgp]\} ', '', s))
+        out.append(re.sub(r'^\{[vdgpj]\} ', '', s))
     return out
 
 

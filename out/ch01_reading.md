@@ -2,13 +2,13 @@
 
 When Kondō Isami, commander of the Shinsengumi, was alone with his vice-commander, Hijikata Toshizō, in a place where no one else could hear, he would say,
 
-"Toshi,"
+{j} "Toshi,"
 
-or so the story goes. And when the two of them alone were weighing whether or not to cut a man down,
+{j} or so the story goes. And when the two of them alone were weighing whether or not to cut a man down,
 
-"What're we gonna do about that bastard?"
+{j} "What're we gonna do about that bastard?"
 
-—and out would slip, unbidden, the country speech of Bushū Tama, where the two had been born. Kondō came from Kamiishiwara, Toshizō from Ishida village; both were hamlets along the Kōshū Highway, not three ri apart. Come the start of summer, it was farm country where every thicket, every last clump of grass, turned rank with the smell of vipers.
+{j} —and out would slip, unbidden, the country speech of Bushū Tama, where the two had been born. Kondō came from Kamiishiwara, Toshizō from Ishida village; both were hamlets along the Kōshū Highway, not three ri apart. Come the start of summer, it was farm country where every thicket, every last clump of grass, turned rank with the smell of vipers.
 
 Now, then—about this "Toshi."
 
@@ -32,27 +32,27 @@ Speaking of dandyism, his topknot was of an odd cut. A farmer's son ought to hav
 
 About this outlandish topknot,
 
-"Know your station,"
+{j} "Know your station,"
 
-the village headman, Satō Hikogorō, had once scolded him; but Toshizō only lowered his eyes, a smile playing about his mouth.
+{j} the village headman, Satō Hikogorō, had once scolded him; but Toshizō only lowered his eyes, a smile playing about his mouth.
 
 "Ah, well—I'll be a samurai one of these days,"
 
-he said.
+{j} he said.
 
 He never did change the topknot after that; he only took to wrapping his head in the dark blue cloth. And so in the village they jibed,
 
-"Toshi's let-off topknot,"
+{j} "Toshi's let-off topknot,"
 
-—meaning this: the Hijikata house and the Satō house were kin, and because they were kin the headman let the oddity pass.
+{j} —meaning this: the Hijikata house and the Satō house were kin, and because they were kin the headman let the oddity pass.
 
 But more than the wrapped cloth, it was the eyes shining beneath it that marked the man. Large, double-lidded, long at the corners—eyes the women made a fuss over, calling them cool.
 
 The men of the village, though, would say,
 
-"That Toshi—there's no telling what those eyes of his'll get up to,"
+{j} "That Toshi—there's no telling what those eyes of his'll get up to,"
 
-so it was said.
+{j} so it was said.
 
 And truly, there was no telling what the man might do.
 
@@ -60,9 +60,9 @@ Even now, for all that he walked the highway in nothing but a yukata, underneath
 
 As he came out at the edge of the post-town, an acquaintance heading home from the fields called to him,
 
-"Toshi—where you off to?"
+{j} "Toshi—where you off to?"
 
-but he held his tongue.
+{j} but he held his tongue.
 
 He could hardly say he was going to force himself on a woman.
 
@@ -88,7 +88,7 @@ For frightening men, rather than vipers, this served very well.
 
 In those parts they had a name for Toshizō, spoken behind his back—
 
-"the *baragaki* of Ishida village."
+{j} "the *baragaki* of Ishida village."
 
 The word is written *bara-gaki*, "thorn-hedge"—the thorn that pricks you at a touch. It was cant for a rough, a hooligan; and since even now, in the country around Kōbe, they call a delinquent youth a *baraketsu*, it may be that in those days the slang was current across the provinces.
 
@@ -102,27 +102,27 @@ It was, in a manner of speaking, a night market of women.
 
 Toshizō walked about, appraising the women. Now and then he passed girls or wives from his own village, and one or another would pluck at his sleeve from the far side, but—
 
-"Stop that,"
+{j} "Stop that,"
 
-he would give her a fierce look. Toshizō had a curious streak of shame in him, and had never once lain with a woman of his own village; in one's own village the thing came out sooner or later. And so,
+{j} he would give her a fierce look. Toshizō had a curious streak of shame in him, and had never once lain with a woman of his own village; in one's own village the thing came out sooner or later. And so,
 
-"Toshi keeps himself to himself,"
+{j} "Toshi keeps himself to himself,"
 
-there was even such a reputation of him. Toshizō dreaded, to an extreme degree, being made the talk of the village over an affair.
+{j} there was even such a reputation of him. Toshizō dreaded, to an extreme degree, being made the talk of the village over an affair.
 
 There was no reason for it.
 
 A kind of quirk, no doubt. And so,
 
-"Toshi's a cat,"
+{j} "Toshi's a cat,"
 
-some said as well. A dog, true enough, is blatant, but a cat never shows its couplings. And come to think of it, in more than that one respect Toshizō resembled this fierce, unbiddable night-prowler of a beast.
+{j} some said as well. A dog, true enough, is blatant, but a cat never shows its couplings. And come to think of it, in more than that one respect Toshizō resembled this fierce, unbiddable night-prowler of a beast.
 
 There was, in fact, a reason Toshizō had no wish to lie with the women of his village: a dirt-farmer's woman roused no desire in him whatever.
 
 (A woman is her rank.)
 
-—so he believed. Not beauty, nor the lack of it. This was something like an article of faith with Toshizō.
+{j} —so he believed. Not beauty, nor the lack of it. This was something like an article of faith with Toshizō.
 
 Toward a woman of higher station than his own he felt an allurement that set him trembling. Few men, surely, are made to desire in just this fashion.
 
@@ -130,9 +130,9 @@ It was so, for one, when this man had his way with a certain unmarried girl the 
 
 The woman was the daughter of a great Shinshū temple in Hachiōji, and by the custom of that sect the daughter was addressed by its parishioners as—
 
-"the young lady."
+{j} "the young lady."
 
-That was all Toshizō heard, and before he had so much as set eyes on the girl he wanted to bed her.
+{j} That was all Toshizō heard, and before he had so much as set eyes on the girl he wanted to bed her.
 
 To get at her, Toshizō went to the trouble of lodging several days in Hachiōji, two ri off.
 
@@ -148,9 +148,9 @@ Peddling this family remedy, the Ishida Powder, Toshizō tramped not only throug
 
 Kajikawa Keiji, for one—a master of the Shintō Munen-ryū who kept a dōjō in Sakuramachi in Kōfu, where Toshizō in those days often extended his rounds and lodged—heard, later, the rumors of the Shinsengumi in Kyoto and said,
 
-"Hijikata Toshizō—that Bushū medicine seller? Yes, a man like that would do as much,"
+{j} "Hijikata Toshizō—that Bushū medicine seller? Yes, a man like that would do as much,"
 
-or so it is told.
+{j} or so it is told.
 
 It was the convenience of his medicine-selling that had let him worm his way into the Shinshū temple at Hachiōji.
 
@@ -160,7 +160,7 @@ The abbot took a liking to Toshizō.
 
 "Put up in the temple shed, why don't you, and sell your wares about the neighborhood a few days,"
 
-he offered. Toshizō did not catch sight of the daughter, but through the daylight hours he studied the temple's buildings and grounds in detail, and learned that the girl's room was a small *sukiya*-style chamber the temple called the guest hall.
+{j} he offered. Toshizō did not catch sight of the daughter, but through the daylight hours he studied the temple's buildings and grounds in detail, and learned that the girl's room was a small *sukiya*-style chamber the temple called the guest hall.
 
 The next day he saw her for the first time. Meaning, perhaps, to feed the fish, she sat at the edge of the garden pond, bathing in the morning sun, when she noticed Toshizō passing and raised her face.
 
@@ -184,9 +184,9 @@ For all that he liked a woman of high station, this man had no taste for lowerin
 
 He only stepped two or three paces nearer and said,
 
-"Before long,"
+{j} "Before long,"
 
-and that was all.
+{j} and that was all.
 
 Before long—to do what?
 
@@ -212,17 +212,17 @@ What surprised Toshizō, though, was that the girl did not cry out. Beyond holdi
 
 —Before long.
 
-The girl must already have understood what Toshizō had meant by it. If anything, she may have been secretly hoping that this good-looking young traveler would come stealing to her. For a young man to court a girl by night was no rare event in that country.
+{j} The girl must already have understood what Toshizō had meant by it. If anything, she may have been secretly hoping that this good-looking young traveler would come stealing to her. For a young man to court a girl by night was no rare event in that country.
 
 Seeing the girl's unexpected composure,
 
-(So this is the young lady?)
+{j} (So this is the young lady?)
 
-it was Toshizō who felt let down. And the next day, when he saw her half-buried in the mulberry field that spread behind the temple, in field clothes, picking mulberry leaves, his disappointment only deepened.
+{j} it was Toshizō who felt let down. And the next day, when he saw her half-buried in the mulberry field that spread behind the temple, in field clothes, picking mulberry leaves, his disappointment only deepened.
 
 (This is not it.)
 
-—for she was not the girl he had imagined. Girls in field clothes gone rank with the smell of mulberry there were in his own village too; he need not have come all the way out to Hachiōji. That evening the man set out from Hachiōji, and after that never once called at the Senjubō again.
+{j} —for she was not the girl he had imagined. Girls in field clothes gone rank with the smell of mulberry there were in his own village too; he need not have come all the way out to Hachiōji. That evening the man set out from Hachiōji, and after that never once called at the Senjubō again.
 
 It is a little unhinged; but the episode is proof of how strong his longing was for a woman of noble station.
 
@@ -238,7 +238,7 @@ But there was no woman to his liking.
 
 (A warrior's daughter, come from Edo—that would do.)
 
-—and Toshizō walked beneath the eave-lamps, and roamed about through the grove of the shrine precincts.
+{j} —and Toshizō walked beneath the eave-lamps, and roamed about through the grove of the shrine precincts.
 
 (None to be found?)
 
@@ -270,7 +270,7 @@ Groping over her dress, he found it four robes layered hiyoku-fashion with a cha
 
 "You—who are you?"
 
-At last he broke the prohibition, and whispered it.
+{j} At last he broke the prohibition, and whispered it.
 
 But the woman—believing, perhaps, that this was a sacred rite—shook her head in silence.
 
@@ -298,15 +298,15 @@ When the rites had ended and day was beginning to break, Toshizō had stolen int
 
 "Here's the thing,"
 
-he said, and showed her the dagger.
+{j} he said, and showed her the dagger.
 
 The blade was a splendid piece, its ground raised in a *hijiki* seaweed grain, and the signature read Norishige. If it was the Etchū Norishige, there were but a handful of them in all the world.
 
 But Kozakura would not so much as look at the blade; she took up the brocade bag, held it to the lamp, and then—
 
-"You—with this person?"
+{j} "You—with this person?"
 
-—made a show of astonishment.
+{j} —made a show of astonishment.
 
 "You really lay with her?"
 
@@ -314,7 +314,7 @@ But Kozakura would not so much as look at the blade; she took up the brocade bag
 
 "Do you know this crest?"
 
-—and Kozakura pinched up and held out the crest of a five-leaf chrysanthemum, worked in gold thread on red brocade.
+{j} —and Kozakura pinched up and held out the crest of a five-leaf chrysanthemum, worked in gold thread on red brocade.
 
 "Never seen it."
 

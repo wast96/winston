@@ -81,7 +81,7 @@ def paragraphs(src_path, tgt_path):
     # Scene-break markers ('***' alone) are layout, not paragraphs, and the
     # set-off prefixes {v}/{d}/{g}/{p} are stripped, so the reading file lines
     # up one-to-one with the source (matching verify_unit / check_structure).
-    tgt = [re.sub(r'^\{[vdgp]\} ', '', l.strip()) for l in open(tgt_path)
+    tgt = [re.sub(r'^\{[vdgpj]\} ', '', l.strip()) for l in open(tgt_path)
            if l.strip() and l.strip() != "***"
            and not l.strip().startswith("#")]
     return src, tgt

@@ -38,6 +38,12 @@ non-blank line is a paragraph, except for the set-off markers:
   {d}    line prefix: a dateline/place line -- centered small caps.
   {g}    line prefix: the source's own gloss block at chapter end.
   {p}    line prefix: verse -- indented, no first-line indent.
+  {j}    line prefix: DISPLAY JOIN -- this paragraph is appended to the
+         preceding display paragraph (a single space, or none across an
+         em-dash seam), so a quotation the source sets as its own paragraph
+         reads inline with its lead-in and attribution, English-fashion. The
+         reading file keeps one line per source paragraph (parity intact); the
+         join is a render-only merge. The parity/content checks strip it.
 
 Optional back matter (a colophon) is rendered when back_matter.json supplies one;
 translator's note text can be supplied via book.json's "translator_note" field.
@@ -317,7 +323,42 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
     def annotate(txt):
         return insert_source_notes(
             insert_notes(txt, notes, counter, doc), snotes, doc)
-    for raw in open(md_path):
+
+    def collapsed(path):
+        """Merge display paragraphs joined with the '{j} ' marker.
+
+        The source (a Japanese novel) sets every quotation as its own
+        paragraph; the reading file keeps that one-line-per-source-paragraph
+        parity (so every 1:1 check stays honest), but a line prefixed '{j} '
+        is a DISPLAY join: its text is appended, with a single space, to the
+        preceding display paragraph, so a short quotation runs inline with its
+        lead-in and attribution the way English fiction sets it. The marker is
+        stripped by the parity/content checks exactly like {v}/{d}/{g}/{p}, so
+        joining changes only how the built page reads, never the paragraph
+        count the checks see."""
+        lines = []
+        for raw in open(path):
+            s = raw.rstrip("\n")
+            if s.strip().startswith("{j} "):
+                cont = s.strip()[4:]
+                while lines and lines[-1].strip() == "":
+                    lines.pop()
+                if lines and lines[-1].strip():
+                    prev = lines[-1].rstrip()
+                    # A quotation's attribution often reads as an em-dash
+                    # aside ("...bastard?'—and out would slip"). Join without a
+                    # space when an em-dash sits on either side of the seam, so
+                    # it stays an unspaced em-dash; otherwise a single space.
+                    sep = "" if (prev.endswith("—")
+                                 or cont.lstrip().startswith("—")) else " "
+                    lines[-1] = prev + sep + cont
+                else:
+                    lines.append(cont)
+            else:
+                lines.append(s)
+        return lines
+
+    for raw in collapsed(md_path):
         line = raw.strip()
         if not line:
             continue
