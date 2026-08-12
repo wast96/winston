@@ -851,3 +851,166 @@ only (base form, longer renderings contain it); 二条→Nijō as the base (not 
 - **Tsuzura Jūzō:** the reflective strategist again; sees through his own heart (he went
   to "nail" Kohagi's scheme but really went to see her), and grows "shabby by the moment"
   in his own eyes. The rooftop-of-the-Jurakudai duel he sets is pure ninja theatre.
+
+## Batch B07 — ch07 聚楽 / Juraku (PDF/printed 207-236, offset 0)
+
+**Status: complete.** 30 pages, 280 source paragraphs, ~7.0k English words, 5 new
+notes (book total 60). All checks green (details below). ch01 is the frozen
+register reference; ch07 measured against it at 0.99x (contractions living, not
+stilted).
+
+The chapter, in three movements. (1) The Jurakudai by night: Jūzō infiltrates the
+moated palace (leather water-spider, shinobi rake), marvels at its Hōrai-like
+beauty, and keeps a rooftop rendezvous with Kazama Gohei. Gohei, now Maeda Gen'i's
+spy-catcher at 200 koku, will not be turned back to the rappa life; he lets Jūzō
+pass "this once" but vows to hunt him from tomorrow, then fires a tea-pavilion as
+a diversion (and kills several guards). By Iga's law Jūzō should cut him down;
+he cannot. (2) The town: Jūzō walks Shijō, re-meets the spared Kumobei (from ch02)
+and sets him as an ear at the Iseya; the street rumours (Mōri/Chōsokabe/Tokugawa/
+Hosokawa/Hidetsugu behind the fire; the real one: Konishi Yukinaga's discontent
+over the Korea war he must lead) confirm the anti-Toyotomi feeling Kuroami's
+rappa are sowing. (3) Komatsudani: Jūzō visits Kohagi to force the truth of who
+she serves; she confesses she wanted "to see the colour of his blood," watched
+the Watanabe duel, offers herself; he means to kill her, cannot, kicks her down,
+falls into "a fierce rush of love," and in anger at his own weakness drives his
+blade through the fat of her right thigh — pinning her, sparing her — and vanishes.
+
+### Tail verified against the scan (rule 4)
+ch07's final paragraphs run onto folio 237: 同時に、おのれの不覚への／怒りが、重蔵の
+右手をつかがしらに逆手にもちかえせしめた。刀は…女の右股のつけ根の脂肪を突き通した。
+鋩子が畳を縫った。女は声もたてなかった。重蔵は刀を捨てて、寮から消えた。 Rendered
+faithfully as the closing three paragraphs (no invented bridging text). Folio 237
+was rendered and read: ch07 ends there; the ch08 opener 京の盗賊 / The Thief of the
+Capital begins lower on 237 with 真葛ヶ原の萩の花に露がおりた。 — **B08 must NOT
+re-translate that spillover.** The top of folio 207 is ch06's tail (慧… spared),
+already placed in B06 and not re-translated here; ch07's body begins after the
+聚楽 title with 聚楽第は、京の内野にある。
+
+### Pipeline / engineering
+- Rendered 207-237 (237 for the tail) at 300 dpi; `ocr_crop.py` with the standing
+  crop (L 0.035 R 0.965 T 0.075 B 0.955), `jpn_vert --psm 5`, `--no-furniture-strip`;
+  second read via `ocr_dual.py`. `pgrep -c tesseract` == 0 after each run. No
+  scripts changed.
+- Translated by reading the rendered page images directly; `data/zh/ch07.txt` is
+  the hand-corrected, paragraph-aligned transcription (parity + crop-verification
+  surface). Force-added (data/zh gitignored). `assemble.py` used only as a coverage
+  cross-check (it welds paragraphs as always) — it caught one paragraph the
+  page-level read had compressed (濠のふちからしずかに身を水中に没した。 on folio 209),
+  which was restored.
+- **Crop-verified** off the page image / furigana (6x PyMuPDF clips): 宇土二十四万石
+  (Uto, 240,000 koku), 朝鮮王宣祖（せんそ）の母親平（へい） (King Sŏnjo / "mother Hei"),
+  天竺 (Tenjiku), the middle of folio 218 (a suspected duplicated しかし line — only ONE
+  present), the left of folio 222 (陽除けのはずの笠…) and 228 (the Watanabe re-meeting
+  order). All numbers/names confirmed.
+- **Figures:** none. `find_figures.py 207 236` returned nothing and every page was
+  eyeballed for line art; ch07 is text-only (as ch01-ch06). Empty figure list
+  recorded as a deliberate decision (figures.json stays {}).
+
+### Checks run (all green)
+- **Parity:** 280 | 280 (`check_structure --pairs`, `verify_unit`).
+- **Numbers:** `verify_unit` / `check_numbers` 0 unresolved over 280 pairs. New
+  `data/noise.txt` (ch07 block): 弥九郎 (Yakurō, the 九 a name), 三和土 (tataki
+  packed-earth floor, the 三 part of the word). Reworded one line so the parser
+  reads the carried 300 ("swells to three hundred", not a bare "three"). Every real
+  quantity carried: 二百石/三百石/千石/二千石/万石, 二十四万石, 二丈, 二十人, 数丁/数間/
+  数尺, 九年/十年, 半刻/小半刻.
+- **Entities:** `qc_entities` 0 misses (census: 重蔵 x103, 五平 x31, 小萩 x22, 乱波 x20,
+  伊賀 x11, 朝鮮 x10, 関白 x10, 黒阿弥 x9, 聚楽第 x8, 秀吉 x7). Named the character in two
+  pronoun-only paragraphs (Kazama Gohei's scent; Jūzō's will). `check_content` OK
+  across all seven units (ch07 208 name occurrences, 0 displaced).
+- **Alignment:** `check_align` median ratio 10.48; 19 pairs out of band, all short
+  dialogue / one-line utterances (high-ratio) or 3-4 char lines like "Jūzō?" — no
+  low-ratio drop on a substantial paragraph.
+- **Register:** `check_register --ref out/ch01_reading.md` — **0.99x of the ch01
+  baseline, within tolerance**; contractions living (Gohei/Jūzō/Kumobei dialogue),
+  Kohagi's でございます register kept polite by design, the essayistic asides kept in
+  Shiba's gnomic present.
+- **Apparatus:** `check_apparatus` 0/0; `verify_unit` 5 anchors ok. `qa_epub` PASS
+  (20 documents, 60 refs/bodies/backlinks, 75 pagebreaks); **epubcheck 0/0/0/0**.
+
+### Footnotes — new this batch (5, ch07's own first-appearances)
+1. **Hōrai** (蓬莱 / Penglai) — the mythic isle of the immortals; the tower's shape
+   (anchor "the isle of Hōrai").
+2. **Konishi Yukinaga** (弥九郎 / 小西行長) — the Sakai medicine-merchant's son risen to
+   lord of Uto, who did lead the 1592 Korea vanguard; a Christian daimyō (Agostinho),
+   executed after Sekigahara — cross-referenced to the ch03 Sekigahara note.
+   Corroborated (anchor "Konishi Yukinaga, Settsu-no-kami, lord of Uto").
+3. **Sŏnjo** (朝鮮王宣祖) — the reigning king of Chosŏn Korea; the "mother Hei" league is
+   Shiba's own baseless street-rumour (the narration says so). Presented as false
+   (anchor "the mother of the Korean king Sŏnjo").
+4. **Tenjiku** (天竺) — the old name for India; with Luzon, "to the ends of the earth"
+   (anchor "to Tenjiku and to Luzon").
+5. **The east/Kamigata swordsmanship proverb** (上り音曲、下り兵法) — refinement from the
+   Kyoto region, martial prowess from the east (Azuma/Kantō); ties to the B06 Kashima
+   note (anchor "swordsmanship down from the east").
+
+### NOT re-noted (already placed in ch01-ch06; cross-referenced, not repeated)
+Iga/Kōga, Tenshō/Eiroku dating, the Iga Rebellion, Honnō-ji, Hideyoshi/Nobunaga/
+Ieyasu, Maeda Gen'i and the Kyoto magistracy (奉行/隠密役), Sōkyū and the Sakai
+tea-masters, the Hōin/Ōkurakyō ranks and the Kampaku office, the Jurakudai (noted
+B05 — the ch07 title; the opening's Ōmiya/Jōfuku-ji/Ichijō/Shimochōjamachi bounds
+are self-locating and left un-noted), the Hōkō-ji, the Korea invasion (朝鮮入り/唐入り)
+and Hideyoshi's heirless-ness (Tsurumatsu/Hidetsugu), Konishi Ryūsa (ch03), Sekigahara
+(ch03), the zodiac double-hours (子ノ下刻/丑ノ上刻 carried without a fresh note) and the
+半刻/小半刻 durations, rappa/shinobi, kunoichi, the Kashima/Katori tradition (B06),
+Watanabe Satoru (B06), the Chōsokabe / Sakaimachi (B06), Tōdai-ji & Matsukura Kurando
+& Kumobei (ch02), Iseya Kahei (ch01), Amidagamine/Komatsudani/Bandō (B06), Luzon
+(ch02), the measures (koku/chō/ken/shaku/jō).
+
+### Minor points left unfootnoted (the low-stakes tier)
+一条 (Ichijō, the Jurakudai's north bound) is NOT a glossary key — the same two
+characters are the counter 一条 ("a single [rake]") on folio 209, so a checked row
+would false-flag that paragraph; kept in prose only. 平 (Hei) is likewise NOT a
+glossary key (its single char ⊂ 五平 Gohei / 平城 etc.; the substring-trap guard).
+The leather water-spider / shinobi rake (革水蜘蛛 / 忍び熊手) and "tread the tally of
+castles" (城かず) are the fiction's own ninja furniture — glossary rows, not footnotes
+(STYLE: don't footnote the story's props). "One dog barks at a shadow…" (一犬虚に吠ゆれ
+ば万犬実に鳴く) rendered with its sense; the Chinese proverb left un-noted.
+
+### Renderings — reused unchanged (consulted before romanizing)
+重蔵/葛籠重蔵 Jūzō, 風間五平/五平 Kazama Gohei/Gohei, 黒阿弥 Kuroami, 小萩 Kohagi,
+今井宗久/宗久 Imai Sōkyū/Sōkyū, 木さる Kisaru, 下柘植次郎左衛門 Shimotsuge Jirōzaemon,
+渡辺慧 Watanabe Satoru, 前田玄以 Maeda Gen'i, 雲兵衛 Kumobei, 松倉蔵人 Matsukura Kurando,
+伊勢屋嘉兵衛 Iseya Kahei, 秀吉 Hideyoshi, 家康 Ieyasu, 秀次 Hidetsugu, 小西行長 Konishi
+Yukinaga, 隆佐 Konishi Ryūsa (bare, uncensused), 摂津守 Settsu-no-kami, 大蔵卿 Ōkurakyō,
+法印 Hōin, 関白 Kampaku, 長曾我部 Chōsokabe, 堺町 Sakaimachi, 聚楽第 the Jurakudai,
+方広寺 the Hōkō-ji, 東大寺 Tōdai-ji, 四条 Shijō, 阿弥陀ヶ峰 Amidagamine, 小松谷 Komatsudani,
+坂東 Bandō, 鹿島 Kashima, 呂宋 Luzon, 朝鮮 Korea, くノ一 kunoichi, koku/chō/ken/shaku/jō.
+
+### Renderings — added this batch (glossary.json; 16 rows)
+People (5): 弥九郎 Yakurō (Konishi Yukinaga's common name), 毛利 Mōri, 細川 Hosokawa,
+徳川 Tokugawa (house), 宣祖 Sŏnjo. Places (9): 内野 the Uchino, 大宮 Ōmiya, 浄福寺 the
+Jōfuku-ji, 下長者町 Shimochōjamachi, 天竺 Tenjiku, 宇土 Uto, 粟田 Awata, 高麗 Korea
+(older name), 蓬莱 Hōrai. Terms (2): 革水蜘蛛 leather water-spider, 忍び熊手 shinobi rake.
+Added directly into the sectioned people/places/terms via a byte-preserving JSON
+load/dump (ensure_ascii=False; git diff = insertions only, no reformat of existing
+rows); notes merged via `apparatus_merge.py`. Substring-trap guard held (B05/B06
+lesson): 一条 and 平 deliberately NOT added (see above).
+
+### Voice sheets — updates
+- **Tsuzura Jūzō:** the rappa's solitude at its height on the Jurakudai roof (face
+  to face, alone, with the master of the realm); with Gohei, the old-comrade warmth
+  under the duty to kill (borrows a bantering tone because his heart won't rise to
+  it). With Kohagi the psychological climax of the book so far: goes to force the
+  truth, is disarmed by her, cannot kill her, kicks her down, and — beaten by a
+  "fierce rush of love" and furious at his own weakness — drives the blade through
+  her thigh instead of her life. Terse, blunt (わし); reads the age like a ledger.
+- **Kazama Gohei:** the assured spy-catcher; cold, glib, self-mocking (likens
+  himself to a vanishing star). Will not go back to the rappa life; sets fire to
+  the Juraku as a diversion and kills without hesitation; lets Jūzō pass "this once,"
+  hunting him from tomorrow "to Tenjiku and Luzon." Superior わし/じゃ.
+- **Kuroami:** the practical genin; ござる register, chides gently. Sees the fire's
+  opening at once and moves the rumour-net; "no help for it" as he tucks his master in.
+- **Kohagi:** deepened again. Polite ます/でございます, the smoky half-smile that does not
+  freeze even under the blade; a wet, throaty laugh. Wanted "to see the colour of his
+  blood," watched the Watanabe duel from the shadows, offers herself as a courtesan;
+  under Jūzō's kill-threat she is drunk on her own strange desire, and wins — the
+  point sinks. Her true master still hidden (Sōkyū's agent, a suspected Kōga plant).
+- **Kumobei (雲兵衛):** back from ch02, the timid ex-wakō; clownish, over-grateful,
+  deferential (ございます), begs to attend Jūzō; set as an ear at the Iseya.
+
+### Environment
+- setup.sh installed the Chinese packs only; `tesseract-ocr-jpn` + `-jpn-vert`
+  installed manually (the known setup.sh gap). epubcheck re-fetched to
+  /tmp/epubcheck-5.1.0 (container was recycled). The pre-existing checker-regression
+  FAIL (`hook stands down on template stub`) persists and is unrelated to this book.

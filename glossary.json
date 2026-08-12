@@ -503,6 +503,36 @@
       "pinyin": "Chōsokabe",
       "status": "attested",
       "note": "The Chōsokabe house of Tosa; here the Kyoto mansion (of 長曾我部宮内少輔, Chōsokabe Kunai-no-shōyū) whose back wall Jūzō vaults during the ambush."
+    },
+    "弥九郎": {
+      "en": "Yakurō",
+      "pinyin": "Yakurō",
+      "status": "attested",
+      "note": "The childhood/common name of 小西行長 Konishi Yukinaga, kept in use by the Sakai merchants who had known him from boyhood; here in Kumobei's gossip."
+    },
+    "毛利": {
+      "en": "Mōri",
+      "pinyin": "Mōri",
+      "status": "attested",
+      "note": "The great western house of Mōri; one of the daimyō rumoured to be behind the Jurakudai fire."
+    },
+    "細川": {
+      "en": "Hosokawa",
+      "pinyin": "Hosokawa",
+      "status": "attested",
+      "note": "The Hosokawa house; another named in the same street rumour."
+    },
+    "徳川": {
+      "en": "Tokugawa",
+      "pinyin": "Tokugawa",
+      "status": "attested",
+      "note": "The Tokugawa house (Ieyasu's); named among the rumoured authors of the fire."
+    },
+    "宣祖": {
+      "en": "Sŏnjo",
+      "pinyin": "Senso",
+      "status": "attested",
+      "note": "宣祖 (Korean Sŏnjo, Japanese reading Senso), the reigning king of Chosŏn Korea (r. 1567–1608). The rumour that Yakurō was in league with his 'mother Hei' is Shiba's own baseless street-talk; footnoted."
     }
   },
   "places": {
@@ -1044,6 +1074,60 @@
       "pinyin": "Sakaimachi",
       "status": "attested",
       "note": "A street/quarter of the capital (not the port city of Sakai); one of the crossings watched by Kohagi's rappa."
+    },
+    "内野": {
+      "en": "the Uchino",
+      "pinyin": "Uchino",
+      "status": "attested",
+      "note": "The Uchino, the open ground in the northwest of the capital (the old palace site) on which Hideyoshi raised the Jurakudai."
+    },
+    "大宮": {
+      "en": "Ōmiya",
+      "pinyin": "Ōmiya",
+      "status": "attested",
+      "note": "A north–south avenue of the capital; the eastern bound of the Jurakudai."
+    },
+    "浄福寺": {
+      "en": "the Jōfuku-ji",
+      "pinyin": "Jōfuku-ji",
+      "status": "attested",
+      "note": "A temple giving its name to the street that bounded the Jurakudai on the west."
+    },
+    "下長者町": {
+      "en": "Shimochōjamachi",
+      "pinyin": "Shimochōjamachi",
+      "status": "attested",
+      "note": "A street bounding the Jurakudai on the south; Jūzō approaches by its eastern corner."
+    },
+    "天竺": {
+      "en": "Tenjiku",
+      "pinyin": "Tenjiku",
+      "status": "attested",
+      "note": "Tenjiku, the old Japanese name for India — shorthand for the farthest edge of the known world; footnoted."
+    },
+    "宇土": {
+      "en": "Uto",
+      "pinyin": "Uto",
+      "status": "attested",
+      "note": "Uto, in Higo (modern Kumamoto), Konishi Yukinaga's castle-town and fief."
+    },
+    "粟田": {
+      "en": "Awata",
+      "pinyin": "Awata",
+      "status": "attested",
+      "note": "Awata(guchi), the district at the eastern approach to the capital below Higashiyama; a scholar's academy there is the model for Kohagi's villa."
+    },
+    "高麗": {
+      "en": "Korea",
+      "pinyin": "Kōrai",
+      "status": "attested",
+      "note": "高麗 (Kōrai/Koryŏ), an older name for Korea; used in Jūzō's aside. The standard rendering for 朝鮮 elsewhere is also Korea."
+    },
+    "蓬莱": {
+      "en": "Hōrai",
+      "pinyin": "Hōrai",
+      "status": "attested",
+      "note": "Hōrai (Chinese Penglai), the mythic island-mountain of the immortals; here evoked by the tower's shape. Footnoted."
     }
   },
   "terms": {
@@ -1190,6 +1274,18 @@
       "pinyin": "Kisshōten-nyo",
       "status": "attested",
       "note": "The Buddhist goddess of beauty and good fortune (Sanskrit Lakṣmī / Śrī); a byword for a lovely face. Footnoted at first appearance."
+    },
+    "革水蜘蛛": {
+      "en": "leather water-spider",
+      "pinyin": "kawa-mizugumo",
+      "status": "attested",
+      "note": "A ninja flotation device (mizugumo, 'water-spider'): a deerskin float that turns the wearer into a one-man raft. The fiction's own furniture; described in the text."
+    },
+    "忍び熊手": {
+      "en": "shinobi rake",
+      "pinyin": "shinobi-kumade",
+      "status": "attested",
+      "note": "A collapsible climbing-rake of jointed bamboo on a hemp cord that stiffens into a pole; a ninja tool, described in the text."
     }
   }
 }
