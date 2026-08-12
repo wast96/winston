@@ -1,68 +1,68 @@
 ## 1
 
-After the bullet struck him, Lin Nansheng began to lose consciousness. He did not know that he had left Shanghai lying inside a coffin, nor that the moment the Japanese transport plane touched down at Kai Tak Airport, an ambulance had borne him away with its siren screaming. Only when he woke and saw the Japanese army cap on the head of the doctor standing at his bedside did he suppose he had already been captured; he closed his eyes again and swallowed back the one question he most wanted to ask.
+After the bullet struck him, Lin Nansheng began to lose consciousness. He did not know that he had left Shanghai lying inside a coffin, nor that the moment the Japanese transport plane touched down at Kai Tak Airport, an ambulance had borne him away with its siren screaming. Only when he woke and saw the Japanese army cap on the head of the doctor at his bedside did he suppose he had already been captured; he closed his eyes again and swallowed back the one question he most wanted to ask.
 
-For the whole of the next day Lin Nansheng lay face down on the operating table. Again and again he surfaced from the anesthetic, and again and again he was put back under. Later the Japanese military brought in an English doctor to consult. Having studied the X-rays, the Englishman looked down at the Japanese army surgeon, who stood a good head shorter than he, and said in English, with arrogant assurance, that no one in this world but God had the power to take out that bullet. Then the arrogant Englishman took off his white coat, lifted his pale face, walked to the door of the operating room and pushed it open, and said to the sentry posted outside, still in English, Send me back to the camp.
+For the whole of the next day Lin Nansheng lay face down on the operating table. Again and again he surfaced from the anesthetic, and again and again he was put under. Later the Japanese brought in an English doctor to consult. Having studied the X-rays, the Englishman looked down at the Japanese army surgeon, who stood a good head shorter than he, and said in English, with arrogant assurance, that no one in this world but God had the power to take that bullet out. Then he took off his white coat, lifted his pale face, walked to the door of the operating room and pushed it open, and said to the sentry outside, still in English, "Send me back to the camp."
 
 Only after he was fully conscious did Lin Nansheng learn that the bullet lodged in his spine had also injured his central nervous system.
 
-It will take a man's feeling from him, little by little; and if he is still alive by then, you will become a man who can never feel pain again. The Japanese army surgeon Suzuki Masao said this in stiff English, then let his great head sink and stood erect at the foot of Lin Nansheng's bed, as though in mourning.
+"It will take a man's feeling from him, little by little; and if he's still alive by then, he becomes a man who can never feel pain again." The Japanese army surgeon Suzuki Masao said this in stiff English, then let his great head sink and stood erect at the foot of Lin Nansheng's bed, as though in mourning.
 
-Lin Nansheng said not a word. Day after day he lay on his stomach on the hospital bed like a mute, and even when the wound hurt to the marrow he only clenched his teeth and watched, in silence, the doctors and nurses who came and went from his room. Yet their faces held none of the answers he wanted. Every one of them was so dutiful, so professional, so unfailingly attentive in his care, that he could only bury all his questions deep in his heart.
+Lin Nansheng said not a word. Day after day he lay on his stomach on the hospital bed like a mute, and even when the wound hurt to the marrow he only clenched his teeth and watched, in silence, the doctors and nurses who came and went. Yet their faces held none of the answers he wanted. Every one of them was so dutiful, so professional, so unfailingly gentle in his care, that he could only bury his questions deep.
 
-One day Zuo Qiuming came into the private ward carrying a leather case, a gentle smile on his face, like a traveler arrived from far away. Still Lin Nansheng said nothing, watching him open the case, hang the clothes one by one in the wardrobe, and set out some books on the nightstand. Only after Zuo had drawn up a chair and sat down did Lin look him in the eye and speak for the first time: Where is this?
+One day Zuo Qiuming came into the private ward carrying a leather case, a gentle smile on his face, like a traveler arrived from far away. Still Lin Nansheng said nothing, watching him open the case, hang the clothes one by one in the wardrobe, and set some books on the nightstand. Only after Zuo had drawn up a chair and sat down did Lin look him in the eye and speak, for the first time: "Where is this?"
 
-Hong Kong, Zuo Qiuming said, and added at once, with a smile: the Japanese Imperial Army Hospital.
+"Hong Kong," Zuo Qiuming said, and added at once, with a smile, "the Japanese Imperial Army Hospital."
 
-Lin Nansheng was taken aback, and then he said nothing more, turning his head to look at the clear blue sky beyond the window.
+Lin Nansheng was taken aback, then said nothing more, turning his head to the clear blue sky beyond the window.
 
-Zuo Qiuming had been a classmate of Lin Nansheng's in the special-training class; after graduating he had gone to Guangzhou, and from an ordinary intelligence analyst had risen step by step, until he was now the headquarters' external liaison officer posted to the Hong Kong district. He let out a short breath, then put his mouth to Lin Nansheng's ear and said, Remember, your name now is Pang Jiajun. He drew out an envelope and tucked it under Lin Nansheng's pillow, and went on, Your father is Pang Ran, a Central Committee member in Nanjing.
+Zuo Qiuming had been a classmate of Lin Nansheng's in the special-training class; after graduating he had gone to Guangzhou, and had risen step by step from an ordinary intelligence analyst, until he was now the headquarters' external liaison officer for the Hong Kong district. He let out a short breath, then put his mouth to Lin Nansheng's ear. "Remember," he said, "your name now is Pang Jiajun." He drew out an envelope and tucked it under the pillow, and went on, "Your father is Pang Ran, a Central Committee member in Nanjing."
 
 Lin Nansheng did not speak, and right up until Zuo Qiuming rose to take his leave he never moved his lips again. He only watched him, calm-eyed.
 
 The envelope Zuo Qiuming had tucked under the pillow held a green credential booklet, two lines of gilt stamped across its cover: Secret Service Headquarters of the Special Affairs Committee of the Central Executive Committee of the Chinese Kuomintang.
 
-This was Wang Jingwei's intelligence apparatus. Lin Nansheng had been there once, back in Shanghai, at No. 76 Jessfield Road, where two machine guns were mounted in the pillbox at the gate and everyone who entered had to submit to a search under their muzzles. At that time he had just been transferred from the Chongqing headquarters to the Shanghai station, and his chief work was gathering intelligence and turning officials of the Wang puppet government. Interviewing Ding Mocun in the guise of a Reuters correspondent had been headquarters' way of sounding the ground before it decided to try to turn this notorious traitor.
+This was Wang Jingwei's intelligence apparatus. Lin Nansheng had been there once, back in Shanghai, at No. 76 Jessfield Road, where two machine guns were mounted in the pillbox at the gate and everyone who entered had to submit to a search under their muzzles. He had just been transferred then from the Chongqing headquarters to the Shanghai station, and his chief work was gathering intelligence and turning officials of the Wang puppet government. Interviewing Ding Mocun in the guise of a Reuters correspondent had been headquarters' way of sounding the ground before it decided to try to turn this notorious traitor.
 
-As they shook hands in parting, he had said with a smile, Mr. Ding, none of us wishes to see another affair like the one at the Siberia Fur Store.
+As they shook hands in parting, he had said, with a smile, "Mr. Ding, none of us wants to see another affair like the one at the Siberia Fur Store."
 
-A year before, Ding Mocun had come within an inch of being shot dead by Zhongtong agents on the street outside the Siberia Fur Store. And now, as if nothing whatever had happened, he looked calmly at Lin Nansheng and asked, mildly: Is your boss named Chen?
+A year before, Ding Mocun had come within an inch of being shot dead by Zhongtong agents on the street outside the Siberia Fur Store. And now, as if nothing whatever had happened, he looked calmly at Lin Nansheng and asked, mildly, "Is your boss named Chen?"
 
-Lin Nansheng, still smiling, said, What does it matter whether he is named Chen or named Dai?
+Lin Nansheng, still smiling, said, "What does it matter whether he's named Chen or named Dai?"
 
-Ding Mocun nodded, withdrew his hand, and said, Then give my regards to your boss.
+Ding Mocun nodded, drew back his hand, and said, "Then give my regards to your boss."
 
 Lin Nansheng had just lived through the most heart-stopping moment of his career. Coming out of the gate of No. 76 and walking all the way down the sidewalk to Yuyuan Road, he found that sweat had long since soaked the shirt beneath his suit.
 
-That night, in a suite at the East Asia Hotel, Gu Shenyan poured him a glass of brandy with his own hand and said, smiling, To steady you. Gu Shenyan was Lin Nansheng's superior, and had also been the director of studies in his special-training class. He had made agents of the Party and the state out of countless hot-blooded young men, yet he himself remained always the elegant gentleman: he liked to listen to symphonies, to sing Peking opera and play go, and would sometimes recite Baudelaire aloud in French in his rooms. When he had listened carefully to every word Lin Nansheng said, he stubbed the cigar between his fingers into the ashtray and said, Find a chance and go once more; tell him I want to meet him, the time and the place to be his to choose.
+That night, in a suite at the East Asia Hotel, Gu Shenyan poured him a glass of brandy with his own hand. "To steady you," he said, smiling. Gu Shenyan was Lin Nansheng's superior, and had also been the director of studies in his special-training class. He had made agents of the Party and the state out of countless hot-blooded young men, yet he himself was always the elegant gentleman: he liked to listen to symphonies, to sing Peking opera and play go, and would sometimes recite Baudelaire aloud in French in his rooms. When he had heard out every word Lin Nansheng said, he stubbed the cigar between his fingers into the ashtray. "Find a chance and go once more," he said. "Tell him I want to meet him, and let him choose the time and place."
 
-Lin Nansheng thought a moment and said, He did not hold me today; perhaps that was exactly so as to land you, the big fish.
+Lin Nansheng thought a moment. "He didn't hold me today," he said. "Perhaps that was exactly to land you, the big fish."
 
-Then let him fish, Gu Shenyan said. In our line of work we dance on the point of a knife.
+"Then let him fish," Gu Shenyan said. "In our line of work we dance on the point of a knife."
 
-Not long after Wang Jingwei set up his rival government in Nanjing, his military and political adviser came suddenly to Shanghai; after attending a conference at the Japanese naval command in the city, he was also to appear at a thank-you ball held to raise funds for the Peace Army.
+Not long after Wang Jingwei set up his rival government in Nanjing, his military and political adviser came suddenly to Shanghai; after a conference at the Japanese naval command in the city, he was also to appear at a thank-you ball held to raise funds for the Peace Army.
 
-This is the only chance. That day Gu Shenyan took a photograph from his desk and said, We have waited two years for this. Lin Nansheng knew that the name under which this man was entered on the rolls of the Japanese Army Ministry was Uemura Kiyoshi, and that he also had a Chinese name, Tong Zizhong. On the Juntong's assassination list he stood twenty-first.
+"This is the only chance." That day Gu Shenyan took a photograph from his desk. "We have waited two years for this." Lin Nansheng knew that the name under which this man was entered on the rolls of the Japanese Army Ministry was Uemura Kiyoshi, and that he also had a Chinese name, Tong Zizhong. On the Juntong's assassination list he stood twenty-first.
 
-This should be a job for the field group, Lin Nansheng said, and regretted it the moment the words were out; ever since the Juntong's Shanghai station chief had gone over to the enemy, the operations arm had been all but paralyzed.
+"This should be a job for the field group," Lin Nansheng said, and regretted it the moment the words were out; ever since the Juntong's Shanghai station chief had gone over to the enemy, the operations arm had been all but paralyzed.
 
-He goes back to Nanjing tonight, Gu Shenyan said. We have no time to bring a man over from the field group.
+"He goes back to Nanjing tonight," Gu Shenyan said. "We have no time to bring a man over from the field group."
 
-The trouble is I have never killed anyone.
+"The trouble is, I've never killed anyone."
 
-But you know how it is done. Gu Shenyan rose and went to the window, looked out at the street, and said, slowly and firmly, There are some things we simply have to do.
+"But you know how it's done." Gu Shenyan rose and went to the window, looked out at the street, and said, slowly and firmly, "There are some things we simply have to do."
 
-Lin Nansheng had only half a day to make ready. He went home and ran the bathtub full of hot water, and for two whole hours he soaked himself in it, until night came down; only then did he get out, dry himself, shave clean, and put on evening dress. He drew the curtains, switched on every light in the flat, and stood a while in the middle of the room; as he turned to open the door he took out his key and threw it on the floor. Then he closed the door softly and ran down the stairs without once looking back.
+Lin Nansheng had only half a day to make ready. He went home and ran the bathtub full of hot water, and for two whole hours he soaked in it, until night came down; only then did he get out, dry himself, shave clean, and put on evening dress. He drew the curtains, switched on every light in the flat, and stood a while in the middle of the room; as he turned to open the door he took out his key and threw it on the floor. Then he closed the door softly and ran down the stairs without once looking back.
 
-Only when he reached the Red House did Lin Nansheng find that the person who had come to make contact with him was Miss Lan. She was a socialite famed across Shanghai, her lovely face printed on many a calendar poster; but tonight she was Lin Nansheng's helper, charged with bringing him into the hall, supplying the weapon, and covering his withdrawal. When she had gone over the whole plan with him, she pointed at the steak on the table and said, Eat. Lin Nansheng nodded obediently, and when, knife and fork in hand, he had eaten half of it, she said suddenly, The pan-fried steak and the mushroom soup here are what I love best.
+Only when he reached the Red House did Lin Nansheng find that the one who had come to make contact with him was Miss Lan. She was a socialite famed across Shanghai, her lovely face printed on many a calendar poster; but tonight she was his helper, charged with bringing him into the hall, supplying the weapon, and covering his withdrawal. When she had gone over the whole plan, she pointed at the steak on the table. "Eat." Lin Nansheng nodded obediently, and when, knife and fork in hand, he had eaten half of it, she said suddenly, "The pan-fried steak and the mushroom soup here are what I love best."
 
-Lin Nansheng was taken aback; he raised his eyes to her beautiful ones and found he no longer had any appetite to finish the steak on his plate.
+Lin Nansheng was taken aback; he raised his eyes to her beautiful ones and found he no longer had the appetite to finish the steak on his plate.
 
 The thank-you ball was held in the eighth-floor hall of the Cathay Hotel. It was a gathering of collaborators and pro-Japanese men; the octagonal lobby below was full of plainclothesmen checking invitation cards. They were courteous, and at the same time they searched with care every man and woman who stepped into the elevator.
 
 Tong Zizhong's arrival carried the ball to its height. He began a speech amid a wave of applause; Miss Lan turned and went to the ladies' powder room, and when she came out she slid a pistol into the small of Lin Nansheng's back, then laid her hand over it, like a docile lover, and rested her head lightly against his shoulder.
 
-After the applause had rung out once more, the lights in the ceiling slowly went dark and the music came surging up like a tide. Miss Lan drew out a handkerchief, softly wiped a trace of sweat from Lin Nansheng's temple, and said in his ear, Come.
+After the applause had rung out once more, the ceiling lights slowly went dark and the music came surging up like a tide. Miss Lan drew out a handkerchief, softly wiped a trace of sweat from Lin Nansheng's temple, and said in his ear, "Come."
 
 With that she led Lin Nansheng out onto the dance floor, and the two of them did not exchange another word.
 
@@ -74,16 +74,16 @@ Lin Nansheng flung his pistol away in a panic and, drawing Miss Lan after him, m
 
 Miss Lan slowly drew her hand free, took up a bathrobe and went into the bathroom, and came out with not the least trace of fright left on her face.
 
-Lin Nansheng said, If not for that man, it is I who would surely have died.
+"If not for that man," Lin Nansheng said, "I'd be the one who died."
 
-It would not have been you. Miss Lan shook her head, climbed onto the bed, and wrapped the quilt tight around herself.
+"It wouldn't have been you." Miss Lan shook her head, climbed onto the bed, and wrapped the quilt tight around herself.
 
 To see Lin Nansheng safely away, at the cost of her own life if it came to that, was the last item of Miss Lan's assignment for the night.
 
 Lin Nansheng watched the light in her eyes dim, little by little. That night the Cathay Hotel was in an uproar until dawn, and the two of them, curled together on a single bed, lay likewise sleepless through it. Like all who have passed through life and death together, they had grown close. After the light was out, Miss Lan said in the darkness that she had a son not yet four years old, and that her husband had fallen in the fighting at Xiaguan, in Nanjing.
 
-The next day, when Lin Nansheng went to report, a great many newspapers lay on Gu Shenyan's desk. When he had heard out Lin Nansheng's careful account, Gu rubbed his temples and said, It will have been the Communists.
+The next day, when Lin Nansheng went to report, a great many newspapers lay on Gu Shenyan's desk. When he had heard out Lin Nansheng's careful account, Gu rubbed his temples. "It'll have been the Communists."
 
-Lin Nansheng said, Why not the Zhongtong?
+Lin Nansheng said, "Why not the Zhongtong?"
 
-Gu Shenyan thought a while, picked up a newspaper, and, staring hard at the photograph on it, said, This is not the Zhongtong's way of doing things.
+Gu Shenyan thought a while, picked up a newspaper, and, staring hard at the photograph on it, said, "This isn't the Zhongtong's way of doing things."

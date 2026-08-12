@@ -158,3 +158,23 @@ recur later in the novella). All recurring names/terms carry a glossary row.
   (check_register.py --ref). No register check run this batch by design.
 - Voice: literary contemporary English, restrained third person; dialogue set
   in quotation marks (the source runs it unmarked). Terse exchanges kept terse.
+
+### Voice-gate revision (commissioner feedback, in-place, still pre-freeze)
+
+- Dialogue was not actually in quotation marks in the first pass (an omission,
+  not a choice); every line of dialogue across ch01-ch07 now carries quotes.
+- Register de-stiffened against the shelf's prose contracts (STYLE.md on the
+  claude/the-stealthy-ones and claude/owls-castle branches, read read-only):
+  broke long comma-trains into short declaratives, cut dash-glosses and doubled
+  synonyms, contractions in speech, active verbs. Lin's cool analytical
+  narration kept intact. Names re-anchored once per paragraph per those files'
+  "names and pronouns" rule (pronouns carry the rest), which satisfies
+  qc_entities and check_content while reading far less mechanically than
+  naming every line.
+- Specific fix requested: "and had risen step by step from an ordinary
+  intelligence analyst" (ch01, Zuo Qiuming's line), reordered as asked.
+- All checks re-run green after the revision: parity/numbers/anchors
+  (verify_unit), alignment (check_align, ratios 3.70-4.33), displacement
+  (check_content, all units clean), entity survival (qc_entities, 0 misses),
+  apparatus (0/0). Rebuilt: qa_epub PASS, epubcheck 5.1.0 clean.
+- Cover: source original kept byte-identical (commissioner's instruction).

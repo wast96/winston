@@ -1,115 +1,115 @@
 ## 3
 
-In Shanghai's plum-rain season the air was so damp you could have wrung water from it, but harder to bear was the feeling in a person, as though something were seeping out, little by little, from deep in the bones. After her grave illness Zhu Yizhen looked haggard; she spent her days in Lin Nansheng's flat, and through the windowpane the world in her eyes had shrunk to the two rows of French plane trees along Rue Ratard. In the rain each leaf was a green that wrung the heart. But there was nowhere Zhu Yizhen could go. Lin Nansheng was right: so long as the traitor had not been found out, all she could do was hide herself well. The Japanese military police had sealed every road out of Shanghai, and the agents of No. 76 kept watch day and night at the wharves and landings of the concession. They searched every civilian who meant to leave with the utmost rigor, and scarcely a day passed but some innocent lost his life by it.
+In Shanghai's plum-rain season the air was so wet you could wring water from it. Harder to bear was what it did to a person: the sense of something seeping out, little by little, from deep in the bones. Zhu Yizhen was haggard after her illness. She kept to Lin Nansheng's flat, and through the glass her whole world had shrunk to the two rows of French plane trees along Rue Ratard, every leaf in the rain a green that wrung the heart. But there was nowhere she could go. Lin Nansheng was right: until the traitor was found, all she could do was hide. The Japanese military police had sealed every road out of Shanghai, and the agents of No. 76 watched the wharves and landings of the concession day and night. They searched everyone who meant to leave, and scarcely a day passed but some innocent died for it.
 
-Yet Zhu Yizhen still wished to leave. One evening she put on the cheongsam she had worn when she came, stepped out of the room, and said to Lin Nansheng, I cannot stay here any longer.
+Still Zhu Yizhen wanted to go. One evening she put on the cheongsam she had come in, stepped out of the room, and said to Lin Nansheng, "I can't stay here any longer."
 
-Where can you go? Lin Nansheng said. The moment you step outside you may be taken.
+"Where can you go?" Lin Nansheng said. "The moment you step outside you may be taken."
 
-I am not afraid, Zhu Yizhen said. I have been trained.
+"I'm not afraid," Zhu Yizhen said. "I've been trained."
 
-Once you are taken, your loyalty will be called into question.
+"Once they take you, your loyalty will be doubted."
 
-Our organization is not like yours, Zhu Yizhen said. It would only prove me the more loyal.
+"Our organization isn't like yours," Zhu Yizhen said. "It will only prove me the more loyal."
 
-Even so, there is no need to walk into the net, Lin Nansheng said. To live to no purpose is still better than to die to no purpose.
+"Even so, there's no need to walk into the net," Lin Nansheng said. "To live to no purpose is better than to die to no purpose."
 
-But I cannot live here.
+"But I can't live here."
 
-We are not enemies. Lin Nansheng looked at her and said, At the least we are still friends.
+"We're not enemies." Lin Nansheng looked at her. "At the least we're still friends."
 
-Zhu Yizhen fell silent at once, turned back into the room, shut the door, and did not come out the whole night.
+Zhu Yizhen fell silent at once, turned back into the room, shut the door, and did not come out all night.
 
-A few days later Gu Shenyan called Lin Nansheng to his office and said, coming straight to the point, You have taken a woman in?
+A few days later Gu Shenyan called Lin Nansheng in and came straight to it. "You've taken a woman in?"
 
-Lin Nansheng lowered his head and said, Yes.
+Lin Nansheng lowered his head. "Yes."
 
-She is a Communist intelligence agent.
+"She's a Communist agent."
 
-Still with his head bowed, Lin Nansheng said, Letting her fall into Japanese hands does us no good. And the intelligence she holds is surely of use to us.
+Lin Nansheng kept his head down. "Letting her fall into Japanese hands does us no good. And what she carries is surely of use to us."
 
-She is already a kite with its string cut. Lin Nansheng raised his head and said, without expression, It is my duty to protect her.
+"She's a kite with its string cut already." Lin Nansheng looked up, his face without expression. "It is my duty to protect her."
 
-You are ruining your own future.
+"You're ruining your own future."
 
-I did not enter this trade for the sake of a future alone.
+"I didn't enter this trade for a future alone."
 
-Gu Shenyan was startled, and said, On marriage and love affairs during the war against the enemy, Mr. Dai has laid down clear rules.
+Gu Shenyan was startled. "On love and marriage in time of war, Mr. Dai has laid down clear rules."
 
-Lin Nansheng bowed his head again and said, Yes.
+Lin Nansheng bowed his head again. "Yes."
 
-Gu Shenyan said, You could make her one of our own comrades.
+"You could make her one of us," Gu Shenyan said.
 
-That night Lin Nansheng took Zhu Yizhen away from the flat. Fine rain fell like threads under the streetlamps; they shared one umbrella, like a young married couple out for a walk, Zhu Yizhen's body wrapped in a man's trench coat. They went all the way along Rue Ratard to Avenue Joffre, and there hired a car to the bank of Suzhou Creek. On the far shore lay the Japanese barracks, yet Lin Nansheng never said a word, and Zhu Yizhen never asked one either; she only held his arm and walked a long way along the embankment before they slipped into a car waiting in the dark.
+That night Lin Nansheng took her out of the flat. Fine rain came down like thread under the streetlamps. They shared one umbrella, her body wrapped in a man's trench coat, and looked for all the world like a young married couple out for a walk. They went the length of Rue Ratard to Avenue Joffre, and there hired a car to the bank of Suzhou Creek. The Japanese barracks lay on the far shore. Neither of them said a word; Zhu Yizhen only held his arm, and they walked a long way along the embankment before they slipped into a car waiting in the dark.
 
-The man who escorted them into the Japanese quarter wore a toothbrush mustache; but for one backward glance, he and Lin Nansheng exchanged not a single word from first to last. As the car waited at a checkpoint to be inspected, Lin Nansheng suddenly reached out and drew Zhu Yizhen into his arms, and with his other hand took one of hers and held it, gently and firmly; but Zhu Yizhen heard, all the same, the wild pounding of her own heart.
+The man who took them into the Japanese quarter wore a toothbrush mustache. Apart from one backward glance he and Lin Nansheng did not exchange a word, first to last. As the car waited to be checked at a barrier, Lin Nansheng suddenly drew her into his arms and took one of her hands, holding it gently and firmly. Even so, Zhu Yizhen heard the wild knocking of her own heart.
 
-Not until she was out of the car and watching it drive off did she say, coldly, standing in the rain, So it is true, then — that your people are hand in glove with the Japanese.
+Only when she was out of the car, watching it drive off, did she say it, coldly, standing in the rain. "So it's true, then. Your people are hand in glove with the Japanese."
 
-Lin Nansheng said with a smile, There are traitors among the Chinese, and among the Japanese just the same.
+Lin Nansheng smiled. "There are traitors among the Chinese. Among the Japanese, just the same."
 
-With that he opened the umbrella, and the two of them walked a while longer along Ping'an Li, where the Japanese residents were gathered, until Lin Nansheng brought her into the top-floor garret of a small apartment house. Opening the door, he put the key into Zhu Yizhen's hand and said this was a place he had prepared for himself.
+Lin Nansheng opened the umbrella, and the two of them walked a while longer along Ping'an Li, where the Japanese residents were gathered, until he brought Zhu Yizhen up to the top-floor garret of a small apartment house. He opened the door, put the key in her hand, and said this was a place he had kept for himself.
 
-Then you should not have brought me here, Zhu Yizhen said.
+"Then you shouldn't have brought me here," Zhu Yizhen said.
 
-Lin Nansheng did not answer, only looked at her with calm eyes, looked until neither of them had anything left to say.
+Lin Nansheng did not answer. He only looked at her, calm-eyed, until neither of them had anything left to say.
 
-Zhu Yizhen's landlady was a grey-haired Chinese widow, and at the same time the widow of a Japanese man. Thirty years before, for love, her Japanese lover had cast off wife and children and left his native land to live with her here. They had made their living by medicine. Now the lover had long since become a portrait hung on the wall, but she was not sad; each day, besides lighting three sticks of incense for him and brewing a pot of Tieguanyin, she would sit the whole day long at the embroidery table by the window.
+Zhu Yizhen's landlady was a grey-haired Chinese widow, and the widow, too, of a Japanese man. Thirty years before, for love, he had cast off wife and children and left his own country to live with her here; they had kept themselves by practicing medicine. Now he was long since a portrait on the wall, yet she was not sad. Each day she lit three sticks of incense for him and brewed a pot of Tieguanyin, and then she sat the whole day long at the embroidery table by the window.
 
-The old widow turned all her longing into stitch after stitch upon the silk, and something in the posture of it always made Zhu Yizhen think of her own mother. Her mother had died in the shellfire of the Battle of Shanghai, gone to ashes together with the family's ancestral house. The one wish of her mother's life had been to marry her daughter into a great house, and to dream, by that, of raising up their steadily failing family again.
+All her longing went into the silk, stitch by stitch, and something in the way she bent to it always put Zhu Yizhen in mind of her own mother. Her mother had died in the shellfire of the Battle of Shanghai, gone to ash with the family's old house. One wish had ruled that mother's life: to marry her daughter into a great house, and so to raise their failing family up again.
 
-Zhu Yizhen seemed all at once to fall under the spell of this ancient and intricate craft, and took to studying embroidery each day in the old widow's room, sometimes helping her sew kimono; and at the weekend she would go to the newsstand at the corner and buy that day's Daily News. That was the pledge she and Lin Nansheng had made at parting — that so long as he was still safely alive, he would run the same personal notice in the Daily News every weekend.
+Zhu Yizhen seemed to fall all at once under the spell of the old, painstaking craft. She studied embroidery each day in the widow's room, and sometimes helped her sew kimono; at the weekend she went to the corner newsstand and bought that day's Daily News. That was the pledge she and Lin Nansheng had made at parting: so long as he was safe and alive, he would run the same small notice in the Daily News every weekend.
 
-Beyond this, Zhu Yizhen scarcely set foot outdoors. Time turned her skin paler by the day, but her eyes grew ever more at peace. Yet such days ended all at once when autumn came. On an afternoon of high, clear skies, standing before the newsstand, Zhu Yizhen saw in the Daily News, alongside the familiar notice, one other.
+Beyond that Zhu Yizhen scarcely went out. Time turned her skin paler by the day, but her eyes grew calmer. Then, one autumn afternoon, it ended. Under a high, clear sky, standing at the newsstand, she saw in the Daily News, beside the familiar notice, one other.
 
-It was a line in cipher that only she could read: the organization's summons to her.
+It was a line in cipher only she could read: the organization was calling her in.
 
-The one who met Zhu Yizhen was a middle-aged man in black-framed glasses. Sitting on a bench in Hongkou Park, he said, My name is Pan; you may call me Old Pan.
+The man who met Zhu Yizhen wore black-framed glasses and was past his middle years. He sat on a bench in Hongkou Park. "My name is Pan," he said. "You may call me Old Pan."
 
-Zhu Yizhen thought of the first time she had met Ji Zhongyuan. He had said, My name is Ji; you may call me Old Ji. Zhu Yizhen nodded, and asked him where Old Ji's bones were buried.
+Zhu Yizhen thought of the first time she had met Ji Zhongyuan. My name is Ji, he had said; you may call me Old Ji. She nodded, and asked where Old Ji's bones were buried.
 
-Old Pan was taken aback, and said, A revolutionary is shrouded in a horsehide on the field of battle; he lives forever in our hearts.
+Old Pan was taken aback. "A revolutionary is shrouded in horsehide on the field. He lives forever in our hearts."
 
-Zhu Yizhen lowered her head and began to recount all that had befallen her over these months. But Old Pan raised a hand and stopped her. Zhu Yizhen said, It is right that I give the organization a clear account.
+Zhu Yizhen lowered her head and began to tell him what these months had held. Old Pan raised a hand and stopped her. "It's right that I give the organization a clear account," she said.
 
-You have never once been out of the organization's sight, Old Pan said. That I meet you here is proof enough of the organization's trust in you.
+"You've never once been out of the organization's sight," Old Pan said. "That I meet you here is proof enough of its trust in you."
 
-Then you ought to have made contact with me long ago.
+"Then you should have made contact long ago."
 
-We had first to find the traitor out, Old Pan said. We paid a heavy price for it.
+"We had to find the traitor first," Old Pan said. "We paid dearly for it."
 
-Who is he?
+"Who is he?"
 
-Old Pan sighed and did not answer. The task he set Zhu Yizhen was to restore the machinery of intelligence exchange with the Juntong. At the last he said, This Lin Nansheng is a man worth winning over.
+Old Pan sighed and did not answer. The task he set Zhu Yizhen was to restore the exchange of intelligence with the Juntong. "This Lin Nansheng," he said at the end, "is a man worth winning over."
 
-Zhu Yizhen said nothing, gazing across at the handful of Japanese men and women in kimono on the far side of the lawn.
+Zhu Yizhen said nothing, her eyes on the few Japanese, men and women in kimono, across the lawn.
 
-If you have any difficulty, you may raise it.
+"If anything troubles you, say it."
 
 Zhu Yizhen shook her head and still said nothing.
 
-I know what you are thinking; we must set our sights far, Old Pan said. Sooner or later the Japanese devils will be driven out of China.
+"I know what you're thinking. We have to look far ahead," Old Pan said. "Sooner or later the Japanese will be driven out of China."
 
-Zhu Yizhen turned suddenly to look at him and said, Are you not afraid he will win me over to his side?
+Zhu Yizhen turned to him suddenly. "Aren't you afraid he'll win me over to his side?"
 
-Old Pan laughed and said, The organization trusts you.
+Old Pan laughed. "The organization trusts you."
 
-Zhu Yizhen went back to the old widow's room as if nothing at all had happened. All afternoon she sat at the embroidery table plying the needle, and only at dusk did she rise and go up to her garret, draw the curtains, and lie stiff and straight on the bed, staring wide-eyed and vacant at the dark ridge of the roof.
+Zhu Yizhen went back to the widow's room as if nothing had happened. All afternoon she sat at the embroidery table, plying the needle, and only at dusk did she climb to her garret, draw the curtains, and lie stiff and straight on the bed, staring wide-eyed at the dark ridge of the roof.
 
-Three days later, when she met Lin Nansheng at the DDS Café, a helpless smile crossed his face. We are back at the old place after all, he said.
+Three days later she met Lin Nansheng at the DDS Café. A helpless smile crossed his face. "We're back at the old place after all."
 
-Zhu Yizhen stirred her coffee with the spoon a long while before she said, You have grown thin.
+Zhu Yizhen stirred her coffee a long while before she spoke. "You've grown thin."
 
-Let us begin, Lin Nansheng said.
+"Let's begin," Lin Nansheng said.
 
-Zhu Yizhen nodded, but was seized all at once by a wretchedness she could not put into words. After a hard swallow of coffee she pressed a hand over her mouth and looked out the window.
+Zhu Yizhen nodded, and was seized all at once by a misery she could not name. She swallowed a hard mouthful of coffee, pressed a hand over her mouth, and looked out the window.
 
-As they parted, Zhu Yizhen took the key from her bag and set it on the table. She did not look at Lin Nansheng again, but rose to go; at the door, though, she stopped short, as if she had heard someone call her, and turned her head back.
+As they parted Zhu Yizhen took the key from her bag and laid it on the table. She did not look at Lin Nansheng again, but rose to go; at the door she stopped short, as if someone had called her name, and turned back.
 
-Unhurried, Lin Nansheng came forward, took her hand, and pressed the key into it, saying, Keep it after all; that place is the dark spot beneath the lamp. Zhu Yizhen gave him a glance and still made to push the door open. Lin Nansheng, still holding her hand, opened his mouth but did not know what to say; and so he only smiled and said, Goodbye.
+Unhurried, Lin Nansheng came to her, took her hand, and closed it around the key. "Keep it. That place is the dark spot under the lamp." Zhu Yizhen looked at him and still made to push the door open. He held on to her hand, opened his mouth, found nothing to say, and so only smiled. "Goodbye."
 
-Now Zhu Yizhen went out early and came home late each day, and once a week she met Lin Nansheng; beyond the trading of intelligence they scarcely spoke a needless word. She had grown extraordinarily busy, with no more time to study embroidery in the old widow's room, so she bought herself an embroidery table from a secondhand dealer and set it in the garret, and when the night was deep and still she would bend over it, holding her breath, plying the needle. So intent and self-forgetful was Zhu Yizhen at her embroidery that it seemed there was nothing left in all the world she cared for but the silk stretched taut on that frame. But one night, as if gone mad, embroidering and embroidering, she suddenly caught up a pair of scissors and in a few strokes cut the nearly finished Butterflies in Love with Flowers to shreds.
+Now Zhu Yizhen went out early and came back late, and met Lin Nansheng once a week; beyond the trading of intelligence they hardly wasted a word. She had grown so busy she had no time now for the widow's embroidery lessons, so she bought a frame from a secondhand dealer and set it in the garret. When the night was deep and still she bent over it, holding her breath, plying the needle. She worked so intently, so far outside herself, that nothing in the world seemed left to her but the silk stretched taut on the frame. Then one night, as if gone mad, she caught up a pair of scissors in the middle of it and in a few strokes cut the near-finished Butterflies in Love with Flowers to shreds.
 
-Zhu Yizhen slumped face down on the embroidery table, and when she raised her head again her eyes, in the lamplight, brimmed with tears, though she let out not the least sound of weeping. She rose, splashed cold water on her face, and then, as though nothing had happened, took a broom and swept the floor clean, stretched a fresh length of silk over the frame, laid a pattern out upon it, and bent down to begin tracing the design, little by little.
+Zhu Yizhen slumped face down on the frame, and when she lifted her head her eyes, in the lamplight, were brimming, though she made not the least sound. She got up, splashed cold water on her face, and then, as if nothing had happened, swept the floor clean, stretched a fresh length of silk, laid a pattern over it, and bent to trace the design, little by little.
 
-What Zhu Yizhen embroidered was, once again, that same Butterflies in Love with Flowers.
+What Zhu Yizhen embroidered was, again, that same Butterflies in Love with Flowers.
