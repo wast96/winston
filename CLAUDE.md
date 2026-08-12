@@ -7,6 +7,11 @@ exactly. Keep it as the first thing a fresh session reads. The deeper method
 notes (cost model, register drift, build gates, fact-checking) live in
 `.claude/skills/scanned-book-translation/references/`; the OCR material there
 does not apply here, everything else does. Read them once per project, early.
+Project-specific style decisions accumulate in `STYLE.md` at the repo root
+(seeded by the corrections made at the ch01 voice gate: an em-dash budget and a
+rule against scene-primed idioms). Read `STYLE.md` at the start of every batch,
+and add to it whenever the commissioner corrects a line, recording the class of
+error and the rule that prevents it, not just the one fix.
 
 > Edit the two spots marked **[SET PER PROJECT]** before starting: the branch
 > name (rule 2) and the deliverable filename (rule 1 / `book.json`
