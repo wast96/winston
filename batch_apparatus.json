@@ -1,571 +1,101 @@
 {
-  "glossary": {
-    "people": {
-      "陈恭澍": {
-        "en": "Chen Gongshu",
-        "pinyin": "Chén Gōngshù",
-        "status": "attested",
-        "principal": true,
-        "cast_order": 1,
-        "cast": "The author and narrator. A Juntong operative who ran the Beiping and Tianjin stations in the 1930s, commanded the Shanghai District, directed the 1939 Hanoi attempt on Wang Jingwei, and led a special unit in the 1946–49 civil war."
-      },
-      "戴笠": {
-        "en": "Dai Li",
-        "pinyin": "Dài Lì",
-        "status": "attested",
-        "principal": true,
-        "cast_order": 2,
-        "cast": "Courtesy name Yunong (雨农). Founder and lifelong head of the Juntong, the Nationalist secret service, and Chen's chief; died in a 1946 air crash."
-      },
-      "汪精卫": {
-        "en": "Wang Jingwei",
-        "pinyin": "Wāng Jīngwèi",
-        "status": "attested",
-        "principal": true,
-        "cast_order": 3,
-        "cast": "Founding Nationalist leader who broke with Chongqing in 1938 to seek peace with Japan and headed a Japanese-sponsored government at Nanjing; target of the 1939 Hanoi attempt."
-      },
-      "张敬尧": {
-        "en": "Zhang Jingyao",
-        "pinyin": "Zhāng Jìngyáo",
-        "status": "attested",
-        "note": "1881–1933; Beiyang general and former military governor of Hunan, assassinated in Beiping in 1933."
-      },
-      "孙传芳": {
-        "en": "Sun Chuanfang",
-        "pinyin": "Sūn Chuánfāng",
-        "status": "attested",
-        "note": "1885–1935; Beiyang warlord, later assassinated by Shi Jianqiao."
-      },
-      "施剑翘": {
-        "en": "Shi Jianqiao",
-        "pinyin": "Shī Jiànqiào",
-        "status": "attested",
-        "note": "Avenger who shot Sun Chuanfang dead in 1935; publicly pardoned."
-      },
-      "吉鸿昌": {
-        "en": "Ji Hongchang",
-        "pinyin": "Jí Hóngchāng",
-        "status": "attested",
-        "note": "1895–1934; Northwest Army general, figure in the 1933 Chahar anti-Japanese army; executed by the Nationalists. Honoured as a Communist martyr in the People's Republic."
-      },
-      "冯玉祥": {
-        "en": "Feng Yuxiang",
-        "pinyin": "Féng Yùxiáng",
-        "status": "attested",
-        "note": "1882–1948; the 'Christian General,' a powerful and often-shifting warlord."
-      },
-      "方振武": {
-        "en": "Fang Zhenwu",
-        "pinyin": "Fāng Zhènwǔ",
-        "status": "attested"
-      },
-      "石友三": {
-        "en": "Shi Yousan",
-        "pinyin": "Shí Yǒusān",
-        "status": "attested",
-        "note": "1891–1940; a general notorious for switching sides repeatedly."
-      },
-      "殷汝耕": {
-        "en": "Yin Rugeng",
-        "pinyin": "Yīn Rǔgēng",
-        "status": "attested",
-        "note": "1885–1947; head of the Japanese-sponsored East Hebei regime; executed as a traitor after the war."
-      },
-      "王克敏": {
-        "en": "Wang Kemin",
-        "pinyin": "Wāng Kèmǐn",
-        "status": "attested",
-        "note": "1879–1945; head of the Japanese puppet 'Provisional Government' at Beiping; called 'Blind Wang.'"
-      },
-      "刘绍勷": {
-        "en": "Liu Shaorang",
-        "pinyin": "Liú Shàoráng",
-        "status": "provisional",
-        "note": "The 'Southwest delegate' killed by mistake in the 1934 Tianjin attempt on Ji Hongchang; romanization uncertain."
-      },
-      "陈璧君": {
-        "en": "Chen Bijun",
-        "pinyin": "Chén Bìjūn",
-        "status": "attested",
-        "note": "1891–1959; Wang Jingwei's wife, a forceful political figure; imprisoned after the war."
-      },
-      "曾仲鸣": {
-        "en": "Zeng Zhongming",
-        "pinyin": "Zēng Zhòngmíng",
-        "status": "attested",
-        "note": "1896–1939; Wang Jingwei's close aide, killed at Hanoi in the attack meant for Wang."
-      },
-      "李士群": {
-        "en": "Li Shiqun",
-        "pinyin": "Lǐ Shìqún",
-        "status": "attested",
-        "note": "1905–1943; ex-Communist who ran the Wang regime's secret police at No. 76; poisoned by the Japanese."
-      },
-      "傅筱庵": {
-        "en": "Fu Xiao'an",
-        "pinyin": "Fù Xiǎo'ān",
-        "status": "attested",
-        "note": "1872–1940; banker installed as puppet mayor of Shanghai; assassinated in 1940."
-      },
-      "张啸林": {
-        "en": "Zhang Xiaolin",
-        "pinyin": "Zhāng Xiàolín",
-        "status": "attested",
-        "note": "One of the Green Gang's 'Three Tycoons' of Shanghai; killed in 1940 for collaborating."
-      },
-      "郑介民": {
-        "en": "Zheng Jiemin",
-        "pinyin": "Zhèng Jièmín",
-        "status": "attested",
-        "note": "Senior Nationalist intelligence chief; rose to full general."
-      },
-      "毛人凤": {
-        "en": "Mao Renfeng",
-        "pinyin": "Máo Rénfèng",
-        "status": "attested",
-        "note": "Dai Li's successor as head of the postwar secret service (the Baomiju)."
-      },
-      "毛泽东": {
-        "en": "Mao Zedong",
-        "pinyin": "Máo Zédōng",
-        "status": "attested",
-        "note": "Leader of the Chinese Communist Party; Chen calls him 'the bandit chief Mao' throughout."
-      },
-      "林彪": {
-        "en": "Lin Biao",
-        "pinyin": "Lín Biāo",
-        "status": "attested",
-        "note": "Communist commander whose army took Beiping and Tianjin in 1948–49."
-      },
-      "聂荣臻": {
-        "en": "Nie Rongzhen",
-        "pinyin": "Niè Róngzhēn",
-        "status": "attested",
-        "note": "Communist commander in the North China campaign of 1948–49."
-      },
-      "刘少奇": {
-        "en": "Liu Shaoqi",
-        "pinyin": "Liú Shàoqí",
-        "status": "attested",
-        "note": "1898–1969; PRC head of state, purged and hounded to death in the Cultural Revolution."
-      },
-      "陶铸": {
-        "en": "Tao Zhu",
-        "pinyin": "Táo Zhù",
-        "status": "attested",
-        "note": "Senior Communist official, another victim of the Cultural Revolution."
-      },
-      "唐英杰": {
-        "en": "Tang Yingjie",
-        "pinyin": "Táng Yīngjié",
-        "status": "provisional",
-        "note": "Member of the Hanoi action team; romanization mine."
-      },
-      "余鉴声": {
-        "en": "Yu Jiansheng",
-        "pinyin": "Yú Jiànshēng",
-        "status": "provisional",
-        "note": "Member of the Hanoi action team; romanization mine."
-      },
-      "王鲁翘": {
-        "en": "Wang Luqiao",
-        "pinyin": "Wáng Lǔqiáo",
-        "status": "provisional",
-        "note": "Member of the Hanoi action team; romanization mine."
-      },
-      "郑修元": {
-        "en": "Zheng Xiuyuan",
-        "pinyin": "Zhèng Xiūyuán",
-        "status": "provisional",
-        "note": "Secretary of the Shanghai District headquarters; romanization mine."
-      },
-      "张亚民": {
-        "en": "Zhang Yamin",
-        "pinyin": "Zhāng Yàmín",
-        "status": "provisional",
-        "note": "Wireless operative sent to Shanghai; romanization mine."
-      },
-      "毛万里": {
-        "en": "Mao Wanli",
-        "pinyin": "Máo Wànlǐ",
-        "status": "provisional",
-        "note": "Juntong officer stationed at Yanshan, Jiangxi; romanization mine."
-      },
-      "山本荣治": {
-        "en": "Yamamoto Eiji",
-        "pinyin": "Shānběn Róngzhì",
-        "status": "provisional",
-        "note": "Japanese adviser who shielded Wang Kemin in the 1938 attempt; the Japanese reading is reconstructed from the Chinese characters."
-      },
-      "大冢清": {
-        "en": "Ōtsuka Kiyoshi",
-        "pinyin": "Dàzhǒng Qīng",
-        "status": "provisional",
-        "note": "Former Japanese military-police officer at Nanjing; the Japanese reading is reconstructed."
-      },
-      "中岛信一": {
-        "en": "Nakajima Shin'ichi",
-        "pinyin": "Zhōngdǎo Xìnyī",
-        "status": "provisional",
-        "note": "Japanese Ume Kikan captain who shielded Chen; the Japanese reading is reconstructed."
-      },
-      "冈村": {
-        "en": "Okamura",
-        "pinyin": "Gāngcūn",
-        "status": "provisional",
-        "note": "Japanese Kempeitai Tokkō section chief at Shanghai; the Japanese reading is reconstructed."
-      }
-    },
-    "organizations": {
-      "军统": {
-        "en": "the Juntong",
-        "pinyin": "Jūntǒng",
-        "status": "decided",
-        "note": "Short for the Bureau of Investigation and Statistics of the Military Affairs Commission (军事委员会调查统计局), the Nationalist military secret service under Dai Li; rendered 'the Juntong' throughout. See the note at the third introduction."
-      },
-      "力行社": {
-        "en": "the Lixingshe",
-        "pinyin": "Lìxíngshè",
-        "status": "attested",
-        "note": "The 'Society for Vigorous Practice of the Three Principles of the People' (三民主义力行社), a secret Whampoa-clique organization of 1932, popularly the 'Blue Shirts.'"
-      },
-      "特务处": {
-        "en": "the Special Services Department",
-        "pinyin": "tèwù chù",
-        "status": "decided",
-        "note": "The covert-operations department of the Lixingshe, headed by Dai Li; the operational seed of the Juntong."
-      },
-      "调查统计局": {
-        "en": "the Bureau of Investigation and Statistics",
-        "pinyin": "Diàochá Tǒngjì Jú",
-        "status": "attested",
-        "note": "The Military Affairs Commission bureau (1932) whose Second Department, under Dai Li, grew into the Juntong."
-      },
-      "抗日杀奸团": {
-        "en": "the Anti-Japanese Traitor-Killing Corps",
-        "pinyin": "Kàng-Rì Shājiān Tuán",
-        "status": "decided",
-        "note": "A patriotic assassination group of young people in occupied North China."
-      },
-      "特工总部": {
-        "en": "the Special Operations Headquarters",
-        "pinyin": "tègōng zǒngbù",
-        "status": "decided",
-        "note": "The Wang regime's secret police, known from its address as 'No. 76.'"
-      }
-    },
-    "places": {
-      "北平": {
-        "en": "Beiping",
-        "pinyin": "Běipíng",
-        "status": "attested",
-        "note": "The name of Beijing from 1928 to 1949, after the capital moved to Nanjing."
-      },
-      "天津": {
-        "en": "Tianjin",
-        "pinyin": "Tiānjīn",
-        "status": "attested"
-      },
-      "察哈尔": {
-        "en": "Chahar",
-        "pinyin": "Cháhā'ěr",
-        "status": "attested",
-        "note": "A former province north-west of Beiping, abolished in 1952."
-      }
-    },
-    "terms": {
-      "制裁": {
-        "en": "sanction",
-        "pinyin": "zhìcái",
-        "status": "decided",
-        "note": "The service's euphemism for the targeted killing or execution of an enemy or traitor; kept as the book's own term."
-      },
-      "绥靖": {
-        "en": "pacification",
-        "pinyin": "suíjìng",
-        "status": "decided",
-        "note": "A Nationalist term for the 1946–49 civil war, casting the Communists as rebels to be pacified."
-      }
-    }
-  },
   "notes": {
-    "ch01": [
+    "ch06": [
       {
-        "anchor": "War of Resistance",
-        "note": "The War of Resistance against Japan (1937–45), the Chinese name for the war set off by the Marco Polo Bridge Incident; from the Nationalist standpoint the central struggle of the age. Chen dates the events of his book by it."
+        "anchor": "the Commandant, Mr. Chiang",
+        "note": "'The Commandant' (校长) is Chiang Kai-shek, who as head of the Whampoa Military Academy and its Nanjing successor was addressed by his officers and cadets as 校长 for the rest of his life. Chen uses it, together with 'the Leader' (领袖) and 'the Generalissimo' (委员长, chairman of the Military Affairs Commission), throughout as reverent names for Chiang; 蒋公 is the honorific 'Mr. Chiang.'"
       },
       {
-        "anchor": "secret service work",
-        "note": "Chen's central term is <i>tewu gongzuo</i> (特务工作), the covert operations of the Nationalist secret service: intelligence, sabotage, turning enemy agents, and targeted killing. The word <i>tewu</i> (secret agent) carries an unsavoury ring in Chinese, and his defence of the work is the theme of the third introduction."
+        "anchor": "a Zhongshan tunic",
+        "note": "The 中山装 (<i>Zhongshan zhuang</i>), the high-collared four-pocket tunic named for Sun Yat-sen (Sun Zhongshan) and known in the West as the 'Mao suit' from its later Communist use; in this period it was the plain everyday dress of Nationalist officials and officers."
       },
       {
-        "anchor": "a living witness",
-        "note": "The Chinese is <i>huokou</i> (活口), literally 'a living mouth': the one witness left alive to tell what happened, a phrase with an underworld chill."
+        "anchor": "Central Military Academy Special Research Class",
+        "note": "The 中央军校 (Central Military Academy) was the Nanjing successor, from 1928, to the Whampoa Military Academy; its graduates are the 'academy classmates' who fill this book. The 'Special Research Class' was a small, hand-picked study group under its political department."
       },
       {
-        "anchor": "enrolled among the loyal dead",
-        "note": "Those who died for the state were honoured by having their tablets enshrined in a Martyrs' Shrine (忠烈祠) and by posthumous commendation."
+        "anchor": "several books the Commandant himself had prescribed",
+        "note": "The prescribed works are Neo-Confucian and statecraft classics: the collected works of Lu Xiangshan (Lu Jiuyuan, 1139-1193) and of Wang Yangming (1472-1529), the two great idealist philosophers of the mind; the collected works of Zeng Guofan (posthumous title Wenzheng, 1811-1872), the Qing statesman and general who suppressed the Taiping rebellion; and the military maxims of Qi Jiguang (1528-1588), the Ming general famed for defeating the coastal pirates. The last title is a modern exposition of Sun Yat-sen's Three Principles of the People."
       },
       {
-        "anchor": "the respectful title",
-        "note": "The book's title, <i>Yingxiong wuming</i> (英雄无名), reads literally 'heroes, nameless': the men of the secret service who died unknown, their names in no history."
+        "anchor": "the Gong-Character Mess Hall",
+        "note": "So called because the building's plan had the shape of the character 工 (<i>gong</i>) - an I-shape of two long halls joined by a shorter passage between."
       },
       {
-        "anchor": "planned in five parts",
-        "note": "Chen projected the memoir in five books. Four were completed and are collected here; the fifth, on his own arrest and imprisonment in Shanghai, was never finished. This is the 'five-part plan' referred to later."
-      }
-    ],
-    "ch02": [
-      {
-        "anchor": "Mr. Dai Li",
-        "note": "Dai Li (戴笠, 1897–1946), courtesy name Yunong (雨农), founder and lifelong head of the Nationalist secret service. A Whampoa man, he built the service from the early 1930s until his death in a 1946 air crash; feared and powerful, he is the presiding figure of Chen's story."
+        "anchor": "Zhongzheng",
+        "note": "中正 (Zhongzheng) is Chiang Kai-shek's formal given name, with which he signed official documents; the familiar 'Chiang Kai-shek' is the Cantonese reading of another of his names, 介石 (Jieshi)."
       },
       {
-        "anchor": "from 1932 to 1938",
-        "note": "Chen gives dates by the Republican calendar, which counts from the founding of the Republic in 1912, so that Republican year <i>n</i> is 1911 + <i>n</i> (thus year 21 is 1932). Such dates are converted to the Western year throughout this translation."
+        "anchor": "the first class",
+        "note": "The Whampoa Academy and its successor numbered their graduating classes (期, <i>qi</i>): the first class graduated in 1924, and seniority ran strictly by class, so that a man of an earlier class was an 'elder brother' (老大哥) to those of later ones. Chen was of the fifth class, Dai Li nominally of the sixth."
       },
       {
-        "anchor": "Beiping",
-        "note": "Beiping ('Northern Peace') was the name of Beijing from 1928, when the Nationalists made Nanjing their capital, until 1949; it is called Beiping throughout the book."
+        "anchor": "eighty yuan",
+        "note": "The yuan (元) was the silver dollar, the standard currency of Republican China; forty to eighty yuan was a modest but livable monthly stipend for a junior officer at this time."
       },
       {
-        "anchor": "the Anti-Japanese Traitor-Killing Corps",
-        "note": "The <i>Kang-Ri Shajian Tuan</i> (抗日杀奸团), a group of patriotic young people in occupied North China who assassinated collaborators."
+        "anchor": "Hu Hanmin",
+        "note": "Hu Hanmin (1879-1936), a leading Kuomintang theorist and rival of Chiang Kai-shek; Chiang's detention of him in 1931 touched off a revolt of the southern Guangdong-Guangxi leaders, whose anti-Chiang movement the book here calls a 'New Kuomintang.'"
       },
       {
-        "anchor": "the Luan-Yu guerrillas",
-        "note": "An irregular anti-Japanese force in the Luan River and Shanhaiguan area of eastern Hebei (滦榆游击队)."
+        "anchor": "below, Suzhou and Hangzhou",
+        "note": "From the proverb 上有天堂，下有苏杭, 'Above there is Heaven; below, there are Suzhou and Hangzhou' - the two lower-Yangtze cities long held the fairest and most prosperous places on earth."
       },
       {
-        "anchor": "the Beiping Station",
-        "note": "A Station (站, <i>zhan</i>) was the service's local field office; Chen headed those at Beiping and Tianjin. A larger regional command was a District (区), such as the Shanghai District he later ran."
+        "anchor": "the Honggongci",
+        "note": "洪公祠, a shrine hall to a 'Lord Hong,' which gave its name to the training ground behind it; in Juntong lore the 'Honggongci Training Class' became the legendary cradle of the service's field officers."
       },
       {
-        "anchor": "Zhang Jingyao",
-        "note": "Zhang Jingyao (张敬尧, 1881–1933), a Beiyang-era general and former military governor of Hunan; assassinated in the Beiping Legation Quarter in 1933 for conspiring with the Japanese."
+        "anchor": "the Cheka",
+        "note": "The Cheka (切卡, from the Russian ChK) was the Soviet political police founded in 1917, forerunner of the OGPU, NKVD, and KGB, and a byword for the modern secret service."
       },
       {
-        "anchor": "the Beiyang warlords",
-        "note": "The Beiyang (北洋) clique, the military strongmen who dominated China between Yuan Shikai's death in 1916 and the Nationalist reunification of 1928."
+        "anchor": "the Sandianhui",
+        "note": "Four brotherhoods of the Chinese underworld and secret-society world: the Sandianhui ('Three Dots Society,' a Triad branch) and the Gelaohui ('Elder Brothers Society') of the Yangtze provinces, and the Green Gang (青帮) and Red or Hong Gang (洪帮) - the last the great sworn-brotherhood networks of Republican Shanghai."
       },
       {
-        "anchor": "Legation Quarter",
-        "note": "The walled diplomatic quarter of Beiping, east of Tiananmen, where the foreign legations held extraterritorial rights and Chinese police could not enter."
+        "anchor": "the eyes and ears of the Leader",
+        "note": "领袖耳目、兄弟手足 - a couplet Dai Li later composed as the motto of his service: its members were to be the eyes and ears of the Leader (Chiang) and hands and feet to one another."
       },
       {
-        "anchor": "Sun Chuanfang",
-        "note": "Sun Chuanfang (孙传芳, 1885–1935), a major Beiyang warlord styled commander-in-chief of five provinces; broken by the Northern Expedition and later assassinated."
+        "anchor": "Zhongtong",
+        "note": "The 中统 (Central Statistics Bureau of the Kuomintang's Organization Department) was the party's civilian secret service, grown from this Investigation Section and run by the Chen brothers' 'CC Clique'; it was the lifelong rival of Dai Li's military 'Juntong.'"
       },
       {
-        "anchor": "Shi Jianqiao",
-        "note": "Shi Jianqiao (施剑翘) shot Sun Chuanfang dead in a Tianjin Buddhist hall in 1935 to avenge her father, whom Sun had executed; the celebrated case ended in a public pardon."
+        "anchor": "the \"gezi\"",
+        "note": "阁子, Beiping dialect for the neighborhood police box or substation; literally a 'little pavilion.'"
       },
       {
-        "anchor": "Ji Hongchang",
-        "note": "Ji Hongchang (吉鸿昌, 1895–1934), a former Northwest Army general who joined the 1933 Chahar anti-Japanese army; executed by the Nationalists in 1934. In the People's Republic he is honoured as a Communist martyr, the reverse of the account Chen gives here."
+        "anchor": "the Youth Party",
+        "note": "The Chinese Youth Party (中国青年党), founded 1923, a small nationalist and anti-Communist third party opposed alike to the Kuomintang and the Communists."
       },
       {
-        "anchor": "Feng Yuxiang",
-        "note": "Feng Yuxiang (冯玉祥, 1882–1948), the 'Christian General,' a powerful and frequently-shifting warlord and a founder of the 1933 Chahar anti-Japanese army."
+        "anchor": "the Grand Hôtel des Wagons-Lits",
+        "note": "六国饭店, the 'Six Nations Hotel,' known in French as the Grand Hôtel des Wagons-Lits, a leading foreign hotel in the Legation Quarter of Beiping; it was there that Zhang Jingyao was shot."
       },
       {
-        "anchor": "Chahar",
-        "note": "A former province of the North China and Inner Mongolian borderland, north-west of Beiping; abolished in 1952."
+        "anchor": "Huanggutun train-bombing plot",
+        "note": "On 4 June 1928 the Japanese Kwantung Army blew up the train of the Manchurian warlord Zhang Zuolin (the 'Old Marshal') at Huanggutun near Mukden, killing him; the deed opened the way to Japan's later seizure of the Northeast."
       },
       {
-        "anchor": "the utterly evil Communist Party",
-        "note": "Chen writes in the Nationalist idiom, ascribing Ji Hongchang's revolt to Communist direction. Historians treat the Chahar anti-Japanese army as a broad united-front venture; Ji did join the Communist Party in 1932, but the flat attribution here is the memoir's partisan reading, not settled fact."
+        "anchor": "the \"Four Young Masters\"",
+        "note": "四公子, 'the Four Young Masters' - a loose epithet, varying in the telling, for the famous playboy sons of prominent Republican political and military families."
       },
       {
-        "anchor": "Shi Yousan",
-        "note": "Shi Yousan (石友三, 1891–1940), a general notorious for switching allegiances again and again; killed by his own side in 1940."
+        "anchor": "the \"Siwei Society\"",
+        "note": "四维学会; the 四维 are the 'Four Cardinal Bonds' named by the ancient statesman Guan Zhong - 礼义廉耻, propriety, righteousness, integrity, and a sense of shame - which the Nationalists made a watchword of their New Life Movement."
       },
       {
-        "anchor": "Yin Rugeng",
-        "note": "Yin Rugeng (殷汝耕, 1885–1947), head of the Japanese-sponsored 'East Hebei Anti-Communist Autonomous Government' (1935–38); tried and executed as a traitor after the war."
+        "anchor": "the later \"Xi'an Incident\"",
+        "note": "In December 1936 Zhang Xueliang and Yang Hucheng seized Chiang Kai-shek at Xi'an and held him until he agreed to a united front with the Communists against Japan; Zhang was thereafter placed under a house arrest that lasted more than fifty years."
       },
       {
-        "anchor": "Wang Kemin",
-        "note": "Wang Kemin (王克敏, 1879–1945), head of the Japanese puppet 'Provisional Government of the Republic of China' at Beiping; nicknamed 'Blind Wang' for his failing sight."
+        "anchor": "Itagaki Seishirō",
+        "note": "Itagaki Seishirō (1885-1948; the standard reading of 板垣, here written 坂垣), a general of the Japanese Kwantung Army and an architect of the 1931 seizure of Manchuria; later war minister, he was hanged as a war criminal in 1948."
       },
       {
-        "anchor": "bushidō",
-        "note": "<i>Bushido</i> (武士道), 'the way of the warrior,' the Japanese samurai code of honour and willingness to die."
-      },
-      {
-        "anchor": "anyone may put them to death",
-        "note": "A classical maxim in the Confucian tradition: rebellious ministers and unfilial sons are fair game for any hand. Chen invokes it to justify the killings as righteous."
-      }
-    ],
-    "ch03": [
-      {
-        "anchor": "Disgrace at Hanoi",
-        "note": "A provisional English rendering of Chen's title for Book Two, <i>Henei ru ming</i> (河内辱命), roughly 'orders dishonoured at Hanoi.' He set that title aside; the book was published as <i>The Full Story of the Wang Case at Hanoi</i> (河内汪案始末), and he discusses his choice of titles in its Author's Preface."
-      },
-      {
-        "anchor": "the case of Wang Jingwei",
-        "note": "Wang Jingwei (汪精卫, 1883–1944), a founding Nationalist leader and rival of Chiang Kai-shek who broke with Chongqing in December 1938 to seek peace with Japan and, from 1940, headed a Japanese-sponsored government at Nanjing. The 1939 attempt on his life at Hanoi is the subject of Book Two."
-      },
-      {
-        "anchor": "Hanoi, in Vietnam",
-        "note": "Then the capital of Tonkin in French Indochina, where Wang Jingwei took refuge after leaving Chongqing; foreign soil beyond Chinese jurisdiction."
-      },
-      {
-        "anchor": "his peace telegram",
-        "note": "Wang's so-called <i>yan</i> telegram (艳电, the <i>yandian</i>) of December 1938, which publicly urged a negotiated peace with Japan: his open break with the resistance."
-      },
-      {
-        "anchor": "a two-man act",
-        "note": "A <i>shuanghuang</i> (双簧), a comic turn in which one performer mouths the words another speaks from behind: here the suspicion that Wang's 'defection' was staged in secret collusion with Chongqing."
-      },
-      {
-        "anchor": "the Chongqing high command",
-        "note": "Chongqing (重庆), in Sichuan, was the wartime capital of Nationalist China from 1938; the seat of the government committed to resistance."
-      },
-      {
-        "anchor": "Chen Bijun",
-        "note": "Chen Bijun (陈璧君, 1891–1959), Wang Jingwei's wife and a forceful political figure in her own right; imprisoned after the war."
-      },
-      {
-        "anchor": "opening of the government at Nanjing",
-        "note": "Wang Jingwei's Reorganized National Government, inaugurated at Nanjing in March 1940 under Japanese sponsorship, in rivalry with Chongqing."
-      },
-      {
-        "anchor": "eighteen men",
-        "note": "The Hanoi action team. Chen names several of them here (Yu Jiansheng, Wang Luqiao, Tang Yingjie), whose parts fill the narrative of Book Two."
-      }
-    ],
-    "ch04": [
-      {
-        "anchor": "the Shanghai District",
-        "note": "A District (区, <i>qu</i>) was a regional command of the service, larger than a Station; Chen was chief of the Shanghai District from 1939."
-      },
-      {
-        "anchor": "the Juntong",
-        "note": "Throughout, 'the Juntong' renders 军统 / 军统局, short for the Bureau of Investigation and Statistics of the Military Affairs Commission (军事委员会调查统计局), the Nationalists' military secret service under Dai Li. The full name dates strictly from 1938; Chen uses it loosely for the whole lineage that began with the Lixingshe's Special Services Department in 1932 (see the Prefatory Note), so its use for the earlier years is a mild anachronism."
-      },
-      {
-        "anchor": "Sanctions by direct action",
-        "note": "'Sanction' renders 制裁 (<i>zhicai</i>), the service's own euphemism for the targeted killing or execution of a traitor or enemy; the term is kept throughout."
-      },
-      {
-        "anchor": "Fu Xiao'an",
-        "note": "Fu Xiao'an (傅筱庵, 1872–1940), a banker installed as puppet mayor of Shanghai; assassinated in his bed in 1940 by his own cook, an agent of the resistance."
-      },
-      {
-        "anchor": "Zhang Xiaolin",
-        "note": "Zhang Xiaolin (张啸林), one of the 'Three Tycoons' of the Shanghai Green Gang, alongside Du Yuesheng and Huang Jinrong; killed in 1940 for collaborating with the Japanese."
-      },
-      {
-        "anchor": "Li Shiqun",
-        "note": "Li Shiqun (李士群, 1905–1943), a former Communist who ran the Wang regime's secret police at No. 76 Jessfield Road in Shanghai; poisoned by the Japanese in 1943."
-      },
-      {
-        "anchor": "Special Operations Headquarters",
-        "note": "The Wang regime's dreaded secret-police apparatus (特工总部), known from its address as 'No. 76.'"
-      },
-      {
-        "anchor": "the Kempeitai",
-        "note": "The <i>Kempeitai</i> (宪兵队), the Japanese army's military police, which ran counter-intelligence and repression in occupied China."
-      },
-      {
-        "anchor": "the Tokkō",
-        "note": "The <i>Tokko</i> (特高), the 'special higher police,' the Japanese political-police branch."
-      },
-      {
-        "anchor": "Ume Kikan",
-        "note": "The <i>Ume Kikan</i> (梅机关, 'Plum Blossom Agency'), the Japanese special-service organ that engineered Wang Jingwei's defection and his Nanjing regime."
-      },
-      {
-        "anchor": "Ōtsuka Kiyoshi",
-        "note": "A former Tokkō officer of the Japanese military police at Nanjing whom Chen met again in Taipei in 1980. The Japanese reading of his name is reconstructed from the Chinese characters (大冢清)."
-      },
-      {
-        "anchor": "riches and honor cannot corrupt",
-        "note": "From the <i>Mencius</i>: the mark of the 'great man' is that riches and honour cannot corrupt him, poverty and low estate cannot swerve him, power and force cannot bend him."
-      },
-      {
-        "anchor": "Gang of Four",
-        "note": "The radical clique led by Mao Zedong's wife Jiang Qing, blamed for the worst of the Cultural Revolution; arrested in 1976, a month after Mao's death."
-      },
-      {
-        "anchor": "Liu Shaoqi",
-        "note": "Liu Shaoqi (刘少奇, 1898–1969), head of state of the People's Republic, purged and hounded to death during the Cultural Revolution; Tao Zhu (陶铸) was another senior victim. Chen notes with irony that the Communists branded their own fallen leaders 'Kuomintang secret agents.'"
-      },
-      {
-        "anchor": "the Kaohsiung violence of 1979",
-        "note": "The Kaohsiung (Formosa) Incident of December 1979, a pro-democracy demonstration in Taiwan broken up by the Nationalist authorities and followed by mass trials. Chen, a career security man, writes of the dissidents with hostility."
-      },
-      {
-        "anchor": "that demon Mao Zedong",
-        "note": "Mao Zedong (毛泽东), leader of the Chinese Communist Party. Chen refers to him elsewhere as <i>Mao qiu</i> (毛酋), 'the Mao chieftain' or 'bandit chief Mao'; the Nationalist idiom that casts the Communist leadership as bandits is preserved throughout."
-      },
-      {
-        "anchor": "Lin Biao",
-        "note": "Lin Biao (林彪) and Nie Rongzhen (聂荣臻), the Communist commanders whose armies encircled and took Beiping and Tianjin in the winter of 1948–49."
-      },
-      {
-        "anchor": "pacification work",
-        "note": "'Pacification' (绥靖) and, later, 'suppression of the rebellion' (戡乱) are the Nationalist terms for the 1946–49 civil war, casting the Communists as rebels to be put down. They are kept as Chen's own idiom."
-      },
-      {
-        "anchor": "Zheng Jiemin",
-        "note": "Zheng Jiemin (郑介民) and Mao Renfeng (毛人凤) headed the postwar secret service after Dai Li's death. The Bureau of Confidential Investigation (保密局, the Baomiju) was the Juntong's renamed successor from 1946."
-      },
-      {
-        "anchor": "the unequal treaties",
-        "note": "The treaties imposed on China from the 1840s that granted foreign powers concessions and extraterritorial rights on Chinese soil: the legal reason Chinese police could not act inside the Concessions."
-      },
-      {
-        "anchor": "the International Settlement",
-        "note": "The foreign-run Shanghai International Settlement and the adjacent French Concession, self-governing enclaves outside Chinese jurisdiction."
-      },
-      {
-        "anchor": "striking the wrong carriage",
-        "note": "An allusion to Zhang Liang's failed ambush of the First Emperor of Qin at Bolang, whose iron missile struck the wrong carriage: hence, killing the wrong man. It also titles a later chapter of the book."
-      },
-      {
-        "anchor": "Zeng Zhongming",
-        "note": "Zeng Zhongming (曾仲鸣, 1896–1939), Wang Jingwei's close aide, killed at Hanoi in the attack meant for Wang."
-      },
-      {
-        "anchor": "Zhongnan shortcut",
-        "note": "From a Tang anecdote of a would-be hermit who won office by a show of reclusion on Mount Zhongnan; the phrase means a back-door route to a career."
-      }
-    ],
-    "ch05": [
-      {
-        "anchor": "the September 18th Incident",
-        "note": "The Mukden Incident of 18 September 1931, in which the Japanese army seized Manchuria: the opening of Japan's aggression against China."
-      },
-      {
-        "anchor": "the January 28th affair",
-        "note": "The Shanghai Incident of 28 January 1932, a month of fighting between Japanese and Chinese forces around Shanghai."
-      },
-      {
-        "anchor": "the Whampoa Military Academy",
-        "note": "The Nationalist officer academy near Guangzhou (founded 1924), whose graduates formed the core of Chiang Kai-shek's army and of the secret service; a 'Whampoa man' was one of this favoured clique."
-      },
-      {
-        "anchor": "the Three Principles of the People",
-        "note": "Sun Yat-sen's political doctrine of Nationalism, Democracy, and the People's Livelihood (三民主义), the founding ideology of the Kuomintang."
-      },
-      {
-        "anchor": "the Lixingshe",
-        "note": "The 'Society for Vigorous Practice of the Three Principles of the People' (三民主义力行社), a secret organization of Whampoa officers formed in 1932 and popularly known as the 'Blue Shirts.'"
-      },
-      {
-        "anchor": "Special Services Department",
-        "note": "The covert-operations department (特务处) of the Lixingshe, directed by Dai Li: the operational seed from which the Juntong grew."
-      },
-      {
-        "anchor": "Bureau of Investigation and Statistics",
-        "note": "The bureau (调查统计局) set up under the Military Affairs Commission in 1932; its Second Department, under Dai Li, was the government-side face of the same secret-service work and grew into the Juntong."
-      },
-      {
-        "anchor": "Revolutionary Soldiers' Comrades Association",
-        "note": "A second-tier body (革命军人同志会) under the Lixingshe, one tier of the layered organization through which the secret service operated."
+        "anchor": "the Baoding officers' academy",
+        "note": "The Baoding Military Academy (保定军官学校, 1912-1923), the principal training school for Chinese army officers before Whampoa; many senior commanders of the warlord and Nationalist armies were its graduates."
       }
     ]
   }

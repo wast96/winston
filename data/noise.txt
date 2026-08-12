@@ -69,3 +69,41 @@
 # 秘密组织三「军统局」 (should be a semicolon); rendered as ";" and listed in
 # PROGRESS.md. Strip the orphaned 三 after 组织.
 组织三
+#
+# --- B02 (ch06) entries ---
+#
+# Idiom 三两百 "two or three hundred" (每人少则三两百字). The built-in 三两 strip
+# would orphan a 百 read as 100; strip the whole. English "two or three hundred".
+三两百
+# Place name: 三道高井 (Sandaogaojing, a Nanjing street); the 三 is part of the name.
+三道高井
+# Anniversary date-name: 三一七 (March 17th), the merged commemoration of Dai Li's
+# death (17 March 1946), read as 317. English names it "March 17th".
+三一七
+# Meta-linguistic count: 「简陋」两个字 "the two words X" counts the characters of a
+# term under discussion, not a real quantity. English keeps the word itself.
+两个字
+# Four-character idioms carrying non-quantity numerals: 五颜六色 "of five hues"
+# (= multicolored); 四邻(不安) "the four neighbours" (= all around); 三脚猫 "a
+# three-legged cat" (= a dabbler); 四不像 "like none of the four" (= neither fish
+# nor fowl); 千里之外 "a thousand li away" (= far off).
+五颜六色
+四邻
+三脚猫
+四不像
+千里之外
+# Names containing a numeral glyph: 三点会 (the Sandianhui secret society); 四川
+# (Sichuan province); 四维学会 (the Siwei Society; 四维 = the Four Cardinal Bonds);
+# 六国饭店 (the Grand Hôtel des Wagons-Lits, "Six Nations Hotel"); 万里兄 (brother
+# Wanli, i.e. Mao Wanli); 万事通 (北平万事通 "the Beiping know-it-all"). All names
+# or idioms, not counts.
+三点会
+四川
+四维学会
+六国饭店
+万里兄
+万事通
+# Idiom 二手货 "secondhand goods"; the 二 is not the count 2.
+二手货
+# Weekday indices in the abbreviated list 星期一、三、五 (Mon/Wed/Fri); not counts.
+星期一、三、五

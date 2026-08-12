@@ -119,6 +119,9 @@
       "en": "Zheng Jiemin",
       "pinyin": "Zhèng Jièmín",
       "status": "attested",
+      "principal": true,
+      "cast_order": 4,
+      "cast": "Dai Li's deputy in the secret service; the Juntong's special commissioner for North China and Chen's direct superior at Beiping. Rose to full general.",
       "note": "Senior Nationalist intelligence chief; rose to full general."
     },
     "毛人凤": {
@@ -216,6 +219,96 @@
       "pinyin": "Gāngcūn",
       "status": "provisional",
       "note": "Japanese Kempeitai Tokkō section chief at Shanghai; the Japanese reading is reconstructed."
+    },
+    "王天木": {
+      "en": "Wang Tianmu",
+      "pinyin": "Wáng Tiānmù",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 5,
+      "cast": "Chief of the Tianjin Station and an old friend of Dai Li's; born Wang Renqiang, he worked under the cover name Zheng Shisong. A central figure in the Hanoi affair to come.",
+      "note": "A senior Juntong operative in North China; later, in the Hanoi affair and after, his loyalties became a matter of dispute."
+    },
+    "范行": {
+      "en": "Fan Xing",
+      "pinyin": "Fàn Xíng",
+      "status": "provisional",
+      "principal": true,
+      "cast_order": 6,
+      "cast": "Courtesy name Jiman. A mysterious intelligence source recruited by the Beiping Station, whose true identity and allegiance Chen chased for twenty-one years.",
+      "note": "Courtesy name Jiman; romanization mine. The 'great international spy' of this section, a thread that runs to 1949 and beyond."
+    },
+    "白世维": {
+      "en": "Bai Shiwei",
+      "pinyin": "Bái Shìwéi",
+      "status": "attested",
+      "note": "Seventh-class academy graduate; the gunman who carried out the 1933 killing of Zhang Jingyao, the Beiping Station's first case."
+    },
+    "杨英": {
+      "en": "Yang Ying",
+      "pinyin": "Yáng Yīng",
+      "status": "provisional",
+      "note": "One of the three-man team, with Chen and Qi Nanpu, that founded the Beiping Station; romanization mine."
+    },
+    "戚南谱": {
+      "en": "Qi Nanpu",
+      "pinyin": "Qī Nánpǔ",
+      "status": "provisional",
+      "note": "Member of the founding Beiping Station team; later killed by the Communists in his native Anhui. Romanization mine."
+    },
+    "吴泰勋": {
+      "en": "Wu Taixun",
+      "pinyin": "Wú Tàixūn",
+      "status": "attested",
+      "note": "Courtesy name Youquan, called 'the Fifth Master'; son of the Manchurian general Wu Junsheng, and a wealthy patron of Dai Li's work. Chen honours him as a 'nameless hero.'"
+    },
+    "李士珍": {
+      "en": "Li Shizhen",
+      "pinyin": "Lǐ Shìzhēn",
+      "status": "attested",
+      "note": "Whampoa graduate and police theorist, the strict team leader of the Honggongci training class; later a leading figure in the Nationalist police and a rival of Dai Li for its control."
+    },
+    "黄雍": {
+      "en": "Huang Yong",
+      "pinyin": "Huáng Yōng",
+      "status": "attested",
+      "note": "Courtesy name Jianqiu; a first-class Whampoa graduate who took Chen in at Nanjing and recommended him into the work."
+    },
+    "张炎元": {
+      "en": "Zhang Yanyuan",
+      "pinyin": "Zhāng Yányuán",
+      "status": "attested",
+      "note": "Courtesy name Binghua; a second-class Whampoa graduate and early Juntong figure who shared lodgings with Chen at Nanjing."
+    },
+    "张作霖": {
+      "en": "Zhang Zuolin",
+      "pinyin": "Zhāng Zuòlín",
+      "status": "attested",
+      "note": "1875-1928; the 'Old Marshal,' warlord of Manchuria, killed by the Japanese Kwantung Army in the Huanggutun bombing of 1928."
+    },
+    "胡汉民": {
+      "en": "Hu Hanmin",
+      "pinyin": "Hú Hànmín",
+      "status": "attested",
+      "note": "1879-1936; a leading Kuomintang theorist and rival of Chiang Kai-shek. Feeds back to authority.json on completion."
+    },
+    "张学良": {
+      "en": "Zhang Xueliang",
+      "pinyin": "Zhāng Xuéliàng",
+      "status": "attested",
+      "note": "1901-2001; the 'Young Marshal,' son of Zhang Zuolin; his 1936 seizure of Chiang at Xi'an forced the anti-Japanese united front. Feeds back to authority.json on completion."
+    },
+    "何应钦": {
+      "en": "He Yingqin",
+      "pinyin": "Hé Yìngqīn",
+      "status": "attested",
+      "note": "1890-1987; senior Nationalist general, at this time acting head of the Military Affairs Commission's Beiping Branch."
+    },
+    "坂垣征四郎": {
+      "en": "Itagaki Seishirō",
+      "pinyin": "Bǎnyuán Zhēngsìláng",
+      "status": "attested",
+      "note": "1885-1948; general of the Japanese Kwantung Army, an architect of the 1931 Manchurian seizure; hanged as a war criminal. The source writes 坂垣 for the standard 板垣."
     }
   },
   "organizations": {
@@ -254,6 +347,18 @@
       "pinyin": "tègōng zǒngbù",
       "status": "decided",
       "note": "The Wang regime's secret police, known from its address as 'No. 76.'"
+    },
+    "复兴社": {
+      "en": "the Renaissance Society",
+      "pinyin": "Fùxīngshè",
+      "status": "attested",
+      "note": "A wider outer body of the Lixingshe (the 'Blue Shirts'); reorganized in 1938, together with the Lixingshe, into the Three People's Principles Youth Corps."
+    },
+    "中统": {
+      "en": "the Zhongtong",
+      "pinyin": "Zhōngtǒng",
+      "status": "decided",
+      "note": "The Kuomintang party's civilian secret service (Central Statistics Bureau), grown from the Party Central's Investigation Section and run by the Chen brothers' 'CC Clique'; the rival of Dai Li's military Juntong. See the note in Section 1."
     }
   },
   "places": {

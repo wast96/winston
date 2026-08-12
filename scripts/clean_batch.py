@@ -68,6 +68,20 @@ UNITS = {
         "drop": 2,
         "merges": [], "glued": {}, "standalone": [],
     },
+    "ch06": {
+        "file": "07_index-split-000-0005.txt",
+        "title": "第一节 任重道远 勇往直前",
+        "drop": 2,             # running header + <h2> section title
+        # extractor splits: a line broken mid-phrase into the next <p>
+        "merges": [(101, 102), (173, 174), (202, 203), (221, 222),
+                   (230, 231)],
+        # sub-section headings the digitization glued onto a paragraph's tail
+        "glued": {72: "二 吸收入「军会」与征召受「特训」",
+                  145: "三 负有秘密任务的领班人",
+                  194: "四 蒙然不知的遇上了国际大间谍",
+                  280: "五 情报活动中的政治运用"},
+        "standalone": [3],     # 一 学友小聚初识戴雨农
+    },
 }
 
 
