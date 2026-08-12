@@ -1,0 +1,7 @@
+### The Big-Spending Keepers
+
+There is a set of fleshpots who, for all their rounds of the brothels and the houses, still find the sport falls short of their fill and their satisfaction on the side of the flesh; and so they go the whole way and book a prostitute, licensed or not, to themselves, for a long-standing place to vent their lust. This game is called "keeping."
+
+The keeper's one obligation is that the whole of the woman's monthly upkeep falls upon him; the sum, from a few tens of dollars up to a few hundred, is fixed by no rule, but goes by her looks, fair or plain, and the height or lowness of her standing. Once she is booked, she may form no further connections with other clients: this one forbidden morsel the keeper alone may feast on, and feast on alone.
+
+Yet, say what one will, the women of the brothels are fickle as willow-fluff on the water, greedy and never sated. Book her though you may, you cannot in the nature of things stand watch over her day and night your whole life long; and the moment she sees you gone out, or you fail some night to come on business, she will do you wrong and get up to mischief with some other client to earn a little on the side. The keeper, for his part, may plume himself and boast that he tastes this fat morsel alone and suffers no other to lay a finger on it, and pour out a heap of silver dollars for it right willingly — but in her eyes he is, for all that, still one to be called a "prize mug" and a "great greenhorn"!

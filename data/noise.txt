@@ -70,3 +70,18 @@
 # 萬丈深淵 idiom, "a ten-thousand-fathom abyss" = a bottomless pit; the 萬 is
 #   idiom, not a count — English renders "bottomless pit".
 萬丈深淵
+# 北四川路 the road name North Sichuan Road; the 四 is romanized inside
+#   "Sichuan", not a count — English keeps "North Sichuan Road".
+北四川路
+# 十八、九 elided age range "eighteen or nineteen"; the bare 九 is the
+#   clipped 十九, carried in English as "nineteen".
+十八、九
+# 長三 the first-grade courtesan-house name "changsan"; the 三 is romanized
+#   in the name, not a count — English keeps "changsan".
+長三
+# 么二 the second-grade courtesan-house name "yao-er"; the 二 is romanized
+#   in the name, not a count — English keeps "yao-er".
+么二
+# 老六 the courtesan house-name element "Laoliu" (Number Six); the 六 is
+#   romanized in the name — English keeps "Laoliu".
+老六

@@ -1,0 +1,7 @@
+### The Ningbo Houses
+
+The Ningbo houses of Shanghai are but a few years old; they have no fixed den of their own, but rent hotel rooms for their base of operations — the Shenzhou on Zhejiang Road, the Old Orient and the Asia on Third Avenue, the Lequn on Hubei Road and the like are their strongholds (there are a few hotels in the French Concession too). In a hotel they keep one room, or two, on a standing yearly lease, and have their "hands" and their madam, and, just as at the changsan and yao-er houses, welcome a client to "get up a spread" — that is, to play mahjong and lay on a banquet. Should a client take a fancy to one of the girls and wish to melt his soul with her in earnest, then, when things are ripe, he must take a separate room to round out the sweet dream. In their own quarters there is no room for it: the place being small and the people many, a dry berth is not to be had, let alone a wet one (those two words, "wet berth," are to be taken by implication).
+
+All the brothels of Shanghai, the clandestine ones apart, must register with the authorities, pay the tax, and take out a license before they may carry on their trade — or their trade in vice. But these Ningbo houses have none of them paid the tax, so that, openly as they do business, they are in truth only a kind of clandestine house.
+
+To "get up a spread" at a Ningbo house costs a good deal less than at a changsan house; and summoning a girl out to serve at a party is by custom free of charge. Their one source of income is the hope that a client will "get up a spread" the oftener.

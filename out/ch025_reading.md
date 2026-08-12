@@ -1,0 +1,3 @@
+### Sixteen Every Year
+
+It is the way of the brothels that a flower-girl's tender age — be she already eighteen or nineteen, or two- or three-and-twenty — is, if a client asks it, always given as less than it is: she answers, sixteen. Meet her this year, she says sixteen; meet her again next year, she still says sixteen; whence the name, "sixteen every year, sixteen all round." Since every flower-girl in every house tells it the same way, understating her age has become the universal custom of the brothels. An old madam once told me: "It isn't that we want to lie; but the clients, most of them, are partial to a flower-girl in her twice-eight bloom, and so we can't help telling it so." Twice eight — that comes to just sixteen.
