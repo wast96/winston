@@ -140,5 +140,29 @@
       "alt": "An old black-and-white photograph of a tall Western-style mansion with a campanile tower rising above a lush garden of willows and shrubs; this is Arcadia Hall in Zhang's Garden.",
       "caption": "The Weiyuan (Zhang's Garden), with Arcadia Hall rising behind the trees. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
     }
+  ],
+  "ch053": [
+    {
+      "file": "ch053_huangchujiu.png",
+      "before": "The late Huang Chujiu was the founding father",
+      "alt": "A studio portrait of a middle-aged man in a round satin cap and a dark embroidered silk gown, seated and facing the camera.",
+      "caption": "Huang Chujiu. (Reprint caption: 'Huang Chujiu'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+    }
+  ],
+  "ch056": [
+    {
+      "file": "ch056_garden_bridge.png",
+      "before": "In the opening years of the Xianfeng reign",
+      "alt": "An aerial photograph looking down the Bund: in the foreground the steel-truss Garden Bridge crosses the mouth of Suzhou Creek, with the lawns of the Public Garden beside it; the Huangpu beyond is crowded with junks and steam launches, and the tall buildings of the Bund line the right-hand shore.",
+      "caption": "The Garden Bridge and the Bund, Shanghai, from above. (Reprint caption: 'Garden Bridge on the Bund, Shanghai'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+    }
+  ],
+  "ch063": [
+    {
+      "file": "ch063_tiger_stove.png",
+      "before": "The tiger stove is a little shop",
+      "alt": "A woman at a tiled tiger-stove counter fills a customer's tall enamel thermos flask from a boiler; a queue of people wait behind her, each holding a vacuum flask.",
+      "caption": "A tiger stove supplying hot water, its customers filling their flasks. (Reprint caption: 'A tiger stove, for hot water only'. A later documentary photograph added by the 2019 editor, not a figure of the 1933 book.)"
+    }
   ]
 }

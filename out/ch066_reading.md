@@ -1,0 +1,5 @@
+### What Will Come Up?
+
+Every day, as five or six in the afternoon comes round, and again toward eleven or twelve at night, in the concessions and the Chinese city alike, at a good many spots a crowd of men and women will gather, standing craned and gazing upward, until of a sudden the very air grows tense; and with one accord they all ask, "What's come up? What's come up?" Readers, do you know what that question means? It is the report of the huahui's day-draw and night-draw: the bank has specially hired several bicycles (they call them "fast horses") which, after each opening of the tube, come flying with the news of what figure has been drawn. These men and women are all out to gather the tidings; and having got them, they hurry off in turn to carry them to the host of huahui addicts. In that very ordinary little question, "What's come up?", there lies, in truth, a great deal of tragedy and very little comedy!
+
+Nowadays the Chinese and concession authorities forbid the huahui most sternly, and hereafter the cry of "What's come up?" may perhaps be less often heard.

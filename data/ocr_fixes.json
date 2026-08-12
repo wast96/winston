@@ -233,5 +233,121 @@
    "page": 107,
    "why": "chapter title printed 味蒓園 (Weichun-yuan, water-shield garden = Zhang Garden); book.json TOC had 味園"
   }
+ ],
+ "ch053": [
+  {
+   "wrong": "黃楚力",
+   "right": "黃楚九",
+   "page": 109,
+   "why": "name Huang Chujiu; OCR 九->力"
+  },
+  {
+   "wrong": "食勒",
+   "right": "創辦",
+   "page": 109,
+   "why": "OCR mangle 創辦"
+  },
+  {
+   "wrong": "始福",
+   "right": "始祖",
+   "page": 109,
+   "why": "OCR 祖->福"
+  },
+  {
+   "wrong": "經潤三",
+   "right": "經營三",
+   "page": 109,
+   "why": "crop-verified: reprint prints 經營三 (misprint for 經潤三/Jing Runsan); rendered as printed, footnoted"
+  }
+ ],
+ "ch057": [
+  {
+   "wrong": "一四〇",
+   "right": "三四〇",
+   "page": 115,
+   "why": "house number 340; crop-verified first digit is 三 not clipped 一"
+  },
+  {
+   "wrong": "陸遊",
+   "right": "陸遜",
+   "page": 115,
+   "why": "Lu Xun the Wu general 陸遜 (not writer 魯迅); crop-verified"
+  }
+ ],
+ "ch058": [
+  {
+   "wrong": "一元五張",
+   "right": "一元五張",
+   "page": 116,
+   "why": "gate ticket price crop-verified: one dollar / five"
+  },
+  {
+   "wrong": "每券二角",
+   "right": "每券二角",
+   "page": 116,
+   "why": "single-ticket price crop-verified: two jiao"
+  }
+ ],
+ "ch059": [
+  {
+   "wrong": "十八世紀",
+   "right": "十八世紀",
+   "page": 117,
+   "why": "author's dating error (events are late 19th c.); rendered as printed, footnoted"
+  },
+  {
+   "wrong": "立得",
+   "right": "立德",
+   "page": 117,
+   "why": "name Lide = R.W. Little; crop-verified"
+  }
+ ],
+ "ch060": [
+  {
+   "wrong": "皮曉浦",
+   "right": "皮曉浦",
+   "page": 118,
+   "why": "Englishman's name crop-verified"
+  },
+  {
+   "wrong": "能慕谷",
+   "right": "能慕谷",
+   "page": 118,
+   "why": "French Jesuit's name crop-verified"
+  },
+  {
+   "wrong": "十二文",
+   "right": "十二文",
+   "page": 118,
+   "why": "early call fee crop-verified: twelve cash"
+  }
+ ],
+ "ch062": [
+  {
+   "wrong": "一千多家",
+   "right": "一千多家",
+   "page": 119,
+   "why": "pawnshop count crop-verified"
+  },
+  {
+   "wrong": "十日為一期",
+   "right": "十日為一期",
+   "page": 119,
+   "why": "interest term crop-verified: ten-day period, three fen"
+  }
+ ],
+ "ch064": [
+  {
+   "wrong": "曹齊陳秦韓",
+   "right": "曹齊陳秦韓",
+   "page": 126,
+   "why": "riddle-1 candidate slips crop-verified"
+  },
+  {
+   "wrong": "重驚同儌羞",
+   "right": "重驚同儌羞",
+   "page": 126,
+   "why": "riddle-2 candidate slips crop-verified (儌 an unusual glyph)"
+  }
  ]
 }

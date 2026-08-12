@@ -505,3 +505,87 @@ drifters, the post-office coolies and parcel companies, and Zhang's Garden.
   his quick, worldly, amused editorializing voice: the "glass-cup" nickname,
   the sneer at pheasant universities and gilded doctorates, the pity for Weng
   Meiqian and the post-office coolies, the nostalgic sigh over Zhang's Garden.
+
+---
+
+## B05 (2026-08-12): ch053-ch070, the amusement-halls-and-rackets cluster
+
+PDF 109-133, printed 107-131. 18 units, all single-run essays (ch060 carries a
+two-part editorial coda; ch064 embeds two poem-riddle examples). Translated end
+to end per the pipeline.
+
+### Gates (all green)
+- verify_unit (parity + numbers + anchors): PASS on all 18.
+- check_align: PASS on all 18.
+- check_apparatus: 0 failures, 0 warnings.
+- check_structure --config: parity OK all 18; 87 notes, 0 unresolved.
+- check_content --config: content alignment OK across all units (after two
+  wording fixes: ch053 "Mr. Jing Runsan", ch058 "Jessfield Park").
+- qc_entities (per bilingual): 0 misses across all 18 (ch064 aligned "riddles"
+  to "poem-riddles" in two spots to match the glossary form).
+- Cumulative EPUB rebuilt: 71 of 168 chapters, 359 notes, 13 pagebreaks.
+- qa_epub: PASS (205 files, all links resolve). epubcheck 5.1.0: 0 fatals /
+  0 errors / 0 warnings.
+- check_register --ref out/ch001_reading.md: within tolerance on all 18.
+
+### Apparatus added
+- 87 footnotes (book-wide 273-359), 47 glossary rows, 3 reprint figures
+  (ch053 Huang Chujiu portrait p110; ch056 Garden Bridge / Bund aerial p114;
+  ch063 tiger-stove documentary photo p123, a later photograph).
+
+### Fact-checks (verdict stated in each note)
+- New World / Great World: Huang Chujiu and Jing Runsan (經潤三) co-founded the
+  New World in 1914 (opened Dec 1915) at Nanjing/Xizang Rd by the Racecourse;
+  Huang left in 1917 to found the Great World. CORROBORATED (zh Wikipedia).
+- The reprint prints the co-founder as 經營三 (a misprint for 經潤三); rendered
+  as printed in data/zh, translated to the attested "Jing Runsan", footnoted.
+- Telephone: 1882 (Guangxu 8) first Shanghai exchange, Danish Great Northern
+  Telegraph at No. 7 the Bund. CORROBORATED. The Zikawei (Xujiahui) Jesuit
+  observatory strung telephone lines to the concession firms to relay weather
+  from 1 Jan 1882. CORROBORATED. Author's "Pi Xiaopu" unverified; "Neng Mugu"
+  a transliteration of a French Jesuit's name. Graham Bell + the muddled
+  "American province of Canada" flagged.
+- Electric light: "Lide" = R.W. Little (立德祿), founder of the Shanghai
+  Electric Company (1882), China's first power plant. CORROBORATED. 自來火 =
+  coal gas (first gas street-lamps Nanjing Rd, Dec 1865). CORROBORATED.
+- Garden Bridge: first was the Wills Bridge (toll, 1856); bought out and freed
+  by the Municipal Council in 1873 (Tongzhi guiyou); present steel truss 1907.
+  CORROBORATED.
+- Lu Xun of Wu (陸遜, 183-245, a Suzhou man): disambiguated from the writer
+  魯迅. The Bubbling Well Road tomb is local legend, UNCORROBORATED (stated).
+- French Park: Parc de Koukaza, opened 1909 in Gujiazhai, now Fuxing Park.
+  CORROBORATED. Jessfield Park (兆豐公園, 1914, now Zhongshan Park). CORROBORATED.
+- 次殖民地 (Sun Yat-sen's "sub-colony") glossed at ch055.
+
+### Traps handled
+- ch057 陸遜: full disambiguation note (Wu general, not the writer); the
+  English title "The Site of Lu Xun's Tomb" would otherwise mislead.
+- ch058 法國公園: full French-Park note placed here at its own chapter (only a
+  pointer had stood at ch052).
+- ch053 經營三: reprint misprint, handled as above.
+- ch059 十八世紀: author's dating error (the gaslight/electric events are late
+  19th c.); rendered as printed, footnoted.
+- Self-censored blanks rendered as printed and footnoted: ×× clinics (ch054),
+  ×× steamship company (ch061), ×× Poetry Societies (ch064).
+- ch057 house number 三四〇 (No. 340): crop-verified the first digit is 三, not
+  a clipped 一 (a magnified crop that cut the top strokes first read as 一).
+
+### OCR / paragraphing notes
+- tesseract chi_tra_vert psm 5 only (~85%); every page eye-read at
+  magnification and data/zh hand-transcribed against the scans, as B01-B04.
+- indents.py unusable; paragraph structure finalized by hand off the scan
+  using the short-line signal at the page seams. ch063 (text band above a
+  photo) has no internal short-column breaks, so it is one paragraph.
+- data/noise.txt additions this batch (idiom/name/abbreviation numerals):
+  巨萬, 零售, 百科, 十六浦, 十幾萬, and the targeted (?<=十一)、二 for the
+  "eleven or twelve o'clock" abbreviation.
+
+### NOT re-noted this batch (already placed; cross-referenced instead)
+- Money system (dollar / 大洋 / 小洋 / 毛 / 角 / 分 / 文): ch001 & ch014 stand;
+  ch056/ch058/ch062/ch063/ch064/ch068/ch069 all cite prices without re-noting.
+- Huang Chujiu (glossed + noted B04): ch053 cross-refs. New World (glossed B04).
+  Bubbling Well Road (ch017): ch057 mentions, not re-noted. 野雞 pheasant
+  (ch012): not recurring here. 靜安寺路 (ch017): ch057 cross-ref.
+- The huahui game gets its full note at ch065; ch066 (the result-cry "開什麼")
+  cross-refs it. The little pawnshops get their note at ch062; ch069 (the
+  "dropped ticket") cross-refs it.

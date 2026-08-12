@@ -1,0 +1,5 @@
+### Back-Door Goods
+
+What are "back-door goods"? They are other people's things, filched out at the back gate and passed on to buyers half as a gift and half as a sale — that is what is called "back-door goods." This shabby, dishonest trade belongs to the clerks who keep the warehouses and the old hands in the trading firms; and because such back-door goods have cost the seller nothing, they are always let go half-given and half-sold, so that, as the proverb says, "stolen goods fetch no price" — a saying that could hardly hit it off better.
+
+There is a kind of shop, besides, that deals expressly in buying up these cheap back-door goods — things to eat, things to wear, things to use, things to play with, no matter what — taking the whole lot off one's hands, and then, having sorted and graded them, selling them on again by their several kinds. As this business is light on capital and fat in profit, a good few of the bosses who buy up back-door goods have made a great pile by it, and sit round-faced and comfortable as men of wealth.

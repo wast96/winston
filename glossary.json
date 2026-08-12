@@ -180,6 +180,60 @@
       "en": "Yan Fusun",
       "pinyin": "Yán Fúsūn",
       "status": "provisional"
+    },
+    "經營三": {
+      "en": "Jing Runsan",
+      "pinyin": "Jīng Rùnsān",
+      "status": "attested",
+      "note": "The merchant who financed and built the New World with Huang Chujiu and ran it alone after Huang left. The reprint misprints his name 經潤三 as 經營三."
+    },
+    "陸遜": {
+      "en": "Lu Xun",
+      "pinyin": "Lù Xùn",
+      "status": "attested",
+      "note": "The general of Wu (183&#8211;245), NOT the modern writer Lu Xun 魯迅 (different characters, different tone)."
+    },
+    "周瑜": {
+      "en": "Zhou Yu",
+      "pinyin": "Zhōu Yú",
+      "status": "attested",
+      "note": "The young admiral of Wu (175&#8211;210) who broke Cao Cao's fleet at the Red Cliffs."
+    },
+    "立德": {
+      "en": "Lide",
+      "pinyin": "Lìdé",
+      "status": "attested",
+      "note": "R. W. Little, founder of the Shanghai Electric Company (1882), China's first power plant."
+    },
+    "皮曉浦": {
+      "en": "Pi Xiaopu",
+      "pinyin": "Pí Xiǎopǔ",
+      "status": "provisional",
+      "note": "The Westerner the author credits with the first Shanghai telephone exchange (1882); identity unverified."
+    },
+    "能慕谷": {
+      "en": "Neng Mugu",
+      "pinyin": "Néng Mùgǔ",
+      "status": "provisional",
+      "note": "A French Jesuit father of the Zikawei (Xujiahui) Observatory; transliteration of his name."
+    },
+    "黃式權": {
+      "en": "Huang Shiquan",
+      "pinyin": "Huáng Shìquán",
+      "status": "attested",
+      "note": "Late-Qing Shanghai journalist, author of sketches of the city."
+    },
+    "孔夫子": {
+      "en": "Confucius",
+      "pinyin": "Kǒng Fūzǐ",
+      "status": "attested",
+      "note": "Confucius (551&#8211;479 BC); here the name of a Yangtze steamer."
+    },
+    "左宗棠": {
+      "en": "Zuo Zongtang",
+      "pinyin": "Zuǒ Zōngtáng",
+      "status": "attested",
+      "note": "Great Qing statesman-general (1812&#8211;1885), later Governor-General of the Two Jiang."
     }
   },
   "places": {
@@ -363,6 +417,78 @@
       "en": "Ankang Li",
       "pinyin": "Ānkāng Lǐ",
       "status": "provisional"
+    },
+    "泥城橋": {
+      "en": "Nicheng Bridge",
+      "pinyin": "Nícéngqiáo",
+      "status": "attested",
+      "note": "The bridge over the old Defense Creek at the north-western corner of the International Settlement, by the Racecourse; the creek was later filled in and the name survives as a district."
+    },
+    "跑馬廳": {
+      "en": "the Racecourse",
+      "pinyin": "Pǎomǎtīng",
+      "status": "attested",
+      "note": "The Shanghai Race Club's course, the great turf oval at the heart of the Settlement (today People's Square and People's Park)."
+    },
+    "外白渡橋": {
+      "en": "the Garden Bridge",
+      "pinyin": "Wàibáidùqiáo",
+      "status": "attested",
+      "note": "The steel-truss bridge (1907) at the mouth of Suzhou Creek, north end of the Bund; the foreigners' Garden Bridge."
+    },
+    "蘇州河": {
+      "en": "Suzhou Creek",
+      "pinyin": "Sūzhōu Hé",
+      "status": "attested",
+      "note": "The lower course of the Wusong River as it runs through Shanghai to meet the Huangpu at the Bund."
+    },
+    "馬霍路": {
+      "en": "Mohawk Road",
+      "pinyin": "Mǎhuò Lù",
+      "status": "attested",
+      "note": "A cross-street off Bubbling Well Road in the western Settlement; today North Huangpi Road."
+    },
+    "顧家宅": {
+      "en": "Koukaza",
+      "pinyin": "Gùjiāzhái",
+      "status": "attested",
+      "note": "The French-Concession district where the French Park lies; 'Koukaza' in French usage."
+    },
+    "兆豐公園": {
+      "en": "Jessfield Park",
+      "pinyin": "Zhàofēng Gōngyuán",
+      "status": "attested",
+      "note": "The largest Settlement park (opened 1914), at the west end of Bubbling Well Road; today Zhongshan Park."
+    },
+    "十六浦": {
+      "en": "Shiliupu",
+      "pinyin": "Shíliùpǔ",
+      "status": "attested",
+      "note": "The 'Sixteenth Wharf' district on the Huangpu waterfront, east of the old walled city."
+    },
+    "徐家匯": {
+      "en": "Xujiahui",
+      "pinyin": "Xújiāhuì",
+      "status": "attested",
+      "note": "The Jesuit centre (Zikawei) in south-west Shanghai: cathedral, college and observatory."
+    },
+    "松江": {
+      "en": "Songjiang",
+      "pinyin": "Sōngjiāng",
+      "status": "attested",
+      "note": "The old prefectural city south-west of Shanghai, and its examination seat."
+    },
+    "愛多亞路": {
+      "en": "Avenue Édouard VII",
+      "pinyin": "Àiduōyà Lù",
+      "status": "attested",
+      "note": "The boundary street between the Settlement and the French Concession; today East Yan'an Road."
+    },
+    "寧紹": {
+      "en": "Ningbo and Shaoxing",
+      "pinyin": "Níng-Shào",
+      "status": "attested",
+      "note": "The prefectures of Ningbo and Shaoxing in eastern Zhejiang."
     }
   },
   "organizations": {
@@ -478,6 +604,48 @@
       "pinyin": "Qúnxiān",
       "status": "provisional",
       "note": "An all-girl opera house on Fourth Avenue."
+    },
+    "樓外樓": {
+      "en": "the Tower-Beyond-the-Tower",
+      "pinyin": "Lóuwàilóu",
+      "status": "attested",
+      "note": "Huang Chujiu's rooftop amusement garden of 1912, atop the New-New Stage on Nanjing Road; the first of its kind in Shanghai."
+    },
+    "大世界": {
+      "en": "the Great World",
+      "pinyin": "Dà Shìjiè",
+      "status": "attested",
+      "note": "The amusement palace Huang Chujiu opened in 1917 after leaving the New World; long the most famous in Shanghai."
+    },
+    "工部局": {
+      "en": "the Municipal Council",
+      "pinyin": "Gōngbùjú",
+      "status": "attested",
+      "note": "The Shanghai Municipal Council, governing body of the International Settlement (1854&#8211;1943); its Chinese name means 'Board of Works'."
+    },
+    "公董局": {
+      "en": "the French Municipal Council",
+      "pinyin": "Gōngdǒngjú",
+      "status": "attested",
+      "note": "The governing council of the French Concession, counterpart to the Settlement's Municipal Council."
+    },
+    "水爐公所": {
+      "en": "the Water-Stove Guild",
+      "pinyin": "Shuǐlú Gōngsuǒ",
+      "status": "attested",
+      "note": "The trade guild of the boiled-water shops."
+    },
+    "冠雲詩社": {
+      "en": "the Guanyun Poetry Society",
+      "pinyin": "Guānyún Shīshè",
+      "status": "attested",
+      "note": "A poem-riddle house on Avenue Édouard VII, the last of its kind at the time of writing."
+    },
+    "大廠": {
+      "en": "the Great Works",
+      "pinyin": "dàchǎng",
+      "status": "attested",
+      "note": "The gamblers' name for the huahui bank (also datong, 'the big tube')."
     }
   },
   "terms": {
@@ -690,6 +858,120 @@
       "pinyin": "yějī dàxué",
       "status": "decided",
       "note": "A degree-mill; 'pheasant' (yeji) is the Shanghai slang for anything unlicensed and irregular."
+    },
+    "八卦": {
+      "en": "the Eight Trigrams",
+      "pinyin": "bāguà",
+      "status": "attested",
+      "note": "The eight three-line figures of the Book of Changes, used in an eight-sided mirror-plaque as an apotropaic charm."
+    },
+    "風水": {
+      "en": "fengshui",
+      "pinyin": "fēngshuǐ",
+      "status": "attested",
+      "note": "Chinese geomancy: the siting of buildings and graves in harmony with the currents of the land."
+    },
+    "翁仲": {
+      "en": "the guardian figures",
+      "pinyin": "wēngzhòng",
+      "status": "attested",
+      "note": "The paired stone human statues set along the spirit-way before a grand tomb."
+    },
+    "自來火": {
+      "en": "self-coming fire",
+      "pinyin": "zìláihuǒ",
+      "status": "attested",
+      "note": "Old Shanghai term for coal gas and gaslight; later also a friction match."
+    },
+    "地火": {
+      "en": "earth-fire",
+      "pinyin": "dìhuǒ",
+      "status": "decided",
+      "note": "The popular nickname for piped coal gas, the 'fire that comes from underground'."
+    },
+    "德律風": {
+      "en": "delüfeng",
+      "pinyin": "délǜfēng",
+      "status": "attested",
+      "note": "Chinese transliteration of the English 'telephone'."
+    },
+    "小押當": {
+      "en": "the little pawnshop",
+      "pinyin": "xiǎoyādàng",
+      "status": "attested",
+      "note": "The humblest tier of pawnshop: high interest, short terms, small loans."
+    },
+    "餉押": {
+      "en": "pay-pawn",
+      "pinyin": "xiǎngyā",
+      "status": "attested",
+      "note": "A pawnshop originally for soldiers pledging goods against unpaid army wages (餉銀)."
+    },
+    "老虎灶": {
+      "en": "tiger stove",
+      "pinyin": "lǎohǔzào",
+      "status": "attested",
+      "note": "A neighbourhood shop selling boiled water; a fixture of Shanghai lane life."
+    },
+    "弄堂": {
+      "en": "lane",
+      "pinyin": "lòngtáng",
+      "status": "attested",
+      "note": "The Shanghai residential lane, and the block of row-houses opening off it."
+    },
+    "詩謎": {
+      "en": "poem-riddle",
+      "pinyin": "shīmí",
+      "status": "attested",
+      "note": "A gambling game: bet which character fills a blanked line of classical verse."
+    },
+    "大洋盤": {
+      "en": "big silver sucker",
+      "pinyin": "dà yángpán",
+      "status": "attested",
+      "note": "Shanghai slang for a prize dupe, with a pun on the silver dollar (yang)."
+    },
+    "花會": {
+      "en": "huahui",
+      "pinyin": "huāhuì",
+      "status": "attested",
+      "note": "An illegal numbers-lottery of the Jiangnan region; bet which of some thirty-odd named characters the bank will draw."
+    },
+    "快馬": {
+      "en": "fast horses",
+      "pinyin": "kuàimǎ",
+      "status": "attested",
+      "note": "The bicycle-runners hired to race the huahui results out to the betting public."
+    },
+    "後門貨": {
+      "en": "back-door goods",
+      "pinyin": "hòumén huò",
+      "status": "attested",
+      "note": "Stolen property pilfered by warehouse- and shop-hands and slipped out the back to be fenced."
+    },
+    "丟圈": {
+      "en": "ring toss",
+      "pinyin": "diū quān",
+      "status": "attested",
+      "note": "The fairground hoop-la: pitch a wooden ring over pegged prizes to win them."
+    },
+    "丟票": {
+      "en": "the dropped ticket",
+      "pinyin": "diū piào",
+      "status": "attested",
+      "note": "A pawnshop swindle: a ticket for worthless pledged goods is dropped in the street to lure a finder into redeeming it."
+    },
+    "裱畫店": {
+      "en": "picture-mounting shop",
+      "pinyin": "biǎohuà diàn",
+      "status": "attested",
+      "note": "A shop that mounts and frames paintings and calligraphy on scrolls."
+    },
+    "換天頭": {
+      "en": "changing the heaven-head",
+      "pinyin": "huàn tiāntóu",
+      "status": "attested",
+      "note": "An art-forgery trick using the top margin of a scroll; here, layer-splitting a painting into two."
     }
   }
 }

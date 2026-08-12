@@ -103,3 +103,21 @@
 # 塵煙四起 idiom "dust and smoke rising on all sides"; the 四 is the four
 #   directions, not a count — English renders "the dust flying up".
 塵煙四起
+# 巨萬 idiom "a huge sum / a fortune" (費逾巨萬 = cost upward of a fortune);
+#   the 萬 is idiomatic magnitude, not a count — English renders "a fortune".
+巨萬
+# 零售 "retail / sold singly" (還零售門票); the 零 is part of 'retail', not
+#   the quantity zero. English renders "sell single tickets by the piece".
+零售
+# 十六浦 the wharf-district place name "Shiliupu" (Sixteen Wharves); the 十六
+#   is inside the name, romanized "Shiliupu", not a count.
+十六浦
+# 百科 "encyclopaedia" (百科全書); the 百 means 'all branches', not the count
+#   100. English renders "encyclopaedia".
+百科
+# 十幾萬 compound "a hundred thousand and more" (十幾萬元); rendered whole in
+#   English, not as separate 10 and 10000. (Built-in 幾萬 covers 幾萬 alone.)
+十幾萬
+# 十一、二 "eleven or twelve" (十一、二點鐘); the standalone 二 abbreviates 十二,
+#   so strip it only after 十一. English renders "eleven or twelve".
+(?<=十一)、二
