@@ -352,6 +352,8 @@
 五百七十余万
 # 二百数十万 = "two million and some hundred thousand" owed to banks; 数 splits 二百 from 十万. English carries "2,000,000-odd".
 二百数十万
+# 万千 (骗钱万千) = "myriad thousands," an idiom for a countless sum; not the quantity. MUST precede the bare-万 rule below, or that rule strips the 万 and orphans a 千 read as 1000. English "untold thousands". (ch24)
+万千
 # 万 as the surname Wan (万墨林 Wan Molin, 万木林, 万兆棠, and bare 万 for "Wan"); NOT the 10,000 multiplier, which is always preceded by a numeral. Guarded so it never fires inside a money compound (六十万, 三十万, 二百四十万, 五百七十余万 all keep their 万).
 (?<![0-9０-９零〇一二两兩三四五六七八九十百千万萬亿億数數几幾余餘多])万
 # 三十多万 = "over 300,000" (Yang Yusheng's cash); 多 splits 三十 from 万. English carries "300,000-odd".
@@ -426,3 +428,17 @@
 俞云九
 # 百忍堂 = Bairen Tang ("Hall of a Hundred Forbearances"), Zhang Xiaolin's residence hall; 百 is the hall-name, not the count 100. English romanizes "Bairen Tang".
 百忍堂
+#
+# --- ch24 (B09) ---
+# 三光 = "sanguang," gang slang for a henchman/errand-runner (claw-and-fang); 三 is the term, not the count 3. English "sanguang".
+三光
+# 五龙池 = Wulongchi, a Shanghai bathhouse; 五 is name-internal, not the count 5. English "Wulongchi".
+五龙池
+# 叶焯三 = Ye Zhuosan, a Du Yuesheng lieutenant; 三 is the personal name, not the count 3. English "Ye Zhuosan".
+叶焯三
+# 袁三宝 = Yuan Sanbao, a Huang-gate figure; 三 is the personal name, not the count 3. English "Yuan Sanbao".
+袁三宝
+# 三位一体 = "trinity" (idiom for the three acting as one); 三 is the idiom, not a count. English "a trinity".
+三位一体
+# 七日一周 = "one week" (a seven-day rotation cycle); the seven is the fixed phrase. English "a week at a time".
+七日一周
