@@ -1,0 +1,16 @@
+{
+  "glossary": {
+    "伊東甲子太郎": {"section": "people", "en": "Itō Kashitarō", "pinyin": "Itō Kashitarō", "status": "decided", "note": "Born Suzuki Daizō in Hitachi; a Hokushin Ittō-ryū adept and Mito-school loyalist ideologue who kept a dōjō at Fukagawa in Edo. He joined the Shinsengumi at the end of 1864, meaning all along to turn it into a topple-the-shogunate party. His faction would later break away as the Kōdai-ji guardsmen and be destroyed."},
+    "尾形俊太郎": {"section": "people", "en": "Ogata Shuntarō", "pinyin": "Ogata Shuntarō", "status": "decided", "note": "A jokin of the Shinsengumi and one of its few lettered men, employed by Kondō on documentary and liaison work."},
+    "鈴木三樹三郎": {"section": "people", "en": "Suzuki Mikisaburō", "pinyin": "Suzuki Mikisaburō", "status": "decided", "note": "Itō Kashitarō's younger brother, who joined the corps with him. He later broke away with the Kōdai-ji faction, survived the Restoration, and lived to old age."}
+  },
+  "notes": {
+    "ch26": [
+      {"anchor": "That Itō Kashitarō.", "note": "Itō Kashitar&#333; (1835&#8211;1867) is the figure whose coming reshapes the middle of the book. A polished swordsman and a fluent theorist of the revere-the-Emperor, topple-the-shogunate school, he enters the Shinsengumi meaning to capture it from within &#8212; the design he lays out to T&#333;d&#333; in this chapter. Three years on, the split he seeds here will end at the Aburanok&#333;ji: Kond&#333; will have him killed and use his corpse to bait and cut down his followers."},
+      {"anchor": "the kinoe-ne of the first year of Genji", "note": "In the old sexagenary calendar every year bears one of sixty combined signs; <i>kinoe-ne</i> (&#30002;&#23376;) is the first of the sixty, a year reckoned auspicious for new beginnings. Its two characters can be read <i>kasshi</i> as well, and from them the man took his new name, Kashitar&#333; &#8212; announcing, in effect, a fresh start. The first year of Genji was 1864."},
+      {"anchor": "its founder Chiba Shūsaku", "note": "The Hokushin Itt&#333;-ry&#363;, founded by Chiba Sh&#363;saku (1793&#8211;1856) at his Genbukan dōjō at Otamagaike in Kanda, was one of the three great fencing schools of late-Tokugawa Edo. Patronized by the loyalist Mito house, it turned out an extraordinary run of revolutionary swordsmen &#8212; Kiyokawa Hachir&#333;, Sakamoto Ry&#333;ma, and others &#8212; which is precisely the political taint Toshiz&#333; smells on it."},
+      {"anchor": "I strike blades with you.", "note": "<i>Kinch&#333;</i>: a warrior sealed an inviolable promise by striking steel on steel &#8212; the guard of his own sword, or two blades together &#8212; so that the ring of the metal stood witness to the oath. Here Itō pledges to keep T&#333;d&#333;&#8217;s murderous secret, without yet pledging the deed."},
+      {"anchor": "Takeda Iga-no-kami", "note": "Takeda K&#333;unsai (1803&#8211;1865), an elder councillor of the Mito domain and leader of its radical loyalists. In 1864 he headed the armed rising of the Tengu Party (the &#8220;Tengu-t&#333;&#8221;); it was crushed, and he was executed. That Itō stood close to such a man marks how far his own loyalism ran."}
+    ]
+  }
+}

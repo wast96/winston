@@ -1,0 +1,21 @@
+{
+  "glossary": {
+    "篠原泰之進": {"section": "people", "en": "Shinohara Tainoshin", "pinyin": "Shinohara Tainoshin", "status": "decided", "note": "Eldest of Itō's followers, a rōnin of Kurume skilled in both the sword and jūjutsu; the one who warns Itō against trusting his own cleverness. Later a Kōdai-ji guardsman."},
+    "加納道之助": {"section": "people", "en": "Kanō Michinosuke", "pinyin": "Kanō Michinosuke", "status": "decided", "note": "An old comrade of Itō, later known as Kanō Washio; he went over to the Satsuma side."},
+    "服部武雄": {"section": "people", "en": "Hattori Takeo", "pinyin": "Hattori Takeo", "status": "decided", "note": "A man of Bushū and the finest blade among Itō's followers; he died fighting in the Aburanokōji affair."},
+    "佐野七五三之助": {"section": "people", "en": "Sano Shimenosuke", "pinyin": "Sano Shimenosuke", "status": "decided", "note": "A comrade of Itō who died by his own hand before the Restoration."},
+    "中西登": {"section": "people", "en": "Nakanishi Noboru", "pinyin": "Nakanishi Noboru", "status": "decided", "note": "A pupil of Itō who later cast his lot with the Satsuma domain."},
+    "内海二郎": {"section": "people", "en": "Utsumi Jirō", "pinyin": "Utsumi Jirō", "status": "decided", "note": "A pupil of Itō who later cast his lot with the Satsuma domain."},
+    "松前伊豆守": {"section": "people", "en": "Matsumae Izu-no-kami", "pinyin": "Matsumae Izu-no-kami", "status": "decided", "note": "The senior councillor (rōjū) Matsumae Takahiro, whom Kondō claims to have lobbied on the shogun's behalf."},
+    "興正寺": {"section": "places", "en": "the Kōshō-ji", "pinyin": "Kōshō-ji", "status": "decided", "note": "A monzeki (imperially-connected) temple in Kyoto, next to the Nishi-Honganji; Kondō kept a rest-lodging at its lower villa."}
+  },
+  "notes": {
+    "ch27": [
+      {"anchor": "at the head of the Chōshū expedition", "note": "The punitive campaign the shogunate raised against Ch&#333;sh&#363; after the Hamaguri Gate affair had branded the domain a court enemy. This first Ch&#333;sh&#363; expedition, mounted in the winter of 1864, ended almost without fighting when Ch&#333;sh&#363;, its radicals for the moment beaten down, made a show of submission. Kond&#333;&#8217;s errand to Edo is to urge the shogun to lead it in person."},
+      {"anchor": "negotiating a loan with France", "note": "Historically true. Through its minister L&#233;on Roches, the shogunate sought French money and arms to fund the Ch&#333;sh&#363; war and to remodel its forces on the Western pattern. The scheme came, as Shiba says, to nothing, but it shows how near to bankruptcy the Tokugawa treasury had run &#8212; the point of Kond&#333;&#8217;s whole boast."},
+      {"anchor": "the eighty thousand mounted hatamoto", "note": "&#8220;The eighty thousand horse of the hatamoto&#8221; was the proverbial fighting strength of the shogun&#8217;s direct bannermen. By the 1860s the figure was hollow: generations of peace on fat stipends had unmade the class as soldiers, so that Kond&#333; can dismiss them as &#8220;straw dolls.&#8221;"},
+      {"anchor": "the one thousand-ryō star", "note": "Shinohara casts the conspiracy as a play. A &#8220;thousand-ry&#333; actor&#8221; (<i>senry&#333; yakusha</i>) was a top-billed kabuki star; a &#8220;ham actor&#8221; (<i>daikon</i>) the reverse; and the <i>hanamichi</i>, the &#8220;flower-way,&#8221; is the raised runway through the audience by which an actor makes his entrances. His warning is that Itō, the lone star of a cast of hams, may overact and tumble off the runway."},
+      {"anchor": "Benkei, Ise Yoshimori", "note": "Two famous retainers of the twelfth-century hero Minamoto no Yoshitsune &#8212; the warrior-monk Benkei and Ise Sabur&#333; Yoshimori &#8212; bywords for brawny, ferocious fighting men. Okita is joking that Itō&#8217;s rough companions look the part."}
+    ]
+  }
+}
