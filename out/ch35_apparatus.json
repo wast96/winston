@@ -1,0 +1,19 @@
+{
+  "glossary": {
+    "花昌町": {"section": "places", "en": "Kashō-chō", "pinyin": "Kashō-chō", "status": "decided", "note": "The site of the Shinsengumi&#8217;s last Kyoto barracks (also called Fud&#333;d&#333;-mura), near Samegai, Shichij&#333;, and the Horikawa; no such place-name survives today. The source glosses the name kash&#333;-ch&#333;."},
+    "堀川国広": {"section": "terms", "en": "Horikawa Kunihiro", "pinyin": "Horikawa Kunihiro", "status": "attested", "note": "A short-sword of the Kyoto smith Horikawa Kunihiro (c.1531&#8211;1614); Toshiz&#333;&#8217;s companion blade to the long Izumi-no-kami Kanesada (see ch12, ch17)."},
+    "笠間喜十郎": {"section": "people", "en": "Kasama Kijūrō", "pinyin": "Kasama Kijūrō", "status": "decided", "note": "An Echigo r&#333;nin drawn into the ambush; he died of his wound days later, naming It&#333; as the man behind it."}
+  },
+  "notes": {
+    "ch35": [
+      {"anchor": "one plank bridge, with neither railing nor handrail", "note": "The bridge at Nij&#333; in those years crossed the Kamo in two spans, resting midstream on a <i>nakasu</i>, a grassy sandbar &#8212; the &#8216;Nij&#333; Nakasu&#8217; of the chapter title. The river has since been narrowed and embanked and the sandbar is gone; the modern Nij&#333;-&#333;hashi is a single span."},
+      {"anchor": "raising alarms of \"heaven's punishment\"", "note": "<i>Tench&#363;</i>, &#8216;the chastisement of Heaven,&#8217; was the slogan under which loyalist swordsmen in these years murdered officials, merchants, and rival activists, often pinning a placard on the body to justify the killing as a public execution rather than a private one. Kennosuke, below, boasts of just such a tally."},
+      {"anchor": "swallow either vinegar or konjac", "note": "<i>Konnyaku</i> (konjac) is a firm, near-tasteless jelly made from the corm of the devil&#8217;s-tongue plant, about as bland a food as a Japanese kitchen offers. &#8216;A man who will take neither vinegar nor konjac&#8217; is a proverb for one so contrary that nothing whatever will move him."},
+      {"anchor": "served, too, as a constable's informer", "note": "A <i>meakashi</i>: a commoner, very often a reformed gambler or ex-convict, employed off the books by the town constables as a thief-taker and informer. Yohei&#8217;s past explains why he can read Toshiz&#333;&#8217;s trade at a glance and why his blood is up."},
+      {"anchor": "Kennosuke the man-cutter", "note": "<i>Hitokiri</i>, &#8216;man-cutter&#8217;: the era&#8217;s word for its political assassins, a handful of whom (Kirino among them, see ch34) became legends. Shichiri claims the title for himself; the boast of a private count of the dead was itself a mark of the type."},
+      {"anchor": "whipped a tasuki round to bind back his sleeves", "note": "A <i>tasuki</i> is a cord looped across the back and over both shoulders to gather the long kimono sleeves out of the way of the arms; a swordsman going into a fight tied one on, here improvised from the <i>sageo</i>, the cord that secures the scabbard at the belt."},
+      {"anchor": "exposed the head on a stake", "note": "<i>Sarashi-kubi</i>: the severed head set on a spike at a public place beside a written placard naming the dead man&#8217;s offense. It was the ordinary end the loyalist bands meted out to those they killed, and the fate Toshiz&#333; grants he himself only just escaped."},
+      {"anchor": "a mere radish", "note": "<i>Daikon</i>, the big white radish: as a term of contempt it means a duffer, a nobody &#8212; used of a wooden actor or, as here, of a swordsman reckoned no threat. Shichiri had sold Toshiz&#333; to his hirelings as an easy kill."}
+    ]
+  }
+}

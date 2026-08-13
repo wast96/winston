@@ -1,0 +1,397 @@
+## The Duel at Nijō Nakasu
+
+Two kago.
+
+Bearing Toshizō and Shichiri Kennosuke, they went off at a run eastward along the moonlit high road.
+
+The moon stood at the zenith.
+
+It was a moonlit night well suited to a duel. A little past the full, it seemed, but happily there was no cloud in the sky. The tiled roofs of the quarters lay smoldering silver.
+
+After the kago had run off, into this "Yohei's" shop in Echigoya-chō three men of rōnin appearance came lumbering.
+
+They were rōnin Shichiri Kennosuke had gathered. It was, of course, a move arranged with Shichiri beforehand.
+
+"Old man. Those kago just now — where were they bound?"
+
+"I couldn't say."
+
+{j} the master answered, gruffly.
+
+"You don't know?"
+
+"That's right. All I sold was the one flask of saké and one bowl of sweet saké; where they were bound is more than I know."
+
+A man of Kyoto is not always mild. Among the cross-grained ones there are fellows you could not get to swallow either vinegar or konjac.
+
+With a glint, one of them drew his sword.
+
+It was no bluff. His eyes were bloodshot. These were men who had been raising alarms of "heaven's punishment" through the quarters, and he likely meant to cut in earnest.
+
+At this the master was at a loss.
+
+"Ah — the Nijō riverbed, it was."
+
+"You're certain?"
+
+"No mistake."
+
+"If it turns out a lie, we come back and cut you to pieces — that suit you?"
+
+"Heh. Yohei doesn't sell lies along with the rest, so set your minds at ease and be off."
+
+There is nothing so hateful as the sharp tongue of the Kyoto dialect.
+
+One of the rōnin sprang on old Yohei and knocked him down.
+
+(Why, you devils—)
+
+Yohei flew into a rage. In his young days he was a man who had gambled, done time in jail, and served, too, as a constable's informer.
+
+He ran out to the front, but by then the rōnin were gone.
+
+Yohei too, by an old hand's skill not forgotten, could read a man's bearing. He had seen through his earlier guest as one of the Shinsengumi — and none other than Hijikata Toshizō, who set the rōnin of Kyoto trembling.
+
+(Those rōnin — it's a plot to surround Hijikata-san and cut him down.)
+
+To see and yet wear the face of one who knows nothing is the Kyoto temper, and old Yohei had meant to do just that; but now that matters had come to this, the worm in his belly would not have it.
+
+He set off at a run for the Shinsengumi barracks at Kashō-chō. But the distance would be a good half a ri.
+
+***
+
+Toshizō stepped down onto the Nijō embankment.
+
+"A moon in fine measure."
+
+Below his eyes the moon fell on the Kamo River and glittered on the shallows. On the far bank stood a little row of houses, but their lamps were out already.
+
+In those days the bridge at Nijō was not one great span, the way the Sanjō bridge is. As far as the sandbar in the Kamo there ran one plank bridge, with neither railing nor handrail.
+
+And from that sandbar on to the far shore a second bridge was thrown. The sandbar between that first bridge and the second was overgrown with reeds and autumn grasses.
+
+Toshizō and Shichiri came out onto that sandbar. Each time they trod the grass the insects' cry ceased.
+
+"Shichiri, draw."
+
+{j} and Toshizō took one blade of grass between his teeth.
+
+"Oho — are we at it already?"
+
+Shichiri was calm. Waiting, no doubt, for his fellows to arrive.
+
+"Hijikata, there's no need to hurry to the land of the dead. If you like, I'll hear out your last words for your home country. …No, or rather, that certain—"
+
+"Ah — you mean Oyuki."
+
+{j} Toshizō got in first.
+
+"Just so. A fine woman, that. Have you nothing to leave word of to this Oyuki of yours?"
+
+"You're kind."
+
+Toshizō was chewing the grass. Somewhere a bell-cricket was singing, and he listened to it, still.
+
+"Hijikata, I'll tell you for good measure — I'm no longer the arm I was back in Hachiōji in Bushū. Such as I am, in Kyoto they've called me Kennosuke the man-cutter. I've cut down twenty men, I should think. Among them seven of the Shinsengumi, two of the Mimawarigumi."
+
+"How splendid for you."
+
+About this time, corps men were often cut down in the city. It may well have been the work of Shichiri and his kind.
+
+Just then, of a sudden, the creak of the plank bridge sounded, far off.
+
+From the east bank onto the second bridge, from the west bank onto the first, figures were crossing, each way. All told there would be seven or eight of them.
+
+"Hijikata — bad luck. Someone's come, it seems."
+
+{j} said Shichiri Kennosuke, from the grass some seven or eight ken off, in a voice that leapt a little.
+
+"Aye — come, it seems."
+
+{j} and Toshizō swiftly stripped off his haori and flung it away. To this brawl-hardened man it came by instinct that these were Shichiri's numbers. Unless he cut Shichiri down before the numbers came up, there was no hope at all of winning.
+
+He hitched up the skirts of his hakama. With the scabbard-cord he whipped a tasuki round to bind back his sleeves, and—
+
+"Shichiri — I come."
+
+He advanced, smoothly. Toshizō loosened his blade in its scabbard. The sword was his well-loved Izumi-no-kami Kanesada.
+
+The short-sword was a Horikawa Kunihiro.
+
+With a gleam, a pale light shone from Shichiri's clump of grass. He had drawn.
+
+Shichiri, the high guard.
+
+Toshizō, in his usual flat seigan, edged to the right by the same habit as Kondō and Okita. In Toshizō the habit ran worse still, so that his left forearm stood all but wide open.
+
+Shichiri closed the distance.
+
+At that moment the numbers finished crossing both bridges and clustered on the sandbar beside Shichiri.
+
+All of them, in silence, drew together.
+
+(Bad.)
+
+{j} thought Toshizō. He, schemer that he was, had risen to a ruse of Shichiri's almost too artless. We are samurai, you and I—, Shichiri had said. He saw into Toshizō's nature. Say "we are samurai," and he had foreseen, no doubt, that this peasant-samurai would take fire and rise to it.
+
+(I can't laugh at Kondō.)
+
+Toshizō grew angry at himself. The fault is mine. That a swordsman risen from the Jōshū peasantry, like Shichiri Kennosuke, and he, a brawler of Bushū, should—
+
+—a samurai's promise.
+
+—was that not a farce? A samurai's promise, indeed, thought Toshizō. It was a set phrase mouthed by the pedigreed samurai — gutless men bred three hundred years on hereditary stipends, hollowed out by Confucianism and a made-up Tokugawa way of the warrior — no palanquin-shrine for the likes of himself, Shichiri, and the Chōshū firebrands, the road-running men of an age of disorder, to hoist on their shoulders.
+
+At Toshizō's back was the shallows.
+
+On the sandbar there was not a single tree to take for a shield.
+
+(Is tonight the last?)
+
+Of course, in every fight he steeled himself so. There is no way to win a fight but to set it in your mind that your life is forfeit, and go in striking.
+
+Shichiri's blade would be two shaku seven sun, at the least.
+
+The sword reached toward heaven while its shadow sank down, to his feet, into the earth. Enemy though he was, it was a splendid stance.
+
+Shichiri was closing the distance. Shichiri's fellows, drawn along with him, pressed forward too, in one flat push.
+
+Meaning, no doubt, to pen Toshizō against the edge of the shallows.
+
+"Hey."
+
+{j} Shichiri laughed.
+
+"Back in Bushū you gave me many a cup of hot water to swallow; but tonight, it seems, is where the bond is cut."
+
+"—"
+
+Toshizō held a sullen silence. The other pressed on, inch by inch, but Toshizō gave not so much as half a step, letting the distance close as it would, all the one way. Without rare nerve it could not be done so.
+
+As ever, the flat seigan.
+
+"Hijikata, once you're gone, Kyoto will grow quiet."
+
+"You talk a great deal."
+
+So Toshizō meant to say, but his voice, for all that, came out hoarse. Sweat ran down his cheek.
+
+Shichiri—
+
+the high guard, unchanged.
+
+Already, through several exchanges since the Bushū days, he knew Toshizō's habits with the sword through and through. Against a man like Toshizō it was best to open with a small stroke. And to the left forearm — laid open, by habit.
+
+"—"
+
+Shichiri, with a battle-shout, drew him on.
+
+Toshizō did not move.
+
+Shichiri stepped in.
+
+He sprang up.
+
+From the high guard, like a lightning-flash, he struck down at Toshizō's left forearm.
+
+But an instant before—
+
+Toshizō drew together the two fists that gripped the hilt, turned the blade with a flash aslant to the left, and at the same instant opened his body to the right. Faster, of course, than the eye could follow.
+
+Clang—
+
+{j} and the sparks that scattered were the Izumi-no-kami Kanesada meeting, with its back-ridge, Shichiri's falling blade. Shichiri's blade was flung up. His body broke open.
+
+In that instant Toshizō's Izumi-no-kami Kanesada drew a great arc through the empty air and had cut Shichiri Kennosuke straight down the face, from brow to chin, clean in two.
+
+Faster than the corpse could fall, Toshizō's body had leapt three ken forward.
+
+One man's flank.
+
+Then another's, a right diagonal cut.
+
+Toshizō leapt forward and forward.
+
+Onto the plank bridge.
+
+To hold his left and right upon the plank bridge — there was no other way to save himself from this place of death.
+
+***
+
+Old Yohei came running into the barracks at Kashō-chō and made his plea to the gate-guard.
+
+The gate-guard carried the word in haste to the captain of the First Unit, Okita Sōji.
+
+In truth Okita, come back from the city patrol, was feverish as was his way and had lain down without even taking off his hakama; but he sprang up.
+
+"First Unit — you'll follow me. We're bound for the Nijō riverbed."
+
+He had already darted into the stable in the yard.
+
+The corps kept several horses, and of these two were Kondō's mounts. The white one among them had been a gift from the lord of Aizu, and was reckoned a fine beast.
+
+"The gate — open the gate!"
+
+{j} shouting so, Okita set the saddle and cinched the girth in great haste. Borrowed without leave, of course.
+
+No sooner was he in the saddle than, with a burst, he sprang out through the main gate, which had been flung open in a splay to left and right.
+
+The road lay bright.
+
+Straight up the Horikawa he went, north, and at the crossing of the Nijō avenue he turned east; there he bound up both sleeves with a tasuki, and by the time he had come to Nishi-no-tōin, Kamanza, Shinmachi, Koromodana, he had tied a sweat-band about his brow.
+
+Toshizō had worked his way, at last, to the eastern end of the plank bridge.
+
+But his adversaries knew their business too. Behind him, on the plank bridge, two; before him, on the sandbar, three.
+
+Picked men, it seemed, and formidable. Fearsomely skilled, and not one of them gave a step.
+
+The moment Toshizō spun his back, in the force of the turn he struck the enemy on the bridge with a one-handed blow. There was a dull sound against the flank, but it did not cut. Grease had worked its way over the blade, no doubt.
+
+Swiftly he sheathed the sword.
+
+The enemy from the sandbar who struck at the opening, his own flank laid full open in the posture of it, went tumbling into the stream in a mist of blood.
+
+Toshizō had drawn the Horikawa Kunihiro.
+
+By the rule for a melee, he had chosen a great short-sword near two shaku long.
+
+But now a cut to the head would not serve. To spring at the face with a short blade would be too great a gamble.
+
+One of those on the sandbar side stepped up onto the bridge, stamped two or three times, and thrust — hard.
+
+Toshizō drew back half a step and, with a glint, shouldered the sword against his left shoulder.
+
+The man was thrown off by the unlooked-for guard. In that instant Toshizō sprang in and cut off his right forearm.
+
+It was at that moment that Okita Sōji's horse came bounding up onto the embankment.
+
+Leaping down from the saddle and loosing the horse, running down the embankment, he—
+
+"Hijikata-san!"
+
+{j} cried out, in a shrill voice rare for this young man.
+
+"—"
+
+Toshizō could not answer. With the short blade, do what he would, he was thrown ever more onto the parry.
+
+The moment Okita rushed onto the bridge, he cut down the man at Toshizō's back in a flash, before a drop could gather.
+
+"Sōji, is it."
+
+{j} At last his voice came.
+
+"It's Sōji."
+
+Slipping past Toshizō's side, Okita gave the enemy before him a clean one-handed thrust. Without a sound, the man fell.
+
+The rest were fleeing, scattered.
+
+"How many were there?"
+
+{j} Okita said, looking about him, and sheathed his sword.
+
+"There was no time to count. Tonight, of all nights, it seems even I was fairly rattled."
+
+"You did cut them, though."
+
+{j} Okita, walking the sandbar, was counting the bodies.
+
+One of them, at Okita's feet, twitched.
+
+Toshizō started, but Okita, with no wariness at all, crouched down beside the man.
+
+"You've breath in you yet."
+
+It was the slow tone of a man passing the time of day at the roadside.
+
+"How is the wound?"
+
+Okita took a candle from his breast and, striking a flint, lit it.
+
+There was a wound on the left shoulder. But Toshizō's blade had been filmed with grease, it seemed, and it was not deep. The blow had knocked him senseless, no doubt.
+
+"This one'll live."
+
+He bared the man's shoulder, put on a blood-staunching salve, tore the hakama from a corpse nearby, and bound the wound.
+
+Laying him so on the grass, meaning perhaps to go and fetch a doctor, he crossed the plank bridge westward and away.
+
+Toshizō lay sprawled on the sandbar. From sheer exhaustion he could not keep his feet.
+
+(A queer fellow, to take such trouble.)
+
+{j} he thought of Okita.
+
+(He's a sick man himself, so the tenderness comes out of him without his meaning it.)
+
+He rolled over onto his face and put it to the water of the shallows. He drank.
+
+The water passed across his face. Feeling, of a sudden, as though he had come back to life, he raised his head.
+
+The wounded man spoke.
+
+"Forgive me."
+
+{j} It was a faint voice.
+
+(That's no concern of mine.)
+
+Toshizō was a hard-hearted thing. Sooner or later he too would come to this pass. Come to it — why, only a moment ago, had luck run against him, he would have been in this man's place. Shichiri and his kind, far from tending a wounded man, would have given him the death-stroke.
+
+Struck off the head.
+
+And set up a placard somewhere and exposed the head on a stake, past all doubt.
+
+(No concern of mine.)
+
+{j} muttering so within himself, he was edging over, on his knees, toward the wounded man.
+
+Toshizō could see well in the dark.
+
+The man had his eyes open. There was, he saw, an unexpected life in him.
+
+"I am Hijikata Toshizō."
+
+{j} The man nodded.
+
+"You fool. I am the Hijikata Toshizō who cut you. The one who tended you was a comrade of mine named Okita. You've no call to thank me."
+
+"Hijikata-san."
+
+{j} the man said, his eyes fixed on the night stars,
+
+"you were just as they said. Strong. Shichiri told me you were nothing, a mere radish, and so I joined; but when he came to draw me in, I'd have done better to stay on in my woman's house."
+
+"This woman of yours — what's her name?"
+
+{j} Toshizō asked, idly.
+
+"Osae."
+
+(What—)
+
+{j} Toshizō held his breath.
+
+"A woman with a heart cold as ice, but I can't forget her. Hijikata-san."
+
+"Mm?"
+
+"Will I live? No — even if I live, you'll only kill me over again. Before that, I want to see her."
+
+"The fight's over now. Nothing's to be gained by killing a wounded man. Okita's gone this minute to call a doctor."
+
+"Ah—"
+
+{j} He tried to rise. From gladness, no doubt.
+
+This man was an Echigo rōnin, Kasama Kijūrō. Okita saw him kindly given a doctor's care, but the wound festered, and on the tenth day he died at a doctor's house in Nijō Gokō-machi.
+
+Before he died,
+
+"the one behind it is the Shinsengumi staff officer Itō Kashitarō,"
+
+{j} he confessed.
+
+The suspicion of Itō became a settled thing.

@@ -2,7 +2,7 @@
 
 Not long after, on the twenty-second day of the twelfth month of the first year of Keiō, the commander Kondō Isami came back from his errand to Hiroshima in Geishū.
 
-The staff officer Itō Kashitarō, Takeda Kanryūsai, and Ogata Shuntarō, who had gone with him, likewise entered the new barracks at Hanashō-chō, all travel-stained.
+The staff officer Itō Kashitarō, Takeda Kanryūsai, and Ogata Shuntarō, who had gone with him, likewise entered the new barracks at Kashō-chō, all travel-stained.
 
 "Toshi, you've had hard duty while I was away,"
 

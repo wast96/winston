@@ -1,0 +1,383 @@
+## With Oyuki
+
+Outside, the sixth-month rain.
+
+Toshizō sat on the veranda of Oyuki's house, gazing vacantly at the hydrangea in the corner of the garden.
+
+"The plum rains run long this year,"
+
+{j} he murmured. Itō Kashitarō and his men, too, would be watching this rain from Kōdai-ji in the Eastern Hills, no doubt.
+
+"—"
+
+{j} It seemed that behind him Oyuki raised her face.
+
+But saying nothing, she dropped her eyes again to the needle at her knee.
+
+She was sewing. The thing on her lap, he knew, was Toshizō's crested garment with its left-mitsudomoe. But neither Oyuki nor Toshizō had ever exchanged so much as a word about it.
+
+(A strange thing.)
+
+{j} Toshizō thought.
+
+Sitting quiet like this, under one roof that the rain was wetting, he felt of a sudden as though they were a married couple who had passed long years together.
+
+Yet with Oyuki there was no bond of man and woman. Toshizō would not seek it.
+
+This man knew well that in himself the desolation that comes after holding a woman was made fiercer than in others. That it was which had made Toshizō's loves until now—
+
+no, they could hardly be called loves—
+
+unhappy ones.
+
+(A man like me, it seems, can love aright only by sitting quiet at the veranda's edge, looking at a woman and not holding her.)
+
+The garden was no more than three tsubo.
+
+Like a rented town house, it had a board fence close before the eye, and beyond it stood a stranger's house.
+
+"The hydrangea suits a narrow garden."
+
+It was no sarcasm.
+
+"Do you think so?"
+
+{j} Oyuki bit off her thread.
+
+"I was born into the house of an Edo foot-guard permanently stationed in the city, and married into a house of the same rank, so of gardens I know only these narrow town gardens. At my birth-home, and at my husband's house, hydrangeas were planted."
+
+"Ah — now that you say it, Oyuki-san, you seem to paint nothing but hydrangeas."
+
+"And never tire of them."
+
+Oyuki laughed with her shoulders, but as she made no sound, Toshizō, with his back to her, did not see it.
+
+"Was your husband, too, fond of the hydrangea?"
+
+{j} There was a faint jealousy in Toshizō.
+
+"No."
+
+{j} Oyuki said, without raising her face.
+
+"Fond or unfond of it… He may, perhaps, have died without ever noticing that hydrangeas grew in his own garden at all."
+
+"A stranger to this flower, then."
+
+"And not to the flower only — to my painting, as well—"
+
+"A stranger."
+
+"Yes."
+
+{j} Oyuki's voice was small.
+
+Her married life had been a short one, it seemed; and Oyuki, perhaps, had found no place where her heart met her dead husband's.
+
+Toshizō, watching the rain, imagined this and that.
+
+"What sort of husband was he?"
+
+A thing better not asked, he thought, even as he asked it. But Oyuki showed, in a firm tone, just the attitude he had half expected.
+
+"He was a good man."
+
+Even had she been discontented with the man while he lived, she was not a woman to speak ill of the dead.
+
+"No doubt. I've never had a wife, so I wouldn't know, but marriage seems a good thing."
+
+"………"
+
+Oyuki, of set purpose, would not be drawn.
+
+"My brother used to say—"
+
+{j} and again Toshizō was on about home.
+
+"'Me and my woman can talk through the soles of our feet. I'll be napping, and she has only to look at the soles of my feet — ah, he's thirsty, she says, or, now he's angry about something.'"
+
+"My."
+
+{j} Oyuki laughed aloud, at last.
+
+"Was that your brother Tamesaburō? Or the late Hayato-sama?"
+
+"No — my youngest elder brother, Daisaku."
+
+"Ah — the doctor at Shimo-someya" (present-day Fuchū City).
+
+Oyuki had come to remember all of Toshizō's brothers and sisters and household. His youngest elder brother Daisaku, six years apart from Toshizō, had been adopted by a doctor of Shimo-someya village named Kasuya Senryō, and had changed his name to Ryōjun.
+
+He was too fine a swordsman to waste on doctoring; from his childhood he had had his first lessons from Kondō's adoptive father Shūsai, and had risen to the mokuroku grade.
+
+He had a gift for verse, too. He made Chinese-style poems in the manner of San'yō, and by way of poetry-names styled himself Gyokushū and Shūsai. More than that, he was a fine hand at calligraphy, and, asked by the wealthy houses of the neighborhood, would write bold, sweeping characters on their sliding doors and the like. Even now some of Ryōjun's calligraphy remains in that district.
+
+"A hero too good to waste on medicine, this one, but he can't abide thunder. Let it start to rumble and he'll gulp down great cups of wine in a fluster and drop straight off, snoring. The village folk of Shimo-someya used to laugh that Ryōjun's snores were louder than the thunder."
+
+"Your brother Tamesaburō, and this one too — you all have a gift for verse. And you as well, Hijikata-sama, of course."
+
+"Nonsense."
+
+Toshizō, in plain truth, turned red. To have his own clumsy haiku brought up was a thing this man could never abide.
+
+"We're all of us botched work. Poor in poetic fancy, poor in poetic gift, and yet full of hot blood. We put our poem not into words but into our own outlandish deeds."
+
+"That, too, is a poet. With a single life, you are each writing a single poem."
+
+"The rōnin gathered in Kyoto are mostly of that sort, I suppose."
+
+"The Shinsengumi too?"
+
+"Well, I daresay. Though I don't rightly know."
+
+"The staff officer Itō Kashitarō-sama and the rest, they say, have taken a great many of the men and become the Imperial Court's own guard."
+
+"You're well informed."
+
+"But it's the talk of the whole city. And besides—"
+
+{j} Oyuki stopped her needle,
+
+"you have risen in the world, Hijikata-sama,"
+
+{j} she said, in a small voice.
+
+"You mean the shogunal-retainer business?"
+
+{j} he said, with his back to her. He seemed somewhat out of temper.
+
+By the drift of the times, and to make plain on which side its colors flew, the whole Shinsengumi had agreed to be raised into the shogun's retainers.
+
+That it was formally handed down had been only a few days before: the tenth of the sixth month, the third year of Keiō.
+
+Kondō Isami, the commander, became a commander of a Great-Guard unit; the vice-commander Toshizō, a captain of a Great-Guard unit.
+
+As hatamoto posts these were considerable ones; one may understand Kondō as ranking something like general-in-chief of the shogun's bodyguard, and Toshizō as its captain.
+
+The Shinsengumi's jokin — its officers — were, every one, raised into the Great Guard. The inspectors, who ranked with the jokin, became each a Great-Guard associate. The rank-and-file men were treated as below the privilege of audience; yet even they were now the shogun's direct retainers, who, had the world been otherwise, would have looked down on the samurai of the domains as mere "rear-vassals."
+
+"Nothing much has changed, really."
+
+{j} Toshizō said, drawing back a little from the veranda's edge.
+
+The wind, it seemed, had shifted, and the rain came driving in under the eaves, spraying in gust after gust.
+
+"In rain like this the Kamo will be running high. I heard just now that the plank bridge at Kōjinguchi had been washed away."
+
+"The times, too, are running high."
+
+Oddly, Oyuki seemed today to want to choose such topics. For all her manner, she was uneasy, in this way and that, about Toshizō, no doubt.
+
+With Itō's separation,
+
+the Shinsengumi, the shogunate's guard;
+
+the Goryō-eji, the Court's guard—
+
+{j} so the colors were now made plain.
+
+Or rather, Itō's Goryō-eji might well be called Satsuma's hired soldiers. Satsuma, no doubt, thought of Itō's faction as a flying column for the day it should raise troops in Kyoto.
+
+Among the domains that kept troops in Kyoto, the Aizu domain — under whom Kondō's Shinsengumi took its quarters — and the Satsuma domain that stood against it held, by far, the largest forces.
+
+Satsuma, no doubt, wished to have for itself the like of what the Shinsengumi was to Aizu — a flying column of its own.
+
+In a manner of speaking, Itō's faction might be called Satsuma's Shinsengumi.
+
+The pay of Itō's faction, who had set their headquarters at Gettsuin in Kōdai-ji, came out of the Satsuma mansion's commissary, its provisioning office, and its baggage-train office — the quartermaster's department. Those who had drawn Itō's faction in were the Satsuma samurai Ōkubo Ichizō (later Toshimichi) and Nakamura Hanjirō (later Kirino Toshiaki), both long on close terms with Itō. They treated Itō's faction with great favor: their food, for one thing, ran to a lavish eight hundred mon a man a day.
+
+But he was a man of Itō Kashitarō's stamp. In his heart he would surely not have been content to sit as Satsuma's running-dog.
+
+"The Emperor's hatamoto"—
+
+{j} that was his intention. It was the same wild, extraordinary scheme Kiyokawa Hachirō had once conceived; but Kiyokawa had died without bringing it to pass.
+
+The Emperor had not one soldier. Ieyasu had seen to it that he had none. Under the Tokugawa order, the troops were held by the shogun and the daimyō.
+
+Itō Kashitarō's faction meant to be the Emperor's "private soldiers," and in fact they were permitted the use of the sixteen-petalled chrysanthemum crest, and hung about the gate of their headquarters at Gettsuin a curtain dyed with that forbidden crest. In other words, Itō was, one might say, the Emperor's Shinsengumi.
+
+"The times keep changing,"
+
+{j} said Toshizō.
+
+"strange ones come out of them, too."
+
+"They gossip in the city that one day a great fight will break out between Kashō-chō (the Shinsengumi) and Kōdai-ji (the Goryō-eji) — is it true?"
+
+"It's a lie."
+
+{j} Toshizō came into the room.
+
+"Oyuki-san, never mind that — I go back to Edo before long, on official business. My first time in Edo since I came up to the capital."
+
+"Oh."
+
+Oyuki nodded, as if to say, you must be glad.
+
+"Have you no message for anyone? For your sake, Oyuki-san, I'll play the courier."
+
+"Tatami-iwashi,"
+
+{j} Oyuki said, of a sudden, and colored.
+
+It is a dried sheet of whitebait, a food not to be had in Kyoto.
+
+"Tatami-iwashi?"
+
+Toshizō laughed aloud. How like Oyuki. It seemed to carry to him, with the warmth of a life lived, the very smell of the kitchen and the sitting-room of the low samurai house where Oyuki was born.
+
+"You like a thing like that, Oyuki-san?"
+
+"I love it."
+
+{j} Her face bent down over her sewing, she was chuckling.
+
+"What a fine person you are."
+
+"And how does liking tatami-iwashi make me a fine person?"
+
+"Well—"
+
+{j} Toshizō cleared his throat. This trick of squaring up to press him even on some trifle — she was an Edo woman after all. Nothing at all like the Kamigata women Kondō loved.
+
+"I only thought it a charming thing to say."
+
+"Is that a charming thing?"
+
+Oyuki did not raise her eyes. Only the hand that held the needle moved, in small, fine stitches.
+
+"…You do take me up on every word."
+
+"I contradict you, don't I?"
+
+{j} She laughed with her shoulders.
+
+"Keep talking like that, and I'll find myself wanting to hold you."
+
+"—Eh?"
+
+{j} As if to say so, Oyuki's breath stopped. But her eyes were lowered, and only her hands moved on.
+
+Moving still, she said,
+
+"You may hold me, if you like. I shouldn't mind."
+
+"………"
+
+It was Toshizō's turn now for his breath to stop. What he did after that, he did not know.
+
+Such a thing had never happened with any woman before. Always another eye of Toshizō's had watched what Toshizō did, and judged it, and now and then given cold directions.
+
+"Oyuki-san—"
+
+After that thing was over, Toshizō's eyes went so gentle one might have thought him another man.
+
+Oyuki, too—
+
+(This man—)
+
+{j} within her was a vivid astonishment. Had he been a man with such gentle eyes as this?
+
+"Forgive me. With you alone I had not meant to do such a thing; but you were at fault too. You stole my heart from me."
+
+"That heart of yours…"
+
+{j} Oyuki, playing, made as if to look for it.
+
+"where might it be?"
+
+"I've no idea."
+
+{j} Toshizō rose to his feet.
+
+"Rolling about somewhere at the root of the hydrangea in the garden, likely enough."
+
+Into the rain Toshizō went out.
+
+The wind had died down, but the rain came hard, spattering on the umbrella.
+
+Within the umbrella, Toshizō was alone, in the mood of one cloistered. He walked on with the lingering scent of Oyuki.
+
+***
+
+Toshizō's official business was the recruiting of corps men in Edo.
+
+"Toshi, this time you go."
+
+{j} Kondō asked him.
+
+The corps men were dwindling. The causes: death in the fighting, and besides that seppuku within the corps, desertion, death by sickness.
+
+And now, on top of that, the split of Itō's faction. Openly, fifteen officers had left with Itō; but among those still remaining within the corps there were, by Toshizō's reckoning, some ten whom Itō Kashitarō had left behind on purpose, as spies to sow disorder within, and several others besides whose conduct was suspect.
+
+The numbers would dwindle further still.
+
+And yet, now that the Shinsengumi had become a regular force under the shogunate's own establishment, its men direct retainers, the numbers were needed all the more.
+
+At present, a hundred-odd.
+
+He wanted fifty more, each one worth a thousand men.
+
+"Itō's people at Kōdai-ji, too, seem to mean to raise troops in the Kantō before long,"
+
+{j} said Kondō.
+
+"I've heard as much. Mr. Sa's doing, I suppose."
+
+"Hm — Mr. Sa."
+
+"Mr. Sa" was Saitō Hajime.
+
+A comrade since the Edo days, captain of the Third Unit, and the corps' master-of-arms in swordsmanship.
+
+He had bolted to Itō's faction.
+
+That was for show; he had become a spy to search out the movements of Itō's faction.
+
+"Sooner or later, if we leave things as they are, it'll come to a great fight in the city,"
+
+{j} said Kondō.
+
+"A fight in the city would be a bad business,"
+
+{j} said Toshizō.
+
+"A bad business. So long as we hold, under the Kyoto Protector, the charge of keeping the peace."
+
+"In the end it might touch off a war between the Aizu and Satsuma domains."
+
+"Toshi — have you a plan?"
+
+"I have."
+
+Toshizō said that to avoid a clash of body against body, there was nothing for it but to lure out the enemy's chief, Itō Kashitarō, alone, and strike him down.
+
+"Will Itō rise so easily to that hook?"
+
+"He'll rise."
+
+{j} Toshizō laughed.
+
+"Even I rose to Shichiri Kennosuke's hook and went ambling off alone to the Nijō riverbed. And when I went, out came all that crowd, just as you'd expect."
+
+"That was a slip. Not like you, Toshi."
+
+"No — even you, drawn out like that, would have bitten. That's how it is."
+
+"How what is?"
+
+"A man strong in confidence and self-regard in all things is just the one who slips. He thinks himself clever, and is taken in by a trick fit to fool a child."
+
+"In any case—"
+
+{j} said Kondō,
+
+"the Edo recruiting comes first. When you get back to Edo and South Tama, give my regards to everyone. Toshi — say what you will, you go home a hatamoto of consequence, a captain of the Great Guard under the great shogunate itself. It's a fine feeling."
+
+"Nonsense."
+
+"No — to have risen this far on a single sword, there've been none like you and me since the Warring States, I should think."
+
+That year, the third of Keiō.
+
+At the end of the seventh month, Toshizō made ready his travel gear and set out for Edo.

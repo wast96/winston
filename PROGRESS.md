@@ -1046,3 +1046,131 @@ see below). 33 of 71 chapters translated.
   dittography, no U+200B lines, no doubled headings, no mojibake. Expressive
   gikun furigana continue and are treated as semantic glosses, never romanized.
 - No source-note stream (grepped each chapter for \[\d+\]: none present).
+
+## Batch 8 (ch34-ch38) — COMPLETE
+
+与兵衛の店 / 二条中洲の決闘 / 菊章旗 / お雪と / 江戸日記
+(Yohei's Place / The Duel at Nijō Nakasu / The Chrysanthemum Banner / With
+Oyuki / Edo Diary). Notes 235 to 272 (38 this batch). Continuous note number
+now 272. Glossary 296 rows. 38 of 71 chapters translated.
+
+### Checks (all green)
+
+- Parity by construction (make_bilingual): ch34 194/194, ch35 196/196,
+  ch36 195/195, ch37 190/190, ch38 184/184.
+- verify_unit numbers: 0 unresolved every chapter (--noise data/noise.txt).
+- check_align / check_content: OK across all 38 units. qc_entities: 0 misses.
+- check_apparatus: 0 failures / 0 warnings. All note anchors verified
+  (ch34 9, ch35 8, ch36 7, ch37 7, ch38 7 = 38 anchors ok).
+- check_register --ref: all within tolerance. em-dash/1k: ch34 11.2, ch35 13.0,
+  ch36 16.8, ch37 12.6, ch38 12.2 (ref 12.7). Contractions/1k: ch34 16.9,
+  ch35 27.8, ch36 15.6, ch37 15.5, ch38 36.4 (ref 24.9). ch36's low contraction
+  rate is correct: it is Itō's formal set-piece debate plus Shinohara's classical
+  memoir quotes, deliberately formal (left alone per the register-drift rule).
+- Build: qa_epub PASS (272/272/272 refs/bodies/backlinks). epubcheck 5.1.0:
+  0 fatals / 0 errors / 0 warnings / 0 infos.
+- Test suite: only the known "hook stands down on template stub" FAIL (expected,
+  template-only). All other tests pass.
+
+### Parity misses caught and fixed (self-QC)
+
+- ch37: an EXTRA "{j} Toshizō laughed." was invented after 「あるさ」 (the source
+  goes straight from the reply to the 集団と集団 narration). make_bilingual's
+  191-vs-190 count refused the write; a positional re-read located and removed
+  it. Also fixed a dropped お雪→"she" attribution flagged by qc_entities
+  (restored to "Oyuki said").
+- ch38: 小石川小日向柳町 was first rendered "Koishikawa Kohinata Yanagi-chō";
+  check_content flagged it against the glossary's decided "Yanagichō in Kohinata,
+  Koishikawa" (from the Edo-dōjō chapters). Corrected to the glossary form.
+
+### GLOSSARY CASCADE CORRECTION: 花昌町 Hanashō-chō → Kashō-chō (whole-book)
+
+- The Shinsengumi's Kashō-chō barracks (also 不動堂村 / Fudōdō-mura) was rendered
+  "Hanashō-chō" in B07 (ch31, ch33) WITHOUT consulting the furigana. The source's
+  own ruby glosses 花昌町 as かしょうちょう (all-on'yomi ka-shō-chō); "Hanashō"
+  (kun+on) was the error class the furigana rule exists to catch (cf. Yamanami,
+  Toshima). Corrected to "Kashō-chō" everywhere: edited out/ch31_reading.md and
+  out/ch33_reading.md, re-derived their en.json, keyed 花昌町 → "Kashō-chō", and
+  rebuilt. check_content re-verified ch31/ch33/ch35/ch36 clean; no "Hanashō"
+  remains. This is the B08 analogue of the B07 常州→Hitachi cascade.
+
+### Notes added this batch (38 total: 235-272)
+
+- ch34 (9): Sennyū-ji/Kaikō-ji + the Goryō-eji name origin; the cooper/wholesaler
+  wordplay; Kirino (Nakamura Hanjirō); the Hōgyoku hokku album (41 verses,
+  corroborated); gidayū; amazake; koiguchi-o-kiru; the Kumano oath-paper;
+  arrow-bamboo (yadake).
+- ch35 (8): the two-span Nijō bridge and its sandbar (nakasu); tenchū; konjac +
+  the vinegar/konjac proverb; meakashi; hitokiri; tasuki/sageo; sarashi-kubi;
+  daikon (radish) as insult.
+- ch36 (7): the chrysanthemum crest / Goryō-eji (formed Keiō 3/3/10 = 14 Apr
+  1867, guards of Kōmei's tomb; Aburanokōji ahead — dates exact); Tōshō
+  Daigongen + sei-i taishōgun; the Lord-Tōdō by-blow legend; kiyari; the
+  "May-wind-through-the-belly" idiom; Shinohara's memoir (a loser's account);
+  Takeda's assassination by Saitō (1867, corroborated).
+- ch37 (7): the Edo foot-guard (okachi/jōfu) — Oyuki's class; Ōkubo Ichizō
+  (Toshimichi); the ōgoban / Great Guard promotion (Keiō 3/6/10, jikisan status,
+  corroborated); baishin (rear-vassal) vs jikisan + omemie; the mokuroku grade;
+  Rai San'yō; tatami-iwashi (whitebait).
+- ch38 (7): the honjin / sekifuda billeting system; the Tsukiji Hotel / opening
+  of Edo; the Kiheitai; the anpotsu palanquin; Ishida Powder / Koryōsan (the
+  family medicines, Toshizō's peddler past); the Taisei Hōkan (Keiō 3/10/14 =
+  9 Nov 1867, exact); nishiki-o-kazaru ("home in glory").
+
+### NOT re-noted this batch (already covered, left alone)
+
+- the hour of the Dog (ch01); season-word / kigo (ch30); the three guards
+  jōdan/chūdan/gedan (ch08 — so seigan/jōdan not re-noted here); Izumi-no-kami
+  Kanesada, Horikawa Kunihiro, the Kotetsu (ch12/17/23); sonnō-jōi / Expel-the-
+  Barbarian & Revere-the-Emperor (ch13); Ieyasu (ch10); Nihon Gaishi (ch30);
+  jikisan / direct-retainer & hatamoto (ch02/25/27/33); Emperor Kōmei (ch13);
+  the left-mitsudomoe crest omen (ch32); Hino / Ishida village / Takahata Fudō /
+  Satō Hikogorō / Tennen Rishin-ryū (early Tama chapters); seppuku (ch18).
+
+### Glossary rows added this batch (net +16 to 296)
+
+- ch34 (7): Arai Tadao (新井忠雄), Kanō Michinosuke (加納鵰雄 roster variant of
+  加納道之助), Nakamura Hanjirō (中村半次郎), Yohei (与兵衛), Sennyū-ji (泉涌寺),
+  Kaikō-ji (戒光寺), Takahata Fudō (高幡不動).
+- ch35 (3): Kashō-chō (花昌町 — the cascade correction), Horikawa Kunihiro
+  (堀川国広, keyed; already rendered so in ch12/17/31), Kasama Kijūrō (笠間喜十郎).
+- ch36 (4): Mōnai Arinosuke (毛内有之介), the Goryō-eji (御陵衛士), Kōdai-ji
+  (高台寺), Tomiyama Yahei (富山弥兵衛, keyed; ch30 rendered so).
+- ch37 (2): Ōkubo Ichizō (大久保一蔵), Gettsuin (月真院).
+- ch38 (0): 慶喜 rendered "Yoshinobu" and 桃井 "Momonoi" by hand (both appear in
+  built chapters ch28/29/ch07 rendered so; left unkeyed to avoid cascade;
+  reconcile at B15). Ōkubo/Kirino glosses already keyed.
+
+### Noise rules added this batch
+
+- ch34-ch37: none needed (existing name/place numeral rules covered 七里, 二郎,
+  三樹三郎, 彦五郎, 二条, 三条, etc.; 一 as "a/one/single" and real quantities
+  resolved cleanly).
+- ch38 (4): 一ツ橋 (Hitotsubashi), 十軒町 (Jikken-chō), 二十騎町 (Nijikki-chō),
+  四六時中 (shirokujichū idiom).
+
+### Digitization glitches / source oddities this batch
+
+- None of substance. Source stays clean digital text through ch34-ch38: no
+  dittography, no U+200B lines, no doubled headings, no mojibake. Shiba's own
+  bracketed editorial glosses inside dialogue and quoted memoir (（紅葉の名所）,
+  （都下府中市）, （利通）, （近藤・土方）, （ここは失政という意味か）, etc.) were
+  PRESERVED as his, rendered as parentheses or bracketed glosses.
+- No source-note stream (grepped each chapter for \[\d+\]: none present).
+
+### Fact-check verdicts this batch (real scholarship; no LLM sources)
+
+- Hōgyoku hokku-shū: 41 verses, spring/plum predominant, compiled spring 1863,
+  held at the Hijikata Toshizō Museum, Hino — CORROBORATED.
+- Nakamura Hanjirō = Kirino Toshiaki, Satsuma, one of the Bakumatsu "four
+  man-cutters", died with Saigō at Shiroyama 1877 — CORROBORATED.
+- Goryō-eji formed Keiō 3/3/10 (14 Apr 1867), guards of Emperor Kōmei's tomb at
+  Sennyū-ji, HQ at Kōdai-ji Gettsuin; Aburanokōji killing later that year —
+  CORROBORATED (novel's date exact).
+- Takeda Kanryūsai assassinated by Saitō Hajime on the Takeda road, 1867 —
+  CORROBORATED. (武田観柳斎 = Kanryūsai; NOT 武田耕雲斎 Kōunsai, the Mito man.)
+- Ōkubo Ichizō = Ōkubo Toshimichi (1830-1878) — CORROBORATED.
+- Taisei Hōkan: shogun Tokugawa Yoshinobu returned governing power Keiō 3/10/14
+  (9 Nov 1867), accepted next day — CORROBORATED (novel's date exact).
+- Tsukiji Hotel (Teppōzu), Japan's first Western hotel, begun 1867 for foreign
+  residents — CORROBORATED.

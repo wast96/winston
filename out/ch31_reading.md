@@ -12,7 +12,7 @@ The two who came all the way to the entrance to see him off—the Aizu elder Tan
 
 {j} so they pressed him.
 
-By this time the Shinsengumi had built new barracks at Hanashō-chō (there is no such place-name now; it lay about Samegai, Shichijō, Horikawa, and in those days went also by the name of Fudōdō-mura) and the whole corps had moved there. From Kurodani in the eastern hills to the new barracks at Hanashō-chō was a good two ri across the city of Kyoto.
+By this time the Shinsengumi had built new barracks at Kashō-chō (there is no such place-name now; it lay about Samegai, Shichijō, Horikawa, and in those days went also by the name of Fudōdō-mura) and the whole corps had moved there. From Kurodani in the eastern hills to the new barracks at Kashō-chō was a good two ri across the city of Kyoto.
 
 What Toshima Kihee and the others feared was whether, in this rain and this dark, Toshizō could truly get back to the barracks without mishap.
 

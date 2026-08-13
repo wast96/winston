@@ -1008,6 +1008,54 @@
       "pinyin": "Hirosawa Hyōsuke",
       "status": "attested",
       "note": "Hirosawa Saneomi (1834&#8211;1871), a Ch&#333;sh&#363; official who became a councillor of the Restoration government and was assassinated in 1871; Hy&#333;suke was an earlier name."
+    },
+    "新井忠雄": {
+      "en": "Arai Tadao",
+      "pinyin": "Arai Tadao",
+      "status": "decided",
+      "note": "An inspector of the Shinsengumi and one of It&#333;&#8217;s confidants from the Edo days; he left with It&#333;&#8217;s faction."
+    },
+    "加納鵰雄": {
+      "en": "Kanō Michinosuke",
+      "pinyin": "Kanō Michinosuke",
+      "status": "decided",
+      "note": "A corporal of the Shinsengumi in It&#333;&#8217;s faction; 鵰雄 is a roster variant for the same man written 道之助 elsewhere (see ch27)."
+    },
+    "中村半次郎": {
+      "en": "Nakamura Hanjirō",
+      "pinyin": "Nakamura Hanjirō",
+      "status": "attested",
+      "note": "Nakamura Hanjir&#333; (1838&#8211;1877), later Kirino Toshiaki: a Satsuma swordsman of the Jigen-ry&#363; reckoned one of the &#8216;four man-cutters&#8217; of the Bakumatsu, close to Saig&#333; Takamori. He rose to general in the imperial army and fell with Saig&#333; at Shiroyama in the Satsuma Rebellion of 1877."
+    },
+    "与兵衛": {
+      "en": "Yohei",
+      "pinyin": "Yohei",
+      "status": "decided",
+      "note": "The keeper of the night sak&#233;-shop that gives the chapter its name."
+    },
+    "笠間喜十郎": {
+      "en": "Kasama Kijūrō",
+      "pinyin": "Kasama Kijūrō",
+      "status": "decided",
+      "note": "An Echigo r&#333;nin drawn into the ambush; he died of his wound days later, naming It&#333; as the man behind it."
+    },
+    "毛内有之介": {
+      "en": "Mōnai Arinosuke",
+      "pinyin": "Mōnai Arinosuke",
+      "status": "decided",
+      "note": "An inspector of the Shinsengumi (also known by the name Kenmotsu) who left with It&#333;&#8217;s faction."
+    },
+    "富山弥兵衛": {
+      "en": "Tomiyama Yahei",
+      "pinyin": "Tomiyama Yahei",
+      "status": "decided",
+      "note": "A corporal of the Shinsengumi who went over to It&#333;&#8217;s faction."
+    },
+    "大久保一蔵": {
+      "en": "Ōkubo Ichizō",
+      "pinyin": "Ōkubo Ichizō",
+      "status": "attested",
+      "note": "&#332;kubo Toshimichi (1830&#8211;1878), the Satsuma statesman who, with Saig&#333; and Kido, drove the Restoration and then built the Meiji state; Ichiz&#333; was his earlier name. He was assassinated in 1878."
     }
   },
   "places": {
@@ -1442,6 +1490,42 @@
       "pinyin": "Bakan",
       "status": "attested",
       "note": "The old name for the strait and port at Shimonoseki, the western mouth of the Inland Sea, in Ch&#333;sh&#363; territory."
+    },
+    "泉涌寺": {
+      "en": "Sennyū-ji",
+      "pinyin": "Sennyū-ji",
+      "status": "attested",
+      "note": "An ancient temple in Kyoto&#8217;s Higashiyama, mortuary temple of the imperial house."
+    },
+    "戒光寺": {
+      "en": "Kaikō-ji",
+      "pinyin": "Kaikō-ji",
+      "status": "attested",
+      "note": "A sub-temple within the grounds of Senny&#363;-ji, where It&#333;&#8217;s faction met."
+    },
+    "高幡不動": {
+      "en": "Takahata Fudō",
+      "pinyin": "Takahata Fudō",
+      "status": "attested",
+      "note": "A temple of Fud&#333; My&#333;-&#333; in the Tama country of Bush&#363;, near Hijikata&#8217;s home village of Ishida; the family kept ties to it."
+    },
+    "花昌町": {
+      "en": "Kashō-chō",
+      "pinyin": "Kashō-chō",
+      "status": "decided",
+      "note": "The site of the Shinsengumi&#8217;s last Kyoto barracks (also called Fud&#333;d&#333;-mura), near Samegai, Shichij&#333;, and the Horikawa; no such place-name survives today. The source glosses the name kash&#333;-ch&#333;."
+    },
+    "高台寺": {
+      "en": "Kōdai-ji",
+      "pinyin": "Kōdai-ji",
+      "status": "attested",
+      "note": "A temple in Kyoto&#8217;s Higashiyama; the Gory&#333;-eji fixed their headquarters at its sub-temple Gettsuin, whence they were also called the K&#333;dai-ji party."
+    },
+    "月真院": {
+      "en": "Gettsuin",
+      "pinyin": "Gettsuin",
+      "status": "attested",
+      "note": "A sub-temple of K&#333;dai-ji; the Gory&#333;-eji made it their headquarters, whence they were called the K&#333;dai-ji party."
     }
   },
   "organizations": {
@@ -1570,6 +1654,12 @@
       "pinyin": "Ikedaya",
       "status": "attested",
       "note": "The inn at the west end of Sanj&#333;-kobashi, kept by one S&#333;bei, where the loyalists met and where Kond&#333;&#8217;s party struck."
+    },
+    "御陵衛士": {
+      "en": "the Goryō-eji",
+      "pinyin": "Goryō-eji",
+      "status": "attested",
+      "note": "&#8216;Guards of the Imperial Tomb&#8217;: the loyalist band It&#333; formed on breaking with the Shinsengumi in 1867, given the charge of tending Emperor K&#333;mei&#8217;s grave at Senny&#363;-ji."
     }
   },
   "terms": {
@@ -1722,6 +1812,12 @@
       "pinyin": "Nihon Gaishi",
       "status": "attested",
       "note": "Rai San&#8217;y&#333;&#8217;s <i>Unofficial History of Japan</i> (1827), the stirring, imperial-centered history that did as much as any book to shape the loyalist feeling of the age. See ch12."
+    },
+    "堀川国広": {
+      "en": "Horikawa Kunihiro",
+      "pinyin": "Horikawa Kunihiro",
+      "status": "attested",
+      "note": "A short-sword of the Kyoto smith Horikawa Kunihiro (c.1531&#8211;1614); Toshiz&#333;&#8217;s companion blade to the long Izumi-no-kami Kanesada (see ch12, ch17)."
     }
   }
 }
