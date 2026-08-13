@@ -602,6 +602,42 @@
       "en": "Oda Hidenobu",
       "pinyin": "Oda Hidenobu",
       "status": "attested"
+    },
+    "摩利洞玄": {
+      "en": "Mari Dōgen",
+      "pinyin": "Mari Dōgen",
+      "status": "decided",
+      "note": "The old Kōga master Gen'i owes his life to; born Ban Tōnai (伴藤内) of the Ban house, retired as 洞玄 Dōgen. Bears the Kōga byname 摩利/摩利支天 (Marishiten); called 甲賀ノ摩利 'Mari of Kōga'."
+    },
+    "洞玄": {
+      "en": "Dōgen",
+      "pinyin": "Dōgen",
+      "status": "decided",
+      "note": "Bare name of Mari Dōgen, used throughout the narration."
+    },
+    "望月刑部左衛門": {
+      "en": "Mochizuki Gyōbuzaemon",
+      "pinyin": "Mochizuki Gyōbuzaemon",
+      "status": "decided",
+      "note": "Gyōbuzaemon Shigehisa (重久) of the Mochizuki house of Kōga; raised Kohagi and taught her the Kōga arts; died at Ishida Mitsunari's Kyoto mansion."
+    },
+    "刑部左衛門": {
+      "en": "Gyōbuzaemon",
+      "pinyin": "Gyōbuzaemon",
+      "status": "decided",
+      "note": "Bare name of Mochizuki Gyōbuzaemon in dialogue."
+    },
+    "抜関斎": {
+      "en": "Hakkansai",
+      "pinyin": "Hakkansai",
+      "status": "decided",
+      "note": "Buddhist name of Sasaki (Rokkaku) Yoshikata (六角義賢), last lord of the Sasaki of Ōmi; Kohagi's true father. Later took the further name 承禎入道 Jōtei."
+    },
+    "承禎入道": {
+      "en": "Jōtei",
+      "pinyin": "Jōtei",
+      "status": "decided",
+      "note": "Later Buddhist name of Yoshikata / Hakkansai after his fall and tonsure in Kōga."
     }
   },
   "places": {
@@ -1243,6 +1279,12 @@
       "en": "Yamato-kōji",
       "pinyin": "Yamato-kōji",
       "status": "attested"
+    },
+    "釜山城": {
+      "en": "Pusan castle",
+      "pinyin": "Fusan-jō",
+      "status": "decided",
+      "note": "Pusan (Busan), the first Korean fortress taken in the 1592 invasion. Added so the entry does not collide with 山城 (Yamashiro) as a substring."
     }
   },
   "terms": {
@@ -1407,6 +1449,24 @@
       "pinyin": "shichihōde",
       "status": "decided",
       "note": "The shinobi art of transforming into seven social types (monk, yamabushi, komūsō, mendicant conjuror, sarugaku player, merchant, ordinary man). Self-explained in the text."
+    },
+    "摩利支天": {
+      "en": "Marishiten",
+      "pinyin": "Marishiten",
+      "status": "attested",
+      "note": "Marīcī, the deva of the heat-shimmer; guardian deity of warriors and of the Iga/Kōga ninja. The Kōga byname of surpassing adepts."
+    },
+    "甲賀三郎": {
+      "en": "Kōga Saburō",
+      "pinyin": "Kōga Saburō",
+      "status": "attested",
+      "note": "Legendary founding ancestor of Kōga ninjutsu, hero of the medieval 甲賀三郎 tale."
+    },
+    "甲賀文": {
+      "en": "Kōga letter",
+      "pinyin": "kōgabumi",
+      "status": "decided",
+      "note": "Fictional Kōga calling-card: a single Sanskrit glyph on a slip, left as a ninja's greeting-token when entering another's territory."
     }
   }
 }

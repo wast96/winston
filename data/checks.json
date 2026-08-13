@@ -1,23 +1,25 @@
 {
-  "_about": "Config for check_content.py / check_structure.py: maps each unit id to its translation (docs) and source (sources). Extend as batches complete.",
-  "docs": {
-    "ch01": "out/ch01_reading.md",
-    "ch02": "out/ch02_reading.md",
-    "ch03": "out/ch03_reading.md",
-    "ch04": "out/ch04_reading.md",
-    "ch05": "out/ch05_reading.md",
-    "ch06": "out/ch06_reading.md",
-    "ch07": "out/ch07_reading.md",
-    "ch08": "out/ch08_reading.md"
-  },
-  "sources": {
-    "ch01": "data/zh/ch01.txt",
-    "ch02": "data/zh/ch02.txt",
-    "ch03": "data/zh/ch03.txt",
-    "ch04": "data/zh/ch04.txt",
-    "ch05": "data/zh/ch05.txt",
-    "ch06": "data/zh/ch06.txt",
-    "ch07": "data/zh/ch07.txt",
-    "ch08": "data/zh/ch08.txt"
-  }
+ "_about": "Config for check_content.py / check_structure.py: maps each unit id to its translation (docs) and source (sources). Extend as batches complete.",
+ "docs": {
+  "ch01": "out/ch01_reading.md",
+  "ch02": "out/ch02_reading.md",
+  "ch03": "out/ch03_reading.md",
+  "ch04": "out/ch04_reading.md",
+  "ch05": "out/ch05_reading.md",
+  "ch06": "out/ch06_reading.md",
+  "ch07": "out/ch07_reading.md",
+  "ch08": "out/ch08_reading.md",
+  "ch09": "out/ch09_reading.md"
+ },
+ "sources": {
+  "ch01": "data/zh/ch01.txt",
+  "ch02": "data/zh/ch02.txt",
+  "ch03": "data/zh/ch03.txt",
+  "ch04": "data/zh/ch04.txt",
+  "ch05": "data/zh/ch05.txt",
+  "ch06": "data/zh/ch06.txt",
+  "ch07": "data/zh/ch07.txt",
+  "ch08": "data/zh/ch08.txt",
+  "ch09": "data/zh/ch09.txt"
+ }
 }

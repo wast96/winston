@@ -154,3 +154,30 @@
 二階
 # a shinobi blade of 1 shaku 5 sun (欟一尺五寸): the value is carried in English as "a shaku and a half"
 一尺五寸
+# ch09 — Kōga roster and other name-numerals (source-side; the numeral is part of a name)
+# Tarao Shirōbei (多羅尾四郎兵衛): the 四 is the name — "Shirōbei"
+四郎兵衛
+# Yamanaka Jūrō / Ogawa Magojūrō (…十郎): the 十 is the name — "Jūrō"
+十郎
+# various …八郎 (源八郎/新八郎/勘八郎/杉山八郎): the 八 is the name — "Hachirō"
+八郎
+# Yamagami Tōshichirō (藤七郎): the 七 is the name — "Tōshichirō"
+七郎
+# …三郎 (大原源三郎; and 甲賀三郎 Kōga Saburō): the 三 is the name — "Saburō"
+三郎
+# Noda Gorō (五郎): the 五 is the name — "Gorō"
+五郎
+# Tongū Shihō-no-suke (四方介): the 四 is the name — "Shihō"
+四方
+# Hatta Kansuke (八田): the 八 is the surname — "Hatta"
+八田
+# Mikumo Shinkurando (三雲): the 三 is the surname — "Mikumo"
+三雲
+# Ueda Mikawa-no-kami (三河守): the 三 is Mikawa — "Mikawa"
+三河
+# Rokkaku (六角) Yoshikata: the 六 is the name — "Rokkaku"
+六角
+# Marishiten mantra (娜莫三満多… samanda): the 三 is a transliteration syllable
+三満多
+# "fourteen or fifteen" (十四、五): age approximation; 五 here reads 15, carried as "fifteen"
+十四、五

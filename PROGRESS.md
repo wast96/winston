@@ -1179,3 +1179,106 @@ Kōga (opener already on folio 302) turns to Kōga — presumably Kohagi's true 
 - **Trap for the next session:** `assemble.py chNN a b` WRITES data/zh/chNN.txt and
   will clobber a hand transcription. Redirect it or back up data/zh/chNN.txt first;
   the coverage grep must run against the HAND file, not the welded one.
+
+## Batch B09 — ch09 甲賀ノ摩利 / Mari of Kōga (printed folios 302-337)
+
+**Scope done end to end.** ch09 body begins on folio 302 after the 甲賀ノ摩利 title
+(しかし、前田玄以は風間五平が思ったほど甘い男ではなかった。) and its tail SPILLS onto
+folio 338 (PDF 340), five paragraphs before the 奇妙な事故 title, ending
+「わるい虫じゃ」/ 黒阿弥は苦虫を嚙みつぶしたような顔を作った。 Those spillover paragraphs are
+translated as part of ch09; B10 must NOT re-translate them (ch10 body begins after the
+title with 錯綜した関係にある京の忍者のあいだに、ひとつの真空地帯ができた。).
+
+### CRITICAL: a scanner double-feed inside this chapter (corrects the survey offset note)
+The survey said "offset 0 through folio 302 ... +2 drift across ~338-397." The real
+mechanism, verified this batch by reading every folio and the OCR: **PDF pages 326 and
+327 are DUPLICATE leaves** (re-scans of folios 324 and 325; confirmed by identical OCR
+and by the running-head folios reading 324, 325 on those PDF pages). The true sequence
+resumes at **PDF 328 = folio 326**. So:
+- PDF 302-325 == folios 302-325 (offset 0)
+- **PDF 326, 327 = folios 324, 325 (DUPLICATES; skipped)**
+- **PDF 328-339 = folios 326-337 (folio = PDF minus 2)**
+- PDF 340 = folio 338 = ch10 opener (matches the kickoff's "PDF 340 = printed 338")
+No content was lost: folio 325's cliffhanger (…彼自身の胸に) continues cleanly at PDF 328
+(…響くものがある。), and PDF 326/327 only repeat folios 324/325, which were transcribed
+directly from PDF 324/325. **B10-B13: the +2 drift begins at folio 326 (PDF 328), i.e.
+folio = PDF - 2 from PDF 328 onward through this span; build data/pagemap accordingly.**
+The coverage grep was run over PDF 302-339 with 326/327 excluded.
+
+### Checks run (all green)
+- **Transcription:** hand-built data/zh/ch09.txt from the page images (324 body paragraphs
+  + title). Coverage cross-check: extracted every 3+-kanji compound from the raw OCR
+  (PDF 302-339, dups 326/327 excluded) and confirmed each appears in the hand file; all
+  115 "missing" hits were OCR garbles of content present (e.g. 塵利支天→摩利支天,
+  承丁入道→承禎入道, the roster names, the mantra). No drops.
+- **check_numbers** (--noise data/noise.txt): 0 unresolved (324 pairs).
+- **check_structure / verify_unit:** parity 324 | 324 OK; anchors 11 ok.
+- **check_align:** median 9.15 en/han, 17 short-line outliers (all short dialogue lines,
+  in line with the accepted ch08 pattern; no missing text).
+- **qc_entities:** 0 misses (top: 甲賀 54, 洞玄 43, 玄以 40, 伊賀 38, 黒阿弥 20).
+- **check_content:** OK across all units (272 name occurrences in ch09, all in the paired
+  paragraph; two initial 摩利洞玄/"Mari Dōgen" displacements fixed).
+- **check_register** (--ref out/ch01_reading.md): **1.21x** the ch01 reference
+  (contractions 19.0/1k vs 15.8; em-dash 14.6/1k; rhythm CV 0.81). Dialogue-heavy
+  chapter contracted as written, so it sits ABOVE the reference, not below; no post-hoc
+  contraction pass needed (the recurring stilted failure mode was avoided).
+- **qa_epub:** PASS (34 files, 27 documents, 77 notes ref/body/backlink match, all links
+  resolve). **epubcheck 5.1.0:** 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+### Figures
+find_figures.py 302-339 returned nothing; eyeballed every page. ch09 is text-only (like
+ch01-ch08). Empty figure list recorded as a deliberate decision.
+
+### Notes added (11 new first-appearances; book total 66 -> 77)
+Marishiten/Mārīcī (the deva behind the 甲賀ノ摩利 byname); the Udaifu (右府 = Nobunaga, court
+title); the Naifu (内府 = Ieyasu, Naidaijin); the daughter of the lord of Odani (Yodo-dono;
+the dead child Tsurumatsu, cross-ref ch03); Rokkaku/Sasaki Yoshikata (Hakkansai, Kohagi's
+real father, historical; the Kohagi tie is the novel's invention); the 1487 Magari campaign
+and shogun Yoshihisa; the fifty-three houses of Kōga; Kōga Saburō (medieval legend); Oiro
+Tayuya / Prince Shōtoku's spy (the Iga founding myth); Hideyoshi's Odawara campaign (1590);
+Nagoya castle in Hizen (the Korean-war HQ, distinct from Owari Nagoya).
+
+### NOT re-noted (already placed earlier; cross-referenced instead)
+Iga/Kōga, Tenshō/Eiroku/Kōji/Bunroku dating, the Iga Rebellion, Honnō-ji, Hideyoshi/
+Nobunaga/Ieyasu, the Hōin/Kampaku/Ōkurakyō/Ishida-office titles, Imai Sōkyū and the Sakai
+merchants, Ishida Mitsunari (石田治部少輔/三成), the Korea invasion and Konishi Yukinaga,
+Tsurumatsu/Hidetsugu, the measures (kan/koku/kanmon), rappa/shinobi/jōnin/genin, 方広寺/
+Hōkō-ji, Gifu castle, Maeda Gen'i and the Kyoto magistracy, Hattori Hanzō, おとぎ峠/Otogi Pass.
+Left deliberately unfootnoted (minor / self-explaining in the text): the 53-house roster
+names, Kyōgoku house, Ishida Masatsugu, the Korean place-names (Pusan/Tongnae/Yangsan/
+Miryang/Kimhae/Kyŏngju/Iki), Nigatsu-dō lacquer, boar's-gall folk medicine, the
+「甲賀古士訴状」 document, the 文禄/天正二十年 dual-era dating (rendered so both years show).
+
+### Renderings — reused unchanged
+All principal cast and majors from glossary.json: Tsuzura Jūzō (葛籠重蔵/重蔵), Kazama Gohei
+(風間五平/五平), Shimotsuge Jirōzaemon (下柘植次郎左衛門), Kuroami (黒阿弥), Kohagi (小萩), Imai
+Sōkyū (今井宗久), Maeda Gen'i (前田/玄以; aliases 徳善院 Tokuzen'in in prose only), Ishida
+Mitsunari (石田三成/三成), Hideyoshi/Nobunaga/Ieyasu, Iga/Kōga/Ōmi/Sakai/Gifu, 方広寺 Hōkō-ji,
+Iseya Kahei (伊勢屋嘉兵衛), おとぎ峠 Otogi Pass, the measures.
+
+### Renderings — added to glossary.json this batch
+people: 摩利洞玄 Mari Dōgen (+ bare 洞玄 Dōgen), 望月刑部左衛門 Mochizuki Gyōbuzaemon (+ bare
+刑部左衛門 Gyōbuzaemon), 抜関斎 Hakkansai (= Rokkaku Yoshikata), 承禎入道 Jōtei. terms: 摩利支天
+Marishiten, 甲賀三郎 Kōga Saburō, 甲賀文 Kōga letter (fictional device, glossary line not
+footnote). places: 釜山城 Pusan castle (added so it subsumes the 山城/Yamashiro substring in
+qc/content). The Kōga byname 甲賀ノ摩利 renders "Mari of Kōga"; the short 摩利 alone = "Mari"
+is NOT glossaried (substring of both 摩利洞玄 and 摩利支天).
+
+### noise.txt added (source-side name numerals; longest first)
+四郎兵衛, 十郎, 八郎, 七郎, 三郎, 五郎, 四方, 八田, 三雲, 三河 (roster/name numerals);
+六角 (Rokkaku); 三満多 (Marishiten mantra syllable); 十四、五 ("fourteen or fifteen", the 五
+reads 15). Real quantities kept in the English: fifty kanmon, a million koku, three hundred /
+two hundred Kōga men, fifty-three houses, nine years, ten years, ten days, half a year, a
+year or two, Tenshō 10 / Eiroku 5 & 11 / Chōkyō 1 / Bunroku 1 / Tenshō 20, 3rd month 26th day.
+
+### Where the story stands (end of ch09)
+The Kōga side is now on the board and Kohagi's secret is out: she is the daughter of Rokkaku
+(Sasaki) Yoshikata, raised in the Kōga arts by Mochizuki Gyōbuzaemon and planted on Imai
+Sōkyū by Ishida Mitsunari. Gen'i, still hunting the "capital thief," recalls the old debt
+and hires Mari Dōgen of Kōga, the aged rappa who once carried him out of the Honnō-ji trap.
+Dōgen and Jūzō each learn the other is the enemy leader; each sizes the other up (Dōgen: "a
+trial of skill between Kōga and Iga"). Then Hideyoshi leaves for the Korean war and the
+capital's shadow-war goes quiet: Jūzō, waiting for the coming collapse of the Toyotomi world,
+lies low but will NOT leave the capital; Dōgen, uneasy at the silence, stays on in Gen'i's
+grounds disguised as a shrine-keeper. Dōgen has already glimpsed the sleeping Kohagi at the
+Komatsudani villa and left a Kōga calling-card.
