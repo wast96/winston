@@ -1,0 +1,5 @@
+### Riding Without Settling the Fare
+
+There is a kind of swell who mounts a rickshaw without agreeing the fare beforehand: he need only plump himself down, give his mouth a twist and his hand a wave. The puller too knows you for a swell, and up go his flying legs and off he tears at a breakneck pace, hoping to be paid the more for it. If the fare for such a stretch of road is properly twenty coppers, then, having climbed aboard without settling it first, you must give the puller thirty at the least before he will take it with any grace.
+
+Now and then there is one who must play the swell for face's sake but pays anything but handsomely: brought to his destination, where by rights he should pay thirty coppers, he pays only twenty, or twenty-five, and sets the puller squalling in a queer strangled voice, "This kind of duck-piss-stinking 'swell'—better no swell at all!" Better, then, to fix the fare before you climb aboard, and spare yourself being cursed for a "pig" a time or two behind your back by our worthy friend from Jiangbei.

@@ -121,3 +121,23 @@
 # 十一、二 "eleven or twelve" (十一、二點鐘); the standalone 二 abbreviates 十二,
 #   so strip it only after 十一. English renders "eleven or twelve".
 (?<=十一)、二
+# 三百有零 "three hundred odd" (三百有零到手); 有零 means "and some more", the
+#   零 is "-odd", not a zero quantity. English renders "three hundred and a
+#   little over". Strip 有零 so 零 is not read as 0. (B06, ch076)
+有零
+# 萬事不管 "heeds none of the myriad affairs" (萬事); 萬 is "myriad", not a
+#   count. English renders "lets the whole world go". (B06, ch082)
+萬事
+# 零落 "scattered, sparse" (稀疏零落); the 零 is "withered/scattered", not a
+#   zero. English renders "thin and scattered". (B06, ch082)
+零落
+# 丘八 slang for a common soldier (the characters 丘+八 make up 兵); the 八 is
+#   not the number eight. English renders "soldier". (B06, ch085)
+丘八
+# 朱葆三 Zhu Baosan (name); the 三 is part of the name, not the number three.
+#   English renders "Zhu Baosan". (B06, ch088)
+朱葆三
+# 三、四十年 "thirty or forty years" (三、四十年以前); 三 abbreviates 三十, so
+#   standalone it reads as a phantom 3. English renders "thirty or forty".
+#   (B06, ch089)
+三、四十

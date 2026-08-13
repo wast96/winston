@@ -1,0 +1,7 @@
+### Water Ghosts
+
+Man is a land-dwelling animal and lives on the land; even the strong swimmer does no more than take an occasional dip for sport. But there is one kind of "water ghost" who can bore down to the sea-bottom for three days and three nights together without harm to a hair of him—a skill well worth the setting down.
+
+What is called a "water ghost" is a man, right enough, and no ghost at all; it is because he has the knack of diving to the sea-bottom that people so name him. When a ship comes to grief and men and cargo go down, it is this band of water ghosts that must be hired to dive to the bottom and grope out the bodies and the goods.
+
+The water ghost's skill must be worked at from earliest childhood: he begins beside the beach: the first step is to learn to swim, the second to learn to dive, and he keeps at it until he can go down to the very bottom. Not only can he reach the bottom; carrying dry rations, he can wait in the sea three days and three nights with never a hindrance. Able alike to go into the sea and to live on land, he is next thing to an amphibian. These men live mostly about Wusong and Hongkou, and when there is no work to be had they will go off in company to sport in the sea, being as they are of the kin of the water-realm. When the water ghost goes down he wears a protective suit of supple leather that passes the air; yet let one not long practiced in the water put it on, and he will drown in it all the same.

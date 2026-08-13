@@ -1,0 +1,5 @@
+### Eating the Plate
+
+The men in the gold trade—the brokers on the exchange, that is—are quick in their methods and sharp of eye, and shrewd besides with the abacus, so that to clear a few hundred, a few dozen, or as much as a few thousand on the day's two markets, morning and midday, is nothing out of the ordinary for them. Their proper business, to be sure, is to buy and sell on a client's behalf and take the fixed commission; but there is no end of dark dealing in it, and should a client prove a sucker of the first water—why then, begging your pardon, they will flip his threshold for him (which is to say, take him for a fool).
+
+Their tricks, besides "snatching the hat" and "scooping the hat," include the hidden art of "eating the plate." And what is "eating the plate"? Say a client wants to buy seven bars of standard gold, the price agreed at a hundred dollars the bar; when the market falls to ninety the broker buys them in, and a little later tells the client it stood at a hundred—and in that one turn his gain is already something well worth having. That is what they call "eating the plate."

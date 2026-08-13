@@ -1,0 +1,7 @@
+### Issuing Prosperity Notes
+
+A man opens a shop always in the hope that all will go smoothly and that year upon year he will turn a profit—this is the one and only aim of the man in business. But it is no easy hope to realize: let trade fall slack for a spell and the losses mount too high, and though he would keep the thing afloat there is no keeping it afloat, and the last resort is to shut up shop and be done. Yet once the doors are closed, when all the fixtures and leftover stock have been set against what he owes, there still remain many debts unpaid. The creditors—whether out of kinship or friendship, or out of years of dealing together—are in truth none of them minded to sue and press him to the wall, and this heap of debts can only be settled by issuing prosperity notes.
+
+And how is such a prosperity note issued? Say he owes Mr. A five hundred dollars, Mr. B eight hundred, Mr. C six hundred, and Mr. D three hundred: the debtor writes out a promissory note to each of the four—A, B, C and D—stating the sum owed, but with no date of repayment set down and no interest, only the words that the principal shall be repaid once the debtor's means are easy and his business thriving again. This is what they call a "prosperity note."
+
+Of those who keep a prosperity note by them, no more than one or two in a hundred ever get their money back, for at the time both the giver of the note and the taker of it are alike merely going through the motions, each to save the other's face.

@@ -1,353 +1,397 @@
 {
- "_about": "Crop-verified OCR readings for this book (audit trail + replay). The 2019 reprint is vertical-RTL Traditional; tesseract chi_tra_vert --psm 5 OCRs it at only ~85% char accuracy, too error-dense for targeted-fix replay to reconstruct a clean source. For B01 the data/zh source was therefore produced by full-page EYE-TRANSCRIPTION against magnified scans (the whole reference batch was read for the voice gate). The entries below are the readings CROP-VERIFIED at magnification (load-bearing number, proper names, systematic mangles) recorded per CLAUDE.md so the audit trail survives; page is the PDF page the crop was read on. See PROGRESS.md.",
- "ch000": [
-  {
-   "wrong": "克君慕俠",
-   "right": "郁君慕俠",
-   "page": 13,
-   "why": "author name Yu Muxia; OCR 郁->克"
-  },
-  {
-   "wrong": "格言語輯",
-   "right": "格言叢輯",
-   "page": 13,
-   "why": "Chen Diexian's book title; 叢->語"
-  },
-  {
-   "wrong": "慣在軍閣時代",
-   "right": "曩在軍閥時代",
-   "page": 13,
-   "why": "曩->慣, 閥->閣"
-  },
-  {
-   "wrong": "皇蕉",
-   "right": "皇荂",
-   "page": 13,
-   "why": "Zhuangzi Tiandi chapter tune-name 皇荂"
-  },
-  {
-   "wrong": "人酉七夕",
-   "right": "癸酉七夕",
-   "page": 13,
-   "why": "guiyou (1933) Qixi; signature date crop-verified"
-  },
-  {
-   "wrong": "西湖息養社",
-   "right": "西湖息養社",
-   "page": 13,
-   "why": "Xihu Xiyang She, signature place crop-verified (already clean)"
-  }
- ],
- "ch001": [
-  {
-   "wrong": "一潭那已二十四年",
-   "right": "一剎那已二十四年",
-   "page": 23,
-   "why": "LOAD-BEARING number crop-verified at magnification: 二十四 (24), NOT 三十四; 潭->剎"
-  },
-  {
-   "wrong": "定思金陵",
-   "right": "定鼎金陵",
-   "page": 23,
-   "why": "定鼎 (established the capital at) Jinling/Nanjing; 鼎->思"
-  },
-  {
-   "wrong": "城隍講",
-   "right": "城隍廟",
-   "page": 26,
-   "why": "City God Temple; systematic 廟->講 mangle"
-  },
-  {
-   "wrong": "南京路尋講",
-   "right": "南京路虹廟",
-   "page": 26,
-   "why": "Hong Miao on Nanjing Road; 虹->尋, 廟->講"
-  },
-  {
-   "wrong": "更商加於市、工較於業",
-   "right": "更商輟於市、工輟於業",
-   "page": 27,
-   "why": "輟 (cease) crop-verified"
-  },
-  {
-   "wrong": "鑼鼓鏡錢之類",
-   "right": "鑼鼓鐃鈸之類",
-   "page": 32,
-   "why": "gongs, drums, cymbals (鐃鈸)"
-  }
- ],
- "ch002": [
-  {
-   "wrong": "毀本動",
-   "right": "毀宋酬勳",
-   "page": 34,
-   "why": "the coded telegram phrase (real case evidence); crop-verified"
-  },
-  {
-   "wrong": "三十有二",
-   "right": "三十有二",
-   "page": 35,
-   "why": "Song's age as printed (32 sui = 30 Western); load-bearing number, verified as-printed"
-  },
-  {
-   "wrong": "電氣生刑",
-   "right": "電氣絞刑",
-   "page": 36,
-   "why": "Hong Shuzu execution as printed ('electric garrote'); record: was judicial hanging 1919"
-  }
- ],
- "ch006": [
-  {
-   "wrong": "稱冷西林、崔春煊之稱黎黃陂",
-   "right": "稱岑西林、岑春煊之稱黎黃陂",
-   "page": 42,
-   "why": "SOURCE ERROR verified as-printed: sobriquets crossed (Li Yuanhong=Li Huangpi, Cen Chunxuan=Cen Xilin in fact)"
-  }
- ],
- "ch008": [
-  {
-   "wrong": "牛露生",
-   "right": "牛霹生",
-   "page": 44,
-   "why": "Minquan Bao writer name; crop-verified 霹 (雨 radical)"
-  },
-  {
-   "wrong": "蔣著超",
-   "right": "蔣箸超",
-   "page": 44,
-   "why": "Minquan Bao writer name; crop-verified 箸"
-  },
-  {
-   "wrong": "吳雙熟",
-   "right": "吳雙熱",
-   "page": 44,
-   "why": "Butterfly-school novelist Wu Shuangre; crop-verified 熱"
-  }
- ],
- "ch009": [
-  {
-   "wrong": "薛大司",
-   "right": "薛大可",
-   "page": 46,
-   "why": "Xue Dake, Yaxiya Bao founder; crop-verified"
-  },
-  {
-   "wrong": "甚然一聲",
-   "right": "砉然一聲",
-   "page": 46,
-   "why": "砉 (crash sound); crop-verified"
-  }
- ],
- "ch014": [
-  {
-   "wrong": "三角三分",
-   "right": "三角三分",
-   "page": 57,
-   "why": "dance price as printed (0.33 dollar); load-bearing number verified"
-  }
- ],
- "ch015": [
-  {
-   "wrong": "漠溼黃家花園",
-   "right": "漕涇黃家花園",
-   "page": 59,
-   "why": "place name Caojing; OCR 漕涇->漠溼"
-  },
-  {
-   "wrong": "莘鴻銘",
-   "right": "辜鴻銘",
-   "page": 60,
-   "why": "Gu Hongming; OCR 辜->莘"
-  },
-  {
-   "wrong": "俯伏楊上",
-   "right": "俯伏榻上",
-   "page": 59,
-   "why": "couch 榻; the 2019 reprint PRINTS 楊 (poplar), a misprint for 榻 — crop-verified col.8 p59; rendered to sense"
-  },
-  {
-   "wrong": "三十金蓮",
-   "right": "三寸金蓮",
-   "page": 59,
-   "why": "bound feet 'three-inch golden lotus'; OCR 寸->十"
-  }
- ],
- "ch034": [
-  {
-   "wrong": "聞鶯",
-   "right": "聞鶯",
-   "page": 82,
-   "why": "physiognomist name Wenying, crop-confirmed (the blood-case)"
-  },
-  {
-   "wrong": "菱清",
-   "right": "菱清",
-   "page": 83,
-   "why": "physiognomist name Lingqing, crop-confirmed on the flyer"
-  }
- ],
- "ch033": [
-  {
-   "wrong": "呵坊街",
-   "right": "磨坊街",
-   "page": 80,
-   "why": "place Mill Street; OCR 磨->呵"
-  }
- ],
- "ch035": [
-  {
-   "wrong": "土老兒",
-   "right": "土老少",
-   "page": 84,
-   "why": "country-bumpkin phrase 鄉下土老少 crop-verified as printed (not the idiomatic 土老兒)"
-  }
- ],
- "ch037": [
-  {
-   "wrong": "嚴芙孫",
-   "right": "嚴芙孫",
-   "page": 87,
-   "why": "name of the gourd-diviner Yan Fusun, read on scan"
-  }
- ],
- "ch044": [
-  {
-   "wrong": "軋鹹肉",
-   "right": "斬鹹肉",
-   "page": 98,
-   "why": "vice-list item 斬鹹肉 crop-verified; 斬 (車+斤) not 軋"
-  }
- ],
- "ch049": [
-  {
-   "wrong": "釘巴",
-   "right": "釘巴",
-   "page": 104,
-   "why": "obscure beggar term 流為釘巴 crop-verified as printed (金+丁 釘, not 叮/盯)"
-  }
- ],
- "ch052": [
-  {
-   "wrong": "味園",
-   "right": "味蒓園",
-   "page": 107,
-   "why": "chapter title printed 味蒓園 (Weichun-yuan, water-shield garden = Zhang Garden); book.json TOC had 味園"
-  }
- ],
- "ch053": [
-  {
-   "wrong": "黃楚力",
-   "right": "黃楚九",
-   "page": 109,
-   "why": "name Huang Chujiu; OCR 九->力"
-  },
-  {
-   "wrong": "食勒",
-   "right": "創辦",
-   "page": 109,
-   "why": "OCR mangle 創辦"
-  },
-  {
-   "wrong": "始福",
-   "right": "始祖",
-   "page": 109,
-   "why": "OCR 祖->福"
-  },
-  {
-   "wrong": "經潤三",
-   "right": "經營三",
-   "page": 109,
-   "why": "crop-verified: reprint prints 經營三 (misprint for 經潤三/Jing Runsan); rendered as printed, footnoted"
-  }
- ],
- "ch057": [
-  {
-   "wrong": "一四〇",
-   "right": "三四〇",
-   "page": 115,
-   "why": "house number 340; crop-verified first digit is 三 not clipped 一"
-  },
-  {
-   "wrong": "陸遊",
-   "right": "陸遜",
-   "page": 115,
-   "why": "Lu Xun the Wu general 陸遜 (not writer 魯迅); crop-verified"
-  }
- ],
- "ch058": [
-  {
-   "wrong": "一元五張",
-   "right": "一元五張",
-   "page": 116,
-   "why": "gate ticket price crop-verified: one dollar / five"
-  },
-  {
-   "wrong": "每券二角",
-   "right": "每券二角",
-   "page": 116,
-   "why": "single-ticket price crop-verified: two jiao"
-  }
- ],
- "ch059": [
-  {
-   "wrong": "十八世紀",
-   "right": "十八世紀",
-   "page": 117,
-   "why": "author's dating error (events are late 19th c.); rendered as printed, footnoted"
-  },
-  {
-   "wrong": "立得",
-   "right": "立德",
-   "page": 117,
-   "why": "name Lide = R.W. Little; crop-verified"
-  }
- ],
- "ch060": [
-  {
-   "wrong": "皮曉浦",
-   "right": "皮曉浦",
-   "page": 118,
-   "why": "Englishman's name crop-verified"
-  },
-  {
-   "wrong": "能慕谷",
-   "right": "能慕谷",
-   "page": 118,
-   "why": "French Jesuit's name crop-verified"
-  },
-  {
-   "wrong": "十二文",
-   "right": "十二文",
-   "page": 118,
-   "why": "early call fee crop-verified: twelve cash"
-  }
- ],
- "ch062": [
-  {
-   "wrong": "一千多家",
-   "right": "一千多家",
-   "page": 119,
-   "why": "pawnshop count crop-verified"
-  },
-  {
-   "wrong": "十日為一期",
-   "right": "十日為一期",
-   "page": 119,
-   "why": "interest term crop-verified: ten-day period, three fen"
-  }
- ],
- "ch064": [
-  {
-   "wrong": "曹齊陳秦韓",
-   "right": "曹齊陳秦韓",
-   "page": 126,
-   "why": "riddle-1 candidate slips crop-verified"
-  },
-  {
-   "wrong": "重驚同儌羞",
-   "right": "重驚同儌羞",
-   "page": 126,
-   "why": "riddle-2 candidate slips crop-verified (儌 an unusual glyph)"
-  }
- ]
+  "_about": "Crop-verified OCR readings for this book (audit trail + replay). The 2019 reprint is vertical-RTL Traditional; tesseract chi_tra_vert --psm 5 OCRs it at only ~85% char accuracy, too error-dense for targeted-fix replay to reconstruct a clean source. For B01 the data/zh source was therefore produced by full-page EYE-TRANSCRIPTION against magnified scans (the whole reference batch was read for the voice gate). The entries below are the readings CROP-VERIFIED at magnification (load-bearing number, proper names, systematic mangles) recorded per CLAUDE.md so the audit trail survives; page is the PDF page the crop was read on. See PROGRESS.md.",
+  "ch000": [
+    {
+      "wrong": "克君慕俠",
+      "right": "郁君慕俠",
+      "page": 13,
+      "why": "author name Yu Muxia; OCR 郁->克"
+    },
+    {
+      "wrong": "格言語輯",
+      "right": "格言叢輯",
+      "page": 13,
+      "why": "Chen Diexian's book title; 叢->語"
+    },
+    {
+      "wrong": "慣在軍閣時代",
+      "right": "曩在軍閥時代",
+      "page": 13,
+      "why": "曩->慣, 閥->閣"
+    },
+    {
+      "wrong": "皇蕉",
+      "right": "皇荂",
+      "page": 13,
+      "why": "Zhuangzi Tiandi chapter tune-name 皇荂"
+    },
+    {
+      "wrong": "人酉七夕",
+      "right": "癸酉七夕",
+      "page": 13,
+      "why": "guiyou (1933) Qixi; signature date crop-verified"
+    },
+    {
+      "wrong": "西湖息養社",
+      "right": "西湖息養社",
+      "page": 13,
+      "why": "Xihu Xiyang She, signature place crop-verified (already clean)"
+    }
+  ],
+  "ch001": [
+    {
+      "wrong": "一潭那已二十四年",
+      "right": "一剎那已二十四年",
+      "page": 23,
+      "why": "LOAD-BEARING number crop-verified at magnification: 二十四 (24), NOT 三十四; 潭->剎"
+    },
+    {
+      "wrong": "定思金陵",
+      "right": "定鼎金陵",
+      "page": 23,
+      "why": "定鼎 (established the capital at) Jinling/Nanjing; 鼎->思"
+    },
+    {
+      "wrong": "城隍講",
+      "right": "城隍廟",
+      "page": 26,
+      "why": "City God Temple; systematic 廟->講 mangle"
+    },
+    {
+      "wrong": "南京路尋講",
+      "right": "南京路虹廟",
+      "page": 26,
+      "why": "Hong Miao on Nanjing Road; 虹->尋, 廟->講"
+    },
+    {
+      "wrong": "更商加於市、工較於業",
+      "right": "更商輟於市、工輟於業",
+      "page": 27,
+      "why": "輟 (cease) crop-verified"
+    },
+    {
+      "wrong": "鑼鼓鏡錢之類",
+      "right": "鑼鼓鐃鈸之類",
+      "page": 32,
+      "why": "gongs, drums, cymbals (鐃鈸)"
+    }
+  ],
+  "ch002": [
+    {
+      "wrong": "毀本動",
+      "right": "毀宋酬勳",
+      "page": 34,
+      "why": "the coded telegram phrase (real case evidence); crop-verified"
+    },
+    {
+      "wrong": "三十有二",
+      "right": "三十有二",
+      "page": 35,
+      "why": "Song's age as printed (32 sui = 30 Western); load-bearing number, verified as-printed"
+    },
+    {
+      "wrong": "電氣生刑",
+      "right": "電氣絞刑",
+      "page": 36,
+      "why": "Hong Shuzu execution as printed ('electric garrote'); record: was judicial hanging 1919"
+    }
+  ],
+  "ch006": [
+    {
+      "wrong": "稱冷西林、崔春煊之稱黎黃陂",
+      "right": "稱岑西林、岑春煊之稱黎黃陂",
+      "page": 42,
+      "why": "SOURCE ERROR verified as-printed: sobriquets crossed (Li Yuanhong=Li Huangpi, Cen Chunxuan=Cen Xilin in fact)"
+    }
+  ],
+  "ch008": [
+    {
+      "wrong": "牛露生",
+      "right": "牛霹生",
+      "page": 44,
+      "why": "Minquan Bao writer name; crop-verified 霹 (雨 radical)"
+    },
+    {
+      "wrong": "蔣著超",
+      "right": "蔣箸超",
+      "page": 44,
+      "why": "Minquan Bao writer name; crop-verified 箸"
+    },
+    {
+      "wrong": "吳雙熟",
+      "right": "吳雙熱",
+      "page": 44,
+      "why": "Butterfly-school novelist Wu Shuangre; crop-verified 熱"
+    }
+  ],
+  "ch009": [
+    {
+      "wrong": "薛大司",
+      "right": "薛大可",
+      "page": 46,
+      "why": "Xue Dake, Yaxiya Bao founder; crop-verified"
+    },
+    {
+      "wrong": "甚然一聲",
+      "right": "砉然一聲",
+      "page": 46,
+      "why": "砉 (crash sound); crop-verified"
+    }
+  ],
+  "ch014": [
+    {
+      "wrong": "三角三分",
+      "right": "三角三分",
+      "page": 57,
+      "why": "dance price as printed (0.33 dollar); load-bearing number verified"
+    }
+  ],
+  "ch015": [
+    {
+      "wrong": "漠溼黃家花園",
+      "right": "漕涇黃家花園",
+      "page": 59,
+      "why": "place name Caojing; OCR 漕涇->漠溼"
+    },
+    {
+      "wrong": "莘鴻銘",
+      "right": "辜鴻銘",
+      "page": 60,
+      "why": "Gu Hongming; OCR 辜->莘"
+    },
+    {
+      "wrong": "俯伏楊上",
+      "right": "俯伏榻上",
+      "page": 59,
+      "why": "couch 榻; the 2019 reprint PRINTS 楊 (poplar), a misprint for 榻 — crop-verified col.8 p59; rendered to sense"
+    },
+    {
+      "wrong": "三十金蓮",
+      "right": "三寸金蓮",
+      "page": 59,
+      "why": "bound feet 'three-inch golden lotus'; OCR 寸->十"
+    }
+  ],
+  "ch034": [
+    {
+      "wrong": "聞鶯",
+      "right": "聞鶯",
+      "page": 82,
+      "why": "physiognomist name Wenying, crop-confirmed (the blood-case)"
+    },
+    {
+      "wrong": "菱清",
+      "right": "菱清",
+      "page": 83,
+      "why": "physiognomist name Lingqing, crop-confirmed on the flyer"
+    }
+  ],
+  "ch033": [
+    {
+      "wrong": "呵坊街",
+      "right": "磨坊街",
+      "page": 80,
+      "why": "place Mill Street; OCR 磨->呵"
+    }
+  ],
+  "ch035": [
+    {
+      "wrong": "土老兒",
+      "right": "土老少",
+      "page": 84,
+      "why": "country-bumpkin phrase 鄉下土老少 crop-verified as printed (not the idiomatic 土老兒)"
+    }
+  ],
+  "ch037": [
+    {
+      "wrong": "嚴芙孫",
+      "right": "嚴芙孫",
+      "page": 87,
+      "why": "name of the gourd-diviner Yan Fusun, read on scan"
+    }
+  ],
+  "ch044": [
+    {
+      "wrong": "軋鹹肉",
+      "right": "斬鹹肉",
+      "page": 98,
+      "why": "vice-list item 斬鹹肉 crop-verified; 斬 (車+斤) not 軋"
+    }
+  ],
+  "ch049": [
+    {
+      "wrong": "釘巴",
+      "right": "釘巴",
+      "page": 104,
+      "why": "obscure beggar term 流為釘巴 crop-verified as printed (金+丁 釘, not 叮/盯)"
+    }
+  ],
+  "ch052": [
+    {
+      "wrong": "味園",
+      "right": "味蒓園",
+      "page": 107,
+      "why": "chapter title printed 味蒓園 (Weichun-yuan, water-shield garden = Zhang Garden); book.json TOC had 味園"
+    }
+  ],
+  "ch053": [
+    {
+      "wrong": "黃楚力",
+      "right": "黃楚九",
+      "page": 109,
+      "why": "name Huang Chujiu; OCR 九->力"
+    },
+    {
+      "wrong": "食勒",
+      "right": "創辦",
+      "page": 109,
+      "why": "OCR mangle 創辦"
+    },
+    {
+      "wrong": "始福",
+      "right": "始祖",
+      "page": 109,
+      "why": "OCR 祖->福"
+    },
+    {
+      "wrong": "經潤三",
+      "right": "經營三",
+      "page": 109,
+      "why": "crop-verified: reprint prints 經營三 (misprint for 經潤三/Jing Runsan); rendered as printed, footnoted"
+    }
+  ],
+  "ch057": [
+    {
+      "wrong": "一四〇",
+      "right": "三四〇",
+      "page": 115,
+      "why": "house number 340; crop-verified first digit is 三 not clipped 一"
+    },
+    {
+      "wrong": "陸遊",
+      "right": "陸遜",
+      "page": 115,
+      "why": "Lu Xun the Wu general 陸遜 (not writer 魯迅); crop-verified"
+    }
+  ],
+  "ch058": [
+    {
+      "wrong": "一元五張",
+      "right": "一元五張",
+      "page": 116,
+      "why": "gate ticket price crop-verified: one dollar / five"
+    },
+    {
+      "wrong": "每券二角",
+      "right": "每券二角",
+      "page": 116,
+      "why": "single-ticket price crop-verified: two jiao"
+    }
+  ],
+  "ch059": [
+    {
+      "wrong": "十八世紀",
+      "right": "十八世紀",
+      "page": 117,
+      "why": "author's dating error (events are late 19th c.); rendered as printed, footnoted"
+    },
+    {
+      "wrong": "立得",
+      "right": "立德",
+      "page": 117,
+      "why": "name Lide = R.W. Little; crop-verified"
+    }
+  ],
+  "ch060": [
+    {
+      "wrong": "皮曉浦",
+      "right": "皮曉浦",
+      "page": 118,
+      "why": "Englishman's name crop-verified"
+    },
+    {
+      "wrong": "能慕谷",
+      "right": "能慕谷",
+      "page": 118,
+      "why": "French Jesuit's name crop-verified"
+    },
+    {
+      "wrong": "十二文",
+      "right": "十二文",
+      "page": 118,
+      "why": "early call fee crop-verified: twelve cash"
+    }
+  ],
+  "ch062": [
+    {
+      "wrong": "一千多家",
+      "right": "一千多家",
+      "page": 119,
+      "why": "pawnshop count crop-verified"
+    },
+    {
+      "wrong": "十日為一期",
+      "right": "十日為一期",
+      "page": 119,
+      "why": "interest term crop-verified: ten-day period, three fen"
+    }
+  ],
+  "ch064": [
+    {
+      "wrong": "曹齊陳秦韓",
+      "right": "曹齊陳秦韓",
+      "page": 126,
+      "why": "riddle-1 candidate slips crop-verified"
+    },
+    {
+      "wrong": "重驚同儌羞",
+      "right": "重驚同儌羞",
+      "page": 126,
+      "why": "riddle-2 candidate slips crop-verified (儌 an unusual glyph)"
+    }
+  ],
+  "ch071": [
+    {
+      "wrong": "楊金大",
+      "right": "楊金奎",
+      "page": 132,
+      "why": "pickpocket's name; OCR clipped 奎 to 大, crop-verified"
+    },
+    {
+      "wrong": "韓才狗",
+      "right": "韓才狗",
+      "page": 132,
+      "why": "pickpocket's name, crop-verified"
+    }
+  ],
+  "ch073": [
+    {
+      "wrong": "標金七條",
+      "right": "標金七條",
+      "page": 135,
+      "why": "7 bars standard gold; 100/90/100 dollar prices crop-verified"
+    }
+  ],
+  "ch088": [
+    {
+      "wrong": "盛杏蓀",
+      "right": "盛杏蓀",
+      "page": 151,
+      "why": "= Sheng Xuanhuai (盛宣懷); zi Xingsun, confirmed against reprint photo caption"
+    },
+    {
+      "wrong": "朱葆三",
+      "right": "朱葆三",
+      "page": 152,
+      "why": "name; the 三 is not a numeral; confirmed against tomb & Rue Chu-Pao-San photos"
+    }
+  ],
+  "ch089": [
+    {
+      "wrong": "一百多輛",
+      "right": "一百多輛",
+      "page": 154,
+      "why": "over 100 carriages; 一二百輛 (100-200) crop-verified"
+    }
+  ]
 }

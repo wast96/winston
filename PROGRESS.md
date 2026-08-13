@@ -589,3 +589,78 @@ to end per the pipeline.
 - The huahui game gets its full note at ch065; ch066 (the result-cry "開什麼")
   cross-refs it. The little pawnshops get their note at ch062; ch069 (the
   "dropped ticket") cross-refs it.
+
+## B06 - thieves, cheats & transport (ch071-ch090) - 2026-08-13
+
+- 20 essays, PDF 134-158, printed folios 132-156. Offset printed = pdf - 2
+  confirmed at every opener. ch072 (135-136), ch075 (139-140), ch088 (153-155),
+  ch090 (157-158) are multi-page; ch073/074 etc single-page.
+- 88 notes (book-wide 360-447), 67 glossary rows, 5 reprint figures.
+- Gates all GREEN: verify_unit (parity/numbers/anchors), check_align,
+  check_structure --config, check_content --config, qc_entities (per bilingual,
+  0 misses), check_apparatus (0/0). qa_epub PASS (210 files, 447 notes resolve).
+  epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings. check_register within
+  tolerance on all 20 (essays, the "little dialogue - noisy" exempt register).
+
+### Fact-checks (CORROBORATED unless stated)
+- ch072: Wu Zhihui (吳稚暉, 1865-1953), a Kuomintang "Four Elders" and philologist.
+  Rong Zongjing (榮宗敬, 1873-1938), the "Flour King"; his Shenxin combine's 1934
+  liquidity crisis is the "cash-flow trouble," dating the piece to about 1934.
+  Chen Gongbo (陳公博, 1892-1946), Minister of Industry 1931-1935, later a Wang
+  Jingwei collaborator, executed 1946. Allusions: Lu Zhonglian (Warring States);
+  因人成事 (the Mao Sui story, Records of the Grand Historian).
+- ch074: 集團結婚, Shanghai's first municipal collective wedding was April 1935
+  (New Life Movement, Mayor Wu Tiecheng); dates the piece to 1935 or after.
+- ch081: allusions 以貌取人失之子羽 (Confucius on Tantai Ziyu, Records of the
+  Grand Historian) and 倚馬千言 (Yuan Hong, A New Account of the Tales of the World).
+- ch082: 六馬路 = Beihai Road, the sixth numbered road, laid out 1883 on the arc
+  of the old racecourse. City God Temple cross-referenced (glossed/noted earlier).
+- ch088: Sheng Xuanhuai (盛宣懷, zi 杏蓀, 1844-1916); his 1917 Shanghai funeral
+  procession ran over a mile and drew perhaps a million, filmed as China's first
+  newsreel (academic source "Spectacular Death: Sheng Xuanhuai's Funeral
+  Procession in 1917"). Zhu Baosan (朱葆三, 1848-1926), Ningbo comprador, thrice
+  head of the Chinese Chamber of Commerce; the French Concession's Rue Chu Pao
+  San was named for him (confirmed by the reprint street-sign photo). Huang Chujiu
+  (glossed B04) died January 1931 deep in debt, so his expected grand funeral was
+  dropped, dating the piece to about 1933.
+- ch089: 雲飛汽車公司 (Yunfei), a real and prominent early Shanghai taxi firm;
+  the Longfei carriage firm to Yunfei taxi transition is reported per the author.
+- Sourcing: Wikipedia / Baidu Baike / academic articles. A Grokipedia hit on Zhu
+  Baosan was DISREGARDED per rule 5 (never source LLM-written references).
+
+### Internal dating
+- This cluster carries 1934 (Rong Zongjing crisis) and 1935 (collective weddings)
+  references, mid-1930s, later than the nominal 1933 first edition. Consistent
+  with the range HANDOFF already records; footnoted at ch072/ch074/ch088.
+
+### Figures (5, all 2019-editor reprint photos; provenance stated in every caption)
+- ch072: 吳稚暉 Wu Zhihui portrait and 榮宗敬 Rong Zongjing portrait (the full-page
+  plate at pdf 136).
+- ch088: 盛宣懷（杏蓀）portrait (pdf 153); 朱葆三之墓 Zhu Baosan's tomb and
+  上海朱葆三路 the Rue Chu-Pao-San street scene (both pdf 155).
+
+### OCR / paragraphing notes
+- tesseract chi_tra_vert psm 5 only (~85%); every page eye-read at magnification
+  and data/zh hand-transcribed against the scans, as B01-B05. indents.py unusable;
+  paragraphing finalized by hand off the scan. Text bands sitting above a reprint
+  photo (ch072 top of 135 is full text; ch088 top band of 153) parsed by the
+  short-line/blank-line signal as usual; ch088's top band is a single paragraph.
+- data/noise.txt additions this batch (each a non-quantity, never masking a drop;
+  longest-first): 有零 (三百有零, "-odd"), 萬事 (myriad), 零落 (scattered),
+  丘八 (soldier-cant, the 八 not eight), 朱葆三 (name, the 三 not three),
+  三、四十 (thirty-or-forty, the 三 abbreviates 三十).
+- data/ocr_fixes.json: crop-verified names/numbers recorded for
+  ch071/ch073/ch088/ch089 (pickpocket names, gold prices, Sheng/Zhu names,
+  carriage counts).
+
+### NOT re-noted this batch (already placed; cross-referenced instead)
+- Money system (dollar / 大洋 / 小洋 / 毛 / 角 / 分 / 文): ch001 & ch014 stand;
+  ch076 (麻衣債, 五百塊/一角), ch085-ch090 (fares, coppers, dollar notes) cite
+  prices without re-noting.
+- 白相人 hoodlum (glossed earlier): used at ch072/ch080/ch082, rendered "hoodlum"
+  per the decided rendering (locked by the ch132 title "The Hoodlum's Missus");
+  its literal "man-about-town" sense is given once in the ch072 note.
+- Huang Chujiu (glossed/noted B04): ch088 adds only the death-and-canceled-funeral
+  detail. 跑馬廳 the Racecourse (glossed B05): ch082/ch089 cross-ref. 弄堂, 老虎灶,
+  小押當, 花會, 遊戲場, 洋人/租界 furniture: cross-referenced, not re-noted.
+- 洋盤 sucker (glossed here at ch073): ch078 (阿羊哥) cross-refs the pun.

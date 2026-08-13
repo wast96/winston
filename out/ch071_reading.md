@@ -1,0 +1,5 @@
+### Thieves' Tricks
+
+On the buses and trams, and in the crowded spots at every turn and corner, there are thieves who work close against people's bodies, lifting their wallets and their watches; they are called "nimble-fingers." They too have masters who pass on the craft, and they too must practise for years. In training, a silk long-gown is hung against the wall and a good heavy wallet tucked into its pocket, and morning and night, day in and day out, the apprentice works at it until he can draw the wallet out without the gown on the wall so much as stirring—only then may he graduate, and only then will his thief-master let him go out and ply the trade. Yang Jinkui and Han Caigou, lately hauled into court after a job blew up on them, have long borne the title "kings of the pickpockets," for their touch is so deft that a man may be robbed and never feel a thing!
+
+The rogues who work this pickpocketing trade once each kept to his own ground, thieving by assigned districts, so that whenever a theft came to light it was the easier to crack; but nowadays, they say, the districts are done away with, and they thieve as one.

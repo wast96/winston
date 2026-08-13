@@ -234,6 +234,54 @@
       "pinyin": "Zuǒ Zōngtáng",
       "status": "attested",
       "note": "Great Qing statesman-general (1812&#8211;1885), later Governor-General of the Two Jiang."
+    },
+    "楊金奎": {
+      "en": "Yang Jinkui",
+      "pinyin": "Yang Jinkui",
+      "status": "provisional",
+      "note": "A pickpocket named in the sketch as one of the two reigning \"kings\" of the Shanghai trade; not otherwise recorded."
+    },
+    "韓才狗": {
+      "en": "Han Caigou",
+      "pinyin": "Han Caigou",
+      "status": "provisional",
+      "note": "A pickpocket named in the sketch; not otherwise recorded. The name reads literally as \"Han the Clever Dog.\""
+    },
+    "吳稚暉": {
+      "en": "Wu Zhihui",
+      "pinyin": "Wu Zhihui",
+      "status": "attested",
+      "note": "Wu Zhihui (1865&#8211;1953), also known by his given name Wu Jingheng, one of the Kuomintang's \"Four Elders,\" classical scholar and one-time anarchist, and an elder statesman close to Chiang Kai-shek."
+    },
+    "榮宗敬": {
+      "en": "Rong Zongjing",
+      "pinyin": "Rong Zongjing",
+      "status": "attested",
+      "note": "Rong Zongjing (1873&#8211;1938), the \"Flour King,\" who with his brother Rong Desheng built the largest Chinese-owned flour-milling and cotton-spinning combine of the Republic."
+    },
+    "陳公博": {
+      "en": "Chen Gongbo",
+      "pinyin": "Chen Gongbo",
+      "status": "attested",
+      "note": "Chen Gongbo (1892&#8211;1946), a leader of the Kuomintang left and Minister of Industry from 1931 to 1935; later a chief figure of Wang Jingwei's wartime collaborationist government, executed for treason in 1946."
+    },
+    "魯仲連": {
+      "en": "Lu Zhonglian",
+      "pinyin": "Lu Zhonglian",
+      "status": "attested",
+      "note": "A Warring States persuader famed for resolving others' crises and then refusing all reward or office."
+    },
+    "盛宣懷/盛杏蓀": {
+      "en": "Sheng Xuanhuai",
+      "pinyin": "Sheng Xuanhuai",
+      "status": "attested",
+      "note": "Sheng Xuanhuai (1844&#8211;1916), courtesy name Xingsun, the late-Qing official and industrialist called the father of Chinese industry; his 1917 Shanghai funeral was legendarily grand."
+    },
+    "朱葆三": {
+      "en": "Zhu Baosan",
+      "pinyin": "Zhu Baosan",
+      "status": "attested",
+      "note": "Zhu Baosan (1848&#8211;1926), Ningbo-born Shanghai comprador and merchant magnate, thrice head of the Chinese Chamber of Commerce; a French Concession street was named for him."
     }
   },
   "places": {
@@ -489,6 +537,42 @@
       "pinyin": "Níng-Shào",
       "status": "attested",
       "note": "The prefectures of Ningbo and Shaoxing in eastern Zhejiang."
+    },
+    "吳淞": {
+      "en": "Wusong",
+      "pinyin": "Wusong",
+      "status": "attested",
+      "note": "The port and anchorage where the Huangpu meets the Yangtze, at the northern edge of greater Shanghai."
+    },
+    "虹口": {
+      "en": "Hongkou",
+      "pinyin": "Hongkou",
+      "status": "attested",
+      "note": "The district north of Suzhou Creek, then part of the International Settlement and heavily settled by Japanese."
+    },
+    "六馬路": {
+      "en": "Sixth Avenue",
+      "pinyin": "Liu Malu",
+      "status": "attested",
+      "note": "Beihai Road, sixth of the numbered east-west roads of the Settlement; laid out in 1883 on the arc of the old racecourse."
+    },
+    "華界": {
+      "en": "the Chinese city",
+      "pinyin": "huajie",
+      "status": "decided",
+      "note": "The Chinese-administered part of Shanghai, as distinct from the foreign concessions."
+    },
+    "江北": {
+      "en": "Jiangbei",
+      "pinyin": "Jiangbei",
+      "status": "attested",
+      "note": "Subei, the poorer region of Jiangsu north of the Yangtze, from which most of Shanghai's rickshaw-pullers and laborers came."
+    },
+    "閘北": {
+      "en": "Zhabei",
+      "pinyin": "Zhabei",
+      "status": "attested",
+      "note": "The industrial Chinese district north of the Settlement, full of factories and workers' quarters."
     }
   },
   "organizations": {
@@ -646,6 +730,24 @@
       "pinyin": "dàchǎng",
       "status": "attested",
       "note": "The gamblers' name for the huahui bank (also datong, 'the big tube')."
+    },
+    "龍園": {
+      "en": "Longyuan",
+      "pinyin": "Longyuan",
+      "status": "decided",
+      "note": "A long-established teahouse on Sixth Avenue, a gathering-place for bird-keepers."
+    },
+    "龍飛馬車行": {
+      "en": "Longfei",
+      "pinyin": "Longfei machehang",
+      "status": "decided",
+      "note": "The \"Dragon-Flight\" carriage company by the Racecourse, the largest of Shanghai's carriage firms."
+    },
+    "雲飛汽車公司": {
+      "en": "Yunfei Motor Company",
+      "pinyin": "Yunfei qiche gongsi",
+      "status": "attested",
+      "note": "The \"Cloud-Flight\" (Yunfei) taxi company, one of the largest and best-known of early Shanghai's motor-cab firms."
     }
   },
   "terms": {
@@ -972,6 +1074,252 @@
       "pinyin": "huàn tiāntóu",
       "status": "attested",
       "note": "An art-forgery trick using the top margin of a scroll; here, layer-splitting a painting into two."
+    },
+    "扎兒手": {
+      "en": "nimble-fingers",
+      "pinyin": "zha'er shou",
+      "status": "decided",
+      "note": "Shanghai cant for a pickpocket."
+    },
+    "失風": {
+      "en": "a job blew up",
+      "pinyin": "shifeng",
+      "status": "decided",
+      "note": "Underworld cant, literally \"to lose the wind\": to be caught, to have a job go wrong."
+    },
+    "吃豆腐": {
+      "en": "eating tofu",
+      "pinyin": "chi doufu",
+      "status": "decided",
+      "note": "Shanghai slang for taking liberties with a woman."
+    },
+    "標金": {
+      "en": "standard gold",
+      "pinyin": "biaojin",
+      "status": "decided",
+      "note": "The standardized gold bars traded on the Shanghai Gold Exchange, quoted and dealt per bar (<i>tiao</i>)."
+    },
+    "洋盤": {
+      "en": "sucker",
+      "pinyin": "yangpan",
+      "status": "decided",
+      "note": "Shanghai slang for a greenhorn easily fleeced; the intensive form <i>da yangpan</i>, \"big silver sucker,\" appears in an earlier sketch."
+    },
+    "吃盤子": {
+      "en": "eating the plate",
+      "pinyin": "chi panzi",
+      "status": "decided",
+      "note": "Brokers' cant for filling a client's order at the true market price but reporting a worse one, and pocketing the spread."
+    },
+    "喜娘": {
+      "en": "wedding-matron",
+      "pinyin": "xiniang",
+      "status": "decided",
+      "note": "The matron hired to dress and attend the bride and steer her through the marriage rites."
+    },
+    "二爺": {
+      "en": "second master",
+      "pinyin": "erye",
+      "status": "decided",
+      "note": "A male attendant hired by the day to help run a wedding or a funeral."
+    },
+    "吃百家飯": {
+      "en": "eating from a hundred households",
+      "pinyin": "chi baijia fan",
+      "status": "decided",
+      "note": "To live hand-to-mouth off casual work at many families' events; by extension, a precarious itinerant living."
+    },
+    "集團結婚": {
+      "en": "group weddings",
+      "pinyin": "jituan jiehun",
+      "status": "decided",
+      "note": "Collective civil wedding ceremonies promoted in the mid-1930s; Shanghai's municipal government held the first in April 1935."
+    },
+    "叫魂": {
+      "en": "soul-calling",
+      "pinyin": "jiaohun",
+      "status": "decided",
+      "note": "The folk ritual of calling back the soul of a child (or adult) believed startled out of its body by a fright."
+    },
+    "甲馬": {
+      "en": "spirit-paper",
+      "pinyin": "jiama",
+      "status": "decided",
+      "note": "Woodblock-printed paper offerings burned to summon or dispatch spirits."
+    },
+    "麻衣債": {
+      "en": "mourning-cloth debt",
+      "pinyin": "mayi zhai",
+      "status": "decided",
+      "note": "A loan a spendthrift heir takes against his inheritance, repayable with interest only after his father dies and he dons the hemp of mourning."
+    },
+    "印子鈿": {
+      "en": "stamp-money",
+      "pinyin": "yinzi qian",
+      "status": "decided",
+      "note": "Installment usury (standard form 印子錢); the lender stamps his seal in the borrower's passbook at each repayment."
+    },
+    "公子哥兒": {
+      "en": "young master",
+      "pinyin": "gongzi ger",
+      "status": "decided",
+      "note": "A pampered rich man's son, a playboy heir."
+    },
+    "興隆票": {
+      "en": "prosperity note",
+      "pinyin": "xinglong piao",
+      "status": "decided",
+      "note": "An IOU a failed shopkeeper gives his creditors, payable only when his business \"prospers\" again; a face-saving fiction of settlement."
+    },
+    "阿羊哥": {
+      "en": "Brother Sheep",
+      "pinyin": "a yang ge",
+      "status": "decided",
+      "note": "Shanghai cant for a moneyed fool fleeced by the pleasure-quarter girls; a sheep to be shorn, punning on yangpan the sucker."
+    },
+    "屈死": {
+      "en": "Wronged-to-Death",
+      "pinyin": "qusi",
+      "status": "decided",
+      "note": "Cant for a dupe fleeced and left unable to complain."
+    },
+    "麥克麥克": {
+      "en": "muchee-muchee",
+      "pinyin": "maike maike",
+      "status": "decided",
+      "note": "Shanghai pidgin from English \"much much\": loaded with money."
+    },
+    "水鬼": {
+      "en": "water ghost",
+      "pinyin": "shuigui",
+      "status": "decided",
+      "note": "Not a ghost but a professional salvage diver."
+    },
+    "花柳": {
+      "en": "flower-and-willow",
+      "pinyin": "hualiu",
+      "status": "decided",
+      "note": "The \"flowers and willows,\" a standing figure for the pleasure quarter and its women."
+    },
+    "賣羊": {
+      "en": "selling sheep",
+      "pinyin": "mai yang",
+      "status": "decided",
+      "note": "Shanghai abuse for a hypocrite or impostor who shows a false front; from the idiom about the sheep's head and the dog's flesh."
+    },
+    "賣相": {
+      "en": "salable looks",
+      "pinyin": "maixiang",
+      "status": "decided",
+      "note": "A presentable appearance, how well a person or thing \"sells\" by looks; still current for the presentation of goods."
+    },
+    "包探": {
+      "en": "detective",
+      "pinyin": "baotan",
+      "status": "decided",
+      "note": "A plainclothes police detective of the treaty-port force."
+    },
+    "掮客": {
+      "en": "broker",
+      "pinyin": "qianke",
+      "status": "decided",
+      "note": "A middleman or commission agent, literally a \"shoulder-carrier.\""
+    },
+    "沖鳥": {
+      "en": "flushing the birds",
+      "pinyin": "chong niao",
+      "status": "decided",
+      "note": "Taking caged songbirds out at dawn to air and sing in the open, a leisure pastime."
+    },
+    "小開": {
+      "en": "young boss",
+      "pinyin": "xiaokai",
+      "status": "decided",
+      "note": "Shanghai term for the son and heir of a shopkeeper, living at ease off the family business."
+    },
+    "沖喜": {
+      "en": "turning the luck",
+      "pinyin": "chongxi",
+      "status": "decided",
+      "note": "Rushing through a wedding for a gravely ill family member in the hope the joy will drive off the sickness."
+    },
+    "大照會": {
+      "en": "big license",
+      "pinyin": "da zhaohui",
+      "status": "decided",
+      "note": "Rickshaw-pullers' name for the concession license (as against the \"small license\" of the Chinese city)."
+    },
+    "黃包車": {
+      "en": "rickshaw",
+      "pinyin": "huangbaoche",
+      "status": "decided",
+      "note": "The man-pulled two-wheeled \"yellow-hood\" carriage, the workhorse of Shanghai's streets."
+    },
+    "丘八": {
+      "en": "soldier",
+      "pinyin": "qiuba",
+      "status": "decided",
+      "note": "Slang for a common soldier: the characters 丘 and 八 together make up 兵, \"soldier.\""
+    },
+    "漂亮人物": {
+      "en": "swell",
+      "pinyin": "piaoliang renwu",
+      "status": "decided",
+      "note": "A showy figure who wants to look the grand, open-handed gentleman; the word piaoliang means both good-looking and generous."
+    },
+    "飛毛腿": {
+      "en": "flying legs",
+      "pinyin": "feimaotui",
+      "status": "decided",
+      "note": "A fleet runner, \"flying-hair legs.\""
+    },
+    "小車": {
+      "en": "wheelbarrow",
+      "pinyin": "xiaoche",
+      "status": "decided",
+      "note": "The single-wheeled push-cart, once Shanghai's chief conveyance for goods and passengers."
+    },
+    "狗頭車": {
+      "en": "dog's-head cart",
+      "pinyin": "goutou che",
+      "status": "decided",
+      "note": "A nickname for the wheelbarrow."
+    },
+    "東洋車": {
+      "en": "rickshaw",
+      "pinyin": "dongyang che",
+      "status": "decided",
+      "note": "\"Eastern-Ocean cart,\" the rickshaw, so named as an import from Japan."
+    },
+    "大出喪": {
+      "en": "grand funeral",
+      "pinyin": "da chusang",
+      "status": "decided",
+      "note": "A lavish funeral procession mounted for a wealthy or famous person; a great public spectacle."
+    },
+    "送喪馬車": {
+      "en": "funeral carriage",
+      "pinyin": "songsang mache",
+      "status": "decided",
+      "note": "A horse-carriage, superseded by the motorcar, now used mainly to carry mourners in a funeral procession."
+    },
+    "寓公": {
+      "en": "idle rich sojourner",
+      "pinyin": "yugong",
+      "status": "decided",
+      "note": "A man of means living in retirement or self-imposed exile away from his home district, of whom Shanghai held many."
+    },
+    "繃場面": {
+      "en": "keeping up appearances",
+      "pinyin": "beng changmian",
+      "status": "decided",
+      "note": "To hold the show taut, to keep up a front."
+    },
+    "堂倌": {
+      "en": "waiter",
+      "pinyin": "tangguan",
+      "status": "decided",
+      "note": "A waiter in a restaurant or teahouse."
     }
   }
 }

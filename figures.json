@@ -164,5 +164,39 @@
       "alt": "A woman at a tiled tiger-stove counter fills a customer's tall enamel thermos flask from a boiler; a queue of people wait behind her, each holding a vacuum flask.",
       "caption": "A tiger stove supplying hot water, its customers filling their flasks. (Reprint caption: 'A tiger stove, for hot water only'. A later documentary photograph added by the 2019 editor, not a figure of the 1933 book.)"
     }
+  ],
+  "ch072": [
+    {
+      "file": "ch072_wuzhihui.png",
+      "before": "Not long ago old Mr. Wu Zhihui",
+      "alt": "A studio portrait of an elderly man with a bald crown, a wispy white moustache and goatee, in a dark Chinese gown, smiling faintly.",
+      "caption": "Wu Zhihui. (A portrait added by the 2019 editor; the label is the reprint's.)"
+    },
+    {
+      "file": "ch072_rongzongjing.png",
+      "before": "Not long ago old Mr. Wu Zhihui",
+      "alt": "A studio portrait of a stern middle-aged man with a shaved head and heavy brows, in a dark Chinese gown.",
+      "caption": "Rong Zongjing. (A portrait added by the 2019 editor; the label is the reprint's.)"
+    }
+  ],
+  "ch088": [
+    {
+      "file": "ch088_shengxuanhuai.png",
+      "before": "In former days both Sheng Xingsun",
+      "alt": "A painted portrait of an elderly Qing official in a round black cap and dark gown, with a thin grey beard.",
+      "caption": "Sheng Xuanhuai (courtesy name Xingsun). (A portrait added by the 2019 editor; the label is the reprint's.)"
+    },
+    {
+      "file": "ch088_zhubaosan_tomb.png",
+      "before": "In former days both Sheng Xingsun",
+      "alt": "A hillside grave: a tall black headstone carved 'Tomb of Mr. Zhu Baosan' beside a low stone wall with an inscribed tablet and a stone bench.",
+      "caption": "The tomb of Zhu Baosan. (A photograph added by the 2019 editor; the label is the reprint's.)"
+    },
+    {
+      "file": "ch088_zhubaosan_road.png",
+      "before": "In former days both Sheng Xingsun",
+      "alt": "A night street scene: foreign military police and sailors standing beside a bilingual street sign reading RUE CHU-PAO-SAN and, in Chinese, Zhu Baosan Road.",
+      "caption": "Rue Chu-Pao-San, the French Concession street named for Zhu Baosan. (A photograph added by the 2019 editor; the label is the reprint's.)"
+    }
   ]
 }

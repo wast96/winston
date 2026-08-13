@@ -1,0 +1,5 @@
+### A Wedding to Turn the Luck
+
+The business of "turning the luck with a wedding" is a thing the superstitious of the two provinces of Jiangsu and Zhejiang are all fond of trying. Say the master or the mistress of some house falls ill and grows daily worse, and doctors and medicine avail not a jot: at the last their thoughts turn to turning the luck. And how is the luck turned? Why, the son's betrothed, not yet married in, is fetched to the house to look in upon the invalid and open her golden lips a moment, and after being briefly received is sent back again to her mother's home.
+
+That one "turning" may, it is true, sometimes see the sick person slowly mend; but there are quite as many who, for all the luck-turning, sink past cure into the vitals and stretch out their two legs all the same. If the turning of the luck were a sure cure, then a man would have only to keep a betrothed bride not yet brought home, and whenever he fell gravely ill send for her to turn the luck a little, and he need never die—and I fear there is no such bargain to be had in all the world!
