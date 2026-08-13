@@ -336,3 +336,12 @@
 再三再四
 # Idiom 势不两立 "irreconcilable, cannot coexist"; the 两 of 两立 is not the count 2.
 势不两立
+# --- B09 (ch14) ---
+# Elided-tens approximations: 十七、八 "seventeen or eighteen", 四、五 "four or
+# five", 三、四 "three or four", 二、三 "two or three". The forms elide the ten;
+# the checker would read 八/五/四/三 as bare counts and orphan them. English
+# carries the full "N or N+1" range; NOISE strips the source approximation whole.
+十七、八
+四、五
+三、四
+二、三

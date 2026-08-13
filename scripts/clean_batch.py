@@ -211,6 +211,17 @@ UNITS = {
                        136, 161, 194, 215, 232,  # (一)-(五) Wang essay
                        198, 200, 204, 206, 208, 210],  # 一、-六、 inner list
     },
+    "ch14": {
+        "file": "15_index-split-000-0013.txt",
+        "title": "第四章 三面受敌 一往无前",
+        "drop": 2,             # running header + <h2> chapter title
+        # A very short bridge chapter: 6 <p> = one couplet-style sub-heading
+        # (L3, no number prefix, cf. ch11) + five body paragraphs (L4-8). No
+        # <br/>, no images, no set-off formatting; all five body lines end on a
+        # terminal char (。/！), so there are NO extractor mid-phrase splits.
+        "merges": [], "glued": {},
+        "standalone": [3],     # 壁垒坚强迎接多方面的挑战
+    },
 }
 
 

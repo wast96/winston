@@ -1098,3 +1098,89 @@ surname beyond the "Mr. Xu" pseudonym row.
   character references; anchors verbatim in body text, not headings).
 - First use of the `{p}` verse marker in this project (builder renders
   `<p class="verse">`; `check_structure`/`batch_artifacts` strip the prefix).
+
+## Batch B09 — ch14 (Part Two, Chapter 4: "Disgrace at Hanoi")
+
+第四章 三面受敌 一往无前 "Chapter 4. Beset on Three Sides, Ever Forward" — a very
+short bridge chapter (520 source chars), a preview of the action to come: it
+frames the operation as three phases and foreshadows its failure ("可是却失败了！").
+5 body paragraphs; 0 new notes (174 cumulative, unchanged); 0 new glossary rows.
+
+### Source handling / structure
+- drop=2 (running header `英雄无名-陈恭澍` from `<title>` + the `<h2>` chapter title),
+  CONFIRMED against `data/src_epub/OEBPS/Text/index_split_000_0013.xhtml`.
+- Exactly 6 `<p>`: ONE couplet-style sub-heading with NO number prefix (L3
+  `壁垒坚强迎接多方面的挑战`, like ch11's style — its own `<p>`, emitted `standalone`)
+  and FIVE body paragraphs (L4–L8). NO `<br/>`, NO images, NO set-off HTML.
+- All five body lines end on a terminal char (。/！), so there are NO extractor
+  mid-phrase splits — verified p-by-p against the source XHTML (merges [], glued {}).
+- NO note markers `[\d+]` present (grepped: "none present"). Confirmed no images.
+- `clean_batch.py` ch14 spec added; source conserved OK (5 body paragraphs, 1
+  sub-heading).
+
+### Checks (all green)
+- `verify_unit.py ch14`: parity 5/5; numbers 0 unresolved (with the B09 noise
+  block); anchors 0 ok (no notes).
+- `check_align.py ch14`: 5/5, median ratio 5.33 en/han, no pair strays >2.2x. The
+  high ratio is expected for a 520-char chapter (small-sample swing; narrative sits
+  ~4.55–4.76, prefaces/essays higher) — read the note, did NOT de-formalize.
+- `check_structure.py --config checks.json`: parity OK; anchors 174 unresolved 0;
+  heading levels OK.
+- `check_content.py --config checks.json`: ch14 clean (1 name occurrence, all in
+  the paired paragraph, 0 displaced). The remaining flags in the run are
+  PRE-EXISTING ch13 name-map artifacts (Miss Nguyen/Oya Kusuo/Yuan Haowen —
+  diacritic/variant forms the substring name_map cannot match), unchanged by B09;
+  the script exits 0.
+- `qc_entities.py` (reconstructed bilingual, headings stripped): 0 misses
+  (census: 汪精卫 x1, 制裁 x1).
+- `check_register.py --ref reference/B01_frozen.md`: within tolerance (contractions
+  0.0/1k, em-dash 4.0/1k vs ref 8.3, rhythm noisy — little dialogue). "shall" 0%
+  (this chapter simply has no "shall"; Chen's narrating "shall" remains deliberate
+  where it occurs elsewhere).
+- `qa_epub.py`: PASS (57 files, 50 documents, all links resolve; 174 refs/bodies/
+  backlinks). `epubcheck 5.1.0`: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- Tail verified against the source (L8 那么，败在那里？…也作了不偏不倚的文代。):
+  faithful and complete.
+
+### Numeric flags — carried vs noised
+- CARRIED in the English (real quantities): 三个阶段 → "three phases"; 两个半月 →
+  "two and a half months"; 十天 → "ten days"; 一天 → "a single day"; 两度 → "twice
+  over"; 第一/第二/最后阶段 → "first/second/last phase".
+- NOISED (elided-tens approximations; the "N or N+1" range IS carried in the
+  English), new B09 block in `data/noise.txt`: 十七、八 (→ "seventeen or eighteen"),
+  四、五 (→ "four or five"), 三、四 (→ "three or four", appears twice), 二、三 (→
+  "two or three"). Without these the checker reads the trailing 八/五/四/三 as bare
+  counts and orphans them.
+
+### Digitization glitches (rendered to plain sense; NOT footnoted — mechanical)
+- 江案 for 汪案 ("the Wang case", 江 for 汪) — appears twice (L5, L6); rendered
+  "the Wang case" both times.
+- 纯粹去百姓 for 纯粹老百姓 (去 for 老, "plain ordinary folk") — "merely so many
+  plain civilians."
+- 出卖而国家利益 for 出卖我国家利益 (而 for 我) — "selling out our nation's interests."
+- 不偏不倚的文代 for …交代 (文 for 交, "an account/reckoning") — "an even-handed
+  reckoning has been given."
+- 违涉重洋 for 远涉重洋 (违 for 远, the set phrase "travel far across the oceans") —
+  rendered "crossed far over the seas."
+
+### Notes ledger (0 this batch; 174 cumulative)
+No new notes — a very short bridge chapter, and its two allusive idioms both had
+earlier first appearances that were rendered inline without a footnote, so
+first-appearance discipline forbids newly noting them here:
+- 为虎作伥 "play the tiger's cat's-paw" — first appeared ch02 ("a tiger's
+  accomplice"), again ch13 ("playing the tiger's cat's-paw"); rendered here
+  "playing the tiger's cat's-paw" to match the most recent form.
+- 人人得而诛之 "any man might rightfully put him to death" — first appeared ch02/ch07.
+**NOT re-noted** (already covered B01–B08): the sanction euphemism 制裁, Mr. Dai /
+the Juntong, Wang Jingwei, the Republican-calendar convention, 留学生 "returned
+students", the special-police training.
+
+### Glossary rows added (0; principals unchanged at 8)
+ch14 introduces no new referent. All names/terms it uses (汪精卫 Wang Jingwei, 戴先生
+Mr. Dai, 制裁 "sanction") are already settled rows. Reused, not re-added.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch14 spec added (drop=2; merges []; glued {}; one
+  standalone couplet sub-heading). Backward-compatible.
+- `data/noise.txt` — B09 block (four elided-tens forms; see above).
+- No new notes (apparatus_merge not invoked), no new glossary rows.
