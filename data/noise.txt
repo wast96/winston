@@ -442,3 +442,7 @@
 三位一体
 # 七日一周 = "one week" (a seven-day rotation cycle); the seven is the fixed phrase. English "a week at a time".
 七日一周
+#
+# --- ch26 (B10) ---
+# 四郊 = "the outskirts / the country around the city on all sides"; 四 is the fixed compound, not the count 4. English "the outskirts".
+四郊

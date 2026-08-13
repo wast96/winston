@@ -1,2324 +1,5084 @@
 {
- "_about": "Cross-book name authority for the whole translation shelf. Consult BEFORE romanizing anything in a new book; one rendering per referent ACROSS BOOKS unless a book records a deliberate deviation (e.g. a period-flavor style like Chungking/Peiping in a 1940s memoir) in its own glossary note. Feed every new book's decided renderings back in on completion. Entries carry every rendering observed on the shelf with the books that used it; status 'reconcile' marks a live cross-book disagreement (article-only differences excluded). Sources: the nine completed books, 2026-08.",
- "terms": {
-  "万国公墓": {
-   "renderings": {
-    "International Cemetery": [
-     "huang-mulan"
-    ],
-    "the International Cemetery": [
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed-article-varies",
-   "note": "The Shanghai cemetery for the dead of all nations (<span lang=\"zh-Hans\">万国公墓</span>, &#8216;Cemetery of All Nations&#8217;), Chinese and foreign alike, on Hongqiao Road in the western outskirts (founded 1909); Stephen is buried here (ch28&#8211;ch29)."
-  },
-  "三民主义": {
-   "renderings": {
-    "Three Principles of the People": [
-     "huang-mulan"
-    ],
-    "the Three Principles of the People": [
-     "midnight",
-     "thousand-li"
-    ]
-   },
-   "category": "terms",
-   "status": "agreed-article-varies",
-   "note": "三民主义; Sun Yat-sen's doctrine of nationalism, democracy, and the people's livelihood, made the Nationalist creed. See the note at first appearance."
-  },
-  "三潭印月": {
-   "renderings": {
-    "Three Pools Mirroring the Moon": [
-     "juntong"
-    ],
-    "the Three Pools Mirroring the Moon": [
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed-article-varies",
-   "note": "A celebrated West Lake scene, an islet ringed by three small stone pagodas standing in the water."
-  },
-  "三马路": {
-   "renderings": {
-    "San Malu": [
-     "midnight"
-    ],
-    "Third Avenue": [
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "三马路; the colloquial name of Hankou Road (汉口路), the financial street of Chinese Shanghai where the securities exchange stood. See the footnote at first appearance."
-  },
-  "上海": {
-   "renderings": {
-    "Shanghai": [
-     "huang-mulan",
-     "on-a-hair-trigger",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "China&#8217;s largest city and the seat of the Party Central and its underground in this period."
-  },
-  "东方饭店": {
-   "renderings": {
-    "Oriental Hotel": [
-     "huang-mulan"
-    ],
-    "the Dongfang Hotel": [
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "organizations",
-   "status": "reconcile",
-   "note": "The Shanghai hotel (东方, 'the East') where Fourth Madam stages the storytelling that opens A-Chu's origins to him; rendered by pinyin, since the source's 东方饭店 does not map cleanly onto any one attested Republican-era English hotel name."
-  },
-  "中原": {
-   "renderings": {
-    "Central Plains": [
-     "huang-mulan"
-    ],
-    "the Central Plains": [
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "places",
-   "status": "agreed-article-varies",
-   "note": "The Central Plains (Zhongyuan) Liberated Area, linked to Chongqing by a secret line Liu Shaowen laid (ch41)."
-  },
-  "中国民权保障同盟": {
-   "renderings": {
-    "China League for the Protection of Civil Rights": [
-     "huang-mulan"
-    ],
-    "the China League for Civil Rights": [
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "organizations",
-   "status": "reconcile",
-   "note": "Civil-liberties body founded in Shanghai, December 1932 (Song Qingling, Cai Yuanpei, Yang Quan). Chapter 29 (footnoted)."
-  },
-  "中央特科": {
-   "renderings": {
-    "the Central Special Branch": [
-     "gu-shunzhang"
-    ],
-    "Central Special Branch": [
-     "huang-mulan"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed-article-varies",
-   "note": "The CCP's clandestine intelligence/security organ (established 1927-28) that Gu Shunzhang helped run under Zhou Enlai. English 'Central Special Branch' is the form used by Wikipedia (en.wikipedia.org/wiki/Central_Special_Branch); 'Special Services Section' and 'Central Department for Special Tasks' "
-  },
-  "中央警官学校": {
-   "renderings": {
-    "the Central Police Academy": [
-     "juntong",
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "organisations",
-   "status": "agreed"
-  },
-  "九江": {
-   "renderings": {
-    "Jiujiang": [
-     "midnight",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "九江; the Yangzi river-port in Jiangxi, below Mount Lu."
-  },
-  "于右任": {
-   "renderings": {
-    "Yu Youren": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1879–1964; Nationalist elder statesman, calligrapher, and president of the Control Yuan."
-  },
-  "云南路": {
-   "renderings": {
-    "Yunnan Road": [
-     "midnight",
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "云南路; a Settlement road near the racecourse; older English Yunnan Road."
-  },
-  "交际花": {
-   "renderings": {
-    "socialite": [
-     "midnight"
-    ],
-    "society flower": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "terms",
-   "status": "reconcile",
-   "note": "交际花, lit. 'a flower of society'; a fashionable woman of the demimonde who moves among wealthy men, here Xu Manli."
-  },
-  "伍豪": {
-   "renderings": {
-    "Wu Hao": [
-     "huang-mulan",
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "terms",
-   "status": "agreed",
-   "note": "An alias of Zhou Enlai, from his code name in the Awakening Society; the pivot of the fake &#8216;renunciation&#8217; notices and their rebuttal."
-  },
-  "俞济时": {
-   "renderings": {
-    "Yu Jishi": [
-     "juntong",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "兆丰公园": {
-   "renderings": {
-    "Jessfield Park": [
-     "midnight",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "兆丰公园; the large park in the western part of the International Settlement, known in English as Jessfield Park (today Zhongshan Park, 中山公园), with a lake and a small zoo."
-  },
-  "先施公司": {
-   "renderings": {
-    "the Sincere Company": [
-     "gu-shunzhang",
-     "thousand-li"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed",
-   "note": "Sincere Co., opened on Nanjing Road, Shanghai, in 1917; one of the 'four great' pre-war department stores. Cited in ch05 as commercial camouflage for moving parcels. Attested in histories of Nanjing Road commerce."
-  },
-  "兰州": {
-   "renderings": {
-    "Lanzhou": [
-     "juntong",
-     "the-longest-day-in-changan"
-    ]
-   },
-   "category": "places",
-   "status": "agreed"
-  },
-  "兰心大戏院": {
-   "renderings": {
-    "Lyceum Theater": [
-     "huang-mulan"
-    ],
-    "the Lanxin Theatre": [
-     "on-a-hair-trigger"
-    ],
-    "the Lyceum Theatre": [
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "A Shanghai theatre (the historical Lyceum Theatre); He Yashu says they saw a Shaoxing opera there (Chapter 25). Romanized 'Lanxin' to match the Lanxin Western Restaurant."
-  },
-  "关东军": {
-   "renderings": {
-    "the Kwantung Army": [
-     "on-a-hair-trigger"
-    ],
-    "Kwantung Army": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed-article-varies",
-   "note": "The Japanese army in the Northeast; staged the Mukden Incident of 18 September 1931. Chapter 28."
-  },
-  "内山书店": {
-   "renderings": {
-    "Uchiyama Bookstore": [
-     "the-whistling-wind"
-    ],
-    "the Uchiyama Bookstore": [
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed-article-varies",
-   "note": "Real. Uchiyama Kanzo's Hongkou bookshop (from 1917; moved 1929 to Scott Road), stocking Japanese and banned left-wing books; Lu Xun's haunt."
-  },
-  "军统": {
-   "renderings": {
-    "Military Statistics Bureau": [
-     "huang-mulan"
-    ],
-    "the Juntong": [
-     "juntong"
-    ],
-    "Juntong": [
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "organizations",
-   "status": "reconcile",
-   "note": "The Kuomintang's Bureau of Investigation and Statistics (secret police). The name is strictly of 1938; its use for 1931 is a mild anachronism. See the note at Chapter 4."
-  },
-  "冯玉祥": {
-   "renderings": {
-    "Feng Yuxiang": [
-     "huang-mulan",
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1882–1948; the ‘Christian General’ and warlord, at this time an anti-Japanese figure."
-  },
-  "冯雪峰": {
-   "renderings": {
-    "Feng Xuefeng": [
-     "huang-mulan",
-     "thousand-li"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1903–1976; poet, literary theorist and CCP cultural figure, liaison to Shanghai&#8217;s writers."
-  },
-  "北伐": {
-   "renderings": {
-    "Northern Expedition": [
-     "huang-mulan"
-    ],
-    "the Northern Expedition": [
-     "thousand-li"
-    ]
-   },
-   "category": "terms",
-   "status": "agreed-article-varies",
-   "note": "Real. The Nationalist-Communist military campaign (1926-28) from Guangzhou to unify China; its approach to Shanghai in 1927 is the backdrop to Cui Wentai's story."
-  },
-  "北四川路": {
-   "renderings": {
-    "North Sichuan Road": [
-     "midnight",
-     "the-whistling-wind",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "北四川路; a main road running north from the Settlement into the Hongkou district; older English North Szechuen Road."
-  },
-  "北平": {
-   "renderings": {
-    "Beiping": [
-     "huang-mulan",
-     "midnight",
-     "the-whistling-wind",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The name of Beijing under the Nationalist government (1928–49); site of the Tongyi Company&#8217;s largest creditors."
-  },
-  "十九路军": {
-   "renderings": {
-    "Nineteenth Route Army": [
-     "huang-mulan"
-    ],
-    "the Nineteenth Route Army": [
-     "thousand-li"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed-article-varies",
-   "note": "Real. Cantonese army that fought the Japanese at Shanghai in 1932, later sent against Communists in Fujian."
-  },
-  "十人团": {
-   "renderings": {
-    "the Ten-Man Team": [
-     "juntong"
-    ],
-    "Ten-Man Team": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "organisations",
-   "status": "agreed-article-varies",
-   "note": "the 1928 ten-man Liaison Group of Dai Li lore, retrojected to 1927 by the book"
-  },
-  "十六铺": {
-   "renderings": {
-    "Shiliupu": [
-     "juntong",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed"
-  },
-  "华懋饭店": {
-   "renderings": {
-    "the Cathay Hotel": [
-     "midnight",
-     "thousand-li"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed",
-   "note": "Victor Sassoon's Cathay Hotel on the Bund (今和平饭店), the most fashionable hotel of 1930 Shanghai."
-  },
-  "南京路": {
-   "renderings": {
-    "Nanjing Road": [
-     "midnight",
-     "the-whistling-wind",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Older English Nanking Road."
-  },
-  "南市": {
-   "renderings": {
-    "Nanshi": [
-     "huang-mulan",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The old South City district of Shanghai, site of the Nanshi Refugee Zone."
-  },
-  "南昌": {
-   "renderings": {
-    "Nanchang": [
-     "juntong",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed"
-  },
-  "反省院": {
-   "renderings": {
-    "reflection institute": [
-     "huang-mulan"
-    ],
-    "the Reflection Institute": [
-     "thousand-li"
-    ]
-   },
-   "category": "terms",
-   "status": "reconcile",
-   "note": "A Nationalist ‘Three People’s Principles’ re-education facility to which unconvicted political prisoners could be transferred, used as a rescue channel."
-  },
-  "史良": {
-   "renderings": {
-    "Shi Liang": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1900&#8211;1985; lawyer, the only woman of the Seven Gentlemen; first Minister of Justice of the PRC."
-  },
-  "叶挺": {
-   "renderings": {
-    "Ye Ting": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "吴佩孚": {
-   "renderings": {
-    "Wu Peifu": [
-     "huang-mulan",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Zhili-clique warlord."
-  },
-  "吴淞口": {
-   "renderings": {
-    "the Woosung mouth": [
-     "midnight"
-    ],
-    "the Wusong bar": [
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "吴淞口; the mouth of the Huangpu where it meets the Yangtze estuary, the seaward gate of Shanghai; older English Woosung."
-  },
-  "吴铁城": {
-   "renderings": {
-    "Wu Tiecheng": [
-     "huang-mulan",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Kuomintang statesman; former Guangdong governor and later overseas department minister."
-  },
-  "周伟龙": {
-   "renderings": {
-    "Zhou Weilong": [
-     "juntong",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "周恩来": {
-   "renderings": {
-    "Zhou Enlai": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1898&#8211;1976; then the real director of the Party&#8217;s underground work in Shanghai; the author&#8217;s superior."
-  },
-  "哥伦比亚路": {
-   "renderings": {
-    "Columbia Road": [
-     "juntong",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Now Panyu Road, Shanghai"
-  },
-  "唐生智": {
-   "renderings": {
-    "Tang Shengzhi": [
-     "huang-mulan",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "唐绍仪": {
-   "renderings": {
-    "Tang Shaoyi": [
-     "juntong",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1862-1938; first premier of the Republic, assassinated in Shanghai."
-  },
-  "四马路": {
-   "renderings": {
-    "Fourth Avenue": [
-     "on-a-hair-trigger",
-     "the-whistling-wind",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "A busy, crowded Shanghai street (present-day Fuzhou Road), rendered by its old foreign-settlement name (Chapter 26)."
-  },
-  "国民党": {
-   "renderings": {
-    "Kuomintang": [
-     "huang-mulan"
-    ],
-    "the Kuomintang": [
-     "thousand-li"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed-article-varies",
-   "note": "Rendered &#8216;Kuomintang&#8217; throughout (not &#8216;Nationalist Party&#8217;); the conventional English name."
-  },
-  "国民参政会": {
-   "renderings": {
-    "National Political Council": [
-     "huang-mulan"
-    ],
-    "the People's Political Council": [
-     "juntong"
-    ]
-   },
-   "category": "organizations",
-   "status": "reconcile",
-   "note": "The wartime advisory body; Dong Biwu and Deng Yingchao launched there a motion against the secret imprisonment of patriots (ch21)."
-  },
-  "复兴社": {
-   "renderings": {
-    "the Renaissance Society": [
-     "juntong"
-    ],
-    "Renaissance Society": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "organisations",
-   "status": "agreed-article-varies",
-   "note": "founded spring 1932; the book has Dai Li organizing its Special Services Section in 1931"
-  },
-  "外滩": {
-   "renderings": {
-    "the Bund": [
-     "midnight",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "外滩; the riverfront boulevard of the International Settlement (外滩公园, the park on the Bund)."
-  },
-  "外白渡桥": {
-   "renderings": {
-    "the Waibaidu Bridge": [
-     "midnight"
-    ],
-    "Waibaidu Bridge": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed-article-varies",
-   "note": "The steel bridge at the mouth of Suzhou Creek, known in the foreign settlements as the Garden Bridge."
-  },
-  "大世界": {
-   "renderings": {
-    "the Great World": [
-     "the-whistling-wind",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The famous many-storeyed amusement palace at the edge of the French Concession (opened 1917); a dance hall behind it is the scene of ch31."
-  },
-  "大光明电影院": {
-   "renderings": {
-    "Grand Theatre": [
-     "huang-mulan"
-    ],
-    "the Grand Theatre": [
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed-article-varies",
-   "note": "大光明 ('great brightness'); a famous Shanghai cinema. Here only a passing reference (the girls touting at its door)."
-  },
-  "大冶": {
-   "renderings": {
-    "Daye": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "County (now city) in Hubei where the author was sent on leaving Qincheng in 1975, her daughter's family being posted there with a geological team (ch40, ch42)."
-  },
-  "大美晚报": {
-   "renderings": {
-    "Shanghai Evening Post and Mercury": [
-     "huang-mulan"
-    ],
-    "Da Mei Wan Bao": [
-     "thousand-li"
-    ]
-   },
-   "category": "organizations",
-   "status": "reconcile",
-   "note": "Real. The Shanghai Evening Post and Mercury, American-owned and foreign-registered; Chinese edition from 16 Jan 1933."
-  },
-  "天津": {
-   "renderings": {
-    "Tianjin": [
-     "huang-mulan",
-     "midnight",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "North China treaty port; seat of the Party&#8217;s Northern Bureau."
-  },
-  "奉化": {
-   "renderings": {
-    "Fenghua": [
-     "juntong",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed"
-  },
-  "委员长": {
-   "renderings": {
-    "the Generalissimo": [
-     "juntong",
-     "thousand-li"
-    ]
-   },
-   "category": "terms",
-   "status": "agreed",
-   "note": "For Chiang; 'Chairman' would collide with the CCP usage a reader expects."
-  },
-  "孔祥熙": {
-   "renderings": {
-    "Kong Xiangxi": [
-     "huang-mulan"
-    ],
-    "H. H. Kung": [
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "reconcile",
-   "note": "H.&#160;H. Kung (1881&#8211;1967); financier and premier, husband of Song Ailing."
-  },
-  "孙中山": {
-   "renderings": {
-    "Sun Yat-sen": [
-     "huang-mulan",
-     "midnight",
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Conventional English form retained; d. 1925."
-  },
-  "孙传芳": {
-   "renderings": {
-    "Sun Chuanfang": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Warlord of the five southeastern provinces."
-  },
-  "孙科": {
-   "renderings": {
-    "Sun Ke": [
-     "huang-mulan",
-     "juntong",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1891–1973; son of Sun Yat-sen and a president of one of the Nationalist government&#8217;s Five Yuan."
-  },
-  "孤山": {
-   "renderings": {
-    "Solitary Hill": [
-     "huang-mulan",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "An islet-hill in West Lake beside which the Yu Mansion stands."
-  },
-  "孤岛": {
-   "renderings": {
-    "Solitary Island": [
-     "huang-mulan"
-    ],
-    "the Solitary Island": [
-     "the-whistling-wind"
-    ]
-   },
-   "category": "terms",
-   "status": "agreed-article-varies",
-   "note": "The name for the foreign-concession enclave of Shanghai between the Japanese occupation of the surrounding city in 1937 and the seizure of the concessions after Pearl Harbor in December 1941, during which the concessions kept a precarious neutral status."
-  },
-  "宋子文": {
-   "renderings": {
-    "T.V. Soong": [
-     "huang-mulan",
-     "wang-yaqiao"
-    ],
-    "Soong": [
-     "juntong"
-    ],
-    "T. V. Soong": [
-     "thousand-li"
-    ]
-   },
-   "category": "people",
-   "status": "reconcile",
-   "note": "Real. Nationalist finance minister 1928-1933; evoked (unnamed) by the hint that 'Mr. Song's' elder brother is a great personage and the bank does Ministry of Finance bond business."
-  },
-  "宋庆龄": {
-   "renderings": {
-    "Song Qingling": [
-     "huang-mulan"
-    ],
-    "Soong Ching-ling": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "reconcile",
-   "note": "conventional form; Sun Yat-sen's widow"
-  },
-  "宋美龄": {
-   "renderings": {
-    "Song Meiling": [
-     "huang-mulan"
-    ],
-    "Soong Mei-ling": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "reconcile",
-   "note": "1898&#8211;2003; Madame Chiang Kai-shek, youngest of the Soong sisters."
-  },
-  "山东": {
-   "renderings": {
-    "Shandong": [
-     "midnight",
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "山东; the northern coastal province; older English Shantung."
-  },
-  "巡捕房": {
-   "renderings": {
-    "concession police station": [
-     "gu-shunzhang"
-    ],
-    "police station": [
-     "huang-mulan"
-    ],
-    "the Municipal Police": [
-     "thousand-li"
-    ]
-   },
-   "category": "terms",
-   "status": "reconcile",
-   "note": "The police stations of the foreign concessions (Shanghai's International Settlement and French Concession). Their Chinese informers were 包打聽."
-  },
-  "常州": {
-   "renderings": {
-    "Changzhou": [
-     "midnight",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "A city in southern Jiangsu on the Shanghai–Nanjing line."
-  },
-  "广东": {
-   "renderings": {
-    "Guangdong": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "South China province."
-  },
-  "广州": {
-   "renderings": {
-    "Guangzhou": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed"
-  },
-  "庐山": {
-   "renderings": {
-    "Mount Lu": [
-     "huang-mulan"
-    ],
-    "Lushan": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "A mountain resort in Jiangxi where Chiang Kai-shek was staying."
-  },
-  "廖仲恺": {
-   "renderings": {
-    "Liao Zhongkai": [
-     "huang-mulan",
-     "thousand-li"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "廖承志": {
-   "renderings": {
-    "Liao Chengzhi": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1908–1983; son of Liao Zhongkai and He Xiangning, CCP leader; arrested in Shanghai in 1933 and among those the author&#8217;s circle worked to rescue."
-  },
-  "延安": {
-   "renderings": {
-    "Yan'an": [
-     "huang-mulan"
-    ],
-    "Yenan": [
-     "juntong"
-    ],
-    "Yan’an": [
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "The Communist base in northern Shaanxi; Ronghua’s wireless link runs between Shanghai and Yan’an. (The Party’s seat only from 1937; its use in the novel’s earlier setting is a mild anachronism, as with ‘Juntong.’)"
-  },
-  "张国焘": {
-   "renderings": {
-    "Zhang Guotao": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "An early CCP leader who, during the Long March, split with the Central Committee over the line of march; later defected to the Kuomintang (1897&#8211;1979)."
-  },
-  "张大千": {
-   "renderings": {
-    "Zhang Daqian": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1899&#8211;1983; one of the most celebrated modern Chinese painters."
-  },
-  "张学良": {
-   "renderings": {
-    "Zhang Xueliang": [
-     "juntong",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "张炎元": {
-   "renderings": {
-    "Zhang Yanyuan": [
-     "juntong",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "徐家汇": {
-   "renderings": {
-    "Xujiahui": [
-     "huang-mulan",
-     "the-whistling-wind",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "A district of Shanghai."
-  },
-  "忠义救国军": {
-   "renderings": {
-    "Loyal and Patriotic National Salvation Army": [
-     "huang-mulan"
-    ],
-    "the Loyal and Patriotic Army": [
-     "juntong"
-    ]
-   },
-   "category": "organizations",
-   "status": "reconcile",
-   "note": "A Dai Li / Juntong-affiliated irregular force active in the lower Yangtze during the war; its Hengyang-region commander Zhou Kuilong held the couple (ch21)."
-  },
-  "愚园路": {
-   "renderings": {
-    "Yuyuan Road": [
-     "on-a-hair-trigger",
-     "the-whistling-wind",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "A fashionable road in western Shanghai; the site of Yang Yubo’s mansion."
-  },
-  "戈登路": {
-   "renderings": {
-    "Gordon Road": [
-     "on-a-hair-trigger",
-     "the-whistling-wind",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "International Settlement street, printed in the source in Roman letters too; today Jiangning Road (江宁路)."
-  },
-  "戴季陶": {
-   "renderings": {
-    "Dai Jitao": [
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Real (1891-1949). KMT theorist of anti-communism ('Daiism'); reread Sun Yat-sen's Three Principles to exclude the Communists."
-  },
-  "戴笠": {
-   "renderings": {
-    "Dai Li": [
-     "huang-mulan",
-     "juntong",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1897–1946, head of the Nationalists' Military Statistics Bureau (军统/Juntong), the KMT secret service; Whampoa sixth class (did not graduate). Ordered and oversaw the couple's secret arrest (ch20–21)."
-  },
-  "斧头帮": {
-   "renderings": {
-    "the Hatchet Gang": [
-     "thousand-li"
-    ],
-    "Hatchet Gang": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed-article-varies",
-   "note": "Shanghai assassins' gang; linked to the killing of the China Merchants director."
-  },
-  "新华日报": {
-   "renderings": {
-    "Xinhua Daily": [
-     "huang-mulan"
-    ],
-    "the New China Daily": [
-     "juntong"
-    ]
-   },
-   "category": "organizations",
-   "status": "reconcile",
-   "note": "The Communist Party&#8217;s newspaper in the Nationalist areas."
-  },
-  "方志敏": {
-   "renderings": {
-    "Fang Zhimin": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1899–1935; CCP leader of the Northeast Jiangxi soviet; his prison diary was among the papers kept in the Tongyi vault."
-  },
-  "旗袍": {
-   "renderings": {
-    "cheongsam": [
-     "the-whistling-wind",
-     "thousand-li"
-    ]
-   },
-   "category": "terms",
-   "status": "agreed",
-   "note": "The close-fitting Chinese woman's dress (<span lang=\"zh-Hans\">旗袍</span>, <i>qipao</i>); &#8216;cheongsam&#8217; is the established English form used throughout."
-  },
-  "日本": {
-   "renderings": {
-    "Japan": [
-     "midnight",
-     "on-a-hair-trigger",
-     "the-longest-day-in-changan"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "日本; Japan, named with England as America's two rivals in the East."
-  },
-  "昆明": {
-   "renderings": {
-    "Kunming": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Capital of Yunnan."
-  },
-  "暨南大学": {
-   "renderings": {
-    "Jinan University": [
-     "huang-mulan",
-     "thousand-li"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed",
-   "note": "Overseas-Chinese university in Shanghai where Chen Gaoyong was a professor."
-  },
-  "曲江": {
-   "renderings": {
-    "Qujiang": [
-     "huang-mulan",
-     "the-longest-day-in-changan"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "County town in northern Guangdong (present-day Shaoguan); wartime relief hub."
-  },
-  "曹锟": {
-   "renderings": {
-    "Cao Kun": [
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Real (1862-1938). President of the Republic 1923-24, deposed and placed under arrest in Feng Yuxiang's 1924 coup."
-  },
-  "曾家岩": {
-   "renderings": {
-    "Zengjiayan": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The Chongqing district where the Eighth Route Army office (the '八办') stood; site of the narrator's 1942 audience with Zhou Enlai (ch20–21)."
-  },
-  "替死鬼": {
-   "renderings": {
-    "scapegoat": [
-     "juntong"
-    ],
-    "stand-in dead man": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "terms",
-   "status": "reconcile",
-   "note": "Literally a substitute-death ghost."
-  },
-  "望龙门": {
-   "renderings": {
-    "Wanglongmen": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The Chongqing site of the Juntong secret detention house where the narrator was held (ch21)."
-  },
-  "李公朴": {
-   "renderings": {
-    "Li Gongpu": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1902&#8211;1946; educator, one of the Seven Gentlemen; assassinated at Kunming in 1946."
-  },
-  "李国杰": {
-   "renderings": {
-    "Li Guojie": [
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Real. Grandson of Li Hongzhang; principal of the 1933 China Merchants embezzlement case, sentenced to eight years."
-  },
-  "李宗仁": {
-   "renderings": {
-    "Li Zongren": [
-     "huang-mulan",
-     "juntong",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Guangxi Clique leader; later acting president of the Republic of China."
-  },
-  "李鸿章": {
-   "renderings": {
-    "Li Hongzhang": [
-     "midnight",
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "李鸿章 (1823–1901); the late-Qing statesman who launched the self-strengthening state industries Wang Hefu cites as the beginning of Chinese industry."
-  },
-  "杜月笙": {
-   "renderings": {
-    "Du Yuesheng": [
-     "gu-shunzhang",
-     "huang-mulan",
-     "juntong",
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1888-1951. Foremost of the Shanghai Green Gang 'three tycoons'; first introduced ch06. Pinyin form standard (en.wikipedia.org/wiki/Du_Yuesheng)."
-  },
-  "杨杏佛": {
-   "renderings": {
-    "Yang Xingfo": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Yang Quan (1893&#8211;1933); secretary-general of the China League for the Protection of Civil Rights, assassinated 1933."
-  },
-  "杭州": {
-   "renderings": {
-    "Hangzhou": [
-     "huang-mulan",
-     "midnight",
-     "on-a-hair-trigger",
-     "the-whistling-wind",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Zhejiang provincial capital on West Lake, where the author went into hiding in 1932–33."
-  },
-  "枫林桥": {
-   "renderings": {
-    "Fenglin Bridge": [
-     "thousand-li"
-    ],
-    "Maple Grove Bridge": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "Landmark on the road out to Longhua."
-  },
-  "标金": {
-   "renderings": {
-    "standard gold": [
-     "midnight",
-     "thousand-li"
-    ]
-   },
-   "category": "terms",
-   "status": "agreed",
-   "note": "标金; bar gold of standard fineness traded for future delivery on the Shanghai exchange, the other great speculative market beside the bonds."
-  },
-  "桂林": {
-   "renderings": {
-    "Guilin": [
-     "huang-mulan"
-    ],
-    "Kweilin": [
-     "juntong"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "Period English form."
-  },
-  "梅花山": {
-   "renderings": {
-    "Plum Blossom Hill": [
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Real. Hill on Purple Mountain, Nanjing, over Sun Quan's tomb; plum-viewing ground planted from 1929. Noted ch26."
-  },
-  "歌乐山": {
-   "renderings": {
-    "Gele Mountain": [
-     "huang-mulan"
-    ],
-    "Geleshan": [
-     "juntong"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "A hill west of Chongqing; site of Xu Shiying's birthday banquet (ch20)."
-  },
-  "武昌": {
-   "renderings": {
-    "Wuchang": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed"
-  },
-  "武汉": {
-   "renderings": {
-    "Wuhan": [
-     "huang-mulan",
-     "midnight",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed"
-  },
-  "毛泽东": {
-   "renderings": {
-    "Mao Zedong": [
-     "huang-mulan",
-     "on-a-hair-trigger",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "永安公司": {
-   "renderings": {
-    "the Wing On Company": [
-     "gu-shunzhang"
-    ],
-    "Wing On": [
-     "huang-mulan"
-    ]
-   },
-   "category": "organizations",
-   "status": "reconcile",
-   "note": "Wing On Co., opened on Nanjing Road in 1918 facing Sincere; another of the 'four great' Shanghai department stores. ch05."
-  },
-  "汉口": {
-   "renderings": {
-    "Hankou": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed"
-  },
-  "江苏": {
-   "renderings": {
-    "Jiangsu": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Eastern coastal province."
-  },
-  "江西": {
-   "renderings": {
-    "Jiangxi": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Southeastern province."
-  },
-  "汪精卫": {
-   "renderings": {
-    "Wang Jingwei": [
-     "huang-mulan",
-     "on-a-hair-trigger",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "法大马路": {
-   "renderings": {
-    "Rue du Consulat": [
-     "huang-mulan",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "A street in the Shanghai French Concession, today&#8217;s Jinling East Road; the address on the counter-notice."
-  },
-  "法币": {
-   "renderings": {
-    "the fabi": [
-     "juntong"
-    ],
-    "fabi": [
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "terms",
-   "status": "agreed-article-varies",
-   "note": "The Nationalist government's legal-tender paper currency (introduced 1935 in fact; the novel uses the term loosely)."
-  },
-  "洛阳": {
-   "renderings": {
-    "Luoyang": [
-     "on-a-hair-trigger",
-     "the-longest-day-in-changan"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The ancient capital; in the peony legend Empress Wu Zetian banishes the flower to Luoyang, whence 'the peony of Luoyang is first under heaven' (Chapter 27)."
-  },
-  "洪门": {
-   "renderings": {
-    "the Hongmen": [
-     "midnight",
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed",
-   "note": "洪门; the sworn-brotherhood secret society of south China. See the note at 'a Hongmen brother.'"
-  },
-  "浏阳": {
-   "renderings": {
-    "Liuyang": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed"
-  },
-  "浙江": {
-   "renderings": {
-    "Zhejiang": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Eastern coastal province."
-  },
-  "浙江路": {
-   "renderings": {
-    "Zhejiang Road": [
-     "midnight",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "浙江路; a Settlement road crossing Nanjing Road; older English Chekiang Road."
-  },
-  "浦东": {
-   "renderings": {
-    "Pudong": [
-     "midnight",
-     "the-whistling-wind",
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The east bank of the Huangpu; older English Pootung."
-  },
-  "浦口": {
-   "renderings": {
-    "Pukou": [
-     "midnight",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The Yangtze river-port opposite Nanjing."
-  },
-  "海格路": {
-   "renderings": {
-    "Avenue Haig": [
-     "the-whistling-wind"
-    ],
-    "Haige Road": [
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "Real. Avenue Haig (after Field Marshal Douglas Haig); today Huashan Road (华山路)."
-  },
-  "湖南": {
-   "renderings": {
-    "Hunan": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed"
-  },
-  "滑竿": {
-   "renderings": {
-    "huagan": [
-     "juntong"
-    ],
-    "mountain chair": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "terms",
-   "status": "reconcile",
-   "note": "pole-slung carrying chair"
-  },
-  "牯岭": {
-   "renderings": {
-    "Guling": [
-     "midnight",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "牯岭 (also romanized Kuling); the hill-station atop Mount Lu (庐山) above Jiujiang, a summer retreat from the Yangzi heat."
-  },
-  "特科": {
-   "renderings": {
-    "Special Branch": [
-     "huang-mulan"
-    ],
-    "the Special Branch": [
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed-article-varies",
-   "note": "The CCP's clandestine intelligence and security service (中央特科), founded 1927 and active in Shanghai; here Yang Muci's and Lao Yu's organ. See the note at Chapter 4."
-  },
-  "玄武湖": {
-   "renderings": {
-    "Xuanwu Lake": [
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Real. Lake against the northeastern wall of Nanjing."
-  },
-  "王新衡": {
-   "renderings": {
-    "Wang Xinheng": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "A friend of Chiang Ching-kuo and figure in the Military Statistics Bureau."
-  },
-  "珞珈山": {
-   "renderings": {
-    "Luojia Hill": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The Wuhan University campus hill where the author met Guo Changlu."
-  },
-  "瑞金": {
-   "renderings": {
-    "Ruijin": [
-     "huang-mulan",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The seat of the Central Soviet in Jiangxi, capital of the Chinese Soviet Republic."
-  },
-  "田汉": {
-   "renderings": {
-    "Tian Han": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1898&#8211;1968; playwright and lyricist, author of the words of the PRC national anthem."
-  },
-  "申报": {
-   "renderings": {
-    "the Shen Bao": [
-     "on-a-hair-trigger"
-    ],
-    "Shen Bao": [
-     "thousand-li"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed-article-varies",
-   "note": "Shanghai's most famous daily newspaper (1872–1949); among the papers A-Chu lays out for Muci in Chapter 35."
-  },
-  "白公馆": {
-   "renderings": {
-    "Baigongguan": [
-     "juntong"
-    ],
-    "the Bai residence": [
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "The household of the Fifth Concubine of the Bai family (白府五姨太), the concubine's sworn sister and protector; also rendered the House of Bai."
-  },
-  "白区": {
-   "renderings": {
-    "white area": [
-     "huang-mulan"
-    ],
-    "the White area": [
-     "thousand-li"
-    ]
-   },
-   "category": "terms",
-   "status": "reconcile",
-   "note": "Kuomintang-controlled territory, as opposed to the Red (soviet) areas; the author&#8217;s underground post was in the Shanghai white area."
-  },
-  "百乐门": {
-   "renderings": {
-    "the Paramount": [
-     "on-a-hair-trigger",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed",
-   "note": "The Paramount Ballroom, a famous Shanghai dance hall; here the house to which Young Tang is packed off."
-  },
-  "福建": {
-   "renderings": {
-    "Fujian": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Southeastern coastal province."
-  },
-  "秦邦宪": {
-   "renderings": {
-    "Qin Bangxian": [
-     "huang-mulan",
-     "thousand-li"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Better known as Bo Gu (&#21338;&#21476;); one of the &#8216;28 Bolsheviks&#8217; and de facto Party leader 1931&#8211;35."
-  },
-  "老闸捕房": {
-   "renderings": {
-    "the Louza police station": [
-     "midnight"
-    ],
-    "the Laozha Police Station": [
-     "thousand-li"
-    ]
-   },
-   "category": "organizations",
-   "status": "reconcile",
-   "note": "老闸捕房; the Louza (老闸) police station of the International Settlement, the very station whose men fired the shots of 30 May 1925."
-  },
-  "胡宗南": {
-   "renderings": {
-    "Hu Zongnan": [
-     "huang-mulan",
-     "juntong",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1896&#8211;1962; senior Kuomintang general."
-  },
-  "胡汉民": {
-   "renderings": {
-    "Hu Hanmin": [
-     "huang-mulan",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1879&#8211;1936; a leading Kuomintang theorist and rival of Chiang Kai-shek."
-  },
-  "胡蝶": {
-   "renderings": {
-    "Hu Die": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1908–1989, the film star 'Butterfly Wu,' twice voted 'Queen of the Screen'; her lost wartime 'luggage' (largely smuggled goods) and her complaint to Dai Li triggered the couple's arrest (ch20–21)."
-  },
-  "苏堤": {
-   "renderings": {
-    "the Su Causeway": [
-     "midnight",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "苏堤; the willow-planted dyke across the West Lake, traditionally credited to the poet Su Shi. See the note in Fan Bowen's poem."
-  },
-  "苏州河": {
-   "renderings": {
-    "Suzhou Creek": [
-     "huang-mulan",
-     "midnight",
-     "on-a-hair-trigger",
-     "the-whistling-wind",
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "River through central Shanghai."
-  },
-  "英国": {
-   "renderings": {
-    "England": [
-     "midnight"
-    ],
-    "England / Britain": [
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "英国; Britain, named with Japan as America's two rivals in the East."
-  },
-  "董必武": {
-   "renderings": {
-    "Dong Biwu": [
-     "huang-mulan",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "蒋介石": {
-   "renderings": {
-    "Chiang Kai-shek": [
-     "huang-mulan",
-     "juntong",
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Conventional English form retained."
-  },
-  "蒋经国": {
-   "renderings": {
-    "Chiang Ching-kuo": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Chiang Kai-shek&#8217;s son; the conventional Wade&#8211;Giles English form is used."
-  },
-  "虹口": {
-   "renderings": {
-    "Hongkou": [
-     "midnight",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "虹口; district of Shanghai north of Suzhou Creek, part of the International Settlement, with many Japanese residents and mills; older English Hongkew."
-  },
-  "许广平": {
-   "renderings": {
-    "Xu Guangping": [
-     "huang-mulan",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1898&#8211;1968; educator and writer, wife of Lu Xun; editor of his <i>Complete Works</i>."
-  },
-  "谭延闿": {
-   "renderings": {
-    "Tan Yankai": [
-     "huang-mulan",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Hunan military governor and Nationalist elder; first president of the Executive Yuan; signed the Wuhan order expelling Chiang in April 1927."
-  },
-  "贺衷寒": {
-   "renderings": {
-    "He Zhonghan": [
-     "juntong"
-    ],
-    "He Zhongyan": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "reconcile",
-   "note": "1900-1972; Whampoa 1st class, Blue Shirt political-warfare leader"
-  },
-  "贺龙": {
-   "renderings": {
-    "He Long": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "跑马厅": {
-   "renderings": {
-    "the Racecourse": [
-     "midnight",
-     "on-a-hair-trigger",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "跑马厅 (also 跑马场); the great racecourse of the International Settlement, off Bubbling Well Road (today People’s Square and People’s Park)."
-  },
-  "邓演达": {
-   "renderings": {
-    "Deng Yanda": [
-     "huang-mulan",
-     "thousand-li"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "郭德洁": {
-   "renderings": {
-    "Guo Dejie": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Wife of Li Zongren."
-  },
-  "郭沫若": {
-   "renderings": {
-    "Guo Moruo": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed"
-  },
-  "重庆": {
-   "renderings": {
-    "Chongqing": [
-     "huang-mulan",
-     "the-whistling-wind"
-    ],
-    "Chungking": [
-     "juntong"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "The Nationalist wartime capital (the &#8216;great rear&#8217;)."
-  },
-  "钱庄": {
-   "renderings": {
-    "native bank": [
-     "midnight",
-     "thousand-li"
-    ]
-   },
-   "category": "terms",
-   "status": "agreed",
-   "note": "钱庄; a traditional Chinese private bank or money-shop, distinct from the modern 银行. The silk men's working credit runs through these houses, and it is a native-bank manager who will not stretch a point for Chen Junyi."
-  },
-  "长安": {
-   "renderings": {
-    "Chang’an": [
-     "on-a-hair-trigger",
-     "the-longest-day-in-changan"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The Tang capital (modern Xi'an), standing for the far-off imperial city in the tanci aria sung in Chapters 12 and 15."
-  },
-  "长江": {
-   "renderings": {
-    "Yangtze": [
-     "huang-mulan"
-    ],
-    "the Yangtze": [
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed-article-varies",
-   "note": "The conventional English form, used throughout."
-  },
-  "长沙": {
-   "renderings": {
-    "Changsha": [
-     "huang-mulan",
-     "juntong",
-     "midnight"
-    ]
-   },
-   "category": "places",
-   "status": "agreed"
-  },
-  "阎锡山": {
-   "renderings": {
-    "Yan Xishan": [
-     "midnight",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "阎锡山 (1883–1960), the militarist governor of Shanxi (the 'model governor'); in 1930 a leader of the anti-Chiang Northern coalition whose armies drive down the Tianjin–Pukou line in this chapter's war news."
-  },
-  "阿英": {
-   "renderings": {
-    "A Ying": [
-     "huang-mulan",
-     "midnight"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Pen name of Qian Xingcun (1900–1977), writer and literary historian; ran the ‘Wind and Rain Bookroom’ hidden in the Tongyi Company."
-  },
-  "陈友仁": {
-   "renderings": {
-    "Eugene Chen": [
-     "huang-mulan",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1878&#8211;1944; foreign minister of the Wuhan Nationalist government; conventional English form retained."
-  },
-  "陈布雷": {
-   "renderings": {
-    "Chen Bulei": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Chiang Kai-shek&#8217;s chief secretary and speechwriter; elder brother of Chen Xunshe."
-  },
-  "陈济棠": {
-   "renderings": {
-    "Chen Jitang": [
-     "juntong",
-     "thousand-li"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1890-1954; Guangdong warlord (\"the King of the South\"), led the 1936 Two Kwangs revolt against Chiang."
-  },
-  "陈独秀": {
-   "renderings": {
-    "Chen Duxiu": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1879&#8211;1942; first general secretary of the CCP, removed at the August Seventh Conference of 1927."
-  },
-  "陈立夫": {
-   "renderings": {
-    "Chen Lifu": [
-     "huang-mulan",
-     "juntong",
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1900–2001; Nationalist organization boss of the ‘CC Clique,’ firmly anti-Communist."
-  },
-  "陈赓": {
-   "renderings": {
-    "Chen Geng": [
-     "huang-mulan",
-     "thousand-li"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Whampoa graduate and head of the intelligence (2nd) section of the Party&#8217;s Special Branch; later a PLA general."
-  },
-  "霞飞路": {
-   "renderings": {
-    "Avenue Joffre": [
-     "huang-mulan",
-     "midnight",
-     "on-a-hair-trigger",
-     "the-whistling-wind",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "A main thoroughfare of the Shanghai French Concession, today&#8217;s Central Huaihai Road."
-  },
-  "青岛": {
-   "renderings": {
-    "Qingdao": [
-     "huang-mulan",
-     "midnight",
-     "the-whistling-wind",
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Shandong port city, host of the Fifth National Bar Association congress (1933)."
-  },
-  "青木关": {
-   "renderings": {
-    "Qingmuguan": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "A place west of Chongqing where the released couple settled 1945 (ch21)."
-  },
-  "青红帮": {
-   "renderings": {
-    "the Green and Red Gangs": [
-     "on-a-hair-trigger"
-    ],
-    "Green and Red Gangs": [
-     "wang-yaqiao"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed-article-varies",
-   "note": "The Green Gang (青帮) and the Hong/Red Gang (洪帮), the great secret-society brotherhoods of Republican Shanghai; Young Tang names them as A-Chu's likely enemies after the hospital bombing."
-  },
-  "静安寺": {
-   "renderings": {
-    "Jing'an Temple": [
-     "the-whistling-wind",
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "The Jing'an (Bubbling Well) Temple, which gave its name to Bubbling Well Road; the district around it, where the narrator and Helen breakfast (ch29)."
-  },
-  "静安寺路": {
-   "renderings": {
-    "Jing'an Temple Road": [
-     "midnight"
-    ],
-    "Bubbling Well Road": [
-     "on-a-hair-trigger",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "The concession-era English name of 静安寺路 (today Nanjing West Road, 南京西路)."
-  },
-  "顾祝同": {
-   "renderings": {
-    "Gu Zhutong": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "1893&#8211;1987; Kuomintang general, commander of the Third War Zone."
-  },
-  "顾顺章": {
-   "renderings": {
-    "Gu Shunzhang": [
-     "huang-mulan",
-     "juntong",
-     "on-a-hair-trigger"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Head of the Party&#8217;s Special Branch whose 1931 defection to the Kuomintang gravely wrecked the Shanghai underground."
-  },
-  "香港": {
-   "renderings": {
-    "Hong Kong": [
-     "huang-mulan",
-     "midnight",
-     "the-whistling-wind"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "British colony; seat of the Party&#8217;s Southern Bureau."
-  },
-  "马寅初": {
-   "renderings": {
-    "Ma Yinchu": [
-     "huang-mulan",
-     "juntong"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Economist, later famous for advocating population control."
-  },
-  "马斯南路": {
-   "renderings": {
-    "Route Massenet": [
-     "the-whistling-wind"
-    ],
-    "Massenet Road": [
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "Real. Rue Massenet, after the composer Jules Massenet; today Sinan Road (思南路). The recognition-signal address."
-  },
-  "鲁迅": {
-   "renderings": {
-    "Lu Xun": [
-     "the-whistling-wind",
-     "thousand-li"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Pen name of Zhou Shuren (1881-1936); author of The True Story of Ah Q; the central figure of essay 3."
-  },
-  "鸡鸣寺": {
-   "renderings": {
-    "Jiming Temple": [
-     "thousand-li",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "Real. Temple by the Nanjing city wall, passed on the drive."
-  },
-  "黄包车": {
-   "renderings": {
-    "rickshaw": [
-     "on-a-hair-trigger",
-     "thousand-li"
-    ]
-   },
-   "category": "terms",
-   "status": "agreed",
-   "note": "The man-pulled two-wheeled cab of Republican Shanghai."
-  },
-  "黄埔军校": {
-   "renderings": {
-    "Whampoa Military Academy": [
-     "huang-mulan",
-     "thousand-li"
-    ]
-   },
-   "category": "organizations",
-   "status": "agreed",
-   "note": "Conventional English form (Whampoa)."
-  },
-  "黄浦江": {
-   "renderings": {
-    "the Huangpu": [
-     "on-a-hair-trigger"
-    ],
-    "the Huangpu River": [
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "reconcile",
-   "note": "The river through Shanghai; A-Chu’s men dump the kidnappers’ bodies in it."
-  },
-  "黄金荣": {
-   "renderings": {
-    "Huang Jinrong": [
-     "huang-mulan",
-     "wang-yaqiao"
-    ]
-   },
-   "category": "people",
-   "status": "agreed",
-   "note": "Green Gang boss and the sole Chinese chief inspector of the French Concession patrol house; Chiang Kai-shek was once his disciple."
-  },
-  "龙华": {
-   "renderings": {
-    "Longhua": [
-     "huang-mulan",
-     "thousand-li"
-    ]
-   },
-   "category": "places",
-   "status": "agreed",
-   "note": "District in the southern outskirts of Shanghai; site of the Kuomintang Garrison Command&#8217;s prison and execution ground."
-  },
-  "王亚樵": {
-   "Wang Yaqiao": [
-    "The Gangs of Old Shanghai ch21"
-   ]
-  },
-  "郑介民": {
-   "Zheng Jiemin": [
-    "The Gangs of Old Shanghai ch21"
-   ]
-  },
-  "毛人凤": {
-   "Mao Renfeng": [
-    "The Gangs of Old Shanghai ch21"
-   ]
-  },
-  "陶希圣": {
-   "Tao Xisheng": [
-    "The Gangs of Old Shanghai ch21"
-   ]
-  },
-  "高宗武": {
-   "Gao Zongwu": [
-    "The Gangs of Old Shanghai ch21"
-   ]
-  },
-  "李士群": {
-   "Li Shiqun": [
-    "The Gangs of Old Shanghai ch21"
-   ]
+  "_about": "Cross-book name authority for the whole translation shelf. Consult BEFORE romanizing anything in a new book; one rendering per referent ACROSS BOOKS unless a book records a deliberate deviation (e.g. a period-flavor style like Chungking/Peiping in a 1940s memoir) in its own glossary note. Feed every new book's decided renderings back in on completion. Entries carry every rendering observed on the shelf with the books that used it; status 'reconcile' marks a live cross-book disagreement (article-only differences excluded). Sources: the nine completed books, 2026-08.",
+  "terms": {
+    "万国公墓": {
+      "renderings": {
+        "International Cemetery": [
+          "huang-mulan"
+        ],
+        "the International Cemetery": [
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed-article-varies",
+      "note": "The Shanghai cemetery for the dead of all nations (<span lang=\"zh-Hans\">万国公墓</span>, &#8216;Cemetery of All Nations&#8217;), Chinese and foreign alike, on Hongqiao Road in the western outskirts (founded 1909); Stephen is buried here (ch28&#8211;ch29)."
+    },
+    "三民主义": {
+      "renderings": {
+        "Three Principles of the People": [
+          "huang-mulan"
+        ],
+        "the Three Principles of the People": [
+          "midnight",
+          "thousand-li"
+        ]
+      },
+      "category": "terms",
+      "status": "agreed-article-varies",
+      "note": "三民主义; Sun Yat-sen's doctrine of nationalism, democracy, and the people's livelihood, made the Nationalist creed. See the note at first appearance."
+    },
+    "三潭印月": {
+      "renderings": {
+        "Three Pools Mirroring the Moon": [
+          "juntong"
+        ],
+        "the Three Pools Mirroring the Moon": [
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed-article-varies",
+      "note": "A celebrated West Lake scene, an islet ringed by three small stone pagodas standing in the water."
+    },
+    "三马路": {
+      "renderings": {
+        "San Malu": [
+          "midnight"
+        ],
+        "Third Avenue": [
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "三马路; the colloquial name of Hankou Road (汉口路), the financial street of Chinese Shanghai where the securities exchange stood. See the footnote at first appearance."
+    },
+    "上海": {
+      "renderings": {
+        "Shanghai": [
+          "huang-mulan",
+          "on-a-hair-trigger",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "China&#8217;s largest city and the seat of the Party Central and its underground in this period."
+    },
+    "东方饭店": {
+      "renderings": {
+        "Oriental Hotel": [
+          "huang-mulan"
+        ],
+        "the Dongfang Hotel": [
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "organizations",
+      "status": "reconcile",
+      "note": "The Shanghai hotel (东方, 'the East') where Fourth Madam stages the storytelling that opens A-Chu's origins to him; rendered by pinyin, since the source's 东方饭店 does not map cleanly onto any one attested Republican-era English hotel name."
+    },
+    "中原": {
+      "renderings": {
+        "Central Plains": [
+          "huang-mulan"
+        ],
+        "the Central Plains": [
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "places",
+      "status": "agreed-article-varies",
+      "note": "The Central Plains (Zhongyuan) Liberated Area, linked to Chongqing by a secret line Liu Shaowen laid (ch41)."
+    },
+    "中国民权保障同盟": {
+      "renderings": {
+        "China League for the Protection of Civil Rights": [
+          "huang-mulan"
+        ],
+        "the China League for Civil Rights": [
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "organizations",
+      "status": "reconcile",
+      "note": "Civil-liberties body founded in Shanghai, December 1932 (Song Qingling, Cai Yuanpei, Yang Quan). Chapter 29 (footnoted)."
+    },
+    "中央特科": {
+      "renderings": {
+        "the Central Special Branch": [
+          "gu-shunzhang"
+        ],
+        "Central Special Branch": [
+          "huang-mulan"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed-article-varies",
+      "note": "The CCP's clandestine intelligence/security organ (established 1927-28) that Gu Shunzhang helped run under Zhou Enlai. English 'Central Special Branch' is the form used by Wikipedia (en.wikipedia.org/wiki/Central_Special_Branch); 'Special Services Section' and 'Central Department for Special Tasks' "
+    },
+    "中央警官学校": {
+      "renderings": {
+        "the Central Police Academy": [
+          "juntong",
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "organisations",
+      "status": "agreed"
+    },
+    "九江": {
+      "renderings": {
+        "Jiujiang": [
+          "midnight",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "九江; the Yangzi river-port in Jiangxi, below Mount Lu."
+    },
+    "于右任": {
+      "renderings": {
+        "Yu Youren": [
+          "huang-mulan",
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1879–1964; Nationalist elder statesman, calligrapher, and president of the Control Yuan."
+    },
+    "云南路": {
+      "renderings": {
+        "Yunnan Road": [
+          "midnight",
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "云南路; a Settlement road near the racecourse; older English Yunnan Road."
+    },
+    "交际花": {
+      "renderings": {
+        "socialite": [
+          "midnight"
+        ],
+        "society flower": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "terms",
+      "status": "reconcile",
+      "note": "交际花, lit. 'a flower of society'; a fashionable woman of the demimonde who moves among wealthy men, here Xu Manli."
+    },
+    "伍豪": {
+      "renderings": {
+        "Wu Hao": [
+          "huang-mulan",
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "terms",
+      "status": "agreed",
+      "note": "An alias of Zhou Enlai, from his code name in the Awakening Society; the pivot of the fake &#8216;renunciation&#8217; notices and their rebuttal."
+    },
+    "俞济时": {
+      "renderings": {
+        "Yu Jishi": [
+          "juntong",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "兆丰公园": {
+      "renderings": {
+        "Jessfield Park": [
+          "midnight",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "兆丰公园; the large park in the western part of the International Settlement, known in English as Jessfield Park (today Zhongshan Park, 中山公园), with a lake and a small zoo."
+    },
+    "先施公司": {
+      "renderings": {
+        "the Sincere Company": [
+          "gu-shunzhang",
+          "thousand-li"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed",
+      "note": "Sincere Co., opened on Nanjing Road, Shanghai, in 1917; one of the 'four great' pre-war department stores. Cited in ch05 as commercial camouflage for moving parcels. Attested in histories of Nanjing Road commerce."
+    },
+    "兰州": {
+      "renderings": {
+        "Lanzhou": [
+          "juntong",
+          "the-longest-day-in-changan"
+        ]
+      },
+      "category": "places",
+      "status": "agreed"
+    },
+    "兰心大戏院": {
+      "renderings": {
+        "Lyceum Theater": [
+          "huang-mulan"
+        ],
+        "the Lanxin Theatre": [
+          "on-a-hair-trigger"
+        ],
+        "the Lyceum Theatre": [
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "A Shanghai theatre (the historical Lyceum Theatre); He Yashu says they saw a Shaoxing opera there (Chapter 25). Romanized 'Lanxin' to match the Lanxin Western Restaurant."
+    },
+    "关东军": {
+      "renderings": {
+        "the Kwantung Army": [
+          "on-a-hair-trigger"
+        ],
+        "Kwantung Army": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed-article-varies",
+      "note": "The Japanese army in the Northeast; staged the Mukden Incident of 18 September 1931. Chapter 28."
+    },
+    "内山书店": {
+      "renderings": {
+        "Uchiyama Bookstore": [
+          "the-whistling-wind"
+        ],
+        "the Uchiyama Bookstore": [
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed-article-varies",
+      "note": "Real. Uchiyama Kanzo's Hongkou bookshop (from 1917; moved 1929 to Scott Road), stocking Japanese and banned left-wing books; Lu Xun's haunt."
+    },
+    "军统": {
+      "renderings": {
+        "Military Statistics Bureau": [
+          "huang-mulan"
+        ],
+        "the Juntong": [
+          "juntong",
+          "gangs-of-old-shanghai"
+        ],
+        "Juntong": [
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "organizations",
+      "status": "reconcile",
+      "note": "The Kuomintang's Bureau of Investigation and Statistics (secret police). The name is strictly of 1938; its use for 1931 is a mild anachronism. See the note at Chapter 4."
+    },
+    "冯玉祥": {
+      "renderings": {
+        "Feng Yuxiang": [
+          "huang-mulan",
+          "thousand-li",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1882–1948; the ‘Christian General’ and warlord, at this time an anti-Japanese figure."
+    },
+    "冯雪峰": {
+      "renderings": {
+        "Feng Xuefeng": [
+          "huang-mulan",
+          "thousand-li"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1903–1976; poet, literary theorist and CCP cultural figure, liaison to Shanghai&#8217;s writers."
+    },
+    "北伐": {
+      "renderings": {
+        "Northern Expedition": [
+          "huang-mulan"
+        ],
+        "the Northern Expedition": [
+          "thousand-li"
+        ]
+      },
+      "category": "terms",
+      "status": "agreed-article-varies",
+      "note": "Real. The Nationalist-Communist military campaign (1926-28) from Guangzhou to unify China; its approach to Shanghai in 1927 is the backdrop to Cui Wentai's story."
+    },
+    "北四川路": {
+      "renderings": {
+        "North Sichuan Road": [
+          "midnight",
+          "the-whistling-wind",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "北四川路; a main road running north from the Settlement into the Hongkou district; older English North Szechuen Road."
+    },
+    "北平": {
+      "renderings": {
+        "Beiping": [
+          "huang-mulan",
+          "midnight",
+          "the-whistling-wind",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The name of Beijing under the Nationalist government (1928–49); site of the Tongyi Company&#8217;s largest creditors."
+    },
+    "十九路军": {
+      "renderings": {
+        "Nineteenth Route Army": [
+          "huang-mulan"
+        ],
+        "the Nineteenth Route Army": [
+          "thousand-li"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed-article-varies",
+      "note": "Real. Cantonese army that fought the Japanese at Shanghai in 1932, later sent against Communists in Fujian."
+    },
+    "十人团": {
+      "renderings": {
+        "the Ten-Man Team": [
+          "juntong"
+        ],
+        "Ten-Man Team": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "organisations",
+      "status": "agreed-article-varies",
+      "note": "the 1928 ten-man Liaison Group of Dai Li lore, retrojected to 1927 by the book"
+    },
+    "十六铺": {
+      "renderings": {
+        "Shiliupu": [
+          "juntong",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "agreed"
+    },
+    "华懋饭店": {
+      "renderings": {
+        "the Cathay Hotel": [
+          "midnight",
+          "thousand-li",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed",
+      "note": "Victor Sassoon's Cathay Hotel on the Bund (今和平饭店), the most fashionable hotel of 1930 Shanghai."
+    },
+    "南京路": {
+      "renderings": {
+        "Nanjing Road": [
+          "midnight",
+          "the-whistling-wind",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Older English Nanking Road."
+    },
+    "南市": {
+      "renderings": {
+        "Nanshi": [
+          "huang-mulan",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The old South City district of Shanghai, site of the Nanshi Refugee Zone."
+    },
+    "南昌": {
+      "renderings": {
+        "Nanchang": [
+          "juntong",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed"
+    },
+    "反省院": {
+      "renderings": {
+        "reflection institute": [
+          "huang-mulan"
+        ],
+        "the Reflection Institute": [
+          "thousand-li"
+        ]
+      },
+      "category": "terms",
+      "status": "reconcile",
+      "note": "A Nationalist ‘Three People’s Principles’ re-education facility to which unconvicted political prisoners could be transferred, used as a rescue channel."
+    },
+    "史良": {
+      "renderings": {
+        "Shi Liang": [
+          "huang-mulan",
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1900&#8211;1985; lawyer, the only woman of the Seven Gentlemen; first Minister of Justice of the PRC."
+    },
+    "叶挺": {
+      "renderings": {
+        "Ye Ting": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "吴佩孚": {
+      "renderings": {
+        "Wu Peifu": [
+          "huang-mulan",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Zhili-clique warlord."
+    },
+    "吴淞口": {
+      "renderings": {
+        "the Woosung mouth": [
+          "midnight"
+        ],
+        "the Wusong bar": [
+          "thousand-li"
+        ],
+        "the mouth of the Wusong River": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "吴淞口; the mouth of the Huangpu where it meets the Yangtze estuary, the seaward gate of Shanghai; older English Woosung."
+    },
+    "吴铁城": {
+      "renderings": {
+        "Wu Tiecheng": [
+          "huang-mulan",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Kuomintang statesman; former Guangdong governor and later overseas department minister."
+    },
+    "周伟龙": {
+      "renderings": {
+        "Zhou Weilong": [
+          "juntong",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "周恩来": {
+      "renderings": {
+        "Zhou Enlai": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1898&#8211;1976; then the real director of the Party&#8217;s underground work in Shanghai; the author&#8217;s superior."
+    },
+    "哥伦比亚路": {
+      "renderings": {
+        "Columbia Road": [
+          "juntong",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Now Panyu Road, Shanghai"
+    },
+    "唐生智": {
+      "renderings": {
+        "Tang Shengzhi": [
+          "huang-mulan",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "唐绍仪": {
+      "renderings": {
+        "Tang Shaoyi": [
+          "juntong",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1862-1938; first premier of the Republic, assassinated in Shanghai."
+    },
+    "四马路": {
+      "renderings": {
+        "Fourth Avenue": [
+          "on-a-hair-trigger",
+          "the-whistling-wind",
+          "thousand-li",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "A busy, crowded Shanghai street (present-day Fuzhou Road), rendered by its old foreign-settlement name (Chapter 26)."
+    },
+    "国民党": {
+      "renderings": {
+        "Kuomintang": [
+          "huang-mulan"
+        ],
+        "the Kuomintang": [
+          "thousand-li"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed-article-varies",
+      "note": "Rendered &#8216;Kuomintang&#8217; throughout (not &#8216;Nationalist Party&#8217;); the conventional English name."
+    },
+    "国民参政会": {
+      "renderings": {
+        "National Political Council": [
+          "huang-mulan"
+        ],
+        "the People's Political Council": [
+          "juntong"
+        ]
+      },
+      "category": "organizations",
+      "status": "reconcile",
+      "note": "The wartime advisory body; Dong Biwu and Deng Yingchao launched there a motion against the secret imprisonment of patriots (ch21)."
+    },
+    "复兴社": {
+      "renderings": {
+        "the Renaissance Society": [
+          "juntong"
+        ],
+        "Renaissance Society": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "organisations",
+      "status": "agreed-article-varies",
+      "note": "founded spring 1932; the book has Dai Li organizing its Special Services Section in 1931"
+    },
+    "外滩": {
+      "renderings": {
+        "the Bund": [
+          "midnight",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "外滩; the riverfront boulevard of the International Settlement (外滩公园, the park on the Bund)."
+    },
+    "外白渡桥": {
+      "renderings": {
+        "the Waibaidu Bridge": [
+          "midnight"
+        ],
+        "Waibaidu Bridge": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed-article-varies",
+      "note": "The steel bridge at the mouth of Suzhou Creek, known in the foreign settlements as the Garden Bridge."
+    },
+    "大世界": {
+      "renderings": {
+        "the Great World": [
+          "the-whistling-wind",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The famous many-storeyed amusement palace at the edge of the French Concession (opened 1917); a dance hall behind it is the scene of ch31."
+    },
+    "大光明电影院": {
+      "renderings": {
+        "Grand Theatre": [
+          "huang-mulan"
+        ],
+        "the Grand Theatre": [
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed-article-varies",
+      "note": "大光明 ('great brightness'); a famous Shanghai cinema. Here only a passing reference (the girls touting at its door)."
+    },
+    "大冶": {
+      "renderings": {
+        "Daye": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "County (now city) in Hubei where the author was sent on leaving Qincheng in 1975, her daughter's family being posted there with a geological team (ch40, ch42)."
+    },
+    "大美晚报": {
+      "renderings": {
+        "Shanghai Evening Post and Mercury": [
+          "huang-mulan"
+        ],
+        "Da Mei Wan Bao": [
+          "thousand-li"
+        ]
+      },
+      "category": "organizations",
+      "status": "reconcile",
+      "note": "Real. The Shanghai Evening Post and Mercury, American-owned and foreign-registered; Chinese edition from 16 Jan 1933."
+    },
+    "天津": {
+      "renderings": {
+        "Tianjin": [
+          "huang-mulan",
+          "midnight",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "North China treaty port; seat of the Party&#8217;s Northern Bureau."
+    },
+    "奉化": {
+      "renderings": {
+        "Fenghua": [
+          "juntong",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed"
+    },
+    "委员长": {
+      "renderings": {
+        "the Generalissimo": [
+          "juntong",
+          "thousand-li"
+        ]
+      },
+      "category": "terms",
+      "status": "agreed",
+      "note": "For Chiang; 'Chairman' would collide with the CCP usage a reader expects."
+    },
+    "孔祥熙": {
+      "renderings": {
+        "Kong Xiangxi": [
+          "huang-mulan"
+        ],
+        "H. H. Kung": [
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "reconcile",
+      "note": "H.&#160;H. Kung (1881&#8211;1967); financier and premier, husband of Song Ailing."
+    },
+    "孙中山": {
+      "renderings": {
+        "Sun Yat-sen": [
+          "huang-mulan",
+          "midnight",
+          "thousand-li",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Conventional English form retained; d. 1925."
+    },
+    "孙传芳": {
+      "renderings": {
+        "Sun Chuanfang": [
+          "huang-mulan",
+          "midnight",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Warlord of the five southeastern provinces."
+    },
+    "孙科": {
+      "renderings": {
+        "Sun Ke": [
+          "huang-mulan",
+          "juntong",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1891–1973; son of Sun Yat-sen and a president of one of the Nationalist government&#8217;s Five Yuan."
+    },
+    "孤山": {
+      "renderings": {
+        "Solitary Hill": [
+          "huang-mulan",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "An islet-hill in West Lake beside which the Yu Mansion stands."
+    },
+    "孤岛": {
+      "renderings": {
+        "Solitary Island": [
+          "huang-mulan"
+        ],
+        "the Solitary Island": [
+          "the-whistling-wind",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "agreed-article-varies",
+      "note": "The name for the foreign-concession enclave of Shanghai between the Japanese occupation of the surrounding city in 1937 and the seizure of the concessions after Pearl Harbor in December 1941, during which the concessions kept a precarious neutral status."
+    },
+    "宋子文": {
+      "renderings": {
+        "T.V. Soong": [
+          "huang-mulan",
+          "wang-yaqiao"
+        ],
+        "Soong": [
+          "juntong"
+        ],
+        "T. V. Soong": [
+          "thousand-li",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "reconcile",
+      "note": "Real. Nationalist finance minister 1928-1933; evoked (unnamed) by the hint that 'Mr. Song's' elder brother is a great personage and the bank does Ministry of Finance bond business."
+    },
+    "宋庆龄": {
+      "renderings": {
+        "Song Qingling": [
+          "huang-mulan"
+        ],
+        "Soong Ching-ling": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "reconcile",
+      "note": "conventional form; Sun Yat-sen's widow"
+    },
+    "宋美龄": {
+      "renderings": {
+        "Song Meiling": [
+          "huang-mulan",
+          "gangs-of-old-shanghai"
+        ],
+        "Soong Mei-ling": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "reconcile",
+      "note": "1898&#8211;2003; Madame Chiang Kai-shek, youngest of the Soong sisters."
+    },
+    "山东": {
+      "renderings": {
+        "Shandong": [
+          "midnight",
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "山东; the northern coastal province; older English Shantung."
+    },
+    "巡捕房": {
+      "renderings": {
+        "concession police station": [
+          "gu-shunzhang"
+        ],
+        "police station": [
+          "huang-mulan"
+        ],
+        "the Municipal Police": [
+          "thousand-li"
+        ]
+      },
+      "category": "terms",
+      "status": "reconcile",
+      "note": "The police stations of the foreign concessions (Shanghai's International Settlement and French Concession). Their Chinese informers were 包打聽."
+    },
+    "常州": {
+      "renderings": {
+        "Changzhou": [
+          "midnight",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "A city in southern Jiangsu on the Shanghai–Nanjing line."
+    },
+    "广东": {
+      "renderings": {
+        "Guangdong": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "South China province."
+    },
+    "广州": {
+      "renderings": {
+        "Guangzhou": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed"
+    },
+    "庐山": {
+      "renderings": {
+        "Mount Lu": [
+          "huang-mulan"
+        ],
+        "Lushan": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "A mountain resort in Jiangxi where Chiang Kai-shek was staying."
+    },
+    "廖仲恺": {
+      "renderings": {
+        "Liao Zhongkai": [
+          "huang-mulan",
+          "thousand-li"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "廖承志": {
+      "renderings": {
+        "Liao Chengzhi": [
+          "huang-mulan",
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1908–1983; son of Liao Zhongkai and He Xiangning, CCP leader; arrested in Shanghai in 1933 and among those the author&#8217;s circle worked to rescue."
+    },
+    "延安": {
+      "renderings": {
+        "Yan'an": [
+          "huang-mulan"
+        ],
+        "Yenan": [
+          "juntong"
+        ],
+        "Yan’an": [
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "The Communist base in northern Shaanxi; Ronghua’s wireless link runs between Shanghai and Yan’an. (The Party’s seat only from 1937; its use in the novel’s earlier setting is a mild anachronism, as with ‘Juntong.’)"
+    },
+    "张国焘": {
+      "renderings": {
+        "Zhang Guotao": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "An early CCP leader who, during the Long March, split with the Central Committee over the line of march; later defected to the Kuomintang (1897&#8211;1979)."
+    },
+    "张大千": {
+      "renderings": {
+        "Zhang Daqian": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1899&#8211;1983; one of the most celebrated modern Chinese painters."
+    },
+    "张学良": {
+      "renderings": {
+        "Zhang Xueliang": [
+          "juntong",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "张炎元": {
+      "renderings": {
+        "Zhang Yanyuan": [
+          "juntong",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "徐家汇": {
+      "renderings": {
+        "Xujiahui": [
+          "huang-mulan",
+          "the-whistling-wind",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "A district of Shanghai."
+    },
+    "忠义救国军": {
+      "renderings": {
+        "Loyal and Patriotic National Salvation Army": [
+          "huang-mulan"
+        ],
+        "the Loyal and Patriotic Army": [
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "reconcile",
+      "note": "A Dai Li / Juntong-affiliated irregular force active in the lower Yangtze during the war; its Hengyang-region commander Zhou Kuilong held the couple (ch21)."
+    },
+    "愚园路": {
+      "renderings": {
+        "Yuyuan Road": [
+          "on-a-hair-trigger",
+          "the-whistling-wind",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "A fashionable road in western Shanghai; the site of Yang Yubo’s mansion."
+    },
+    "戈登路": {
+      "renderings": {
+        "Gordon Road": [
+          "on-a-hair-trigger",
+          "the-whistling-wind",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "International Settlement street, printed in the source in Roman letters too; today Jiangning Road (江宁路)."
+    },
+    "戴季陶": {
+      "renderings": {
+        "Dai Jitao": [
+          "thousand-li",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Real (1891-1949). KMT theorist of anti-communism ('Daiism'); reread Sun Yat-sen's Three Principles to exclude the Communists."
+    },
+    "戴笠": {
+      "renderings": {
+        "Dai Li": [
+          "huang-mulan",
+          "juntong",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1897–1946, head of the Nationalists' Military Statistics Bureau (军统/Juntong), the KMT secret service; Whampoa sixth class (did not graduate). Ordered and oversaw the couple's secret arrest (ch20–21)."
+    },
+    "斧头帮": {
+      "renderings": {
+        "the Hatchet Gang": [
+          "thousand-li"
+        ],
+        "Hatchet Gang": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed-article-varies",
+      "note": "Shanghai assassins' gang; linked to the killing of the China Merchants director."
+    },
+    "新华日报": {
+      "renderings": {
+        "Xinhua Daily": [
+          "huang-mulan"
+        ],
+        "the New China Daily": [
+          "juntong"
+        ]
+      },
+      "category": "organizations",
+      "status": "reconcile",
+      "note": "The Communist Party&#8217;s newspaper in the Nationalist areas."
+    },
+    "方志敏": {
+      "renderings": {
+        "Fang Zhimin": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1899–1935; CCP leader of the Northeast Jiangxi soviet; his prison diary was among the papers kept in the Tongyi vault."
+    },
+    "旗袍": {
+      "renderings": {
+        "cheongsam": [
+          "the-whistling-wind",
+          "thousand-li"
+        ]
+      },
+      "category": "terms",
+      "status": "agreed",
+      "note": "The close-fitting Chinese woman's dress (<span lang=\"zh-Hans\">旗袍</span>, <i>qipao</i>); &#8216;cheongsam&#8217; is the established English form used throughout."
+    },
+    "日本": {
+      "renderings": {
+        "Japan": [
+          "midnight",
+          "on-a-hair-trigger",
+          "the-longest-day-in-changan"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "日本; Japan, named with England as America's two rivals in the East."
+    },
+    "昆明": {
+      "renderings": {
+        "Kunming": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Capital of Yunnan."
+    },
+    "暨南大学": {
+      "renderings": {
+        "Jinan University": [
+          "huang-mulan",
+          "thousand-li"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed",
+      "note": "Overseas-Chinese university in Shanghai where Chen Gaoyong was a professor."
+    },
+    "曲江": {
+      "renderings": {
+        "Qujiang": [
+          "huang-mulan",
+          "the-longest-day-in-changan"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "County town in northern Guangdong (present-day Shaoguan); wartime relief hub."
+    },
+    "曹锟": {
+      "renderings": {
+        "Cao Kun": [
+          "thousand-li",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Real (1862-1938). President of the Republic 1923-24, deposed and placed under arrest in Feng Yuxiang's 1924 coup."
+    },
+    "曾家岩": {
+      "renderings": {
+        "Zengjiayan": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The Chongqing district where the Eighth Route Army office (the '八办') stood; site of the narrator's 1942 audience with Zhou Enlai (ch20–21)."
+    },
+    "替死鬼": {
+      "renderings": {
+        "scapegoat": [
+          "juntong"
+        ],
+        "stand-in dead man": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "terms",
+      "status": "reconcile",
+      "note": "Literally a substitute-death ghost."
+    },
+    "望龙门": {
+      "renderings": {
+        "Wanglongmen": [
+          "huang-mulan",
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The Chongqing site of the Juntong secret detention house where the narrator was held (ch21)."
+    },
+    "李公朴": {
+      "renderings": {
+        "Li Gongpu": [
+          "huang-mulan",
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1902&#8211;1946; educator, one of the Seven Gentlemen; assassinated at Kunming in 1946."
+    },
+    "李国杰": {
+      "renderings": {
+        "Li Guojie": [
+          "thousand-li",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Real. Grandson of Li Hongzhang; principal of the 1933 China Merchants embezzlement case, sentenced to eight years."
+    },
+    "李宗仁": {
+      "renderings": {
+        "Li Zongren": [
+          "huang-mulan",
+          "juntong",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Guangxi Clique leader; later acting president of the Republic of China."
+    },
+    "李鸿章": {
+      "renderings": {
+        "Li Hongzhang": [
+          "midnight",
+          "thousand-li",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "李鸿章 (1823–1901); the late-Qing statesman who launched the self-strengthening state industries Wang Hefu cites as the beginning of Chinese industry."
+    },
+    "杜月笙": {
+      "renderings": {
+        "Du Yuesheng": [
+          "gu-shunzhang",
+          "huang-mulan",
+          "juntong",
+          "thousand-li",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1888-1951. Foremost of the Shanghai Green Gang 'three tycoons'; first introduced ch06. Pinyin form standard (en.wikipedia.org/wiki/Du_Yuesheng)."
+    },
+    "杨杏佛": {
+      "renderings": {
+        "Yang Xingfo": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Yang Quan (1893&#8211;1933); secretary-general of the China League for the Protection of Civil Rights, assassinated 1933."
+    },
+    "杭州": {
+      "renderings": {
+        "Hangzhou": [
+          "huang-mulan",
+          "midnight",
+          "on-a-hair-trigger",
+          "the-whistling-wind",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Zhejiang provincial capital on West Lake, where the author went into hiding in 1932–33."
+    },
+    "枫林桥": {
+      "renderings": {
+        "Fenglin Bridge": [
+          "thousand-li"
+        ],
+        "Maple Grove Bridge": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "Landmark on the road out to Longhua."
+    },
+    "标金": {
+      "renderings": {
+        "standard gold": [
+          "midnight",
+          "thousand-li"
+        ]
+      },
+      "category": "terms",
+      "status": "agreed",
+      "note": "标金; bar gold of standard fineness traded for future delivery on the Shanghai exchange, the other great speculative market beside the bonds."
+    },
+    "桂林": {
+      "renderings": {
+        "Guilin": [
+          "huang-mulan"
+        ],
+        "Kweilin": [
+          "juntong"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "Period English form."
+    },
+    "梅花山": {
+      "renderings": {
+        "Plum Blossom Hill": [
+          "thousand-li",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Real. Hill on Purple Mountain, Nanjing, over Sun Quan's tomb; plum-viewing ground planted from 1929. Noted ch26."
+    },
+    "歌乐山": {
+      "renderings": {
+        "Gele Mountain": [
+          "huang-mulan"
+        ],
+        "Geleshan": [
+          "juntong"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "A hill west of Chongqing; site of Xu Shiying's birthday banquet (ch20)."
+    },
+    "武昌": {
+      "renderings": {
+        "Wuchang": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed"
+    },
+    "武汉": {
+      "renderings": {
+        "Wuhan": [
+          "huang-mulan",
+          "midnight",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed"
+    },
+    "毛泽东": {
+      "renderings": {
+        "Mao Zedong": [
+          "huang-mulan",
+          "on-a-hair-trigger",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "永安公司": {
+      "renderings": {
+        "the Wing On Company": [
+          "gu-shunzhang"
+        ],
+        "Wing On": [
+          "huang-mulan"
+        ]
+      },
+      "category": "organizations",
+      "status": "reconcile",
+      "note": "Wing On Co., opened on Nanjing Road in 1918 facing Sincere; another of the 'four great' Shanghai department stores. ch05."
+    },
+    "汉口": {
+      "renderings": {
+        "Hankou": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed"
+    },
+    "江苏": {
+      "renderings": {
+        "Jiangsu": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Eastern coastal province."
+    },
+    "江西": {
+      "renderings": {
+        "Jiangxi": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Southeastern province."
+    },
+    "汪精卫": {
+      "renderings": {
+        "Wang Jingwei": [
+          "huang-mulan",
+          "on-a-hair-trigger",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "法大马路": {
+      "renderings": {
+        "Rue du Consulat": [
+          "huang-mulan",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "A street in the Shanghai French Concession, today&#8217;s Jinling East Road; the address on the counter-notice."
+    },
+    "法币": {
+      "renderings": {
+        "the fabi": [
+          "juntong"
+        ],
+        "fabi": [
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "terms",
+      "status": "agreed-article-varies",
+      "note": "The Nationalist government's legal-tender paper currency (introduced 1935 in fact; the novel uses the term loosely)."
+    },
+    "洛阳": {
+      "renderings": {
+        "Luoyang": [
+          "on-a-hair-trigger",
+          "the-longest-day-in-changan"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The ancient capital; in the peony legend Empress Wu Zetian banishes the flower to Luoyang, whence 'the peony of Luoyang is first under heaven' (Chapter 27)."
+    },
+    "洪门": {
+      "renderings": {
+        "the Hongmen": [
+          "midnight",
+          "on-a-hair-trigger",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed",
+      "note": "洪门; the sworn-brotherhood secret society of south China. See the note at 'a Hongmen brother.'"
+    },
+    "浏阳": {
+      "renderings": {
+        "Liuyang": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed"
+    },
+    "浙江": {
+      "renderings": {
+        "Zhejiang": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Eastern coastal province."
+    },
+    "浙江路": {
+      "renderings": {
+        "Zhejiang Road": [
+          "midnight",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "浙江路; a Settlement road crossing Nanjing Road; older English Chekiang Road."
+    },
+    "浦东": {
+      "renderings": {
+        "Pudong": [
+          "midnight",
+          "the-whistling-wind",
+          "thousand-li",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The east bank of the Huangpu; older English Pootung."
+    },
+    "浦口": {
+      "renderings": {
+        "Pukou": [
+          "midnight",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The Yangtze river-port opposite Nanjing."
+    },
+    "海格路": {
+      "renderings": {
+        "Avenue Haig": [
+          "the-whistling-wind"
+        ],
+        "Haige Road": [
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "Real. Avenue Haig (after Field Marshal Douglas Haig); today Huashan Road (华山路)."
+    },
+    "湖南": {
+      "renderings": {
+        "Hunan": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed"
+    },
+    "滑竿": {
+      "renderings": {
+        "huagan": [
+          "juntong"
+        ],
+        "mountain chair": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "terms",
+      "status": "reconcile",
+      "note": "pole-slung carrying chair"
+    },
+    "牯岭": {
+      "renderings": {
+        "Guling": [
+          "midnight",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "牯岭 (also romanized Kuling); the hill-station atop Mount Lu (庐山) above Jiujiang, a summer retreat from the Yangzi heat."
+    },
+    "特科": {
+      "renderings": {
+        "Special Branch": [
+          "huang-mulan"
+        ],
+        "the Special Branch": [
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed-article-varies",
+      "note": "The CCP's clandestine intelligence and security service (中央特科), founded 1927 and active in Shanghai; here Yang Muci's and Lao Yu's organ. See the note at Chapter 4."
+    },
+    "玄武湖": {
+      "renderings": {
+        "Xuanwu Lake": [
+          "thousand-li",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Real. Lake against the northeastern wall of Nanjing."
+    },
+    "王新衡": {
+      "renderings": {
+        "Wang Xinheng": [
+          "huang-mulan",
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "A friend of Chiang Ching-kuo and figure in the Military Statistics Bureau."
+    },
+    "珞珈山": {
+      "renderings": {
+        "Luojia Hill": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The Wuhan University campus hill where the author met Guo Changlu."
+    },
+    "瑞金": {
+      "renderings": {
+        "Ruijin": [
+          "huang-mulan",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The seat of the Central Soviet in Jiangxi, capital of the Chinese Soviet Republic."
+    },
+    "田汉": {
+      "renderings": {
+        "Tian Han": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1898&#8211;1968; playwright and lyricist, author of the words of the PRC national anthem."
+    },
+    "申报": {
+      "renderings": {
+        "the Shen Bao": [
+          "on-a-hair-trigger",
+          "gangs-of-old-shanghai"
+        ],
+        "Shen Bao": [
+          "thousand-li"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed-article-varies",
+      "note": "Shanghai's most famous daily newspaper (1872–1949); among the papers A-Chu lays out for Muci in Chapter 35."
+    },
+    "白公馆": {
+      "renderings": {
+        "Baigongguan": [
+          "juntong"
+        ],
+        "the Bai residence": [
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "The household of the Fifth Concubine of the Bai family (白府五姨太), the concubine's sworn sister and protector; also rendered the House of Bai."
+    },
+    "白区": {
+      "renderings": {
+        "white area": [
+          "huang-mulan"
+        ],
+        "the White area": [
+          "thousand-li"
+        ]
+      },
+      "category": "terms",
+      "status": "reconcile",
+      "note": "Kuomintang-controlled territory, as opposed to the Red (soviet) areas; the author&#8217;s underground post was in the Shanghai white area."
+    },
+    "百乐门": {
+      "renderings": {
+        "the Paramount": [
+          "on-a-hair-trigger",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed",
+      "note": "The Paramount Ballroom, a famous Shanghai dance hall; here the house to which Young Tang is packed off."
+    },
+    "福建": {
+      "renderings": {
+        "Fujian": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Southeastern coastal province."
+    },
+    "秦邦宪": {
+      "renderings": {
+        "Qin Bangxian": [
+          "huang-mulan",
+          "thousand-li"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Better known as Bo Gu (&#21338;&#21476;); one of the &#8216;28 Bolsheviks&#8217; and de facto Party leader 1931&#8211;35."
+    },
+    "老闸捕房": {
+      "renderings": {
+        "the Louza police station": [
+          "midnight"
+        ],
+        "the Laozha Police Station": [
+          "thousand-li"
+        ]
+      },
+      "category": "organizations",
+      "status": "reconcile",
+      "note": "老闸捕房; the Louza (老闸) police station of the International Settlement, the very station whose men fired the shots of 30 May 1925."
+    },
+    "胡宗南": {
+      "renderings": {
+        "Hu Zongnan": [
+          "huang-mulan",
+          "juntong",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1896&#8211;1962; senior Kuomintang general."
+    },
+    "胡汉民": {
+      "renderings": {
+        "Hu Hanmin": [
+          "huang-mulan",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1879&#8211;1936; a leading Kuomintang theorist and rival of Chiang Kai-shek."
+    },
+    "胡蝶": {
+      "renderings": {
+        "Hu Die": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1908–1989, the film star 'Butterfly Wu,' twice voted 'Queen of the Screen'; her lost wartime 'luggage' (largely smuggled goods) and her complaint to Dai Li triggered the couple's arrest (ch20–21)."
+    },
+    "苏堤": {
+      "renderings": {
+        "the Su Causeway": [
+          "midnight",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "苏堤; the willow-planted dyke across the West Lake, traditionally credited to the poet Su Shi. See the note in Fan Bowen's poem."
+    },
+    "苏州河": {
+      "renderings": {
+        "Suzhou Creek": [
+          "huang-mulan",
+          "midnight",
+          "on-a-hair-trigger",
+          "the-whistling-wind",
+          "thousand-li",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "River through central Shanghai."
+    },
+    "英国": {
+      "renderings": {
+        "England": [
+          "midnight"
+        ],
+        "England / Britain": [
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "英国; Britain, named with Japan as America's two rivals in the East."
+    },
+    "董必武": {
+      "renderings": {
+        "Dong Biwu": [
+          "huang-mulan",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "蒋介石": {
+      "renderings": {
+        "Chiang Kai-shek": [
+          "huang-mulan",
+          "juntong",
+          "thousand-li",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Conventional English form retained."
+    },
+    "蒋经国": {
+      "renderings": {
+        "Chiang Ching-kuo": [
+          "huang-mulan",
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Chiang Kai-shek&#8217;s son; the conventional Wade&#8211;Giles English form is used."
+    },
+    "虹口": {
+      "renderings": {
+        "Hongkou": [
+          "midnight",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "虹口; district of Shanghai north of Suzhou Creek, part of the International Settlement, with many Japanese residents and mills; older English Hongkew."
+    },
+    "许广平": {
+      "renderings": {
+        "Xu Guangping": [
+          "huang-mulan",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1898&#8211;1968; educator and writer, wife of Lu Xun; editor of his <i>Complete Works</i>."
+    },
+    "谭延闿": {
+      "renderings": {
+        "Tan Yankai": [
+          "huang-mulan",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Hunan military governor and Nationalist elder; first president of the Executive Yuan; signed the Wuhan order expelling Chiang in April 1927."
+    },
+    "贺衷寒": {
+      "renderings": {
+        "He Zhonghan": [
+          "juntong"
+        ],
+        "He Zhongyan": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "reconcile",
+      "note": "1900-1972; Whampoa 1st class, Blue Shirt political-warfare leader"
+    },
+    "贺龙": {
+      "renderings": {
+        "He Long": [
+          "huang-mulan",
+          "midnight",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "跑马厅": {
+      "renderings": {
+        "the Racecourse": [
+          "midnight",
+          "on-a-hair-trigger",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "跑马厅 (also 跑马场); the great racecourse of the International Settlement, off Bubbling Well Road (today People’s Square and People’s Park)."
+    },
+    "邓演达": {
+      "renderings": {
+        "Deng Yanda": [
+          "huang-mulan",
+          "thousand-li"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "郭德洁": {
+      "renderings": {
+        "Guo Dejie": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Wife of Li Zongren."
+    },
+    "郭沫若": {
+      "renderings": {
+        "Guo Moruo": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "people",
+      "status": "agreed"
+    },
+    "重庆": {
+      "renderings": {
+        "Chongqing": [
+          "huang-mulan",
+          "the-whistling-wind"
+        ],
+        "Chungking": [
+          "juntong"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "The Nationalist wartime capital (the &#8216;great rear&#8217;)."
+    },
+    "钱庄": {
+      "renderings": {
+        "native bank": [
+          "midnight",
+          "thousand-li"
+        ]
+      },
+      "category": "terms",
+      "status": "agreed",
+      "note": "钱庄; a traditional Chinese private bank or money-shop, distinct from the modern 银行. The silk men's working credit runs through these houses, and it is a native-bank manager who will not stretch a point for Chen Junyi."
+    },
+    "长安": {
+      "renderings": {
+        "Chang’an": [
+          "on-a-hair-trigger",
+          "the-longest-day-in-changan"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The Tang capital (modern Xi'an), standing for the far-off imperial city in the tanci aria sung in Chapters 12 and 15."
+    },
+    "长江": {
+      "renderings": {
+        "Yangtze": [
+          "huang-mulan"
+        ],
+        "the Yangtze": [
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed-article-varies",
+      "note": "The conventional English form, used throughout."
+    },
+    "长沙": {
+      "renderings": {
+        "Changsha": [
+          "huang-mulan",
+          "juntong",
+          "midnight"
+        ]
+      },
+      "category": "places",
+      "status": "agreed"
+    },
+    "阎锡山": {
+      "renderings": {
+        "Yan Xishan": [
+          "midnight",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "阎锡山 (1883–1960), the militarist governor of Shanxi (the 'model governor'); in 1930 a leader of the anti-Chiang Northern coalition whose armies drive down the Tianjin–Pukou line in this chapter's war news."
+    },
+    "阿英": {
+      "renderings": {
+        "A Ying": [
+          "huang-mulan",
+          "midnight"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Pen name of Qian Xingcun (1900–1977), writer and literary historian; ran the ‘Wind and Rain Bookroom’ hidden in the Tongyi Company."
+    },
+    "陈友仁": {
+      "renderings": {
+        "Eugene Chen": [
+          "huang-mulan",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1878&#8211;1944; foreign minister of the Wuhan Nationalist government; conventional English form retained."
+    },
+    "陈布雷": {
+      "renderings": {
+        "Chen Bulei": [
+          "huang-mulan",
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Chiang Kai-shek&#8217;s chief secretary and speechwriter; elder brother of Chen Xunshe."
+    },
+    "陈济棠": {
+      "renderings": {
+        "Chen Jitang": [
+          "juntong",
+          "thousand-li",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1890-1954; Guangdong warlord (\"the King of the South\"), led the 1936 Two Kwangs revolt against Chiang."
+    },
+    "陈独秀": {
+      "renderings": {
+        "Chen Duxiu": [
+          "huang-mulan",
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1879&#8211;1942; first general secretary of the CCP, removed at the August Seventh Conference of 1927."
+    },
+    "陈立夫": {
+      "renderings": {
+        "Chen Lifu": [
+          "huang-mulan",
+          "juntong",
+          "thousand-li",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1900–2001; Nationalist organization boss of the ‘CC Clique,’ firmly anti-Communist."
+    },
+    "陈赓": {
+      "renderings": {
+        "Chen Geng": [
+          "huang-mulan",
+          "thousand-li"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Whampoa graduate and head of the intelligence (2nd) section of the Party&#8217;s Special Branch; later a PLA general."
+    },
+    "霞飞路": {
+      "renderings": {
+        "Avenue Joffre": [
+          "huang-mulan",
+          "midnight",
+          "on-a-hair-trigger",
+          "the-whistling-wind",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "A main thoroughfare of the Shanghai French Concession, today&#8217;s Central Huaihai Road."
+    },
+    "青岛": {
+      "renderings": {
+        "Qingdao": [
+          "huang-mulan",
+          "midnight",
+          "the-whistling-wind",
+          "thousand-li",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Shandong port city, host of the Fifth National Bar Association congress (1933)."
+    },
+    "青木关": {
+      "renderings": {
+        "Qingmuguan": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "A place west of Chongqing where the released couple settled 1945 (ch21)."
+    },
+    "青红帮": {
+      "renderings": {
+        "the Green and Red Gangs": [
+          "on-a-hair-trigger"
+        ],
+        "Green and Red Gangs": [
+          "wang-yaqiao"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed-article-varies",
+      "note": "The Green Gang (青帮) and the Hong/Red Gang (洪帮), the great secret-society brotherhoods of Republican Shanghai; Young Tang names them as A-Chu's likely enemies after the hospital bombing."
+    },
+    "静安寺": {
+      "renderings": {
+        "Jing'an Temple": [
+          "the-whistling-wind",
+          "thousand-li",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "The Jing'an (Bubbling Well) Temple, which gave its name to Bubbling Well Road; the district around it, where the narrator and Helen breakfast (ch29)."
+    },
+    "静安寺路": {
+      "renderings": {
+        "Jing'an Temple Road": [
+          "midnight"
+        ],
+        "Bubbling Well Road": [
+          "on-a-hair-trigger",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "The concession-era English name of 静安寺路 (today Nanjing West Road, 南京西路)."
+    },
+    "顾祝同": {
+      "renderings": {
+        "Gu Zhutong": [
+          "huang-mulan",
+          "juntong",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "1893&#8211;1987; Kuomintang general, commander of the Third War Zone."
+    },
+    "顾顺章": {
+      "renderings": {
+        "Gu Shunzhang": [
+          "huang-mulan",
+          "juntong",
+          "on-a-hair-trigger"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Head of the Party&#8217;s Special Branch whose 1931 defection to the Kuomintang gravely wrecked the Shanghai underground."
+    },
+    "香港": {
+      "renderings": {
+        "Hong Kong": [
+          "huang-mulan",
+          "midnight",
+          "the-whistling-wind"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "British colony; seat of the Party&#8217;s Southern Bureau."
+    },
+    "马寅初": {
+      "renderings": {
+        "Ma Yinchu": [
+          "huang-mulan",
+          "juntong"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Economist, later famous for advocating population control."
+    },
+    "马斯南路": {
+      "renderings": {
+        "Route Massenet": [
+          "the-whistling-wind"
+        ],
+        "Massenet Road": [
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "Real. Rue Massenet, after the composer Jules Massenet; today Sinan Road (思南路). The recognition-signal address."
+    },
+    "鲁迅": {
+      "renderings": {
+        "Lu Xun": [
+          "the-whistling-wind",
+          "thousand-li"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Pen name of Zhou Shuren (1881-1936); author of The True Story of Ah Q; the central figure of essay 3."
+    },
+    "鸡鸣寺": {
+      "renderings": {
+        "Jiming Temple": [
+          "thousand-li",
+          "wang-yaqiao"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "Real. Temple by the Nanjing city wall, passed on the drive."
+    },
+    "黄包车": {
+      "renderings": {
+        "rickshaw": [
+          "on-a-hair-trigger",
+          "thousand-li"
+        ]
+      },
+      "category": "terms",
+      "status": "agreed",
+      "note": "The man-pulled two-wheeled cab of Republican Shanghai."
+    },
+    "黄埔军校": {
+      "renderings": {
+        "Whampoa Military Academy": [
+          "huang-mulan",
+          "thousand-li"
+        ]
+      },
+      "category": "organizations",
+      "status": "agreed",
+      "note": "Conventional English form (Whampoa)."
+    },
+    "黄浦江": {
+      "renderings": {
+        "the Huangpu": [
+          "on-a-hair-trigger"
+        ],
+        "the Huangpu River": [
+          "thousand-li",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "reconcile",
+      "note": "The river through Shanghai; A-Chu’s men dump the kidnappers’ bodies in it."
+    },
+    "黄金荣": {
+      "renderings": {
+        "Huang Jinrong": [
+          "huang-mulan",
+          "wang-yaqiao",
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Green Gang boss and the sole Chinese chief inspector of the French Concession patrol house; Chiang Kai-shek was once his disciple."
+    },
+    "龙华": {
+      "renderings": {
+        "Longhua": [
+          "huang-mulan",
+          "thousand-li"
+        ]
+      },
+      "category": "places",
+      "status": "agreed",
+      "note": "District in the southern outskirts of Shanghai; site of the Kuomintang Garrison Command&#8217;s prison and execution ground."
+    },
+    "王亚樵": {
+      "Wang Yaqiao": [
+        "The Gangs of Old Shanghai ch21"
+      ],
+      "renderings": {
+        "Wang Yaqiao": [
+          "gangs-of-old-shanghai"
+        ]
+      }
+    },
+    "郑介民": {
+      "Zheng Jiemin": [
+        "The Gangs of Old Shanghai ch21"
+      ],
+      "renderings": {
+        "Zheng Jiemin": [
+          "gangs-of-old-shanghai"
+        ]
+      }
+    },
+    "毛人凤": {
+      "Mao Renfeng": [
+        "The Gangs of Old Shanghai ch21"
+      ],
+      "renderings": {
+        "Mao Renfeng": [
+          "gangs-of-old-shanghai"
+        ]
+      }
+    },
+    "陶希圣": {
+      "Tao Xisheng": [
+        "The Gangs of Old Shanghai ch21"
+      ],
+      "renderings": {
+        "Tao Xisheng": [
+          "gangs-of-old-shanghai"
+        ]
+      }
+    },
+    "高宗武": {
+      "Gao Zongwu": [
+        "The Gangs of Old Shanghai ch21"
+      ],
+      "renderings": {
+        "Gao Zongwu": [
+          "gangs-of-old-shanghai"
+        ]
+      }
+    },
+    "李士群": {
+      "Li Shiqun": [
+        "The Gangs of Old Shanghai ch21"
+      ],
+      "renderings": {
+        "Li Shiqun": [
+          "gangs-of-old-shanghai"
+        ]
+      }
+    },
+    "张啸林": {
+      "renderings": {
+        "Zhang Xiaolin": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "One of the &#8216;three big bosses&#8217; of the Shanghai gangs, with Huang Jinrong and Du Yuesheng."
+    },
+    "顾竹轩": {
+      "renderings": {
+        "Gu Zhuxuan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Jiangsu-born gang figure who dominated Zhabei; two articles here treat his rise and his cover for revolutionary work."
+    },
+    "张仁奎": {
+      "renderings": {
+        "Zhang Renkui": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Elder Green Gang figure; Du Yuesheng and many others were ranked below his generation."
+    },
+    "朱学范": {
+      "renderings": {
+        "Zhu Xuefan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1905&#8211;1996; postal-workers&#8217; leader who rose through the Green Gang and the Nationalist labor apparatus, broke with the Kuomintang in 1948, and became a minister and vice-chairman of the NPC Standing Committee in the People&#8217;s Republic. Author of this article and calligrapher of the book&#8217;s title."
+    },
+    "李立三": {
+      "renderings": {
+        "Li Lisan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1899&#8211;1967; early Communist labor organizer, a leader of the May Thirtieth Movement and briefly the Party&#8217;s top leader (the &#8216;Li Lisan line,&#8217; 1930)."
+    },
+    "杨度": {
+      "renderings": {
+        "Yang Du": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1875&#8211;1931; classical scholar who championed constitutional monarchy under Yuan Shikai, then reinvented himself&#8212;joining the Communist Party in secret in 1929 while serving as an adviser to Du Yuesheng. His CCP membership was made public only in 1975."
+    },
+    "李大钊": {
+      "renderings": {
+        "Li Dazhao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1889&#8211;1927; co-founder of the Chinese Communist Party. Seized from the Soviet embassy in Beijing and hanged on Zhang Zuolin&#8217;s orders in April 1927."
+    },
+    "赵朴初": {
+      "renderings": {
+        "Zhao Puchu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1907&#8211;2000; Buddhist lay leader, poet, and relief organizer; secretly aided the Communist underground through Shanghai&#8217;s charitable and refugee bodies in the war years, and later headed the Buddhist Association of China."
+    },
+    "向海潜": {
+      "renderings": {
+        "Xiang Haiqian": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1888&#8211;1974; also called Xiang Songpo; a leader of the Hongmen (the &#8216;Five Lakes&#8217; lodges) and a veteran of the 1911 Revolution."
+    },
+    "章士钊": {
+      "renderings": {
+        "Zhang Shizhao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1881&#8211;1973; scholar, lawyer, and sometime Beiyang education minister who named Du Yuesheng&#8217;s Heng Society; later a noted public figure in the People&#8217;s Republic."
+    },
+    "翁文灏": {
+      "renderings": {
+        "Weng Wenhao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1889&#8211;1971; geologist and Nationalist official, acting president of Tsinghua University in 1931 and later premier; returned to the mainland in 1951."
+    },
+    "郑成功": {
+      "renderings": {
+        "Zheng Chenggong": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Koxinga."
+    },
+    "黄兴": {
+      "renderings": {
+        "Huang Xing": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "宋教仁": {
+      "renderings": {
+        "Song Jiaoren": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "司徒美堂": {
+      "renderings": {
+        "Situ Meitang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "向松坡": {
+      "renderings": {
+        "Xiang Songpo": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Xiang Haiqian; see the note at his first appearance."
+    },
+    "虞洽卿": {
+      "renderings": {
+        "Yu Qiaqing": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "陆连奎": {
+      "renderings": {
+        "Lu Liankui": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "露兰春": {
+      "renderings": {
+        "Lu Lanchun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "陈其美": {
+      "renderings": {
+        "Chen Qimei": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "川岛芳子": {
+      "renderings": {
+        "Kawashima Yoshiko": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "See the note at her first appearance."
+    },
+    "袁寒云": {
+      "renderings": {
+        "Yuan Hanyun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "agreed",
+      "note": "Yuan Kewen (袁克文), hao Hanyun; pinyin form used across the collection."
+    },
+    "袁克文": {
+      "renderings": {
+        "Yuan Kewen": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "袁世凯": {
+      "renderings": {
+        "Yuan Shikai": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "袁克定": {
+      "renderings": {
+        "Yuan Keding": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "袁家骝": {
+      "renderings": {
+        "Yuan Jialiu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "段祺瑞": {
+      "renderings": {
+        "Duan Qirui": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "梅兰芳": {
+      "renderings": {
+        "Mei Lanfang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "张宗昌": {
+      "renderings": {
+        "Zhang Zongchang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "褚玉璞": {
+      "renderings": {
+        "Chu Yupu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "许世英": {
+      "renderings": {
+        "Xu Shiying": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "隆裕太后": {
+      "renderings": {
+        "the Empress Dowager Longyu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "张謇": {
+      "renderings": {
+        "Zhang Jian": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "徐宝山": {
+      "renderings": {
+        "Xu Baoshan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "冯国璋": {
+      "renderings": {
+        "Feng Guozhang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "齐燮元": {
+      "renderings": {
+        "Qi Xieyuan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "卢永祥": {
+      "renderings": {
+        "Lu Yongxiang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "何丰林": {
+      "renderings": {
+        "He Fenglin": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "李纯": {
+      "renderings": {
+        "Li Chun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "陈光甫": {
+      "renderings": {
+        "Chen Guangfu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "钱新之": {
+      "renderings": {
+        "Qian Xinzhi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "韩复榘": {
+      "renderings": {
+        "Han Fuju": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "宋哲元": {
+      "renderings": {
+        "Song Zheyuan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "蒋鼎文": {
+      "renderings": {
+        "Jiang Dingwen": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "朱绍良": {
+      "renderings": {
+        "Zhu Shaoliang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "左宗棠": {
+      "renderings": {
+        "Zuo Zongtang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "张之江": {
+      "renderings": {
+        "Zhang Zhijiang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "张孝若": {
+      "renderings": {
+        "Zhang Xiaoruo": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "赵丹": {
+      "renderings": {
+        "Zhao Dan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "汪寿华": {
+      "renderings": {
+        "Wang Shouhua": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "头山满": {
+      "renderings": {
+        "Toyama Mitsuru": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "宫崎寅藏": {
+      "renderings": {
+        "Miyazaki Torazo": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "唐继尧": {
+      "renderings": {
+        "Tang Jiyao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "陈树藩": {
+      "renderings": {
+        "Chen Shufan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "徐永昌": {
+      "renderings": {
+        "Xu Yongchang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "黎元洪": {
+      "renderings": {
+        "Li Yuanhong": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "戴传贤": {
+      "renderings": {
+        "Dai Chuanxian": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "周佛海": {
+      "renderings": {
+        "Zhou Fohai": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "汪亚尘": {
+      "renderings": {
+        "Wang Yachen": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "周荫人": {
+      "renderings": {
+        "Zhou Yinren": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "白崇禧": {
+      "renderings": {
+        "Bai Chongxi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "陈群": {
+      "renderings": {
+        "Chen Qun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "王柏龄": {
+      "renderings": {
+        "Wang Bailing": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "郝鹏举": {
+      "renderings": {
+        "Hao Pengju": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "丁默村": {
+      "renderings": {
+        "Ding Mocun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "梅思平": {
+      "renderings": {
+        "Mei Siping": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "李长江": {
+      "renderings": {
+        "Li Changjiang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "周信芳": {
+      "renderings": {
+        "Zhou Xinfang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1895&#8211;1975; the great Peking-opera actor known by his stage name Qilintong (麒麟童), who took Huang Jinrong as master for protection against Gu Zhuxuan."
+    },
+    "常春恒": {
+      "renderings": {
+        "Chang Chunheng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "A <i>wenwu-laosheng</i> Peking-opera actor shot dead by gunmen at the Dangui&#8217;s door on Gu Zhuxuan&#8217;s order, in a theatrical rivalry and salary dispute at the Tianchan Stage (about 1931)."
+    },
+    "范绍增": {
+      "renderings": {
+        "Fan Shaozeng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "沈醉": {
+      "renderings": {
+        "Shen Zui": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "顾嘉棠": {
+      "renderings": {
+        "Gu Jiatang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "杨森": {
+      "renderings": {
+        "Yang Sen": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "刘湘": {
+      "renderings": {
+        "Liu Xiang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "向传义": {
+      "renderings": {
+        "Xiang Chuanyi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "何北衡": {
+      "renderings": {
+        "He Beiheng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "颜惠庆": {
+      "renderings": {
+        "Yan Huiqing": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "西园寺": {
+      "renderings": {
+        "Saionji": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "刘航琛": {
+      "renderings": {
+        "Liu Hangchen": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "姚玉兰": {
+      "renderings": {
+        "Yao Yulan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "孟小冬": {
+      "renderings": {
+        "Meng Xiaodong": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "魏道明": {
+      "renderings": {
+        "Wei Daoming": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "吴忠信": {
+      "renderings": {
+        "Wu Zhongxin": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "李济深": {
+      "renderings": {
+        "Li Jishen": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "周凤岐": {
+      "renderings": {
+        "Zhou Fengqi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "戴戟": {
+      "renderings": {
+        "Dai Ji": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "孙桐萱": {
+      "renderings": {
+        "Sun Tongxuan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "季云卿": {
+      "renderings": {
+        "Ji Yunqing": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "曾扩情": {
+      "renderings": {
+        "Zeng Kuoqing": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "刘攻芸": {
+      "renderings": {
+        "Liu Gongyun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "李石曾": {
+      "renderings": {
+        "Li Shizeng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "金少山": {
+      "renderings": {
+        "Jin Shaoshan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "庞京周": {
+      "renderings": {
+        "Pang Jingzhou": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "A prominent Shanghai physician, Du Yuesheng's personal doctor."
+    },
+    "袁履登": {
+      "renderings": {
+        "Yuan Lüdeng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "李祖夔": {
+      "renderings": {
+        "Li Zukui": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "A former magistrate of Shanghai county."
+    },
+    "刘峙": {
+      "renderings": {
+        "Liu Zhi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "刘志陆": {
+      "renderings": {
+        "Liu Zhilu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "邵力子": {
+      "renderings": {
+        "Shao Lizi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "王正廷": {
+      "renderings": {
+        "Wang Zhengting": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "唐生明": {
+      "renderings": {
+        "Tang Shengming": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "吴稚晖": {
+      "renderings": {
+        "Wu Zhihui": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1865&#8211;1953; veteran Kuomintang elder and calligrapher; also written 吴敬恒."
+    },
+    "吴敬恒": {
+      "renderings": {
+        "Wu Zhihui": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "The formal given name of the Kuomintang elder better known by his courtesy name, Wu Zhihui; the same man."
+    },
+    "叶恭绰": {
+      "renderings": {
+        "Ye Gongchuo": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "吴鼎昌": {
+      "renderings": {
+        "Wu Dingchang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "宣铁吾": {
+      "renderings": {
+        "Xuan Tiewu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "王宠惠": {
+      "renderings": {
+        "Wang Chonghui": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "俞鸿钧": {
+      "renderings": {
+        "Yu Hongjun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "俞叔平": {
+      "renderings": {
+        "Yu Shuping": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "蒋纬国": {
+      "renderings": {
+        "Chiang Wei-kuo": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1916&#8211;1997; Chiang Kai-shek's younger (adopted) son."
+    },
+    "杨杰": {
+      "renderings": {
+        "Yang Jie": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1889&#8211;1949; Nationalist general who turned against Chiang; assassinated by Juntong agents on the eve of the Communist victory."
+    },
+    "黄琪翔": {
+      "renderings": {
+        "Huang Qixiang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "章伯钧": {
+      "renderings": {
+        "Zhang Bojun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "吴开先": {
+      "renderings": {
+        "Wu Kaixian": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "A leading member of the CC Clique in Shanghai."
+    },
+    "朱子桥": {
+      "renderings": {
+        "Zhu Ziqiao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "General Zhu Qinglan, a noted relief philanthropist of the Republican era."
+    },
+    "张嘉璈": {
+      "renderings": {
+        "Zhang Jia'ao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Chang Kia-ngau (1889&#8211;1979), the banker and financial administrator."
+    },
+    "梅乐斯": {
+      "renderings": {
+        "Miles": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1900&#8211;1961; U.S. Navy officer, head of the American side of the Sino-American Cooperation Organization."
+    },
+    "吴绍澍": {
+      "renderings": {
+        "Wu Shaoshu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Du's disciple turned rival; postwar vice-mayor of Shanghai who publicly broke with him."
+    },
+    "孔令侃": {
+      "renderings": {
+        "Kong Lingkan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "H. H. Kung's son and chairman of the Yangtze Company; Chiang Ching-kuo's cousin."
+    },
+    "杜维垣": {
+      "renderings": {
+        "Du Weiyuan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "A son of Du Yuesheng."
+    },
+    "程泽润": {
+      "renderings": {
+        "Cheng Zerun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "俞飞鹏": {
+      "renderings": {
+        "Yu Feipeng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "A Chiang confidant who headed wartime transport."
+    },
+    "万墨林": {
+      "renderings": {
+        "Wan Molin": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Du Yuesheng's household steward and chief factotum; ran Du's Shanghai affairs during the war and was seized by the puppet secret service."
+    },
+    "黄炎培": {
+      "renderings": {
+        "Huang Yanpei": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1878&#8211;1965. Educator and founder of the China Democratic National Construction Association; a frequent guest of Du's who did wartime liaison work."
+    },
+    "王晓籁": {
+      "renderings": {
+        "Wang Xiaolai": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "A leading figure of the Shanghai General Chamber of Commerce."
+    },
+    "刘鸿生": {
+      "renderings": {
+        "Liu Hongsheng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1888&#8211;1956. Shanghai industrialist, the &#8216;Match King.&#8217;"
+    },
+    "潘公展": {
+      "renderings": {
+        "Pan Gongzhan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Nationalist CC Clique figure and newspaperman in Shanghai."
+    },
+    "卢小嘉": {
+      "renderings": {
+        "Lu Xiaojia": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Son of the Zhejiang military governor Lu Yongxiang; his quarrel with Huang Jinrong over the actress Lu Lanchun led to Huang's arrest and Du's rescue of him."
+    },
+    "朱葆三": {
+      "renderings": {
+        "Zhu Baosan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "A prominent Ningbo-Shanghai comprador and financier."
+    },
+    "傅筱庵": {
+      "renderings": {
+        "Fu Xiao'an": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1872&#8211;1940. Mayor of the Japanese puppet Shanghai municipal government; assassinated in 1940."
+    },
+    "林康侯": {
+      "renderings": {
+        "Lin Kanghou": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "One of the &#8216;three notables of Shanghai&#8217; during the occupation."
+    },
+    "马连良": {
+      "renderings": {
+        "Ma Lianliang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1901&#8211;1966. Celebrated Peking-opera actor of the old-man (laosheng) roles."
+    },
+    "周祥生": {
+      "renderings": {
+        "Zhou Xiangsheng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Founder of the Johnson (Xiangsheng) Taxi Company in Shanghai."
+    },
+    "宋霭龄": {
+      "renderings": {
+        "Song Ailing": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Eldest of the Soong sisters, wife of H. H. Kung and mother of Kong Lingkan."
+    },
+    "盛丕华": {
+      "renderings": {
+        "Sheng Pihua": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1882&#8211;1961. Shanghai industrialist and democratic figure; after 1949 a deputy mayor of Shanghai."
+    },
+    "潘汉年": {
+      "renderings": {
+        "Pan Hannian": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1906&#8211;1977. Chinese Communist intelligence chief; after 1949 a deputy mayor of Shanghai, purged in 1955."
+    },
+    "张澜": {
+      "renderings": {
+        "Zhang Lan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1872&#8211;1955. Chairman of the China Democratic League; in 1949 a vice-chairman of the Central People's Government."
+    },
+    "沙千里": {
+      "renderings": {
+        "Sha Qianli": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1901&#8211;1982. Jurist, another of the &#8216;seven gentlemen.&#8217;"
+    },
+    "简照南": {
+      "renderings": {
+        "Jian Zhaonan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Founder of the Nanyang Brothers Tobacco Company."
+    },
+    "汤玉麟": {
+      "renderings": {
+        "Tang Yulin": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1871&#8211;1949; warlord governor of Rehe (Jehol), notorious for the opium trade. Attested form."
+    },
+    "史量才": {
+      "renderings": {
+        "Shi Liangcai": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1880&#8211;1934; owner of the Shenbao, assassinated 1934 on Chiang Kai-shek's orders."
+    },
+    "于凤至": {
+      "renderings": {
+        "Yu Fengzhi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1897&#8211;1990; Zhang Xueliang's wife."
+    },
+    "徐国梁": {
+      "renderings": {
+        "Xu Guoliang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Shanghai police commissioner, assassinated 1923."
+    },
+    "顾鳌": {
+      "renderings": {
+        "Gu Ao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1879&#8211;1949; a Beiyang-era politician styled a &#8216;meritorious servant of the Hongxian&#8217; monarchy; here one of Du's opium-smoking retainers, called &#8216;Secretary Gu.&#8217;"
+    },
+    "吴醒亚": {
+      "renderings": {
+        "Wu Xingya": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "A CC-clique Nationalist official; head of the Shanghai Bureau of Social Affairs in the 1930s."
+    },
+    "蔡劲军": {
+      "renderings": {
+        "Cai Jinjun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1900&#8211;1985; Shanghai's chief of police / garrison figure in the mid-1930s."
+    },
+    "陆伯鸿": {
+      "renderings": {
+        "Lu Bohong": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1875&#8211;1937; the Catholic industrialist and philanthropist, a papal knight; co-founder of the Datong line."
+    },
+    "朱志尧": {
+      "renderings": {
+        "Zhu Zhiyao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1863&#8211;1955; the Catholic industrialist (Kiangnan Dock, machine works), co-founder of the Datong line."
+    },
+    "叶鸿英": {
+      "renderings": {
+        "Ye Hongying": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "1860&#8211;1937; a Shanghai merchant and philanthropist, target of a boycott-era squeeze."
+    },
+    "黄涵之": {
+      "renderings": {
+        "Huang Hanzhi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "黄涵之 (1875&#8211;1961); Shanghai Buddhist layman and philanthropist, an associate of Guan Jiongzhi."
+    },
+    "赵君豪": {
+      "renderings": {
+        "Zhao Junhao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "赵君豪; Shanghai journalist and editor of the Republican period."
+    },
+    "张石川": {
+      "renderings": {
+        "Zhang Shichuan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "张石川 (1890&#8211;1953); pioneering Chinese film director and a founder of the Mingxing Film Company."
+    },
+    "赵培鑫": {
+      "renderings": {
+        "Zhao Peixin": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "赵培鑫 (1906&#8211;1985); Peking-opera laosheng actor."
+    },
+    "钱大钧": {
+      "renderings": {
+        "Qian Dajun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "钱大钧 (1893&#8211;1982); Kuomintang general, at this time mayor of Shanghai."
+    },
+    "洪兰友": {
+      "renderings": {
+        "Hong Lanyou": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "洪兰友 (1899&#8211;1958); Kuomintang politician."
+    },
+    "程砚秋": {
+      "renderings": {
+        "Cheng Yanqiu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "程砚秋 (1904&#8211;1958); one of the &#8216;Four Great Dan&#8217; of Peking opera, founder of the Cheng school of dan roles."
+    },
+    "赵荣琛": {
+      "renderings": {
+        "Zhao Rongchen": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "赵荣琛 (1916&#8211;1996); leading exponent of the Cheng school of Peking-opera dan roles."
+    },
+    "谷正纲": {
+      "renderings": {
+        "Gu Zhenggang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "谷正纲 (1902&#8211;1993); Kuomintang politician, later long the head of anti-Communist relief work on Taiwan."
+    },
+    "王懋功": {
+      "renderings": {
+        "Wang Maogong": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "王懋功 (1891&#8211;1961); Kuomintang general, at this time chairman of Jiangsu Province."
+    },
+    "张一麐": {
+      "renderings": {
+        "Zhang Yilin": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "张一麐 (1867&#8211;1943); Suzhou elder statesman, once a secretary to Yuan Shikai, later a patriotic notable."
+    },
+    "陈铭枢": {
+      "renderings": {
+        "Chen Mingshu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "陈铭枢 (1889&#8211;1965); Kuomintang general, a leader of the 1933 Fujian Rebellion."
+    },
+    "杨云史": {
+      "renderings": {
+        "Yang Yunshi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "杨云史 (1875&#8211;1941); poet, who served as a secretary to the warlord Wu Peifu."
+    },
+    "胡靖安": {
+      "renderings": {
+        "Hu Jing'an": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "文强": {
+      "renderings": {
+        "Wen Qiang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "唐纵": {
+      "renderings": {
+        "Tang Zong": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "陈诚": {
+      "renderings": {
+        "Chen Cheng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "康泽": {
+      "renderings": {
+        "Kang Ze": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "宋子良": {
+      "renderings": {
+        "Song Ziliang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "俞作柏": {
+      "renderings": {
+        "Yu Zuobai": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "陈质平": {
+      "renderings": {
+        "Chen Zhiping": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "余乐醒": {
+      "renderings": {
+        "Yu Lexing": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "王鲁翘": {
+      "renderings": {
+        "Wang Luqiao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "曾仲鸣": {
+      "renderings": {
+        "Zeng Zhongming": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "陈恭澍": {
+      "renderings": {
+        "Chen Gongshu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "梁启超": {
+      "renderings": {
+        "Liang Qichao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "贝祖诒": {
+      "renderings": {
+        "Bei Zuyi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "钱永铭": {
+      "renderings": {
+        "Qian Yongming": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "<span lang=\"zh-Hans\">&#38065;&#27704;&#38125;</span>, styled Xinzhi; the banker known throughout as Qian Xinzhi, general manager of the Bank of Communications."
+    },
+    "华克之": {
+      "renderings": {
+        "Hua Kezhi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "康心如": {
+      "renderings": {
+        "Kang Xinru": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "何应钦": {
+      "renderings": {
+        "He Yingqin": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "张载阳": {
+      "renderings": {
+        "Zhang Zaiyang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "张作霖": {
+      "renderings": {
+        "Zhang Zuolin": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "林怀部": {
+      "renderings": {
+        "Lin Huaibu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "林怀部; Zhang Xiaolin's bodyguard, who shot him dead on 14 August 1940."
+    },
+    "夏超": {
+      "renderings": {
+        "Xia Chao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "夏超; a Zhejiang provincial police chief and later provincial chairman, killed in 1926."
+    },
+    "黄楚九": {
+      "renderings": {
+        "Huang Chujiu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "黄楚九 (1872&#8211;1931); the entrepreneur who founded the Great World amusement hall and dealt in patent medicines. See the note at ch15."
+    },
+    "土肥原": {
+      "renderings": {
+        "Doihara": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "永野修身": {
+      "renderings": {
+        "Nagano Osami": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "殷汝耕": {
+      "renderings": {
+        "Yin Rugeng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "顾维钧": {
+      "renderings": {
+        "Wellington Koo": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "褚民谊": {
+      "renderings": {
+        "Chu Minyi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "陈公博": {
+      "renderings": {
+        "Chen Gongbo": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "江亢虎": {
+      "renderings": {
+        "Jiang Kanghu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "孙美瑶": {
+      "renderings": {
+        "Sun Meiyao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested"
+    },
+    "穆安素": {
+      "renderings": {
+        "Mu Ansu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "穆安素; an Italian lawyer of Shanghai, one of the foreign hostages at Lincheng."
+    },
+    "汪汉溪": {
+      "renderings": {
+        "Wang Hanxi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "汪汉溪; the long-time manager of the Xinwenbao."
+    },
+    "张执一": {
+      "renderings": {
+        "Zhang Zhiyi": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Zhang Zhiyi (1911&#8211;1983); head of the City Work Department of the CCP Shanghai Bureau, in charge of underground work in the city."
+    },
+    "黄克诚": {
+      "renderings": {
+        "Huang Kecheng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Huang Kecheng (1902&#8211;1986); then a senior commander of the New Fourth Army in the Subei base area, later a general of the People&#8217;s Liberation Army and a leading Party figure."
+    },
+    "马树礼": {
+      "renderings": {
+        "Ma Shuli": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Ma Shuli (1909&#8211;2006); Nationalist journalist and politician, later secretary-general of the Kuomintang&#8217;s Central Committee in Taiwan."
+    },
+    "毛森": {
+      "renderings": {
+        "Mao Sen": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Mao Sen (1908&#8211;1992); Juntong intelligence officer who became chief of the Shanghai police in the city&#8217;s last Nationalist months, notorious for repression."
+    },
+    "李桂春": {
+      "renderings": {
+        "Li Guichun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Li Guichun (1885&#8211;1962); Peking-opera actor known by the stage name &#8216;Xiao Dazi,&#8217; father of Li Shaochun."
+    },
+    "李少春": {
+      "renderings": {
+        "Li Shaochun": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "people",
+      "status": "attested",
+      "note": "Li Shaochun (1919&#8211;1975); one of the great Peking-opera actors of the century; Gu Zhuxuan&#8217;s adopted son."
+    },
+    "青帮": {
+      "renderings": {
+        "the Green Gang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "青帮; the great secret-society brotherhood of the lower Yangtze and Shanghai. Rendered &#8216;Green Gang&#8217; across the collection."
+    },
+    "三合会": {
+      "renderings": {
+        "the Three Harmonies Society": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The Triads of Western usage."
+    },
+    "哥老会": {
+      "renderings": {
+        "the Elder Brothers Society": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "致公堂": {
+      "renderings": {
+        "the Chee Kung Tong": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The overseas Hongmen lodge network; Cantonese romanization."
+    },
+    "小刀会": {
+      "renderings": {
+        "the Small Sword Society": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "兴中会": {
+      "renderings": {
+        "the Revive China Society": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "中国革命同盟会": {
+      "renderings": {
+        "the Chinese Revolutionary Alliance": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The Tongmenghui."
+    },
+    "中华共进会": {
+      "renderings": {
+        "the China Mutual Progress Society": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "晶报": {
+      "renderings": {
+        "The Crystal": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "益社": {
+      "renderings": {
+        "Yi She": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The disciple-fraternity Fan Shaozeng, this chapter's narrator, ran in Shanghai on the model of Du Yuesheng's Heng Society."
+    },
+    "港济公司": {
+      "renderings": {
+        "the Gangji Company": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The opium-trafficking front company Du set up with Dai Li in 1939, with offices in Chongqing and Hong Kong, nominally under Gu Jiatang."
+    },
+    "通济公司": {
+      "renderings": {
+        "the Tongji Company": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The wartime trading company (c. 1943) fronted by Du for Dai Li, smuggling goods to and from the occupied areas under cover of Juntong privilege."
+    },
+    "中美合作所": {
+      "renderings": {
+        "the Sino-American Cooperative Organization": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "扬子公司": {
+      "renderings": {
+        "the Yangtze Company": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "Kong Lingkan's Shanghai firm, a byword for wartime and postwar profiteering under the protection of H. H. Kung."
+    },
+    "保密局": {
+      "renderings": {
+        "the Baomiju": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The Bureau of Confidential Affairs, the 1946 renaming of the Juntong secret service."
+    },
+    "洪帮": {
+      "renderings": {
+        "the Hongmen": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The other great Chinese secret-society tradition beside the Green Gang; weaker in Shanghai, stronger in the north."
+    },
+    "中汇银行": {
+      "renderings": {
+        "the Zhonghui Bank": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "Du Yuesheng's own bank (the China &amp; Overseas Bank), a pillar of his finances. Rendered &#8216;Zhonghui Bank&#8217; across the collection."
+    },
+    "大东书局": {
+      "renderings": {
+        "the Dadong Book Company": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "A major Shanghai publishing house; Du Weiping was its deputy general manager."
+    },
+    "祥生汽车公司": {
+      "renderings": {
+        "the Xiangsheng Taxi Company": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "A leading Shanghai taxi firm (Johnson Taxi), founded by Zhou Xiangsheng."
+    },
+    "南洋兄弟烟草公司": {
+      "renderings": {
+        "the Nanyang Brothers Tobacco Company": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "One of China's largest cigarette makers, founded by the Jian brothers."
+    },
+    "招商局": {
+      "renderings": {
+        "the China Merchants company": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The China Merchants Steam Navigation Company."
+    },
+    "大生纱厂": {
+      "renderings": {
+        "the Dasheng Cotton Mill": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "Zhang Jian's cotton mills at Nantong, a landmark of early Chinese industry."
+    },
+    "怡和洋行": {
+      "renderings": {
+        "Jardine Matheson": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The British trading house Jardine, Matheson and Co. (Chinese hong-name Ewo). Book form \"Jardine Matheson\", per ch07/ch18; ch03 uses the colloquial \"Jardine’s\" in a factory list."
+    },
+    "汉冶萍煤铁公司": {
+      "renderings": {
+        "the Hanyeping Coal and Iron Company": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "China's pioneering iron-and-coal combine."
+    },
+    "山下株式会社": {
+      "renderings": {
+        "Yamashita Kaisha": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The Japanese shipping firm Yamashita Kisen K.K."
+    },
+    "江南造船厂": {
+      "renderings": {
+        "the Jiangnan Shipyard": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The Jiangnan (Kiangnan) Dock and shipyard in Shanghai."
+    },
+    "交通银行": {
+      "renderings": {
+        "the Bank of Communications": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "One of China's major government banks."
+    },
+    "公教进行会": {
+      "renderings": {
+        "Catholic Action": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "The lay Catholic organization (Actio Catholica)."
+    },
+    "之江大学": {
+      "renderings": {
+        "Zhijiang University": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "Hangchow (Zhijiang) University, a missionary college."
+    },
+    "仁济善堂": {
+      "renderings": {
+        "the Renji Charitable Hall": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "苏浙行动委员会": {
+      "renderings": {
+        "the Jiangsu-Zhejiang Action Committee": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "苏浙行动委员会; its Special Action Corps (别动队) was a Dai Li&#8211;organized irregular force raised in the 1937 Shanghai fighting."
+    },
+    "中央赈济委员会": {
+      "renderings": {
+        "the Central Relief Commission": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "中国红十字会": {
+      "renderings": {
+        "the Chinese Red Cross": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "中国通商银行": {
+      "renderings": {
+        "the China Commercial Bank": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "社会部": {
+      "renderings": {
+        "the Ministry of Social Affairs": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "天蟾舞台": {
+      "renderings": {
+        "the Tianchan Stage": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "申报馆": {
+      "renderings": {
+        "the Shen Bao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "申报馆; the office of the Shen Bao (Shun Pao), Shanghai's leading daily newspaper."
+    },
+    "中央信托局": {
+      "renderings": {
+        "the Central Trust": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "三青团": {
+      "renderings": {
+        "the Three People's Principles Youth Corps": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "纳税华人会": {
+      "renderings": {
+        "the Association of Chinese Ratepayers": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "纳税华人会; the Chinese Ratepayers' Association of the French Concession, which elected Chinese members to the French Municipal Council."
+    },
+    "法公董局": {
+      "renderings": {
+        "the French Municipal Council": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "法公董局; the Conseil d'administration municipale, governing body of the French Concession; its Chinese members were called 华董."
+    },
+    "正言报": {
+      "renderings": {
+        "the Zhengyan Bao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested",
+      "note": "正言报; a Shanghai newspaper run by Wu Shaoshu in the postwar takeover period."
+    },
+    "梅机关": {
+      "renderings": {
+        "the Ume Kikan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "organizations",
+      "status": "attested"
+    },
+    "华格臬路": {
+      "renderings": {
+        "Rue Wagner": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "A street in the French Concession, today's Ninghai West Road; site of Du Yuesheng's chief residence."
+    },
+    "杜美路": {
+      "renderings": {
+        "Route Doumer": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "A French Concession street, today's Donghu Road."
+    },
+    "哈同花园": {
+      "renderings": {
+        "the Hardoon Garden": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "Aili Garden, the vast Nanjing Road estate of the Baghdadi-Jewish tycoon Silas Hardoon."
+    },
+    "福煦路": {
+      "renderings": {
+        "Avenue Foch": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "A French Concession street, today's Yan'an Middle Road (eastern stretch)."
+    },
+    "复兴岛": {
+      "renderings": {
+        "Fuxing Island": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "An island in the Huangpu where Chiang Kai-shek stayed and received callers on the eve of the fall of Shanghai."
+    },
+    "亨利路": {
+      "renderings": {
+        "Route Paul Henry": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "French Concession road (Route Paul Henry), today's Xinle Road."
+    },
+    "辣斐德路": {
+      "renderings": {
+        "Route Lafayette": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "French Concession road (Route Lafayette), today's Fuxing Middle Road."
+    },
+    "敏体尼荫路": {
+      "renderings": {
+        "Rue Montauban": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "French Concession road, today's South Xizang Road. Book form 'Rue Montauban' matches ch08; historically this was Route Montigny (敏体尼 = Montigny) -- FLAG FOR B10 reconciliation."
+    },
+    "丽都花园": {
+      "renderings": {
+        "the Lido Garden": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "A Shanghai entertainment garden/ballroom Du frequented."
+    },
+    "城隍庙": {
+      "renderings": {
+        "the City God Temple": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "The City God Temple in the old Shanghai city."
+    },
+    "八仙桥": {
+      "renderings": {
+        "Baxianqiao": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "A district of the French Concession (lit. 'Eight Immortals Bridge'). Book form 'Baxianqiao', consistent across ch08/13/14/16."
+    },
+    "莫干山": {
+      "renderings": {
+        "Moganshan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "The hill resort in Zhejiang where Du kept a villa."
+    },
+    "南通": {
+      "renderings": {
+        "Nantong": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "The Jiangsu city on the north bank of the Yangtze, Zhang Jian's base."
+    },
+    "扬州": {
+      "renderings": {
+        "Yangzhou": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "The Grand Canal city of Subei."
+    },
+    "镇江": {
+      "renderings": {
+        "Zhenjiang": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "The Yangtze city, Yang Guanbei's home."
+    },
+    "龙潭": {
+      "renderings": {
+        "Longtan": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "The 1927 battle where Sun Chuanfang was routed."
+    },
+    "海门": {
+      "renderings": {
+        "Haimen": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "A county at the Yangtze mouth on the Beisha line."
+    },
+    "启东": {
+      "renderings": {
+        "Qidong": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "A county at the Yangtze mouth on the Beisha line."
+    },
+    "告罗士打酒店": {
+      "renderings": {
+        "the Gloucester Hotel": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "告罗士打酒店; the Gloucester Hotel, a landmark Hong Kong hotel."
+    },
+    "柯士甸道": {
+      "renderings": {
+        "Austin Road": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "柯士甸道; Austin Road, Kowloon."
+    },
+    "马当路": {
+      "renderings": {
+        "Madang Road": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested"
+    },
+    "富春江": {
+      "renderings": {
+        "the Fuchun River": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested"
+    },
+    "淳安": {
+      "renderings": {
+        "Chun'an": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "淳安; a county in western Zhejiang."
+    },
+    "商丘": {
+      "renderings": {
+        "Shangqiu": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "商丘; a city in eastern Henan."
+    },
+    "界首": {
+      "renderings": {
+        "Jieshou": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "界首; a town on the Henan&#8211;Anhui border, a wartime trans-shipment point between Nationalist and occupied territory."
+    },
+    "国际饭店": {
+      "renderings": {
+        "the Park Hotel": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested",
+      "note": "国际饭店; the Park Hotel on Nanjing Road, then Shanghai's tallest building."
+    },
+    "上海西站": {
+      "renderings": {
+        "Shanghai West Station": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested"
+    },
+    "坚尼地城": {
+      "renderings": {
+        "Kennedy Town": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "places",
+      "status": "attested"
+    },
+    "荣宗敬": {
+      "renderings": {
+        "Rong Zongjing": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "attested",
+      "note": "1873&#8211;1938; with his brother Rong Desheng, builder of Republican China's largest private industrial group (the Maoxin and Fuxin flour mills and Shenxin cotton mills). Known as the 'Flour King.'"
+    },
+    "王禹卿": {
+      "renderings": {
+        "Wang Yuqing": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "attested",
+      "note": "Partner and general manager of the Rong family's Maoxin and Fuxin flour mills; a director of the Shanghai Flour Exchange."
+    },
+    "王一亭": {
+      "renderings": {
+        "Wang Yiting": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "attested",
+      "note": "1867&#8211;1938 (born Wang Zhen); comprador, businessman, celebrated Shanghai-School painter and Buddhist-layman philanthropist; longtime chairman of the Flour Exchange."
+    },
+    "茂新": {
+      "renderings": {
+        "Maoxin": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "attested",
+      "note": "茂新面粉厂, the Rong family's Wuxi flour mill, whose 'Green Warship' brand set the exchange's standard grade."
+    },
+    "福新": {
+      "renderings": {
+        "Fuxin": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "attested",
+      "note": "福新面粉厂, the Rong family's Shanghai flour mill."
+    },
+    "阜丰": {
+      "renderings": {
+        "Fufeng": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "attested",
+      "note": "阜丰面粉厂, a leading Shanghai flour mill, whose 'Red-and-Blue Cart' brand ranked with the Green Warship standard."
+    },
+    "南汇": {
+      "renderings": {
+        "Nanhui": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "attested",
+      "note": "A rural county on the coast southeast of Shanghai."
+    },
+    "川沙": {
+      "renderings": {
+        "Chuansha": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "attested",
+      "note": "A rural county east of Shanghai, in what is now Pudong."
+    },
+    "绿兵船": {
+      "renderings": {
+        "Green Warship": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "attested",
+      "note": "The Maoxin/Fuxin mills' flour brand, taken as the exchange's benchmark grade; other mills' flour was discounted against it."
+    },
+    "袍哥": {
+      "renderings": {
+        "the Paoge": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "attested",
+      "note": "袍哥; the &#8216;Gowned Brothers,&#8217; the dominant secret-society brotherhood of Sichuan, analogous to the Green Gang and Hongmen of the lower Yangtze."
+    },
+    "奉系": {
+      "renderings": {
+        "the Fengtian clique": [
+          "gangs-of-old-shanghai"
+        ]
+      },
+      "category": "terms",
+      "status": "attested"
+    }
   }
- }
 }
