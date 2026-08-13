@@ -188,3 +188,44 @@
 五体
 # bannō = "almighty, all-powerful" (万能の王); 万 is the idiom, not the count 10000
 万能
+# ── B05 additions (ch19) ──
+# Sangetsutei — Toshizō's grandfather's haigō (三月亭石巴); 三 is part of the pen-name, not the count 3
+三月亭
+# Tamesaburō — Toshizō's blind eldest brother (為三郎); 三 is part of the name, not the count 3
+為三郎
+# ── B05 additions (ch20) ──
+# banji = "in all things, everything" (万事); 万 is the idiom, not the count 10000
+万事
+# yotsude-kago — Edo name for the screened town palanquin (四つ手駕籠); 四 is part of the name, not the count 4
+四つ手
+# yotsuji-kago — Kyoto name for the same palanquin (四つ路駕籠); 四 is part of the name, not the count 4
+四つ路
+# Shichi-don — the palanquin-shop servant's name (七どん); 七 is part of the name, not the count 7
+七どん
+# jusu = "ten-odd, a dozen or so" (十数歩); 十 is the vague idiom, not the count 10
+十数
+# 17-or-18 kan — teen-elision (十七、八貫); the real weight is kept spelled in the English ("seventeen or eighteen kan")
+十七、八
+# Nijohanjiki-cho — Kyoto place name (二帖半敷町); 二 is part of the name, not the count 2
+二帖半敷
+# ── B05 additions (ch21) ──
+# muni = "peerless, without a second" (無二の者); 二 is the idiom, not the count 2
+無二
+# ── B05 additions (ch22) ──
+# nikai = "upstairs, the upper floor" (二階); 二 is part of the word, not the count 2
+二階
+# Shirobee — Ibarakiya Shirobee, the wholesaler (茨木屋四郎兵衛); 四 is part of the name, not the count 4
+四郎兵衛
+# nanbyaku-nichi = "hundreds of days" (何百日); 百 is the vague idiom, not the count 100
+何百日
+# banban = "surely, without doubt" (万々間違いなかろう); 万 is the idiom, not the count 10000
+万々
+# Rokkaku — the Rokkaku prison in Kyoto (六角の獄); 六 is part of the name, not the count 6
+六角
+# Shikokuya — the restaurant-keeper Shikokuya Jubei (四国屋重兵衛); 四 is part of the name, not the count 4
+四国屋
+# ── B05 additions (ch23) ──
+# Gokichiro — Tokoroyama Gokichiro, Tosa loyalist (野老山五吉郎); 五 is part of the name, not the count 5
+五吉郎
+# Shinzaburo — Okuzawa Shinzaburo, Shinsengumi dead (奥沢新三郎); 三 is part of the name, not the count 3
+新三郎

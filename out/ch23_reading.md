@@ -1,0 +1,269 @@
+## Ikedaya: A Coda
+
+Toshizō, for this storming of the Ikedaya, had the day before scouted the neighborhood minutely.
+
+This Sanjō Great Bridge was a post-station on the Tōkaidō, the highway that starts from the Nihonbashi of Edo, and the ways east and west of the great bridge were packed close with inns.
+
+The Ikedaya was one of them.
+
+A frontage of three and a half ken, a depth of fifteen ken, two storeys; on the ground floor, a lattice to the right as you faced it and a red-ocher wall to the left; the upper floor too was screened all over with Kyoto lattice, so that from within one could see out, but the structure was not one to let a man be seen through from the street. (It is gone now. In the sixth year of Shōwa it was pulled down, and on the site of it was built the present Sasaki Inn, four storeys of reinforced concrete.)
+
+In the Gion quarter there is a meeting-house.
+
+It stands before the gate of the Jitsujō-in, the temple that serves as steward of the Gion shrine, and just about there the foot-traffic is thin. Kondō and Toshizō had chosen it for their point of attack-readiness. It would answer to the soba shop in the case of the Akō rōnin.
+
+That day, beforehand, they had the corps' haori and armor carried into this meeting-house. The corpsmen at Mibu set out from Mibu separately, a few at a time: some feigning to go out on a town patrol, some got up as if going off with friends to amuse themselves.
+
+***
+
+After sunset, they gathered at the said meeting-house.
+
+Meanwhile, on the upper floor of the Ikedaya, some twenty-odd clansmen and rōnin of Chōshū, Tosa, Higo, Banshū, Sakushū, Inshū, Yamashiro and the rest were to gather after sunset. The appointment, it is said, was for the hour of Five (eight in the evening). Katsura Kogorō of Chōshū (Kido Takayoshi) too was down to attend.
+
+Of this, Takayoshi's own record has it:
+
+"This night there was an engagement to meet at the inn Ikedaya. At the hour of Five I came to the house. My comrades had not yet come. So, wishing to withdraw a while and come again, I went to the Tsushima villa."
+
+That is to say: he went at the appointed hour, but as no one had yet come, he called on an acquaintance at the nearby Kyoto residence of the Tsushima clan (at the corner of Kawaramachi and Aneyakōji).
+
+"But before some hours had passed, the Shinsengumi of a sudden fell upon the Ikedaya,"
+
+{j} it goes on.
+
+Katsura had had a narrow escape. Both before and after this, Katsura picked up much the same good luck. For sheer providential survival, there is no man in the whole history of the Restoration to match Katsura.
+
+Just after Katsura had once left the Ikedaya, his comrades came gathering in. The chief among them were:
+
+Chōshū: Yoshida Toshimaro, Sugiyama Matsusuke, Hirooka Namihide, Saeki Mizuo, Fukuhara Otonoshin, Ariyoshi Kumatarō
+
+Higo: Miyabe Teizō, Matsuda Jūsuke, Nakatsu Hikotarō, Takagi Gen'emon
+
+Tosa: Tokoroyama Gokichirō, Kitazoe Yoshimaro, Ishikawa Junjirō, Fujisaki Hachirō, Mochizuki Kameyata
+
+Banshū: Ōtaka Chūbee, Ōtaka Matajirō
+
+Inshū: Kawada Sakuma
+
+Yamato: Ōsawa Ippei
+
+Sakushū: Andō Seinosuke
+
+Gōshū: Nishikawa Kōzō
+
+—and had they lived, half of these would likely have held high office in the Restoration government. The leading figures of the company were the two men Yoshida Toshimaro and Miyabe Teizō, reckoned in that day among the first rank of the men of high purpose.
+
+At once, on the upper floor, a drinking-party began.
+
+The first matter for debate was,
+
+"How are we to win back Furutaka Shuntarō?"
+
+{j} such was the question.
+
+Next, whether the "grand undertaking" they had planned—"to take a fierce wind and set fires at points all over Kyoto, break into the Palace and carry off the Son of Heaven to Chōshū, and, should strength remain, fall on the Protector of Kyoto and cut Katamori down"—should be called off on account of Furutaka's arrest, or carried through.
+
+The Tosa men were the fiercest, and,
+
+"Consultation be damned. Matters having come this far, let us do it this very night,"
+
+{j} they urged.
+
+"Is that not too rash a stroke?"
+
+{j} Those who thus held them back were, it seems, the Kyoto, Yamato, and Sakushū men.
+
+The Chōshū side, which held the greatest numbers, were choice extremists one and all; but they had beforehand had a nail driven in by Katsura Kogorō, the Chōshū clan's Kyoto resident-agent (the clan's diplomat stationed in Kyoto). Now was not the time, he had said. As the wine went round, the native metal of their true, extreme opinions came out.
+
+Downstairs, the Shinsengumi inspector Yamazaki Susumu, lodging in the front room disguised as a druggist,
+
+"By all means let me help serve the courses,"
+
+{j} was at work in the kitchen. Being by birth of an Osaka townsman's house, he was adroit at this kind of thing. Even the master, Ikedaya Sōbei (who died in prison after the affair), was quite taken in.
+
+Yamazaki even showed his face at the drinking-party and directed the maidservants. In Kyoto there is a peculiar trade, the serving-caterer, for running a townhouse's banquets, and Yamazaki had, as it were, taken it on himself to be a temporary serving-caterer.
+
+The banquet was in the eight-mat inner room of the front upper floor, and with twenty-odd men seated it was cramped, whatever one did. Every man sat half-rising from his knees. To the left of each was his sword. It was in the way. When the maidservants went round serving in particular, unless one took great care, they might catch a foot against them.
+
+"How would this be,"
+
+{j} said Yamazaki.
+
+"Should the maids by mischance be clumsy with your swords, it would be a grave matter. Might I set them together in the next room?"
+
+"Very well."
+
+One man handed his over. Yamazaki bore it off reverently and set it in the next room, and thereafter, with scarcely a word of courtesy, moved them one after another to the neighboring room, gathered them together, and shut them away in a closet.
+
+Not one of the company felt any imprudence in this. And these were bravos who meant, with a bare twenty-odd men, to seize Kyoto if the chance offered.
+
+They were, as Kondō's letter too has it, "warriors a match for ten thousand"; but their plan was frightfully coarse and slack. Of the fine care that goes with plotting a conspiracy or a revolt, there was, one may say, none whatever.
+
+They drank deep and argued deep. But the drunker they got, the less their argument came together, and they fell to rebutting one another. And that, again, was a pleasure to them. Come to think of it, this had gathered too many of the representative debaters of the several clans.
+
+Meanwhile, at the meeting-house before the Jitsujō-in in Gion, Kondō, Toshizō and the rest were fretting. They too had,
+
+"The sortie is at the hour of Five,"
+
+{j} agreed with the Protector of Kyoto (the Aizu clan). More than two thousand men of that Aizu clan, of the Shoshidai, of the Kuwana clan and the rest were to move all together at that hour; but the mustering was heavy and slow, and not a man of them was yet out in the town. The clans' military organizations had, in three hundred years of peace, gone dull to this degree.
+
+"The clans are not to be relied on,"
+
+{j} Toshizō pressed Kondō to his resolve. Kondō, without a word, rose.
+
+It was already ten at night.
+
+"Toshi, go to Kiyamachi (the Tantora)."
+
+Toshizō put on his brow-guard. A skirt of chain-mail hung to his shoulders. A strange war-array.
+
+"The fortunes of war to you.—"
+
+{j} and Toshizō, from beneath the visor, smiled toward Kondō. Kondō smiled too. The memory of playing with Toshizō by the bank of the Tamagawa as a boy brushed suddenly across Kondō's mind.
+
+With a rush, Toshizō went out into the dark street.
+
+Kondō too, to the front.
+
+By the way, Toshizō's party first fell on the Tantora at Kiyamachi, but the enemy was not there.
+
+Kondō's side went straight on to the Ikedaya.
+
+At the Ikedaya, Yamazaki the druggist had quietly slipped the wooden lock off the great door.
+
+Upstairs, two hours had already passed since the drinking-party opened. The drink had come well round.
+
+Kondō opened the door and stepped into the earthen entry. Those who followed were Okita Sōji, Tōdō Heisuke, Nagakura Shinpachi, Kondō Shūhei—only these. The rest had gone round to secure the front and back doors.
+
+"Is the master here? This is an official search."
+
+Sōbei, aghast, started up, climbed two or three steps of the stairway to the upper floor, and,
+
+"Guests upstairs! It is an inspection by the officers on their rounds!"
+
+{j} cried in a loud voice.
+
+Kondō struck him full across the side of the face with all his strength. The master rolled into the earthen entry.
+
+Even that master's voice did not reach the ears of the crowd upstairs.
+
+Only the Tosa man Kitazoe Yoshimaro, taking it perhaps for a late-coming comrade arrived at last,
+
+"Come up, up here,"
+
+{j} put his face out at the head of the stairs. What he looked down on from above was Kondō. Their faces met. As Kitazoe started back with a cry, Kondō ran up the stairs two at a time and cut him down with a drawing-stroke.
+
+His sword was the Kotetsu.
+
+Nagakura Shinpachi ran up after him.
+
+On the upper floor there were only the two, Kondō and Nagakura. They advanced into the inner room.
+
+The men of the inner room only now grasped at last what sort of thing this was.
+
+But though they would take up their swords, their long swords were not there. Perforce they drew their short ones. There is a school that holds the short sword the better in fighting within a room, so it was not wholly a disadvantage.
+
+The chairman, as it were, the Chōshū man Yoshida Toshimaro, was at this time twenty-four. A beloved disciple of Yoshida Shōin, he was one whom Shōin, it is said, valued even above Katsura Kogorō.
+
+Yoshida Toshimaro had, as one would expect, wits nimble enough to turn even in this crisis. The Chōshū clan mansion on Kawaramachi (the Kyoto Hotel of today) was near from here. Meaning first to seek reinforcements, he slipped between the naked blades of Kondō and Nagakura and gained the head of the stairs.
+
+Kondō, turning as he went, dealt him a stroke to the point of the shoulder.
+
+Yoshida tumbled down the stairs. Tōdō Heisuke, below, dealt him a stroke, but he did not go down and got out into the street. There he took Harada Sanosuke's blade at the hip, but still did not go down, and ran on, headlong.
+
+He beat at the mansion gate.
+
+"It's Yoshida—open up."
+
+The gate was opened. He told his urgent news.
+
+"Everyone, come at once,"
+
+{j} he cried; but by ill luck the mansion held only a few sick men, foot-soldiers, and servants, none fit enough to fight. The man in charge of the mansion at this time, the resident-agent Katsura Kogorō, held back even those who would still have run out, and,
+
+"The road ahead is likewise a great matter. I will not permit a rash answering to this action" (Takayoshi's own record),
+
+{j} he said. Katsura left Yoshida and the rest to die. But that too could not be helped. Move now, and the Chōshū residence alone would have to fight several thousand shogunate troops.
+
+Yoshida Toshimaro, having no choice, borrowed a single hand-spear, and, his whole body a mass of blood, turned back to the Ikedaya where his comrades were fighting their bitter fight, went in once more, and in the earthen entry met, by his misfortune, Okita Sōji.
+
+Yoshida's thrusting spear Okita lightly brushed aside. Running his sword straight on down the spear-shaft, he stepped in and, with a single right diagonal stroke, cut him down.
+
+About this time, Toshizō's party had reached the Ikedaya. Toshizō came into the earthen entry.
+
+By now the rōnin side—some fighting with long swords seized back, some using hand-spears, some plying the short sword with skill—were fighting, twenty-odd men, resolved on death, and Tōdō Heisuke and others, badly wounded, lay fallen in the earthen entry.
+
+"Heisuke, don't die,"
+
+{j} and with the word, as a man came bursting out from the inner store-room, Toshizō, setting his right foot on the door-sill, cut him clean through with a single reverse body-stroke. The corpse leapt up, as it were, and fell into the earthen entry, sprawling over Tōdō.
+
+Upstairs, Kondō was still fighting. His position was the head of the front stairway.
+
+At the head of the same back stairway was Nagakura Shinpachi. The corridor at the stair-head was narrow. A corridor barely three shaku wide, so that the rōnin side had the disadvantage of having to fight Kondō one at a time.
+
+The Higo man Miyabe Teizō checked his comrades as, all in a mass, they made to spill out into the corridor, and directed them to draw Kondō into the wide space of the room and cut him down by numbers.
+
+Kondō, since the enemy would not come out into the corridor, went back into the room.
+
+He and Miyabe faced off, both at the middle guard. Miyabe too fought some exchanges, but was no match for Kondō. His face was laid open, and even so, calling up what strength was left him, he made it to the head of the front stairs, where he met Okita Sōji, who had cut Yoshida Toshimaro and come running up, and took several more wounds. Miyabe must have thought it the end, for,
+
+"A warrior's last hour—do not hinder it,"
+
+{j} and, gripping his sword reversed, he drove it into his belly and, just so, went tumbling headlong down the stairs head-first.
+
+The Higo man Matsuda Jūsuke had been fighting upstairs. His weapon was a dagger, no more; for that day Matsuda had been in disguise, in townsman's dress.
+
+There Okita came rushing in. Matsuda, famed for his fierce agility, stood against him with the dagger still, but was at once beaten down and cut on the left arm. Stumbling in that instant over the corpse of his comrade Ōtaka Matajirō, he fell; and, as he fell, noticing that the dead man's hand gripped a long sword, he wrenched it free and fought Okita again, but at a single exchange was cut down. (When this Matsuda Jūsuke's younger brother, Yamada Nobumichi, later came to take up the post of governor of Kyoto Prefecture in the twenty-sixth year of Meiji, he gathered the gravestones of all the fallen into one place and raised a great memorial stone.)
+
+By now, about the Ikedaya, close on three thousand troops of Aizu, Kuwana, Hikone, Matsuyama, Kaga, and the Shoshidai had pressed in and ringed it round.
+
+Of those who cut their way out into the street, too, many died fighting in the town, or, from grave wounds, were many of them taken.
+
+The Tosa man Mochizuki Kameyata cut down two Shinsengumi corpsmen within the house and ran through the wild play of blades; and on the way to the Chōshū mansion, overtaken by Aizu troops, he cut his belly in the road, standing as he was.
+
+Likewise the Tosa man Tokoroyama Gokichirō, bearing several wounds, at last got clear of the house and fled as far as the Chōshū mansion, and pressed for the gate to be opened; but the gate would not open in the end, and meanwhile, before the gate, he was ringed by some twenty Aizu and Kuwana troops, and he too cut his belly standing, before the gate.
+
+The dead on the spot on the men-of-purpose side were seven. Those taken alive came to twenty-three, but many, from grave wounds, soon lost their lives.
+
+They fought well. With a bare twenty-odd men, the losses they dealt the encircling side were by far the greater.
+
+By the account in Tamamushi Sadayū's Kanbu Tsūki, the shogunate troops' losses were as follows:
+
+Aizu: five killed outright, thirty-four wounded.
+
+Hikone: four killed outright, fourteen or fifteen wounded.
+
+Kuwana: two killed outright, a few wounded.
+
+Matsuyama and Yodo: these two clans, in each a few dead and wounded.
+
+Those who did the actual fighting were the Shinsengumi. Killed outright on the spot was Okuzawa Shinzaburō; dead soon after of grave wounds were the two men Andō Hayatarō and Nitta Kakuzaemon. Besides these, Tōdō Heisuke was gravely wounded.
+
+Kondō and Okita, who had fought so from the very outset of the storming, took not a scratch. Toshizō too, of course, was unhurt.
+
+Toshizō had come running up from the middle of this fight, but did not stir from the earthen entry.
+
+Upstairs Kondō commanded, downstairs Toshizō; not that they had settled it beforehand, but these two seemed to fall of themselves into that rhythm.
+
+Partway through, Harada Sanosuke at the front door put his face in from the doorway and,
+
+"Hijikata-sensei, upstairs it's only Kondō-sensei and the two, Okita and Nagakura, and they seem hard-pressed. I'll take charge of the entry, so how if you went up to see how it stands?"
+
+{j} he said. But Toshizō did not stir. As vice-commander, he meant to guard the ground floor and let Kondō work as freely as could be, and by this raid to raise Kondō's martial name higher still. To make Kondō's name great, by any means, was, he believed, what the Shinsengumi needed.
+
+Now and then, from upstairs, Kondō's fearsome fighting-cry came falling down.
+
+"By that sound, he's all right,"
+
+{j} Toshizō laughed.
+
+Toshizō's part had another side to it. About when the fighting had nearly been settled, the Aizu and Kuwana men were forever trying to get into the house.
+
+It was, so to say, battlefield-profiteering after the enemy had broken—craven past all bearing.
+
+"Is there some business of yours?"
+
+{j} and Toshizō would plant himself before such a man, naked blade lowered. He meant to let no outsider whatever into this battlefield, bought outright by the Shinsengumi's own strength.
+
+"Kindly withdraw."
+
+Seeing this man's eyes with their deep-set glint, no one would try to press in further. So the roughly three thousand shogunate troops became a guard that seized only those who broke out into the street, and the fighting and the glory alike took the shape, as it were, of a thing bought up entire by the Shinsengumi.

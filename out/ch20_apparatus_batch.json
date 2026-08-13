@@ -1,0 +1,20 @@
+{
+  "glossary": {
+    "竹屋町": {"section": "places", "en": "Takeyamachi", "pinyin": "Takeyamachi", "status": "attested", "note": "An east&#8211;west street in central Ky&#333;to."},
+    "二帖半敷町": {"section": "places", "en": "Nijōhanjiki-chō", "pinyin": "Nijōhanjiki-chō", "status": "attested", "note": "A block in central Ky&#333;to; the crossroads that gives the chapter its name. The name reads literally &#8220;two-and-a-half-mat town.&#8221;"},
+    "仏光寺": {"section": "places", "en": "the Bukkō-ji", "pinyin": "Bukkō-ji", "status": "attested", "note": "A large Shin-sect temple in central Ky&#333;to; its gate-front was a landmark and a stand for hired palanquins."},
+    "宝鏡寺": {"section": "places", "en": "the Hōkyō-ji", "pinyin": "Hōkyō-ji", "status": "attested", "note": "A Rinzai imperial convent (<i>ama-monzeki</i>) in Ky&#333;to whose abbesses were imperial princesses; also called the Momo-no-gosho."},
+    "鴨川": {"section": "places", "en": "the Kamo River", "pinyin": "Kamogawa", "status": "attested", "note": "The river running north to south through the eastern side of Ky&#333;to."},
+    "室町": {"section": "places", "en": "Muromachi", "pinyin": "Muromachi", "status": "attested", "note": "A north&#8211;south street in central Ky&#333;to."},
+    "大仏": {"section": "places", "en": "the Great Buddha", "pinyin": "Daibutsu", "status": "attested", "note": "The colossal Buddha of the H&#333;k&#333;-ji in Higashiyama, Ky&#333;to&#8217;s <i>Daibutsu</i>; &#8220;behind the Great Buddha&#8221; names the district around it."},
+    "芳駕籠": {"section": "organizations", "en": "the Yoshikago", "pinyin": "Yoshikago", "status": "provisional", "note": "The palanquin-house by the Bukk&#333;-ji gate. Apparently the novelist&#8217;s invention."}
+  },
+  "notes": {
+    "ch20": [
+      {"anchor": "once the country retreat of the abbess-princess of the Hōkyō-ji", "note": "The H&#333;ky&#333;-ji was a real imperial convent whose abbesses were imperial princesses (see the glossary). Such convents kept country retreats (<i>sato-gob&#333;</i>) away from the cloister; the one here stood &#8220;behind the Great Buddha,&#8221; the district around the colossal Buddha of the H&#333;k&#333;-ji in Higashiyama. The institution and the geography are real; that this particular retreat served as a safehouse for masterless loyalist samurai, managed by Osae under cover of teaching poetry, is the novelist&#8217;s device. Institutions corroborated."},
+      {"anchor": "showing her lovely blackened teeth", "note": "<i>Ohaguro</i>, the lacquer-blackening of the teeth, and the shaving of the eyebrows mentioned just before, were the marks of a married woman in this period; a wife blackened her teeth and plucked or shaved her brows. On the palanquin-master&#8217;s wife they are simply the badge of a matron."},
+      {"anchor": "Seventeen or eighteen kan", "note": "The <i>kan</i> (or <i>kanme</i>) was a unit of weight of about 3.75 kilograms, so the water-filled cask ran to some 65 kilograms&#8212;the weight of a grown man, which is the point of loading it so."},
+      {"anchor": "a yotsude-kago; in Kyoto they call it a yotsuji-kago", "note": "A hired town palanquin of the plainest sort, an open litter with a hanging screen. Shiba notes a real dialect split: <i>yotsude-kago</i> (&#8220;four-hand palanquin&#8221;) in Edo, <i>yotsuji-kago</i> (&#8220;four-way palanquin&#8221;) in Ky&#333;to and the Kamigata."}
+    ]
+  }
+}

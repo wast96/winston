@@ -636,3 +636,130 @@ Kōnoike (org), 士道 the warrior's code (shidō). One rendering per referent
 enforced by check_content; all capitalized proper-name rows verified present in
 their source paragraphs (Pontochō, Kiyamachi, and the people forms rendered
 verbatim where the full source string appears).
+
+## B05 = ch19 to ch23 (再会 / 二帖半敷町の辻 / 局中法度書 / 池田屋 / 断章・池田屋)
+
+Batch 5. All five chapters translated to the frozen ch01 register, annotated,
+checked, and built into the cumulative EPUB. Notes 144 to 180 (37 this batch).
+Continuous note number now 180. Every scripted gate green; qa_epub PASS;
+epubcheck 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+### Chapters
+
+- ch19 再会 / "Reunion" (215 source lines). Autumn 1863; Toshizō's secret haiku
+  (pen-name Hōgyoku) surprised by Okita; the reunion with Osae in the honey-trap
+  house off Fuyamachi. 1 scene break (after para 102, the love-haiku). 10 notes.
+  register within tolerance (em-dash 2.7/1k; "little dialogue" flag).
+- ch20 二帖半敷町の辻 / "The Crossroads at Nijōhanjiki-chō" (195 lines). The tryst
+  goes hollow; Osae revealed as a loyalist go-between; the palanquin water-cask
+  decoy at the Yoshikago; Shichiri Kennosuke steps out of the dark. 0 scene
+  breaks. 4 notes. register within tolerance (em-dash 9.7/1k).
+- ch21 局中法度書 / "The Code of the Corps" (180 lines). The Shichiri fight
+  broken off; the rōnin-control edict; Yamanami kicked upstairs to general
+  secretary (staff-not-line); the five-article Code drafted with Okita; the
+  first enforcement, Sakai Hyōgo. 1 scene break (after para 53). 7 notes.
+  register within tolerance (em-dash 11.3/1k after fixing one 3-dash list).
+- ch22 池田屋 / "The Ikedaya" (171 lines). The surveillance of the Masuya;
+  Kishibuchi's tip; Furutaka Shuntarō's arrest; the split of the force between
+  the Ikedaya and the Tantora; Kondō's own letters to Shūsai quoted. 1 scene
+  break (after para 49). 9 notes. register within tolerance (em-dash 8.1/1k).
+- ch23 断章・池田屋 / "Ikedaya: A Coda" (133 lines). The documentary coda: the
+  inn's plan, Kido's diary, the full loyalist roster, the raid blow by blow, the
+  casualty tallies from Tamamushi Sadayū's Kanbu Tsūki. 1 scene break (after
+  para 8). 7 notes. register within tolerance (em-dash 3.2/1k, documentary).
+
+### Checks (every chapter, all green)
+
+- Parity + verbatim quotation by construction (make_bilingual); verify_unit
+  re-check clean for all five. Two parity misses were caught by make_bilingual
+  and fixed: ch22 merged source lines 6-7 (the "picture afternoon" / "Gion
+  festival near" pair); ch23 dropped line 29 (ということである) and merged the
+  Matsuda Jūsuke lines 105-106. Re-read against source restored 171 and 133.
+- check_numbers --noise: 0 unresolved all five. New noise rules added (each
+  commented, never a real quantity): 三月亭, 為三郎 (ch19); 万事, 四つ手, 四つ路,
+  七どん, 十数, 十七、八, 二帖半敷 (ch20); 無二 (ch21); 二階, 四郎兵衛, 何百日,
+  万々, 六角, 四国屋 (ch22); 五吉郎, 新三郎 (ch23). Real quantities (koku, troop
+  counts, the Ikedaya measurements, casualty figures, dates) all carried in the
+  English word-forms.
+- check_align, check_content: OK across all 23 units. One displacement caught
+  and fixed: ch22 para 78 had dropped the source's (水戸) gloss on Kishibuchi's
+  clan; restored "(Mito)".
+- qc_entities: 0 misses. check_apparatus: 0 failures, 0 warnings.
+- check_register --ref: all five within tolerance of the frozen ch01 reference.
+- Tail verification against source: done explicitly for each chapter (rule 4).
+
+### Fact-checks (verdict stated in the note)
+
+- Hijikata's haiku: the pen-name Hōgyoku and the 41-verse Hōgyoku Hokku-shū
+  (compiled spring 1863, held at the Hijikata museum in Hino) corroborated;
+  grandfather Sangetsutei Sekiha, and the poets Natsume Seibi (1749-1817) and
+  Matsubara-an Seifu (1732-1814, the Hachiōji woman poet) corroborated. Reading
+  fixed: 松原庵 = Matsubara-an, not the draft's "Shōhōan" (Kotobank).
+- Kujō Hisatada / Princess Kazunomiya kōbu-gattai marriage / his 1862 forced
+  tonsure: corroborated.
+- The Hōkyō-ji imperial convent and the Hōkō-ji Great Buddha (ch20): the
+  institutions and geography are real; the safehouse-behind-the-Daibutsu is the
+  novelist's device. Institutions corroborated.
+- The five-article Code (ch21): PROVENANCE DEBATED. The name 局中法度書 and the
+  five-article form come chiefly from Shimozawa Kan's Shinsengumi shimatsuki
+  (1928); Nagakura's account has only four "interdictions"; no contemporary
+  document survives. The discipline-by-seppuku it dramatizes is firmly attested.
+  Note states the split verdict.
+- Sakai Hyōgo's desertion and killing (ch21): attested in the traditional
+  accounts, which place it in 1865 after Yamanami's seppuku; Shiba brings it
+  forward as the code's first test. Timing is the novelist's; the killing real.
+- Ikedaya Incident (ch22-23): date 元治元年6月5日 = 8 July 1864 corroborated;
+  Furutaka Shuntarō / Masuya Kiemon, the plot, the small raid party, Kondō's
+  quoted letters, the asagi dandara uniform and Hijikata's surviving hachigane
+  all corroborated. Furutaka's confession: Shiba takes the minority line
+  (roster seized, torture yielded nothing) against the famous torture-confession
+  tradition; note states the dispute. Casualty counts vary across sources
+  (7/8/9 dead, ~20-23 taken); Shiba's 7 dead / 23 taken kept, variance noted.
+  (Grokipedia surfaced in a search and was IGNORED per rule 5.)
+
+### Glossary rows added this batch: 48 (nested by section)
+
+People (34): 隼人 Hayato, 為三郎 Tamesaburō, 三月亭石巴 Sangetsutei Sekiha,
+夏目成美 Natsume Seibi, 松原庵星布 Matsubara-an Seifu (ch19); 家茂 Iemochi,
+酒井兵庫 Sakai Hyōgo (ch21); 古高 Furutaka, 岸淵兵輔 Kishibuchi Heisuke, 四国屋
+Shikokuya (Jūbei), 島田魁 Shimada Kai, 川島勝司 Kawashima Katsuji, 林信太郎
+Hayashi Shintarō, 周平 Shūhei, 渡辺幸右衛門 Watanabe Kōemon, 利助 Risuke,
+熊坂長範 Kumasaka Chōhan (ch22); 吉田稔麿 Yoshida Toshimaro, 宮部鼎蔵 Miyabe
+Teizō, 松田重助 Matsuda Jūsuke, 北添佶麿 Kitazoe Yoshimaro, 望月亀弥太 Mochizuki
+Kameyata, 野老山 Tokoroyama (Gokichirō), 大高又次郎 Ōtaka Matajirō, 玉虫左大夫
+Tamamushi Sadayū, 惣兵衛 Sōbei, 奥沢新三郎 Okuzawa Shinzaburō, 安藤早太郎 Andō
+Hayatarō, 新田革左衛門 Nitta Kakuzaemon, 山田信道 Yamada Nobumichi (ch23).
+Places (7): 竹屋町 Takeyamachi, 二帖半敷町 Nijōhanjiki-chō, 仏光寺 the Bukkō-ji,
+宝鏡寺 the Hōkyō-ji, 鴨川 the Kamo River, 室町 Muromachi, 大仏 the Great Buddha
+(ch20); 本圀寺 the Honkoku-ji, 三条小橋 Sanjō-kobashi, 高麗橋 Kōraibashi (ch22).
+Organizations (5): 芳駕籠 the Yoshikago (ch20); 枡屋 the Masuya, 茨木屋 the
+Ibarakiya, 丹虎 the Tantora, 池田屋 the Ikedaya (ch22). Terms (2): 局中法度 the
+Code of the Corps, 見廻組 the Mimawarigumi (ch21). Two entries carry a bare
+surname en to satisfy check_content where the source shortens the name: 古高 ->
+"Furutaka" (full "Furutaka Shuntarō" at first mention), 野老山 -> "Tokoroyama".
+A bare-佐絵 row was tried and REMOVED: 佐絵 is a substring of お佐絵 (Osae, ch01-02)
+and over-matched a prior chapter; the referent stays covered by お佐絵 -> Osae.
+
+### "NOT re-noted" ledger (first-appearance discipline held)
+
+Already noted in earlier batches, deliberately not re-noted this batch: Bunkyū
+era-year (ch11/ch14); the Rokusha Myōjin / Ōkunitama shrine and miko
+shrine-maidens (ch01); Ishida Powder (ch01, rendered verbatim); court noble
+(kuge) / shodaibu / regent service (ch02); Shimabara and Gion pleasure quarters
+(ch02/earlier); the Protector of Kyoto / Shoshidai and Revere-the-Emperor,
+Expel-the-Barbarian (ch13); Toshizō's Izumi-no-kami Kanesada and the Kotetsu
+smith (ch12, though ch23 adds the Ikedaya forgery-anecdote which says more);
+Katsura Kogorō = Kido Takayoshi (ch07); the Tōkaidō (ch12); Aizu / Mibu / the
+corps ranks and shidō (B04). New notes were placed only at genuine first
+appearances.
+
+### Digitization glitches / source oddities this batch
+
+- None of substance. The source stays clean commercial digital text: no
+  dittography, no stray U+200B lines, no doubled headings, no mojibake in the
+  ch19-ch23 bodies. Expressive gikun furigana continue (将軍→たいじゅ, 京→ここ,
+  近藤→せんせい and the like); treated as semantic glosses, never romanized.
+- The source writes 玉虫左大夫 (ch23); standard scholarship writes 玉虫左太夫.
+  Kept the source form, glossary note records the variant. Not corrected.
+- 丹虎 is furigana'd たんとら (Tantora), not the "Tankō" one might guess; used the
+  source's own reading.

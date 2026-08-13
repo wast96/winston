@@ -1,0 +1,163 @@
+{
+  "glossary": {
+    "古高": {
+      "section": "people",
+      "en": "Furutaka",
+      "pinyin": "Furutaka Shuntarō",
+      "status": "attested",
+      "note": "A loyalist agent (1829&#8211;1864) who, under the merchant alias Masuya Kiemon, ran an arms depot for the Ch&#333;sh&#363;-aligned plotters. His arrest set off the Ikedaya raid."
+    },
+    "岸淵兵輔": {
+      "section": "people",
+      "en": "Kishibuchi Heisuke",
+      "pinyin": "Kishibuchi Heisuke",
+      "status": "provisional",
+      "note": "A Mito clansman, once a visitor at Kond&#333;&#8217;s Edo d&#333;j&#333;, here made the bearer of the first warning about the Masuya. Romanization mine."
+    },
+    "四国屋": {
+      "section": "people",
+      "en": "Shikokuya",
+      "pinyin": "Shikokuya Jūbei",
+      "status": "attested",
+      "note": "Sh&#333;ku&#333;ya J&#363;bei, keeper of the Kiyamachi restaurant Tantora, a known haunt of the Ch&#333;sh&#363; and Tosa men."
+    },
+    "島田魁": {
+      "section": "people",
+      "en": "Shimada Kai",
+      "pinyin": "Shimada Kai",
+      "status": "attested",
+      "note": "A Shinsengumi inspector, one of the biggest men in the corps; served on the surveillance of the Masuya."
+    },
+    "川島勝司": {
+      "section": "people",
+      "en": "Kawashima Katsuji",
+      "pinyin": "Kawashima Katsuji",
+      "status": "provisional",
+      "note": "A Shinsengumi inspector. Romanization mine."
+    },
+    "林信太郎": {
+      "section": "people",
+      "en": "Hayashi Shintarō",
+      "pinyin": "Hayashi Shintarō",
+      "status": "provisional",
+      "note": "A Shinsengumi inspector. Romanization mine."
+    },
+    "周平": {
+      "section": "people",
+      "en": "Shūhei",
+      "pinyin": "Shūhei",
+      "status": "attested",
+      "note": "Kond&#333; Sh&#363;hei, Kond&#333; Isami&#8217;s adopted son, one of the five who charged into the Ikedaya."
+    },
+    "渡辺幸右衛門": {
+      "section": "people",
+      "en": "Watanabe Kōemon",
+      "pinyin": "Watanabe Kōemon",
+      "status": "provisional",
+      "note": "The beat constable who, being on friendly terms with the corps, passed the tip to Mibu rather than to his own office. Romanization mine."
+    },
+    "利助": {
+      "section": "people",
+      "en": "Risuke",
+      "pinyin": "Risuke",
+      "status": "provisional",
+      "note": "A newly hired servant of the Masuya who informed on the arms cache. Romanization mine."
+    },
+    "熊坂長範": {
+      "section": "people",
+      "en": "Kumasaka Chōhan",
+      "pinyin": "Kumasaka Chōhan",
+      "status": "attested",
+      "note": "The giant bandit of medieval legend, a stock figure of the theater; see the note in the chapter."
+    },
+    "枡屋": {
+      "section": "organizations",
+      "en": "the Masuya",
+      "pinyin": "Masuya",
+      "status": "attested",
+      "note": "The tool-and-sundries shop that was the front for Furutaka&#8217;s arms depot."
+    },
+    "茨木屋": {
+      "section": "organizations",
+      "en": "the Ibarakiya",
+      "pinyin": "Ibarakiya",
+      "status": "attested",
+      "note": "The sundries-wholesaler on Kawaramachi from whose upper floor the corps kept watch on the Masuya."
+    },
+    "丹虎": {
+      "section": "organizations",
+      "en": "the Tantora",
+      "pinyin": "Tantora",
+      "status": "attested",
+      "note": "A Kiyamachi restaurant kept by Shikokuya J&#363;bei, the second suspected meeting-place; the object of Toshiz&#333;&#8217;s party on the night of the raid."
+    },
+    "池田屋": {
+      "section": "organizations",
+      "en": "the Ikedaya",
+      "pinyin": "Ikedaya",
+      "status": "attested",
+      "note": "The inn at the west end of Sanj&#333;-kobashi, kept by one S&#333;bei, where the loyalists met and where Kond&#333;&#8217;s party struck."
+    },
+    "本圀寺": {
+      "section": "places",
+      "en": "the Honkoku-ji",
+      "pinyin": "Honkoku-ji",
+      "status": "attested",
+      "note": "A temple on Horikawa used as the Ky&#333;to quartering-ground of the Mito clan&#8217;s troops."
+    },
+    "三条小橋": {
+      "section": "places",
+      "en": "Sanjō-kobashi",
+      "pinyin": "Sanjō-kobashi",
+      "status": "attested",
+      "note": "The &#8220;little bridge&#8221; on Sanj&#333;, over the Takase canal; the Ikedaya stood at its west end."
+    },
+    "高麗橋": {
+      "section": "places",
+      "en": "Kōraibashi",
+      "pinyin": "Kōraibashi",
+      "status": "attested",
+      "note": "A district of central Osaka."
+    }
+  },
+  "notes": {
+    "ch22": [
+      {
+        "anchor": "the first year of Genji",
+        "note": "The era-name changed from Bunky&#363; to Genji early in 1864; the first year of Genji is 1864. The first day of the sixth month by the old lunar calendar fell on 4 July, and the Ikedaya raid four nights later on 8 July."
+      },
+      {
+        "anchor": "an Ōharame had passed along Kawaramachi",
+        "note": "The <i>&#333;harame</i> were women from &#332;hara, north of Ky&#333;to, who carried firewood and charcoal-logs (<i>kuroki</i>) into the city on their heads to sell, in a dress of their own with white leggings. Their sing-song cry was a fixture of the Ky&#333;to street."
+      },
+      {
+        "anchor": "the mimed Kumasaka Chōhan of the Mibu mystery plays",
+        "note": "The <i>Mibu ky&#333;gen</i> are wordless Buddhist morality-plays mimed to gong and drum at the Mibu-dera, near the corps&#8217;s own barracks. Kumasaka Ch&#333;han is the giant robber of medieval legend, killed while raiding an inn; in the mime he lumbers about in an outsized mask. Okita&#8217;s private joke is that the harder the dreaded Toshiz&#333; scowls, the more he looks like that comic ogre."
+      },
+      {
+        "anchor": "the so-called Bunkyū coup",
+        "note": "The coup of the eighteenth day of the eighth month, 1863 (the third year of Bunky&#363;). Satsuma and Aizu, backing the moderates at court, drove the radical Ch&#333;sh&#363; faction out of Ky&#333;to overnight; seven Ch&#333;sh&#363;-aligned court nobles fled with them to the west in the &#8220;flight of the seven nobles.&#8221; It is this humiliation that the Ch&#333;sh&#363; plotters of the Ikedaya mean to reverse. Corroborated."
+      },
+      {
+        "anchor": "the disguise assumed by Furutaka Shuntarō",
+        "note": "Historical. Furutaka Shuntar&#333; (1829&#8211;1864), a rural samurai of &#332;mi and a shrine-retainer of the Bishamon-d&#333; monzeki (an imperial-abbot temple), ran an arms depot in Ky&#333;to under the merchant name Masuya Kiemon, supplying the plot to fire the city and carry the Emperor off to Ch&#333;sh&#363;. His seizure is the hinge of the whole affair. Corroborated."
+      },
+      {
+        "anchor": "suffered torture past the power of words, but in the end confessed nothing",
+        "note": "Here Shiba takes a deliberate line on a disputed point. The famous tradition, which comes down from the early Shinsengumi chroniclers, has Furutaka broken under brutal torture at the Mibu barracks &#8212; hung upside down with a spike through his feet &#8212; and made to confess the fire-and-abduction plot, which then triggered the raid. Shiba instead has him hold out and gives the credit to the covenant-roster (<i>renpanj&#333;</i>) seized at the shop, by which the conspirators&#8217; names were already known. The seizure and killing are certain; how much the raid owed to torture as against captured documents is what the accounts dispute."
+      },
+      {
+        "anchor": "The storming of the Ikedaya was at the Hour of the Boar",
+        "note": "The Ikedaya Incident, the night of the fifth day of the sixth month, Genji 1 &#8212; 8 July 1864. A handful of Shinsengumi under Kond&#333; surprised a war-council of Ch&#333;sh&#363;, Tosa, and other loyalists at the inn and, after a two-hour fight, killed or took some dozens of them for the loss of few of their own. The raid broke the planned rising, made the Shinsengumi&#8217;s name across the country, and hardened the road to the Ch&#333;sh&#363; war that followed within the month. Corroborated."
+      },
+      {
+        "anchor": "in a letter Kondō sent to his adoptive father Shūsai in Edo",
+        "note": "The passages that follow are quoted from Kond&#333; Isami&#8217;s own letters to his adoptive father Kond&#333; Sh&#363;sai, real documents in the stiff epistolary Japanese of the day; Shiba&#8217;s bracketed insertions (&#8220;passage omitted,&#8221; the gloss on the hours, &#8220;my adopted son&#8221;) are his. They are among the closest first-hand records of the fight, and their boasting tone is Kond&#333;&#8217;s."
+      },
+      {
+        "anchor": "a hemp haori bearing the light-blue mountain-stripe",
+        "note": "The Shinsengumi&#8217;s notorious uniform: a light-blue (<i>asagi</i>) hemp overcoat with a jagged &#8220;mountain-stripe&#8221; (<i>dandara</i>) hem, worn here over a leather fencing-cuirass, a mail undershirt, and an iron brow-guard. Shiba&#8217;s closing detail is a relic&#8217;s: the very brow-guard Toshiz&#333; wore, with two sword-cuts in it, was preserved in the Hijikata family house at Ishida in Hino. Corroborated."
+      }
+    ]
+  }
+}

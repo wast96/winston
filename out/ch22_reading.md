@@ -1,0 +1,345 @@
+## The Ikedaya
+
+{p} Buy your firewood!
+
+{p} Kuroki-logs, come buy!
+
+After an Ōharame had passed along Kawaramachi Avenue crying her wares in a sunken voice, a fair-weather shower came pattering down as if chasing after her white leggings.
+
+"Quiet, isn't it,"
+
+{j} said Okita Sōji.
+
+A Kyoto afternoon like a picture. The first day of the sixth month, the first year of Genji.
+
+The Gion festival, too, was near.
+
+Toshizō and Okita were on the upper floor of the shopfront under whose eaves the Ōharame had just passed.
+
+The floor above the sundries-wholesaler Ibarakiya Shirobee, at Kawaramachi-Shijō, dim and musty. The whole upper floor was piled high with goods.
+
+This upper floor had a slatted window opening onto Kawaramachi Avenue. From it Okita was looking down at the street.
+
+"Since morning, three of them. One a samurai, two got up as townsmen but with the smell of the samurai about them,"
+
+{j} he said, eating a dry sweet.
+
+"I see."
+
+Toshizō had come up only just now.
+
+Looking down from this slatted window, one had a clear view of the row of houses on the east side of Kawaramachi Avenue, and of the people going in and out of a nameless lane that led east from there.
+
+Entering that nameless lane from Kawaramachi and going, in houses, roughly five or six along, there stood on the right side,
+
+{j} "Masuya,"
+
+{j} a tool-dealer so called.
+
+That was what they were watching. And the watch was not Okita's alone.
+
+Yamazaki Susumu, Shimada Kai, Kawashima Katsuji, Hayashi Shintarō and the rest of the inspectorate were prowling the neighborhood disguised as medicine-peddlers and mountain-ascetics, and on the West Kiyamachi street that ran out through the far end of the nameless lane, Harada Sanosuke had rented a townhouse and was watching the coming and going in the road.
+
+"Still—I hate it, this watching. It doesn't suit my nature."
+
+"I dare say."
+
+Okita was that kind of young man. To keep watch over other men's wrongdoing, corps duty though it was, could not suit his nature.
+
+"Well, bear with it. Tomorrow I'll have you relieved."
+
+"For certain?"
+
+{j} He put a sweet into his mouth.
+
+An easy face.
+
+Toshizō smiled wryly.
+
+"In exchange, I'll not have you slack off for this one day."
+
+"But I wonder, though. No—not about me. About the Masuya master. Choosing a windy night—"
+
+"Hm."
+
+"Yes, on a windy night,"
+
+{j} Okita swallowed his sweet down.
+
+"—he means to set fires here and there through the town of Kyoto, break into the Palace with some dozens of rounded-up rōnin, steal His Majesty away, carry him off to Chōshū, and there raise a righteous army to bring down the shogunate. That's it, isn't it? On the whole, it isn't a thing that can be done. To conceive of something so preposterous—there's a strange head at the root of it. Hijikata-san, isn't the Masuya master really a madman?"
+
+"He's sane, I should think. When hot-blooded men gather and argue one fancy back and forth for hundreds of days, it stops being a fancy, and they come to feel that bringing down the shogunate might be done this very day or the next."
+
+"Which is to say, they go mad—collectively. A strange thing."
+
+"A strange thing. But when a collective takes on the aspect of a madman, there's no knowing what it may do."
+
+"The Shinsengumi's the same, then,"
+
+{j} Okita chuckled.
+
+"You, Hijikata-san, are the chief of the madmen."
+
+"What rot are you talking,"
+
+{j} he made a fearsome face. But Okita felt not the least fear of this Toshizō, dreaded like a demon-god throughout the Shinsengumi. To the eyes of Okita Sōji, this over-bright young man, the harder Toshizō strained, the more he took on a comic air, like the mimed Kumasaka Chōhan of the Mibu mystery plays.
+
+"Sōji, tighten up a little,"
+
+{j} he said with a sour face.
+
+"There's word, too, that the rōnin who mean to fire Kyoto and rise all at once are not fifty or sixty men. How to put this down will be the very make-or-break of whether the Shinsengumi can become the Shinsengumi of the realm."
+
+"Have one,"
+
+{j} Okita pressed a sweet into Toshizō's hand. Toshizō tossed it into his mouth as if it vexed him, and went out.
+
+After that he called at Harada Sanosuke's watch-post and heard his report, then, on the road along the Takase River, passed the inspector Yamazaki Susumu, disguised as a medicine-peddler. Yamazaki dropped his eyes and went by close beside Toshizō. Well done. Yamazaki was a fair hand with the sword, but being at bottom the son of an acupuncture-doctor of Kōraibashi in Osaka, he was thoroughly at home in a townsman's guise.
+
+After passing Yamazaki, Toshizō picked up a street palanquin at Kiyamachi-Sanjō and went back to Mibu.
+
+***
+
+"How was it?"
+
+{j} Kondō asked.
+
+"Still not clear. But Sōji and Harada both have seen men with a samurai look going busily in and out of that nameless lane."
+
+"Still—surely, past all doubt, there's no mistake."
+
+"So I should hope."
+
+It was, to begin with, a thing Kondō himself had gotten wind of.
+
+In fact, some days before, Kondō himself had led corpsmen on a patrol of the town, and as he came back as far as the gate of the Honkoku-ji on Horikawa (used as the Kyoto quartering-ground of the Mito clan's troops),
+
+"Ah—well met!"
+
+{j} a samurai planted himself before Kondō's horse. An assassin, then?—and when the corpsmen ran up, the samurai, not in the least flustered,
+
+"It's I—Kishibuchi Heisuke, who lived in Yamabushi-chō in Edo. In Edo I was much in your dōjō's debt…"
+
+"Oh—"
+
+{j} Kondō got down from his horse. He remembered. Because the Edo dōjō was near the Kōrakuen, lower samurai of the Mito residence had often come to spar, and Kishibuchi had been one of them. The son of an ashigaru, he had heard, but a man of learning too, and grave in manner, so that he looked nothing like a man of such low birth.
+
+Even now, though his dress was plain—a leather-colored cotton haori and a pair of washed-out riding hakama—he had grown quite stout and imposing.
+
+"Since last year I've been posted to Kyoto. Hijikata-uji, Okita-uji—active gentlemen, by all accounts."
+
+"On the road we can hardly talk. Will you not honor Mibu with a visit?"
+
+Kondō had this warmth in him that draws a man close. All but embracing him, he brought him home.
+
+At once a drinking-place was set, and Toshizō came out to it too.
+
+In these times, samurai in Kyoto, let two or more gather, would fall to debating affairs of state. That taut air the town of Kyoto had. The age was boiling over.
+
+In the eighth month of last year had come the so-called Bunkyū coup, and the Chōshū clan, which until then had held the Kyoto political stage by the nose, fell from the political world in a single night and withdrew to its home province together with seven Chōshū-aligned court nobles.
+
+Ever since, the younger men of Chōshū had grown the more extreme, and the radical rōnin who had fled their several clans had nearly all joined with Chōshū, watching for a chance to raise arms and topple the shogunate.
+
+But the Satsuma clan, the Tosa clan, and the Aizu and Echizen clans—all great clans keen in political sense—held anti-Chōshū feeling (there is a tangled content to this feeling, but in short it was because Chōshū's grab for power was too extreme and ran too far ahead of the times, so that in the end the suspicion grew too thick that the lord of Chōshū meant to supplant the shogunate; the lord of Chōshū himself seems in some measure to have been neatly carried along by his young band of retainers, and there is even a legend that after the Restoration the old lord of Chōshū asked his intimates, when is it that I become shogun?), and at all events, with the military force of Chōshū alone, it could not make an enemy of the shogunate and the four "union-of-court-and-shogunate" clans named above.
+
+Such was the situation.
+
+And so the rumor that a secret military body, including the rōnin bands in league with Chōshū, was being formed and slipped into Kyoto to fire the town at a stroke and raise a peasant-rising sort of loyalist revolt had reached the ears even of the Kyoto townsfolk; all manner of wild talk flew, and among the quicker-witted there were some who were making ready to flee to the countryside. Chōshū too, driven into a corner, stood in a grievous position. Succeed, and it was a righteous army; fail, and the whole clan would fall to the standing of brigands.
+
+Kishibuchi Heisuke argued the situation this way and that. This Mito clansman was a thoroughly commonsense advocate of union between court and shogunate, and Chōshū's rashness seemed to gall him past bearing.
+
+On that head, Kondō was the same.
+
+Of late he could hold forth quite well. Being a man with no grasp of humor, when he held forth he flung out arguments that pricked a man like an inch of steel.
+
+Toshizō held his tongue. To Toshizō, empty argument this way or that was all one. His passion believed that to make the Shinsengumi the strongest body in the realm was the one road by which to express his own thought to the world. A samurai has no need of a glib tongue.
+
+At this gathering Kishibuchi said an unlooked-for thing.
+
+"My clan (Mito), as you know, is a clan of tangled politics, its samurai glaring at one another over all manner of views. So rumors come to us easily; and last night I heard of no light matter."
+
+It concerned one Masuya Kiemon.
+
+The tool-dealer Masuya Kiemon was, in truth, the disguise assumed by Furutaka Shuntarō (a rural samurai of Monobe village in Gōshū, and a shrine-samurai of the Bishamon-dō monzeki), a great figure even among the Chōshū-aligned men of high purpose.
+
+"What is more,"
+
+{j} said Kishibuchi,
+
+"the arms and powder for the rising are gathered in this Masuya's storehouse. Any man at the Mito clan's field-headquarters in the Honkoku-ji knows it."
+
+The rising faction had laid a slipshod plan indeed. On the very day Kishibuchi told Kondō and Toshizō of it, a man named Risuke, a servant of the Masuya, had gone to the house of the town-elder and,
+
+—With all respect,
+
+{j} laid the foregoing before them as a complaint. Risuke, it was said, was a hand hired only very lately, who, seeing muskets, gunpowder, swords and spears piled up in the storehouse, took fright, and, dreading that the harm might fall on himself, informed against them at the first chance.
+
+The town-elder reported it to a beat-patrol constable of his acquaintance, and that constable, one Watanabe Kōemon, happening to be on visiting terms with the Shinsengumi, did not tell his own office but sent word to the Mibu barracks.
+
+"Let us report it at once to the Aizu clan's field-headquarters,"
+
+{j} Kondō said, and Toshizō checked him.
+
+"First let us search it out by the Shinsengumi's own hand."
+
+If it were true, was not the great stage given here, that the Shinsengumi had awaited ever since it swore its little league out in the sticks of Mibu?
+
+(No sense in tamely handing the credit to the Aizu clan or the Kyoto Mimawarigumi.)
+
+The true strength of the Shinsengumi, that Kondō and Toshizō had built up by unremitting toil, could be put to the test of the world.
+
+The next evening the searchers came back.
+
+"It stinks,"
+
+{j} said Harada Sanosuke. This man too was no good at searching, it seemed; all he said was that it stank, it stank.
+
+Okita only grinned and grinned. Men like Yamazaki, Shimada, and Kawashima, being after all of the inspectorate, reported the intelligence they had gathered in detail.
+
+"At once, Toshizō-kun,"
+
+{j} Kondō ordered the sortie. But Toshizō did not stir.
+
+"This is the Shinsengumi's great day. Commander, you should be the one to set his camp-stool at the scene. I'll keep the house."
+
+"So be it."
+
+Three jokin were chosen: Okita Sōji, Nagakura Shinpachi, Harada Sanosuke. With the corpsmen under them, twenty-some in all, they moved. By the time they reached the scene, the sun had long since set.
+
+Kondō, that man, had after all something in him beyond the common run.
+
+Dividing the corpsmen into four bodies and posting them at the east and west mouths of the nameless lane and at the back and front doors was ordinary enough; but he first had Risuke knock at the door, and the moment a maidservant opened it, sprang in all alone.
+
+Dark. But the layout within he had well in his head, having heard it from Risuke.
+
+Rushing up into the eight-mat room on the second floor, he stood over the pillow of Furutaka Shuntarō, already asleep, and,
+
+"Furutaka,"
+
+{j} cried in a shrill voice.
+
+"It has come to my hearing that you have secretly been gathering drifting men and plotting treason beneath the imperial city. This is by command from above. Submit to the ropes."
+
+"Who are you?"
+
+{j} Furutaka, too, was a man who had passed many times under naked steel. He was composed. If anything, it was Kondō whose voice went unsteady.
+
+"Kondō Isami, commander of the Shinsengumi, under the command of the Aizu Middle-Captain, Protector of Kyoto."
+
+"You, is it.—"
+
+{j} With a swift glance,
+
+"I'll make ready. There is no reason I should take the unclean ropes, so I'll neither flee nor hide. Grant me a little grace."
+
+At his ease he slipped off his nightclothes, changed into a crested formal robe, combed up his sidelocks, had the maidservant bring an ear-basin and rinsed out his mouth, and then,
+
+"Where am I to go?"
+
+{j} he said, and rose.
+
+In this while, the corpsmen searching the lower floor had found the covenant-roster of all Furutaka's confederates.
+
+Furutaka was that night put into the cell of the Mibu barracks, and the next day was carted under guard by a party of the Kyoto Shoshidai and imprisoned in the Rokkaku jail. From this night on he suffered torture past the power of words, but in the end confessed nothing, and later, on the twentieth of the seventh month, was drawn out and put to death.
+
+But matters had already come to the point of needing no confession from Furutaka. By Furutaka's covenant-roster the names of the faction were known without an omission. Already the searches of the Shinsengumi, the Aizu clan, the Shoshidai, and the town magistracy were busily at work, and from them it came out that many rōnin of unknown identity were lodging at the inns that stood eave to eave about Sanjō, and that in particular the inn Ikedaya, kept by one Sōbei at the west end of Sanjō-kobashi, seemed somehow to be the center of their movements. At the Ikedaya, Yamazaki was lodging, disguised as a druggist.
+
+Probing, he found nearly all of them spoke the Chōshū tongue.
+
+From the Protector's office a hint had come—why not seize them one by one?—but the Shinsengumi did not move. For there had come a report from Yamazaki,
+
+"The band, it seems, already knows that Furutaka has been taken."
+
+Naturally, they must be in a panic. Whether to call off the outbreak and scatter each his own way from Kyoto, or to carry it through by a swift stroke—they must need a plan for what to do next. And for that, they would surely meet.
+
+"They will meet, for certain,"
+
+{j} said Toshizō.
+
+Kondō was somewhat uneasy.
+
+"Let them scatter as they are, and we lose the whole stake, root and branch."
+
+"It's a gamble."
+
+Still, the Chōshū clansmen and their party, one may fairly say, were utterly slipshod. Through the cramped inn-quarter about Sanjō they went every day, with faces that anyone who saw would know for what they were, calling on one another at their several lodgings.
+
+—The place, the Ikedaya; the day, tonight.
+
+{j} That this was known was on the fifth of the sixth month. And it was only toward evening that Yamazaki's intelligence came in.
+
+But about the same time, from a spy engaged through the town magistracy came word,
+
+"Tonight, it seems, the Kiyamachi restaurant Tantora (Shikokuya Jūbei),"
+
+{j} as well. The Tantora was a restaurant used all along by the Chōshū and Tosa men, and by far the likelier of the two than the Ikedaya.
+
+At this report, too, Kondō went pale. It meant splitting a slender force in two.
+
+"Toshi-san, do we take this as a gamble too?"
+
+Concentrate the force on one, the Ikedaya or the Tantora—that was Kondō's meaning.
+
+"That would be bad. We tread a great matter here; let us split the corps into two. But—"
+
+The apportioning of the force.
+
+By which of the two places was the likelier, the numbers would be set.
+
+"Yamanami-san, what do you think?"
+
+{j} Kondō asked Yamanami Keisuke, the general secretary.
+
+"The Tantora, surely,"
+
+{j} he said. It was a sound judgment. So notorious was the Tantora as a nest of the shogunate-toppling party.
+
+"I think it is the Ikedaya,"
+
+{j} said Toshizō. There was no reason. It was this man's peculiar intuition.
+
+"So be it."
+
+Kondō, too, had held from boyhood a kind of faith in Toshizō's intuition.
+
+Yamanami, at Kondō's adopting Toshizō's guess, put on an openly displeased face. Kondō, marking the look keenly,
+
+"There's reason in what Yamanami-kun says too. So, Toshi-san, will you hold down the Tantora that Yamanami-kun names?"
+
+{j} he said. A deft hand at gentling a man.
+
+Toshizō nodded.
+
+Yamanami, taking his meaning too,
+
+"The Ikedaya is mine, then?"
+
+{j} he said; but Kondō, all smiles,
+
+"This one you'll let me take. Yamanami-kun is not yet healed of his summer-sickness. I don't wish to lose a man I need,"
+
+{j} he said. Yamanami fell silent. Kondō knew that Yamanami was somewhat sympathetic toward Chōshū.
+
+For numbers: the Toshizō party to fall on the Tantora, twenty-some men; the Kondō party to storm the Ikedaya, a bare seven or eight.
+
+After the raid, in a letter Kondō sent to his adoptive father Shūsai in Edo, there is this:
+
+"As ill-luck would have it, with many sick in the corps, we numbered a bare thirty; we split into two parties against the enemy's two lodging-places, sending one, with Hijikata Toshizō at its head (passage omitted), while I myself set out leading a bare handful of men."
+
+But this apportioning of the numbers was contrived with real cunning. To the small Kondō party were gathered first-rate hands of the corps such as Okita Sōji, Tōdō Heisuke, Harada Sanosuke, and Nagakura Shinpachi; the Toshizō party, many though its numbers, was, grain for grain, the poorer.
+
+"Toshi, all right?"
+
+"All right."
+
+At dusk, the sortie.
+
+The storming of the Ikedaya was at the Hour of the Boar (ten at night). Kondō's letter says: "(Because men had to be told off to secure the exits as well) those who charged in were, myself first, then Okita, Nagakura, Tōdō, and Shūhei (my adopted son)—these five. Facing from the first a great host of the conspirators, we struck sparks and fought for something over one watch (upward of two hours), in the course of which Nagakura Shinpachi's sword broke, Okita Sōji's sword-tip snapped, Tōdō Heisuke's blade was notched and split like a bamboo-whisk (passage omitted); by and by Hijikata Toshizō came running up, and from then we took them alive (the plan to cut them down was dropped as our numbers grew). In truth, though I have fought many times before this, I scarce recall a foe who stood even two exchanges,"
+
+{j} and Kondō, proud of his sword-record,
+
+"the foe this time, many though they were, were every one a warrior worth ten thousand; truly I came off with my life scarcely saved,"
+
+{j} so he concludes.
+
+Their dress on this occasion was, all alike, the corps's uniform—a hemp haori bearing the light-blue mountain-stripe—over a leather fencing-cuirass, with a mail undershirt beneath, and many wore an iron forehead-guard on their heads. The forehead-guard Toshizō used survives in the Hijikata house at Ishida in Hino City, Tokyo. It bears two sword-cuts.
