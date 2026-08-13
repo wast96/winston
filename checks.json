@@ -1,9 +1,9 @@
 {
   "docs": {
-    "ch12": "out/ch12_reading.md"
+    "ch13": "out/ch13_reading.md"
   },
   "sources": {
-    "ch12": "data/zh/ch12.txt"
+    "ch13": "data/zh/ch13.txt"
   },
   "notes": "notes.json",
   "heading_depth": 2

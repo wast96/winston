@@ -289,3 +289,50 @@
 阿六
 # Pen name 用五 "Yongwu"; the 五 is part of a pseudonym, not the count 5.
 用五
+# ---- B08 (ch13) ----
+# Idiom 五短身材 "short, stocky build"; the 五 is not the count 5.
+五短身材
+# Elided-tens 十八、九 "eighteen or nineteen"; the 九 is the elided 十九, not 9.
+# English carries "eighteen or nineteen".
+十八、九
+# Idiom 百听不厌 "never tire of hearing it"; the 百 is not the count 100.
+百听不厌
+# Idiom 万能 "omnipotent, all-powerful"; the 万 is not the count 10000.
+万能
+# Fullwidth-zero (U+25CB) year forms the checker cannot compose (a digitization
+# glitch): 一九○五/一九○三/一九○六. English carries 1905/1903/1906.
+一九○五
+一九○三
+一九○六
+# Currency measure 十六两/八两 (16 / 8 taels of silver): 两 "tael" is misread as
+# the numeral 2. English carries "sixteen taels" / "eight taels".
+十六两
+八两
+# Idiom 百计追求 "pursued by every device"; the 百 of 百计 is not the count 100.
+百计
+# Idiom 九原有知 "were he to know in the underworld"; 九原 = the grave, not 9.
+九原
+# Place name 十刹海 (i.e. 什刹海, the Beijing lake); the 十 is not the count 10.
+十刹海
+# Idiom 两面三刀 "double-dealing, two-faced"; the 三 is not the count 3.
+两面三刀
+# Idiom 万众响应 "a myriad respond"; the 万 of 万众 is not the count 10000.
+万众响应
+# Idiom 飘零沦落 "drifting and falling"; the 零 of 飘零 is not the numeral 0.
+飘零
+# Japanese name 吉冈文六 "Yoshioka Bunroku"; the 六 is part of a name, not 6.
+吉冈文六
+# Archaic numeral 四万万 "four hundred million" (万万 = 亿, 10^8); the checker
+# parses it as 50000. English carries "four hundred million".
+四万万
+# Idiom 零丁 "lonely, orphaned" (as in 孤苦零丁 / 不作零丁叹); the 零 is not 0.
+零丁
+# Idiom 千古 "through the ages, all time"; the 千 is not the count 1000.
+千古
+# Idiom 萧飒零落 "bleak and withered"; the 零 of 零落 is not the numeral 0.
+零落
+# Idiom 再三再四 "again and again"; 三/四 are not counts. Placed in project noise
+# so it strips whole before the built-in 再三 rule can orphan the 四.
+再三再四
+# Idiom 势不两立 "irreconcilable, cannot coexist"; the 两 of 两立 is not the count 2.
+势不两立

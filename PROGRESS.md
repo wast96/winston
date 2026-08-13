@@ -954,3 +954,147 @@ given a glossary row:** 总理 (ambiguous — Sun Yat-sen "the Party Leader" vs 
 - `data/noise.txt` — B07 block (see above). Glossary rows added by hand into the
   sectioned file, idempotent + re-read-verified; the 16 notes merged via
   apparatus_merge.py (numeric character references; anchors verbatim in body text).
+
+## Batch B08 — ch13 (Part Two, Chapter 3: "Disgrace at Hanoi")
+
+第三章 波诡云谲 风雨欲来 "Chapter 3. Treacherous Tides, a Gathering Storm" — the
+largest chapter of Part Two (35,117 source chars). Two structural halves, joined
+by an in-text "(本章完)" marker (as in ch12): (a) the operational narrative with a
+numbered-in-parens series (一)–(四) — the special personage "Mr. Xu," the order to
+verify Wang's departure, the want of inside intelligence, and the arrival of the
+action team with arms; and (b) an appended biographical essay on Wang Jingwei whose
+sub-heading numbering RESTARTS (一)–(五), with an inner enumerated list 一、–六、 inside
+its section (三). 262 body paragraphs; 21 notes (174 cumulative); 84 glossary rows.
+
+### Source handling / structure
+- drop=2 (running header `英雄无名-陈恭澍` from `<title>` + the `<h2>` chapter title),
+  CONFIRMED against the source XHTML.
+- The 279 source `<p>` expand to exactly 283 extracted body lines via 4 `<br/>`,
+  proven by a paragraph-by-paragraph comparison to `data/src_epub` (zero mismatches).
+  The two `<br/>` paragraphs are L157/158 (a prose pair, folded into a merge) and
+  L172–175 (a four-line 律诗, kept as four body lines and rendered as verse `{p}`).
+- SIX mid-phrase splits where the SOURCE itself broke one sentence across two `<p>`
+  (faithfully reproduced by the extractor), all merged in `clean_batch.py`:
+  L61/62 (专事国际情报|由王芄生…); L156/157/158 (…僇笑」。这样|可悲的结局…|汪如九原有知… — a
+  three-fragment chain); L162/163 (胡涂的事，天|下最不可思议… — 天|下 mid-word); L202/203
+  (才逼他走|上极端… — 走|上极端 mid-word); L228/229 (见客的时候，|礼貌十足…).
+- All 15 sub-headings are their OWN `<p>` (all `standalone`; no glued tails): the two
+  (一)–(四)/(一)–(五) series and the inner 一、–六、 list. The inner list is rendered
+  `#### ` (h3) in the reading.md; the parenthesized sections `### ` (h2).
+- Sub-heading numbering RESTARTS for the appended Wang essay — a faithful source
+  structure (cf. ch09 §五 before §四), kept verbatim (not footnoted; the "(本章完)"
+  marker signals the seam).
+- NO note markers `[\d+]` present (grepped). NO images. NO set-off HTML formatting
+  (ch06–ch13 all had none); verse recovered with the `{p}` marker (first use in the
+  project) — 29 pure-verse body lines carry Wang Jingwei's quoted poems.
+
+### Checks (all green)
+- `verify_unit.py ch13`: parity 262/262; numbers 0 unresolved (after the B08 noise
+  block); anchors 21 ok.
+- `check_align.py ch13`: 262/262, median ratio 4.79 en/han, no pair strays >2.2x
+  (essay + quoted-document-heavy, like ch12's 4.84; narrative sits ~4.55–4.76).
+- `check_structure.py`: parity OK; anchors 0 unresolved; heading levels OK.
+- `check_content.py`: 229 name occurrences, all in the paired paragraph (0 displaced).
+- `qc_entities.py` (reconstructed bilingual): 0 misses (top: 河内 x73, 徐先生 x63,
+  汪精卫 x44, 魏春风 x21).
+- `check_register.py --ref reference/B01_frozen.md`: within tolerance; "shall" 29%
+  (Chen's deliberate formality + quoted documents; B06/B07 ran ~33%, verified).
+- `qa_epub.py`: PASS (57 files, 50 documents, all links resolve; 174 refs/bodies/
+  backlinks). `epubcheck 5.1.0`: 0 fatals / 0 errors / 0 warnings.
+- Tail verified against the source (the Japan-surrender / Wang's-death closing
+  paragraph and the final 朝中措 ci): faithful and complete.
+
+### Numeric flags — carried vs noised
+- CARRIED in the English (real quantities): 二人/两派 → made explicit "the two…" /
+  "two factions"; 二十几岁 → "twenty-odd years"; 考生上万 → "over ten thousand";
+  十倍 → "ten times"; and the date 三月二十一日 → "twenty-first" (rendered as the
+  source prints it, though the Zhongshan Warship Incident is conventionally the
+  20th — noted in the footnote).
+- NOISED (idioms / names / archaic forms / artifacts; value NOT a quantity), new
+  B08 block in `data/noise.txt`: 五短身材, 十八、九 (elided-tens), 百听不厌, 万能,
+  一九○五/○三/○六 (fullwidth-zero U+25CB years; English carries 1905/1903/1906),
+  十六两/八两 (两 "tael" misread as 2; English carries the tael counts), 百计, 九原,
+  十刹海 (place), 两面三刀, 万众响应, 飘零, 吉冈文六 (name), 四万万 (= 4×10^8,
+  parses to 50000; English carries "four hundred million"), 零丁, 千古, 零落,
+  再三再四 (pre-empts the built-in 再三 orphan bug), 势不两立.
+
+### Digitization glitches (rendered to plain sense; NOT footnoted — mechanical)
+- 一九○五 / 一九○三 / 一九○六 — fullwidth ○ (U+25CB) for the zero in years;
+  rendered 1905 / 1903 / 1906.
+- 云龙 for 龙云 (Long Yun, given-name/surname inverted) — rendered "Long Yun."
+- 教亡图存 for 救亡图存 ("saving the nation from ruin") — plain sense.
+- 亡我者我也，我不自，谁能亡之 — a character dropped after 我不自 (…自亡/自侮);
+  rendered "had I not brought it on myself."
+- 则市民前七年 for 则是民前七年 (市 for 是) — "was the pen name…the seventh year
+  before the Republic."
+- 近卫内各 for 近卫内阁 (各 for 阁, "cabinet") — "Konoe cabinet."
+- 玲木 for 铃木 (Suzuki) — "Suzuki."
+- 切实贝覆 for 切实具覆/回覆 — "report it soundly."
+- 务报员 for 谍报员/收发报员 — "a communications-and-cipher man."
+- 两枝左输 for 两枝左轮 (revolver) — "two revolvers."
+- 也有人到郑介民 for …归之于郑介民 — "ascribe it to Mr. Zheng Jiemin."
+- 总变为他是 for 总以为他是 — "forever taking it that."
+- 军校校长奖…攻击时烛发其奸 — 奖 for 蒋 and a garbled clause; rendered "the
+  then-Commandant of the Military Academy saw through their treachery."
+- 曾、沉死后 for 曾、沈死后 (沉 for 沈, Shen) — "after the deaths of Zeng and Shen."
+- 虞美人 ci: the closing 」 is dropped in the source (秋来雕尽…满人间。) — rendered
+  as verse; bracket not supplied.
+
+### Notes ledger (21 this batch; 174 cumulative)
+First-appearance discipline observed. **NOT re-noted** (already noted B01–B07):
+Konoe / the New Order in East Asia, the Three Principles of Peace, Gao Zongwu /
+Mei Siping, the Yan Telegram, Chen Bijun, Zeng Zhongming (ch04), the People's
+Political Council, Yuan Shikai (ch12), the Nine-Power Treaty, the Twenty-One
+Demands, the Tanaka Memorial, Tai'erzhuang, Long Yun, the Xi'an Incident, the
+Whampoa/Central Military Academy, "the Party Leader" 总理 = Sun Yat-sen, the
+Republican-calendar convention, the Juntong / Dai Li / Zheng Jiemin, Hanoi /
+Chongqing / Kunming / Haiphong. New notes: (1) Xifeng — the Juntong's own
+detention camp; (2) No. 27 Gao Lang Street / Rue Colombert, the assassination
+locale; (3) Chennault & the Flying Tigers / 14th Air Force; (4) the Prince Regent
+Zaifeng + the 1910 bomb plot; (5) the famous prison couplet 引刀成一快 and its
+later irony; (6) the Tongmenghui + the Min Bao; (7) Zhang Taiyan; (8) Liang Qichao
++ the Royalists; (9) Yuan Shikai's Hongxian monarchy; (10) Borodin; (11) the
+Zhongshan Warship Incident (**+ the source's 21st vs the conventional 20th**);
+(12) the Ninghan Split; (13) the Marco Polo Bridge Incident; (14) Trautmann's
+mediation; (15) Liu Yu & Zhang Bangchang, the puppet-emperor archetype; (16)
+Gambetta; (17) Li Yu (the Latter Ruler Li) + "music of a doomed state"; (18) the
+Shanhaijing + the Jingwei-bird myth; (19) the First Sino-Japanese War + the
+Ryukyus; (20) the bomb-Chongqing allegation (**verdict: uncorroborated**, Chen
+himself hedges it); (21) the Gao Zongwu–Tao Xisheng defection of Jan 1940.
+
+### Glossary rows added (84 by hand; principals unchanged at 8)
+People (57): 何芝园 He Zhiyuan, 徐先生 "Mr. Xu" (pseudonym), 曾先生 "Mr. Zeng"
+(distinct from Zeng Che/Zeng Zhongming), 魏春风 Wei Chunfeng, 阮小姐 Miss Nguyen,
+曹师昂 Cao Shi'ang, 谭天堑 Tan Tianqian, 张逢义 Zhang Fengyi, 郑邦国 Zheng Bangguo,
+陈步云 Chen Buyun, 黄强 Huang Qiang (Mujing), 稽小姐 Miss Ji, 罗君强 Luo Junqiang,
+陈皋 Chen Gao, 谷正鼎 Gu Zhengding, 王宠惠 Wang Chonghui, 宋子文 Song Ziwen, 魏道明
+Wei Daoming, 王芄生 Wang Fansheng, 大屋久寿雄 Ōya Kusuo, 汪兆镛 Wang Zhaoyong, 汪兆辛
+Wang Zhaoxin, 朱执信 Zhu Zhixin, 梁启超 Liang Qichao, 黄兴 Huang Xing, 章太炎 Zhang
+Taiyan, 宋教仁 Song Jiaoren, 陶成章 Tao Chengzhang, 吴樾 Wu Yue, 黄复生 Huang Fusheng,
+罗世勋 Luo Shixun, 载沣 Zaifeng, 善耆 Shanqi, 廷杰 Tingjie, 袁克定 Yuan Keding, 杨度
+Yang Du, 鲍罗廷 Borodin, 马林 Maring, 越飞 Joffe, 陈炯明 Chen Jiongming, 陈独秀 Chen
+Duxiu, 周恩来 Zhou Enlai, 叶挺 Ye Ting, 贺龙 He Long, 张发奎 Zhang Fakui, 沈崧 Shen
+Song, 顾孟余 Gu Mengyu, 郑学稼 Zheng Xuejia, 吉冈文六 Yoshioka Bunroku, 唐有壬 Tang
+Youren, 陈畊基 Chen Gengji, 刘子蕃 Liu Zifan, 袁尹白 Yuan Yinbai, 孙中山 Sun Yat-sen,
+董其昌 Dong Qichang, 元遗山 Yuan Haowen. Places (17): 无锡, 绍兴, 番禺, 三水, 横滨
+Yokohama, 里昂 Lyon, 南昌, 武汉, 汉口, 西贡 Saigon, 海防 Haiphong, 槟榔屿 Penang,
+新加坡 Singapore, 息烽 Xifeng, 高朗街 Gao Lang Street, 北极阁 Beiji Pavilion, 名古屋
+Nagoya. Organizations (6): 同盟会 the Tongmenghui, 民报 the Min Bao, 光复会 the
+Restoration Society, 保皇党 the Royalists, 国际问题研究所 the Institute of
+International Affairs, 双照楼诗词稿 Verses from the Double-Reflection Tower.
+Terms (5): 中山舰事件 the Zhongshan Warship Incident, 宁汉分裂 the Ninghan Split,
+五四运动 the May Fourth Movement, 甲午战争 the First Sino-Japanese War, 琉球 the
+Ryukyus. Every row carries a pinyin field; obscure operatives / uncertain
+readings marked `provisional`. **Deliberately NOT glossaried:** 徐 as a bare
+surname beyond the "Mr. Xu" pseudonym row.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch13 spec added (drop=2; six merges incl. three
+  mid-word/mid-phrase source splits and one `<br/>` prose pair folded into a
+  three-fragment chain; fifteen standalone sub-headings). Backward-compatible.
+- `data/noise.txt` — B08 block (see above).
+- Glossary: 84 rows added by hand into the sectioned file, idempotent +
+  re-read-verified. The 21 notes merged via `apparatus_merge.py` (numeric
+  character references; anchors verbatim in body text, not headings).
+- First use of the `{p}` verse marker in this project (builder renders
+  `<p class="verse">`; `check_structure`/`batch_artifacts` strip the prefix).

@@ -178,6 +178,39 @@ UNITS = {
                   69: "(三)绝对不会有那种不可思议的事"},
         "standalone": [3],     # (一)尚未察觉汪氏已与敌国 暗通款曲
     },
+    "ch13": {
+        "file": "14_index-split-000-0012.txt",
+        "title": "第三章 波诡云谲 风雨欲来",
+        "drop": 2,             # running header + <h2> chapter title
+        # The 279 source <p> expand to exactly 283 body lines via 4 <br/> (proven
+        # p-by-p against the source XHTML, zero mismatches). Two <br/> paragraphs:
+        #  - L157/158 (a two-sentence prose pair inside one <p>), chained into the
+        #    L156-158 merge below;
+        #  - L172-175, a four-line 律诗 inside one <p> — kept as four body lines and
+        #    rendered as verse ({p}) in the reading.md.
+        # SIX mid-phrase splits where the SOURCE itself broke one sentence across two
+        # <p> (a digitization artifact, faithfully reproduced by the extractor):
+        #    L61/62 (专事国际情报|由王芄生...); L156/157/158 (...「身死为天下所僇笑」。这样|
+        #    可悲的结局...|汪如九原有知... — a THREE-fragment chain, the <br/> pair folded
+        #    in); L162/163 (胡涂的事，天|下最不可思议... — 天|下 split mid-word); L202/203
+        #    (才逼他走|上极端... — 走|上极端 mid-word); L228/229 (见客的时候，|礼貌十足...).
+        # The many ：-ended lead-ins to quoted verse/documents, and the ；-ended verse
+        # lines and two ；-ended prose <p> (L246, L255), are DELIBERATE separate <p>
+        # and are NOT merged. The chapter body ends with a "(本章完)" marker at L132
+        # (cf. ch12), after which the source appends a long biographical essay on
+        # Wang Jingwei whose (一)-(五) sub-heading numbering RESTARTS independently of
+        # the chapter's own (一)-(四) — a faithful source structure, kept verbatim.
+        "merges": [(61, 62), (156, 157), (157, 158),
+                   (162, 163), (202, 203), (228, 229)],
+        # every sub-heading is its own <p> (all standalone; no glued tails). Two
+        # numbered-in-parens series — (一)-(四) for the operational narrative, then
+        # (一)-(五) for the appended Wang essay — plus an inner enumerated list
+        # 一、-六、 inside the essay's section (三) (rendered #### in the reading.md).
+        "glued": {},
+        "standalone": [3, 36, 68, 94,          # (一)-(四) operational narrative
+                       136, 161, 194, 215, 232,  # (一)-(五) Wang essay
+                       198, 200, 204, 206, 208, 210],  # 一、-六、 inner list
+    },
 }
 
 
