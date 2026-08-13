@@ -37,6 +37,9 @@
 # 第二天 is the idiom "the next day / the following day"; the 二 is ordinal,
 # not a counted quantity — rendered "the next day".
 第二天
+# 第二年 "the next year / the following year"; 二 is ordinal, not a count —
+# rendered "the next year".
+第二年
 # 一言不发 "without a word"; 一 is idiomatic, rendered "not a word / said nothing".
 一言不发
 # 一动不动 "without moving a muscle"; rendered "stock-still / did not move".
@@ -45,6 +48,9 @@
 # 八仙桥 Baxianqiao (a Shanghai district); 十六铺 Shiliupu (the docks).
 # Longest-literal-first: 十六铺 before any bare 十/六 rule (none here, but keep order).
 十六铺
+# 十六浦 is the source's variant spelling of 十六铺 (the Shiliupu docks); a
+# commercial-ebook glitch, same place, romanized "Shiliupu" — no digit in English.
+十六浦
 八仙桥
 # 零星 "scattered / sporadic"; the 零 is lexical, not the quantity zero —
 # rendered "scattered / thin (snow)".
@@ -53,3 +59,16 @@
 九宫
 # 三轮车 "pedicab / trishaw"; 三轮 (three-wheel) is lexical, no quantity rendered.
 三轮车
+# 四下 "on all sides / all around"; 四 is directional idiom, not a count —
+# rendered "looked about him / all around".
+四下
+# 八角厅 "the octagonal hall" (of the Cathay Hotel); 八角 is lexical for
+# "eight-sided / octagonal", not a count — rendered "octagonal hall".
+八角厅
+# Weekday indices carry no quantity — rendered "Friday", "Saturday", etc.
+# 礼拜天/星期天 use 天 (no digit); only 一..六 need guarding.
+礼拜[一二三四五六]
+星期[一二三四五六]
+# 百乐门 "the Paramount" (Ballroom); 百乐 is a transliteration of "Paramount",
+# the 百 is not the number hundred — rendered "Paramount Ballroom".
+百乐门

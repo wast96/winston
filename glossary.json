@@ -102,6 +102,54 @@
       "pinyin": "Dài Lì",
       "status": "attested",
       "note": "Historical (1897–1946); head of the Juntong, the Nationalist military secret service. Called 'Mr. Dai' in the text. Standard English form."
+    },
+    "胡主任": {
+      "en": "Director Hu",
+      "pinyin": "Hú",
+      "status": "decided",
+      "note": "An officer of the Juntong headquarters inspectorate in Chongqing who sets Lin to watch Gu Shenyan. A fictional character; surname romanized."
+    },
+    "潘新民": {
+      "en": "Pan Xinmin",
+      "pinyin": "Pān Xīnmín",
+      "status": "decided",
+      "note": "Old Pan's full name, given under interrogation; code name Index Finger. Pinyin."
+    },
+    "荣将军": {
+      "en": "General Rong",
+      "pinyin": "Róng",
+      "status": "decided",
+      "note": "A general of the Nationalist Ministry of National Defense's Operations Department; a Communist agent, his home name Liu Zongming. Surname romanized."
+    },
+    "刘宗铭": {
+      "en": "Liu Zongming",
+      "pinyin": "Liú Zōngmíng",
+      "status": "decided",
+      "note": "General Rong's name in his native place; he and Old Pan served together in the Nineteenth Route Army. Pinyin."
+    },
+    "子璐": {
+      "en": "Zilu",
+      "pinyin": "Zǐlù",
+      "status": "decided",
+      "note": "Miss Lan's son, killed in a stray-bullet crossfire. Pinyin of his given name."
+    },
+    "黎广文": {
+      "en": "Li Guangwen",
+      "pinyin": "Lí Guǎngwén",
+      "status": "decided",
+      "note": "Meng Annan's cover name in postwar Shanghai, working as an editor at the French Photo Agency; Zhu Yizhen passes in cover as his wife, Mrs. Li. Pinyin."
+    },
+    "阮志中": {
+      "en": "Nguyen Chi Trung",
+      "pinyin": "Ruǎn Zhìzhōng",
+      "status": "decided",
+      "note": "Meng Annan's true Vietnamese name; his parents, followers of Ho Chi Minh, died in a French prison in Saigon. Vietnamese form (Nguyễn Chí Trung)."
+    },
+    "胡志明": {
+      "en": "Ho Chi Minh",
+      "pinyin": "Hú Zhìmíng",
+      "status": "attested",
+      "note": "Historical (1890–1969); Vietnamese revolutionary, later president of North Vietnam. Standard English form."
     }
   },
   "organizations": {
@@ -206,6 +254,66 @@
       "pinyin": "Hùjiāng Dàxué",
       "status": "attested",
       "note": "A Baptist missionary university in Shanghai (Hujiang University). Attested English name."
+    },
+    "保密局": {
+      "en": "the Baomiju",
+      "pinyin": "Bǎomìjú",
+      "status": "decided",
+      "note": "The postwar reorganization of the Juntong. Romanized abbreviation, kept distinct from its wartime predecessor."
+    },
+    "忠义救国军": {
+      "en": "the Loyal and Patriotic Army",
+      "pinyin": "Zhōngyì Jiùguó Jūn",
+      "status": "attested",
+      "note": "Dai Li's guerrilla and paramilitary force. Attested English name."
+    },
+    "力行社": {
+      "en": "the Lixingshe",
+      "pinyin": "Lìxíngshè",
+      "status": "attested",
+      "note": "The secret inner core of the Blue Shirts, tied to Dai Li. Attested romanization."
+    },
+    "中央银行": {
+      "en": "the Central Bank",
+      "pinyin": "Zhōngyāng Yínháng",
+      "status": "attested",
+      "note": "The Nationalist government's central bank; not to be confused with the Wang regime's Central Reserve Bank. Attested English name."
+    },
+    "华东局": {
+      "en": "the East China Bureau",
+      "pinyin": "Huádōng Jú",
+      "status": "attested",
+      "note": "The Chinese Communist Party's regional bureau for East China. Attested English name."
+    },
+    "东方通讯社": {
+      "en": "the Eastern News Agency",
+      "pinyin": "Dōngfāng Tōngxùnshè",
+      "status": "decided",
+      "note": "A news agency Lin heads in cover in postwar Shanghai."
+    },
+    "十九路军": {
+      "en": "the Nineteenth Route Army",
+      "pinyin": "Shíjiǔ Lù Jūn",
+      "status": "attested",
+      "note": "The Nationalist army that defended Shanghai against Japan in 1932. Attested English name."
+    },
+    "旅欧中国少年共产党": {
+      "en": "the Chinese Youth Communist Party in Europe",
+      "pinyin": "Lǚ-Ōu Zhōngguó Shàonián Gòngchǎndǎng",
+      "status": "attested",
+      "note": "The European branch of the early Chinese Communist movement, founded in Paris in 1922. Attested English rendering."
+    },
+    "三野": {
+      "en": "the Third Field Army",
+      "pinyin": "Sān Yě",
+      "status": "attested",
+      "note": "One of the People's Liberation Army's field armies in the civil war. Attested English name."
+    },
+    "志愿军": {
+      "en": "the Volunteer Army",
+      "pinyin": "Zhìyuàn Jūn",
+      "status": "attested",
+      "note": "The Chinese People's Volunteer Army sent to fight in the Korean War. Attested English name."
     }
   },
   "places": {
@@ -280,6 +388,102 @@
       "pinyin": "Huámào Fàndiàn",
       "status": "attested",
       "note": "Victor Sassoon's Cathay Hotel on the Bund; today the north building of the Peace Hotel. Attested English name."
+    },
+    "歌乐山": {
+      "en": "Mount Gele",
+      "pinyin": "Gēlè Shān",
+      "status": "attested",
+      "note": "The hills west of Chongqing where the Juntong and SACO kept training grounds and a prison. Attested romanization."
+    },
+    "嘉陵江": {
+      "en": "the Jialing River",
+      "pinyin": "Jiālíng Jiāng",
+      "status": "attested",
+      "note": "The river that joins the Yangtze at Chongqing. Attested English form."
+    },
+    "延安": {
+      "en": "Yan'an",
+      "pinyin": "Yán'ān",
+      "status": "attested",
+      "note": "The Communists' wartime capital in northern Shaanxi. Attested pinyin."
+    },
+    "斜塘镇": {
+      "en": "Xietang",
+      "pinyin": "Xiétáng",
+      "status": "decided",
+      "note": "A small water-country town on the outskirts of Shanghai where Lin hides as a schoolteacher. Pinyin."
+    },
+    "静安寺": {
+      "en": "the Jing'an Temple",
+      "pinyin": "Jìng'ān Sì",
+      "status": "attested",
+      "note": "A famous ancient Buddhist temple in central Shanghai; the district and road bear its name. Attested English form."
+    },
+    "爱丁堡大厦": {
+      "en": "the Edinburgh Building",
+      "pinyin": "Àidīngbǎo Dàshà",
+      "status": "decided",
+      "note": "An apartment building beside the Jing'an Temple; Lin's Shanghai residence. Rendered by the English place-name in the source."
+    },
+    "兆丰公园": {
+      "en": "Zhaofeng Park",
+      "pinyin": "Zhàofēng Gōngyuán",
+      "status": "attested",
+      "note": "A western-Shanghai park, known in English as Jessfield Park, today's Zhongshan Park. Romanized from the Chinese name."
+    },
+    "百乐门": {
+      "en": "the Paramount Ballroom",
+      "pinyin": "Bǎilèmén",
+      "status": "attested",
+      "note": "The celebrated Art Deco dance hall of 1930s–40s Shanghai. Attested English name (百乐门 transliterates 'Paramount')."
+    },
+    "丹桂戏园": {
+      "en": "the Dangui Theater",
+      "pinyin": "Dānguì Xìyuán",
+      "status": "attested",
+      "note": "A long-established Shanghai opera house. Attested romanization."
+    },
+    "西柏坡": {
+      "en": "Xibaipo",
+      "pinyin": "Xībǎipō",
+      "status": "attested",
+      "note": "The Hebei village that served as the Communist central headquarters in 1948. Attested pinyin."
+    },
+    "富阳": {
+      "en": "Fuyang",
+      "pinyin": "Fùyáng",
+      "status": "attested",
+      "note": "A district of Hangzhou, Zhejiang; Lin's claimed native place under his alias. Attested pinyin."
+    },
+    "督邮街": {
+      "en": "Duyou Street",
+      "pinyin": "Dūyóu Jiē",
+      "status": "decided",
+      "note": "The busiest night district of wartime Chongqing. Pinyin."
+    },
+    "金都大戏院": {
+      "en": "the Metropol Theater",
+      "pinyin": "Jīndū Dà Xìyuàn",
+      "status": "decided",
+      "note": "A cinema on Avenue Foch in Shanghai; the site of the military-police gunfight. Rendered by the theater's period English name."
+    },
+    "福熙路": {
+      "en": "Avenue Foch",
+      "pinyin": "Fúxī Lù",
+      "status": "attested",
+      "note": "A French Concession boulevard, today's central Yan'an Middle Road. Attested French name."
+    },
+    "圣类思中学": {
+      "en": "St. Aloysius Middle School",
+      "pinyin": "Shènglèisī Zhōngxué",
+      "status": "decided",
+      "note": "A Catholic mission school in Xietang where Lin teaches (类思 renders the Christian name Aloysius)."
+    },
+    "南宁": {
+      "en": "Nanning",
+      "pinyin": "Nánníng",
+      "status": "attested",
+      "note": "The capital of Guangxi, in the region where Ho Chi Minh was jailed by the Nationalists. Attested pinyin."
     }
   },
   "terms": {
@@ -330,6 +534,24 @@
       "pinyin": "Yǒng Méi",
       "status": "decided",
       "note": "The title of the poem used as a contact signal; a 七律 (regulated verse)."
+    },
+    "忘忧清乐集": {
+      "en": "the Wangyou Qingle Ji",
+      "pinyin": "Wàngyōu Qīnglè Jí",
+      "status": "attested",
+      "note": "A Song-dynasty classic of go; here it doubles as the key text of a cipher. Attested romanization."
+    },
+    "汉奸": {
+      "en": "traitor",
+      "pinyin": "hànjiān",
+      "status": "decided",
+      "note": "Literally a traitor to the Han, i.e. a collaborator with the Japanese; the postwar treason trials pursued them. Rendered 'traitor / collaborator' by context."
+    },
+    "食指": {
+      "en": "Index Finger",
+      "pinyin": "shízhǐ",
+      "status": "decided",
+      "note": "Old Pan's code name; literally the index finger (the 'eating finger'). Rendered by sense."
     }
   }
 }

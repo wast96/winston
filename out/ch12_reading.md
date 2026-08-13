@@ -1,0 +1,121 @@
+## 12
+
+When Lin Nansheng saw Old Pan in his commissioner's office, he could scarcely believe his eyes. Once the escort guards had withdrawn, he knotted his brows. "What game are you playing?"
+
+Old Pan smiled. "This was the only way I could get to see you."
+
+It turned out that Old Pan had been arrested by chance in a sweep three days before. By custom a suspect brought in this way, even with no one to bail him, would be let go after a spell in detention; but not long after they put him to torture, he began to confess. Coughing behind a hand over his mouth, Old Pan said to the interrogator, "I want to see your highest-ranking officer."
+
+The interrogator was none too pleased, but he shot a glance at the guard by the door. The guard soon brought in a major. Old Pan only shook his head. "The one I want to see is the highest-ranking officer."
+
+The major was plainly a man who had seen much of the world. He leaned half-seated against the interrogation table and jerked his chin at an enforcer to one side; the man stepped up and gave Old Pan two slaps across the face.
+
+Old Pan made no sound. He bent, picked up his glasses, put them back on, and raised a hand to wipe hard at the blood at the corner of his mouth. With a savage look at the major, he said, "My surname is Pan. My name is Pan Xinmin. Code name: Index Finger."
+
+The major's eyes lit up. "Go on."
+
+Old Pan shook his head again. "That's enough. Report those few words up the line."
+
+The major, somewhat puzzled, picked up the interrogation record and read those few words over again. This time he did not act rashly, but took the record to the intelligence section. By the time it reached Lin Nansheng's desk, two days had passed.
+
+Lin Nansheng shook his head. "You know very well," he said to Old Pan, "that a man brought in the way you were, so long as no evidence turns up, will be released in a matter of days."
+
+"But I don't have those few days to wait." Not a trace of a smile was left on Old Pan's face. "Now," he said to Lin Nansheng, "listen carefully."
+
+And he began to issue Lin Nansheng his orders, one after another, until he had given them all; only then did he let out a long breath and fall to coughing hard.
+
+For a long moment Lin Nansheng said nothing, only sat behind the desk and looked at him without moving.
+
+Old Pan smiled again. "Begin carrying it out."
+
+Lin Nansheng still held his eyes. "And if I fail?"
+
+"Then I'll carry the traitor's name to the end of my days." Old Pan said it still smiling.
+
+"I won't do a thing for the sake of your name," Lin Nansheng said coldly. "Nor do I care whether you live or die."
+
+"I know," Old Pan said. "For an intelligence officer, life doesn't matter, and honor doesn't matter either. What matters is the mission." "There's one thing you still haven't told me." Lin Nansheng stood up. "Once I have the intelligence, how do I get it out?"
+
+"Three days without word from me, and my radio operator burns the codebook and pulls out of Shanghai on her own." Old Pan lifted his face to him. "And now, three days have already passed."
+
+Lin Nansheng said not one word more. He gave Old Pan a last look, went and opened the door, let the guards come in and take him away, then went straight to the records room, dug out a great many files there, and stayed bent over them until the workday ended and he left the Baomiju building.
+
+That night it was very late when Lin Nansheng got home. He did not disturb Miss Lan, but washed quietly and quietly went to bed. The next day, after breakfast, he set down his chopsticks, looked at Miss Lan, and said, "I need you to do me a favor."
+
+Miss Lan nodded. "Tell me."
+
+But Lin Nansheng did not speak. He drew out a slip of paper, unfolded it, and put it into Miss Lan's hand, and only when she had read it did he say, "No trouble with it?"
+
+Miss Lan took a match, struck it, set the slip alight, and dropped it into the ashtray. She raised her eyes to him. "You took me in for the sake of this day?"
+
+Lin Nansheng shook his head. "If there were any other way, I would never let you go."
+
+Miss Lan said, "Don't worry."
+
+Lin Nansheng said, "You can ask me about it."
+
+"I don't need to ask you." Miss Lan broke suddenly into a smile. "From the moment you sent me out of Chongqing, I knew what kind of man you were."
+
+The first thing Lin Nansheng did at work was go to the station chief's office. The moment they met he handed over the interrogation record. "You must remember this man?"
+
+The station chief glanced at it and said he had never heard the name, but the code name he knew: around 1940 it had been a shuttle in the Communist intelligence network in Shanghai.
+
+"The man is being held in our basement right now," Lin Nansheng said. "But I looked into the old files, and on this code name Index Finger there are many conflicting accounts — one of them even says he's a woman."
+
+"Whether or not he's Index Finger doesn't matter," the station chief said. "What matters is what he can give us."
+
+Lin Nansheng smiled. "He keeps insisting he'll see the highest-ranking officer here."
+
+The station chief laughed too and glanced at his watch. "Then let's go and see him. At ten I have to go over to the garrison command — there's a routine meeting."
+
+But the interrogation had not gone on long before the station chief had the adjutant standing idle to one side push his meeting back. He was like a listener drawn deep into a play, wholly caught up in what Old Pan said. Old Pan seemed a little worn, forever asking for water, forever coughing; beginning from his birth in Manchuria, for the better part of a whole day, as though surveying his own life, he spoke of many people, many things, and many places.
+
+As noon drew near the station chief grew a little impatient and cut him off. "Mr. Pan, you'd do better to tell us something that can help you and help us both."
+
+Old Pan nodded, coughed hard once, gave out two addresses and the numbers of two letter-boxes, and then shut his mouth tight. The station chief said, "What we want is the big fish. We've little interest in small fry like these."
+
+Old Pan laughed and looked up at the four walls. "How would you ever wring a big fish out of a place like this? Here there are only small fry."
+
+The station chief thought a moment, then pressed the electric bell on the desk, had the guards come in and take Old Pan back down, and turned to instruct the chief of the interrogation section to make ready two rooms at the Cathay Hotel, to draw extra hands from the action squad, and to put the whole floor on second-grade alert. "He wants to put on airs," he said. "Then we'll indulge him."
+
+When the section chief had gone off at the word, the station chief came to the listening room next door and looked at Lin Nansheng. "What's your reading of it?"
+
+Lin Nansheng said, "I still can't make sense of it — how so senior an agent could sell out his own subordinates so easily."
+
+"However senior, an agent is still only a man," the station chief said with a smile. "Don't forget Gu Shunzhang."
+
+"Better to send the action squad to feel out those two places first; as for the letter-boxes, we can have our people in the post office watch them." Lin Nansheng said, "With small fry like this, let's try not to beat the grass and startle the snake — this may well be a distress signal he's sending."
+
+The station chief nodded. "Have the action squad set it up."
+
+The afternoon's interrogation looked more like a negotiation. In a luxurious suite at the Cathay Hotel, every electric fan had been switched on. Lin Nansheng sat at the station chief's side; but for the occasional sip of coffee from his cup, he said not a word the whole time, his eyes fixed on those behind Old Pan's glasses.
+
+But Old Pan seemed interested in the station chief alone, coughing without pause across the long table, and without pause pressing his demands.
+
+"And what will you trade for these demands of yours?" The station chief, changed now into plain clothes, was like a seasoned merchant.
+
+Old Pan lowered his head a little. "What day of the week is it?"
+
+The station chief said, "Today is the twenty-seventh of August. Friday."
+
+"Tonight at twenty-five past nine, at the pillar on the left outside the Paramount Ballroom, I have a rendezvous." When he had said it, Old Pan let out a long breath, and for the first time looked around at the three interrogators across the long table, coming to rest at last on Lin Nansheng's face. "By tonight our cooperation will bear its fruit."
+
+"Who is coming?" the interrogation-section chief could not help asking.
+
+"The East China Bureau's liaison to the two cities, Nanjing and Shanghai," Old Pan said. "I'm to hand the work over to him."
+
+The room went all at once quiet; even the clerk lifted his head. But Lin Nansheng closed his eyes, as though weighing the truth of these words.
+
+Just then the station chief stood up abruptly and looked around at everyone in the room. "Gentlemen, until half past nine tonight, we will all keep Mr. Pan company here."
+
+"What do I want with so many men to keep me company?" Old Pan rose too, looked at them all, and said without ceremony, "Better find me a woman."
+
+But at twenty-five past nine that night, at the very moment Lin Nansheng was leaving the Cathay Hotel, Old Pan had no sooner taken his place at the concrete pillar to the left of the Paramount Ballroom than a second bullet, flying straight at him, went through his forehead. The first had passed a hair from his scalp into the wall behind. Old Pan did not move; he lifted his face toward where the shots had come from, and waited until the gunfire came again.
+
+The plainclothesmen on stakeout fell for a moment into confusion, snatching out their pistols. The action-squad leader in charge on the ground leapt from a car, pointed at the rooftop of the building across the street, and shouted, "What are you standing there for? Up top!"
+
+The action squad's plainclothesmen swiftly surrounded the building. As they charged in at the front entrance, they came upon Miss Lan in the dimly lit stairwell. She wore a dark summer outfit and held Lin Nansheng's Browning. After a brief exchange of fire, Miss Lan fell back to the rooftop with an empty gun. She glanced at the plainclothesmen closing in from either side, raised the pistol to her own temple, and backed to the terrace railing — then, as if struck all at once by a bullet, pitched headfirst over it, and with a single thud smashed to her death on the street below.
+
+Half an hour later detectives from the police affairs office arrived and fished a Mauser 98K rifle out of the water tank on the roof, three rounds still unspent inside it. The night before, after buying the gun off a black-market arms dealer, Lin Nansheng had hidden it beneath the insulating brick in a corner of the building's rooftop, and then, watch in hand, had surveyed the routes in and out and marked them on that slip of paper. For this killing he had made, in the shortest possible time, the most thorough preparation. And still something had gone wrong. The back door, which by rule was not locked until after ten, was this night, for no reason anyone could name, locked early by the gatekeeper. Miss Lan threw the rifle into the water tank, ran down from the roof, and followed the stairs all the way to the back door — only to find that tonight would be the last night of her life.
+
+In that turn of thought, there in the dark, she was seized all at once by a wringing, heart-clutching sorrow.

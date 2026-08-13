@@ -196,3 +196,84 @@ recur later in the novella). All recurring names/terms carry a glossary row.
 - VOICE GATE PASSED (commissioner). ch01 frozen as reference/ch01.md;
   check_register now live for B02 onward. Register baseline: dialogue
   contractions 18.5/1k, em-dash 0.0/1k. Handoff rewritten to the B02 kickoff.
+
+## Batch B02 — The Rebel 8-14 (ch08-ch14)
+
+Scope: the closing seven installments of the title novella. ch08 Gu Shenyan's
+house arrest and death in Chongqing (the go-manual cipher, Ho Chi Minh);
+ch09 Miss Lan's fall and reunion with Lin; ch10 postwar Shanghai, Zhu Yizhen's
+German-clinic survival and the base-area interrogation; ch11 the wedding, Zilu's
+death, Lin finding Zhu by her embroidery; ch12 Old Pan's self-sacrifice and
+Miss Lan's death at the Paramount; ch13 General Rong, the Liaoshen intelligence,
+Meng Annan unmasked as Gu's foster son; ch14 Lin as a hunted village teacher,
+the deathbed reunion. 380 source paragraphs (45/55/42/66/60/61/41).
+
+Source-note grep (\[\d+\]) across ch08-ch14: none present.
+Doubled heading line per file confirmed; make_bilingual skip=2 throughout.
+
+Checks (all green):
+- verify_unit (parity + numbers with data/noise.txt + anchors): 0 unresolved,
+  all units. New noise entries added, each commented and non-quantitative:
+  四下 (all around), 第二年 (the next year), 十六浦 (source's variant of 十六铺,
+  the Shiliupu docks), 八角厅 (octagonal hall), 礼拜[一二三四五六]/星期[一二三四五六]
+  (weekday indices), 百乐门 (Paramount, the 百 not a hundred). No real quantity
+  was ever noised; dates and counts (23 Aug 1943, 54 aircraft, 1912/1937/1940,
+  sixteen years, three rounds, etc.) are carried in the English.
+- check_align: all units within tolerance. One expected per-pair outlier,
+  ch14 pair 6, the bare birth-date line "1912年11月19日。" -> spelled-out date;
+  a numerals-only line, not a defect.
+- check_content --config review/content_config.json: all 14 units, every name
+  occurrence in its paired paragraph.
+- qc_entities: 0 misses, all units (蝶恋花/Butterflies in Love with Flowers,
+  戴笠/Dai Li, 纪中原/Ji Zhongyuan, 新四军, 中美合作所, etc. all survive).
+- check_register --ref reference/ch01.md: all units within tolerance. Dialogue-
+  heavy chapters (ch09-ch12) run higher on contractions per 1k, expected and
+  flagged "little dialogue — noisy" only where dialogue is sparse; kept speech
+  natural and contracted per STYLE, grave lines where the weight wants them.
+- Tail verification (rule 4 corollary): ch08-ch14 final paragraphs read against
+  the source; faithful and complete, no invented tail text.
+- apparatus: check_apparatus 0/0. Build: qa_epub PASS (51 docs, 764 paras,
+  111 note refs/bodies/backlinks all resolve); epubcheck 5.1.0 clean
+  (0 fatals/errors/warnings). Cover kept byte-identical (md5 84b0d189...).
+
+Notes: 61 added (ch08 14, ch09 5, ch10 10, ch11 11, ch12 5, ch13 9, ch14 7);
+book total 111. History-dense batch; every historical claim fact-checked
+against Wikipedia / academic sources (NEVER an AI-written source) and the
+verdict stated in the note. Corroborated: the last bombing of Chongqing
+(23 Aug 1943 date confirmed; the 54-aircraft figure is the novel's, flagged as
+unconfirmed); Ho Chi Minh's 1942-43 KMT imprisonment in Guangxi and his aliases;
+the Wangyou Qingle Ji as a Song go classic; Gu Shunzhang's 1931 defection; the
+Yan'an "Rescue Campaign"; Zhaofeng Park = Jessfield Park; the Loyal and Patriotic
+Army; the Siege of Changchun / Liaoshen Campaign. Nuance/idiom notes with the
+hanzi and literal image: 桃李满天下, 车水马龙, 流莺, the four insults
+(破鞋/野鸡/拖油瓶/扫帚星), 守株待兔 (Han Feizi fable), 敲山震虎, 打草惊蛇,
+梭子, 鹞子, 盆景, 义庄, 童花头, and the telling alias 林秋明 (Lin takes dead
+Zuo Qiuming's given name). Loaded keywords distinguished: 汉奸 (collaborator)
+vs 叛徒 (turncoat) vs the title's 叛逆者 (already noted B01).
+
+Glossary: 37 rows added (book total 88). People: Director Hu, Pan Xinmin,
+General Rong / Liu Zongming, Zilu, Li Guangwen, Nguyen Chi Trung, Ho Chi Minh.
+Organizations: the Baomiju, the Loyal and Patriotic Army, the Lixingshe, the
+Central Bank, the East China Bureau, the Eastern News Agency, the Nineteenth
+Route Army, the Chinese Youth Communist Party in Europe, the Third Field Army,
+the Volunteer Army. Places: Mount Gele, the Jialing River, Yan'an, Xietang, the
+Jing'an Temple, the Edinburgh Building, Zhaofeng Park, the Paramount Ballroom,
+the Dangui Theater, Xibaipo, Fuyang, Duyou Street, the Metropol Theater, Avenue
+Foch, St. Aloysius Middle School, Nanning. Terms: the Wangyou Qingle Ji, 汉奸,
+食指 (Index Finger). Reused from B01/authority.json: Juntong, Dai Li, Cathay
+Hotel, Nanjing Road, Suzhou Creek, rickshaw, cheongsam, Chongqing, Ho Chi Minh's
+Indochinese Communist Party (noted ch06), SACO, Central Reserve Bank.
+
+NOT re-noted (first appearance was in B01; ledger): Cathay Hotel / octagonal
+hall (ch01), Chongqing (ch01), Red House / 红房子 (ch01; 红房子 rendered
+"the Red House" not "Chez Louis", for B01 consistency), Xiaguan (ch01),
+Butterflies in Love with Flowers (ch03), go / 围棋 (ch06), 七律 seven-character
+regulated verse (ch07), the plum-blossom emblem (ch07), SACO (ch07), the Blue
+Shirts (ch04), Central Reserve Bank (ch04), Yan'an Rectification (ch06), the
+Indochinese Communist Party (ch06), 叛逆者 title keyword (ch06), Wang Jingwei,
+Dai Li, the Juntong.
+
+Digitization glitches (rule: render to sense, list here, never footnote a
+mechanical typo): 十六浦 for 十六铺 (Shiliupu docks) in ch10 — rendered
+"Shiliupu", noise entry added. No other glitches seen in ch08-ch14; the source
+text is clean.
