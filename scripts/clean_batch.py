@@ -159,6 +159,25 @@ UNITS = {
         "glued": {52: "只限于行踪监视与活动侦察"},
         "standalone": [3],     # 一道急急令飞渡万里关山
     },
+    "ch12": {
+        "file": "13_index-split-000-0011.txt",
+        "title": "第二章 人心叵测别有肺肠",
+        "drop": 2,             # running header + <h2> chapter title
+        # three extractor splits (mid-phrase / mid-word continuations):
+        # L42 (以分析的|方法), L94 (不敢遽|下判断), L124 (黯然|握别), and L131
+        # (笔者相信「用五」|先生 — the name 「用五」先生 split across the closing 」, a
+        # mid-phrase split the "」 is terminal" heuristic hides). The many ：-ended
+        # lines lead into the two long quoted documents (Konoe's third statement,
+        # Chiang's 9000-word address) as DELIBERATE separate <p> and are NOT
+        # merged. The chapter body ends with a "(本章完)" marker at L133, after
+        # which the source prints a 5-<p> reflective coda (L134-138) kept whole.
+        "merges": [(42, 43), (94, 95), (124, 125), (131, 132)],
+        # this chapter's sub-headings are numbered-in-parens (一)/(二)/(三):
+        # L3 stands alone; (二) and (三) are glued to a preceding <p>'s tail.
+        "glued": {33: "(二)明澈透底的揭露了敌国阴谋",
+                  69: "(三)绝对不会有那种不可思议的事"},
+        "standalone": [3],     # (一)尚未察觉汪氏已与敌国 暗通款曲
+    },
 }
 
 

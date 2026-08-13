@@ -905,6 +905,132 @@
       "pinyin": "Wāng Zhàomíng",
       "status": "attested",
       "note": "The original name of Wang Jingwei (汪精卫); see that entry."
+    },
+    "岑家焯": {
+      "en": "Cen Jiazhuo",
+      "pinyin": "Cén Jiāzhuō",
+      "status": "provisional",
+      "note": "A senior Whampoa (third class) schoolfellow of Chen, Guangdong man; sent to Hanoi to assist the operation."
+    },
+    "余乐醒": {
+      "en": "Yu Lexing",
+      "pinyin": "Yú Lèxǐng",
+      "status": "provisional",
+      "note": "Hunan man, France-trained doctor of chemistry; deputy director of the Linli Training Class, sent to Hanoi as the unit's chief of staff and technical adviser."
+    },
+    "龙云": {
+      "en": "Long Yun",
+      "pinyin": "Lóng Yún",
+      "status": "attested",
+      "note": "The Yi military strongman who governed Yunnan 1927–45; his Kunming was a way-station on Wang Jingwei's flight."
+    },
+    "有田": {
+      "en": "Arita",
+      "pinyin": "Yǒutián",
+      "status": "attested",
+      "note": "Arita Hachirō (有田八郎, 1884–1965), Japan's foreign minister 1936–40."
+    },
+    "平沼骐一郎": {
+      "en": "Hiranuma Kiichirō",
+      "pinyin": "Píngzhǎo Qíyīláng",
+      "status": "attested",
+      "note": "Japanese premier January–August 1939, succeeding Konoe."
+    },
+    "田中义一": {
+      "en": "Tanaka Giichi",
+      "pinyin": "Tiánzhōng Yìyī",
+      "status": "attested",
+      "note": "Japanese premier and foreign minister 1927–29; associated with the Jinan Incident and the alleged Tanaka Memorial."
+    },
+    "金雄白": {
+      "en": "Jin Xiongbai",
+      "pinyin": "Jīn Xióngbái",
+      "status": "attested",
+      "note": "Journalist of the Wang Jingwei regime; wrote its history under the pen name Zhu Zijia."
+    },
+    "朱子家": {
+      "en": "Zhu Zijia",
+      "pinyin": "Zhū Zǐjiā",
+      "status": "attested",
+      "note": "Pen name of Jin Xiongbai (金雄白); see that entry."
+    },
+    "用五": {
+      "en": "Yongwu",
+      "pinyin": "Yòngwǔ",
+      "status": "provisional",
+      "note": "Pen name of the anonymous author of the diary of Wang's flight quoted here, published in the Hong Kong magazine Zhanggu; true identity unknown."
+    },
+    "张季鸾": {
+      "en": "Zhang Jiluan",
+      "pinyin": "Zhāng Jìluán",
+      "status": "attested",
+      "note": "Chief editorial writer of the Dagongbao (Ta Kung Pao), a celebrated political commentator."
+    },
+    "甘乃光": {
+      "en": "Gan Naiguang",
+      "pinyin": "Gān Nǎiguāng",
+      "status": "attested",
+      "note": "Nationalist official; the diarist 'Yongwu' consults him on Wang's flight."
+    },
+    "陈树人": {
+      "en": "Chen Shuren",
+      "pinyin": "Chén Shùrén",
+      "status": "attested",
+      "note": "Nationalist elder and painter, cited on the causes of Wang's flight."
+    },
+    "彦慈": {
+      "en": "Yanci",
+      "pinyin": "Yàncí",
+      "status": "provisional",
+      "note": "A nephew of Wang Jingwei, left behind in Chongqing after Wang's flight."
+    },
+    "孙哲生": {
+      "en": "Sun Zhesheng",
+      "pinyin": "Sūn Zhéshēng",
+      "status": "attested",
+      "note": "Sun Ke / Sun Fo (孙科, 1891–1973), son of Sun Yat-sen; 'Zhesheng' is his courtesy name."
+    },
+    "蒋廷黻": {
+      "en": "Jiang Tingfu",
+      "pinyin": "Jiǎng Tíngfú",
+      "status": "attested",
+      "note": "Historian and diplomat (T. F. Tsiang)."
+    },
+    "彭学沛": {
+      "en": "Peng Xuepei",
+      "pinyin": "Péng Xuépèi",
+      "status": "attested",
+      "note": "Vice-minister of Communications in the Nationalist government."
+    },
+    "陈公博": {
+      "en": "Chen Gongbo",
+      "pinyin": "Chén Gōngbó",
+      "status": "attested",
+      "note": "A close associate of Wang Jingwei who followed him into the collaborationist regime; later its head, executed 1946."
+    },
+    "周佛海": {
+      "en": "Zhou Fohai",
+      "pinyin": "Zhōu Fóhǎi",
+      "status": "attested",
+      "note": "A leading figure in Wang Jingwei's peace movement and later regime."
+    },
+    "广田": {
+      "en": "Hirota",
+      "pinyin": "Guǎngtián",
+      "status": "attested",
+      "note": "Hirota Kōki (广田弘毅, 1878–1948), Japanese foreign minister and later premier; author of the 1935 'Three Principles.'"
+    },
+    "重光葵": {
+      "en": "Shigemitsu Mamoru",
+      "pinyin": "Zhòngguāng Kuí",
+      "status": "attested",
+      "note": "Japanese diplomat, ambassador to the USSR at the time of the Zhanggufeng Incident."
+    },
+    "袁世凯": {
+      "en": "Yuan Shikai",
+      "pinyin": "Yuán Shìkǎi",
+      "status": "attested",
+      "note": "President of the Republic of China 1912–16; recipient of Japan's Twenty-One Demands in 1915."
     }
   },
   "organizations": {
@@ -1119,6 +1245,30 @@
       "pinyin": "Zhāhuá Gōngsī",
       "status": "attested",
       "note": "A Dutch shipping company (the JCJL)."
+    },
+    "五相会议": {
+      "en": "the Five Ministers' Conference",
+      "pinyin": "Wǔxiàng Huìyì",
+      "status": "attested",
+      "note": "Inner council of the Japanese cabinet (premier, war, navy, foreign, finance ministers), set up 1938."
+    },
+    "兴亚院": {
+      "en": "the Kōain",
+      "pinyin": "Xīngyàyuàn",
+      "status": "attested",
+      "note": "The Asia Development Board, central organ for Japanese policy in occupied China, established December 1938."
+    },
+    "临澧训练班": {
+      "en": "the Linli Training Class",
+      "pinyin": "Línlǐ Xùnliànbān",
+      "status": "provisional",
+      "note": "A Juntong training class at Linli, Hunan, headed by Dai Li with Yu Lexing as deputy."
+    },
+    "掌故": {
+      "en": "Zhanggu",
+      "pinyin": "Zhǎnggù",
+      "status": "attested",
+      "note": "A Hong Kong magazine of history and reminiscence."
     }
   },
   "places": {
@@ -1489,6 +1639,54 @@
       "pinyin": "Dàjīng Lù",
       "status": "provisional",
       "note": "A street in the Hebei district of Tianjin."
+    },
+    "台儿庄": {
+      "en": "Tai'erzhuang",
+      "pinyin": "Tái'érzhuāng",
+      "status": "attested",
+      "note": "Town in southern Shandong, site of the Chinese victory of spring 1938."
+    },
+    "张鼓峰": {
+      "en": "Zhanggufeng",
+      "pinyin": "Zhānggǔfēng",
+      "status": "attested",
+      "note": "The Zhanggufeng / Lake Khasan border clash with the USSR, July–August 1938."
+    },
+    "珊瑚坝": {
+      "en": "Shanhuba",
+      "pinyin": "Shānhúbà",
+      "status": "attested",
+      "note": "The airfield on a sandbar in the river at Chongqing, from which Wang flew out."
+    },
+    "上清寺": {
+      "en": "Shangqingsi",
+      "pinyin": "Shàngqīngsì",
+      "status": "attested",
+      "note": "A district of Chongqing where Wang lodged."
+    },
+    "美专校街": {
+      "en": "Meizhuanxiao Street",
+      "pinyin": "Měizhuānxiào Jiē",
+      "status": "provisional",
+      "note": "A street in Chongqing where Wang's Chongqing residence stood."
+    },
+    "北碚": {
+      "en": "Beibei",
+      "pinyin": "Běibèi",
+      "status": "attested",
+      "note": "A district near Chongqing."
+    },
+    "桂林": {
+      "en": "Guilin",
+      "pinyin": "Guìlín",
+      "status": "attested",
+      "note": "City in Guangxi where Chiang stayed in December 1938."
+    },
+    "滇越路": {
+      "en": "the Yunnan–Vietnam railway",
+      "pinyin": "Diānyuè Lù",
+      "status": "decided",
+      "note": "The French-built Yunnan–Vietnam (Kunming–Haiphong) railway, the route from Yunnan into Indochina."
     }
   },
   "terms": {
@@ -1528,6 +1726,48 @@
       "en": "the Kongming cart",
       "pinyin": "Kǒngmíng Chē",
       "status": "decided"
+    },
+    "东亚新秩序": {
+      "en": "New Order in East Asia",
+      "pinyin": "Dōngyà Xīn Zhìxù",
+      "status": "decided",
+      "note": "Japan's slogan (東亞新秩序) for a Japanese-led East Asian bloc, from Konoe's statement of 3 November 1938."
+    },
+    "东亚协同体": {
+      "en": "East Asian Cooperative Body",
+      "pinyin": "Dōngyà Xiétóngtǐ",
+      "status": "decided",
+      "note": "A related Japanese slogan (東亞協同體) for the merging of Japan, 'Manchukuo,' and China."
+    },
+    "田中奏折": {
+      "en": "Tanaka Memorial",
+      "pinyin": "Tiánzhōng Zòuzhé",
+      "status": "attested",
+      "note": "The alleged 1927 memorial of Tanaka Giichi on world conquest; generally regarded as a forgery."
+    },
+    "二十一条款": {
+      "en": "Twenty-One Demands",
+      "pinyin": "Èrshíyī Tiáokuǎn",
+      "status": "attested",
+      "note": "Japan's 1915 demands on China."
+    },
+    "九国公约": {
+      "en": "Nine-Power Treaty",
+      "pinyin": "Jiǔguó Gōngyuē",
+      "status": "attested",
+      "note": "The 1922 Washington treaty guaranteeing China's sovereignty and the Open Door."
+    },
+    "马关条约": {
+      "en": "Treaty of Shimonoseki",
+      "pinyin": "Mǎguān Tiáoyuē",
+      "status": "attested",
+      "note": "The 1895 treaty ending the first Sino-Japanese War."
+    },
+    "国家总动员法": {
+      "en": "National General Mobilization Law",
+      "pinyin": "Guójiā Zǒng Dòngyuán Fǎ",
+      "status": "attested",
+      "note": "Japanese law of April 1938 placing the economy on a war footing."
     }
   }
 }

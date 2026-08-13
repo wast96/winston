@@ -818,3 +818,139 @@ carries a pinyin field; obscure operatives / Japanese readings marked
   backward-compatible with ch01–ch09.
 - `data/noise.txt` — B06 block (see above). Glossary rows added by hand into the
   sectioned file, idempotent + re-read-verified; notes merged via apparatus_merge.py.
+
+## Batch B07 — ch12 (Part Two, Chapter 2: "Disgrace at Hanoi")
+
+One unit, 19,990 source chars. ch12 = 第二章 人心叵测别有肺肠 "Chapter 2.
+Unfathomable Hearts, Hidden Designs" (131 body paragraphs, 3 sub-headings). The
+Hanoi team fills out (Fang Bingxi, Wang Luqiao, then Cen Jiazhuo and Yu Lexing
+arrive); the chapter's spine is two long quoted political documents given whole
+as "political instruction" from Chongqing — Konoe's third statement (22 Dec) and
+the Generalissimo Chiang's 9,000-character address "Exposing the Enemy State's
+Plot and Setting Forth the National Policy of Resistance" (26 Dec) — framed by
+Chen's insistence that the Juntong had NO advance intelligence of Wang's
+collusion, buttressed by Chen Bulei's memoir, the Zhu Zijia (Jin Xiongbai) memoir,
+and the anonymous "Yongwu" diary of Wang's flight from Chongqing.
+
+### Structure / extractor handling (clean_batch.py, ch12 spec added; source conserved OK)
+- **ch12** drop=2 (running header 英雄无名-陈恭澍 + `<h2>` chapter title). 136 `<p>`
+  in the source XHTML (confirmed by tag count), 1:1 with the ingest's body lines.
+- **Sub-headings are numbered-in-parens (一)/(二)/(三)** (a THIRD pattern, distinct
+  from ch06–09's numbered 一/二/三 and ch11's couplet style): L3 (一) stands alone;
+  (二) at L33 and (三) at L69 are glued to the tail of the preceding `<p>` (split off
+  as `### ` headings).
+- **Four extractor splits** (mid-phrase continuations), merged: (L42,L43) 以分析的|
+  方法; (L94,L95) 不敢遽|下判断; (L124,L125) 黯然|握别; **(L131,L132) 笔者相信「用五」|
+  先生** — the name 「用五」先生 split across the closing 」, a split the "」 is terminal"
+  heuristic hides (caught only on the parity mismatch, then confirmed against the
+  source `<p>` boundaries and merged). The many ：-ended lines that lead into the two
+  quoted documents are DELIBERATE separate `<p>`, NOT merged.
+- **"(本章完)" mid-file:** the chapter proper ends with an in-text "(End of this
+  chapter)" marker at L133 (rendered faithfully), after which the source prints a
+  5-`<p>` reflective coda (L134–138) — genuine text, kept whole as body paragraphs.
+- Note markers `\[\d+\]`: **none present** (grep clean; recorded).
+- Set-off formatting / images: **none** — plain narrative (no `<img>/<hr>/<div>/
+  em/i/b/span`), confirmed. ch12 carries no figures.
+
+### Digitization glitches (rendered to plain sense; NOT footnoted — mechanical)
+- 力炳西 → 方炳西 "Fang Bingxi" (L4, wrong first char). 汪卫卫 → 汪精卫 "Wang Jingwei"
+  (L99, 卫卫 for 精卫). 沦爸以亡 → 沦胥以亡 "sink to ruin" (L54). 根木 → 根本 "at bottom"
+  (L92). 明自 → 明白 "clear" (L46).
+- **Numeric glitches (value carried in the English, form noised — see below):**
+  受伤九十六百一十五人 → 9,615 wounded (garbled 九千六百一十五, L21); 于一九二八年内 →
+  "within the year 1938" (impossible 1928 for 1938, L80, inside Chen's paraphrase
+  of the Five Ministers' plan).
+- **Internal date inconsistency in the quoted Chiang address (left visible, NOT
+  altered):** L42 prints 近卫十一月二十二日声明 "Konoe's statement of the twenty-second
+  of November"; every other reference in the address gives 十二月二十二日 (22 Dec, the
+  correct date of Konoe's third statement). Rendered faithfully as printed
+  ("November") since it lies inside a quoted document; the reader can see the slip
+  against the surrounding "December 22" references.
+- **Source punctuation gap:** L17 (Liu Yuanshen's quoted testimony) omits the
+  closing 」 after 戴先生说「临澧的训练是很成功的。」; the quote is closed there and
+  Chen's own commentary (其实失败与成功…) resumes outside it, per sense.
+
+### Checks (all green)
+- verify_unit ch12: parity 131/131; numbers 0 unresolved (after B07 noise block);
+  anchors 16 ok.
+- check_align: 131/131, median 4.84 en/han (above the 4.55–4.76 narrative band, in
+  line with the two long formal/oratorical quoted documents that dominate the
+  chapter). No pair strays >2.2× the median.
+- check_structure: parity OK, 16 notes / 0 unresolved anchors, 2 heading levels OK.
+- check_content: 0 displacement (171 name occurrences, all in the paired paragraph).
+- qc_entities: 0 misses (top: 重庆 x30, 汪精卫 x28, 河内 x20, 东亚新秩序 x20).
+- check_register --ref: within tolerance. shall 33% — Chen's deliberate narrating
+  "shall" PLUS the period-diplomatic Konoe statement and Chiang's oratory (both use
+  "shall" as the register demands); verified deliberate (ch11 B06 also ran 33%).
+  Contractions 0.0/1k; em-dash 5.0/1k vs ref 8.3; rhythm CV 0.71.
+- Tail verified against source (rule 4 corollary): the 5-paragraph coda (L134–138)
+  rendered complete, nothing invented or dropped (idioms 空穴来风, 只闻楼梯响, 节外生枝,
+  一子先着, and 多事婆 = Chen Bijun all carried; Dai's closing order verbatim in sense).
+- Build: qa_epub PASS (57 files, 153 refs/153 bodies/153 backlinks, all links
+  resolve); epubcheck 5.1.0 → 0 fatals / 0 errors / 0 warnings. EPUB now
+  **12/43 chapters**.
+- setup.sh regression: the ONE known false alarm ("hook stands down on template
+  stub") still fails as documented; all other checker regression tests pass.
+
+### Numeric-invariant handling (data/noise.txt, B07 block; check_numbers 0 unresolved)
+Real quantities carried in the English: the eighteen-man team; the Fifth and Tenth
+Divisions and 30,000 annihilated at Tai'erzhuang; the Japanese-admitted 2,367 dead
+(rendered as digits so the checker composes the value) and 9,615 wounded; the
+"two, myself and Duanmu Kai"; the "two dynasties of Song and Ming"; 70 million,
+450 million people, 12+ million sq km, 5,000 years (all in the English);
+Republican years kept literal ("the twenty-seventh year", matching the source
+numeral and Part-Two/B06 convention); clock times spelled out. **Noised**
+(idiom / name / archaic-numeral / glitch artifacts — value, where real, stays in
+the English): 十两 (spurious 12 from 第十两个师团), 九十六百一十五 (garbled 9,615),
+万众一心, 五光十色, 矛盾百出, 千辛万苦, 百姓 (老百姓), 阴谋百出, 四万万五千万 (万万=亿,
+parser can't compose 450M), 一千二百余万 (余万 form, parser splits it), 一九二八
+(glitch for 1938), 阿六 (servant name), 用五 (pen name).
+
+### Notes ledger (16 this batch; 153 cumulative)
+First-appearance discipline observed. **NOT re-noted** (already noted B01–B06):
+Konoe Fumimaro (ch10), the Three Principles of Peace (ch11), Gao Zongwu / Mei
+Siping (ch11), "Director-General" 总裁 (ch11), the Yan Telegram (ch10), Chen Bijun
+(ch03), the People's Political Council (ch10), the Jing/Wei proverb (ch11), the
+"eighteen men" of the Hanoi team (ch03), the Republican-calendar convention, the
+Juntong / Dai Li / Zheng Jiemin, Hanoi / Chongqing / Kunming, Manchukuo, the
+Three Principles of the People, the Xi'an Incident (ch06). New notes: (1) the
+Eighteen Arhats / Vajra-guardians Buddhist allusion; (2) the battle of
+Tai'erzhuang + the disputed casualty figures (fact-check verdict: contested);
+(3) Long Yun of Yunnan; (4) the "New Order in East Asia"; (5) 支那/"Shina" as the
+derogatory Japanese exonym (rendering-policy note); (6) the Five Ministers'
+Conference; (7) the Kōain (Asia Development Board) + the "Tai-Shi Board"; (8) the
+Twenty-One Demands + Yuan Shikai; (9) the Nine-Power Treaty + Open Door; (10) the
+Treaty of Shimonoseki + the Korea precedent; (11) the Zhanggufeng / Lake Khasan
+Incident + Shigemitsu; (12) the Tanaka Memorial + Meiji legacy-policy (**verdict:
+generally regarded as a forgery**); (13) the Jinan Incident of 1928 + Tanaka
+Giichi; (14) "the Party Leader" 总理 = Sun Yat-sen (vs 总裁 = Chiang); (15) Jin
+Xiongbai / Zhu Zijia and his Wang-regime memoir; (16) Hirota Kōki's 1935 Three
+Principles.
+
+### Glossary rows added (40 by hand; principals unchanged at 8)
+People (22): 岑家焯 Cen Jiazhuo, 余乐醒 Yu Lexing, 龙云 Long Yun, 有田 Arita (八郎),
+平沼骐一郎 Hiranuma Kiichirō, 田中义一 Tanaka Giichi, 金雄白 Jin Xiongbai, 朱子家 Zhu
+Zijia, 用五 Yongwu (identity unknown), 张季鸾 Zhang Jiluan, 甘乃光 Gan Naiguang, 陈树人
+Chen Shuren, 彦慈 Yanci, 孙哲生 Sun Zhesheng (= 孙科 Sun Ke/Fo), 蒋廷黻 Jiang Tingfu,
+彭学沛 Peng Xuepei, 陈公博 Chen Gongbo, 周佛海 Zhou Fohai, 广田 Hirota (弘毅), 重光葵
+Shigemitsu Mamoru, 袁世凯 Yuan Shikai. Places (8): 台儿庄 Tai'erzhuang, 张鼓峰
+Zhanggufeng, 珊瑚坝 Shanhuba, 上清寺 Shangqingsi, 美专校街 Meizhuanxiao Street, 北碚
+Beibei, 桂林 Guilin, 滇越路 the Yunnan–Vietnam railway. Organizations (4): 五相会议
+the Five Ministers' Conference, 兴亚院 the Kōain, 临澧训练班 the Linli Training Class,
+掌故 Zhanggu (HK magazine). Terms (7): 东亚新秩序 New Order in East Asia, 东亚协同体
+East Asian Cooperative Body, 田中奏折 Tanaka Memorial, 二十一条款 Twenty-One Demands,
+九国公约 Nine-Power Treaty, 马关条约 Treaty of Shimonoseki, 国家总动员法 National
+General Mobilization Law. Every row carries a pinyin field; obscure operatives /
+minor diary names / uncertain identities marked `provisional`. **Deliberately NOT
+given a glossary row:** 总理 (ambiguous — Sun Yat-sen "the Party Leader" vs 内阁总理
+"cabinet premier"; the footnote covers Sun). Feed the historical names (有田八郎,
+平沼骐一郎, 田中义一, 广田弘毅, 重光葵, 袁世凯, 孙科, 蒋廷黻, and the collaborationist
+金雄白, 陈公博, 周佛海) to authority.json on completion.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch12 spec added (drop=2; four merges incl. the
+  「用五」先生 name-split; one standalone + two glued numbered-in-parens sub-headings).
+  Backward-compatible with ch01–ch11.
+- `data/noise.txt` — B07 block (see above). Glossary rows added by hand into the
+  sectioned file, idempotent + re-read-verified; the 16 notes merged via
+  apparatus_merge.py (numeric character references; anchors verbatim in body text).

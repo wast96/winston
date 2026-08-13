@@ -251,3 +251,41 @@
 # Round-number idiom 百万计 "numbering in the millions / by the million"; the
 # 百万 is an order-of-magnitude figure, not an exact count. English "by the million".
 百万计
+#
+# --- B07 (ch12) entries ---
+#
+# Battle of Tai'erzhuang divisions 第五、第十两个师团 "the Fifth and Tenth
+# Divisions": the adjacency 十两 (第十 + 两个) mis-parses as 12. English carries
+# "the Fifth and Tenth Divisions"; noise the spurious 12 only.
+十两
+# Digitization glitch 九十六百一十五 for 九千六百一十五 "9,615 (wounded)"; the
+# garbled form parses to 705. English carries the plain-sense 9,615.
+九十六百一十五
+# Idiom 万众一心 "the myriad of one heart, all as one"; the 万 is not 10000.
+万众一心
+# Idiom 五光十色 "motley, of every hue"; the 十 is not the count 10.
+五光十色
+# Idiom 矛盾百出 "self-contradictory a hundredfold"; the 百 is not the count 100.
+矛盾百出
+# Idiom 千辛万苦 "a thousand hardships and myriad toils"; 千/万 are hyperbole,
+# not counts. English keeps "a thousand hardships".
+千辛万苦
+# 老百姓 "the common people"; the 百 of 百姓 is not the count 100.
+百姓
+# Archaic numeral 四万万五千万 "450 million (people)": 万万 = 亿 (10^8), a form the
+# checker cannot parse (it yields 50050000). English carries "four hundred and
+# fifty million"; the true quantity is fixed there, not noised away.
+四万万五千万
+# Approximate numeral 一千二百余万 "more than twelve million (sq km)": the 余万
+# form parses as 1200 + 10000. English carries "more than twelve million square
+# kilometers"; the true quantity is fixed there.
+一千二百余万
+# Idiom 阴谋百出 "teeming with plots"; the 百 is not the count 100.
+阴谋百出
+# Digitization glitch 一九二八 for 一九三八 "1938" (achieving war aims "within the
+# year"; 1928 predates the war). English renders the plain-sense 1938.
+一九二八
+# Servant's name 阿六 "Ah Liu"; the 六 is a name, not the count 6.
+阿六
+# Pen name 用五 "Yongwu"; the 五 is part of a pseudonym, not the count 5.
+用五
