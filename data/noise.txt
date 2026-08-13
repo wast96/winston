@@ -229,3 +229,29 @@
 五吉郎
 # Shinzaburo — Okuzawa Shinzaburo, Shinsengumi dead (奥沢新三郎); 三 is part of the name, not the count 3
 新三郎
+# ── B06 additions (ch24) ──
+# san-san-go-go = "by threes and fives, in little knots" (三々五々); the 3/5 are the idiom, not counts
+三々五々
+# Mitajiri — the Suō trading port Chōshū sailed from (三田尻); 三 is part of the place-name, not the count 3
+三田尻
+# ── B06 additions (ch25) ──
+# gogatsu-ningyō = "Boys'-Festival doll" (五月人形); 五 is part of the word (5th month), not the count 5
+五月人形
+# Yajūrō — the Chōshū samurai Tsubaki Yajūrō (椿弥十郎); 十 is part of the name, not the count 10
+弥十郎
+# Chūzaburō — the Chōshū samurai Terashima Chūzaburō (寺島忠三郎); 三 is part of the name, not the count 3
+忠三郎
+# ── B06 additions (ch26) ──
+# Mikisaburō — Suzuki Mikisaburō, Itō's brother (鈴木三樹三郎); the 三 are part of the name, not counts
+三樹三郎
+# ── B06 additions (ch27) ──
+# nanako = "nanako-weave silk" (七子の羽織); 七 is part of the fabric name, not the count 7
+七子
+# Shimenosuke — Sano Shimenosuke (佐野七五三之助); 七五三 spells shime in the name, not counts
+七五三之助
+# Jirō — Utsumi Jirō (内海二郎); 二 is part of the name, not the count 2
+二郎
+# Sanmura/Mimura — Itō's home village in Jōshū (三村); 三 is part of the place-name, not the count 3
+三村
+# Mitadaimachi — Edo district Itō moved his family to (三田台町); 三 is part of the place-name, not the count 3
+三田台町

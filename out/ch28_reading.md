@@ -1,0 +1,359 @@
+## New Year, First Year of Keiō
+
+Since coming back from Edo, Kondō had been oddly giddy.
+
+(The man has changed.)
+
+So Toshizō thought.
+
+—What can it be?
+
+Toshizō was, for a time, at a loss. But by now he had come to watch this Kondō with a cold eye.
+
+"Sōji,"
+
+{j} he said one day, on the upper floor of the little Kiyamachi eating-house he favored, with Okita Sōji for company. To this youth alone he could say whatever lay in his belly.
+
+"Well — between ourselves, now. Isn't Kondō-san a little off, of late?"
+
+"Yes."
+
+{j} Okita gave a small laugh. He seemed to feel it too. This youth had been eating nothing but the garnish of the sashimi all this while. He was a fierce picky eater, and would not touch raw things.
+
+"A man is a weak thing before honors. In Edo he met the elders of the council. It's from about there that the man has gone strange."
+
+"Well, that—"
+
+{j} would be so, Okita thought inwardly. Say Kondō, but he was, after all, born no more than a Tama farmer's boy, a house without lineage, without so much as a surname. And that Kondō had sat knee to knee with a councillor of state and discussed affairs of government. At first,
+
+(Can it be true?)
+
+Okita had thought. It even crossed his mind that Kondō might have talked with no more than some councillor's house-steward in the porter's room by the entrance, and was blowing it up into a brag.
+
+For a while after his return to Kyoto, Kondō would say, over and over like a prayer,
+
+—Lord Izu, now, Lord Izu.
+
+He did not say His Lordship the rōjū Matsumae Izu-no-kami. It was the tone of a man on colleague's terms. Among the newly-joined troopers there were some who said,
+
+(There's the commander of the Shinsengumi for you — on a footing with the daimyō.)
+
+{j} and were impressed.
+
+To Nijō Castle, too, he went up once in every three days.
+
+This castle was built within the city of Kyoto by Ieyasu, the founder of the Tokugawa house, and had been used as the shogun's stopping-place when he came up to the capital. Just now Hitotsubashi Yoshinobu — the future fifteenth shogun — the Superintendent of the Defense of the Imperial Palace, was in residence there.
+
+Here Kondō would confer with the liaison office of the Kyoto Protector, or debate the state of the realm with the liaison office of that same Hitotsubashi house.
+
+Kondō's manner of going up to the castle had, since his return from Edo, come near to a daimyō's procession. He used no palanquin, to be sure. Mounted he was; but since he paraded Horikawa Avenue with twenty or thirty troopers always at his back, it was the way of a petty lord.
+
+(He is no longer a mere grass-roots loyalist.)
+
+Such gibes the general secretary Yamanami Keisuke, an officer since the founding covenant, let fall behind Kondō's back, as Okita had once heard.
+
+"But, Hijikata-san,"
+
+{j} said Okita.
+
+"Wasn't it you, Hijikata-san, who quietly egged Kondō-san on — 'make yourself into a daimyō'?"
+
+"Hm."
+
+Toshizō looked away.
+
+"That's so."
+
+"Then it's you who are to blame, Hijikata-san."
+
+"No. What I said was that I wanted to make the real strength of this thing, the Shinsengumi, the equal of a great domain like Aizu, Satsuma, Chōshū, Tosa. I mean it still. When that day comes, our chief is Kondō Isami Masayoshi, first and last, so it comes to the same thing as Kondō's becoming a daimyō — but the feeling is different."
+
+"I don't know, though."
+
+{j} He tilted his head a little.
+
+"What is it?"
+
+"Kondō-san won't take in such a tangled undermeaning as those words of yours, Hijikata-san. That man, unlike you, Hijikata-san, is a good soul at bottom."
+
+"'Unlike you' — what's that supposed to mean, Sōji?"
+
+"Heh."
+
+{j} He was prodding at the grilled fish with his chopsticks. Okita, being a clever youth, said no more of his reasoning. But Kondō's present absurdity, and Toshizō's true state of mind, he grasped as if he held them in his hand.
+
+One reason for Kondō's giving himself a daimyō's airs was the leaping increase in the men.
+
+In Edo, fifty new men had been raised. These were now on the corps's duties.
+
+And the joining of the Itō party weighed heavily. They were, to a man, masters of both letters and arms, of a different breed from the troopers up to now.
+
+Itō was a first-rank scholar of the National Learning. In argument or in learning, Kondō could not come near the feet of Itō Kashitarō. And it might be that even with the bamboo sword Kondō was no match for Itō.
+
+In truth, from the time Itō joined, his popularity among the men was tremendous, so that the vice-commander Toshizō fell into shadow, and even Kondō's popularity was somewhat put in the shade.
+
+(That is why Kondō-san is trying to hold them down by rank.)
+
+{j} So Okita saw it. If he was Itō's inferior on every point, then for Kondō it was a case of becoming
+
+{j} "of daimyō rank"
+
+{j} — there was nothing else for it.
+
+(I, at least, am in a class apart.)
+
+That was what Kondō was showing to Itō and to the whole corps alike. It was a sensibility altogether of the Tama country-bravo risen in the world.
+
+But.
+
+Yamanami Keisuke once said to Okita —
+
+—We are not Kondō's retainers. At the first covenant, it was to serve together as the vanguard of expelling the barbarian that we came up all the way from Edo. The Shinsengumi is a band of comrades, not a bond of lord and man. Kondō too ought to be a loyalist of the same rank as a common trooper. And this Kondō goes up to the castle in a daimyō's airs — what is the meaning of it?
+
+(He's not wrong.)
+
+{j} So Okita thought in his heart.
+
+(Kondō-san has let it go to his head too far. It may be that Itō Kashitarō will cut the ground from under his feet.)
+
+"Sōji,"
+
+{j} said Toshizō.
+
+"It's too soon yet for Kondō-san to give himself a daimyō's airs. That comes after the turmoil of the realm is settled. At the least, after we've done the chastising of Chōshū, brought Chōshū down, and had even half its old lands for it."
+
+(Oh—)
+
+{j} thought Okita. That the true design of the Shinsengumi lay in a place like that — even Okita Sōji felt he was hearing it for the first time.
+
+"Hijikata-san—"
+
+{j} and Okita set down his chopsticks.
+
+"That, just now — is it true?"
+
+"What is?"
+
+"That the Shinsengumi is to have half of Chōshū's lands."
+
+"It's a figure of speech. That a warrior gets a fief for his feats of war is the way of things ever since the Genpei age. Let this turmoil be settled, and the shogunate won't sit silent either."
+
+"You astonish me."
+
+It was the very thought of a warrior of the age of the country at war. Call it simple, call it old-fashioned; and if old-fashioned, then a tale fearfully out of its time.
+
+"Hijikata-san — you mean you want to become a daimyō?"
+
+"You idiot,"
+
+{j} Toshizō growled, low.
+
+"I want no such thing."
+
+"Truly?"
+
+"Of course truly. Would a brawler born in Bushū Tama, Toshizō, be the stuff of daimyō and hatamoto? What I want to do is the work. As for rising in the world—"
+
+"As for—?"
+
+"I don't think about it. I'm a craftsman. Neither a loyalist nor anything else. I keep myself from so much as thinking about the affairs of the realm. I only want to raise the Shinsengumi into the first fighting-band under heaven. I know my own place."
+
+"That's a relief."
+
+{j} Okita laughed brightly, and then,
+
+"And Kondō-san?"
+
+"His true heart?"
+
+"Yes."
+
+"That I don't know. Whether that man, given his time and his season, becomes a daimyō, or, his luck out, slips back into a potato-patch swordsman tramping the gravel-flats of Bushū Tama, either way my work is to help him. But the day that man throws over the Shinsengumi himself — that, I think, is the day I part from him."
+
+(There it is — the true worth of this man.)
+
+{j} Okita gazed at Toshizō with a kind of rapture. He was a sort of monster. But without such a monster, the Shinsengumi might have burst apart long since.
+
+"And so, you see,"
+
+{j} Toshizō said in the Tama tongue,
+
+"it's too soon yet for Kondō's daimyō airs, is what I'm saying. Itō has come. The popularity has gathered on Itō. Let Kondō float up alone as a lone great lord, and the corps will break in the end."
+
+What Toshizō said was in contradiction with his once having told Kondō, "give yourself a daimyō's airs." But then was then, and now was now; already, with Itō's joining, the case had altered. A man of Itō's stamp — he will surely take the Shinsengumi; and Toshizō watched it, with a feeling closer to dread.
+
+***
+
+About this time a thing happened that, to Toshizō's eye, was purely ridiculous.
+
+This year, just as the era-name changed to the first year of Keiō, in the New Year season, Toshizō went off on duty to Osaka.
+
+When he came back, the pine-decorations had already been taken down in Kyoto.
+
+Coming in at the barracks gate, he found the troopers astir in the yard.
+
+(What's this?)
+
+Down the corridor went Kondō.
+
+His face was daubed white — a make-up to put a court noble to shame.
+
+(The fellow — has he finally gone mad?)
+
+Flaring up, he sprang from the yard onto the corridor and went after Kondō.
+
+"Ah, you're back?"
+
+{j} and on the way Itō Kashitarō came out of a room and greeted him with great courtesy.
+
+His skin was white as a woman's. His brows were clean-drawn, his face beautiful. When he smiled he was like one of the young Heike nobles who come on in the plays.
+
+(Surely Kondō hasn't smeared himself with powder to vie with this fellow.)
+
+Toshizō slid open the door of Kondō's room.
+
+"Oh—"
+
+He stood stock-still.
+
+Kondō was seated, white all over.
+
+"What is this?"
+
+"This?"
+
+{j} Kondō, without so much as a smile, pointed at his own face and,
+
+"It's hotogara."
+
+(Damn him. …)
+
+Toshizō sat down with a fierce face. In Kyoto, no doubt, they called make-up hotogara or some such.
+
+"Today I'll say it out plain. Aren't you a little wrong in the head of late?"
+
+Toshizō said bluntly the sort of thing he had said to Okita, and,
+
+"They say a man turns disgraceful once he climbs into the seat of honor, and that's you. I didn't come up to Kyoto to make a creepy, white-faced monster of you."
+
+"Toshi, mind your words. When you rattle on at me in that Tama country-speech of yours, my head starts to ache."
+
+Kondō, put out, went out of the room and down into the inner court.
+
+In the middle of the garden a mat had been spread. Kondō sat down on it, sullen.
+
+Presently a man got up like a Confucian scholar appeared, and with him three men like apothecaries' box-bearers, and ranged themselves around Kondō.
+
+"What in the world is that?"
+
+Toshizō asked the troopers standing about. In the corps it had been a to-do since morning, it seemed, and they all had a full knowledge of the business.
+
+"It's hotogara."
+
+It is what we now call the art of photography. Since the image was cast on a wet plate dull of sensitivity, the subject had to be smeared white all over with China lead-powder, and a white cloth hung all around behind him besides.
+
+A samurai of the Ōmura domain, Ueno Hikoma, was the master of it; he had learned it from the Dutchman Pompe at the seimi — chemistry — institute in Nagasaki. The first man Ueno Hikoma ever photographed was Matsumoto Ryōjun (a Dutch-school physician, personal doctor to the shogun Iemochi, raised to the rank of hōgen; a man who showed the Shinsengumi much kindness in its last days. After the Restoration he changed his name to Jun, became Surgeon-General, and later a baron), and the place was the Nankin temple in Nagasaki.
+
+Ueno Hikoma smeared China lead-powder on the face of the unwilling Ryōjun.
+
+Ryōjun was dark-skinned by nature. To whiten it, a great deal of powder was needed. His was a bumpy face besides. Laid on thick, it became a fearful thing, but,
+
+—It is all for the sake of learning.
+
+{j} he bore it. Further the photographer Ueno Hikoma, to better the exposure, made Ryōjun climb to the great roof of the temple and hold himself bolt upright, at attention, for a long while. Seeing it, the people of Nagasaki town mistook it — "a new ridge-demon has grown on the Nankin temple" — and came trooping to look, so the story goes.
+
+The man now photographing Kondō, too, was that same Ueno Hikoma.
+
+When Toshizō asked the troopers about him, it seemed Ueno Hikoma had been sent over, of all places, from Nijō Castle.
+
+Hitotsubashi Yoshinobu, the Superintendent of the Defense of the Imperial Palace,
+
+—Take a photograph of Kondō for him.
+
+{j} had said, in person, they said. Come to think of it, Yoshinobu was a great lover of hotogara, and would catch the daimyō who came up to Nijō Castle and have their photographs taken. He made a feast of photographs, as it were, in place of a banquet, to curry favor with the daimyō — such a rumor Toshizō too had heard.
+
+(So Kondō has become one of those daimyō, has he.)
+
+He was a mere rōnin no longer. In places Toshizō knew nothing of, Kondō was rising, abnormally, in the world.
+
+"Please hold your breath,"
+
+{j} said the master of the hotogara.
+
+—Like this?
+
+"Just so."
+
+The master opened the cap of the lens. Within the great wooden dark-box the image of Kondō began to form.
+
+(………)
+
+Kondō was holding his breath.
+
+The master would not readily allow him to breathe again.
+
+By and by the nape of Kondō's neck grew congested with blood. His already beetling brows drew fierce. In his distress he had begun to grind his teeth.
+
+At last the operator closed the cap of the lens and,
+
+"There, now,"
+
+{j} he said.
+
+Kondō let out his held breath.
+
+To Toshizō it had become ridiculous. The photograph of Kondō, grown a great figure of Kyoto politics, would now remain forever. A photograph of Kondō with his breath held, and for that very reason wearing the aspect of a fiend.
+
+"Toshi, how about you?"
+
+"No — spare me,"
+
+{j} and he went back to the corridor.
+
+Back on the corridor, a thing he noticed of a sudden was that, among the troopers looking on, the figure of Itō Kashitarō was nowhere to be seen.
+
+Not Itō only. Not one of the Itō party's officers was there. It was Toshizō alone, likely, who noticed this.
+
+(They ought to be in their rooms.)
+
+Come out, they would not look. To anyone a hotogara ought to be a rare sight, yet Itō and the rest would not spare it a single glance.
+
+(A charmless lot.)
+
+Toshizō began to feel his temper rise.
+
+The reason he could guess. Itō was an expel-the-barbarian man of the National-Learning school. Of the same barbarian-expelling creed, this line of believer held a divine-land faith near to a spirit-possession, and reckoned anything of the Western barbarian's — a foreigner's very footprint — a defilement. Much more, to look on at a hotogara was,
+
+—It defiles the eyes.
+
+{j} so, no doubt, they held.
+
+They were all gathered, it seemed, in Itō's room.
+
+Toshizō went, on purpose, past the front of that room. The paper door stood a little open. Looking in, they were all ringed about a great brazier, deep in talk, it seemed.
+
+Itō was smiling gently. Around him, ringed like the faithful about a teacher, sat Shinohara, Hattori, Kanō, Nakanishi, Utsumi, the troopers of the Itō party, and among them, too, the face of Yamanami Keisuke.
+
+(That Yamanami. …)
+
+Toshizō, in spite of himself, groaned in the pit of his belly.
+
+Ever since Itō joined, the way Yamanami drew near to Itō had been abnormal past measure. Yamanami held the post of general secretary. It was as though he had thrown that post over to become, for all the world, Itō's disciple.
+
+(The fellow — does he mean to give up on Kondō?)
+
+It was a strange thing.
+
+Come to this, and stronger far than his hatred of the newcome alien element Itō Kashitarō grew the hatred of the falling-away of Yamanami, an old comrade since the covenant.
+
+Toshizō passed on before the room. After he had gone, a burst of laughter went up inside it.
+
+Not that they had laughed at Toshizō. But Toshizō's face, as he stared down the length of the corridor, had gone dead pale. Likely, while Kondō was smearing himself with China powder and taking his pleasure, the moment was coming when that risen crowd of laughers would take the mastery of the Shinsengumi into their hands.
+
+(Who can say.)
+
+Toshizō had such a foreboding.
+
+But that foreboding came true, in an unlooked-for shape.
+
+Yamanami Keisuke deserted.

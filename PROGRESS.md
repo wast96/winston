@@ -763,3 +763,141 @@ appearances.
   Kept the source form, glossary note records the variant. Not corrected.
 - 丹虎 is furigana'd たんとら (Tantora), not the "Tankō" one might guess; used the
   source's own reading.
+
+## B06 = ch24 to ch28 (京師の乱 / 長州軍乱入 / 伊東甲子太郎 / 甲子太郎、京へ / 慶応元年正月)
+
+Batch 6. All five chapters translated to the frozen ch01 register, annotated,
+checked, and built into the cumulative EPUB. Notes 181 to 208 (28 this batch).
+Continuous note number now 208. Every scripted gate green; qa_epub PASS (208
+references / 208 bodies / 208 backlinks); epubcheck 0 fatals / 0 errors / 0
+warnings / 0 infos. 28 of 71 chapters now translated.
+
+### Chapters
+
+- ch24 京師の乱 / "Turmoil in the Capital" (136 source lines). The Ikedaya
+  aftermath: Shiba's argument that the affair hastened rather than delayed the
+  Restoration; the Aizu liaison letter; Kondō declines the "senior yoriki" rank
+  and plays the daimyō; the Chōshū residence empties toward the Tenryū-ji; the
+  artillery-begging visit to Kurodani; Chōshū's expedition sails; the "king"
+  (gyoku) shōgi metaphor; the Shinsengumi posted to the Hamaguri Gate. 1 scene
+  break (after para 38). 7 notes. register within tolerance (em-dash 7.0/1k;
+  "little dialogue" flag).
+- ch25 長州軍乱入 / "The Chōshū Army Storms In" (165 lines). The Kinmon /
+  Hamaguri Gate Incident: the armor-fitting and the "Makoto" banner; the
+  Kanjinbashi posting; Toshizō reads the feint (Fushimi weak, Saga strong);
+  Yamazaki's night ride at Fujinomori; Fukuhara's Fushimi wing beaten; Kunishi's
+  Saga wing storms the palace; Kijima and Kusaka die; the Dondon-yaki fire; Maki
+  Izumi's seventeen on Tennōzan. 1 scene break (after para 62). 5 notes.
+  register within tolerance (em-dash 10.3/1k).
+- ch26 伊東甲子太郎 / "Itō Kashitarō" (163 lines). Itō introduced: the Ono
+  Keijirō authorial digression; Itō's Mito-radical, Hokushin Ittō-ryū
+  provenance; Toshizō's dread of the school's topple-the-shogunate men; Tōdō's
+  secret proposal to assassinate Kondō and make Itō captain; the kinchō
+  sword-oath; Itō's cold reading of Toshizō. 2 scene breaks (after paras 54,
+  82). 5 notes. register within tolerance (em-dash 11.0/1k).
+- ch27 甲子太郎、京へ / "Kashitarō Comes to Kyoto" (174 lines). Itō meets Kondō
+  in Edo; Kondō's boast of lobbying the rōjū and the bankrupt treasury (the
+  secret French loan); the "eighty thousand mounted hatamoto" as straw dolls;
+  Itō gathers his seven men (the roster with fates); Shinohara's theatrical
+  warning; Itō divorces his wife on the nation's account; the party of eight
+  enters Kyoto; Toshizō refuses to call on the newcomer. 2 scene breaks (after
+  paras 78, 134). 5 notes. register within tolerance (em-dash 12.5/1k).
+- ch28 慶応元年正月 / "New Year, First Year of Keiō" (178 lines). Kondō's
+  swelling vanity after Edo; the Kiyamachi talk with Okita (Toshizō the
+  "craftsman" who wants no rank, will help Kondō until Kondō quits the corps);
+  the New Year photograph (hotogara) sent by Hitotsubashi Yoshinobu, Kondō
+  powdered white by Ueno Hikoma; Itō's faction shunning the camera as a
+  defilement; Yamanami drawn to Itō; ends "Yamanami Keisuke deserted." 1 scene
+  break (after para 91). 6 notes. register within tolerance (em-dash 13.7/1k).
+
+### Checks (every chapter, all green)
+
+- Parity + verbatim quotation by construction (make_bilingual); verify_unit
+  re-check clean for all five. THREE parity misses caught by make_bilingual and
+  fixed by re-read against source: ch26 merged three seams (line 90 「平助が悩ん
+  でいる」 into 91; line 98 と洩らした dropped; lines 142-143 そのあと、酒になった /
+  席上、伊東はふと merged) restoring 163; ch27 dropped line 166 「なにがおかしい」
+  restoring 174; ch28 dropped line 50 になるしかしかたがない restoring 178.
+- check_numbers --noise: 0 unresolved all five. New noise rules (each commented,
+  never a real quantity): 三々五々, 三田尻 (ch24); 五月人形, 弥十郎, 忠三郎 (ch25);
+  三樹三郎 (ch26); 七子, 七五三之助, 二郎, 三村, 三田台町 (ch27). Real quantities
+  (koku, troop counts, forty-thousand/thousand-odd, dates, ages, the eighty
+  thousand hatamoto) all carried in the English word-forms. Two spelled-number
+  forms adjusted so the parser reads them ("a bare hundred-odd" -> "a hundred and
+  some"; "a good hundred" -> "a hundred or so"; decade band "thirties to fifties"
+  -> "thirty to fifty").
+- check_align, check_content: OK across all 28 units. Displacements caught and
+  fixed: ch24 para 5 dropped the letter's (松平容保) gloss, restored "(Matsudaira
+  Katamori's)"; ch24 para 61 rendered 福田理兵衛 to match the existing bare
+  理兵衛->"Rihei" row (Fukuda Rihei); ch25 para 54 needed the decided 旗本
+  ->"hatamoto"; ch28 paras 77/85 needed the decided 武州多摩->"Bushū Tama".
+- qc_entities: 0 misses. check_apparatus: 0 failures, 0 warnings.
+- check_register --ref: all five within tolerance of the frozen ch01 reference.
+- Tail verification against source: done explicitly for each chapter (rule 4);
+  the ch28 tail "Yamanami Keisuke deserted." verified against 山南敬助が脱走した。
+
+### Fact-checks (verdict stated in the note)
+
+- Kinmon / Hamaguri Gate Incident (ch25): the lunar date 元治元年7月19日 = 20 Aug
+  1864 corroborated (布陣 on the 18th, fighting before 4 a.m. on the 19th). Kijima
+  Matabee killed in battle (reversed his own spear); Kusaka Genzui and Terashima
+  Chūzaburō seppuku at the Takatsukasa mansion; Fukuhara Echigo wounded; Kunishi
+  Shinano escaped and was later made to die; Maki Izumi and party (17) seppuku on
+  Tennōzan on the 21st — all corroborated. The Kyoto fire is the historical
+  Dondon-yaki (~28,000 houses), corroborated; note states it.
+- Itō Kashitarō provenance (ch26-27): born Suzuki Daizō in Hitachi-Shizuku;
+  Shintō Munen-ryū at Mito then Hokushin Ittō-ryū under Itō Seiichi at Fukagawa
+  Sagachō; married in and took the dōjō on Seiichi's death; took the name
+  Kashitarō in the kinoe-ne (甲子) year, Genji 1; joined the Shinsengumi with
+  brother Suzuki Mikisaburō and the men Shinohara, Kanō (Washio), Hattori,
+  Utsumi, Nakanishi late 1864 — all corroborated. The Kōdai-ji split and the
+  1867 Aburanokōji killing foreshadowed in the note.
+- The secret French loan (ch27): the shogunate's approach to France (via
+  Léon Roches) for war funds and Westernization, which foundered — corroborated;
+  note states it.
+- The Kondō photograph (ch28): Ueno Hikoma, Nagasaki photographer trained under
+  Pompe van Meerdervoort; Matsumoto Ryōjun as Pompe's pupil, shogunal physician,
+  later Surgeon-General and baron; Hitotsubashi Yoshinobu's fondness for
+  photography — corroborated. Yamanami's desertion (2nd month Keiō 1) and forced
+  seppuku with Okita as second — corroborated; note foreshadows it.
+- (No Grok/Grokipedia sourced; a Grokipedia link surfaced in the Kinmon search
+  and was IGNORED per rule 5.)
+
+### Glossary rows added this batch: 39 (nested by section)
+
+- People (33): Matsudaira Sadaaki, Jinbō Kuranosuke, Maki Izumi-no-kami,
+  Fukuhara Echigo, Kijima Matabee, Kunishi Shinano, Fukuda Rihei (ch24); Takeda
+  Kanryūsai, Yamazaki Susumu, Makita Sagami-no-kami Hirotaka, Toda Uneme-no-shō
+  Ujiakira, Ohara Jinbee, Ōta Ichinoshin, Masuda Etchū, Kodama Minbu, Terashima
+  Chūzaburō, Tsubaki Yajūrō (ch25); Itō Kashitarō, Ogata Shuntarō, Suzuki
+  Mikisaburō (ch26); Shinohara Tainoshin, Kanō Michinosuke, Hattori Takeo, Sano
+  Shimenosuke, Nakanishi Noboru, Utsumi Jirō, Matsumae Izu-no-kami (ch27);
+  Hitotsubashi Yoshinobu, Ueno Hikoma, Matsumoto Ryōjun (ch28).
+- Places (11): the Tenryū-ji, the Hamaguri Gate, Tennōzan, Kurodani, Mitajiri
+  (ch24); the Gōō Shrine, the Sujikai Bridge, Fujinomori, the Takatsukasa
+  mansion (ch25); the Kōshō-ji (ch27).
+- Decided renderings kept verbatim: 旗本->"hatamoto", 武州多摩->"Bushū Tama",
+  京都守護職->"the Kyoto Protector", 所司代->"the Shoshidai", 見廻組->"the
+  Mimawarigumi", 総長->"general secretary", 公用方->"liaison office", 助勤
+  ->"jokin". 蒔田 read Makita and 外島 read Toshima per the glossary/furigana.
+
+### NOT re-noted (first-appearance discipline held)
+
+- Already noted earlier and left un-renoted here: koku (B01); the Kyoto Protector
+  / Shoshidai and Revere-the-Emperor-Expel-the-Barbarian (B03); hatamoto and
+  jokin/vice-commander/inspector ranks (B03-B04); the era-year form and Genji/
+  Keiō reign-names (earlier); the Tokaidō and Sanjō bridge (B03/B05); kinchō the
+  sword-oath is NEW this batch (ch26) and noted once; the Tengu Party / Mito
+  loyalism glossaried earlier, Takeda Kōunsai noted new (ch26); Kusaka Genzui,
+  the Ikedaya, the Code of the Corps all glossaried/noted earlier.
+
+### Digitization glitches / source oddities this batch
+
+- None of substance. The source stays clean commercial digital text through
+  ch24-ch28: no dittography, no stray U+200B lines, no doubled headings, no
+  mojibake. Expressive gikun furigana continue (e.g. 将軍→たいじゅ); treated as
+  semantic glosses, never romanized.
+- 蒔田相模守広孝 is furigana'd まきた (Makita), not the "Maita" one often sees in
+  English Shinsengumi sources; used the source's own reading, glossary note
+  records the variant. 外島機兵衛 furigana とじま but the glossary's B04 decision
+  "Toshima" kept for whole-book consistency (noted in the glossary tie-break).
