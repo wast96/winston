@@ -73,6 +73,18 @@
 # the 百 is not the number hundred — rendered "Paramount Ballroom".
 百乐门
 # --- The Postman: project entries ---
+# 老百姓 "ordinary people / common folk"; 百姓 is a lexical compound, the 百 not
+# the number hundred — rendered "an ordinary citizen".
+老百姓
+# 四个字 "the four characters" (of the place-name written on the page); 四 counts
+# glyphs, not a quantity — the English renders the name itself, no digit.
+四个字
+# 二话没说 "without another word / said nothing more"; 二话 ("a second word") is
+# idiomatic, not a count — rendered "said not another word".
+二话没说
+# 四乡八里 "the villages far and near / all the country around"; 四 and 八 are
+# idiomatic (four townships, eight li), not counts — rendered "the villages all around".
+四乡八里
 # 十字架 "crucifix / cross"; the 十 is the cross shape (ten-strokes), not the
 # number ten — rendered "crucifix / cross". Longest-literal-first: before 十字.
 十字架

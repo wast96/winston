@@ -258,6 +258,42 @@
       "pinyin": "Yuántián",
       "status": "decided",
       "note": "Mr. Harada (原田先生), the aged proprietor of the Japanese pawnshop on Fourth Avenue who keeps Qin Zhaokuan's sealed box against the day the ring appears. A fictional character; Japanese surname."
+    },
+    "潘汉年": {
+      "en": "Pan Hannian",
+      "pinyin": "Pān Hànnián",
+      "status": "attested",
+      "note": "Pan Hannian (1906&#8211;1977), the Communists&#8217; chief intelligence officer in Shanghai and a Deputy Mayor of the city after 1949; purged in 1955, died in prison in 1977, rehabilitated 1982. Historical."
+    },
+    "陈毅": {
+      "en": "Chen Yi",
+      "pinyin": "Chén Yì",
+      "status": "attested",
+      "note": "Chen Yi (1901&#8211;1972), PLA marshal, first mayor of Shanghai after 1949 and later foreign minister. Historical."
+    },
+    "罗瑞卿": {
+      "en": "Luo Ruiqing",
+      "pinyin": "Luó Ruìqīng",
+      "status": "attested",
+      "note": "Luo Ruiqing (1906&#8211;1978), a senior PLA general and the first Minister of Public Security of the People&#8217;s Republic. Historical."
+    },
+    "杨复纲": {
+      "en": "Yang Fugang",
+      "pinyin": "Yáng Fùgāng",
+      "status": "decided",
+      "note": "Mr. Pan&#8217;s true name, revealed after his death; a martyr killed near Suqian in 1942. A fictional character; pinyin."
+    },
+    "陈科长": {
+      "en": "Section Chief Chen",
+      "pinyin": "Chén",
+      "status": "decided",
+      "note": "The public-security section chief who interrogates and at last releases Su Lina and Zhongliang after 1949. A fictional character; surname romanized. Distinct from Chen Taining and from Chen Yi."
+    },
+    "尤可常": {
+      "en": "You Kechang",
+      "pinyin": "Yóu Kěcháng",
+      "status": "decided",
+      "note": "The Chinese name taken by the former Japanese agent Itō Kinji after the war, when he stays on as the post office doorman. A fictional character; pinyin."
     }
   },
   "organizations": {
@@ -470,6 +506,30 @@
       "pinyin": "Èrliùsì Lǚ",
       "status": "decided",
       "note": "The Nationalist brigade of the 88th Division in which Su Lina's husband, Zhou Chukang, serves at the front."
+    },
+    "圣玛丽公学院": {
+      "en": "St. Mary's Hall",
+      "pinyin": "Shèng Mǎlì Gōngxuéyuàn",
+      "status": "attested",
+      "note": "The elite Episcopal girls&#8217; school in Shanghai (properly 圣玛利亚女校, St. Mary&#8217;s Hall, so named 1881); Su Lina&#8217;s school. The source&#8217;s 圣玛丽公学院 is a non-standard form. Historical."
+    },
+    "招商局": {
+      "en": "China Merchants",
+      "pinyin": "Zhāoshāngjú",
+      "status": "attested",
+      "note": "The China Merchants Steam Navigation Company (轮船招商局, founded 1872), China&#8217;s first modern steamship line; its Huangpu warehouses are fought over in the taking of Shanghai. Historical."
+    },
+    "反战同盟": {
+      "en": "the anti-war league",
+      "pinyin": "Fǎnzhàn Tóngméng",
+      "status": "attested",
+      "note": "The Japanese People&#8217;s Anti-war Alliance (日本人民反战同盟, formed 1939 under Kaji Wataru from Japanese prisoners of war); Itō claims membership to explain his survival. Historical."
+    },
+    "四野": {
+      "en": "the Fourth Field Army",
+      "pinyin": "Sì Yě",
+      "status": "attested",
+      "note": "The Fourth Field Army (第四野战军) of the PLA, Lin Biao&#8217;s army grown out of the Northeast forces; so renamed in 1949. Historical."
     }
   },
   "places": {
@@ -754,6 +814,18 @@
       "pinyin": "Shíliùpù",
       "status": "attested",
       "note": "The old wharf district on the Huangpu in southern Shanghai (the source also prints the variant 十六浦). Site of the Longxin Warehouse where Chen Taining works."
+    },
+    "提篮桥": {
+      "en": "Tilanqiao Prison",
+      "pinyin": "Tílánqiáo",
+      "status": "attested",
+      "note": "Tilanqiao Prison (built 1901&#8211;03), known in English as Ward Road Gaol; after 1945 it held collaborators and Japanese war criminals. Historical."
+    },
+    "外白渡桥": {
+      "en": "the Waibaidu Bridge",
+      "pinyin": "Wàibáidù Qiáo",
+      "status": "attested",
+      "note": "The steel bridge (opened 1908) over Suzhou Creek at the Bund, known in English as the Garden Bridge. Historical."
     }
   },
   "terms": {
@@ -882,6 +954,12 @@
       "pinyin": "tàtàmǐ",
       "status": "attested",
       "note": "榻榻米, the Japanese straw-mat flooring, fitting the safe-house in the Japanese residents' quarter."
+    },
+    "士林布": {
+      "en": "shilin cloth",
+      "pinyin": "shìlínbù",
+      "status": "attested",
+      "note": "Cotton dyed with Indanthren, the German synthetic vat-dye prized for not fading; ubiquitous in 1930s&#8211;40s China. Historical."
     }
   }
 }

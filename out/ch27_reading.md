@@ -1,0 +1,37 @@
+## 13
+
+The Nationalist troops, routed from the Yangtze defense line, came pouring into Shanghai like a flood; yet nothing in the streets spoke of a great battle about to fall. It was more like the last carnival before the end of the world. Everyone seemed bent on spending the last note in his pockets, and everywhere men and women stood in line to snatch up what they could.
+
+Zhongliang brought Su Lina back to the house across from the tram depot, only to find it crammed with ten-odd people, young and old, men and women — all of them relatives the next-door neighbors had taken in, refugees from northern Jiangsu. They looked at Zhongliang without so much as shifting where they sat.
+
+Frowning, the neighbor told Zhongliang how it had gone. First the gendarmerie had sealed the house up; then it had been handed to some petty traitor who ran errands for the Japanese; and no sooner had the war been won and that traitor packed off to Tilanqiao Prison than a squad leader of the Loyal and Patriotic Army had moved in. The neighbor said he had bought the place off that squad leader for eighty silver dollars. As he spoke he sent his wife inside for the title deed, the land contract, and the receipts, and laid them out for Zhongliang one by one. At last the neighbor looked at Zhongliang, then at Su Lina, and said, “Tell you what — I'll clear out the box-room downstairs, and you can move in there for now.”
+
+Zhongliang said, “But this is my home.”
+
+“Haven't you seen how things stand out there?” The neighbor gave a little laugh. “Nobody even knows whose world this is anymore.”
+
+That evening Su Lina took Zhongliang's arm, and the two of them strolled the length of Nanjing Road all the way to the Bund. Like a pair of lovers in the first flush of it, they sat on a concrete bench by the Huangpu until nearly curfew, then rose and went back to the little room that had no electric light. In bed, still neither of them said a word. They lay in each other's arms with their eyes shut, and neither slept. In the dark of the room they listened all night to the city's thousand sounds.
+
+Two days later Zhongliang went to the Jing'an post office, and the first person he laid eyes on was none other than Itō Kinji. Itō was the office doorman now. He pushed his glasses up his nose and told Zhongliang, smiling, that he had changed his name — he went by You Kechang these days. Looking at that ever more gaunt and withered face, Zhongliang said, “You ought to be in a prisoner-of-war camp.”
+
+You Kechang was all smiles still. As far back as 1944, he said, he had been a member of the anti-war league. “I did do a little something for your country, after all — or how do you suppose you'd have let me off?” And with that, like any dutiful doorman, he led Zhongliang to the door of the postmaster's office, knocked, and made a deferential gesture of invitation.
+
+But when Zhongliang told the postmaster he wanted to come back and be a postman again, the postmaster stared at him in astonishment for a good while, then said, “By rights you ought to have a house and a car by now, and a man to attend you when you go out. You're a hero of the resistance.” Zhongliang smiled and said he was nothing of the kind; all he wanted now was work to feed a family. The postmaster nodded, let out a long breath, and said, “It seems I misjudged you.”
+
+The postmaster felt he had done Zhongliang something of a wrong, and at parting he walked him all the way to the front gate, unusually indulgent and full of feeling, telling him to come whenever he liked, any time at all — he needn't even lay in a bicycle. As long as one was a monk, the postmaster said, one might as well toll the bell for the day; no one knew how much longer the doors of this post office would stay open. Zhongliang smiled again and said that a letter from home is worth ten thousand in gold — someone would always have letters to send. He remembered the postmaster once saying that sometimes a single letter was a whole sky.
+
+Su Lina vanished on the eve of the People's Liberation Army's assault on the city.
+
+That morning she left the house not long after Zhongliang had gone to work. For several days running now, Su Lina had been lining up outside the rice shop, pressed in among the crowds fighting to buy. Yet look at her however you would, she was nothing like a woman worn down by the daily round of rice and salt, still less like a postman's wife.
+
+At dusk Zhongliang came home, lit the stove and cooked the meal, and still Su Lina had not returned; he sat at the table and waited through to the next dawn. When he had turned over in his mind every possible thing that might have happened, he set out to find his wife like a man gone mad. But after he had inquired at every police station, receiving station, refugee camp, and first-aid post in Shanghai, Zhongliang's search lost all direction. Day after day he drifted the streets like a ghost, dreaming even in his sleep that Su Lina would appear before him all at once, a faint smile on her face.
+
+The battle to liberate Shanghai went on a full fortnight, the gunfire never ceasing day or night, the streets everywhere strewn with the bloodied wounded and the troop-trucks packed with soldiers; still Zhongliang's searching feet did not stop. He threaded the streets and alleys like a panicked, harried deserter, until a People's Liberation Army rifle was pressed to his chest and he was ordered to put up his hands — and only then did Zhongliang see that his postman's uniform had long since gone so filthy there was no telling whether he was a postman or a Nationalist soldier. Pointing at the postal badge on his chest, he explained over and over: “I'm a postman, a postman who carries the letters, I'm your comrade.”
+
+At last a People's Liberation Army platoon leader made out what he was saying. He spread open a notebook, pointed to the words written there, the Waibaidu Bridge, and said, “If you're a comrade, take us here.”
+
+Zhongliang said not another word; gnawing at a steamed bun the platoon leader gave him, he became the army's guide. He led the men of that platoon in fighting all the way from the Waibaidu Bridge to the mail-boat wharf. The next day they took the China Merchants warehouse; but just as they were crossing Taiping Road, a bullet fired from a window opposite tore through his belly.
+
+Three days later Zhongliang woke in a bed at a People's Liberation Army field hospital, and in the dazzling flood of sunlight he saw Su Lina bending over him, her hand on his forehead. He tried to catch hold of that hand, but his body would not move. His mouth opened — and in the same moment he saw clearly that it was a young army nurse.
+
+The nurse straightened up and said, “Don't talk. Lie still.”

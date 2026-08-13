@@ -479,3 +479,133 @@ noise.txt entries added this batch (non-quantitative numerals; each commented):
 quantities never noised: thirteen-story, 3:15, forty-one, 1910, 1942, two/three/
 four/seven rounds, twenty years, the 264th Brigade, the 88th Division, etc. all
 rendered in the English.
+
+## Batch B05 — The Postman 12-15 + Afterword (ch26-ch30) — COMPLETES 邮差
+
+Branch consolidation: session started on stray branch
+claude/the-rebel-b05-11mrk0 (head identical to origin/claude/the-rebel, no
+stranded commits). Checked out claude/the-rebel, reset to origin, worked there;
+stray to be deleted at push. data/src was empty at session start (gitignored);
+re-ingested with scripts/ingest_epub.py (54 docs, 1 image, 118,277 chars).
+
+setup.sh: one checker-regression FAILURE reported, "hook stands down on template
+stub" — the documented FALSE failure (the test restores the template STUB
+HANDOFF and expects the kickoff_guard to stand down; our real HANDOFF carries a
+genuine kickoff, so the guard correctly enforces). Not a real defect; recorded
+per prior batches. epubcheck jar present (/tmp/epubcheck-5.1.0).
+
+Units translated (231 paragraphs total): ch26 (Postman 12) 50; ch27 (13) 18;
+ch28 (14) 33; ch29 (15) 41; ch30 (Afterword/后记) 2. Doubled heading line per
+file (skip=2) for ALL five, including ch30 (inspected: 后记 appears twice). No
+extractor-splits (every body line ends terminal). Source note markers `\[\d+\]`
+grepped in all five: none present (the source has carried none through the whole
+book). This COMPLETES The Postman (ch15-ch30); same novella and cast as B03/B04.
+
+Checks — ALL GREEN:
+- Parity + verbatim quotation: by construction via make_bilingual (skip=2 all
+  units); verify_unit parity clean 50/18/33/41/2.
+- Numbers (check_numbers --noise data/noise.txt): 0 unresolved all units. New
+  noise entries (non-quantitative numerals, each commented): 四乡八里 (idiom
+  "villages all around"), 四个字 ("the four characters" of a name), 二话没说
+  (idiom "not another word"), 老百姓 ("common folk", 百 not hundred). Real
+  quantities all rendered in the English (twenty-one; seven years; three days;
+  eighty silver dollars; 1936; 1937; 1942; 1944; ten days; two occasions; a
+  fortnight; half a month; three months; twenty years; ten years; the 88th
+  Division; the Fourth Field Army; etc.) — none noised.
+- check_align: OK all units (medians 4.25-4.51 en/han, no pair >2.2x).
+- check_content (--config review/content_config.json): all name occurrences in
+  the paired paragraph, all 30 units; 0 displaced. (Transient collision found &
+  fixed: a 布谷鸟->"Cuckoo" glossary row I added was a substring of the existing
+  signal 布谷鸟在歌唱 and retro-flagged ch20 para 5; dropped the row — the code
+  name "Cuckoo" reads fine in ch28/29 without a key.)
+- qc_entities: entity misses 0 all units.
+- check_register --ref reference/ch01.md: within tolerance for ch26-ch29
+  (dialogue-heavy chapters flagged "little dialogue - noisy", as expected). ch30
+  (Afterword) reads 0.0 contr/1k, flagged off-reference — EXPECTED and accepted
+  for an authorial afterword (an exempt register per references/register-drift.md);
+  the reflective coda was translated faithfully, not bent to the number.
+- TAIL verified against source for every unit (rule 4 corollary): ch26 p49-50
+  (the fire, the old couple's death, Xu-sao's farewell), ch27 p18, ch28 p33
+  (the Paramount/Zhongtong line), ch29 p41 ("I won't have you leave me alone in
+  this world"), ch30 p2 (the Qingming letters, the closing "languid and
+  indifferent").
+- apparatus_merge + check_apparatus: 0 failures / 0 warnings. build_reading_epub:
+  30 of 51 chapters, 202 notes (172 -> 202), 0 source notes. qa_epub PASS (65
+  files, 58 docs, 202 refs = 202 bodies = 202 backlinks, all links resolve).
+  epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos. Cover reused
+  byte-identical (data/figs/cover00144.jpeg, md5 84b0d189...c5fa).
+
+Footnotes added this batch: 30 (book total 172 -> 202). Every historical claim
+fact-checked against real scholarship (Wikipedia / Britannica / Baidu Baike /
+zdic / academic; NEVER an AI source), verdict stated in each note.
+  ch26 (9): Qingming + temple-fair procession (folk custom); Korean conscripts
+    in the Japanese army (vol. 1938, conscription Dec 1944); St. Mary's Hall
+    (圣玛利亚女校, 1881; source's 圣玛丽公学院 non-standard); Yuan Shikai
+    (1859-1916); 投笔从戎 / Ban Chao allusion; the Battle of West Hunan /
+    Xuefeng Mountains (Zhijiang, Apr-Jun 1945, last major battle); Nanhua
+    University (NO wartime referent — flagged as fictional/anachronistic);
+    baojia headman (保长/保甲); the silver dollar (大洋/银元).
+  ch27 (6): the 1949 Yangtze Crossing + fall of Shanghai (May 1949); Tilanqiao
+    Prison / Ward Road Gaol; the Japanese People's Anti-war Alliance (1939,
+    Kaji Wataru); 做一天和尚撞一天钟 proverb; the Waibaidu / Garden Bridge
+    (steel 1908); China Merchants Steam Navigation Co. (轮船招商局, 1872).
+  ch28 (5): the Five-Starred Red Flag (adopted 27 Sep, raised 1 Oct 1949; scene
+    = New Year 1950); the 绿帽子 "green hat"/cuckold pun; 士林布 / Indanthrene
+    "shilin" cloth; 首长 vs 长官 (the Communist vs Nationalist address); the
+    Soviet area (苏区) + Suqian.
+  ch29 (8): Pan Hannian (1906-1977; intelligence chief, Deputy Mayor, purged
+    1955, d. 1977, rehabilitated 1982 — the bitter irony of the appeal);
+    Chen Yi (marshal, first Shanghai mayor); Luo Ruiqing (first Minister of
+    Public Security); the first National Day (dates scene to autumn 1950);
+    neighborhood matchbox piece-work (early PRC); the 1945 US airlift of
+    Nationalist troops (incl. from India-Burma) to take the surrender; the
+    Battle of Siping (1946-48) + 起义 defection + the Fourth Field Army;
+    the Volunteer Army in Korea (Oct 1950) — the "first 副师长 killed" is the
+    NOVEL'S OWN CLAIM (uncorroborated; Hu Qianxiu, division chief of staff,
+    d. 20 Dec 1950 is the earliest documented senior death — stated in the note).
+  ch30 (2): the shaved head / Cultural Revolution resonance ("twenty years
+    later" ~1970; the yin-yang-head struggle-session shaving; stated as
+    strongly implied, not asserted); 蝇头小楷 "fly's-head" fine calligraphy.
+
+Glossary rows added this batch: 13 (book total 143 -> 156 after the +14/-1
+Cuckoo revert). People (6): Pan Hannian (潘汉年), Chen Yi (陈毅), Luo Ruiqing
+(罗瑞卿), Yang Fugang (杨复纲 = Mr. Pan's real name), Section Chief Chen (陈科长),
+You Kechang (尤可常 = Itō Kinji's postwar Chinese name). Organizations (4): St.
+Mary's Hall (圣玛丽公学院), China Merchants (招商局), the anti-war league (反战同盟),
+the Fourth Field Army (四野). Places (2): Tilanqiao Prison (提篮桥), the Waibaidu
+Bridge (外白渡桥). Terms (1): shilin cloth (士林布). Each row carries a category,
+an attestation status, and Mandarin pinyin of the source hanzi.
+
+Reused settled renderings (no new row): the Jing'an post office, Xietang
+(斜塘镇), Su Lina, Zhongliang, Xu-sao (徐嫂), Zhou San, Zhou Chukang, Chen
+Taining, Itō Kinji, Mr. Pan, Xiufen, Xu Delin, Father Brown, Father Kruger,
+Catfish (鲶鱼), the 88th Division, the Loyal and Patriotic Army (忠义救国军),
+the Volunteer Army (志愿军), the Third Field Army form (parallel to 四野),
+Three Castles (三炮台), shikumen (石库门), the Paramount Ballroom (百乐门), the
+Zhongtong (中统), Suzhou Creek, Nanjing/Changsha, the traitor (汉奸).
+
+NOT re-noted (first appearance earlier; book-wide ledger): the 88th Division
+(ch17; ch26); the Battle of Changsha (ch20; ch29 Zhou Chukang's eye wound);
+"a letter from home is worth ten thousand in gold" 家书抵万金 (ch17; ch27
+recurs); the Blue Sky White Sun badge / 中统 Zhongtong reveal (ch25; ch28
+Chen Taining's badge, ch28 Section Chief Chen's line); shikumen (ch24; ch29);
+Qingming (ch26; ch30 recurs); the Japanese military police / gendarmerie
+(ch19/ch22; ch27 宪兵队); No. 76, Wang Jingwei, the Paramount, cheongsam,
+rickshaw, reserve certificates, the Wang puppet regime (汪伪).
+
+Digitization glitches this batch: NONE observed. ch26-ch30 source is clean
+simplified-Chinese digital text; the only recurring quirk is the doubled
+heading line (skip=2), present in ch30 as well.
+
+Story now stands (The Postman COMPLETE): after the war Zhongliang and Su Lina
+marry in his mother's town of Xietang (Xu-sao and the old bamboo-worker die in
+the fire that destroys the town in the civil war); they return to Shanghai; the
+city is liberated (1949); Su Lina, gone back to buy rice, is seized by Chen
+Taining, tortured, condemned, then secretly spared by him at the last moment and
+released only after months of interrogation with her name unclearable. Zhongliang
+loses his fight to prove her innocence (his letters to Pan Hannian, Chen Yi, Luo
+Ruiqing go unanswered). Zhou Chukang returns once, a PLA deputy division
+commander, and dies later in Korea. In the Afterword: twenty years on (the
+Cultural Revolution), Su Lina, head shaved, drowns in Suzhou Creek; another ten
+years and Zhongliang retires, buries her ashes by the river at Xietang, and each
+Qingming burns her a letter in fine fly's-head script.
