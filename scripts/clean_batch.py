@@ -110,6 +110,32 @@ UNITS = {
                   394: "六 原是个魔鬼附身命中带煞的人"},
         "standalone": [3],     # 一 煽扬赤焰的叛国者皆曰可杀
     },
+    "ch09": {
+        "file": "10_index-split-000-0008.txt",
+        "title": "第四节 急功躁进铸成大错",
+        "drop": 2,             # running header + <h2> section title
+        # extractor splits (mid-phrase continuations). (89,90,91) is a THREE-
+        # fragment chain: "...事件的发生，" / "...还可以" / "使用...对付他。".
+        # The many ：-ended lines introduce a quote/example as a DELIBERATE
+        # separate <p> and are NOT merged. L54 ("且看石友三...下作行为") is a
+        # short colon-less lead-in <p>, kept whole (not merged into the dated
+        # L55). L164 ends with a stray opening 「 that belongs to L165's
+        # paragraph (a misplaced-bracket digitization glitch); the two stay
+        # separate <p> and the bracket is left where the source has it so raw
+        # characters are conserved.
+        "merges": [(30, 31), (89, 90), (90, 91), (127, 128), (161, 162)],
+        # 一 is standalone; 二 三 五 四 六 are glued to a preceding <p> tail.
+        # NOTE the SOURCE prints sections 四 and 五 OUT OF SEQUENCE: the <p>
+        # labelled 五 (L183) physically precedes the one labelled 四 (L242),
+        # confirmed by byte order in the source XHTML. Preserved verbatim in
+        # printed order and footnoted in the translation (rule 4).
+        "glued": {52: "二 枪击与毒杀两者之间的取舍",
+                  115: "三 过甚操切所造成的惨痛后果",
+                  183: "五 不敢面对现实作了一次边塞流亡",
+                  242: "四 处置失当步调与进退失据",
+                  282: "六 像石友三这种人自然不会有好下场"},
+        "standalone": [3],     # 一 争取到对方的亲信作为内应
+    },
 }
 
 
@@ -141,13 +167,18 @@ def build(cid, spec):
             verify_out.append(text)
             i += 1
             continue
-        # apply a merge starting at this line
+        # apply a merge starting at this line; follow the chain so a paragraph
+        # the extractor split into 3+ fragments (e.g. (89,90),(90,91)) is
+        # rejoined whole. A plain pair is just a chain of length one.
         if ln in merge_from:
-            partner = merge_from[ln]
-            ptext = raw[partner - 1].strip()
             verify_src.append(text)
-            verify_src.append(ptext)
-            text = text + ptext
+            cur = ln
+            while cur in merge_from:
+                partner = merge_from[cur]
+                ptext = raw[partner - 1].strip()
+                verify_src.append(ptext)
+                text = text + ptext
+                cur = partner
         else:
             verify_src.append(text)
         # split a glued trailing heading

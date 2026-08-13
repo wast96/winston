@@ -567,3 +567,119 @@ recur.
 - `data/noise.txt` — B04 block (idioms/names/places/elided-tens + the
   `(?<=五)两个房` lookbehind). Glossary rows added by hand into the sectioned
   file, idempotent + re-read-verified; notes merged via apparatus_merge as usual.
+
+## Batch B05 — ch09 (Part One, Section 4)
+
+**第四节 急功躁进铸成大错 → "Section 4. Impatience Breeds a Grave Blunder."** The
+Shi Yousan case of winter 1934: an over-hasty poisoning-and-shooting plot in the
+Tianjin Japanese concession that failed — the inside men Xian Hongxia and the
+cook old Chu were seized by the Japanese gendarmerie and lost; Shi Dachuan
+escaped but left in anger over Liu Zhaonan's embezzlement and cover-up; Chen fled
+to frontier exile at Guisui/Ulanhua, was jailed five months at the Juntong's
+Nanjing "Site B," then restored as Tianjin Station chief. Shi Yousan, shielded by
+the Japanese garrison commanders Tada Hayao and Tashiro Kan'ichirō, had his
+warrant cancelled and a government post given, only to be executed for rebellion
+early in the war. 332 body paragraphs; ratio 4.66 en/han.
+
+### Structural recovery (clean_batch.py, ch09 spec added)
+- drop 2 (running header + `<h2>`). Six sub-headings, space-style (一 …): 一
+  standalone; 二 三 五 四 六 glued to a preceding `<p>` tail.
+- **The source prints sections 四 and 五 OUT OF SEQUENCE** — the `<p>` labelled
+  五 (「不敢面对现实作了一次边塞流亡」) physically precedes the one labelled 四
+  (「处置失当步调与进退失据」), confirmed by byte order in the source XHTML. Preserved
+  verbatim in printed order and FOOTNOTED per rule 4 (the numbering note).
+- Five extractor-split merges, one a THREE-fragment chain (89→90→91); clean_batch's
+  merge logic extended to follow chains (backward-compatible with plain pairs).
+  The many ：-ended lines introduce quotes/examples as deliberate separate `<p>`,
+  not merged. L54 ("且看石友三…下作行为") is a colon-less lead-in `<p>`, kept whole.
+  L164 ends with a stray opening 「 belonging to L165 (misplaced-bracket glitch);
+  the two stay separate `<p>`, bracket left where the source has it (chars conserved).
+- `<p>` count 338 = body lines 3–340 (1:1). No images, no set-off formatting
+  (plain narrative, like ch06–ch08). Grep for note markers `\[\d+\]`: **none present.**
+
+### Checks (all green)
+- verify_unit.py ch09: parity 332↔332 OK; numbers **0 unresolved** (checked 332
+  pairs); anchors 0.
+- check_align.py: 332/332, median ratio **4.66 en/han**, no pair strays >2.2×.
+- check_structure.py: parity OK, anchors 0 unresolved, headings OK.
+- check_content.py: 162 anchors, 564 name occurrences, all in the paired paragraph.
+- qc_entities.py (reconstructed bilingual): **0 misses** (census 王文 x138, 先鸿霞
+  x101, 石友三 x80, 刘兆南 x50, 贺参谋 x24, …).
+- check_register.py --ref reference/B01_frozen.md: within tolerance. contr 0.3/1k,
+  em-dash 7.4/1k (ref 8.3), rhythm CV 0.57 (ref 0.60). "shall" 23% — deliberate
+  (Chen's formal narration; the note is informational).
+- Tail verified against source (rule 4 corollary): §6 close (zh 335–339), §5 close
+  (zh 239), §4 close (zh 280), §3 close (zh 177–179) — all faithful.
+- Once-per-book blind double-translation (check 7) and back-translation (check 8)
+  were done in B02; spot re-check only, as instructed.
+- Build: qa_epub.py PASS (57 files, 50 docs, 123 note refs/bodies/backlinks all
+  resolve; 9/43 chapters). **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings.**
+
+### Digitization glitches (rendered to plain sense; NOT footnoted — mechanical)
+- 韩复矩 → 韩复榘 Han Fuju (the general's name); rendered "Han Fuju".
+- 阎钖山 → 阎锡山 Yan Xishan (钖 a variant/mis-scan of 锡).
+- 坂垣征四郎 → 板垣征四郎 Itagaki Seishirō (坂 for 板, as in earlier batches).
+- 李怀章 (src 26, 大司务) vs 林怀章 (src 191, 厨子) — the 北平站 cook's surname given
+  two ways; same man, rendered "Li Huaizhang" / "Lin Huaizhang" as each passage prints.
+- 北平店 for 北平站 (src 26, 27); 天津店 for 天津站 (src 14) — 店 for 站.
+- 发征 for 发怔/发愣 (src 162, "as I stood dazed").
+- 去去摸 dittography (src 159, "to feel for the gun"); rendered once.
+- 满京 for 南京 (src 249, "Nanjing's reply telegram").
+- 铁丝纲 for 铁丝网 (barbed wire); 笫 for 第 throughout; 揷 for 插; 秏 for 耗;
+  兪 for 俞 (兪雪侬); 位以 for 畀以/委以 (src 337).
+- Variant/traditional glyphs (not glitches, rendered plainly): 櫈(=凳), 麕(=麇),
+  刼(=劫), 侬, 冑.
+
+### Numeric-invariant handling (data/noise.txt, B05 block; check_numbers 0 unresolved)
+Republican years carried as Gregorian (checker auto-excuses via +1911). Real
+quantities carried in the English (rent 40 yuan; the two 2000-dollar sums; 500;
+160; 150 li; five months seven days; 70-odd days; prisoner No. 162; the Type 38;
+the 29th Army; clock times spelled — "eight forty-five"; 二人/两租界 made explicit
+"the two [named]"/"those two"). Noised (idiom/name/place/artifact): 三益成, 望九,
+三轮车, 土肥原贤二, 三数, 十足, 零下, 三天两头, 两口, 千叮万嘱, 三刻, 百无聊赖,
+王八蛋, 二字, 笫二天, 三更半夜.
+
+### Notes ledger (9 this batch; 123 cumulative)
+First-appearance discipline observed. **NOT re-noted** (already noted in
+B01–B04, per those ledgers): Shi Yousan, the Japanese concession, the Mauser
+"box-cannon", the Green Gang and "opening the incense hall", the Tanggu Truce,
+the "sanction" euphemism, the Juntong / Lixingshe / Renaissance Society, the Blue
+Shirt Society, the Republican-calendar convention, Dai Li, Zheng Jiemin, Feng
+Yuxiang, Song Zheyuan, the Kwantung Army, Manchukuo, Yin Rugeng and the East
+Hebei puppet government, Itagaki Seishirō, the yuan, Whampoa / the Military
+Academy, Rehe, the War of Resistance. New notes cover: (1) the source's
+out-of-sequence section numbering (五 before 四) — editorial/faithfulness note;
+(2) He Yingqin / "Minister He" (no prior footnote existed for him despite the B04
+list; this is his first note); (3) the 1930 Yan–Feng Revolt / Central Plains War;
+(4) Doihara Kenji; (5) the kang (heated brick bed); (6) the "nine-nines" of
+winter (数九); (7) Guisui / Suiyuan frontier; (8) the Green Gang generational
+rank (通字辈 "Tong" generation); (9) the 1935 North China Autonomy Movement.
+
+### Glossary rows added (72; principals unchanged at 6)
+People (29 new): 韩复矩 Han Fuju, 刘郁芬 Liu Yufen, 王树常 Wang Shuchang, 刘翼飞
+Liu Yifei, 李培基 Li Peiji, 孙殿英 Sun Dianying, 庞炳勋 Pang Bingxun, 李际春 Li
+Jichun, 白坚武 Bai Jianwu, 土肥原贤二 Doihara Kenji, 阎锡山 Yan Xishan, 贺参谋 Staff
+Officer He, 刘兆南 Liu Zhaonan, 王云孙 Wang Yunsun, 兪雪侬 Yu Xuenong, 侯子川 Hou
+Zichuan, 刘乙光 Liu Yiguang, 连谋 Lian Mou (style Liangshun), 张毅夫 Zhang Yifu,
+高荣 Gao Rong, 甘团长 Colonel Gan, 王锐铮 Wang Ruizheng, 张作兴 Zhang Zuoxing, 江田
+Jiang Tian, 江宜清 Jiang Yiqing, 江汰清 Jiang Taiqing, 彭雅萝 Peng Yaluo, 陈恭治
+Chen Gongzhi (Chen's elder brother), 周仁风 Zhou Renfeng (Chen's cover-name).
+(何应钦, 于学忠, 张学良, 张璧, 王平一, 张炎元, 杨英, 毛万里 already present.)
+Places (33): 卧佛寺街, 秋田街, 旭街, 海光寺, 顺德, 滦县, 新民, 锦州, 沈阳兵工厂,
+按院胡同, 德元成, 弓弦胡同, 米市大街, 光陆电影院, 西直门, 平绥路, 归绥 Guisui,
+利源增, 乌兰华 Ulanhua, 辟才胡同, 花园饭店, 羊皮巷, 鸡鹅巷, 老虎桥, 安乐园, 中央饭店,
+津浦路, 鸡泽县, 西山疗养院, 阳明山, 大慈寺, 黄寺, 安定门. Organizations (8): 华北
+自治运动, 便衣队, 定武军, 南昌行营调查课, 世界日报, 二十九军, 华北政务委员会, 冀北
+边区保安司令. Terms (2): 督察 "inspector", 三八式 "the Type 38". Every row carries
+a pinyin field (the checker requires it). Obscure operatives/private persons and
+minor establishments marked `provisional`; historical figures `attested`. Feed
+the historical names (韩复榘, 刘郁芬, 王树常, 李培基, 孙殿英, 庞炳勋, 李际春, 白坚武,
+阎锡山) to authority.json on completion; 土肥原贤二/坂垣征四郎 Japanese readings
+provisional — verify on recurrence.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch09 spec added; merge logic now follows CHAINS
+  (a `<p>` split into 3+ fragments rejoined whole), backward-compatible with the
+  earlier pairwise specs (ch01–ch08 output unchanged).
+- `data/noise.txt` — B05 block (see above). Glossary rows added by hand into the
+  sectioned file, idempotent + re-read-verified; notes merged via apparatus_merge.py.

@@ -191,3 +191,42 @@
 # because the auto-guard would otherwise refuse to fire after a numeral (五).
 # Not a dropped quantity — both rooms are named in the English.
 (?<=五)两个房
+#
+# --- B05 (ch09) entries ---
+#
+# Store name 三益成 (the Sanyicheng grain store); the 三 is part of the name.
+三益成
+# Age idiom 望九(之年) "approaching ninety" (in one's late eighties); the 九 is
+# not the count 9. English "nearing his ninetieth year".
+望九
+# Lexical compound 三轮车 "pedicab / three-wheeler"; the 三 is not the count 3.
+三轮车
+# Japanese name 土肥原贤二 (Doihara Kenji); the 二 in 贤二 is part of the name.
+土肥原贤二
+# Approximate 三数(佣人) "several (servants)"; the 三 is not the count 3.
+三数
+# Idiom 信心十足 / 十足 "full of confidence"; the 十 is not the count 10.
+十足
+# 零下(廿度) "below zero / minus"; the 零 marks below-freezing, not the numeral 0.
+零下
+# Idiom 三天两头 "every other day / time and again"; the 三 and 两 are not counts.
+三天两头
+# 抽两口 "draw a couple of pipes (of opium)"; the 两 is not the count 2.
+两口
+# Idiom 千叮万嘱 "with a thousand chargings and myriad cautions"; 万 is not 10000.
+千叮万嘱
+# Clock 八点三刻 "8:45"; 三刻 = three quarter-hours (the :45). English carries the
+# hour ("eight forty-five"); the 三 of 三刻 is not the count 3.
+三刻
+# Idiom 百无聊赖 "utterly bored, at a loose end"; the 百 is not the count 100.
+百无聊赖
+# Coarse epithet 王八蛋 "bastard / son of a bitch"; the 八 is not the count 8.
+王八蛋
+# Meta-linguistic count 朋友二字 "the two words 'friend'"; counts the characters of
+# a term under discussion, not a real quantity (cf. B02 两个字). English keeps the word.
+二字
+# 笫二天 "the next day" — the source prints the variant 笫 for 第, so the built-in
+# 第二天 rule misses it; a next-day reference, not the count 2. English "the next day".
+笫二天
+# Idiom 三更半夜 "the dead of night" (三更 = the third night-watch); not the count 3.
+三更半夜
