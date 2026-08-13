@@ -150,6 +150,90 @@
       "pinyin": "Hú Zhìmíng",
       "status": "attested",
       "note": "Historical (1890–1969); Vietnamese revolutionary, later president of North Vietnam. Standard English form."
+    },
+    "徐德林": {
+      "en": "Xu Delin",
+      "pinyin": "Xú Délín",
+      "status": "decided",
+      "note": "A postman at the Jing'an office and a Communist courier, tortured to death by the Japanese; Zhongliang's father. A fictional character; pinyin."
+    },
+    "仲良": {
+      "en": "Zhongliang",
+      "pinyin": "Zhòngliáng",
+      "status": "decided",
+      "note": "Xu Zhongliang (徐仲良), the postman's son and the story's protagonist. The given name pairs 仲 (“second-born”) with 良 (“good, upright”). A fictional character; pinyin."
+    },
+    "徐嫂": {
+      "en": "Xu-sao",
+      "pinyin": "Xú-sǎo",
+      "status": "decided",
+      "note": "Xu Delin's wife. 嫂 (sao), literally “elder brother's wife,” is a familiar address for a married woman of one's own generation, here roughly “Mrs. Xu”; the form is kept. A fictional character; pinyin."
+    },
+    "周三": {
+      "en": "Zhou San",
+      "pinyin": "Zhōu Sān",
+      "status": "decided",
+      "note": "Doorman of the Jing'an post office and Zhongliang's Communist controller. 周三 means “Zhou Three,” a plain number-name of the sort given a laborer's son. A fictional character; pinyin."
+    },
+    "苏丽娜": {
+      "en": "Su Lina",
+      "pinyin": "Sū Lìnà",
+      "status": "decided",
+      "note": "A Communist agent married in cover to an army officer, later a dance-hostess. The modern-sounding given name 丽娜 (“Lina”) suits her cosmopolitan cover. A fictional character; pinyin."
+    },
+    "潘先生": {
+      "en": "Mr. Pan",
+      "pinyin": "Pān",
+      "status": "decided",
+      "note": "The Communist handler over Zhou San and Su Lina in Shanghai. A fictional character; surname romanized. Distinct from Old Pan of The Rebel."
+    },
+    "周楚康": {
+      "en": "Zhou Chukang",
+      "pinyin": "Zhōu Chǔkāng",
+      "status": "decided",
+      "note": "Su Lina's husband, a lieutenant colonel of the National Revolutionary Army who returns to the front. A fictional character; pinyin."
+    },
+    "秦兆宽": {
+      "en": "Qin Zhaokuan",
+      "pinyin": "Qín Zhàokuān",
+      "status": "decided",
+      "note": "A collaborator with the Wang Jingwei regime, general manager of the Dahua Trading Company and a Japanese liaison; Su Lina's target. A fictional character; pinyin."
+    },
+    "仲村信夫": {
+      "en": "Nakamura Nobuo",
+      "pinyin": "Nakamura Nobuo",
+      "status": "decided",
+      "note": "A Japanese intelligence officer in Shanghai. A fictional character; Japanese reading of 仲村信夫."
+    },
+    "秀芬": {
+      "en": "Xiufen",
+      "pinyin": "Xiùfēn",
+      "status": "decided",
+      "note": "The widow of a killed guerrilla commissar, brought by Zhou San to keep house for Zhongliang. A fictional character; pinyin."
+    },
+    "布朗神父": {
+      "en": "Father Brown",
+      "pinyin": "Bùlǎng",
+      "status": "decided",
+      "note": "The English priest of St. Thérèse's Church. A fictional character; 布朗 is the source's transliteration of “Brown.”"
+    },
+    "俞鸿均": {
+      "en": "Yu Hongjun",
+      "pinyin": "Yú Hóngjūn",
+      "status": "attested",
+      "note": "Yu Hongjun (俞鸿钧, 1898–1960; O.K. Yui), mayor of Shanghai at the time of the 1937 Japanese invasion. Historical. The source prints the name 俞鸿均; the attested figure is 俞鸿钧."
+    },
+    "陈素农": {
+      "en": "Chen Sunong",
+      "pinyin": "Chén Sùnóng",
+      "status": "attested",
+      "note": "Chen Sunong (1900–1983), a Whampoa graduate recorded as chief of staff of the 88th Division. A real officer."
+    },
+    "黄庭坚": {
+      "en": "Huang Tingjian",
+      "pinyin": "Huáng Tíngjiān",
+      "status": "attested",
+      "note": "Huang Tingjian (1045–1105), Song-dynasty poet and one of the great masters of calligraphy. Historical."
     }
   },
   "organizations": {
@@ -314,6 +398,42 @@
       "pinyin": "Zhìyuàn Jūn",
       "status": "attested",
       "note": "The Chinese People's Volunteer Army sent to fight in the Korean War. Attested English name."
+    },
+    "大华洋行": {
+      "en": "the Dahua Trading Company",
+      "pinyin": "Dàhuá",
+      "status": "decided",
+      "note": "Qin Zhaokuan's front company. A fictional firm; 洋行 rendered “Trading Company.”"
+    },
+    "八十八师": {
+      "en": "the 88th Division",
+      "pinyin": "Bāshíbā Shī",
+      "status": "attested",
+      "note": "A German-trained elite infantry division of the National Revolutionary Army, sent to the 1937 Battle of Shanghai. Historical."
+    },
+    "松江支队": {
+      "en": "the Songjiang detachment",
+      "pinyin": "Sōngjiāng Zhīduì",
+      "status": "provisional",
+      "note": "A Communist-led guerrilla unit near Shanghai; Xiufen's husband was its political commissar. Fictional or semi-historical within the story."
+    },
+    "东京帝国大学": {
+      "en": "Tokyo Imperial University",
+      "pinyin": "Dōngjīng Dìguó Dàxué",
+      "status": "attested",
+      "note": "The pre-war name of the University of Tokyo. Historical."
+    },
+    "汪伪政府": {
+      "en": "the Wang Jingwei puppet government",
+      "pinyin": "Wāngwěi Zhèngfǔ",
+      "status": "attested",
+      "note": "The Japanese-sponsored Reorganized National Government under Wang Jingwei (established Nanjing, 1940). Historical; 汪伪 = “Wang puppet.”"
+    },
+    "上海泰晤士报": {
+      "en": "the Shanghai Times",
+      "pinyin": "Shànghǎi Tàiwùshìbào",
+      "status": "attested",
+      "note": "An English-language daily of treaty-port Shanghai. Historical."
     }
   },
   "places": {
@@ -484,6 +604,84 @@
       "pinyin": "Nánníng",
       "status": "attested",
       "note": "The capital of Guangxi, in the region where Ho Chi Minh was jailed by the Nationalists. Attested pinyin."
+    },
+    "静安邮政所": {
+      "en": "the Jing'an post office",
+      "pinyin": "Jìng'ān Yóuzhèngsuǒ",
+      "status": "decided",
+      "note": "The neighborhood post office where Xu Delin and Zhongliang serve. Fictional workplace; named for the Jing'an district."
+    },
+    "小德肋撒堂": {
+      "en": "St. Thérèse's Church",
+      "pinyin": "Xiǎo Délèsā Táng",
+      "status": "attested",
+      "note": "A real Catholic church dedicated to St. Thérèse of Lisieux. 德肋撒 is the Catholic transliteration of Thérèse/Teresa. Historical."
+    },
+    "万国殡仪馆": {
+      "en": "the International Funeral Parlor",
+      "pinyin": "Wànguó Bìnyíguǎn",
+      "status": "attested",
+      "note": "The best-known funeral home of Republican Shanghai (opened 1926). Historical."
+    },
+    "四明公寓": {
+      "en": "the Siming Apartments",
+      "pinyin": "Sìmíng Gōngyù",
+      "status": "attested",
+      "note": "A 1932 lane compound in the French Concession, built as staff housing for the Siming Bank (四明邨/四明公寓). Historical."
+    },
+    "虹口": {
+      "en": "Hongkou",
+      "pinyin": "Hóngkǒu",
+      "status": "attested",
+      "note": "The Shanghai district north of Suzhou Creek, center of the Japanese settlement and its military and intelligence presence. Historical."
+    },
+    "四马路": {
+      "en": "Fourth Avenue",
+      "pinyin": "Sìmǎlù",
+      "status": "decided",
+      "note": "Sima Road (today Fuzhou Road), the Republican-era street of brothels, teahouses, and publishers; the calque “Fourth Avenue” follows 四马路 (“fourth horse road”)."
+    },
+    "松江": {
+      "en": "Songjiang",
+      "pinyin": "Sōngjiāng",
+      "status": "attested",
+      "note": "A county town southwest of Shanghai. Historical."
+    },
+    "东亚旅馆": {
+      "en": "the East Asia Hotel",
+      "pinyin": "Dōngyà Lǚguǎn",
+      "status": "provisional",
+      "note": "A Shanghai hotel named in the story. Rendered by sense."
+    },
+    "泰顺茶庄": {
+      "en": "the Taishun tea shop",
+      "pinyin": "Tàishùn Cházhuāng",
+      "status": "provisional",
+      "note": "A tea shop used as a courier channel. A fictional front; pinyin."
+    },
+    "海关钟楼": {
+      "en": "the Customs House clock tower",
+      "pinyin": "Hǎiguān Zhōnglóu",
+      "status": "attested",
+      "note": "The tower of the Maritime Customs House on the Bund, its Westminster-chiming clock (“Big Ching”) completed 1927. Historical."
+    },
+    "长沙": {
+      "en": "Changsha",
+      "pinyin": "Chángshā",
+      "status": "attested",
+      "note": "The capital of Hunan, site of the Battles of Changsha (1939–1944) in the war against Japan. Historical."
+    },
+    "南京": {
+      "en": "Nanjing",
+      "pinyin": "Nánjīng",
+      "status": "attested",
+      "note": "The Nationalist capital until 1937; later seat of the Wang Jingwei regime. Historical."
+    },
+    "武汉": {
+      "en": "Wuhan",
+      "pinyin": "Wǔhàn",
+      "status": "attested",
+      "note": "The tri-city on the middle Yangtze, provisional Nationalist center after the fall of Nanjing. Historical."
     }
   },
   "terms": {
@@ -552,6 +750,24 @@
       "pinyin": "shízhǐ",
       "status": "decided",
       "note": "Old Pan's code name; literally the index finger (the 'eating finger'). Rendered by sense."
+    },
+    "布谷鸟在歌唱": {
+      "en": "the cuckoo is singing",
+      "pinyin": "bùgǔniǎo zài gēchàng",
+      "status": "decided",
+      "note": "A recognition signal Su Lina passes up the line. The story's own tradecraft."
+    },
+    "舞林皇后": {
+      "en": "queen of the dance",
+      "pinyin": "wǔlín huánghòu",
+      "status": "decided",
+      "note": "“Queen of the Dance World,” the title given the top dance-hostess, often by charity ballot."
+    },
+    "人丹": {
+      "en": "Jintan",
+      "pinyin": "réndān",
+      "status": "decided",
+      "note": "Small refreshing medicinal pellets; 人丹 is the Chinese brand answering the Japanese Jintan (仁丹)."
     }
   }
 }

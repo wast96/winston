@@ -1,0 +1,71 @@
+## 2
+
+On New Year's Eve, Xu-sao took the white flower from her hair, lifted a pot of warmed wine, and filled the three cups on the table one by one. Then she sat down and stared a long while at the cup before her before she picked it up, took a small sip, slowly tipped her head back, and drained it off in one draught, like a man.
+
+Zhongliang watched her with startled eyes. For as long as he could remember his mother had never touched a drop, no more than his father had.
+
+Xu-sao set down the cup and said, "Today is your father's last seventh."
+
+Zhongliang said nothing. His gaze moved from her face to the wall, where his father's memorial portrait hung. In the shadow thrown by the electric lamp, Xu Delin wore the smile of a film star.
+
+Xu-sao followed her son's eyes to the husband in the photograph and said, "I want to go back to the old home. Come back with me."
+
+Zhongliang turned his head and caught an expression cross his mother's face and vanish.
+
+"I can't keep you fed here." As she spoke, Xu-sao took up the wine pot and filled her own cup again, but she did not touch it. She lowered her head and, as though to the yellow wine in the cup, began to speak of the little town Zhongliang had never seen, the home of her girlhood: there was a river there, and a bridge over the river, and her family's house stood by the bridge under a ginkgo tree, with a bamboo-ware shop next door. "I came to Shanghai with your father at eighteen," Xu-sao said. "I thought I'd never go back as long as I lived."
+
+Zhongliang had never seen his mother run on so. Abruptly he said, "What would I do there?"
+
+"Learn a trade." Xu-sao raised her head at last and looked at her son, hesitated, then went on, "I've found you a master. A bamboo-weaver."
+
+"I want to study," Zhongliang said. "Two more years and I graduate."
+
+"You have to feed yourself," said Xu-sao.
+
+Zhongliang fell silent. Again he saw some subtle shift pass across his mother's face.
+
+After a long moment Xu-sao sighed and said, "You've grown up. You have to know better now."
+
+The whole evening Zhongliang did not say another word. He curled into the quilt in the attic and listened to the cold wind scraping along the roof, and in the wind, from far off, the sound of firecracker after firecracker.
+
+The next day, no sooner had Zhongliang got up than a man in a long gown and a felt hat knocked and came in. A faint smile hung on his face; a box of pastries in one hand, he lifted off his hat with the other, stood in the room and bowed politely to Xu-sao, then nodded to Zhongliang and said mildly, "Zhongliang, is it?"
+
+"Who are you?" said Xu-sao.
+
+"I'm a friend of old Xu's. My name is Pan." With that, Mr. Pan set the pastries and his hat together on the table, went to the memorial portrait, and made three deep bows; then he turned slowly, the smile gone from his face, and said, "I came to look in on you, and to wish you a good New Year."
+
+"But we don't know you," said Xu-sao.
+
+Mr. Pan sighed softly and said, "The ones you know aren't always the true friends." He drew a paper packet from his pocket and laid it on the table, looked at Zhongliang, and went on, "This is next term's tuition. For your father's sake, study hard."
+
+Zhongliang did not move. On the middle finger of Mr. Pan's right hand he saw a faint stain of ink, and thought the man must be a schoolteacher, or an editor at some newspaper. Only a man who holds a pen every day carries such a mark between his fingers. Zhongliang did not believe his father had had a friend like this. He said, "I don't want your money."
+
+"Why not?" Mr. Pan asked.
+
+"Why do you want to give me money?" Zhongliang shot back.
+
+"Because you need it." Mr. Pan sat down on a stool, thought a good while, then lifted his face to the mother and son before him and said that the man who had killed old Xu was the Japanese; he had died inside the Japanese secret-service station in Hongkou. Mr. Pan said too that old Xu had been savagely tortured before he died, that he had bitten off his own tongue for fear he might say what he must not say. Mother and son stood stunned, staring at him even after he had finished. Mr. Pan waited, and when neither of them spoke, said, "That is the truth of it. You have a right to know the truth."
+
+That said, and still no stir from the two of them, he took his hat from the table and rose to go.
+
+Zhongliang said suddenly, "He was only a postman. What could he have known that was worth more than his life?"
+
+"He was a postman." Mr. Pan turned back and said, "He was also a Chinese who did not want to be the slave of a conquered country."
+
+Xu-sao went down at the Shiliupu docks and took a cargo boat back to the old home. A plain wedding was waiting for her there. She was to marry the bamboo-weaver and become stepmother to his two daughters. Before she left, Xu-sao thought a long time and decided after all to change into the new padded jacket she had made. She stood in the doorway looking back at her son and pleaded, "See your mother off."
+
+Zhongliang sat unmoved at the Eight Immortals table, practicing calligraphy on a spread-out newspaper.
+
+"Then your mother's going. Your mother will come to see you." Xu-sao finished, picked up the two bundles from the floor, and still could not set her heart at rest. "Zhongliang," she said, "study hard. Don't be like your father."
+
+Zhongliang did not so much as move an eyelid; stroke by stroke he wrote on, careful and intent. Only when the newspaper was covered close with characters did he set down the brush at last, pull open the door, and walk out.
+
+That day Zhongliang walked the streets from morning to night. He went up one lane and down another, treading every street his father had delivered to in life, like a postman himself, until he came to the gatehouse of the Jing'an post office.
+
+It was nightfall by now. Zhongliang stood in that dim room, head bowed, and said to Zhou San, "I'm begging you. You said I could come to you if ever I needed to."
+
+Zhou San, a rice bowl raised in one hand, said, "You're cut out for study. Don't throw yourself away."
+
+Zhongliang said nothing, only kept his head down and stood stubbornly before him.
+
+After a moment's deadlock Zhou San sighed, scraped the last grains of rice into his mouth, chewed them over and over, and said thickly, "You'll regret it." Zhongliang shook his head and said, "There's nothing to regret."

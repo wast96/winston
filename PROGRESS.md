@@ -277,3 +277,103 @@ Digitization glitches (rule: render to sense, list here, never footnote a
 mechanical typo): 十六浦 for 十六铺 (Shiliupu docks) in ch10 — rendered
 "Shiliupu", noise entry added. No other glitches seen in ch08-ch14; the source
 text is clean.
+
+## Batch B03 — The Postman 1-6 (ch15-ch20)
+
+Opened the second novella, 邮差 (The Postman): a separate story with its own
+cast (none of The Rebel's characters carry over). Translated ch15-ch20 end to
+end from data/src/18_part0016.txt .. 23_part0021.txt. Body-line counts:
+ch15 22, ch16 35, ch17 45, ch18 27, ch19 43, ch20 61 (231 paragraphs).
+make_bilingual skip=2 (doubled heading line per file). No extractor-split lines
+(every body line ends in terminal punctuation). ch01 of The Rebel remains the
+frozen register reference (not re-frozen).
+
+Source note markers: grepped `\[\d+\]` in all six files — none present.
+
+Checks (all green):
+- verify_unit (parity + numbers --noise data/noise.txt + anchors): all six
+  clean, 0 unresolved. Parity machine-enforced by make_bilingual.
+- check_align: all six OK, no pair strays >2.2x from median (medians 3.83-4.40).
+- check_content --config review/content_config.json: 2 displacements found and
+  fixed (ch15 p13 "St. Thérèse's" -> "St. Thérèse's Church"; ch17 p38 a bare
+  pronoun re-anchored to "Su Lina"); re-run all six clean, every name in the
+  paired paragraph.
+- qc_entities: 0 misses on all six.
+- check_register --ref reference/ch01.md: all six within tolerance. (Dialogue-
+  heavy ch16 runs high on contractions, as intended by STYLE for natural speech.)
+- Tail verification against source: final paragraphs of all six checked.
+- check_apparatus: 0 failures, 0 warnings.
+- Build: qa_epub PASS (51 docs, 991 paras, 150 note refs/bodies/backlinks all
+  resolve, 65 files). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+  Cover kept byte-identical (data/figs/cover00144.jpeg). 20 of 51 chapters now
+  translated.
+
+Notes: 39 added (book total 111 -> 150). ch15 10, ch16 4, ch17 9, ch18 3,
+ch19 6, ch20 7. Front-loaded on the novella opener, tapering. Every historical
+claim fact-checked against Wikipedia / Baidu Baike / academic sources (never an
+AI source). Coverage: history/institutions (88th Division, Naval Landing Force,
+Kempeitai vs Tokkō, Wang Jingwei as Foreign Minister 1935, Sikh SMP constables,
+Shanghai's Jewish refugees), people (Yu Hongjun, Chen Sunong, Huang Tingjian),
+places (St. Thérèse's Church, International Funeral Parlor, Siming Apartments /
+Rue Ratard, Hongkou, Fourth Avenue/Sima Road, Customs House clock tower),
+money/measures (catty 斤, tael 两), material culture (Jintan 人丹, Biluochun,
+Lu Gao Jian sauced duck, Eight Immortals table, French plane trees, xiangqi
+chariot), custom (the last seventh 断七, mouth-coin, concubine 姨太太), and the
+nuances lost in translation (idioms/allusions given with the hanzi and the
+literal image: 家书抵万金 = Du Fu's 春望; 野鸡 "wild pheasant" = streetwalker;
+开天窗/种荷花 gang slang; 见蛇必发 snake-omen; 亡国奴 "slave of a conquered
+country"; 水门汀 = pidgin "cement"; 吴侬软语 the soft Wu speech).
+
+Verdicts stated in the notes. Two flagged as not fully corroborated: 开天窗 as a
+skull-hole execution (uncorroborated in reference works — attested only in other
+senses; given as the neighbors' talk); 种荷花 (corroborated only at the level of
+popular gang-history writing, marked as underworld usage). One source-fact
+discrepancy kept visible and footnoted: the 88th Division "shattered at the
+Battle of Changsha, 20,000 to under 800" conflates the historical 1937 Sihang
+Warehouse "Eight Hundred Heroes" of the 88th (at Shanghai, not Changsha);
+rendered as printed, discrepancy noted. One source error of fact kept visible
+and footnoted: Fortinbras called 瑞典王子 "the Swedish prince" (he is the prince
+of Norway in Hamlet).
+
+Glossary: 36 rows added (book total 88 -> 124). People (14): Xu Delin, Zhongliang
+(仲良), Xu-sao (徐嫂), Zhou San, Su Lina, Mr. Pan, Zhou Chukang, Qin Zhaokuan,
+Nakamura Nobuo, Xiufen, Father Brown, Yu Hongjun (attested; source's 俞鸿均
+corrected to 俞鸿钧), Chen Sunong (attested), Huang Tingjian (attested).
+Organizations (6): the Dahua Trading Company, the 88th Division (attested), the
+Songjiang detachment (provisional), Tokyo Imperial University (attested), the
+Wang Jingwei puppet government (attested), the Shanghai Times (attested).
+Places (13): the Jing'an post office, St. Thérèse's Church, the International
+Funeral Parlor, the Siming Apartments, Hongkou, Fourth Avenue, Songjiang, the
+East Asia Hotel (provisional), the Taishun tea shop (provisional), the Customs
+House clock tower, Changsha, Nanjing, Wuhan. Terms (3): the cuckoo is singing
+(code signal), queen of the dance (舞林皇后), Jintan (人丹). Reused from
+authority.json / B01-B02: 巨籁达路 Rue Ratard, 静安寺 the Jing'an Temple,
+苏州河 Suzhou Creek, 愚园路 Yuyuan Road, 百乐门 the Paramount, 特高课 the Tokkō,
+极司菲尔路七十六号 No. 76 Jessfield Road, 汪精卫 Wang Jingwei, 良友 The Young
+Companion, 旗袍 cheongsam, 黄包车 rickshaw.
+
+NOT re-noted (first appearance was earlier in the book; book-wide ledger): the
+Battle of Shanghai / 淞沪会战 (ch03), No. 76 Jessfield Road (ch01), the Tokkō /
+特高课 (ch07), the Paramount / 百乐门 (ch12), Wang Jingwei the man (ch01;
+the 1935 Foreign-Minister claim IS newly noted as a distinct verified fact),
+Shiliupu / 十六铺 docks (ch10; digitization glitch, handled by noise).
+cheongsam and rickshaw carry no footnote (common English words; glossary/
+authority only), consistent with B01-B02.
+
+Digitization glitches (render to sense, list here, never footnote a mechanical
+typo): 飞住 for 飞往 "fly to" (ch17) — rendered to sense. 巨籁路 as a shortened
+variant of 巨籁达路 Rue Ratard (ch18) — rendered "Rue Ratard". 十六浦 for 十六铺
+Shiliupu (ch16) — same glitch as B02 ch10, already noised, rendered "Shiliupu".
+俞鸿均 for 俞鸿钧 Yu Hongjun (ch17) — a real name mis-keyed by one character;
+corrected to the attested form AND the correction recorded in the footnote (a
+real figure, so treated as both a mechanical fix and a fact-note).
+
+noise.txt entries added this batch (non-quantitative numerals; every one
+commented): 十字架, 十字 (cross-shape, not "ten"), 周三 (name "Zhou Three"),
+万国 (万国殡仪馆 "International", not ten-thousand), 四明 (Siming place-name),
+百无聊赖 (idiom), 四散 (idiom "scatter in all directions"), 两盅 (idiom "a cup
+or two"), 两手 ("both hands"), 两人 ("the two of them"). Real quantities never
+noised (three cups, 88th Division, 20,000/800, 203, 1929/1931/1935, 二两/两个
+面包 etc. all rendered in the English).
+
+Voice sheets for The Postman's principals written into HANDOFF.md.

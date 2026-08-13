@@ -72,3 +72,34 @@
 # 百乐门 "the Paramount" (Ballroom); 百乐 is a transliteration of "Paramount",
 # the 百 is not the number hundred — rendered "Paramount Ballroom".
 百乐门
+# --- The Postman: project entries ---
+# 十字架 "crucifix / cross"; the 十 is the cross shape (ten-strokes), not the
+# number ten — rendered "crucifix / cross". Longest-literal-first: before 十字.
+十字架
+# 十字 "a cross" (the shape drawn over the chest); 十 is the cross-figure, not
+# ten — rendered "cross".
+十字
+# 周三 is the postman-controller's personal name Zhou San ("Zhou Three"); the
+# 三 is a name, not a count — romanized "Zhou San", no digit in English.
+周三
+# 万国殡仪馆 "the International Funeral Parlor"; 万国 is "myriad nations /
+# international", not the number ten-thousand — rendered "International".
+万国
+# 四明公寓 "Siming Apartments"; 四明 (Siming, "four brightnesses") is a place
+# name, not the number four — rendered "Siming".
+四明
+# 百无聊赖 "bored past bearing / listless"; the 百 is idiomatic intensifier,
+# not the number hundred — rendered "listless / idling".
+百无聊赖
+# 四散 "scatter in all directions"; 四 is directional idiom (four ways), not a
+# count — rendered "scattered".
+四散
+# 两盅 "a cup or two (of wine)"; 两 here is the idiom "a couple", not a strict
+# count — rendered "a couple of cups".
+两盅
+# 两手 "both hands / the two hands"; 两手 is the lexical pair, not a counted
+# quantity — rendered "his hands".
+两手
+# 两人 "the two of them / the pair"; 两人 is the fixed compound for a couple,
+# not an inventory count — rendered "the two of them".
+两人
