@@ -1,0 +1,3 @@
+### Catching Crickets
+
+In the tram-cars and the tea-houses one often sees a band of poor fellows come hurrying up and, bent double and bowing most respectfully, pick up the stubs of cigarettes; their cant term for it is "catching crickets." When they have filled a tin, they carry it to a cigarette-stall to change for cash; a diligent, painstaking man, they say, can clear four or five jiao at it in a day. This too is a trade outside the three hundred and sixty; and over in Hankou there was once a poor fellow who lived entirely by catching crickets, and by pinching and scraping came, after twenty or thirty years, actually to be a rich man. Is this not an iron proof of the saying, "Great wealth lies with Heaven, but small wealth lies with diligence"?

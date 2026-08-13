@@ -1,0 +1,5 @@
+### Resurrection Cigarettes
+
+In the tea-houses and on the trams there is often a band of wretched fellow-countrymen, ragged of coat and barefoot in their short trousers, who, heads bowed and backs bent, go about their work of "catching crickets"—that is, picking up cigarette-ends. When they have filled a bag or a tin, they sell the whole of it to a cigarette-stall. The stall gathers them in, sorts the good from the bad, picks them apart strand by strand, rolls them afresh into cigarettes, and sells them off by grade. This kind of cigarette is commonly called a "resurrection cigarette."
+
+The cigarette-stalls are set up thickest in two spots in the French Concession, on Gas Street—the street of the "self-coming fire," as the Shanghai word for gaslight has it—and in Dye-house Lane. The stall-keeper, though he calls it a trade like any other, must in fact bring a deal of painstaking care to it, and by a sharp eye tell the good butts from the bad before working them up into resurrection cigarettes—another of those businesses that turn waste to use.

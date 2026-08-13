@@ -1,0 +1,3 @@
+### Tip-Top and Rock-Hard
+
+The two phrases dingguagua ("tip-top") and yingbengbeng ("rock-hard") are catchwords of the Cantonese. Dingguagua signifies that a thing is fine and first-rate; yingbengbeng signifies a genuine one-price, no-bargaining rule. For the Cantonese, in their trade, love above everything to be blunt and straight, to say a thing is so and let it stand. The prices in a Cantonese shop, moreover, are uniform and unvarying, fully worthy of the four words "neither young nor old is cheated"; they are not like the shops of the Jiangsu-Zhejiang men and the others, forever pulling threads and clambering after vines, asking one price and settling for another.

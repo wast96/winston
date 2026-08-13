@@ -838,3 +838,92 @@ patronage ticket, squeeze, trading on a big name, seat-agent.
   (noted ch074): ch115's note cross-refs and adds only the perm ban. Suzhou Creek
   bridges 天后宮橋/盆湯弄橋 (noted ch056): ch122's note cross-refs, adds 老閘橋/垃圾橋.
   Money policy (ch001/ch014): ch118/ch127/ch128 cite 大洋/大洋鈿/塊 without re-noting.
+
+## B09 — ch130-ch155 (兜得轉與跑得開 through 兩個半滑頭), PDF 209-233, printed 207-231 (2026-08-13)
+
+The swindler / beggar / street-trade heart of the book: 26 short essays on
+kidnappers, the hoodlum's wife, cricket-fighting, the three-lights gang, Wu-slang
+tags, hat-snatching, a long run of selling-cons and rag trades, two dialect-word
+essays, fortune-telling, resurrection cigarettes, tattooing, judgment tea,
+skimming, savings swindles, hatching bean sprouts, and two-and-a-half slickers.
+All 26 units eye-read at magnification and hand-transcribed to data/zh against the
+scans (tesseract chi_tra_vert psm 5 kept only as a scaffold; every page corrected
+by eye). Offset held printed = pdf - 2, verified at every opener.
+
+### Page structure resolved
+- Two shared pages, boundaries confirmed by eye: PDF 214 carries ch135 頂呱呱與硬繃繃
+  (one para) then ch136 拋頂宮 (one para); PDF 218 carries ch140 賣性照片 (one para)
+  then ch141 賣冰 (one para).
+- ch131 綁匪 finished on PDF 210; ch132 白相人嫂嫂 is a short two-paragraph essay
+  wholly on PDF 211 (the lower half of the page is blank, not a lost leaf).
+- NUMBERING GAP RESOLVED: the "skipped" PDF 231 (printed 229) is NOT a blank or a
+  plate. It is the SECOND page of ch153 儲蓄騙, which runs PDF 230-231 (a six-
+  paragraph essay, the longest in the batch). The running head on 231 reads 儲蓄騙
+  and the text continues mid-sentence from 230 (滿了五 | 年仍舊還本). book.json's
+  ch153 pdf 230 / ch154 pdf 232 is therefore correct; there is no mis-count.
+- No reprint photographs on any page 209-233 (all full-text). Zero figures this
+  batch, recorded as a deliberate decision.
+
+### Register / QC (all green)
+- verify_unit (parity, numbers, anchors): PASS on all 26.
+- check_align, check_structure --config, check_content --config: PASS.
+- qc_entities per bilingual: 0 misses. Two existing-key substring collisions caught
+  and aligned to the ledger: 探捕 (plain-clothes constable) surfaced inside 警探捕
+  in ch140 (rendered "plain-clothes constable"); 自來火 (self-coming fire) inside
+  自來火街 in ch149 (rendered "Gas Street, the street of the 'self-coming fire'").
+- check_apparatus: 0/0. check_register --ref out/ch001_reading.md: all 26 within
+  tolerance. qa_epub: PASS (168 docs, 621 notes ref/body/backlink). epubcheck
+  5.1.0: 0 fatals / 0 errors / 0 warnings.
+
+### Numbers noise added (data/noise.txt; all false positives, none masks a drop)
+五色 (five-colour idiom, ch137/ch142); 張三 / 李四 (generic names, ch137);
+(?<=十四)兩 and (?<=三十)兩(?=天|夜) (兩天/兩夜 summarising counter, ch139/ch144);
+二(?=、三十) (abbreviated "twenty or thirty", ch133); 三山 (Sanshan place name);
+五光十色 (idiom); 十足 (idiom "thoroughly", ch147); 零(?=紙) / 零(?=碎) (零 = odd/
+sundry not zero, ch145); 萬國 (International Savings Society name, ch153). NB
+ch151's 效力等於零 is a REAL "zero" and was carried in the English, not noised.
+
+### Glossary (17 new rows; 0 already present; 319 total)
+Terms: catching crickets (捉蟋蟀), slicker (滑頭), old brothers (老弟兄), old hand
+(老門檻), long ingots (長錠), the Three-Lights Gang (三光黨), resurrection cigarettes
+(還魂煙), judgment tea (吃講茶), hatching bean sprouts (孵豆芽), a-la (阿拉), spring-
+palace pictures (春宮), scavenging (拾荒), dredging for tinfoil ash (撈錫箔灰).
+Orgs: the International Savings Society (萬國儲蓄會). Places: the Sanshan Guild Hall
+(三山會館), Shengxian (嵊縣), Hankou (漢口). 62 footnotes (book-wide 556-617).
+
+### Fact-checks (rule 5)
+- 萬國儲蓄會 International Savings Society (ch153): CORROBORATED. Founded 1912 in the
+  French Concession by Rene Fano and Jean Beudin; 15-year prize-bonds at $12/mo
+  (half $6, quarter $3) with a monthly lottery draw; ~130,000 subscribers by 1930;
+  its apartment block survives as the Wukang / Normandie Mansion. Matches the essay
+  (東方仿萬國辦法; 只繳一次現款 month-by-month prize, 滿五年還本). Source: Shanghailander
+  / Historic Shanghai / Wikipedia (Wukang Mansion).
+- 三山會館 Sanshan Guild Hall (ch142): CORROBORATED as an institution. The Fuzhou /
+  Fujian native-place hall in Shanghai (三山 = old name for Fuzhou); the surviving
+  hall, built 1909 in Nanshi as a Tianhou/Mazu temple by Fujian fruit-merchants,
+  still stands at 1551 Zhongshan South Rd. The author places one at the west end of
+  Fuzhou Road; noted honestly. Source: zh.wikipedia / Baidu Baike / Huangpu district.
+- 嵊縣 Sheng County, Zhejiang (ch131): the county is real (now Shengzhou); its
+  reputation as the seedbed of the Shanghai kidnapping gangs is the one the text and
+  popular tradition assign. Specific case records not located; noted at that level.
+- 瞿紹伊 (ch130): named as the author's lawyer friend. UNCORROBORATED by search;
+  noted honestly as "not further identified with certainty."
+
+### Wu / cant glossed but not ledgered (translator's decisions, noted in situ)
+布非切 (ch141, the slurred "buy ice" heard as indecent; pun untranslatable, noted);
+阿拉舍希 (ch147, Ningbo particles, not certainly parsed); 口天先生 = 吳/Wu and 草頭老班
+(ch155, veiled surnames by character-splitting; the second not recoverable, noted).
+
+### NOT re-noted this batch (already placed; cross-referenced instead)
+- 白相人 hoodlum (glossary + noted ch072/ch127): recurs ch130/ch132/ch146(老白相)/
+  ch150; rendered "hoodlum" throughout, not re-noted.
+- 揩油 skim (noted ch098): ch152 is its own essay and adds the literal "wipe the
+  oil" etymology, cross-referencing ch098 rather than re-noting.
+- 捉蟋蟀 catching crickets (noted ch133): recurs ch149, cross-ref not re-noted.
+- 三百六十行 the 360 trades (noted ch133): recurs ch145, cross-ref not re-noted.
+- 拆白黨 peeling-white gang (noted ch114): ch134 likens the three-lights gang to it,
+  not re-noted. 拆字 character-splitting (noted ch037/ch121): ch155's 口天 note
+  cross-refs it. 早吃日頭夜吃露水 (noted ch150): recurs ch154, not re-noted.
+- 綁票 kidnapping (noted B07 ch104): ch131, not re-noted. 捕房 police station,
+  四馬路/福州路 Fuzhou Road, money policy (大洋/小洋/毛/角/文/鈿): all cited without
+  re-noting.

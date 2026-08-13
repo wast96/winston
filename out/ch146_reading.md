@@ -1,0 +1,3 @@
+### The Shanghainese "Old"
+
+"Lao" this and "lao" that—the word "old" has become the very by-word of the Shanghai tongue; let me set down a few of the phrases below. A ghost they call a chi-lao ("red-old"); a woman, a gua-lao; an old dame, a lao-xie ("old crab"); a dame who preens and postures, a lao-sao ("old flirt"); a wife, a lao-po; a fellow who knows all the ropes, a lao-baixiang ("old man-about-town"); a man, a hu-lao; to talk cheeky rubbish is to lao-san-lao-si ("old-three-old-four"); a man's dying is to tan-lao-san; and a shopkeeper is a lao-ban ("old board"). "Lao" here, "lao" there—it has become the pet-word of the Shanghainese, sure enough.

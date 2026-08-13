@@ -1,0 +1,3 @@
+### The Ningbo "Ah"
+
+A Ningbo man is an a-la, and an a-la is a Ningbo man: those two syllables a-la ("us") are by now enough to stand for a Ningbo man and nothing else. And so, when a Ningbo man hails another, he puts the syllable "ah" out in front—a-ge for an elder brother, a-di for a younger brother, a-mei for a younger sister, a-da for the eldest, a-er for the second, a-san for the third—every one of them run off pat and blurted out without a thought. So too a-la this and a-la that, and a-la-she-xi, are the pet phrases of the Ningbo tongue above all others; you have only to catch the two syllables a-la slipped into a man's talk to know him at once for a genuine, dyed-in-the-wool, true-blue Ningbo man.

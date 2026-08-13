@@ -1,0 +1,3 @@
+### Selling Dirty Pictures
+
+At the mouth of every lane on Fuzhou Road (that is, Fourth Avenue) there commonly stands a knot of old-hand peddlers, glancing furtively about them, east and west. Let a passer-by so much as give one of them a look, and he is at your side in an instant, murmuring low: "Here—sir—wouldn't you care to buy a set of the very newest spring-palace pictures, just for a bit of sport?" If you mean to deal, he leads you into the lane, where you may look over the goods and settle on a price. Now and then one loses the wind and is hauled off by a plain-clothes constable to be dealt with—a common enough thing; yet for all the dealing-with, their secret trade goes on the same, day after day after day!

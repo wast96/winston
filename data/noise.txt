@@ -164,3 +164,37 @@
 # 癟三 biesan, the Shanghai slang word for a beggar/bum; the 三 is part of
 #   the word, not a count of three. English keeps "biesan". (B08, ch123)
 癟三
+# 五色 "five colours" = an idiom for gaudy/multi-coloured, not a count of five.
+#   English renders "many-colored / gaudy". (B09, ch137)
+五色
+# 張三、李四 = generic personal names ("Tom, Dick and Harry"); the 三/四 are
+#   part of the names, not counts. English keeps "Zhang San / Li Si". (B09, ch137)
+張三
+李四
+# 十四兩天／十四兩夜: 兩 here is the counter "these two days/nights", summarising
+#   the 30th and 14th; English carries "the thirtieth and the fourteenth" and
+#   drops the summarising two. Strip the stray 兩 so 十四 parses as 14. (B09, ch139)
+(?<=十四)兩
+# 二、三十 = abbreviated "twenty or thirty" (二十、三十); the lone 二 stands for
+#   二十. English renders "twenty or thirty". (B09, ch133)
+二(?=、三十)
+# 三山會館 = the Sanshan (Fujian) Guild Hall, a place name; 三 is not a count.
+#   English keeps "Sanshan Guild Hall". (B09, ch142)
+三山
+# 五光十色 = "five lights, ten colours", an idiom for a dazzling medley, not
+#   counts of 5 and 10. English renders "a dazzle of colours". (B09, ch142)
+五光十色
+# 十足道地 / 十足: 十足 = "ten-tenths", an idiom for utterly/thoroughly, not a
+#   count of ten. English renders "true-blue / dyed-in-the-wool". (B09, ch147)
+十足
+# 三十兩天／三十兩夜: 兩 = the counter "these two days/nights" summarising the
+#   14th and 30th; strip the stray 兩 so 三十 parses as 30. English carries the
+#   dates and "those two nights". (B09, ch144)
+(?<=三十)兩(?=天|夜)
+# 零紙／零碎: 零 here means "odd, fractional, sundry", not zero. English renders
+#   "scraps of paper / odds and ends". (B09, ch145)
+零(?=紙)
+零(?=碎)
+# 萬國 = the Wanguo (International) Savings Society, a proper name; the 萬 is not
+#   a count of ten thousand. English keeps "Wanguo / International". (B09, ch153)
+萬國

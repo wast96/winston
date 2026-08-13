@@ -686,6 +686,24 @@
       "en": "Yanping Road",
       "pinyin": "Yanping Lu",
       "status": "attested"
+    },
+    "三山會館": {
+      "en": "the Sanshan Guild Hall",
+      "pinyin": "Sanshan Huiguan",
+      "status": "attested",
+      "note": "The native-place hall of Fuzhou/Fujian men in Shanghai; 三山 is an old name for Fuzhou."
+    },
+    "嵊縣": {
+      "en": "Shengxian",
+      "pinyin": "Shengxian",
+      "status": "attested",
+      "note": "Sheng County, Zhejiang (now Shengzhou)."
+    },
+    "漢口": {
+      "en": "Hankou",
+      "pinyin": "Hankou",
+      "status": "attested",
+      "note": "The great Yangzi treaty-port, now part of Wuhan."
     }
   },
   "organizations": {
@@ -921,6 +939,12 @@
       "en": "the Shenyuan",
       "pinyin": "Shenyuan",
       "status": "attested"
+    },
+    "萬國儲蓄會": {
+      "en": "the International Savings Society",
+      "pinyin": "Wanguo Chuxu Hui",
+      "status": "attested",
+      "note": "Wanguo; the French-Concession savings-and-lottery society founded 1912."
     }
   },
   "terms": {
@@ -1733,6 +1757,82 @@
       "en": "seat-agent",
       "pinyin": "anmu",
       "status": "decided"
+    },
+    "捉蟋蟀": {
+      "en": "catching crickets",
+      "pinyin": "zhuo xishuai",
+      "status": "decided",
+      "note": "Beggars' cant for gathering discarded cigarette-ends, from the stooping motion."
+    },
+    "滑頭": {
+      "en": "slicker",
+      "pinyin": "huatou",
+      "status": "decided",
+      "note": "A slippery, shifty operator; 滑 = slippery."
+    },
+    "老弟兄": {
+      "en": "old brothers",
+      "pinyin": "lao dixiong",
+      "status": "decided",
+      "note": "What hoodlums (白相人) called one another."
+    },
+    "老門檻": {
+      "en": "old hand",
+      "pinyin": "lao menkan",
+      "status": "decided",
+      "note": "Lit. old threshold; a streetwise veteran who knows every trick."
+    },
+    "長錠": {
+      "en": "long ingots",
+      "pinyin": "changding",
+      "status": "decided",
+      "note": "Strings of paper-and-tinfoil mock silver ingots burnt as offerings."
+    },
+    "三光黨": {
+      "en": "the Three-Lights Gang",
+      "pinyin": "sanguang dang",
+      "status": "decided"
+    },
+    "還魂煙": {
+      "en": "resurrection cigarettes",
+      "pinyin": "huanhun yan",
+      "status": "decided",
+      "note": "Cigarettes re-rolled from tobacco salvaged out of discarded butts."
+    },
+    "吃講茶": {
+      "en": "judgment tea",
+      "pinyin": "chi jiang cha",
+      "status": "decided",
+      "note": "Settling a dispute before an audience in a tea-house, with a mediator."
+    },
+    "孵豆芽": {
+      "en": "hatching bean sprouts",
+      "pinyin": "fu douya",
+      "status": "decided",
+      "note": "Slang for a man too ragged to go out, burrowed under his quilt like a bean sprouting in the dark."
+    },
+    "阿拉": {
+      "en": "a-la",
+      "pinyin": "ala",
+      "status": "decided",
+      "note": "Ningbo and Wu for we/us and I; the stock first-person word of Shanghai speech."
+    },
+    "春宮": {
+      "en": "spring-palace pictures",
+      "pinyin": "chungong",
+      "status": "attested",
+      "note": "The standard name for erotic prints."
+    },
+    "拾荒": {
+      "en": "scavenging",
+      "pinyin": "shihuang",
+      "status": "decided"
+    },
+    "撈錫箔灰": {
+      "en": "dredging for tinfoil ash",
+      "pinyin": "lao xibo hui",
+      "status": "decided",
+      "note": "A term of scorn for grubbing money by any base means; also, literally, a trade."
     }
   }
 }
