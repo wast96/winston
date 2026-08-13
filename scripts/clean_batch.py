@@ -136,6 +136,29 @@ UNITS = {
                   282: "六 像石友三这种人自然不会有好下场"},
         "standalone": [3],     # 一 争取到对方的亲信作为内应
     },
+    "ch10": {
+        "file": "11_index-split-000-0009.txt",
+        "title": "「河内汪案始末」自序",
+        # drop=3: running header + <h1>「河内辱命」 (the Part Two banner, handled
+        # by book.json's `part` field) + <h3>「河内汪案始末」自序 (the chapter title,
+        # re-emitted from `title`). This preface carries NO sub-headings.
+        "drop": 3,
+        "merges": [], "glued": {}, "standalone": [],
+    },
+    "ch11": {
+        "file": "12_index-split-000-0010.txt",
+        "title": "第一章 浴血杀敌奋勇抗战",
+        "drop": 2,             # running header + <h2> chapter title
+        # one extractor split: L90 ("...二十九日汪氏艳") continues mid-word into
+        # L91 ("电后，...") — 艳|电. The 「艳电」 document is a THREE-<p> quoted block
+        # (lead-in ends ：, salutation ends ：, then the body); those ：-ended <p>
+        # are DELIBERATE separate paragraphs and are NOT merged.
+        "merges": [(90, 91)],
+        # this chapter's sub-headings are couplet-style titles with NO number
+        # prefix: L3 stands alone; L52's heading is glued to a paragraph's tail.
+        "glued": {52: "只限于行踪监视与活动侦察"},
+        "standalone": [3],     # 一道急急令飞渡万里关山
+    },
 }
 
 

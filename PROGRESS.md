@@ -683,3 +683,138 @@ provisional — verify on recurrence.
   earlier pairwise specs (ch01–ch08 output unchanged).
 - `data/noise.txt` — B05 block (see above). Glossary rows added by hand into the
   sectioned file, idempotent + re-read-verified; notes merged via apparatus_merge.py.
+
+## Batch B06 — ch10 + ch11 (Part Two opens: "Disgrace at Hanoi")
+
+Two units, 13,734 source chars. ch10 = 「河内汪案始末」自序 "Author's Preface: The
+Full Story of the Wang Case at Hanoi" (26 body paragraphs, a short essayistic
+preface). ch11 = 第一章 浴血杀敌奋勇抗战 "Chapter 1. Bloodshed Against the Enemy,
+Valiant Resistance" (87 body paragraphs, 2 sub-headings). This opens PART TWO,
+the 1939 Juntong attempt on Wang Jingwei at Hanoi. New Hanoi cast introduced;
+the North China martyrs (Zeng Che, Wang Wen) are eulogized as the chapter
+opens, then the summons to Hong Kong and the flight to Hanoi, Dai Li's briefing,
+and the full text of Wang's "Yan Telegram" with Chen's rebuttal.
+
+### Structure / extractor handling (clean_batch specs; source conserved OK)
+- **ch10** drop=3: running header 英雄无名-陈恭澍 + `<h1>「河内辱命」` (the Part Two
+  banner, carried by book.json's `part` field) + `<h3>「河内汪案始末」自序` (the
+  chapter title, re-emitted from `title`). No sub-headings; 26 `<p>`, no splits.
+- **ch11** drop=2 (header + `<h2>` chapter title). 89 `<p>`. One extractor split:
+  (L90,L91) "…汪氏艳 / 电后…" broken mid-word (艳|电), merged. The 「艳电」 document is
+  a THREE-`<p>` quoted block (lead-in ends ：, salutation ends ：, then the 1,298-
+  char body) — those ：-ended `<p>` are DELIBERATE separate paragraphs, NOT merged.
+- **ch11 sub-headings are couplet-style with NO number prefix** (unlike ch06–09's
+  一/二/三): L3 一道急急令飞渡万里关山 stands alone; L52 只限于行踪监视与活动侦察 is
+  glued to a paragraph's tail (like ch08's glued headings). Confirmed against the
+  source XHTML `<p>` boundaries and nav.xhtml (which lists chapter titles only, not
+  these in-body sub-headings).
+- Note markers `\[\d+\]`: **none present** in either unit (grep clean).
+- Set-off formatting / images: **none** — plain narrative (no `<img>/<hr>/<div>/
+  class`), confirmed for both files.
+
+### Part Two title — DECISION (open question resolved)
+**Keep "Disgrace at Hanoi" as the Part Two heading; no book.json change.** The
+source's own part banner (the `<h1>` in ch10 and the nav.xhtml entry) is
+「河内辱命」 throughout; 河内汪案始末 is only the published book-title of the
+constituent volume, which Chen (ch10 §10–11) settled on at proof stage after
+rejecting 河内刺汪 (he would not accept 刺 "stab", "to kill a man off his guard")
+and finding 奉使河内记 and 河内辱命 wanting. book.json already models this exactly:
+Part Two = "Disgrace at Hanoi" (banner 河内辱命); ch10 = "Author's Preface: The
+Full Story of the Wang Case at Hanoi" (河内汪案始末自序). The translator's-note gloss
+("Disgrace at Hanoi (published under the title The Full Story of the Wang Case at
+Hanoi)") stands. The faithful choice is the source's banner.
+
+### Digitization glitches (rendered to plain sense; NOT footnoted — mechanical)
+ch10: 被浦→被捕 (L14, "after my capture"); 戎们→我们 (L21); 议牲→牺牲 (L22, L23,
+"sacrifice"); 掌握看→掌握着 (L9, "held fast"); 易如称为→亦可称为 (L10, rendered "might
+as well be called"). ch11: 打别嗦→打哆嗦 (L20, "shivered"); 狼狙→狼狈 (L26,
+"wretched"); 方炳四→方炳西 (L71, "Fang Bingxi"); 前力→前方 (L81, "front-line"). Inside
+the quoted 「艳电」/resolution (rendered to sense, glitch in a primary document):
+干沙及→干涉 (L73, "interfere"); 贴偿→赔偿 (L73, "indemnity"); 领土土→领土上 (L79,
+dittography, "territory", ×2); 艳驾→艳电 (L80); 承本黛→承本党 (L83, "this Party").
+Misplaced-「 glitches (stray open-quote, like ch09 L164): L56 掌握「也应该 and L76
+何从「调整起 — rendered to plain sense, the stray bracket dropped. 芦沟桥 for 卢沟桥
+inside the 艳电 is a standard variant, not a glitch (Marco Polo Bridge).
+
+### Genuine source corruption + textual anomaly (FOOTNOTED, rule 4)
+- **ch11 L69** 我已经和他的爱 — corrupt ("I have already, with his … love"), no
+  sense; footnoted, rendered to the evident sense (Dai had settled that Chen alone
+  would be the contact's liaison).
+- **ch11 L22** cross-reference to "the fifth section" of Book One — as collected
+  here Book One runs to four sections (Chapters 6–9); footnoted as the original's
+  discrepancy, left as written.
+
+### Checks (all green)
+- verify_unit ch10 / ch11: parity 26/26, 87/87; numbers 0 unresolved (after B06
+  noise block); anchors clean.
+- check_align: ch10 26/26 median 5.18 en/han (preface, essayistic — denser, in
+  line with B01 front matter); ch11 87/87 median 4.76 (narrative, top of the
+  4.55–4.70 band). No pair strays >2.2× the median.
+- check_structure: parity OK both, 2 heading levels OK, 0 unresolved anchors.
+- check_content: 0 displacement (7 name occ ch10, 38 ch11, all in paired paras).
+- qc_entities: 0 misses (ch10 top 河内 x18; ch11 top 天津 x23, 艳电 x15).
+- check_register --ref: within tolerance. ch10 shall 0% (preface); ch11 shall 33%
+  — Chen's deliberate narrating "shall" (voice sheet; B05 ran 23%, verified).
+  Contractions 0.0/1k both; em-dash 9.1/9.3 vs ref 8.3.
+- Tails verified against source (rule 4 corollary): both complete, nothing
+  invented or dropped (ch11 tail carries all three dates 22/26/29).
+- Build: qa_epub PASS (57 files, 137 refs/137 bodies/137 backlinks, all links
+  resolve); epubcheck 5.1.0 → 0 fatals / 0 errors / 0 warnings. EPUB now
+  **11/43 chapters**.
+
+### Numeric-invariant handling (data/noise.txt, B06 block)
+Real quantities carried in the English (eight years; twenty-seven / thirty years
+of age; 300+ days; the two cities Beiping and Tianjin made explicit "two"; the
+ten-odd dollars carried as "ten-odd"; Republican years auto-excused via +1911;
+the 艳电's dates 3 Nov / 16 Jan / 29 Dec). Noised (idiom/elided-tens): 六亲
+(六亲不认), 十二、三 (elided 12–13yr), 接二连三, 三、四十 (elided 30–40 days),
+不远千里 ("thousand li" idiom, kept in English but checker maps only "a thousand"),
+百万计 ("by the million", round-number idiom).
+
+### Notes ledger (14 this batch: ch10 4, ch11 10; 137 cumulative)
+First-appearance discipline observed. **NOT re-noted** (already noted B01–B05):
+Wang Jingwei (ch03), Hanoi (ch03), Chen Bijun (ch03), the Ume Kikan / 梅机关
+(ch04), Manchukuo (ch03), the Tanggu Truce (B04), the Marco Polo Bridge / War of
+Resistance (ch01), the Three Principles of the People (B01), the Republican-
+calendar convention, the "sanction" euphemism, the Juntong, Dai Li, Beiping/
+Tianjin, Chongqing/Nanjing, the concessions, Kwantung Army. New notes: (ch10) the
+1910 assassination of the Qing Prince Regent + Wang's prison quatrain; the "Yan
+Telegram" (韵目代日 date-naming, 艳=29th); Konoe Fumimaro; the People's Political
+Council. (ch11) the Juntong "ancestral hall"/spirit-tablets; the Anti-Japanese
+Traitor-Killing Corps (抗团); the Luan-Yu Guerrilla Command; the "fifth section"
+discrepancy; the "Kongming cart" (Indochina cyclo); "Director-General" (总裁) vs
+Generalissimo/Commandant + Wang's Vice-Director-General; the Three Principles of
+Peace (distinct from Three Principles of the People); the Nov-1938 Chongguangtang
+secret Shanghai talks (Gao Zongwu / Mei Siping); the L69 source corruption; the
+Jing/Wei proverb (泾渭分明).
+
+### Glossary rows added (59; principals now 8)
+People (23): 曾澈 Zeng Che, 方炳西 Fang Bingxi (**principal**, cast 7), 齐庆斌 Qi
+Qingbin, 陈资一 Chen Ziyi, 周世光 Zhou Shiguang, 胡永荃 Hu Yongquan, 陈春圃 Chen
+Chunpu, 叶吉卿 Ye Jiqing, 晴气庆胤 Haruke Yoshitane, 影佐祯昭 Kagesa Sadaaki, 刘原深
+Liu Yuanshen, 近卫文麿 Konoe Fumimaro, 林柏生 Lin Baisheng, 高宗武 Gao Zongwu, 梅思平
+Mei Siping, 今井武夫 Imai Takeo, 伊藤芳男 Itō Yoshio, 吴敬恒 Wu Jingheng (Zhihui),
+林森 Lin Sen, 张继 Zhang Ji, 陈布雷 Chen Bulei, 剑秋 Jianqiu (identity uncertain),
+炳华 Binghua (= 张炎元 Zhang Yanyuan), 汪兆铭 Wang Zhaoming (= 汪精卫). **王鲁翘 Wang
+Luqiao elevated to principal (cast 8).** (张作兴, 中岛信一 already present.) Places
+(21): 河内 Hanoi, 安南 Annam, 越南 Vietnam, 重庆 Chongqing, 四川 Sichuan, 广西
+Guangxi, 跑马地 Happy Valley, 山光饭店, 薄扶林道 Pok Fu Lam Road, 半山 the Mid-Levels,
+湾仔 Wan Chai, 干诺道 Connaught Road, 塘沽 Tanggu, 吴淞口 Wusong, 黄浦江 the Huangpu,
+宝坻 Baodi, 冀东 East Hebei, 布鲁塞尔 Brussels, 比利时 Belgium, 虹口 Hongkou, 河北大经路
+Dajing Road. Organizations (11): 滦榆游击总部 the Luan-Yu Guerrilla Command, 梅机关
+the Ume Kikan, 满铁株式会社 the South Manchuria Railway Company, 国民参政会 the
+People's Political Council, 天津区 the Tianjin District, 北平第一站 the Beiping First
+Station, 国防部情报局 the Intelligence Bureau of the MND, 中国国民党 the Chinese
+Nationalist Party, 太古公司 Butterfield & Swire, 怡和洋行 Jardine Matheson, 渣华公司
+the Java-China-Japan Line. Terms (3): 艳电 the Yan Telegram, 和平三原则 the Three
+Principles of Peace, 孔明车 the Kongming cart. (抗日杀奸团 already present.) Every row
+carries a pinyin field; obscure operatives / Japanese readings marked
+`provisional`. Feed the historical names (近卫文麿, 影佐祯昭, 高宗武, 梅思平, 林森,
+张继, 吴敬恒, 陈布雷) to authority.json on completion.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch10 (drop=3, no headings) and ch11 (drop=2, one
+  merge, one standalone + one glued couplet-style sub-heading) specs added;
+  backward-compatible with ch01–ch09.
+- `data/noise.txt` — B06 block (see above). Glossary rows added by hand into the
+  sectioned file, idempotent + re-read-verified; notes merged via apparatus_merge.py.

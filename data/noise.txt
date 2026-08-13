@@ -230,3 +230,24 @@
 笫二天
 # Idiom 三更半夜 "the dead of night" (三更 = the third night-watch); not the count 3.
 三更半夜
+#
+# --- B06 (ch10 + ch11) entries ---
+#
+# Idiom 六亲不认 "acknowledging neither kith nor kin"; the 六 of 六亲 (the six
+# degrees of kinship) is not the count 6.
+六亲
+# Elided range 十二、三年 "another twelve or thirteen years"; the bare 三 is 十三
+# (thirteen) abbreviated, not the count 3. English carries "twelve or thirteen".
+十二、三
+# Idiom 接二连三 "one after another, in unbroken succession"; the 二 and 三 are
+# not counts.
+接二连三
+# Elided range 三、四十天 "thirty or forty days"; the bare 三 is 三十 (thirty)
+# abbreviated, not the count 3. English carries "thirty or forty".
+三、四十
+# Idiom 不远千里 "not deeming a thousand li too far (to come)"; the 千 is the
+# idiom's hyperbole, not a measured distance. English keeps "thousand li".
+不远千里
+# Round-number idiom 百万计 "numbering in the millions / by the million"; the
+# 百万 is an order-of-magnitude figure, not an exact count. English "by the million".
+百万计

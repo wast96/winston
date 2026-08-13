@@ -176,7 +176,10 @@
       "en": "Wang Luqiao",
       "pinyin": "Wáng Lǔqiáo",
       "status": "provisional",
-      "note": "Member of the Hanoi action team; romanization mine."
+      "note": "Member of the Hanoi action team; romanization mine.",
+      "principal": true,
+      "cast_order": 8,
+      "cast": "A Shandong man and former bodyguard of Dai Li; co-lead of the Hanoi action team."
     },
     "郑修元": {
       "en": "Zheng Xiuyuan",
@@ -756,6 +759,152 @@
       "en": "Zhou Renfeng",
       "status": "provisional",
       "pinyin": "Zhōu Rénfēng"
+    },
+    "曾澈": {
+      "en": "Zeng Che",
+      "pinyin": "Zēng Chè",
+      "status": "attested",
+      "note": "Secretary and later District chief of the Juntong's Tianjin organization, and head of the Anti-Japanese Traitor-Killing Corps; martyred at Beiping in 1940."
+    },
+    "方炳西": {
+      "en": "Fang Bingxi",
+      "pinyin": "Fāng Bǐngxī",
+      "status": "provisional",
+      "principal": true,
+      "cast_order": 7,
+      "cast": "A member of the Hanoi team who arrived first and rented the safe house; a fluent French speaker and one of the operation's few survivors."
+    },
+    "齐庆斌": {
+      "en": "Qi Qingbin",
+      "pinyin": "Qí Qìngbīn",
+      "status": "provisional",
+      "note": "Chief of staff of the Luan-Yu Guerrilla Command."
+    },
+    "陈资一": {
+      "en": "Chen Ziyi",
+      "pinyin": "Chén Zīyī",
+      "status": "provisional",
+      "note": "Head of the Tianjin Station after Chen's departure; martyred."
+    },
+    "周世光": {
+      "en": "Zhou Shiguang",
+      "pinyin": "Zhōu Shìguāng",
+      "status": "provisional",
+      "note": "Head of the Beiping Station; martyred."
+    },
+    "胡永荃": {
+      "en": "Hu Yongquan",
+      "pinyin": "Hú Yǒngquán",
+      "status": "provisional",
+      "note": "A volunteer worker of the Tianjin Station who escorted Chen to Shanghai."
+    },
+    "陈春圃": {
+      "en": "Chen Chunpu",
+      "pinyin": "Chén Chūnpǔ",
+      "status": "attested",
+      "note": "A kinsman of Chen Bijun and an official in the Wang Jingwei regime."
+    },
+    "叶吉卿": {
+      "en": "Ye Jiqing",
+      "pinyin": "Yè Jíqīng",
+      "status": "attested",
+      "note": "Wife of Li Shiqun."
+    },
+    "晴气庆胤": {
+      "en": "Haruke Yoshitane",
+      "pinyin": "Qíngqì Qìngyìn",
+      "status": "provisional",
+      "note": "Colonel and deputy chief of the Ume Kikan, successor to Kagesa Sadaaki; the Japanese reading is reconstructed."
+    },
+    "影佐祯昭": {
+      "en": "Kagesa Sadaaki",
+      "pinyin": "Yǐngzuǒ Zhēnzhāo",
+      "status": "attested",
+      "note": "Japanese army officer who headed the Ume Kikan and engineered Wang Jingwei's defection."
+    },
+    "刘原深": {
+      "en": "Liu Yuanshen",
+      "pinyin": "Liú Yuánshēn",
+      "status": "provisional",
+      "note": "A contributor whom Chen engaged to analyze Wang Jingwei's character from his poetry."
+    },
+    "近卫文麿": {
+      "en": "Konoe Fumimaro",
+      "pinyin": "Jìnwèi Wénmó",
+      "status": "attested",
+      "note": "Prime Minister of Japan; issued the three statements of 1938 that Wang Jingwei answered."
+    },
+    "林柏生": {
+      "en": "Lin Baisheng",
+      "pinyin": "Lín Bǎishēng",
+      "status": "attested",
+      "note": "An associate of Wang Jingwei who arranged the publication of the Yan Telegram at Hong Kong."
+    },
+    "高宗武": {
+      "en": "Gao Zongwu",
+      "pinyin": "Gāo Zōngwǔ",
+      "status": "attested",
+      "note": "A Nationalist diplomat who conducted the secret 1938 Shanghai talks with Japan on Wang's behalf; later broke with him."
+    },
+    "梅思平": {
+      "en": "Mei Siping",
+      "pinyin": "Méi Sīpíng",
+      "status": "attested",
+      "note": "A negotiator of the secret 1938 Shanghai agreement for Wang Jingwei."
+    },
+    "今井武夫": {
+      "en": "Imai Takeo",
+      "pinyin": "Jīnjǐng Wǔfū",
+      "status": "attested",
+      "note": "Japanese army officer, a principal in the secret talks with Wang's representatives."
+    },
+    "伊藤芳男": {
+      "en": "Itō Yoshio",
+      "pinyin": "Yīténg Fāngnán",
+      "status": "provisional",
+      "note": "A South Manchuria Railway adviser who helped mediate the 1938 Shanghai talks; Japanese reading reconstructed."
+    },
+    "吴敬恒": {
+      "en": "Wu Jingheng",
+      "pinyin": "Wú Jìnghéng",
+      "status": "attested",
+      "note": "Better known by his courtesy name Zhihui (稚晖); a venerable Nationalist elder statesman who drafted the resolution expelling Wang."
+    },
+    "林森": {
+      "en": "Lin Sen",
+      "pinyin": "Lín Sēn",
+      "status": "attested",
+      "note": "Chairman of the National Government, 1931-1943."
+    },
+    "张继": {
+      "en": "Zhang Ji",
+      "pinyin": "Zhāng Jì",
+      "status": "attested",
+      "note": "A veteran Nationalist and member of the Central Standing Committee."
+    },
+    "陈布雷": {
+      "en": "Chen Bulei",
+      "pinyin": "Chén Bùléi",
+      "status": "attested",
+      "note": "Chiang Kai-shek's confidential secretary and chief speechwriter."
+    },
+    "剑秋": {
+      "en": "Jianqiu",
+      "pinyin": "Jiànqiū",
+      "status": "provisional",
+      "note": "One of two senior colleagues (an 'elder brother') with whom Chen dined and Dai Li in Nanjing in 1932; full identity uncertain."
+    },
+    "炳华": {
+      "en": "Binghua",
+      "pinyin": "Bǐnghuá",
+      "status": "attested",
+      "note": "The given name of Zhang Yanyuan (张炎元), an early Juntong figure; see that entry."
+    },
+    "汪兆铭": {
+      "en": "Wang Zhaoming",
+      "pinyin": "Wāng Zhàomíng",
+      "status": "attested",
+      "note": "The original name of Wang Jingwei (汪精卫); see that entry."
     }
   },
   "organizations": {
@@ -907,6 +1056,69 @@
       "en": "Peace-Preservation Commander of the Northern Hebei Border Region",
       "status": "decided",
       "pinyin": "Jìběi Biānqū Bǎo'ān Sīlìng"
+    },
+    "滦榆游击总部": {
+      "en": "the Luan-Yu Guerrilla Command",
+      "pinyin": "Luán-Yú Yóujī Zǒngbù",
+      "status": "decided",
+      "note": "The Juntong guerrilla command for the Luan River and Shanhaiguan (Yuguan) region of East Hebei."
+    },
+    "梅机关": {
+      "en": "the Ume Kikan",
+      "pinyin": "Méi Jīguān",
+      "status": "decided"
+    },
+    "满铁株式会社": {
+      "en": "the South Manchuria Railway Company",
+      "pinyin": "Mǎntiě Zhūshì Huìshè",
+      "status": "attested",
+      "note": "The Japanese 'Mantetsu,' a vast semi-official enterprise and instrument of Japanese expansion in China."
+    },
+    "国民参政会": {
+      "en": "the People's Political Council",
+      "pinyin": "Guómín Cānzhènghuì",
+      "status": "attested",
+      "note": "A wartime advisory body of the National Government."
+    },
+    "天津区": {
+      "en": "the Tianjin District",
+      "pinyin": "Tiānjīn Qū",
+      "status": "decided"
+    },
+    "北平第一站": {
+      "en": "the Beiping First Station",
+      "pinyin": "Běipíng Dìyī Zhàn",
+      "status": "decided"
+    },
+    "国防部情报局": {
+      "en": "the Intelligence Bureau of the Ministry of National Defense",
+      "pinyin": "Guófángbù Qíngbàojú",
+      "status": "attested",
+      "note": "The postwar successor organization to the Juntong."
+    },
+    "中国国民党": {
+      "en": "the Chinese Nationalist Party",
+      "pinyin": "Zhōngguó Guómíndǎng",
+      "status": "attested",
+      "note": "The Kuomintang (KMT)."
+    },
+    "太古公司": {
+      "en": "Butterfield & Swire",
+      "pinyin": "Tàigǔ Gōngsī",
+      "status": "attested",
+      "note": "The British 'Taikoo' trading and shipping firm."
+    },
+    "怡和洋行": {
+      "en": "Jardine, Matheson",
+      "pinyin": "Yíhé Yángháng",
+      "status": "attested",
+      "note": "The British 'Ewo' trading house."
+    },
+    "渣华公司": {
+      "en": "the Java-China-Japan Line",
+      "pinyin": "Zhāhuá Gōngsī",
+      "status": "attested",
+      "note": "A Dutch shipping company (the JCJL)."
     }
   },
   "places": {
@@ -1164,6 +1376,119 @@
       "en": "Andingmen",
       "status": "attested",
       "pinyin": "Āndìngmén"
+    },
+    "河内": {
+      "en": "Hanoi",
+      "pinyin": "Hénèi",
+      "status": "attested"
+    },
+    "安南": {
+      "en": "Annam",
+      "pinyin": "Ānnán",
+      "status": "attested",
+      "note": "An old name for Vietnam; here French Tonkin, in Indochina."
+    },
+    "越南": {
+      "en": "Vietnam",
+      "pinyin": "Yuènán",
+      "status": "attested"
+    },
+    "重庆": {
+      "en": "Chongqing",
+      "pinyin": "Chóngqìng",
+      "status": "attested"
+    },
+    "四川": {
+      "en": "Sichuan",
+      "pinyin": "Sìchuān",
+      "status": "attested"
+    },
+    "广西": {
+      "en": "Guangxi",
+      "pinyin": "Guǎngxī",
+      "status": "attested"
+    },
+    "跑马地": {
+      "en": "Happy Valley",
+      "pinyin": "Pǎomǎdì",
+      "status": "attested",
+      "note": "A district of Hong Kong Island; its Chinese name means 'the racecourse ground.'"
+    },
+    "山光饭店": {
+      "en": "the Sanguang Hotel",
+      "pinyin": "Shānguāng Fàndiàn",
+      "status": "provisional"
+    },
+    "薄扶林道": {
+      "en": "Pok Fu Lam Road",
+      "pinyin": "Bófúlín Dào",
+      "status": "attested"
+    },
+    "半山": {
+      "en": "the Mid-Levels",
+      "pinyin": "Bànshān",
+      "status": "attested",
+      "note": "The hillside residential quarter of Hong Kong Island."
+    },
+    "湾仔": {
+      "en": "Wan Chai",
+      "pinyin": "Wānzǎi",
+      "status": "attested"
+    },
+    "干诺道": {
+      "en": "Connaught Road",
+      "pinyin": "Gānnuò Dào",
+      "status": "attested"
+    },
+    "塘沽": {
+      "en": "Tanggu",
+      "pinyin": "Tánggū",
+      "status": "attested",
+      "note": "The port at the mouth of the Hai River, the sea-gate of Tianjin."
+    },
+    "吴淞口": {
+      "en": "the Wusong bar",
+      "pinyin": "Wúsōng Kǒu",
+      "status": "attested",
+      "note": "The mouth of the Huangpu, the sea approach to Shanghai."
+    },
+    "黄浦江": {
+      "en": "the Huangpu",
+      "pinyin": "Huángpǔ Jiāng",
+      "status": "attested"
+    },
+    "宝坻": {
+      "en": "Baodi",
+      "pinyin": "Bǎodǐ",
+      "status": "attested"
+    },
+    "冀东": {
+      "en": "East Hebei",
+      "pinyin": "Jìdōng",
+      "status": "attested",
+      "note": "The eastern part of Hebei, seat of the Japanese-sponsored puppet 'East Hebei' government."
+    },
+    "布鲁塞尔": {
+      "en": "Brussels",
+      "pinyin": "Bùlǔsài'ěr",
+      "status": "attested"
+    },
+    "比利时": {
+      "en": "Belgium",
+      "pinyin": "Bǐlìshí",
+      "status": "attested"
+    },
+    "虹口": {
+      "en": "Hongkou",
+      "pinyin": "Hóngkǒu",
+      "status": "attested",
+      "note": "A district of Shanghai north of the Suzhou Creek."
+    },
+    "河北大经路": {
+      "en": "Dajing Road",
+      "pinyin": "Dàjīng Lù",
+      "status": "provisional",
+      "note": "A street in the Hebei district of Tianjin."
     }
   },
   "terms": {
@@ -1188,6 +1513,21 @@
       "en": "the Type 38",
       "status": "attested",
       "pinyin": "sānbāshì"
+    },
+    "艳电": {
+      "en": "the Yan Telegram",
+      "pinyin": "Yàn Diàn",
+      "status": "decided"
+    },
+    "和平三原则": {
+      "en": "the Three Principles of Peace",
+      "pinyin": "Hépíng Sān Yuánzé",
+      "status": "decided"
+    },
+    "孔明车": {
+      "en": "the Kongming cart",
+      "pinyin": "Kǒngmíng Chē",
+      "status": "decided"
     }
   }
 }
