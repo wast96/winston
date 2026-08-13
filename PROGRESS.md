@@ -1282,3 +1282,120 @@ capital's shadow-war goes quiet: Jūzō, waiting for the coming collapse of the 
 lies low but will NOT leave the capital; Dōgen, uneasy at the silence, stays on in Gen'i's
 grounds disguised as a shrine-keeper. Dōgen has already glimpsed the sleeping Kohagi at the
 Komatsudani villa and left a Kōga calling-card.
+
+## Batch B10 — ch10 奇妙な事故 / A Strange Accident (PDF 340-374, printed 338-372; offset +2)
+
+### Folio-to-PDF map (confirmed by reading running heads)
+- **Offset +2 holds across the whole span: folio = PDF render page - 2.** Spot-verified
+  the running-head folio on PDF 340 (=338, ch10 opener), 356 (=354), 374 (=372, ch10's last
+  full folio) and 375 (=373, ch11 伊賀ノ山 opener). No further double-feed in this span; the
+  run is clean and monotonic. (The single double-feed was the earlier one at PDF 326/327 =
+  re-scans of folios 324/325, found in B09.)
+- **`data/pagemap/ch10.json` built** (36 entries, printed 338-373 → PDF 340-375, monotonic
+  body_paragraph 0→309). Format per ch08.json; each entry is the first body paragraph to
+  START on that printed page. ch10's tail spills onto folio 373 (paras 309-311) before the
+  伊賀ノ山 title; B11 must not re-translate them.
+
+### Pipeline / engineering
+- Render 340-376 @300dpi; `ocr_crop.py 340 375 --left 0.035 --right 0.965 --top 0.075
+  --bottom 0.955 --lang jpn_vert --psm 5 --no-furniture-strip`; `ocr_dual.py 340 375`.
+  `pgrep -c tesseract` = 0 after each. setup.sh installs only the Chinese packs — installed
+  `tesseract-ocr-jpn` + `tesseract-ocr-jpn-vert` manually (standing gap).
+- **Hand-transcribed `data/zh/ch10.txt` from the page images** (assemble.py welds/overwrites
+  on this vertical text — not used for the parity surface). 312 body paragraphs + the `###`
+  heading = 313 lines. Force-added (data/zh is gitignored).
+- Compound-coverage cross-check: every 3+-kanji compound in the raw OCR over the span appears
+  in the hand transcription; the 59 "absent" were all OCR garbles of compounds captured
+  correctly (麻利洞玄/摩利洞玄, 徳療院/徳善院, 什器庫/仁器庫, 珍皇院/育皇院, furigana-leak junk).
+  No real drop.
+- No figures (line-art eyeballed; ch10 is text-only like ch01-ch09 — recorded as a deliberate
+  empty figure list).
+
+### Checks run (all green)
+- `verify_unit ch10`: numbers 0/312 unresolved, anchors 4 ok.
+- `check_structure --pairs`: parity 312 | 312 OK.
+- `check_align ch10`: median 9.70 en/han (normal); 25 high-ratio outliers, all legitimately
+  short dialogue/parenthetical lines (no missing/displaced text).
+- `qc_entities`: 0 misses (after a name-survival pass, below).
+- `check_content`: 268 name occurrences, all in the paired paragraph — content alignment OK.
+- `check_apparatus`: 0 failures / 0 warnings.
+- `check_register --ref out/ch01_reading.md`: **within tolerance** — ch10 contractions 36.4/1k
+  = 2.31x the ch01 baseline (dialogue-heavy chapter, well-contracted; NOT stilted). em-dash
+  9.9/1k, rhythm CV 0.71.
+- `qa_epub`: PASS (34 files, 27 documents, 81 notes ref/body/backlink match, 140 pagebreaks).
+- `epubcheck` 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- Tail verified against the scan (rule 4): the ch10 close on folio 373 (paras 309-311,
+  "Don't count on it… if I'm still alive" → "…good as gold. A promise from you… is a sure
+  thing") matches the source; dense opener (paras 0-4) re-checked too.
+
+### Name-survival pass (qc/content wanted the rendered name once per paragraph)
+20 paragraphs first-drafted with a pronoun where the source names the character were
+re-anchored (Jirōzaemon ×3, Dōgen ×7, Gohei ×2, Kohagi ×5, Jūzō ×3, plus the Ōkurakyō
+hyphen fix). All natural insertions; STYLE's "name once, pronouns carry the rest" preserved.
+Also fixed "Ōkura-kyō" → "Ōkurakyō" to match the glossary form (大蔵卿).
+
+### Footnotes — new this batch (4, ch10's own first-appearances)
+1. **The open way / the shadow way** (陽道/陰道; the manuals' 陽忍/陰忍) — anchored on
+   "that open way was the usual method". The two modes of ninja infiltration; Jirōzaemon's
+   fatal switch from open to stealth is the hinge of his death scene.
+2. **The Bon festival spirit send-off** (中元の精霊送り) — anchored on "the Bon festival".
+   Cross-references the Daimonji-bonfire mention in the ch04 Nyoigatake note; adds the
+   seventh-month return/send-off of the dead that gives Jirōzaemon his night cover and the
+   scene its ghostly cast.
+3. **Shōchū** (焼酎) — anchored on "Is there any shōchū?". A bare romaji common noun glossed:
+   a clear distilled spirit; Jūzō wants it to pickle the severed hand before returning it.
+4. **The escape route east to Kōga** — anchored on "the foot of Higashiyama". Orients the
+   geography-blind reader on the chase from Kyoto over Higashiyama (Shibutani pass) past
+   Daigo and down the Uji river to the Kōga hills.
+
+### NOT re-noted (already placed in ch01-ch09; cross-referenced, not repeated)
+Iga/Kōga, the ninja ranks (rappa/shinobi/genin/jōnin), くノ一/kunoichi, the measures (ken,
+etc.), Otogi Pass, Higashiyama/Daimonji (Bon cross-ref to ch04), Ishida Mitsunari & his
+office (治部少輔/Jibu-no-shō), Imai Sōkyū & the Ōkurakyō/Hōin titles, Sakai, Maeda Gen'i &
+his alias 徳善院/Tokuzen'in (prose-only), Rokkaku/Sasaki Yoshikata = 佐々木抜関斎/Hakkansai,
+Mochizuki Gyōbuzaemon, the Bunroku-era dating, the Honnō-ji, Marishiten, the wakō/bahan
+world. 惻隠 (Mencian "compassion") rendered "pity", unnoted; the 鶺鴒 (wagtail) "seldom seen"
+conceit left unglossed (low-stakes tier).
+
+### Renderings — reused unchanged (all already in glossary.json; consulted before romanizing)
+People: Tsuzura Jūzō (葛籠重蔵/重蔵), Kazama Gohei (風間五平/五平), Shimotsuge Jirōzaemon
+(下柘植次郎左衛門/次郎左衛門), Kisaru (source uses kana 木さる; glossary key is 木猿), Kuroami
+(黒阿弥), Kohagi (小萩), Mari Dōgen (摩利洞玄/洞玄), Mochizuki Gyōbuzaemon (望月刑部左衛門/
+刑部左衛門), Hakkansai (抜関斎), Imai Sōkyū (今井宗久), Ishida Mitsunari (石田三成/三成),
+Maeda (前田), Gen'i (玄以). Places: Chinnō-in (珍皇院), Komatsudani (小松谷), Amidagamine
+(阿弥陀ヶ峰), Higashiyama (東山). Term: 竹ノ上人 "the Bamboo Saint" (Jirōzaemon's disguise).
+
+### Renderings — added this batch
+- **None added to glossary.json** — every recurring name/place in ch10 already had a row.
+- Prose-only (NOT glossaried, by design; single-appearance route markers): 渋谷 Shibutani,
+  醍醐 Daigo, 宇治川 Uji river, 郷之口 Gō-no-kuchi, 松原 Matsubara, 治部少輔 Jibu-no-shō
+  (Mitsunari's office). The escape-route footnote covers their orientation.
+
+### noise.txt added
+- `三昧` (zanmai, Buddhist "samādhi"; here 刃物三昧 "blade-play/indulgence") — the 三 is not a
+  quantity. One entry; check_numbers then clean 0/312.
+
+### Voice sheets — update
+- **Kisaru (木さる):** now a full lead, not a walk-on. Shimotsuge Jirōzaemon's own daughter;
+  spirited, blunt, dialect (わし/じゃ; refers to herself in the third person as "Kisaru"). In
+  ch10 Gohei rapes and abandons her, kills her father's usefulness to her, and casts her off;
+  she swears to kill both Dōgen and Gohei, then attaches herself fiercely to Jūzō (she loves
+  him openly, was paralysed with jealousy watching him with Kohagi, and settles for "just the
+  body" and the promise of marriage-after-vengeance). Wounded, growing up fast, no longer "a
+  mere child."
+- **Kohagi:** cool unbreakable poise holds even under Dōgen's blade-to-the-eye interrogation;
+  refers to herself formally as "Kohagi"; guards her chastity "for one to whom I must keep it"
+  (Jūzō). Jūzō confesses a "bond of the flesh" with her and, guardedly, that he has grown fond.
+- **Mari Dōgen:** in action — folksy, wry, menacing; loses his left hand at the wrist to Jūzō's
+  thrown-sword feint but escapes over the roof ("We'll settle it another day").
+
+### Where the story stands (end of ch10)
+The vacuum left by Jūzō's silence breeds "strange accidents." Gohei goads Jirōzaemon into
+attacking the Maeda mansion; Dōgen spears him through the floor, and Jirōzaemon fires a
+face-destroying charge rather than be taken. Gohei, freed of his old master, rapes and discards
+Kisaru, telling her Dōgen killed her father. Kisaru swears vengeance. Dōgen, interrogating
+Kohagi at Komatsudani (and discovering the old Iga knife-scar on her thigh), is ambushed by
+Jūzō, who has come courting Kohagi; Jūzō takes Dōgen's hand but he escapes. Jūzō and Kohagi
+ride for Kōga; Kisaru intercepts, and the chapter closes on the ridge above dawn with Jūzō
+sending Kisaru home to Shimotsuge to kill Dōgen herself, promising marriage "if I'm still
+alive." The Iga-Kōga blood-feud is now personal on both sides.

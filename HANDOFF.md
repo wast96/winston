@@ -6,36 +6,37 @@ picks up. The paste-ready kickoff is first; everything below it is context.
 ## Message to paste into the next chat
 
 ```
-Owl's Castle B10
+Owl's Castle B11
 
 Read CLAUDE.md in full (the working rules at the top are non-negotiable), then HANDOFF.md, then book.json, then STYLE.md (note the "calibrated at the ch01 voice gate" subsection: plain over arcane diction, people-as-agents not body-part calques, keep the author's own tense in gnomic/establishing description, gloss technical terms). We are translating Owl's Castle (梟の城, Shiba Ryōtarō) from an image-only scan (source.pdf) into an annotated English EPUB, per CLAUDE.md. Work ONLY on branch claude/owls-castle; expect the harness to start you on a stray branch and consolidate per rule 2 (fast-forward/cherry-pick any commits onto claude/owls-castle, push it, delete the stray). Deliverable out/owls-castle.epub. Vertical, right-to-left Japanese with furigana.
 
-Do Batch B10 = ch10 「奇妙な事故」 (A Strange Accident), printed folios 338-372, end to end per the CLAUDE.md pipeline. OFFSET IS +2 ACROSS THIS WHOLE SPAN: folio = PDF render page minus 2 (PDF 340 = folio 338, the ch10 opener; PDF 374 = folio 372; ch11 開く at PDF 375 = folio 373). This is because a scanner DOUBLE-FEED duplicated folios 324-325 at PDF 326-327 (see the B09 note below and PROGRESS "CRITICAL"), so from PDF 328 on the folio runs two behind the PDF page. READ the folio off the running head of every opener and spot pages to CONFIRM, and BUILD data/pagemap/ch10.json for this span (B11-B13 need the mapping; ch08.json is the format model). Watch for another anomaly near folios 397-425 (a possible 1-leaf scan gap; that is B12-B13, but confirm as you go).
+Do Batch B11 = ch11 「伊賀ノ山」 (The Hills of Iga), printed folios 373-396, end to end per the CLAUDE.md pipeline. OFFSET IS STILL +2 ACROSS THIS SPAN: folio = PDF render page minus 2 (PDF 375 = folio 373, the ch11 opener; PDF 398 = folio 396; ch12 吉野天人 開く at PDF 399 = folio 397). This is the same +2 caused by the PDF 326/327 double-feed (see B09/B10 notes). READ the folio off the running head of every opener and spot pages to CONFIRM, and BUILD data/pagemap/ch11.json for this span (ch08.json / ch10.json are the format model). WATCH for the possible 1-leaf scan gap near folios 397-425 that may bring the offset back to 0 (that is mainly B12-B13, but confirm the offset holds through folio 396 and flag any anomaly at the tail).
 
-ch10 body begins on folio 338 AFTER the 奇妙な事故 title with 錯綜した関係にある京の忍者のあいだに、ひとつの真空地帯ができた。 . ch09's tail SPILLS onto folio 338 BEFORE that title (five paragraphs ending 「わるい虫じゃ」 / 黒阿弥は苦虫を嚙みつぶしたような顔を作った。); those are DONE in ch09 — do NOT re-translate them. BEFORE translating, read the final two pages of ch09's English (the tail of out/ch09_reading.md) so the voice carries.
+ch11 body begins on folio 373 AFTER the 伊賀ノ山 title with 天正伊賀ノ乱から数えてこの年は十三年目になる。京からおとぎ峠へもどった葛籠重蔵のうえに、ふたたび無為の日月が流れた。 . ch10's tail SPILLS onto folio 373 BEFORE that title (three paragraphs: 「当てにするのではないぞ。わしに命があればじゃな」 / 重蔵のわるい癖で… / 「それなら、おとなしゅう下柘植へ帰る。重蔵様の約束ならきっと確かじゃ」); those are DONE in ch10 — do NOT re-translate them. BEFORE translating, read the final two pages of ch10's English (the tail of out/ch10_reading.md) so the voice carries.
 
-ch01 is the FROZEN register reference: run scripts/check_register.py --ref out/ch01_reading.md out/ch10_reading.md and fix any drift. CAUTION (the recurring failure mode): dialogue first-drafts STILTED. Contract the casual dialogue as you write (Jūzō blunt わし; Kuroami humble ござる; Mari Dōgen folksy わし/じゃ/のう; low-city voices) — do NOT leave "It is/I do not/you are" everywhere; keep the grave uncontracted line only for deliberately-formal registers (Kuroami's ござる, obsequious まする to a lord, quoted documents/scripture). ch05/ch08 both needed a whole contraction pass afterward; ch06 ran formal-by-design at 0.74x and passed, ch09 (dialogue-heavy) ran at 1.21x — a court chapter may sit below 1.0x, but 0.0x is a draft error, not "formal by design".
+ch01 is the FROZEN register reference: run scripts/check_register.py --ref out/ch01_reading.md out/ch11_reading.md and fix any drift. CAUTION (the recurring failure mode): dialogue first-drafts STILTED. Contract the casual dialogue as you write (Jūzō blunt わし; Kuroami humble ござる; Kisaru dialect わし/じゃ and self-reference "Kisaru"; low-city voices) — do NOT leave "It is/I do not/you are" everywhere; keep the grave uncontracted line only for deliberately-formal registers (Kuroami's ござる, obsequious まする to a lord, quoted documents/scripture). ch05/ch08 both needed a whole contraction pass afterward; ch06 ran formal-by-design at 0.74x and passed, ch09 ran 1.21x, ch10 (dialogue-heavy) ran 2.31x — a court chapter may sit below 1.0x, but 0.0x is a draft error, not "formal by design".
 
 Environment / pipeline (batch engineering already done and committed; do NOT re-patch or revert the scripts):
 1. ./setup.sh, THEN apt-get install -y tesseract-ocr-jpn tesseract-ocr-jpn-vert (setup.sh omits the Japanese packs). epubcheck at /tmp/epubcheck-5.1.0/epubcheck.jar (re-fetch per setup.sh if the container recycled). The pre-existing checker-regression FAIL "hook stands down on template stub" is unrelated; leave it.
-2. OCR: render.py 340 376 --dpi 300 (folios 338-373 sit at PDF 340-375; render 376 too for the tail check into ch11); then ocr_crop.py 340 375 --left 0.035 --right 0.965 --top 0.075 --bottom 0.955 --lang jpn_vert --psm 5 --no-furniture-strip; ocr_dual.py 340 375. Verify pgrep -c tesseract is 0 afterward (OMP_THREAD_LIMIT=1; kill the process GROUP if a run stalls). CHECK each rendered page's running-head folio against the expected folio = PDF - 2; if any PDF page repeats the previous folio, it is another double-feed — skip it and re-map.
-3. find_figures.py 340 375 AND eyeball every page for line art (ch01-ch09 were all text-only; if ch10 is too, record an empty figure list as a deliberate decision).
+2. OCR: render.py 375 400 --dpi 300 (folios 373-396 sit at PDF 375-398; render 399-400 too for the tail check into ch12); then ocr_crop.py 375 399 --left 0.035 --right 0.965 --top 0.075 --bottom 0.955 --lang jpn_vert --psm 5 --no-furniture-strip; ocr_dual.py 375 399. Verify pgrep -c tesseract is 0 afterward (OMP_THREAD_LIMIT=1; kill the process GROUP if a run stalls). CHECK each rendered page's running-head folio against the expected folio = PDF - 2; if any PDF page repeats the previous folio it is another double-feed (skip it) — and if a folio is SKIPPED, that is the 1-leaf gap re-mapping the offset; re-map from that page.
+3. find_figures.py 375 399 AND eyeball every page for line art (ch01-ch10 were all text-only; if ch11 is too, record an empty figure list as a deliberate decision).
 
 Translate:
-4. IMPORTANT: assemble.py WELDS paragraphs on this vertical Japanese AND OVERWRITES data/zh/chNN.txt — the B08 lesson. Translate by READING the rendered page images directly (data/png/p0NNNN.png) and hand-build data/zh/ch10.txt as a corrected, paragraph-aligned transcription (the parity surface); use a top-strip crop of each page (scratchpad crop.py) to read the paragraph INDENTS, since assemble mis-groups. Force-add data/zh/ch10.txt (data/zh/ is gitignored). Verify the unit's FINAL paragraphs against the scan explicitly before shipping (rule 4); render the ch11 opener folio (PDF 375) and check whether ch10's tail spills onto it, and make sure B11 does not re-translate any spillover. COVERAGE cross-check after transcribing: extract every 3+-kanji compound from the raw data/txt OCR (over the ch10 PDF span, excluding any duplicate leaves) and confirm each appears in your HAND data/zh/ch10.txt — garbles are expected; a clean meaningful compound that is absent is a real drop to fix.
-5. Consult glossary.json and STYLE.md BEFORE romanizing any name (Hepburn with macrons; conventional forms for Hideyoshi/Nobunaga/Kyoto/Tokugawa). Principal cast and majors are decided in glossary.json; reuse unchanged and record in PROGRESS which rows you reused. Crop-verify every proper name, number, unit designation and low-confidence span against the page image / furigana. Tooling: verify_names.py --pdf source.pdf --page N --auto shows the dual-OCR disagreement spans; the scratchpad crop.py 6x-renders a page-fraction rectangle (PAGE x0 y0 x1 y1 fractions; PAGE 1-based) and reads furigana cleanly — re-create it if the container recycled. Add glossary rows DIRECTLY into the sectioned people/places/terms (byte-preserving json load/dump with ensure_ascii=False, or the Edit tool — the B04-B09 method, NOT apparatus_merge which flattens the glossary). AVOID a bare-name row whose romanization is a substring of a fuller row in use, AND a hanzi key whose characters double as a counter/common word in the same chapter. Numerals inside names go in data/noise.txt (source side only, longest literal first, one comment line each). NEVER invent bridging text: if OCR cuts off mid-sentence or a leaf is damaged, crop the scan and read the actual continuation.
-6. Write out/ch10_reading.md, '## A Strange Accident' as the h1 (settle the English title at translation). Add a ch10 entry to data/checks.json (docs + sources). make_bilingual.py ch10 (parity FIRST). Then run: verify_unit.py ch10; check_structure.py --pairs data/zh/ch10.txt out/ch10_reading.md; check_align.py ch10; qc_entities.py out/ch10_bilingual.md glossary.json; check_content.py --config data/checks.json --glossary glossary.json; check_register.py --ref out/ch01_reading.md out/ch10_reading.md.
-7. Footnotes per the CLAUDE.md reader model (a Westerner with no Japanese history). Recurring subjects already noted in ch01-ch09 are NOT re-noted (grep notes.json first; cross-reference instead): Iga/Kōga, Tenshō/Eiroku/Kōji/Bunroku dating, the Iga Rebellion, Honnō-ji, Mount Hiei, Hideyoshi/Nobunaga/Ieyasu, the Sakai tea-masters/Rikyū/Sōkyū, the Hōin/Kampaku/Ōkurakyō/Ishida-office titles, Sakai the free-city, the meibutsu tea cult, Tenka Fubu, Sekigahara, the Korea invasion & Konishi Yukinaga, Tsurumatsu/Hidetsugu, Nanban, the Nara Great Buddha (Tōdai-ji) AND Hideyoshi's Hōkō-ji Great Buddha, the zodiac double-hours and 半刻/小半刻, Aizen Myō-ō, the wakō/bahan ships and Luzon, the measures (shaku/chō/koku/ri/ken/kin/tsubo/jō/kan/kanmon), rappa/shinobi/jōnin/genin, jizamurai/gōshi, the B04-B08 first-appearances (放下僧, Nyoigatake/Daimonji, Gion, Katō Kiyomasa, Maeda Gen'i & the Kyoto magistracy, 羅刹/rakshasa, Sennyū-ji, Hattori Hanzō, the Jurakudai, the kōshin monkey, くノ一/kunoichi, 忍び文字/shinobi-moji, Kashima/Katori & Bokuden, Miyamoto Musashi & the Yoshioka, Kisshōten, the Chōsokabe, 蓬莱/Hōrai, the 上り音曲・下り兵法 proverb, Makuzugahara, Ishida Mitsunari, Yamazaki 1582, the go-bugyō, Yanagimachi, the Iga-goe), AND the B09 first-appearances: Marishiten/Mārīcī, the Udaifu (右府=Nobunaga) and Naifu (内府=Ieyasu) court titles, Yodo-dono (小谷殿の娘) & Odani, Rokkaku/Sasaki Yoshikata (抜関斎/承禎/Hakkansai/Jōtei) & Kannon-ji castle 1568, the 1487 Magari campaign & shogun Yoshihisa, the fifty-three houses of Kōga, Kōga Saburō, Oiro Tayuya/Prince Shōtoku's spy, the Odawara campaign (1590), Nagoya castle in Hizen. Note only ch10's NEW first-appearances. Anchor notes to BODY phrases (verbatim substrings), not heading-only text. Add via apparatus_merge.py (never a heredoc); check_apparatus.py clean.
-8. Rebuild the cumulative EPUB (build_reading_epub.py); qa_epub.py until green; epubcheck. Record every check result in PROGRESS.md (the per-batch "NOT re-noted" list, the register result, and the renderings reused/added), INCLUDING the confirmed folio-to-PDF map for this span and the data/pagemap/ch10.json you built.
+4. IMPORTANT: assemble.py WELDS paragraphs on this vertical Japanese AND OVERWRITES data/zh/chNN.txt — the B08 lesson. Translate by READING the rendered page images directly (data/png/p0NNNN.png) and hand-build data/zh/ch11.txt as a corrected, paragraph-aligned transcription (the parity surface); use a top-strip crop of each page (scratchpad crop.py) to read the paragraph INDENTS, since assemble mis-groups. Force-add data/zh/ch11.txt (data/zh/ is gitignored). Verify the unit's FINAL paragraphs against the scan explicitly before shipping (rule 4); render the ch12 opener folio (PDF 399) and check whether ch11's tail spills onto it, and make sure B12 does not re-translate any spillover. COVERAGE cross-check after transcribing: extract every 3+-kanji compound from the raw data/txt OCR (over the ch11 PDF span, excluding any duplicate leaves) and confirm each appears in your HAND data/zh/ch11.txt — garbles are expected; a clean meaningful compound that is absent is a real drop to fix.
+5. Consult glossary.json and STYLE.md BEFORE romanizing any name (Hepburn with macrons; conventional forms for Hideyoshi/Nobunaga/Kyoto/Tokugawa). Principal cast and majors are decided in glossary.json; reuse unchanged and record in PROGRESS which rows you reused. Crop-verify every proper name, number, unit designation and low-confidence span against the page image / furigana. Tooling: verify_names.py --pdf source.pdf --page N --auto shows the dual-OCR disagreement spans; the scratchpad crop.py 6x-renders a page-fraction rectangle (PAGE x0 y0 x1 y1 fractions; PAGE 1-based) and reads furigana cleanly — re-create it if the container recycled (see "Tooling in place" below for its body). Add glossary rows DIRECTLY into the sectioned people/places/terms (byte-preserving json load/dump with ensure_ascii=False, or the Edit tool — the B04-B10 method, NOT apparatus_merge which flattens the glossary). AVOID a bare-name row whose romanization is a substring of a fuller row in use, AND a hanzi key whose characters double as a counter/common word in the same chapter. Numerals inside names go in data/noise.txt (source side only, longest literal first, one comment line each). NEVER invent bridging text: if OCR cuts off mid-sentence or a leaf is damaged, crop the scan and read the actual continuation.
+6. Write out/ch11_reading.md, '## The Hills of Iga' as the h1 (settle the English title at translation). Add a ch11 entry to data/checks.json (docs + sources). make_bilingual.py ch11 (parity FIRST). Then run: verify_unit.py ch11; check_structure.py --pairs data/zh/ch11.txt out/ch11_reading.md; check_align.py ch11; qc_entities.py out/ch11_bilingual.md glossary.json; check_content.py --config data/checks.json --glossary glossary.json; check_register.py --ref out/ch01_reading.md out/ch11_reading.md. (qc/content want the rendered name once per paragraph the character appears in — do a name-survival pass over any pronoun-only paragraph, as in B10.)
+7. Footnotes per the CLAUDE.md reader model (a Westerner with no Japanese history). Recurring subjects already noted in ch01-ch10 are NOT re-noted (grep notes.json first; cross-reference instead): Iga/Kōga, Tenshō/Eiroku/Kōji/Bunroku dating, the Iga Rebellion (天正伊賀ノ乱), Honnō-ji, Mount Hiei, Hideyoshi/Nobunaga/Ieyasu, the Sakai tea-masters/Rikyū/Sōkyū, the Hōin/Kampaku/Ōkurakyō/Ishida-office (治部少輔) titles, Sakai the free-city, the meibutsu tea cult, Tenka Fubu, Sekigahara, the Korea invasion & Konishi Yukinaga, Tsurumatsu/Hidetsugu, Nanban, the Nara Great Buddha (Tōdai-ji) AND Hideyoshi's Hōkō-ji Great Buddha, the zodiac double-hours and 半刻/小半刻, Aizen Myō-ō, the wakō/bahan ships and Luzon, the measures (shaku/chō/koku/ri/ken/kin/tsubo/jō/kan/kanmon), rappa/shinobi/jōnin/genin, jizamurai/gōshi, くノ一/kunoichi, 忍び文字/shinobi-moji, Marishiten, the Udaifu/Naifu court titles, Yodo-dono & Odani, Rokkaku/Sasaki Yoshikata (Hakkansai/Jōtei) & Kannon-ji 1568, the 1487 Magari campaign, the fifty-three houses of Kōga, Kōga Saburō, the Odawara campaign, Nagoya castle in Hizen, Hattori Hanzō, the Jurakudai, the go-bugyō, the Iga-goe, Miyamoto Musashi & the Yoshioka, Kashima/Katori & Bokuden, AND the B10 first-appearances: the open way / shadow way (陽忍/陰忍) of ninja infiltration, the Bon spirit send-off (中元), shōchū, the Kyoto-to-Kōga escape route (Higashiyama/Shibutani/Daigo/Uji river). Note only ch11's NEW first-appearances. Anchor notes to BODY phrases (verbatim substrings), not heading-only text. Add via apparatus_merge.py (never a heredoc); check_apparatus.py clean.
+8. Rebuild the cumulative EPUB (build_reading_epub.py); qa_epub.py until green; epubcheck. Record every check result in PROGRESS.md (the per-batch "NOT re-noted" list, the register result, and the renderings reused/added), INCLUDING the confirmed folio-to-PDF map for this span and the data/pagemap/ch11.json you built.
 
-Deliver end to end; do not pause for approval mid-batch. At the end, in the SAME chat reply: attach the built out/owls-castle.epub AND paste the B11 kickoff (ch11 「伊賀ノ山」 The Hills of Iga, printed folios 373-396; still in the +2 span, PDF 375-398 — read folios and extend data/pagemap) verbatim in a fenced block. Cite printed folios, never PDF page numbers, in the notes.
+Deliver end to end; do not pause for approval mid-batch. At the end, in the SAME chat reply: attach the built out/owls-castle.epub AND paste the B12 kickoff (ch12 「吉野天人」 The Celestial Maiden of Yoshino, printed folios 397-424; the +2 span likely ENDS somewhere in 397-425 via a 1-leaf gap — read folios and extend data/pagemap, do not compute the offset) verbatim in a fenced block. Cite printed folios, never PDF page numbers, in the notes.
 ```
 
 ## Done so far
 - **Survey:** 19-section structure recovered into book.json; metadata set; skeleton
   EPUB built; page furniture measured (crop L0.035 R0.965 T0.075 B0.955; model
-  jpn_vert psm5). Offset: 0 for folios 7-325; +2 from folio 326 (see the double-feed
-  note under Tooling); an apparent 1-leaf gap near 397-425 still to confirm (B12-B13).
+  jpn_vert psm5). Offset: 0 for folios 7-325; +2 from folio 326 (PDF 328) onward through
+  the middle span (see the double-feed note under Tooling); an apparent 1-leaf gap near
+  397-425 still to confirm (B12-B13).
 - **B01 = ch01 おとぎ峠 / Otogi Pass (folios 7-63): COMPLETE, approved at the voice
   gate.** ch01 is the FROZEN register reference. 523 paragraphs, 17 notes.
 - **B02 = ch02 濡れ大仏 / The Rain-Soaked Buddha (64-89): COMPLETE.** 276 paras, 6 notes.
@@ -46,14 +47,15 @@ Deliver end to end; do not pause for approval mid-batch. At the end, in the SAME
 - **B07 = ch07 聚楽 / Juraku (207-236): COMPLETE.** 280 paras, 5 notes.
 - **B08 = ch08 京の盗賊 / The Thief of the Capital (237-301, tail on 302): COMPLETE.**
   580 paras, 6 notes.
-- **B09 = ch09 甲賀ノ摩利 / Mari of Kōga (302-337, tail on 338): COMPLETE.** 324 paragraphs,
-  11 new notes (book total 77). All checks green (numbers 0/324, parity 324|324,
-  qc/content/apparatus clean, register 1.21x ref, qa_epub PASS, epubcheck 0/0/0/0).
-  Gen'i hires the old Kōga rappa Mari Dōgen to watch the "capital thief"; Kohagi is
-  revealed as Rokkaku Yoshikata's daughter, Kōga-trained, planted on Sōkyū by Mitsunari;
-  Dōgen and Jūzō recognise each other as the rival leaders; Hideyoshi leaves for the
-  Korean war and the shadow-war goes quiet. A SCANNER DOUBLE-FEED was found and mapped
-  (PDF 326/327 duplicate folios 324/325); no content lost.
+- **B09 = ch09 甲賀ノ摩利 / Mari of Kōga (302-337, tail on 338): COMPLETE.** 324 paras, 11 notes.
+- **B10 = ch10 奇妙な事故 / A Strange Accident (338-372, tail on 373): COMPLETE.** 312 paragraphs,
+  4 new notes (book total 81). All checks green (numbers 0/312, parity 312|312, qc/content/
+  apparatus clean, register 2.31x ref within tolerance, align median 9.70, qa_epub PASS,
+  epubcheck 0/0/0/0). Gohei goads Jirōzaemon to his death at Dōgen's spear; Gohei rapes and
+  casts off Kisaru (Jirōzaemon's daughter) and tells her Dōgen killed her father; Dōgen
+  interrogates Kohagi at Komatsudani and is ambushed by Jūzō (who has come courting her);
+  Jūzō takes Dōgen's hand, Dōgen escapes; Kisaru attaches herself to Jūzō, who sends her home
+  to Shimotsuge to kill Dōgen herself. data/pagemap/ch10.json built (36 entries). NO figures.
 
 ## ch01 corrections made earlier (do NOT undo)
 1. ch01's dropped final two paragraphs restored in B02; ch01 parity is 523 | 523.
@@ -72,11 +74,10 @@ Deliver end to end; do not pause for approval mid-batch. At the end, in the SAME
   needs the EXACT `en` present (substring) and only uses `en` that are Capitalised,
   slash-free and >= 4 chars (so bare "Dōgen" satisfies qc where 摩利洞玄 appears, but
   check_content wants "Mari Dōgen" there — render the full form in 摩利洞玄 paragraphs).
-- `data/checks.json`: the {docs, sources} config. ch01-ch09 in.
-- `data/noise.txt`: check_numbers noise. B09 added the roster/name numerals (四郎兵衛,
-  十郎, 八郎, 七郎, 三郎, 五郎, 四方, 八田, 三雲, 三河, 六角, 三満多) and 十四、五. Extend per its
-  header, longest literal first, one comment line each; never noise a real quantity you
-  dropped (fix the English to carry it).
+- `data/checks.json`: the {docs, sources} config. ch01-ch10 in.
+- `data/noise.txt`: check_numbers noise. B10 added `三昧` (zanmai / 刃物三昧). B09 added the
+  roster/name numerals. Extend per its header, longest literal first, one comment line each;
+  never noise a real quantity you dropped (fix the English to carry it).
 - **Glossary is SECTIONED (people/places/terms), NOT flat.** apparatus_merge flattens
   glossary rows to the ROOT, so since B04 add glossary rows DIRECTLY into the sections
   (Edit tool, or json load/dump ensure_ascii=False indent=2). Notes and figures merge
@@ -85,97 +86,105 @@ Deliver end to end; do not pause for approval mid-batch. At the end, in the SAME
   heading-only anchor. Note bodies: literal Unicode is fine (em dash, macrons, curly
   quotes); only NAMED HTML entities are rejected (use numeric refs or the literal char).
 - **Substring trap for glossary keys:** do NOT add a bare-name row whose romanization is a
-  substring of a fuller row in use (宗久⊂Imai Sōkyū). SAFE full+bare pairs that mirror the
-  重蔵/葛籠重蔵 precedent are fine and used: 摩利洞玄/洞玄, 望月刑部左衛門/刑部左衛門. When a
-  place key collides as a substring of another word (山城 Yamashiro inside 釜山城 Pusan
-  castle), add the longer key (釜山城) so it subsumes the shorter at that span.
-- **SCANNER DOUBLE-FEED (found in B09):** PDF 326 and 327 are re-scans of folios 324 and
-  325 (running heads read 324, 325; OCR identical). The real run resumes at PDF 328 =
-  folio 326. So **folio = PDF - 2 from PDF 328 onward** through this middle span
-  (PDF 340 = folio 338 = ch10, PDF 375 = folio 373 = ch11). CHECK the folio on every
-  rendered page and skip any further duplicate leaf. Build data/pagemap for the span with
-  this map. book.json's source_note still says the drift starts ~338; the true start is
-  folio 326 (PDF 328).
-- **Method:** hand-transcribe from the page images; use a top-strip crop (scratchpad
-  crop.py, e.g. PAGE 0.05 0.07 0.95 0.20) to read paragraph INDENTS, since assemble.py
-  mis-groups AND overwrites data/zh/chNN.txt. Dialogue lines are their own paragraphs;
-  narration that ends in 、 and leads into a quote is kept as its own line (the quote is a
-  separate line). Interleaved narration/dialogue on dense pages mis-orders from the full
-  page — crop the columns and read right-to-left, top-to-bottom literally.
+  substring of a fuller row in use (宗久⊂Imai Sōkyū). SAFE full+bare pairs (重蔵/葛籠重蔵,
+  摩利洞玄/洞玄, 望月刑部左衛門/刑部左衛門) are fine and used. When a place key collides as a
+  substring of another word (山城 Yamashiro inside 釜山城 Pusan castle), add the longer key.
+- **SCANNER DOUBLE-FEED (found B09):** PDF 326/327 are re-scans of folios 324/325. So
+  **folio = PDF - 2 from PDF 328 onward** through the middle span (PDF 375 = folio 373 =
+  ch11; PDF 399 = folio 397 = ch12). CHECK the folio on every rendered page; skip any further
+  duplicate leaf. A SKIPPED folio marks the 397-425 1-leaf gap that re-maps the offset — watch
+  for it near the end of B11/into B12.
+- **scratchpad crop.py** (re-create if the container recycled): renders a fractional
+  rectangle of a source.pdf page at high zoom so furigana is legible. Signature
+  `crop.py PAGE x0 y0 x1 y1 [zoom]` (PAGE 1-based; fractions of the full page; default zoom 6).
+  Uses pymupdf (`import fitz`/pymupdf), opens /home/user/winston/source.pdf, clips to the
+  rect, saves scratchpad/_crop.png. Read the png to eyeball furigana / running-head folios.
+- **Method:** hand-transcribe from the page images; use a top-strip crop (e.g. PAGE
+  0.0 0.0 1.0 0.09) to read running-head folios and (0.05 0.07 0.95 0.20) for paragraph
+  INDENTS, since assemble.py mis-groups AND overwrites data/zh/chNN.txt. Dialogue lines are
+  their own paragraphs; narration that ends in 、 and leads into a quote is its own line (the
+  quote is a separate line). Interleaved narration/dialogue on dense pages mis-orders from the
+  full page — crop the columns and read right-to-left, top-to-bottom literally. Flush the
+  transcription to a scratch build file per few pages so a context summary can't lose it.
 
 ## Renderings settled in glossary.json (reuse unchanged; consult before romanizing)
 Principal cast (principal:true): Tsuzura Jūzō (葛籠重蔵 / 重蔵), Kazama Gohei (風間五平 /
-五平), Shimotsuge Jirōzaemon (下柘植次郎左衛門), Kisaru (木さる / 木猿), Kuroami (黒阿弥).
-Kohagi (小萩) and Imai Sōkyū (今井宗久) are the other leads. B09 people added: Mari Dōgen
-(摩利洞玄 / 洞玄; birth name 伴藤内 Ban Tōnai; byname 甲賀ノ摩利 "Mari of Kōga"), Mochizuki
-Gyōbuzaemon (望月刑部左衛門 / 刑部左衛門; given name 重久 Shigehisa), Hakkansai (抜関斎 =
-Rokkaku/Sasaki Yoshikata), Jōtei (承禎入道, Yoshikata's later name). B09 terms: Marishiten
-(摩利支天), Kōga Saburō (甲賀三郎), Kōga letter (甲賀文, fictional). B09 places: Pusan castle
-(釜山城). NOT glossaried by design: bare 摩利 "Mari" (substring of 摩利洞玄 and 摩利支天; rendered
-in prose), Gen'i's aliases 徳善院 Tokuzen'in / 半夢斎 Hanmusai (prose only). Earlier rows
-(Nobunaga, Hideyoshi, Ieyasu, Gen'i, Sōkyū, Hattori Hanzō, Ishida Mitsunari, Iga/Kōga/Ōmi/
-Sakai/Ōsaka/Nara/Gifu, 方広寺 Hōkō-ji, 伊勢屋嘉兵衛 Iseya Kahei, おとぎ峠 Otogi Pass, the
-measures, etc.) are all in glossary.json.
+五平), Shimotsuge Jirōzaemon (下柘植次郎左衛門), Kisaru (木さる / key 木猿), Kuroami (黒阿弥).
+Kohagi (小萩) and Imai Sōkyū (今井宗久) are the other leads. Mari Dōgen (摩利洞玄 / 洞玄; birth
+name 伴藤内 Ban Tōnai; byname 甲賀ノ摩利 "Mari of Kōga"), Mochizuki Gyōbuzaemon (望月刑部左衛門 /
+刑部左衛門; given name 重久 Shigehisa), Hakkansai (抜関斎 = Rokkaku/Sasaki Yoshikata), Jōtei
+(承禎入道). Terms: Marishiten (摩利支天), Kōga Saburō (甲賀三郎), 竹ノ上人 "the Bamboo Saint"
+(Jirōzaemon's disguise). Places used in ch10 (all pre-existing): Chinnō-in (珍皇院), Komatsudani
+(小松谷), Amidagamine (阿弥陀ヶ峰), Higashiyama (東山). NOT glossaried by design: bare 摩利 "Mari";
+Gen'i's aliases 徳善院 Tokuzen'in / 半夢斎 Hanmusai (prose only); ch10's single-appearance route
+markers 渋谷 Shibutani, 醍醐 Daigo, 宇治川 Uji river, 郷之口 Gō-no-kuchi, 松原 Matsubara, 治部少輔
+Jibu-no-shō. Earlier rows (Nobunaga, Hideyoshi, Ieyasu, Gen'i, Sōkyū, Hattori Hanzō, Ishida
+Mitsunari, Iga/Kōga/Ōmi/Sakai/Ōsaka/Nara/Gifu, 方広寺 Hōkō-ji, 伊勢屋嘉兵衛 Iseya Kahei, おとぎ峠
+Otogi Pass, the measures, etc.) are all in glossary.json.
 
 ## Voice sheets (consult at every dialogue scene)
-- **Tsuzura Jūzō:** mid-30s, thick-shouldered, terse, blunt (わし). The grudge has cooled
-  into the one "tremendous ninja's stage" of killing Hideyoshi; he plays a long waiting
-  game. In ch09 he learns Mari Dōgen of Kōga is set against him, resolves to cut him "when
-  an opening comes," but "since I idled ten years at Otogi Pass I've come to pity anything
-  that lives and moves — the ferocity's left my heart." Waits for the Toyotomi collapse;
-  will NOT leave the capital (won't cut the thread to it). Wry with Kuroami.
+- **Tsuzura Jūzō:** mid-30s, thick-shouldered, terse, blunt (わし). Plays a long waiting game
+  for the Toyotomi collapse; will NOT leave the capital. In ch10 he cuts off Dōgen's hand,
+  courts Kohagi (admits a "bond of the flesh" and, guardedly, fondness), and sends Kisaru home
+  to kill Dōgen herself, half-promising marriage "if I'm still alive" — a bad habit of treating
+  her as a child. Wry, dry.
 - **Kuroami:** Jūzō's aged genin (past fifty), under five shaku, boy's face; humble archaic
-  ござる/申す, chides Jūzō like a father, superstitious and openly fearful (teeth chatter),
-  practical. Fronts as the whetter "Iseya Kahei." Trembles at the Kōga threat; proposes
-  retreating to Otogi Pass. Addresses/refers to Jūzō as "Master Jūzō".
-- **Mari Dōgen (甲賀ノ摩利洞玄):** the aged Kōga rappa (past fifty but robust, coarse-haired,
-  eats dried boar's gall). Folksy, blunt, wry, self-mocking; わし/じゃ/のう/おぬし; the "owl"
-  philosophy ("a ninja lives in the hollows of men, alone"). Once carried Gen'i and the
-  infant Sanbōshi out of the Honnō-ji trap; holds Gen'i to a fifty-kanmon-a-year debt.
-  Calls Gen'i "Tokuzen'in-dono," teases him ("too good-hearted for an inquisitor"). Sizes
-  Jūzō up as a "stripling" but privately wary ("a trial of skill between Kōga and Iga").
+  ござる/申す, chides Jūzō like a father, superstitious and fearful, practical. Fronts as the
+  whetter "Iseya Kahei." Addresses/refers to Jūzō as "Master Jūzō". (Off-stage in ch10.)
+- **Mari Dōgen (甲賀ノ摩利洞玄):** the aged Kōga rappa (past fifty, robust, eats dried boar's
+  gall). Folksy, blunt, wry, self-mocking; わし/じゃ/のう/そこもと/おぬし. In ch10 he spears
+  Jirōzaemon, interrogates Kohagi (blade to the eye, then finds the Iga scar), loses his left
+  hand to Jūzō but escapes over the roof ("We'll settle it another day").
 - **Kazama Gohei:** beautiful, androgynous, cold, clerkly. Now Gero Shōbei Yasuji, raised to
-  300 koku by Gen'i, who has unmasked him and set him to hunt the thief. Superior わし/じゃ to
-  inferiors, obsequious ます/です to a master. (Off-stage in ch09; will return.)
-- **Kohagi (小萩):** Imai Sōkyū's adopted daughter; REVEALED in ch09 as the natural daughter
-  of Rokkaku Yoshikata (Hakkansai/Jōtei), left with Mochizuki Gyōbuzaemon in Kōga, taught
-  the full Kōga arts (holds the Kōga license), then placed on Sōkyū by Ishida Mitsunari.
-  Cool unbreakable poise, a smoky half-smile. Dōgen has left her a Kōga calling-card.
-- **Maeda Gen'i (徳善院/半夢斎):** the shrewd Kyoto magistrate, a former Owari abbot risen by
-  wit; a "true villain" who keeps a debt more faithfully than any good man; secretly tilting
-  to the Tokugawa. Heavy-lidded, lordly, formal; hunts the thief under pressure from Hideyoshi.
+  300 koku by Gen'i. Superior わし/じゃ to inferiors, obsequious ます/です to a master. In ch10:
+  goads Jirōzaemon (his own old master) to death, then rapes and discards Kisaru, cold to the last.
+- **Kohagi (小萩):** Imai Sōkyū's adopted daughter; the natural daughter of Rokkaku Yoshikata,
+  Kōga-trained (holds the Kōga license), planted on Sōkyū by Mitsunari. Cool unbreakable poise —
+  holds even under Dōgen's blade; refers to herself formally as "Kohagi"; keeps her chastity
+  "for one to whom I must keep it" (Jūzō, who once stabbed her; there is a bond of the flesh).
+- **Kisaru (木さる):** Shimotsuge Jirōzaemon's daughter; now a full lead. Spirited, blunt, dialect
+  (わし/じゃ; self-reference "Kisaru"). In ch10 Gohei rapes and casts her off and reveals Dōgen
+  killed her father; she swears to kill Dōgen and Gohei, then attaches herself fiercely to Jūzō
+  (loves him openly, was jealousy-paralysed watching him with Kohagi). Wounded, growing up fast.
+- **Maeda Gen'i (徳善院/半夢斎):** the shrewd Kyoto magistrate, a "true villain" who keeps a debt
+  more faithfully than any good man; secretly tilting to the Tokugawa. (Off-stage in ch10.)
 
-## Where the story stands (end of ch09)
-The Kōga side is on the board. Gen'i, hunting the "capital thief" under Hideyoshi's pressure,
-recalls his old life-debt and hires Mari Dōgen of Kōga. Kohagi's secret is out: she is Rokkaku
-Yoshikata's daughter, Kōga-trained, planted on Imai Sōkyū by Ishida Mitsunari. Dōgen and Jūzō
-each learn the other leads the rival side and size each other up. Then Hideyoshi departs for the
-Korean war (Bunroku 1 / 1592) and the capital's shadow-war goes quiet: Jūzō lies low, waiting for
-the Toyotomi collapse but refusing to leave the capital; Dōgen, uneasy at the silence, stays on in
-Gen'i's grounds disguised as a shrine-keeper, having already glimpsed the sleeping Kohagi and left
-a Kōga card. ch10 奇妙な事故 / A Strange Accident (opener already on folio 338) opens on the "vacuum"
-this quiet has left among the tangled ninja of the capital.
+## Where the story stands (end of ch10)
+Jūzō's long silence has bred "strange accidents" among the capital's ninja. Gohei goaded his own
+old master Shimotsuge Jirōzaemon into raiding the Maeda mansion, where Dōgen speared him through
+the floor and Jirōzaemon fired a face-destroying charge rather than be taken. Freed of his master,
+Gohei raped and discarded Kisaru (Jirōzaemon's daughter), telling her Dōgen was the killer.
+Kisaru swore vengeance. Dōgen, interrogating Kohagi at Komatsudani, was ambushed by Jūzō (come
+courting Kohagi); Jūzō took Dōgen's left hand but he escaped over the roof. Jūzō and Kohagi rode
+for Kōga; Kisaru intercepted, and on the dawn ridge Jūzō sent her home to Shimotsuge to kill
+Dōgen herself, half-promising marriage. ch11 伊賀ノ山 / The Hills of Iga (opener on folio 373)
+opens thirteen years after the Tenshō Iga Rebellion, with Jūzō back at Otogi Pass and idle days
+flowing over him again.
 
 ## Next batch
-B10 = ch10 奇妙な事故 / A Strange Accident, printed folios 338-372 (PDF 340-374; OFFSET +2, folio =
-PDF - 2). ch10 body begins AFTER the 奇妙な事故 title on folio 338 (錯綜した関係にある京の忍者のあいだに、
-ひとつの真空地帯ができた。); ch09's tail (before the title) is done. Then B11 = ch11 伊賀ノ山 / The Hills
-of Iga, folios 373-396 (PDF 375-398), still in the +2 span.
+B11 = ch11 伊賀ノ山 / The Hills of Iga, printed folios 373-396 (PDF 375-398; OFFSET +2, folio =
+PDF - 2). ch11 body begins AFTER the 伊賀ノ山 title on folio 373 (天正伊賀ノ乱から数えてこの年は
+十三年目になる。京からおとぎ峠へもどった葛籠重蔵…); ch10's tail (three paras before the title) is
+done. Then B12 = ch12 吉野天人 / The Celestial Maiden of Yoshino, folios 397-424 — where the +2
+offset likely ENDS via a 1-leaf gap; read folios, do not compute.
 
 ## Open traps / environment
-- **Offset is +2 across this whole middle span** because of the PDF 326/327 double-feed:
-  folio = PDF - 2 from PDF 328 on. READ folios off the running heads; skip any further
-  duplicate leaf; build data/pagemap for the span. Watch for a possible 1-leaf gap near 397-425.
-- A chapter's tail can spill onto the next opener folio (ch03/04/06/07/08/09 did) — render the
-  next opener and verify; make sure the next batch does not re-translate the spillover.
+- **Offset is +2 across this middle span** because of the PDF 326/327 double-feed: folio = PDF - 2
+  from PDF 328 on. READ folios off the running heads; skip any further duplicate leaf; build
+  data/pagemap for the span. Watch for the possible 1-leaf gap near 397-425 that re-maps to 0.
+- A chapter's tail can spill onto the next opener folio (ch03/04/06/07/08/09/10 all did) — render
+  the next opener and verify; make sure the next batch does not re-translate the spillover.
 - Furigana leakage and dropped clauses cluster on the DENSE opener and the TAIL. Re-read both
   against the scan and run the compound-coverage grep before shipping.
 - **assemble.py OVERWRITES data/zh/chNN.txt AND welds paragraphs** — hand-transcribe from the
-  images; use a top-strip crop to read indents; if you run assemble as a coverage aid, back up
-  data/zh first and restore before the grep.
+  images; use a top-strip crop to read indents.
+- qc_entities / check_content want the rendered name once per paragraph the character appears in
+  — do a name-survival pass over pronoun-only paragraphs (B10 fixed 20 such). Match the glossary
+  `en` form exactly (e.g. "Ōkurakyō", not "Ōkura-kyō").
 - OMP_THREAD_LIMIT=1 for tesseract; verify pgrep -c tesseract is 0 after OCR.
 - Do not write CJK into JSON via a shell heredoc; use apparatus_merge.py (notes/figures) or the
-  Write/Edit tool or a python json load/dump (glossary), then re-read to verify.
+  Write/Edit tool or a python json load/dump (glossary), then re-read to verify. (Plain-text
+  data/noise.txt via a heredoc is fine — it's not JSON — but re-read to confirm.)
 - Substring trap for glossary keys (bare ⊂ full; hanzi ⊂ counters/common words; place ⊂ compound).
 - **Dialogue first-drafts STILTED — contract as you write** (see the kickoff caution); if you run
   a post-hoc pass, watch clause-final over-contraction ("you're."/"there's." are ungrammatical).

@@ -181,3 +181,5 @@
 三満多
 # "fourteen or fifteen" (十四、五): age approximation; 五 here reads 15, carried as "fifteen"
 十四、五
+# 三昧 (zanmai, Buddhist "samādhi"; here 刃物三昧 "blade-play/indulgence"): not a quantity
+三昧
