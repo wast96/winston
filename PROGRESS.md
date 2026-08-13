@@ -193,3 +193,6 @@ recur later in the novella). All recurring names/terms carry a glossary row.
   马革裹尸 / Ma Yuan, 灯下黑, 人不风流枉少年, 染红, the plum-blossom emblem),
   plus material-culture glosses (the Red House, Tieguanyin, kabushiki-gaisha).
 - All checks re-run green; qa_epub PASS, epubcheck 5.1.0 clean; 50 notes.
+- VOICE GATE PASSED (commissioner). ch01 frozen as reference/ch01.md;
+  check_register now live for B02 onward. Register baseline: dialogue
+  contractions 18.5/1k, em-dash 0.0/1k. Handoff rewritten to the B02 kickoff.
