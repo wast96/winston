@@ -1,0 +1,53 @@
+## 1
+
+Yanzhi married Baosheng on the third day after she came home.
+
+The wedding was held in their shop. There was no great bridal sedan, no witness to the vows. It was a wedding come late, and those who attended were the neighbors and the proprietors of the few storefronts nearby. Baosheng ordered two tables of food from the Baifulou. But before the wine in the pots was drunk, the neighbors and the shopkeepers rose one by one to take their leave. At the shop door they made their bows again, wishing the couple long life together and a fine son soon. Baosheng, embarrassed, took off his felt hat and pressed them to stay: it was early yet, and so many dishes still to come. It's late, they all said; better to turn in early.
+
+Yanzhi said not a word. She stood beside her new husband and watched the guests go, calm, as though the bride tonight were not herself but some stranger who had nothing to do with her. It pained Baosheng. He crossed to the table and picked up a half-cup of wine, meaning at first to drain it in a swallow, then instead sat down and looked at Yanzhi. “Eat a little more,” he said. “Don't let it go to waste.”
+
+Yanzhi shook her head and turned into the bridal chamber. She sat at the dressing table and looked a long time at herself in the mirror, then slowly drew off her earrings and hairpin flowers, laying each one into the jewelry box with care, and took up the comb and began to comb her hair, stroke by stroke. It was thick and heavy hair, and in the candlelight it merged wholly with the shadows.
+
+Baosheng appeared all at once in the mirror. Yanzhi started, the comb going still in her hand, and looked without a blink at her new husband in the glass. Baosheng's mouth worked into something like a smile. “Then let's sleep early,” he said.
+
+The bridal chamber in the dark was quiet enough to wring the heart. The two of them lay a long while under the quilt without stirring before Baosheng, hesitating, at last turned and rose over her. Through all of it Yanzhi stayed as calm as before. She yielded to her husband gently, a little boat let go on the current, her eyes fixed on the pitch-black canopy of the bed.
+
+That whole night Yanzhi never slept. Near daybreak she threw her arms of a sudden around the sleeping Baosheng, and held him so hard she seemed to want to press her whole body into his. Baosheng woke at once, his body going rigid, and answered her. “Don't worry,” he said. “I'll be good to you.”
+
+Yanzhi did not speak; out of old habit she bit her lower lip. Three days before, the moment she had stepped into the shop with a wisteria-cane case in her hand, she had stood before Baosheng biting her lower lip just so. It had been near dusk then, the setting sun slanting past the eaves across the street and falling in over the threshold, dim and spent. Baosheng had been bent to the worktable pressing a satin cheongsam, and taking her for a customer he straightened with a smile, only to know Yanzhi in an instant by that wisteria-cane case. Iron in hand, its box full of glowing charcoal, Baosheng stood stunned a good while, then turned his head and looked at the portrait of his master on the wall.
+
+Yanzhi's father, Bai Tailai, wore a long gown and riding jacket; in the dull gray of the frame he held his thin face stern, a scrupulous old country gentleman. He had once been the finest tailor in Xietang, able to work the frog-buttons of a cheongsam into seventy-two flowered knots, a thing without equal for a hundred li around Jiahe County. He had given his craft to Baosheng and held nothing back, and dying he had taken Yanzhi's hand and put the shop, and his daughter with it, into this apprentice's keeping. By then Bai Tailai could no longer speak. The weather was so hot you could hear the flagstones in the street crack with a dry snap in the sun, and still he lay cold on the bed, wrapped tight in two cotton quilts. He stared wide-eyed at his daughter's face, but what he saw was the retreating back of his wife, gone these many years. She had worn a cheongsam of small flowers, and swaying and slight she had walked farther and farther off, yet to his death she never faded from Bai Tailai's longing. This woman, who loved pingtan to distraction, had abandoned husband and daughter and now drifted the wide world after a ballad-singer, living by her art.
+
+After the funeral Baosheng dug out a short-sleeved silk shirt of his master's, altered it a little, and put it on. The weather was that hot, yet in the silk shirt he still looked the apprentice, still up at first light to sweep the shop and, at closing, to clear the worktable.
+
+Baosheng turned it over in his mind for several days before, at supper, he said to Yanzhi out of nowhere that they truly could not manage without a hand. He did not dare meet Yanzhi's eyes, only bent his head to the white rice in his bowl and said that once they were married he would go and find an apprentice. Best one who had served under somebody already, Baosheng said; come autumn the work would pick up.
+
+Yanzhi made no sound; she turned her face to the window. Beyond the back window of the Taishun tailor shop ran a river, the one way in and out of Xietang. People came by boat and left by boat. Every landing on the far bank was a wharf, and all day long the boats lay moored there, thick with the traffic of arrivals and departures. Now it was still; nothing lingered on the water but the last of the sunset and the mirrored banks. Following Yanzhi's gaze, Baosheng looked across to the landings. “He's gone,” he said.
+
+“Gone or not, I still won't marry you,” Yanzhi said.
+
+“It was the master's charge,” Baosheng said.
+
+Yanzhi turned her face to him. “Marry me and you'll be sorry,” she said.
+
+Baosheng shook his head and said nothing, his eyes on Yanzhi.
+
+After a good while Yanzhi spoke again. “I'm going to find him,” she said.
+
+“You've lost your mind,” Baosheng said.
+
+“Marry someone else.” That said, Yanzhi stood and went into her own room.
+
+At dawn the next day, when Yanzhi opened her door with the wisteria-cane case in her hand, Baosheng was sitting just outside it, soaked through with sweat; plainly he had not slept. Yanzhi did not speak, did not so much as glance at him, but crossed straight over the courtyard, gave the portrait of her father on the wall a last look in the pitch-dark shop, and pulled the door open.
+
+The two of them went through the silent streets, one ahead and one behind, and neither spoke. At the corner Baosheng took the wisteria-cane case from her and fell in behind Yanzhi like a servant. At the steamer wharf Baosheng said, “If you can't find him, come home.”
+
+“I'll find him,” Yanzhi said. “He's waiting for me.”
+
+Baosheng bowed his head and was silent a long while, then said all at once, “You really are like your mother.”
+
+“Bullshit,” Yanzhi said.
+
+“Then take it as one more piece of my nonsense,” Baosheng said. “City men can't be trusted.”
+
+Yanzhi's face darkened. She snatched the cane case back, swung around onto the gangplank, and climbed swaying aboard the steamer without once turning her head.

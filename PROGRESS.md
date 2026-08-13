@@ -835,3 +835,126 @@ is expected, not a real defect. data/src was empty at session start (gitignored)
 re-ingested with scripts/ingest_epub.py source.epub. Stray per-session branch
 (claude/the-rebel-b07-zhnzr2) was identical to origin/claude/the-rebel with no
 stranded commits; consolidated onto claude/the-rebel and deleted.
+
+## Batch B08 — Rouge 1-6 (ch41-ch46) — OPENS 胭脂 (fourth and final novella)
+
+Opened the fourth novella, Rouge (胭脂). A fresh cast and setting: the Jiangnan
+water country (Xietang, the Xiangfu marsh, and pre-war Shanghai), no carry-over
+from the Chongqing/Wuhan world of Potassium Cyanide. 201 paragraphs across six
+units. Consulted glossary.json and authority.json before romanizing; reused the
+settled Xietang, the Jing'an Temple, the Paramount Ballroom, Fourth Avenue,
+cheongsam, rickshaw, the silver dollar/大洋, and traitor/汉奸. Read the tail of
+ch40 for the author's cool restrained voice before starting.
+
+Units and scope (all from data/src/; DOUBLED heading line per file, skip=2,
+inspected each with sed before trusting):
+- ch41 胭脂（1） (44_part0042, 26 paras): Yanzhi marries Baosheng three days
+  after coming home, on her dead father Bai Tailai's charge; the flashback of
+  the runaway pingtan-loving mother; she leaves for Shanghai to find her man.
+- ch42 胭脂（2） (45_part0043, 34 paras): at the Shanghai Normal College she
+  finds Qin Shuji, a married oil-painter at the Art Academy; the ménage with
+  Mrs. Qin; kept on Jing'an Temple Road; he vanishes (gallery and rooms sealed
+  by the Garrison Command); she goes home with her portrait.
+- ch43 胭脂（3） (46_part0044, 37 paras): married life; a stray Japanese bomb
+  destroys the Tang soy-works and kills old master Tang; Young Master Tang is
+  made the town's collaborationist headman and lusts after Yanzhi; the shop
+  turns to selling cotton.
+- ch44 胭脂（4） (47_part0045, 34 paras): the water bandits of the Xiangfu marsh
+  under Zhu Qi; the Japanese reprisal, thirteen townsmen (Benliang first)
+  beheaded at Xiushui Elementary; Baosheng captured; Old Mo brings the ransom
+  demand; Young Master Tang brings the ransom money and his price.
+- ch45 胭脂（5） (48_part0046, 42 paras): Old Mo ferries Yanzhi in; Baosheng
+  forced to sew her eighteen bridal cheongsams; Yanzhi taken by Zhu Qi, who
+  wants to wed her; Baosheng freed, then leads the Japanese (via Young Master
+  Tang's "kidnapped concubine" lie) to the marsh; the reed-fire battle.
+- ch46 胭脂（6） (49_part0047, 28 paras): Zhu Qi dies of a gunshot on Yanzhi as
+  they flee; she takes command, buys knives not guns, marries down to Pockmarked
+  Liu by the levirate custom and stabs him dead in his bed; becomes the Big
+  Sister-in-law / 当家的; a year later bears a daughter.
+
+Source note markers: grepped `\[\d+\]` across all six files — none present
+(consistent book-wide).
+
+CHECKS — all six units GREEN:
+- Parity + verbatim quotation (make_bilingual by construction; verify_unit
+  re-check): all pass, paragraph counts 26/34/37/34/42/28.
+- Numbers (check_numbers --noise data/noise.txt): 0 unresolved. New noise
+  entries (non-quantitative numerals only; never a real quantity): 百福楼,
+  两岸, 秋千, 阿四, 百货公司, 朱七, 五花大绑, 十里港, 千百年. Real quantities
+  fixed in the English (thirteen beheaded, eighteen cheongsams, four sabers,
+  three days and three nights, thirty silver dollars, one/two jin of wool, etc.).
+- Alignment (check_align): all within 2.2x of median ratio.
+- Content / displacement (check_content --config review/content_config.json):
+  OK across ALL units, no displaced names; no retro-flag on ch01-ch40.
+- Entity survival (qc_entities): 0 misses each unit.
+- Register vs frozen ch01 (check_register --ref reference/ch01.md): within
+  tolerance for all six (flagged "little dialogue — noisy" as Rouge's dialogue
+  is largely unmarked in the source; em-dash use is genuine breaks, not
+  appositive glosses).
+- Tail verification: final paragraph of each unit read against the source line;
+  faithful (spot-checked, no fabrication in the tails).
+
+NOTES — 34 footnotes added (book total 267 -> 301), authored via
+apparatus_merge.py (never a heredoc), all anchors verbatim-resolved,
+check_apparatus 0/0. By unit: ch41 (7) 胭脂/rouge telling name, wedding
+blessings 白头偕老/早生贵子, cheongsam/旗袍, pankou 72 knots, li unit, pingtan,
+wisteria-cane case; ch42 (6) Shanghai Art Academy (Liu Haisu 1912),
+Sincere Company/先施, Jing'an Temple Road = Bubbling Well Road, concubines
+姨太太, 牌坊 chastity-arch proverb, Garrison Command; ch43 (6) grave-clothes
+寿衣, 维持会 peace-preservation association, 认贼作父, 师母 Shimu, the puppet
+currencies 联银券/中储券, Mid-Autumn Festival; ch44 (5) 太君 taijun, 开洋荤,
+褡裢 shoulder-bag, 端茶送客 tea-dismissal, 肥水不流外人田; ch45 (6) 肉票 meat-
+ticket, 雁过拔毛, 皇历 almanac, bakayarō, 火铳 fowling-piece, 双喜临门; ch46 (4)
+Pockmarked Liu 麻子, 兄弟相煎/Cao Zhi Seven-Step Poem, levirate custom
+转房婚/收继婚, 大嫂/当家的.
+
+FACT-CHECKS (real scholarship; Wikipedia / Baidu Baike / academic; NO AI-written
+source; Grokipedia result explicitly ignored): Shanghai Academy of Fine Arts
+(Liu Haisu, 1912, French Concession, nude models, "artistic traitor," Cai
+Yuanpei) — corroborated. Sincere Company (Ma Ying-piu, HK 1900, Nanjing Road
+1917, Four Great Department Stores) — corroborated. Federal Reserve Bank of
+China / 联银券 (Provisional Govt of North China, 1938, yen-pegged) and Central
+Reserve Bank / 中储券 (Wang Jingwei) — corroborated; note flags that 联银券
+strictly belonged to the north, named with 中储券 for the currency churn.
+Cao Zhi Seven-Step Poem (相煎何太急) — corroborated; seven-paces legend stated
+as traditional. Levirate marriage in China (转房婚/收继婚) — corroborated for
+Han and other peoples over centuries. Pingtan (评弹, 评话+弹词, Suzhou) —
+corroborated.
+
+NOT re-noted (already covered book-wide; checked notes.json first): French
+plane trees (ch17), the Paramount Ballroom (ch12), the Greater East Asia
+Co-Prosperity Sphere (ch32), the silver dollar/大洋 (ch26), the Central Reserve
+Bank/reserve certificates (ch04/ch24 — extended here only for the new 联银券),
+汉奸/traitor as a word (ch10), rickshaw and cheongsam-as-a-word (glossary rows;
+cheongsam given its first proper footnote here as it is central to Rouge).
+
+GLOSSARY — 17 rows added (book total 241 -> 258), every row with
+category/status/pinyin. People (12): Yanzhi, Baosheng, Bai Tailai, Qin Shuji,
+Mrs. Qin, Zhu Qi, Old Mo, Young Master Tang, Benliang, Pockmarked Liu, Miss Lin,
+Ah Si (all decided). Places (4): the Xiangfu marsh, Jiahe County, the Shanghai
+Normal College (provisional), the Shanghai Art Academy (attested). Terms (1):
+taijun (attested). Xietang, the Jing'an Temple, the Paramount, Fourth Avenue,
+cheongsam etc. reused from earlier novellas, not re-added.
+
+DIGITIZATION GLITCHES: none material this batch. The doubled heading line held
+for all six files (skip=2). The source names two Shanghai schools loosely
+(上海师专 at first meeting, 美专/上海美专 where Qin Shuji teaches); rendered
+faithfully as the Shanghai Normal College and the Shanghai Art Academy rather
+than harmonized. 联银券 in Jiangnan is the author's shorthand for occupation
+currency chaos (联银券 properly circulated in North China) — kept visible and
+footnoted, not "corrected."
+
+BUILD: cumulative EPUB rebuilt — out/the_rebel.epub, 46 of 51 chapters, 301
+notes, 0 source notes. qa_epub PASS (65 files, 58 documents, all links resolve;
+301 refs = 301 bodies = 301 backlinks). epubcheck 5.1.0 clean (0/0/0/0). Cover
+verified BYTE-IDENTICAL to data/figs/cover00144.jpeg. Committed and pushed to
+claude/the-rebel.
+
+Setup this session: ./setup.sh — pillow present, epubcheck jar in place. Checker
+regression suite reports the SAME ONE known-false failure ("hook stands down on
+template stub"); HANDOFF carries a live kickoff, not the template stub, so this
+is expected, not a real defect. data/src was empty at session start (gitignored);
+re-ingested with scripts/ingest_epub.py source.epub. Stray per-session branch
+(claude/the-rebel-b08-rouge-32a79h) was at the same commit as
+origin/claude/the-rebel with no stranded commits; consolidated onto
+claude/the-rebel and deleted (local and remote).

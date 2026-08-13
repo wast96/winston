@@ -183,3 +183,30 @@
 # 五光十色 "a riot of colors / many-hued"; 五 and 十 are idiomatic, not counts —
 # rendered "a spray of colors".
 五光十色
+# 百福楼 "the Baifulou", a restaurant name; 百 (hundred) is part of the
+# toponym, not a count — rendered "the Baifulou".
+百福楼
+# 两岸 "both banks / the banks on either side"; 两 is the idiomatic pair, not a
+# tallied count — rendered "the two banks / either bank".
+两岸
+# 秋千 "swing / trapeze" (吊在秋千架上); 千 (thousand) is part of the word for
+# a swing, not a count — rendered "trapeze / swing".
+秋千
+# 阿四 "Ah Si", Qin Shuji's gallery partner; 四 (four) is part of the given
+# name, not a count — rendered "Ah Si".
+阿四
+# 百货公司 "the department store"; 百 (hundred) is part of the compound, not a
+# count — rendered "the department store".
+百货公司
+# 朱七 "Zhu Qi", the water-bandit chief; 七 (seven) is part of the given name,
+# not a count — rendered "Zhu Qi".
+朱七
+# 五花大绑 "trussed hand and foot"; 五 is part of the set idiom, not a count —
+# rendered "trussed hand and foot".
+五花大绑
+# 十里港 "the Shili channel", a waterway name into the Xiangfu marsh; 十 (ten)
+# and 里 (li) are part of the toponym, not a count — rendered "the Shili channel".
+十里港
+# 千百年 "for centuries / a thousand years and more"; 千 and 百 are idiomatic
+# magnitude, not a count — rendered "a thousand years and more".
+千百年

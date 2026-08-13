@@ -438,6 +438,78 @@
       "pinyin": "Jiǎng Jīngguó",
       "status": "attested",
       "note": "Chiang Kai-shek's son; administered Gannan. Wade-Giles form."
+    },
+    "胭脂": {
+      "en": "Yanzhi",
+      "pinyin": "Yānzhi",
+      "status": "decided",
+      "note": "The protagonist; her given name is the ordinary word for rouge (see the first-appearance note)."
+    },
+    "宝生": {
+      "en": "Baosheng",
+      "pinyin": "Bǎoshēng",
+      "status": "decided",
+      "note": "The tailor's apprentice Yanzhi marries at her dying father's charge; Bai Tailai's heir."
+    },
+    "白泰来": {
+      "en": "Bai Tailai",
+      "pinyin": "Bái Tàilái",
+      "status": "decided",
+      "note": "Yanzhi's father, once the finest tailor in Xietang."
+    },
+    "秦树基": {
+      "en": "Qin Shuji",
+      "pinyin": "Qín Shùjī",
+      "status": "decided",
+      "note": "The Shanghai oil-painter Yanzhi loves and follows to the city."
+    },
+    "秦太太": {
+      "en": "Mrs. Qin",
+      "pinyin": "Qín tàitai",
+      "status": "decided",
+      "note": "Qin Shuji's wife, who takes Yanzhi in without reproach."
+    },
+    "朱七": {
+      "en": "Zhu Qi",
+      "pinyin": "Zhū Qī",
+      "status": "decided",
+      "note": "The water-bandit chief of the Xiangfu marsh."
+    },
+    "老莫": {
+      "en": "Old Mo",
+      "pinyin": "Lǎo Mò",
+      "status": "decided",
+      "note": "A boatman among the marsh bandits; becomes Yanzhi's right hand."
+    },
+    "唐少爷": {
+      "en": "Young Master Tang",
+      "pinyin": "Táng shàoye",
+      "status": "decided",
+      "note": "The soy-works heir who becomes the town's collaborationist headman."
+    },
+    "本良": {
+      "en": "Benliang",
+      "pinyin": "Běnliáng",
+      "status": "decided",
+      "note": "The Tang soy-works clerk, beheaded by the Japanese with twelve other townsmen."
+    },
+    "刘麻子": {
+      "en": "Pockmarked Liu",
+      "pinyin": "Liú Mázi",
+      "status": "decided",
+      "note": "Zhu Qi's sworn brother and a rival marsh chief; his nickname means 'pockmarks' (see note)."
+    },
+    "林小姐": {
+      "en": "Miss Lin",
+      "pinyin": "Lín xiǎojie",
+      "status": "decided",
+      "note": "Yanzhi's Shanghai neighbour, a foreign-firm manager's kept woman."
+    },
+    "阿四": {
+      "en": "Ah Si",
+      "pinyin": "Ā Sì",
+      "status": "decided",
+      "note": "Qin Shuji's partner in the Fourth Avenue picture gallery."
     }
   },
   "organizations": {
@@ -1258,6 +1330,30 @@
       "pinyin": "Qīxiá Sì",
       "status": "attested",
       "note": "A great Buddhist monastery northeast of Nanjing."
+    },
+    "祥符荡": {
+      "en": "the Xiangfu marsh",
+      "pinyin": "Xiángfú dàng",
+      "status": "decided",
+      "note": "The reed-grown lake-marsh near Xietang, haunt of the water bandits (see note on 荡)."
+    },
+    "嘉禾县": {
+      "en": "Jiahe County",
+      "pinyin": "Jiāhé xiàn",
+      "status": "decided",
+      "note": "The Jiangnan county in which Xietang lies."
+    },
+    "上海师专": {
+      "en": "the Shanghai Normal College",
+      "pinyin": "Shànghǎi shīzhuān",
+      "status": "provisional",
+      "note": "The teacher-training college where Yanzhi first finds Qin Shuji."
+    },
+    "美专": {
+      "en": "the Shanghai Art Academy",
+      "pinyin": "měizhuān",
+      "status": "attested",
+      "note": "The Shanghai Academy of Fine Arts, where Qin Shuji teaches oil painting (see note)."
     }
   },
   "terms": {
@@ -1470,6 +1566,12 @@
       "pinyin": "shāmí",
       "status": "attested",
       "note": "A novice monk (Sanskrit śrāmaṇera)."
+    },
+    "太君": {
+      "en": "taijun",
+      "pinyin": "tàijūn",
+      "status": "attested",
+      "note": "Occupation-era address for a Japanese soldier or officer (see note)."
     }
   }
 }
