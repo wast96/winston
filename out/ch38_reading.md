@@ -1,0 +1,159 @@
+## 8
+
+When Jiang Yongnan returned to Chongqing, the whole mountain city was still steeped in the jubilation of victory. As a representative of the officers and men of the Youth Army's 207th Division, he was received by the Generalissimo on the square before the Military Affairs Commission.
+
+That evening, after leaving the banquet at the Ministry of National Defense, Jiang Yongnan walked all the way to the Korean noodle shop at the mouth of Lianhuachi street.
+
+The shop was cold and deserted. The proprietor, his hair in a short crew cut, saw a trim officer in uniform come in and did not rise to greet him, but sat in the dim light and watched Jiang Yongnan a long while. Only when the officer had taken off his shoes and sat cross-legged at a low table did the proprietor get up, unhurried, and go to the kitchen at the back to make a bowl of cold noodles, which he carried out on a tray.
+
+"Where's my sister-in-law?" Jiang Yongnan said, in Korean, as he took the chopsticks.
+
+"She's taken the child to Shanghai. We can go home at last, and there's a great deal to see to first." Jiang Yongzhu sat down across the table, drew out a pack of cigarettes, shook one loose, lit it, and watched his younger brother slurp down the noodles, thinking again of the years the two of them had grown up on Jeju Island.
+
+"Your noodles again, at last." When Jiang Yongnan had drunk even the broth from the bowl, he wiped his mouth and said, with feeling, "I never thought I'd live to see this day."
+
+Jiang Yongzhu shook another cigarette from the pack. "Since we're both alive, let's go home together."
+
+Jiang Yongnan nodded, and though he had never smoked, he too drew a cigarette from the pack. The two brothers lit up together and sat cross-legged, face to face; all the many things there were to say dissolved, in that moment, into the smoke they breathed out mouthful by mouthful, drifting and thinning through the cramped little shop.
+
+As Jiang Yongnan rose to go, Jiang Yongzhu saw him to the door, then turned to glance at a table in the corner of the shop, a look on his face of something he wished to say and would not.
+
+Jiang Yongnan smiled. "What is it you want to say?"
+
+Jiang Yongzhu smiled too and shook his head. "All these years—it's been like a dream."
+
+All at once Jiang Yongnan felt the urge to embrace his brother, but he held it back, only clapped him on the arm, and turned and left the noodle shop. But just as he rounded the corner, the headlights of a car parked at the roadside flashed, and its door opened.
+
+The unsmiling Adjutant Yan got out and, without a word, briskly pulled open the rear door.
+
+"This car was here when I arrived." Once Jiang Yongnan was seated inside, he asked, "How did you know I'd come here tonight?"
+
+"How would I know?" Adjutant Yan, his hands on the wheel, said, "I do as the gentleman instructs, no more."
+
+The car crossed the main city quickly and stopped at the door of the Jialing Hotel—still, to this day, the finest hotel in Chongqing, where every guest was a person of standing. But Guo Bingyan was not in his suite. Jiang Yongnan sat quietly on the sofa and waited a while before Guo came pushing in through the door in haste, wearing, most unusually, his major general's uniform, the reek of drink on his breath. He had plainly just come from some grand banquet.
+
+"This is the most I've drunk in eight years." Guo Bingyan paid no mind to the salute Jiang Yongnan rose to give, but busied himself pouring two cups of tea, settled back into the sofa, and looked his former subordinate over. "I thought you'd come to see me the moment you were back in Chongqing."
+
+Jiang Yongnan stood stiffly upright and swallowed back down the many words that had risen to his lips.
+
+Guo Bingyan waved him to the sofa beside him, then, looking at the Medal of Loyalty and Valor pinned to his chest, said with a touch of sorrow, "An inch of our rivers and hills for an inch of blood. You crawled out of the heap of the dead at the Battle of Mount Song. And yet even if you had truly died there, you would still be a ghost of the Zhongtong."
+
+Jiang Yongnan sprang to his feet. "Yes," he said, before he could stop himself.
+
+Guo Bingyan laughed. He studied Jiang Yongnan with smiling, narrowed eyes. "All these years you must have felt the organization had thrown you away. That mission I sent you to Wuhan for was my punishment of you—killing you with a borrowed knife."
+
+Jiang Yongnan stood ramrod straight. "Yes," he said, without hesitation.
+
+Guo Bingyan let the smile fade from his face, leaned forward to take up his own teacup, and blew across its rim for a good while before he spoke. "Did you imagine that priest died for you for no reason at all?" He took a sip of tea. "In the end, faith is no match for blood. The cross he bore was his own illegitimate son. The organization later paid to send the boy to America; next year he should be graduating from the University of Virginia."
+
+Under Jiang Yongnan's half-believing gaze, the smile returned to Guo Bingyan's face. Waving him again to a seat, the two of them warmed all at once, like two comrades meeting after a long parting; the talk began with Jiang Yongnan's transfer out of Gannan to the Youth Army and ran all the way to his leading his men to the junction with the Allied forces at Mangyou, in northern Burma.
+
+After a short silence Guo Bingyan seemed to tire; he rubbed his face hard with one hand and asked, "When do you leave?"
+
+Jiang Yongnan said, "Division orders are for me to stay on for now at the New Sixth Army's Chongqing liaison office."
+
+"I've just come from a farewell dinner for Kim Ku; he sets out for home in three days." Guo Bingyan watched him, unruffled. "So long as you haven't taken off that uniform, you're a deserter wherever you go."
+
+"I have no intention of going home." All at once Jiang Yongnan felt the blood in his body freezing to ice.
+
+"It seems you truly no longer trust me." A sorrow came into Guo Bingyan's face. From an inner pocket of his tunic he drew an envelope, took out a discharge paper, unfolded it, and laid it on the tea table. "I had this prepared for you. Sign your name, and leave openly, with your head high."
+
+Jiang Yongnan's cold blood came to a boil in an instant, and still he did not know what to say.
+
+Now Guo Bingyan smiled again and tipped a photograph, too, out of that same envelope. "This is your last assignment in China." Jiang Yongnan knew at a glance that the man in police uniform in the picture was Yang Qun. He lifted his face. "My assignment ended when I left Wuhan."
+
+"You've been away from the organization too long." Guo Bingyan's gaze darkened. "You've forgotten our rules."
+
+"The war is over." Jiang Yongnan met his gaze. "Sir, it's time you changed your trade as well."
+
+"So long as anyone still threatens this country, my war will not be over." When Guo Bingyan had said it, both men fell silent. After a moment he reached for his teacup—the sign that a guest should go. Jiang Yongnan rose, taking the hint, and gave a last salute. But Guo Bingyan, as though nothing at all had passed, settled back into the sofa. "Your brother was once a death-volunteer for that Provisional Government of Kim Ku's, was he not?"
+
+Jiang Yongnan started. "Yes."
+
+"He's a lucky man. A gentle wife, a lovely daughter." Guo Bingyan said it from the heart. "What more could a man want, with all that?" Jiang Yongnan all but ran the whole way, bursting into the Korean noodle shop at the mouth of Lianhuachi street. The lamps still burned dim in the room, only his brother was gone. And when he got back to the suite at the Jialing Hotel, it was as spotless as if no one had ever stayed there at all.
+
+Every morning Yang Qun would stand behind the curtain and watch Tang Ya's retreating figure, then draw his eyes back and begin studying every window across the road and every passerby below. Ever since his promotion to deputy police commissioner in charge of security, he had lived each day as though treading on thin ice. At night above all, lying beside the woman he loved, he felt he might slip into a sleep from which he would never wake.
+
+That day, behind the curtain, he noticed the American jeep parked at the corner, took up his binoculars and watched it a good while, went briefly blank, and then seemed to catch a spark of interest. Yang Qun took out his Browning pistol, oiled it afresh, wiped it carefully clean, then went into the bedroom, changed out of his suit into his police superintendent's uniform, and only then took up his briefcase and went out.
+
+His secretary was already waiting outside the apartment. Taking Yang Qun's briefcase, he pulled open the rear door of the car. But Yang Qun pushed the rear door shut, opened the front passenger door, and, sliding in, said, "I won't be going to the department this morning."
+
+With that the door slammed shut. The car sped off in a cloud of dust, leaving the young secretary alone at the roadside.
+
+The driver had served Yang Qun for years and doubled as his bodyguard. Seeing his chief's face set and silent, he dared say nothing, and only drove on along the road. On his second time around the city, Yang Qun, his eyes on the rearview mirror, spoke at last. "We're going to Tiandeng Lane."
+
+Jiang Yongnan tracked him up the stone steps of Tiandeng Lane. But Yang Qun seemed to be luring him on, showing and hiding himself through those damp lanes, until he ducked into a shikumen gateway. And when Jiang Yongnan drew the revolver at his hip and entered the gateway, what he found was two gun muzzles trained on him from different directions.
+
+The driver relieved Jiang Yongnan of his gun and put the handcuffs on him, and then Yang Qun came out from behind the wall where he had been hidden, smiling broadly. "I never imagined I'd arrest you twice myself." He turned and told the driver, "Go and wait for me in the car."
+
+The driver was uneasy, but under Yang Qun's hard stare he soon holstered his pistol, turned, and went out through the shikumen gate.
+
+Jiang Yongnan was marched into a hidden room behind the main hall. In the light that came on, he saw a whole wall papered with newspaper clippings of every kind—reports of government officials, merchants, and society figures assassinated in Chongqing, some with photographs attached.
+
+"I know your kind never asks why, when you kill." Yang Qun gestured with the pistol at a bench, watched Jiang Yongnan sit, then pulled a leather-bound notebook from the shelf and tossed it into his lap. "But this time, I mean to let you die knowing why."
+
+It proved to be a record of criminal investigation, tracking Tang Ya's movements over the past two years. Jiang Yongnan had turned only a few pages when he saw that, besides her usual haunt at the White Night bar, Tang Ya had sometimes turned up at the Korean noodle shop at the mouth of Lianhuachi street. He remembered, in a flash, what he had told her three years before: Don't mind me. When you reach that place, someone will see you out of Chongqing.
+
+A nameless melancholy came over Jiang Yongnan. He looked up at Yang Qun. "Whatever you want me to understand, say it plainly."
+
+"You're too impatient—that's how I've caught you twice." Yang Qun jerked his chin at the clippings on the wall. "Take your time. You'll only find it if you look closely."
+
+Jiang Yongnan opened the notebook again and, matching it against the clippings on the wall, soon noticed that at the time of several of the killings up there, Tang Ya had been present at the scene, or nearby.
+
+"Be a policeman long enough and suspicion becomes a habit." Yang Qun had by now settled into the chair beside the American desk, the gun in one hand and a cigarette in the other, and admitted without reserve that he had shadowed Tang Ya for a long time—from the first time they were together. He had always felt a young and beautiful woman like her ought not to belong to him, and the more he thought it, the more he wanted to possess her utterly. Countless times he had watched Tang Ya drink and make merry with strange men, drink herself insensible, and been powerless to stop it. "Sometimes I really wanted to kill her." Yang Qun's eyes, as he said it, were so mild and so calm. "But once a person is dead, all we have left is memories."
+
+"None of this has the least thing to do with their deaths." Jiang Yongnan pointed at the clippings on the wall, cutting him off at last.
+
+Yang Qun blinked, threw down the cigarette that had burned to his fingers, and in an instant was himself again. He rose, pushed a cabinet aside, opened a safe set into the wall, took out a sheaf of photographs, and put them in Jiang Yongnan's hands. "There's the connection now, isn't there?"
+
+The photographs showed Tang Ya meeting Adjutant Yan in various places, each marked on the back with a time and a location; several had been shot from below. In one, the muzzle of a sniper's rifle protruded from an upper window, angled down at something far off.
+
+"Your old chief recruited her—after the first time I arrested you, it must have been." As he spoke, Yang Qun took two pages of a list from the safe. "Read it through and you'll find there's a bigger secret here still."
+
+The list held not only the dead but, more of them, the living. Most of the names Jiang Yongnan had heard; two of the men had stood, three days earlier, at the ceremony where the Generalissimo received him.
+
+"You surely remember that attaché named Anderson." Yang Qun waved the hand that held the gun before Jiang Yongnan's eyes, then changed his tone. "This is his safe house."
+
+With that he sat back down in the chair, took the half-bottle of whisky from the desk, and poured some into a glass. The Anderson killing had long since been closed, he said, yet in all these years he had never stopped investigating it, purely out of professional interest. It was in the course of that inquiry that he had found this safe house. And that no one had come here in all the long time since Anderson's death was proof enough that the place was nowhere on the American consulate's books—until he found this list in the wall safe.
+
+Yang Qun took a deep sip of the whisky, turned to look at the whole rank of the bookshelf, and went on: "It took me the better part of half a year, checking against every book here, to decipher these two pages."
+
+Something stirred in Jiang Yongnan. "You mean—the original list used a running-key cipher, one that never repeats?"
+
+"This is the key text." Yang Qun picked up the English-language Hamlet that lay tossed carelessly on the desk, and said that to turn the English into Chinese he had engaged several language teachers, separately, and spent more than a month on it besides.
+
+Jiang Yongnan said, "And the conclusion you reached?"
+
+Yang Qun thought a moment. "Have you ever heard of the Taiping Society?"
+
+This secret society, said to hold the whole country in its grip, had first arisen among Christian converts in the last years of the Qing—coastal merchants and petty officials banded together only to trade favors and information in business. Jiang Yongnan had heard of it, of course, but it was no more than a legend. Yang Qun, however, believed in it utterly. Drinking as he talked, he said that over the past two years he had secretly investigated everyone on the list; they sat in every department and every walk of life, but shared one thing in common—all of them were believers. "I can state it for a fact," Yang Qun said at last. "Your old superior has yet another identity. He is the one this society charges with cleaning its own house—its Grand Executioner."
+
+"You lured me here just to tell me this?" A cold smile hung on Jiang Yongnan's face. "What you ought to do is open a case. This list has neither head nor tail—it must be two pages out of some larger register." Yang Qun shook his head, rose, and came to stand before Jiang Yongnan. "And how am I to know my own superiors aren't in that register?"
+
+"Then how are you sure I'm not in it?"
+
+"You're not important enough. You're only the tool they kill with." With that Yang Qun pressed the raised pistol to Jiang Yongnan's forehead, and yet did not pull the trigger. He let the hand fall, uselessly, and said, as if on a sigh, "If I meant to kill you, why would I bother telling you all this?"
+
+But in that instant Jiang Yongnan moved. With his two cuffed hands, in a single motion, he wrested the gun from Yang Qun's grip.
+
+But Yang Qun betrayed little surprise or alarm. He only looked, disappointed, into the muzzle facing him. "All I wanted was for you to take her away—just as the two of you meant to, three years ago. Don't let her be buried alive in this muddy water."
+
+"I know," Jiang Yongnan said, without expression.
+
+"Then you should know better than anyone what comes of killing a deputy police commissioner." Yang Qun spoke word by word. "They'll silence you."
+
+This, too, Jiang Yongnan knew. All the way as he tracked his quarry here, a black car had trailed his jeep. That man was perhaps waiting, even now, in the courtyard outside.
+
+Not until Jiang Yongnan lowered the gun did Yang Qun take out a key and unlock his handcuffs. All at once the two of them sat down side by side on the bench, like the closest of comrades. Yang Qun lit a cigarette, and when he had smoked it silently to the halfway point, he said, out of nowhere, "Many a night, with her lying beside me, I could feel you sleeping on her other side."
+
+Jiang Yongnan started, and turned his head to look at him.
+
+Yang Qun, of all things, smiled, stood, clapped him on the shoulder, and said, "Let's go."
+
+Jiang Yongnan shook his head. "I fear neither of us is getting out."
+
+Yang Qun thought a moment, then without hesitation pulled the door open and walked out of the hidden room. At the door of the main hall he waited for Jiang Yongnan. "Stick your neck out and it's the knife; pull it back and it's the knife all the same. This step, we both have to take."
+
+With that he pulled the door open, and had no sooner stepped over the threshold than a bullet, flying to meet him, went through his skull.
+
+Far off, in the bell tower of a church, Adjutant Yan worked the bolt and ejected the spent shell. By the time he took aim again, Jiang Yongnan was gone from the rifle's scope.

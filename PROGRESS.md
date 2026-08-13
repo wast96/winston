@@ -735,3 +735,103 @@ session start (gitignored); re-ingested with scripts/ingest_epub.py source.epub.
 Stray per-session branch (claude/the-rebel-b06-izg4qu) was identical to
 origin/claude/the-rebel with no stranded commits; consolidated onto
 claude/the-rebel and deleted (local + remote already pruned).
+
+================================================================================
+## B07 = Potassium Cyanide 6-10 (ch36-ch40) — COMPLETES 氰化钾 (novella 3)
+
+Units: ch36 (46 paras), ch37 (44), ch38 (79), ch39 (55), ch40 (10). Total 234
+paragraphs. Doubled heading line per file confirmed by sed; make_bilingual
+skip=2 for all five. Source note markers: grepped every unit for \[\d+\] —
+NONE PRESENT in any of ch36-ch40 (the source has carried none through the whole
+book). Story: ch36 Jiang slips through occupied Hankou as a Japanese returnee
+and kills Colonel Yamazaki in the Wuchang hospital; the priest dies covering
+him. ch37 the Gannan youth-cadre camp: Jiang Ruoshui executed, Jiang marries
+Shen Jinzhu, whose first husband returns from the dead. ch38 Chongqing after
+victory: Jiang finds his brother, is threatened by Guo Bingyan, then walks into
+Yang Qun's trap in the Anderson safe house; Adjutant Yan shoots Yang Qun.
+ch39 Tang Ya finds Yang Qun's corpse; Jiang is caught, condemned; the
+faked-execution ruse fails when Guo's sniper kills Jiang; Tang Ya kills Old Jin.
+ch40 (coda): Guo Bingyan takes the cyanide coin and a bullet at Qixia Temple on
+5 May 1946; Tang Ya buries Jiang on Jeju.
+
+CHECKS (all green):
+- Parity + numbers + anchors (verify_unit.py): all 5 clean. verbatim quotation
+  and paragraph parity true by construction via make_bilingual.py.
+- Alignment (check_align.py): all 5 OK, no pair strays > 2.2x from median
+  (medians 4.12-4.36 en/han).
+- Content/displacement (check_content.py --config): all name occurrences in the
+  paired paragraph; 0 displaced across ch36-40.
+- Entity survival (qc_entities.py): 0 misses in all 5.
+- Register vs frozen ch01 (check_register.py --ref): all 5 within tolerance
+  (ch36 1.10x, ch37 2.78x, ch38 1.27x, ch39 1.28x, ch40 0.00x — the
+  dialogue-heavy/short units flagged "little dialogue — noisy", within band).
+- Apparatus (check_apparatus.py): 0 failures, 0 warnings.
+- Tail verification (rule 4): final paragraphs of all 5 read against the source
+  explicitly; faithful, no drift.
+
+NUMBERS noised this batch (non-quantitative numerals; every real quantity kept
+in the English — 207th Division, 5 May 1946, "eight years", "two pages", "two
+tire tracks", "three days" etc. all carried): 三青团 (Youth Corps, name), 四起
+(gunfire on all sides), 四顾 (look about), 八仙桌 (Eight-Immortals square table),
+四溅 (splatter), 千山万水 (countless mountains and rivers), 九龙坡 (Jiulongpo,
+place), 五光十色 (a riot of colors).
+
+DIGITIZATION GLITCHES (rendered to sense, not footnoted; mechanical typos):
+- ch37 body para 43: 沈近珠 for 沈近朱 (Shen Jinzhu). Rendered "Shen Jinzhu".
+- ch37 body para 34: 岩田外科诊所 for the settled 岩井 (Iwai) Hankou clinic
+  (glossaried in B06 as 岩井 -> Iwai). Rendered "the Iwai Surgical Clinic" for
+  one-rendering-per-referent consistency; the 岩田/岩井 variant is the source's,
+  not ours.
+- ch36 body para 29: 两楼 for 二楼 (second floor). Rendered "the second floor".
+No genuine reading uncertainty in any; none footnoted.
+
+FOOTNOTES: 30 added (book total 237 -> 267). ch36 (6): Rising-Sun/plaster flag,
+Type 38 Arisaka rifle, the Youth Corps (三青团), the Huangshan-residence raid
+(Aug 1941), the Korean Liberation Army & Yi Cheong-cheon/Ji Cheong-cheon, the
+Mauser box-cannon. ch37 (9): the Youth-Cadre class (青干班), 世外桃源 /
+Peach-Blossom-Spring, the Huaqing Pool allusion, Liu Yong's "where shall I sober
+tonight", Chiang Ching-kuo's Gannan New Deal, 抗战夫人 wartime wife, 人走茶凉
+proverb, doenjang stew, Jeju Island. ch38 (8): the Youth Army & 207th Division,
+the Generalissimo (委员长), the Military Affairs Commission, 一寸山河一寸血
+slogan, the Battle of Mount Song, Mangyou/Mong-Yu junction, the Hamlet
+book-cipher, the Taiping Society (fictional, presented as legend). ch39 (3):
+连坐 guilt-by-kin, 摆龙门阵 (Sichuan idiom), 除夕 lunar New Year's Eve. ch40 (4):
+还都 return-of-capital + Sun Yat-sen Mausoleum (5 May 1946), Qixia Temple,
+沙弥 novice monk, 子弹杯 "bullet cup"/shot-glass wordplay. Every historical claim
+fact-checked against real scholarship (Wikipedia / Baidu Baike / academic;
+verdicts stated in the notes; NO AI-written source). The Huangshan-raid note
+states honestly that the exact 30-August day is not independently confirmed.
+
+NOT re-noted (already covered book-wide; checked notes.json first): Chongqing,
+Mount Gele, the Juntong, the Zhongtong, Dai Li, the Central Police Academy,
+Kim Ku and the Korean Provisional Government (ch31), the Hump, potassium cyanide,
+the silver dollar/大洋, cheongsam, rickshaw, the ROC calendar, the kempeitai/
+military police, the Expeditionary Army, Hamlet-the-play (ch15), the baojia/
+collective-responsibility system (ch26). Chiang Kai-shek is glossed afresh only
+under his title 委员长 the Generalissimo.
+
+GLOSSARY: 35 rows added (book total 206 -> 241); every row carries
+category / status / pinyin. People (11): Yamazaki, Yamada Koichi, Tsukada, Endo,
+Fang Bingzhong, Yi Cheong-cheon, Jiang Ruoshui, Shen Jinzhu, Shufen, Chiang
+Ching-kuo (attested). Organizations (9): the Youth Corps, the Korean Liberation
+Army, the Youth-Cadre class, the Youth Army, 207th Division, the Military
+Affairs Commission, the Ministry of National Defense, the New Sixth Army, the
+Taiping Society, the Korean Provisional Government. Places (7): Gannan, Jiangxi,
+the Huaqing Pool, Jeju Island, the Jialing Hotel, Tiandeng Lane, the Sun Yat-sen
+Mausoleum, Qixia Temple. Terms (8): Rising-Sun flag, Type 38 rifle, wartime
+wife, the Generalissimo, the Medal of Loyalty and Valor, the Grand Executioner,
+novice. Iwai/Iwata and 沈近朱/沈近珠 NOT re-added (avoids duplicate rows).
+
+Build: cumulative EPUB rebuilt — out/the_rebel.epub, 40 of 51 chapters, 267
+notes, 0 source notes. qa_epub PASS (65 files, 58 documents, all links resolve;
+267 refs = 267 bodies = 267 backlinks). epubcheck 5.1.0 clean
+(0 fatals / 0 errors / 0 warnings / 0 infos). Cover verified BYTE-IDENTICAL to
+data/figs/cover00144.jpeg. POTASSIUM CYANIDE (氰化钾, ch31-ch40) COMPLETE.
+
+Setup this session: ./setup.sh — pillow present, epubcheck jar in place. Checker
+regression suite reports the SAME ONE known-false failure ("hook stands down on
+template stub"); HANDOFF carries a live kickoff, not the template stub, so this
+is expected, not a real defect. data/src was empty at session start (gitignored);
+re-ingested with scripts/ingest_epub.py source.epub. Stray per-session branch
+(claude/the-rebel-b07-zhnzr2) was identical to origin/claude/the-rebel with no
+stranded commits; consolidated onto claude/the-rebel and deleted.

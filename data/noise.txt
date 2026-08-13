@@ -158,3 +158,28 @@
 # 三水湾 "Sanshuiwan", a place name near Chongqing; the 三 is part of the
 # toponym, not a count — rendered "Sanshuiwan".
 三水湾
+# --- Potassium Cyanide: B07 entries ---
+# 三青团 "the (Three People's Principles) Youth Corps"; 三 (three) is part of the
+# organization's name, not a count — rendered "the Youth Corps".
+三青团
+# 四起 "break out on all sides" (枪声四起, gunfire on every side); 四 is
+# directional idiom, not a count — rendered "on every side".
+四起
+# 四顾 "look about on all sides" (茫然四顾); 四 is directional idiom (four
+# directions), not a count — rendered "looked about him".
+四顾
+# 八仙桌 "the square table" (lit. Eight-Immortals table, an eight-seat square
+# table); 八 is part of the furniture's name, not a count — rendered "square table".
+八仙桌
+# 四溅 "splatter on all sides" (脑浆四溅); 四 is directional idiom, not a
+# count — rendered "across the dirt / everywhere".
+四溅
+# 千山万水 "countless mountains and rivers / a vast distance"; 千 and 万 are
+# idiomatic magnitude, not counts — rendered "mountains and rivers without number".
+千山万水
+# 九龙坡 "Jiulongpo", a Chongqing district and airfield; 九 is part of the
+# toponym, not a count — rendered "Jiulongpo".
+九龙坡
+# 五光十色 "a riot of colors / many-hued"; 五 and 十 are idiomatic, not counts —
+# rendered "a spray of colors".
+五光十色
