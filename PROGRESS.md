@@ -1184,3 +1184,154 @@ Mr. Dai, 制裁 "sanction") are already settled rows. Reused, not re-added.
   standalone couplet sub-heading). Backward-compatible.
 - `data/noise.txt` — B09 block (four elided-tens forms; see above).
 - No new notes (apparatus_merge not invoked), no new glossary rows.
+
+## Batch B10 — ch15 (Part Two, Chapter 5: "Disgrace at Hanoi")
+
+第五章 博浪一击 误中副车 "Chapter 5. A Blow at Bolang, the Wrong Carriage Struck" —
+the CLIMAX and second-largest chapter of Part Two (~21,830 source chars). The
+assassination attempt itself and its failure: Yu Lexing's poison-bread "soft
+action" that fails testing and the gas device; the "sanction order" arriving in
+the small hours of 19 March of the twenty-eighth year (1939); the botched car
+chase across the Red River bridge; the night raid on No. 27 Gao Lang Street where
+Wang Luqiao shoots the man under the bed — Zeng Zhongming, NOT Wang Jingwei (the
+title's 误中副车); three men captured; and a documentary section (五) quoting and
+correcting three real books. 225 body paragraphs; 11 new notes (185 cumulative);
+~13 new glossary rows; principals unchanged at 8.
+
+### Source handling / structure
+- drop=2 (running header `英雄无名-陈恭澍` from `<title>` + the `<h2>` chapter title),
+  CONFIRMED against `data/src_epub/OEBPS/Text/index_split_000_0014.xhtml` (parsed
+  block-by-block: 1 `<h2>` + 235 `<p>`, zero mismatches vs the extracted text).
+- FIVE numbered-in-parens sub-headings (一)–(五), each its own `<p>`, all
+  `standalone` (no glued tails): L3/L51/L97/L131/L185. NO `<br/>`, NO images, NO
+  set-off HTML (confirmed).
+- FIVE extractor mid-phrase splits (source `<p>` breaking one sentence), merged as
+  body-line pairs and re-confirmed against the XHTML: L13/14 (弹是子弹，药就|是),
+  L153/154 (墙里面，|有一方小院落, a comma split), L167/168 (这不是汪|精卫, split
+  mid-name), L175/176 (最愉快的一段|时刻), L208/209 (「午夜□□」那两|节故事).
+- The MANY ；/：-ended lines are DELIBERATE separate `<p>` and were NOT merged: the
+  announced attack plan (L59 lead-in + L60–65 bullets), the three decisions (L88/90),
+  the job-division (L143/144), the reader-questions (L125), and the three
+  quoted-book lead-ins in section (五) (L189, L210) with their multi-`<p>` quoted
+  blocks kept whole. `clean_batch.py` ch15 spec added; source conserved OK (225 body
+  paragraphs, 5 sub-headings).
+- NO note markers `[\d+]` present (grepped: "none present", as through B09).
+
+### Checks (all green)
+- `verify_unit.py ch15`: parity 225/225; numbers 0 unresolved (with the B10 noise
+  block); anchors 11 ok.
+- `check_align.py ch15`: 225/225, median ratio 4.60 en/han, no pair strays >2.2x.
+- `check_structure.py --config checks.json`: parity OK; anchors (all notes) 0
+  unresolved; heading levels OK.
+- `check_content.py --config checks.json`: **ch15 clean** (226 name occurrences,
+  all in the paired paragraph, 0 displaced). The Yu Lexing full-name spots (源 余乐醒
+  vs 乐醒兄) are rendered "Brother Yu Lexing" at the three full-name occurrences to
+  carry the glossary form. The run's remaining flags (ch07 Zhanggu ×1, ch08 Shunde
+  ×3, ch13 Miss Nguyen ×7 / Oya Kusuo / Yuan Haowen) are the KNOWN PRE-EXISTING
+  name-map artifacts, unchanged from HEAD; the ch13 change below removed the 郑邦国
+  entry but added no new displacement (ch13 source has 郑邦国, no glossary key now).
+- `qc_entities.py` (reconstructed bilingual, headings stripped): 0 misses (census
+  top: 徐先生 ×29, 河内 ×25, 唐英杰 ×24, 魏春风 ×18, 制裁 ×17, 张逢义 ×16, 陈邦国 ×16).
+- `check_register.py --ref reference/B01_frozen.md`: within tolerance (contractions
+  4.9/1k from the heavy dialogue; shall 9% — Chen's narrating "shall", deliberate;
+  em-dash 9.0/1k; rhythm CV 0.63). Did NOT de-formalize the two long quoted-book
+  blocks.
+- `qa_epub.py`: PASS (57 files, 50 documents, all links resolve; 185 refs/bodies/
+  backlinks). `epubcheck 5.1.0`: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- Tail verified against the source (L231 制裁汪精卫的工作，并不到此为止… and the L229–230
+  举一个例 / 吴稚晖 passage before it): faithful and complete.
+
+### CRITICAL name-trap RESOLVED — 陈邦国 / 郑邦国
+ch13 (B08) recorded this action-team member as 郑邦国 "Zheng Bangguo" (4×); ch15
+writes 陈邦国 "Chen Bangguo" 16× consistently, AND the semi-official Biography of Dai
+Yunong quoted in ch15 §(五) also writes 陈. Resolved to the better-attested form
+**Chen Bangguo (陈邦国)**: (a) renamed the glossary key 郑邦国 → 陈邦国 (en "Chen
+Bangguo", pinyin Chén Bāngguó, status provisional) with a note recording the
+source's own 陈/郑 discrepancy; (b) updated the BUILT ch13 unit (`out/ch13_reading.md`
+Zheng Bangguo → Chen Bangguo, 4×; `ch13_en.json` regenerated; ch13 re-verified —
+numbers 0, anchors 21 ok, parity 262/262); (c) footnoted the discrepancy at the
+first ch15 occurrence (rule 4). Wikipedia's "陈邦国" is a different modern PRC
+official, not this figure; the 十八罗汉 secondary rosters vary (often 郑), so the
+romanization stays provisional.
+
+### Numeric flags — carried vs noised (check_numbers 0 unresolved)
+- CARRIED as digits / explicit words (real quantities): dates 二十八年三月十九/二十/廿/
+  二十一/二十二日; times 二时许, 十一时四十分, 四点钟, 四点五十分, 零时过九分 (rendered
+  "nine minutes past the zero hour"); Republican years 三十年, 六十八年 (1979), 七十年
+  (1981), 四十八年 (1959), 三十七/三十八年; distances 九十公里 (90 km), 三公里, 三百公尺,
+  两百公尺; money 四千五百 (4,500), 五百, 九张 (nine notes); page/volume 二○三页 (203),
+  九十四页 (94), 四十一–四十四页, 第十一册, 六册, 第五册; counts 七个人, 三组/三辆, 三枪,
+  五人, 三人; 第五十四次 (Fifty-fourth). Where the source used a bare 二人/三同志 etc., a
+  matching "the two of them / three in all / both" was added to the English so the
+  count survives (pairs 29, 38, 58–60, 89, 102, 129, 169, 212).
+- NOISED (data/noise.txt B10 block; the VALUE is still carried in the English):
+  八、九百, 四、五百, 四、五十, 四、五样, 五、六响, 五、六个, 七、八分钟 (elided-tens /
+  "N or N+1" spans); 三两天, 两三分钟, 一两分钟, 十来分钟; the fullwidth-zero page ref
+  二○三 (○ = U+25CB → "203"); 五百一张 (the greedy matcher read 五百一 as 501); 万不能
+  (万 as intensifier, not 10000); 三桃山 (place-name 三, not the count 3). ORDERING FIX:
+  the B09 short forms 四、五 / 三、四 / 二、三 were moved BELOW the B10 compounds that
+  contain them (四、五百 etc.), or the short rule fires first and orphans the leftover
+  百/十 (100/10).
+
+### Digitization glitches (rendered to plain sense; NOT footnoted — mechanical)
+Single-character substitution classes, pervasive in this chapter:
+- 先→光: 戴光生 → 戴先生 "Mr. Dai" (L12); 曾光生 → 曾先生 "Mr. Zeng" (L36).
+- 卫→术: 汪精术 → 汪精卫 "Wang Jingwei" (L53).
+- 鸣→呜: 曾仲呜 → 曾仲鸣 "Zeng Zhongming" (recurring, L176/206/207/208/209/213/215/218/221).
+- 汪→江: 江之卑劣 → 汪之卑劣 "so base as Wang" (L230, same class as ch14's 江案).
+- 文↔交 (section 五's quoted books): 摘录交内→文内 (L184), 本交→本文 (L190), 官交书→官文书
+  (L193), 汪交惺→汪文惺 "Wang Wenxing" (L206), 交杰→文杰 "He Wenjie" (L209).
+- 声→聋: 小聋叫他 → 小声 "in a low voice" (L159); 枪聋 → 枪声 "gunfire" (L188, L215).
+- Others: 「内工作」→「河内工作」 (dropped 河, L54); 引溥→引导 "guide" (L61); 一片一斤→一片一片
+  "slice by slice" (L41); 解择→解释 "explained" (L18); 注妻→汪妻 + 陈壁君→陈璧君 "Wang's
+  wife Chen Bijun" (L128); 警犭→警犬 "guard dogs" (L188); 我达以为→我还以为 "I still
+  supposed" (L176); 闲枪声→闻枪声 "hearing the shots" (L207); 历史资科→资料 (L8); 将总统
+  秘录→蒋总统秘录 (L181); 其其职责→其职责 (dittography, L141); 什糜→什么 (L92); 舂风→春风
+  "Wei Chunfeng" (L37/L134); 共中→其中 (L120/187/203/212); 时问→时间 "time" (L90/223);
+  某次→其次 "secondly" (L145); 房问→房间 "room" (L218); 隧着→随着 "as" (L231); 违个→这个
+  "this" (L225); 走一件→是一件 (L227); 遍是→便是 (L216); 拒动→扭动 "worked the handle"
+  (L162); 相昆连→相毗连 "adjoined" + 仲呜夫好→夫妇 + 行凶老→行凶者 + 层之卧室→the bedroom
+  (L206–208); 驳亮枪→驳壳枪 "Mauser" (L207); 锻羽→铩羽 "clipped wings" (L122);
+  演示文稿→演示 "a demonstration" (anachronism, L44). None footnoted (mechanical typos).
+- 汪逆 / 汪某 are NOT glitches: 汪逆(精卫) = "the traitor Wang (Jingwei)", 汪某 = "the man
+  Wang" — rendered faithfully. The □□ in 「午夜□□」 (L208) is a source lacuna, kept as "□□".
+
+### Notes ledger (11 this batch; 185 cumulative)
+New notes (first-appearance-disciplined): the Red River / Pont Doumer (Long Bien)
+bridge; the 陈/郑 Bangguo surname discrepancy; the Da Le / Dan Dao / San Tao Shan
+resort-name discrepancy; the three real quoted books with scholarship verdicts
+(蒋总统秘录, 戴雨农先生传, 汪政权的开场与收场 — all real, semi-official / journalistic,
+corroborating in the main); 行状 (Wang's 曾仲鸣先生行状 eulogy); Wang's apologia 举一个例
++ the doctored National Defense Council record; Wu Jingheng (Zhihui); the Hiranuma
+cabinet; the maxim 罪不及妻孥.
+**NOT re-noted** (already covered earlier): the TITLE allusion 博浪一击/误中副车 —
+Zhang Liang's Bolang ambush and "striking the wrong carriage" was noted in **ch04**
+(that note even points forward, "It also titles a later chapter"); the sanction
+euphemism 制裁 / 制裁令 (B01/B06); Mr. Dai / the Juntong; Wang Jingwei; Zeng Zhongming
+(the person); 朱执信 Zhu Zhixin (glossary-identified, peripheral here); No. 27 Gao
+Lang Street / the Continental Hotel (B08); the Republican-calendar convention;
+不入虎穴焉得虎子 and 打草惊蛇 (transparent from context — not padded).
+
+### Glossary rows added (~13 by hand; principals unchanged at 8)
+- people: 陈邦国 Chen Bangguo (renamed from 郑邦国); household/witnesses from the quoted
+  essay — 方君璧 Fang Junbi (attested), 朱媺 Zhu Mei, 何文杰 He Wenjie, 汪文惺 Wang
+  Wenxing (attested), 陈国琦 Chen Guoqi, 戴芸生 Dai Yunsheng, 何就 He Jiu, 陈国星 Chen
+  Guoxing, 汪圯 Wang Yi. (唐英杰 Tang Yingjie, 余鉴声 Yu Jiansheng, 平沼骐一郎 Hiranuma
+  Kiichirō, 金雄白 Jin Xiongbai / 朱子家 Zhu Zijia, 吴敬恒 Wu Jingheng, 朱执信 Zhu Zhixin
+  already existed from B08 — reused, not re-added.)
+- places: 红河大桥 the Red River bridge (attested); 打叻 Da Le (with the Dan Dao / San
+  Tao Shan variant note).
+- organizations: 东方汇理银行 the Banque de l'Indochine (attested).
+- The three quoted BOOK titles are handled by footnotes, NOT glossary rows: a glossary
+  entry keyed on the full hanzi title cross-flagged earlier chapters (ch10/ch13
+  render the same titles slightly differently), so they were left out of the ledger.
+  Every glossary row carries a `pinyin` field (qc_entities requirement).
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch15 spec added (drop=2; five body-line-pair merges;
+  glued {}; five standalone (一)–(五) sub-headings). Backward-compatible.
+- `data/noise.txt` — B09+B10 elided-tens block reordered longest-first (compounds
+  before the bare 四、五 / 三、四 / 二、三), plus B10 entries (see above).
+- `glossary.json` — 郑邦国 renamed to 陈邦国; ~12 rows added; sectioned, hand-merged.
+- `out/ch13_reading.md` + `out/ch13_en.json` — Zheng Bangguo → Chen Bangguo (name
+  reconciliation; ch13 re-verified green).

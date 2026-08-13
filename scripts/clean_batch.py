@@ -222,6 +222,28 @@ UNITS = {
         "merges": [], "glued": {},
         "standalone": [3],     # 壁垒坚强迎接多方面的挑战
     },
+    "ch15": {
+        "file": "16_index-split-000-0014.txt",
+        "title": "第五章 博浪一击 误中副车",
+        "drop": 2,             # running header + <h2> chapter title
+        # 235 source <p> (proven p-by-p against the source XHTML, zero mismatches;
+        # no <br/>, no images, no set-off formatting). FIVE mid-phrase splits where
+        # the SOURCE broke one sentence across two <p> (faithfully reproduced by
+        # the extractor): L13/14 (弹是子弹，药就|是可以致命的毒药 — 药就|是);
+        # L153/154 (墙里面，|有一方小院落 — a comma split); L167/168 (这不是汪|精卫
+        # 还有谁 — 汪|精卫, split mid-name); L175/176 (最愉快的一段|时刻 — 一段|时刻);
+        # L208/209 (「午夜□□」那两|节故事 — 两|节). The MANY ；/：-ended lines are
+        # DELIBERATE separate <p> and are NOT merged: the announced attack plan
+        # (L59 lead-in, L60-65 bullets), the three decisions (L88/L90), the
+        # job-division (L143/144), the reader-questions (L125 lead-in), and the
+        # three quoted-book lead-ins in section (五) (L189, L210) with their
+        # multi-<p> quoted blocks kept whole.
+        "merges": [(13, 14), (153, 154), (167, 168), (175, 176), (208, 209)],
+        # five sub-headings, all numbered-in-parens (一)-(五) (cf. ch12/ch13),
+        # each its own <p> (all standalone; no glued tails).
+        "glued": {},
+        "standalone": [3, 51, 97, 131, 185],
+    },
 }
 
 
