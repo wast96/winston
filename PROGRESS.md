@@ -664,3 +664,78 @@ to end per the pipeline.
   detail. 跑馬廳 the Racecourse (glossed B05): ch082/ch089 cross-ref. 弄堂, 老虎灶,
   小押當, 花會, 遊戲場, 洋人/租界 furniture: cross-referenced, not re-noted.
 - 洋盤 sucker (glossed here at ch073): ch078 (阿羊哥) cross-refs the pun.
+
+---
+
+## B07 — ch091-ch110 (假人參 through 尋人), PDF 159-183, printed 157-181
+
+Cheap-eats, quack-doctors and petty-price cluster: fake ginseng, empty-trick
+markups, pheasants (cabs/brokers/ticket-touts), the doctor's guarantee, the
+night food-stall economy (congee, tofu, wonton, set meals, cold stalls),
+ready-made clothiers, room-and-board and privy tolls, iron counter-grilles,
+charity sharks, advertising doctors, "superior Chinese," surly clerks
+(ghost-faces), the "thirteen o'clock" slang, and missing-person notices.
+Offset confirmed printed = pdf - 2, folio re-read at every opener.
+
+### Gates (all green)
+- verify_unit (parity + numbers + anchors): all 20 units clean.
+- check_align: all 20 within ratio (median en/han 4.87-6.40).
+- check_structure --config / check_content --config: PASS across all units.
+- qc_entities per bilingual: 0 misses on all 20 (incl. the 33 new glossary rows).
+- check_apparatus: 0 failures, 0 warnings.
+- check_register --ref out/ch001_reading.md: within tolerance on all 20.
+- Build: 111/168 chapters, 489 notes, 13 pagebreaks. qa_epub PASS
+  (214 files, 489 ref/body/backlink). epubcheck 5.1.0: 0 fatals/0 errors/0 warnings.
+
+### Apparatus
+- 42 notes (book-wide 448-489), 33 glossary rows, 4 reprint figures.
+- Fact-checks: Dangui First Stage (founded 1867, Fuzhou Road) and Xu Shaoqing
+  its manager to 1914 — CORROBORATED (zh.wikipedia). Lao Dafang confectioner
+  (founded 1842); ~40 Shanghai shops shared the name in the 1930s, each set off
+  by an added mark — CORROBORATED and matches the author's "a mark added above
+  to tell one from another" (ch101). Northeast Volunteer Army (irregular
+  anti-Japanese forces after Sept 1931; large 1932 Shanghai relief drives) —
+  general facts CORROBORATED, the specific fund-audit scandal the author reports
+  UNCORROBORATED in detail; dates the essay to ~1933 (ch105). Feng Zikai
+  (1898-1975) cartoonist, studio Yuanyuan Hall, "TK" mark — standard biography.
+- Classical allusions footnoted: 吮癰舐痔 (Zhuangzi, abject flattery, ch107);
+  螟蛉 (Book of Songs, the adopted child, ch109). Custom footnoted: the missing-
+  person notice with 人 printed upside-down (ch110).
+
+### Figures (4, all 2019-editor reprint additions; provenance stated in caption)
+- ch096: Feng Zikai brush cartoon "餛飩擔" (The Wonton Carrying-Pole), p165.
+- ch098: photo of a 蘇廣成衣鋪 (Su-Guang ready-made clothier) street stall, p168.
+- ch099: modern photo of the City God Temple secondhand-book market, p169.
+- ch100: photo of a traditional theater's carved balcony boxes, p171.
+- ch105 (靠災民發財的善棍) carries NO photo despite being a likely spot — the
+  three pages (176-178) are text only; recorded as a deliberate empty figure list.
+
+### OCR / paragraphing notes
+- tesseract chi_tra_vert psm 5 only (~85%); every page eye-read at magnification
+  and data/zh hand-transcribed against the scans, as B01-B06. indents.py unusable;
+  paragraphing finalized by hand off the scan (short-line signal at page seams).
+  ch091 (159-160), ch098 (167-168), ch100 (170-171), ch105 (176-178) are the
+  multi-page units; ch100's text ends on p170 (p171 is the full-page photo).
+- Digitization glitch (render to sense, listed here per CLAUDE.md): ch109 prints
+  an unusual 呆戀 for the "dullard" word ("說他呆戀並不呆戀"); the heart-radical
+  glyph was crop-verified at 6x but is semantically off (likely a reset error for
+  呆戇, Wu "dull-witted"). Rendered for plain sense ("call him a dullard and he is
+  no dullard") and footnoted.
+- Crop-verified this batch: 拆洋濫污 (ch103 Wu slang, verified 3x); the ch109
+  呆戀 glyph (verified 6x); folios read off every opener.
+- data/noise.txt additions (each a non-quantity, never masking a drop; longest
+  first): 五方雜處 (all quarters, 五 not five), 四出 (on all sides, 四 not four),
+  (?<=十五)、六 (十五、六歲 abbreviation, keeps 十五 checked), 五官 (the facial
+  features, 五 not five).
+
+### NOT re-noted this batch (already placed; cross-referenced instead)
+- Money system (dollar / 大洋 / 小洋 / 毛 / 角 / 分 / 文): ch001 & ch014 stand;
+  ch096/ch097/ch102/ch103 cite mao/jiao/cash/copper prices without re-noting the
+  policy (ch096 adds only the 100-cash = 10-copper reckoning; ch102 adds 制錢).
+- 城隍廟 City God Temple (noted ch001): ch099 cross-refs. 野雞 pheasant (noted
+  ch012): ch093/ch095 cross-ref the extended slang. 麥克麥克 muchee-muchee (noted
+  ch078): ch105 cross-refs. 寓公 idle rich sojourner (noted ch089): ch107 uses it.
+  opium (noted ch033): ch101 cross-refs. pidgin (noted ch018/ch078): ch105 uses
+  muchee-muchee; ch107 renders 洋涇浜話 as "pidgin". 捕房 police station (glossed):
+  ch103 uses "plain-clothes constable" for 探捕 (its own glossary row) and
+  "police station". 小押店 little pawnshop (ch062): ch104 cross-refs.

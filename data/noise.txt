@@ -141,3 +141,19 @@
 #   standalone it reads as a phantom 3. English renders "thirty or forty".
 #   (B06, ch089)
 三、四十
+# 五方雜處 "peopled from every quarter" (又為五方雜處); 五方 = the five
+#   directions, an idiom, not a count of five. English renders "from all
+#   quarters". (B07, ch110)
+五方雜處
+# 四出勸捐 "solicit on every side" (派人四出勸捐); 四出 = out in all
+#   directions, an idiom, not a count of four. English renders "on every
+#   side". (B07, ch105)
+四出
+# 十五、六歲 "fifteen or sixteen years old"; 六 abbreviates 十六, so
+#   standalone it reads as a phantom 6. Lookbehind keeps 十五 (15) checked.
+#   English renders "fifteen or sixteen". (B07, ch109)
+(?<=十五)、六
+# 五官 "the features of the face" (臉上五官怎樣); 五官 = the five sense-organs,
+#   an anatomical idiom, not a count of five. English renders "the features
+#   of the face". (B07, ch110)
+五官

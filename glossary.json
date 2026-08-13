@@ -282,6 +282,16 @@
       "pinyin": "Zhu Baosan",
       "status": "attested",
       "note": "Zhu Baosan (1848&#8211;1926), Ningbo-born Shanghai comprador and merchant magnate, thrice head of the Chinese Chamber of Commerce; a French Concession street was named for him."
+    },
+    "許少卿": {
+      "en": "Xu Shaoqing",
+      "status": "attested",
+      "note": "The impresario who managed the Dangui First Stage on Fuzhou Road until 1914."
+    },
+    "豐子愷": {
+      "en": "Feng Zikai",
+      "status": "attested",
+      "note": "Feng Zikai (1898&#8211;1975), the painter, essayist and cartoonist celebrated for his spare brush sketches of everyday life; he signed his work with the mark &#8216;TK&#8217; and named his studio the Yuanyuan Hall."
     }
   },
   "places": {
@@ -573,6 +583,21 @@
       "pinyin": "Zhabei",
       "status": "attested",
       "note": "The industrial Chinese district north of the Settlement, full of factories and workers' quarters."
+    },
+    "吉林": {
+      "en": "Jilin",
+      "status": "attested",
+      "note": "The Manchurian province that is the home of wild ginseng."
+    },
+    "營口": {
+      "en": "Yingkou",
+      "status": "attested",
+      "note": "A treaty port in southern Manchuria, a collecting-point for the ginseng trade."
+    },
+    "老北門": {
+      "en": "Old North Gate",
+      "status": "attested",
+      "note": "The north gate of Shanghai&#8217;s old walled city; the streets outside it were a district of eating-houses."
     }
   },
   "organizations": {
@@ -748,6 +773,46 @@
       "pinyin": "Yunfei qiche gongsi",
       "status": "attested",
       "note": "The \"Cloud-Flight\" (Yunfei) taxi company, one of the largest and best-known of early Shanghai's motor-cab firms."
+    },
+    "煙兌店": {
+      "en": "opium-and-exchange shop",
+      "status": "decided",
+      "note": "A small shop dealing in tobacco or opium and in the changing of money and small coin."
+    },
+    "丹桂第一台": {
+      "en": "Dangui First Stage",
+      "status": "attested",
+      "note": "A famous Shanghai opera house on Fuzhou Road, founded in 1867 as the Dangui Teahouse and long one of the city&#8217;s foremost Peking-opera theaters."
+    },
+    "東北義勇軍": {
+      "en": "Northeast Volunteer Army",
+      "status": "attested",
+      "note": "The irregular anti-Japanese volunteer forces raised in Manchuria after the Japanese seizure of the Northeast in September 1931."
+    },
+    "老大房": {
+      "en": "Lao Dafang",
+      "status": "attested",
+      "note": "A celebrated Suzhou-style confectioner, founded 1842; by the 1930s some forty-odd Shanghai shops all traded under the name &#8216;Lao Dafang,&#8217; each distinguished only by an added mark."
+    },
+    "稻香村": {
+      "en": "Daoxiangcun",
+      "status": "attested",
+      "note": "A well-known name in pastries and confections, borne by long-established shops in several cities."
+    },
+    "野荸薺": {
+      "en": "Yebiqi",
+      "status": "attested",
+      "note": "An old Shanghai confectionery house, its name meaning &#8216;wild water-chestnut.&#8217;"
+    },
+    "天祿": {
+      "en": "Tianlu",
+      "status": "provisional",
+      "note": "A confectioner&#8217;s shop-name paired with Lao Dafang in the text; the reading of the sign is not independently confirmed."
+    },
+    "致美樓": {
+      "en": "Zhimei Lou",
+      "status": "attested",
+      "note": "A restaurant that stood on the former site of the Dangui First Stage."
     }
   },
   "terms": {
@@ -1320,6 +1385,106 @@
       "pinyin": "tangguan",
       "status": "decided",
       "note": "A waiter in a restaurant or teahouse."
+    },
+    "人參": {
+      "en": "ginseng",
+      "status": "decided",
+      "note": "The root of <i>Panax ginseng</i>, the most prized restorative of Chinese medicine."
+    },
+    "虛頭": {
+      "en": "empty trick",
+      "status": "decided",
+      "note": "Wu-dialect <i>xutou</i>: the padding built into an asking price, the bluff a seller counts on the buyer not to challenge."
+    },
+    "客飯": {
+      "en": "set meal",
+      "status": "decided",
+      "note": "<i>Kefan</i>, a cheap fixed-price table d&#8217;hote &#8212; a set of dishes, soup and unlimited rice for one flat charge."
+    },
+    "冷攤": {
+      "en": "cold stall",
+      "status": "decided",
+      "note": "<i>Lengtan</i>, a secondhand-book stall, so called because the wares sit out cold and unattended waiting for a buyer."
+    },
+    "善棍": {
+      "en": "charity shark",
+      "status": "decided",
+      "note": "A coinage joining <i>shan</i> (good, charitable) to <i>gun</i> (a rascal, a stick), for a man who grows rich on the charity he pretends to run."
+    },
+    "高等華人": {
+      "en": "superior Chinese",
+      "status": "decided",
+      "note": "<i>Gaodeng huaren</i>, a bitter tag for the Chinese whom the foreigner ranked above the rest &#8212; compradors and hangers-on who traded on foreign favor."
+    },
+    "起碼華人": {
+      "en": "common Chinese",
+      "status": "decided",
+      "note": "<i>Qima huaren</i>, literally the &#8216;bottom-rung&#8217; Chinese: the ordinary laboring folk, in the foreigner&#8217;s reckoning the opposite of the &#8216;superior Chinese.&#8217;"
+    },
+    "十三點": {
+      "en": "Thirteen O&#8217;Clock",
+      "status": "decided",
+      "note": "<i>Shisandian</i>, Shanghai slang for a scatterbrained or half-witted person, most often a woman."
+    },
+    "鬼臉": {
+      "en": "ghost-face",
+      "status": "decided",
+      "note": "<i>Guilian</i>, a surly, scowling face; to &#8216;pull a ghost-face&#8217; is to receive someone with a sour, forbidding look."
+    },
+    "保單": {
+      "en": "guarantee",
+      "status": "decided",
+      "note": "A written bond of surety, stamped with a shop&#8217;s seal, vouching for a stranger."
+    },
+    "綁票": {
+      "en": "kidnapping",
+      "status": "decided",
+      "note": "<i>Bangpiao</i>, the seizing of a person to be ransomed &#8212; rife in and around Shanghai through the 1920s and 1930s."
+    },
+    "拐子": {
+      "en": "kidnapper",
+      "status": "decided",
+      "note": "A child-stealer or abductor who carries off children and servant-girls to be sold, as distinct from the ransom-kidnapper (<i>bangpiao</i>)."
+    },
+    "制錢": {
+      "en": "standard coin",
+      "status": "decided",
+      "note": "<i>Zhiqian</i>, the officially cast round copper cash of the old currency, strung by the hundred and thousand."
+    },
+    "客棧": {
+      "en": "guest-lodge",
+      "status": "decided",
+      "note": "<i>Kezhan</i>, the old-style Chinese inn, before the Western-style hotel."
+    },
+    "茶房": {
+      "en": "tea-boy",
+      "status": "decided",
+      "note": "The manservant of an inn, hotel or theater who waited on guests and looked for his tip."
+    },
+    "燻魚": {
+      "en": "smoked fish",
+      "status": "decided",
+      "note": "<i>Xunyu</i>, a Shanghai cold relish &#8212; despite the name, fish steeped in a sweet-spiced marinade and deep-fried, not smoked."
+    },
+    "酥糖": {
+      "en": "crisp candy",
+      "status": "decided",
+      "note": "<i>Sutang</i>, a brittle sweetmeat of ground sesame or peanut and sugar, pressed into flaky bars."
+    },
+    "餛飩": {
+      "en": "wonton",
+      "status": "decided",
+      "note": "<i>Huntun</i>, filled dumplings served in broth, hawked at night from a carrying-pole."
+    },
+    "買辦": {
+      "en": "comprador",
+      "status": "decided",
+      "note": "<i>Maiban</i>, the Chinese manager and go-between who ran a foreign firm&#8217;s dealings with the local market."
+    },
+    "揩油": {
+      "en": "skim",
+      "status": "decided",
+      "note": "<i>Kaiyou</i>, literally &#8216;to wipe off oil&#8217;: to skim a private profit off goods or money that pass through one&#8217;s hands. The subject of chapter 152."
     }
   }
 }
