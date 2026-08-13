@@ -377,3 +377,105 @@ noised (three cups, 88th Division, 20,000/800, 203, 1929/1931/1935, 二两/两�
 面包 etc. all rendered in the English).
 
 Voice sheets for The Postman's principals written into HANDOFF.md.
+
+================================================================================
+BATCH B04 — The Postman 7-11 (ch21-ch25)
+================================================================================
+
+Scope: The Postman installments 7-11, units ch21-ch25, source files
+data/src/24_part0022.txt .. 28_part0026.txt. 216 paragraphs total
+(ch21 57, ch22 45, ch23 43, ch24 56, ch25 35). Same novella and cast as B03;
+story carries over. ch01 remains the FROZEN register reference (not re-frozen).
+
+Source notes marker grep (\[\d+\]) per unit: NONE PRESENT in any of ch21-ch25
+(the source has carried none through the whole book so far; grepped anyway).
+Extractor-split scan (body line not ending in 。！？"）…—): 0 splits in all
+five files. Doubled heading line per file confirmed; make_bilingual skip=2.
+No U+200B zero-width lines.
+
+Checks (all GREEN):
+- verify_unit (parity + numbers with data/noise.txt + anchors): ch21-ch25 all
+  0 unresolved; anchors OK after apparatus_merge.
+- check_align: all five within tolerance (median en/han 4.06-4.44, no pair
+  strays > 2.2x).
+- check_content --config review/content_config.json: all five "all in the
+  paired paragraph" (0 displaced) after fixing St. Thérèse's Church full-name
+  anchors (ch21 x2, ch23, ch24) and 汉奸->"traitor" (ch24 p51).
+- qc_entities against glossary.json: 0 misses all five (new names Kruger,
+  Itō Kinji, Chen Taining, Harada, Seymour Road, Bridge House, the ROC flag,
+  etc. all counted and satisfied once-per-paragraph).
+- check_register --ref reference/ch01.md: all five within tolerance
+  (contr/1k 36-42, ~2.0-2.6x ref, em-dash 2-5/1k, all flagged "little
+  dialogue - noisy", consistent with the frozen reference and B03).
+- check_apparatus: 0 failures, 0 warnings.
+- TAIL verification against source: done per unit (final paragraph of each of
+  ch21-ch25 checked verbatim; plus ch24 dense paras 51 and 54). Faithful.
+- Build: qa_epub PASS (65 files, 58 documents, 172 references / 172 bodies /
+  172 backlinks, all links resolve). epubcheck 5.1.0: 0 fatals / 0 errors /
+  0 warnings / 0 infos. Cover kept byte-identical (data/figs/cover00144.jpeg).
+
+Footnotes added this batch: 22 (book total 150 -> 172).
+  ch21 (4): Seymour Road; the Colt "horse-brand" pistol (马牌撸子); Du Mu's
+    "singsong girl knows not a fallen nation's grief" allusion (泊秦淮); the
+    Kagoshima / "This is Honolulu" Pearl Harbor-rehearsal reveal.
+  ch22 (4): the Longhua internment camp; the thirteen-story Bridge House
+    (Kempeitai HQ); "Baka" (八格 / bakayarō); Sir Mark Young + Sakai Takashi
+    and the Hong Kong surrender.
+  ch23 (4): the emperor's 41st birthday (Tenchōsetsu, Hirohito b. 1901);
+    the 2nd year of Xuantong = 1910; 三教九流 "every walk of life"; 巡抚
+    provincial governor under the Daoguang reign.
+  ch24 (6): the 1943 retrocession of the International Settlement (First
+    District of the Special Municipality); the青天白日满地红 ROC flag; the CRB
+    reserve certificates (储备券); Three Castles cigarettes (三炮台); the winter
+    清乡 rural-pacification campaign; the shikumen (石库门) lane-house.
+  ch25 (4): 野鸳鸯 "wild mandarin ducks"; the Zhongtong reveal (中统, the CC
+    Clique's Bureau of Investigation and Statistics) + Blue Sky White Sun
+    badge; 苦肉计 the self-injury stratagem (Thirty-Six Stratagems); 残阳如血
+    echoing Mao's "Loushan Pass" (忆秦娥·娄山关, 1935).
+  Every historical claim fact-checked against real scholarship (Wikipedia /
+  Baidu Baike / USNI / academic); verdict stated in each note. Mark Young +
+  Sakai, Bridge House, Longhua, Kagoshima/Pearl-Harbor training, Three Castles,
+  中统 vs 军统, and Mao's Loushan Pass line all independently corroborated.
+
+Glossary rows added this batch: 19 (book total 124 -> 143). People (4): Kruger
+(克鲁格), Itō Kinji (伊藤近二), Chen Taining (陈泰泞), Mr. Harada (原田). Places
+(6): Seymour Road (西摩路), Bridge House (桥楼), Kagoshima (鹿儿岛), Nagoya
+(名古屋), Hongkou Park (虹口公园), Shiliupu (十六铺). Organizations (2): the
+anti-Japanese assassination squad (抗日除奸队), the 264th Brigade (264旅). Terms
+(7): Catfish (鲶鱼, code name), reserve certificates (储备券), Three Castles
+(三炮台), the Blue Sky White Sun & Wholly Red Earth flag (青天白日满地红), rural
+pacification (清乡), shikumen (石库门), tatami (榻榻米). Each row carries a
+category, an attestation status, and Mandarin pinyin of the source hanzi.
+
+Reused settled renderings (no new row): Fourth Avenue (四马路), the Cathay Hotel
+(华懋饭店), St. Thérèse's Church, the Jing'an post office, Suzhou Creek, Hongkou,
+Nanjing/Chongqing/Yan'an, the 88th Division, the Dahua Trading Company, 中统
+(already in glossary; newly footnoted here), the New Fourth Army (新四军),
+cheongsam, rickshaw, the traitor (汉奸).
+
+NOT re-noted (first appearance earlier in the book; book-wide ledger): the New
+Fourth Army Incident / 皖南事变 (ch02; ch21 references it); "you within me, and
+me within you" 你中有我我中有你 (ch02; ch22); the 88th Division (ch17; ch21/22);
+the Eight Immortals table (ch16; ch22); the Kempeitai / Japanese military
+police (ch19; ch22 Bridge House note points to it without re-defining);
+the Tokkō (ch07); No. 76, Wang Jingwei, the Cathay Hotel, The Young Companion,
+Rue Ratard, Siming Apartments, the Central Reserve Bank (ch04; ch24 reserve-
+certificate note builds on it), Hongkou Park (ch03; glossary row added, note
+not repeated), Shiliupu docks (ch10), the campaign to punish traitors / 除奸
+(ch10; ch21 除奸队 not separately defined), cheongsam, rickshaw, Jintan.
+
+Digitization glitches (render to sense, list here, never footnote a mechanical
+typo): 马牌橹子 for 马牌撸子 "Colt automatic" slang (ch21) — rendered to sense,
+the slang itself footnoted as texture (not as a typo). 她的女人 for 他的女人
+"his woman" (ch23 p22) — one-character 她/他 slip, rendered "his woman". 大街大上
+for 大街上 "in the street" (ch23 p19) — dittography (大 doubled), rendered "in
+the street". 十六浦 for 十六铺 Shiliupu (ch25 p16; the correct 十六铺 appears at
+p21) — same glitch class as B02/B03, already noised, rendered "Shiliupu".
+
+noise.txt entries added this batch (non-quantitative numerals; each commented):
+百顺来 (shop name Baishunlai), 胡说八道 (idiom), 四面八方 (directional idiom),
+八格 (baka), 三教九流 (idiom), 伊藤近二 (name, 二 in Kinji), 丢三落四 (idiom),
+成千上万 (idiom "a great many"), 飘零 (verb "drift down", 零 not zero). Real
+quantities never noised: thirteen-story, 3:15, forty-one, 1910, 1942, two/three/
+four/seven rounds, twenty years, the 264th Brigade, the 88th Division, etc. all
+rendered in the English.

@@ -234,6 +234,30 @@
       "pinyin": "Huáng Tíngjiān",
       "status": "attested",
       "note": "Huang Tingjian (1045–1105), Song-dynasty poet and one of the great masters of calligraphy. Historical."
+    },
+    "克鲁格": {
+      "en": "Kruger",
+      "pinyin": "Kèlǔgé",
+      "status": "decided",
+      "note": "Father Kruger (克鲁格), the fair-haired German priest who succeeds Father Brown as the church's intelligence contact and later strikes his own bargain with Zhongliang. A fictional character; the source's transliteration of a German surname (Kruger/Krüger)."
+    },
+    "伊藤近二": {
+      "en": "Itō Kinji",
+      "pinyin": "Yīténg Jìn'èr",
+      "status": "decided",
+      "note": "The Japanese agent, planted as a postal inspector at the Jing'an office, who has lived twenty years in Shanghai and been exiled to it for defeatist talk. A fictional character; Japanese name in Hepburn romanization."
+    },
+    "陈泰泞": {
+      "en": "Chen Taining",
+      "pinyin": "Chén Tàinìng",
+      "status": "decided",
+      "note": "The bald, self-effacing warehouse clerk at Shiliupu whom Qin Zhaokuan charges, in secret, with getting Su Lina safely out of Shanghai. A fictional character; pinyin."
+    },
+    "原田": {
+      "en": "Mr. Harada",
+      "pinyin": "Yuántián",
+      "status": "decided",
+      "note": "Mr. Harada (原田先生), the aged proprietor of the Japanese pawnshop on Fourth Avenue who keeps Qin Zhaokuan's sealed box against the day the ring appears. A fictional character; Japanese surname."
     }
   },
   "organizations": {
@@ -434,6 +458,18 @@
       "pinyin": "Shànghǎi Tàiwùshìbào",
       "status": "attested",
       "note": "An English-language daily of treaty-port Shanghai. Historical."
+    },
+    "抗日除奸队": {
+      "en": "the anti-Japanese assassination squad",
+      "pinyin": "Kàngrì Chújiān Duì",
+      "status": "decided",
+      "note": "抗日除奸队, a resistance cell of the kind that hunted collaborators and turncoats in occupied Shanghai; here the unit to which Xiufen belongs. Rendered descriptively."
+    },
+    "264旅": {
+      "en": "the 264th Brigade",
+      "pinyin": "Èrliùsì Lǚ",
+      "status": "decided",
+      "note": "The Nationalist brigade of the 88th Division in which Su Lina's husband, Zhou Chukang, serves at the front."
     }
   },
   "places": {
@@ -682,6 +718,42 @@
       "pinyin": "Wǔhàn",
       "status": "attested",
       "note": "The tri-city on the middle Yangtze, provisional Nationalist center after the fall of Nanjing. Historical."
+    },
+    "西摩路": {
+      "en": "Seymour Road",
+      "pinyin": "Xīmó Lù",
+      "status": "attested",
+      "note": "A road in the western International Settlement, today Shaanxi North Road (陕西北路). Zhongliang keeps his cigarette stall at a corner off it."
+    },
+    "桥楼": {
+      "en": "Bridge House",
+      "pinyin": "Qiáolóu",
+      "status": "attested",
+      "note": "Bridge House (桥楼), by the Sichuan Road bridge over Suzhou Creek: the Shanghai headquarters and torture-prison of the Kempeitai. Historical."
+    },
+    "鹿儿岛": {
+      "en": "Kagoshima",
+      "pinyin": "Lù'érdǎo",
+      "status": "attested",
+      "note": "City and bay at the southern tip of Kyushu, Japan, where the navy rehearsed the Pearl Harbor attack. Attested."
+    },
+    "名古屋": {
+      "en": "Nagoya",
+      "pinyin": "Mínggǔwū",
+      "status": "attested",
+      "note": "City in central Japan; the exiled inspector Itō Kinji's home town. Attested."
+    },
+    "虹口公园": {
+      "en": "Hongkou Park",
+      "pinyin": "Hóngkǒu Gōngyuán",
+      "status": "attested",
+      "note": "The park in the Hongkou district (今鲁迅公园), in the Japanese quarter of Shanghai; Zhongliang's last safe-house stands near it."
+    },
+    "十六铺": {
+      "en": "Shiliupu",
+      "pinyin": "Shíliùpù",
+      "status": "attested",
+      "note": "The old wharf district on the Huangpu in southern Shanghai (the source also prints the variant 十六浦). Site of the Longxin Warehouse where Chen Taining works."
     }
   },
   "terms": {
@@ -768,6 +840,48 @@
       "pinyin": "réndān",
       "status": "decided",
       "note": "Small refreshing medicinal pellets; 人丹 is the Chinese brand answering the Japanese Jintan (仁丹)."
+    },
+    "鲶鱼": {
+      "en": "Catfish",
+      "pinyin": "niányú",
+      "status": "decided",
+      "note": "Zhongliang's code name after he takes over Zhou San's work (鲶鱼, “catfish”); he plays on it in English with Father Kruger."
+    },
+    "储备券": {
+      "en": "reserve certificates",
+      "pinyin": "chǔbèiquàn",
+      "status": "decided",
+      "note": "储备券, the banknotes of the Wang regime's Central Reserve Bank; the currency of occupied Shanghai."
+    },
+    "三炮台": {
+      "en": "Three Castles",
+      "pinyin": "sānpàotái",
+      "status": "attested",
+      "note": "三炮台, the Chinese name for the Wills brand Three Castles, a premium foreign cigarette of Republican Shanghai."
+    },
+    "青天白日满地红": {
+      "en": "the Blue Sky, White Sun, and Wholly Red Earth flag",
+      "pinyin": "Qīngtiān Báirì Mǎndìhóng",
+      "status": "attested",
+      "note": "The national flag of the Republic of China, flown also by Wang Jingwei's collaborationist regime."
+    },
+    "清乡": {
+      "en": "rural pacification",
+      "pinyin": "qīngxiāng",
+      "status": "decided",
+      "note": "清乡 (qingxiang), the Japanese and Wang-regime campaign to pacify and control the countryside around occupied Shanghai."
+    },
+    "石库门": {
+      "en": "shikumen",
+      "pinyin": "shíkùmén",
+      "status": "attested",
+      "note": "石库门, the stone-framed-gate lane-house characteristic of Shanghai."
+    },
+    "榻榻米": {
+      "en": "tatami",
+      "pinyin": "tàtàmǐ",
+      "status": "attested",
+      "note": "榻榻米, the Japanese straw-mat flooring, fitting the safe-house in the Japanese residents' quarter."
     }
   }
 }

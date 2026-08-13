@@ -103,3 +103,31 @@
 # 两人 "the two of them / the pair"; 两人 is the fixed compound for a couple,
 # not an inventory count — rendered "the two of them".
 两人
+# B04 (The Postman 7-11):
+# 百顺来 "Baishunlai", a shop name (被服庄) on Seymour Road; the 百 is part of
+# the proper name, not the number hundred — rendered "Baishunlai".
+百顺来
+# 胡说八道 "talking rubbish / sheer nonsense"; the 八 is idiomatic, not a
+# count — rendered "Rubbish".
+胡说八道
+# 四面八方 "from all directions / every side"; 四 and 八 are directional
+# idiom, not counts — rendered "from every direction".
+四面八方
+# 八格 the Japanese insult "baka(yarō)" as heard in Chinese; the 八 is
+# phonetic, not a count — rendered "Baka".
+八格
+# 三教九流 "every walk of life / all sorts and conditions"; 三 (three) and 九
+# (nine) are idiomatic, not counts — rendered "every walk of life".
+三教九流
+# 伊藤近二 "Itō Kinji", a Japanese character's name; the 二 is part of the
+# given name, not a count — rendered "Itō Kinji".
+伊藤近二
+# 丢三落四 "scatterbrained / careless, forever losing things"; 三 and 四 are
+# idiomatic, not counts — rendered "carelessness".
+丢三落四
+# 成千上万 "tens of thousands / a great many"; 千 and 万 are idiomatic
+# magnitude, not a counted quantity — rendered "tens of thousands".
+成千上万
+# 飘零 "drift/flutter down (of snow, petals, leaves)"; the 零 is the verb, not
+# the number zero — rendered "drifting down".
+飘零

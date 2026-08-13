@@ -1,0 +1,91 @@
+## 8
+
+On the very day Japan made its surprise attack on Pearl Harbor, the foreign concessions were occupied. Fully armed Japanese soldiers came swarming from every direction, and everywhere was the sound of army boots on the concrete streets. They sealed the roads off with barbed wire and began seizing people house by house. The foreigners who lived in the Western villas they drove out into the street and hauled off by the truckload, in droves, to the internment camp at Longhua.
+
+Father Brown was among them, but he was shut up in the thirteen-story Bridge House on the bank of Suzhou Creek. It was now the headquarters of the Japanese military police, the place where anti-Japanese elements and suspected spies were held. Father Brown had not even time to take up his Bible before two Japanese soldiers dragged him out of the church. Over and over the priest said that he was a man of the cloth, under the protection of God and of the Holy See in Rome. The Japanese soldier slapped him across the face on the spot. “Baka.”
+
+The following Sunday, a week later, Zhongliang was ordered to make contact with the newly arrived German priest, and found him to be a fair-haired man of middle age. He told Zhongliang his name was Kruger. He said too that in the concessions now, apart from the Japanese, only those holding a German passport could move about freely. He asked Zhongliang to trust him as he had trusted his predecessor. Zhongliang only nodded and said nothing, for before coming, Mr. Pan had warned him again and again: at a time like this no one could be trusted, a German least of all.
+
+But Father Kruger seemed a little impatient. On the afternoon of Christmas, with a few flakes of snow drifting down, he stopped Zhongliang in the street before the church door and, crossing himself, said, “For God's sake — you haven't come to confession in two weeks.”
+
+That evening Zhongliang knelt in the confessional at St. Thérèse's Church. “You mustn't come looking for me in a hurry,” he said to Kruger. “It's against the rules.” Kruger said that at 3:15 that very afternoon the Governor of Hong Kong, Sir Mark Young, had announced his surrender, and that the Japanese side had been represented at the capitulation by Lieutenant General Sakai Takashi. Zhongliang said, “That hardly counts as intelligence. It's on every broadcast out there.”
+
+“Next it will be Singapore, then the Philippines.” Kruger said, “I need any information at all on the Japanese in East Asia. They are our common enemy now.”
+
+“What intelligence you're given is for my superiors to decide.” Zhongliang said, “But you ought to know, too, what it is we need.”
+
+“I know.” Kruger sighed in the dark, and then said, out of nowhere, that the day before he had been sent by the Church to visit Father Brown; the Church was negotiating with the Japanese through the Italian government, and, barring accidents, Father Brown would be back in Rome by next spring. “Father Brown sends his regards,” Kruger said. When Zhongliang made no sound, he added, “Father Brown told me he was a friend of your father's. He feels a responsibility toward you.”
+
+Zhongliang smiled. “For a man shut up in the headquarters of the Japanese military police, he rather overrates himself.”
+
+“But I can do it.” Kruger said, “If you're willing, I have the means to send you to America — after the war ends, of course.”
+
+Zhongliang smiled again. “Then let's wait until we've both lived to the war's end, and talk about it then.”
+
+“Father Brown always believed you'd make a fine agent, and I trust his eye.” Kruger said, “You must seize the chance to change your fate.”
+
+“I'm only a postman.”
+
+“You can be a gentleman, Mr Xu.”
+
+Zhongliang thought a moment, stood up, and answered him, also in English: “In this cage, you just call me a catfish. Pastor.”
+
+A few days later Zhongliang saw Mr. Pan in the typesetting room of a newspaper office, and when he had finished recounting this meeting with Kruger in full, Mr. Pan nodded. “Imperialists are imperialists. They never for a moment forget to buy men off and to court them.” Zhongliang said, “I don't trust this Kruger.”
+
+“He doesn't trust us either — this is a test of you.” Mr. Pan smiled and laid a hand on his shoulder. “Intelligence work is you within me, and me within you. But we must keep a clear head; we must know what we are doing.”
+
+That afternoon, amid the roar of the machines, Mr. Pan for the first time said a great deal. He ranged from Europe to Asia, from the international situation to the situation at home, from Shanghai to Nanjing, and from Chongqing to Yan'an. In the end he drew a conclusion for Zhongliang: the longer the Japanese devils stretched their front, the nearer they came to their own destruction.
+
+Mr. Pan's gaze was firm, his tone beyond dispute. Yet one evening near the Spring Festival, he suddenly knocked at the door of Zhongliang's home.
+
+It was the second time Mr. Pan had come there. He was dressed in the yellow uniform of a postman; he came in without a word, only nodding to Zhongliang. Zhongliang sent Xiufen out for a walk. Mr. Pan turned his head to glance at the closed door, walked slowly to the table, and sat down in the seat Xiufen usually took. “Give me a bowl of rice,” he said. “I haven't eaten all day.”
+
+It turned out that the intelligence network in his charge had been gravely broken in the space of a single day, and the Japanese military police were making mass arrests across the city. Mr. Pan set down his bowl and chopsticks, took the cup of water Zhongliang handed him, and said, “There's a traitor in the organization.” Zhongliang asked who. Mr. Pan shook his head and said no more. Slowly he drank the whole cup down, and only then looked hard at Zhongliang and told him to listen well: from now on, cease all activity — including contact with Su Lina. Zhongliang asked again, “Why?”
+
+Mr. Pan said, “Don't ask why. Your task is to wait.”
+
+But still Zhongliang pressed. “Wait until when?”
+
+Mr. Pan thought a moment. “The organization will send someone to make contact with you soon.”
+
+With that Mr. Pan rose and left, vanishing into the night; but the organization's contact never came. More than two months passed. In the concessions gunfire rang out every day: someone shot by a Japanese execution squad, or someone assassinated by a Chinese agent. Zhongliang was like a man in his last years — every evening he sat at the Eight Immortals table at home and practiced his calligraphy. When Xiufen was not out on a mission, she sat across from him, keeping him company, embroidering her pillowcases. Late one night Zhongliang suddenly set down his brush, looked up at Xiufen, and said, “Does the organization not trust me? Why have they still not come to make contact?”
+
+Xiufen said, “You must trust the organization.” Then she looked up, thought a moment, and added, “In our line of work you have to be able to hold your nerve.”
+
+But Zhongliang could not hold his. Carrying a forged rejection letter, he knocked at Su Lina's door in the rain, and the moment he saw her he asked, “Why has no one made contact with me?”
+
+Su Lina held the door and looked at him calmly. “You're asking me? And who am I to ask?”
+
+Zhongliang was taken aback, and no longer knew what to say. Just as he was about to turn and leave, Su Lina let go of the door and said two words: “Come in.” Zhongliang hesitated, lowering his head to look at his soaked clothes. Without expression, Su Lina said four more: “Come in and talk.”
+
+Su Lina sat down in a rocking chair in the parlor, looked at the postman standing before her, and said mildly, “Until the traitor is found, I don't think anyone will come to make contact with you.”
+
+“You don't trust me?”
+
+“It's only common sense — everyone who hasn't been arrested comes under suspicion.” Su Lina sighed suddenly. “They have all the more reason to suspect me.” Why?
+
+Su Lina gave a bleak smile, said nothing, and turned to look out the window at the thunderstorm coming down harder and harder.
+
+It was just then that Qin Zhaokuan came home. He glanced at the soaked postman and said to Su Lina with a smile, “So we finally have a guest in the house.”
+
+Su Lina paid him no mind. Only after Zhongliang had gone did she rise from the rocking chair and say, as though it were nothing, that this was the postman who used to bring her letters; five or six years now, and he had not changed at all. “I knew him the moment I saw him,” Su Lina said.
+
+Qin Zhaokuan smiled. “And why are you telling me this?”
+
+“Because someone was wondering.” Su Lina shot him a pert sidelong glance, then went to the window and looked out at the pouring rain.
+
+Su Lina's gaze congealed, little by little. All at once she let out a long breath, and, as if she felt the cold, wrapped her arms tightly around herself.
+
+“Is a postman worth your grieving?” Qin Zhaokuan had come to stand beside her, she did not know when.
+
+“Am I grieving?” Su Lina raised her eyes to him, and it was a good while before she lowered her lids. “And why should I not grieve?”
+
+Qin Zhaokuan lifted her chin with one finger. “You're thinking of him.”
+
+Su Lina turned back to the window. “I'm thinking of myself.”
+
+Qin Zhaokuan said nothing more. He wavered until nightfall, and then, all at once, on the pillow beside Su Lina, he said that Chukang was still alive — still with the 88th Division of the National Army; he was now chief of the staff office of the 264th Brigade, fighting the Japanese in the Yunnan–Guizhou region. Qin Zhaokuan said it all in one breath, and turned his face to look at the woman under the bedside lamp.
+
+Su Lina said, without stirring a hair, “And why are you telling me this?”
+
+Qin Zhaokuan said, “I'm telling you because you once asked me.”
