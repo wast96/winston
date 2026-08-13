@@ -1,0 +1,363 @@
+## Red and White
+
+Not long after, on the twenty-second day of the twelfth month of the first year of Keiō, the commander Kondō Isami came back from his errand to Hiroshima in Geishū.
+
+The staff officer Itō Kashitarō, Takeda Kanryūsai, and Ogata Shuntarō, who had gone with him, likewise entered the new barracks at Hanashō-chō, all travel-stained.
+
+"Toshi, you've had hard duty while I was away,"
+
+{j} Kondō clapped Toshizō hard on the shoulder. There was something changed about Kondō, somewhere.
+
+The eye with which he looked at Toshizō, after a month, was somewhere cold, too.
+
+(Strange.)
+
+{j} Toshizō's fine-strung nerves went to work.
+
+That night there was a drinking-party of the officers.
+
+Kondō, once he had drained two or three cups, went scarlet. He was by nature a poor drinker; and yet,
+
+"Good,"
+
+{j} he said, savoring it.
+
+"Gentlemen, for wine it's Kyoto after all."
+
+But he drank no more than that. In place of drinking he ate largely of the dishes on the tray before him, and held forth in a high pitch as though he had drunk deep.
+
+Chiefly it was about the state of Chōshū.
+
+"Chōshū on the surface makes a great show of submission, all humility toward His Majesty's Court and the shogunate; but that's the sheerest playing the meek cat. Behind our backs the fellows are putting their armaments in order,"
+
+"Oh?"
+
+{j} The officers who had stayed behind were all astonished.
+
+The Aizu domain was Chōshū-hating to the marrow, and Kondō too had come back looking at Chōshū with that same eye.
+
+(At bottom, the Chōshū domain has designs on the realm.)
+
+{j} so Kondō saw it. Lord Mōri wished to be shogun, and was seeking, with the Emperor for a screen, to make a Mōri shogunate. To the men of Chōshū, revering the Emperor and expelling the barbarian was no more than a tool for it—so Kondō believed, with hatred in the believing. And not Kondō alone: his mother-domain of Aizu, high and low, was fixed in the same conviction, and the Satsuma domain, which later became Chōshū's ally, believed it more fiercely still.
+
+The proof of it: at the time of the secret Satsuma-Chōshū compact, Saigō Kichinosuke of Satsuma—Takamori—was slow to stir himself. It was because that suspicion was in him.
+
+"The shogunate is too soft,"
+
+{j} Kondō said, as though spitting it out.
+
+"If we do not press troops now onto the four borders of the two provinces of Suō and Nagato, smash the Mōri house, and make it shogunal domain, there'll be the devil to pay."
+
+"But, Kondō-san,"
+
+{j} Itō raised his white face.
+
+Itō had another way of seeing it.
+
+"Last year Chōshū, against the fleet of four nations in the Bakan Strait, carried out the expelling of the barbarian, single-handed, one domain alone. The men of purpose throughout the realm sent up a cheer that Chōshū had carried out the expulsion without fearing its own domain's ruin. Kondō-sensei, you are an expel-the-barbarian man too, are you not?"
+
+"That is my intent."
+
+{j} It was, past mistaking, the founding purpose of the Shinsengumi itself.
+
+"Then there ought to be a more supple view of Chōshū. Chōshū carried out the expulsion in obedience to the Court's own policy, and, because the barbarian's gun-power was unhappily the greater, its coastal batteries were smashed to the last one. On top of that it is about to suffer the shogunate's chastisement as well. Chōshū is wounded to the death. Whatever else its offenses, to strike it now is not the act of a samurai."
+
+"Not the act of a samurai…"
+
+{j} Kondō stopped his chopsticks.
+
+"Itō-san, do you say it is not the act of a samurai?"
+
+"I do."
+
+{j} Itō gazed steadily into Kondō's eyes, then smiled, and carried the argument on. The clever Itō knew the man Kondō through and through. Kondō had a head that took things in more readily by an appeal to his feelings than by the marshaling of cold logic.
+
+"What makes a samurai a samurai is whether the feeling of compassion is in him or not. Plainly put, it is what we call the warrior's mercy."
+
+"Even without your putting it plainly,"
+
+{j} and Kondō picked up a slice of sashimi,
+
+"I understand it well enough."
+
+{j} and, with a sour face, put it in his mouth.
+
+Kondō was by now a great figure of the Kyoto political world. He held himself to be so. To be thought unlettered by Itō was a pain to him.
+
+"Itō-san. I understand, I fancy—all of it. There's no need to spend so many words on me."
+
+"So I should suppose. On this last journey, as we added stage to stage, you came to understand my views very well.—Toshizō-san,"
+
+{j} and Itō turned the talk toward Toshizō, who sat one place beyond Kondō's knee.
+
+Toshizō had been drinking in silence from the first.
+
+"Is it not so, Toshizō-san?"
+
+"What is?"
+
+{j} Toshizō said, wearily.
+
+"No—I mean,"
+
+{j} and Itō stammered. This Toshizō was a hard man for him.
+
+"It is a matter of Kondō-sensei. Having seen the state of Chōshū, he seems to me to have widened his view another degree. Most likely there is no one but Kondō-sensei, of the depth to swallow pure and foul alike, who can bring the muddled Kyoto politics of the day to order."
+
+"Is that so."
+
+{j} Kondō, the fool, he thought in his belly. Flattered, he will come to grief for it by and by.
+
+"What do you think, Toshizō-san?"
+
+"Of what?"
+
+"The matter just now."
+
+"I've no interest in it at all,"
+
+{j} Toshizō said, without ceremony.
+
+All I have is one man's worth of manhood, he thought within. True, the Shinsengumi was a revere-the-Emperor, expel-the-barbarian body; but there were many kinds of that creed. The Chōshū domain meant to seize power in the confusion first, and then to revere the Emperor and expel the barbarian. Different from that, the revere-and-expel of the related domain Aizu was a revere-and-expel built on strengthening the shogunal power. Toshizō's whole creed was only this: that so long as the Shinsengumi stood under Aizu's command, it should answer that trust. And for a man, he thought, that was enough.
+
+(I was a brawler to begin with, after all.)
+
+{j} Toshizō smiled to himself.
+
+Whether Itō found that smile a thing too eerie for comfort, he fell silent. The room went flat, and after that the talk did not run very warmly.
+
+***
+
+The next year was Keiō 2.
+
+On the twenty-seventh day of the first month, Kondō again went down to Hiroshima in Geishū, in the train of the shogunate's chief envoy Ogasawara Iki-no-kami, to treat with Chōshū.
+
+"Again?"
+
+{j} Toshizō said to Kondō before he set out.
+
+"Toshi, I leave the barracks to you. This time we go into Chōshū territory. I mean to see the true state of Chōshū with my own eyes, and to talk with the Chōshū men. If I discuss affairs of state with them, I shall know whether it is to be by arms or by peace—the way to settle this strife of the realm."
+
+(Not in your line.)
+
+{j} he thought, but Toshizō did not say it aloud. Only,
+
+"Itō goes with you, I take it,"
+
+{j} he pressed the point.
+
+"He's staff officer,"
+
+{j} Kondō said.
+
+"Of course I take him along."
+
+"Staff officer?"
+
+"Just so."
+
+"Whose staff officer, there's no telling."
+
+"Toshi, you must not talk so foul-mouthed. We're men of the nation. We're no longer forever the sons of a Tama farmhouse. Itō, for all that, is a man with his uses. He leans a little too far, that man, in speaking for the Chōshū side; but for all that, his bearing and his learning make our standing weigh the heavier, and that's certain."
+
+"Weigh the heavier?"
+
+{j} Toshizō gave a short laugh.
+
+"And just what is it Itō makes weigh the heavier?"
+
+"The Shinsengumi."
+
+"Kondō-san. Do you know that among the men Itō consorts with, the Shinsengumi is spoken of as though it had become, for all the world, a vassal-corps of Chōshū?"
+
+"Nonsense."
+
+"So that is what 'making it weigh the heavier' comes to?"
+
+"That is the bad side of him,"
+
+{j} Kondō said.
+
+"Toshi, you've had a mean streak in you from of old, and it won't do."
+
+"It is my nature; when I see a fellow of that unfathomable kind, it turns my stomach, that's all."
+
+Itō went down to Chōshū in Kondō's company. This time he took with him the inspector Shinohara Tainoshin, a pillar of the Itō party.
+
+Itō and Shinohara kept to Kondō's road for a while after they entered Hiroshima, but presently made a secret contact with Hirosawa Hyōsuke of Chōshū—later Saneomi; who, with Kido Takayoshi, became a councillor of the Restoration government—and entered Chōshū territory. For the Chōshū domain it was a considerable favor.
+
+The two sought out the extremist elements of Chōshū and went about exchanging views with them at length. It was, most likely, in this stretch of time that in Itō's inmost mind the thought
+
+(Bring down the shogunate. …)
+
+{j} took its shape.
+
+There was a reason.
+
+That Itō stepped over into treachery was because, during this visit to Chōshū, he came by a grave piece of secret intelligence.
+
+It was that the Satsuma domain—until then on cat-and-dog terms with Chōshū, and rather Aizu's one peerless ally—had, in a sudden turn, seemingly concluded a secret offensive-and-defensive alliance with the Chōshū domain.
+
+This secret alliance, which turned the history of the Bakumatsu on its hinge, had been made this year on the twentieth day of the first month, through the good offices of Sakamoto Ryōma of Tosa, between Katsura Kogorō of Chōshū and Saigō Kichinosuke of Satsuma. The place was the Satsuma mansion on Nishikikōji in Kyoto.
+
+Of this fact not one of the shogunate, of Aizu, of the Shinsengumi knew.
+
+No wonder. To keep the secret, both Katsura and Saigō had opened it only to a part of their own comrades in each domain, and had let nothing out.
+
+"If Satsuma and Chōshū join hands,"
+
+{j} everyone thought at the time,
+
+"in military strength the shogunate will not stand a chance."
+
+The eighty thousand hatamoto were soft and of no use. Of the daimyō of the Three Houses, the branch houses, the related houses, none but Aizu and Kuwana was firm in the hips. In such a case this reckoning was common sense even to the great men of the shogunal council.
+
+Those two mighty domains had joined hands.
+
+From that instant the shogunate had fallen, one may say—but unhappily Toshizō did not know it.
+
+The commander Kondō did not know it either.
+
+One man alone, the staff officer Itō Kashitarō, knew.
+
+"In Kyoto, anew,"
+
+{j} Itō went about declaring to the men of Chōshū,
+
+"I mean to raise a righteous corps. Cutting loose, of course, from Kondō and Toshizō."
+
+The Chōshū men were pleased.
+
+Itō was made much of, and lingered as long as fifty days.
+
+Kondō broke off from Hiroshima early; but this Hiroshima journey, for Kondō too, brought a harvest. The rōjū Ogasawara Iki-no-kami Nagamichi, who had taken Kondō along, fell quite in love with this rōnin captain's quality.
+
+Fallen in love, or rather, Iki-no-kami was moved. In these days, a plain rōnin so rare-spirited as to throw his life away in service of the shogunate—there could be no such man but this one.
+
+"Sensei,"
+
+{j} Iki-no-kami called him, by that respectful title. This forty-five-year-old heir of the Karatsu daimyō, all big nose and, more than most men, weak of spirit, was fond of a stiff-grained fellow like Kondō. Or rather, it was, no doubt, the first such breed he had ever set eyes on.
+
+—It is men like you, Sensei, that we should call the pillar of the state.
+
+{j} he praised him, in the manner of one gazing up at some strange crag.
+
+—Even the hatamoto, favored these three hundred years, cut such a figure as that. I am given to seeing things darkly, they say; but should the worst befall the great shogunate, the time may come when it must lean on the Shinsengumi.
+
+"How would it be,"
+
+{j} Iki-no-kami said to Kondō.
+
+"Might you not become, once and for all, a direct retainer of the shogun's house? As to rank and stipend, I will see it arranged fully to your satisfaction."
+
+—Hah.
+
+{j} Kondō could scarcely hold down his leaping breast; but the Shinsengumi was a band of comrades. The troopers were not Kondō's retainers, but his comrades. He could not undertake it on his own say-so.
+
+(The rest are well enough. It is Itō Kashitarō and his faction who would object.)
+
+They were of a different past from Kondō. Most had each deserted his domain to come up to Kyoto to declare his expel-the-barbarian purpose. Rather than go back to being retainers under a master again, they would not have deserted in the first place; and, above all, to become the Tokugawa house's retainers on their own account would do their former lords an ill turn.
+
+(Itō Kashitarō—this fellow is in the way.)
+
+{j} Kondō thought it, for the first time.
+
+Yet he could not bring himself to throw away a man of Itō's parts. It was owing to that man that Kondō had come to be able, in meeting the liaison offices of the several domains, to hold a passable argument. Only just now had the Shinsengumi come to make the other domains open their eyes—as a body of political thought, and not a mere band of rough swordsmen.
+
+"When I have returned to the corps and taken counsel with my comrades, I should like to accept,"
+
+{j} he answered, and left it there.
+
+***
+
+Back at the barracks, after some days' thought, Kondō made up his mind to break with Itō, and consulted Toshizō on this matter of the direct-retainer appointment.
+
+"That matter I have heard of already,"
+
+{j} Toshizō said. In fact Kondō, on the road back to Kyoto, had let it fall to Ogata Shuntarō, so that the news had spread through the whole corps.
+
+"Toshi, you are a sly one too. With so good a piece of news in your ears, why did you not ask me of it?"
+
+"Come. Is it good news?"
+
+{j} Toshizō smiled a little.
+
+"Accept it, and the Shinsengumi will split clean in two. The Itō faction is in an uproar over it already. There are signs that Utsumi Jirō has, it seems, sent an express courier to ask instructions of his chief over in Chōshū. Do you say you don't care if the corps splits?"
+
+"For the sake of the right, yes,"
+
+{j} Kondō said.
+
+"It is not for one man's advancement. If, as a direct retainer, I can act more freely, then it is for the sake of the realm and the state, and for His Majesty's sake as well."
+
+"You've grown full of arguments of late,"
+
+{j} Toshizō said, with a wry smile,
+
+"For my part, Kondō-san, I think of nothing but making the Shinsengumi strong. If the men grow stronger for being made direct retainers, I'll take it gladly,"
+
+{j} he said.
+
+"Toshi, you're simple, and happy in it."
+
+"Ha."
+
+{j} Toshizō, dumbfounded, stared hard into Kondō's face. This man, treated by a rōjū as a
+
+man of the nation,
+
+{j} seemed of late to have got it into his head that talking politics was a complicated business.
+
+"Is that so. For my part, I fancy I think this through in quite a tangled way, such as it is."
+
+"No, no, you're a good soul,"
+
+{j} Kondō laughed heartily.
+
+"For once, I'd like to try being like you."
+
+"That's because you've many cares."
+
+"Many indeed."
+
+{j} Toshizō burst out laughing. Say what he would about this and that, it was just this side of Kondō that Toshizō dearly loved.
+
+"By the way,"
+
+{j} and Toshizō's face turned grave.
+
+"Before becoming a direct retainer, there's something to be done first, isn't there?"
+
+"You mean Itō?"
+
+"Just so."
+
+{j} Toshizō nodded.
+
+To become a direct retainer meant that the Shinsengumi had committed itself, in name and in fact, to the shogunate's side. Alone among all the rōnin of the realm, it would raise the single banner of support for the shogunate. Itō and his faction would, of course, walk out.
+
+But there was the corps law. Were they to be let go in silence? Or was the iron rule, held absolute by the corps law since the founding, to be applied to Itō as well?
+
+"What will you do?"
+
+{j} Toshizō asked.
+
+Kondō was silent. Presently, with a drowsy look as of one crushing down his feelings,
+
+"By the Code of the Corps. It is because of that Code that the Shinsengumi has been able to come this far, and by it that it'll go on, without dissolving into a mere rabble."
+
+"Well said. You haven't lost your backbone yet."
+
+"By the way,"
+
+{j} Kondō peered into Toshizō's face.
+
+"You've got yourself a woman, they tell me."
+
+"Nothing of the sort."
+
+{j} Toshizō was flustered. In fact, since then he had called at Oyuki's house only twice, and had not so much as touched her.
+
+"Oho—you're going red. Now there's a rare thing."
+
+{j} Kondō laughed, a small laugh.

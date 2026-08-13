@@ -255,3 +255,24 @@
 三村
 # Mitadaimachi — Edo district Itō moved his family to (三田台町); 三 is part of the place-name, not the count 3
 三田台町
+# ── B07 additions (ch30) ──
+# Kyushu — the southern island; 九 is part of the place-name, not the count 9
+九州
+# Abe Jūrō / Kumebe Jūrō — corporals; 十 is part of the given name 十郎, not the count 10 (place AFTER 三十郎/十郎左衛門, which strip first)
+十郎
+# Nakamura Kosaburō — corporal; 三 is part of 小三郎, not the count 3
+小三郎
+# Napoleon III — the 三 is the French emperor's regnal number, rendered "Napoleon III"
+ナポレオン三世
+# ── B07 additions (ch31) ──
+# man-ga-ichi = "the barest chance, one in ten thousand" (万が一); idiom, not the count 10000
+万が一
+# Shichijō — Kyoto street (醒ケ井七条堀川); 七 is part of the place-name, not the count 7
+七条
+# Hachikenya — the Osaka riverside landing/lodging (八軒家); 八 is part of the place-name, not the count 8
+八軒家
+# ── B07 additions (ch32) ──
+# Totsukawa — the Yamato district and its gōshi (大和十津川郷, 十津川者); 十 is part of the place-name, not the count 10
+十津川
+# mitsudomoe — the three-comma family crest (左三巴の紋); 三 names the design, not the count 3
+三巴

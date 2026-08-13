@@ -837,6 +837,177 @@
       "pinyin": "Matsumoto Ryōjun",
       "status": "decided",
       "note": "A Dutch-school physician, personal doctor to the shogun Iemochi, who befriended the Shinsengumi and later tended the dying Okita. After the Restoration, as Matsumoto Jun, he became Surgeon-General of the new army and a baron."
+    },
+    "千葉周作": {
+      "en": "Chiba Shūsaku",
+      "pinyin": "Chiba Shūsaku",
+      "status": "attested",
+      "note": "Historical, 1792/94&#8211;1855. Founder of the Hokushin Itt&#333;-ry&#363; and of the Genbukan hall in Edo; his school&#8217;s ties to the Mito house made it a seedbed of revere-the-Emperor politics."
+    },
+    "武田耕雲斎": {
+      "en": "Takeda Kōunsai",
+      "pinyin": "Takeda Kōunsai",
+      "status": "attested",
+      "note": "Historical, 1803&#8211;1865. A former chief councillor of the Mito domain who led the Tengu Party&#8217;s march on Kyoto and was beheaded, with his family, at Tsuruga. Not to be confused with the Shinsengumi&#8217;s Takeda Kanry&#363;sai."
+    },
+    "田沼玄蕃頭": {
+      "en": "Tanuma Genba-no-kami",
+      "pinyin": "Tanuma Genba-no-kami",
+      "status": "attested",
+      "note": "Tanuma Okitaka (1834&#8211;1868), a junior councillor (<i>wakadoshiyori</i>) of the shogunate, grandson of the notorious minister Tanuma Okitsugu. He directed the harsh disposal of the surrendered Tengu Party at Tsuruga."
+    },
+    "明里": {
+      "en": "Akesato",
+      "pinyin": "Akesato",
+      "status": "attested",
+      "note": "The Shimabara courtesan said to have been Yamanami&#8217;s lover. The tradition is famous but late and unverified; see the note at first appearance."
+    },
+    "松原忠司": {
+      "en": "Matsubara Chūji",
+      "pinyin": "Matsubara Chūji",
+      "status": "attested",
+      "note": "Historical Shinsengumi captain of the Fourth Unit, a master of the Sekiguchi school of jūjutsu; died in 1865."
+    },
+    "吉村貫一郎": {
+      "en": "Yoshimura Kan'ichirō",
+      "pinyin": "Yoshimura Kan'ichirō",
+      "status": "attested",
+      "note": "Historical inspector of the corps, a Nanbu (Morioka) man; later the subject of Asada Jirō's novel <i>Mibu Gishi Den</i>."
+    },
+    "勝海舟": {
+      "en": "Katsu Kaishū",
+      "pinyin": "Katsu Kaishū",
+      "status": "attested",
+      "note": "Katsu Kaishū (1823&#8211;1899), the far-sighted shogunal official who built the first Japanese navy and, in 1868, negotiated the peaceful surrender of Edo Castle."
+    },
+    "松平慶永": {
+      "en": "Matsudaira Yoshinaga",
+      "pinyin": "Matsudaira Yoshinaga",
+      "status": "attested",
+      "note": "Matsudaira Yoshinaga (Shungaku, 1828&#8211;1890), lord of Echizen Fukui, one of the leading reform-minded daimyō of the day and a voice for a union of court and shogunate."
+    },
+    "後醍醐天皇": {
+      "en": "Go-Daigo",
+      "pinyin": "Go-Daigo",
+      "status": "attested",
+      "note": "The fourteenth-century emperor whose brief Kenmu Restoration (1333) overthrew the Kamakura shogunate; Kusunoki Masashige was his most famous loyal general."
+    },
+    "恩智左近": {
+      "en": "Onji Sakon",
+      "pinyin": "Onji Sakon",
+      "status": "attested",
+      "note": "A retainer of Kusunoki Masashige, remembered as a loyal lieutenant; Kond&#333; casts Toshiz&#333; in the part."
+    },
+    "永井主水正尚志": {
+      "en": "Nagai Naomune",
+      "pinyin": "Nagai Naomune",
+      "status": "attested",
+      "note": "Nagai Naomune (1816&#8211;1891), a senior shogunal official (here Grand Inspector). Mondo-no-sh&#333; is his court title. He led the 1865 embassy that interrogated Ch&#333;sh&#363; at Hiroshima."
+    },
+    "宍戸備後助": {
+      "en": "Shishido Bingo-no-suke",
+      "pinyin": "Shishido Bingo-no-suke",
+      "status": "attested",
+      "note": "A borrowed domain-elder&#8217;s name under which Ch&#333;sh&#363; sent a stand-in envoy to the Hiroshima interrogation."
+    },
+    "山県半蔵": {
+      "en": "Yamagata Hanzō",
+      "pinyin": "Yamagata Hanzō",
+      "status": "attested",
+      "note": "The real name of Ch&#333;sh&#363;&#8217;s sham envoy: Shishido Tamaki (1829&#8211;1901), a middle-rank samurai chosen for his glib tongue, after the Restoration a viscount and member of the House of Peers."
+    },
+    "レオン・ロッシュ": {
+      "en": "Léon Roches",
+      "pinyin": "Léon Roches",
+      "status": "attested",
+      "note": "Léon Roches (1809&#8211;1900), French minister to Japan 1864&#8211;68, who tied France to the shogunate&#8217;s cause with loans, arms, and the Yokosuka arsenal."
+    },
+    "豊玉": {
+      "en": "Hōgyoku",
+      "pinyin": "Hōgyoku",
+      "status": "decided",
+      "note": "Toshiz&#333;&#8217;s haiku pen-name, known only to his intimates; see ch19."
+    },
+    "田中土佐": {
+      "en": "Tanaka Tosa",
+      "pinyin": "Tanaka Tosa",
+      "status": "attested",
+      "note": "Tanaka Tosa (Genba), a chief retainer of the Aizu domain during its years as Kyoto Protector; he died by his own hand at the fall of Aizu in 1868."
+    },
+    "東雲大夫": {
+      "en": "Shinonome-dayū",
+      "pinyin": "Shinonome-dayū",
+      "status": "provisional",
+      "note": "A tay&#363; of the Kizuya house in Shimabara; Toshiz&#333;&#8217;s partner on the one night the chapter turns on. <i>Day&#363;</i> is the title of the first rank of courtesan."
+    },
+    "米沢藤次": {
+      "en": "Yonezawa Tōji",
+      "pinyin": "Yonezawa Tōji",
+      "status": "provisional",
+      "note": "A Ch&#333;sh&#363; samurai and Osae&#8217;s lover in Kyoto, through whom she passed shogunate-side intelligence."
+    },
+    "鴻池善右衛門": {
+      "en": "Kōnoike Zen'emon",
+      "pinyin": "Kōnoike Zen'emon",
+      "status": "attested",
+      "note": "The head, by hereditary name, of the K&#333;noike house, the greatest merchant-bank of Osaka (see ch15). It bankrolled Kond&#333; in return for the corps&#8217;s protection against loyalist extortion."
+    },
+    "大谷刑部": {
+      "en": "Ōtani Gyōbu",
+      "pinyin": "Ōtani Gyōbu",
+      "status": "attested",
+      "note": "&#332;tani Yoshitsugu (1559&#8211;1600), Hideyoshi&#8217;s trusted general, renowned for the handling of large forces; see the note here."
+    },
+    "藤吉": {
+      "en": "Tōkichi",
+      "pinyin": "Tōkichi",
+      "status": "provisional",
+      "note": "The manservant (<i>komono</i>) attending Toshiz&#333; on the rainy night of the ambush."
+    },
+    "お雪": {
+      "en": "Oyuki",
+      "pinyin": "Oyuki",
+      "status": "decided",
+      "principal": true,
+      "cast_order": 12,
+      "cast": "The heroine, and the one wholly invented character in the book: an Edo-born samurai widow living alone in Kyoto, a painter, who becomes Toshizō's one love.",
+      "note": "Oyuki (given name Yuki) is Shiba&#8217;s invention; see the note at her first appearance. She recurs to the end of the novel as the woman who draws out Toshiz&#333;&#8217;s private self."
+    },
+    "加田進次郎": {
+      "en": "Kada Shinjirō",
+      "pinyin": "Kada Shinjirō",
+      "status": "provisional",
+      "note": "Oyuki&#8217;s late husband in the novel, an Edo-resident foot-guard of the &#332;gaki domain; like Oyuki, a fictional figure."
+    },
+    "田中光顕": {
+      "en": "Tanaka Mitsuaki",
+      "pinyin": "Tanaka Mitsuaki",
+      "status": "attested",
+      "note": "Tanaka Mitsuaki (1843&#8211;1939), a Tosa loyalist who after the Restoration became a count and Imperial Household Minister; Shiba quotes his recollection of fearing the Shinsengumi."
+    },
+    "吉田良道": {
+      "en": "Yoshida Ryōdō",
+      "pinyin": "Yoshida Ryōdō",
+      "status": "provisional",
+      "note": "The Kyoto painter under whom the fictional Oyuki is said to study; part of Shiba&#8217;s invented history for her."
+    },
+    "小笠原壱岐守": {
+      "en": "Ogasawara Iki-no-kami",
+      "pinyin": "Ogasawara Iki-no-kami",
+      "status": "attested",
+      "note": "Ogasawara Nagamichi (1822&#8211;1891), heir of the Karatsu domain and a r&#333;j&#363; of the shogunate, prominent in the Ch&#333;sh&#363; war and the treaty question; Iki-no-kami is his court title."
+    },
+    "西郷吉之助": {
+      "en": "Saigō Kichinosuke",
+      "pinyin": "Saigō Kichinosuke",
+      "status": "attested",
+      "note": "Saig&#333; Takamori (1828&#8211;1877), the Satsuma leader &#8212; Kichinosuke was his everyday name &#8212; a chief architect of the Restoration and, later, of the Meiji state he then rebelled against and died fighting."
+    },
+    "広沢兵助": {
+      "en": "Hirosawa Hyōsuke",
+      "pinyin": "Hirosawa Hyōsuke",
+      "status": "attested",
+      "note": "Hirosawa Saneomi (1834&#8211;1871), a Ch&#333;sh&#363; official who became a councillor of the Restoration government and was assassinated in 1871; Hy&#333;suke was an earlier name."
     }
   },
   "places": {
@@ -1187,6 +1358,90 @@
       "pinyin": "Kōshō-ji",
       "status": "decided",
       "note": "A monzeki (imperially-connected) temple in Kyoto, next to the Nishi-Honganji; Kondō kept a rest-lodging at its lower villa."
+    },
+    "敦賀": {
+      "en": "Tsuruga",
+      "pinyin": "Tsuruga",
+      "status": "attested",
+      "note": "A port town on the Sea of Japan, in Echizen (modern Fukui), where the Tengu Party was imprisoned and executed."
+    },
+    "越前": {
+      "en": "Echizen",
+      "pinyin": "Echizen",
+      "status": "attested",
+      "note": "The old province along the Sea of Japan north of Lake Biwa, modern Fukui."
+    },
+    "加賀": {
+      "en": "Kaga",
+      "pinyin": "Kaga",
+      "status": "attested",
+      "note": "The great domain on the Sea of Japan (modern Ishikawa), held by the Maeda house; its levy took the Tengu Party&#8217;s surrender."
+    },
+    "来迎寺": {
+      "en": "Raikō-ji",
+      "pinyin": "Raikō-ji",
+      "status": "attested",
+      "note": "A temple at the edge of Tsuruga; the mass beheadings of the Tengu Party were carried out in its grounds."
+    },
+    "筑波山": {
+      "en": "Mount Tsukuba",
+      "pinyin": "Tsukubasan",
+      "status": "attested",
+      "note": "The twin-peaked mountain of Hitachi, long a sacred site, where the Tengu Party first rose in 1864."
+    },
+    "常州": {
+      "en": "Hitachi",
+      "pinyin": "Jōshū",
+      "status": "decided",
+      "note": "An old name (read J&#333;sh&#363;) for Hitachi Province, the Mito country northeast of Edo; rendered &#8216;Hitachi&#8217; here to keep it distinct from J&#333;sh&#363; = K&#333;zuke, another province of the same reading."
+    },
+    "大津": {
+      "en": "Ōtsu",
+      "pinyin": "Ōtsu",
+      "status": "attested",
+      "note": "The first post-town east of Kyoto on the T&#333;kaid&#333;, on the south shore of Lake Biwa."
+    },
+    "前川屋敷": {
+      "en": "the Maekawa mansion",
+      "pinyin": "Maekawa yashiki",
+      "status": "decided",
+      "note": "One of the requisitioned residences at Mibu that served as Shinsengumi barracks; Yamanami was confined and died here."
+    },
+    "姫路": {
+      "en": "Himeji",
+      "pinyin": "Himeji",
+      "status": "attested",
+      "note": "The castle town of Banshū (Harima), west of Osaka."
+    },
+    "大垣": {
+      "en": "Ōgaki",
+      "pinyin": "Ōgaki",
+      "status": "attested",
+      "note": "A fudai castle-town and domain in Mino (modern Gifu), &#8216;&#332;gaki of the guns&#8217; (see ch25)."
+    },
+    "十津川": {
+      "en": "Totsukawa",
+      "pinyin": "Totsukawa",
+      "status": "attested",
+      "note": "A mountain district of Yamato (modern Nara) whose rural samurai were fierce imperial loyalists; see the note here."
+    },
+    "桑名": {
+      "en": "Kuwana",
+      "pinyin": "Kuwana",
+      "status": "attested",
+      "note": "A fudai domain in Ise, held by a branch of the Matsudaira; with Aizu it stood staunchly for the shogunate to the end."
+    },
+    "唐津": {
+      "en": "Karatsu",
+      "pinyin": "Karatsu",
+      "status": "attested",
+      "note": "A domain in Hizen, in northwest Kyushu; Ogasawara was its daimy&#333;&#8217;s heir."
+    },
+    "馬関": {
+      "en": "Bakan",
+      "pinyin": "Bakan",
+      "status": "attested",
+      "note": "The old name for the strait and port at Shimonoseki, the western mouth of the Inland Sea, in Ch&#333;sh&#363; territory."
     }
   },
   "organizations": {
@@ -1461,6 +1716,12 @@
       "pinyin": "kyokuchū hatto",
       "status": "decided",
       "note": "The written law of the Shinsengumi, breach of it punishable by <i>seppuku</i>. See the note in the chapter on its debated historicity."
+    },
+    "日本外史": {
+      "en": "Nihon Gaishi",
+      "pinyin": "Nihon Gaishi",
+      "status": "attested",
+      "note": "Rai San&#8217;y&#333;&#8217;s <i>Unofficial History of Japan</i> (1827), the stirring, imperial-centered history that did as much as any book to shape the loyalist feeling of the age. See ch12."
     }
   }
 }

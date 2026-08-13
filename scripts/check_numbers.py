@@ -258,11 +258,14 @@ def spelled_numbers(low):
             found.add(oval * 100)
         if re.search(r"\b%s thousand\b" % ones, low):
             found.add(oval * 1000)
-    # "a hundred and ten", "one hundred and nineteen" = 110..119, one number.
-    # The hundred+tens rules above reach 120..990 but stop short of the teens,
-    # so 百十 (110) had no English form the check could read. Target-side only,
-    # like every rule here: it can only ADD a number, never mask a dropped one.
-    _TEEN_LOW = dict(TEENS, ten=10, eleven=11, twelve=12, thirteen=13)
+    # "a hundred and ten", "one hundred and nineteen" = 110..119, one number;
+    # "one hundred and two" = 百二 (102), the 101..109 band the tens rules also
+    # skip. The hundred+tens rules above reach 120..990 but stop short of both
+    # the teens and the bare ones, so 百十 (110) and 百二 (102) had no English
+    # form the check could read. Target-side only, like every rule here: it can
+    # only ADD a number, never mask a dropped one (an over-broad ones match such
+    # as the "two" in "one hundred and twenty-two" merely re-adds 102, harmless).
+    _TEEN_LOW = dict(TEENS, ten=10, eleven=11, twelve=12, thirteen=13, **ONES)
     for word, wval in _TEEN_LOW.items():
         if re.search(r"\b(?:a|one) hundred(?: and)? %s\b" % word, low):
             found.add(100 + wval)

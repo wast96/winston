@@ -1,0 +1,17 @@
+{
+  "glossary": {
+    "小笠原壱岐守": {"section": "people", "en": "Ogasawara Iki-no-kami", "pinyin": "Ogasawara Iki-no-kami", "status": "attested", "note": "Ogasawara Nagamichi (1822&#8211;1891), heir of the Karatsu domain and a r&#333;j&#363; of the shogunate, prominent in the Ch&#333;sh&#363; war and the treaty question; Iki-no-kami is his court title."},
+    "西郷吉之助": {"section": "people", "en": "Saigō Kichinosuke", "pinyin": "Saigō Kichinosuke", "status": "attested", "note": "Saig&#333; Takamori (1828&#8211;1877), the Satsuma leader &#8212; Kichinosuke was his everyday name &#8212; a chief architect of the Restoration and, later, of the Meiji state he then rebelled against and died fighting."},
+    "広沢兵助": {"section": "people", "en": "Hirosawa Hyōsuke", "pinyin": "Hirosawa Hyōsuke", "status": "attested", "note": "Hirosawa Saneomi (1834&#8211;1871), a Ch&#333;sh&#363; official who became a councillor of the Restoration government and was assassinated in 1871; Hy&#333;suke was an earlier name."},
+    "桑名": {"section": "places", "en": "Kuwana", "pinyin": "Kuwana", "status": "attested", "note": "A fudai domain in Ise, held by a branch of the Matsudaira; with Aizu it stood staunchly for the shogunate to the end."},
+    "唐津": {"section": "places", "en": "Karatsu", "pinyin": "Karatsu", "status": "attested", "note": "A domain in Hizen, in northwest Kyushu; Ogasawara was its daimy&#333;&#8217;s heir."},
+    "馬関": {"section": "places", "en": "Bakan", "pinyin": "Bakan", "status": "attested", "note": "The old name for the strait and port at Shimonoseki, the western mouth of the Inland Sea, in Ch&#333;sh&#363; territory."}
+  },
+  "notes": {
+    "ch33": [
+      {"anchor": "the fleet of four nations in the Bakan Strait", "note": "In 1863 Ch&#333;sh&#363;, obeying the Court&#8217;s order to expel the barbarian, had fired on foreign ships passing the Shimonoseki (Bakan) Strait. The reply came in the eighth month of 1864, when a combined fleet of Britain, France, the United States, and the Netherlands bombarded and stormed the Shimonoseki batteries and reduced them to ruin. It was the one time a single domain made war on the Western powers alone, and It&#333; turns it here to Ch&#333;sh&#363;&#8217;s credit. Historically accurate."},
+      {"anchor": "a direct retainer of the shogun's house", "note": "To be made a <i>jikisan</i> was to become a direct retainer of the shogun &#8212; a hatamoto or lesser bannerman of the Tokugawa house itself (see ch02), not the vassal of some provincial lord. The wooing begun here bore fruit: in 1867 the Shinsengumi was in fact raised as a body into the shogunate&#8217;s direct service, and Kond&#333; given the standing of a hatamoto. For a band of masterless men it was a startling elevation &#8212; and, as Toshiz&#333; sees, it forced the break with It&#333;&#8217;s faction, who had deserted their lords precisely so as not to serve one again."},
+      {"anchor": "the feeling of compassion", "note": "It&#333; appeals to <i>sokuin no j&#333;</i>, the &#8216;heart of compassion&#8217; that the philosopher Mencius named as the seed of humaneness &#8212; the reflex that makes one start to a child about to fall into a well. Rendered into a warrior&#8217;s idiom it becomes <i>bushi no nasake</i>, the mercy a samurai owes a beaten foe: to strike Ch&#333;sh&#363; while it lies wounded, It&#333; argues, is to forfeit that, and with it the name of samurai."}
+    ]
+  }
+}

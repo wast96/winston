@@ -256,7 +256,7 @@ Shinohara laughed.
 
 "Let us all buy wine. For a last drink of Edo's wine, tonight I drink till I drop."
 
-That night, after all had gone, Itō wrote to his old mother Koyo, who lived alone in his home village of Sanmura in Jōshū, telling her he was going up to Kyoto; told his wife Ume the whole course of the covenant and the journey; and a few days after, closed the dōjō in Sagachō, Fukagawa, and moved his family to a rented house in Mitadaimachi.
+That night, after all had gone, Itō wrote to his old mother Koyo, who lived alone in his home village of Sanmura in Hitachi, telling her he was going up to Kyoto; told his wife Ume the whole course of the covenant and the journey; and a few days after, closed the dōjō in Sagachō, Fukagawa, and moved his family to a rented house in Mitadaimachi.
 
 As said before, Itō, who had been Daizō, changed his name to Kashitarō on quitting Edo. In his own way, he must have steeled himself to no small resolve.
 
@@ -268,7 +268,7 @@ What Itō felt toward Ume at this time is not well known. Only that, "in a great
 
 —A creature like you knows nothing but herself, and nothing of the weight of the nation.
 
-{j} he divorced her, and had done. Among the first-rank loyalists of the Restoration years there were a surprising number of devoted husbands, but Itō Kashitarō was likely the only one who divorced his wife on the nation's account (by the by, his old mother Koyo was the kind of woman who hung a portrait of Kashitarō in the alcove and prayed morning and evening for his health. She died in the twenty-fifth year of Meiji at the house of her second son Mikisaburō in Ishioka-machi, Jōshū, aged eighty-two. Her death-poem: A keepsake, this, of the reign that never ends through all the ten thousand ages).
+{j} he divorced her, and had done. Among the first-rank loyalists of the Restoration years there were a surprising number of devoted husbands, but Itō Kashitarō was likely the only one who divorced his wife on the nation's account (by the by, his old mother Koyo was the kind of woman who hung a portrait of Kashitarō in the alcove and prayed morning and evening for his health. She died in the twenty-fifth year of Meiji at the house of her second son Mikisaburō in Ishioka-machi, Hitachi, aged eighty-two. Her death-poem: A keepsake, this, of the reign that never ends through all the ten thousand ages).
 
 ***
 

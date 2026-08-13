@@ -1,0 +1,335 @@
+## Rain on the Horikawa
+
+That day, taking a single manservant, Toshizō set out in the afternoon for the Aizu main camp at Kurodani.
+
+When he took his leave, it was already night.
+
+Awkwardly enough, rain was falling.
+
+The two who came all the way to the entrance to see him off—the Aizu elder Tanaka Tosa and the liaison officer Toshima Kihee—said, each in turn,
+
+"Hijikata-sensei, why not stay the night with us and go home in the morning?"
+
+{j} so they pressed him.
+
+By this time the Shinsengumi had built new barracks at Hanashō-chō (there is no such place-name now; it lay about Samegai, Shichijō, Horikawa, and in those days went also by the name of Fudōdō-mura) and the whole corps had moved there. From Kurodani in the eastern hills to the new barracks at Hanashō-chō was a good two ri across the city of Kyoto.
+
+What Toshima Kihee and the others feared was whether, in this rain and this dark, Toshizō could truly get back to the barracks without mishap.
+
+And Hijikata had come without so much as a trooper for a guard, and without a horse.
+
+"Do stay,"
+
+{j} said the elder Tanaka Tosa, peering from the entrance-step at the look of the rainy night.
+
+{j} "By all means,"
+
+{j} he said, all but taking Toshizō by the sleeve.
+
+Toshima Kihee too:
+
+"As we were saying earlier, the Chōshū men, entrenched in the two provinces of Suō and Nagato, are said to be sending swarms of spies into the city. And of late the masterless men of Tosa, in secret concert with Chōshū, are much abroad in the town. However strong Hijikata-sensei may be, there is always the chance of a mischance."
+
+"Well, perhaps so,"
+
+{j} Toshizō gave a listless answer, and, turning smartly on his heel, slid his feet into the high geta the manservant had set out.
+
+"If you like, shall I have some of our men see you back?"
+
+{j} said Tanaka Tosa.
+
+"No."
+
+{j} Toshizō said, curtly.
+
+"It will do."
+
+{j} And with that he went out.
+
+—A strange man.
+
+{j} said the elder Tanaka Tosa afterward, with a touch of displeasure.
+
+In the Shinsengumi, Kondō, with Itō Kashitarō and the rest, had gone down to Hiroshima from the middle of the eleventh month and had not come back.
+
+In that while Toshizō was acting commander. He had come to have much occasion to call at the Aizu camp.
+
+He always came in that fashion. He did nothing like Kondō, who came mounted, at the head of his troopers.
+
+"Has he such faith in his own arm, do you think?"
+
+"Well, there is no particular reason to it, I fancy. To walk out alone is that man's nature, I dare say. In that he seems unlike Kondō, who for all his rough-hewn look is fond of show,"
+
+{j} said Toshima Kihee, an old acquaintance, with a laugh.
+
+Toshima, if it came to a choice, preferred to the meddling (that is, politicking) Kondō the sort of Hijikata who kept his real strength within and held his tongue.
+
+"And besides,"
+
+{j} said Tanaka Tosa, who bore no warmth toward Toshizō's brusqueness,
+
+"that man has no woman either, they say."
+
+To Tanaka Tosa's mind, the thought came by way of contrast with the rumor that Kondō kept two mistress-houses and quite lavishly maintained women.
+
+"None, it would seem."
+
+"He is, when you look at him, a handsome enough man in his stern-flavored way; do the women of Kyoto not care for that kind, then?"
+
+"No—there was that Shinonome-dayū, held by the Kizuya in Shimabara, was there not?"
+
+"Ah, I have heard of her. A great beauty, they say. And things went well between her and that man?"
+
+"No. …"
+
+{j} Toshima Kihee made a face like a man at a loss for how to put it. He could not well say how to describe that kind of thing between a man and a woman.
+
+It was the time when Toshima Kihee had gone up to the Kizuya in Shimabara together with Kondō and Hijikata and the other Shinsengumi officers.
+
+Toshizō's partner for the evening turned out to be Shinonome-dayū.
+
+Shimabara, with the Yoshiwara of Edo, was, say what one will, the pleasure quarter of the realm. In particular, once a woman had reached the rank of tayū, she had been made to master the several arts and letters and had a very keen judgment of her own, and she did not court the guest's favor.
+
+Rather it was the guest who courted the tayū's favor, and to be deft in that courting was reckoned, in this town, the mark of a man of the world.
+
+Kondō was no small hand at play. Besides deepening his acquaintance with Kin-dayū here at the Kizuya of Shimabara, he had, on the one side, got a child on the Sanbongi geisha Komano, and, at the same Sanbongi, kept company too with a geisha named Ueno, whom he housed on the Tenjin Gomen-dōri.
+
+And that was not all.
+
+Kondō, on his frequent trips down to Osaka, played hard also at the entertaining-houses of Shinmachi, and, taking a fancy to one Miyuki-dayū, held by the Oriya, had Kyōya Chūbee, master of the Shinsengumi's regular lodging at Hachikenya in Osaka, bestir himself to redeem her, and lodged her at a residence south of Kizuyabashi in Samegai that Kondō rented from the Kōshō-ji abbacy. But before long she died of illness, and, because Miyuki-dayū's younger sister resembled her elder, he set the sister in her place.
+
+Besides these, he had a woman too at the Yamamayu below the stone steps of Gion, and went there often.
+
+Kondō played hard indeed. In these days the liaison officers of the great domains active on the Kyoto stage (their resident diplomats, so to speak) held their business meetings in the pleasure quarters and played quite lavishly; but even among them a man who kept women in so many places was a rare thing, and for a time there was even a rumor among the troopers that half the corps funds Aizu provided flowed into the dressing-table drawers of the commander's women. But in that they were wrong.
+
+For Kondō's personal expenses, a large sum came from Kōnoike Zen'emon of Osaka.
+
+The Kōnoike were often subjected to forced loans, "levies for the expel-the-barbarian war-chest," by men who called themselves loyalist rōnin, and, to fend these off, the Kōnoike leaned on the Shinsengumi. They made donations to Kondō. With that money Kondō played, and kept his women. Toshima Kihee, who handled Aizu's Shinsengumi business, knew even such inner matters as these.
+
+(That he could play so much, and without even drinking—it is a wonder.)
+
+{j} and it was with a kind of standing admiration that he watched it. But as Toshima Kihee saw it, Hijikata Toshizō was another matter.
+
+Drink he took, a little.
+
+But he seemed no great lover of it, and would lick wearily at his cup.
+
+Women. …
+
+"Why, that same Shinonome-dayū—after that man had withdrawn to the room with her, she was quite floored, they say."
+
+{j} She must have been much put out, for afterward the tayū let it fall to a serving-woman, and it spread and became talk.
+
+Toshizō only went on silently emptying his cup, and spoke not a word. He had, it seemed, the look of a man thinking of other things.
+
+—Hijikata-han.
+
+{j} Shinonome-dayū said, unable to watch it any longer.
+
+That Toshizō was no great lover of drink she had guessed, watching him at the drinking earlier.
+
+—No more wine, now.
+
+{j} and, hiding the flask,
+
+—Leave off. You are not so fond of it, are you?
+
+—Ah, no, I don't care for it.
+
+{j} Toshizō answered, at loose ends.
+
+—Then leave off. To drink so much of what you do not care for is poison to the body.
+
+—Is it, now.
+
+{j} and, saying so, Toshizō reached out and took the flask back from Shinonome-dayū's hand,
+
+—Even so, it is better than a woman of the quarter.
+
+{j} he said.
+
+He disliked the women of the pleasure quarters from the first. It had been so from his roving days about the post-towns of the shogunal home country and of Bushū, and this distaste did not change after he came up to Kyoto.
+
+(Oh—)
+
+{j} Even Shinonome-dayū, who passed in this quarter for a mild one, colored at that; but Toshizō went on drinking with the same blunt face.
+
+But a strange thing.
+
+Never in Shimabara had Shinonome-dayū seen so churlish a guest. Yet when her anger settled, it was with a feeling as though her spread and her pride came clattering down that Shinonome-dayū looked at this man. And in that moment, with a feeling like one bewitched, it seemed to Shinonome-dayū that she had come to like him.
+
+—It is for luck.
+
+{j} and, toward dawn, all but pleading, she had this guest come to her bed.
+
+"And then,"
+
+{j} Shinonome-dayū said afterward to the serving-woman,
+
+"unexpectedly, he is a gentle person."
+
+How the guest bore himself after that, in the bed, Shinonome-dayū did not speak of, by the discipline of the quarter; but the serving-woman could imagine this and that. And the rumor, mixed with such a go-between's imaginings, had reached Toshima Kihee's ears.
+
+"And then, what came of it?"
+
+{j} the grave Tanaka Tosa asked.
+
+"After that the man went up to the Kizuya two or three more times with Kondō and took Shinonome-dayū for his partner; but his manner, they say, was for all the world exactly as at the first meeting, as though stamped from the same block."
+
+"And the gentleness after the bed as well?"
+
+"That too, more or less."
+
+Afterward Shinonome-dayū came to be redeemed by a money-changer of Kyoto. At that time she sent messenger after messenger to the barracks,
+
+—Come and see me one last time.
+
+{j} she begged; but Toshizō, (there is no use seeing a woman about to be redeemed), in the end did not go, and for some reason, from that time on, he never again set foot in Shimabara.
+
+Shinonome-dayū took it for a grudge, and in the extremity of her grudge bit through the flesh of her own little finger, and there was a great to-do.
+
+Even so, Toshizō did not go.
+
+"A man hard in his feelings. Most likely that man was fond of Shinonome-dayū. That is why he did not go."
+
+"If he were fond of her, in such a case it is common human feeling to break down the fence, surely, and go to her."
+
+"That is so, indeed."
+
+"A man there is no reckoning. At all events. …"
+
+{j} so saying, Toshima Kihee laughed; but Toshima did not know what had befallen this man on the day before he first met Shinonome-dayū. That was on the twenty-first day of the ninth month of the third year of Bunkyū. Toshizō, in a house at the end of an alley in Fuyachō, had met, for the first time since parting in Bushū, Sae—the daughter of the Saruwatari house of Fuchū, now in service to the Kujō house. On the old tatami of that rented house, in the blunt Toshizō fashion as ever, he joined with Sae; and in that hour he thought, vividly, (Sae has changed). Sae had, surely, changed. He could not but think she had a lover.
+
+Her change of heart he did not reproach. He had no standing to. In the Bushū days, it may be said, Toshizō had made Sae no promise, spoken to her, of course, no lover's word of any kind, and had only, by a chance tie, formed a bond of the body. From Sae's side too it must have been the same. This returned-home daughter of the Saruwatari house had merely, for a passing solace, formed a bond of the body with a rough young idler of the neighborhood, of no known village. Coming to Kyoto, Sae had, in Kyoto, a life of Sae's own. Into that life had entered the Chōshū samurai Yonezawa Tōji. He was a man who frequented the Kujō house, then of the pro-shogunate court party, and had taken up with Sae, and, through Sae, sought to get the shogunate side's intelligence; and Sae, naturally, worked for her lover.
+
+—I know Hijikata.
+
+{j} Sae let fall to Yonezawa. "He must be cut down," it was decided. Yonezawa entrusted that assassination of Hijikata to the Bushū deserter Shichiri Kennosuke, who frequented the Chōshū men, and to his band of "drifters." Since the Bushū Hachiōji days, Shichiri had held a grudge against Toshizō.
+
+—Bah, I'd cut him down unasked.
+
+{j} and Shichiri lay in wait for Toshizō at the crossway of Nijōhanjiki-chō.
+
+It was the next day. That Toshizō went up to the Kizuya in Shimabara with Toshima Kihee and the rest and had his first night with Shinonome-dayū.
+
+That night, Toshizō thought,
+
+(I am, somewhere, a warped sort of man. A man who, all his life, will likely never hold a love.)
+
+{j} so he thought.
+
+(Best not to think of ordinary things. I am a man cold to women from the start. And the women know it. Where in the world is there a fool who would fall for such a man?)
+
+But I have the sword, I have the Shinsengumi, I have Kondō—so he kept telling himself.
+
+(With that alone, may a man not spend a life with something to show for it? Do you hear, Toshizō?)
+
+{j} Thinking such things, that night Toshizō walked the streets of Kyoto, and near the house of the Yoshikago he stopped at on the way cut down Shichiri Kennosuke's band, and the very next night drank wine on the upper floor of the Kizuya in Shimabara.
+
+That Shinonome-dayū found this man, strange to begin with, stranger still, was no wonder. And of course there was no way the Aizu liaison officer Toshima Kihee could know such a course of things.
+
+"Well, he is what he is,"
+
+{j} said Toshima.
+
+"A figure of the capital. It may even be that in the handling of troops he stands several grades above Kondō. Of old, they say, the Taikō Hideyoshi appraised Ōtani Gyōbu and said he should like to lend that man an army of one hundred thousand and see him take the baton; and I feel much the same, every time I look at Hijikata."
+
+***
+
+Half an hour after that, Toshizō had walked straight west along Marutamachi-dōri and struck the Horikawa.
+
+A light showed. It was the light of Nijō Castle. Cross the little bridge from this road and go on west, and there stood the Shoshidai's Horikawa mansion.
+
+But Toshizō did not cross. Naturally so, for the Shinsengumi's new barracks lay by turning south along this eastern bank of the Horikawa, and one had still to go a full thirty chō down from here.
+
+"Tōkichi, are you tired?"
+
+{j} Toshizō asked the manservant, for once.
+
+The rain was falling still.
+
+"No, my legs, at least, are my one boast,"
+
+{j} Tōkichi said in the rain. Three paces before Toshizō, thrusting out the lantern in a half-crouch, Tōkichi went.
+
+Toshizō held his oiled-paper umbrella high by the shaft, in a haori of black crepe and hakama of Sendai-hira. At his waist he bore the Izumi-no-kami Kanesada, used until he no longer kept count of how many men it had cut; his short-sword was a Horikawa Kunihiro of one shaku nine sun five bu, first used last summer at the affair of the Ikedaya.
+
+"Tōkichi,"
+
+{j} Toshizō said.
+
+"The road ahead is bad."
+
+"Aye."
+
+"When you run down a muddy road, you run digging at the ground with your toes. Do that, and you won't fall, and you're quick besides,"
+
+{j} he said, a strange thing to say. Tōkichi could not understand why this close-mouthed acting commander had, all of a sudden, come out with such a thing.
+
+"Tōkichi, that umbrella of yours—when you run, fling it away behind you as hard as you can. Bear it in mind."
+
+"Eh?"
+
+{j} Tōkichi cocked his head and looked up at Toshizō.
+
+"Shall I throw it away now?"
+
+"Not yet. But before long, it must be thrown away. I will call, 'Tōkichi.' At that, throw down the lantern and the umbrella and run for your life. Whatever you do, do not look behind you."
+
+"And if I look?"
+
+"—"
+
+{j} Toshizō walked on, saying nothing.
+
+Tilting his umbrella a little to the rear, he seemed to be listening to some sign behind them. Presently,
+
+"Tōkichi, did you say something just now?"
+
+"No, I only said, and if I look behind, what then."
+
+"You'll only be hurt,"
+
+{j} he answered, curtly.
+
+Across the Horikawa, in the dark to the right, the white walls of Nijō Castle floated dimly.
+
+To the left ran the mansions of the related and hereditary domains, one after another. Past the gate of the Banshū Himeji domain's mansion, from the corner of Nijō-dōri, ran on the earthen wall of the Echizen Fukui Matsudaira domain's mansion.
+
+They had come near the front of that gate.
+
+"Tōkichi,"
+
+{j} Toshizō cried, sharply.
+
+At that instant Toshizō himself sent his umbrella flying into the air, sank his hips, folded his right knee under him, and wheeled swiftly.
+
+Whish.
+
+{j} an eerie sound rose at Toshizō's hand.
+
+In the same instant a human shape seemed to pitch head over heels and topple toward Toshizō's right hand, and then, in the mire, rolled over once more with a great sound. The smell of blood filled the dark.
+
+By then Toshizō had already sprung five or six paces back. Holding his sword low, slanting to the right, taking the gatepost of the Echizen mansion for a shield at his back,
+
+"Who is there?"
+
+{j} In the dark there were yet three men.
+
+"On a rainy night, this is hard labor for you. If it is a case of mistaken identity, well and good; but if you come knowing me for Hijikata Toshizō of the Shinsengumi, then I too must resolve to fight with all my strength."
+
+"So,"
+
+{j} came a voice from the dark, some ten ken off.
+
+"Knowing it, at that."
+
+Ah, thought Toshizō. Once heard, it could never be forgotten. That shrill voice of old.
+
+It was Shichiri Kennosuke.
+
+"Villain!—"
+
+{j} cried a man who had circled to the left, his voice pitching high, and closed two or three paces.
+
+Such a night, yet there seemed to be a moon in the sky; the night clouds, taking a faint brightness, quietly wetted the dark that filled his eyes.

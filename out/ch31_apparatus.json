@@ -1,0 +1,18 @@
+{
+  "glossary": {
+    "田中土佐": {"section": "people", "en": "Tanaka Tosa", "pinyin": "Tanaka Tosa", "status": "attested", "note": "Tanaka Tosa (Genba), a chief retainer of the Aizu domain during its years as Kyoto Protector; he died by his own hand at the fall of Aizu in 1868."},
+    "東雲大夫": {"section": "people", "en": "Shinonome-dayū", "pinyin": "Shinonome-dayū", "status": "provisional", "note": "A tay&#363; of the Kizuya house in Shimabara; Toshiz&#333;&#8217;s partner on the one night the chapter turns on. <i>Day&#363;</i> is the title of the first rank of courtesan."},
+    "米沢藤次": {"section": "people", "en": "Yonezawa Tōji", "pinyin": "Yonezawa Tōji", "status": "provisional", "note": "A Ch&#333;sh&#363; samurai and Osae&#8217;s lover in Kyoto, through whom she passed shogunate-side intelligence."},
+    "鴻池善右衛門": {"section": "people", "en": "Kōnoike Zen'emon", "pinyin": "Kōnoike Zen'emon", "status": "attested", "note": "The head, by hereditary name, of the K&#333;noike house, the greatest merchant-bank of Osaka (see ch15). It bankrolled Kond&#333; in return for the corps&#8217;s protection against loyalist extortion."},
+    "大谷刑部": {"section": "people", "en": "Ōtani Gyōbu", "pinyin": "Ōtani Gyōbu", "status": "attested", "note": "&#332;tani Yoshitsugu (1559&#8211;1600), Hideyoshi&#8217;s trusted general, renowned for the handling of large forces; see the note here."},
+    "姫路": {"section": "places", "en": "Himeji", "pinyin": "Himeji", "status": "attested", "note": "The castle town of Banshū (Harima), west of Osaka."},
+    "藤吉": {"section": "people", "en": "Tōkichi", "pinyin": "Tōkichi", "status": "provisional", "note": "The manservant (<i>komono</i>) attending Toshiz&#333; on the rainy night of the ambush."}
+  },
+  "notes": {
+    "ch31": [
+      {"anchor": "went also by the name of Fudōdō-mura", "note": "The corps&#8217;s grandest and last barracks, at Fud&#333;d&#333;-mura by Shichij&#333;-Horikawa, a walled compound with a drill-ground, said to have housed some two hundred men. Historically the Shinsengumi did not move there until 1867 (before that they were billeted at the Nishi-Honganji); Shiba brings the move forward to set this night here."},
+      {"anchor": "Kōnoike Zen'emon", "note": "The K&#333;noike were the richest merchant-bankers of Osaka, lenders to daimy&#333; and shogunate alike (see ch15). Self-styled loyalist r&#333;nin preyed on such houses with forced &#8216;war-chest&#8217; loans; to be rid of them the K&#333;noike paid the Shinsengumi for protection, and the money went, as Shiba notes with some dryness, into Kond&#333;&#8217;s pleasures. It is a small clear picture of how the corps was kept."},
+      {"anchor": "Ōtani Gyōbu", "note": "&#332;tani Yoshitsugu (1559&#8211;1600), Hideyoshi&#8217;s able and much-loved general, later a stalwart of the losing side at Sekigahara. A famous anecdote has Hideyoshi say that he should like to give &#332;tani a hundred thousand men and watch him wield them &#8212; the highest praise for a commander&#8217;s grip on a great army. For the Aizu officer to reach for it in speaking of Toshiz&#333; is to rank his generalship above Kond&#333;&#8217;s."}
+    ]
+  }
+}

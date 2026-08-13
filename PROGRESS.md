@@ -901,3 +901,148 @@ warnings / 0 infos. 28 of 71 chapters now translated.
   English Shinsengumi sources; used the source's own reading, glossary note
   records the variant. 外島機兵衛 furigana とじま but the glossary's B04 decision
   "Toshima" kept for whole-book consistency (noted in the glossary tie-break).
+
+---
+
+## Batch 7 (ch29-ch33) — COMPLETE
+
+Translated ch29 憎まれ歳三 / "Toshizō the Hated", ch30 四条橋の雲 / "Clouds over
+Shijō Bridge", ch31 堀川の雨 / "Rain on the Horikawa", ch32 お雪 / "Oyuki", ch33
+紅白 / "Red and White". Notes 209-234 (26 this batch). Continuous note number
+now 234. Glossary 280 rows (net +43 this batch, one key dropped mid-batch —
+see below). 33 of 71 chapters translated.
+
+### Checks (all green)
+
+- Parity by construction (make_bilingual): ch29 165/165, ch30 188/188, ch31
+  166/166, ch32 213/213, ch33 179/179.
+- verify_unit numbers (--noise data/noise.txt): 0 unresolved in every chapter.
+- check_align, check_content (content alignment OK across ALL units),
+  qc_entities (0 misses), check_apparatus (0 failures) all clean.
+- check_register --ref: ch29/30/31/32 within tolerance on the first pass; ch33
+  flagged STILTED (contr 4.8/1k) and was fixed by a contraction pass on the
+  Kondō/Toshizō intimate dialogue ONLY (Itō's debate and Ogasawara's ceremonial
+  speech left formal, per the register-drift exemptions) → 13.7/1k, within
+  tolerance.
+- qa_epub PASS (71 documents, 234 references / 234 bodies / 234 backlinks,
+  all links resolve). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+### Parity / number / content fixes made (each caught by the gates)
+
+- PARITY MISS (ch31, the recurring trap): collapsed source lines 11-13 (Tanaka
+  Tosa's lead-in + 「ぜひ」 quote + と…いった attribution) into one paragraph;
+  make_bilingual refused (164 vs 166). Split into three reading lines. This is
+  the same seam-collapse class as B04-B06.
+- NUMBER, ch29: 百二 (102) and 百三十四 (134). "a hundred and thirty-four" did
+  not map (the spelled-number rules key on "one/N", not "a"); and 百二 (102) hit
+  a real GAP — the checker mapped "N hundred and <tens/teen>" but had no rule
+  for "N hundred and <ones>" (101-109). FIXED THE GATE: extended
+  check_numbers.py spelled_numbers to fold ONES into the hundred+low band
+  (do-not-revert below). Regression tests still pass. Reading now reads "one
+  hundred and thirty-four / one hundred and two".
+- NUMBER, ch30: 九州 (Kyushu, 九=9) → noise. 十万 (100,000) needed "one hundred
+  thousand" not "a hundred thousand".
+- NUMBER, ch31: 万が一 (idiom "one in ten thousand") → noise; 十万 → "one
+  hundred thousand".
+- CONTENT, ch31: rendered 土方歳三 as "Toshizō Hijikata" (reversed) once →
+  check_content flagged; fixed to the glossary form "Hijikata Toshizō".
+- NUMBER, ch33: 防長二州の四境 — dropped the 二 (two provinces); restored "the
+  four borders of the two provinces of Suō and Nagato".
+
+### GLOSSARY CASCADE resolved (one-rendering-per-referent)
+
+- 常州 (Itō's home province, Hitachi) was rendered "Jōshū" in ch27 (B06), which
+  COLLIDES with 上州 = Kōzuke, also romanized "Jōshū" elsewhere (ch03/ch10).
+  Decided 常州 -> "Hitachi" (its province name) to disambiguate; added the
+  glossary key and EDITED ch27's two occurrences (Sanmura in Hitachi; Ishioka-
+  machi, Hitachi). ch27 re-derived and re-checked; global content clean.
+- 坊城通 was briefly keyed 坊城通->"Bōjō-dōri" but the source uses it in the
+  compound 坊城通四条 ("corner of Bōjō and Shijō"), where a fixed multi-word en
+  false-flags; DROPPED the key (like 三条通 — no key, rendered by hand). Kyoto
+  streets use the established "the Bōjō avenue" / "the Sanjō avenue" forms
+  (ch13/ch15/ch16), NOT "-dōri"; ch29 conformed.
+
+### Fact-checks (verdict in the note; never LLM-sourced)
+
+- Yamanami Keisuke's seppuku: 2nd month, 23rd day, Keiō 1 (= 20 Mar 1865),
+  Okita as kaishaku — CORROBORATED. Already noted at ch28's closing note, so NOT
+  re-noted here; verdict recorded (ch29 lets the ch28 note stand).
+- Mito Tengu Party executions at Tsuruga: Takeda Kōunsai (1803-65), surrender to
+  Kaga (late 1864), Tanuma Okitaka (=Genba-no-kami), ~352 beheaded in the
+  herring-sheds early 1865 — CORROBORATED (Wikipedia/Japanese Wiki Corpus;
+  Shiba's 352 vs some sources' 353, noted).
+- Akesato, Yamanami's Shimabara lover: the gate/lattice farewell rests on
+  Shimozawa Kan alone; no Shimabara register records her; historians doubt she
+  existed — noted honestly as LEGEND, not record (UNCORROBORATED).
+- Satsuma-Chōshū Alliance: Jan 1866, Kyoto, brokered by Sakamoto Ryōma &
+  Nakaoka Shintarō, joining Saigō & Kido (Katsura) — CORROBORATED. Noted at
+  ch30; ch33 gives the formal conclusion (20th 1st month, Nishikikōji Satsuma
+  mansion) and defers to the ch30 note.
+- Napoleon III / Léon Roches backing the shogunate; Napoleon III fell at Sedan
+  1870 — CORROBORATED (Roches/French-loan already noted ch27; ch30 adds the
+  Napoleon-III forward glance).
+- Ōtani Gyōbu / Hideyoshi's wish to give him 100,000 men — a famous traditional
+  anecdote, noted as such (ch31).
+- Tanaka Mitsuaki (1843-1939), Tosa loyalist, later count and Imperial Household
+  Minister, collector of Restoration records — CORROBORATED; Shiba quotes his
+  recollection of fearing Hijikata (ch32).
+- Four-nation Shimonoseki bombardment, 8th month 1864 (Britain/France/US/
+  Netherlands) — CORROBORATED (ch33).
+- Shinsengumi made direct shogunal retainers (jikisan) 1867, Kondō a hatamoto —
+  CORROBORATED; the Ogasawara wooing (1866) is Shiba's dramatization of that
+  process (ch33).
+
+### Notes this batch (26): NOT re-noted (first-appearance discipline held)
+
+- ch29 (6): Chiba Shūsaku; the Tengu Party Tsuruga massacre; "rice and salt"
+  (beien); one sun (measure); Akesato-as-legend; hiyori-geta + tabi.
+- ch30 (9): Second Chōshū Expedition; golden-fan horse-standard; the
+  Masashige/"two palanquins" irony; Napoleon III's fall; the secret Satchō
+  alliance; the French-style reorganization (jokin dropped, sanbō created); the
+  Aizu/Chōshū lampoon puns; the satsuki-gumo kigo joke; Nagai Naomune / the
+  Hiroshima interrogation.
+- ch31 (3): the Fudōdō-mura barracks (historically 1867; Shiba brings it
+  forward); the Kōnoike forced-loan / protection-money mechanism; Ōtani Gyōbu.
+- ch32 (5): the Totsukawa gōshi; Tanaka Mitsuaki's cited reminiscence; the
+  gandō dark-lantern; the left-mitsudomoe crest (and the omen); OYUKI IS
+  INVENTED (Shiba's own afterword; anchored at her fake biography).
+- ch33 (3): the four-nation Shimonoseki bombardment; jikisan / the corps made
+  direct retainers (1867); sokuin-no-jō (the warrior's compassion, Mencius).
+- NOT re-noted (already covered, left alone): seppuku/kaishaku (ch18); the
+  sweet-potato dōjō, Shimabara, tayū (ch15/ch17); Ikedaya (ch01); Hokushin
+  Ittō-ryū (ch02/07); Mito learning / kokugaku (ch11/13/28); Nihon Gaishi,
+  Kusunoki Masashige, Go-Daigo (ch05/06/12); Sakamoto Ryōma/Satsuma (ch07);
+  Roches/French loan (ch27); Kōnoike-the-house, Horikawa Kunihiro, Kanesada
+  (ch15/17); ri, chō, shaku, hakama, koku (earlier); the Satchō alliance
+  (ch30); hatamoto / "eighty thousand" / direct-retainer concept (ch02/25/27).
+
+### Glossary rows added this batch (net +43)
+
+- ch29 (12): Chiba Shūsaku, Takeda Kōunsai, Tanuma Genba-no-kami, Akesato,
+  Tsuruga, Echizen, Kaga, Raikō-ji, Mount Tsukuba, Hitachi (常州), Ōtsu, the
+  Maekawa mansion. (坊城通 added then dropped — see cascade above.)
+- ch30 (12): Matsubara Chūji, Yoshimura Kan'ichirō, Katsu Kaishū, Matsudaira
+  Yoshinaga, Go-Daigo, Onji Sakon, Nagai Naomune, Shishido Bingo-no-suke,
+  Yamagata Hanzō, Léon Roches, Nihon Gaishi, Hōgyoku (豊玉, Toshizō's pen-name).
+- ch31 (7): Tanaka Tosa, Shinonome-dayū, Yonezawa Tōji, Kōnoike Zen'emon, Ōtani
+  Gyōbu, Himeji, Tōkichi.
+- ch32 (6): Oyuki (お雪, PRINCIPAL, cast_order 12), Kada Shinjirō, Ōgaki (大垣),
+  Tanaka Mitsuaki, Totsukawa, Yoshida Ryōdō.
+- ch33 (6): Ogasawara Iki-no-kami, Saigō Kichinosuke, Hirosawa Hyōsuke, Kuwana,
+  Karatsu, Bakan.
+- Kanō 鵰雄 (roster form) rendered "Kanō Michinosuke" to match the B06 key
+  加納道之助 (same man, alternate name). 木戸孝允 rendered "Kido Takayoshi" inline
+  (no key; Katsura=Kido already linked at ch30). 常州 unified to "Hitachi".
+
+### Noise rules added this batch
+
+- ch30: 十郎 (Jūrō given-name), 小三郎 (Kosaburō), ナポレオン三世 (Napoleon III),
+  九州 (Kyushu). ch31: 七条 (Shichijō), 八軒家 (Hachikenya), 万が一 (idiom).
+  ch32: 十津川 (Totsukawa), 三巴 (mitsudomoe crest). ch29 & ch33: none needed.
+
+### Digitization glitches / source oddities this batch
+
+- None of substance. Source stays clean digital text through ch29-ch33: no
+  dittography, no U+200B lines, no doubled headings, no mojibake. Expressive
+  gikun furigana continue and are treated as semantic glosses, never romanized.
+- No source-note stream (grepped each chapter for \[\d+\]: none present).
