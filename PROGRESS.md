@@ -1399,3 +1399,118 @@ Jūzō, who has come courting Kohagi; Jūzō takes Dōgen's hand but he escapes.
 ride for Kōga; Kisaru intercepts, and the chapter closes on the ridge above dawn with Jūzō
 sending Kisaru home to Shimotsuge to kill Dōgen herself, promising marriage "if I'm still
 alive." The Iga-Kōga blood-feud is now personal on both sides.
+
+---
+
+## B11 — ch11 伊賀ノ山 / The Hills of Iga (folios 373-396, tail spills onto 397)
+
+**Status: COMPLETE.** 230 body paragraphs, 6 new notes (book total 87). All checks green:
+verify_unit (parity 230|230, numbers 0/230 unresolved, anchors ok), check_structure parity
+230|230 OK, check_align median 11.43 en/han (20 short-dialogue ratio outliers, all correctly
+aligned, none displaced), qc_entities 1 residual (declared false positive — see below),
+check_content ch11 135 name occurrences ALL in the paired paragraph (clean), check_register
+1.62x ref (contractions 25.6/1k vs ref 15.8; within tolerance — a dialogue-heavy chapter,
+deliberately contracted per the standing caution), qa_epub PASS (34 files, 87 notes
+refs/bodies/backlinks, 165 pagebreaks), epubcheck 0 fatals / 0 errors / 0 warnings.
+
+### Confirmed folio→PDF map for this span (offset +2 throughout; NO double-feed, NO gap here)
+Read off the running heads and spot-confirmed by crop: PDF 375 = folio 373 (ch11 opener,
+mid-page after the ch10 tail + the 伊賀ノ山 title), PDF 385 = folio 383, PDF 398 = folio 396
+(ch11's last full folio), PDF 399 = folio 397 (ch12 opener 吉野天人). **folio = PDF − 2 holds
+unbroken across 373-397.** The suspected 1-leaf gap that re-maps the offset to 0 is still
+ahead (somewhere in 397-425; that is B12/B13 — read folios, do not compute). Built
+`data/pagemap/ch11.json` (25 entries, folios 373-397; body_paragraph monotonic 0-224).
+
+### ch10 tail vs ch11 body (do NOT re-translate the spillover either direction)
+- ch10's tail spilled onto folio 373 BEFORE the 伊賀ノ山 title (3 paras, done in ch10).
+- **ch11's tail spills onto folio 397 (PDF 399) BEFORE the 吉野天人 title**: 7 paragraphs
+  (source lines 225-231, "…であろうか。" through "…重蔵は考えた。"), ending with Jūzō leaving the
+  hermitage to wash his face and never returning. **B12 must start AFTER the 吉野天人 title and
+  must NOT re-translate these 7 paragraphs.**
+
+### The 6 new notes (ch11) — all genuine first-appearances
+1. **O-Hiroi** (folio 375) — Hideyoshi's heir's infant name (拾 "foundling"); the abandon-and-
+   find custom after Tsurumatsu's death. Cross-refs Yodo-dono (noted ch09) and Hideyori.
+2. **the Taikō** (folio 375) — the title of a retired kampaku; Hideyoshi took it in 1591 on
+   ceding the regency to Hidetsugu. (太閤 first appears in the whole book here.)
+3. **the Mahāsāṃghika Vinaya** (folio 376) — the 摩訶僧祇律; Buddhabhadra's early-5th-c. Chinese
+   translation; the three body-sins / four mouth-sins framework; the assassins'-precept irony.
+4. **the Empress Jitō** (folio 376) — Jitō's year-3 (689) no-kill decree over named waters/moors
+   incl. a moor in Iga (Nihon Shoki), offered as a root of the Iga no-kill precept.
+5. **Ren, they call me** (folio 381) — Kisaru's given name 簾 ("reed blind") vs the nickname
+   木さる ("tree-monkey" / little monkey), her dead father's.
+6. **shape-shifter's heart** (folio 390) — 化生 (keshō): Buddhist "birth by transformation," one
+   of the four modes of birth; used for the ninja who has hollowed out his own self.
+
+### NOT re-noted (already placed ch01-ch10; cross-referenced, not repeated)
+Iga/Kōga, Tenshō/Bunroku dating, the Iga Rebellion, Hideyoshi/Nobunaga/Ieyasu, Sakai, the
+Ōkurakyō & Hōin titles (here attached to Sōkyū as 大蔵卿法印宗久 — cross-ref), the Kampaku,
+Ishida Mitsunari & his 治部少輔/Jibu-no-shō office, Imai Sōkyū, Maeda Gen'i (Kyoto magistrate;
+Dōgen lodges at his tenement), the Mochizuki house of Kōga (Kohagi's upbringing), the Kantō
+(= Ieyasu), Komatsudani, Nabari, Nagoya Castle in Hizen, rappa/忍者, Yodo-dono (noted ch09).
+Minor/left unnoted by design (name-the-tier): 龕燈 hooded lantern, 短檠 short lampstand, 錦紗
+silk crepe, 脇息 armrest, 塗り籠め牢 sealed cell, 調伏 rite of subjugation, 修羅 (demon of carnage;
+ch14 is titled 修羅), the single-appearance Jitō place-names (Takashi-no-umi/Muko-no-umi/
+Nagi-no/Mi-no — covered in the Jitō note), 三条西家/岩倉/一乗寺 (Kuroami's errand geography).
+
+### Renderings — reused unchanged (all already in glossary.json; consulted before romanizing)
+Tsuzura Jūzō (葛籠重蔵/重蔵), Kuroami (黒阿弥), Kohagi (小萩), Kisaru (kana 木さる; key 木猿),
+Mari Dōgen (甲賀ノ摩利洞玄/洞玄), Shimotsuge Jirōzaemon (下柘植次郎左衛門/次郎左衛門), Imai
+Sōkyū (今井宗久 → "Sōkyū" bare), Ishida Mitsunari (三成; 石田治部少輔 → "Ishida, the Jibu-no-shō"),
+Maeda Gen'i (前田玄以/玄以), Hideyoshi (秀吉), the Mochizuki house (望月家 → prose "the Mochizuki
+house of Kōga"). Places: Iga, Kōga, Ōmi, Yamashiro, Sakai, Otogi Pass, Komatsudani, Nabari.
+
+### Renderings — added to glossary.json this batch (people)
+- **淀君 → Yodo-gimi** (attested) — Hideyoshi's consort, mother of Hideyori; recurs later.
+- **秀頼 → Hideyori** (attested) — the heir; born Bunroku 2/8/3; infant name O-Hiroi.
+Substring-trap check: neither "Yodo-gimi" nor "Hideyori" is a substring of any en in use; hanzi
+keys 淀君/秀頼 do not double as counters/common words. 化生 deliberately NOT glossaried (kept
+free to render "shape-shifter"/"creature of change" without forcing the qc name-per-paragraph
+rule across the p392 dialogue); footnoted instead.
+
+### noise.txt — nothing added
+check_numbers ran 0/230 unresolved with the existing noise file; the ch11 numerals (十三年目,
+五十八歳, 文禄二年八月三日, 一挺, 三日前) are all real quantities carried into the English.
+
+### DECLARED qc_entities false positive (check_content authoritative pass is clean)
+pair 221 flags "甲斐 (Kai) not found in English" — but the source word is 甲斐々々しく
+(kaigaishiku, "assiduously/devotedly"), the adverb, NOT the province Kai. The province does not
+appear. check_content (the authoritative displacement check) correctly ignores it ("Kai" < 4
+chars) and passes ch11 clean. This is the documented place-key-inside-a-common-word trap; left
+as-is (rendering a spurious "Kai" would be wrong).
+
+### Name-survival pass (as in B10)
+8 pronoun-only paragraphs (49,55,154,170,183,185,220,227) re-anchored to carry "Jūzō"/"Kohagi"
+where the source paragraph names them; check_content then clean.
+
+### Voice sheets — update
+- **Kohagi:** the whole chapter is her long night at Otogi Pass. Elegant, poised, courtly
+  (ございます/ませぬ; refers to herself as "Kohagi"), but now openly in love with Jūzō and asking
+  him to flee with her and abandon the plot. Jūzō names her a "superior shape-shifter" (化生),
+  raised in the Mochizuki house of Kōga, planted on Sōkyū by Mitsunari to expose the conspiracy.
+  She does not deny it; she grants him one night, warns that her work may be to kill him, and
+  cooks him a devoted morning meal before leaving. The love is real AND the danger is real.
+- **Jūzō:** the great self-portrait speech — the ninja as a lodging-house of many selves with no
+  fixed "I." Confesses he is genuinely smitten ("as one rappa to another") but refuses to
+  betray the work ("a man tires of the woman he loved, never of his work"). The morning meal
+  unnerves him more than any fight; he leaves to wash his face and never goes back.
+- **Kuroami:** brief opening scene — brings the news of Hideyori's birth, fixes the seventh
+  month of next year for the killing, shivers with fearful glee. Humble-archaic, fronts as the
+  whetter/blade-man "Iseya Kahei."
+- **Kisaru:** the Komatsudani flashback — caught breaking into Kohagi's lodging, fearless,
+  spirited, blunt; reveals her real name 簾/Ren; jealous of Kohagi over Jūzō; wants Dōgen's
+  whereabouts (at Gen'i's tenement) to avenge her father and "win." Kohagi jails her in the
+  storehouse cell (jealousy + intelligence-gathering).
+
+### Where the story stands (end of ch11)
+Kuroami brings word that Yodo-gimi has borne Hideyoshi a son (O-Hiroi / the future Hideyori,
+1593); the plotters fix the killing for the seventh month of the coming year, to fall as the
+Taikō's death-anniversary. Kohagi comes to Otogi Pass, delivers Sōkyū's money, and recounts
+having caught and jailed Kisaru at Komatsudani. Through the night she drops her merchant's-
+daughter mask far enough for Jūzō to name her a Mochizuki-of-Kōga shape-shifter, planted on
+Sōkyū by Ishida Mitsunari to expose the plot; he tells her that, left as they are, she and he
+must end as sworn enemies. She begs him to flee with her; he refuses — the work outweighs the
+woman — but confesses he is truly smitten, and grants her one night. In the morning her devoted
+tenderness so shakes his solitary discipline that he leaves to wash his face and never returns
+to the hermitage, thinking he has never known a peril to match that morning's, and takes the
+ridge road toward Yamashiro.
