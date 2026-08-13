@@ -141,3 +141,53 @@
 # Courtesy address 二爷 "Second Master(s)" (诸位二爷 = "you gentlemen"); a vocative,
 # not the count 2. (Cf. 白三爷 "Third Master Bai", carried as "Third" in English.)
 二爷
+#
+# --- B04 (ch08) entries ---
+#
+# Idiom 接二连三 "one after another" (接二连三下了制裁令); the 二、三 are not counts.
+接二连三
+# Place names containing numerals: 十三陵 (the Ming Tombs, "Thirteen Tombs"); 三道关
+# (Sandaoguan, a hill pass NW of Huairou); 九龙 (Kowloon); 五原 (Wuyuan, Suiyuan).
+# English names each; the numerals are part of the place-name, not counts.
+十三陵
+三道关
+九龙
+五原
+# Idiom 四下(里) "all around / on every side"; the 四 is not the count 4.
+四下
+# 零碎(东西) "odds and ends / bits and pieces"; the 零 is not the numeral 0.
+零碎
+# Idiom 十万火急 "of the utmost urgency" (the "Most Urgent" telegram flag); not 100000.
+十万火急
+# Idiom 一诺千金 "true to his word" (a promise worth a thousand in gold); not 1000.
+一诺千金
+# Intensifiers with 万/亿: 万不可 "on no account"; 万全 "fully-proof, all-secure";
+# 万难(得知) "past all knowing"; 亿万(人民) "hundreds of millions" (source writes
+# simplified 亿, unhandled by the checker's 億). None are the quantity 10000.
+万不可
+万全
+万难
+亿万
+# Loanword 三明治 "sandwich" (transliteration); the 三 is not the count 3.
+三明治
+# Idiom 百思(不得其解) "for all one's thinking cannot make out"; 百 is not 100.
+百思
+# Idiom 胡说八道 "sheer nonsense / wild talk"; the 八 is not the count 8.
+胡说八道
+# Idiom 七零八落 "scattered in utter disorder" (read 708 by the checker); not a count.
+七零八落
+# 十字 "a cross (mark)" (用粉笔划了一个十字); 十字 = cross-shape, not the count 10.
+十字
+# Shanghai slang 小瘪三 "a little vagabond/bum"; the 三 is part of the idiom, not a count.
+瘪三
+# Elided-tens approximations: 二、三十(公尺) "twenty or thirty (meters)"; 六、七十
+# (公分) "sixty or seventy (centimeters)". The leading digit stands for its ten
+# (二 = 二十, 六 = 六十); English renders "twenty or thirty" / "sixty or seventy".
+二、三十
+六、七十
+# The two named rooms 一四五两个房 (rooms 138 and 145): the checker glues 一四五 to
+# 两 and reads a phantom 1452. Strip the 两个房 count that follows the room number
+# 五 so 一四五 (145) stands clean and is matched. An explicit lookbehind is needed
+# because the auto-guard would otherwise refuse to fire after a numeral (五).
+# Not a dropped quantity — both rooms are named in the English.
+(?<=五)两个房

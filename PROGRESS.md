@@ -422,3 +422,148 @@ Quarter, 六国饭店 the Grand Hôtel des Wagons-Lits, 热河 Rehe, 韩家潭 H
 - Glossary rows added by hand into the sectioned file (people/orgs/places),
   idempotent + re-read-verified (the sectioned glossary must NOT go through
   apparatus_merge's flat-map path); notes merged via apparatus_merge as usual.
+
+## Batch B04 — ch08 (Part One, Section 3)
+
+Unit: ch08 「第三节 盘根错节 李代桃僵」 = "Section 3. Tangled Roots, a
+Substitute Sacrifice." The longest unit so far (~36,344 chars per book.json;
+41,482 raw source chars). The Ji Hongchang (吉鸿昌) case: the enlargement of
+the Beiping/Tianjin Action Groups; the death of Tianjin Station chief Wang
+Zixiang (王子襄) while testing a poison; the long reconnaissance through the
+Zheng Enpu / Fu Danchi line; and the 9 Nov 1934 shooting inside the Guomin
+Hotel (国民大饭店) in the Tianjin French Concession, where the gunman Wang Wen
+(王文) killed the wrong man, Liu Shaorang (刘绍勷), by a last-minute switch of
+venue and mahjong seats (李代桃僵). Long coda: the newspaper accounts, the
+rebuttal of the Communist booklet "General Ji Hongchang," the extradition and
+execution of Ji and Ren Yingqi, Ji's full biography, and the lead-in to the
+Shi Yousan case (ch09). 461 body paragraphs across six titled sub-sections.
+
+### Structural recovery (clean_batch.py, ch08 spec added)
+Six numbered sub-sections (一–六). ONE standalone heading (一 煽扬赤焰的叛国者
+皆曰可杀, src line 3) and FIVE glued to the tail of the preceding paragraph
+(二…, src 112; 三…, 206; 四…, 250; 五…, 328; 六…, 394) — split off as `###`
+sub-headings (same mixed pattern as ch06). SIX extractor-splits merged (src
+pairs 95+96, 117+118, 129+130, 150+151, 308+309, 376+377). NOT merged and left
+visible per rule 4: src line 402 (第三点：…其原由，在) trails off in a **source
+cut** — its continuation is lost and the next line is the next bullet (第四点)
+— so it stands as its own paragraph, unmerged, faithfully broken. The
+enumerated ；/： bullet lists (Zheng's numbered help-items, the sanction-order
+points, the newspaper quotes, the eight-point rebuttal, the biography dates)
+are deliberate separate `<p>` and were NOT merged. `clean_batch.py build`
+prints "ch08: 461 body paragraphs, 6 sub-headings, source conserved OK." Source
+HTML has 468 `<p>` (= 2 furniture + 466 body, before the six merges) plus one
+`<h2>`; NO set-off formatting (no images / center / kt / duokan classes) —
+plain narrative, so `apply_format_markers` had nothing to recover.
+
+### Checks (all green)
+- **Source-note grep (`\[\d+\]`):** none present in ch08 (re-checked). No
+  `source_notes` stream. No images (survey's cover-only finding confirmed).
+- **verify_unit / parity:** source 461 vs translation 461 — equal. Numbers
+  0 unresolved with `--noise data/noise.txt`. Anchors 12/12 resolve.
+- **check_align:** median ratio **4.70 en/han** (a touch above ch06 4.55 /
+  ch07 4.62 — the heavy quoted-document and news-report matter runs slightly
+  looser; still well inside the 2.2× stray bound; no pair strays).
+- **check_structure:** parity OK; 12 note anchors, 0 unresolved; headings OK.
+- **check_content:** 661 name occurrences, 0 displaced (all in paired para).
+  Two real omissions caught and fixed as they surfaced: para 202 restored
+  "Tianjin Station" (故站长 → "the late Tianjin Station chief"); para 317
+  restored the name "Yang Yushan" (杨玉珊姐弟 → "Yang Yushan and her brother").
+- **qc_entities:** 0 misses (top census: 吉鸿昌×169, 北平×98, 天津×98,
+  方振武×21, 冯玉祥×20, 军统×16, 制裁×13, 石友三×13).
+- **check_register --ref reference/B01_frozen.md:** "register within tolerance
+  of the reference." rhythm CV 0.63 (ref 0.60); em-dash 6.0/1k (ref 8.3);
+  dialogue contractions 0.0/1k. One informational flag: "shall" share 55% —
+  VERIFIED DELIBERATE (Chen's and the agents' formal first-person future: "I
+  shall report to you," "I shall now go first," Dai's "I shall telephone,"
+  the conditional "we shall have the chance"); matches the frozen B01 voice.
+  Not a defect.
+- **Tail verification (rule 4 corollary):** final seven paragraphs (461–468,
+  the utter-failure summary and the Shi Yousan lead-in) checked against the
+  source — faithful, nothing invented or dropped: 反复无常/朝秦暮楚 carried;
+  先鸿霞、老褚二人 "the two, Xian Hongxia and old Chu"; 刑究 "interrogation
+  under torture"; 史大川 Shi Dachuan; 前后两任司令官 "the two successive
+  commanders"; 多田骏/田代皖一郎; 八年抗战/明正典刑/自食恶果 all carried.
+- **Once-per-book calibration (checks 7,8):** done in B02; spot re-check on the
+  reconnaissance dialogue (src 277–287) and the killing (src 349–352) — high
+  agreement, no drift, no fabrication.
+- **Build:** `out/nameless-heroes.epub` 8/43, 114 notes (102 + 12), 0 source
+  notes. `qa_epub.py` PASS (57 files, 114 refs = 114 bodies = 114 backlinks).
+  **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings.**
+
+### Digitization glitches (rendered to plain sense; NOT footnoted — mechanical)
+- Recurring 戴先坐 → 戴先生 "Mr. Dai" (坐 for 生; src 22, 40, 198, 202-region).
+- src 50/51: 王于襄 → 王子襄 "Dr. Wang Zixiang" (于 for 子).
+- src 91: 方挀武 → 方振武 (挀 for 振).
+- src 105/108: 靳云鸮 → 靳云鹗 "Jin Yun'e" (鸮 for 鹗).
+- src 68/70/105: 委负会 / 前线委负会 → 委员会 (负 for 员).
+- src 117: 略为演示文稿 — garbled (演示文稿 = "presentation slides", an
+  auto-correct/digitization artifact); rendered to plain sense "laid out for
+  him in short."
+- src 273: 𬬭匙 → 钥匙 "key" (variant glyph).
+- src 256: 万人活躣 → 活跃/活动 "astir" (躣 a glitch).
+- src 275: 王艾 → 王文 "Wang Wen" (艾 for 文).
+- src 305/39: 妹妺 → 妹妹 "younger sister" (variant 妺).
+- src 426: 偃城 → 郾城 "Yancheng" (偃 for 郾; the Henan town where Feng raised
+  troops).
+- src 148: the poison "X霜" — the author has REDACTED the first character of
+  the poison's name (砒霜 arsenic? the almond note suggests cyanide); rendered
+  faithfully as "an 'X-frost'," the redaction left visible, not a note.
+- Variant/traditional glyphs (rendered plainly): 巿(=市), 妺(=妹), 鸮/鸮.
+
+### Numeric-invariant handling (data/noise.txt, B04 block; check_numbers 0 unresolved)
+Real quantities carried in the English (times spelled to match the checker):
+2:55 "two fifty-five", 2:50 "two fifty", 4:45 "four forty-five", 4:57 "four
+fifty-seven", 8:40 "eight-forty", 11:30 "eleven-thirty"; 十二万 "one hundred
+and twenty thousand"; 一百多公尺 "a hundred meters"; 十来步 "ten-odd steps";
+1967–'68; and every 二人/二位/两位 "the two [named]" made explicit ("the two,
+Zheng and Fu," etc.). Noised as idiom/name/place/artifact (each with a comment
+line): 接二连三, 十三陵, 三道关, 九龙, 五原, 四下, 零碎(=0), 十万火急, 一诺千金,
+万不可, 万全, 万难, 亿万, 三明治, 百思, 胡说八道, 七零八落(=708), 十字, 瘪三,
+二、三十, 六、七十 (elided tens), and `(?<=五)两个房` (a lookbehind to detach the
+count that glued 一四五 into a phantom "1452"; both rooms named in English).
+
+### Notes ledger (12 this batch; 114 cumulative)
+First-appearance discipline observed. **NOT re-noted** (already noted in
+B01/B02/B03, per those ledgers): Ji Hongchang, the Chahar anti-Japanese army
+(民众抗日同盟军), Feng Yuxiang, Fang Zhenwu, Shi Yousan, the Kwantung Army,
+Manchukuo, the Legation Quarter, the Grand Hôtel des Wagons-Lits, Tianjin/
+Beiping, the "sanction" euphemism, the Juntong / Lixingshe / Renaissance
+Society / Special Services Department, Zheng Jiemin, Dai Li, Nan Hanchen, Xuan
+Xiafu, He Yingqin, Rehe, the Beiping Military Branch, the Republican-calendar
+convention, the yuan, Whampoa, the War of Resistance. New notes cover: the
+Tanggu Truce; the Green Gang and "opening the incense hall"; Peking Union
+Medical College; the Mackenzie (Ma Dafu) Hospital; the Lishunde / Astor House
+Hotel; the "though I did not kill Boren" allusion; the Mauser "box-cannon"
+(C96); the Blue Shirt Society (蓝衣社 as the enemy's name for the Lixingshe);
+the "Red Building" pun; the Cultural-Revolution Red Guards and the 1967–68
+factional fighting (with Jiang Qing "毛婆" and Lin Biao); Ji Hongchang's death
+poem (author-as-interested-witness); the Dagongbao / Shenbao newspapers.
+
+### Glossary rows added (54; principals unchanged at 6)
+People (38 new): 王子襄 Wang Zixiang, 王玉梅 Wang Yumei, 吕一民 Lü Yimin, 吴萍
+Wu Ping, 王文 Wang Wen, 郑恩普 Zheng Enpu, 傅丹墀 Fu Danchi, 杨玉珊 Yang Yushan,
+陈国瑞 Chen Guorui, 任应岐 Ren Yingqi, 商震 Shang Zhen, 于学忠 Yu Xuezhong,
+张慕陶 Zhang Mutao, 穆欣 Mu Xin, 樊钟秀 Fan Zhongxiu, 靳云鹗 Jin Yun'e, 门致中
+Men Zhizhong, 吴佩孚 Wu Peifu, 佟麟阁 Tong Linge, 孙良诚 Sun Liangcheng, 冯占海
+Feng Zhanhai, 杨虎城 Yang Hucheng, 李大钊 Li Dazhao, 魏野畴 Wei Yechou, 王芃生
+Wang Pengsheng, 邓文仪 Deng Wenyi, 江青 Jiang Qing, 先鸿霞 Xian Hongxia, 史大川
+Shi Dachuan, 老褚 old Chu, 多田骏 Tada Hayao, 田代皖一郎 Tashiro Kan'ichirō,
+胡洪霞 Hu Hongxia, 王平一 Wang Pingyi, 吴赓恕 Wu Gengshu, 吴幼权 Wu Youquan,
+佟荣功 Tong Ronggong, 张璧 Zhang Bi (丁昌 already present, skipped). Organizations
+(7): 察哈尔民众抗日同盟军, 蓝衣社 the Blue Shirt Society, 青帮 the Green Gang,
+红卫兵 the Red Guards, 行动组/情报组/军事组. Places (9): 国民大饭店 the Guomin
+Hotel, 交通旅馆 the Jiaotong Hotel, 惠中饭店 the Huizhong Hotel, 利顺德饭店 the
+Lishunde Hotel (Astor House), 小白楼 Xiaobailou, 特别第一区 the First Special
+District, 劝业场 the Quanyechang, 紫竹林 Zizhulin, 张家口 Zhangjiakou. Romanizations
+for the obscure agents/persons marked `provisional`; feed the historical names
+(任应岐, 商震, 于学忠, 吴佩孚, 佟麟阁, 杨虎城, 李大钊, 樊钟秀) to `authority.json`
+on completion. Japanese readings (多田骏, 田代皖一郎) provisional — verify when they
+recur.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch08 spec added (drop 2, six merges, five glued
+  sub-headings, one standalone; 402 deliberately left unmerged as a source cut).
+  Same verified source-conservation path.
+- `data/noise.txt` — B04 block (idioms/names/places/elided-tens + the
+  `(?<=五)两个房` lookbehind). Glossary rows added by hand into the sectioned
+  file, idempotent + re-read-verified; notes merged via apparatus_merge as usual.

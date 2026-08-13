@@ -92,6 +92,24 @@ UNITS = {
         "glued": {},
         "standalone": [3, 90, 194, 288],
     },
+    "ch08": {
+        "file": "09_index-split-000-0007.txt",
+        "title": "第三节 盘根错节 李代桃僵",
+        "drop": 2,             # running header + <h2> section title
+        # six extractor splits (mid-phrase / mid-word continuations). NOTE:
+        # (402,403) is NOT a merge — L402 (第三点) trails off in a source cut
+        # ("其原由，在") and L403 is the next bullet (第四点); left visible +
+        # footnoted. The ；/： enumerated bullet lists are deliberate <p>.
+        "merges": [(95, 96), (117, 118), (129, 130), (150, 151),
+                   (308, 309), (376, 377)],
+        # 一 is standalone; 二–六 are glued to the tail of a preceding <p>
+        "glued": {112: "二 苗而未秀 早折了栋梁材",
+                  206: "三 搜寻吉某的踪迹 总算有了着落",
+                  250: "四 这就是一般所常道的 临机应变",
+                  328: "五 失之毫厘与乎收之桑榆",
+                  394: "六 原是个魔鬼附身命中带煞的人"},
+        "standalone": [3],     # 一 煽扬赤焰的叛国者皆曰可杀
+    },
 }
 
 
