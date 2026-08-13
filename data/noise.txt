@@ -157,3 +157,10 @@
 #   an anatomical idiom, not a count of five. English renders "the features
 #   of the face". (B07, ch110)
 五官
+# 禮拜三、六 "Wednesday and Saturday" (race nights); 三 abbreviates 禮拜三 =
+#   Wednesday, 六 = 禮拜六 = Saturday, weekday names not counts. English
+#   renders "Wednesday and Saturday". (B08, ch118)
+禮拜三、六
+# 癟三 biesan, the Shanghai slang word for a beggar/bum; the 三 is part of
+#   the word, not a count of three. English keeps "biesan". (B08, ch123)
+癟三

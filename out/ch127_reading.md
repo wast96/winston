@@ -1,0 +1,3 @@
+### Haggling the Cut
+
+When a man has done something against the law—run a gambling den, say, or dealt in opium, and a hoodlum comes to hear of it (a hoodlum being a hooligan), the fellow will make trouble for him and set about what they call the "haggling the cut" business. A small matter, and he corners you in a teahouse; a big matter, and he lures you to your hotel, and both sides open grand negotiations. The upshot of the negotiations is that you must bring out silver dollars to buy him off before you can be left in peace. And if the party stands firm and flatly refuses to spend a penny, their final treatment is either to strip the clothes from your back or to give you a savage beating, and only then do they break up in an uproar.

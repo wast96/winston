@@ -1,0 +1,3 @@
+### Taking the Payoff
+
+Whenever there is one of the two affairs, red or white—that is, a wedding or a funeral—or a new shop opens its doors, the vagrants of the neighbourhood (who style themselves "brothers of this street") are sure to come demanding gift-money and drink-money, under the name of "taking the payoff." As to the amount, there is no fixed rule; it is settled according to how grand the family's affair is, how large the shop, and how open-handed the giver. This improper old custom has come down to the present and still cannot be rooted out; and if you give them not a coin, they will not only pester you without a stop but have all manner of malicious pranks ready to serve you, enough to leave you at your wits' end, unable to laugh or to cry.

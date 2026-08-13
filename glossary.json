@@ -292,6 +292,64 @@
       "en": "Feng Zikai",
       "status": "attested",
       "note": "Feng Zikai (1898&#8211;1975), the painter, essayist and cartoonist celebrated for his spare brush sketches of everyday life; he signed his work with the mark &#8216;TK&#8217; and named his studio the Yuanyuan Hall."
+    },
+    "俞秀山": {
+      "en": "Yu Xiushan",
+      "pinyin": "Yu Xiushan",
+      "status": "attested",
+      "note": "Tanci master of the Jiaqing&#8211;Daoguang era; creator of the Yu tune."
+    },
+    "馬如飛": {
+      "en": "Ma Rufei",
+      "pinyin": "Ma Rufei",
+      "status": "attested",
+      "note": "Tanci master of the Xianfeng&#8211;Tongzhi era; creator of the Ma tune."
+    },
+    "閻瑞生": {
+      "en": "Yan Ruisheng",
+      "pinyin": "Yan Ruisheng",
+      "status": "attested"
+    },
+    "王蓮英": {
+      "en": "Wang Lianying",
+      "pinyin": "Wang Lianying",
+      "status": "attested"
+    },
+    "何豐林": {
+      "en": "He Fenglin",
+      "pinyin": "He Fenglin",
+      "status": "attested"
+    },
+    "吳春芳": {
+      "en": "Wu Chunfang",
+      "pinyin": "Wu Chunfang",
+      "status": "provisional"
+    },
+    "朱稚嘉": {
+      "en": "Zhu Zhijia",
+      "pinyin": "Zhu Zhijia",
+      "status": "provisional",
+      "note": "Also called Zhu Laosi; son of Zhu Baosan."
+    },
+    "趙君玉": {
+      "en": "Zhao Junyu",
+      "pinyin": "Zhao Junyu",
+      "status": "attested"
+    },
+    "汪優遊": {
+      "en": "Wang Youyou",
+      "pinyin": "Wang Youyou",
+      "status": "attested"
+    },
+    "嚴獨鶴": {
+      "en": "Yan Duhe",
+      "pinyin": "Yan Duhe",
+      "status": "attested"
+    },
+    "浦驚鴻": {
+      "en": "Pu Jinghong",
+      "pinyin": "Pu Jinghong",
+      "status": "provisional"
     }
   },
   "places": {
@@ -598,6 +656,36 @@
       "en": "Old North Gate",
       "status": "attested",
       "note": "The north gate of Shanghai&#8217;s old walled city; the streets outside it were a district of eating-houses."
+    },
+    "福祥里": {
+      "en": "Fuxiang Li",
+      "pinyin": "Fuxiang Li",
+      "status": "provisional"
+    },
+    "徐州": {
+      "en": "Xuzhou",
+      "pinyin": "Xuzhou",
+      "status": "attested"
+    },
+    "震旦大學": {
+      "en": "Aurora University",
+      "pinyin": "Zhendan Daxue",
+      "status": "attested"
+    },
+    "亞爾倍路": {
+      "en": "Avenue du Roi Albert",
+      "pinyin": "Ya'erbei Lu",
+      "status": "attested"
+    },
+    "華德路": {
+      "en": "Ward Road",
+      "pinyin": "Huade Lu",
+      "status": "attested"
+    },
+    "延平路": {
+      "en": "Yanping Road",
+      "pinyin": "Yanping Lu",
+      "status": "attested"
     }
   },
   "organizations": {
@@ -813,6 +901,26 @@
       "en": "Zhimei Lou",
       "status": "attested",
       "note": "A restaurant that stood on the former site of the Dangui First Stage."
+    },
+    "淞滬護軍使": {
+      "en": "the Songhu Defence Commissioner",
+      "pinyin": "Songhu hujun shi",
+      "status": "attested"
+    },
+    "逸園": {
+      "en": "the Canidrome",
+      "pinyin": "Yiyuan",
+      "status": "attested"
+    },
+    "明園": {
+      "en": "the Mingyuan",
+      "pinyin": "Mingyuan",
+      "status": "attested"
+    },
+    "申園": {
+      "en": "the Shenyuan",
+      "pinyin": "Shenyuan",
+      "status": "attested"
     }
   },
   "terms": {
@@ -1485,6 +1593,146 @@
       "en": "skim",
       "status": "decided",
       "note": "<i>Kaiyou</i>, literally &#8216;to wipe off oil&#8217;: to skim a private profit off goods or money that pass through one&#8217;s hands. The subject of chapter 152."
+    },
+    "開篇": {
+      "en": "prelude-song",
+      "pinyin": "kaipian",
+      "status": "decided"
+    },
+    "彈詞": {
+      "en": "tanci",
+      "pinyin": "tanci",
+      "status": "attested"
+    },
+    "三嚇頭": {
+      "en": "the three scares",
+      "pinyin": "san xiatou",
+      "status": "decided"
+    },
+    "脈案": {
+      "en": "pulse-record",
+      "pinyin": "mai'an",
+      "status": "decided"
+    },
+    "嗎啡": {
+      "en": "morphine",
+      "pinyin": "mafei",
+      "status": "attested"
+    },
+    "白麵": {
+      "en": "white flour",
+      "pinyin": "baimian",
+      "status": "attested"
+    },
+    "開大炮": {
+      "en": "firing the big gun",
+      "pinyin": "kai dapao",
+      "status": "decided"
+    },
+    "紅白丸": {
+      "en": "red-and-white pills",
+      "pinyin": "hongbai wan",
+      "status": "decided"
+    },
+    "花國總理": {
+      "en": "Premier of the Flower Kingdom",
+      "pinyin": "huaguo zongli",
+      "status": "decided"
+    },
+    "拆白黨": {
+      "en": "peeling-white gang",
+      "pinyin": "chaibai dang",
+      "status": "decided"
+    },
+    "新生活": {
+      "en": "New Life",
+      "pinyin": "Xin shenghuo",
+      "status": "attested"
+    },
+    "年紅燈": {
+      "en": "year-red lamp",
+      "pinyin": "nianhongdeng",
+      "status": "attested"
+    },
+    "霓紅燈": {
+      "en": "neon lamp",
+      "pinyin": "nihongdeng",
+      "status": "attested"
+    },
+    "桂花": {
+      "en": "sweet osmanthus",
+      "pinyin": "guihua",
+      "status": "decided"
+    },
+    "跑狗": {
+      "en": "dog racing",
+      "pinyin": "pao gou",
+      "status": "decided"
+    },
+    "回力球": {
+      "en": "jai alai",
+      "pinyin": "huili qiu",
+      "status": "attested"
+    },
+    "水門汀": {
+      "en": "cement",
+      "pinyin": "shuimenting",
+      "status": "attested"
+    },
+    "蟹行文字": {
+      "en": "crab-crawling script",
+      "pinyin": "xiexing wenzi",
+      "status": "decided"
+    },
+    "癟三": {
+      "en": "biesan",
+      "pinyin": "biesan",
+      "status": "attested"
+    },
+    "釘巴": {
+      "en": "limpet",
+      "pinyin": "dingba",
+      "status": "decided"
+    },
+    "趕豬玀": {
+      "en": "driving the pigs",
+      "pinyin": "gan zhulou",
+      "status": "decided"
+    },
+    "殺豬玀": {
+      "en": "slaughtering the pigs",
+      "pinyin": "sha zhulou",
+      "status": "decided"
+    },
+    "拿開銷": {
+      "en": "taking the payoff",
+      "pinyin": "na kaixiao",
+      "status": "decided"
+    },
+    "講斤頭": {
+      "en": "haggling the cut",
+      "pinyin": "jiang jintou",
+      "status": "decided"
+    },
+    "賞光券": {
+      "en": "patronage ticket",
+      "pinyin": "shangguang quan",
+      "status": "decided"
+    },
+    "打抽風": {
+      "en": "squeeze",
+      "pinyin": "da choufeng",
+      "status": "decided"
+    },
+    "戤牌頭": {
+      "en": "trading on a big name",
+      "pinyin": "gai paitou",
+      "status": "decided"
+    },
+    "案目": {
+      "en": "seat-agent",
+      "pinyin": "anmu",
+      "status": "decided"
     }
   }
 }

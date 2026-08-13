@@ -1,0 +1,3 @@
+### Driving the Pigs
+
+When people walk along the road, there is often a beggar who trails behind demanding money, chattering without a stop. Every summer they carry a tattered palm-leaf fan and fan you from behind, and if you give them nothing they will dog you without end; the Shanghai proverb calls this breed of beggar a "limpet." They have their cant, too, a name for it: "driving the pigs." When the day's work is done and they meet a fellow of the trade, they ask one another: "How many pigs did you drive today?" So the man who gave his money has earned himself the title of "pig" into the bargain—is that not detestable?

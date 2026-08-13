@@ -1,0 +1,3 @@
+### The One-Two-Three Style
+
+The clothes women wear grow tighter and smaller—and, to their minds, more modern—by the day; worn on the body they not only hold the bosom high but thrust the hips out behind, and with high-heeled leather shoes on the feet the wearer sways and minces along the street in a way most conspicuous. This figure people nowadays call the "yao-er-san," the "one-two-three style," and taking the sense from the shape, the name is really quite apt! Such freakish forms and outlandish dress have already been sternly forbidden in several places in the interior, but in the Shanghai concessions they are as thick as ever—which one can only sigh over.

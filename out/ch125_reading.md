@@ -1,0 +1,5 @@
+### Slaughtering the Pigs
+
+When winter comes, there is sure to be a set of hooligans and local ruffians who band together, three or four to a group or seven or eight to a gang, carrying sharp blades and pistols (some carry fake pistols too), and lie in wait at some remote, deserted spot. Meeting a man walking alone, they close in on him all at once, strip off the clothes on his back and snatch every last note in his purse in one sweep, leaving him nothing but his underclothes, and then turn him loose to go home. And should he be unwilling to be robbed and put up the least struggle, they set to with savage methods without the least ceremony—stabbing him, or shooting him, and there are even those who meet a violent death; and this is what they call "slaughtering the pigs."
+
+The colder the weather and the nearer the year's end, the more these "pig-slaughtering" outrages occur. Twenty or thirty years ago there was neither such a game nor even such a name for it; but by now it has become a commonplace, an unremarkable piece of grim news—a sign, too, that the ways of the world grow worse by the day and the road ahead is choked with thorns.

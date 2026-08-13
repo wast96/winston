@@ -739,3 +739,102 @@ Offset confirmed printed = pdf - 2, folio re-read at every opener.
   muchee-muchee; ch107 renders 洋涇浜話 as "pidgin". 捕房 police station (glossed):
   ch103 uses "plain-clothes constable" for 探捕 (its own glossary row) and
   "police station". 小押店 little pawnshop (ch062): ch104 cross-refs.
+
+## B08 — ch111-ch129 (俞調、馬調 through 戤牌頭), PDF 184-208, printed 182-206 (2026-08-13)
+
+Tanci balladry and quack-medicine cant giving way to the con-and-beggar trades.
+All 19 units translated end to end; every gate green. Offset held printed = pdf - 2,
+folio read off every opener (182 on pdf 184 ... 206 on pdf 208).
+
+### Scope note (kickoff title vs book.json)
+- The kickoff titled the batch "through 兜得轉與跑得開," which is ch130 (pdf 209),
+  in B09. The authoritative book.json batch B08 = ch111-ch129 (pdf 184-208); the
+  last unit is ch129 戤牌頭 "Trading on a Big Name." Followed book.json.
+
+### Units and paragraph structure (hand-finalized off the scan)
+- 1 para: ch111, ch113, ch116, ch119, ch121, ch122, ch123, ch124, ch126, ch127.
+- 2 para: ch112, ch114, ch117, ch125, ch128, ch129.
+- 3 para: ch120. 4 para: ch115, ch118.
+- Multi-page units: ch112 (185-186), ch114 (188-190, incl. a photo-only p190),
+  ch115 (191-192), ch118 (195-196), ch120 (198-199). ch114's text ends on p189;
+  p190 is two full-page reprint images (text finished on the previous page,
+  as HANDOFF predicted).
+
+### book.json correction
+- ch116 年紅燈 title_en was "The New Year Red Lantern" — a mistranslation. The
+  essay is about NEON SIGNS (氖光 neon; 霓紅燈), not New Year lanterns. Corrected
+  title_en to "Neon Lights"; nav and section heading rebuilt, old title gone.
+
+### Notes (66; book-wide 490-555)
+Generous per the commissioner's instruction. ch114 (the Yan Ruisheng case) carries
+13; density tapers to 1-2 in the short late sketches, which is healthy.
+- Fact-checks (verdict stated in each note):
+  - Yan Ruisheng / Wang Lianying case CONTRADICTS the author's date: he prints 民
+    十一(壬戌)=1922, but the murder was June 1920 (民九, 庚申), Yan executed 23 Nov
+    1920; the reprinted 申報 ad is dated 2 July 1920. Rendered as printed, footnoted.
+    (Wikipedia 閻瑞生案; Jiemian/正午 feature.)
+  - He Fenglin (1873-1935, 字茂如), Anhui-clique general, 淞滬護軍使 1920-1924 —
+    CORROBORATED (Baidu/Wikipedia 何丰林).
+  - Yu Xiushan (俞調) / Ma Rufei (馬調) as the two tanci schools of the Jiaqing-
+    Daoguang and Xianfeng-Tongzhi eras, alongside Chen Yugan's 陳調, and 開篇 as
+    the prelude — CORROBORATED (弹词 baike; 苏州评弹 essay).
+  - Yan Duhe (1889-1968), Xinwenbao 快活林 editor 30+ yrs, serialized Zhang
+    Henshui — CORROBORATED (Baidu 严独鹤; Wenhui).
+  - The three dog-tracks (Mingyuan/Stadium, Shenyuan in the Settlement; Yiyuan/
+    Canidrome on Avenue du Roi Albert, French Concession, built by J. J. Chollot;
+    the two Settlement tracks closed ~1931) — author's account CORROBORATED
+    (研之有物 / 故事 StoryStudio essays).
+  - 姊妹花 (Twin Sisters, 1934, 鄭正秋 dir., 胡蝶), Aurora University, 拆白黨,
+    癟三, 花國總理 / 1917 New World flower-election, 新生活運動 (1934) — all
+    CORROBORATED. Pu Jinghong (ch115) UNCORROBORATED (not in film histories).
+
+### Figures (3, all 2019-editor reprint additions; ch114; provenance in caption)
+- ch114_yan_wang_portraits.png (p188): the two oval news portraits; in-photo
+  labels 謀財害命之要犯 閻瑞生 / 前花國總理 王蓮英. Editor caption line excluded.
+- ch114_shenbao_ad.png (p190 top): 申報 2 July 1920 ad for 《蓮英被害記》.
+- ch114_yanruisheng_playbill.png (p190 bottom): New Stage playbill for 《閻瑞生》.
+- No other page in the batch carries a reprint photo (eyeballed each).
+
+### OCR / paragraphing
+- tesseract chi_tra_vert psm 5 only (~85%); every page eye-read at magnification
+  and data/zh hand-transcribed against the scans, as B01-B07. indents.py unusable;
+  paragraphing finalized by hand (short-line signal at page seams; the text band
+  above a photo can be one paragraph).
+- Crop-verified this batch: 候政 (ch112, the doctor's disclaimer — 政 not 正/診);
+  厲害 (ch112 tail, not 屬); 橋塊 (ch122, printed 塊 where 堍 "bridge-approach"
+  is expected — rendered to sense, no separate note); 頂梢 (ch123 begging cant,
+  glossed uncertain); 吃鬥 / 戤 (ch129, author's own gloss 兇暴 confirms sense).
+- data/noise.txt additions (each a non-quantity, never masking a drop; longest
+  first): 禮拜三、六 (Wed & Sat race nights, weekday names not counts; English
+  carries "Wednesday and Saturday"), 癟三 (biesan, the 三 is part of the word).
+  ch126 兩事 carried as a real count ("one of the two affairs, red or white").
+
+### Register / QC (all green)
+- verify_unit (parity, numbers, anchors): PASS on all 19.
+- check_align, check_structure --config, check_content --config: PASS.
+- qc_entities per bilingual: 0 misses (aligned three existing renderings to the
+  ledger: 舞女=dance-girl ch115, 堂倌=waiter ch120, 拆字=character-splitting ch121).
+- check_apparatus: 0/0. check_register --ref out/ch001_reading.md: all within
+  tolerance. qa_epub: PASS (168 docs, 555 notes ref/body/backlink). epubcheck
+  5.1.0: 0 fatals / 0 errors / 0 warnings.
+
+### Glossary (49 new rows; 3 already present, left untouched; 302 total)
+People: Yu Xiushan, Ma Rufei, Yan Ruisheng, Wang Lianying, He Fenglin, Wu Chunfang,
+Zhu Zhijia, Zhu Baosan, Zhao Junyu, Wang Youyou, Yan Duhe, Pu Jinghong. Places:
+Fuxiang Li, Xuzhou, Jiumudi, Aurora University, Avenue du Roi Albert, Ward Road,
+Yanping Road. Orgs: the New Stage, the Songhu Defence Commissioner, the Canidrome,
+the Mingyuan, the Shenyuan. Terms: prelude-song, tanci, the three scares, pulse-
+record, morphine, white flour, firing the big gun, red-and-white pills, Premier of
+the Flower Kingdom, peeling-white gang, New Life, year-red lamp, neon lamp, sweet
+osmanthus, dog racing, jai alai, cement, crab-crawling script, biesan, limpet,
+driving the pigs, slaughtering the pigs, taking the payoff, haggling the cut,
+patronage ticket, squeeze, trading on a big name, seat-agent.
+
+### NOT re-noted this batch (already placed; cross-referenced instead)
+- huahui (noted ch065/ch066): ch118 cross-refs via the 致富全書 note.
+- 新世界 the New World / flower-election (noted ch023/ch038/ch053): ch114 cross-refs.
+- 白相人 hoodlum (noted ch072): ch127 cross-refs (the author's own gloss 即流氓).
+- pidgin / Yangjingbang (noted ch018/ch078): ch123 cross-refs. New Life Movement
+  (noted ch074): ch115's note cross-refs and adds only the perm ban. Suzhou Creek
+  bridges 天后宮橋/盆湯弄橋 (noted ch056): ch122's note cross-refs, adds 老閘橋/垃圾橋.
+  Money policy (ch001/ch014): ch118/ch127/ch128 cite 大洋/大洋鈿/塊 without re-noting.
