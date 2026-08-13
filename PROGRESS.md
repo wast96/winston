@@ -1014,3 +1014,168 @@ lesson): 一条 and 平 deliberately NOT added (see above).
   installed manually (the known setup.sh gap). epubcheck re-fetched to
   /tmp/epubcheck-5.1.0 (container was recycled). The pre-existing checker-regression
   FAIL (`hook stands down on template stub`) persists and is unrelated to this book.
+
+## Batch B08 — ch08 京の盗賊 / The Thief of the Capital (PDF/printed 237-301, offset 0)
+
+580 source paragraphs. Autumn of Tenshō 19 (1591): Tsurumatsu is dead, Hideyoshi
+half-broken and driving toward the Korea war. Kuroami's rappa band has turned to
+thieving in the capital's low city to mock Hideyoshi's order; Kuroami hunts and
+fails to kill Gohei (the Shijō-bridge fight). Jūzō, told the truth by Kisaru,
+learns her father Shimotsuge Jirōzaemon is alive in Kyoto disguised as the mad
+monk "Gyōzan"/the Saint of the Bamboo, and that Shimotsuge, Gohei and Kisaru are
+now aligned against him (selling him to make Kisaru a 1000-koku samurai's wife).
+At a Yanagimachi brothel Gohei proposes collusion; Jūzō refuses (throws a kozuka),
+kills the informer courtesan Haruzemi, and escapes by smoke-bomb across the
+ceiling. Then the long Shiba-shikan digression on Maeda Gen'i (the ox-cart
+anecdote; his double game between Toyotomi and Tokugawa) and Gohei's audience,
+where Gen'i unmasks him as an Iga rappa, raises him to 300 koku, and sets him to
+hunt the thief — while Gohei reads Gen'i's own secret tilt toward the Tokugawa.
+
+### Pipeline / engineering
+- OCR: render 237-302 (302 for the tail check); ocr_crop 237-301 (L0.035 R0.965
+  T0.075 B0.955, jpn_vert psm5, --no-furniture-strip); ocr_dual 237-301.
+  pgrep -c tesseract 0 after each. **Translation was done by reading the rendered
+  page images directly** and hand-building data/zh/ch08.txt (the parity surface);
+  assemble.py welds this vertical Japanese and is coverage-only.
+- **Two drops caught and fixed (rule 4 / the corollary about long single-pass
+  units).** The chapter-opener (folios 237-238, dense with furigana leakage) was
+  first-drafted with three clauses compressed away: `五十を過ぎて儲けたただ一人の子で
+  あっただけに`, `鶴松が息を引きとるとすぐ東福寺に駈けこんで、にわかに髻を切った。切りながら`,
+  and `髻を切るよりもはるかに` — all restored, and source paras 3+4 corrected to the
+  ONE paragraph they are in the source (no indent at 五十を過ぎて). On folio 286 a whole
+  clause `藤本安兵衛の組が追捕したところ、妖術を使って消えたという` was dropped and a non-source
+  bridge (`妖術ではあるまい`) had crept in; both fixed to the printed text. Caught by the
+  distinctive-compound grep of the raw data/txt OCR against the transcription
+  (the B06/B07 method) — note the grep is meaningless until data/zh holds the
+  HAND transcription (assemble.py silently overwrote it once; restore before
+  grepping). After the fixes: 300 distinct 3+-kanji OCR compounds, 0 absent from
+  the transcription (remainder are OCR garbles of present content).
+- **Tail verified against the scan (rule 4):** ch08 ends on folio 302 at
+  `五平は、ひそかに心の躍るのを覚えて、思わず陰湿な笑いが唇許にのぼった。`, BEFORE the ch09
+  title 甲賀ノ摩利. ch07's tail occupies the TOP of 237 (through 重蔵は刀を捨てて、寮から
+  消えた。) and was NOT re-translated. B09 must not re-translate the 甲賀ノ摩利 opener
+  on 302.
+- Figures: text-only chapter (ch01-ch07 all were); no figure list — deliberate.
+- Crop-verified: クロロガキ (a padlock-pick; kept as "kurorogaki" with a descriptive
+  gloss), 欟ながらの刀 (rendered "scabbard and all"), 乱波のでしょうを隠している (Gohei hides
+  his rappa birth), 仰山/ぎょうざん (Gyōzan), the p266 betrayal-reasoning columns,
+  and the Ishida/Kanamori/Kiyomasa names against the furigana.
+
+### Checks run (all green)
+- verify_unit ch08: numbers 0/580 unresolved; anchors 6 ok.
+- check_structure --pairs: parity 580 | 580 OK.
+- check_align ch08: 580/580, median ratio 10.62 en/han (short dialogue lines ride
+  high, expected).
+- qc_entities: 0 misses (census 重蔵 x124, 五平 x81, 黒阿弥 x55, 玄以 x19 …).
+- check_content: ch08 400 name occurrences, all in the paired paragraph.
+- check_register --ref out/ch01_reading.md: **14.0/1k, 0.89x ref** (within
+  tolerance). First draft was STILTED at 0.02x — a full contraction pass on the
+  casual dialogue (Jūzō, Kisaru, the low-city banter) was needed, exactly the ch05
+  lesson; Kuroami's grave ござる, Gohei's obsequious まする to Gen'i, and the quoted
+  Gen'i-to-Gifu letter were left uncontracted by design. (Watch the auto-pass for
+  clause-final over-contraction: "you're."/"there's."/"how it's" were reverted.)
+- check_apparatus: 0 failures. qa_epub: PASS (66 refs/bodies/backlinks, all links
+  resolve). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+### data/noise.txt — added this batch (name/word numerals; longest-literal order)
+十郎左衛門, 十郎左 (Maekawa Jūrōzaemon); 三法師 (Sanbōshi); 三成 (Mitsunari); 一条
+(the Ichijō house); 百地 (Momochi); 億劫 (okkū, "a burden"); 二重 (double); 二階 (the
+upper storey); 一尺五寸 (blade length — carried in English as "a shaku and a half").
+千金 was NOT noised — the English now carries it ("a thousand-gold steed").
+
+### Footnotes (6 new, at first appearance)
+1. Makuzugahara (the utamakura moor east of Kyoto, famed for autumn bush-clover).
+2. Ishida Jibu-no-shōyū = Ishida Mitsunari (1560-1600); central at Sekigahara.
+3. The field of Yamazaki (Hideyoshi's 1582 victory over Akechi after Honnō-ji).
+4. The Toyotomi Five Commissioners (go-bugyō; Gen'i and Mitsunari both members).
+5. Yanagimachi (the licensed pleasure-quarter of the capital, pre-Shimabara).
+6. The "crossing of Iga" (Iga-goe): Ieyasu's 1582 flight over Iga under Hattori
+   Hanzō — historically attested, the numbers (78 / 200 / 1000 kan) less firm.
+   Corroborated in the note (rule 5).
+
+### NOT re-noted (already placed in ch01-ch07; cross-referenced, not repeated)
+Tsurumatsu's death (ch03), Nyoigatake/Daimonji (ch04), Tenshō dating & the Iga
+Rebellion (ch01), Honnō-ji (ch01), Hideyoshi/Nobunaga/Ieyasu, Maeda Gen'i & the
+Kyoto magistracy (ch04), Hattori Hanzō (ch05), Katō Kiyomasa (ch04), the
+Hōin/Ōkurakyō/Kampaku titles (ch03), Sekigahara, the Korea invasion & Konishi
+Yukinaga (ch03/ch07), Sen no Rikyū & the tea/wabi cult (ch03), the Jurakudai &
+Hōkō-ji (ch07/ch03), Shijō/Komatsudani/Shimochōjamachi geography (ch06/ch07),
+Tenjiku (ch07), the kozuka/wakizashi/sageo furniture, the measures (koku/chō/ken/
+shaku/kan), rappa/shinobi and jōnin/genin, kunoichi (ch06). The Seven Forms
+(七方出), the ninja-tool catalog, and the legendary Iga-ninja roll are the
+tradition's own furniture — glossary/prose, self-explained by Shiba, not
+footnoted (STYLE: don't footnote the story's props).
+
+### Minor points left unfootnoted (low-stakes tier)
+Genpei ("since the old days of the Genji and the Heike") left proverbial;
+Nobutada/Sanbōshi/Hidenobu and the Uto-castle episode are narrated in full by
+Shiba/Gohei (glossary rows, no note); 右府/Minister of the Right self-glosses to
+Nobunaga in the next sentence; 警視総監 ("Superintendent-General of Police") is
+Shiba's own deliberate modern analogy (shikan), kept as-is.
+
+### Renderings — reused unchanged (consulted before romanizing)
+重蔵 Jūzō, 五平/風間五平 Gohei/Kazama Gohei, 黒阿弥 Kuroami, 小萩 Kohagi, 木さる Kisaru,
+下柘植次郎左衛門 Shimotsuge Jirōzaemon, 今井宗久 Imai Sōkyū, 前田玄以/玄以 Maeda Gen'i/Gen'i,
+下呂正兵衛康次 Gero Shōbei Yasuji, 雲兵衛 Kumobei, 伊勢屋嘉兵衛 Iseya Kahei, 服部半蔵 Hattori
+Hanzō, 楯岡ノ道順 Tateoka-no-Dōjun & 音羽ノ城戸 Otowa-no-Kido (already in glossary — used
+the glossary forms, not "Dōjun of Tateoka" etc.), 松原通 "Matsubara road" (glossary),
+秀吉/信長/家康/徳川, 大蔵卿法印 Ōkurakyō-Hōin, 京都奉行 Kyoto magistrate, 方広寺 Hōkō-ji,
+四条(大橋) Shijō, 小松谷 Komatsudani, 下長者町 Shimochōjamachi, 笠置 Kasagi, 柳町 Yanagimachi,
+天竺 Tenjiku, 呂宋/Luzon, 大和/山城/三河/美濃/紀州/土佐/関東/大坂, koku/chō/ken/shaku/小半刻.
+
+### Renderings — added this batch (glossary.json; 22 rows)
+People (12): 石田三成 Ishida Mitsunari, 三成 Mitsunari, 清正 Kiyomasa, 正則 Masanori,
+前川十郎左衛門 Maekawa Jūrōzaemon, 十郎左衛門 Jūrōzaemon, 藤本安兵衛 Fujimoto Yasubei,
+金森 Kanamori, 春蟬 Haruzemi, 信忠 Nobutada, 三法師 Sanbōshi, 織田秀信 Oda Hidenobu.
+Places (9): 真葛ヶ原 Makuzugahara, 東福寺 Tōfuku-ji, 東寺 Tō-ji, 二条城 Nijō castle,
+岐阜城 Gifu castle, 尾張 Owari, 甲府 Kōfu, 中村 Nakamura, 大和小路 Yamato-kōji.
+Terms (1): 七方出 the Seven Forms (shichihōde). Added directly into the sectioned
+people/places/terms via a byte-preserving JSON load/dump (ensure_ascii=False;
+insertions only). Gen'i's aliases 徳善院 Tokuzen'in and 半夢斎 Hanmusai kept in prose
+only (rendered consistently; 徳善院玄以 = "Gen'i" once, so not a checked glossary key).
+Substring-trap guard held: 一条 and 平/五平 stayed out of the glossary as before.
+
+### Voice sheets — updates
+- **Tsuzura Jūzō:** the age has turned under him — grudge has cooled into the one
+  "tremendous ninja's stage" of killing the master of the realm; the rest (Gohei,
+  Kohagi, even Kisaru) is "play within this time of waiting." Reads the betrayal of
+  the three (father, Gohei, Kisaru) and laughs it off as the fool's role; still
+  cannot kill a woman who comes to him, but kills the informer courtesan Haruzemi
+  without a flicker ("the men of Iga count a life no more than a mosquito's").
+- **Kuroami:** acts on his own to execute the traitor Gohei (the jōnin plans, the
+  genin does the dirty work); loses the Shijō fight to Gohei's nimbler art, comes
+  home with a cut wrist and a rare bashful smile, and rages at Jūzō's softness
+  ("ten years fiddling with the Buddha on Otogi Pass"). Grave archaic ござる.
+- **Kazama Gohei:** cold, glib, self-serving; proposes open collusion to Jūzō
+  (both keep their roles, both profit); to Gen'i he plays the ambitious samurai
+  sick of the rappa's low place, and reads his master's secret Tokugawa tilt.
+  Superior わし/じゃ to inferiors, obsequious まする to Gen'i.
+- **Shimotsuge Jirōzaemon:** ALIVE and in Kyoto, master of the 七方出 disguise, best
+  at the monk-form; has lived a decade as the mad "Gyōzan"/Saint of the Bamboo,
+  crossing to Iga every ten days. Gruff, teasing, われ for "you", 〜じゃ; dotes on
+  Kisaru (his daughter) enough to sell Jūzō for her sake — but a rappa's loyalty
+  is provisional and Jūzō would cut him without mercy if he turned.
+- **Kisaru (木さる):** Shimotsuge's daughter; wants to be Gohei's wife, begged her
+  father to arrange it (which set the sale of Jūzō in motion); loves Jūzō too and
+  cannot untangle her own heart (trained in renjutsu from age three, "a guileless
+  apparition"). Asks Jūzō to take her, then won't pledge; pushes him away in tears.
+- **Maeda Gen'i (徳善院/半夢斎):** the shrewd, tangled magistrate — a former Owari abbot
+  risen by wit; the ox-cart tyrant who cowed the capital; secretly tilting to the
+  Tokugawa (historically the first to warn Ieyasu of the Ishida rising). Lordly,
+  heavy-lidded, formal; sets Gohei to "probe, not seize."
+
+### Where the story stands (end of ch08)
+The three-way trap has hardened: Shimotsuge + Gohei + Kisaru are selling Jūzō to
+the Maeda/magistracy for Gohei's rise; Gen'i, tilting Tokugawa, wants the affair
+watched not closed. Jūzō, now a stranger and enemy to all of them, holds to the
+one strike on Hideyoshi and waits for the perfect moment. ch09 甲賀ノ摩利 / Mari of
+Kōga (opener already on folio 302) turns to Kōga — presumably Kohagi's true side.
+
+### Environment
+- setup.sh installed the Chinese packs only; tesseract-ocr-jpn + -jpn-vert
+  installed manually (known gap). epubcheck 5.1.0 at /tmp/epubcheck-5.1.0 (present;
+  container had it). The pre-existing checker-regression FAIL (hook stands down on
+  template stub) persists and is unrelated to this book.
+- **Trap for the next session:** `assemble.py chNN a b` WRITES data/zh/chNN.txt and
+  will clobber a hand transcription. Redirect it or back up data/zh/chNN.txt first;
+  the coverage grep must run against the HAND file, not the welded one.

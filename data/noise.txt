@@ -132,3 +132,25 @@
 弥九郎
 # 三和土 = tataki, a packed-earth (doma) floor; the 三 is part of the word, not the count 3 — rendered "packed-earth floor"
 三和土
+
+# --- Owl's Castle ch08 (京の盗賊) name/word numerals ---
+# Maekawa Jūrōzaemon (前川十郎左衛門): the 十 is the name — rendered "Jūrōzaemon"
+十郎左衛門
+# short form 十郎左 in the line 「十郎左はよい」 — rendered "Jūrōza"
+十郎左
+# Oda Sanbōshi (三法師): the 三 is the name — rendered "Sanbōshi"
+三法師
+# Ishida Mitsunari (三成): the 三 is the name — rendered "Mitsunari"
+三成
+# the Ichijō house of Tosa (一条家): the 一 is the name — rendered "the Ichijō house"
+一条
+# the Momochi line of ninja (百地): the 百 is the name — rendered "Momochi"
+百地
+# okkū (億劫), "tiresome/a burden": the 億 is part of the word, no quantity
+億劫
+# double profit (二重どり): the 二 is "double", not a count — rendered "doubles/twofold"
+二重
+# the upper storey of a house (二階): the 二 is the floor, not a count — rendered "the upper storey"
+二階
+# a shinobi blade of 1 shaku 5 sun (欟一尺五寸): the value is carried in English as "a shaku and a half"
+一尺五寸

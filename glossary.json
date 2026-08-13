@@ -533,6 +533,75 @@
       "pinyin": "Senso",
       "status": "attested",
       "note": "宣祖 (Korean Sŏnjo, Japanese reading Senso), the reigning king of Chosŏn Korea (r. 1567–1608). The rumour that Yakurō was in league with his 'mother Hei' is Shiba's own baseless street-talk; footnoted."
+    },
+    "石田三成": {
+      "en": "Ishida Mitsunari",
+      "pinyin": "Ishida Mitsunari",
+      "status": "attested",
+      "note": "Ishida Mitsunari (1560-1600), Hideyoshi’s ablest administrator and one of the Five Commissioners; led the western coalition against Ieyasu and was defeated at Sekigahara. Appears here by his court title Jibu-no-shōyū."
+    },
+    "三成": {
+      "en": "Mitsunari",
+      "pinyin": "Mitsunari",
+      "status": "attested"
+    },
+    "清正": {
+      "en": "Kiyomasa",
+      "pinyin": "Kiyomasa",
+      "status": "attested",
+      "note": "Katō Kiyomasa; here by his title Higo-no-kami. Footnoted at first appearance in ch04."
+    },
+    "正則": {
+      "en": "Masanori",
+      "pinyin": "Masanori",
+      "status": "attested",
+      "note": "Fukushima Masanori, a smith’s son raised by Hideyoshi; named here only as a foil for Gen’i’s obscure birth."
+    },
+    "前川十郎左衛門": {
+      "en": "Maekawa Jūrōzaemon",
+      "pinyin": "Maekawa Jūrōzaemon",
+      "status": "provisional",
+      "note": "A squad-leader (kumigashira) of the Kyoto magistracy, Gohei’s immediate superior."
+    },
+    "十郎左衛門": {
+      "en": "Jūrōzaemon",
+      "pinyin": "Jūrōzaemon",
+      "status": "provisional"
+    },
+    "藤本安兵衛": {
+      "en": "Fujimoto Yasubei",
+      "pinyin": "Fujimoto Yasubei",
+      "status": "provisional",
+      "note": "A squad-leader of the Kyoto magistracy whose men gave chase at Yanagimachi."
+    },
+    "金森": {
+      "en": "Kanamori",
+      "pinyin": "Kanamori",
+      "status": "attested",
+      "note": "Kanamori Hida-no-kami Yoshishige (1558-1615), a tea-connoisseur daimyō; the collector whose mansion Gohei raids."
+    },
+    "春蟬": {
+      "en": "Haruzemi",
+      "pinyin": "Haruzemi",
+      "status": "provisional",
+      "note": "A courtesan of Yanagimachi; the informer Jūzō kills. Furigana はるぜみ."
+    },
+    "信忠": {
+      "en": "Nobutada",
+      "pinyin": "Nobutada",
+      "status": "attested",
+      "note": "Oda Nobutada, Nobunaga’s heir, who took his own life at Nijō castle during the Honnō-ji revolt."
+    },
+    "三法師": {
+      "en": "Sanbōshi",
+      "pinyin": "Sanbōshi",
+      "status": "attested",
+      "note": "Nobunaga’s infant grandson and legitimate heir, later Oda Hidenobu (Chūnagon of Gifu); Gen’i was charged to protect him."
+    },
+    "織田秀信": {
+      "en": "Oda Hidenobu",
+      "pinyin": "Oda Hidenobu",
+      "status": "attested"
     }
   },
   "places": {
@@ -1128,6 +1197,52 @@
       "pinyin": "Hōrai",
       "status": "attested",
       "note": "Hōrai (Chinese Penglai), the mythic island-mountain of the immortals; here evoked by the tower's shape. Footnoted."
+    },
+    "真葛ヶ原": {
+      "en": "Makuzugahara",
+      "pinyin": "Makuzugahara",
+      "status": "attested",
+      "note": "A moor at the western foot of Higashiyama, east of the capital, famed in poetry for its autumn bush-clover."
+    },
+    "東福寺": {
+      "en": "Tōfuku-ji",
+      "pinyin": "Tōfuku-ji",
+      "status": "attested"
+    },
+    "東寺": {
+      "en": "Tō-ji",
+      "pinyin": "Tō-ji",
+      "status": "attested"
+    },
+    "二条城": {
+      "en": "Nijō castle",
+      "pinyin": "Nijō",
+      "status": "attested"
+    },
+    "岐阜城": {
+      "en": "Gifu castle",
+      "pinyin": "Gifu",
+      "status": "attested"
+    },
+    "尾張": {
+      "en": "Owari",
+      "pinyin": "Owari",
+      "status": "attested"
+    },
+    "甲府": {
+      "en": "Kōfu",
+      "pinyin": "Kōfu",
+      "status": "attested"
+    },
+    "中村": {
+      "en": "Nakamura",
+      "pinyin": "Nakamura",
+      "status": "attested"
+    },
+    "大和小路": {
+      "en": "Yamato-kōji",
+      "pinyin": "Yamato-kōji",
+      "status": "attested"
     }
   },
   "terms": {
@@ -1286,6 +1401,12 @@
       "pinyin": "shinobi-kumade",
       "status": "attested",
       "note": "A collapsible climbing-rake of jointed bamboo on a hemp cord that stiffens into a pole; a ninja tool, described in the text."
+    },
+    "七方出": {
+      "en": "the Seven Forms",
+      "pinyin": "shichihōde",
+      "status": "decided",
+      "note": "The shinobi art of transforming into seven social types (monk, yamabushi, komūsō, mendicant conjuror, sarugaku player, merchant, ordinary man). Self-explained in the text."
     }
   }
 }
