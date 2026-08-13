@@ -1,0 +1,5 @@
+### Ronin of a Certain Country
+
+"Ronin" is just another name for a vagrant with no honest occupation. Yet, strange to say, the ronin's native soil lies for the most part in a certain country; and in case after case of lawbreaking cracked in Shanghai, there is always some ronin of that certain country at the bottom of the mischief. Forging banknotes, secretly printing the banned old-calendar almanac, casting counterfeit silver—and everything else besides: whenever our own countrymen turn to villainy and crime, a ronin of that certain country is likely to be mixed up in it. Ah! Ronin of a certain country—all the wickedness under heaven is worked in your good name.
+
+Or again, in the Shanghai war of the "January 28th," the ronin of a certain country were more active still: weapons in hand, they fanned out across the Hongkou district, seizing whatever they saw, striking whomever they met, and pawing at any woman who passed. Passersby might look daggers at them, but all so feared their savage fury that none dared take issue with them. Alas!

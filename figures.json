@@ -1,254 +1,254 @@
 {
-  "ch000": [
-    {
-      "file": "ch000_shikumen.png",
-      "before": "The condition of Shanghai society",
-      "alt": "A brick archway spanning a Shanghai lane, three roundels on it reading Ping'an Li, opening on a narrow stone-paved alley lined with old shikumen houses.",
-      "caption": "Old shikumen lane-houses of Shanghai. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch001": [
-    {
-      "file": "ch001_couplets.png",
-      "before": "It is twenty-four years now",
-      "alt": "A man on a doorstep pressing a diamond-set fortune character and red paper couplets onto a weathered wooden door.",
-      "caption": "Pasting up spring couplets. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
-    },
-    {
-      "file": "ch001_cleaning.png",
-      "before": "The lazy streak in the Chinese",
-      "alt": "An ink line-drawing of a woman in an apron reaching up with a long feather-duster to sweep the eaves of a shopfront while a child looks on; a cartouche reads Sweeping the Eaves-Dust.",
-      "caption": "The year-end cleaning. (The 2019 reprint's caption, given to a period line-drawing titled \"Sweeping the Eaves-Dust\" that its editor added; not a figure of the 1933 book.)"
-    },
-    {
-      "file": "ch001_newclothes.png",
-      "before": "Through the first days of the New Year, men and women",
-      "alt": "A laughing little girl in a red brocade jacket holding a candied-hawthorn stick and red envelopes beside a door bearing the character for spring.",
-      "caption": "In new clothes. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
-    },
-    {
-      "file": "ch001_firecrackers.png",
-      "before": "Close the shop and you let off",
-      "alt": "Fireworks and firecrackers throwing up sprays of sparks in a dark courtyard, with two figures silhouetted against the glare.",
-      "caption": "Setting off firecrackers. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch002": [
-    {
-      "file": "ch002_songjiaoren.png",
-      "before": "Mr. Song Jiaoren of Taoyuan",
-      "alt": "A studio portrait of a clean-shaven young man in a high-collared Western coat and tie, hair swept back.",
-      "caption": "Song Jiaoren. (Reprint caption: 'Song Jiaoren'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
-    },
-    {
-      "file": "ch002_yingguixin.png",
-      "before": "everyone knows them for Zhao Bingjun",
-      "alt": "A studio portrait of a mustached man in an embroidered silk mandarin gown with a round dragon roundel.",
-      "caption": "Ying Guixin, the go-between in the plot. (Reprint caption: 'Ying Guixin'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
-    },
-    {
-      "file": "ch002_hongshuzu.png",
-      "before": "Earlier, after Mr. Song had declined",
-      "alt": "A drawn portrait of a balding man in wire-rimmed spectacles, wing collar and cravat.",
-      "caption": "Hong Shuzu, who relayed the orders. (Reprint caption: 'Hong Shuzu'. An image added by the 2019 editor, not a figure of the 1933 book.)"
-    },
-    {
-      "file": "ch002_zhaobingjun.png",
-      "before": "At that time Cheng Dequan",
-      "alt": "A studio portrait of a heavyset man with a small mustache in a dark Chinese gown, a landscape backdrop behind.",
-      "caption": "Zhao Bingjun, Yuan's premier and the case's named principal. (Reprint caption: 'Zhao Bingjun'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch003": [
-    {
-      "file": "ch003_daijitao.png",
-      "before": "Mr. Dai Jitao, President of the Examination Yuan",
-      "alt": "A studio portrait of a man with a small mustache in a pale high-collared Chinese jacket.",
-      "caption": "Dai Jitao. (Reprint caption: 'Dai Jitao'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch005": [
-    {
-      "file": "ch005_zhangtaiyan.png",
-      "before": "Cai Yuanpei, Wu Zhihui, Zhang Taiyan",
-      "alt": "A portrait of a broad-faced man with short hair and a level gaze, in a dark collared jacket.",
-      "caption": "Zhang Taiyan. (Reprint caption: 'Zhang Taiyan'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch006": [
-    {
-      "file": "ch006_kangyouwei.png",
-      "before": "In the Wuxu coup at the close",
-      "alt": "A full-length studio portrait of a bearded elderly man in a silk gown, standing before a flowered backdrop.",
-      "caption": "Kang Youwei. (Reprint caption: 'Kang Youwei'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch010": [
-    {
-      "file": "ch010_libailiu.png",
-      "before": "Among these, one hundred titles",
-      "alt": "A magazine cover, a line drawing of a bobbed-haired young woman resting her chin on her hand over a closed book, lettered 'The Saturday, No. 122'.",
-      "caption": "A cover of the fiction weekly Libai Liu (The Saturday). (Reprint illustration added by the 2019 editor, not a figure of the 1933 book.)"
-    },
-    {
-      "file": "ch010_shenghuo.png",
-      "before": "Speaking of all these many magazines",
-      "alt": "The front page of a tabloid-format weekly with the masthead character-title 'Shenghuo' set in a decorative border.",
-      "caption": "Zou Taofen's Shenghuo (Life) Weekly. (Reprint illustration added by the 2019 editor, not a figure of the 1933 book.)"
-    },
-    {
-      "file": "ch010_shiritan.png",
-      "before": "As for how often they come out",
-      "alt": "A magazine cover with a bold title 'Shiritan' above a crowded allegorical drawing, lettered 'Decameron No. 35'.",
-      "caption": "Shao Xunmei's Shiritan (Decameron). (Reprint illustration added by the 2019 editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch012": [
-    {
-      "file": "ch012_fuzhoulu.png",
-      "before": "The middle stretch of Fuzhou Road",
-      "alt": "A street photograph of a busy multi-story corner building with shop signboards and pedestrians, in old Shanghai.",
-      "caption": "Bookshops on Fuzhou Road, old Shanghai. (Reprint caption: 'Old Shanghai, Fuzhou Road bookshops'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch013": [
-    {
-      "file": "ch013_chunliu.png",
-      "before": "The new drama (that is, spoken drama",
-      "alt": "An ink cartoon of a knot of young men before a large painted playbill that shows two faces and reads, in Chinese and Japanese, 'Chunliu Society' and 'Camille'.",
-      "caption": "A cartoon of the Chunliu Society's benefit performance in Japan (the playbill names Camille). (Reprint caption: 'A cartoon concerning the Chunliu Society's charity performance in Japan'. Added by the 2019 editor, not a figure of the 1933 book.)"
-    },
-    {
-      "file": "ch013_zhengzhengqiu.png",
-      "before": "Then Mr. Zheng Zhengqiu",
-      "alt": "A studio portrait of a man in round spectacles and a Chinese gown, hair brushed back.",
-      "caption": "Zheng Zhengqiu. (Reprint caption: 'Zheng Zhengqiu'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch037": [
-    {
-      "file": "ch037_chaizizhan.png",
-      "before": "When it comes to character-splitting",
-      "alt": "An old black-and-white photograph of a bearded fortune-teller seated behind a cloth-draped table on a Shanghai street; the cloth bears columns of white characters and a large yin-yang and eight-trigrams emblem, with a teapot and cups on the table.",
-      "caption": "A character-splitting stall in old Shanghai. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch052": [
-    {
-      "file": "ch052_weichunyuan.png",
-      "before": "Zhang's Garden, otherwise called the Weiyuan",
-      "alt": "An old black-and-white photograph of a tall Western-style mansion with a campanile tower rising above a lush garden of willows and shrubs; this is Arcadia Hall in Zhang's Garden.",
-      "caption": "The Weiyuan (Zhang's Garden), with Arcadia Hall rising behind the trees. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch053": [
-    {
-      "file": "ch053_huangchujiu.png",
-      "before": "The late Huang Chujiu was the founding father",
-      "alt": "A studio portrait of a middle-aged man in a round satin cap and a dark embroidered silk gown, seated and facing the camera.",
-      "caption": "Huang Chujiu. (Reprint caption: 'Huang Chujiu'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch056": [
-    {
-      "file": "ch056_garden_bridge.png",
-      "before": "In the opening years of the Xianfeng reign",
-      "alt": "An aerial photograph looking down the Bund: in the foreground the steel-truss Garden Bridge crosses the mouth of Suzhou Creek, with the lawns of the Public Garden beside it; the Huangpu beyond is crowded with junks and steam launches, and the tall buildings of the Bund line the right-hand shore.",
-      "caption": "The Garden Bridge and the Bund, Shanghai, from above. (Reprint caption: 'Garden Bridge on the Bund, Shanghai'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch063": [
-    {
-      "file": "ch063_tiger_stove.png",
-      "before": "The tiger stove is a little shop",
-      "alt": "A woman at a tiled tiger-stove counter fills a customer's tall enamel thermos flask from a boiler; a queue of people wait behind her, each holding a vacuum flask.",
-      "caption": "A tiger stove supplying hot water, its customers filling their flasks. (Reprint caption: 'A tiger stove, for hot water only'. A later documentary photograph added by the 2019 editor, not a figure of the 1933 book.)"
-    }
-  ],
-  "ch072": [
-    {
-      "file": "ch072_wuzhihui.png",
-      "before": "Not long ago old Mr. Wu Zhihui",
-      "alt": "A studio portrait of an elderly man with a bald crown, a wispy white moustache and goatee, in a dark Chinese gown, smiling faintly.",
-      "caption": "Wu Zhihui. (A portrait added by the 2019 editor; the label is the reprint's.)"
-    },
-    {
-      "file": "ch072_rongzongjing.png",
-      "before": "Not long ago old Mr. Wu Zhihui",
-      "alt": "A studio portrait of a stern middle-aged man with a shaved head and heavy brows, in a dark Chinese gown.",
-      "caption": "Rong Zongjing. (A portrait added by the 2019 editor; the label is the reprint's.)"
-    }
-  ],
-  "ch088": [
-    {
-      "file": "ch088_shengxuanhuai.png",
-      "before": "In former days both Sheng Xingsun",
-      "alt": "A painted portrait of an elderly Qing official in a round black cap and dark gown, with a thin grey beard.",
-      "caption": "Sheng Xuanhuai (courtesy name Xingsun). (A portrait added by the 2019 editor; the label is the reprint's.)"
-    },
-    {
-      "file": "ch088_zhubaosan_tomb.png",
-      "before": "In former days both Sheng Xingsun",
-      "alt": "A hillside grave: a tall black headstone carved 'Tomb of Mr. Zhu Baosan' beside a low stone wall with an inscribed tablet and a stone bench.",
-      "caption": "The tomb of Zhu Baosan. (A photograph added by the 2019 editor; the label is the reprint's.)"
-    },
-    {
-      "file": "ch088_zhubaosan_road.png",
-      "before": "In former days both Sheng Xingsun",
-      "alt": "A night street scene: foreign military police and sailors standing beside a bilingual street sign reading RUE CHU-PAO-SAN and, in Chinese, Zhu Baosan Road.",
-      "caption": "Rue Chu-Pao-San, the French Concession street named for Zhu Baosan. (A photograph added by the 2019 editor; the label is the reprint's.)"
-    }
-  ],
-  "ch096": [
-    {
-      "file": "ch096_wonton_fengzikai.png",
-      "before": "There are two kinds of carrying-pole",
-      "alt": "A brush cartoon of a wonton peddler bending under a shoulder-pole, a low stove and basket slung at one end and a cabinet of little drawers at the other.",
-      "caption": "The Wonton Carrying-Pole, a brush cartoon by the artist Feng Zikai (1898&#8211;1975), signed with his studio-name and his mark &#8216;TK.&#8217; (An illustration added by the 2019 editor; not a figure of the 1933 book.)"
-    }
-  ],
-  "ch098": [
-    {
-      "file": "ch098_clothier_stall.png",
-      "before": "For the people who live in Shanghai",
-      "alt": "A tailor sits working at a cloth-covered table against a brick wall; a tall hanging banner beside him is lettered as a Su-Guang ready-made clothier.",
-      "caption": "A Su-Guang ready-made clothier&#8217;s street pitch, the banner reading &#8216;Zhang&#8217;s Su-Guang Ready-Made Clothier.&#8217; (A photograph added by the 2019 editor; the label is the reprint&#8217;s.)"
-    }
-  ],
-  "ch099": [
-    {
-      "file": "ch099_bookmarket.png",
-      "before": "In the City God Temple",
-      "alt": "A crowded temple courtyard where buyers in winter coats bend over long tables heaped with secondhand books.",
-      "caption": "The secondhand-book market in the courtyard of the City God Temple, a recent photograph. (Added by the 2019 editor; not a figure of the 1933 book.)"
-    }
-  ],
-  "ch100": [
-    {
-      "file": "ch100_theatre_boxes.png",
-      "before": "The third-floor boxes of a theater",
-      "alt": "The interior of a traditional Chinese theater: tiers of carved wooden balcony boxes above rows of stalls seating.",
-      "caption": "The boxes of a traditional theater. (A photograph added by the 2019 editor; the label is the reprint&#8217;s.)"
-    }
-  ],
-  "ch114": [
-    {
-      "file": "ch114_yan_wang_portraits.png",
-      "before": "In the summer of the eleventh year",
-      "alt": "Two oval studio portraits reproduced from a 1920 newspaper: at right a young man in a dark jacket; at left a young woman in dark dress, her hands folded before her.",
-      "caption": "Yan Ruisheng and Wang Lianying. The captions within the news photograph read, at right, 'the principal criminal in the murder for money, Yan Ruisheng,' and at left, 'former Premier of the Flower Kingdom, Wang Lianying.' Reproduced by the 2019 editor."
-    },
-    {
-      "file": "ch114_shenbao_ad.png",
-      "before": "In the summer of the eleventh year",
-      "alt": "A dense 1920 newspaper advertisement headed in large characters The Record of Lianying's Murder, promoting a book on the case, with a cartoon of a top-hatted foreigner astride a globe.",
-      "caption": "The Shanghai Shenbao of 2 July 1920 carrying an advertisement for the book The Record of Lianying's Murder. Reproduced by the 2019 editor; the date confirms that the case belongs to 1920, not to 1922 as the text has it."
-    },
-    {
-      "file": "ch114_yanruisheng_playbill.png",
-      "before": "The verdict proper and the reasons",
-      "alt": "A 1920 theatre playbill whose central illustration shows two constables marching off a bound prisoner, beside very large characters reading Yan Ruisheng and, below, Murder for Money.",
-      "caption": "A playbill for the New Stage advertising its topical drama on the Yan Ruisheng case. Reproduced by the 2019 editor."
-    }
-  ]
+ "ch000": [
+  {
+   "file": "ch000_shikumen.png",
+   "before": "The condition of Shanghai society",
+   "alt": "A brick archway spanning a Shanghai lane, three roundels on it reading Ping'an Li, opening on a narrow stone-paved alley lined with old shikumen houses.",
+   "caption": "Old shikumen lane-houses of Shanghai. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch001": [
+  {
+   "file": "ch001_couplets.png",
+   "before": "It is twenty-four years now",
+   "alt": "A man on a doorstep pressing a diamond-set fortune character and red paper couplets onto a weathered wooden door.",
+   "caption": "Pasting up spring couplets. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
+  },
+  {
+   "file": "ch001_cleaning.png",
+   "before": "The lazy streak in the Chinese",
+   "alt": "An ink line-drawing of a woman in an apron reaching up with a long feather-duster to sweep the eaves of a shopfront while a child looks on; a cartouche reads Sweeping the Eaves-Dust.",
+   "caption": "The year-end cleaning. (The 2019 reprint's caption, given to a period line-drawing titled \"Sweeping the Eaves-Dust\" that its editor added; not a figure of the 1933 book.)"
+  },
+  {
+   "file": "ch001_newclothes.png",
+   "before": "Through the first days of the New Year, men and women",
+   "alt": "A laughing little girl in a red brocade jacket holding a candied-hawthorn stick and red envelopes beside a door bearing the character for spring.",
+   "caption": "In new clothes. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
+  },
+  {
+   "file": "ch001_firecrackers.png",
+   "before": "Close the shop and you let off",
+   "alt": "Fireworks and firecrackers throwing up sprays of sparks in a dark courtyard, with two figures silhouetted against the glare.",
+   "caption": "Setting off firecrackers. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch002": [
+  {
+   "file": "ch002_songjiaoren.png",
+   "before": "Mr. Song Jiaoren of Taoyuan",
+   "alt": "A studio portrait of a clean-shaven young man in a high-collared Western coat and tie, hair swept back.",
+   "caption": "Song Jiaoren. (Reprint caption: 'Song Jiaoren'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+  },
+  {
+   "file": "ch002_yingguixin.png",
+   "before": "everyone knows them for Zhao Bingjun",
+   "alt": "A studio portrait of a mustached man in an embroidered silk mandarin gown with a round dragon roundel.",
+   "caption": "Ying Guixin, the go-between in the plot. (Reprint caption: 'Ying Guixin'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+  },
+  {
+   "file": "ch002_hongshuzu.png",
+   "before": "Earlier, after Mr. Song had declined",
+   "alt": "A drawn portrait of a balding man in wire-rimmed spectacles, wing collar and cravat.",
+   "caption": "Hong Shuzu, who relayed the orders. (Reprint caption: 'Hong Shuzu'. An image added by the 2019 editor, not a figure of the 1933 book.)"
+  },
+  {
+   "file": "ch002_zhaobingjun.png",
+   "before": "At that time Cheng Dequan",
+   "alt": "A studio portrait of a heavyset man with a small mustache in a dark Chinese gown, a landscape backdrop behind.",
+   "caption": "Zhao Bingjun, Yuan's premier and the case's named principal. (Reprint caption: 'Zhao Bingjun'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch003": [
+  {
+   "file": "ch003_daijitao.png",
+   "before": "Mr. Dai Jitao, President of the Examination Yuan",
+   "alt": "A studio portrait of a man with a small mustache in a pale high-collared Chinese jacket.",
+   "caption": "Dai Jitao. (Reprint caption: 'Dai Jitao'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch005": [
+  {
+   "file": "ch005_zhangtaiyan.png",
+   "before": "Cai Yuanpei, Wu Zhihui, Zhang Taiyan",
+   "alt": "A portrait of a broad-faced man with short hair and a level gaze, in a dark collared jacket.",
+   "caption": "Zhang Taiyan. (Reprint caption: 'Zhang Taiyan'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch006": [
+  {
+   "file": "ch006_kangyouwei.png",
+   "before": "In the Wuxu coup at the close",
+   "alt": "A full-length studio portrait of a bearded elderly man in a silk gown, standing before a flowered backdrop.",
+   "caption": "Kang Youwei. (Reprint caption: 'Kang Youwei'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch010": [
+  {
+   "file": "ch010_libailiu.png",
+   "before": "Among these, one hundred titles",
+   "alt": "A magazine cover, a line drawing of a bobbed-haired young woman resting her chin on her hand over a closed book, lettered 'The Saturday, No. 122'.",
+   "caption": "A cover of the fiction weekly Libai Liu (The Saturday). (Reprint illustration added by the 2019 editor, not a figure of the 1933 book.)"
+  },
+  {
+   "file": "ch010_shenghuo.png",
+   "before": "Speaking of all these many magazines",
+   "alt": "The front page of a tabloid-format weekly with the masthead character-title 'Shenghuo' set in a decorative border.",
+   "caption": "Zou Taofen's Shenghuo (Life) Weekly. (Reprint illustration added by the 2019 editor, not a figure of the 1933 book.)"
+  },
+  {
+   "file": "ch010_shiritan.png",
+   "before": "As for how often they come out",
+   "alt": "A magazine cover with a bold title 'Shiritan' above a crowded allegorical drawing, lettered 'Decameron No. 35'.",
+   "caption": "Shao Xunmei's Shiritan (Decameron). (Reprint illustration added by the 2019 editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch012": [
+  {
+   "file": "ch012_fuzhoulu.png",
+   "before": "The middle stretch of Fuzhou Road",
+   "alt": "A street photograph of a busy multi-story corner building with shop signboards and pedestrians, in old Shanghai.",
+   "caption": "Bookshops on Fuzhou Road, old Shanghai. (Reprint caption: 'Old Shanghai, Fuzhou Road bookshops'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch013": [
+  {
+   "file": "ch013_chunliu.png",
+   "before": "The new drama (that is, spoken drama",
+   "alt": "An ink cartoon of a knot of young men before a large painted playbill that shows two faces and reads, in Chinese and Japanese, 'Chunliu Society' and 'Camille'.",
+   "caption": "A cartoon of the Chunliu Society's benefit performance in Japan (the playbill names Camille). (Reprint caption: 'A cartoon concerning the Chunliu Society's charity performance in Japan'. Added by the 2019 editor, not a figure of the 1933 book.)"
+  },
+  {
+   "file": "ch013_zhengzhengqiu.png",
+   "before": "Then Mr. Zheng Zhengqiu",
+   "alt": "A studio portrait of a man in round spectacles and a Chinese gown, hair brushed back.",
+   "caption": "Zheng Zhengqiu. (Reprint caption: 'Zheng Zhengqiu'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch037": [
+  {
+   "file": "ch037_chaizizhan.png",
+   "before": "When it comes to character-splitting",
+   "alt": "An old black-and-white photograph of a bearded fortune-teller seated behind a cloth-draped table on a Shanghai street; the cloth bears columns of white characters and a large yin-yang and eight-trigrams emblem, with a teapot and cups on the table.",
+   "caption": "A character-splitting stall in old Shanghai. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch052": [
+  {
+   "file": "ch052_weichunyuan.png",
+   "before": "Zhang's Garden, otherwise called the Weiyuan",
+   "alt": "An old black-and-white photograph of a tall Western-style mansion with a campanile tower rising above a lush garden of willows and shrubs; this is Arcadia Hall in Zhang's Garden.",
+   "caption": "The Weiyuan (Zhang's Garden), with Arcadia Hall rising behind the trees. (The 2019 reprint's caption; a photograph added by its editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch053": [
+  {
+   "file": "ch053_huangchujiu.png",
+   "before": "The late Huang Chujiu was the founding father",
+   "alt": "A studio portrait of a middle-aged man in a round satin cap and a dark embroidered silk gown, seated and facing the camera.",
+   "caption": "Huang Chujiu. (Reprint caption: 'Huang Chujiu'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch056": [
+  {
+   "file": "ch056_garden_bridge.png",
+   "before": "In the opening years of the Xianfeng reign",
+   "alt": "An aerial photograph looking down the Bund: in the foreground the steel-truss Garden Bridge crosses the mouth of Suzhou Creek, with the lawns of the Public Garden beside it; the Huangpu beyond is crowded with junks and steam launches, and the tall buildings of the Bund line the right-hand shore.",
+   "caption": "The Garden Bridge and the Bund, Shanghai, from above. (Reprint caption: 'Garden Bridge on the Bund, Shanghai'. A photograph added by the 2019 editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch063": [
+  {
+   "file": "ch063_tiger_stove.png",
+   "before": "The tiger stove is a little shop",
+   "alt": "A woman at a tiled tiger-stove counter fills a customer's tall enamel thermos flask from a boiler; a queue of people wait behind her, each holding a vacuum flask.",
+   "caption": "A tiger stove supplying hot water, its customers filling their flasks. (Reprint caption: 'A tiger stove, for hot water only'. A later documentary photograph added by the 2019 editor, not a figure of the 1933 book.)"
+  }
+ ],
+ "ch072": [
+  {
+   "file": "ch072_wuzhihui.png",
+   "before": "Not long ago old Mr. Wu Zhihui",
+   "alt": "A studio portrait of an elderly man with a bald crown, a wispy white moustache and goatee, in a dark Chinese gown, smiling faintly.",
+   "caption": "Wu Zhihui. (A portrait added by the 2019 editor; the label is the reprint's.)"
+  },
+  {
+   "file": "ch072_rongzongjing.png",
+   "before": "Not long ago old Mr. Wu Zhihui",
+   "alt": "A studio portrait of a stern middle-aged man with a shaved head and heavy brows, in a dark Chinese gown.",
+   "caption": "Rong Zongjing. (A portrait added by the 2019 editor; the label is the reprint's.)"
+  }
+ ],
+ "ch088": [
+  {
+   "file": "ch088_shengxuanhuai.png",
+   "before": "In former days both Sheng Xingsun",
+   "alt": "A painted portrait of an elderly Qing official in a round black cap and dark gown, with a thin grey beard.",
+   "caption": "Sheng Xuanhuai (courtesy name Xingsun). (A portrait added by the 2019 editor; the label is the reprint's.)"
+  },
+  {
+   "file": "ch088_zhubaosan_tomb.png",
+   "before": "In former days both Sheng Xingsun",
+   "alt": "A hillside grave: a tall black headstone carved 'Tomb of Mr. Zhu Baosan' beside a low stone wall with an inscribed tablet and a stone bench.",
+   "caption": "The tomb of Zhu Baosan. (A photograph added by the 2019 editor; the label is the reprint's.)"
+  },
+  {
+   "file": "ch088_zhubaosan_road.png",
+   "before": "In former days both Sheng Xingsun",
+   "alt": "A night street scene: foreign military police and sailors standing beside a bilingual street sign reading RUE CHU-PAO-SAN and, in Chinese, Zhu Baosan Road.",
+   "caption": "Rue Chu-Pao-San, the French Concession street named for Zhu Baosan. (A photograph added by the 2019 editor; the label is the reprint's.)"
+  }
+ ],
+ "ch096": [
+  {
+   "file": "ch096_wonton_fengzikai.png",
+   "before": "There are two kinds of carrying-pole",
+   "alt": "A brush cartoon of a wonton peddler bending under a shoulder-pole, a low stove and basket slung at one end and a cabinet of little drawers at the other.",
+   "caption": "The Wonton Carrying-Pole, a brush cartoon by the artist Feng Zikai (1898&#8211;1975), signed with his studio-name and his mark &#8216;TK.&#8217; (An illustration added by the 2019 editor; not a figure of the 1933 book.)"
+  }
+ ],
+ "ch098": [
+  {
+   "file": "ch098_clothier_stall.png",
+   "before": "For the people who live in Shanghai",
+   "alt": "A tailor sits working at a cloth-covered table against a brick wall; a tall hanging banner beside him is lettered as a Su-Guang ready-made clothier.",
+   "caption": "A Su-Guang ready-made clothier&#8217;s street pitch, the banner reading &#8216;Zhang&#8217;s Su-Guang Ready-Made Clothier.&#8217; (A photograph added by the 2019 editor; the label is the reprint&#8217;s.)"
+  }
+ ],
+ "ch099": [
+  {
+   "file": "ch099_bookmarket.png",
+   "before": "In the City God Temple",
+   "alt": "A crowded temple courtyard where buyers in winter coats bend over long tables heaped with secondhand books.",
+   "caption": "The secondhand-book market in the courtyard of the City God Temple, a recent photograph. (Added by the 2019 editor; not a figure of the 1933 book.)"
+  }
+ ],
+ "ch100": [
+  {
+   "file": "ch100_theatre_boxes.png",
+   "before": "The third-floor boxes of a theatre",
+   "alt": "The interior of a traditional Chinese theatre: tiers of carved wooden balcony boxes above rows of stalls seating.",
+   "caption": "The boxes of a traditional theatre. (A photograph added by the 2019 editor; the label is the reprint&#8217;s.)"
+  }
+ ],
+ "ch114": [
+  {
+   "file": "ch114_yan_wang_portraits.png",
+   "before": "In the summer of the eleventh year",
+   "alt": "Two oval studio portraits reproduced from a 1920 newspaper: at right a young man in a dark jacket; at left a young woman in dark dress, her hands folded before her.",
+   "caption": "Yan Ruisheng and Wang Lianying. The captions within the news photograph read, at right, 'the principal criminal in the murder for money, Yan Ruisheng,' and at left, 'former Premier of the Flower Kingdom, Wang Lianying.' Reproduced by the 2019 editor."
+  },
+  {
+   "file": "ch114_shenbao_ad.png",
+   "before": "In the summer of the eleventh year",
+   "alt": "A dense 1920 newspaper advertisement headed in large characters The Record of Lianying's Murder, promoting a book on the case, with a cartoon of a top-hatted foreigner astride a globe.",
+   "caption": "The Shanghai Shenbao of 2 July 1920 carrying an advertisement for the book The Record of Lianying's Murder. Reproduced by the 2019 editor; the date confirms that the case belongs to 1920, not to 1922 as the text has it."
+  },
+  {
+   "file": "ch114_yanruisheng_playbill.png",
+   "before": "The verdict proper and the reasons",
+   "alt": "A 1920 theatre playbill whose central illustration shows two constables marching off a bound prisoner, beside very large characters reading Yan Ruisheng and, below, Murder for Money.",
+   "caption": "A playbill for the New Stage advertising its topical drama on the Yan Ruisheng case. Reproduced by the 2019 editor."
+  }
+ ]
 }

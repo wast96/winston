@@ -1,0 +1,72 @@
+{
+  "glossary": {
+    "浪人": {"en": "ronin", "pinyin": "langren", "status": "decided", "section": "terms", "note": "<i>Langren</i> renders the Japanese <i>r&#333;nin</i>, a masterless samurai; by extension a rootless adventurer or tough. In these essays it means Japanese hoodlums and adventurers in the treaty ports."},
+    "空頭支票": {"en": "rubber check", "pinyin": "kongtou zhipiao", "status": "decided", "section": "terms", "note": "Literally an &#8220;empty-head check&#8221;: a check drawn on an account with no funds to cover it. The modern English idiom carries the sense."},
+    "本票": {"en": "cashier's note", "pinyin": "benpiao", "status": "decided", "section": "terms", "note": "A note a native bank (<i>qianzhuang</i>) issues drawn on itself, as against a depositor&#8217;s check drawn on his own account."},
+    "角子": {"en": "jiao piece", "pinyin": "jiaozi", "status": "decided", "section": "terms", "note": "The Shanghai word for the small silver subsidiary coins&#8212;the ten-cent and twenty-cent pieces, a tenth and a fifth of a dollar."},
+    "陳長庚": {"en": "Chen Changgeng", "pinyin": "Ch&#233;n Ch&#225;nggeng", "status": "provisional", "section": "people", "note": "An actress of the Shanghai all-girl opera houses, as the author names her."},
+    "紅菊花": {"en": "Hong Juhua", "pinyin": "H&#243;ng J&#250;hu&#257;", "status": "provisional", "section": "people", "note": "An actress of the all-girl opera houses; the stage name means &#8220;Red Chrysanthemum.&#8221;"},
+    "恩曉峰": {"en": "En Xiaofeng", "pinyin": "&#274;n Xi&#462;of&#275;ng", "status": "attested", "section": "people", "note": "En Xiaofeng (1887&#8211;1949), a Manchu of Beijing and one of the celebrated female <i>laosheng</i> (bearded-old-man-role) singers of Peking opera&#8217;s early all-women stage."},
+    "張文奎": {"en": "Zhang Wenkui", "pinyin": "Zh&#257;ng W&#233;nku&#237;", "status": "provisional", "section": "people", "note": "An actress of the Dangui all-girl house, as the author names her."},
+    "張文豔": {"en": "Zhang Wenyan", "pinyin": "Zh&#257;ng W&#233;ny&#224;n", "status": "provisional", "section": "people", "note": "An actress of the Dangui all-girl house, as the author names her."},
+    "白玉梅": {"en": "Bai Yumei", "pinyin": "B&#225;i Y&#249;m&#233;i", "status": "provisional", "section": "people", "note": "An actress of the Dangui all-girl house, as the author names her."},
+    "張少泉": {"en": "Zhang Shaoquan", "pinyin": "Zh&#257;ng Sh&#224;oqu&#225;n", "status": "provisional", "section": "people", "note": "An actress of the Dangui all-girl house, as the author names her."},
+    "牛桂芬": {"en": "Niu Guifen", "pinyin": "Ni&#250; Gu&#236;f&#275;n", "status": "provisional", "section": "people", "note": "An actress of the Dangui all-girl house, as the author names her."},
+    "胡家宅": {"en": "Hujiazhai", "pinyin": "H&#250;ji&#257;zh&#225;i", "status": "provisional", "section": "places", "note": "A locality off Fourth Avenue (Fuzhou Road) in the Settlement, as the author places it."},
+    "寶善街": {"en": "Baoshan Street", "pinyin": "B&#462;osh&#224;n Ji&#275;", "status": "attested", "section": "places", "note": "An old entertainment street in the Settlement, near Fourth Avenue."},
+    "大新街": {"en": "Daxin Street", "pinyin": "D&#224;x&#299;n Ji&#275;", "status": "attested", "section": "places", "note": "A street in the old Shanghai amusement quarter."},
+    "寧波路": {"en": "Ningbo Road", "pinyin": "N&#237;ngb&#333; L&#249;", "status": "attested", "section": "places", "note": "An east-west street of the International Settlement."},
+    "天津路": {"en": "Tianjin Road", "pinyin": "Ti&#257;nj&#299;n L&#249;", "status": "attested", "section": "places", "note": "An east-west street of the International Settlement, parallel to Ningbo Road."},
+    "妙舞臺": {"en": "Miao Wutai", "pinyin": "Mi&#224;o W&#468;t&#225;i", "status": "provisional", "section": "organizations", "note": "An all-girl theater in Nanshi, on the old site of the New Stage."},
+    "大富貴": {"en": "Dafugui", "pinyin": "D&#224;f&#249;gu&#236;", "status": "provisional", "section": "organizations", "note": "An all-girl theater on Daxin Street; the name means &#8220;Great Wealth and Rank.&#8221;"},
+    "丹桂": {"en": "the Dangui", "pinyin": "D&#257;ngu&#236;", "status": "provisional", "section": "organizations", "note": "An all-girl theater on Baoshan Street named here; a celebrated Dangui First Stage (丹桂第一台) on Fuzhou Road appears earlier in the book, and the two houses shared the name."}
+  },
+  "notes": {
+    "ch156": [
+      {"anchor": "a way of owning the fault and clearing away the quarrel", "note": "A face-saving reconciliation ritual: the party in the wrong is sent by a go-between to burn incense and candles (and sometimes let off a string of firecrackers) at the house or shop of the party he has offended, as a public admission of fault that closes the quarrel."}
+    ],
+    "ch157": [
+      {"anchor": "another name for a vagrant with no honest occupation", "note": "<i>Langren</i> renders the Japanese <i>r&#333;nin</i>, a masterless samurai; by extension a rootless adventurer or tough. Here it means the Japanese hoodlums and adventurers who congregated in the treaty ports."},
+      {"anchor": "the ronin's native soil lies for the most part in a certain country", "note": "&#8220;A certain country&#8221; (某國) is the author&#8217;s euphemism for Japan. The reprint prints the phrase in full rather than blanking it as &#215;&#215;; two essays on, in &#8220;Counterfeit Banknotes,&#8221; he drops the veil and names 日本 (Japan) outright."},
+      {"anchor": "secretly printing the banned old-calendar almanac", "note": "Under the Republic the government promoted the Western (Gregorian) calendar and restricted the old lunar almanac (舊曆/通書); printing it was an offense, so a black-market trade in the banned almanac grew up. On the calendar politics see the notes at the New-Year essay and the fortune-teller&#8217;s almanac."},
+      {"anchor": "were more active still", "note": "The &#8220;January 28th&#8221; (一二八) is the Shanghai Incident of 28 January 1932, when Japanese forces attacked Zhabei and the districts north of the Settlement; the Chinese 19th Route Army resisted for over a month before withdrawing in March. <i>Hongkou</i>, named just below, was the de facto Japanese quarter of Shanghai (see the earlier notes on Hongkou). Corroborated by the standard histories."}
+    ],
+    "ch158": [
+      {"anchor": "no one knows the sense of it", "note": "The inversion recalls the New-Year custom of pasting the character 福 (&#8220;fortune&#8221;) upside down, a pun on <i>dao</i> (倒, &#8220;upside down&#8221;) and <i>dao</i> (到, &#8220;to arrive&#8221;), so that &#8220;fortune upside down&#8221; reads &#8220;fortune arrives.&#8221; What an inverted 火 (&#8220;fire&#8221;) was meant to signify is obscure; the author records the puzzle rather than inventing an answer."}
+    ],
+    "ch159": [
+      {"anchor": "do not really mean that a tree will bloom", "note": "<i>Shu shang kai hua</i>, &#8220;flowers on the tree,&#8221; is one of the classic Thirty-Six Stratagems (三十六計), the art of making a paltry force look imposing by borrowed display. In Shanghai cant it was borrowed for the contingency-fee arrangement described here, where the doer of a job is paid only out of the winnings."}
+    ],
+    "ch160": [
+      {"anchor": "such contraband as raw opium, opium pellets, morphine, or huahui lottery slips", "note": "<i>Yantu</i> (raw opium), <i>yanpao</i> (prepared opium pellets ready for the pipe), and <i>mafei</i> (morphine) are graduated forms of the drug; <i>huahui</i> slips are betting tickets for the huahui lottery (glossed earlier). On the opium and morphine trade see the earlier notes."}
+    ],
+    "ch161": [
+      {"anchor": "writing out rubber checks by the score to work their swindles", "note": "A &#8220;rubber check&#8221; renders <i>kongtou zhipiao</i>, literally an &#8220;empty-head check&#8221;&#8212;one drawn on an account with no funds to cover it. The modern English idiom carries the sense."},
+      {"anchor": "the note a native bank draws on itself is called a cashier's note", "note": "A <i>benpiao</i> (cashier&#8217;s note, or promissory note) is a note a native bank issues drawn on itself, as against a depositor&#8217;s check drawn on his own account; a forged one is put out by a sham bank with nothing behind it."},
+      {"anchor": "a native bank run on the Empty-Fort ploy", "note": "The Empty-Fort ploy (空城計): Zhuge Liang&#8217;s ruse of flinging open the gates of an undefended city to bluff a wary enemy into retreat&#8212;all imposing front and no substance. See the fuller note where the stratagem first appears."}
+    ],
+    "ch162": [
+      {"anchor": "nine in ten have had a Japanese ronin playing a leading part within", "note": "Here the author names 日本浪人 (Japanese ronin) outright, dropping the &#8220;a certain country&#8221; (某國) euphemism he used two essays earlier; the barb about &#8220;good-neighborliness and benevolence&#8221; mocks Japan&#8217;s professed friendship toward China."},
+      {"anchor": "the subsidiary-currency notes put out by the central banks", "note": "<i>Fubi</i> is subsidiary or fractional currency&#8212;the small denominations below the dollar; the &#8220;jiao notes&#8221; (角票) are paper notes for tenths of a dollar. See the following essays on counterfeit small coin."}
+    ],
+    "ch163": [
+      {"anchor": "one must lose the agio besides", "note": "<i>Tieshui</i>, the agio: the make-weight premium charged when exchanging coin of light or doubtful weight for full-value money, so that an underweight dollar fetches less than its face."}
+    ],
+    "ch164": [
+      {"anchor": "the Shanghai people call it", "note": "<i>Jiaozi</i>, &#8220;jiao pieces,&#8221; is the Shanghai word for the small silver subsidiary coins&#8212;the ten-cent and twenty-cent pieces, a tenth and a fifth of a dollar. On the money system see the earlier notes."},
+      {"anchor": "greedy, never-satisfied tobacco-and-paper shops", "note": "A <i>yanzhi dian</i>, &#8220;tobacco-and-paper shop,&#8221; is the ubiquitous little Shanghai sundries shop selling cigarettes, joss paper, matches, stationery and small change&#8212;a natural clearing-house for coin, good or bad."}
+    ],
+    "ch165": [
+      {"anchor": "a real connoisseur, an expert in bronze and stone", "note": "<i>Jinshi</i>, &#8220;metal and stone,&#8221; is the study of ancient inscriptions on bronze vessels and stone stelae&#8212;the epigrapher&#8217;s connoisseurship by which old seals, scripts and papers are authenticated."},
+      {"anchor": "the shop has a byword that runs", "note": "A fan shop (扇子店) sold folding fans and painted fan-leaves and dealt in calligraphy and painting; its slogan <i>bao zhen bu bao hao</i> (&#8220;genuine guaranteed, good not guaranteed&#8221;) warrants only that a piece is really by the named hand, not that it is a fine example. On the mounting-shop trade in old scrolls see the earlier essay."}
+    ],
+    "ch166": [
+      {"anchor": "their faces are as red as Lord Guan's", "note": "Lord Guan (關公) is Guan Yu, the general of the Three Kingdoms deified as the god of war and loyalty; his image is always painted with a deep-red face, so a flushed, drunken face is &#8220;red as Lord Guan&#8217;s.&#8221;"}
+    ],
+    "ch167": [
+      {"anchor": "was called a maoer troupe", "note": "<i>Maoer xi</i>, the all-girl opera: theaters staffed wholly by female performers, originally young girls (<i>maoer</i>, &#8220;the young ones&#8221;). They flourished in late-Qing and early-Republican Shanghai&#8212;the more so after the Beijing government banned mixed-sex casts in 1913, forcing women into all-female troupes&#8212;and died out once men and women were again allowed to act together."},
+      {"anchor": "all sang there in their day", "note": "<i>Kunjue</i> (坤角) means a female performer (<i>kun</i>, the female principle); these were the star actresses of the all-girl houses. Lin Daiyu here is the celebrated Shanghai courtesan-performer who took that stage name, not the <i>Dream of the Red Chamber</i> heroine (see the earlier note); En Xiaofeng, named just below, was a noted female <i>laosheng</i>."},
+      {"anchor": "ever since the fashion for men and women acting together came in", "note": "For much of the Qing and early Republic mixed-sex casts were forbidden and troupes were all-male or all-female; the Beijing government reaffirmed the ban in 1913. When it gave way in the 1920s and 1930s and men and women could act together, the all-girl houses lost their reason for being."}
+    ]
+  }
+}

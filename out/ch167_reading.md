@@ -1,0 +1,5 @@
+### The All-Girl Troupes
+
+Twenty years ago, a theatre whose singing was done wholly by actresses was called a maoer troupe. At first the singers were all young girls not yet grown, and hence the name maoer, "the young ones." Later on it was no longer confined to girl players: there came to be older women, and old ones too, among them.
+
+In the old days there stood on Fourth Avenue, at Hujiazhai, a Qunxian Teahouse, which was a pure maoer theatre. It ran a long while, and famous actresses—Lin Daiyu, Chen Changgeng, Hong Juhua, Weng Meiqian and their like—all sang there in their day. There were the Dangui on Baoshan Street too, the Dafugui on Daxin Street, and the Miao Wutai on the old site of the New Stage in Nanshi—all of them maoer theatres. The players of the Dangui—En Xiaofeng, Zhang Wenkui, Zhang Wenyan, Bai Yumei, Zhang Shaoquan, Niu Guifen—were all in their heyday the reigning favourites of that house. But ever since the fashion for men and women acting together came in, theatres of this maoer sort are no more to be seen; and the old sites of the Qunxian, the Dangui and the rest have long since been rebuilt into shophouses.

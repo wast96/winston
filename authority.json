@@ -47,7 +47,8 @@
      "midnight"
     ],
     "Third Avenue": [
-     "thousand-li"
+     "thousand-li",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -199,7 +200,8 @@
    "renderings": {
     "Jessfield Park": [
      "midnight",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -211,6 +213,9 @@
     "the Sincere Company": [
      "gu-shunzhang",
      "thousand-li"
+    ],
+    "Sincere Company": [
+     "scales-and-claws"
     ]
    },
    "category": "organizations",
@@ -326,7 +331,8 @@
     "North Sichuan Road": [
      "midnight",
      "the-whistling-wind",
-     "thousand-li"
+     "thousand-li",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -398,7 +404,8 @@
     "Nanjing Road": [
      "midnight",
      "the-whistling-wind",
-     "thousand-li"
+     "thousand-li",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -409,7 +416,8 @@
    "renderings": {
     "Nanshi": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -553,7 +561,8 @@
     "Fourth Avenue": [
      "on-a-hair-trigger",
      "the-whistling-wind",
-     "thousand-li"
+     "thousand-li",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -617,6 +626,9 @@
     ],
     "Waibaidu Bridge": [
      "wang-yaqiao"
+    ],
+    "the Garden Bridge": [
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -627,7 +639,8 @@
    "renderings": {
     "the Great World": [
      "the-whistling-wind",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -976,7 +989,8 @@
     "Xujiahui": [
      "huang-mulan",
      "the-whistling-wind",
-     "thousand-li"
+     "thousand-li",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -1024,7 +1038,8 @@
    "renderings": {
     "Dai Jitao": [
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "scales-and-claws"
     ]
    },
    "category": "people",
@@ -1284,7 +1299,8 @@
    "renderings": {
     "standard gold": [
      "midnight",
-     "thousand-li"
+     "thousand-li",
+     "scales-and-claws"
     ]
    },
    "category": "terms",
@@ -1367,6 +1383,9 @@
     ],
     "Wing On": [
      "huang-mulan"
+    ],
+    "Wing On Company": [
+     "scales-and-claws"
     ]
    },
    "category": "organizations",
@@ -1377,7 +1396,8 @@
    "renderings": {
     "Hankou": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -1640,6 +1660,9 @@
     ],
     "Shen Bao": [
      "thousand-li"
+    ],
+    "Shenbao": [
+     "scales-and-claws"
     ]
    },
    "category": "organizations",
@@ -1771,7 +1794,8 @@
      "on-a-hair-trigger",
      "the-whistling-wind",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -1829,7 +1853,8 @@
    "renderings": {
     "Hongkou": [
      "midnight",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -1886,7 +1911,8 @@
     "the Racecourse": [
      "midnight",
      "on-a-hair-trigger",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -1942,7 +1968,8 @@
    "renderings": {
     "native bank": [
      "midnight",
-     "thousand-li"
+     "thousand-li",
+     "scales-and-claws"
     ]
    },
    "category": "terms",
@@ -2081,7 +2108,8 @@
      "midnight",
      "on-a-hair-trigger",
      "the-whistling-wind",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -2145,7 +2173,8 @@
     ],
     "Bubbling Well Road": [
      "on-a-hair-trigger",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "scales-and-claws"
     ]
    },
    "category": "places",
@@ -2237,7 +2266,8 @@
    "renderings": {
     "rickshaw": [
      "on-a-hair-trigger",
-     "thousand-li"
+     "thousand-li",
+     "scales-and-claws"
     ]
    },
    "category": "terms",
@@ -2289,6 +2319,2859 @@
    "category": "places",
    "status": "agreed",
    "note": "District in the southern outskirts of Shanghai; site of the Kuomintang Garrison Command&#8217;s prison and execution ground."
+  },
+  "郁慕侠": {
+   "renderings": {
+    "Yu Muxia": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "天虚我生": {
+   "renderings": {
+    "Tianxuwosheng": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "袁世凯": {
+   "renderings": {
+    "Yuan Shikai": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "周浩": {
+   "renderings": {
+    "Zhou Hao": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "赵秉钧": {
+   "renderings": {
+    "Zhao Bingjun": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "康有为": {
+   "renderings": {
+    "Kang Youwei": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "梁启超": {
+   "renderings": {
+    "Liang Qichao": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "章太炎": {
+   "renderings": {
+    "Zhang Taiyan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "郑正秋": {
+   "renderings": {
+    "Zheng Zhengqiu": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "欧阳予倩": {
+   "renderings": {
+    "Ouyang Yuqian": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "苏石痴": {
+   "renderings": {
+    "Su Shichi": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "顾无为": {
+   "renderings": {
+    "Gu Wuwei": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "辜鸿铭": {
+   "renderings": {
+    "Gu Hongming": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "薛大块头": {
+   "renderings": {
+    "Xue the Big Fellow": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "decided"
+  },
+  "寄生姆妈": {
+   "renderings": {
+    "Parasite Mama": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "decided"
+  },
+  "闻莺": {
+   "renderings": {
+    "Wenying": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "菱清": {
+   "renderings": {
+    "Lingqing": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "张桐花": {
+   "renderings": {
+    "Zhang Tonghua": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "吴书箴": {
+   "renderings": {
+    "Wu Shuzhen": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "谭鑫培": {
+   "renderings": {
+    "Tan Xinpei": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "小叫天": {
+   "renderings": {
+    "Xiao Jiaotian": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "黄楚九": {
+   "renderings": {
+    "Huang Chujiu": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "赛金花": {
+   "renderings": {
+    "Sai Jinhua": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "夏月润": {
+   "renderings": {
+    "Xia Yuerun": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "夏月珊": {
+   "renderings": {
+    "Xia Yueshan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "邱治云": {
+   "renderings": {
+    "Qiu Zhiyun": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "林黛玉": {
+   "renderings": {
+    "Lin Daiyu": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "翁梅倩": {
+   "renderings": {
+    "Weng Meiqian": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "严芙孙": {
+   "renderings": {
+    "Yan Fusun": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "经营三": {
+   "renderings": {
+    "Jing Runsan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "陆逊": {
+   "renderings": {
+    "Lu Xun": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "周瑜": {
+   "renderings": {
+    "Zhou Yu": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "立德": {
+   "renderings": {
+    "Lide": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "皮晓浦": {
+   "renderings": {
+    "Pi Xiaopu": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "能慕谷": {
+   "renderings": {
+    "Neng Mugu": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "黄式权": {
+   "renderings": {
+    "Huang Shiquan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "孔夫子": {
+   "renderings": {
+    "Confucius": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "左宗棠": {
+   "renderings": {
+    "Zuo Zongtang": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "杨金奎": {
+   "renderings": {
+    "Yang Jinkui": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "韩才狗": {
+   "renderings": {
+    "Han Caigou": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "吴稚晖": {
+   "renderings": {
+    "Wu Zhihui": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "荣宗敬": {
+   "renderings": {
+    "Rong Zongjing": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "陈公博": {
+   "renderings": {
+    "Chen Gongbo": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "鲁仲连": {
+   "renderings": {
+    "Lu Zhonglian": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "盛宣怀": {
+   "renderings": {
+    "Sheng Xuanhuai": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "朱葆三": {
+   "renderings": {
+    "Zhu Baosan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "许少卿": {
+   "renderings": {
+    "Xu Shaoqing": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "丰子恺": {
+   "renderings": {
+    "Feng Zikai": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "俞秀山": {
+   "renderings": {
+    "Yu Xiushan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "马如飞": {
+   "renderings": {
+    "Ma Rufei": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "阎瑞生": {
+   "renderings": {
+    "Yan Ruisheng": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "王莲英": {
+   "renderings": {
+    "Wang Lianying": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "何丰林": {
+   "renderings": {
+    "He Fenglin": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "吴春芳": {
+   "renderings": {
+    "Wu Chunfang": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "朱稚嘉": {
+   "renderings": {
+    "Zhu Zhijia": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "赵君玉": {
+   "renderings": {
+    "Zhao Junyu": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "汪优游": {
+   "renderings": {
+    "Wang Youyou": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "严独鹤": {
+   "renderings": {
+    "Yan Duhe": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "浦惊鸿": {
+   "renderings": {
+    "Pu Jinghong": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "陈长庚": {
+   "renderings": {
+    "Chen Changgeng": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "红菊花": {
+   "renderings": {
+    "Hong Juhua": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "恩晓峰": {
+   "renderings": {
+    "En Xiaofeng": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "attested"
+  },
+  "张文奎": {
+   "renderings": {
+    "Zhang Wenkui": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "张文艳": {
+   "renderings": {
+    "Zhang Wenyan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "白玉梅": {
+   "renderings": {
+    "Bai Yumei": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "张少泉": {
+   "renderings": {
+    "Zhang Shaoquan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "牛桂芬": {
+   "renderings": {
+    "Niu Guifen": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "people",
+   "status": "provisional"
+  },
+  "城隍庙": {
+   "renderings": {
+    "City God Temple": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "decided"
+  },
+  "虹庙": {
+   "renderings": {
+    "Hong Temple": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "provisional"
+  },
+  "西湖": {
+   "renderings": {
+    "West Lake": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "金陵": {
+   "renderings": {
+    "Nanjing": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "decided"
+  },
+  "福州路": {
+   "renderings": {
+    "Fuzhou Road": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "望平街": {
+   "renderings": {
+    "Wangping Street": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "棋盘街": {
+   "renderings": {
+    "Qipan Street": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "decided"
+  },
+  "靶子路": {
+   "renderings": {
+    "Range Road": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "漕泾": {
+   "renderings": {
+    "Caojing": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "张园": {
+   "renderings": {
+    "Zhang's Garden": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "味莼园": {
+   "renderings": {
+    "the Weiyuan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "decided"
+  },
+  "愚园": {
+   "renderings": {
+    "Yu Garden": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "徐园": {
+   "renderings": {
+    "Xu Garden": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "半淞园": {
+   "renderings": {
+    "Bansong Garden": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "安垲第": {
+   "renderings": {
+    "Arcadia Hall": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "康脑脱路": {
+   "renderings": {
+    "Connaught Road": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "亿定盘路": {
+   "renderings": {
+    "Edinburgh Road": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "北苏州路": {
+   "renderings": {
+    "North Suzhou Road": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "宝昌路": {
+   "renderings": {
+    "Avenue Paul Brunat": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "九亩地": {
+   "renderings": {
+    "Jiumudi": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "provisional"
+  },
+  "法国公园": {
+   "renderings": {
+    "French Park": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "decided"
+  },
+  "北福建路": {
+   "renderings": {
+    "North Fujian Road": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "decided"
+  },
+  "唐家弄": {
+   "renderings": {
+    "Tang Family Lane": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "provisional"
+  },
+  "安康里": {
+   "renderings": {
+    "Ankang Li": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "provisional"
+  },
+  "泥城桥": {
+   "renderings": {
+    "Nicheng Bridge": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "马霍路": {
+   "renderings": {
+    "Mohawk Road": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "顾家宅": {
+   "renderings": {
+    "Koukaza": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "十六浦": {
+   "renderings": {
+    "Shiliupu": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "松江": {
+   "renderings": {
+    "Songjiang": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "爱多亚路": {
+   "renderings": {
+    "Avenue Édouard VII": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "宁绍": {
+   "renderings": {
+    "Ningbo and Shaoxing": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "吴淞": {
+   "renderings": {
+    "Wusong": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "六马路": {
+   "renderings": {
+    "Sixth Avenue": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "华界": {
+   "renderings": {
+    "the Chinese city": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "decided"
+  },
+  "江北": {
+   "renderings": {
+    "Jiangbei": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "闸北": {
+   "renderings": {
+    "Zhabei": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "吉林": {
+   "renderings": {
+    "Jilin": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "营口": {
+   "renderings": {
+    "Yingkou": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "老北门": {
+   "renderings": {
+    "Old North Gate": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "福祥里": {
+   "renderings": {
+    "Fuxiang Li": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "provisional"
+  },
+  "徐州": {
+   "renderings": {
+    "Xuzhou": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "震旦大学": {
+   "renderings": {
+    "Aurora University": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "亚尔倍路": {
+   "renderings": {
+    "Avenue du Roi Albert": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "华德路": {
+   "renderings": {
+    "Ward Road": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "延平路": {
+   "renderings": {
+    "Yanping Road": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "三山会馆": {
+   "renderings": {
+    "the Sanshan Guild Hall": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "嵊县": {
+   "renderings": {
+    "Shengxian": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "胡家宅": {
+   "renderings": {
+    "Hujiazhai": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "provisional"
+  },
+  "宝善街": {
+   "renderings": {
+    "Baoshan Street": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "大新街": {
+   "renderings": {
+    "Daxin Street": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "宁波路": {
+   "renderings": {
+    "Ningbo Road": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "天津路": {
+   "renderings": {
+    "Tianjin Road": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "places",
+   "status": "attested"
+  },
+  "租界": {
+   "renderings": {
+    "the Settlement": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "decided"
+  },
+  "捕房": {
+   "renderings": {
+    "police station": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "探捕": {
+   "renderings": {
+    "plain-clothes constable": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "decided"
+  },
+  "民立报": {
+   "renderings": {
+    "Minli Bao": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "民权报": {
+   "renderings": {
+    "Minquan Bao": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "天铎报": {
+   "renderings": {
+    "Tianduo Bao": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "亚细亚报": {
+   "renderings": {
+    "Yaxiya Bao": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "大晚报": {
+   "renderings": {
+    "Da Wanbao": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "新闻报": {
+   "renderings": {
+    "Xinwenbao": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "电光日报": {
+   "renderings": {
+    "Dianguang Ribao": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "provisional"
+  },
+  "新新公司": {
+   "renderings": {
+    "Sun Sun Company": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "新舞台": {
+   "renderings": {
+    "the New Stage": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "醒舞台": {
+   "renderings": {
+    "the Awakening Stage": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "provisional"
+  },
+  "新世界": {
+   "renderings": {
+    "the New World": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "群仙": {
+   "renderings": {
+    "the Qunxian": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "provisional"
+  },
+  "楼外楼": {
+   "renderings": {
+    "the Tower-Beyond-the-Tower": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "工部局": {
+   "renderings": {
+    "the Municipal Council": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "公董局": {
+   "renderings": {
+    "the French Municipal Council": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "水炉公所": {
+   "renderings": {
+    "the Water-Stove Guild": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "冠云诗社": {
+   "renderings": {
+    "the Guanyun Poetry Society": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "大厂": {
+   "renderings": {
+    "the Great Works": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "龙园": {
+   "renderings": {
+    "Longyuan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "decided"
+  },
+  "龙飞马车行": {
+   "renderings": {
+    "Longfei": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "decided"
+  },
+  "云飞汽车公司": {
+   "renderings": {
+    "Yunfei Motor Company": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "烟兑店": {
+   "renderings": {
+    "opium-and-exchange shop": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "decided"
+  },
+  "丹桂第一台": {
+   "renderings": {
+    "Dangui First Stage": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "东北义勇军": {
+   "renderings": {
+    "Northeast Volunteer Army": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "老大房": {
+   "renderings": {
+    "Lao Dafang": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "稻香村": {
+   "renderings": {
+    "Daoxiangcun": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "野荸荠": {
+   "renderings": {
+    "Yebiqi": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "天禄": {
+   "renderings": {
+    "Tianlu": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "provisional"
+  },
+  "致美楼": {
+   "renderings": {
+    "Zhimei Lou": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "淞沪护军使": {
+   "renderings": {
+    "the Songhu Defence Commissioner": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "逸园": {
+   "renderings": {
+    "the Canidrome": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "明园": {
+   "renderings": {
+    "the Mingyuan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "申园": {
+   "renderings": {
+    "the Shenyuan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "万国储蓄会": {
+   "renderings": {
+    "the International Savings Society": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "attested"
+  },
+  "妙舞台": {
+   "renderings": {
+    "Miao Wutai": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "provisional"
+  },
+  "大富贵": {
+   "renderings": {
+    "Dafugui": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "provisional"
+  },
+  "丹桂": {
+   "renderings": {
+    "the Dangui": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "organizations",
+   "status": "provisional"
+  },
+  "国历": {
+   "renderings": {
+    "the national calendar": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "阴历": {
+   "renderings": {
+    "the lunar calendar": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "财神": {
+   "renderings": {
+    "the God of Wealth": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "接路头": {
+   "renderings": {
+    "Welcoming the God of Wealth": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "元宵": {
+   "renderings": {
+    "the Lantern Festival": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "元旦": {
+   "renderings": {
+    "New Year's Day": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "菩萨": {
+   "renderings": {
+    "the Bodhisattva": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "小洋": {
+   "renderings": {
+    "small silver": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "元宝茶": {
+   "renderings": {
+    "Ingot Tea": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "压岁钱": {
+   "renderings": {
+    "lucky money": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "新剧": {
+   "renderings": {
+    "new drama": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "游戏场": {
+   "renderings": {
+    "amusement hall": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "小报": {
+   "renderings": {
+    "tabloid": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "号外": {
+   "renderings": {
+    "extra": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "野鸡": {
+   "renderings": {
+    "pheasant": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "么二": {
+   "renderings": {
+    "yao-er": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "长三": {
+   "renderings": {
+    "changsan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "堂子": {
+   "renderings": {
+    "house": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "咸肉庄": {
+   "renderings": {
+    "salt-meat house": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "咸肉": {
+   "renderings": {
+    "salt-meat": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "花烟间": {
+   "renderings": {
+    "flower-smoke room": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "烟妓": {
+   "renderings": {
+    "smoke-girl": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "淌白": {
+   "renderings": {
+    "streetwalker": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "姨太太": {
+   "renderings": {
+    "concubine": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "小先生": {
+   "renderings": {
+    "little master": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "舞女": {
+   "renderings": {
+    "dance-girl": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "大洋": {
+   "renderings": {
+    "silver dollar": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "白相人": {
+   "renderings": {
+    "hoodlum": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "包客": {
+   "renderings": {
+    "keeper": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "三寸金莲": {
+   "renderings": {
+    "three-inch golden lotus": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "髦儿戏": {
+   "renderings": {
+    "all-girl opera": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "须生": {
+   "renderings": {
+    "bearded-male role": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "拆字": {
+   "renderings": {
+    "character-splitting": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "白俄": {
+   "renderings": {
+    "White Russians": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "野鸡大学": {
+   "renderings": {
+    "pheasant university": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "八卦": {
+   "renderings": {
+    "the Eight Trigrams": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "风水": {
+   "renderings": {
+    "fengshui": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "翁仲": {
+   "renderings": {
+    "the guardian figures": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "自来火": {
+   "renderings": {
+    "self-coming fire": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "地火": {
+   "renderings": {
+    "earth-fire": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "德律风": {
+   "renderings": {
+    "delüfeng": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "小押当": {
+   "renderings": {
+    "the little pawnshop": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "饷押": {
+   "renderings": {
+    "pay-pawn": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "老虎灶": {
+   "renderings": {
+    "tiger stove": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "弄堂": {
+   "renderings": {
+    "lane": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "诗谜": {
+   "renderings": {
+    "poem-riddle": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "大洋盘": {
+   "renderings": {
+    "big silver sucker": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "花会": {
+   "renderings": {
+    "huahui": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "快马": {
+   "renderings": {
+    "fast horses": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "后门货": {
+   "renderings": {
+    "back-door goods": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "丢圈": {
+   "renderings": {
+    "ring toss": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "丢票": {
+   "renderings": {
+    "the dropped ticket": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "裱画店": {
+   "renderings": {
+    "picture-mounting shop": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "换天头": {
+   "renderings": {
+    "changing the heaven-head": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "扎儿手": {
+   "renderings": {
+    "nimble-fingers": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "失风": {
+   "renderings": {
+    "a job blew up": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "吃豆腐": {
+   "renderings": {
+    "eating tofu": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "洋盘": {
+   "renderings": {
+    "sucker": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "吃盘子": {
+   "renderings": {
+    "eating the plate": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "喜娘": {
+   "renderings": {
+    "wedding-matron": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "二爷": {
+   "renderings": {
+    "second master": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "吃百家饭": {
+   "renderings": {
+    "eating from a hundred households": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "集团结婚": {
+   "renderings": {
+    "group weddings": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "叫魂": {
+   "renderings": {
+    "soul-calling": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "甲马": {
+   "renderings": {
+    "spirit-paper": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "麻衣债": {
+   "renderings": {
+    "mourning-cloth debt": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "印子钿": {
+   "renderings": {
+    "stamp-money": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "公子哥儿": {
+   "renderings": {
+    "young master": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "兴隆票": {
+   "renderings": {
+    "prosperity note": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "阿羊哥": {
+   "renderings": {
+    "Brother Sheep": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "屈死": {
+   "renderings": {
+    "Wronged-to-Death": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "麦克麦克": {
+   "renderings": {
+    "muchee-muchee": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "水鬼": {
+   "renderings": {
+    "water ghost": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "花柳": {
+   "renderings": {
+    "flower-and-willow": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "卖羊": {
+   "renderings": {
+    "selling sheep": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "卖相": {
+   "renderings": {
+    "salable looks": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "包探": {
+   "renderings": {
+    "detective": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "掮客": {
+   "renderings": {
+    "broker": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "冲鸟": {
+   "renderings": {
+    "flushing the birds": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "小开": {
+   "renderings": {
+    "young boss": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "冲喜": {
+   "renderings": {
+    "turning the luck": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "大照会": {
+   "renderings": {
+    "big license": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "丘八": {
+   "renderings": {
+    "soldier": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "漂亮人物": {
+   "renderings": {
+    "swell": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "飞毛腿": {
+   "renderings": {
+    "flying legs": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "小车": {
+   "renderings": {
+    "wheelbarrow": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "狗头车": {
+   "renderings": {
+    "dog's-head cart": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "东洋车": {
+   "renderings": {
+    "rickshaw": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "大出丧": {
+   "renderings": {
+    "grand funeral": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "送丧马车": {
+   "renderings": {
+    "funeral carriage": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "寓公": {
+   "renderings": {
+    "idle rich sojourner": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "绷场面": {
+   "renderings": {
+    "keeping up appearances": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "堂倌": {
+   "renderings": {
+    "waiter": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "人参": {
+   "renderings": {
+    "ginseng": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "虚头": {
+   "renderings": {
+    "empty trick": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "客饭": {
+   "renderings": {
+    "set meal": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "冷摊": {
+   "renderings": {
+    "cold stall": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "善棍": {
+   "renderings": {
+    "charity shark": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "高等华人": {
+   "renderings": {
+    "superior Chinese": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "起码华人": {
+   "renderings": {
+    "common Chinese": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "十三点": {
+   "renderings": {
+    "Thirteen O&#8217;Clock": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "鬼脸": {
+   "renderings": {
+    "ghost-face": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "保单": {
+   "renderings": {
+    "guarantee": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "绑票": {
+   "renderings": {
+    "kidnapping": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "拐子": {
+   "renderings": {
+    "kidnapper": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "制钱": {
+   "renderings": {
+    "standard coin": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "客栈": {
+   "renderings": {
+    "guest-lodge": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "茶房": {
+   "renderings": {
+    "tea-boy": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "熏鱼": {
+   "renderings": {
+    "smoked fish": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "酥糖": {
+   "renderings": {
+    "crisp candy": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "馄饨": {
+   "renderings": {
+    "wonton": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "买办": {
+   "renderings": {
+    "comprador": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "揩油": {
+   "renderings": {
+    "skim": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "开篇": {
+   "renderings": {
+    "prelude-song": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "弹词": {
+   "renderings": {
+    "tanci": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "三吓头": {
+   "renderings": {
+    "the three scares": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "脉案": {
+   "renderings": {
+    "pulse-record": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "吗啡": {
+   "renderings": {
+    "morphine": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "白面": {
+   "renderings": {
+    "white flour": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "开大炮": {
+   "renderings": {
+    "firing the big gun": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "红白丸": {
+   "renderings": {
+    "red-and-white pills": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "花国总理": {
+   "renderings": {
+    "Premier of the Flower Kingdom": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "拆白党": {
+   "renderings": {
+    "peeling-white gang": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "新生活": {
+   "renderings": {
+    "New Life": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "年红灯": {
+   "renderings": {
+    "year-red lamp": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "霓红灯": {
+   "renderings": {
+    "neon lamp": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "桂花": {
+   "renderings": {
+    "sweet osmanthus": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "跑狗": {
+   "renderings": {
+    "dog racing": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "回力球": {
+   "renderings": {
+    "jai alai": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "水门汀": {
+   "renderings": {
+    "cement": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "蟹行文字": {
+   "renderings": {
+    "crab-crawling script": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "瘪三": {
+   "renderings": {
+    "biesan": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "钉巴": {
+   "renderings": {
+    "limpet": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "赶猪猡": {
+   "renderings": {
+    "driving the pigs": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "杀猪猡": {
+   "renderings": {
+    "slaughtering the pigs": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "拿开销": {
+   "renderings": {
+    "taking the payoff": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "讲斤头": {
+   "renderings": {
+    "haggling the cut": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "赏光券": {
+   "renderings": {
+    "patronage ticket": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "打抽风": {
+   "renderings": {
+    "squeeze": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "戤牌头": {
+   "renderings": {
+    "trading on a big name": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "案目": {
+   "renderings": {
+    "seat-agent": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "捉蟋蟀": {
+   "renderings": {
+    "catching crickets": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "滑头": {
+   "renderings": {
+    "slicker": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "老弟兄": {
+   "renderings": {
+    "old brothers": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "老门槛": {
+   "renderings": {
+    "old hand": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "长锭": {
+   "renderings": {
+    "long ingots": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "三光党": {
+   "renderings": {
+    "the Three-Lights Gang": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "还魂烟": {
+   "renderings": {
+    "resurrection cigarettes": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "吃讲茶": {
+   "renderings": {
+    "judgment tea": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "孵豆芽": {
+   "renderings": {
+    "hatching bean sprouts": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "阿拉": {
+   "renderings": {
+    "a-la": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "春宫": {
+   "renderings": {
+    "spring-palace pictures": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "attested"
+  },
+  "拾荒": {
+   "renderings": {
+    "scavenging": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "捞锡箔灰": {
+   "renderings": {
+    "dredging for tinfoil ash": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "浪人": {
+   "renderings": {
+    "ronin": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "空头支票": {
+   "renderings": {
+    "rubber check": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "本票": {
+   "renderings": {
+    "cashier's note": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
+  },
+  "角子": {
+   "renderings": {
+    "jiao piece": [
+     "scales-and-claws"
+    ]
+   },
+   "category": "terms",
+   "status": "decided"
   }
  }
 }

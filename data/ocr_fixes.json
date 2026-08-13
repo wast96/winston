@@ -393,5 +393,85 @@
       "page": 154,
       "why": "over 100 carriages; 一二百輛 (100-200) crop-verified"
     }
+  ],
+  "ch161": [
+    {
+      "wrong": "賓春",
+      "right": "寅泰",
+      "page": 239,
+      "why": "native-bank name; crop-verified 如福源、寅泰各錢莊 (OCR 賓春)"
+    },
+    {
+      "wrong": "底洋",
+      "right": "底洋",
+      "page": 239,
+      "why": "residual silver on deposit; confirmed reading"
+    },
+    {
+      "wrong": "五百元/三百元",
+      "right": "五百元/三百元",
+      "page": 239,
+      "why": "deposit minimums crop-verified (first 五百, at least 三百)"
+    },
+    {
+      "wrong": "五十塊",
+      "right": "五十塊",
+      "page": 240,
+      "why": "new-bank first-deposit minimum, crop-verified"
+    },
+    {
+      "wrong": "像勿一家",
+      "right": "像煞一家",
+      "page": 241,
+      "why": "像煞 = looks exactly like (OCR 像勿)"
+    }
+  ],
+  "ch163": [
+    {
+      "wrong": "小錢莊卅夥…用工",
+      "right": "小錢莊歇夥和銀匠店歇工",
+      "page": 243,
+      "why": "idle money-shop hands / off-duty silversmith workers; crop-verified 歇夥、歇工"
+    },
+    {
+      "wrong": "夾多/頃銅/鍾邊",
+      "right": "夾銅/純銅/銼邊",
+      "page": 243,
+      "why": "four counterfeit-coin methods crop-verified: 夾銅,純銅,藥水,銼邊"
+    }
+  ],
+  "ch164": [
+    {
+      "wrong": "一塊錢可購二十多角",
+      "right": "一塊錢可購二十多角",
+      "page": 244,
+      "why": "exchange rate crop-verified: a dollar buys twenty-odd (fake) jiao"
+    }
+  ],
+  "ch167": [
+    {
+      "wrong": "長家宅",
+      "right": "胡家宅",
+      "page": 247,
+      "why": "place off Fourth Avenue; crop-verified 胡家宅"
+    },
+    {
+      "wrong": "但茶園",
+      "right": "群仙茶園",
+      "page": 247,
+      "why": "theater name crop-verified 群仙茶園"
+    },
+    {
+      "wrong": "張文鹽",
+      "right": "張文豔",
+      "page": 247,
+      "why": "actress name crop-verified 張文豔"
+    },
+    {
+      "wrong": "actress roster",
+      "right": "林黛玉/陳長庚/紅菊花/翁梅倩;恩曉峰/張文奎/張文豔/白玉梅/張少泉/牛桂芬",
+      "page": 247,
+      "why": "all all-girl-troupe actress names crop-verified at 3x zoom"
+    }
   ]
 }

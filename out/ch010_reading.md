@@ -1,6 +1,6 @@
 ### The Sixteenmo Magazines
 
-Sixteenmo bound periodicals are once again all the rage, and their number has already passed a hundred titles. When people speak of the state of the press, they are sure to say how very many tabloids there are; but for all their number, the tabloids run only to a few dozen — how should they match the sixteenmo magazines for multitude and vigor?
+Sixteenmo bound periodicals are once again all the rage, and their number has already passed a hundred titles. When people speak of the state of the press, they are sure to say how very many tabloids there are; but for all their number, the tabloids run only to a few dozen — how should they match the sixteenmo magazines for multitude and vigour?
 
 Among these, one hundred titles and more, the two of longest standing are the weekly Libai Liu and the weekly Shenghuo. The Libai Liu began in the twelfth year of the Republic, and by now is a full twelve years old; the Shenghuo was started in the fourteenth year, and has also been going several years. But when the Libai Liu and the Shenghuo first appeared, both were quarto loose sheets, like the tabloids in vogue today, and it was only after many years that they changed to the bound sixteenmo form.
 

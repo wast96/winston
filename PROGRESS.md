@@ -927,3 +927,81 @@ Orgs: the International Savings Society (萬國儲蓄會). Places: the Sanshan G
 - 綁票 kidnapping (noted B07 ch104): ch131, not re-noted. 捕房 police station,
   四馬路/福州路 Fuzhou Road, money policy (大洋/小洋/毛/角/文/鈿): all cited without
   re-noting.
+
+## B10 — ch156-ch167 + whole-book close-out (2026-08-13) — FINAL BATCH
+
+Units: ch156 點香燭 through ch167 髦兒戲 (PDF 234-247, printed 232-245). 26
+paragraphs, 22 notes (book-wide 622-643), 20 glossary rows, 0 figures.
+
+**Page-structure traps resolved off the scan:**
+- NUMBERING GAP resolved: ch161 空頭支票 spans PDF 239-241 (four paragraphs);
+  PDF 240-241 are its continuation pages, not a plate or blank (exactly as
+  ch153 spanned 230-231 in B09). ch162 假鈔票 opens at PDF 242. Verified by
+  folio: p239=237, p240=238, p241=239, p242=240 (printed = pdf - 2 holds).
+- Every opener's folio read off the scan; body ends at PDF 247 (printed 245,
+  ch167, the last essay). PDF 248 blank; 249 = 2019 reprint imprint page;
+  250 = National Library CIP; no errata table anywhere.
+- No two-essays-share-a-page splits in B10 (each short-titled essay —
+  叫火燭/抄把子/假客氣 — occupies its own leaf).
+
+**OCR / transcription:** tesseract chi_tra_vert --psm 5 scaffold only (~85%,
+PaddleOCR absent). Every page eye-read at magnification; data/zh hand-
+transcribed. `pgrep -c tesseract` = 0 after OCR. Crop-verified at 3-4x and
+recorded in data/ocr_fixes.json: bank names 福源/寅泰 (OCR 賓春); the four
+counterfeit-coin methods 夾銅/純銅/藥水/銼邊 (OCR 夾多/頃銅/鍾邊); 小錢莊歇夥和
+銀匠店歇工; coin/exchange numerals (五百/三百/五十塊, 一塊錢可購二十多角); all
+ch167 place and actress names (胡家宅, 群仙茶園, 林黛玉/陳長庚/紅菊花/翁梅倩,
+恩曉峰/張文奎/張文豔/白玉梅/張少泉/牛桂芬). No reprint photos on any B10 page —
+figure list deliberately empty.
+
+**Checks (all green):** check_structure parity 12/12 OK, 22 anchors resolved;
+verify_unit numbers clean after 4 targeted noises (萬狀; 絲毫無二/毫髮無二; 四馬路);
+check_align OK; check_content OK (ch167 四馬路 displacement resolved by using the
+glossary's decided "Fourth Avenue" for 四馬路, "Fuzhou Road" reserved for 福州路);
+qc_entities clean per bilingual; check_apparatus 0/0; check_register all 12
+within tolerance of ch001. qa_epub PASS (643/643/643); epubcheck 5.1.0 clean
+(0/0/0/0).
+
+**Fact-checks (real scholarship, not LLM sites):**
+- 一二八 January 28th Incident (ch157): CORROBORATED — 1932 Shanghai War,
+  Japanese attack on Zhabei/Hongkou 28 Jan 1932, 19th Route Army resisted >1
+  month (Wikipedia/chiculture; multiple standard histories).
+- 恩曉峰 En Xiaofeng (ch167): CORROBORATED — Manchu of Beijing (1887-1949), a
+  noted female laosheng of the early all-women Peking-opera stage.
+- 男女合演 mixed-sex ban (ch167): CORROBORATED — Beijing govt banned mixed casts
+  (reaffirmed 1913), hence the all-female troupes; relaxation ended them.
+- 某國 = Japan euphemism (ch157) vs 日本 named (ch162): the author's own veil and
+  its dropping; rendered as printed, verdict stated in the notes.
+- Minor theatres/banks (群仙,丹桂,妙舞臺,大富貴;福源,寅泰) and minor actresses:
+  period-plausible, not individually corroborated; provisional + noted as such.
+
+**Reprint misprints in B10:** none found (B10 clean; earlier list ch052/ch053/
+ch109/ch116/ch122 unchanged).
+
+**NOT re-noted this batch (already placed; cross-referenced instead):**
+- 空城計 Empty Fort (noted ch040): ch161 cross-refs, brief pointer note only.
+- 虹口 Hongkou (noted ch018/ch079): ch157 cross-refs. 北平 Beiping (noted ch100):
+  ch162 cross-refs, not re-noted. 嗎啡/opium forms (noted ch113/ch033): ch160
+  cross-refs. 林黛玉 (noted ch038): ch167 cross-refs in the 坤角 note, not
+  re-noted. 新舞臺 New Stage (noted ch040/ch114): ch167 cites without re-noting.
+  錢莊 native bank, 花會 huahui, 探捕 constable, 揩油 skim, money policy: all cited
+  without re-noting.
+
+**Whole-book close-out:**
+- Back matter: NO errata table; the 2019 imprint page (PDF 249) + CIP (PDF 250)
+  are modern production data already in book.json metadata. back_matter.json
+  left INERT (the builder's colophon template is for an ORIGINAL copyright leaf
+  and would mislabel a reprint imprint). Recorded decision.
+- Reconciliation (check_reconcile): epithet drift 0. Spelling locale CASCADED
+  to British across ALL reading files + notes/glossary/figures bodies (frozen
+  ref ch001 uses "honour"). One real American form fixed ("centerpiece" ->
+  "centrepiece"). Residual reconcile MIXED flag is two LOCALE-NEUTRAL words
+  ("laborious","vigorous", identical in both locales) caught by the checker's
+  prefix heuristic — a documented false positive, not a real mixed locale.
+- out/term_ledger.md (339 rows) and out/deep_audit.md (fixed-seed 4.1% sample,
+  0 defects in the re-audited subset) rendered.
+- authority.json fed this book's renderings under slug "scales-and-claws"
+  (317 new terms, 22 appended; 4 benign cross-book article/spacing variants).
+- Final EPUB committed with `git add -f out/scales-and-claws-of-shanghai.epub`.
+
+**THE BOOK IS COMPLETE (168/168 units).** Further work is a corrections pass.

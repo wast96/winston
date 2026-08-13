@@ -1,0 +1,3 @@
+### Lighting Incense and Candles
+
+The three words "lighting incense and candles" do not refer to anything done in a nunnery or a temple or a Daoist shrine; the incense and candles are burned in a private house or a shop. Whenever party A has given offense to party B without cause, and the two are so entangled that they cannot get clear of each other, a peacemaker steps in to mediate and directs party A to go to B's place and there light incense and candles—a way of owning the fault and clearing away the quarrel. At the very end a string of firecrackers may be added, cracking and banging away in a wild volley; and only then is the whole business between the two parties reckoned settled.

@@ -198,3 +198,14 @@
 # 萬國 = the Wanguo (International) Savings Society, a proper name; the 萬 is not
 #   a count of ten thousand. English keeps "Wanguo / International". (B09, ch153)
 萬國
+# 恐懼萬狀 = "in a state of extreme terror"; 萬狀 is an idiom ("ten-thousand
+#   forms"), not a count. English renders "seized with terror". (B10, ch160)
+萬狀
+# 絲毫無二 / 毫髮無二 = "not a hair's difference"; 無二 = "without a second",
+#   an idiom, not a count of 2. English renders "without a hair's difference".
+#   (B10, ch162/ch165)
+(?<=絲毫無)二
+(?<=毫髮無)二
+# 四馬路 = Fourth Avenue (= Fuzhou Road), a road name; 四 is not a count.
+#   English keeps "Fuzhou Road". (B10, ch167)
+四(?=馬路)
