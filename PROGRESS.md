@@ -486,3 +486,153 @@ tsujigiri, 鉄扇 iron war-fan, 公用方 liaison office, 和泉守兼定 Izumi-
 Kanesada, 虎徹 Kotetsu. Principals flagged for the cast page: Yamanami (9),
 Serizawa (10), Saitō Hajime (11). One rendering per referent enforced by
 check_content; all 34 new names verified present in their source paragraphs.
+
+## B04 = ch14 to ch18 (ついに誕生 / 四条大橋 / 高瀬川 / 祇園「山の尾」/ 士道)
+
+The founding of the Shinsengumi and the purge of Serizawa. ch14 "Born at Last"
+(the botched Kiyokawa assassination, the Aizu connection through Toshima Kihee,
+and the granting of the name Shinsengumi); ch15 "Shijō Great Bridge" (money, the
+Aizu stipend, and Toshizō's Western-modeled corps organization; ends on a
+killing at the bridge); ch16 "The Takase River" (Toshizō and Okita hunt six
+killers through Pontochō and Kiyamachi; a Kōgen Ittō-ryū man of Shichiri's
+escapes); ch17 "The Yamanoo in Gion" (the Akazawa Morito murder, tracked to the
+Serizawa faction; Toshima's warning to cut Serizawa down; Toshizō corners Niimi);
+ch18 "The Warrior's Code" (Niimi's forced seppuku, the shidō argument, and the
+night raid that kills Serizawa, Oume, and Hirayama).
+
+### Checks (all green)
+
+- verify_unit (parity + numbers --noise data/noise.txt + anchors), per chapter:
+  ch14 213/213 pairs, 0 unresolved, 10 anchors ok.
+  ch15 174/174 pairs, 0 unresolved, 8 anchors ok.
+  ch16 218/218 pairs, 0 unresolved, 8 anchors ok.
+  ch17 203/203 pairs, 0 unresolved, 9 anchors ok.
+  ch18 185/185 pairs, 0 unresolved, 8 anchors ok.
+- make_bilingual parity refused once and CAUGHT A REAL OMISSION: ch18 first came
+  out 183 vs 185. Two source paragraphs had been dropped in a single dialogue
+  seam — Toshizō's 「斬られたいか、新見錦…会津中将様から出ている」 and Niimi's
+  「うぬっ」 (source lines 39-40). Restored verbatim, re-checked, tail re-read.
+  This is exactly the rule-4 omission class; the parity gate did its job.
+- check_align: all five 3.1 to 3.4 en/han median, no collapse/explosion runs.
+- check_content: 0 displaced across all units (ch14 45, ch15 46, ch16 35,
+  ch17 51, ch18 60 name-anchor occurrences, all in the paired paragraph).
+- qc_entities: 0 misses per chapter (after fixing one ch18 slip — 旗本 had been
+  rendered "bannermen"; corrected to the glossary's decided "hatamoto").
+- check_apparatus: 0 failures / 0 warnings.
+- check_register --ref reference/ch01_ref.md (em-dash /1k, ratio-of-ref,
+  dialogue %, sentence length, notes, type-token): ch14 2.9, ch15 3.9, ch16 13.5,
+  ch17 9.7, ch18 7.5 em-dashes/1k — all WITHIN TOLERANCE of the frozen ch01
+  reference (12.7 baseline). ch16 runs highest (13.5) on the long two-man
+  fight-and-banter, still in tolerance.
+- Tail verified against the source for every chapter (rule 4): ch14 ends
+  「事は、これからですよ」/ Serizawa's face; ch15 the fallen lantern and the man
+  being cut down; ch16 Okita's shoulder shaking with a cough; ch17 Toshizō
+  sliding the shōji open on Niimi; ch18 Noguchi's year-end seppuku and the
+  faction annihilated.
+- Whole-book: build_reading_epub 18/71 chapters, 143 notes; qa_epub PASS
+  (143 references / 143 bodies / 143 backlinks, all links resolve);
+  epubcheck 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+### Notes added: 43 (continuous numbering 101 to 143)
+
+- ch14 (10): the war-fan motto 尽忠報国; 中将 "Middle Captain" (Katamori's court
+  rank); 学習院 the court Gakushūin (not the peers' school); Sasaki Tadasaburō;
+  the Akabanebashi/Azabu-Ichinohashi place discrepancy in Kiyokawa's killing;
+  the Namamugi Incident; 新徴組; the naming of 新選組 (chronology telescoped);
+  Bunkyū 3/3/13 = 2 May 1863; the "letter K" (き文字) circumlocution.
+- ch15 (8): the Mibu-rō / mi-boro pun; 芋道場 "sweet-potato dōjō"; the ryō;
+  Shimabara; the corps officer structure (jokin / kyokuchō / fukuchō / kansatsu)
+  and Hijikata's deliberate vice-commander post; the Kōnoike house; the Ōshōroku
+  (Hirosawa's genuine memoir); the shinai.
+- ch16 (8): 雑掌 / 青侍 noble-house retainers; the goyōkiki and his jitte;
+  Saru no Bunkichi and the 1862 tenchū terror; Shimada Sakon and Ugō Genba;
+  the Shoshidai (vs the Protector); Okita's consumption; the Bushū barley-
+  treading song; the Takase River (canal + domain mansions).
+- ch17 (9): the Bon / Urabon festival; Rai San'yō's Honnō-ji poem and "the enemy
+  is at Honnō-ji"; burei-uchi (killing for a slight); the Kiheitai; the Yamatoya
+  arson (12 Aug 1863); the upright tea-stalk omen; the tayū; the hour of the
+  Dragon; Horikawa Kunihiro.
+- ch18 (8): kaishaku (the second); shidō (the warrior's code, the chapter's
+  argument); shidō fukakugo; the Bandō warriors; the chūgen (Harada's origin);
+  the "Sa"=左 wordplay for Sanosuke; the Serizawa assassination (30 Oct 1863,
+  assassin roster disputed); the "hour of the Dragon" slip (source's own).
+
+### NOT re-noted (already glossed/footnoted earlier; first-appearance discipline)
+
+- mokuroku (noted ch02), koku (ch02), the Kyoto Protector / Matsudaira Katamori /
+  公用方 liaison office / 鉄扇 iron war-fan / 尊皇攘夷 / 和泉守兼定 / 虎徹 Kotetsu /
+  講武所 the Kōbusho (all glossed in B03), 天狗党 the Tengu Party, 甲源一刀流,
+  神道無念流, 北辰一刀流, 天然理心流, hatamoto (glossed ch02), Rai San'yō
+  (glossary), Shichiri Kennosuke, the Three Tama, the several ryū and guards.
+  Recurrences rendered to the settled glossary forms, not re-annotated.
+
+### Fact-check verdicts (real scholarship; never LLM-sourced; Grok ignored)
+
+- Kiyokawa Hachirō's killing: CORROBORATED as event, place FOOTNOTED. Sasaki
+  Tadasaburō's party cut him down on Bunkyū 3/4/13 (30 May 1863). Scholarship
+  places the spot at Azabu Ichinohashi; Shiba writes Akabanebashi (the adjacent
+  bridge, same Shiba-Azabu district). Discrepancy left visible and noted.
+- Name "Shinsengumi": chronology TELESCOPED (noted). Standard dating puts the
+  grant after the 8/18/1863 coup, with the grantor disputed between the Buke
+  Tensō and Matsudaira Katamori; Shiba compresses it to the spring founding via
+  Aizu. The Aizu patronage and the men are as given.
+- Namamugi Incident: CORROBORATED. 14 Sept 1862; Richardson killed off Shimazu
+  Hisamitsu's procession; led to the Aug 1863 bombardment of Kagoshima.
+- Shimada Sakon / Saru no Bunkichi: CORROBORATED. Both killed in the 1862 tenchū
+  wave (Shimada by Satsuma's Tanaka Shinbei in Kiyamachi; the informer Bunkichi
+  by the Tosa loyalists, body exposed at the Sanjō riverbed).
+- Yamatoya arson: CORROBORATED. Serizawa burned the silk-merchant Yamatoya
+  Shōbei's storehouses on 12 Aug 1863, near the Palace, outraging the court.
+- Serizawa assassination: CORROBORATED as event, assassin roster FLAGGED as
+  disputed. Bunkyū 3/9/18 (30 Oct 1863) by the anti-Serizawa Kondō faction at
+  the Yagi house; Oume killed with him. The exact assassins differ by source
+  (Hijikata, Okita, Yamanami, Harada, Inoue all named in various accounts);
+  Shiba's roster is one version, noted as such.
+
+### Digitization glitches
+
+- ch18, source line 168: 辰ノ下刻 ("lower hour of the Dragon," ~8-9 a.m.) sits
+  inside a plainly nocturnal scene (日没後 "after sundown" the line before,
+  午後十二時半 "half past midnight" a few lines later). Almost certainly a slip
+  (likely 辰 for 戌, the evening Dog hour). Rendered faithfully as "late in the
+  hour of the Dragon" with a footnote flagging the source's inconsistency; not
+  silently corrected. This is the source's own error, not OCR.
+- No dittography, stray U+200B lines, doubled headings, or mojibake in the
+  ch14-ch18 bodies. The one gaiji glyph relevant here (兼㝎 / 之定) was handled
+  in ch12; nothing new. Source remains clean commercial digital text.
+
+### Tooling changed this batch (see HANDOFF "do not revert")
+
+- scripts/check_numbers.py (PATCH, target-side only): spelled_numbers now reads
+  "a/one hundred and <ten..nineteen>" (110-119) and "<one..nine> hundred and
+  <teen>". The existing rules reached hundreds-plus-tens (120-990) but stopped
+  short of the teens, so 百十 (110, in ch15's 百十数名 "a hundred and ten-odd
+  men") had NO English word-form the check could read. The addition is
+  target-side, so by the module's own invariant it can only ADD a number to the
+  translation's set, never mask a dropped source quantity. Regression suite
+  re-run: check_numbers pass-fixture OK, fail-fixture 5/5 drops detected. Fixes
+  the gate rather than forcing a bare digit into the prose.
+- data/noise.txt: appended B04 name/idiom numeral rules, each commented:
+  唯三郎, 二条, 万、まちがい (ch14); 四条, 五郎 (ch15); 三条, 十手 (ch16);
+  千本, 三本木 (ch17); 五体, 万能 (ch18). No real quantity was noised; real
+  troop/koku/date figures are carried in the English word-forms.
+- scripts/build_zh.py (NEW, mechanical): builds data/zh/<id>.txt from
+  data/src/<file>.txt (title line "### <title>" then one body line per non-empty
+  source paragraph, skipping the two header lines). A pure file-to-file copy, no
+  authoring; formalizes the "mechanical build" the kickoff describes so data/zh
+  can be regenerated deterministically.
+
+### Glossary rows added: 25 (nested by section)
+
+People (12): 外島機兵衛 Toshima Kihee (attested), 島津久光 Shimazu Hisamitsu,
+佐々木唯三郎 Sasaki Tadasaburō, 九条尚忠 Kujō Hisatada, 島田左近 Shimada Sakon,
+谷三十郎 Tani Sanjūrō, 広沢富次郎 Hirosawa Tomijirō, 久坂玄瑞 Kusaka Genzui,
+山崎烝 Yamazaki Susumu, 赤沢守人 Akazawa Morito (all attested). Places (6):
+先斗町 Pontochō, 木屋町 Kiyamachi, 高瀬川 the Takase River, 島原 Shimabara,
+角屋 the Sumiya, 本能寺 the Honnō-ji. Organizations (3): 学習院 the Gakushūin,
+新徴組 the Shinchōgumi, 所司代 the Shoshidai. Terms (6): 局長 commander (kyokuchō),
+副長 vice-commander (fukuchō), 助勤 jokin, 監察 inspector (kansatsu), 鴻池 the
+Kōnoike (org), 士道 the warrior's code (shidō). One rendering per referent
+enforced by check_content; all capitalized proper-name rows verified present in
+their source paragraphs (Pontochō, Kiyamachi, and the people forms rendered
+verbatim where the full source string appears).

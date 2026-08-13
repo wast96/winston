@@ -1,0 +1,439 @@
+## The Takase River
+
+"Sōji—look at the body,"
+
+{j} said Toshizō.
+
+When Okita Sōji crouched down beside the corpse to look, it was a samurai of good standing.
+
+"Hijikata—by the dress and the topknot, he looks to have been a zasshō, a low retainer in a noble's service,"
+
+"A zasshō, is it,"
+
+In Kyoto there were samurai of that kind—the noble houses' samurai. In the old Heian court they would have been called "green samurai"; of late the houses had been taking on some able hands.
+
+The samurai was thirty-five or six. He seemed to have crossed blades a pass or two, then to have been hemmed in by five or six and cut down.
+
+"Sir,"
+
+{j} said a police-informer whose beat was this Gion quarter, showing his face.
+
+In Edo a man of this trade would be all swagger; here he trembled, spiritless. Against the rampaging of the loyalist vagrants, such men could do nothing but hide their jitte and shake. Only last year, in the intercalary eighth month, one "Saru no Bunkichi"—Bunkichi the Monkey—of Takakura-Oshikōji, who had run like a hound for the shogunate, had been strangled by the radical patriots and his body exposed on the Sanjō riverbed.
+
+"You—do you know this man?"
+
+"I do,"
+
+"Who is he,"
+
+"A gentleman named Nozawa Tatewaki, in the service of His Excellency the Kujō regent."
+
+(The Kujō house—that is the noble family Osae of the Saruwatari serves.)
+
+The head of the house was Kujō Hisatada.
+
+He was called the head of the pro-shogunate party in Kyoto, and was bitterly hated by the loyalists; but he too, since the assassination last year of his house's schemers Shimada Sakon and Ugō Genba, had taken fright at the fierceness of the times, shaved his head, and withdrawn from politics for a while. Yet there were still, among the loyalist rōnin, men who dogged this house relentlessly—so much Toshizō had heard.
+
+(So that was why he was killed.)
+
+Toshizō rose to his feet.
+
+That much inquiry was enough. Unlike the Shoshidai, the Shinsengumi cared nothing for a case's motive or its course. For men who wielded the sword, the Shinsengumi had no work but the wielding of the sword.
+
+"How many were they?"
+
+"Six, sir,"
+
+The informer had evidently watched it.
+
+"Any marks about them?"
+
+"Three spoke with a Chōshū accent, two had the look of Tosa men; the one who did the deed with his own hand had, it seemed, an accent like yours, sir."
+
+"A Bushū accent, then,"
+
+{j} A Bushū man among the loyalist rōnin of Kyoto was a rarity.
+
+"Which way did they run?"
+
+"Ran is hardly the word—they walked off north up the Pontochō there, at their ease."
+
+"Sōji, come,"
+
+{j} and Toshizō was already walking.
+
+(I'll cut down every one of them.)
+
+Stripping off his tan cotton haori, rolling it up and tossing it into the guardpost, he set off under the eaves of Pontochō's narrow lane.
+
+It was narrow.
+
+On both sides, no wider than a theater's runway, the teahouses' hanging lanterns lit the fine Kyoto lattice palely, ranged away far to the north, melting into the dark of the Sanjō avenue beyond.
+
+"Sōji, how does your body feel,"
+
+"How does it feel—meaning?"
+
+"I'm asking whether you can work,"
+
+Okita Sōji had, now and then, an ugly cough. Toshizō had of late begun to suspect he might be taken with consumption.
+
+"I'm all right,"
+
+{j} Okita laughed brightly.
+
+Toshizō had asked to be sure, for he had not the least mind to send word to the corps and ask reinforcement. The two of them would do it. For now, to raise the Shinsengumi's martial name in Kyoto, there was no way but to master a thing with few men—so Toshizō judged.
+
+—Chigiriya.
+
+{j} So the hanging lantern of one house read; and out of it came a geisha.
+
+Toshizō and Okita stepped abruptly inside.
+
+"We are the Shinsengumi, in the charge of the Aizu Middle Captain. We search you on official business,"
+
+They went up in, but there was no one who looked the part.
+
+Searching five or six houses in that fashion as they worked north, they came to the end of Pontochō.
+
+"Hijikata—might it not be Kiyamachi,"
+
+{j} said Okita, standing at the Sanjō bridgehead.
+
+Kiyamachi was the street of taverns running north from there.
+
+"Hm,"
+
+{j} and Toshizō, studying Okita's color by the faint light of a corner lantern,
+
+{j} "you—are you all right,"
+
+{j} pressed him again.
+
+His color was not good.
+
+Ahead, Kiyamachi was a street one might call a nest of loyalist rōnin. The Chōshū mansion, its main gate on Kawaramachi, had its back gate facing Kiyamachi.
+
+The culprits were many to begin with.
+
+And, the street being what it was, help would come from the Chōshū mansion too. A hard fight was to be looked for, of course.
+
+Okita's body was the worry. Let him fall to coughing in the midst of the fight, and that would be his end.
+
+"I'm all right,"
+
+Okita took the lead and went into Kiyamachi.
+
+***
+
+In Kiyamachi there stands a restaurant:
+
+{j} the Beniji—
+
+{j} the name a contraction of "Beniya Jirobei."
+
+"The Beniji,"
+
+{j} Okita murmured, and stopped, but at once began to walk slowly along beside the lattice.
+
+The song of a drinking-party could be heard. With a look as though he were storing it away in his ear,
+
+{j} "Hijikata,"
+
+{j} he nodded.
+
+It was a Bushū barley-treading song.
+
+"Understood. Sōji, hold this place fast,"
+
+{j} When he had said it, Toshizō slid the lattice open with a clatter.
+
+"We search you on official business,"
+
+{j} and with the shout he sprang up onto the sill, ran quick and light, and threw open the sliding door.
+
+—Who's this?
+
+{j} and the samurai of the party looked at Toshizō. Six, sure enough. Two topknots in the Tosa style, three of the fine features that marked the Chōshū men. And among them was one Toshizō knew by sight.
+
+The name he did not know.
+
+But for certain it was a man who had served under Shichiri Kennosuke at the Kōgen Ittō-ryū hall in Hachiōji, Bushū.
+
+(Shichiri too has come up to Kyoto, they say—but here, is this the only one of his men?)
+
+"Who are you,"
+
+{j} said one man by the door, springing back. As if in answer, all at once they came up onto one knee and drew their swords near. Toshizō ran his eye down the whole party.
+
+(Every face of them looks a fair hand.)
+
+Toshizō softly took up the folds of his hakama and, with unhurried movements, hitched them at the hip.
+
+"This is an insolence—give your name,"
+
+"One called Hijikata Toshizō,"
+
+"What—"
+
+As one they rose. Toshizō's name already rang among the loyalist activists of Kyoto.
+
+"It was you gentlemen, was it not, who cut down a certain zasshō of the Kujō house at the Shijō bridgehead a while ago."
+
+"Th-that is—"
+
+{j} said a tall man by the door.
+
+"What of it—"
+
+"There is to be an inquiry. Come with us to the corps, if you please."
+
+No fool would go.
+
+For an answer the man by the door struck as he drew, a sidelong blow; Toshizō, heedless, leaped in, and in the instant the whole party caught its breath—"Ah!"—ran straight through the center of the room.
+
+Trampling down the paper screen as he went, he came out into the corridor and wheeled about to face the room.
+
+It was to cut off escape. For any who fled to the front, Okita was waiting. He was a brawler skilled enough to be called superb.
+
+"There's only one of them,"
+
+{j} one man shouted.
+
+"Ring him round and cut him down."
+
+"Mind the candle-stand. Start a fire, and in Kyoto they say you'll not be spoken to for three generations,"
+
+{j} It was Toshizō who said it. He held his sword in a low guard, sloping to the right.
+
+None of them came near.
+
+Behind Toshizō was the veranda.
+
+Beyond it ran a narrow garden, and past a single board fence was the Kamo riverbed.
+
+"Gentlemen, what are you afraid of,"
+
+{j} and the tall man who had been by the door came forward, quick and smooth, his sword at the middle guard.
+
+He feinted a strike at the gauntlet, and as he raised his fists, Toshizō's sword too rose a little. In that instant,
+
+{j} "a thrust—!"
+
+{j} and with a terrible battle-shout he flung his whole body in.
+
+But Toshizō had already dropped to one knee, stretched his neck, stretched his body, and driven his sword out to spit the man clean through the trunk.
+
+Drawing it back at once, he sprang the blood-spattered tatami and struck down another with a right diagonal cut.
+
+After that it was a melee of blades, one might say.
+
+The others could fight, too. As he was near to being cut down from behind, there was a lintel above Toshizō's head.
+
+With a crack the lintel rang. Toshizō turned in a flash, and there was a face.
+
+A Bushū face.
+
+In its eyes was terror.
+
+The man, wrenching his blade free, leaped down into the garden.
+
+Drawn after him, Toshizō leaped down too. The moss was cold to the soles of his feet.
+
+The man opened the back gate.
+
+Beyond was a drop at once. A stone wall of a good ten feet was built nearly sheer. Jump down, and one would wrench a foot.
+
+The man hesitated.
+
+The stars of early evening were out over the Higashiyama.
+
+"You there,"
+
+{j} said Toshizō.
+
+"Is Shichiri Kennosuke in good health?"
+
+"Hijikata,"
+
+{j} The man thrust his body out from the back gate into the dark void.
+
+"You'll pay for this,"
+
+{j} He jumped.
+
+"………"
+
+Toshizō looked back toward the room. Okita had come.
+
+Okita stood planted in the middle of the room, his sword already sheathed, his left hand thrust into his breast.
+
+A bold fellow.
+
+At his feet, two corpses. Okita's doing, no doubt.
+
+"Hijikata—shall we go back to the corps?"
+
+"Hm,"
+
+{j} and Toshizō, letting down the folds of his hakama,
+
+{j} "that man just now—he's a Kōgen Ittō-ryū man from Hachiōji."
+
+"One of Shichiri Kennosuke's followers, then,"
+
+"I let him go. A little more, and I'd have paid off the Bushū grudge. A pity, that."
+
+"You're a man who holds a grudge,"
+
+"That's the one thing—"
+
+{j} Toshizō stepped up onto the veranda.
+
+{j} "—that I'm good for."
+
+"A strange sort of merit,"
+
+"Sooner or later I'll run into Shichiri Kennosuke somewhere. A man of his stamp—he too must be waiting on it, and glad of the prospect."
+
+"Well, I'm amazed,"
+
+{j} Okita peered into Toshizō's face,
+
+{j} "you'd carry a country quarrel all the way to flowery Kyoto?"
+
+"That's right,"
+
+"For you, Hijikata, the realm and the nation, the miso and the whatnot, are all of a piece,"
+
+"I'm a brawler, that's why,"
+
+"The finest brawler in Japan. Only the pity of it is, Hijikata—with you there's the brawl and no cause of state."
+
+"That slander—did you get it from Yamanami Keisuke?"
+
+"What's the harm,"
+
+The two came out onto the street.
+
+Frightened, perhaps, by the clash of blades, Kiyamachi had shut its fronts along every eave and was holding its breath in silence.
+
+There was no one passing.
+
+The sound of the shamisen, too, had ceased.
+
+"This last affair wants settling. Let's stop at the ward-office. This way,"
+
+{j} and he set off north.
+
+As ill luck would have it, near the ward-office stood the back wall of the Chōshū mansion.
+
+(Dangerous.)
+
+Even a man like Okita thought so.
+
+When they went into the ward-office, the townsmen-officers had crowded in, having caught wind of the just-past uproar at the "Beniji."
+
+"Toshizō and Okita of Mibu. The six villains who cut down Lord Nozawa Tatewaki, retainer of the Kujō regent's house, at the Shijō bridgehead a while ago were drinking at the Beniji. We were to take them, but they resisted, so we cut them down. One got away."
+
+"Y-yes,"
+
+{j} They were all trembling.
+
+"Have you any coarse tea?"
+
+"Y-yes, sir,"
+
+One ran out and came back at once with a measure-box full of cold sake.
+
+"This is not coarse tea,"
+
+"No, sir,"
+
+"I said coarse tea,"
+
+Toshizō gave a fearsome look. Fresh from the killing, his blood was up after all. When the ward-office keeper brought it in a large tea-bowl,
+
+{j} "Sōji, drink,"
+
+{j} he said, and went out to the front. Coarse tea would be no medicine for a cough, but better than none, he thought.
+
+—A dog was barking.
+
+Toshizō began to walk south, keeping as near the riverbank as he could.
+
+It was the Takase River.
+
+Just as Okita came up from behind, a night-boat passed with its boat-lantern lit.
+
+On the west bank of that Takase River, from the north—the Chōshū mansion, the Kaga mansion, the Tsushima mansion, and a little south, the Hikone mansion, the Tosa mansion—the Kyoto residences of the several domains showed their white back walls.
+
+"Hijikata—that ward-office in Kiyamachi,"
+
+{j} said Okita, low.
+
+{j} "it's thick with Chōshū and Tosa, so it's cold to us, somehow."
+
+"And what of it,"
+
+"They'll have sent word to the Chōshū mansion that we came out this way—for certain."
+
+"Sōji—are you tired,"
+
+"Oh, come,"
+
+{j} said Okita.
+
+"I'm sturdier than you are, Hijikata. I can work another two hours yet."
+
+Toshizō stopped. Dogs began to bark noisily here and there.
+
+"Sōji—they've come, it seems,"
+
+"Behind us?"
+
+{j} Okita asked, still facing front.
+
+"Mm—behind."
+
+"There are some ahead, too,"
+
+The two walked on.
+
+From front and back, four or five to a side, the group ahead slowly, the group behind at a quick step, they closed the distance by degrees.
+
+"Sōji, spread out,"
+
+{j} said Toshizō. He meant to scatter the enemy's aim and cut his way through here.
+
+Okita drew off toward the eaves on the left. At the two edges of the road, the pair stopped at the same instant.
+
+Down the middle a knot of figures came walking. Every one a powerful samurai.
+
+They too stopped as one. Half faced Okita, half Toshizō.
+
+"What do you want,"
+
+{j} said Toshizō.
+
+"You there—are you a man of Mibu?"
+
+"I am,"
+
+"You are the one who committed the outrage at the Beniji a while ago."
+
+"I did no more than make an inquiry,"
+
+"The enemy of our comrades—!"
+
+He struck as he drew—and was cut clean in two. Toshizō, as if springing through, stepped out light and quick to the middle of the road.
+
+A corpse lay fallen.
+
+"No need for more killing than this,"
+
+{j} and, sheathing his sword, he began to walk briskly off.
+
+Okita's shadow was already going on ahead. His right shoulder shook of a sudden.
+
+He seemed to be coughing.

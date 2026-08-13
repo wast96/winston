@@ -423,6 +423,66 @@
       "pinyin": "Kōmei",
       "status": "attested",
       "note": "Reigned 1846&#8211;1867. Fiercely opposed to opening the country to foreigners, he lent the loyalist cause an imperial sanction the shogunate could not command."
+    },
+    "外島機兵衛": {
+      "en": "Toshima Kihee",
+      "pinyin": "Toshima Kihee",
+      "status": "attested",
+      "note": "A liaison officer (<i>k&#333;y&#333;gata</i>) of the Aizu domain in Kyoto, the corps&#8217;s channel to its patron the Kyoto Protector. Reading from the source&#8217;s furigana (&#12392;&#12376;&#12414;&#12365;&#12408;&#12360;)."
+    },
+    "島津久光": {
+      "en": "Shimazu Hisamitsu",
+      "pinyin": "Shimazu Hisamitsu",
+      "status": "attested",
+      "note": "Historical, 1817&#8211;1887. Father of the young lord of Satsuma and the domain&#8217;s effective ruler in these years; it was his procession the English crossed at Namamugi."
+    },
+    "佐々木唯三郎": {
+      "en": "Sasaki Tadasaburō",
+      "pinyin": "Sasaki Tadasaburō",
+      "status": "attested",
+      "note": "Historical, 1833&#8211;1868. A shogunal swordsman, later of the Mimawarigumi; killed Kiyokawa Hachir&#333; in 1863 and is widely thought to have led the killing of Sakamoto Ry&#333;ma in 1867. Shiba writes the given name &#21807;&#19977;&#37070;; he is also recorded as &#21482;&#19977;&#37070;."
+    },
+    "谷三十郎": {
+      "en": "Tani Sanjūrō",
+      "pinyin": "Tani Sanjūrō",
+      "status": "attested",
+      "note": "Historical, died 1866. Master of the T&#333;h&#333; Enshin-ry&#363; of spear and sword at Osaka and Harada Sanosuke&#8217;s former teacher; later a Shinsengumi captain."
+    },
+    "広沢富次郎": {
+      "en": "Hirosawa Tomijirō",
+      "pinyin": "Hirosawa Tomijirō",
+      "status": "attested",
+      "note": "An Aizu official (later known as Hirosawa Yasuto) who dealt with the Mibu corps at first hand; author of the record the <i>&#332;sh&#333;roku</i>, quoted here."
+    },
+    "九条尚忠": {
+      "en": "Kujō Hisatada",
+      "pinyin": "Kujō Hisatada",
+      "status": "attested",
+      "note": "Historical, 1798&#8211;1871. Head of the Kuj&#333; regent house and leader of the pro-shogunate nobles at court; hated by the loyalists, he shaved his head and withdrew after the terror of 1862. Reading from the source&#8217;s furigana (&#12402;&#12373;&#12383;&#12384;)."
+    },
+    "島田左近": {
+      "en": "Shimada Sakon",
+      "pinyin": "Shimada Sakon",
+      "status": "attested",
+      "note": "An agent of the Kuj&#333; house and of the shogunal side; cut down in Kiyamachi in the seventh month of 1862 by Satsuma&#8217;s Tanaka Shinbei, the first of the loyalist &#8220;Heaven&#8217;s punishment&#8221; killings."
+    },
+    "久坂玄瑞": {
+      "en": "Kusaka Genzui",
+      "pinyin": "Kusaka Genzui",
+      "status": "attested",
+      "note": "Historical, 1840&#8211;1864. A leading loyalist of Ch&#333;sh&#363;, disciple and son-in-law of Yoshida Sh&#333;in; died the next year in the Ch&#333;sh&#363; attack on the Forbidden Gate. Reading from the source&#8217;s furigana."
+    },
+    "山崎烝": {
+      "en": "Yamazaki Susumu",
+      "pinyin": "Yamazaki Susumu",
+      "status": "attested",
+      "note": "Historical, died 1868. Son of an Osaka acupuncturist and the Shinsengumi&#8217;s ablest inspector and spy, skilled with the staff; mortally wounded after the sea-fight of Miyako Bay."
+    },
+    "赤沢守人": {
+      "en": "Akazawa Morito",
+      "pinyin": "Akazawa Morito",
+      "status": "attested",
+      "note": "A Ch&#333;sh&#363; man who quit his domain and was taken into the corps as an informer against it; his killing, in 1863, is the case of this chapter. Reading of the given name from the source&#8217;s furigana (&#12418;&#12426;&#12392;)."
     }
   },
   "places": {
@@ -617,6 +677,42 @@
       "pinyin": "Mito",
       "status": "attested",
       "note": "A senior Tokugawa branch domain, and the intellectual seedbed of the revere-the-Emperor school; riven in these years by violent factional strife between its radicals (the Tengu Party) and conservatives."
+    },
+    "島原": {
+      "en": "Shimabara",
+      "pinyin": "Shimabara",
+      "status": "attested",
+      "note": "Kyoto&#8217;s licensed pleasure quarter, in the southwest of the city; the courtesan district that was to Kyoto what the Yoshiwara was to Edo."
+    },
+    "先斗町": {
+      "en": "Pontochō",
+      "pinyin": "Pontochō",
+      "status": "attested",
+      "note": "A narrow lane of teahouses and geisha between the Kamo River and Kiyamachi in central Kyoto."
+    },
+    "木屋町": {
+      "en": "Kiyamachi",
+      "pinyin": "Kiyamachi",
+      "status": "attested",
+      "note": "The street of taverns and inns along the Takase River; in these years a haunt of loyalist r&#333;nin, backing onto the Ch&#333;sh&#363; mansion."
+    },
+    "高瀬川": {
+      "en": "the Takase River",
+      "pinyin": "Takasegawa",
+      "status": "attested",
+      "note": "Not a river but a shallow canal, dug in the early seventeenth century to carry cargo boats (<i>takasebune</i>) between Kyoto and Fushimi; its west bank was lined with the Kyoto mansions of the domains."
+    },
+    "角屋": {
+      "en": "the Sumiya",
+      "pinyin": "Sumiya",
+      "status": "attested",
+      "note": "A great <i>ageya</i> (house of assignation) in the Shimabara quarter, where guests were entertained by courtesans summoned from the tay&#363; houses; the building survives in Kyoto."
+    },
+    "本能寺": {
+      "en": "the Honnō-ji",
+      "pinyin": "Honnō-ji",
+      "status": "attested",
+      "note": "The Kyoto temple where Oda Nobunaga was destroyed in 1582 by his own general Akechi Mitsuhide; by extension, in Rai San&#8217;y&#333;&#8217;s poem and in Toshiz&#333;&#8217;s thought, the place where the true enemy is found to lie."
     }
   },
   "organizations": {
@@ -685,6 +781,30 @@
       "pinyin": "Kyoto Shugoshoku",
       "status": "attested",
       "note": "The shogunal office created in 1862 to keep order in Kyoto, held by Matsudaira Katamori of Aizu; the Shinsengumi served under its authority."
+    },
+    "学習院": {
+      "en": "the Gakushūin",
+      "pinyin": "Gakushūin",
+      "status": "attested",
+      "note": "Not the later peers&#8217; school of the same name but a court institution of 1863: a hall within the Imperial Palace where sympathetic nobles met loyalist activists to debate policy toward the shogunate."
+    },
+    "新徴組": {
+      "en": "the Shinchōgumi",
+      "pinyin": "Shinchōgumi",
+      "status": "attested",
+      "note": "The &#8220;Newly Levied Corps.&#8221; The r&#333;nin who followed Kiyokawa back to Edo were reorganized under this name and set, under the Sh&#333;nai domain, to police the city; the corps lasted to the end of the shogunate."
+    },
+    "鴻池": {
+      "en": "the Kōnoike",
+      "pinyin": "Kōnoike",
+      "status": "attested",
+      "note": "The greatest merchant-and-banking house of Osaka, financiers to daimyo and shogunate alike."
+    },
+    "所司代": {
+      "en": "the Shoshidai",
+      "pinyin": "Shoshidai",
+      "status": "attested",
+      "note": "The Kyoto Deputy, the shogunate&#8217;s standing office for the government and policing of the capital, older and more regular than the Kyoto Protector under whom the Shinsengumi served."
     }
   },
   "terms": {
@@ -795,6 +915,36 @@
       "pinyin": "Kotetsu",
       "status": "attested",
       "note": "The prized blades of the Edo smith Nagasone Kotetsu. Kondō's famous &#8216;Kotetsu&#8217; was, by most accounts, a forgery; see the note where he hunts for one."
+    },
+    "局長": {
+      "en": "commander",
+      "pinyin": "kyokuchō",
+      "status": "decided",
+      "note": "<i>Kyokuch&#333;</i>, the title of a corps-captain in the Shinsengumi; three were made at the founding, to balance the Serizawa and Kond&#333; lines."
+    },
+    "副長": {
+      "en": "vice-commander",
+      "pinyin": "fukuchō",
+      "status": "decided",
+      "note": "<i>Fukuch&#333;</i>, second to the commander; Hijikata&#8217;s chosen post, from which he worked the corps."
+    },
+    "助勤": {
+      "en": "jokin",
+      "pinyin": "jokin",
+      "status": "decided",
+      "note": "A line officer of the corps, adjutant in quarters and platoon-leader in the field; the term borrowed from the student self-government of the sh&#333;gunal college."
+    },
+    "監察": {
+      "en": "inspector",
+      "pinyin": "kansatsu",
+      "status": "decided",
+      "note": "<i>Kansatsu</i>, the corps&#8217;s internal watch and intelligence officers, answering to the vice-commander."
+    },
+    "士道": {
+      "en": "the warrior's code",
+      "pinyin": "shidō",
+      "status": "decided",
+      "note": "<i>Shid&#333;</i>, the way of the warrior; the governing idea of the corps, and of this chapter. In the Shinsengumi it hardened into a written code whose central charge, &#8220;failure in the warrior&#8217;s code,&#8221; carried death."
     }
   }
 }
