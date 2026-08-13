@@ -294,6 +294,90 @@
       "pinyin": "Yóu Kěcháng",
       "status": "decided",
       "note": "The Chinese name taken by the former Japanese agent Itō Kinji after the war, when he stays on as the post office doorman. A fictional character; pinyin."
+    },
+    "姜泳男": {
+      "en": "Jiang Yongnan",
+      "pinyin": "Jiāng Yǒngnán",
+      "status": "decided",
+      "note": "Protagonist of Potassium Cyanide: a Korean surgeon, Kyoto-trained, pressed into the Japanese army after the fall of Wuhan and turned Nationalist agent. A fictional character; his Korean name would be read Kang Yong-nam, but the Chinese text and this translation give the Mandarin reading throughout."
+    },
+    "唐雅": {
+      "en": "Tang Ya",
+      "pinyin": "Táng Yǎ",
+      "status": "decided",
+      "note": "A Chinese-literature student turned Chongqing bailiff and executioner; the woman Jiang is ordered to kill. Fictional; her given name Ya means “refined, elegant.”"
+    },
+    "杨群": {
+      "en": "Yang Qun",
+      "pinyin": "Yáng Qún",
+      "status": "decided",
+      "note": "Chief of the security bureau in the Police Administration Department, Chongqing; a smooth, controlling policeman of thirty years and Tang Ya's former keeper. Fictional; pinyin."
+    },
+    "郭炳炎": {
+      "en": "Guo Bingyan",
+      "pinyin": "Guō Bǐngyán",
+      "status": "decided",
+      "note": "A captured Nationalist colonel whom Jiang helps escape, later revealed as a powerful figure in the Zhongtong; Jiang's controller. Fictional; pinyin."
+    },
+    "唐太太": {
+      "en": "Mrs. Tang",
+      "pinyin": "Táng tàitai",
+      "status": "decided",
+      "note": "Tang Ya's frail mother, who dies in the Jiaochangkou tunnel disaster. Fictional."
+    },
+    "唐先生": {
+      "en": "Mr. Tang",
+      "pinyin": "Táng xiānsheng",
+      "status": "decided",
+      "note": "Tang Ya's father, an engineer at the Hanyang Arsenal, drowned when his boat was sunk on the westward evacuation. Fictional."
+    },
+    "姜泳洙": {
+      "en": "Jiang Yongzhu",
+      "pinyin": "Jiāng Yǒngzhū",
+      "status": "decided",
+      "note": "Jiang Yongnan's elder brother, a follower of the Korean independence leader Kim Ku. Fictional; pinyin."
+    },
+    "岩井": {
+      "en": "Iwai",
+      "pinyin": "Yánjǐng",
+      "status": "decided",
+      "note": "Dr. Iwai, the Japanese surgeon whose Hankou clinic Jiang tended; deported when China took back the Japanese concession. Fictional; the surname is read in Japanese as Iwai."
+    },
+    "老金": {
+      "en": "Old Jin",
+      "pinyin": "Lǎo Jīn",
+      "status": "decided",
+      "note": "The veteran bailiff who oversees the Chongqing executions and watches over Tang Ya. Fictional; “Old” renders the familiar prefix lao."
+    },
+    "严副官": {
+      "en": "Adjutant Yan",
+      "pinyin": "Yán fùguān",
+      "status": "decided",
+      "note": "Guo Bingyan's aide-de-camp. Fictional; fuguan is a military adjutant."
+    },
+    "安德森": {
+      "en": "Anderson",
+      "pinyin": "Āndésēn",
+      "status": "decided",
+      "note": "An American diplomatic attaché, killed by Jiang in the back alley of the White Night bar. Fictional; the source's transliteration."
+    },
+    "小坂次郎": {
+      "en": "Kosaka Jirō",
+      "pinyin": "Xiǎobǎn Cìláng",
+      "status": "decided",
+      "note": "A Japanese newspaper correspondent whose feature on Jiang makes him a propaganda figure. Fictional; the name read in Japanese."
+    },
+    "祁先生": {
+      "en": "Mr. Qi",
+      "pinyin": "Qí xiānsheng",
+      "status": "decided",
+      "note": "The Nationalist intelligence handler who first recruits Jiang, passing him the cyanide-filled coin. Fictional; pinyin."
+    },
+    "金九": {
+      "en": "Kim Ku",
+      "pinyin": "Jīn Jiǔ",
+      "status": "attested",
+      "note": "Kim Ku (1876–1949), leader of the Korean independence movement and of the Provisional Government in exile; wounded in the 1938 Changsha shooting. Historical; attested Korean romanization."
     }
   },
   "organizations": {
@@ -530,6 +614,72 @@
       "pinyin": "Sì Yě",
       "status": "attested",
       "note": "The Fourth Field Army (第四野战军) of the PLA, Lin Biao&#8217;s army grown out of the Northeast forces; so renamed in 1949. Historical."
+    },
+    "中原司令部": {
+      "en": "the Zhongyuan Command",
+      "pinyin": "Zhōngyuán sīlìngbù",
+      "status": "decided",
+      "note": "The novella's name for the Japanese army command in the Wuhan region, where Jiang serves as a military doctor. Zhongyuan means “the Central Plains”; not a standard historical designation."
+    },
+    "中央警校": {
+      "en": "the Central Police Academy",
+      "pinyin": "Zhōngyāng Jǐngxiào",
+      "status": "attested",
+      "note": "The Central Police Academy (Nanjing, 1936), the Nationalists' police-officer school; Dai Li ran it as superintendent and used it to recruit for the Juntong."
+    },
+    "警政司": {
+      "en": "the Police Administration Department",
+      "pinyin": "Jǐngzhèng Sī",
+      "status": "decided",
+      "note": "The police-administration bureau of the Ministry of the Interior, where Yang Qun heads the security bureau."
+    },
+    "保安处": {
+      "en": "the security bureau",
+      "pinyin": "Bǎo'ān Chù",
+      "status": "decided",
+      "note": "The security office within the Police Administration Department; Yang Qun's posting."
+    },
+    "汉阳兵器厂": {
+      "en": "the Hanyang Arsenal",
+      "pinyin": "Hànyáng bīngqìchǎng",
+      "status": "attested",
+      "note": "China's oldest modern ordnance works, at Hanyang; dismantled and shipped west ahead of the Japanese advance."
+    },
+    "兵工署": {
+      "en": "the Ordnance Department",
+      "pinyin": "Bīnggōng Shǔ",
+      "status": "attested",
+      "note": "The National Government's ordnance directorate, which oversaw the arsenals and paid the arsenal workers' death benefits."
+    },
+    "红十字会": {
+      "en": "the Red Cross",
+      "pinyin": "Hóngshízìhuì",
+      "status": "attested",
+      "note": "The Red Cross; Jiang served with its Hankou branch before his arrest."
+    },
+    "东京日日新闻": {
+      "en": "the Tokyo Nichi Nichi Shimbun",
+      "pinyin": "Dōngjīng Rìrì Xīnwén",
+      "status": "attested",
+      "note": "A major Japanese daily (1872–1943), forerunner of the Mainichi Shimbun; the paper that ran the propaganda feature on Jiang."
+    },
+    "中央党部": {
+      "en": "the Central Party Headquarters",
+      "pinyin": "Zhōngyāng Dǎngbù",
+      "status": "attested",
+      "note": "The central headquarters of the Nationalist Party; Jiang carries its credentials, cover for his intelligence work."
+    },
+    "派遣军": {
+      "en": "the Expeditionary Army",
+      "pinyin": "Pàiqiǎn Jūn",
+      "status": "attested",
+      "note": "The Japan China Expeditionary Army, the umbrella command for Japanese forces in China, into which Jiang is conscripted as a colonial subject."
+    },
+    "隆盛参茸行": {
+      "en": "the Longsheng ginseng shop",
+      "pinyin": "Lóngshèng shēnróngháng",
+      "status": "decided",
+      "note": "A Shapingba shop dealing in ginseng and deer-antler, a front for a Japanese intelligence station. Fictional."
     }
   },
   "places": {
@@ -826,6 +976,120 @@
       "pinyin": "Wàibáidù Qiáo",
       "status": "attested",
       "note": "The steel bridge (opened 1908) over Suzhou Creek at the Bund, known in English as the Garden Bridge. Historical."
+    },
+    "汉口": {
+      "en": "Hankou",
+      "pinyin": "Hànkǒu",
+      "status": "attested",
+      "note": "One of the three towns of Wuhan, on the north bank of the Yangtze; site of Jiang's clinic and of the former Japanese concession."
+    },
+    "武昌": {
+      "en": "Wuchang",
+      "pinyin": "Wǔchāng",
+      "status": "attested",
+      "note": "One of the three towns of Wuhan, on the south bank; site of the university requisitioned as a Japanese hospital."
+    },
+    "武昌大学": {
+      "en": "Wuchang University",
+      "pinyin": "Wǔchāng Dàxué",
+      "status": "decided",
+      "note": "The source's name for the university at Mount Luojia, whose canteen becomes the Japanese wounded-soldiers' hospital; the campus is National Wuhan University's."
+    },
+    "珞珈山": {
+      "en": "Mount Luojia",
+      "pinyin": "Luòjiā Shān",
+      "status": "attested",
+      "note": "The wooded hill in Wuchang on which National Wuhan University stands."
+    },
+    "四杂街": {
+      "en": "Sizajie",
+      "pinyin": "Sìzá Jiē",
+      "status": "decided",
+      "note": "The Hankou street where the Iwai clinic and the little church stood. The name's first character means “four”; it is not a count."
+    },
+    "东湖": {
+      "en": "East Lake",
+      "pinyin": "Dōng Hú",
+      "status": "attested",
+      "note": "The large lake east of Wuchang, across which Jiang rows the escaping Guo Bingyan."
+    },
+    "长江": {
+      "en": "the Yangtze",
+      "pinyin": "Chángjiāng",
+      "status": "attested",
+      "note": "The Yangtze River."
+    },
+    "广州": {
+      "en": "Guangzhou",
+      "pinyin": "Guǎngzhōu",
+      "status": "attested",
+      "note": "The southern port city (Canton) where Jiang's brother is said to have gone."
+    },
+    "沙坪坝": {
+      "en": "Shapingba",
+      "pinyin": "Shāpíngbà",
+      "status": "attested",
+      "note": "A district of wartime Chongqing, thick with schools, offices, and government hostels."
+    },
+    "朝天门码头": {
+      "en": "the Chaotianmen Wharf",
+      "pinyin": "Cháotiānmén mǎtóu",
+      "status": "attested",
+      "note": "Chongqing's principal wharf, at the tip of the peninsula where the Jialing meets the Yangtze."
+    },
+    "川东师范": {
+      "en": "the East Sichuan Normal School",
+      "pinyin": "Chuāndōng Shīfàn",
+      "status": "decided",
+      "note": "A teachers' college in Chongqing; in the story, the Zhongtong's public front."
+    },
+    "中山二路": {
+      "en": "Zhongshan Second Road",
+      "pinyin": "Zhōngshān Èrlù",
+      "status": "decided",
+      "note": "A Chongqing thoroughfare."
+    },
+    "莲花池": {
+      "en": "Lianhuachi",
+      "pinyin": "Liánhuāchí",
+      "status": "decided",
+      "note": "A Chongqing street corner with a Korean noodle shop, Jiang's planned rendezvous."
+    },
+    "莲花湖": {
+      "en": "Lotus Lake",
+      "pinyin": "Liánhuā Hú",
+      "status": "decided",
+      "note": "A lake near the Longsheng shop, where Jiang's body is to be “found.”"
+    },
+    "安溪": {
+      "en": "Anxi",
+      "pinyin": "Ānxī",
+      "status": "attested",
+      "note": "A county in Fujian, Yang Qun's birthplace and the home of Tieguanyin tea."
+    },
+    "涪陵": {
+      "en": "Fuling",
+      "pinyin": "Fúlíng",
+      "status": "attested",
+      "note": "A district on the Yangtze upstream of Chongqing, source of the local rice liquor in the bar's cocktail."
+    },
+    "中华路": {
+      "en": "Zhonghua Road",
+      "pinyin": "Zhōnghuá Lù",
+      "status": "decided",
+      "note": "A street in central Chongqing; the White Night bar stands at its junction with Linjiangmen."
+    },
+    "临江门": {
+      "en": "Linjiangmen",
+      "pinyin": "Línjiāngmén",
+      "status": "attested",
+      "note": "A gate and district on the Jialing side of old Chongqing."
+    },
+    "White night酒吧": {
+      "en": "the White Night",
+      "pinyin": "White night jiǔbā",
+      "status": "decided",
+      "note": "A Chongqing bar, once a foreign correspondents' club. Fictional; the source keeps the English name."
     }
   },
   "terms": {
@@ -960,6 +1224,42 @@
       "pinyin": "shìlínbù",
       "status": "attested",
       "note": "Cotton dyed with Indanthren, the German synthetic vat-dye prized for not fading; ubiquitous in 1930s&#8211;40s China. Historical."
+    },
+    "法警": {
+      "en": "bailiff",
+      "pinyin": "fǎjǐng",
+      "status": "decided",
+      "note": "A court officer of the judicial police; here the corps also carries out the death sentences it guards."
+    },
+    "氰化钾": {
+      "en": "potassium cyanide",
+      "pinyin": "qínghuàjiǎ",
+      "status": "decided",
+      "note": "The fast-acting poison that gives the novella its title; carried by agents as a means of suicide on capture."
+    },
+    "铁观音": {
+      "en": "Tieguanyin",
+      "pinyin": "tiěguānyīn",
+      "status": "attested",
+      "note": "A prized oolong tea from Anxi in Fujian; “Iron Goddess of Mercy.”"
+    },
+    "驼峰": {
+      "en": "the Hump",
+      "pinyin": "tuófēng",
+      "status": "attested",
+      "note": "The Allied airlift route over the eastern Himalayas from India to Nationalist China after the Burma Road was cut."
+    },
+    "禁娱令": {
+      "en": "the ban on entertainment",
+      "pinyin": "jìnyúlìng",
+      "status": "decided",
+      "note": "The wartime government's prohibition of dance halls and public amusements in the capital."
+    },
+    "土地庙": {
+      "en": "earth-god shrine",
+      "pinyin": "tǔdìmiào",
+      "status": "decided",
+      "note": "A small shrine to the local earth-god (Tudi), the humblest deity of Chinese folk religion; here a hiding place for a wireless set."
     }
   }
 }

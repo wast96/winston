@@ -1,0 +1,111 @@
+## 3
+
+The White Night bar had begun as a club for the correspondents stationed in Chongqing, at the crossing of Zhonghua Road and Linjiangmen in the heart of the city; only when the Pacific War broke out did it change its face, and it soon sank into being one of this mountain city's famous haunts of wine and flesh. Every night people came here to make merry and drink themselves into a stupor, and it was not until near curfew that a blind Black man would come down from upstairs and begin to play the saxophone. That mournful melody was full of longing for home, and it broke the heart. On the nights when the air-raid sirens suddenly sounded, above all, the drunken crowd would start awake and stampede for the doors, while the Black man played on as though he neither knew nor felt a thing. He stood in the pitch-black space, and the music he drew out was at times like weeping, like the panting of Death before the revels come.
+
+In truth what Tang Ya was more taken with was a still-unnamed cocktail at the White Night. It was mixed from American vodka and a local rice liquor out of Fuling.
+
+"It's like a bullet—it drops a man where he stands." Old Jin could never keep from saying the same thing each time he brought his men here. And when he had said it, they would all raise the cup of milky liquid with him and pour it slowly out on the floor.
+
+This was an unwritten rule of the Chongqing bailiffs' corps: on any day an execution had been carried out, all the men of the firing detail would gather that night and scour the reek of blood from their bodies with the strongest liquor they could find, then drink themselves blind, all so as to forget the faces of the condemned that the bullets had shattered.
+
+Tang Ya still remembered the day of her first execution. The officer had already swept down the command flag, and the hand in which she held the rifle was shaking yet, her whole body gone soft as if she were the one facing the bullet.
+
+Old Jin, who oversaw the executions, watched her from a distance. "Stand straight. Three points in a line. Just pretend you're on the range."
+
+The shot came at last. Tang Ya pulled the trigger almost with her eyes shut. The bullet punched through the condemned man's shoulder blade and knocked him to the ground. Over his wailing Old Jin took up a pistol, stepped forward, and blew his skull apart with a single shot. Looking at the brains spattered on his boots, he stamped his foot hard and swore: "Little bastard."
+
+But all that was the past now. For a bailiff who had stood on the execution ground, life and death lay only between the commands of "Ready" and "Fire." Only, on many sleepless nights, Tang Ya could never keep from coming here alone, as if sleepwalking. She had found that the liquor was nothing at all like a bullet, but a screaming shell that passed through the throat and burst inside the body. The feeling raged like fire, and she liked it. She would let herself drink into oblivion amid the din, then wake before daybreak and lie in the dark with her eyes wide open, looking at the strange rooms and at the strange face on the pillow.
+
+Much of the time she even felt that those strange men were a kind of sleeping draught.
+
+The night Jiang Yongnan appeared out of nowhere, the "sleeping draught" Tang Ya had picked out for herself was a young air force captain. Two days before, he had flown a transport plane over the Hump of the Himalayas. The liquor swiftly warmed the newly met pair to each other, as if the two of them had searched the sea of people for years and only now, at this moment, met. Emboldened by drink, the air force captain drew Tang Ya's hand into his flight jacket and ran it up under his ribs, saying a splinter of shrapnel was lodged there still, and that each time he pulled the plane into a climb he could hear it grinding in the bone.
+
+Tang Ya's gaze went rigid in an instant. Over the air force captain's shoulder she had caught sight of the doctor from those years ago. Jiang Yongnan, in a felt hat and a gray robe, did not linger once he had pushed through the door; holding his hat, he cut quickly through the crowd, trailing a tall, fair-haired man toward the back door.
+
+After a moment's hesitation Tang Ya drew back her hand, snatched the handbag from the bar, and turned to go, only to be caught by the captain.
+
+"Where are you off to?" the captain said, drunk but shrewd. "That's called standing a man up."
+
+Tang Ya wrenched hard and could not pull free of his grip, so offhandedly she used a counter-hold—a wrist-grab and twist. The captain caught himself on the bar and managed not to fall; it took him a while to place the move, which he too had learned back at the military academy.
+
+Beyond the back door of the White Night was an alley that led to the old city wall by the river. Just now the wind was parting the night mist that drifted in off the Jialing. Not until Tang Ya saw the blood spray from between the fingers the fair-haired man clamped to his neck did the liquor leave her entirely.
+
+The next day, seated in the office of the security-bureau chief of the Police Administration Department at the Ministry of the Interior, Tang Ya watched Yang Qun himself finish taking her statement and wave the clerk out. He took a cigarette from a silver case, tapped it lightly against the lid, came around the desk to stand before Tang Ya, and with a narrow smile held the lit cigarette to her lips.
+
+Tang Ya looked straight past it, her hands on her knees, and sat up straighter still.
+
+"I do like the look of you in that police uniform." Yang Qun drew his hand back, pulled a deep draw on the cigarette, and settled half-seated on the edge of the desk. Through the smoke he breathed out he called her, with feeling, Xiao Ya. "Come back. Stop being willful. Come back, and we'll act as though none of it ever happened."
+
+Tang Ya shot to her feet. "Sir, if there are no further instructions, permit me to withdraw."
+
+With that she took the police cap from the desk, tucked it under her arm, and snapped to attention.
+
+"You've worn that uniform three years now—when have you ever seen the Police Administration Department take a hand in a criminal case?" As he spoke Yang Qun reached out, pressed her by the shoulders back down into the chair, then went around to sit behind the desk again. "An American diplomat has had his windpipe and his left carotid cut through with a single stroke. Do you know what that means?" He waited, and when Tang Ya did not speak, he leaned back in the chair and sighed. "You've studied criminal investigation. You tell me about that stroke."
+
+The young doctor's face flashed before her eyes again. Tang Ya said, "To sever the windpipe and the carotid with one cut takes not only a precise hand and no little strength of wrist, but a knowledge of the body's structure—at the least, the structure of the neck . . . The killer very likely has some background as a surgeon, or in human anatomy . . ."
+
+"A professional killer could manage it. The killer is an agent." Yang Qun cut her off. "But have you thought—an agent for which side?"
+
+Tang Ya widened her eyes and feigned surprise. "You mean the Japanese?"
+
+"Whoever it is, we have to give the American side an account," said Yang Qun. "And you are the only witness."
+
+"I'm not the only witness," said Tang Ya. "Plenty of people saw that body last night."
+
+"Xiao Ya, I've been thirty years a policeman. Save that talk for someone else." The smile came back to Yang Qun's face. He pointed at the thick stack of papers on the desk. "The statements from everyone at the bar are all here . . . Why did you go out by that back door?"
+
+Tang Ya started. "I'd had too much to drink. I went out for air."
+
+"You're lying. You know the dead man, or the killer." Yang Qun's gaze bored into her like fire. "Or else . . . you know them both."
+
+Guo Bingyan's residence stood beside a temple in the outskirts, a near neighbor to a handful of monks. When Adjutant Yan led Jiang Yongnan into the study, Guo Bingyan was in Chinese house clothes, seated cross-legged on a rattan couch like a lay devotee at his practice, his eyes shut, listening to the wooden fish and the chanting of sutras that carried over the courtyard wall.
+
+"Do you know why I chose this place to begin with?" Guo Bingyan slowly opened his eyes and looked out the window. "The sound of the sutras is like a lament. It can wash the killing air off us."
+
+"Anderson was an expert." Jiang Yongnan lowered his head in apology. "If I hadn't killed him, the dead man would have been me."
+
+Guo Bingyan rose and went to the desk, took a sheaf of photographs from a drawer, and spread them out one by one. Besides the aerial terrain maps with their crosshair coordinates, two of them were covered close with rows of figures.
+
+"This is the roll of film you intercepted." Guo Bingyan sat down in the chair. "If these photographs had fallen into Japanese hands, our airfields all across the southwest would have met with utter ruin."
+
+Jiang Yongnan did not look at the photographs, but stood straight and said, "Anderson was only a diplomatic attaché. He had no access to front-line military intelligence."
+
+"His accomplices are no concern of ours—we need only hand the evidence to the American consulate and they'll be dug out to the last man . . . But then what? A diplomat turns traitor and goes over to the enemy, with confederates in the military besides—it would be the greatest scandal for the American forces on the whole Asian front . . . Tell me, would the Americans ever own to it?" Not waiting for Jiang Yongnan to answer, Guo Bingyan shook his head and went on, "And if they won't own to it, then someone has to come forward as the scapegoat."
+
+Jiang Yongnan made to speak, then held back. His face had long since gone pale.
+
+But Guo Bingyan smiled. He leaned and drew a file folder from the drawer and passed it to him. "Sometimes wiping your backside clean is precisely how you keep your head."
+
+On the file's first page was pasted a standard photograph of Tang Ya in a bailiff's uniform; she looked so spirited and bold in it. Jiang Yongnan thought at once of that morning at the Hankou wharf, seeing them off. In his brand-new Japanese army medical uniform, case in hand, he had walked the mother and daughter aboard the ship. Nearing the cabin entrance, Mrs. Tang had stopped, hesitating, and looked at Jiang Yongnan with an expression of many feelings mixed; in her heart she thought it would not be a bad thing at all to have such a son-in-law, but she could not bring herself to say it. After faltering a while, Mrs. Tang could only murmur, "Doctor Jiang, you are the great benefactor of the two of us. We'll remember your great kindness, we'll surely repay you."
+
+Jiang Yongnan set down the case. He looked at Tang Ya. "It's nothing. You'll be reunited with Mr. Tang soon."
+
+With that he made the mother and daughter a slight bow, but in the instant he turned away he felt the urge to turn back and take the woman into his arms, as if truly parting from a betrothed wife, to bury his face in her hair and draw the scent of her deep into his lungs. Not until he was off the ship and standing in the crowd did Jiang Yongnan turn to look back. He saw Tang Ya still standing at the cabin entrance, her hand on the rail, gazing down at him without moving.
+
+The wind stirred the hem of her cheongsam.
+
+In fact, in the back alley of the White Night, Jiang Yongnan had been thrown to the ground in short order by the attaché Anderson, a skilled fighter, who had gripped him by the throat with both hands. It was in the moment of dying that he saw Tang Ya; the wind stirred the hem of her cheongsam.
+
+Tang Ya kicked the fallen scalpel to his hand, and only then did Jiang Yongnan cut through the attaché's windpipe and artery with a single stroke.
+
+When Jiang Yongnan crawled up out of the warm blood, the attaché had not yet breathed his last and still writhed on the ground. Just then it was he who spoke, three words only, to her: "Get away, now."
+
+When the sound of Tang Ya's shoes hurrying away over the flagstones came back into his ears, Guo Bingyan tapped the cover of the file with a finger and said, with weight, "To mend the fold after the sheep is lost is still not too late."
+
+Jiang Yongnan said stubbornly, "She was only a woman who'd had too much to drink."
+
+"This woman happens to be a graduate of the special-training class at the Central Police Academy." Jiang Yongnan understood well enough what Guo Bingyan was driving at. The academy's dean of studies had always been held concurrently by the director of the Juntong. For years Dai Li had drawn great numbers of young cadets into the Juntong and then planted them in one government department after another. In Chongqing this was no secret. At this Guo Bingyan lifted his face. "I have never feared to face an enemy. But we cannot fail to guard against the hidden hands at our backs."
+
+Jiang Yongnan lowered his head. "Yes."
+
+With that he brought his heels together with a soldier's snap, turned, and left.
+
+As he reached the doorway Guo Bingyan suddenly asked, "In the twenty-seventh year of the Republic, you'd have been in Hankou, I take it?"
+
+"In Wuchang." Jiang Yongnan stopped, turned slowly, and looked at his superior with a placid gaze. "I was at the Japanese Zhongyuan Command, serving as a medical officer at the hospital for the wounded."
+
+"And before that your clinic was on Sizajie in Hankou." Guo Bingyan took up the file again and opened it. "Which would make this Officer Tang something of an old neighbor of yours."
+
+"We were acquainted," said Jiang Yongnan, his face without expression. "But our paths never crossed."
+
+"Crossed or not, it hardly matters . . . What youth is not moved by love, and what maiden does not yearn in spring?" Guo Bingyan said it in a tone of worldly understanding, set down the file in his hand, and leaned back in the chair. "Leave behind the smallest thread, and it draws out a whole string of troubles . . . If you can't bring yourself to do it, I can send someone else."

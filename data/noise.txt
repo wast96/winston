@@ -143,3 +143,18 @@
 # 飘零 "drift/flutter down (of snow, petals, leaves)"; the 零 is the verb, not
 # the number zero — rendered "drifting down".
 飘零
+# 四杂街 "Sizajie", a street name in Hankou; the 四 is part of the toponym,
+# not a count — rendered "Sizajie".
+四杂街
+# 金九 "Kim Ku", the Korean independence leader; the 九 is part of his name,
+# not a count — rendered "Kim Ku".
+金九
+# 百感交集 "a hundred feelings welling up at once / a rush of mixed emotion";
+# the 百 (hundred) is idiomatic, not a count — rendered "many feelings mixed".
+百感交集
+# 一了百了 "settle it once and for all / one thing ended, all things ended";
+# 一 and 百 are idiomatic, not counts — rendered "end it once and for all".
+一了百了
+# 三水湾 "Sanshuiwan", a place name near Chongqing; the 三 is part of the
+# toponym, not a count — rendered "Sanshuiwan".
+三水湾

@@ -609,3 +609,129 @@ commander, and dies later in Korea. In the Afterword: twenty years on (the
 Cultural Revolution), Su Lina, head shaved, drowns in Suzhou Creek; another ten
 years and Zhongliang retires, buries her ashes by the river at Xietang, and each
 Qingming burns her a letter in fine fly's-head script.
+
+## Batch B06 — Potassium Cyanide 1-5 (ch31-ch35) — OPENS 氰化钾 (third novella)
+
+New, third novella, read cold; no cast carryover from The Rebel or The Postman.
+Source files data/src/34_part0032.txt .. 38_part0036.txt. Doubled heading line
+per file (skip=2), confirmed by sed on each head before trusting it. No
+extractor-splits: every body line ends in a terminal char; no U+200B; no doubled
+body lines. Grepped each unit for source note markers `\[\d+\]`: NONE PRESENT in
+any of ch31-ch35 (consistent with the whole book).
+
+Paragraph counts (one English paragraph per source body line, parity machine-
+enforced by make_bilingual): ch31 52, ch32 46, ch33 55, ch34 49, ch35 50 (252
+paragraphs). title_en is the installment number (1..5); skip=2 for all.
+
+Checks — ALL GREEN:
+- verify_unit (parity + numbers with data/noise.txt + anchors): ch31 52 pairs,
+  ch32 46, ch33 55, ch34 49, ch35 50, all 0 unresolved. Anchors: ch31 9, ch32 8,
+  ch33 6, ch34 5, ch35 7 — all ok.
+- check_align: all five OK (median en/han 3.96 / 4.17 / 4.37 / 4.30 / 4.42, no
+  pair strays > 2.2x).
+- check_content --config review/content_config.json: content alignment OK across
+  all units (124 glossary names usable as anchors; ch31 66 name occurrences,
+  ch32 58, ch33 80, ch34 74, ch35 67 — all in the paired paragraph).
+- qc_entities: 0 misses on all five (after new glossary rows merged).
+- check_register --ref reference/ch01.md: within tolerance for all five
+  (contr/1k vs ref: ch31 2.93x, ch32 1.25x, ch33 1.09x, ch34 1.70x, ch35 1.35x;
+  all flagged "little dialogue — noisy", the expected note for narration-heavy
+  units; em-dash/1k 2.2-3.4, well under threshold). ch01 remains the FROZEN
+  reference (not re-frozen).
+- check_apparatus: 0 failures, 0 warnings.
+- Tail verification (rule 4 corollary): final 2 paragraphs of each of ch31-ch35
+  read against the source explicitly; faithful and complete, no invented tail.
+  Note ch32 p44: the third-person "他" in Jiang's reported argument refers to
+  Jiang himself (he dies either way), not to Guo — rendered accordingly.
+
+Numbers / noise added this batch (non-quantitative source numerals, each
+commented in data/noise.txt; NEVER a real quantity):
+- 四杂街 (Sizajie, the 四 is a toponym), 金九 (Kim Ku, the 九 is a name),
+  百感交集 (百 idiomatic), 一了百了 (一/百 idiomatic), 三水湾 (Sanshuiwan,
+  the 三 is a toponym). Real quantities kept in the English: 二十四小时 rendered
+  "twenty-four hours a day" (not noised), 半个小时 "half an hour".
+
+Digitization glitches: one — ch32 (35_part0033) prints 祁先先 for 祁先生 (Mr. Qi)
+in body para 44 (a dittography/typo). Rendered to plain sense ("Mr. Qi"); a
+mechanical typo, not footnoted. No other glitches in ch31-ch35. Variant toponym:
+the source writes 都邮街 for Chongqing's 督邮街 (Duyou Street, already in the
+glossary from The Rebel); rendered consistently "Duyou Street" (not re-added to
+the glossary to avoid a same-en duplicate row).
+
+Footnotes: 35 added (book total 202 -> 237). Every historical claim fact-checked
+against real scholarship (Wikipedia / Baidu Baike / Cambridge Core / CGTN /
+academic; NEVER an AI-written source), with the verdict stated in the note:
+- ch31 (9): Japanese "devils"/"running dog" slur (texture); Battle of Wuhan
+  (Jun-Oct 1938, city fell 27 Oct 1938; corroborated); Japanese concession in
+  Hankou (est. 1898, China seized it 13 Aug 1938 as the Hankou No. 4 Special
+  Zone, formally ceded to Wang regime 1943; corroborated); Kyoto Imperial
+  University (founded 1897; historical); Kim Ku's shooting in Changsha (7 May
+  1938, Nammok Hall, shooter Yi Un-han, Kim wounded but survived; corroborated);
+  Korean Provisional Government (Shanghai 1919, moved Changsha->Chongqing;
+  corroborated); 落叶归根 idiom (texture); the Expeditionary Army (China
+  Expeditionary Army; historical); telling name 唐雅/Ya = "refined" (texture).
+- ch32 (8): cherry trees at Mt Luojia (Japanese army planted them spring 1939 at
+  the requisitioned Wuhan University campus to ease wounded men's homesickness;
+  origin of WHU's famous blossoms; corroborated); 支那/"Shina" (Japanese term of
+  contempt for China; corroborated); Greater East Asia Co-Prosperity Sphere
+  (corroborated); Tokyo Nichi Nichi Shimbun (1872-1943, forerunner of Mainichi;
+  corroborated); 大丈夫能屈能伸 idiom; 跳进黄河洗不清 idiom; the meiyu plum-rain
+  season (climate/custom); potassium cyanide + the coin (tradecraft/motif;
+  historical).
+- ch33 (6): the Pacific War (Dec 1941; corroborated); the Hump airlift
+  (over the E. Himalayas after the Burma Road cut 1942; corroborated); Central
+  Police Academy + Dai Li as superintendent recruiting for the Juntong (Chiang
+  titular head, Dai Li ran it; corroborated); 亡羊补牢 chengyu; Goethe couplet
+  via Guo Moruo's Werther translation (corroborated); ROC calendar (Republic
+  yr 27 = 1938; corroborated).
+- ch34 (5): Jiaochangkou air-raid tunnel disaster (5 Jun 1941, deadliest single
+  incident of the Chongqing bombing; toll CONTESTED — Nationalist ~1,000, later
+  2,500+, popular memory far higher, source's 成千上万/"tens of thousands" at the
+  high end; corroborated event, toll flagged); Hanyang Arsenal (1890s, Zhang
+  Zhidong, moved west; corroborated); the wartime ban on entertainment
+  (historical); 守株待兔 chengyu; 破鞋 slang (texture).
+- ch35 (7): East Sichuan Normal School as the Zhongtong's public front (the
+  concealment is standard tradecraft but the specific placement is the
+  novella's — flagged "plausible", not asserted as record); Chaotianmen Wharf
+  (Jialing/Yangtze confluence; corroborated); Tieguanyin/Anxi tea (material
+  culture; corroborated); 漏网之鱼 chengyu; 刀头舔血 idiom; 海底针 "a woman's
+  heart" proverb; 温暾水 idiom (texture).
+
+Glossary: 50 rows added (book total 156 -> 206); 1 already present (长沙 Changsha,
+left untouched). Every row carries category / status / pinyin. People (14):
+Jiang Yongnan, Tang Ya, Yang Qun, Guo Bingyan, Mrs. Tang, Mr. Tang, Jiang
+Yongzhu, Iwai, Old Jin, Adjutant Yan, Anderson, Kosaka Jiro, Mr. Qi, Kim Ku
+(attested). Organizations (10): the Zhongyuan Command, the Central Police
+Academy, the Police Administration Department, the security bureau, the Hanyang
+Arsenal, the Ordnance Department, the Red Cross, the Tokyo Nichi Nichi Shimbun,
+the Central Party Headquarters, the Expeditionary Army, the Longsheng ginseng
+shop. Places (17): Hankou, Wuchang, Wuchang University, Mount Luojia, Sizajie,
+East Lake, the Yangtze, Guangzhou, Shapingba, the Chaotianmen Wharf, the East
+Sichuan Normal School, Zhongshan Second Road, Lianhuachi, Lotus Lake, Anxi,
+Fuling, Zhonghua Road, Linjiangmen, the White Night. Terms (6): bailiff,
+potassium cyanide, Tieguanyin, the Hump, the ban on entertainment, earth-god
+shrine. No principal flags added (matching The Postman's decision; the cast
+page stays the six Rebel principals).
+
+NOT re-noted (already covered book-wide; checked notes.json first): Chongqing,
+Mount Gele, the Jialing River, the Juntong, the Zhongtong, Dai Li (re-invoked in
+the Central Police Academy note, not a fresh Dai Li note), the Whampoa Academy,
+the Battle of Shanghai (ch03), the silver dollar/大洋 (ch26), cheongsam (glossary
+only), rickshaw, Hongkou. Korea-as-Japanese-colony (ch26) referenced, not
+re-noted.
+
+Build: cumulative EPUB rebuilt — out/the_rebel.epub, 35 of 51 chapters, 237
+notes, 0 source notes. qa_epub PASS (65 files, 58 documents, all links resolve;
+237 refs = 237 bodies = 237 backlinks). epubcheck 5.1.0 clean
+(0 fatals / 0 errors / 0 warnings / 0 infos). Cover verified BYTE-IDENTICAL to
+data/figs/cover00144.jpeg (118,732 bytes). Committed and pushed to
+claude/the-rebel.
+
+Setup this session: ./setup.sh — pillow present, epubcheck jar in place. Checker
+regression suite reports the SAME ONE known-false failure ("hook stands down on
+template stub"); HANDOFF carries a live kickoff, not the template stub, so the
+hook correctly demands the kickoff. Not a real defect. data/src was empty at
+session start (gitignored); re-ingested with scripts/ingest_epub.py source.epub.
+Stray per-session branch (claude/the-rebel-b06-izg4qu) was identical to
+origin/claude/the-rebel with no stranded commits; consolidated onto
+claude/the-rebel and deleted (local + remote already pruned).
