@@ -244,6 +244,31 @@ UNITS = {
         "glued": {},
         "standalone": [3, 51, 97, 131, 185],
     },
+    "ch16": {
+        "file": "17_index-split-000-0015.txt",
+        "title": "第六章 奸伪卑劣 寿张为幻",
+        "drop": 2,             # running header + <h2> chapter title
+        # 121 source <p> (proven p-by-p against the source XHTML, zero mismatches;
+        # no <br/>, no images, no set-off formatting). TWO mid-phrase splits where
+        # the SOURCE broke one sentence across two <p> (faithfully reproduced by
+        # the extractor), both inside the two long quoted Wang documents:
+        #   L65/66 (行状: ...茫茫后死之感，何时|已乎！ — split mid-clause);
+        #   L96/97 (举一个例: ...何况现时|除第三国际外... — split mid-clause).
+        # The meeting-record ATTENDEE ROSTER inside 「举一个例」 (L85 出席/时间/地址,
+        # L86 列席, L87 主席/秘书长/秘书主任) breaks across three <p>: these are
+        # DELIBERATE document formatting, NOT extractor splits, and are NOT merged
+        # (cf. ch12/ch13/ch15 quoted documents). The many ：-ended lead-ins (L18,
+        # L80, L104) and the two quoted-document title lines (L64 曾仲鸣先生行状,
+        # L81 举一个例) are DELIBERATE separate <p> and are NOT merged. The chapter
+        # body carries an in-text "(第六章完)" coda at L117 (cf. ch12/ch13), after
+        # which four further <p> (L118-121) close Part Two and bridge to Part Three.
+        "merges": [(65, 66), (96, 97)],
+        # four sub-headings, all numbered-in-parens (一)-(四) (cf. ch12/ch15):
+        # (一),(三),(四) are each their own <p> (standalone); (二) is GLUED onto the
+        # tail of a preceding <p> (cf. ch08) and is split off as its own heading.
+        "glued": {48: "(二)曾仲鸣事汪以忠虽枉死应无怨尤"},
+        "standalone": [3, 76, 111],  # (一),(三),(四)
+    },
 }
 
 

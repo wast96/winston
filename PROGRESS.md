@@ -1335,3 +1335,127 @@ Lang Street / the Continental Hotel (B08); the Republican-calendar convention;
 - `glossary.json` — 郑邦国 renamed to 陈邦国; ~12 rows added; sectioned, hand-merged.
 - `out/ch13_reading.md` + `out/ch13_en.json` — Zheng Bangguo → Chen Bangguo (name
   reconciliation; ch13 re-verified green).
+
+---
+
+## Batch B11 — ch16 (Part Two, Chapter 6)
+
+第六章 奸伪卑劣 寿张为幻 "Chapter 6. Vile Treachery, Illusions Undone" — the
+reckoning-and-indictment chapter closing Part Two. Chen owns the Hanoi failure,
+escapes to Chongqing, then mounts a documentary indictment of Wang Jingwei:
+he quotes IN FULL two of Wang's own texts — the eulogy 「曾仲鸣先生行状」 (dated
+6 Apr 1939) and the apologia 「举一个例」 (9 Apr 1939, enclosing the doctored record
+of the 国防最高会议第五十四次常务委员会议 with its attendee roster) — rebuts them, and
+copies out Chiang's 17 Apr press conference and Wu Jingheng's 9,000-word essay
+「对汪精卫「举一个例」的进一解」. 116 body paragraphs; **8 new notes (193 cumulative)**;
+**34 glossary rows** added. All checks green; qa_epub PASS; epubcheck 0/0/0/0.
+EPUB now **16/43 chapters**.
+
+### Structure
+- drop=2 (running header 英雄无名-陈恭澍 + <h2>). Confirmed p-by-p against
+  data/src_epub/OEBPS/Text/index_split_000_0015.xhtml: **1 <h2> + 121 <p>**, no
+  <br/>, no <img>, no set-off formatting — zero mismatches.
+- FOUR numbered-in-parens sub-headings (一)-(四): (一),(三),(四) STANDALONE (their own
+  <p>); (二) GLUED onto the tail of a preceding <p> (cf. ch08) and split off. Rendered
+  "(1)"–"(4)".
+- TWO mid-phrase splits MERGED (the source itself broke one sentence across two <p>,
+  both inside quoted Wang documents): L65/66 (行状: …茫茫后死之感，何时|已乎！) and
+  L96/97 (举一个例: …何况现时|除第三国际外…). 121 − 2 merges − 3 standalone headings =
+  116 body; +1 glued heading = 4 sub-headings.
+- The meeting-record ATTENDEE ROSTER inside 举一个例 breaks across three <p> (L84 出席,
+  L85 列席, L86 主席/秘书长/秘书主任): DELIBERATE document formatting, NOT extractor
+  splits — kept as separate paragraphs, NOT merged (cf. ch12/ch13/ch15 quoted docs).
+- In-text "(第六章完)" coda at L117 (rendered "(End of Chapter Six.)"), after which four
+  <p> close Part Two and bridge to Part Three (Chen recalled, "punishment of the spirit,"
+  reassigned to Shanghai; Wang Luqiao already arrested there).
+- Source note markers `\[\d+\]`: **none present** (grepped; none through B11).
+
+### Checks (all green)
+- verify_unit ch16: parity 116/116; numbers 0 unresolved; anchors 8 ok.
+- check_align: 116/116, median ratio **4.78 en/han** (document-heavy, in band with
+  ch12 4.84 / ch13 4.79; the two long Wang documents + Wu essay lift it, as expected).
+- check_structure: ALL PASS (parity + 193 anchors, 0 unresolved).
+- check_content: ch16 **182 name occurrences, 0 DISPLACED**. The overall nonzero exit
+  is ONLY the KNOWN pre-existing artifacts (ch07 Zhanggu ×1, ch08 Shunde ×3, ch13
+  Miss Nguyen/Oya Kusuo/Yuan Haowen ×9 — diacritic/variant substring-match artifacts,
+  unchanged; the 34 new glossary rows introduced NO new displacements).
+- qc_entities: 0 misses (census top: 曾仲鸣 ×33, 汪精卫 ×19, 河内 ×16, 重庆 ×16, 艳电 ×13).
+- check_register --ref B01_frozen: within tolerance (contr 0.0/1k, shall 0%, em-dash
+  8.7/1k, sent med 25, rhythm 0.67).
+- qa_epub PASS (57 files, all links resolve); epubcheck 0 fatals/0 errors/0 warnings.
+- TAIL verified against source: the (第六章完) coda (L115), the three giant polemic
+  paragraphs' tails (L112 …如南京议和之不再提及是也; L113 …无法得他们表面化; L114 …追悔也
+  莫及了！再会！), and the closing 上海滩 paragraph (L121) — all faithful.
+
+### Notes ledger (8 this batch; 193 cumulative)
+New notes (first-appearance-disciplined): the chapter TITLE source (奸伪卑劣 from Chiang's
+11 Apr 1939 diary; 寿张为幻 flagged as a corrupt/uncertain glyph, rendered by sense
+"Illusions Undone"); 岳忠武十二金牌 (Yue Fei recalled by twelve gold tablets, killed on
+Qin Hui's contrivance); Wang's death-poem couplet 引刀成一快，不负少年头 (1910 prison poem);
+the Munich/Sudetenland/哈柴 Hácha analogy (Sep 1938 Munich, Mar 1939 Hácha); 梁孟 Liang
+Hong & Meng Guang (the proverbial devoted couple, ironic); the 卫/-wei pun (近卫 Konoe +
+汪精卫 Wang, the "Duet of the Two Weis"); 甲午/庚子 (the 1895 Shimonoseki and 1900 Boxer
+"humiliating peaces"); the 1935 察哈尔 Chahar affair (Wang's removal of Song Zheyuan).
+**NOT re-noted** (covered earlier): 行状 and 举一个例 (both NOTED in ch15 at first mention —
+here quoted in full); the doctoring of the meeting record (ch15); Wu Jingheng (Zhihui)
+(ch15); Trautmann + his 1937 mediation (ch13); the Konoe "New Order in East Asia" (ch12);
+艳电 the Yan Telegram (B06); 制裁 "sanction" (B01/B06); the 1910 Prince Regent plot /
+Zaifeng (ch10/ch13); Yin Rugeng (ch02); Korea's annexation via Shimonoseki (ch12);
+the Three Principles of the People, the Xi'an Incident, the Marco Polo Bridge Incident,
+the Nine-Power Treaty (glossary/earlier). 秦桧, 李完用, 吴三桂, 溥仪 handled by the new
+glossary rows (which decode the "white iron / tungsten steel" jab), not separate notes.
+
+### Glossary rows added (34 by hand; every row carries a `pinyin` field)
+- Meeting-record roster & officials: 于右任 Yu Youren, 居正 Ju Zheng, 孔祥熙 Kong Xiangxi
+  (H. H. Kung), 翁文灏 Weng Wenhao, 邵力子 Shao Lizi, 陈立夫 Chen Lifu, 陈果夫 Chen Guofu,
+  董显光 Dong Xianguang, 张群 Zhang Qun, 徐堪 Xu Kan, 徐谟 Xu Mo, 顾祝同 Gu Zhutong (Mo-san),
+  白崇禧 Bai Chongxi (Jiansheng), 唐生智 Tang Shengzhi (Meng-xiao), 徐永昌 Xu Yongchang
+  (Ci-chen; source 次展/次辰 = misprint for 次宸), 陶德曼 Trautmann, 川樾 Kawagoe.
+- Traitor/puppet archetypes in Wu's essay: 秦桧 Qin Hui, 李完用 Yi Wan-yong, 吴三桂 Wu
+  Sangui, 溥仪 Puyi, 哈柴 Hácha, 张伯伦 Chamberlain, 苏锡文 Su Xiwen, 梁鸿志 Liang Hongzhi.
+- Nationalist elders: 李石曾 Li Shizeng, 张溥泉 Zhang Puquan (= Zhang Ji).
+- 行状 revolutionaries: 方君瑛 Fang Junying, 黎仲实 Li Zhongshi, 俞云纪 Yu Yunji.
+- Hanoi narrative: 丹娜 Dana (the métisse cover-driver, provisional), and the three
+  captured (cover names, provisional): 袁伯勋 Yuan Boxun, 孙亚东 Sun Yadong, 杨卫河 Yang
+  Weihe.
+- Renderings REUSED (already in glossary): 曾仲鸣, 方君璧, 汪精卫/汪兆铭, 陈璧君, 王鲁翘,
+  唐英杰, 陈邦国 (Chen Bangguo — the B10 resolution held), 陈步云, 余鉴声, 张逢义, 余乐醒,
+  岑家焯, 曹师昂, 谭天堑, 徐先生, 魏春风, 阮小姐, 方炳西, 戴笠, 龙云, 吴敬恒, 金雄白/朱子家,
+  何文杰, 汪文惺, 陈国琦, 王克敏, 殷汝耕, 顾孟余, 陈独秀, 载沣, 近卫文麿, 林柏生, 高宗武,
+  宋哲元, 陈布雷, 王宠惠, 黄复生. Western contemporaries (Hitler, Mussolini, Lenin, Stalin,
+  Trotsky) rendered directly, NOT glossary'd. The two quoted Wang documents + the three
+  books are handled by FOOTNOTES (ch15), NOT glossary title-rows (which cross-flag).
+
+### Digitization glitches (rendered to plain sense; LISTED, none footnoted — mechanical)
+Same single-character-substitution classes as ch15. Representative:
+- 愔弱→懦弱 (L5); 我地→我倒 (L6); 张皇失揩→失措 (L14); 不移深入→不够 (L15); 室故→事故 +
+  傅仲鸣→曾仲鸣 + 曾仲呜→曾仲鸣 (L28); 全译木→全译本 (L29); 这梗→这种 (L30); 透木眼→透视眼
+  + 着到→看到 (L31); 大大力力→大大方方 (L45); 拙笨的迪→连 + 安高人→安南人 (L46).
+- In the quoted 「汪政权…」 passage: 著作→轰炸 + 文侯→文杰 + 大砖→大碍 + 轨可能→就可能 +
+  地体→她体 + 江文惺→汪文惺 + 绉着→皱着 + 丈杰→文杰 + 力君璧→方君璧 (L56); 找个人→我个人 (L61).
+- In the 行状: 造七月→迨七月 + 若被任/举→君被任/举 (recurring) (L68/69); 九首→九省 +
+  倍簁→倍蓰 + 视转→视线 + 之误→之谋 (L71); 家专→家事 (L74, L81) + 目砚→目视 (L74).
+- In 举一个例 / meeting record: 三月二十七月→二十七日 (L78); 国防最高会机→会议 (L84); 徐次展/
+  次辰→次宸 + 叫德→此德 + 范圈→范围 (L87/88); 却此→即此 (L93).
+- In Wu's essay (L110–114): 吴敬桓→吴敬恒 + 庄谐杂件→杂陈 (L110); 形于笔褚→笔楮 (L100);
+  狠狠→狼狈 + 会先生→曾先生 + 汪民→汪氏 + 一张于→一登于 + 陈整君→陈璧君 + 研主张→商主张 +
+  通国研→所 + 详细捕驳→批驳 + 全几→全国 + 宜傅→宣传 + 他订己→他自己 + 常此→当此 + 江氏→汪氏
+  (recurring) (L112); 背寒追媛→趋暖 + 面心里→而 + 看白粉→着 + 妄前→台前 + 日木→日本 +
+  明划→明确 + 辨护→辩护 + 鸡道→岂道 + 逻缉→逻辑 (L113); 长冶→长治 + 看想→设想 + 会经→曾经 +
+  保持看/照看→着 + 贯澈→贯彻 (L107/108/114). NUMBER-garbles carried in the English and
+  noised: 四万百五千百→四万万五千万 (450 million), 六十万百→六十万万 (~600 million).
+- Not glitches: 汪逆 = "the traitor Wang", 汪某 = "the man Wang", 汪氏 = "Wang" — rendered
+  faithfully. 王 xx (L14) is a source REDACTION of an assassinated man's name, kept as
+  "Wang So-and-so".
+
+### data/noise.txt — B11 block appended (10 entries, each commented)
+七上八下, 危机四伏, 九江, 千百 (何止千百), 百余万 ("over a million", carried in words),
+万不得已, 初一二三 (dated 1/2/3), 二 O 五 (page 205, Latin-O + spaces), and the two
+number-garbles 四万百五千百 / 六十万百. All strip SOURCE approximations/glitches only;
+real values carried in the English.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch16 spec added (drop=2; merges [(65,66),(96,97)];
+  glued {48: (二)…}; standalone [3,76,111] = (一),(三),(四)). Backward-compatible.
+- `data/noise.txt` — B11 block (see above).
+- `glossary.json` — 34 people rows added by hand (sectioned; every row has `pinyin`).

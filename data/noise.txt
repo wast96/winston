@@ -369,3 +369,36 @@
 # 三桃山 "San Tao Shan", a hill-resort place name in the quoted essay; the 三 is part
 # of the name, not the count 3.
 三桃山
+#
+# --- B11 (ch16) entries ---
+#
+# Idiom 七上八下 "up-and-down unease" (of the heart); the 七/八 are not counts.
+七上八下
+# Idiom 危机四伏 "peril lurking on every side"; the 四 of 四伏 is not the count 4.
+危机四伏
+# Place name 九江 (Jiujiang, the Jiangxi city in the fallen-cities list); the 九 is
+# part of the name, not the count 9.
+九江
+# Idiom 何止千百 "not to be numbered in hundreds and thousands"; the 千百 (glued to
+# 1100 by the checker) is hyperbole, not a count. English "hundreds and thousands".
+千百
+# Approximate 百余万 "over a million" (将士死伤百余万, the killed and wounded): the
+# 百/万 parse to 100/10000. English carries "over a million"; the WORD_NUM table has
+# no "million", so the source approximation is noised and the value carried in words.
+百余万
+# Idiom 万不得已 "driven of necessity" (万 = 万万, an intensifier), not the count 10000.
+万不得已
+# Dated list 十六年四月初一二三 "the first, second, and third of the fourth month of
+# the sixteenth year": 初一二三 glues to 123. English carries the three ordinals; the
+# year (16) and month (4) match, only the glued 123 is noised.
+初一二三
+# Fullwidth/Latin-O page reference 二 O 五 "page 205" (蒋总统秘录 vol. 11): the Latin
+# "O" (with spaces) cannot compose into 205, and the bare 二/五 parse to 2/5. English
+# carries "page 205". (Cf. the U+25CB form 二○三 in the B08/B10 block.)
+二 O 五
+# Digitization glitch 四万百五千百 for 四万万五千万 "450 million (people)" (万万 = 亿):
+# the garbled form parses to 45200. English carries "four hundred and fifty million".
+四万百五千百
+# Digitization glitch 六十万百 for 六十万万 "six hundred million (war budget)": the
+# garbled form parses to 600100. English carries "six hundred million".
+六十万百
