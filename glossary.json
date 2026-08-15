@@ -1805,6 +1805,114 @@
       "pinyin": "Bǎnyuán Zhēngsìláng",
       "status": "attested",
       "note": "Japanese general (1885–1948), Kwantung Army architect of the 1931 Manchurian seizure, war minister, later chief of staff of the China Expeditionary Army; hanged as a war criminal. The source writes his surname variously 板垣 / 坂垣 / 扳垣 (see 坂垣征四郎)."
+    },
+    "陈三才": {
+      "en": "Chen Sancai",
+      "pinyin": "Chén Sāncái",
+      "status": "provisional",
+      "note": "Wu County engineer and patriot (Tsinghua, Westinghouse); a volunteer in the Wang case, martyred at Nanjing on 2 Oct 1940."
+    },
+    "黄逸光": {
+      "en": "Huang Yiguang",
+      "pinyin": "Huáng Yìguāng",
+      "status": "provisional",
+      "note": "Overseas-Chinese airman of Mexico; recruited into the Juntong to sanction Wang Jingwei, martyred at Nanjing on 17 Dec 1940."
+    },
+    "戴静园": {
+      "en": "Dai Jingyuan",
+      "pinyin": "Dài Jìngyuán",
+      "status": "provisional",
+      "note": "Original name Dai Xingbing (戴星炳); a major-general adviser to the Military Affairs Commission who volunteered with Wu Gengshu, executed at Yuhuatai on 21 Mar 1940."
+    },
+    "邵明贤": {
+      "en": "Shao Mingxian",
+      "pinyin": "Shào Míngxián",
+      "status": "provisional",
+      "note": "Hangzhou-trained police officer; martyred at Nanjing on 17 Dec 1940 in the Wang case."
+    },
+    "陈群": {
+      "en": "Chen Qun",
+      "pinyin": "Chén Qún",
+      "status": "attested",
+      "note": "Puppet politician; 'Chairman of Jiangsu Province' under the Wang regime, whose Yuyuan Road houses Wang used."
+    },
+    "邓演达": {
+      "en": "Deng Yanda",
+      "pinyin": "Dèng Yǎndá",
+      "status": "attested",
+      "note": "Leader of the 'Third Party' (Provisional Action Committee of the Kuomintang); arrested in Shanghai 1931 and executed by the Nationalists."
+    },
+    "钱新民": {
+      "en": "Qian Xinmin",
+      "pinyin": "Qián Xīnmín",
+      "status": "provisional",
+      "note": "Chief of the Juntong's Nanjing District, the other unit charged with sanctioning Wang Jingwei."
+    },
+    "王钟岳": {
+      "en": "Wang Zhongyue",
+      "pinyin": "Wáng Zhōngyuè",
+      "status": "provisional",
+      "note": "Cover name 'Wang Le' (王乐); chief of the Hanoi wireless station, the link to Chongqing."
+    },
+    "陈石生": {
+      "en": "Chen Shisheng",
+      "pinyin": "Chén Shíshēng",
+      "status": "provisional",
+      "note": "A contact-man who presented Dai Jingyuan to Wang Jingwei; possibly of Wang's wife's kindred."
+    },
+    "陈耀祖": {
+      "en": "Chen Yaozu",
+      "pinyin": "Chén Yàozǔ",
+      "status": "attested",
+      "note": "Wang Jingwei's brother-in-law; wrote to Huang Yiguang urging him to join the 'Peace Movement.'"
+    },
+    "唐骏圻": {
+      "en": "Tang Junqi",
+      "pinyin": "Táng Jùnqí",
+      "status": "provisional",
+      "note": "A Kaohsiung correspondent (styled Mr. Tang) whose letters supplied Chen with information on Chen Bangguo and Chen Buyun and corrected the Chen/Zheng Bangguo name."
+    },
+    "王伯群": {
+      "en": "Wang Boqun",
+      "pinyin": "Wáng Bóqún",
+      "status": "attested",
+      "note": "Former Minister of Communications; owner of the Lane 1136 Yuyuan Road houses Wang Jingwei used."
+    },
+    "吴四宾": {
+      "en": "Wu Sibao",
+      "pinyin": "Wú Sìbǎo",
+      "status": "provisional",
+      "note": "Source writes 吴四宾 (digitization glitch for 吴四宝); a No. 76 figure who, with Li Shiqun, moved into Wang's former Yuyuan Road house."
+    },
+    "周至柔": {
+      "en": "Zhou Zhirou",
+      "pinyin": "Zhōu Zhìróu",
+      "status": "attested",
+      "note": "Nationalist air-force general; dean of studies at the Air Force Officers' School."
+    },
+    "王叔铭": {
+      "en": "Wang Shuming",
+      "pinyin": "Wáng Shūmíng",
+      "status": "attested",
+      "note": "Nationalist air-force general; chief of the education section at the Air Force Officers' School."
+    },
+    "刘守法": {
+      "en": "Liu Shoufa",
+      "pinyin": "Liú Shǒufǎ",
+      "status": "provisional",
+      "note": "Airman and memoirist whose essay on Huang Yiguang Chen quotes."
+    },
+    "刘方雄": {
+      "en": "Liu Fangxiong",
+      "pinyin": "Liú Fāngxióng",
+      "status": "provisional",
+      "note": "A Hong Kong chief of the Juntong during the war; author of a book on the intelligence 'peace talks.'"
+    },
+    "韩继文": {
+      "en": "Han Jiwen",
+      "pinyin": "Hán Jìwén",
+      "status": "provisional",
+      "note": "Styled Shangying (尚英); Chen's Military Academy classmate who once saved his life and reported Cen Jiazhuo's death."
     }
   },
   "organizations": {
@@ -2127,6 +2235,18 @@
       "pinyin": "Wéixīn Zhèngfǔ",
       "status": "attested",
       "note": "The Japanese-sponsored 'Reformed Government of the Republic of China' at Nanjing (Central China), headed by Liang Hongzhi."
+    },
+    "新一组": {
+      "en": "New Group One",
+      "pinyin": "Xīn Yī Zǔ",
+      "status": "provisional",
+      "note": "A mixed intelligence-and-action unit under the Shanghai District, the liaison for Chen Sancai."
+    },
+    "传记文学": {
+      "en": "Biographical Literature",
+      "pinyin": "Zhuànjì Wénxué",
+      "status": "attested",
+      "note": "Zhuanji Wenxue, the Taipei monthly in which Nameless Heroes was serialized."
     }
   },
   "places": {
@@ -2700,6 +2820,12 @@
       "pinyin": "Jīlóng",
       "status": "attested",
       "note": "The port at the northern tip of Taiwan, a way-station on Wang Jingwei's sea passage to Shanghai."
+    },
+    "雨花台": {
+      "en": "Yuhuatai",
+      "pinyin": "Yǔhuātái",
+      "status": "attested",
+      "note": "The Terrace of Raining Flowers, a hill south of Nanjing long used as an execution ground."
     }
   },
   "terms": {

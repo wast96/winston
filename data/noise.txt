@@ -434,3 +434,23 @@
 # ○ = U+25CB): the checker cannot compose the fullwidth zero and reads 二○九 as 2 and 9.
 # English carries "209"; the composable 二一三 "213" matches directly.
 二○九
+#
+# --- B13 (ch18) entries ---
+#
+# Personal name 陈三才 "Chen Sancai" (the martyr): the given name 三才 contains the
+# glyph 三 (3), which is part of the name, not a count. English renders "Chen Sancai"
+# / "Mr. Sancai" (no digit). Cf. the noised name-numerals 毛万里, 征四郎 above.
+三才
+# Idiom 成千 "in their thousands" (上海区成千的同志们); the 千 (1000) is idiomatic, not
+# a count. English renders "thousands".
+成千
+# Idiom 千难万难 "hard past all telling" (虽然千难万难); the 千/万 are not counts. An
+# earlier project rule (万难) strips the 万难 half first, so we strip the 千难 half here
+# (noising the whole 千难万难 would be pre-empted and orphan the 千 as 1000).
+千难
+# Idiom 一而再，再而三 "again and yet again" (再而三的去牺牲); the 三 is not a count.
+# Cf. the built-in 再三 and the project 再三再四 rules above.
+再而三
+# Idiom 有两手 "to have a couple of tricks / some real skill" (他的确是有两手); the 两
+# is idiomatic, not the count 2. English renders by sense ("something in hand").
+两手

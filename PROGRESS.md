@@ -1598,3 +1598,133 @@ nineteen participants) carried in the English as digits/words.
 - `data/noise.txt` — B12 block (see above).
 - `glossary.json` — 49 rows added by hand (sectioned; every row has `pinyin`); the
   stray 小巷子 common-noun row was removed after it cross-flagged ch06/07/13/15.
+
+## Batch B13 — ch18 + ch19 (Part Two, Chapter 8 + Author's Note) — COMPLETES PART TWO
+
+第八章 再接再励前仆后继 "Chapter 8. Renewed Effort, Wave upon Wave" (ch18) is the
+EIGHTH and LAST chapter of Part Two ("Disgrace at Hanoi"), plus 「英雄无名」作者小启
+"A Note from the Author" (ch19), the short authorial notice CLOSING Part Two,
+signed 陈恭澍谨启七十二年五月 (May 1983). ch18 takes over the Shanghai District
+(12 Aug 1939), tracks Wang Jingwei's Shanghai/Nanjing movements and the 30 Mar
+1940 "还都" (return-of-the-capital) farce, then mourns the "wave upon wave" of
+patriots who took up the sanction after the Hanoi failure (Wu Gengshu + Dai
+Jingyuan, Chen Sancai, Huang Yiguang, Shao Mingxian) and gives an accounting of
+all NINETEEN Hanoi participants (dead / whereabouts-unknown / still living). ch19
+announces the Part-Three Shanghai volume and invites former 上海区 comrades to
+send corrections. **ch18 = 138 body paragraphs; ch19 = 4 body paragraphs. 6 new
+notes (208 cumulative); 21 glossary rows added.** All checks green; qa_epub PASS;
+epubcheck 0/0/0/0. **EPUB now 19/43 chapters. PART TWO COMPLETE.**
+
+### Structure
+- **ch18** drop=2 (running header 英雄无名-陈恭澍 + <h2>). Confirmed p-by-p against
+  data/src_epub/OEBPS/Text/index_split_000_0017.xhtml: **1 <h2> + 143 <p>**, no
+  <br/>, no <img>, no set-off formatting — zero mismatches.
+  - THREE numbered-in-parens sub-headings (一)-(三): (一)总是跟在后头就已失去机先 is
+    STANDALONE (its own <p>, L3); (二)痛定思痛字字为汪案牺牲者悼念 (glued to L31 tail)
+    and (三)生死荣辱之中也有幸与不幸 (glued to L86 tail) are GLUED and split off (cf.
+    ch08/ch16). Rendered "(1)"-"(3)".
+  - FOUR mid-phrase splits MERGED (last char a comma or mid-word, next <p> ends
+    terminal, no chains): L20/21, L39/40 (mid-word 告|知), L57/58, L134/135
+    (mid-word 走|出来). 143 − 1 standalone heading − 4 merges = 138 body.
+  - DELIBERATE separate <p> kept whole (NOT merged): the ：-ended enumerated
+    lead-ins (L6 还有：, L12 …伪政权：, L113 …下落不明的：, L132 …三个人了：); the martyr
+    roster labels (L35 其一：… glued to its own body with a dash; L51 其二：陈三才先烈,
+    L62 其三：黄逸光先烈 each its own <p>); the quoted telegram (L70), Kagesa/Liu memoir
+    excerpts (L66/67), and (注：…) gloss (L71).
+  - NO in-text "(第八章完)" coda (confirmed by grep; cf. ch14/ch15/ch17). The final
+    <p> (L145) closes Part Two, forward-referencing Part Three (百战声威) and Part Four.
+- **ch19** drop=2 (running header + <h1> notice title; source uses <h1>, not <h2>).
+  Confirmed p-by-p: **0 <h2> / 1 <h1> + 4 <p>**, no <br/>, no <img>. NO sub-headings.
+  4 body <p>: the 拙着…第三部 announcement, the 三种态度/两点谅解 body, the 来信请寄 line,
+  and the 陈恭澍谨启七十二年五月 signature (ends non-terminal 月 but a DELIBERATE separate
+  <p>, kept as its own paragraph, NOT merged).
+- Source note markers `\[\d+\]`: **none present** in either unit (grepped; none through B13).
+
+### Checks (all green)
+- verify_unit ch18: parity 138/138; numbers 0 unresolved; anchors 6 ok.
+- verify_unit ch19: parity 4/4; numbers 0 unresolved; anchors 0 ok.
+- check_align: ch18 138/138, median ratio **4.98 en/han**; ch19 4/4, **6.45 en/han**.
+  Both run high as expected: ch18 is roster/document-heavy (a quoted telegram, the
+  Liu Shoufa memoir excerpt, 19 one-paragraph biographical notices); ch19 is a
+  4-paragraph formal notice. No pair strays > 2.2x from the median.
+- check_structure: ALL PASS (parity + 208 anchors, 0 unresolved).
+- check_content: ch18 **219 name occurrences, 0 DISPLACED**; ch19 **3, 0 DISPLACED**
+  ("all in the paired paragraph"). Overall nonzero exit is ONLY the KNOWN pre-existing
+  artifacts (ch07 Zhanggu ×1, ch08 Shunde ×3, ch13 Miss Nguyen/Oya Kusuo/Yuan Haowen
+  ×9 — diacritic/variant substring artifacts, unchanged). 铅山 was NOT glossary-keyed
+  (it also occurs in ch04, would cross-flag; rendered "Yanshan" inline).
+- qc_entities: 0 misses both units (ch18 census top: 河内 ×36, 汪精卫 ×35, 制裁 ×18,
+  吴赓恕 ×14, 曾先生 ×10; ch19: 调查统计局 ×1, 陈恭澍 ×1). All 21 new rows carry pinyin.
+- check_register --ref B01_frozen: within tolerance (ch18 contr 0.0/1k, shall 0%,
+  em-dash 7.8/1k, sent med 23, rhythm 0.66; ch19 shall 0%, em-dash 7.4/1k, med 30).
+- qa_epub PASS (57 files, all links resolve); epubcheck 0 fatals/0 errors/0 warnings.
+- TAIL verified against source: ch18's Part-Two close (L145: the "one of three
+  survivors" reflection forward-referencing Part Three "百战声威"/Part Four,
+  publication set for 七十三年, the 猜单双 fortune "shall not die within two or three
+  years"); ch19's 陈恭澍谨启七十二年五月 signature — both faithful, complete, no
+  fabrication. The quoted Dai telegram (L70) and Liu Shoufa memoir (L66/67)
+  re-verified clause-by-clause (rule 4).
+
+### Notes ledger (6 this batch; 208 cumulative)
+New notes (first-appearance-disciplined): 邓演达 Deng Yanda (Third Party leader
+executed 1931; the ill-omened house); 还都 the "return of the capital" (Wang's
+30 Mar 1940 ceremony proclaiming the National Government's "return" to Nanjing);
+荆轲聂政 Jing Ke and Nie Zheng (the archetypal Warring-States assassin-retainers,
+from Sima Qian's 刺客列传); 雨花台 Yuhuatai (the Nanjing execution ground where Dai
+Jingyuan and Wu Gengshu were shot); 常山 the "烈并常山" inscription (the Yan Gaoqing/
+Changshan loyalty allusion, via Wen Tianxiang's Song of Righteousness); 传记文学
+Biographical Literature (Zhuanji Wenxue, the Taipei monthly, founded 1962 by Liu
+Shaotang, in which the memoir was serialized; note says MORE than the glossary row).
+**NOT re-noted** (covered earlier, per the ledger): 制裁 "sanction" (B01/B06); 汪逆/
+汪某/汪氏 the traitor Wang forms (B06); 「一二八」 the January 28 Incident (ch05);
+梅机关 the Ume Kikan + 影佐祯昭 Kagesa (glossary; text self-glosses); No. 76 极司菲尔路
+Jessfield Road (ch17/B12; ch18 spells it 极司非而路, a variant — rendered "Jessfield
+Road"); 行状 "record of conduct" (ch15/ch16); 蒋总统秘录/戴雨农先生全集 books (ch15/ch17);
+陈邦国/郑邦国 the name trap (footnoted at first ch15 occurrence; Chen re-explains it
+in-text at ch18 L118, NOT re-noted). New cast handled by GLOSSARY rows, not notes.
+
+### Glossary rows added (21 by hand; every row carries a `pinyin` field)
+- People (18): 陈三才 Chen Sancai, 黄逸光 Huang Yiguang, 戴静园 Dai Jingyuan (原名
+  戴星炳 Dai Xingbing), 邵明贤 Shao Mingxian (the four/five new Wang-case martyrs);
+  陈群 Chen Qun, 邓演达 Deng Yanda, 钱新民 Qian Xinmin (Nanjing District chief),
+  王钟岳 Wang Zhongyue (化名 王乐 Wang Le), 陈石生 Chen Shisheng, 陈耀祖 Chen Yaozu,
+  唐骏圻 Tang Junqi (the Kaohsiung correspondent), 王伯群 Wang Boqun, 吴四宾 Wu Sibao
+  (source glitch 宾→宝), 周至柔 Zhou Zhirou, 王叔铭 Wang Shuming (ROC air-force
+  generals), 刘守法 Liu Shoufa, 刘方雄 Liu Fangxiong, 刘原深 Liu Yuanshen, 韩继文 Han
+  Jiwen (尚英), 张亚民 Zhang Yamin.
+- Organizations (2): 新一组 New Group One, 传记文学 Biographical Literature (journal).
+- Places (1): 雨花台 Yuhuatai.
+- REUSED (already in glossary, all with pinyin): 郑修元, 傅筱庵, 张啸林, 吴佩孚,
+  王克敏, 王文, 山本荣治, 陈调元, 西尾寿造, 坂垣/板垣征四郎, 影佐祯昭, 梅机关, 晴气庆胤,
+  中岛信一, 李士群, 梁鸿志, 今井武夫, 吴赓恕, 邓文仪, 梅思平, 谭天堑, 岑家焯, 余乐醒,
+  余鉴声, 徐先生, 魏春风, 阮小姐, 唐英杰, 张逢义, 陈邦国, 陈步云, 曹师昂, 曾先生, 愚园路,
+  临时政府, 维新政府, 华北政务委员会, 曾仲鸣, 上海区/南京区 (rendered inline). 铅山 NOT
+  keyed (occurs in ch04 too; "Yanshan" inline). Books cited handled by note, not glossary.
+
+### Digitization glitches (rendered to plain sense; LISTED, none footnoted — mechanical)
+Same single-character-substitution classes as ch15/ch16/ch17. ch18:
+- 不合沬→不合法 "unlawful" (L10, 沬→法); 困为→因为 "because" (L20, L139, 困→因);
+  吴四宾→吴四宝 Wu Sibao (L17, 宾→宝); 说讪→(idle chatter) (L17, rendered by sense);
+  情报资科→情报资料 (L26, 科→料); 行综→行踪 "movements" (L27, 综→踪); 悟山来→悟出来
+  "come to realize" (L99, 山→出); 首光→首先 "first" (L129, 光→先); 上刚文→上文 (L131,
+  刚 extraneous); 师局兄→师昂兄 Cao Shi'ang (L132, 局→昂); 这么仿→这么做 (L80, 仿→做);
+  爱国志土→志士 "patriots" (L81, 土→士); 杳询→查询 (L125, 杳→查).
+- 烈并常山: the 挽额 inscription; 烈 read as "valor/heroism"; rendered "A Valor to Rank
+  with Changshan" and the Changshan/Yan Gaoqing allusion FOOTNOTED (reading uncertainty
+  + allusion, not a mechanical typo).
+- ch19: 疎失 = 疏失 (variant, not a typo). No significant glitches.
+
+### data/noise.txt — B13 block appended (5 entries, each commented)
+三才 (Chen Sancai's given name, glyph 三; cf. noised 毛万里/征四郎), 成千 (thousands
+idiom), 千难 (千难万难 idiom — noised as 千难 because an earlier 万难 rule pre-strips
+the 万难 half, else the 千 orphans as 1000), 再而三 (一而再再而三 idiom), 两手 (有两手
+"some real skill" idiom). All strip SOURCE name-embedded/idiom numerals only; real
+values (dates, 165 cm, 19 participants, ten thousand li idiom carried as "ten thousand
+li", counts) carried in the English as digits/words.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch18 spec (drop=2; merges [(20,21),(39,40),(57,58),
+  (134,135)]; glued {31:(二)…, 86:(三)…}; standalone [3]) and ch19 spec (drop=2; no
+  merges/glued/standalone) added. Backward-compatible.
+- `data/noise.txt` — B13 block (see above).
+- `glossary.json` — 21 rows added by hand (sectioned; every row has `pinyin`).

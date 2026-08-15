@@ -296,6 +296,43 @@ UNITS = {
         "glued": {},
         "standalone": [3, 45, 108],
     },
+    "ch18": {
+        "file": "19_index-split-000-0017.txt",
+        "title": "第八章 再接再励前仆后继",
+        "drop": 2,             # running header + <h2> chapter title
+        # 143 source <p> (proven p-by-p against the source XHTML: 1 <h2> + 143
+        # <p>, zero mismatches; no <br/>, no images, no set-off formatting).
+        # FOUR mid-phrase splits (last char a comma or mid-word, next <p> ends
+        # terminal, no chains): L20/21 (...如果汪家也相信妈妈经的话，| 这就不是一个
+        # 好兆头。), L39/40 (...合盘告 | 知吴赓恕先生。 — mid-word 告|知), L57/58
+        # (...就是一去无音信，其中 | 当然免不了...), L134/135 (...他不是走 | 出来的，
+        # 是手脚着地爬出来的！ — mid-word 走|出来). The ：-ended enumerated lead-ins
+        # (L6 还有：, L12 再说汪的行踪…：, L113 再说下落不明的：, L132 …只剩下三个人
+        # 了：) and the martyr-roster label lines (L35 其一：… glued to its own
+        # body with a dash; L51 其二：陈三才先烈 and L62 其三：黄逸光先烈 each its own
+        # <p>) are DELIBERATE separate <p> and are NOT merged (cf. ch16/ch17).
+        # NO in-text "(第八章完)" coda (cf. ch14/ch15/ch17); the final <p> (L145)
+        # closes Part Two, forward-referencing Part Three (百战声威) and Part Four.
+        "merges": [(20, 21), (39, 40), (57, 58), (134, 135)],
+        # three sub-headings, all numbered-in-parens (一)-(三): (一) is its own
+        # <p> (standalone, L3); (二) and (三) are GLUED onto the tail of a
+        # preceding <p> (cf. ch08/ch16) and split off as their own headings.
+        "glued": {31: "(二)痛定思痛字字为汪案牺牲者悼念",
+                  86: "(三)生死荣辱之中也有幸与不幸"},
+        "standalone": [3],     # (一)总是跟在后头就已失去机先
+    },
+    "ch19": {
+        "file": "20_index-split-000-0018.txt",
+        "title": "「英雄无名」作者小启",
+        "drop": 2,             # running header + <h1> notice title
+        # 4 source <p> (proven p-by-p against the source XHTML: 1 <h1> + 4 <p>,
+        # zero mismatches; no <br/>, no images). NO sub-headings. The four <p>
+        # are the 拙着…第三部 announcement (L3), the 三种态度 body (L4), the 来信
+        # 请寄 line (L5), and the 陈恭澍谨启七十二年五月 signature (L6). The
+        # signature ends non-terminal (…月) but is a DELIBERATE separate <p>
+        # kept as its own paragraph, NOT merged.
+        "merges": [], "glued": {}, "standalone": [],
+    },
 }
 
 
