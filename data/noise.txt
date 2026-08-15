@@ -337,3 +337,24 @@
 # ── B10 additions (ch48) ──
 # nanbyaku = "many hundreds, hundreds of" (何百という寺院); 百 is the vague idiom, not the count 100 (cf. 何百日)
 何百
+# ── B11 additions (ch49) ──
+# Nomura Risaburō — the trooper who nursed Okita aboard ship (野村利三郎); 三 is part of the given name 利三郎, not the count 3
+利三郎
+# ── B11 additions (ch50) ──
+# Sendagaya — Edo place name where Okita was moved to convalesce (千駄ケ谷); 千 is part of the name, not the count 1000 (cf. 千駄)
+千駄ケ谷
+# ── B11 additions (ch51) ──
+# Yotsuya — Edo district / barrier-gate (四谷大木戸); 四 is part of the place name, not the count 4
+四谷
+# Nakayama Seiichirō — the Kōfu intendant (中山精一郎); 一 is part of the given name 精一郎, not the count 1
+精一郎
+# ── B11 additions (ch52) ──
+# Mishina Ichirō — Kyoto-era plain trooper at Kondō's side (三品一郎); 三 and 一 are parts of the name, not counts
+三品一郎
+# Chiya Kikujirō — Tosa loyalist dead at Tennōzan (千屋菊次郎); 千 is part of the surname Chiya, not the count 1000
+千屋
+# ── B11 additions (ch53) ──
+# Oguri Shōzō — Yoshinobu's household steward (家令小栗尚三); 三 is part of the given name Shōzō, not the count 3
+尚三
+# Senju — Edo place name / the Senju Great Bridge (千住大橋); 千 is part of the name, not the count 1000
+千住

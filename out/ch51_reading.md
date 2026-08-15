@@ -1,0 +1,363 @@
+## Advance into Kōshū
+
+The "Imperial army" that became the enemy square in front of Kondō and Toshizō, the Tōsandō-front force, had for its main strength the Western-armed troops of the Tosa, Satsuma and Chōshū domains, with the old-armed troops of Inshū and the rest added, and its staff officer (that is, its commander) was the Tosa samurai Inui Taisuke (Itagaki, later a count).
+
+On the thirteenth of the Second Month the Tosa troops, marching out to war, were given sake at the domain's Kyoto residence, and from the old lord Yamauchi Yōdō,
+
+{j} "The season is yet cold; take care of yourselves,"
+
+{j} such were the famous words he bestowed. The sense is: "Second Month though it be, the field campaign is cold; do not take a chill." Hearing it, "the whole army leapt up as one," so it stands in a book called Geikai Suikō.
+
+At dawn the next day, the fourteenth, they made obeisance to the Kyoto Palace and, hauling their gun-carriages, set out from the capital.
+
+On the third day they entered Ōgaki, and there the commander-in-chief Inui Taisuke changed his name to Itagaki Taisuke.
+
+The truth was that, at the setting-out, Iwakura Tomomi had said,
+
+{j} "The men of Kōshū are famed throughout the realm for their rough spirit. Only, they hold strong to a longing for the old ways of Takeda Shingen. Bear that in mind and set the people's hearts at ease,"
+
+{j} so he said.
+
+By chance, the Inui house of Taisuke had a family legend that its forebears drew their blood from Itagaki Suruga-no-kami Nobukata, a famed general under Shingen's command.
+
+So, in the field though he was, he changed his name to Itagaki, sent spies into Kōshū, and had it put about that,
+
+{j} "The general of this Imperial army, Tosa man though he is, is by distant descent a native of Kōshū. What is more, he is a descendant of Shingen's fierce general Itagaki Suruga-no-kami, and reveres Lord Shingen as one beholds a god,"
+
+{j} and so spread it abroad.
+
+The effect of this strange propaganda on the men of Kōshū was great: those who had at first favored the Tokugawa turned all at once to favoring the "Court."
+
+It was on the first of the Third Month that the whole force of the Imperial army entered Shinshū, the province neighboring Kōshū, and encamped at Kami-Suwa and Shimo-Suwa.
+
+On this same day the two hundred of the "Kōyō Chinbutai," with Kondō, Toshizō and the rest of the Shinsengumi at their core, set out from the great barrier-gate of Yotsuya in Edo, bound for Kōshū.
+
+The first day's march was a bare three kilometers.
+
+No sooner had they walked, it seemed, than already,
+
+{j} "a night at the pleasure-houses of Shinjuku,"
+
+{j} such was the march. They booked the whole of Shinjuku's pleasure-houses for the corps.
+
+"Toshi, no call to pull a sour face,"
+
+{j} said Kondō.
+
+"This too is a tactic,"
+
+Kondō was right. But for some twenty-odd Shinsengumi troopers, they were all of them underlings of Asakusa Danzaemon who did not so much as know how to wear a sword, and to drive such men suddenly onto a field of battle took its own arts and wiles.
+
+"Just watch. Bed a woman under one roof, and next day two hundred men will breathe as one, snug as if they'd eaten a year from the one rice-pot,"
+
+Toshizō alone put up at an inn called the Takamatsu Kiroku, and let no woman near him.
+
+The troopers were concerned, but Kondō said to let him be.
+
+"From his young days he's been a cat of a fellow; he'll do no lovemaking where others can see,"
+
+The next morning, they set out.
+
+Kondō rode in a long-shafted, sliding-doored palanquin like a daimyō, and Toshizō, in Western dress and a war-surcoat, went at the head on horseback.
+
+The officers, Saitō, Harada, Ogata, Nagakura and the rest, wore the blue-lacquered, gold-rimmed war-hats of the hatamoto and war-surcoats; the plain troopers wore padded tube-sleeves with fencing breastplates, white cotton sashes wound round and round with the two swords thrust through them, trousers below, and straw sandals on their feet.
+
+The newly recruited men were in the dress of the shogunal infantry, willow-wicker knapsacks on their backs, Minié rifles shouldered.
+
+By its dress alone, it was a motley army.
+
+Within this fighting force, Kondō's daimyō palanquin was rare beyond compare and threw off a strange luster.
+
+Toshizō,
+
+{j} "We're going to war. Be rid of that palanquin,"
+
+{j} he said, but Kondō would not hear it.
+
+"Toshi, you've no learning so you'll not know it, but there's a Tang saying that to rise in the world and not go home is like walking abroad in brocade by night,"
+
+{j} he said.
+
+Their road passed through the South Tama country, Kondō's and Toshizō's home region.
+
+"I've become a daimyō,"
+
+{j} it was this that Kondō wished to show the folk of his home country.
+
+Comical it was, if you like; but Kondō had a great deal of that manly, male reek about him. To reek of the male is another word for being childlike. He longed like a child for power and pomp, and getting it he rejoiced with a child's innocence, and, carried away, threw himself heart and soul into action.
+
+(A warring-domains hero, after all.)
+
+{j} Toshizō could not help but think it.
+
+The second day of the march they stopped at Fuchū. Here the folk of home came crowding in, and it turned into a tremendous drinking uproar.
+
+At noon of the third day they came up on Hino-juku.
+
+"Toshi, it's Hino!"
+
+{j} cried Kondō, throwing open the sliding door, in a voice full of longing.
+
+(Hino, is it.)
+
+Toshizō, too, was filled past measure.
+
+The headman here, Satō Hikogorō, was the family into which Toshizō's elder sister had married, and at the same time a patron of the Tennen Rishin-ryū who, when the Shinsengumi was founded, had helped them greatly with money as well. It might be called, in a manner, the birthplace of the Shinsengumi.
+
+"Toshi, shall we make it a night at Hino today?"
+
+{j} said Kondō, his face melting into a grin as they came up on the mouth of the post-town.
+
+"It's still noon,"
+
+{j} Toshizō gave a wry smile.
+
+About the middle of Hino-juku, along the Kōshū-kaidō, stands the mansion of Satō Hikogorō. He being the administrator of the three thousand koku of Hino-hongō, the mansion is a grand affair.
+
+In a manuscript called the Riin Shiwa, left in writing by his grandson, the venerable Satō Jin, and held to this day in that house, it says,
+
+{j} "The corps to a man rested in the front garden and on the street before the gate,"
+
+{j} and so on; let me quote its text below.
+
+Kondō, out of the palanquin, his hair bound back, in a round haori and white-thonged sandals, comes walking across the front garden toward the entrance.
+
+Kondō, seeing from afar the face of Hikogorō's aged father Gennosuke, who had come out with Hikogorō to meet them, smiling and smiling, called out,
+
+{j} "Ah, you keep well, I see,"
+
+{j} There was not the least sign about him of a man going off to war.
+
+Hijikata Toshizō was in loose-worn hair and Western dress.
+
+Hikogorō, having ushered them all into the inner room, in the joy of the long-awaited reunion, laid out rare delicacies and feasted them royally.
+
+Kondō, taking up the sake-cup, could raise his wounded right hand no higher than his chest and, wincing, said it hurt a little, but,
+
+{j} "Never mind, this side does well enough,"
+
+{j} and drank it down, gulp after gulp, with his left hand.
+
+Kondō was no great drinker. Gulp after gulp though it was, it was likely no more than two or three cups; so high, that day, was his spirit.
+
+"Meanwhile Toshizō,"
+
+{j} so this record has it.
+
+Slipping away to another room, he met his elder sister Onobu. She was the sister who had raised him, the youngest brother, in his mother's stead (she is the grandmother of the recorder, Master Jin).
+
+"It has been a while,"
+
+{j} Toshizō greeted her with ceremony and untied a wrapping-cloth he had made ready.
+
+"What is that?"
+
+{j} Onobu peered in. Out of it came something of deep-red crêpe silk.
+
+It was a horo, of the kind the mounted warriors carry on their backs in the old picture-scrolls. A thing that takes the wind and billows; two or three ken across, most likely.
+
+"A horo,"
+
+{j} said Onobu.
+
+"You know it well,"
+
+"Why,"
+
+{j} Onobu, shortly,
+
+{j} "I've seen it in warrior-prints and such. But why do you have a thing like this?"
+
+"When I was called to be a captain of the Shoin Guard, I received it from the shogun's house,"
+
+"You've risen a great way, haven't you,"
+
+"Risen, is it,"
+
+Toshizō cocked his head as if asking himself, and,
+
+{j} "Only, it was interesting to have seen, in my own person, the turning of the times. That the youngest son of a Tama farmer should have risen even to a great hatamoto is one of those turnings. It is not success,"
+
+"And after this, what becomes of you?"
+
+"This future, you mean?"
+
+{j} and Toshizō dropped his voice, but at once, rare for this man, laughed it off in a loud voice.
+
+{j} so the record has it.
+
+The horo, he said, he would leave behind at the house.
+
+"Such a gift as this, a thing received from the shogun,"
+
+{j} Onobu was put out, but,
+
+{j} "Never mind—sew it into a child's long-sleeved kimono, that will do. It's all right,"
+
+{j} and he rolled it up round and round and pushed it at her.
+
+While Toshizō was in the other room with his sister, all at once the earthen-floored kitchen grew noisy. When a trooper went out to see, the hot-blooded youths of the Hino-juku neighborhood, exactly sixty of them, were kneeling on the earthen floor in prostration. Their spokesman, bowing low,
+
+{j} "We beg most earnestly for an audience with Master Kondō,"
+
+{j} he said. By his account, they wished an audience and a word from him, and if it might be, to be added to his numbers.
+
+"Ah, very well,"
+
+{j} said Kondō in the inner room, setting down his cup. His face had broken of itself into a smile. It was likely the proudest moment of Kondō's life.
+
+The sixty young men were all juniors of his home district, and all had had a taste of the Tennen Rishin-ryū; to Kondō, head of that school, they were "master and disciples," though they had never met.
+
+"Well, then,"
+
+{j} and Kondō rose from the drinking-place.
+
+His haori was black habutae silk.
+
+And it bore the five hollyhock crests, a gift of the shogun's house.
+
+Behind him came a page bearing his long sword. It was a daimyō-like sight indeed (this sword-bearing page, by the way, was one Inoue Taisuke, then thirteen. He was a nephew of Inoue Genzaburō, a comrade from the founding and a native of this district. Inoue Genzaburō, as told already, fell in the fighting at the Fushimi magistrate's office; Taisuke had gone up to Kyoto as Kondō's page before that, and was left behind now at the Satō house. Later Taisuke's younger sister married Okita Sōji's nephew Yoshijirō, and that line of the Okita house remains at Tachikawa). Presently the sliding doors opened and Kondō came out at his ease.
+
+All prostrated themselves on the earthen floor.
+
+Kondō, seated in the center of the front room,
+
+{j} "Gentlemen, that you are in good health is the best of things,"
+
+{j} and smiled.
+
+A strange emotion swirled through the earthen floor.
+
+All but weeping, they begged to follow him to war.
+
+"No, no, that cannot be allowed,"
+
+{j} said Kondō, his smile unchanged. He refused the offer with all his might. For Kondō, it must have been that he could not bear to shed any more of his home district's blood.
+
+In this, Kondō's right mind still remained.
+
+But because these men pressed their tearful plea so hard, he chose thirty of them, unmarried second sons and younger, named them the "Kasuga-tai," and let them come along.
+
+"Time moves. Let us set out quickly,"
+
+{j} Toshizō urged, but Kondō, still telling the men on the earthen floor his tales of exploits in Kyoto, would not rise.
+
+Toshizō, it must have been his nature, gave the men of his home district not so much as a smile. For this, down to later years there remained in that district a saying,
+
+{j} —Hijikata was a stiff, pompous, disagreeable man.
+
+{j} so the oral tradition runs.
+
+This day, the third of the Third Month of Keiō 4 (the first year of Meiji), snow fell over the Kantō and the Kōshin-etsu country, rare for spring.
+
+"Toshi, it's snow,"
+
+Kondō seemed minded to settle in at Hino-juku just as they were.
+
+On this same day, the three thousand of the Imperial army under Itagaki Taisuke broke camp from their quarters at Kami-Suwa and began a march through the snow toward Kōfu.
+
+The Tosa troops of the main force, southern-bred, were weak against the cold, and marched with their hands so numbed they could hardly grip a gun-stock.
+
+Itagaki Taisuke on horseback sent runners to the units and had them recite,
+
+{j} "The season is yet cold; take care of yourselves,"
+
+{j} the words of the domain's old lord. It means only, do not catch cold; but as they recited it, there welled up in their breasts the feeling peculiar to hereditary vassal soldiery, and their spirits rose of a sudden.
+
+About then, a scout came galloping back to the Satō mansion at Hino-juku and brought word of the rumor from the Kōshin quarter.
+
+The Imperial army, it was said, had already come as far as Kami-Suwa and Shimo-Suwa.
+
+"What—they've come as far as that?"
+
+{j} Kondō did not say aloud. But astonishment showed in his face.
+
+"Toshi, let's go,"
+
+Kondō withdrew to another room, hastily threw off his haori, put on a chain-mail shirt, buckled on a fencing breastplate, and pulled a war-surcoat over it.
+
+The palanquin, too, he cast aside.
+
+He put on straw sandals, stamped them firm on the earthen floor two or three times, and,
+
+{j} "Bring the horse,"
+
+{j} and went out the gate. His face was red. A gust of blizzard beat against his cheeks.
+
+"Filthy snow,"
+
+{j} and he became a man on horseback. He was the Kondō of former years again now.
+
+The army began to move.
+
+But the sun soon set, and they lodged at Yose.
+
+Meanwhile a part of the Imperial vanguard marched by night and by early dawn had already entered the castle town of Kōfu.
+
+The Imperial representative at once sent a messenger into the castle, ordering the castle-keeper Satō Suruga-no-kami and the intendant Nakayama Seiichirō to come to headquarters.
+
+Satō and Nakayama had of course made up their minds for a decisive battle, but the essential Kondō Isami did not come.
+
+"What is the Shinsengumi about?"
+
+{j} they said, going pale.
+
+Had the Shinsengumi arrived first, the plan had been for a decisive battle from within the castle walls.
+
+"There is no help for it. Until Kondō arrives, we must buy what time we can,"
+
+{j} and Satō Suruga-no-kami, feigning submission for the moment, went to the headquarters of the Imperial vanguard.
+
+The Imperial side ordered that all the weapons in the castle be brought outside before the castle was given up.
+
+"I understand the matter in full. It being so sudden a thing, the castle is not in order. The day and hour of surrender I will make known as soon as the arrangements for handing over the weapons are ready,"
+
+{j} and Satō Suruga-no-kami held the Imperial army off for the moment, went back into the castle, and waited single-mindedly for the Shinsengumi to arrive.
+
+But the Imperial side was not off its guard, either.
+
+As they steadily loosed spies along the Kōshū-kaidō and gathered intelligence,
+
+{j} "A shogunal general named Ōkubo Yamato (Kondō), under the name of pacifying Kōfu, is advancing at a forced march and will certainly enter Kōfu this night,"
+
+{j} such was the intelligence they met with.
+
+"Every moment counts,"
+
+{j} the Imperial vanguard judged, and, though a small force, in order to take the castle over at a single stroke, pressed on it without waiting for the date Satō Suruga-no-kami had notified.
+
+Satō, taken aback, had no choice but to surrender, and gave the castle over to the Imperial army.
+
+That day, Kondō and the rest had at last crossed the Sasago Pass and entered the mountain village of Komakai.
+
+They encamped at Komakai. From this mountain village the road ran downhill all the way, and the Kōfu basin was now but two ri off. Once down into the basin, a fierce battle would be waiting.
+
+The men of the corps lodged in the farmhouses.
+
+But into those farmhouses word had already come, down to the least detail, of the Imperial army's entry into Kōfu and its array.
+
+The newly recruited troopers heard it all from the villagers and, thrown into great confusion, half of them were gone in the course of that night.
+
+Kondō was at a loss over this, and,
+
+{j} "Reinforcements are coming from Aizu,"
+
+{j} he put about within the corps, but the unrest could not be checked.
+
+"Toshi, what shall we do?"
+
+{j} he consulted. Gone now was the proud color he had worn when he rode in the long-shafted daimyō palanquin.
+
+"I'll go to Kanagawa a moment,"
+
+{j} and Toshizō stood up. At Kanagawa there were quartered 1,600 men of a shogunal unit called the Nappa-tai. He meant to ask them for swift relief.
+
+"At this hour of the night?"
+
+"There's no help for it,"
+
+Drawing a horse from headquarters, a single rider, without so much as a lantern, he galloped off.
+
+But it was already too late. The Imperial side had thoroughly scouted the movements of the Kōyō Chinbutai, and an attack-force under commanders such as Tani Moribe of Tosa (later Tateki, a lieutenant-general) was completing its preparations.
+
+Yet that the enemy before them should be the very Shinsengumi who in years past had cut down so many Tosa samurai in Kyoto, even they had not scouted so far as that.

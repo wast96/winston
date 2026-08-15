@@ -1350,3 +1350,148 @@ FACT-CHECK VERDICTS (real scholarship; no LLM/Grok sources):
 - Fujiwara no Ietaka / Yūhigaoka / the nissōkan sunset meditation: the tomb and
   the sunset-contemplation tradition are as Shiba gives them; the death-poem is
   the one attached to Ietaka by that tradition (footnoted at ch48).
+
+## B11 (ch49–ch53) — 江戸へ / 北征 / 甲州進撃 / 勝沼の戦い / 流山屯集 — COMPLETE
+
+The retreat to Edo and the corps's undoing. ch49 江戸へ / "To Edo" (the last
+Saishō-an morning and the parting from Oyuki; the Fujiyama-maru voyage east;
+the sea-burial of YAMAZAKI SUSUMU in the Kitan Strait; shipboard misery; Okita
+wasting; landfall at Shinagawa). ch50 北征 / "The Northern March" (the "Northern
+March" section opener; Kondō meets SATŌ SURUGA-NO-KAMI; the KŌYŌ CHINBUTAI
+formed; DANZAEMON's men and money; the wakadoshiyori/yoriai ranks; the 500,000-
+koku promise; Okita moved to the Sendagaya nurseryman's). ch51 甲州進撃 /
+"Advance into Kōshū" (Itagaki's Inui→Itagaki name-change and Shingen propaganda;
+the HINO HOMECOMING at Satō Hikogorō's, the horo, sister Onobu, the Kasuga-tai;
+the RACE FOR KŌFU LOST — the Imperial army takes Kōfu Castle first). ch52
+勝沼の戦い / "The Battle of Katsunuma" (AMEMIYA KEIJIRŌ the future railway king;
+the four-kin gun's first shot; the fight at KASHIO — Kondō left-handed, three
+Tosa cut down, MATSUBARA killed; rout to Hachiōji; the KŌYŌ CHINBUTAI DISBANDED).
+ch53 流山屯集 / "Mustering at Nagareyama" (the split from HARADA and NAGAKURA;
+Toshizō's choice of AIZU via NAGAREYAMA; the parting-walk "back to just you and
+me"; the Meiji-9 memorial-stele digression, Yoshinobu weeping; the march to
+Matsudo). Notes 340–381 (42 this batch). Continuous note number now 381.
+Glossary 302 rows (1 new key: 甲陽鎮撫隊). 53 of 71 chapters translated.
+
+SCENE BREAKS (by <br/>-run text boundary, not scene_map index):
+- ch49: ONE internal *** (after "Her ears had flushed red.", before "The next
+  morning" — the double <br/> run between the intimate evening and the departure).
+  The transition to the Fujiyama-maru (line 75) is only a SINGLE <br/> =
+  paragraph break, NOT a scene break; left as a paragraph break.
+- ch50: ONE internal *** (after "Kondō rejoiced almost past his wits.", before
+  "Toshi, five hundred thousand koku, he says," — the council-chamber reverie to
+  the barracks).
+- ch51: NONE (only the title/body separator run). The Hino digression and the
+  race for Kōfu are handled by textual transitions, no <br/> runs.
+- ch52: ONE internal *** (after "...planted abatis here and there along the
+  road.", before "Meanwhile, into the hands of the Imperial commander Itagaki
+  Taisuke" — Kondō's field-works to the Imperial HQ).
+- ch53: NONE (only the title/body separator). The Meiji-9 stele digression is
+  bounded by Shiba's own "Though this, to be sure, is a digression." and "Now,
+  to return to the study..." textual markers, no <br/> runs.
+
+CHECKS: all green except one documented false-flag (below).
+- Parity (make_bilingual): ch49 163/163, ch50 185/185, ch51 181/181,
+  ch52 178/178, ch53 175/175.
+- verify_unit numbers (--noise): all 0 unresolved after fixes.
+- check_align / check_content: OK across all units EXCEPT ch52 pair 65 (see the
+  false-flag note below).
+- qc_entities: 0 misses all five (the ONE battery entity check that matters is
+  clean; the check_content substring-flag on ch52 is a separate tool).
+- check_apparatus: 0 failures / 0 warnings.
+- check_register --ref: within tolerance all five (battle/parting chapters ran
+  em-dash LOW: ch49 4, ch50 5, ch51 3, ch52 2, ch53 3 per file; no STILTED flag,
+  so no forced contractions beyond the natural dialect of Toshizō/Kondō).
+- Tail verified against source for all five (rule 4).
+- qa_epub: PASS (381/381/381, all links resolve). epubcheck: 0/0/0/0.
+
+DOCUMENTED FALSE-FLAG (check_content, ch52 pair 65): the source's own alias
+「近藤勇平」 ("Kondō Yūhei", the garbled name Itagaki hears) contains the
+glossary key 近藤勇 (Kondō Isami) as a literal substring, so check_content's
+substring matcher demands "Kondō Isami" in that paragraph. The translation is
+correct ("Kondō Yūhei"); the flag is a pure tool limitation (the Japanese source
+cannot be altered and the checker has no longest-match/exclusion mechanism).
+This is the FRAGILE-COMPOUND class the handoff anticipates. qc_entities (the
+battery's entity gate) does NOT false-flag it; only check_content's substring
+scan does. Left as-is, faithful; NOT a real displacement.
+
+NOISE ADDITIONS (data/noise.txt, all commented; never a real quantity):
+- ch49: 利三郎 (Nomura Risaburō — 三 in the given name).
+- ch50: 千駄ケ谷 (Sendagaya — 千).
+- ch51: 四谷 (Yotsuya — 四), 精一郎 (Nakayama Seiichirō — 一).
+- ch52: 三品一郎 (Mishina Ichirō — 三 and 一), 千屋 (Chiya Kikujirō — 千).
+- ch53: 尚三 (Oguri Shōzō — 三), 千住 (Senju Great Bridge — 千).
+Existing rules re-used (no new needed): 彦五郎, 五郎 (Hida Hamagorō / Maeno Gorō /
+Yūgorō / Heigorō), 八郎 (Chūjō Tsunehachirō), 二郎 (Gotō Shōjirō), 喜六
+(Takamatsu Kiroku), 千本 (千本松 at the Yodo bank), 源三郎 (Inoue Genzaburō),
+三々五々, 八王子, 二重, 何百-class idioms.
+
+NUMBER-CHECK LESSONS (this batch): the checker needs an explicit "a"/"one"
+coefficient before "million"/"hundred thousand" — "a million koku" and "one
+hundred thousand koku" PASS, but "that million koku" / "the million koku" /
+"a hundred thousand koku" FAIL (fixed by supplying the coefficient); "a score" /
+"one thousand six hundred" are NOT read (use "twenty" / digits "1,600"); the
+composite koku figures 五十万/四百万/七百万/五万/三万/五千/三千 all PASS in
+word-form with a leading digit-word ("five hundred thousand", "four million",
+etc.). Kana counts (ふたつ, 二日 rendered "second") caused no flags.
+
+DIGITIZATION GLITCHES: none material found in ch49–ch53 (no dittography, no
+mojibake, no mismatched guillemets in the body text of these five spine files;
+the 8 gaiji were handled at ingest). Recorded as "none present."
+
+FACT-CHECK VERDICTS (real scholarship; no LLM/Grok sources):
+- KAMEYA MUTSU / MATSUKAZE (ch49): CORROBORATED. Kyoto confectioner founded 1421,
+  long a purveyor to the Nishi Hongan-ji; matsukaze (baked flour, malt-syrup and
+  white miso, poppy-seeds on top) began by the shop's tradition as a siege
+  ration during Nobunaga's war on the Ishiyama Hongan-ji and took its name from a
+  poem (footnoted ch49).
+- HINOMARU as national flag (ch49): CORROBORATED. The sun-disc was ordered flown
+  by Japanese ships in 1854 after Perry, used as the shogunal war-flag through
+  Toba-Fushimi, and formally made the national/merchant ensign by the Commercial
+  Shipping Regulations (Daijōkan Proclamation No. 57) of Meiji 3/1 (27 Jan 1870).
+  Shiba's parenthetical (Kaei 6 origin, Meiji 3/1 adoption) is accurate
+  (footnoted ch49).
+- YAMAZAKI SUSUMU's death (ch49): the Shinsengumi tradition has him wounded at
+  Toba-Fushimi and dying aboard the Fujiyama-maru, buried at sea; some modern
+  historians doubt the shipboard death. Noted as the traditional account Shiba
+  follows (footnoted ch49).
+- KŌYŌ CHINBUTAI + KONDŌ's rank (ch50): CORROBORATED. Shinsengumi renamed and
+  sent to hold Kōfu (Keiō 4, 2nd month); Kondō given wakadoshiyori-kaku standing
+  (and a samurai alias, Ōkubo — Tsuyoshi in the Kōyō period, Yamato at
+  Nagareyama). Danzaemon (13th, freed from outcaste status Keiō 4/1) sent ~200
+  men, ~100 of them gunners (footnoted ch50).
+- MINIÉ RIFLE "breech-loader" (ch50): Shiba's parenthetical 元込め is an ERROR;
+  the Minié was a MUZZLE-loader (the Minié ball's expanding hollow base was its
+  innovation). Kept visible and footnoted as a source error of fact (ch50).
+- ITAGAKI name-change + Shingen propaganda (ch51): CORROBORATED. Inui Taisuke
+  restored the ancestral surname Itagaki (by most accounts at Ōgaki) on the claim
+  of descent from Takeda Shingen's general Itagaki Nobukata, and spread it in
+  Kōshū to win the province; it worked (footnoted ch51).
+- RIIN SHIWA (籬蔭史話) (ch51): CORROBORATED as an actual memoir by Satō Jin,
+  grandson of Satō Hikogorō, quoted directly by Shiba for the Hino homecoming
+  (footnoted ch51).
+- BATTLE OF KATSUNUMA / KASHIO (ch52): CORROBORATED. Fought Keiō 4/3/6
+  (29 Mar 1868) at Katsunuma/Kashio (a.k.a. 柏尾の戦い); Itagaki's Tosa-led
+  Tōsandō vanguard broke the Kōyō Chinbutai in ~2 hours; first land battle of the
+  eastern campaign; sealed the Shinsengumi's decline (footnoted ch52).
+- AMEMIYA KEIJIRŌ (ch52): CORROBORATED. 1846–1911, Kōshū headman's son, "the
+  railway king of Meiji"; built a Fukagawa steam flour-mill (~1879–80), rode
+  speculation and railways to a fortune, jailed briefly in the Tokyo water-pipe
+  graft scandal, died Meiji 44. Shiba's aside is accurate (footnoted ch52).
+- MEMORIAL STELE at Takahata Fudō (ch53): CORROBORATED in every detail. The
+  Junsetsu Ryōyū no Hi: text by Ōtsuki Bankei, calligraphy by Matsumoto Jun,
+  seal-script header by Matsudaira Katamori after Yoshinobu wept at the names and
+  declined; planned Meiji 9 (1876), raised at last Meiji 21 (1888), held back a
+  decade by the political climate (footnoted ch53).
+- KATSU KAISHŪ / YAMAOKA TESSHŪ + the Kōyō-Chinbutai theory (ch53): the bloodless
+  surrender of Edo (Katsu–Saigō) is history; Shiba's claim that Katsu contrived
+  the Kōyō Chinbutai to expel the Shinsengumi from Edo is presented as one theory
+  (一説) and footnoted as such (ch53).
+- TOSHIZŌ'S HAIKU 公用に出てゆく道や春の月 (ch53): a genuine hokku from his Hōgyoku
+  collection; footnoted (ch53).
+
+NOT RE-NOTED (first-appearance discipline; covered earlier, ledgered here):
+- 富士山丸 Fujiyama-maru (noted ch47), 豊玉 Hōgyoku poet-name (ch19/ch34),
+  和泉守兼定 (glossary), Okita's consumption (ch03/ch16/ch38).
+- 権現様 Gongen-sama = Ieyasu (ch36), 旗本八万騎 (ch27), four-kin mountain gun
+  (ch41), 気組 kigumi (ch07), Maki Izumi (ch24), Hamaguri Gate (ch24/27),
+  御陵衛士/大御番組 Ōgobangumi (ch45), 誠 Makoto banner (ch25/ch43).
