@@ -183,3 +183,11 @@
 十四、五
 # 三昧 (zanmai, Buddhist "samādhi"; here 刃物三昧 "blade-play/indulgence"): not a quantity
 三昧
+# 万燈会 (mandōe): a Buddhist "Ten-Thousand-Lantern" rite; the 万 is the rite's name, carried in English as "Ten-Thousand-Lantern"
+万燈会
+# 万余 (man'yo, "a myriad and more"): idiom for a vast host, carried in English as "tens of thousands"
+万余
+# 千本の桜 (chimoto/senbon no sakura): the poetic "thousand cherry trees", carried in English as "thousand"
+千本
+# 五節の舞 (Gosechi no mai): proper name of the ancient court dance; the 五 is part of the name, not a count
+五節

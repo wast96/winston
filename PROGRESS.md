@@ -1514,3 +1514,115 @@ woman — but confesses he is truly smitten, and grants her one night. In the mo
 tenderness so shakes his solitary discipline that he leaves to wash his face and never returns
 to the hermitage, thinking he has never known a peril to match that morning's, and takes the
 ridge road toward Yamashiro.
+
+## B12 — ch12 吉野天人 / The Celestial Maiden of Yoshino (printed folios 397-424, tail spills onto 425)
+
+**Status: COMPLETE.** 212 body paragraphs (incl. one editorial scan-gap marker), 10 new notes
+(book total 97). All checks green: verify_unit (parity 212|212, numbers 0/212 unresolved,
+anchors 10 ok), check_structure parity 212|212 OK, check_align median 9.50 en/han (16 short
+kana-heavy ratio outliers — parentheticals/terse dialogue, none displaced), qc_entities 0
+misses (after name-survival pass), check_content ch12 192 name occurrences ALL in the paired
+paragraph (clean), check_register 1.86x ref (contractions 29.3/1k vs ref 15.8; within
+tolerance — a dialogue-heavy chapter, cf. ch10 2.31x / ch11 1.62x), qa_epub PASS (34 files, 97
+notes refs/bodies/backlinks, 192 pagebreaks), epubcheck 0 fatals / 0 errors / 0 warnings.
+
+### CONFIRMED folio→PDF map + WHERE THE +2 OFFSET ENDS (the scan gap)
+Read off every running head (top-strip crop + autocontrast; folios very faint) and confirmed by
+content across the boundary:
+- **PDF 399-405 = folios 397-403 (offset +2 — folio = PDF − 2).** PDF 399 = folio 397 (ch12
+  opener 吉野天人, after the ch11 tail). PDF 405 = folio 403, which ENDS mid-sentence
+  "…方広寺裏に帰ると黒[阿弥]…".
+- **GAP: printed folios 404 and 405 are MISSING from the scan (a 1-leaf scan gap).** Confirmed
+  by reading both edges: folio 403 (PDF 405) ends mid-clause; folio 406 (PDF 406) BEGINS
+  mid-sentence "の中から絢爛たる能衣裳が…" in an entirely different scene (the performance night).
+  The two do NOT connect. ~2 pages of content are genuinely lost. Per rule 4 NO bridging text
+  was invented: body paragraph 37 is left truncated, body 38 is an editorial gap marker
+  〔欠落・原本 folio 404–405〕 rendered "[Here the only surviving scan is missing its printed
+  folios 404 and 405…]" with a footnote, and body 39 resumes exactly where the readable text does.
+- **PDF 406-425 = folios 406-425 (offset 0 — printed == PDF).** The +2 offset ENDS AT PDF 406.
+  Confirmed: PDF 414 = folio 414, PDF 424 = folio 424, PDF 425 = folio 425.
+- **ch13 opener 水狗 confirmed at folio 425 = PDF 425 (offset 0).** ch12's tail SPILLS onto folio
+  425: body paragraphs 207-211 sit at the TOP of folio 425 (Jūzō and Kuroami parting at Sanade,
+  ending "…年齢の疲れがみえた。"); the 水狗 title and ch13 body follow LOWER on the same folio.
+  **B13 must start AT the 水狗 title and must NOT re-translate ch12's 5-paragraph spillover.**
+
+Built `data/pagemap/ch12.json` — 27 entries, folios 397-403 + 406-425 (NO entries for the
+missing 404-405), body_paragraph monotonic 0→207.
+
+### ch11 tail vs ch12 body (do NOT re-translate either direction)
+ch11's tail (7 paras, source lines 225-231 of data/zh/ch11.txt) spilled onto folio 397 BEFORE
+the 吉野天人 title — done in ch11, NOT re-translated here. ch12 body begins after the title with
+文禄三年二月二十七日…. ch12's own tail (5 paras) spills onto folio 425 before the 水狗 title —
+that is B13's boundary (see above).
+
+### The 10 new notes (ch12) — all genuine first-appearances (+ one apparatus note)
+1. **Mount Yoshino** (folio 397) — the district S of Nara, its cherry-blossom cult; Hideyoshi's
+   1594 flower-viewing progress (suite ~5000).
+2. **and of Toshiie** (folio 397) — Maeda Toshiie (1538–1599), senior Hideyoshi general, lord
+   of Kaga; balance-holder after Hideyoshi's death. (New glossary row 利家→Toshiie.)
+3. **twenty-nine of his consorts** (folio 398) — the 1595 Hidetsugu purge: exposed at Sanjō
+   riverbed, 30+ women/children beheaded, clearing the succession for Hideyori. Cross-refs the
+   ch11 Hidetsugu note.
+4. **the Zaō Hall** (folio 397) — the Zaō-dō of Kimpusen-ji, the Shugendō center at Yoshino's summit.
+5. **the Saigyō hermitage** (folio 397) — Saigyō (1118–1190), the warrior-monk poet of Yoshino's blossoms.
+6. **a torchlight Noh** (folio 401) — Noh; the Kanze school; takigi-nō (torchlight Noh, rooted in
+   the Kōfuku-ji/Kasuga sacred Noh, Nara); the shite/waki/wakizure roles.
+7. **a heavenly maiden** (folio 402) — the Noh play 吉野天人; the tennin (Skt. apsaras), a Buddhist
+   celestial dancer. (The chapter/play title footnote.)
+8. **missing its printed folios 404 and 405** (gap marker) — the honest scan-gap apparatus note (rule 4).
+9. **an owl-whistle** (folio 417) — the ninja owl-whistle (梟笛); ties to the book title Owl's Castle.
+10. **a single sasumata** (folio 418) — the two-pronged man-catcher pole, for taking a man alive.
+
+### NOT re-noted (already placed ch01-ch11; cross-referenced, not repeated)
+the Taikō (太閤), the Naifu (内府), Sekigahara, Bunroku/Tenshō dating, the Kampaku, Hideyoshi/
+Ieyasu/Hidetsugu/Hideyori, Ishida the Jibu-no-shō (治部少輔)/Mitsunari, Imai Sōkyū, the Tokugawa,
+Iga/Kōga, the rappa, 化生/keshō (ch11 — kept as "keshō" in prose here, not re-noted), the zodiac
+double-hours (暮六ツ), Otogi Pass, the measures (ri/ken/shaku), Mari Dōgen, Kohagi, the
+Korea invasion. Deliberately UN-footnoted (self-glossing or minor): 万燈会 (glossed "Ten-Thousand-
+Lantern rite"), sukiya, 結界, the Gosechi dance / omigoromo (glossed inline), makibishi ("caltrops",
+transparent), 忍び車 (glossed "throwing-wheel", a fictional ninja tool — glossary-line tier at most),
+測隠術 (rendered "the Iga art of measure-and-concealment", a fictional technique), the single-
+appearance names (Oda Urakusai / Furuta Oribe-no-shō / Yamaoka Dōami / Kanze Otojirō / Mikajirō /
+the Yoshino sub-temples Shikan-in, Hōzen-in, Kissui-in / the route markers Sanade, Takatori,
+Takada, Shimoichi, Shimogawara).
+
+### Glossary rows — reused unchanged vs added
+- **Reused unchanged:** 葛籠重蔵/重蔵 (Tsuzura Jūzō/Jūzō), 風間五平/五平 (Kazama Gohei/Gohei),
+  黒阿弥 (Kuroami), 小萩 (Kohagi), 秀吉 (Hideyoshi), 秀次 (Hidetsugu), 家康 (Ieyasu),
+  摩利洞玄/洞玄 (Mari Dōgen/Dōgen), 今井宗久 (Imai Sōkyū), 石田三成/三成 (Ishida Mitsunari),
+  徳川 (Tokugawa), 乱波 (rappa), 方広寺 (Hōkō-ji), 羅刹谷 (Rakshasa Valley), 御斎峠 (Otogi Pass),
+  大坂/大坂城 (Ōsaka/Ōsaka Castle), 伊賀/甲賀 (Iga/Kōga), 関ヶ原 (Sekigahara), 関白 (the Kampaku).
+- **Added (3):** 利家 → Toshiie (people); 吉野 → Yoshino, 吉野山 → Mount Yoshino (places).
+  All render "Yoshino" so the 吉野-in-compound substring cases (吉野山, 吉野天人, 吉野川, 吉野観桜)
+  all carry "Yoshino" — no false-positive risk; check_content passes clean.
+
+### data/noise.txt — added 4 (source side, number-words carried in English prose/proper names)
+万燈会 (Ten-Thousand-Lantern rite), 万余 ("tens of thousands"), 千本 ("thousand" cherry trees),
+五節 (the Gosechi dance-name). Each carried in English words; the digit-matcher false-positived.
+
+### Name-survival pass (as in B10/B11)
+6 pronoun-only paragraphs (body 55,64,72,83,150,200) re-anchored to carry "Jūzō"/"Kohagi" where
+the source names them; check_content then clean (0 displaced).
+
+### Voice sheets — this chapter
+- **Jūzō:** the Yoshino infiltration and the night duel with Gohei. Blunt, terse (わし); a
+  professional's cold nerve. His long reflection at the close names Kohagi the last true ninja
+  and himself as one who commits into the keshō rather than the woman — the thematic core.
+- **Gohei:** cold, mocking, calculating ("either way there's nothing in it for me"); the Iga
+  art of measure-and-concealment (測隠術); wounds and vanishes rather than fight fair.
+- **Kuroami:** humble-archaic (ござる/申す/でな), superstitious ("a sense like a shrine medium's"),
+  frankly terrified of Gohei ("I'm frightened of him past all bearing"); dry irony ("hardly a
+  lovers' quarrel"); a weariness of years in his white dawn laugh at the very end.
+- **Kohagi (off-stage, revealed):** she LED the Kōga night-attack on the Saigyō peak, in ninja
+  garb, giving orders — Mitsunari's ninja, meaning to take Jūzō alive as living proof of the
+  plot. Her quoted plea to flee together (folio 424) is the tender courtly register (ましょう).
+
+### Where the story stands (end of ch12)
+Bunroku 3/2/27 (1594): Hideyoshi's Yoshino flower-viewing progress (with Hidetsugu, Ieyasu,
+Toshiie; the Korea war faltering). Jūzō infiltrates the torchlight Noh 吉野天人 disguised as a
+performer to see Hideyoshi's face, but the Shikan-in seat is too dark; he aborts. Fleeing, he is
+tailed by Gohei (now Mitsunari's man) and fights him to a wounding draw on the mountain, then is
+swarmed by a dozen Kōga ninja and the owl-whistles — an ambush LED by Kohagi, who means to take
+him alive as proof that Sōkyū's plot is Ieyasu-backed, to force Hideyoshi against the Tokugawa.
+Jūzō breaks free (Kuroami returns to help); Kuroami names Kohagi and warns him to make an end of
+her, Dōgen and Gohei back in the capital — the day to kill the Taikō is near. They part at Sanade.

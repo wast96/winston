@@ -650,6 +650,12 @@
       "pinyin": "Hideyori",
       "status": "attested",
       "note": "Toyotomi Hideyori, Hideyoshi's son and heir, born to Yodo-gimi on the third day of the eighth month, Bunroku 2 (1593); infant name O-Hiroi."
+    },
+    "利家": {
+      "en": "Toshiie",
+      "pinyin": "Maeda Toshiie",
+      "status": "attested",
+      "note": "Maeda Toshiie, one of Hideyoshi's most senior generals and a boyhood comrade."
     }
   },
   "places": {
@@ -1297,6 +1303,18 @@
       "pinyin": "Fusan-jō",
       "status": "decided",
       "note": "Pusan (Busan), the first Korean fortress taken in the 1592 invasion. Added so the entry does not collide with 山城 (Yamashiro) as a substring."
+    },
+    "吉野": {
+      "en": "Yoshino",
+      "pinyin": "Yoshino",
+      "status": "attested",
+      "note": "Mountainous district south of Nara, celebrated since antiquity for its cherry blossoms; the setting of Hideyoshi's 1594 flower-viewing progress."
+    },
+    "吉野山": {
+      "en": "Mount Yoshino",
+      "pinyin": "Yoshino-yama",
+      "status": "attested",
+      "note": "The cherry-clad range at Yoshino."
     }
   },
   "terms": {
