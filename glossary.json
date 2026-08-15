@@ -196,5 +196,137 @@
     "pinyin": "Shaan-Gan-Ning Bianqu Bao'anchu",
     "status": "decided",
     "note": "The Border Region government’s combined public-security and procuratorial organ, known for short as 边保 (Bianbao, the “Border Security”); the executing arm of Communist security work in Yan’an, and outwardly the government face of the Northwest Bureau’s Social Affairs Department."
+  },
+  "邓小平": {
+    "en": "Deng Xiaoping",
+    "pinyin": "Deng Xiaoping",
+    "status": "attested",
+    "note": "1904&#8211;1997. Here a mid-ranking political officer in Yan'an; after Mao Zedong's death, China's paramount leader and the architect of its &#8220;reform and opening.&#8221;"
+  },
+  "卓琳": {
+    "en": "Zhuo Lin",
+    "pinyin": "Zhuo Lin",
+    "status": "attested",
+    "note": "1916&#8211;2009. Born Pu Qiongying, daughter of a wealthy Yunnan ham merchant; Deng Xiaoping's wife from 1939 to the end of his life."
+  },
+  "罗青长": {
+    "en": "Luo Qingchang",
+    "pinyin": "Luo Qingchang",
+    "status": "attested",
+    "note": "1918&#8211;2014. A young Yan'an-trained intelligence officer and &#8220;living file,&#8221; aide to Zhou Enlai; later minister of the Central Investigation Department."
+  },
+  "汪东兴": {
+    "en": "Wang Dongxing",
+    "pinyin": "Wang Dongxing",
+    "status": "attested",
+    "note": "1916&#8211;2015. Rose from Mao Zedong's Yan'an bodyguard to head of the Central Guard Bureau; a CCP vice-chairman in the years just after Mao's death."
+  },
+  "许建国": {
+    "en": "Xu Jianguo",
+    "pinyin": "Xu Jianguo",
+    "status": "attested",
+    "note": "1903&#8211;1965. Born Du Liqing; a veteran security officer, deputy head of the Border Security and later head of the Jin-Cha-Ji Social Affairs Department. Rendered &#8220;Du Liqing&#8221; where the book uses his original name."
+  },
+  "谭政文": {
+    "en": "Tan Zhengwen",
+    "pinyin": "Tan Zhengwen",
+    "status": "attested",
+    "note": "1910&#8211;1961. A Long March security cadre, deputy head of the Border Region Security Office; later a senior procuratorial official."
+  },
+  "赵苍璧": {
+    "en": "Zhao Cangbi",
+    "pinyin": "Zhao Cangbi",
+    "status": "attested",
+    "note": "1916&#8211;1993. A northern-Shaanxi local cadre who rose through investigation work; minister of public security of the People's Republic from 1977 to 1983."
+  },
+  "李启明": {
+    "en": "Li Qiming",
+    "pinyin": "Li Qiming",
+    "status": "decided",
+    "note": "An intellectual cadre from Shanxi and son-in-law of Li Kenong; the youngest deputy head of the Border Security, later governor of Shaanxi. One of the author's interviewees."
+  },
+  "陈龙": {
+    "en": "Chen Long",
+    "pinyin": "Chen Long",
+    "status": "attested",
+    "note": "1910&#8211;1958. From the Northeast anti-Japanese forces; Mao Zedong's guard at the Chongqing negotiations and a pioneer of Communist counter-espionage."
+  },
+  "凌云": {
+    "en": "Ling Yun",
+    "pinyin": "Ling Yun",
+    "status": "attested",
+    "note": "1917&#8211;2018. A Social Affairs Department trainee; the first Minister of State Security of the People's Republic."
+  },
+  "贺龙": {
+    "en": "He Long",
+    "pinyin": "He Long",
+    "status": "attested",
+    "note": "1896&#8211;1969. A founder of the Red Army and later a marshal of the People's Republic; died persecuted in the Cultural Revolution."
+  },
+  "林彪": {
+    "en": "Lin Biao",
+    "pinyin": "Lin Biao",
+    "status": "attested",
+    "note": "1907&#8211;1971. A leading Communist general and later marshal; named Mao Zedong's successor, he died fleeing China after an alleged coup attempt."
+  },
+  "江青": {
+    "en": "Jiang Qing",
+    "pinyin": "Jiang Qing",
+    "status": "attested",
+    "note": "1914&#8211;1991. A Shanghai film actress and Mao Zedong's fourth wife; a leader of the Cultural Revolution and a member of the &#8220;Gang of Four.&#8221;"
+  },
+  "聂荣臻": {
+    "en": "Nie Rongzhen",
+    "pinyin": "Nie Rongzhen",
+    "status": "attested",
+    "note": "1899&#8211;1992. Commander of the Jin-Cha-Ji base area behind Japanese lines and later a marshal of the People's Republic."
+  },
+  "李宗仁": {
+    "en": "Li Zongren",
+    "pinyin": "Li Zongren",
+    "status": "attested",
+    "note": "1890&#8211;1969. Guangxi militarist and Nationalist general, victor at Tai'erzhuang; briefly acting president of the Republic of China, he returned to the mainland in 1965."
+  },
+  "董必武": {
+    "en": "Dong Biwu",
+    "pinyin": "Dong Biwu",
+    "status": "attested",
+    "note": "1886&#8211;1975. A founder of the CCP; deputy head of its wartime Southern Bureau in Chongqing, and later acting head of state of the People's Republic."
+  },
+  "叶剑英": {
+    "en": "Ye Jianying",
+    "pinyin": "Ye Jianying",
+    "status": "attested",
+    "note": "1897&#8211;1986. A Communist general and later marshal; in charge of liaison for the Southern Bureau, and decades on a decisive figure in the arrest of the Gang of Four."
+  },
+  "李德": {
+    "en": "Li De",
+    "pinyin": "Li De",
+    "status": "attested",
+    "note": "Chinese name of Otto Braun (1900&#8211;1974), the German Comintern military adviser to the CCP and the only Westerner to make the Long March."
+  },
+  "布鲁": {
+    "en": "Bu Lu",
+    "pinyin": "Bu Lu",
+    "status": "decided",
+    "note": "A White-area underground veteran; reconnaissance chief of the Border Security and head of its first Qilipu training class."
+  },
+  "王炎堂": {
+    "en": "Wang Yantang",
+    "pinyin": "Wang Yantang",
+    "status": "decided",
+    "note": "Born Huang Jintang; entered the Social Affairs Department at fifteen and became an expert on the Nationalist secret services; later a deputy minister of the Central Investigation Department and one of the author's interviewees."
+  },
+  "三青团": {
+    "en": "Three People's Principles Youth League",
+    "pinyin": "Sanqingtuan",
+    "status": "attested",
+    "note": "The Nationalists' youth organization, founded in 1938 and folded back into the Kuomintang in 1947."
+  },
+  "整风": {
+    "en": "the Rectification Movement",
+    "pinyin": "zhengfeng",
+    "status": "attested",
+    "note": "The Yan'an Rectification, launched in 1942: Mao Zedong's campaign of ideological remolding and cadre screening."
   }
 }

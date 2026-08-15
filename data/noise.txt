@@ -35,3 +35,16 @@
 # 九龍
 # weekdays carry no quantity — rendered "Monday" etc.
 # 星期[一二三四五六]
+# "老百姓"/"百姓" = the common people (百 is not a quantity) — rendered "the common folk"/"people"
+老百姓
+百姓
+# Qilipu, the training-camp place name (七 = 7 li) — rendered "Qilipu"
+七里铺
+# Sanshilipu, the training-camp place name (三十 = 30 li) — rendered "Sanshilipu"
+三十里铺
+# "'人民'二字" = the words "people" (二字 = "the two characters", not a count) — rendered "the word 'people'"
+二字
+# "万岁" = "long live" (万 = 10,000 is idiomatic here, not a quantity) — rendered "Long live"
+万岁
+# Sanxianyuan, a restaurant name (三 = "three" in the name) — rendered "Sanxianyuan"
+三仙园

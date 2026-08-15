@@ -312,3 +312,156 @@ curated subset) is still for the commissioner.
 - Branch consolidated onto claude/chinas-secret-war at session start (the
   harness stray branch claude/chinas-secret-war-b02-zsrbvw was at the same
   commit; deleted local, remote pruned at push).
+
+## Batch B03 — Chapter 2, sections 6-8 + chapter-end Principal Sources (ch02s06-ch02s08)
+
+Scope: Chapter 2 "暗战 / Secret War," sections 6 (知青进入特训班 / Educated Youth
+Enter the Special Training Class), 7 (延安防线 / The Yan'an Defense Line), 8 (大布局
+/ The Grand Deployment), plus the chapter's 主要资料 / Principal Sources apparatus.
+PDF 109-133, printed 73-97. Offset constant printed = pdf - 36, re-verified at
+each opener off the scan (s6 p109/73, s7 p120/84, s8 p124/88) and at the stop
+(Chapter 3 opens p134/98). Simplified, horizontal; chi_sim, psm 6; PaddleOCR
+absent, dual read via scripts/ocr_dual.py. This completes Chapter 2.
+
+### Translated and checked
+- ch02_reading.md now carries the whole chapter: 339 English body paragraphs
+  (167 from B02 + 172 new). New sections: 6 (63), 7 (29), 8 (44), Principal
+  Sources (34). One paragraph per TRUE source paragraph; every page read off the
+  scan.
+- Verified as a self-contained QC unit "ch02b03" (a SEPARATE zh scaffold so
+  data/zh/ch02.txt was not clobbered), then folded into ch02_reading.md:
+  - verify_unit ch02b03: parity 172 zh / 172 en CLEAN.
+  - check_align: 172/172, median 4.80 en/han; one out-of-line pair, the s8
+    photo-caption (许建国 Jin-Cha-Ji group, printed 93) embedded in that OCR
+    paragraph; the English is correct (caption is a deferred figure).
+  - qc_entities: 0 misses.
+  - check_content: still N/A to this project's schema (as in B02).
+  - The number invariant's residual flags were all adjudicated to OCR-scaffold
+    garble and to idioms/place-names the checker reads as quantities: 老百姓/百姓
+    ("hundred surnames" = the common people), 七里铺/三十里铺 (Qilipu / Sanshilipu,
+    the training-camp li-names), 万岁 ("long live"), 三仙园 (a restaurant), 二字
+    ("the two characters 人民" = the word "people"), the OCR-mangled month in
+    "第八期于1941年10月" (tesseract read 1月; the SCAN reads 10月, and the English
+    carries October), and OCR digit garble in the figure-heavy regions. These
+    were added to data/noise.txt (longest-first, each commented). Every source
+    quantity was verified against the SCAN while translating; load-bearing
+    figures/unit designations set in digits per STYLE (the 22nd Army; more than
+    two hundred organs; over sixty thousand people; 8:40 a.m.; six planes; the
+    25,000-li Long March; two hundred trained cadres).
+- ONE real drop the number check caught: 四渡赤水 had been rendered "the crossings
+  of the Chishui" (the "four" lost); fixed to "the Four Crossings of the Chishui"
+  (the named campaign). Re-verified.
+- Register vs frozen ch01: dialogue-contraction metric QUIET (0.4/1k), noise
+  again for this low-dialogue documentary unit (the reportage caveat in STYLE /
+  references/register-drift.md). Judged on narratorial signals: em-dash 0.0/1k
+  (rationed hard, well under the ref's 3.4), rhythm CV 0.56 (healthy spread vs
+  ref 0.49), sentence median 22. The quoted speech present (the moon joke, Mao's
+  "first in China," Huang Kegong's shout, Zhuo Lin's written recollection, Deng's
+  reflection on Mao) is either contracted where natural or formal by design.
+  Not stilted narration.
+
+### Section tails (rule 4 corollary) — checked
+Each s6/s7/s8 tail was read PAST the next heading to confirm the whole preceding
+section: section 6's close ("outside cadres from everywhere," the peasant-rising
+aside, the two "young students / value talent" codas) sits on printed 84 above
+the section-7 heading; section 7's close (the air-raid story, Mao's "first in
+China," the "model base / embryo of a new China" line) sits on printed 88 above
+the section-8 heading. Both fully captured.
+
+### zh scaffolding parity (method, reproducible)
+Same figure-page defeat of indent/blank signals as B02 (many true paragraphs
+merged into one OCR line by inline photos, plus a few split across a page). New
+script scripts/resegment_ch02b03.py: drops the section-5 tail carried on PDF 109
+(already in B02's section 5), applies the merges/splits that bring the OCR to
+1:1 with the English, and inserts the Principal Sources heading. Split markers
+are drawn verbatim from the garbled OCR. data/zh is gitignored; the script is
+the reproducible bridge. The QC unit files (out/ch02b03_reading.md and its
+bilingual) were removed after verification so ch02_reading.md is the single
+source of truth; re-verification re-extracts the span.
+
+### Apparatus
+- notes.json: +18 for ch02 (ch02 unit total 36; book total 57). New: the Arisaka
+  Type-38 / "'38-style" pun; the Whampoa Academy analogy; the Three People's
+  Principles Youth League; Wang Dongxing; Ling Yun (first Minister of State
+  Security); the Yan'an Rectification (cross-ref Chapter 9); Deng Xiaoping;
+  Li De / Otto Braun; Zhuo Lin; Jiang Qing; the Huang Kegong case + Mao's letter
+  (CORROBORATED, also propaganda from the first); China's Destiny; Li Zicheng
+  (brief cross-ref to ch01); the Zunyi Conference; "political power grows out of
+  the barrel of a gun" + the knife-haft coinage; the Wang Jingwei puppet regime;
+  the Battle of Tai'erzhuang; Deng's "merits outweigh faults" (echoes the 1981
+  verdict). check_apparatus clean.
+- glossary.json: +22 rows (55 total). People (attested): Deng Xiaoping, Zhuo Lin,
+  Luo Qingchang, Wang Dongxing, Xu Jianguo (= born Du Liqing), Tan Zhengwen,
+  Zhao Cangbi, Chen Long, Ling Yun, He Long, Lin Biao, Jiang Qing, Nie Rongzhen,
+  Li Zongren, Dong Biwu, Ye Jianying, Li De. People (decided, pinyin call for
+  lesser cadres): Li Qiming, Bu Lu, Wang Yantang. Terms: 三青团 (Three People's
+  Principles Youth League, attested), 整风 (the Rectification Movement, attested).
+  CONSISTENCY NOTE: 杜理卿 (Du Liqing), section 5's early Border Security deputy
+  head, and 许建国 (Xu Jianguo), the Jin-Cha-Ji Social Affairs head of section 8,
+  are ONE man; the glossary row records the name change and both renderings are
+  kept (Du Liqing where the book uses the original name).
+
+### NOT re-noted (already placed / relied on)
+Kang Sheng and the Rescue Campaign (ch02 s4 + ch01); Whampoa officers / Blue
+Shirts (ch02 s2, distinct from the new Whampoa-Academy note); Hu Zongnan (ch02
+s2); Zhang Guotao (ch02 s3, his fate enlarged only in the source note here);
+the Long March and the 25,000 li (ch01); Sun Tzu's maxim is explained inline by
+the author, not footnoted.
+
+### Interested-witness set (rendered as printed, counter-record in the notes)
+- The Huang Kegong case is told as a triumph of impartial Yan'an justice; the
+  note states it is genuinely well documented AND was put to propaganda use.
+- The air-raid set-piece (the police holding their posts, nothing looted, Mao's
+  "Yan'an's police... first in China") is a self-celebrating anecdote, rendered
+  faithfully with its heat kept; no note needed beyond the naming.
+- The Laoshan "no political background" verdict appears in Luo Qingchang's own
+  source note, which lays out the dispute honestly; rendered as the source gives
+  it.
+
+### Names crop-verified this batch (every page read off the scan)
+Confirmed against the scan, correcting OCR: 艾丁 (Ai Ding, not OCR "区三"), 吕瑛
+(Lü Ying), 慕丰韵 (Mu Fengyun, not "莫丰韵"), 邓杰 (Deng Jie), 赵去非 (Zhao Qufei,
+not "赵去自"), 丁尚柏 (Ding Shangbai, not "丁尚林"), 刘茜 (Liu Qian), 王曦 (Wang Xi),
+蔡诚 (Cai Cheng), 曲及新 (Qu Jixin), 郑柱国/穆广林 (Zheng Zhuguo / Mu Guanglin),
+余海宇 (Yu Haiyu), 马兆祥 (Ma Zhaoxiang), 谢甫生 (Xie Fusheng), 缪庄林 (Miao
+Zhuanglin), 裴周玉 (Pei Zhouyu, consistent with ch01). Number fix: 第八期于1941年
+10月 (October, OCR had 1月); 机关单位二百多个 (over two hundred, OCR dropped 二).
+
+### Figures: still DEFERRED (deliberate; commissioner decision pending)
+figures.json remains empty. Sections 6-8 carry many inline plates: the Li Qiming
+family + author (p73); Wu Cheng (p75); Li Kenong / Luo Qingchang / Wang Yantang
+group (p76); the 1992 Qilipu-first-class Beijing reunion (p78); Xiao Chi (p79);
+the Deng Xiaoping & Zhuo Lin / Kong Yuan & Xu Ming wedding pair (p80); Yili's
+1949 Xi'an-takeover group (p81); Hao Su & Su Ping (p82); Mao Renfeng (p83); the
+Border-Security travel-checkpoint MAP 1937-1947 + Laoshan-checkpoint cadres
+(p85 — worth keeping, like the ch01 Shaan-Gan-Ning map); Mao Zedong's letter to
+Lei Jingtian, facsimile (p86); the three Yan'an municipal police chiefs Liu
+Huping / Wang Zhuochao / Hao Su (p87); the young Dong Biwu (p94); the Xu Jianguo
+Jin-Cha-Ji leadership group (p93). Standing question (every 图文 photo, or a
+curated subset) still for the commissioner.
+
+### KNOWN LIMITATION carried forward
+- Printed-page markers (the EPUB page-list) cover s1-5 (printed 46-72) only.
+  Sections 6-8 (printed 73-97) have no folio markers this batch: the pagemap
+  generator keys to pre-resegment zh indices, and the s5/s6 boundary is tangled
+  because section 5's tail straddles onto printed 73. No s6-8 note cites a folio,
+  so nothing depends on it. A clean full-chapter pagemap rebuild is a corrections-
+  pass task. (ch01 zh parity 269/299, from B01, also still open.)
+
+### Tooling touched (do NOT revert)
+- scripts/resegment_ch02b03.py: new; the reproducible zh re-segmentation for the
+  B03 span (analogue of resegment_ch02.py).
+- data/structure.json: +3 rows (section 6/7/8 headings, matched to OCR strings).
+- data/noise.txt: +7 entries (老百姓, 百姓, 七里铺, 三十里铺, 二字, 万岁, 三仙园),
+  each commented.
+
+### Build / environment
+- EPUB rebuilt: 3 of 14 chapters (ch00, ch01, ch02), 57 notes, 74 pagebreaks.
+  qa_epub PASS (28 files, all links resolve). epubcheck 5.1.0 clean
+  (0 fatals / 0 errors / 0 warnings).
+- OMP_THREAD_LIMIT=1 throughout; pgrep -c tesseract read 0 after every OCR run.
+- Branch consolidated onto claude/chinas-secret-war at session start (the harness
+  stray branch claude/china-secret-war-b03-vax76y was at the same commit as
+  origin/claude/chinas-secret-war; deleted local, remote already pruned).
+- setup.sh regression "hook stands down on template stub" still FAILS benignly
+  (HANDOFF holds a real kickoff, not the template stub).
