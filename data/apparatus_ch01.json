@@ -1,0 +1,226 @@
+{
+  "glossary": {
+    "周恩来": {
+      "en": "Zhou Enlai",
+      "pinyin": "Zhou Enlai",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 1,
+      "cast": "Founder of the CCP's intelligence and security work; ran the Central Special Branch from Shanghai and later the united-front and intelligence work from Yan'an and Chongqing.",
+      "note": "1898&#8211;1976. The CCP's premier diplomat and, throughout this book, the presiding figure of its hidden front."
+    },
+    "毛泽东": {
+      "en": "Mao Zedong",
+      "pinyin": "Mao Zedong",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 2,
+      "cast": "Chairman of the Chinese Soviet Republic and, from the Zunyi Conference on, the CCP's paramount leader; in this book, a master user of intelligence.",
+      "note": "1893&#8211;1976."
+    },
+    "陈赓": {
+      "en": "Chen Geng",
+      "pinyin": "Chen Geng",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 4,
+      "cast": "One of the “Three Heroes of Whampoa”; chief of the Special Branch's intelligence section, later a PLA general.",
+      "note": "1903&#8211;1961."
+    },
+    "顾顺章": {
+      "en": "Gu Shunzhang",
+      "pinyin": "Gu Shunzhang",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 5,
+      "cast": "The Special Branch's working head and master of “special operations”; his 1931 defection nearly destroyed the CCP underground.",
+      "note": "1904/5&#8211;1935."
+    },
+    "康生": {
+      "en": "Kang Sheng",
+      "pinyin": "Kang Sheng",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 6,
+      "cast": "Alias of Zhao Rong; took over the Special Branch in 1932. Later notorious for the Yan'an “Rescue Campaign” and Cultural Revolution persecutions.",
+      "note": "1898&#8211;1975. Born Zhang Zongke; “Zhao Rong” was a working alias."
+    },
+    "李克农": {
+      "en": "Li Kenong",
+      "pinyin": "Li Kenong",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 7,
+      "cast": "Foremost of the “Three Heroes of Longtan”; later ran the Xi'an liaison work and rose to head CCP intelligence.",
+      "note": "1899&#8211;1962."
+    },
+    "钱壮飞": {
+      "en": "Qian Zhuangfei",
+      "pinyin": "Qian Zhuangfei",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 8,
+      "cast": "One of the “Three Heroes of Longtan”; confidential secretary to the Nationalist agent chief Xu Enzeng, whose warning saved the CCP Center in 1931.",
+      "note": "1895&#8211;1935."
+    },
+    "胡底": {
+      "en": "Hu Di",
+      "pinyin": "Hu Di",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 9,
+      "cast": "One of the “Three Heroes of Longtan”; ran the Nationalist intelligence organ in Tianjin from within.",
+      "note": "1905&#8211;1935. Killed on the Long March in Zhang Guotao's purge."
+    },
+    "蒋介石": {
+      "en": "Chiang Kai-shek",
+      "pinyin": "Jiang Jieshi",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 10,
+      "cast": "Leader of the Nationalists (Kuomintang) and, in this book, the CCP's chief adversary on the hidden front.",
+      "note": "1887&#8211;1975."
+    },
+    "戴笠": {
+      "en": "Dai Li",
+      "pinyin": "Dai Li",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 11,
+      "cast": "Founding head of the Nationalist military secret service that became Juntong; Chiang Kai-shek's spymaster.",
+      "note": "1897&#8211;1946."
+    },
+    "朱德": {
+      "en": "Zhu De",
+      "pinyin": "Zhu De",
+      "status": "attested",
+      "note": "1886&#8211;1976. Commander-in-chief of the Red Army."
+    },
+    "张学良": {
+      "en": "Zhang Xueliang",
+      "pinyin": "Zhang Xueliang",
+      "status": "attested",
+      "note": "1901&#8211;2001. The “Young Marshal,” commander of the Northeast Army; co-author of the 1936 Xi'an Incident."
+    },
+    "中央特科": {
+      "en": "Central Special Branch",
+      "pinyin": "Zhongyang Teke",
+      "status": "decided",
+      "note": "The CCP's first professional intelligence and security organ, founded by Zhou Enlai in Shanghai in November 1927; its four sections covered general affairs, intelligence, armed action (the “Red Squad”), and radio."
+    },
+    "国家政治保卫局": {
+      "en": "State Political Security Bureau",
+      "pinyin": "Guojia Zhengzhi Baoweiju",
+      "status": "decided",
+      "note": "The Chinese Soviet Republic's political-security organ (1931&#8211;1935), modeled closely on the Soviet GPU; renamed the Northwest Political Security Bureau after the Long March."
+    },
+    "中统": {
+      "en": "Zhongtong",
+      "pinyin": "Zhongtong",
+      "status": "attested",
+      "note": "The Bureau of Investigation and Statistics of the Nationalist Central Organization Department, the KMT's civilian/party secret service; grew out of the 1928 Investigation Section under Chen Lifu."
+    },
+    "军统": {
+      "en": "Juntong",
+      "pinyin": "Juntong",
+      "status": "attested",
+      "note": "The Bureau of Investigation and Statistics of the Nationalist Military Affairs Commission, the KMT's military secret service under Dai Li; grew out of the 1932 Special Services Department of the Blue Shirts."
+    },
+    "特务": {
+      "en": "special agent / secret service",
+      "pinyin": "tewu",
+      "status": "decided",
+      "note": "The word this chapter anatomizes. Originally a neutral term for “special-duty” military work, it became, in the mouths of both parties, the loaded word for the enemy's spies and secret police. Rendered by sense in this translation, and kept as <i>tewu</i> where the author discusses it as a word."
+    }
+  },
+  "notes": {
+    "ch00": [
+      {
+        "anchor": "the Volunteers ever went into Korea",
+        "note": "The Chinese People's Volunteers, the name given to the PLA forces China sent into the Korean War (1950&#8211;1953)."
+      },
+      {
+        "anchor": "the deepest secret in the world",
+        "note": "The author's framing thesis: that the intelligence and security services, being the profession of secrecy itself, are the most hidden part of any state &#8212; and that China's, and the CCP's in particular, are the least known of all. The chapters that follow are his attempt to open them."
+      }
+    ],
+    "ch01": [
+      {
+        "anchor": "their first reaction is a startled cry",
+        "note": "<i>Tewu</i> (特务), literally “special service” or “special affairs.” In modern usage it is the ordinary word for a secret agent, and in both parties' propaganda it carried the menacing charge of the enemy's spies and secret police. The chapter's opening argument is that the word began as a neutral one; see the author's word-study below. Where he discusses it as a word it is kept as <i>tewu</i>; elsewhere it is rendered by sense."
+      },
+      {
+        "anchor": "Juntong agents had so fearsome a name",
+        "note": "Juntong (军统), the Bureau of Investigation and Statistics of the Nationalist Military Affairs Commission, was Chiang Kai-shek's military secret service under Dai Li; it and the party-run Zhongtong are the CCP's chief adversaries through this book. Both are treated at length in Chapter 2."
+      },
+      {
+        "anchor": "Political power grows out of the barrel of a gun!",
+        "note": "Mao Zedong's most quoted dictum, spoken at the August 7 Conference of 1927. The standard English rendering is preserved here."
+      },
+      {
+        "anchor": "the August 7 Conference",
+        "note": "An emergency conference of the CCP Central Committee on August 7, 1927, held after the collapse of the first Nationalist-Communist united front and the Nationalist massacres; it set the Party on the path of armed uprising."
+      },
+      {
+        "anchor": "three rooms above and three below",
+        "note": "<i>Shikumen</i> (“stone-gate”) houses are the terraced townhouses of early-twentieth-century Shanghai and other treaty-port cities, built around a small courtyard behind a stone door-frame &#8212; the characteristic cover for underground work."
+      },
+      {
+        "anchor": "an \"adventurers' paradise.\"",
+        "note": "A stock epithet for interwar Shanghai, whose foreign concessions lay outside Chinese jurisdiction and drew spies, gangsters, and refugees alike."
+      },
+      {
+        "anchor": "\"Three Heroes of Longtan\"",
+        "note": "Li Kenong, Qian Zhuangfei, and Hu Di (龙潭三杰). Planted inside the Nationalist agent chief Xu Enzeng's own apparatus, their warning after Gu Shunzhang's 1931 defection allowed Zhou Enlai to move the CCP Center to safety &#8212; the episode this section recounts. Corroborated: the story is standard in both official and independent accounts of CCP intelligence."
+      },
+      {
+        "anchor": "Notice of Wu Hao and Others Leaving the Communist Party",
+        "note": "The “Wu Hao Incident.” “Wu Hao” was a Zhou Enlai alias; the notice was a Nationalist forgery meant to suggest he had defected. It resurfaced decades later, during the Cultural Revolution, as material used against Zhou."
+      },
+      {
+        "anchor": "the \"AB Corps,\"",
+        "note": "The “Anti-Bolshevik Corps,” an alleged counter-revolutionary network. The scholarly consensus, and now the CCP's own official verdict (quoted by the author later in this section), is that the organization was largely a fabrication and that the purge conducted in its name killed thousands of innocent Red Army members on confessions extracted under torture. Contradicted, as a real conspiracy of the scale charged."
+      },
+      {
+        "anchor": "the \"Futian Incident\"",
+        "note": "The December 1930 mutiny at Futian by Red Army officers resisting the AB Corps purge. Mao Zedong's own role in initiating and driving the Jiangxi purge is documented and is more central than the author's emphasis on “devolved” authority suggests; independent historians treat the episode as a formative act of intra-Party terror. Partly corroborated / the author's framing is partisan."
+      },
+      {
+        "anchor": "\"coerce, confess, believe,\"",
+        "note": "<i>Biru gong xin</i> (逼供信): to extract a confession by force and then believe it. The phrase became the standard shorthand for the method that drove the purges' self-multiplying “confessions.”"
+      },
+      {
+        "anchor": "three foreign letters, \"GBW.\"",
+        "note": "The source prints the badge letters as “GBW,” then identifies them (below) with the Russian GPU. The letters as printed do not match a transliteration of ГПУ (GPU); rendered here as printed, with the discrepancy flagged. Either the badge or the author's reading of it is inexact."
+      },
+      {
+        "anchor": "the three provinces of Jiangxi, Fujian, and Zhejiang",
+        "note": "As printed. Geographically this is doubtful: the Jinggangshan base straddled the Jiangxi-Hunan border, and the later Central Soviet Area lay chiefly in Jiangxi and Fujian; Zhejiang was not part of either, and the figures given describe the larger Central Soviet Area rather than the small Jinggangshan base. Contradicted by the geographic record; rendered as the source has it."
+      },
+      {
+        "anchor": "seized and strangled the Communist leader Li Dazhao",
+        "note": "The source dates Zhang Zuolin's raid on the Soviet embassy and the execution of Li Dazhao to 1928. In fact both occurred in April 1927 (the raid on April 6, the execution on April 28). Contradicted; rendered as printed."
+      },
+      {
+        "anchor": "Red Star Over China",
+        "note": "Edgar Snow's 1937 book, the first sympathetic Western account of the CCP, based on his 1936 visit to the Shaanxi base. The author's point is that Snow's changed view of the Communists owed something to his interviews with the security chief Zhou Xing."
+      },
+      {
+        "anchor": "the \"sword and shield.\"",
+        "note": "The paired emblem &#8212; sword for the offensive intelligence arm, shield for the protective security arm &#8212; echoes the insignia of the Soviet security services and is today that of China's Ministry of State Security."
+      },
+      {
+        "anchor": "the Xi'an Incident had broken out!",
+        "note": "On December 12, 1936, Zhang Xueliang and Yang Hucheng detained Chiang Kai-shek at Xi'an to force him to halt the civil war and resist Japan. Its peaceful resolution, brokered in part by Zhou Enlai, produced the second Nationalist-Communist united front."
+      },
+      {
+        "anchor": "the Marco Polo Bridge Incident",
+        "note": "The clash at Lugouqiao, southwest of Beijing, on the night of July 7, 1937, conventionally taken as the start of the full-scale War of Resistance against Japan (the Second Sino-Japanese War)."
+      },
+      {
+        "anchor": "a Li Zicheng",
+        "note": "Li Zicheng (1606&#8211;1645), the rebel leader from Mizhi in northern Shaanxi whose peasant army took Beijing in 1644 and ended the Ming dynasty &#8212; the author's portent for a movement rising out of the same poor country."
+      }
+    ]
+  }
+}

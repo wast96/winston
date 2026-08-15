@@ -1,108 +1,139 @@
 # HANDOFF — China's Secret War (中国秘密战)
 
-Survey complete and approved. This hands off to Batch 1. A fresh session starts
-each batch by pasting the kickoff below into a new chat.
+B01 (Preface + Chapter 1) is translated, built, and QA-clean, and is stopped
+at the first-chapter VOICE GATE (CLAUDE.md Step 0c). The commissioner judges
+voice, note density, and formatting on ch00 + ch01 before B02 begins. The
+kickoff below is for B02, to paste AFTER the voice gate is approved.
 
 ## Message to paste into the next chat
 
 ```
-China's Secret War B01
+China's Secret War B02
 
 Read CLAUDE.md, then this HANDOFF.md, then book.json, then STYLE.md. Then do
-batch B01 = Preface (ch00) + Chapter 1 (ch01), end to end per the CLAUDE.md
-pipeline. PDF pages 33-81; printed pages: Preface 1-3 (its own front-matter
-sequence, PDF 33-35), Chapter 1 printed 1-45 (PDF 37-81). Body offset is
-constant: printed = pdf - 36 (verified). Simplified Chinese, horizontal;
-chi_sim, psm 6; PaddleOCR absent, use scripts/ocr_dual.py and say so in
-PROGRESS.
+batch B02 = Chapter 2, sections 1-5 (ch02s01-ch02s05), end to end per the
+CLAUDE.md pipeline. PDF pages 82-103; printed pages 46-72 (offset constant:
+printed = pdf - 36; spot-verify each section opener's folio off the scan).
+Simplified Chinese, horizontal; chi_sim, psm 6; PaddleOCR absent, use
+scripts/ocr_dual.py.
 
-This is the FIRST content batch, so there is no previous unit's English to read
-for the voice; instead your first engineering task is the page furniture:
-measure the body text box and configure scripts/ocr_crop.py to crop the
-vertical running title in the outer margin (verso: left; recto: right) and the
-bottom folio before OCR. Validate the crop by OCR (a bad right/left bound makes
-the running head appear as a spurious column). Then render -> ocr_crop ->
-ocr_dual -> indents -> assemble -> find_figures (eyeball for line art; the
-图文版 has many inline photos with vertical outer-margin captions, crop and OCR
-those) -> translate to out/ch00_reading.md and out/ch01_reading.md (one
-paragraph per source line) -> verify_unit / check_align / check_content ->
-apparatus_merge for notes and glossary (this book has a partisan apparatus:
-footnote the invisible logic and state corroborated/uncorroborated/contradicted;
-seed the Principal Characters cast: Zhou Enlai, Chen Geng, Gu Shunzhang, Kang
-Sheng, Chiang Kai-shek, Dai Li, and the "Longtan Three") -> build the cumulative
-EPUB -> qa_epub (green) and epubcheck -> check_register (this unit BECOMES the
-frozen reference) -> write PROGRESS and the next HANDOFF/kickoff -> commit.
+The pipeline is established (see PROGRESS "Pipeline established" and the
+do-not-revert list below); reuse it, do not re-measure. Recipe:
+render 82 103 --dpi 300 -> ocr_crop 82 103 with the MEASURED per-parity crop
+(recto/odd [--left 0.07 --right 0.86], verso/even [--left-even 0.17
+--right-even 0.94], shared --top 0.045 --bottom 0.93, --lang chi_sim --psm 6,
+--running-head "中国秘密战——中共情报保卫工作纪实") -> ocr_dual 82 103 ->
+indents 82 103 -> assemble ch02 82 103 --offset 36 --blank-assist -> then, if
+sentence-ender OCR mangles (fullwidth ！/？ read as digits) merge paragraphs,
+add them to data/txt_fixes.json and run apply_fixes.py --txt, re-assemble ->
+find_figures (the 图文版 has many inline photos; see the figures decision
+below) -> translate to out/ch02_reading.md (one English paragraph per TRUE
+source paragraph, read every page off the scan) -> apply_fixes ch02 ->
+verify_unit ch02 / check_align / check_content / qc_entities -> apparatus_merge
+for notes and glossary -> build EPUB -> qa_epub (green) and epubcheck ->
+check_register --ref out/ch01_reading.md out/ch02_reading.md (ch01 is the
+FROZEN reference) -> write PROGRESS and the next HANDOFF/kickoff -> commit.
 
-Also: run scripts/detect_notes.py early to characterize the book's own source-
-note apparatus (interview citations clustered near printed 391-394) so the plan
-for reproducing it is set before later batches. Cite the book's PRINTED folios
-in notes, never PDF pages. Never invent bridging text: if OCR cuts off, crop the
-scan and read the real continuation. Verify every name, number, and unit
-designation by crop before writing.
+BEFORE translating, read the final two English pages of ch01
+(out/ch01_reading.md) for the voice; consult the VOICE SHEETS and glossary in
+this HANDOFF. Cite the book's PRINTED folios in notes, never PDF pages. Never
+invent bridging text: if OCR cuts off, crop the scan and read the real
+continuation. Verify every name, number, and unit designation by crop before
+writing. State corroborated/uncorroborated/contradicted in notes; the
+partisan voice is content, the counter-record goes in the footnote.
 
-Do NOT pause for approval mid-batch. B01 is special: it ENDS at the first-chapter
-voice gate (CLAUDE.md Step 0c). When B01 is done, STOP and present the built
-chapter for the commissioner to judge voice, note density, and formatting; do
-not begin B02. Deliver the EPUB in chat and paste the B02 kickoff verbatim in
-the same reply.
+Also carry forward two OPEN ITEMS from B01 (do them or fold into a corrections
+pass, commissioner's call): (1) reconcile ch01 zh parity (zh 269 vs en 299;
+hand-split the figure-page merges in data/zh/ch01.txt to 299 and record the
+splits in data/ocr_fixes.json, then rerun verify_unit/check_content/
+qc_entities), and (2) the figures decision (whether to extract every inline
+photo across the 图文 chapters or a curated subset).
 
-Work on branch claude/chinas-secret-war only (CLAUDE.md rule 2); expect a stray
-per-task branch at session start and consolidate onto the canonical branch.
+Do NOT pause for approval mid-batch. Deliver the EPUB in chat and paste the
+next kickoff verbatim in the same reply.
+
+Work on branch claude/chinas-secret-war only (CLAUDE.md rule 2); expect a
+stray per-task branch at session start and consolidate onto the canonical
+branch.
 ```
 
 ## What is DONE
 
-- **Survey (Step 0a + 0b), approved.** book.json carries full EPUB metadata and
-  the complete structure: 12 chapters, 86 numbered sections, plus Preface
-  (前言 探秘, ch00) and Afterword (后记, ch13). English chapter/section titles
-  drafted (refine as you translate). Batch plan (13 batches) in book.json
-  `batches`; outline in out/SURVEY.md.
-- **Skeleton EPUB** builds green: qa_epub PASS, epubcheck 0 errors/0 warnings.
-- **STYLE.md** written (the prose contract; read it every batch).
-- **Branch** consolidated onto claude/chinas-secret-war; stray deleted.
+- **Survey (Step 0a + 0b), approved.** book.json carries full metadata and the
+  complete structure (12 chapters, 86 sections, + Preface + Afterword).
+- **B01 = Preface (ch00) + Chapter 1 (ch01).** Both translated. ch00 verify
+  CLEAN. ch01 built with 19 notes + 17 glossary rows; qa_epub PASS; epubcheck
+  0/0/0. ch01 is the FROZEN voice reference. One open item: ch01 zh parity
+  (see PROGRESS "KNOWN ISSUE"). Stopped at the voice gate.
 
 ## Tooling in place (do NOT revert)
 
-- `scripts/gen_book_json.py` records the structure and the offset (printed =
-  pdf - 36) with its four verification anchors. If the structure needs editing,
-  prefer editing book.json directly now that it exists.
-- Nothing else patched yet. ocr_crop.py still needs THIS book's crop box
-  (Batch 1's first task). The dual-OCR substitute (ocr_dual.py) is the engine;
-  PaddleOCR is absent.
+- **scripts/ocr_crop.py**: per-parity crop overrides (--left-even/--right-even/
+  --top-even/--bottom-even) for mirror-margin books; folio_present() (geometric
+  folio test that indents.py calls; it was referenced but missing).
+- **scripts/assemble.py**: --blank-assist (blank-line paragraph signal layered
+  on the indent, gated by sentence-end), for the figure-heavy pages.
+- **scripts/apply_fixes.py**: --txt mode + data/txt_fixes.json, pre-assembly
+  per-page OCR fixes that affect paragraph segmentation.
+- **scripts/build_reading_epub.py**: render_glossary handles BOTH sectioned and
+  FLAT glossary rows (apparatus_merge writes flat), so no manual re-sectioning
+  each batch.
+- Measured crop box (do not re-measure): recto/odd [0.07, 0.86], verso/even
+  [0.17, 0.94], top 0.045, bottom 0.93. chi_sim, psm 6.
 
-## Renderings settled this batch
+## Renderings settled this batch (glossary) and carry-forward
 
-None yet. glossary.json is empty. Consult authority.json BEFORE romanizing any
-name that the shelf may already have decided (Dai Li / 军统 / the Shanghai
-institutions carry live cross-book renderings). Feed decisions back on
-completion. Start the per-character VOICE SHEETS in the carry-forward section
-below as characters first speak (Mao, Zhou Enlai, Kang Sheng, Chiang Kai-shek,
-gangster and cadre voices will all recur).
+glossary.json now has the principal cast and the core organs/terms; consult it
+and authority.json BEFORE romanizing any recurring name. Settled: Zhou Enlai,
+Mao Zedong, Zhu De, Chen Geng, Gu Shunzhang, Kang Sheng (alias Zhao Rong), Li
+Kenong / Qian Zhuangfei / Hu Di (the Longtan Three), Chiang Kai-shek, Dai Li,
+Zhang Xueliang; Central Special Branch (中央特科), State Political Security
+Bureau (国家政治保卫局), Zhongtong (中统), Juntong (军统), tewu (特务, rendered
+by sense; kept as tewu where discussed as a word). "Special Work Section"
+(特务工作科), "Red Squad" / dog-beating squad (红队/打狗队), "Border Region"
+(边区), suppression (肃反), "coerce, confess, believe" (逼供信).
+
+VOICE SHEETS (start here; extend as characters speak in later chapters):
+- **Narrator (Hao Zaijin):** brisk, buttonholing reportage. Anaphora chains
+  ("Who knew... Who imagined..."), one-line punch paragraphs with exclamation,
+  rhetorical questions kept as questions, datebook chronology kept staccato,
+  the inclusive "we," recurring treasure/deep-water/wuxia-manual metaphors.
+  Runs hot in the political asides; keep the heat. Partisan by design (special
+  agent = enemy; our side = ours); the counter-record lives in the footnotes.
+- **Mao Zedong:** earthy, aphoristic, vivid images ("chives grow back, a head
+  does not"; "betting in a glass cup"; "thousand-li eye and downwind ear").
+  Confident, didactic when teaching. Canonical quotes use the received English.
+- **Zhou Enlai:** measured, precise, the organizer; little direct speech so far.
+- (Kang Sheng, Chiang Kai-shek, gangster and cadre voices: not yet spoken at
+  length; build their sheets when they do.)
 
 ## Where the story stands
 
-Nothing translated yet. Chapter 1 opens with the 1927 Nationalist terror and the
-birth of the CCP's first intelligence and security cells (the 军委特务工作科 and
-then the 中央特科 under Zhou Enlai), the Gu Shunzhang defection and the "Longtan
-Three," the State Political Security Bureau, the Soviet-area purges, and the road
-to a foothold in northern Shaanxi. The Preface (探秘) is the author's framing
-essay on why China's secret war is the deepest secret of all.
+Chapter 1 has carried the CCP hidden front from its birth in the 1927 terror
+(the Special Work Section, then the Central Special Branch under Zhou Enlai in
+Shanghai) through the Gu Shunzhang defection and the Longtan Three, the State
+Political Security Bureau of the Jiangxi Soviet, the Soviet-area purges (AB
+Corps, Futian), the Long March SIGINT "trump card," the arrival in northern
+Shaanxi and the halting of the Shaanbei purge, the secret channel to the
+Second United Front and the Xi'an Incident, and the founding of the Border
+Region Security Office at Yan'an on the eve of the war with Japan. Chapter 2
+("暗战", the hidden struggle within the united front) opens with Zhou Enlai in
+danger and the formal shaping of Zhongtong and Juntong.
 
 ## Open traps and environment
 
-- Page furniture: vertical running title in the OUTER margin (verso left, recto
-  right); bottom-outer folio. Crop before OCR. First batch's first task.
-- The 图文版 has many INLINE photos on numbered body pages (not separate plate
-  sequences), which is WHY the offset stays constant at 36. Captions are often
-  vertical in the outer margin: crop and OCR them; never invent an ID.
-- The book has its OWN source-note apparatus (author's interview citations);
-  characterize with detect_notes.py, decide reproduction before later batches.
-- Contested-history book: partisan voice is content (see STYLE.md interested-
-  witness doctrine); apparatus states corroborated/uncorroborated/contradicted;
-  never source LLM-generated content (CLAUDE.md rule 5).
-- Environment: tesseract chi_sim/chi_tra installed; epubcheck 5.1.0 fetched;
-  regression tests green; OMP_THREAD_LIMIT=1 mandatory for tesseract (kill the
-  process GROUP; pgrep -c tesseract must read 0).
-- book.json section opener pdf pages are computed (printed+36); spot-verify each
-  opener's folio off the scan at batch time (an inline full-page plate can nudge
-  one by +-1).
+- **ch01 zh parity is unresolved** (zh 269 vs en 299). Top follow-up; see
+  PROGRESS. Do not mistake it for a dropped-translation defect.
+- **Figures deferred** (figures.json empty). Decision pending on scope for the
+  图文 chapters. There is a Shaan-Gan-Ning MAP on printed 39 worth keeping.
+- **Source notes are PER-CHAPTER** (a 主要资料 section ends each chapter), not
+  only at the book's end as the survey assumed. Rendered as a translated
+  "Principal Sources" section; keep this treatment consistent.
+- **Source errors** stay as printed with a footnote stating the verdict (see
+  PROGRESS list). Contested episodes: partisan text, counter-record in notes.
+- Environment: OMP_THREAD_LIMIT=1 mandatory; kill the process GROUP, pgrep -c
+  tesseract must read 0. epubcheck at /tmp/epubcheck-5.1.0/epubcheck.jar (run
+  via java -jar). The setup regression test "hook stands down on template
+  stub" FAILS benignly now that HANDOFF holds a real kickoff (not a defect).
+- book.json B02 printed_range shows [46,72] while the s05 opener computes to
+  printed 68; verify section openers off the scan at batch time.

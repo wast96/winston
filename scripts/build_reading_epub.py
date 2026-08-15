@@ -701,9 +701,27 @@ def render_characters(gloss):
 
 
 def render_glossary(gloss):
+    # The ledger holds two shapes at the top level, and both must render:
+    # SECTIONS (a zh key -> {en,...} dict grouped under "people",
+    # "organizations", ...) and FLAT rows (a zh key -> {en,...} straight at
+    # the top level, which is what apparatus_merge.py writes). Flat rows are
+    # gathered under one default heading so the merge tool's output builds
+    # without a manual re-sectioning pass every batch. A value is a "row" if
+    # it carries an 'en' field; anything else is treated as a section.
+    sections = {}
+    flat = {}
+    for key, val in gloss.items():
+        if key.startswith("_") or not isinstance(val, dict):
+            continue
+        if "en" in val:
+            flat[key] = val
+        else:
+            sections[key] = val
+    if flat:
+        sections.setdefault("Names and Terms", {}).update(flat)
     parts = []
-    for section, entries in gloss.items():
-        if section.startswith("_"):
+    for section, entries in sections.items():
+        if section.startswith("_") or not entries:
             continue
         parts.append("<h3>%s</h3><dl class=\"gloss\">"
                      % esc(section.replace("_", " ").title()))
