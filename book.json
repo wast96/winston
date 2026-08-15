@@ -1,93 +1,921 @@
 {
-  "_README": "This is the single source of the book's structure. The build is driven ENTIRELY by this file. Fill in every field, delete the _comment/_README keys or leave them (the builder ignores unknown keys). Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists. Cite the book's own PRINTED FOLIO in notes, never the PDF page.",
-
-  "deliverable": "out/book.epub",
-  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this; never rely on the default.",
-
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 1933,
-  "uid": "urn:uuid:my-book-slug-1",
-
-  "_metadata_note": "EPUB metadata for e-reader compatibility (Kindle, Apple Books). All values should be in English. publisher is the original publisher; description is a short blurb; subject is a list of genre/topic strings; language defaults to 'en'. publication_date is ISO format (YYYY-MM-DD) of the original publication; if only the year is known, use YYYY-01-01. If uid is missing, or is a urn:uuid whose tail is not a real UUID (like this stub's), the builder substitutes a deterministic UUIDv5 of title_en; a malformed urn:uuid once made Apple Books refuse a book.",
-
-  "_metadata_schema": "OPTIONAL richer fields the builder also reads: subtitle_en; title_file_as / author_file_as (sort keys; default to the display forms); translator_en (dc:contributor, MARC role trl); rights; source_ref (dc:source, e.g. the scanned edition or a library call number); subjects (list; preferred over the legacy 'subject', which is still honored); series + series_index (calibre metas plus EPUB3 belongs-to-collection); source_language (BCP-47 of the original, emitted as dcterms:language); source_script (lang tag for source-script spans, e.g. 'zh-Hant' or 'zh-Hans'; default 'zh'); cover_image (path under data/figs/ or data/png/, copied byte-identical; without one a typographic cover is generated when Pillow and fonts allow); modified (RFC-3339 dcterms:modified stamp; defaults to a FIXED value so rebuilds are byte-identical — bump it when you ship a meaningfully new edition).",
-  "publisher": "",
-  "description": "",
-  "subject": [],
+  "deliverable": "out/sword-roars.epub",
+  "title_en": "The Sword Roars in the West Wind",
+  "subtitle_en": "A Chronicle of the Central Special Branch",
+  "title_zh": "剑吼西风：中央特科纪事",
+  "title_file_as": "Sword Roars in the West Wind, The",
+  "author_en": "Ye Xiaoshen",
+  "author_zh": "叶孝慎",
+  "author_file_as": "Ye, Xiaoshen",
+  "translator_en": "Winston",
+  "year": 2021,
+  "publication_date": "2021-06-01",
+  "publisher": "Gold Wall Press (Jincheng Chubanshe)",
   "language": "en",
-  "publication_date": "",
-
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212; em dash, &#160; nbsp), never named entities. If omitted, a generic method note is generated.",
-  "translator_note": [
-    "This is an English translation of <i>中文書名</i>, from an image-only scan with no digital text layer.",
-    "Say here how the text was recovered and verified, what the register decisions were, who the author is and how to read the source, and how any damaged or missing passages were handled. Keep it honest about method and provenance."
+  "source_language": "zh",
+  "source_script": "zh-Hans",
+  "genre": "nonfiction",
+  "series": "Winston Translations",
+  "rights": "Translation © the translator. Original text © Ye Xiaoshen / Gold Wall Press.",
+  "source_ref": "剑吼西风：中央特科纪事 (Gold Wall Press, Beijing, 1st ed. 2021.6; ISBN 978-7-5155-2038-4)",
+  "cover_image": "data/figs/cover.png",
+  "modified": "2026-08-15T00:00:00Z",
+  "description": "After the collapse of the Great Revolution in 1927, the Chinese Communist Party moved its central organs back to a Shanghai swarming with police, concession detectives, gangsters and informers. To protect the Party's leadership, Zhou Enlai built and led its first professional intelligence and security service, the Central Special Branch. Over eight years its agents penetrated the enemy's innermost councils, ran the Party's first double agent, opened its first underground courier line, built its first wireless set and cipher, founded its first secret archive, and hunted down the traitors who threatened it all. Ye Xiaoshen's narrative history draws on the scholarship and the memoirs to tell that hidden war street by street. This annotated English edition supplies the historical, cultural and geographic context a Western reader needs, and marks where the sources disagree.",
+  "subjects": [
+    "HISTORY / Asia / China",
+    "POLITICAL SCIENCE / Intelligence & Espionage",
+    "HISTORY / Modern / 20th Century",
+    "HISTORY / Military / Special Forces"
   ],
-
-  "_source_note": "Free-text provenance: where the scan came from, how many PDF pages, seal/artifact warnings, whether the PDF has bookmarks. Informational only.",
-  "source_note": "Image-only PDF scan; NN pages; no text layer. Note any library seal, dark-edge artifacts, or embedded bookmarks here.",
-
-  "_offset_note": "The PDF-page-to-printed-folio offset usually DRIFTS as unpaginated plates accumulate. Do NOT use a constant formula. Record per-section pdf_page/printed_page anchors below and READ the folio off the scan at each opener.",
-
-  "_end_note": "The last PDF page and printed folio of the body text. Set these so the LAST chapter's/section's page length is known in the survey; without them its length shows as '?'.",
-  "pdf_end": 292,
-  "printed_end": 236,
-
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (zh), title_en, pdf_page + printed_page of its opener, and a sections list. OPTIONAL 'part': a label like 'Part One. ...' — consecutive chapters sharing a part are grouped under it in the TOC. Each section: id (ch01s01..), section (int), title (zh), title_en, pdf_page, printed_page, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en, pdf_page, printed_page). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front (from the TOC or PDF bookmarks): the survey and the skeleton EPUB are built from it before any translation.",
+  "translator_note": [
+    "This is an English translation of <i>Jian Hou Xi Feng: Zhongyang Teke Jishi</i> (剑吼西风：中央特科纪事, “The Sword Roars in the West Wind: A Chronicle of the Central Special Branch”) by Ye Xiaoshen, published by Gold Wall Press in 2021. The source was an image-only scan with no digital text layer; the text was recovered by optical character recognition and verified page by page against the scanned original.",
+    "The book is a work of narrative history about the Central Special Branch (Zhongyang Teke), the Chinese Communist Party's first intelligence and security service, active in Shanghai from 1927 to 1935. It is written from within the Party's own tradition and frankly celebrates its subjects; footnotes mark where its claims are corroborated, uncorroborated, or contradicted by the wider scholarship, and where the account is that of an interested witness. Chinese personal and place names are given in pinyin except where an older English form is long established (Chiang Kai-shek, the Avenue Joffre). Where the scan was damaged or a reading uncertain, the note says so; no bridging text has been invented."
+  ],
+  "source_note": "Image-only PDF scan, 350 pages, no text layer. Front cover (painting, reused as the ebook cover), back cover with blurb and ISBN, title page, CIP page, a Song-dynasty ci epigraph (He Zhu, from which the title is drawn), a five-page authorial preface, and a five-page table of contents precede the body. Simplified Chinese, horizontal setting. The printed-to-PDF offset is a constant 15 (printed = pdf - 15) across the whole book, with no unpaginated plate inserts; the preface runs a separate roman-numeral sequence. No library seal; clean scan.",
+  "pdf_end": 350,
+  "printed_end": 335,
   "structure": [
+    {
+      "level": 1,
+      "id": "ch00",
+      "chapter": 0,
+      "title": "前言  历史不能被妖魔化",
+      "title_en": "Preface: History Must Not Be Made a Monster",
+      "pdf_page": 6,
+      "sections": []
+    },
     {
       "level": 1,
       "id": "ch01",
       "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "pdf_page": 27,
+      "title": "第一章  不知掩饰，不知生存",
+      "title_en": "Chapter One. No Concealment, No Survival",
+      "pdf_page": 16,
       "printed_page": 1,
       "sections": [
         {
           "id": "ch01s01",
           "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "pdf_page": 27,
-          "printed_page": 1,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)",
-              "pdf_page": 27,
-              "printed_page": 1
-            }
-          ]
+          "title": "一、生来就是变魔术的",
+          "title_en": "1. Born a Conjuror",
+          "pdf_page": 17,
+          "printed_page": 2
         },
         {
           "id": "ch01s02",
           "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "pdf_page": 33,
+          "title": "二、茂密林里英雄来",
+          "title_en": "2. Out of the Deep Woods, a Hero",
+          "pdf_page": 22,
           "printed_page": 7
+        },
+        {
+          "id": "ch01s03",
+          "section": 3,
+          "title": "三、高洁自难忘",
+          "title_en": "3. Purity Not Soon Forgotten",
+          "pdf_page": 31,
+          "printed_page": 16
+        },
+        {
+          "id": "ch01s04",
+          "section": 4,
+          "title": "四、你是千面人么",
+          "title_en": "4. Are You the Man of a Thousand Faces?",
+          "pdf_page": 43,
+          "printed_page": 28
         }
       ]
-    }
-  ],
-
-  "_batches_note": "Your work plan: split the book into batches (a chapter, or a run of sections) and do each end to end. Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
-  "batches": [
+    },
     {
-      "batch": "B01",
-      "title": "ch1",
-      "pdf_range": [27, 42],
-      "printed_range": [1, 16],
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
+      "level": 1,
+      "id": "ch02",
+      "chapter": 2,
+      "title": "第二章  清者自清，浊者自浊",
+      "title_en": "Chapter Two. The Clean Stay Clean, the Foul Stay Foul",
+      "pdf_page": 50,
+      "printed_page": 35,
+      "sections": [
+        {
+          "id": "ch02s01",
+          "section": 1,
+          "title": "一、英雄阳刚",
+          "title_en": "1. A Hero's Mettle",
+          "pdf_page": 51,
+          "printed_page": 36
+        },
+        {
+          "id": "ch02s02",
+          "section": 2,
+          "title": "二、流氓无产者",
+          "title_en": "2. The Lumpen Proletariat",
+          "pdf_page": 55,
+          "printed_page": 40
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch03",
+      "chapter": 3,
+      "title": "第三章  谁是犹大",
+      "title_en": "Chapter Three. Who Is Judas",
+      "pdf_page": 60,
+      "printed_page": 45,
+      "sections": [
+        {
+          "id": "ch03s01",
+          "section": 1,
+          "title": "一、他们的手上有血",
+          "title_en": "1. Blood on Their Hands",
+          "pdf_page": 61,
+          "printed_page": 46
+        },
+        {
+          "id": "ch03s02",
+          "section": 2,
+          "title": "二、盛会难再",
+          "title_en": "2. A Gathering Never to Be Repeated",
+          "pdf_page": 62,
+          "printed_page": 47
+        },
+        {
+          "id": "ch03s03",
+          "section": 3,
+          "title": "三、半分钟都差不得",
+          "title_en": "3. Not Half a Minute to Spare",
+          "pdf_page": 66,
+          "printed_page": 51
+        },
+        {
+          "id": "ch03s04",
+          "section": 4,
+          "title": "四、装成出殡救人",
+          "title_en": "4. A Rescue Dressed as a Funeral",
+          "pdf_page": 68,
+          "printed_page": 53
+        },
+        {
+          "id": "ch03s05",
+          "section": 5,
+          "title": "五、她要两本出国护照和巨额美金",
+          "title_en": "5. She Wanted Two Passports and a Fortune in Dollars",
+          "pdf_page": 70,
+          "printed_page": 55
+        },
+        {
+          "id": "ch03s06",
+          "section": 6,
+          "title": "六、爆竹声中的锄奸真相",
+          "title_en": "6. The Truth of the Killing, Amid the Firecrackers",
+          "pdf_page": 74,
+          "printed_page": 59
+        },
+        {
+          "id": "ch03s07",
+          "section": 7,
+          "title": "七、贺稚华到底想要什么",
+          "title_en": "7. What Did He Zhihua Really Want?",
+          "pdf_page": 78,
+          "printed_page": 63
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch04",
+      "chapter": 4,
+      "title": "第四章  喋血霞飞路",
+      "title_en": "Chapter Four. Bloodshed on Avenue Joffre",
+      "pdf_page": 82,
+      "printed_page": 67,
+      "sections": [
+        {
+          "id": "ch04s01",
+          "section": 1,
+          "title": "一、捕人如像预知的一样",
+          "title_en": "1. The Arrests, as if Foreknown",
+          "pdf_page": 83,
+          "printed_page": 68
+        },
+        {
+          "id": "ch04s02",
+          "section": 2,
+          "title": "二、两面间谍",
+          "title_en": "2. The Double Agent",
+          "pdf_page": 87,
+          "printed_page": 72
+        },
+        {
+          "id": "ch04s03",
+          "section": 3,
+          "title": "三、伏击枫林桥",
+          "title_en": "3. Ambush at Fenglin Bridge",
+          "pdf_page": 91,
+          "printed_page": 76
+        },
+        {
+          "id": "ch04s04",
+          "section": 4,
+          "title": "四、白鑫叛变",
+          "title_en": "4. Bai Xin Turns Traitor",
+          "pdf_page": 94,
+          "printed_page": 79
+        },
+        {
+          "id": "ch04s05",
+          "section": 5,
+          "title": "五、惊弓之鸟",
+          "title_en": "5. A Bird Startled by the Bow",
+          "pdf_page": 97,
+          "printed_page": 82
+        },
+        {
+          "id": "ch04s06",
+          "section": 6,
+          "title": "六、皮夹里有一张车票",
+          "title_en": "6. A Train Ticket in the Wallet",
+          "pdf_page": 99,
+          "printed_page": 84
+        },
+        {
+          "id": "ch04s07",
+          "section": 7,
+          "title": "七、“将他老婆接来”",
+          "title_en": "7. “Bring His Wife In”",
+          "pdf_page": 101,
+          "printed_page": 86
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch05",
+      "chapter": 5,
+      "title": "第五章  真金库，假夫妻",
+      "title_en": "Chapter Five. A Real Vault, a False Marriage",
+      "pdf_page": 108,
+      "printed_page": 93,
+      "sections": [
+        {
+          "id": "ch05s01",
+          "section": 1,
+          "title": "一、党中央最机密的机关",
+          "title_en": "1. The Party Centre's Most Secret Organ",
+          "pdf_page": 109,
+          "printed_page": 94
+        },
+        {
+          "id": "ch05s02",
+          "section": 2,
+          "title": "二、爱吃红烧狮子头",
+          "title_en": "2. A Weakness for Braised Lion's-Head Meatballs",
+          "pdf_page": 115,
+          "printed_page": 100
+        },
+        {
+          "id": "ch05s03",
+          "section": 3,
+          "title": "三、三个良师益友",
+          "title_en": "3. Three Mentors and Friends",
+          "pdf_page": 120,
+          "printed_page": 105
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch06",
+      "chapter": 6,
+      "title": "第六章  不是我，是风",
+      "title_en": "Chapter Six. It Was Not Me, It Was the Wind",
+      "pdf_page": 124,
+      "printed_page": 109,
+      "sections": [
+        {
+          "id": "ch06s01",
+          "section": 1,
+          "title": "一、代号“木匠”",
+          "title_en": "1. Codename “Carpenter”",
+          "pdf_page": 125,
+          "printed_page": 110
+        },
+        {
+          "id": "ch06s02",
+          "section": 2,
+          "title": "二、人间蒸发",
+          "title_en": "2. Vanished Without a Trace",
+          "pdf_page": 127,
+          "printed_page": 112
+        },
+        {
+          "id": "ch06s03",
+          "section": 3,
+          "title": "三、快给巡捕房挂电话",
+          "title_en": "3. Ring the Police Station, Quick",
+          "pdf_page": 129,
+          "printed_page": 114
+        },
+        {
+          "id": "ch06s04",
+          "section": 4,
+          "title": "四、孟尝君风度",
+          "title_en": "4. The Manner of Lord Mengchang",
+          "pdf_page": 131,
+          "printed_page": 116
+        },
+        {
+          "id": "ch06s05",
+          "section": 5,
+          "title": "五、昨天晚上谁值班",
+          "title_en": "5. Who Was on Duty Last Night?",
+          "pdf_page": 133,
+          "printed_page": 118
+        },
+        {
+          "id": "ch06s06",
+          "section": 6,
+          "title": "六、电灯闹鬼了",
+          "title_en": "6. The Lamp Is Haunted",
+          "pdf_page": 134,
+          "printed_page": 119
+        },
+        {
+          "id": "ch06s07",
+          "section": 7,
+          "title": "七、福利电器公司",
+          "title_en": "7. The Welfare Electric Company",
+          "pdf_page": 137,
+          "printed_page": 122
+        },
+        {
+          "id": "ch06s08",
+          "section": 8,
+          "title": "八、顺手拉开身后窗帘",
+          "title_en": "8. A Hand to the Curtain Behind Him",
+          "pdf_page": 140,
+          "printed_page": 125
+        },
+        {
+          "id": "ch06s09",
+          "section": 9,
+          "title": "九、没有一人暴露是共产党员",
+          "title_en": "9. Not One Exposed as a Communist",
+          "pdf_page": 141,
+          "printed_page": 126
+        },
+        {
+          "id": "ch06s10",
+          "section": 10,
+          "title": "十、告慰亲人，明天再见",
+          "title_en": "10. Comfort for the Living; Till Tomorrow",
+          "pdf_page": 142,
+          "printed_page": 127
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch07",
+      "chapter": 7,
+      "title": "第七章  大隐隐于市",
+      "title_en": "Chapter Seven. The Great Hermit Hides in the City",
+      "pdf_page": 150,
+      "printed_page": 135,
+      "sections": [
+        {
+          "id": "ch07s01",
+          "section": 1,
+          "title": "一、全国苏维埃区域代表大会",
+          "title_en": "1. The National Congress of Soviet Areas",
+          "pdf_page": 151,
+          "printed_page": 136
+        },
+        {
+          "id": "ch07s02",
+          "section": 2,
+          "title": "二、神秘医院",
+          "title_en": "2. The Secret Hospital",
+          "pdf_page": 153,
+          "printed_page": 138
+        },
+        {
+          "id": "ch07s03",
+          "section": 3,
+          "title": "三、以子之矛，攻子之盾",
+          "title_en": "3. His Own Spear Against His Own Shield",
+          "pdf_page": 158,
+          "printed_page": 143
+        },
+        {
+          "id": "ch07s04",
+          "section": 4,
+          "title": "四、多重保险",
+          "title_en": "4. Layers of Insurance",
+          "pdf_page": 160,
+          "printed_page": 145
+        },
+        {
+          "id": "ch07s05",
+          "section": 5,
+          "title": "五、分批进场，一律不准外出",
+          "title_en": "5. In by Groups, No One Allowed Out",
+          "pdf_page": 164,
+          "printed_page": 149
+        },
+        {
+          "id": "ch07s06",
+          "section": 6,
+          "title": "六、唱起《国际歌》",
+          "title_en": "6. The Internationale Rises",
+          "pdf_page": 166,
+          "printed_page": 151
+        },
+        {
+          "id": "ch07s07",
+          "section": 7,
+          "title": "七、真相只有一个",
+          "title_en": "7. There Is Only One Truth",
+          "pdf_page": 168,
+          "printed_page": 153
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch08",
+      "chapter": 8,
+      "title": "第八章  金陵夜，十万火急",
+      "title_en": "Chapter Eight. A Nanjing Night, Deadly Urgent",
+      "pdf_page": 172,
+      "printed_page": 157,
+      "sections": [
+        {
+          "id": "ch08s01",
+          "section": 1,
+          "title": "一、徐恩曾栽在了钱壮飞手里",
+          "title_en": "1. Xu Enzeng Undone by Qian Zhuangfei",
+          "pdf_page": 173,
+          "printed_page": 158
+        },
+        {
+          "id": "ch08s02",
+          "section": 2,
+          "title": "二、铁三角",
+          "title_en": "2. The Iron Triangle",
+          "pdf_page": 176,
+          "printed_page": 161
+        },
+        {
+          "id": "ch08s03",
+          "section": 3,
+          "title": "三、只要不死，就会看到他叛变",
+          "title_en": "3. Live Long Enough and You Will See Him Turn",
+          "pdf_page": 183,
+          "printed_page": 168
+        },
+        {
+          "id": "ch08s04",
+          "section": 4,
+          "title": "四、化广奇",
+          "title_en": "4. Hua Guangqi",
+          "pdf_page": 186,
+          "printed_page": 171
+        },
+        {
+          "id": "ch08s05",
+          "section": 5,
+          "title": "五、刺杀蒋介石",
+          "title_en": "5. Assassinate Chiang Kai-shek",
+          "pdf_page": 188,
+          "printed_page": 173
+        },
+        {
+          "id": "ch08s06",
+          "section": 6,
+          "title": "六、对付共产党的大计划",
+          "title_en": "6. The Grand Plan Against the Communists",
+          "pdf_page": 194,
+          "printed_page": 179
+        },
+        {
+          "id": "ch08s07",
+          "section": 7,
+          "title": "七、地图被小刀划出大叉",
+          "title_en": "7. A Cross Slashed on the Map",
+          "pdf_page": 196,
+          "printed_page": 181
+        },
+        {
+          "id": "ch08s08",
+          "section": 8,
+          "title": "八、破例要了一支烟",
+          "title_en": "8. Breaking His Rule for a Cigarette",
+          "pdf_page": 200,
+          "printed_page": 185
+        },
+        {
+          "id": "ch08s09",
+          "section": 9,
+          "title": "九、大魔术家并不等于魔术大师",
+          "title_en": "9. A Great Conjuror Is Not a Master of Magic",
+          "pdf_page": 203,
+          "printed_page": 188
+        },
+        {
+          "id": "ch08s10",
+          "section": 10,
+          "title": "十、英雄死了，英雄长在",
+          "title_en": "10. The Hero Dies; the Hero Lives On",
+          "pdf_page": 204,
+          "printed_page": 189
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch09",
+      "chapter": 9,
+      "title": "第九章  向忠发失踪之谜",
+      "title_en": "Chapter Nine. The Riddle of Xiang Zhongfa's Disappearance",
+      "pdf_page": 208,
+      "printed_page": 193,
+      "sections": [
+        {
+          "id": "ch09s01",
+          "section": 1,
+          "title": "一、探勒车行",
+          "title_en": "1. The Delle Motor Garage",
+          "pdf_page": 209,
+          "printed_page": 194
+        },
+        {
+          "id": "ch09s02",
+          "section": 2,
+          "title": "二、那人只有九个指头",
+          "title_en": "2. The Man Had Only Nine Fingers",
+          "pdf_page": 210,
+          "printed_page": 195
+        },
+        {
+          "id": "ch09s03",
+          "section": 3,
+          "title": "三、传话的“印象最深”",
+          "title_en": "3. The Messenger's “Strongest Impression”",
+          "pdf_page": 214,
+          "printed_page": 199
+        },
+        {
+          "id": "ch09s04",
+          "section": 4,
+          "title": "四、直接用钥匙开门",
+          "title_en": "4. He Opened the Door with His Own Key",
+          "pdf_page": 216,
+          "printed_page": 201
+        },
+        {
+          "id": "ch09s05",
+          "section": 5,
+          "title": "五、我们的思想是相通的",
+          "title_en": "5. Our Minds Ran as One",
+          "pdf_page": 220,
+          "printed_page": 205
+        },
+        {
+          "id": "ch09s06",
+          "section": 6,
+          "title": "六、通缉与卖人",
+          "title_en": "6. The Wanted Notice and the Sellout",
+          "pdf_page": 225,
+          "printed_page": 210
+        },
+        {
+          "id": "ch09s07",
+          "section": 7,
+          "title": "七、脚下是一个陷阱",
+          "title_en": "7. A Trap Underfoot",
+          "pdf_page": 229,
+          "printed_page": 214
+        },
+        {
+          "id": "ch09s08",
+          "section": 8,
+          "title": "八、屈膝跪地为免一死",
+          "title_en": "8. On His Knees to Escape Death",
+          "pdf_page": 231,
+          "printed_page": 216
+        },
+        {
+          "id": "ch09s09",
+          "section": 9,
+          "title": "九、“密电”依然“存在”",
+          "title_en": "9. The “Secret Cable” “Exists” Still",
+          "pdf_page": 233,
+          "printed_page": 218
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch10",
+      "chapter": 10,
+      "title": "第十章  开铺子做买卖",
+      "title_en": "Chapter Ten. Opening a Shop, Doing Trade",
+      "pdf_page": 236,
+      "printed_page": 221,
+      "sections": [
+        {
+          "id": "ch10s01",
+          "section": 1,
+          "title": "一、这个人不简单",
+          "title_en": "1. No Ordinary Man",
+          "pdf_page": 237,
+          "printed_page": 222
+        },
+        {
+          "id": "ch10s02",
+          "section": 2,
+          "title": "二、第一桶金",
+          "title_en": "2. The First Pot of Gold",
+          "pdf_page": 242,
+          "printed_page": 227
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch11",
+      "chapter": 11,
+      "title": "第十一章  野天鹅",
+      "title_en": "Chapter Eleven. The Wild Swan",
+      "pdf_page": 248,
+      "printed_page": 233,
+      "sections": [
+        {
+          "id": "ch11s01",
+          "section": 1,
+          "title": "一、小开",
+          "title_en": "1. The Young Master",
+          "pdf_page": 249,
+          "printed_page": 234
+        },
+        {
+          "id": "ch11s02",
+          "section": 2,
+          "title": "二、从淞沪抗战到闽变倒蒋",
+          "title_en": "2. From the Shanghai War to the Fujian Revolt",
+          "pdf_page": 253,
+          "printed_page": 238
+        },
+        {
+          "id": "ch11s03",
+          "section": 3,
+          "title": "三、我们的人",
+          "title_en": "3. Our Own Man",
+          "pdf_page": 256,
+          "printed_page": 241
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch12",
+      "chapter": 12,
+      "title": "第十二章  锄奸红灯区",
+      "title_en": "Chapter Twelve. A Purge in the Red-Light District",
+      "pdf_page": 264,
+      "printed_page": 249,
+      "sections": [
+        {
+          "id": "ch12s01",
+          "section": 1,
+          "title": "一、枪响“小花园”",
+          "title_en": "1. Shots at the “Little Garden”",
+          "pdf_page": 265,
+          "printed_page": 250
+        },
+        {
+          "id": "ch12s02",
+          "section": 2,
+          "title": "二、1469号车牌",
+          "title_en": "2. Licence Plate 1469",
+          "pdf_page": 267,
+          "printed_page": 252
+        },
+        {
+          "id": "ch12s03",
+          "section": 3,
+          "title": "三、谣言杀人",
+          "title_en": "3. Rumour Kills",
+          "pdf_page": 270,
+          "printed_page": 255
+        },
+        {
+          "id": "ch12s04",
+          "section": 4,
+          "title": "四、葬身之所",
+          "title_en": "4. A Place to Die",
+          "pdf_page": 272,
+          "printed_page": 257
+        },
+        {
+          "id": "ch12s05",
+          "section": 5,
+          "title": "五、如入无人之境",
+          "title_en": "5. As Through an Empty Land",
+          "pdf_page": 275,
+          "printed_page": 260
+        },
+        {
+          "id": "ch12s06",
+          "section": 6,
+          "title": "六、神枪手",
+          "title_en": "6. The Crack Shot",
+          "pdf_page": 277,
+          "printed_page": 262
+        },
+        {
+          "id": "ch12s07",
+          "section": 7,
+          "title": "七、殉道者永受赞美",
+          "title_en": "7. The Martyr Forever Praised",
+          "pdf_page": 279,
+          "printed_page": 264
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch13",
+      "chapter": 13,
+      "title": "第十三章  并蒂莲",
+      "title_en": "Chapter Thirteen. Twin Lotus on One Stem",
+      "pdf_page": 284,
+      "printed_page": 269,
+      "sections": [
+        {
+          "id": "ch13s01",
+          "section": 1,
+          "title": "一、派沈琬去",
+          "title_en": "1. Send Shen Wan",
+          "pdf_page": 285,
+          "printed_page": 270
+        },
+        {
+          "id": "ch13s02",
+          "section": 2,
+          "title": "二、挺进师",
+          "title_en": "2. The Vanguard Column",
+          "pdf_page": 289,
+          "printed_page": 274
+        },
+        {
+          "id": "ch13s03",
+          "section": 3,
+          "title": "三、按住蒋介石的脉搏",
+          "title_en": "3. A Finger on Chiang Kai-shek's Pulse",
+          "pdf_page": 293,
+          "printed_page": 278
+        },
+        {
+          "id": "ch13s04",
+          "section": 4,
+          "title": "四、失联",
+          "title_en": "4. Contact Lost",
+          "pdf_page": 298,
+          "printed_page": 283
+        },
+        {
+          "id": "ch13s05",
+          "section": 5,
+          "title": "五、开张吃三年",
+          "title_en": "5. One Job Feeds You Three Years",
+          "pdf_page": 302,
+          "printed_page": 287
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch14",
+      "chapter": 14,
+      "title": "第十四章  “一号机密”",
+      "title_en": "Chapter Fourteen. “Secret Number One”",
+      "pdf_page": 308,
+      "printed_page": 293,
+      "sections": [
+        {
+          "id": "ch14s01",
+          "section": 1,
+          "title": "一、中央文库",
+          "title_en": "1. The Central Archive",
+          "pdf_page": 309,
+          "printed_page": 294
+        },
+        {
+          "id": "ch14s02",
+          "section": 2,
+          "title": "二、决不让一个纸片落到敌人手里",
+          "title_en": "2. Not One Scrap of Paper to Fall into Enemy Hands",
+          "pdf_page": 312,
+          "printed_page": 297
+        },
+        {
+          "id": "ch14s03",
+          "section": 3,
+          "title": "三、我不死，我还要工作",
+          "title_en": "3. I Will Not Die; I Still Have Work to Do",
+          "pdf_page": 313,
+          "printed_page": 298
+        },
+        {
+          "id": "ch14s04",
+          "section": 4,
+          "title": "四、“小老大”",
+          "title_en": "4. “The Little Boss”",
+          "pdf_page": 316,
+          "printed_page": 301
+        },
+        {
+          "id": "ch14s05",
+          "section": 5,
+          "title": "五、让自己永远沉默",
+          "title_en": "5. To Silence Herself Forever",
+          "pdf_page": 318,
+          "printed_page": 303
+        },
+        {
+          "id": "ch14s06",
+          "section": 6,
+          "title": "六、档归我们天下",
+          "title_en": "6. The Archive Comes Home to Us",
+          "pdf_page": 321,
+          "printed_page": 306
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch15",
+      "chapter": 15,
+      "title": "第十五章  最后的努力",
+      "title_en": "Chapter Fifteen. The Last Effort",
+      "pdf_page": 324,
+      "printed_page": 309,
+      "sections": [
+        {
+          "id": "ch15s01",
+          "section": 1,
+          "title": "一、陈云来了",
+          "title_en": "1. Chen Yun Arrives",
+          "pdf_page": 325,
+          "printed_page": 310
+        },
+        {
+          "id": "ch15s02",
+          "section": 2,
+          "title": "二、“三人团”",
+          "title_en": "2. The “Group of Three”",
+          "pdf_page": 329,
+          "printed_page": 314
+        },
+        {
+          "id": "ch15s03",
+          "section": 3,
+          "title": "三、沧海横流，方显英雄本色",
+          "title_en": "3. Only in the Raging Sea Is the Hero's True Colour Seen",
+          "pdf_page": 331,
+          "printed_page": 316
+        },
+        {
+          "id": "ch15s04",
+          "section": 4,
+          "title": "四、在浦东上船",
+          "title_en": "4. Boarding the Boat at Pudong",
+          "pdf_page": 334,
+          "printed_page": 319
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch16",
+      "chapter": 16,
+      "title": "参考文献",
+      "title_en": "Works Cited",
+      "pdf_page": 338,
+      "printed_page": 323,
+      "sections": []
+    },
+    {
+      "level": 1,
+      "id": "ch17",
+      "chapter": 17,
+      "title": "后记  守住清贫，耐住寂寞",
+      "title_en": "Afterword: Keep to Poverty, Endure the Silence",
+      "pdf_page": 348,
+      "printed_page": 333,
+      "sections": []
     }
-  ],
-
-  "_back_matter_note": "Optional. If the book has a publisher's errata table or a colophon you want reproduced as translator's back matter, put the data in back_matter.json (see that file). This list is just a human record of what exists.",
-  "back_matter": []
+  ]
 }
