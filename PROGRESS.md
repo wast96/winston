@@ -2,6 +2,89 @@
 
 The running per-batch log. Written as work happens, not at the end.
 
+## Batch 3. Chapter 2, sections 4–5 (ch02s04–s05; PDF 69–92, printed 58–81)
+
+The Red Squad's assassinations (Luo Yinong's informers He Jiaxing, the enemy
+agent Dai Bingshi, the spy Chen Weinian, the traitors Bai Xin and Huang Dihong)
+and the Chongqing news-agency episode of the "Three Chens."
+
+- **Unit model.** Appended sections 4–5 (two `### ` titles + five `#### ` numbered
+  case headings) to the SAME `out/ch02_reading.md`; the whole chapter is one
+  builder unit. ch02 reading file now 321 lines; 142 new body/{v} parity lines.
+- **data/zh regeneration.** `data/zh/ch02.txt` (sections 1–3) is gitignored and
+  did NOT survive the fresh checkout, so whole-`ch02` parity via the default
+  config can't be run without regenerating sections 1–3. Per HANDOFF, scoped the
+  structural checks to the rebuilt unit: `data/zh/ch02s45.txt` (sections 4–5
+  source) + `out/ch02s45_reading.md` (a slice of the appended English) + a scoped
+  `data/check_config.b3.json` mapping unit `ch02s45`. The slice is verbatim the
+  appended part of `out/ch02_reading.md`. Register/build/qa/epubcheck run on the
+  WHOLE chapter file (no zh needed); apparatus anchors validated against the whole
+  file.
+- **OCR.** Rendered/cropped 69–92 with the ch01/ch02 crop, per-parity bottom
+  (recto/even `--bottom 0.945`, verso/odd `--bottom 0.915`, `--running-head
+  秘战英雄陈养山`); `ocr_dual.py` for the disagreement filter. `pgrep -c
+  tesseract` = 0 after every run. data/zh hand-assembled from corrected OCR +
+  every page image read by eye; portrait bio-boxes and photo captions kept OUT of
+  data/zh (they are figure captions, in figures.json) so parity stays 1:1.
+- **Dropped-tail trap CONFIRMED.** p80 (end of the Chen Weinian episode): OCR
+  dropped the paragraph-final short line 冰棒"……; restored from the scan. Every
+  page bottom checked against the image.
+- **Crop-verified names/readings** (OCR form on the left was WRONG): 刘鼎 Liu Ding
+  (OCR 刘易, the "Hart Road hospital" operation), 陈慰年 Chen Weinian (OCR 陈奈年
+  throughout — confirmed 慰 on p80), 白鑫 Bai Xin (OCR 白侈/白佬/白奢/白夺/白钨),
+  彭湃 Peng Pai (OCR 彭涯/彭涛), 谭余保 Tan Yubao, 红色恐怖队 (OCR 红色信怖队),
+  恽代英 Yun Daiying (OCR 履代英), 镣铐 (OCR 镀铸), 袭击 (OCR 黎击), 五卅 (OCR 五州),
+  温嗣翔/李鸿混 (given provisional — characters doubtful in the scan).
+- **Figures (5; find_figures + eyeballed EVERY page).** find_figures found exactly
+  the 5 real plates (p73 Luo Yinong portrait, p81 Peng Pai portrait, p82 the
+  puppet Shanghai police HQ building, p89 Chen Yangshan & Chen Kehan, p90 Chen
+  Kehan in the 1950s); no line art or document plates elsewhere (OCR ran clean and
+  ungarbled on every other page). Portrait bio-boxes translated into the figure
+  captions; alt text carries NO straight double quotes.
+- **The book's own footnote.** p88 carries the author's numbered footnote ① on
+  陈昌 (Chen Chang); reproduced as our translated footnote, attributed to the book.
+- **Source errors rendered as printed + footnoted** (do NOT "fix"): the Peng
+  Pai / Yang Yin arrest is printed "1928年8月24日" but fell on **24 Aug 1929**
+  (execution at Longhua 30 Aug 1929; the book's own later "1929年9月14日" news item
+  confirms 1929) — footnoted, corroborated against standard Party-history accounts
+  and the Bai Xin-informer record; the "几千万" (tens of millions) slaughtered in
+  the 1927–28 white terror is authorial hyperbole (actual toll in the hundreds of
+  thousands; CCP membership then under 60,000) — rendered faithfully, footnoted.
+- **Bai Xin killing corroborated**: shot by the Red Squad the night of 11 Nov 1929
+  at Hehefang off Route Joffre (now Huaihai Middle Rd) — matches the account;
+  footnoted.
+- **Notes / glossary / figures.** +24 footnotes on ch02 (unit total 130; book-wide
+  203). Most section-4/5 subjects (Luo Yinong, Peng Pai and the four martyrs, Bai
+  Xin, Dai Bingshi, Chen Weinian, Huang Dihong, Yang Jianhong, Xu Enzeng, Tan
+  Shaoliang, Whampoa, Wang Genying, Shen Bao, the Red Squad, the Special Branch,
+  the Communist University of the Toilers of the East, the Songhu Garrison Command)
+  were ALREADY noted at first appearance in earlier batches — cross-referenced,
+  NOT re-noted. +83 glossary rows (226 referents total). NOT re-noted (already
+  placed): the traitors as a group, the Special Branch, the Red Squad, Whampoa,
+  Sun Yat-sen, the four-martyr group. Minor unfootnoted tier: bit-part bodyguards
+  and patrolmen (Han Yunxiu, Lin Hanchen, Wang Baoyuan, Fan Zhengluo, Wang
+  Rongchuan), the Red Squad member roll, one-off local officials (Yuan Jiapei,
+  Huang Yingqian, Li Honghun, Li Jiemin) — glossary rows only.
+- **Style: em-dash discipline.** First English draft over-used the dashed-in
+  appositive gloss (failure mode #1: 36 em dashes). Rewrote 25 of them as parens /
+  commas / colons / periods per the contract; only the interrupted-speech dash
+  ("Ice po—") remains. em-dash rate now 0.1/1k, matching the frozen ch01 reference.
+- **Checks (all green).**
+  - Parity: ch02s45 142 source = 142 translation.
+  - Numbers: `verify_unit.py ch02s45` 142 pairs, 0 unresolved (noise extended:
+    10万, 百步穿杨, 百炼成钢, 三民照相馆, 万县, 一九三〇, 零乱; the "four martyrs"
+    fixed in English, not noised).
+  - Content (displacement): 359 name occurrences, all in the paired paragraph.
+  - Alignment: median ratio 4.32 en/han, no pair strays > 2.2x.
+  - Entities: `qc_entities` 0 misses.
+  - Register vs ch01: within tolerance (contr 14.3/1k, em-dash 0.1/1k, rhythm 0.54).
+  - Apparatus: `check_apparatus` 0 failures / 0 warnings (all 130 anchors resolve).
+  - Build: qa_epub PASS (203 refs = 203 bodies = 203 backlinks); **epubcheck 5.1.0
+    = 0 fatals / 0 errors / 0 warnings**.
+- **Tail verified** against the scan (p92): the 1987 recollection closing the
+  chapter (50多年前; Chen Kehan; Chen Chang tormented to death 1960, rehabilitated
+  1981) reads faithfully.
+
 ## Batch 2. Chapter 2, sections 1–3 (ch02s01–s03; PDF 39–68, printed 28–57)
 
 The heart of the book: the birth of the Central Special Branch, the Chen

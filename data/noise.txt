@@ -85,3 +85,17 @@
 两家话
 # 第二天 "the next day" — an ordinal idiom, rendered "the next day", no quantity carried
 第二天
+# 10万元 the reward for Luo Yinong — checker splits arabic 10 + 万; rendered "100,000 yuan"
+10万
+# 百步穿杨 "pierce a willow leaf at a hundred paces" — a crack-shot idiom; rendered "dead shots"
+百步穿杨
+# 百炼成钢 "tempered a hundred times into steel" — an idiom; rendered "tempered"
+百炼成钢
+# 三民照相馆 the Sanmin Photo Studio — a shop name (三民 = Three Principles of the People); no quantity
+三民照相馆
+# 万县 Wanxian — a place name (Wan county); the 万 is not a quantity
+万县
+# 一九三〇年 1930 — the 〇 (ideographic zero) misparses; rendered "1930"
+一九三〇
+# 零乱 "scattered / disordered" — a compound, the 零 is not a quantity
+零乱
