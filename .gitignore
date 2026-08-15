@@ -40,3 +40,7 @@ out/*_bilingual.md
 # Keep source.pdf and committed figure crops (data/figs/*.png) TRACKED.
 # If your scan is very large and you would rather not commit it, add:
 #   source.pdf
+
+# Ephemeral per-session working dir (crop.py/topstrips.py, page crops, scratch
+# transcription build files) — all regenerable; re-created each session as needed.
+scratchpad/
