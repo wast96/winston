@@ -2632,3 +2632,121 @@ guerrilla band with 250 long/short guns; 60-odd, 20-odd, 30-odd; 83 captured, 19
   data/zh/ch26.txt before NCR conversion).
 - `data/noise.txt` — B20 block (see above).
 - `notes.json` — 11 notes appended via apparatus_merge.py.
+
+## Batch B21 (ch27) — 第八章 大亨之死 扑朔迷离 "Chapter 8. The Death of a Tycoon, Shrouded in Mystery"
+
+A FULL chapter (~12,500 source chars): the Zhang Xiaolin tycoon-death case, continuing ch26's
+tail on the 张啸林/林怀部 sanction (14 Aug 1940). Source XHTML parses to 1 `<h2>` + 136 `<p>`,
+NO `<h1>`, NO `<br/>`, NO `<img>`, NO `[\d+]` note markers; proven byte-exact p-by-p against the
+txt body (136 body lines after drop=2, ZERO mismatches). drop=2. **133 body paragraphs; 3
+sub-headings.** EPUB now 27/43 chapters, 259 notes. All checks green; qa_epub PASS; epubcheck 0/0/0/0.
+
+**Faithful numbering gap:** Part Three SKIPS 第七章 — ch26 was 第六章, ch27 is 第八章 (confirmed
+against book.json title_en). Not an error; preserved.
+
+### Structure (headings + merges)
+ch27 uses ENUMERATED 一、二、三 SECTION headings (NOT the couplet style of ch21-ch26):
+- **L3 一、这件案子不一定是我们干的** — standalone (its own `<p>`) → `### 1.`
+- **L64 …时有著作发表。+ 二、事实该怎么样便怎么样** — TAIL-GLUED after a terminal 。 → `### 2.`
+- **L94 …我们有办法把你弄出来。」+ 三、一篇游戏文章写的满纸荒唐** — TAIL-GLUED after a full-width
+  `」` (the three-tell's `」` case; cf. ch24/ch26) → `### 3.`
+- **TWO severed-`<p>` merges** (a source `<p>` boundary severing one sentence): L13/14 (…始于清|
+  道光二十九年…, inside the quoted 「上海租界问题」 excerpt), L41/42 (…也在新闻中|出现过…).
+- The 六、七月 (June–July) and 五、六十人 (fifty-sixty) forms are number RANGES using 、, NOT headings.
+- The (1)-(19) rebuttal points at L107-L128 are enumerated LIST items rendered as ordinary
+  paragraphs per parity, NOT section headings; the `：`-ended quote/list lead-ins and the closed
+  `。)` parentheticals are DELIBERATE separate `<p>` and are NOT merged (incl. L99, which ends on a
+  trailing "(3)" marker after a terminal 。 with a new 「-quote at L100 following).
+
+### Checks
+- verify_unit ch27: **parity 133/133, numbers 0 unresolved, anchors 6 ok.**
+- check_align ch27: 133 source / 133 translation, **median ratio 4.82 en/han** (alignment OK, no
+  pair strays >2.2x; a touch below the document-heaviest chapters — ch27 is argument + two
+  reproduced news items + one forged letter, less pure directive-text than ch24-ch26).
+- check_structure: parity 133/133 OK; **ALL STRUCTURAL CHECKS PASS**; anchors 259 notes, 0 unresolved.
+- check_content: ch27 **105 name occurrences, all in the paired paragraph (0 DISPLACED).** The one
+  transient displacement caught in drafting (para 111: source 制裁(张啸林) had Zhang Xiaolin in a
+  parenthetical the English first dropped) was FIXED by carrying "(of Zhang Xiaolin)". Pre-existing
+  artifacts unchanged: ch08 Shunde ×3, ch13 ×9, ch09 "Jize County" ×1, ch26 武汉卿/劳勃生路 ×2.
+- qc_entities on the reconstructed bilingual: **0 misses** (census: 林怀部 ×52, 张啸林 ×46, 制裁 ×18,
+  赵圣 ×13, 杜月笙 ×9, 虹口 ×3, 军统 ×3, 吉震苍 ×3, 傅筱庵 ×3, 黄金荣 ×2).
+- check_register --ref: **within tolerance**; shall 0% (this chapter carries no quoted directives —
+  it is Chen's own argument plus two news reports and the forged letter, so the narrating "shall"
+  simply does not arise here; NOT a de-formalization), em-dash 11.4/1k, contr 0.8/1k, sent med 28.
+- Tail verified against source (L136-137, the puppet regime's Central Reserve Bank / Special
+  District Court offensive and the bloody reprisal) — faithful, no fabrication.
+
+### Notes (6 new; 253 → 259 cumulative)
+Most of the chapter's furniture is already covered and was NOT re-noted (see ledger below). New:
+1. **the August Thirteenth Incident** — the 13 Aug 1937 outbreak of the Battle of Shanghai.
+2. **French Municipal Council** — untangles the two councils: 工部局 = Shanghai Municipal Council
+   (Settlement); 公董局 = the French Concession's Conseil (here "French Municipal Council"); the
+   paper's 公部局 was an error. Zhang sat on the French body.
+3. **the Reformed Government** (维新政府, Liang Hongzhi's 1938 Nanjing puppet regime; Chen Qun among
+   its officials; folded into Wang Jingwei's regime in 1940).
+4. **there are eighteen points** — the lead-in says 18 but Chen numbers (1)-(19) and closes with
+   "these nineteen points"; the 18 is a slip for 19, faithfully preserved.
+5. **among the Japanese commanders** — the 长奇/长崎 homophone: no Japanese surname reads Changqi
+   (长奇), but 长崎 (same Mandarin sound, read Nagasaki) is real; a ground for Chen calling the
+   letter a forgery. (A "texture lost in translation" note.)
+6. **Zhou Fohai the prime mover** — Zhou Fohai + the 中央储备银行 Central Reserve Bank currency war
+   (Jan 1941) + the 特区法院 Special District Court seizure.
+
+### Glossary (2 net new rows, BY HAND via add_ch27_glossary.py; each key asserted in data/zh)
+- 赵圣 **Zhao Sheng** (working name of the Second Action Brigade commander; real name 吉震苍 Ji
+  Zhencang already keyed — two names, one man, each renders its own way; "第二队赵圣才说…" is
+  Zhao Sheng + adverb 才, not a longer name).
+- 黄金荣 **Huang Jinrong** (the third Green-Gang tycoon, beside Du Yuesheng and Zhang Xiaolin).
+- Rendered INLINE, NOT keyed: 东郭牙 Dongguo Ya (pen name), 裴可权 Pei Kequan (contributor), 马龙
+  Maron (French inspector), 柳乃夫 Liu Naifu, 阿四 Ah Si (driver, in the 沪上往事 excerpt), 朱升
+  Zhu Sheng (Fu Xiao'an's cook-assassin, whose act is NOTED ch04), the second victim named three
+  ways 吴金桂/吴建臣/吴鸿 (the source itself flags the discrepancy). Periodicals (新申报 Xin Shen Bao,
+  大公报 Ta Kung Pao, 大成 Dacheng) and books (上海租界问题, 沪上往事) inline/footnote, not keys.
+
+### NOT re-noted (already covered; first-appearance discipline)
+Zhang Xiaolin (ch04), Fu Xiao'an + the cook-assassination (ch04 note already names it), the Green
+Gang + its generation-name ranks 通/悟/大 (ch04 / ch09), Du Yuesheng (ch17), the concessions
+(ch04), fabi (ch21), No.76 / 特工总部 / 李士群 (ch04 / ch17), 忠义救国军 the Loyal and Patriotic Army
+(ch21), the 孤岛 Solitary Island (ch26), the Marco Polo Bridge Incident (ch13), the Xin Shen Bao
+(ch20), Wan Molin (inline, B15/B16 shelf).
+
+### Digitization glitches (rendered to plain sense; NOT footnoted unless real reading uncertainty)
+- **L69 迷样 → 谜样** ("a figure of mystery"; 迷 for 谜).
+- **L76 dittography** 「提出办法提出报告」 (提出 doubled) — rendered once ("report that an inside line
+  had been laid").
+- **L89 被补 → 被捕** ("arrested"; 补 for 捕).
+- **L113 「u 时政府已得情报」** — the `u ` is a mis-rendered opening 「; rendered as an opening quote.
+- **L60 演示文稿** — a software-conversion artifact (the modern Office term for "slideshow") standing
+  where the source meant a clipping/transcript of the 大公报; rendered "the transcript of the Ta
+  Kung Pao".
+- **L103 出狱来才之慈母** — garbled (stray 才; 出狱[以]来…[年老]之慈母); rendered to sense "my aged mother".
+- **L131 保留？变质的存在** — stray ？ for a dropped char; rendered "persist, in some altered form".
+- **L136 李士？ / ？收 / ？存** → 李士群 (？ for 群) / 接收 (？ for 接) / 现存 (？ for 现).
+- **L137 搏？ → 搏斗** ("a struggle"; ？ for 斗).
+All carried to plain sense; none footnoted (mechanical, no reading uncertainty).
+
+### In-text discrepancies preserved (faithful, discussed by the author himself; not glitches)
+- 林怀部 vs 林怀步 (Zhao Sheng's report's homophone slip) and 林怀郭 vs 林怀部 (the forged letter's 郭
+  for 部) — the author dwells on both; carried and discussed in the English.
+- Zhang's age given as 68 (Xin Shen Bao) / 64 (Ta Kung Pao) / 64-or-65 (by the Dacheng birthday) —
+  all carried.
+- The second victim named 吴金桂 / 吴建臣 / 吴鸿 with three different offices — all carried; the
+  author's own point (rebuttal 16).
+
+### data/noise.txt — B21 block appended (each entry commented)
+Date-names 八一三 (813, 13 Aug 1937) and 八一四 (814, the day of the killing); elided 十数 (ten-odd,
+"a dozen or more"); driver's name 阿四 (Ah Si). Two REAL values fixed in the English rather than
+noised (rule 4): 一时四十分 → "at forty minutes past one" (carries 40); 前两年 → "Two years or so
+ago" (carries 2). All other real quantities CARRIED as digits/words (the 20-yuan wage vs the
+District's 40; the 10,000-yuan reward; the 15-year sentence and 5-plus years served; the eight
+action brigades; the twenty-second generation; the (1)-(19) rebuttal numbering; the 1842/1848/
+1849/1864 concession-founding dates; the fifty-or-sixty-man Brigade strength).
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch27 spec added (drop=2; 2 severed-`<p>` merges 13/14 + 41/42; 3
+  enumerated 一、二、三 headings: 1 standalone L3 + 2 tail-glued L64/L94, the latter ending in `」`).
+- `scripts/add_ch27_glossary.py` — 2 new rows BY HAND (赵圣, 黄金荣; each key asserted in data/zh/ch27.txt).
+- `scripts/make_ch27_apparatus.py` — the 6 ch27 notes (every non-ASCII glyph asserted present in
+  data/zh/ch27.txt before NCR conversion).
+- `data/noise.txt` — B21 block (see above).
+- `notes.json` — 6 notes appended via apparatus_merge.py.

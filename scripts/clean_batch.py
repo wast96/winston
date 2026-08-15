@@ -602,6 +602,41 @@ UNITS = {
         # anomaly); L277 the section heading 「抗日杀奸团」为抗战奉献牺牲.
         "standalone": [3, 96, 218, 277],
     },
+    "ch27": {
+        "file": "28_index-split-000-0026.txt",
+        "title": "第八章 大亨之死 扑朔迷离",
+        "drop": 2,             # running header + <h2> chapter title
+        # A FULL chapter (the Zhang Xiaolin tycoon-death case). Source XHTML
+        # parses to 1 <h2> + 136 <p>, proven byte-exact p-by-p against the txt
+        # body (136 body lines after drop=2, zero mismatches; no <h1>, no <br/>,
+        # no <img>, no [\d+] note markers). This chapter uses ENUMERATED 一、二、
+        # 三、 SECTION headings (NOT couplet-style; cf. Part One's 一/二/三):
+        #   L3   一、这件案子不一定是我们干的          (standalone, its own <p>)
+        #   L64  …时有著作发表。 + 二、事实该怎么样便怎么样  (tail-glued after 。)
+        #   L94  …我们有办法把你弄出来。」 + 三、一篇游戏文章写的满纸荒唐 (tail-glued
+        #        after a full-width 」; cf. ch24/ch26's 」-ending tail-glued heads)
+        # TWO source-<p> boundaries that sever one sentence (first ends
+        # non-terminal), the class merged since ch06:
+        #   L13/L14  …历经一年的谈判，始于清 | 道光二十九年(一八四九)正式成立。 (始于清|
+        #            道光 split mid-phrase, inside the quoted 「上海租界问题」 引言)
+        #   L41/L42  …至于林怀部这个名字，也在新闻中 | 出现过，只可惜找不到更多的当年
+        #            报纸了。 (新闻中|出现过 split)
+        # NOT merged (DELIBERATE separate <p>, cf. ch21-26): the ：-ended
+        # quoted-document / list lead-ins (L9 说明如下：, L28 是这样的：, L29 消息
+        # 称：, L88 诸如：, L97 原文如下：, L106 有十八点可资反驳者：), the closed
+        # parentheticals ending 。) (L26 (…「林怀步」。), L92 (…请多原谅)), and the
+        # quoted 林怀部-letter paragraphs (each opening 「) with Chen's inline
+        # (1)-(19) rebuttal-reference markers embedded — including L99 which ends
+        # on a trailing "(3)" marker after a terminal 。, a NEW quoted paragraph
+        # (L100 opens 「) following, NOT a split. The Chen rebuttal points
+        # (1)-(19) at L107-L128 are enumerated LIST items rendered as ordinary
+        # paragraphs per parity, NOT section headings.
+        "merges": [(13, 14), (41, 42)],
+        "glued": {64: "二、事实该怎么样便怎么样",
+                  94: "三、一篇游戏文章写的满纸荒唐"},
+        "glued_head": {},
+        "standalone": [3],     # 一、这件案子不一定是我们干的
+    },
 }
 
 

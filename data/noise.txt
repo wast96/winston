@@ -705,3 +705,17 @@
 零星
 # Idiom 百业(辐辏) "the hundred trades (crowded together)"; the 百 is not the count 100.
 百业
+#
+# --- B21 (ch27) entries ---
+#
+# Event date-names read as bare digit strings (八一三 -> 813, 八一四 -> 814): the
+# outbreak of the Shanghai fighting on 13 Aug 1937, and the day of Zhang Xiaolin's
+# killing, 14 Aug (1940). English names them "August the Thirteenth/Fourteenth".
+八一三
+八一四
+# Elided/approximate 十数(人) "ten-odd / a dozen (men)" (有十数人以上): 十数 = "ten-plus",
+# not the count 10. English "a dozen or more". Cf. 十余 above.
+十数
+# Driver's name 阿四 "Ah Si" (the bodyguard-chief in the 沪上往事 excerpt); the 四 is a
+# name, not the count 4. Cf. the servant's name 阿六 "Ah Liu" above.
+阿四
