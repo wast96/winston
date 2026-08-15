@@ -612,3 +612,111 @@ ch07/ch08 folio ranges.
   scholarship on Zhao Weigang foregrounds instead his 1929 role shielding Liu
   Shaoqi — a different episode, noted at the aliases anchor.
 - Source internal discrepancy kept: Xu Enzeng b.1898 (book) vs 1896 (record).
+
+## Batch 6 (B06): ch09 (行动科和"红队" / The Action Section and the "Red Squad", PDF 198-217, printed 154-173) + ch10 (红队利剑出鞘 / The Red Squad Draws Its Sword, PDF 218-230, printed 174-186) — DONE
+
+Both back in Mu Xin's narrative-history voice (the Red Squad's operations, Gu
+Shunzhang the stage magician who built it, the Luo Yinong betrayal and reprisal),
+with several long set-off block quotes (Chen Yangshan on the pickets; the John
+Byron / Robert Pack Claws of the Dragon passage; Li Yimang's Blurred Screen
+account of the 1930 "Soviet Congress"; Li Wenyi, Zhang Weizhen, Huang Jieran, and
+Li Weihan on Luo Yinong's arrest, death, and the reprisal). Result: ch09 = 53
+body paragraphs (5 headings), ch10 = 34 body paragraphs (5 headings, including
+Luo Yinong's two-line death poem set as {p} verse).
+
+### Assembly — the B06 disease was near-total welding plus OCR-dropped sentence-ends
+On the section-opener and block-quote pages the OCR dropped ALL paragraph blanks,
+so the assembler welded whole runs of source paragraphs (one blob per section ran
+6 assembled -> 23 true paragraphs in ch09 s02). Rather than the fragile
+weld-then-split, B06 RE-SEGMENTS: concatenate each section's assembled body into
+one blob (the continuous source text, since Chinese lines join with no space) and
+re-split at a verified list of paragraph-START markers, each confirmed to occur
+exactly once in its blob. scripts/recovery/b06_surgery.py carries the marker
+lists and a boundary-SNAP (moves the tail after the last sentence-final
+punctuation of a piece onto the next), so a marker chosen a few chars into its
+paragraph still lands the split at the true boundary; it also refuses to move a
+trailing "(《…》)" citation forward. The snap exposed EIGHT OCR-dropped or
+mangled sentence-ends that had merged two paragraphs; all are restored in
+b06_strip_furniture.py's RESTORE table (verified on the scan): p200 畏怯动摇。(→晨),
+p204 。①(→.中), p208 震动。(dropped), p213 牺牲了。(→，), p222 农的就是何家兴和贺稚华。
+(dropped run) + 抄走。(→，), p226 。①(→.中), p227 就义。(dropped). Also a dropped
+digit trap caught by check_numbers: 1926年11月 and 11月4日 both OCR'd 1月 (11->1),
+and 4月15日 OCR'd 4月415日 — the English already had the right dates from the scan.
+
+### Furniture strip (b06_strip_furniture.py, all tracked)
+Normalized the 2 chapter + 8 section headings to the exact book.json titles
+(per-target guard); INSERTED the ch09 s04 heading 镇压叛徒绝不手软 that BOTH OCR
+configs dropped on p214; truncated 9 author-footnote blocks (p199,201,202,204,214,
+224,226,228,230 — p202 carries two gloss footnotes ① 爱多亚路 ② 番摊); stripped the
+two embedded photos (p210 李一氓 at his desk, caption after the last body line;
+p225 李文宜, garbage+caption before the body) and the p225 leaked folio.
+
+### Figures (2 — first figures since B04)
+find_figures flagged p210 and p225; both are portraits. ch09: p0210-f1.png (Li
+Yimang at his desk, 1984), placed before the Blurred Screen block quote. ch10:
+p0225-f1.png (Li Wenyi holding Yang Zhihua's daughter Qu Duyi), placed before the
+Zhang Weizhen quote. alt+caption in figures.json; captions are the source's.
+
+### Checks — all green (both units)
+verify_unit (parity 53/53 and 34/34, numbers 0 unresolved with data/noise.txt,
+anchors ok); check_align OK (median 4.44 / 4.63 en/han); qc_entities 0 misses;
+check_content all-in-paired-paragraph; check_register within tolerance vs ch01
+(em-dash 3.0 / 2.5 per 1k, BELOW ch01's 6.0; little dialogue so contraction rate
+noisy). check_apparatus 0/0. qa_epub PASS (28 docs, 527 paras, 168 notes
+ref/body/backlink, 168 pagebreaks). epubcheck 5.1.0: 0 fatals / 0 errors / 0
+warnings.
+
+### Notes (16 ch09 + 9 ch10 = 25) — coverage and fact-check verdicts
+Reader notes: 拿摩温 "number one" (pidgin from English); 大世界 Great World; the
+Claws of the Dragon book (John Byron/Robert Pack 1992, biography of Kang Sheng —
+CORROBORATED, real book, "John Byron" a diplomat's pen name); 王凡西 Wang Fanxi +
+双山回忆录; the 1930 Soviet Congress (Li Lisan line, x-ref); 李一氓 Li Yimang;
+淞沪警备司令部 Songhu Garrison Command; 布尔塞维克 Bolshevik journal; 工部局 /
+"British Concession" period looseness (International Settlement); 布拉吉 = Russian
+platye (texture); 钱大钧 Qian Dajun; 洛克 Locke (conjectural romanization). Two
+fact-check corrections: **赵一曼 killed at 珠江 is a misprint for 珠河 County**
+(renamed Shangzhi 1946, which the memoir itself uses two sentences later —
+CORROBORATED correction); **阮啸仙 "later defected" is CONTRADICTED** — Ruan
+Xiaoxian (1898-1935) did not defect, he stayed behind after the Long March and
+was killed in Jiangxi in 1935, a martyr. 柔石/胡也频/冯铿 = three of the Left
+League Five Martyrs (Oriental Hotel arrest Jan 1931, Longhua 7 Feb 1931 —
+CORROBORATED). Ten author footnotes reproduced tagged "Author's note." at the ①
+anchor (the source-citation footnotes: 中统特工秘录, 杜宁/党的文献, 关于中央特科,
+李一氓/模糊的荧屏, and the Luo Yinong talk-transcripts — Li Wenyi, Zhang Weizhen,
+Huang Jieran, Li Weihan, all from Jin Zaiji's 1981 article — plus the p202 glosses
+爱多亚路=Yan'an East Rd and 番摊=fantan).
+
+### NOT re-noted (already placed earlier in the book)
+Gu Shunzhang bio+defection (ch00), Green Gang / "April 12" (ch00), Red Squad /
+Central Special Section (ch00, ch01), Dog-Beating Squad / 巡捕房 (ch01), May
+Thirtieth (early), August 7 Conference / Li Lisan line (ch02), Luo Yinong bio +
+betrayal (ch02), Zhao Yiman / Li Kuntai (ch02), Mixed Court 会审公堂 (ch02),
+Peng Pai + Yang Yin (ch02), Deng Xiaoping (ch04), Bai Xin (ch04), Whampoa /
+Yun Daiying / extraterritoriality (early), Gu's manual 特务工作之理论与实际 (ch07).
+
+### Glossary: 33 rows added DIRECTLY nested (people/orgs/places/works)
+New: 行动科 = "Action Section", 打狗队 = "Dog-Beating Squad", 淞沪警备司令部 =
+"Songhu Garrison Command"; 大世界 = "Great World"; works 康生传 = "The Claws of the
+Dragon", 双山回忆录 = "Reminiscences of Shuangshan", 模糊的荧屏 = "The Blurred
+Screen", 布尔塞维克 = "Bolshevik"; and the batch's people (张杏华, 颜昌颐, 钟汝梅,
+谭忠余, 林金生, 王凡西, 林育南, 柯柏年, 滕代远, 何长工, 柔石, 胡也频, 冯铿, 徐锡根,
+阮啸仙, 戴冰石, 杨剑虹, 陈尉年, 王松生, 黄第洪, 唐瑞林, 张维桢, 黄玠然, 郑超麟,
+许白昊, 吴稚晖). REUSED unchanged: 顾顺章, 罗亦农, 李一氓, 杨登瀛, 李维汉, 邓小平,
+彭湃, 李文宜, 赵一曼, 何家兴, 贺稚华, 钱大钧, 周恩来, 陈赓, 蒋介石, 陈立夫, 徐恩曾,
+李立三, 刘鼎, 任弼时, 刘少奇, 陈独秀. Dropped a 工部局 row (prose uses "Municipal
+Police" for 工部局捕房; the note carries "Shanghai Municipal Council").
+
+### noise.txt additions (this batch)
+五粮液, 百炼成钢, 一二百 (ch09 idioms/brand, English carries the sense); 两手,
+4万 (ch10 — 两手="both hands"; 4万 is an Arabic+万 mix the parser can't combine,
+English carries "40,000"). Extend, do not prune.
+
+### Reading uncertainties for the read-through
+- 洛克 (the British agent who arrested Luo Yinong) is given only in Chinese
+  transcription; "Locke" is a conjecture, footnoted.
+- Source date discrepancies kept as printed and footnoted: the bounty-poster in
+  Li Wenyi's letter is dated 4月22日 though the execution was 4月21日; Huang
+  Jieran's talk-transcript is dated "1930年4月1日" in the scan, evidently a
+  misprint for 1980.
+- 珠江 (Zhao Yiman's death place) rendered as printed with a note that it is a
+  misprint for 珠河/Shangzhi.

@@ -1392,6 +1392,126 @@
    "en": "Puyi",
    "pinyin": "Puyi",
    "status": "attested"
+  },
+  "张杏华": {
+   "en": "Zhang Xinghua",
+   "status": "attested",
+   "pinyin": "ZhangXinghua"
+  },
+  "颜昌颐": {
+   "en": "Yan Changyi",
+   "status": "attested",
+   "pinyin": "YanChangyi"
+  },
+  "钟汝梅": {
+   "en": "Zhong Rumei",
+   "status": "attested",
+   "pinyin": "ZhongRumei"
+  },
+  "谭忠余": {
+   "en": "Tan Zhongyu",
+   "status": "attested",
+   "pinyin": "TanZhongyu"
+  },
+  "林金生": {
+   "en": "Lin Jinsheng",
+   "status": "attested",
+   "pinyin": "LinJinsheng"
+  },
+  "王凡西": {
+   "en": "Wang Fanxi",
+   "status": "attested",
+   "pinyin": "WangFanxi"
+  },
+  "柯柏年": {
+   "en": "Ke Bainian",
+   "status": "attested",
+   "pinyin": "KeBainian"
+  },
+  "滕代远": {
+   "en": "Teng Daiyuan",
+   "status": "attested",
+   "pinyin": "TengDaiyuan"
+  },
+  "何长工": {
+   "en": "He Changgong",
+   "status": "attested",
+   "pinyin": "HeChanggong"
+  },
+  "柔石": {
+   "en": "Rou Shi",
+   "status": "attested",
+   "pinyin": "RouShi"
+  },
+  "胡也频": {
+   "en": "Hu Yepin",
+   "status": "attested",
+   "pinyin": "HuYepin"
+  },
+  "冯铿": {
+   "en": "Feng Keng",
+   "status": "attested",
+   "pinyin": "FengKeng"
+  },
+  "徐锡根": {
+   "en": "Xu Xigen",
+   "status": "attested",
+   "pinyin": "XuXigen"
+  },
+  "阮啸仙": {
+   "en": "Ruan Xiaoxian",
+   "status": "attested",
+   "pinyin": "RuanXiaoxian"
+  },
+  "戴冰石": {
+   "en": "Dai Bingshi",
+   "status": "attested",
+   "pinyin": "DaiBingshi"
+  },
+  "陈尉年": {
+   "en": "Chen Weinian",
+   "status": "attested",
+   "pinyin": "ChenWeinian"
+  },
+  "王松生": {
+   "en": "Wang Songsheng",
+   "status": "attested",
+   "pinyin": "WangSongsheng"
+  },
+  "黄第洪": {
+   "en": "Huang Dihong",
+   "status": "attested",
+   "pinyin": "HuangDihong"
+  },
+  "唐瑞林": {
+   "en": "Tang Ruilin",
+   "status": "attested",
+   "pinyin": "TangRuilin"
+  },
+  "张维桢": {
+   "en": "Zhang Weizhen",
+   "status": "attested",
+   "pinyin": "ZhangWeizhen"
+  },
+  "黄玠然": {
+   "en": "Huang Jieran",
+   "status": "attested",
+   "pinyin": "HuangJieran"
+  },
+  "郑超麟": {
+   "en": "Zheng Chaolin",
+   "status": "attested",
+   "pinyin": "ZhengChaolin"
+  },
+  "许白昊": {
+   "en": "Xu Baihao",
+   "status": "attested",
+   "pinyin": "XuBaihao"
+  },
+  "吴稚晖": {
+   "en": "Wu Zhihui",
+   "status": "attested",
+   "pinyin": "WuZhihui"
   }
  },
  "organizations": {
@@ -1598,6 +1718,21 @@
    "en": "Chinese Eastern Railway",
    "pinyin": "Chinese Eastern Railway",
    "status": "attested"
+  },
+  "行动科": {
+   "en": "Action Section",
+   "status": "decided",
+   "pinyin": "ActionSection"
+  },
+  "打狗队": {
+   "en": "Dog-Beating Squad",
+   "status": "decided",
+   "pinyin": "DogBeatingSquad"
+  },
+  "淞沪警备司令部": {
+   "en": "Songhu Garrison Command",
+   "status": "decided",
+   "pinyin": "SonghuGarrisonCommand"
   }
  },
  "places": {
@@ -1862,6 +1997,11 @@
    "en": "Qingdao",
    "pinyin": "Qingdao",
    "status": "attested"
+  },
+  "大世界": {
+   "en": "Great World",
+   "status": "attested",
+   "pinyin": "GreatWorld"
   }
  },
  "terms": {
@@ -1982,6 +2122,26 @@
    "en": "Field Service Regulations",
    "pinyin": "Field Service Regulations",
    "status": "attested"
+  },
+  "康生传": {
+   "en": "The Claws of the Dragon",
+   "status": "attested",
+   "pinyin": "TheClawsoftheDragon"
+  },
+  "双山回忆录": {
+   "en": "Reminiscences of Shuangshan",
+   "status": "attested",
+   "pinyin": "ReminiscencesofShuangshan"
+  },
+  "模糊的荧屏": {
+   "en": "The Blurred Screen",
+   "status": "attested",
+   "pinyin": "TheBlurredScreen"
+  },
+  "布尔塞维克": {
+   "en": "Bolshevik",
+   "status": "attested",
+   "pinyin": "Bolshevik"
   }
  }
 }

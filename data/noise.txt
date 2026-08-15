@@ -123,3 +123,13 @@
 # 万岁 ('long live') — the 万 is idiom, not a count of 10000
 万岁
 
+# 五粮液 (Wuliangye liquor, Yibin) — brand name, contains 五; English keeps "Wuliangye"
+五粮液
+# 百炼成钢 — idiom "tempered into steel (a hundred temperings)"; the 百 is not a count
+百炼成钢
+# 一二百 (a hundred or two) — approximate range; English carries "one or two hundred"
+一二百
+# 两手一摊 / 两手 — 'spread both hands'; the 两 is 'both', not a count
+两手
+# 4万 (40,000 yuan ransom) — Arabic+万 mix; English carries "40,000"
+4万

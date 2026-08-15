@@ -1996,5 +1996,264 @@
    "page": 180,
    "note": "古色古香; OCR 古->十"
   }
+ ],
+ "ch09": [
+  {
+   "wrong": "严顺章",
+   "right": "顾顺章",
+   "note": "Gu Shunzhang; OCR 顾->严"
+  },
+  {
+   "wrong": "顾顺草",
+   "right": "顾顺章",
+   "note": "Gu Shunzhang; OCR 章->草"
+  },
+  {
+   "wrong": "顾顺音",
+   "right": "顾顺章",
+   "note": "Gu Shunzhang; OCR 章->音"
+  },
+  {
+   "wrong": "顾顺班的妻子张查华",
+   "right": "顾顺章的妻子张杏华",
+   "note": "Gu's wife Zhang Xinghua; 班->章,查->杏"
+  },
+  {
+   "wrong": "颜虽颐",
+   "right": "颜昌颐",
+   "note": "Yan Changyi; OCR 昌->虽"
+  },
+  {
+   "wrong": "赵志炎",
+   "right": "赵世炎",
+   "note": "Zhao Shiyan; OCR 世->志"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "note": "Chen Geng; OCR 赓->庆"
+  },
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "note": "Chen Geng; OCR 赓->刻"
+  },
+  {
+   "wrong": "陈康",
+   "right": "陈赓",
+   "note": "Chen Geng; OCR 赓->康"
+  },
+  {
+   "wrong": "杨登泳",
+   "right": "杨登瀛",
+   "note": "Yang Dengying; OCR 瀛->泳"
+  },
+  {
+   "wrong": "杨登沪",
+   "right": "杨登瀛",
+   "note": "Yang Dengying; OCR 瀛->沪"
+  },
+  {
+   "wrong": "杨登溉",
+   "right": "杨登瀛",
+   "note": "Yang Dengying; OCR 瀛->溉"
+  },
+  {
+   "wrong": "杨登注",
+   "right": "杨登瀛",
+   "note": "Yang Dengying; OCR 瀛->注"
+  },
+  {
+   "wrong": "伪登注",
+   "right": "杨登瀛",
+   "note": "Yang Dengying; OCR 杨瀛->伪注"
+  },
+  {
+   "wrong": "李一总",
+   "right": "李一氓",
+   "note": "Li Yimang; OCR 氓->总"
+  },
+  {
+   "wrong": "李一误",
+   "right": "李一氓",
+   "note": "Li Yimang; OCR 氓->误"
+  },
+  {
+   "wrong": "李一起",
+   "right": "李一氓",
+   "note": "Li Yimang; OCR 氓->起"
+  },
+  {
+   "wrong": "地一起",
+   "right": "李一氓",
+   "note": "Li Yimang; OCR 李氓->地起"
+  },
+  {
+   "wrong": "白讲",
+   "right": "白鑫",
+   "note": "Bai Xin; OCR 鑫->讲"
+  },
+  {
+   "wrong": "白夸",
+   "right": "白鑫",
+   "note": "Bai Xin; OCR 鑫->夸"
+  },
+  {
+   "wrong": "茧涛",
+   "right": "彭湃",
+   "note": "Peng Pai; OCR 彭湃->茧涛"
+  },
+  {
+   "wrong": "杨般",
+   "right": "杨殷",
+   "note": "Yang Yin; OCR 殷->般"
+  },
+  {
+   "wrong": "白鑫等,在上海引起极大",
+   "right": "白鑫等,在上海引起极大震动。",
+   "note": "restore dropped 震动。(OCR loss at para boundary)"
+  },
+  {
+   "wrong": "，赵才人敏",
+   "right": "赵毅敏",
+   "note": "Zhao Yimin; OCR 毅->才人 + stray comma"
+  },
+  {
+   "wrong": "赵才人敏",
+   "right": "赵毅敏",
+   "note": "Zhao Yimin; OCR 毅->才人"
+  },
+  {
+   "wrong": "一辐二层",
+   "right": "一间三层",
+   "note": "three-story house; OCR 间三->辐二"
+  },
+  {
+   "wrong": "内外人十的兴奋",
+   "right": "内外人士的兴奋",
+   "note": "renshi 人士; OCR 士->十"
+  },
+  {
+   "wrong": "这个临时家庭就解散了.5",
+   "right": "这个临时家庭就解散了。",
+   "note": "strip ① note marker (->.5)"
+  },
+  {
+   "wrong": "镇压。万其",
+   "right": "镇压。尤其",
+   "note": "youqi 尤其; OCR 尤->万"
+  },
+  {
+   "wrong": "或叛徒一一一个最低",
+   "right": "或叛徒——一个最低",
+   "note": "em-dash ——->一一"
+  },
+  {
+   "wrong": "番摊2和",
+   "right": "番摊和",
+   "note": "strip ② note marker (->2)"
+  },
+  {
+   "wrong": "大上海进1b",
+   "right": "大上海进行的,因此",
+   "note": "restore seam garble; strip phantom 1"
+  },
+  {
+   "wrong": "秘密文件4中央通告",
+   "right": "秘密文件《中央通告》",
+   "note": "restore 《 (OCR ->4)"
+  }
+ ],
+ "ch10": [
+  {
+   "wrong": "风亦农",
+   "right": "罗亦农",
+   "note": "Luo Yinong; OCR 罗->风"
+  },
+  {
+   "wrong": "多亦农",
+   "right": "罗亦农",
+   "note": "Luo Yinong; OCR 罗->多"
+  },
+  {
+   "wrong": "好亦农",
+   "right": "罗亦农",
+   "note": "Luo Yinong; OCR 罗->好"
+  },
+  {
+   "wrong": "锅稚华",
+   "right": "贺稚华",
+   "note": "He Zhihua; OCR 贺->锅"
+  },
+  {
+   "wrong": "李文宣",
+   "right": "李文宜",
+   "note": "Li Wenyi; OCR 宜->宣"
+  },
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "note": "Chen Geng; OCR 赓->刻"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "note": "Chen Geng; OCR 赓->庆"
+  },
+  {
+   "wrong": "怀慨登车去",
+   "right": "慷慨登车去",
+   "note": "Luo's death poem; OCR 慷->怀"
+  },
+  {
+   "wrong": "残驱何足惜",
+   "right": "残躯何足惜",
+   "note": "death poem; OCR 躯->驱"
+  },
+  {
+   "wrong": "大政正当前",
+   "right": "大敌正当前",
+   "note": "death poem; OCR 敌->政"
+  },
+  {
+   "wrong": "安然无盖",
+   "right": "安然无恙",
+   "note": "anran-wuyang; OCR 恙->盖"
+  },
+  {
+   "wrong": "安然无羔",
+   "right": "安然无恙",
+   "note": "anran-wuyang; OCR 恙->羔"
+  },
+  {
+   "wrong": "呈中央特科在接受了任务",
+   "right": "中央特科在接受了任务",
+   "note": "strip leaked ① (->呈)"
+  },
+  {
+   "wrong": "阅读4新青年",
+   "right": "阅读《新青年》",
+   "note": "restore 《》 (OCR ->4?)"
+  },
+  {
+   "wrong": "1926年1月至1927年",
+   "right": "1926年11月至1927年",
+   "note": "dropped digit 11->1 (folio 176)"
+  },
+  {
+   "wrong": "三次武装起义。1927年$月",
+   "right": "三次武装起义。1927年5月",
+   "note": "OCR $->5"
+  },
+  {
+   "wrong": "这年1月4日",
+   "right": "这年11月4日",
+   "note": "dropped digit 11->1 (folio 176)"
+  },
+  {
+   "wrong": "4月415日",
+   "right": "4月15日",
+   "note": "duplicated digit 415->15"
+  }
  ]
 }
