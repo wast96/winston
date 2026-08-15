@@ -236,3 +236,19 @@
 十王
 # 三黄 (Sanō): a folk herb-name; the 三 is the name, not the count 3 — kept "Sanō"
 三黄
+# --- Owl's Castle ch20 (解説 / Afterword) date and name numerals ---
+# Shōwa era-year dates are rendered as the Gregorian year (the actual value is
+# carried in English), so the bare era-ordinal is a calendar label, not a lost
+# count. Longest-literal-first, numeral-initial guarded.
+# 昭和三十四年 / 三十四年下半期 (Shōwa 34 = 1959): serialised, published, and Naoki Prize — rendered "1959"
+(?<![零一二两兩三四五六七八九十百千万萬億])三十四年
+# 昭和三十一年 (Shōwa 31 = 1956): Season of the Sun a bestseller — rendered "1956"
+(?<![零一二两兩三四五六七八九十百千万萬億])三十一年
+# 昭和三十年 (Shōwa 30 = 1955): the historical-fiction boom / Kōdan Club Prize — rendered "1955"
+(?<![零一二两兩三四五六七八九十百千万萬億])三十年
+# 昭和四十年 (Shōwa 40 = 1965): the date the afterword was written — rendered "1965"
+(?<![零一二两兩三四五六七八九十百千万萬億])四十年
+# Saitō Dōsan (斎藤道三 / 道三): the 三 is the given name, not the count 3 — rendered "Dōsan"
+道三
+# Hijikata Toshizō (土方歳三 / 歳三): the 三 is the given name, not the count 3 — rendered "Toshizō"
+歳三

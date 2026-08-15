@@ -27,7 +27,7 @@
 - **The Shadowing** &mdash; 584-590 (7 pp.)
 - **The Ishida Mansion** &mdash; 591-607 (17 pp.)
 - **Fushimi Castle** &mdash; 608-652 (45 pp.)
-- **Afterword (by Muramatsu Tsuyoshi)** &mdash; 653-660 (8 pp.)
+- **Afterword (by Muramatsu Takeshi)** &mdash; 653-660 (8 pp.)
 
 ## Suggested batches (target ~35 printed pages each)
 
@@ -53,6 +53,6 @@ Approve or adjust these, then Batch 1 begins.
 | B16 | ch16-ch17 | 25 | 566-590 | Mount Kannabi through The Shadowing |
 | B17 | ch18 | 17 | 591-607 | The Ishida Mansion |
 | B18 | ch19 | 45 | 608-652 | Fushimi Castle |
-| B19 | ch20 | 8 | 653-660 | Afterword (by Muramatsu Tsuyoshi) |
+| B19 | ch20 | 8 | 653-660 | Afterword (by Muramatsu Takeshi) |
 
 _Page counts derive from opener-to-opener deltas; set book.json `pdf_end`/`printed_end` so the last unit's length is known. Verify every opener's folio against the scan._

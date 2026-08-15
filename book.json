@@ -66,7 +66,7 @@
     {"level": 1, "id": "ch17", "chapter": 17, "title": "尾行", "title_en": "The Shadowing", "pdf_page": 584, "printed_page": 584},
     {"level": 1, "id": "ch18", "chapter": 18, "title": "石田屋敷", "title_en": "The Ishida Mansion", "pdf_page": 591, "printed_page": 591},
     {"level": 1, "id": "ch19", "chapter": 19, "title": "伏見城", "title_en": "Fushimi Castle", "pdf_page": 608, "printed_page": 608},
-    {"level": 1, "id": "ch20", "chapter": 20, "title": "解説（村松剛）", "title_en": "Afterword (by Muramatsu Tsuyoshi)", "pdf_page": 653, "printed_page": 653}
+    {"level": 1, "id": "ch20", "chapter": 20, "title": "解説（村松剛）", "title_en": "Afterword (by Muramatsu Takeshi)", "pdf_page": 653, "printed_page": 653}
   ],
 
   "_batches_note": "Proposed by survey.py; final plan approved by the commissioner. The 解説 (ch20) is a third-party critical essay; translating it is the commissioner's call (see SURVEY.md).",

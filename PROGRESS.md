@@ -2391,3 +2391,68 @@ minor items (治部少輔 jibu-no-shō/jibu-no-shōyū; unused glossary form 今
 corrections pass. Deep audit: ch19 14/310 (4.5%, seed 19), 0 errors (out/deep_audit.md). COMPLETION.md
 written. authority.json fed 256 renderings under slug owls-castle. out/term_ledger.md rendered. Final
 EPUB committed with git add -f. HANDOFF rewritten to COMPLETE.
+
+---
+
+## B20 — ch20 解説 / Afterword (Muramatsu Takeshi), folios 653–660 — BOOK COMPLETE
+
+Third-party critical afterword, not Shiba's text. Register: modern appreciative
+literary criticism, first-person, formal by design. Pipeline run end to end.
+
+### OCR / transcription
+render 653-660 @300dpi; ocr_crop jpn_vert psm5 (L0.035 R0.965 T0.075 B0.955,
+--no-furniture-strip); ocr_dual as second read. pgrep -c tesseract == 0 after each.
+Hand-transcribed from the page images into data/zh/ch20.txt (26 body paras + one
+section-divider dot on folio 655, rendered ***; two closing datelines {d}: the
+essay's signature and the Kōdansha publication note on folio 660). OCR used only
+to cross-check the hand transcription.
+
+### Crop-verification (every proper name, high-DPI)
+Confirmed against the page images: 村松剛 (author), 立川文庫 / 猿飛佐助, 村山知義 /
+『忍びの者』, 山田風太郎 / 『甲賀忍法帖』(furigana にんぼうちょう), 『ペルシャの幻術師』,
+『戈壁の匈奴』(furigana ごび / きょうど), 石原慎太郎 / 『太陽の季節』, 吉川英治 /
+『宮本武蔵』, 一剣天によって立つ (i.e. 一剣、天によって立つ), 大村益次郎 / 河井継之助 /
+長岡藩, 土方歳三, 斎藤道三, 幸田露伴, 坂口安吾 / 『二流の人』, 産経新聞. Novel characters
+(重蔵/五平/小萩/木さる/下柘植次郎左衛門) match the existing glossary.
+
+### FACT-CHECK (rule 5)
+村松剛 reads Muramatsu **Takeshi** (むらまつ たけし), 1929–1994, scholar of French
+literature and critic — NOT "Tsuyoshi" as the survey had it. Corrected book.json
+ch20 title_en; EPUB rebuilt. Tachikawa Bunko / Sarutobi Sasuke, Murayama's
+Shinobi no mono, Yamada's Kōga Ninpōchō, the Naoki Prize etc. all checked against
+Wikipedia/Kotobank; noted at reader density.
+
+### Checks (all green)
+verify_unit ch20: parity 26/26, numbers 0 unresolved, anchors ok. check_structure
+--pairs OK. check_align: only the short signature dateline out of line (expected
+set-off line). qc_entities: 0 misses. check_content (--config data/checks.json,
+after registering ch20): all placed — used the decided "Miyamoto Musashi" where
+宮本武蔵 appears, "Musashi" for the bare character. check_register vs ch01: within
+tolerance, 0 contractions (nonfiction register, flagged "little dialogue — noisy",
+by design). check_reconcile re-run: no new drift; 0 British / 133 American.
+
+### noise.txt additions (ch20)
+Shōwa era-year dates rendered as Gregorian years (三十四年→1959, 三十一年→1956,
+三十年→1955, 四十年→1965), numeral-initial guarded; name numerals 道三 (Dōsan),
+歳三 (Toshizō). Each with a comment.
+
+### Notes (19) — deliberately dense
+A critical essay naming ~20 external writers/works/figures; each earns one note at
+first mention. Muramatsu (on "I am a fan"); Chūgai Nippō; Tachikawa Bunko/Sarutobi
+Sasuke; Murayama Tomoyoshi/Shinobi no mono; Yamada Fūtarō/Kōga Ninja Scrolls; the
+"ninja-master" pun; Kōdan Club Prize/The Persian Sorcerer (with the 1955-vs-1956
+correction); The Xiongnu of the Gobi; Naoki Prize; Kamigata Bushidō; Ishihara
+Shintarō/Season of the Sun; Yoshikawa Eiji/Miyamoto Musashi (with Otsū & Akemi);
+Burn, O Sword/Shinsengumi; The Man of Demonic Cunning/Ōmura & Kawai; Saitō Dōsan;
+Sankei Shimbun; Bakumatsu; Kōda Rohan; Sakaguchi Ango/The Second-Rate Man.
+NOT re-noted (already placed): Tsuzura Jūzō, Kazama Gohei, Shimotsuge Jirōzaemon,
+Kohagi, Kisaru, Toyotomi Hideyoshi, Tokugawa, Kōga/Iga; Miyamoto Musashi the
+swordsman (footnoted at ch06 — ch20's note is on Yoshikawa's novel and cross-refs).
+Deliberately unnoted (minor, self-glossed or well-known): chanbara (rendered
+"swordplay"), 武州天領 (glossed "shogunal domains of Musashi Province"), the Meiji
+Restoration.
+
+### Build / done
+build_reading_epub 20 of 20; title page COMPLETE, no pending markers; 149 notes,
+422 pagebreaks. qa_epub PASS; epubcheck 5.1.0 0/0/0/0. Final EPUB committed with
+git add -f. Book COMPLETE; further work is a corrections pass.
