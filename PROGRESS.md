@@ -1728,3 +1728,124 @@ li", counts) carried in the English as digits/words.
   merges/glued/standalone) added. Backward-compatible.
 - `data/noise.txt` — B13 block (see above).
 - `glossary.json` — 21 rows added by hand (sectioned; every row has `pinyin`).
+
+## Batch B14 — ch20 (Part Three OPENS: "Renown Won in a Hundred Battles") — self-preface
+
+「上海抗日敌后行动」自序 "Author's Preface: Shanghai Behind-the-Lines Operations
+Against Japan" (ch20) is the SELF-PREFACE that **opens Part Three**, whose part
+title is 「百战声威」 "Renown Won in a Hundred Battles". Chen recounts the Part-Three
+title's evolution (百战声威 → 抗战期间上海敌后行动 → 上海敌后行动 → the final 上海抗日
+敌后行动), sets the scope at 二十八年八月至三十年十月 (Aug 1939 – Oct 1941, the span
+the ch19 notice announced), then gives a compressed portrait of the Shanghai
+District: its unprecedented ~1,000-strong size, its full internal/external
+order of battle (duplex HQ; 22 courier-liaison stations; 3 standing wireless
+stations + 1 reserve; Chief/District Accountants; technical room + "warehouse";
+New Group One; five intelligence groups; eight action brigades; the "soft"-work
+units), the tally of two years' work (200+ own casualties; 100+ traitors
+sanctioned; 50+ sabotage instances; ~40 Japanese officers killed), the enemy's
+Nov-1941 full-page press exposé, and — in a preview of ch21 — his Aug-1939
+arrival, appointment as District Chief, and the crisis left by Chen Dirong's
+betrayal. **26 body paragraphs. 2 new notes (210 cumulative); 2 glossary rows
+added.** All checks green; qa_epub PASS; epubcheck 0/0/0/0. **EPUB now 20/43
+chapters. PART THREE OPENS.** (Next: B15 = ch21, the first Shanghai chapter.)
+
+### Structure
+- **ch20** drop=3 (cf. ch10, the Part-Two preface): running header 英雄无名-陈恭澍 +
+  <h1>「百战声威」 (the Part-Three banner, rendered from book.json's `part` field) +
+  <h3>「上海抗日敌后行动」自序 (the preface's own title, re-emitted from book.json
+  `title_en`). Confirmed p-by-p against data/src_epub/OEBPS/Text/index_split_000_0019.xhtml:
+  **1 <h1> + 1 <h3> + 26 <p>**, no <h2>, no <br/>, no <img>, no set-off formatting —
+  zero mismatches.
+  - The title 「上海抗日敌后行动」自序 is **heading markup (`<h3>`), NOT a `<p>`** — the
+    kickoff's structure note had guessed it a `<p>` and proposed drop=2 + standalone;
+    inspecting the raw XHTML showed the `<h3>`, so it drops with the header/banner
+    (drop=3), exactly parallel to how ch10 dropped its `<h2>` preface title. The
+    reading.md `##` comes from book.json title_en; keeping the title as a body line
+    would have duplicated it.
+  - The 26 body `<p>` (L4–L29) map **1:1** to the 26 source `<p>` — **NO extractor
+    mid-phrase splits, no merges, no glued, no standalone**. The lone non-terminal
+    line (L12, "…大致有如下者–", ending on a dash lead-in) is its own source `<p>`
+    introducing the region-structure list; DELIBERATE separate `<p>`, NOT a split,
+    NOT merged (cf. the ；/：-ended lead-ins in ch16/ch17/ch18).
+  - NO (一)-style paren sub-headings (grepped; none). NO in-text "(…完)" coda (grepped).
+- Source note markers `\[\d+\]`: **none present** (grepped; none through B14).
+
+### Checks (all green)
+- verify_unit ch20: parity 26/26; numbers 0 unresolved; anchors 2 ok.
+- check_align: ch20 26/26, median ratio **5.31 en/han** — dense as expected for a
+  preface (the B01 prefaces + ch10 are the models; HANDOFF notes prefaces run ~5.2).
+  No pair strays > 2.2x from the median.
+- check_structure: ALL PASS (parity 26/26 + 210 anchors, 0 unresolved).
+- check_content: ch20 **8 name occurrences, 0 DISPLACED** ("all in the paired
+  paragraph"). Overall nonzero exit is ONLY the KNOWN pre-existing artifacts (ch07
+  Zhanggu ×1, ch08 Shunde ×3, ch13 Miss Nguyen/Oya Kusuo/Yuan Haowen ×9 — unchanged).
+- qc_entities: 0 misses (census top: 军统 ×4, 河内 ×2, 重庆 ×2, 陈第容 ×2, 调查统计局,
+  北平, 天津, 督察, 新一组, 黄志远, 蓝衣社, 制裁). Both new rows carry pinyin. (One
+  transient miss caught + fixed: 督察 rendered "supervisor" → corrected to the
+  glossary-decided "inspector".)
+- check_register --ref B01_frozen: within tolerance (contr 0.0/1k, shall 0%,
+  em-dash 9.2/1k, sent med 35, rhythm 0.61 vs ref 0.60). A preface with no dialogue
+  and no narrating "shall" — as expected; not de-formalized.
+- qa_epub PASS (57 files, 210 references/bodies/backlinks, all links resolve);
+  epubcheck 0 fatals / 0 errors / 0 warnings / 0 infos.
+- TAIL verified against source: P26/L29 (「上海区」建立已久…重振雄威，还敌冠以颜色！) —
+  faithful, complete. The two longest paragraphs (P16/L19 the task-list close;
+  P17/L20 the statistics + press-exposé) re-verified clause-by-clause (rule 4);
+  the number check confirms every real quantity survived.
+
+### Notes ledger (2 this batch; 210 cumulative)
+New notes (first-appearance-disciplined): 阎王殿上的勾魂簿 the King of Hell (Yama) and
+the "soul-summoning register" (勾魂簿) — the undestroyable accountant's vouchers as a
+death-register (culture/belief; unnoted before — the prior "underworld" notes are
+Sandianhui/Yan Xishan/Du Yuesheng, not Yama); 新申报 / 中华日报 the two occupation-era
+Shanghai papers that printed the enemy's full-page exposé (institution; the
+Zhonghua Ribao founded 1932 as Wang Jingwei's clique organ). **NOT re-noted**
+(covered earlier, per the ledger): 卷头长白 "Prefatory Candour" (rendered, front
+matter); 北国锄奸 / 河内汪案始末 / 百战声威 the part titles (settled); 军事委员会调查
+统计局 / 军统 the Juntong (B01/glossary); 上海区 "the Shanghai District" (inline);
+蓝衣社 the Blue Shirt Society (NOTED ch08 — reused, not re-noted); the Republican-
+calendar convention (front matter — years rendered literally). New personnel handled
+by GLOSSARY rows, not notes.
+
+### Glossary rows added (2 by hand; every row carries a `pinyin` field)
+- People (2): 陈第容 Chen Dirong (assistant secretary whose leak triggered the search
+  of 14 offices), 黄志远 Huang Zhiyuan (the old comrade who preserved the newspaper
+  sheets). Both `provisional` (romanization mine).
+- REUSED (already in glossary, with pinyin): 郑修元 Zheng Xiuyuan (District secretary),
+  蓝衣社 the Blue Shirt Society, 督察 "inspector", 新一组 New Group One, 制裁 "sanction".
+- **赵君** (the acting District Chief): rendered "a Mr. Zhao" in-text and **NOT
+  glossary-keyed** — 君 is likely honorific (surname only; full given name not given
+  here), and he recurs in ch21; keying a bare surname risks a cross-chapter conflict
+  (cf. the B12/B13 glossary-key discipline). Firm up in B15 when ch21 names him.
+
+### Digitization glitches (rendered to plain sense; LISTED, none footnoted — mechanical)
+Same single-character-substitution / homophone classes as ch15–ch18. ch20:
+- 随528；科技进步 → 随着科技进步 "with the advance of science and technology" (L19/P16;
+  528 + a stray ； are garbage where 着 belongs — the only ASCII glitch in the unit;
+  528 NOISED, plain sense carried).
+- 真刀买枪 → 真刀真枪 "real blades and real guns" (L20/P17, 买→真).
+- 反问 → 反间 "counter-espionage" (L17/P14, 问→间; L19/P16 prints 反间 correctly).
+- 曾经捉到过 → 曾经提到过 "was once mentioned" (L7/P4, 捉→提).
+- 助理处记 → 助理书记 "the assistant secretary" (L13/P10, 处→书; parallels 区本部书记 /
+  the later 助理书记 陈第容).
+- 敌为宪兵 → 敌伪宪兵 "the enemy-and-puppet gendarmes" (L28/P25, 为→伪; the pervasive
+  敌伪 compound — Japanese Kempeitai + puppet gendarmerie).
+- 全部五十余单位 另有 (L27/P24): a dropped full stop (a space where the sentence breaks);
+  rendered as a sentence boundary.
+- 还敌冠以颜色 (L29/P26): a slightly garbled idiom for 给以颜色/以颜色看 "give [them] a
+  taste / show [them] our colors"; rendered "give the enemy back some color to reckon with".
+None is genuine reading uncertainty, so none is footnoted (per policy).
+
+### data/noise.txt — B14 block appended (3 entries, each commented)
+百数十 (百数十个外勤单位 "over a hundred [field units]", an estimate; checker reads the
+百 as 100), 十余 (十余人 "a dozen-odd", ten-plus estimate; guarded so it never fires
+inside 二十余 etc.), 528 (the 随着 glitch above). All strip SOURCE approximate/glitch
+numerals only; every real value (200+, 100+, 50+, ~40, 22, 4, 3, 1, 14, "about a
+thousand", the 28th-year/30th-year dates, Nov 28) is carried in the English as
+digits/words and matched by the checker.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch20 spec (drop=3; no merges/glued/standalone) added.
+  Backward-compatible; source-conservation check passes (26 body paragraphs).
+- `data/noise.txt` — B14 block (see above).
+- `glossary.json` — 2 rows added by hand (sectioned; every row has `pinyin`).

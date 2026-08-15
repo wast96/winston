@@ -454,3 +454,18 @@
 # Idiom 有两手 "to have a couple of tricks / some real skill" (他的确是有两手); the 两
 # is idiomatic, not the count 2. English renders by sense ("something in hand").
 两手
+#
+# --- B14 (ch20) entries ---
+#
+# Approximate numeral 百数十(个外勤单位) "a hundred-odd (field units)": 百数十 = 一百
+# 几十, "over a hundred and some". The checker reads the 百 as 100; the figure is an
+# estimate, not an exact count. English carries "the hundred-odd field units".
+百数十
+# Elided/approximate 十余(人) "a dozen-odd (men)" (少则十余人): 十余 = "ten-plus", an
+# estimate, not the count 10. English renders "a dozen-odd". Guarded so it never fires
+# inside a larger compound (二十余 "twenty-odd" keeps its 二十).
+十余
+# Digitization glitch 随528；科技进步 for 随着科技进步 "with the advance of science and
+# technology": the 528 (and the stray ；) are garbage where 着 belongs. English renders
+# the plain sense; the 528 is not a quantity.
+528

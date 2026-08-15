@@ -333,6 +333,24 @@ UNITS = {
         # kept as its own paragraph, NOT merged.
         "merges": [], "glued": {}, "standalone": [],
     },
+    "ch20": {
+        "file": "21_index-split-000-0019.txt",
+        "title": "「上海抗日敌后行动」自序",
+        # drop=3 (cf. ch10, the Part Two preface): running header +
+        # <h1>「百战声威」 (the Part Three banner, rendered from book.json's
+        # `part` field) + <h3>「上海抗日敌后行动」自序 (the preface's own title,
+        # re-emitted from `title`/book.json title_en). Confirmed p-by-p against
+        # the source XHTML: 1 <h1> + 1 <h3> + 26 <p>, zero mismatches; no <h2>,
+        # no <br/>, no images, no set-off formatting. The 26 body <p> (L4-L29)
+        # map 1:1 to the 26 source <p> — NO extractor mid-phrase splits. The
+        # lone non-terminal line, L12 ("...大致有如下者–"), ends on a dash lead-in
+        # that is its OWN source <p> introducing the region-structure list that
+        # follows; it is DELIBERATE separate <p>, NOT a split, and is NOT merged
+        # (cf. the ；/：-ended lead-ins in ch16/ch17/ch18). NO sub-headings; no
+        # in-text "(...完)" coda. Grep for [\d+] note markers: none present.
+        "drop": 3,
+        "merges": [], "glued": {}, "standalone": [],
+    },
 }
 
 
