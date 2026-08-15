@@ -108,6 +108,11 @@ def main():
     ap.add_argument("--structure",
                     default=os.path.join(ROOT, "data", "structure.json"))
     ap.add_argument("--short-ratio", type=float, default=SHORT_RATIO)
+    ap.add_argument("--blank-assist", action="store_true",
+                    help="also break on tesseract's blank lines (gated by the "
+                         "sentence-end test) even when indent data exists; for "
+                         "figure-heavy books whose inline photos desync the "
+                         "indent flags from the OCR text and merge paragraphs")
     ap.add_argument("--offset", type=int, default=19,
                     help="PDF page minus printed page. 19 for the main text, "
                          "5 for the front matter, which carries its own "
@@ -121,6 +126,7 @@ def main():
 
     stream = load_pages(a.first, a.last)
     have_indents = any(f is not None for _, _, f in stream)
+    blank_assist = a.blank_assist
     lens = [len(l) for _, l, _ in stream if l.strip()]
     if not lens:
         raise SystemExit("no text in range")
@@ -176,7 +182,16 @@ def main():
     for idx, (page, line, indented) in enumerate(stream):
         s = line.strip()
         if not s:
+            # Blank line = tesseract's paragraph mark. It is the ONLY signal
+            # when there is no indent data; with --blank-assist it is also
+            # layered on top of the indent, gated by the sentence-end test, for
+            # books whose inline figures throw the indent flags out of register
+            # with the OCR text (the flag array and the text line count diverge
+            # on a figure page, merging every paragraph after it). The gate
+            # keeps a stray mid-paragraph blank from splitting a sentence.
             if not have_indents:
+                flush()
+            elif blank_assist and can_break():
                 flush()
             continue
         if s in head_titles:
