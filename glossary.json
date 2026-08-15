@@ -1597,6 +1597,76 @@
    "en": "Ross",
    "pinyin": "Luosi",
    "status": "attested"
+  },
+  "刘少白": {
+   "en": "Liu Shaobai",
+   "pinyin": "Liu Shaobai",
+   "status": "attested"
+  },
+  "梅宝玑": {
+   "en": "Mei Baoji",
+   "pinyin": "Mei Baoji",
+   "status": "attested"
+  },
+  "章士钊": {
+   "en": "Zhang Shizhao",
+   "pinyin": "Zhang Shizhao",
+   "status": "attested"
+  },
+  "黄金荣": {
+   "en": "Huang Jinrong",
+   "pinyin": "Huang Jinrong",
+   "status": "attested"
+  },
+  "张啸林": {
+   "en": "Zhang Xiaolin",
+   "pinyin": "Zhang Xiaolin",
+   "status": "attested"
+  },
+  "胡汉民": {
+   "en": "Hu Hanmin",
+   "pinyin": "Hu Hanmin",
+   "status": "attested"
+  },
+  "王闿运": {
+   "en": "Wang Kaiyun",
+   "pinyin": "Wang Kaiyun",
+   "status": "attested"
+  },
+  "周朴农": {
+   "en": "Zhou Punong",
+   "pinyin": "Zhou Punong",
+   "status": "attested"
+  },
+  "柳湜": {
+   "en": "Liu Shi",
+   "pinyin": "Liu Shi",
+   "status": "attested"
+  },
+  "余昌生": {
+   "en": "Yu Changsheng",
+   "pinyin": "Yu Changsheng",
+   "status": "attested"
+  },
+  "李沫英": {
+   "en": "Li Moying",
+   "pinyin": "Li Moying",
+   "status": "attested"
+  },
+  "郭亮": {
+   "en": "Guo Liang",
+   "pinyin": "Guo Liang",
+   "status": "attested"
+  },
+  "梅龚彬": {
+   "en": "Mei Gongbin",
+   "pinyin": "Mei Gongbin",
+   "status": "attested"
+  },
+  "梅中林": {
+   "en": "Mei Zhonglin",
+   "pinyin": "Mei Zhonglin",
+   "status": "attested"
   }
  },
  "organizations": {
@@ -1818,6 +1888,51 @@
    "en": "Songhu Garrison Command",
    "status": "decided",
    "pinyin": "SonghuGarrisonCommand"
+  },
+  "中国互济会": {
+   "en": "China Mutual Aid Society",
+   "status": "decided",
+   "pinyin": "Zhongguo Huji Hui"
+  },
+  "政学系": {
+   "en": "Political Study Clique",
+   "status": "decided",
+   "pinyin": "Zhengxuexi"
+  },
+  "改组派": {
+   "en": "Kuomintang Reorganizationists",
+   "status": "decided",
+   "pinyin": "Gaizu Pai"
+  },
+  "筹安会": {
+   "en": "Peace Planning Society",
+   "status": "decided",
+   "pinyin": "Chou'an Hui"
+  },
+  "反帝大同盟": {
+   "en": "Anti-Imperialist League",
+   "status": "decided",
+   "pinyin": "Fandi Da Tongmeng"
+  },
+  "顺直省委": {
+   "en": "Shun-Zhi provincial committee",
+   "status": "decided",
+   "pinyin": "Shunzhi Shengwei"
+  },
+  "中华共进会": {
+   "en": "China Mutual Advancement Society",
+   "status": "decided",
+   "pinyin": "Zhonghua Gongjin Hui"
+  },
+  "中国民权保障同盟": {
+   "en": "China League for the Protection of Civil Rights",
+   "status": "decided",
+   "pinyin": "Zhongguo Minquan Baozhang Tongmeng"
+  },
+  "中国自由大同盟": {
+   "en": "China Freedom League",
+   "status": "decided",
+   "pinyin": "Zhongguo Ziyou Da Tongmeng"
   }
  },
  "places": {
@@ -2114,6 +2229,16 @@
    "en": "Dasheng Hospital",
    "pinyin": "DashengYiyuan",
    "status": "attested"
+  },
+  "提篮桥监狱": {
+   "en": "Tilanqiao Prison",
+   "status": "attested",
+   "pinyin": "Tilanqiao Jianyu"
+  },
+  "龙华": {
+   "en": "Longhua",
+   "status": "attested",
+   "pinyin": "Longhua"
   }
  },
  "terms": {
@@ -2290,6 +2415,31 @@
    "pinyin": "Zhonghua Yinglie",
    "status": "attested",
    "note": "<i>Zhonghua Yinglie</i> (Chinese Martyrs), a mainland journal on revolutionary martyrs."
+  },
+  "辞海": {
+   "en": "Cihai",
+   "status": "attested",
+   "pinyin": "Cihai"
+  },
+  "红旗": {
+   "en": "Red Flag",
+   "status": "decided",
+   "pinyin": "Hongqi"
+  },
+  "大公报": {
+   "en": "Ta Kung Pao",
+   "status": "attested",
+   "pinyin": "Dagong Bao"
+  },
+  "泰东日报": {
+   "en": "Taidong Daily",
+   "status": "decided",
+   "pinyin": "Taidong Ribao"
+  },
+  "君宪救国论": {
+   "en": "Saving the Nation Through Constitutional Monarchy",
+   "status": "decided",
+   "pinyin": "Junxian Jiuguo Lun"
   }
  }
 }

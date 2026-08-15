@@ -803,3 +803,111 @@ China Press, 民国日报 Minguo Ribao, 中华英烈. REUSED unchanged: 彭湃, 
 - The two reproduced newspaper articles (时报, 字林西报) are internally
   self-contradictory in places; the source flags this with bracketed 按 notes,
   kept verbatim in the translation.
+
+## Batch 8 (B08): ch13 (营救任弼时、关向应 / Rescuing Ren Bishi and Guan Xiangying, PDF 263-275, printed 219-231) + ch14 (开拓新局面(上) / Opening a New Chapter (Part 1), PDF 276-295, printed 232-251) — DONE
+
+### Pipeline / recovery
+- Body offset constant 44 held; folios 219-251 verified by eye on every opener.
+- OCR: ocr_crop.py 263 295 --left 0.11 --right 0.90 --top 0.135 --bottom 0.95
+  --lang chi_sim --psm 6 --running-head "隐蔽战线统帅周恩来"; ocr_dual.py in bg.
+  Second-read dual OCR was not needed for the fixes (names crop-verified directly).
+- Recovery scripts (tracked): scripts/recovery/b08_strip_furniture.py + b08_surgery.py
+  + b08_pagemap.py, following the B07 model. Structure rows for ch13/ch13s01-03,
+  ch14/ch14s01-03 added to data/structure.json (titles pulled from book.json).
+- b08_strip_furniture: normalized 8 garbled headings to exact titles; RESTORE'd
+  stray footnote markers (① OCR'd as 包/中/? and two spurious leading 201C quotes),
+  ONE embedded-photo caption line dropped (p278 一品香旅社), truncated 7 author-
+  footnote blocks. Also RESTORE'd three OCR-dropped sentence-ends that would have
+  welded paragraphs: 吴露. (ASCII '.' for 。 at 李沫英 quote end, f231), the dropped
+  2-char line 物。 ending the Du Yuesheng bio (f240), and 挡风墙罢了。 (OCR 挡风雯,
+  墙罢了。 dropped, crop-verified f241). These three are the B08 form of the
+  "OCR drops a short trailing line and merges two paragraphs" disease.
+- b08_surgery: re-segmented ch13 into 2(preamble)+8+11+13 = 34 body + 4 headings,
+  ch14 into 7+17+20 = 44 body + 4 headings. The ch14 s02 poem (七律) and the 辞海
+  block quote are each ONE paragraph. DRY-RUN verified every marker occurs once;
+  post-apply verified each ZH para ends in sentence-final punct (the 4 exceptions
+  are attribution-intro colons) and starts with its expected phrase.
+
+### Checks (all GREEN)
+- verify_unit ch13/ch14: parity 34/44 OK, numbers 0 unresolved, anchors placed.
+- check_structure --pairs: parity OK both.
+- check_numbers (--noise): after fixing phantom numerals (大十→大雨, 六读→阅读,
+  4红旗→《红旗, 万以→乃以) and carrying real values (12点 -> "twelve"; 150 as
+  figures) and noising 4 name/place number-glyphs (王老九, 字新三, 百货大楼,
+  刘锡五) — 0 unresolved.
+- qc_entities: ch13 0 misses, ch14 0 misses (new glossary terms enforced).
+- check_align: OK both (median 4.56 / 4.51 en/han). check_content: all in-paragraph
+  (fixed 5 ch13 paras to carry "Chinese Communist Party" / "All-China Federation of
+  Trade Unions" verbatim). check_register vs ch01: within tolerance both
+  (em-dash 0.4 / 3.3 per 1k vs ref 6.0; no sentence over the 2-dash budget).
+- qa_epub PASS (28 docs, 206 notes, 231 pagebreaks); epubcheck 0/0/0.
+
+### OCR fixes (data/ocr_fixes.json): ch13 = 57 rows, ch14 = 67 rows
+Heavy name garble this batch. 任弼时 alone had 22 OCR variants (任缠时/任强时/任祝时
+/任咒时/任绚时/任顷时/任弱时/任大时/…); 关向应 5; 陈琮英 (Ren's wife, 琮 crop-verified
+f222) 5; 陈赓 many (陈刻/陈广/陈庆/陈庚/陈鹿 ch13; 陈记/陈委/陈煞/陈广/陈大/陈康/陈钴
+ch14 — 陈委/陈煞 crop-verified as 陈赓 on f235, NOT 陈云; 陈养 left alone = 陈养山);
+胡鄂公 12 variants; 刘少白 6; 杜月笙 5; 杨登瀛 4; 梅宝玑 3. Plus 瞿秋白, 向忠发,
+龚德元/龚饮冰 (奢->龚), 刘鼎 (刘易), 张国焘 (张国春), 王闿运 (王阁运), 孙毓筠,
+李燮和, 张勋, 汪大燮, 阎锡山, 纪晓岚, 蔡和森, 何基沣, 殷鉴, 吴景濂, 孔祥熙, and
+digit-glyphs ($=5, S=5, 《=4, 乃->万).
+
+### Notes: ch13 = 8, ch14 = 11 (19 new; book total now 206)
+Content notes with fact-check verdicts (all corroborated via Wikipedia/standard
+biographies, NEVER LLM sources): Ren Bishi bio (1904-1950, youngest of the Five
+Secretaries), Guan Xiangying bio (Manchu Gūwalgiya, He Long's commissar, d.1946),
+International Red Aid / MOPR, Yang Du (monarchist "Six Gentlemen" -> secret CCP
+1929, revealed 1975 via Cihai), Du Yuesheng (Green Gang, Wang Shouhua murder /
+April 12), Zhang Xun's 1917 restoration, Cihai, Qi Baishi, Yang Xianzhen (later
+"two combine into one" philosopher, denounced 1964). SOURCE-ERROR footnotes (kept
+as printed, flagged): "February 30, 1929" (impossible date); Yang Du "1920" in
+Japan (body contradicts the same chapter's Cihai entry, 1902 — correct); "Nanjing
+Uprising" rendered as printed (see below). AUTHOR'S NOTES reproduced (tagged
+"Author's note."): the two long explanatory footnotes on 政学系 (Political Study
+Clique) and the 改组派/西山会议派 (Western Hills Conference faction, 14 names), and
+6 source-citation footnotes (任弼时传; 周朴农 难忘的三十九天; 张纪恩; 李沫英; 尹骐
+潘汉年的情报生涯; 王冶秋 难忘的记忆).
+
+### Reading uncertainties / source facts for the read-through
+- ch13: "1929年2月30日" (Feb 30) is an impossible date, printed as-is, footnoted.
+- ch14: the body's "1920年去日本留学" for Yang Du is a source error — the Cihai
+  entry it quotes gives 1902, and Yang Du in fact went to Japan in 1902; kept as
+  printed, footnoted.
+- ch14: "南京起义" (Nanjing Uprising), where Mei Zhonglin was killed, is almost
+  certainly a misprint for the Nanchang Uprising (Aug 1927); rendered "Nanjing
+  Uprising" as printed. (Not footnoted separately — low-stakes; flagged here.)
+- ch14: the author's ② footnote nominally attached to 改组派 (Reorganizationists)
+  actually describes the 西山会议派 (Western Hills faction); reproduced faithfully
+  as the author wrote it.
+
+### NOT re-noted (already placed earlier; cross-referenced, not repeated)
+April 12 coup / White Terror (ch00), August 7 Conference / Mixed Court / Wang Ming
+/ Pavel Mif / Fourth Plenum of the Sixth CC (ch02), Communist University of the
+Toilers of the East (ch04), The Guide (ch01), New Youth, May Thirtieth (ch08/ch11),
+Comintern (ch01), Green Gang (ch00), concession police (ch01/02/09), Ke Lin (ch04),
+Gu Shunzhang (ch00+), the traitor Bai Xin (ch11/ch12).
+
+### Glossary: 31 rows added (nested into people/organizations/places/works)
+New people: 刘少白 Liu Shaobai, 梅宝玑 Mei Baoji, 章士钊 Zhang Shizhao, 黄金荣 Huang
+Jinrong, 张啸林 Zhang Xiaolin, 胡汉民 Hu Hanmin, 王闿运 Wang Kaiyun, 周朴农 Zhou
+Punong, 柳湜 Liu Shi, 余昌生 Yu Changsheng, 李沫英 Li Moying, 郭亮 Guo Liang,
+梅龚彬 Mei Gongbin, 梅中林 Mei Zhonglin. Orgs: 中国互济会 China Mutual Aid Society,
+政学系 Political Study Clique, 改组派 Kuomintang Reorganizationists, 筹安会 Peace
+Planning Society, 反帝大同盟 Anti-Imperialist League, 顺直省委 Shun-Zhi provincial
+committee, 中华共进会 China Mutual Advancement Society, 中国民权保障同盟 China League
+for the Protection of Civil Rights, 中国自由大同盟 China Freedom League. Places:
+提篮桥监狱 Tilanqiao Prison, 龙华 Longhua. Works: 辞海 Cihai, 红旗 Red Flag, 大公报
+Ta Kung Pao, 泰东日报 Taidong Daily, 君宪救国论 "Saving the Nation Through
+Constitutional Monarchy". REUSED unchanged: 任弼时, 关向应, 陈赓, 陈养山, 陈琮英,
+周恩来, 顾顺章, 杨登瀛, 刘鼎, 柯麟, 李维汉, 康生, 陈云, 杨度, 胡鄂公, 杨献珍,
+杜月笙, 张国焘, 王根英, 潘震亚, 何维道, 张纪恩, 冯玉祥, 孔祥熙, 蔡和森, 李大钊,
+袁世凯, 汪精卫, 恽代英, 杨虎, 米夫, 王明, 国际济难会, 上海大学, 淞沪警备司令部.
+
+### noise.txt additions (this batch)
+王老九 (nickname, 九), 字新三 (courtesy name, 三), 百货大楼 (department store, 百),
+刘锡五 (name, 五). Extend, do not prune.
+
+### Figures
+ch14: 1 figure (data/figs/ch14_yipinxiang.png, the 一品香旅社 hotel photo, p278
+folio 234), placed before the "In leading the work of the Central Special Section"
+paragraph. ch13: no figures (every page eyeballed; find_figures found none).
