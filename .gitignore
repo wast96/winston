@@ -26,6 +26,10 @@ SETUP_REPORT.txt
 # data/structure.json, data/ocr_fixes.json — derived geometry and the
 # crop-verification ledger. A fresh checkout without ocr_fixes.json silently
 # reinstates every OCR mangle already paid to fix.
+# Also TRACKED: STYLE.local.md (the voice-gate ledger, this book's accumulated
+# style evolution; losing it loses that work) and STYLE.md (the composed
+# contract, deterministic from the styles/ layers, kept for auditable diffs).
+# The styles/ layers themselves are shelf-wide source, always tracked.
 
 # Deliverable artifacts that rebuild from the sources. EXCEPTION: on
 # completion, the FINAL deliverable EPUB is committed with
