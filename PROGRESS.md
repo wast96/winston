@@ -2210,3 +2210,163 @@ years of the War of Resistance" (八 CARRIED).
 - `notes.json` — 1 note appended via apparatus_merge.py (numeric character references).
 - `scripts/make_ch23_apparatus.py` — the one ch23 note (hanzi built from code points to
   defeat the CJK-mangling hazard; verified 为虎作伥 / 伥 before converting to NCRs).
+
+## Batch B18 — ch24 (Part Three, Chapter 4: "Renown Won in a Hundred Battles")
+
+**Unit:** ch24 = 第四章 三面受敌 一往无前 "Chapter 4. Beset on Three Sides, Ever Forward." A
+FULL chapter (~17,105 source chars; 161 body paragraphs), the fuller chapter that DELIVERS
+on ch23's preview. It (a) sets out the "new plan" for the Shanghai District (single, secret
+accounts and wireless; the great transfer of exposed personnel) carried to Chongqing by Qi
+Qingbin for the April-First Congress; (b) anatomizes the "three-sided enemy" section by
+section — the International Settlement police (its Special Branch / political section under
+劳勃生), the French Concession police, the Shanghai Japanese Gendarmerie (its structure, its
+poison unit, and a catalogue of tortures, staged over three periods), and No.76 (its layout,
+personnel, the "black gaol," its four tortures, its three great crimes); and (c) tells the
+Yu Yefeng (俞叶封) sanction at the 更新舞台 (Gengxin Stage, Jan 1940) in full, through
+PARALLEL accounts — Wan Molin's memoir 「沪上往事」 juxtaposed line-by-line with the Shanghai
+「申报」 (Shenbao) and a third eyewitness column — a meditation on the unreliability of news
+and history. Closes with Dai Li's system-wide Juntong self-review (the 510,000-yuan monthly
+budget; the 11,000-man complement) and the arms-donation episode.
+
+### Structure (confirmed p-by-p against the source XHTML)
+- `index_split_000_0023.xhtml` parses to **1 `<h2>` + 166 `<p>`**, NO `<h1>`, NO `<br/>`,
+  NO `<img>`, NO `[\d+]` note markers. Proven 1:1 against the txt body (166 body lines, ZERO
+  mismatches). The txt's 167 `wc -l` vs 168 `awk NR` is a no-trailing-newline artifact.
+- drop=2 (running header 英雄无名-陈恭澍 + `<h2>` chapter title).
+- **THREE merges** where a source `<p>` boundary severs one sentence: L26/L27 (克莱登's
+  parenthetical, …有关抗日 | 活动)); L106/L107 (逮 | 捕「抗日份子」— 逮捕 split); L11/L12 (a
+  **STRAY orphan enumerator "(一)"** between the (三)-continuation and (四) of the 「新案」 list
+  — a digitization glitch, merged forward into (四) so no orphan "(1)" paragraph appears; the
+  stray 一 is conserved in data/zh and rendered to plain sense).
+- **SIX sub-headings** (5 section headings + 1 opening couplet): L3 standalone couplet
+  壁垒坚强迎接多方面的挑战 → "Fortress Firm, Meeting Challenge from Every Side" (REUSES ch14,
+  which shares this chapter title AND couplet; NO 「」 as ch24's source has none); L33
+  **head-glued** (一)公共租界巡捕房 → "(1) The International Settlement Police"; L38 standalone
+  (二)法租界巡捕房 → "(2) The French Concession Police"; L46 **tail-glued** 「日本宪兵队」惨无人道;
+  L95 **tail-glued** 罪恶昭彰的「七十六号」 (its tail ends in a full-width 」 — easy to miss in a
+  non-terminal scan); L122 **tail-glued** 以雷霆万钧之势打击魔鬼.
+- The top-of-chapter (一)-(四) 「新案」 list items (L7-L12) are ORDINARY list paragraphs
+  (rendered per parity, NOT headings), distinct from the (一)/(二) SECTION headings.
+- Roster / juxtaposition / lead-in lines kept as DELIBERATE separate `<p>` (NOT merged): the
+  gendarmerie district-command dash-roster (L57); the sanction-case roster (L125/L126); the
+  申报 news-article `<p>` (L141-L148, each opening 「); the 沪上往事 / 申报 juxtaposition lines
+  (L154-L159). L34 名称如下： is a soft list lead-in (kept separate).
+- clean_batch.py: `ch24: 161 body paragraphs, 6 sub-headings, source conserved OK`.
+
+### Checks (all green for ch24; pre-existing artifacts unchanged)
+- `verify_unit.py ch24`: parity **161/161**, numbers **0 unresolved** (auto noise), **6
+  anchors ok**.
+- `check_align.py ch24`: 161/161, **median ratio 5.33 en/han**, no pair strays > 2.2x. Above
+  the document-heavy band (4.7-4.9) because of the MANY very short quoted/table/juxtaposition
+  lines (the one-word torture verbs 「打」「摔」…, the 沪上往事/申报 alternation, the police
+  establishment tables) that expand proportionally in English — register (below) is the real
+  gate and passes.
+- `check_structure.py`: ALL STRUCTURAL CHECKS PASS; anchors **232 notes, 0 unresolved**.
+- `check_content.py`: **ch24 118 name occurrences, all in the paired paragraph (0 displaced).**
+  Seven initial displacements were all keyed-name/place renderings I aligned to the glossary:
+  北平 Beiping (not Peiping), 天津 Tianjin (not Tientsin), 汉口 Hankou (not Hankow), 四川
+  Sichuan (not Szechuen — "North Sichuan Road"), 虹口 Hongkou (not Hongkew — incl. the SMP
+  station roster), and 新一组 "New Group One." Known pre-existing artifacts UNCHANGED (NOT
+  regressions): ch08 Shunde ×3; ch13 Miss Nguyen/Oya Kusuo/Yuan Haowen ×9; ch09 "Jize County"
+  ×1 (para 220, a whole-book reconciliation item).
+- `qc_entities.py` (reconstructed bilingual, 161 pairs, headings stripped): **entity misses:
+  0.** Census: 俞叶封 ×25, 特工总部 ×17, 更新舞台 ×12, 李士群 ×11, 陈默 ×10, 新艳秋 ×9.
+- `check_register.py --ref`: **within tolerance.** contractions 0.0, shall 25% (deliberate,
+  in the B06-B16 band 29-43%), em-dash 4.4/1k (ref 8.3), rhythm CV 0.60 (= ref 0.60).
+- Tail verified against the source (rule 4 corollary, critical on a 17k single-pass unit):
+  the last four paragraphs (Dai's 8-point Juntong self-review; his two self-criticism quotes;
+  the 510,000-yuan budget + 11,000-man complement; the arms donation; the closing on the
+  "friend" of unclear background) rendered in full, no fabrication, no drift. Pair 161's
+  elliptical 前者 rendered to preserve the source's two-referent ambiguity (not conflated).
+- Build: `24 of 43 chapters, 232 notes`. `qa_epub.py` PASS (232 refs/bodies/backlinks).
+  **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.**
+
+### Settled renderings REUSED (Part-Three consistent)
+"the Shanghai District"; "the Juntong"; 制裁 "sanction"; 督察 "inspector"; 敌伪 "the enemy
+and the puppets"; 汪伪 "Wang puppets"; 忠义救国军 "the Loyal and Patriotic Army"; 特工总部 /
+七十六号 "Special Operations Headquarters" / "No. 76"; 丁默邨 Ding Mocun / 李士群 Li Shiqun
+(NOTED ch04/ch17 — NOT re-noted); 新亚和平促进会 "New Asia Peace Promotion Association"; 俞叶封
+Yu Yefeng; 陈默 Chen Mo; 万墨林 Wan Molin / 沪上往事 (Wan's memoir, NOTED ch22); 万里浪 Wan
+Lilang; 更新舞台 "Gengxin Stage" (reused from ch22, now KEYED); 公共租界 "International
+Settlement" / 法租界 "French Concession"; 工部局 "Municipal Council"; 日本宪兵队 "the Japanese
+gendarmerie" / 上海日本宪兵队 "the Shanghai Japanese Gendarmerie"; the Republican-year
+convention (literal; checker matches the source numeral).
+
+### New glossary rows (9; BY HAND into the sectioned glossary; every row a pinyin field)
+people (8): 劳勃生 Lao Bosheng (provisional — SMP political-section chief, a transliteration
+of an uncertain Western name); 袁殊 Yuan Shu (aka Xueyi/Xiaoyi); 新艳秋 Xin Yanqiu (dan
+actress); 吴世宝 Wu Shibao (No.76 guard commander, alias Yunfu); 胡均鹤 Hu Junhe (No.76 2nd
+Section); 傅也文 Fu Yewen (provisional — No.76 secretary-general); 刘俊卿 Liu Junqing
+(provisional — SMP officer); 蒋福田 Jiang Futian (provisional — French Concession police).
+places (1): 更新舞台 Gengxin Stage. NOT keyed (rendered inline / by note, not distinctive
+one-way proper-noun keys): 申报/新申报/中华日报/民族晚报 (periodicals — notes/inline); 克莱登/
+葛乐华/普莱德 (one-off transliterated SMP officers, pinyin inline); the Japanese gendarmerie
+officers (romaji inline, cf. ch22); 云九/王振鹄/随波/叶吉卿/王宪和/张国震 (one-off, inline).
+
+### Notes added (6; first-appearance-disciplined; cumulative 232)
+1. **the SMP Special Branch / 政治科 + 劳勃生 (Lao Bosheng)** — the political section is the
+   Special Branch, the political-intelligence arm of the British-run Settlement police (the
+   chapter's chief target); the name is an uncertain transliteration of a Western surname
+   (Robertson/Robinson?), identity not fixable; 克莱登 is the same kind.
+2. **更新舞台 / 新艳秋 / Peking opera** — Xin Yanqiu, a dan (female-role) actress of the Cheng
+   Yanqiu school; the three operas named in the rival accounts (Yutangchun / Xiaoshang River-
+   Yang Zaixing / Tiaohuache-Gao Chong) are Peking-opera staples; Chen sets them side by side
+   to show how one night yields three different "eyewitness" plays.
+3. **申报 (Shenbao)** — China's paper of record, founded Shanghai 1872; distinguished from the
+   occupation-era 新申报 (noted ch20). Chen's quoted issue is a straight next-morning report.
+4. **多摩部队 / 玉部队 (Tama Force / Gyoku Unit)** — by Chen's informant's account, part of the
+   Japanese army's secret poison / chemical-and-biological research (same field as Unit 731).
+5. **三不主义 (Wu Peifu's "Three Nots")** — Wu Peifu (1874-1939), warlord; his personal code
+   (variously reported: no refuge in the concessions, no foreign loans, no hoarded wealth);
+   refused all Japanese overtures, died at Beiping 1939.
+6. **袁殊 (Yuan Shu)** — the "five-faced spy" (1911-1987): drew pay from Juntong, Zhongtong,
+   the Japanese, and the Wang regime while a CCP agent throughout; Chen's suspicion was right.
+**NOT re-noted (already covered):** No.76 / 特工总部 / Ding Mocun / Li Shiqun (ch04/ch17); the
+International Settlement / French Concession (ch04); the Japanese gendarmerie (ch11/ch23);
+制裁 "sanction"; the Blue Shirt Society / Lixingshe (ch05/ch08); the Green-Gang "three
+tycoons" incl. 张啸林's 1940 assassination (ch04); 沪上往事 / Wan Molin (ch22); 中华日报 (ch20);
+忠义救国军 (ch21); the Republican calendar. Vivid tortures (老虎櫈 tiger bench, 灌凉水, 皮鞭子)
+described transparently in-text — no note needed.
+
+### Digitization glitches (rendered to plain sense; LISTED, none footnoted — mechanical)
+- **Stray orphan "(一)"** (L11) between the (三)-continuation and (四) of the 「新案」 list —
+  merged forward into (四), absorbed (see Structure).
+- **制裁俞叶原 → 俞叶封** (L138; 原-for-封): rendered "the sanction of Yu Yefeng."
+- **仁济医仁 → 仁济医院** (L142; 仁-for-院): rendered "the Renji Hospital."
+- **南就日本宪兵司令部 → 南京** (L50; 就-for-京): rendered "Nanking."
+- **计锋相对 → 针锋相对** (L53; 计-for-针): rendered "stood point-blank opposed."
+- **信千拈来 → 信手拈来** (L162; 千-for-手, a column name): rendered "Idle Gleanings."
+- **毕高奎同同志** (L16; dittography 同同): rendered once.
+- **汇司虹口** (L34 station roster): a garbled/duplicated SMP-station token (虹口 duplicated,
+  汇司 unclear); rendered to sense within the roster.
+- **Source internal date inconsistency:** L91 (commander table) gives Miura Saburo's term as
+  "自二十年至二十九年" (二十 for 二十七), where L95 gives "自二十七年至二十九年" — both rendered
+  faithfully (the 三面受敌 gendarmerie founded 民国二十七年元月, so 二十 is the slip). NOT a
+  translation error; kept visible, both numerals matched.
+None is genuine reading uncertainty, so none is footnoted (per policy).
+
+### data/noise.txt — B18 block appended (each entry commented)
+Idioms/approximates: 四季, 九死一生, 十万八千, 三两万, 三教九流, 漏洞百出. Japanese
+name-numerals: 三浦三郎 / 三浦 (Miura), 四方谅二 (Shikata), 五岛 (Goto). Bare-surname 万: 万先生
+"Mr. Wan," 万的连襟 "Wan's brother-in-law." Buddhist/column names: 大千世界, 信千拈来. The ○
+(U+25CB circle-zero) ADDRESS artifact 五○○ (Lane 500) — the numeric checker cannot read ○ as
+zero and mis-parses it as a bare 5; the English carries the real value (Lane 500), so only
+the mis-read glyph-string is noised (cf. 四○七 rooms, which self-resolve via the neighboring
+ordinal dates fourth/seventh). Name-numerals: 邵范九, 云九. ALL REAL quantities CARRIED and
+matched — the two police-establishment tables (513/599/256/3645 Settlement force; 1794/212
+French; 4666 constables, 509 sergeants…) rendered as digits or as word-forms so the checker's
+、/○-split values match; the twenty-ninth-year budget 五十一万余 → "510,000-odd," the complement
+一万一千余 → "11,000-odd," the 一百二十余 transfer, the 一百五十 sq-metre gaol, all carried.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch24 spec added (drop=2; 3 merges incl. the orphan-(一) absorb;
+  3 tail-glued + 1 standalone section headings + 1 standalone couplet); **NEW `glued_head`
+  spec field** (a heading fused onto a paragraph HEAD, e.g. L33 (一)公共租界巡捕房) with a
+  startswith-assert, mirroring the existing tail-glued `glued`. Source-conservation passes;
+  the .get("glued_head", {}) default leaves all earlier units untouched.
+- `scripts/add_ch24_glossary.py` — adds the 9 new rows BY HAND into the SECTIONED glossary
+  (idempotent; each hanzi key asserted present in data/zh/ch24.txt to catch mangling).
+- `scripts/make_ch24_apparatus.py` — the 6 ch24 notes (every non-ASCII glyph asserted present
+  in data/zh/ch24.txt before converting to NCRs; defeats the CJK-mangling hazard).
+- `data/noise.txt` — B18 block (see above).
+- `notes.json` — 6 notes appended via apparatus_merge.py (numeric character references).

@@ -561,3 +561,58 @@
 # the correct form and the glitch so the checker does not read the 百 as 100.
 百姓
 百性
+# ===== B18 (ch24) project noise =====
+# Idiom 四季 "the four seasons" (四季不明 "unable to tell one season from the
+# next"); the 四 is not a count. English renders "one season from another".
+四季
+# Idiom 九死一生 "a hair's breadth from death" (注定九死一生); the 九/一 are not
+# counts. English renders "foredoomed to a hair's breadth of death".
+九死一生
+# Idiom 十万八千里 "a hundred and eight thousand li" = a vast distance; 十万八千 is
+# not a real quantity. English keeps the flavour "a hundred and eight thousand li".
+十万八千
+# Approximate idiom 三两万字 "some twenty or thirty thousand words"; not a fixed
+# quantity. English renders "twenty or thirty thousand words".
+三两万
+# Idiom 三教九流 "every stripe and calling"; the 三/九 are not counts. English
+# renders "the nine streams and the ten trades" for effect.
+三教九流
+# Idiom 漏洞百出 "full of holes"; the 百 is not the count 100. English renders
+# "full of holes".
+漏洞百出
+# Japanese name Miura Saburo 三浦三郎 (first Shanghai gendarmerie commander); the
+# 三/三 are name glyphs. English carries "Miura Saburo".
+三浦三郎
+# Japanese name Shikata Ryoji 四方谅二 (fourth gendarmerie commander); the 四/二 are
+# name glyphs. English carries "Shikata Ryoji".
+四方谅二
+# Japanese name Goto (Shigeru) 五岛茂 (gendarmerie special-higher officer); the 五
+# is a name glyph ("five islands"). English carries "Goto Shigeru".
+五岛
+# Name-context 万先生 "Mr. Wan" (= Wan Molin; cf. the 万先失 glitch form and 万墨林
+# above); the 万 is the surname glyph, not 10000. English carries "Mr. Wan".
+万先生
+# Name-context 万的连襟 "Wan's brother-in-law" (= Wan Lilang; cf. 万里浪 above); the
+# 万 is the surname glyph, not 10000. English carries "Wan's brother-in-law".
+万的连襟
+# Buddhist idiom 大千世界 "the great wide world" (a newspaper page name); the 千 is
+# not 1000. English renders "the Great Wide World".
+大千世界
+# Column name 信千拈来 (a 手-for-千 glitch of 信手拈来 "gleaned at random"; listed in
+# PROGRESS); the 千 is not 1000. English renders "Idle Gleanings".
+信千拈来
+# Bare Japanese surname 三浦 "Miura" (三浦宪兵队长 = the gendarme commander Miura;
+# cf. 三浦三郎 above); the 三 is a name glyph. English carries "Miura".
+三浦
+# Personal name 邵范九 (Shao Fanjiu, a sanction case); the 九 is a name glyph, not
+# the count 9. English carries "Shao Fanjiu".
+邵范九
+# Personal name 云九 / 俞云九 "Yunjiu" (Yu Yefeng's son); the 九 is a name glyph.
+# English carries "Yunjiu".
+云九
+# Address artifact 五○○弄 "Lane 500": the source prints the zeros as ○ (U+25CB, a
+# circle), which the numeric checker cannot read as zero and so mis-parses 五○○
+# as a bare 5. English carries the real value ("Lane 500"); this noises only the
+# mis-read glyph-string, not the quantity (cf. the 四○七 rooms, which self-resolve
+# via the neighboring ordinal dates). Listed in PROGRESS.
+五○○

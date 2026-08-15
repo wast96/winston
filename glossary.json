@@ -2207,6 +2207,48 @@
       "pinyin": "Fàn Jìmàn",
       "status": "provisional",
       "note": "Another name of Fan Xing (范行), the mysterious intelligence source. Romanization mine."
+    },
+    "劳勃生": {
+      "en": "Lao Bosheng",
+      "pinyin": "Láo Bóshēng",
+      "status": "provisional",
+      "note": "The source gives only the Chinese transliteration 劳勃生 of a Western (probably British) surname—likely something like Robertson or Robinson—of the Shanghai Municipal Police political section; the original form is not certain, so the romanization is of the Chinese as given."
+    },
+    "袁殊": {
+      "en": "Yuan Shu",
+      "pinyin": "Yuán Shū",
+      "status": "attested",
+      "note": "Also called Xueyi (学易) and Xiaoyi (筱易); a journalist-agent of tangled loyalties, later revealed as a Communist."
+    },
+    "新艳秋": {
+      "en": "Xin Yanqiu",
+      "pinyin": "Xīn Yànqiū",
+      "status": "attested",
+      "note": "A celebrated Peking-opera actress of the female (dan) roles, performing at the Gengxin Stage on the night of Yu Yefeng's sanction."
+    },
+    "吴世宝": {
+      "en": "Wu Shibao",
+      "pinyin": "Wú Shìbǎo",
+      "status": "attested",
+      "note": "Alias Yunfu (云甫); an underworld figure and first commander of No. 76's guard corps, later poisoned."
+    },
+    "胡均鹤": {
+      "en": "Hu Junhe",
+      "pinyin": "Hú Jūnhè",
+      "status": "attested",
+      "note": "Chief of the Second Section of No. 76, later found to be a Communist as well."
+    },
+    "傅也文": {
+      "en": "Fu Yewen",
+      "pinyin": "Fù Yěwén",
+      "status": "provisional",
+      "note": "Secretary-general of No. 76, installed at the recommendation of Li Shiqun's wife; later found to be a Communist. Romanization mine."
+    },
+    "蒋福田": {
+      "en": "Jiang Futian",
+      "pinyin": "Jiǎng Fútián",
+      "status": "provisional",
+      "note": "A working connection of the Shanghai District within the French Concession police. Romanization mine."
     }
   },
   "organizations": {
@@ -3120,6 +3162,12 @@
       "pinyin": "Yǔhuātái",
       "status": "attested",
       "note": "The Terrace of Raining Flowers, a hill south of Nanjing long used as an execution ground."
+    },
+    "更新舞台": {
+      "en": "Gengxin Stage",
+      "pinyin": "Gēngxīn Wǔtái",
+      "status": "attested",
+      "note": "A Peking-opera theater on Newchwang Road in the International Settlement; the site of the Yu Yefeng sanction of January 1940."
     }
   },
   "terms": {

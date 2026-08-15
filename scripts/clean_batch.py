@@ -438,6 +438,56 @@ UNITS = {
         "merges": [], "glued": {},
         "standalone": [3],     # 初生之犊组成了一枝生力军
     },
+    "ch24": {
+        "file": "25_index-split-000-0023.txt",
+        "title": "第四章 三面受敌 一往无前",
+        # A FULL chapter. Source XHTML parses to 1 <h2> + 166 <p>, proven p-by-p
+        # against the txt body (166 body lines, zero mismatches; no <h1>, no
+        # <br/>, no images, no [\d+] note markers; the txt's 167 wc -l vs 168
+        # awk-NR is a no-trailing-newline artifact). ch24 shares its chapter
+        # title AND opening couplet with ch14 (三面受敌 一往无前); keep them
+        # consistent. drop=2 (running header + <h2> title).
+        "drop": 2,
+        # THREE merges where a source <p> boundary severs one sentence:
+        #   L26/L27  …有关抗日 | 活动)          (克莱登's parenthetical, 抗日活动 split)
+        #   L106/L107 …随时会出去逮 | 捕「抗日份子」。 (逮捕 split)
+        #   L11/L12  (一) | (四)请派员…          a STRAY orphan enumerator "(一)"
+        #            (a digitization glitch: a dangling sub-enumerator between the
+        #            (三)-continuation L10 and (四) L12 of the 「新案」 list) merged
+        #            forward into (四) so no orphan "(1)" paragraph appears; the
+        #            stray 一 is conserved in data/zh and noised in the reading.
+        # NOT merged (DELIBERATE separate <p>, roster / list / lead-in, cf.
+        # ch21/ch22): the 「新案」 list items L7-L12 (一)-(四); the ：/﹔-ended
+        # lead-ins (L34 名称如下：, L153 …参差之处，如﹔); the dash-lead-in roster
+        # of gendarmerie district-commands (L57, ends 无线电通报); the sanction-
+        # case roster L125 (三cases run together, ends on the name 何行健) and its
+        # continuation L126; the 申报 news-article <p> (L141-L148, each opening 「);
+        # the 沪上往事 / 申报 juxtaposition lines L154-L159. L33 ends on a complete
+        # parenthetical (等于分局) and L34 名称如下： is a soft list lead-in — kept
+        # separate, NOT merged.
+        "merges": [(11, 12), (26, 27), (106, 107)],
+        # THREE tail-glued section headings (fused onto a paragraph tail; cf.
+        # ch16/ch22). The chapter anatomizes the "three-sided enemy" in five
+        # sections, each a heading: (一)公共租界巡捕房 (head-glued L33), (二)法租界
+        # 巡捕房 (standalone L38), then these:
+        #   L46  …当另以专页记之。+ 「日本宪兵队」惨无人道   (the gendarmerie section)
+        #   L95  …日本宪兵的控制之下。+ 罪恶昭彰的「七十六号」 (the No.76 section; note
+        #        its tail ends in a full-width 」 — easy to miss in a non-terminal
+        #        scan — but reads as the section heading, parallel to L46)
+        #   L122 …道德传统。+ 以雷霆万钧之势打击魔鬼         (the sanctions section)
+        "glued": {
+            46: "「日本宪兵队」惨无人道",
+            95: "罪恶昭彰的「七十六号」",
+            122: "以雷霆万钧之势打击魔鬼",
+        },
+        # ONE head-glued numbered section heading (fused onto the paragraph HEAD;
+        # its sibling (二)法租界巡捕房 L38 is standalone):
+        #   L33  (一)公共租界巡捕房 + 公共租界中央巡捕房，设于…
+        "glued_head": {33: "(一)公共租界巡捕房"},
+        # standalone sub-headings: L3 opening couplet (REUSE ch14's rendering),
+        # L38 the (二)法租界巡捕房 section heading.
+        "standalone": [3, 38],
+    },
 }
 
 
@@ -450,6 +500,7 @@ def build(cid, spec):
     merge_from = {a: b for a, b in spec["merges"]}
     merge_into = {b for _, b in spec["merges"]}
     glued = spec["glued"]
+    glued_head = spec.get("glued_head", {})   # heading FUSED onto a paragraph HEAD
     standalone = set(spec["standalone"])
 
     out = ["### " + spec["title"]]
@@ -483,8 +534,18 @@ def build(cid, spec):
                 cur = partner
         else:
             verify_src.append(text)
+        # split a glued LEADING heading (heading fused onto the paragraph head)
+        if ln in glued_head:
+            head = glued_head[ln]
+            assert text.startswith(head), \
+                "%s L%d does not start with glued_head %r" % (cid, ln, head)
+            rest = text[len(head):]
+            out.append("### " + head)
+            out.append(rest)
+            verify_out.append(head)
+            verify_out.append(rest)
         # split a glued trailing heading
-        if ln in glued:
+        elif ln in glued:
             head = glued[ln]
             assert text.endswith(head), \
                 "%s L%d does not end with glued heading %r" % (cid, ln, head)
