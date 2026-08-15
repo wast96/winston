@@ -465,3 +465,131 @@ curated subset) still for the commissioner.
   origin/claude/chinas-secret-war; deleted local, remote already pruned).
 - setup.sh regression "hook stands down on template stub" still FAILS benignly
   (HANDOFF holds a real kickoff, not the template stub).
+
+## Batch B04 — Chapter 3, the whole chapter + chapter-end Principal Sources (ch03s01-ch03s07)
+
+Chapter 3 ("从'地下'到'地上'" / "From 'Underground' to 'Aboveground'") is
+translated, built, and QA-clean. **Chapter 3 is COMPLETE.** ch01 remains the
+FROZEN voice reference.
+
+### Pipeline run (reused B01-B03, nothing re-measured)
+- render 134-170 --dpi 300; ocr_crop 134-170 with the measured per-parity crop
+  (recto/odd [0.07, 0.86], verso/even [0.17, 0.94], top 0.045, bottom 0.93,
+  chi_sim, psm 6, running head "中国秘密战——中共情报保卫工作纪实"); ocr_dual
+  134-170; indents 134-170. OMP_THREAD_LIMIT=1 throughout; pgrep -c tesseract
+  read 0 after every OCR run.
+- structure.json: +10 rows (ch03 chapter title, subtitle, section 1-7 headings,
+  matched to the OCR strings).
+- assemble ch03 134-170 --offset 36 --blank-assist → 268 body paras (figure
+  pages under-segment). resegment_ch03.py (new; the B04 analogue of
+  resegment_ch02b03.py) brings it to 305 by 2 page/figure merges + ~30 splits
+  and rewrites the "主要资料:" line as a "### Principal Sources" heading.
+- Folios spot-verified off the scan at every section opener: s1 p134/98, s2
+  p141/105, s3 p144/108, s4 p150/114, s5 p154/118, s6 p158/122, s7 p164/128;
+  Principal Sources p168-170/132-134; chapter ends p170/134 (ch04 opens p171/135).
+
+### The checks
+- **verify_unit ch03**: parity 305 zh / 305 en (1:1, no declared exceptions).
+  27 note anchors all resolve.
+- **check_align ch03**: 305/305, median 4.77 en/han, no pair strays > 2.2x.
+- **qc_entities** on out/ch03_bilingual.md: 0 misses.
+- **check_content**: N/A to this book's book.json schema (confirmed again).
+- **Number check** (via verify_unit, --noise data/noise.txt): 55 residual flags,
+  ALL verified as noise — OCR garble on figure-heavy lines (乃→万, 拿→千, 五十号→
+  五于, 一万四千→10004, embedded photo-caption years), name numerals (师印三,
+  野坂参三, 李锡九), idiom/decade labels now in noise.txt. Four REAL number issues
+  found and FIXED against the scan:
+    * 国民党二十二军 (opium pack train, p116/152) — the "22nd Army" designation had
+      been dropped; restored.
+    * 二十几个小铺子 (p115/151) — was "a dozen-odd", corrected to "twenty-odd".
+    * 上百副担子 (p115/151) — was "hundreds of", corrected to "over a hundred".
+    * 战干四团 (p125/161) — was "the Fourteenth", corrected to "the Fourth War
+      Cadre Regiment" (crop-verified 四, not 十四).
+- **Tail verification** (rule 4): section 7's close and all 30 Principal-Sources
+  entries read against the scan (interview dates, book titles, publishers) — clean.
+- **check_register --ref out/ch01_reading.md**: within tolerance (contr 2.9/1k =
+  1.43x ref; em-dash 0.1/1k; rhythm CV 0.49 = ref; sent median 22). Dialogue
+  metric flagged noisy (low-dialogue unit, as expected for a mostly-narratorial
+  chapter — judged on the narratorial signals per STYLE).
+- **data/noise.txt**: +13 entries (一百八十度, 二十世纪, 四通八达, decade labels
+  三十/四十/五十/六十/七十/八十年代, 七贤庄, 八路军, 八办, 李锡九), each commented.
+
+### Apparatus (via apparatus_merge.py; check_apparatus 0/0)
+- **+21 glossary rows** (70 total): 熊向晖, 沈安娜, 白崇禧, 傅作义, 阎锡山, 卢绪章,
+  陈嘉庚 (Tan Kah Kee), 王世英, 吴德峰, 宣侠父, 蒋鼎文, 卫立煌, 邓宝珊, 赵寿山,
+  高崇民, 广大华行, 华润公司, 八办, 皖南事变, 韩练成, 阎又文.
+- **+27 footnotes** (book total 84). Coverage: the 八办 arrangement and why the
+  offices could exist openly; the Zhongshan suit; Pingxingguan; the Mengjiang
+  puppet government; the "Latter Three Heroes" (cross-ref Longtan); the weiqi
+  "idle chessman" metaphor; the tiger's-lair proverb; Shen Anna; China Resources;
+  Bao Yugang (Y.K. Pao); Tan Kah Kee; Zengjiayan No. 50 / Hongyan; the Changsha
+  fire; the New Fourth Army Incident; the Yellow River Cantata; Bethune; Ho Chi
+  Minh; Nosaka Sanzo; Edgar Snow / Red Star Over China; the Barrett/"Ou Daiyi"
+  observer groups; Yan Baohang's Barbarossa claim (UNCORROBORATED, stated in note);
+  the 89-POW rescue; the Xuan Xiafu assassination (author-as-interested-witness:
+  Chiang's order CORROBORATED by Zhang Yanfo's memoir, the "turn Hu Zongnan"
+  motive flagged as the Communist interpretation); Lihuang County; the Executive
+  Headquarters; the three-thirds system.
+
+### "NOT re-noted" (already placed earlier; cross-referenced, not repeated)
+- "the far country" (远方 = USSR/Comintern) — glossed B01/B02; a one-line
+  cross-reference note repeats the gloss where 远方 first appears in ch03.
+- "reform and opening" (改革开放, the author's recurring anachronistic motif) —
+  noted in ch02; ch03 uses it 4x, rendered consistently, NOT re-noted.
+- "Three Heroes of Longtan" (龙潭三杰) — noted ch01; the ch03 "Latter Three Heroes"
+  note cross-references it.
+- Whampoa Academy, the Comintern, the Rectification Movement — all noted ch01/ch02.
+- Xu Enzeng, Hu Zongnan, Zhou Enlai, Li Kenong, Dong Biwu, Ye Jianying, Deng
+  Xiaoping/Zhuo Lin, etc. — existing glossary rows, reused unchanged.
+
+### Names crop-verified this batch
+Section openers' folios; 国民党二十二军 (22nd Army, p152); 战干四团 (Fourth, not
+14th, p161); the three-organ layout on p158 (confirmed 3 separate paragraphs);
+the Ejin banquet one-line punch (p138, confirmed a separate paragraph); the Wang
+Shiying portrait split (p138). Reading-side punch-line splits added to match the
+source's isolated one-liners: the Ejin killing; the radio-hunt / "now a museum"
+break (p161/162); the Juntong-reward / Chiang's-confession break (p163); "两军
+如何交流? / 交上两百万个朋友" (p164); 卫立煌 thanks / 三十万发子弹 (p169).
+
+### Figures: still DEFERRED (deliberate; commissioner decision pending)
+figures.json remains empty. Chapter 3 is the most plate-dense chapter so far:
+Ye Jianying/Bogu/Tong Xiaopeng Nanjing-office group (p100); Wang Shiying portrait
+(p102); the "Latter Three Heroes" trio Chen Zhongjing/Xiong Xianghui/Shen Jian
+(p110); Xie Hegeng & Wang Ying wedding (p111); Deng Yingchao with the Shen Anna
+couple, and Hua Mingzhi & Shen Anna (p113); Shen Anna stenographing beside Chiang
+Kai-shek (p112); the young Nan Hanchen (p116); Lu Xuzhang with the Guangda Huaxing
+partners in Chongqing + the drug-plant founders' facsimile signatures incl. Chen
+Guofu and Bao Yugang (p117); Xu Xiangqian/Xuan Xiafu/Zuo Quan/Chen Geng in Xi'an
+1937 (p126). The Xi'an checkpoint/office material has no map this chapter. Standing
+question (every 图文 photo, or a curated subset) still for the commissioner.
+
+### KNOWN LIMITATION carried forward
+- **ch03 has NO printed-page (folio) markers.** assemble.py writes the pagemap
+  keyed to PRE-resegment paragraph indices; after resegmentation (268→305) those
+  indices are stale, so data/pagemap/ch03.json was DELETED rather than ship
+  misplaced markers (wrong markers are worse than an honest gap). No ch03 note
+  cites a followable folio, so nothing depends on it. A clean full-chapter
+  pagemap rebuild (compute page→paragraph against the resegmented file) is a
+  corrections-pass task, same as the ch02 s6-8 gap. (ch01 zh parity 269/299,
+  from B01, also still open.)
+- The number check leaves 55 residual flags on ch03; all are catalogued as noise
+  above and were verified against the scan. 13亿/11亿 render as "1.3 billion"/
+  "1.1 billion" (correct 亿→100M conversion; the checker cannot parse "billion").
+
+### Tooling touched (do NOT revert)
+- scripts/resegment_ch03.py: new; the reproducible zh re-segmentation for B04
+  (merges王世英/阎又文 photo-splits, ~30 splits, inserts Principal Sources heading).
+- data/structure.json: +10 rows (ch03 headings, matched to OCR strings).
+- data/noise.txt: +13 entries (see above), each commented.
+- data/apparatus_ch03.json: the B04 apparatus merge file.
+
+### Build / environment
+- EPUB rebuilt: 4 of 14 chapters (ch00, ch01, ch02, ch03), 84 notes, 74
+  pagebreaks (ch03 folio markers intentionally absent, see above). qa_epub PASS
+  (28 files, all links resolve). epubcheck 5.1.0 clean (0 fatals/0 errors/0 warnings).
+- Reading text: 0 literal <i> tags, 0 em dashes (the one parenthetical gloss year
+  rendered with parentheses, not dashes).
+- Branch consolidated onto claude/chinas-secret-war at session start (the harness
+  stray branch claude/china-secret-war-b04-ch03-3dr47i sat at the same commit as
+  origin/claude/chinas-secret-war; the local canonical branch was reset to origin).
+- setup.sh regression "hook stands down on template stub" still FAILS benignly.
