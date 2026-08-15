@@ -60,6 +60,18 @@ CJK = r"一-鿿　-〿＀-￯"
 # line; see the module docstring. These values will NOT give clean OCR as-is.
 LEFT, RIGHT, TOP, BOTTOM = 0.0, 1.0, 0.0, 1.0
 
+# Per-parity crop overrides for MIRROR-MARGIN books. Many bound books print the
+# running title/head in the OUTER margin, which is the LEFT on verso (even) and
+# the RIGHT on recto (odd) pages, so the body text block itself shifts between
+# the two and a single crop box cannot clear the furniture on both without
+# eating text. When set (via --left-even/--right-even/--top-even/--bottom-even)
+# these apply to EVEN PDF pages; ODD pages keep the base box above. A value of
+# None means "fall back to the base box for that edge". Whether even==verso
+# depends on the book's pdf-to-folio offset parity; for China's Secret War the
+# offset is 36 (even), so even PDF == even folio == verso. Measured for this
+# book: recto (odd) [0.07, 0.87], verso (even) [0.16, 0.945], shared top/bottom.
+LEFT_E, RIGHT_E, TOP_E, BOTTOM_E = None, None, None, None
+
 # Default OCR model/mode. Override per book: chi_tra_vert/chi_sim_vert + psm 5
 # for vertical, chi_tra/chi_sim + psm 6 for horizontal.
 LANG = "chi_tra_vert"
@@ -77,6 +89,62 @@ def despace(line):
     line = re.sub(r"(?<=[" + CJK + r"])\s+", "", line)
     line = re.sub(r"\s+(?=[" + CJK + r"])", "", line)
     return line.strip()
+
+
+def folio_present(page):
+    """Geometric test: does this page's rendered image carry a folio band that
+    the OCR text has already had stripped (by strip_folio)? indents.py calls
+    this to drop the folio from its per-line indent array so the array stays in
+    1:1 register with the folio-stripped OCR text -- the single source of truth
+    for 'is there a page number here', so the textual and geometric sides never
+    disagree.
+
+    The folio is a short numeric band in the bottom OUTER corner (bottom-right
+    on recto/odd pages, bottom-left on verso/even), set off from the body by the
+    bottom margin. It is identified by three signals together: it is the last
+    horizontal ink band; it is far narrower than a body line; and it sits in the
+    outer margin, not at the body's flush-left. A short paragraph-final line is
+    also narrow but begins at the ordinary left margin, so the outer-position
+    test separates the two.
+    """
+    import numpy as np
+    src = os.path.join(PNG, "p%04d.png" % page)
+    if not os.path.exists(src):
+        return False
+    im = np.asarray(Image.open(src).convert("L"))
+    h, w = im.shape
+    ink = (im < 160).astype(np.uint8)
+    rows = ink.sum(axis=1)
+    bands, start = [], None
+    for i, v in enumerate(rows):
+        if v > 4 and start is None:
+            start = i
+        elif v <= 4 and start is not None:
+            if i - start > 3:
+                bands.append((start, i))
+            start = None
+    if start is not None:
+        bands.append((start, len(rows)))
+    if len(bands) < 2:
+        return False
+
+    def extent(y0, y1):
+        cols = ink[y0:y1, :].sum(axis=0)
+        nz = np.nonzero(cols > 0)[0]
+        return (nz[0], nz[-1]) if len(nz) else None
+
+    last = extent(*bands[-1])
+    if last is None:
+        return False
+    lw = (last[1] - last[0]) / float(w)
+    widths = []
+    for (a, b) in bands[:-1]:
+        e = extent(a, b)
+        if e:
+            widths.append((e[1] - e[0]) / float(w))
+    med = float(np.median(widths)) if widths else 1.0
+    outer = (last[0] / float(w) > 0.55) if page % 2 else (last[1] / float(w) < 0.45)
+    return lw < 0.4 * med and outer
 
 
 def strip_folio(lines):
@@ -144,6 +212,22 @@ def strip_head(lines):
     return out
 
 
+def crop_box(page, w, h):
+    """The (l, t, r, b) pixel box for a page, honoring per-parity overrides.
+    Even PDF pages use LEFT_E/RIGHT_E/TOP_E/BOTTOM_E where set, else the base."""
+    left, right, top, bottom = LEFT, RIGHT, TOP, BOTTOM
+    if page % 2 == 0:
+        if LEFT_E is not None:
+            left = LEFT_E
+        if RIGHT_E is not None:
+            right = RIGHT_E
+        if TOP_E is not None:
+            top = TOP_E
+        if BOTTOM_E is not None:
+            bottom = BOTTOM_E
+    return (int(w * left), int(h * top), int(w * right), int(h * bottom))
+
+
 def make_crop(page):
     src = os.path.join(PNG, "p%04d.png" % page)
     if not os.path.exists(src):
@@ -153,13 +237,14 @@ def make_crop(page):
         return dest
     im = Image.open(src)
     w, h = im.size
-    box = (int(w * LEFT), int(h * TOP), int(w * RIGHT), int(h * BOTTOM))
+    box = crop_box(page, w, h)
     im.crop(box).convert("L").save(dest)
     return dest
 
 
 def main():
     global LEFT, RIGHT, TOP, BOTTOM, RUNNING_HEAD
+    global LEFT_E, RIGHT_E, TOP_E, BOTTOM_E
     ap = argparse.ArgumentParser()
     ap.add_argument("first", type=int)
     ap.add_argument("last", type=int)
@@ -188,9 +273,22 @@ def main():
                     help="the book's running head (title+author as printed in "
                          "the margin); used to filter stray head columns. Empty "
                          "disables that filter.")
+    ap.add_argument("--left-even", type=float, default=None,
+                    help="crop left edge for EVEN pdf pages (mirror-margin "
+                         "books); falls back to --left if unset")
+    ap.add_argument("--right-even", type=float, default=None,
+                    help="crop right edge for EVEN pdf pages; falls back to "
+                         "--right if unset")
+    ap.add_argument("--top-even", type=float, default=None,
+                    help="crop top edge for EVEN pdf pages; falls back to --top")
+    ap.add_argument("--bottom-even", type=float, default=None,
+                    help="crop bottom edge for EVEN pdf pages; falls back to "
+                         "--bottom")
     a = ap.parse_args()
 
     LEFT, RIGHT, TOP, BOTTOM = a.left, a.right, a.top, a.bottom
+    LEFT_E, RIGHT_E, TOP_E, BOTTOM_E = (a.left_even, a.right_even,
+                                        a.top_even, a.bottom_even)
     RUNNING_HEAD = a.running_head
 
     for d in (TXT, CROPDIR, RAWDIR):
