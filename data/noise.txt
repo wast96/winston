@@ -70,3 +70,17 @@
 干辛万苦
 # 立三 (Li Lisan / the "Li Lisan line") — the 三 is part of the name
 立三
+# 第二天 / 第二年: 'the next day' / 'the following year'; English uses no numeral
+第二天
+第二年
+# 二十多万字: 'more than 200,000 characters' — English carries "two hundred thousand"
+二十多万
+# 10万大洋 / 30万人: bounty and crowd; English carries "100,000" / "300,000" (Arabic+万 mix)
+10万大洋
+30万
+# 曾三: Zeng San, radio operator (name contains 三)
+曾三
+# 万载: Wanzai county, Jiangxi (place name contains 万)
+万载
+# 老百姓: 'the common people' (contains 百)
+老百姓

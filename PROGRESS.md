@@ -297,3 +297,115 @@ REUSED unchanged from B01: 周恩来, 陈赓, 顾顺章, 李强 (+ aliases 王�
 this batch and to hold: 黄埔军校 = "Whampoa"; 中国救济总会 = China Relief Society;
 国际济难会 = International Red Aid; 太古公司 = Butterfield and Swire; 会审公堂 rendered
 "Mixed Court" with the author's own gloss footnoted.
+
+## B03 — ch04 情报战线的英豪 / Heroes of the Intelligence Front (PDF 95-122, printed 51-78)
+
+Four biographical sections in one unit: ch04s01 兵器专家刘鼎 (Liu Ding, weapons
+expert), ch04s02 济世名医柯麟 (Ke Lin, physician), ch04s03 隐蔽战线的"福将"陈养山
+(Chen Yangshan), ch04s04 血染沙场的陈寿昌 (Chen Shouchang). Offset 44 folio-verified
+at every opener (folios 51-78 all confirmed by eye).
+
+### Pipeline / assembly
+- OCR: ocr_crop --left 0.11 --right 0.90 --top 0.135 --bottom 0.95 --psm 6
+  --running-head "隐蔽战线统帅周恩来"; ocr_dual second read. pgrep -c tesseract = 0
+  after each run. NOTE: recto running head is the CHAPTER title 情报战线的英豪
+  (stripped by the top crop), verso is the book title (stripped by --running-head).
+- Furniture (scripts/recovery/b03_strip_furniture.py): 5 garbled headings
+  normalized to structure.json titles; 10 author-footnote blocks truncated;
+  full-page 陈养山 portrait (p113) blanked; TOP photo 吴先清 (p101) and BOTTOM
+  photo 柯麟 (p104) stripped. Figures: 3 (吴先清 p101, 柯麟 p104, 陈养山 p113);
+  find_figures caught all three (photos, density 0.5-0.63); no 刘鼎/陈寿昌 portrait.
+- Assembly is the hard part (as warned). The blank-line path force-breaks at
+  every page seam and dropped two in-page blanks (p71 运到|上海, p73 李强、刘鼎|一起).
+  scripts/recovery/b03_surgery.py: 4 splits + 16 backward-welds, all verified
+  against the page scans (every one of the 27 content pages was eyeballed for
+  indents). Final: **62 body paragraphs + 5 headings.** Two boundary calls made
+  from re-reading the scan: the p110->p111 Ye Ting paragraph is ONE paragraph
+  (first line not indented; source idx37); the Chen Yangshan "不久发生四一二"
+  seam (p114->p115) is ONE sentence (welded).
+- data/pagemap/ch04.json hand-regenerated for the 62-para structure (assemble's
+  auto-output was stale post-surgery), 27 rows, printed 51-78, photo page 69 skipped.
+
+### Checks (all green)
+- verify_unit ch04: parity 62=62; numbers 0 unresolved (after noise + fixes);
+  anchors n/a-then-24 placed.
+- check_align: median 4.78 en/han, no pair strays >2.2x.
+- check_content --config data/check_config.json (ch04 added): 225 name
+  occurrences, 0 displaced (after two conventional-rendering fixes: 北京大学 =
+  "Beijing University" per the shelf ledger, not "Peking"; 中国共产党党员 rendered
+  with the full org name).
+- qc_entities on the bilingual: 0 misses.
+- check_register --ref out/ch01_reading.md: within tolerance (em-dash 0.3/1k vs
+  6.0 ref, rhythm CV 0.48 vs 0.58).
+- check_apparatus: 0 failures / 0 warnings. qa_epub: PASS (93 refs/bodies/backlinks,
+  68 pagebreaks). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings.
+
+### OCR fixes (data/ocr_fixes.json, ch04 = 86 rows; replay with apply_fixes.py ch04)
+167 replacements applied. Principal-name garbles were legion: 刘鼎 (刘易/刘瞻/刘里/
+刘蜡/刘晤/刘允/刘淆/刘晶/刘轩/刘蜀), 陈赓 (陈刻/陈庆/陈记/陈广/陈庚/陈废), 柯麟 (柯罕/柯据/
+柯所/柯饼/柯赫/柯蔚/柯记/柯岂/柯鹿/柯刨), 贺诚/贺龙 (锅诚/锅减/锅龙/货龙), 彭湃 (彭涯/彭洲/
+彭洗/茧涯/芝涯/艾涯), 恽代英 (匈/怪/那/履/业/必=/人必代英), 陈养山 (陈养出/陈蛮山), 陈寿昌
+(陈夺虽/陈寿虽/陈寿吕/陈寿员). Did NOT blanket-replace 陈 (陈独秀/陈炯明/陈宝骅/陈潭秋/
+陈原道/陈志英/陈月波/陈希堪 all distinct and correct). Key crop-verified readings:
+魏宸祖, 杜月笙, 陈宝骅, 任弼时, 佐野学, 白鑫, 杨登瀛/鲍君甫, 刘伯承, 阚思俊(刘鼎 orig name).
+
+### Source discrepancies preserved (rendered as printed, footnoted)
+- **Chen Shouchang death date:** book says "1935年初" (early 1935); he was in
+  fact mortally wounded at Laohudong 21 Nov 1934 and died the next day (aged 28).
+  The 1935 is when the Soviet named a memorial "Shouchang County" after him.
+  Rendered as printed, corrected in the note.
+- **He Cheng dates:** book prints "贺诚(1901~1981)"; he actually died 8 Nov 1992,
+  not 1981. Rendered as printed, corrected in the note.
+- **He Long bounty:** the 100,000-silver-dollar figure is the book's; not
+  independently corroborated (noted).
+- **1948年夏** (Ke Lin/Ye Jianying to Shanghai after the Dec 1927 Guangzhou
+  Uprising): an obvious misprint for 1928; rendered as printed (no note added, as
+  the 9-months-in-Hong-Kong context makes the year self-evidently 1928 — flagged
+  here for the read-through if a note is wanted).
+- **胡汉民改组派** (idx13): the Reorganizationists were Wang Jingwei's faction;
+  the source ties them to Hu Hanmin. Rendered as printed (Mu Xin's framing).
+- **12月1日 vs 12月17日** (radio class raid): OCR dropped the 7; scan shows
+  12月17日. Fixed in source; English carries "17 December 1930".
+- **老虎洞鸦尖坳**: the death-site place name; rendered "Laohudong-Yajian'ao".
+
+### Notes: 24 added (numbered continuously by the builder; 93 total book-wide)
+Reader-model density with fact-check verdicts IN the note; all verified against
+Wikipedia/Baidu Baike/PRC party-history organs (NO LLM-sourced content). The four
+subjects (Liu Ding, Ke Lin, Chen Yangshan, Chen Shouchang) each get a career
+note; plus Wu Xianqing (Soviet purge death, rehabilitated 1984), Pan Hannian
+(arrested 1955, d.1977, rehab 1982), He Long, Ye Ting/New Fourth Army, Yang
+Dengying/Bao Junfu (cross-ref ch06), Yang Xianzhen, He Cheng, Bai Xin, Luo Ming
+(the "Luo Ming line" 1933), Deng Xiaoping (Shanghai underground), Blyukher/Galen,
+Thälmann, Sano Manabu (the June 1933 tenkō recantation — a partisan irony the
+book leaves unremarked), Zunyi Conference, Fifth Encirclement, CC Clique/中统,
+KUTV, Stalin's *Concerning Questions of Leninism*, Chen Tanqiu (author's-note
+reproduction), the author's own voice (Mu Xin identified), Three Heroes of
+Longtan (cross-ref ch05).
+
+- **NOT re-noted (already placed in ch00-ch03):** White Terror, April 12 / April
+  15 coups, Central Special Section, Gu Shunzhang, Red Squad, Nanchang Uprising,
+  Whampoa, Peng Pai (ch02), Yun Daiying (ch02), Ren Bishi (ch02), Li Lisan /
+  Li-San Line (ch02), Liao Zhongkai assassination (ch03), May Thirtieth, February
+  7 strike, Cultural Revolution, Three Heroes of Whampoa. Cross-referenced where
+  useful.
+- **Tier left deliberately unfootnoted:** minor cover names and one-appearance
+  local figures (covered by the glossary), routine place names and their modern
+  equivalents, the 1948->1928 misprint.
+
+### Glossary: +85 rows (now 177 total). Reorganized into categories by hand.
+People (46), organizations (13), places (19), works (7). GOTCHA for next batch:
+apparatus_merge.py adds glossary rows FLAT at the top level; they must be moved
+into the people/organizations/places/works/terms sub-dicts afterward or the
+builder's render_glossary crashes on a string value. Decided this batch and to
+hold: 北京大学 = "Beijing University" (shelf ledger, not "Peking"); 东方大学 =
+"Communist University of the Toilers of the East"; 达生医院 = "Dasheng Hospital";
+镜湖医院 = "Kiang Wu Hospital"; 汇丰银行 = "Hongkong and Shanghai Bank"; 中统 =
+"CC Clique / Central Bureau of Investigation and Statistics"; alias 老王 =
+"Old Wang" (Chen Yangshan). REUSED unchanged: 陈赓, 周恩来, 顾顺章, 李强, 彭湃,
+恽代英, 贺龙, 叶挺, 叶剑英, 刘少奇, 邓小平, 朱德, 任弼时, 李立三, 廖仲恺, 刘伯承 and the
+four ch03-introduced intelligence workers 刘鼎/柯麟/陈养山/陈寿昌.
+
+### noise.txt additions (this batch)
+第二天, 第二年 (day/year idioms), 二十多万 (EN "two hundred thousand"), 10万大洋 /
+30万 (EN "100,000" / "300,000"; Arabic+万 the check can't pair), 曾三 (name Zeng
+San), 万载 (place), 老百姓 (idiom). Extend, do not prune.

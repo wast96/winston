@@ -158,7 +158,7 @@
     "陈养山": {
       "en": "Chen Yangshan",
       "pinyin": "Chen Yangshan",
-      "status": "decided"
+      "status": "attested"
     },
     "白崇禧": {
       "en": "Bai Chongxi",
@@ -404,7 +404,7 @@
     },
     "李宇超": {
       "en": "Li Yuchao",
-      "pinyin": "LiYuchao",
+      "pinyin": "Li Yuchao",
       "status": "provisional"
     },
     "刘淑琴": {
@@ -662,18 +662,17 @@
     },
     "陈寿昌": {
       "en": "Chen Shouchang",
-      "pinyin": "ChenShouchang",
+      "pinyin": "Chen Shouchang",
       "status": "attested"
     },
     "刘鼎": {
       "en": "Liu Ding",
-      "pinyin": "LiuDing",
-      "status": "attested",
-      "note": "Weapons expert."
+      "pinyin": "Liu Ding",
+      "status": "attested"
     },
     "柯麟": {
       "en": "Ke Lin",
-      "pinyin": "KeLin",
+      "pinyin": "Ke Lin",
       "status": "attested"
     },
     "欧阳新": {
@@ -737,6 +736,206 @@
       "en": "Ye Jianying",
       "pinyin": "YeJianying",
       "status": "attested"
+    },
+    "贺诚": {
+      "en": "He Cheng",
+      "pinyin": "He Cheng",
+      "status": "attested"
+    },
+    "周越华": {
+      "en": "Zhou Yuehua",
+      "pinyin": "Zhou Yuehua",
+      "status": "attested"
+    },
+    "佐野学": {
+      "en": "Sano Manabu",
+      "pinyin": "Sano Manabu",
+      "status": "attested"
+    },
+    "杨登瀛": {
+      "en": "Yang Dengying",
+      "pinyin": "Yang Dengying",
+      "status": "attested"
+    },
+    "鲍君甫": {
+      "en": "Bao Junfu",
+      "pinyin": "Bao Junfu",
+      "status": "attested"
+    },
+    "李少石": {
+      "en": "Li Shaoshi",
+      "pinyin": "Li Shaoshi",
+      "status": "attested"
+    },
+    "罗明": {
+      "en": "Luo Ming",
+      "pinyin": "Luo Ming",
+      "status": "attested"
+    },
+    "孙炳文": {
+      "en": "Sun Bingwen",
+      "pinyin": "Sun Bingwen",
+      "status": "attested"
+    },
+    "吴先清": {
+      "en": "Wu Xianqing",
+      "pinyin": "Wu Xianqing",
+      "status": "attested"
+    },
+    "杨献珍": {
+      "en": "Yang Xianzhen",
+      "pinyin": "Yang Xianzhen",
+      "status": "attested"
+    },
+    "胡鄂公": {
+      "en": "Hu Egong",
+      "pinyin": "Hu Egong",
+      "status": "attested"
+    },
+    "陈原道": {
+      "en": "Chen Yuandao",
+      "pinyin": "Chen Yuandao",
+      "status": "attested"
+    },
+    "杨剑虹": {
+      "en": "Yang Jianhong",
+      "pinyin": "Yang Jianhong",
+      "status": "attested"
+    },
+    "余世颂": {
+      "en": "Yu Shisong",
+      "pinyin": "Yu Shisong",
+      "status": "attested"
+    },
+    "陈潭秋": {
+      "en": "Chen Tanqiu",
+      "pinyin": "Chen Tanqiu",
+      "status": "attested"
+    },
+    "曾三": {
+      "en": "Zeng San",
+      "pinyin": "Zeng San",
+      "status": "attested"
+    },
+    "李硕勋": {
+      "en": "Li Shuoxun",
+      "pinyin": "Li Shuoxun",
+      "status": "attested"
+    },
+    "蔡和森": {
+      "en": "Cai Hesen",
+      "pinyin": "Cai Hesen",
+      "status": "attested"
+    },
+    "李大钊": {
+      "en": "Li Dazhao",
+      "pinyin": "Li Dazhao",
+      "status": "attested"
+    },
+    "杜月笙": {
+      "en": "Du Yuesheng",
+      "pinyin": "Du Yuesheng",
+      "status": "attested"
+    },
+    "陈宝骅": {
+      "en": "Chen Baohua",
+      "pinyin": "Chen Baohua",
+      "status": "attested"
+    },
+    "杨度": {
+      "en": "Yang Du",
+      "pinyin": "Yang Du",
+      "status": "attested"
+    },
+    "邓演达": {
+      "en": "Deng Yanda",
+      "pinyin": "Deng Yanda",
+      "status": "attested"
+    },
+    "邓真德": {
+      "en": "Deng Zhende",
+      "pinyin": "Deng Zhende",
+      "status": "provisional"
+    },
+    "李树芬": {
+      "en": "Li Shufen",
+      "pinyin": "Li Shufen",
+      "status": "attested"
+    },
+    "徐彬如": {
+      "en": "Xu Binru",
+      "pinyin": "Xu Binru",
+      "status": "attested"
+    },
+    "陈月波": {
+      "en": "Chen Yuebo",
+      "pinyin": "Chen Yuebo",
+      "status": "provisional"
+    },
+    "袁世凯": {
+      "en": "Yuan Shikai",
+      "pinyin": "Yuan Shikai",
+      "status": "attested"
+    },
+    "张云逸": {
+      "en": "Zhang Yunyi",
+      "pinyin": "Zhang Yunyi",
+      "status": "attested"
+    },
+    "李济深": {
+      "en": "Li Jishen",
+      "pinyin": "Li Jishen",
+      "status": "attested"
+    },
+    "陆定一": {
+      "en": "Lu Dingyi",
+      "pinyin": "Lu Dingyi",
+      "status": "attested"
+    },
+    "阳翰笙": {
+      "en": "Yang Hansheng",
+      "pinyin": "Yang Hansheng",
+      "status": "attested"
+    },
+    "陈志英": {
+      "en": "Chen Zhiying",
+      "pinyin": "Chen Zhiying",
+      "status": "provisional"
+    },
+    "柳柏文": {
+      "en": "Liu Baiwen",
+      "pinyin": "Liu Baiwen",
+      "status": "provisional"
+    },
+    "阚思俊": {
+      "en": "Kan Sijun",
+      "pinyin": "Kan Sijun",
+      "status": "attested"
+    },
+    "程仰山": {
+      "en": "Cheng Yangshan",
+      "pinyin": "Cheng Yangshan",
+      "status": "attested"
+    },
+    "陈希堪": {
+      "en": "Chen Xikan",
+      "pinyin": "Chen Xikan",
+      "status": "attested"
+    },
+    "柯达文": {
+      "en": "Ke Dawen",
+      "pinyin": "Ke Dawen",
+      "status": "decided"
+    },
+    "贺雨生": {
+      "en": "He Yusheng",
+      "pinyin": "He Yusheng",
+      "status": "decided"
+    },
+    "魏宸祖": {
+      "en": "Wei Chenzu",
+      "pinyin": "Wei Chenzu",
+      "status": "provisional"
     }
   },
   "organizations": {
@@ -796,6 +995,71 @@
       "pinyin": "International Red Aid",
       "status": "attested",
       "note": "The Comintern's relief body (MOPR)."
+    },
+    "东方大学": {
+      "en": "Communist University of the Toilers of the East",
+      "pinyin": "Communist University of the Toilers of the East",
+      "status": "attested"
+    },
+    "上海大学": {
+      "en": "Shanghai University",
+      "pinyin": "Shanghai University",
+      "status": "attested"
+    },
+    "达生医院": {
+      "en": "Dasheng Hospital",
+      "pinyin": "Dasheng Hospital",
+      "status": "decided"
+    },
+    "同德医院": {
+      "en": "Tongde Hospital",
+      "pinyin": "Tongde Hospital",
+      "status": "decided"
+    },
+    "镜湖医院": {
+      "en": "Kiang Wu Hospital",
+      "pinyin": "Kiang Wu Hospital",
+      "status": "attested"
+    },
+    "中山医学院": {
+      "en": "Sun Yat-sen Medical College",
+      "pinyin": "Sun Yat-sen Medical College",
+      "status": "attested"
+    },
+    "新四军": {
+      "en": "New Fourth Army",
+      "pinyin": "New Fourth Army",
+      "status": "attested"
+    },
+    "汉口青年励志社": {
+      "en": "Hankou Youth Self-Improvement Society",
+      "pinyin": "Hankou Youth Self-Improvement Society",
+      "status": "decided"
+    },
+    "南华药房": {
+      "en": "Nanhua Pharmacy",
+      "pinyin": "Nanhua Pharmacy",
+      "status": "decided"
+    },
+    "全国总工会": {
+      "en": "All-China Federation of Trade Unions",
+      "pinyin": "All-China Federation of Trade Unions",
+      "status": "attested"
+    },
+    "汇丰银行": {
+      "en": "Hongkong and Shanghai Bank",
+      "pinyin": "Hongkong and Shanghai Bank",
+      "status": "attested"
+    },
+    "云南护国军": {
+      "en": "Yunnan National Protection Army",
+      "pinyin": "Yunnan National Protection Army",
+      "status": "attested"
+    },
+    "同盟会": {
+      "en": "Tongmenghui",
+      "pinyin": "Tongmenghui",
+      "status": "attested"
     }
   },
   "places": {
@@ -920,6 +1184,91 @@
       "en": "Hangzhou",
       "pinyin": "Hangzhou",
       "status": "attested"
+    },
+    "南溪": {
+      "en": "Nanxi",
+      "pinyin": "Nanxi",
+      "status": "attested"
+    },
+    "格廷根": {
+      "en": "Göttingen",
+      "pinyin": "Göttingen",
+      "status": "attested"
+    },
+    "伯力": {
+      "en": "Khabarovsk",
+      "pinyin": "Khabarovsk",
+      "status": "attested"
+    },
+    "奉天": {
+      "en": "Fengtian",
+      "pinyin": "Fengtian",
+      "status": "attested"
+    },
+    "上虞": {
+      "en": "Shangyu",
+      "pinyin": "Shangyu",
+      "status": "attested"
+    },
+    "镇海": {
+      "en": "Zhenhai",
+      "pinyin": "Zhenhai",
+      "status": "attested"
+    },
+    "厦门": {
+      "en": "Xiamen",
+      "pinyin": "Xiamen",
+      "status": "attested"
+    },
+    "宜宾": {
+      "en": "Yibin",
+      "pinyin": "Yibin",
+      "status": "attested"
+    },
+    "深水埗": {
+      "en": "Sham Shui Po",
+      "pinyin": "Sham Shui Po",
+      "status": "attested"
+    },
+    "晋绥": {
+      "en": "Shanxi-Suiyuan",
+      "pinyin": "Shanxi-Suiyuan",
+      "status": "decided"
+    },
+    "湘鄂赣": {
+      "en": "Hunan-Hubei-Jiangxi",
+      "pinyin": "Hunan-Hubei-Jiangxi",
+      "status": "decided"
+    },
+    "闽西": {
+      "en": "western Fujian",
+      "pinyin": "western Fujian",
+      "status": "decided"
+    },
+    "平江": {
+      "en": "Pingjiang",
+      "pinyin": "Pingjiang",
+      "status": "attested"
+    },
+    "万载": {
+      "en": "Wanzai",
+      "pinyin": "Wanzai",
+      "status": "attested"
+    },
+    "铜鼓": {
+      "en": "Tonggu",
+      "pinyin": "Tonggu",
+      "status": "attested"
+    },
+    "崇阳": {
+      "en": "Chongyang",
+      "pinyin": "Chongyang",
+      "status": "attested"
+    },
+    "通城": {
+      "en": "Tongcheng",
+      "pinyin": "Tongcheng",
+      "status": "attested"
     }
   },
   "terms": {
@@ -954,6 +1303,41 @@
       "pinyin": "Sunzi bingfa",
       "status": "attested",
       "note": "Sun Tzu's classic, <i>The Art of War</i>. The book quotes two chapters: “Attack by Stratagem” (谋攻篇) and “On the Use of Spies” (用间篇)."
+    },
+    "共产党宣言": {
+      "en": "Communist Manifesto",
+      "pinyin": "Communist Manifesto",
+      "status": "attested"
+    },
+    "共产主义ABC": {
+      "en": "ABC of Communism",
+      "pinyin": "ABC of Communism",
+      "status": "attested"
+    },
+    "论列宁主义问题": {
+      "en": "Concerning Questions of Leninism",
+      "pinyin": "Concerning Questions of Leninism",
+      "status": "attested"
+    },
+    "中国青年": {
+      "en": "China Youth",
+      "pinyin": "China Youth",
+      "status": "attested"
+    },
+    "新生命": {
+      "en": "New Life",
+      "pinyin": "New Life",
+      "status": "decided"
+    },
+    "人民日报": {
+      "en": "People's Daily",
+      "pinyin": "People's Daily",
+      "status": "attested"
+    },
+    "光明日报": {
+      "en": "Guangming Daily",
+      "pinyin": "Guangming Daily",
+      "status": "attested"
     }
   }
 }

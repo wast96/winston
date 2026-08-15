@@ -1,646 +1,1164 @@
 {
-  "ch00": [
-    {
-      "wrong": "苦介石",
-      "right": "蒋介石",
-      "page": 36,
-      "note": "Chiang Kai-shek; OCR 苦->蒋"
-    },
-    {
-      "wrong": "旨越领导",
-      "right": "卓越领导",
-      "page": 36,
-      "note": "卓越; OCR 旨->卓"
-    },
-    {
-      "wrong": "回忠发",
-      "right": "向忠发",
-      "page": 37,
-      "note": "Xiang Zhongfa; OCR 回->向"
-    },
-    {
-      "wrong": "磊顺章",
-      "right": "顾顺章",
-      "page": 37,
-      "note": "Gu Shunzhang; OCR 磊->顾"
-    },
-    {
-      "wrong": "干方百计",
-      "right": "千方百计",
-      "page": 3,
-      "note": "idiom 千方百计; OCR 干->千, else 百 reads as a phantom 100"
-    }
-  ],
-  "ch01": [
-    {
-      "wrong": "共在这里二了38年",
-      "right": "共在这里干了38年",
-      "page": 2,
-      "note": "干了 not 二了; the stray 二 injects a phantom number 2"
-    },
-    {
-      "wrong": "经过2小时战斗",
-      "right": "经过28小时战斗",
-      "page": 5,
-      "note": "28 hours (OCR dropped the 8)"
-    },
-    {
-      "wrong": "钙逮捕者$S00多人",
-      "right": "被逮捕者500多人",
-      "page": 6,
-      "note": "500+ arrested; OCR $S00->500, 钙->被"
-    },
-    {
-      "wrong": "娠宽",
-      "right": "尹宽",
-      "page": 6,
-      "note": "Yin Kuan; co-signatory of the telegram"
-    },
-    {
-      "wrong": "2时在武汉中央军事部",
-      "right": "当时在武汉中央军事部",
-      "page": 7,
-      "note": "当时 not 2时; stray 2 injects a phantom number"
-    },
-    {
-      "wrong": "肾荣至",
-      "right": "聂荣臻",
-      "page": 7,
-      "note": "Nie Rongzhen"
-    },
-    {
-      "wrong": "聂有栗色问六在武昌",
-      "right": "聂荣臻同志在武昌",
-      "page": 8,
-      "note": "Nie Rongzhen; heavy OCR garble, stray 六 injects a phantom 6"
-    },
-    {
-      "wrong": "那66人中挑选了30个",
-      "right": "那60人中挑选了30个",
-      "page": 8,
-      "note": "60 men (image reads 60, not 66)"
-    },
-    {
-      "wrong": "如S月17日",
-      "right": "如5月17日",
-      "page": 9,
-      "note": "5 May; OCR read the 5 as Latin S"
-    },
-    {
-      "wrong": "S月21日许克祥",
-      "right": "5月21日许克祥",
-      "page": 9,
-      "note": "21 May; OCR read the 5 as Latin S"
-    },
-    {
-      "wrong": "张国寿",
-      "right": "张国焘",
-      "page": 10,
-      "note": "Zhang Guotao"
-    },
-    {
-      "wrong": "张国厅",
-      "right": "张国焘",
-      "page": 3,
-      "note": "Zhang Guotao"
-    },
-    {
-      "wrong": "张国春",
-      "right": "张国焘",
-      "page": 3,
-      "note": "Zhang Guotao"
-    },
-    {
-      "wrong": "从九龙深水起乘船",
-      "right": "从九龙深水埗乘船",
-      "page": 11,
-      "note": "Sham Shui Po (深水埗), Kowloon"
-    },
-    {
-      "wrong": "陈钴与中央特科",
-      "right": "陈赓与中央特科",
-      "page": 14,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "履代英",
-      "right": "恽代英",
-      "page": 14,
-      "note": "Yun Daiying"
-    },
-    {
-      "wrong": "老百脸",
-      "right": "老白脸",
-      "page": 8,
-      "note": "'Old Whiteface' nickname; OCR 白->百 injects a phantom 100"
-    }
-  ],
-  "ch02": [
-    {
-      "wrong": "陈康",
-      "right": "陈赓",
-      "page": 61,
-      "note": "Chen Geng (Li Qiang quote: couldn't speak Shanghainese)"
-    },
-    {
-      "wrong": "陈庆",
-      "right": "陈赓",
-      "page": 67,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈广",
-      "right": "陈赓",
-      "page": 67,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈刻",
-      "right": "陈赓",
-      "page": 67,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈钴",
-      "right": "陈赓",
-      "page": 67,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "能瑾于",
-      "right": "熊瑾玎",
-      "page": 65,
-      "note": "Xiong Jinding"
-    },
-    {
-      "wrong": "能瑾末",
-      "right": "熊瑾玎",
-      "page": 65,
-      "note": "Xiong Jinding"
-    },
-    {
-      "wrong": "熊瑾再",
-      "right": "熊瑾玎",
-      "page": 66,
-      "note": "Xiong Jinding"
-    },
-    {
-      "wrong": "能瑾再",
-      "right": "熊瑾玎",
-      "page": 67,
-      "note": "Xiong Jinding"
-    },
-    {
-      "wrong": "能弄再",
-      "right": "熊瑾玎",
-      "page": 67,
-      "note": "Xiong Jinding"
-    },
-    {
-      "wrong": "能琴末",
-      "right": "熊瑾玎",
-      "page": 67,
-      "note": "Xiong Jinding"
-    },
-    {
-      "wrong": "熊理末",
-      "right": "熊瑾玎",
-      "page": 67,
-      "note": "Xiong Jinding"
-    },
-    {
-      "wrong": "能老板",
-      "right": "熊老板",
-      "page": 65,
-      "note": "'Boss Xiong'"
-    },
-    {
-      "wrong": "周胃来",
-      "right": "周恩来",
-      "page": 66,
-      "note": "Zhou Enlai"
-    },
-    {
-      "wrong": "陈玉英",
-      "right": "陈琮英",
-      "page": 73,
-      "note": "Chen Congying, Ren Bishi's wife"
-    },
-    {
-      "wrong": "履代奖",
-      "right": "恽代英",
-      "page": 74,
-      "note": "Yun Daiying"
-    },
-    {
-      "wrong": "履代英",
-      "right": "恽代英",
-      "page": 74,
-      "note": "Yun Daiying"
-    },
-    {
-      "wrong": "爷代英",
-      "right": "恽代英",
-      "page": 74,
-      "note": "Yun Daiying"
-    },
-    {
-      "wrong": "人代英",
-      "right": "恽代英",
-      "page": 74,
-      "note": "Yun Daiying (self-styled 'cousin')"
-    },
-    {
-      "wrong": "必=代英",
-      "right": "恽代英",
-      "page": 74,
-      "note": "Yun Daiying"
-    },
-    {
-      "wrong": "将履提前",
-      "right": "将恽提前",
-      "page": 74,
-      "note": "Yun Daiying"
-    },
-    {
-      "wrong": "任吕时",
-      "right": "任弼时",
-      "page": 73,
-      "note": "Ren Bishi"
-    },
-    {
-      "wrong": "任络时",
-      "right": "任弼时",
-      "page": 73,
-      "note": "Ren Bishi"
-    },
-    {
-      "wrong": "任缠时",
-      "right": "任弼时",
-      "page": 73,
-      "note": "Ren Bishi"
-    },
-    {
-      "wrong": "茧德生",
-      "right": "彭德生",
-      "page": 73,
-      "note": "Peng Desheng, Ren Bishi's alias"
-    },
-    {
-      "wrong": "彭涛",
-      "right": "彭湃",
-      "page": 74,
-      "note": "Peng Pai (scan-verified)"
-    },
-    {
-      "wrong": "赵一螺",
-      "right": "赵一曼",
-      "page": 64,
-      "note": "Zhao Yiman"
-    },
-    {
-      "wrong": "1929年1月17日",
-      "right": "1929年11月17日",
-      "page": 73,
-      "note": "17 Nov 1929 (scan-verified)"
-    },
-    {
-      "wrong": "现云南中路71~ 173号",
-      "right": "现云南中路171~173号",
-      "page": 65,
-      "note": "171-173 (OCR dropped leading 1)"
-    },
-    {
-      "wrong": "二董店",
-      "right": "古董店",
-      "page": 76,
-      "note": "antique shop (OCR 古->二)"
-    },
-    {
-      "wrong": "戴荣奢",
-      "right": "戴荣鑫",
-      "page": 76,
-      "note": "Dai Rongxin (scan-verified 鑫)"
-    },
-    {
-      "wrong": "戴荣半",
-      "right": "戴荣鑫",
-      "page": 76,
-      "note": "Dai Rongxin (scan-verified 鑫)"
-    }
-  ],
-  "ch03": [
-    {
-      "wrong": "陈广",
-      "right": "陈赓",
-      "page": 78,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈记",
-      "right": "陈赓",
-      "page": 78,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈庆",
-      "right": "陈赓",
-      "page": 78,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈短",
-      "right": "陈赓",
-      "page": 78,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈刻",
-      "right": "陈赓",
-      "page": 78,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈鹿",
-      "right": "陈赓",
-      "page": 79,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈康",
-      "right": "陈赓",
-      "page": 84,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈钴",
-      "right": "陈赓",
-      "page": 81,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈笋",
-      "right": "陈赓",
-      "page": 83,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈厦",
-      "right": "陈赓",
-      "page": 84,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈乌",
-      "right": "陈赓",
-      "page": 85,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈委",
-      "right": "陈赓",
-      "page": 85,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈废",
-      "right": "陈赓",
-      "page": 86,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈煞",
-      "right": "陈赓",
-      "page": 92,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈唐",
-      "right": "陈赓",
-      "page": 93,
-      "note": "Chen Geng"
-    },
-    {
-      "wrong": "陈文代理",
-      "right": "陈赓代理",
-      "page": 78,
-      "note": "Chen Geng (acting 3rd-div commander)"
-    },
-    {
-      "wrong": "陈夺电",
-      "right": "陈寿昌",
-      "page": 86,
-      "note": "Chen Shouchang"
-    },
-    {
-      "wrong": "欧介石",
-      "right": "蒋介石",
-      "page": 79,
-      "note": "Chiang Kai-shek"
-    },
-    {
-      "wrong": "将介石",
-      "right": "蒋介石",
-      "page": 79,
-      "note": "Chiang Kai-shek"
-    },
-    {
-      "wrong": "藉介石",
-      "right": "蒋介石",
-      "page": 93,
-      "note": "Chiang Kai-shek"
-    },
-    {
-      "wrong": "蒋介右",
-      "right": "蒋介石",
-      "page": 92,
-      "note": "Chiang Kai-shek"
-    },
-    {
-      "wrong": "钱大钩",
-      "right": "钱大钧",
-      "page": 92,
-      "note": "Qian Dajun"
-    },
-    {
-      "wrong": "钱大钓",
-      "right": "钱大钧",
-      "page": 92,
-      "note": "Qian Dajun"
-    },
-    {
-      "wrong": "顾顺间",
-      "right": "顾顺章",
-      "page": 79,
-      "note": "Gu Shunzhang"
-    },
-    {
-      "wrong": "顾顺音",
-      "right": "顾顺章",
-      "page": 86,
-      "note": "Gu Shunzhang"
-    },
-    {
-      "wrong": "上户冬生",
-      "right": "卢冬生",
-      "page": 80,
-      "note": "Lu Dongsheng"
-    },
-    {
-      "wrong": "刘易",
-      "right": "刘鼎",
-      "page": 86,
-      "note": "Liu Ding"
-    },
-    {
-      "wrong": "殉阳新",
-      "right": "欧阳新",
-      "page": 86,
-      "note": "Ouyang Xin"
-    },
-    {
-      "wrong": "张克使",
-      "right": "张克侠",
-      "page": 90,
-      "note": "Zhang Kexia"
-    },
-    {
-      "wrong": "雇仲恺",
-      "right": "廖仲恺",
-      "page": 78,
-      "note": "Liao Zhongkai"
-    },
-    {
-      "wrong": "海参左",
-      "right": "海参崴",
-      "page": 80,
-      "note": "Vladivostok"
-    },
-    {
-      "wrong": "葛斯科引山大学",
-      "right": "莫斯科中山大学",
-      "page": 90,
-      "note": "Sun Yat-sen University, Moscow"
-    },
-    {
-      "wrong": "痊锡山",
-      "right": "阎锡山",
-      "page": 90,
-      "note": "Yan Xishan"
-    },
-    {
-      "wrong": "何基痒",
-      "right": "何基沣",
-      "page": 90,
-      "note": "He Jifeng"
-    },
-    {
-      "wrong": "时剑英",
-      "right": "叶剑英",
-      "page": 92,
-      "note": "Ye Jianying"
-    },
-    {
-      "wrong": "王根黄",
-      "right": "王根英",
-      "page": 83,
-      "note": "Wang Genying"
-    },
-    {
-      "wrong": "春节一,正当",
-      "right": "春节,正当",
-      "page": 92,
-      "note": "strip footnote-marker ① misread as 一"
-    },
-    {
-      "wrong": "i928年",
-      "right": "1928年",
-      "page": 92,
-      "note": "1928 (OCR i->1)"
-    },
-    {
-      "wrong": "10月工日",
-      "right": "10月1日",
-      "page": 78,
-      "note": "1 October (OCR 工->1)"
-    },
-    {
-      "wrong": "1927年2月7日",
-      "right": "1927年12月7日",
-      "page": 84,
-      "note": "7 Dec 1927, Lu Dongsheng joins CCP (scan-verified; OCR dropped 1)"
-    },
-    {
-      "wrong": "1983年$月24日",
-      "right": "1983年5月24日",
-      "page": 82,
-      "note": "24 May 1983 (scan-verified)"
-    },
-    {
-      "wrong": "五州",
-      "right": "五卅",
-      "page": 82,
-      "note": "May Thirtieth Movement (五卅)"
-    },
-    {
-      "wrong": "底康",
-      "right": "庶康",
-      "page": 77,
-      "note": "Chen Geng's alias Shukang"
-    },
-    {
-      "wrong": "盏闪部队",
-      "right": "军阀部队",
-      "page": 77,
-      "note": "a warlord's army"
-    },
-    {
-      "wrong": "湘盏鲁涤平",
-      "right": "湘军鲁涤平",
-      "page": 78,
-      "note": "Lu Diping's Hunan Army"
-    },
-    {
-      "wrong": "汗军杨希闵",
-      "right": "滇军杨希闵",
-      "page": 78,
-      "note": "Yang Ximin, Yunnan Army"
-    },
-    {
-      "wrong": "刘震叛乱",
-      "right": "刘震寰叛乱",
-      "page": 78,
-      "note": "Liu Zhenhuan (寰 dropped)"
-    },
-    {
-      "wrong": "陆连硅",
-      "right": "陆连奎",
-      "page": 89,
-      "note": "Lu Liankui, detective chief"
-    },
-    {
-      "wrong": "疗斐德路",
-      "right": "辣斐德路",
-      "page": 89,
-      "note": "Rue Lafayette"
-    },
-    {
-      "wrong": "林但渠",
-      "right": "林伯渠",
-      "page": 84,
-      "note": "Lin Boqu"
-    },
-    {
-      "wrong": "刘但承",
-      "right": "刘伯承",
-      "page": 84,
-      "note": "Liu Bocheng"
-    },
-    {
-      "wrong": "百接领导",
-      "right": "直接领导",
-      "page": 86,
-      "note": "直接 (OCR 直->百 injects phantom 100)"
-    }
-  ]
+ "ch00": [
+  {
+   "wrong": "苦介石",
+   "right": "蒋介石",
+   "page": 36,
+   "note": "Chiang Kai-shek; OCR 苦->蒋"
+  },
+  {
+   "wrong": "旨越领导",
+   "right": "卓越领导",
+   "page": 36,
+   "note": "卓越; OCR 旨->卓"
+  },
+  {
+   "wrong": "回忠发",
+   "right": "向忠发",
+   "page": 37,
+   "note": "Xiang Zhongfa; OCR 回->向"
+  },
+  {
+   "wrong": "磊顺章",
+   "right": "顾顺章",
+   "page": 37,
+   "note": "Gu Shunzhang; OCR 磊->顾"
+  },
+  {
+   "wrong": "干方百计",
+   "right": "千方百计",
+   "page": 3,
+   "note": "idiom 千方百计; OCR 干->千, else 百 reads as a phantom 100"
+  }
+ ],
+ "ch01": [
+  {
+   "wrong": "共在这里二了38年",
+   "right": "共在这里干了38年",
+   "page": 2,
+   "note": "干了 not 二了; the stray 二 injects a phantom number 2"
+  },
+  {
+   "wrong": "经过2小时战斗",
+   "right": "经过28小时战斗",
+   "page": 5,
+   "note": "28 hours (OCR dropped the 8)"
+  },
+  {
+   "wrong": "钙逮捕者$S00多人",
+   "right": "被逮捕者500多人",
+   "page": 6,
+   "note": "500+ arrested; OCR $S00->500, 钙->被"
+  },
+  {
+   "wrong": "娠宽",
+   "right": "尹宽",
+   "page": 6,
+   "note": "Yin Kuan; co-signatory of the telegram"
+  },
+  {
+   "wrong": "2时在武汉中央军事部",
+   "right": "当时在武汉中央军事部",
+   "page": 7,
+   "note": "当时 not 2时; stray 2 injects a phantom number"
+  },
+  {
+   "wrong": "肾荣至",
+   "right": "聂荣臻",
+   "page": 7,
+   "note": "Nie Rongzhen"
+  },
+  {
+   "wrong": "聂有栗色问六在武昌",
+   "right": "聂荣臻同志在武昌",
+   "page": 8,
+   "note": "Nie Rongzhen; heavy OCR garble, stray 六 injects a phantom 6"
+  },
+  {
+   "wrong": "那66人中挑选了30个",
+   "right": "那60人中挑选了30个",
+   "page": 8,
+   "note": "60 men (image reads 60, not 66)"
+  },
+  {
+   "wrong": "如S月17日",
+   "right": "如5月17日",
+   "page": 9,
+   "note": "5 May; OCR read the 5 as Latin S"
+  },
+  {
+   "wrong": "S月21日许克祥",
+   "right": "5月21日许克祥",
+   "page": 9,
+   "note": "21 May; OCR read the 5 as Latin S"
+  },
+  {
+   "wrong": "张国寿",
+   "right": "张国焘",
+   "page": 10,
+   "note": "Zhang Guotao"
+  },
+  {
+   "wrong": "张国厅",
+   "right": "张国焘",
+   "page": 3,
+   "note": "Zhang Guotao"
+  },
+  {
+   "wrong": "张国春",
+   "right": "张国焘",
+   "page": 3,
+   "note": "Zhang Guotao"
+  },
+  {
+   "wrong": "从九龙深水起乘船",
+   "right": "从九龙深水埗乘船",
+   "page": 11,
+   "note": "Sham Shui Po (深水埗), Kowloon"
+  },
+  {
+   "wrong": "陈钴与中央特科",
+   "right": "陈赓与中央特科",
+   "page": 14,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "履代英",
+   "right": "恽代英",
+   "page": 14,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "老百脸",
+   "right": "老白脸",
+   "page": 8,
+   "note": "'Old Whiteface' nickname; OCR 白->百 injects a phantom 100"
+  }
+ ],
+ "ch02": [
+  {
+   "wrong": "陈康",
+   "right": "陈赓",
+   "page": 61,
+   "note": "Chen Geng (Li Qiang quote: couldn't speak Shanghainese)"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "page": 67,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈广",
+   "right": "陈赓",
+   "page": 67,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "page": 67,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈钴",
+   "right": "陈赓",
+   "page": 67,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "能瑾于",
+   "right": "熊瑾玎",
+   "page": 65,
+   "note": "Xiong Jinding"
+  },
+  {
+   "wrong": "能瑾末",
+   "right": "熊瑾玎",
+   "page": 65,
+   "note": "Xiong Jinding"
+  },
+  {
+   "wrong": "熊瑾再",
+   "right": "熊瑾玎",
+   "page": 66,
+   "note": "Xiong Jinding"
+  },
+  {
+   "wrong": "能瑾再",
+   "right": "熊瑾玎",
+   "page": 67,
+   "note": "Xiong Jinding"
+  },
+  {
+   "wrong": "能弄再",
+   "right": "熊瑾玎",
+   "page": 67,
+   "note": "Xiong Jinding"
+  },
+  {
+   "wrong": "能琴末",
+   "right": "熊瑾玎",
+   "page": 67,
+   "note": "Xiong Jinding"
+  },
+  {
+   "wrong": "熊理末",
+   "right": "熊瑾玎",
+   "page": 67,
+   "note": "Xiong Jinding"
+  },
+  {
+   "wrong": "能老板",
+   "right": "熊老板",
+   "page": 65,
+   "note": "'Boss Xiong'"
+  },
+  {
+   "wrong": "周胃来",
+   "right": "周恩来",
+   "page": 66,
+   "note": "Zhou Enlai"
+  },
+  {
+   "wrong": "陈玉英",
+   "right": "陈琮英",
+   "page": 73,
+   "note": "Chen Congying, Ren Bishi's wife"
+  },
+  {
+   "wrong": "履代奖",
+   "right": "恽代英",
+   "page": 74,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "履代英",
+   "right": "恽代英",
+   "page": 74,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "爷代英",
+   "right": "恽代英",
+   "page": 74,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "人代英",
+   "right": "恽代英",
+   "page": 74,
+   "note": "Yun Daiying (self-styled 'cousin')"
+  },
+  {
+   "wrong": "必=代英",
+   "right": "恽代英",
+   "page": 74,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "将履提前",
+   "right": "将恽提前",
+   "page": 74,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "任吕时",
+   "right": "任弼时",
+   "page": 73,
+   "note": "Ren Bishi"
+  },
+  {
+   "wrong": "任络时",
+   "right": "任弼时",
+   "page": 73,
+   "note": "Ren Bishi"
+  },
+  {
+   "wrong": "任缠时",
+   "right": "任弼时",
+   "page": 73,
+   "note": "Ren Bishi"
+  },
+  {
+   "wrong": "茧德生",
+   "right": "彭德生",
+   "page": 73,
+   "note": "Peng Desheng, Ren Bishi's alias"
+  },
+  {
+   "wrong": "彭涛",
+   "right": "彭湃",
+   "page": 74,
+   "note": "Peng Pai (scan-verified)"
+  },
+  {
+   "wrong": "赵一螺",
+   "right": "赵一曼",
+   "page": 64,
+   "note": "Zhao Yiman"
+  },
+  {
+   "wrong": "1929年1月17日",
+   "right": "1929年11月17日",
+   "page": 73,
+   "note": "17 Nov 1929 (scan-verified)"
+  },
+  {
+   "wrong": "现云南中路71~ 173号",
+   "right": "现云南中路171~173号",
+   "page": 65,
+   "note": "171-173 (OCR dropped leading 1)"
+  },
+  {
+   "wrong": "二董店",
+   "right": "古董店",
+   "page": 76,
+   "note": "antique shop (OCR 古->二)"
+  },
+  {
+   "wrong": "戴荣奢",
+   "right": "戴荣鑫",
+   "page": 76,
+   "note": "Dai Rongxin (scan-verified 鑫)"
+  },
+  {
+   "wrong": "戴荣半",
+   "right": "戴荣鑫",
+   "page": 76,
+   "note": "Dai Rongxin (scan-verified 鑫)"
+  }
+ ],
+ "ch03": [
+  {
+   "wrong": "陈广",
+   "right": "陈赓",
+   "page": 78,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈记",
+   "right": "陈赓",
+   "page": 78,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "page": 78,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈短",
+   "right": "陈赓",
+   "page": 78,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "page": 78,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈鹿",
+   "right": "陈赓",
+   "page": 79,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈康",
+   "right": "陈赓",
+   "page": 84,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈钴",
+   "right": "陈赓",
+   "page": 81,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈笋",
+   "right": "陈赓",
+   "page": 83,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈厦",
+   "right": "陈赓",
+   "page": 84,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈乌",
+   "right": "陈赓",
+   "page": 85,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈委",
+   "right": "陈赓",
+   "page": 85,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈废",
+   "right": "陈赓",
+   "page": 86,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈煞",
+   "right": "陈赓",
+   "page": 92,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈唐",
+   "right": "陈赓",
+   "page": 93,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈文代理",
+   "right": "陈赓代理",
+   "page": 78,
+   "note": "Chen Geng (acting 3rd-div commander)"
+  },
+  {
+   "wrong": "陈夺电",
+   "right": "陈寿昌",
+   "page": 86,
+   "note": "Chen Shouchang"
+  },
+  {
+   "wrong": "欧介石",
+   "right": "蒋介石",
+   "page": 79,
+   "note": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "将介石",
+   "right": "蒋介石",
+   "page": 79,
+   "note": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "藉介石",
+   "right": "蒋介石",
+   "page": 93,
+   "note": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "蒋介右",
+   "right": "蒋介石",
+   "page": 92,
+   "note": "Chiang Kai-shek"
+  },
+  {
+   "wrong": "钱大钩",
+   "right": "钱大钧",
+   "page": 92,
+   "note": "Qian Dajun"
+  },
+  {
+   "wrong": "钱大钓",
+   "right": "钱大钧",
+   "page": 92,
+   "note": "Qian Dajun"
+  },
+  {
+   "wrong": "顾顺间",
+   "right": "顾顺章",
+   "page": 79,
+   "note": "Gu Shunzhang"
+  },
+  {
+   "wrong": "顾顺音",
+   "right": "顾顺章",
+   "page": 86,
+   "note": "Gu Shunzhang"
+  },
+  {
+   "wrong": "上户冬生",
+   "right": "卢冬生",
+   "page": 80,
+   "note": "Lu Dongsheng"
+  },
+  {
+   "wrong": "刘易",
+   "right": "刘鼎",
+   "page": 86,
+   "note": "Liu Ding"
+  },
+  {
+   "wrong": "殉阳新",
+   "right": "欧阳新",
+   "page": 86,
+   "note": "Ouyang Xin"
+  },
+  {
+   "wrong": "张克使",
+   "right": "张克侠",
+   "page": 90,
+   "note": "Zhang Kexia"
+  },
+  {
+   "wrong": "雇仲恺",
+   "right": "廖仲恺",
+   "page": 78,
+   "note": "Liao Zhongkai"
+  },
+  {
+   "wrong": "海参左",
+   "right": "海参崴",
+   "page": 80,
+   "note": "Vladivostok"
+  },
+  {
+   "wrong": "葛斯科引山大学",
+   "right": "莫斯科中山大学",
+   "page": 90,
+   "note": "Sun Yat-sen University, Moscow"
+  },
+  {
+   "wrong": "痊锡山",
+   "right": "阎锡山",
+   "page": 90,
+   "note": "Yan Xishan"
+  },
+  {
+   "wrong": "何基痒",
+   "right": "何基沣",
+   "page": 90,
+   "note": "He Jifeng"
+  },
+  {
+   "wrong": "时剑英",
+   "right": "叶剑英",
+   "page": 92,
+   "note": "Ye Jianying"
+  },
+  {
+   "wrong": "王根黄",
+   "right": "王根英",
+   "page": 83,
+   "note": "Wang Genying"
+  },
+  {
+   "wrong": "春节一,正当",
+   "right": "春节,正当",
+   "page": 92,
+   "note": "strip footnote-marker ① misread as 一"
+  },
+  {
+   "wrong": "i928年",
+   "right": "1928年",
+   "page": 92,
+   "note": "1928 (OCR i->1)"
+  },
+  {
+   "wrong": "10月工日",
+   "right": "10月1日",
+   "page": 78,
+   "note": "1 October (OCR 工->1)"
+  },
+  {
+   "wrong": "1927年2月7日",
+   "right": "1927年12月7日",
+   "page": 84,
+   "note": "7 Dec 1927, Lu Dongsheng joins CCP (scan-verified; OCR dropped 1)"
+  },
+  {
+   "wrong": "1983年$月24日",
+   "right": "1983年5月24日",
+   "page": 82,
+   "note": "24 May 1983 (scan-verified)"
+  },
+  {
+   "wrong": "五州",
+   "right": "五卅",
+   "page": 82,
+   "note": "May Thirtieth Movement (五卅)"
+  },
+  {
+   "wrong": "底康",
+   "right": "庶康",
+   "page": 77,
+   "note": "Chen Geng's alias Shukang"
+  },
+  {
+   "wrong": "盏闪部队",
+   "right": "军阀部队",
+   "page": 77,
+   "note": "a warlord's army"
+  },
+  {
+   "wrong": "湘盏鲁涤平",
+   "right": "湘军鲁涤平",
+   "page": 78,
+   "note": "Lu Diping's Hunan Army"
+  },
+  {
+   "wrong": "汗军杨希闵",
+   "right": "滇军杨希闵",
+   "page": 78,
+   "note": "Yang Ximin, Yunnan Army"
+  },
+  {
+   "wrong": "刘震叛乱",
+   "right": "刘震寰叛乱",
+   "page": 78,
+   "note": "Liu Zhenhuan (寰 dropped)"
+  },
+  {
+   "wrong": "陆连硅",
+   "right": "陆连奎",
+   "page": 89,
+   "note": "Lu Liankui, detective chief"
+  },
+  {
+   "wrong": "疗斐德路",
+   "right": "辣斐德路",
+   "page": 89,
+   "note": "Rue Lafayette"
+  },
+  {
+   "wrong": "林但渠",
+   "right": "林伯渠",
+   "page": 84,
+   "note": "Lin Boqu"
+  },
+  {
+   "wrong": "刘但承",
+   "right": "刘伯承",
+   "page": 84,
+   "note": "Liu Bocheng"
+  },
+  {
+   "wrong": "百接领导",
+   "right": "直接领导",
+   "page": 86,
+   "note": "直接 (OCR 直->百 injects phantom 100)"
+  }
+ ],
+ "ch04": [
+  {
+   "wrong": "刘瞻",
+   "right": "刘鼎",
+   "page": 51,
+   "note": "Liu Ding"
+  },
+  {
+   "wrong": "刘里",
+   "right": "刘鼎",
+   "page": 51,
+   "note": "Liu Ding"
+  },
+  {
+   "wrong": "刘虹",
+   "right": "刘鼎",
+   "page": 51,
+   "note": "Liu Ding"
+  },
+  {
+   "wrong": "刘蜡",
+   "right": "刘鼎",
+   "page": 52,
+   "note": "Liu Ding"
+  },
+  {
+   "wrong": "刘曙",
+   "right": "刘鼎",
+   "page": 52,
+   "note": "Liu Ding"
+  },
+  {
+   "wrong": "刘晤",
+   "right": "刘鼎",
+   "page": 55,
+   "note": "Liu Ding"
+  },
+  {
+   "wrong": "刘允",
+   "right": "刘鼎",
+   "page": 55,
+   "note": "Liu Ding"
+  },
+  {
+   "wrong": "刘淆",
+   "right": "刘鼎",
+   "page": 56,
+   "note": "Liu Ding"
+  },
+  {
+   "wrong": "刘晶",
+   "right": "刘鼎",
+   "page": 54,
+   "note": "Liu Ding (guangming interview)"
+  },
+  {
+   "wrong": "刘轩",
+   "right": "刘鼎",
+   "page": 58,
+   "note": "Liu Ding"
+  },
+  {
+   "wrong": "刘蜀",
+   "right": "刘鼎",
+   "page": 58,
+   "note": "Liu Ding"
+  },
+  {
+   "wrong": "刘易",
+   "right": "刘鼎",
+   "page": 51,
+   "note": "Liu Ding (the dominant garble)"
+  },
+  {
+   "wrong": "阐思俊",
+   "right": "阚思俊",
+   "page": 51,
+   "note": "Liu Ding original name Kan Sijun"
+  },
+  {
+   "wrong": "羡泽民",
+   "right": "阚泽民",
+   "page": 51,
+   "note": "Liu Ding alias Kan Zemin"
+  },
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "page": 51,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "page": 56,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈记",
+   "right": "陈赓",
+   "page": 65,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈广",
+   "right": "陈赓",
+   "page": 65,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈庚",
+   "right": "陈赓",
+   "page": 72,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "陈废",
+   "right": "陈赓",
+   "page": 56,
+   "note": "Chen Geng (approval)"
+  },
+  {
+   "wrong": "柯罕",
+   "right": "柯麟",
+   "page": 59,
+   "note": "Ke Lin"
+  },
+  {
+   "wrong": "柯据",
+   "right": "柯麟",
+   "page": 60,
+   "note": "Ke Lin"
+  },
+  {
+   "wrong": "柯所",
+   "right": "柯麟",
+   "page": 60,
+   "note": "Ke Lin"
+  },
+  {
+   "wrong": "柯饼",
+   "right": "柯麟",
+   "page": 62,
+   "note": "Ke Lin"
+  },
+  {
+   "wrong": "柯赫",
+   "right": "柯麟",
+   "page": 65,
+   "note": "Ke Lin"
+  },
+  {
+   "wrong": "柯蔚",
+   "right": "柯麟",
+   "page": 65,
+   "note": "Ke Lin"
+  },
+  {
+   "wrong": "柯记",
+   "right": "柯麟",
+   "page": 66,
+   "note": "Ke Lin"
+  },
+  {
+   "wrong": "柯岂",
+   "right": "柯麟",
+   "page": 64,
+   "note": "Ke Lin"
+  },
+  {
+   "wrong": "柯鹿",
+   "right": "柯麟",
+   "page": 62,
+   "note": "Ke Lin"
+  },
+  {
+   "wrong": "柯刨",
+   "right": "柯麟",
+   "page": 67,
+   "note": "Ke Lin"
+  },
+  {
+   "wrong": "锅诚",
+   "right": "贺诚",
+   "page": 62,
+   "note": "He Cheng"
+  },
+  {
+   "wrong": "锅减",
+   "right": "贺诚",
+   "page": 65,
+   "note": "He Cheng"
+  },
+  {
+   "wrong": "锅龙",
+   "right": "贺龙",
+   "page": 72,
+   "note": "He Long"
+  },
+  {
+   "wrong": "货龙",
+   "right": "贺龙",
+   "page": 72,
+   "note": "He Long"
+  },
+  {
+   "wrong": "彭涯",
+   "right": "彭湃",
+   "page": 61,
+   "note": "Peng Pai"
+  },
+  {
+   "wrong": "彭洲",
+   "right": "彭湃",
+   "page": 60,
+   "note": "Peng Pai"
+  },
+  {
+   "wrong": "彭洗",
+   "right": "彭湃",
+   "page": 61,
+   "note": "Peng Pai"
+  },
+  {
+   "wrong": "茧涯",
+   "right": "彭湃",
+   "page": 64,
+   "note": "Peng Pai"
+  },
+  {
+   "wrong": "芝涯",
+   "right": "彭湃",
+   "page": 64,
+   "note": "Peng Pai"
+  },
+  {
+   "wrong": "艾涯",
+   "right": "彭湃",
+   "page": 64,
+   "note": "Peng Pai"
+  },
+  {
+   "wrong": "陈养出",
+   "right": "陈养山",
+   "page": 68,
+   "note": "Chen Yangshan"
+  },
+  {
+   "wrong": "陈蛮山",
+   "right": "陈养山",
+   "page": 72,
+   "note": "Chen Yangshan"
+  },
+  {
+   "wrong": "陈夺虽",
+   "right": "陈寿昌",
+   "page": 76,
+   "note": "Chen Shouchang"
+  },
+  {
+   "wrong": "陈寿虽",
+   "right": "陈寿昌",
+   "page": 75,
+   "note": "Chen Shouchang"
+  },
+  {
+   "wrong": "陈寿吕",
+   "right": "陈寿昌",
+   "page": 77,
+   "note": "Chen Shouchang"
+  },
+  {
+   "wrong": "陈寿员",
+   "right": "陈寿昌",
+   "page": 78,
+   "note": "Chen Shouchang"
+  },
+  {
+   "wrong": "匈代英",
+   "right": "恽代英",
+   "page": 70,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "怪代英",
+   "right": "恽代英",
+   "page": 70,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "那代英",
+   "right": "恽代英",
+   "page": 70,
+   "note": "Yun Daiying (article title)"
+  },
+  {
+   "wrong": "履代英",
+   "right": "恽代英",
+   "page": 70,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "业代英",
+   "right": "恽代英",
+   "page": 70,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "必=代英",
+   "right": "恽代英",
+   "page": 68,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "人必代英",
+   "right": "恽代英",
+   "page": 63,
+   "note": "Yun Daiying"
+  },
+  {
+   "wrong": "任强时",
+   "right": "任弼时",
+   "page": 70,
+   "note": "Ren Bishi"
+  },
+  {
+   "wrong": "魏记祖",
+   "right": "魏宸祖",
+   "page": 54,
+   "note": "Wei Chenzu, minister to Germany"
+  },
+  {
+   "wrong": "魏雇祖",
+   "right": "魏宸祖",
+   "page": 54,
+   "note": "Wei Chenzu"
+  },
+  {
+   "wrong": "杜月笔",
+   "right": "杜月笙",
+   "page": 56,
+   "note": "Du Yuesheng"
+  },
+  {
+   "wrong": "陈宝双",
+   "right": "陈宝骅",
+   "page": 56,
+   "note": "Chen Baohua"
+  },
+  {
+   "wrong": "余世令",
+   "right": "余世颂",
+   "page": 70,
+   "note": "Yu Shisong"
+  },
+  {
+   "wrong": "优野学",
+   "right": "佐野学",
+   "page": 75,
+   "note": "Sano Manabu"
+  },
+  {
+   "wrong": "估野学",
+   "right": "佐野学",
+   "page": 76,
+   "note": "Sano Manabu"
+  },
+  {
+   "wrong": "优野尝",
+   "right": "佐野学",
+   "page": 76,
+   "note": "Sano Manabu"
+  },
+  {
+   "wrong": "白蠢",
+   "right": "白鑫",
+   "page": 64,
+   "note": "Bai Xin, traitor"
+  },
+  {
+   "wrong": "白讲",
+   "right": "白鑫",
+   "page": 64,
+   "note": "Bai Xin"
+  },
+  {
+   "wrong": "白春",
+   "right": "白鑫",
+   "page": 64,
+   "note": "Bai Xin"
+  },
+  {
+   "wrong": "白夺",
+   "right": "白鑫",
+   "page": 74,
+   "note": "Bai Xin"
+  },
+  {
+   "wrong": "杨登注",
+   "right": "杨登瀛",
+   "page": 71,
+   "note": "Yang Dengying"
+  },
+  {
+   "wrong": "杨登党",
+   "right": "杨登瀛",
+   "page": 71,
+   "note": "Yang Dengying"
+  },
+  {
+   "wrong": "杨登沪",
+   "right": "杨登瀛",
+   "page": 71,
+   "note": "Yang Dengying"
+  },
+  {
+   "wrong": "饱君甫",
+   "right": "鲍君甫",
+   "page": 71,
+   "note": "Bao Junfu = Yang Dengying"
+  },
+  {
+   "wrong": "刘们请",
+   "right": "刘伯承",
+   "page": 55,
+   "note": "Liu Bocheng, commander"
+  },
+  {
+   "wrong": "外维埃",
+   "right": "苏维埃",
+   "page": 55,
+   "note": "Soviet"
+  },
+  {
+   "wrong": "上上钻县",
+   "right": "上虞县",
+   "page": 68,
+   "note": "Shangyu county, Zhejiang"
+  },
+  {
+   "wrong": "阔西",
+   "right": "闽西",
+   "page": 65,
+   "note": "western Fujian"
+  },
+  {
+   "wrong": "向国西发展",
+   "right": "向闽西发展",
+   "page": 66,
+   "note": "Red Army into western Fujian"
+  },
+  {
+   "wrong": "同季医院",
+   "right": "同德医院",
+   "page": 65,
+   "note": "Tongde Hospital, Xiamen"
+  },
+  {
+   "wrong": "回年六七月间",
+   "right": "同年六七月间",
+   "page": 77,
+   "note": "'same year, 6th-7th month' (lost 。同)"
+  },
+  {
+   "wrong": "宣言2",
+   "right": "宣言》",
+   "page": 53,
+   "note": "garbled book-title bracket"
+  },
+  {
+   "wrong": "名誉9",
+   "right": "名誉。",
+   "page": 58,
+   "note": "stray inline note-marker (9)"
+  },
+  {
+   "wrong": "传奇式的人物。\"4",
+   "right": "传奇式的人物。”",
+   "page": 59,
+   "note": "stray inline note-marker (10)"
+  },
+  {
+   "wrong": "同志陷明起沙”7",
+   "right": "同志陷明起沙”",
+   "page": 63,
+   "note": "stray inline note-marker (7)"
+  },
+  {
+   "wrong": "领导权六公医",
+   "right": "领导权;公医",
+   "page": 61,
+   "note": "garbled semicolon (6)"
+  },
+  {
+   "wrong": "社会人十和",
+   "right": "社会人士和",
+   "page": 67,
+   "note": "ren-shi garbled ren-shi (10)"
+  },
+  {
+   "wrong": "进步人十家",
+   "right": "进步人士家",
+   "page": 75,
+   "note": "ren-shi garbled (10)"
+  },
+  {
+   "wrong": "月然二分高兴",
+   "right": "自然十分高兴",
+   "page": 65,
+   "note": "garbled ziran shifen"
+  },
+  {
+   "wrong": "12月1日",
+   "right": "12月17日",
+   "page": 76,
+   "note": "dropped digit: Dec 17 not Dec 1 (crop-verified)"
+  }
+ ]
 }
