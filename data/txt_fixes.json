@@ -1,0 +1,7 @@
+[
+  {"page": 37, "wrong": "特务1", "right": "特务！", "why": "OCR read fullwidth ！ as digit 1; exclaimed 惊呼 '特务！'. Restores the sentence-end so assemble splits the following paragraph."},
+  {"page": 38, "wrong": "政权1", "right": "政权！", "why": "OCR ！->1 in Mao's quoted line 枪杆子里面出政权！; restores paragraph split."},
+  {"page": 64, "wrong": "乱动1", "right": "乱动！", "why": "OCR ！->1 at an exclaimed command; restores paragraph split."},
+  {"page": 76, "wrong": "血路来1", "right": "血路来！", "why": "OCR ！->1 in quoted 杀出一条血路来！; restores paragraph split."},
+  {"page": 80, "wrong": "反革命1", "right": "反革命！", "why": "OCR ！->1 in quoted speech ...是反革命！; restores paragraph split."}
+]

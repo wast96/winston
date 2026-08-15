@@ -28,7 +28,43 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ZH = os.path.join(ROOT, "data", "zh")
+TXT = os.path.join(ROOT, "data", "txt")
 LEDGER = os.path.join(ROOT, "data", "ocr_fixes.json")
+TXT_LEDGER = os.path.join(ROOT, "data", "txt_fixes.json")
+
+
+def apply_txt(fixes, verbose=True):
+    """Apply per-PAGE OCR corrections to data/txt/p####.txt BEFORE assembly.
+
+    Some OCR mangles are not just wrong characters, they change the PARAGRAPH
+    STRUCTURE: tesseract reads a fullwidth exclamation ！ as the digit 1, so
+    assemble.py's sentence-end gate never fires and two source paragraphs weld
+    into one. A fix recorded in the zh ledger cannot undo that -- by the time
+    it runs, the merge has already happened. These corrections therefore live
+    in data/txt_fixes.json and are replayed here on the per-page text, so a
+    fresh checkout re-segments correctly instead of reproducing the merge.
+
+    Ledger form: [{"page": 37, "wrong": "...", "right": "...", "why": "..."}].
+    """
+    applied, missing = 0, []
+    for f in fixes:
+        p = os.path.join(TXT, "p%04d.txt" % f["page"])
+        if not os.path.exists(p):
+            missing.append(f)
+            continue
+        text = open(p).read()
+        n = text.count(f["wrong"])
+        if n:
+            open(p, "w").write(text.replace(f["wrong"], f["right"]))
+            applied += n
+        else:
+            missing.append(f)
+    if verbose:
+        print("  txt (pre-assembly): %d fix(es) applied, %d not found"
+              % (applied, len(missing)))
+        for f in missing:
+            print("      not found on p%s: %r" % (f.get("page", "?"), f["wrong"]))
+    return applied, len(missing)
 
 
 def apply_unit(unit, fixes, verbose=True):
@@ -60,7 +96,20 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("units", nargs="*")
     ap.add_argument("--all", action="store_true")
+    ap.add_argument("--txt", action="store_true",
+                    help="apply data/txt_fixes.json to the per-page OCR text "
+                         "BEFORE assembly (paragraph-structure OCR fixes); run "
+                         "this, then re-run assemble.py, then apply the zh "
+                         "ledger with the normal invocation")
     a = ap.parse_args()
+
+    if a.txt:
+        if not os.path.exists(TXT_LEDGER):
+            print("no txt ledger at %s" % TXT_LEDGER)
+            return 1
+        print("pre-assembly OCR corrections (per page)")
+        apply_txt(json.load(open(TXT_LEDGER)))
+        return 0
 
     if not os.path.exists(LEDGER):
         print("no ledger at %s" % LEDGER)
