@@ -1,0 +1,351 @@
+## The Battle of Toba-Fushimi (II)
+
+That New Year's Day, Toshizō sat the whole day long on the open veranda, still in the heavy war-gear of armor and surcoat. Before him lay the white-graveled court. All at once the air about him had turned bitter cold.
+
+(Grown dark, damn it.)
+
+The sun was going down behind an old chinaberry tree. The first day of the year of "Boshin" — which one might call a second Warring-States age in the nation's history — had come to its close.
+
+"Ha-ha — gone dark again today, has it."
+
+Toshizō was in a good humor, uncannily so.
+
+"Toshi, and what of it that it's grown dark?"
+
+{j} — but Kondō, who would have asked it back at him, was no longer at his side. And had Okita Sōji, sent back to Osaka along with Kondō, been here,
+
+"Do you live for the sake of a fight, Hijikata-san?"
+
+{j} he would have teased. Toshizō, in a fret of impatience, could hardly wait for the war to open.
+
+But New Year's Day drew to its quiet close.
+
+The second, too, passed without event.
+
+But this day there was some little change. An advance party of three hundred Aizu men came by boat from Osaka and entered the Higashi Hongan-ji branch temple in Fushimi.
+
+Their messenger came to pay respects to the Shinsengumi at the Fushimi Magistrate's office.
+
+"The main force should reach these parts tomorrow, the third."
+
+{j} said the messenger.
+
+(The battle will be tomorrow.)
+
+Toshizō was looking at a map.
+
+There were three roads by which one entered Kyoto from the direction of Osaka: the Toba Highway (the Osaka Highway, roughly the present Keihan National Road), the Takeda Highway, and the Fushimi road. By the messenger's account, they would push hard up all three of these roads and enter Kyoto.
+
+Naturally, they would collide with the Satsuma, Chōshū, and Tosa corps of the Kyoto side, drawn up east and west from Fushimi across to Toba.
+
+(This'll be good.)
+
+Toshizō, unable to keep still, climbed the watchtower again this day.
+
+The wind was cold enough to cut the flesh.
+
+Toshizō took out a French-made telescope and looked far off over the intended battlefield.
+
+It could not, of course, be seen even through the telescope, but intelligence had it that the main body of the Satsuma army, five hundred men, was at the Tō-ji in Kyoto. Running straight south from the Tō-ji was the Osaka Highway (the Toba Highway). The Satsuma han held this road. Its outpost force, two hundred and fifty men, had pushed south as far as Koeda in the village of Shimo-Toba and drawn up its line there.
+
+Guns: eight.
+
+Eight guns to a force of two hundred and fifty men was a lavishness without precedent in Japanese military history. It must be taken as an expression of the tactical thinking of the Satsuma han, which since the Anglo-Satsuma War had become extreme in its stress on artillery. The captain of this outpost position was the Satsuma samurai Nozu Shizuo. His younger brother Michitsura was posted there too — the man who would later become commander of the Fourth Army in the Russo-Japanese War, famed for his valor. A field marshal, and a marquis.
+
+(But their numbers are too few.)
+
+{j} thought Toshizō.
+
+Turning the telescope further east, he looked at the townscape of Fushimi at his feet.
+
+Fushimi was a town laid out on a Kyoto-style plan, its streets a checkerboard grid, its houses packed close together. Here there would be street-fighting, a rare thing in Japanese military history. Street-fighting was a specialty of the Shinsengumi.
+
+The Gokō-no-miya, right under his nose, was the Satsuma post, and here were eight hundred men.
+
+Behind it, along the Fushimi road, a thousand Chōshū troops were massed, their chief commander Mōri Takumi. The staff officer was the Chōshū samurai Yamada Akiyoshi (after the Restoration he became an army major-general, then turned administrator and held in succession the offices of Home Minister, Minister of Justice, and the rest; a count), and among the corps commanders was the later Miura Gorō (Kanju).
+
+On the Takeda Highway were a hundred-odd Tosa troops. As their reserve a battalion stood behind them, its commander Tani Tateki (later an army lieutenant-general, known as commander of the Kumamoto garrison in the Satsuma Rebellion; a viscount), and among the company commanders was Yamaji Motoharu, the "one-eyed-dragon general" who in the Sino-Japanese War would take the fortress of Port Arthur in a single night.
+
+These Fushimi units would be the enemy directly before Toshizō.
+
+(Fewer guns than I'd have thought, next to the Toba quarter.)
+
+{j} Toshizō observed.
+
+(This one we win.)
+
+Anyone looking would have thought the same. The soldiers of the three han — Satsuma, Chōshū, Tosa — in Kyoto did not come to even an eighth of the shogunal army's movable strength at Osaka.
+
+This day, the Fushimi Shinsengumi raised, besides its own "Makoto" banner, the Rising-Sun flag.
+
+It was the banner of the whole shogunal army. Or rather, they had it in their heads that the shogunal side, seen from an international standpoint (for all that power had been returned to the throne), was the government army of Japan. This, it may be thought, was a notion planted by the pro-shogunate French minister.
+
+Satsuma and Chōshū and Tosa were not yet the "Imperial army." For most of the court nobles and lords in attendance at the palace were against the hard line of Satsuma and Chōshū toward the Tokugawa, and were of a mind that, should fighting break out, it was a private quarrel of Satsuma and Chōshū, with which the Kyoto Court would have nothing to do. Nine cases out of ten, the court nobles reckoned the shogunal army would win. And if it won, the shogunal army would become the Imperial army. (Even the leaders of Satsuma and Chōshū were not sure of winning. Should they lose, they meant to carry off the boy Son of Heaven along the San'in road and wait for the outer daimyō of the Chūgoku and the western provinces to rise. Yoshii Kōsuke, one of the Satsuma han's leaders, said as much: "The survival or ruin of Satsuma and Chōshū — what is that worth arguing over?" For Satsuma and Chōshū it was, by now, a desperate gamble.)
+
+The third —
+
+{j} The day of destiny.
+
+This day, the Aizu troops who had set out from Osaka Castle overnight arrived in force at Fushimi and entered the Fushimi Magistrate's office.
+
+Toshizō met them before the gate.
+
+"Ah, Hijikata-san."
+
+{j} The one who clapped him on the shoulder was the old commander Hayashi Gonsuke. He was sixty-three at this time. His face was red, and his gray eyebrows were curled and frizzed.
+
+The Hayashi were a distinguished house among the Aizu retainers, the name Gonsuke passing down from generation to generation, and Gonsuke Yasusada had been from his youth a noted character, known for his rough soldierly ways. Ever since the Aizu han had been charged with the office of Kyoto Protector, he had held the post of commissioner of artillery.
+
+When Toshizō, some time before,
+
+{j} "Give the Shinsengumi a few cannon too"
+
+{j} negotiated with the Aizu han for it, the han's liaison officer Toshima Kihee, who stood between them, was much put out; but Hayashi Gonsuke,
+
+"Aye, I'll let you have one,"
+
+{j} gave one, offhand.
+
+After that, Toshizō had shared wine with the old man several times at the Aizu headquarters at Kurodani, and Gonsuke, too, seemed to have taken a great liking to Toshizō.
+
+Gonsuke drank his wine by the bucketful.
+
+"You're a fine one,"
+
+{j} Gonsuke had once praised Toshizō.
+
+"What I like is that, drink as you may, you never hold forth on the realm and the state."
+
+Whether that was praise or no — but then, right after,
+
+{j} "Same as me,"
+
+{j} he added. He was an old man who meant to be a man of arms through and through.
+
+Drunk, he had no party-trick. Only — though it could hardly be called a trick — now and then,
+
+{j} "We shall now play the Asobi,"
+
+{j} he would say, mimicking the voice of a small child.
+
+The "Asobi" was a kind of social society among the children of the upper samurai of the Aizu han; on reaching the age of six or seven, a child entered this society called the "Asobi."
+
+The upper samurai of the Aizu han numbered about eight hundred households. These were divided by district into eight Asobi groups, with children of nine as the eldest.
+
+In the mornings they attended the temple school, and in the afternoons they gathered at someone's house.
+
+There they lined up in order of age, and the eldest — an early-born child of nine — became the head of the circle, and,
+
+{j} "We shall now say the words,"
+
+{j} sitting formally, he would recite the precepts of the "Asobi."
+
+One: You must listen to what your elders say.
+
+Two: You must bow to your elders.
+
+Three: You must not tell a lie.
+
+Four: You must not behave in a cowardly way.
+
+Five: You must not bully the weak.
+
+Six: You must not eat out of doors.
+
+Seven: You must not exchange words with a woman out of doors.
+
+Perhaps it was that drink turned Gonsuke back to a child's heart; he would chant these out at the top of his voice and play at being a boy again. In the present day it would be like singing a nursery song at a drinking-party. That, and that alone, was the man's turn at a party.
+
+He held licenses in spear and sword, and was especially versed in the Naganuma school, the military science of Aizu; set him to direct a drill, and he was matchless at it.
+
+That, no doubt, was why the Aizu han had put the command of the Fushimi quarter this time in the hands of this sixty-three-year-old man.
+
+The guns of Hayashi's unit were three. Rumbling their wheels, they came in at the gate of the Magistrate's office.
+
+"Hijikata-san, how do things stand?"
+
+{j} Hayashi Gonsuke jerked his chin to the north. He was asking about the layout of the Satsuma and Chōshū positions.
+
+"Let me take you up to the watchtower presently."
+
+{j} and Toshizō first spread out a map of his own making.
+
+Gonsuke, marveling,
+
+{j} "Well, well,"
+
+{j} and his eyes shone like a child's.
+
+"Who made this map?"
+
+"I did."
+
+{j} said Toshizō. Ever since his fighting days along the banks of the Tama River, this man had always scouted the ground and made a map before he went at it. It was no military science taught him by anyone; it was what Toshizō had gained for himself in the course of fight upon fight.
+
+"This is the Hijikata school of military science, then,"
+
+{j} said Gonsuke of the Naganuma school, with a sound in his throat. It was the old man's habit when he was pleased.
+
+Toshizō's map was a precise thing. He had surveyed the ground thoroughly before drawing it, and had entered on it, in fine detail, the enemy's dispositions as learned from intelligence and the rest.
+
+"Is it with this that you will fight?"
+
+"No — this disposition of the enemy is only how it stands this very moment. Let one more hour pass and there's no telling how it will change. Before a fight, I forget it."
+
+{j} and before Gonsuke's eyes he tore it up and tossed it into the brazier at his side.
+
+It went up with a whoosh.
+
+The enemy's situation changes; do not be bound by it — such, no doubt, was his meaning.
+
+"The Hijikata school, indeed,"
+
+{j} Gonsuke made the sound in his throat again. He was mightily taken with the man he was to fight beside.
+
+"Hijikata-san, if you and I fight a hard fight of it, there'll be no enemy that can stand before us."
+
+"Shall we pour a cup?"
+
+"No — the wine after we've won. I'll let you hear that Asobi of the Aizu children again."
+
+The two of them took their midday meal together.
+
+After that, they climbed the watchtower.
+
+"Look there,"
+
+{j} and Toshizō pointed just below them. The Gokō-no-miya was as near as that — right underfoot.
+
+There stood the Satsuma stronghold. From the north wall of the Magistrate's office it would be some twenty meters.
+
+"Hijikata-san — it's changed."
+
+{j} Gonsuke thrust out his neck.
+
+"It's already different from your map. The Satsuma have grown in number."
+
+That was why Toshizō had torn up the map. There is no knowing how an enemy will change.
+
+Toshizō looked through the telescope.
+
+True enough, the Satsuma army had grown.
+
+They had responded keenly to the reinforcement of the Magistrate's office by Hayashi's Aizu unit.
+
+On the east side of the Gokō-no-miya was a small hill. The local people called it Ryūunji-yama, though it was no high ground worth the name of a mountain.
+
+There stood the Satsuma han's artillery position. It had been reinforced to nearly twice its size.
+
+The artillery captain sent in reinforcement was Ōyama Yasuke, captain of the Satsuma han's Second Gun-battery — the later Ōyama Iwao, commander-in-chief of the Manchurian Army in the Russo-Japanese War, and twenty-seven at the time. He had gone up to Edo early to study gunnery, and had taken part in the Anglo-Satsuma War too as a gun-platoon commander. A young man fond of a joke,
+
+{j} "There goes Ōyama with his jokes again,"
+
+{j} he was a sort of favorite among his fellows for it; but this day, hurrying from Kyoto to Fushimi, he scarcely spoke a word.
+
+Hauling the four-kin field guns up Ryūunji-yama, he at once laid out his firing line.
+
+Below lay the Fushimi Magistrate's office. Fire at random, and every shell would strike home.
+
+"That Ryūunji-yama —"
+
+{j} said Hayashi Gonsuke.
+
+"Was it not, at first, a defensive position of the Hikone han?"
+
+"It was."
+
+{j} said Toshizō.
+
+"A Hikone han position. But at some point they went over to the Satsuma han, cleared out of the position, and let the Satsuma gunners in."
+
+"The Ii of Hikone, you say —"
+
+It went without saying. Since Ieyasu, the Ii had by fixed custom been the vanguard of the Tokugawa army. Their house was the foremost of the hereditary daimyō, of a standing to furnish the Great Elder of the shogunal council.
+
+"And they have turned their coat?"
+
+"Idle grumbling,"
+
+{j} said Toshizō.
+
+"Best left unsaid. More to the point — with guns set on that hill, it's like having stones dropped on you from an upper storey. When the war opens, will you smash that thing for me at once with the Aizu guns?"
+
+"To be sure."
+
+Gonsuke had the look of a Warring-States warrior about him. Indeed, he had cased his old body in armor handed down through the generations.
+
+***
+
+The two of them came down from the watchtower. Some little time went by.
+
+About that time, away to the west on the Osaka Highway (the Toba Highway), a vast number of shogunal troops were moving north.
+
+In the van was a force under the name of an "escort" for Takigawa Harima-no-kami, the shogunal chief inspector who, as Yoshinobu's deputy, carried the Memorial to Chastise Satsuma — a strength of two battalions of French-style shogunal infantry (seven hundred men), four guns, and the two hundred of the Mimawarigumi under Sasaki Tadasaburō. And at some interval behind, the main body of the shogunal army following had come as far as Yamazaki.
+
+This vanguard of Takigawa Harima-no-kami advanced north up the Toba Highway and came to Yotsuzuka in Toba.
+
+At Yotsuzuka the Satsuma soldiers had set up a position and made a barrier.
+
+The shogunal army sent a messenger and first asked leave to pass the barrier.
+
+The Satsuma inspector of troops was Shiihara Koyata. Taking only one other man with him, he boldly set out on foot along the road toward the shogunal army.
+
+"Who are you?"
+
+{j} the shogunal Takigawa Harima-no-kami said from his horse, high and haughty, they say. Were the times other than they were, he was the shogunate's chief inspector, and the other no more than a rear-vassal.
+
+"I be the keeper of this barrier,"
+
+{j} Shiihara Koyata answered calmly, ringed about though he was by the shogunal army.
+
+What followed was a wrangle of let-us-pass and you-shall-not.
+
+(No use in talk.)
+
+{j} so the shogunal army must have thought.
+
+During the parley with Shiihara, the infantry director Ishikawa Hyappei ran secretly to the gun-battery and,
+
+{j} — Fire on the Satsuma.
+
+{j} he ordered.
+
+These were, after all, guns on the march. They loaded the shells and worked the wheels and were just on the point of bringing the muzzles round to the north.
+
+At that moment, the Satsuma artillery position was the quicker to belch fire. It was a firing order given on the artillery commander Nozu Shizuo's own decision.
+
+The shell flew, struck the carriage of one of the shogunal army's guns as it was being worked, and burst with a roar.
+
+The gun-carriage was shattered, and the two men at its side, the infantry directors Ishikawa Hyappei and Ōkawara Shinzō, were blown to bits of flesh.
+
+This one shell of Nozu's became the first shot of the Battle of Toba-Fushimi, and of the Boshin War that followed upon it. The time was about five in the afternoon. The sun was already going down.
+
+This report of guns, and the sound of the fierce rifle-fire that followed, was heard at Fushimi just to the east.
+
+"It's begun,"
+
+{j} and Hayashi Gonsuke swiftly threw open the palisade gate built to the north of the Magistrate's office, brought his guns forward, and fired the first round into the Satsuma artillery position on Ryūunji-yama. At that, the one hundred and fifty Shinsengumi guarding the rear gate made to burst out into the road, but Toshizō held them back,
+
+"Now, now — pour the send-off cup to speed us on our way,"
+
+{j} and broke open the lid of a sake-cask made ready — so a legend has it, still current in those parts.
+
+They all passed the ladle round and drank, and before every man had drunk his fill, the Satsuma shells fired from the two points, the Gokō-no-miya and Ryūunji-yama, came falling in quick succession and began to smash the roofs and eaves here and there.
+
+"Not yet —"
+
+{j} and Toshizō once more held back the men who would have rushed forward,
+
+"What can two or three shells do? Take them for the fireworks of a drinking-party."
+
+{j} and he stilled the ranks until every man had finished his cup, and then,
+
+"Second Unit, forward!"
+
+{j} he sent up a voice like thunder. The captain of the Second Unit was Nagakura Shinpachi. Shimada Kai, Itō Tetsugorō, Nakamura Kojirō, Tamura Tajirō, Takeuchi Genzaburō — eighteen men in all.
+
+"Forward!"
+
+{j} "Forward" — but before them stood the wall of their own Magistrate's office.
+
+Nagakura and the others climbed it, and climbed it, and dropped down into the road.

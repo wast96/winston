@@ -1056,6 +1056,12 @@
       "pinyin": "Ōkubo Ichizō",
       "status": "attested",
       "note": "&#332;kubo Toshimichi (1830&#8211;1878), the Satsuma statesman who, with Saig&#333; and Kido, drove the Restoration and then built the Meiji state; Ichiz&#333; was his earlier name. He was assassinated in 1878."
+    },
+    "林権助": {
+      "en": "Hayashi Gonsuke",
+      "pinyin": "Hayashi Gonsuke",
+      "status": "decided",
+      "note": "Hayashi Gonsuke (Yasusada), the 63-year-old Aizu commissioner of artillery who commanded the Aizu contingent at Fushimi; killed in the fighting there."
     }
   },
   "places": {
@@ -1526,6 +1532,12 @@
       "pinyin": "Gettsuin",
       "status": "attested",
       "note": "A sub-temple of K&#333;dai-ji; the Gory&#333;-eji made it their headquarters, whence they were called the K&#333;dai-ji party."
+    },
+    "御香宮": {
+      "en": "Gokō-no-miya",
+      "pinyin": "Gokō-no-miya",
+      "status": "decided",
+      "note": "The Gokō-no-miya shrine at Fushimi; its wooded precinct became the Satsuma army's forward post in 1868, directly north of the Magistracy."
     }
   },
   "organizations": {
@@ -1818,6 +1830,12 @@
       "pinyin": "Horikawa Kunihiro",
       "status": "attested",
       "note": "A short-sword of the Kyoto smith Horikawa Kunihiro (c.1531&#8211;1614); Toshiz&#333;&#8217;s companion blade to the long Izumi-no-kami Kanesada (see ch12, ch17)."
+    },
+    "王政復古": {
+      "en": "the Restoration of Imperial Rule",
+      "pinyin": "the Restoration of Imperial Rule",
+      "status": "decided",
+      "note": "The Ōsei Fukko coup of Keiō 3/12/9 (3 January 1868): the shogunate and regency abolished, direct Imperial rule declared."
     }
   }
 }

@@ -1174,3 +1174,79 @@ now 272. Glossary 296 rows. 38 of 71 chapters translated.
   (9 Nov 1867), accepted next day — CORROBORATED (novel's date exact).
 - Tsukiji Hotel (Teppōzu), Japan's first Western hotel, begun 1867 for foreign
   residents — CORROBORATED.
+
+## B09 (ch39–ch43) — 剣の運命 / 大暗転 / 伏見の歳三 / 鳥羽伏見の戦い・その一・その二
+
+Batch 9 complete. ch39 剣の運命 "The Sword's Fate" (the ABURANOKŌJI INCIDENT:
+Itō Kashitarō lured to Kondō's and speared/cut down; his body left as bait; the
+Goryō-eji ambushed retrieving it — Tōdō Heisuke, Hattori Takeo, Mōnai Kenmotsu
+die; Nagakura's futile mercy to Tōdō). ch40 大暗転 "The Great Turn" (Kondō
+unravels after the killing; the Ōsei Fukko / 王政復古; Toshizō's sword-and-fidelity
+creed to the dying Okita; Yoshinobu withdraws to Osaka; the corps sent to hold
+Fushimi; the last night in Kyoto). ch41 伏見の歳三 "Toshizō at Fushimi" (the
+Fushimi geography; the Chōshū army marches past new-modelled; Toshizō glimpses
+Oyuki and loses her in an alley; Oyuki's interiority; Kondō SHOT at Sumizome by
+the Itō remnants — Shinohara, Tomiyama, Abe, Kanō, Sahara — and command passes to
+Toshizō). ch42 鳥羽伏見の戦い・その一 (the author visits the razed Fushimi site;
+Matsumoto Ryōjun bio; the Oyuki "lover not mistress" exchange; the political
+machinery — Iwakura, Ōkubo, the 討薩表; the Osaka-siege parallel; the eve of
+battle). ch43 鳥羽伏見の戦い・その二 (New Year vigil; the Meiji-general roll-call —
+Nozu, Ōyama, Yamada, Tani, Yamaji, Miura; Hayashi Gonsuke and the Aizu children's
+Asobi/ju precepts; the Ryūunji-yama battery; NOZU'S FIRST SHOT opens the Boshin
+War, ~5 p.m. Keiō 4/1/3 = 27 Jan 1868).
+
+Notes 273–310 (38 this batch; ch39 10, ch40 5, ch41 6, ch42 8, ch43 9).
+Continuous note number now 310. Glossary 299 rows (3 added: 御香宮 Gokō-no-miya,
+林権助 Hayashi Gonsuke, 王政復古 the Restoration of Imperial Rule — all new to the
+book, no cascade). 43 of 71 chapters translated.
+
+CHECKS — all green. Parity by make_bilingual: ch39 179, ch40 145, ch41 180,
+ch42 166, ch43 174 pairs, all exact. verify_unit numbers: 0 unresolved every
+chapter (after the noise additions below and the fixes noted). check_align,
+check_content (displacement) OK across all units. qc_entities 0 misses every
+chapter (after adding "pinyin" to the 3 new glossary rows, which qc_entities
+requires). check_apparatus 0/0. check_register --ref: all WITHIN TOLERANCE
+(em-dash/1k: ch39 5.8, ch40 12.0, ch41 7.1, ch42 11.9, ch43 9.4 — all at or
+below the ch01 ref 12.7; no STILTED flag, no contraction rescue needed). Tails
+verified against source for all five. qa_epub PASS (85 files, 310/310/310
+notes). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+NUMBER-CHECK / noise additions (each commented in data/noise.txt):
+- ch39: 九郎 (源九郎義経 Kurō), 万世 ("through all ages"), 四ツ辻 (crossroads).
+- ch40: 十八史略 (the Jūhasshiryaku), 岡目八目 (okame-hachimoku go idiom).
+- ch41: 平六郎 (Mōri Heirokurō), 六、七十 ("sixty or seventy", 六 stands for 六十).
+  Fixes: "a hundred and fifty" → "one hundred and fifty" (百五十); "more than
+  tenfold" → "more than ten times over" (十倍 — the checker keys on "ten").
+- ch42: 八面六臂 (hachimen-roppi idiom), 四天王寺 (Shitennō-ji), 七十余万 (the 余
+  splits the run and orphans 万; English "seven hundred thousand koku" carries
+  the value). Fixes: 一万六千四百 → digits "16,400" (the checker does not compose
+  "sixteen thousand four hundred" into one value); "seventy-odd myriad koku" →
+  "over seven hundred thousand koku".
+- ch43: 十中八九 (jicchū-hakku), 四ツ塚 (Yotsuzuka), 元三郎 (Takeuchi Genzaburō),
+  百平 (Ishikawa Hyappei). (伊藤鉄五郎/中村小二郎/田村太二郎 covered by existing
+  五郎/二郎 rules; the Asobi precepts 一…七 are literal ordinals, no noise.)
+
+DIGITIZATION GLITCHES: none material found in ch39–ch43 (no dittography, no
+mojibake, no mismatched guillemets in the body text of these five spine files).
+The 8 gaiji were already handled at ingest. Recorded as "none present."
+
+FACT-CHECK VERDICTS (real scholarship; no LLM/Grok sources):
+- Aburanokōji Incident date Keiō 3/11/18 = 13 Dec 1867 — CORROBORATED. Itō lured
+  to Kondō's, killed; Goryō-eji ambushed retrieving the body; Tōdō Heisuke,
+  Hattori Takeo, Mōnai (Kenmotsu) died. The novel's finishing swordsman "Mutō
+  Katsuzō" is a variant; other accounts name Ōishi Kuwajirō among the assassins
+  (noted).
+- Ōsei Fukko / 王政復古 proclaimed Keiō 3/12/9 = 3 Jan 1868 — CORROBORATED.
+- Battle of Toba-Fushimi opened Keiō 4/1/3 = 27 Jan 1868, ~5 p.m.; SATSUMA FIRED
+  FIRST (Nozu's battery), the bursting shell throwing Takigawa's column into
+  disorder — CORROBORATED (answers the "who fired first" question).
+- 錦の御旗 (Imperial brocade banner): historically raised over Satsuma-Chōshū the
+  following days, turning the Tokugawa army into "rebels" — footnoted at ch43's
+  banner note (its full appearance falls in ch44+).
+- Matsumoto Ryōjun (1832–1907): shogunal physician, Pompe's pupil, first army
+  surgeon-general, baron — CORROBORATED. Shiba's sea-bathing aside is right in
+  substance but wrong in place: the first bathing beach was ŌISO (1885), not
+  Zushi — Shiba's own hedge "Zushi, I believe" concedes the doubt. Footnoted.
+- The Meiji-general roll-call (Nozu Michitsura → Fourth Army/field marshal;
+  Ōyama Iwao → Manchurian Army C-in-C; Yamada Akiyoshi; Tani Tateki → Kumamoto
+  garrison; Yamaji Motoharu → Port Arthur; Miura Gorō) — standard, CORROBORATED.

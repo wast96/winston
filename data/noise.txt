@@ -285,3 +285,36 @@
 二十騎町
 # shirokujichū = "around the clock, all day long" (四六時中); the 4 and 6 are the idiom, not counts
 四六時中
+# ── B09 additions (ch39) ──
+# Minamoto no Kurō Yoshitsune — the tragic hero (源九郎義経); 九 is part of the name 九郎 (Kurō), not the count 9 (place AFTER 十郎, which strips first)
+九郎
+# bansei = "through all ages, for ever" (万世に易らざる); 万 is the idiom, not the count 10000
+万世
+# yotsu-tsuji = a crossroads (四ツ辻); 四 is part of the word "four-ways", not the count 4
+四ツ辻
+# ── B09 additions (ch40) ──
+# Jūhasshiryaku — the Chinese history primer 十八史略; 十八 is part of the title, rendered "Jūhasshiryaku", not the count 18
+十八史略
+# okame-hachimoku = the onlooker sees more of the game (岡目八目); 八 is part of the go idiom, not the count 8
+岡目八目
+# ── B09 additions (ch41) ──
+# Mōri Heirokurō — Chōshū commander-in-chief (毛利平六郎); 六 is part of the given name 平六郎, not the count 6
+平六郎
+# roku-shichiju = "sixty or seventy" (六、七十名/人); 六 stands for 六十, rendered "sixty or seventy"
+六、七十
+# ── B09 additions (ch42) ──
+# hachimen-roppi = "in every direction, with furious energy" (八面六臂); 八 and 六 are the idiom, not counts
+八面六臂
+# Shitennō-ji — the Osaka temple (四天王寺); 四 is part of the temple name "Four Deva Kings", not the count 4
+四天王寺
+# 七十余万石 = "over seven hundred thousand koku" (Toyotomi's reduced domain, 700,000+); the 余 splits the numeral run so 七十 and 万 orphan — the English carries the full value "seven hundred thousand koku"
+七十余万
+# ── B09 additions (ch43) ──
+# jicchū-hakku = "nine cases out of ten, in all likelihood" (十中八九); 十 八 九 are the idiom, not counts
+十中八九
+# Yotsuzuka — Toba place name (四ツ塚); 四 is part of the name "four-mounds", not the count 4
+四ツ塚
+# Takeuchi Genzaburō — Second-Unit corps man (竹内元三郎); 三 is part of the given name 元三郎, not the count 3
+元三郎
+# Ishikawa Hyappei — shogunal infantry director (石川百平); 百 is part of the given name, not the count 100
+百平
