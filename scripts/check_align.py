@@ -29,7 +29,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def paras(path, head_prefix):
     return [l.strip() for l in open(path)
-            if l.strip() and not l.strip().startswith(head_prefix)]
+            if l.strip() and not l.strip().startswith(head_prefix)
+            and l.strip() != '***']
 
 
 def main():

@@ -26,7 +26,7 @@ def paras(path, head_prefix):
     out = []
     for l in open(path):
         s = l.strip()
-        if not s or s.startswith(head_prefix):
+        if not s or s.startswith(head_prefix) or s == '***':
             continue
         out.append(s)
     return out

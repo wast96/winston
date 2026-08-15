@@ -136,5 +136,65 @@
     "pinyin": "tewu",
     "status": "decided",
     "note": "The word this chapter anatomizes. Originally a neutral term for “special-duty” military work, it became, in the mouths of both parties, the loaded word for the enemy's spies and secret police. Rendered by sense in this translation, and kept as <i>tewu</i> where the author discusses it as a word."
+  },
+  "潘汉年": {
+    "en": "Pan Hannian",
+    "pinyin": "Pan Hannian",
+    "status": "attested",
+    "note": "1906–1977. A literary man turned master of CCP intelligence and united-front work; deputy head of the Social Affairs Department, working from Hong Kong and Shanghai. Wrongly imprisoned as an “inner traitor” in 1955; rehabilitated in 1982."
+  },
+  "张国焘": {
+    "en": "Zhang Guotao",
+    "pinyin": "Zhang Guotao",
+    "status": "attested",
+    "note": "1897–1979. A founder of the CCP and commander of the Fourth Front Army; Mao Zedong’s chief rival on the Long March. Defected to the Nationalists in 1938; later emigrated and died in Canada."
+  },
+  "胡宗南": {
+    "en": "Hu Zongnan",
+    "pinyin": "Hu Zongnan",
+    "status": "attested",
+    "note": "1896–1962. Chiang Kai-shek’s favored Whampoa protégé and senior commander in the northwest, the “King of the Northwest”; his forces blockaded the Border Region and took Yan’an in 1947."
+  },
+  "周兴": {
+    "en": "Zhou Xing",
+    "pinyin": "Zhou Xing",
+    "status": "attested",
+    "note": "1905–1975. Head of the Shaanxi-Gansu-Ningxia Border Region Security Office (the “Border Security”) through the Yan’an years; later a deputy minister of public security."
+  },
+  "徐恩曾": {
+    "en": "Xu Enzeng",
+    "pinyin": "Xu Enzeng",
+    "status": "attested",
+    "note": "1896–1985. Head of the Nationalist Zhongtong; a nephew-by-marriage of Chen Guofu and a member of the “CC Clique.” His memoir is quoted throughout this book."
+  },
+  "陈立夫": {
+    "en": "Chen Lifu",
+    "pinyin": "Chen Lifu",
+    "status": "attested",
+    "note": "1900–2001. Nationalist party boss who, with his brother Chen Guofu, led the “CC Clique”; founding director of the bureaus that became Zhongtong and Juntong."
+  },
+  "王明": {
+    "en": "Wang Ming",
+    "pinyin": "Wang Ming",
+    "status": "attested",
+    "note": "1904–1974. Leader of the Moscow-trained “28 Bolsheviks” and the CCP’s representative to the Comintern; a rival to Mao whose successive “Left” and “Right” lines the author disparages."
+  },
+  "康世昌": {
+    "en": "Kang Shichang",
+    "pinyin": "Kang Shichang",
+    "status": "attested",
+    "note": "A younger Yan'an-born cadre; deputy chief and, on the recapture of Yan'an, chief of the municipal public-security bureau."
+  },
+  "中央社会部": {
+    "en": "Central Social Affairs Department",
+    "pinyin": "Zhongyang Shehuibu",
+    "status": "decided",
+    "note": "The CCP’s central intelligence and security organ from February 1939, headed by Kang Sheng; known within the Party as 中社部 (Zhongshebu). The bland name “Social Affairs” was itself a cover."
+  },
+  "陕甘宁边区保安处": {
+    "en": "Shaanxi-Gansu-Ningxia Border Region Security Office",
+    "pinyin": "Shaan-Gan-Ning Bianqu Bao'anchu",
+    "status": "decided",
+    "note": "The Border Region government’s combined public-security and procuratorial organ, known for short as 边保 (Bianbao, the “Border Security”); the executing arm of Communist security work in Yan’an, and outwardly the government face of the Northwest Bureau’s Social Affairs Department."
   }
 }

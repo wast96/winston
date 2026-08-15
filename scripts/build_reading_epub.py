@@ -1123,23 +1123,41 @@ def main(epub_path):
     def sec_nav(chap):
         cid = chap["id"]
         here = ids_present.get(cid, set())
+        secs = chap.get("sections", [])
+        # In a PARTIALLY translated chapter, the translated sections link to
+        # their anchors part-way down the chapter file; a pending section has
+        # no anchor and a bare link back to the chapter file lands at the top,
+        # which reads as out-of-order in the EPUB nav (epubcheck NAV-011). The
+        # nav content model also forbids an unlinked <span> leaf. So we simply
+        # omit pending sections from the nav of a partial chapter; they return
+        # once translated. A FULLY pending chapter keeps all its sections as
+        # bare links (all target the chapter top, so they stay in order), which
+        # preserves the pending-aware survey navigation.
+        any_here = any(sec["id"] in here for sec in secs)
         items = []
-        for sec in chap.get("sections", []):
+        for sec in secs:
+            in_here = sec["id"] in here
+            if not in_here and any_here:
+                continue
             sub = ""
-            if sec.get("subsections"):
-                sub = "<ol>" + "".join(
-                    ('<li><a href="%s.xhtml#%s">%s</a></li>'
-                     % (cid, esc(s["id"]), esc(s["title_en"]))
-                     if s["id"] in here
-                     else '<li><a href="%s.xhtml">%s</a></li>'
-                     % (cid, esc(s["title_en"])))
-                    for s in sec["subsections"]) + "</ol>"
-            if sec["id"] in here:
+            if in_here and sec.get("subsections"):
+                sub_here = any(s["id"] in here for s in sec["subsections"])
+                lis = []
+                for s in sec["subsections"]:
+                    if s["id"] in here:
+                        lis.append('<li><a href="%s.xhtml#%s">%s</a></li>'
+                                   % (cid, esc(s["id"]), esc(s["title_en"])))
+                    elif not sub_here:
+                        lis.append('<li><a href="%s.xhtml">%s</a></li>'
+                                   % (cid, esc(s["title_en"])))
+                if lis:
+                    sub = "<ol>" + "".join(lis) + "</ol>"
+            if in_here:
                 items.append('<li><a href="%s.xhtml#%s">%s</a>%s</li>'
                              % (cid, esc(sec["id"]), esc(sec["title_en"]), sub))
             else:
-                items.append('<li><a href="%s.xhtml">%s</a>%s</li>'
-                             % (cid, esc(sec["title_en"]), sub))
+                items.append('<li><a href="%s.xhtml">%s</a></li>'
+                             % (cid, esc(sec["title_en"])))
         return "<ol>" + "".join(items) + "</ol>" if items else ""
 
     nav_items = ['<li><a href="titlepage.xhtml">Title Page</a></li>']

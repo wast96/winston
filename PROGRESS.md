@@ -164,3 +164,151 @@ and for B13's whole-book source-note handling; flag for the commissioner.
 ### Batch ends at the voice gate (Step 0c)
 B01 stops here for the commissioner to judge voice, note density, and
 formatting on ch00 + ch01. Do NOT begin B02 until approved.
+
+## Batch B02 — Chapter 2, sections 1-5 (ch02s01-ch02s05)
+
+Scope: Chapter 2 "暗战 / Secret War," sections 1-5. PDF 82-108 plus section 5's
+tail on PDF 109 (printed 46 through 72, ending mid-p73 where section 6 opens).
+Simplified, horizontal; chi_sim, psm 6; PaddleOCR absent, dual read via
+scripts/ocr_dual.py. Offset constant printed = pdf - 36, re-verified at every
+section opener off the scan (s1 p82/46, s2 p87/51, s3 p94/58, s4 p98/62,
+s5 p104/68, and s6 opener p109/73 confirmed as the batch's stop).
+
+### Batch-boundary correction (recorded so B03 inherits it cleanly)
+The B01 kickoff wrote "PDF 82-103," which is inconsistent with its own stated
+printed range 46-72 and the sections-1-5 scope (offset 36 makes printed 72 =
+PDF 108, and section 5 runs to the top of PDF 109). The authoritative boundary
+is SECTIONS 1-5 = PDF 82-108 plus section 5's four closing paragraphs on PDF
+109. book.json's B03 pdf_range [104,133] likewise overlaps section 5; B03's
+real scope is sections 6-8 = PDF 109-133 (section 6 opens at PDF 109 / printed
+73). The next kickoff states this.
+
+### Translated and checked
+- ch02: chapter intro (3 paras) + 5 sections, 167 English body paragraphs in
+  out/ch02_reading.md (one paragraph per TRUE source paragraph; every page read
+  off the scan). Sections: 1 Zhou Enlai in Danger (34), 2 Zhongtong and Juntong
+  Take Formal Shape (44), 3 The Defection Incident! (24), 4 The CCP Central
+  Social Affairs Department (35), 5 The Shaanxi-Gansu-Ningxia Border Region
+  Security Office (27).
+- verify_unit ch02: parity 167 zh / 167 en CLEAN; anchors 18/18 resolve. The
+  number invariant's residual flags were all adjudicated to OCR-scaffolding
+  artifacts (mangled digits: 战士->战七=7, 518->S18, 八十一->八十=80; embedded
+  photo-caption years 1937/1949; place-name numerals 二十里铺; name numerals
+  李韶九) and English spelled-out numbers the checker does not parse (words over
+  thirteen). Every source quantity was verified against the SCAN while
+  translating; none dropped. Load-bearing figures and unit designations were set
+  in digits per STYLE (518 blockhouses, 25,000 li, 500,000 men, 329 officers,
+  2,288 youth, the Red 15th/25th/26th/81st, etc.).
+- check_align ch02: 167/167, median 4.84 en/han; one out-of-line pair (s5-13),
+  explained by an inline photo caption garbling that zh scaffolding paragraph
+  (the English is correct). qc_entities: 0 misses (its census is thin because
+  the OCR mangles many names in the zh scaffolding). check_content is not wired
+  to this project's book.json schema (it expects docs/sources, we use structure).
+- Register vs frozen ch01: dialogue-contraction metric is QUIET (0.0/1k) and is
+  noise here, exactly the reportage caveat in STYLE and references/register-
+  drift.md: Chapter 2 is institutional/documentary with little quoted speech,
+  and what speech there is runs formal by design (Xu Enzeng's memoir, Dimitrov's
+  directive, Chiang's declaration, Zhang Guotao's ceremonial self-deprecation).
+  Judged on the narratorial signals instead: rhythm CV 0.51 tracks the ref's
+  0.49, sentence median 23, exclamation and rhetorical-question retention held
+  to English norms (rationed hard per STYLE). Not stilted narration.
+
+### The two omissions the parity reconciliation caught (rule 4 corollary)
+The zh<->en paragraph audit surfaced two section tails that straddle a page
+into the NEXT section's opening page and had been missed on the first pass:
+(1) section 1's conclusion of the Laoshan bandit story, three paragraphs on
+printed 51 (PDF 87) before section 2's heading; (2) section 4's final paragraph
+naming the other Social Affairs Department deputy heads, on printed 68 (PDF 104)
+before section 5's heading. Both were re-read off the scan and translated. This
+is the "tail is where faithfulness fails" rule; the per-section boundary check
+is the gate that caught it. B03 must watch the same straddle at s6/s7/s8.
+
+### zh scaffolding parity (method, reproducible)
+The figure-heavy body pages defeat both the indent flags and tesseract's blank
+lines, so assemble.py under-segments (137 vs 167). Reconciled by a scripted
+re-segmentation, scripts/resegment_ch02.py (splits the merged paragraphs at
+distinctive anchors and appends section 5's PDF-109 tail), run after
+assemble.py. data/zh is gitignored; that script is the reproducible bridge and
+must not be reverted. A complete manual zh<->en 1:1 correspondence audit was
+performed (this is the real displacement check); no displacement found beyond
+the two omissions above.
+
+### Apparatus
+- notes.json: +18 for ch02 (feather-dispatch; the Laoshan Incident with its
+  date/decoy/site discrepancies; "Deng, Mao, Xie, and Gu"; the Elder Brothers
+  Society; the Blue Shirts / Vigorous Action Society; Chiang's skin-rash /
+  vitals metaphor; the three-in-one alignment; Hu Zongnan; the opera At the
+  Crossroads; the "reform and opening" anachronism; Xu Shiyou's loaded gun; the
+  Yellow Emperor's Mausoleum sacrifice; Zhang Guotao; the white-terror slogan /
+  surrender law / repentance houses; the Kang Sheng portrait; the Five Elders of
+  Yan'an; the Pan Hannian 1955 case; Mao's poem "Snow"). check_apparatus clean.
+- glossary.json: +10 rows (Pan Hannian, Zhang Guotao, Hu Zongnan, Zhou Xing, Xu
+  Enzeng, Chen Lifu, Wang Ming, Kang Shichang [attested]; Central Social Affairs
+  Department, Shaanxi-Gansu-Ningxia Border Region Security Office [decided]).
+  REUSED unchanged from ch01: Zhou Enlai, Mao Zedong, Kang Sheng (alias Zhao
+  Rong), Li Kenong, Chiang Kai-shek, Dai Li, Zhu De, Zhang Xueliang, Central
+  Special Branch, State Political Security Bureau, Zhongtong, Juntong, tewu.
+
+### NOT re-noted (already placed in ch01, cross-referenced or relied on)
+Xi'an Incident (ch01); the GPU model behind the security service ("GBW"/GPU
+note, ch01); the Longtan Three (ch01); Li Shaojiu and the Futian purge (ch01,
+relied on at his mention in s5); Zhongtong/Juntong first gloss (ch01 glossary).
+
+### Source errors / contested claims rendered as printed and footnoted
+- Laoshan Incident: text dates it 25 April, the photo caption 24 April; footnote
+  states the internal discrepancy (25 April is the attested date). The source
+  also twice writes the ambush site "沿湫山" (Yanqiushan) while naming the affair
+  after Laoshan; harmonized to Laoshan in the text with the variant noted.
+- "改革开放" (reform and opening), printed 58: a real anachronism in the source,
+  the author borrowing the post-1978 slogan for the united-front thaw; kept
+  visible in scare quotes and footnoted as his own flourish, not a 1930s term.
+- Jiang Dingwen is "Xi'an field headquarters director" on printed 53 and
+  "Tianshui field headquarters director" on printed 59; rendered as printed both
+  places (a source inconsistency, low stakes, not footnoted).
+- The interested-witness set: the author's unusually harsh Kang Sheng portrait,
+  the sympathetic Pan Hannian and Zhang Guotao treatments, and the partisan
+  "only Yan'an was pure ground for the nation" set-piece are rendered faithfully;
+  the counter-record and later verdicts live in the footnotes.
+
+### Names crop-verified this batch
+Ran verify_names --auto across 82-108 and read the dual-OCR disagreement crops;
+plus every page was read off the scan (reading IS crop-verification here). Spot
+crops confirmed: 沿湫山 (water radical, not 劳), "改革开放" (both engines +
+eye), "用其才，不信其听" (听, not 人). No name corrections needed beyond fixing
+"Liang Jishu" -> "Liang Ji" in s1 (由梁济书写起诉书 = "Liang Ji wrote the
+indictment"; 梁济 is the known Yan'an-born cadre, confirmed again on printed 69).
+
+### Figures: still DEFERRED (deliberate; commissioner decision pending)
+figures.json remains empty. Chapter 2's B02 pages carry ~14 inline photo groups
+(Laoshan + Chen Youcai p47; Chen Fusheng p48; Wu Tailiang + Liu Lanting p50;
+Zhou/Zhang Yunyi/Kong Shiquan p51; Zhu Jiahua/Xu Enzeng/Chen Lifu/Dai Li p52;
+blockhouse p54; Wu Defeng p55; Deng Baoshan/Xu Fanting/Nan Hanchen p56;
+Mao + Zhang Guotao p59; Wu Kejian p60; Kang Sheng/Pan Hannian/Li Kenong p63;
+Chen Yun p64; 中社部旧址 + 边保 buildings p68; Zhou Xing + deputy heads p71).
+The standing question for ALL 图文 chapters (extract every inline photo, or a
+curated subset) is still for the commissioner.
+
+### Tooling touched (do NOT revert)
+- scripts/build_reading_epub.py: sec_nav now omits a PENDING section from the
+  EPUB nav of a PARTIALLY translated chapter. A pending section has no anchor;
+  a bare link back to the chapter file lands at the document top and reads as
+  out-of-order once earlier sections link to anchors further down (epubcheck
+  NAV-011), and the nav content model forbids an unlinked <span> leaf. Fully
+  pending chapters still list all sections as bare links. This first bit with
+  ch02 (the first partially translated chapter).
+- scripts/make_bilingual.py and scripts/check_align.py: both now skip the '***'
+  scene-break marker, consistent with check_structure and verify_unit (which
+  already did). Without it the en side counted 8 extra "paragraphs" and parity
+  looked broken in those two tools only.
+- scripts/resegment_ch02.py: new; the reproducible zh re-segmentation (above).
+- data/structure.json: +7 ch02 heading rows (chapter title, subtitle, sections
+  1-5), matched to the OCR strings so assemble.py marks them.
+
+### Build / environment
+- EPUB rebuilt: 3 of 14 chapters (ch00, ch01, ch02), 39 notes, 74 pagebreaks.
+  qa_epub PASS (28 files, all links resolve). epubcheck 5.1.0 clean
+  (0 fatals / 0 errors / 0 warnings).
+- OMP_THREAD_LIMIT=1 throughout; pgrep -c tesseract read 0 after every OCR run.
+- Branch consolidated onto claude/chinas-secret-war at session start (the
+  harness stray branch claude/chinas-secret-war-b02-zsrbvw was at the same
+  commit; deleted local, remote pruned at push).
