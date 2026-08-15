@@ -193,3 +193,7 @@
 五節
 # 二十代 (nijūdai, "in one's twenties"): decade-of-age word, carried in English as "twenties" (cf. 十四、五)
 二十代
+# 八の字 (hachi no ji): eyebrows/shape slanted like the character 八; an idiom for a downward slant, not a count
+八の字
+# 四つ這い (yotsubai): "on all fours", a set phrase for crawling; the 四 is idiomatic, carried in English as "all fours"
+四つ這い

@@ -1747,3 +1747,127 @@ Uezuka Dōgan last; Kuroami, offered his life to betray the plot, refuses and ki
 Jūzō's revenge. At dawn Jūzō, coming from Otogi Pass by the Shibutani pass, finds the black-clad
 dead in the shallows, knows Kuroami, and swears to make the Kōga bleed before he kills the Taikō.
 Next: B14 = ch14 修羅 / Carnage, folios 456-507 (offset should stay 0; read folios to confirm).
+
+---
+
+## B14 — ch14 修羅 / Carnage (folios 456-507, tail on 508) — COMPLETE
+
+**Scope:** ch14 modelled as one titled section. 445 body paragraphs (data/zh/ch14.txt, 446 lines
+incl. `### 修羅` title). Opener mid-folio 456 (below ch13's spillover); tail spills onto folio 508,
+ending "…朝の陽がしずかに溜まりはじめた。" before the ch15 「五三ノ桐」 title. B15 must not
+re-translate that spillover.
+
+### Folio → PDF map (READ off the running heads, topstrips.py + autocontrast)
+**printed == PDF, offset 0, CONFIRMED unbroken across the whole span 456-509.** Read the folio of
+every rendered page (456-509) via scratchpad/topstrips.py; no duplicate leaf, no gap. Folio 508 =
+PDF 508 carries ch14's tail THEN the ch15 opener (五三ノ桐, "京都奉行、法印前田玄以は、毎朝、百八つ
+の胡桃の実を磨く。…"); folio 509 = ch15 body. Built data/pagemap/ch14.json (52 entries,
+printed==pdf 456-507, body_paragraph 0→433, monotonic).
+
+### Checks (all green)
+- parity 445|445 (before the two fixes below), then 446|446 after splitting one merged source line.
+  `check_structure --pairs` OK.
+- verify_unit ch14: numbers 0/446 unresolved; anchors 6 ok.
+- check_align ch14: ratio outliers are short-quote noise only (e.g. 「甲賀者か」/"A Kōga man?").
+- check_content: 323 name occurrences, ALL in the paired paragraph (after a 2-paragraph
+  name-survival pass: para 288 添 Jūzō, para 305 添 Kohagi).
+- qc_entities: 0 misses (census 重蔵×146, 五平×82, 小萩×79, 洞玄×57…).
+- check_register --ref ch01: **1.54x** contractions vs the frozen reference (24.4/1k), within
+  tolerance (cf. ch11 1.62x, ch12 1.86x, ch13 1.34x). Casual dialogue contracted as written;
+  Kohagi/old-nurse/Sōkyū-side formality kept uncontracted by design.
+- qa_epub PASS (20 docs, 4569 paras, 276 pagebreaks, 109 notes all resolve).
+- epubcheck 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+### Two parity bugs caught and fixed (the newline-less-Edit-then-cat trap, again)
+1. **Source merge:** folio 506's tail ("…臥床の上に座った。") and folio 507's opener
+   quote (「後悔なさっていますね」) were concatenated onto ONE data/zh line, because a completing
+   Edit ended without a trailing newline and the next cat-append ran on. Split back into two source
+   paragraphs (the genuine structure). Same class of bug as B13's 「忘れものじゃ」 (kept merged
+   there because it was one quote+attribution unit; here they are two speakers, so split).
+2. **Translation merge:** 「重蔵は近づいてくる」 (Jūzō was coming near) had been absorbed into the
+   previous English paragraph; split out. Also reordered the kozuka-throw block
+   (小柄を抜いた五平の気配… / 覚ったな / 五平はかまわず / 五平は、慎重に手首を) to match source order
+   after an initial mis-sequencing. Both were found by a positional zip-alignment of zh↔en
+   (check_structure counts lines; the displacement showed only under content pairing).
+LESSON reinforced: when a completing Edit's new_string is a full paragraph, END IT WITH `\n` before
+any cat-append, or the next line welds on.
+
+### Compound-coverage cross-check (before shipping)
+3+-kanji Counter over raw OCR (data/txt) for the ch14 span (456-507) vs the hand transcription:
+51 distinct compounds absent, ALL OCR garbles of terms present (黒阿張/黒阿殊/黒阿約=黒阿弥,
+麻利洞玄=摩利洞玄, 葛科重蔵/落管重蔵=葛籠重蔵, 座散率/座敷率/座敷容=座敷牢, 下柏植/下本植=下柘植,
+倫盗術=偸盗術, 票田口=粟田口, 京都替行前田玄以=京都奉行前田玄以…). No real drop. Folio-508
+ch14-tail compounds (無銘/粟田口/形見/柴折戸/鯉口/秀吉/伏見) all present.
+
+### Notes added (6; book total now 109) — only ch14 first-appearances
+- **Hachisuka Hikoemon Masakatsu** — the bandit-daimyo Jūzō cites: Edo legend has him a chief of
+  masterless men in Owari who sheltered young Hideyoshi; modern scholarship CONTRADICTS this,
+  placing him a jizamurai lord who ran the Kiso-river transport. Verdict stated in the note
+  (verified vs Wikipedia/SamuraiWiki/Baidu).
+- **Ise no Saburō Yoshimori** — Yoshitsune's bandit-turned-retainer (Suzuka robber in the Heike /
+  Genpei Seisuiki); with a gloss of 九郎判官 = Yoshitsune (Kurō the boyhood name, Hōgan the office).
+- **a shrine of Benzaiten** — the water-goddess and why her shrines sit on pond islands (Dōgen's cover).
+- **the savagery of the fight** — carries the TITLE note: 修羅/Shura = the asura realm of ceaseless
+  bloody strife → "Carnage" (anchored to a body phrase, per the ch13 "Water Dog" precedent).
+- **Nigatsu-dō altar-stand** — the small folding desk named for the Tōdai-ji hall.
+- **An unsigned Awataguchi** — the Kyoto swordsmith school (and the resonance with Awataguchi the
+  place, which Jūzō passed earlier).
+Cross-referenced, NOT re-noted: Maeda Gen'i & the Kyoto magistracy (京都奉行) already in ch04;
+Fushimi Castle (ch13); Iga/Kōga, rappa, kozuka, Taikō, Hideyoshi, shōchū, 化生/keshō, Otogi Pass,
+Ishida the Jibu-no-shō, Kamo/Sanjō/Higashiyama/Yamashina/Ōmi (Kyoto-to-Kōga route markers, ch13).
+Minor tier left unnoted by design: 座敷牢 (the house "cell", clear from context), the fictional
+ninja drug かすり/kasuri and 偸盗術/thieving art (self-glossed in prose, story furniture not history).
+
+### Glossary — rows REUSED unchanged (no new rows this batch)
+Principal cast + majors all reused: Tsuzura Jūzō (重蔵), Kazama Gohei (風間五平/五平), Mari Dōgen
+(摩利洞玄/洞玄; formal self-intro 伴摩利洞玄 rendered "Ban Mari Dōgen", consistent with birth-name
+伴藤内 Ban Tōnai), Kohagi (小萩), Maeda Gen'i (玄以), Kuroami (黒阿弥, dead), Shimotsuge Jirōzaemon
+(下柘植次郎左衛門), Imai Sōkyū→Sōkyū (宗久), Ishida the Jibu-no-shō (石田治部少輔), Kisaru (木さる).
+Terms: rappa (乱波), kozuka. NOT glossaried by design (single-chapter minor, cf. ch12/ch13): the
+old nurse 楠 Kusu / 嫗 uba (Kohagi's Mochizuki-house foster-nurse) — handled as "the old woman /
+old nurse" in prose, check_content/qc clean without a row; add her only if she recurs in a later
+batch. Historical one-offs (蜂須賀正勝/伊勢三郎義盛/源九郎判官/弁財天/粟田口-the-sword) are footnoted,
+not glossary cast.
+
+### noise.txt additions (idiomatic numerals, source side)
+- 八の字 (hachi no ji): eyebrows slanted like the character 八; a downward-slant idiom, not a count.
+- 四つ這い (yotsubai): "on all fours"; the 四 is idiomatic, carried as "all fours".
+(2011 二十代 etc. from prior batches unchanged.)
+
+### Figures
+find_figures.py 456-508 found nothing; every page eyeballed during transcription — ch14 is
+text-only, like ch01-ch13. Empty figure list recorded as a deliberate decision.
+
+### Voice sheets — this chapter
+- **Tsuzura Jūzō:** the chapter's centre. Blunt, wry, cold-nerved (わし); toys with the guard, walks
+  in gaudy on purpose. Cuts Dōgen down at the Benten shrine; poisoned and half-conscious, drifts by
+  instinct to Kohagi's house instead of the safe road home; sleeps two days, takes her, then in the
+  cold morning renounces it ("Last night was last night, this morning is this morning… I can play
+  at love, but it seems I cannot love"), leaves her an unsigned Awataguchi as a keepsake, and goes
+  to kill Hideyoshi at Fushimi.
+- **Kazama Gohei (五平):** cold, clerkly, androgynous; a fox's shadow when he hates. Runs the ambush
+  from a neighbour's privy; molests-then-blackmails the wife with clinical calm; means Jūzō to kill
+  Dōgen FOR him, then take Jūzō. His "wound that won't heal" is his 一分 (pride), not flesh.
+- **Mari Dōgen (伴摩利洞玄):** the aged Kōga rappa, one hand already gone; folksy, haughty, self-
+  mocking to the end. Loses the other hand and his life to Jūzō but dies insisting "the victory was
+  mine" — his 死見栄 (dying vanity), which Shiba plays for grim comedy.
+- **Kohagi (小萩):** Sōkyū's adopted daughter, a Mochizuki-of-Kōga shape-shifter planted by Ishida;
+  courtly ございます/ませ, refers to herself "Kohagi". Nurses and hides Jūzō against her mission, a
+  dark rapture in the surgery; defies the nurse ("Kohagi is twenty-one… I hate my own fate"), gives
+  herself to him, and lets him go to his death.
+- **The old nurse (嫗/楠 Kusu):** small, cold Kōga foster-mother; sly, teasing, then the freezing
+  white-eyed stare that drilled Kohagi from childhood. "There is something of the shape-shifter
+  about this old woman." Formal-servile ございましょう but with a blade under the smile.
+
+### Where the story stands (end of ch14)
+Some days after the Iba-gawa slaughter, Jūzō walks openly into Maeda Gen'i's Kyoto residence to
+kill the two turncoat Iga (Gohei) and the Kōga man Dōgen. He fences Gohei to a standstill, then at
+the garden's Benten shrine cuts down Mari Dōgen — who dies boasting his own victory. Cut clear
+through Gohei's ambush and poisoned by a thrown kozuka, Jūzō drifts half-conscious to the house of
+Kohagi (Ishida's planted shape-shifter), who — against her mission and her nurse's counsel — heals
+him, hides him in her own room, and lies with him. Waking whole, Jūzō recounts a dream of standing
+paralysed at Hideyoshi's fusuma in Fushimi, unable to strike; by morning he has hardened again,
+renounces the love as a ninja's hollow show, and leaves for Fushimi to kill the Taikō. Kohagi,
+too late, senses the breath of a man walking to his death.
+Next: B15 = ch15 五三ノ桐 / The Paulownia Crest, folios 508-565 (offset should stay 0 —
+printed == PDF — READ folios to confirm; ch14's tail is on 508 before the 五三ノ桐 title).
