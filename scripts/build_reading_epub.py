@@ -1015,6 +1015,27 @@ def main(epub_path):
     # ids_present[cid] records the section/subsection anchors actually emitted,
     # so the contents and nav link only anchors that exist (a chapter translated
     # a batch at a time emits only its finished sections).
+    # Guard against a literal <i>/</i> tag in a reading paragraph. Body
+    # emphasis is written *asterisk* and turned into <i> at render (see the
+    # substitution below); a raw <i> in the source is instead escaped by esc()
+    # and ships as VISIBLE "<i>Tewu</i>" text. That defect shipped once; refuse
+    # rather than repeat it. (Note/glossary bodies are XHTML and legitimately
+    # carry <i>; this check is on the reading .md files only.)
+    itag = []
+    for chap in structure:
+        if chap["id"] not in translated:
+            continue
+        for ln_no, ln in enumerate(open(md_of(chap["id"]), encoding="utf-8"), 1):
+            if "<i>" in ln or "</i>" in ln:
+                itag.append((chap["id"], ln_no, ln.strip()[:70]))
+    if itag:
+        sys.stderr.write("BUILD FAILED: %d reading line(s) carry a literal "
+                         "<i>/</i> tag, which renders as visible text; write "
+                         "emphasis as *italic* instead:\n" % len(itag))
+        for cid, ln_no, s in itag:
+            sys.stderr.write("  %-9s line %d  %s\n" % (cid, ln_no, s))
+        sys.exit(2)
+
     counter = [0]
     ids_present = {}
     page_index = []

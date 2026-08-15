@@ -435,6 +435,13 @@ hour-gloss; `{p} ` verse (line breaks preserved). `check_structure.py` strips
 the markers before parity. Translator-supplied datelines always carry a note
 saying they were inferred and on what evidence.
 
+**Emphasis (italic) in the reading text is written `*with asterisks*`**, which
+the builder turns into `<i>`. Do NOT write a literal `<i>...</i>` tag in a
+reading `.md` file: it is escaped and ships as VISIBLE `<i>Tewu</i>` text. This
+shipped once; the builder now REFUSES a build whose reading files contain a
+literal `<i>`/`</i>`. (Footnote and glossary bodies are XHTML and DO take
+`<i>` directly, along with numeric character references only.)
+
 ## Glossary discipline
 
 `glossary.json` is the single source of truth and the term ledger. Status per
