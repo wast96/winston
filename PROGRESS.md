@@ -2127,3 +2127,86 @@ CARRIED (checker matched): 五点四十分 "five-forty", 十二点 "twelve"/"mid
 - `glossary.json` — 29 rows added by hand (all with `pinyin`); 鸡泽县 en capitalized to
   "Jize County" (place, ch22-only, safe).
 - `notes.json` — 7 notes appended via apparatus_merge.py (numeric character references).
+
+## Batch B17 — ch23 (Part Three, Chapter 3: "Renown Won in a Hundred Battles")
+
+**Unit:** ch23 = 第三章 爱国情操 道德规范 "Chapter 3. Patriotic Spirit, Moral Bounds." A
+SHORT framing/bridge chapter (~534 source chars — the shortest since ch19), 7 body
+paragraphs. It names the Shanghai District's "three-sided enemy" — the Concession police
+and detectives, the Shanghai Japanese Gendarmerie, and No.76 — foregrounds the terror of
+the Japanese gendarmerie ("谈虎色变") and the double danger of No.76 (Chinese collaborators
+who know the District, and a cover for Communist conspiracy), and previews the two chapters
+to come, closing on the Yu Yefeng (俞叶封) sanction that ch22 promised to recount. No new
+narrative action; a register/theme bridge into ch24.
+
+### Structure (confirmed p-by-p against the source XHTML)
+- `index_split_000_0022.xhtml` parses to **1 `<h2>` + 8 `<p>`**, NO `<h1>`, NO `<br/>`,
+  NO `<img>`. drop=2 (running header 英雄无名-陈恭澍 + `<h2>` chapter title).
+- The txt has 10 lines: L1 header, L2 `<h2>` title, L3 couplet sub-heading, L4-L10 = 7 body
+  paragraphs — all ending on terminal punctuation, so **1:1 with no merges, no glued**.
+- **ONE standalone couplet sub-heading** (NO number prefix, cf. ch11/ch14/ch21/ch22): L3
+  初生之犊组成了一枝生力军 → "Newborn Calves Form a Fresh Fighting Force."
+- **No source note markers:** grep `\[\d+\]` returns none (consistent through B16).
+- **No images** in the unit (confirmed).
+- clean_batch.py: `ch23: 7 body paragraphs, 1 sub-headings, source conserved OK`.
+
+### Checks (all green for ch23; pre-existing artifacts unchanged)
+- `verify_unit.py ch23`: parity **7/7**, numbers **0 unresolved** (auto noise), anchors 1 ok.
+- `check_align.py ch23`: 7/7, **median ratio 5.82 en/han**, no pair strays > 2.2x. Runs
+  above the narrative band (4.55-4.78) as expected for a very short, dense framing essay on
+  so few paragraphs (per the kickoff note — read the note, do not reset).
+- `check_structure.py`: ALL STRUCTURAL CHECKS PASS; anchors **226 notes, 0 unresolved**;
+  headings level positions OK.
+- `check_content.py`: **ch23 1 name occurrence, all in the paired paragraph (0 displaced).**
+  Known pre-existing artifacts unchanged (from the substring matcher on already-shipped
+  chapters, NOT regressions): ch08 Shunde ×3; ch13 Miss Nguyen/Oya Kusuo/Yuan Haowen ×9;
+  ch09 "Jize County" ×1 (paragraph 220 — the 鸡泽县 key added in B16 surfaces an older ch09
+  rendering; a whole-book reconciliation item, out of scope for a single new unit).
+- `qc_entities.py` (reconstructed bilingual, 7 pairs, headings stripped): **entity misses:
+  0.** Census: 军统 ×1 (the Juntong), 俞叶封 ×1 (Yu Yefeng), 制裁 ×1 (sanction).
+- `check_register.py --ref`: **within tolerance.** contractions 0.0, em-dash 4.2/1k (ref
+  8.3), rhythm CV 0.77 (ref 0.60, flagged "little dialogue — noisy", expected for 7 paras).
+- Tail verified against the source (rule 4 corollary): L10 (the Yu Yefeng sanction preview —
+  险恶/锐不可当/一往无前/突破万难/迭次完成/镇慑作用/制裁…俞叶封一案) rendered in full.
+- Build: `23 of 43 chapters, 226 notes`. `qa_epub.py` PASS (226 refs/bodies/backlinks).
+  **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.**
+
+### Settled renderings REUSED (all keyed or in-text, Part-Three consistent)
+"the Shanghai District"; "the Juntong"; 制裁 "sanction"; 敌伪 "the enemy and the puppets";
+忠义救国军 "the Loyal and Patriotic Army" (not in this unit); "Special Operations
+Headquarters" / "No. 76"; 日本宪兵队 "the Japanese gendarmerie"; 上海日本宪兵队 "the
+Shanghai Japanese Gendarmerie"; 新亚和平促进会 "New Asia Peace Promotion Association";
+俞叶封 Yu Yefeng; 抗战八年 "the eight years of the War of Resistance" (八 carried, matched).
+No new glossary rows (all furniture already keyed or handled in-text; GLOSSARY-KEY
+DISCIPLINE upheld — 上海区/七十六号/敌伪/汪伪/日本宪兵队 are consistent in-text renderings,
+not distinctive proper-noun keys).
+
+### Notes added (1; first-appearance-disciplined; cumulative 226)
+1. **为虎作伥 (playing jackal to the tiger)** — the chang (伥) folk belief: the ghost of a
+   person killed by a tiger, bound to lure fresh victims into its path; hence "to abet a
+   powerful evildoer." Chen turns it on No.76. Texture note (kind 3); genuinely opaque
+   behind the functional gloss, first appearance.
+**NOT re-noted (already covered):** No.76 / 特工总部 / Ding Mocun / Li Shiqun (ch04/ch17);
+the Japanese gendarmerie; 制裁 "sanction"; the French Concession / International Settlement
+(ch04); the Juntong; 忠义救国军 (ch21); the New Asia Peace Promotion Association (ch22); the
+Republican calendar convention. 谈虎色变 rendered transparently ("turn pale with terror at
+the mere mention") — no note needed.
+
+### Digitization glitches (rendered to plain sense; LISTED, none footnoted — mechanical)
+- **百性 → 百姓** "the common people" (我中国百性; homophone glitch, L6). NOISED both forms
+  (百姓 and 百性) so the checker does not read the 百 as the count 100.
+- **交赋 → 交付** "laid upon / assigned" (上级所交赋的任务, L10; 赋→付 homophone).
+None is genuine reading uncertainty, so none is footnoted (per policy).
+
+### data/noise.txt — B17 block appended (each entry commented)
+Idiom-noun **百姓** "the common people" (+ the source glitch form **百性**): the 百 is
+lexical, not the count 100. All real quantities carried and matched: **抗战八年** "the eight
+years of the War of Resistance" (八 CARRIED).
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch23 spec added (drop=2; no merges; no glued; 1 standalone
+  couplet sub-heading L3). Source-conservation check passes.
+- `data/noise.txt` — B17 block (百姓 / 百性).
+- `notes.json` — 1 note appended via apparatus_merge.py (numeric character references).
+- `scripts/make_ch23_apparatus.py` — the one ch23 note (hanzi built from code points to
+  defeat the CJK-mangling hazard; verified 为虎作伥 / 伥 before converting to NCRs).

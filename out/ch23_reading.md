@@ -1,0 +1,17 @@
+## Chapter 3. Patriotic Spirit, Moral Bounds
+
+### Newborn Calves Form a Fresh Fighting Force
+
+A secret organization engaged in behind-the-lines work must have its ramparts firm and solid, if it is to meet the sudden turns that may break out at any time and in any place. The unceasing readjustment of the "Shanghai District's" personnel and organization was precisely to this end. And our own situation was one that stood, throughout, beset on three sides, the storm-wind filling the tower.
+
+The Concession police and detectives were half foe, half friend: some looked on us with sympathy, some with hostility, and some, once beguiled, became of their own will the talons and fangs of the enemy and the puppets.
+
+The Japanese gendarmerie were a more inveterate foe still. In the fallen regions of the mainland during the War of Resistance, at the mere mention of the "Japanese gendarmerie" every face would turn pale with terror; and indeed, across the eight years of the War of Resistance, the number of my fellow Chinese who died wrongfully at the hands of the Japanese gendarmes is truly beyond all knowing; and of our own comrades of the "Juntong," how many more than one can count were seized by the local "Japanese gendarmerie" and then died a martyr's death, or were tormented to death! Even those who by some luck came out alive would be left crippled or broken in health; and as for the humiliation borne in spirit, that was but a lesser matter beside the rest.
+
+Here I shall briefly lay bare the true face of the "Shanghai Japanese Gendarmerie," and its foul and brutal deeds along with it. May the sons and daughters of China never forget, but rouse themselves to strive for strength, and keep watch and spur upon themselves!
+
+The infamy of "No. 76" had spread far and was already known to all. The harm and havoc that this band of criminals dealt us went beyond even that of the "Shanghai Japanese Gendarmerie"—and this because they too were Chinese, and knew all too much about the "Shanghai District." Here, too, was one reason we ceaselessly "sought change."
+
+This account gives a searching exposition of "No. 76," and points out at the same time that "No. 76" was not merely playing jackal to the tiger, working every kind of wickedness, but was moreover a hiding-place for the conspiratorial doings of Communist elements.
+
+The working conditions in Shanghai, though they grew daily more perilous, yet our comrades pressed on, with an irresistible momentum and a self-sacrificing spirit that carried them ever forward, broke through every difficulty, and time and again brought to completion the tasks their superiors had laid upon them. The one best fitted to strike an awe into the enemy ought to be the case in which we sanctioned Yu Yefeng—a profiteer who bought up war matériel in bulk for the enemy army, and a leading member of the puppet "New Asia Peace Promotion Association."

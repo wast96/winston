@@ -422,6 +422,22 @@ UNITS = {
         },
         "standalone": [3, 40, 64],
     },
+    "ch23": {
+        "file": "24_index-split-000-0022.txt",
+        "title": "第三章 爱国情操 道德规范",
+        # A SHORT framing chapter. Source XHTML parses to 1 <h2> + 8 <p>, zero
+        # mismatches (no <h1>, no <br/>, no images, no [\d+] note markers). The
+        # txt has 10 lines: L1 running header, L2 <h2> title, L3 couplet
+        # sub-heading, L4-L10 = 7 body paragraphs, all ending on terminal
+        # punctuation, so 1:1 with no merges. L3 初生之犊组成了一枝生力军 is the
+        # opening COUPLET-style sub-heading (NO number prefix; cf.
+        # ch11/ch14/ch21/ch22) -> standalone.
+        # GLITCHES (render to plain sense; not footnoted): L6 百性 for 百姓
+        # (homophone), L10 交赋 for 交付.
+        "drop": 2,             # running header + <h2> chapter title
+        "merges": [], "glued": {},
+        "standalone": [3],     # 初生之犊组成了一枝生力军
+    },
 }
 
 

@@ -555,3 +555,9 @@
 # ch21's correct coda read 第一章完 for the book's Ch1; this is book Ch2, so the 三 is a
 # 三-for-二 glitch (listed in PROGRESS). English renders it to plain sense, "Chapter Two".
 第三章完
+# ===== B17 (ch23) project noise =====
+# Idiom-noun 百姓 "the common people" (我中国百姓); the 百 is lexical, not the count
+# 100. Source misprints it 百性 (a homophone glitch, listed in PROGRESS); noise both
+# the correct form and the glitch so the checker does not read the 百 as 100.
+百姓
+百性
