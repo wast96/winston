@@ -1512,6 +1512,91 @@
    "en": "Wu Zhihui",
    "status": "attested",
    "pinyin": "WuZhihui"
+  },
+  "杨殷": {
+   "en": "Yang Yin",
+   "pinyin": "YangYin",
+   "status": "attested"
+  },
+  "白鑫": {
+   "en": "Bai Xin",
+   "pinyin": "BaiXin",
+   "status": "attested"
+  },
+  "邢士贞": {
+   "en": "Xing Shizhen",
+   "pinyin": "XingShizhen",
+   "status": "attested"
+  },
+  "张际春": {
+   "en": "Zhang Jichun",
+   "pinyin": "ZhangJichun",
+   "status": "attested"
+  },
+  "范争波": {
+   "en": "Fan Zhengbo",
+   "pinyin": "FanZhengbo",
+   "status": "attested"
+  },
+  "范争洛": {
+   "en": "Fan Zhengluo",
+   "pinyin": "FanZhengluo",
+   "status": "attested"
+  },
+  "熊式辉": {
+   "en": "Xiong Shihui",
+   "pinyin": "XiongShihui",
+   "status": "attested"
+  },
+  "方乃斌": {
+   "en": "Fang Naibin",
+   "pinyin": "FangNaibin",
+   "status": "attested"
+  },
+  "吴开先": {
+   "en": "Wu Kaixian",
+   "pinyin": "WuKaixian",
+   "status": "attested"
+  },
+  "周惠年": {
+   "en": "Zhou Huinian",
+   "pinyin": "ZhouHuinian",
+   "status": "attested"
+  },
+  "许玉庆": {
+   "en": "Xu Yuqing",
+   "pinyin": "XuYuqing",
+   "status": "attested"
+  },
+  "康生": {
+   "en": "Kang Sheng",
+   "pinyin": "KangSheng",
+   "status": "attested"
+  },
+  "陈云": {
+   "en": "Chen Yun",
+   "pinyin": "ChenYun",
+   "status": "attested"
+  },
+  "张纪恩": {
+   "en": "Zhang Ji'en",
+   "pinyin": "ZhangJien",
+   "status": "attested"
+  },
+  "韩云秀": {
+   "en": "Han Yunxiu",
+   "pinyin": "HanYunxiu",
+   "status": "attested"
+  },
+  "蔡飞": {
+   "en": "Cai Fei",
+   "pinyin": "CaiFei",
+   "status": "attested"
+  },
+  "罗斯": {
+   "en": "Ross",
+   "pinyin": "Luosi",
+   "status": "attested"
   }
  },
  "organizations": {
@@ -2002,6 +2087,33 @@
    "en": "Great World",
    "status": "attested",
    "pinyin": "GreatWorld"
+  },
+  "和合坊": {
+   "en": "Hehe Fang",
+   "pinyin": "HeheFang",
+   "status": "attested",
+   "note": "A <i>lilong</i> (lane-neighborhood) off Avenue Joffre in the French Concession, where Bai Xin was hidden at No. 43 and shot."
+  },
+  "蒲石路": {
+   "en": "Rue Bourgeat",
+   "pinyin": "PushiLu",
+   "status": "attested",
+   "note": "A street in the French Concession (today Changle Road, 长乐路); the North China Daily News named it in reporting the killing."
+  },
+  "白宫饭店": {
+   "en": "White Palace Hotel",
+   "pinyin": "BaigongFandian",
+   "status": "attested"
+  },
+  "新世界饭店": {
+   "en": "New World Hotel",
+   "pinyin": "XinshijieFandian",
+   "status": "attested"
+  },
+  "达生医院": {
+   "en": "Dasheng Hospital",
+   "pinyin": "DashengYiyuan",
+   "status": "attested"
   }
  },
  "terms": {
@@ -2142,6 +2254,42 @@
    "en": "Bolshevik",
    "status": "attested",
    "pinyin": "Bolshevik"
+  },
+  "字林西报": {
+   "en": "North China Daily News",
+   "pinyin": "Zilin Xibao",
+   "status": "attested",
+   "note": "The leading English-language daily of the foreign settlement in Shanghai (1864&#8211;1951), published by the British."
+  },
+  "时报": {
+   "en": "Shi Bao",
+   "pinyin": "Shibao",
+   "status": "attested",
+   "note": "<i>Shi Bao</i> (The Eastern Times), a Shanghai daily."
+  },
+  "申报": {
+   "en": "Shen Bao",
+   "pinyin": "Shenbao",
+   "status": "attested",
+   "note": "<i>Shen Bao</i>, the most influential Chinese-language newspaper in Republican Shanghai (1872&#8211;1949)."
+  },
+  "大陆报": {
+   "en": "The China Press",
+   "pinyin": "Dalu Bao",
+   "status": "attested",
+   "note": "<i>The China Press</i> (Chinese name <i>Dalu Bao</i>), an American-run English daily in Shanghai."
+  },
+  "民国日报": {
+   "en": "Minguo Ribao",
+   "pinyin": "Minguo Ribao",
+   "status": "attested",
+   "note": "<i>Minguo Ribao</i> (Republican Daily News), a Kuomintang organ."
+  },
+  "中华英烈": {
+   "en": "Zhonghua Yinglie",
+   "pinyin": "Zhonghua Yinglie",
+   "status": "attested",
+   "note": "<i>Zhonghua Yinglie</i> (Chinese Martyrs), a mainland journal on revolutionary martyrs."
   }
  }
 }

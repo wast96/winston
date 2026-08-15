@@ -2255,5 +2255,891 @@
    "right": "4月15日",
    "note": "duplicated digit 415->15"
   }
+ ],
+ "ch11": [
+  {
+   "wrong": "茧涯",
+   "right": "彭湃",
+   "page": "f187",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蓝洗",
+   "right": "彭湃",
+   "page": "f187",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蓝涛",
+   "right": "彭湃",
+   "page": "f195",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "彭涯",
+   "right": "彭湃",
+   "page": "f188",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "彭涛",
+   "right": "彭湃",
+   "page": "f189",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "彭洗",
+   "right": "彭湃",
+   "page": "f196",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "彭游",
+   "right": "彭湃",
+   "page": "f198",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "世涯",
+   "right": "彭湃",
+   "page": "f196",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "葛洗",
+   "right": "彭湃",
+   "page": "f201",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "豆涯",
+   "right": "彭湃",
+   "page": "f199",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "喜涛",
+   "right": "彭湃",
+   "page": "f199",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "浆涯",
+   "right": "彭湃",
+   "page": "f200",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "芝洲",
+   "right": "彭湃",
+   "page": "f193",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨急",
+   "right": "杨殷",
+   "page": "f187",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨身",
+   "right": "杨殷",
+   "page": "f190",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨般",
+   "right": "杨殷",
+   "page": "f188",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨股",
+   "right": "杨殷",
+   "page": "f197",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨扔",
+   "right": "杨殷",
+   "page": "f193",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨笑",
+   "right": "杨殷",
+   "page": "f201",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨虑",
+   "right": "杨殷",
+   "page": "f201",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨乃",
+   "right": "杨殷",
+   "page": "f192",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨筷",
+   "right": "杨殷",
+   "page": "f194",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨委",
+   "right": "杨殷",
+   "page": "f196",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨旋",
+   "right": "杨殷",
+   "page": "f190",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨颈",
+   "right": "杨殷",
+   "page": "f194",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白意",
+   "right": "白鑫",
+   "page": "f187",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白舍",
+   "right": "白鑫",
+   "page": "f192",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白奢",
+   "right": "白鑫",
+   "page": "f194",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白讲",
+   "right": "白鑫",
+   "page": "f193",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白磷",
+   "right": "白鑫",
+   "page": "f193",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白龟",
+   "right": "白鑫",
+   "page": "f193",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白诸",
+   "right": "白鑫",
+   "page": "f194",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白伟",
+   "right": "白鑫",
+   "page": "f193",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白佬",
+   "right": "白鑫",
+   "page": "f193",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白人夸",
+   "right": "白鑫",
+   "page": "f194",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白春",
+   "right": "白鑫",
+   "page": "f194",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "折锡",
+   "right": "白鑫",
+   "page": "f195",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "折侈",
+   "right": "白鑫",
+   "page": "f194",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "拍讲",
+   "right": "白鑫",
+   "page": "f194",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "回春",
+   "right": "白鑫",
+   "page": "f194",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白刘",
+   "right": "白鑫",
+   "page": "f193",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "日夸",
+   "right": "白鑫",
+   "page": "f193",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "日奢",
+   "right": "白鑫",
+   "page": "f193",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "日侈",
+   "right": "白鑫",
+   "page": "f194",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "颜昌匠",
+   "right": "颜昌颐",
+   "page": "f191",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "颜昌臣",
+   "right": "颜昌颐",
+   "page": "f191",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "颜昌趾",
+   "right": "颜昌颐",
+   "page": "f191",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "颜昌若",
+   "right": "颜昌颐",
+   "page": "f191",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "颜昌熙",
+   "right": "颜昌颐",
+   "page": "f192",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "颜昌项",
+   "right": "颜昌颐",
+   "page": "f201",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "颜虽颐",
+   "right": "颜昌颐",
+   "page": "f191",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "颜虽显",
+   "right": "颜昌颐",
+   "page": "f201",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "颜具烦",
+   "right": "颜昌颐",
+   "page": "f192",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "丫昌颐",
+   "right": "颜昌颐",
+   "page": "f191",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "邢士页",
+   "right": "邢士贞",
+   "page": "f193",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "邢七贞",
+   "right": "邢士贞",
+   "page": "f192",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "page": "f195",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "page": "f195",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈钴",
+   "right": "陈赓",
+   "page": "f195",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈康",
+   "right": "陈赓",
+   "page": "f195",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈煞",
+   "right": "陈赓",
+   "page": "f195",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈广",
+   "right": "陈赓",
+   "page": "f197",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨登泳",
+   "right": "杨登瀛",
+   "page": "f195",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨合沪",
+   "right": "杨登瀛",
+   "page": "f195",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "协登涉",
+   "right": "杨登瀛",
+   "page": "f195",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "柯刨",
+   "right": "柯麟",
+   "page": "f194",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "柯记",
+   "right": "柯麟",
+   "page": "f199",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "帷秋白",
+   "right": "瞿秋白",
+   "page": "f189",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "能式辉",
+   "right": "熊式辉",
+   "page": "f199",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "方帮研",
+   "right": "方乃斌",
+   "page": "f195",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "周息来",
+   "right": "周恩来",
+   "page": "f202",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "周姑来",
+   "right": "周恩来",
+   "page": "f200",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "重安",
+   "right": "孟安",
+   "page": "f196",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "和孟返",
+   "right": "孟挼",
+   "page": "f196",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "上海$月30",
+   "right": "上海8月30",
+   "page": "f192",
+   "note": "Zhang Jichun demos 8月30日; $->8"
+  },
+  {
+   "wrong": "捕共$人",
+   "right": "捕共5人",
+   "page": "f193",
+   "note": "5 arrested; $->5"
+  },
+  {
+   "wrong": "标传$人",
+   "right": "标传5人",
+   "page": "f201",
+   "note": "5 retried; $->5"
+  },
+  {
+   "wrong": "上将$人",
+   "right": "上将5人",
+   "page": "f201",
+   "note": "5 escorted; $->5"
+  },
+  {
+   "wrong": "这次行动的李强说，",
+   "right": "这次行动的李强说：",
+   "page": "f198",
+   "note": "attribution colon"
+  },
+  {
+   "wrong": "脱免无口供之3人",
+   "right": "脱免无口供之3人……”",
+   "page": "f196",
+   "note": "dropped closing …”"
+  },
+  {
+   "wrong": "4纪念彭湃",
+   "right": "《纪念彭湃",
+   "page": "f189",
+   "note": "《 OCR'd as 4"
+  },
+  {
+   "wrong": "4红旗日报",
+   "right": "《红旗日报",
+   "page": "f193",
+   "note": "《 OCR'd as 4"
+  },
+  {
+   "wrong": "军委十部",
+   "right": "军委干部",
+   "page": "f192",
+   "note": "干部; 干->十"
+  },
+  {
+   "wrong": "指导七兵运动",
+   "right": "指导士兵运动",
+   "page": "f192",
+   "note": "士兵; 士->七"
+  },
+  {
+   "wrong": "与十兵谈",
+   "right": "与士兵谈",
+   "page": "f199",
+   "note": "士兵; 士->十"
+  },
+  {
+   "wrong": "-条路7",
+   "right": "-条路了",
+   "page": "f199",
+   "note": "了 OCR'd as 7"
+  },
+  {
+   "wrong": "二民照相馆",
+   "right": "三民照相馆",
+   "page": "f197",
+   "note": "Sanmin Studio; 三->二"
+  },
+  {
+   "wrong": "1万望保重",
+   "right": "万望保重",
+   "page": "f200",
+   "note": "phantom 1 before 万望"
+  },
+  {
+   "wrong": "杨3同志初被捕",
+   "right": "杨5同志初被捕",
+   "page": "f202",
+   "note": "five comrades; 5->3"
+  },
+  {
+   "wrong": "干万群众",
+   "right": "千万群众",
+   "page": "f202",
+   "note": "千万; 千->干"
+  },
+  {
+   "wrong": "头ji95子蒋",
+   "right": "头子蒋",
+   "page": "f195",
+   "note": "leaked folio ji95"
+  }
+ ],
+ "ch12": [
+  {
+   "wrong": "获涯",
+   "right": "彭湃",
+   "page": "f203",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "彭涯",
+   "right": "彭湃",
+   "page": "f203",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "彭洲",
+   "right": "彭湃",
+   "page": "f205",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "彭浇",
+   "right": "彭湃",
+   "page": "f209",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "彭涛",
+   "right": "彭湃",
+   "page": "f215",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白夺",
+   "right": "白鑫",
+   "page": "f204",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白读",
+   "right": "白鑫",
+   "page": "f204",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "电多征",
+   "right": "白鑫",
+   "page": "f204",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白诸",
+   "right": "白鑫",
+   "page": "f204",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "日伟",
+   "right": "白鑫",
+   "page": "f205",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白伟",
+   "right": "白鑫",
+   "page": "f205",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白从",
+   "right": "白鑫",
+   "page": "f205",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蝇侈",
+   "right": "白鑫",
+   "page": "f205",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白褒",
+   "right": "白鑫",
+   "page": "f205",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白完",
+   "right": "白鑫",
+   "page": "f206",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白介",
+   "right": "白鑫",
+   "page": "f208",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白奢",
+   "right": "白鑫",
+   "page": "f206",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "日闭",
+   "right": "白鑫",
+   "page": "f206",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白讲",
+   "right": "白鑫",
+   "page": "f204",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "白蹇",
+   "right": "白鑫",
+   "page": "f206",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蝗奢",
+   "right": "白鑫",
+   "page": "f204",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "柯志",
+   "right": "柯麟",
+   "page": "f204",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "林鹿",
+   "right": "柯麟",
+   "page": "f205",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈废",
+   "right": "陈赓",
+   "page": "f208",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈广",
+   "right": "陈赓",
+   "page": "f206",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈记",
+   "right": "陈赓",
+   "page": "f208",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "间恩来",
+   "right": "周恩来",
+   "page": "f203",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "关疝应",
+   "right": "关向应",
+   "page": "f205",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨登泳",
+   "right": "杨登瀛",
+   "page": "f204",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "杨登沪",
+   "right": "杨登瀛",
+   "page": "f204",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "定在1月11日",
+   "right": "定在11月11日",
+   "page": "f206",
+   "note": "departure 11月11日; dropped digit"
+  },
+  {
+   "wrong": "射出9多发",
+   "right": "射出90多发",
+   "page": "f209",
+   "note": "90+ rounds; 9->90"
+  },
+  {
+   "wrong": "争史。11月5日",
+   "right": "争吵。11月9日",
+   "page": "f215",
+   "note": "吴开先 report 11月9日; 史->吵,5->9"
+  },
+  {
+   "wrong": "许玉关",
+   "right": "许玉庆",
+   "page": "f203",
+   "note": "Xu Yuqing (Peng Pai wife)"
+  },
+  {
+   "wrong": "下洲不明",
+   "right": "下落不明",
+   "page": "f203",
+   "note": "下落; 洲->落"
+  },
+  {
+   "wrong": "周风带着",
+   "right": "周凤带着",
+   "page": "f203",
+   "note": "Zhou Feng (Peng Pai mother); 风->凤"
+  },
+  {
+   "wrong": "彭什禄",
+   "right": "彭仕禄",
+   "page": "f203",
+   "note": "Peng Shilu (source prints 仕); 什->仕"
+  },
+  {
+   "wrong": "朱应觅",
+   "right": "朱应鹏",
+   "page": "f211",
+   "note": "Zhu Yingpeng; 觅->鹏"
+  },
+  {
+   "wrong": "1月11日带领红队",
+   "right": "11月11日带领红队",
+   "page": "f215",
+   "note": "killing date 11月11日; dropped digit"
+  },
+  {
+   "wrong": "秘事后约一小时",
+   "right": "事后约一小时",
+   "page": "f211",
+   "note": "stray char before 时报 para"
+  },
+  {
+   "wrong": "你卧东五",
+   "right": "仰卧东五",
+   "page": "f212",
+   "note": "仰卧; 你->仰"
+  },
+  {
+   "wrong": "连篇累睦",
+   "right": "连篇累牍",
+   "page": "f209",
+   "note": "连篇累牍; 睦->牍"
+  },
+  {
+   "wrong": "4大陆报",
+   "right": "《大陆报",
+   "page": "f209",
+   "note": "《->4"
+  },
+  {
+   "wrong": "4时报",
+   "right": "《时报",
+   "page": "f209",
+   "note": "《->4"
+  },
+  {
+   "wrong": "万命范之保镖",
+   "right": "乃命范之保镖",
+   "page": "f212",
+   "note": "乃命; 乃->万"
+  },
+  {
+   "wrong": "1月13绅",
+   "right": "11月13日",
+   "page": "f212",
+   "note": "字林西报 date 11月13日; dropped digit,绅->日"
+  },
+  {
+   "wrong": "4上海发生",
+   "right": "《上海发生",
+   "page": "f212",
+   "note": "《->4"
+  },
+  {
+   "wrong": "《雷路附近",
+   "right": "《霞飞路附近",
+   "page": "f212",
+   "note": "霞飞路; 雷->霞飞"
+  },
+  {
+   "wrong": "4上海民国日",
+   "right": "《上海民国日",
+   "page": "f215",
+   "note": "《->4"
+  },
+  {
+   "wrong": "4陈赓大将",
+   "right": "《陈赓大将",
+   "page": "f216",
+   "note": "《->4"
+  },
+  {
+   "wrong": "汞尖被捕",
+   "right": "彭湃被捕",
+   "page": "f205",
+   "note": "Peng Pai; 汞尖 garble"
+  },
+  {
+   "wrong": "叛杰出志芯涛",
+   "right": "叛变出卖彭湃",
+   "page": "f205",
+   "note": "betrayed Peng Pai; garble run"
+  },
+  {
+   "wrong": "正患关疾",
+   "right": "正患疟疾",
+   "page": "f205",
+   "note": "malaria 疟疾; 关->疟"
+  },
+  {
+   "wrong": "惊妨万状",
+   "right": "惊惶万状",
+   "page": "f215",
+   "note": "惊惶; 惶->妨"
+  },
+  {
+   "wrong": "鄂天苏区",
+   "right": "鄂豫苏区",
+   "page": "f218",
+   "note": "Eyu (Hubei-Henan) soviet; 豫->天"
+  },
+  {
+   "wrong": "湖北.训阳.束阳",
+   "right": "湖北、襄阳、枣阳",
+   "page": "f218",
+   "note": "Xiangyang/Zaoyang; 训->襄,束->枣"
+  }
  ]
 }

@@ -133,3 +133,27 @@
 两手
 # 4万 (40,000 yuan ransom) — Arabic+万 mix; English carries "40,000"
 4万
+# Bailu Li — residence name (百禄里), rendered "Bailu Li"; 百 is not a count
+百禄里
+# the two Guang provinces (两广 = Guangdong+Guangxi), rendered "Guang-Guang"
+两广
+# Guangzhou–Sanshui railway (广三铁路); 三 is a place-glyph, not a count
+广三铁路
+# Guangzhou–Kowloon railway (广九); 九 is a place-glyph, not a count
+广九
+# "gray tunics" — 丘八 is soldier-slang (兵 split into 丘+八), not a count of 8
+丘八
+# 万望保重 — "take the greatest care" (idiom); 万 is intensive, not a quantity
+万望
+# 排除万难 — "sweep aside every obstacle" (idiom); 万难 is not a count
+万难
+# 千万群众 — "the countless masses" (rhetorical round), not a literal 10,000,000
+千万群众
+# 第二天 — "the next day" (idiom); 二 is ordinal "next", not a count
+第二天
+# 十恶不赦 — "unpardonably evil" (idiom); 十 is not a count of 10
+十恶不赦
+# 惊惶万状 — "thrown into a panic" (idiom); 万状 is not a quantity
+惊惶万状
+# 这两天 — "these last day or two" (idiom); 两 is not a count
+这两天

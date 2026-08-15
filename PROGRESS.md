@@ -720,3 +720,86 @@ English carries "40,000"). Extend, do not prune.
   misprint for 1980.
 - 珠江 (Zhao Yiman's death place) rendered as printed with a note that it is a
   misprint for 珠河/Shangzhi.
+
+## Batch 7 (B07): ch11 (霞飞路侧的枪声(上) / Gunshots off Avenue Joffre, Part 1, PDF 231-246, printed 187-202) + ch12 (霞飞路侧的枪声(下) / Part 2, PDF 247-262, printed 203-218) — DONE
+
+The Bai Xin affair: the traitor's tip-off, the arrest (24 Aug 1929) and
+martyrdom of Peng Pai, Yang Yin, Yan Changyi, Xing Shizhen (executed 30 Aug;
+Zhang Jichun survived), the failed armed rescue; then the Red Squad's hunt and
+killing of Bai Xin off Avenue Joffre (11 Nov 1929), the press coverage, and a
+life of Tan Zhongyu who led the strike. ch11 = 39 body paras + 4 headings,
+11 notes, 1 figure. ch12 = 42 body paras + 4 headings, 8 notes, 3 figures.
+
+### Checks — all green
+- parity: ch11 39/39, ch12 42/42 (check_structure --pairs).
+- numbers: verify_unit / check_numbers --noise, 0 unresolved both units.
+- entities: qc_entities 0 misses both (彭湃 x42, 白鑫 x24/x31, 杨殷 x25, 谭忠余 x20).
+- alignment: check_align OK; check_content (ch11/ch12 added to check_config) OK.
+- register: check_register --ref out/ch01_reading.md within tolerance (both
+  low-dialogue, flagged noisy — expected for documentary/biographical chapters).
+- apparatus: check_apparatus 0/0; anchors 11 ok (ch11) + 8 ok (ch12).
+- build: qa_epub PASS (13/28 chapters, 187 notes, 198 pagebreaks); epubcheck
+  5.1.0 clean (0 fatals / 0 errors / 0 warnings).
+- tail verification (rule 4): read the final paragraphs of each unit against the
+  scan; corrected 湖北、襄阳、枣阳 (OCR 训阳/束阳) and 鄂豫苏区 (OCR 鄂天) in ch12's close.
+
+### Assembly — same B06 disease; b07_* scripts (tracked)
+Near-total welding on opener/block-quote/newspaper pages plus OCR-dropped
+sentence-ends. b07_strip_furniture.py: normalized 8 headings; INSERTED the ch11
+s02 heading 武装营救未能奏效 (both OCR configs dropped it, folio 195); blanked the
+full-page 彭湃 arrest-site photo (p232); DELETE_BEFORE the Hehe-Fang photo (p251)
+and the 时报 facsimile (p254); OVERWROTE p257's mangled 字林西报-translation opener
+with a clean scan transcription (the English facsimile bled into the OCR);
+truncated 8 author-footnote blocks; RESTORE table of 13 dropped sentence-ends /
+stray footnote-marker chars / a dropped run (说是"东方惟一的大暗杀案"。 folio 209)
+and the joint-signature line 挼安 of the martyrs' final report (folio 200).
+b07_surgery.py RE-SEGMENTS by verified marker list (ch11 s01/s02/s03 = 14/11/14,
+ch12 s01/s02/s03 = 15/21/6) with the boundary-SNAP. b07_pagemap.py regenerates
+the pagemaps. NOT idempotent: re-assemble both units before re-running surgery.
+NOTE apply_fixes.py is NOT idempotent either — a "wrong" that is a substring of
+its "right" (1月11日带领红队 -> 11月11日带领红队) corrupts on a SECOND apply; always
+clean-regen (strip -> assemble -> surgery) before apply_fixes, never incrementally.
+
+### data/ocr_fixes.json — ch11 ~90 rows, ch12 ~40 rows
+Heavy per-name garble maps (彭湃 had ~14 distinct garbles, 白鑫 ~20, 杨殷 ~12,
+颜昌颐 ~10). Crop-verified numbers: 11月11日 (departure AND s03 opener, dropped
+digit twice), 11月9日 (吴开先 report; 5->9), 90多发子弹 (9->90), 8月30日 ($->8),
+共5人/标传5人 ($->5), 三民照相馆 (三->二), 廿八/廿二 kept as printed. Phantom
+numerals fixed: 《->4 (six work-title brackets), 了->7, 士->七/十, 干->千, leaked
+folio ji95->头子, 乃命 (乃->万). Family names verified on folio 203/216: 彭洪,
+许玉庆, 彭小沛, 周凤, 彭仕禄 (source prints 仕; person is Peng Shilu, footnoted).
+
+### NOT re-noted (already placed earlier; cross-referenced instead)
+Peng Pai + Yang Yin (ch02), Bai Xin + Ke Lin (ch04), Nanchang Uprising (ch00),
+August 7 Conference (ch02), May Thirtieth (ch01), Whampoa (ch03), Longhua (ch01),
+White Terror (ch00), April 12 (ch00), Red Squad / Dog-Beating Squad (ch01),
+Hailufeng (ch02), Sun Yat-sen (ch03), the Concessions / Municipal Police / Mixed
+Court / Songhu Garrison (ch01-02), Kang Sheng (ch09 — cross-ref'd for the 1931
+reorganization).
+
+### Glossary: 28 rows added (nested), key reuse held
+New people: 杨殷 Yang Yin, 白鑫 Bai Xin, 邢士贞 Xing Shizhen, 张际春 Zhang Jichun,
+范争波 Fan Zhengbo, 范争洛 Fan Zhengluo, 熊式辉 Xiong Shihui, 方乃斌 Fang Naibin,
+吴开先 Wu Kaixian, 周惠年 Zhou Huinian, 许玉庆 Xu Yuqing, 康生, 陈云, 张纪恩,
+韩云秀, 蔡飞, 罗斯 Ross. Places: 和合坊 Hehe Fang, 蒲石路 Rue Bourgeat (named in
+the reproduced NCDN article), 白宫饭店 White Palace Hotel, 新世界饭店, 达生医院.
+Works: 字林西报 North China Daily News, 时报 Shi Bao, 申报 Shen Bao, 大陆报 The
+China Press, 民国日报 Minguo Ribao, 中华英烈. REUSED unchanged: 彭湃, 颜昌颐,
+谭忠余, 陈赓, 顾顺章, 杨登瀛, 柯麟, 周恩来, 关向应, 瞿秋白, 张道藩, 陈立夫,
+蒋介石, 李强, 李立三, 贺诚, 红队, 中央特科, 打狗队, 淞沪警备司令部, 龙华.
+
+### noise.txt additions (this batch)
+百禄里, 两广, 广三铁路, 广九 (place/rail compounds with a digit-glyph); 丘八
+("gray tunics", soldier slang), 万望, 万难, 千万群众, 惊惶万状, 十恶不赦, 第二天,
+这两天 (idioms/rounds the English carries by sense). Extend, do not prune.
+
+### Reading uncertainties / source facts for the read-through
+- 吴开先's report reproaching the Concession is dated 11月9日 as printed, two days
+  BEFORE the killing it discusses (11月11日) — a likely misprint, kept and footnoted.
+- The claim of a 28 Aug 1929 attempt on Chiang Kai-shek's life (in Zhou Enlai's
+  own contemporary essay) is not independently corroborable; footnoted as stated.
+- The reproduced North China Daily News article overstates Bai Xin's rank
+  (garrison detective-bureau chief); footnoted, its account otherwise corroborates.
+- The two reproduced newspaper articles (时报, 字林西报) are internally
+  self-contradictory in places; the source flags this with bracketed 按 notes,
+  kept verbatim in the translation.
