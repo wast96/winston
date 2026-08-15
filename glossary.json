@@ -2447,6 +2447,48 @@
       "pinyin": "Zhū Shēng",
       "status": "attested",
       "note": "The servant who killed the puppet Shanghai mayor Fu Xiao'an with an axe on 11 Oct 1940; central to ch28 Section 2. His assassination act was noted at ch04. Source spelling-variants (朱生, 朱升源) and the alias 陈中南 render inline."
+    },
+    "周西垣": {
+      "en": "Zhou Xiyuan",
+      "pinyin": "Zhōu Xīyuán",
+      "status": "provisional",
+      "note": "The third-sub-brigade leader of the First Action Brigade, turned by Wan Lilang; the trap through which Liu Yuanshen was taken. Cover name 冯贤 (Feng Xian), keyed separately."
+    },
+    "冯贤": {
+      "en": "Feng Xian",
+      "pinyin": "Féng Xián",
+      "status": "provisional",
+      "note": "Cover name of Zhou Xiyuan; the source uses it as such (此人名叫冯贤(周西垣的化名)), so it renders 'Feng Xian', not 'Zhou Xiyuan'."
+    },
+    "朱敏": {
+      "en": "Zhu Min",
+      "pinyin": "Zhū Mǐn",
+      "status": "provisional",
+      "note": "Zhou Xiyuan's unit secretary and the informant who denounced him; the foil of Liu Yuanshen's memoir."
+    },
+    "刘全德": {
+      "en": "Liu Quande",
+      "pinyin": "Liú Quándé",
+      "status": "provisional",
+      "note": "First-sub-brigade leader, a Jiangxi man and former Ruijin 'Little Red Devil'; killed in Shanghai after the government moved to Taiwan."
+    },
+    "相强伟": {
+      "en": "Xiang Qiangwei",
+      "pinyin": "Xiàng Qiángwěi",
+      "status": "provisional",
+      "note": "Second-sub-brigade leader, a man of Sheng County in Zhejiang."
+    },
+    "骆成金": {
+      "en": "Luo Chengjin",
+      "pinyin": "Luò Chéngjīn",
+      "status": "provisional",
+      "note": "Xiang Qiangwei's deputy, out of the Hangzhou Police Academy; tortured on the tiger bench at No. 76 without confessing."
+    },
+    "许力求": {
+      "en": "Xu Liqiu",
+      "pinyin": "Xǔ Lìqiú",
+      "status": "provisional",
+      "note": "Director of the South China Evening News, Wang Jingwei's Hong Kong propaganda organ; the sanction target Zhou Xiyuan dangles as bait."
     }
   },
   "organizations": {

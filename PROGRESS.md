@@ -2892,3 +2892,108 @@ every five days).
   data/zh/ch28.txt before NCR conversion).
 - `data/noise.txt` — B22 block (see above).
 - `notes.json` — 8 notes appended via apparatus_merge.py (cumulative 267).
+
+## Batch B23 (ch29) — 第十章 祸不单行 柱折梁摧(上) "Chapter 10. Troubles Never Come Singly; Pillars Snap, Beams Fall (Part 1)"
+
+The disaster/collapse chapter, the (上) half of a two-part chapter (ch30 = the 下 half). Continues
+ch28's tail (the early-1941 特工总部 + 上海日本宪兵队 crackdown and Chen's own capture). A two-voice
+chapter: Chen's essayistic narration frames Liu Yuanshen's (刘原深) first-person memoir 沪滨三次历险实录.
+Two enumerated 一、二 sections: (1) 是我误了他的锦绣前程 — Chen loses a son to pneumonia, then the bureau
+summons Liu Yuanshen to the Chengdu Advanced Education Class; Chen persuades him to stay, and hands
+him the acting command of the First Action Brigade as a two-month "temporary task" (the Changsha-fire
+dispatch, the seventeen classmates and the nine martyred in Pudong, Dai Li's blanket-scolding and his
+station farewell); (2) 人性理性交织下的特务活动 — Liu takes over the brigade, meets the three
+sub-brigade leaders (Liu Quande / Xiang Qiangwei-Luo Chengjin / the turned Zhou Xiyuan), and is drawn
+step by step into the Zhou Xiyuan / Zhu Min trap over the sanction of Xu Liqiu, breaking off on the
+28 June meeting. Chen's closing narration recaps the two-year run and his own capture.
+
+### Structure (confirmed p-by-p against the source XHTML)
+- Source `Text/index_split_000_0028.xhtml` parses to **1 `<h2>` + 72 `<p>`**, NO `<h1>`, NO `<br/>`,
+  NO `<img>`, NO `[\d+]` note markers. **drop=2** (running header 英雄无名-陈恭澍 + `<h2>` title).
+- Byte-exact p-by-p diff: the 72 body lines map 1:1 to the 72 `<p>`, **zero mismatches**.
+- **TWO enumerated 一、二 SECTION headings:** L3 一、是我误了他的锦绣前程 (STANDALONE, its own `<p>`);
+  二、人性理性交织下的特务活动 TAIL-GLUED onto L33 after a terminal 。(…他怎么说我就怎么答应了。二、…),
+  split off via `glued`.
+- **ONE severed-`<p>` merge** (first ends non-terminal, class merged since ch06): L65/L66
+  (…所有的问题必可负责代为 | 解决。).
+- NOT merged (deliberate separate lines): the ：-ended memoir/document lead-ins (L32 …原文如下：,
+  L40 …也不能无疑：), and L19 (以下这一段…细说他这一段不平凡的历程) — a complete lead-in sentence whose
+  final 。 the source drops (a glitch, rendered with a period), NOT a split.
+- clean_batch.py ch29: **70 body paragraphs, 2 sub-headings, source conserved OK.**
+
+### Checks (all green)
+- **verify_unit.py ch29:** parity 70=70; numbers 0 unresolved (after the B23 noise block); anchors 0.
+- **check_align.py ch29:** 70/70, median ratio **4.97 en/han** (dialogue/document-heavy; in range).
+- **check_structure.py:** parity 70=70 OK; anchors 276 notes, 0 unresolved; headings OK.
+- **check_content.py:** ch29 **27 name occurrences, all in the paired paragraph** (0 displaced). The
+  only DISPLACED remain the documented pre-existing artifacts (ch08 ×3, ch09 ×1, ch13 ×9, ch26 ×2).
+- **qc_entities.py** (reconstructed bilingual): census 周西垣 ×27, 朱敏 ×26, 制裁 ×14, 刘全德/万里浪/
+  许力求 ×9 …; **0 misses.**
+- **check_register.py --ref:** within tolerance; "shall" 56% (deliberate — the chapter carries many
+  quoted directives/telegrams/dialogue; cf. B19 67%, B20 83%). Contractions 0.0, em-dash 6.8/1k.
+- **check_apparatus.py:** 0 failures, 0 warnings.
+- **qa_epub.py:** PASS (43 documents, 4300 paragraphs, 276 references/bodies/backlinks).
+- **epubcheck 5.1.0:** 0 fatals / 0 errors / 0 warnings / 0 infos.
+- **EPUB now 29/43 chapters, 276 notes.**
+
+### Glossary (7 net-new keyed rows, BY HAND via scripts/add_ch29_glossary.py; each key asserted in data/zh)
+周西垣 Zhou Xiyuan (the turned third-sub-brigade leader), 冯贤 Feng Xian (Zhou's cover name — renders
+its OWN way, NOT "Zhou Xiyuan", per the source's deliberate use), 朱敏 Zhu Min (Zhou's secretary /
+informant), 刘全德 Liu Quande (first-sub-brigade leader, ex-Ruijin "Little Red Devil"), 相强伟 Xiang
+Qiangwei (second-sub-brigade leader), 骆成金 Luo Chengjin (Xiang's deputy; tortured on the tiger bench),
+许力求 Xu Liqiu (South China Evening News director, the bait target). All `provisional`. Rendered INLINE
+(NOT keyed): 祝慎之 Zhu Shenzhi (pediatrician); the classmate roster (唐与元/张学礼/张毓檀/吴菊生/杨继志/
+张维贤; 狄玺庭/李玉顺/刘士愚/丁履敬); bureau personnel 李肖白/周康; Wuhan-internship staff 刘培初/张树勋/
+陈仙洲 (董威 inline from B22); maidservants 赵妈/彩爱. 南华晚报 is a footnote, not a key.
+
+### Notes added (9; first-appearance-disciplined; cumulative 267 → 276)
+- **the great Changsha fire** — 长沙大火 (12 Nov 1938), the scorched-earth Wenxi Fire.
+- **the Linli class** — the Juntong's 1938 Linli (临沣 in source, for 临澧) special training class;
+  Chiang principal (校长), Dai Li class director (班主任).
+- **the Advanced Education Class** — 高等教育班 of the 中央军校 at Chengdu; the plot's hinge.
+- **Xiaozhilong** — 消治龙, an early sulfonamide (sulfa) antibacterial.
+- **Little Red Devil** — 红小鬼, CCP boy soldiers; 瑞金 the Jiangxi Soviet base.
+- **tiger bench** — 老虎凳, the standard No. 76 torture.
+- **South China Evening News** — 南华晚报, Wang Jingwei's Hong Kong organ (Lin Bosheng, 1939).
+- **dead before the campaign was won** — 出师未捷身先死, Du Fu on Zhuge Liang.
+- **State Express 555** — 茄力克 Garrick / 三五 State Express 555, premium tinned cigarettes.
+
+### NOT re-noted (already covered; first-appearance discipline)
+No.76 / 特工总部 (ch04/ch17), 制裁 sanction, 忠义救国军 the Loyal and Patriotic Army (ch21), Dai Li's
+1946 air-crash death (ch02/ch25), Whampoa (early), the concessions (ch04), Zhang Xiaolin / Fu Xiao'an
+(ch04/ch28), Wang Jingwei / the Wang puppets (throughout), 军统局 the Juntong Bureau (ch04).
+
+### Digitization glitches (rendered to plain sense; NOT footnoted — mechanical, no reading uncertainty)
+- **L19 dropped final 。** on the memoir lead-in (…不平凡的历程) — rendered with a period.
+- **L32 移交xx同志** — a redacted name (lowercase xx) → rendered "Comrade XX".
+- **L32 潇酒 → 潇洒** ("dashing"; 酒 for 洒).
+- **L41 局惟有听命行事 → 周** (Zhou had no course but to obey; 局 for 周) — rendered "Zhou".
+- **L49 霞飞坊 X 号** — a redacted lane number (× redaction) → rendered "No. —" (em-dash blank).
+- **L54 妳 → 你** (Zhu Min is male; the source's feminine 妳) — rendered "you".
+- **L54 怎怎么 → 怎么** (dittography); **L54 索兴 → 索性** ("straight to the point"); **L54 dropped
+  closing 」** at the paragraph end — quote closed in the English.
+- **L62 三○一室 → Room 301** (○ = U+25CB for 0; the numeric checker mis-reads it — noised the
+  glyph-string, real value 301 carried).
+- **L70 当？ → 当即** ("readily"; stray ？); **L70 幺么小丑** ("petty clown"; 幺么/幺麽 variant).
+- **L72 了？实身份 → 真实身份** ("true identity"; stray ？).
+
+### data/noise.txt — B23 block appended (each entry commented)
+Idioms/counters/name-elements: 两相配合 (acting in concert — 两 not 2), 两难 (dilemma), 五旬 (about
+fifty — decade form; fifty carried in the English), 八仙桥 (Baxianqiao — 八 a name element), 五福楼
+(the Wufu Lou restaurant — 五 a name element), 送给了万 / 万某 / 被万 (bare surname 万 = Wan Lilang, not
+10000), 万一 (idiom "if by any chance"), 三○一 (Room 301 address artifact, ○ mis-read). Counters carried
+by naming (like B22's 二位): 周、朱两人, 陈、齐两位, 朱、周二人. All REAL quantities CARRIED as digits/words
+(the 4-dollar stake / 2,000-odd winnings; the seventeen classmates; the nine martyred; the six/ten/
+eight-man sub-brigades; the 3 revolvers / 2 Mausers / 1 Browning; the 2 revolvers + 60 rounds; the
+sixty-odd cases / one every five days; the ten-month tally; the two-month task; the 13th/15th/22nd/
+24th/25th/28th/29th dates; ages 24/32/29/23; the 17 March 1946 air crash; ROC years 27/28/30/35).
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch29 spec added (drop=2; 1 severed-`<p>` merge 65/66; standalone heading
+  L3; tail-glued heading on L33 after a terminal 。).
+- `scripts/add_ch29_glossary.py` — 7 new rows BY HAND (each key asserted in data/zh/ch29.txt).
+- `scripts/make_ch29_apparatus.py` — the 9 ch29 notes (every non-ASCII glyph asserted present in
+  data/zh/ch29.txt before NCR conversion; correct forms 临澧/文夕/蜀相 NOT typed since absent from the
+  glitchy/abridged source — described in English/pinyin instead).
+- `data/noise.txt` — B23 block (see above).
+- `notes.json` — 9 notes appended via apparatus_merge.py (cumulative 276).

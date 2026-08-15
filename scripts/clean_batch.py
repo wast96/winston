@@ -677,6 +677,34 @@ UNITS = {
         "glued_head": {},
         "standalone": [3, 49, 129],
     },
+    "ch29": {
+        "file": "30_index-split-000-0028.txt",
+        "title": "第十章 祸不单行 柱折梁摧(上)",
+        "drop": 2,             # running header + <h2> chapter title
+        # The (上) half of a two-part chapter (ch30 = the 下 half); the
+        # disaster/collapse chapter, continuing ch28's tail (the crackdown +
+        # Chen's own capture). Source XHTML parses to 1 <h2> + 72 <p>, proven
+        # byte-exact p-by-p against the txt body (72 body lines after drop=2,
+        # zero mismatches; no <h1>, no <br/>, no <img>, no [\d+] note markers).
+        # TWO enumerated 一、二 SECTION headings:
+        #   L3   一、是我误了他的锦绣前程                  (standalone, its own <p>)
+        #   L33  …他怎么说我就怎么答应了。 + 二、人性理性交织下的特务活动
+        #        (tail-glued after a terminal 。)
+        # ONE source-<p> boundary that severs one sentence (first ends
+        # non-terminal), the class merged since ch06:
+        #   L65/L66  …所有的问题必可负责代为 | 解决。 (代为|解决 split mid-phrase)
+        # NOT merged (DELIBERATE separate <p>, cf. ch21-28): the memoir/document
+        # lead-ins — L17 以下这一段…细说他这一段不平凡的历程 (a complete lead-in
+        # sentence whose final 。 the source drops — a glitch, not a split; the
+        # next <p> opens Liu Yuanshen's first-person account), and the ：-ended
+        # lead-ins L32 原文如下：(actually L32 下面这一段…原文如下：) and L40 …也不
+        # 能无疑：. These introduce the quoted 沪滨三次历险实录 memoir and the 朱敏
+        # report and stay as their own lines.
+        "merges": [(65, 66)],
+        "glued": {33: "二、人性理性交织下的特务活动"},
+        "glued_head": {},
+        "standalone": [3],     # 一、是我误了他的锦绣前程
+    },
 }
 
 
