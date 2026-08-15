@@ -1113,5 +1113,125 @@
     "pinyin": "Zhang Yanfo",
     "status": "attested",
     "note": "1900&#8211;1980. Juntong Northwest District chief."
+  },
+  "死间": {
+    "en": "expendable agent",
+    "pinyin": "sijian",
+    "status": "decided",
+    "note": "Literally &#8220;dead agent&#8221;; one of the five kinds of spy in Sun Tzu&#8217;s <i>Art of War</i>, and Juntong&#8217;s term for agents planted to burrow into the Communist base areas."
+  },
+  "海底": {
+    "en": "haidi",
+    "pinyin": "haidi",
+    "status": "decided",
+    "note": "Juntong jargon (literally &#8220;sea bottom&#8221;) for the secret personal dossier each agent memorized&#8212;names, addresses, contacts, cipher, and oath&#8212;left on file at the training class."
+  },
+  "汉中特训班": {
+    "en": "the Hanzhong training class",
+    "pinyin": "Hanzhong texunban",
+    "status": "decided",
+    "note": "Juntong&#8217;s special training class near Hanzhong, run under the cover name &#8220;Tianshui Field Headquarters Guerrilla Cadre Training Class&#8221;; called the &#8220;Hanzhong class&#8221; (&#27721;&#35757;&#29677;) for short."
+  },
+  "汉训班": {
+    "en": "the Hanzhong class",
+    "pinyin": "Hanxunban",
+    "status": "decided",
+    "note": "Short form of the Hanzhong training class."
+  },
+  "戴案": {
+    "en": "the \"Dai case\"",
+    "pinyin": "Dai an",
+    "status": "decided",
+    "note": "The Border Security&#8217;s name for the Hanzhong-class case, after Dai Li, whose Juntong system ran the agents."
+  },
+  "西北特别侦察站": {
+    "en": "the Northwest Special Reconnaissance Station",
+    "pinyin": "Xibei tebie zhenchazhan",
+    "status": "decided",
+    "note": "Juntong&#8217;s Xi&#8217;an-based station (西北特侦站 for short) directing the penetration of the Northwest base areas; headed by Cheng Muyi."
+  },
+  "吴南山": {
+    "en": "Wu Nanshan",
+    "pinyin": "Wu Nanshan",
+    "status": "attested",
+    "note": "The Qingyang schoolteacher who graduated the Hanzhong class, came forward to the Communists, and became the Border Security&#8217;s long-hidden field operative in Longdong; the case began with him."
+  },
+  "程慕颐": {
+    "en": "Cheng Muyi",
+    "pinyin": "Cheng Muyi",
+    "status": "attested",
+    "note": "Chief of Juntong&#8217;s Northwest Special Reconnaissance Station and deputy director of the Hanzhong class (cover name Cheng Yi); fled to Taiwan."
+  },
+  "程益": {
+    "en": "Cheng Yi",
+    "pinyin": "Cheng Yi",
+    "status": "decided",
+    "note": "Cover name of Cheng Muyi as director of the Hanzhong class."
+  },
+  "祁三益": {
+    "en": "Qi Sanyi",
+    "pinyin": "Qi Sanyi",
+    "status": "decided",
+    "note": "Hanzhong-class demolition instructor sent to Yan&#8217;an as group liaison; turned by the Border Security and central to cracking the case."
+  },
+  "李春茂": {
+    "en": "Li Chunmao",
+    "pinyin": "Li Chunmao",
+    "status": "decided",
+    "note": "Hanzhong-class liaison (aliases Li Changsheng, Li Jun); turned and taken into the Border Security."
+  },
+  "赵秀": {
+    "en": "Zhao Xiu",
+    "pinyin": "Zhao Xiu",
+    "status": "decided",
+    "note": "Chief liaison for the Northwest Station&#8217;s Yan&#8217;an group; briefly turned, later fled back to Xi&#8217;an."
+  },
+  "王星文": {
+    "en": "Wang Xingwen",
+    "pinyin": "Wang Xingwen",
+    "status": "decided",
+    "note": "Hanzhong agent (alias Wang Jiwu) at the Lu Xun Academy of Arts; turned by the Border Security."
+  },
+  "胡士渊": {
+    "en": "Hu Shiyuan",
+    "pinyin": "Hu Shiyuan",
+    "status": "decided",
+    "note": "Leader of the independent cell (aliases Hu Siyuan, Hu Yaonan, Hu Youlian) planted in the Military Commission&#8217;s Second Bureau."
+  },
+  "马文瑞": {
+    "en": "Ma Wenrui",
+    "pinyin": "Ma Wenrui",
+    "status": "attested",
+    "note": "1912&#8211;2004. Longdong prefectural party secretary who took Wu Nanshan in; himself once wrongly arrested in the northern-Shaanxi purge. Later a vice-chairman of the CPPCC National Committee."
+  },
+  "李甫山": {
+    "en": "Li Fushan",
+    "pinyin": "Li Fushan",
+    "status": "decided",
+    "note": "Longdong security-section chief who ran Wu Nanshan; later head of the Border Security office in Yan&#8217;an."
+  },
+  "赵苍壁": {
+    "en": "Zhao Cangbi",
+    "pinyin": "Zhao Cangbi",
+    "status": "attested",
+    "note": "1916&#8211;1993. Border Security plainclothes-squad head sent to Longdong; later Minister of Public Security."
+  },
+  "王珺": {
+    "en": "Wang Jun",
+    "pinyin": "Wang Jun",
+    "status": "decided",
+    "note": "Social Affairs Department officer of the &#8220;Old Third Class&#8221; who traced the Second Bureau cell; later deputy minister of State Security."
+  },
+  "欧阳毅": {
+    "en": "Ouyang Yi",
+    "pinyin": "Ouyang Yi",
+    "status": "attested",
+    "note": "1910&#8211;2005. Head of the General Political Department&#8217;s Anti-Traitor Department, which handled the army-system agents; later a PLA lieutenant general."
+  },
+  "钱益民": {
+    "en": "Qian Yimin",
+    "pinyin": "Qian Yimin",
+    "status": "decided",
+    "note": "Investigation expert of the General Political Department&#8217;s Anti-Traitor Department, one of Yan&#8217;an&#8217;s &#8220;three great investigation experts.&#8221;"
   }
 }

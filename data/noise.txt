@@ -179,3 +179,11 @@
 第二年
 # 二是 = enumerator "for another / secondly" (一是…二是…), rendered "partly…partly"
 二是
+# 祁三益 Qi Sanyi (the turned Juntong liaison, central to ch08), 三=3 in name; ~30 occurrences
+祁三益
+# 一江山岛 Yijiangshan Island (taken by the PLA in 1955), 一=1 in place name; value carried in "Yijiangshan Island"
+一江山岛
+# 势不两立 (mortal enemies), 两 inside the idiom, rendered "mortal enemies"
+势不两立
+# 五台 Wutai (place, one of the 18 special-investigation-group sites), 五=5 in place name
+五台

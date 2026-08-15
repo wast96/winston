@@ -1126,3 +1126,153 @@ still for the commissioner.
   (local; the remote ref never existed, pruned the stale tracking ref).
 - setup.sh regression "hook stands down on template stub" still FAILS benignly
   (HANDOFF holds a real kickoff); all other checker regression tests green.
+
+## Batch B09 -- Chapter 8 (第八章 延安反特第一案 / "Yan'an's First Great Counter-espionage Case"), whole chapter + Principal Sources
+
+Chapter 8 is COMPLETE. One extended case built on "化敌为我服务" (turning the enemy
+to serve us): Juntong's Hanzhong "expendable-agent" (死间) training class, Wu
+Nanshan's voluntary confession at Qingyang, the line-casting and net-weaving, the
+great case, the tracking of the couriers, the independent cell in the Military
+Commission's Second Bureau, and the turning of the captured agents. 182 English
+body paragraphs (1:1 parity). Ends by setting up Chapter 9's "Rescue Campaign."
+
+### Pipeline run (reused, not re-measured)
+- render 282 304 --dpi 300; ocr_crop 282 304 (recto/odd [0.07,0.86], verso/even
+  [0.17,0.94], top 0.045, bottom 0.93, chi_sim psm6, running-head stripped);
+  ocr_dual 282 304; indents 282 304. tesseract idle 0 after each (pgrep -c = 0).
+- data/structure.json: +8 rows (ch08 chapter title, subtitle, 6 section headings).
+- assemble ch08 282 304 --offset 36 --blank-assist = 160 body paragraphs (boundary
+  cross-check only); scripts/resegment_ch08.py is AUTHORITATIVE (182 body, 9
+  headings), a hardcoded hand-verified ('h'|'b') item list read off every page
+  image. The +22 gap is the usual: assemble merges the many one-line PUNCH
+  paragraphs (section 6 is punch-heavy) and the 18 short Principal-Sources entries.
+  Run resegment AFTER assemble (assemble overwrites data/zh/ch08.txt).
+
+### Source read entirely off the scan (every page image read by eye)
+Straight text pages OCR cleanly; the plate/roster pages (285-295, 302-304) merge
+four-to-eight true paragraphs and inject caption + vertical-running-title bleed, so
+the hand resegment stays authoritative. Page-break seams settled with indents.py.
+
+### Crop-verified readings (magnified PIL crops; scratchpad/crops)
+- p282 兴隆寺 Xinglong Temple (the class site outside Hanzhong).
+- p289 固林 as printed (the Border Region county 固临 romanizes identically, Gulin;
+  no reader-facing difference, not footnoted).
+- p290 "老三班" the Social Affairs Dept's West China College class; 王珺 Wang Jun
+  confirmed by the p291 photo caption "王珺（左）与本书作者".
+- p294 "查遍抗陕公、女大、青训班、行政学院" -- 抗陕公 as printed, read as a compression
+  of 抗大 (Kangda) + 陕公 (Shaanbei College); the next clause re-focuses on 抗大, so
+  the English names both. 抗大二大队九队.
+- p295 独立小组 leader 胡士渊 (aliases 胡思瑗、胡耀南、胡有连); 杨效卫（杨子才）;
+  夏秉塾（夏珍卿）; cell code name 化名"南卫塾" (romanized "Nanweishu"); 王恕 (not
+  上恕), 杨荫唐, 苟振生, 王锦堂.
+- Numbers verified by eye: 32 = 主动交代1 + 侦察发现20 + 供出11, 物证7件; 6 fled; the
+  1955/603 tallies 320 / 40多下落不明 / 670 (Cheng Muyi's captured report) / 631
+  (九期, 教官37) / 55 (Yan'an period) / 160 (newly found); 40多/200多/600多 (final
+  source). All rendered in DIGITS per STYLE; the differing scopes footnoted.
+
+### Source-internal variants (rendered faithfully as printed; NOT to be "harmonized")
+- 郑崇义 (p285) vs 郑崇文 (p290) for the man whose alias is 陈明 Chen Ming.
+- 冯平波 (p290) vs 冯平舟 (p295) for the informant on 朱浪舟/金光.
+- 郭继武 (p289 roster, p295 arrest list) vs 郭力群 (p295 situational summary).
+- 张秉均 (p292/293/295) vs 张秉钧 (p298) -- identical romanization Zhang Bingjun.
+These are the minor low-stakes-discrepancy tier: rendered as printed, left
+UNfootnoted (over-noting a roster spelling helps no reader). Anonymized-by-某 people
+kept anonymized (秦某; 周某、张某(女)夫妇; 李某、吕某; 陈某).
+
+### The checks (all green)
+- verify_unit ch08: parity 182/182; numbers 0 unresolved (--noise data/noise.txt);
+  anchors 8 ok.
+- check_align ch08: 182/182, median ratio 4.71 en/han, no pair strays > 2.2x.
+- check_apparatus: 0 failures (the 19 attestation-note warnings are pre-existing
+  rows from earlier chapters, not ch08's -- every ch08 glossary row carries a note).
+- qa_epub: PASS (28 files, 21 documents, all links resolve; 169 refs/bodies/
+  backlinks). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- check_register --ref out/ch01_reading.md: within tolerance. Dialogue-contraction
+  metric is 0.0 and flagged "little dialogue -- noisy": this is a single extended
+  case narrative dominated by documents, directives, oaths, and reports (like ch07),
+  so the contraction metric is legitimately quiet; judged on narratorial signals.
+  em-dash 4.4/1k (trimmed from a 6.4 first draft toward the ch06/ch07 ~4.5 target by
+  converting appositive/list-gloss dashes to colons/commas); sentence median 21;
+  rhythm CV 0.56. The few conversational lines contracted; documents/oaths/telegrams
+  and Kang Sheng's / Dai Li's / Li Kenong's set-piece speeches kept formal.
+- Tail verification (rule 4 corollary): the Principal Sources (the tail) read against
+  p302-304; final source (Wang Yantang) numbers 40多/200多/600多 carried.
+
+### Number-check noise added (data/noise.txt, B09 block)
+祁三益 (Qi Sanyi, 三=San in the name, ~30 occurrences -- the big one); 一江山岛
+(Yijiangshan Island, 一=1); 势不两立 (idiom, 两); 五台 (Wutai place, 五=5, one of the
+18 special-investigation-group sites). Genuine enumerators (两人/两个/三人/三个/十来个/
+一…二…) carried in the English, not noised.
+
+### Notes added (8; book total 169)
+1. 死间 "expendable agents" -- Sun Tzu's fifth spy-type (the doomed/dead agent),
+   Juntong's term for base-area burrowers (anchor "training class for expendable
+   agents"; cross-ref the Sun Tzu spy note ch05, 反间计 ch07).
+2. 海底 haidi -- the Juntong secret personal dossier (names/addresses/contacts/
+   cipher/oath), the master file keying all clandestine contact.
+3. 复兴社 the Renaissance Society -- outer organ of the "Blue Shirts" (cross-ref the
+   力行社 Vigorous Action Society note, ch02).
+4. 任卓宣（叶青）Ren Zhuoxuan / Ye Qing -- early Communist turned Nationalist
+   propaganda theorist; Kang Sheng's model of a usable turncoat (corroborated).
+5. The numbers tally -- why 32 vs 40多 vs 55 vs 631 vs 670 vs 320 vs 160 differ
+   (single case vs whole Yan'an period vs whole class vs all base areas).
+6. 一江山岛 Yijiangshan Island -- the Jan 1955 PLA amphibious assault that captured
+   Cheng Muyi's report (corroborated).
+7. 保密局 the Bureau of Confidential Investigation -- the postwar (1946) successor to
+   Juntong.
+8. 白公馆 Baigongguan -- the Juntong Chongqing prison/site, part of SACO (cross-ref
+   ch07).
+
+### NOT re-noted (already placed earlier; cross-referenced in the note bodies)
+顾顺章 Gu Shunzhang (ch01); 许继慎 Xu Jishen (ch07); the New Fourth Army Incident /
+皖南事变 (ch03/ch04); 苦肉计 self-injury ruse (ch07); SACO 中美合作所 (ch07); Sun Tzu's
+spies (ch05); the Rescue Campaign / Rectification (ch02); 张国焘 Zhang Guotao,
+沈之岳 Shen Zhiyue (earlier chapters); 军委二局 Second Bureau (ch07 glossary).
+
+### Renderings settled / reused (consult glossary.json; 209 rows now, +20 this batch)
+- REUSED unchanged: Juntong, Zhongtong, the Border Security (边保) / the Security
+  Office (保安处), the Central Social Affairs Department (中社部), the Military
+  Commission's Second Bureau (军委二局), Kang Sheng, Li Kenong, Dai Li, Bu Lu (陈泊),
+  Zhao Cangbi, Chiang Kai-shek / Generalissimo Chiang, Mao Zedong, the Guanzhong /
+  Longdong sub-districts, the Border Region, 特务/国特/汉奸 (loaded, kept), 反间计,
+  化敌为我服务, the Renaissance Society (复兴社 = 力行社 apparatus), Kangda,
+  Shaanbei College, SACO, Deng Baoshan.
+- NEW this batch: the Hanzhong (training) class (汉中特训班/汉训班); the "Dai case"
+  (戴案); the Northwest Special Reconnaissance Station (西北特侦站); 死间 "expendable
+  agent"; 海底 haidi; principals Wu Nanshan, Cheng Muyi (alias Cheng Yi), Qi Sanyi,
+  Li Chunmao, Zhao Xiu, Wang Xingwen, Hu Shiyuan; Ma Wenrui, Li Fushan, Wang Jun,
+  Zhou Xing, Ouyang Yi, Qian Yimin. One handle per referent, book-wide.
+- 反用/逆用 = "counter-use" / "turning the use" (近似 Sun Tzu's 反间 = the "turned
+  spy"); kept distinct from 反间计 (counter-espionage stratagem).
+- The p292 quatrain rendered as a quoted inline verse within its paragraph (kept 1:1
+  parity; no {p} block, since it is embedded mid-paragraph in the source).
+
+### CONSISTENCY / interested-witness posture
+- Partisan voice kept in the text (特务 for the enemy's agents, 汉奸 traitor,
+  "匪区"/"奸党" as the Nationalists' own scare-quoted usage); counter-record and
+  verdicts (corroborated) live in the footnotes.
+- The chapter is sympathetic to the "turn the enemy" policy and closes by tying the
+  case to the Rescue Campaign; that framing is the author's, rendered faithfully.
+
+### Figures: still DEFERRED (deliberate; commissioner decision pending)
+figures.json still empty. Chapter 8's inline plates catalogued for a later pass:
+portrait of Wu Nanshan (p283); portrait of Li Fushan, Longdong security-section
+chief (p284); portrait of Zhao Cangbi (p285); a facsimile of Zhou Xing's handwritten
+letter to Bu Lu on continuing the investigation (p289); the Yan'an New Market street
+scene (p292); portrait of Li Chunmao (p293); Wang Jun (left) with the author (p291);
+a facsimile of Chen Long's handwritten letter to Bu Lu on Zhang Zhigang's flight
+(p297). Standing question (every 图文 photo, or a curated subset) still for the
+commissioner.
+
+### Build / environment (B09)
+- EPUB rebuilt: 9 of 14 chapters (ch00-ch08), 169 notes, 206 pagebreaks.
+  out/chinas_secret_war.epub. qa_epub PASS; epubcheck 0/0/0/0.
+- ch08 carries printed-page (folio) markers (resegment rebuilds the pagemap,
+  printed 246-268).
+- Branch consolidation: session started on stray branch
+  claude/china-secret-war-ch08-96v4kk (identical to origin/claude/chinas-secret-war
+  at 704a9b3); reset local canonical to origin, deleted the stray (local + the remote
+  ref existed and is removed at push time). All work on claude/chinas-secret-war.
+- setup.sh regression "hook stands down on template stub" still FAILS benignly
+  (HANDOFF holds a real kickoff); all other checker regression tests green. PaddleOCR
+  absent (expected); used scripts/ocr_dual.py.
