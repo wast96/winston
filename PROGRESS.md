@@ -409,3 +409,101 @@ four ch03-introduced intelligence workers 刘鼎/柯麟/陈养山/陈寿昌.
 第二天, 第二年 (day/year idioms), 二十多万 (EN "two hundred thousand"), 10万大洋 /
 30万 (EN "100,000" / "300,000"; Arabic+万 the check can't pair), 曾三 (name Zeng
 San), 万载 (place), 老百姓 (idiom). Extend, do not prune.
+
+---
+
+## B04 - ch05 ("Three Heroes of Longtan") + ch06 (Yang Dengying)
+
+Both chapters complete. ch05 = 41 body paragraphs + 3 section headings; ch06 =
+40 body paragraphs + 5 section headings. All checks green: parity 41/41 and
+40/40; check_numbers 0 unresolved both; qc_entities 0 misses; check_align OK;
+check_content OK across both; check_apparatus 0 failures; check_register within
+tolerance of the ch01 reference (em-dash 1.9 and 1.8 per 1k, well under the ref
+6.0). EPUB rebuilt: 7 of 28 chapters, 116 notes, 96 pagebreaks; qa_epub PASS;
+epubcheck 0 errors / 0 warnings.
+
+### Assembly (the usual seam surgery; scripts in scripts/recovery/)
+- b04_strip_furniture.py: normalized 10 garbled headings (chapter titles +
+  8 section titles) to the exact structure.json strings via a PER-TARGET length
+  guard (len(good)+4), because ch05/ch06 headings run 8-21 chars and one ch06s05
+  body line duplicates the s05 heading tokens; truncated 8 author-footnote blocks;
+  blanked the two full-page photos (p125 Dong Biwu calligraphy, p134 Qian
+  Zhuangfei portrait).
+- b04_surgery.py: ch05 3 splits (the 阿英 memoir block, the 宋治家 memoir block,
+  the 李克农 exam testimony) + 16 welds, including the 宋治家 quote continuation on
+  p130 that the OCR captured with a blank line between EVERY line (over-split into
+  9). ch06 4 splits (连德生 bio, the 内奸/山东省委 block, the s05 Mao-quote opening,
+  the s05 close) + 5 welds. NOTE the ch06 s05 split marker had to be "杨登注的事例"
+  (not "的事例") so 杨登瀛 lands in the next paragraph, not the Mao quote (else
+  qc_entities would demand Yang Dengying inside the Mao quote).
+- Assembly uses the BLANK-LINE path; indents.py still unreliable here.
+- data/pagemap/ch05.json (14 entries) and ch06.json (14 entries) hand-regenerated
+  for the post-surgery structure via /tmp/regen_pagemap.py logic (match each
+  page's first body line into the final fixed ZH). p125/p134 skipped (photos).
+
+### OCR fixes (data/ocr_fixes.json; replay with apply_fixes.py)
+- ch05: 28 rows. Load-bearing number: 悬赏5万元 (crop-verified p83; OCR read
+  "上贫3万元"). Also stray-digit garbles that injected phantom quantities (《4中央
+  ->《中央, 隐蔽8->隐蔽, i927->1927, 田十->田埂, 用十文->用古文, 社会人十->社会人士,
+  孔祥四->孔祥熙, two garbled footnote markers), Hu Di alias 光天->裳天, and the
+  Shanghainese word 瘪三 (three OCR variants) which the number check reads as "3".
+- ch06: 22 rows, mostly the pervasive entity garbles: 杨登瀛 (7 variants, 76
+  occurrences), 陈赓 (8 variants), 刘鼎 (刘易/刘里), 徐恩曾, 兰普逊 (兰善撑),
+  杨剑虹 (杨剑蚜), plus the ①->0 footnote-marker garble in the Mao quote.
+
+### Crop-verified this batch (verify_names.py + eyeball)
+李克农 reward 5万 (p83); 李克农 aliases 曼梓/稼轩/泽田/侠公/震中/钟和 (p82);
+胡底 aliases 北风/胡马/裳天/伊于胡底, orig. name 胡百昌 (p94). The crop tool
+mislocated top-of-page lines (grabbed the running-head band); re-read those from
+the full page image instead.
+
+### Footnotes: 16 in ch05, 7 in ch06 (fact-checked, verdicts IN the note)
+ch05 new subjects: Li Kenong (General 1955, deputy foreign minister, d. 1962 -
+corroborated), Dong Biwu (CCP founder, acting head of state 1972-75), Qian
+Zhuangfei (d. ~1 Apr 1935 near Jinsha, Guizhou; fixed by a 2002 inquiry -
+corroborated), Hu Di (strangled Sept 1935 on Zhang Guotao's orders; the source's
+"1936" is a year late - CONTRADICTED on the date), Cai Mengjian (arrested Gu
+Shunzhang Apr 1931), Xu Enzeng (中统 chief, Chen Lifu's cousin), the Sun Society,
+the 煞星 folk term, the Monkey-King / Journey to the West allusion, and the
+classical poem behind 南飞. Author's notes reproduced ("Author's note." tag):
+Xiong Xianghui memoir, 阿英 People's Daily piece, 台北 Biographical Literature,
+张振华 date-discrepancy note, 叶炳南 biography, 张振华 talk record.
+ch06 new subjects: Chen Lifu / Chen Guofu ("two Chens" / CC Clique), Lampson
+(source gives the English name; Special Branch of the Shanghai Municipal Police;
+the individual could not be identified - UNCORROBORATED as to the man), the
+Tanaka Memorial (authenticity DISPUTED), Shanghai: The Paradise of Adventurers
+(G.E. Miller, 1937), An E, and a cross-ref note on Yang Dengying (recruited
+ch04). Author's note: the Mao "On Tactics Against Japanese Imperialism" citation.
+
+- **NOT re-noted (already placed):** Gu Shunzhang (ch00), White Terror / April 12
+  (ch00), May Thirtieth (ch01), CC Clique / 中统 / Central Bureau (ch04),
+  Concessions (ch01), Songhu Garrison (ch03), Communist University of the Toilers
+  of the East (ch04), Peng Pai (ch02), Whampoa (ch03), Qian Dajun (ch03), Three
+  Heroes of Longtan concept (ch04, cross-ref). Cross-referenced in the new notes.
+- **Deliberately unfootnoted:** the Tang/Han figures in the elegy commentary
+  (Fang Xuanling, Li Zuoche, Wei Zheng, Du Ruhui, Han Xin) are explained in Mu
+  Xin's own commentary paragraph; one-appearance walk-ons covered by the glossary.
+
+### Figures: 2 (ch05). p125 Dong Biwu's calligraphy of the elegy (placed before
+the elegy-commentary paragraph); p134 the Qian Zhuangfei portrait (before his
+bio). Cropped by hand from the page PNGs into data/figs/. ch06 has no figures
+(deliberate: no plates or portraits on printed 96-109).
+
+### Glossary: +37 rows, added DIRECTLY nested into categories (people/works/
+terms/organizations) to sidestep the flat-then-renest crash. New recurring cast
+that returns later: 徐恩曾, 陈立夫, 陈果夫, 张道藩, 蔡孟坚, 连德生, 兰普逊, 谭绍良,
+安娥. REUSED unchanged: 李克农, 钱壮飞, 胡底, 杨登瀛/鲍君甫, 陈赓, 刘鼎, 陈养山,
+顾顺章, 周恩来, 杨剑虹, 钱大钧, 柯庆施, 瞿秋白. Rendering held: 龙潭三杰 = "Three
+Heroes of Longtan"; 田中奏折 = "Tanaka Memorial"; 上海——冒险家的乐园 = "Shanghai:
+The Paradise of Adventurers"; 论反对日本帝国主义的策略 = Mao's "On Tactics Against
+Japanese Imperialism."
+
+### noise.txt additions (this batch)
+正经八百 (idiom), 瘪三 (Shanghainese "bum", contains 三), 30年代 (EN "1930s"),
+胡百昌 (name contains 百), 5万 (Arabic+万 bounty, EN "50,000"), 金钱万能 /
+万里 (idioms). Extend, do not prune.
+
+### Environment note
+The pre-existing regression test "hook stands down on template stub" still FAILS
+(template maintenance only; does not affect real batches). epubcheck re-fetched
+to /tmp/epubcheck-5.1.0.

@@ -84,3 +84,16 @@
 万载
 # 老百姓: 'the common people' (contains 百)
 老百姓
+# 正经八百 — idiom "with a perfectly straight face"; carries no count
+正经八百
+# 瘪三 (Shanghainese for a destitute person / bum) — the 三 is part of the word
+瘪三
+# 30年代 (the 1930s) — decade label; English carries "1930s"
+30年代
+# 胡百昌 — Hu Di's original name (contains 百)
+胡百昌
+# 5万 (bounty) — Arabic+万 mix; English carries "50,000"
+5万
+# 金钱万能 ('money is almighty') / 万里迢迢 ('thousands of li away') — idioms; no count
+金钱万能
+万里

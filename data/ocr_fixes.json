@@ -1160,5 +1160,309 @@
    "page": 76,
    "note": "dropped digit: Dec 17 not Dec 1 (crop-verified)"
   }
+ ],
+ "ch05": [
+  {
+   "wrong": "上贫3万元",
+   "right": "悬赏5万元",
+   "page": 83,
+   "note": "Li Kenong reward, crop-verified p83"
+  },
+  {
+   "wrong": "陈废",
+   "right": "陈赓",
+   "page": 79,
+   "note": "Chen Geng"
+  },
+  {
+   "wrong": "徐乱曾",
+   "right": "徐恩曾",
+   "page": 88,
+   "note": "Xu Enzeng"
+  },
+  {
+   "wrong": "徐轴曾",
+   "right": "徐恩曾",
+   "page": 93,
+   "note": "Xu Enzeng"
+  },
+  {
+   "wrong": "蔡备坚",
+   "right": "蔡孟坚",
+   "page": 89,
+   "note": "Cai Mengjian"
+  },
+  {
+   "wrong": "蒙孟坚",
+   "right": "蔡孟坚",
+   "page": 89,
+   "note": "Cai Mengjian"
+  },
+  {
+   "wrong": "蒙备坚",
+   "right": "蔡孟坚",
+   "page": 89,
+   "note": "Cai Mengjian"
+  },
+  {
+   "wrong": "攻朋友明底",
+   "right": "老朋友胡底",
+   "page": 86,
+   "note": "Hu Di"
+  },
+  {
+   "wrong": "钱壮长",
+   "right": "钱壮飞",
+   "page": 86,
+   "note": "Qian Zhuangfei"
+  },
+  {
+   "wrong": "妆底比较年轻",
+   "right": "胡底比较年轻",
+   "page": 94,
+   "note": "Hu Di"
+  },
+  {
+   "wrong": "碰到李史农",
+   "right": "碰到李克农",
+   "page": 95,
+   "note": "Li Kenong"
+  },
+  {
+   "wrong": "明确虽然出身",
+   "right": "胡底虽然出身",
+   "page": 95,
+   "note": "Hu Di"
+  },
+  {
+   "wrong": "曹老这首",
+   "right": "董老这首",
+   "page": 82,
+   "note": "Dong Biwu (Dong lao)"
+  },
+  {
+   "wrong": "高语军",
+   "right": "高语罕",
+   "page": 82,
+   "note": "Gao Yuhan"
+  },
+  {
+   "wrong": "阿英(钱合村)",
+   "right": "阿英(钱杏村)",
+   "page": 82,
+   "note": "Qian Xingcun (Ah Ying)"
+  },
+  {
+   "wrong": "《4中央通报",
+   "right": "《中央通报",
+   "page": 0,
+   "note": "stray OCR digit"
+  },
+  {
+   "wrong": "隐蔽8战线",
+   "right": "隐蔽战线",
+   "page": 0,
+   "note": "stray OCR digit"
+  },
+  {
+   "wrong": "i927年8月",
+   "right": "1927年8月",
+   "page": 0,
+   "note": "OCR i->1"
+  },
+  {
+   "wrong": "田十上",
+   "right": "田埂上",
+   "page": 0,
+   "note": "OCR 埂->十"
+  },
+  {
+   "wrong": "坚定的,9",
+   "right": "坚定的。",
+   "page": 0,
+   "note": "stray footnote marker"
+  },
+  {
+   "wrong": "用十文讲了",
+   "right": "用古文讲了",
+   "page": 0,
+   "note": "OCR 古->十"
+  },
+  {
+   "wrong": "让我去谈话。7",
+   "right": "让我去谈话。……",
+   "page": 0,
+   "note": "stray footnote marker + ellipsis"
+  },
+  {
+   "wrong": "社会人十",
+   "right": "社会人士",
+   "page": 0,
+   "note": "OCR 士->十"
+  },
+  {
+   "wrong": "孔祥四也去",
+   "right": "孔祥熙也去",
+   "page": 0,
+   "note": "Kong Xiangxi"
+  },
+  {
+   "wrong": "光天、伊于",
+   "right": "裳天、伊于",
+   "page": 0,
+   "note": "Hu Di alias Shangtian"
+  },
+  {
+   "wrong": "儿个瘤三",
+   "right": "几个瘪三",
+   "page": 0,
+   "note": "biesan (bum)"
+  },
+  {
+   "wrong": "几个瘤三",
+   "right": "几个瘪三",
+   "page": 0,
+   "note": "biesan (bum)"
+  },
+  {
+   "wrong": "推车的首三",
+   "right": "推车的瘪三",
+   "page": 0,
+   "note": "biesan (bum)"
+  }
+ ],
+ "ch06": [
+  {
+   "wrong": "杨登泪",
+   "right": "杨登瀛",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "杨登泳",
+   "right": "杨登瀛",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "杨登注",
+   "right": "杨登瀛",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "杨登沪",
+   "right": "杨登瀛",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "杨登党",
+   "right": "杨登瀛",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "杨登演",
+   "right": "杨登瀛",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "杨登涉",
+   "right": "杨登瀛",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "陈废",
+   "right": "陈赓",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "陈钴",
+   "right": "陈赓",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "陈广",
+   "right": "陈赓",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "陈短",
+   "right": "陈赓",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "陈记",
+   "right": "陈赓",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "陈庚",
+   "right": "陈赓",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "刘易",
+   "right": "刘鼎",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "刘里",
+   "right": "刘鼎",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "徐舟曾",
+   "right": "徐恩曾",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "徐因曾",
+   "right": "徐恩曾",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "兰善撑",
+   "right": "兰普逊",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "杨剑蚜",
+   "right": "杨剑虹",
+   "page": 96,
+   "note": "entity garble"
+  },
+  {
+   "wrong": "队伍就扩大了.0",
+   "right": "队伍就扩大了。",
+   "page": 108,
+   "note": "stray footnote marker"
+  }
  ]
 }

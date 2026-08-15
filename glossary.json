@@ -1,1343 +1,1555 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship), 'provisional' (romanization mine, not found outside), 'decided' (a project style call). Sections render as glossary headings; keys starting with '_' are ignored.",
-  "book": {},
-  "people": {
-    "周恩来": {
-      "en": "Zhou Enlai",
-      "pinyin": "Zhou Enlai",
-      "status": "attested",
-      "principal": true,
-      "cast_order": 1,
-      "cast": "Founder and commander of the Party's intelligence and security work; built and directed the Central Special Section in Shanghai. Aliases include Wu Hao and, later, Hu Gong (“Old Hu”)."
-    },
-    "陈赓": {
-      "en": "Chen Geng",
-      "pinyin": "Chen Geng",
-      "status": "attested",
-      "principal": true,
-      "cast_order": 2,
-      "cast": "Chief of the Special Section's intelligence branch, working under the alias “Wang Yong.”"
-    },
-    "顾顺章": {
-      "en": "Gu Shunzhang",
-      "pinyin": "Gu Shunzhang",
-      "status": "attested",
-      "principal": true,
-      "cast_order": 3,
-      "cast": "Head of the Special Section's Action Section (the Red Squad); a stage magician by trade, alias “Hua Guangqi.” His 1931 defection nearly destroyed the underground Party."
-    },
-    "李强": {
-      "en": "Li Qiang",
-      "pinyin": "Li Qiang",
-      "status": "attested",
-      "principal": true,
-      "cast_order": 4,
-      "cast": "Founder of the Party's radio-communications work; built its first transmitter. Alias “Zeng Peihong.”"
-    },
-    "蒋介石": {
-      "en": "Chiang Kai-shek",
-      "pinyin": "Jiang Jieshi",
-      "status": "attested",
-      "note": "The conventional English form is used, not pinyin Jiang Jieshi."
-    },
-    "汪精卫": {
-      "en": "Wang Jingwei",
-      "pinyin": "Wang Jingwei",
-      "status": "attested"
-    },
-    "毛泽东": {
-      "en": "Mao Zedong",
-      "pinyin": "Mao Zedong",
-      "status": "attested"
-    },
-    "陈独秀": {
-      "en": "Chen Duxiu",
-      "pinyin": "Chen Duxiu",
-      "status": "attested"
-    },
-    "张国焘": {
-      "en": "Zhang Guotao",
-      "pinyin": "Zhang Guotao",
-      "status": "attested"
-    },
-    "罗亦农": {
-      "en": "Luo Yinong",
-      "pinyin": "LuoYinong",
-      "status": "attested"
-    },
-    "赵世炎": {
-      "en": "Zhao Shiyan",
-      "pinyin": "Zhao Shiyan",
-      "status": "attested"
-    },
-    "陈延年": {
-      "en": "Chen Yannian",
-      "pinyin": "Chen Yannian",
-      "status": "attested"
-    },
-    "李立三": {
-      "en": "Li Lisan",
-      "pinyin": "Li Lisan",
-      "status": "attested"
-    },
-    "尹宽": {
-      "en": "Yin Kuan",
-      "pinyin": "Yin Kuan",
-      "status": "decided"
-    },
-    "聂荣臻": {
-      "en": "Nie Rongzhen",
-      "pinyin": "Nie Rongzhen",
-      "status": "attested"
-    },
-    "王一飞": {
-      "en": "Wang Yifei",
-      "pinyin": "Wang Yifei",
-      "status": "decided"
-    },
-    "欧阳钦": {
-      "en": "Ouyang Qin",
-      "pinyin": "Ouyang Qin",
-      "status": "decided"
-    },
-    "杨福林": {
-      "en": "Yang Fulin",
-      "pinyin": "Yang Fulin",
-      "status": "provisional"
-    },
-    "李剑如": {
-      "en": "Li Jianru",
-      "pinyin": "Li Jianru",
-      "status": "provisional"
-    },
-    "徐以新": {
-      "en": "Xu Yixin",
-      "pinyin": "Xu Yixin",
-      "status": "decided"
-    },
-    "王竹樵": {
-      "en": "Wang Zhuqiao",
-      "pinyin": "Wang Zhuqiao",
-      "status": "provisional"
-    },
-    "董醒吾": {
-      "en": "Dong Xingwu",
-      "pinyin": "Dong Xingwu",
-      "status": "provisional",
-      "note": "“Fat Dong” in Li Qiang's account; the personal name is given uncertainly in the source as Dong Xingwu or Dong Shengwu."
-    },
-    "鲍罗廷": {
-      "en": "Borodin",
-      "pinyin": "Baoluoting",
-      "status": "attested",
-      "note": "Mikhail Borodin, Comintern adviser to the Kuomintang."
-    },
-    "任弼时": {
-      "en": "Ren Bishi",
-      "pinyin": "RenBishi",
-      "status": "attested",
-      "note": "Aliases Peng Desheng and Hu Shaofu."
-    },
-    "邓颖超": {
-      "en": "Deng Yingchao",
-      "pinyin": "Deng Yingchao",
-      "status": "attested",
-      "note": "Zhou Enlai's wife."
-    },
-    "向忠发": {
-      "en": "Xiang Zhongfa",
-      "pinyin": "Xiang Zhongfa",
-      "status": "attested"
-    },
-    "恽代英": {
-      "en": "Yun Daiying",
-      "pinyin": "YunDaiying",
-      "status": "attested",
-      "note": "Alias Wang Zuolin; executed in Nanjing."
-    },
-    "陈养山": {
-      "en": "Chen Yangshan",
-      "pinyin": "Chen Yangshan",
-      "status": "attested"
-    },
-    "白崇禧": {
-      "en": "Bai Chongxi",
-      "pinyin": "Bai Chongxi",
-      "status": "attested"
-    },
-    "杨虎": {
-      "en": "Yang Hu",
-      "pinyin": "Yang Hu",
-      "status": "decided"
-    },
-    "陈群": {
-      "en": "Chen Qun",
-      "pinyin": "Chen Qun",
-      "status": "decided"
-    },
-    "郭伯和": {
-      "en": "Guo Bohe",
-      "pinyin": "Guo Bohe",
-      "status": "provisional"
-    },
-    "韩步先": {
-      "en": "Han Buxian",
-      "pinyin": "Han Buxian",
-      "status": "provisional"
-    },
-    "张太雷": {
-      "en": "Zhang Tailei",
-      "pinyin": "Zhang Tailei",
-      "status": "attested"
-    },
-    "李维汉": {
-      "en": "Li Weihan",
-      "pinyin": "LiWeihan",
-      "status": "attested",
-      "note": "Alias Luo Mai."
-    },
-    "朱德": {
-      "en": "Zhu De",
-      "pinyin": "Zhu De",
-      "status": "attested"
-    },
-    "贺龙": {
-      "en": "He Long",
-      "pinyin": "He Long",
-      "status": "attested"
-    },
-    "叶挺": {
-      "en": "Ye Ting",
-      "pinyin": "Ye Ting",
-      "status": "attested"
-    },
-    "刘伯承": {
-      "en": "Liu Bocheng",
-      "pinyin": "Liu Bocheng",
-      "status": "attested"
-    },
-    "夏斗寅": {
-      "en": "Xia Douyin",
-      "pinyin": "Xia Douyin",
-      "status": "attested"
-    },
-    "许克祥": {
-      "en": "Xu Kexiang",
-      "pinyin": "Xu Kexiang",
-      "status": "attested"
-    },
-    "张发奎": {
-      "en": "Zhang Fakui",
-      "pinyin": "Zhang Fakui",
-      "status": "attested"
-    },
-    "冯玉祥": {
-      "en": "Feng Yuxiang",
-      "pinyin": "Feng Yuxiang",
-      "status": "attested"
-    },
-    "李汉俊": {
-      "en": "Li Hanjun",
-      "pinyin": "Li Hanjun",
-      "status": "attested"
-    },
-    "马林": {
-      "en": "Maring",
-      "pinyin": "Malin",
-      "status": "attested",
-      "note": "Henk Sneevliet, the Comintern's representative at the First Congress, known as Maring."
-    },
-    "程子卿": {
-      "en": "Cheng Ziqing",
-      "pinyin": "Cheng Ziqing",
-      "status": "decided"
-    },
-    "包惠僧": {
-      "en": "Bao Huiseng",
-      "pinyin": "Bao Huiseng",
-      "status": "attested"
-    },
-    "杨明斋": {
-      "en": "Yang Mingzhai",
-      "pinyin": "Yang Mingzhai",
-      "status": "attested"
-    },
-    "柯庆施": {
-      "en": "Ke Qingshi",
-      "pinyin": "Ke Qingshi",
-      "status": "attested"
-    },
-    "高君曼": {
-      "en": "Gao Junman",
-      "pinyin": "Gao Junman",
-      "status": "attested",
-      "note": "Chen Duxiu's wife."
-    },
-    "汪寿华": {
-      "en": "Wang Shouhua",
-      "pinyin": "Wang Shouhua",
-      "status": "attested",
-      "note": "Also known as He Songlin; a leader of the Shanghai workers' uprisings, murdered in the April 12 coup."
-    },
-    "杨石魂": {
-      "en": "Yang Shihun",
-      "pinyin": "Yang Shihun",
-      "status": "provisional"
-    },
-    "孙子": {
-      "en": "Sun Tzu",
-      "pinyin": "Sunzi",
-      "status": "attested",
-      "note": "The ancient strategist; the conventional English spelling Sun Tzu is kept, not pinyin Sunzi."
-    },
-    "洪扬生": {
-      "en": "Hong Yangsheng",
-      "pinyin": "HongYangsheng",
-      "status": "provisional",
-      "note": "Chief of Section One; later renamed Hong Songtao."
-    },
-    "熊瑾玎": {
-      "en": "Xiong Jinding",
-      "pinyin": "XiongJinding",
-      "status": "attested",
-      "note": "Central accountant; ran the 'Fuxing Trading Company' front. Husband of Zhu Duansui."
-    },
-    "朱端绥": {
-      "en": "Zhu Duansui",
-      "pinyin": "ZhuDuansui",
-      "status": "decided",
-      "note": "Xiong Jinding's wife."
-    },
-    "邓小平": {
-      "en": "Deng Xiaoping",
-      "pinyin": "DengXiaoping",
-      "status": "attested"
-    },
-    "黄文容": {
-      "en": "Huang Wenrong",
-      "pinyin": "HuangWenrong",
-      "status": "provisional"
-    },
-    "龚饮冰": {
-      "en": "Gong Yinbing",
-      "pinyin": "GongYinbing",
-      "status": "provisional"
-    },
-    "周生赉": {
-      "en": "Zhou Shenglai",
-      "pinyin": "ZhouShenglai",
-      "status": "provisional",
-      "note": "Western-medicine doctor who ran the Shengli Hospital."
-    },
-    "何家兴": {
-      "en": "He Jiaxing",
-      "pinyin": "HeJiaxing",
-      "status": "provisional",
-      "note": "With He Zhihua, later betrayed Luo Yinong."
-    },
-    "贺稚华": {
-      "en": "He Zhihua",
-      "pinyin": "HeZhihua",
-      "status": "provisional",
-      "note": "He Jiaxing's wife; the two betrayed Luo Yinong."
-    },
-    "瞿秋白": {
-      "en": "Qu Qiubai",
-      "pinyin": "QuQiubai",
-      "status": "attested"
-    },
-    "苏兆征": {
-      "en": "Su Zhaozheng",
-      "pinyin": "SuZhaozheng",
-      "status": "attested"
-    },
-    "李一氓": {
-      "en": "Li Yimang",
-      "pinyin": "LiYimang",
-      "status": "attested"
-    },
-    "赵毅敏": {
-      "en": "Zhao Yimin",
-      "pinyin": "ZhaoYimin",
-      "status": "attested"
-    },
-    "李一超": {
-      "en": "Li Yichao",
-      "pinyin": "LiYichao",
-      "status": "attested",
-      "note": "Alias Li Kuntai; better known as the martyr Zhao Yiman."
-    },
-    "赵一曼": {
-      "en": "Zhao Yiman",
-      "pinyin": "ZhaoYiman",
-      "status": "attested",
-      "note": "Real name Li Kuntai (Li Yichao); anti-Japanese martyr."
-    },
-    "李侠": {
-      "en": "Li Xia",
-      "pinyin": "LiXia",
-      "status": "decided",
-      "note": "The underground-radio hero of the film The Unfailing Radio Waves, modeled on Li Bai."
-    },
-    "李白": {
-      "en": "Li Bai",
-      "pinyin": "LiBai",
-      "status": "attested",
-      "note": "Party radio operator, executed 1949; the model for the film character Li Xia."
-    },
-    "裘慧英": {
-      "en": "Qiu Huiying",
-      "pinyin": "QiuHuiying",
-      "status": "attested",
-      "note": "Li Bai's wife; originally named Qiu Lanfen."
-    },
-    "朱锦棠": {
-      "en": "Zhu Jintang",
-      "pinyin": "ZhuJintang",
-      "status": "provisional"
-    },
-    "邓初民": {
-      "en": "Deng Chumin",
-      "pinyin": "DengChumin",
-      "status": "attested",
-      "note": "Democratic figure and professor."
-    },
-    "李宇超": {
-      "en": "Li Yuchao",
-      "pinyin": "Li Yuchao",
-      "status": "provisional"
-    },
-    "刘淑琴": {
-      "en": "Liu Shuqin",
-      "pinyin": "LiuShuqin",
-      "status": "provisional"
-    },
-    "罗登贤": {
-      "en": "Luo Dengxian",
-      "pinyin": "LuoDengxian",
-      "status": "attested"
-    },
-    "周秀珠": {
-      "en": "Zhou Xiuzhu",
-      "pinyin": "ZhouXiuzhu",
-      "status": "provisional",
-      "note": "Luo Dengxian's wife, named Xiuzhu."
-    },
-    "顾维桢": {
-      "en": "Gu Weizhen",
-      "pinyin": "GuWeizhen",
-      "status": "provisional",
-      "note": "Gu Shunzhang's elder brother."
-    },
-    "关向应": {
-      "en": "Guan Xiangying",
-      "pinyin": "GuanXiangying",
-      "status": "attested"
-    },
-    "贺昌": {
-      "en": "He Chang",
-      "pinyin": "HeChang",
-      "status": "attested"
-    },
-    "刘少奇": {
-      "en": "Liu Shaoqi",
-      "pinyin": "LiuShaoqi",
-      "status": "attested"
-    },
-    "项英": {
-      "en": "Xiang Ying",
-      "pinyin": "XiangYing",
-      "status": "attested"
-    },
-    "卢福坦": {
-      "en": "Lu Futan",
-      "pinyin": "LuFutan",
-      "status": "attested"
-    },
-    "邓恩铭": {
-      "en": "Deng Enming",
-      "pinyin": "DengEnming",
-      "status": "attested"
-    },
-    "米夫": {
-      "en": "Pavel Mif",
-      "pinyin": "Mifu",
-      "status": "attested",
-      "note": "Comintern representative."
-    },
-    "王明": {
-      "en": "Wang Ming",
-      "pinyin": "WangMing",
-      "status": "attested"
-    },
-    "何孟雄": {
-      "en": "He Mengxiong",
-      "pinyin": "HeMengxiong",
-      "status": "attested"
-    },
-    "林育南": {
-      "en": "Lin Yunan",
-      "pinyin": "LinYunan",
-      "status": "attested"
-    },
-    "李求实": {
-      "en": "Li Qiushi",
-      "pinyin": "LiQiushi",
-      "status": "attested"
-    },
-    "潘震亚": {
-      "en": "Pan Zhenya",
-      "pinyin": "PanZhenya",
-      "status": "provisional",
-      "note": "Law professor and lawyer who defended arrested comrades."
-    },
-    "费国禧": {
-      "en": "Fei Guoxi",
-      "pinyin": "FeiGuoxi",
-      "status": "provisional",
-      "note": "Lawyer used by the Special Section."
-    },
-    "尤阿根": {
-      "en": "You Agen",
-      "pinyin": "YouAgen",
-      "status": "provisional",
-      "note": "Detective chief at the Laozha police station."
-    },
-    "何维道": {
-      "en": "He Weidao",
-      "pinyin": "HeWeidao",
-      "status": "provisional",
-      "note": "One of Changsha's 'four great lawyers.'"
-    },
-    "陈琮英": {
-      "en": "Chen Congying",
-      "pinyin": "ChenCongying",
-      "status": "attested",
-      "note": "Ren Bishi's wife."
-    },
-    "彭湃": {
-      "en": "Peng Pai",
-      "pinyin": "PengPai",
-      "status": "attested"
-    },
-    "李文宜": {
-      "en": "Li Wenyi",
-      "pinyin": "LiWenyi",
-      "status": "attested",
-      "note": "Luo Yinong's wife."
-    },
-    "张锡媛": {
-      "en": "Zhang Xiyuan",
-      "pinyin": "ZhangXiyuan",
-      "status": "attested",
-      "note": "Deng Xiaoping's late wife."
-    },
-    "张晓梅": {
-      "en": "Zhang Xiaomei",
-      "pinyin": "ZhangXiaomei",
-      "status": "provisional",
-      "note": "Zhang Xiyuan's younger sister."
-    },
-    "陈家康": {
-      "en": "Chen Jiakang",
-      "pinyin": "ChenJiakang",
-      "status": "attested",
-      "note": "The Special Section's full-time doctor."
-    },
-    "鲁涤平": {
-      "en": "Lu Diping",
-      "pinyin": "LuDiping",
-      "status": "attested",
-      "note": "Hunan warlord in whose army Chen Geng first served."
-    },
-    "何叔衡": {
-      "en": "He Shuheng",
-      "pinyin": "HeShuheng",
-      "status": "attested"
-    },
-    "孙中山": {
-      "en": "Sun Yat-sen",
-      "pinyin": "Sun Zhongshan",
-      "status": "attested",
-      "note": "Conventional English form, not pinyin Sun Zhongshan."
-    },
-    "陈炯明": {
-      "en": "Chen Jiongming",
-      "pinyin": "ChenJiongming",
-      "status": "attested"
-    },
-    "杨希闵": {
-      "en": "Yang Ximin",
-      "pinyin": "YangXimin",
-      "status": "attested",
-      "note": "Commander of the Yunnan (Dian) army that mutinied in 1925."
-    },
-    "刘震寰": {
-      "en": "Liu Zhenhuan",
-      "pinyin": "LiuZhenhuan",
-      "status": "attested",
-      "note": "Commander of the Guangxi (Gui) army that mutinied in 1925."
-    },
-    "廖仲恺": {
-      "en": "Liao Zhongkai",
-      "pinyin": "LiaoZhongkai",
-      "status": "attested",
-      "note": "Kuomintang left leader, assassinated 1925."
-    },
-    "何应钦": {
-      "en": "He Yingqin",
-      "pinyin": "HeYingqin",
-      "status": "attested"
-    },
-    "谭曙卿": {
-      "en": "Tan Shuqing",
-      "pinyin": "TanShuqing",
-      "status": "provisional",
-      "note": "Third Division commander in the second Eastern Expedition."
-    },
-    "周逸群": {
-      "en": "Zhou Yiqun",
-      "pinyin": "ZhouYiqun",
-      "status": "attested"
-    },
-    "王根英": {
-      "en": "Wang Genying",
-      "pinyin": "WangGenying",
-      "status": "attested",
-      "note": "Chen Geng's wife."
-    },
-    "牛惠霖": {
-      "en": "Niu Huilin",
-      "pinyin": "NiuHuilin",
-      "status": "attested",
-      "note": "English-trained orthopedic surgeon; cousin of Song Qingling."
-    },
-    "宋庆龄": {
-      "en": "Song Qingling",
-      "pinyin": "Song Qingling",
-      "status": "attested"
-    },
-    "陈知非": {
-      "en": "Chen Zhifei",
-      "pinyin": "ChenZhifei",
-      "status": "attested",
-      "note": "Son of Chen Geng and Wang Genying."
-    },
-    "林伯渠": {
-      "en": "Lin Boqu",
-      "pinyin": "LinBoqu",
-      "status": "attested"
-    },
-    "唐生智": {
-      "en": "Tang Shengzhi",
-      "pinyin": "TangShengzhi",
-      "status": "attested"
-    },
-    "卢冬生": {
-      "en": "Lu Dongsheng",
-      "pinyin": "LuDongsheng",
-      "status": "attested",
-      "note": "Chen Geng's aide from the Nanchang Uprising."
-    },
-    "陆留": {
-      "en": "Lu Liu",
-      "pinyin": "LuLiu",
-      "status": "provisional",
-      "note": "Sent with Chen Geng and Gu Shunzhang to the USSR in 1926."
-    },
-    "李克农": {
-      "en": "Li Kenong",
-      "pinyin": "LiKenong",
-      "status": "attested"
-    },
-    "钱壮飞": {
-      "en": "Qian Zhuangfei",
-      "pinyin": "QianZhuangfei",
-      "status": "attested"
-    },
-    "胡底": {
-      "en": "Hu Di",
-      "pinyin": "HuDi",
-      "status": "attested"
-    },
-    "陈寿昌": {
-      "en": "Chen Shouchang",
-      "pinyin": "Chen Shouchang",
-      "status": "attested"
-    },
-    "刘鼎": {
-      "en": "Liu Ding",
-      "pinyin": "Liu Ding",
-      "status": "attested"
-    },
-    "柯麟": {
-      "en": "Ke Lin",
-      "pinyin": "Ke Lin",
-      "status": "attested"
-    },
-    "欧阳新": {
-      "en": "Ouyang Xin",
-      "pinyin": "OuyangXin",
-      "status": "decided",
-      "note": "Alias Liu Dahan, nicknamed 'Big Hunk'; born surnamed Liu."
-    },
-    "陆连奎": {
-      "en": "Lu Liankui",
-      "pinyin": "LuLiankui",
-      "status": "attested",
-      "note": "Detective chief of the British concession police; Chen Geng's landlord."
-    },
-    "张克侠": {
-      "en": "Zhang Kexia",
-      "pinyin": "ZhangKexia",
-      "status": "attested",
-      "note": "Secret Party member; chief of staff to Zhang Zizhong."
-    },
-    "张自忠": {
-      "en": "Zhang Zizhong",
-      "pinyin": "ZhangZizhong",
-      "status": "attested"
-    },
-    "何基沣": {
-      "en": "He Jifeng",
-      "pinyin": "HeJifeng",
-      "status": "attested"
-    },
-    "董健吾": {
-      "en": "Dong Jianwu",
-      "pinyin": "DongJianwu",
-      "status": "attested",
-      "note": "Underground pastor linked to the Special Section's intelligence branch."
-    },
-    "阎锡山": {
-      "en": "Yan Xishan",
-      "pinyin": "YanXishan",
-      "status": "attested"
-    },
-    "钱大钧": {
-      "en": "Qian Dajun",
-      "pinyin": "QianDajun",
-      "status": "attested",
-      "note": "Kuomintang Songhu garrison commander, later Jiangnan 'bandit-suppression' commander."
-    },
-    "蒋先云": {
-      "en": "Jiang Xianyun",
-      "pinyin": "JiangXianyun",
-      "status": "attested",
-      "note": "One of the 'Three Heroes of Whampoa.'"
-    },
-    "贺衷寒": {
-      "en": "He Zhonghan",
-      "pinyin": "HeZhonghan",
-      "status": "attested",
-      "note": "One of the 'Three Heroes of Whampoa.'"
-    },
-    "叶剑英": {
-      "en": "Ye Jianying",
-      "pinyin": "YeJianying",
-      "status": "attested"
-    },
-    "贺诚": {
-      "en": "He Cheng",
-      "pinyin": "He Cheng",
-      "status": "attested"
-    },
-    "周越华": {
-      "en": "Zhou Yuehua",
-      "pinyin": "Zhou Yuehua",
-      "status": "attested"
-    },
-    "佐野学": {
-      "en": "Sano Manabu",
-      "pinyin": "Sano Manabu",
-      "status": "attested"
-    },
-    "杨登瀛": {
-      "en": "Yang Dengying",
-      "pinyin": "Yang Dengying",
-      "status": "attested"
-    },
-    "鲍君甫": {
-      "en": "Bao Junfu",
-      "pinyin": "Bao Junfu",
-      "status": "attested"
-    },
-    "李少石": {
-      "en": "Li Shaoshi",
-      "pinyin": "Li Shaoshi",
-      "status": "attested"
-    },
-    "罗明": {
-      "en": "Luo Ming",
-      "pinyin": "Luo Ming",
-      "status": "attested"
-    },
-    "孙炳文": {
-      "en": "Sun Bingwen",
-      "pinyin": "Sun Bingwen",
-      "status": "attested"
-    },
-    "吴先清": {
-      "en": "Wu Xianqing",
-      "pinyin": "Wu Xianqing",
-      "status": "attested"
-    },
-    "杨献珍": {
-      "en": "Yang Xianzhen",
-      "pinyin": "Yang Xianzhen",
-      "status": "attested"
-    },
-    "胡鄂公": {
-      "en": "Hu Egong",
-      "pinyin": "Hu Egong",
-      "status": "attested"
-    },
-    "陈原道": {
-      "en": "Chen Yuandao",
-      "pinyin": "Chen Yuandao",
-      "status": "attested"
-    },
-    "杨剑虹": {
-      "en": "Yang Jianhong",
-      "pinyin": "Yang Jianhong",
-      "status": "attested"
-    },
-    "余世颂": {
-      "en": "Yu Shisong",
-      "pinyin": "Yu Shisong",
-      "status": "attested"
-    },
-    "陈潭秋": {
-      "en": "Chen Tanqiu",
-      "pinyin": "Chen Tanqiu",
-      "status": "attested"
-    },
-    "曾三": {
-      "en": "Zeng San",
-      "pinyin": "Zeng San",
-      "status": "attested"
-    },
-    "李硕勋": {
-      "en": "Li Shuoxun",
-      "pinyin": "Li Shuoxun",
-      "status": "attested"
-    },
-    "蔡和森": {
-      "en": "Cai Hesen",
-      "pinyin": "Cai Hesen",
-      "status": "attested"
-    },
-    "李大钊": {
-      "en": "Li Dazhao",
-      "pinyin": "Li Dazhao",
-      "status": "attested"
-    },
-    "杜月笙": {
-      "en": "Du Yuesheng",
-      "pinyin": "Du Yuesheng",
-      "status": "attested"
-    },
-    "陈宝骅": {
-      "en": "Chen Baohua",
-      "pinyin": "Chen Baohua",
-      "status": "attested"
-    },
-    "杨度": {
-      "en": "Yang Du",
-      "pinyin": "Yang Du",
-      "status": "attested"
-    },
-    "邓演达": {
-      "en": "Deng Yanda",
-      "pinyin": "Deng Yanda",
-      "status": "attested"
-    },
-    "邓真德": {
-      "en": "Deng Zhende",
-      "pinyin": "Deng Zhende",
-      "status": "provisional"
-    },
-    "李树芬": {
-      "en": "Li Shufen",
-      "pinyin": "Li Shufen",
-      "status": "attested"
-    },
-    "徐彬如": {
-      "en": "Xu Binru",
-      "pinyin": "Xu Binru",
-      "status": "attested"
-    },
-    "陈月波": {
-      "en": "Chen Yuebo",
-      "pinyin": "Chen Yuebo",
-      "status": "provisional"
-    },
-    "袁世凯": {
-      "en": "Yuan Shikai",
-      "pinyin": "Yuan Shikai",
-      "status": "attested"
-    },
-    "张云逸": {
-      "en": "Zhang Yunyi",
-      "pinyin": "Zhang Yunyi",
-      "status": "attested"
-    },
-    "李济深": {
-      "en": "Li Jishen",
-      "pinyin": "Li Jishen",
-      "status": "attested"
-    },
-    "陆定一": {
-      "en": "Lu Dingyi",
-      "pinyin": "Lu Dingyi",
-      "status": "attested"
-    },
-    "阳翰笙": {
-      "en": "Yang Hansheng",
-      "pinyin": "Yang Hansheng",
-      "status": "attested"
-    },
-    "陈志英": {
-      "en": "Chen Zhiying",
-      "pinyin": "Chen Zhiying",
-      "status": "provisional"
-    },
-    "柳柏文": {
-      "en": "Liu Baiwen",
-      "pinyin": "Liu Baiwen",
-      "status": "provisional"
-    },
-    "阚思俊": {
-      "en": "Kan Sijun",
-      "pinyin": "Kan Sijun",
-      "status": "attested"
-    },
-    "程仰山": {
-      "en": "Cheng Yangshan",
-      "pinyin": "Cheng Yangshan",
-      "status": "attested"
-    },
-    "陈希堪": {
-      "en": "Chen Xikan",
-      "pinyin": "Chen Xikan",
-      "status": "attested"
-    },
-    "柯达文": {
-      "en": "Ke Dawen",
-      "pinyin": "Ke Dawen",
-      "status": "decided"
-    },
-    "贺雨生": {
-      "en": "He Yusheng",
-      "pinyin": "He Yusheng",
-      "status": "decided"
-    },
-    "魏宸祖": {
-      "en": "Wei Chenzu",
-      "pinyin": "Wei Chenzu",
-      "status": "provisional"
-    }
+ "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship), 'provisional' (romanization mine, not found outside), 'decided' (a project style call). Sections render as glossary headings; keys starting with '_' are ignored.",
+ "book": {},
+ "people": {
+  "周恩来": {
+   "en": "Zhou Enlai",
+   "pinyin": "Zhou Enlai",
+   "status": "attested",
+   "principal": true,
+   "cast_order": 1,
+   "cast": "Founder and commander of the Party's intelligence and security work; built and directed the Central Special Section in Shanghai. Aliases include Wu Hao and, later, Hu Gong (“Old Hu”)."
   },
-  "organizations": {
-    "中国共产党": {
-      "en": "Chinese Communist Party",
-      "pinyin": "Zhongguo Gongchandang",
-      "status": "attested"
-    },
-    "国民党": {
-      "en": "Kuomintang",
-      "pinyin": "Guomindang",
-      "status": "attested",
-      "note": "The older romanization Kuomintang is kept, as is conventional in English."
-    },
-    "中央特科": {
-      "en": "Central Special Section",
-      "pinyin": "Zhongyang Teke",
-      "status": "decided",
-      "note": "Zhongyang Teke; the Party's underground intelligence and security apparatus in Shanghai. Rendered “Central Special Section” throughout."
-    },
-    "共产国际": {
-      "en": "Comintern",
-      "pinyin": "Gongchan Guoji",
-      "status": "attested",
-      "note": "The Communist International, Moscow's world body of communist parties."
-    },
-    "红队": {
-      "en": "Red Squad",
-      "pinyin": "Hong Dui",
-      "status": "decided",
-      "note": "The Special Section's armed action unit, also called the “Dog-Beating Squad.”"
-    },
-    "黄埔军校": {
-      "en": "Whampoa",
-      "pinyin": "Whampoa Military Academy",
-      "status": "attested",
-      "note": "The Whampoa Military Academy, the Kuomintang's military academy near Guangzhou; the older romanization Whampoa is kept, and 'Whampoa' alone is used after first mention."
-    },
-    "太古公司": {
-      "en": "Butterfield & Swire",
-      "pinyin": "Butterfield & Swire",
-      "status": "attested",
-      "note": "The British shipping firm (Taikoo)."
-    },
-    "新新通讯社": {
-      "en": "Xinxin News Agency",
-      "pinyin": "Xinxin News Agency",
-      "status": "provisional"
-    },
-    "中国救济总会": {
-      "en": "China Relief Society",
-      "pinyin": "China Relief Society",
-      "status": "decided"
-    },
-    "国际济难会": {
-      "en": "International Red Aid",
-      "pinyin": "International Red Aid",
-      "status": "attested",
-      "note": "The Comintern's relief body (MOPR)."
-    },
-    "东方大学": {
-      "en": "Communist University of the Toilers of the East",
-      "pinyin": "Communist University of the Toilers of the East",
-      "status": "attested"
-    },
-    "上海大学": {
-      "en": "Shanghai University",
-      "pinyin": "Shanghai University",
-      "status": "attested"
-    },
-    "达生医院": {
-      "en": "Dasheng Hospital",
-      "pinyin": "Dasheng Hospital",
-      "status": "decided"
-    },
-    "同德医院": {
-      "en": "Tongde Hospital",
-      "pinyin": "Tongde Hospital",
-      "status": "decided"
-    },
-    "镜湖医院": {
-      "en": "Kiang Wu Hospital",
-      "pinyin": "Kiang Wu Hospital",
-      "status": "attested"
-    },
-    "中山医学院": {
-      "en": "Sun Yat-sen Medical College",
-      "pinyin": "Sun Yat-sen Medical College",
-      "status": "attested"
-    },
-    "新四军": {
-      "en": "New Fourth Army",
-      "pinyin": "New Fourth Army",
-      "status": "attested"
-    },
-    "汉口青年励志社": {
-      "en": "Hankou Youth Self-Improvement Society",
-      "pinyin": "Hankou Youth Self-Improvement Society",
-      "status": "decided"
-    },
-    "南华药房": {
-      "en": "Nanhua Pharmacy",
-      "pinyin": "Nanhua Pharmacy",
-      "status": "decided"
-    },
-    "全国总工会": {
-      "en": "All-China Federation of Trade Unions",
-      "pinyin": "All-China Federation of Trade Unions",
-      "status": "attested"
-    },
-    "汇丰银行": {
-      "en": "Hongkong and Shanghai Bank",
-      "pinyin": "Hongkong and Shanghai Bank",
-      "status": "attested"
-    },
-    "云南护国军": {
-      "en": "Yunnan National Protection Army",
-      "pinyin": "Yunnan National Protection Army",
-      "status": "attested"
-    },
-    "同盟会": {
-      "en": "Tongmenghui",
-      "pinyin": "Tongmenghui",
-      "status": "attested"
-    }
+  "陈赓": {
+   "en": "Chen Geng",
+   "pinyin": "Chen Geng",
+   "status": "attested",
+   "principal": true,
+   "cast_order": 2,
+   "cast": "Chief of the Special Section's intelligence branch, working under the alias “Wang Yong.”"
   },
-  "places": {
-    "上海": {
-      "en": "Shanghai",
-      "pinyin": "Shanghai",
-      "status": "attested"
-    },
-    "武汉": {
-      "en": "Wuhan",
-      "pinyin": "Wuhan",
-      "status": "attested"
-    },
-    "汉口": {
-      "en": "Hankou",
-      "pinyin": "Hankou",
-      "status": "attested"
-    },
-    "广州": {
-      "en": "Guangzhou",
-      "pinyin": "Guangzhou",
-      "status": "attested",
-      "note": "Guangzhou, not Canton (per the collection's name ledger)."
-    },
-    "香港": {
-      "en": "Hong Kong",
-      "pinyin": "Xianggang",
-      "status": "attested"
-    },
-    "南昌": {
-      "en": "Nanchang",
-      "pinyin": "Nanchang",
-      "status": "attested"
-    },
-    "潮州": {
-      "en": "Chaozhou",
-      "pinyin": "Chaozhou",
-      "status": "attested"
-    },
-    "汕头": {
-      "en": "Shantou",
-      "pinyin": "Shantou",
-      "status": "attested"
-    },
-    "惠州": {
-      "en": "Huizhou",
-      "pinyin": "Huizhou",
-      "status": "attested"
-    },
-    "海丰": {
-      "en": "Haifeng",
-      "pinyin": "Haifeng",
-      "status": "attested"
-    },
-    "华阳": {
-      "en": "Huayang",
-      "pinyin": "Huayang",
-      "status": "attested"
-    },
-    "海参崴": {
-      "en": "Vladivostok",
-      "pinyin": "Vladivostok",
-      "status": "attested",
-      "note": "The Pacific port; from Shanghai the sea route to the Soviet Union."
-    },
-    "九江": {
-      "en": "Jiujiang",
-      "pinyin": "Jiujiang",
-      "status": "attested"
-    },
-    "会昌": {
-      "en": "Huichang",
-      "pinyin": "Huichang",
-      "status": "attested"
-    },
-    "长汀": {
-      "en": "Changting",
-      "pinyin": "Changting",
-      "status": "attested"
-    },
-    "湘乡": {
-      "en": "Xiangxiang",
-      "pinyin": "Xiangxiang",
-      "status": "attested"
-    },
-    "长沙": {
-      "en": "Changsha",
-      "pinyin": "Changsha",
-      "status": "attested"
-    },
-    "天津": {
-      "en": "Tianjin",
-      "pinyin": "Tianjin",
-      "status": "attested"
-    },
-    "南京": {
-      "en": "Nanjing",
-      "pinyin": "Nanjing",
-      "status": "attested"
-    },
-    "北京": {
-      "en": "Beijing",
-      "pinyin": "Beijing",
-      "status": "attested"
-    },
-    "徐州": {
-      "en": "Xuzhou",
-      "pinyin": "Xuzhou",
-      "status": "attested"
-    },
-    "苏州": {
-      "en": "Suzhou",
-      "pinyin": "Suzhou",
-      "status": "attested"
-    },
-    "安庆": {
-      "en": "Anqing",
-      "pinyin": "Anqing",
-      "status": "attested"
-    },
-    "杭州": {
-      "en": "Hangzhou",
-      "pinyin": "Hangzhou",
-      "status": "attested"
-    },
-    "南溪": {
-      "en": "Nanxi",
-      "pinyin": "Nanxi",
-      "status": "attested"
-    },
-    "格廷根": {
-      "en": "Göttingen",
-      "pinyin": "Göttingen",
-      "status": "attested"
-    },
-    "伯力": {
-      "en": "Khabarovsk",
-      "pinyin": "Khabarovsk",
-      "status": "attested"
-    },
-    "奉天": {
-      "en": "Fengtian",
-      "pinyin": "Fengtian",
-      "status": "attested"
-    },
-    "上虞": {
-      "en": "Shangyu",
-      "pinyin": "Shangyu",
-      "status": "attested"
-    },
-    "镇海": {
-      "en": "Zhenhai",
-      "pinyin": "Zhenhai",
-      "status": "attested"
-    },
-    "厦门": {
-      "en": "Xiamen",
-      "pinyin": "Xiamen",
-      "status": "attested"
-    },
-    "宜宾": {
-      "en": "Yibin",
-      "pinyin": "Yibin",
-      "status": "attested"
-    },
-    "深水埗": {
-      "en": "Sham Shui Po",
-      "pinyin": "Sham Shui Po",
-      "status": "attested"
-    },
-    "晋绥": {
-      "en": "Shanxi-Suiyuan",
-      "pinyin": "Shanxi-Suiyuan",
-      "status": "decided"
-    },
-    "湘鄂赣": {
-      "en": "Hunan-Hubei-Jiangxi",
-      "pinyin": "Hunan-Hubei-Jiangxi",
-      "status": "decided"
-    },
-    "闽西": {
-      "en": "western Fujian",
-      "pinyin": "western Fujian",
-      "status": "decided"
-    },
-    "平江": {
-      "en": "Pingjiang",
-      "pinyin": "Pingjiang",
-      "status": "attested"
-    },
-    "万载": {
-      "en": "Wanzai",
-      "pinyin": "Wanzai",
-      "status": "attested"
-    },
-    "铜鼓": {
-      "en": "Tonggu",
-      "pinyin": "Tonggu",
-      "status": "attested"
-    },
-    "崇阳": {
-      "en": "Chongyang",
-      "pinyin": "Chongyang",
-      "status": "attested"
-    },
-    "通城": {
-      "en": "Tongcheng",
-      "pinyin": "Tongcheng",
-      "status": "attested"
-    }
+  "顾顺章": {
+   "en": "Gu Shunzhang",
+   "pinyin": "Gu Shunzhang",
+   "status": "attested",
+   "principal": true,
+   "cast_order": 3,
+   "cast": "Head of the Special Section's Action Section (the Red Squad); a stage magician by trade, alias “Hua Guangqi.” His 1931 defection nearly destroyed the underground Party."
   },
-  "terms": {
-    "白色恐怖": {
-      "en": "White Terror",
-      "pinyin": "baise kongbu",
-      "status": "attested",
-      "note": "The Kuomintang's campaign of arrests and killings against Communists and the left after 1927."
-    },
-    "巡捕房": {
-      "en": "concession police",
-      "pinyin": "xunbufang",
-      "status": "decided",
-      "note": "The police force of a foreign concession in Shanghai; the constables were xunbu. Rendered “concession police” (or, for a specific concession, e.g. “the French Concession police”) throughout."
-    },
-    "租界": {
-      "en": "the Concessions",
-      "pinyin": "zujie",
-      "status": "decided",
-      "note": "The foreign-administered concession areas of Shanghai: the French Concession and the International Settlement."
-    },
-    "领事裁判权": {
-      "en": "extraterritoriality",
-      "pinyin": "lingshi caipanquan",
-      "status": "attested",
-      "note": "The treaty right by which foreign nationals in China answered to their own consular courts, not to Chinese law."
-    }
+  "李强": {
+   "en": "Li Qiang",
+   "pinyin": "Li Qiang",
+   "status": "attested",
+   "principal": true,
+   "cast_order": 4,
+   "cast": "Founder of the Party's radio-communications work; built its first transmitter. Alias “Zeng Peihong.”"
   },
-  "works": {
-    "孙子兵法": {
-      "en": "Art of War",
-      "pinyin": "Sunzi bingfa",
-      "status": "attested",
-      "note": "Sun Tzu's classic, <i>The Art of War</i>. The book quotes two chapters: “Attack by Stratagem” (谋攻篇) and “On the Use of Spies” (用间篇)."
-    },
-    "共产党宣言": {
-      "en": "Communist Manifesto",
-      "pinyin": "Communist Manifesto",
-      "status": "attested"
-    },
-    "共产主义ABC": {
-      "en": "ABC of Communism",
-      "pinyin": "ABC of Communism",
-      "status": "attested"
-    },
-    "论列宁主义问题": {
-      "en": "Concerning Questions of Leninism",
-      "pinyin": "Concerning Questions of Leninism",
-      "status": "attested"
-    },
-    "中国青年": {
-      "en": "China Youth",
-      "pinyin": "China Youth",
-      "status": "attested"
-    },
-    "新生命": {
-      "en": "New Life",
-      "pinyin": "New Life",
-      "status": "decided"
-    },
-    "人民日报": {
-      "en": "People's Daily",
-      "pinyin": "People's Daily",
-      "status": "attested"
-    },
-    "光明日报": {
-      "en": "Guangming Daily",
-      "pinyin": "Guangming Daily",
-      "status": "attested"
-    }
+  "蒋介石": {
+   "en": "Chiang Kai-shek",
+   "pinyin": "Jiang Jieshi",
+   "status": "attested",
+   "note": "The conventional English form is used, not pinyin Jiang Jieshi."
+  },
+  "汪精卫": {
+   "en": "Wang Jingwei",
+   "pinyin": "Wang Jingwei",
+   "status": "attested"
+  },
+  "毛泽东": {
+   "en": "Mao Zedong",
+   "pinyin": "Mao Zedong",
+   "status": "attested"
+  },
+  "陈独秀": {
+   "en": "Chen Duxiu",
+   "pinyin": "Chen Duxiu",
+   "status": "attested"
+  },
+  "张国焘": {
+   "en": "Zhang Guotao",
+   "pinyin": "Zhang Guotao",
+   "status": "attested"
+  },
+  "罗亦农": {
+   "en": "Luo Yinong",
+   "pinyin": "LuoYinong",
+   "status": "attested"
+  },
+  "赵世炎": {
+   "en": "Zhao Shiyan",
+   "pinyin": "Zhao Shiyan",
+   "status": "attested"
+  },
+  "陈延年": {
+   "en": "Chen Yannian",
+   "pinyin": "Chen Yannian",
+   "status": "attested"
+  },
+  "李立三": {
+   "en": "Li Lisan",
+   "pinyin": "Li Lisan",
+   "status": "attested"
+  },
+  "尹宽": {
+   "en": "Yin Kuan",
+   "pinyin": "Yin Kuan",
+   "status": "decided"
+  },
+  "聂荣臻": {
+   "en": "Nie Rongzhen",
+   "pinyin": "Nie Rongzhen",
+   "status": "attested"
+  },
+  "王一飞": {
+   "en": "Wang Yifei",
+   "pinyin": "Wang Yifei",
+   "status": "decided"
+  },
+  "欧阳钦": {
+   "en": "Ouyang Qin",
+   "pinyin": "Ouyang Qin",
+   "status": "decided"
+  },
+  "杨福林": {
+   "en": "Yang Fulin",
+   "pinyin": "Yang Fulin",
+   "status": "provisional"
+  },
+  "李剑如": {
+   "en": "Li Jianru",
+   "pinyin": "Li Jianru",
+   "status": "provisional"
+  },
+  "徐以新": {
+   "en": "Xu Yixin",
+   "pinyin": "Xu Yixin",
+   "status": "decided"
+  },
+  "王竹樵": {
+   "en": "Wang Zhuqiao",
+   "pinyin": "Wang Zhuqiao",
+   "status": "provisional"
+  },
+  "董醒吾": {
+   "en": "Dong Xingwu",
+   "pinyin": "Dong Xingwu",
+   "status": "provisional",
+   "note": "“Fat Dong” in Li Qiang's account; the personal name is given uncertainly in the source as Dong Xingwu or Dong Shengwu."
+  },
+  "鲍罗廷": {
+   "en": "Borodin",
+   "pinyin": "Baoluoting",
+   "status": "attested",
+   "note": "Mikhail Borodin, Comintern adviser to the Kuomintang."
+  },
+  "任弼时": {
+   "en": "Ren Bishi",
+   "pinyin": "RenBishi",
+   "status": "attested",
+   "note": "Aliases Peng Desheng and Hu Shaofu."
+  },
+  "邓颖超": {
+   "en": "Deng Yingchao",
+   "pinyin": "Deng Yingchao",
+   "status": "attested",
+   "note": "Zhou Enlai's wife."
+  },
+  "向忠发": {
+   "en": "Xiang Zhongfa",
+   "pinyin": "Xiang Zhongfa",
+   "status": "attested"
+  },
+  "恽代英": {
+   "en": "Yun Daiying",
+   "pinyin": "YunDaiying",
+   "status": "attested",
+   "note": "Alias Wang Zuolin; executed in Nanjing."
+  },
+  "陈养山": {
+   "en": "Chen Yangshan",
+   "pinyin": "Chen Yangshan",
+   "status": "attested"
+  },
+  "白崇禧": {
+   "en": "Bai Chongxi",
+   "pinyin": "Bai Chongxi",
+   "status": "attested"
+  },
+  "杨虎": {
+   "en": "Yang Hu",
+   "pinyin": "Yang Hu",
+   "status": "decided"
+  },
+  "陈群": {
+   "en": "Chen Qun",
+   "pinyin": "Chen Qun",
+   "status": "decided"
+  },
+  "郭伯和": {
+   "en": "Guo Bohe",
+   "pinyin": "Guo Bohe",
+   "status": "provisional"
+  },
+  "韩步先": {
+   "en": "Han Buxian",
+   "pinyin": "Han Buxian",
+   "status": "provisional"
+  },
+  "张太雷": {
+   "en": "Zhang Tailei",
+   "pinyin": "Zhang Tailei",
+   "status": "attested"
+  },
+  "李维汉": {
+   "en": "Li Weihan",
+   "pinyin": "LiWeihan",
+   "status": "attested",
+   "note": "Alias Luo Mai."
+  },
+  "朱德": {
+   "en": "Zhu De",
+   "pinyin": "Zhu De",
+   "status": "attested"
+  },
+  "贺龙": {
+   "en": "He Long",
+   "pinyin": "He Long",
+   "status": "attested"
+  },
+  "叶挺": {
+   "en": "Ye Ting",
+   "pinyin": "Ye Ting",
+   "status": "attested"
+  },
+  "刘伯承": {
+   "en": "Liu Bocheng",
+   "pinyin": "Liu Bocheng",
+   "status": "attested"
+  },
+  "夏斗寅": {
+   "en": "Xia Douyin",
+   "pinyin": "Xia Douyin",
+   "status": "attested"
+  },
+  "许克祥": {
+   "en": "Xu Kexiang",
+   "pinyin": "Xu Kexiang",
+   "status": "attested"
+  },
+  "张发奎": {
+   "en": "Zhang Fakui",
+   "pinyin": "Zhang Fakui",
+   "status": "attested"
+  },
+  "冯玉祥": {
+   "en": "Feng Yuxiang",
+   "pinyin": "Feng Yuxiang",
+   "status": "attested"
+  },
+  "李汉俊": {
+   "en": "Li Hanjun",
+   "pinyin": "Li Hanjun",
+   "status": "attested"
+  },
+  "马林": {
+   "en": "Maring",
+   "pinyin": "Malin",
+   "status": "attested",
+   "note": "Henk Sneevliet, the Comintern's representative at the First Congress, known as Maring."
+  },
+  "程子卿": {
+   "en": "Cheng Ziqing",
+   "pinyin": "Cheng Ziqing",
+   "status": "decided"
+  },
+  "包惠僧": {
+   "en": "Bao Huiseng",
+   "pinyin": "Bao Huiseng",
+   "status": "attested"
+  },
+  "杨明斋": {
+   "en": "Yang Mingzhai",
+   "pinyin": "Yang Mingzhai",
+   "status": "attested"
+  },
+  "柯庆施": {
+   "en": "Ke Qingshi",
+   "pinyin": "Ke Qingshi",
+   "status": "attested"
+  },
+  "高君曼": {
+   "en": "Gao Junman",
+   "pinyin": "Gao Junman",
+   "status": "attested",
+   "note": "Chen Duxiu's wife."
+  },
+  "汪寿华": {
+   "en": "Wang Shouhua",
+   "pinyin": "Wang Shouhua",
+   "status": "attested",
+   "note": "Also known as He Songlin; a leader of the Shanghai workers' uprisings, murdered in the April 12 coup."
+  },
+  "杨石魂": {
+   "en": "Yang Shihun",
+   "pinyin": "Yang Shihun",
+   "status": "provisional"
+  },
+  "孙子": {
+   "en": "Sun Tzu",
+   "pinyin": "Sunzi",
+   "status": "attested",
+   "note": "The ancient strategist; the conventional English spelling Sun Tzu is kept, not pinyin Sunzi."
+  },
+  "洪扬生": {
+   "en": "Hong Yangsheng",
+   "pinyin": "HongYangsheng",
+   "status": "provisional",
+   "note": "Chief of Section One; later renamed Hong Songtao."
+  },
+  "熊瑾玎": {
+   "en": "Xiong Jinding",
+   "pinyin": "XiongJinding",
+   "status": "attested",
+   "note": "Central accountant; ran the 'Fuxing Trading Company' front. Husband of Zhu Duansui."
+  },
+  "朱端绥": {
+   "en": "Zhu Duansui",
+   "pinyin": "ZhuDuansui",
+   "status": "decided",
+   "note": "Xiong Jinding's wife."
+  },
+  "邓小平": {
+   "en": "Deng Xiaoping",
+   "pinyin": "DengXiaoping",
+   "status": "attested"
+  },
+  "黄文容": {
+   "en": "Huang Wenrong",
+   "pinyin": "HuangWenrong",
+   "status": "provisional"
+  },
+  "龚饮冰": {
+   "en": "Gong Yinbing",
+   "pinyin": "GongYinbing",
+   "status": "provisional"
+  },
+  "周生赉": {
+   "en": "Zhou Shenglai",
+   "pinyin": "ZhouShenglai",
+   "status": "provisional",
+   "note": "Western-medicine doctor who ran the Shengli Hospital."
+  },
+  "何家兴": {
+   "en": "He Jiaxing",
+   "pinyin": "HeJiaxing",
+   "status": "provisional",
+   "note": "With He Zhihua, later betrayed Luo Yinong."
+  },
+  "贺稚华": {
+   "en": "He Zhihua",
+   "pinyin": "HeZhihua",
+   "status": "provisional",
+   "note": "He Jiaxing's wife; the two betrayed Luo Yinong."
+  },
+  "瞿秋白": {
+   "en": "Qu Qiubai",
+   "pinyin": "QuQiubai",
+   "status": "attested"
+  },
+  "苏兆征": {
+   "en": "Su Zhaozheng",
+   "pinyin": "SuZhaozheng",
+   "status": "attested"
+  },
+  "李一氓": {
+   "en": "Li Yimang",
+   "pinyin": "LiYimang",
+   "status": "attested"
+  },
+  "赵毅敏": {
+   "en": "Zhao Yimin",
+   "pinyin": "ZhaoYimin",
+   "status": "attested"
+  },
+  "李一超": {
+   "en": "Li Yichao",
+   "pinyin": "LiYichao",
+   "status": "attested",
+   "note": "Alias Li Kuntai; better known as the martyr Zhao Yiman."
+  },
+  "赵一曼": {
+   "en": "Zhao Yiman",
+   "pinyin": "ZhaoYiman",
+   "status": "attested",
+   "note": "Real name Li Kuntai (Li Yichao); anti-Japanese martyr."
+  },
+  "李侠": {
+   "en": "Li Xia",
+   "pinyin": "LiXia",
+   "status": "decided",
+   "note": "The underground-radio hero of the film The Unfailing Radio Waves, modeled on Li Bai."
+  },
+  "李白": {
+   "en": "Li Bai",
+   "pinyin": "LiBai",
+   "status": "attested",
+   "note": "Party radio operator, executed 1949; the model for the film character Li Xia."
+  },
+  "裘慧英": {
+   "en": "Qiu Huiying",
+   "pinyin": "QiuHuiying",
+   "status": "attested",
+   "note": "Li Bai's wife; originally named Qiu Lanfen."
+  },
+  "朱锦棠": {
+   "en": "Zhu Jintang",
+   "pinyin": "ZhuJintang",
+   "status": "provisional"
+  },
+  "邓初民": {
+   "en": "Deng Chumin",
+   "pinyin": "DengChumin",
+   "status": "attested",
+   "note": "Democratic figure and professor."
+  },
+  "李宇超": {
+   "en": "Li Yuchao",
+   "pinyin": "Li Yuchao",
+   "status": "provisional"
+  },
+  "刘淑琴": {
+   "en": "Liu Shuqin",
+   "pinyin": "LiuShuqin",
+   "status": "provisional"
+  },
+  "罗登贤": {
+   "en": "Luo Dengxian",
+   "pinyin": "LuoDengxian",
+   "status": "attested"
+  },
+  "周秀珠": {
+   "en": "Zhou Xiuzhu",
+   "pinyin": "ZhouXiuzhu",
+   "status": "provisional",
+   "note": "Luo Dengxian's wife, named Xiuzhu."
+  },
+  "顾维桢": {
+   "en": "Gu Weizhen",
+   "pinyin": "GuWeizhen",
+   "status": "provisional",
+   "note": "Gu Shunzhang's elder brother."
+  },
+  "关向应": {
+   "en": "Guan Xiangying",
+   "pinyin": "GuanXiangying",
+   "status": "attested"
+  },
+  "贺昌": {
+   "en": "He Chang",
+   "pinyin": "HeChang",
+   "status": "attested"
+  },
+  "刘少奇": {
+   "en": "Liu Shaoqi",
+   "pinyin": "LiuShaoqi",
+   "status": "attested"
+  },
+  "项英": {
+   "en": "Xiang Ying",
+   "pinyin": "XiangYing",
+   "status": "attested"
+  },
+  "卢福坦": {
+   "en": "Lu Futan",
+   "pinyin": "LuFutan",
+   "status": "attested"
+  },
+  "邓恩铭": {
+   "en": "Deng Enming",
+   "pinyin": "DengEnming",
+   "status": "attested"
+  },
+  "米夫": {
+   "en": "Pavel Mif",
+   "pinyin": "Mifu",
+   "status": "attested",
+   "note": "Comintern representative."
+  },
+  "王明": {
+   "en": "Wang Ming",
+   "pinyin": "WangMing",
+   "status": "attested"
+  },
+  "何孟雄": {
+   "en": "He Mengxiong",
+   "pinyin": "HeMengxiong",
+   "status": "attested"
+  },
+  "林育南": {
+   "en": "Lin Yunan",
+   "pinyin": "LinYunan",
+   "status": "attested"
+  },
+  "李求实": {
+   "en": "Li Qiushi",
+   "pinyin": "LiQiushi",
+   "status": "attested"
+  },
+  "潘震亚": {
+   "en": "Pan Zhenya",
+   "pinyin": "PanZhenya",
+   "status": "provisional",
+   "note": "Law professor and lawyer who defended arrested comrades."
+  },
+  "费国禧": {
+   "en": "Fei Guoxi",
+   "pinyin": "FeiGuoxi",
+   "status": "provisional",
+   "note": "Lawyer used by the Special Section."
+  },
+  "尤阿根": {
+   "en": "You Agen",
+   "pinyin": "YouAgen",
+   "status": "provisional",
+   "note": "Detective chief at the Laozha police station."
+  },
+  "何维道": {
+   "en": "He Weidao",
+   "pinyin": "HeWeidao",
+   "status": "provisional",
+   "note": "One of Changsha's 'four great lawyers.'"
+  },
+  "陈琮英": {
+   "en": "Chen Congying",
+   "pinyin": "ChenCongying",
+   "status": "attested",
+   "note": "Ren Bishi's wife."
+  },
+  "彭湃": {
+   "en": "Peng Pai",
+   "pinyin": "PengPai",
+   "status": "attested"
+  },
+  "李文宜": {
+   "en": "Li Wenyi",
+   "pinyin": "LiWenyi",
+   "status": "attested",
+   "note": "Luo Yinong's wife."
+  },
+  "张锡媛": {
+   "en": "Zhang Xiyuan",
+   "pinyin": "ZhangXiyuan",
+   "status": "attested",
+   "note": "Deng Xiaoping's late wife."
+  },
+  "张晓梅": {
+   "en": "Zhang Xiaomei",
+   "pinyin": "ZhangXiaomei",
+   "status": "provisional",
+   "note": "Zhang Xiyuan's younger sister."
+  },
+  "陈家康": {
+   "en": "Chen Jiakang",
+   "pinyin": "ChenJiakang",
+   "status": "attested",
+   "note": "The Special Section's full-time doctor."
+  },
+  "鲁涤平": {
+   "en": "Lu Diping",
+   "pinyin": "LuDiping",
+   "status": "attested",
+   "note": "Hunan warlord in whose army Chen Geng first served."
+  },
+  "何叔衡": {
+   "en": "He Shuheng",
+   "pinyin": "HeShuheng",
+   "status": "attested"
+  },
+  "孙中山": {
+   "en": "Sun Yat-sen",
+   "pinyin": "Sun Zhongshan",
+   "status": "attested",
+   "note": "Conventional English form, not pinyin Sun Zhongshan."
+  },
+  "陈炯明": {
+   "en": "Chen Jiongming",
+   "pinyin": "ChenJiongming",
+   "status": "attested"
+  },
+  "杨希闵": {
+   "en": "Yang Ximin",
+   "pinyin": "YangXimin",
+   "status": "attested",
+   "note": "Commander of the Yunnan (Dian) army that mutinied in 1925."
+  },
+  "刘震寰": {
+   "en": "Liu Zhenhuan",
+   "pinyin": "LiuZhenhuan",
+   "status": "attested",
+   "note": "Commander of the Guangxi (Gui) army that mutinied in 1925."
+  },
+  "廖仲恺": {
+   "en": "Liao Zhongkai",
+   "pinyin": "LiaoZhongkai",
+   "status": "attested",
+   "note": "Kuomintang left leader, assassinated 1925."
+  },
+  "何应钦": {
+   "en": "He Yingqin",
+   "pinyin": "HeYingqin",
+   "status": "attested"
+  },
+  "谭曙卿": {
+   "en": "Tan Shuqing",
+   "pinyin": "TanShuqing",
+   "status": "provisional",
+   "note": "Third Division commander in the second Eastern Expedition."
+  },
+  "周逸群": {
+   "en": "Zhou Yiqun",
+   "pinyin": "ZhouYiqun",
+   "status": "attested"
+  },
+  "王根英": {
+   "en": "Wang Genying",
+   "pinyin": "WangGenying",
+   "status": "attested",
+   "note": "Chen Geng's wife."
+  },
+  "牛惠霖": {
+   "en": "Niu Huilin",
+   "pinyin": "NiuHuilin",
+   "status": "attested",
+   "note": "English-trained orthopedic surgeon; cousin of Song Qingling."
+  },
+  "宋庆龄": {
+   "en": "Song Qingling",
+   "pinyin": "Song Qingling",
+   "status": "attested"
+  },
+  "陈知非": {
+   "en": "Chen Zhifei",
+   "pinyin": "ChenZhifei",
+   "status": "attested",
+   "note": "Son of Chen Geng and Wang Genying."
+  },
+  "林伯渠": {
+   "en": "Lin Boqu",
+   "pinyin": "LinBoqu",
+   "status": "attested"
+  },
+  "唐生智": {
+   "en": "Tang Shengzhi",
+   "pinyin": "TangShengzhi",
+   "status": "attested"
+  },
+  "卢冬生": {
+   "en": "Lu Dongsheng",
+   "pinyin": "LuDongsheng",
+   "status": "attested",
+   "note": "Chen Geng's aide from the Nanchang Uprising."
+  },
+  "陆留": {
+   "en": "Lu Liu",
+   "pinyin": "LuLiu",
+   "status": "provisional",
+   "note": "Sent with Chen Geng and Gu Shunzhang to the USSR in 1926."
+  },
+  "李克农": {
+   "en": "Li Kenong",
+   "pinyin": "LiKenong",
+   "status": "attested"
+  },
+  "钱壮飞": {
+   "en": "Qian Zhuangfei",
+   "pinyin": "QianZhuangfei",
+   "status": "attested"
+  },
+  "胡底": {
+   "en": "Hu Di",
+   "pinyin": "HuDi",
+   "status": "attested"
+  },
+  "陈寿昌": {
+   "en": "Chen Shouchang",
+   "pinyin": "Chen Shouchang",
+   "status": "attested"
+  },
+  "刘鼎": {
+   "en": "Liu Ding",
+   "pinyin": "Liu Ding",
+   "status": "attested"
+  },
+  "柯麟": {
+   "en": "Ke Lin",
+   "pinyin": "Ke Lin",
+   "status": "attested"
+  },
+  "欧阳新": {
+   "en": "Ouyang Xin",
+   "pinyin": "OuyangXin",
+   "status": "decided",
+   "note": "Alias Liu Dahan, nicknamed 'Big Hunk'; born surnamed Liu."
+  },
+  "陆连奎": {
+   "en": "Lu Liankui",
+   "pinyin": "LuLiankui",
+   "status": "attested",
+   "note": "Detective chief of the British concession police; Chen Geng's landlord."
+  },
+  "张克侠": {
+   "en": "Zhang Kexia",
+   "pinyin": "ZhangKexia",
+   "status": "attested",
+   "note": "Secret Party member; chief of staff to Zhang Zizhong."
+  },
+  "张自忠": {
+   "en": "Zhang Zizhong",
+   "pinyin": "ZhangZizhong",
+   "status": "attested"
+  },
+  "何基沣": {
+   "en": "He Jifeng",
+   "pinyin": "HeJifeng",
+   "status": "attested"
+  },
+  "董健吾": {
+   "en": "Dong Jianwu",
+   "pinyin": "DongJianwu",
+   "status": "attested",
+   "note": "Underground pastor linked to the Special Section's intelligence branch."
+  },
+  "阎锡山": {
+   "en": "Yan Xishan",
+   "pinyin": "YanXishan",
+   "status": "attested"
+  },
+  "钱大钧": {
+   "en": "Qian Dajun",
+   "pinyin": "QianDajun",
+   "status": "attested",
+   "note": "Kuomintang Songhu garrison commander, later Jiangnan 'bandit-suppression' commander."
+  },
+  "蒋先云": {
+   "en": "Jiang Xianyun",
+   "pinyin": "JiangXianyun",
+   "status": "attested",
+   "note": "One of the 'Three Heroes of Whampoa.'"
+  },
+  "贺衷寒": {
+   "en": "He Zhonghan",
+   "pinyin": "HeZhonghan",
+   "status": "attested",
+   "note": "One of the 'Three Heroes of Whampoa.'"
+  },
+  "叶剑英": {
+   "en": "Ye Jianying",
+   "pinyin": "YeJianying",
+   "status": "attested"
+  },
+  "贺诚": {
+   "en": "He Cheng",
+   "pinyin": "He Cheng",
+   "status": "attested"
+  },
+  "周越华": {
+   "en": "Zhou Yuehua",
+   "pinyin": "Zhou Yuehua",
+   "status": "attested"
+  },
+  "佐野学": {
+   "en": "Sano Manabu",
+   "pinyin": "Sano Manabu",
+   "status": "attested"
+  },
+  "杨登瀛": {
+   "en": "Yang Dengying",
+   "pinyin": "Yang Dengying",
+   "status": "attested"
+  },
+  "鲍君甫": {
+   "en": "Bao Junfu",
+   "pinyin": "Bao Junfu",
+   "status": "attested"
+  },
+  "李少石": {
+   "en": "Li Shaoshi",
+   "pinyin": "Li Shaoshi",
+   "status": "attested"
+  },
+  "罗明": {
+   "en": "Luo Ming",
+   "pinyin": "Luo Ming",
+   "status": "attested"
+  },
+  "孙炳文": {
+   "en": "Sun Bingwen",
+   "pinyin": "Sun Bingwen",
+   "status": "attested"
+  },
+  "吴先清": {
+   "en": "Wu Xianqing",
+   "pinyin": "Wu Xianqing",
+   "status": "attested"
+  },
+  "杨献珍": {
+   "en": "Yang Xianzhen",
+   "pinyin": "Yang Xianzhen",
+   "status": "attested"
+  },
+  "胡鄂公": {
+   "en": "Hu Egong",
+   "pinyin": "Hu Egong",
+   "status": "attested"
+  },
+  "陈原道": {
+   "en": "Chen Yuandao",
+   "pinyin": "Chen Yuandao",
+   "status": "attested"
+  },
+  "杨剑虹": {
+   "en": "Yang Jianhong",
+   "pinyin": "Yang Jianhong",
+   "status": "attested"
+  },
+  "余世颂": {
+   "en": "Yu Shisong",
+   "pinyin": "Yu Shisong",
+   "status": "attested"
+  },
+  "陈潭秋": {
+   "en": "Chen Tanqiu",
+   "pinyin": "Chen Tanqiu",
+   "status": "attested"
+  },
+  "曾三": {
+   "en": "Zeng San",
+   "pinyin": "Zeng San",
+   "status": "attested"
+  },
+  "李硕勋": {
+   "en": "Li Shuoxun",
+   "pinyin": "Li Shuoxun",
+   "status": "attested"
+  },
+  "蔡和森": {
+   "en": "Cai Hesen",
+   "pinyin": "Cai Hesen",
+   "status": "attested"
+  },
+  "李大钊": {
+   "en": "Li Dazhao",
+   "pinyin": "Li Dazhao",
+   "status": "attested"
+  },
+  "杜月笙": {
+   "en": "Du Yuesheng",
+   "pinyin": "Du Yuesheng",
+   "status": "attested"
+  },
+  "陈宝骅": {
+   "en": "Chen Baohua",
+   "pinyin": "Chen Baohua",
+   "status": "attested"
+  },
+  "杨度": {
+   "en": "Yang Du",
+   "pinyin": "Yang Du",
+   "status": "attested"
+  },
+  "邓演达": {
+   "en": "Deng Yanda",
+   "pinyin": "Deng Yanda",
+   "status": "attested"
+  },
+  "邓真德": {
+   "en": "Deng Zhende",
+   "pinyin": "Deng Zhende",
+   "status": "provisional"
+  },
+  "李树芬": {
+   "en": "Li Shufen",
+   "pinyin": "Li Shufen",
+   "status": "attested"
+  },
+  "徐彬如": {
+   "en": "Xu Binru",
+   "pinyin": "Xu Binru",
+   "status": "attested"
+  },
+  "陈月波": {
+   "en": "Chen Yuebo",
+   "pinyin": "Chen Yuebo",
+   "status": "provisional"
+  },
+  "袁世凯": {
+   "en": "Yuan Shikai",
+   "pinyin": "Yuan Shikai",
+   "status": "attested"
+  },
+  "张云逸": {
+   "en": "Zhang Yunyi",
+   "pinyin": "Zhang Yunyi",
+   "status": "attested"
+  },
+  "李济深": {
+   "en": "Li Jishen",
+   "pinyin": "Li Jishen",
+   "status": "attested"
+  },
+  "陆定一": {
+   "en": "Lu Dingyi",
+   "pinyin": "Lu Dingyi",
+   "status": "attested"
+  },
+  "阳翰笙": {
+   "en": "Yang Hansheng",
+   "pinyin": "Yang Hansheng",
+   "status": "attested"
+  },
+  "陈志英": {
+   "en": "Chen Zhiying",
+   "pinyin": "Chen Zhiying",
+   "status": "provisional"
+  },
+  "柳柏文": {
+   "en": "Liu Baiwen",
+   "pinyin": "Liu Baiwen",
+   "status": "provisional"
+  },
+  "阚思俊": {
+   "en": "Kan Sijun",
+   "pinyin": "Kan Sijun",
+   "status": "attested"
+  },
+  "程仰山": {
+   "en": "Cheng Yangshan",
+   "pinyin": "Cheng Yangshan",
+   "status": "attested"
+  },
+  "陈希堪": {
+   "en": "Chen Xikan",
+   "pinyin": "Chen Xikan",
+   "status": "attested"
+  },
+  "柯达文": {
+   "en": "Ke Dawen",
+   "pinyin": "Ke Dawen",
+   "status": "decided"
+  },
+  "贺雨生": {
+   "en": "He Yusheng",
+   "pinyin": "He Yusheng",
+   "status": "decided"
+  },
+  "魏宸祖": {
+   "en": "Wei Chenzu",
+   "pinyin": "Wei Chenzu",
+   "status": "provisional"
+  },
+  "熊向晖": {
+   "en": "Xiong Xianghui",
+   "pinyin": "Xiong Xianghui",
+   "status": "attested"
+  },
+  "董必武": {
+   "en": "Dong Biwu",
+   "pinyin": "Dong Biwu",
+   "status": "attested"
+  },
+  "陈调元": {
+   "en": "Chen Diaoyuan",
+   "pinyin": "Chen Diaoyuan",
+   "status": "attested"
+  },
+  "蔡孟坚": {
+   "en": "Cai Mengjian",
+   "pinyin": "Cai Mengjian",
+   "status": "attested"
+  },
+  "徐恩曾": {
+   "en": "Xu Enzeng",
+   "pinyin": "Xu Enzeng",
+   "status": "attested"
+  },
+  "陈立夫": {
+   "en": "Chen Lifu",
+   "pinyin": "Chen Lifu",
+   "status": "attested"
+  },
+  "陈果夫": {
+   "en": "Chen Guofu",
+   "pinyin": "Chen Guofu",
+   "status": "attested"
+  },
+  "张道藩": {
+   "en": "Zhang Daofan",
+   "pinyin": "Zhang Daofan",
+   "status": "attested"
+  },
+  "连德生": {
+   "en": "Lian Desheng",
+   "pinyin": "Lian Desheng",
+   "status": "attested"
+  },
+  "兰普逊": {
+   "en": "Lampson",
+   "pinyin": "Lampson",
+   "status": "attested"
+  },
+  "谭绍良": {
+   "en": "Tan Shaoliang",
+   "pinyin": "Tan Shaoliang",
+   "status": "attested"
+  },
+  "安娥": {
+   "en": "An E",
+   "pinyin": "An E",
+   "status": "attested"
+  },
+  "袁良": {
+   "en": "Yuan Liang",
+   "pinyin": "Yuan Liang",
+   "status": "attested"
+  },
+  "张振华": {
+   "en": "Zhang Zhenhua",
+   "pinyin": "Zhang Zhenhua",
+   "status": "attested"
+  },
+  "李富春": {
+   "en": "Li Fuchun",
+   "pinyin": "Li Fuchun",
+   "status": "attested"
+  },
+  "孔祥熙": {
+   "en": "Kong Xiangxi",
+   "pinyin": "Kong Xiangxi",
+   "status": "attested"
+  },
+  "孙科": {
+   "en": "Sun Ke",
+   "pinyin": "Sun Ke",
+   "status": "attested"
+  },
+  "茅乃功": {
+   "en": "Mao Naigong",
+   "pinyin": "Mao Naigong",
+   "status": "attested"
+  },
+  "叶秀峰": {
+   "en": "Ye Xiufeng",
+   "pinyin": "Ye Xiufeng",
+   "status": "attested"
+  },
+  "陈希曾": {
+   "en": "Chen Xizeng",
+   "pinyin": "Chen Xizeng",
+   "status": "attested"
+  },
+  "胡宗南": {
+   "en": "Hu Zongnan",
+   "pinyin": "Hu Zongnan",
+   "status": "attested"
+  },
+  "宫乔岩": {
+   "en": "Gong Qiaoyan",
+   "pinyin": "Gong Qiaoyan",
+   "status": "attested"
+  },
+  "张秋人": {
+   "en": "Zhang Qiuren",
+   "pinyin": "Zhang Qiuren",
+   "status": "attested"
+  },
+  "高语罕": {
+   "en": "Gao Yuhan",
+   "pinyin": "Gao Yuhan",
+   "status": "attested"
+  },
+  "宋治家": {
+   "en": "Song Zhijia",
+   "pinyin": "Song Zhijia",
+   "status": "attested"
+  },
+  "蒋光慈": {
+   "en": "Jiang Guangci",
+   "pinyin": "Jiang Guangci",
+   "status": "attested"
+  },
+  "洪灵菲": {
+   "en": "Hong Lingfei",
+   "pinyin": "Hong Lingfei",
+   "status": "attested"
+  },
+  "黎莉莉": {
+   "en": "Li Lili",
+   "pinyin": "Li Lili",
+   "status": "attested"
+  },
+  "张沈川": {
+   "en": "Zhang Shenchuan",
+   "pinyin": "Zhang Shenchuan",
+   "status": "attested"
+  },
+  "陈忠经": {
+   "en": "Chen Zhongjing",
+   "pinyin": "Chen Zhongjing",
+   "status": "attested"
+  },
+  "申健": {
+   "en": "Shen Jian",
+   "pinyin": "Shen Jian",
+   "status": "attested"
+  },
+  "胡浩川": {
+   "en": "Hu Haochuan",
+   "pinyin": "Hu Haochuan",
+   "status": "attested"
+  },
+  "张暹中": {
+   "en": "Zhang Xianzhong",
+   "pinyin": "Zhang Xianzhong",
+   "status": "attested"
+  },
+  "阿英/钱杏村": {
+   "en": "Ah Ying",
+   "pinyin": "Ah Ying",
+   "status": "attested",
+   "note": "Pen name of Qian Xingcun (1900&#8211;1977), the writer and literary historian."
+  },
+  "宋季仁": {
+   "en": "Song Jiren",
+   "pinyin": "Song Jiren",
+   "status": "attested"
+  },
+  "钱双瑛/徐双英": {
+   "en": "Qian Shuangying",
+   "pinyin": "Qian Shuangying",
+   "status": "attested"
   }
+ },
+ "organizations": {
+  "中国共产党": {
+   "en": "Chinese Communist Party",
+   "pinyin": "Zhongguo Gongchandang",
+   "status": "attested"
+  },
+  "国民党": {
+   "en": "Kuomintang",
+   "pinyin": "Guomindang",
+   "status": "attested",
+   "note": "The older romanization Kuomintang is kept, as is conventional in English."
+  },
+  "中央特科": {
+   "en": "Central Special Section",
+   "pinyin": "Zhongyang Teke",
+   "status": "decided",
+   "note": "Zhongyang Teke; the Party's underground intelligence and security apparatus in Shanghai. Rendered “Central Special Section” throughout."
+  },
+  "共产国际": {
+   "en": "Comintern",
+   "pinyin": "Gongchan Guoji",
+   "status": "attested",
+   "note": "The Communist International, Moscow's world body of communist parties."
+  },
+  "红队": {
+   "en": "Red Squad",
+   "pinyin": "Hong Dui",
+   "status": "decided",
+   "note": "The Special Section's armed action unit, also called the “Dog-Beating Squad.”"
+  },
+  "黄埔军校": {
+   "en": "Whampoa",
+   "pinyin": "Whampoa Military Academy",
+   "status": "attested",
+   "note": "The Whampoa Military Academy, the Kuomintang's military academy near Guangzhou; the older romanization Whampoa is kept, and 'Whampoa' alone is used after first mention."
+  },
+  "太古公司": {
+   "en": "Butterfield & Swire",
+   "pinyin": "Butterfield & Swire",
+   "status": "attested",
+   "note": "The British shipping firm (Taikoo)."
+  },
+  "新新通讯社": {
+   "en": "Xinxin News Agency",
+   "pinyin": "Xinxin News Agency",
+   "status": "provisional"
+  },
+  "中国救济总会": {
+   "en": "China Relief Society",
+   "pinyin": "China Relief Society",
+   "status": "decided"
+  },
+  "国际济难会": {
+   "en": "International Red Aid",
+   "pinyin": "International Red Aid",
+   "status": "attested",
+   "note": "The Comintern's relief body (MOPR)."
+  },
+  "东方大学": {
+   "en": "Communist University of the Toilers of the East",
+   "pinyin": "Communist University of the Toilers of the East",
+   "status": "attested"
+  },
+  "上海大学": {
+   "en": "Shanghai University",
+   "pinyin": "Shanghai University",
+   "status": "attested"
+  },
+  "达生医院": {
+   "en": "Dasheng Hospital",
+   "pinyin": "Dasheng Hospital",
+   "status": "decided"
+  },
+  "同德医院": {
+   "en": "Tongde Hospital",
+   "pinyin": "Tongde Hospital",
+   "status": "decided"
+  },
+  "镜湖医院": {
+   "en": "Kiang Wu Hospital",
+   "pinyin": "Kiang Wu Hospital",
+   "status": "attested"
+  },
+  "中山医学院": {
+   "en": "Sun Yat-sen Medical College",
+   "pinyin": "Sun Yat-sen Medical College",
+   "status": "attested"
+  },
+  "新四军": {
+   "en": "New Fourth Army",
+   "pinyin": "New Fourth Army",
+   "status": "attested"
+  },
+  "汉口青年励志社": {
+   "en": "Hankou Youth Self-Improvement Society",
+   "pinyin": "Hankou Youth Self-Improvement Society",
+   "status": "decided"
+  },
+  "南华药房": {
+   "en": "Nanhua Pharmacy",
+   "pinyin": "Nanhua Pharmacy",
+   "status": "decided"
+  },
+  "全国总工会": {
+   "en": "All-China Federation of Trade Unions",
+   "pinyin": "All-China Federation of Trade Unions",
+   "status": "attested"
+  },
+  "汇丰银行": {
+   "en": "Hongkong and Shanghai Bank",
+   "pinyin": "Hongkong and Shanghai Bank",
+   "status": "attested"
+  },
+  "云南护国军": {
+   "en": "Yunnan National Protection Army",
+   "pinyin": "Yunnan National Protection Army",
+   "status": "attested"
+  },
+  "同盟会": {
+   "en": "Tongmenghui",
+   "pinyin": "Tongmenghui",
+   "status": "attested"
+  },
+  "太阳社": {
+   "en": "Sun Society",
+   "pinyin": "Taiyang She",
+   "status": "attested"
+  }
+ },
+ "places": {
+  "上海": {
+   "en": "Shanghai",
+   "pinyin": "Shanghai",
+   "status": "attested"
+  },
+  "武汉": {
+   "en": "Wuhan",
+   "pinyin": "Wuhan",
+   "status": "attested"
+  },
+  "汉口": {
+   "en": "Hankou",
+   "pinyin": "Hankou",
+   "status": "attested"
+  },
+  "广州": {
+   "en": "Guangzhou",
+   "pinyin": "Guangzhou",
+   "status": "attested",
+   "note": "Guangzhou, not Canton (per the collection's name ledger)."
+  },
+  "香港": {
+   "en": "Hong Kong",
+   "pinyin": "Xianggang",
+   "status": "attested"
+  },
+  "南昌": {
+   "en": "Nanchang",
+   "pinyin": "Nanchang",
+   "status": "attested"
+  },
+  "潮州": {
+   "en": "Chaozhou",
+   "pinyin": "Chaozhou",
+   "status": "attested"
+  },
+  "汕头": {
+   "en": "Shantou",
+   "pinyin": "Shantou",
+   "status": "attested"
+  },
+  "惠州": {
+   "en": "Huizhou",
+   "pinyin": "Huizhou",
+   "status": "attested"
+  },
+  "海丰": {
+   "en": "Haifeng",
+   "pinyin": "Haifeng",
+   "status": "attested"
+  },
+  "华阳": {
+   "en": "Huayang",
+   "pinyin": "Huayang",
+   "status": "attested"
+  },
+  "海参崴": {
+   "en": "Vladivostok",
+   "pinyin": "Vladivostok",
+   "status": "attested",
+   "note": "The Pacific port; from Shanghai the sea route to the Soviet Union."
+  },
+  "九江": {
+   "en": "Jiujiang",
+   "pinyin": "Jiujiang",
+   "status": "attested"
+  },
+  "会昌": {
+   "en": "Huichang",
+   "pinyin": "Huichang",
+   "status": "attested"
+  },
+  "长汀": {
+   "en": "Changting",
+   "pinyin": "Changting",
+   "status": "attested"
+  },
+  "湘乡": {
+   "en": "Xiangxiang",
+   "pinyin": "Xiangxiang",
+   "status": "attested"
+  },
+  "长沙": {
+   "en": "Changsha",
+   "pinyin": "Changsha",
+   "status": "attested"
+  },
+  "天津": {
+   "en": "Tianjin",
+   "pinyin": "Tianjin",
+   "status": "attested"
+  },
+  "南京": {
+   "en": "Nanjing",
+   "pinyin": "Nanjing",
+   "status": "attested"
+  },
+  "北京": {
+   "en": "Beijing",
+   "pinyin": "Beijing",
+   "status": "attested"
+  },
+  "徐州": {
+   "en": "Xuzhou",
+   "pinyin": "Xuzhou",
+   "status": "attested"
+  },
+  "苏州": {
+   "en": "Suzhou",
+   "pinyin": "Suzhou",
+   "status": "attested"
+  },
+  "安庆": {
+   "en": "Anqing",
+   "pinyin": "Anqing",
+   "status": "attested"
+  },
+  "杭州": {
+   "en": "Hangzhou",
+   "pinyin": "Hangzhou",
+   "status": "attested"
+  },
+  "南溪": {
+   "en": "Nanxi",
+   "pinyin": "Nanxi",
+   "status": "attested"
+  },
+  "格廷根": {
+   "en": "Göttingen",
+   "pinyin": "Göttingen",
+   "status": "attested"
+  },
+  "伯力": {
+   "en": "Khabarovsk",
+   "pinyin": "Khabarovsk",
+   "status": "attested"
+  },
+  "奉天": {
+   "en": "Fengtian",
+   "pinyin": "Fengtian",
+   "status": "attested"
+  },
+  "上虞": {
+   "en": "Shangyu",
+   "pinyin": "Shangyu",
+   "status": "attested"
+  },
+  "镇海": {
+   "en": "Zhenhai",
+   "pinyin": "Zhenhai",
+   "status": "attested"
+  },
+  "厦门": {
+   "en": "Xiamen",
+   "pinyin": "Xiamen",
+   "status": "attested"
+  },
+  "宜宾": {
+   "en": "Yibin",
+   "pinyin": "Yibin",
+   "status": "attested"
+  },
+  "深水埗": {
+   "en": "Sham Shui Po",
+   "pinyin": "Sham Shui Po",
+   "status": "attested"
+  },
+  "晋绥": {
+   "en": "Shanxi-Suiyuan",
+   "pinyin": "Shanxi-Suiyuan",
+   "status": "decided"
+  },
+  "湘鄂赣": {
+   "en": "Hunan-Hubei-Jiangxi",
+   "pinyin": "Hunan-Hubei-Jiangxi",
+   "status": "decided"
+  },
+  "闽西": {
+   "en": "western Fujian",
+   "pinyin": "western Fujian",
+   "status": "decided"
+  },
+  "平江": {
+   "en": "Pingjiang",
+   "pinyin": "Pingjiang",
+   "status": "attested"
+  },
+  "万载": {
+   "en": "Wanzai",
+   "pinyin": "Wanzai",
+   "status": "attested"
+  },
+  "铜鼓": {
+   "en": "Tonggu",
+   "pinyin": "Tonggu",
+   "status": "attested"
+  },
+  "崇阳": {
+   "en": "Chongyang",
+   "pinyin": "Chongyang",
+   "status": "attested"
+  },
+  "通城": {
+   "en": "Tongcheng",
+   "pinyin": "Tongcheng",
+   "status": "attested"
+  }
+ },
+ "terms": {
+  "白色恐怖": {
+   "en": "White Terror",
+   "pinyin": "baise kongbu",
+   "status": "attested",
+   "note": "The Kuomintang's campaign of arrests and killings against Communists and the left after 1927."
+  },
+  "巡捕房": {
+   "en": "concession police",
+   "pinyin": "xunbufang",
+   "status": "decided",
+   "note": "The police force of a foreign concession in Shanghai; the constables were xunbu. Rendered “concession police” (or, for a specific concession, e.g. “the French Concession police”) throughout."
+  },
+  "租界": {
+   "en": "the Concessions",
+   "pinyin": "zujie",
+   "status": "decided",
+   "note": "The foreign-administered concession areas of Shanghai: the French Concession and the International Settlement."
+  },
+  "领事裁判权": {
+   "en": "extraterritoriality",
+   "pinyin": "lingshi caipanquan",
+   "status": "attested",
+   "note": "The treaty right by which foreign nationals in China answered to their own consular courts, not to Chinese law."
+  },
+  "龙潭三杰": {
+   "en": "Three Heroes of Longtan",
+   "pinyin": "Longtan sanjie",
+   "status": "attested",
+   "note": "Zhou Enlai&#8217;s name for the trio Li Kenong, Qian Zhuangfei, and Hu Di, planted at the heart of the Nationalist secret service; the &#8220;dragon pool&#8221; (longtan) evokes the tiger&#8217;s-den peril of their work."
+  },
+  "田中奏折": {
+   "en": "Tanaka Memorial",
+   "pinyin": "Tianzhong zouzhe",
+   "status": "attested"
+  }
+ },
+ "works": {
+  "孙子兵法": {
+   "en": "Art of War",
+   "pinyin": "Sunzi bingfa",
+   "status": "attested",
+   "note": "Sun Tzu's classic, <i>The Art of War</i>. The book quotes two chapters: “Attack by Stratagem” (谋攻篇) and “On the Use of Spies” (用间篇)."
+  },
+  "共产党宣言": {
+   "en": "Communist Manifesto",
+   "pinyin": "Communist Manifesto",
+   "status": "attested"
+  },
+  "共产主义ABC": {
+   "en": "ABC of Communism",
+   "pinyin": "ABC of Communism",
+   "status": "attested"
+  },
+  "论列宁主义问题": {
+   "en": "Concerning Questions of Leninism",
+   "pinyin": "Concerning Questions of Leninism",
+   "status": "attested"
+  },
+  "中国青年": {
+   "en": "China Youth",
+   "pinyin": "China Youth",
+   "status": "attested"
+  },
+  "新生命": {
+   "en": "New Life",
+   "pinyin": "New Life",
+   "status": "decided"
+  },
+  "人民日报": {
+   "en": "People's Daily",
+   "pinyin": "People's Daily",
+   "status": "attested"
+  },
+  "光明日报": {
+   "en": "Guangming Daily",
+   "pinyin": "Guangming Daily",
+   "status": "attested"
+  },
+  "论反对日本帝国主义的策略": {
+   "en": "On Tactics Against Japanese Imperialism",
+   "pinyin": "Lun fandui Riben diguozhuyi de celue",
+   "status": "attested"
+  },
+  "毛泽东选集": {
+   "en": "Selected Works of Mao Zedong",
+   "pinyin": "Mao Zedong xuanji",
+   "status": "attested"
+  },
+  "上海——冒险家的乐园": {
+   "en": "Shanghai: The Paradise of Adventurers",
+   "pinyin": "Shanghai: maoxianjia de leyuan",
+   "status": "attested"
+  }
+ }
 }
