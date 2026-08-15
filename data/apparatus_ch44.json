@@ -1,0 +1,46 @@
+{
+  "glossary": {
+    "佐川官兵衛": {
+      "section": "people",
+      "en": "Sagawa Kanbei",
+      "pinyin": "Sagawa Kanbei",
+      "status": "decided",
+      "note": "Aizu senior retainer, nicknamed the Aizu ogre; captain of the han's Bessentai. Full note at ch44."
+    },
+    "伝習隊": {
+      "section": "organizations",
+      "en": "the Denshūtai",
+      "pinyin": "Denshūtai",
+      "status": "decided",
+      "note": "The shogunate's French-drilled infantry corps. Full note at ch44."
+    }
+  },
+  "notes": {
+    "ch44": [
+      {
+        "anchor": "the Shizuki-an grove",
+        "note": "A thin wood on the western edge of the Fushimi post-town, before the magistrate&#8217;s office. It took its name from Shizuki, the low hill in Fushimi where Toyotomi Hideyoshi raised his first Fushimi Castle in the 1590s (the castle was wrecked by an earthquake in 1596 and rebuilt on higher ground nearby). Here the Satsuma and Ch&#333;sh&#363; riflemen turned the grove into the tatami-walled strongpoint the next lines describe."
+      },
+      {
+        "anchor": "tatami mats requisitioned from the townhouses",
+        "note": "Tatami, the thick rush-faced straw floor-mats of a Japanese house (each roughly 90 by 180 centimeters and several centimeters deep), were dense enough to stop or slow a lead ball. Stacked into a chest-high wall, requisitioned mats gave the Satsuma-Ch&#333;sh&#363; gunners an improvised bulletproof breastwork &#8212; a detail well attested in accounts of the Fushimi fighting."
+      },
+      {
+        "anchor": "too many of their guns were matchlocks",
+        "note": "The hinawaj&#363;, a muzzle-loading gun fired by a smoldering cord touched to the priming pan &#8212; in essence the weapon the Portuguese had introduced to Japan in 1543. It was slow to load, short-ranged, and useless in rain. By 1868 it was three centuries out of date against the rifled Mini&#233; (see the note at chapter 41). That the shogunal side&#8217;s Aizu troops were still largely armed with matchlocks, against Satsuma-Ch&#333;sh&#363; Mini&#233; rifles, is the technological gap Shiba is drawing here."
+      },
+      {
+        "anchor": "Sagawa Kanbei, captain of the Aizu",
+        "note": "Sagawa Kanbei (1831&#8211;1877), an Aizu senior retainer nicknamed the Oni-Sagawa, the &#8220;Aizu ogre,&#8221; for his ferocity in the field. He led the han&#8217;s Bessentai, its picked bodyguard-and-assault unit, in Kyoto, and fought through Toba-Fushimi and the long defense of Aizu in 1868. He survived the war, entered the new government&#8217;s police, and was killed in 1877 leading a police brigade against the Satsuma rebels in the Seinan War. &#8220;Special-Selection corps&#8221; here renders Bessentai."
+      },
+      {
+        "anchor": "the shogunal Denshūtai",
+        "note": "The Denshūtai (&#8220;training corps&#8221;) was the shogunate&#8217;s Western-drilled infantry, trained from 1867 by the French Military Mission and armed with modern rifles. Its men followed &#332;tori Keisuke (who enters this novel later) north after the fall of Edo and fought on to Hakodate. It was the most modern force on the Tokugawa side, which is why Shiba sets it in the same column as the antique Aizu troops."
+      },
+      {
+        "anchor": "cut off his head and hang it at their waists",
+        "note": "Taking an enemy&#8217;s severed head as proof of a kill, to be tallied afterward for reward, was standard practice in the wars of the sixteenth century. On a battlefield swept by rifle fire it was a dangerous anachronism: a man laden with two heads, as the text says, could barely move. Shiba uses the Aizu troops&#8217; head-taking to mark how far their whole way of war had fallen behind the Satsuma-Ch&#333;sh&#363; riflemen."
+      }
+    ]
+  }
+}

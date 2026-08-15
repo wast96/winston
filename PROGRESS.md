@@ -1250,3 +1250,103 @@ FACT-CHECK VERDICTS (real scholarship; no LLM/Grok sources):
 - The Meiji-general roll-call (Nozu Michitsura → Fourth Army/field marshal;
   Ōyama Iwao → Manchurian Army C-in-C; Yamada Akiyoshi; Tani Tateki → Kumamoto
   garrison; Yamaji Motoharu → Port Arthur; Miura Gorō) — standard, CORROBORATED.
+
+
+## B10 (ch44–ch48) — 鳥羽伏見の戦い・その三・その四 / 大坂の歳三 / 松林 / 西昭庵
+
+Batch 10 complete. ch44 鳥羽伏見の戦い・その三 "The Battle of Toba-Fushimi (III)"
+(Toshizō on the wall-top under fire; the drawn-sword charge into the tatami-walled
+Shizuki-an grove; Hayashi Gonsuke's Aizu guns outmatched by Satsuma Minié rifles;
+Gonsuke shot three times but directing seated in the road; the night sword-charge;
+the flanking march behind the Gokō-no-miya with Sagawa Kanbei; the magistrate's
+office burns and the battle becomes a slaughter; sixty-odd men left of the corps).
+ch45 その四 "(IV)" (the "theatre" conceit; Ernest Satow at Osaka; the Sekigahara
+parallel; the shogunal infantry's rout and Nagakura's clash with a fleeing
+"soldier"; Sagawa Kanbei's fate; the two withdrawal orders; the second day's
+shogunal victory and the deaths of Sakuma and Kubota; the brocade banner, the
+Tōdō defection at Yamazaki, the great collapse; Toshizō falls back to Osaka).
+ch46 大坂の歳三 "Toshizō at Osaka" (the rout down the Yodo; Osaka Castle as
+"impregnable"; the visit to the wounded Kondō and the dying Okita; Oyuki's plum
+branches; MATSUMOTO RYŌJUN tells him YOSHINOBU HAS FLED; the reconstructed flight
+by US warship and the Kaiyō-maru; Fukuchi Gen'ichirō's memoir; Toshizō strikes a
+hatamoto and rides off vowing to fight on). ch47 松林 "The Pine Wood" (the
+Kondō–Toshizō debate on Ashikaga Takauji and the "war of ideas"; the Osaka-Castle
+council; Matsudaira Tarō and the Dutch infantry drill-manual; the sailing set for
+the twelfth on the Fujiyama-maru; the reunion with Oyuki in the pine wood; two
+days' leave granted, Harada in tears). ch48 西昭庵 "Saishō-an" (the Yūhigaoka
+retreat above Osaka Bay; Fujiwara no Ietaka's tomb and the sunset meditation; the
+two nights with Oyuki; "danna-sama"; the morning meal, husband and wife).
+
+Notes 311–339 (29 this batch; ch44 6, ch45 7, ch46 7, ch47 6, ch48 3).
+Continuous note number now 339. Glossary 301 rows (2 added: 佐川官兵衛 Sagawa
+Kanbei [people], 伝習隊 the Denshūtai [organizations] — both new to the book, no
+cascade; each carries "section" and "pinyin" for qc_entities). 48 of 71 chapters
+translated.
+
+CHECKS — all green. Parity by make_bilingual: ch44 220, ch45 181, ch46 176,
+ch47 188, ch48 219 pairs, all exact. verify_unit numbers: 0 unresolved every
+chapter (after the noise additions below and the fixes noted). check_align,
+check_content (displacement) OK across all units. qc_entities 0 misses every
+chapter (ch46 needed 代官 "intendant" restored at one occurrence; ch48 needed
+お雪 rendered "Oyuki", not "her"/"Yuki", at two occurrences — the glossary key is
+お雪, while bare 雪 in her self-reference stays "Yuki"). check_apparatus 0/0.
+check_register --ref: ch44 em-dash 5.2/1k, ch45 9.7, ch46 10.1, ch47 12.8 (after
+converting discretionary appositive-dash pairs to commas/parentheses, down from
+17.0), all at or below the ch01 ref 12.7. ch48 flagged STILTED (contractions
+0.42x, em-dash 15.1): this is a deliberately formal intimate two-hander — Oyuki's
+crisp samurai-widow register and Toshizō's uncharacteristically earnest confession
+("more talkative than was his wont"). Per the batch rule, contractions were added
+to Toshizō's genuinely casual lines only; Oyuki's refined register and his
+confession were left as written. The multi-dash lines are all legitimate matched
+pairs or the source's ── hesitations (STYLE.md rule 1 is per-sentence). Tails
+verified against source for all five. qa_epub PASS (85 files, 339/339/339 notes).
+epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+NUMBER-CHECK / noise additions (each commented in data/noise.txt):
+- ch44: 半四郎 (Miyata Hanshirō), 八丁畷 (Hatchō-nawate).
+- ch45: 三成 (Ishida Mitsunari), 又三郎 (Hayashi Matasaburō, Gonsuke's son),
+  零時 (午前零時 midnight — the English "midnight" carries no numeral). Note: the
+  block-numbers 四丁目/二丁目/一丁目/九丁目 rendered "fourth/second/first/ninth
+  block" all PASSED; 一万 "ten thousand" passed; 二十余名 "more than twenty"
+  passed (名 is a counter, so 余 does not orphan a numeral here).
+- ch47: 千八百六十 and 一八六〇 (the Dutch drill-manual's year 1860 — the checker
+  cannot compose the kanji/full-width year, and the English carries the digits
+  "1860"). Note: 象二郎/一橋/一国一城/百世/百も/万世 all passed on existing rules
+  or as literal carried values.
+- ch48: 何百 (nanbyaku, "many hundreds" — the vague idiom, cf. 何百日). Note:
+  半刻 "half a toki", 一ツ床 "single bed", 三十四 "thirty-four", 五十年, 二夜,
+  all passed as carried values.
+
+DIGITIZATION GLITCHES: none material found in ch44–ch48 (no dittography, no
+mojibake, no mismatched guillemets in the body text of these five spine files;
+the 8 gaiji were handled at ingest). Recorded as "none present."
+
+FACT-CHECK VERDICTS (real scholarship; no LLM/Grok sources):
+- 錦の御旗 (Imperial brocade banner): CORROBORATED. Prince Ninnaji-no-miya
+  Yoshiaki was named seitō-taishōgun and granted the banner on Keiō 4/1/4
+  (28 Jan 1868); it was raised at the front on 1/5, formally making the Tokugawa
+  side 朝敵 (Court enemies). Its effect was moral, not military: waverers such as
+  the Tōdō (Tsu) domain at Yamazaki went over, and the shogunal line broke. This
+  answers the batch's banner-date/effect question (footnoted at ch45).
+- YOSHINOBU'S FLIGHT: CORROBORATED. Secret departure from Osaka Castle the night
+  of Keiō 4/1/6 (30 Jan 1868) with a small party including Matsudaira Katamori
+  (Aizu) and Matsudaira Sadaaki (Kuwana); by small boat from Hachikenya to off
+  Tenpōzan; a night aboard the US warship USS Iroquois; transfer at dawn to the
+  Kaiyō-maru, which bore him to Edo. His own commanders (Enomoto among them) were
+  not told (footnoted at ch46).
+- HAYASHI GONSUKE (Yasusada), the ch43 Aizu artillery commander: CORROBORATED as
+  killed in the Toba-Fushimi fighting (died of his wounds, early Feb 1868). His
+  refusal to be carried to the rear is in the Aizu accounts; his son Hayashi
+  Matasaburō was killed in the same fighting (footnoted at ch45).
+- Sakuma Ōmi-no-kami Nobuhisa (11th Regt) and Kubota Bizen-no-kami Shizuaki
+  (a battalion): CORROBORATED as shogunal infantry commanders who led from the
+  front and were killed/mortally wounded on the second–third days.
+- Sagawa Kanbei (1831–1877), "the Aizu ogre": CORROBORATED. Aizu Bessentai
+  captain; fought through Toba-Fushimi and the Aizu War; later a Meiji police
+  officer, killed leading a police brigade against the Satsuma rebels in the 1877
+  Seinan War (footnoted at ch44/45).
+- Ernest Satow, the Fushimi fire seen from Osaka: the eyewitness detail is from
+  his memoir (A Diplomat in Japan); CORROBORATED (footnoted at ch45).
+- Fujiwara no Ietaka / Yūhigaoka / the nissōkan sunset meditation: the tomb and
+  the sunset-contemplation tradition are as Shiba gives them; the death-poem is
+  the one attached to Ietaka by that tradition (footnoted at ch48).

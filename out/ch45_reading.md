@@ -1,0 +1,363 @@
+## The Battle of Toba-Fushimi (IV)
+
+It is so in a theater.
+
+You darken the seats and throw the light on the figures grouped upon the stage alone.
+
+For the Shinsengumi, this battlefield was exactly that.
+
+The fierce blaze of the Fushimi magistrate's office, roaring up behind them, had made stage-figures of the Shinsengumi and the Aizu troops out in the street.
+
+The Satsuma-Chōshū positions held, in tactical terms, the place of the darkened house; they could pour gun and cannon fire on the stage at will.
+
+"A hell of a fix this has turned into,"
+
+{j} and Toshizō spat the words toward the blazing office, and for the time being drew his unit together, hiding his men in the back-alleys from the fourth block of Kyōmachi down to the second, out of the "footlights."
+
+This third of the First Month was, by the solar calendar, the twenty-seventh of January. On that day the British legation secretary Ernest Satow was in Osaka. Of this young, thoroughbred Londoner too much is known already: he had come to Japan in the second year of Bunkyū as a student interpreter, had later drawn close to Satsuma and Chōshū, and with his overflowing wit and sure eye for the times had helped his superior, Minister Parkes, while giving the Satsuma-Chōshū side counsel of every kind. According to the entry for this day in Ernest Satow's "A Diplomat in Japan," "On the evening of the 27th of January a great fire was to be seen in the direction of Kyoto. When I asked Endō [Satow's attendant], he told me that at Fushimi the Satsuma and their allied forces were fighting the shogunal army." The Fushimi office fire, then, was of a size to be glimpsed from Osaka, thirteen ri away; from which one may judge how vast the "footlights" were.
+
+"Tch, rotten luck. Fifty paces more and we'd have been cutting into the enemy's own headquarters, and now look at this,"
+
+{j} and Harada Sanosuke, captain of the Tenth Unit, slid his sword back into its scabbard.
+
+Sanosuke was right: but for the fire at the magistrate's office, the night battle at Fushimi might well have gone to the shogunal army.
+
+Indeed, not this sector of the front alone: the whole Battle of Toba-Fushimi, as any famed staff-officer of any country might work it out, was, so far as map-tactics went, a fight the shogunal army ought to have won.
+
+The Satsuma-Chōshū in Kyoto were few in strength.
+
+Their reserves too were slight; they had put out every man they had. Should the front lines at Toba and at the Gokō-no-miya in Fushimi give way, the Satsuma command had gone so far as to plan a retreat, taking the Emperor with them, breaking out of Kyoto, and rising again.
+
+True, in weapons the Satsuma-Chōshū were the better.
+
+But the shogunal side too was sending up to the capital, in a steady stream, its so-called "infantry"—fully Westernized, knapsacks on their backs.
+
+In numbers, too, they were overwhelmingly the more.
+
+But they had no will to fight. They were not desperate, as the Satsuma-Chōshū were. In this too it resembled the Battle of Sekigahara, which had brought the feudal order into Japanese history. Sekigahara, schematically viewed, was no battle for the Western army to lose: they had the greater numbers and the better lie of the ground. Only, the Western army was poor in fighting spirit, and the units that worked in desperate earnest were about those of Ishida Mitsunari, Ōtani Yoshitsugu, and Ukita Hideie, and no more.
+
+On the first day of the Battle of Toba-Fushimi, likewise, the only ones who fought in deadly earnest were the Aizu clan and the Shinsengumi. And these, unhappily, were sword-and-spear troops, not Western-style units.
+
+Even the Englishman Satow sneered at the main body of the shogunal army.
+
+"A gutless crowd, for all that they command an army ten thousand strong,"
+
+{j} so he wrote. —England had early written off the shogunal retainers as poltroons and had secretly backed the design of a Japan unified under Satsuma and Chōshū; and now,
+
+{j} "our wager has not been betrayed,"
+
+{j} she thought, and was easy in her mind.
+
+Toshizō—
+
+{j} he was standing in the road. The blaze of the office to the southeast threw his figure into sharp relief.
+
+(The battle will be won.)
+
+{j} so Toshizō believed. Let him but hold to the death this carnage-ground at the very front of the shogunal line, and by tomorrow morning the Western-armed shogunal infantry would come up in force. Indeed its advance guard, the shogunal army's French-drilled Seventh Regiment, was already entering Fushimi.
+
+Happily, the allied Aizu troops, wretchedly old-fashioned in their equipment though they were, showed in full the quality of clansmen once ranked, with Satsuma, the strongest warriors in Japan; and that commander Hayashi Gonsuke, for one, though he had taken three bullets in his body, would not give a single step.
+
+And yet.
+
+Toward eight in the evening the rank-and-file corpsman Nomura Rihachi, whom Toshizō had been using as a runner, came dashing back,
+
+{j} "Our own side is falling back,"
+
+{j} he reported.
+
+"It's a lie,"
+
+{j} Toshizō bellowed, and ordered Nagakura Shinpachi, captain of the Second Unit, and others to make certain of it.
+
+Shinpachi ran west.
+
+He ran; but a part of the shogunal Seventh Regiment that had been near the first block of Ryōgaemachi was gone.
+
+Shinpachi ran further west and came out at the fourth block of Shinmachi.
+
+(Not here.)
+
+The Seventh Regiment ought to have been packed in here.
+
+(Where the devil have they got to?)
+
+{j} and Shinpachi ran south like a madman. At last, at the eastern corner of the Shōrin'in mausoleum in Fushimi, he caught up with the tail of the Seventh Regiment.
+
+"You there, the lot of you,"
+
+{j} said Nagakura Shinpachi, his face gone livid. Nagakura was, in the Ōgobangumi, a full-fledged hatamoto.
+
+Call them "infantry" if you like, but they were at bottom a crew of layabouts, footmen, and firemen conscripted by open recruitment in Edo and Osaka, so it was only natural that Nagakura should take a high and mighty tone.
+
+"Wh-where are you going?"
+
+"Don't know. The chief says run, so we run, that's all,"
+
+{j} and one of the infantrymen turned his face away. Nagakura struck him across the side of the face with all his strength.
+
+—Agh.
+
+{j} and down he went; but he was at bottom the kind of layabout who had volunteered to be a "soldier."
+
+"Wh-what the hell are you doing?"
+
+{j} and getting up, he took his rifle by the wrong end and came at Nagakura swinging. Nagakura slipped aside, kicked him down with a high kick,
+
+"Don't you know Nagakura Shinpachi of the Shinsengumi?"
+
+{j} he roared.
+
+At that they all raised a startled cry.
+
+Just then an infantry director—a shogunal retainer, an officer—came running up,
+
+{j} "Has—has he done you some discourtesy?"
+
+{j} he asked, going pale.
+
+Nagakura smacked this one too across the jaw,
+
+{j} "Discourtesy be damned. I'm asking where the Seventh Regiment is going,"
+
+{j} he said.
+
+"R-retreat,"
+
+"Retreat?"
+
+"It is the order of Lord Buzen-no-kami [Matsudaira Masatada, commander-in-chief of the shogunal army]. We fall back across the Yazaemon bridge on the Takase River, to the far side [Yokoōji village],"
+
+"The Shinsengumi have heard no such thing,"
+
+"That is your own affair, surely,"
+
+"What—"
+
+"We move by orders. What the Shinsengumi may or may not do is no concern of ours,"
+
+In a flash Shinpachi drew his sword.
+
+The director fled.
+
+By chance, just then, a Chōshū force that had been about the ninth block of Shinmachi came south and loosed a volley.
+
+Dust kicked up about their feet.
+
+The shogunal infantry broke and fled in disorder.
+
+"Tch,"
+
+Nagakura ran toward the enemy.
+
+Running from eave to eave, cutting through the townhouses, he got back at last to the Shinsengumi's rallying-point.
+
+"Hijikata-san, the infantry have turned tail,"
+
+"Oh?"
+
+{j} The one who took this in without a change of color was Sagawa Kanbei, the Aizu commander at Toshizō's side.
+
+"So they ran, did they,"
+
+{j} As though it were another's affair. His right eye had been taken by a shell-splinter; half his face was wound round with white cloth, soaked crimson through with blood. He was thirty-eight.
+
+Kanbei held six hundred koku. Later, after returning to Aizu, he fought from place to place, became head of the office of military affairs, and on the very eve of the castle's fall was made a chief retainer, taking the conduct of operations into his own hands and fighting until the castle fell. After the Restoration he took service with the Metropolitan Police, and in the Saigō rising of the tenth year of Meiji—the Seinan War—led a picked body of the police's finest swordsmen as captain of a constabulary company of the "Imperial army," charging again and again into the Satsuma forces to avenge the grudge of the Boshin campaign, until at last he fell in battle. With Hayashi Gonsuke, the commissioner of artillery, he was a man of the very type of the Aizu warrior.
+
+"Even so,"
+
+{j} Toshizō cocked his head.
+
+"The Satsuma-Chōshū are not pursuing. I take it they haven't the strength to spare for it—what do you say, Sagawa-san?"
+
+"Hijikata-san,"
+
+{j} said Sagawa Kanbei, speaking of another matter.
+
+{j} "Let us hold our ground."
+
+"Of course we shall,"
+
+{j} and Toshizō at once asked the Aizu clan to see to the sending of the wounded to the rear.
+
+On inquiry, the dead—Aizu and Shinsengumi together—came to three hundred, and the gravely wounded to about a hundred and some tens; so a nursing-party was formed at once and they were carried back.
+
+Directly after, the Satsuma-Chōshū troops came on in attack.
+
+"Cut in among them,"
+
+{j} and Toshizō, sword bared, ran north up Kyōmachi-dōri. The Shinsengumi, sixty-odd men, and behind them the Aizu troops who had stayed on under Sagawa Kanbei's command, followed after.
+
+One after another they went down under the bullets.
+
+"Run,"
+
+There was nothing for it but to plunge into the enemy.
+
+The two forces crashed together. It became a fearsome hand-to-hand fight.
+
+Toshizō, darting past and cutting, darting past and cutting again.
+
+When it came to a bared-blade melee, that was the Shinsengumi's own special art.
+
+Then the Aizu spearmen charged in, their points all leveled together.
+
+The Satsuma troops were fierce and nimble, but they had no such array of swordsmen as the Shinsengumi, and were unpracticed at close work. And then, as was the way of Satsuma men,
+
+{j} "the odds are bad,"
+
+{j} once they judged so, they had no stickiness in them. Better to run than to hang on in a losing fight—it was tactically the sounder course too—and this reasoning had been theirs from of old.
+
+In the later Seinan War, too, the Higo men who joined Saigō's army out of Kumamoto were, it is said, at their wits' end with this habit of the Satsuma men. Once the tide turned against them, they would be gone in a twinkling, so quick that by the time the Higo men noticed, there was not a single Satsuma soldier anywhere about.
+
+In this case too, a Satsuma commander in the thick of the melee
+
+{j} "Pull back, all of you,"
+
+{j} raised a single shout; and after that they scattered with a fleetness of foot so brisk you might almost call it sport.
+
+"Don't chase them,"
+
+{j} Toshizō too halted his men. His side had not the strength, either, to pursue and collide with the enemy's main body.
+
+"Fall back!"
+
+A strange sort of battle, with both armies retreating. They returned to their old rallying-place.
+
+When they got back, a messenger had come from the shogunal commander-in-chief, Matsudaira Buzen-no-kami.
+
+"We would have you fall back to the west bank of the Takase River,"
+
+{j} it ran.
+
+On Toshizō's questioning, it appeared that the shogunal Seventh Regiment, having once fallen back, had by Buzen-no-kami's order halted on the west bank of the Takase and was there throwing up a field-position with its engineers—French-style sappers.
+
+"What—I thought they'd run clear to Osaka,"
+
+{j} Toshizō said with a sneer.
+
+"Kind of you, but the Shinsengumi and Sagawa-san's Aizu men stay here,"
+
+"But you will be taken and surrounded by the enemy,"
+
+"Nonsense. If the Satsuma-Chōshū had men enough to surround us, they'd have dogged the Seventh Regiment's retreat, and the likes of you would not be alive now,"
+
+"But—"
+
+"We stay,"
+
+Toshizō sent the messenger packing.
+
+In truth the Satsuma-Chōshū in Kyoto had no reserve of strength whatever. It was the same with their war-chest: the sum scraped together from the purses of the great nobles at Court came, it is said, to a bare fifty ryō. That the commissariat of the winning side, in a battle that turned the course of history, should have had only fifty ryō of ready money on hand must be a rare thing in the history of the world. Against such an adversary, why did the shogunal army—which ought to have been the old government's army—lose?
+
+Before long a second messenger came.
+
+Again, it was
+
+{j} "Withdraw,"
+
+{j} it ran.
+
+Toshizō, finding it all absurd,
+
+{j} "Is the position on the west bank of the Takase finished?"
+
+{j} he asked.
+
+"Not yet,"
+
+"And if you're hit by a night attack while it's still building, what then?"
+
+"Well—"
+
+Toshizō burst out laughing.
+
+"We'll withdraw. Only, until the Takase position is finished, we hold here,"
+
+The hastily-thrown-up position was finished a little after midnight, and past one in the morning Toshizō and his men struck their post and drew back to the Takase position.
+
+The next day, the fourth.
+
+It was a morning of the thick fog peculiar to this water-country; the sun was up, and yet one could not see a few shaku ahead.
+
+This weather, too, was like the morning the Battle of Sekigahara began, in the ninth month of the fifth year of Keichō.
+
+Only, no rain was falling. And the cold was fierce; a thick ice had formed over the puddles.
+
+"A fog one might call Heaven's own help,"
+
+{j} Toshizō muttered, rising from a snatch of sleep.
+
+Because of the thick fog the enemy gunners could not fire, and stayed silent.
+
+What he meant by Heaven's help was the thought,
+
+{j} (Time can be bought.)
+
+{j} —so he was reckoning. The truth was that the shogunal army's Western-style Eleventh Regiment, force-marching through the night from Osaka, was by the schedule about due to arrive. Its commander was Sakuma Ōmi-no-kami Nobuhisa. A commissioner of infantry, he was, in build and in face alike, a man of a bold, open cast rare among the shogunal retainers—the very type, they say, of the old Mikawa warrior.
+
+Kubota Bizen-no-kami Shizuaki, the infantry captain who was to come up leading a separate battalion apart from Sakuma, was by no means a weak commander. Only, the battalion he led was of townsmen-soldiers hastily levied in Osaka, and among them, rumor had it, were mixed some Chōshū spies.
+
+Nay, it came out after the Meiji era that a man named Eita, groom to the Eleventh Regiment's commander Sakuma Ōmi-no-kami, had been a Chōshū spy.
+
+Seven in the morning.
+
+The shogunal soldiers these French officers had trained arrived at the field in a steady stream.
+
+"Sanosuke, the gun-men have come,"
+
+{j} Toshizō said, delighted.
+
+Eight in the morning; the fog lifts.
+
+A clear sky.
+
+In a moment the gunnery-duel of the two armies began to echo across the heaven and earth of Toba-Fushimi.
+
+The Shinsengumi, covered by the Western guns of the shogunal army's fourteen battalions, closed on Nakajima village, held by a single Satsuma unit, and, charging home with the blade, took it at a stroke.
+
+On the Osaka highroad, Sakuma Ōmi-no-kami's Eleventh Regiment pushed far forward and bore down hard on the Satsuma-Chōshū side.
+
+Toward the Yodo Yamabashi, a part of the Aizu forces—the company of Shirai Gorōdayū—advanced with two guns, and at last put the Satsuma-Chōshū troops to rout, pressing forward as far as the northern edge of Shimo-Toba, all but into the enemy's own position.
+
+The second day of the fighting was a shogunal victory, and when word of how it went reached the palace, the court nobles, it is said, lost their color and raised an uproar—that it had been rash to make an "Imperial army" of the thinly-manned Satsuma, Chōshū, and Tosa.
+
+The third day of the fighting, the fifth of the First Month, was clear again.
+
+Victory between the two armies was not easily decided; but the shogunal infantry commanders, Sakuma Ōmi-no-kami and Kubota Bizen-no-kami, having in the previous day's fighting led the charge in person at the very front, fell one after the other, and for this the shogunal army's Western-style units grew sluggish in their movements. Many companies began to break and run, and the Aizu clan and the Shinsengumi were desperate to stem their own army's retreat.
+
+Against the shogunal infantry falling back along the Yodo embankment, the Shinsengumi's Harada Sanosuke and the Aizu clansman Matsuzawa Suiemon drew their swords and barred the way,
+
+{j} "Why do you run? The battle is not lost,"
+
+{j} they roared; but in the end they could not hold them, and,
+
+{j} "Leave the guns, then—leave the guns,"
+
+{j} and seized them from the fleeing men.
+
+But already the Court, taking Satsuma, Chōshū, and Tosa to be
+
+{j} the "Imperial army,"
+
+{j} had so resolved; and because Ninnaji-no-miya had gone forth to the field as supreme commander, the Tōdō clan on the shogunal side, which was holding the fortress at Yamazaki, turned its coat, so that the shogunal army fell into a case of being taken between two fires. In dread of that, the weakest of the shogunal army's troops, the infantry, were the first to break and run.
+
+On top of this, the various clans that had kept neutral in Kyoto,
+
+{j} at the word "The brocade banner is raised,"
+
+{j} joined the Satsuma-Chōshū line, and this came to the shogunal army swollen in the telling.
+
+The Aizu and Kuwana clans and the Shinsengumi had, in the local fighting, won something like six parts in ten of the day; but as afternoon came they were dragged along at last by the rout of the main body.
+
+That day Toshizō, keeping in hand his corpsmen—dwindled at last to thirty—called the shogunal infantry director to him at the Senbon-matsu on the Yodo embankment,
+
+{j} "Let us fight one last fight,"
+
+{j} he pledged, and, sword swinging, charged up the road.
+
+But those who came after him were, besides the Shinsengumi, only a few men led by the Aizu survivor Hayashi Matasaburō—Gonsuke's son, who fell on this road—and no more, it is said.
+
+Toshizō withdrew to Osaka.
+
+In Osaka, aswarm with routed troops, an astonishing fact was waiting for him.

@@ -1062,6 +1062,12 @@
       "pinyin": "Hayashi Gonsuke",
       "status": "decided",
       "note": "Hayashi Gonsuke (Yasusada), the 63-year-old Aizu commissioner of artillery who commanded the Aizu contingent at Fushimi; killed in the fighting there."
+    },
+    "佐川官兵衛": {
+      "en": "Sagawa Kanbei",
+      "pinyin": "Sagawa Kanbei",
+      "status": "decided",
+      "note": "Aizu senior retainer, nicknamed the Aizu ogre; captain of the han's Bessentai. Full note at ch44."
     }
   },
   "places": {
@@ -1672,6 +1678,12 @@
       "pinyin": "Goryō-eji",
       "status": "attested",
       "note": "&#8216;Guards of the Imperial Tomb&#8217;: the loyalist band It&#333; formed on breaking with the Shinsengumi in 1867, given the charge of tending Emperor K&#333;mei&#8217;s grave at Senny&#363;-ji."
+    },
+    "伝習隊": {
+      "en": "the Denshūtai",
+      "pinyin": "Denshūtai",
+      "status": "decided",
+      "note": "The shogunate's French-drilled infantry corps. Full note at ch44."
     }
   },
   "terms": {

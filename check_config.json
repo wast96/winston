@@ -43,7 +43,12 @@
     "ch40": "out/ch40_reading.md",
     "ch41": "out/ch41_reading.md",
     "ch42": "out/ch42_reading.md",
-    "ch43": "out/ch43_reading.md"
+    "ch43": "out/ch43_reading.md",
+    "ch44": "out/ch44_reading.md",
+    "ch45": "out/ch45_reading.md",
+    "ch46": "out/ch46_reading.md",
+    "ch47": "out/ch47_reading.md",
+    "ch48": "out/ch48_reading.md"
   },
   "sources": {
     "ch01": "data/zh/ch01.txt",
@@ -88,7 +93,12 @@
     "ch40": "data/zh/ch40.txt",
     "ch41": "data/zh/ch41.txt",
     "ch42": "data/zh/ch42.txt",
-    "ch43": "data/zh/ch43.txt"
+    "ch43": "data/zh/ch43.txt",
+    "ch44": "data/zh/ch44.txt",
+    "ch45": "data/zh/ch45.txt",
+    "ch46": "data/zh/ch46.txt",
+    "ch47": "data/zh/ch47.txt",
+    "ch48": "data/zh/ch48.txt"
   },
   "notes": "notes.json",
   "heading_depth": 1

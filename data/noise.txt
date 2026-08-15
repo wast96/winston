@@ -318,3 +318,22 @@
 元三郎
 # Ishikawa Hyappei — shogunal infantry director (石川百平); 百 is part of the given name, not the count 100
 百平
+# ── B10 additions (ch44) ──
+# Miyata Hanshirō — Chōshū platoon commander (宮田半四郎); 四 is part of the given name 半四郎, not the count 4
+半四郎
+# Hatchō-nawate — Fushimi place name (八丁畷); 八 is part of the name "eight-chō causeway", not the count 8
+八丁畷
+# ── B10 additions (ch45) ──
+# Ishida Mitsunari — Sekigahara Western-army commander (石田三成); 三 is part of the given name 三成, not the count 3
+三成
+# Hayashi Matasaburō — Gonsuke's son, killed at Yodo (林又三郎); 三 is part of the given name 又三郎, not the count 3
+又三郎
+# reiji = midnight, "zero hour" (午前零時); 零 is the clock label, the English "midnight" carries no numeral
+零時
+# ── B10 additions (ch47) ──
+# the Dutch drill-manual's year, 1860 (千八百六十年式 / 一八六〇年度); the checker cannot compose the kanji/full-width year into one value, and the English carries the digits "1860"
+千八百六十
+一八六〇
+# ── B10 additions (ch48) ──
+# nanbyaku = "many hundreds, hundreds of" (何百という寺院); 百 is the vague idiom, not the count 100 (cf. 何百日)
+何百
