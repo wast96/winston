@@ -1987,3 +1987,143 @@ brigades, "about a thousand," etc.
 - `data/noise.txt` — B15 block (see above); 三、五十 slotted into the elided-tens block.
 - `glossary.json` — 19 rows added by hand; the 掌故→"Zhanggu" common-noun key REMOVED.
 - `notes.json` — 8 notes appended via apparatus_merge.py (numeric character references).
+
+## Batch B16 — ch22 (Part Three, Chapter 2: "Renown Won in a Hundred Battles")
+
+**Unit:** ch22 = 第二章 春云乍展风雷初动 "Chapter 2. Spring Clouds Unfurl, the First
+Thunder Stirs." The SECOND Shanghai chapter and the LONGEST unit yet (~35,471 source
+chars, half again as long as ch21). The Shanghai District's first sanction operations of
+1940 get under way: (1) the deterrent sanction of the French police chief inspector Cheng
+Haitao (18 Oct 1939), after Dai Li's stinging "timid as a mouse" telegram; (2) fresh
+internal trouble (the DDS Café near-kidnapping from Zheng Xiuyuan's memoir; the legendary
+turncoat Wan Lilang walking into No.76; the mysterious official "Secretary Geng" Geng
+Jiaji); (3) personnel and funds (Wang Yixin removed; Chen's childhood friends Qi Qingbin
+and Zhang Zuoxing installed as secretary and radio inspector; Dai's refusal of Hu
+Yongquan's bank offer); (4) the reunion with the "international spy" Fan Xing / Fan Jiman
+and the New Group One order of battle and work lines; (5) a long essay on the Juntong's
+manner, iron discipline, power of life and death, and moral conscience, closing with the
+Christmas 1939 Weldon Dance Hall sanction of Chen Dirong and He Xingjian, the Wang Tianmu
+riddle, and the new plan to strike armed Japanese. Ends on the serialization coda
+"(第三章完，下期续载)".
+
+### Structure (confirmed p-by-p against the source XHTML)
+- `index_split_000_0021.xhtml` parses to **1 `<h2>` + 292 `<p>`**, NO `<h1>`, NO `<br/>`,
+  NO `<img>`. drop=2 (running header 英雄无名-陈恭澍 + `<h2>` chapter title).
+- **THREE mid-phrase merges** where a source `<p>` boundary severs one sentence (first ends
+  non-terminal; no chains): L31/32 (…有关人士 | 有以指教。), L221/222 (…笔者敢于如此肯 |
+  定，是体验… ; 肯定 split), L279/280 (…立即避 | 入了女用洗手间，得脱此难。; 避入 split).
+- **THREE standalone couplet sub-headings** (NO number prefix, cf. ch11/ch14/ch21): L3
+  一警百清除障碍以展示威力, L40 一波未平一波又起内部又出祸害, L64 人事经费时常困扰着陷区单位.
+- **TWO glued sub-headings** fused onto a paragraph tail: L108 (…反而不去动脑筋了。 +
+  异地重逢又展开一场曲境探幽), L202 (…分出来另做记述。 + 从铁的纪律生杀权限说到道德观念,
+  which L203-L204 then enumerate as 作风风气/铁的纪律/生杀权限/道德观念).
+- L215 (…谈谈我们的纪律) and L250 (…要多杀几个发动侵略战争的日本人) each end with a dropped
+  full stop; both are short prose paragraphs (new topic follows), NOT headings and NOT
+  splits. The ：/─-ended lead-ins, the 一、-三、 / 1- enumerated items (rendered as ordinary
+  paragraphs, per parity), the roster lines (L183-185), and the 「」/『』 dialogue lines are
+  DELIBERATE separate `<p>` (NOT merged).
+- **No source note markers:** grep `\[\d+\]` returns none (consistent through B15).
+- **No images** in the unit (confirmed).
+- clean_batch.py: `ch22: 286 body paragraphs, 5 sub-headings, source conserved OK`.
+
+### Checks (all green for ch22; pre-existing artifacts unchanged)
+- `verify_unit.py ch22`: parity **286/286**, numbers **0 unresolved** (auto noise), anchors ok.
+- `check_align.py ch22`: 286/286, **median ratio 4.70 en/han**, no pair strays > 2.2x
+  (document-heavy chapter; within the expected band).
+- `check_structure.py`: ALL STRUCTURAL CHECKS PASS; anchors **225 notes, 0 unresolved**;
+  headings level positions OK.
+- `check_content.py`: **ch22 201 name occurrences, all in the paired paragraph (0 displaced).**
+  Four initial displacements were all glossary-key alignment (rendering the keyed form):
+  杜美路 "Route Doumer" (was "Doumer Road"), 羊皮巷 "Yangpi Lane" (was "Sheepskin Lane"),
+  连谋 "Lian Mou" (was "Lianmou"), 鸡泽县 "Jize County" (glossary en capitalized to match).
+  Known pre-existing artifacts unchanged: ch08 Shunde ×3, ch13 Miss Nguyen/Oya Kusuo/Yuan
+  Haowen ×9.
+- `qc_entities.py` (reconstructed bilingual, 286 pairs): **entity misses: 0.** 督察 aligns to
+  glossary "inspector"; census tops 制裁 ×40, 万里浪 ×25, 王天木/马河图 ×22.
+- `check_register.py --ref`: **within tolerance.** shall 36% (Chen's deliberate essayistic
+  narration, cf. ch21 33% / B12 43%; verified narration not dialogue, do NOT de-formalize),
+  contractions 0.3, em-dash 7.8/1k (ref 8.3), rhythm CV 0.64 (ref 0.60).
+- Tail verified against the source (rule 4 corollary; critical on a 35k single-pass unit):
+  the plan points L282-284, the Jiang-Anhua/Bi-Gaokui exchange L285, and the coda L286.
+- Build: `22 of 43 chapters, 225 notes`. `qa_epub.py` PASS (225 refs/bodies/backlinks).
+  **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.**
+
+### Glossary rows added BY HAND (29; sectioned file; every row has `pinyin`)
+People. `provisional` (romanization mine): 程海涛 Cheng Haitao, 耿嘉基 Geng Jiaji (courtesy
+Jizhi, "Secretary Geng"), 王一新 Wang Yixin, 马河图 Ma Hetu, 岳清江 Yue Qingjiang, 丁寳龄
+Ding Baoling, 何行健 He Xingjian (+ alias 何天风 He Tianfeng), 汪秋芳 Wang Qiufang (+ cover
+汪芳 Wang Fang), 田淑君 Tian Shujun, 傅胜蓝 Fu Shenglan, 丁文蕙 Ding Wenhui, 俞叶封 Yu
+Yefeng, 傅炳宸 Fu Bingchen, 邵飘萍 Shao Piaowei (action man; namesake of the journalist),
+张圣才 Zhang Shengcai, 陈默 Chen Mo, 赵刚义 Zhao Gangyi, 钱人龙 Qian Renlong, 伊凡诺夫 Ivanov,
+范纪曼 Fan Jiman (alias of Fan Xing). `attested`: 虞洽卿 Yu Qiaqing, 贺耀组 He Yaozu
+(figurehead Bureau director), 褚民谊 Chu Minyi, 万墨林 Wan Molin, 傅式说 Fu Shishuo (source
+misprints 傅 as 传), 顾兰君 Gu Lanjun (film star), 杨虎 Yang Hu.
+REUSED (already keyed, consistent): 范行 Fan Xing, 王天木 Wang Tianmu, 齐庆斌 Qi Qingbin,
+张作兴 Zhang Zuoxing, 胡永荃 Hu Yongquan, 陈第容/陈明楚 Chen Dirong/Chen Mingchu, 郑介民
+Zheng Jiemin, 陈三才 Chen Sancai, 彭雅萝 Peng Yaluo, 毕高奎/黄志远/朱啸谷/刘原深/蒋安华/吉震苍/
+刘时雍/万里浪 (the B15 order-of-battle), 张啸林/周佛海/丁默邨/李士群/杜月笙/戴笠/汪精卫.
+GLOSSARY-KEY DISCIPLINE upheld: no common-noun or book-title keys; periodicals (新申报) and
+books (沪上往事) go to notes/inline, not the glossary.
+
+### Notes added (7; first-appearance-disciplined; cumulative 225)
+1. **条子 / gold bars** (Shanghai reckoned large sums in gold ingots; ten bars for a phone
+   number; the same currency as the "key money" for a flat). 2. **GPU** (the Soviet secret
+   police; byword for ruthless clandestine training; cf. the ch06 Cheka note). 3. **邵飘萍**
+   the journalist (1886-1926, shot by Zhang Zuolin; the action man of the same name is a
+   different person, as the source flags). 4. **匈奴未灭，何以家为** (Huo Qubing's vow;
+   justifies the Juntong marriage ban). 5. **为山九仞，功亏一篑** (Book of Documents allusion
+   in Dai's telegram). 6. **万墨林 / 沪上往事** (Du Yuesheng's manager and his memoir, quoted
+   on Yu Yefeng). 7. **the Badlands (歹土)** the western-Shanghai extra-settlement no-man's
+   land of casinos and puppet gunmen.
+**NOT re-noted (already covered):** the French Concession / International Settlement (ch04),
+Du Yuesheng / the Green Gang (ch04/ch17), the Blue Shirt Society + Renaissance Society /
+Lixingshe (ch05/ch08), the Juntong (org), 制裁 "sanction" (term), No.76 / 特工总部 /
+Li Shiqun / Ding Mocun (ch04/ch17), the 抗日杀奸团 / Kang Corps (ch02/ch11), 忠义救国军
+(ch21), 越界筑路 (ch21), 法币 (ch21), 亭子间 / 白相人 (ch21), the East Hebei Autonomous
+Government (ch09), the Cheka (ch06), Whampoa (ch05), the Republican calendar convention.
+
+### Digitization glitches (rendered to plain sense; LISTED, none footnoted — mechanical)
+- **STRAY 杀 title glitch:** the `<h2>` reads 第二章 春云乍展风雷初动**杀**; the 杀 is fused
+  onto the couplet title (properly 春云乍展／风雷初动). Dropped in clean_batch.py; book.json
+  title_en is already clean and is used for the visible heading.
+- **Coda 第三章完:** the serialization coda reads "(第三章完，下期续载)" where ch21's correct
+  coda read 第一章完 for the book's Ch1; this is book Ch2, so the 三 is a 三-for-二 glitch.
+  Rendered to plain sense "(End of Chapter Two, to be continued in the next issue.)"; the
+  第三章完 numeral is NOISED so the check does not demand a match.
+- 传式说 → 傅式说 "Fu Shishuo" (传→傅; the correct 傅 appears at 傅某 nearby).
+- 天王木 → 王天木 "Wang Tianmu" (character transposition, L257).
+- 化石陈明楚 → 化名陈明楚 "cover name Chen Mingchu" (石→名, L266).
+- 工共租界 → 公共租界 "International Settlement" (工→公, L273).
+- 众失之的 → 众矢之的 "the target of all the arrows" (失→矢, L285).
+- 愚原路 → 愚园路 "Yuyuan Road" (原→园, L268).
+- 万先失 → 万先生 "Mr. Wan" (失→生, L225; NOISED as 万先失).
+- 予以制的命令 → 予以制裁的命令 "an order to sanction" (dropped 裁, L225).
+- 上级随即下拿下令 → 随即下令 "at once sent down an order" (dittography 拿下, L221).
+- 此来番沪 → 返沪 "on this trip to Shanghai" (番→返, L196); 外文部长 → 外交部长 "minister of
+  foreign affairs" (文→交, L196).
+- 贪赎重罪 → 贪渎 "the grave charge of corruption" (赎→渎, L48).
+- **Source name inconsistency (NOT a glitch of ours; preserved faithfully):** the innocent
+  bystander is 刘恒 at L266, 刘桓 then 刘恒 at L272. Rendered "Liu Heng" / "Liu Huan (on
+  inquiry)" / "Mr. Liu Heng" exactly as the source varies.
+None is genuine reading uncertainty, so none is footnoted (per policy).
+
+### data/noise.txt — B16 block appended (each entry commented)
+Idiom/name/glitch numerals stripped (SOURCE numerals only; every real value carried in the
+English and matched): **万想不到** (10000 idiom), **万千** (myriad), the bare-surname Wan
+forms **万有何 / 万队 / 万答 / 万逆 / 万与** (Wan Lilang named by 万 alone), **万墨林** and
+**万先失** (Wan Molin), **外八字** (splay-footed, 八), **合十** (palms-together, 十),
+**不三不四** (disreputable, 3/4), **两个钱** (a bit of money, 两), **八旬** (in one's eighties;
+the checker cannot read 旬), and the coda glitch **第三章完** (三-for-二). Real quantities
+CARRIED (checker matched): 五点四十分 "five-forty", 十二点 "twelve"/"midnight", 两百/一百
+"two hundred"/"one hundred", 二人/二兄/三人/三位 rendered "the two"/"both"/"the three",
+京沪/平津两地 "both …", 三时三十分 "half past three, three-thirty", 两个礼拜 "two weeks",
+三千元 3,000 yuan, 五十万圆 five hundred thousand yuan, the 28th/29th/30th/32nd-year dates,
+八年前 eight years, and the Oct-18 / Dec-8 / Dec-25 / Jan-14 / Feb-26 operation dates.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch22 spec added (drop=2; 3 merges; 3 standalone + 2 glued
+  sub-headings; the clean couplet title, 杀 dropped). Source-conservation check passes.
+- `data/noise.txt` — B16 block (see above).
+- `glossary.json` — 29 rows added by hand (all with `pinyin`); 鸡泽县 en capitalized to
+  "Jize County" (place, ch22-only, safe).
+- `notes.json` — 7 notes appended via apparatus_merge.py (numeric character references).

@@ -381,6 +381,47 @@ UNITS = {
         "glued": {},
         "standalone": [3, 37, 82, 112],
     },
+    "ch22": {
+        "file": "23_index-split-000-0021.txt",
+        "title": "第二章 春云乍展风雷初动",   # the stray 杀 fused onto the source
+        # <h2> (第二章 春云乍展风雷初动杀) is a digitization glitch, dropped here;
+        # book.json title_en is already clean. The couplet is 春云乍展／风雷初动.
+        "drop": 2,             # running header + <h2> chapter title
+        # 292 source <p> (proven p-by-p against the source XHTML: 1 <h2> + 292
+        # <p>, zero mismatches; no <h1>, no <br/>, no images, no [\d+] note
+        # markers). THREE mid-phrase splits where the source <p> boundary severs
+        # one sentence (first ends non-terminal, no chains): L31/32 (…知道这件事
+        # 的有关人士 | 有以指教。), L221/222 (…笔者敢于如此肯 | 定，是体验… — 肯定
+        # split), L279/280 (…王先生…立即避 | 入了女用洗手间，得脱此难。— 避入 split).
+        # The ：-ended lead-ins (L17 …其经过概略是这样的：, L41 …原文如下：, L45 …
+        # 补充说明如下：, L100 …其原文如下：, L128 …几项约定：, L146 …作分析判断：,
+        # L179 …的阵容：, L192 …情报来源：, L220 …大致如下：, L224 …作为说明：, L289
+        # …几项要点：), the ─-ended dash lead-ins (L7 …我猜─, L46 …略述其大概──, L183
+        # …有如下者─), the 一、-三、 / 1- enumerated items, the roster lines (L184/
+        # L185), and the 「」/『』-closed dialogue lines are DELIBERATE separate <p>
+        # and are NOT merged (cf. ch21). L215 (…谈谈我们的纪律) ends on 律 with the
+        # source's 。 dropped — a short prose transition INSIDE the L202 section,
+        # NOT a heading and NOT a split; rendered as its own paragraph. L250 (…
+        # 要多杀几个发动侵略战争的日本人) also ends with a dropped 。 — its own
+        # paragraph (new topic follows at L251), NOT a split.
+        # WATCH: the serialization coda "(第三章完，下期续载)" is glued to the tail of
+        # L294 — a magazine-installment seam (cf. ch21's "(第一章完下期续载)"). Its
+        # "第三章" is off-by-one from ch21's correct 第一章完 for the book's Ch1, so
+        # the 三 is a 三→二 glitch (this is book Ch2); rendered to plain sense as
+        # "Chapter Two" in the reading text and listed in PROGRESS.
+        "merges": [(31, 32), (221, 222), (279, 280)],
+        # three couplet-style standalone sub-headings (NO number prefix; cf.
+        # ch11/ch14/ch21), each its own plain <p> in the source: L3 一警百清除障碍
+        # 以展示威力, L40 一波未平一波又起内部又出祸害, L64 人事经费时常困扰着陷区单位.
+        # TWO glued sub-headings fused onto a paragraph tail: L108 …反而不去动脑筋了。
+        # + 异地重逢又展开一场曲境探幽, L202 …分出来另做记述。+ 从铁的纪律生杀权限说到
+        # 道德观念 (which L203-L204 then enumerate as 作风风气/铁的纪律/生杀权限/道德观念).
+        "glued": {
+            108: "异地重逢又展开一场曲境探幽",
+            202: "从铁的纪律生杀权限说到道德观念",
+        },
+        "standalone": [3, 40, 64],
+    },
 }
 
 

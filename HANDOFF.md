@@ -11,21 +11,19 @@ and do not touch it afterward.
 ## Message to paste into the next chat
 
 ```
-Nameless Heroes B16
+Nameless Heroes B17
 
-Read CLAUDE.md in full (the working rules at the top are non-negotiable), then HANDOFF.md, then book.json. We are translating 英雄无名 (Nameless Heroes) by Chen Gongshu, a Nationalist/Juntong secret-service memoir, from a digital EPUB (source.epub) into an annotated English EPUB, following CLAUDE.md exactly. Work ONLY on branch claude/nameless-heroes; expect the harness to start you on a stray per-task branch and consolidate per CLAUDE.md rule 2 (check out claude/nameless-heroes, reset to origin, carry over any stray commits, delete the stray local and remote). Deliverable: out/nameless-heroes.epub. Run ./setup.sh once (its ONE failing regression test, "hook stands down on template stub", is a KNOWN false alarm; all others pass), then re-ingest with scripts/ingest_epub.py source.epub (data/src is gitignored/regenerable). B01 (front matter, ch01-ch05), B02 (ch06), B03 (ch07), B04 (ch08), B05 (ch09), B06 (ch10 preface + ch11), B07 (ch12), B08 (ch13), B09 (ch14), B10 (ch15), B11 (ch16), B12 (ch17), B13 (ch18 + ch19), B14 (ch20) and B15 (ch21) are DONE; the voice gate is PASSED and the FROZEN register reference is reference/B01_frozen.md. Do NOT re-do them. PART TWO ("Disgrace at Hanoi") is COMPLETE; PART THREE ("Renown Won in a Hundred Battles" / 百战声威) is under way (ch20 self-preface + ch21, the first Shanghai chapter). The EPUB now holds 21/43 chapters, 218 notes.
+Read CLAUDE.md in full (the working rules at the top are non-negotiable), then HANDOFF.md, then book.json. We are translating 英雄无名 (Nameless Heroes) by Chen Gongshu, a Nationalist/Juntong secret-service memoir, from a digital EPUB (source.epub) into an annotated English EPUB, following CLAUDE.md exactly. Work ONLY on branch claude/nameless-heroes; expect the harness to start you on a stray per-task branch and consolidate per CLAUDE.md rule 2 (check out claude/nameless-heroes, reset to origin, carry over any stray commits, delete the stray local and remote). Deliverable: out/nameless-heroes.epub. Run ./setup.sh once (its ONE failing regression test, "hook stands down on template stub", is a KNOWN false alarm; all others pass), then re-ingest with scripts/ingest_epub.py source.epub (data/src is gitignored/regenerable). B01 (front matter, ch01-ch05), B02 (ch06), B03 (ch07), B04 (ch08), B05 (ch09), B06 (ch10 preface + ch11), B07 (ch12), B08 (ch13), B09 (ch14), B10 (ch15), B11 (ch16), B12 (ch17), B13 (ch18 + ch19), B14 (ch20), B15 (ch21) and B16 (ch22) are DONE; the voice gate is PASSED and the FROZEN register reference is reference/B01_frozen.md. Do NOT re-do them. PART TWO ("Disgrace at Hanoi") is COMPLETE; PART THREE ("Renown Won in a Hundred Battles" / 百战声威) is under way (ch20 self-preface + ch21/ch22, the first two Shanghai chapters). The EPUB now holds 22/43 chapters, 225 notes.
 
-Do Batch B16 = ch22 (ONE unit, ~35,471 source chars - the SECOND Shanghai chapter and the LONGEST unit yet, half again as long as ch21): ch22 = 第二章 春云乍展风雷初动 "Chapter 2. Spring Clouds Unfurl, the First Thunder Stirs" - the Shanghai District's first sanction operations of 1940 get under way. Read the tail of ch21 English (out/ch21_reading.md ends by previewing exactly this: at P152-P154 the reorganized District completes "its first action case of a deterrent effect" by mid-October, the Fourth-Brigade deputy Wan Lilang defects to No.76, and the "mysterious international-spy figure" reappears to open a new "intelligence war"; P293-P294 of the ch22 source already name 蒋安华 Jiang Anhua and 毕高奎 Bi Gaokui trading views on a plan submitted "early in the twenty-ninth year") and ch21/ch18 for register + story continuity. Run it end to end per the CLAUDE.md pipeline, to completion (no approval gate):
-1. Read ch22 from data/src (23_index-split-000-0021.txt). CONFIRM structure against data/src_epub/OEBPS/Text/index_split_000_0021.xhtml [parses to 1 <h2> + 292 <p>, NO <h1>, NO <br/>, NO <img>]. drop=2 (running header 英雄无名-陈恭澍 + <h2> chapter title). The txt has 294 lines (L1 header + L2 <h2> + 292 body lines) vs 292 <p> - a FIRST PASS suggests 1:1, so GREP p-by-p and DERIVE any merges (last char not in 。！？」』）…—; a source <p> boundary that severs one sentence merges, and can CHAIN), the glued {} and the standalone []. WATCH the SUB-HEADING style: L3 一警百清除障碍以展示威力 looks like the opening COUPLET sub-heading (NO number prefix, cf. ch11/ch14/ch21); a first pass found NO (一)-style numbered parens - confirm p-by-p and place every couplet sub-heading as a `standalone`. Treat 』-closed dialogue, ：/-ended lead-ins, 一、/1- enumerated items, and roster lines as DELIBERATE separate <p> (do NOT merge; cf. ch21). GREP the source for note markers (\[\d+\]) and record "none present" (none through B15).
-   STRAY-杀 TITLE GLITCH (flagged since the survey): the source <h2> reads 第二章 春云乍展风雷初动杀 - the trailing 杀 is EXTRANEOUS (a digitization glitch fused onto the couplet title, which is properly 春云乍展／风雷初动). book.json title_en is already clean ("Chapter 2. Spring Clouds Unfurl, the First Thunder Stirs"); the reading.md ## uses title_en. In clean_batch.py ch22's `title` field is dropped (drop=2) and stripped by the checks, so it is apparatus only - use the clean couplet (drop the 杀) there and LIST the 杀 glitch in PROGRESS.md (a mechanical title typo, rendered to plain sense, not footnoted). Confirm the last body line (L294 …预计一周左右即可获得) is the true chapter end or a mid-sentence source cut, and preserve faithfully.
-2. Extend scripts/clean_batch.py with ch22's spec (drop=2; merges/glued/standalone as derived). Run it (source-conservation check). Write out/ch22_reading.md (## from book.json title_en; one English paragraph per source body line; couplet sub-headings as ### ; any inner enumerated list #### per ch13 precedent). Then run scripts/batch_artifacts.py ch22, and ALWAYS finish with a NO-ARG run (the batch_artifacts.py trap: an ID-run writes checks.json with ONLY that unit; the no-arg run restores all 22 units so check_structure/check_content see them).
-3. Translate to the FROZEN register (Chen's voice sheet in HANDOFF; narrative ~4.55-4.78 en/han, but a document-heavy chapter runs higher - ch21 measured 4.89 with its long quoted memoirs; read the note, do not reset). Consult glossary.json and authority.json BEFORE romanizing anything; REUSE the settled Part-Three renderings (all now keyed with pinyin): 上海区 "the Shanghai District"; 区长 "District Chief"; the Juntong; 制裁 "sanction"; 督察 "inspector" (align common-noun terms to the glossary - the qc_entities gate); 敌伪 "the enemy and the puppets"; 汪伪 "Wang puppets"; 忠义救国军 "the Loyal and Patriotic Army"; 特工总部/七十六号 "Special Operations Headquarters"/"No. 76" (丁默邨/李士群, NOTED - do NOT re-note); 抗日杀奸团/抗团 "Anti-Japanese Traitor-Killing Corps"/"Kang Corps" (NOTED ch02/ch11). Shanghai CAST now keyed (B15): 郑修元 Zheng Xiuyuan, 陈第容/陈明楚 Chen Dirong/Chen Mingchu, 黄志远 Huang Zhiyuan, 赵理君 Zhao Lijun (cover 凌秋云 "Ling Qiuyun"), 毛万里 Mao Wanli, 刘原深 Liu Yuanshen, 蒋安华 Jiang Anhua, 吉震苍 Ji Zhencang, 毕高奎 Bi Gaokui, 孙大成 Sun Dacheng, 万里浪 Wan Lilang, 萧杰英/萧张权 the Xiao siblings, 张璜 Zhang Huang, 潘绍岳 Pan Shaoyue, 杜月笙 Du Yuesheng (NOTED ch17), the eight action brigades and five intelligence groups. Give pinyin fields for EVERY new name and check authority.json/glossary first. Render Republican years literally ("the twenty-ninth year"; the checker matches the source numeral).
-   WATCH ch22's digitization glitches (list in PROGRESS.md, render to plain sense, footnote only real reading uncertainty): the same single-character-substitution / homophone / dropped-punctuation classes seen ch15-ch21 (先↔光, 卫→术, 汪→江, 文↔交, 员→负, 板→扳, 从→徙, 该→孩, 困→因, 科→料, 综→踪, 局→昂, 为→伪, 买→真, 处→书, 问→间, 捉→提, 僧→憎, 隐→稳, 接二连二 for 接二连三, dropped 。, etc.) plus the STRAY 杀 title glitch above. Dates/counts: carry real values as DIGITS / explicit words; NOISE only elided-tens / approximate / name-embedded / idiom forms - add a commented B16 block to data/noise.txt if needed (the elided-tens block is ordered LONGEST-FIRST; keep any new compound BEFORE the bare form it contains; a project noise entry can be PRE-EMPTED by an earlier substring rule; name-numeral glyphs like 万-in-a-name and bare 万里/万兄 must come AFTER the longer forms).
-4. Checks: verify_unit.py ch22 (parity + numbers with --noise auto-found + anchors); check_align.py ch22; regenerate checks.json with scripts/batch_artifacts.py (no args) and run check_structure.py --config checks.json + check_content.py --config checks.json (NOTE: check_content prints KNOWN PRE-EXISTING artifacts and exits nonzero because of them - now just ch08 Shunde ×3 and ch13 Miss Nguyen/Oya Kusuo/Yuan Haowen ×9 (ch07 Zhanggu is GONE, resolved in B15 by removing the 掌故 common-noun key); CONFIRM ch22 itself shows "all in the paired paragraph" / 0 displaced. Do NOT add book-TITLE glossary rows keyed on full hanzi, and do NOT add COMMON-NOUN keys - a glossary key must be a distinctive proper noun that renders ONE way everywhere, and must not occur in another chapter with a different rendering; periodicals/books go to FOOTNOTES, not the glossary). qc_entities.py on a reconstructed bilingual (data/zh body lines + out/ch22_en.json, `> zh` / en pairs, strip the ### heading lines; every glossary row needs a pinyin field - and align any common-noun term to its glossary-decided rendering, e.g. 督察 "inspector"). Verify the TAIL against the source (rule 4 corollary - CRITICAL on a 35k-char single-pass unit, the longest yet). check_register.py --ref reference/B01_frozen.md out/ch22_reading.md ("shall" in Chen's narration is deliberate - read the note, do not de-formalize; ch21 ran 33%).
-5. Footnotes per the reader model, first-appearance-disciplined with the greps and the NOT-re-noted ledger (the full list is in PROGRESS.md). A Shanghai sanction-operation chapter earns notes for NEW places / institutions / persons / methods / customs the reader would miss; the concessions, Du Yuesheng/Green Gang, the Juntong, 制裁, 忠义救国军, No.76, the Kang Corps, 越界筑路, 法币, the Republican calendar are all covered - do NOT re-note. Be generous but do NOT pad. Merge notes via apparatus_merge.py (numeric character references only in note bodies; anchors verbatim ASCII substrings of the reading.md body text, NO em dash and NO quote/apostrophe character - substring traps; multi-occurrence anchors attach at first occurrence). Add glossary rows BY HAND into the sectioned glossary.json (idempotent + re-read-verified, every row with a pinyin field; apparatus_merge's glossary path assumes a FLAT map and would corrupt the sectioned file - use it ONLY for notes). Confirm whether ch22 carries images (ch21 had none; ch22's XHTML has NO <img> - confirm).
-6. Rebuild the EPUB (scripts/build_reading_epub.py), qa_epub.py until green, epubcheck if available (jar at /tmp/epubcheck-5.1.0/epubcheck.jar; re-run setup.sh per session); record all check results in PROGRESS.md; update HANDOFF.md; commit and push to claude/nameless-heroes. (next is B17 = ch23, the third Shanghai chapter.)
+Do Batch B17 = ch23 (ONE unit, ~534 source chars, a SHORT framing chapter, the shortest since ch19): ch23 = 第三章 爱国情操 道德规范 "Chapter 3. Patriotic Spirit, Moral Bounds" - a brief bridge that names the Shanghai District's "three-sided enemy" (concession police, the Shanghai Japanese Gendarmerie, and No.76) and previews the two chapters to come, closing on the Yu Yefeng (俞叶封) sanction that ch22 promised to recount. Read the tail of ch22 English (out/ch22_reading.md; ch22 ended with the moral-conscience essay, the Christmas 1939 Weldon Dance Hall sanction of Chen Dirong/He Xingjian, the Wang Tianmu riddle, and the new plan to strike armed Japanese; it names 俞叶封 Yu Yefeng, sanctioned 14 Jan 1940, "recounted in the next chapter") and ch22/ch21 for register + story continuity. Run it end to end per the CLAUDE.md pipeline, to completion (no approval gate):
+1. Read ch23 from data/src (24_index-split-000-0022.txt). CONFIRM structure against data/src_epub/OEBPS/Text/index_split_000_0022.xhtml [parses to 1 <h2> + 8 <p>, NO <h1>, NO <br/>, NO <img>]. drop=2 (running header 英雄无名-陈恭澍 + <h2> chapter title). The txt has 10 lines (L1 header + L2 <h2> + 8 body lines L3-L10) vs 8 <p> - CONFIRMED 1:1, no merges (L4-L10 all end on terminal punctuation). L3 初生之犊组成了一枝生力军 is the opening COUPLET sub-heading (NO number prefix, cf. ch11/ch14/ch21/ch22) - place it as a `standalone`. L4-L10 are 7 body paragraphs. GREP the source for note markers (\[\d+\]) and record "none present" (none through B16).
+2. Extend scripts/clean_batch.py with ch23's spec (drop=2; merges=[]; glued={}; standalone=[3]). Run it (source-conservation check; expect "ch23: 7 body paragraphs, 1 sub-headings, source conserved OK"). Write out/ch23_reading.md (## from book.json title_en "Chapter 3. Patriotic Spirit, Moral Bounds"; one English paragraph per source body line; the couplet sub-heading L3 as ### ). Then run scripts/batch_artifacts.py ch23, and ALWAYS finish with a NO-ARG run (the batch_artifacts.py trap: an ID-run writes checks.json with ONLY that unit; the no-arg run restores all 23 units so check_structure/check_content see them).
+3. Translate to the FROZEN register (Chen's voice sheet in HANDOFF; a short framing essay, narrative band ~4.55-4.78 en/han, may run higher on so few paragraphs - read the note, do not reset). Consult glossary.json and authority.json BEFORE romanizing anything; REUSE the settled Part-Three renderings (all keyed with pinyin): 上海区 "the Shanghai District"; the Juntong; 制裁 "sanction"; 督察 "inspector" (align common-noun terms to the glossary - the qc_entities gate); 敌伪 "the enemy and the puppets"; 汪伪 "Wang puppets"; 忠义救国军 "the Loyal and Patriotic Army"; 特工总部/七十六号 "Special Operations Headquarters"/"No. 76" (丁默邨/李士群, NOTED - do NOT re-note); 新亚和平促进会 "New Asia Peace Promotion Association" (ch22); 俞叶封 Yu Yefeng (keyed B16). Note 日本宪兵队 renders "Japanese gendarmerie" (a recurring term); 上海日本宪兵队 "the Shanghai Japanese Gendarmerie." Render Republican years literally ("抗战八年" = "the eight years of the War of Resistance"; the checker matches the source numeral). WATCH ch23's digitization glitches (list in PROGRESS.md, render to plain sense, footnote only real reading uncertainty): the same classes seen ch15-ch22 (e.g. 百性 for 百姓 in L6, a homophone). Dates/counts: carry real values; NOISE only idiom/approximate forms (八年 "eight years" is REAL - carry it; the data/noise.txt already carries the B01-B16 rules).
+4. Checks: verify_unit.py ch23 (parity + numbers with --noise auto-found + anchors); check_align.py ch23; regenerate checks.json with scripts/batch_artifacts.py (no args) and run check_structure.py --config checks.json + check_content.py --config checks.json (NOTE: check_content prints KNOWN PRE-EXISTING artifacts and exits nonzero because of them - ch08 Shunde ×3 and ch13 Miss Nguyen/Oya Kusuo/Yuan Haowen ×9; CONFIRM ch23 itself shows "all in the paired paragraph" / 0 displaced, and align any keyed name/place to its glossary-decided rendering as B16 had to for 杜美路/羊皮巷/连谋). Do NOT add COMMON-NOUN or book/periodical keys. qc_entities.py on a reconstructed bilingual (data/zh body lines + out/ch23_en.json, `> zh` / en pairs, strip the ### heading line; every glossary row needs a pinyin field). Verify the TAIL against the source. check_register.py --ref reference/B01_frozen.md out/ch23_reading.md ("shall" in Chen's narration is deliberate - read the note, do not de-formalize; ch22 ran 36%).
+5. Footnotes per the reader model, first-appearance-disciplined with the greps and the NOT-re-noted ledger (the full list is in PROGRESS.md). ch23 is a short framing chapter and MOST of its furniture is already covered (No.76/特工总部/丁默邨/李士群, the Japanese gendarmerie, 制裁, the concessions, 忠义救国军, the Republican calendar). Be generous but do NOT pad; a note may be earned by the Japanese-gendarmerie "谈虎色变" terror the chapter foregrounds, if a reader would miss it, but likely 0-2 notes suffice. Merge notes via apparatus_merge.py (numeric character references only in note bodies; anchors verbatim ASCII substrings of the reading.md body text, NO em dash and NO quote/apostrophe character - substring traps). Add any glossary rows BY HAND into the sectioned glossary.json (idempotent + re-read-verified, every row with a pinyin field; apparatus_merge's glossary path assumes a FLAT map and would corrupt the sectioned file - use it ONLY for notes). Confirm ch23 carries no images (its XHTML has NO <img> - confirm).
+6. Rebuild the EPUB (scripts/build_reading_epub.py), qa_epub.py until green, epubcheck if available (jar at /tmp/epubcheck-5.1.0/epubcheck.jar; re-run setup.sh per session); record all check results in PROGRESS.md; update HANDOFF.md; commit and push to claude/nameless-heroes. (next is B18 = ch24, 第四章 三面受敌 一往无前 "Beset on Three Sides, Ever Forward," ~17,105 chars, the fuller chapter that carries the Yu Yefeng sanction detail.)
 
-End with the TWO chat deliverables in the SAME final reply (CLAUDE.md banner): the rebuilt out/nameless-heroes.epub ATTACHED as a file, and the Batch B17 kickoff message pasted VERBATIM in a fenced code block. Cite chapters and sections, never pages. Do not pause for approval mid-batch.
+End with the TWO chat deliverables in the SAME final reply (CLAUDE.md banner): the rebuilt out/nameless-heroes.epub ATTACHED as a file, and the Batch B18 kickoff message pasted VERBATIM in a fenced code block. Cite chapters and sections, never pages. Do not pause for approval mid-batch.
 ```
 
 ## What is DONE (do not redo)
@@ -52,25 +50,27 @@ End with the TWO chat deliverables in the SAME final reply (CLAUDE.md banner): t
 - **Batch B13 (ch18 + ch19). PART TWO COMPLETE.** ch18 takes over the Shanghai District;
   ch19 = the closing Author's Note.
 - **Batch B14 (ch20), PART THREE OPENS.** ch20 = the Part-Three self-preface; 2 notes.
-- **Batch B15 (ch21), Part Three Chapter 1.** ch21 = 第一章 十里洋场重振雄威 "Chapter 1.
-  Back in Shanghai, Our Might Restored" - the FIRST Shanghai chapter (~21,426 chars, 1 <h2>
-  + 162 <p>). Chen arrives in fallen Shanghai (Aug 1939), is appointed District Chief (takes
-  over 12 Aug 1939), and rebuilds the shattered District: the 14-office search after Chen
-  Dirong's betrayal, Zheng Xiuyuan holding it single-handed (three excerpts from his memoir
-  "沪滨三次历险实录"), the duplex command center, and a full order-of-battle roll (inner
-  staff, five intelligence groups, eight action brigades, New Group One, the Kang Corps).
-  drop=2; **3 mid-phrase merges** (L56/57, L93/94, L107/108); **4 couplet sub-headings**
-  (standalone L3/L37/L82/L112); the **serialization coda "(第一章完下期续载)"** glued at P147
-  with 7 trailing paragraphs, preserved. **155 body paragraphs; 8 notes (218 cumulative);
-  19 glossary rows added, the 掌故 common-noun key removed (this also RESOLVED ch07's
-  Zhanggu artifact).** 赵君 RESOLVED to 赵理君 Zhao Lijun. All checks green; qa_epub PASS;
-  epubcheck 0/0/0/0. **EPUB now 21/43 chapters.** Detail in PROGRESS.md ("Batch B15").
+- **Batch B15 (ch21), Part Three Chapter 1.** ch21 = 第一章 十里洋场重振雄威 "Back in Shanghai,
+  Our Might Restored." Chen arrives (Aug 1939), takes over the shattered District, rebuilds
+  the full order of battle. 8 notes; 19 glossary rows; the 掌故 common-noun key removed.
+- **Batch B16 (ch22), Part Three Chapter 2.** ch22 = 第二章 春云乍展风雷初动 "Spring Clouds
+  Unfurl, the First Thunder Stirs" - the SECOND Shanghai chapter and the LONGEST unit yet
+  (~35,471 chars, 1 <h2> + 292 <p>). The first sanction operations of 1940: Cheng Haitao
+  (18 Oct 1939); the DDS Cafe near-kidnapping and Wan Lilang's defection to No.76; the
+  Geng Jiaji figure; Qi Qingbin/Zhang Zuoxing installed; the Fan Xing reunion + New Group
+  One order of battle; the moral-conscience essay closing on the Weldon Dance Hall sanction
+  of Chen Dirong/He Xingjian (Christmas 1939) and the Wang Tianmu riddle. drop=2; **3 merges**
+  (L31/32, L221/222, L279/280); **3 standalone sub-headings** (L3/L40/L64) + **2 glued**
+  (L108/L202); the **STRAY 杀 title glitch** dropped; the **coda glitch 第三章完** (三-for-二)
+  rendered "Chapter Two." **286 body paragraphs; 7 notes (225 cumulative); 29 glossary rows.**
+  All checks green; qa_epub PASS; epubcheck 0/0/0/0. **EPUB now 22/43 chapters.** Detail in
+  PROGRESS.md ("Batch B16").
 
 ## Tooling in place (do NOT revert)
 
 - `scripts/clean_batch.py` - derives data/zh/<id>.txt verbatim from data/src,
   applying per-unit drops/merges/heading-splits with a source-conservation check.
-  Specs for ch01-ch21. Merge logic FOLLOWS CHAINS. **drop is variable:** most chapters
+  Specs for ch01-ch22. Merge logic FOLLOWS CHAINS. **drop is variable:** most chapters
   drop=2; ch01/ch10/ch20 drop=3. `standalone` = a sub-heading kept as its own <p> with
   no heading markup, emitted as a `### ` line; `glued` = a sub-heading fused onto a
   paragraph's tail, split off; `merges` = source <p> pairs that sever one sentence.
@@ -82,14 +82,19 @@ End with the TWO chat deliverables in the SAME final reply (CLAUDE.md banner): t
 - `scripts/verify_unit.py <id>` - parity + numbers (auto-finds data/noise.txt; do NOT
   pass --noise, it is treated as a cid) + anchors. Run per unit.
 - `scripts/build_reading_epub.py` - builds out/nameless-heroes.epub from book.json +
-  the reading.md/en.json + notes.json + glossary.json + figures.json.
+  the reading.md/en.json + notes.json + glossary.json + figures.json. It uses
+  book.json `title_en` for the visible chapter heading, so a residual glitch in the
+  hanzi `title` field (e.g. ch22's stray 杀) never surfaces.
 - `scripts/check_content.py` (patched) - name_map skips "_"-prefixed glossary
   categories/entries. It flags KNOWN PRE-EXISTING artifacts and exits NONZERO because
-  of them: **now just ch08 Shunde (3) and ch13 Miss Nguyen/Oya Kusuo/Yuan Haowen (9)**
-  - diacritic/variant forms the substring matcher cannot align. **ch07 Zhanggu (1) is
-  GONE** (B15 removed the 掌故 common-noun-colliding key). These are NOT regressions; the
-  pass criterion for a NEW batch is "the batch's own unit shows all name occurrences in
-  the paired paragraph / 0 displaced." Do NOT add book-TITLE or COMMON-NOUN keys.
+  of them: **ch08 Shunde (3) and ch13 Miss Nguyen/Oya Kusuo/Yuan Haowen (9)** - diacritic/
+  variant forms the substring matcher cannot align. These are NOT regressions; the pass
+  criterion for a NEW batch is "the batch's own unit shows all name occurrences in the
+  paired paragraph / 0 displaced." A NEW unit's displacements are almost always a keyed
+  name/place rendered a DIFFERENT way than the glossary (B16 had four: 杜美路 "Route Doumer",
+  羊皮巷 "Yangpi Lane", 连谋 "Lian Mou", 鸡泽县 "Jize County"): align the English (or, for a
+  clear case-only place mismatch, the glossary) to the keyed form. Do NOT add book-TITLE or
+  COMMON-NOUN keys.
 - **Verse marker `{p}`** (first used ch13): prefix a pure-verse line with `{p} `; the
   builder renders `<p class="verse">`; the checks strip it.
 - Glossary is authored/merged BY HAND into the SECTIONED file
@@ -99,22 +104,33 @@ End with the TWO chat deliverables in the SAME final reply (CLAUDE.md banner): t
   sectioned file; NOTES still go through apparatus_merge.py.
 - **qc_entities catches term-rendering drift too:** a glossary common-noun term rendered
   a different way flags as a "miss." Align the English to the glossary (督察 "inspector").
-- **GLOSSARY-KEY DISCIPLINE (reinforced B15):** a key must be a DISTINCTIVE proper noun
+- **GLOSSARY-KEY DISCIPLINE (reinforced B15/B16):** a key must be a DISTINCTIVE proper noun
   that renders ONE way everywhere and must NOT occur elsewhere with a different rendering.
-  掌故 (magazine "Zhanggu" in ch12, common noun "old lore" in ch07/ch21) violated this and
-  was removed; periodicals/books are FOOTNOTES, not glossary keys. A bare surname whose
-  full name is unknown is rendered inline, not keyed.
+  掌故 (magazine vs common noun) violated this and was removed; periodicals (新申报) and books
+  (沪上往事) are FOOTNOTES/inline, not glossary keys. A bare surname whose full name is
+  unknown is rendered inline, not keyed.
 - **Note-anchor gotchas:** anchors must be ASCII, WITHOUT any quote/apostrophe character
-  AND without an em dash (U+2014) - all substring traps. The reading.md uses straight
-  quotes/apostrophes and em dashes freely. Multi-occurrence anchors attach at the FIRST
-  occurrence; check_structure reports "attach at first of several."
-- data/noise.txt carries the B01-B15 project noise rules (each with a comment line).
+  AND without an em dash (U+2014) - all substring traps. The reading.md uses curly
+  quotes/apostrophes and em dashes freely, so pick an anchor phrase with none of them (e.g.
+  ch22 used "the Xiongnu not yet destroyed", "GPU training", "one basketful", "Badlands" -
+  a bare word inside "curly quotes" works, "the GPU" did not because of the quote). Multi-
+  occurrence anchors attach at the FIRST occurrence; check_structure reports "attach at
+  first of several."
+- **make_ch22_apparatus.py pattern (scratchpad):** author note bodies as plain unicode in a
+  Python file (Write tool), convert every non-ASCII char to a numeric char ref
+  programmatically, then write data/<id>_apparatus.json and run apparatus_merge.py. **The
+  CJK-heredoc mangling hazard is REAL:** in B16 the idiom 为山九仞，功亏一篑 came through the
+  Write tool corrupted (功亏一簓 / 为山九他); caught by grepping the CJK out of the script and
+  verifying each glyph before converting. Keep hanzi in note bodies to the minimum needed and
+  eyeball it.
+- data/noise.txt carries the B01-B16 project noise rules (each with a comment line).
   Republican years render literally; the checker matches the source numeral. **The
-  elided-tens block is ordered LONGEST-FIRST** (四、五百 before 四、五; B15 slotted 三、五十
-  into it). **Name-numeral glyphs** (万 in a name) are noised: 毛万里, 万里兄, 万里浪, 万某,
-  万即, and bare 万里 / 万兄 must come AFTER the longer forms so those strip first. Event
-  date-names (九一八, 一二八, 七一四) and idioms (百利而无一损, 万般, 四出, 凋零, 接二连二)
-  are noised; every REAL value is carried in the English and matched.
+  elided-tens block is ordered LONGEST-FIRST.** **Name-numeral glyphs** (万 in a name) are
+  noised: the B15 Wan-Lilang forms (万里浪/万某/万即/万兄/万里) plus the B16 additions (万有何/
+  万队/万答/万逆/万与 bare-surname Wan; 万墨林/万先失 Wan Molin; 万想不到/万千 idioms). Idiom
+  numerals (外八字/合十/不三不四/两个钱/八旬) and the coda glitch (第三章完) are noised too;
+  every REAL value is CARRIED in the English and matched (二人/三人 -> "the two"/"both"/"the
+  three"; 五点四十分 -> "five-forty"; 两百/一百 -> "two hundred"/"one hundred"; etc.).
 - epubcheck 5.1.0 at /tmp/epubcheck-5.1.0/epubcheck.jar (setup.sh fetches it; re-run
   per session). setup.sh's ONE failing regression test ("hook stands down on template
   stub") is a KNOWN false alarm; all other regression tests pass.
@@ -129,7 +145,7 @@ End with the TWO chat deliverables in the SAME final reply (CLAUDE.md banner): t
   Commandant", 委员长 "the Generalissimo", 总裁 "the Director-General" (Wang = 副总裁
   "Vice-Director-General"). 总理 = "the Party Leader" = Sun Yat-sen. Floors: 二楼/三楼 =
   "second/third floor." Republican years literal. 上海滩 "the Shanghai Bund." 高朗街 "Gao
-  Lang Street."
+  Lang Street." 日本宪兵队 "the Japanese gendarmerie"; 七十六号 "No. 76."
 - **Book / part titles (in-text renderings, DECIDED; reuse verbatim):** 英雄无名 =
   "Nameless Heroes"; Part One 北国锄奸 = "Rooting Out Traitors in the North"; Part Two =
   "Disgrace at Hanoi" (Chen's in-text 河内汪案始末 = "The Whole Story of the Wang Case at
@@ -138,19 +154,30 @@ End with the TWO chat deliverables in the SAME final reply (CLAUDE.md banner): t
   "the Blue Shirt Society" (NOTED ch08). 忠义救国军 = "the Loyal and Patriotic Army"
   (NOTED ch21). 特工总部/七十六号 = "Special Operations Headquarters"/"No. 76" (NOTED
   ch04/ch17). 抗日杀奸团/抗团 = "Anti-Japanese Traitor-Killing Corps"/"Kang Corps"
-  (NOTED ch02/ch11). Books handled by FOOTNOTE (not glossary): 蒋总统秘录, 戴雨农先生传,
-  汪政权的开场与收场, 沪滨三次历险实录 (Zheng Xiuyuan's Shanghai memoir), and the "Zhanggu"
-  (掌故) Hong Kong magazine (inline-glossed in ch12; its glossary key was REMOVED in B15).
-- **B15 shelf (ch21; reuse; all keyed with pinyin):** the whole Shanghai District cast -
-  郑修元 Zheng Xiuyuan, 陈第容/陈明楚 Chen Dirong/Chen Mingchu, 黄志远 Huang Zhiyuan, 赵理君
-  Zhao Lijun (cover 凌秋云 "Ling Qiuyun"), 刘原深 Liu Yuanshen, 蒋安华 Jiang Anhua (3rd
-  Brigade), 吉震苍 Ji Zhencang (2nd Brigade, cover 赵圣), 毕高奎 Bi Gaokui (New Group One),
-  孙大成 Sun Dacheng (Kang Corps, a cover name), 万里浪 Wan Lilang (4th-Brigade traitor ->
-  No.76), 刘时雍 Liu Shiyong, 萧杰英 Xiao Jieying / 萧张权 Xiao Zhangquan (the Xiao siblings),
-  张璜 Zhang Huang, 杨震裔 Yang Zhenyi, 王世英 Wang Shiying, 潘绍岳 Pan Shaoyue, 翁光辉 Weng
-  Guanghui + 吴乃宪 Wu Naixian (the first two Shanghai District chiefs), 戴藏宜 Dai Cangyi
-  (Dai Li's son), 杜月笙 Du Yuesheng (NOTED ch17). NEW notes: 忠义救国军, 秦晋之说, 越界筑路,
-  亭子间, 白相人, 法币, 唐生智, 邓演达/两广事件.
+  (NOTED ch02/ch11). 新亚和平促进会 = "New Asia Peace Promotion Association" (ch22). Books
+  handled by FOOTNOTE/inline (not glossary): 蒋总统秘录, 戴雨农先生传, 汪政权的开场与收场,
+  沪滨三次历险实录 (Zheng Xiuyuan's memoir), 沪上往事 (Wan Molin's memoir, NOTED ch22), and
+  the "Zhanggu" (掌故) magazine; periodicals: 新申报, 中华日报.
+- **B15 shelf (ch21; reuse; all keyed):** the whole Shanghai District cast - 郑修元 Zheng
+  Xiuyuan, 陈第容/陈明楚 Chen Dirong/Chen Mingchu, 黄志远 Huang Zhiyuan, 赵理君 Zhao Lijun
+  (cover 凌秋云), 刘原深 Liu Yuanshen, 蒋安华 Jiang Anhua, 吉震苍 Ji Zhencang (cover 赵圣),
+  毕高奎 Bi Gaokui, 孙大成 Sun Dacheng, 万里浪 Wan Lilang, 刘时雍 Liu Shiyong, 萧杰英/萧张权
+  the Xiao siblings, 张璜 Zhang Huang, 潘绍岳 Pan Shaoyue, 翁光辉/吴乃宪 the first two chiefs,
+  戴藏宜 Dai Cangyi, 杜月笙 Du Yuesheng (NOTED ch17), 朱啸谷 Zhu Xiaogu, the five intel groups
+  and eight action brigades.
+- **B16 shelf (ch22; reuse; all keyed with pinyin):** 程海涛 Cheng Haitao, 耿嘉基 Geng Jiaji
+  ("Secretary Geng"), 王一新 Wang Yixin, 马河图/岳清江/丁寳龄 Ma Hetu/Yue Qingjiang/Ding
+  Baoling (Wang Tianmu's three bodyguards), 何行健/何天风 He Xingjian/He Tianfeng, 汪秋芳/汪芳
+  Wang Qiufang/Wang Fang, 田淑君 Tian Shujun, 傅胜蓝/丁文蕙 Fu Shenglan/Ding Wenhui (the
+  Qingdao tragedy), 俞叶封 Yu Yefeng, 虞洽卿 Yu Qiaqing, 贺耀组 He Yaozu (figurehead director),
+  褚民谊 Chu Minyi, 万墨林 Wan Molin, 傅炳宸 Fu Bingchen, 傅式说 Fu Shishuo (source misprints
+  傅 as 传), 邵飘萍 Shao Piaowei (action man; NOTED as journalist-namesake), 张圣才 Zhang
+  Shengcai, 陈默 Chen Mo, 赵刚义 Zhao Gangyi, 钱人龙 Qian Renlong, 伊凡诺夫 Ivanov, 顾兰君 Gu
+  Lanjun, 杨虎 Yang Hu, 范纪曼 Fan Jiman (alias of Fan Xing). NEW ch22 notes: 条子/gold bars,
+  GPU, 邵飘萍 the journalist, 匈奴未灭, 为山九仞, 万墨林/沪上往事, the Badlands (歹土). Concession
+  streets: keep the attested names (Avenue Joffre/Foch/Haig, Bubbling Well/Jessfield/Seymour/
+  Sinza/Yates/Moulmein Roads, Route Doumer/Ratard) and use pinyin for the uncertain (Beile/
+  Kangti/Shanzhong/Geluoxi Roads) rather than invent a French name.
 
 ## ⚠ Name trap RESOLVED (do not reopen): 陈邦国 / 郑邦国
 
@@ -165,95 +192,102 @@ updated; the discrepancy footnoted at the first ch15 occurrence. Romanization st
   stilted. Long semicolon-joined clauses; four-character idiom and classical allusion used
   freely and footnoted when they carry weight. Refers to himself as 笔者 "the writer" and
   我 "I." His narrating "shall" is DELIBERATE - do not de-formalize it; check_register flags
-  it informationally (B06 33%, B08 29%, B12 43%, B14 0% (a no-dialogue preface), B15 33%).
+  it informationally (B06 33%, B08 29%, B12 43%, B14 0% (a no-dialogue preface), B15 33%,
+  B16 36%).
 - STANCE: self-justifying yet self-effacing; insists on truthfulness, admits his blunders;
   tender toward dead comrades, bitter and scornful toward the enemy. When quoting hostile/
   puppet or comrades' documents, keep the quoted register DISTINCT from Chen's own dry
-  scorn (ch21 does this for Zheng Xiuyuan's memoir and Liu Shaokui's embedded memoir).
+  scorn (ch21/ch22 do this for Zheng Xiuyuan's memoir, Bi Gaokui's account, Dai's telegrams,
+  and Wan Molin's memoir).
 - Ratio ~4.55-4.78 en/han in narrative; prefaces denser (~5.2-5.3); document-heavy chapters
-  run higher (ch21 measured 4.89 with its long quoted memoirs). Read the note, do not reset.
+  run higher (ch21 measured 4.89; ch22 measured 4.70). Read the note, do not reset.
 
 ## Voice sheets - principal & recurring cast
 
 - **DAI LI (戴雨农 / Mr. Dai / 老板 "the Boss").** After ch17 he and Chen meet no more, only
-  letters and telegrams; his word is "as a mountain" (ch21). Warm off duty, abrupt on
-  business; gives orders with little reason.
+  letters and telegrams; his word is "as a mountain." Warm off duty, abrupt on business;
+  gives orders with little reason. In ch22 he scolds Chen "timid as a mouse," then refuses
+  (with the 为山九仞 allusion) Chen's offer of an outsider's bank money.
 - **MAO WANLI (毛万里 / Brother Wanli).** Chief Inspector in Shanghai, tasked with the plan
-  to sanction Wang Jingwei; sanguine, "a lucky star." An old, deep private friend of Chen's.
-  Later director of the Southeast Office (Shangrao/Yanshan, Jiangxi). Named coyly as bare 万里
-  / 万兄 too (noised).
+  to sanction Wang Jingwei; an old, deep private friend of Chen's. Named coyly as bare 万里
+  / 万兄 (noised).
 - **ZHENG XIUYUAN (郑修元 / Brother Xiuyuan).** District secretary who held the Shanghai
-  District together single-handed after the 14-office search; restless, brave, does
-  everything in person; his memoir "沪滨三次历险实录" is quoted at length in ch21. Later head
-  of the Bureau's personnel section.
-- **WANG TIANMU (王天木).** Former Shanghai District chief; loyalty in doubt; sent back to
-  Tianjin after a quarrel with Dai. Daughters Kangzi (蝉红) and Yinzi (蝉绿) in Shanghai;
-  Yinzi was attached to Wang Luqiao.
-- **LIU YUANSHEN (刘原深 / Brother Yuanshen).** Intelligence compiler-reviewer, later an
-  action-brigade leader; the very man who now revises "Nameless Heroes" for Chen - Chen's
-  living memory-check throughout Part Three. Consult on every Shanghai-cast recall.
-- **NEW cast built out in B15 (all keyed):** the five intelligence-group leaders (朱啸谷,
-  刘健, 张圣才/葛越溪, 盛志成, 时寿章/朱岑楼), the eight action-brigade leaders (赵理君 1st,
-  吉震苍 2nd, 蒋安华 3rd, 万里浪/刘时雍 then 徐晚枫/封企曾 4th, 汪福谦 5th, 潘绍岳 6th, 张秉权
-  7th, 萧张权 8th), 毕高奎/黄志远 of New Group One, 孙大成 of the Kang Corps. These carry
-  into ch22's operations.
+  District together single-handed; his memoir is quoted at length in ch21/ch22. Transferred
+  out (Dec 1939) after the ch22 DDS-Cafe near-kidnapping.
+- **QI QINGBIN (齐庆斌, alt. name Ruozhai) & ZHANG ZUOXING (张作兴, alt. name Kexin).**
+  Chen's childhood friends (Part One ch06); installed in ch22 as Shanghai District secretary
+  and radio inspector. Qi is upright and scrupulous; Zhang quick, straight, pockmarked (a
+  liability for field work). The three "jointly presided over" the District for six years.
+- **WANG TIANMU (王天木).** Former Shanghai/Tianjin District chief; loyalty in doubt. In ch22,
+  his three bodyguards (Ma Hetu, Yue Qingjiang, Ding Baoling) carry out the Christmas 1939
+  sanction of Chen Dirong/He Xingjian; Wang himself does NOT flee - a riddle Chen never solves;
+  No.76 then holds him for years.
+- **LIU YUANSHEN (刘原深 / Brother Yuanshen).** The very man who revises "Nameless Heroes" for
+  Chen; Chen's living memory-check throughout Part Three. Consult on every Shanghai-cast recall.
+- **FAN XING / FAN JIMAN (范行 / 范纪曼).** The "great international spy," recruited by the
+  Beiping Station (Part One); reappears in ch22 in Shanghai, and Chen reopens the "intelligence
+  war," reporting his takes under a false name. His teeth-marked girlfriend Peng Yaluo and a
+  Latvian at the "Deer-Horn Trading Company" thicken the mystery. A fresh discovery "in the
+  middle of the 29th year" is promised.
+- **BI GAOKUI / HUANG ZHIYUAN (毕高奎 / 黄志远).** Leader and deputy of New Group One, the
+  purest and most effective Shanghai unit; Bi France-trained, met Dai in a midnight audience.
+  Both alive at the seventy-second year (1983) and consulted for the book.
 - **Dead comrades carried in memory:** ZENG CHE 曾澈, WANG WEN 王文 (ch11); ZENG ZHONGMING
-  曾仲鸣 (ch15/ch16); the B13 Wang-case martyrs; 陈三才 Chen Sancai (ch21, via New Group One).
+  曾仲鸣 (ch15/ch16); 陈三才 Chen Sancai (ch21/ch22, avenged Sept 1941 via New Group One's
+  killing of the traitor Ivanov); the Qingdao martyr 丁文蕙 Ding Wenhui (ch22).
 
 ## Where the book stands
 
 - Part One (北国锄奸) COMPLETE (B01-B05).
-- Part Two ("Disgrace at Hanoi") COMPLETE (B06-B13). The assassination FAILED; Chen took
-  over the Shanghai District; the whole Hanoi cast is laid to rest in the record.
-- **Part Three ("Renown Won in a Hundred Battles" / 百战声威) is under way (B14-B15).** ch20
-  = self-preface; ch21 = the first Shanghai chapter (arrival, appointment, rebuilding the
-  District, the full order of battle). ch21 ends previewing ch22: the reorganized District's
-  first deterrent action case (mid-Oct 1939), Wan Lilang's defection to No.76, and the
-  reappearing "international-spy" figure opening a new "intelligence war."
-- **NEXT: B16 = ch22** - 第二章 春云乍展风雷初动 "Chapter 2. Spring Clouds Unfurl, the First
-  Thunder Stirs," the SECOND Shanghai chapter and the LONGEST unit yet (~35,471 chars, 1
-  <h2> + 292 <p>). drop=2; couplet-style sub-headings (L3 一警百清除障碍以展示威力 opens);
-  STRAY 杀 fused onto the <h2> title (drop it; book.json title_en is clean; list the glitch).
+- Part Two ("Disgrace at Hanoi") COMPLETE (B06-B13).
+- **Part Three ("Renown Won in a Hundred Battles" / 百战声威) is under way (B14-B16).** ch20 =
+  self-preface; ch21 = arrival + order of battle; ch22 = the first 1940 sanction operations,
+  the Fan Xing reunion, and the moral-conscience essay. ch22 ends naming 俞叶封 Yu Yefeng
+  (sanctioned 14 Jan 1940) as "recounted in the next chapter."
+- **NEXT: B17 = ch23** - 第三章 爱国情操 道德规范 "Chapter 3. Patriotic Spirit, Moral Bounds,"
+  a SHORT framing chapter (~534 chars, 1 <h2> + 8 <p>). drop=2; ONE standalone couplet
+  sub-heading (L3 初生之犊组成了一枝生力军); no merges, no glued, no images, no note markers.
+  It names the "three-sided enemy" (concession police, the Shanghai Japanese Gendarmerie,
+  No.76) and previews ch24.
 
 ## What is NEXT
 
-- Batch B16 = ch22 (the second Shanghai chapter). Kickoff is the paste-block at the top.
-  Runs to completion (no gate); ends by pasting the B17 kickoff. B17 = ch23.
+- Batch B17 = ch23 (short framing chapter). Kickoff is the paste-block at the top. Runs to
+  completion (no gate); ends by pasting the B18 kickoff. B18 = ch24 (三面受敌 一往无前,
+  ~17,105 chars, the fuller chapter with the Yu Yefeng sanction detail).
 - The frozen register reference is `reference/B01_frozen.md`. Narrative sits at 4.55-4.78
-  en/han; prefaces/document-heavy chapters run higher.
+  en/han; prefaces/document-heavy chapters run higher; a very short unit can run higher on
+  few paragraphs.
 - Sub-heading pattern DIFFERS by chapter. Styles seen: Part One numbered 一/二/三;
-  ch11/ch14/ch20-title/ch21 COUPLET-STYLE with NO number prefix; ch12/ch13/ch15/ch16/ch17/
-  ch18 numbered-in-parens (一)/(二)…; ch08/ch16/ch18 have a GLUED sub-heading; ch13's inner
-  enumerated list rendered `####`. Grep each new chapter p-by-p.
+  ch11/ch14/ch20-title/ch21/ch22/ch23 COUPLET-STYLE with NO number prefix; ch12/ch13/ch15/
+  ch16/ch17/ch18 numbered-in-parens (一)/(二)…; ch08/ch16/ch18/ch22 have GLUED sub-heading(s);
+  ch13's inner enumerated list rendered `####`. Grep each new chapter p-by-p.
 - WATCH for source anomalies: cuts, misplaced-「 glitches, corrupt/dropped-character
-  phrases, dropped full stops, the in-text "(第N章完)" coda pattern (ch12/ch13/ch16; ch21
-  had "(第一章完下期续载)" WITH continued-next-issue + trailing content), a STRAY glyph fused
-  onto a chapter title (ch22's 杀; cf. the survey's flag), fullwidth-zero (U+25CB) and
-  Latin-O number forms, and pervasive single-character substitutions. Re-grep each batch's
-  source for `\[\d+\]` note markers (none present through B15).
+  phrases, dropped full stops, the in-text "(第N章完)" coda pattern (ch12/ch13/ch16/ch21/ch22;
+  ch21 and ch22 carry "下期续载" magazine seams; ch22's coda 第三章完 is a 三-for-二 glitch),
+  a STRAY glyph fused onto a chapter title (ch22's 杀), and pervasive single-character
+  substitutions. Re-grep each batch's source for `\[\d+\]` note markers (none through B16).
 
 ## Open items for the read-through / completion
 
 - Feed decided renderings back to authority.json on completion: 军统 "the Juntong"; the full
-  B02-B15 historical-name set (Part One; the Japanese/negotiator names; the Wang-essay set;
-  the Part-Two Hanoi/Chongqing casts; the B13 martyrs; the B14/B15 Shanghai-District staff
-  and order of battle).
+  B02-B16 historical-name set (Part One; the Japanese/negotiator names; the Wang-essay set;
+  the Part-Two Hanoi/Chongqing casts; the martyrs; the Shanghai-District staff, order of
+  battle, and the B16 operative/collaborator cast).
 - Japanese name readings to verify when the men recur (多田骏, 田代皖一郎, 土肥原贤二,
-  板垣征四郎, 近卫文麿, 影佐祯昭, 今井武夫, 晴气庆胤; 大屋久寿雄 "Ōya Kusuo"; 横山秋马
-  "Yokoyama Shūma" and 岩井英一 "Iwai Eiichi" of the Kōain, both new in ch21's Liu-Shaokui
-  memoir quote).
+  板垣征四郎, 近卫文麿, 影佐祯昭, 今井武夫, 晴气庆胤; 大屋久寿雄; 横山秋马; 岩井英一 of the
+  Kōain; 大井英夫 "Ōi Hideo" of the Shanghai gendarmerie, new in ch22).
 - Provisional romanizations to firm up when sources allow (glossary `provisional` rows,
-  incl. the whole B15 Shanghai-District cast).
-- Stray source glyphs still to resolve: 毛酋 in a ch36 section title (ch22's title 杀 is
-  handled in B16). The ch22 last line (…预计一周左右即可获得) may be a mid-sentence source cut
-  - confirm at build.
+  incl. the whole Shanghai-District cast and the B16 operatives).
+- Stray source glyphs still to resolve: 毛酋 in a ch36 section title (ch22's 杀 title and
+  第三章完 coda are handled in B16).
 
 ## Environment / traps state
 
-- epubcheck available (5.1.0), clean on the B01-B15 builds (0/0/0/0). Source is a clean
+- epubcheck available (5.1.0), clean on the B01-B16 builds (0/0/0/0). Source is a clean
   digital EPUB, predominantly simplified with residual variant glyphs and pervasive
   digitization glitches (list them, render to plain sense, do not footnote mechanical
-  typos). B01-B15 glitch lists are in PROGRESS.md.
+  typos). B01-B16 glitch lists are in PROGRESS.md.
 - Running-header line 英雄无名-陈恭澍 opens all 43 content files: drop it. drop count is
   variable - most drop=2; ch01/ch10/ch20 drop=3.
 - Enumerated ；/：/、 bullet lists, quoted-document/roster lines, salutations, verse lines,
@@ -261,11 +295,11 @@ updated; the discrepancy footnoted at the first ch15 occurrence. Romanization st
   only genuine mid-phrase splits (last char not terminal, OR a source `<p>` boundary that
   severs one sentence) merge, and those can CHAIN across 3+ fragments. A line ending on a
   dash lead-in that is its OWN source `<p>` is DELIBERATE, NOT a split (cf. ch20 L12, ch21
-  L51/L66). ALWAYS confirm the extracted body count p-by-p against data/src_epub.
+  L51/L66, ch22 L7/L46/L183). ALWAYS confirm the extracted body count p-by-p against
+  data/src_epub.
 - Faithful numbering gaps/anomalies (NOT errors): Part Three skips ch7, splits ch10 into
   (上)/(下); 三面受敌 一往无前 titles two chapters (ch14 and ch24); ch09 printed §五 before
-  §四; ch13 restarts its (一)-(五) numbering for the appended essay; ch16 reproduces two
-  whole Wang documents; ch21 carries a magazine "下期续载" seam mid-chapter. Preserve and,
-  where a reader would stumble, footnote.
+  §四; ch13 restarts its (一)-(五) numbering; ch16 reproduces two whole Wang documents; ch21
+  and ch22 carry magazine "下期续载" seams. Preserve and, where a reader would stumble, footnote.
 - Expect a stray per-task branch at the top of every batch; consolidate onto
   claude/nameless-heroes per rule 2.

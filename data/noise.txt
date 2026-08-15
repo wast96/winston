@@ -512,3 +512,46 @@
 # The 万 is the surname glyph, not 10000. MUST come after the longer 毛万里 / 万里兄 /
 # 万里浪 rules so those strip first and this only mops up the bare form. English carries "Wanli".
 万里
+#
+# ===== B16 (ch22) project noise =====
+# Idiom 万想不到 "never in ten thousand thoughts / could never have dreamed"
+# (万想不到他会…); the 万 is rhetorical, not the count 10000. English renders
+# "never had I dreamed".
+万想不到
+# Idiom 万千 "myriad / thousands upon thousands" (万千同志血肉浇铸); not 10000+1000.
+# English renders "thousands upon thousands of comrades".
+万千
+# Name-context bare 万 (Wan Lilang named by bare surname): 万队 (Wan's team),
+# 万答 (Wan answered), 万有何 (any conduct on Wan's part), 万逆 (the traitor Wan,
+# in 万逆里浪), 万与 (Wan and…, 看到万与该队队长). The 万 is the surname glyph, not
+# 10000. Cf. 万里浪 / 万某 / 万即 above. English carries the name "Wan".
+万有何
+万队
+万答
+万逆
+万与
+# Personal name 万墨林 (Wan Molin, Du Yuesheng's manager, author of the quoted
+# "沪上往事"); name-embedded 万, not 10000. English carries "Wan Molin".
+万墨林
+# Name-context 万先失 = 万先生 "Mr. Wan" (= Wan Molin; 失 is a glitch for 生, listed
+# in PROGRESS). The 万 is the surname glyph, not 10000. English carries "Mr. Wan".
+万先失
+# Idiom 外八字 "splay-footed" (走路…有点外八字); the 八 is not the count 8. English
+# renders "somewhat splay-footed".
+外八字
+# Buddhist gesture 合十 "put the palms together" (两手合十); the 十 is not the count
+# 10. English renders "putting his two hands together".
+合十
+# Idiom 不三不四 "disreputable / neither one thing nor another" (那些不三不四的);
+# the 三/四 are not counts. English renders "disreputable".
+不三不四
+# Idiom 两个钱 "a bit of money" (赚两个钱而已); the 两 is not the count 2. English
+# renders "make a bit of money".
+两个钱
+# Age idiom 八旬 "in one's eighties" (都已逾八旬); the checker cannot read 旬 as a
+# decade multiplier, so the bare 八 would flag. English carries "over eighty".
+八旬
+# Digitization glitch: the serialization coda "(第三章完，下期续载)" reads 第三章 where
+# ch21's correct coda read 第一章完 for the book's Ch1; this is book Ch2, so the 三 is a
+# 三-for-二 glitch (listed in PROGRESS). English renders it to plain sense, "Chapter Two".
+第三章完
