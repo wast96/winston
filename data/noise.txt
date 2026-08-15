@@ -33,6 +33,10 @@
 张阿四
 # Xiao Asi — rendered "Xiao Asi"
 肖阿四
+# Wan Yi — surname 万, a personal name (万益), not the quantity 10,000
+万益
+# Jiang Sanda — a personal name (蒋三大), 三 is not a count
+蒋三大
 #
 # --- Four-character idioms / set phrases with a numeral, not a count ---
 # 百般 "in every way" — no quantity
@@ -84,3 +88,15 @@
 海纳百川
 # 两手 "a two-handed approach" (以革命的两手…) — idiom for hard-and-soft methods
 两手
+# --- ch02 idioms / set phrases with a numeral, not a count ---
+# 十足 "full of / thoroughly" (干劲十足, 江湖气十足) — not the count 10
+十足
+# 万能 "omnipotent" (暗杀万能论者) — not the quantity 10,000
+万能
+# 两肋 "两肋插刀" (a knife in both ribs = utter loyalty) — 两 is not a count
+两肋
+# 五十多万 "more than 500,000" (五十多万民众) — a real approximate quantity,
+#   rendered "over 500,000"; listed so the generic 十多 rule does not fragment
+#   it (stripping 五十多 and orphaning 万=10000). Longest-first, applied before
+#   the generic rule.
+五十多万

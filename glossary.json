@@ -2,34 +2,245 @@
   "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. status per entry: 'attested' (form used in English scholarship), 'provisional' (romanization mine), 'decided' (a project style call). Flag the book's main cast with principal:true (optional cast one-liner, cast_order). Sections render as glossary headings; keys starting with '_' are ignored.",
   "book": {},
   "people": {
-    "周恩来": {"en": "Zhou Enlai", "pinyin": "Zhou Enlai", "status": "attested", "principal": true, "cast_order": 1, "cast": "Director of the Party's underground work in Shanghai and founder of the Central Special Branch (1898–1976).", "note": "Conventional pinyin; the Party's intelligence chief in this period and the author's ultimate superior."},
-    "顾顺章": {"en": "Gu Shunzhang", "pinyin": "Gu Shunzhang", "status": "attested", "principal": true, "cast_order": 2, "cast": "The Party's first intelligence chief, a stage magician; defected to the Kuomintang in 1931 (1903–1935).", "note": "Head of the Central Special Branch whose 1931 defection wrecked the Shanghai underground."},
-    "陈赓": {"en": "Chen Geng", "pinyin": "Chen Geng", "status": "attested", "principal": true, "cast_order": 3, "cast": "Head of the Special Branch's intelligence section, under the alias Wang Yong; later a PLA general (1903–1961).", "note": "Whampoa first class; saved Chiang Kai-shek's life in 1925; ran the Second (intelligence) Section."},
-    "王庸": {"en": "Wang Yong", "pinyin": "Wang Yong", "status": "attested", "note": "Chen Geng's cover name in Shanghai (\"Mr. Wang\")."},
-    "蒋介石": {"en": "Chiang Kai-shek", "pinyin": "Jiang Jieshi", "status": "attested", "principal": true, "cast_order": 4, "cast": "Leader of the Kuomintang and its government; the Party's chief adversary (1887–1975).", "note": "Conventional English form retained."},
-    "董健吾": {"en": "Dong Jianwu", "pinyin": "Dong Jianwu", "status": "attested", "note": "The \"Red Pastor\": an Anglican clergyman and Communist agent who ran St. Peter's Church as a safe house."},
-    "徐恩曾": {"en": "Xu Enzeng", "pinyin": "Xu Enzeng", "status": "attested", "note": "Chief of the Kuomintang's civilian secret service, the Zhongtong."},
-    "李强": {"en": "Li Qiang", "pinyin": "Li Qiang", "status": "attested", "note": "Built the Party's first secret radio; a principal source on the Special Branch's origins."},
-    "杨度": {"en": "Yang Du", "pinyin": "Yang Du", "status": "attested", "note": "Monarchist theorist turned secret Communist agent (1875–1931)."},
-    "梅宝玑": {"en": "Mei Baoji", "pinyin": "Mei Baoji", "status": "attested", "note": "Honored as the Party's first intelligence source (1881–1947)."},
-    "梅龚彬": {"en": "Mei Gongbin", "pinyin": "Mei Gongbin", "status": "attested", "note": "Long-buried Communist agent inside the Kuomintang; Mei Baoji's nephew (1901–1975)."},
-    "潘汉年": {"en": "Pan Hannian", "pinyin": "Pan Hannian", "status": "attested", "note": "Chen Geng's successor in intelligence work; jailed in the 1955 case that bears his name."},
-    "张慧冲": {"en": "Zhang Huichong", "pinyin": "Zhang Huichong", "status": "attested", "note": "Film star and founder of \"Shanghai-style magic,\" admired by Gu Shunzhang."},
-    "李维汉": {"en": "Li Weihan", "pinyin": "Li Weihan", "status": "attested", "note": "Senior Party leader; on the Standing Committee that founded the Special Branch."},
-    "瞿秋白": {"en": "Qu Qiubai", "pinyin": "Qu Qiubai", "status": "attested", "note": "Party leader after August 1927; writer; executed 1935."},
-    "胡鄂公": {"en": "Hu Egong", "pinyin": "Hu Egong", "status": "attested", "note": "1911 revolutionary and early Marxist who introduced Chen Geng to Yang Du."},
-    "徐梅坤": {"en": "Xu Meikun", "pinyin": "Xu Meikun", "status": "attested", "note": "First head of the Jiangsu committee's \"dog-beating squad,\" the Special Branch's forerunner."}
+    "周恩来": {
+      "en": "Zhou Enlai",
+      "pinyin": "Zhou Enlai",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 1,
+      "cast": "Director of the Party's underground work in Shanghai and founder of the Central Special Branch (1898–1976).",
+      "note": "Conventional pinyin; the Party's intelligence chief in this period and the author's ultimate superior."
+    },
+    "顾顺章": {
+      "en": "Gu Shunzhang",
+      "pinyin": "Gu Shunzhang",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 2,
+      "cast": "The Party's first intelligence chief, a stage magician; defected to the Kuomintang in 1931 (1903–1935).",
+      "note": "Head of the Central Special Branch whose 1931 defection wrecked the Shanghai underground."
+    },
+    "陈赓": {
+      "en": "Chen Geng",
+      "pinyin": "Chen Geng",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 3,
+      "cast": "Head of the Special Branch's intelligence section, under the alias Wang Yong; later a PLA general (1903–1961).",
+      "note": "Whampoa first class; saved Chiang Kai-shek's life in 1925; ran the Second (intelligence) Section."
+    },
+    "王庸": {
+      "en": "Wang Yong",
+      "pinyin": "Wang Yong",
+      "status": "attested",
+      "note": "Chen Geng's cover name in Shanghai (\"Mr. Wang\")."
+    },
+    "蒋介石": {
+      "en": "Chiang Kai-shek",
+      "pinyin": "Jiang Jieshi",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 4,
+      "cast": "Leader of the Kuomintang and its government; the Party's chief adversary (1887–1975).",
+      "note": "Conventional English form retained."
+    },
+    "董健吾": {
+      "en": "Dong Jianwu",
+      "pinyin": "Dong Jianwu",
+      "status": "attested",
+      "note": "The \"Red Pastor\": an Anglican clergyman and Communist agent who ran St. Peter's Church as a safe house."
+    },
+    "徐恩曾": {
+      "en": "Xu Enzeng",
+      "pinyin": "Xu Enzeng",
+      "status": "attested",
+      "note": "Chief of the Kuomintang's civilian secret service, the Zhongtong."
+    },
+    "李强": {
+      "en": "Li Qiang",
+      "pinyin": "Li Qiang",
+      "status": "attested",
+      "note": "Built the Party's first secret radio; a principal source on the Special Branch's origins."
+    },
+    "杨度": {
+      "en": "Yang Du",
+      "pinyin": "Yang Du",
+      "status": "attested",
+      "note": "Monarchist theorist turned secret Communist agent (1875–1931)."
+    },
+    "梅宝玑": {
+      "en": "Mei Baoji",
+      "pinyin": "Mei Baoji",
+      "status": "attested",
+      "note": "Honored as the Party's first intelligence source (1881–1947)."
+    },
+    "梅龚彬": {
+      "en": "Mei Gongbin",
+      "pinyin": "Mei Gongbin",
+      "status": "attested",
+      "note": "Long-buried Communist agent inside the Kuomintang; Mei Baoji's nephew (1901–1975)."
+    },
+    "潘汉年": {
+      "en": "Pan Hannian",
+      "pinyin": "Pan Hannian",
+      "status": "attested",
+      "note": "Chen Geng's successor in intelligence work; jailed in the 1955 case that bears his name."
+    },
+    "张慧冲": {
+      "en": "Zhang Huichong",
+      "pinyin": "Zhang Huichong",
+      "status": "attested",
+      "note": "Film star and founder of \"Shanghai-style magic,\" admired by Gu Shunzhang."
+    },
+    "李维汉": {
+      "en": "Li Weihan",
+      "pinyin": "Li Weihan",
+      "status": "attested",
+      "note": "Senior Party leader; on the Standing Committee that founded the Special Branch."
+    },
+    "瞿秋白": {
+      "en": "Qu Qiubai",
+      "pinyin": "Qu Qiubai",
+      "status": "attested",
+      "note": "Party leader after August 1927; writer; executed 1935."
+    },
+    "胡鄂公": {
+      "en": "Hu Egong",
+      "pinyin": "Hu Egong",
+      "status": "attested",
+      "note": "1911 revolutionary and early Marxist who introduced Chen Geng to Yang Du."
+    },
+    "徐梅坤": {
+      "en": "Xu Meikun",
+      "pinyin": "Xu Meikun",
+      "status": "attested",
+      "note": "First head of the Jiangsu committee's \"dog-beating squad,\" the Special Branch's forerunner."
+    },
+    "宗孟平": {
+      "en": "Zong Mengping",
+      "pinyin": "Zong Mengping",
+      "status": "attested",
+      "note": "Communist organizer of the Yixing rising (1927) and later an underground intelligence agent; an obscure figure known chiefly from Party memoirs."
+    },
+    "匡亚明": {
+      "en": "Kuang Yaming",
+      "pinyin": "Kuang Yaming",
+      "status": "attested",
+      "note": "Yixing-area Communist organizer; after 1949 a noted educator and president of Nanjing University (1906–1996)."
+    },
+    "史砚芬": {
+      "en": "Shi Yanfen",
+      "pinyin": "Shi Yanfen",
+      "status": "attested",
+      "note": "Yixing revolutionary and martyr, executed at Yuhuatai in 1928 aged 25; not the same person as Shi Yaobin."
+    },
+    "陈云": {
+      "en": "Chen Yun",
+      "pinyin": "Chen Yun",
+      "status": "attested",
+      "note": "Young Jiangsu labor organizer who briefly ran the Central Special Branch after Gu's defection; later the chief economic planner of the People's Republic (1905–1995)."
+    },
+    "陈独秀": {
+      "en": "Chen Duxiu",
+      "pinyin": "Chen Duxiu",
+      "status": "attested",
+      "note": "Co-founder and first general secretary of the Chinese Communist Party; blamed for the 1927 defeat and later expelled (1879–1942)."
+    },
+    "彭述之": {
+      "en": "Peng Shuzhi",
+      "pinyin": "Peng Shuzhi",
+      "status": "attested",
+      "note": "Party propaganda chief and Chen Duxiu ally who followed him into the Trotskyist opposition (1895–1983)."
+    },
+    "罗亦农": {
+      "en": "Luo Yinong",
+      "pinyin": "Luo Yinong",
+      "status": "attested",
+      "note": "A leader of the Shanghai workers' uprisings; captured and executed in 1928 (1902–1928)."
+    },
+    "赵世炎": {
+      "en": "Zhao Shiyan",
+      "pinyin": "Zhao Shiyan",
+      "status": "attested",
+      "note": "A leader of the Shanghai workers' uprisings; executed in 1927 (1901–1927)."
+    },
+    "汪寿华": {
+      "en": "Wang Shouhua",
+      "pinyin": "Wang Shouhua",
+      "status": "attested",
+      "note": "Head of the Shanghai General Labor Union; strangled by Green Gang gangsters on the eve of the April 12, 1927 coup (1899–1927)."
+    },
+    "蔡孟坚": {
+      "en": "Cai Mengjian",
+      "pinyin": "Cai Mengjian",
+      "status": "attested",
+      "note": "Kuomintang intelligence officer in Wuhan who arrested Gu Shunzhang in 1931 (1905–2001)."
+    },
+    "薛岳": {
+      "en": "Xue Yue",
+      "pinyin": "Xue Yue",
+      "status": "attested",
+      "note": "Northern Expedition commander at Shanghai in 1927, later a leading Nationalist general (1896–1998)."
+    },
+    "杨之华": {
+      "en": "Yang Zhihua",
+      "pinyin": "Yang Zhihua",
+      "status": "attested",
+      "note": "Leading woman organizer of the Party and wife of Qu Qiubai; wrote of Gu Shunzhang under the pen name Du Ning (1901–1973)."
+    }
   },
   "organizations": {
-    "中央特科": {"en": "the Central Special Branch", "pinyin": "Zhongyang Teke", "status": "attested", "note": "The CCP's first intelligence and security service (1927–1935), Shanghai. English form per Wikipedia."},
-    "红队": {"en": "the Red Squad", "pinyin": "hongdui", "status": "attested", "note": "The Special Branch's Action (Third) Section, its assassination unit; also \"the dog-beating squad.\""},
-    "国民党": {"en": "the Kuomintang", "pinyin": "Guomindang", "status": "attested", "note": "Rendered \"Kuomintang\" throughout, the conventional English name."}
+    "中央特科": {
+      "en": "the Central Special Branch",
+      "pinyin": "Zhongyang Teke",
+      "status": "attested",
+      "note": "The CCP's first intelligence and security service (1927–1935), Shanghai. English form per Wikipedia."
+    },
+    "红队": {
+      "en": "the Red Squad",
+      "pinyin": "hongdui",
+      "status": "attested",
+      "note": "The Special Branch's Action (Third) Section, its assassination unit; also \"the dog-beating squad.\""
+    },
+    "国民党": {
+      "en": "the Kuomintang",
+      "pinyin": "Guomindang",
+      "status": "attested",
+      "note": "Rendered \"Kuomintang\" throughout, the conventional English name."
+    },
+    "南洋兄弟烟草公司": {
+      "en": "the Nanyang Brothers Tobacco Company",
+      "pinyin": "Nanyang Xiongdi Yancao Gongsi",
+      "status": "attested",
+      "note": "The largest Chinese-owned tobacco firm, rival to British-American Tobacco; Gu Shunzhang was a foreman at its Shanghai works."
+    },
+    "上海市总工会": {
+      "en": "the Shanghai General Labor Union",
+      "pinyin": "Shanghai shi zong gonghui",
+      "status": "attested",
+      "note": "The Communist-led federation of the city's unions, organizing force of the three workers' uprisings."
+    }
   },
   "places": {
-    "上海": {"en": "Shanghai", "pinyin": "Shanghai", "status": "attested", "note": "Seat of the Party Center and its underground in this period."}
+    "上海": {
+      "en": "Shanghai",
+      "pinyin": "Shanghai",
+      "status": "attested",
+      "note": "Seat of the Party Center and its underground in this period."
+    }
   },
   "terms": {
-    "打狗队": {"en": "the dog-beating squad", "pinyin": "dagou dui", "status": "decided", "note": "Special Branch slang for the assassination squad that eliminated traitors; \"beating the dogs\" (dagou)."},
-    "亭子间": {"en": "tingzijian", "pinyin": "tingzijian", "status": "decided", "note": "The small, cheap back room over the kitchen stair in a Shanghai lane house; a byword for the poor lodging of writers and radicals."}
+    "打狗队": {
+      "en": "the dog-beating squad",
+      "pinyin": "dagou dui",
+      "status": "decided",
+      "note": "Special Branch slang for the assassination squad that eliminated traitors; \"beating the dogs\" (dagou)."
+    },
+    "亭子间": {
+      "en": "tingzijian",
+      "pinyin": "tingzijian",
+      "status": "decided",
+      "note": "The small, cheap back room over the kitchen stair in a Shanghai lane house; a byword for the poor lodging of writers and radicals."
+    }
   }
 }

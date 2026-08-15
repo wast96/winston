@@ -142,3 +142,107 @@ to end; held at the human voice / note-density / formatting gate (Step 0c).
   purge, the "ten years of turmoil", Wakeman, Zhang Guotao, Xu Enzeng, Dong
   Jianwu, Qu Qiubai, Li Qiang, Mei Baoji, Mei Gongbin, the Nineteenth Route
   Army, Song Qingling — all first-noted in ch01.
+
+## B02 = Chapter Two "清者自清，浊者自浊 / The Clean Stay Clean, the Foul Stay Foul"
+
+**Scope:** ch02, PDF 50-59, printed 35-44, two sections (ch02s01 一、英雄阳刚 /
+"A Hero's Mettle"; ch02s02 二、流氓无产者 / "The Lumpen Proletariat"). Done end
+to end. 56 body paragraphs.
+
+### Pipeline
+- Rendered 50-59 @300dpi. Crop as B01:
+  `--left 0.06 --right 0.95 --top 0.11 --bottom 0.955 --lang chi_sim --psm 6`.
+  `ocr_crop` + `ocr_dual` run; `pgrep -c tesseract` = 0 after each.
+- **Folios verified off the scan at every page:** pdf 50 = chapter opener
+  (decorative, faded photo behind the title, NO printed folio = printed 35);
+  pdf 52-58 read 037-043; **offset holds at a constant 15, no drift** (matches
+  book.json / B01).
+- **data/zh/ch02.txt is a HAND TRANSCRIPTION** off the scans (same reason as
+  B01: OCR too noisy, assemble misaligns on the figure-heavy pages 52-53 and
+  the opener). Parity-guaranteed, one paragraph per line, every name/number
+  cross-checked against dual OCR and magnified crops. (data/zh gitignored;
+  reproducibility caveat as B01.)
+
+### Crop-verified readings (names/numbers)
+- **约翰·拜伦、罗伯特·帕克 = John Byron and Robert Pack** (NOT "Baolun/Park"):
+  authors of *The Claws of the Dragon: Kang Sheng* (1992; Chinese tr. 1998).
+  The crop caught 拜 (Byron) mis-first-read as 豹. Western scholars, own names.
+- **史曜宾 (Shi Yaobin) and 史砚芬 (Shi Yanfen) are TWO DIFFERENT people**,
+  both in the source: Shi Yaobin = the Yixing county-committee secretary
+  (p51); Shi Yanfen = uprising vice-commander and the martyr executed at
+  Yuhuatai 1928 (p52-53). Rendered as printed; footnoted the distinction.
+- Verified: 宗孟平/宗益寿/宗颖/吴丹枫/宗文斌, 匡亚明/洁玉/匡世, 荆溪, 史曜宾,
+  李旸谷, 宗盘林, 宗道章, 万益, 段炎华, 蒋三大, 严朴, 后塍, 英举, 赵和, 宗益茂,
+  官林, 李凯, 罗青长, 薛岳, 蔡孟坚, 杨之华/杏花/文君/杜宁. Numbers:
+  6支部/39党员, 502工会/82万会员/3000党员, 五十多万, 12时, 十三村镇 all crop-clean.
+- **杜宁 (Du Ning) is Yang Zhihua's pen name** (the p58 citation uses it);
+  footnoted so the reader does not take it for a separate authority.
+
+### Checks (all green)
+- Parity 56 = 56 (`check_structure --pairs`, `verify_unit`).
+- Numbers: `check_numbers --noise data/noise.txt` 0 unresolved / 56 pairs.
+  `data/noise.txt` extended (commented): idiom-numerals 十足 / 万能 / 两肋;
+  the approximate quantity 五十多万 (= "over 500,000", rendered in full, listed
+  so the generic 十多 rule does not fragment it and orphan 万=10000); and the
+  name-numerals 万益 (surname 万) and 蒋三大 (三). 中午12时 rendered "twelve noon"
+  so the 12 is carried.
+- `check_align` median 5.10 en/han, no pair > 2.2x. `check_content` 45 name
+  occurrences, all in the paired paragraph. `qc_entities` 0 misses (incl. the
+  14 new glossary rows). `check_apparatus` clean.
+- **Register vs frozen ch01** (`check_register --ref out/ch01_reading.md`):
+  within tolerance. Dialogue-contraction metric QUIET (this chapter is quoted
+  meeting-records + citations, little scene dialogue) — judged on the
+  narratorial signals (em-dash 8.7/1k vs ref 8.2; rhythm CV 0.59 vs 0.67;
+  sent median 23), all in range.
+- Tail verification: closing paragraphs (p58, the 顾顺章 blood-and-iron coda)
+  re-read against the scan; faithful, nothing invented.
+- Build: cumulative EPUB rebuilt (2/18 chapters, 143 notes). `qa_epub` PASS
+  (49 files, all links resolve). **epubcheck 5.1.0 clean (0/0).**
+
+### Apparatus
+- **28 footnotes** (`data/ch02_apparatus.json` -> notes.json). Coverage:
+  the chapter-title proverb; the Aug 7 Conference and Autumn Harvest Uprising;
+  Jiangnan geography; the 节孝祠 shrine; Shi Yanfen (martyr + the Shi Yaobin
+  distinction); the Relief Society (济难会 / Red Aid); Chen Yun; the KMT 自首
+  surrender policy; the Mencius three-cannots and the "受屈…知君子" maxim; Mao's
+  1945 "On Coalition Government" line and his 1925 class-analysis essay; the
+  five Shanghai leaders (Chen Duxiu, Peng Shuzhi, Luo Yinong, Zhao Shiyan,
+  Wang Shouhua) with fates; the Shanghai Provisional Municipal Government; the
+  Northern Expedition; "C.P."; the Shanghai General Labor Union; the lumpen-
+  proletariat concept; the secret societies (Triads/Gelaohui/Big Sword/
+  Zailihui/Green Gang); Nanyang Brothers Tobacco; Byron & Pack; Cai Mengjian;
+  Yang Zhihua/Du Ning; Xue Yue; the Green Gang initiation hall. Fact-checks
+  corroborated against Party and Western sources (Shi Yanfen, the Byron/Pack
+  book, Cai Mengjian's 1931 capture of Gu, the Provisional Municipal Govt).
+- **5 figures** (`figures.json`, hand-cropped from the scans, real alt text):
+  portraits of Zong Mengping, Kuang Yaming, Yan Pu (p52) and Chen Yun (p53),
+  and the group photo of Gu Shunzhang at the Provisional Municipal Government
+  (p55). `find_figures` not relied on. The full-page faded painting on **pdf 59**
+  (no folio, no caption) is treated as design furniture, NOT a captioned
+  figure (as with the ch01 chapter-title photo).
+- **14 new glossary rows** (people: Zong Mengping, Kuang Yaming, Shi Yanfen,
+  Chen Yun, Chen Duxiu, Peng Shuzhi, Luo Yinong, Zhao Shiyan, Wang Shouhua,
+  Cai Mengjian, Xue Yue, Yang Zhihua; orgs: Nanyang Brothers Tobacco, Shanghai
+  General Labor Union). All `attested`. (apparatus_merge places rows at top
+  level; MOVED into people/organizations sections by hand, else the builder's
+  render_glossary chokes on a flat row — noted for next batch.)
+
+### NOT re-noted (already placed in ch01) — cross-referenced, not re-noted
+- Gu Shunzhang, Zhou Enlai, the Central Special Branch, the Red Squad, the
+  "dog-beating"/"beating the dogs" usage, the Third/Action Section, Chiang
+  Kai-shek, the May Thirtieth, the three Shanghai workers' uprisings, the
+  soviet/White-areas vocabulary, Qu Qiubai, Du Yuesheng, the Green Gang
+  (青帮; the initiation-hall custom is newly noted), Wakeman, Zhang Guotao,
+  Xu Enzeng, the April 12 coup / party purge, the Comintern.
+
+### Tooling notes (do not revert)
+- `data/noise.txt`: see the ch02 block appended at the end (idiom/name/quantity
+  numerals). Every entry commented; longest-literal-first respected.
+- `apparatus_merge.py` writes glossary rows at the JSON top level; they must be
+  moved into the correct section (people/organizations/...) or the builder
+  fails at render_glossary. Figure `file` fields must be BASENAMES only
+  (builder prepends data/figs and images/); a "data/figs/..." prefix breaks
+  qa_epub with a missing-image path.
+- `check_structure.py --config` cannot run a whole-book parity pass on a fresh
+  checkout because data/zh/ch01.txt is gitignored/absent; per-unit
+  `--pairs data/zh/ch02.txt out/ch02_reading.md` was run instead (OK).
