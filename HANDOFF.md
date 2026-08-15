@@ -48,6 +48,11 @@ Do Batch 2 = Chapter 2, sections 1-3 (ch02s01-ch02s03), PDF 39-68, printed
     Never invent bridging text; verify the final paragraphs against the scan.
   - Footnotes via apparatus_merge.py (glossary rows carry a "section" field:
     people/organizations/places/events/terms). glossary.json + figures.json.
+    HIGH NOTE DENSITY is a standing commissioner directive (see STYLE.local.md):
+    gloss EVERY named person/place/institution/event/period-term a non-specialist
+    might not know, at first appearance, each note saying more than the name.
+    Ch01 carries 73 notes; match that density. Skip only the truly universal
+    (Shanghai, Beijing) and what the prose already fully explains.
   - verify_unit.py, check_structure.py/check_content.py --config data/check_config.json
     (ADD the ch02 units to that config's docs/sources maps), qc_entities.py,
     check_numbers.py --noise data/noise.txt, check_align.py, check_apparatus.py,

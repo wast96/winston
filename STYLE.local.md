@@ -130,6 +130,26 @@ hold it down.
 - **CHECK.** Sentences opening "It was ... that ..." and the collocation "worked
   a change/impression."
 
+### RULE. NOTE DENSITY: gloss every proper noun a non-specialist might not know. [#book]
+- **COMMISSIONER DIRECTIVE (Batch 1 gate).** "A lot more footnotes to explain
+  the names and places and all that... a high density explaining everything just
+  in case there's a gap in my knowledge" &#8212; but "don't add footnotes just
+  to add them." So: default to FOOTNOTING, not to omitting. Every named person,
+  place, institution, event, office, journal, and period term that a well-read
+  Western reader without a China background might not place gets a note at its
+  first appearance: who/what/when, why it matters here, and the fact-check
+  verdict where a claim is checkable. This overrides the base layer's "tier of
+  minor discrepancies left unfootnoted" and its "8-15 notes" early-chapter guide.
+- **THE ONLY THINGS TO SKIP.** Genuinely universal knowledge (Shanghai, Beijing,
+  "the Yangtze"), and anything the surrounding prose already fully explains. A
+  note must still SAY something (a date-span, a fate, a significance) beyond the
+  name; a bare "X was a person" is the padding the directive forbids.
+- **RESULT.** Chapter 1 carries 73 notes (was 24). Keep this density for every
+  chapter; let it taper only as recurring figures get their note once, at first
+  appearance (grep notes.json + earlier reading files before re-noting).
+- **CHECK.** Read each built chapter asking "could a smart reader hit a name
+  here and not know who it is?" If yes, and no note is near, add one.
+
 ## Decided renderings (this book's word-level ledger)
 
 _One rendering per recurring item, like the glossary but for diction and

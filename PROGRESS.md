@@ -138,6 +138,13 @@ On voice-gate approval, ch01 becomes the FROZEN register reference
 (`check_register.py --ref out/ch01_reading.md` for every later batch).
 
 ### Voice gate (Step 0c)
+- **HUMAN GATE outcome:** commissioner approved the voice, and asked for much
+  higher footnote density ("explain the names and places and all that... just in
+  case there's a gap," but no padding). Applied: ch01 notes 24 -> **73** (glossed
+  every non-obvious person/place/institution/event/term at first appearance,
+  each saying more than the name). Recorded as a standing note-density RULE in
+  STYLE.local.md for all future batches. Rebuilt: qa PASS, epubcheck 0/0, all
+  73 anchors resolve. Awaiting confirmation, then freeze as register reference.
 - **Blind-critique loop complete: 3 rounds, converging 30 -> 24 -> 14 findings**
   (round 3: "largely clean, reads as fluent English"). Each round: a fully
   context-blind FRESH reader (no source, no STYLE, no project) via
