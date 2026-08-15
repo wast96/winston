@@ -88,12 +88,29 @@ to end; held at the human voice / note-density / formatting gate (Step 0c).
   addresses 22号/679号.
 
 ### Apparatus
-- **52 footnotes** (`notes.json`): the figures, events, institutions, idioms,
-  and quotations a non-specialist needs, first-appearance anchored, with
-  fact-check verdicts where checkable (the 310,000 purge-deaths flagged as the
+- **115 footnotes** (`notes.json`): first the 52-note base (figures, events,
+  institutions, idioms, quotations a non-specialist needs, first-appearance
+  anchored, fact-check verdicts where checkable: the 310,000 purge-deaths as the
   Party's own Sixth-Congress reckoning; Wakeman = 魏斐德; the Latin maxim = the
-  chapter-title source). Web-verified the Gu Shunzhang / Special Branch /
-  Wakeman claims.
+  chapter-title source); then **+63 notes for the commissioner's density
+  request** (`data/ch01_notes2.json`, merged), closing every place / reference /
+  minor-figure gap a reader with no China background would hit. The trigger was
+  explicit: the six Shanghai pleasure-houses ("Tower-Beyond-the-Tower … the
+  Great World") of which the reader knew two, now all glossed in one note. The
+  new batch sweeps: the venues and the amusement-arcade world; classical
+  conjuring (baixi, the Seven Sages); the department stores and Shen Bao; the
+  Green Gang; the three Shanghai workers' uprisings; the concession/settlement
+  geography that the whole book turns on; the warlords and revolutionaries named
+  in passing (Lu Diping, Zhang Jingyao, Cheng Qian, Tang Shengzhi, Zhang Zuolin,
+  Yuan Shikai, Li Yuanhong, Feng Yuxiang, Bai Chongxi …); the Party congresses
+  (Third, Fifth, Sixth) and bodies (Youth League, Comintern, CPPCC/NPC, Southern
+  Bureau); the 1927 Politburo roster; institutions (Tongmenghui, Tōa Dōbun
+  Shoin, Naigai, Cihai, People's Daily); the White-Terror enforcers and the
+  White/Soviet-areas vocabulary; allusions (Lord Chunshen, Zhuge Liang, Patrick
+  Henry); and the shikumen/tingzijian/xiaokai material culture. All 63 anchors
+  verified unique and non-nesting against the 52 already placed; numeric refs
+  only; `check_apparatus` clean, builder anchor gate green, `qa_epub` PASS,
+  epubcheck 0/0.
 - **12 figures** (`figures.json`) with real alt text; `find_figures` MISSED the
   Shen Bao ad-clippings (dense newsprint) and the org chart (line art) — cropped
   by hand (`data/figs/ch01-*.png`). The faded photo behind the p16 chapter title
