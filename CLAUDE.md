@@ -127,6 +127,14 @@ in the EPUB's OPF package and are what Kindle and Apple Books display:
   time: a live timestamp makes every rebuild a different file and kills
   diffability.
 
+Once `source_language` and `subjects` are set, **compose the style contract**:
+run `python3 scripts/compose_style.py`. It builds this book's `STYLE.md` from
+the shelf-wide `styles/` layers (base + language + genre, selected mechanically)
+and seeds `STYLE.local.md` from the template. `STYLE.md` is a BUILD ARTIFACT:
+never hand-edit it; this book's own rulings go in `STYLE.local.md`. Read BOTH
+before drafting a word. The full system, selection, and the promotion rule are
+in `styles/INDEX.md` and the Register section below.
+
 ## Step 0b: the structural survey (FIRST approval gate)
 
 Before a single word is translated, deliver a survey of the whole book so the
@@ -164,11 +172,54 @@ batched. This is a hard first step, not optional.
 
 ## Step 0c: the first-chapter voice gate (SECOND approval gate)
 
-When Batch 1 is done, STOP once more. Present the built chapter and ask the
-commissioner to judge three things against their taste: the **voice** (is the
-register right, does it read as natural English), the **note density** (is
-everything they'd miss covered, without padding), and the **formatting**. This
-is the one point where their reading changes the whole book downstream.
+When Batch 1 is done, do NOT present it raw. First run the **blind-critique
+evolution loop**, so the chapter the commissioner reads has already been pushed
+as close to airtight as an automated pass can manage, and `STYLE.local.md` has
+already absorbed the lessons. Then hold the human gate.
+
+### The blind-critique evolution loop (before the human gate; up to 3 rounds)
+
+The engine that auto-evolves the style before the commissioner spends any
+effort. Its whole value is a CONTEXT-BLIND reader: a reader who has seen the
+style guide grades against the guide, and one who has seen the source forgives
+the English because they know what it means. We want neither.
+
+1. **Assemble the blind input.** `python3 scripts/voice_gate_critique.py prepare
+   <unit>` writes `out/<unit>_critique_prompt.md`: the built chapter (prose plus
+   its notes, structural markers rendered away) beneath the canonical blind-
+   critic prompt (`review/voice_gate_critic_prompt.md`).
+2. **Read it blind.** Hand that document's contents to a FRESH reader with NO
+   other context: no source, no `STYLE.md`, no glossary, no CLAUDE.md, no project
+   knowledge (a subagent if your surface has them; otherwise a clean instance).
+   It returns specific corrections: the phrase, what is wrong, the fix. Archive
+   them with `voice_gate_critique.py record <unit> <file>`.
+3. **Apply the fixes yourself.** You have the source; the blind reader did not.
+   Apply each correction to `out/<unit>_reading.md`, and re-verify every changed
+   line against the source as if it were new translation (rule 4: a repair must
+   be re-verified, and invents nothing). Where the blind reader misread only
+   because it lacked the source, record why and skip that one.
+4. **Evolve the style.** Cluster the corrections into CLASSES, ask WHY each class
+   happened, and write each as a RULE / WHY / FIX / CHECK entry in
+   `STYLE.local.md`, tagged `#book` or `#promote`. This is exactly how every
+   existing book's ledger was built. A single fix is a data point; the rule that
+   prevents the whole class is the deliverable.
+5. **Rebuild and repeat** from step 1 with a NEW blind reader on the revised
+   chapter, until a round surfaces nothing substantive or you have run three
+   rounds. A reader carried over from a prior round is no longer naive, so each
+   round starts fresh.
+
+Keep `STYLE.md` and the `styles/` layers untouched throughout: all evolution
+lands in `STYLE.local.md` (see the Register section).
+
+### The human gate
+
+Now present the built chapter and ask the commissioner to judge three things
+against their taste: the **voice** (is the register right, does it read as
+natural English), the **note density** (is everything they'd miss covered,
+without padding), and the **formatting**. Include a short summary of what the
+blind loop caught and how you tightened `STYLE.local.md`, so their read begins
+from the evolved chapter, not the raw one. This is the one point where their
+reading changes the whole book downstream.
 
 On approval, the Batch 1 chapter becomes the FROZEN REFERENCE: register is
 measured against it for the rest of the book
@@ -288,7 +339,8 @@ what would not install. Key facts it encodes:
    find missing text; content checks find MISPLACED text; you need both).
 8. Footnotes and glossary via `apparatus_merge.py` (never a shell heredoc);
    `check_apparatus.py` must be clean.
-9. Build the cumulative EPUB, `qa_epub.py`, `check_register.py --ref`, write
+9. Build the cumulative EPUB, `qa_epub.py`, `check_register.py --ref`,
+   `check_style_freshness.py` (informational; do not recompose mid-book), write
    `HANDOFF.md`, commit.
 
 ## The checks — the QC contract
@@ -388,6 +440,27 @@ its first textual appearance, and the footnote should say MORE than the
 glossary row. Numbering is continuous book-wide and assigned by the builder.
 
 ## Register — the style contract (general principles)
+
+**The authoritative contract for THIS book is the composed `STYLE.md` plus
+`STYLE.local.md`, not this section.** `STYLE.md` is built by
+`scripts/compose_style.py` from the shelf-wide `styles/` layers (a
+language-and-genre-neutral base, a `lang-<zh|ja>` layer, and a
+`genre-<fiction|nonfiction>` layer); `STYLE.local.md` is this book's own ledger,
+the only style file a session edits. Read both at the start of every batch. The
+bullets below are the shelf-wide SUMMARY of what those files spell out in full;
+where the two ever disagree, the composed contract wins. Selection, nomenclature
+and the anti-drift promotion rule are documented in `styles/INDEX.md`.
+
+Two disciplines keep the system honest. **Never edit `STYLE.md` or a `styles/`
+layer mid-book** (changing the baseline mid-book is the voice-drift risk this
+file warns about under "a model change mid-book"): a correction for this book
+goes in `STYLE.local.md`, tagged `#book` or `#promote`. And run
+`scripts/check_style_freshness.py` each batch: it reports whether the layers have
+moved since this book was composed. That is INFORMATIONAL within a book (do not
+recompose mid-book); a stale layer is a note for the next book or a corrections
+pass. Promotion of a `#promote` rule into a layer happens between books, on
+`master`, with corroboration, then `tools/sync_shared.sh` carries it to the EPUB
+master so both branches stay identical.
 
 - **Clean, flowing English prose. All apparatus lives in the notes**, never
   inline: no bilingual interleave, no page numbers in the text, no [?]/[!]
@@ -519,10 +592,11 @@ scope with unit ids and page ranges; open traps and environment state.
 
 The kickoff message's FIRST LINE is the project label and batch,
 **[SET PER PROJECT]** e.g. `My Book B07`, then a blank line, then: read
-`CLAUDE.md`, then `HANDOFF.md`, then `book.json`; do batch `<Bxx>` =
+`CLAUDE.md`, then `HANDOFF.md`, then `book.json`, then `STYLE.md` and
+`STYLE.local.md`; do batch `<Bxx>` =
 `<scope>` (PDF `<a-b>`, printed `<a-b>`) end to end per the pipeline;
 BEFORE translating, read the final two pages of the previous unit's English
-(HANDOFF describes the voice; the pages ARE the voice); cite
+(HANDOFF and STYLE describe the voice; the pages ARE the voice); cite
 printed folios; never invent bridging text; do not pause for approval;
 deliver the EPUB in chat and paste the next kickoff. Paste the current
 kickoff verbatim at the end of your batch-completion reply too.
