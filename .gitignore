@@ -37,3 +37,6 @@ out/*_bilingual.md
 # Keep source.pdf and committed figure crops (data/figs/*.png) TRACKED.
 # If your scan is very large and you would rather not commit it, add:
 #   source.pdf
+data/png_survey/
+data/png_toc/
+out/SURVEY32.md

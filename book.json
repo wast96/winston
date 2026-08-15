@@ -1,93 +1,1129 @@
 {
   "_README": "This is the single source of the book's structure. The build is driven ENTIRELY by this file. Fill in every field, delete the _comment/_README keys or leave them (the builder ignores unknown keys). Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists. Cite the book's own PRINTED FOLIO in notes, never the PDF page.",
-
-  "deliverable": "out/book.epub",
+  "deliverable": "out/chinas_secret_war.epub",
   "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this; never rely on the default.",
-
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 1933,
-  "uid": "urn:uuid:my-book-slug-1",
-
+  "title_en": "China's Secret War",
+  "title_zh": "中国秘密战：中共情报、保卫工作纪实",
+  "author_en": "Hao Zaijin",
+  "author_zh": "郝在今",
+  "year": 2015,
   "_metadata_note": "EPUB metadata for e-reader compatibility (Kindle, Apple Books). All values should be in English. publisher is the original publisher; description is a short blurb; subject is a list of genre/topic strings; language defaults to 'en'. publication_date is ISO format (YYYY-MM-DD) of the original publication; if only the year is known, use YYYY-01-01. If uid is missing, or is a urn:uuid whose tail is not a real UUID (like this stub's), the builder substitutes a deterministic UUIDv5 of title_en; a malformed urn:uuid once made Apple Books refuse a book.",
-
   "_metadata_schema": "OPTIONAL richer fields the builder also reads: subtitle_en; title_file_as / author_file_as (sort keys; default to the display forms); translator_en (dc:contributor, MARC role trl); rights; source_ref (dc:source, e.g. the scanned edition or a library call number); subjects (list; preferred over the legacy 'subject', which is still honored); series + series_index (calibre metas plus EPUB3 belongs-to-collection); source_language (BCP-47 of the original, emitted as dcterms:language); source_script (lang tag for source-script spans, e.g. 'zh-Hant' or 'zh-Hans'; default 'zh'); cover_image (path under data/figs/ or data/png/, copied byte-identical; without one a typographic cover is generated when Pillow and fonts allow); modified (RFC-3339 dcterms:modified stamp; defaults to a FIXED value so rebuilds are byte-identical — bump it when you ship a meaningfully new edition).",
-  "publisher": "",
-  "description": "",
-  "subject": [],
+  "publisher": "Gold Wall Press (金城出版社)",
+  "description": "A veteran Chinese literary-historical journalist's documentary account of the hidden front of the Chinese Communist Party: the intelligence and internal-security services that grew up alongside its army, from the \"special work\" cells born of the 1927 terror through the Central Special Branch, the wartime spy duels with the Nationalists and the Japanese, the excesses of the Yan'an \"Rescue Campaign,\" and the transformation of a clandestine party apparatus into the public-security organs of a new state. Built on the author's interviews with hundreds of surviving intelligence and security veterans.",
   "language": "en",
-  "publication_date": "",
-
+  "publication_date": "2015-01-01",
   "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212; em dash, &#160; nbsp), never named entities. If omitted, a generic method note is generated.",
   "translator_note": [
-    "This is an English translation of <i>中文書名</i>, from an image-only scan with no digital text layer.",
-    "Say here how the text was recovered and verified, what the register decisions were, who the author is and how to read the source, and how any damaged or missing passages were handled. Keep it honest about method and provenance."
+    "This is an English translation of <i>中国秘密战：中共情报、保卫工作纪实</i> (<i>China's Secret War: A Documentary Record of the CCP's Intelligence and Security Work</i>) by Hao Zaijin, prepared from an image-only scan with no digital text layer.",
+    "The book is reportage (<i>报告文学</i>), not academic history: it is built on the author's own interviews with surviving intelligence and security veterans and is told in a brisk, colloquial, frequently editorializing voice. That voice has been kept. Where the book's factual claims can be checked against the documentary record, the footnotes say whether the account is corroborated, uncorroborated, or contradicted; where it reflects the author's political vantage as a sympathetic insider, the notes say so.",
+    "Chinese personal and place names use pinyin except for forms with a settled English convention. Intelligence-service terms (中统, 军统, 中央特科, 社会部) are glossed at first appearance and listed in the glossary. Footnotes cite the book's own printed page numbers. Damaged or uncertain readings from the scan are flagged honestly rather than smoothed over."
   ],
-
-  "_source_note": "Free-text provenance: where the scan came from, how many PDF pages, seal/artifact warnings, whether the PDF has bookmarks. Informational only.",
-  "source_note": "Image-only PDF scan; NN pages; no text layer. Note any library seal, dark-edge artifacts, or embedded bookmarks here.",
-
+  "source_note": "Image-only PDF scan, 436 pages, no text layer (Internet Archive, from Contra Costa County Library). Simplified Chinese, horizontal, left-to-right. Structure: cover and title/CIP pages (PDF 1-4); a photo-plate section interleaved with the printed table of contents (PDF 5-32, its own folio sequences); Preface 前言 探秘 (PDF 33-35, own sequence, printed 1-3); body 12 chapters / 86 numbered sections (PDF 37-430, printed 1-394, offset constant: printed = pdf - 36); a source-note / interviewee section and the Afterword 后记 (PDF 427-434, printed ~391-398); library endpapers (PDF 435-436). The book carries its OWN apparatus of source notes citing the author's interviews; detect and handle with detect_notes.py at batch time. Verso pages print a vertical running title in the outer (left) margin; crop before OCR. This is the '最新升级图文版' (newest upgraded illustrated edition).",
   "_offset_note": "The PDF-page-to-printed-folio offset usually DRIFTS as unpaginated plates accumulate. Do NOT use a constant formula. Record per-section pdf_page/printed_page anchors below and READ the folio off the scan at each opener.",
-
   "_end_note": "The last PDF page and printed folio of the body text. Set these so the LAST chapter's/section's page length is known in the survey; without them its length shows as '?'.",
-  "pdf_end": 292,
-  "printed_end": 236,
-
+  "pdf_end": 434,
+  "printed_end": 398,
   "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (zh), title_en, pdf_page + printed_page of its opener, and a sections list. OPTIONAL 'part': a label like 'Part One. ...' — consecutive chapters sharing a part are grouped under it in the TOC. Each section: id (ch01s01..), section (int), title (zh), title_en, pdf_page, printed_page, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en, pdf_page, printed_page). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front (from the TOC or PDF bookmarks): the survey and the skeleton EPUB are built from it before any translation.",
   "structure": [
     {
       "level": 1,
+      "id": "ch00",
+      "chapter": 0,
+      "matter": "front",
+      "title": "前言 探秘",
+      "title_en": "Preface: Probing the Secret",
+      "pdf_page": 33,
+      "printed_page": 1,
+      "sections": []
+    },
+    {
+      "level": 1,
       "id": "ch01",
       "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "pdf_page": 27,
+      "title": "第一章 “枪杆子”与“刀把子”",
+      "subtitle": "恐怖镇压催生特别组织",
+      "title_en": "Chapter 1. “The Gun” and “The Knife”: Terror and Repression Breed a Special Organization",
+      "pdf_page": 37,
       "printed_page": 1,
       "sections": [
         {
           "id": "ch01s01",
           "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "pdf_page": 27,
-          "printed_page": 1,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)",
-              "pdf_page": 27,
-              "printed_page": 1
-            }
-          ]
+          "title": "1. 现代中国的第一个“特务”组织",
+          "title_en": "1. Modern China’s First “Secret Service” Organization",
+          "pdf_page": 37,
+          "printed_page": 1
         },
         {
           "id": "ch01s02",
           "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "pdf_page": 33,
-          "printed_page": 7
+          "title": "2. 中央特科",
+          "title_en": "2. The Central Special Branch",
+          "pdf_page": 41,
+          "printed_page": 5
+        },
+        {
+          "id": "ch01s03",
+          "section": 3,
+          "title": "3. 巅峰对决",
+          "title_en": "3. Showdown at the Summit",
+          "pdf_page": 46,
+          "printed_page": 10
+        },
+        {
+          "id": "ch01s04",
+          "section": 4,
+          "title": "4. 国家政治保卫局",
+          "title_en": "4. The State Political Security Bureau",
+          "pdf_page": 50,
+          "printed_page": 14
+        },
+        {
+          "id": "ch01s05",
+          "section": 5,
+          "title": "5. 苏区肃反",
+          "title_en": "5. Purging Counter-revolutionaries in the Soviet Areas",
+          "pdf_page": 54,
+          "printed_page": 18
+        },
+        {
+          "id": "ch01s06",
+          "section": 6,
+          "title": "6. 红军长征的“杀手锏”",
+          "title_en": "6. The Red Army’s “Trump Card” on the Long March",
+          "pdf_page": 57,
+          "printed_page": 21
+        },
+        {
+          "id": "ch01s07",
+          "section": 7,
+          "title": "7. 落脚陕北的第一步",
+          "title_en": "7. The First Step to a Foothold in Northern Shaanxi",
+          "pdf_page": 61,
+          "printed_page": 25
+        },
+        {
+          "id": "ch01s08",
+          "section": 8,
+          "title": "8. 密晤少帅的神秘人",
+          "title_en": "8. The Mysterious Man Who Secretly Met the Young Marshal",
+          "pdf_page": 70,
+          "printed_page": 34
+        },
+        {
+          "id": "ch01s09",
+          "section": 9,
+          "title": "9. “特区”与“特务”",
+          "title_en": "9. “Special Zones” and “Special Agents”",
+          "pdf_page": 74,
+          "printed_page": 38
         }
       ]
+    },
+    {
+      "level": 1,
+      "id": "ch02",
+      "chapter": 2,
+      "title": "第二章 暗战",
+      "subtitle": "党派合作中的隐蔽斗争",
+      "title_en": "Chapter 2. Secret War: The Hidden Struggle Within a United Front",
+      "pdf_page": 82,
+      "printed_page": 46,
+      "sections": [
+        {
+          "id": "ch02s01",
+          "section": 1,
+          "title": "1. 周恩来遇险",
+          "title_en": "1. Zhou Enlai in Danger",
+          "pdf_page": 82,
+          "printed_page": 46
+        },
+        {
+          "id": "ch02s02",
+          "section": 2,
+          "title": "2. “中统”和“军统”赫然成局",
+          "title_en": "2. “Zhongtong” and “Juntong” Take Formal Shape",
+          "pdf_page": 87,
+          "printed_page": 51
+        },
+        {
+          "id": "ch02s03",
+          "section": 3,
+          "title": "3. 出逃事件！",
+          "title_en": "3. The Defection Incident!",
+          "pdf_page": 94,
+          "printed_page": 58
+        },
+        {
+          "id": "ch02s04",
+          "section": 4,
+          "title": "4. 中共中央社会部",
+          "title_en": "4. The CCP Central Social Affairs Department",
+          "pdf_page": 98,
+          "printed_page": 62
+        },
+        {
+          "id": "ch02s05",
+          "section": 5,
+          "title": "5. 陕甘宁边区保安处",
+          "title_en": "5. The Shaanxi-Gansu-Ningxia Border Region Security Office",
+          "pdf_page": 104,
+          "printed_page": 68
+        },
+        {
+          "id": "ch02s06",
+          "section": 6,
+          "title": "6. 知青进入特训班",
+          "title_en": "6. Educated Youth Enter the Special Training Class",
+          "pdf_page": 109,
+          "printed_page": 73
+        },
+        {
+          "id": "ch02s07",
+          "section": 7,
+          "title": "7. 延安防线",
+          "title_en": "7. The Yan’an Defense Line",
+          "pdf_page": 120,
+          "printed_page": 84
+        },
+        {
+          "id": "ch02s08",
+          "section": 8,
+          "title": "8. 大布局",
+          "title_en": "8. The Grand Deployment",
+          "pdf_page": 124,
+          "printed_page": 88
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch03",
+      "chapter": 3,
+      "title": "第三章 从“地下”到“地上”",
+      "subtitle": "公开与秘密结合的活动方式",
+      "title_en": "Chapter 3. From “Underground” to “Aboveground”: Combining Open and Secret Methods of Operation",
+      "pdf_page": 134,
+      "printed_page": 98,
+      "sections": [
+        {
+          "id": "ch03s01",
+          "section": 1,
+          "title": "1. 遍地开花的“八办”",
+          "title_en": "1. The “Eighth Route Army Offices” Blossom Everywhere",
+          "pdf_page": 134,
+          "printed_page": 98
+        },
+        {
+          "id": "ch03s02",
+          "section": 2,
+          "title": "2. 绝密的“重庆联络图”",
+          "title_en": "2. The Top-Secret “Chongqing Contact Chart”",
+          "pdf_page": 141,
+          "printed_page": 105
+        },
+        {
+          "id": "ch03s03",
+          "section": 3,
+          "title": "3. “闲棋冷子”与“战略间谍”",
+          "title_en": "3. “Idle Chessmen” and “Strategic Spies”",
+          "pdf_page": 144,
+          "printed_page": 108
+        },
+        {
+          "id": "ch03s04",
+          "section": 4,
+          "title": "4. 为党赚钱的“公司”",
+          "title_en": "4. The “Companies” That Made Money for the Party",
+          "pdf_page": 150,
+          "printed_page": 114
+        },
+        {
+          "id": "ch03s05",
+          "section": 5,
+          "title": "5. 遥远的“海外工作”",
+          "title_en": "5. Distant “Overseas Work”",
+          "pdf_page": 154,
+          "printed_page": 118
+        },
+        {
+          "id": "ch03s06",
+          "section": 6,
+          "title": "6. 西安大斗法的谜底",
+          "title_en": "6. The Answer to the Great Contest in Xi’an",
+          "pdf_page": 158,
+          "printed_page": 122
+        },
+        {
+          "id": "ch03s07",
+          "section": 7,
+          "title": "7. 周恩来的情报搜集方式——广交朋友",
+          "title_en": "7. Zhou Enlai’s Way of Gathering Intelligence: Making Friends Widely",
+          "pdf_page": 164,
+          "printed_page": 128
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch04",
+      "chapter": 4,
+      "title": "第四章 拔钉子",
+      "subtitle": "维护政权安全的隐蔽斗争",
+      "title_en": "Chapter 4. Pulling Out the Nails: The Covert Struggle to Secure Political Power",
+      "pdf_page": 171,
+      "printed_page": 135,
+      "sections": [
+        {
+          "id": "ch04s01",
+          "section": 1,
+          "title": "1. “双重政权”",
+          "title_en": "1. “Dual Regimes”",
+          "pdf_page": 171,
+          "printed_page": 135
+        },
+        {
+          "id": "ch04s02",
+          "section": 2,
+          "title": "2. 争抢“宝葫芦”",
+          "title_en": "2. Fighting Over the “Treasure Gourd”",
+          "pdf_page": 175,
+          "printed_page": 139
+        },
+        {
+          "id": "ch04s03",
+          "section": 3,
+          "title": "3. “红色福尔摩斯”出招",
+          "title_en": "3. The “Red Sherlock Holmes” Makes His Move",
+          "pdf_page": 178,
+          "printed_page": 142
+        },
+        {
+          "id": "ch04s04",
+          "section": 4,
+          "title": "4. 反腐风暴",
+          "title_en": "4. The Anti-Corruption Storm",
+          "pdf_page": 179,
+          "printed_page": 143
+        },
+        {
+          "id": "ch04s05",
+          "section": 5,
+          "title": "5. “护送出境”",
+          "title_en": "5. “Escorted Out of the Territory”",
+          "pdf_page": 180,
+          "printed_page": 144
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch05",
+      "chapter": 5,
+      "title": "第五章 深入虎穴",
+      "subtitle": "中共情报员全线出击",
+      "title_en": "Chapter 5. Into the Tiger’s Den: CCP Intelligence Officers Go on the Offensive",
+      "pdf_page": 184,
+      "printed_page": 148,
+      "sections": [
+        {
+          "id": "ch05s01",
+          "section": 1,
+          "title": "1. “东方大黑暗”！",
+          "title_en": "1. “The Great Darkness in the East”!",
+          "pdf_page": 184,
+          "printed_page": 148
+        },
+        {
+          "id": "ch05s02",
+          "section": 2,
+          "title": "2. 是谁向斯大林通报德国侵苏情报？",
+          "title_en": "2. Who Warned Stalin of Germany’s Invasion of the USSR?",
+          "pdf_page": 187,
+          "printed_page": 151
+        },
+        {
+          "id": "ch05s03",
+          "section": 3,
+          "title": "3. 毛泽东的情报分析方式——调查研究",
+          "title_en": "3. Mao Zedong’s Method of Intelligence Analysis: Investigation and Study",
+          "pdf_page": 193,
+          "printed_page": 157
+        },
+        {
+          "id": "ch05s04",
+          "section": 4,
+          "title": "4. 延安出击",
+          "title_en": "4. Yan’an Strikes Out",
+          "pdf_page": 197,
+          "printed_page": 161
+        },
+        {
+          "id": "ch05s05",
+          "section": 5,
+          "title": "5. 西安织网",
+          "title_en": "5. Weaving the Net in Xi’an",
+          "pdf_page": 200,
+          "printed_page": 164
+        },
+        {
+          "id": "ch05s06",
+          "section": 6,
+          "title": "6. 战地军情急",
+          "title_en": "6. Urgent Military Intelligence at the Front",
+          "pdf_page": 203,
+          "printed_page": 167
+        },
+        {
+          "id": "ch05s07",
+          "section": 7,
+          "title": "7. 突破“国防线”！",
+          "title_en": "7. Breaking Through the “National Defense Line”!",
+          "pdf_page": 207,
+          "printed_page": 171
+        },
+        {
+          "id": "ch05s08",
+          "section": 8,
+          "title": "8. 挑战情报强国",
+          "title_en": "8. Challenging the Intelligence Powers",
+          "pdf_page": 211,
+          "printed_page": 175
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch06",
+      "chapter": 6,
+      "title": "第六章 东方大谍",
+      "subtitle": "国际战略情报的跨国竞争",
+      "title_en": "Chapter 6. The Great Spies of the East: The Transnational Contest for Strategic Intelligence",
+      "pdf_page": 223,
+      "printed_page": 187,
+      "sections": [
+        {
+          "id": "ch06s01",
+          "section": 1,
+          "title": "1. 上海滩有个日本“国策学校”",
+          "title_en": "1. A Japanese “State-Policy School” on the Shanghai Bund",
+          "pdf_page": 223,
+          "printed_page": 187
+        },
+        {
+          "id": "ch06s02",
+          "section": 2,
+          "title": "2. “机关”中的机关",
+          "title_en": "2. The Agency Within the “Agency”",
+          "pdf_page": 227,
+          "printed_page": 191
+        },
+        {
+          "id": "ch06s03",
+          "section": 3,
+          "title": "3. 延安也有个日本学校",
+          "title_en": "3. Yan’an Had a Japanese School Too",
+          "pdf_page": 231,
+          "printed_page": 195
+        },
+        {
+          "id": "ch06s04",
+          "section": 4,
+          "title": "4. 巧施离间计",
+          "title_en": "4. A Deft Stratagem to Sow Discord",
+          "pdf_page": 234,
+          "printed_page": 198
+        },
+        {
+          "id": "ch06s05",
+          "section": 5,
+          "title": "5. 从“巴巴罗萨”到“关特演”",
+          "title_en": "5. From “Barbarossa” to the “Kwantung Army Special Maneuvers”",
+          "pdf_page": 236,
+          "printed_page": 200
+        },
+        {
+          "id": "ch06s06",
+          "section": 6,
+          "title": "6. 绝密情报深藏虎穴",
+          "title_en": "6. Top-Secret Intelligence Hidden Deep in the Tiger’s Den",
+          "pdf_page": 240,
+          "printed_page": 204
+        },
+        {
+          "id": "ch06s07",
+          "section": 7,
+          "title": "7. 最高统帅的最高责任",
+          "title_en": "7. The Supreme Commander’s Supreme Responsibility",
+          "pdf_page": 243,
+          "printed_page": 207
+        },
+        {
+          "id": "ch06s08",
+          "section": 8,
+          "title": "8. 异国兄弟，生死相助",
+          "title_en": "8. Brothers from Foreign Lands, Aiding Unto Death",
+          "pdf_page": 250,
+          "printed_page": 214
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch07",
+      "chapter": 7,
+      "title": "第七章 锄奸",
+      "subtitle": "复杂深奥的反间谍之战",
+      "title_en": "Chapter 7. Rooting Out Traitors: The Deep and Intricate War of Counter-espionage",
+      "pdf_page": 256,
+      "printed_page": 220,
+      "sections": [
+        {
+          "id": "ch07s01",
+          "section": 1,
+          "title": "1. 行刺总司令的“双料特务”",
+          "title_en": "1. The “Double Agent” Who Tried to Kill the Commander-in-Chief",
+          "pdf_page": 256,
+          "printed_page": 220
+        },
+        {
+          "id": "ch07s02",
+          "section": 2,
+          "title": "2. 大安庄来了个“好鬼子”",
+          "title_en": "2. A “Good Devil” Comes to Da’anzhuang",
+          "pdf_page": 260,
+          "printed_page": 224
+        },
+        {
+          "id": "ch07s03",
+          "section": 3,
+          "title": "3. 军统总台有个“党支部”",
+          "title_en": "3. A “Party Branch” Inside Juntong’s Main Station",
+          "pdf_page": 262,
+          "printed_page": 226
+        },
+        {
+          "id": "ch07s04",
+          "section": 4,
+          "title": "4. 关中有个“双重间谍”",
+          "title_en": "4. A “Double Agent” in Guanzhong",
+          "pdf_page": 268,
+          "printed_page": 232
+        },
+        {
+          "id": "ch07s05",
+          "section": 5,
+          "title": "5. “雷公咋不打毛泽东？”",
+          "title_en": "5. “Why Doesn’t the Thunder God Strike Mao Zedong?”",
+          "pdf_page": 274,
+          "printed_page": 238
+        },
+        {
+          "id": "ch07s06",
+          "section": 6,
+          "title": "6. 反间计",
+          "title_en": "6. The Counter-espionage Stratagem",
+          "pdf_page": 277,
+          "printed_page": 241
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch08",
+      "chapter": 8,
+      "title": "第八章 延安反特第一案",
+      "subtitle": "“化敌为我服务”的制胜方针",
+      "title_en": "Chapter 8. Yan’an’s First Great Counter-espionage Case: The Winning Policy of “Turning the Enemy to Serve Us”",
+      "pdf_page": 282,
+      "printed_page": 246,
+      "sections": [
+        {
+          "id": "ch08s01",
+          "section": 1,
+          "title": "1. 军统有个“死间”特训班",
+          "title_en": "1. Juntong’s Special Training Class for “Expendable Agents”",
+          "pdf_page": 282,
+          "printed_page": 246
+        },
+        {
+          "id": "ch08s02",
+          "section": 2,
+          "title": "2. 放线与织网",
+          "title_en": "2. Casting the Line and Weaving the Net",
+          "pdf_page": 284,
+          "printed_page": 248
+        },
+        {
+          "id": "ch08s03",
+          "section": 3,
+          "title": "3. 大案惊天！",
+          "title_en": "3. A Case to Shake the Heavens!",
+          "pdf_page": 288,
+          "printed_page": 252
+        },
+        {
+          "id": "ch08s04",
+          "section": 4,
+          "title": "4. 侦控特务联络员",
+          "title_en": "4. Tracking the Agents’ Couriers",
+          "pdf_page": 291,
+          "printed_page": 255
+        },
+        {
+          "id": "ch08s05",
+          "section": 5,
+          "title": "5. 深挖独立小组",
+          "title_en": "5. Digging Out the Independent Cell",
+          "pdf_page": 294,
+          "printed_page": 258
+        },
+        {
+          "id": "ch08s06",
+          "section": 6,
+          "title": "6. 反用特务",
+          "title_en": "6. Turning Enemy Agents to Our Use",
+          "pdf_page": 295,
+          "printed_page": 259
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch09",
+      "chapter": 9,
+      "title": "第九章 “抢救运动”",
+      "subtitle": "政治运动中反特斗争扩大化",
+      "title_en": "Chapter 9. The “Rescue Campaign”: How a Political Campaign Broadened the Hunt for Agents",
+      "pdf_page": 305,
+      "printed_page": 269,
+      "sections": [
+        {
+          "id": "ch09s01",
+          "section": 1,
+          "title": "1. “侦破”与“运动”同步",
+          "title_en": "1. “Case-Cracking” in Step with the “Campaign”",
+          "pdf_page": 305,
+          "printed_page": 269
+        },
+        {
+          "id": "ch09s02",
+          "section": 2,
+          "title": "2. 从“老号疑犯”到“山东肃托”",
+          "title_en": "2. From the “Old-Case Suspects” to the “Shandong Anti-Trotskyist Purge”",
+          "pdf_page": 309,
+          "printed_page": 273
+        },
+        {
+          "id": "ch09s03",
+          "section": 3,
+          "title": "3. “四大特务”和“红旗党”",
+          "title_en": "3. The “Four Great Agents” and the “Red-Flag Party”",
+          "pdf_page": 312,
+          "printed_page": 276
+        },
+        {
+          "id": "ch09s04",
+          "section": 4,
+          "title": "4. “外来知识分子”中“特务如麻”？",
+          "title_en": "4. Were the “Outside Intellectuals” “Riddled with Agents”?",
+          "pdf_page": 317,
+          "printed_page": 281
+        },
+        {
+          "id": "ch09s05",
+          "section": 5,
+          "title": "5. “群众运动”加“逼、供、信”",
+          "title_en": "5. “Mass Campaigns” Plus “Coerce, Confess, Believe”",
+          "pdf_page": 319,
+          "printed_page": 283
+        },
+        {
+          "id": "ch09s06",
+          "section": 6,
+          "title": "6. 毛泽东道歉",
+          "title_en": "6. Mao Zedong Apologizes",
+          "pdf_page": 324,
+          "printed_page": 288
+        },
+        {
+          "id": "ch09s07",
+          "section": 7,
+          "title": "7. 《刘巧儿告状》",
+          "title_en": "7. “Liu Qiao’er Brings Suit”",
+          "pdf_page": 331,
+          "printed_page": 295
+        },
+        {
+          "id": "ch09s08",
+          "section": 8,
+          "title": "8. 到前线去自己做结论！",
+          "title_en": "8. Go to the Front and Draw Your Own Conclusions!",
+          "pdf_page": 335,
+          "printed_page": 299
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch10",
+      "chapter": 10,
+      "title": "第十章 阳谋",
+      "subtitle": "和战之间的秘密较量",
+      "title_en": "Chapter 10. The Open Scheme: The Secret Contest Between Peace and War",
+      "pdf_page": 343,
+      "printed_page": 307,
+      "sections": [
+        {
+          "id": "ch10s01",
+          "section": 1,
+          "title": "1. 秘密战线提前较劲",
+          "title_en": "1. The Secret Front Locks Horns Early",
+          "pdf_page": 343,
+          "printed_page": 307
+        },
+        {
+          "id": "ch10s02",
+          "section": 2,
+          "title": "2. 假戏真做的重庆谈判",
+          "title_en": "2. The Chongqing Negotiations: A Play Performed in Earnest",
+          "pdf_page": 347,
+          "printed_page": 311
+        },
+        {
+          "id": "ch10s03",
+          "section": 3,
+          "title": "3. 是谁错过了历史机遇？",
+          "title_en": "3. Who Missed the Historic Opportunity?",
+          "pdf_page": 351,
+          "printed_page": 315
+        },
+        {
+          "id": "ch10s04",
+          "section": 4,
+          "title": "4. 激活“冷藏间谍”",
+          "title_en": "4. Activating the “Cold-Storage Spies”",
+          "pdf_page": 356,
+          "printed_page": 320
+        },
+        {
+          "id": "ch10s05",
+          "section": 5,
+          "title": "5. 中国还有“民主联军”",
+          "title_en": "5. China Also Had a “Democratic Allied Army”",
+          "pdf_page": 359,
+          "printed_page": 323
+        },
+        {
+          "id": "ch10s06",
+          "section": 6,
+          "title": "6. 中共情报界的“后三杰”",
+          "title_en": "6. The “Latter Three Heroes” of CCP Intelligence",
+          "pdf_page": 361,
+          "printed_page": 325
+        },
+        {
+          "id": "ch10s07",
+          "section": 7,
+          "title": "7. 延安大撤退",
+          "title_en": "7. The Great Withdrawal from Yan’an",
+          "pdf_page": 364,
+          "printed_page": 328
+        },
+        {
+          "id": "ch10s08",
+          "section": 8,
+          "title": "8. 延安游击队",
+          "title_en": "8. The Yan’an Guerrillas",
+          "pdf_page": 372,
+          "printed_page": 336
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch11",
+      "chapter": 11,
+      "title": "第十一章 大策反",
+      "subtitle": "秘密斗争的至高境界",
+      "title_en": "Chapter 11. The Great Turning: The Highest Art of Secret Struggle",
+      "pdf_page": 384,
+      "printed_page": 348,
+      "sections": [
+        {
+          "id": "ch11s01",
+          "section": 1,
+          "title": "1. 黄土高原上演电子对抗",
+          "title_en": "1. Electronic Warfare on the Loess Plateau",
+          "pdf_page": 384,
+          "printed_page": 348
+        },
+        {
+          "id": "ch11s02",
+          "section": 2,
+          "title": "2. 谁先收到胡宗南的作战电报？",
+          "title_en": "2. Who Received Hu Zongnan’s Battle Orders First?",
+          "pdf_page": 388,
+          "printed_page": 352
+        },
+        {
+          "id": "ch11s03",
+          "section": 3,
+          "title": "3. 情报工作最成功的时期",
+          "title_en": "3. The Most Successful Period of Intelligence Work",
+          "pdf_page": 392,
+          "printed_page": 356
+        },
+        {
+          "id": "ch11s04",
+          "section": 4,
+          "title": "4. “华北五烈士”",
+          "title_en": "4. The “Five Martyrs of North China”",
+          "pdf_page": 393,
+          "printed_page": 357
+        },
+        {
+          "id": "ch11s05",
+          "section": 5,
+          "title": "5. 不战而屈人之兵",
+          "title_en": "5. Subduing the Enemy Without a Fight",
+          "pdf_page": 396,
+          "printed_page": 360
+        },
+        {
+          "id": "ch11s06",
+          "section": 6,
+          "title": "6. 中将之死",
+          "title_en": "6. Death of a Lieutenant General",
+          "pdf_page": 403,
+          "printed_page": 367
+        },
+        {
+          "id": "ch11s07",
+          "section": 7,
+          "title": "7. 建国大业",
+          "title_en": "7. The Great Enterprise of Founding the Nation",
+          "pdf_page": 406,
+          "printed_page": 370
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch12",
+      "chapter": 12,
+      "title": "第十二章 明暗易位",
+      "subtitle": "走上执政舞台的强力机构",
+      "title_en": "Chapter 12. Light and Dark Change Places: A Powerful Apparatus Takes the Governing Stage",
+      "pdf_page": 411,
+      "printed_page": 375,
+      "sections": [
+        {
+          "id": "ch12s01",
+          "section": 1,
+          "title": "1. 中国公安“一百单八将”",
+          "title_en": "1. China’s Public Security “Hundred-and-Eight Heroes”",
+          "pdf_page": 411,
+          "printed_page": 375
+        },
+        {
+          "id": "ch12s02",
+          "section": 2,
+          "title": "2. 西进！南下！",
+          "title_en": "2. West! South!",
+          "pdf_page": 415,
+          "printed_page": 379
+        },
+        {
+          "id": "ch12s03",
+          "section": 3,
+          "title": "3. 哪个国家最早反恐？",
+          "title_en": "3. Which Country Fought Terror First?",
+          "pdf_page": 420,
+          "printed_page": 384
+        },
+        {
+          "id": "ch12s04",
+          "section": 4,
+          "title": "4. 公安局长也挨整",
+          "title_en": "4. Even the Police Chiefs Were Purged",
+          "pdf_page": 423,
+          "printed_page": 387
+        },
+        {
+          "id": "ch12s05",
+          "section": 5,
+          "title": "5. “砸烂公检法！”",
+          "title_en": "5. “Smash the Police, Procuratorate, and Courts!”",
+          "pdf_page": 424,
+          "printed_page": 388
+        },
+        {
+          "id": "ch12s06",
+          "section": 6,
+          "title": "6. 发掘文化基因",
+          "title_en": "6. Excavating the Cultural Gene",
+          "pdf_page": 426,
+          "printed_page": 390
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": "ch13",
+      "chapter": 13,
+      "matter": "back",
+      "title": "后记",
+      "title_en": "Afterword",
+      "pdf_page": 431,
+      "printed_page": 395,
+      "sections": []
     }
   ],
-
   "_batches_note": "Your work plan: split the book into batches (a chapter, or a run of sections) and do each end to end. Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
   "batches": [
     {
       "batch": "B01",
-      "title": "ch1",
-      "pdf_range": [27, 42],
-      "printed_range": [1, 16],
+      "title": "Preface + Chapter 1 (VOICE GATE)",
+      "units": [
+        "ch00",
+        "ch01"
+      ],
+      "pdf_range": [
+        33,
+        81
+      ],
+      "printed_range": [
+        1,
+        45
+      ],
       "first_section": "ch01s01",
-      "last_section": "ch01s02"
+      "last_section": "ch01s09",
+      "note": "Establishes the pipeline (crop/OCR/figures) and the frozen voice reference (out/ch01_reading.md). Second approval gate (Step 0c) after this batch. May be split 1-5 / 6-9 if a lighter first pass is preferred."
+    },
+    {
+      "batch": "B02",
+      "title": "Chapter 2 (part 1)",
+      "units": [
+        "ch02"
+      ],
+      "pdf_range": [
+        82,
+        103
+      ],
+      "printed_range": [
+        46,
+        72
+      ],
+      "first_section": "ch02s01",
+      "last_section": "ch02s05"
+    },
+    {
+      "batch": "B03",
+      "title": "Chapter 2 (part 2)",
+      "units": [
+        "ch02"
+      ],
+      "pdf_range": [
+        104,
+        133
+      ],
+      "printed_range": [
+        73,
+        97
+      ],
+      "first_section": "ch02s06",
+      "last_section": "ch02s08"
+    },
+    {
+      "batch": "B04",
+      "title": "Chapter 3",
+      "units": [
+        "ch03"
+      ],
+      "pdf_range": [
+        134,
+        170
+      ],
+      "printed_range": [
+        98,
+        134
+      ],
+      "first_section": "ch03s01",
+      "last_section": "ch03s07"
+    },
+    {
+      "batch": "B05",
+      "title": "Chapter 4",
+      "units": [
+        "ch04"
+      ],
+      "pdf_range": [
+        171,
+        183
+      ],
+      "printed_range": [
+        135,
+        147
+      ],
+      "first_section": "ch04s01",
+      "last_section": "ch04s05"
+    },
+    {
+      "batch": "B06",
+      "title": "Chapter 5",
+      "units": [
+        "ch05"
+      ],
+      "pdf_range": [
+        184,
+        222
+      ],
+      "printed_range": [
+        148,
+        186
+      ],
+      "first_section": "ch05s01",
+      "last_section": "ch05s08"
+    },
+    {
+      "batch": "B07",
+      "title": "Chapter 6",
+      "units": [
+        "ch06"
+      ],
+      "pdf_range": [
+        223,
+        255
+      ],
+      "printed_range": [
+        187,
+        219
+      ],
+      "first_section": "ch06s01",
+      "last_section": "ch06s08"
+    },
+    {
+      "batch": "B08",
+      "title": "Chapter 7",
+      "units": [
+        "ch07"
+      ],
+      "pdf_range": [
+        256,
+        281
+      ],
+      "printed_range": [
+        220,
+        245
+      ],
+      "first_section": "ch07s01",
+      "last_section": "ch07s06"
+    },
+    {
+      "batch": "B09",
+      "title": "Chapter 8",
+      "units": [
+        "ch08"
+      ],
+      "pdf_range": [
+        282,
+        304
+      ],
+      "printed_range": [
+        246,
+        268
+      ],
+      "first_section": "ch08s01",
+      "last_section": "ch08s06"
+    },
+    {
+      "batch": "B10",
+      "title": "Chapter 9",
+      "units": [
+        "ch09"
+      ],
+      "pdf_range": [
+        305,
+        342
+      ],
+      "printed_range": [
+        269,
+        306
+      ],
+      "first_section": "ch09s01",
+      "last_section": "ch09s08"
+    },
+    {
+      "batch": "B11",
+      "title": "Chapter 10",
+      "units": [
+        "ch10"
+      ],
+      "pdf_range": [
+        343,
+        383
+      ],
+      "printed_range": [
+        307,
+        347
+      ],
+      "first_section": "ch10s01",
+      "last_section": "ch10s08"
+    },
+    {
+      "batch": "B12",
+      "title": "Chapter 11",
+      "units": [
+        "ch11"
+      ],
+      "pdf_range": [
+        384,
+        410
+      ],
+      "printed_range": [
+        348,
+        374
+      ],
+      "first_section": "ch11s01",
+      "last_section": "ch11s07"
+    },
+    {
+      "batch": "B13",
+      "title": "Chapter 12 + Afterword (FINAL: back matter, reconciliation, completion)",
+      "units": [
+        "ch12",
+        "ch13"
+      ],
+      "pdf_range": [
+        411,
+        434
+      ],
+      "printed_range": [
+        375,
+        398
+      ],
+      "first_section": "ch12s01",
+      "last_section": "ch12s06",
+      "note": "Also carries the source-note apparatus, cover, whole-book reconciliation sweep (check 12), and COMPLETION.md."
     }
   ],
-
   "_back_matter_note": "Optional. If the book has a publisher's errata table or a colophon you want reproduced as translator's back matter, put the data in back_matter.json (see that file). This list is just a human record of what exists.",
-  "back_matter": []
+  "back_matter": [],
+  "subtitle_en": "A Documentary Record of the CCP's Intelligence and Security Work",
+  "title_file_as": "China's Secret War",
+  "author_file_as": "Hao, Zaijin",
+  "source_language": "zh",
+  "source_script": "zh-Hans",
+  "series": "Winston Translations",
+  "series_index": 10,
+  "rights": "Original work © the author and Gold Wall Press. This English translation is an independent, non-commercial, annotated edition prepared for private study.",
+  "source_ref": "中国秘密战：中共情报、保卫工作纪实 (最新升级图文版 / 2nd ed.), 北京: 金城出版社, 2015. ISBN 978-7-5155-1071-2. Scanned copy: Internet Archive (archive.org/details/zhongguomimizhan0000unse), from Contra Costa County Library.",
+  "subjects": [
+    "History / Asia / China",
+    "History / Military / Intelligence & Espionage",
+    "Political Science / Political Freedom & Security / Intelligence",
+    "History / Modern / 20th Century"
+  ]
 }
