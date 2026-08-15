@@ -1459,3 +1459,142 @@ real values carried in the English.
   glued {48: (二)…}; standalone [3,76,111] = (一),(三),(四)). Backward-compatible.
 - `data/noise.txt` — B11 block (see above).
 - `glossary.json` — 34 people rows added by hand (sectioned; every row has `pinyin`).
+
+## Batch B12 — ch17 (Part Two, Chapter 7)
+
+第七章 临深履薄 锲而不舍 "Chapter 7. Treading Thin Ice, Never Relenting" — the
+seventh chapter of Part Two, following the reckoning-and-indictment chapter
+(ch16). Recalled to Chongqing, given a "punishment of the spirit," idled as
+Acting Chief of the Third Section, then reassigned to Shanghai over a farewell
+banquet, Chen presses on against Wang. Three sub-sections: (一) the grinding
+pain of failure and the return to Chongqing; (二) the comrades still at Hanoi
+and their follow-up actions — anchored by a quoted autograph letter from Wang
+Jingwei to 龙云 Long Yun (dated 30 March 1939, nine days AFTER the sanction, so
+NOT its cause) and a long quotation from Kagesa Sadaaki's memoir and 蒋总统秘录
+on Wang's flight, the 三点协议事项 and the June 1939 Tokyo talks; (三) the renewed
+thousand-li pursuit — Chen's Shanghai reassignment, his last parting from Dai
+Li, and Wang Luqiao's arrest (14 July 1939) in the French Concession. 147 body
+paragraphs; **9 new notes (202 cumulative)**; **49 glossary rows** added. All
+checks green; qa_epub PASS; epubcheck 0/0/0/0. EPUB now **17/43 chapters**.
+
+### Structure
+- drop=2 (running header 英雄无名-陈恭澍 + <h2>). Confirmed p-by-p against
+  data/src_epub/OEBPS/Text/index_split_000_0016.xhtml: **1 <h2> + 151 <p>**, no
+  <br/>, no <img>, no set-off formatting — zero mismatches.
+- THREE numbered-in-parens sub-headings (一)-(三), each STANDALONE (its own <p>,
+  blocks 1/43/106): (一)失败之苦是非常折磨人的, (二)留在河内的同志们还有后续行动,
+  (三)千里追踪奋勇杀敌的再出发. Rendered "(1)"-"(3)".
+- ONE mid-phrase split MERGED (the source itself broke one sentence across two
+  <p>, inside the quoted Kagesa memoir): L74/75 (…我(汪氏)决不过问，| 断然引咎下野，
+  以明心迹。」 — a comma split). 151 − 1 merge − 3 standalone headings = 147 body.
+- The tail L151/L152 read as run-on but each is a COMPLETE <p> ending on a
+  terminal char (。), so NOT merged.
+- DELIBERATE separate <p> kept whole (NOT merged): the six-point 南华日报 list
+  (L10 lead-in; L11-14, points 二/三/四 glued in one source <p> at L12); the
+  quoted Wang→Long Yun letter (L50 lead-in; L51 salutation ends ：; L52-53 body);
+  the 三点协议事项 (L60 lead-in; L61-63); the quoted Kagesa memoir (L66/L73
+  lead-ins) and 蒋总统秘录 excerpts (L78/L80/L85/L89 lead-ins); the 板垣 four-point
+  talks (L80 lead-in; L81-84); the "使我难以忘怀的是─" dash lead-in (L112 → L113-117).
+- NO in-text "(第七章完)" coda; the final <p> (L153) FORWARD-references the book's
+  后记 accounting for the 十九个 Hanoi participants — a forward reference, not a cut.
+- Source note markers `\[\d+\]`: **none present** (grepped; none through B12).
+
+### Checks (all green)
+- verify_unit ch17: parity 147/147; numbers 0 unresolved; anchors 9 ok.
+- check_align: 147/147, median ratio **4.78 en/han** (document-heavy, identical to
+  ch16 4.78; the quoted letter + Kagesa/秘录 excerpts lift it, as expected/flagged).
+- check_structure: ALL PASS (parity + 202 anchors, 0 unresolved).
+- check_content: ch17 **225 name occurrences, 0 DISPLACED** ("all in the paired
+  paragraph"). The overall nonzero exit is ONLY the KNOWN pre-existing artifacts
+  (ch07 Zhanggu ×1, ch08 Shunde ×3, ch13 Miss Nguyen/Oya Kusuo/Yuan Haowen ×9 —
+  diacritic/variant substring-match artifacts, unchanged). NOTE: two would-be new
+  glossary keys were caught cross-flagging and corrected before final: 小巷子
+  ("Little Lane") is a COMMON NOUN appearing literally in ch06/07/13/15 — the row
+  was REMOVED (Xiaoxiangzi is rendered inline in ch17, no row); and 杜美路 was fixed
+  from "Rue Doumer" to the glossary's "Route Doumer" in the ch17 text.
+- qc_entities: 0 misses (census top: 河内 ×52, 重庆 ×33, 汪精卫 ×19, 军统 ×13,
+  汪兆铭 ×11, 制裁 ×10, 毛人凤 ×9).
+- check_register --ref B01_frozen: within tolerance (contr 0.0/1k, shall 43%
+  [deliberate — Chen's formal narration + the quoted Wang letter/Kagesa memoir;
+  read the note, not de-formalized], em-dash 6.4/1k, sent med 25, rhythm 0.62).
+- qa_epub PASS (57 files, all links resolve); epubcheck 0 fatals/0 errors/0 warnings.
+- TAIL verified against source: the three-sides-beset paragraph (L151), the
+  Nanjing/direct-deployment paragraph (L152), and the closing 后记/十九个 forward
+  reference (L153) — all faithful. The two longest quoted passages re-verified
+  clause-by-clause against the source (rule 4): the Wang→Long Yun letter (L52/53)
+  and Wang's peace-government "thinking" paragraph (L74) — complete, no omission,
+  no fabrication.
+
+### Notes ledger (9 this batch; 202 cumulative)
+New notes (first-appearance-disciplined): 志舟 Zhizhou (Long Yun's courtesy name,
+so the reader sees the letter is to Long Yun); No. 76 极司菲尔路 Jessfield Road (the
+Wang regime's notorious secret-service HQ under Ding Mocun/Li Shiqun); 长板坡
+Changbanpo (the Peking-opera aria of Zhao Yun, drunk bravado); 杜公馆 the Du
+residence (Du Yuesheng, Green Gang boss, opposite Chen's lodging); 青天白日满地红旗
+the ROC national flag (and the added "Peace/Anti-Communism/Reconstruction"
+streamer); 百梅 Baimei (obscure in source — the Nov 1938 Shanghai secret talks;
+uncertainty flagged, verdict stated); 戴雨农先生全集 the Complete Works of Mr. Dai
+Yunong (1979 Nationalist commemorative source — read with that in mind, like the
+Biography noted in B10); 沪滨三次历险实录 the True Record of Three Perils on the
+Shanghai Shore (Zheng Xiuyuan's memoir Chen quotes); the Qiantang bore (八月中
+钱塘江口的涨潮, the tidal-bore simile for the bombers).
+**NOT re-noted** (covered earlier, per the ledger): 制裁 "sanction" (B01/B06); 汪逆/
+汪某/汪氏 the traitor Wang forms (B06); 艳电 the Yan Telegram (B06); Konoe & his
+"New Order in East Asia" / the Konoe statement (ch12); 曾仲鸣 Zeng Zhongming
+(ch15/ch16); 梅机关 the Ume Kikan and 影佐祯昭 Kagesa (glossary; text self-glosses);
+the Three Principles of the People, the Blue Shirt Society, the Whampoa/academy
+系统, the Republican-calendar convention (B01–B06); 制裁 the "soft action"药/面包
+episode (ch15); 蒋总统秘录 (ch15). New cast handled by GLOSSARY rows (below), not
+separate notes.
+
+### Glossary rows added (49 by hand; every row carries a `pinyin` field)
+- People (30): 王兆槐 Wang Zhaohuai, 王持平 Wang Chiping, 周伟龙 Zhou Weilong, 徐钟奇
+  Xu Zhongqi, 赵世瑞 Zhao Shirui, 陶一珊 Tao Yishan, 赵理君 Zhao Lijun, 胡尚武 Hu
+  Shangwu, 白绳祖 Bai Shengzu, 潘其武 Pan Qiwu, 王飞 Wang Fei (styled Chongtian), 帅崇兴
+  Shuai Chongxing, 朱啸谷 Zhu Xiaogu, 刘俊卿 Liu Junqing, 刘绍奎 Liu Shaokui, 王亢子
+  Wang Kangzi (蝉红), 王因子 Wang Yinzi (蝉绿); Japanese: 犬养健 Inukai Ken, 犬养毅
+  Inukai Tsuyoshi, 周隆庠 Zhou Longxiang, 有田八郎 Arita Hachirō, 西尾寿造 Nishio
+  Toshizō, 佐藤贤了 Satō Kenryō, 矢野征记 Yano Seiki, 清水董三 Shimizu Tōzō, 谷垣专一
+  Tanigaki Sen'ichi, 仓冈克行 Kuraoka Katsuyuki, 板垣征四郎 Itagaki Seishirō (alias of
+  the existing 坂垣 row; source writes 板垣/坂垣/扳垣); Chinese: 陈调元 Chen Diaoyuan,
+  邓龙光 Deng Longguang.
+- Organizations (7): 南华日报 the South China Daily News, 西南运输公司 the Southwest
+  Transport Company, 特务团 the Special Service Regiment, 中央训练团 the Central
+  Training Corps, 政友会 the Seiyūkai, 临时政府 the Provisional Government, 维新政府
+  the Reformed Government.
+- Terms/ships (2): 北光丸 the Hokkō Maru, 霞飞将军 the Général Joffre.
+- Places (10): 望龙门 Wanglongmen, 浮屠关 Futuguan, 愚园路 Yuyuan Road, 杜美路 Route
+  Doumer, 极司菲尔路 Jessfield Road, 卡尔登公寓 the Carlton Apartments, 吴淞口 the
+  Wusong bar, 黄埔江 the Huangpu River, 麦阳路 Maiyang Road, 基隆 Keelung.
+- REUSED (already in glossary): 陈恭澍, 戴笠 (老板/戴先生/戴雨农), 汪精卫/汪兆铭 (汪逆/
+  汪某/汪氏), 陈璧君, 龙云, 毛人凤, 毛万里, 王云孙, 何芝园, 郑修元, 刘原深, 胡永荃, 杨英,
+  曹师昂, 谭天堑, 王天木, 余乐醒, 王鲁翘, 方炳西, 徐先生, 魏春风, 阮小姐, 影佐祯昭, 近卫文麿,
+  平沼骐一郎, 王克敏, 梁鸿志, 张发奎, 曾仲鸣, 周佛海/梅思平/高宗武/董道宁, 陈邦国, 余鉴声,
+  张逢义; 军统, 蓝衣社, 梅机关, 五相会议; 珊瑚坝, 虹口, 海防, 干诺道. Books cited (蒋总统秘录,
+  戴雨农先生全集, 沪滨三次历险实录) handled by FOOTNOTES, NOT glossary title-rows.
+
+### Digitization glitches (rendered to plain sense; LISTED, none footnoted — mechanical)
+Same single-character-substitution classes as ch15/ch16. Representative:
+- 渡厚→浓厚 (L9); 有开河内→关于河内 (L9); 颠箥→颠簸 (L23); 雅雀无声→鸦雀无声 (L30);
+  毛人见→毛人凤 (L26); 蒋委负长→委员长 (L52); 江说→汪说 + 对江→对汪 (L104); 应孩→应该
+  (L73); 近卫望明→近卫声明 (L74) + 民家→民众/民间 (recurring, L74/L76); 影佐帧昭→影佐祯昭
+  (recurring); 扳垣征四郎→板垣征四郎 (L86); 徙容就义→从容就义 (L152); 世居河内→(likely)
+  蛰居河内 (L53, rendered neutrally "long dwelt at Hanoi"; the letter says 蛰居 twice
+  and 久居 once); 廷企→(likely) 延企 (L53, rendered "long-standing eagerness by sense").
+- Not glitches: 汪逆 = "the traitor Wang", 汪某 = "the man Wang", 汪氏 = "Wang". XX / xxxx
+  (L30) are the source's own REDACTIONS in the air-raid scene, kept as ellipses in sense.
+
+### data/noise.txt — B12 block appended (8 entries, each commented)
+十万大山 (Shiwan Mountains, place name), 百梅 (Baimei cover-name), 一九四○ (fullwidth-zero
+year 1940, ○=U+25CB), 二○九 (page 209, same U+25CB class as 二○三/二 O 五), 几两重 (tael
+idiom), 八郎 (Arita Hachirō's name; cf. the noised 征四郎), 颠三倒四 (topsy-turvy idiom),
+千金 ("daughter" honorific). All strip SOURCE approximations/name-embedded/idiom numerals
+only; real values (dates, the three-point agreement, page 213, forty-three years, the
+nineteen participants) carried in the English as digits/words.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch17 spec added (drop=2; merges [(74,75)]; glued {};
+  standalone [3,45,108] = (一),(二),(三)). Backward-compatible.
+- `data/noise.txt` — B12 block (see above).
+- `glossary.json` — 49 rows added by hand (sectioned; every row has `pinyin`); the
+  stray 小巷子 common-noun row was removed after it cross-flagged ch06/07/13/15.

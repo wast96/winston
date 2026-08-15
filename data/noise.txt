@@ -402,3 +402,35 @@
 # Digitization glitch 六十万百 for 六十万万 "six hundred million (war budget)": the
 # garbled form parses to 600100. English carries "six hundred million".
 六十万百
+#
+# --- B12 (ch17) entries ---
+#
+# Place name 十万大山 "Shiwan Great Mountains" (a range on the Guangxi border, on
+# the Kunming-Chongqing flight path); the 十万 (100000) is part of the name, not a
+# count. English carries "Shiwan Great Mountains".
+十万大山
+# Obscure cover-name 百梅 in the quoted Kagesa memoir ("上海百梅与日方会谈") for the
+# Shanghai secret talks / the Ume (梅) side; the 百 (100) is part of the name, not a
+# count. English romanizes "Baimei" and footnotes the source uncertainty.
+百梅
+# Fullwidth-zero year 一九四○ "1940" (昭和十五年(一九四○年); ○ = U+25CB): the checker
+# cannot compose the fullwidth zero into 1940 and reads the bare 一九四 as 194. English
+# carries "1940". (Cf. the U+25CB page forms 二○三 / 二○九 in the B08/B10 block.)
+一九四○
+# Idiom 几两重 "how much weight they carried" (看出...份量有几两重); 两 is the tael (a
+# weight), not the count 2. English renders by sense ("how many ounces their weight
+# came to").
+几两重
+# Japanese given-name 八郎 in 有田八郎 "Arita Hachirō" (foreign minister): the 八 is
+# part of the name (Hachi-), not the count 8. (Cf. the noised 征四郎 in the B11 block.)
+八郎
+# Idiom 颠三倒四 "topsy-turvy, in disorder" (颠三倒四折腾了一夜); the 三/四 are not
+# counts. English renders by sense.
+颠三倒四
+# Honorific 千金 "daughter(s)" (王天木兄的两位千金); the 千 (1000) is idiomatic, not a
+# count. English carries "two daughters" (两位).
+千金
+# Fullwidth-zero page reference 二○九 "page 209" (蒋总统秘录 vol. 11, 二○九页至二一三页;
+# ○ = U+25CB): the checker cannot compose the fullwidth zero and reads 二○九 as 2 and 9.
+# English carries "209"; the composable 二一三 "213" matches directly.
+二○九

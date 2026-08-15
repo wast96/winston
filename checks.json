@@ -15,7 +15,8 @@
     "ch13": "out/ch13_reading.md",
     "ch14": "out/ch14_reading.md",
     "ch15": "out/ch15_reading.md",
-    "ch16": "out/ch16_reading.md"
+    "ch16": "out/ch16_reading.md",
+    "ch17": "out/ch17_reading.md"
   },
   "sources": {
     "ch01": "data/zh/ch01.txt",
@@ -33,7 +34,8 @@
     "ch13": "data/zh/ch13.txt",
     "ch14": "data/zh/ch14.txt",
     "ch15": "data/zh/ch15.txt",
-    "ch16": "data/zh/ch16.txt"
+    "ch16": "data/zh/ch16.txt",
+    "ch17": "data/zh/ch17.txt"
   },
   "notes": "notes.json",
   "heading_depth": 2

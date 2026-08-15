@@ -269,6 +269,33 @@ UNITS = {
         "glued": {48: "(二)曾仲鸣事汪以忠虽枉死应无怨尤"},
         "standalone": [3, 76, 111],  # (一),(三),(四)
     },
+    "ch17": {
+        "file": "18_index-split-000-0016.txt",
+        "title": "第七章 临深履薄锲而不舍",
+        "drop": 2,             # running header + <h2> chapter title
+        # 151 source <p> (proven p-by-p against the source XHTML: 1 <h2> + 151
+        # <p>, zero mismatches; no <br/>, no images, no set-off formatting). ONE
+        # mid-phrase split where the SOURCE broke one sentence across two <p>
+        # (faithfully reproduced by the extractor), inside the quoted Kagesa
+        # memoir passage: L74/75 (...我(汪氏)决不过问，| 断然引咎下野，以明心迹。」 —
+        # a comma split). The tail L151/L152 read as run-on but each is a
+        # COMPLETE <p> ending on a terminal char, so they are NOT merged.
+        # The many ：-ended lead-ins are DELIBERATE separate <p> and are NOT
+        # merged: the six-point 「南华日报」 list (L10 lead-in, L11-14 bullets —
+        # points 二/三/四 glued in one source <p> at L12), the quoted Wang→Long
+        # Yun letter (L50 lead-in; L51 salutation ends ：; L52-53 body), the
+        # three-point agreement (L60 lead-in, L61-63 三点协议), the quoted
+        # Kagesa memoir (L66, L73 lead-ins) and 蒋总统秘录 excerpts (L78, L80,
+        # L85, L89 lead-ins), the 板垣 four-point talks (L80 lead-in, L81-84),
+        # and the "使我难以忘怀的是─" dash lead-in at L112 (introduces L113-117).
+        # NO in-text "(第七章完)" coda; the final <p> (L153) forward-references
+        # the book's 后记 accounting for the 十九个 Hanoi participants.
+        "merges": [(74, 75)],
+        # three sub-headings, all numbered-in-parens (一)-(三) (cf. ch12/ch15),
+        # each its own <p> (all standalone; no glued tails).
+        "glued": {},
+        "standalone": [3, 45, 108],
+    },
 }
 
 
