@@ -338,3 +338,104 @@ to end. 56 body paragraphs.
   top level; this batch bypassed that by adding rows straight into the sections
   with a re-read-verified one-shot (deleted after use). Either path is fine;
   just never leave a flat top-level row, which breaks render_glossary.
+
+## B04 = Chapter Four "喋血霞飞路 / Bloodshed on Avenue Joffre" (ch04)
+
+- **Scope:** PDF 82-107, printed 67-92. Seven sections ch04s01-s07. Offset held
+  at a constant 15 (folios 068-091 read off the scan at every opener; no drift).
+  The double-agent chapter that ch03's ending set up: the arrests at Jingyuanli
+  "as if foreknown" (Peng Pai, Yang Yin, Yan Changyi, Xing Shizhen + Zhang
+  Jichun, 24 Aug 1929; four shot at Longhua 30 Aug), Yang Dengying/Bao Junfu the
+  double agent run by Chen Geng, the failed Fenglin Bridge rescue, Bai Xin's
+  betrayal exposed, and the Red Squad's killing of Bai Xin on Avenue Joffre
+  (11 Nov 1929). Closes on Zhou Enlai sheltering Yang Dengying in Qincheng
+  Prison during the Cultural Revolution.
+- **Source recovery.** `data/zh/ch04.txt` hand-transcribed off the page images
+  (OCR too noisy on the proper names, as before), cross-checked against the
+  dual-OCR read and magnified crops. Parity is exact: **131 source paragraphs =
+  131 translation paragraphs** (chapter title + 7 `###` section headings).
+- **Translation:** `out/ch04_reading.md`, one paragraph per source line. Voice
+  carried from the end of ch03 (read first). Section 7 carries a run of set-off
+  block quotations and the **李强日记 (Li Qiang's Diary) 1968-69 entries**, all
+  marked `{v}` vignettes (date + entry combined one-per-line; the source's
+  abridging "……" kept as its own `{v} ...` line). The White-Russian-café
+  set-piece (s03) is rendered at elevation as the author's own descriptive prose.
+- **Checks, all green:**
+  - parity 131=131 (`check_structure --pairs`, `verify_unit`).
+  - numbers: `check_numbers --noise` 0 unresolved. Caught one real slip
+    (五位负责人 first drafted "the other four leaders"; fixed to "the five
+    leaders, Peng Pai among them"). noise.txt extended with ch04 proper-name
+    numerals (百禄里, 五洲, 三民, 三轮车 = Popov's "Tricycle", 八仙桥).
+  - align median 4.85 en/han, no pair > 2.2x. content displacement 174 name
+    occurrences, all in the paired paragraph (content_config extended to ch04).
+  - entities: `qc_entities` 0 misses (top: 杨登瀛 x60, 周恩来 x58, 陈赓 x27,
+    董健吾 x14, 鲍君甫 x12).
+  - register vs FROZEN ch01: the dialogue-contraction metric is QUIET/flagged
+    "STILTED" (0.0/1k), the expected reportage signal for a chapter that is
+    almost entirely quoted documents (Zhou Enlai's 1930 proclamation, the
+    Comintern report, a memoir/biography stack, and the diary) with only a
+    handful of scene-dialogue lines (the Bai Xin/Ke Lin exchange). Judged on the
+    narratorial signals: rhythm CV 0.68 vs ref 0.67, sentence median 23, em-dash
+    0.9/1k (low, consistent with ch03's 0.0) — all in range. Not real drift.
+  - `check_apparatus` 0/0; qa_epub PASS (200 refs/bodies/backlinks); **epubcheck
+    5.1.0 clean (0 fatals / 0 errors / 0 warnings).**
+  - tail verification: the s07 closing paragraphs re-read against p0106 (printed
+    091); faithful, nothing invented.
+- **Footnotes: 24 new** (unit total 24). Coverage across the four domains:
+  people first-introduced (Peng Pai, Yang Yin, Yan Changyi+Xing Shizhen, Zhang
+  Jichun, Bai Xin, An E, Ke Lin, Huang Jinrong, Luo Qingchang; Dong Jianwu
+  supplemented from ch01 with the Red-Pastor/Mao's-sons material); institutions
+  and places (the Zhongtong lineage via the two Chens, Sun Yat-sen Univ. Moscow
+  vs KUTV, St. Peter's vs Grace Church, Avenue Joffre, Qincheng, the Republican
+  Daily, the Guangzhou Uprising); texture and reference (Lu Xun's censorship
+  opening and "opening a skylight", the North China Daily News, the White
+  Russian émigrés, the Internationale, Dusko Popov = "Tricycle"); and one
+  source-critical note (the 12-vs-1015 Jingyuanli house-number discrepancy, as
+  printed). Fact-checks corroborated against Wikipedia/Baidu/academic/official
+  sources (the Peng-Yang-Yan-Xing arrest and execution and Bai Xin's betrayal;
+  Popov = Tricycle, MI5/MI6, Bond inspiration — cited to Wikipedia/UK National
+  Archives, NOT the Grokipedia hit; An E; Dong Jianwu; Ke Lin).
+- **Figures: 10** (basenames in `figures.json`, real alt text, translator's
+  captions with source-label provenance stated): four martyr portraits
+  (`ch04-peng-pai.png`, `ch04-yang-yin.png`, `ch04-yan-changyi.png`,
+  `ch04-xing-shizhen.png`, pdf 85-86), `ch04-yang-dengying.png` (pdf 87),
+  `ch04-an-e.png` (pdf 89), `ch04-garrison.png` (the Songhu Garrison Command,
+  pdf 92), `ch04-shanghai-map.png` (old street map locating Fenglin Bridge,
+  pdf 93 — a full-page figure), `ch04-red-flag-daily.png` (Zhou Enlai's memorial
+  front page, pdf 95), `ch04-yang-family.png` (1956 family photo, pdf 102). The
+  faded full-page painting on pdf 107 (no folio, no caption) is design
+  furniture, NOT a captioned figure (as with the ch01-ch03 openers/closers).
+- **62 new glossary rows** (people, organizations, places, terms), added
+  directly into the correct sections by a re-read-verified script (not via
+  apparatus_merge's flat top-level write). Key: 彭湃=Peng Pai, 杨殷=Yang Yin,
+  白鑫=Bai Xin, 安娥=An E, 柯麟=Ke Lin, 董健吾=Dong Jianwu (already present),
+  中统=the Zhongtong, 霞飞路=Avenue Joffre, 秦城监狱=Qincheng Prison.
+
+### Source oddities logged (per the typo policy)
+- **p0089 (printed 074) prints "白行车" for "自行车" (bicycle).** An evident
+  imprint typo (白 for 自); rendered to plain sense "a bicycle." Listed here,
+  not footnoted (below the annotation threshold).
+- The 静安区委党史研究室 (2016) quote gives "经远里1015号" where every other
+  source gives "12号"; both reproduced as printed and the discrepancy footnoted.
+
+### Tooling notes (do not revert)
+- **Builder alt-attribute escaping (FIXED this batch):** `build_reading_epub.py`
+  emitted `alt="%s"` through `esc()` (which is `html.escape(quote=False)`), so a
+  double quote inside alt text (`'Wuhing Road'` was first written with real "")
+  produced malformed XHTML and qa_epub/epubcheck reported the WHOLE chapter's
+  ids as undefined. Changed that one call to `html.escape(..., quote=True)`.
+  Keep it. Lesson: an alt string with a literal `"` is now safe, but prefer
+  single quotes in alt text anyway.
+- `data/noise.txt`: ch04 block appended (百禄里, 五洲, 三民, 三轮车, 八仙桥),
+  every entry commented, longest-literal-first respected. All are proper-name
+  numerals rendered romanized; none masks a real dropped quantity.
+- `data/content_config.json` extended to include ch04.
+
+### NOT re-noted (already placed in ch01-ch03) — cross-referenced, not re-noted
+- The Central Special Branch / Red Squad / "beating the dogs" (ch01); Zhou Enlai,
+  Chen Geng, Gu Shunzhang, Xu Enzeng, Kang Sheng (ch01/ch03); the Whampoa Academy
+  (ch01); the Green Gang (ch01); Longhua (ch03); the Comintern / KUTV (ch01/ch03);
+  the April 12 coup / Great Revolution / White Terror (ch01/ch03); Chiang
+  Kai-shek / the Kuomintang (ch01); Nanchang Uprising (ch01); "Judas" (ch03
+  title); Yang Dengying/Bao Junfu & Chen Yangshan (ch03); Li Qiang, Dong Jianwu
+  (ch01, supplemented here); the tingzijian / shikumen (ch01).

@@ -425,6 +425,300 @@
       "en": "Chen Yangshan",
       "pinyin": "Chen Yangshan",
       "status": "attested"
+    },
+    "彭湃": {
+      "en": "Peng Pai",
+      "pinyin": "Peng Pai",
+      "status": "attested",
+      "note": "Peasant-movement leader (1896–1929), \"king of the peasant movement,\" founder of the Hailufeng Soviet; CCP Politburo member, arrested at Jingyuanli and executed at Longhua, 1929."
+    },
+    "杨殷": {
+      "en": "Yang Yin",
+      "pinyin": "Yang Yin",
+      "status": "attested",
+      "note": "CCP Central Military Commission head (1892–1929); a leader of the 1927 Guangzhou Uprising; executed with Peng Pai at Longhua."
+    },
+    "颜昌颐": {
+      "en": "Yan Changyi",
+      "pinyin": "Yan Changyi",
+      "status": "attested",
+      "note": "CCP military cadre (1898–1929), arrested and executed with Peng Pai and Yang Yin."
+    },
+    "邢士贞": {
+      "en": "Xing Shizhen",
+      "pinyin": "Xing Shizhen",
+      "status": "attested",
+      "note": "Jiangsu provincial Military Commission cadre for soldiers’ work; executed with Peng Pai, 1929."
+    },
+    "白鑫": {
+      "en": "Bai Xin",
+      "pinyin": "Bai Xin",
+      "status": "attested",
+      "note": "CCP Central Military Commission secretary (1903–1929) who betrayed the Jingyuanli meeting to the Kuomintang; killed by the Red Squad on Avenue Joffre, 11 Nov 1929."
+    },
+    "张际春": {
+      "en": "Zhang Jichun",
+      "pinyin": "Zhang Jichun",
+      "status": "attested",
+      "note": "Deputy commander of the Shanghai General Labor Union pickets; the fifth man arrested at Jingyuanli (he survived)."
+    },
+    "范争波": {
+      "en": "Fan Zhengbo",
+      "pinyin": "Fan Zhengbo",
+      "status": "attested",
+      "note": "Kuomintang Shanghai party-headquarters official and police inspector who ran Bai Xin; wounded in the Red Squad ambush."
+    },
+    "范争洛": {
+      "en": "Fan Zhengluo",
+      "pinyin": "Fan Zhengluo",
+      "status": "attested",
+      "note": "Fan Zhengbo’s brother, wounded in the same ambush."
+    },
+    "安娥": {
+      "en": "An E",
+      "pinyin": "An E",
+      "status": "attested",
+      "note": "Poet and lyricist (1905–1976), born Zhang Shiyuan; the Party planted her as Yang Dengying’s secretary. Later wrote \"The Newsboy’s Song\" with Nie Er and married the playwright Tian Han."
+    },
+    "连德生": {
+      "en": "Lian Desheng",
+      "pinyin": "Lian Desheng",
+      "status": "attested",
+      "note": "CCP member placed as Yang Dengying’s bodyguard and courier."
+    },
+    "柯麟": {
+      "en": "Ke Lin",
+      "pinyin": "Ke Lin",
+      "status": "attested",
+      "note": "Communist physician (1901–1991), alias Ke Dawen; ran the Dasheng Hospital as a Party front; later the long-serving director of the Kiang Wu Hospital in Macau."
+    },
+    "贺诚": {
+      "en": "He Cheng",
+      "pinyin": "He Cheng",
+      "status": "attested",
+      "note": "Communist physician (1901–1992), alias He Yusheng; Ke Lin’s partner at the Dasheng Hospital, later head of the PLA medical service."
+    },
+    "李一氓": {
+      "en": "Li Yimang",
+      "pinyin": "Li Yimang",
+      "status": "attested",
+      "note": "Communist writer and cadre (1903–1990) who worked with the Special Branch in Shanghai."
+    },
+    "杨剑虹": {
+      "en": "Yang Jianhong",
+      "pinyin": "Yang Jianhong",
+      "status": "attested",
+      "note": "Green Gang man and early Kuomintang investigator who recruited Yang Dengying; driven to suicide in 1928."
+    },
+    "陈立夫": {
+      "en": "Chen Lifu",
+      "pinyin": "Chen Lifu",
+      "status": "attested",
+      "note": "Kuomintang organizer (1900–2001); with his brother Chen Guofu, head of the \"CC Clique\" and its intelligence apparatus (the Zhongtong)."
+    },
+    "陈果夫": {
+      "en": "Chen Guofu",
+      "pinyin": "Chen Guofu",
+      "status": "attested",
+      "note": "Kuomintang power-broker (1892–1951), elder of the two Chen brothers of the \"CC Clique.\""
+    },
+    "张道藩": {
+      "en": "Zhang Daofan",
+      "pinyin": "Zhang Daofan",
+      "status": "attested",
+      "note": "Kuomintang official and propagandist (1897–1968) involved in setting up the party’s Shanghai intelligence work."
+    },
+    "赵子柏": {
+      "en": "Zhao Zibai",
+      "pinyin": "Zhao Zibai",
+      "status": "attested",
+      "note": "Interpreter and detective-chief at the French Concession police, an informant of Dong Jianwu’s."
+    },
+    "黄金荣": {
+      "en": "Huang Jinrong",
+      "pinyin": "Huang Jinrong",
+      "status": "attested",
+      "note": "Boss of the Green Gang (1868–1953) and a detective in the French Concession police; the pre-eminent gangster of old Shanghai."
+    },
+    "罗青长": {
+      "en": "Luo Qingchang",
+      "pinyin": "Luo Qingchang",
+      "status": "attested",
+      "note": "Veteran Party intelligence officer (1918–2014), later head of the Central Investigation Department and of Taiwan work; the last official Zhou Enlai received."
+    },
+    "欧阳新": {
+      "en": "Ouyang Xin",
+      "pinyin": "Ouyang Xin",
+      "status": "attested",
+      "note": "Special Branch contact to whom Dong Jianwu telephoned the timing of the police in the Bai Xin operation."
+    },
+    "蔡飞": {
+      "en": "Cai Fei",
+      "pinyin": "Cai Fei",
+      "status": "attested",
+      "note": "Red Squad member in the Bai Xin operation."
+    },
+    "邵达夫": {
+      "en": "Shao Dafu",
+      "pinyin": "Shao Dafu",
+      "status": "attested",
+      "note": "Red Squad member in the Bai Xin operation."
+    },
+    "谭忠余": {
+      "en": "Tan Zhongyu",
+      "pinyin": "Tan Zhongyu",
+      "status": "attested",
+      "note": "Red Squad gunman (also in the ch. 1 roster); took part in the Bai Xin killing."
+    },
+    "胡兰波": {
+      "en": "Hu Lanbo",
+      "pinyin": "Hu Lanbo",
+      "status": "attested",
+      "note": "Red Squad gunman in the Bai Xin operation."
+    },
+    "罗登贤": {
+      "en": "Luo Dengxian",
+      "pinyin": "Luo Dengxian",
+      "status": "attested",
+      "note": "CCP labor leader (1905–1933); named to the reconstituted Jiangsu Provincial Standing Committee in 1929."
+    },
+    "徐锡根": {
+      "en": "Xu Xigen",
+      "pinyin": "Xu Xigen",
+      "status": "attested",
+      "note": "CCP labor cadre named to the 1929 Jiangsu Provincial Standing Committee."
+    },
+    "赵容": {
+      "en": "Zhao Rong",
+      "pinyin": "Zhao Rong",
+      "status": "attested",
+      "note": "The real name of Kang Sheng, then on the Jiangsu Provincial Standing Committee."
+    },
+    "陈建宇": {
+      "en": "Chen Jianyu",
+      "pinyin": "Chen Jianyu",
+      "status": "attested",
+      "note": "Author of \"The Legend of Chen Yangshan, Lucky General of the Hidden Front\" (2006); Chen Yangshan’s son."
+    },
+    "王光远": {
+      "en": "Wang Guangyuan",
+      "pinyin": "Wang Guangyuan",
+      "status": "attested",
+      "note": "Author of \"The Red Pastor Dong Jianwu\" (2001) and other Party-history works."
+    },
+    "张国栋": {
+      "en": "Zhang Guodong",
+      "pinyin": "Zhang Guodong",
+      "status": "attested",
+      "note": "Former Zhongtong insider whose memoir describes the Kuomintang Investigation Section."
+    },
+    "桑晔": {
+      "en": "Sang Ye",
+      "pinyin": "Sang Ye",
+      "status": "attested",
+      "note": "Writer cited on Yang Dengying."
+    },
+    "紫丁": {
+      "en": "Ziding",
+      "pinyin": "Ziding",
+      "status": "attested",
+      "note": "Author of the \"Biography of Li Qiang\" (2004)."
+    },
+    "李关德": {
+      "en": "Li Guande",
+      "pinyin": "Li Guande",
+      "status": "attested",
+      "note": "Author of \"Jing’an by the Sea\" (2003), a local history of the Jing’an district."
+    },
+    "范梦菊": {
+      "en": "Fan Mengju",
+      "pinyin": "Fan Mengju",
+      "status": "attested",
+      "note": "Proprietor of the Sanmin Photo Studio, a Special Branch weapons cache; brought the guns up for the Fenglin Bridge rescue."
+    },
+    "李延明": {
+      "en": "Li Yanming",
+      "pinyin": "Li Yanming",
+      "status": "attested",
+      "note": "Li Qiang’s son, a scholar of political theory."
+    },
+    "李小强": {
+      "en": "Li Xiaoqiang",
+      "pinyin": "Li Xiaoqiang",
+      "status": "attested",
+      "note": "Another son of Li Qiang."
+    },
+    "周军": {
+      "en": "Zhou Jun",
+      "pinyin": "Zhou Jun",
+      "status": "attested",
+      "note": "Co-author of \"Yang Dengying: The Special Figure Zhou Enlai Never Ceased to Think Of\" (2001)."
+    },
+    "潘莹斌": {
+      "en": "Pan Yingbin",
+      "pinyin": "Pan Yingbin",
+      "status": "attested",
+      "note": "Co-author of the same Yang Dengying biography."
+    },
+    "力平": {
+      "en": "Li Ping",
+      "pinyin": "Li Ping",
+      "status": "attested",
+      "note": "Author of \"The Life of Zhou Enlai\" (2001)."
+    },
+    "张佐良": {
+      "en": "Zhang Zuoliang",
+      "pinyin": "Zhang Zuoliang",
+      "status": "attested",
+      "note": "Zhou Enlai’s personal physician for his last decade and author of a memoir (1997)."
+    },
+    "鞠书章": {
+      "en": "Ju Shuzhang",
+      "pinyin": "Ju Shuzhang",
+      "status": "attested",
+      "note": "Cadre named in Li Qiang’s 1968–69 diary."
+    },
+    "李辅仁": {
+      "en": "Li Furen",
+      "pinyin": "Li Furen",
+      "status": "attested",
+      "note": "Cadre named in Li Qiang’s diary."
+    },
+    "徐元奎": {
+      "en": "Xu Yuankui",
+      "pinyin": "Xu Yuankui",
+      "status": "attested",
+      "note": "Cadre named in Li Qiang’s diary."
+    },
+    "李班": {
+      "en": "Li Ban",
+      "pinyin": "Li Ban",
+      "status": "attested",
+      "note": "Person named in Li Qiang’s diary."
+    },
+    "罗可群": {
+      "en": "Luo Kequn",
+      "pinyin": "Luo Kequn",
+      "status": "attested",
+      "note": "Co-author of a 1981 study of Peng Pai."
+    },
+    "熊泽初": {
+      "en": "Xiong Zechu",
+      "pinyin": "Xiong Zechu",
+      "status": "attested",
+      "note": "Co-author of the same 1981 study."
+    },
+    "邱锦荣": {
+      "en": "Qiu Jinrong",
+      "pinyin": "Qiu Jinrong",
+      "status": "attested",
+      "note": "Co-author of the same 1981 study."
+    },
+    "郭呈祥": {
+      "en": "Guo Chengxiang",
+      "pinyin": "Guo Chengxiang",
+      "status": "attested",
+      "note": "Co-author of the same 1981 study."
     }
   },
   "organizations": {
@@ -486,6 +780,48 @@
       "pinyin": "Bu'ersaiweike",
       "status": "attested",
       "note": "The Party Center's theoretical organ, 1927–1932."
+    },
+    "中统": {
+      "en": "the Zhongtong",
+      "pinyin": "Zhongtong",
+      "status": "decided",
+      "note": "Shorthand for the Kuomintang’s civilian intelligence service (in full, from 1938, the Central Bureau of Investigation and Statistics), grown out of the Central Organization Department’s Investigation Section."
+    },
+    "调查科": {
+      "en": "the Investigation Section",
+      "pinyin": "Diaocha Ke",
+      "status": "decided",
+      "note": "The Kuomintang Central Organization Department’s Party Affairs Investigation Section, the seed of the Zhongtong."
+    },
+    "淞沪警备司令部": {
+      "en": "the Songhu Garrison Command",
+      "pinyin": "Songhu Jingbei Silingbu",
+      "status": "attested",
+      "note": "The Kuomintang garrison authority for the Shanghai–Woosung area, with its headquarters and execution ground at Longhua."
+    },
+    "中央军委": {
+      "en": "the Central Military Commission",
+      "pinyin": "Zhongyang Junwei",
+      "status": "attested",
+      "note": "The CCP’s central body directing military and soldiers’ work."
+    },
+    "达生医院": {
+      "en": "the Dasheng Hospital",
+      "pinyin": "Dasheng Yiyuan",
+      "status": "attested",
+      "note": "A clinic run by the Communist doctors Ke Lin and He Cheng as a secret Party organ."
+    },
+    "圣彼得堂": {
+      "en": "St. Peter’s Church",
+      "pinyin": "Sheng Bide Tang",
+      "status": "attested",
+      "note": "The Anglican church on Avenue Road where Dong Jianwu was presiding pastor and ran a Party liaison post."
+    },
+    "怀恩堂": {
+      "en": "Grace Church",
+      "pinyin": "Huai’en Tang",
+      "status": "attested",
+      "note": "A Baptist church on Seymour Road, distinct from St. Peter’s though sometimes confused with it."
     }
   },
   "places": {
@@ -517,6 +853,72 @@
       "en": "Kaijiang in Sichuan",
       "pinyin": "Kaijiang in Sichuan",
       "status": "attested"
+    },
+    "经远里": {
+      "en": "Jingyuanli",
+      "pinyin": "Jingyuanli",
+      "status": "attested",
+      "note": "The lane on Xinzha Road where Peng Pai and the others were arrested on 24 Aug 1929."
+    },
+    "新闸路": {
+      "en": "Xinzha Road",
+      "pinyin": "Xinzha Road",
+      "status": "attested",
+      "note": "Shanghai street in the International Settlement; the scene of the Jingyuanli arrests."
+    },
+    "霞飞路": {
+      "en": "Avenue Joffre",
+      "pinyin": "Avenue Joffre",
+      "status": "attested",
+      "note": "The great French Concession boulevard (today Huaihai Middle Road); the \"Avenue Joffre\" of the chapter title."
+    },
+    "枫林桥": {
+      "en": "Fenglin Bridge",
+      "pinyin": "Fenglin Bridge",
+      "status": "attested",
+      "note": "A road fork near Longhua where the Special Branch tried and failed to ambush the prison van."
+    },
+    "秦城监狱": {
+      "en": "Qincheng Prison",
+      "pinyin": "Qincheng Prison",
+      "status": "attested",
+      "note": "The high-security prison near Beijing where Yang Dengying was held, 1968–69, ostensibly for his protection."
+    },
+    "和合坊": {
+      "en": "Hehefang",
+      "pinyin": "Hehefang",
+      "status": "attested",
+      "note": "The Avenue Joffre lane where Bai Xin was killed."
+    },
+    "卡德路": {
+      "en": "Cardan Road",
+      "pinyin": "Cardan Road",
+      "status": "attested",
+      "note": "French Concession street (today Shimen No. 2 Road)."
+    },
+    "爱文义路": {
+      "en": "Avenue Road",
+      "pinyin": "Avenue Road",
+      "status": "attested",
+      "note": "International Settlement street (today Beijing West Road)."
+    },
+    "戈登路": {
+      "en": "Gordon Road",
+      "pinyin": "Gordon Road",
+      "status": "attested",
+      "note": "Shanghai street (today Jiangning Road)."
+    },
+    "西摩路": {
+      "en": "Seymour Road",
+      "pinyin": "Seymour Road",
+      "status": "attested",
+      "note": "Shanghai street (today Shaanxi North Road)."
+    },
+    "嵩山路": {
+      "en": "Songshan Road",
+      "pinyin": "Songshan Road",
+      "status": "attested",
+      "note": "French Concession street with the police station watched in the Bai Xin operation."
     }
   },
   "terms": {
@@ -579,6 +981,24 @@
       "pinyin": "Xiang embroidery",
       "status": "attested",
       "note": "Hunan embroidery, one of China's four great embroidery traditions."
+    },
+    "石库门": {
+      "en": "shikumen",
+      "pinyin": "shikumen",
+      "status": "decided",
+      "note": "The stone-framed-gate lane house typical of old Shanghai."
+    },
+    "驳壳枪": {
+      "en": "Mauser",
+      "pinyin": "Mauser",
+      "status": "decided",
+      "note": "The Mauser C96 \"box cannon\" pistol, the standard sidearm of the Red Squad."
+    },
+    "国际歌": {
+      "en": "the Internationale",
+      "pinyin": "the Internationale",
+      "status": "attested",
+      "note": "The socialist anthem, sung by the condemned prisoners at Longhua."
     }
   }
 }

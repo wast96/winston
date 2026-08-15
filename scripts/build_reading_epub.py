@@ -524,7 +524,8 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
                 out.append(
                     '<figure><img src="images/%s" alt="%s"/>'
                     "<figcaption>%s</figcaption></figure>"
-                    % (fig["file"], esc(fig.get("alt", "")),
+                    % (fig["file"],
+                       html.escape(fig.get("alt", ""), quote=True),
                        esc(fig["caption"])))
                 fig["placed"] = True
         # PAGE-BREAK MARKER, before the paragraph the printed page opens on.
