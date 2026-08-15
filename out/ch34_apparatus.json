@@ -1,24 +1,93 @@
 {
   "glossary": {
-    "新井忠雄": {"section": "people", "en": "Arai Tadao", "pinyin": "Arai Tadao", "status": "decided", "note": "An inspector of the Shinsengumi and one of It&#333;&#8217;s confidants from the Edo days; he left with It&#333;&#8217;s faction."},
-    "加納鵰雄": {"section": "people", "en": "Kanō Michinosuke", "pinyin": "Kanō Michinosuke", "status": "decided", "note": "A corporal of the Shinsengumi in It&#333;&#8217;s faction; 鵰雄 is a roster variant for the same man written 道之助 elsewhere (see ch27)."},
-    "中村半次郎": {"section": "people", "en": "Nakamura Hanjirō", "pinyin": "Nakamura Hanjirō", "status": "attested", "note": "Nakamura Hanjir&#333; (1838&#8211;1877), later Kirino Toshiaki: a Satsuma swordsman of the Jigen-ry&#363; reckoned one of the &#8216;four man-cutters&#8217; of the Bakumatsu, close to Saig&#333; Takamori. He rose to general in the imperial army and fell with Saig&#333; at Shiroyama in the Satsuma Rebellion of 1877."},
-    "与兵衛": {"section": "people", "en": "Yohei", "pinyin": "Yohei", "status": "decided", "note": "The keeper of the night sak&#233;-shop that gives the chapter its name."},
-    "泉涌寺": {"section": "places", "en": "Sennyū-ji", "pinyin": "Sennyū-ji", "status": "attested", "note": "An ancient temple in Kyoto&#8217;s Higashiyama, mortuary temple of the imperial house."},
-    "戒光寺": {"section": "places", "en": "Kaikō-ji", "pinyin": "Kaikō-ji", "status": "attested", "note": "A sub-temple within the grounds of Senny&#363;-ji, where It&#333;&#8217;s faction met."},
-    "高幡不動": {"section": "places", "en": "Takahata Fudō", "pinyin": "Takahata Fudō", "status": "attested", "note": "A temple of Fud&#333; My&#333;-&#333; in the Tama country of Bush&#363;, near Hijikata&#8217;s home village of Ishida; the family kept ties to it."}
+    "新井忠雄": {
+      "section": "people",
+      "en": "Arai Tadao",
+      "pinyin": "Arai Tadao",
+      "status": "decided",
+      "note": "An inspector of the Shinsengumi and one of It&#333;&#8217;s confidants from the Edo days; he left with It&#333;&#8217;s faction."
+    },
+    "加納鵰雄": {
+      "section": "people",
+      "en": "Kanō Michinosuke",
+      "pinyin": "Kanō Michinosuke",
+      "status": "decided",
+      "note": "A corporal of the Shinsengumi in It&#333;&#8217;s faction; 鵰雄 is a roster variant for the same man written 道之助 elsewhere (see ch27)."
+    },
+    "中村半次郎": {
+      "section": "people",
+      "en": "Nakamura Hanjirō",
+      "pinyin": "Nakamura Hanjirō",
+      "status": "attested",
+      "note": "Nakamura Hanjir&#333; (1838&#8211;1877), later Kirino Toshiaki: a Satsuma swordsman of the Jigen-ry&#363; reckoned one of the &#8216;four man-cutters&#8217; of the Bakumatsu, close to Saig&#333; Takamori. He rose to general in the imperial army and fell with Saig&#333; at Shiroyama in the Satsuma Rebellion of 1877."
+    },
+    "与兵衛": {
+      "section": "people",
+      "en": "Yohei",
+      "pinyin": "Yohei",
+      "status": "decided",
+      "note": "The keeper of the night sak&#233;-shop that gives the chapter its name."
+    },
+    "泉涌寺": {
+      "section": "places",
+      "en": "Sennyū-ji",
+      "pinyin": "Sennyū-ji",
+      "status": "attested",
+      "note": "An ancient temple in Kyoto&#8217;s Higashiyama, mortuary temple of the imperial house."
+    },
+    "戒光寺": {
+      "section": "places",
+      "en": "Kaikō-ji",
+      "pinyin": "Kaikō-ji",
+      "status": "attested",
+      "note": "A sub-temple within the grounds of Senny&#363;-ji, where It&#333;&#8217;s faction met."
+    },
+    "高幡不動": {
+      "section": "places",
+      "en": "Takahata Fudō",
+      "pinyin": "Takahata Fudō",
+      "status": "attested",
+      "note": "A temple of Fud&#333; My&#333;-&#333; in the Tama country of Bush&#363;, near Hijikata&#8217;s home village of Ishida; the family kept ties to it."
+    }
   },
   "notes": {
     "ch34": [
-      {"anchor": "Sennyū-ji in the eastern hills of Kyoto", "note": "Senny&#363;-ji, in Kyoto&#8217;s Higashiyama, had been the mortuary temple of the imperial house since the thirteenth century, the emperors&#8217; graves lying within its grounds; Kaik&#333;-ji is one of its sub-temples. The meeting-place looks ahead: when It&#333;&#8217;s men formally left the Shinsengumi in the spring of 1867 they styled themselves the Gory&#333;-eji, the &#8216;Guards of the Imperial Tombs,&#8217; nominally charged with tending these very graves (Emperor K&#333;mei had just been buried here). Historically grounded."},
-      {"anchor": "but will the wholesaler sell it that cheap?", "note": "Shinohara plays on a proverb, <i>s&#333; wa ton&#8217;ya ga orosanai</i> &#8212; literally &#8216;the wholesaler won&#8217;t let it go at that price,&#8217; meaning &#8216;it won&#8217;t be that easy.&#8217; He then turns the merchant image into the figure that runs through the chapter: Toshiz&#333; is the <i>okeya</i>, the cooper, who binds the loose staves of the corps into one tub with hoops no shock can spring. The pun linking the two tradesmen does not survive into English."},
-      {"anchor": "the man later known as Kirino Toshiaki", "note": "Nakamura Hanjir&#333; took the name Kirino Toshiaki after the Restoration. It is a pointed pairing: the Satsuma man-cutter who steers It&#333; toward the imperial party here would end, like Saig&#333;, in revolt against the very government he helped to make, dying at Shiroyama in 1877."},
-      {"anchor": "Hōgyoku Hokku Album", "note": "Hijikata really did keep a book of haiku under the pen-name H&#333;gyoku; some forty-one verses survive as the <i>H&#333;gyoku hokku-sh&#363;</i>, compiled in the spring of 1863 before he went up to Kyoto and now held at the Hijikata Toshiz&#333; Museum in Hino. The preponderance of spring poems, and of plum blossom, is genuine. Corroborated."},
-      {"anchor": "Of gidayū chanting", "note": "<i>Giday&#363;-bushi</i>, the dramatic sung narration of the puppet theatre and the kabuki stage, named for the chanter Takemoto Giday&#363; (1651&#8211;1714); a taste for it marks Toshiz&#333; as a man of the Edo-country townsman&#8217;s world, not the schooled samurai&#8217;s."},
-      {"anchor": "that sold saké and sweet saké", "note": "The &#8216;sweet sak&#233;&#8217; is <i>amazake</i>, a thick, barely alcoholic drink of fermented rice, served warm and sold at night-stalls; that Toshiz&#333; asks for it in place of wine is what draws Shichiri&#8217;s sneer, &#8216;how gentle of you.&#8217;"},
-      {"anchor": "he had loosened his blade in its scabbard", "note": "To &#8216;cut the carp&#8217;s mouth&#8217; (<i>koiguchi o kiru</i>) is to break the sword free of the tight fit where the guard meets the scabbard mouth &#8212; the first motion of a draw. Done idly, with a laugh, it is a silent threat."},
-      {"anchor": "Kumano oath-paper", "note": "A <i>g&#333;-&#333;</i> pledge-sheet issued by the Kumano shrines, printed over with the crows sacred to their gods; to swear on one and break the oath was held to call down divine punishment. Shichiri&#8217;s calling it &#8216;old-fashioned&#8217; is the joke of a man who no longer quite believes in it."},
-      {"anchor": "planted arrow-bamboo in the garden", "note": "<i>Yadake</i>, a slender, hard bamboo whose straight canes were cut for arrow-shafts; a warrior household grew a stand of it as both material and emblem. The farm boy&#8217;s planting it, in longing to be a samurai, is preserved in the Hijikata family traditions."}
+      {
+        "anchor": "Sennyū-ji in the eastern hills of Kyoto",
+        "note": "Senny&#363;-ji, in Kyoto&#8217;s Higashiyama, had been the mortuary temple of the imperial house since the thirteenth century, the emperors&#8217; graves lying within its grounds; Kaik&#333;-ji is one of its sub-temples. The meeting-place looks ahead: when It&#333;&#8217;s men formally left the Shinsengumi in the spring of 1867 they styled themselves the Gory&#333;-eji, the &#8216;Guards of the Imperial Tombs,&#8217; nominally charged with tending these very graves (Emperor K&#333;mei had just been buried here). Historically grounded."
+      },
+      {
+        "anchor": "but will the wholesaler sell it that cheap?",
+        "note": "Shinohara plays on a proverb, <i>s&#333; wa ton&#8217;ya ga orosanai</i> &#8212; literally &#8216;the wholesaler won&#8217;t let it go at that price,&#8217; meaning &#8216;it won&#8217;t be that easy.&#8217; He then turns the merchant image into the figure that runs through the chapter: Toshiz&#333; is the <i>okeya</i>, the cooper, who binds the loose staves of the corps into one tub with hoops no shock can spring. The pun linking the two tradesmen does not survive into English."
+      },
+      {
+        "anchor": "the man later known as Kirino Toshiaki",
+        "note": "Nakamura Hanjir&#333; took the name Kirino Toshiaki after the Restoration. It is a pointed pairing: the Satsuma man-cutter who steers It&#333; toward the imperial party here would end, like Saig&#333;, in revolt against the very government he helped to make, dying at Shiroyama in 1877."
+      },
+      {
+        "anchor": "Hōgyoku Hokku Album",
+        "note": "Hijikata really did keep a book of haiku under the pen-name H&#333;gyoku; some forty-one verses survive as the <i>H&#333;gyoku hokku-sh&#363;</i>, compiled in the spring of 1863 before he went up to Kyoto and now held at the Hijikata Toshiz&#333; Museum in Hino. The preponderance of spring poems, and of plum blossom, is genuine. Corroborated."
+      },
+      {
+        "anchor": "Of gidayū chanting",
+        "note": "<i>Giday&#363;-bushi</i>, the dramatic sung narration of the puppet theater and the kabuki stage, named for the chanter Takemoto Giday&#363; (1651&#8211;1714); a taste for it marks Toshiz&#333; as a man of the Edo-country townsman&#8217;s world, not the schooled samurai&#8217;s."
+      },
+      {
+        "anchor": "that sold saké and sweet saké",
+        "note": "The &#8216;sweet sak&#233;&#8217; is <i>amazake</i>, a thick, barely alcoholic drink of fermented rice, served warm and sold at night-stalls; that Toshiz&#333; asks for it in place of wine is what draws Shichiri&#8217;s sneer, &#8216;how gentle of you.&#8217;"
+      },
+      {
+        "anchor": "he had loosened his blade in its scabbard",
+        "note": "To &#8216;cut the carp&#8217;s mouth&#8217; (<i>koiguchi o kiru</i>) is to break the sword free of the tight fit where the guard meets the scabbard mouth &#8212; the first motion of a draw. Done idly, with a laugh, it is a silent threat."
+      },
+      {
+        "anchor": "Kumano oath-paper",
+        "note": "A <i>g&#333;-&#333;</i> pledge-sheet issued by the Kumano shrines, printed over with the crows sacred to their gods; to swear on one and break the oath was held to call down divine punishment. Shichiri&#8217;s calling it &#8216;old-fashioned&#8217; is the joke of a man who no longer quite believes in it."
+      },
+      {
+        "anchor": "planted arrow-bamboo in the garden",
+        "note": "<i>Yadake</i>, a slender, hard bamboo whose straight canes were cut for arrow-shafts; a warrior household grew a stand of it as both material and emblem. The farm boy&#8217;s planting it, in longing to be a samurai, is preserved in the Hijikata family traditions."
+      }
     ]
   }
 }

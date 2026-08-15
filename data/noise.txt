@@ -464,3 +464,18 @@
 一本木
 # Ozeki Masaichirō — a former Shinsengumi corporal (尾関政一郎); 一 is part of Masaichirō, not the count 1
 政一郎
+# ── B15 additions (ch70 解説 / Harada commentary) ──
+# gojūdai = "one's fifties" (五十代), an age-decade idiom; the English carries "in my fifties"
+五十代
+# sanjūdai = "one's thirties" (三十代), an age-decade idiom; the English carries "in their thirties"
+三十代
+# rokujū-nendai = "the 1960s" (六〇年代); the decade is carried in the English "1960s" (the bare 六 is a parse artifact of the full-width 〇)
+六〇年代
+# sanbusaku = "trilogy" (三部作); 三 is the idiom, not a live count
+三部作
+# bankan = "feelings past counting" (万感); 万 ("myriad") is the idiom, not a live count
+万感
+# 1980 written in kanji (一九八〇年); the year is carried in the English as "1980" (the token 198 is a parse artifact of the kanji 〇)
+一九八〇
+# 2020 written in kanji (二〇二〇年, the film's release year); carried in the English as "2020" (parse artifact of the kanji 〇)
+二〇二〇

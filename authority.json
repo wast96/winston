@@ -1,6 +1,86 @@
 {
  "_about": "Cross-book name authority for the whole translation shelf. Consult BEFORE romanizing anything in a new book; one rendering per referent ACROSS BOOKS unless a book records a deliberate deviation (e.g. a period-flavor style like Chungking/Peiping in a 1940s memoir) in its own glossary note. Feed every new book's decided renderings back in on completion. Entries carry every rendering observed on the shelf with the books that used it; status 'reconcile' marks a live cross-book disagreement (article-only differences excluded). Sources: the nine completed books, 2026-08.",
  "terms": {
+  "おつね": {
+   "renderings": {
+    "Otsune": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Kondō Isami's wife, a silent, gloomy woman and, by Toshizō's account, a poor cook."
+  },
+  "おのぶ": {
+   "renderings": {
+    "Onobu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Toshizō's elder sister, wife of Satō Hikogorō."
+  },
+  "お佐絵": {
+   "renderings": {
+    "Osae": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Younger sister of the Saruwatari chief priest of Fuchū; the woman Toshizō meets in the festival dark. Apparently the novelist's invention. Romanization mine."
+  },
+  "お咲": {
+   "renderings": {
+    "Osaki": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A meshimori-onna at the Jōshūya inn in Fuda, a thin-lipped Jōshū woman; a minor figure. Romanization mine."
+  },
+  "お雪": {
+   "renderings": {
+    "Oyuki": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Oyuki (given name Yuki) is Shiba&#8217;s invention; see the note at her first appearance. She recurs to the end of the novel as the woman who draws out Toshiz&#333;&#8217;s private self."
+  },
+  "レオン・ロッシュ": {
+   "renderings": {
+    "Léon Roches": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Léon Roches (1809&#8211;1900), French minister to Japan 1864&#8211;68, who tied France to the shogunate&#8217;s cause with loans, arms, and the Yokosuka arsenal."
+  },
+  "一橋慶喜": {
+   "renderings": {
+    "Hitotsubashi Yoshinobu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tokugawa Yoshinobu (Keiki), head of the Hitotsubashi house and, at this date, Superintendent of the Defense of the Imperial Palace; he became the fifteenth and last shogun in 1866. His personal notice of Kondō marks how high the farmer's son had risen."
+  },
+  "七里研之助": {
+   "renderings": {
+    "Shichiri Kennosuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The chief personal antagonist of the novel's early and middle chapters. An iai master of the Araki-ryū, trained first in the Maniwa Nen-ryū; reading from the source's furigana (しちりけんのすけ)."
+  },
   "万国公墓": {
    "renderings": {
     "International Cemetery": [
@@ -13,6 +93,26 @@
    "category": "places",
    "status": "agreed-article-varies",
    "note": "The Shanghai cemetery for the dead of all nations (<span lang=\"zh-Hans\">万国公墓</span>, &#8216;Cemetery of All Nations&#8217;), Chinese and foreign alike, on Hongqiao Road in the western outskirts (founded 1909); Stephen is buried here (ch28&#8211;ch29)."
+  },
+  "三月亭石巴": {
+   "renderings": {
+    "Sangetsutei Sekiha": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Toshiz&#333;&#8217;s grandfather, a haiku poet well known in the Hino country in the Bunka&#8211;Bunsei years; the source of the family&#8217;s haiku tradition."
+  },
+  "三条小橋": {
+   "renderings": {
+    "Sanjō-kobashi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The &#8220;little bridge&#8221; on Sanj&#333;, over the Takase canal; the Ikedaya stood at its west end."
   },
   "三民主义": {
    "renderings": {
@@ -28,6 +128,16 @@
    "status": "agreed-article-varies",
    "note": "三民主义; Sun Yat-sen's doctrine of nationalism, democracy, and the people's livelihood, made the Nationalist creed. See the note at first appearance."
   },
+  "三浦義勝": {
+   "renderings": {
+    "Miura Yoshikatsu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Sagami warrior whose reinforcements turned the Battle of Bubaigawara for Nitta."
+  },
   "三潭印月": {
    "renderings": {
     "Three Pools Mirroring the Moon": [
@@ -40,6 +150,26 @@
    "category": "places",
    "status": "agreed-article-varies",
    "note": "A celebrated West Lake scene, an islet ringed by three small stone pagodas standing in the water."
+  },
+  "三田尻": {
+   "renderings": {
+    "Mitajiri": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Chōshū's chief port on the Inland Sea, in Suō province (the modern Hōfu), from which the domain shipped its expeditionary force toward Osaka."
+  },
+  "三番町": {
+   "renderings": {
+    "Sanbanchō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "An Edo quarter to which the Saitō hall (Renpeikan) moved after a fire."
   },
   "三马路": {
    "renderings": {
@@ -54,6 +184,16 @@
    "status": "reconcile",
    "note": "三马路; the colloquial name of Hankou Road (汉口路), the financial street of Chinese Shanghai where the securities exchange stood. See the footnote at first appearance."
   },
+  "上州屋": {
+   "renderings": {
+    "the Jōshūya": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Rihei's inn at the Fuda station on the Kōshū Highway."
+  },
   "上海": {
    "renderings": {
     "Shanghai": [
@@ -65,6 +205,36 @@
    "category": "places",
    "status": "agreed",
    "note": "China&#8217;s largest city and the seat of the Party Central and its underground in this period."
+  },
+  "上石原": {
+   "renderings": {
+    "Kamiishiwara": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A village of the Fuda Five Stations on the Kōshū Highway (now part of Chōfu); Kondō Isami's birthplace."
+  },
+  "上野彦馬": {
+   "renderings": {
+    "Ueno Hikoma": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A samurai of the Ōmura domain (1838–1904) and a pioneer of photography in Japan, who kept a famous studio at Nagasaki. His portraits of Bakumatsu figures survive; the photograph of Kondō is historical."
+  },
+  "与兵衛": {
+   "renderings": {
+    "Yohei": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The keeper of the night sak&#233;-shop that gives the chapter its name."
   },
   "东方饭店": {
    "renderings": {
@@ -78,6 +248,16 @@
    "category": "organizations",
    "status": "reconcile",
    "note": "The Shanghai hotel (东方, 'the East') where Fourth Madam stages the storytelling that opens A-Chu's origins to him; rendered by pinyin, since the source's 东方饭店 does not map cleanly onto any one attested Republican-era English hotel name."
+  },
+  "中仙道": {
+   "renderings": {
+    "the Nakasendō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The inland highway between Edo and Kyoto, running through the central mountains; longer than the coastal Tōkaidō but free of its river-crossings."
   },
   "中原": {
    "renderings": {
@@ -128,6 +308,56 @@
    "category": "organisations",
    "status": "agreed"
   },
+  "中村半次郎": {
+   "renderings": {
+    "Nakamura Hanjirō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nakamura Hanjir&#333; (1838&#8211;1877), later Kirino Toshiaki: a Satsuma swordsman of the Jigen-ry&#363; reckoned one of the &#8216;four man-cutters&#8217; of the Bakumatsu, close to Saig&#333; Takamori. He rose to general in the imperial army and fell with Saig&#333; at Shiroyama in the Satsuma Rebellion of 1877."
+  },
+  "中西登": {
+   "renderings": {
+    "Nakanishi Noboru": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A pupil of Itō who later cast his lot with the Satsuma domain."
+  },
+  "丹虎": {
+   "renderings": {
+    "the Tantora": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "A Kiyamachi restaurant kept by Shikokuya J&#363;bei, the second suspected meeting-place; the object of Toshiz&#333;&#8217;s party on the night of the raid."
+  },
+  "久坂玄瑞": {
+   "renderings": {
+    "Kusaka Genzui": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1840&#8211;1864. A leading loyalist of Ch&#333;sh&#363;, disciple and son-in-law of Yoshida Sh&#333;in; died the next year in the Ch&#333;sh&#363; attack on the Forbidden Gate. Reading from the source&#8217;s furigana."
+  },
+  "九条尚忠": {
+   "renderings": {
+    "Kujō Hisatada": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1798&#8211;1871. Head of the Kuj&#333; regent house and leader of the pro-shogunate nobles at court; hated by the loyalists, he shaved his head and withdrew after the terror of 1862. Reading from the source&#8217;s furigana (&#12402;&#12373;&#12383;&#12384;)."
+  },
   "九江": {
    "renderings": {
     "Jiujiang": [
@@ -138,6 +368,16 @@
    "category": "places",
    "status": "agreed",
    "note": "九江; the Yangzi river-port in Jiangxi, below Mount Lu."
+  },
+  "二帖半敷町": {
+   "renderings": {
+    "Nijōhanjiki-chō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A block in central Ky&#333;to; the crossroads that gives the chapter its name. The name reads literally &#8220;two-and-a-half-mat town.&#8221;"
   },
   "于右任": {
    "renderings": {
@@ -161,6 +401,16 @@
    "status": "agreed",
    "note": "云南路; a Settlement road near the racecourse; older English Yunnan Road."
   },
+  "井上源三郎": {
+   "renderings": {
+    "Inoue Genzaburō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1829&#8211;1868. One of the founding Tama members of the Shinsengumi; killed at Toba-Fushimi."
+  },
   "交际花": {
    "renderings": {
     "socialite": [
@@ -174,6 +424,66 @@
    "status": "reconcile",
    "note": "交际花, lit. 'a flower of society'; a fashionable woman of the demimonde who moves among wealthy men, here Xu Manli."
   },
+  "京都守護職": {
+   "renderings": {
+    "the Kyoto Protector": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The shogunal office created in 1862 to keep order in Kyoto, held by Matsudaira Katamori of Aizu; the Shinsengumi served under its authority."
+  },
+  "仏光寺": {
+   "renderings": {
+    "the Bukkō-ji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A large Shin-sect temple in central Ky&#333;to; its gate-front was a landmark and a stand for hired palanquins."
+  },
+  "代官": {
+   "renderings": {
+    "intendant": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A shogunal officer administering a district of the Tokugawa house's own lands in place of a resident lord."
+  },
+  "伊東甲子太郎": {
+   "renderings": {
+    "Itō Kashitarō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Born Suzuki Daizō in Hitachi; a Hokushin Ittō-ryū adept and Mito-school loyalist ideologue who kept a dōjō at Fukagawa in Edo. He joined the Shinsengumi at the end of 1864, meaning all along to turn it into a topple-the-shogunate party. His faction would later break away as the Kōdai-ji guardsmen and be destroyed."
+  },
+  "伊藤一刀斎": {
+   "renderings": {
+    "Itō Ittōsai": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Founder of the Ittō-ryū line of swordsmanship."
+  },
+  "伊香保": {
+   "renderings": {
+    "Ikaho": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A hot-spring town in Kōzuke (Jōshū), site of the shrine tablet affair between Chiba Shūsaku and the Nen-ryū."
+  },
   "伍豪": {
    "renderings": {
     "Wu Hao": [
@@ -184,6 +494,66 @@
    "category": "terms",
    "status": "agreed",
    "note": "An alias of Zhou Enlai, from his code name in the Awakening Society; the pivot of the fake &#8216;renunciation&#8217; notices and their rebuttal."
+  },
+  "会津": {
+   "renderings": {
+    "Aizu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Matsudaira domain of the mountainous northeast, staunchly loyal to the shogunate; its lord was Kyoto Protector and the Shinsengumi's patron, and it fought the Restoration to a bitter end in 1868."
+  },
+  "伝習隊": {
+   "renderings": {
+    "the Denshūtai": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The shogunate's French-drilled infantry corps. Full note at ch44."
+  },
+  "佐々木唯三郎": {
+   "renderings": {
+    "Sasaki Tadasaburō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1833&#8211;1868. A shogunal swordsman, later of the Mimawarigumi; killed Kiyokawa Hachir&#333; in 1863 and is widely thought to have led the killing of Sakamoto Ry&#333;ma in 1867. Shiba writes the given name &#21807;&#19977;&#37070;; he is also recorded as &#21482;&#19977;&#37070;."
+  },
+  "佐川官兵衛": {
+   "renderings": {
+    "Sagawa Kanbei": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Aizu senior retainer, nicknamed the Aizu ogre; captain of the han's Bessentai. Full note at ch44."
+  },
+  "佐藤彦五郎": {
+   "renderings": {
+    "Satō Hikogorō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1827&#8211;1902. Headman (<i>nanushi</i>) of Hino, married to Toshizō's elder sister; his household kept the Tennen Rishin-ryū training hall where Kondō and Toshizō trained."
+  },
+  "佐野七五三之助": {
+   "renderings": {
+    "Sano Shimenosuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A comrade of Itō who died by his own hand before the Restoration."
   },
   "俞济时": {
    "renderings": {
@@ -206,6 +576,16 @@
    "status": "agreed",
    "note": "兆丰公园; the large park in the western part of the International Settlement, known in English as Jessfield Park (today Zhongshan Park, 中山公园), with a lake and a small zoo."
   },
+  "先斗町": {
+   "renderings": {
+    "Pontochō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A narrow lane of teahouses and geisha between the Kamo River and Kiyamachi in central Kyoto."
+  },
   "先施公司": {
    "renderings": {
     "the Sincere Company": [
@@ -216,6 +596,56 @@
    "category": "organizations",
    "status": "agreed",
    "note": "Sincere Co., opened on Nanjing Road, Shanghai, in 1917; one of the 'four great' pre-war department stores. Cited in ch05 as commercial camouflage for moving parcels. Attested in histories of Nanjing Road commerce."
+  },
+  "児玉民部": {
+   "renderings": {
+    "Kodama Minbu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Chōshū commander who led the assault on the Shimodachiuri Gate in the Hamaguri Gate battle."
+  },
+  "八木源之丞": {
+   "renderings": {
+    "Yagi Gennojō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A rural samurai of Mibu whose house lodged the corps; the Yagi residence survives as a site of Shinsengumi history."
+  },
+  "八王子": {
+   "renderings": {
+    "Hachiōji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A town west of Fuchū on the Kōshū Highway."
+  },
+  "公用方": {
+   "renderings": {
+    "liaison office": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A domain's political-liaison bureau, handling its dealings with the court, the shogunate, and other domains in Kyoto."
+  },
+  "六車宗伯": {
+   "renderings": {
+    "Rokusha Sōhaku": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A swordsman of the Kōgen Ittō-ryū, deputy master at Fuchū, whom Toshizō kills in this chapter. The surname is read <i>Rokusha</i> on the source&#8217;s own furigana (ろくしゃそうはく), echoing the Rokusha Myōjin shrine he serves; hence the chapter title, &#8216;Cutting Down Rokusha.&#8217;"
   },
   "兰州": {
    "renderings": {
@@ -269,6 +699,26 @@
    "status": "agreed-article-varies",
    "note": "Real. Uchiyama Kanzo's Hongkou bookshop (from 1917; moved 1929 to Scott Road), stocking Japanese and banned left-wing books; Lu Xun's haunt."
   },
+  "内海二郎": {
+   "renderings": {
+    "Utsumi Jirō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A pupil of Itō who later cast his lot with the Satsuma domain."
+  },
+  "内藤新宿": {
+   "renderings": {
+    "Naitō Shinjuku": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The first post-station out of Edo on the Kōshū Highway."
+  },
   "军统": {
    "renderings": {
     "Military Statistics Bureau": [
@@ -308,6 +758,116 @@
    "status": "agreed",
    "note": "1903–1976; poet, literary theorist and CCP cultural figure, liaison to Shanghai&#8217;s writers."
   },
+  "分倍橋": {
+   "renderings": {
+    "Bubai Bridge": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A small bridge south of Bubaigawara, the appointed place of the fight."
+  },
+  "分倍河原": {
+   "renderings": {
+    "Bubaigawara": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A district on the old Tama-River flats near Fuchū, a road-junction long fought over; site of the 1333 battle and of the duel of this chapter."
+  },
+  "利助": {
+   "renderings": {
+    "Risuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A newly hired servant of the Masuya who informed on the arms cache. Romanization mine."
+  },
+  "前川屋敷": {
+   "renderings": {
+    "the Maekawa mansion": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "One of the requisitioned residences at Mibu that served as Shinsengumi barracks; Yamanami was confined and died here."
+  },
+  "副長": {
+   "renderings": {
+    "vice-commander": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "<i>Fukuch&#333;</i>, second to the commander; Hijikata&#8217;s chosen post, from which he worked the corps."
+  },
+  "加田進次郎": {
+   "renderings": {
+    "Kada Shinjirō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Oyuki&#8217;s late husband in the novel, an Edo-resident foot-guard of the &#332;gaki domain; like Oyuki, a fictional figure."
+  },
+  "加納道之助": {
+   "renderings": {
+    "Kanō Michinosuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An old comrade of Itō, later known as Kanō Washio; he went over to the Satsuma side."
+  },
+  "加納鵰雄": {
+   "renderings": {
+    "Kanō Michinosuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A corporal of the Shinsengumi in It&#333;&#8217;s faction; 鵰雄 is a roster variant for the same man written 道之助 elsewhere (see ch27)."
+  },
+  "加賀": {
+   "renderings": {
+    "Kaga": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The great domain on the Sea of Japan (modern Ishikawa), held by the Maeda house; its levy took the Tengu Party&#8217;s surrender."
+  },
+  "助勤": {
+   "renderings": {
+    "jokin": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A line officer of the corps, adjutant in quarters and platoon-leader in the field; the term borrowed from the student self-government of the sh&#333;gunal college."
+  },
+  "勝海舟": {
+   "renderings": {
+    "Katsu Kaishū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Katsu Kaishū (1823&#8211;1899), the far-sighted shogunal official who built the first Japanese navy and, in 1868, negotiated the peaceful surrender of Edo Castle."
+  },
   "北伐": {
    "renderings": {
     "Northern Expedition": [
@@ -346,6 +906,26 @@
    "status": "agreed",
    "note": "The name of Beijing under the Nationalist government (1928–49); site of the Tongyi Company&#8217;s largest creditors."
   },
+  "北添佶麿": {
+   "renderings": {
+    "Kitazoe Yoshimaro": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tosa loyalist, cut down at the head of the Ikedaya stairs. The given name 佶麿 is read Yoshimaro."
+  },
+  "北辰一刀流": {
+   "renderings": {
+    "the Hokushin Ittō-ryū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The great Edo sword school of Chiba Shūsaku, at the height of its fame in these years; Tōdō Heisuke&#8217;s school."
+  },
   "十九路军": {
    "renderings": {
     "Nineteenth Route Army": [
@@ -381,6 +961,56 @@
    },
    "category": "places",
    "status": "agreed"
+  },
+  "十津川": {
+   "renderings": {
+    "Totsukawa": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A mountain district of Yamato (modern Nara) whose rural samurai were fierce imperial loyalists; see the note here."
+  },
+  "千人町": {
+   "renderings": {
+    "Senninmachi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Hachiōji quarter named for the Thousand Guardsmen settled there; site of the Hiruma hall."
+  },
+  "千葉周作": {
+   "renderings": {
+    "Chiba Shūsaku": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1792/94&#8211;1855. Founder of the Hokushin Itt&#333;-ry&#363; and of the Genbukan hall in Edo; his school&#8217;s ties to the Mito house made it a seedbed of revere-the-Emperor politics."
+  },
+  "千葉栄次郎": {
+   "renderings": {
+    "Chiba Eijirō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1833&#8211;1862. Second son of Chiba Shūsaku and a swordsman prodigy of the Hokushin Ittō-ryū, nicknamed the Little Tengu of Chiba."
+  },
+  "半造": {
+   "renderings": {
+    "Hanzō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Son of Hiruma Yohachi and head, from a hall in Senninmachi at Hachiōji, of the Kōgen Ittō-ryū; married to Sen, daughter of the abbot of the Senjubō."
   },
   "华懋饭店": {
    "renderings": {
@@ -426,6 +1056,16 @@
    "category": "places",
    "status": "agreed"
   },
+  "原田左之助": {
+   "renderings": {
+    "Harada Sanosuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1840&#8211;1868. A spearman of the Hōzōin line; died in the fighting around Edo."
+  },
   "反省院": {
    "renderings": {
     "reflection institute": [
@@ -438,6 +1078,16 @@
    "category": "terms",
    "status": "reconcile",
    "note": "A Nationalist ‘Three People’s Principles’ re-education facility to which unconvicted political prisoners could be transferred, used as a rescue channel."
+  },
+  "古高": {
+   "renderings": {
+    "Furutaka": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A loyalist agent (1829&#8211;1864) who, under the merchant alias Masuya Kiemon, ran an arms depot for the Ch&#333;sh&#363;-aligned plotters. His arrest set off the Ikedaya raid."
   },
   "史良": {
    "renderings": {
@@ -459,6 +1109,46 @@
    },
    "category": "people",
    "status": "agreed"
+  },
+  "吉村貫一郎": {
+   "renderings": {
+    "Yoshimura Kan'ichirō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical inspector of the corps, a Nanbu (Morioka) man; later the subject of Asada Jirō's novel <i>Mibu Gishi Den</i>."
+  },
+  "吉田稔麿": {
+   "renderings": {
+    "Yoshida Toshimaro": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Ch&#333;sh&#363; loyalist (1841&#8211;1864), a favored pupil of Yoshida Sh&#333;in; killed at twenty-four in the Ikedaya fight."
+  },
+  "吉田良道": {
+   "renderings": {
+    "Yoshida Ryōdō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The Kyoto painter under whom the fictional Oyuki is said to study; part of Shiba&#8217;s invented history for her."
+  },
+  "名主": {
+   "renderings": {
+    "village headman": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The headman of a village, lowest office of Tokugawa rural administration: a leading farmer, not a samurai."
   },
   "吴佩孚": {
    "renderings": {
@@ -505,6 +1195,26 @@
    "category": "people",
    "status": "agreed"
   },
+  "周作": {
+   "renderings": {
+    "Shūsaku": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Founder of the Hokushin Ittō-ryū and of the Genbukan hall in Edo; father of Eijirō. One of the great sword-reformers of the age."
+  },
+  "周平": {
+   "renderings": {
+    "Shūhei": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Kond&#333; Sh&#363;hei, Kond&#333; Isami&#8217;s adopted son, one of the five who charged into the Ikedaya."
+  },
   "周恩来": {
    "renderings": {
     "Zhou Enlai": [
@@ -516,6 +1226,16 @@
    "status": "agreed",
    "note": "1898&#8211;1976; then the real director of the Party&#8217;s underground work in Shanghai; the author&#8217;s superior."
   },
+  "和泉守兼定": {
+   "renderings": {
+    "Izumi-no-kami Kanesada": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A celebrated sword-signature. The blade Hijikata carried through his life bore it; see the note at its first appearance."
+  },
   "哥伦比亚路": {
    "renderings": {
     "Columbia Road": [
@@ -526,6 +1246,16 @@
    "category": "places",
    "status": "agreed",
    "note": "Now Panyu Road, Shanghai"
+  },
+  "唐津": {
+   "renderings": {
+    "Karatsu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A domain in Hizen, in northwest Kyushu; Ogasawara was its daimy&#333;&#8217;s heir."
   },
   "唐生智": {
    "renderings": {
@@ -548,6 +1278,36 @@
    "status": "agreed",
    "note": "1862-1938; first premier of the Republic, assassinated in Shanghai."
   },
+  "善海": {
+   "renderings": {
+    "Zenkai": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Abbot of the Senjubō, the Shinshū temple in Hachiōji where Toshizō lodged in his peddling days. Romanization mine."
+  },
+  "喜六": {
+   "renderings": {
+    "Kiroku": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A farmer of Ishida village, Toshizō's eldest surviving brother and head of the house."
+  },
+  "四国屋": {
+   "renderings": {
+    "Shikokuya": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Sh&#333;ku&#333;ya J&#363;bei, keeper of the Kiyamachi restaurant Tantora, a known haunt of the Ch&#333;sh&#363; and Tosa men."
+  },
   "四马路": {
    "renderings": {
     "Fourth Avenue": [
@@ -559,6 +1319,16 @@
    "category": "places",
    "status": "agreed",
    "note": "A busy, crowded Shanghai street (present-day Fuzhou Road), rendered by its old foreign-settlement name (Chapter 26)."
+  },
+  "国司信濃": {
+   "renderings": {
+    "Kunishi Shinano": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A young Chōshū elder councillor (karō), only twenty-five, given overall field command of the Kyoto expedition. He was ordered to commit seppuku after the defeat."
   },
   "国民党": {
    "renderings": {
@@ -586,6 +1356,66 @@
    "status": "reconcile",
    "note": "The wartime advisory body; Dong Biwu and Deng Yingchao launched there a motion against the secret imprisonment of patriots (ch21)."
   },
+  "土方歳三": {
+   "renderings": {
+    "Hijikata Toshizō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical figure, 1835&#8211;1869. Japanese name order, surname (Hijikata) first; the given name Toshizō carries a long final vowel. Called <i>Toshi</i> by his intimates."
+  },
+  "坂本竜馬": {
+   "renderings": {
+    "Sakamoto Ryōma": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1836&#8211;1867. Of Tosa, a Hokushin Ittō-ryū swordsman of the Chiba hall; later the great broker of the Restoration, assassinated in 1867."
+  },
+  "堀川国広": {
+   "renderings": {
+    "Horikawa Kunihiro": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A short-sword of the Kyoto smith Horikawa Kunihiro (c.1531&#8211;1614); Toshiz&#333;&#8217;s companion blade to the long Izumi-no-kami Kanesada (see ch12, ch17)."
+  },
+  "塚原卜伝": {
+   "renderings": {
+    "Tsukahara Bokuden": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A sword-saint of the sixteenth century."
+  },
+  "士道": {
+   "renderings": {
+    "the warrior's code": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "<i>Shid&#333;</i>, the way of the warrior; the governing idea of the corps, and of this chapter. In the Shinsengumi it hardened into a written code whose central charge, &#8220;failure in the warrior&#8217;s code,&#8221; carried death."
+  },
+  "壬生": {
+   "renderings": {
+    "Mibu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A village in the western outskirts of Kyoto, the first quarters and base of the corps that became the Shinsengumi (called, in derision, the Mibu-r&#333;, the &#8216;Mibu wolves&#8217;)."
+  },
   "复兴社": {
    "renderings": {
     "the Renaissance Society": [
@@ -598,6 +1428,26 @@
    "category": "organisations",
    "status": "agreed-article-varies",
    "note": "founded spring 1932; the book has Dai Li organizing its Special Services Section in 1931"
+  },
+  "夏目成美": {
+   "renderings": {
+    "Natsume Seibi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Real haiku poet (1749&#8211;1817), a wealthy Asakusa money-changer and a leading master of his day, patron of the young Issa."
+  },
+  "外島機兵衛": {
+   "renderings": {
+    "Toshima Kihee": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A liaison officer (<i>k&#333;y&#333;gata</i>) of the Aizu domain in Kyoto, the corps&#8217;s channel to its patron the Kyoto Protector. Reading from the source&#8217;s furigana (&#12392;&#12376;&#12414;&#12365;&#12408;&#12360;)."
   },
   "外滩": {
    "renderings": {
@@ -634,6 +1484,26 @@
    "status": "agreed",
    "note": "The famous many-storeyed amusement palace at the edge of the French Concession (opened 1917); a dance hall behind it is the scene of ch31."
   },
+  "大久保一蔵": {
+   "renderings": {
+    "Ōkubo Ichizō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "&#332;kubo Toshimichi (1830&#8211;1878), the Satsuma statesman who, with Saig&#333; and Kido, drove the Restoration and then built the Meiji state; Ichiz&#333; was his earlier name. He was assassinated in 1878."
+  },
+  "大仏": {
+   "renderings": {
+    "the Great Buddha": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The colossal Buddha of the H&#333;k&#333;-ji in Higashiyama, Ky&#333;to&#8217;s <i>Daibutsu</i>; &#8220;behind the Great Buddha&#8221; names the district around it."
+  },
   "大光明电影院": {
    "renderings": {
     "Grand Theatre": [
@@ -658,6 +1528,46 @@
    "status": "agreed",
    "note": "County (now city) in Hubei where the author was sent on leaving Qincheng in 1975, her daughter's family being posted there with a geological team (ch40, ch42)."
   },
+  "大国魂神社": {
+   "renderings": {
+    "the Ōkunitama Shrine": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The head shrine (<i>sōja</i>) of Musashi Province, at Fuchū; also called the Rokusha Myōjin or Rokusho-gū. Its grand festival is the Kurayami (Darkness) Festival."
+  },
+  "大垣": {
+   "renderings": {
+    "Ōgaki": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A fudai castle-town and domain in Mino (modern Gifu), &#8216;&#332;gaki of the guns&#8217; (see ch25)."
+  },
+  "大島新五右衛門": {
+   "renderings": {
+    "Ōshima Shingoemon": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An eighteenth-century rural samurai of Kōzuke (died 1779) famous for a trick-drawing feat of the Araki-ryū iai."
+  },
+  "大津": {
+   "renderings": {
+    "Ōtsu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The first post-town east of Kyoto on the T&#333;kaid&#333;, on the south shore of Lake Biwa."
+  },
   "大美晚报": {
    "renderings": {
     "Shanghai Evening Post and Mercury": [
@@ -671,6 +1581,26 @@
    "status": "reconcile",
    "note": "Real. The Shanghai Evening Post and Mercury, American-owned and foreign-registered; Chinese edition from 16 Jan 1933."
   },
+  "大谷刑部": {
+   "renderings": {
+    "Ōtani Gyōbu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "&#332;tani Yoshitsugu (1559&#8211;1600), Hideyoshi&#8217;s trusted general, renowned for the handling of large forces; see the note here."
+  },
+  "大高又次郎": {
+   "renderings": {
+    "Ōtaka Matajirō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Bansh&#363; loyalist and leather-armorer; killed at the Ikedaya."
+  },
   "天津": {
    "renderings": {
     "Tianjin": [
@@ -683,6 +1613,66 @@
    "status": "agreed",
    "note": "North China treaty port; seat of the Party&#8217;s Northern Bureau."
   },
+  "天然理心流": {
+   "renderings": {
+    "the Tennen Rishin-ryū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The country school of swordsmanship, founded by Kondō Kuranosuke and headed in this book by Kondō Isami; the school of Hijikata, Okita, and the Tama men. Known for overwhelming an opponent&#8217;s spirit and for close, practical fighting rather than polish."
+  },
+  "天狗党": {
+   "renderings": {
+    "the Tengu Party": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The radical revere-the-Emperor faction of the Mito domain, which in 1864 rose in open revolt and was crushed."
+  },
+  "天王山": {
+   "renderings": {
+    "Tennōzan": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A hill commanding the Yamazaki defile on the road between Kyoto and Osaka, proverbial in Japanese for a decisive position. Maki Izumi and his men made their last stand here."
+  },
+  "天竜寺": {
+   "renderings": {
+    "the Tenryū-ji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A great Rinzai Zen monastery in Saga, in the western reaches of Kyoto, head temple of its own branch; founded in 1339 to placate the spirit of the late Emperor Go-Daigo. Its walled compound made a natural fortress."
+  },
+  "太平記": {
+   "renderings": {
+    "the Taiheiki": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The fourteenth-century war-chronicle of the wars of the Northern and Southern Courts, a storytellers' staple."
+  },
+  "太田市之進": {
+   "renderings": {
+    "Ōta Ichinoshin": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Chōshū samurai of the Saga wing who rallied the wavering Fushimi force at Fujinomori; later known as Mihori Kōsuke."
+  },
   "奉化": {
    "renderings": {
     "Fenghua": [
@@ -692,6 +1682,16 @@
    },
    "category": "places",
    "status": "agreed"
+  },
+  "奥沢新三郎": {
+   "renderings": {
+    "Okuzawa Shinzaburō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The one Shinsengumi corpsman killed outright at the Ikedaya."
   },
   "委员长": {
    "renderings": {
@@ -703,6 +1703,16 @@
    "category": "terms",
    "status": "agreed",
    "note": "For Chiang; 'Chairman' would collide with the CCP usage a reader expects."
+  },
+  "姫路": {
+   "renderings": {
+    "Himeji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The castle town of Banshū (Harima), west of Osaka."
   },
   "孔祥熙": {
    "renderings": {
@@ -753,6 +1763,16 @@
    "status": "agreed",
    "note": "1891–1973; son of Sun Yat-sen and a president of one of the Nationalist government&#8217;s Five Yuan."
   },
+  "孝明天皇": {
+   "renderings": {
+    "the Emperor Kōmei": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Reigned 1846&#8211;1867. Fiercely opposed to opening the country to foreigners, he lent the loyalist cause an imperial sanction the shogunate could not command."
+  },
   "孤山": {
    "renderings": {
     "Solitary Hill": [
@@ -776,6 +1796,26 @@
    "category": "terms",
    "status": "agreed-article-varies",
    "note": "The name for the foreign-concession enclave of Shanghai between the Japanese occupation of the surrounding city in 1937 and the seizure of the concessions after Pearl Harbor in December 1941, during which the concessions kept a precarious neutral status."
+  },
+  "学習院": {
+   "renderings": {
+    "the Gakushūin": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "Not the later peers&#8217; school of the same name but a court institution of 1863: a hall within the Imperial Palace where sympathetic nobles met loyalist activists to debate policy toward the shogunate."
+  },
+  "安藤早太郎": {
+   "renderings": {
+    "Andō Hayatarō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Shinsengumi corpsman who died soon after of wounds taken at the Ikedaya."
   },
   "宋子文": {
    "renderings": {
@@ -820,6 +1860,196 @@
    "status": "reconcile",
    "note": "1898&#8211;2003; Madame Chiang Kai-shek, youngest of the Soong sisters."
   },
+  "宍戸備後助": {
+   "renderings": {
+    "Shishido Bingo-no-suke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A borrowed domain-elder&#8217;s name under which Ch&#333;sh&#363; sent a stand-in envoy to the Hiroshima interrogation."
+  },
+  "宝鏡寺": {
+   "renderings": {
+    "the Hōkyō-ji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A Rinzai imperial convent (<i>ama-monzeki</i>) in Ky&#333;to whose abbesses were imperial princesses; also called the Momo-no-gosho."
+  },
+  "室町": {
+   "renderings": {
+    "Muromachi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A north&#8211;south street in central Ky&#333;to."
+  },
+  "宮本武蔵": {
+   "renderings": {
+    "Miyamoto Musashi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The famous seventeenth-century duelist, author of The Book of Five Rings."
+  },
+  "宮部鼎蔵": {
+   "renderings": {
+    "Miyabe Teizō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Higo loyalist (1820&#8211;1864), a leading strategist of the cause; died at the Ikedaya."
+  },
+  "家茂": {
+   "renderings": {
+    "Iemochi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tokugawa Iemochi (1846&#8211;1866), the fourteenth Sh&#333;gun; a boy still, married to Princess Kazunomiya and made the living token of the union of court and shogunate."
+  },
+  "富山弥兵衛": {
+   "renderings": {
+    "Tomiyama Yahei": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A corporal of the Shinsengumi who went over to It&#333;&#8217;s faction."
+  },
+  "寺島忠三郎": {
+   "renderings": {
+    "Terashima Chūzaburō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A young Chōshū loyalist, close to Kusaka Genzui, with whom he killed himself at the Takatsukasa mansion when the attack failed."
+  },
+  "専修坊": {
+   "renderings": {
+    "Senjubō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Shinshū temple in Hachiōji of the winter episode. Reading from the source's own furigana; romanization mine."
+  },
+  "尊皇攘夷": {
+   "renderings": {
+    "Revere-the-Emperor and Expel-the-Barbarian": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The rallying slogan of the late-shogunate loyalists: reverence for the Emperor joined to the demand that the foreigner be driven out. Its logic pointed, in the end, past the shogunate itself."
+  },
+  "小仏峠": {
+   "renderings": {
+    "Kobotoke Pass": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The pass west of Hachiōji by which the Kōshū Highway crosses into Kai."
+  },
+  "小原仁兵衛": {
+   "renderings": {
+    "Ohara Jinbee": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Deputy commander of the Ōgaki troops, pen-name Tesshin; a noted strategist and student of Western gunnery."
+  },
+  "小桜": {
+   "renderings": {
+    "Kozakura": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A bell-shaking shrine maiden (<i>miko</i>) at the Ōkunitama Shrine in Fuchū; a minor character. Romanization mine."
+  },
+  "小石川小日向柳町": {
+   "renderings": {
+    "Yanagichō in Kohinata, Koishikawa": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Edo neighborhood where Kondō&#8217;s training hall (the Shieikan) stood."
+  },
+  "小笠原壱岐守": {
+   "renderings": {
+    "Ogasawara Iki-no-kami": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Ogasawara Nagamichi (1822&#8211;1891), heir of the Karatsu domain and a r&#333;j&#363; of the shogunate, prominent in the Ch&#333;sh&#363; war and the treaty question; Iki-no-kami is his court title."
+  },
+  "尾形俊太郎": {
+   "renderings": {
+    "Ogata Shuntarō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A jokin of the Shinsengumi and one of its few lettered men, employed by Kondō on documentary and liaison work."
+  },
+  "局中法度": {
+   "renderings": {
+    "the Code of the Corps": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The written law of the Shinsengumi, breach of it punishable by <i>seppuku</i>. See the note in the chapter on its debated historicity."
+  },
+  "局長": {
+   "renderings": {
+    "commander": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "<i>Kyokuch&#333;</i>, the title of a corps-captain in the Shinsengumi; three were made at the founding, to balance the Serizawa and Kond&#333; lines."
+  },
+  "居合": {
+   "renderings": {
+    "iai": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The art of drawing the sword and cutting in a single motion; a specialty distinct from ordinary fencing."
+  },
   "山东": {
    "renderings": {
     "Shandong": [
@@ -830,6 +2060,126 @@
    "category": "places",
    "status": "agreed",
    "note": "山东; the northern coastal province; older English Shantung."
+  },
+  "山南敬助": {
+   "renderings": {
+    "Yamanami Keisuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1833&#8211;1865. Held the full transmission at the Chiba hall; later general secretary (s&#333;ch&#333;) of the Shinsengumi, second only to Kondō, until an attempt to leave the corps forced him to commit seppuku."
+  },
+  "山岡鉄太郎": {
+   "renderings": {
+    "Yamaoka Tetsutarō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1836&#8211;1888. A shogunal overseer of the Rōshigumi; later famous as Yamaoka Tessh&#363;, a great swordsman, statesman, and Zen adept who helped negotiate the peaceful surrender of Edo Castle."
+  },
+  "山崎烝": {
+   "renderings": {
+    "Yamazaki Susumu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, died 1868. Son of an Osaka acupuncturist and the Shinsengumi&#8217;s ablest inspector and spy, skilled with the staff; mortally wounded after the sea-fight of Miyako Bay."
+  },
+  "山田信道": {
+   "renderings": {
+    "Yamada Nobumichi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Matsuda J&#363;suke&#8217;s younger brother, later governor of Ky&#333;to Prefecture, who raised the memorial to the Ikedaya dead."
+  },
+  "山県半蔵": {
+   "renderings": {
+    "Yamagata Hanzō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The real name of Ch&#333;sh&#363;&#8217;s sham envoy: Shishido Tamaki (1829&#8211;1901), a middle-rank samurai chosen for his glib tongue, after the Restoration a viscount and member of the House of Peers."
+  },
+  "岡田総右衛門": {
+   "renderings": {
+    "Okada Sōemon": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Founder of the Ryūgō-ryū of Warabi, the shin-cutting country school."
+  },
+  "岸淵兵輔": {
+   "renderings": {
+    "Kishibuchi Heisuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Mito clansman, once a visitor at Kond&#333;&#8217;s Edo d&#333;j&#333;, here made the bearer of the first warning about the Masuya. Romanization mine."
+  },
+  "島原": {
+   "renderings": {
+    "Shimabara": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Kyoto&#8217;s licensed pleasure quarter, in the southwest of the city; the courtesan district that was to Kyoto what the Yoshiwara was to Edo."
+  },
+  "島津久光": {
+   "renderings": {
+    "Shimazu Hisamitsu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1817&#8211;1887. Father of the young lord of Satsuma and the domain&#8217;s effective ruler in these years; it was his procession the English crossed at Namamugi."
+  },
+  "島田左近": {
+   "renderings": {
+    "Shimada Sakon": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An agent of the Kuj&#333; house and of the shogunal side; cut down in Kiyamachi in the seventh month of 1862 by Satsuma&#8217;s Tanaka Shinbei, the first of the loyalist &#8220;Heaven&#8217;s punishment&#8221; killings."
+  },
+  "島田魁": {
+   "renderings": {
+    "Shimada Kai": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Shinsengumi inspector, one of the biggest men in the corps; served on the surveillance of the Masuya."
+  },
+  "川島勝司": {
+   "renderings": {
+    "Kawashima Katsuji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Shinsengumi inspector. Romanization mine."
   },
   "巡捕房": {
    "renderings": {
@@ -847,16 +2197,49 @@
    "status": "reconcile",
    "note": "The police stations of the foreign concessions (Shanghai's International Settlement and French Concession). Their Chinese informers were 包打聽."
   },
+  "布田": {
+   "renderings": {
+    "Fuda": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The central station of the Fuda Five Stations on the Kōshū Highway, in present-day Chōfu."
+  },
   "常州": {
    "renderings": {
     "Changzhou": [
      "midnight",
      "wang-yaqiao"
+    ],
+    "Hitachi": [
+     "burn-o-sword"
     ]
    },
    "category": "places",
+   "status": "agreed-cross-language",
+   "note": "Cross-language homograph, not a conflict: read 'Changzhou' (the Jiangsu city) in the Chinese books, but 'Hitachi' in the Japanese novel Burn, O Sword!, where 常州 is the Sinitic name of Hitachi province (常陸国). Both are correct in their own book; do not reconcile."
+  },
+  "平山五郎": {
+   "renderings": {
+    "Hirayama Gorō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
    "status": "agreed",
-   "note": "A city in southern Jiangsu on the Shanghai–Nanjing line."
+   "note": "A Mito man of the Serizawa faction, killed alongside Serizawa in the assassination of 1863."
+  },
+  "平間重助": {
+   "renderings": {
+    "Hirama Jūsuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Mito follower and inner pupil of Serizawa Kamo. Romanization mine."
   },
   "广东": {
    "renderings": {
@@ -879,6 +2262,26 @@
    "category": "places",
    "status": "agreed"
   },
+  "広沢兵助": {
+   "renderings": {
+    "Hirosawa Hyōsuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Hirosawa Saneomi (1834&#8211;1871), a Ch&#333;sh&#363; official who became a councillor of the Restoration government and was assassinated in 1871; Hy&#333;suke was an earlier name."
+  },
+  "広沢富次郎": {
+   "renderings": {
+    "Hirosawa Tomijirō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An Aizu official (later known as Hirosawa Yasuto) who dealt with the Mibu corps at first hand; author of the record the <i>&#332;sh&#333;roku</i>, quoted here."
+  },
   "庐山": {
    "renderings": {
     "Mount Lu": [
@@ -891,6 +2294,16 @@
    "category": "places",
    "status": "reconcile",
    "note": "A mountain resort in Jiangxi where Chiang Kai-shek was staying."
+  },
+  "府中": {
+   "renderings": {
+    "Fuchū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The old provincial seat of Musashi, on the Kōshū Highway; site of the Ōkunitama Shrine."
   },
   "廖仲恺": {
    "renderings": {
@@ -971,6 +2384,16 @@
    "category": "people",
    "status": "agreed"
   },
+  "後醍醐天皇": {
+   "renderings": {
+    "Go-Daigo": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The fourteenth-century emperor whose brief Kenmu Restoration (1333) overthrew the Kamakura shogunate; Kusunoki Masashige was his most famous loyal general."
+  },
   "徐家汇": {
    "renderings": {
     "Xujiahui": [
@@ -982,6 +2405,26 @@
    "category": "places",
    "status": "agreed",
    "note": "A district of Shanghai."
+  },
+  "御陵衛士": {
+   "renderings": {
+    "the Goryō-eji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "&#8216;Guards of the Imperial Tomb&#8217;: the loyalist band It&#333; formed on breaking with the Shinsengumi in 1867, given the charge of tending Emperor K&#333;mei&#8217;s grave at Senny&#363;-ji."
+  },
+  "御香宮": {
+   "renderings": {
+    "Gokō-no-miya": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Gokō-no-miya shrine at Fushimi; its wooded precinct became the Satsuma army's forward post in 1868, directly north of the Magistracy."
   },
   "忠义救国军": {
    "renderings": {
@@ -995,6 +2438,36 @@
    "category": "organizations",
    "status": "reconcile",
    "note": "A Dai Li / Juntong-affiliated irregular force active in the lower Yangtze during the war; its Hengyang-region commander Zhou Kuilong held the couple (ch21)."
+  },
+  "念流": {
+   "renderings": {
+    "the Nen-ryū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "Here the Maniwa Nen-ryū of Kōzuke, one of the oldest surviving sword schools; where Shichiri first trained."
+  },
+  "恩智左近": {
+   "renderings": {
+    "Onji Sakon": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A retainer of Kusunoki Masashige, remembered as a loyal lieutenant; Kond&#333; casts Toshiz&#333; in the part."
+  },
+  "惣兵衛": {
+   "renderings": {
+    "Sōbei": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Ikedaya S&#333;bei, keeper of the inn; he died in prison after the affair."
   },
   "愚园路": {
    "renderings": {
@@ -1020,6 +2493,16 @@
    "status": "agreed",
    "note": "International Settlement street, printed in the source in Roman letters too; today Jiangning Road (江宁路)."
   },
+  "戒光寺": {
+   "renderings": {
+    "Kaikō-ji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A sub-temple within the grounds of Senny&#363;-ji, where It&#333;&#8217;s faction met."
+  },
   "戴季陶": {
    "renderings": {
     "Dai Jitao": [
@@ -1043,6 +2526,56 @@
    "status": "agreed",
    "note": "1897–1946, head of the Nationalists' Military Statistics Bureau (军统/Juntong), the KMT secret service; Whampoa sixth class (did not graduate). Ordered and oversaw the couple's secret arrest (ch20–21)."
   },
+  "戸田采女正氏彬": {
+   "renderings": {
+    "Toda Uneme-no-shō Ujiakira": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Lord of the Ōgaki domain, a shogunal-loyalist han renowned for its gunnery ('Ōgaki of the guns'). Being ill, he left the field to his deputy Ohara Tesshin."
+  },
+  "所司代": {
+   "renderings": {
+    "the Shoshidai": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Kyoto Deputy, the shogunate&#8217;s standing office for the government and policing of the capital, older and more regular than the Kyoto Protector under whom the Shinsengumi served."
+  },
+  "敦賀": {
+   "renderings": {
+    "Tsuruga": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A port town on the Sea of Japan, in Echizen (modern Fukui), where the Tengu Party was imprisoned and executed."
+  },
+  "斎藤一": {
+   "renderings": {
+    "Saitō Hajime": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1844&#8211;1915. Later captain of the Shinsengumi's Third Unit and one of its deadliest swordsmen; survived the wars, served as a Meiji policeman, and died in old age."
+  },
+  "斎藤弥九郎": {
+   "renderings": {
+    "Saitō Yakurō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Master of the Renpeikan, the Shintō Munen-ryū hall reckoned one of the three great dōjō of Edo; Kondō's source of borrowed swordsmen."
+  },
   "斧头帮": {
    "renderings": {
     "the Hatchet Gang": [
@@ -1055,6 +2588,16 @@
    "category": "organizations",
    "status": "agreed-article-varies",
    "note": "Shanghai assassins' gang; linked to the killing of the China Merchants director."
+  },
+  "新井忠雄": {
+   "renderings": {
+    "Arai Tadao": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An inspector of the Shinsengumi and one of It&#333;&#8217;s confidants from the Edo days; he left with It&#333;&#8217;s faction."
   },
   "新华日报": {
    "renderings": {
@@ -1069,6 +2612,66 @@
    "status": "reconcile",
    "note": "The Communist Party&#8217;s newspaper in the Nationalist areas."
   },
+  "新徳寺": {
+   "renderings": {
+    "the Shintoku-ji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The temple at Mibu that served as the Rōshigumi's headquarters, where Kiyokawa revealed his true design."
+  },
+  "新徴組": {
+   "renderings": {
+    "the Shinchōgumi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The &#8220;Newly Levied Corps.&#8221; The r&#333;nin who followed Kiyokawa back to Edo were reorganized under this name and set, under the Sh&#333;nai domain, to police the city; the corps lasted to the end of the shogunate."
+  },
+  "新田義貞": {
+   "renderings": {
+    "Nitta Yoshisada": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The fourteenth-century commander who, for the emperor Go-Daigo, destroyed the Kamakura shogunate; victor at Bubaigawara in 1333."
+  },
+  "新田革左衛門": {
+   "renderings": {
+    "Nitta Kakuzaemon": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Shinsengumi corpsman who died soon after of wounds taken at the Ikedaya."
+  },
+  "新見錦": {
+   "renderings": {
+    "Niimi Nishiki": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Mito man of the Serizawa faction and an early officer of the corps; forced to commit seppuku in 1863. Reading from the source's furigana (にいみにしき)."
+  },
+  "新選組": {
+   "renderings": {
+    "the Shinsengumi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The 'Newly Selected Corps,' the shogunate's Kyoto police militia of swordsmen, 1863&#8211;1869; the subject of the novel."
+  },
   "方志敏": {
    "renderings": {
     "Fang Zhimin": [
@@ -1079,6 +2682,16 @@
    "category": "people",
    "status": "agreed",
    "note": "1899–1935; CCP leader of the Northeast Jiangxi soviet; his prison diary was among the papers kept in the Tongyi vault."
+  },
+  "旗本": {
+   "renderings": {
+    "hatamoto": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A direct bannerman of the shogun, with the right of audience; a samurai of the Tokugawa house itself, ranked above the ordinary domain retainer."
   },
   "旗袍": {
    "renderings": {
@@ -1103,6 +2716,16 @@
    "status": "agreed",
    "note": "日本; Japan, named with England as America's two rivals in the East."
   },
+  "日本外史": {
+   "renderings": {
+    "Nihon Gaishi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Rai San&#8217;y&#333;&#8217;s <i>Unofficial History of Japan</i> (1827), the stirring, imperial-centered history that did as much as any book to shape the loyalist feeling of the age. See ch12."
+  },
   "昆明": {
    "renderings": {
     "Kunming": [
@@ -1113,6 +2736,16 @@
    "category": "places",
    "status": "agreed",
    "note": "Capital of Yunnan."
+  },
+  "明里": {
+   "renderings": {
+    "Akesato": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The Shimabara courtesan said to have been Yamanami&#8217;s lover. The tradition is famous but late and unverified; see the note at first appearance."
   },
   "暨南大学": {
    "renderings": {
@@ -1171,6 +2804,36 @@
    "status": "reconcile",
    "note": "Literally a substitute-death ghost."
   },
+  "月真院": {
+   "renderings": {
+    "Gettsuin": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A sub-temple of K&#333;dai-ji; the Gory&#333;-eji made it their headquarters, whence they were called the K&#333;dai-ji party."
+  },
+  "服部武雄": {
+   "renderings": {
+    "Hattori Takeo": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A man of Bushū and the finest blade among Itō's followers; he died fighting in the Aburanokōji affair."
+  },
+  "望月亀弥太": {
+   "renderings": {
+    "Mochizuki Kameyata": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tosa loyalist, an associate of Sakamoto Ry&#333;ma; wounded at the Ikedaya, he cut his belly in the street."
+  },
   "望龙门": {
    "renderings": {
     "Wanglongmen": [
@@ -1181,6 +2844,46 @@
    "category": "places",
    "status": "agreed",
    "note": "The Chongqing site of the Juntong secret detention house where the narrator was held (ch21)."
+  },
+  "木屋町": {
+   "renderings": {
+    "Kiyamachi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The street of taverns and inns along the Takase River; in these years a haunt of loyalist r&#333;nin, backing onto the Ch&#333;sh&#363; mansion."
+  },
+  "本圀寺": {
+   "renderings": {
+    "the Honkoku-ji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A temple on Horikawa used as the Ky&#333;to quartering-ground of the Mito clan&#8217;s troops."
+  },
+  "本所": {
+   "renderings": {
+    "Honjo": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A district on the east bank of the Sumida in Edo."
+  },
+  "本能寺": {
+   "renderings": {
+    "the Honnō-ji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Kyoto temple where Oda Nobunaga was destroyed in 1582 by his own general Akechi Mitsuhide; by extension, in Rai San&#8217;y&#333;&#8217;s poem and in Toshiz&#333;&#8217;s thought, the place where the true enemy is found to lie."
   },
   "李公朴": {
    "renderings": {
@@ -1242,6 +2945,26 @@
    "status": "agreed",
    "note": "1888-1951. Foremost of the Shanghai Green Gang 'three tycoons'; first introduced ch06. Pinyin form standard (en.wikipedia.org/wiki/Du_Yuesheng)."
   },
+  "来島又兵衛": {
+   "renderings": {
+    "Kijima Matabee": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Chōshū warrior famed for his valor, given command of the Saga (Tenryū-ji) force. He was killed at the Hamaguri Gate (ch. 25)."
+  },
+  "来迎寺": {
+   "renderings": {
+    "Raikō-ji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A temple at the edge of Tsuruga; the mass beheadings of the Tengu Party were carried out in its grounds."
+  },
   "杨杏佛": {
    "renderings": {
     "Yang Xingfo": [
@@ -1267,6 +2990,166 @@
    "status": "agreed",
    "note": "Zhejiang provincial capital on West Lake, where the author went into hiding in 1932–33."
   },
+  "東雲大夫": {
+   "renderings": {
+    "Shinonome-dayū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A tay&#363; of the Kizuya house in Shimabara; Toshiz&#333;&#8217;s partner on the one night the chapter turns on. <i>Day&#363;</i> is the title of the first rank of courtesan."
+  },
+  "松前伊豆守": {
+   "renderings": {
+    "Matsumae Izu-no-kami": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The senior councillor (rōjū) Matsumae Takahiro, whom Kondō claims to have lobbied on the shogun's behalf."
+  },
+  "松原庵星布": {
+   "renderings": {
+    "Matsubara-an Seifu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Real woman haiku poet (1732&#8211;1814) of a notable Hachi&#333;ji house; the <i>ni</i> of 星布尼 marks her a lay nun."
+  },
+  "松原忠司": {
+   "renderings": {
+    "Matsubara Chūji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical Shinsengumi captain of the Fourth Unit, a master of the Sekiguchi school of jūjutsu; died in 1865."
+  },
+  "松平上総介": {
+   "renderings": {
+    "Matsudaira Kazusa-no-suke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "As Shiba gives him: a collateral Tokugawa, of the line of Tadanaga, acting as a sponsor of the rōshi levy. A minor figure; reading of the title as the source gives it."
+  },
+  "松平伊織": {
+   "renderings": {
+    "Matsudaira Iori": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A hatamoto of eight hundred koku with a residence in Honjo, Edo; Osae&#8217;s late husband, married to her when she was seventeen. A minor figure; reading from the source&#8217;s furigana."
+  },
+  "松平定敬": {
+   "renderings": {
+    "Matsudaira Sadaaki": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Lord of the Kuwana domain in Ise and, from 1864, Kyoto Shoshidai. He was the younger brother of the Kyoto Protector Matsudaira Katamori of Aizu; the two chief security offices of the capital were thus held by one family."
+  },
+  "松平容保": {
+   "renderings": {
+    "Matsudaira Katamori": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1836&#8211;1893. Lord of Aizu and, from 1862, Kyoto Protector (Kyoto Shugoshoku); under his patronage the Mibu corps became the Shinsengumi."
+  },
+  "松平忠敏": {
+   "renderings": {
+    "Matsudaira Tadatoshi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Kōbusho instructor placed in charge of the shogunate's rōshi levy of 1863. Reading from the source's furigana (ただとし)."
+  },
+  "松平慶永": {
+   "renderings": {
+    "Matsudaira Yoshinaga": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Matsudaira Yoshinaga (Shungaku, 1828&#8211;1890), lord of Echizen Fukui, one of the leading reform-minded daimyō of the day and a voice for a union of court and shogunate."
+  },
+  "松本良順": {
+   "renderings": {
+    "Matsumoto Ryōjun": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Dutch-school physician, personal doctor to the shogun Iemochi, who befriended the Shinsengumi and later tended the dying Okita. After the Restoration, as Matsumoto Jun, he became Surgeon-General of the new army and a baron."
+  },
+  "松田重助": {
+   "renderings": {
+    "Matsuda Jūsuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Higo loyalist, killed at the Ikedaya."
+  },
+  "板倉周防守": {
+   "renderings": {
+    "Itakura Suō-no-kami": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Itakura Katsukiyo (1823&#8211;1889), a senior councilor (rōj&#363;) of the shogunate."
+  },
+  "林信太郎": {
+   "renderings": {
+    "Hayashi Shintarō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Shinsengumi inspector. Romanization mine."
+  },
+  "林権助": {
+   "renderings": {
+    "Hayashi Gonsuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Hayashi Gonsuke (Yasusada), the 63-year-old Aizu commissioner of artillery who commanded the Aizu contingent at Fushimi; killed in the fighting there."
+  },
+  "枡屋": {
+   "renderings": {
+    "the Masuya": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The tool-and-sundries shop that was the front for Furutaka&#8217;s arms depot."
+  },
   "枫林桥": {
    "renderings": {
     "Fenglin Bridge": [
@@ -1280,6 +3163,16 @@
    "status": "reconcile",
    "note": "Landmark on the road out to Longhua."
   },
+  "柳剛流": {
+   "renderings": {
+    "the Ryūgō-ryū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "A school founded by Okada Sōemon, based at Warabi, notorious for shin-cutting strikes and for teaching the glaive alongside the sword."
+  },
   "标金": {
    "renderings": {
     "standard gold": [
@@ -1290,6 +3183,26 @@
    "category": "terms",
    "status": "agreed",
    "note": "标金; bar gold of standard fineness traded for future delivery on the Shanghai exchange, the other great speculative market beside the bonds."
+  },
+  "根岸友山": {
+   "renderings": {
+    "Negishi Yūzan": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A wealthy Musashi headman and expel-the-barbarian sympathizer who enrolled in the Rōshigumi with a following of his own."
+  },
+  "桂小五郎": {
+   "renderings": {
+    "Katsura Kogorō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1833&#8211;1877. Later known as Kido Takayoshi, one of the leaders of the Restoration."
   },
   "桂林": {
    "renderings": {
@@ -1304,6 +3217,26 @@
    "status": "reconcile",
    "note": "Period English form."
   },
+  "桃井春蔵": {
+   "renderings": {
+    "Momonoi Shunzō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Master of the Shigakukan, one of the three great dōjō of Edo. Reading from the source's furigana (もものい)."
+  },
+  "桑名": {
+   "renderings": {
+    "Kuwana": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A fudai domain in Ise, held by a branch of the Matsudaira; with Aizu it stood staunchly for the shogunate to the end."
+  },
   "梅花山": {
    "renderings": {
     "Plum Blossom Hill": [
@@ -1314,6 +3247,46 @@
    "category": "places",
    "status": "agreed",
    "note": "Real. Hill on Purple Mountain, Nanjing, over Sun Quan's tomb; plum-viewing ground planted from 1929. Noted ch26."
+  },
+  "梶川景次": {
+   "renderings": {
+    "Kajikawa Keiji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A master of the Shintō Munen-ryū with a training hall at Sakuramachi in Kōfu; a minor figure. Reading of the given name uncertain; romanization mine."
+  },
+  "椿弥十郎": {
+   "renderings": {
+    "Tsubaki Yajūrō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The Chōshū samurai who distributed the domain's bill of denunciation against the Aizu lord Matsudaira Katamori."
+  },
+  "楠正成": {
+   "renderings": {
+    "Kusunoki Masashige": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The fourteenth-century loyalist commander, byword for cunning generalship against the odds; claimed founder of the Kusunoki school of military science."
+  },
+  "権": {
+   "renderings": {
+    "Gon": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An old temple servant of the Shōkōin, once rescued by Toshizō, who serves as his scout. Romanization from the source's furigana."
   },
   "歌乐山": {
    "renderings": {
@@ -1327,6 +3300,26 @@
    "category": "places",
    "status": "reconcile",
    "note": "A hill west of Chongqing; site of Xu Shiying's birthday banquet (ch20)."
+  },
+  "正光院": {
+   "renderings": {
+    "the Shōkōin": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A field-temple with a graveyard near Bubaigawara, where Toshizō sets up his command post."
+  },
+  "武州多摩": {
+   "renderings": {
+    "Bushū Tama": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Tama district of Musashi Province (Bushū), the farming country west of Edo; the Shinsengumi's home ground."
   },
   "武昌": {
    "renderings": {
@@ -1349,6 +3342,46 @@
    "category": "places",
    "status": "agreed"
   },
+  "武田信玄": {
+   "renderings": {
+    "Takeda Shingen": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The sixteenth-century warlord of Kai, whose tactics were handed down as the Kōshū school of military science."
+  },
+  "武田耕雲斎": {
+   "renderings": {
+    "Takeda Kōunsai": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1803&#8211;1865. A former chief councillor of the Mito domain who led the Tengu Party&#8217;s march on Kyoto and was beheaded, with his family, at Tsuruga. Not to be confused with the Shinsengumi&#8217;s Takeda Kanry&#363;sai."
+  },
+  "武田観柳斎": {
+   "renderings": {
+    "Takeda Kanryūsai": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A jokin of the Shinsengumi, a rōnin of Izumo learned in warrior usage and military science; a flatterer whom Toshizō despised. He was exposed as a Satsuma informer and cut down within the corps in 1867."
+  },
+  "毛内有之介": {
+   "renderings": {
+    "Mōnai Arinosuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An inspector of the Shinsengumi (also known by the name Kenmotsu) who left with It&#333;&#8217;s faction."
+  },
   "毛泽东": {
    "renderings": {
     "Mao Zedong": [
@@ -1359,6 +3392,46 @@
    },
    "category": "people",
    "status": "agreed"
+  },
+  "気組": {
+   "renderings": {
+    "fighting spirit": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The marshalling of spirit to overwhelm an opponent; the watchword of the Tennen Rishin-ryū."
+  },
+  "水戸": {
+   "renderings": {
+    "Mito": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A senior Tokugawa branch domain, and the intellectual seedbed of the revere-the-Emperor school; riven in these years by violent factional strife between its radicals (the Tengu Party) and conservatives."
+  },
+  "永井主水正尚志": {
+   "renderings": {
+    "Nagai Naomune": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nagai Naomune (1816&#8211;1891), a senior shogunal official (here Grand Inspector). Mondo-no-sh&#333; is his court title. He led the 1865 embassy that interrogated Ch&#333;sh&#363; at Hiroshima."
+  },
+  "永倉新八": {
+   "renderings": {
+    "Nagakura Shinpachi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1839&#8211;1915. Held the full transmission of the Shintō Munen-ryū; survived the Restoration and left an inside memoir of the corps."
   },
   "永安公司": {
    "renderings": {
@@ -1383,6 +3456,16 @@
    "category": "places",
    "status": "agreed"
   },
+  "江川": {
+   "renderings": {
+    "the Egawa": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The hereditary intendant house at Nirayama, administering shogunal land."
+  },
   "江苏": {
    "renderings": {
     "Jiangsu": [
@@ -1405,6 +3488,26 @@
    "status": "agreed",
    "note": "Southeastern province."
   },
+  "池田屋": {
+   "renderings": {
+    "the Ikedaya": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The inn at the west end of Sanj&#333;-kobashi, kept by one S&#333;bei, where the loyalists met and where Kond&#333;&#8217;s party struck."
+  },
+  "池田徳太郎": {
+   "renderings": {
+    "Ikeda Tokutarō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Geish&#363; (Hiroshima) rōnin of the Kiyokawa faction, active in the levying of the Rōshigumi."
+  },
   "汪精卫": {
    "renderings": {
     "Wang Jingwei": [
@@ -1415,6 +3518,26 @@
    },
    "category": "people",
    "status": "agreed"
+  },
+  "沖田総司": {
+   "renderings": {
+    "Okita Sōji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, about 1842&#8211;1868. Died young of consumption; one of the most beloved figures of the Shinsengumi legend."
+  },
+  "泉涌寺": {
+   "renderings": {
+    "Sennyū-ji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "An ancient temple in Kyoto&#8217;s Higashiyama, mortuary temple of the imperial house."
   },
   "法大马路": {
    "renderings": {
@@ -1518,6 +3641,16 @@
    "status": "agreed",
    "note": "The Yangtze river-port opposite Nanjing."
   },
+  "浪士組": {
+   "renderings": {
+    "the Rōshigumi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The &#8216;corps of masterless men,&#8217; levied by the shogunate in 1863 to go up to Kyoto ostensibly as the shogun's guard. Split by Kiyokawa's imperial gambit; the remnant that stayed in Kyoto became the Shinsengumi."
+  },
   "海格路": {
    "renderings": {
     "Avenue Haig": [
@@ -1530,6 +3663,36 @@
    "category": "places",
    "status": "reconcile",
    "note": "Real. Avenue Haig (after Field Marshal Douglas Haig); today Huashan Road (华山路)."
+  },
+  "深津": {
+   "renderings": {
+    "Fukatsu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A pupil of the Kōgen Ittō-ryū, set to make fire during the ambush; a passing figure."
+  },
+  "清河八郎": {
+   "renderings": {
+    "Kiyokawa Hachirō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1830&#8211;1863. A rural samurai of Sh&#333;nai in Dewa, a Hokushin Ittō-ryū adept and strategist; conceived the Rōshigumi and tried to turn it to the imperial cause, and was cut down for it in 1863."
+  },
+  "渡辺幸右衛門": {
+   "renderings": {
+    "Watanabe Kōemon": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The beat constable who, being on friendly terms with the corps, passed the tip to Mibu rather than to his own office. Romanization mine."
   },
   "湖南": {
    "renderings": {
@@ -1553,6 +3716,46 @@
    "category": "terms",
    "status": "reconcile",
    "note": "pole-slung carrying chair"
+  },
+  "瀬木掃部": {
+   "renderings": {
+    "Segi Kamon": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "One of the hereditary priestly houses (<i>shake</i>) of the Rokusha Myōjin at Fuchū, in whose residence Rokusha Sōhaku lodged. Romanization mine."
+  },
+  "為三郎": {
+   "renderings": {
+    "Tamesaburō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Toshiz&#333;&#8217;s blind eldest brother, who took the poet-name Sekisui the Blind and was passed over for the headship of the house by the law of the day."
+  },
+  "熊坂長範": {
+   "renderings": {
+    "Kumasaka Chōhan": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The giant bandit of medieval legend, a stock figure of the theater; see the note in the chapter."
+  },
+  "牛頭天王": {
+   "renderings": {
+    "Gozu Tennō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The 'Ox-Head Heavenly King,' plague-warding deity of the Gion and Tennō shrines, whose talismans the waiwai-tennō sold."
   },
   "牯岭": {
    "renderings": {
@@ -1578,6 +3781,26 @@
    "status": "agreed-article-varies",
    "note": "The CCP's clandestine intelligence and security service (中央特科), founded 1927 and active in Shanghai; here Yang Muci's and Lao Yu's organ. See the note at Chapter 4."
   },
+  "猿渡": {
+   "renderings": {
+    "Saruwatari": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The hereditary house of chief priests (<i>gūji</i>) of the Ōkunitama Shrine at Fuchū, documented from the fourteenth century."
+  },
+  "猿田彦": {
+   "renderings": {
+    "Sarutahiko": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The guiding deity of Japanese myth, shown as a long-nosed, red-faced figure; his mask (rubied here in the source as <i>Sarudahiko</i>) was one of those the waiwai-tennō wore."
+  },
   "玄武湖": {
    "renderings": {
     "Xuanwu Lake": [
@@ -1588,6 +3811,36 @@
    "category": "places",
    "status": "agreed",
    "note": "Real. Lake against the northeastern wall of Nanjing."
+  },
+  "玄武館": {
+   "renderings": {
+    "the Genbukan": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Chiba Shūsaku's Hokushin Ittō-ryū hall in Edo, greatest of the three great dōjō."
+  },
+  "玉虫左大夫": {
+   "renderings": {
+    "Tamamushi Sadayū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Sendai clansman and diarist (1823&#8211;1869); his intelligence-record <i>Kanbu Ts&#363;ki</i> preserves these figures. Also written 玉虫左太夫."
+  },
+  "王政復古": {
+   "renderings": {
+    "the Restoration of Imperial Rule": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The Ōsei Fukko coup of Keiō 3/12/9 (3 January 1868): the shogunate and regency abolished, direct Imperial rule declared."
   },
   "王新衡": {
    "renderings": {
@@ -1611,6 +3864,16 @@
    "status": "agreed",
    "note": "The Wuhan University campus hill where the author met Guo Changlu."
   },
+  "理兵衛": {
+   "renderings": {
+    "Rihei": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Keeper of the Jōshūya inn at Fuda, the Tennen Rishin-ryū men's regular lodging. Romanization mine."
+  },
   "瑞金": {
    "renderings": {
     "Ruijin": [
@@ -1622,6 +3885,26 @@
    "status": "agreed",
    "note": "The seat of the Central Soviet in Jiangxi, capital of the Chinese Soviet Republic."
   },
+  "田中光顕": {
+   "renderings": {
+    "Tanaka Mitsuaki": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tanaka Mitsuaki (1843&#8211;1939), a Tosa loyalist who after the Restoration became a count and Imperial Household Minister; Shiba quotes his recollection of fearing the Shinsengumi."
+  },
+  "田中土佐": {
+   "renderings": {
+    "Tanaka Tosa": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tanaka Tosa (Genba), a chief retainer of the Aizu domain during its years as Kyoto Protector; he died by his own hand at the fall of Aizu in 1868."
+  },
   "田汉": {
    "renderings": {
     "Tian Han": [
@@ -1632,6 +3915,46 @@
    "category": "people",
    "status": "agreed",
    "note": "1898&#8211;1968; playwright and lyricist, author of the words of the PRC national anthem."
+  },
+  "田沼玄蕃頭": {
+   "renderings": {
+    "Tanuma Genba-no-kami": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tanuma Okitaka (1834&#8211;1868), a junior councillor (<i>wakadoshiyori</i>) of the shogunate, grandson of the notorious minister Tanuma Okitsugu. He directed the harsh disposal of the surrendered Tengu Party at Tsuruga."
+  },
+  "甲州街道": {
+   "renderings": {
+    "the Kōshū Highway": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "One of the five great Tokugawa highways, running west from Edo through Fuchū toward Kōfu in Kai (Kōshū)."
+  },
+  "甲源一刀流": {
+   "renderings": {
+    "the Kōgen Ittō-ryū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "A sword school of the Chichibu country, founded 1776 by Henmi Tashirō; the school of Rokusha Sōhaku and, along the Kōshū Highway, the chief rival of the Tennen Rishin-ryū."
+  },
+  "甲陽鎮撫隊": {
+   "renderings": {
+    "the Kōyō Chinbutai": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The name (“Kōyō Pacification Corps”; <i>Kōyō</i> is a literary name for Kai province) given to the refitted Shinsengumi in the second month of Keiō 4 (1868), when the Tokugawa house sent it west to hold Kōfu Castle against the advancing new-government army."
   },
   "申报": {
    "renderings": {
@@ -1683,6 +4006,116 @@
    "status": "agreed",
    "note": "The Paramount Ballroom, a famous Shanghai dance hall; here the house to which Young Tang is packed off."
   },
+  "益田越中": {
+   "renderings": {
+    "Masuda Etchū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Chōshū elder councillor (karō) commanding the Yamazaki wing of the expedition."
+  },
+  "監察": {
+   "renderings": {
+    "inspector": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "<i>Kansatsu</i>, the corps&#8217;s internal watch and intelligence officers, answering to the vice-commander."
+  },
+  "真庭十郎左衛門": {
+   "renderings": {
+    "Maniwa Jūrōzaemon": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "As Shiba gives him, the head of the Nen-ryū house at Maniwa and Chiba Shūsaku's antagonist in the Ikaho affair. The historical head of the Maniwa Nen-ryū was of the Higuchi family; Shiba names him from the school's seat."
+  },
+  "真木和泉守": {
+   "renderings": {
+    "Maki Izumi-no-kami": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Maki Izumi (Yasuomi), a Shinto priest of Kurume and the most radical strategist of the loyalist cause; a chief planner of Chōshū's march on Kyoto. He died on Tennōzan (ch. 25)."
+  },
+  "石坂周造": {
+   "renderings": {
+    "Ishizaka Shūzō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A defector from Hikone and follower of Kiyokawa; survived into the mid-Meiji years as a man of business, remembered as a pioneer of the Japanese petroleum trade."
+  },
+  "石田散薬": {
+   "renderings": {
+    "Ishida Powder": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The Hijikata family's patent remedy for bruises and broken bones, made and peddled from the early eighteenth century until 1948."
+  },
+  "石田村": {
+   "renderings": {
+    "Ishida village": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Toshizō's birthplace in the Tama district of Musashi; now part of Hino, Tokyo."
+  },
+  "石翠": {
+   "renderings": {
+    "Sekisui": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Toshizō's eldest brother, blind from birth, who gave up the succession and lived by his arts &#8212; a shrewd, polished man. A historical figure (the eldest Hijikata brother); Sekisui is his elegant by-name."
+  },
+  "神保内蔵助": {
+   "renderings": {
+    "Jinbō Kuranosuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An elder councillor (karō) of the Aizu domain and its senior officer on the Kyoto command; full name Jinbō Kuranosuke Toshitaka. He would be made to take his own life in 1868, blamed for the Aizu retreat at Toba-Fushimi."
+  },
+  "神道無念流": {
+   "renderings": {
+    "the Shintō Munen-ryū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "A widely practiced Edo sword school; Nagakura Shinpachi held its full transmission."
+  },
+  "福原越後": {
+   "renderings": {
+    "Fukuhara Echigo": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Chōshū elder councillor (karō) who led the Fushimi wing of the 1864 expedition. Wounded in the fighting, he was afterward ordered by his own domain to commit seppuku as one of the three councillors held responsible for the defeat."
+  },
   "福建": {
    "renderings": {
     "Fujian": [
@@ -1694,6 +4127,16 @@
    "status": "agreed",
    "note": "Southeastern coastal province."
   },
+  "福田理兵衛": {
+   "renderings": {
+    "Fukuda Rihei": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A loyalist country samurai (gōshi) of Shimo-Saga who had earlier arranged the billeting of Chōshū troops at the Tenryū-ji. Romanization mine."
+  },
   "秦邦宪": {
    "renderings": {
     "Qin Bangxian": [
@@ -1704,6 +4147,76 @@
    "category": "people",
    "status": "agreed",
    "note": "Better known as Bo Gu (&#21338;&#21476;); one of the &#8216;28 Bolsheviks&#8217; and de facto Party leader 1931&#8211;35."
+  },
+  "秩父": {
+   "renderings": {
+    "Chichibu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The hill country of western Musashi; home ground of the Kōgen Ittō-ryū."
+  },
+  "竹屋町": {
+   "renderings": {
+    "Takeyamachi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "An east&#8211;west street in central Ky&#333;to."
+  },
+  "笠間喜十郎": {
+   "renderings": {
+    "Kasama Kijūrō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An Echigo r&#333;nin drawn into the ambush; he died of his wound days later, naming It&#333; as the man behind it."
+  },
+  "筋違橋": {
+   "renderings": {
+    "the Sujikai Bridge": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A bridge on the road north of Fujinomori, where the Ōgaki troops caught the Chōshū column crossing."
+  },
+  "筑波山": {
+   "renderings": {
+    "Mount Tsukuba": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The twin-peaked mountain of Hitachi, long a sacred site, where the Tengu Party first rose in 1864."
+  },
+  "篠原泰之進": {
+   "renderings": {
+    "Shinohara Tainoshin": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Eldest of Itō's followers, a rōnin of Kurume skilled in both the sword and jūjutsu; the one who warns Itō against trusting his own cleverness. Later a Kōdai-ji guardsman."
+  },
+  "米沢藤次": {
+   "renderings": {
+    "Yonezawa Tōji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Ch&#333;sh&#363; samurai and Osae&#8217;s lover in Kyoto, through whom she passed shogunate-side intelligence."
   },
   "老闸捕房": {
    "renderings": {
@@ -1752,6 +4265,46 @@
    "status": "agreed",
    "note": "1908–1989, the film star 'Butterfly Wu,' twice voted 'Queen of the Screen'; her lost wartime 'luggage' (largely smuggled goods) and her complaint to Dai Li triggered the couple's arrest (ch20–21)."
   },
+  "興正寺": {
+   "renderings": {
+    "the Kōshō-ji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A monzeki (imperially-connected) temple in Kyoto, next to the Nishi-Honganji; Kondō kept a rest-lodging at its lower villa."
+  },
+  "花昌町": {
+   "renderings": {
+    "Kashō-chō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The site of the Shinsengumi&#8217;s last Kyoto barracks (also called Fud&#333;d&#333;-mura), near Samegai, Shichij&#333;, and the Horikawa; no such place-name survives today. The source glosses the name kash&#333;-ch&#333;."
+  },
+  "芳駕籠": {
+   "renderings": {
+    "the Yoshikago": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The palanquin-house by the Bukk&#333;-ji gate. Apparently the novelist&#8217;s invention."
+  },
+  "芹沢鴨": {
+   "renderings": {
+    "Serizawa Kamo": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1826/27&#8211;1863. A Mito man of the Shindō Munen-ry&#363;, real name given variously as Kimura or Shimomura Tsuguji; first head of the Mibu corps, assassinated by the Kondō faction in the ninth month of 1863."
+  },
   "苏堤": {
    "renderings": {
     "the Su Causeway": [
@@ -1791,6 +4344,26 @@
    "status": "reconcile",
    "note": "英国; Britain, named with Japan as America's two rivals in the East."
   },
+  "茨木屋": {
+   "renderings": {
+    "the Ibarakiya": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The sundries-wholesaler on Kawaramachi from whose upper floor the corps kept watch on the Masuya."
+  },
+  "荒木流": {
+   "renderings": {
+    "the Araki-ryū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "A composite martial school of Kōzuke, taught iai among other arts; Shichiri Kennosuke's iai line."
+  },
   "董必武": {
    "renderings": {
     "Dong Biwu": [
@@ -1825,6 +4398,66 @@
    "status": "agreed",
    "note": "Chiang Kai-shek&#8217;s son; the conventional Wade&#8211;Giles English form is used."
   },
+  "蒔田相模守広孝": {
+   "renderings": {
+    "Makita Sagami-no-kami Hirotaka": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Lord of Bitchū-Asao (ten thousand koku) and commander of the Kyoto Mimawarigumi. (The name is sometimes read Maita; the reading follows the source's own gloss.)"
+  },
+  "蕨": {
+   "renderings": {
+    "Warabi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A post-town just north of Edo, in present-day Saitama; base of the Ryūgō-ryū."
+  },
+  "藤ノ森": {
+   "renderings": {
+    "Fujinomori": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The district and shrine (Fujinomori-myōjin) south of Kyoto, on the Daibutsu highroad, where the Fushimi fighting opened."
+  },
+  "藤吉": {
+   "renderings": {
+    "Tōkichi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The manservant (<i>komono</i>) attending Toshiz&#333; on the rainy night of the ambush."
+  },
+  "藤堂平助": {
+   "renderings": {
+    "Tōdō Heisuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1844&#8211;1867. A house-guest at the Edo dōjō, of the Hokushin Ittō-ryū; later captain of the Shinsengumi&#8217;s Eighth Unit, killed at the Aburanokōji affair after joining Itō Kashitarō&#8217;s breakaway."
+  },
+  "虎徹": {
+   "renderings": {
+    "Kotetsu": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The prized blades of the Edo smith Nagasone Kotetsu. Kondō's famous &#8216;Kotetsu&#8217; was, by most accounts, a forgery; see the note where he hunts for one."
+  },
   "虹口": {
    "renderings": {
     "Hongkou": [
@@ -1835,6 +4468,76 @@
    "category": "places",
    "status": "agreed",
    "note": "虹口; district of Shanghai north of Suzhou Creek, part of the International Settlement, with many Japanese residents and mills; older English Hongkew."
+  },
+  "蛤御門": {
+   "renderings": {
+    "the Hamaguri Gate": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Hamaguri-gomon, the 'Clam Gate,' one of the gates in the wall enclosing the Kyoto Imperial Palace. The battle about to be fought here gave the whole affair its name: the Hamaguri Gate Incident (Kinmon no Hen)."
+  },
+  "衢地": {
+   "renderings": {
+    "a ground of highways": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "From Sunzi's Art of War: a place where the roads of several regions meet, from which armies are readily moved."
+  },
+  "西郷吉之助": {
+   "renderings": {
+    "Saigō Kichinosuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Saig&#333; Takamori (1828&#8211;1877), the Satsuma leader &#8212; Kichinosuke was his everyday name &#8212; a chief architect of the Restoration and, later, of the Meiji state he then rebelled against and died fighting."
+  },
+  "見廻組": {
+   "renderings": {
+    "the Mimawarigumi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Ky&#333;to Mimawarigumi, a patrol corps like the Shinsengumi but manned by direct shogunal retainers (<i>hatamoto</i> and <i>gokenin</i>), and so of higher formal standing."
+  },
+  "角屋": {
+   "renderings": {
+    "the Sumiya": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A great <i>ageya</i> (house of assignation) in the Shimabara quarter, where guests were entertained by courtesans summoned from the tay&#363; houses; the building survives in Kyoto."
+  },
+  "講武所": {
+   "renderings": {
+    "the Kōbusho": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The shogunate's own military academy in Edo, opened in 1856 to modernize the training of its retainers in swordsmanship, gunnery, and Western arms."
+  },
+  "護王神社": {
+   "renderings": {
+    "the Gōō Shrine": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A shrine facing the west side of the Kyoto Imperial Palace, dedicated to Wake no Kiyomaro; a landmark on the line of the Chōshū advance."
   },
   "许广平": {
    "renderings": {
@@ -1857,6 +4560,26 @@
    "category": "people",
    "status": "agreed",
    "note": "Hunan military governor and Nationalist elder; first president of the Executive Yuan; signed the Wuhan order expelling Chiang in April 1927."
+  },
+  "谷三十郎": {
+   "renderings": {
+    "Tani Sanjūrō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, died 1866. Master of the T&#333;h&#333; Enshin-ry&#363; of spear and sword at Osaka and Harada Sanosuke&#8217;s former teacher; later a Shinsengumi captain."
+  },
+  "豊玉": {
+   "renderings": {
+    "Hōgyoku": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Toshiz&#333;&#8217;s haiku pen-name, known only to his intimates; see ch19."
   },
   "贺衷寒": {
    "renderings": {
@@ -1881,6 +4604,26 @@
    "category": "people",
    "status": "agreed"
   },
+  "赤沢守人": {
+   "renderings": {
+    "Akazawa Morito": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Ch&#333;sh&#363; man who quit his domain and was taken into the corps as an informer against it; his killing, in 1863, is the case of this chapter. Reading of the given name from the source&#8217;s furigana (&#12418;&#12426;&#12392;)."
+  },
+  "越前": {
+   "renderings": {
+    "Echizen": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The old province along the Sea of Japan north of Lake Biwa, modern Fukui."
+  },
   "跑马厅": {
    "renderings": {
     "the Racecourse": [
@@ -1892,6 +4635,66 @@
    "category": "places",
    "status": "agreed",
    "note": "跑马厅 (also 跑马场); the great racecourse of the International Settlement, off Bubbling Well Road (today People’s Square and People’s Park)."
+  },
+  "辰吉": {
+   "renderings": {
+    "Tatsukichi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A young man of Renjaku who peddled horse-sandals at Hachiōji; a passing figure."
+  },
+  "辻斬り": {
+   "renderings": {
+    "cut-and-run killing": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "&#8216;Crossroads-cutting&#8217;: the testing of a blade, or of one's nerve, by cutting down a stranger on the road at night. Long a capital crime, it revived in the murderous mood of these years."
+  },
+  "近藤内蔵助": {
+   "renderings": {
+    "Kondō Kuranosuke": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A rōnin of Enshū, late-eighteenth-century founder of the Tennen Rishin-ryū."
+  },
+  "近藤勇": {
+   "renderings": {
+    "Kondō Isami": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical figure, 1834&#8211;1868. Head of the Tennen Rishin-ryū school of swordsmanship and, later, commander of the Shinsengumi."
+  },
+  "近藤周斎": {
+   "renderings": {
+    "Kondō Shūsai": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical. Third head of the Tennen Rishin-ryū (personal name Shūsuke; in retirement, Shūsai), who adopted the farm boy Katsuta and made him Kondō Isami, his heir."
+  },
+  "連雀": {
+   "renderings": {
+    "Renjaku": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A village of the Tama country with no fencing hall, where Toshizō taught in the headman's miso storehouse."
   },
   "邓演达": {
    "renderings": {
@@ -1924,6 +4727,26 @@
    "category": "people",
    "status": "agreed"
   },
+  "酒井兵庫": {
+   "renderings": {
+    "Sakai Hyōgo": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A veteran <i>jokin</i> of the Shinsengumi, put to death for desertion. See the note in the chapter for the disputed timing."
+  },
+  "里": {
+   "renderings": {
+    "ri": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A unit of distance, about 3.9 km (2.4 miles)."
+  },
   "重庆": {
    "renderings": {
     "Chongqing": [
@@ -1938,6 +4761,46 @@
    "status": "reconcile",
    "note": "The Nationalist wartime capital (the &#8216;great rear&#8217;)."
   },
+  "野口健司": {
+   "renderings": {
+    "Noguchi Kenji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Mito man of the Serizawa faction and an early Shinsengumi officer; died in 1864."
+  },
+  "野老山": {
+   "renderings": {
+    "Tokoroyama": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tokoroyama Gokichir&#333;, Tosa loyalist; wounded at the Ikedaya, he cut his belly before the locked Ch&#333;sh&#363; gate."
+  },
+  "鈴木三樹三郎": {
+   "renderings": {
+    "Suzuki Mikisaburō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Itō Kashitarō's younger brother, who joined the corps with him. He later broke away with the Kōdai-ji faction, survived the Restoration, and lived to old age."
+  },
+  "鉄扇": {
+   "renderings": {
+    "iron war-fan": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A folding fan with iron ribs (or a solid iron bar shaped like one), carried where a sword might give offense and used to parry or strike."
+  },
   "钱庄": {
    "renderings": {
     "native bank": [
@@ -1948,6 +4811,16 @@
    "category": "terms",
    "status": "agreed",
    "note": "钱庄; a traditional Chinese private bank or money-shop, distinct from the modern 银行. The silk men's working credit runs through these houses, and it is a native-bank manager who will not stretch a point for Chen Junyi."
+  },
+  "長州": {
+   "renderings": {
+    "Chōshū": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Mōri domain of western Honshū, later the chief power of the anti-shogunal movement and the Shinsengumi's great enemy."
   },
   "长安": {
    "renderings": {
@@ -2074,6 +4947,16 @@
    "status": "agreed",
    "note": "Whampoa graduate and head of the intelligence (2nd) section of the Party&#8217;s Special Branch; later a PLA general."
   },
+  "隼人": {
+   "renderings": {
+    "Hayato": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Toshiz&#333;&#8217;s late father, and also the hereditary given name borne by the head of the Hijikata house."
+  },
   "霞飞路": {
    "renderings": {
     "Avenue Joffre": [
@@ -2152,6 +5035,26 @@
    "status": "reconcile",
    "note": "The concession-era English name of 静安寺路 (today Nanjing West Road, 南京西路)."
   },
+  "韮山": {
+   "renderings": {
+    "Nirayama": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A seat in Izu of the Egawa house, hereditary shogunal intendants."
+  },
+  "頼山陽": {
+   "renderings": {
+    "Rai San'yō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historical, 1780&#8211;1832. Confucian historian and poet, author of the Nihon Gaishi, whose romantic, imperial-centered narrative of Japanese history deeply shaped late-shogunate loyalism."
+  },
   "顾祝同": {
    "renderings": {
     "Gu Zhutong": [
@@ -2187,6 +5090,26 @@
    "status": "agreed",
    "note": "British colony; seat of the Party&#8217;s Southern Bureau."
   },
+  "馬庭": {
+   "renderings": {
+    "Maniwa": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The seat of the Maniwa Nen-ryū in Kōzuke (Jōshū), present-day Gunma."
+  },
+  "馬関": {
+   "renderings": {
+    "Bakan": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The old name for the strait and port at Shimonoseki, the western mouth of the Inland Sea, in Ch&#333;sh&#363; territory."
+  },
   "马寅初": {
    "renderings": {
     "Ma Yinchu": [
@@ -2211,6 +5134,46 @@
    "status": "reconcile",
    "note": "Real. Rue Massenet, after the composer Jules Massenet; today Sinan Road (思南路). The recognition-signal address."
   },
+  "高台寺": {
+   "renderings": {
+    "Kōdai-ji": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A temple in Kyoto&#8217;s Higashiyama; the Gory&#333;-eji fixed their headquarters at its sub-temple Gettsuin, whence they were also called the K&#333;dai-ji party."
+  },
+  "高幡不動": {
+   "renderings": {
+    "Takahata Fudō": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A temple of Fud&#333; My&#333;-&#333; in the Tama country of Bush&#363;, near Hijikata&#8217;s home village of Ishida; the family kept ties to it."
+  },
+  "高瀬川": {
+   "renderings": {
+    "the Takase River": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Not a river but a shallow canal, dug in the early seventeenth century to carry cargo boats (<i>takasebune</i>) between Kyoto and Fushimi; its west bank was lined with the Kyoto mansions of the domains."
+  },
+  "高麗橋": {
+   "renderings": {
+    "Kōraibashi": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A district of central Osaka."
+  },
   "鲁迅": {
    "renderings": {
     "Lu Xun": [
@@ -2221,6 +5184,46 @@
    "category": "people",
    "status": "agreed",
    "note": "Pen name of Zhou Shuren (1881-1936); author of The True Story of Ah Q; the central figure of essay 3."
+  },
+  "鴨川": {
+   "renderings": {
+    "the Kamo River": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The river running north to south through the eastern side of Ky&#333;to."
+  },
+  "鴻池": {
+   "renderings": {
+    "the Kōnoike": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The greatest merchant-and-banking house of Osaka, financiers to daimyo and shogunate alike."
+  },
+  "鴻池善右衛門": {
+   "renderings": {
+    "Kōnoike Zen'emon": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The head, by hereditary name, of the K&#333;noike house, the greatest merchant-bank of Osaka (see ch15). It bankrolled Kond&#333; in return for the corps&#8217;s protection against loyalist extortion."
+  },
+  "鷹司屋敷": {
+   "renderings": {
+    "the Takatsukasa mansion": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Kyoto residence of the Takatsukasa regental house, on the palace's edge, where Kusaka Genzui and Terashima Chūzaburō died."
   },
   "鸡鸣寺": {
    "renderings": {
@@ -2278,6 +5281,16 @@
    "category": "people",
    "status": "agreed",
    "note": "Green Gang boss and the sole Chinese chief inspector of the French Concession patrol house; Chiang Kai-shek was once his disciple."
+  },
+  "黒谷": {
+   "renderings": {
+    "Kurodani": [
+     "burn-o-sword"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Kurodani precinct (the temple Konkai Kōmyō-ji), on the eastern hills of Kyoto, which served as the Aizu domain's Kyoto headquarters."
   },
   "龙华": {
    "renderings": {

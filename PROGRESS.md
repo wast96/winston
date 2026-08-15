@@ -1908,3 +1908,96 @@ glosses and modern parentheticals (kept), and colloquial elided ranges (二十�
   近藤勇 Kondō Isami, 沖田総司 Okita Sōji, 井上源三郎 Inoue Genzaburō, 山崎烝
   Yamazaki Susumu, お雪 Oyuki, 会津 Aizu, 武州多摩 Bushū Tama, 甲鉄 Kōtetsu,
   新選組, 里 ri, 旗本 hatamoto. NO new glossary keys → no cascade.
+
+## B15 = ch69 to ch71 back matter (あとがき / 解説 / 司馬遼太郎) — FINAL BATCH, BOOK COMPLETE
+
+The three back-matter units, whole-book reconciliation, term ledger, deep audit,
+final build, and completion. Notes 458–481 (24 this batch); total 481. No new
+glossary keys (still 302 rows). 71/71 units translated.
+
+### Units
+- ch69 あとがき / Afterword (src 73_part0071, 25 paras) — Shiba's own afterword:
+  his writing motive, and his two visits to Hijikata's birth-house at Ishida,
+  Hino. IMPORTANT: this afterword does NOT mention Oyuki (see reconciliation
+  below). One scene-break run (title/body separator only); no internal ***.
+  6 notes: the "just on a hundred years" dating (~1969); four shaku; the
+  daikokubashira; yadake arrow-bamboo; the hachigane brow-plate (survives at the
+  birth-house, now the Hijikata Toshizō Museum); the Ishida-family medicine trade.
+- ch70 解説 / Commentary (src 74_part0072, 28 paras) — Harada Masato's essay on
+  his 2021 film. THIS is where Oyuki is stated to be a created character. Byline
+  is para 1; no internal *** (single <br/> spacers between essay sections =
+  paragraph breaks, not scene breaks). 14 notes: Kurama Tengu; Ikumatsu;
+  Shinsengumi Keppūroku; program picture; Shimozawa Kan; the Ikedaya
+  historiography (Kondō's ten vs the popular two-party account); THE OYUKI-
+  IS-FICTION note (the primary authority); zankokue "cruelty pictures"; the
+  Shijō-Maruyama school; Honda Kakuan + Watanabe Kazan; Hijikata's white-peony
+  haiku (original given, pen-name Hōgyoku); Heine/Wirgman/Brunet/Beato; Anami
+  Korechika; the film-date correction (printed 22 May 2020 → actually 15 Oct 2021).
+- ch71 司馬遼太郎 / About the Author (src 75_part0073, 1 para) — the publisher's
+  prize-by-prize bio. Era-years glossed with editorial Gregorian brackets. 4
+  notes: the pen name (Fukuda Teiichi; homage to Sima Qian); the era-dating
+  system; the Naoki Prize; the Order of Culture.
+
+### Checks (all green)
+- Parity by construction: ch69 25/25, ch70 28/28, ch71 1/1. verify_unit anchors
+  6/14/4 ok. check_align OK; check_content "all in paired paragraph"; qc_entities
+  0 misses; check_apparatus 0/0; check_register within tolerance (essays exempt).
+- ch70 numbers: 6 initial flags, all numeral-idioms or kanji-〇 misparses where
+  the English already carries the value (五十代/三十代 age decades; 六〇年代;
+  三部作 "trilogy"; 万感; kanji-written 一九八〇 and 二〇二〇). Added as commented
+  B15 noise rules → 0 unresolved. Never noised a real quantity.
+- Tails verified against source for all three units.
+
+### Fact-checks (real scholarship; Grok/Grokipedia ignored)
+- Naoki Prize 1960 (Shōwa 35), 42nd, for 梟の城; Kikuchi Kan Prize 1966 (Shōwa 41).
+- Shiba = Fukuda Teiichi, b. 1923-08-07 Ōsaka, d. 1996-02-12; Mongolian dept of
+  the Ōsaka School of Foreign Languages (now part of Ōsaka University).
+- Pen name = "one who falls far (遼) short of Shiba [Sen] (Sima Qian)."
+- Film 燃えよ剣 (Harada / Okada Jun'ichi): printed release 22 May 2020, postponed
+  by COVID, actually opened 15 October 2021. Corrected and footnoted at ch70.
+- Death date carried from B14: Meiji 2/5/11 = 20 June 1869; Goryōkaku surrender
+  Meiji 2/5/18 = 27 June 1869.
+
+### Whole-book reconciliation
+- check_reconcile.py: 33 epithet-drift candidates, all adjudicated correct
+  (numeric n-gram false positives; context-chosen synonyms; source-clipped
+  尊王攘夷). Glossary-forward 301/302 (茨木屋 "the Ibarakiya" occurs at ch22; an
+  article-only exact-match miss). Spelling locale unified American: one British
+  "theatre" in a ch34 note → "theater" (0 British / 295 American after).
+- GLOBAL correction (CORRECTIONS.md): the ch32 and ch68 notes cited "Shiba's
+  afterword" as the source that Oyuki is invented; the afterword does not mention
+  her — Harada's commentary (ch70) does. Both notes reworded to cite the
+  commentary; fact unchanged. Patched notes.json + the archival source apparatus
+  files (out/ch32_apparatus.json, out/b14_apparatus.json).
+- out/term_ledger.md written (302 rows + by-hand ship/place/kaimyō forms + this
+  batch's reconciliation notes).
+- out/deep_audit.md: fixed-seed (1869) 4% sample = 489 paragraph pairs across all
+  71 units, read zh-vs-en; 0 errors. Reverse invented-precision sweep over all 71
+  units: 0 real hits. Honest bound: error rate < ~0.6% at 95% (rule of three).
+- authority.json fed back: 301 new terms tagged "burn-o-sword"; one cross-language
+  homograph flagged then annotated — 常州 reads "Changzhou" (Chinese books) vs
+  "Hitachi" (this Japanese novel); status set agreed-cross-language, do not
+  reconcile.
+
+### Build
+- build_reading_epub.py: 71 of 71 chapters, 481 notes, 0 source notes. TOC CLEAN
+  (0 "pending" in nav.xhtml/toc.ncx; the all-done branch drops the coverage
+  caveat). Back matter in nav (Afterword, Commentary, About the Author, Back
+  Matter part). qa_epub PASS (85 files, 481/481/481). epubcheck 5.1.0: 0/0/0/0.
+- Tests: only "hook stands down on template stub" FAILs (EXPECTED, template-only).
+
+### Digitization glitches (this batch): NONE. Only Shiba/Harada's ruby readings
+(semantic; not romanized), full-width Arabic years in parentheses (parsed fine),
+and kanji-written years with 〇 (一九八〇/二〇二〇, noised as parse artifacts).
+
+### NOT RE-NOTED (B15; covered earlier, first-appearance discipline)
+- yobai / "night-crawling" (ch01); the Sakurada Gate Incident / Ii Naosuke /
+  Ansei Purge (ch11); Kiyokawa Hachirō (ch13); Matsudaira Katamori, Matsumoto
+  Ryōjun, Saigō (glossary); jōi "expel the barbarian"; Shimabara; ri; the
+  Izumi-no-kami Kanesada sword; the Ippongi barrier / death date (ch68).
+- Glossary decided-forms rendered verbatim in the back matter: 土方歳三 Hijikata
+  Toshizō, 近藤勇 Kondō Isami, 沖田総司 Okita Sōji, 井上源三郎 Inoue Genzaburō,
+  山崎烝 Yamazaki Susumu, お雪 Oyuki, 会津 Aizu, 新選組, 和泉守兼定. NO new keys.
+
+### BOOK COMPLETE. See COMPLETION.md for the whole-book report. HANDOFF.md rewritten
+to COMPLETE. There is no B16.

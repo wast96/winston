@@ -68,7 +68,10 @@
     "ch65": "out/ch65_reading.md",
     "ch66": "out/ch66_reading.md",
     "ch67": "out/ch67_reading.md",
-    "ch68": "out/ch68_reading.md"
+    "ch68": "out/ch68_reading.md",
+    "ch69": "out/ch69_reading.md",
+    "ch70": "out/ch70_reading.md",
+    "ch71": "out/ch71_reading.md"
   },
   "sources": {
     "ch01": "data/zh/ch01.txt",
@@ -138,7 +141,10 @@
     "ch65": "data/zh/ch65.txt",
     "ch66": "data/zh/ch66.txt",
     "ch67": "data/zh/ch67.txt",
-    "ch68": "data/zh/ch68.txt"
+    "ch68": "data/zh/ch68.txt",
+    "ch69": "data/zh/ch69.txt",
+    "ch70": "data/zh/ch70.txt",
+    "ch71": "data/zh/ch71.txt"
   },
   "notes": "notes.json",
   "heading_depth": 1

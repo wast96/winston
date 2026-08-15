@@ -34,4 +34,19 @@ Fix: <what it should be>
 
 ## Done
 
-(move applied blocks here, with the CHANGELOG date)
+### [GLOBAL] Oyuki-is-fiction: cite the right source (commentary, not Shiba's afterword)
+Unit: book-wide (notes at ch32 and ch68)
+Where: ch32 note on "the art-name Kōka"; ch68 note on "there was a small woman who left an offering"
+Problem: Both notes stated that Shiba declares Oyuki invented "in his afterword."
+  On reading the actual back matter in B15, Shiba's afterword (ch69) speaks only
+  of Hijikata and never mentions Oyuki. The explicit statement that Oyuki is a
+  created character is in the film-director Harada Masato's commentary (ch70):
+  "She is a created character, but there are signs that Shiba overlaid on her the
+  story of how he and his own wife first came together."
+Fix: Reworded both notes to attribute the statement to this edition's commentary
+  (ch70) and to say plainly that Shiba's own afterword does not discuss her. The
+  underlying fact (Oyuki is Shiba's invention) is unchanged and well attested; only
+  the mis-cited source was corrected. The new ch70 note on "She is a created
+  character" is now the primary authority the other two point back to.
+  Applied to notes.json (authoritative) and the archival source apparatus files
+  out/ch32_apparatus.json and out/b14_apparatus.json. CHANGELOG: 2026-08-15 (B15).
