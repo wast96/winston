@@ -1,100 +1,106 @@
-# HANDOFF — The Sword Roars in the West Wind (剑吼西风：中央特科纪事)
-
-The baton. A fresh session reads this and starts immediately. This file is the
-ARCHIVE of the kickoff; the kickoff is DELIVERED in the chat, pasted verbatim.
+# HANDOFF — The Sword Roars in the West Wind
 
 ## Message to paste into the next chat
 
+> Paste this to start Batch 2 **after** you have approved the Chapter One voice
+> gate (voice / note density / formatting). If you want changes to Chapter One
+> first, tell me here instead and I will revise before B02.
+
 ```
-Sword Roars B01
+Sword Roars B02
 
 Read CLAUDE.md, then HANDOFF.md, then book.json, then STYLE.md and
 STYLE.local.md. Work on branch claude/the-sword-roars (the canonical book
 branch; if the harness starts you on a stray per-task branch, consolidate per
 CLAUDE.md rule 2). Run ./setup.sh first.
 
-Do Batch 1 = Chapter One, "No Concealment, No Survival" (ch01), PDF 16-49,
-printed 1-34, end to end per the pipeline in CLAUDE.md. It has four sections
-(ch01s01..ch01s04); the source is simplified Chinese, horizontal, OCR with
-chi_sim --psm 6, and the printed-to-PDF offset is a constant 15 (printed =
-pdf - 15) with no plate drift — but still read each opener's folio off the scan.
+Do Batch 2 = Chapter Two, "清者自清，浊者自浊 / The Clean Stay Clean, the Foul
+Stay Foul" (ch02), PDF 50-59, printed 35-44, end to end per the pipeline in
+CLAUDE.md. Two sections: ch02s01 一、英雄阳刚 (PDF 51, printed 36) and ch02s02
+二、流氓无产者 (PDF 55, printed 40). Simplified Chinese, horizontal; OCR chi_sim
+--psm 6; crop --left 0.06 --right 0.95 --top 0.11 --bottom 0.955; offset is a
+constant 15 (printed = pdf - 15), no plate drift — but read each opener's folio
+off the scan.
 
-This is the VOICE GATE chapter (Step 0c): after translating, run the
-blind-critique evolution loop (up to 3 rounds), fold every lesson into
-STYLE.local.md, then STOP and present the built chapter to the commissioner for
-the voice / note-density / formatting gate. Do NOT continue to Batch 2. On
-approval this chapter becomes the frozen register reference for the whole book.
+BEFORE translating, read the final two pages of Chapter One's English
+(out/ch01_reading.md) so the voice carries over unbroken; Chapter One is the
+FROZEN register reference — run check_register.py --ref out/ch01_reading.md on
+ch02 and record it. Chapter One's data/zh was hand-transcribed off the scans
+(OCR too noisy, assemble breaks on figure/opener pages); do the same for ch02
+where the pipeline's assemble misaligns, and keep parity exact. Cite printed
+folios in notes, never PDF pages. Never invent bridging text: if OCR breaks
+mid-sentence or a leaf is damaged, crop the scan and read the real
+continuation, or footnote the gap. Verify every name, number and low-confidence
+span against a magnified crop before writing. Consult authority.json and
+glossary.json for settled renderings.
 
-Cite printed folios in notes, never PDF pages. Never invent bridging text: if
-the OCR breaks mid-sentence or a leaf is damaged, crop the scan and read the
-real continuation, or footnote the gap. Verify every name, number and
-low-confidence span against a magnified crop before writing. Consult
-authority.json for shelf-wide name renderings (Chiang Kai-shek, Zhou Enlai,
-Gu Shunzhang, Chen Geng, "the Central Special Branch" are already set).
-
-Deliver the built EPUB attached in the chat, and paste the Batch 2 kickoff
-(or, for this batch, hold at the voice gate) verbatim in the same reply.
+Deliver the built EPUB attached in the chat, and paste the Batch 3 kickoff
+verbatim in the same reply.
 ```
 
-## What is DONE (do not redo)
+## DONE (one line per batch; do not redo)
+- Survey: structure, offsets, style contract, skeleton EPUB. (earlier session)
+- **B01 = ch01 (voice gate):** full translation (165 paragraphs), 52 footnotes,
+  12 figures, glossary seeded, all checks green, epubcheck clean, blind-critique
+  loop run. Held at the human voice gate. Details in PROGRESS.md.
 
-- **Survey session.** Source characterized; `book.json` fully populated
-  (18 units: Preface + 15 chapters/86 sections + Works Cited + Afterword);
-  `STYLE.md`/`STYLE.local.md` composed; skeleton EPUB built, qa_epub PASS,
-  epubcheck clean. Cover extracted (`data/figs/cover.png`) and embedded. No
-  translation yet. See PROGRESS.md "Setup / Survey".
+## Tooling in place — DO NOT REVERT
+- `scripts/indents.py`: furniture-band drop by y-position (`FURNITURE_TOP=0.11`,
+  `FURNITURE_BOTTOM=0.955`), no more `ocr_crop.folio_present`. This book's folio
+  + running head sit in one TOP band; there is no running foot.
+- `scripts/check_numbers.py`: arabic+万 combiner ("31万"=310,000) BEFORE the
+  noise loop (fixes the `\d+[．.、]` list-marker rule eating a decimal like 2.6万).
+- `scripts/check_content.py`: `name_map` skips `_`-prefixed / non-dict glossary
+  keys.
+- `data/noise.txt`: this book's event-date names, numeral-bearing proper names,
+  decade labels, and idioms. Extend per its header; longest literal first.
+- OCR crop for this book: `--left 0.06 --right 0.95 --top 0.11 --bottom 0.955
+  --lang chi_sim --psm 6`.
 
-## Tooling in place (do not revert)
+## Renderings settled this batch (also in glossary.json / STYLE.local.md)
+- 中央特科 = the Central Special Branch (short: the Special Branch); 红队/打狗队 =
+  the Red Squad / the dog-beating squad; 化广奇 = Hua Guangqi; 黎明 = Liming
+  ("the Dawn"); 王庸 = Wang Yong; 亭子间 = tingzijian; 摩登 = modern.
+- Western scholars keep their own names: 魏斐德 = **Wakeman** (not Wei Feide);
+  维克托·乌索夫 = **Victor Usov**; 别尔津 = **Berzin**.
+- 侦察 in a security context = investigation/surveillance, not "reconnaissance"
+  (keep reconnaissance for Chen Geng's 1943 battlefield 侦察).
+- Numbers: full value ("310,000"), never "31 wan"; mixed arabic+万 handled in
+  check_numbers.
 
-- OCR model decided: `chi_sim --psm 6` (simplified, horizontal). Second read:
-  `ocr_dual.py` (PaddleOCR is not installed; expected). `OMP_THREAD_LIMIT=1`.
-- Page offset: constant **15** (printed = pdf − 15) book-wide, no drift, no
-  unpaginated plates. Verified on all 335 body pages.
-- Crop box: NOT yet measured. First engineering task of Batch 1 — measure the
-  body-text box and configure `ocr_crop.py` (running head is top, folio is the
-  outer top corner; crop both away). Validate the crop by OCR.
+## Voice sheets (carry forward; this chapter is mostly quoted documents, not scene dialogue)
+- **The author (Ye Xiaoshen):** warm, buttonholing popular-history narrator with
+  a sardonic edge and open reverence for his subjects; keep the heat in the
+  verbs and rhythm, ration exclamation and rhetorical questions. See the
+  Voice-sharpening line in STYLE.local.
+- **Chen Geng (quoted diary/autobiography):** terse, military, plain; short
+  declaratives, no ornament.
+- **Dong Jianwu (quoted notes):** earnest, self-effacing, morally didactic.
+- **Li Qiang (quoted letter):** precise, insistent, correcting the record.
+- **Xu Enzeng (quoted):** cold, procedural, bureaucratic.
+- **Dong Huifang (quoted):** warm, familial, concrete.
 
-## Renderings settled this batch / carry-forward
+## Where the story stands
+Chapter One establishes the two sides and the origin of the Central Special
+Branch: Gu Shunzhang the magician-spymaster; Chen Geng (Wang Yong) the
+intelligence chief; Zhou Enlai the founder; the "Red Pastor" Dong Jianwu; the
+White Terror of 1927 that drove the Party underground; the founding meetings of
+Nov 1927; the deep pre-history through Mei Baoji and Mei Gongbin; and the
+workers' pickets / "dog-beating squad" that became the Red Squad. Chapter Two
+turns to the character of these men ("A Hero's Mettle," "The Lumpen
+Proletariat").
 
-- From authority.json (shelf-wide, use as-is): 蒋介石 Chiang Kai-shek;
-  周恩来 Zhou Enlai; 顾顺章 Gu Shunzhang; 陈赓 Chen Geng; 中央特科 the Central
-  Special Branch.
-- Provisional (decide in glossary at first appearance, then reuse): 钱壮飞
-  Qian Zhuangfei, 李克农 Li Kenong, 胡底 Hu Di (the "Longtan Three Heroes"
-  龙潭三杰); 徐恩曾 Xu Enzeng; 向忠发 Xiang Zhongfa; 陈云 Chen Yun; 白鑫 Bai Xin;
-  贺稚华 He Zhihua; 沈琬 Shen Wan; 杨登瀛 Yang Dengying.
-- Title 剑吼西风 = "The sword roars in the west wind", a line from He Zhu's ci
-  六州歌头 (the p5 epigraph). Rendered "The Sword Roars in the West Wind".
+## Next-batch scope
+B02 = ch02, PDF 50-59 (printed 35-44), sections ch02s01 (PDF 51) and ch02s02
+(PDF 55). Light chapter (10 pp.).
 
-## Voice sheets (one per major character)
-
-- (none yet; write the first at Chapter One's first major character.)
-
-## Where the book stands
-
-- Nothing translated. Chapter One introduces the Central Special Branch's world
-  and (per its section titles) a "man of a thousand faces" — likely Qian
-  Zhuangfei or the conjuror motif that recurs (魔术 threads through chs 1 and 8).
-
-## What is NEXT
-
-- Batch 1 = Chapter One (ch01), PDF 16-49, printed 1-34. VOICE GATE — stop for
-  approval; do not start Batch 2.
-
-## Open items for the read-through
-
-- Epigraph (He Zhu ci, p5) to be rendered as a front-matter verse page in the
-  final batch (verse, {p}).
-- Preface, Works Cited, Afterword scheduled for the final (light) batch with
-  back matter, whole-book reconciliation, and COMPLETION.md.
-- Confirm the proposed batch plan (see out/SURVEY.md and the reply) at the gate.
-
-## Environment / traps state
-
-- PyMuPDF/tesseract/chi_sim(+vert)/chi_tra(+vert) installed; epubcheck 5.1.0
-  available (java present). PaddleOCR NOT installed (expected) — use ocr_dual.py.
-- Branch: survey work committed on the harness's stray branch
-  `claude/pdf-source-review-kehwvb`; canonical book branch per CLAUDE.md rule 2
-  is `claude/the-sword-roars`. Consolidate onto the canonical branch (see reply).
-- Clean scan, no seal, constant offset — the usual furniture traps are mild here,
-  but the crop still must be measured and OCR-validated in Batch 1.
+## Open traps / environment
+- `data/zh/` is gitignored (copyright); the hand-transcription approach means a
+  fresh checkout cannot regenerate it from OCR. Raised at the gate.
+- `find_figures.py` misses dense-newsprint clippings and line-art diagrams;
+  eyeball every page and hand-crop (as done for the Shen Bao ads and the org
+  chart in ch01).
+- `tests/run_tests.py` "hook stands down on template stub" FAIL is benign (real
+  kickoff present). Not a regression.
+- `OMP_THREAD_LIMIT=1` mandatory for tesseract; verify `pgrep -c tesseract` = 0
+  after OCR.

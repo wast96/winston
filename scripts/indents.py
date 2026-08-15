@@ -34,7 +34,6 @@ import cv2
 import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import ocr_crop
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PNG = os.path.join(ROOT, "data", "png")
@@ -42,6 +41,17 @@ OUT = os.path.join(ROOT, "data", "indent")
 
 INK = 160
 MIN_ROW_INK = 4
+
+# Furniture band drop, as fractions of page height. The OCR (ocr_crop.py) reads
+# only the body block between these bounds; the indent flags MUST correspond
+# 1:1 with those cropped OCR lines, so line_starts drops every ink band whose
+# centre falls outside the same window. THIS BOOK prints its folio and running
+# head in a single band at the TOP and has no running foot (the original
+# folio_present/[:-1] logic assumed a bottom folio, which never existed here and
+# left one furniture band at index 0 sliding every page's flags out of step with
+# the OCR text). Keep these equal to ocr_crop's --top/--bottom for this book.
+FURNITURE_TOP = 0.11
+FURNITURE_BOTTOM = 0.955
 
 
 def line_starts(page):
@@ -64,6 +74,9 @@ def line_starts(page):
 
     out = []
     for y0, y1 in bands:
+        mid = (y0 + y1) / 2.0
+        if mid < FURNITURE_TOP * h or mid > FURNITURE_BOTTOM * h:
+            continue          # running head / folio / foot: the OCR crop drops it
         cols = ink[y0:y1, :].sum(axis=0)
         nz = np.nonzero(cols > 0)[0]
         if not len(nz):
@@ -116,14 +129,9 @@ def classify(page):
     # edge, and headings, which are centred. Both would distort the margin.
     widths = [l["x1"] - l["x0"] for l in lines]
     measure = float(np.median(widths))
-    # Drop the folio band by calling ocr_crop's OWN test, not a copy of it.
-    # Two independent implementations of "is there a page number here" is one
-    # too many: they disagreed on 140 of 515 pages, and every disagreement
-    # slid the whole page's paragraph marks one line out of step with the OCR
-    # text. That misalignment, not any threshold, is what made the paragraph
-    # counts wander.
-    if ocr_crop.folio_present(page):
-        lines = lines[:-1]
+    # The folio/running-head band is already dropped in line_starts (this book
+    # sets its furniture at the top, not the foot), so the remaining bands
+    # correspond 1:1 with the cropped OCR lines. No extra folio test is needed.
     if not lines:
         return []
     body = [l for l in lines if (l["x1"] - l["x0"]) > 0.45 * measure]

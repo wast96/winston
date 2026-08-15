@@ -36,4 +36,92 @@ The running per-batch log. Written as we go.
 - Survey delivered to the commissioner; awaiting approval of shape + batching
   before Batch 1 (Chapter One, the voice-gate frozen reference).
 
-## B01 = Chapter One (voice gate) — pending
+## B01 = Chapter One "不知掩饰，不知生存 / No Concealment, No Survival" (voice gate)
+
+**Scope:** ch01, PDF 16–49, printed 1–34, four sections (ch01s01–s04). Done end
+to end; held at the human voice / note-density / formatting gate (Step 0c).
+
+### Pipeline
+- Rendered 16–49 @300dpi. **Crop measured for THIS book:**
+  `--left 0.06 --right 0.95 --top 0.11 --bottom 0.955 --lang chi_sim --psm 6`
+  (folio + running head are one TOP band; no running foot). No tesseract
+  orphans (`pgrep -c tesseract` = 0 after each run). `ocr_dual.py` run for the
+  name/number disagreement signal.
+- **Tooling fixes this batch — DO NOT REVERT:**
+  - `scripts/indents.py`: it called a non-existent `ocr_crop.folio_present` and
+    assumed a *bottom* folio; this book's furniture is at the TOP. Rewrote
+    `line_starts` to drop furniture bands by y-position (constants
+    `FURNITURE_TOP=0.11`, `FURNITURE_BOTTOM=0.955` = the OCR crop).
+  - `scripts/check_numbers.py`: added an **arabic+万 combiner** ("31万"=310,000,
+    "2.6万"=26,000) that runs BEFORE the noise loop (the built-in `\d+[．.、]`
+    list-marker rule was eating the "2." of "2.6万" → phantom 6万=60,000).
+    Regression fixtures still green.
+  - `scripts/check_content.py`: `name_map` now skips `_`-prefixed doc keys /
+    non-dict sections (it choked on the glossary's `_about` string).
+- **data/zh/ch01.txt is a HAND TRANSCRIPTION of the scans, not OCR output.**
+  Character-level OCR was too noisy and `assemble.py`'s positional
+  indent↔OCR-line zip breaks on this book's many figure pages and the
+  decorative chapter opener (tesseract's line count diverges from the geometric
+  band count there). The source side was read off the scans directly, one
+  paragraph per line, parity-guaranteed, every name/number cross-checked
+  against the dual OCR and (for hard cases) magnified crops.
+  **Reproducibility caveat, raised at the gate:** `data/zh/` is gitignored
+  (copyright), so the default regenerate-from-OCR path will NOT reproduce this
+  file; the tracked deliverable (`out/ch01_reading.md`, apparatus, EPUB) is
+  complete regardless. Decision on whether to track `data/zh` for this book is
+  the commissioner's.
+
+### Checks (all green)
+- Parity 165 = 165 (`check_structure --pairs`, `verify_unit`).
+- Numbers: `check_numbers --noise data/noise.txt` 0 unresolved / 165 pairs.
+  `data/noise.txt` extended: event-date names read as one numeral (七一五, 五二〇,
+  二七, 八七, 六一, 五四), numeral-bearing names (李立三, 张阿四, 肖阿四, 马万祺),
+  decade labels (20世纪/20年代), idioms (百般, 四通八达, 万岁, 九腔十八调, 成百,
+  风情万种, 海纳百川, 两手, 万恶, …). Every entry commented.
+- `check_align` median 4.98 en/han, no pair > 2.2×. `check_content` 203 name
+  occurrences 0 displaced. `qc_entities` 0 misses. `check_apparatus` clean.
+  Builder anchor gate green (it caught 2 anchors orphaned by voice-gate edits;
+  fixed).
+- Tail verification: closing paragraphs of every section re-read against the
+  scan. Crop-verified: Red Squad roster (谭忠余/张阿莲/张文虎/张文龙 p20), the
+  南昌决裂 reading (as printed; footnoted), casualty figures 31万/2.6万 (p31),
+  addresses 22号/679号.
+
+### Apparatus
+- **52 footnotes** (`notes.json`): the figures, events, institutions, idioms,
+  and quotations a non-specialist needs, first-appearance anchored, with
+  fact-check verdicts where checkable (the 310,000 purge-deaths flagged as the
+  Party's own Sixth-Congress reckoning; Wakeman = 魏斐德; the Latin maxim = the
+  chapter-title source). Web-verified the Gu Shunzhang / Special Branch /
+  Wakeman claims.
+- **12 figures** (`figures.json`) with real alt text; `find_figures` MISSED the
+  Shen Bao ad-clippings (dense newsprint) and the org chart (line art) — cropped
+  by hand (`data/figs/ch01-*.png`). The faded photo behind the p16 chapter title
+  is treated as design furniture, NOT a captioned figure.
+- Glossary: principal cast + recurring names/orgs/terms; `authority.json` to be
+  updated on completion.
+
+### Voice gate (Step 0c) — blind-critique loop
+- Round 1 (context-blind reader): ~40 findings; applied 33, kept the deliberate
+  正面/背面 parallelism and the Mao/Lu Xun/couplet quotations (load-bearing, the
+  blind reader couldn't see them). Six RULE/WHY/FIX/CHECK classes folded into
+  `STYLE.local.md`.
+- Round 2: opened "polished, high-accomplishment… mostly real English"; ~44
+  further fixes (garbled-logic, remaining calques, doubled synonyms, purple);
+  apparatus "read clean." Two more rules added to `STYLE.local.md`.
+- Round 3: convergence check (running / done — see HANDOFF).
+- On approval this chapter is the FROZEN register reference
+  (`check_register.py --ref out/ch01_reading.md`).
+
+### Setup-report note
+- `tests/run_tests.py`: one FAIL, "hook stands down on template stub" — benign
+  (the survey already put a real kickoff in HANDOFF.md, so the Stop hook
+  correctly ENFORCES rather than standing down). Not a regression.
+
+### NOT re-noted (already placed) — for later batches, cross-reference don't re-note
+- Gu Shunzhang, Chen Geng, Zhou Enlai, the Central Special Branch, the Red
+  Squad, Chiang Kai-shek, Yang Du, Pan Hannian, Li Dazhao, Du Yuesheng, the
+  Whampoa Academy, the May Thirtieth Massacre, the Great Revolution / party
+  purge, the "ten years of turmoil", Wakeman, Zhang Guotao, Xu Enzeng, Dong
+  Jianwu, Qu Qiubai, Li Qiang, Mei Baoji, Mei Gongbin, the Nineteenth Route
+  Army, Song Qingling — all first-noted in ch01.

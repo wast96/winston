@@ -1,15 +1,35 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
+  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. status per entry: 'attested' (form used in English scholarship), 'provisional' (romanization mine), 'decided' (a project style call). Flag the book's main cast with principal:true (optional cast one-liner, cast_order). Sections render as glossary headings; keys starting with '_' are ignored.",
   "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
+  "people": {
+    "周恩来": {"en": "Zhou Enlai", "pinyin": "Zhou Enlai", "status": "attested", "principal": true, "cast_order": 1, "cast": "Director of the Party's underground work in Shanghai and founder of the Central Special Branch (1898–1976).", "note": "Conventional pinyin; the Party's intelligence chief in this period and the author's ultimate superior."},
+    "顾顺章": {"en": "Gu Shunzhang", "pinyin": "Gu Shunzhang", "status": "attested", "principal": true, "cast_order": 2, "cast": "The Party's first intelligence chief, a stage magician; defected to the Kuomintang in 1931 (1903–1935).", "note": "Head of the Central Special Branch whose 1931 defection wrecked the Shanghai underground."},
+    "陈赓": {"en": "Chen Geng", "pinyin": "Chen Geng", "status": "attested", "principal": true, "cast_order": 3, "cast": "Head of the Special Branch's intelligence section, under the alias Wang Yong; later a PLA general (1903–1961).", "note": "Whampoa first class; saved Chiang Kai-shek's life in 1925; ran the Second (intelligence) Section."},
+    "王庸": {"en": "Wang Yong", "pinyin": "Wang Yong", "status": "attested", "note": "Chen Geng's cover name in Shanghai (\"Mr. Wang\")."},
+    "蒋介石": {"en": "Chiang Kai-shek", "pinyin": "Jiang Jieshi", "status": "attested", "principal": true, "cast_order": 4, "cast": "Leader of the Kuomintang and its government; the Party's chief adversary (1887–1975).", "note": "Conventional English form retained."},
+    "董健吾": {"en": "Dong Jianwu", "pinyin": "Dong Jianwu", "status": "attested", "note": "The \"Red Pastor\": an Anglican clergyman and Communist agent who ran St. Peter's Church as a safe house."},
+    "徐恩曾": {"en": "Xu Enzeng", "pinyin": "Xu Enzeng", "status": "attested", "note": "Chief of the Kuomintang's civilian secret service, the Zhongtong."},
+    "李强": {"en": "Li Qiang", "pinyin": "Li Qiang", "status": "attested", "note": "Built the Party's first secret radio; a principal source on the Special Branch's origins."},
+    "杨度": {"en": "Yang Du", "pinyin": "Yang Du", "status": "attested", "note": "Monarchist theorist turned secret Communist agent (1875–1931)."},
+    "梅宝玑": {"en": "Mei Baoji", "pinyin": "Mei Baoji", "status": "attested", "note": "Honored as the Party's first intelligence source (1881–1947)."},
+    "梅龚彬": {"en": "Mei Gongbin", "pinyin": "Mei Gongbin", "status": "attested", "note": "Long-buried Communist agent inside the Kuomintang; Mei Baoji's nephew (1901–1975)."},
+    "潘汉年": {"en": "Pan Hannian", "pinyin": "Pan Hannian", "status": "attested", "note": "Chen Geng's successor in intelligence work; jailed in the 1955 case that bears his name."},
+    "张慧冲": {"en": "Zhang Huichong", "pinyin": "Zhang Huichong", "status": "attested", "note": "Film star and founder of \"Shanghai-style magic,\" admired by Gu Shunzhang."},
+    "李维汉": {"en": "Li Weihan", "pinyin": "Li Weihan", "status": "attested", "note": "Senior Party leader; on the Standing Committee that founded the Special Branch."},
+    "瞿秋白": {"en": "Qu Qiubai", "pinyin": "Qu Qiubai", "status": "attested", "note": "Party leader after August 1927; writer; executed 1935."},
+    "胡鄂公": {"en": "Hu Egong", "pinyin": "Hu Egong", "status": "attested", "note": "1911 revolutionary and early Marxist who introduced Chen Geng to Yang Du."},
+    "徐梅坤": {"en": "Xu Meikun", "pinyin": "Xu Meikun", "status": "attested", "note": "First head of the Jiangsu committee's \"dog-beating squad,\" the Special Branch's forerunner."}
+  },
+  "organizations": {
+    "中央特科": {"en": "the Central Special Branch", "pinyin": "Zhongyang Teke", "status": "attested", "note": "The CCP's first intelligence and security service (1927–1935), Shanghai. English form per Wikipedia."},
+    "红队": {"en": "the Red Squad", "pinyin": "hongdui", "status": "attested", "note": "The Special Branch's Action (Third) Section, its assassination unit; also \"the dog-beating squad.\""},
+    "国民党": {"en": "the Kuomintang", "pinyin": "Guomindang", "status": "attested", "note": "Rendered \"Kuomintang\" throughout, the conventional English name."}
+  },
+  "places": {
+    "上海": {"en": "Shanghai", "pinyin": "Shanghai", "status": "attested", "note": "Seat of the Party Center and its underground in this period."}
+  },
   "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
-      "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
-    }
+    "打狗队": {"en": "the dog-beating squad", "pinyin": "dagou dui", "status": "decided", "note": "Special Branch slang for the assassination squad that eliminated traitors; \"beating the dogs\" (dagou)."},
+    "亭子间": {"en": "tingzijian", "pinyin": "tingzijian", "status": "decided", "note": "The small, cheap back room over the kitchen stair in a Shanghai lane house; a byword for the poor lodging of writers and radicals."}
   }
 }

@@ -193,12 +193,24 @@ def cn_to_int(token):
 
 def source_numbers(text, extra_noise=()):
     stripped = _decomma(text)
-    # Project noise FIRST: a project rule must be able to pre-empt a built-in
+    # Mixed notation FIRST, before any noise: this book writes large round
+    # quantities as an arabic digit run followed by a Chinese magnitude
+    # ("31万" = 310,000, "2.6万" = 26,000, "100万" = 1,000,000). The English
+    # carries the full value (STYLE: "310,000", never "31 wan"), so combine
+    # the two here and strip the matched text. This must run before the noise
+    # loop, or the built-in list-marker rule \d+[．.、] eats the "2." of a
+    # decimal like 2.6万 and leaves a bare 6万 (60,000) reading as a drop.
+    _MAG = {"万": 10000, "萬": 10000, "亿": 10 ** 8, "億": 10 ** 8}
+    combined = set()
+    for m in re.finditer(r"(\d+(?:\.\d+)?)\s*([万萬亿億])", stripped):
+        combined.add(int(round(float(m.group(1)) * _MAG[m.group(2)])))
+    stripped = re.sub(r"(\d+(?:\.\d+)?)\s*([万萬亿億])", " ", stripped)
+    # Project noise next: a project rule must be able to pre-empt a built-in
     # that would eat the middle of one of its numbers (the 五一三/五一 case,
     # the 两三百/两三 case). Then the generic list.
     for pat in list(extra_noise) + list(NOISE):
         stripped = re.sub(_guard(pat), "", stripped)
-    nums = set(int(n) for n in re.findall(r"\d+", stripped))
+    nums = set(int(n) for n in re.findall(r"\d+", stripped)) | combined
     for tok in re.findall(r"[零一二两兩三四五六七八九十百千万萬億]+", stripped):
         val = cn_to_int(tok)
         # A bare 一 is nearly always a measure word, not a quantity.

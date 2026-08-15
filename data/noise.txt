@@ -1,37 +1,86 @@
 # Project noise file for check_numbers.py — pass with --noise data/noise.txt
 #
 # One regex per line. '#' comment lines only — NO trailing comments; the
-# loader keeps the whole non-# line as the pattern.
+# loader keeps the whole non-# line as the pattern. Longest literal first
+# where one pattern is a prefix of another. Each entry removes SOURCE
+# numerals that carry no cardinal quantity (event/date names, proper names
+# with a numeral, four-character idioms), so it can never mask a real drop.
 #
-# RULES (each learned on a real book):
-#   1. ORDERING IS LOAD-BEARING. Longest literal first. A rule that is the
-#      prefix of a longer form eats the front of it and orphans the tail:
-#      a prisoner ID 五一三 must appear BEFORE a 五一 (May Day) rule, or 五一
-#      strips the prefix and a phantom 三 is reported dropped.
-#   2. Prefer a lookbehind over a broad strip. Built-in numeral-initial rules
-#      are auto-guarded now, but a rule you write that can match the TAIL of
-#      a larger number still needs (?<![零一二两兩三四五六七八九十百千万萬億]).
-#   3. This file runs BEFORE the built-in list, so an entry here can protect
-#      one of your numbers from a greedy built-in (strip 两三百 whole before
-#      the generic 两三 fires and orphans the 百).
-#   4. Noise only ever removes SOURCE numerals, so it can never mask a drop.
-#      If a flag is a REAL quantity, fix the English to carry the value.
-#      Never noise a real number.
-#   5. Every entry gets a comment line above it: what the idiom/name means,
-#      and what phrase the English uses instead. An uncommented entry cannot
-#      be audited and will eventually be deleted by someone it burns.
+# --- Movement / event date-names read as one concatenated numeral ---
+# the source writes these compressed (七一五 -> 715); the English spells the
+# month and day out ("July Fifteenth"), so the concatenated form is noise.
+# July 15th coup — rendered "July Fifteenth"
+七一五
+# May 20th student movement — rendered "May Twentieth"
+五二〇
+# the February 7th strike — rendered "February Seventh"
+二七
+# the August 7th Conference — rendered "August Seventh"
+八七
+# the June 1st (1923 Changsha) massacre — rendered "June First"
+六一
+# the May Fourth movement — rendered "May Fourth"
+五四
 #
-# WHAT BELONGS HERE (accumulate as the check flags them):
-#   - personal names containing numerals      (陈千里, 吴四宝, 小五子)
-#   - place names                             (九龙, 四川, 八仙桥, 百老汇)
-#   - four-character idioms not in the built-ins
-#   - lexical-numeral compounds               (百货, 三轮车, 零钱, 五金)
-#   - decade/era labels                       (二十年代, 十八世纪)
-#   - weekday indices                         (星期[一二三四五六], 礼拜[一二三四五六])
-#   - the source's own note markers, if any   (\[\d+\])
+# --- Place names containing a numeral ---
+# Kowloon — rendered "Kowloon", carries no quantity
+九龙
 #
-# Example entries (delete these; they are here to show the format):
-# the Nine Dragons of Kowloon — rendered "Kowloon"
-# 九龍
-# weekdays carry no quantity — rendered "Monday" etc.
-# 星期[一二三四五六]
+# --- Personal names containing a numeral ---
+# Li Lisan — rendered "Li Lisan"
+李立三
+# Zhang Asi — rendered "Zhang Asi"
+张阿四
+# Xiao Asi — rendered "Xiao Asi"
+肖阿四
+#
+# --- Four-character idioms / set phrases with a numeral, not a count ---
+# 百般 "in every way" — no quantity
+百般
+# 四通八达 "extending in every direction" — no quantity
+四通八达
+# 十来 "a dozen or so" (十来人) — approximate, rendered "a dozen or so"
+十来
+# 万恶 "utterly vile" (万恶叛徒) — intensifier, not 10,000
+万恶
+# 二话不说 "without a word" — 二话, not a count of two
+二话
+#
+# --- More idioms / terms / names with a numeral, not a count ---
+# 两汉 "the Han (dynasties)" — dynasty name
+两汉
+# 百戏 "the Hundred Entertainments" — Han variety-show name
+百戏
+# 八字真言 Cixi's "eight-character mantra" — fixed term
+八字真言
+# 风情万种 "of a thousand charms" — idiom
+风情万种
+# 《百事会》 a xiangsheng act title, "The Hundred Matters"
+百事会
+# 危机四伏 "danger on every side" — idiom
+危机四伏
+# 上百 "hundreds" (上百个) — approximate, rendered "hundreds"
+上百
+# 新三 Hu Egong's courtesy name Xinsan — a name
+新三
+# 百战百胜 "unbroken run of victories" — idiom
+百战百胜
+# 两湖 "the Two Lakes" (Hunan and Hubei) — place term (两湖总师范学堂)
+两湖
+# 国共两党 "the two parties" — both named in English (Kuomintang, Communists)
+两党
+# 马万祺 Ma Man Kei — a personal name
+马万祺
+# 万岁 "long live" (共产主义万岁) — not the quantity 10,000
+万岁
+# 20世纪 / 20年代 the 1920s — century/decade label, rendered "the 1920s"
+20世纪
+20年代
+# 成百倍 "a hundredfold" (数十倍、成百倍) — idiom, rendered "hundreds of times"
+成百
+# 九腔十八调 "in all manner of tones" — idiom for versatile mimicry, not counts
+九腔十八调
+# 海纳百川 "the sea admits a hundred rivers" — idiom (all-embracing), not 100
+海纳百川
+# 两手 "a two-handed approach" (以革命的两手…) — idiom for hard-and-soft methods
+两手
