@@ -1495,3 +1495,120 @@ NOT RE-NOTED (first-appearance discipline; covered earlier, ledgered here):
 - 権現様 Gongen-sama = Ieyasu (ch36), 旗本八万騎 (ch27), four-kin mountain gun
   (ch41), 気組 kigumi (ch07), Maki Izumi (ch24), Hamaguri Gate (ch24/27),
   御陵衛士/大御番組 Ōgobangumi (ch45), 誠 Makoto banner (ch25/ch43).
+
+## B12 (ch54–ch58) — 袂別 / 大鳥圭介 / 城攻め / 沖田総司 / 陸軍奉行並 — COMPLETE
+
+KONDŌ'S SURRENDER AND THE START OF THE NORTHERN WAR. Notes 382–416 (35 this
+batch). All checks green except the ONE documented ch52 false-flag (the alias
+近藤勇平 ⊃ key 近藤勇 substring; qc_entities, the gate, is clean). qa_epub PASS
+(416/416/416); epubcheck 0/0/0/0. Continuous note number now 416. Glossary
+unchanged at 302 rows (no new keys — all B12 historical figures rendered by
+hand per B11 precedent). 58 of 71 chapters translated.
+
+Per-chapter parity / checks (all verify_unit numbers 0 unresolved, qc_entities
+0 misses, check_content clean, register within tolerance):
+- ch54 The Parting — 202 lines, 1 internal *** (after the Hachiōji-interrogation
+  flashback, before "And he, they learned, was encamped at Nagareyama"). 13 notes.
+- ch55 Ōtori Keisuke — 177 lines, 1 internal *** (before "Entering the post-town
+  of Ichikawa"). 5 notes.
+- ch56 The Siege — 189 lines, 1 internal *** (after "I can take it," before "The
+  sun was already going down"). 6 notes.
+- ch57 Okita Sōji — 166 lines, 1 internal *** (before "Okita Sōji died a little
+  more than a month after this"). 5 notes. PARITY TRAP HIT AND FIXED: first pass
+  merged the old-woman lead-in + her quote + narration (zh 46/47/48) into one
+  line; make_bilingual caught 164 vs 166; a positional re-read split it into
+  three. Lesson re-confirmed: a "老婆が、"→「quote」→"とあきれるほど…" run is THREE
+  source lines.
+- ch58 Assistant Commissioner of the Army — 151 lines, 1 internal *** (after
+  Brunet's line, before "On the third of the ninth month"). 6 notes. Clean on
+  first pass. Ends with Toshizō aboard the Kaiyō-maru, bound for Ezo — the seam
+  into B13.
+
+Scene-break method (grep XHTML for 2+ <p><br/></p> runs, place *** BY TEXT):
+each B12 chapter had exactly ONE internal run plus the title/body separator.
+
+Register: all 5 within tolerance vs frozen ch01. No STILTED. Em-dash pile-ups
+(STYLE rule 1): none. The only display paragraphs carrying 2+ em dashes (all in
+ch58) are single MATCHED PAIRS bracketing appositives, which the rule permits;
+ch54–57 carry no 2+-dash paragraph. ch54's aggregate dash rate runs high (the
+parting scene is thick with Shiba's 、-set appositives, each rendered as ONE
+dash per sentence) but passed the gate and has no pile-up.
+
+Number-check additions to data/noise.txt (all commented; never a real quantity):
+- ch54: 四散 (shisan, "scatter in four directions" idiom); 敬三 (Kagawa Keizō, 三).
+- ch55: 一翁 (Ōkubo Ichiō, 一); 電四郎 (Amano Denshirō, 四); 勇四郎 (Yoshizawa
+  Yūshirō, 四); 三九郎 (Baba Sankurō); 鑑三郎 (Tatsumi Kanzaburō, 三); 悌二
+  (Sakuma Teiji, 二); 三宅 (Miyake, 三); 三拝 (Sanpai River, 三); 四囲 (shii,
+  "on all four sides" idiom).
+- ch56: 千早 (Chihaya castle, 千).
+- ch57: 松五郎 (Inoue Matsugorō, 五); 六十里 (Rokujūri-goe road name, 六十);
+  十有二 (jū-yū-ni, "twelve" in the kanbun epitaph — the archaic 有 orphans the
+  numerals like 余, so the checker cannot compose 10+2; the English "twelve"
+  carries the age).
+- ch58: 一言一句 (ichigon-ikku idiom); 孫三郎 (Ōeda Magosaburō, 三); 文七郎
+  (Endō Bunshichirō, 七); 千代田 (Chiyodagata-maru ship, 千).
+NUMBER-CHECK CONFIRMATIONS (B12): the checker DOES compose plain
+tens×thousand ("thirty thousand koku", "fifty thousand" PASS) and reads
+ordinals ("first"/"second"/"seventh"/"Seventh Regiment" PASS); it does NOT
+compose hundreds+tens ("a hundred and fifty" FAILS → write "150") nor
+thousand-composites ("1,687", "1,800", "625,000" as DIGITS); "a million words"
+PASS (needs the article).
+
+FACT-CHECK VERDICTS (real scholarship; Grok/Grokipedia excluded):
+- KONDŌ'S SURRENDER AT NAGAREYAMA (ch54): CORROBORATED. Keiō 4/4/3 = 25 Apr
+  1868 (EN sources sometimes 26 Apr, a ±1-day conversion slip; lunar 4/3 is
+  standard). He gave himself up as "Ōkubo Yamato" to spare his levy; Arima Tōta
+  (Satsuma) and Kagawa Keizō led the column; identity exposed via the
+  Hino/Hachiōji circle (Satō household) and the Tosa side (Tani Tateki/Moribe,
+  Kagawa). Footnoted at ch54 (surrender) and ch54 Itabashi note.
+- KONDŌ'S EXECUTION AT ITABASHI (narrated ch57 line 143): CORROBORATED. Keiō
+  4/4/25 = 17 May 1868, at the Itabashi execution ground; BEHEADED (seppuku
+  refused, treated as a commoner/rebel), head sent to Kyoto and displayed at
+  Sanjō-gawara. 22 days after the Nagareyama surrender. Footnoted ch54 (Itabashi)
+  and pointed forward; the beheading itself is in the ch57 death-note context.
+- ŌTORI KEISUKE + DENSHŪTAI (ch55): CORROBORATED. b.1833 Akō, Ogata Kōan's
+  Tekijuku; led the break-out army north; the Kōnodai regrouping ~4/12 (Ōtori
+  commander, Hijikata staff); d.1911 after a long Meiji career. Footnoted ch55.
+- BATTLE OF UTSUNOMIYA CASTLE (ch56): CORROBORATED. Taken by the shogunal
+  remnant Keiō 4/4/19 (~11 May); retaken by the new government 4/23 (~14–15 May),
+  Hijikata shot in the foot in the defense; the army then fell back to Nikkō/
+  Aizu. Footnoted ch56 (the 4/19 note carries the take-then-lose arc).
+- OKITA SŌJI'S DEATH (ch57): CORROBORATED. Keiō 4/5/30 = 19 Jul 1868 at the
+  Sendagaya nursery (Uekiya Heigorō), of consumption; birth year disputed
+  (1842 or 1844), so age uncertain (novel: 25). "Never learned of Kondō's
+  execution" is a much-repeated TRADITION, not documented — footnoted as such.
+- 陸軍奉行並 rikugun-bugyō-nami (ch58): the office is real (deputy Army
+  Commissioner); Toshizō's firmly documented conferral is the Ezo-government one
+  (Dec 1868, under Ōtori). Shiba dates it to the Sendai phase; footnoted that the
+  dating is the novel's, the office genuine.
+- SENDAI / ŌUETSU ALLIANCE (ch58): CORROBORATED context. Sendai (625,000 koku),
+  keystone of the Ōuetsu Reppan Dōmei, wavered and submitted ~9/13–9/15 Keiō 4,
+  collapsing the league. The 9/3 castle reception is a plausible novelistic
+  detail. Footnoted ch58.
+- Utsunomiya "hanging ceiling" (ch56): the tsuri-tenjō legend (Honda Masazumi
+  vs the 2nd shogun Hidetada, 1622) is now thought a fabrication; footnoted as
+  a storytellers' tale.
+- Ryōma's assassination attributed to the Shinsengumi (ch54): the Ōmiya killing
+  (11th month 1867) is generally laid to the Kyoto Mimawarigumi, not the
+  Shinsengumi; the Tosa belief is footnoted as a widely-held but unsupported one.
+- Jules Brunet (ch58): CORROBORATED. French artillery officer who resigned to
+  fight with the shogunal remnant to Hakodate; a partial model for the film
+  The Last Samurai. Footnoted.
+
+DIGITIZATION GLITCHES (this batch): none observed in ch54–ch58 source. The only
+non-standard forms were the kanbun epitaph (ch57, 十有二歳 archaic "twelve") and
+Shiba's own bracketed glosses/parentheticals, both handled (noise rule / kept as
+parentheses), not errors of the digitization.
+
+NOT RE-NOTED (B12; covered earlier, ledgered here):
+- kimon vs kimono false-positive aside; 鬼門 demon gate NEWLY noted ch54.
+- Denshūtai (ch44), Enomoto (ch46), Matsudaira Tarō (ch47), Napoleon III /
+  French mission (ch30), Kuwana (ch24), Gewehr (ch41), Sendai-hira (ch47),
+  Nirayama daikan (ch05), Shōgitai (ch53), bukan/Mimawarigumi (ch04/ch25),
+  Boshin year (multiple), meshimori-onna, Shinchōgumi (earlier), Shōnai,
+  Ishida Powder (glossary; 虚労散 Kyorōsan NEWLY noted ch57), Kusunoki-ryū (ch06;
+  Chihaya/Kenmu strategy NEWLY noted ch56), Sun Tzu fū-rin-ka-zan (ch40; 衢地
+  kuchi NEWLY noted ch56), Ii/Sakurada Gate (ch11; akazonae NEWLY noted ch56),
+  Tōshō-Daigongen/Gongen-sama (ch36), Perry (earlier).
+- 副長 vice-commander / 助勤 jokin / 和泉守兼定 / 誠 / お雪 Oyuki (not in B12) all
+  glossary; rendered decided-form verbatim where they appear.

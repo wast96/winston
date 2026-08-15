@@ -358,3 +358,46 @@
 尚三
 # Senju — Edo place name / the Senju Great Bridge (千住大橋); 千 is part of the name, not the count 1000
 千住
+# ── B12 additions (ch54) ──
+# shisan = "scatter in all directions" (四散); 四 is the idiom's "four (directions)", not the count 4
+四散
+# Kagawa Keizō — the Tosa/Mito staff officer at Nagareyama (香川敬三); 三 is part of the given name Keizō, not the count 3
+敬三
+# ── B12 additions (ch55) ──
+# Ōkubo Ichiō — the Tokugawa surrender-party official (大久保一翁); 一 is part of the art-name Ichiō, not the count 1
+一翁
+# Amano Denshirō — shogunal retainer, the council spokesman (天野電四郎); 四 is part of the given name Denshirō, not the count 4
+電四郎
+# Yoshizawa Yūshirō — shogunal retainer in the Ichikawa roster (吉沢勇四郎); 四 is part of Yūshirō, not the count 4
+勇四郎
+# Baba Sankurō — Kuwana retainer in the roster (馬場三九郎); 三 and 九 are parts of Sankurō, not counts
+三九郎
+# Tatsumi Kanzaburō — Kuwana retainer, later the general Tatsumi Naofumi (立見鑑三郎); 三 is part of Kanzaburō, not the count 3
+鑑三郎
+# Sakuma Teiji — half-company officer at Oyama (佐久間悌二); 二 is part of Teiji, not the count 2
+悌二
+# Miyake Daigaku — shogunal retainer with demesne troops (三宅大学); 三 is part of the surname Miyake, not the count 3
+三宅
+# Sanpai River — the stream by Iizuka village (三拝川); 三 is part of the name Sanpai, not the count 3
+三拝
+# shii = "on all four sides, all around" (四囲すべて敵地); 四 is the idiom's "four (sides)", not a count
+四囲
+# ── B12 additions (ch56) ──
+# Chihaya castle — Kusunoki Masashige's fortress in the Kenmu war (千早城); 千 is part of the name Chihaya, not the count 1000
+千早
+# ── B12 additions (ch57) ──
+# Inoue Matsugorō — Okita Rintarō's birth family, of the Hachiōji Thousand Guardsmen (井上松五郎); 五 is part of Matsugorō, not the count 5
+松五郎
+# Rokujūri-goe — the mountain road Okita jokes of holding (六十里越え); 六十 is the road's fixed name "sixty ri", not a live count
+六十里
+# jū-yū-ni = "twelve" in the classical-Chinese epitaph (十有二歳); the archaic 有 between numerals orphans them (cf. 余), so the checker cannot compose 10+2; the English "twelve" carries the age
+十有二
+# ── B12 additions (ch58) ──
+# ichigon-ikku = "every word and phrase" (一言一句); the paired 一 are the idiom, not the count 1
+一言一句
+# Ōeda Magosaburō — the Sendai executive's colleague (大条孫三郎); 三 is part of Magosaburō, not the count 3
+孫三郎
+# Endō Bunshichirō — the Sendai executive (遠藤文七郎); 七 is part of Bunshichirō, not the count 7
+文七郎
+# Chiyodagata-maru — a shogunal warship (千代田形丸); 千 is part of the name Chiyoda, not the count 1000
+千代田

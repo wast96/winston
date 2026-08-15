@@ -10,21 +10,21 @@ section.
 ## Message to paste into the next chat
 
 ```
-Burn, O Sword! B12
+Burn, O Sword! B13
 
 Read CLAUDE.md in full (the working rules at the top are non-negotiable), then HANDOFF.md, then STYLE.md, then book.json. We are translating Burn, O Sword! (燃えよ剣) by Shiba Ryōtarō from a Japanese digital EPUB (source.epub) into an annotated English EPUB, following CLAUDE.md exactly. Work ONLY on branch claude/burn-o-sword; expect the harness to open you on a stray per-task branch and consolidate per CLAUDE.md rule 2. Deliverable out/burn-o-sword.epub.
 
-Batches 1 to 11 are DONE (ch01 to ch53). ch01 is the FROZEN register reference: reference/ch01_ref.md. Run ./setup.sh; if data/src/ is empty re-run scripts/ingest_epub.py source.epub (Japanese-aware: strips furigana, substitutes 8 gaiji, writes reference/furigana_readings.tsv). No source-note stream. Keep the source's own cover (data/figs/embed0009_HD.jpg), reused byte-identical, exactly as book.json already sets it; the commissioner likes it, do not change it. The known failing test "hook stands down on template stub" is EXPECTED (it only passes on the template placeholder kickoff); every other test passes.
+Batches 1 to 12 are DONE (ch01 to ch58). ch01 is the FROZEN register reference: reference/ch01_ref.md. Run ./setup.sh; if data/src/ is empty re-run scripts/ingest_epub.py source.epub (Japanese-aware: strips furigana, substitutes 8 gaiji, writes reference/furigana_readings.tsv). No source-note stream. Keep the source's own cover (data/figs/embed0009_HD.jpg), reused byte-identical, exactly as book.json already sets it; the commissioner likes it, do not change it. The known failing test "hook stands down on template stub" is EXPECTED (it only passes on the template placeholder kickoff); every other test passes.
 
-Do Batch 12 = ch54 through ch58 (袂別 / The Parting; 大鳥圭介 / Ōtori Keisuke; 城攻め / The Siege; 沖田総司 / Okita Sōji; 陸軍奉行並 / Assistant Commissioner of the Army), end to end per the CLAUDE.md pipeline, RUN TO COMPLETION. This span carries KONDŌ'S SURRENDER AND THE START OF THE NORTHERN WAR: at Nagareyama the Imperial column closes on the camp and KONDŌ ISAMI gives himself up (still under the alias Ōkubo Yamato) to spare his men — the FINAL PARTING of Kondō and Toshizō (ch54 袂別); Kondō is taken to the new-government camp and, once identified, executed at ITABASHI (Keiō 4/4/25 = 17 May 1868 — read the source before assuming which chapter his death lands in). Toshizō escapes north and throws in with ŌTORI KEISUKE, who is leading the DENSHŪTAI and other shogunal remnants up through the Kantō (ch55); the northern fighting opens with an assault on a CASTLE (ch56 城攻め — most likely UTSUNOMIYA). OKITA SŌJI dies of consumption at the Sendagaya nurseryman's (ch57 沖田総司; historically Keiō 4/5/30 = 19 July 1868). Toshizō is made 陸軍奉行並, ASSISTANT COMMISSIONER OF THE ARMY, in the northern shogunal-resistance command (ch58). Fact-check: Kondō's surrender at Nagareyama and his execution at Itabashi (date, place, the beheading vs seppuku point); Ōtori Keisuke and the Denshūtai's northern march; the Battle of Utsunomiya Castle (Keiō 4/4, taken then lost); Okita Sōji's death at Sendagaya (date, and that he never learned of Kondō's execution); the office 陸軍奉行並 and how Toshizō came by it; any dates/rosters. Oyuki is in the background (invented heroine, flagged ch32 — handle as fiction, no fact-check of her existence); as of ch48 she is Toshizō's acknowledged "wife," last at the Saishō-an above Osaka, and painting the sunset she watched with him. NAGAKURA and HARADA parted from Kondō at the Ōkubo mansion in ch53 to raise a new corps with Haga Yoshimichi — do not write them back into Toshizō's column unless the source does. Do not stop mid-batch except for a genuine blocker or completion. For each chapter:
-1. Build data/zh/<id>.txt from data/src with scripts/build_zh.py <id> <srcbase> "<title>" (title line "### <title>" then one body line per non-empty source paragraph, skipping the first two header lines). ch54=58_part0056, ch55=59_part0057, ch56=60_part0058, ch57=61_part0059, ch58=62_part0060. Fix any extractor splits (this source has had none: a narration line ending in 、 before a 「quote」 is the source's own lead-in, handled by the {j} join, NOT a split to merge). Recover scene breaks: the RELIABLE method is to grep the XHTML (data/src_epub/OEBPS/Text/partNNNN.xhtml) for runs of TWO OR MORE consecutive <p><br/></p> in the body and read the text on either side of each run — scripts/scene_map.py reports the same runs by "body paragraph N" but its N has drifted off-by-one, so PLACE *** BY TEXT BOUNDARY, not by the reported index (the single pair right after the chapter title is only the title/body separator; a SINGLE <br/> is a paragraph break, not a scene break). Place *** in the reading at those points. (B11 had one internal *** each in ch49, ch50, ch52; none in ch51, ch53.)
-2. Translate to the FROZEN ch01 register. Names Japanese order, surname first, macrons; CONSULT reference/furigana_readings.tsv before romanizing ANY name or word (it has caught readings whole-book, e.g. B08's 花昌町→Kashō-chō, B10's 家隆塚→Karyū-zuka, and B11's 乾→Inui [板垣退助's old surname], 干城→Tateki [谷守部→谷干城], 籬蔭→Riin, 祐邦→Sukekuni). The source uses EXPRESSIVE gikun furigana (e.g. 将軍→たいじゅ, 京→ここ, 近藤→せんせい, 慶喜→うえさま) which are semantic, NOT phonetic, and must not be romanized. Consult glossary.json (302 rows; then authority.json) first, feeding decided renderings back. Use the {j} display-join marker so a quotation reads inline with its lead-in and attribution; verse lines take {p} (one per line). Keep an exchange one paragraph per speaker turn. Watch parity: every 「…」 quote line, every と…いった attribution line, and every 「………」/「───」 silence is its OWN source paragraph and needs its OWN reading line — earlier batches each dropped/merged/INVENTED a line at dialogue or narration seams; make_bilingual's count catches it, a positional re-read fixes it. ALWAYS re-check dense exchanges and run-on narration for count. OBEY STYLE.md (em-dash budget; no scene-primed idioms). Consult the voice sheets below; read the last two pages of ch53's English before starting ch54 (batch seam).
+Do Batch 13 = ch59 through ch63 (艦隊北上 / The Fleet Turns North; 小姓市村鉄之助 / Ichimura Tetsunosuke, the Page; 松前城略取 / The Seizure of Matsumae Castle; 甲鉄艦 / The Ironclad; 宮古湾海戦 / The Sea Fight at Miyako Bay), end to end per the CLAUDE.md pipeline, RUN TO COMPLETION. This span carries THE SHIFT TO EZO AND THE SEA WAR. At the close of B12 Toshizō, now 陸軍奉行並 (rikugun-bugyō-nami, Assistant Commissioner of the Army), sailed north on the flagship 開陽丸 KAIYŌ-MARU with ENOMOTO TAKEAKI's fleet. B13: the fleet turns north to EZO (蝦夷地; renamed 北海道 Hokkaidō in 1869) and the shogunal remnant lands and drives on HAKODATE / GORYŌKAKU (ch59 艦隊北上); the page ICHIMURA TETSUNOSUKE 市村鉄之助 enters Toshizō's service (ch60 — historically the boy Toshizō will later send south with his photograph, a lock of hair, and his last message to the Hino Satō family; handle the setup, the errand itself is a later chapter); Toshizō's column takes MATSUMAE CASTLE (ch61 松前城略取, Meiji 1/11 = Nov 1868); the new government's ironclad ram 甲鉄 KŌTETSU (the ex-Confederate STONEWALL) arrives and tips the naval balance (ch62 甲鉄艦); and the shogunal navy's desperate boarding raid on the Kōtetsu, the BATTLE OF MIYAKO BAY (ch63 宮古湾海戦, Meiji 2/3/25 = 6 May 1869 — the KAITEN tries to board, the GATLING gun cuts the boarders down, Toshizō commands the raiding force). Fact-check: Enomoto's fleet reaching Ezo, the Washinoki landing and the drive on Goryōkaku, the founding of the Ezo regime and its election (Enomoto president); the seizure of Matsumae Castle by Hijikata's column; the historicity of Ichimura Tetsunosuke and the photograph-errand thread; the Kōtetsu/Stonewall (ex-Confederate ram, delivered to the new government early 1869); the Miyako Bay raid (dates, the Kaiten's abordage, the Gatling gun, the failure, Kōga Gengo's death); any dates/rosters. WATCH THE CALENDAR: this span crosses from Keiō 4 / Meiji 1 (1868) into MEIJI 2 (1869) — the Miyako Bay fight is 1869. KONDŌ ISAMI is DEAD (beheaded at Itabashi Keiō 4/4/25; grave raised by Toshizō at Aizu Atago-yama) and OKITA SŌJI is DEAD (consumption, Sendagaya, Keiō 4/5/30) — do NOT write either as a living voice; both may recur in Toshizō's memory. NAGAKURA and HARADA are gone (parted ch53); do not write them into the northern column unless the source does. SAITŌ HAJIME (now takes the pen-name 諾斎 "Dakusai") and MATSUMOTO SUTESUKE were Toshizō's vice-commanders of the 新選隊 "Shinsentai" as of ch57–58, BUT historically Saitō stayed to fight at Aizu and did NOT cross to Ezo — READ THE SOURCE before carrying him north; render only what the text has. Ōtori Keisuke, Enomoto Takeaki, Matsudaira Tarō (陸軍奉行 / Commissioner of the Army) are live major characters, rendered BY HAND, not keyed (B11/B12 precedent for one-off and recurring historical figures). Oyuki is in the deep background now (invented heroine, flagged ch32 — handle as fiction, no fact-check of her existence). Do not stop mid-batch except for a genuine blocker or completion. For each chapter:
+1. Build data/zh/<id>.txt from data/src with scripts/build_zh.py <id> <srcbase> "<title>" (title line "### <title>" then one body line per non-empty source paragraph, skipping the first two header lines). ch59=63_part0061, ch60=64_part0062, ch61=65_part0063, ch62=66_part0064, ch63=67_part0065. Fix any extractor splits (this source has had none: a narration line ending in 、 before a 「quote」 is the source's own lead-in, handled by the {j} join, NOT a split to merge). Recover scene breaks: the RELIABLE method is to grep the XHTML (data/src_epub/OEBPS/Text/partNNNN.xhtml) for runs of TWO OR MORE consecutive <p><br/></p> in the body and read the text on either side of each run — scripts/scene_map.py reports the same runs by "body paragraph N" but its N has drifted off-by-one, so PLACE *** BY TEXT BOUNDARY, not by the reported index (the single pair right after the chapter title is only the title/body separator; a SINGLE <br/> is a paragraph break, not a scene break). Place *** in the reading at those points. (B12 had exactly ONE internal *** in each of ch54–ch58.)
+2. Translate to the FROZEN ch01 register. Names Japanese order, surname first, macrons; CONSULT reference/furigana_readings.tsv before romanizing ANY name or word (it has caught readings whole-book, e.g. B11's 乾→Inui, 干城→Tateki, and B12's 蓼沼→Tadenuma, 尾国峠→Oguni-tōge, 斗筲→toshō, 昌平黌→Shōheikō). The source uses EXPRESSIVE gikun furigana (e.g. 将軍→たいじゅ, 京→ここ, 近藤→せんせい, 慶喜→うえさま) which are semantic, NOT phonetic, and must not be romanized. Consult glossary.json (302 rows; then authority.json) first, feeding decided renderings back. Use the {j} display-join marker so a quotation reads inline with its lead-in and attribution; verse lines take {p} (one per line). Keep an exchange one paragraph per speaker turn. Watch parity: every 「…」 quote line, every と…いった attribution line, and every 「………」/「───」 silence is its OWN source paragraph and needs its OWN reading line — B12's ch57 dropped one at a "老婆が、"→「quote」→"とあきれるほど…" three-line run and make_bilingual's count (164 vs 166) caught it; a positional re-read fixed it. ALWAYS re-check dense exchanges and run-on narration for count. OBEY STYLE.md (em-dash budget; no scene-primed idioms). Consult the voice sheets below; read the last two pages of ch58's English before starting ch59 (batch seam).
 3. Author out/<id>_reading.md (## title, {j}, {p}, ***, blank-separated). Then the battery: bash scripts/check_chapter.sh <id> <srcbase> "<title_en>" runs reading_to_en + make_bilingual (parity refuses on mismatch) + verify_unit (--noise data/noise.txt) + gen_check_config + check_align + check_content + qc_entities + check_apparatus + check_register. Verify each chapter TAIL against the source explicitly (rule 4).
-4. Footnotes per the reader model (first-appearance discipline; keep the "NOT re-noted" ledger in PROGRESS.md; note MORE than the glossary row) via apparatus_merge.py (each glossary row MUST carry a "section": people|places|organizations|terms field AND a "pinyin" field — qc_entities crashes on a row without "pinyin"; set pinyin = the romanized en. The merge nests the section and check_apparatus stays clean; render the glossary's DECIDED form verbatim, e.g. 甲陽鎮撫隊→"the Kōyō Chinbutai", 御陵衛士→"the Goryō-eji", 佐川官兵衛→"Sagawa Kanbei", 北添佶麿→"Kitazoe Yoshimaro", or qc_entities/check_content flag it; when the source shortens a name give the glossary a bare-surname en, and do NOT key a name that appears in FRAGILE COMPOUNDS — a Kyoto/Fushimi/Osaka street like 三条通/京町通/谷町筋 is rendered by hand, NOT keyed, or it false-flags). NOTE a check_content substring quirk (documented in PROGRESS B11): the source's own ALIAS 近藤勇平 contains the key 近藤勇 (Kondō Isami) as a substring, so check_content false-flags that one paragraph even though qc_entities (the battery gate) is clean — if a NEW alias-inside-a-key case appears, render faithfully and DOCUMENT the false-flag, do not distort the text. A NOTE ANCHOR must be a verbatim substring of the reading file with LITERAL macrons (ō, not sh&#333;gi) AND WITHOUT embedded straight quotes/apostrophes (pick a clean run of words — an English possessive like "Toshizō's" or a "…"-wrapped phrase will not anchor cleanly). Note BODIES use literal Unicode but numeric character references for any &-entity. Any figure from data/figs/ with a translated caption and real alt text (ch24-53 had none).
-5. check_register.py --ref reference/ch01_ref.md out/<id>_reading.md; record in PROGRESS.md. If a chapter flags STILTED, add contractions to the INFORMAL speakers (Toshizō's blunt dialect, Kondō's intimate Bushū) ONLY — leave deliberately formal registers (a ceremonial official, quoted documents/memoir, a set-piece political analysis, Oyuki's refined samurai-widow speech) alone. Battle/narration chapters run em-dash LOW and dialogue-light (B11 ran 2–5 em dashes/file; none flagged STILTED). Keep the source's ── interruptions and legitimate matched pairs, convert discretionary dash-asides to commas/parentheses (Shiba's own （）glosses and his 、-set appositives → commas/parentheses). Fact-check historical claims against real scholarship (never LLM-sourced; IGNORE Grok/Grokipedia), verdict in the note. Add numeral-noise rules to data/noise.txt as new numbered names/idioms/place-names appear (comment each; never noise a real quantity; use spelled forms the checker parses — but write LARGE composite tallies as DIGITS, e.g. "16,400" and "1,600", because the checker does NOT compose them; a romanized place/name whose kanji carries a numeral, e.g. 千住/四谷/精一郎/尚三, needs a noise rule because the digit vanishes; a Western year in kanji/full-width form needs noise; 何百-type vague "hundreds" are noised idioms; block-numbers 丁目 rendered "the Nth block" DO carry the numeral and PASS). NUMBER-CHECK LESSON (B11): the checker needs an explicit "a"/"one" before "million"/"hundred thousand" ("a million koku", "one hundred thousand koku" PASS; "the million koku", "a hundred thousand koku" FAIL); "a score" and multi-word "one thousand six hundred" are NOT read (use "twenty", digits "1,600").
+4. Footnotes per the reader model (first-appearance discipline; keep the "NOT re-noted" ledger in PROGRESS.md; note MORE than the glossary row) via apparatus_merge.py (each glossary row MUST carry a "section": people|places|organizations|terms field AND a "pinyin" field — qc_entities crashes on a row without "pinyin"; set pinyin = the romanized en. The merge nests the section and check_apparatus stays clean; render the glossary's DECIDED form verbatim, or qc_entities/check_content flag it; when the source shortens a name give the glossary a bare-surname en, and do NOT key a name that appears in FRAGILE COMPOUNDS — a Kyoto/Fushimi/Osaka street like 三条通/京町通/谷町筋/四条通 is rendered by hand, NOT keyed, or it false-flags). NOTE the ONE standing check_content false-flag (ch52's alias 近藤勇平 ⊃ key 近藤勇): qc_entities, the battery gate, is clean; if a NEW alias-inside-a-key case appears, render faithfully and DOCUMENT the false-flag, do not distort the text. A NOTE ANCHOR must be a verbatim substring of the reading file with LITERAL macrons (ō, not sh&#333;gi) AND WITHOUT embedded straight quotes/apostrophes (pick a clean run of words — an English possessive like "Toshizō's" or a "…"-wrapped phrase will not anchor cleanly). Note BODIES use literal Unicode but numeric character references for any &-entity. Any figure from data/figs/ with a translated caption and real alt text (ch24-58 had none).
+5. check_register.py --ref reference/ch01_ref.md out/<id>_reading.md; record in PROGRESS.md. If a chapter flags STILTED, add contractions to the INFORMAL speakers (Toshizō's blunt dialect) ONLY — leave deliberately formal registers (a ceremonial official, quoted documents/memoir, a set-piece political analysis, Oyuki's refined samurai-widow speech) alone. Battle/narration chapters run em-dash LOW and dialogue-light. STYLE rule 1 governs PILE-UPS, not aggregate rate: no sentence carries 3+ em dashes; a single MATCHED PAIR bracketing an appositive is allowed (B12 ch58 has several, all legit). Keep the source's ── interruptions (render as a leading ──, U+2500 box-drawing, NOT counted as an em dash) and legitimate matched pairs; convert discretionary dash-asides to commas/parentheses (Shiba's own （）glosses and his 、-set appositives → commas/parentheses). Fact-check historical claims against real scholarship (never LLM-sourced; IGNORE Grok/Grokipedia), verdict in the note. Add numeral-noise rules to data/noise.txt as new numbered names/idioms/place-names appear (comment each; never noise a real quantity). NUMBER-CHECK LESSONS (confirmed through B12): write LARGE composites as DIGITS — hundreds+tens ("150", not "a hundred and fifty"), thousand-composites ("1,687", "1,800", "625,000"), and kanji/full-width years; but the checker DOES compose plain tens×thousand ("thirty thousand", "fifty thousand" PASS) and DOES read ordinals ("first"/"seventh"/"Seventh Regiment" PASS); "a million"/"a hundred thousand" need the article; a romanized name/place/ship whose kanji carries a numeral (e.g. 千代田丸, 六十里, 松五郎) needs a commented noise rule; an idiom with a numeral (四散/四囲/一言一句/万に一つ) is noised; an archaic 有/余 BETWEEN numerals orphans them (noise the compound; the English carries the real quantity).
 6. Rebuild the EPUB (scripts/build_reading_epub.py), qa_epub.py until green, epubcheck (java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/burn-o-sword.epub); record ALL check results and EVERY digitization glitch in PROGRESS.md; update HANDOFF.md; commit and push to claude/burn-o-sword.
 
-End the batch with BOTH chat deliverables (CLAUDE.md rule 1, enforced by the Stop hook): the built EPUB ATTACHED in the chat AND the Batch 13 kickoff PASTED VERBATIM in a fenced code block. Batch 13 = ch59 through ch63.
+End the batch with BOTH chat deliverables (CLAUDE.md rule 1, enforced by the Stop hook): the built EPUB ATTACHED in the chat AND the Batch 14 kickoff PASTED VERBATIM in a fenced code block. Batch 14 = ch64 through ch68.
 
 Cite chapters and sections, never pages.
 ```
@@ -45,26 +45,26 @@ Cite chapters and sections, never pages.
 - B08 = ch34 to ch38, COMPLETE. Notes 235 to 272.
 - B09 = ch39 to ch43, COMPLETE. Notes 273 to 310.
 - B10 = ch44 to ch48, COMPLETE. Notes 311 to 339.
-- B11 = ch49 to ch53, COMPLETE. ch49 江戸へ / "To Edo" (the last Saishō-an
-  morning and parting from Oyuki; the Fujiyama-maru voyage east; the sea-burial
-  of YAMAZAKI SUSUMU in the Kitan Strait; Okita wasting; landfall at Shinagawa),
-  ch50 北征 / "The Northern March" (the KŌYŌ CHINBUTAI formed; SATŌ SURUGA-NO-KAMI
-  and the Kōfu plan; DANZAEMON's men and money; the wakadoshiyori/yoriai ranks;
-  the 500,000-koku promise; Okita moved to the Sendagaya nurseryman's), ch51
-  甲州進撃 / "Advance into Kōshū" (Itagaki's Inui→Itagaki name-change and Shingen
-  propaganda; the HINO HOMECOMING at Satō Hikogorō's, the horo, sister Onobu, the
-  Kasuga-tai; the RACE FOR KŌFU LOST), ch52 勝沼の戦い / "The Battle of Katsunuma"
-  (AMEMIYA KEIJIRŌ; the four-kin gun's first shot; the fight at KASHIO, Kondō
-  left-handed; the KŌYŌ CHINBUTAI DISBANDED), ch53 流山屯集 / "Mustering at
-  Nagareyama" (the split from HARADA and NAGAKURA; Toshizō's choice of AIZU via
-  NAGAREYAMA; the parting-walk; the Meiji-9 memorial-stele digression, Yoshinobu
-  weeping; the march to Matsudo). Notes 340 to 381 (42 this batch). All checks
-  green except ONE documented false-flag (ch52 check_content substring quirk on
-  the alias 近藤勇平; see PROGRESS B11 and rule 4 of the kickoff). qa_epub PASS
-  (381/381/381); epubcheck 0/0/0/0. Continuous note number now 381. Glossary 302
-  rows (1 new key: 甲陽鎮撫隊). 53 of 71 chapters translated. See PROGRESS.md B11
-  for the full record: scene-break placements, the noise additions, the
-  number-check lessons, and the fact-check verdicts.
+- B11 = ch49 to ch53, COMPLETE. Notes 340 to 381.
+- B12 = ch54 to ch58, COMPLETE. ch54 袂別 / "The Parting" (KONDŌ'S SURRENDER at
+  Nagareyama and the FINAL PARTING of Kondō and Toshizō; the Hachiōji
+  interrogation of the Satō household; Arima Tōta and Kagawa Keizō), ch55
+  大鳥圭介 / "Ōtori Keisuke" (the break-out from Edo; Ōtori made commander at
+  Ichikawa, Toshizō second; the march north; the fight at Oyama), ch56 城攻め /
+  "The Siege" (Toshizō over Ōtori's objection storms UTSUNOMIYA CASTLE, Keiō
+  4/4/19; Saitō and the Izumi-no-kami Kanesada at the gate; Arima grazed), ch57
+  沖田総司 / "Okita Sōji" (OKITA'S DEATH at the Sendagaya nursery, Keiō 4/5/30,
+  never learning of Kondō's fate; the epitaph in kanbun; Toshizō renames the
+  corps the 新選隊 Shinsentai; Saitō "Dakusai" and Matsumoto Sutesuke), ch58
+  陸軍奉行並 / "Assistant Commissioner of the Army" (Toshizō made
+  rikugun-bugyō-nami; ENOMOTO's fleet reaches Sendai; the great French maneuver;
+  the Endō interview and the Kyoto-flashback sparrow duel; Sendai submits;
+  Toshizō sails for Ezo on the Kaiyō-maru). Notes 382 to 416 (35 this batch). All
+  checks green except the ONE documented ch52 false-flag. qa_epub PASS
+  (416/416/416); epubcheck 0/0/0/0. Continuous note number now 416. Glossary
+  unchanged at 302 rows (no new keys). 58 of 71 chapters translated. See
+  PROGRESS.md B12 for the full record: scene-break placements, the noise
+  additions, the number-check confirmations, and the fact-check verdicts.
 
 ## Tooling in place (do NOT revert)
 
@@ -88,130 +88,138 @@ Cite chapters and sections, never pages.
   added without it raises KeyError. Set pinyin = the romanized en on every new row.
 - scripts/check_content.py: matches glossary keys by SUBSTRING with no
   longest-match/exclusion logic, so a source alias that literally contains a key
-  (B11: 近藤勇平 ⊃ 近藤勇) false-flags one paragraph. qc_entities (the battery
+  (ch52: 近藤勇平 ⊃ 近藤勇) false-flags one paragraph. qc_entities (the battery
   gate) does NOT; document the false-flag, do not distort the translation.
 - scripts/check_numbers.py PATCHES (target-side only, can only ADD a number):
   B04 reads "a/one hundred and <ten..nineteen>"; B07 folds ONES into the
-  hundred+low band. Regression tests pass. DO NOT REVERT. Known limits: does NOT
-  compose "sixteen thousand four hundred"/"one thousand six hundred" (write
-  DIGITS), nor a kanji/full-width year (write DIGITS, noise the source form);
-  needs an explicit "a"/"one" before "million"/"hundred thousand" (B11); "a
-  score" is not read (write "twenty"); a 余 BETWEEN numerals orphans the tail
-  unit (noise the compound) but 余 before a COUNTER is fine; vague "hundreds"
-  (何百) are noised idioms; block-numbers 丁目 "the Nth block" carry and pass.
-- data/noise.txt (B01 to B11): Japanese name/idiom/place numeral rules, each
-  commented. Never noise a real quantity. B11 added (all commented): 利三郎
-  (ch49); 千駄ケ谷 (ch50); 四谷, 精一郎 (ch51); 三品一郎, 千屋 (ch52); 尚三,
-  千住 (ch53).
+  hundred+low band. Regression tests pass. DO NOT REVERT. Confirmed limits/reach
+  through B12: composes plain tens×thousand ("thirty thousand", "fifty thousand")
+  and reads ordinals ("first"/"seventh"), but does NOT compose hundreds+tens
+  ("a hundred and fifty" → write "150") nor thousand-composites (write "1,687",
+  "1,800", "625,000") nor kanji/full-width years (write DIGITS, noise the source
+  form); needs an explicit "a"/"one" before "million"/"hundred thousand"; "a
+  score" not read (write "twenty"); a 有/余 BETWEEN numerals orphans the tail
+  (noise the compound; English carries the real quantity); vague "hundreds" 何百
+  and numeral idioms (四散/四囲/一言一句) are noised; block-numbers 丁目 "the Nth
+  block" carry and pass.
+- data/noise.txt (B01 to B12): Japanese name/idiom/place/ship numeral rules,
+  each commented. Never noise a real quantity. B12 added (all commented): 四散,
+  敬三 (ch54); 一翁, 電四郎, 勇四郎, 三九郎, 鑑三郎, 悌二, 三宅, 三拝, 四囲 (ch55);
+  千早 (ch56); 松五郎, 六十里, 十有二 (ch57); 一言一句, 孫三郎, 文七郎, 千代田
+  (ch58).
 - STYLE.md (B01): the house style sheet (em-dash budget; scene-primed idioms).
   READ IT each batch; add to it when the commissioner corrects a line. No new
-  rule in B11.
+  rule in B12.
 - reference/ch01_ref.md (B01): the FROZEN register reference. Do not edit.
 
 ## Voice sheets (one per major character; consult at every dialogue scene)
 
 - NARRATOR: third person, wry and knowing, fond of the aside and the forward
-  glance to events years ahead (B11 flashes forward to Amemiya Keijirō's Meiji
-  business empire, to Itagaki Taisuke and Kataoka Kenkichi as future People's-
-  Rights statesmen, and to the 1888 memorial stele where Yoshinobu weeps over
-  Kondō's and Toshizō's names). KEEPS Shiba's own modern parentheticals (Western
-  dates; present-day place-names such as "today's Hino city"; quoted real
-  records — the Riin Shiwa memoir in ch51, the steward Oguri's letter in ch53)
-  AND his bracketed editorial glosses INSIDE dialogue and quotes (（慶喜）,
-  （千葉県）, （歳三の変名）, etc.). KEEP them all — render as parentheses
+  glance to events years ahead (B12: forward-glances to Ōtori's Meiji career, to
+  Arai Ikunosuke as first head of the Central Meteorological Observatory, to the
+  Satō family memoirs of Gennosuke and the Sendai interview, to Saitō's old-age
+  schoolteaching and Nomura's fate). KEEPS Shiba's own modern parentheticals
+  (Western dates; present-day place-names such as "today's Ishinomaki"; quoted
+  real records — the Gennosuke recollection ch54, the Sendai-Boshin records ch58)
+  AND his bracketed editorial glosses INSIDE dialogue and quotes (（政宗）,
+  （小さなマス）, （江戸開城後は…）, etc.). KEEP them all — render as parentheses
   (preferred), commas, or square-bracket glosses; do NOT dash every one.
-- HIJIKATA TOSHIZŌ ("Toshi"): the hero, 34. Rough Bushū farm dialect off guard,
-  contracted and blunt (おらァ, ねえ, かえ); a cool tactician who reads the new
-  warfare fast (means to re-arm Western-style; delights in the Infantry
-  Handbook). SOLE FIELD COMMANDER. After the Kōshū rout his creed hardens into
-  pure fight-to-the-end (ch53): "I don't think about winning and losing any more.
-  I just fight while there's life in me. The interesting part of my life has
-  finally raised its curtain." He chooses AIZU-via-Nagareyama almost alone, and
-  parts from Nagakura/Harada. ALIAS from ch53: 内藤隼人 "Naitō Hayato" / "Naitō-
-  sensei" (carry it forward in the northern campaign). With OYUKI he is another
-  man, earnest and boyish; she is his acknowledged WIFE (ch48), last at the
-  Saishō-an painting the sunset. Sword: 和泉守兼定 (Izumi-no-kami Kanesada) +
-  wakizashi 堀川国広.
-- KONDŌ ISAMI: warm, plain, big-jawed Bushū farmer's son; weeps easily; calls
-  Toshizō "Toshi". His right shoulder (shot at Sumizome, ch41) still pains him;
-  drinks left-handed (ch51). Chased the dream of a Kōfu fief and a daimyō's rank,
-  turned into a "warring-domains warrior" by the 500,000-koku promise (ch50); rode
-  a daimyō palanquin to his Hino homecoming (ch51); BEATEN for the first time at
-  Kōshū and badly downcast after (ch52-53). Marches under the alias 大久保大和
-  "Ōkubo Yamato". WATCH B12: history has him SURRENDER at Nagareyama (ch54 袂別)
-  and be executed at Itabashi (Keiō 4/4/25 = 17 May 1868). Sword: the Kotetsu.
-- OKITA SŌJI: the finest blade; bright, glib, teasing, cool even dying. CONSUMPTION
-  grave — could scarcely walk aboard ship (ch49), moved to the Sendagaya
-  nurseryman's (植木屋平五郎方) to convalesce (ch50-51), never learned how the war
-  went. Still the clear translucent smile. WATCH B12: ch57 沖田総司 is his DEATH
-  (historically Keiō 4/5/30 = 19 July 1868, at Sendagaya).
+- HIJIKATA TOSHIZŌ ("Toshi"): the hero, 34–35. Rough Bushū farm dialect off
+  guard, contracted and blunt (おらァ, ねえ, かえ); a cool tactician who reads the
+  new warfare fast and TOOK IN French method whole at the Sendai maneuver
+  (Brunet: "the French emperor would want you for a division commander"). SOLE
+  FIELD COMMANDER of the northern remnant; his creed since Kōshū is pure
+  fight-to-the-end. By ch58 he is 陸軍奉行並 (rikugun-bugyō-nami, Assistant
+  Commissioner of the Army), in French-style uniform, aboard the Kaiyō-maru bound
+  for Ezo. He is a poor set-piece orator (the Sendai speech "not so different
+  from a gambler-boss's") but unmatched on the field. ALIAS 内藤隼人 "Naitō
+  Hayato" from ch53 (watch whether the north still uses it). With OYUKI he was
+  another man; she is his acknowledged WIFE (ch48), now in the deep background.
+  Sword: 和泉守兼定 (Izumi-no-kami Kanesada) + wakizashi 堀川国広.
+- KONDŌ ISAMI: DEAD. Surrendered at Nagareyama (Keiō 4/4/3) as 大久保大和 "Ōkubo
+  Yamato" to spare his levy; taken to Itabashi and BEHEADED (Keiō 4/4/25 = 17 May
+  1868), head displayed at Sanjō-gawara; Toshizō raised his gravestone (kaimyō
+  貫天院殿純義誠忠大居士) on Aizu Atago-yama. Warm, big-jawed Bushū farmer's son;
+  the final parting from Toshizō divided them over "what each finds beautiful"
+  (Kondō submits to 大義名分, Toshizō fights on). Do NOT write him as a living
+  voice; he recurs only in memory.
+- OKITA SŌJI: DEAD. Died of consumption at the Sendagaya nurseryman's (植木屋
+  平五郎方), Keiō 4/5/30 = 19 July 1868, nursed at the end by no one; sister
+  Omitsu (お光, rendered "Omitsu") had parted from him for Shōnai on the very day
+  Kondō surrendered. He NEVER LEARNED of Kondō's execution (tradition). Clasped
+  the 菊一文字 Kiku-ichimonji at the end. Bright, glib, teasing to the last. Do
+  NOT write him as a living voice; recurs only in memory.
 - OYUKI (お雪, given name Yuki, self-refers as お雪→"Oyuki", bare 雪→"Yuki"): the
   HEROINE, WHOLLY INVENTED (Shiba's afterword; flagged at ch32). Edo-born samurai
-  widow, a painter (art-name Kōka) of the Shijō-Maruyama school. Register: quiet,
-  CRISP Edo/samurai speech, refined and formal (でございます), NO Kyoto softness;
-  leave her low-contraction speech ALONE at register gates (characterization).
-  Toshizō's acknowledged WIFE. In B11 (ch49) she saw him off from the Saishō-an,
-  stayed on to paint the sunset they watched together, and receded into the
-  background. GLOSSARY KEY is お雪 → "Oyuki"; render お雪 as "Oyuki" or qc_entities
-  flags it. Handle as fiction, no fact-check of her existence.
-- SAITŌ HAJIME: captain of the Third Unit; Toshizō's former SPY inside the
-  Goryō-eji. REJOINED at the Igakusho and went to Nagareyama (ch53); insisted on
-  raising the 誠 banner against Kondō's caution. Terse; a core man of the northern
-  remnant. Watch his role in B12.
-- NAGAKURA SHINPACHI & HARADA SANOSUKE: PARTED from Kondō at the Ōkubo mansion in
-  Fukagawa (ch53) to raise a new corps with 芳賀宜通 (Haga Yoshimichi, a Shintō
-  Munen-ryū master and old Matsumae friend of Nagakura's). They leave Toshizō's
-  column here; do NOT write them back in unless the source does. Nagakura: bold,
-  wide-acquainted, could no longer stomach Kondō's lordly airs. Harada: hot-
-  blooded Iyo spearman, animal-loyal but cut to the quick by Kondō ("I've
-  misjudged you"), rose to leave; a belly-scar from an old botched suicide.
-- MATSUMOTO RYŌJUN (松本良順): the Tokugawa house physician; tended Kondō and Okita
-  at the Igakusho. RENAMED 松本順 "Matsumoto Jun" after the Restoration (rose to
-  army surgeon-general); it is he who does the calligraphy for the 1876/1888
-  memorial stele (ch53). Same man; render the source's name for the period.
-- ŌTORI KEISUKE: FORESHADOWED, enters ch55. Western-trained shogunal officer who
-  leads the Denshūtai and other remnants north; Toshizō will join him. Render by
-  hand until then.
-- FORESHADOWED / rendered by hand, not yet major: ENOMOTO TAKEAKI / 榎本武揚
-  (Dutch-trained navy commander of the Kaiyō-maru, future leader of the northern
-  resistance; named in ch50/ch53 as a war-party ringleader Yoshinobu admonished),
-  MATSUDAIRA TARŌ (army war-party, future vice-president of the Ezo republic;
-  ch53), KATSU KAISHŪ and YAMAOKA TESSHŪ (the Edo-surrender negotiators; ch53).
-- OKITA's Kyoto-era dead comrades, ITŌ KASHITARŌ, SERIZAWA, NIIMI, KIYOKAWA,
-  YAMANAMI (敬助), TŌDŌ HEISUKE, INOUE GENZABURŌ, SHICHIRI, HAYASHI GONSUKE,
-  YAMAZAKI SUSUMU (died ch49): DEAD. Do not write them as living voices.
+  widow, a painter (art-name Kōka). Register: quiet, CRISP Edo/samurai speech,
+  refined and formal (でございます), NO Kyoto softness; leave her low-contraction
+  speech ALONE at register gates (characterization). Toshizō's acknowledged WIFE;
+  in the deep background since ch49. GLOSSARY KEY is お雪 → "Oyuki"; render お雪 as
+  "Oyuki" or qc_entities flags it. Handle as fiction, no fact-check.
+- ŌTORI KEISUKE: LIVE major character (entered ch55). Western-trained shogunal
+  infantry commander (歩兵頭); son of an Akō village doctor; Ogata Kōan's Tekijuku;
+  a brilliant scholar with NO field talent (Toshizō sees through it). Made
+  commander of the break-out army at Ichikawa; bookish, cautious, vain, needled
+  Toshizō as a "fencing-tradesman" and an unlettered peasant. Leads the remnant
+  north with Toshizō. Rendered BY HAND "Ōtori Keisuke"/"Ōtori", NOT keyed. Later
+  a distinguished Meiji official (d.1911).
+- ENOMOTO TAKEAKI (榎本武揚 / 榎本和泉守 / 榎本釜次郎 "Kamajirō"): LIVE major
+  character (named earlier, ON STAGE from ch58). Dutch-trained vice-president of
+  the shogunal navy, captain of the Kaiyō-maru; led the fleet out of Shinagawa
+  (8/19) to Ezo. Rare among Japanese in having seen Europe; a polished orator and
+  statesman (the foil to Toshizō's blunt field-soldier). Grips hands "in the
+  Western manner". Future president of the Ezo regime. Rendered BY HAND, not keyed.
+- MATSUDAIRA TARŌ: LIVE. Former infantry commander, now 陸軍奉行 (Commissioner of
+  the Army, above Toshizō's -nami rank), well disposed toward Toshizō; future
+  vice-president of the Ezo regime. Rendered by hand "Matsudaira Tarō" (noted ch47).
+- SAITŌ HAJIME (now the pen-name 諾斎 "Dakusai" — "whatever you say, I say yes"):
+  captain of the old Third Unit; the miraculous survivor; vice-commander of the
+  Shinsentai as of ch57. Terse, droll in later years. WATCH B13: historically
+  Saitō stayed to fight at Aizu and did NOT cross to Ezo — render only what the
+  source has; do not carry him north on assumption. Glossary key (principal #11).
+- MATSUMOTO SUTESUKE (松本捨助): Toshizō's distant relative from Minamitama,
+  Bushū; intermediate-license Tennen Rishin-ryū man; no brilliance but charges in
+  first and announces "Matsumoto Sutesuke of the Shinsengumi". A second
+  vice-commander of the Shinsentai (ch57). Rendered by hand, not keyed.
+- FORESHADOWED for B13, rendered by hand until on stage: ICHIMURA TETSUNOSUKE
+  (市村鉄之助, the page — the boy Toshizō will send south with his photograph and
+  last message; ch60 is his entry), ARAI IKUNOSUKE (荒井郁之助, Kaiyō-maru captain,
+  future first head of the Central Meteorological Observatory; ch58), JULES BRUNET
+  and the French advisers (ch58), HOSHI JUNTARŌ (星恂太郎, Sendai's Western unit).
+- Kyoto-era dead comrades — ITŌ KASHITARŌ, SERIZAWA, NIIMI, KIYOKAWA, YAMANAMI
+  (敬助), TŌDŌ HEISUKE, INOUE GENZABURŌ, SHICHIRI, HAYASHI GONSUKE, YAMAZAKI SUSUMU
+  (ch49), and now KONDŌ and OKITA: DEAD. Do not write them as living voices.
 
 ## Renderings settled / carry-forward
 
 - Title "Burn, O Sword!"; author Shiba Ryōtarō. Names Japanese order, macrons.
-- ONE rendering per referent, all in glossary.json (302 rows). RENDER THE DECIDED
-  FORM VERBATIM: 甲陽鎮撫隊 "the Kōyō Chinbutai" (B11 NEW org key), 旗本 "hatamoto",
-  和泉守兼定 "Izumi-no-kami Kanesada", 佐川官兵衛 "Sagawa Kanbei", 伝習隊 "the
-  Denshūtai", お雪 "Oyuki" (bare 雪 = "Yuki"), 山崎烝 "Yamazaki Susumu", 豊玉
-  "Hōgyoku", 北添佶麿 "Kitazoe Yoshimaro", 望月亀弥太 "Mochizuki Kameyata",
-  近藤勇 "Kondō Isami", 助勤 "jokin", 副長 "vice-commander", 監察 "inspector".
-- ALIASES: 大久保大和 "Ōkubo Yamato" (Kondō, from ch51/52/53), 内藤隼人 /
-  内藤先生 "Naitō Hayato"/"Naitō-sensei" (Toshizō, from ch53). Render as given.
-- RENDERED INLINE, NOT KEYED (appear in built chapters / fragile compounds):
-  慶喜 "Yoshinobu", 板垣退助/乾退助 "Itagaki Taisuke"/"Inui Taisuke", 武田信玄
-  "Takeda Shingen", 松平容保 "Matsudaira Katamori". B11 one-off historical figures
-  rendered by hand (not keyed): Yamauchi Yōdō (鯨海酔侯 "Geikai Suikō"), Iwakura
-  Tomomi, Itagaki Suruga-no-kami Nobukata, Satō Hikogorō (glossary), Satō Jin,
-  Gennosuke, Onobu, Inoue Taisuke, Hida Hamagorō, Torii Tango-no-kami, Ogata
-  Shuntarō, Ōishi Kuwajirō, Shimada Kai, Sōma Kazue, Okita Rintarō, Omitsu,
-  Nomura Risaburō, Kawazu Izu-no-kami Sukekuni, Hattori Chikuzen-no-kami, Satō
-  Suruga-no-kami, Nakayama Seiichirō, Danzaemon, Amemiya Keijirō (+ ancestor
-  Amemiya Yamashiro-no-kami Masashige), Tani Moribe (谷干城 Tateki), Kataoka
-  Kenkichi, Ogasawara Kenkichi, Hase Shigeki, Kitamura Chōbei, Mishina Ichirō,
-  Matsubara Shintarō, Sakuma Kensuke, Imamura Wasuke, Ōkubo Shuzen-no-kami, Haga
-  Yoshimichi, Hayashi Shintarō, Maeno Gorō, Chūjō Tsunehachirō, Kasuya Ryōjun,
-  Hijikata Hayato, Kondō Yūgorō, Ōtsuki Bankei, Matsumoto Jun, Oguri Shōzō,
-  Matsumoto Sutesuke, Chūsuke, Kyūkichi. Place/thing by hand: 甲府城/舞鶴城 "Kōfu
-  Castle (Maizuru Castle)", 勝沼 "Katsunuma", 柏尾 "Kashio", 笹子峠 "Sasago Pass",
-  流山 "Nagareyama", 高幡不動 "Takahata Fudō", 千住大橋 "Senju Great Bridge",
-  母衣 "horo", シャグマ "shaguma", 誠 "Makoto".
-- Era-year form kept with the numeral ("Keiō 4", "the first year of Meiji").
-  Shiba's own modern intrusions and bracketed glosses KEPT.
+- ONE rendering per referent, all in glossary.json (302 rows, unchanged in B12).
+  RENDER THE DECIDED FORM VERBATIM: 甲陽鎮撫隊 "the Kōyō Chinbutai", 伝習隊 "the
+  Denshūtai", 旗本 "hatamoto", 和泉守兼定 "Izumi-no-kami Kanesada", 佐藤彦五郎
+  "Satō Hikogorō", お雪 "Oyuki" (bare 雪 = "Yuki"), 近藤勇 "Kondō Isami",
+  坂本竜馬 "Sakamoto Ryōma", 勝海舟 "Katsu Kaishū", 助勤 "jokin", 副長
+  "vice-commander", 天然理心流 "the Tennen Rishin-ryū", 誠 "Makoto".
+- ALIASES: 大久保大和 "Ōkubo Yamato" (Kondō), 内藤隼人 / 内藤先生 "Naitō Hayato"/
+  "Naitō-sensei" (Toshizō). Render as given.
+- RENDERED INLINE, NOT KEYED (appear in built chapters / fragile compounds or are
+  one-off/recurring historical figures): 慶喜 "Yoshinobu", 板垣退助 "Itagaki
+  Taisuke", 松平容保 "Matsudaira Katamori". B12 by-hand figures (not keyed): Ōtori
+  Keisuke, Enomoto Takeaki (Izumi-no-kami / Kamajirō), Matsudaira Tarō, Arai
+  Ikunosuke, Arima Tōta, Kagawa Keizō, Tani Moribe (谷干城 Tateki), Nakaoka
+  Shintarō, Tanaka Kensuke (光顕 Mitsuaki), Saigō Kichinosuke (= Takamori), Ōkubo
+  Ichiō, Akizuki Tonosuke, Tatsumi Kanzaburō, Amano Denshirō, Kimura Ryūkichi,
+  Ogasawara Shintarō, Torii Tango-no-kami, Toda Tosa-no-kami, Date Yoshikuni
+  (伊達慶邦, 陸奥守), Date Masamune (貞山公 Teizan), Endō Bunshichirō, Ōeda
+  Magosaburō, Tomi Kogorō, Hoshi Juntarō, Sakuma Teiji, Nomura Risaburō, Okita
+  Rintarō, Omitsu (お光), Otsune (Kondō's wife), Matsumoto Ryōjun, Matsumoto
+  Sutesuke, Sakai Tadazumi, Jules Brunet, Commodore Perry, Shimizu no Jirōchō,
+  Kunisada Chūji. Place/thing by hand: 流山 "Nagareyama", 松戸 "Matsudo", 宇都宮
+  "Utsunomiya", 小山 "Oyama", 壬生 "Mibu", 日光 "Nikkō", 蓼沼 "Tadenuma", 千駄ケ谷
+  "Sendagaya", 仙台 "Sendai", 青葉城 "Aoba Castle", 日和山 "Hiyoriyama", 開陽丸
+  "Kaiyō-maru", 甲鉄 "Kōtetsu", 菊一文字 "Kiku-ichimonji", 昌平黌 "the Shōheikō".
+- Era-year form kept with the numeral ("Keiō 4", "the first year of Meiji",
+  "Meiji 44"). 戊辰 rendered "the year Boshin". Shiba's own modern intrusions and
+  bracketed glosses KEPT.
 - COVER: keep data/figs/embed0009_HD.jpg byte-identical, as book.json sets it.
 - Principal Characters page flags unchanged (Hijikata 1, Kondō 2, Okita 3, Inoue
   4, Nagakura 5, Shichiri 6, Harada 7, Katsura 8, Yamanami 9, Serizawa 10, Saitō
@@ -225,45 +233,43 @@ Cite chapters and sections, never pages.
 - ch19-ch23 (B05): the CODE OF THE CORPS; the IKEDAYA INCIDENT (1864).
 - ch24-ch28 (B06): the KINMON / HAMAGURI GATE INCIDENT; ITŌ recruited; YAMANAMI
   deserts.
-- ch29-ch33 (B07): YAMANAMI'S SEPPUKU; Itō made staff officer; OYUKI enters; the
-  Satchō alliance; Itō turns to 討幕.
-- ch34-ch38 (B08): the ITŌ SPLIT; the Goryō-eji formed; Toshizō kills Shichiri;
-  Saitō planted as a spy; Oyuki becomes his lover; the TAISEI HŌKAN.
-- ch39-ch43 (B09): the ABURANOKŌJI killing of Itō; Kondō's collapse and the ŌSEI
-  FUKKO; Kondō SHOT, command to Toshizō; the OPENING OF THE BOSHIN WAR.
-- ch44-ch48 (B10): the REST OF TOBA-FUSHIMI and the GREAT COLLAPSE; YOSHINOBU'S
-  FLIGHT by warship; the corps ordered east on the Fujiyama-maru; the two nights
-  with OYUKI at the Saishō-an.
-- ch49-ch53 (B11): the RETREAT TO EDO and the corps's UNDOING — the Fujiyama-maru
-  voyage and Yamazaki's sea-burial; the refit as the KŌYŌ CHINBUTAI and the march
-  on Kōfu; the HINO HOMECOMING; the DEFEAT AT KATSUNUMA and the corps DISBANDED;
-  the split from Nagakura/Harada; Toshizō's resolve on AIZU and the MUSTERING at
-  NAGAREYAMA under aliases (Ōkubo Yamato / Naitō Hayato).
+- ch29-ch33 (B07): YAMANAMI'S SEPPUKU; Itō made staff officer; OYUKI enters.
+- ch34-ch38 (B08): the ITŌ SPLIT; the Goryō-eji; Saitō planted as a spy; the
+  TAISEI HŌKAN.
+- ch39-ch43 (B09): the ABURANOKŌJI killing of Itō; the ŌSEI FUKKO; Kondō SHOT;
+  the OPENING OF THE BOSHIN WAR.
+- ch44-ch48 (B10): TOBA-FUSHIMI and the GREAT COLLAPSE; YOSHINOBU'S FLIGHT; the
+  two nights with OYUKI at the Saishō-an.
+- ch49-ch53 (B11): the RETREAT TO EDO; the KŌYŌ CHINBUTAI and the DEFEAT AT
+  KATSUNUMA; the split from Nagakura/Harada; the MUSTERING at NAGAREYAMA.
+- ch54-ch58 (B12): KONDŌ'S SURRENDER AND EXECUTION and the FINAL PARTING; the
+  BREAK-OUT under ŌTORI and the march north; the STORMING OF UTSUNOMIYA CASTLE;
+  OKITA'S DEATH; Toshizō made ASSISTANT COMMISSIONER OF THE ARMY as ENOMOTO's
+  fleet reaches Sendai, the domain submits, and Toshizō sails for EZO.
 
 ## What is NEXT
 
-- B12 = ch54 to ch58 (kickoff above): 袂別 / 大鳥圭介 / 城攻め / 沖田総司 /
-  陸軍奉行並. KONDŌ'S SURRENDER at Nagareyama and the FINAL PARTING; his execution
-  at Itabashi; Toshizō north with ŌTORI KEISUKE and the Denshūtai; the CASTLE
-  ASSAULT (Utsunomiya); OKITA'S DEATH; Toshizō made Assistant Commissioner of the
-  Army. Then B13 ch59-63, B14 ch64-68, B15 ch69-71 back matter + whole-book
-  reconciliation + COMPLETION.
+- B13 = ch59 to ch63 (kickoff above): 艦隊北上 / 小姓市村鉄之助 / 松前城略取 /
+  甲鉄艦 / 宮古湾海戦. THE SHIFT TO EZO AND THE SEA WAR — the fleet north to
+  Hakodate/Goryōkaku; the page Ichimura Tetsunosuke; the seizure of Matsumae
+  Castle; the ironclad Kōtetsu (Stonewall); the boarding raid at Miyako Bay (into
+  Meiji 2 / 1869). Then B14 ch64-68 (the fall of Goryōkaku and Toshizō's death),
+  B15 ch69-71 back matter + whole-book reconciliation + COMPLETION.
 
-## Open items for the read-through (B12)
+## Open items for the read-through (B13)
 
-- KONDŌ AT NAGAREYAMA: fact-check the surrender to the Imperial column (early
-  April 1868), the parting from Toshizō, and the execution at Itabashi (Keiō
-  4/4/25 = 17 May 1868) — read the source before assuming which chapter the death
-  lands in (the surrender is ch54 袂別; the execution may fall later).
-- ŌTORI KEISUKE + the DENSHŪTAI: fact-check his leadership of the shogunal
-  remnant north and the link-up with Toshizō (ch55).
-- UTSUNOMIYA CASTLE: fact-check the assault/capture and loss (Keiō 4/4, ch56).
-- OKITA SŌJI: his death at the Sendagaya nurseryman's (Keiō 4/5/30), and that he
-  never learned of Kondō's fate (ch57).
-- 陸軍奉行並 (Assistant Commissioner of the Army): fact-check the office and how
-  Toshizō came by it in the northern command (ch58).
-- OYUKI recurs only in the background now; keep her crisp Edo/samurai register.
-  Handle as fiction.
+- CALENDAR: this span crosses Keiō 4 / Meiji 1 (1868) into MEIJI 2 (1869). Keep
+  era-years with their numeral; the Miyako Bay fight is Meiji 2/3/25 = 6 May 1869.
+- EZO vs HOKKAIDŌ: the region is 蝦夷地 Ezo until renamed 北海道 Hokkaidō in 1869;
+  Shiba uses both — render the source's word for the moment.
+- SAITŌ AT AIZU: historically Saitō Hajime stayed to fight at Aizu and did NOT
+  cross to Ezo; read the source before carrying him north.
+- ICHIMURA TETSUNOSUKE: ch60 is his ENTRY; the photograph-errand thread pays off
+  in a later chapter (Toshizō's death). Handle the setup, don't pre-empt.
+- KŌTETSU / MIYAKO BAY: fact-check the Stonewall's provenance and delivery, the
+  Kaiten's abordage, the Gatling gun, Kōga Gengo's death, and the raid's failure.
+- OYUKI recurs only in the deep background now; keep her crisp Edo/samurai
+  register if she appears. Handle as fiction.
 
 ## Environment / traps state
 
@@ -272,33 +278,37 @@ Cite chapters and sections, never pages.
   scene-break detection needs data/src_epub, so re-run ingest before it if empty.
 - SCENE BREAKS: place *** BY TEXT BOUNDARY (grep XHTML for 2+ <p><br/></p> runs);
   scene_map.py's index drifts. Single <br/> = paragraph break; the pair after the
-  title = title/body separator. (B11: internal *** in ch49/ch50/ch52; none in
-  ch51/ch53.)
-- PARITY trap (PROVEN B04-B11): every quote, attribution (と…いった), and silence
+  title = title/body separator. (B12: exactly one internal *** in each of
+  ch54–ch58.)
+- PARITY trap (PROVEN B04-B12): every quote, attribution (と…いった), and silence
   (「………」/「───」) is its own paragraph; a narration lead-in ending in 、 before a
-  quote is its own line too (join it for display with {j} on the FOLLOWING line).
-  Never add or drop a beat the source does not have; make_bilingual refuses on a
-  count mismatch, a positional re-read fixes it.
-- NUMBER-CHECK traps: DIGITS for large composite tallies ("1,600", "16,400") and
-  for kanji/full-width years; explicit "a"/"one" before "million"/"hundred
-  thousand" (B11); "a score" not read (use "twenty"); a romanized name/place whose
-  kanji carries a numeral needs a commented noise rule (B11: 利三郎, 千駄ケ谷, 四谷,
-  精一郎, 三品一郎, 千屋, 尚三, 千住); vague "hundreds" 何百 are noised; block-
-  numbers 丁目 "the Nth block" carry and pass. Real koku/troop/date figures stay
-  in word-form and DO carry the number.
+  quote is its own line too (join it for display with {j} on the FOLLOWING line);
+  a "老婆が、"→「quote」→"とあきれるほど…"-type run is THREE source lines (B12 ch57
+  drop, caught by make_bilingual's count). Never add or drop a beat; a count
+  mismatch refuses to write, a positional re-read fixes it.
+- NUMBER-CHECK traps (confirmed B12): DIGITS for hundreds+tens ("150"),
+  thousand-composites ("1,687"/"1,800"/"625,000") and kanji/full-width years; but
+  plain tens×thousand ("thirty thousand"/"fifty thousand") and ordinals compose
+  fine; "a million"/"a hundred thousand" need the article; a name/place/ship whose
+  kanji carries a numeral needs a commented noise rule; numeral idioms
+  (四散/四囲/一言一句/万に一つ) are noised; an archaic 有/余 between numerals orphans
+  them (noise the compound, English carries the quantity). Real koku/troop/date
+  figures stay in word- or digit-form and DO carry the number.
 - CONTENT/ENTITY trap: render the glossary's DECIDED form verbatim or it flags.
-  Do NOT key a name in a FRAGILE COMPOUND. NEW glossary rows MUST carry both a
-  "section" and a "pinyin" field. check_content matches keys by SUBSTRING, so a
-  source ALIAS that contains a key (B11: 近藤勇平 ⊃ 近藤勇) false-flags one
-  paragraph — qc_entities does NOT; document it, do not distort the text.
+  Do NOT key a name in a FRAGILE COMPOUND (Kyoto/Fushimi/Osaka streets, ship
+  names with numerals). NEW glossary rows MUST carry both a "section" and a
+  "pinyin" field. check_content matches keys by SUBSTRING, so a source ALIAS that
+  contains a key (ch52: 近藤勇平 ⊃ 近藤勇) false-flags one paragraph — qc_entities
+  does NOT; document it, do not distort the text.
 - GLOSSARY CASCADE: adding a global key re-checks EVERY built chapter. Before
-  adding, grep data/zh for the key; if an old chapter rendered it differently,
-  match the old form OR edit + re-derive + rebuild. B11's 1 new key (甲陽鎮撫隊)
-  was new to the book — no cascade.
+  adding, grep data/zh for the key. B12 added NO new keys (all figures by hand),
+  so no cascade.
 - REGISTER: battle/parting chapters run em-dash LOW and dialogue-light. Contract
-  the INFORMAL speakers only (Toshizō's dialect, Kondō's intimate Bushū); leave
-  formal registers alone (quoted documents/memoir, ceremonial officials). B11 ran
-  2-5 em dashes/file, none STILTED.
+  the INFORMAL speakers only (Toshizō's dialect); leave formal registers alone
+  (quoted documents/memoir, ceremonial officials, Toshizō's set-piece Sendai
+  speech). STYLE rule 1 = no PILE-UP (3+ em dashes in a sentence); a single
+  matched PAIR bracketing an appositive is allowed. B12: all within tolerance,
+  none STILTED.
 - NOTE-ANCHOR trap: the anchor must be a verbatim substring of the reading with
   LITERAL macrons and WITHOUT embedded straight quotes/apostrophes — an English
   possessive ("Toshizō's"), a "…"-wrapped phrase, or an apostrophe name will NOT
