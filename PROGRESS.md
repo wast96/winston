@@ -1995,3 +1995,116 @@ hell I go." The three lines of the plot (Gohei's greed, Kohagi's rescue, Jūzō'
 now converge on Kiwano and on Fushimi.
 Next: B16 = ch16 甘南備山 / Mount Kannabi, printed folios 566-583 (opener mid-566, offset should stay
 0 — printed == PDF — READ folios to confirm; ch15's tail sits on 566 before the 甘南備山 title).
+
+## B16 — ch16 甘南備山 / Mount Kannabi (printed folios 566-583; opener mid-566, ends on 583) — COMPLETE
+
+ch16 opens MID-folio 566: ch15's tail (body para 439, ending 「…ひえびえとした自嘲の笑いをうかべもした。」)
+sits above, then the 甘南備山 title, then NOTHING more on 566 — the ch16 body begins on folio 567
+(木津川の川上にあたって細く削いだような新月が浮んだ…). ch16 ends on 583; it does NOT spill onto 584
+(ch17 尾行 opens clean on 584). 132 body paragraphs, 4 new notes (book total 118).
+
+### Folio-to-PDF map (READ off the running heads; topstrips.py 566 585 + autocontrast; printed == PDF throughout)
+Confirmed by reading the running-head folio of EVERY page across PDF 566-585: printed == PDF, unbroken,
+no duplicate leaf, no gap. Offset stays 0 (as it has since folio 406). ch17 opener 尾行 confirmed at
+printed 584 == PDF 584.
+- data/pagemap/ch16.json built: 17 entries (folios 567-583, body starts on 567). Folio 566 is the
+  title-only page (ch15 tail + 甘南備山 title, no ch16 body) and is omitted from the pagemap so every
+  body_paragraph index is unique (the builder inverts the list to {body_paragraph: folio}; ch15's map
+  had a 508/509→0 collision — avoided here).
+  Map: 567→0, 568→8, 569→17, 570→28, 571→41, 572→54, 573→64, 574→73, 575→82, 576→86, 577→95, 578→102,
+  579→108, 580→114, 581→121, 582→124, 583→128. All verified against the assembled data/zh/ch16.txt.
+
+### Method
+Hand-transcribed from the full-page 300dpi images (the B12-B15 flow), cropping columns only for the
+faint running heads (topstrips) and to disambiguate one paragraph boundary on the dense 576
+(the weapons paragraph ends のである。, then そのとき begins a new paragraph — no dangling 忍者は). Wrote
+three ~6-page chunks (scratchpad/zh|en/c01-c03.txt, one paragraph per line each side), asserted per-
+chunk and total line counts match, then assembled with a python script that does the zip-alignment
+automatically (0 quote-mismatch flags). Force-added data/zh/ch16.txt (data/zh is gitignored).
+
+### Checks (all green)
+- Parity: check_structure --pairs 132 | 132 OK.
+- Numbers: verify_unit 132 pairs, 0 unresolved. Two real quantities carried into the English rather
+  than noised: 二丁 → "two chō" (was "a couple of chō"); 二人 → "The two of them" (was "They"). No
+  noise.txt additions this batch (no numerals-inside-names; every 六人/四、五間/二間/二本/六つ etc.
+  carried in the prose).
+- check_align: median 10.70 en/han; 9 short-dialogue outliers only (「匂わぬ」="I don't smell of
+  anything" etc.) — ratio noise on terse quotes, not content problems.
+- check_content: 39 name occurrences, all in the paired paragraph (clean). Fixed 2 name-survival
+  drops (五平 rendered "He" in pronoun-only paragraphs 79, 98 → "Gohei").
+- qc_entities: 0 misses. (五平 x45, 伊賀 x4, 甲賀 x3, 風間五平 x2, 次郎左衛門 x2, 重蔵/葛籠重蔵 x1 each.)
+- check_register --ref ch01: 31.2 contr/1k = 1.98x the ch01 reference, WITHIN tolerance. An
+  action/ambush chapter reads livelier and more contracted than ch15's formal 0.60x, exactly as
+  expected — 1.98x is a healthy action register, not a draft error. No clause-final over-contraction
+  ("you're."/"there's.") present.
+- check_apparatus: 0 failures / 0 warnings. qa_epub: PASS (34 files, 118 notes ref/body/backlink,
+  351 pagebreaks). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- Compound-coverage cross-check (3+-kanji compounds in raw OCR data/txt over PDF 567-583): all 14
+  "absent" compounds are OCR garbles of terms correctly transcribed (伝和野→伎和野, 下配植/下格植→下柘植,
+  右裂八→右袈裟, 手裏鉛→手裏剣, 金創青→金創膏, 葛稼重蔵→葛籠重蔵, 伊賀下析植才→伊賀下柘植郷). No real drops.
+- Tail verification (rule 4): re-read the final paragraphs of 583 against the scan — Kisaru, maimed
+  (left hand gone), laughs a carefree laugh, climbs the embankment and trudges home to Iga
+  (伊賀下柘植郷). Every sentence accounted for; nothing dropped.
+
+### Notes added (4; book total now 118) — only ch16 first-appearances
+1. 甘南備/kannabi (anchor "under Mount Kannabi") — the sacred-hill etymology (神奈備, a rise where a god
+   dwells) + the setting: ruined Hachiman shrine at its foot, above Kiwano, where Gohei's buried gold
+   and the ambush meet. (Title-meaning note anchored to a BODY phrase, per the ch13/14/15 precedent.)
+2. 木津川/Kizu-gawa (anchor "the upper reaches of the Kizu-gawa") — the real river draining the
+   Iga–Yamashiro border, west to the Yodo below the capital; locates the night's action.
+3. 八幡/Hachiman (anchor "the site of the old Hachiman shrine") — the Shintō war-god and guardian of
+   the warrior houses; the irony of a night ambush closing on a war-god's ruined shrine.
+4. 仮祝言/kari-shūgen (anchor "a first, provisional one") — the provisional wedding rite that sealed a
+   betrothal ahead of the full marriage; Gohei's pledge to Kisaru (cross-ref ch15).
+
+### NOT re-noted (already placed in ch01-ch15; cross-referenced, not repeated)
+Iga/Kōga, jōnin/genin/shinobi/ninja, the night-watches (暮六ツ the sixth-hour bell), the measures
+(丁 chō, 間 ken), shōchū (ch10), 手裏剣/shuriken (household English; described in text as "star-shaped"),
+Tsuzura Jūzō / Kazama Gohei / Shimotsuge Jirōzaemon / Kisaru / Imai Sōkyū (all principal cast),
+Ishida Mitsunari, the kozuka (the small knife in the sword-scabbard, ch-earlier). Minor tier left
+unfootnoted by design: the one-off genin name 伊庭ノ横足 (Iba no Yokoashi); the sword-terms 右袈裟
+(rendered "a slanting cut across the body"), 鎧通し ("armor-piercer"), 上段 ("brought his sword up
+overhead"); 忍び足袋 (rendered "shinobi tabi" in-line, split-toe footwear evident from context).
+
+### Renderings — reused unchanged (consulted glossary before romanizing; NO new glossary rows)
+Principal cast: Kazama Gohei/Gohei (風間五平/五平), Kisaru (木さる/key 木猿), Tsuzura Jūzō/Jūzō
+(葛籠重蔵/重蔵), Shimotsuge Jirōzaemon/Jirōzaemon (下柘植次郎左衛門/次郎左衛門), Imai Sōkyū→bare Sōkyū
+(宗久). Places/terms: Iga (伊賀), Kōga (甲賀), Sakai (堺). Geography markers kept CONSISTENT with ch15
+(NOT glossaried by design): 甘南備→Kannabi / 甘南備山→Mount Kannabi, 伎和野→Kiwano, 木津川→Kizu-gawa,
+伊賀下柘植郷→"the Shimotsuge district of Iga". One-off name romanized consistently: 伊庭ノ横足→Iba no
+Yokoashi. No new glossary rows added.
+
+### noise.txt additions
+None this batch (no numerals-inside-names; every numeric quantity carried in the English prose).
+
+### Figures
+find_figures.py 566 585 found none; every page eyeballed during transcription — ch16 is text-only,
+like ch01-ch15. Empty figure list is a deliberate decision (no figures.json ch16 entry).
+
+### Voice sheets — this chapter (consult at every dialogue scene)
+- **Kazama Gohei (五平):** cold, clerkly, controlling; on the Kiwano hillside he runs the dig/rendezvous
+  like a spy-master (わし/じゃ, superior to inferiors; curt-teasing to Kisaru). The chapter shows the
+  full ice of him: he sells Kisaru to the Kōga ambush as a decoy — "the shinobi reflex bred into his
+  body; into it entered no honor, no human feeling, not even a will of his own" — and slips away.
+- **Kisaru (木さる):** spirited, blunt Iga dialect (じゃ/のじゃ, self-refers わたくし/木さる), teasing Gohei
+  about the promised wedding, then ambushed. Uses her father's escape doctrine ("let yourself be cut"),
+  sacrifices her left hand to plant a shuriken in a Kōga man's face, and escapes maimed. Ends the
+  chapter renouncing the world of the two men she loved, laughing carefree, trudging home to Iga. The
+  chapter's emotional centre; CONTRACTED, warm even in agony.
+- **The Shimotsuge genin (下柘植の下忍):** low field-talk on the hillside (雀/藍 dusk-omens), servile-
+  formal to Gohei (ござりました, 承った). Iba no Yokoashi scouts the ruins. Expendable — Gohei brings
+  them as "live bait."
+
+### Where the story stands (end of ch16)
+The night of the Kiwano rendezvous. Gohei leads his band up the ruined-village road below Mount
+Kannabi to the old Hachiman shrine where Sōkyū's 2000 gold is buried — and walks into the Kōga ambush
+Kohagi's people have laid (Sōkyū's order to wipe out the band; Kohagi meant to take them alive, but in
+the field the old nurse's men mean to kill). Gohei, reading the trap from the silence, throws his sword
+as a decoy and then throws KISARU as a decoy, selling her to the pursuers to buy his own escape. Kisaru
+survives by her father's doctrine — takes the cut on her raised left arm, kills her attacker with a
+right-hand shuriken, and crawls away. She washes the stump at the Kizu-gawa, weeps, and reckons: Jūzō
+would make this agony a rapture offered to his god and would never understand her; Gohei would weep as
+she weeps. She resolves to vanish from the world where she chased a man, and trudges home to Shimotsuge
+in Iga, maimed but carefree. Gohei is loose and hunted. Next: B17 = ch17 尾行 / The Shadowing (folios
+584-590) — Gohei, sunburnt and disguised as a horse-driver at the Gion Yasaka steps, since the Kiwano
+ambush unable to return to the magistrate's residence, is himself now being shadowed by a Kōga assassin.
