@@ -32,42 +32,70 @@ unprompted as original English? If it sounds like a careful, faithful
 decoding, it fails. If it sounds like a book you would read for pleasure, it
 passes.
 
-## The author's voice is the signature: preserve it, do not flatten it
+## The author's voice: keep the effect, not the texture
 
 Hao Zaijin narrates in a specific voice, and it is the point. He buttonholes
 the reader, editorializes freely, admires his subjects, and tells you an
-astonishing story he has spent decades collecting. That energy survives into
-English AS ITSELF. Do not neutralize it into flat expository history, and do
-not academicize it. The commonest way to ruin this book is to iron the author
-flat.
+astonishing story he has spent decades collecting. But that voice is Chinese
+reportage (报告文学): an oral, exclamatory, tour-guide register, breathless and
+full of rhetorical questions and "aha" reveals, where sentence-final particles
+do the emotional lifting. In Chinese that reads as lively popular history.
+Carried FAITHFULLY into English, feature for feature, the same devices read as
+a carnival barker wandered into a Foreign Affairs essay: a reader feels
+talked-AT, and distrusts the shouting. The fix, and the governing rule of this
+sheet: **be loyal to the source's EFFECT, not to its texture.** Hao's Chinese
+reader feels gripped and chatted-with; your English reader should feel the
+same, and English produces that feeling with different means.
 
-His signature devices, all present by page 3 of the preface, all to be kept
-in their original shape:
+So keep the STANCE and the HEAT (the admiration, the sardonic edge, the genuine
+indignation of the political asides), and keep the WARMTH toward the reader.
+Carry them in the verbs, the nouns, and the rhythm. Do NOT carry them in
+English punctuation and rhetoric that English does not spend this way. The
+common way to ruin this book is to iron the author flat; the OTHER common way,
+the one that actually happened first, is to leave his oral texture switched to
+full and let it read as goofy. Aim between: a first-rate writer of narrative
+nonfiction, lively but not loud.
 
-- **The anaphora chain.** 有谁知道…有谁想到…有谁猜到…有谁料到… Four
-  paragraphs opening on the same hammer. Keep the hammer: "Who knew... Who
-  imagined... Who guessed... Who foresaw..." Do not vary the opening out of
-  English elegance-anxiety; the repetition is the device.
-- **The one-sentence paragraph as punch.** 秘密之中的秘密! He isolates a
-  line to land it. Keep it isolated, keep the exclamation.
-- **The rhetorical question.** 中国的情报保卫组织呢? A question stays a
-  question. Never convert to "It is less well known that...", which kills the
-  voice dead.
+His devices, and what to do with each in English:
+
+- **Exclamation points: ration them hard.** The source exclaims freely; English
+  expository prose spends exclamation marks as if rationed. Default: render an
+  exclaimed statement with a flat period and let the fact land the punch. Keep
+  the exclamation only inside quoted speech and quoted slogans, and for the
+  rare genuine authorial outburst (at most one every few pages). A first draft
+  that carried ~100 of them across two chapters needed ~90 cut.
+- **Rhetorical (self-answering) questions: convert most to declaratives.** 呢?
+  and 岂不…? pivot between ideas in Chinese; at English full strength they read
+  as a docent who keeps turning to face the group. Keep one or two per chapter
+  where the question genuinely lands; make the rest statements ("China's own
+  services are the least known of all," not "And China's services?").
+- **The "so it turns out / it seems" reveal.** 原来/看来 stages a little
+  discovery and, in English, turns folksy and faintly patronizing ("So it turns
+  out that..."). Drop the wrapper; state the fact. The information is striking
+  on its own and your authority survives intact.
+- **The anaphora chain.** 有谁知道…有谁想到…有谁猜到…有谁料到… (four in a row).
+  A real figure, worth a trace of it as a deliberate flourish; at full strength
+  it reads like ad copy. Thin it to two, and vary them.
+- **The one-line punch paragraph.** He isolates a line to land it. The
+  isolation can stay where it earns its place; the exclamation on it usually
+  should not. Use sparingly, or the device wears out.
 - **The datebook chronology.** Chapter 1 walks Zhou Enlai's 1927 one dated
-  entry at a time, each its own short paragraph. Keep the staccato: "On March
-  21, ... On April 12, ..." Short entries stay short; do not fuse them into a
-  narrative summary.
-- **The extended metaphor strand.** Secrets as buried treasure, the archive
-  as a martial-arts manual scattered among masters, research as testing deep
-  water. These images recur across chapters. Render them concretely and
-  consistently; a strand dropped in chapter 1 cannot pay off in chapter 12.
-- **The inclusive "we."** 我们一起来… He recruits the reader. Keep the "we"
-  when he includes himself and the reader; it is his relationship to the
-  audience, not padding.
+  entry at a time. Keep the staccato ("On March 21, ... On April 12, ..."); do
+  not fuse the entries into summary. (This one is kept largely as-is.)
+- **The extended metaphor strand.** Secrets as buried treasure, the archive as
+  a martial-arts manual among masters, research as testing deep water. Render
+  concretely and consistently, but do not let a strand run to preciousness: the
+  preface's mining metaphor is overwrought even for Hao, and in English it must
+  be pulled back, not amplified.
+- **The inclusive "we."** Keep it where he includes himself and the reader; it
+  is his relationship to the audience. But a line like the preface closer
+  ("shall we take up the engineering of that cultural gene?") is faithful and
+  fatal; re-voice such lines plainer and colder.
 
-Two disciplines developed below both defer to this voice: understatement
-never cools his raised temperature, and the interested-witness doctrine
-renders his partisanship faithfully rather than correcting it.
+Two disciplines below defer to this voice: understatement keeps his raised
+temperature where the SOURCE runs hot (not where English punctuation faked the
+heat), and the interested-witness doctrine renders his partisanship faithfully
+rather than correcting it.
 
 ## What "stilted" means here: the failure modes to eliminate
 
@@ -115,9 +143,11 @@ the last is specific to this book's subject matter.
 9. **的-clause and coverb pile-up.** Long pre-nominal modifier stacks and
    把/被/给 chains invite nested, back-loaded English. Unstack: head noun
    first, modifiers following as clauses, or split.
-10. **The flattened rhetorical question and exclamation.** Covered under the
-    voice above; listed here because it is also a mechanical tic to grep for.
-    Questions stay questions; exclamations stay exclamations.
+10. **Over-carried exclamation, rhetorical question, and reveal.** The loudest
+    register tic; the mechanical face of the voice rule above. Grep every "!"
+    and "?" and every "so it turns out / it seems / and so": ration the marks
+    to English norms, convert most questions to statements, drop the reveal
+    wrappers. This is the single change that removes the most "goofiness."
 11. **The Party-jargon abstraction stack.** Political and campaign vocabulary
     (肃反扩大化, 逼供信, 一元化领导) rendered as stacked abstractions:
     "the expansion-ization of the elimination of counter-revolutionaries."
@@ -125,6 +155,39 @@ the last is specific to this book's subject matter.
     and put the term itself in a gloss or note at first appearance. Slogans
     quoted AS slogans keep their shape (see quoted material below); narration
     ABOUT the campaigns reads as plain English.
+
+### The calque sweep (grep for these every batch)
+
+A dozen word-for-word carries of specific Chinese constructions. Each is a
+find-and-fix; sweep them before shipping a unit.
+
+- **亲自 / 亲手 ("in person" / "with his own hand(s)").** Chinese flags personal
+  agency far more often than English wants it. Usually drop the tag: "Zhou built
+  the radio network," not "built it with his own hands."
+- **上/中/下旬 (thirds of a month).** Never "the first and middle ten days of
+  October." Use "early October," "mid-October," "late October."
+- **以上/多 and litotes counting.** "over 40,000 troops," not "more than forty
+  thousand men and guns" (人枪 is not "men and guns" in English); do not stack
+  four "more than"s in one sentence; 不少 is "a good deal of," not "no small
+  amount of."
+- **Chengyu transplanted as an image.** 鹤立鸡群 is "stood out," not "stood out
+  like a crane among chickens"; 痛定思痛 is "having taken the lesson to heart"
+  (pick ONE rendering and keep it); 自毁长城 paraphrase unless the Great-Wall
+  image truly lands. When an idiom has no English equivalent, render the sense;
+  do not transplant the picture (that IS the chinoiserie effect).
+- **之至 / 极 ("of the very highest/greatest").** Recast: "exceptional,"
+  "considerable," or restructure. Not "were of the very highest."
+- **确实 as a trailing "indeed."** Cut most.
+- **Bare transliterations and coinages.** 工作网 is "network," not "work net";
+  gloss anything a reader cannot picture (马兰纸 "malan-grass paper,"
+  顺风耳 "downwind ear" wants a gloss even inside a quote).
+- **侦察 for a DOMESTIC political-security organ** reads as military scouting.
+  Prefer "investigation" / "surveillance" / "counter-surveillance" for the
+  security bureaus; keep "reconnaissance" only for genuine military/technical
+  reconnaissance (the army 二部, 技术侦察 SIGINT). A global decision, applied
+  by context.
+- **坏人 and picture-book villainy.** "a bad man" is 坏人 flattened; name the
+  badness (a fanatic, a butcher, a zealot).
 
 ## The rules
 
@@ -238,7 +301,11 @@ re-anchor once when a paragraph would otherwise be ambiguous. The entity
 check (qc_entities.py) wants the rendered name once per paragraph the person
 appears in: satisfy it there and let pronouns carry the rest. In scenes with
 several men of the same side (constant in this book), err toward naming to
-kill pronoun fog. One rendering per referent, decided in glossary.json and
+kill pronoun fog. The opposite error is the loud "this is translated" tell:
+Chinese re-states a full name where English pronominalizes, and carrying that
+gives you "Liu Zhidan opened it... Liu Zhidan could have... But Liu Zhidan
+sealed it up," three names deep where English wants "he" twice. When one
+person owns a run of sentences, name once and let pronouns carry the rest. One rendering per referent, decided in glossary.json and
 checked against authority.json before anything is romanized; pinyin except
 for settled English forms (Chiang Kai-shek, Yangtze, Canton where period
 flavor wants it) and the shelf's agreed renderings.
