@@ -155,3 +155,18 @@ ch01 SETS the frozen reference voice. Presented in chat; awaiting approval.
   affect real batches (the "compliant wrap-up" case passes). Left for the
   commissioner; fixing it is template maintenance, out of scope for a
   translation batch.
+
+## B01 voice-gate revision (commissioner feedback, round 1)
+
+Commissioner read the notes and five sample sentences at the gate and flagged
+recurring prose faults. Recorded them as four CLASSES in STYLE.md's Calibrated
+rulings (lead with the thrust / no fronted-infinitive subjects; collapse doubled
+并列 pairs and never repeat a word for the source's parallelism; break stacked
+run-ons at their beats; Sun Tzu + Art of War naming, recast the chapter-citation
+intro). Fixed the five flagged sentences and swept the rest of the preface and
+ch01 for the same classes (the White Terror opener, the "everywhere...everywhere"
+sentence, the Chen Duxiu and The Guide run-ons, two more fronted-infinitive
+subjects, the "to effect" doubled adverb, the closing "once heard"). Added 孙子 =
+Sun Tzu and 孙子兵法 = Art of War to glossary; updated the two Sun Tzu note anchors
+and bodies. All checks still green; qa_epub PASS; epubcheck 0/0. Content is
+otherwise unchanged (a style pass, not a retranslation). Re-presented at the gate.

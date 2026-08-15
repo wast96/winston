@@ -305,7 +305,59 @@ fix, so the reasoning travels with the rule. A single correction is a data point
 the rule that prevents the whole class is the deliverable. Empty until the
 first-chapter voice gate (Step 0c).
 
-- _(pending the ch01 voice gate)_
+These four came from the commissioner's read of the ch01 voice gate. They are
+CLASSES, not one-off fixes: sweep every chapter for them, but edit only the
+sentences that actually trip. Most sentences are fine and stay untouched.
+
+**1. Lead with the thrust. Do not front-load the scene-setting, and never make
+a fronted infinitive the subject.**
+- Correction: "Against a harsh White Terror, against the authorities' close
+  searches and bloody killings, merely to preserve the Party's organizations
+  across the vast territory the Kuomintang held was extremely hard."
+- Why it fails: the source fronts the circumstance (`面对…`), and the English
+  carried the whole condition ahead of the main clause, so the actual point
+  (preservation was hard) does not arrive until the third clause. On top of
+  that, "merely to preserve… was hard" makes a fronted infinitive the subject,
+  which reads as inversion, the Yoda tell.
+- The fix: state the point first, then give the circumstance its own following
+  sentence. "Simply keeping the Party's organizations alive… was extremely
+  hard… All of this had to be done under a savage White Terror…" De-invert a
+  fronted-infinitive subject every time: use a plain subject-verb, a gerund
+  ("Lodging Chen Duxiu there was as good as…", "Setting up a dedicated
+  body… was something new"), or an "it was hard to…" frame.
+
+**2. Collapse doubled 并列 pairs, and never repeat a word to mirror the source's
+parallelism.**
+- Correction: "They sent detectives everywhere to watch and spy, sent soldiers
+  and police everywhere to hunt and arrest…" ("everywhere" twice; "watch and
+  spy" and "hunt and arrest" are doubled synonym pairs).
+- Why it fails: Chinese pairs near-synonyms (`侦察监视`, `缉捕`) and repeats an
+  adverb (`到处…到处`) for rhythm; traced into English it reads as padding and
+  as a stutter.
+- The fix: one strong verb where the source doubles; use the repeated adverb
+  once. "They spread detectives everywhere to keep watch, sent troops and
+  police to round up suspects…"
+
+**3. Break the stacked run-on at its beats.**
+- Correction: the single sentence carrying Chen Duxiu's election + the raid +
+  the arrest + the four-name roster; and the one carrying the founding of
+  *The Guide* + its ban + its move to Beijing + the Central Bureau's move.
+- Why it fails: the source strings distinct events with commas and `结果` /
+  `so that` connectors. One English sentence made to hold four beats sags and
+  goes unclear, and it stops sounding like a writer wrote it.
+- The fix: one beat per sentence. A colon-plus-roster stands as its own short
+  sentence; a `结果` / `因而` chain starts a new one. "In October 1921 Chen
+  Duxiu was elected secretary… Soon afterward, enemy agents raided his
+  lodgings… They took him away, and with him…"
+
+**4. Names: Sun Tzu and the *Art of War*; and recast the "X, in its chapter Y,
+says" intro.**
+- Correction: "The Sunzi, in the chapter 'Attack by Stratagem,' says:".
+- Why it fails: the established English forms are **Sun Tzu** and **the *Art of
+  War***, not pinyin; and the appositive-interrupt intro is stilted.
+- The fix: name the work, use the conventional spelling, and lead with the
+  location: "In the chapter 'Attack by Stratagem' in Sun Tzu's *Art of War*,
+  it says:". (Recorded in glossary.json: 孙子 = Sun Tzu, 孙子兵法 = Art of War.)
 
 ## The one-line summary
 Cut the scaffolding. Break the walls. Trust the short sentence. Hide the machine.

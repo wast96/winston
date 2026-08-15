@@ -280,6 +280,12 @@
       "en": "Yang Shihun",
       "pinyin": "Yang Shihun",
       "status": "provisional"
+    },
+    "孙子": {
+      "en": "Sun Tzu",
+      "pinyin": "Sunzi",
+      "status": "attested",
+      "note": "The ancient strategist; the conventional English spelling Sun Tzu is kept, not pinyin Sunzi."
     }
   },
   "organizations": {
@@ -380,6 +386,14 @@
       "pinyin": "lingshi caipanquan",
       "status": "attested",
       "note": "The treaty right by which foreign nationals in China answered to their own consular courts, not to Chinese law."
+    }
+  },
+  "works": {
+    "孙子兵法": {
+      "en": "Art of War",
+      "pinyin": "Sunzi bingfa",
+      "status": "attested",
+      "note": "Sun Tzu's classic, <i>The Art of War</i>. The book quotes two chapters: “Attack by Stratagem” (谋攻篇) and “On the Use of Spies” (用间篇)."
     }
   }
 }
