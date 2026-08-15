@@ -246,3 +246,95 @@ to end. 56 body paragraphs.
 - `check_structure.py --config` cannot run a whole-book parity pass on a fresh
   checkout because data/zh/ch01.txt is gitignored/absent; per-unit
   `--pairs data/zh/ch02.txt out/ch02_reading.md` was run instead (OK).
+
+## B03 = Chapter Three "谁是犹大 / Who Is Judas" (ch03)
+
+- **Scope:** PDF 60-81, printed 45-66. Seven sections ch03s01-s07. Offset held
+  at a constant 15 (folios 045-066 read off the scan at every opener; no drift).
+  The chapter turns from the moral contrast of ch02 to the hunt for a traitor:
+  the betrayal, arrest, and execution of Luo Yinong (罗亦农) in April 1928, and
+  the Special Branch reprisal on the informers He Zhihua (贺稚华) and her husband
+  He Jiaxing (何家兴).
+- **Source recovery.** OCR (chi_sim, psm 6, crop 0.06/0.95/0.11/0.955) was noisy
+  on the proper names as expected (夏禹奎 came out four different ways), so
+  `data/zh/ch03.txt` was hand-transcribed from the page images and cross-checked
+  against the dual-OCR read, exactly as for ch01-ch02. Parity is exact: **146
+  source paragraphs = 146 translation paragraphs** (7 `###` section headings).
+- **Translation:** `out/ch03_reading.md`, one paragraph per source line. Voice
+  carried over from the end of ch02 (read first). Real scene dialogue this
+  chapter (Luo/Li courtship, the He couple, quoted Deng Xiaoping); differentiated
+  per the voice sheets in HANDOFF. The set-off Peng Shuzhi memoir block is a
+  `{v}` vignette (one source paragraph, parity-locked).
+- **Checks, all green:**
+  - parity 146=146 (`check_structure --pairs`).
+  - numbers: `check_numbers --noise` 0 unresolved. Caught one real error mid-draft
+    (三千或五万 rendered "three or five thousand"; fixed to "three thousand or
+    fifty thousand") and the dropped inline citation years, now all restored in
+    the ch02 "(Author, YEAR)" style. Also carried 八人 "eight", 二楼 "second-floor",
+    两家 "two households", 上海 "Shanghai" where first drafted loose.
+  - align OK (median 4.46 en/han, no pair strays > 2.2x).
+  - content displacement OK (370 name occurrences, all in the paired paragraph).
+  - entities: `qc_entities` 0 misses (Li Zheshi named once in two grief
+    paragraphs where pronouns had carried her; He Jiaxing named in the 何家兴夫妇
+    paragraph).
+  - register vs the FROZEN ch01 reference: within tolerance. The dialogue
+    contraction rate is 6.0/1k against ch01's 0.3/1k (20x), but this is the
+    expected signal, not drift: ch01 is nearly dialogue-free and ch03 carries
+    real scene dialogue (the register-drift caveat for reportage). Narratorial
+    signals (em-dash 0.0/1k, rhythm CV 0.68 vs 0.67, sentence median 20) sit on
+    the reference. Metric noted as expected, not a flag.
+  - `check_apparatus` 0/0; qa_epub PASS (176 refs/bodies/backlinks); epubcheck
+    5.1.0 clean (0 fatals / 0 errors / 0 warnings).
+- **Footnotes: 33 new** (unit total 33). Coverage swept across the four domains:
+  people first-introduced (Luo Yinong, Zheng Chaolin, Zhu De, Zhu Min, Deng
+  Xiaoping, Kang Sheng, Zhang Zuolin, Qian Dajun, Yang Dengying/Bao Junfu, Hu
+  Jintao, Chen Yannian, Xia Minghan); institutions and places (KUTV, Longhua,
+  the Great World, Hardoon Garden, the Mixed Court, the Green and Red Gangs, the
+  White Terror, Bolshevik, Bubbling Well Road); material culture and allusion
+  (Rue Bourgeat / concession streets, comprador, chaibaidang, Xiang embroidery,
+  the Bai Juyi and Li Yu allusions, Lu Xun's Wandering); and the source-critical
+  notes (the redacted "奉蒋××令" reproduced as printed; the 夏明翰/夏明瀚 misprint;
+  the 贺稚华/贺治华 name variant against Zhu De's letter; the Monte Cristo maxim;
+  the unresolved manner of He Zhihua's death, left as the author leaves it).
+- **FACT-CHECK / interested-witness.** He Zhihua = the historical 贺治华, Zhu De's
+  wife and mother of Zhu Min: corroborated, and footnoted at the Zhu De note.
+  Luo Yinong's execution at Longhua (21 April 1928): corroborated. The identity
+  of the traitor is contested in the sources the author himself quotes (Zheng
+  Chaolin's letter version vs the informer-woman version vs the "who profits"
+  reading); the translation renders all faithfully and the notes flag the
+  disagreement rather than resolving it. Kang Sheng leading the killing squad:
+  uncorroborated, one version only, footnoted as such.
+- **Figures: 4** (basenames in `figures.json`, real alt text, translator's
+  captions with source-label provenance stated):
+  - `ch03-luo-yinong.png`, `ch03-li-zheshi.png` (paired portraits, pdf 63).
+  - `ch03-he-zhihua-europe.png` (group photo, He Zhihua front row right-2, pdf 72).
+  - `ch03-shanghai-map.png` (old street map locating 178 Rue Bourgeat, pdf 77).
+  - The faded chapter-opener montage on pdf 60 (no folio, no caption) is treated
+    as design furniture, NOT a captioned figure (as with ch01/ch02 openers).
+    `find_figures` not relied on; every page eyeballed.
+- **59 new glossary rows** (people, organizations, places, terms), added
+  DIRECTLY into the correct sections by a one-shot script (re-read verified),
+  not via apparatus_merge's flat top-level write. All `attested`/`decided`.
+  李维汉 already present (reused). Key: 李哲时 = Li Zheshi (= 李文宜 Li Wenyi),
+  贺稚华 = He Zhihua, 何家兴 = He Jiaxing, 朱德 = Zhu De, 郑超麟 = Zheng Chaolin,
+  杨登瀛/鲍君甫 = Yang Dengying/Bao Junfu (the ch04 double agent).
+
+### NOT re-noted (already placed in ch01/ch02) — cross-referenced, not re-noted
+- The August 7 (八七) Conference (noted ch02), the Nanchang Uprising (ch01), the
+  Green Gang (ch01; the Red Gang is folded into the new Green-and-Red note),
+  the tingzijian (ch01), Chiang Kai-shek / Wang Jingwei (ch01), Zhang Tailei
+  (ch01; his widow Wang Yizhi is glossed only), the Special Branch / Red Squad /
+  "beating the dogs" (ch01), Gu Shunzhang / Chen Geng / Zhou Enlai / Qu Qiubai /
+  Chen Duxiu (ch01-ch02).
+
+### Tooling notes (do not revert)
+- `data/noise.txt`: ch03 block appended (四川 Sichuan; 三教街 Sanjiao Street;
+  化整为零; 一百二十四; 推三阻四; 万籁; 万般; 第二天). Every entry commented;
+  longest-literal-first respected. These are place-names and idioms carrying a
+  numeral that is not a quantity; no real dropped number was ever noised.
+- `data/content_config.json` extended to include ch03 so the displacement check
+  covers it (ch01+ch02+ch03).
+- Glossary discipline: apparatus_merge STILL writes glossary rows at the JSON
+  top level; this batch bypassed that by adding rows straight into the sections
+  with a re-read-verified one-shot (deleted after use). Either path is fine;
+  just never leave a flat top-level row, which breaks render_glossary.

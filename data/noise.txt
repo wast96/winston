@@ -100,3 +100,22 @@
 #   it (stripping 五十多 and orphaning 万=10000). Longest-first, applied before
 #   the generic rule.
 五十多万
+
+# --- ch03 idioms / place-names with a numeral, not a count ---
+# 四川 Sichuan (province) — 四 is part of the place name, not the count 4
+四川
+# 三教街 Sanjiao Street (Hankou address) — 三 is part of the street name
+三教街
+# 化整为零 "break the whole into parts" — idiom; 零 is not the count 0
+化整为零
+# 一百二十四个放心 "a hundred and twenty-four reassurances" = utterly at ease;
+#   idiomatic hyperbole, not the count 124. Longest-first before any 一百 rule.
+一百二十四
+# 推三阻四 "make excuses / stall" — idiom; 三/四 are not counts
+推三阻四
+# 万籁俱寂 "utter stillness" (万籁 = all sounds) — 万 is not 10,000
+万籁
+# 万般无奈 "utterly helpless" (万般 = in every way) — 万 is not 10,000
+万般
+# 第二天 "the next day" — 二 is ordinal idiom, rendered "the next day/morning"
+第二天
