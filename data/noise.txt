@@ -97,3 +97,29 @@
 # 金钱万能 ('money is almighty') / 万里迢迢 ('thousands of li away') — idioms; no count
 金钱万能
 万里
+
+# 徐新六 — Zhejiang banker, Xu Enzeng's kinsman (contains 六)
+徐新六
+# 三明照相馆 (Sanming Photo Studio) — place name, the 三 is part of it
+三明
+# 三洋泾桥 (Sanyangjing Bridge) — place name, contains 三
+三洋泾桥
+# 派头十足 — idiom "put on great airs"; the 十足 carries no count
+派头十足
+# 40年代 (the 1940s) — decade label; English carries "1940s"
+40年代
+# 20万 (Zhongtong headcount) — Arabic+万 mix; English carries "200,000"
+20万
+# 千叶 (Chiba, Japan) — place name, contains 千
+千叶
+# 九一八 (September 18 / Mukden Incident) — date label; English carries "September 18"
+九一八
+# 70年代 (the 1970s) — decade label; English carries "1970s"
+70年代
+# 七七八八 — idiom "all sorts of odds and ends / sundry people"; carries no count
+七七八八
+# 四平 (Siping, Jilin) — place name, contains 四
+四平
+# 万岁 ('long live') — the 万 is idiom, not a count of 10000
+万岁
+

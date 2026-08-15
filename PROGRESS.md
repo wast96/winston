@@ -507,3 +507,108 @@ Japanese Imperialism."
 The pre-existing regression test "hook stands down on template stub" still FAILS
 (template maintenance only; does not affect real batches). epubcheck re-fetched
 to /tmp/epubcheck-5.1.0.
+
+## Batch 5 (B05): ch07 (深入龙潭虎穴 / Deep into the Tiger's Den) + ch08 (奉天讲武堂教官——赵唯刚 / Fengtian Military Academy Instructor — Zhao Weigang) — DONE
+
+- **ch07** = PDF 154-172, printed 110-128, 5 sections. **54 body paragraphs**,
+  6 headings, 14 notes, 0 figures.
+- **ch08** = PDF 173-197, printed 129-153, 6 sections. **54 body paragraphs**,
+  7 headings, 13 notes, 0 figures. Sections s02-s06 are Zhao Weigang's own 1983
+  memoir, reproduced verbatim (first-person); rendered plain and concrete per
+  the memoir voice sheet, introduced by a note at "Here I set down, in full,
+  this memoir." No {v} markers.
+- Branch consolidated onto `claude/zhou-enlai` (stray per-task branch
+  `claude/...b05...jybavp` was identical to origin, deleted local; the remote
+  ref never existed on origin, pruned).
+
+### Assembly — the heavy lift (do NOT re-discover)
+The OCR emits paragraph blank lines INCONSISTENTLY: most pages carry them, but
+several do not, so the blank-line assembler UNDER-split there (welded distinct
+source paragraphs). This is the opposite of B04's block-quote OVER-split, and the
+sentence-end heuristic does NOT catch it (both halves end in 。). Found only by
+eyeballing every content page. Recovery scripts (tracked): `b05_strip_furniture.py`,
+`b05_surgery.py`, `b05_pagemap.py`.
+- **b05_surgery.py ORDER matters:** WELDS run FIRST (reunite page-seam breaks),
+  then SPLITS (break the OCR-welded paragraphs), then fixups. A split target can
+  span a weld (ch07 s02 P1-P4), so splits-before-welds fails. NOT idempotent:
+  re-assemble ch07 AND ch08 before re-running.
+- ch07 under-splits fixed: s02 [14]->4 paras, [16]->4 (Song Jiren memoir region:
+  intro+quote1 | intro2 | set-off block quote | HQ paragraph), [18]->2
+  (descriptions | Zou Taofen); s04 block-quote blob [43]->12 (the Li Kenong
+  biographer's Liu Bocheng-escort account, indent-only, no OCR blanks p169-170).
+- ch08 under-splits fixed: s03 [29]->3, s05 [40]->4 — BOTH on section-opener
+  pages (p187, p192), where the OCR emitted a blank after the heading but none
+  between the body paragraphs. Every other memoir page assembled clean.
+- Scan-verified clipped-line restorations: ch07 p171 the last line of the Li
+  Kenong quote ("...就在中央饭店楼上一住……"), dropped by OCR before the s05 heading.
+
+### Crop-verification (names/numbers/dates, eyeballed on the scan)
+- ch07 systematic name mangles fixed via ocr_fixes: 徐恩曾 (8 曾-garbles + 4
+  兽-garbles), 陈赓 (庆/刻/广/席/钴), 蒋介石 (薪/萝/葛/欧 + 葛家王朝), 杨登瀛,
+  顾顺章, plus 邹韬奋 (韬 read as 三/友/播/辐/耕), 章乃器 (乃->万), Zou-quote
+  book-title bracket (《->4). Real translation catch from check_numbers: 二届
+  **四**中全会 = Fourth Plenum (I had written "Second"). 20万 noised (Arabic+万).
+- ch08: 蔡麻子 (葵/殖/茸/歼/化/花), 蔡伯祥 (袭->蔡), 吴宝祥 (关->吴), 杨宇霆
+  (宇霆->字才/字), 臧士毅 (成/藏/医士圾), 翁之麟 (彬/忌), 大阪 (孤/了啤),
+  千叶 (干->千), 老廖=廖如愿 (记/雇/庆/康), 老蔡 memoir shorthand (葵/葡/莫/蒙/
+  节/华/花/蓝/伍/秦 all -> 蔡). Dropped-digit ages: 92岁 (9岁), 94岁 (4岁);
+  1951年 (195S1年); 古色古香 (古->十).
+
+### Checks — all green (both units)
+verify_unit (parity 54/54 each, numbers 0 unresolved, anchors 14+13 ok);
+check_align OK; qc_entities 0 misses; check_content "all in the paired paragraph";
+check_register within tolerance vs ch01 (ch08 contractions elevated — colloquial
+memoir, expected; em-dash 6.5/6.1 per 1k). check_apparatus 0/0. qa_epub PASS
+(28 docs, 450 paras, 143 notes ref/body/backlink, 136 pagebreaks). epubcheck
+5.1.0: 0 fatals / 0 errors / 0 warnings.
+
+### Notes: coverage and fact-check verdicts (14 ch07 + 13 ch08)
+- ch07: Gu's manual《特务工作之理论与实际》; C.P.=Communist Party (author's ①);
+  蒋家天下陈家党 idiom; the Zhongtong's org history (x-ref ch04/ch06); Xu Enzeng
+  b.1898 in the book vs **1896** in the record (CONTRADICTED, footnoted; d.1985);
+  Zhang Wen citation (author's ①); Zou Taofen + Life Bookstore + Seven Gentlemen
+  (章乃器/李公朴 named); Ren Zhuoxuan/Ye Qing (renegade theorist); Dai Li/Juntong;
+  Song Jiren citation (author's ①); Liu Bocheng (later marshal); Central Plains
+  War 1930; Zhang Xueliang the Young Marshal; Xu's memoir《The Invisible
+  Conflict》1957 (author's ①). All corroborated except the Xu birth year.
+- ch08: Gu's chart codenames (满洲麻子=Cai); Zhao Weigang aliases + Liu Shaoqi
+  rescue (corroborated); May Thirtieth 1925; the 1924 Soviet treaty renunciation
+  (Karakhan); Guo Songling revolt 1925; Chinese Eastern Railway war 1929; the
+  九一八/Mukden Incident; **Cai Boxiang wrongly killed as a traitor and cleared**
+  (as related on Chen Geng's authority; specific circumstances UNCORROBORATED
+  independently); Northeast Flag Replacement 1928; Puyi's Manchukuo enthronement
+  amnesty; Liu Bogang bio (author's ①); the five killed at Boketu (author's ①);
+  the memoir-reproduction note. X-refs (NOT re-noted): New Youth/The Guide
+  (ch01), August 7 Conference (ch02), Li Lisan line (ch02), Zhang Xueliang (ch07).
+
+### NOT re-noted (already placed earlier in the book)
+龙潭三杰/Three Heroes of Longtan (ch05), Li Kenong/Qian Zhuangfei/Hu Di bios
+(ch05), Gu Shunzhang (ch00), Chen Lifu/Chen Guofu/CC Clique (ch04, ch06), Xu
+Enzeng basic bio (ch05), April 12 / White Terror (early), New Youth & The Guide
+(ch01), August 7 Conference & Li Lisan line (ch02).
+
+### Glossary: rows added DIRECTLY nested (people/orgs/places/works)
+New principals flagged: 赵唯刚 Zhao Weigang (cast_order 6), 蔡伯祥 Cai Boxiang
+(cast_order 7). 中统 decided = "Zhongtong", 军统 = "Juntong", 党务调查科 =
+"Investigation Section" (formal expansions live in the notes, not the prose, so
+check_content stays clean). REUSED unchanged: 徐恩曾, 陈立夫, 陈果夫, 张道藩,
+钱壮飞, 李克农, 胡底, 杨登瀛, 陈赓, 周恩来, 顾顺章, 蒋介石, 李立三, 刘伯承,
+张学良, 冯玉祥, 阎锡山.
+
+### noise.txt additions (this batch)
+徐新六, 三明, 三洋泾桥, 派头十足, 40年代, 20万 (ch07); 千叶, 九一八, 70年代,
+七七八八, 四平, 万岁 (ch08). Extend, do not prune.
+
+### Figures: 0 for both chapters (deliberate)
+find_figures 154-197 found nothing; every content page eyeballed and every
+chapter opener/memoir page confirmed text-only. No plates or portraits in the
+ch07/ch08 folio ranges.
+
+### Reading uncertainties for the read-through
+- ch08 minor memoir figures resolved from the scan but obscure: 老廖 = 廖如愿
+  (Manchuria prov. cmte secretary-general); the Shanghai contact's surname reads
+  廖 at p180 but 庆 at p179 (OCR); rendered "Old Liao" throughout.
+- The book's ch08 focuses on the rescue of 刘伯刚 (Liu Bogang, Zhao's classmate);
+  scholarship on Zhao Weigang foregrounds instead his 1929 role shielding Liu
+  Shaoqi — a different episode, noted at the aliases anchor.
+- Source internal discrepancy kept: Xu Enzeng b.1898 (book) vs 1896 (record).

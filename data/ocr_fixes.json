@@ -1464,5 +1464,537 @@
    "page": 108,
    "note": "stray footnote marker"
   }
+ ],
+ "ch07": [
+  {
+   "wrong": "徐恩兽",
+   "right": "徐恩曾",
+   "page": 156,
+   "note": "Xu Enzeng; OCR 曾->兽"
+  },
+  {
+   "wrong": "徐轧兽",
+   "right": "徐恩曾",
+   "page": 158,
+   "note": "Xu Enzeng; OCR 恩曾->轧兽"
+  },
+  {
+   "wrong": "徐乱曾",
+   "right": "徐恩曾",
+   "page": 156,
+   "note": "Xu Enzeng; OCR 恩->乱"
+  },
+  {
+   "wrong": "徐思曾",
+   "right": "徐恩曾",
+   "page": 159,
+   "note": "Xu Enzeng; OCR 恩->思"
+  },
+  {
+   "wrong": "徐忠曾",
+   "right": "徐恩曾",
+   "page": 158,
+   "note": "Xu Enzeng; OCR 恩->忠"
+  },
+  {
+   "wrong": "徐妃曾",
+   "right": "徐恩曾",
+   "page": 159,
+   "note": "Xu Enzeng; OCR 恩->妃"
+  },
+  {
+   "wrong": "徐轴曾",
+   "right": "徐恩曾",
+   "page": 164,
+   "note": "Xu Enzeng; OCR 恩->轴"
+  },
+  {
+   "wrong": "徐因曾",
+   "right": "徐恩曾",
+   "page": 167,
+   "note": "Xu Enzeng; OCR 恩->因"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "page": 159,
+   "note": "Chen Geng; OCR 赓->庆"
+  },
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "page": 160,
+   "note": "Chen Geng; OCR 赓->刻"
+  },
+  {
+   "wrong": "陈广",
+   "right": "陈赓",
+   "page": 167,
+   "note": "Chen Geng; OCR 赓->广"
+  },
+  {
+   "wrong": "陈席",
+   "right": "陈赓",
+   "page": 160,
+   "note": "Chen Geng; OCR 赓->席"
+  },
+  {
+   "wrong": "陈钴",
+   "right": "陈赓",
+   "page": 169,
+   "note": "Chen Geng; OCR 赓->钴"
+  },
+  {
+   "wrong": "薪介石",
+   "right": "蒋介石",
+   "page": 156,
+   "note": "Chiang Kai-shek; OCR 蒋->薪"
+  },
+  {
+   "wrong": "萝介石",
+   "right": "蒋介石",
+   "page": 167,
+   "note": "Chiang Kai-shek; OCR 蒋->萝"
+  },
+  {
+   "wrong": "葛介石",
+   "right": "蒋介石",
+   "page": 167,
+   "note": "Chiang Kai-shek; OCR 蒋->葛"
+  },
+  {
+   "wrong": "欧介石",
+   "right": "蒋介石",
+   "page": 169,
+   "note": "Chiang Kai-shek; OCR 蒋->欧"
+  },
+  {
+   "wrong": "葛家王朝",
+   "right": "蒋家王朝",
+   "page": 157,
+   "note": "Chiang dynasty; OCR 蒋->葛"
+  },
+  {
+   "wrong": "杨登泳",
+   "right": "杨登瀛",
+   "page": 159,
+   "note": "Yang Dengying; OCR 瀛->泳"
+  },
+  {
+   "wrong": "跨顺章",
+   "right": "顾顺章",
+   "page": 154,
+   "note": "Gu Shunzhang; OCR 顾->跨"
+  },
+  {
+   "wrong": "而当时蝗色和慌怖严重",
+   "right": "而当时白色恐怖严重",
+   "page": 170,
+   "note": "White Terror; OCR 白色恐怖->蝗色和慌怖"
+  },
+  {
+   "wrong": "开始于C.P.2并且十分利(万)害",
+   "right": "开始于C.P.并且十分厉害",
+   "page": 154,
+   "note": "Gu quote; OCR note-ref 2 + 利(万)害->厉害"
+  },
+  {
+   "wrong": "进11tS行侦察",
+   "right": "进行侦察",
+   "page": 159,
+   "note": "OCR page-foot junk 11tS between 进/行"
+  },
+  {
+   "wrong": "他点十李克农在芜湖",
+   "right": "他原是李克农在芜湖",
+   "page": 160,
+   "note": "原是; OCR 原是->点十"
+  },
+  {
+   "wrong": "当时于海三明照相馆",
+   "right": "当时上海三明照相馆",
+   "page": 160,
+   "note": "Shanghai; OCR 上海->于海"
+  },
+  {
+   "wrong": "这位李役长派头",
+   "right": "这位李股长派头",
+   "page": 160,
+   "note": "股长; OCR 股->役"
+  },
+  {
+   "wrong": "邹三奋",
+   "right": "邹韬奋",
+   "page": 163,
+   "note": "Zou Taofen; OCR 韬->三"
+  },
+  {
+   "wrong": "邹友奋",
+   "right": "邹韬奋",
+   "page": 163,
+   "note": "Zou Taofen; OCR 韬->友"
+  },
+  {
+   "wrong": "邹播奋",
+   "right": "邹韬奋",
+   "page": 164,
+   "note": "Zou Taofen; OCR 韬->播"
+  },
+  {
+   "wrong": "邹辐奋",
+   "right": "邹韬奋",
+   "page": 164,
+   "note": "Zou Taofen; OCR 韬->辐"
+  },
+  {
+   "wrong": "邹耕奋",
+   "right": "邹韬奋",
+   "page": 163,
+   "note": "Zou Taofen; OCR 韬->耕"
+  },
+  {
+   "wrong": "在他所著4抗战以来",
+   "right": "在他所著《抗战以来》",
+   "page": 163,
+   "note": "book title bracket; OCR 《->4"
+  },
+  {
+   "wrong": "章万器",
+   "right": "章乃器",
+   "page": 163,
+   "note": "Zhang Naiqi; OCR 乃->万"
+  },
+  {
+   "wrong": "1899年出生的陈立大",
+   "right": "1899年出生的陈立夫",
+   "page": 156,
+   "note": "Chen Lifu; OCR 夫->大"
+  },
+  {
+   "wrong": "冒十来到外滩",
+   "right": "冒雨来到外滩",
+   "page": 170,
+   "note": "冒雨; OCR 雨->十"
+  },
+  {
+   "wrong": "刘伯承离六的情报",
+   "right": "刘伯承离沪的情报",
+   "page": 171,
+   "note": "离沪; OCR 沪->六"
+  },
+  {
+   "wrong": "在火车的头等车厅里",
+   "right": "在火车的头等车厢里",
+   "page": 171,
+   "note": "车厢; OCR 厢->厅"
+  },
+  {
+   "wrong": "终于顺利托宁",
+   "right": "终于顺利抵宁",
+   "page": 171,
+   "note": "抵宁 (reached Nanjing); OCR 抵->托"
+  },
+  {
+   "wrong": "9 4个月后",
+   "right": "4个月后",
+   "page": 172,
+   "note": "drop note-ref 9 before 4个月后 (Xu memoir citation)"
+  },
+  {
+   "wrong": "手下“最能二的”",
+   "right": "手下“最能干的”",
+   "page": 172,
+   "note": "最能干; OCR 干->二"
+  },
+  {
+   "wrong": "一个共产党的间谋",
+   "right": "一个共产党的间谍",
+   "page": 172,
+   "note": "间谍; OCR 谍->谋"
+  }
+ ],
+ "ch08": [
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "page": 175,
+   "note": "Chen Geng; OCR 赓->刻"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "page": 176,
+   "note": "Chen Geng; OCR 赓->庆"
+  },
+  {
+   "wrong": "陈广",
+   "right": "陈赓",
+   "page": 176,
+   "note": "Chen Geng; OCR 赓->广"
+  },
+  {
+   "wrong": "陈钴",
+   "right": "陈赓",
+   "page": 176,
+   "note": "Chen Geng; OCR 赓->钴"
+  },
+  {
+   "wrong": "薪介石",
+   "right": "蒋介石",
+   "page": 185,
+   "note": "Chiang Kai-shek; OCR 蒋->薪"
+  },
+  {
+   "wrong": "葵麻子",
+   "right": "蔡麻子",
+   "page": 180,
+   "note": "Cai Boxiang (pockmarked); OCR 蔡->葵"
+  },
+  {
+   "wrong": "殖麻子",
+   "right": "蔡麻子",
+   "page": 176,
+   "note": "Cai the pockmarked; OCR 蔡->殖"
+  },
+  {
+   "wrong": "茸麻子",
+   "right": "蔡麻子",
+   "page": 179,
+   "note": "Cai the pockmarked; OCR 蔡->茸"
+  },
+  {
+   "wrong": "歼麻子",
+   "right": "蔡麻子",
+   "page": 180,
+   "note": "Cai the pockmarked; OCR 蔡->歼"
+  },
+  {
+   "wrong": "化麻子",
+   "right": "蔡麻子",
+   "page": 193,
+   "note": "Cai the pockmarked; OCR 蔡->化"
+  },
+  {
+   "wrong": "花麻子",
+   "right": "蔡麻子",
+   "page": 194,
+   "note": "Cai the pockmarked; OCR 蔡->花"
+  },
+  {
+   "wrong": "袭伯祥",
+   "right": "蔡伯祥",
+   "page": 180,
+   "note": "Cai Boxiang; OCR 蔡->袭"
+  },
+  {
+   "wrong": "关宝祥",
+   "right": "吴宝祥",
+   "page": 184,
+   "note": "Wu Baoxiang; OCR 吴->关 (cf. p196 吴宝祥)"
+  },
+  {
+   "wrong": "杨字霆",
+   "right": "杨宇霆",
+   "page": 181,
+   "note": "Yang Yuting; OCR 宇->字"
+  },
+  {
+   "wrong": "姓记(即雇如愿",
+   "right": "姓廖(即廖如愿",
+   "page": 179,
+   "note": "Liao Ruyuan, Manchuria prov. committee secretary; OCR 廖->记, 廖->雇"
+  },
+  {
+   "wrong": "老康",
+   "right": "老廖",
+   "page": 179,
+   "note": "Old Liao (Liao Ruyuan), the Shanghai contact; OCR 廖->康"
+  },
+  {
+   "wrong": "老庆",
+   "right": "老廖",
+   "page": 180,
+   "note": "Old Liao; OCR 廖->庆"
+  },
+  {
+   "wrong": "老葵",
+   "right": "老蔡",
+   "page": 182,
+   "note": "Old Cai (Cai Boxiang); OCR 蔡->葵"
+  },
+  {
+   "wrong": "老葡",
+   "right": "老蔡",
+   "page": 180,
+   "note": "Old Cai; OCR 蔡->葡"
+  },
+  {
+   "wrong": "老莫",
+   "right": "老蔡",
+   "page": 183,
+   "note": "Old Cai; OCR 蔡->莫"
+  },
+  {
+   "wrong": "老蒙",
+   "right": "老蔡",
+   "page": 196,
+   "note": "Old Cai; OCR 蔡->蒙"
+  },
+  {
+   "wrong": "老节",
+   "right": "老蔡",
+   "page": 196,
+   "note": "Old Cai; OCR 蔡->节"
+  },
+  {
+   "wrong": "老华",
+   "right": "老蔡",
+   "page": 190,
+   "note": "Old Cai; OCR 蔡->华"
+  },
+  {
+   "wrong": "老花",
+   "right": "老蔡",
+   "page": 190,
+   "note": "Old Cai; OCR 蔡->花"
+  },
+  {
+   "wrong": "老蓝",
+   "right": "老蔡",
+   "page": 182,
+   "note": "Old Cai; OCR 蔡->蓝"
+  },
+  {
+   "wrong": "老伍",
+   "right": "老蔡",
+   "page": 182,
+   "note": "Old Cai (when Cai first came to work); OCR 蔡->伍"
+  },
+  {
+   "wrong": "中共日本大孤支部",
+   "right": "中共日本大阪支部",
+   "page": 178,
+   "note": "Osaka; OCR 阪->孤"
+  },
+  {
+   "wrong": "大孤给我回信",
+   "right": "大阪给我回信",
+   "page": 178,
+   "note": "Osaka"
+  },
+  {
+   "wrong": "我又给大孤支部书记",
+   "right": "我又给大阪支部书记",
+   "page": 178,
+   "note": "Osaka"
+  },
+  {
+   "wrong": "我从大阪直达上海",
+   "right": "我从大阪直达上海",
+   "page": 178,
+   "note": "(clean, anchor)"
+  },
+  {
+   "wrong": "想去大孤或直接去上海",
+   "right": "想去大阪或直接去上海",
+   "page": 178,
+   "note": "Osaka"
+  },
+  {
+   "wrong": "在中共日本大了啤支部",
+   "right": "在中共日本大阪支部",
+   "page": 175,
+   "note": "Osaka; OCR 阪->了啤"
+  },
+  {
+   "wrong": "给大孤支蔬去了一封信",
+   "right": "给大阪支部去了一封信",
+   "page": 180,
+   "note": "Osaka + 支部; OCR 部->蔬"
+  },
+  {
+   "wrong": "赴日本干叶士官学校",
+   "right": "赴日本千叶士官学校",
+   "page": 173,
+   "note": "Chiba; OCR 千->干"
+  },
+  {
+   "wrong": "前往日本千叶县入日本",
+   "right": "前往日本千叶县入日本",
+   "page": 174,
+   "note": "(clean)"
+  },
+  {
+   "wrong": "有一位9岁的老战友",
+   "right": "有一位92岁的老战友",
+   "page": 176,
+   "note": "92 years old; OCR dropped a digit"
+  },
+  {
+   "wrong": "终年4岁",
+   "right": "终年94岁",
+   "page": 177,
+   "note": "aged 94; OCR dropped a digit"
+  },
+  {
+   "wrong": "看我和杨字才有关系",
+   "right": "看我和杨宇霆有关系",
+   "page": 181,
+   "note": "Yang Yuting; OCR 宇霆->字才"
+  },
+  {
+   "wrong": "兵工厂总办成士毅",
+   "right": "兵工厂总办臧士毅",
+   "page": 181,
+   "note": "Zang Shiyi; OCR 臧->成"
+  },
+  {
+   "wrong": "省长兼总办藏士圾",
+   "right": "省长兼总办臧士毅",
+   "page": 184,
+   "note": "Zang Shiyi; OCR 臧士毅->藏士圾"
+  },
+  {
+   "wrong": "辽宁省省长医士圾",
+   "right": "辽宁省省长臧士毅",
+   "page": 195,
+   "note": "Zang Shiyi (Liaoning governor); OCR 臧士毅->医士圾"
+  },
+  {
+   "wrong": "会办翁之彬",
+   "right": "会办翁之麟",
+   "page": 181,
+   "note": "Weng Zhilin; OCR 麟->彬"
+  },
+  {
+   "wrong": "尤其对翁之忌",
+   "right": "尤其对翁之麟",
+   "page": 184,
+   "note": "Weng Zhilin; OCR 麟->忌"
+  },
+  {
+   "wrong": "老秦是1931年上半年",
+   "right": "老蔡是1931年上半年",
+   "page": 197,
+   "note": "Old Cai; OCR 蔡->秦"
+  },
+  {
+   "wrong": "蔡厅子,引见",
+   "right": "蔡麻子引见",
+   "page": 176,
+   "note": "Cai the pockmarked; OCR 麻->厅, stray 子,"
+  },
+  {
+   "wrong": "195S1年在中央军委",
+   "right": "1951年在中央军委",
+   "page": 175,
+   "note": "1951; OCR 1951->195S1"
+  },
+  {
+   "wrong": "古色十香的",
+   "right": "古色古香的",
+   "page": 180,
+   "note": "古色古香; OCR 古->十"
+  }
  ]
 }

@@ -1117,6 +1117,281 @@
    "en": "Qian Shuangying",
    "pinyin": "Qian Shuangying",
    "status": "attested"
+  },
+  "李宗仁": {
+   "en": "Li Zongren",
+   "pinyin": "Li Zongren",
+   "status": "attested"
+  },
+  "李烈钧": {
+   "en": "Li Liejun",
+   "pinyin": "Li Liejun",
+   "status": "attested"
+  },
+  "徐新六": {
+   "en": "Xu Xinliu",
+   "pinyin": "Xu Xinliu",
+   "status": "attested"
+  },
+  "徐恩源": {
+   "en": "Xu Enyuan",
+   "pinyin": "Xu Enyuan",
+   "status": "attested"
+  },
+  "曾养甫": {
+   "en": "Zeng Yangfu",
+   "pinyin": "Zeng Yangfu",
+   "status": "attested"
+  },
+  "张静江": {
+   "en": "Zhang Jingjiang",
+   "pinyin": "Zhang Jingjiang",
+   "status": "attested"
+  },
+  "叶楚伧": {
+   "en": "Ye Chucang",
+   "pinyin": "Ye Chucang",
+   "status": "attested"
+  },
+  "吴大钧": {
+   "en": "Wu Dajun",
+   "pinyin": "Wu Dajun",
+   "status": "attested"
+  },
+  "张文": {
+   "en": "Zhang Wen",
+   "pinyin": "Zhang Wen",
+   "status": "attested",
+   "note": "aka Zhang Guodong, 中统 memoirist"
+  },
+  "费侠": {
+   "en": "Fei Xia",
+   "pinyin": "Fei Xia",
+   "status": "attested"
+  },
+  "王素卿": {
+   "en": "Wang Suqing",
+   "pinyin": "Wang Suqing",
+   "status": "attested"
+  },
+  "任卓宣": {
+   "en": "Ren Zhuoxuan",
+   "pinyin": "Ren Zhuoxuan",
+   "status": "attested",
+   "note": "pen name Ye Qing 叶青"
+  },
+  "叶青": {
+   "en": "Ye Qing",
+   "pinyin": "Ye Qing",
+   "status": "attested"
+  },
+  "刘杞夫": {
+   "en": "Liu Qifu",
+   "pinyin": "Liu Qifu",
+   "status": "attested"
+  },
+  "邹韬奋": {
+   "en": "Zou Taofen",
+   "pinyin": "Zou Taofen",
+   "status": "attested"
+  },
+  "章乃器": {
+   "en": "Zhang Naiqi",
+   "pinyin": "Zhang Naiqi",
+   "status": "attested"
+  },
+  "李公朴": {
+   "en": "Li Gongpu",
+   "pinyin": "Li Gongpu",
+   "status": "attested"
+  },
+  "戴笠": {
+   "en": "Dai Li",
+   "pinyin": "Dai Li",
+   "status": "attested"
+  },
+  "梁启超": {
+   "en": "Liang Qichao",
+   "pinyin": "Liang Qichao",
+   "status": "attested"
+  },
+  "赵敏麟": {
+   "en": "Zhao Minlin",
+   "pinyin": "Zhao Minlin",
+   "status": "attested"
+  },
+  "赵唯刚": {
+   "en": "Zhao Weigang",
+   "pinyin": "Zhao Weigang",
+   "status": "attested",
+   "principal": true,
+   "cast": "Instructor at the Fengtian (Shenyang) Military Academy and secretary-general of the Party's Manchuria Special Committee; a long-serving intelligence agent inside the Northeastern military establishment. Original name Zhao Shiyu.",
+   "cast_order": 6
+  },
+  "蔡伯祥": {
+   "en": "Cai Boxiang",
+   "pinyin": "Cai Boxiang",
+   "status": "attested",
+   "principal": true,
+   "cast": "Chairman of the Manchuria Special Committee, known as the pockmarked \"Manchuria Pockmark\"; worked in Shenyang under cover of a hospital. Later wrongly killed as a suspected traitor and posthumously cleared.",
+   "cast_order": 7
+  },
+  "刘伯刚": {
+   "en": "Liu Bogang",
+   "pinyin": "Liu Bogang",
+   "status": "attested"
+  },
+  "李人一": {
+   "en": "Li Renyi",
+   "pinyin": "Li Renyi",
+   "status": "attested",
+   "note": "Li Guochen"
+  },
+  "李国琛": {
+   "en": "Li Guochen",
+   "pinyin": "Li Guochen",
+   "status": "attested"
+  },
+  "杨宇霆": {
+   "en": "Yang Yuting",
+   "pinyin": "Yang Yuting",
+   "status": "attested"
+  },
+  "郭松龄": {
+   "en": "Guo Songling",
+   "pinyin": "Guo Songling",
+   "status": "attested"
+  },
+  "张作霖": {
+   "en": "Zhang Zuolin",
+   "pinyin": "Zhang Zuolin",
+   "status": "attested"
+  },
+  "廖如愿": {
+   "en": "Liao Ruyuan",
+   "pinyin": "Liao Ruyuan",
+   "status": "attested"
+  },
+  "朱式勤": {
+   "en": "Zhu Shiqin",
+   "pinyin": "Zhu Shiqin",
+   "status": "attested"
+  },
+  "汲金纯": {
+   "en": "Ji Jinchun",
+   "pinyin": "Ji Jinchun",
+   "status": "attested"
+  },
+  "汲绍刚": {
+   "en": "Ji Shaogang",
+   "pinyin": "Ji Shaogang",
+   "status": "attested"
+  },
+  "董庆余": {
+   "en": "Dong Qingyu",
+   "pinyin": "Dong Qingyu",
+   "status": "attested"
+  },
+  "李宜春": {
+   "en": "Li Yichun",
+   "pinyin": "Li Yichun",
+   "status": "attested"
+  },
+  "臧士毅": {
+   "en": "Zang Shiyi",
+   "pinyin": "Zang Shiyi",
+   "status": "attested"
+  },
+  "翁之麟": {
+   "en": "Weng Zhilin",
+   "pinyin": "Weng Zhilin",
+   "status": "attested"
+  },
+  "杨炳森": {
+   "en": "Yang Bingsen",
+   "pinyin": "Yang Bingsen",
+   "status": "attested",
+   "note": "Yang Fengzhang"
+  },
+  "杨凤璋": {
+   "en": "Yang Fengzhang",
+   "pinyin": "Yang Fengzhang",
+   "status": "attested"
+  },
+  "贾陶": {
+   "en": "Jia Tao",
+   "pinyin": "Jia Tao",
+   "status": "attested"
+  },
+  "鲍文越": {
+   "en": "Bao Wenyue",
+   "pinyin": "Bao Wenyue",
+   "status": "attested"
+  },
+  "戴师韩": {
+   "en": "Dai Shihan",
+   "pinyin": "Dai Shihan",
+   "status": "attested"
+  },
+  "王静修": {
+   "en": "Wang Jingxiu",
+   "pinyin": "Wang Jingxiu",
+   "status": "attested"
+  },
+  "佟英绚": {
+   "en": "Tong Yingxuan",
+   "pinyin": "Tong Yingxuan",
+   "status": "attested"
+  },
+  "周德与": {
+   "en": "Zhou Deyu",
+   "pinyin": "Zhou Deyu",
+   "status": "attested"
+  },
+  "冯希廉": {
+   "en": "Feng Xilian",
+   "pinyin": "Feng Xilian",
+   "status": "attested"
+  },
+  "卢透云": {
+   "en": "Lu Touyun",
+   "pinyin": "Lu Touyun",
+   "status": "attested"
+  },
+  "韩元波": {
+   "en": "Han Yuanbo",
+   "pinyin": "Han Yuanbo",
+   "status": "attested"
+  },
+  "吴宝祥": {
+   "en": "Wu Baoxiang",
+   "pinyin": "Wu Baoxiang",
+   "status": "attested"
+  },
+  "张新亚": {
+   "en": "Zhang Xinya",
+   "pinyin": "Zhang Xinya",
+   "status": "attested"
+  },
+  "张家真": {
+   "en": "Zhang Jiazhen",
+   "pinyin": "Zhang Jiazhen",
+   "status": "attested"
+  },
+  "张海堂": {
+   "en": "Zhang Haitang",
+   "pinyin": "Zhang Haitang",
+   "status": "attested"
+  },
+  "邵扶民": {
+   "en": "Shao Fumin",
+   "pinyin": "Shao Fumin",
+   "status": "attested"
+  },
+  "溥仪": {
+   "en": "Puyi",
+   "pinyin": "Puyi",
+   "status": "attested"
   }
  },
  "organizations": {
@@ -1245,6 +1520,83 @@
   "太阳社": {
    "en": "Sun Society",
    "pinyin": "Taiyang She",
+   "status": "attested"
+  },
+  "中统": {
+   "en": "Zhongtong",
+   "pinyin": "Central Bureau of Investigation and Statistics",
+   "status": "attested",
+   "note": "Zhongtong"
+  },
+  "军统": {
+   "en": "Juntong",
+   "pinyin": "Bureau of Investigation and Statistics (military)",
+   "status": "attested",
+   "note": "Juntong"
+  },
+  "党务调查科": {
+   "en": "Investigation Section",
+   "pinyin": "Party Affairs Investigation Section",
+   "status": "attested"
+  },
+  "生活书店": {
+   "en": "Life Bookstore",
+   "pinyin": "Life Bookstore",
+   "status": "attested"
+  },
+  "正中书局": {
+   "en": "Zhengzhong Book Company",
+   "pinyin": "Zhengzhong Book Company",
+   "status": "attested"
+  },
+  "长城通讯社": {
+   "en": "Great Wall News Agency",
+   "pinyin": "Great Wall News Agency",
+   "status": "attested"
+  },
+  "民智通讯社": {
+   "en": "Minzhi News Agency",
+   "pinyin": "Minzhi News Agency",
+   "status": "attested"
+  },
+  "长江通讯社": {
+   "en": "Yangtze News Agency",
+   "pinyin": "Yangtze News Agency",
+   "status": "attested"
+  },
+  "奉天讲武堂": {
+   "en": "Fengtian Military Academy",
+   "pinyin": "Fengtian Military Academy",
+   "status": "attested"
+  },
+  "高等军学研究班": {
+   "en": "Advanced Military Studies Class",
+   "pinyin": "Advanced Military Studies Class",
+   "status": "attested"
+  },
+  "满洲特委": {
+   "en": "Manchuria Special Committee",
+   "pinyin": "Manchuria Special Committee",
+   "status": "attested"
+  },
+  "满洲省委": {
+   "en": "Manchuria Provincial Committee",
+   "pinyin": "Manchuria Provincial Committee",
+   "status": "attested"
+  },
+  "首善医院": {
+   "en": "Shoushan Hospital",
+   "pinyin": "Shoushan Hospital",
+   "status": "attested"
+  },
+  "广济医院": {
+   "en": "Guangji Hospital",
+   "pinyin": "Guangji Hospital",
+   "status": "attested"
+  },
+  "中东铁路": {
+   "en": "Chinese Eastern Railway",
+   "pinyin": "Chinese Eastern Railway",
    "status": "attested"
   }
  },
@@ -1455,6 +1807,61 @@
    "en": "Tongcheng",
    "pinyin": "Tongcheng",
    "status": "attested"
+  },
+  "沈阳": {
+   "en": "Shenyang",
+   "pinyin": "Shenyang",
+   "status": "attested"
+  },
+  "大阪": {
+   "en": "Osaka",
+   "pinyin": "Osaka",
+   "status": "attested"
+  },
+  "千叶": {
+   "en": "Chiba",
+   "pinyin": "Chiba",
+   "status": "attested"
+  },
+  "齐齐哈尔": {
+   "en": "Qiqihar",
+   "pinyin": "Qiqihar",
+   "status": "attested"
+  },
+  "海拉尔": {
+   "en": "Hailar",
+   "pinyin": "Hailar",
+   "status": "attested"
+  },
+  "四平": {
+   "en": "Siping",
+   "pinyin": "Siping",
+   "status": "attested"
+  },
+  "抚顺": {
+   "en": "Fushun",
+   "pinyin": "Fushun",
+   "status": "attested"
+  },
+  "博克图": {
+   "en": "Boketu",
+   "pinyin": "Boketu",
+   "status": "attested"
+  },
+  "新疆": {
+   "en": "Xinjiang",
+   "pinyin": "Xinjiang",
+   "status": "attested"
+  },
+  "哈尔滨": {
+   "en": "Harbin",
+   "pinyin": "Harbin",
+   "status": "attested"
+  },
+  "青岛": {
+   "en": "Qingdao",
+   "pinyin": "Qingdao",
+   "status": "attested"
   }
  },
  "terms": {
@@ -1549,6 +1956,31 @@
   "上海——冒险家的乐园": {
    "en": "Shanghai: The Paradise of Adventurers",
    "pinyin": "Shanghai: maoxianjia de leyuan",
+   "status": "attested"
+  },
+  "特务工作之理论与实际": {
+   "en": "The Theory and Practice of Secret Service Work",
+   "pinyin": "The Theory and Practice of Secret Service Work",
+   "status": "attested"
+  },
+  "抗战以来": {
+   "en": "Since the War of Resistance Began",
+   "pinyin": "Since the War of Resistance Began",
+   "status": "attested"
+  },
+  "The Invisible Conflict": {
+   "en": "The Invisible Conflict",
+   "pinyin": "The Invisible Conflict",
+   "status": "attested"
+  },
+  "满洲红旗": {
+   "en": "Manchurian Red Flag",
+   "pinyin": "Manchurian Red Flag",
+   "status": "attested"
+  },
+  "阵中要务令": {
+   "en": "Field Service Regulations",
+   "pinyin": "Field Service Regulations",
    "status": "attested"
   }
  }
