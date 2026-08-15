@@ -128,3 +128,15 @@
 千里迢迢
 # Crossroads, the 1937 film title 《十字街头》 (十 in the title) — rendered "Crossroads"
 十字街头
+# 石田七郎 Ishida Shichirō (Common Culture Academy student), 七=7 in name
+石田七郎
+# 郑百千 Zheng Baiqian (Nanjing cell member), 百千 in name
+郑百千
+# 岩桥竹二 Iwahashi Takeji (Common Culture Academy student), 竹二 in name
+岩桥竹二
+# 3万 = 30,000 Polish officers (Katyn); Arabic+万 not combined by reader; carried in English as "30,000"
+3万
+# "622" = the coined label for the June 22 1941 disaster; rendered "six-two-two"
+622
+# 第二天 = "the next/following day"; 第二 ordinal, rendered "the next day"/"the day after"
+第二天

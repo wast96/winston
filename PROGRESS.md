@@ -838,3 +838,136 @@ question (every 图文 photo, or a curated subset) still for the commissioner.
 - ch05 carries printed-page (folio) markers (resegment rebuilds the pagemap).
 - setup.sh regression "hook stands down on template stub" still FAILS benignly
   (HANDOFF holds a real kickoff).
+
+
+## Batch B07 -- Chapter 6 (第六章 东方大谍 / "The Great Spies of the East"), whole chapter + Principal Sources
+
+ch06s01-ch06s08 + the chapter-end 参考资料 (rendered "### Principal Sources").
+PDF 223-255, printed 187-219 (offset constant printed = pdf - 36, spot-verified
+at every section opener off the folio). 341 English body paragraphs, 1:1 parity
+with the hand-verified zh source. Chapter 6 answers Chapter 5's "super-spy"
+cliffhanger: the world race for Japan's intentions, won by the CCP twice over
+(Barbarossa, then Pearl Harbor).
+
+### Source read entirely off the scan (OCR unusable as a scaffold on the 图文 pages)
+Every page image (data/png/p0223-0255.png) was read by eye and every true source
+paragraph transcribed and verified against both OCR configs. scripts/resegment_ch06.py
+HARDCODES the verified ('h'|'b', text) item list and writes data/zh/ch06.txt
+wholesale (model: resegment_ch05.py). assemble.py's body count (302, 4 headings)
+under-counted by ~39 as expected -- it merged the many one-line PUNCH paragraphs
+and the plate/faded pages; the hand resegment (341 body) is authoritative.
+p251 is a badly FADED leaf: both OCR configs returned near-garbage; the linchpin
+paragraph and the three-portrait caption were read by magnified crop.
+
+### Crop-verified names / numbers / source errors (rendered faithfully, footnoted)
+- 荒尾精 Arao Sei (OCR gave 荡尾精); 梅宝玑 Mei Baoji (uncle); 显玗 Xianyu.
+- 高崇武: the source PRINTS 高崇武, but the man is the documented 高宗武 Gao Zongwu
+  of the Jan 1940 Gao-Tao incident. Rendered "Gao Chongwu" + footnote. (崇 for 宗.)
+- 南冠湾: the source PRINTS 南冠湾 for 单冠湾 (Hitokappu Bay, the Pearl Harbor fleet
+  anchorage off Etorofu). Rendered "Hitokappu Bay off Etorofu Island"; zh scaffold
+  keeps the printed 南冠湾. (An earlier draft wrongly "corrected" the zh to 单; fixed.)
+- 川岛芳子's father printed 耆善 (Prince Su's name is 善耆, Shanqi -- characters
+  reversed). Rendered "the Qing dynasty's Prince Su" (title carries it); the
+  reversal is a minor low-stakes discrepancy left UNfootnoted (Kawashima already
+  noted ch05).
+- 大音无声: the source prints 无声 for Laozi's 大音希声 (Daodejing 41); footnoted.
+- Cross-page / cross-book identities resolved off the scan: 刘钊 Liu Zhao (Zheng
+  Wendao's Party sponsor; p251 illegible, resolved from p252 + p255); 方知达 =
+  张明达 (p255); 钱明 = 景若南 (p255).
+- The US Army Observation Group photo caption (p249) is dated 1943; the Dixie
+  Mission actually reached Yan'an in July 1944. Figure DEFERRED, so not rendered;
+  noted here.
+
+### The checks
+- verify_unit ch06: parity 341/341; numbers checked 341 pairs, 0 unresolved;
+  anchors 12 ok.
+- check_align ch06: 341/341, median 4.80 en/han, no pair strays > 2.2x. OK.
+- qc_entities: vacuous PASS (flat glossary); entity survival ensured BY HAND and
+  by consistency grep (Nakanishi Kō x95, Ozaki Hotsumi x27, Pan Hannian x32, Ume
+  Kikan / No. 76 / Iwai Kōkan / Tokkō all uniform, macrons consistent).
+- data/noise.txt extended (each commented): 石田七郎, 郑百千, 岩桥竹二 (names with
+  numerals); 3万 (=30,000 Katyn officers; Arabic+万 the reader can't combine, value
+  carried in English as "30,000"); 622 (the "six-two-two" June-22 label); 第二天
+  (the next day). Four number-carrying pairs were REWORDED to carry the count
+  ("both"/"two"/"three-nation") rather than noised. No real quantity was noised.
+- check_register --ref out/ch01_reading.md: within tolerance (contractions 4.2/1k,
+  em-dash 4.5/1k, rhythm CV 0.53, sentence median 21). ch06 is a LOW-DIALOGUE,
+  document-heavy unit: most quoted material is telegrams, directives, a treaty
+  outline, a diary entry, inscriptions, oaths, the TASS/Golikov statements (all
+  exempt registers). The genuine conversational lines (the American taunt, Zheng
+  Wendao's reply, Nakanishi's parting charge, his inner monologue) were contracted;
+  a first pass had left them formal and tripped the metric.
+- Tail verified against the scan (s8 close: Nakanishi's verse, the Laozi asterism,
+  the "情报领先" question); Principal Sources (30 entries) verified against p253-255.
+- Fixed a stray untranslated CJK word ("The综合 judgment" -> "The overall judgment").
+
+### Notes added (12; book total 134)
+Fact-checked against Wikipedia / Baidu / academic sources (no AI references):
+1. Japanese Workers' and Peasants' School (Yan'an, opened 15 May 1941; Nosaka
+   Sanzō). CORROBORATED.
+2. The Tanaka Memorial: authenticity CONTRADICTED (forgery per scholarly
+   consensus, no Japanese original); the Yan Baohang / 1929 Kyoto IPR circulation
+   CORROBORATED.
+3. 支那 / Shina: the derogatory Japanese exonym in the report title and 支那派遣军 /
+   支那事变; rendered "China."
+4. Operation Kiri / Song Ziliang: PARTLY CORROBORATED. Song Ziliang was a REAL
+   Soong-family name but the negotiator was an impostor (a Dai Li / Juntong agent);
+   Pan Hannian exposed him to Iwai with ACCURATE intel (not "disinformation"); the
+   book's dramatized framing and the credit it gives Pan are Chinese accounts.
+5. Gao Chongwu source error (documented Gao Zongwu / Gao-Tao incident).
+6. Kantokuen (关特演): CORROBORATED (July 1941, ~750,000-850,000 troops, cancelled).
+7. The Moscow-defense claim (Stalin moved 200,000 west and won Moscow on CCP
+   intel): transfer real but CCP-attribution UNCORROBORATED; usually credited to
+   Sorge / SIGINT; cross-ref ch05.
+8. The Dec-7 Pearl Harbor prediction (Nakanishi/Ozaki): PARTLY CORROBORATED
+   (southward strike attested; the exact date rests on later Chinese accounts).
+9. Chi Buzhou's Pearl Harbor decrypt + the Xiao Bo warning: UNCORROBORATED
+   (Chinese-origin, absent from Western records).
+10. Yue Fei ("the Yue Fei of Japan").
+11. Zhuge Liang "pacifying the Five Routes" allusion (cross-ref the ch05 Empty
+    City note).
+12. Laozi's 大音希声 (Daodejing 41) and the source's 无声 variant.
+
+### NOT re-noted (already placed earlier in the book; cross-referenced)
+Sorge (ch05), the East Asia Common Culture Academy + its 1905/1901 date already
+CONTRADICTED in ch05 (ch06 correctly says 1901), the Ume Kikan, No. 76, the Iwai
+Kōkan, Kagesa Sadaaki, the Tokkō, Yuan Shu, Guan Lu, Li Shiqun, Ding Mocun, Zhang
+Weiyi, Yan Baohang + the Barbarossa warning (ch03/ch05), Kawashima Yoshiko (ch05),
+Sun Tzu's Use of Spies (ch05), the Empty City Stratagem / Zhuge Liang (ch05), the
+Mukden Incident (ch05), the New Fourth Army Incident (ch03), the Wang Jingwei
+puppet regime (ch02), the Comintern (ch02/03/05), 特务 / 汉奸 loaded terms (ch01).
+
+### Renderings settled / reused
++29 glossary rows (book total 151): the Japanese network (Nakanishi Kō, Ozaki
+Hotsumi, Ozaki Shōtarō [distinct from Hotsumi], Nishizato Tatsuo, Kawai Teikichi,
+Imai Takeo, Tōjō Hideki), Wang Xuewen, Zheng Wendao, Wu Chengfang, Wang Jinyuan,
+Chi Buzhou, Arao Sei, Nezu Hajime, Gao Chongwu, Song Ziliang, Li Desen, Qian Ming,
+Liu Zhao, Zhang Mingda; and the organs/terms the South Manchuria Railway (满铁),
+the Kwantung Army, the East Asia Common Culture Academy / Society, the Institute
+of Pacific Relations, the Kōa-in, the Kwantung Army Special Maneuvers (Kantokuen),
+Operation Kiri, the Ramsay group. FIXED (deliberate, cascade grep clean): the
+岩井公馆 en field "the Iwai Kokan" -> "the Iwai Kōkan" to match the shipped text.
+Reused from ch05 unchanged: Pan Hannian, Sorge, Iwai Eiichi, the Ume Kikan, No. 76,
+the Iwai Kōkan, Kagesa Sadaaki, Kawashima Yoshiko, Manchukuo, the Tokkō, the South
+China Intelligence Bureau, the Central Intelligence Department, the Central
+Investigation and Study Bureau, Yan Baohang, Guan Lu, Li Shiqun, Ding Mocun,
+Zhang Weiyi, Yuan Shu, Wang Ming.
+
+### Figures: still DEFERRED (deliberate; commissioner decision pending)
+figures.json still empty. Chapter 6's inline plates catalogued for a later pass:
+the Sorge memorial in Moscow (p226); the US Army Observation Group with Eighth
+Route Army weather staff at Yan'an (p249, caption dated 1943; the Dixie Mission
+actually arrived July 1944); a three-portrait plate (p251) of Nakanishi Kō with
+Ozaki Shōtarō and (per the faded caption) Ozaki Hotsumi in Shanghai, Wang Xuewen,
+and Zheng Wendao. Standing question (every 图文 photo, or a curated subset) still
+for the commissioner.
+
+### Build / environment (B07)
+- EPUB rebuilt: 7 of 14 chapters (ch00-ch06), 134 notes, 158 pagebreaks.
+  out/chinas_secret_war.epub. qa_epub PASS; epubcheck 0/0/0/0.
+- data/structure.json: +10 rows (ch06 chapter title, subtitle, 8 section headings,
+  matched to the OCR strings).
+- scripts/resegment_ch06.py: new; the hand-verified paragraph rebuild for ch06.
+- ch06 carries printed-page (folio) markers (resegment rebuilds the pagemap).
+- setup.sh regression "hook stands down on template stub" still FAILS benignly
+  (HANDOFF holds a real kickoff).
