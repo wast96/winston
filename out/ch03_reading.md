@@ -54,7 +54,7 @@ Lin Nansheng opened the umbrella, and the two of them walked a while longer alon
 
 Lin Nansheng did not answer. He only looked at her, calm-eyed, until neither of them had anything left to say.
 
-Zhu Yizhen's landlady was a grey-haired Chinese widow, and the widow, too, of a Japanese man. Thirty years before, for love, he had cast off wife and children and left his own country to live with her here; they had kept themselves by practicing medicine. Now he was long since a portrait on the wall, yet she was not sad. Each day she lit three sticks of incense for him and brewed a pot of Tieguanyin, and then she sat the whole day long at the embroidery table by the window.
+Zhu Yizhen's landlady was a gray-haired Chinese widow, and the widow, too, of a Japanese man. Thirty years before, for love, he had cast off wife and children and left his own country to live with her here; they had kept themselves by practicing medicine. Now he was long since a portrait on the wall, yet she was not sad. Each day she lit three sticks of incense for him and brewed a pot of Tieguanyin, and then she sat the whole day long at the embroidery table by the window.
 
 All her longing went into the silk, stitch by stitch, and something in the way she bent to it always put Zhu Yizhen in mind of her own mother. Her mother had died in the shellfire of the Battle of Shanghai, gone to ash with the family's old house. One wish had ruled that mother's life: to marry her daughter into a great house, and so to raise their failing family up again.
 

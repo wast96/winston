@@ -510,6 +510,24 @@
       "pinyin": "Ā Sì",
       "status": "decided",
       "note": "Qin Shuji's partner in the Fourth Avenue picture gallery."
+    },
+    "杨淑勤": {
+      "en": "Yang Shuqin",
+      "pinyin": "Yáng Shūqín",
+      "status": "decided",
+      "note": "Qin Shuji's true wife and Party comrade, a PLA cadre; she signs Yanzhi's release and pronounces her Qin's lifelong stain. Formerly the sham 秦太太 (Mrs. Qin)."
+    },
+    "刀疤强": {
+      "en": "Scarface Qiang",
+      "pinyin": "Dāobā Qiáng",
+      "status": "decided",
+      "note": "Old Mo's nephew and one of the last surviving marsh bandits; his byname 刀疤 is the knife-scar on his left cheek."
+    },
+    "周大庸": {
+      "en": "Zhou Dayong",
+      "pinyin": "Zhōu Dàyōng",
+      "status": "decided",
+      "note": "A famed old physician of the county town whom Yanzhi consults over her daughter's deafness."
     }
   },
   "organizations": {
@@ -1354,6 +1372,30 @@
       "pinyin": "měizhuān",
       "status": "attested",
       "note": "The Shanghai Academy of Fine Arts, where Qin Shuji teaches oil painting (see note)."
+    },
+    "费家村": {
+      "en": "Fei Family Village",
+      "pinyin": "Fèijiā Cūn",
+      "status": "decided",
+      "note": "A hamlet ten li outside Xietang where Yanzhi settles and lives out her days."
+    },
+    "分水亭": {
+      "en": "the Fenshui Pavilion",
+      "pinyin": "Fēnshuǐ Tíng",
+      "status": "decided",
+      "note": "A lakeside pavilion at a fork in the channel; the place Qin Shuji names for their meeting, and where their lives divide."
+    },
+    "杏春楼": {
+      "en": "the Xingchun Lou",
+      "pinyin": "Xìngchūn Lóu",
+      "status": "decided",
+      "note": "A brothel in the county town where Old Mo is press-ganged into the Nationalist ranks."
+    },
+    "天目山": {
+      "en": "the Tianmu Mountains",
+      "pinyin": "Tiānmù Shān",
+      "status": "attested",
+      "note": "A range in northwest Zhejiang; a New Fourth Army base area in the war against Japan."
     }
   },
   "terms": {

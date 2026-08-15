@@ -958,3 +958,142 @@ re-ingested with scripts/ingest_epub.py source.epub. Stray per-session branch
 (claude/the-rebel-b08-rouge-32a79h) was at the same commit as
 origin/claude/the-rebel with no stranded commits; consolidated onto
 claude/the-rebel and deleted (local and remote).
+
+## Batch B09 — Rouge 7-11 (ch47-ch51) — COMPLETES 胭脂 AND THE WHOLE BOOK
+
+FINAL batch. Translated the last five installments of Rouge (胭脂 7-11), closing
+the fourth novella (ch41-ch51) and the book: Yanzhi the ruthless marsh chief who
+robs but never touches it, sitting apart with her deaf-mute daughter (ch47); Qin
+Shuji's reappearance and the parting at the Fenshui Pavilion that never holds
+(ch48); the daughter lost to a peddler, the retreat to Fei Family Village, Old
+Mo's death and Yanzhi's denunciation and arrest (ch49); New Year's Eve in the
+county jail, her release and Yang Shuqin's verdict — "you are the one stain of
+his whole life" (ch50); and the close, the first spring after the founding of
+New China, snow at dusk, and Baosheng at the cutting board (ch51).
+
+Source: data/src/50_part0048.txt .. 54_part0052.txt. Doubled heading line held
+for all five (skip=2, inspected with sed before trusting). Grepped each unit for
+`[\d+]` source-note markers: none present in any of ch47-ch51 (the source has
+carried none through the whole book). Read the last two pages of ch46 before
+starting; the voice carried (cool, restrained, brutal).
+
+### Checks (all green, ch47-ch51)
+
+- verify_unit (parity + numbers with data/noise.txt + anchors): all five green,
+  0 unresolved numbers, parity by construction. No new noise entries were
+  needed — the built-in noise list already covers the article/idiom 一 forms
+  and 说一不二 etc. that appear here.
+- check_align: all five OK (no pair strays >2.2x from the chapter median).
+- check_content --config review/content_config.json: all name occurrences in the
+  paired paragraph, across all 51 units (158 glossary names usable as anchors).
+  One fix during drafting: ch49 pair 5 rendered 汉奸罪 as "treason"; qc_entities
+  wants the glossary form "traitor" — reworded to "shot as traitors, as
+  drug-dealers, as traffickers in human beings."
+- qc_entities: 0 misses for all five (re-run after the glossary merge added the
+  new enforced names Yang Shuqin, Scarface Qiang, Zhou Dayong, Fei Family
+  Village — all survive).
+- check_register --ref reference/ch01.md: all five within tolerance of the frozen
+  ch01 (the heavy-dialogue chapters ch48/ch50/ch51 run a higher contraction rate,
+  flagged "little dialogue — noisy" and judged within tolerance by the checker).
+- Tail of every unit verified against the source (rule 4's corollary): the marsh
+  queen's speech (ch47), the commander's "a debt to be laid at the Japanese
+  devils' door" (ch48), the snowflakes that never melt in her palm (ch49),
+  Yang Shuqin's "You are." (ch50), and the book's last line, Baosheng's "I'll go
+  and make you something to eat." (ch51) — all faithful.
+
+### Notes added (28; builder numbers them continuously; book total 301 -> 329)
+
+- ch47 (6): the loyalty-and-honor spirit-tablet (忠义, Water Margin ethos);
+  当家的 as address ("Boss"); 花甲 "past sixty" (the sexagenary cycle); 前世的冤孽
+  + 积德 (folk-Buddhist karmic debt / merit); 路条 (the occupation travel pass);
+  忌辰 (the parent's death-anniversary rite).
+- ch48 (4): 分水亭 the Fenshui Pavilion (the "dividing-waters" pun on parting);
+  杏春楼 the Xingchun Lou (brothel); 天目山 the Tianmu Mountains (New Fourth Army
+  base, fact-checked); 举义 "to rise."
+- ch49 (9): 抗战胜利 (victory 1945); 上门女婿 (uxorilocal marriage);
+  汉奸/贩毒/拐卖 postwar collaborator executions; 亩 (the mu, first appearance);
+  美式军装/卡宾枪 (US-equipped Nationalists); 乙种连 (Type-B company);
+  解放军 the PLA (first appearance of the term); 工作组 (the Party work team);
+  军委会 (the local military-control organ; the source's looser wording noted).
+- ch50 (5): 呆若木鸡 (Zhuangzi fighting-cock allusion, fact-checked); 同志/爱人
+  (comrade / the new word for spouse); 牺牲 + 解放浙南 (the martyr word);
+  组织 "the organization"; 黑纱 (the mourning armband).
+- ch51 (4): 新中国成立 (the founding of the PRC, 1 Oct 1949, fact-checked);
+  五亩地 land reform / 土改; 劳动人民的天下 (the slogan); 资产阶级 / 旧社会
+  (the painting condemned and destroyed).
+
+Every historical claim fact-checked against real scholarship (Wikipedia / Baidu
+Baike / official PRC party-history sites for the Tianmushan campaigns and the
+Zhuangzi source of 呆若木鸡); verdicts stated in each note. NEVER an AI source.
+
+### NOT re-noted (first-appearance discipline; checked notes.json before adding)
+
+New Year's Eve / 除夕 (ch39), li / 里 (ch41), the political commissar / 政委
+(ch19), the stone memorial arch / 牌坊 (ch09), cheongsam (ch41/ch03), silver
+dollar / 大洋 (earlier), Jing'an Temple Road (ch42), Shiliupu (glossary/noise),
+千山万水 (noise), the New Fourth Army Incident (ch02, the army itself
+glossaried), opium / 大烟 (familiar; contextual). 积德 folded into the ch47
+前世冤孽 note rather than re-noted at ch49.
+
+### Glossary (7 rows added; book total 258 -> 265; category/status/pinyin each)
+
+People (3): Yang Shuqin (杨淑勤), Scarface Qiang (刀疤强, telling byname),
+Zhou Dayong (周大庸) — all decided. Places (4): Fei Family Village (费家村),
+the Fenshui Pavilion (分水亭), the Xingchun Lou (杏春楼) — decided; the Tianmu
+Mountains (天目山) — attested. Every recurring Rouge name reused EXACTLY from
+B08 (Yanzhi, Baosheng, Qin Shuji, Old Mo, Young Master Tang, the Xiangfu marsh,
+Xietang). The vocative 当家的 rendered "Boss" WITHOUT a glossary row (a row would
+have retro-flagged ch46, where 当家的 is the office "the one who runs the house").
+
+### Digitization glitches
+
+ch49 line 3: 收留他 ("took HIM in") for 收留她 — the aged widow takes Yanzhi (her)
+in; a 他/她 typo, rendered "her," not footnoted (mechanical). No other material
+glitches this batch.
+
+### FINAL-BATCH BACK MATTER + WHOLE-BOOK QA
+
+- check_reconcile.py: glossary-forward 258/265 decided forms present in prose;
+  12 epithet/compound drift candidates reviewed (acceptable variation);
+  SPELLING LOCALE was MIXED (9 British vs 109 American) and cascaded to American:
+  grey->gray x4 in prose (ch03 gray-haired; ch15 gray cotton / gray-blue eyes x2,
+  via ch03/ch15 en.json + reading), labour->labor and honour->honor + "His
+  Honour"->"His Honor" in notes.json. TWO British spellings kept BY DESIGN as
+  attested proper names: Victoria Harbour (HK) and the Longhua Civil Assembly
+  Centre (the historical camp) — reconcile still lists them, a known false
+  positive on proper nouns.
+- out/term_ledger.md: 265 entries, grouped by category, with pinyin/status and a
+  per-rendering built-text count.
+- out/deep_audit.md: 86-pair sample (4.0%), FIXED seed 20260815, read
+  source-vs-translation — 0 errors; honest rule-of-three bound stated (< ~3.5%,
+  not zero); invented-precision scan clean. By-hand grep-count of 20 principal
+  renderings confirmed one consistent form each (Lin Nansheng x391, Yanzhi x321,
+  Su Lina x227, Zhongliang x340, Jiang Yongnan x266, ... silver dollar x19).
+- authority.json fed back (slug the-rebel): 27 shelf renderings gained the slug,
+  1 article-varies, 233 new terms, 4 divergences flagged reconcile for the next
+  book (歌乐山 Mount Gele vs shelf Gele Mountain/Geleshan; 兆丰公园 Zhaofeng Park
+  vs Jessfield Park; 百乐门 the Paramount Ballroom vs the Paramount; 珞珈山 Mount
+  Luojia vs Luojia Hill). Total authority terms 194 -> 427.
+
+### BUILD
+
+Cumulative EPUB rebuilt — out/the_rebel.epub, 51 of 51 chapters, 329 notes, 0
+source notes. TOC auto-cleaned of pending scaffolding (all units translated; 0
+"pending" spans, no placeholder pages). qa_epub PASS (65 files, 58 documents, all
+links resolve; 329 refs = 329 bodies = 329 backlinks; 2158 paragraphs).
+epubcheck 5.1.0 clean (0 fatals / 0 errors / 0 warnings / 0 infos, EPUB 3.3).
+Cover BYTE-IDENTICAL to data/figs/cover00144.jpeg (sha256 aafb7f2a...33f09f).
+`git add -f out/the_rebel.epub`. Committed and pushed to claude/the-rebel.
+
+### Environment / traps this session
+
+- ./setup.sh: pillow present, epubcheck jar in place. Checker regression suite
+  reports the SAME ONE known-false failure ("hook stands down on template stub");
+  HANDOFF now carries the COMPLETION notice (no kickoff), which is the correct
+  end state, so this remains expected, not a real defect.
+- data/src was empty at session start (gitignored); re-ingested with
+  scripts/ingest_epub.py source.epub (54 spine docs, 1 image).
+- Stray per-session branch (claude/the-rebel-b09-rouge-hn8u1b) held no commits
+  beyond origin/claude/the-rebel; consolidated onto claude/the-rebel (reset to
+  origin, 17 stale local commits fast-forwarded) and the stray deleted (local;
+  remote ref had already been pruned).

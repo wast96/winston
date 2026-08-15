@@ -1,0 +1,35 @@
+## 7
+
+Yanzhi soon became the most ruthless bandit chief on the Xiangfu marsh. She let her men rob as they pleased and never once lifted a hand herself; she only sat off at a distance in a small boat with her daughter in her arms, humming nursery songs, as though she were out on the water for pleasure. These water bandits robbed everything, and not merchant junks alone: they spared neither the transport boats of the Japanese nor those of the guerrillas. She was like a queen upon the water, and to any one of them her word was final. She told the men under her, "Everyone who turns bandit comes to a bad end. But you had better know who it is you are living for."
+
+The bandits could all see that their Big Sister-in-law was unlike the Big Brothers who had come before her. It never entered her mind to rebuild their old refuge on land. Instead she set the loyalty-and-honor spirit-tablet up at the prow, moved her own bed into the cabin, and with her own hands hung above it the portrait she had slipped back to the tailor shop to reclaim. When it was all done, Yanzhi stood in the hatchway and looked round at them. "The boat is our home," she said. "As long as we never set foot on shore, no one can do a thing to us."
+
+Yanzhi finished speaking, shut the cabin door, and sat alone on the bed with her daughter held close, gazing lost at her own likeness inside the frame. No one knew what she was thinking. But every bandit understood that, after her daughter, this painting was the most precious thing in their Big Sister-in-law's life.
+
+It was for this portrait that Yanzhi, on a night of driving wind and rain shot through with thunder and lightning, suddenly set out for Xietang, and no one could talk her out of it. The waterway into the town had long been sealed off by the Japanese; machine guns stood mounted in the sentry boxes on either bank, and searchlights lit the water bright as day. Yanzhi could not swim, so Old Mo held her chin above the surface and slipped with her into the town along the embankment. By the time she climbed out she was half-drowned and gasping; she lay flat on the landing-stone, drawing the air in in great gulps, and it was a long while before she could push herself upright.
+
+Old Mo said, "Boss, why put yourself through this? Anything that needs doing, you have only to hand it to us."
+
+Yanzhi shook her head, pushed Old Mo's hand aside, and made her own way across the pelting street, swaying on her feet, to knock at the door of the Taishun tailor shop. Baosheng, still not recovered from his fright, faced her as though across a lifetime; his mouth opened, and for a long time he could find nothing to say. Yanzhi was shivering with cold. "I have come for my things," she said. Baosheng could only nod and nod. "It's good you're back," he kept saying, "it's good you're back." Yanzhi stood just inside the door and said again, "I have come for my things."
+
+Only after he had shut the door did Baosheng begin to understand. He nodded, let his hands fall and his head fall with them, and went into the back room; a long while later he came out carrying the wisteria-cane clothes-case and set it on the cutting table. He narrowed his eyes, straining to make out Yanzhi's face, but it was curtained over with soaking hair, so that she looked like a ghost, and only her two eyes shone bright as the dripping beads of water.
+
+It cost Yanzhi great effort to wrap the frame tight in a piece of oilcloth. She took up a candle, softened it over the oil-lamp, and sealed the seams over and over again. Baosheng watched her in silence and never stirred. Then all at once he said, "This is your home. This is your shop."
+
+Yanzhi lowered her eyes. "I'm going," she said.
+
+Baosheng caught hold of her. "Next month is your father's death-day," he said.
+
+Yanzhi brushed his hand away. "Then you can count me dead as well," she said.
+
+With that she pulled the door open and rushed out into the storm. A flash of lightning came far off in the sky, and only long after did a single muffled roll of thunder follow; but in Xietang it was as though nothing at all had happened, and even Yanzhi felt that this leaving was her last farewell to the place. She looked back one final time, then said to Old Mo, "Let's go home."
+
+The first thing Yanzhi did on returning to the Xiangfu marsh was to learn to swim. A water bandit who cannot swim has only one road, and it ends in death. Yanzhi knew this well, and in the summer of her daughter's fifth year she spent the whole season teaching the girl to swim. But the girl could not speak, and of course could hear nothing either. The whole world, to her, was like the bottom of the Xiangfu marsh: dim and blurred, and without a sound. It robbed Yanzhi of sleep and appetite. She hunted everywhere for doctors and cures, running down every physician within a hundred li, and would not pass over even the folk remedies that went about the villages. She thought nothing of paying three gold bars for a travel pass to carry the girl into the county town, all to beg a prescription of the famed physician Zhou Dayong. The old doctor, past sixty and long a student of the Buddha, took her pulse, stroked his goat's-beard, and shook his head again and again: this, he said, was an illness the very immortals could not cure. He urged Yanzhi rather to burn more incense and lay up merit, for it was a wrong carried over from a former life. Before Yanzhi could open her mouth, Old Mo had drawn his pistol and pressed it to the old doctor's head, swearing, "What dog-fart nonsense is this."
+
+Yanzhi waved a hand, said not a word, gathered up her daughter, and turned and left. One night she flagged down a cargo boat passing through the Xiangfu marsh and rode it with the girl all the way to Shanghai. She believed, past all doubt, that somewhere in this world there was someone who could make her daughter speak.
+
+This was the second time Yanzhi had come to Shanghai. She lost herself among the refugees fleeing the war, slipped past the checks of the Japanese soldiers, and walked into a mission hospital. A blue-eyed German doctor examined the child with care and said, in stiff Chinese, that she had neither eardrums nor vocal cords: she would never hear a sound, and never make one. But Yanzhi would not believe it; it simply could not be. She stayed a week in Shanghai, and in those seven days she went to nearly every hospital in the city, and the doctors' verdict was always more or less that same one sentence: this child has no eardrums and no vocal cords; she is malformed.
+
+Yanzhi despaired utterly. Walking the broad avenue with her daughter clutched tight, she found her eyes blurring with tears before she knew it.
+
+On that last night Yanzhi lay on the inn bed and could not sleep for turning. All at once she clapped a hand over her mouth and began to weep; her sobbing would not be held down, and rose louder and louder until it woke every guest in the inn, yet she knew nothing of it, no more than her daughter, fast asleep. Yanzhi was sunk wholly in a private pain for which there were no words.

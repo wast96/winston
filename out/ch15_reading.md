@@ -6,7 +6,7 @@ For more than half a month the drama club had gathered each evening on the dim s
 
 To make something of yourself in Shanghai, you first had to speak fluent English. It was a line the dean of studies, back from his years abroad, often gave the students; now and then he taught English and vernacular composition himself. Zhongliang's own dreams ran shallower. He only wanted a clerk's post in a foreign firm after graduation, a Western suit and a necktie every day, his hair combed to a shine; for a postman's son that was already rising in the world. But by dusk the next day, Zhongliang understood all at once that the dream was finished.
 
-The mission school's dining hall doubled as the students' chapel, a black crucifix on the wall at its center. As everyone sat at the tables, hands folded and chins propped, saying grace before the meal, a school porter led in a man in a short grey cotton jacket, who crossed the room quickly to Zhongliang.
+The mission school's dining hall doubled as the students' chapel, a black crucifix on the wall at its center. As everyone sat at the tables, hands folded and chins propped, saying grace before the meal, a school porter led in a man in a short gray cotton jacket, who crossed the room quickly to Zhongliang.
 
 Zhongliang recognized him: Zhou San, the doorman of the Jing'an post office. Yet what rose in his mind was his father's pallid face. He followed Zhou San out through the school gate, took the rickshaw waiting there, and reached home to find his father laid out rigid on a door-plank. Xu Delin wore a satin gown no one had ever seen him in, and a thin dusting of powder and rouge lay on his face. He might have been a sleeping actor.
 
@@ -24,7 +24,7 @@ That Xu Delin kept women, and more than one, was an open secret at the Jing'an p
 
 For her son's sake, Xu-sao bore it. The bearing gave a woman's eyes a depth no one could sound.
 
-Father Brown of St. Thérèse's Church said the Mass before the burial, in a cramped side room of the International Funeral Parlor. This wrinkled Englishman had preached thirty years in China, close to ten of them in Shanghai, and still could not master the soft local speech. He held the Bible and read out a passage of the Gospel of Matthew in a flawless Tianjin accent, then narrowed his grey-blue eyes, gazed a while at the body in the coffin, drew a cross over his chest, and let the word out slowly, in two beats: A-men.
+Father Brown of St. Thérèse's Church said the Mass before the burial, in a cramped side room of the International Funeral Parlor. This wrinkled Englishman had preached thirty years in China, close to ten of them in Shanghai, and still could not master the soft local speech. He held the Bible and read out a passage of the Gospel of Matthew in a flawless Tianjin accent, then narrowed his gray-blue eyes, gazed a while at the body in the coffin, drew a cross over his chest, and let the word out slowly, in two beats: A-men.
 
 The congregation ringed the coffin and began to sing a hymn. All at once Xu-sao seized her son's arm, her eyes wide, staring at the solemn-faced women among them; her body was shaking, yet she bit down hard and would not let go. Xu-sao was certain that her husband's violent death in the street had to do with these women now murmuring their low, soft song.
 
@@ -38,7 +38,7 @@ Father Brown tipped his head back and let out a long breath, drew two crosses ov
 
 In truth Father Brown had been the first to find Xu Delin's body. That morning he had pulled the church doors open as always, and, broom in hand, had barely stepped out when he saw Xu Delin slumped to one side. At first the priest took him for a drunk not yet slept off, and said, "Morning's here." But when he leaned in and saw Xu Delin's face, his mouth fell open and he turned sharply to look about him. The street was bare; it was the hour before dawn breaks light, and the lamps on the poles had already gone dark.
 
-Father Brown ran his grey-blue eyes over the road once more, then slowly crouched and put a hand beneath Xu Delin's nose. A man who has been through seminary is half a physician; he ran over the body swiftly, rose, went down the steps at a run and across the street, and knocked at a shut door. He was more than a little shaken. "Go to the police," he said quickly, "go and bring them here."
+Father Brown ran his gray-blue eyes over the road once more, then slowly crouched and put a hand beneath Xu Delin's nose. A man who has been through seminary is half a physician; he ran over the body swiftly, rose, went down the steps at a run and across the street, and knocked at a shut door. He was more than a little shaken. "Go to the police," he said quickly, "go and bring them here."
 
 By the time a constable pedaled up, a crowd had already ringed the doorway of St. Thérèse's Church. Every neighbor who had seen the hole in the back of the skull decided it was the fabled "opening a skylight," and, like "planting a lotus," the work of the city's gangs enforcing their own house law. Father Brown said nothing. He stood stock-still beside the body, a black statue set to guard the gate of heaven. Only when the constable wrapped the body in a white sheet and bore it away did his gaze drop to that corner.
 
