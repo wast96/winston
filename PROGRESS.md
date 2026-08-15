@@ -1849,3 +1849,141 @@ digits/words and matched by the checker.
   Backward-compatible; source-conservation check passes (26 body paragraphs).
 - `data/noise.txt` — B14 block (see above).
 - `glossary.json` — 2 rows added by hand (sectioned; every row has `pinyin`).
+
+## Batch B15 — ch21 (Part Three, Chapter 1: "Renown Won in a Hundred Battles")
+
+**Unit:** ch21 = 第一章 十里洋场重振雄威 "Chapter 1. Back in Shanghai, Our Might Restored."
+The FIRST Shanghai chapter and the longest so far in Part Three (~21,426 source chars).
+Chen arrives in fallen Shanghai (early Aug 1939), is appointed District Chief by Dai Li's
+telegram (takes over 12 Aug 1939), and rebuilds the shattered Shanghai District: the
+14-office search that followed Chen Dirong's betrayal, Zheng Xiuyuan holding the District
+together single-handed (three excerpts from his memoir "沪滨三次历险实录"), the duplex
+command center, and a full order-of-battle roll of the inner staff, five intelligence
+groups, eight action brigades, New Group One, and the Kang Corps. Ends on the magazine
+serialization coda "(第一章完下期续载)" with seven further paragraphs after it.
+
+### Structure (confirmed p-by-p against the source XHTML)
+- `index_split_000_0020.xhtml` parses to **1 `<h2>` + 162 `<p>`**, NO `<h1>`, NO `<br/>`,
+  NO `<img>`. drop=2 (running header 英雄无名-陈恭澍 + `<h2>` chapter title). The 162 txt
+  body lines map 1:1 to the 162 `<p>` — zero mismatches.
+- **THREE mid-phrase merges** where a source `<p>` boundary severs one sentence (first ends
+  non-terminal): L56/57 (…是办理制裁 | 汪精卫的项目。 — an enumerated 一、 item split at
+  制裁|汪精卫), L93/94 (…这或者 | 就是戴先生…的理由了吧。), L107/108 (…也要提供不少 |
+  条件再加上一番经营才成。). No chains.
+- **FOUR couplet-style sub-headings** (NO number prefix, cf. ch11/ch14), each its own plain
+  `<p>` (standalone): L3 死无对证永成悬疑的一桩大反间, L37 危机四伏中稳扎稳打渡过难关,
+  L82 我们的敌后工作指挥中心别具一格, L112 无形火线上无所不在的战斗行动者剪影.
+- The ：/-ended lead-ins, the 一、-八、 and 1-4 enumerated items, the roster lines, and the
+  『』-closed dialogue lines are DELIBERATE separate `<p>` (NOT merged). L86 (…如何应用了)
+  ends on 了 with the source's 。 dropped — a DELIBERATE paragraph break (new topic
+  follows), NOT a split; rendered as its own paragraph.
+- **Serialization coda:** "(第一章完下期续载)" is glued to the tail of L157/P147 (the Sun
+  Dacheng one-armed-hero paragraph), with SEVEN further `<p>` (P148-P154) after it — a
+  magazine-installment seam faithfully reproduced (cf. the "(第N章完)" coda in
+  ch12/ch13/ch16, here with 下期续载 + trailing content). Rendered "(End of Chapter One; to
+  be continued in the next issue.)" and preserved as body text.
+- **No source note markers:** grep `\[\d+\]` → none present (consistent through B14).
+- **No images** in the unit (confirmed).
+- clean_batch.py: `ch21: 155 body paragraphs, 4 sub-headings, source conserved OK`.
+
+### Checks (all green for ch21; pre-existing artifacts unchanged except one FIXED)
+- `verify_unit.py ch21`: parity **155/155**, numbers **0 unresolved**, anchors 0 ok (then 8).
+- `check_align.py ch21`: 155/155, **median ratio 4.89 en/han**, no pair strays > 2.2x. Above
+  the 4.55–4.78 narrative band, as expected: the chapter is document-heavy (three long
+  Zheng-Xiuyuan memoir excerpts, an embedded Liu-Shaokui memoir quote, and several
+  enumerated explanatory lists lift the ratio; read the note, do not reset).
+- `check_structure.py`: ALL STRUCTURAL CHECKS PASS; anchors 218 notes, 0 unresolved.
+- `check_content.py`: **ch21 157 name occurrences, all in the paired paragraph (0 displaced).**
+  Known pre-existing artifacts remain ch08 Shunde ×3, ch13 Miss Nguyen/Oya Kusuo/Yuan
+  Haowen ×9. **ch07 Zhanggu ×1 is now GONE** — see the glossary-key fix below.
+- `qc_entities.py` (reconstructed bilingual, 155 pairs): **entity misses: 0.** 督察 ×13
+  aligns to the glossary-decided "inspector" (the B14 near-miss avoided).
+- `check_register.py --ref`: **within tolerance.** shall 33% (Chen's deliberate essayistic
+  narration, cf. B06 33% / B12 43%; verified narration not dialogue — do NOT de-formalize),
+  contractions 0.0, em-dash 7.1/1k (ref 8.3), rhythm CV 0.61 (ref 0.60).
+- Tail verified against the source (rule 4 corollary), P144–P154 incl. the coda seam.
+- Build: `21 of 43 chapters, 218 notes`. `qa_epub.py` PASS (218 refs/bodies/backlinks).
+  **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.**
+
+### Glossary-key fix — 掌故 / "Zhanggu" (a DISCIPLINE violation, now removed)
+The organizations key **掌故 → "Zhanggu"** (a Hong Kong history magazine, cited once in
+ch12 P108 as "the 'Zhanggu' magazine published at Hong Kong") violated glossary-key
+discipline: 掌故 is ALSO the common noun "old lore / anecdote," which is how ch07 P24
+("old hometown lore") and ch21 P59 ("looked on as old lore") use it. A key must render
+ONE way everywhere and be a distinctive proper noun; periodicals are handled by
+FOOTNOTE/inline, not keyed. **Removed the key.** Effects: the ch12 magazine reference is
+self-glossed inline (unchanged); **ch07's known Zhanggu artifact is now resolved** (206
+occ., all in paired); ch21 P59 is clean. Net: one fewer known content-check artifact.
+
+### Glossary rows added BY HAND (19; sectioned file; every row has `pinyin`)
+People (mostly `provisional`, romanization mine): 万里浪 Wan Lilang (4th-Brigade traitor →
+No.76 First Section chief), 刘时雍 Liu Shiyong (4th-Brigade leader), 蒋安华 Jiang Anhua
+(3rd Brigade, the mainstay), 吉震苍 Ji Zhencang (2nd Brigade, cover Zhao Sheng, the
+Du-Yuesheng-tied brigade), 毕高奎 Bi Gaokui (New Group One; also 毕镐奎), 孙大成 Sun
+Dacheng (Kang-Corps leader, a cover name; lost an arm at the Bund Park), 刘健 Liu Jian
+(2nd Intel Group), 萧杰英 Xiao Jieying (inner-courier-station head), 萧张权 Xiao Zhangquan
+(8th Brigade, martyred at Suzhou), 张璜 Zhang Huang (accountant), 杨震裔 Yang Zhenyi
+(chief wireless inspector), 陈明楚 Chen Mingchu (cover name of Chen Dirong), 王世英 Wang
+Shiying (compiler-reviewer), 潘绍岳 Pan Shaoyue (6th Brigade). `attested`: 戴藏宜 Dai
+Cangyi (Dai Li's son), 翁光辉 Weng Guanghui (1st Shanghai District chief), 吴乃宪 Wu
+Naixian (2nd chief, styled Jinfu), 杜月笙 Du Yuesheng (Green Gang boss; already NOTED at
+ch17 — do NOT re-note). Organizations: 忠义救国军 "the Loyal and Patriotic Army."
+REUSED (already keyed, consistent): 郑修元 Zheng Xiuyuan, 陈第容 Chen Dirong, 黄志远 Huang
+Zhiyuan, 赵理君 Zhao Lijun, 毛万里 Mao Wanli, 王天木 Wang Tianmu, 王鲁翘 Wang Luqiao, 刘原深
+Liu Yuanshen, 王亢子/王因子 the Wang daughters, 胡永荃 Hu Yongquan, 朱啸谷 Zhu Xiaogu,
+白绳祖 Bai Shengzu, 刘俊卿/刘绍奎 the two Lius, 周伟龙 Zhou Weilong.
+
+**赵君 RESOLVED:** the acting District Chief called "a Mr. Zhao" in the ch20 preview is
+named in full here — **赵理君 Zhao Lijun** (already glossary-keyed, `attested`). Rendered
+"Zhao Lijun" throughout ch21; his cover name **凌秋云 "Ling Qiuyun"** appears in the memoir.
+
+### Notes added (8; first-appearance-disciplined; cumulative 218)
+1. **忠义救国军** "Loyal and Patriotic Army" (Dai Li's guerrilla/irregular force; Shanghai
+   office as District cover). 2. **秦晋之说** the Qin-Jin marriage allusion (结为秦晋).
+3. **越界筑路** extra-settlement roads (the disputed-jurisdiction gray zone at the concession
+   edges). 4. **亭子间** the Shanghai lane-house back-room. 5. **白相人** Shanghai-dialect
+   idler/petty tough. 6. **法币** the fabi national currency + the 38-yuan courier wage.
+7. **唐生智** Tang Shengzhi (Hunanese general, anti-Chiang risings; later Nanjing 1937).
+8. **邓演达事件 / 两广事件** the Deng Yanda execution (1931) + the Two Guangs revolt (1936).
+**NOT re-noted (already covered):** the French Concession / International Settlement (ch04),
+Du Yuesheng / the Green Gang (ch04/ch17), the Blue Shirt Society (ch08), the Juntong (org),
+制裁 "sanction" (term), the Xi'an Incident (ch06), the Kōain (ch12), No.76 / 特工总部 /
+Li Shiqun / Ding Mocun (ch04/ch17), the 抗日杀奸团 / Kang Corps (ch02/ch11), the Republican
+calendar convention, 十里洋场 (chapter-title epithet).
+
+### Digitization glitches (rendered to plain sense; LISTED, none footnoted — mechanical)
+Same single-character-substitution / homophone / dropped-punctuation classes as ch15–ch20:
+- 极感僧恨 → 极感憎恨 "the bitterest loathing" (P4, 僧→憎).
+- 这不是说我根木头 → …我是块木头 "not that I am a blockhead" (P28, garbled 是块; a dropped/
+  substituted character, plain sense carried).
+- 高级干中 → 高级干部中 "among the senior cadres" (P24, dropped 部).
+- 享高寿八十余 第三任 (P34): a dropped full stop (space where the sentence breaks between
+  "…over eighty." and "The third chief…"); rendered as a sentence boundary.
+- 更谈不到如何应用了[／]建立新的… (P79→P80): a dropped full stop after 了; rendered as a
+  paragraph boundary (the two source `<p>` are distinct thoughts, NOT a mid-phrase split).
+- 重新建立工作指挥中心是为了隐扎隐打 → …稳扎稳打 "fighting steadily from firm ground"
+  (P81, 隐→稳; the same 稳扎稳打 the sub-heading L37 uses correctly).
+- 接二连二 → 接二连三 "one after another" (P15, the idiom's second 三 mis-scanned as 二;
+  NOISED as 接二连二, plain sense carried).
+None is genuine reading uncertainty, so none is footnoted (per policy).
+
+### data/noise.txt — B15 block appended (each entry commented)
+Elided-tens/approximate & idiom/name numerals stripped (SOURCE numerals only; every real
+value carried in the English and matched by the checker): **三、五十** (thirty-to-fifty,
+in the elided block, longest-first), **七一四** (the "714" July-14th event-name, cf. 九一八/
+一二八), **接二连二** (the mis-scanned idiom), **四出** (侦骑四出 "out on all sides"),
+**凋零** (制作者早已凋零, 零=0 idiom), **百利而无一损** ("all gain and no loss," 百/一 rhetorical),
+**万般** (万般出于无奈 idiom), and the coy name-numeral 万-glyph refs of Wan Lilang: **万里浪**,
+**万某**, **万即**, and bare **万里 / 万兄** (Mao Wanli named without 毛/兄 — placed AFTER the
+longer 毛万里 / 万里兄 / 万里浪 rules so those strip first). Real quantities CARRIED (checker
+matched): 两点四十分 "forty minutes past two", 两点五十分 "fifty minutes past two", 二人 "two
+men", 平津两地 "both Beiping and Tianjin", the 28th/29th/30th/26th/21st-year dates, No.277 /
+No.71 / No.24, 3,000 yuan, 38 yuan, fourteen offices, twenty-two courier units, eight
+brigades, "about a thousand," etc.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch21 spec added (drop=2; 3 merges; 4 standalone sub-headings;
+  no glued). Backward-compatible; source-conservation check passes (155 body paragraphs).
+- `data/noise.txt` — B15 block (see above); 三、五十 slotted into the elided-tens block.
+- `glossary.json` — 19 rows added by hand; the 掌故→"Zhanggu" common-noun key REMOVED.
+- `notes.json` — 8 notes appended via apparatus_merge.py (numeric character references).

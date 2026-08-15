@@ -346,6 +346,7 @@
 八、九百
 四、五百
 四、五十
+三、五十
 四、五样
 五、六响
 五、六个
@@ -469,3 +470,45 @@
 # technology": the 528 (and the stray ；) are garbage where 着 belongs. English renders
 # the plain sense; the 528 is not a quantity.
 528
+#
+# --- B15 (ch21) entries ---
+#
+# Elided-tens approximation 三、五十(人) "thirty to fifty (men)" (全队各约三、五十人不等):
+# the leading 三 is 三十 (thirty), not the count 3. Placed in the elided block above so
+# it strips before any shorter prefix. English carries "thirty to fifty".
+# (rule lives in the elided-tens block; comment here for the record)
+#
+# Personal names containing a numeral glyph, name-embedded 万 (10000): 万里浪 (Wan Lilang,
+# the Fourth-Brigade traitor) and 万某 ("a certain Wan," the same man named coyly). The
+# 万 is a surname glyph, not a quantity. Cf. the noised 毛万里 / 万里兄 above. English
+# carries the romanized names.
+万里浪
+万某
+# Idiom 百利而无一损 "all gain and not one loss" (有百利而无一损的); the 百 (100) and 一
+# (1) are rhetorical, not counts. English renders "all gain and no loss".
+百利而无一损
+# Idiom 万般(出于无奈) "in every way / utterly (out of helplessness)"; the 万 is not the
+# count 10000. Cf. 万全 / 万难 above. English renders "wholly out of helplessness".
+万般
+# Name-context bare 万 (Wan, i.e. Wan Lilang named coyly): 万即忽已变节 "Wan then suddenly
+# was heard to have changed sides." The 万 is the surname glyph, not 10000. Cf. 万里浪 /
+# 万某 above. English carries the name "Wan."
+万即
+# Event date-name 七一四(事件) "the July 14th Affair", read as 714 by the checker; a
+# named event (cf. 九一八 / 一二八 above), not a count. English names it "the Fourteenth
+# of July Affair"; the real calendar date 七月十四日 is carried as "the fourteenth of July".
+七一四
+# Digitization glitch 接二连二 for the idiom 接二连三 "one after another" (接二连二已发生);
+# the 二 are not counts. Listed in PROGRESS.md. Cf. the correct 接二连三 rule above.
+接二连二
+# Idiom 四出 "out on all sides / in every direction" (侦骑四出); the 四 is not the count 4.
+四出
+# Idiom 凋零 "withered and fallen / passed away" (制作者早已凋零); the 零 is not the numeral 0.
+凋零
+# Name-context bare 万兄 "Brother Wan" (= Mao Wanli; 万兄既然认定); the 万 is the surname
+# glyph, not 10000. Cf. 万里兄 above.
+万兄
+# Name-context bare 万里 (Mao Wanli named without 毛/兄; 我和万里有深厚的私交, 万里与我二人).
+# The 万 is the surname glyph, not 10000. MUST come after the longer 毛万里 / 万里兄 /
+# 万里浪 rules so those strip first and this only mops up the bare form. English carries "Wanli".
+万里

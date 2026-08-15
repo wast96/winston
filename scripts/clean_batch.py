@@ -351,6 +351,36 @@ UNITS = {
         "drop": 3,
         "merges": [], "glued": {}, "standalone": [],
     },
+    "ch21": {
+        "file": "22_index-split-000-0020.txt",
+        "title": "第一章 十里洋场重振雄威",
+        "drop": 2,             # running header + <h2> chapter title
+        # 162 source <p> (proven p-by-p against the source XHTML: 1 <h2> + 162
+        # <p>, zero mismatches; no <h1>, no <br/>, no images, no [\d+] note
+        # markers). THREE mid-phrase splits where the source <p> boundary severs
+        # one sentence (first ends non-terminal, no chains): L56/57 (…是办理制裁 |
+        # 汪精卫的项目。 — one enumerated 一、 item split at 制裁|汪精卫), L93/94
+        # (…工作甚为吃重，这或者 | 就是戴先生不同意他留在上海的理由了吧。), L107/108
+        # (…也要提供不少 | 条件再加上一番经营才成。). The ：/-ended lead-ins (L19 …作了
+        # 一番分析：, L45 …补充说明者：, L51 「七一四事件之有惊无险」- and L66 「惠尔登舞厅
+        # 内之惊险一幕」- the quoted-title dash lead-ins, L52 …其原因如下：, L55 …再加以
+        # 解释如下：, L71 …得知如下情况：, L75 …再加以解释如下：), the 一、-八、 / 1-4
+        # enumerated items, and the 『』-closed dialogue lines are DELIBERATE
+        # separate <p> and are NOT merged (cf. ch16/ch17/ch18). L86 (…如何应用了)
+        # ends on 了 with the source's 。 dropped — a DELIBERATE paragraph break
+        # (new topic follows), NOT a split; rendered as its own paragraph.
+        # WATCH: the serialization coda "(第一章完下期续载)" is glued to the tail of
+        # L157, with SEVEN further <p> (L158-L164) after it — a magazine-installment
+        # seam faithfully reproduced (cf. the "(第N章完)" coda in ch12/ch13/ch16);
+        # resolved p-by-p and preserved as body text.
+        "merges": [(56, 57), (93, 94), (107, 108)],
+        # four couplet-style sub-headings (NO number prefix; cf. ch11/ch14), each
+        # its own plain <p> in the source (standalone): L3 死无对证永成悬疑的一桩大反间,
+        # L37 危机四伏中稳扎稳打渡过难关, L82 我们的敌后工作指挥中心别具一格,
+        # L112 无形火线上无所不在的战斗行动者剪影. No glued tails.
+        "glued": {},
+        "standalone": [3, 37, 82, 112],
+    },
 }
 
 
