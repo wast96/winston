@@ -93,20 +93,35 @@ def main(path):
         sys.exit("%d unresolved anchors; nothing written" % problems)
 
     if "glossary" in batch:
+        # glossary.json is SECTIONED ({section: {zh: row}}); the builder's
+        # render_glossary and qc_entities both iterate the top level as
+        # sections. A row names its section with an optional "section" field
+        # (default "terms"); the field is metadata and is stripped before the
+        # row is stored. Presence is checked ACROSS all sections so a referent
+        # is never duplicated into two headings.
         g = load("glossary.json", {})
+        existing = {zh for sec, ent in g.items()
+                    if not sec.startswith("_") and isinstance(ent, dict)
+                    for zh in ent}
         added = skipped = 0
         for zh, row in batch["glossary"].items():
-            if zh in g:
+            if zh in existing:
                 skipped += 1
-            else:
-                g[zh] = row
-                added += 1
+                continue
+            row = dict(row)
+            section = row.pop("section", "terms")
+            g.setdefault(section, {})[zh] = row
+            existing.add(zh)
+            added += 1
         back = save("glossary.json", g)
-        for zh, row in batch["glossary"].items():
-            if zh not in back:
+        placed = {zh for sec, ent in back.items()
+                  if not sec.startswith("_") and isinstance(ent, dict)
+                  for zh in ent}
+        for zh in batch["glossary"]:
+            if zh not in placed:
                 sys.exit("re-read verification failed for glossary %s" % zh)
         print("glossary: %d added, %d already present (left untouched), "
-              "%d total" % (added, skipped, len(g)))
+              "%d referents total" % (added, skipped, len(placed)))
 
     if "notes" in batch:
         n = load("notes.json", {})

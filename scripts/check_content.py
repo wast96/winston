@@ -57,6 +57,10 @@ def name_map(path):
     if not os.path.exists(path):
         return out
     for _cat, entries in json.load(open(path)).items():
+        # top-level keys starting with '_' are metadata (e.g. _about), not
+        # sections; their value is a string, not a {zh: row} dict.
+        if _cat.startswith("_") or not isinstance(entries, dict):
+            continue
         for zh, e in entries.items():
             en = e.get("en", "")
             if zh in AUTHOR:

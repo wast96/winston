@@ -1,15 +1,245 @@
 {
   "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
-  "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
-  "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
+  "people": {
+    "陈养山": {
+      "en": "Chen Yangshan",
+      "pinyin": "Chen Yangshan",
       "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+      "principal": true,
+      "cast": "The book's subject; a Central Special Branch intelligence officer, born Cheng Yangshan in Shangyu, Zhejiang, 1906.",
+      "cast_order": 1,
+      "note": "Original name 程仰山 Cheng Yangshan; changed to 陈养山 on taking up secret work."
+    },
+    "恽代英": {
+      "en": "Yun Daiying",
+      "pinyin": "Yun Daiying",
+      "status": "decided",
+      "principal": true,
+      "cast": "CCP youth organizer and editor of China Youth; the man who drew Chen Yangshan to revolution. 1895-1931.",
+      "cast_order": 2
+    },
+    "贺龙": {
+      "en": "He Long",
+      "pinyin": "He Long",
+      "status": "attested",
+      "principal": true,
+      "cast": "Nanchang Uprising commander whom Chen Yangshan shielded in Shanghai in 1927; later a PLA marshal.",
+      "cast_order": 3,
+      "note": "authority.json: agreed 'He Long'."
+    },
+    "章素贞": {
+      "en": "Zhang Suzhen",
+      "pinyin": "Zhang Suzhen",
+      "status": "decided",
+      "note": "Chen Yangshan's wife; later joined the Central Special Branch."
+    },
+    "任弼时": {
+      "en": "Ren Bishi",
+      "pinyin": "Ren Bishi",
+      "status": "decided"
+    },
+    "林育南": {
+      "en": "Lin Yunan",
+      "pinyin": "Lin Yunan",
+      "status": "decided"
+    },
+    "陈潭秋": {
+      "en": "Chen Tanqiu",
+      "pinyin": "Chen Tanqiu",
+      "status": "decided"
+    },
+    "项英": {
+      "en": "Xiang Ying",
+      "pinyin": "Xiang Ying",
+      "status": "decided"
+    },
+    "王一飞": {
+      "en": "Wang Yifei",
+      "pinyin": "Wang Yifei",
+      "status": "decided"
+    },
+    "周恩来": {
+      "en": "Zhou Enlai",
+      "pinyin": "Zhou Enlai",
+      "status": "attested",
+      "note": "authority.json: agreed 'Zhou Enlai'."
+    },
+    "李维汉": {
+      "en": "Li Weihan",
+      "pinyin": "Li Weihan",
+      "status": "decided"
+    },
+    "瞿秋白": {
+      "en": "Qu Qiubai",
+      "pinyin": "Qu Qiubai",
+      "status": "decided"
+    },
+    "陈独秀": {
+      "en": "Chen Duxiu",
+      "pinyin": "Chen Duxiu",
+      "status": "attested",
+      "note": "authority.json: agreed 'Chen Duxiu'."
+    },
+    "陈赓": {
+      "en": "Chen Geng",
+      "pinyin": "Chen Geng",
+      "status": "decided",
+      "note": "Ran the Central Special Branch's operations; recruited Zhang Suzhen."
+    },
+    "顾顺章": {
+      "en": "Gu Shunzhang",
+      "pinyin": "Gu Shunzhang",
+      "status": "attested",
+      "note": "authority.json: agreed 'Gu Shunzhang'. His 1931 defection gutted the CCP underground."
+    },
+    "鲍君甫": {
+      "en": "Bao Junfu",
+      "pinyin": "Bao Junfu",
+      "status": "decided"
+    },
+    "蒋介石": {
+      "en": "Chiang Kai-shek",
+      "pinyin": "Jiang Jieshi",
+      "status": "attested",
+      "note": "authority.json: agreed conventional form 'Chiang Kai-shek'."
+    },
+    "汪精卫": {
+      "en": "Wang Jingwei",
+      "pinyin": "Wang Jingwei",
+      "status": "attested",
+      "note": "authority.json: agreed 'Wang Jingwei'."
+    },
+    "吴佩孚": {
+      "en": "Wu Peifu",
+      "pinyin": "Wu Peifu",
+      "status": "attested",
+      "note": "authority.json: agreed 'Wu Peifu'."
+    },
+    "曹锟": {
+      "en": "Cao Kun",
+      "pinyin": "Cao Kun",
+      "status": "attested",
+      "note": "authority.json: agreed 'Cao Kun'."
+    },
+    "张作霖": {
+      "en": "Zhang Zuolin",
+      "pinyin": "Zhang Zuolin",
+      "status": "decided"
+    },
+    "顾正红": {
+      "en": "Gu Zhenghong",
+      "pinyin": "Gu Zhenghong",
+      "status": "decided"
+    },
+    "刘华": {
+      "en": "Liu Hua",
+      "pinyin": "Liu Hua",
+      "status": "decided"
+    },
+    "李立三": {
+      "en": "Li Lisan",
+      "pinyin": "Li Lisan",
+      "status": "decided"
+    },
+    "罗青长": {
+      "en": "Luo Qingchang",
+      "pinyin": "Luo Qingchang",
+      "status": "decided"
+    },
+    "黄金荣": {
+      "en": "Huang Jinrong",
+      "pinyin": "Huang Jinrong",
+      "status": "attested",
+      "note": "authority.json: agreed 'Huang Jinrong'."
+    },
+    "杜月笙": {
+      "en": "Du Yuesheng",
+      "pinyin": "Du Yuesheng",
+      "status": "attested",
+      "note": "authority.json: agreed 'Du Yuesheng'."
+    }
+  },
+  "organizations": {
+    "中央特科": {
+      "en": "the Central Special Branch",
+      "pinyin": "Zhongyang Teke",
+      "status": "attested",
+      "note": "authority.json: agreed 'the Central Special Branch' / 'Central Special Branch'. The CCP Central Committee's clandestine intelligence and security organ, Shanghai, from 1927."
+    },
+    "中国青年": {
+      "en": "China Youth",
+      "pinyin": "Zhongguo Qingnian",
+      "status": "decided",
+      "note": "The Socialist Youth League's magazine, edited by Yun Daiying."
+    },
+    "国民党": {
+      "en": "the Kuomintang",
+      "pinyin": "Guomindang",
+      "status": "attested",
+      "note": "authority.json: agreed conventional form 'Kuomintang' (article varies)."
+    },
+    "工部局": {
+      "en": "the Municipal Council",
+      "pinyin": "gongbuju",
+      "status": "decided",
+      "note": "The Shanghai Municipal Council, governing body of the International Settlement."
+    }
+  },
+  "places": {
+    "京汉铁路": {
+      "en": "the Beijing-Hankou Railway",
+      "pinyin": "Jing-Han tielu",
+      "status": "decided"
+    },
+    "上虞": {
+      "en": "Shangyu",
+      "pinyin": "Shangyu",
+      "status": "decided"
+    },
+    "武汉": {
+      "en": "Wuhan",
+      "pinyin": "Wuhan",
+      "status": "attested",
+      "note": "authority.json: agreed 'Wuhan'."
+    },
+    "汉口": {
+      "en": "Hankou",
+      "pinyin": "Hankou",
+      "status": "attested",
+      "note": "authority.json: agreed 'Hankou'."
+    },
+    "上海": {
+      "en": "Shanghai",
+      "pinyin": "Shanghai",
+      "status": "attested"
+    },
+    "晋绥边区": {
+      "en": "the Jin-Sui Border Region",
+      "pinyin": "Jin-Sui bianqu",
+      "status": "decided"
+    }
+  },
+  "events": {
+    "五卅运动": {
+      "en": "the May Thirtieth Movement",
+      "pinyin": "Wusa Yundong",
+      "status": "decided"
+    },
+    "二七惨案": {
+      "en": "the February 7 Massacre",
+      "pinyin": "Erqi Can'an",
+      "status": "decided"
+    },
+    "北伐": {
+      "en": "the Northern Expedition",
+      "pinyin": "Beifa",
+      "status": "attested",
+      "note": "authority.json: agreed 'Northern Expedition'."
+    },
+    "南昌起义": {
+      "en": "the Nanchang Uprising",
+      "pinyin": "Nanchang Qiyi",
+      "status": "decided"
     }
   }
 }

@@ -1,0 +1,439 @@
+{
+  "glossary": {
+    "陈养山": {
+      "en": "Chen Yangshan",
+      "pinyin": "Chen Yangshan",
+      "status": "decided",
+      "principal": true,
+      "cast": "The book's subject; a Central Special Branch intelligence officer, born Cheng Yangshan in Shangyu, Zhejiang, 1906.",
+      "cast_order": 1,
+      "note": "Original name 程仰山 Cheng Yangshan; changed to 陈养山 on taking up secret work.",
+      "section": "people"
+    },
+    "恽代英": {
+      "en": "Yun Daiying",
+      "pinyin": "Yun Daiying",
+      "status": "decided",
+      "principal": true,
+      "cast": "CCP youth organizer and editor of China Youth; the man who drew Chen Yangshan to revolution. 1895-1931.",
+      "cast_order": 2,
+      "section": "people"
+    },
+    "贺龙": {
+      "en": "He Long",
+      "pinyin": "He Long",
+      "status": "attested",
+      "principal": true,
+      "cast": "Nanchang Uprising commander whom Chen Yangshan shielded in Shanghai in 1927; later a PLA marshal.",
+      "cast_order": 3,
+      "note": "authority.json: agreed 'He Long'.",
+      "section": "people"
+    },
+    "章素贞": {
+      "en": "Zhang Suzhen",
+      "pinyin": "Zhang Suzhen",
+      "status": "decided",
+      "note": "Chen Yangshan's wife; later joined the Central Special Branch.",
+      "section": "people"
+    },
+    "任弼时": {
+      "en": "Ren Bishi",
+      "pinyin": "Ren Bishi",
+      "status": "decided",
+      "section": "people"
+    },
+    "林育南": {
+      "en": "Lin Yunan",
+      "pinyin": "Lin Yunan",
+      "status": "decided",
+      "section": "people"
+    },
+    "陈潭秋": {
+      "en": "Chen Tanqiu",
+      "pinyin": "Chen Tanqiu",
+      "status": "decided",
+      "section": "people"
+    },
+    "项英": {
+      "en": "Xiang Ying",
+      "pinyin": "Xiang Ying",
+      "status": "decided",
+      "section": "people"
+    },
+    "王一飞": {
+      "en": "Wang Yifei",
+      "pinyin": "Wang Yifei",
+      "status": "decided",
+      "section": "people"
+    },
+    "周恩来": {
+      "en": "Zhou Enlai",
+      "pinyin": "Zhou Enlai",
+      "status": "attested",
+      "note": "authority.json: agreed 'Zhou Enlai'.",
+      "section": "people"
+    },
+    "李维汉": {
+      "en": "Li Weihan",
+      "pinyin": "Li Weihan",
+      "status": "decided",
+      "section": "people"
+    },
+    "瞿秋白": {
+      "en": "Qu Qiubai",
+      "pinyin": "Qu Qiubai",
+      "status": "decided",
+      "section": "people"
+    },
+    "陈独秀": {
+      "en": "Chen Duxiu",
+      "pinyin": "Chen Duxiu",
+      "status": "attested",
+      "note": "authority.json: agreed 'Chen Duxiu'.",
+      "section": "people"
+    },
+    "陈赓": {
+      "en": "Chen Geng",
+      "pinyin": "Chen Geng",
+      "status": "decided",
+      "note": "Ran the Central Special Branch's operations; recruited Zhang Suzhen.",
+      "section": "people"
+    },
+    "顾顺章": {
+      "en": "Gu Shunzhang",
+      "pinyin": "Gu Shunzhang",
+      "status": "attested",
+      "note": "authority.json: agreed 'Gu Shunzhang'. His 1931 defection gutted the CCP underground.",
+      "section": "people"
+    },
+    "鲍君甫": {
+      "en": "Bao Junfu",
+      "pinyin": "Bao Junfu",
+      "status": "decided",
+      "section": "people"
+    },
+    "蒋介石": {
+      "en": "Chiang Kai-shek",
+      "pinyin": "Jiang Jieshi",
+      "status": "attested",
+      "note": "authority.json: agreed conventional form 'Chiang Kai-shek'.",
+      "section": "people"
+    },
+    "汪精卫": {
+      "en": "Wang Jingwei",
+      "pinyin": "Wang Jingwei",
+      "status": "attested",
+      "note": "authority.json: agreed 'Wang Jingwei'.",
+      "section": "people"
+    },
+    "吴佩孚": {
+      "en": "Wu Peifu",
+      "pinyin": "Wu Peifu",
+      "status": "attested",
+      "note": "authority.json: agreed 'Wu Peifu'.",
+      "section": "people"
+    },
+    "曹锟": {
+      "en": "Cao Kun",
+      "pinyin": "Cao Kun",
+      "status": "attested",
+      "note": "authority.json: agreed 'Cao Kun'.",
+      "section": "people"
+    },
+    "张作霖": {
+      "en": "Zhang Zuolin",
+      "pinyin": "Zhang Zuolin",
+      "status": "decided",
+      "section": "people"
+    },
+    "顾正红": {
+      "en": "Gu Zhenghong",
+      "pinyin": "Gu Zhenghong",
+      "status": "decided",
+      "section": "people"
+    },
+    "刘华": {
+      "en": "Liu Hua",
+      "pinyin": "Liu Hua",
+      "status": "decided",
+      "section": "people"
+    },
+    "李立三": {
+      "en": "Li Lisan",
+      "pinyin": "Li Lisan",
+      "status": "decided",
+      "section": "people"
+    },
+    "罗青长": {
+      "en": "Luo Qingchang",
+      "pinyin": "Luo Qingchang",
+      "status": "decided",
+      "section": "people"
+    },
+    "黄金荣": {
+      "en": "Huang Jinrong",
+      "pinyin": "Huang Jinrong",
+      "status": "attested",
+      "note": "authority.json: agreed 'Huang Jinrong'.",
+      "section": "people"
+    },
+    "杜月笙": {
+      "en": "Du Yuesheng",
+      "pinyin": "Du Yuesheng",
+      "status": "attested",
+      "note": "authority.json: agreed 'Du Yuesheng'.",
+      "section": "people"
+    },
+    "中央特科": {
+      "en": "the Central Special Branch",
+      "pinyin": "Zhongyang Teke",
+      "status": "attested",
+      "note": "authority.json: agreed 'the Central Special Branch' / 'Central Special Branch'. The CCP Central Committee's clandestine intelligence and security organ, Shanghai, from 1927.",
+      "section": "organizations"
+    },
+    "中国青年": {
+      "en": "China Youth",
+      "pinyin": "Zhongguo Qingnian",
+      "status": "decided",
+      "note": "The Socialist Youth League's magazine, edited by Yun Daiying.",
+      "section": "organizations"
+    },
+    "五卅运动": {
+      "en": "the May Thirtieth Movement",
+      "pinyin": "Wusa Yundong",
+      "status": "decided",
+      "section": "events"
+    },
+    "二七惨案": {
+      "en": "the February 7 Massacre",
+      "pinyin": "Erqi Can'an",
+      "status": "decided",
+      "section": "events"
+    },
+    "京汉铁路": {
+      "en": "the Beijing-Hankou Railway",
+      "pinyin": "Jing-Han tielu",
+      "status": "decided",
+      "section": "places"
+    },
+    "北伐": {
+      "en": "the Northern Expedition",
+      "pinyin": "Beifa",
+      "status": "attested",
+      "note": "authority.json: agreed 'Northern Expedition'.",
+      "section": "events"
+    },
+    "国民党": {
+      "en": "the Kuomintang",
+      "pinyin": "Guomindang",
+      "status": "attested",
+      "note": "authority.json: agreed conventional form 'Kuomintang' (article varies).",
+      "section": "organizations"
+    },
+    "工部局": {
+      "en": "the Municipal Council",
+      "pinyin": "gongbuju",
+      "status": "decided",
+      "note": "The Shanghai Municipal Council, governing body of the International Settlement.",
+      "section": "organizations"
+    },
+    "上虞": {
+      "en": "Shangyu",
+      "pinyin": "Shangyu",
+      "status": "decided",
+      "section": "places"
+    },
+    "武汉": {
+      "en": "Wuhan",
+      "pinyin": "Wuhan",
+      "status": "attested",
+      "note": "authority.json: agreed 'Wuhan'.",
+      "section": "places"
+    },
+    "汉口": {
+      "en": "Hankou",
+      "pinyin": "Hankou",
+      "status": "attested",
+      "note": "authority.json: agreed 'Hankou'.",
+      "section": "places"
+    },
+    "上海": {
+      "en": "Shanghai",
+      "pinyin": "Shanghai",
+      "status": "attested",
+      "section": "places"
+    },
+    "南昌起义": {
+      "en": "the Nanchang Uprising",
+      "pinyin": "Nanchang Qiyi",
+      "status": "decided",
+      "section": "events"
+    },
+    "晋绥边区": {
+      "en": "the Jin-Sui Border Region",
+      "pinyin": "Jin-Sui bianqu",
+      "status": "decided",
+      "section": "places"
+    }
+  },
+  "notes": {
+    "ch01": [
+      {
+        "anchor": "courtesy name Yingliu",
+        "note": "A Chinese man of this milieu carried several names: a given name (here 仰山 Yangshan) and a formal <i>zi</i> or courtesy name (应骝 Yingliu) taken at adulthood and used by peers. Chen also changed his surname from Cheng (程) to Chen (陈) when he entered underground work, a common precaution; the book's title and this translation use the revolutionary name throughout."
+      },
+      {
+        "anchor": "held the metropolitan degree",
+        "note": "The <i>jinshi</i>, the highest degree in the imperial civil-service examinations and the gateway to senior office. A salt commissioner (盐政使) oversaw the lucrative state salt monopoly; the grandfather's rank marks the family as one of real standing before its decline."
+      },
+      {
+        "anchor": "Commentary on the Water Classic",
+        "note": "The <i>Shuijing zhu</i>, a celebrated early-sixth-century work by Li Daoyuan expanding a terse older gazetteer of China's rivers into a vast topographical and folkloric survey. Citing it lends the local lake an ancient pedigree."
+      },
+      {
+        "anchor": "the filial daughter Cao E",
+        "note": "A classic tale of filial devotion. The historical Cao E stele (曹娥碑) is real and famous, chiefly for a riddling inscription later added to it; the drowning legend is traditional rather than documented. Cao'e, the girl's name, was in time given to the river and the county town themselves."
+      },
+      {
+        "anchor": "national salvation through industry",
+        "note": "<i>Shiye jiuguo</i>, the early-twentieth-century conviction that China could be saved by building modern commerce and industry rather than by politics. Chen's abandonment of it for revolution is the arc of this chapter; the parallel slogan 'salvation through education' appears below."
+      },
+      {
+        "anchor": "the May Fourth Movement broke out in 1919",
+        "note": "The student-led protests of May 4, 1919, against the Versailles award of German concessions in Shandong to Japan, which swelled into a nationwide movement for cultural renewal and against imperialism and warlordism. It is conventionally taken as the seedbed of Chinese Communism."
+      },
+      {
+        "anchor": "the notorious February 7 Massacre",
+        "note": "The <i>Erqi</i> incident of February 7, 1923: the warlord Wu Peifu, of the Zhili clique that then controlled the Beijing-Hankou line, crushed the railwaymen's strike by force. It became a founding martyrdom of the Chinese labor movement. The casualty figures here are the book's."
+      },
+      {
+        "anchor": "more than two thousand li of it",
+        "note": "The <i>li</i> is a traditional Chinese unit of distance, in the modern period standardized at half a kilometer; two thousand li is roughly a thousand kilometers, about the length of the Beijing-Hankou line."
+      },
+      {
+        "anchor": "the magazine China Youth",
+        "note": "<i>Zhongguo qingnian</i>, launched in 1923 as the organ of the Socialist Youth League and edited by Yun Daiying, among the most influential progressive periodicals of its day among young readers."
+      },
+      {
+        "anchor": "the Socialist Youth League of China",
+        "note": "The Communist Party's youth organization, founded 1922, from which promising members like Chen graduated into full Party membership; the forerunner of today's Communist Youth League."
+      },
+      {
+        "anchor": "the League Central secretary, Ren Bishi",
+        "note": "Ren Bishi (1904-1950), then a very young secretary of the Youth League's central committee, later one of the five top leaders of the CCP alongside Mao, Liu Shaoqi, Zhou Enlai and Zhu De."
+      },
+      {
+        "anchor": "the death of Lenin",
+        "note": "Lenin died on January 21, 1924; memorial issues of the Chinese left press introduced many young readers, Chen among them, to the Soviet model as a template for China's own revolution."
+      },
+      {
+        "anchor": "a captive of Chu",
+        "note": "The closing image of Yun Daiying's prison poem. 'A captive of Chu' (<i>Chu qiu</i>) is a classical byword, from the <i>Zuo zhuan</i>, for a prisoner who keeps his dignity and loyalty in captivity. The book reproduces the poem in Zhou Enlai's own 1953 hand and prints it as shown here; other published texts of the poem read slightly differently in two characters, a variation left as the book gives it."
+      },
+      {
+        "anchor": "the May Thirtieth Movement",
+        "note": "The nationwide anti-imperialist upheaval of 1925, touched off by the events this section narrates: British-officered police in Shanghai's foreign settlement shooting Chinese demonstrators. It marks the high tide of the mid-1920s revolution."
+      },
+      {
+        "anchor": "the International Settlement",
+        "note": "The foreign-run enclave in central Shanghai, outside Chinese jurisdiction, administered by the Shanghai Municipal Council (the 工部局) with its own police force and, for cases involving Chinese, the Mixed Court. That an armed foreign administration policed Chinese streets is the standing grievance behind this whole episode."
+      },
+      {
+        "anchor": "the council's chief inspector, McEuen",
+        "note": "K. J. McEuen, Commissioner of the Shanghai Municipal Police in 1925. His order to fire and the killings that followed on Nanjing Road on May 30 made him a lasting symbol of the settlement's use of force against Chinese; he was later removed amid the outcry."
+      },
+      {
+        "anchor": "carried the Northern Expedition victoriously into Hubei",
+        "note": "The Northern Expedition (1926-1928), the Kuomintang-Communist military campaign out of Guangdong to defeat the northern warlords and reunify China; its early advance into the central provinces frames much of this chapter's action."
+      },
+      {
+        "anchor": "the April 12 counter-revolutionary coup",
+        "note": "On April 12, 1927, Chiang Kai-shek turned on his Communist allies in Shanghai, massacring Communists and labor activists with gangster help and ending the first Kuomintang-Communist united front. The 'white terror' (白色恐怖) that follows in the book is the term for the wave of arrests and killings across the country afterward."
+      },
+      {
+        "anchor": "an armed uprising at Nanchang",
+        "note": "The Nanchang Uprising of August 1, 1927, the Communists' first armed revolt against the Kuomintang after the split; its date is now marked as the founding day of the People's Liberation Army. He Long, then a Kuomintang general, was one of its commanders, which is why he was hunted afterward."
+      },
+      {
+        "anchor": "a reward of 100,000 silver dollars",
+        "note": "The silver dollar (<i>dayang</i>) was the standard hard currency of Republican China; a hundred thousand of them was an enormous bounty, a measure of how badly the Kuomintang wanted He Long."
+      },
+      {
+        "anchor": "societies and secret sects of men like Huang Jinrong and Du Yuesheng",
+        "note": "Huang Jinrong and Du Yuesheng were the bosses of Shanghai's Green Gang, the criminal fraternity that ran the city's underworld and that Chiang Kai-shek used as muscle in the April 12 purge; secret sects (会道门) were popular quasi-religious brotherhoods."
+      },
+      {
+        "anchor": "working in the Central Special Branch",
+        "note": "The <i>Zhongyang teke</i>, the CCP's clandestine intelligence and security service in Shanghai, set up under Zhou Enlai after the 1927 split to protect the underground, gather intelligence, and punish traitors. It is the world in which the rest of this book unfolds, and Chen Yangshan's life's work."
+      },
+      {
+        "anchor": "the traitor Gu Shunzhang",
+        "note": "Gu Shunzhang, a senior Special Branch operative whose capture and defection in April 1931 exposed much of the CCP underground and led directly to the deaths of many, including Yun Daiying. His name recurs through this book as its great catastrophe."
+      }
+    ]
+  },
+  "figures": {
+    "ch01": [
+      {
+        "file": "p0016-f1.png",
+        "before": "Chen Yangshan, in the very flush of a young man",
+        "alt": "Several overlapping issues of the magazine China Youth, their covers worn and spotted, the title in bold characters at the head.",
+        "caption": "China Youth, the magazine Yun Daiying edited."
+      },
+      {
+        "file": "p0017-f1.png",
+        "before": "Yun Daiying (1895",
+        "alt": "A studio head-and-shoulders portrait of a young man with a shaved head and a plain gown, looking gravely at the camera.",
+        "caption": "Yun Daiying, the man who led Chen Yangshan to revolution."
+      },
+      {
+        "file": "p0018-f1.png",
+        "before": "Wandering the rivers and lakes",
+        "alt": "Four lines of cursive Chinese calligraphy in Zhou Enlai's hand, signed and dated 1953, over faint show-through from the page behind.",
+        "caption": "Yun Daiying's prison poem, written out in 1953 in Zhou Enlai's own hand."
+      },
+      {
+        "file": "p0019-f1.png",
+        "before": "One day in July 1924 Chen Yangshan received",
+        "alt": "A young man in a dark gown sits in a rattan chair beside a small table with a vase, arms folded, before a painted studio backdrop.",
+        "caption": "Chen Yangshan as a shop clerk in Hankou, 1924."
+      },
+      {
+        "file": "p0024-f1.png",
+        "before": "May 5 was the 107th anniversary of Marx",
+        "alt": "A studio portrait of a young man in a peaked army cap with a star, a moustache, gazing to one side.",
+        "caption": "Ren Bishi."
+      },
+      {
+        "file": "p0029-f1.png",
+        "before": "By this time Yun Daiying was setting up the Shanghai Transport Office",
+        "alt": "A crowded 1920s riverfront: densely moored boats and sampans along a bund, warehouses and a busy shore behind.",
+        "caption": "By the 1920s and 1930s Shanghai had risen, where China's golden waterway meets its golden coast, into a great city the world watched, its foreign quarter gathering all the glamour and extravagance of modern urban life."
+      },
+      {
+        "file": "p0031-f1.png",
+        "before": "Wang Yifei joined the Socialist Youth League",
+        "alt": "A studio head-and-shoulders portrait of a young man in round spectacles and a dark jacket.",
+        "caption": "Wang Yifei."
+      },
+      {
+        "file": "p0032-f1.png",
+        "before": "In the winter of 1926 Zhejiang urgently needed cadres",
+        "alt": "Two young men in gowns pose in a studio, one standing behind the other, who is seated.",
+        "caption": "Chen Yangshan, at right, during united-front work in Ningbo, 1926."
+      },
+      {
+        "file": "p0033-f1.png",
+        "before": "On July 15 of the same year, Wang Jingwei",
+        "alt": "A street scene: uniformed soldiers and officers marching bound and bareheaded prisoners along a road past onlookers.",
+        "caption": "After the April 12 coup the killing began. In the surviving photographs, mostly one sees patriots trussed hand and foot, and reactionary soldiers shouldering broadswords."
+      },
+      {
+        "file": "p0034-f1.png",
+        "before": "To make certain of He Long",
+        "alt": "A studio portrait of a broad-faced man in a fur-brimmed cap with a heavy moustache.",
+        "caption": "He Long."
+      }
+    ]
+  }
+}

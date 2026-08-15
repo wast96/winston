@@ -35,3 +35,35 @@
 # 九龍
 # weekdays carry no quantity — rendered "Monday" etc.
 # 星期[一二三四五六]
+# 李立三 Li Lisan — a personal name; the 三 is not a quantity
+李立三
+# 一分为二 "everything has two sides" — rendered as the idiom, no count
+一分为二
+# 二话没说 "without a word" — 二话 is idiomatic, not a quantity
+二话
+# 百年之后 "after he is gone" (lit. after a hundred years) — no quantity
+百年
+# 四一二(反革命政变) the April 12 coup — a date-name, rendered "April 12"
+四一二
+# “三罢” the triple strike (workers/students/merchants) — rendered "triple strike"
+三罢
+# 万岁 "long live" (lit. ten thousand years) — a slogan, no quantity
+万岁
+# 九江 Jiujiang — a place name; the 九 is not a quantity
+九江
+# 矢田七太郎 Yada Shichitaro — a Japanese personal name (Shichi/七)
+矢田七太郎
+# 四出(活动) "went about in all directions" — idiom, no count
+四出
+# 20多万工人 — rendered "more than 200,000 workers"; approximate magnitude carried in English
+20多万
+# 5万多学生 — rendered "more than 50,000 students"; magnitude carried in English
+5万多
+# 25万工人 — rendered "250,000 workers"; magnitude carried in English
+25万
+# 百官(镇) Baiguan — a place name; the 百 is not a quantity
+百官
+# 百姓 "the common people" — a compound, no quantity
+百姓
+# 一石激起千层浪 "one stone, a thousand ripples" — an idiom (千 is not a count); rendered plainly
+千层浪

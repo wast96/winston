@@ -41,3 +41,8 @@ out/*_bilingual.md
 # Keep source.pdf and committed figure crops (data/figs/*.png) TRACKED.
 # If your scan is very large and you would rather not commit it, add:
 #   source.pdf
+
+# Voice-gate blind-critic input: regenerates from out/<unit>_reading.md via
+# voice_gate_critique.py prepare. The RETURNED critiques (review/voice_gate/)
+# are tracked; this assembled prompt is not.
+out/*_critique_prompt.md

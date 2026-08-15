@@ -109,20 +109,44 @@ def strip_folio(lines):
 
 
 def strip_runfoot(lines):
-    """Drop the running foot (the chapter title) if it survived the crop.
+    """Drop the running foot if it survived the crop.
 
-    Body descenders reach ~0.92 of page height, the foot sits just below, so the
-    crop keeps a sliver of it on some pages. The foot is the chapter title,
-    '第X章 ...', printed once per page in the bottom margin. It cannot be blanket
-    filtered because the same string is a REAL heading on a chapter's opening
-    page -- but there it is near the top, never the last line. So: strip it only
-    when it is the last non-empty line of the page.
+    Body descenders reach ~0.94 of page height and the foot sits in the same
+    band (recto body text and the verso foot overlap globally), so the crop is
+    kept generous to never clip a body line and the foot is removed textually.
+    Two foot shapes occur in this book:
+
+    - On chapter-opening pages the foot is the chapter title '第X章 ...'. It
+      cannot be blanket-filtered because the same string is a REAL heading at
+      the TOP of a chapter's first page, so strip it only as the LAST line.
+    - On every verso the foot is the BOOK TITLE (RUNNING_HEAD), printed with a
+      folio digit and a '▶' marker that OCRs as noise ("2 / | 因 秘战英雄陈养山").
+      A real body line never ENDS with the exact book-title han-run carrying
+      only a short furniture prefix, so match on that: the han-only tail equals
+      RUNNING_HEAD and the whole line is short.
     """
     while lines and not lines[-1].strip():
         lines.pop()
     if lines:
         last = lines[-1].strip()
         if len(last) <= 16 and re.match(r"^第[一二三四五六七八九十百]+章", last):
+            lines.pop()
+            return lines
+        if RUNNING_HEAD:
+            han = re.sub(r"[^一-鿿]", "", last)
+            # foot = short line whose han tail is the book title, prefixed by at
+            # most a folio digit and a mis-OCR'd marker glyph (<=2 extra han).
+            if (han.endswith(RUNNING_HEAD)
+                    and len(han) <= len(RUNNING_HEAD) + 2
+                    and len(last) <= len(RUNNING_HEAD) + 10):
+                lines.pop()
+                return lines
+        # Badly mis-OCR'd verso foot: the folio digit, the '▶' marker and the
+        # decorative vertical rules read as pipe/junk noise ("1n 7/ |因秘战英雄陈美|",
+        # "/ D41 /|秘此英雄陈美||"). This book's body prose never contains a '|',
+        # so a LAST line carrying a pipe is furniture, not text. (Scoped to the
+        # last line only; stray pipes mid-page are cleaned separately.)
+        if "|" in last:
             lines.pop()
     return lines
 
