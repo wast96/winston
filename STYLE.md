@@ -35,7 +35,7 @@ have written this sentence, unprompted, as original English? If it sounds like a
 careful, faithful decoding, it fails. If it sounds like a book someone wrote, it
 passes.
 
-## What "stilted" means here — the failure modes to eliminate
+## What "stilted" means here: the failure modes to eliminate
 
 The general tells, then the Chinese-specific ones.
 
@@ -129,11 +129,23 @@ The general tells, then the Chinese-specific ones.
   the attribution and the literal sense; do not bury it as a bare idiom.
 - **The political / period lexicon: use the established English term, keep the
   register, do not inflate.** `白色恐怖` is "the White Terror"; `反动派` are "the
-  reactionaries"; `叛徒` a "traitor" or "turncoat"; `巡捕房` the "police station"
-  of the concession (gloss at first use); `租界` the "Concessions." These are the
-  author's own charged words (see the partisan-source discipline below): render
-  them as his usage, do not neutralize them into copy-editor's English, and do
-  not intensify them either.
+  reactionaries"; `叛徒` a "traitor" or "turncoat"; `租界` the "Concessions."
+  These are the author's own charged words (see the partisan-source discipline
+  below): render them as his usage, do not neutralize them into copy-editor's
+  English, and do not intensify them either. NOTE: `巡捕房` has THREE different
+  renderings across the sibling books (authority.json shows "concession police
+  station," "police station," "the Municipal Police…"); decide this book's form
+  in glossary.json at first use and hold it, and record the decision back into
+  authority.json. The same goes for any high-frequency term the shelf disagrees
+  on: the glossary decides once, this sheet does not legislate ahead of it.
+- **`同志` ("comrade"): a style decision, provisional until the voice gate.**
+  The honorific saturates CCP historiography (`陈赓同志`) and is part of the
+  author's partisan voice, so it cannot be silently stripped everywhere; but
+  "Comrade X" at every occurrence is leaden in English. Working rule: keep
+  "Comrade" in direct address and dialogue, and where the author's reverence is
+  doing real work (first appearances, the fallen); let the bare name carry
+  routine narration; footnote the convention once at first occurrence. Calibrate
+  at the ch01 voice gate and record the ruling below.
 - **No archaism, no purple.** No mock-antique diction, no Victorian cadence, no
   ornamental adjectives. Period flavour comes from precise nouns (the offices,
   ranks, streets, and organs of 1927-1933 Shanghai), not from fake-old grammar.
@@ -143,8 +155,9 @@ The general tells, then the Chinese-specific ones.
 ### Names and pronouns
 Pinyin, one rendering per referent, decided in `glossary.json` and checked
 against `authority.json` before anything is romanized; conventional English forms
-where established (Chiang Kai-shek, Sun Yat-sen, the Kuomintang, Canton where the
-book means the city of the period). This book's cast is large, mostly male, and
+where established (Chiang Kai-shek, Sun Yat-sen, the Kuomintang). The shelf has
+already agreed `广州` = Guangzhou, not Canton (authority.json, two books); follow
+the ledger, not habit, whenever the two pull apart. This book's cast is large, mostly male, and
 turns over fast, and many figures carry an alias (`王庸` = Chen Geng, `伍豪` =
 Zhou Enlai, `曾培鸿` = Li Qiang): pronoun fog in arrest and chase scenes is a
 real risk. Name a figure on a new beat and when he is the object of the sentence;
@@ -159,15 +172,16 @@ carry the rest.
 - **Use the full toolkit for rhythm.** The period chops and isolates; the colon
   states then expands; the semicolon yokes two balanced clauses. Use all three
   deliberately.
-- **The em dash: at most ONE per sentence, or one matched PAIR bracketing an
-  aside. Never a pile-up.** When a sentence would exceed the budget, swap a dash
-  for a semicolon (a balanced second clause), a comma (a light aside), or a
-  period (split it). Never use a dash for a parenthetical identifying gloss: if a
-  dash is carrying a fact that could be a clause, rewrite it as a clause. (Prose
-  written TO the commissioner uses no em dashes at all; the translation may, as
-  English punctuation demands.) `check_register.py --ref` tracks the em-dash rate
-  against the frozen reference chapter; a jump is a flag to go look.
-- **Comma pile-up is the commonest tell — read it aloud.** A serial list or a
+- **The em dash: at most TWO per sentence.** Two singles or one matched pair
+  bracketing an aside are both fine; three is a pile-up and never ships. When a
+  sentence would exceed the budget, swap a dash for a semicolon (a balanced
+  second clause), a comma (a light aside), or a period (split it). Never use a
+  dash for a parenthetical identifying gloss: if a dash is carrying a fact that
+  could be a clause, rewrite it as a clause. (Prose written TO the commissioner
+  uses no em dashes at all; the translation may, as English punctuation
+  demands.) `check_register.py --ref` tracks the em-dash rate against the
+  frozen reference chapter; a jump is a flag to go look.
+- **Comma pile-up is the commonest tell; read it aloud.** A serial list or a
   single aside is fine; the enemy is one sentence dragging a train of commas
   until it reads breathless. Fixes in order: split into two sentences; delete a
   needless comma (especially before a coordinated verb sharing its subject: "he
@@ -214,7 +228,7 @@ This book runs in five registers; each keeps its own voice.
   neutral exposition loses the book's character. Where that voice is doing
   partisan work, the note says so; the prose keeps the voice.
 
-## The partisan-source discipline — the defining rule of THIS book
+## The partisan-source discipline: the defining rule of THIS book
 The book is a work of Chinese Communist Party history written from within that
 tradition, frankly devoted to its subject and frankly hostile to its enemies.
 Two obligations, and they pull the same way:
@@ -226,7 +240,7 @@ Two obligations, and they pull the same way:
    what kind of book this is.
 2. **Put the verdict in the note, never in the text.** Where a factual claim can
    be checked against independent scholarship, the **footnote** carries the
-   verdict — corroborated, uncorroborated, or contradicted — with real sources
+   verdict (corroborated, uncorroborated, or contradicted), with real sources
    (never LLM-sourced; see CLAUDE.md rule 5). The translated sentence stays as Mu
    Xin wrote it. Never silently correct the story in the prose. The
    well-documented episodes (Gu Shunzhang's 1931 defection, the *Wu Hao Notice*
@@ -253,7 +267,7 @@ Test: could a careful bilingual reader point at the source and say "that is not
 there and is not entailed"? If yes, cut it. The asymmetry is total: nothing you
 add ever touches a number, name, date, unit, or factual specific.
 
-## Understatement doctrine — match the source's temperature
+## Understatement doctrine: match the source's temperature
 Default: trust the fact to carry its charge; the reflexive intensifier weakens.
 Put intensity in the verb and the noun, not in an adverb. Strip "very,"
 "utterly," "brutally," "heroically" from straight description where the plain
