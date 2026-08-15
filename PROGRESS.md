@@ -203,3 +203,97 @@ A second, much deeper review of the whole preface + ch01. Applied every item:
   is itself colloquial/punchy; the register variation is the author's.
 All checks green; 40 notes; qa_epub PASS; epubcheck 0/0. Style pass only,
 content unchanged.
+
+## Batch 2 (B02): ch02 (一科——特科的"总管家") + ch03 (情报科长"王庸"——陈赓) — DONE
+
+Translated: **ch02** (Section One, PDF 60-76, printed 16-32; 40 body paragraphs =
+untitled chapter intro + three sections ch02s01-03) and **ch03** (Chen Geng, PDF
+77-94, printed 33-50; 37 body paragraphs in four sections ch03s01-04). Openers
+folio-verified: ch02 PDF 60 = printed 16, ch03 PDF 77 = printed 33. Body offset
+constant 44 confirmed throughout.
+
+### Branch consolidation (rule 2)
+Session opened on stray branch claude/zhou-enlai-b02-l2nkse, which was identical
+to origin/claude/zhou-enlai (586cef0); local claude/zhou-enlai was stale at
+acdea51. Reset local to origin, deleted the stray, pruned its tracking ref. All
+work on claude/zhou-enlai.
+
+### Source recovery (the heavy lift; do not re-discover)
+The blank-line assembly path, left alone, DROPS or WELDS content on this book:
+- **Author-footnote lines sit at page bottoms and eat the seam.** Streamed into
+  the paragraph accumulator, a page-bottom footnote whose text ends in 。 flushed
+  the spanning paragraph WITHOUT its continuation. Three whole paragraphs were
+  lost this way and recovered: p67 (Zhou Enlai's 1946/1966/1973 tribute to the
+  Xiong Jinding couple), p72 (the close of the 六届三中全会 account), p74 (method-1
+  trial + the 任氏/何维道 rescue). FIX: strip footnote blocks from data/txt BEFORE
+  assembly so paragraphs join across the seam.
+- **Truncation-marker trap:** "会审公堂" appears in BOTH the p73 body and its
+  footnote; truncating at the first hit cut live text (lost the whole method-1
+  trial). Use a footnote-ONLY marker (军法会审处).
+- **Photo pages are not all full-page.** p63/p68 are photo+caption only (blank
+  them; body joins across); p83 is a 20%-photo with real body text below (strip
+  ONLY the photo+caption, keep from "的腿是在盗窃").
+- **Blank-less pages weld paragraphs** (p62, p65, p91): de-welded by hand against
+  the scan. p65 = the 生黎医院/福兴商号 narrative is ONE paragraph through
+  "革命生涯。", then "凡是当年" starts a new one.
+- **Two OCR-clipped short lines restored from the scan:** "生涯。" (p65, dropped
+  between 革命 and 凡是) and "客车。"" (p92, a 3-char line above the footnote).
+All seams and blank-less pages eyeballed against the page images. The structural
+surgery is SCRIPTED (source never re-typed) and committed under
+scripts/recovery/ (b02_strip_furniture.py, b02_surgery.py, README with the regen
+order) so a fresh data/zh regen replays. Final structure: ch02 40 body + 4
+headings, ch03 37 body + 5 headings.
+
+### Crop-verification (names/numbers, all eyeballed on the scan)
+陈赓 (garbled ~15 ways) and its aliases 王庸/庶康; 熊瑾玎 (garbled 7 ways) + 朱端绥;
+陆连奎 (not 陆连硅); 彭湃 (OCR read 彭涛, scan confirms 彭湃); 廖仲恺; 谭曙卿; 张克侠;
+钱大钧; 刘鼎 (OCR 刘易); 欧阳新; 陈寿昌 (OCR 陈夺电); 董健吾; 阎锡山; 何基沣; 叶剑英;
+任弼时 (aliases 彭德生/胡少甫) + 陈琮英 (not 陈玉英); 赵一曼/李一超/李坤泰; 李白/李侠/
+裘慧英; 戴荣鑫 (tail-verify caught OCR 戴荣奢, scan shows 鑫). Dates fixed against
+scan: 任弼时 arrest 1929年11月17日 (OCR dropped a 1); 卢冬生 joins CCP 1927年12月7日
+(OCR 2月7日); 张克侠/李强 recollection dated 1983年5月24日. All recorded in
+data/ocr_fixes.json (67 fixes this batch across ch02/ch03).
+
+### Checks — all green
+- verify_unit: parity 40/40 and 37/37, numbers 0 unresolved, anchors 16 + 13.
+- check_align OK (median 4.49 / 4.58 en per han). check_content OK (all name
+  occurrences in the paired paragraph; set glossary 黄埔军校 = "Whampoa" so the
+  abbreviated recurring form anchors).
+- qc_entities: 0 misses each.
+- check_apparatus: 0 failures. qa_epub PASS (69 notes, 41 pagebreaks).
+  epubcheck 5.1.0: 0 errors / 0 warnings.
+- check_register --ref out/ch01_reading.md: within tolerance (ch02 em-dash 4.2,
+  ch03 5.0 vs ref 6.0; sentence median 23 = ref; rhythm CV 0.59-0.63 vs 0.58).
+  ch03's higher dialogue-contraction rate is the Chen Geng chase/dialogue scenes,
+  flagged by the tool as noisy-but-in-tolerance.
+
+### Notes: coverage and fact-check verdicts (16 ch02 + 13 ch03)
+Fact-checked against Wikipedia (Chen Geng, Yun Daiying, Zhao Yiman, Li Bai, Peng
+Pai): CORROBORATED and dated in the note. Chen Geng b. 27 Feb 1903, d. 16 Mar
+1961; saved Chiang Kai-shek Oct 1925 (the episode the train story turns on).
+Yun Daiying executed 29 Apr 1931 Nanjing, betrayed by Gu Shunzhang. Peng Pai
+shot at Longhua 30 Aug 1929. Zhao Yiman = Li Kuntai/Li Yichao, executed by the
+Japanese 2 Aug 1936. Li Bai (film Li Xia) executed 7 May 1949. Author's own
+source citations reproduced as "Author's note." (Hong Yangsheng, Li Weihan, Liu
+Shuqin, the CCP chronology, the Mixed Court gloss, Li Qiang's letter, Zhang
+Kexia, the Chen Geng death-date note). Texture notes: 江东父老 (the Xiang Yu
+allusion), 小开 (Shanghai slang), 红头阿三 (Sikh constables' nickname).
+- NOT re-noted (already placed in ch00/ch01): White Terror, April 12 coup,
+  Central Special Section, Gu Shunzhang, Red Squad, extraterritoriality, the
+  concession constables, May Thirtieth movement, Cultural Revolution, Nanchang
+  Uprising, Chen Geng (ch01 has a brief note; ch03 adds the fuller career note).
+- Tier left deliberately unfootnoted: the minor cover-family and staff names
+  (covered by the glossary); routine streets and their modern names.
+
+### Source discrepancy preserved (not silently fixed)
+The Political Bureau office is "云南路447号" in the ch02 body (p65, clean scan) but
+"云南路477号" on the p68 photo caption; both are reproduced as printed, and the
+figures.json caption flags it. Likely a caption typo in the source.
+
+### Glossary
++83 rows this batch (people/places/orgs); status set per row (attested for the
+well-documented, provisional/decided for the obscure cover names). Principals
+REUSED unchanged from B01: 周恩来, 陈赓, 顾顺章, 李强 (+ aliases 王庸, 化广奇). Decided
+this batch and to hold: 黄埔军校 = "Whampoa"; 中国救济总会 = China Relief Society;
+国际济难会 = International Red Aid; 太古公司 = Butterfield and Swire; 会审公堂 rendered
+"Mixed Court" with the author's own gloss footnoted.

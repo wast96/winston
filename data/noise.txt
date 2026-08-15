@@ -48,3 +48,25 @@
 # Jiujiang, Kowloon — place names containing a numeral
 九江
 九龙
+# Sichuan province — the 四 is part of the place name, rendered "Sichuan"
+四川
+# Liuhe Road (六合路) — road name, rendered "Liuhe Road"
+六合
+# the Sanmin Photo Studio (三民照相馆) — shop name, rendered "Sanmin"
+三民
+# the Red Cross (红十字会) — the 十 is part of the name, rendered "Red Cross"
+红十字
+# 万不得已 — idiom "as a last resort", carries no quantity
+万不得已
+# 阿四 (Guangdong Ah-si) — nickname, the 四 is part of the name
+阿四
+# 五卅 (May Thirtieth Movement) — event label, rendered "May Thirtieth"
+五卅
+# 不管三七二十一 — idiom "regardless of everything"; the numerals carry no count
+三七二十一
+# 千难万险 / 千辛万苦 — idioms "every hardship"; the numerals carry no count
+千难万险
+千辛万苦
+干辛万苦
+# 立三 (Li Lisan / the "Li Lisan line") — the 三 is part of the name
+立三
