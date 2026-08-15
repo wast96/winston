@@ -37,6 +37,8 @@ SETUP_REPORT.txt
 # because branches outlive containers and chat attachments do not.
 out/*.epub
 out/*_bilingual.md
+out/*_critique_prompt.md
+out/*_critique_prompt.record.md
 
 # Keep source.pdf and committed figure crops (data/figs/*.png) TRACKED.
 # If your scan is very large and you would rather not commit it, add:
