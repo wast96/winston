@@ -719,3 +719,21 @@
 # Driver's name 阿四 "Ah Si" (the bodyguard-chief in the 沪上往事 excerpt); the 四 is a
 # name, not the count 4. Cf. the servant's name 阿六 "Ah Liu" above.
 阿四
+#
+# --- B22 (ch28) entries ---
+#
+# Idiom 正反两面 "both sides, positive and negative"; the 两 is not the count 2.
+# English "for good and for ill".
+正反两面
+# Reference 本书第一二两部 "parts one and two of this book": the run 一二两 is
+# mis-read as 122 by the numeral tokenizer. Parts 1 and 2 render as ordinals.
+一二两部
+# Idiom 成千上万 "thousands upon thousands"; the 万 is not the count 10000. (The
+# built-in 成千 already removes the first half; this clears the 上万 tail.)
+上万
+# Bank name 四明银行 (the Ningpo Commercial / Siming Bank); the 四 is a name element,
+# not the count 4.
+四明银行
+# Japanese name 臼井宽三 (Usui Kanzō), chief of the Eighth Section of the General
+# Staff; the 三 in 宽三 is a name element, not the count 3.
+宽三

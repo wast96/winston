@@ -637,6 +637,46 @@ UNITS = {
         "glued_head": {},
         "standalone": [3],     # 一、这件案子不一定是我们干的
     },
+    "ch28": {
+        "file": "29_index-split-000-0027.txt",
+        "title": "第九章 声威大震血浪腥风",
+        "drop": 2,             # running header + <h2> chapter title
+        # A FULL chapter (the height-of-renown-and-blood period; continues ch27's
+        # tail on the 特区法院 / 中央储备银行 offensive). Source XHTML parses to
+        # 1 <h2> + 224 <p>, proven byte-exact p-by-p against the txt body (224
+        # body lines after drop=2, zero mismatches; no <h1>, no <br/>, no <img>,
+        # no [\d+] note markers). This chapter uses THREE ENUMERATED 一、二、三
+        # SECTION headings, all STANDALONE (their own <p>, whole line = heading;
+        # cf. ch27 where 2 were tail-glued):
+        #   L3   一、一个特务工作者的心态与感受   (standalone)
+        #   L49  二、铲除巨奸寒敌胆树立声威       (standalone)
+        #   L129 三、谁来清偿这笔寃孽债           (standalone)
+        # FOUR source-<p> boundaries that sever one sentence (first ends
+        # non-terminal), the class merged since ch06:
+        #   L80/L81   …那倒不在话下，照我们的 | 经验，一般小小不然的事… (照我们的|经验)
+        #   L135/L136 …这是订有协议的—— | 「上海公共租界特区法院协议」是在… (trailing
+        #             em-dash introduces the named agreement in the next <p>; source
+        #             prints a glitch "——-" ASCII hyphen after the em-dash)
+        #   L157/L158 …周将交涉「接收」上海法租界法院 | 事，电告南京的汪精卫。 (法院|事)
+        #   L214/L215 …谁也不知道将要发生什么 | 事？有的，还莫名其妙的… (什么|事？)
+        # NOT merged (DELIBERATE separate <p>, cf. ch21-27): the ：-ended
+        # quoted-document / list lead-ins (L20 提示如下：, L76 补充及说明：, L94 谈话
+        # 如下：, L107 说明如下：, L134 主要内容如下：, L140 主要内容如下：, L148 说明事
+        # 实如下：, L170 说明如下：), and the INNER enumerated 一、二、三 DOCUMENT-CLAUSE
+        # lists — the two reproduced court agreements: the 公共租界 courts agreement
+        # (L137-139: 一、/二、/三、 clauses under L136's lead-in) and the 法租界
+        # 会审公廨/地方法院 agreement (L143-145: 一、/二、/三、、四、 clauses under L142's
+        # lead-in). These are ordinary body lines per parity (like ch27's (1)-(19)
+        # rebuttal list), NOT section headings, and NOT in `standalone`. Each clause
+        # excerpt is a complete terminal 。sentence (the source abridges: "其主要内容
+        # 如下" — one long <p> per clause; L145 packs 三、and 四、together). L222 ends
+        # non-terminal 事 but is a DROPPED-STOP glitch of a complete sentence (那是他
+        # 们的事[。]); L223 opens 不过、 a distinct closing paragraph — NOT a merge.
+        "merges": [(80, 81), (135, 136), (157, 158), (214, 215)],
+        "glued": {},
+        "glued_head": {},
+        "standalone": [3, 49, 129],
+    },
 }
 
 

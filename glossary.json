@@ -2441,6 +2441,12 @@
       "pinyin": "Huáng Jīnróng",
       "status": "attested",
       "note": "The third of the Green Gang's 'Three Tycoons' of Shanghai, beside Du Yuesheng and Zhang Xiaolin (see ch04)."
+    },
+    "朱升": {
+      "en": "Zhu Sheng",
+      "pinyin": "Zhū Shēng",
+      "status": "attested",
+      "note": "The servant who killed the puppet Shanghai mayor Fu Xiao'an with an axe on 11 Oct 1940; central to ch28 Section 2. His assassination act was noted at ch04. Source spelling-variants (朱生, 朱升源) and the alias 陈中南 render inline."
     }
   },
   "organizations": {
@@ -2787,6 +2793,18 @@
       "pinyin": "Kàngtuán",
       "status": "decided",
       "note": "The standard abbreviation of the Anti-Japanese Traitor-Killing Corps (抗日杀奸团, NOTED ch02/ch11)."
+    },
+    "联合准备银行": {
+      "en": "the Federal Reserve Bank",
+      "pinyin": "Liánhé Zhǔnbèi Yínháng",
+      "status": "attested",
+      "note": "The North China puppet regime's central bank of issue (Federal Reserve Bank of China, 1938); Wang Shiying its governor. Distinct from the Wang regime's Central Reserve Bank (中央储备银行)."
+    },
+    "会审公廨": {
+      "en": "the Mixed Court",
+      "pinyin": "Huìshěn Gōngxiè",
+      "status": "attested",
+      "note": "The Shanghai concessions' pre-1930 joint tribunal, abolished by the two reproduced retrocession agreements and replaced by the Chinese Special District Courts."
     }
   },
   "places": {

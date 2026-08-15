@@ -2750,3 +2750,145 @@ action brigades; the twenty-second generation; the (1)-(19) rebuttal numbering; 
   data/zh/ch27.txt before NCR conversion).
 - `data/noise.txt` — B21 block (see above).
 - `notes.json` — 6 notes appended via apparatus_merge.py.
+
+## Batch B22 (ch28) — 第九章 声威大震血浪腥风 "Chapter 9. Fearsome Renown, Waves of Blood"
+
+The height-of-renown-and-blood chapter, continuing ch27's tail (特区法院 / 中央储备银行 / 血腥报复).
+Three sections: (1) 一个特务工作者的心态与感受, Chen's reflections on killing, war, and the burden of
+action work (the self-preface tallies; Dai's "非大流血不足以寒敌胆" telegram; the Cao Song poem; his
+own errors of conscience — Liu Shaorang, the Zhang Xiaolin son encounter, the Yu Yefeng talk with
+Sheng Liyue); (2) 铲除巨奸寒敌胆树立声威, the Fu Xiao'an / Zhu Sheng axe-killing in full (the "打通",
+the 50,000-yuan reward, the reproduced Chongqing Ta Kung Pao report, the Japanese spokesman
+Mabuchi's 新申报 statement, the Zhou Fohai diary on the mayoral succession, Dai's 70,000 award);
+(3) 谁来清偿这笔寃孽债, the puppet institutional offensive — the two reproduced court-retrocession
+agreements (公共租界 1930, 法租界 1931), the Zhou Fohai diary on the court "takeover", the killing of
+the Frenchman Duluo (公董局政务督办), the Central Reserve Bank sabotage cases, and the No. 76 bloody
+reprisal (the Bank of China machine-gunning), closing on Chen's own capture.
+
+### Structure (confirmed p-by-p against the source XHTML)
+- Source `Text/index_split_000_0027.xhtml` parses to **1 `<h2>` + 224 `<p>`**, NO `<h1>`, NO `<br/>`,
+  NO `<img>`, NO `[\d+]` note markers. **drop=2** (running header 英雄无名-陈恭澍 + `<h2>` title).
+- Byte-exact p-by-p diff: the 224 body lines map 1:1 to the 224 `<p>`, **zero mismatches**.
+- **THREE enumerated 一、二、三 SECTION headings, all STANDALONE** (their own `<p>`, whole line =
+  heading; unlike ch27's two tail-glued): L3 一、一个特务工作者的心态与感受; L49 二、铲除巨奸寒敌胆树立声威;
+  L129 三、谁来清偿这笔寃孽债. Emitted as `### `.
+- **FOUR severed-`<p>` merges** (first ends non-terminal, class merged since ch06): L80/L81
+  (照我们的|经验), L135/L136 (订有协议的——|「上海公共租界特区法院协议」…, a trailing em-dash introducing
+  the named agreement; source glitch "——-" ASCII hyphen after em-dash), L157/L158 (法院|事),
+  L214/L215 (什么|事？). data/zh: 217 body lines (224 − 4 merges − 3 headings-as-`###` counted apart).
+- **INNER enumerated 一、二、三 DOCUMENT-CLAUSE lists (NOT headings, kept as ordinary body lines per
+  parity):** the two reproduced court agreements — 公共租界 (L137-139: clauses 一/二/三 under L136's
+  lead-in) and 法租界 (L143-145: clauses 一/二/三、四 under L142's lead-in). Rendered as ordinary
+  paragraphs (like ch27's (1)-(19) list). L222 ends non-terminal 事 but is a dropped-stop glitch of a
+  complete sentence (那是他们的事[。]), NOT a merge; L223 opens 不过、a distinct closing paragraph.
+
+### Checks (all green for ch28; pre-existing artifacts unchanged)
+- clean_batch.py: **217 body paragraphs + 3 sub-headings, source conserved OK.**
+- verify_unit.py ch28: **parity 217=217; numbers 217 pairs, 0 unresolved; anchors 0 ok.**
+- check_align.py ch28: **217/217, median ratio 5.09 en/han, no pair strays >2.2x** (document-heavy;
+  cf. ch24 5.33 / ch25 4.97 / ch26 4.98 / ch27 4.82).
+- check_structure.py: **ALL STRUCTURAL CHECKS PASS** (parity 217=217; 267 anchors 0 unresolved).
+- check_content.py: **ch28 172 name occurrences, 0 displaced** ("all in the paired paragraph").
+  Only the documented PRE-EXISTING artifacts remain (ch08 ×3, ch09 ×1, ch13 ×9, ch26 ×2). One
+  ch28 displacement was FIXED by aligning to the keyed term 东亚新秩序 "New Order in East Asia"
+  (had been rendered lowercase "a new order in East Asia" in the Mabuchi statement, twice).
+- qc_entities.py (reconstructed bilingual, 217 pairs): **0 misses** (周佛海 x47, 朱升 x36, 傅筱庵 x26,
+  制裁 x23, 李士群 x12).
+- check_register.py --ref: **within tolerance**; "shall" 22% is the DELIBERATE document register (the
+  two reproduced court agreements' "shall" clauses + Dai's directive "there shall be a heavy reward").
+- check_apparatus.py: 0 failures / 0 warnings. qa_epub: PASS (28/43 chapters, 267 notes all resolve).
+  epubcheck 5.1.0: **0 fatals / 0 errors / 0 warnings / 0 infos.**
+
+### Settled renderings REUSED (Part-Three consistent)
+傅筱庵 Fu Xiao'an, 张啸林 Zhang Xiaolin, 林怀部 Lin Huaibu, 杜月笙 Du Yuesheng (杜先生 "Mr. Du"),
+周佛海 Zhou Fohai, 李士群 Li Shiqun (士群 "Shiqun" in the diary), 陈公博 Chen Gongbo (公博 "Gongbo"),
+汪精卫 Wang Jingwei, 赵圣 Zhao Sheng, 陈默 Chen Mo, 齐庆斌 Qi Qingbin, 刘原深 Liu Yuanshen,
+黄志远 Huang Zhiyuan, 孙大成 Sun Dacheng, 胡永荃 Hu Yongquan, 俞叶封/兪叶封 Yu Yefeng, 汪时璟 Wang
+Shiying, 虞洽卿 Yu Qiaqing, 褚民谊 Chu Minyi, 苏锡文 Su Xiwen, 梅思平 Mei Siping; 会审公廨 the Mixed
+Court; 特区法院 "Special District Court"; 中央储备银行 "Central Reserve Bank"; 第二行动大队 "Second
+Action Brigade". Place-names in glossary PINYIN: 北平 Beiping, 天津 Tianjin, 虹口 Hongkou, 重庆
+Chongqing (重庆大公报 "Chongqing Ta Kung Pao"), 汉口 Hankou, 河内 Hanoi. Attested roads inline:
+爱多亚路 Avenue Edward VII, 南京路 Nanking Road, 马霍路 Mohawk Road, 外滩 the Bund; PINYIN for the
+uncertain: 祥德路 Xiangde Road, 白赛仲路 Baisaizhong Road, 恺自迩路 Kaiziěr Road, 西爱咸斯路 Xi'aixiansi
+Road. Republican years literal (二十二年 "twenty-second year", etc.; the checker +1911-escapes).
+
+### New glossary rows (3 net new; BY HAND via add_ch28_glossary.py; every row a pinyin field)
+- 朱升 **Zhu Sheng** (person) — the servant who axed Fu Xiao'an (11 Oct 1940); central to Section 2,
+  ~36 occurrences. Rendered inline in ch27 (act NOTED ch04); KEYED here to enforce "Zhu Sheng"
+  everywhere. Variants 朱生/朱升源 and the alias 陈中南 stay inline.
+- 联合准备银行 **the Federal Reserve Bank** (org) — the North China puppet bank (Wang Shiying governor;
+  Cheng Xigeng manager, sanctioned 1939); distinct from the Central Reserve Bank. NOTED.
+- 会审公廨 **the Mixed Court** (org) — the concessions' pre-1930 joint tribunal the two agreements
+  abolished, replaced by the Special District Courts. NOTED.
+- Rendered INLINE, NOT keyed: 裴可权 Pei Kequan, 盛礼约 Sheng Liyue (/盛郁 Sheng Yu), 王晓籁 Wang
+  Xiaolai, 张法尧 Zhang Fayao, 余祥琴 Yu Xiangqin, 杜洛 Duluo (the Frenchman), 柳汝祥 Liu Ruxiang,
+  钱书城 Qian Shucheng; one-off Japanese officers (臼井宽三 Usui Kanzō, 马渊 Mabuchi, 前田 Maeda,
+  谷荻 Yahagi, 樱井 Sakurai, 曾弥 Sone, 青木 Aoki, 西园寺 Saionji, 犬养 Inukai, 木村市大郎 Kimura
+  Ichitarō, 结城 Yūki, 日高 Hidaka, 上田 Ueda); sanctioned staff (季明远 Ji Mingyuan, 张永纲 Zhang
+  Yonggang, 厉鼎模 Li Dingmo) and operatives (叶东山 Ye Dongshan, 赵家鑫 Zhao Jiaxin, 何凤祥 He
+  Fengxiang, 丁小宝 Ding Xiaobao, 董威 Dong Wei, 田杰林 Tian Jielin, 林镇城 Lin Zhencheng); 程锡庚
+  Cheng Xigeng; 曹松 Cao Song (Tang poet); 杨秀琼 Yang Xiuqiong, 姚水娟 Yao Shuijuan; Fu's kin
+  (宋有圭 Song Yougui, 品圭 Pingui) and companions (周文瑞/魏晋三/盛老三); 程/彭 Cheng/Peng, 杨惺华
+  Yang Xinghua; the agreements' transliterated foreign signatories and 徐谟 Xu Mo / 吴昆吾 Wu Kunwu.
+  Books/periodicals (上海租界问题, 新申报 Xin Shen Bao, 重庆大公报, 官场现形记) footnote/inline.
+
+### Notes added (8; first-appearance-disciplined; cumulative 259 → 267)
+- **by Cao Song** — the Tang poet Cao Song, his quatrain 己亥岁, and the line 一将功成万骨枯.
+- **The Double Tenth** — 双十节, the ROC national day (Wuchang Uprising, 1911).
+- **Great Way City Government** — 大道市政府, the first Japanese puppet Shanghai municipality (1937).
+- **the Mixed Court** — 会审公廨, the pre-1930 concession tribunal the two agreements abolished.
+- **concurrently governor of the** — 联合准备银行 the (North China) Federal Reserve Bank vs the Wang
+  regime's 中央储备银行 Central Reserve Bank; Cheng Xigeng's 1939 assassination.
+- **Yue opera** — 越剧 / 绍兴戏, the play 盘夫索夫, and its star 姚水娟 Yao Shuijuan.
+- **drove the carriage for Yang Xiuqiong** — 杨秀琼 the swimming star; 褚民谊's carriage-driver jibe.
+- **still but a scene from** — 官场现形记 "Officialdom Unmasked" (Li Baojia), the late-Qing satire.
+
+### NOT re-noted (already covered; first-appearance discipline)
+特区法院 / 中央储备银行 / 周佛海 (ch27), 维新政府 the Reformed Government (ch27), 工部局/公董局 the two
+municipal councils (ch27), the 八一三 August Thirteenth Incident (ch27), Fu Xiao'an + the cook-
+assassination (ch04), Zhang Xiaolin (ch04), Du Yuesheng (ch17), Yu Qiaqing (ch26), 制裁 sanction,
+the concessions (ch04), No.76 / 特工总部 / 李士群 (ch04/ch17), fabi (ch21), the Kang Corps 抗团 (ch26),
+忠义救国军 (ch21), the Marco Polo Bridge (ch13), the Xin Shen Bao (ch20), the Blue Shirt Society (ch08).
+
+### Digitization glitches (rendered to plain sense; NOT footnoted unless real reading uncertainty)
+- **L6 顷耳一听 → 倾耳** ("listened closely"; 顷 for 倾); **L6 一搂搬机 → 扳机** ("pulled the trigger"; 搬 for 扳).
+- **L15 写到这褢 → 里/裡** ("writing to this point"; 褢 for 裡).
+- **L39 兪家的专 → 事** ("the affairs of the Yu family"; 专 for 事).
+- **L75 汉冶平股东联合会 → 汉冶萍** (the Hanyeping Company; 平 for 萍); rendered "the Hanyeping … Joint Association".
+- **L116 陈公傅 → 陈公博** (Chen Gongbo; 傅 for 博) — a name glitch, rendered correctly.
+- **L136 洋泾滨章程 → 洋泾浜** (the Yangjingbang Regulations; source prints 滨 for 浜, cf. ch25); rendered "the Yangjingbang Regulations".
+- **L191 又项目由津去平 → 专程** ("made a special trip from Tianjin to Beiping"; 项目 for 专程).
+- **L199 第七行功大队 → 第七行动大队** (the Seventh Action Brigade; 功 for 动).
+- **L205 暗椿 → 暗桩** ("planted agents / hidden watchers"; 椿 for 桩, variant).
+- **L208 武盘 → 武器** ("weapons"; 盘 for 器).
+- **Dash glitches:** L60 第二天—– , L133 订有协议的——- , L207 血腥报复—- (extra ASCII hyphen after an em-dash) — rendered as clean em-dashes.
+- **Source redactions (rendered as em-dash blanks / bracketed):** L75 前清XXX(字迹不清) → "held ——— (the characters are illegible)"; L77 妻X氏 → "the wife, née ——"; L187 十二月XX日 → "On the ——th of the twelfth month"; L162 予以XX → "whether we might —— the Frenchman Duluo" (Chen self-censoring 制裁). L93 招商局总理(？) — the source's own (?) uncertainty marker, kept as "(?)".
+All carried to plain sense; none footnoted (mechanical, no reading uncertainty).
+
+### In-text discrepancy preserved (faithful, not a glitch)
+- The tally figures of Section 1 (一百余 traitors / 四十余 Japanese / 五十余 sabotage jobs / 两百余 own
+  losses) are Chen's own preface figures, re-cited "by an incomplete count"; rendered "over a hundred /
+  over forty / over fifty / over two hundred". The 余-approximate forms are noised as the checker flags.
+
+### data/noise.txt — B22 block appended (each entry commented)
+Idioms/name-elements: 正反两面 (both sides, for good and ill — the 两 not a count), 一二两部 (本书第一二两部
+"parts one and two" — the run 一二两 mis-read as 122), 上万 (成千上万 "thousands upon thousands" — the
+built-in 成千 clears the head, this the 上万 tail), 四明银行 (the Ningpo Commercial/Siming Bank — 四 a name
+element), 宽三 (臼井宽三 Usui Kanzō — 三 a name element). REAL counts fixed in the English rather than
+noised (rule 4): 三国同盟 → "three-Power alliance" (carries 3); 两方面 → "these two … the one side … the
+other" (carries 2); 二人 → "the two, Qian Shucheng and Liu Ruxiang" (carries 2). All other real
+quantities CARRIED as digits/words (the 50,000/70,000/20,000-yuan rewards; the 22-yuan wage; the 69/42
+ages; the 13-year service; the 12 White Russian guards; the 10/14-article agreements; the 24-hour
+delivery rule; the 3-year extendable term; the 1930/1931 agreement dates; the sixty-odd cases / one
+every five days).
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch28 spec added (drop=2; 4 severed-`<p>` merges 80/81, 135/136, 157/158,
+  214/215; 3 standalone enumerated 一、二、三 headings L3/L49/L129; the inner document-clause 一、二、三
+  lists stay ordinary body lines).
+- `scripts/add_ch28_glossary.py` — 3 new rows BY HAND (朱升; 联合准备银行; 会审公廨; each key asserted in
+  data/zh/ch28.txt).
+- `scripts/make_ch28_apparatus.py` — the 8 ch28 notes (every non-ASCII glyph asserted present in
+  data/zh/ch28.txt before NCR conversion).
+- `data/noise.txt` — B22 block (see above).
+- `notes.json` — 8 notes appended via apparatus_merge.py (cumulative 267).
