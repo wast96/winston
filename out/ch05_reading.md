@@ -72,7 +72,7 @@ Kuroami came up the slope and whispered at his ear.
 
 "Two hundred pieces of silver."
 
-"Scatter it evenly. No favourites."
+"Scatter it evenly. No favorites."
 
 "Understood."
 
@@ -108,7 +108,7 @@ Kuroami was lean enough himself. His small hand pointed now at a long-faced man 
 
 And with that Kuroami drew out ten pieces of silver for each man, thrust them into their breasts, and—
 
-"—set rumours flying."
+"—set rumors flying."
 
 He closed his mouth and let his eyes travel round the circle.
 
@@ -172,7 +172,7 @@ A rappa was, you might say, a technician of the age of wars. Where, from which s
 
 "Ieyasu, you mean?"
 
-"No. The tens of thousands of labourers levied for the descent on the continent. The order went out to the provinces this past New Year: Shikoku and Kyūshū to send six hundred men, the Chūgoku provinces and Kishū five hundred, the Five Home Provinces four hundred; and in one village in Ōmi, so the talk runs as far as Sakai, eighteen peasants out of every hundred and ten households. They are to be mustered at Ōsaka on the twelfth and put aboard the ships—and those men, and their wives and children, waiting on that day, must be sick to the heart of life itself. The murmur of it cannot but be rising in the capital too, like a rumble underground."
+"No. The tens of thousands of laborers levied for the descent on the continent. The order went out to the provinces this past New Year: Shikoku and Kyūshū to send six hundred men, the Chūgoku provinces and Kishū five hundred, the Five Home Provinces four hundred; and in one village in Ōmi, so the talk runs as far as Sakai, eighteen peasants out of every hundred and ten households. They are to be mustered at Ōsaka on the twelfth and put aboard the ships—and those men, and their wives and children, waiting on that day, must be sick to the heart of life itself. The murmur of it cannot but be rising in the capital too, like a rumble underground."
 
 "Is that so. And yet—I'd have said the very opposite."
 
@@ -186,7 +186,7 @@ No sooner had he said it than Jūzō felt a doubt at the rashness of his own wor
 
 (So long as that vast hoard of gold and silver holds, the man Hideyoshi will keep men at his back a good while yet—let him be all the gossip paints him, a false beard pasted to his face, his teeth blacked, scarlet hakama on, caroling away without a care…)
 
-Jūzō had never set much store by the loyalty or the solidarity of the commanders under Hideyoshi. The rappa's eye for the world, handed down father to son, held not a breath of moisture in it; he was wholly incapable of the folly of reckoning the world by men's warm feelings or a warrior's fidelity. But the thing that now rose up and blocked his thoughts had a hard, distinct shape and colour of its own. It was the gold and silver heaped at Hideyoshi's back—new-minted, in a quantity no ruler before him had ever commanded.
+Jūzō had never set much store by the loyalty or the solidarity of the commanders under Hideyoshi. The rappa's eye for the world, handed down father to son, held not a breath of moisture in it; he was wholly incapable of the folly of reckoning the world by men's warm feelings or a warrior's fidelity. But the thing that now rose up and blocked his thoughts had a hard, distinct shape and color of its own. It was the gold and silver heaped at Hideyoshi's back—new-minted, in a quantity no ruler before him had ever commanded.
 
 The Hideyoshi in Jūzō's mind had been blessed by a strange run of fortune. Not the fortune of rising in the world alone—had it been only that, a man who climbed from common footsoldier could have risen no higher than field commander to Nobunaga, and there stopped. In the sixth month of Tenshō ten, Hideyoshi avenged his dead lord at Yamazaki. In the same stroke he set aside the dead lord's own son, and Ieyasu, and Katsuie, and reached for the dead lord's place. As a usurper in all but name he was no whit different from Mitsuhide. Yet the dead lord's generals fell in behind this usurper, one of their own fellows, to a man. And that, Jūzō held, was owing less to Hideyoshi's power than to the power of the gold and silver in his hands.
 
@@ -224,7 +224,7 @@ To cut down Hideyoshi was, in the same act, to work for the revival of Iga.
 
 For the first time a will to throw himself, body and life, into this work came bubbling up inside Jūzō.
 
-The first task was to loose through the streets of the capital a cry of hatred against the Toyotomi regime. And for a beginning, that meant setting rumours flying, wildly magnified, of the discontent and the opposition among Hideyoshi's own daimyō over the sending of troops to Korea.
+The first task was to loose through the streets of the capital a cry of hatred against the Toyotomi regime. And for a beginning, that meant setting rumors flying, wildly magnified, of the discontent and the opposition among Hideyoshi's own daimyō over the sending of troops to Korea.
 
 And now, beneath the roof of the Healing Buddha's hall under his feet, that very plan was being laid in secret, with Kuroami at their head, among the twenty professionals Jūzō had gathered.
 
@@ -246,7 +246,7 @@ Kuroami hunkered down at Jūzō's side like a carved kōshin monkey. For a while
 
 "There's a woman. Kohagi, she's called."
 
-"A woman already, is it? Your honoured father was just the same—you're a troublesome man yourself, master."
+"A woman already, is it? Your honored father was just the same—you're a troublesome man yourself, master."
 
 Kuroami said it looking into Jūzō's face, half in exasperation, half in reproach.
 

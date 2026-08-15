@@ -6,7 +6,7 @@ Kazama Gohei came away from the thickets of the Chinnō-in well pleased with him
 
 To Gohei, Kisaru was nothing but material for the art of the kunoichi. The word gives itself up if you take the character for "woman" and break it into its three strokes: ku, no, ichi. It is a ninja's cant.
 
-To the ninja of Iga and Kōga, a woman was in the end no more than a kunoichi. Her misfortune is that she is quick to feel a man's love. Give her that love and there is no danger, no humiliation, no betrayal she cannot bear: it is a marvellous, terrible gift. So the trainers of Iga fed their women a counterfeit love and were careful never to love in truth. Not the kunoichi's art alone but all the arts of the rappa teach the same lesson — a man keeps himself whole only by keeping his spirit pitiless.
+To the ninja of Iga and Kōga, a woman was in the end no more than a kunoichi. Her misfortune is that she is quick to feel a man's love. Give her that love and there is no danger, no humiliation, no betrayal she cannot bear: it is a marvelous, terrible gift. So the trainers of Iga fed their women a counterfeit love and were careful never to love in truth. Not the kunoichi's art alone but all the arts of the rappa teach the same lesson — a man keeps himself whole only by keeping his spirit pitiless.
 
 Gohei counted himself lucky. His own kunoichi was no common woman. She had a rare and exquisite skill that made her an extension of his own hands, and for the sake of the man who would most likely be her husband she would work until the blood ran dry in her.
 
@@ -42,7 +42,7 @@ The letter-box was a piece of gold lacquer fine enough for a lord's furnishings.
 
 {p} 楮鑼垰熿焔鉋標垰鑠焔鉢栿鑠錆　鉋舶垰鯖地栃赩濼泲塁泲鰄熿　梔鯖泲泊侂梔熿焔
 
-This was the ninja cipher. It was a hidden writing used only by ninja, for the dispatches they sent among their own. There are forty-nine of its characters, one for each syllable of the kana; the left element is drawn from the seven of wood, fire, earth, metal, water, man, and body, the right from the colours — blue, yellow, red, white, black, purple — and the two are combined to make a letter.
+This was the ninja cipher. It was a hidden writing used only by ninja, for the dispatches they sent among their own. There are forty-nine of its characters, one for each syllable of the kana; the left element is drawn from the seven of wood, fire, earth, metal, water, man, and body, the right from the colors — blue, yellow, red, white, black, purple — and the two are combined to make a letter.
 
 That the message came from a ninja was plain from the writing alone, but this woman's hand he did not know. Hold it to the light as he would, the brushwork was not Kisaru's.
 
@@ -72,7 +72,7 @@ A small light flashed. The gold-lacquer box, lid and all, split into four and ro
 
 The paper screen slid open, and the young page stood staring at Gohei's face as though dumbfounded.
 
-Not a quarter-hour had passed since then. A woman stood at the eaves of Iseya Kahei's shop, behind the Hōkō-ji. She had got herself up as a townsman's daughter, her big frame decked out plainly, the blood glowing clear and fresh in her full cheeks. In the sun that was just beginning to dye the Kyoto sky the colour of madder, the woman threw a long shadow.
+Not a quarter-hour had passed since then. A woman stood at the eaves of Iseya Kahei's shop, behind the Hōkō-ji. She had got herself up as a townsman's daughter, her big frame decked out plainly, the blood glowing clear and fresh in her full cheeks. In the sun that was just beginning to dye the Kyoto sky the color of madder, the woman threw a long shadow.
 
 From inside the shop the apprentice hailed her.
 
@@ -178,7 +178,7 @@ To keep his footfalls quiet, Jūzō threw away the umbrella and drew near the ho
 
 The house stood in ruin.
 
-To adorn his own power with the honours of the court, Hideyoshi had bestowed estates on the emperor and on great noble and small alike, buying their goodwill. But by the look of this house its master's stipend could not run to a hundred koku, Jūzō thought, and pressed himself into the shadow of the water-basin.
+To adorn his own power with the honors of the court, Hideyoshi had bestowed estates on the emperor and on great noble and small alike, buying their goodwill. But by the look of this house its master's stipend could not run to a hundred koku, Jūzō thought, and pressed himself into the shadow of the water-basin.
 
 Time flowed on among the shrubs. The rich mass of green leaves covered Jūzō over and shielded the man's back from the driving rain. After a while there came a soft patter of feet along the wet veranda, and then a white bare foot appeared, treading the rotted boards.
 
@@ -258,7 +258,7 @@ Jūzō, who had already set his hand to the top of the wall, turned back.
 
 Into the eyes of the woman calling him back came a desperate look. But Jūzō's body was already gone from the place. The man had vaulted the wall, and was walking off through the pouring August rain toward Sanjō.
 
-His body was soaked through with the white rain, but there was nothing to be done about the dark mood that stayed behind, far off, within the wall. As he walked in the rain, Jūzō turned the woman's look in that moment over and over in his mind. Something had lodged in the taut of her eyes then, the unmistakable air of one who has begun to want a man. And now that gaze spread through his chest, laying dark colour over dark.
+His body was soaked through with the white rain, but there was nothing to be done about the dark mood that stayed behind, far off, within the wall. As he walked in the rain, Jūzō turned the woman's look in that moment over and over in his mind. Something had lodged in the taut of her eyes then, the unmistakable air of one who has begun to want a man. And now that gaze spread through his chest, laying dark color over dark.
 
 Kōga or Iga, he did not know what the woman truly was. But it was because the sight of a fellow rappa calling him back had struck him as something pitiable, that she had done it — or so at least Jūzō murmured to his own heart, and with a stifling feeling he thought of the wretchedness of it, of Kohagi.
 
@@ -296,7 +296,7 @@ For the villa of a great Sakai merchant it was oddly slight in its appointments,
 
 "I am Watanabe Satoru. Pray remember me kindly."
 
-"My father has told me of you. Lord Watanabe practises the Kashima school of swordsmanship, I understand."
+"My father has told me of you. Lord Watanabe practices the Kashima school of swordsmanship, I understand."
 
 "A little."
 
@@ -394,7 +394,7 @@ The blood had risen to the man's cheeks; he had taken Kohagi's laugh for mockery
 
 "Hm . . ."
 
-His humour was beginning to soften a little now. Watching the change in his colour, Kohagi found she wanted to put the man's arm to the test.
+His humor was beginning to soften a little now. Watching the change in his color, Kohagi found she wanted to put the man's arm to the test.
 
 (Now, then . . .)
 
@@ -414,7 +414,7 @@ The mere thought sent the blood surging suddenly through her whole body, so that
 
 Kohagi tried the words over softly in her heart. And in that instant, at the mystery of her own spirit, so made that it could love a man only in this strange fashion, she began at the same time to feel a loathing.
 
-Kohagi could call up on the inside of her eyelids, vivid down to the colour of the split flesh, the very day the blade would touch Jūzō's body; and yet in this passion there was, besides, a strange fold of the spirit that only a rappa could understand.
+Kohagi could call up on the inside of her eyelids, vivid down to the color of the split flesh, the very day the blade would touch Jūzō's body; and yet in this passion there was, besides, a strange fold of the spirit that only a rappa could understand.
 
 Kohagi was already aware that she had begun to love Jūzō. But she had gone on thinking, with a chagrin that made her grind her teeth, of the self she had been in the moment she lost her rappa's heart through her longing for him. That moment was her disgraceful showing at the court noble's house at Nijō on the day of the rain.
 
@@ -422,7 +422,7 @@ That time, Jūzō had set his hand to the wall and was making to leave. In that 
 
 (That Iga man, most likely, despised me for it.)
 
-That was why Jūzō had made no answer, had not turned, had vanished to the far side of the wall. From of old, a rappa is one who lives inside the disguised workings of a mind that deceives the other and the self alike. To make that disguise unbreakable was the shared honour of them all, and such a comrade they respected as a rappa above the rest. But in an unguarded moment Kohagi had let her own wet inward parts show.
+That was why Jūzō had made no answer, had not turned, had vanished to the far side of the wall. From of old, a rappa is one who lives inside the disguised workings of a mind that deceives the other and the self alike. To make that disguise unbreakable was the shared honor of them all, and such a comrade they respected as a rappa above the rest. But in an unguarded moment Kohagi had let her own wet inward parts show.
 
 Jūzō was on his guard against Kohagi. Kohagi knew it. But she knew, too, that a man of Jūzō's stamp granted her the awe due to a rappa. That she must in the end make an enemy of Jūzō was, it might be, the final destiny laid on her as a rappa. Yet for whatever time remained before that, she wanted to hold fast at least to Jūzō's respect. To cut down Jūzō would be to prove her own rappa's ruthlessness in a high, clear form. This too, perhaps, might be called a fierce kind of love.
 
@@ -550,9 +550,9 @@ At the crossing of Sakaimachi it was the fourth shadow, counting Myōbei. The ma
 
 "What!"
 
-"No offence — I don't know how great a master of arms you may be, but if you fancy Jūzō of Iga can be cut down by any half-measure, you make a grave mistake."
+"No offense — I don't know how great a master of arms you may be, but if you fancy Jūzō of Iga can be cut down by any half-measure, you make a grave mistake."
 
-Not waiting for an answer, he flung the words back like a parting shot and whirled away. However well Myōbei had done his part as the guide who would bring Jūzō to be killed, once it came to the trading of lives, he surely felt, more strongly than for the swordsman before him, the pull of favour toward Jūzō, a rappa of his own kind.
+Not waiting for an answer, he flung the words back like a parting shot and whirled away. However well Myōbei had done his part as the guide who would bring Jūzō to be killed, once it came to the trading of lives, he surely felt, more strongly than for the swordsman before him, the pull of favor toward Jūzō, a rappa of his own kind.
 
 At Myōbei's word Satoru stepped into the grass by the edge of the lane. The grassy waste, some five hundred tsubo, had been whose mansion and in what age there was no telling, but the foundation stones alone remained.
 

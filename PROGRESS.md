@@ -2317,3 +2317,77 @@ If Jūzō breaks through and nears Hideyoshi's residence, Sakon cuts him down; t
 all. Kohagi accepts: in that case she will kill Jūzō with her own hand. Next: B19 = ch19 伏見城 / Fushimi
 Castle (folios 608-652, the FINAL novel chapter), opening 五平が、亭主に命じた二階の部屋と… (Gohei watching
 Jūzō's inn from the room opposite).
+
+---
+
+## B19 = ch19 伏見城 / Fushimi Castle (folios 608-652) — COMPLETE (novel finished)
+
+The FINAL novel chapter and the climax. 310 body paragraphs, 3 new notes (book total 130).
+Offset 0 confirmed: printed == PDF unbroken across PDF 608-652 (running head read off every page
+via topstrips; no duplicate leaf, no gap). ch19 opens MID-608 after the ch18 tail + 伏見城 title,
+at 五平が、亭主に命じた二階の部屋… ch20 解説 (afterword) confirmed at folio 653; ch19's tail ends
+cleanly on 652, no spill.
+
+### Checks
+- Parity: 310 | 310 OK. verify_unit anchors 0/0.
+- check_numbers: 0 unresolved (noise +9: 五右衛門, 三太夫, 五山桐, 十重二十重, 千載一遇, 何百, 八釜,
+  十王, 三黄 — all name/idiom numerals; the historical dates/counts 24th/8th/twenty/ten/nineteen/
+  thirty/sixteen/six shaku all carried in the English).
+- check_content: 211 name occurrences, all in the paired paragraph (after 3 name-survival fixes:
+  Jūzō into paras 2 & 28, Gohei into para 51). qc_entities: 0 misses.
+- check_align: 13 ratio-inflated exceptions, all short dialogue/interjections (declared).
+- check_register vs ch01: 0.61x, within tolerance. Formal/documentary band (like ch15 0.60x,
+  ch18 0.68x): the Goemon historical digression + two quoted diary records are ~a quarter of the
+  chapter, and the Jūzō/Hideyoshi confrontation is grave by design; casual dialogue (horse-drivers,
+  Gohei) is contracted.
+- check_apparatus: clean. qa_epub PASS (34 files, 27 docs). epubcheck 0/0/0/0.
+- Compound-coverage grep over raw OCR (608-652): every clean 3+kanji compound present in the hand
+  transcription; the 81 "absent" were all OCR garbles. No real drops. Tail re-read against folio 652.
+
+### New glossary rows: NONE
+No new glossary rows. One-offs footnoted or left plain, not glossaried: 石川五右衛門/Ishikawa Goemon
+(footnoted), 上野弥兵衛/Ueno Yahei, 下呂正兵衛/Gero Shōbei (Gohei's established alias, voice sheet),
+百地三太夫/Momochi Sandayū, the play titles (Chikamatsu etc.), 阿山郷石川村/Ishikawa village in Ayama,
+三好氏/Miyoshi, 石川明石/Ishikawa Akashi, 敢国神社/Aekuni Shrine. Reused unchanged: Jūzō, Gohei, Kohagi,
+Hideyoshi, Ishida Mitsunari/三成, Maeda Gen'i/玄以, Imai Sōkyū/宗久, Shima Sakon, Ieyasu, Fushimi,
+Ōsaka, Sakai, Iga, Kōga, Shimotsuge Jirōzaemon, Kuroami.
+
+### New notes (3; book total 130)
+1. Ishikawa Goemon — the legend, the 1594 cauldron execution at Sanjōgawara, the Edo plays, and
+   Shiba's device of making the invented Gohei become the historical Goemon (anchor "gave his name
+   as Ishikawa Goemon").
+2. Mizugumo / water-spiders — the ninja flotation floats (anchor "four water-spiders to his hands
+   and feet").
+3. Imai Sōkyū anachronism — the real Sōkyū died 1593, before this chapter; his survival and later
+   Tokugawa dealings are the novel's fictional liberty, flagged honestly (anchor "who afterward went
+   over to the Tokugawa").
+NOT re-noted (already placed earlier; cross-referenced): Iga/Kōga, Bunroku/Genki/Tenshō dating, the
+Iga Rebellion, Hideyoshi/Nobunaga/Ieyasu, 太閤(Taikō)/右府(Udaifu)/殿下, Maeda Gen'i & the Kyoto
+magistracy, Ishida Mitsunari & Sekigahara, Shima Sakon, Imai Sōkyū, Hachisuka, the 1595 Hidetsugu
+purge, the Korea invasion / 大明征伐, the Odawara campaign & the Hōjō (Edo's rise), rappa/shinobi,
+the measures (shaku/sun/bu/chō/ri/koku), the zodiac hours (Rat/Ox) & 小半刻, kunai, Fushimi Castle,
+Sakai the free-city, 月代/sakayaki, Momochi/Mochizuki of Kōga. Deliberately left unglossaried and
+unnoted (minor): 放下師/hōkashi and 旅絵師 disguises (self-glossed "street conjuror" / "travelling
+painter"), 馬酔木/asebi shrubs, 管熊手 tube-rake (described in prose).
+
+### noise.txt additions (ch19)
+五右衛門 (Goemon, given name); 三太夫 (Sandayū); 五山桐 (Gosan no Kiri, play title); 十重二十重
+(toe-hatae idiom); 千載一遇 (idiom); 何百 (indefinite hundreds); 八釜 (printed form, rendered
+"cauldron"; the 八 likely for は); 十王 (Jūō, plant name); 三黄 (Sanō, herb name). Each with a comment.
+
+### data/pagemap/ch19.json
+45 entries, printed == PDF for every folio 608-652, body_paragraph unique & monotonic
+(608→0, 609→2, 610→7, … 652→309).
+
+### Figures
+find_figures.py 608-654 found none; every page eyeballed. ch19 text-only like ch01-ch18. Empty
+figure list, deliberate.
+
+### LAST-BATCH protocol (done)
+Whole-book reconciliation (check_reconcile): fixed the mixed spelling locale — ch01 (approved) is
+American; cascaded 80 British forms to American across all reading files + notes + glossary (now
+0 British / 130 American). Other reconcile candidates adjudicated as false positives or pre-existing
+minor items (治部少輔 jibu-no-shō/jibu-no-shōyū; unused glossary form 今井宗薫/Imai Sōkun) left for a
+corrections pass. Deep audit: ch19 14/310 (4.5%, seed 19), 0 errors (out/deep_audit.md). COMPLETION.md
+written. authority.json fed 256 renderings under slug owls-castle. out/term_ledger.md rendered. Final
+EPUB committed with git add -f. HANDOFF rewritten to COMPLETE.

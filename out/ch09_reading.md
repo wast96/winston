@@ -113,7 +113,7 @@ Gen'i had risen and started for the paper screen, but Dōgen checked him—
 "Hm. A man of that much skill, were he in Kōga, could bear the name of Mari. But among his fellows there was one greater than he. What's become of that one now, I couldn't say."
 Beyond that, Mari Dōgen would not speak of the doings of the ninja fellowship. However much the man before him was Gen'i, to talk of his own kind to an outsider was a thing a rappa felt bound, at heart, to hold back from.
 "So I'm to keep watch on what the Iga men get up to. …There's not much art in that, either."
-Muttering it inwardly, Dōgen left the mansion of Maeda Hōin Gen'i. A wicker pannier on his back, dirty cotton hakama cut off at the shin, his half-grey hair carelessly bound up: he had made himself over into a travel-worn seller of plasters.
+Muttering it inwardly, Dōgen left the mansion of Maeda Hōin Gen'i. A wicker pannier on his back, dirty cotton hakama cut off at the shin, his half-gray hair carelessly bound up: he had made himself over into a travel-worn seller of plasters.
 Dōgen was a Kōga man, and had his pride in it. To dog the Iga man Kazama Gohei's every step and note his every move was galling to him, and at the same time so much wasted labor.
 (Who were the Kōga men out on work in the capital, now?)
 He thought of getting from such men the inside threads of the rappa's rampage in the capital. But it seemed not one of them was out earning his keep.
@@ -195,11 +195,11 @@ Dōgen murmured a word in the genin's ear, and then sprang out into the darkness
 The genin who had watched from the road as his master set off like a gust of wind went back, with no caution at all, to the eaves of the inn—the Ōmiya—and slipped in at the earthen door.
 There was a man who had been watching that figure, unmoving, out of the dark.
 Dōgen's genin, like his master, was got up as a peddler. And the man in the dark who watched his back was likewise done up in the style of a capital merchant.
-(That travelling trader is no common man. The way he carries himself, the way his eyes move—there's the smell of a ninja about him.)
+(That traveling trader is no common man. The way he carries himself, the way his eyes move—there's the smell of a ninja about him.)
 When one ninja looks on another, however good the disguise, some instinct stirs. All the more with this watcher: he was a genin of Tsuzura Jūzō—Kuroami, the Iga man.
 (A Kōga man.)
 Seeing it, he gave up his night's work. He would stay on this road till daybreak, he decided, and make out what was afoot. As luck had it, there was an inn across from the Ōmiya.
-Kuroami quickly got up his travelling clothes, passed himself off as a wayfarer, and took a second-floor room of the inn that faced the road.
+Kuroami quickly got up his traveling clothes, passed himself off as a wayfarer, and took a second-floor room of the inn that faced the road.
 (What has brought a Kōga man out to the capital?)
 But this was a thing Kuroami had no need to ask himself. It went straight home to him. Beyond doubt it was a last, hard shift the rulers of the capital had hit upon, to set someone against the rampage of Kuroami's own band of Iga men.
 (Make an enemy of Kōga, and there's trouble.)

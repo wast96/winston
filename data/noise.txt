@@ -217,3 +217,22 @@
 一万五千
 # 劫億 (gō-oku): a Buddhist figure for boundless deep time (kalpas × myriads), not a countable quantity; rendered "aeons beyond counting". The 億 (100,000,000) is idiomatic
 劫億
+# --- Owl's Castle ch19 (伏見城) name/word numerals ---
+# Ishikawa Goemon (石川五右衛門 / 五右衛門): the 五 is the given name, not the count 5 — rendered "Goemon"
+五右衛門
+# Momochi Sandayū (百地三太夫), the legendary Iga master: the 三 is the name — rendered "Sandayū"
+三太夫
+# Kimmon Gosan no Kiri (金門五山桐), a kabuki play title: the 五 is part of the title — kept romanized "Gosan no Kiri"
+五山桐
+# 十重二十重 (toe-hatae): idiom "tenfold and twentyfold" (bound many times over); not a real count — carried "tenfold and twentyfold"
+十重二十重
+# 千載一遇 (senzai-ichigū): idiom "a once-in-a-thousand-years chance"; the 千 is not a count — carried "once-in-a-lifetime"
+千載一遇
+# 何百 (nanbyaku): indefinite "hundreds"; the 百 is not a count — carried "by the hundreds"
+何百
+# 八釜 (as printed in the quoted diary; the 八 likely stands for は in the original 又一人ハ釜ニテ): rendered "a cauldron"
+八釜
+# 十王 (Jūō): a folk plant-name Kohagi gathers; the 十 is the name, not the count 10 — kept "Jūō"
+十王
+# 三黄 (Sanō): a folk herb-name; the 三 is the name, not the count 3 — kept "Sanō"
+三黄

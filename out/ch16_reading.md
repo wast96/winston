@@ -28,7 +28,7 @@ Through a gap in the trees the hill of Kannabi bulked black against the sky. For
 
 "At your word."
 
-The man called Iba no Yokoashi slipped out of the trees. Gohei ordered the rest to strip off their travelling clothes and change into ninja garb; and when he had swiftly finished dressing himself, he
+The man called Iba no Yokoashi slipped out of the trees. Gohei ordered the rest to strip off their traveling clothes and change into ninja garb; and when he had swiftly finished dressing himself, he
 
 "Kisaru,"
 

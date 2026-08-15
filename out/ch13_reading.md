@@ -134,9 +134,9 @@ Kuroami took the kozuka up off the mat and scraped the bloodstain from the wall 
 
 A ninja, in the end, is no samurai. He is despised by the common folk, who rank beneath the samurai — despised even by them; and yet to Kuroami's mind the one thing that let men of this calling live on in a separate, hidden world of the spirit, over against the rest of mankind, was the pride of a power that rose above the very machinery of human pain. Let a man step off that path and come back to being human, and how was he any different from a mere night-thief, a spy, a vagrant?
 
-So it was that Kuroami picked out a dozen-odd rappa. He set these men to slip into Kyoto, Ōsaka, and Sakai, to go on thieving vigorously as before and to spread rumours; and at the same time, against the day of Jūzō's entry into the castle, he began looking closely into Hideyoshi's every movement.
+So it was that Kuroami picked out a dozen-odd rappa. He set these men to slip into Kyoto, Ōsaka, and Sakai, to go on thieving vigorously as before and to spread rumors; and at the same time, against the day of Jūzō's entry into the castle, he began looking closely into Hideyoshi's every movement.
 
-Already, before this, in the eighth month of Bunroku 1, Hideyoshi had given orders to raise a castle on the hills of Fushimi, south of the capital. Even by the third month of this year the work on the main keep had begun. A man of many indulgences, Hideyoshi had a particular eye for building. Now and again he would come out to Fushimi to look the work over, and in high good humour would press them—
+Already, before this, in the eighth month of Bunroku 1, Hideyoshi had given orders to raise a castle on the hills of Fushimi, south of the capital. Even by the third month of this year the work on the main keep had begun. A man of many indulgences, Hideyoshi had a particular eye for building. Now and again he would come out to Fushimi to look the work over, and in high good humor would press them—
 
 "The ridgepole's not up yet?"
 
@@ -144,7 +144,7 @@ Already, before this, in the eighth month of Bunroku 1, Hideyoshi had given orde
 
 Intelligence, disruption, thieving — Kuroami's rappa were parcelled out to their several duties and worked in good order. The chief of the reports on Hideyoshi's movements was carried, by one such rappa, from Rakshasa Valley to Jūzō's hermitage at Otogi Pass.
 
-Kuroami went on with his night-thieving as before. Disruption might be the real aim, but the man plainly loved thieving for its own sake: once he had dropped down inside a wall in the dark his eyes shone like a beast's, his every motion melted into the night air, and his whole body took on such vigour it seemed to give off a phosphorescence.
+Kuroami went on with his night-thieving as before. Disruption might be the real aim, but the man plainly loved thieving for its own sake: once he had dropped down inside a wall in the dark his eyes shone like a beast's, his every motion melted into the night air, and his whole body took on such vigor it seemed to give off a phosphorescence.
 
 One such night, having gone into the city on his work, Kuroami had loaded a subordinate with several stolen swords and got back as far as Ukiyo-bashi when a faint voice hailed him from behind. West of Ukiyo-bashi the townhouses stood in rows; to the east, the sub-temples of Sennyū-ji and the houses of the temple stewards stood scattered along both sides of an avenue of pines that ran out at last into the Sennyū-ji woods.
 
@@ -202,7 +202,7 @@ The man, catching the sign that Kuroami had slid a hand to his breast, said:
 
 "So you've sold out Iga."
 
-"A man come down to beggary has neither Iga nor Kōga left in him. Unlike Iga, the Kōga folk are of an open humour. There's none of them treats a man as coldly as you did — a fine place to live, all told."
+"A man come down to beggary has neither Iga nor Kōga left in him. Unlike Iga, the Kōga folk are of an open humor. There's none of them treats a man as coldly as you did — a fine place to live, all told."
 
 Kuroami slipped out of the mass of leaves, set himself sideways, and broke into a run down the mountain track without a sound. And still, close by his ear, Mimi of Nabari would not stop talking. Worse, by whatever trick he worked, the man who dogged him was nowhere to be seen. It was like hearing a voice out of the air, and Kuroami felt he would go mad.
 
@@ -232,7 +232,7 @@ Kuroami, seat set to the ground, shut his mouth with all his might and struggled
 
 "Hah. Come close to this Kuroami, if you can."
 
-Kuroami said it aloud, straining himself against the dark, past all his years. But the moment after, in the dark, he went pale enough to see his own colour. Should any of the Kōga men have caught that voice and learned his place, it would go very ill. As though flung off he began to run again, crabwise, along the mountain track. Whether the mantra had done him some good, the voice at his ear could no longer be heard.
+Kuroami said it aloud, straining himself against the dark, past all his years. But the moment after, in the dark, he went pale enough to see his own color. Should any of the Kōga men have caught that voice and learned his place, it would go very ill. As though flung off he began to run again, crabwise, along the mountain track. Whether the mantra had done him some good, the voice at his ear could no longer be heard.
 
 He ran on toward the summit, out of his senses. There, as he had earlier ordered, several of his own Iga-line ninja should be lying hidden, waiting.
 
@@ -364,7 +364,7 @@ The place the Kōga were luring them to would be that riverbed — so the nine I
 
 "Dōgan. Make ready to die now."
 
-Kuroami whispered it low toward Uezuka Dōgan, more as if telling it over to his own heart. There was a slight tremor in the voice. Yet the colour had already come back to his face, and there had begun to rise in it, for all his years, a warm, glowing blood like a young man's.
+Kuroami whispered it low toward Uezuka Dōgan, more as if telling it over to his own heart. There was a slight tremor in the voice. Yet the color had already come back to his face, and there had begun to rise in it, for all his years, a warm, glowing blood like a young man's.
 
 Dōgan gave a nod of assent.
 
@@ -422,7 +422,7 @@ Dōgen gave his men the sign with his eyes, and bade them take Kuroami.
 
 "Keep off."
 
-Kuroami's left hand had drawn the armour-piercing dirk, ready to open his own throat at any moment, and held it to his neck; his right took a fresh grip on his long sword, and he tottered out toward Dōgen.
+Kuroami's left hand had drawn the armor-piercing dirk, ready to open his own throat at any moment, and held it to his neck; his right took a fresh grip on his long sword, and he tottered out toward Dōgen.
 
 "Die, you too!"
 
@@ -456,9 +456,9 @@ Jūzō stood in the shallows and did not go near, only gazing at the cluster of 
 
 (It's Kuroami.)
 
-Right at the centre of the scattered dead lay the small corpse of Kuroami, in townsman's dress, the four limbs bent, clutching at the sky that had begun to pale. Gohei's work, was Jūzō's first thought. Or else Mari Dōgen of Kōga. It might be that band of Kōga men Kohagi commanded. Any of the three, no matter. There was no need, he thought, to go searching. Blood he had long forgotten, blood for the fight, welled seething up in the hollow of Jūzō's body, and in a giddy, reeling surge of it he settled on revenge.
+Right at the center of the scattered dead lay the small corpse of Kuroami, in townsman's dress, the four limbs bent, clutching at the sky that had begun to pale. Gohei's work, was Jūzō's first thought. Or else Mari Dōgen of Kōga. It might be that band of Kōga men Kohagi commanded. Any of the three, no matter. There was no need, he thought, to go searching. Blood he had long forgotten, blood for the fight, welled seething up in the hollow of Jūzō's body, and in a giddy, reeling surge of it he settled on revenge.
 
-First Shimotsuge Jirōzaemon had been killed by Mari Dōgen of Kōga; now Kuroami and his whole company had been wiped out. What bore in hard on Jūzō's breast was the Kōga's pitiless routing of the men of Iga. To restore the honour of Iga and lift the grudge from its dead, there was, it seemed, nothing left but an offering paid in blood.
+First Shimotsuge Jirōzaemon had been killed by Mari Dōgen of Kōga; now Kuroami and his whole company had been wiped out. What bore in hard on Jūzō's breast was the Kōga's pitiless routing of the men of Iga. To restore the honor of Iga and lift the grudge from its dead, there was, it seemed, nothing left but an offering paid in blood.
 
 (To kill Hideyoshi will do. But before that, I must make these Kōga men bleed, and the more of them the better.)
 
