@@ -1,0 +1,341 @@
+## The Attack
+
+The warship Kaiten weighed anchor in the darkness, ran her engines at low speed, and began to slip stealthily out over the water toward Miyako Bay, the object of the attack.
+
+It was like an assassin.
+
+Toshizō was on the bridge. He drew a watch from his waistcoat,
+
+{j} (Thirty minutes to daybreak,)
+
+{j} he murmured, and put it away. That done, he started down the gangway.
+
+He was tall, too, and his features deeply cut. By any reckoning he looked a gentleman in the Western style.
+
+Except for the Izumi-no-kami Kanesada thrust through his belt.
+
+On deck the several squads had come straggling out, unable to master their excitement. Walking past them, Toshizō
+
+{j} "In another thirty minutes it will be light. About then we should be entering Miyako Bay,"
+
+{j} he said. And then,
+
+{j} "The mist will soak you through. When the moment comes your arms and legs won't answer. Wait below in the cabins,"
+
+{j} he said as well, and drove them back down to the cabins under the deck.
+
+Overhead came the creak of ropes.
+
+A flag was climbing the mast. The Stars and Stripes. Until they entered the bay they were to pass themselves off as an American warship. There was nothing cowardly in it. To hoist a foreign flag when stealing into enemy waters, then hurriedly strike it and run up one's own colors the instant battle was joined, had become something of a European custom.
+
+Before long the dark surface of the sea turned to a deep indigo; a rush of light ran across it, and on the eastern horizon the sun of the twenty-fifth day of the third month of Meiji 2 began to climb, staining the whole sky blood-red.
+
+Before his eyes the cliffs of the Sanriku coast rose and fell in ranks of hills.
+
+The pines of Cape Heizaki came into view.
+
+(There it is.)
+
+{j} and Toshizō turned to his page, Ichimura Tetsunosuke,
+
+{j} "Tell them all to come up on deck."
+
+Toshizō too went down to the deck.
+
+Soon the assault party came pouring out one after another from the barré (the ship's hatchway) and knelt in clusters, each squad at its post.
+
+Every man wore a strip of white cloth on his right shoulder, to tell friend from foe.
+
+Some had a rifle slung across the back and a drawn sword held ready at the side; others, the reverse, carried the sword slung and the rifle in their arms.
+
+"Looks like fair weather,"
+
+{j} said Toshizō, smiling for once, narrowing his eyes at the climbing sun.
+
+The captain, Kōga Gengo, was directing his crew with brisk efficiency.
+
+In the masthead tops the sailors stood ready, rifles in hand, or grenades.
+
+The guns on both broadsides had finished loading.
+
+Every gun was charged with two rounds apiece: canister to kill and maim men, and solid shot to break iron armor.
+
+This was the loading method they called jissan gōsō, "solid-and-canister together," so that at a single discharge two projectiles flew out.
+
+Toshizō went back to the bridge.
+
+The ship glided smoothly on through the narrow mouth of the bay.
+
+Meanwhile the government fleet, eight ships in all, was already past its reveille hour, yet on each vessel only a scattered few had come out on deck.
+
+Only the lookouts in the mastheads were stirring.
+
+On not one of the ships was the boiler lit.
+
+Of course no sail was set, and with anchors still down, once it came to a fight it would take a good fifteen minutes and more merely to get under way.
+
+So one might say the fleet was still asleep.
+
+The Kaiten pressed on, deeper into the bay.
+
+This bay, cleft deep and narrow like a wolf's maw, ran on from mouth to head as a strait-like reach of water for something over two ri.
+
+When Toshizō came down to the deck for the last time, the scene before him had changed, and he saw a single ship.
+
+Her anchor sunk, she lay silent.
+
+"That's the Boshin-maru. A transport, for carrying land troops,"
+
+{j} a midshipman of their own ship told Toshizō.
+
+Taking no notice of the Boshin-maru, the Kaiten passed by at her ease, so close that her side all but brushed the other's.
+
+About then, aboard the Boshin-maru, the lookout
+
+{j} ──To starboard, an American warship──
+
+{j} reported to the officer of the watch.
+
+But no one was alarmed.
+
+──Surely an American warship,
+
+{j} they all believed. And it was not the flag alone: the Kaiten's silhouette had altered somewhat from the one carried in the memory of the government navy.
+
+The Kaiten, everyone recalled, was "three masts, two funnels." So she had indeed been; but the year before, breaking out from the anchorage off Shinagawa and running north, she had met a gale off Cape Inubō and lost two of her masts and one of her funnels.
+
+The Kaiten now before the government fleet was a strange-looking craft of a single foremast and one funnel. No wonder they took her for an American warship.
+
+Later, in the Life of Tōgō Heihachirō by Ogasawara Naganari, written from Admiral Tōgō's own account, and in the History of the Satsuma Navy, the state of the government side at this moment is set down thus:
+
+Of the ships' companies some had gone ashore, and of those aboard many were still asleep. The only vessel with her whole crew present was the Satsuma warship Kasuga.
+
+Even the crews already awake had gathered on the upper decks, meaning to watch an American warship of the advanced nations come to anchor and go about her handling, and looked on laughing and chattering merrily.
+
+so it states.
+
+In the Kaiten's masthead top the officer Shingū Isamu had been posted expressly, searching the bay for the ironclad.
+
+"The ironclad—there she is!"
+
+{j} And at Shingū's shout every man went to his station.
+
+The assault party, keeping down behind the bulwarks, drew their swords together.
+
+Toshizō was at the ship's bow. When he saw the ironclad crouched there before him,
+
+{j} (Formidable,)
+
+{j} a shudder ran through him despite himself.
+
+Her hull was cased in iron plate, studded with countless iron rivets.
+
+Two masts, one funnel, and that squat and short. Fore and aft she carried revolving turrets, the forward gun in particular a piece of three hundred kin, four times the bore of the Kaiten's main gun. In all Toshizō's history of brawling, surely to take on so great an adversary was a thing of the first time and the last.
+
+And the aim was not merely to cut their way aboard but to seize her and carry her back to Hakodate. Whether it could be done at all was a gamble.
+
+Now they closed in.
+
+When they had come near enough to make out the very features of the ironclad's crew, Captain Kōga
+
+{j} "Run up the Rising-Sun flag!"
+
+{j} he ordered.
+
+The American flag came down, and swiftly the flag of the Rising Sun ran up.
+
+The government fleet was thrown into consternation, as though it had seen an apparition in broad day. The ironclad above all was pitiable in her panic: men ran along the deck, men bolted for the hatchways, and some even leapt into the sea.
+
+Only at the ironclad's stern one samurai, calmly working the halyards, was running up a signal flag—the signal for the whole fleet to stand to arms. The name of this brave man has not come down to us.
+
+The Kaiten was still maneuvering to lay herself alongside. She sought to draw level with the ironclad, forming the shape of the character ri, リ; but the Kaiten's helm had a trick of answering poorly to starboard, and it would not come right however she tried.
+
+Failing to close alongside, she drew back once.
+
+Then drove in again.
+
+Gwaan!
+
+{j} The shock of it ran through the whole ship.
+
+Toshizō, at the bow, was flung two or three ken.
+
+The moment he got up he saw how things stood.
+
+(This is bad,)
+
+{j} and the blood drained from him.
+
+The Kaiten's bow had ridden up onto the ironclad's port side. That is, they had come to form the shape of the character i, イ.
+
+Only with the whole broadside touching could every man pour across at once; as it was, there was no help for it but to leap over from the bow one or two at a time.
+
+Because the ship had handled badly, an unlooked-for situation had come about.
+
+And there was a second thing unlooked-for. The Kaiten was a ship that rode very high, so that to spring across to the ironclad's deck a man had to leap down a full jō. Unless he were very light on his feet or very lucky, he would break his legs.
+
+(It can't be done.)
+
+Toshizō flinched. He was, at bottom, a man who never fought a hopeless fight.
+
+On the bridge Captain Kōga, too, was biting his lip.
+
+But there was no use in deliberating.
+
+"Hijikata-san! Let's do it—the boarding attack!"
+
+{j} he bawled down from the bridge.
+
+"We do it, then.──"
+
+{j} said Toshizō, turning to smile up at him. Kōga nodded and swung his bared blade.
+
+That was the last time Toshizō saw Kōga Gengo.
+
+From the bow they let down a rope.
+
+"Over you go!"
+
+{j} said Toshizō, and swept his sword through the air.
+
+──After me.
+
+{j} So saying, a naval officer ran past Toshizō. He was Ōtsuka Namijirō, a survey officer and former shogunal retainer.
+
+Next, Nomura Risaburō of the Shinsengumi.
+
+Third, Kasama Kinpachirō of the Shōgitai.
+
+Fourth, Katō Sakutarō of the same corps.
+
+After them, in the order of five more Shinsengumi men, then the Shōgitai and the Shinbokutai, they sprang down.
+
+But though they leapt across each in turn, they came dripping down one by one like raindrops, and so the ironclad's men found them easy to fend off.
+
+On the ironclad, too, they were at last rallying from their panic.
+
+Hiding each behind the deck structures they fired their rifles wildly, and with drawn swords ringed the boarders as they came down one at a time, opening a furious fight.
+
+(This won't do,)
+
+{j} thought Toshizō.
+
+This man was assistant army commissioner—the war minister, that is, of the Hakodate government—and now he made up his mind. He would go in and cut and thrust among the rank and file.
+
+"All of you, no more rope-walking! Jump down. If you break your legs, that's the end of it,"
+
+{j} and hoisting his own great sword high, he dropped to the enemy deck a jō below.
+
+Toshizō fell.
+
+***
+
+Springing to his feet, he cut an enemy soldier who came at him swinging a rifle reversed clean in two, up through the left flank, and dropped him dead.
+
+Then he raised his eyes. Under the mast he saw Nomura Risaburō of the Shinsengumi hard pressed, ringed by five or six men. Toshizō ran up in great strides, his boots clattering, and springing in, cut one down from behind with a slantwise stroke, then, aiming at the necks of the panicking enemy, one flash, two flashes, swiftly felled two more.
+
+A professional, sure enough.
+
+In the felling of three men, not even two minutes had passed.
+
+"Nomura-kun, what's happened to your right shoulder?"
+
+{j} said Toshizō, coming up slowly. The two enemy who remained stood rooted, as if the fight had been drawn out of them.
+
+"A rifle-ball,"
+
+{j} he answered. He had gone deathly pale, his breath perhaps coming hard. Toshizō made to take Nomura up on his back. In that instant a flying ball pierced Nomura's head, and he came down in a heavy weight over Toshizō.
+
+(Gone, then.)
+
+Looking about, he saw by a ventilator shaft Ōtsuka Namijirō, the first man aboard, fallen and shot through his whole body like a honeycomb.
+
+On the deck by now several dozen of the assault party were fighting, and every man of them was harried more by bullets than by the enemy's blades.
+
+The one plan of battle—to seal the ironclad's hatchways—had proved impossible to carry out through the bungled approach, and the whole of the ironclad's crew had taken up arms and come up onto the deck.
+
+(The fight's lost. Time to pull back.)
+
+{j} Just as Toshizō was gathering his men to do it, Kōga Gengo, up on the Kaiten's bridge, would still not give it up. He set the broadside guns thundering.
+
+Gwaan!
+
+Gwaan!
+
+{j} Ten rounds he slammed into the ironclad's flank. But it was in vain.
+
+Striking the iron plate as though one had lobbed charcoal briquettes, the shot merely shattered to no purpose.
+
+The concussion knocked Toshizō down again and again.
+
+(He is young, that one.)
+
+As he tried to rise a third time, several dozen bullets flew past overhead all at once.
+
+The enemy's machine gun, the thing every man aboard the Kaiten had dreaded, had begun to work, scattering its fearful, unbroken roar.
+
+And now grenades began to burst before and behind Toshizō, and to left and right.
+
+Some were the enemy's grenades.
+
+Some were his own side's, hurled from the deck of the Kaiten; and in the smoke of their bursting Toshizō cut men down in a daze.
+
+Meanwhile, the other ships of the government fleet. The only one to make ready for battle quickly was the Satsuma vessel Kasuga.
+
+The Kasuga had one further piece of luck. For while no other ship could fire her guns—their own ironclad stood in the way—the Kasuga alone had, by a narrow margin, an angle from which she could hit the Kaiten.
+
+And of the Kasuga's guns, only the one in the charge of a third-rank officer, Tōgō Heihachirō, who had the port No. 1 gun, could bear on the Kaiten.
+
+The Kasuga opened fire. Two of her shots struck the Kaiten and blew away the small deck structures and the men on them.
+
+But the other ships too had by now weighed anchor, lit their boilers, and were waiting for their engines to catch.
+
+Once the engines caught, they would ring the Kaiten with seven ships and pour a concentrated fire upon her.
+
+The Kaiten, for her part, was not sitting idle to watch it happen.
+
+She thundered her guns in every direction, and dealt damage to the Boshin-maru and the Hiryū-maru.
+
+The two ships, the Boshin and the Hiryū, were packed with land troops. They ranged some hundreds of rifles and fired on the Kaiten.
+
+Kōga was still on the bridge.
+
+At his feet lay the bodies of officers and runners, and the blood on the deck was such that his boots slid in it.
+
+At last a shot passed through Kōga's left thigh.
+
+Catching hold of a stanchion, he pulled himself up.
+
+Another tore away his right arm. Falling, he called to a runner,
+
+{j} "Sound the whistle to withdraw,"
+
+{j} and as he gave the order a rifle-ball pierced his throat, and he died.
+
+The whistle sounded.
+
+On the ironclad, of those still up and fighting there were now, besides Toshizō, only two or three; all the rest had fallen.
+
+With the dead and wounded of both sides strewn about, the deck was, in the literal sense of the words, a mountain of corpses and a river of blood.
+
+"Pull back!"
+
+Toshizō gathered the survivors by the rope and sent them up one by one.
+
+Last of all, Toshizō took hold of it.
+
+Five or six enemy riflemen came after him, rushing forward from cover to cover.
+
+Toshizō slid his sword into its scabbard.
+
+"I'm done. You there—give it up too,"
+
+{j} he bawled at the enemy.
+
+The enemy did not, in the end, fire. When Toshizō had crossed back onto the Kaiten, she pulled away from the ironclad.
+
+She stood out of the bay.
+
+The Kasuga and the rest gave chase, but the swift Kaiten they could never overtake.
+
+The Kaiten made port at Hakodate on the twenty-sixth.

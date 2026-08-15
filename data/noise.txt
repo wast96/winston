@@ -425,3 +425,42 @@
 中島四郎
 # Kagaya Daizaburō — a Kōtetsu third-class officer (加賀谷大三郎); 三 is part of Daizaburō, not the count 3
 大三郎
+# ── B14 additions (ch64) ──
+# Sanriku — the Sanriku coast of northeastern Honshu (三陸); 三 is part of the place name ("three provinces of Riku"), not the count 3
+三陸
+# shihō-happō = "in all directions" (四方八方); the 四/八 are the idiom, not live counts
+四方八方
+# Kasama Kinpachirō — a Shōgitai raider (笹間金八郎); 八 is part of the given name Kinpachirō, not the count 8
+金八郎
+# Tōgō Heihachirō — the future Marshal-Admiral, then a Kasuga gunnery officer (東郷平八郎); 八 is part of Heihachirō, not the count 8
+平八郎
+# ── B14 additions (ch65) ──
+# Chiyodagata — the gunboat Chiyodagata (千代田形); 千 is part of the place-name Chiyoda ("thousand generations"), not the count 1000
+千代田形
+# ── B14 additions (ch66) ──
+# Iba Hachirō — head of the Shingyō-ittō-ryū, a Matsumae-garrison captain (伊庭八郎); 八 is part of Hachirō, not the count 8
+伊庭八郎
+# Shingyō-ittō-ryū — the "one-sword" sword school (心形一刀流); 一 is part of the school name, not the count 1
+心形一刀流
+# Futamata / Futamataguchi — "the two forks" pass (二股); 二 is part of the place name, not a live count
+二股
+# nibu-kin — two-bu gold coin (二分金); 二 is the coin denomination-name, not a separate count (the real sum, sixty ryō, is carried)
+二分金
+# hyakusen-renma = "seasoned in a hundred battles" (百戦練磨); 百 is the idiom, not a live count
+百戦練磨
+# ── B14 additions (ch67) ──
+# Yoshizawa Daijirō — an infantry captain who interpreted French (吉沢大二郎); 二 is part of Daijirō, not the count 2
+大二郎
+# Komai Masagorō — a Chōshū inspector killed at Futamata (駒井政五郎); 五 is part of Masagorō, not the count 5
+政五郎
+# Nakajima Saburōsuke — the Chiyogatai commander (中島三郎助); 三 is part of Saburōsuke, not the count 3
+三郎助
+# Chiyogatai — the Chiyogatai battery near Hakodate (千代ケ岱); 千 is part of the place name Chiyo, not the count 1000
+千代ケ岱
+# Hill 203 — "203-Metre Hill" at Port Arthur (二〇三高地); the 203 is the place-name itself, carried in the English "203-Meter Hill"
+二〇三
+# ── B14 additions (ch68) ──
+# Ippongi — the Ippongi barrier-gate where Toshizō fell (一本木); 一 is part of the place name ("one tree"), not the count 1
+一本木
+# Ozeki Masaichirō — a former Shinsengumi corporal (尾関政一郎); 一 is part of Masaichirō, not the count 1
+政一郎

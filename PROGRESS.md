@@ -1762,3 +1762,149 @@ NOT RE-NOTED (B13; covered earlier, ledgered here):
   花昌町 (Kashō-chō), 会津, 鴨川, 里 ri, 旗本 hatamoto, 副長 vice-commander,
   局長 commander, 助勤 jokin, 新選組, 池田屋, お雪 Oyuki (not this batch), 甲鉄
   Kōtetsu. No new keys → no glossary cascade.
+
+## B14 = ch64–ch68 (THE CLIMAX: Miyako Bay raid → Toshizō's death)
+
+Scope: 襲撃 / The Attack (ch64), 再会 / Reunion (ch65), 官軍上陸 / The Imperial
+Army Lands (ch66), 五稜郭 / Goryōkaku (ch67), 砲煙 / Gunsmoke (ch68). The Miyako
+Bay boarding raid on the Kōtetsu and its failure (Kōga Gengo killed); Oyuki's
+reunion with Toshizō at the Kōnoike house in Hakodate; the government landing at
+Otobe and the parting from Oyuki with the Ichimura photograph/sword/hair errand;
+the Futamataguchi defense and the naval annihilation; and Toshizō's death leading
+a sortie at the Ippongi barrier. ch68 ends the novel proper — （完） / (The End).
+
+### Checks (all green; the ONE standing ch52 false-flag excepted)
+
+- make_bilingual parity (refuses on mismatch): ch64 169, ch65 182, ch66 150,
+  ch67 145, ch68 163 pairs — all written.
+- verify_unit numbers (--noise data/noise.txt): 0 unresolved in every chapter,
+  after the fixes below.
+- check_align: all chapters source==translation counts; median ratios 3.00–3.38;
+  no pair strays >2.2x.
+- check_content: only ch52's documented alias false-flag (近藤勇平 ⊃ 近藤勇)
+  remains DISPLACED; ch64–ch68 all "in the paired paragraph".
+- qc_entities: 0 entity misses (after Oyuki-pronoun and Bushū-Tama fixes).
+- check_apparatus: 0 failures / 0 warnings after the B14 merge.
+- check_register --ref (frozen ch01): all WITHIN TOLERANCE, none STILTED.
+  em-dash/1k: ch64 3.7, ch65 5.0, ch66 5.4, ch67 4.6, ch68 3.9 (all well under
+  the 12.7 ref, as battle/narration chapters run — B13 pattern). contr/1k:
+  ch64 15.4, ch65 14.0 (43% shall-share, the Oyuki dialogue), ch66 1.7, ch67 5.6,
+  ch68 1.9 — the low-dialogue chapters read "little dialogue — noisy" and pass.
+- Tail verified against source for every chapter, the ch64 raid-failure and the
+  ch68 DEATH SCENE especially (leapt over their heads → tumbled from the saddle
+  with a fearful sound → the black coat wet with blood → "Toshizō was dead"; and
+  the Oyuki epilogue and （完）). No invented last words, no bridging.
+
+### Scene breaks (placed BY TEXT BOUNDARY from the XHTML <p><br/></p> runs)
+
+Each chapter had exactly ONE internal *** (the first br-run in each part is the
+title/body separator):
+- ch64: between "Toshizō fell." and "Springing to his feet…" (the leap onto the
+  ironclad's deck / the hand-to-hand fight).
+- ch65: between "…it is the lady Oyuki and none other." and "From the Goryōkaku
+  headquarters to the town of Hakodate…" (the shop scene / the ride to town).
+- ch66: between "…Oyuki asked no further." and "Toshizō went down to the
+  reception room…" (the bedchamber / the errand and the war-council).
+- ch67: between "…Komai Masagorō… was killed at this time." and "But the other
+  fronts were in a state of collapse…" (the Futamata victory / the collapse).
+- ch68: between "…their general assault on Goryōkaku." and "On the day itself…"
+  (the ghost-night and council / the death sortie).
+
+### Notes added: 23 (continuous 435–457; unit totals ch64 6, ch65 5, ch66 5,
+ch67 3, ch68 4). Built via scripts/build_b14_apparatus.py (anchors literal +
+UNIQUE, bodies numeric-ref encoded, <i> preserved). Highlights: the Miyako Bay
+raid; jō / kin-gun rating / sun units; the リ vs イ boarding metaphor; the
+false-flag ruse de guerre; goyōtō, hanseki hōkan, the Ainu, yatate, the
+Hokkaidō anachronism; the surviving Hijikata photograph; the imina Yoshitoyo;
+Otobe landing; Futamataguchi; 203-Meter Hill / Port Arthur; the Ainu word
+shinobirika; Nakajima Saburōsuke & Perry; the fifth-hour-of-the-night gloss;
+TOSHIZŌ'S DEATH DATE; the Gakuheitai; and the Oyuki-epilogue-as-fiction note.
+
+### Fact-check verdicts (scholarship, never LLM-sourced; verdicts in the notes)
+
+- MIYAKO BAY RAID (ch64): CORROBORATED. Meiji 2/3/25 = 6 May 1869; Kaiten alone
+  (Takao & Banryū storm-scattered) attacked the Kōtetsu under a US flag; ~9-foot
+  deck-height gap forced piecemeal boarding; the Gatling gun cut the party down;
+  the raid failed and the Kaiten escaped. Kōga Gengo, the Kaiten's captain, KILLED.
+- ★ TOSHIZŌ'S DEATH DATE — KICKOFF ERROR CORRECTED (ch68): Meiji 2/5/11 =
+  **20 June 1869** (Gregorian), NOT 11 June. The kickoff's "11 June" is a
+  lunar-day-as-Gregorian slip. Cross-check: Goryōkaku surrendered Meiji 2/5/18 =
+  27 June 1869 (rock-solid); 5/18 − 5/11 = 7 days ⇒ 5/11 = 20 June. Wikipedia
+  (Hijikata Toshizō, Battle of Hakodate) confirms 20 June 1869. He fell near the
+  Ippongi barrier, shot (wound low in the back per the standard account) while on
+  horseback; the exact spot and shooter are historiographically debated —
+  rendered per Shiba, uncertainty footnoted.
+- GOVERNMENT LANDING (ch66): CORROBORATED. Landed at Otobe (south of Esashi)
+  Meiji 2/4/9 (~20 May 1869); drove inland; Esashi then Matsumae fell.
+- FUTAMATAGUCHI (ch66–67): CORROBORATED in outline — one of Hijikata's few clear
+  successes; held many days. Shiba's precise figures (16 hours, 35,000 rounds,
+  one man lost) are the traditional ones, not independently verifiable; noted.
+- GORYŌKAKU SURRENDER (ch67–68): CORROBORATED. Meiji 2/5/18 = 27 June 1869, a
+  week after Toshizō's death. Shiba's "six days after" (六日後) is a one-day
+  compression (5/11→5/17 vs the actual 5/18); the note gives the correct date.
+- NAKAJIMA SABUROSUKE & PERRY (ch67): CORROBORATED. Ex-Uraga yoriki; parleyed
+  with Perry at Uraga Kaei 6/6/3 = 8 July 1853; died with his two sons defending
+  Chiyogatai after the surrender.
+- HANSEKI HŌKAN (ch65): CORROBORATED, dating slightly compressed (petitions 3rd
+  month Meiji 2; general order 6th month = July 1869). Yūjirō speaks of it as done.
+- HIJIKATA PHOTOGRAPH (ch66): CORROBORATED. The 1869 Hakodate seated portrait is
+  the only known photograph of him; carried to the Satō family at Hino, survives.
+- SURVIVING PORTRAIT / SIGNATURE 義豊 Yoshitoyo (ch66): CORROBORATED as his imina.
+- HOKKAIDŌ ANACHRONISM (ch65–66): FLAGGED. Shiba uses the modern name; the island
+  was renamed from Ezo only in the 8th month of Meiji 2 (Sept 1869), after the
+  death. Narrator usage; footnoted.
+- OYUKI (ch65, ch68 epilogue): FICTION, per Shiba's own afterword — no fact-check
+  of her existence; the temple-offering epilogue is invention, footnoted as such.
+- 203-METER HILL / PORT ARTHUR (ch67): the narrator's 1904–05 forward-glance
+  (Stoessel ~ Enomoto, Kondratenko ~ Toshizō); standard Russo-Japanese-War
+  history; contextual, footnoted.
+
+### noise.txt additions (all commented; never a real quantity)
+
+- ch64: 三陸 (Sanriku), 四方八方 (idiom), 金八郎 (Kasama Kinpachirō), 平八郎
+  (Tōgō Heihachirō).
+- ch65: 千代田形 (Chiyodagata; 千 in the name).
+- ch66: 伊庭八郎 (Iba Hachirō), 心形一刀流 (school name), 二股 (Futamata place),
+  二分金 (nibu-kin coin name), 百戦練磨 (idiom).
+- ch67: 大二郎 (Yoshizawa Daijirō), 政五郎 (Komai Masagorō), 三郎助 (Nakajima
+  Saburōsuke), 千代ケ岱 (Chiyogatai; 千 in name), 二〇三 (Hill 203 place-name).
+- ch68: 一本木 (Ippongi place), 政一郎 (Ozeki Masaichirō). (源三郎 for Inoue
+  Genzaburō was already present from B01.)
+
+### Number-check confirmations (this batch)
+
+- Composed as words and PASSED: bare tens+ones ("twenty-four", "twenty-seven or
+  twenty-eight"), "eighty thousand" (八万騎), "two thousand"/"three thousand",
+  "eight hundred"/"six hundred"/"five hundred"/"four hundred"/"three hundred",
+  "a hundred"/"about a hundred" (百 needs an article — "some hundred" FAILED,
+  fixed to "about a hundred" in ch67 & ch68), "five hundred and thirty ri"
+  (530), the elided "twelve or thirteen".
+- Written as DIGITS: 250, 150, 35,000; 203/613/734 (place-name & metres).
+- "three hundred kin" / "three rifled guns of four kin" — kept UNHYPHENATED so
+  the hundred/ones compose.
+- Real fixes made: 三十分 → "thirty minutes" (not "half an hour"); 真二つ →
+  "clean in two" (carry the 二); 二人きり → "the two of them" + kept "Oyuki".
+
+### Displaced/entity fixes made (qc_entities is the gate; it is clean)
+
+- ch65: two lines used a pronoun where お雪 stood → restored "Oyuki" (pairs 88,
+  180). ch66: 武州多摩 must render the DECIDED form "Bushū Tama" verbatim (not
+  "Tamagawa in Bushū") → fixed.
+
+### Digitization glitches (this batch): NONE observed in ch64–ch68 source. Only
+Shiba's expressive gikun furigana (semantic; not romanized), his bracketed
+glosses and modern parentheticals (kept), and colloquial elided ranges (二十七、
+八 / 十二、三 / 百人ばかり — handled by wording/noise; English carries the count).
+
+### NOT RE-NOTED (B14; covered earlier)
+- ri, ken, chō, koku (units); Minié rifle (ch41); Gatling gun / machine gun
+  (ch63); Shōgitai (ch53); Denshūtai (ch44); Seinan War (ch44); the eighty-
+  thousand hatamoto horse (ch27); Tōgō Heihachirō (ch62); Nagai Naomune (ch30);
+  Kondō / Okita / Inoue / Yamazaki (dead comrades, memory only); Ichimura (ch60);
+  Kuroda Ryōsuke→Kiyotaka (ch63); Satō Hikogorō (ch01); Izumi-no-kami Kanesada
+  (voice sheet / earlier); the "Makoto" banner (earlier); Kotetsu sword (ch12);
+  Sendai-hira (ch47).
+- Glossary decided-forms rendered verbatim this batch: 土方歳三 Hijikata Toshizō,
+  近藤勇 Kondō Isami, 沖田総司 Okita Sōji, 井上源三郎 Inoue Genzaburō, 山崎烝
+  Yamazaki Susumu, お雪 Oyuki, 会津 Aizu, 武州多摩 Bushū Tama, 甲鉄 Kōtetsu,
+  新選組, 里 ri, 旗本 hatamoto. NO new glossary keys → no cascade.

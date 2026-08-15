@@ -63,7 +63,12 @@
     "ch60": "out/ch60_reading.md",
     "ch61": "out/ch61_reading.md",
     "ch62": "out/ch62_reading.md",
-    "ch63": "out/ch63_reading.md"
+    "ch63": "out/ch63_reading.md",
+    "ch64": "out/ch64_reading.md",
+    "ch65": "out/ch65_reading.md",
+    "ch66": "out/ch66_reading.md",
+    "ch67": "out/ch67_reading.md",
+    "ch68": "out/ch68_reading.md"
   },
   "sources": {
     "ch01": "data/zh/ch01.txt",
@@ -128,7 +133,12 @@
     "ch60": "data/zh/ch60.txt",
     "ch61": "data/zh/ch61.txt",
     "ch62": "data/zh/ch62.txt",
-    "ch63": "data/zh/ch63.txt"
+    "ch63": "data/zh/ch63.txt",
+    "ch64": "data/zh/ch64.txt",
+    "ch65": "data/zh/ch65.txt",
+    "ch66": "data/zh/ch66.txt",
+    "ch67": "data/zh/ch67.txt",
+    "ch68": "data/zh/ch68.txt"
   },
   "notes": "notes.json",
   "heading_depth": 1
