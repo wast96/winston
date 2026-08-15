@@ -23,7 +23,8 @@
     "ch21": "out/ch21_reading.md",
     "ch22": "out/ch22_reading.md",
     "ch23": "out/ch23_reading.md",
-    "ch24": "out/ch24_reading.md"
+    "ch24": "out/ch24_reading.md",
+    "ch25": "out/ch25_reading.md"
   },
   "sources": {
     "ch01": "data/zh/ch01.txt",
@@ -49,7 +50,8 @@
     "ch21": "data/zh/ch21.txt",
     "ch22": "data/zh/ch22.txt",
     "ch23": "data/zh/ch23.txt",
-    "ch24": "data/zh/ch24.txt"
+    "ch24": "data/zh/ch24.txt",
+    "ch25": "data/zh/ch25.txt"
   },
   "notes": "notes.json",
   "heading_depth": 2

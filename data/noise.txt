@@ -616,3 +616,32 @@
 # mis-read glyph-string, not the quantity (cf. the 四○七 rooms, which self-resolve
 # via the neighboring ordinal dates). Listed in PROGRESS.
 五○○
+#
+# --- B19 (ch25) entries ---
+#
+# Elided years 二十八、九年 (the twenty-eighth and twenty-ninth years): the 九
+# elides its 二十, so the checker reads 二十八 (28) and a bare 九 (9); English
+# carries "the twenty-eighth and twenty-ninth years". Full forms 二十八年/二十九年
+# elsewhere are carried normally.
+二十八、九
+# Abbreviated name 道三 (Zhou Daosan / 周道三, alt. 伟龙 Zhou Weilong): the 三 is
+# part of the name, not the count 3. English "Zhou Daosan (Weilong)".
+道三
+# Name: 四行仓库 (the Sihang Warehouse, the "Four Banks' Warehouse"); the 四 is
+# part of the name, not the count 4. English "the Sihang Warehouse".
+四行仓库
+# Idiom 日理万机 "handling a myriad affairs a day" (= exceedingly busy); the 万 is
+# not the count 10000. English "beset with a myriad affairs".
+日理万机
+# Idiom 器材教两缺 "matériel and teaching both wanting"; the 两 = "both", not 2.
+两缺
+# Idiom 一宅两用 "one dwelling serving a double turn"; the 一/两 are not counts.
+一宅两用
+# Weekday index 星期六 (Saturday); the 六 is not the count 6.
+星期六
+# Lexical compound 换零钱 "to change small money / loose change"; the 零 is not the
+# numeral 0 (cf. 零碎 above). English "change small money".
+零钱
+# Railway name 广九(路) (the Canton–Kowloon railway, Guang-Jiu); the 九 is part of
+# the line's name, not the count 9. English "the Canton–Kowloon line".
+广九

@@ -2370,3 +2370,178 @@ French; 4666 constables, 509 sergeants…) rendered as digits or as word-forms s
   in data/zh/ch24.txt before converting to NCRs; defeats the CJK-mangling hazard).
 - `data/noise.txt` — B18 block (see above).
 - `notes.json` — 6 notes appended via apparatus_merge.py (numeric character references).
+
+## Batch B19 — ch25 (Part Three, Chapter 5: "Renown Won in a Hundred Battles")
+
+**Unit:** ch25 = 第五章 全面检讨奇人奇事 "Chapter 5. A Full Reckoning: Remarkable People,
+Remarkable Deeds." A FULL chapter (~15,600 source chars; 183 body paragraphs), continuing
+ch24's system-wide reckoning. Three movements: (a) **"A Review of the Juntong's Work in the
+Early Years of the War"** — reproduces Dai Li's own work-directives, under the run-in labels
+情报部份 (intelligence), 破坏部份 (sabotage), 行动部份 (action), and 检讨总结 (the summary of
+shortcomings, 15 numbered self-criticism points ending on Dai's own); (b) **"Accepting Without
+Leave a Consignment of Donated Arms"** — the 144 Mauser pistols the exile "friend" sends via
+Hu Yongquan, stored on Qi Qingbin's advice against Dai's telegram foreseeing a mass action
+(the Sihang Warehouse / interned soldiers), the German "Mr. Shi" met through the eye-doctor
+Nie Chonghou; (c) **"A Remarkable Man of Political Background Who Yet Served No Double-Agent
+Ends"** — the stalled sanction of Zhang Xiaolin, the Tianjin notable Pan Zixin ("Master Pan
+the Seventh"), and the long Fan Xing (范纪曼) intelligence-source puzzle set against the CCP's
+Shanghai underground (Pan Hannian, the Jiangsu Provincial Committee). Closes on the sacrifice
+essay and Sima Qian's "heavier than Mount Tai, lighter than a feather."
+
+### Structure (confirmed p-by-p against the source XHTML)
+- `index_split_000_0024.xhtml` parses to **1 `<h2>` + 191 `<p>` + 2 `<br/>`**, NO `<h1>`, NO
+  `<img>`, NO `[\d+]` note markers. Proven 1:1: after drop=2 the txt's 193 body lines map to
+  the 191 `<p>` once the two intra-`<p>` `<br/>` pairs are rejoined (verified with a byte-exact
+  p-by-p diff, zero mismatches).
+- drop=2 (running header 英雄无名-陈恭澍 + `<h2>` chapter title).
+- **NINE merges.** TWO are the intra-`<p>` `<br/>` line breaks — a NEW trigger vs ch24, a
+  `<br/>` INSIDE one `<p>` rendered as a newline by the extractor: L46/L47 (…爆破器材等。`<br/>`
+  以及…), L105/L106 (…比我有见地。`<br/>`而况且…). SEVEN are source `<p>` boundaries that sever
+  one sentence (the class merged since ch06), TWO of which CHAIN into a `<br/>` pair:
+  L5/L6 (comma), L45/L46/L47 (秦|同志 + `<br/>`), L52/L53 (应即予|加强), L61/L62 (标|准, inside a
+  quoted line), L84/L85 (离开本|局), L104/L105/L106 (到时|候 + `<br/>`), L118/L119 (结果|如何).
+  **NOTE:** the B18 kickoff's coarse "191 = 191 `<p>`, only the 2 `<br/>`" reconciliation
+  missed these 7 severed-`<p>` boundaries; per CLAUDE.md's merge rule they merge, and parity
+  is data/zh↔reading.md (183/183), NOT the raw `<p>` count — a documented, correct departure.
+- **THREE sub-headings.** L3 standalone opening couplet 八年抗战初期「军统局」工作检讨 → "A Review
+  of the Juntong Bureau's Work in the Early Years of the Eight-Year War of Resistance" (cf.
+  ch11/ch14/ch21/ch22/ch23/ch24). L88 **tail-glued** 未经许可接受了 ─一批赠与的武器经手 (ends
+  non-terminal after a space+─) → "Accepting Without Leave a Consignment of Donated Arms; the
+  Handling of It." L126 **tail-glued** 有政治背景无反间作用的奇人奇事 (ends on terminal 事, reads
+  as the section heading for the 张啸林/范行 narrative that follows) → "A Remarkable Man of
+  Political Background Who Yet Served No Double-Agent Ends."
+- The four work-review dividers 情报部份─ (L8, head-glued to its quote), 破坏部份─ (L29,
+  standalone), 行动部份─ (L60, standalone), 检讨总结─本局工作当前之缺点：(L70, head-glued) are
+  kept INLINE as run-in labels (source formats them inconsistently glued/standalone), NOT
+  ### headings — this preserves parity naturally and matches the source's own presentation.
+- The enumerated directive/summary items (1.-6. intelligence needs; 1.-11. sabotage编组;
+  1.-15. summary), the sub-list headers 对战区：/ 对后方：, the 范行-analysis list items, and
+  the `：`-lead-ins are DELIBERATE separate `<p>` (rendered per parity, NOT merged).
+- clean_batch.py: `ch25: 183 body paragraphs, 3 sub-headings, source conserved OK`.
+
+### Checks (all green for ch25; pre-existing artifacts unchanged)
+- `verify_unit.py ch25`: parity **183/183**, numbers **0 unresolved** (auto noise), **10
+  anchors ok**.
+- `check_align.py ch25`: 183/183, **median ratio 4.97 en/han**; one outlier (11. 密本照发 →
+  "The cipher-books to be issued as before," a 4-char directive item). In the document-heavy
+  band (ch24 = 5.33) because of the many short quoted-directive/list lines; register is the
+  real gate and passes.
+- `check_structure.py`: ALL STRUCTURAL CHECKS PASS; anchors **242 notes, 0 unresolved**.
+- `check_content.py`: **ch25 97 name occurrences, all in the paired paragraph (0 displaced).**
+  Known pre-existing artifacts UNCHANGED (NOT regressions): ch08 Shunde ×3; ch13 Miss Nguyen/
+  Oya Kusuo/Yuan Haowen ×9; ch09 "Jize County" ×1.
+- `qc_entities.py` (reconstructed bilingual, 183 pairs, headings stripped): **entity misses:
+  0.** Census: 范行 ×38, 军统 ×12, 行动组 ×9, 天津 ×9, 胡永荃 ×8, 潘子欣 ×7, 北平 ×6, 制裁 ×5,
+  督察 ×5, 张啸林 ×5. 制裁 rendered "sanction," 督察 "inspector/inspectorate," 军统局 "the
+  Juntong Bureau" throughout (the qc gate).
+- `check_register.py --ref`: **within tolerance.** contractions 0.0, shall 67% (deliberate —
+  Chen's formal narration PLUS the many imperative Dai Li directives "shall be set up / shall
+  have / shall be issued"; the tool itself flags it informationally as "may be deliberate"),
+  em-dash 7.4/1k (ref 8.3), rhythm CV 0.69 (ref 0.60).
+- Tail verified against the source (rule 4 corollary, critical on a 15k single-pass unit): the
+  last eight paragraphs (the sacrifice essay; the labor-movement nameless dead; the Xiao
+  family 5/3/2; New Group One; the buried-alive comrade; 特工总部 killing 8, only 3 sourced;
+  the Sima Qian close) rendered in full, no fabrication, no drift. Every count carried.
+- Build: `25 of 43 chapters, 242 notes`. `qa_epub.py` PASS (242 refs/bodies/backlinks).
+  **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.**
+
+### Settled renderings REUSED (Part-Three consistent)
+"the Shanghai District"; "the Juntong"/"the Juntong Bureau"; 制裁 "sanction"; 督察 "inspector"
+(function → "inspectorate," keeping the checker's substring); 敌伪 "the enemy and the puppets";
+汪伪 "Wang puppets"; 忠义救国军 "the Loyal and Patriotic Army" (NOTED ch21); 特工总部/七十六号
+"Special Operations Headquarters"/"No. 76" (李士群 Li Shiqun NOTED ch04/ch17 — NOT re-noted);
+公共租界 "International Settlement"/法租界 "French Concession" (NOTED ch04); 俞叶封/兪叶封 Yu
+Yefeng; 张啸林 Zhang Xiaolin (NOTED ch04, one of the three Green-Gang tycoons); 齐庆斌 Qi
+Qingbin, 张作兴 Zhang Zuoxing (Brother = 兄); 戴雨农 Dai Yunong/Mr. Dai; 郑介民 Zheng Jiemin
+(NOTED ch04); 杜月笙 Du Yuesheng (NOTED ch17); Whampoa (NOTED ch05); 驳壳枪 Mauser (NOTED ch08);
+北平 Beiping / 天津 Tianjin / 四川 Sichuan (keyed pinyin, NOT postal); attested Shanghai roads
+inline (Seymour Road 西摩路, Route Doumer 杜美路, Route de Grouchy 格罗希路, Carlton Apartments
+卡尔登公寓, Bubbling Well Road 静安寺路); the Republican-year convention (literal; checker
+matches the source numeral, or auto-escapes via +1911).
+
+### New glossary rows (5 net new; BY HAND into the sectioned glossary; every row a pinyin field)
+Of the 9 people rows asserted, 4 pre-existed (秦启荣 Qin Qirong, 毛人凤 Mao Renfeng, 潘汉年 Pan
+Hannian, 高荣 Gao Rong — added in earlier chapters, en matched). NEW (5): 聂崇侯 Nie Chonghou
+(provisional — the Jiangxi/German-trained eye doctor); 潘子欣 Pan Zixin (provisional — "Master
+Pan the Seventh," the Tianjin notable); 胡永荃 Hu Yongquan (provisional — the fixer who carries
+the arms gift); 彭雅萝 Peng Yaluo (provisional — Fan Xing's companion); **兪叶封 Yu Yefeng** (the
+variant glyph 兪-for-俞 the source uses, keyed so qc gates it in this unit too). NOT keyed
+(rendered inline in pinyin, glossary-key discipline): the telegram names 钱新民/廖公劭, the
+former secretary 刘方雄, the sabotage-directive operatives 方步舟/谢冰/岳烛远/谢镇南/邹适, the
+CCP Jiangsu Committee roster 刘晓/刘长胜/张爱萍/刘宁一/王尧山/沙文汉/张执一/刘少文, 叶吉卿; and
+the German "Mr. Shi" (只 a surname-sound). Shanghai roads kept inline (attested, not keyed).
+
+### Notes added (10; first-appearance-disciplined; cumulative 242)
+1. **秦启荣 (Qin Qirong)** — Shandong Nationalist guerrilla commander, sixth Whampoa class, a
+   Juntong man; killed 1943; the demolition brigade / Qingdao action group were his Shandong work.
+2. **"twenty thousand yuan a day" (每日 vs 每月)** — the directive prints "a day," but Chen's own
+   reckoning below and item 7's "two months' funds" both treat it as monthly; rendered as the
+   source prints it, the discrepancy the source's own (rule 4: made visible, not smoothed).
+3. **毛人凤 (Mao Renfeng)** — Dai Li's closest lieutenant and effective administrator; succeeded
+   him at the head of the Juntong after Dai's 1946 death.
+4. **釜底抽薪 (drawing the firewood from under the cauldron)** — the classical idiom for striking
+   at a trouble's root; Dai applies it to the sanction of Wang Jingwei, and Chen takes it up.
+5. **四行仓库 (the Sihang Warehouse / the interned "lone battalion")** — the 88th Division's last
+   stand ("Eight Hundred Heroes"), Oct 1937; the disarmed survivors interned in the Settlement
+   are the "detained officers and men" of Dai's telegram.
+6. **洋泾浜/pidgin English (Yangjingbang)** — the source's 洋经滨 homophone; the creek dividing
+   the Settlement from the French Concession that named Shanghai's trade-jargon and "pidgin."
+7. **潘汉年 (Pan Hannian)** — the CCP's foremost Shanghai intelligence officer, working the seams
+   among the Nationalist/Japanese/Wang services; met Wang Jingwei, dealt with Li Shiqun; purged
+   1955, later rehabilitated; the "Jiangsu Provincial Committee" was the Party's Shanghai lead.
+8. **老泰山 ("Old Mount Tai" = father-in-law)** — the vivid colloquial kinship term, playing by
+   chance against the classical Mount Tai figure that closes the chapter.
+9. **蟹壳黄 (xieke huang, "crab-shell yellow")** — the small flaky sesame-brushed Shanghai
+   pastry eaten hot from the oven, savory (scallion) or sweet.
+10. **司马迁 "heavier than Mount Tai, lighter than a feather"** — Sima Qian's "Letter in Answer
+   to Ren An"; the proverb for weighing a death by its worth, which also titles the next chapter.
+**NOT re-noted (already covered):** the Marco Polo Bridge Incident (ch13); No.76 / 特工总部 /
+Li Shiqun (ch04/ch17); the International Settlement / French Concession (ch04); 郑介民 Zheng
+Jiemin (ch04); 何应钦 He Yingqin (ch09); Du Yuesheng (ch17); Whampoa (ch05); the Mauser 驳壳枪
+(ch08); 忠义救国军 (ch21); 张啸林 as a Green-Gang tycoon (ch04); the Republican calendar.
+
+### Digitization glitches (rendered to plain sense; LISTED, none footnoted — mechanical)
+- **载先生 → 戴先生** (L27/data-zh L29; 載-for-戴): rendered "Mr. Dai."
+- **敌军行重 → 敌军行动** (L8 directive; 重-for-动): rendered "movements of the enemy forces."
+- **铁路坏工作 → 铁路破坏工作** (L31; 破 dropped): rendered "sabotage on the railway."
+- **而练亦由吾人负责 → 而训练** (L48; 训 dropped): rendered "and the training likewise."
+- **准予继绩行动 → 继续** (L48; 绩-for-续): rendered "to carry our action on."
+- **在杭战初期 → 抗战** (L53; 杭-for-抗): rendered "in the early days of the war."
+- **忠义教国军 → 忠义救国军** (L59; 教-for-救): rendered "the Loyal and Patriotic Army."
+- **因为敌后活务 → 敌后工作/活动** (L57; 活务 unclear): rendered "work behind the enemy's lines."
+- **对行动工作的个扼要 → 一个扼要** (L57; 一 dropped): rendered "a terse review."
+- **粤妙 → 奥妙** (L94; 粤-for-奥): rendered "the deep subtlety."
+- **不管共产党采取什么态 → 什么态度** (L26; 度 dropped): rendered "whatever posture."
+- **始终是把它列工作 → 列为工作** (L26; 为 dropped): rendered "held it always to be."
+- **居该党领导地至者 → 领导地位** (L19; 至-for-位): rendered "leading positions."
+- **我朱来 → 我素来(?)** (L126; 朱-for-素, uncertain): rendered "I had of old come to it."
+- **× redactions (source's own blanks, rendered as em-dash blanks):** 自×月份起 ("from the ——
+  month"), 贺×同志 ("Comrade He ——"), ×棋 / Pan's mis-heard game ("——-chess," Chen guessing
+  "copper-chess"), 陈××先生 in Liu Shaokui's memoir ("Mr. Chen ——"). NOT footnoted — the
+  narrator explains his own uncertainty (×棋) or these are self-evident redactions.
+None is genuine reading uncertainty, so none is footnoted (per policy). The 每日/每月 directive
+discrepancy IS footnoted (note 2) because it is a substantive stumble a reader would hit.
+
+### data/noise.txt — B19 block appended (each entry commented)
+Elided years: 二十八、九 (the 九 elides its 二十; English carries "twenty-eighth and twenty-ninth
+years"). Name-numerals: 道三 (Zhou Daosan), 四行仓库 (Sihang Warehouse), 广九 (Canton–Kowloon
+railway). Idioms: 日理万机, 两缺 (器材教两缺 "both wanting"), 一宅两用. Weekday: 星期六. Lexical:
+零钱 (loose change). ALL REAL quantities CARRIED and matched as DIGITS so the checker's split
+values align: the demolition-brigade table (500 men, 20,000/day, 20 Mausers/10,000 rounds, 20
+revolvers/4,000 rounds, 12 Mausers/10 revolvers/200 rounds, 2,400 & 3,000 yuan); the 144 → 140
+Mausers, 13,000-odd rounds; the 150,000 Northeast funds; the twenty-ninth-year budget carried
+identically to ch24 (11,000 men, 510,000-odd yuan); the 100,000-yuan gun valuation.
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch25 spec added (drop=2; 9 merges incl. the 2 intra-`<p>` `<br/>`
+  pairs and 2 chains that fold a severed-`<p>` boundary into a `<br/>` pair; 2 tail-glued + 1
+  standalone sub-headings). The `<br/>`-inside-a-`<p>` case is handled by the existing `merges`
+  machinery (the extractor renders `<br/>` as a newline, so it is just another line pair).
+- `scripts/add_ch25_glossary.py` — adds the new rows BY HAND into the SECTIONED glossary
+  (idempotent; each hanzi key asserted present in data/zh/ch25.txt; 4 pre-existed, 5 net new).
+- `scripts/make_ch25_apparatus.py` — the 10 ch25 notes (every non-ASCII glyph asserted present
+  in data/zh/ch25.txt before converting to NCRs; the correct 洋泾浜 glyphs are ABSENT from the
+  source so the note uses the source's 洋经滨 form + pinyin, and 孤军/司马迁 are described in
+  English/pinyin since those glyphs are not in ch25's source).
+- `data/noise.txt` — B19 block (see above).
+- `notes.json` — 10 notes appended via apparatus_merge.py (numeric character references).

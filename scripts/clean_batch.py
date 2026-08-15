@@ -488,6 +488,53 @@ UNITS = {
         # L38 the (二)法租界巡捕房 section heading.
         "standalone": [3, 38],
     },
+    "ch25": {
+        "file": "26_index-split-000-0024.txt",
+        "title": "第五章 全面检讨奇人奇事",
+        "drop": 2,             # running header + <h2> chapter title
+        # A FULL chapter. Source XHTML parses to 1 <h2> + 191 <p> + 2 <br/>,
+        # zero mismatches (no <h1>, no <img>, no [\d+] note markers), proven
+        # p-by-p: after drop=2 the txt's 193 body lines map to the 191 <p> once
+        # the two intra-<p> <br/> pairs are rejoined. NINE merges in all:
+        #   TWO are the intra-<p> <br/> line breaks (a NEW trigger vs ch24 -- a
+        #   <br/> INSIDE one <p>, not a <p> boundary):
+        #     L46/L47  …爆破器材等。<br/>以及和主管人事的部门治商人事问题。
+        #     L105/L106 …庆斌兄的确比我有见地。<br/>而况且这原是公家之物…
+        #   SEVEN are source <p> boundaries that sever one sentence (first ends
+        #   non-terminal), exactly the class merged since ch06 (cf. ch21/ch22/
+        #   ch24). Two of them CHAIN into a <br/> pair above:
+        #     L5/L6    …所处的地位不同，| 在感应上自然会各有差异。 (comma split)
+        #     L45/L46/L47  …用「副本」，而秦 | 同志就得凭… (秦|同志 split, then <br/>)
+        #     L52/L53  …爆破训练班之人事，应即予 | 加强，… (应即予|加强 split)
+        #     L61/L62  …亦无充份之标 | 准也。」 (标|准 split, inside a quoted line)
+        #     L84/L85  …离开本 | 局之立场，… (离开本|局 split)
+        #     L104/L105/L106 …果真成为事实，到时 | 候虽然… (到时|候 split, then <br/>)
+        #     L118/L119 …征求聂大夫的同意。结果 | 如何，… (结果|如何 split)
+        # NOT merged (DELIBERATE separate <p>, cf. ch21/ch22/ch24): the quoted-
+        # directive lead-ins ending ：(L10,L18,L25,L29,L41,L47… as ：/如下/如次),
+        # the 1.-6. / 1.-15. enumerated directive/summary items ending ；, the
+        # sub-list headers 对战区：/ 对后方：, the reader-question lead-ins, the
+        # 范行-analysis list items (L175/L176 ；), and the two dash-lead-in
+        # section labels 破坏部份─ (L29) and 行动部份─ (L60) -- each its OWN <p>
+        # ending on ─, a run-in label introducing the quoted directive that
+        # follows, rendered as its own short prose line (cf. ch20 L12 dash
+        # lead-in; NOT a split, NOT a heading). The 情报部份─ label (L8) and the
+        # 检讨总结─本局工作当前之缺点：label (L70) are HEAD-glued onto their content
+        # in the source and kept inline as prose (run-in labels), matching how
+        # the source presents them.
+        "merges": [(5, 6), (45, 46), (46, 47), (52, 53), (61, 62),
+                   (84, 85), (104, 105), (105, 106), (118, 119)],
+        # THREE sub-headings. L3 is the opening review-section title (standalone
+        # couplet, cf. ch11/ch14/ch21/ch22/ch23/ch24). L88 and L126 are the two
+        # "奇人奇事" story titles fused onto a paragraph TAIL (cf. ch24; L88's ends
+        # non-terminal after a space+─, L126's ends on the terminal 事 but reads
+        # as the section heading for the 张啸林/范行 narrative that follows).
+        "glued": {
+            88: "未经许可接受了 ─一批赠与的武器经手",
+            126: "有政治背景无反间作用的奇人奇事",
+        },
+        "standalone": [3],     # 八年抗战初期「军统局」工作检讨
+    },
 }
 
 
