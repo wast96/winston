@@ -645,3 +645,63 @@
 # Railway name 广九(路) (the Canton–Kowloon railway, Guang-Jiu); the 九 is part of
 # the line's name, not the count 9. English "the Canton–Kowloon line".
 广九
+#
+# --- B20 (ch26) entries ---
+#
+# Japanese name element 三郎 (Saburō): 小林峰三郎 Kobayashi Minesaburō, 杉本喜三郎
+# Sugimoto Kisaburō; the 三 is a name glyph, not the count 3. English carries the
+# romanized names.
+三郎
+# Lexical compound 百货公司 "department store" (lit. "hundred-goods company"); the
+# 百 is not the count 100. English "department store".
+百货
+# Idiom 万岁 "long live" (lit. "ten thousand years"); the 万 is not the count 10000.
+# English "long live".
+万岁
+# Name 三通书局 (the Santong Book Company); the 三 is part of the name, not 3.
+三通书局
+# Glitch 戴两农 for 戴雨农 (Dai Yunong): the source prints 两 (a homophone-ish glyph)
+# for 雨; the 两 is not the count 2. English "Dai Yunong". Listed in PROGRESS.
+戴两农
+# Glitch 十一一月 for 十二月 (December): the source doubles a stroke; the 十一 is a
+# mis-read, not the count 11. English "December" (the eighth, i.e. Pearl Harbor).
+# Listed in PROGRESS.
+十一一月
+# Month glyphs rendered as English month-names (never as a digit in this book's
+# narrative or in the Japanese incident roster): 六月-十月 as "June"-"October".
+# The slash-format tally dates (30/6/17 etc.) carry their real digits separately.
+六月
+七月
+八月
+九月
+十月
+# Approximate population 数百万 "several millions"; the 百 is not the count 100.
+数百万
+# Counter 二位 "the two (gentlemen)": Liu Shaokui and Liu Junqing, both named in the
+# English, so the count is carried by naming; the 二 is a counter, not a tracked value.
+二位
+# Idiom 九泉(之下) "the nine springs / the world below"; the 九 is not the count 9.
+九泉
+# Idiom 抖五抖六 "swaggering, strutting"; the 五/六 are not counts.
+抖五抖六
+# Address artifact 一○四(号) "No. 104" (Aitang Road): the source prints the zero as ○
+# (U+25CB), which the checker mis-reads; English carries the real value "No. 104".
+一○四
+# Idiom 花样百出 "tricks and turns without end"; the 百 is not the count 100.
+百出
+# Weekday index 星期五 (Friday); the 五 is not the count 5 (cf. 星期六).
+星期五
+# Japanese name 五十岚(翠) Igarashi (Midori); the 五十 is a name element, not 50.
+五十岚
+# Name 三兴面粉工场 (the Sanxing Flour Mill); the 三 is part of the name, not 3.
+三兴
+# Glitch 百寓(人) for 百万人 "a million men": 寓 for 万; the 百 is not a bare 100.
+# English "a million men".
+百寓
+# Glitch 二作 for 工作 "work" (二 for 工) in the badly-corrupted sanction-plan block;
+# the 二 is not the count 2. Listed in PROGRESS.
+二作
+# Idiom 零星 "scattered, sundry"; the 零 is not the numeral 0.
+零星
+# Idiom 百业(辐辏) "the hundred trades (crowded together)"; the 百 is not the count 100.
+百业

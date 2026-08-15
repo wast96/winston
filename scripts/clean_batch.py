@@ -535,6 +535,73 @@ UNITS = {
         },
         "standalone": [3],     # 八年抗战初期「军统局」工作检讨
     },
+    "ch26": {
+        "file": "27_index-split-000-0025.txt",
+        "title": "第六章 泰山鸿毛 同此一掷",
+        "drop": 2,             # running header + <h2> chapter title
+        # A FULL chapter. Source XHTML parses to 1 <h2> + 280 <p> + 54 <br/>,
+        # zero mismatches, proven byte-exact p-by-p against the txt body (after
+        # drop=2 the 334 body lines map to the 280 <p> once the 54 intra-<p>
+        # <br/> are accounted for); no <h1>, no <img>, no [\d+] note markers.
+        # ALL 54 <br/> fall in just FOUR <p>, and they are NOT sentence-splits
+        # but TABLE/roster line breaks (kept as separate rows, per CLAUDE.md's
+        # "roster lines are DELIBERATE separate lines, do NOT merge") EXCEPT one
+        # prose block:
+        #   p#177 (34 <br/> = 35 rows): the enemy-compiled 「蓝衣社在沪所犯案件
+        #     统计表」 tally of our sanctions of Japanese personnel (name/date/
+        #     place/casualty/action-group) -> rows KEPT (L180-L214 body lines).
+        #   p#214 (9 <br/> = 10 rows) + p#217 (9 <br/> = 10 rows): the Japanese
+        #     gendarmerie's own 「大陆宪兵实录」 record of anti-Japanese incidents
+        #     (July-Oct, in Japanese) -> rows KEPT.
+        #   p#211 (2 <br/> = 3 segments, L248-L250): three complete reflective
+        #     PROSE sentences the author set in one <p> with line breaks -> MERGED
+        #     into one paragraph (cf. ch25's intra-<p> <br/> prose merge; one <p>
+        #     = one paragraph). This is the ONLY <br/>-prose merge in the chapter.
+        # SEVEN source-<p> boundaries that sever one sentence (first ends
+        # non-terminal), the class merged since ch06 (cf. ch21/ch22/ch24/ch25):
+        #   L25/L26   …大饭店前处理 | 之。 (处理|之, inside a quoted letter)
+        #   L31/L32   …那是说在 | 安全撤退… (说在|安全撤退)
+        #   L90/L91   …也正是为了一个 | 「权」宇。 (一个「权」字; source glitch 宇->字)
+        #   L161/L162 …一日，在 | 江湾附近… (comma split inside the quoted 统计表)
+        #   L263/L264 …「イワノフ〔伊凡诺夫〕」 | 暗杀 (the 14-Sept row's verb, a
+        #             gendarmerie-table row split across the <p> boundary)
+        #   L304/L305 …奋不顾身的干 | 起来了。 (干|起来了)
+        #   L323/L324 …一小包(块) | 放在电车轨道上… ((块) parenthetical continuation)
+        # NOT merged (DELIBERATE separate <p>, cf. ch21/ch22/ch24/ch25): the
+        # quoted-telegram/letter/document lead-ins ending ：(L58/L60/L62/L65/L79/
+        # L81/L108/L117/L129/L133/L176/L186/L204/L206…), the ─-ended dash lead-ins
+        # (L162?→no; L162 is the merge above; the true dash lead-ins L162… are the
+        # "这样的──" lines), the (一)-(六) news-report enumerated list items and the
+        # 一、二、三、 three-point list (L128-L130), the two roster label lines
+        # (L177 「被害者」, L178 header), the run-together Japanese-table <p>
+        # (L263), and the 「」/『』-closed quoted lines. Dropped-。 breaks (L37
+        # 萧氏一家满门忠贞, a new scene follows) are DELIBERATE paragraph breaks,
+        # NOT splits (cf. ch21 L86/ch22 L215/L250).
+        "merges": [(25, 26), (31, 32), (90, 91), (161, 162),
+                   (248, 249), (249, 250), (263, 264), (304, 305),
+                   (323, 324)],
+        # TWO tail-glued couplet-style section headings (a short thematic phrase
+        # fused onto a paragraph's TAIL after a terminal 。, ending non-terminal
+        # or in a full-width 」; cf. ch22/ch24/ch25's tail-glued headings):
+        #   L38  …死于敌后工作的又一例证。+ 萧氏一家满门忠贞  (the Xiao-family section;
+        #        the source glues it here, then reaches the Xiao family through a
+        #        narrative bridge — the declined inspection tour, then Jiang Anhua
+        #        and the Xiao-house liaison station — a faithful discursive order)
+        #   L76  …这就要再深一层去研究了。+ 我们的同志作了敌伪的「活人祭」 (the section
+        #        on the three comrades martyred at No.76; ends in 」, which a
+        #        non-terminal scan misses — the three-tell's 」 case)
+        "glued": {38: "萧氏一家满门忠贞",
+                  76: "我们的同志作了敌伪的「活人祭」"},
+        "glued_head": {},
+        # FOUR standalone sub-headings, each its own plain <p> (no glued tails/
+        # heads): L3 opening couplet-style sub-heading 没有名籍生死不明的先烈们
+        # (cf. ch11/ch14/ch21-25); L96 the reproduced Xu Wenqi essay's title
+        # 中日战争中死难无名英雄之一; L218 the enumerated section heading 二、日本
+        # 宪兵留下来的一段记录 (its "一、" sibling, the enemy-compiled 统计表 above,
+        # is presented without an explicit "一、" label — a faithful numbering
+        # anomaly); L277 the section heading 「抗日杀奸团」为抗战奉献牺牲.
+        "standalone": [3, 96, 218, 277],
+    },
 }
 
 

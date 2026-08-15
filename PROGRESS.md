@@ -2545,3 +2545,90 @@ identically to ch24 (11,000 men, 510,000-odd yuan); the 100,000-yuan gun valuati
   English/pinyin since those glyphs are not in ch25's source).
 - `data/noise.txt` — B19 block (see above).
 - `notes.json` — 10 notes appended via apparatus_merge.py (numeric character references).
+
+---
+
+## Batch B20 (ch26) — 第六章 泰山鸿毛 同此一掷 "Chapter 6. Mount Tai or a Feather, All on One Throw"
+
+A FULL martyr-roster chapter (~19,000 source chars). Source XHTML parses to 1 `<h2>` + 280 `<p>`
++ 54 `<br/>`, NO `<h1>`, NO `<img>`, NO `[\d+]` note markers; proven byte-exact p-by-p against the
+txt body. drop=2. **321 body paragraphs; 6 sub-headings.** EPUB now 26/43 chapters, 253 notes.
+All checks green; qa_epub PASS; epubcheck 0/0/0/0.
+
+### Structure (the 54 `<br/>` and the merges)
+ALL 54 `<br/>` fall in just FOUR `<p>`, and — contrary to the coarse "every `<br/>` is a merge"
+assumption — they are mostly TABLE/roster line breaks, kept as separate rows (CLAUDE.md: roster
+lines are deliberate separate lines):
+- **p#177 (34 `<br/>` = 35 rows):** the enemy-compiled 「蓝衣社在沪所犯案件统计表」 tally of our
+  sanctions of Japanese personnel (name/date/place/casualty/action-group) — rows KEPT.
+- **p#214 + p#217 (9 + 9 `<br/>` = two 10-row blocks):** the Japanese gendarmerie's own
+  「大陆宪兵实录」 record of anti-Japanese incidents (July–Oct, in Japanese) — rows KEPT.
+- **p#211 (2 `<br/>` = 3 segments):** three complete reflective PROSE sentences in one `<p>` —
+  the ONLY `<br/>`-prose MERGE (chain L248-249-250 → one paragraph; cf. ch25's intra-`<p>` `<br/>`).
+- **SEVEN severed-`<p>` merges** (a source `<p>` boundary severing one sentence): L25/26 (处理|之,
+  inside a quoted letter), L31/32 (说在|安全撤退), L90/91 (为了一个|「权」字), L161/162 (一日，在|
+  江湾, inside the quoted tally), L263/264 (Ivanov row's 暗杀 verb split across the `<p>`),
+  L304/305 (干|起来了), L323/324 ((块)|放在).
+- **SIX sub-headings:** 4 standalone (L3 opening couplet 没有名籍生死不明的先烈们; L96 the Xu Wenqi
+  essay title 中日战争中死难无名英雄之一; L218 the enumerated section heading 二、日本宪兵留下来的
+  一段记录; L277 「抗日杀奸团」为抗战奉献牺牲) + **2 TAIL-GLUED** (L38 …又一例证。+ 萧氏一家满门忠贞;
+  L76 …再深一层去研究了。+ 我们的同志作了敌伪的「活人祭」 — this one ends in a full-width 」, which a
+  non-terminal scan misses; caught via the three-tell's 」 case). The 二、 record heading has no
+  explicit 一、 sibling (the enemy-compiled 统计表 above is the implicit "one") — a faithful
+  numbering anomaly.
+
+### Checks
+- verify_unit ch26: **parity 321/321, numbers 0 unresolved, anchors 11 ok.**
+- check_align ch26: 321 source / 321 translation, **median ratio 4.98 en/han** (document-heavy,
+  in line with ch24 5.33 / ch25 4.97; alignment OK, no pair strays >2.2x).
+- check_structure: parity 321/321 OK; ALL STRUCTURAL CHECKS PASS.
+- check_content: ch26 **261 name occurrences, 2 DISPLACED** — both KNOWN keyed-substring
+  FALSE POSITIVES, NOT regressions: 武汉 "Wuhan" (city key) matches inside the personal name
+  武汉卿 "Wu Hanqing"; 劳勃生 "Lao Bosheng" (the SMP officer, keyed) matches inside the road name
+  劳勃生路, correctly rendered "Robison Road". (Pre-existing artifacts unchanged: ch08 Shunde ×3,
+  ch13 ×9, ch09 "Jize County" ×1.)
+- qc_entities on the reconstructed bilingual: 2 misses = the SAME two false positives; all 25 new
+  keyed people + 2 orgs render consistently (census: 蒋安华 ×42, 抗团 ×29, 徐寿新 ×14, 余延智 ×18…).
+- check_register --ref: within tolerance; **83% "shall"** (deliberate — the many quoted Dai Li
+  telegrams + the formal Xu Wenqi essay; cf. ch25 67%). Do NOT de-formalize.
+- Tail verified against source (the 张啸林/林怀部 questions, source L324-328) — faithful, no fabrication.
+
+### The heavily-corrupted source block (rendered to reconstructed sense; FOOTNOTED)
+p#120-123 and p#125 (the paragraphs introducing the sanction-of-Japanese section and the Kang
+Corps) are SEVERELY garbled in the source ebook — nearly every character miscut (e.g. 「敌讨划」,
+二作 for 工作, 敉戎们 for 被我们, 圆志高亢 for 斗志高亢, 戴两农 for 戴雨农, 百寓人 for 百万人). Rendered
+to their evident sense, which the CLEAN parallel passages below fully corroborate (the three-point
+proposal at p#127+, the tally dates, and the detailed Akagi account). Note 4 flags the block AND
+the one substantive slip left visible: the garbled text credits Akagi's sanction to the "Second
+Action Brigade" (第二行动大队), while the tally and the gendarmerie account both credit Jiang Anhua's
+Third Action Brigade (第三行动大队) with Li Liang as director.
+
+### Digitization glitches (rendered to plain sense; NOT footnoted unless real reading uncertainty)
+记亿→记忆 (记忆, several), 「权」宇→字, 虹口公围→公园, 行动工佯→工作, 戴先坐→戴先生, 囚为→因为,
+接髑→接触, 余寿棪→徐寿棪 (余/徐), 陈恭树→陈恭澍 (the enemy's own 澍→树 mis-spelling, which Chen
+himself remarks on), 其长安→长女, 徐文棋→徐文祺 (in a quote), 二遇→那一带, 绣东→浦东, 甚股→甚殷,
+十一一月→十二月, 汪苏省委→江苏省委, 这般人物代表？→代表了 (stray ？), 但？也为所欲为 (stray ？),
+挨了？才动手 / ？？ (stray ？). ○ (U+25CB) and × redactions: 社会事业xxxx委员会, x新纱厂, 陈xx/刘xx,
+交寿○, 一○四号 (No. 104, ○-zero), the tally's 海 xx / 华 xx / 西岩 x, 美制○？三八 (an American .38),
+陆 xx 之夫人 (Mr. Lu ——). All carried to real values in the English; ○/× glyph-strings noised.
+
+### data/noise.txt — B20 block appended (each entry commented)
+Name-numerals: 三郎 (Saburō in 小林峰三郎/杉本喜三郎), 五十岚 (Igarashi), 三兴 (Sanxing Mill),
+三通书局 (Santong Book Co.). Idioms: 万岁, 九泉, 抖五抖六, 百出 (花样百出), 百业, 数百万, 二位.
+Weekday: 星期五. Month-glyphs rendered as English month-names (never as a digit in narrative or in
+the Japanese roster): 六月-十月. ○-artifact address: 一○四. Glitches: 戴两农 (两 for 雨), 二作
+(二 for 工), 零星 (0), 十一一月 (11 for Dec), 百寓 (百 for 百万). All REAL quantities CARRIED as
+digits (the 35-row tally 29/9/29…30/10/22 with casualty counts; 3332 badge; 51524 gun number;
+No. 104/No. 24/No. 321; 370 yuan/month; 500,000 yuan road-money; 3,000+ arrested; the 500-man
+guerrilla band with 250 long/short guns; 60-odd, 20-odd, 30-odd; 83 captured, 19 losses).
+
+### Tooling added / changed (do NOT revert)
+- `scripts/clean_batch.py` — ch26 spec added (drop=2; 9 merges = 1 intra-`<p>` `<br/>` prose chain
+  (248-250) + 7 severed-`<p>` boundaries; the three TABLE `<p>` (p#177/214/217) NOT merged, kept as
+  roster rows; 4 standalone + 2 tail-glued sub-headings incl. the `」`-ending L76).
+- `scripts/add_ch26_glossary.py` — 27 new rows BY HAND into the sectioned glossary (25 people +
+  2 orgs; each hanzi key asserted present in data/zh/ch26.txt).
+- `scripts/make_ch26_apparatus.py` — the 11 ch26 notes (every non-ASCII glyph asserted present in
+  data/zh/ch26.txt before NCR conversion).
+- `data/noise.txt` — B20 block (see above).
+- `notes.json` — 11 notes appended via apparatus_merge.py.
