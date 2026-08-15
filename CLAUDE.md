@@ -52,8 +52,8 @@ note that names a different branch.
    finished. (A Stop hook in `.claude/hooks/kickoff_guard.py` enforces this; a
    casual mention of the batch name does not satisfy it, the whole fenced block
    must be in the reply.)
-2. **One branch. [SET PER PROJECT]** All work for this book lives on a single
-   working branch (e.g. `claude/<book-slug>`). Do NOT spin off new branches.
+2. **One branch: `claude/zhou-enlai`.** All work for this book lives on that
+   single working branch. Do NOT spin off new branches.
    Harnesses routinely start sessions on stray per-task branches; EXPECT this at
    the top of every batch. The recipe: check out the canonical branch, reset it
    to origin, do the work there; if a stray branch already carries commits,
