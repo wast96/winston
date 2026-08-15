@@ -101,11 +101,61 @@ def strip_folio(lines):
     if lines:
         last = lines[-1].strip()
         han = len(re.findall(r"[一-鿿]", last))
+        digits = len(re.findall(r"\d", last))
         dotted = bool(re.match(r"^[.。·、,，\s]", last) or
                       re.search(r"[.。·、,，\s]$", last))
-        if len(last) <= 8 and han <= 1 and dotted:
+        # A folio is short and carries at most one stray Han character. It
+        # betrays itself two ways: dot-delimited when the digits mangle
+        # ('。181。'), or predominantly bare digits when they OCR cleanly
+        # ('14', '人4' where '人' is edge noise, '1' where the crop clipped the
+        # tens digit). This book folios its body pages with clean numerals, so
+        # the digit case is the common one; the dotted case is kept for scans
+        # that mangle. A real closing line of prose has several Han and no such
+        # shape, so neither rule can eat one.
+        digit_folio = (digits >= 1 and len(last) <= 5
+                       and digits >= len(last) - 1)
+        if len(last) <= 8 and han <= 1 and (dotted or digit_folio):
             lines.pop()
     return lines
+
+
+def folio_present(page):
+    """Structural test: is this page's lowest text band a folio?
+
+    A folio is a page number set alone at the outer foot, so on the full page
+    image its ink band is much narrower than the justified body measure and
+    sits below the body. indents.py calls THIS, rather than a private copy, so
+    the two scripts share one folio test (two implementations disagreed on 140
+    of 515 pages on a sibling book, sliding paragraph marks out of step). The
+    band geometry mirrors indents.line_starts so the answer lines up with the
+    bands it drops.
+    """
+    import cv2
+    import numpy as np
+    img = cv2.imread(os.path.join(PNG, "p%04d.png" % page), cv2.IMREAD_GRAYSCALE)
+    if img is None:
+        return False
+    ink = (img < 160).astype(np.uint8)
+    rows = ink.sum(axis=1)
+    bands, start = [], None
+    for i, v in enumerate(rows):
+        if v > 4 and start is None:
+            start = i
+        elif v <= 4 and start is not None:
+            if i - start > 3:
+                bands.append((start, i))
+            start = None
+    if start is not None:
+        bands.append((start, len(rows)))
+    if len(bands) < 3:
+        return False
+    widths = []
+    for y0, y1 in bands:
+        cols = ink[y0:y1, :].sum(axis=0)
+        nz = np.nonzero(cols > 0)[0]
+        widths.append(int(nz[-1] - nz[0]) if len(nz) else 0)
+    measure = float(np.median(widths))
+    return measure > 0 and widths[-1] < 0.45 * measure
 
 
 def strip_runfoot(lines):

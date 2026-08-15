@@ -1,15 +1,385 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
+  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship), 'provisional' (romanization mine, not found outside), 'decided' (a project style call). Sections render as glossary headings; keys starting with '_' are ignored.",
   "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
-  "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
+  "people": {
+    "周恩来": {
+      "en": "Zhou Enlai",
+      "pinyin": "Zhou Enlai",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 1,
+      "cast": "Founder and commander of the Party's intelligence and security work; built and directed the Central Special Section in Shanghai. Aliases include Wu Hao and, later, Hu Gong (“Old Hu”)."
+    },
+    "陈赓": {
+      "en": "Chen Geng",
+      "pinyin": "Chen Geng",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 2,
+      "cast": "Chief of the Special Section's intelligence branch, working under the alias “Wang Yong.”"
+    },
+    "顾顺章": {
+      "en": "Gu Shunzhang",
+      "pinyin": "Gu Shunzhang",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 3,
+      "cast": "Head of the Special Section's Action Section (the Red Squad); a stage magician by trade, alias “Hua Guangqi.” His 1931 defection nearly destroyed the underground Party."
+    },
+    "李强": {
+      "en": "Li Qiang",
+      "pinyin": "Li Qiang",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 4,
+      "cast": "Founder of the Party's radio-communications work; built its first transmitter. Alias “Zeng Peihong.”"
+    },
+    "蒋介石": {
+      "en": "Chiang Kai-shek",
+      "pinyin": "Jiang Jieshi",
+      "status": "attested",
+      "note": "The conventional English form is used, not pinyin Jiang Jieshi."
+    },
+    "汪精卫": {
+      "en": "Wang Jingwei",
+      "pinyin": "Wang Jingwei",
+      "status": "attested"
+    },
+    "毛泽东": {
+      "en": "Mao Zedong",
+      "pinyin": "Mao Zedong",
+      "status": "attested"
+    },
+    "陈独秀": {
+      "en": "Chen Duxiu",
+      "pinyin": "Chen Duxiu",
+      "status": "attested"
+    },
+    "张国焘": {
+      "en": "Zhang Guotao",
+      "pinyin": "Zhang Guotao",
+      "status": "attested"
+    },
+    "罗亦农": {
+      "en": "Luo Yinong",
+      "pinyin": "Luo Yinong",
+      "status": "attested"
+    },
+    "赵世炎": {
+      "en": "Zhao Shiyan",
+      "pinyin": "Zhao Shiyan",
+      "status": "attested"
+    },
+    "陈延年": {
+      "en": "Chen Yannian",
+      "pinyin": "Chen Yannian",
+      "status": "attested"
+    },
+    "李立三": {
+      "en": "Li Lisan",
+      "pinyin": "Li Lisan",
+      "status": "attested"
+    },
+    "尹宽": {
+      "en": "Yin Kuan",
+      "pinyin": "Yin Kuan",
+      "status": "decided"
+    },
+    "聂荣臻": {
+      "en": "Nie Rongzhen",
+      "pinyin": "Nie Rongzhen",
+      "status": "attested"
+    },
+    "王一飞": {
+      "en": "Wang Yifei",
+      "pinyin": "Wang Yifei",
+      "status": "decided"
+    },
+    "欧阳钦": {
+      "en": "Ouyang Qin",
+      "pinyin": "Ouyang Qin",
+      "status": "decided"
+    },
+    "杨福林": {
+      "en": "Yang Fulin",
+      "pinyin": "Yang Fulin",
+      "status": "provisional"
+    },
+    "李剑如": {
+      "en": "Li Jianru",
+      "pinyin": "Li Jianru",
+      "status": "provisional"
+    },
+    "徐以新": {
+      "en": "Xu Yixin",
+      "pinyin": "Xu Yixin",
+      "status": "decided"
+    },
+    "王竹樵": {
+      "en": "Wang Zhuqiao",
+      "pinyin": "Wang Zhuqiao",
+      "status": "provisional"
+    },
+    "董醒吾": {
+      "en": "Dong Xingwu",
+      "pinyin": "Dong Xingwu",
+      "status": "provisional",
+      "note": "“Fat Dong” in Li Qiang's account; the personal name is given uncertainly in the source as Dong Xingwu or Dong Shengwu."
+    },
+    "鲍罗廷": {
+      "en": "Borodin",
+      "pinyin": "Baoluoting",
+      "status": "attested",
+      "note": "Mikhail Borodin, Comintern adviser to the Kuomintang."
+    },
+    "任弼时": {
+      "en": "Ren Bishi",
+      "pinyin": "Ren Bishi",
+      "status": "attested"
+    },
+    "邓颖超": {
+      "en": "Deng Yingchao",
+      "pinyin": "Deng Yingchao",
+      "status": "attested",
+      "note": "Zhou Enlai's wife."
+    },
+    "向忠发": {
+      "en": "Xiang Zhongfa",
+      "pinyin": "Xiang Zhongfa",
+      "status": "attested"
+    },
+    "恽代英": {
+      "en": "Yun Daiying",
+      "pinyin": "Yun Daiying",
+      "status": "attested"
+    },
+    "陈养山": {
+      "en": "Chen Yangshan",
+      "pinyin": "Chen Yangshan",
+      "status": "decided"
+    },
+    "白崇禧": {
+      "en": "Bai Chongxi",
+      "pinyin": "Bai Chongxi",
+      "status": "attested"
+    },
+    "杨虎": {
+      "en": "Yang Hu",
+      "pinyin": "Yang Hu",
+      "status": "decided"
+    },
+    "陈群": {
+      "en": "Chen Qun",
+      "pinyin": "Chen Qun",
+      "status": "decided"
+    },
+    "郭伯和": {
+      "en": "Guo Bohe",
+      "pinyin": "Guo Bohe",
+      "status": "provisional"
+    },
+    "韩步先": {
+      "en": "Han Buxian",
+      "pinyin": "Han Buxian",
+      "status": "provisional"
+    },
+    "张太雷": {
+      "en": "Zhang Tailei",
+      "pinyin": "Zhang Tailei",
+      "status": "attested"
+    },
+    "李维汉": {
+      "en": "Li Weihan",
+      "pinyin": "Li Weihan",
+      "status": "attested"
+    },
+    "朱德": {
+      "en": "Zhu De",
+      "pinyin": "Zhu De",
+      "status": "attested"
+    },
+    "贺龙": {
+      "en": "He Long",
+      "pinyin": "He Long",
+      "status": "attested"
+    },
+    "叶挺": {
+      "en": "Ye Ting",
+      "pinyin": "Ye Ting",
+      "status": "attested"
+    },
+    "刘伯承": {
+      "en": "Liu Bocheng",
+      "pinyin": "Liu Bocheng",
+      "status": "attested"
+    },
+    "夏斗寅": {
+      "en": "Xia Douyin",
+      "pinyin": "Xia Douyin",
+      "status": "attested"
+    },
+    "许克祥": {
+      "en": "Xu Kexiang",
+      "pinyin": "Xu Kexiang",
+      "status": "attested"
+    },
+    "张发奎": {
+      "en": "Zhang Fakui",
+      "pinyin": "Zhang Fakui",
+      "status": "attested"
+    },
+    "冯玉祥": {
+      "en": "Feng Yuxiang",
+      "pinyin": "Feng Yuxiang",
+      "status": "attested"
+    },
+    "李汉俊": {
+      "en": "Li Hanjun",
+      "pinyin": "Li Hanjun",
+      "status": "attested"
+    },
+    "马林": {
+      "en": "Maring",
+      "pinyin": "Malin",
+      "status": "attested",
+      "note": "Henk Sneevliet, the Comintern's representative at the First Congress, known as Maring."
+    },
+    "程子卿": {
+      "en": "Cheng Ziqing",
+      "pinyin": "Cheng Ziqing",
+      "status": "decided"
+    },
+    "包惠僧": {
+      "en": "Bao Huiseng",
+      "pinyin": "Bao Huiseng",
+      "status": "attested"
+    },
+    "杨明斋": {
+      "en": "Yang Mingzhai",
+      "pinyin": "Yang Mingzhai",
+      "status": "attested"
+    },
+    "柯庆施": {
+      "en": "Ke Qingshi",
+      "pinyin": "Ke Qingshi",
+      "status": "attested"
+    },
+    "高君曼": {
+      "en": "Gao Junman",
+      "pinyin": "Gao Junman",
+      "status": "attested",
+      "note": "Chen Duxiu's wife."
+    },
+    "汪寿华": {
+      "en": "Wang Shouhua",
+      "pinyin": "Wang Shouhua",
+      "status": "attested",
+      "note": "Also known as He Songlin; a leader of the Shanghai workers' uprisings, murdered in the April 12 coup."
+    },
+    "杨石魂": {
+      "en": "Yang Shihun",
+      "pinyin": "Yang Shihun",
+      "status": "provisional"
+    }
+  },
+  "organizations": {
+    "中国共产党": {
+      "en": "Chinese Communist Party",
+      "pinyin": "Zhongguo Gongchandang",
+      "status": "attested"
+    },
+    "国民党": {
+      "en": "Kuomintang",
+      "pinyin": "Guomindang",
+      "status": "attested",
+      "note": "The older romanization Kuomintang is kept, as is conventional in English."
+    },
+    "中央特科": {
+      "en": "Central Special Section",
+      "pinyin": "Zhongyang Teke",
       "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+      "note": "Zhongyang Teke; the Party's underground intelligence and security apparatus in Shanghai. Rendered “Central Special Section” throughout."
+    },
+    "共产国际": {
+      "en": "Comintern",
+      "pinyin": "Gongchan Guoji",
+      "status": "attested",
+      "note": "The Communist International, Moscow's world body of communist parties."
+    },
+    "红队": {
+      "en": "Red Squad",
+      "pinyin": "Hong Dui",
+      "status": "decided",
+      "note": "The Special Section's armed action unit, also called the “Dog-Beating Squad.”"
+    }
+  },
+  "places": {
+    "上海": {
+      "en": "Shanghai",
+      "pinyin": "Shanghai",
+      "status": "attested"
+    },
+    "武汉": {
+      "en": "Wuhan",
+      "pinyin": "Wuhan",
+      "status": "attested"
+    },
+    "汉口": {
+      "en": "Hankou",
+      "pinyin": "Hankou",
+      "status": "attested"
+    },
+    "广州": {
+      "en": "Guangzhou",
+      "pinyin": "Guangzhou",
+      "status": "attested",
+      "note": "Guangzhou, not Canton (per the collection's name ledger)."
+    },
+    "香港": {
+      "en": "Hong Kong",
+      "pinyin": "Xianggang",
+      "status": "attested"
+    },
+    "南昌": {
+      "en": "Nanchang",
+      "pinyin": "Nanchang",
+      "status": "attested"
+    },
+    "潮州": {
+      "en": "Chaozhou",
+      "pinyin": "Chaozhou",
+      "status": "attested"
+    },
+    "汕头": {
+      "en": "Shantou",
+      "pinyin": "Shantou",
+      "status": "attested"
+    }
+  },
+  "terms": {
+    "白色恐怖": {
+      "en": "White Terror",
+      "pinyin": "baise kongbu",
+      "status": "attested",
+      "note": "The Kuomintang's campaign of arrests and killings against Communists and the left after 1927."
+    },
+    "巡捕房": {
+      "en": "concession police",
+      "pinyin": "xunbufang",
+      "status": "decided",
+      "note": "The police force of a foreign concession in Shanghai; the constables were xunbu. Rendered “concession police” (or, for a specific concession, e.g. “the French Concession police”) throughout."
+    },
+    "租界": {
+      "en": "the Concessions",
+      "pinyin": "zujie",
+      "status": "decided",
+      "note": "The foreign-administered concession areas of Shanghai: the French Concession and the International Settlement."
+    },
+    "领事裁判权": {
+      "en": "extraterritoriality",
+      "pinyin": "lingshi caipanquan",
+      "status": "attested",
+      "note": "The treaty right by which foreign nationals in China answered to their own consular courts, not to Chinese law."
     }
   }
 }

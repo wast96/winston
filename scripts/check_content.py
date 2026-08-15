@@ -57,6 +57,13 @@ def name_map(path):
     if not os.path.exists(path):
         return out
     for _cat, entries in json.load(open(path)).items():
+        # Skip meta keys ('_about', ...) and any non-section value: the
+        # glossary carries a string '_about' at top level, and the builder's
+        # render_glossary already skips '_'-prefixed sections. Mirror that here
+        # so the content check runs against a real glossary instead of crashing
+        # on the meta string.
+        if _cat.startswith("_") or not isinstance(entries, dict):
+            continue
         for zh, e in entries.items():
             en = e.get("en", "")
             if zh in AUTHOR:

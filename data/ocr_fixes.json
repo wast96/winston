@@ -1,0 +1,138 @@
+{
+  "ch00": [
+    {
+      "wrong": "苦介石",
+      "right": "蒋介石",
+      "page": 36,
+      "note": "Chiang Kai-shek; OCR 苦->蒋"
+    },
+    {
+      "wrong": "旨越领导",
+      "right": "卓越领导",
+      "page": 36,
+      "note": "卓越; OCR 旨->卓"
+    },
+    {
+      "wrong": "回忠发",
+      "right": "向忠发",
+      "page": 37,
+      "note": "Xiang Zhongfa; OCR 回->向"
+    },
+    {
+      "wrong": "磊顺章",
+      "right": "顾顺章",
+      "page": 37,
+      "note": "Gu Shunzhang; OCR 磊->顾"
+    },
+    {
+      "wrong": "干方百计",
+      "right": "千方百计",
+      "page": 3,
+      "note": "idiom 千方百计; OCR 干->千, else 百 reads as a phantom 100"
+    }
+  ],
+  "ch01": [
+    {
+      "wrong": "共在这里二了38年",
+      "right": "共在这里干了38年",
+      "page": 2,
+      "note": "干了 not 二了; the stray 二 injects a phantom number 2"
+    },
+    {
+      "wrong": "经过2小时战斗",
+      "right": "经过28小时战斗",
+      "page": 5,
+      "note": "28 hours (OCR dropped the 8)"
+    },
+    {
+      "wrong": "钙逮捕者$S00多人",
+      "right": "被逮捕者500多人",
+      "page": 6,
+      "note": "500+ arrested; OCR $S00->500, 钙->被"
+    },
+    {
+      "wrong": "娠宽",
+      "right": "尹宽",
+      "page": 6,
+      "note": "Yin Kuan; co-signatory of the telegram"
+    },
+    {
+      "wrong": "2时在武汉中央军事部",
+      "right": "当时在武汉中央军事部",
+      "page": 7,
+      "note": "当时 not 2时; stray 2 injects a phantom number"
+    },
+    {
+      "wrong": "肾荣至",
+      "right": "聂荣臻",
+      "page": 7,
+      "note": "Nie Rongzhen"
+    },
+    {
+      "wrong": "聂有栗色问六在武昌",
+      "right": "聂荣臻同志在武昌",
+      "page": 8,
+      "note": "Nie Rongzhen; heavy OCR garble, stray 六 injects a phantom 6"
+    },
+    {
+      "wrong": "那66人中挑选了30个",
+      "right": "那60人中挑选了30个",
+      "page": 8,
+      "note": "60 men (image reads 60, not 66)"
+    },
+    {
+      "wrong": "如S月17日",
+      "right": "如5月17日",
+      "page": 9,
+      "note": "5 May; OCR read the 5 as Latin S"
+    },
+    {
+      "wrong": "S月21日许克祥",
+      "right": "5月21日许克祥",
+      "page": 9,
+      "note": "21 May; OCR read the 5 as Latin S"
+    },
+    {
+      "wrong": "张国寿",
+      "right": "张国焘",
+      "page": 10,
+      "note": "Zhang Guotao"
+    },
+    {
+      "wrong": "张国厅",
+      "right": "张国焘",
+      "page": 3,
+      "note": "Zhang Guotao"
+    },
+    {
+      "wrong": "张国春",
+      "right": "张国焘",
+      "page": 3,
+      "note": "Zhang Guotao"
+    },
+    {
+      "wrong": "从九龙深水起乘船",
+      "right": "从九龙深水埗乘船",
+      "page": 11,
+      "note": "Sham Shui Po (深水埗), Kowloon"
+    },
+    {
+      "wrong": "陈钴与中央特科",
+      "right": "陈赓与中央特科",
+      "page": 14,
+      "note": "Chen Geng"
+    },
+    {
+      "wrong": "履代英",
+      "right": "恽代英",
+      "page": 14,
+      "note": "Yun Daiying"
+    },
+    {
+      "wrong": "老百脸",
+      "right": "老白脸",
+      "page": 8,
+      "note": "'Old Whiteface' nickname; OCR 白->百 injects a phantom 100"
+    }
+  ]
+}

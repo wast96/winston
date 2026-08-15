@@ -1,1 +1,16 @@
-{}
+{
+  "ch01": [
+    {
+      "file": "p0048-f1.png",
+      "before": "The uprising, launched on 21 March",
+      "alt": "A black-and-white photograph of a crowd of men in caps and tunics massed in a courtyard before a two-story building, a broad white banner or awning stretched overhead; a few figures in the foreground carry staves.",
+      "caption": "The Shanghai Workers' Pickets before the general headquarters of the third armed uprising, March 1927. (Photograph reproduced from the source; the caption renders the book's own label.)"
+    },
+    {
+      "file": "p0049-f1.png",
+      "before": "Just as the Shanghai workers were celebrating",
+      "alt": "A black-and-white photograph of a long file of workers in caps and dark tunics marching down a city street lined with onlookers.",
+      "caption": "The Shanghai Workers' Pickets setting out to join a citizens' rally, 27 March 1927. (Photograph reproduced from the source; the caption renders the book's own label.)"
+    }
+  ]
+}

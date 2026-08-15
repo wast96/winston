@@ -35,3 +35,16 @@
 # 九龍
 # weekdays carry no quantity — rendered "Monday" etc.
 # 星期[一二三四五六]
+# event labels — the April 12 / April 15 / July 15 coups, rendered "April 12" etc.
+四一二
+四一五
+七一五
+# 三军 = the whole army (Sunzi), rendered "the whole army"
+三军
+# 国共两党 = the two parties, KMT and CCP — rendered by naming both
+两党
+# Li Lisan — personal name containing a numeral
+李立三
+# Jiujiang, Kowloon — place names containing a numeral
+九江
+九龙

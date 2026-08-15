@@ -31,8 +31,8 @@
     "The book is a work of Chinese Communist Party history written from within that tradition; it is frankly partisan toward its subject. Where its factual claims can be checked against independent scholarship, the footnotes say whether the account is corroborated, uncorroborated, or contradicted, and the translation renders the source faithfully rather than silently correcting it.",
     "The text was recovered by optical character recognition, verified span by span against the page images for every name, number, and uncertain reading, and annotated for a reader with no background in the Republican-era Chinese underground."
   ],
-  "source_note": "Image-only PDF scan, 582 pages, no text layer. Simplified Chinese, horizontal, China Youth Press 2002. Front matter carries a long photo-plate gathering (plate folios 1–~32, PDF pp. 3–34) on its own numbering, then a 3-page 前言 (PDF 35–37), a 6-page 目录 (PDF 38–43), and the body from PDF 44 = printed p.1. Body offset is a constant 43. Library copy of Xidian University; a red oval seal and a barcode sit on the cover/verso. No embedded PDF bookmarks.",
-  "pdf_end": 580,
+  "source_note": "Image-only PDF scan, 582 pages, no text layer. Simplified Chinese, horizontal, China Youth Press 2002. Front matter carries a long photo-plate gathering (plate folios 1–~32, PDF pp. 3–34) on its own numbering, then a 3-page 前言 (PDF 35–37), a 6-page 目录 (PDF 38–43), and the body from PDF 44 = printed p.1. Body offset is a constant 44 (printed = pdf minus 44); the preface runs its own sequence, printed 1 = PDF 36. Library copy of Xidian University; a red oval seal and a barcode sit on the cover/verso. No embedded PDF bookmarks.",
+  "pdf_end": 581,
   "printed_end": 537,
   "structure": [
     {
@@ -41,7 +41,7 @@
       "chapter": 0,
       "title": "前言",
       "title_en": "Preface",
-      "pdf_page": 35,
+      "pdf_page": 36,
       "printed_page": 1
     },
     {
@@ -50,7 +50,7 @@
       "chapter": 1,
       "title": "中央特科的诞生",
       "title_en": "The Birth of the Central Special Section",
-      "pdf_page": 44,
+      "pdf_page": 45,
       "printed_page": 1,
       "sections": [
         {
@@ -58,7 +58,7 @@
           "section": 1,
           "title": "没有情报保卫工作就要挨打",
           "title_en": "Without Intelligence and Security Work, You Take a Beating",
-          "pdf_page": 44,
+          "pdf_page": 45,
           "printed_page": 1
         },
         {
@@ -66,7 +66,7 @@
           "section": 2,
           "title": "红色情报工作者在武汉初试锋芒",
           "title_en": "Red Intelligence Workers First Prove Themselves in Wuhan",
-          "pdf_page": 47,
+          "pdf_page": 48,
           "printed_page": 4
         },
         {
@@ -74,7 +74,7 @@
           "section": 3,
           "title": "建立中央特科保卫党组织",
           "title_en": "Building the Central Special Section to Protect the Party Organization",
-          "pdf_page": 53,
+          "pdf_page": 54,
           "printed_page": 10
         }
       ]
@@ -85,7 +85,7 @@
       "chapter": 2,
       "title": "一科——特科的“总管家”",
       "title_en": "Section One — the Special Section's “Steward”",
-      "pdf_page": 59,
+      "pdf_page": 60,
       "printed_page": 16,
       "sections": [
         {
@@ -93,7 +93,7 @@
           "section": 1,
           "title": "设立党的秘密机关",
           "title_en": "Setting Up the Party's Secret Offices",
-          "pdf_page": 60,
+          "pdf_page": 61,
           "printed_page": 17
         },
         {
@@ -101,7 +101,7 @@
           "section": 2,
           "title": "布置党的会议会场",
           "title_en": "Arranging Venues for Party Meetings",
-          "pdf_page": 69,
+          "pdf_page": 70,
           "printed_page": 26
         },
         {
@@ -109,7 +109,7 @@
           "section": 3,
           "title": "营救被捕同志",
           "title_en": "Rescuing Arrested Comrades",
-          "pdf_page": 72,
+          "pdf_page": 73,
           "printed_page": 29
         }
       ]
@@ -120,7 +120,7 @@
       "chapter": 3,
       "title": "情报科长“王庸”——陈赓",
       "title_en": "Intelligence Chief “Wang Yong” — Chen Geng",
-      "pdf_page": 76,
+      "pdf_page": 77,
       "printed_page": 33,
       "sections": [
         {
@@ -128,7 +128,7 @@
           "section": 1,
           "title": "陈赓的传奇经历",
           "title_en": "Chen Geng's Legendary Career",
-          "pdf_page": 76,
+          "pdf_page": 77,
           "printed_page": 33
         },
         {
@@ -136,7 +136,7 @@
           "section": 2,
           "title": "牛惠霖医院里的风波",
           "title_en": "Trouble at the Niu Huilin Hospital",
-          "pdf_page": 80,
+          "pdf_page": 81,
           "printed_page": 37
         },
         {
@@ -144,7 +144,7 @@
           "section": 3,
           "title": "无所不在的“王先生”",
           "title_en": "The Ever-Present “Mr. Wang”",
-          "pdf_page": 84,
+          "pdf_page": 85,
           "printed_page": 41
         },
         {
@@ -152,7 +152,7 @@
           "section": 4,
           "title": "火车上险遇钱大钧",
           "title_en": "A Close Call with Qian Dajun on the Train",
-          "pdf_page": 91,
+          "pdf_page": 92,
           "printed_page": 48
         }
       ]
@@ -163,7 +163,7 @@
       "chapter": 4,
       "title": "情报战线的英豪",
       "title_en": "Heroes of the Intelligence Front",
-      "pdf_page": 94,
+      "pdf_page": 95,
       "printed_page": 51,
       "sections": [
         {
@@ -171,7 +171,7 @@
           "section": 1,
           "title": "兵器专家刘鼎",
           "title_en": "Liu Ding, the Weapons Expert",
-          "pdf_page": 94,
+          "pdf_page": 95,
           "printed_page": 51
         },
         {
@@ -179,7 +179,7 @@
           "section": 2,
           "title": "济世名医柯麟",
           "title_en": "Ke Lin, the Life-Saving Physician",
-          "pdf_page": 102,
+          "pdf_page": 103,
           "printed_page": 59
         },
         {
@@ -187,7 +187,7 @@
           "section": 3,
           "title": "隐蔽战线的“福将”陈养山",
           "title_en": "Chen Yangshan, the “Lucky General” of the Hidden Front",
-          "pdf_page": 111,
+          "pdf_page": 112,
           "printed_page": 68
         },
         {
@@ -195,7 +195,7 @@
           "section": 4,
           "title": "血染沙场的陈寿昌",
           "title_en": "Chen Shouchang, Fallen on the Battlefield",
-          "pdf_page": 117,
+          "pdf_page": 118,
           "printed_page": 74
         }
       ]
@@ -206,7 +206,7 @@
       "chapter": 5,
       "title": "“龙潭三杰”",
       "title_en": "The “Three Heroes of Longtan”",
-      "pdf_page": 122,
+      "pdf_page": 123,
       "printed_page": 79,
       "sections": [
         {
@@ -214,7 +214,7 @@
           "section": 1,
           "title": "李克农说:我是党中央的“警卫员”",
           "title_en": "Li Kenong: “I Am the Party Central's Bodyguard”",
-          "pdf_page": 123,
+          "pdf_page": 124,
           "printed_page": 80
         },
         {
@@ -222,7 +222,7 @@
           "section": 2,
           "title": "传奇英雄钱壮飞",
           "title_en": "The Legendary Hero Qian Zhuangfei",
-          "pdf_page": 131,
+          "pdf_page": 132,
           "printed_page": 88
         },
         {
@@ -230,7 +230,7 @@
           "section": 3,
           "title": "“年纪最轻,才华最高”的胡底",
           "title_en": "Hu Di, “the Youngest and the Most Gifted”",
-          "pdf_page": 137,
+          "pdf_page": 138,
           "printed_page": 94
         }
       ]
@@ -241,7 +241,7 @@
       "chapter": 6,
       "title": "第一个反间谍关系——杨登瀛",
       "title_en": "The First Counter-Espionage Asset — Yang Dengying",
-      "pdf_page": 139,
+      "pdf_page": 140,
       "printed_page": 96,
       "sections": [
         {
@@ -249,7 +249,7 @@
           "section": 1,
           "title": "“日本通”杨登瀛",
           "title_en": "Yang Dengying, the “Japan Hand”",
-          "pdf_page": 139,
+          "pdf_page": 140,
           "printed_page": 96
         },
         {
@@ -257,7 +257,7 @@
           "section": 2,
           "title": "兰普逊说:巡捕房不希望与杨登瀛以外的人接触",
           "title_en": "Lampson: “The Police Wish to Deal with No One but Yang Dengying”",
-          "pdf_page": 143,
+          "pdf_page": 144,
           "printed_page": 100
         },
         {
@@ -265,7 +265,7 @@
           "section": 3,
           "title": "蒋介石任命的“中央驻沪特派员”",
           "title_en": "Chiang Kai-shek's Appointed “Central Special Commissioner in Shanghai”",
-          "pdf_page": 146,
+          "pdf_page": 147,
           "printed_page": 103
         },
         {
@@ -273,7 +273,7 @@
           "section": 4,
           "title": "徐恩曾把大案交杨登瀛全权处理",
           "title_en": "Xu Enzeng Puts Yang Dengying in Full Charge of Major Cases",
-          "pdf_page": 148,
+          "pdf_page": 149,
           "printed_page": 105
         },
         {
@@ -281,7 +281,7 @@
           "section": 5,
           "title": "从敌人营垒“拉出来”的典型",
           "title_en": "A Model of Someone “Pulled Out” of the Enemy Camp",
-          "pdf_page": 151,
+          "pdf_page": 152,
           "printed_page": 108
         }
       ]
@@ -292,7 +292,7 @@
       "chapter": 7,
       "title": "深入龙潭虎穴",
       "title_en": "Deep into the Tiger's Den",
-      "pdf_page": 153,
+      "pdf_page": 154,
       "printed_page": 110,
       "sections": [
         {
@@ -300,7 +300,7 @@
           "section": 1,
           "title": "调查科与徐恩曾",
           "title_en": "The Investigation Section and Xu Enzeng",
-          "pdf_page": 153,
+          "pdf_page": 154,
           "printed_page": 110
         },
         {
@@ -308,7 +308,7 @@
           "section": 2,
           "title": "周恩来说:“你们把它拿过来”",
           "title_en": "Zhou Enlai: “Bring It Over to Us”",
-          "pdf_page": 157,
+          "pdf_page": 158,
           "printed_page": 114
         },
         {
@@ -316,7 +316,7 @@
           "section": 3,
           "title": "抓住徐恩曾的弱点,拿到绝密电码本",
           "title_en": "Exploiting Xu Enzeng's Weakness to Seize the Top-Secret Codebook",
-          "pdf_page": 161,
+          "pdf_page": 162,
           "printed_page": 118
         },
         {
@@ -324,7 +324,7 @@
           "section": 4,
           "title": "拿他的护照和钱,办我们的情报;用他的手和枪,除掉我们最恨的警探",
           "title_en": "“Use His Passport and Money for Our Intelligence; Use His Hand and Gun to Kill the Detectives We Hate Most”",
-          "pdf_page": 165,
+          "pdf_page": 166,
           "printed_page": 122
         },
         {
@@ -332,7 +332,7 @@
           "section": 5,
           "title": "向国民党最高特务机关“打进去”的典型",
           "title_en": "A Model of “Breaking Into” the Kuomintang's Highest Secret Service",
-          "pdf_page": 170,
+          "pdf_page": 171,
           "printed_page": 127
         }
       ]
@@ -343,7 +343,7 @@
       "chapter": 8,
       "title": "奉天讲武堂教官——赵唯刚",
       "title_en": "Fengtian Military Academy Instructor — Zhao Weigang",
-      "pdf_page": 172,
+      "pdf_page": 173,
       "printed_page": 129,
       "sections": [
         {
@@ -351,7 +351,7 @@
           "section": 1,
           "title": "“四一二”政变后两个月参加共产党",
           "title_en": "Joining the Communist Party Two Months After the “April 12” Coup",
-          "pdf_page": 172,
+          "pdf_page": 173,
           "printed_page": 129
         },
         {
@@ -359,7 +359,7 @@
           "section": 2,
           "title": "在奉天讲武堂和高等军学研究班",
           "title_en": "At the Fengtian Military Academy and the Advanced Military Studies Class",
-          "pdf_page": 177,
+          "pdf_page": 178,
           "printed_page": 134
         },
         {
@@ -367,7 +367,7 @@
           "section": 3,
           "title": "营救被捕的刘伯刚",
           "title_en": "Rescuing the Arrested Liu Bogang",
-          "pdf_page": 186,
+          "pdf_page": 187,
           "printed_page": 143
         },
         {
@@ -375,7 +375,7 @@
           "section": 4,
           "title": "兵运工作再遭挫折",
           "title_en": "Fresh Setbacks in Work Among the Troops",
-          "pdf_page": 190,
+          "pdf_page": 191,
           "printed_page": 147
         },
         {
@@ -383,7 +383,7 @@
           "section": 5,
           "title": "一次抢救文件的斗争",
           "title_en": "A Struggle to Save the Documents",
-          "pdf_page": 191,
+          "pdf_page": 192,
           "printed_page": 148
         },
         {
@@ -391,7 +391,7 @@
           "section": 6,
           "title": "“九一八”前一个月侦知日军要动手",
           "title_en": "Learning a Month Before “September 18” That Japan Would Strike",
-          "pdf_page": 194,
+          "pdf_page": 195,
           "printed_page": 151
         }
       ]
@@ -402,7 +402,7 @@
       "chapter": 9,
       "title": "行动科和“红队”",
       "title_en": "The Action Section and the “Red Squad”",
-      "pdf_page": 197,
+      "pdf_page": 198,
       "printed_page": 154,
       "sections": [
         {
@@ -410,7 +410,7 @@
           "section": 1,
           "title": "“魔术大师化广奇”——顾顺章",
           "title_en": "“Master Magician Hua Guangqi” — Gu Shunzhang",
-          "pdf_page": 197,
+          "pdf_page": 198,
           "printed_page": 154
         },
         {
@@ -418,7 +418,7 @@
           "section": 2,
           "title": "令敌胆丧的“打狗队”",
           "title_en": "The “Dog-Beating Squad” That Struck Fear in the Enemy",
-          "pdf_page": 202,
+          "pdf_page": 203,
           "printed_page": 159
         },
         {
@@ -426,7 +426,7 @@
           "section": 3,
           "title": "李一氓笔下的“苏维埃会议”",
           "title_en": "The “Soviet Congress” as Recorded by Li Yimang",
-          "pdf_page": 209,
+          "pdf_page": 210,
           "printed_page": 166
         },
         {
@@ -434,7 +434,7 @@
           "section": 4,
           "title": "镇压叛徒绝不手软",
           "title_en": "No Mercy in Suppressing Traitors",
-          "pdf_page": 213,
+          "pdf_page": 214,
           "printed_page": 170
         }
       ]
@@ -445,7 +445,7 @@
       "chapter": 10,
       "title": "红队利剑出鞘",
       "title_en": "The Red Squad Draws Its Sword",
-      "pdf_page": 217,
+      "pdf_page": 218,
       "printed_page": 174,
       "sections": [
         {
@@ -453,7 +453,7 @@
           "section": 1,
           "title": "英国巡捕冲进罗亦农屋门",
           "title_en": "British Police Burst Through Luo Yinong's Door",
-          "pdf_page": 217,
+          "pdf_page": 218,
           "printed_page": 174
         },
         {
@@ -461,7 +461,7 @@
           "section": 2,
           "title": "查找出卖罗亦农的叛徒",
           "title_en": "Hunting the Traitor Who Sold Out Luo Yinong",
-          "pdf_page": 220,
+          "pdf_page": 221,
           "printed_page": 177
         },
         {
@@ -469,7 +469,7 @@
           "section": 3,
           "title": "“残躯何足惜,大敌正当前”",
           "title_en": "“What Is a Broken Body Worth, with the Great Enemy at Hand”",
-          "pdf_page": 223,
+          "pdf_page": 224,
           "printed_page": 180
         },
         {
@@ -477,7 +477,7 @@
           "section": 4,
           "title": "叛徒在鞭炮声中毙命",
           "title_en": "The Traitor Cut Down Amid Firecrackers",
-          "pdf_page": 228,
+          "pdf_page": 229,
           "printed_page": 185
         }
       ]
@@ -488,7 +488,7 @@
       "chapter": 11,
       "title": "霞飞路侧的枪声(上)",
       "title_en": "Gunshots off Avenue Joffre (Part 1)",
-      "pdf_page": 230,
+      "pdf_page": 231,
       "printed_page": 187,
       "sections": [
         {
@@ -496,7 +496,7 @@
           "section": 1,
           "title": "针对周恩来的袭击",
           "title_en": "The Attempt on Zhou Enlai",
-          "pdf_page": 230,
+          "pdf_page": 231,
           "printed_page": 187
         },
         {
@@ -504,7 +504,7 @@
           "section": 2,
           "title": "武装营救未能奏效",
           "title_en": "The Armed Rescue Fails",
-          "pdf_page": 238,
+          "pdf_page": 239,
           "printed_page": 195
         },
         {
@@ -512,7 +512,7 @@
           "section": 3,
           "title": "彭湃、杨殷等四烈士英勇就义",
           "title_en": "Peng Pai, Yang Yin, and Four Martyrs Die Heroically",
-          "pdf_page": 242,
+          "pdf_page": 243,
           "printed_page": 199
         }
       ]
@@ -523,7 +523,7 @@
       "chapter": 12,
       "title": "霞飞路侧的枪声(下)",
       "title_en": "Gunshots off Avenue Joffre (Part 2)",
-      "pdf_page": 246,
+      "pdf_page": 247,
       "printed_page": 203,
       "sections": [
         {
@@ -531,7 +531,7 @@
           "section": 1,
           "title": "穷追叛徒白鑫",
           "title_en": "The Relentless Pursuit of the Traitor Bai Xin",
-          "pdf_page": 246,
+          "pdf_page": 247,
           "printed_page": 203
         },
         {
@@ -539,7 +539,7 @@
           "section": 2,
           "title": "叛徒倒毙在红队枪口下",
           "title_en": "The Traitor Falls Under the Red Squad's Guns",
-          "pdf_page": 250,
+          "pdf_page": 251,
           "printed_page": 207
         },
         {
@@ -547,7 +547,7 @@
           "section": 3,
           "title": "镇压叛徒的英雄谭忠余",
           "title_en": "Tan Zhongyu, the Hero Who Executed Traitors",
-          "pdf_page": 258,
+          "pdf_page": 259,
           "printed_page": 215
         }
       ]
@@ -558,7 +558,7 @@
       "chapter": 13,
       "title": "营救任弼时、关向应",
       "title_en": "Rescuing Ren Bishi and Guan Xiangying",
-      "pdf_page": 262,
+      "pdf_page": 263,
       "printed_page": 219,
       "sections": [
         {
@@ -566,7 +566,7 @@
           "section": 1,
           "title": "两次营救任弼时",
           "title_en": "Two Rescues of Ren Bishi",
-          "pdf_page": 262,
+          "pdf_page": 263,
           "printed_page": 219
         },
         {
@@ -574,7 +574,7 @@
           "section": 2,
           "title": "任弼时第二次被捕",
           "title_en": "Ren Bishi's Second Arrest",
-          "pdf_page": 265,
+          "pdf_page": 266,
           "printed_page": 222
         },
         {
@@ -582,7 +582,7 @@
           "section": 3,
           "title": "营救关向应",
           "title_en": "Rescuing Guan Xiangying",
-          "pdf_page": 269,
+          "pdf_page": 270,
           "printed_page": 226
         }
       ]
@@ -593,7 +593,7 @@
       "chapter": 14,
       "title": "开拓新局面(上)",
       "title_en": "Opening a New Chapter (Part 1)",
-      "pdf_page": 275,
+      "pdf_page": 276,
       "printed_page": 232,
       "sections": [
         {
@@ -601,7 +601,7 @@
           "section": 1,
           "title": "纠正了单纯恐怖行动,引向政治斗争轨道",
           "title_en": "Correcting Pure Terror Tactics and Turning to Political Struggle",
-          "pdf_page": 275,
+          "pdf_page": 276,
           "printed_page": 232
         },
         {
@@ -609,7 +609,7 @@
           "section": 2,
           "title": "旷世奇才杨度",
           "title_en": "Yang Du, a Genius for the Ages",
-          "pdf_page": 278,
+          "pdf_page": 279,
           "printed_page": 235
         },
         {
@@ -617,7 +617,7 @@
           "section": 3,
           "title": "两个国会议员:梅宝玑、胡鄂公",
           "title_en": "Two Members of Parliament: Mei Baoji and Hu Egong",
-          "pdf_page": 286,
+          "pdf_page": 287,
           "printed_page": 243
         }
       ]
@@ -628,7 +628,7 @@
       "chapter": 15,
       "title": "开拓新局面(中)",
       "title_en": "Opening a New Chapter (Part 2)",
-      "pdf_page": 295,
+      "pdf_page": 296,
       "printed_page": 252,
       "sections": [
         {
@@ -636,7 +636,7 @@
           "section": 1,
           "title": "贡生—省议员—开明绅士刘少白",
           "title_en": "Liu Shaobai: Tribute Scholar, Provincial Assemblyman, Enlightened Gentleman",
-          "pdf_page": 295,
+          "pdf_page": 296,
           "printed_page": 252
         },
         {
@@ -644,7 +644,7 @@
           "section": 2,
           "title": "牧师和律师",
           "title_en": "The Pastor and the Lawyer",
-          "pdf_page": 303,
+          "pdf_page": 304,
           "printed_page": 260
         },
         {
@@ -652,7 +652,7 @@
           "section": 3,
           "title": "向新闻界发展",
           "title_en": "Expanding into the Press",
-          "pdf_page": 312,
+          "pdf_page": 313,
           "printed_page": 269
         }
       ]
@@ -663,7 +663,7 @@
       "chapter": 16,
       "title": "开拓新局面(下)",
       "title_en": "Opening a New Chapter (Part 3)",
-      "pdf_page": 320,
+      "pdf_page": 321,
       "printed_page": 277,
       "sections": [
         {
@@ -671,7 +671,7 @@
           "section": 1,
           "title": "淞沪警备司令部",
           "title_en": "The Songhu Garrison Command",
-          "pdf_page": 320,
+          "pdf_page": 321,
           "printed_page": 277
         },
         {
@@ -679,7 +679,7 @@
           "section": 2,
           "title": "“第四号政治密查员”",
           "title_en": "“Political Investigator No. 4”",
-          "pdf_page": 323,
+          "pdf_page": 324,
           "printed_page": 280
         },
         {
@@ -687,7 +687,7 @@
           "section": 3,
           "title": "英法租界巡捕房",
           "title_en": "The British and French Concession Police",
-          "pdf_page": 329,
+          "pdf_page": 330,
           "printed_page": 286
         }
       ]
@@ -698,7 +698,7 @@
       "chapter": 17,
       "title": "电讯科长“曾培鸿”——李强",
       "title_en": "Communications Chief “Zeng Peihong” — Li Qiang",
-      "pdf_page": 332,
+      "pdf_page": 333,
       "printed_page": 289,
       "sections": [
         {
@@ -706,7 +706,7 @@
           "section": 1,
           "title": "党的电讯事业创始人李强",
           "title_en": "Li Qiang, Founder of the Party's Communications Work",
-          "pdf_page": 332,
+          "pdf_page": 333,
           "printed_page": 289
         },
         {
@@ -714,7 +714,7 @@
           "section": 2,
           "title": "为党造出第一部收发报机",
           "title_en": "Building the Party's First Transceiver",
-          "pdf_page": 336,
+          "pdf_page": 337,
           "printed_page": 293
         },
         {
@@ -722,7 +722,7 @@
           "section": 3,
           "title": "到香港建立电台",
           "title_en": "Setting Up a Radio Station in Hong Kong",
-          "pdf_page": 341,
+          "pdf_page": 342,
           "printed_page": 298
         },
         {
@@ -730,7 +730,7 @@
           "section": 4,
           "title": "培训党的第一代报务员",
           "title_en": "Training the Party's First Generation of Radio Operators",
-          "pdf_page": 345,
+          "pdf_page": 346,
           "printed_page": 302
         },
         {
@@ -738,7 +738,7 @@
           "section": 5,
           "title": "“划时代的通信革命”",
           "title_en": "An “Epoch-Making Communications Revolution”",
-          "pdf_page": 354,
+          "pdf_page": 355,
           "printed_page": 311
         }
       ]
@@ -749,7 +749,7 @@
       "chapter": 18,
       "title": "永不消逝的红色电波",
       "title_en": "The Red Airwaves That Never Die",
-      "pdf_page": 363,
+      "pdf_page": 364,
       "printed_page": 320,
       "sections": [
         {
@@ -757,7 +757,7 @@
           "section": 1,
           "title": "留日电机专家蔡叔厚",
           "title_en": "Cai Shuhou, Electrical Engineer Trained in Japan",
-          "pdf_page": 363,
+          "pdf_page": 364,
           "printed_page": 320
         },
         {
@@ -765,7 +765,7 @@
           "section": 2,
           "title": "党的第一个报务员张沈川",
           "title_en": "Zhang Shenchuan, the Party's First Radio Operator",
-          "pdf_page": 369,
+          "pdf_page": 370,
           "printed_page": 326
         },
         {
@@ -773,7 +773,7 @@
           "section": 3,
           "title": "留苏专家毛齐华",
           "title_en": "Mao Qihua, Trained in the Soviet Union",
-          "pdf_page": 374,
+          "pdf_page": 375,
           "printed_page": 331
         },
         {
@@ -781,7 +781,7 @@
           "section": 4,
           "title": "“木匠”涂作潮",
           "title_en": "Tu Zuochao, the “Carpenter”",
-          "pdf_page": 380,
+          "pdf_page": 381,
           "printed_page": 337
         }
       ]
@@ -792,7 +792,7 @@
       "chapter": 19,
       "title": "扑灭一场特大灾祸——顾顺章叛变前后",
       "title_en": "Averting a Catastrophe — The Defection of Gu Shunzhang",
-      "pdf_page": 388,
+      "pdf_page": 389,
       "printed_page": 345,
       "sections": [
         {
@@ -800,7 +800,7 @@
           "section": 1,
           "title": "顾顺章护送张国焘去鄂豫皖苏区",
           "title_en": "Gu Shunzhang Escorts Zhang Guotao to the Hubei-Henan-Anhui Soviet",
-          "pdf_page": 388,
+          "pdf_page": 389,
           "printed_page": 345
         },
         {
@@ -808,7 +808,7 @@
           "section": 2,
           "title": "在汉口被捕叛变",
           "title_en": "Arrested in Hankou, He Turns Traitor",
-          "pdf_page": 397,
+          "pdf_page": 398,
           "printed_page": 354
         },
         {
@@ -816,7 +816,7 @@
           "section": 3,
           "title": "一网打尽“中共中央”阴谋彻底破产",
           "title_en": "The Plot to “Net the Whole CCP Central” Collapses Utterly",
-          "pdf_page": 401,
+          "pdf_page": 402,
           "printed_page": 358
         }
       ]
@@ -827,7 +827,7 @@
       "chapter": 20,
       "title": "倾箱倒箧的出卖",
       "title_en": "Betrayal to the Last Scrap",
-      "pdf_page": 405,
+      "pdf_page": 406,
       "printed_page": 362,
       "sections": [
         {
@@ -835,7 +835,7 @@
           "section": 1,
           "title": "顾顺章出卖了在南京狱中的恽代英",
           "title_en": "Gu Shunzhang Betrays Yun Daiying in a Nanjing Prison",
-          "pdf_page": 405,
+          "pdf_page": 406,
           "printed_page": 362
         },
         {
@@ -843,7 +843,7 @@
           "section": 2,
           "title": "顾顺章赴香港捕杀蔡和森",
           "title_en": "Gu Shunzhang Goes to Hong Kong to Hunt Down Cai Hesen",
-          "pdf_page": 412,
+          "pdf_page": 413,
           "printed_page": 369
         },
         {
@@ -851,7 +851,7 @@
           "section": 3,
           "title": "出卖、抓捕向忠发",
           "title_en": "Betraying and Capturing Xiang Zhongfa",
-          "pdf_page": 417,
+          "pdf_page": 418,
           "printed_page": 374
         },
         {
@@ -859,7 +859,7 @@
           "section": 4,
           "title": "还出卖了鲍君甫(杨登瀛)",
           "title_en": "He Also Betrays Bao Junfu (Yang Dengying)",
-          "pdf_page": 424,
+          "pdf_page": 425,
           "printed_page": 381
         }
       ]
@@ -870,7 +870,7 @@
       "chapter": 21,
       "title": "穷凶极恶的捕杀(上)",
       "title_en": "A Vicious Manhunt (Part 1)",
-      "pdf_page": 428,
+      "pdf_page": 429,
       "printed_page": 385,
       "sections": [
         {
@@ -878,7 +878,7 @@
           "section": 1,
           "title": "派特务追捕陈赓",
           "title_en": "Agents Sent to Hunt Down Chen Geng",
-          "pdf_page": 428,
+          "pdf_page": 429,
           "printed_page": 385
         },
         {
@@ -886,7 +886,7 @@
           "section": 2,
           "title": "魔手伸进王根英的娘家",
           "title_en": "The Claw Reaches into Wang Genying's Family Home",
-          "pdf_page": 449,
+          "pdf_page": 450,
           "printed_page": 406
         }
       ]
@@ -897,7 +897,7 @@
       "chapter": 22,
       "title": "穷凶极恶的捕杀(下)",
       "title_en": "A Vicious Manhunt (Part 2)",
-      "pdf_page": 457,
+      "pdf_page": 458,
       "printed_page": 414,
       "sections": [
         {
@@ -905,7 +905,7 @@
           "section": 1,
           "title": "秘密绑架丁玲",
           "title_en": "The Secret Abduction of Ding Ling",
-          "pdf_page": 457,
+          "pdf_page": 458,
           "printed_page": 414
         },
         {
@@ -913,7 +913,7 @@
           "section": 2,
           "title": "参与暗杀杨杏佛",
           "title_en": "A Hand in the Assassination of Yang Xingfo",
-          "pdf_page": 470,
+          "pdf_page": 471,
           "printed_page": 427
         }
       ]
@@ -924,7 +924,7 @@
       "chapter": 23,
       "title": "隐蔽、撤退、转移",
       "title_en": "Concealment, Withdrawal, Relocation",
-      "pdf_page": 484,
+      "pdf_page": 485,
       "printed_page": 441,
       "sections": [
         {
@@ -932,7 +932,7 @@
           "section": 1,
           "title": "中央特委会调整和特科改组",
           "title_en": "Reshuffling the Special Committee and Reorganizing the Special Section",
-          "pdf_page": 484,
+          "pdf_page": 485,
           "printed_page": 441
         },
         {
@@ -940,7 +940,7 @@
           "section": 2,
           "title": "陈赓、陈养山转移天津",
           "title_en": "Chen Geng and Chen Yangshan Move to Tianjin",
-          "pdf_page": 488,
+          "pdf_page": 489,
           "printed_page": 445
         },
         {
@@ -948,7 +948,7 @@
           "section": 3,
           "title": "李强到莫斯科深造",
           "title_en": "Li Qiang Goes to Moscow for Advanced Study",
-          "pdf_page": 498,
+          "pdf_page": 499,
           "printed_page": 455
         },
         {
@@ -956,7 +956,7 @@
           "section": 4,
           "title": "“龙潭三杰”去中央苏区立新功",
           "title_en": "The “Three Heroes of Longtan” Win New Merit in the Central Soviet",
-          "pdf_page": 501,
+          "pdf_page": 502,
           "printed_page": 458
         },
         {
@@ -964,7 +964,7 @@
           "section": 5,
           "title": "刘鼎撤离一波三折",
           "title_en": "Liu Ding's Troubled Withdrawal",
-          "pdf_page": 511,
+          "pdf_page": 512,
           "printed_page": 468
         },
         {
@@ -972,7 +972,7 @@
           "section": 6,
           "title": "周恩来安抵红都瑞金",
           "title_en": "Zhou Enlai Reaches the Red Capital, Ruijin, Safely",
-          "pdf_page": 521,
+          "pdf_page": 522,
           "printed_page": 478
         }
       ]
@@ -983,7 +983,7 @@
       "chapter": 24,
       "title": "叛徒顾顺章的可耻下场",
       "title_en": "The Traitor Gu Shunzhang's Shameful End",
-      "pdf_page": 526,
+      "pdf_page": 527,
       "printed_page": 483,
       "sections": [
         {
@@ -991,7 +991,7 @@
           "section": 1,
           "title": "人人喊打的过街老鼠",
           "title_en": "A Rat Everyone Wants Dead",
-          "pdf_page": 526,
+          "pdf_page": 527,
           "printed_page": 483
         },
         {
@@ -999,7 +999,7 @@
           "section": 2,
           "title": "变本加厉的出卖",
           "title_en": "Betrayal Worse Than Ever",
-          "pdf_page": 531,
+          "pdf_page": 532,
           "printed_page": 488
         },
         {
@@ -1007,7 +1007,7 @@
           "section": 3,
           "title": "写了一本献媚取宠的书",
           "title_en": "He Writes a Book to Curry Favor",
-          "pdf_page": 539,
+          "pdf_page": 540,
           "printed_page": 496
         },
         {
@@ -1015,7 +1015,7 @@
           "section": 4,
           "title": "终被徐恩曾处决",
           "title_en": "Executed at Last by Xu Enzeng",
-          "pdf_page": 545,
+          "pdf_page": 546,
           "printed_page": 502
         }
       ]
@@ -1026,7 +1026,7 @@
       "chapter": 25,
       "title": "《伍豪启事》的出笼与破灭",
       "title_en": "The “Wu Hao Notice”: Its Fabrication and Its Collapse",
-      "pdf_page": 552,
+      "pdf_page": 553,
       "printed_page": 509,
       "sections": [
         {
@@ -1034,7 +1034,7 @@
           "section": 1,
           "title": "伪造的《伍豪启事》出笼",
           "title_en": "The Forged “Wu Hao Notice” Appears",
-          "pdf_page": 552,
+          "pdf_page": 553,
           "printed_page": 509
         },
         {
@@ -1042,7 +1042,7 @@
           "section": 2,
           "title": "临时中央为周恩来辟谣",
           "title_en": "The Provisional Central Committee Refutes the Rumor for Zhou Enlai",
-          "pdf_page": 557,
+          "pdf_page": 558,
           "printed_page": 514
         },
         {
@@ -1050,7 +1050,7 @@
           "section": 3,
           "title": "斩断江青射出的毒箭",
           "title_en": "Cutting Down the Poisoned Arrow Jiang Qing Loosed",
-          "pdf_page": 562,
+          "pdf_page": 563,
           "printed_page": 519
         }
       ]
@@ -1061,7 +1061,7 @@
       "chapter": 26,
       "title": "结束语",
       "title_en": "Conclusion",
-      "pdf_page": 569,
+      "pdf_page": 570,
       "printed_page": 526
     },
     {
@@ -1070,7 +1070,7 @@
       "chapter": 27,
       "title": "后记",
       "title_en": "Afterword",
-      "pdf_page": 578,
+      "pdf_page": 579,
       "printed_page": 535
     }
   ],
