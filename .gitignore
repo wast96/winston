@@ -24,6 +24,11 @@ out/*_bilingual.md
 out/INGEST.md
 out/SURVEY.md
 
+# Per-batch apparatus merge inputs: notes authored by hand into a small JSON,
+# then merged into notes.json via apparatus_merge.py. The merged result lives
+# in notes.json (tracked); the merge file itself is transient QC scaffolding.
+data/*_apparatus.json
+
 # Deliverable artifacts that rebuild from the sources. EXCEPTION: on
 # completion, the FINAL deliverable EPUB is committed with
 #   git add -f out/<deliverable>
