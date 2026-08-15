@@ -1,0 +1,75 @@
+# STYLE delta — Japanese source (lang-ja)
+
+Language layer for a Japanese source text. Composes onto `_base.md`. Supplies
+the Japanese-specific stilted tells, the em-dash budget, tense handling, and
+the romanization convention. The genre layer (fiction or nonfiction) is
+separate.
+
+(Obeys CLAUDE.md rule 6: no em dashes in this sheet's prose except inside
+quoted examples.)
+
+## Japanese-specific failure modes (add to the six in _base)
+
+7. **The quotative-と dash accretion.** Japanese leans on the quotative particle
+   と and on structural punctuation (、。「」（）). Rendered clause by clause,
+   the em dash becomes the default English connector for every pause, aside,
+   interruption, and と-attribution, so dashes accrete. A display-join that
+   stitches two source lines into one sentence then concentrates a clause dash
+   and an attribution-seam dash together, which is where pile-ups show up. See
+   the em-dash budget below.
+8. **The bare romaji common noun.** Do not leave a culturally specific common
+   noun untranslated where English has the word or a gloss will serve: "the
+   liturgical chant," not "the *shōmyō* chant." Footnote a term of art like
+   *gatha* at first use. Keep romaji only for names and for culturally specific
+   terms that carry a note (rappa, shinobi, koku).
+9. **The disembodied-body-part calque.** Japanese lets a mouth, teeth, or hand
+   perform a human act on its own. Recast so the person is the agent: "He had
+   the toothy grin of an old ape," not "The teeth grinned like an old ape's."
+   (Genuinely idiomatic English like "her eyes smiled" is fine; the target is
+   the calque.)
+10. **The stiff stative rendered flat.** Unpack a stative Japanese construction
+    into a felt, physical one: "as he understood the old man meant kindly, the
+    tension seemed suddenly to leave him," not "all at once at ease once he saw
+    the old man meant kindly" (which also stutters *at once ... once*). Watch
+    for and kill that kind of accidental repetition.
+
+## Em-dash budget
+At most ONE em dash per sentence, OR one matched PAIR used as parenthetical
+brackets around an interjection. Never three in a sentence; never combine an em
+dash inside a clause with a second at a quote or attribution seam in the same
+sentence. When a sentence would exceed the budget, swap one dash for a
+semicolon (a balanced second clause), an ellipsis (a hesitation or shocked
+pause), a comma (a light aside), or a period (split it). After applying any
+display-join, scan each display paragraph for two-or-more-dash sentences and
+thin them. `check_register.py --ref` tracks the em-dash rate against the frozen
+reference; a jump is a flag to go look.
+
+## Tense: keep the author's own gnomic present
+Where the author sets standing description or geography in a timeless present
+("The sky over Iga rests on two ranges ... it is propped up by the peaks of
+Kasagi"), leave it there. Do NOT mechanically convert scene-setting or
+geographic asides to the narrative past. The mix of gnomic present (standing
+geography) and past (the action, and habitual "the sun sank ... cloud
+gathered") is deliberate and correct.
+
+## Idioms and phrasal verbs: no scene-primed second meaning
+Before using an idiom or phrasal verb, test it against the immediate scene. If
+the setting activates a different literal sense of the phrase, choose a
+single-sense wording instead. This matters most in terse interior thoughts,
+which lack the surrounding words that would disambiguate. (Real case: in a
+pitch-dark scene, "I cannot make her out" read as eyesight, not comprehension;
+render わからぬ as "cannot make sense of," never "make out.") Watch list, where
+a scene can supply the second sense: "make out" (see / understand) in darkness;
+"take in" (grasp / inhale) around breath or smoke; "lost" (bewildered / asleep
+/ dead) around sleep or death; "strike" (hit / occur to) in a fight. When two
+senses are live, pick the wording that leaves only one.
+
+## Romanization and units
+- Japanese names in **Hepburn with macrons**; conventional English forms as
+  established (Hideyoshi, Kyoto, Tokugawa, the era-names). One rendering per
+  referent, decided in `glossary.json` against `authority.json`.
+- **Keep the source's own units and proper nouns; do not domesticate them.**
+  Japanese measures (<i>ri</i>, <i>chō</i>, <i>ken</i>, <i>shaku</i>,
+  <i>sun</i>, <i>koku</i>, <i>kan</i>, <i>mon</i>) stay as they are, never
+  converted to miles or inches; a footnote carries the equivalence at first
+  use. The same for offices, arms, and place-names.

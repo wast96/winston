@@ -130,13 +130,51 @@ out, and footnotes that catch everything such a reader would miss.
    commissioner pasting the kickoff; the survey chat's last act is serving
    up the Batch 1 kickoff (which ends at the voice gate, Step 0c).
 
+Before serving the Batch 1 kickoff, **compose the style contract**: once
+`book.json` is authored (with `source_language` and `subjects` set), run
+`python3 scripts/compose_style.py` and commit `STYLE.md` + `STYLE.local.md` so
+Batch 1 starts from them (see Register, formatting, glossary).
+
 ## Step 0c: the first-chapter voice gate (SECOND approval gate)
 
-When Batch 1 is done, STOP again. The commissioner reads the chapter and
-judges voice, note density, and formatting. On approval the chapter becomes
-the FROZEN REFERENCE for `check_register.py --ref` (never a running average;
-against a moving baseline, drift is invisible by construction). Every
-completed book that skipped this gate needed a whole-book revision pass.
+When Batch 1 is done, do NOT present it raw. First run the **blind-critique
+evolution loop** so the chapter the commissioner reads is already tightened and
+`STYLE.local.md` has absorbed the lessons; then hold the human gate.
+
+### The blind-critique evolution loop (before the human gate; up to 3 rounds)
+
+Its whole value is a CONTEXT-BLIND reader: a reader who has seen the style guide
+grades against the guide, and one who has seen the source forgives the English
+because they know what it means. We want neither.
+
+1. **Assemble the blind input.** `python3 scripts/voice_gate_critique.py prepare
+   <unit>` writes `out/<unit>_critique_prompt.md`: the built chapter (prose plus
+   notes, markers rendered away) beneath the canonical blind-critic prompt
+   (`review/voice_gate_critic_prompt.md`).
+2. **Read it blind.** Hand that document to a FRESH reader with NO other context
+   (no source, no `STYLE.md`, no glossary, no CLAUDE.md): a subagent if your
+   surface has them, else a clean instance. It returns specific corrections;
+   archive them with `voice_gate_critique.py record <unit> <file>`.
+3. **Apply the fixes yourself.** You have the source; the blind reader did not.
+   Apply each to `out/<unit>_reading.md` and re-verify every changed line against
+   the source as if it were new translation (rule 4: a repair invents nothing).
+   Where the reader misread only for lack of the source, note why and skip it.
+4. **Evolve the style.** Cluster the corrections into CLASSES, ask WHY each
+   happened, and write each as a RULE / WHY / FIX / CHECK entry in
+   `STYLE.local.md`, tagged `#book` or `#promote`. The class-preventing rule is
+   the deliverable, not the single fix.
+5. **Rebuild and repeat** with a NEW blind reader until a round surfaces nothing
+   substantive or you have run three rounds. Keep `STYLE.md` and the `styles/`
+   layers untouched; all evolution lands in `STYLE.local.md`.
+
+### The human gate
+
+Now the commissioner reads the chapter and judges voice, note density, and
+formatting; include a short summary of what the blind loop caught and how you
+tightened `STYLE.local.md`. On approval the chapter becomes the FROZEN REFERENCE
+for `check_register.py --ref` (never a running average; against a moving
+baseline, drift is invisible by construction). Every completed book that skipped
+this gate needed a whole-book revision pass.
 
 ## Workflow: the book runs in BATCHES
 
@@ -225,8 +263,9 @@ regression tests; everything else is stdlib). No OCR engine, no PDF renderer.
 6. Footnotes and glossary via `apparatus_merge.py` (never a shell heredoc);
    `check_apparatus.py` clean. Figures from `data/figs/` with translated or
    honestly-neutral captions and real `alt` text.
-7. Build, `qa_epub.py`, `check_register.py --ref`, write `HANDOFF.md`,
-   commit.
+7. Build, `qa_epub.py`, `check_register.py --ref`,
+   `check_style_freshness.py` (informational; do not recompose mid-book), write
+   `HANDOFF.md`, commit.
 
 ## The checks — the QC contract
 
@@ -283,6 +322,15 @@ note; numbering is the builder's.
 
 The scanned template's contracts apply verbatim, plus:
 
+- **The style contract is COMPOSED, not hand-written.** At setup,
+  `python3 scripts/compose_style.py` builds this book's `STYLE.md` from the
+  shelf-wide `styles/` layers (base + `lang-<zh|ja>` + `genre-<fiction|nonfiction>`,
+  selected mechanically from `book.json`) and seeds `STYLE.local.md`. Read BOTH
+  every batch. `STYLE.md` is a BUILD ARTIFACT: never hand-edit it; this book's
+  own rulings go in `STYLE.local.md`, tagged `#book` or `#promote`. Never edit a
+  `styles/` layer mid-book; run `scripts/check_style_freshness.py` each batch
+  (informational, do not recompose mid-book). Selection, nomenclature and the
+  between-books promotion rule are in `styles/INDEX.md`.
 - **Every major character gets a VOICE SHEET.** At first appearance, write a
   two-line register spec into HANDOFF's carry-forward section (educated or
   rough, terse or windy, verbal tics, formality toward whom) and consult it
