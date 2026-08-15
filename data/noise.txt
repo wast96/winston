@@ -209,3 +209,7 @@
 八幡
 # 五条鴨川 (Gojō): the 五 is the Kyoto district/avenue name — "Gojō"
 五条
+# 八坂神社 = the Gion Yasaka shrine; the 八 is the shrine's name — rendered "Yasaka"
+八坂神社
+# 四明岳 = Shimeigatake, a peak of Mount Hiei (叡山); the 四 is the place name — rendered "Shimeigatake"
+四明岳

@@ -2108,3 +2108,97 @@ she weeps. She resolves to vanish from the world where she chased a man, and tru
 in Iga, maimed but carefree. Gohei is loose and hunted. Next: B17 = ch17 尾行 / The Shadowing (folios
 584-590) — Gohei, sunburnt and disguised as a horse-driver at the Gion Yasaka steps, since the Kiwano
 ambush unable to return to the magistrate's residence, is himself now being shadowed by a Kōga assassin.
+
+## B17 — ch17 尾行 / The Shadowing (printed folios 584-590, tail spills onto 591) — COMPLETE
+
+**Scope:** ch17 尾行 = "The Shadowing", the shadowing/suspense chapter. Gohei, sunburnt and disguised as
+a horse-driver at the Gion Yasaka shrine steps, unable since the Kiwano ambush to return to the
+magistrate's residence, spots Tsuzura Jūzō and tails him through the capital to a sideshow booth and,
+after Jūzō's crowd-cover disguise-swap, to a small inn where Gohei takes the room opposite to keep
+watch. 44 body paragraphs, 6 new notes (book total 124).
+
+**Folio-to-PDF map (READ off the running heads, topstrips.py 584-592, autocontrast):** printed == PDF
+throughout, offset 0, CONFIRMED. Even folios recto (right), odd verso (left), clean alternation — NO
+duplicate leaf, NO gap across 584-592. Running heads read: 584,585,586,587,588,589,590,591,592 each
+== its PDF page. ch17 opens CLEAN at the top of 584 (尾行 title + body on same page; ch16 ended on 583,
+did NOT spill onto 584). ch17's TAIL SPILLS onto 591: the tail runs from folio 590's last paragraph
+("...見届けたのであ") through 591 up to and including 「前田屋敷の者じゃ。詮議の筋あって人を追うている。
+粗略にすまいぞ」 (body para 43, the last of ch17). The ch18 opener 石田屋敷 title sits partway down 591,
+with ch18 body ("その時刻より少し前、小萩は…雲水毒潭と向いあっていた") beginning after it — CONFIRMED at
+printed==PDF 591. **B18 must NOT re-translate the ch17 spillover on 591 (through 粗略にすまいぞ).**
+
+**data/pagemap/ch17.json:** 8 entries, folios 584-591, body_paragraph indices 0/4/9/15/22/28/35/39 —
+all unique (no collision). 591 is a shared folio (also carries ch18's opener); ch17's map references it
+for para 39, ch18's own map will reference it independently.
+
+**Checks (all green):**
+- parity 44 | 44 (check_structure --pairs OK).
+- numbers: verify_unit 44 pairs, 0 unresolved. noise +2: 八坂神社 (八 in the Gion Yasaka shrine name),
+  四明岳 (四 in Shimeigatake, a peak of Mt Hiei). 四条/Shijō already in noise (ch08). Real quantities all
+  carried in the English: 三百貫→"three hundred kan", 三尺二寸→"three shaku, two sun", 一尺六寸→"one shaku,
+  six", 千石→"a thousand koku", 永楽銭二枚→"two Eiraku coins", 二間幅→"two ken", 小半刻→"a small half-hour",
+  銀の粒を一つ→"a single grain of silver".
+- check_align: median 10.31 en/han; 2 pairs high-ratio (pair 5 （なあに…幸いだ）28.5x, pair 14 （木さるめ…
+  生きてはいまい）28.7x) — both short parenthetical interior thoughts, ratio inflated by tiny han count.
+  DECLARED EXCEPTION, not a defect (a 6-word thought reads longer than its han count predicts).
+- qc_entities: 0 misses (after 3 name-survival fixes on pronoun-only paras: para 12 重蔵→named Jūzō, para
+  25 五平→named Gohei, para 26 重蔵→named Jūzō).
+- check_content: ch17 44 name occurrences, all in the paired paragraph (clean).
+- check_register --ref out/ch01_reading.md: 3.00x contractions (0% shall-share, em-dash 8.6/1k), within
+  tolerance. Contracted street/barker/inn dialogue over narration-forward suspense prose (cf. ch10 2.31x,
+  ch16 1.98x). "little dialogue — noisy" flag = small dialogue sample, not drift.
+- check_apparatus: 0 failures / 0 warnings.
+- qa_epub: PASS (20 documents, 5182 paragraphs, 124 refs/bodies/backlinks, all links resolve).
+- epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- Tail verified against the 591 scan (rule 4): last two paras (RR host/silver, SS 前田屋敷の者じゃ) read
+  directly off the p0591.png image; boundary with ch18 confirmed.
+- Compound-coverage grep (3+-kanji, raw data/txt 584-590 + 591 ch17-tail): 20 compounds "absent" from
+  the hand transcription, ALL OCR garbles of correctly-transcribed forms (破園八坂神社→祇園八坂神社,
+  三尽二寸→三尺二寸, 鶴山回明岳→叡山四明岳, 永染銭→永楽銭, 紅帝格子→紅殻格子, etc.). No real drop.
+
+**Notes added (6; book total 124). ch17 first-appearances only:**
+1. 月代/sakayaki (shaved crown) — the period male hairstyle; grown-out = neglected grooming, part of the
+   disguise. Anchor "shaved crown had grown out".
+2. 鐚銭/bita-sen (debased coin) — worn/private low-quality copper at a discount; the horse-driver act.
+   Anchor "a few debased coins".
+3. 歌舞伎/kabukimono — NOT the theater (didn't exist yet); the flamboyant outlandish street swaggerers,
+   from kabuku "to tilt". Anchor "one of the kabuki bucks".
+4. 永楽銭/Eiraku-sen — Ming Yongle-era (1403-24) copper cash, the prized standard coin vs debased bita-sen;
+   Gohei pays the sideshow in good coin. Anchor "two Eiraku coins".
+5. 鬼門/kimon (demon gate) — the unlucky NE (ox-tiger) quarter of the geomancy; guardian temples (Mt Hiei
+   wards the capital's); the barker's boar-hair charm patter. Anchor "paste it at the demon-gate".
+6. Title 尾行/bikō (The Shadowing) — the plain word for covertly tailing someone; ironic here (two Iga
+   spies). Anchor to body phrase "Gohei's shadowing had come off" (ch13-16 title-note precedent).
+
+**NOT re-noted (already placed; cross-referenced, not repeated):**
+- Gion Yasaka shrine — the Gion district "below the Yasaka Shrine" is already noted at ch04 (anchor
+  "Gion was not yet a quarter of teahouses"). Rendered "Gion Yasaka shrine", no new note.
+- Iga/Kōga & the Kōga assassins, Maeda Gen'i & the Kyoto magistrate/magistracy (奉行), Hideyoshi &
+  his stronghold (Fushimi), Mount Hiei (叡山, here its Shimeigatake peak), Shijō, the measures
+  (kan/shaku/sun/koku/ken), rappa/shinobi/jōnin/genin, Iga trade — all noted ch01-ch16.
+- 見世物小屋/sideshow booth — rendered plainly, no note (ch07 precedent uses "sideshow booths"); the
+  barker's spiel makes the thing self-evident.
+
+**Glossary:** NO new rows. All names reused unchanged: 風間五平/五平→Kazama Gohei/Gohei, 葛籠重蔵/重蔵→
+Tsuzura Jūzō/Jūzō, 前田玄以/玄以→Maeda Gen'i/Gen'i, 今井宗久/宗久→Sōkyū, 木さる→Kisaru, 秀吉→Hideyoshi,
+伊賀/甲賀→Iga/Kōga, 前田(家/屋敷)→the Maeda house/mansion. One-off place names footnoted or rendered
+plainly, not glossaried: 祇園八坂神社 (cross-ref ch04), 四条/Shijō, 叡山四明岳/Shimeigatake of Mt Hiei,
+貴船/Kifune. (Reused-row discipline per the B04-B16 method.)
+
+find_figures.py 584-592 found none; every page eyeballed during transcription — ch17 is text-only like
+ch01-ch16. Empty figure list is a deliberate decision (no figures.json ch17 entry).
+
+### Where the story stands (end of ch17)
+Weeks after Kiwano, early summer in the capital. Gohei has abandoned the samurai disguise and the
+magistrate's residence (too exposed to the Kōga hunting him) and works the streets in a rotation of
+disguises, at present a horse-driver. His aim: pin down where Jūzō lodges and prove the man means to
+penetrate Hideyoshi's Fushimi stronghold, which would confirm Sōkyū's plot to Ishida and vault Gohei's
+standing in the Maeda house. He spots the flashily-dressed Jūzō near the Gion steps, tails him toward
+Shijō, into a sideshow (a giant Kifune boar), where Jūzō — sensing the tail — shrinks himself crabwise
+through the crowd and swaps his identity for that of a plain, sword-less painter carrying a scroll. Gohei
+(cold, savoring the thousand-koku bounty, dismissing the dead Kisaru with a ninja's tool-logic) admires
+the craft, re-acquires him on the road, and trails him a small half-hour to a small red-lattice inn.
+Gohei takes the room opposite, buys the host's discretion with silver, and settles to watch — claiming
+to be a Maeda man on an inquiry. Next: B18 = ch18 石田屋敷 / The Ishida Mansion (folios 591-607), which
+opens "a little before that hour" with Kohagi at the Komatsudani villa facing the monk Dokutan
+("それで、重蔵さまはどう申されましたか").
