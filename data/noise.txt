@@ -69,3 +69,19 @@
 八办
 # Li Xijiu, a counselor at the Xi\x27an field HQ (九 = 9 in the name) — rendered "Li Xijiu"
 李锡九
+# "万里迢迢" = over a great distance (万里 = 10,000 li, idiomatic) — rendered "the long road"
+万里迢迢
+# "四肢" = the limbs (四 is part of the word, not a count) — rendered "limbs"
+四肢
+# 两当 = Liangdang, the county of Xi Zhongxun's 1932 mutiny (两 in the place name) — rendered "Liangdang"
+两当
+# 三边 = Sanbian ("Three Borders"), the Border Region sub-district/sub-office (三 in the name) — rendered "Sanbian"
+三边
+# "千百件" = hundreds and thousands (千/百 idiomatic, not a count) — rendered "by the hundreds and thousands"
+千百件
+# 四川 = Sichuan province (四 in the name) — rendered "Sichuan"
+四川
+# "20万重兵" = 200,000 troops; the checker cannot join arabic "20" to 万, orphaning 万=10000. Value carried in the English as digits "200,000".
+20万
+# "十多万元" = over 100,000 yuan; 多 orphans a bare 万=10000. Value carried in the English as "100,000".
+十多万

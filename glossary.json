@@ -454,5 +454,136 @@
     "pinyin": "Yan Youwen",
     "status": "attested",
     "note": "1914&#8211;1962. A deep-cover Communist at Fu Zuoyi's side who helped bring about the surrender of Beiping; his identity was kept secret until 1992, long after his death."
+  },
+  "双重政权": {
+    "en": "dual regime",
+    "pinyin": "shuangchong zhengquan",
+    "status": "decided",
+    "note": "The wartime coexistence of a Nationalist-appointed and a Communist-appointed government in the same Border Region county; the &#8220;nails&#8221; of the chapter title."
+  },
+  "磨擦": {
+    "en": "friction",
+    "pinyin": "moca",
+    "status": "decided",
+    "note": "The standard term, on both sides, for Nationalist&#8211;Communist armed clashes 1939&#8211;1943; <i>fan moca</i> is &#8220;the struggle against friction.&#8221;"
+  },
+  "宝葫芦": {
+    "en": "treasure gourd",
+    "pinyin": "bao hulu",
+    "status": "decided",
+    "note": "The popular name for the Guanzhong sub-district, a Communist salient thrust toward Xi&#8217;an; Hu Zongnan called the same ground the &#8220;pouch&#8221; (<i>nangxing didai</i>)."
+  },
+  "关中分区": {
+    "en": "Guanzhong sub-district",
+    "pinyin": "Guanzhong fenqu",
+    "status": "decided"
+  },
+  "陇东分区": {
+    "en": "Longdong sub-district",
+    "pinyin": "Longdong fenqu",
+    "status": "decided"
+  },
+  "绥德": {
+    "en": "Suide",
+    "pinyin": "Suide",
+    "status": "attested"
+  },
+  "肤施县": {
+    "en": "Fushi County",
+    "pinyin": "Fushi xian",
+    "status": "decided",
+    "note": "The Nationalist name for the county containing Yan&#8217;an; its Nationalist &#8220;Fushi County Government&#8221; ran in parallel with the Communist &#8220;Yan&#8217;an County Government.&#8221;"
+  },
+  "抗敌后援会": {
+    "en": "Resist-the-Enemy Support Association",
+    "pinyin": "Kangdi Houyuanhui",
+    "status": "decided"
+  },
+  "锄奸委员会": {
+    "en": "Anti-Traitor Committee",
+    "pinyin": "Chujian Weiyuanhui",
+    "status": "decided",
+    "note": "A mass body extending <i>chujian</i> (&#8220;rooting out traitors&#8221;) into a village-level surveillance network."
+  },
+  "习仲勋": {
+    "en": "Xi Zhongxun",
+    "pinyin": "Xi Zhongxun",
+    "status": "attested"
+  },
+  "杜斌丞": {
+    "en": "Du Bincheng",
+    "pinyin": "Du Bincheng",
+    "status": "attested"
+  },
+  "马豫章": {
+    "en": "Ma Yuzhang",
+    "pinyin": "Ma Yuzhang",
+    "status": "decided"
+  },
+  "何绍南": {
+    "en": "He Shaonan",
+    "pinyin": "He Shaonan",
+    "status": "decided"
+  },
+  "王震": {
+    "en": "Wang Zhen",
+    "pinyin": "Wang Zhen",
+    "status": "attested"
+  },
+  "萧劲光": {
+    "en": "Xiao Jinguang",
+    "pinyin": "Xiao Jinguang",
+    "status": "attested"
+  },
+  "程潜": {
+    "en": "Cheng Qian",
+    "pinyin": "Cheng Qian",
+    "status": "attested"
+  },
+  "刘伯承": {
+    "en": "Liu Bocheng",
+    "pinyin": "Liu Bocheng",
+    "status": "attested"
+  },
+  "陈奇涵": {
+    "en": "Chen Qihan",
+    "pinyin": "Chen Qihan",
+    "status": "attested"
+  },
+  "陈泊": {
+    "en": "Chen Bo",
+    "pinyin": "Chen Bo",
+    "status": "decided",
+    "note": "Real name of Bu Lu, the &#8220;Red Sherlock Holmes.&#8221;"
+  },
+  "邹瑜": {
+    "en": "Zou Yu",
+    "pinyin": "Zou Yu",
+    "status": "decided"
+  },
+  "马鸿逵": {
+    "en": "Ma Hongkui",
+    "pinyin": "Ma Hongkui",
+    "status": "attested"
+  },
+  "杨森": {
+    "en": "Yang Sen",
+    "pinyin": "Yang Sen",
+    "status": "attested"
+  },
+  "张荫梧": {
+    "en": "Zhang Yinwu",
+    "pinyin": "Zhang Yinwu",
+    "status": "decided"
+  },
+  "汪锋": {
+    "en": "Wang Feng",
+    "pinyin": "Wang Feng",
+    "status": "decided"
+  },
+  "于桑": {
+    "en": "Yu Sang",
+    "pinyin": "Yu Sang",
+    "status": "decided"
   }
 }

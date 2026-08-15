@@ -593,3 +593,137 @@ question (every 图文 photo, or a curated subset) still for the commissioner.
   stray branch claude/china-secret-war-b04-ch03-3dr47i sat at the same commit as
   origin/claude/chinas-secret-war; the local canonical branch was reset to origin).
 - setup.sh regression "hook stands down on template stub" still FAILS benignly.
+
+## Batch B05 — Chapter 4, the whole chapter + chapter-end Principal Sources (ch04s01-ch04s05)
+
+**Scope.** Chapter 4 第四章 拔钉子 ("Pulling Out the Nails"), PDF 171-183, printed
+135-147. All five sections plus the chapter intro and the chapter-end Principal
+Sources. Offset constant printed = pdf - 36, spot-verified at every section opener
+off the scan: s1 双重政权 p135; s2 争抢"宝葫芦" p139; s3 "红色福尔摩斯"出招 p142;
+s4 反腐风暴 p143; s5 "护送出境" p144; Principal Sources close p146-147. Chapter 5
+opens p148 (PDF 184), the stop.
+
+**Result.** 119 English body paragraphs, 1:1 parity with the source. 5 section
+headings + chapter title/subtitle + Principal Sources. +14 notes (book total 98).
++25 glossary rows (101 total). ch04 is the FROZEN reference's fourth measured unit.
+Chapter 4 is COMPLETE.
+
+### Source read entirely off the scan (the OCR was not usable as a scaffold)
+Chapter 4 is the most caption-corrupted span so far. The 图文版 sets photo plates
+INTO the body column on pdf 172-174, 177, 179-180, and the verso vertical running
+title bleeds in as well; both tesseract configs (psm6/psm4) and ocr_dual merged
+four-to-eight true paragraphs per figure page and injected caption fragments and
+pure garbage mid-line (assembled ch04.txt paras 10-13 and 57 were almost entirely
+unusable). So every one of the 13 pages was read by eye and every paragraph
+transcribed and verified against BOTH OCR configs. scripts/resegment_ch04.py holds
+the verified paragraph list and rebuilds data/zh/ch04.txt from it (the reproducible
+record; data/zh is gitignored). This is the documented limit case the
+resegment_ch03 docstring anticipated: not merge/split-on-garbled-anchor but a full
+hand transcription.
+
+### Crop-verified names/numbers (the number check earns its keep again)
+- Xunyi KMT magistrate 张中堂 (Zhang Zhongtang): the OCR gave 张中符 / 张中笃 /
+  张中党 across three occurrences; the scan is 张中堂. Crop-verified.
+- Fu county KMT magistrate 蒋龙涎 (Jiang Longxian): OCR 蒋龙洗 / 薪龙族; scan 蒋龙涎.
+  Crop-verified (p137, p145). Kuang Yumin 匡裕民 (artillery battalion cdr) confirmed.
+- 郭相堂 (not 郭相党), 李养之, 慕青 (not 区青), 龚震 (not 獒震), 张振声 (not 张振志),
+  鲁南 (not 售南), 陈奇涵, 赵苍璧, 汪锋, 于桑 all crop/scan-verified.
+- 马豫章 (Ma Yuzhang): OCR gave 马耶章 / 马弛章 / 马蚤 / 马鸳章; the photo caption and
+  body on p138/p147 are unambiguous 马豫章.
+- 邹瑜's "随同长兄万里迢迢奔赴延安" is 长兄 (elder brother) + 万里迢迢 (a great
+  distance), NOT a person named Wan Li; rendered "with his elder brother... the
+  long road." Noised 万里迢迢.
+- Numbers all verified against the scan: 23 counties; 200,000 troops (20万);
+  4,500 (张荫梧); 400 (Shen county); 300 killed + twelve fled (Huan county);
+  4 seats/5 districts/40+ townships and 5 seats/6 districts/43 townships;
+  17 disabled men; nine representatives; 385th / 165th / 359th Brigades,
+  27th Group Army, 2nd Cavalry Division; 100,000+ yuan embezzled; 27 reports /
+  100,000 words. 十二人 is genuinely twelve (contrast the B04 dozen/twenty trap).
+
+### The checks
+- Parity 119/119 (check_structure --pairs). Alignment OK, median 5.17 en/han, no
+  pair strays >2.2x (check_align). qc_entities 0 misses (note: qc_entities is a
+  vacuous pass on this project's FLAT glossary schema, keyed by zh at top level,
+  not nested sections as the script expects; entity survival was ensured by hand
+  during translation, every glossary hanzi rendered). verify_unit: numbers 0
+  unresolved, anchors 14 ok.
+- Number check: 6 new noise entries (万里迢迢, 四肢, 两当, 三边, 千百件, 四川, plus
+  the two arabic-万 artifacts 20万 and 十多万 whose value is carried in the English
+  as digits; 四川 had only ever been a comment example, now a real entry). Every
+  entry commented with its value and the phrase the English uses.
+- Register vs the FROZEN ch01 reference: within tolerance. Dialogue-contraction
+  metric is noise here (ch04 is almost pure narration; its only quoted speech is
+  Kang Sheng's document-register dressing-down and the Mao/telegram set pieces,
+  kept formal by design). Narratorial signals: em-dash 0.0/1k (zero em dashes,
+  as ch03), rhythm CV 0.46 vs ref 0.49, sentence median 22. Judged on those.
+- Tail verification (rule 4 corollary): the Principal Sources close (p146-147) and
+  the section-5 turn toward Chapter 5 (p182) read against the scan; faithful.
+
+### Notes added (14; book total 98)
+dual regime (双重政权, the united-front arrangement); the Fifth Plenum "restrict
+alien-party activities" policy (Jan 1939); friction 磨擦 (the 1939-43 term); Xi
+Zhongxun (bio, Xi Jinping's father, CORROBORATED); Du Bincheng (executed by Hu
+Zongnan Oct 1947, CORROBORATED); baojia (gloss); the Pingjiang Massacre (Jun 12
+1939, Yang Sen's 27th Group Army, six killed incl. Tu Zhengkun & Luo Ziming,
+CORROBORATED); Ma Yuzhang (the secret-Communist magistrate, family testimony,
+thinly documented elsewhere); He Shaonan / "Commissioner Friction" (the Wang Zhen
+anti-corruption campaign, CORROBORATED in outline); Wang Zhen (359th Brigade,
+later PRC vice-president, CORROBORATED); Ma Hongkui (Ningxia Ma-clique warlord);
+Bu Lu / Chen Bo the "Red Sherlock Holmes" (the interested-witness counter-record:
+arrested 1951 in the "two Chens case," died 1972 in labor reform, cleared 1980,
+CORROBORATED); the classical telegram flourish 盖亦仁之至义之尽也 (Mencian idiom
+dressing an ultimatum); chujian 锄奸 / the Anti-Traitor Committee (gloss, points
+to Chapter 7). Fact-checks via Wikipedia / Baidu Baike / People's Daily 党史 /
+Guangzhou Party-history office; no LLM-sourced content.
+
+### NOT re-noted (already placed earlier in the book)
+- 皖南事变 (New Fourth Army Incident): noted at ch03 (anchor "engineered the New
+  Fourth Army Incident"). Appears here in s5; not re-noted, glossary row already
+  present.
+- 特务 / tewu, 汉奸, 中统 (Zhongtong), 军统 (Juntong): loaded-term notes placed at
+  ch01. Hu Zongnan (ch02), Kang Sheng (ch02), the "reform and opening" motif (ch02),
+  the Rescue/Rectification campaign (ch02) all already noted; used, not re-noted.
+- 边保 / Border Security, 中社部 / Social Affairs Department, 八办: glossed earlier;
+  reused unchanged.
+
+### Renderings settled / reused
+Reused unchanged: 边保 (the Border Security), 中社部 (the Social Affairs Department),
+八办, 中统/军统, 特务, 康生 (Kang Sheng / "Boss Kang" for 康老板), 胡宗南, 周恩来,
+毛泽东, 蒋介石 ("old Chiang" for 老蒋), 王明, 许建国 (Xu Jianguo, = 杜理卿),
+罗青长, 李启明, 布鲁, 赵苍璧, 皖南事变. New this batch (see glossary): 双重政权 "dual
+regime", 磨擦 "friction", 宝葫芦 "treasure gourd" / 囊形地带 "the pouch", 护送出境
+"escorted out of the territory", 关中/陇东分区 "Guanzhong/Longdong sub-district",
+抗敌后援会 "Resist-the-Enemy Support Association", 锄奸委员会 "Anti-Traitor Committee",
+肤施县 "Fushi County", and the new cast (习仲勋, 杜斌丞, 马豫章, 何绍南, 王震, 萧劲光,
+程潜, 刘伯承, 陈奇涵, 邹瑜, 陈泊, 马鸿逵, 杨森, 张荫梧, 汪锋, 于桑).
+
+### Figures: still DEFERRED (deliberate; commissioner decision pending)
+figures.json still empty. Chapter 4's inline plates catalogued for a later
+figures pass: the Yan'an panorama by Liang Ji (p136); the double-life magistrate
+Ma Yuzhang portrait (p138); a Longdong group photo (p141); Xi Zhongxun 1932 doing
+army-work, left-one (p141); Bu Lu at Yan'an (p143). Standing question (every 图文
+photo, or a curated subset) still for the commissioner.
+
+### Build / environment
+- EPUB rebuilt: 5 of 14 chapters (ch00, ch01, ch02, ch03, ch04), 98 notes, 87
+  pagebreaks. qa_epub PASS (28 files, 21 documents, all links resolve). epubcheck
+  5.1.0 clean (0 fatals / 0 errors / 0 warnings / 0 infos).
+- ch04 DOES carry printed-page (folio) markers (resegment_ch04 rebuilds the
+  pagemap from the verified paragraph list; unlike ch03, no stale-index problem).
+- Reading text: 0 literal <i> tags, 0 em dashes.
+- Branch consolidated onto claude/chinas-secret-war at session start (the harness
+  stray branch claude/china-secret-war-ch04-1pds62 sat at the same commit as
+  origin/claude/chinas-secret-war = 696786f; local canonical was reset to origin,
+  stray local deleted).
+- setup.sh regression "hook stands down on template stub" still FAILS benignly
+  (HANDOFF holds a real kickoff, so the stub-detection test trips). All other
+  checker regression tests green.
+
+### Tooling touched (do NOT revert)
+- scripts/resegment_ch04.py: new; rebuilds data/zh/ch04.txt from the hand-verified
+  paragraph list (the OCR was too caption-corrupted to use as a scaffold).
+- data/structure.json: +7 rows (ch04 chapter title, subtitle, 5 section headings,
+  matched to the OCR strings).
+- data/noise.txt: +8 entries (万里迢迢, 四肢, 两当, 三边, 千百件, 四川, 20万, 十多万),
+  each commented with its value and the English phrase.
+- data/apparatus_ch04.json: the B05 apparatus merge file.
