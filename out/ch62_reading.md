@@ -1,0 +1,303 @@
+## The Ironclad
+
+The scene shifts.
+
+At the government's supreme command headquarters, seated in the Western Bailey of Edo Castle, they knew the state of Hokkaidō in detail, from secret agents and from reports through foreign-legation channels.
+
+Almost daily a council of staff officers was held.
+
+"It seems the whole of Hokkaidō has fallen into their hands,"
+
+{j} such was the news that had been brought by a foreign steamer within ten days of Toshizō's seizure of Matsumae Castle.
+
+Some days after that came word of the founding of a Hokkaidō government, and even a roster of the government's leading men was conveyed.
+
+Among the foreigners of Yokohama, at any rate, the rumor was on every tongue.
+
+"It seems the Hakodate government held a grand celebration, inviting the foreign legations, trading houses, and ship's masters resident in Hakodate,"
+
+{j} such news too ran in the English-language papers of Yokohama.
+
+The French and their like, out of their ties in the old shogunal days, secretly favored this regime, and a rumor that there was even a move to conclude a treaty reached inside Edo Castle.
+
+Enomoto, moreover, through the ministers of England, France, America, Italy, the Netherlands, and Germany, kept up a strenuous traffic of documents, seeking to have his regime stand side by side and in concord with the Kyoto power.
+
+The new government, of course, had
+
+{j} "Attack"
+
+{j} settled upon.
+
+It was only natural: with the Kyoto regime just barely come into being, to sit silent while another regime, raised by the losing side of a civil war, took shape on the northern march, would leave its foreign standing as the one and only lawful government utterly gone.
+
+"With all speed"
+
+{j} was the settled mind of the Satsuma and Chōshū leaders.
+
+Only the chief of the general staff, the Chōshū samurai Ōmura Masujirō, was against the argument for a hasty subjugation.
+
+"It is still cold,"
+
+{j} was the sole reason the tactician gave. By the recollections of his disciples, Masujirō's mind was conveyed thus:
+
+Going, in the face of this winter, to a cold country, one could hardly get the work done. There was no call to make a stir now. Besides, the other side was not about to attack. Next spring would be best. Let the army winter at Aomori, and the navy in the meantime repair its ships, and make everything ready.
+
+At Hakodate the faces of the government's leading men had already been fixed by election.
+
+President was Enomoto Takeaki.
+
+Vice-president was Matsudaira Tarō.
+
+Navy commissioner, Arai Ikunosuke. Army commissioner, Ōtori Keisuke. Assistant army commissioner, Hijikata Toshizō.
+
+Besides these, Nagai Genba-no-kami (Naomune, formerly styled Mondo-no-shō), who had once been a junior councillor of the old shogunate, was made Hakodate magistrate — the "mayor," one might say, of the capital; a Matsumae magistrate was set at Matsumae Castle, an Esashi magistrate at the fishing port of Esashi, and a colonization magistrate as chief of settlement; and as commanders of the fighting units, offices held since the old shogunate — navy chief, infantry chief, artillery chief, ordnance chief — were established, and twenty-two seasoned men appointed to them.
+
+***
+
+Toshizō was at his headquarters in the Goryōkaku.
+
+In the second month of Meiji 2, word came through the foreign trading houses at Hakodate that eight government vessels were making ready to sail off Shinagawa.
+
+A council of war was called at once.
+
+"The warships are four,"
+
+{j} said Enomoto Takeaki.
+
+"The transports are four. On these, they say, they will bring six thousand land troops. Figures of this order are nothing to fear; but there is one troubling thing. It is that among the warships is the ironclad."
+
+A very great astonishment ran over the faces of the company. The navy men in particular, knowing that warship's power, could not leave it at mere astonishment.
+
+It might be called dread.
+
+"Hijikata,"
+
+{j} Enomoto turned a smile on him.
+
+{j} "You know of the ironclad, I suppose."
+
+He is making sport of me, Toshizō thought. Unlettered as he was, even he knew of this ship.
+
+The ironclad was, in this period, likely a powerful warship of world standard.
+
+The old shogunate had ordered her from America; when she was finished, it was just after the shogunate's collapse, and the American side kept her afloat in Yokohama harbor, and,
+
+{j} ──By the usage of international law, we may hand her to neither party until the civil war is done,
+
+{j} handed her to neither side.
+
+Enomoto too had wrangled doggedly with the Americans right up to the eve of the fleet's sailing from off Shinagawa, but got nowhere.
+
+"To put it large, if only we had got hold of that ironclad then, the defense of Hokkaidō would be answered by that one ship,"
+
+{j} Enomoto had once said to Toshizō, in the course of the voyage to Hokkaidō.
+
+This ship, through the painstaking negotiations of the new-government men, Ōkuma Hachitarō (later Shigenobu) and the rest, had at last been got hold of, and was to add a mighty power to the government's weak navy.
+
+She had, as yet, no name.
+
+Being of wood but sheathed in iron plate and riveted fast, that common name, no doubt, was born of it.
+
+In size the ship was not much different from the Hakodate regime's Kaiten, but in horsepower, against the Kaiten's four hundred, she had 1,200.
+
+Her guns were four.
+
+Few in number, but with a Granaat gun of three hundred kin and a ship's gun of seventy, able to smash an enemy vessel with a single shell, she was reckoned the greatest gun-ship in Japan.
+
+By the way, this ship had been built to a Union order in the very midst of America's Civil War, and was said to be such that one such ship could break the Confederate fleet. But by the time she was finished the Confederate government had surrendered, and the war was over.
+
+Just then the shogunate's warship-buying officials had crossed to America, seen this new-built ship in port, asked earnestly to have her ceded to them, and the matter was arranged.
+
+Yet by the time she came into Yokohama, the shogunate was gone. A ship of destiny, one might call her.
+
+This ship was later named the Azuma, and even at the time of the Sino-Japanese War, some twenty-odd years on, her name was still known among the common people as a representative warship.
+
+"The Sino-Japanese talks broke down, and out from Shinagawa steams the Azuma,"
+
+{j} the school-song of the Sino-Japanese War time that ran so was a song of this very ship, though strictly the same ship had already grown decrepit and been struck from the register by Meiji 21.
+
+"Enomoto — that ironclad will put in at Miyako Bay, in Nanbu territory (Iwate prefecture), will it not?"
+
+{j} said Toshizō.
+
+"Of course she will."
+
+"Then we strike her there, and carry her off for ourselves."
+
+"..."
+
+They all looked at Toshizō with faces of amazement.
+
+(This unlettered fellow.)
+
+was about the sum of it, no doubt.
+
+Toshizō narrowed those puffy eyes of his to slits and, as if asleep, did not stir his pupils.
+
+Enomoto alone was nodding hard. For already, out on the waters of Miyako Bay, he had heard this dream of a tactic from Toshizō.
+
+"But Hijikata, we have the Kaiyō no longer. Our conditions are different from what they were then,"
+
+{j} said Enomoto.
+
+The Kaiyō, last autumn in the eleventh month, had met a typhoon at the Bentenjima anchorage off Esashi and gone to the bottom. By this, one might say, Hakodate's naval strength was halved.
+
+"There is the Kaiten. There are the Banryū and the Takao. It is odd for me, of the army, to say it, but at any rate the navy need only carry us there. The seizing we of the army will do. Though, to be sure, once she is seized, it is the navy that must work her and bring her home."
+
+"..."
+
+They all fell silent. And it was not a well-disposed silence. The able men of the old shogunate's army and navy had never learned such a tactic.
+
+(Why, it is the old wakō over again.)
+
+was the sense of it.
+
+After this the council trailed off into idle talk and broke up.
+
+This dread of the Hakodate naval authorities was reported to the new government by foreigners resident in Hakodate, and the report ran in the English-language paper of Yokohama, the Herald.
+
+In it stands the passage: "The officers of the Hakodate government are in great dread of the ironclad's coming soon. On that account, it would seem, they are often sending search-ships out into the strait. Last night too they put out two steamers and had them cruise within and without Hakodate harbor."
+
+That this article was given such prominence shows well enough that to the foreigners of Yokohama the movements of the Hakodate government must have been a matter of grave concern.
+
+Toshizō's plan was passed, from Enomoto's mouth, to the old shogunate's corps of French military instructors.
+
+A man named Nicole,
+
+{j} "That is found in foreign warfare too,"
+
+{j} having said so, Enomoto suddenly took an interest. Attack by laying alongside, it was called.
+
+"Hijikata, they say it is found abroad as well."
+
+"It would be. War is no matter of scholarship. The reasoning that wins a fight is no different in Japan and abroad."
+
+(Just so.)
+
+{j} Enomoto too was put out, and with that laugh peculiar to him, the eyebrows dropping, clapped Toshizō on the shoulder.
+
+"I am beaten."
+
+"I know nothing of ships either, so I asked the Kaiten's captain, Kōga Gengo. And Kōga, for all his learning—"
+
+{j} here Toshizō looked at Enomoto with a wry smile, and
+
+{j} "no, this is no jibe at your own learning — Kōga, for a scholar, seems to have a plain, honest head. He said it looked feasible. At any rate he would study it, he said. The warship aside, the land troops I shall command myself."
+
+"The army commissioner ought not to go in person."
+
+"I am used to fighting. Kondō Isami died swallowing his bitterness for having failed to take Kōshū Castle; in recompense for that, I mean to take the ironclad."
+
+"Satsuma and Chōshū will be astonished."
+
+Enomoto had come, it seemed, to see Toshizō as a god of war. He gripped his hand, in the way foreigners do.
+
+"It is a delight only to imagine it. Hijikata, to Satsuma and Chōshū it would never once occur that the Shinsengumi should come boarding out of a warship."
+
+"For this we need intelligence. The crux is: about when does the other side's fleet come to Miyako Bay?"
+
+"Ah — a letter from our spies in Edo should come in today or so, entrusted to a British ship. See that, and we shall have a fair notion."
+
+The new government was hard put to it to form its fleet. As government vessels it had but the one ironclad and, for a transport, the one Hiryū-maru.
+
+For the rest, it had no choice but to gather the ships the various domains had bought from abroad since the old shogunate.
+
+Such ships came together off Shinagawa, and the fleet and its train were fully formed at the beginning of the third month of Meiji 2.
+
+The warships were four, the steamers four.
+
+The ironclad was the flagship, and the warship next to her — Satsuma's Kasuga (1,269 tons) — could be looked to only a little.
+
+The remaining two were Chōshū's Teibō No. 1 (120 tons) and Akita's Yōshun (530 tons); but in size, speed, and power they were no match at all beside the Hakodate side.
+
+They weighed anchor all together and sailed on the ninth of the third month.
+
+This was reported by a spy (a foreigner, perhaps) lurking in Yokohama for the Hakodate government, and within a few days the Hakodate government knew of it. That report had it written: "The putting in at Miyako Bay will be the seventeenth or the eighteenth" (the Bakusōroku).
+
+Aboard the government fleet's second ship, the Kasuga (of Satsuma), there served as a third-class officer, twenty-three years old, the Tōgō Heihachirō of later days.
+
+The ship's officers were: captain, Akatsuka Genroku; in the vice-commander's place, Kuroda Kizaemon; and besides, Tanimoto Ryōsuke, Kumasaki Sashichirō, and Tōgō Heihachirō.
+
+This taciturn youth had charge, as a gunnery officer, of the broadside guns.
+
+"The wonder of Marshal Tōgō's career is that he took part in every sea-fight this country ever had,"
+
+{j} as the venerable Ogasawara Naganari later wrote; and it is said that so favored by the fortune of war a man is without parallel even in foreign example.
+
+──That is a man on whom Heaven's luck has settled.
+
+{j} was the reason, they say, that on the eve of the Russo-Japanese War the Navy Minister Yamamoto Gonbee appointed to be Commander-in-Chief of the Combined Fleet the Tōgō (then a vice admiral) who, in the idle post of commandant of the Maizuru Naval District, was fated only to wait to be placed on the reserve list.
+
+When the Emperor Meiji inquired of Navy Minister Yamamoto why he chose Tōgō, asking his grounds of selection,
+
+{j} "Here are several candidates. In skill there is nothing to choose among them. Only Tōgō has the luck riding well with him,"
+
+{j} he answered.
+
+Tōgō, the Satsuma samurai who served aboard the Kasuga, had once done battle off Awa against the shogunal fleet Enomoto led.
+
+It was an affair in the very thick of the battle of Toba-Fushimi, in the first month of Keiō 4, when the Kasuga lay in Hyōgo harbor under orders to escort two of the domain's steamers home to the domain.
+
+On the morning of the fourth, leaving Osaka Bay and coming off Awa, she met with the Kaiyō, the greatest warship in Japan, with Enomoto aboard.
+
+Against the Kaiyō, of course, she could not hope to stand. The Kasuga tried to break away on her speed, but Enomoto brought his ship steadily closer and forced an engagement.
+
+Enomoto had the firing-ports of the thirteen guns of his starboard side thrown open all together, and fired.
+
+But not one shell struck the Kasuga. The ship was large, and the naval skill on the shogunal side ought to have been by far the better; yet the shells they threw out all only raised spouts of water fore and aft and to either side of the Kasuga.
+
+At last the Kaiyō closed to a range of a mere 1,200 meters.
+
+At this the forty-kin rifled gun of the port side, worked by Tōgō himself, first opened fire.
+
+This, with a single shot, struck the Kaiyō home, and the second shell and the third struck home as well.
+
+This sea-fight was the first sea-fight by Western-style warships in this country.
+
+In this memorable engagement, the crew of the Kaiyō, who ought to have been skilled at sea, fired near a hundred shells and yet not one struck home. One can only say their luck was bad.
+
+──Tōgō has luck.
+
+{j} Yamamoto Gonbee's first impression, that ran so, was born, no doubt, of this hitting home with the very first shot. The Kasuga broke away unharmed and returned to Kagoshima.
+
+The government fleet held on north, but met heavy weather several times on the way, and its putting in at Miyako Bay was far later than planned.
+
+Enomoto, in the Goryōkaku, kept the navy commissioner Arai Ikunosuke sending scout-ships out toward the neighborhood of Miyako Bay.
+
+Toshizō, assistant army commissioner, in his uniform and riding-boots, would go aboard the Kaiten moored within Hakodate harbor and drill his "boarding party" almost every day.
+
+"Mark me — the sword that cuts a man down is, in the end, nerve. Swordsmanship comes at last to nothing but the cut to the face and the thrust. Forget the trifling niceties of technique you have learned by rote,"
+
+{j} and Toshizō, stepping his right foot forward on the deck, drew the Izumi-no-kami Kanesada with a flash.
+
+In that instant a terrible force filled the air, and land troops and seamen alike caught their breath. The man who, in the Kyoto days, had cut down more samurai than any in history was about to show here the practical art of killing.
+
+Before Toshizō's eyes a hammock, wrapped in sacking, stood upright.
+
+He stepped in.
+
+The Izumi-no-kami Kanesada glittered in the sunlight, and in the same breath the hammock rolled apart, split clean in two down its length.
+
+"The hips,"
+
+{j} Toshizō struck his own hip.
+
+"Drive the hips hard forward, go in until you are up against the other man's navel, and cut. To cut with the point is a coward's work. The sword must always cut with the monouchi. Do not play the small tricks — sweeping a man's flank as you flee, or knocking his gauntlet aside to dodge."
+
+The men listening were no amateurs either, being swordsmen picked from each corps.
+
+Those chosen were:
+
+From the Shinsengumi, Nomura Risaburō, Ōshima Torao, and the rest, twenty men.
+
+From the Shōgitai, Kasama Kinpachirō, Katō Sakutarō, Itō Yashichi, and the rest, twenty-odd.
+
+From the Shinbokutai, Miyake Hachigorō, Kawasaki Kinjirō, Furuhashi Teizō, Sakai Sennosuke, and the same house's Ryōsuke, and the rest, twenty-odd.
+
+Every man of them was one who had passed again and again through the place of death — at Kyoto, at Toba-Fushimi, in the Ueno war, the war of the northeast, the pacification of Ezo.
+
+At twelve o'clock on the night of the twentieth of the third month, they went aboard three ships, and, leaving the lights of the town of Hakodate behind, slipped secretly away from Hokkaidō.
+
+The Kaiten was at their head, a white lamp lit at her stern to guide the ships that followed.
+
+They were bound for Miyako.

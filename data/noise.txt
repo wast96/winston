@@ -401,3 +401,27 @@
 文七郎
 # Chiyodagata-maru — a shogunal warship (千代田形丸); 千 is part of the name Chiyoda, not the count 1000
 千代田
+# ── B13 additions (ch59) ──
+# Goryōkaku — the Western-style star fort at Hakodate (五稜郭); 五 is part of the name "five-bastion fort", not a live count 5
+五稜郭
+# ── B13 additions (ch61) ──
+# gojippo-hyappo = "fifty steps, a hundred steps" (五十歩百歩), the idiom for "little to choose between"; the 五十/百 are the proverb, not a live count
+五十歩百歩
+# Washinoki house count — colloquial elided range "a hundred and forty or fifty" (百四〔十〕、五十軒); the checker misreads 百四 as 104, so noise it; the English carries the real count
+百四
+# ── B13 additions (ch62) ──
+# Ōkuma Hachitarō — later Ōkuma Shigenobu (大隈八太郎); 八 is part of Hachitarō, not the count 8
+八太郎
+# Akatsuka Genroku — the Kasuga's captain (赤塚源六); 六 is part of Genroku, not the count 6
+源六
+# Kumasaki Sashichirō — a Kasuga officer (隈崎佐七郎); 七 is part of Sashichirō, not the count 7
+佐七郎
+# Itō Yashichi — a Shōgitai raider (伊藤弥七); 七 is part of Yashichi, not the count 7
+弥七
+# ── B13 additions (ch63) ──
+# Shikokuya — a Kiyamachi house name (四国屋); 四 is part of the place name Shikoku ("four provinces"), not the count 4
+四国屋
+# Nakajima Shirō — the Kōtetsu's captain (中島四郎); 四 is part of Shirō, not the count 4
+中島四郎
+# Kagaya Daizaburō — a Kōtetsu third-class officer (加賀谷大三郎); 三 is part of Daizaburō, not the count 3
+大三郎

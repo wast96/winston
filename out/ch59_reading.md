@@ -1,0 +1,305 @@
+## The Fleet Turns North
+
+That night the wind and waves were running somewhat high.
+
+The fleet was steaming north.
+
+The shogunal warship Kaiyō-maru, which carried Toshizō, showed a red lamp to port and a green to starboard, and at the head of the mainmast three flag-officer's lamps.
+
+By the rule, one lamp meant that the admiral aboard was a rear admiral, two lamps a vice admiral, three lamps a full admiral.
+
+Enomoto Takeaki, then, ranked as a full admiral.
+
+He lived and slept in the flag officer's cabin.
+
+To Toshizō had been assigned the next-best quarters, the cabin one might call the chief of staff's.
+
+The ship was a great vessel of world standard for her day, mounting twenty-six Krupp rifled guns of twelve-centimeter bore; in fighting power one such ship might well be a match for ten of the government's.
+
+After sunset Enomoto made his rounds of the deck.
+
+The wind and sea were strong, but good for sailing. Whether the captain had let the boilers rest to save coal, the funnels gave off no smoke.
+
+Enomoto passed before Toshizō's cabin. Light was leaking from the porthole.
+
+(Still awake, that fellow?)
+
+Enomoto was a samurai Westernized through and through, yet for all that he did not much trust his own kind, the French-style samurai Ōtori Keisuke.
+
+Though the two never once met in their lives, this Enomoto took an intense interest in Kondō Isami.
+
+Later, at the fighting for Hakodate, he came to regret having entrusted the command of the city's defense to one Nagai Genba-no-kami Naomune, a former civil official of the old shogunate risen from the post of junior councillor, and would say,
+
+{j} ──had Hakodate been left, say, to a Kondō Isami, dead though he was, or to Hijikata Toshizō, the assistant commissioner of the army, it would never have come to so sorry a pass.
+
+{j} So he would say, even into his old age.
+
+Enomoto was fond of the Shinsengumi. Among the old shogunal retainers who later became high officials of the Restoration government, the foremost in his ardent love of the Shinsengumi was Matsumoto Jun, the first surgeon general (formerly Ryōjun), and after him Enomoto Takeaki.
+
+Enomoto halted before the door of Toshizō's cabin.
+
+(I should like to talk with him.)
+
+{j} so he thought.
+
+It was in the castle town of Sendai that he had first met this celebrated man, Hijikata Toshizō, vice-commander of the Shinsengumi.
+
+They had gone up together to Aoba Castle and worked to win over the lord of Sendai, but the two of them had never talked at their leisure.
+
+(True enough, the man had no gift for words.)
+
+But he was not one to be set down in formal dress in a castle antechamber.
+
+By any reckoning he had the look of a man born only to fight.
+
+Enomoto, bred among shogunal retainers, knew how spineless the hatamoto could be. A man with a face like Hijikata's he had never seen.
+
+(The army — I shall leave it to this man.)
+
+{j} So Enomoto had decided.
+
+He knew well, from officers of hatamoto birth who had served under Hijikata Toshizō, what fighting this man had done since the break-out from Edo: the seizure of Utsunomiya Castle, the stand at Nikkō, the shifting battles into Aizu, the fighting outside Wakamatsu Castle at Aizu. This former second-in-command of the Shinsengumi had made the Western art of war astonishingly his own, and had worked out methods all his own.
+
+One instance was the fighting outside Wakamatsu Castle.
+
+By the account Enomoto had heard, Toshizō led out a small party to reconnoiter in person.
+
+At the edge of the hamlet stood a copse of mixed trees. The road ran through the wood.
+
+Dusk had already fallen. As they came up to the copse, they were suddenly met by a volley of Minié-rifle fire from within the trees.
+
+Taking it that they had run into a large government force, the men fell into confusion, some scattering for cover, some making to fire back; but Toshizō stilled them at once, and
+
+{j} "All of you — shout out, each where he stands, shout together,"
+
+{j} he ordered.
+
+When they raised a shout all together — waaah — the enemy in the copse were drawn into it too, and
+
+{j} waaah,
+
+{j} came the answer back.
+
+Toshizō gave a scornful laugh.
+
+"Only a few. Pickets."
+
+By the sound he even judged their number. Fifty men, he reckoned.
+
+"Push on, and pay them no mind,"
+
+{j} he said, and as they pressed steadily forward, the enemy, being pickets, fled without a fight.
+
+When Toshizō came back from his scouting, Ōtori Keisuke, whom he was forever reviling as a coward,
+
+{j} "Why did you not fire?"
+
+{j} he said, half in reproach.
+
+"The reason is written in that French infantry manual of yours. A scout's purpose is reconnaissance, not battle."
+
+Ōtori was not to be outdone.
+
+"The enemy were pickets too. Fight them, take a prisoner, and you learn the state of their main body, do you not?"
+
+"Just so. But rather than borrow a prisoner's mouth, it is surer for me to go and see the enemy's main body myself."
+
+And in fact he had boldly closed to where he could see the very eyes and noses of the enemy's main body, scouted their movements, and returned.
+
+As officer's reconnaissance, it might be called ideal.
+
+What is more, the moment Toshizō rejoined his unit he pressed forward without lights, taking thirty swordsmen and two hundred riflemen, fell upon the main body's bivouac, and routed them far to the rear.
+
+(A feat beyond Ōtori.)
+
+When he heard this tale, Enomoto thought that the man's generalship had by now become an art. The finesse of that art of war, the quickness of decision, the boldness, the speed of action — these, he thought, were far beyond the reach of the hereditary hatamoto, who had lounged three hundred years on the stipends of their forefathers and had eyes sharp only for jockeying after office.
+
+A sea fog was setting in in earnest.
+
+The side-lamps of the Kaiten, following ten chō astern under her captain Kōga Gengo, had gone out of sight.
+
+The Kaiyō let fly her foghorn.
+
+Presently, out of the darkness far astern, the Kaiten's foghorn was heard answering.
+
+(All is going well.)
+
+Enomoto knocked at the door of Toshizō's cabin.
+
+"...?"
+
+Toshizō was not used to Western ways. He took up his sword, went to the door, pressed himself close, and
+
+{j} "Who is there?"
+
+{j} he asked, his voice held down. The wariness he had picked up in the Kyoto days of the Shinsengumi had become by now a habit of the man.
+
+"It is I. Enomoto."
+
+"Ah,"
+
+{j} and Toshizō opened the door.
+
+In came Enomoto in his ship-captain's uniform, on a gust of pitch-black wind.
+
+"I am not intruding?"
+
+Enomoto was smiling. His was a deeply chiseled face — a face that had once drawn a remark at the town hall of The Hague, the Dutch capital: "By any look of you, you are no man of the Far East. A Spaniard, surely." It was not one of the long, so-called Edo faces.
+
+The Enomoto house had been shogunal retainers since the Mikawa days, yet in truth no such blood ran in Takeaki himself.
+
+His father, Enbei, was the son of the village headman of Hakoda, in Yuda village, Fukayasu district, Bingo province. The district magistrate who governed the land prized his scholarly gifts and took him to Edo, where he studied under the shogunate's two astronomers, Takahashi Sakuzaemon and Inō Tadataka, and became one of the foremost mathematicians in Edo; and since, as luck would have it, the standing of the shogunal Enomoto family was up for sale at a thousand ryō, he bought it, took the name Enomoto Enbei Takenori, and was granted a stipend for five men and fifty-five bales of rice.
+
+Takeaki was that man's son.
+
+There was a countryman's wildness mixed into his blood. Yet Takeaki himself was a thoroughbred child of Edo, born in the barrack-quarters at Shamisen-bori; a man you would take for nothing but a scholar, he was clever besides at comic verse and at a witty turn of phrase. The countryman's blood and the savor of a city upbringing were mixed in just measure, and made of him a human being one might call a kind of masterpiece.
+
+On the eighteenth of the fourth month — a month after the fifteenth of the third month of Bunkyū 3, when Toshizō, with Kondō Isami and Serizawa Kamo and the rest, launched the Shinsengumi in Kyoto — Enomoto, one of fifteen shogunal students sent abroad, put into the port of Rotterdam in the Netherlands.
+
+The townsfolk of Rotterdam, to get a look at the "samurai" of the Far East, of whom they had heard only in legend and rumor, turned out on the riverbank in their tens of thousands; mounted police rode out to direct the traffic, and in the crush there were even people hurt.
+
+In the three and a half years that Toshizō spent in Kyoto cutting down vagabond rōnin, Enomoto studied chemistry, physics, seamanship, gunnery, and international law, and even learned the telegraph, then a rare thing, until he had a fair hand at sending and receiving Morse code.
+
+And since the Danish-Austrian War (the Denmark–Austria war of 1864) happened to break out just then, he went out to the front as a military observer.
+
+To be sure, it was no more than a war in which the small, weak Denmark was easily beaten by an alliance of the great power Austria and the rising young state of Prussia under Bismarck; but the shock Enomoto took from it was great.
+
+"I moved in and out amid a rain of bullets and saw with my own eyes what they call a war between civilized nations. The gain from it was great,"
+
+{j} so Enomoto said in later years.
+
+About the time the allied Austro-Prussian army invaded Denmark and took Schleswig, Enomoto looked on at the fiercest of its battlefields.
+
+Reckoned into the lunar calendar of the day, it would have been around the fifth of the sixth month of the first year of Genji, when Toshizō and his men stormed the Ikedaya at the west end of Sanjō-kobashi in Kyoto.
+
+In the tenth month of the first year of Keiō, when the Shinsengumi built their new barracks at Kashō-chō in Kyoto and threw their weight about grandly, Enomoto was in the Netherlands, at the powder works of Wetteren, studying the composition of gunpowder and negotiating an order for the powder-making machinery the shogunate was to buy.
+
+On the night of the twelfth of the ninth month of the second year of Keiō, when Toshizō, at the head of Harada Sanosuke and thirty-six others, was in a great brawl with samurai of Tosa by the Sanjō bridge, Enomoto was posted at a shipyard in a small village called Dordrecht, some ten ri from the city of Rotterdam.
+
+For the Kaiyō he now sailed in was by then within a few days of completion. The building of so great a ship as the Kaiyō was a rare thing even in the Netherlands, and the newspapers and magazines of the day wrote her up: "Whether this vessel could be brought safely down off her stocks into the shallow-bedded river at Dordrecht — there the last of the engineering pains was spent," wrote the magazine Nederlands Magazijn.
+
+When she was safely launched and rose up at last onto the Merwede, whose banks are beautiful on either side, the navy minister who attended and the cowherds nearby alike were seized with excitement and raised a cheer.
+
+About that time Toshizō, at the Zenitori bridge over the Kamo River, had Saitō Hajime cut down at a single stroke the Fifth Unit captain Takeda Kanryūsai, who was suspected of secret dealings with the Satsuma domain.
+
+"Well, now,"
+
+{j} said Toshizō, oddly bashful, offering a chair, and they sat facing each other across the table.
+
+Enomoto took his seat, but he too was somehow ill at ease.
+
+Their careers were so different you might have called them foreigners to each other.
+
+"You are not seasick?"
+
+{j} said Enomoto, at a loss for a topic, saying something that could give no offense.
+
+Toshizō smiled without a word, then went straight back to the man's own peculiar unsociable face.
+
+Enomoto,
+
+{j} "This will be your first time on a warship, I take it, Hijikata,"
+
+{j} he said.
+
+"No. Coming back from Osaka to Edo I rode the Fujiyama-maru. I was a little sick then."
+
+"Then no wonder."
+
+After that Enomoto asked about the Shinsengumi days in Kyoto.
+
+Toshizō,
+
+{j} "It is all a haze now, those old days,"
+
+{j} he said, and no more; he did not speak much, only told two or three things of Kondō, and,
+
+{j} "He was a man you would have to call a hero,"
+
+{j} he said.
+
+Enomoto nodded.
+
+"Among the soldiers and nobles of Europe and America there are many men of that stamp. They call Japan a land of samurai, but at least among the hatamoto of Edo there is scarcely one who, for sheer force of spirit, does not fall short of a European. When I think of the Shinsengumi, I always call to mind the soldiers of Prussia, that rising young state. They are alike."
+
+"Is that so."
+
+Toshizō had not the least idea what he meant.
+
+"Only consider it, Hijikata. We call the West barbarians, barbarians — yet even the merchants among them cross ten thousand ri of wave in ships half the size of this Kaiyō, staking their lives to come and trade in Japan. They are not to be made light of."
+
+Enomoto next spoke of Hakodate.
+
+From his youth Enomoto had a strong appetite for adventure. When he was eighteen or nineteen — in the days when Hori Oribe-no-shō Toshihiro, a shogunal retainer who would later become inspector and magistrate of Hakodate, was still no more than a messenger-officer — Hori received a secret commission from the shogunate to probe the inner state of the Matsumae domain, and was to go to Hokkaidō.
+
+Enomoto begged this Hori to take him on as a manservant, and the two of them, disguised as Toyama medicine-peddlers, made their way to Hakodate — so the story goes.
+
+"A secret agent, as the storytellers say. Even to me it seemed funny at the time — does such a thing really happen, I wondered,"
+
+{j} said Enomoto.
+
+The smallest of Enomoto's reasons for wishing to go to Hakodate was that he had once been there before.
+
+The greatest reason was to make Hokkaidō independent and to set up an independent government at Hakodate.
+
+"We shall conclude treaties with foreign powers as well. Do that, and we become an independent, recognized government, apart from the government in Kyoto."
+
+That for the head of this independent state he wished to bring in one man of Tokugawa blood — this Toshizō had already heard from Enomoto at Sendai.
+
+"What defends a government is military force. For that we have this great fleet, against which the Kyoto court can do nothing, hand or foot; and we have the land troops — you first of all, Hijikata, and Matsudaira and Ōtori and the rest."
+
+And besides, said Enomoto,
+
+{j} "in that country there stands a Western-style fortress, the Goryōkaku, built by the old shogunate."
+
+To create a constitutional monarchy with a kinsman of the Tokugawa as its head — this was Enomoto's ideal, and the model in his mind's eye was, no doubt, the polity of the Netherlands.
+
+Beyond that, the greatest of Enomoto's reasons for wanting to hold Hakodate was that Hakodate alone was the one international trading port not held down by the military force of the government army.
+
+Nagasaki, Hyōgo, and Yokohama were all in the government's hands, and through those ports and the foreign trading houses the government army was buying up arms at a great rate.
+
+Hakodate alone, though held in an administrative way by court-appointed officials under the noble Shimizudani Kinnaru, with a handful of troops, and by the Matsumae domain, would take no great trouble to sweep clear of them; it was, more or less, the one trading port that remained.
+
+There were foreign trading houses there too.
+
+Here Enomoto's army would import weapons, hold a military force strong enough to forbid any invasion of the mainland, develop industry and work greatly toward a rich country and a strong army, and in time — so Enomoto was thinking — settle here the old shogunal retainers now removed to Shizuoka and hard put even to live from day to day.
+
+"Well, Hijikata — what do you say?"
+
+{j} said Enomoto, a smile rising to his ruddy face, looking well pleased with himself.
+
+Enomoto was an optimist.
+
+True enough: by the international law he knew inside and out, treaties with foreign powers could perhaps be concluded; the thing might stand on its own economically; and militarily too it might, in time, come to hold a power more or less equal to the mainland's.
+
+"Three years."
+
+Enomoto held up three fingers.
+
+"Three years — if the Kyoto court will only leave us in peace three years, we can make ready enough."
+
+"But,"
+
+{j} said Toshizō, cocking his head,
+
+"and if the government army will not lend you those three years to make ready — what then?"
+
+"Ah, but for buying time there is such a thing as diplomacy. I shall keep the court dangling nicely. It is not as though we harbor some treasonous design — we mean only to set up an independent state on what was once Tokugawa land; so the foreign powers too will lend us their support, and I shall not let the government army play the tyrant. I shall steer it that way."
+
+"I see."
+
+Enomoto is like Kondō, he thought — in being an outrageous optimist.
+
+(Perhaps only a man of that cast can carry the office of supreme commander.)
+
+Toshizō was aware that he himself was, when all was said, of the vice-commander's mold.
+
+That, of course, was well enough.
+
+He would give Enomoto all the help he could, he thought.
+
+Only, this second optimist, unlike the first, was a man of formidable learning, and that put Toshizō out. He was, into the bargain, a decidedly clever man.
+
+(The government army will never leave us be a full three years. They will surely come before that. And when the fighting comes — will this man bear up under it?)
+
+To Toshizō, treaties and the like were neither here nor there. The one thing that mattered was the fight. What he wished to determine was whether there was in Enomoto the fighting power of a Kondō.

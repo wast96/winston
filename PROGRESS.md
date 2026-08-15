@@ -1612,3 +1612,153 @@ NOT RE-NOTED (B12; covered earlier, ledgered here):
   Tōshō-Daigongen/Gongen-sama (ch36), Perry (earlier).
 - 副長 vice-commander / 助勤 jokin / 和泉守兼定 / 誠 / お雪 Oyuki (not in B12) all
   glossary; rendered decided-form verbatim where they appear.
+
+## B13 (ch59–ch63) — 艦隊北上 / 小姓市村鉄之助 / 松前城略取 / 甲鉄艦 / 宮古湾海戦 — COMPLETE
+
+THE SHIFT TO EZO AND THE SEA WAR. The fleet turns north, lands at Washinoki
+and takes Hakodate/Goryōkaku; the page Ichimura Tetsunosuke enters Toshizō's
+service; Toshizō's column storms Matsumae Castle; the new government's ironclad
+Kōtetsu (ex-Confederate Stonewall) arrives; and the shogunal navy readies its
+boarding raid at Miyako Bay (the raid itself is ch64, next batch). Notes 417–434
+(18 this batch). All checks green except the ONE documented ch52 false-flag.
+qa_epub PASS (434/434/434); epubcheck 0/0/0/0. Continuous note number now 434.
+Glossary unchanged at 302 rows (no new keys — all B13 historical figures rendered
+by hand per B11/B12 precedent). 63 of 71 chapters translated.
+
+CALENDAR: this span crosses Keiō 4 / Meiji 1 (1868) into MEIJI 2 (1869). ch59–61
+are late 1868 (fleet north Oct, Matsumae Nov, Meiji 1/11); ch62–63 are Meiji 2
+(Feb–Mar 1869, the Kōtetsu's arrival and the approach to Miyako Bay). Era-years
+kept with their numeral; Western dates in Shiba's own parentheticals kept.
+
+Per-chapter parity / checks (all verify_unit numbers 0 unresolved, qc_entities
+0 misses, check_content clean, register within tolerance):
+- ch59 The Fleet Turns North — 152 lines, NO internal *** (only the title/body
+  separator). 4 notes. Enomoto–Toshizō night conversation aboard the Kaiyō; the
+  long Enomoto biography (Rotterdam, the Schleswig war, the Kaiyō's building).
+  Clean after two fixes: pair-30 shortened 土方歳三 to "Hijikata" (restored full
+  name for check_content); one awkward predicate reworded. FUJIYAMA-MARU: the
+  ship 富士山丸 reads Fujiyama-maru (furigana ふじやま), the whole-book decided
+  form (ch47/ch49/ch57); first draft's "Fujisan" corrected here and would have
+  broken reconciliation.
+- ch60 Ichimura Tetsunosuke, the Page — 177 lines, 1 internal *** (before "The
+  care of Toshizō's cabin and his person"). 2 notes. OKITA appears in REMEMBERED
+  FLASHBACK (the Osaka sickbed, the Fujiyama-maru), which is proper — not a
+  living present voice. Fixed 局長 → the decided "commander" (had "commandant").
+- ch61 The Seizure of Matsumae Castle — 176 lines, 1 internal *** (before
+  "Toshizō set out at the head of seven hundred men"). 4 notes. SAITŌ IS IN THE
+  NORTHERN COLUMN in Shiba's telling and Toshizō sends him + Matsumoto away here
+  (the escort-the-lord's-wife device); historically Saitō stayed at Aizu — the
+  discrepancy is footnoted (ch61 note on "Yamaguchi Gorō").
+- ch62 The Ironclad — 150 lines, 1 internal *** (before "Toshizō was at his
+  headquarters in the Goryōkaku"). 5 notes. Big Tōgō Heihachirō digression (the
+  Kasuga, the Awa-oki fight). PARITY TRAP HIT AND FIXED: first pass folded zh L116
+  「と答えた。」into the lead-in (149 vs 150); split it into "he answered." as its
+  own {j} line. NUMBER fixes: unhyphenated "three hundred kin" (hyphenated
+  "three-hundred-kin" did not compose 300); rendered 副長格 as the decided
+  "vice-commander."
+- ch63 The Sea Fight at Miyako Bay — 161 lines, 1 internal *** (before "In Miyako
+  Bay, meanwhile"). 3 notes. Covers the approach, the loss of the Banryū/Takao in
+  the storm, and the Kuroda-vs-Kōtetsu drunken-flask scene; the raid is ch64.
+  Fixed 助勤 → the decided "jokin." FURIGANA GAINS: 坅門隊 = あなもん "Anamon-tai"
+  (the hatch-securing squad); 野戦速射砲 glossed by Shiba's own furigana as
+  "Gatling gun" (ガットリング・ガン), confirming the fact-check.
+
+Scene-break method (grep XHTML for 2+ <p><br/></p> runs, place *** BY TEXT):
+ch59 has ONLY the title/body separator (no internal ***); ch60–63 each have
+exactly ONE internal run plus the separator. Placed by text boundary.
+
+Register: all 5 within tolerance vs frozen ch01, none STILTED. Em-dash rates run
+LOW (ch59 8.0, ch60 6.8, ch61 5.4, ch62 4.0, ch63 5.0 per 1k vs the 12.7 ref
+baseline), as battle/narration chapters should. No pile-ups (STYLE rule 1): no
+display paragraph carries 3+ em dashes; the few matched pairs bracket appositives
+(permitted). Dialogue-contraction rate reads 0.0 / "little dialogue — noisy" on
+several chapters (Toshizō speaks measuredly with his superior Enomoto; Kōga is
+terse; the formal registers left alone) — within tolerance, no STILTED flag.
+
+FURIGANA-CAUGHT READINGS (consulted before romanizing): 尚志 → Naomune (Nagai;
+なおむね, already the ch30-note form, NOT Naoyuki); 富士山丸 → Fujiyama-maru;
+崇広 → Takahiro (Matsumae); 川汲 → Kawakumi; 知内 → Shiriuchi; 木古内 → Kikonai;
+当別 → Tōbetsu; 恂太郎 → Juntarō (Hoshi); 鍽之助 → Sennosuke (Sakai); 長生 →
+Naganari (Ogasawara); 大隈 → Ōkuma, 重信 → Shigenobu; 坅門隊 → Anamon-tai;
+野戦速射砲 → "Gatling gun" (Shiba's semantic furigana). Standard readings used
+where no furigana: Kōga Gengo, Ichimura Tetsunosuke, Ōmura Masujirō, Tōgō
+Heihachirō, Kuroda Ryōsuke (later Kiyotaka), Nakajima Shirō, Kagaya Daizaburō.
+
+Number-check additions to data/noise.txt (all commented; never a real quantity):
+- ch59: 五稜郭 (Goryōkaku, 五 = "five-bastion").
+- ch61: 五十歩百歩 (gojippo-hyappo idiom, 五十/百); 百四 (Washinoki house count
+  百四〔十〕、五十軒 "140 or 150" — the checker misreads 百四 as 104; English
+  carries the real count).
+- ch62: 八太郎 (Ōkuma Hachitarō, 八); 源六 (Akatsuka Genroku, 六); 佐七郎
+  (Kumasaki Sashichirō, 七); 弥七 (Itō Yashichi, 七).
+- ch63: 四国屋 (Shikokuya, 四 = Shikoku "four provinces"); 中島四郎 (Nakajima
+  Shirō, 四郎); 大三郎 (Kagaya Daizaburō, 三).
+NUMBER-CHECK CONFIRMATIONS (B13): the checker DOES compose bare tens+ones as
+words ("twenty-one", "twenty-six", "thirty-six", "fifty-five", "fifty" all PASS)
+and "six thousand" (ones×thousand) PASS; it does NOT read a HYPHENATED
+hundred-compound ("three-hundred-kin" FAILED → write "three hundred kin"
+unhyphenated); thousand-composites written as DIGITS ("1,200", "1,269", "21,374");
+"180" (hundreds+tens) as DIGITS; 里 = "ri" kept (万里 → "ten thousand ri", not
+"leagues", to preserve the 里 key). "five continents" (五大州) composes and PASS.
+
+FACT-CHECK VERDICTS (real scholarship — EN + JA Wikipedia, Britannica, SamuraiWiki;
+Grok/Grokipedia excluded):
+- ENOMOTO'S FLEET REACHING EZO (ch59/ch61): CORROBORATED. Fleet left Shinagawa
+  early Oct 1868, took on troops at Sendai, landed at Washinoki (鷲ノ木) near Mori
+  20 Oct, occupied Goryōkaku 26 Oct 1868. Novel's Meiji 1/10 dates match.
+- KAIYŌ-MARU GUNS (ch59): CONTRADICTED in detail; footnoted. Dutch-built at
+  Dordrecht, completed 1866; carried 18 Krupp 16-cm rifles + 8 30-pdrs = 26 in
+  the main battery (34 total). Shiba's "twenty-six 12-cm Krupp" mixes the ~26
+  main-battery count with a WRONG caliber (16 cm, not 12) and overstates "all
+  Krupp." Footnoted as such.
+- SECOND SCHLESWIG WAR / 丁墺戦争 (ch59): CORROBORATED war (1864), framing FLAGGED;
+  footnoted. It was Denmark vs Prussia AND Austria; Prussia, not Austria, was the
+  dominant partner. Shiba's "Denmark–Austria war" drops Prussia (his next line
+  names both). Enomoto-as-observer is traditional, not firmly documented.
+- EZO REGIME FOUNDING + ELECTION (ch62): CORROBORATED. Ballot Dec 1868 (~856
+  votes), unprecedented in Japan: Enomoto president, Matsudaira Tarō vice-pres.,
+  Ōtori (army) / Arai Ikunosuke (navy) commissioners, Hijikata assistant army
+  commissioner. Footnoted ch62.
+- NAGAI NAOMUNE (ch59): CORROBORATED. Real senior Tokugawa official; made Hakodate
+  magistrate under the Ezo regime. Reading 尚志 = Naomune is an attested variant
+  (Naoyuki also attested), matching Shiba's furigana and the ch30 note.
+- SEIZURE OF MATSUMAE CASTLE (ch61): CORROBORATED. Hijikata led the column that
+  took it 5 Nov 1868 (Meiji 1/11); troop strength usually ~700–800 (Shiba's ~700
+  at the low end). Matsumae Castle keep (finished 1854, last old-style keep in
+  Japan) burned 1949; Shiba's "now a national treasure" was already out of date —
+  footnoted.
+- ICHIMURA TETSUNOSUKE (ch60): CORROBORATED as documented tradition. Real page of
+  Hijikata; the photograph/hair/last-message errand to the Satō family of Hino is
+  well-attested Satō-family tradition; killed in the Seinan War 1877. Footnoted.
+- KŌTETSU / CSS STONEWALL (ch62): CORROBORATED. Ex-Confederate steam ram built at
+  Bordeaux 1864 (cover name Sphinx); held by the US under neutrality, delivered to
+  the Meiji government early 1869; renamed Azuma 1871; first IJN ironclad.
+  Footnoted.
+- MIYAKO BAY SETUP (ch63): CORROBORATED context. The 8 government ships (Kōtetsu,
+  Kasuga, Yōshun, Teibō No.1 + transports Hiryū, Hōan, Boshin, Shinpū) match the
+  JA-Wikipedia roster exactly. The Gatling gun is the standard account (some crew
+  testimony disputes it as massed rifle fire) — footnoted. The raid, Kōga Gengo's
+  death, and the outcome (Meiji 2/3/25 = 6 May 1869) fall in ch64, next batch.
+- SAITŌ AT AIZU (ch61): DIVERGENCE flagged; footnoted. Historically Saitō stayed
+  to fight at Aizu and did NOT cross to Ezo; Shiba brings him north to write the
+  parting scene. Saitō lived to the end of Meiji as Yamaguchi / Fujita Gorō.
+
+DIGITIZATION GLITCHES (this batch): none observed in ch59–ch63 source. The only
+non-standard forms were Shiba's expressive gikun furigana (semantic, not
+romanized) and his bracketed glosses/parentheticals (kept), plus the colloquial
+elided range 百四、五十軒 (handled by noise; English carries the real count) —
+none an error of the digitization.
+
+NOT RE-NOTED (B13; covered earlier, ledgered here):
+- chō 町 distance (earlier), honjin 本陣 (earlier), tsubo 坪 (earlier), shō 升
+  (earlier), koku (earlier), Minié rifle (earlier), Geweer/Gebel musket (ch41,
+  covers the Matsumae Gebel guns), Sendai-hira (ch47), wakadoshiyori / junior
+  councillor (earlier), Shintō Munen-ryū (earlier), mokuroku / inka (earlier),
+  Seinan War (earlier), Toyama medicine-peddlers (earlier), Perry (earlier),
+  Nagai Naomune (ch30 — the man and the Naomune reading), brocade banner
+  (earlier), chrysanthemum ensign (earlier).
+- Glossary decided-form-verbatim rendered where they appear this batch:
+  土方歳三, 近藤勇, 斎藤一, 武田観柳斎, 原田左之助, 芹沢鴨, 三条小橋 (Sanjō-kobashi),
+  花昌町 (Kashō-chō), 会津, 鴨川, 里 ri, 旗本 hatamoto, 副長 vice-commander,
+  局長 commander, 助勤 jokin, 新選組, 池田屋, お雪 Oyuki (not this batch), 甲鉄
+  Kōtetsu. No new keys → no glossary cascade.
