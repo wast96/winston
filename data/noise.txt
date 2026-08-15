@@ -67,3 +67,21 @@
 百姓
 # 一石激起千层浪 "one stone, a thousand ripples" — an idiom (千 is not a count); rendered plainly
 千层浪
+# 四川 Sichuan — a place name (四川北路 North Sichuan Road; 四川姑娘 a Sichuan girl); the 四 is not a quantity
+四川
+# 20世纪 the 20th century — an era label, no quantity
+20世纪
+# X0年代 a decade label (20年代 the 1920s); no quantity
+[0-9]0年代
+# 十足 "utter / thoroughgoing" — an intensifier idiom, the 十 is not a count
+十足
+# 感激涕零 "moved to tears of gratitude" — 涕零 is idiomatic, the 零 is not a quantity
+涕零
+# 一二八(事件) the January 28 Incident — a date-name, rendered "January 28"
+一二八
+# 九一八(事变) the September 18 Incident — a date-name, rendered "September 18"
+九一八
+# 一家人不说两家话 "family does not talk to family like strangers" — 两家话 idiomatic, no count
+两家话
+# 第二天 "the next day" — an ordinal idiom, rendered "the next day", no quantity carried
+第二天

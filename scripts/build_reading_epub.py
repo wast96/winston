@@ -1085,22 +1085,29 @@ def main(epub_path):
         cid = chap["id"]
         here = ids_present.get(cid, set())
         items = []
+        # The EPUB nav lists only what is actually navigable: a section or
+        # subsection that is not yet translated has no anchor to point at.
+        # Linking a pending entry to the bare chapter file puts a link to the
+        # top of the document AFTER a link to a later anchor in the same file
+        # (epubcheck NAV-011: toc not in document order), and a non-link
+        # <span> leaf is invalid in a toc nav (RSC-005: a span li must carry a
+        # nested <ol>). So pending entries are simply omitted here; the
+        # contents.xhtml page still shows the whole shape, pending entries and
+        # all. (Do not revert: this is what keeps a partially-translated
+        # chapter's nav epubcheck-clean.)
         for sec in chap.get("sections", []):
+            if sec["id"] not in here:
+                continue
             sub = ""
-            if sec.get("subsections"):
+            live_subs = [s for s in sec.get("subsections", [])
+                         if s["id"] in here]
+            if live_subs:
                 sub = "<ol>" + "".join(
-                    ('<li><a href="%s.xhtml#%s">%s</a></li>'
-                     % (cid, esc(s["id"]), esc(s["title_en"]))
-                     if s["id"] in here
-                     else '<li><a href="%s.xhtml">%s</a></li>'
-                     % (cid, esc(s["title_en"])))
-                    for s in sec["subsections"]) + "</ol>"
-            if sec["id"] in here:
-                items.append('<li><a href="%s.xhtml#%s">%s</a>%s</li>'
-                             % (cid, esc(sec["id"]), esc(sec["title_en"]), sub))
-            else:
-                items.append('<li><a href="%s.xhtml">%s</a>%s</li>'
-                             % (cid, esc(sec["title_en"]), sub))
+                    '<li><a href="%s.xhtml#%s">%s</a></li>'
+                    % (cid, esc(s["id"]), esc(s["title_en"]))
+                    for s in live_subs) + "</ol>"
+            items.append('<li><a href="%s.xhtml#%s">%s</a>%s</li>'
+                         % (cid, esc(sec["id"]), esc(sec["title_en"]), sub))
         return "<ol>" + "".join(items) + "</ol>" if items else ""
 
     nav_items = ['<li><a href="titlepage.xhtml">Title Page</a></li>']

@@ -2,6 +2,88 @@
 
 The running per-batch log. Written as work happens, not at the end.
 
+## Batch 2. Chapter 2, sections 1–3 (ch02s01–s03; PDF 39–68, printed 28–57)
+
+The heart of the book: the birth of the Central Special Branch, the Chen
+Yangshan / Bao Junfu double-agent bond, and the Chen Geng / Chen Yangshan
+Tianjin operation.
+
+- **Unit model.** The builder reads ONE reading file per chapter
+  (`out/ch02_reading.md`); ch02 is split across batches, so this file now holds
+  sections 1–3 (three `### ` section titles from book.json) with the chapter's
+  three intro paragraphs before section 1. B03 will append sections 4–5 to the
+  SAME `out/ch02_reading.md` and `data/zh/ch02.txt`. check_config maps the unit
+  id `ch02` to both. 169 source paragraphs, 169 translation paragraphs.
+- **OCR.** Rendered/cropped 38–68 with the ch01 crop (recto `--bottom 0.945`,
+  verso `--bottom 0.915`, `--running-head 秘战英雄陈养山`); `ocr_dual.py` for the
+  disagreement filter. `pgrep -c tesseract` = 0 after every run. data/zh
+  hand-assembled from corrected OCR + scans, portrait bio-boxes and photo
+  captions kept OUT of data/zh (they are figure captions, translated into
+  figures.json) so parity stays 1:1.
+- **Crop-verified names/readings** (dual-OCR disagreement + eye on the scan;
+  the OCR forms on the left were WRONG): 刘鼎 Liu Ding (OCR 刘易/刘里),
+  徐恩曾 Xu Enzeng (徐恩兽/徐四曾), 钱大钧 Qian Dajun (钱大钩), 熊瑾玎 Xiong Jinding
+  (能瑾末), 张克侠 Zhang Kexia (张殉侠) and 何基沣 He Jifeng (何基汗); the
+  Northwest-Army pair, distinct from the traitor 张克云 Zhang Keyun (张开运),
+  鞠华 Ju Hua (misprinted 葛华 once in the narrative; the letter and court address
+  read 鞠), 胡鄂公 Hu Egong, 杨登瀛 Yang Dengying, 陈彭年 Chen Pengnian (our agent,
+  died on the Long March) vs the traitor 陈慰年 Chen Weinian, 俞同良 Yu Tongliang,
+  殷鉴 Yin Jian (曾 is the adverb "had", not part of the name), 周仲英 Zhou Zhongying,
+  茅乃功/茅功 (one man, two printed forms). Also restored a silently-dropped tail
+  ("于是陈赓让鲍君甫去英捕房活动。", p56) and read 一片荒凉 (not "salt", p64).
+- **Source errors rendered as printed + footnoted** (never silently fixed):
+  李一氓(又名李坤泰); 李坤泰 is actually the birth name of 李一超/赵一曼, not of
+  Li Yimang; 武和景 for 武胡景 (Wu Hujing); Yang Jianhong's death given as suicide
+  (自杀, p52) then as execution (被处死, p54); Bao Junfu's own 1951 deposition
+  dates his Party tie to 1926 and claims Party membership, going beyond the
+  narrative (which treats him throughout as a non-Party agent from 1928); the
+  concession car "驶出国民党中央巡捕房" (the concession police were not in fact
+  Nationalist-run). Each carries a note.
+- **Figures: 15.** Zhou Enlai portrait (p40, missed by find_figures), Pan Hannian
+  + Kang Sheng portraits (p41), the "Three Heroes of Longtan" triple photo (p44),
+  Chen Shouchang (p45), Bao Junfu (p46), Chen Lifu (p47), the over-street-building
+  photo (p51), Xu Enzeng (p52), Huang Molan (p57), the Gu Shunzhang defection
+  record; a vertical traditional-character document table, MISSED by find_figures
+  (p58), Chen Geng (p61), Wang Genying (p62), Liu Shaobai (p63), Yang Xianzhen
+  (p65). Portrait bio-boxes translated as the figure caption. The chapter-opener
+  frontispiece (p38, two soldiers) was SKIPPED, matching the ch01 decision to
+  omit opener photos.
+- **Notes: 106** (book-wide continuous total now 179). Matches the ch01 density
+  directive: every non-obvious person/place/institution/event/period-term glossed
+  at first appearance, each note saying more than the name, with fact-check
+  verdicts where a claim is checkable (Kang Sheng's later persecutions, Pan
+  Hannian's 1955 fall, the source errors above). Already-noted ch01 recurring
+  subjects NOT re-noted: Zhou Enlai, Chen Geng, Bao Junfu, Gu Shunzhang, Ren
+  Bishi, Li Weihan, Qu Qiubai, Li Lisan, Chiang Kai-shek, Wang Jingwei, the May
+  Thirtieth / May Fourth movements, the August 7 Conference, the Nanchang
+  Uprising, Whampoa, Zhang Zuolin, the Northern Expedition.
+- **Glossary: +102 rows** (143 referents total), all with `section` fields.
+  Decided renderings fed to authority.json at completion.
+- **Checks, all green.** parity 169=169; check_numbers 0 unresolved (noise
+  extended: 四川, 20世纪, `[0-9]0年代`, 十足, 涕零, 一二八, 九一八, 两家话, 第二天);
+  qc_entities 0 misses; check_content 0 displaced (fixed 3 real/redundant drops:
+  Shanghai ×2, Zhang Daofan; and renamed the colliding glossary key
+  中国青年 → 《中国青年》 so it no longer matches inside 中国青年团); check_align OK
+  (median 4.54 en/han, no strays); check_apparatus 0/0; check_register within
+  tolerance of the frozen ch01 reference (em-dash 0.1/1k vs ref 0.6; dialogue
+  contraction metric noisy per the reportage caveat); check_style_freshness all
+  layers FRESH. verify_unit ch02 green. qa_epub PASS; **epubcheck 5.1.0 =
+  0 fatals / 0 errors / 0 warnings.**
+- **Builder patch (do-not-revert).** `build_reading_epub.sec_nav`: the EPUB nav
+  now OMITS pending (untranslated) sections/subsections instead of linking them
+  to the bare chapter file. A partially-translated chapter otherwise put a link
+  to the top of the document AFTER a link to a later anchor in the same file
+  (epubcheck NAV-011, toc not in reading order), and a `<span>` leaf is invalid
+  in a toc nav (RSC-005). The contents.xhtml PAGE still shows the whole shape,
+  pending entries and all. Exposed by ch02 being the first chapter translated a
+  batch at a time.
+- **Figure-alt hazard fixed in data, worth knowing:** a figure `alt` string is
+  written into an `alt="..."` attribute with `esc(quote=False)`, so a straight
+  double-quote inside alt text breaks the attribute and makes the XHTML
+  unparseable (epubcheck RSC-016 fatal, then a cascade of phantom "missing
+  anchor" reports). Keep figure `alt` free of `"` (use single quotes); caption
+  text may keep double quotes (it is element content, typographized).
+
 ## Setup / Survey (this session)
 
 - **Book.** 秘战英雄陈养山, by 姚华飞 (Yao Huafei). CCP Party History Press

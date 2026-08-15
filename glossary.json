@@ -157,6 +157,392 @@
       "pinyin": "Du Yuesheng",
       "status": "attested",
       "note": "authority.json: agreed 'Du Yuesheng'."
+    },
+    "康生": {
+      "en": "Kang Sheng",
+      "pinyin": "Kang Sheng",
+      "status": "decided",
+      "note": "Original name Zhang Zongke; also Zhao Rong. Later head of Party intelligence and security; a principal instrument of the Yan&#8217;an rectification purges and, in the Cultural Revolution, of mass persecutions."
+    },
+    "潘汉年": {
+      "en": "Pan Hannian",
+      "pinyin": "Pan Hannian",
+      "status": "decided",
+      "note": "A leading Communist intelligence figure of the 1930s and 1940s; imprisoned in 1955 on a fabricated charge of treason and rehabilitated only after his death."
+    },
+    "李强": {
+      "en": "Li Qiang",
+      "pinyin": "Li Qiang",
+      "status": "decided"
+    },
+    "洪扬生": {
+      "en": "Hong Yangsheng",
+      "pinyin": "Hong Yangsheng",
+      "status": "decided"
+    },
+    "李克农": {
+      "en": "Li Kenong",
+      "pinyin": "Li Kenong",
+      "status": "decided",
+      "note": "One of the founders of Communist intelligence; after 1949 a deputy chief of the General Staff and the Party&#8217;s senior intelligence official, sometimes called its spymaster."
+    },
+    "钱壮飞": {
+      "en": "Qian Zhuangfei",
+      "pinyin": "Qian Zhuangfei",
+      "status": "decided"
+    },
+    "胡底": {
+      "en": "Hu Di",
+      "pinyin": "Hu Di",
+      "status": "decided"
+    },
+    "陈云": {
+      "en": "Chen Yun",
+      "pinyin": "Chen Yun",
+      "status": "decided",
+      "note": "Later one of the most senior Communist leaders and, after 1978, the chief architect of the Party&#8217;s economic policy."
+    },
+    "陈寿昌": {
+      "en": "Chen Shouchang",
+      "pinyin": "Chen Shouchang",
+      "status": "decided"
+    },
+    "刘鼎": {
+      "en": "Liu Ding",
+      "pinyin": "Liu Ding",
+      "status": "decided",
+      "note": "Later a founder of the Communist ordnance industry."
+    },
+    "欧阳新": {
+      "en": "Ouyang Xin",
+      "pinyin": "Ouyang Xin",
+      "status": "decided"
+    },
+    "柯麟": {
+      "en": "Ke Lin",
+      "pinyin": "Ke Lin",
+      "status": "decided"
+    },
+    "刘伯承": {
+      "en": "Liu Bocheng",
+      "pinyin": "Liu Bocheng",
+      "status": "decided",
+      "note": "A famed Red Army and later PLA commander, made one of the ten marshals in 1955."
+    },
+    "毛泽东": {
+      "en": "Mao Zedong",
+      "pinyin": "Mao Zedong",
+      "status": "decided"
+    },
+    "苏兆征": {
+      "en": "Su Zhaozheng",
+      "pinyin": "Su Zhaozheng",
+      "status": "decided"
+    },
+    "罗亦农": {
+      "en": "Luo Yinong",
+      "pinyin": "Luo Yinong",
+      "status": "decided"
+    },
+    "彭湃": {
+      "en": "Peng Pai",
+      "pinyin": "Peng Pai",
+      "status": "decided"
+    },
+    "邓中夏": {
+      "en": "Deng Zhongxia",
+      "pinyin": "Deng Zhongxia",
+      "status": "decided"
+    },
+    "邓小平": {
+      "en": "Deng Xiaoping",
+      "pinyin": "Deng Xiaoping",
+      "status": "decided"
+    },
+    "关向应": {
+      "en": "Guan Xiangying",
+      "pinyin": "Guan Xiangying",
+      "status": "decided"
+    },
+    "何家兴": {
+      "en": "He Jiaxing",
+      "pinyin": "He Jiaxing",
+      "status": "decided"
+    },
+    "白鑫": {
+      "en": "Bai Xin",
+      "pinyin": "Bai Xin",
+      "status": "decided"
+    },
+    "李一氓": {
+      "en": "Li Yimang",
+      "pinyin": "Li Yimang",
+      "status": "decided"
+    },
+    "赵一曼": {
+      "en": "Zhao Yiman",
+      "pinyin": "Zhao Yiman",
+      "status": "decided",
+      "note": "Birth name Li Kuntai, also Li Yichao; a Communist heroine of the resistance in the Northeast, captured and executed by the Japanese in 1936."
+    },
+    "李一超": {
+      "en": "Li Yichao",
+      "pinyin": "Li Yichao",
+      "status": "decided"
+    },
+    "熊瑾玎": {
+      "en": "Xiong Jinding",
+      "pinyin": "Xiong Jinding",
+      "status": "decided"
+    },
+    "朱端绥": {
+      "en": "Zhu Duansui",
+      "pinyin": "Zhu Duansui",
+      "status": "decided"
+    },
+    "安娥": {
+      "en": "An E",
+      "pinyin": "An E",
+      "status": "decided"
+    },
+    "田汉": {
+      "en": "Tian Han",
+      "pinyin": "Tian Han",
+      "status": "decided",
+      "note": "The playwright who wrote the words of &#8220;The March of the Volunteers,&#8221; later the national anthem of the People&#8217;s Republic."
+    },
+    "陈立夫": {
+      "en": "Chen Lifu",
+      "pinyin": "Chen Lifu",
+      "status": "decided"
+    },
+    "陈果夫": {
+      "en": "Chen Guofu",
+      "pinyin": "Chen Guofu",
+      "status": "decided"
+    },
+    "张道藩": {
+      "en": "Zhang Daofan",
+      "pinyin": "Zhang Daofan",
+      "status": "decided"
+    },
+    "杨剑虹": {
+      "en": "Yang Jianhong",
+      "pinyin": "Yang Jianhong",
+      "status": "decided"
+    },
+    "徐恩曾": {
+      "en": "Xu Enzeng",
+      "pinyin": "Xu Enzeng",
+      "status": "decided"
+    },
+    "宋再生": {
+      "en": "Song Zaisheng",
+      "pinyin": "Song Zaisheng",
+      "status": "decided"
+    },
+    "范广珍": {
+      "en": "Fan Guangzhen",
+      "pinyin": "Fan Guangzhen",
+      "status": "decided"
+    },
+    "陈彭年": {
+      "en": "Chen Pengnian",
+      "pinyin": "Chen Pengnian",
+      "status": "decided"
+    },
+    "连德生": {
+      "en": "Lian Desheng",
+      "pinyin": "Lian Desheng",
+      "status": "decided"
+    },
+    "高中厦": {
+      "en": "Gao Zhongxia",
+      "pinyin": "Gao Zhongxia",
+      "status": "decided"
+    },
+    "茅乃功": {
+      "en": "Mao Naigong",
+      "pinyin": "Mao Naigong",
+      "status": "decided"
+    },
+    "茅功": {
+      "en": "Mao Gong",
+      "pinyin": "Mao Gong",
+      "status": "decided"
+    },
+    "谭绍良": {
+      "en": "Tan Shaoliang",
+      "pinyin": "Tan Shaoliang",
+      "status": "decided"
+    },
+    "钱大钧": {
+      "en": "Qian Dajun",
+      "pinyin": "Qian Dajun",
+      "status": "decided"
+    },
+    "熊式辉": {
+      "en": "Xiong Shihui",
+      "pinyin": "Xiong Shihui",
+      "status": "decided"
+    },
+    "兰普逊": {
+      "en": "Lampson",
+      "pinyin": "Lanpuxun",
+      "status": "provisional",
+      "note": "The book gives the name only as 兰普逊 (Lanpuxun); the man was the (British) head of the Shanghai Municipal Police political branch. &#8220;Lampson&#8221; is the translator&#8217;s reconstruction of the likely Western original and is not certain."
+    },
+    "叶秀峰": {
+      "en": "Ye Xiufeng",
+      "pinyin": "Ye Xiufeng",
+      "status": "decided"
+    },
+    "陈希曾": {
+      "en": "Chen Xizeng",
+      "pinyin": "Chen Xizeng",
+      "status": "decided"
+    },
+    "杨殷": {
+      "en": "Yang Yin",
+      "pinyin": "Yang Yin",
+      "status": "decided"
+    },
+    "戴冰石": {
+      "en": "Dai Bingshi",
+      "pinyin": "Dai Bingshi",
+      "status": "decided"
+    },
+    "陈慰年": {
+      "en": "Chen Weinian",
+      "pinyin": "Chen Weinian",
+      "status": "decided"
+    },
+    "黄第洪": {
+      "en": "Huang Dihong",
+      "pinyin": "Huang Dihong",
+      "status": "decided"
+    },
+    "杨得志": {
+      "en": "Yang Dezhi",
+      "pinyin": "Yang Dezhi",
+      "status": "decided"
+    },
+    "王根英": {
+      "en": "Wang Genying",
+      "pinyin": "Wang Genying",
+      "status": "decided",
+      "note": "Chen Geng&#8217;s first wife, a labor organizer; killed by Japanese troops in 1939 while serving with the Eighth Route Army."
+    },
+    "俞同良": {
+      "en": "Yu Tongliang",
+      "pinyin": "Yu Tongliang",
+      "status": "decided"
+    },
+    "胡鄂公": {
+      "en": "Hu Egong",
+      "pinyin": "Hu Egong",
+      "status": "decided"
+    },
+    "杨献珍": {
+      "en": "Yang Xianzhen",
+      "pinyin": "Yang Xianzhen",
+      "status": "decided",
+      "note": "Later a well-known Marxist philosopher, persecuted in the 1960s for his thesis that &#8220;two combine into one.&#8221;"
+    },
+    "刘少白": {
+      "en": "Liu Shaobai",
+      "pinyin": "Liu Shaobai",
+      "status": "decided"
+    },
+    "刘亚雄": {
+      "en": "Liu Yaxiong",
+      "pinyin": "Liu Yaxiong",
+      "status": "decided"
+    },
+    "陈原道": {
+      "en": "Chen Yuandao",
+      "pinyin": "Chen Yuandao",
+      "status": "decided"
+    },
+    "安子文": {
+      "en": "An Ziwen",
+      "pinyin": "An Ziwen",
+      "status": "decided"
+    },
+    "周仲英": {
+      "en": "Zhou Zhongying",
+      "pinyin": "Zhou Zhongying",
+      "status": "decided"
+    },
+    "殷鉴": {
+      "en": "Yin Jian",
+      "pinyin": "Yin Jian",
+      "status": "provisional",
+      "note": "So the book prints the name; not further identified here beyond his post as secretary of the Shun-Zhi provincial committee."
+    },
+    "赖德": {
+      "en": "Lai De",
+      "pinyin": "Lai De",
+      "status": "decided"
+    },
+    "张克侠": {
+      "en": "Zhang Kexia",
+      "pinyin": "Zhang Kexia",
+      "status": "decided"
+    },
+    "何基沣": {
+      "en": "He Jifeng",
+      "pinyin": "He Jifeng",
+      "status": "decided"
+    },
+    "张克云": {
+      "en": "Zhang Keyun",
+      "pinyin": "Zhang Keyun",
+      "status": "decided"
+    },
+    "邵扶民": {
+      "en": "Shao Fumin",
+      "pinyin": "Shao Fumin",
+      "status": "decided"
+    },
+    "徐悲鸿": {
+      "en": "Xu Beihong",
+      "pinyin": "Xu Beihong",
+      "status": "decided",
+      "note": "China&#8217;s most celebrated modern painter, renowned above all for his ink horses."
+    },
+    "蒋碧微": {
+      "en": "Jiang Biwei",
+      "pinyin": "Jiang Biwei",
+      "status": "decided"
+    },
+    "武和景": {
+      "en": "Wu Hejing",
+      "pinyin": "Wu Hejing",
+      "status": "provisional",
+      "note": "So the book prints the name (武和景); the man is almost certainly Wu Hujing (武胡景), who took over the Special Branch&#8217;s work after the Party center left Shanghai. Rendered here as printed."
+    },
+    "杨登瀛": {
+      "en": "Yang Dengying",
+      "pinyin": "Yang Dengying",
+      "status": "decided",
+      "note": "The cover name Bao Junfu used inside the Kuomintang secret service."
+    },
+    "刘君珊": {
+      "en": "Liu Junshan",
+      "pinyin": "Liu Junshan",
+      "status": "decided"
+    },
+    "王庸": {
+      "en": "Wang Yong",
+      "pinyin": "Wang Yong",
+      "status": "decided",
+      "note": "Chen Geng&#8217;s cover name in the Central Special Branch."
+    },
+    "陈炯明": {
+      "en": "Chen Jiongming",
+      "pinyin": "Chen Jiongming",
+      "status": "decided"
     }
   },
   "organizations": {
@@ -165,12 +551,6 @@
       "pinyin": "Zhongyang Teke",
       "status": "attested",
       "note": "authority.json: agreed 'the Central Special Branch' / 'Central Special Branch'. The CCP Central Committee's clandestine intelligence and security organ, Shanghai, from 1927."
-    },
-    "中国青年": {
-      "en": "China Youth",
-      "pinyin": "Zhongguo Qingnian",
-      "status": "decided",
-      "note": "The Socialist Youth League's magazine, edited by Yun Daiying."
     },
     "国民党": {
       "en": "the Kuomintang",
@@ -183,6 +563,104 @@
       "pinyin": "gongbuju",
       "status": "decided",
       "note": "The Shanghai Municipal Council, governing body of the International Settlement."
+    },
+    "红队": {
+      "en": "the Red Squad",
+      "pinyin": "Hong Dui",
+      "status": "decided",
+      "note": "The Central Special Branch&#8217;s armed unit, the Third Section, which guarded the Party&#8217;s organs and carried out the assassination of traitors and enemy agents. Its nickname among the underground was the &#8220;dog-beating squad.&#8221;"
+    },
+    "党务调查科": {
+      "en": "the Investigation Section",
+      "pinyin": "Dangwu Diaochake",
+      "status": "decided",
+      "note": "Full title the Investigation Section of the Kuomintang Central Organization Department, set up in 1928 under Chen Guofu and Chen Lifu; the forerunner of the &#8220;CC Clique&#8221; secret service that became the Central Statistics Bureau (Zhongtong)."
+    },
+    "中统": {
+      "en": "the Central Statistics Bureau",
+      "pinyin": "Zhongtong",
+      "status": "decided",
+      "note": "Zhongtong, the Kuomintang party&#8217;s civilian intelligence and secret-police organ, as distinct from the military Juntong."
+    },
+    "淞沪警备司令部": {
+      "en": "the Songhu Garrison Command",
+      "pinyin": "Songhu Jingbei Silingbu",
+      "status": "decided",
+      "note": "The Kuomintang military garrison authority for the Shanghai&#8211;Wusong area, with wide powers of arrest and execution over the Chinese-administered districts."
+    },
+    "巡捕房": {
+      "en": "the concession police",
+      "pinyin": "xunbufang",
+      "status": "decided",
+      "note": "The police of the foreign concessions; in the International Settlement the Shanghai Municipal Police, in the French quarter the French concession police. A <i>xunbufang</i> was a patrol house or station."
+    },
+    "青帮": {
+      "en": "the Green Gang",
+      "pinyin": "Qing Bang",
+      "status": "decided",
+      "note": "The largest of Shanghai&#8217;s secret-society brotherhoods, deep in the city&#8217;s labor, opium, and protection rackets and closely tied to the Kuomintang after 1927."
+    },
+    "明治学院": {
+      "en": "Meiji Gakuin",
+      "pinyin": "Mingzhi Xueyuan",
+      "status": "decided",
+      "note": "A Christian college in Tokyo."
+    },
+    "基督教青年会": {
+      "en": "the YMCA",
+      "pinyin": "Jidujiao Qingnianhui",
+      "status": "decided"
+    },
+    "华南通讯社": {
+      "en": "the South China News Agency",
+      "pinyin": "Huanan Tongxunshe",
+      "status": "decided"
+    },
+    "同盟会": {
+      "en": "the Tongmenghui",
+      "pinyin": "Tongmenghui",
+      "status": "decided",
+      "note": "The Revolutionary Alliance, Sun Yat-sen&#8217;s pre-1912 revolutionary organization and the forerunner of the Kuomintang; a member of it was a founding revolutionary of the Republic."
+    },
+    "申报": {
+      "en": "the Shen Bao",
+      "pinyin": "Shen Bao",
+      "status": "decided",
+      "note": "Shanghai&#8217;s oldest and most widely read Chinese newspaper."
+    },
+    "大公报": {
+      "en": "the Ta Kung Pao",
+      "pinyin": "Da Gong Bao",
+      "status": "decided",
+      "note": "A leading independent Chinese daily, then published in Tianjin."
+    },
+    "红旗": {
+      "en": "Red Flag",
+      "pinyin": "Hongqi",
+      "status": "decided"
+    },
+    "布尔什维克": {
+      "en": "Bolshevik",
+      "pinyin": "Bu&#8217;ershiweike",
+      "status": "decided"
+    },
+    "莫斯科东方大学": {
+      "en": "the Communist University of the Toilers of the East",
+      "pinyin": "Mosike Dongfang Daxue",
+      "status": "decided",
+      "note": "The Moscow academy (KUTV) that trained Asian Communists in the 1920s."
+    },
+    "顺直省委": {
+      "en": "the Shun-Zhi provincial committee",
+      "pinyin": "Shunzhi shengwei",
+      "status": "decided",
+      "note": "The Party committee for the Hebei region around Beiping and Tianjin; &#8220;Shun-Zhi&#8221; is the old provincial name Zhili."
+    },
+    "《中国青年》": {
+      "en": "China Youth",
+      "pinyin": "Zhongguo Qingnian",
+      "status": "decided",
+      "note": "The Socialist Youth League's magazine, edited by Yun Daiying."
     }
   },
   "places": {
@@ -217,6 +695,41 @@
       "en": "the Jin-Sui Border Region",
       "pinyin": "Jin-Sui bianqu",
       "status": "decided"
+    },
+    "协和医院": {
+      "en": "the Peking Union Medical College Hospital",
+      "pinyin": "Xiehe Yiyuan",
+      "status": "decided",
+      "note": "Beijing&#8217;s foremost modern hospital, founded by the Rockefeller Foundation."
+    },
+    "北平": {
+      "en": "Beiping",
+      "pinyin": "Beiping",
+      "status": "decided",
+      "note": "The name Beijing bore from 1928, when the Nationalists moved the capital to Nanjing, until 1949; literally &#8220;northern peace.&#8221;"
+    },
+    "天津": {
+      "en": "Tianjin",
+      "pinyin": "Tianjin",
+      "status": "decided"
+    },
+    "鄂豫皖苏区": {
+      "en": "the Hubei-Henan-Anhui soviet area",
+      "pinyin": "E-Yu-Wan Suqu",
+      "status": "decided",
+      "note": "One of the largest Communist base areas of the early 1930s, in the border hills where the three provinces meet."
+    },
+    "毕勋路": {
+      "en": "Route Pichon",
+      "pinyin": "Bixun Lu",
+      "status": "decided",
+      "note": "A leafy street of the French Concession, today Fenyang Road."
+    },
+    "静安寺路": {
+      "en": "Bubbling Well Road",
+      "pinyin": "Jing'ansi Lu",
+      "status": "decided",
+      "note": "A main thoroughfare of the International Settlement, today part of West Nanjing Road."
     }
   },
   "events": {
@@ -239,6 +752,36 @@
     "南昌起义": {
       "en": "the Nanchang Uprising",
       "pinyin": "Nanchang Qiyi",
+      "status": "decided"
+    },
+    "秋收起义": {
+      "en": "the Autumn Harvest Uprising",
+      "pinyin": "Qiushou Qiyi",
+      "status": "decided"
+    },
+    "龙潭三杰": {
+      "en": "the Three Heroes of Longtan",
+      "pinyin": "Longtan Sanjie",
+      "status": "decided"
+    },
+    "一二八事件": {
+      "en": "the January 28 Incident",
+      "pinyin": "Yi'erba Shijian",
+      "status": "decided"
+    },
+    "九一八事变": {
+      "en": "the September 18 Incident",
+      "pinyin": "Jiu'yiba Shibian",
+      "status": "decided"
+    },
+    "镇压反革命运动": {
+      "en": "the Campaign to Suppress Counterrevolutionaries",
+      "pinyin": "Zhenya Fangeming Yundong",
+      "status": "decided"
+    },
+    "开罗会议": {
+      "en": "the Cairo Conference",
+      "pinyin": "Kailuo Huiyi",
       "status": "decided"
     }
   }
