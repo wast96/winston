@@ -727,3 +727,114 @@ photo, or a curated subset) still for the commissioner.
 - data/noise.txt: +8 entries (万里迢迢, 四肢, 两当, 三边, 千百件, 四川, 20万, 十多万),
   each commented with its value and the English phrase.
 - data/apparatus_ch04.json: the B05 apparatus merge file.
+
+---
+
+## Batch B06 -- Chapter 5 (第五章 深入虎穴 / "Into the Tiger's Den"), whole chapter + Principal Sources
+
+**Scope.** ch05s01–ch05s08 plus the chapter-end 主要资料, PDF 184–222 / printed
+148–186 (offset printed = pdf − 36, spot-verified at every section opener; Ch. 6
+opens PDF 223 / printed 187). Chapter 5 is COMPLETE. 330 English body paragraphs,
+1:1 parity with data/zh/ch05.txt (330). ch01 remains the frozen voice reference.
+
+**Method.** Every page image read by eye and transcribed to true source
+paragraphs; scripts/resegment_ch05.py HARDCODES the verified ('h'|'b') list and
+writes data/zh/ch05.txt wholesale (model: resegment_ch04.py). Unlike B05, this
+chapter's straight text pages OCR'd cleanly, so assemble.py (289 paras) served as
+an independent boundary cross-check; but the plate/column-wrap pages (pdf
+189–192, 199–208, 210, 220) merged four-to-eight true paragraphs and injected
+caption/running-title bleed exactly as warned, so the hand-verified resegment is
+authoritative. assemble.py kept in the pipeline for the pagemap/heading sanity
+check only.
+
+**Crop-verified names/numbers (against the scan).** 上万裕 Shang Wanyu (OCR gave
+王万裕), 单不移 Shan Buyi (OCR 单不和), 徐晃 Xu Huang, 冉苹 Ran Ping, 陈本身 Chen
+Benshen, 蒲随昌/蒲又杰 Pu Suichang/Pu Youjie, 万里浪 Wan Lilang (a person; cf. the
+B05 trap where 万里迢迢 was NOT), 陆海涛 Lu Haitao (split across the 212/213 page
+break), 秦老太/秦妈妈 "Old Lady Qin/Mama Qin" (a genuine female cover figure,
+distinct from 老太爷 Zhang Weiyi). 蹇先佛 rendered "Jian Xianfo": the referent is
+unambiguously Xiao Ke's wife; the printed glyph is the common 塞/蹇 variant and
+OCR garbled it (宕/宣) -- rendered to the correct referent, logged here.
+
+**Source-error footnotes (rendered as printed, verdict in the note).** (1) 诺门罕
+之战 dated "1937" -- Nomonhan/Khalkhin Gol was 1939; CONTRADICTED. (2) 东亚同文书院
+founded "1905" -- the Tōa Dōbun Shoin dates to c. 1900–01; CONTRADICTED on the
+date. Both left as printed in the text.
+
+**Interested-witness counter-record.** The "who warned Stalin" claim (§2) carries
+a note: Yan Baohang's obtaining the June 22 date and Russia's 1995 posthumous
+decoration of him are CORROBORATED (Chinese state sources; the decoration is
+real), but Stalin received and discounted many warnings (Sorge, British
+intercepts) and the USSR was caught unprepared, so the decisive-effect claim and
+the thank-you telegram rest on Chinese accounts and are UNCORROBORATED/CONTESTED
+in the Soviet record. The author is himself relatively honest here ("one day
+early… suffered a grave defeat all the same").
+
+**Checks run.**
+- verify_unit ch05: parity 330=330; numbers checked 330 pairs, **0 unresolved**;
+  anchors **24 ok**.
+- check_align ch05: 330/330, median ratio 4.97 en/han, no pair strays >2.2×.
+- qc_entities: 0 misses (vacuous pass on the flat glossary; entity survival done
+  by hand -- every recurring handle reconciled against glossary/authority).
+- check_register --ref out/ch01_reading.md: within tolerance. Dialogue metric
+  noisy (low-dialogue reportage, flagged as such); narratorial signals close to
+  ref -- contr 7.5/1k (ref 2.0), em-dash 4.3/1k (ref 3.4), rhythm CV 0.50 (ref
+  0.49), sentence median 22.
+- check_apparatus: 0 failures (19 warnings are all PRE-EXISTING rows from earlier
+  batches lacking attestation notes; all 22 new B06 rows carry notes).
+- qa_epub: PASS (28 files, 21 documents; 122 refs / 122 bodies / 122 backlinks).
+- epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+- Reading text: 0 literal <i> tags, 0 em-dash violations (translation uses em
+  dashes as English punctuation demands, rationed).
+
+**Number-check noise added (data/noise.txt, +20, longest-first, each commented).**
+Name-numerals 九一八, 杜汉三, 曾三, 张怀三, 陈炳三, 陈三百, 三木, 坂垣征四郎, 上万裕,
+万里浪, 岩井英一 (added so the following 千方百计 rule can fire past the name's
+trailing 一); org/place/title 三青团, 五台山, 十字街头; decade 二十年代; idioms
+王老五, 两栖, 文武两手, 三教九流, 千方百计, 千里迢迢. Four genuine small counts were
+carried in the English instead of noised (两人 "the two of them", 两家 "the two
+[offices]", 二三十 "twenty or thirty", 三国 "three-nation pact").
+
+**Apparatus.** +24 notes (book total 122); +22 glossary rows (123 total). New
+glossary handles to KEEP: the Central Intelligence Department (中情部) / Central
+Investigation and Study Bureau; No. 76; the Ume Kikan; the Iwai Kōkan; the Tokkō;
+Manchukuo; the National Defense Line; the dog-beating squad; the South China
+Intelligence Bureau; and people Yan Baohang, Guan Lu, Li Shiqun, Ding Mocun, Iwai
+Eiichi, Yuan Shu, Zhang Weiyi ("the Old Master"), Chen Huanzhang/Chen Tao, Sorge,
+Kawashima Yoshiko, Kagesa Sadaaki, Wang Chaobei.
+
+**Reconciliation note.** 关中分区 fixed to "Guanzhong **sub**-district" to match
+the ch04 glossary (an initial draft drift to "district" was corrected across all
+occurrences; 军分区 → "military sub-district" likewise). 囊形地带关中分区 rendered
+"the pouch-shaped Guanzhong sub-district" (Hu Zongnan's term per the 宝葫芦 gloss).
+
+**Reused unchanged (glossary rows):** 边保, 中社部, 八办, 中统/军统, 特务, 康生,
+胡宗南, 周恩来, 毛泽东, 蒋介石, 王明, 许建国 (=杜理卿), 罗青长, 李启明, 布鲁, 熊向晖,
+陈赓, 戴笠, 三青团, 潘汉年, 皖南事变, 沈安娜, 白崇禧, 阎锡山, 邓宝珊, 萧劲光, 陈奇涵.
+
+**NOT re-noted (already placed in ch01–ch04):** 皖南事变 (New Fourth Army Incident,
+ch03); the Marco Polo Bridge Incident (ch-earlier); the Special Branch / 中央特科;
+Kang Sheng; Dai Li; Whampoa; the Long March; Xi Zhongxun; the Comintern. First-
+appearance notes in B06 only for the genuinely new furniture.
+
+### Figures: still DEFERRED (deliberate; commissioner decision pending)
+figures.json still empty. Chapter 5's inline plates catalogued for a later pass:
+Liu Hekong in Dihua 1938 (p189) and his family in Shanghai (p190); portraits of
+Liu Shaowen (p191), Yan Baohang / "the Yan family's old shop" (p192), Yang
+Hongchao (p199), Cheng Yonghe 1950 and Mao Peichun (p200), Guan Lu (p215), Yuan
+Shu with Iwai Eiichi (p217), Hua Kezhi (p218); Mao speaking at Yan'an (p194);
+Zhang Jiping at Ganzhou 1949 (p198); Wu Defeng with Wu Yunfu 1938 (p201); Lin Yi
+and Teng Daiyuan 1947 (p204); Chen Tao and wife at Linfen 1941 (p205); Jiang Tao
+1950 (p208); Li Shiyu's family (p209); Zhang Mengshi and wife (p210); Wang Jingwei
+hearing Li Shiqun's "qingxiang" report 1942 (p212); Li Zhengwen (p219). Standing
+question (every 图文 photo, or a curated subset) still for the commissioner.
+
+### Build / environment (B06)
+- EPUB rebuilt: 6 of 14 chapters (ch00–ch05), 122 notes, 125 pagebreaks.
+  out/chinas_secret_war.epub. qa_epub PASS; epubcheck 0/0/0/0.
+- data/structure.json: +10 rows (ch05 chapter title, subtitle, 8 section headings,
+  matched to the OCR strings).
+- scripts/resegment_ch05.py: new; the hand-verified paragraph rebuild for ch05.
+- ch05 carries printed-page (folio) markers (resegment rebuilds the pagemap).
+- setup.sh regression "hook stands down on template stub" still FAILS benignly
+  (HANDOFF holds a real kickoff).

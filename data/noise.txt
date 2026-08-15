@@ -85,3 +85,46 @@
 20万
 # "十多万元" = over 100,000 yuan; 多 orphans a bare 万=10000. Value carried in the English as "100,000".
 十多万
+# --- ch05 (B06) additions ---
+# the September 18 / Mukden Incident (九一八 is the date-name 9-1-8, not a count) — rendered "the Mukden Incident"
+九一八
+# Du Hansan, a Lanzhou intelligence-group member (三 in the name) — rendered "Du Hansan"
+杜汉三
+# Zeng San, a Xi'an intelligence cadre (三 in the name) — rendered "Zeng San"
+曾三
+# Zhang Huaisan, a Green Gang boss in central Hebei (三 in the name) — rendered "Zhang Huaisan"
+张怀三
+# Chen Bingsan, author of a source biography (三 in the name) — rendered "Chen Bingsan"
+陈炳三
+# Chen Sanbai, a source co-author (三百 = 300 in the name) — rendered "Chen Sanbai"
+陈三百
+# Miki, the Japanese prime minister (三 in the name 三木) — rendered "Miki"
+三木
+# Itagaki Seishiro, Japanese general (四 in 坂垣征四郎) — rendered "Itagaki Seishiro"
+坂垣征四郎
+# Shang Wanyu, a Chunhua underground member (万 in the surname-name) — rendered "Shang Wanyu"
+上万裕
+# Wan Lilang, a Juntong Shanghai action-group leader (万 in the name) — rendered "Wan Lilang"
+万里浪
+# the Three People's Principles Youth League (三 in the org name 三青团) — rendered "the ... Youth League"
+三青团
+# Wutai Mountain, the mountain in Shanxi (五 in the place name) — rendered "Wutai Mountain"
+五台山
+# the 1920s (decade label; 二十 not a count) — rendered "the 1920s"
+二十年代
+# "王老五" = a confirmed bachelor (五 is idiomatic) — rendered "bachelor"
+王老五
+# "两栖" = amphibious (两 not a count) — rendered "amphibious"
+两栖
+# "文武两手" = the pen and the sword (两手 = the two approaches, idiomatic) — rendered "a pen and a sword"
+文武两手
+# "三教九流" = every walk of life / the demimonde (3/9 idiomatic) — rendered "every trade and station"
+三教九流
+# Iwai Eiichi, Japanese consul/intel chief (一 in the name); also lets the following 千方百计 rule fire — rendered "Iwai Eiichi"
+岩井英一
+# "千方百计" = by every means (千/百 idiomatic) — rendered "by every means"
+千方百计
+# "千里迢迢" = the long road (千里 idiomatic distance) — rendered "the long road"
+千里迢迢
+# Crossroads, the 1937 film title 《十字街头》 (十 in the title) — rendered "Crossroads"
+十字街头
