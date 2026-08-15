@@ -705,6 +705,53 @@ UNITS = {
         "glued_head": {},
         "standalone": [3],     # 一、是我误了他的锦绣前程
     },
+    "ch30": {
+        "file": "31_index-split-000-0029.txt",
+        "title": "第十章 祸不单行 柱折梁摧(下)",
+        "drop": 2,             # running header + <h2> chapter title
+        # The (下) half of Chapter Ten (ch29 = the 上 half). Source XHTML parses
+        # to 1 <h2> + 110 <p>, proven byte-exact p-by-p against the txt body
+        # (110 body lines after drop=2, zero mismatches; no <h1>, no <br/>, no
+        # <img>, no [\d+] note markers). The chapter carries sections 三/四/五
+        # (ch29 held 一/二). Per ch31's own erratum #8, sections 一/二/三 are
+        # Liu Yuanshen's (刘原深) memoir manuscript and section 四 onward is
+        # again Chen's own narration, though the source marks no switch — the
+        # "我" of section 四/五 is the District Chief 区长 who "led the Shanghai
+        # District," i.e. Chen, narrating his OWN arrest.
+        # THREE enumerated SECTION headings:
+        #   L3   三、仁者之心终为幺么所乘                 (standalone, its own <p>)
+        #   L22  …敬乞里公笑纳。晚朱敏拜。」 + 四、霎时间发生了巨大变故
+        #        (tail-glued after a terminal 」)
+        #   L76  …这该是最后的一瞥了！ + 五、保持住应有的人格与尊严
+        #        (tail-glued after a terminal ！)
+        # ONE source-<p> boundary that severs one sentence (first ends
+        # non-terminal), the class merged since ch06:
+        #   L91/L92  …尽量的 | 多了解，也许更便于应付。 (尽量的|多了解 mid-phrase)
+        # NOT merged (DELIBERATE separate <p>): the ：-ended dialogue lead-ins
+        # (e.g. L70 …他追问：, introducing the quoted interrogation in the next
+        # <p>) and the memoir/document lead-in L4 …其文如下：. The inline
+        # 第一、/第二、 enumerations INSIDE a single <p> (L12 p#10, L108 p#106)
+        # and the 三、四尺 number-range (p#67) are body text, NOT headings.
+        "merges": [(91, 92)],
+        "glued": {22: "四、霎时间发生了巨大变故",
+                  76: "五、保持住应有的人格与尊严"},
+        "glued_head": {},
+        "standalone": [3],     # 三、仁者之心终为幺么所乘
+    },
+    "ch31": {
+        "file": "32_index-split-000-0030.txt",
+        "title": "写在「英雄无名」第三部专书出版前",
+        "drop": 2,             # running header + <h1> front-matter title
+        # The Part-Three closing note. Source XHTML parses to 1 <h1> + 14 <p>,
+        # proven byte-exact p-by-p (14 body lines after drop=2, zero
+        # mismatches; no <h2>, no <br/>, no <img>, no [\d+] note markers). The
+        # enumerated 一、–八、 items are an ERRATA/addendum LIST correcting
+        # earlier chapters (each cites an earlier chapter by 页/page number that
+        # our EPUB does not carry); they are DOCUMENT-CLAUSE body lines per
+        # parity, NOT section headings, so no standalone/glued entries. No
+        # severed-<p> boundaries.
+        "merges": [], "glued": {}, "glued_head": {}, "standalone": [],
+    },
 }
 
 

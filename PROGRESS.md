@@ -2997,3 +2997,94 @@ sixty-odd cases / one every five days; the ten-month tally; the two-month task; 
   glitchy/abridged source — described in English/pinyin instead).
 - `data/noise.txt` — B23 block (see above).
 - `notes.json` — 9 notes appended via apparatus_merge.py (cumulative 276).
+
+---
+
+## Batch B24 — ch30 (第十章 祸不单行 柱折梁摧(下)) + ch31 (写在「英雄无名」第三部专书出版前)
+
+**COMPLETES PART THREE.** ch30 = the (下) half of Chapter Ten (ch29 = 上): the trap sprung and the
+two captures. ch31 = the Part-Three closing ERRATA note. EPUB now **31/43 chapters, 284 notes**.
+
+### Structure (byte-exact p-by-p, both units)
+- **ch30:** source XHTML `index_split_000_0029.xhtml` = 1 `<h2>` + 110 `<p>`, NO `<h1>`/`<br/>`/
+  `<img>`/`[\d+]`. drop=2 (running header + `<h2>`). 110 `<p>` matched the txt body 1:1, zero
+  mismatches. THREE enumerated SECTION headings: **三、仁者之心终为幺么所乘** (standalone, p#0);
+  **四、霎时间发生了巨大变故** (tail-glued on p#19 after a terminal 」); **五、保持住应有的人格与尊严**
+  (tail-glued on p#73 after a terminal ！). ONE severed-`<p>` merge (source L91/L92: …尽量的 | 多了解).
+  NOT merged (deliberate separate `<p>`): the ：-ended dialogue lead-in p#70 (…他追问：) and the
+  memoir lead-in p#4 (…其文如下：); the inline 第一、/第二、 enumerations inside single `<p>` (p#10,
+  p#106) and the 三、四尺 number-range (p#67) kept as body lines per parity. **108 body paragraphs +
+  3 sub-headings.** Two-voice chapter: sections 三 = Liu Yuanshen's memoir, sections 四/五 = Chen's
+  own narration of his arrest (per ch31 erratum #8; the "我" who "led the Shanghai District" / is the
+  区长 is Chen). Voice-switch footnoted at section 4.
+- **ch31:** source `index_split_000_0030.xhtml` = 1 `<h1>` + 14 `<p>`, NO `<h2>`/`<br/>`/`<img>`/
+  `[\d+]`. drop=2 (running header + `<h1>` front-matter title; first body line 抗战期间…). 14 `<p>`
+  matched 1:1. The enumerated 一、–八、 items (p#5–p#13) are an ERRATA/addendum LIST (each cites an
+  earlier chapter by 页/page number), kept as ordinary DOCUMENT-CLAUSE body lines per parity — NOT
+  section headings, none standalone/glued. NO merges. **14 body paragraphs.** ch30/ch31 carry NO
+  images (confirmed).
+
+### Checks (all green)
+- clean_batch source-conservation OK (both). verify_unit ch30/ch31: parity OK, **numbers 0 unresolved**,
+  anchors OK. check_align ch30 108/108 median **4.64**; ch31 14/14 median **5.48** (document-heavy note).
+- check_structure: parity 108/108, 14/14 OK; anchors 284 notes, 0 unresolved; headings OK.
+- check_content: ch30 **all in the paired paragraph** (1 fixed: the sign "HONGKOU" → keyed "Hongkou");
+  ch31 **all in the paired paragraph**. (The pre-existing artifacts ch08×3 / ch13×9 / ch09×1 / ch26×2
+  persist, not regressions.)
+- qc_entities: ch30 **0 misses** (top: 万里浪 x10, 林焕芝 x7, 褚亚鹏 x6, 朱敏 x5, 重庆 x5, 周西垣 x4);
+  ch31 **0 misses**.
+- check_register --ref: ch30 within tolerance (shall 9%, 108 paras); ch31 within tolerance (shall 0%,
+  short note). check_apparatus 0/0. qa_epub **PASS** (284 refs/bodies/backlinks). **epubcheck 0/0/0/0.**
+- Tails verified against source: ch30 closes on Jiang Shaomo (Cilie) taking over the Shanghai Reserve
+  District and fighting on to victory; ch31 closes on erratum #8 (the two-voice clarification). Nothing
+  dropped.
+
+### Notes added (8; cumulative 284)
+- **ch30 (5):** the pig-cage van (猪笼车, the barred police wagon); Malone (马隆/马龙 — the French
+  criminal-section chief and secret Shanghai District contact, spelled two ways by Liu vs Chen, one
+  officer); the Double Ninth (重阳, 28 Oct 1941); the section-4 voice switch (Liu's memoir → Chen's own
+  narration, per ch31 #8); Biluochun tea (碧螺春, the card betraying Zhu Min).
+- **ch31 (3):** the page-citation apparatus (the parenthetical 页 numbers are the author's, to the
+  original edition, not this one); the opera bill (红拂传 / 小商河 / Yang Zaixing 杨再兴 / Yue Fei 岳飞);
+  reform through labour (劳动改造, laogai — where Lin Huaibu was traced).
+- **NOT re-noted (first-appearance ledger):** No. 76 / 特工总部 (ch04/ch17), 制裁 (sanction), the tiger
+  bench 老虎凳 (ch29), the Blue Shirt Society 蓝衣社 (ch08), the "three-stripe head" 三道头 police
+  sergeant (explained in the quoted passage in ch24), 忠义救国军 the Loyal and Patriotic Army (ch21),
+  抗团 the Kang Corps (ch20), the Jessfield Road / No. 76 address, the war of resistance / fallen zone.
+
+### Glossary — 3 net new keyed rows (scripts/add_ch30_glossary.py; each key asserted in data/zh)
+褚亚鹏 Chu Yapeng (ex-Beiping courier, the Bubbling Well Road electrical-shop station; paraded to ID
+Chen but did not); 林焕芝 Lin Huanzhi (Cantonese action-section chief at No. 76, ex-Fourth Team; brother
+林镇城 Lin Zhencheng inline); 姜绍谟 Jiang Shaomo (courtesy Cilie; Shanghai Reserve/Second District chief
+who carried on after Chen's capture). Rendered INLINE (one-off): 仇淑英 Qiu Shuying, 陈贤荣/程远 Chen
+Xianrong/Cheng Yuan, 孙国昌 Sun Guochang, 秦尔同/张湘南/顾汉卿 (radio chiefs), 桂涤非 Gui Difei, 马隆/马龙
+Malone, 克莱德 Clyde, 胡永安 Hu Yong'an, 阿平 A-ping; in ch31 刘仲康 Liu Zhongkang, 李洪春 Li Hongchun,
+梁慧超 Liang Huichao, 杨再兴 Yang Zaixing, 岳飞 Yue Fei, 随波 Suibo, 徐展 Xu Zhan. 钱新民 Qian Xinmin,
+蒋安华 Jiang Anhua were already keyed.
+
+### Digitization glitches (rendered to plain sense; none footnoted as reading uncertainty — mechanical)
+- **ch30:** 小与会 → 小雨会 (与/雨); 一˙ / ˙足而观 / 来˙汤面 (stray ˙ glyphs); 这里是租借 → 租界 (借/界);
+  什庆时候 → 什么 (庆/么); 微笑首 → 微笑颔首 (dropped char); 拼拼揍揍 → 拼拼凑凑 (揍/凑); 看「稀奇哈」
+  (stray 哈); 三楼旧光依，灯 → 三楼的灯光依旧 (scrambled — rendered "the lamplight as before"); 左石 →
+  左右 (石/右); 突然间蒋安华说 → 突然问 (间/问); 马夫前蹄 → 马失前蹄 (夫/失); 不屑几分钟 → 不消几分钟
+  (屑/消); 使搬 → 速搬? (uncertain final instruction, rendered "shift your quarters"). Redactions:
+  内交站报告 "我是xx" and X嫂 rendered as em-dash blanks.
+- **ch31:** 耿某会被 → 曾被 (会/曾); 余廷智 → 余延智 (廷/延; keyed form Yu Yanzhi, noted); 将有以补充 →
+  将有所补充; 上海第 X 农场 (× redaction → "No. ——").
+
+### data/noise.txt — B24 addition
+- **退一万步** (idiom "even taking ten thousand steps back / at the very worst"; the 一万 is rhetorical,
+  not a count). All REAL quantities CARRIED as digits/words: the dates (28 Jun 1941; 29/30 Oct 1941 =
+  ROC 30; 27 Dec 1939 = ROC 28); clock times (9:00 / 9:40 / 2:30 / 8:27 / past 11 / gone 1 / 5:10 /
+  past 9); counts (50 yards, 2-inch photo, 2 revolvers, 15 min, 5 feet, 500 vs 85 yuan, 2 zhang,
+  ~500 out / ~1000 in, a dozen+ premises, age 25, ten-or-so parties, 2 paces, 2 men, a thousand strong,
+  9 steps, 7–8 steps, two-short-one-long); the ch31 errata page numbers (65/84/124/87/129/85/89 — the
+  author's, to the original edition).
+
+### Tooling added (do NOT revert)
+- `scripts/clean_batch.py` — ch30 spec (drop=2; merge 91/92; standalone L3; glued L22 四, L76 五) and
+  ch31 spec (drop=2; errata list as body lines, no headings/merges).
+- `scripts/add_ch30_glossary.py` — 3 new rows BY HAND (each key asserted in data/zh/ch30.txt|ch31.txt).
+- `scripts/make_b24_apparatus.py` — the 8 B24 notes (every non-ASCII glyph asserted present in that
+  unit's data/zh before NCR conversion). `notes.json` — 8 notes appended via apparatus_merge.py
+  (cumulative 284).

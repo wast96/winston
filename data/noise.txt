@@ -772,3 +772,6 @@
 # Surname 万 (Wan) as a bare agent 被万吸收 "drawn over by Wan"; the 万 is the surname,
 # not the count 10000.
 被万
+# Idiom 退一万步说 "even taking ten thousand steps back / at the very worst" (ch30);
+# the 一万 (10000) is rhetorical, not a count. English "even granting the worst".
+退一万步
