@@ -775,3 +775,9 @@
 # Idiom 退一万步说 "even taking ten thousand steps back / at the very worst" (ch30);
 # the 一万 (10000) is rhetorical, not a count. English "even granting the worst".
 退一万步
+# Idiom 百废待兴 "a thousand things laid waste await reviving" (ch32); the 百 is
+# "myriad/all," not the count 100. English renders the idiom, not a quantity.
+百废待兴
+# Idiom 百事待擧 "a thousand tasks await taking up" (ch32); the 百 is "myriad/all,"
+# not the count 100. English renders the idiom, not a quantity.
+百事待擧

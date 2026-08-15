@@ -2507,6 +2507,36 @@
       "pinyin": "Jiāng Shàomó",
       "status": "provisional",
       "note": "Courtesy name Cilie; Chief of the Shanghai Reserve District (the Second District), who had lain concealed in Shanghai without his identity being exposed, and who took over the Shanghai work after Chen's capture and carried it on to the victory of the war of resistance."
+    },
+    "叶剑英": {
+      "en": "Ye Jianying",
+      "pinyin": "Yè Jiànyīng",
+      "status": "attested",
+      "note": "The Communist representative on the Military Mediation Executive Headquarters at Beiping and chief of staff of the Communist army; later a marshal of the People's Republic."
+    },
+    "刘培初": {
+      "en": "Liu Peichu",
+      "pinyin": "Liú Péichū",
+      "status": "provisional",
+      "note": "Corps Commander of the Ministry of National Defense Pacification Corps and head of its Student Corps; author of the posthumous memoir Fleeting Glimpses of a Floating Life, quoted here. Earlier he had led the Wuhan practice corps in which Chen trained (see Part Three, chapter ten)."
+    },
+    "李宗仁": {
+      "en": "Li Zongren",
+      "pinyin": "Lǐ Zōngrén",
+      "status": "attested",
+      "note": "1891-1969; a leading Guangxi general, director of the Chairman's Beiping Field Headquarters, and later, in 1949, acting President of the Republic of China."
+    },
+    "傅作义": {
+      "en": "Fu Zuoyi",
+      "pinyin": "Fù Zuòyì",
+      "status": "attested",
+      "note": "1895-1974; commander-in-chief of the North China Bandit Suppression Headquarters and the Nationalist defender of Beiping, which he surrendered by negotiated agreement to the Communists in January 1949, sparing the city a siege."
+    },
+    "计兆祥": {
+      "en": "Ji Zhaoxiang",
+      "pinyin": "Jì Zhàoxiáng",
+      "status": "provisional",
+      "note": "A wireless operator of the First Brigade's stay-behind work left in Beiping; he shot himself to resist arrest, one of the few of the stay-behind party whose fate Chen could trace."
     }
   },
   "organizations": {
@@ -2865,6 +2895,30 @@
       "pinyin": "Huìshěn Gōngxiè",
       "status": "attested",
       "note": "The Shanghai concessions' pre-1930 joint tribunal, abolished by the two reproduced retrocession agreements and replaced by the Chinese Special District Courts."
+    },
+    "绥靖总队": {
+      "en": "the Pacification Corps",
+      "pinyin": "Suíjìng Zǒngduì",
+      "status": "attested",
+      "note": "In full the Ministry of National Defense Pacification Corps, the postwar special force raised for the 1946-49 campaign against the Communists; Chen commanded its First Brigade in the Beiping-Tianjin region."
+    },
+    "军事调处执行部": {
+      "en": "the Military Mediation Executive Headquarters",
+      "pinyin": "Jūnshì Tiáochǔ Zhíxíngbù",
+      "status": "attested",
+      "note": "The tripartite body (American, Nationalist, and Communist) set up at Beiping in 1946 to enforce the cease-fire brokered by the Marshall Mission."
+    },
+    "军事三人小组": {
+      "en": "the Committee of Three",
+      "pinyin": "Jūnshì Sānrén Xiǎozǔ",
+      "status": "attested",
+      "note": "The three-man committee of Marshall, Zhang Qun for the government, and Zhou Enlai for the Communists, that directed the 1946 truce negotiations."
+    },
+    "励志训练班": {
+      "en": "the Lizhi Training Class",
+      "pinyin": "Lìzhì Xùnliàn Bān",
+      "status": "attested",
+      "note": "The training class at the Central Training Corps in Nanjing through which the cadres of the Pacification Corps were passed; see the note on the Lizhi Plan."
     }
   },
   "places": {
@@ -3573,6 +3627,12 @@
       "pinyin": "Xiáfēi Jiāngjūn",
       "status": "attested",
       "note": "The French mail steamer on which Chen sailed from Hong Kong to Shanghai."
+    },
+    "励志计划": {
+      "en": "the Lizhi Plan",
+      "pinyin": "Lìzhì Jìhuà",
+      "status": "decided",
+      "note": "The plan under which the Ministry of National Defense raised, trained, and tasked the Pacification Corps; 励志 means to steel the will or better oneself."
     }
   }
 }

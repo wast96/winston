@@ -752,6 +752,26 @@ UNITS = {
         # severed-<p> boundaries.
         "merges": [], "glued": {}, "glued_head": {}, "standalone": [],
     },
+    "ch32": {
+        "file": "33_index-split-000-0031.txt",
+        "title": "自序",
+        # drop=3 (cf. ch10/ch20, the part prefaces): running header +
+        # <h1>平津地区绥靖戡乱 (the Part Four super-title, rendered from book.json's
+        # `part` field) + <h3>自序 (the preface's own title, re-emitted from
+        # book.json title_en "Author's Preface"). Confirmed p-by-p against the
+        # source XHTML: 1 <h1> + 1 <h3> + 35 <p>, zero mismatches; no <h2>, no
+        # <br/>, no <img>, no [\d+] note markers. The 35 body <p> (L4-L38) map
+        # 1:1 to the 35 source <p> — every <p> ends terminal, so NO severed-<p>
+        # boundaries / mid-phrase splits. NO section headings inside: the two
+        # enumerated-LOOKING line starts (L22 五个指挥室分布在… and L37 三十八年
+        # 一月杪…) are BODY sentences opening on a numeral, NOT headings, kept as
+        # ordinary body lines. Digitization glitches (dropped 。 mid-<p> at L10/
+        # L11/L13/L17/L19/L26/L29, mismatched guillemets ﹃﹄, a stray ？ at L17,
+        # a stray 》 at L19) are rendered to plain sense, listed in PROGRESS.md,
+        # not merged and not footnoted (mechanical typos).
+        "drop": 3,
+        "merges": [], "glued": {}, "glued_head": {}, "standalone": [],
+    },
 }
 
 

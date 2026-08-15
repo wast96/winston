@@ -3088,3 +3088,90 @@ Malone, 克莱德 Clyde, 胡永安 Hu Yong'an, 阿平 A-ping; in ch31 刘仲康 
 - `scripts/make_b24_apparatus.py` — the 8 B24 notes (every non-ASCII glyph asserted present in that
   unit's data/zh before NCR conversion). `notes.json` — 8 notes appended via apparatus_merge.py
   (cumulative 284).
+
+## Batch B25 — ch32 (自序) — "Author's Preface"
+
+**OPENS PART FOUR** ("Pacification of the Beiping-Tianjin Region" / 平津地区绥靖戡乱). ch32 = the
+Part-Four self-preface (parallel to ch10/ch20). The 1946-49 civil-war material begins: after the
+Japanese surrender Chen commands the First Brigade of the Ministry of National Defense Pacification
+Corps in the Nationalist-Communist fighting around Beiping and Tianjin. EPUB now **32/43 chapters,
+294 notes**. The Nationalist idiom is preserved, not softened (共匪 "the Communist bandits", 绥靖戡乱
+"pacification and the suppression of rebellion"), framed by a footnote.
+
+### Structure (byte-exact p-by-p)
+- source XHTML `index_split_000_0031.xhtml` = 1 `<h1>` (平津地区绥靖戡乱, the Part-Four super-title,
+  handled by book.json `part`) + 1 `<h3>` (自序) + 35 `<p>`, NO `<h2>`/`<br/>`/`<img>`/`[\d+]`.
+  **drop=3** (running header + `<h1>` + `<h3>`; the ch10/ch20 part-preface pattern). First body line
+  after drop=3 = 缅怀一辈小兄弟们… (confirmed). The 35 `<p>` (L4-L38) matched the txt body 1:1, zero
+  mismatches; **every `<p>` ends terminal → NO severed-`<p>` merges**. NO section headings inside: the
+  two enumerated-LOOKING line starts (L22 五个指挥室分布在…, L37 三十八年一月杪…) are BODY sentences
+  opening on a numeral, kept as body lines per parity. **35 body paragraphs, 0 sub-headings.** No images.
+  clean_batch.py ch32 spec added (drop=3; no merges/glued/standalone); source-conservation OK.
+
+### Checks (all green)
+- verify_unit ch32: parity OK, **numbers 0 unresolved**, anchors **10 ok**. check_align 35/35 median
+  **5.57 en/han** (a preface runs denser, cf. ch20/ch31; alignment OK, no pair strays >2.2x).
+- check_structure: parity 35/35 OK; anchors **294 notes, 0 unresolved**; headings OK. ALL PASS.
+- check_content: ch32 **28 name occurrences, all in the paired paragraph** (0 displaced). Whole-book
+  rescan with the 10 new keys shows only the documented pre-existing artifacts (ch08×3 / ch09×1 /
+  ch13×9 / ch26×2 = 武汉卿/劳勃生路 keyed-substring false positives) — no new displacement.
+- qc_entities (reconstructed bilingual): **0 misses**; census top 北平×16, 绥靖×13, 绥靖总队×9,
+  郑介民×5, 励志计划×3, 刘培初×3.
+- check_register vs reference/B01_frozen.md: **within tolerance** (contr 0.0/1k = 1.00x ref; shall 0%;
+  em-dash 8.7/1k vs 8.3; little dialogue). The narrating "shall" is deliberate; a preface runs denser.
+- Tail (P33-P35, source L36-L38) verified against the source: the Temple-of-Agriculture airstrip flight,
+  the second Beiping party's flight to Qingdao at end-Jan 1949, the two refused resignations + autumn-1949
+  mainland work — all faithful.
+- qa_epub **PASS** (57 files, 50 documents, 294 refs/bodies/backlinks). epubcheck 5.1.0 **0/0/0/0**.
+
+### Footnotes — 10 new (per the reader model; Part Four opens the civil-war furniture)
+1. the Nationalist civil-war idiom (共匪/绥靖/戡乱, 1946-49; War of Liberation in the other historiography;
+   preserved, not softened) — anchor "the war to suppress the rebellion" (P2).
+2. the "Fifth Part" discrepancy (Chen's own count reaches the fifth part though Shanghai was "the Third
+   Part" and this edition presents four books; noted per rule 4) — "the Fifth Part" (P3).
+3. the Marshall Mission / Committee of Three / Military Mediation Executive Headquarters (1946) — "Marshall".
+4. the Lizhi Plan (励志 "to steel the will"; the Lizhi Training Class at the Central Training Corps) — "Lizhi Plan".
+5. the Jiangxi bandit-suppression (剿匪 Encirclement Campaigns; the 别働总队 special-detachment precedent) —
+   "the Jiangxi bandit-suppression".
+6. the Youth Army (青年军, "a hundred thousand youths, a hundred thousand soldiers") — "Youth Army".
+7. the five Republican rail lines (北宁/津浦/平汉/平古/平绥, named descriptively) — "Beiping-Liaoning line".
+8. Fu Zuoyi (the negotiated surrender of Beiping, Jan 1949, backdrop of the preface) — "Fu Zuoyi".
+9. Fenghua (Chiang's native place; he had just retired as President, Jan 1949; Li Zongren acting) — "Fenghua".
+10. the Temple of Agriculture (先农坛, imperial plowing altar → makeshift airstrip in the siege) — "Temple of Agriculture".
+
+### Glossary — 10 net new keyed rows (scripts/add_ch32_glossary.py; each key asserted in data/zh/ch32.txt)
+People: 叶剑英 Ye Jianying (Communist rep on the Executive HQ), 刘培初 Liu Peichu (Pacification Corps
+Commander; memoir author; = the Wuhan practice-corps leader of ch29), 李宗仁 Li Zongren (Beiping Field
+HQ director; 1949 acting president), 傅作义 Fu Zuoyi (North China Bandit Suppression C-in-C; surrendered
+Beiping), 计兆祥 Ji Zhaoxiang (stay-behind wireless operator, martyr). Organizations: 绥靖总队 the
+Pacification Corps, 军事调处执行部 the Military Mediation Executive Headquarters, 军事三人小组 the Committee
+of Three, 励志训练班 the Lizhi Training Class. Terms: 励志计划 the Lizhi Plan. Rendered INLINE (one-off
+Western/officials, standard provinces, common-noun term): 马歇尔 Marshall, 罗柏森 Colonel Robertson, 侯腾
+Hou Teng, 徐启明 Xu Qiming, 张家铨 Zhang Jiaquan, 史泓 Shi Hong, 雷处长 Director Lei; 河北 Hebei, 绥远
+Suiyuan, 山东 Shandong, 河南 Henan, 山西 Shanxi; 戡乱 "suppression of rebellion" (already so rendered ch04).
+NOT keyed 河北 (would false-flag the keyed 河北大经路 → "Dajing Road") / 绥远 (standard, appears ch08/09/22/25).
+
+### Settled Part-Four renderings (reuse)
+总队 "Corps" / 总队长 "Corps Commander"; 大队 "brigade" / 大队长 "brigade commander" (reuse B24); 分队 /
+中队 "company"; 指挥室 "command room"; 指挥员 "commanding officer" vs 指挥官 "commander"; 突击队 "assault
+team"; 直属组 "directly subordinate section" / 直属员 "directly subordinate agent"; 部队长 "unit commander";
+部队代号 "unit code-name"; 编制 "establishment"; 配属关系 "relation of attachment"; 留置工作 "stay-behind
+work"; 绥靖 "pacification" / 戡乱 "suppression of rebellion" / 剿匪 "bandit-suppression" / 匪谍 "Communist
+spies" / 共酋 "Communist chieftains" / 共干 "Communist cadres"; 收复区 "recovered areas" / 交战区 "combat
+zones"; 军需官 "quartermaster"; 行辕 "Field Headquarters" / 行辕主任 "director"; 剿匪总部/绥靖公署 "Bandit
+Suppression Headquarters"/"Pacification Office". Republican years literal (三十五年 = 1946 … 三十八年 = 1949).
+
+### Digitization glitches (rendered to plain sense; none footnoted — mechanical)
+- **ch32:** dropped 。 mid-`<p>` at L10 (先生。不过), L11 (军官。先前), L13 (多了。/省份。的确), L17
+  (欢迎了。/一部份。？→ stray ？), L19 (清道夫。), L26 (主要内容。/欢迎了。), L29 (溃不成军者。);
+  L13 部队长！ → 部队长」 (stray ！ for 」); L21 情报组﹄归绥市 (mismatched ﹃﹄ + dropped 、 separator);
+  L23 员额…主要内容 (dropped 。); L19 卤获了许多文件》 (stray 》); L23 络起来 → 摞起来 (络/摞, "stacked");
+  L24 透行辕 → 透过/托 (rendered "through the prior arrangement of"); L7 听长 → 厅长 (听/厅, "chief of
+  the Second Department"). All rendered to plain sense; none is a reading uncertainty.
+
+### data/noise.txt — B25 additions
+- **百废待兴** and **百事待擧** (idioms; the 百 = "myriad/all," not the count 100 — English renders the
+  idiom, not a quantity). All REAL quantities CARRIED as digits/words: 200+ cities; ROC years 35/36/37/38/
+  39/40 = 1946-51; the five brigades / First-Fifth Brigade; 20,000+ (2nd Brigade); ~1,000+ students;
+  7 brigades + 3-4 companies; 20+ provinces; 50 vs 100+ per brigade; 4 visits by the Leader; 1-month
+  terms; 200+ assault-team men; 40-odd stay-behind men (twice); past-60 veterans; the 平津 railway cut.
