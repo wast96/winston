@@ -971,3 +971,158 @@ for the commissioner.
 - ch06 carries printed-page (folio) markers (resegment rebuilds the pagemap).
 - setup.sh regression "hook stands down on template stub" still FAILS benignly
   (HANDOFF holds a real kickoff).
+
+## Batch B08 -- Chapter 7 (第七章 锄奸 / "Rooting Out Traitors"), whole chapter + Principal Sources
+
+Scope: ch07s01-ch07s06 (PDF 256-281, printed 220-245), plus the chapter-end
+主要资料 rendered as "### Principal Sources". Offset constant printed = pdf - 36,
+spot-verified at every section opener off the folio. Chapter 7 is COMPLETE.
+
+### Pipeline run (reused, not re-measured)
+- render 256 281 --dpi 300; ocr_crop 256 281 with the MEASURED per-parity crop
+  (recto [0.07,0.86], verso [0.17,0.94], top 0.045, bottom 0.93, chi_sim psm 6,
+  running-head filter). pgrep -c tesseract = 0 after each run.
+- ocr_dual 256 281 (PaddleOCR absent, dual-engine substitute).
+- indents 256 281: only p257 line 1 is indented (a NEW paragraph); every other
+  page top 258-281 is a continuation, which fixed all page-break seams.
+- data/structure.json: +8 rows (ch07 chapter title, subtitle, 6 section headings).
+- assemble ch07 256 281 --offset 36 --blank-assist: 216-paragraph boundary
+  cross-check (my hand resegment gives 223 body -- the +7 is one-line PUNCH
+  paragraphs assemble merges: "延安也公审汉奸了。", "杨宏超策反周崇德？", etc.).
+- scripts/resegment_ch07.py: new; HARDCODES the hand-verified ('h'|'b') item list
+  read off every page image, rebuilds data/zh/ch07.txt wholesale. 223 body, 9
+  headings. This is the authoritative source rebuild (data/zh is gitignored).
+
+### Checks run and results
+- verify_unit ch07: parity 223 = 223 OK; numbers checked 223 pairs, 0 unresolved;
+  anchors 27 ok.
+- check_align ch07: 223/223, median 5.05 en/han, no pair strays > 2.2x. OK.
+- check_content: N/A (whole-book tool, needs a docs config). qc_entities: vacuous
+  on the flat glossary -- entity survival ensured BY HAND (settled handles reused;
+  see below).
+- check_apparatus: 0 failures, 19 warnings -- ALL 19 on pre-existing rows (关中分区,
+  陇东分区, 绥德, 习仲勋, 何绍南, 于桑, 王震, ...); every NEW ch07 row carries a note.
+- check_register --ref out/ch01_reading.md: within tolerance. Dialogue contraction
+  0.9/1k (0.46x ref) flagged "little dialogue -- noisy": Chapter 7's quoted matter
+  is mostly documents/directives/reports and the author's rhetorical questions;
+  genuine conversational speech is a handful of short lines (the "good devil" cry,
+  the peasant's curse "why doesn't the Thunder God strike Mao dead?", the county
+  head's terse "This is the security section's business"), which ARE contracted.
+  Judged on narratorial signals per STYLE: sentence median 21, rhythm CV 0.54.
+- Em-dash discipline: first build shipped 6.0/1k; trimmed appositive-gloss dashes
+  (STYLE failure mode #1) to colons/commas, down to 4.7/1k (ch06 shipped 4.5).
+- Tail verification (rule 4 corollary): the section-6 close (p280, "这反间谍工作...
+  能不能让间谍也心向共产党呢？") and the last source entry (Zhao Cangbi, p281) read
+  against the scan -- faithful, no drift or invention.
+- qa_epub PASS (28 files, 161 notes ref/body/backlink, 184 pagebreaks); epubcheck
+  0/0/0/0 (EPUB 3.3).
+
+### OCR / crop-verification (names, numbers, unit designations)
+Every proper name crop-verified: high-res eye-read of each page image, cross-read
+against BOTH ocr configs via verify_names.py --auto (disagreement filter), and
+historical cross-check for notable figures. Settled dense rosters:
+- p258 dispatched-agents roster (magnified crop): 拜明耀、宋昌龄、罗鸿沟、蔡长庚、
+  撖玉书 (扌+敢, surname Hàn, not 木; crop-confirmed)、李田心、李巨川、高子文、王芝生;
+  and 李永茂, 三千元 (3,000 yuan), 73件.
+- p268 军统电台 party branch (magnified crop): 张露萍 (书记, 年方二十)、张蔚林、冯传庆、
+  赵力耕、杨洸、陈国柱、王席珍.
+- p279 NW generals cross-checked against the record: 邓宝珊、高桂滋 (滋, not 汶)、高双成.
+- OCR-garble corrections confirmed by context + the disagreement filter: 张严佛
+  (not 张玫佛), 高继铨 (not 高继锭), 李茂堂 (not 李茂党), 许继慎 (not 许继司), 朱蕴山
+  (not 朱草山), 赵苍璧 (per glossary; book prints 苍壁/璧, same romanization Zhao Cangbi).
+
+### Number-check noise added (data/noise.txt, B08 block)
+All flags classified as noise (numeral inside a name/place/idiom/ordinal, or an
+Arabic+万 form whose VALUE is carried in English); NONE was a real dropped quantity
+(verified). Arabic+万 carried in English and the literal noised: 140万 (1.4 million
+people), 60万/4万石 (600,000 / 40,000 dan), 1600万/1000万斤 (16 million / 10 million
+jin), 800万/600万/200万 (border currency). Numeral-in-token noised: 三交 (Sanjiao,
+place), 十字岭 (Shiziling), 坂谷政三/马汉三 (三 in names), 赵老五 (五 in bandit name),
+王八 (八 in idiom), 万众 (万 in idiom), 第二年 (ordinal), 二是 (enumerator),
+数十万 (kept vague), 20世纪80年代 (the 1980s).
+
+### Notes added (27; book total 161)
+锄奸/汉奸 (loaded terms, first ch07 use); the Special Branch "dog-beating squad";
+Puyi + Wang Kemin (puppet rulers); Zuo Quan (Shiziling, highest CCP officer lost,
+CORROBORATED, book styles him chief-of-staff vs actual deputy); the "three links";
+the Second Revolutionary Civil War; Shen Zhiyue (infiltrated Yan'an, later Taiwan
+Investigation Bureau -- CORROBORATED; the "Mao's secretary" claim UNCORROBORATED,
+book calls it bragging); 身在曹营心在汉 (Guan Yu); "On Tactics Against Japanese
+Imperialism" (Wayaobao, Dec 1935); the CC Clique vs the Zhu faction; 苦肉计 +
+蒋干盗书 (36 Stratagems / Three Kingdoms, tied to the reverse-frame that killed Xu
+Jishen); 天人感应; 精兵简政 + Li Dingming (CORROBORATED); the Great Production
+Campaign; dan/jin measures; 边币 border currency; the Cheka; Ma Xiwu "Ma the Blue
+Sky" (the 锡武/锡五 print variant, the adjudication method, links to 刘巧儿 ch09,
+CORROBORATED); Xu Jishen (framed via a KMT counter-espionage ruse, executed 1931,
+CORROBORATED; book's 1932 founding date noted); SACO / 中美合作所 (Zhang Luping group
+held/killed at the Geleshan prisons); Zhang Luping + the Juntong-radio branch
+martyrs (CORROBORATED, surfaced only in the 1980s); Deng Yanda; 反间计 (36
+Stratagems, distinct from 离间计 ch06); 智异 (Zhao Cangbi's coinage; he became PRC
+Minister of Public Security 1977-83).
+
+### NOT re-noted (already placed earlier; cross-referenced in the note bodies)
+特务 / 汉奸 loaded terms (ch01/first-use gloss folded into the new 锄奸 note),
+Wang Jingwei puppet regime (ch02), Dai Li / Juntong / Zhongtong (ch01), Hu Zongnan
+(ch02), Kang Sheng (ch02), the Xi'an Incident (ch01), the Rectification Movement
+(ch02), the New Fourth Army Incident (ch03), Gu Shunzhang / Xu Enzeng / the "Three
+Heroes of Longtan" (ch01), Zhang Guotao + the Long March (ch02), Whampoa (ch02),
+Kawashima Yoshiko (ch05), Li Zicheng (ch01, re-invoked here), Zengjiayan / Red Crag
+(ch03), Sorge (ch05), the 离间计 (ch06, cross-referenced by the new 反间计 note).
+
+### Renderings settled / reused
++37 glossary rows (book total 189). New principal referents (all with notes):
+Yang Qiqing, Mizuhara Kiyoshi (provisional; reconstructed Japanese reading),
+He Qingyu, Zhang Luping, Zhang Weilin, Feng Chuanqing, Li Maotang, Qin Ping, Zhao
+Qufei, Ren Yuan, Shan Buyi, Shen Zhiyue, Xu Jishen, Ma Hansan, Li Dingming, Ma Xiwu
+(马锡武, book variant of 锡五), Zuo Quan, Wang Jingwei, Puyi, Wang Kemin, Li Zicheng,
+Deng Yanda, Zhu Yunshan, Shi Zhe, Gu Zhengding, Zhu Jiahua, Chen Guofu, Cheng
+Yiming, Zhang Yanfo; and the organs/terms 锄奸 / 锄奸部 (rooting out traitors /
+Anti-Traitor Department, parallel to the Anti-Traitor Committee), 边保 (the Border
+Security), the Shandong Column, the Military Commission's Second Bureau, the
+Sacrifice League (牺盟会), SACO (中美合作所), 智异 (the divergence of wits).
+Reused UNCHANGED from the ledger: Juntong, Zhongtong, the Eighth Route Army office,
+Xi Zhongxun, Ye Jianying, Kang Sheng, Dai Li, Hu Zongnan, Zhu De, Zhou Enlai, Mao
+Zedong, Chiang Kai-shek, Bu Lu (布鲁=陈泊), Chen Long, Xu Jianguo, Xu Enzeng, Gu
+Shunzhang, Zhang Guotao, Yan Xishan, the Rectification Movement, the Anti-Traitor
+Committee, the dog-beating squad, Wang Chaobei, Li Qiming, He Shaonan, Yu Sang,
+Zhao Cangbi (glossary 赵苍璧), Deng Baoshan, Suide, Longdong sub-district, Guanzhong
+sub-district, the New Fourth Army Incident, the Central Social Affairs Department,
+the Central Intelligence Department.
+
+### CONSISTENCY / interested-witness posture
+- Partisan voice kept in the text (汉奸 "traitor/collaborator", 特务 for the enemy's
+  agents, "our side"); the counter-record lives in the footnotes.
+- Anonymized-by-某 people kept anonymized in English (何某, 张某, 田某, 樊某, 肖某,
+  梅某, plus 李科长/李秘书 by title): the source withholds the name, so does the
+  English. NOT to be "resolved" by a later session.
+- 反间计 (counter-espionage stratagem, turning the enemy's spies) kept DISTINCT from
+  离间计 (sowing discord, ch06); 锄奸 kept in its specific sense (not generic).
+- Source-internal variant rendered faithfully + footnoted: 马锡武 for the documented
+  judge 马锡五 (same romanization).
+
+### Figures: still DEFERRED (deliberate; commissioner decision pending)
+figures.json still empty. Chapter 7's inline plates catalogued for a later pass:
+Yang Qiqing with Deng Xiaoping/Yang Shangkun/Lu Dingyi/Luo Ronghuan at the ERA
+front HQ, 1937 (p257); the Yan'an public-trial group and the "children's corps with
+red-tasseled spears checking road passes" (p259, p261); the 6th-Plenum presidium
+group portrait (p259); Zhu Guifang of the Border Security mail-inspection station
+(p263); "Zhang Luping's red secret branch fighting at Juntong's nerve center"
+(p268); Mu Fengyun with the author (p269); Wang Chaobei + Li Maotang with the Xi'an
+intelligence office, 1949 (p270); Wang Jinxiang + Chen Long at Yan'an (p272); the
+Border Security field-team heads, 1945 (p273); Ren Yuan interviewed by the author
+(p274); Yu Sang with the "carry-on-to-victory" pumpkin (p276); Zhao Qufei at
+Ganquan/Fuxian (p279). Standing question (every 图文 photo, or a curated subset)
+still for the commissioner.
+
+### Build / environment (B08)
+- EPUB rebuilt: 8 of 14 chapters (ch00-ch07), 161 notes, 184 pagebreaks.
+  out/chinas_secret_war.epub. qa_epub PASS; epubcheck 0/0/0/0.
+- data/structure.json: +8 rows (ch07 chapter title, subtitle, 6 section headings).
+- data/noise.txt: +B08 block (see above).
+- ch07 carries printed-page (folio) markers (resegment rebuilds the pagemap).
+- Branch consolidation: session started on stray branch
+  claude/ch07-rooting-out-traitors-byhq8x (identical to origin canonical at
+  e2969f4); reset local claude/chinas-secret-war to origin, deleted the stray
+  (local; the remote ref never existed, pruned the stale tracking ref).
+- setup.sh regression "hook stands down on template stub" still FAILS benignly
+  (HANDOFF holds a real kickoff); all other checker regression tests green.

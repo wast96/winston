@@ -891,5 +891,227 @@
     "pinyin": "Zhang Mingda",
     "status": "provisional",
     "note": "A courier of the Nakanishi K&#333; cell who escaped the 1942 arrests; later wrote about the network under the name Fang Zhida (&#26041;&#30693;&#36798;)."
+  },
+  "锄奸": {
+    "en": "rooting out traitors",
+    "pinyin": "chujian",
+    "status": "decided",
+    "note": "Literally &#8220;to hoe out the traitors.&#8221; The wartime CCP name for counter-espionage and anti-collaborator work; the army security departments were renamed Anti-Traitor Departments (&#38146;&#22902;&#37096;)."
+  },
+  "锄奸部": {
+    "en": "the Anti-Traitor Department",
+    "pinyin": "chujian bu",
+    "status": "decided",
+    "note": "The renamed Eighth Route Army security department; kept parallel to the Anti-Traitor Committee (&#38146;&#22902;&#22996;&#21592;&#20250;)."
+  },
+  "边保": {
+    "en": "the Border Security",
+    "pinyin": "bianbao",
+    "status": "decided",
+    "note": "Short form of the Shaanxi-Gansu-Ningxia Border Region Security Office (&#38485;&#29976;&#23425;&#36793;&#21306;&#20445;&#23433;&#22788;); the region&#8217;s counter-espionage and public-security organ."
+  },
+  "山东纵队": {
+    "en": "the Shandong Column",
+    "pinyin": "Shandong zongdui",
+    "status": "decided",
+    "note": "The Eighth Route Army&#8217;s Shandong Column, the main CCP field force in Shandong."
+  },
+  "军委二局": {
+    "en": "the Military Commission's Second Bureau",
+    "pinyin": "",
+    "status": "decided",
+    "note": "The Central Military Commission&#8217;s Second Bureau, the CCP&#8217;s radio-interception and cipher-breaking service."
+  },
+  "牺盟会": {
+    "en": "the Sacrifice League",
+    "pinyin": "Ximenghui",
+    "status": "decided",
+    "note": "The Sacrifice League for National Salvation (&#29287;&#29273;&#25937;&#22269;&#21516;&#30431;&#20250;), an anti-Japanese mass body formed under Yan Xishan in Shanxi in 1936 and heavily penetrated by the Communists."
+  },
+  "中美合作所": {
+    "en": "SACO",
+    "pinyin": "",
+    "status": "attested",
+    "note": "The Sino-American Cooperative Organization, a 1943 joint U.S. Navy&#8211;Nationalist (Dai Li) intelligence and training body at Chongqing; its Geleshan compound is bound up with the Baigongguan and Zhazidong prisons where many Communists were held and killed."
+  },
+  "智异": {
+    "en": "the divergence of wits",
+    "pinyin": "zhiyi",
+    "status": "decided",
+    "note": "Zhao Cangbi&#8217;s coined term for the point-against-point contest of stratagems in covert struggle."
+  },
+  "杨奇清": {
+    "en": "Yang Qiqing",
+    "pinyin": "Yang Qiqing",
+    "status": "attested",
+    "note": "1911&#8211;1978. Veteran CCP security officer and counter-espionage specialist; anti-traitor chief at the Eighth Route Army&#8217;s forward headquarters, later a vice-minister of public security."
+  },
+  "水原清": {
+    "en": "Mizuhara Kiyoshi",
+    "pinyin": "",
+    "status": "provisional",
+    "note": "The Japanese reading of &#27700;&#21407;&#28165; is reconstructed; the man was a Japanese special agent posing as a &#8220;good devil&#8221; at Da&#8217;anzhuang."
+  },
+  "何庆宇": {
+    "en": "He Qingyu",
+    "pinyin": "He Qingyu",
+    "status": "decided",
+    "note": "Enemy-work section chief of the Eighth Route Army&#8217;s Shandong Column."
+  },
+  "张露萍": {
+    "en": "Zhang Luping",
+    "pinyin": "Zhang Luping",
+    "status": "attested",
+    "note": "1921&#8211;1945. CCP agent who led the underground branch inside Juntong&#8217;s Chongqing radio headquarters; executed by the Nationalists in 1945."
+  },
+  "张蔚林": {
+    "en": "Zhang Weilin",
+    "pinyin": "Zhang Weilin",
+    "status": "attested",
+    "note": "Juntong radio officer turned secret Communist; member of Zhang Luping&#8217;s branch, executed 1945."
+  },
+  "冯传庆": {
+    "en": "Feng Chuanqing",
+    "pinyin": "Feng Chuanqing",
+    "status": "attested",
+    "note": "Juntong main-station radio officer turned secret Communist; member of Zhang Luping&#8217;s branch, executed 1945."
+  },
+  "李茂堂": {
+    "en": "Li Maotang",
+    "pinyin": "Li Maotang",
+    "status": "attested",
+    "note": "1904&#8211;1969. A lapsed early Communist who rose to head Zhongtong&#8217;s Shaanxi station-room and secretly returned to the CCP&#8217;s service."
+  },
+  "秦平": {
+    "en": "Qin Ping",
+    "pinyin": "Qin Ping",
+    "status": "decided",
+    "note": "Border Security field officer in Guanzhong and at the mail-inspection station."
+  },
+  "赵去非": {
+    "en": "Zhao Qufei",
+    "pinyin": "Zhao Qufei",
+    "status": "attested",
+    "note": "Border Security field-team head at Luochuan; later deputy governor of Heilongjiang and head of its public-security department."
+  },
+  "任远": {
+    "en": "Ren Yuan",
+    "pinyin": "Ren Yuan",
+    "status": "decided",
+    "note": "Jidong intelligence station chief captured and later escaped from the Japanese."
+  },
+  "单不移": {
+    "en": "Shan Buyi",
+    "pinyin": "Shan Buyi",
+    "status": "decided",
+    "note": "Zhongtong boss at Luochuan (the surname &#21333; is read Sh&#224;n)."
+  },
+  "沈之岳": {
+    "en": "Shen Zhiyue",
+    "pinyin": "Shen Zhiyue",
+    "status": "attested",
+    "note": "1913&#8211;1994. Nationalist agent who infiltrated Yan&#8217;an; after 1949 rose to head Taiwan&#8217;s Investigation Bureau."
+  },
+  "许继慎": {
+    "en": "Xu Jishen",
+    "pinyin": "Xu Jishen",
+    "status": "attested",
+    "note": "1901&#8211;1931. Whampoa graduate and Red Army commander in the E-Yu-Wan base, executed in an internal purge after a Nationalist frame-up; later rehabilitated as a martyr."
+  },
+  "马汉三": {
+    "en": "Ma Hansan",
+    "pinyin": "Ma Hansan",
+    "status": "attested",
+    "note": "1903&#8211;1948. Senior Juntong officer; later executed by the Nationalists over the missing &#8220;Nine-Dragon Sword.&#8221;"
+  },
+  "李鼎铭": {
+    "en": "Li Dingming",
+    "pinyin": "Li Dingming",
+    "status": "attested",
+    "note": "1881&#8211;1947. Non-party gentry-assemblyman of the Border Region who proposed &#8220;crack troops and simple administration.&#8221;"
+  },
+  "马锡武": {
+    "en": "Ma Xiwu",
+    "pinyin": "Ma Xiwu",
+    "status": "attested",
+    "note": "The book prints &#39532;&#38177;&#27494;; the documented judge is &#39532;&#38177;&#20116; (1899&#8211;1962), same romanization, whose plain, investigative &#8220;Ma Xiwu adjudication method&#8221; became a CCP model."
+  },
+  "左权": {
+    "en": "Zuo Quan",
+    "pinyin": "Zuo Quan",
+    "status": "attested",
+    "note": "1905&#8211;1942. Deputy chief of staff of the Eighth Route Army, killed at Shiziling; the highest-ranking Communist commander to die in the war."
+  },
+  "汪精卫": {
+    "en": "Wang Jingwei",
+    "pinyin": "Wang Jingwei",
+    "status": "attested",
+    "note": "1883&#8211;1944. Former Nationalist leader who defected to head the Japanese-sponsored regime at Nanjing."
+  },
+  "溥仪": {
+    "en": "Puyi",
+    "pinyin": "Puyi",
+    "status": "attested",
+    "note": "1906&#8211;1967. The last Qing emperor, installed by Japan as ruler of Manchukuo."
+  },
+  "王克敏": {
+    "en": "Wang Kemin",
+    "pinyin": "Wang Kemin",
+    "status": "attested",
+    "note": "1873&#8211;1945. Head of the Japanese-sponsored Provisional Government in North China."
+  },
+  "李自成": {
+    "en": "Li Zicheng",
+    "pinyin": "Li Zicheng",
+    "status": "attested",
+    "note": "1606&#8211;1645. The northern-Shaanxi peasant rebel who overthrew the Ming."
+  },
+  "邓演达": {
+    "en": "Deng Yanda",
+    "pinyin": "Deng Yanda",
+    "status": "attested",
+    "note": "1895&#8211;1931. Leftist Nationalist leader and founder of the &#8220;Third Party,&#8221; executed on Chiang Kai-shek&#8217;s orders."
+  },
+  "朱蕴山": {
+    "en": "Zhu Yunshan",
+    "pinyin": "Zhu Yunshan",
+    "status": "attested",
+    "note": "1887&#8211;1981. Veteran revolutionary and democratic-party figure."
+  },
+  "师哲": {
+    "en": "Shi Zhe",
+    "pinyin": "Shi Zhe",
+    "status": "attested",
+    "note": "1905&#8211;1998. Security-office bureau chief; later Mao Zedong&#8217;s Russian-language interpreter."
+  },
+  "谷正鼎": {
+    "en": "Gu Zhengding",
+    "pinyin": "Gu Zhengding",
+    "status": "attested",
+    "note": "1903&#8211;1974. CC-Clique figure, chief of the Nationalist Shaanxi provincial party headquarters."
+  },
+  "朱家骅": {
+    "en": "Zhu Jiahua",
+    "pinyin": "Zhu Jiahua",
+    "status": "attested",
+    "note": "1893&#8211;1963. Nationalist organization minister, rival of the CC Clique."
+  },
+  "陈果夫": {
+    "en": "Chen Guofu",
+    "pinyin": "Chen Guofu",
+    "status": "attested",
+    "note": "1892&#8211;1951. Elder of the CC Clique with his brother Chen Lifu."
+  },
+  "程一鸣": {
+    "en": "Cheng Yiming",
+    "pinyin": "Cheng Yiming",
+    "status": "attested",
+    "note": "1909&#8211;1998. Former Communist who headed Juntong&#8217;s Northwest District; long a deep CCP source."
+  },
+  "张严佛": {
+    "en": "Zhang Yanfo",
+    "pinyin": "Zhang Yanfo",
+    "status": "attested",
+    "note": "1900&#8211;1980. Juntong Northwest District chief."
   }
 }

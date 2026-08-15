@@ -140,3 +140,42 @@
 622
 # 第二天 = "the next/following day"; 第二 ordinal, rendered "the next day"/"the day after"
 第二天
+# --- B08 / ch07 additions ---
+# 20世纪80年代 = "the 1980s" (20 century + 80s); rendered "the 1980s"
+20世纪80年代
+# 1600万斤 public fodder = 16,000,000 jin; Arabic+万 carried in English as "16 million jin"
+1600万
+# 1000万斤 reduction = 10,000,000 jin; Arabic+万 carried as "10 million"
+1000万
+# 800万边币 = 8,000,000 border-currency yuan; Arabic+万 carried as "8 million"
+800万
+# 600万 compensation = 6,000,000; Arabic+万 carried as "6 million"
+600万
+# 200万 = 2,000,000; Arabic+万 carried as "2 million"
+200万
+# 140万人口 = 1,400,000 people; Arabic+万 carried as "1.4 million people"
+140万
+# 60万石 public grain = 600,000 dan; Arabic+万 carried as "600,000 dan"
+60万
+# 4万石 reduction = 40,000 dan; Arabic+万 carried as "40,000"
+4万
+# 数十万人 = "hundreds of thousands" (十万 kept vague, value carried as "hundreds of thousands")
+数十万
+# 万众瞩目 = "before the eyes of the multitude" (万 idiomatic, not a count)
+万众
+# 坂谷政三 Sakatani Masazō (Japanese POW), 三=3 in name
+坂谷政三
+# 马汉三 Ma Hansan (Juntong boss), 三=3 in name
+马汉三
+# 赵老五 Zhao Laowu (brigand nickname in a quoted document), 五=5 in name
+赵老五
+# 三交 Sanjiao (Shanxi place with a Japanese intelligence post), 三=3 in place name
+三交
+# 十字岭 Shiziling (where Zuo Quan was killed), 十=10 in place name
+十字岭
+# 王八 (乌龟对着王八亲, an idiom of cronyism), 八=8 inside the idiom
+王八
+# 第二年 = "the following year" (第二 ordinal time, rendered "the following year")
+第二年
+# 二是 = enumerator "for another / secondly" (一是…二是…), rendered "partly…partly"
+二是
