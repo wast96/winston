@@ -1871,3 +1871,127 @@ renounces the love as a ninja's hollow show, and leaves for Fushimi to kill the 
 too late, senses the breath of a man walking to his death.
 Next: B15 = ch15 五三ノ桐 / The Paulownia Crest, folios 508-565 (offset should stay 0 —
 printed == PDF — READ folios to confirm; ch14's tail is on 508 before the 五三ノ桐 title).
+
+## B15 — ch15 五三ノ桐 / The Paulownia Crest (printed folios 508-565; opener mid-508, tail spills onto 566) — COMPLETE
+Body paragraphs: 440. Notes: 5 new (book total 114). Figures: none (text-only, deliberate).
+
+### Folio-to-PDF map (READ off the running heads; printed == PDF throughout)
+Confirmed by stacking the top running-head strips (scratchpad/topstrips.py 508-537, 538-567) and
+reading every folio: printed == PDF unbroken across 508-567. No duplicate leaf, no gap. ch15 opens
+mid-folio 508 (the 五三ノ桐 title sits below ch14's tail, which is body para 444 of ch14 and stays in
+ch14). ch15's own tail runs to folio 566 and ENDS there, just before the 甘南備山 (ch16) title, which
+opens mid-566 exactly as ch15 opened mid-508. B16 must start at the 甘南備山 title and not
+re-translate ch15's spillover on 566. Built data/pagemap/ch15.json (59 entries, printed==pdf 508-566,
+body_paragraph 0..437).
+
+### Checks run (all green)
+- verify_unit ch15: parity 440|440, numbers 0/440 unresolved, anchors 0.
+- check_structure --pairs: 440 | 440 OK (no declared parity exceptions; strict 1:1).
+- check_align ch15: exit 0, median ratio 10.55 en/han; the six outliers are terse dialogue lines
+  (short Japanese exclamations rendering long) plus one compression, all eyeballed and sound.
+- qc_entities: 2 residual misses, both the same declared false positive — 甲賀 place-key 甲斐/Kai
+  matched inside 生き甲斐 / 甲斐がある ("worth, purpose"), not the province Kai. check_content is
+  authoritative and is clean.
+- check_content (data/checks.json + glossary): 245 name occurrences, all in the paired paragraph
+  after a name-survival pass. 16 displaced on the first run, all fixed by naming the character where
+  it read naturally (Jūzō/Gohei/Kohagi/Dōgen in pronoun-only paragraphs; plus one macron slip
+  "Osaka"→"Ōsaka" and two 天竺 rendered to match the shelf, see below).
+- check_register --ref ch01: 0.60x contractions vs the frozen reference, "within tolerance."
+  Formal-by-design chapter: a magistrate's interrogation (Gen'i/Gohei), a merchant-magnate's grave
+  bargaining (Sōkyū), a courtly woman's grief (Kohagi ございます) and a formal-servile nurse, and an
+  extended Zen-monk discourse (Dokutan) plus Jūzō's cold creed. The genuinely casual dialogue
+  (Kisaru's Iga banter, the Sakai prostitute, Dokutan's lighter jibes) IS contracted; the grave
+  registers are kept uncontracted deliberately. Lower than ch06's formal 0.74x because the formal
+  share here is larger; 0.60x is nowhere near the 0.0x that would signal a draft error.
+- check_apparatus: 0 failures, 0 warnings. build_reading_epub: 15 of 20 chapters, 114 notes.
+  qa_epub: PASS (114 refs / 114 bodies / 114 backlinks, all links resolve). epubcheck 5.1.0:
+  0 fatals / 0 errors / 0 warnings.
+- Compound-coverage grep (every 3+-kanji OCR compound over PDF 508-566 vs the hand transcription):
+  every absent compound is an OCR garble of a term I did transcribe (下柘植, 玄以, 葛籠重蔵, 諸天諸菩薩,
+  伎和野, 大蔵卿法印, etc.) or the ch16 title 甘南備山. No real drops.
+- Tail verified against the scan (rule 4): the closing paragraph on folio 566 (Jūzō feigning sleep,
+  Kohagi's image dissolving into a tear on his gaunt cheek, the cold self-mocking smile) matches the
+  source line for line.
+
+### Notes added (5; book total 114)
+1. 百八 the hundred-and-eight walnuts — the sacred Buddhist number (rosary beads; the 108 bonnō).
+2. 五三ノ桐 the paulownia crest (title note, anchored to the body phrase "kill the Taikō"): the
+   go-san no kiri, the paulownia the court granted Hideyoshi, emblem of the Toyotomi summit the
+   chapter's schemers all circle.
+3. クナイ kunai — the ninja's leaf-shaped iron prying tool (here lifting a rain-shutter).
+4. 末法 mappō, "the Latter Days of the Law" (anchored "we of the Latter Days") — the Buddhist age
+   of decline the monk counts himself into.
+5. 般若 prajñā (anchored "we call that wisdom prajñā") — liberating wisdom; the monk's charge that
+   ninjutsu is a counterfeit enlightenment founded on its denial.
+
+### NOT re-noted (already placed in ch01-ch14; cross-referenced, not repeated)
+Akechi Mitsuhide / Honnō-ji Incident / the field of Yamazaki (ch01, ch08 — the 明智/維任日向守 turncoat
+and his 11-day fall); Tenjiku = India (ch07); the Taikō/太閤, Hōin/法印, Ōkurakyō/大蔵卿, Naifu (内府/
+内大臣 the Inner Minister = Ieyasu), go-bugyō/五奉行, Ishida the Jibu-no-shō/治部少輔; Hideyoshi /
+Nobunaga / Ieyasu; Hidetsugu the adopted kampaku & the 1595 purge; Sekigahara; the Korea invasion &
+Konishi Yukinaga; Sakai the free-city & its tea-master merchant houses; the wakō/bahan ships, Luzon
+(呂宋) & Ming trade; the measures (ri/chō/koku/kan/kanmon/jō); rappa/shinobi/jōnin/genin, jizamurai/
+gōshi, くノ一/kunoichi; 化生/keshō; the Mochizuki house of Kōga; the Sasaki/Rokkaku of Ōmi; Ren
+(Kisaru's given name); the zodiac watches (丑ノ刻/二更/六ツ); Benzaiten (弁天); Fushimi Castle. The
+minor low-stakes tier left unfootnoted this chapter: the Sakai street-and-shrine geography (住吉/宿院/
+甲斐町/三村ノ宮/大小路通/常楽寺), the Sakai merchant one-offs (宗薫, 天王寺屋の津田, 芝辻理右衛門,
+小西隆佐/弥九郎), Hosokawa Tadaoki's gold anecdote, 二歳猫, 焼きが回る, 麝香猫, 布袋/福禄寿, the shōgi
+board, 木石鳥獣/畜生道 (rendered in plain sense in the monk's discourse).
+
+### Renderings — reused unchanged (consulted glossary before romanizing; NO new glossary rows)
+Principal cast: Tsuzura Jūzō (葛籠重蔵 / 重蔵), Kazama Gohei (風間五平 / 五平; now Gero Shōbei), Kisaru
+(木さる), Kohagi (小萩), Imai Sōkyū (今井宗久 / bare 宗久), Maeda Gen'i (前田玄以 / 玄以; office 京都奉行),
+Ishida Mitsunari (石田三成 / 石田治部少輔 → "Ishida, the Jibu-no-shō"), Shimotsuge Jirōzaemon
+(下柘植次郎左衛門 / 次郎左衛門), Dōgen (洞玄, dead ch14). Places reused: Ōsaka / Ōsaka Castle (大坂/大坂城),
+Komatsudani (小松谷), Fushimi (伏見), Tenjiku (天竺 → "Tenjiku", per ch07), Yamashiro/Iga/Kōga/Sakai/
+Ōmi/Nara/Gifu; measures and titles as glossaried.
+NOT glossaried by design (single-chapter names, consistently romanized, footnote-or-plain only):
+Dokutan (毒潭, the wandering monk), Keikyokusai (荊棘斎, Jūzō's painter alias), Kiheiji of Kawabata
+(川ノ端の喜平次), Imai Sōkun (宗薫), Konishi Ryūsa/Yakurō (隆佐/弥九郎), Hosokawa Tadaoki (細川忠興),
+Tsuda of the Tennōjiya, Shibatsuji Riemon (芝辻理右衛門), the Sakai place-markers, Mount Kannabi
+(甘南備) & Kiwano (伎和野) — these last two carry into ch16 and stay consistent.
+
+### noise.txt added this batch (source side only, longest literal first, documented)
+三千六百万 (36M, carried "thirty-six million"; parser lacks the compound-million form), 百八 (108,
+carried "a hundred and eight walnuts"; Buddhist rosary count), 三村 (Mimura shrine name), 三角
+("triangular", shape not count), 八幡 (Hachiman deity/shrine name), 五条 (Gojō district name). The one
+genuine-quantity English fix that avoided a noise rule: "hundred and twenty thousand koku" →
+"one hundred and twenty thousand koku" so the parser reads 十二万 = 120,000.
+
+### Voice sheets — this chapter (consult at every dialogue scene)
+- **Maeda Gen'i (前田玄以):** the shrewd, life-clinging Kyoto magistrate; opens the chapter polishing
+  his 108 walnuts. Colloquial-authoritative to Gohei (そち/わし/じゃ/かの), secretly easing toward the
+  Tokugawa. Toys, taunts, calculates.
+- **Kazama Gohei (五平):** cold, clerkly, greedy; here he turns his real hunger toward GOLD, not rank.
+  Extorts Sōkyū for 2000 gold, writes to Kisaru half in genuine longing (the first crack of love in
+  him), runs the low-city like a spy. Formal-cold to superiors, teasing to Kisaru.
+- **Imai Sōkyū (宗久):** the great Sakai merchant-magnate, Ōkurakyō Hōin; grave, sardonic, unhurried,
+  a blade under the yawn (わし/じゃ/そち/ぞ). Names Gohei's whole pedigree from his sickbed; buys his
+  own hour's sleep with a second thousand gold "as a blessing on the bargain." Formal by design.
+- **Kisaru (木さる):** spirited, blunt Iga dialect (じゃ/のじゃ, self-refers 木さる/わたくし), still aching
+  for Jūzō under the bravado. Proposes marriage to Gohei for her own advantage, cites old Kiheiji's
+  worldly wisdom. CONTRACTED, lively — the chapter's warmest voice.
+- **Dokutan (毒潭):** the wandering Zen monk who sees through Jūzō — earthy, booming, roguish, wise
+  (わし/おぬし/じゃ). Loves Kohagi; sent by her to break Jūzō's ambition. His discourse (prajñā, mappō,
+  the beast-realm) is grave but never wooden; his banter is contracted. Jūzō lets him go.
+- **The Sakai prostitute:** Kansai-dialect, deferential to her samurai client (ございます/さかいに/
+  こなた様); the whole Sakai-merchant politics comes through her pillow-talk. Contracted, warm.
+
+### Where the story stands (end of ch15)
+Bunroku 3 (1594), the days after Jūzō's raid on Gen'i's residence. Gen'i quietly tilts to the
+Tokugawa and lets Gohei run the Iga work his own way. Gohei traces Jūzō to Imai Sōkyū's villa in
+Sakai, breaks in by night, and learns Sōkyū's own secret: the great merchant means to buy Hideyoshi's
+death, and had commissioned it through Shimotsuge Jirōzaemon — the very job that fell to Jūzō. Gohei
+extorts 2000 gold to be buried at the ruined Hachiman shrine at Kiwano, below Mount Kannabi, and
+summons Kisaru with three Shimotsuge genin, promising her marriage and a rich life. Kohagi, ordered
+by Sōkyū to have Gohei's whole band slaughtered at Kiwano, resolves instead to take them alive, pin
+the capital's banditry on them, and expose Sōkyū to Ishida Mitsunari — all to keep the wounded Jūzō
+out of danger; she longs only to quit the rappa's life and become an ordinary woman. Meanwhile Jūzō,
+hiding in a Gojō inn as the painter "Keikyokusai," is found out by the wandering monk Dokutan, who
+loves Kohagi and was sent by her to shatter Jūzō's ambition. Their long duel of minds ends in a
+draw: Jūzō learns from Dokutan that Kohagi has become truly human out of love for HIM, lets a single
+tear and a cold smile pass in feigned sleep, and holds to his road — "I am fond of hell, and so to
+hell I go." The three lines of the plot (Gohei's greed, Kohagi's rescue, Jūzō's death-bound purpose)
+now converge on Kiwano and on Fushimi.
+Next: B16 = ch16 甘南備山 / Mount Kannabi, printed folios 566-583 (opener mid-566, offset should stay
+0 — printed == PDF — READ folios to confirm; ch15's tail sits on 566 before the 甘南備山 title).

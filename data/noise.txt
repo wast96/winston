@@ -197,3 +197,15 @@
 八の字
 # 四つ這い (yotsubai): "on all fours", a set phrase for crawling; the 四 is idiomatic, carried in English as "all fours"
 四つ這い
+# 三千六百万 (36,000,000): Shiba's aside equating 1000 gold to 36 million bita coins; carried in English as "thirty-six million" (parser lacks the compound-million form)
+三千六百万
+# 百八 (108): the Buddhist rosary count of Gen'i's walnuts (108 earthly passions); carried in English as "a hundred and eight walnuts"
+百八
+# 三村ノ宮 (Mimura-no-miya): the 三 is the Sakai shrine's name — "Mimura"
+三村
+# 三角に (sankaku, "triangular"): shape of Sōkyū's eyelids, carried in English as "triangles"; not a count
+三角
+# 八幡 (Hachiman): the war-deity's shrine at Kiwano; the 八 is the name — "Hachiman"
+八幡
+# 五条鴨川 (Gojō): the 五 is the Kyoto district/avenue name — "Gojō"
+五条
