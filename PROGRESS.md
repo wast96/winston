@@ -2202,3 +2202,118 @@ Gohei takes the room opposite, buys the host's discretion with silver, and settl
 to be a Maeda man on an inquiry. Next: B18 = ch18 石田屋敷 / The Ishida Mansion (folios 591-607), which
 opens "a little before that hour" with Kohagi at the Komatsudani villa facing the monk Dokutan
 ("それで、重蔵さまはどう申されましたか").
+
+## B18 — ch18 石田屋敷 / The Ishida Mansion (printed folios 591-608; opens MID-591, tail spills onto 608) — COMPLETE
+
+122 body paragraphs, 3 new notes (book total now 127). All checks green.
+
+### Folio-to-PDF map (READ off the running heads; topstrips.py 591 609 + autocontrast; printed == PDF throughout — CONFIRMED)
+Offset is 0 across the whole span: printed folio == PDF page for 591-609, read off the (very faint)
+running heads of EVERY page (topstrips.py stacks the 0.015-0.072 top strips at zoom 9, autocontrast;
+odd folios verso/left, even recto/right — all consistent). NO duplicate leaf, NO gap. ch18 opens
+MID-591 (ch17's tail occupies the top of 591 through 「…粗略にすまいぞ」, then the 石田屋敷 title, then
+ch18 body その時刻より少し前…). ch18's TAIL spills onto 608 (paras 118-121, through
+「…左近らしいつややかな好色の笑い声をあげた。」) BEFORE the 伏見城 (ch19) title; ch19 body then begins
+五平が、亭主に命じた二階の部屋と… — B19 must NOT re-translate the 608 spillover.
+
+data/pagemap/ch18.json (18 entries, all printed==PDF 591-608, body_paragraph indices unique):
+591→0, 592→2, 593→13, 594→19, 595→30, 596→40, 597→47, 598→50, 599→56, 600→63, 601→73, 602→77,
+603→84, 604→95, 605→100, 606→107, 607→113, 608→118.
+
+### Method
+Hand-transcribed from the full-page images (300dpi, legible), cropping columns only for the dense
+mansion-description page (597) and to crop-verify names/numbers/furigana; cross-checked column order
+against raw data/txt OCR on the dense pages (the B14/B16/B17 method). Wrote three ~6-page chunks
+(scratchpad/zh + scratchpad/en, one paragraph per line), verified per-chunk line counts, python-
+assembled with a zip-alignment quote-check (0 quote-mismatches). Coverage cross-check: every clean
+3+-kanji compound in the raw OCR over the span appears in the hand zh (the 36 "absent" were all OCR
+garbles of transcribed terms, or the correctly-excluded ch17 tail on 591 / ch19 body on 608).
+Force-added data/zh/ch18.txt.
+
+### Checks (all green)
+- Parity 122 | 122 (check_structure --pairs OK). Positional zh↔en zip: 0 quote-mismatches.
+- Numbers: verify_unit 122 pairs, 0 unresolved (after fixes). Fixes: "a hundred and ninety-four
+  thousand" → "one hundred and ninety-four thousand koku" (194000, parses; matches ch08 house style);
+  零(ゼロ) carried as "her value close to zero" (0). Noise additions (source-side, unparseable
+  compounds, value verified by eye): 一万五千 (15,000 koku — parser can't compose a teens+thousand
+  spelled form; English keeps "fifteen thousand koku") and 劫億 (gō-oku, Buddhist boundless-time,
+  the 億=100,000,000 is idiomatic; rendered "aeons beyond counting"). 40,000 koku ("forty thousand")
+  parses fine.
+- check_content: 95 name occurrences, all in the paired paragraph (0 displaced) after a name-survival
+  pass over 7 pronoun-only paragraphs (named Kohagi/Sakon where the source has 小萩/左近). qc_entities:
+  0 misses. (check_content authoritative.)
+- check_align: 5 ratio-inflated pairs (20, 39, 83, 115, 116) — terse Japanese dialogue/short narration
+  rendered into naturally longer English; declared exceptions, not content issues (B15-B17 precedent).
+- check_register --ref ch01: 0.68x (contr 10.8/1k, shall 20%, em-dash 1.8/1k, rhythm CV 0.74) —
+  WITHIN TOLERANCE. Low-side by design: a court/intrigue chapter (Kohagi's courtly ございます/ませ,
+  Dokutan's grave prajñā discourse, Sakon's measured strategic speech), comparable to ch06 (0.74x)
+  and ch15 (0.60x). Casual banter (Dokutan, Sakon) contracted as written.
+- check_apparatus clean; qa_epub PASS (20 docs, 127 refs/bodies/backlinks, 377 pagebreaks);
+  epubcheck 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+### Notes added (3; book total now 127) — ch18 first-appearances only
+1. **Shima Sakon (島左近)** — anchor "Shima Sakon Katsutake" (first appearance, para 46). Who he is:
+   Mitsunari's celebrated chief retainer (鬼左近/"Demon Sakon"), the saying 「三成に過ぎたるもの…島の左近と
+   佐和山の城」, coaxed from retirement, killed at Sekigahara 1600 (Western vanguard, the Kuisegawa raid).
+   FACT-CHECK (corroborated, with a flagged discrepancy): scholarship (ja.Wikipedia 島清興,
+   en.Wikipedia Shima Sakon) gives his stipend as **二万石 (20,000 koku), half of Mitsunari's 40,000**;
+   Shiba's text says **一万五千石 (15,000)** and calls it "ほぼ半分". The English keeps Shiba's 15,000
+   FAITHFULLY; the note states the traditional 20,000 figure alongside (contradicted source claim
+   footnoted, not silently corrected — CLAUDE.md rule 5 / STYLE fidelity).
+2. **Dry-landscape garden (枯れ山水/kare-sansui)** — anchor "dry-landscape garden" (para 0). The Zen
+   raked-gravel-and-set-stone garden that evokes water without water.
+3. **The edible walls (鰯/するめ in the wall-clay)** — anchor "Dried cuttlefish had been worked into the
+   wall-clay" (para 46). FACT-CHECK (honest verdict): Mitsunari's austere, siege-minded building (rough
+   plaster, board floors) is well attested; the "edible castle" device (food set into the fabric as
+   siege rations) is most famously recorded of **Katō Kiyomasa's Kumamoto Castle** (dried gourd in the
+   walls, taro stalks in the tatami), NOT independently attested for Ishida's houses — the note says so.
+   (Sources: 佐和山城 ja.Wikipedia; shirobito.jp Kumamoto "edible castle" article.)
+
+### NOT re-noted (already placed in ch01-ch17; cross-referenced, not repeated)
+- **Ishida Mitsunari / 治部少輔 / the Ishida office** — noted ch08 (anchors "Ishida Jibu-no-shōyū",
+  "the Toyotomi Five Commissioners"). Rendered "Ishida, the Jibu-no-shō" / "Mitsunari" per glossary.
+- **Sasaki / Rokkaku** (Kohagi's lineage) — noted ch09. Rendered "the Sasaki" consistently.
+- **太閤/Taikō (Hideyoshi), 徳川内府/Naifu (=Ieyasu), 五奉行/five commissioners, 関ヶ原/Sekigahara,
+  征韓ノ役/Korea campaign, 名護屋/Nagoya, 伎和野/Kiwano, 元亀・天正/Genki & Tenshō eras, 文禄/Bunroku,
+  比丘・優婆塞/monk & lay-believer, びるしゃな仏/Vairocana, 四半刻/the quarter-toki, 堺/Sakai & 大蔵卿法印/
+  Ōkurakyō Hōin (Sōkyū), 伏見(城)/Fushimi, ken/koku measures** — all noted ch01-ch17; cross-referenced.
+- **雲水/Dokutan the wandering monk** — Dokutan and his mendicant status predate ch18 (voice sheet);
+  not a first appearance, so no new note. Rendered "wandering monk", still "Dokutan".
+
+### Renderings — reused unchanged (consulted glossary before romanizing)
+石田三成/三成→Ishida Mitsunari/Mitsunari, 小萩→Kohagi, 葛籠重蔵/重蔵→Tsuzura Jūzō/Jūzō, 今井宗久/宗久→
+Sōkyū, 秀吉→Hideyoshi, 徳川内府→Tokugawa Naifu, 淀君/秀頼/利家 (not in ch18), 伊賀/近江/大和/堺/朝鮮→
+Iga/Ōmi/Yamato/Sakai/Korea, 名護屋→Nagoya, 関ヶ原→Sekigahara, 伏見/伏見城→Fushimi/Fushimi Castle,
+小松谷→Komatsudani. Dokutan (毒潭) kept from earlier (not glossaried, by design).
+
+### Glossary — NEW rows (3, the B04-method: byte-preserving json load/dump, added into people section)
+- 島左近 → "Shima Sakon" (attested); 左近 → "Sakon" (attested, bare name); 勝猛 → "Katsutake" (decided,
+  given name, self-referential). Safe full+bare pair (左近 ⊂ 島左近 ⊂ 島左近勝猛), like 重蔵/葛籠重蔵.
+  One-offs left unglossaried/footnoted: 佐々木/Sasaki (rendered "Sasaki", cross-ref ch09 Rokkaku note),
+  筒井/Tsutsui, 佐和山/Sawayama, 犬上川/Inukami-gawa, 高宮/Takamiya, 毒潭/Dokutan.
+
+### noise.txt additions
+一万五千 (15,000 koku, Sakon's stipend; parser can't compose teens+thousand; English "fifteen thousand
+koku"); 劫億 (gō-oku, Buddhist boundless-time, 億 idiomatic; English "aeons beyond counting").
+
+### Figures
+find_figures.py 591-609 found none; every page eyeballed during transcription — ch18 is text-only like
+ch01-ch17. Empty figure list is a deliberate decision (no figures.json ch18 entry).
+
+### Where the story stands (end of ch18)
+The chapter cuts back to KOHAGI, "a little before that hour" (i.e. before Gohei took the inn room in
+ch17). At the Komatsudani villa she faces the wandering monk DOKUTAN, who reports he failed to break
+Jūzō's ambition (Jūzō is calm, all preparations complete, ready to move on Fushimi). Kohagi resolves to
+change Jūzō by "a woman's truth" and dismisses Dokutan. That night, in black ninja garb, she infiltrates
+the Ishida mansion at Fushimi (Mitsunari away at Nagoya on Korea-campaign business) and reaches SHIMA
+SAKON, Mitsunari's chief retainer, governing in his absence. She confesses she loves Jūzō — the very Iga
+ninja who, at Sōkyū's instigation, means to assassinate the Taikō — and invokes Sakon's old promise to
+be her "uncle." Sakon, moved (and, the narrator notes, a man who will die at Sekigahara for a lord who
+knows him), lays out the政略: no proof of Sōkyū's treason exists but Jūzō himself, so the plan is to
+quietly kill Jūzō and let Sōkyū be — the realm is a sleeping tiger (Hideyoshi aged, Korea draining the
+country) not to be provoked. But Sakon agrees to help Kohagi try to "cage" the hunter instead: he will
+lend her men as beaters to drive Jūzō from the field, the caging is hers as a woman — with one condition.
+If Jūzō breaks through and nears Hideyoshi's residence, Sakon cuts him down; the realm's safety trumps
+all. Kohagi accepts: in that case she will kill Jūzō with her own hand. Next: B19 = ch19 伏見城 / Fushimi
+Castle (folios 608-652, the FINAL novel chapter), opening 五平が、亭主に命じた二階の部屋と… (Gohei watching
+Jūzō's inn from the room opposite).

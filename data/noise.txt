@@ -213,3 +213,7 @@
 八坂神社
 # 四明岳 = Shimeigatake, a peak of Mount Hiei (叡山); the 四 is the place name — rendered "Shimeigatake"
 四明岳
+# 一万五千 (15,000): the koku Mitsunari gave Shima Sakon; carried in English as "fifteen thousand koku" (parser cannot compose a teens+thousand spelled form)
+一万五千
+# 劫億 (gō-oku): a Buddhist figure for boundless deep time (kalpas × myriads), not a countable quantity; rendered "aeons beyond counting". The 億 (100,000,000) is idiomatic
+劫億

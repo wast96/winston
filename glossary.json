@@ -662,6 +662,24 @@
       "pinyin": "Nabari no Mimi",
       "status": "decided",
       "note": "名張ノ耳; 耳 (Mimi, 'ear') is a by-name from his keen hearing. A former Iga ninja of the Tsuge faction turned beggar, then Kōga informer; footnoted at first appearance in ch13."
+    },
+    "島左近": {
+      "en": "Shima Sakon",
+      "pinyin": "Shima Sakon",
+      "status": "attested",
+      "note": "Shima Sakon (Kiyooki, also read Katsutake; d. 1600), a famed warrior whom Ishida Mitsunari coaxed out of retirement by giving him nearly half his own stipend to serve as chief retainer. He commanded the Ishida vanguard and fell at Sekigahara in 1600. In this chapter he governs the Fushimi mansion in Mitsunari's absence."
+    },
+    "左近": {
+      "en": "Sakon",
+      "pinyin": "Sakon",
+      "status": "attested",
+      "note": "Bare name of Shima Sakon, used throughout the narration and dialogue."
+    },
+    "勝猛": {
+      "en": "Katsutake",
+      "pinyin": "Katsutake",
+      "status": "decided",
+      "note": "Given name of Shima Sakon; he refers to himself by it."
     }
   },
   "places": {
