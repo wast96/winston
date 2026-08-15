@@ -1626,3 +1626,124 @@ swarmed by a dozen Kōga ninja and the owl-whistles — an ambush LED by Kohagi,
 him alive as proof that Sōkyū's plot is Ieyasu-backed, to force Hideyoshi against the Tokugawa.
 Jūzō breaks free (Kuroami returns to help); Kuroami names Kohagi and warns him to make an end of
 her, Dōgen and Gohei back in the capital — the day to kill the Taikō is near. They part at Sanade.
+
+## B13 — ch13 水狗 / The Water Dog (printed folios 425-456; opener at 425, tail spills onto 456)
+
+**Status: COMPLETE.** 245 body paragraphs, 6 new notes (book total 103). All checks green:
+verify_unit (parity 245|245, numbers 0/245 unresolved, anchors 6 ok), check_structure parity
+245|245 OK, check_align median 9.47 en/han (short kana-heavy ratio outliers on terse dialogue,
+none displaced), qc_entities 1 miss (a DECLARED false positive, see below; check_content
+authoritative pass clean), check_content ch13 184 name occurrences ALL in the paired paragraph,
+check_register 1.34x ref (contractions 21.1/1k vs ref 15.8, shall% 0, em-dash 13.8/1k, rhythm CV
+0.79; within tolerance for a dialogue-heavy chapter, cf. ch11 1.62x / ch12 1.86x), qa_epub PASS
+(34 files, 103 note refs/bodies/backlinks, 224 pagebreaks), epubcheck 0 fatals / 0 errors / 0
+warnings. NO figures (find_figures 425-457 empty; eyeballed every page, text-only like ch01-ch12;
+recorded as a deliberate empty figure list).
+
+### CONFIRMED folio→PDF map (offset 0 throughout: printed == PDF)
+Read off every running head across PDF 425-457 (top-strip crop + autocontrast; folios very faint,
+book title 梟の城 centred, folio at the outer corner). **printed == PDF holds unbroken for the
+whole span**: PDF 425 = folio 425 (ch13 opener 水狗), ... PDF 455 = folio 455, PDF 456 = folio 456
+(ch14 opener 修羅), PDF 457 = folio 457. No duplicate leaf, no gap. The +2 offset stayed ended;
+offset should remain 0 to the end of the book. Built `data/pagemap/ch13.json` (32 entries, folios
+425-456, body_paragraph monotonic 0→244).
+
+### ch12 tail vs ch13 body, and ch13 tail vs ch14 opener (do NOT re-translate either boundary)
+- ch12's tail (5 paras, source lines 209-213 of data/zh/ch12.txt) sits at the TOP of folio 425
+  BEFORE the 水狗 title (Jūzō and Kuroami parting at Sanade). Done in ch12; NOT re-translated.
+  ch13 body begins AFTER the title with 吉野から京へもどった黒阿弥は….
+- **ch13's tail SPILLS onto folio 456** (2 sentences = body paragraph 244, 重蔵はうしろもみず、
+  浅瀬を渡って山に入った。…京の街につづいているはずであった。) at the TOP of 456, then the 修羅
+  title and ch14 body (それから数日たった午後、京都奉行前田玄以の屋敷へ…) follow LOWER on 456.
+  **B14 must start AT the 修羅 title and must NOT re-translate ch13's tail (body para 244).**
+
+### The 6 new notes (ch13) — all genuine first-appearances (anchored to body prose)
+1. "Mimi of Nabari" — the by-name 耳 ("ear") from his keen hearing; Nabari a town in Iga.
+2. "a well-honed kozuka" — the small scabbard-knife; the hand-pinning test hinges on it.
+3. "cut the nine signs" — the ninja counter-spell: the Samaya mudra of Samantabhadra, the
+   protective mantra, and the kuji (nine slashing finger-strokes); the chant echoes the sutra-tag
+   七難即滅七福即生. (The ch06 "nine signs" hit was a false match on "forty-nine" in the
+   shinobi-moji cipher note; the kuji is genuinely new.)
+4. "a castle on the hills of Fushimi" — Hideyoshi's Fushimi Castle (begun 1592, his last seat and
+   death-place 1598); cross-ref: it names the final chapter.
+5. "the early Genki and Tenshō years" — the Genki (1570-73) and Tenshō (1573-92) eras; ties the
+   ninja province's destruction (the 1581 rising, by the Udaifu / Nobunaga) to the period.
+6. "half sunk in the shallows" — the title 水狗 "Water Dog": an emblem whose force gathers at the
+   riverbed close (the aged rappa strewn and half-drowned). Anchored to the body scene, not the
+   heading (per the batch rule against heading-only anchors).
+
+### NOT re-noted (already placed ch01-ch12; cross-referenced, not repeated)
+Iga/Kōga, the Tenshō Iga Rebellion, Tenshō/Bunroku dating, jōnin/rappa/shinobi, the Udaifu (右府,
+Nobunaga's court title), Hideyoshi/Nobunaga, the Jurakudai (聚楽第) and Hidetsugu, Ōsaka/Sakai/
+Kyoto, Hōkō-ji, Rakshasa Valley, Otogi Pass, the measures (chō/ken/ri/toki/half-toki), the
+zodiac double-hours, Sennyū-ji (ch05), 化生 keshō, the shinobi-moji cipher (ch06). ch13's roll-call
+and place names are single-chapter and rendered in prose without notes (see below).
+
+### Glossary rows — reused unchanged vs added
+- **Reused unchanged:** 黒阿弥 (Kuroami), 葛籠重蔵/重蔵 (Tsuzura Jūzō/Jūzō), 摩利洞玄/洞玄 (Mari
+  Dōgen/Dōgen), 五平 (Gohei), 小萩 (Kohagi), 下柘植次郎左衛門 (Shimotsuge Jirōzaemon), 秀吉
+  (Hideyoshi), 秀次 (Hidetsugu), 信長 (Nobunaga), 乱波 (rappa), 伊賀/甲賀 (Iga/Kōga), 近江 (Ōmi),
+  羅刹谷 (Rakshasa Valley), 御斎峠 (Otogi Pass), 方広寺 (Hōkō-ji), 聚楽第 (Juraku/Jurakudai),
+  大坂/堺 (Ōsaka/Sakai), 名張 (Nabari), 阿弥陀ヶ峰 (Amidagamine — conformed ch13 to this established
+  glossary form; I had first drifted to "Amida-ga-mine"), 甲斐 (Kai).
+- **Added (1):** 名張ノ耳 → Mimi of Nabari (people; the recurring new character). Safe substring
+  vs the place-key 名張/Nabari (place Nabari never appears standalone in ch13; check_content clean).
+- **Single-chapter names left in prose (NOT glossaried, per the ch12 route-marker convention):**
+  柘植義宗 Tsuge Yoshimune (Mimi's dead jōnin), and the Iga roll-call at Amidagamine — 大呂源左衛門
+  Ōro Genzaemon, 上野ノ鹿次 Ueno no Shishiji, 平川ノたひょうえ Hirakawa no Tahyōe, 上塚道願 Uezuka
+  Dōgan, 上柘植ノ佐吉 Kamitsuge no Sakichi; places 珠宝院 Shuhō-in, 射庭川 Iba-gawa, 山科 Yamashina,
+  渋谷越 the Shibutani pass, 浮世橋 Ukiyo-bashi, 東山 Higashiyama, 伏見 Fushimi (footnoted), 遠州
+  Enshū, 武田家 the Takeda, 紀州鷺ノ森 Saginomori in Kishū. All crop-verified against furigana/scan.
+
+### data/noise.txt — added 1 (source side, decade-of-age word carried in English prose)
+二十代 (nijūdai, "in one's twenties"): rendered "in their twenties"; the digit-matcher wanted a
+literal 20. Same class as the existing 十四、五 entry.
+
+### DECLARED qc_entities false positive (check_content authoritative pass is clean)
+- **甲斐 (Kai)** flagged at body para 118: the substring sits inside 年甲斐もなく ("past all his
+  years"), a common idiom, NOT the province Kai. Verified against the scan; check_content (the
+  authoritative displacement check) does not flag it.
+
+### Name-survival pass (as in B10/B11/B12)
+9 pronoun-only paragraphs re-anchored to carry the rendered name where the source names the
+character (8 for Kuroami, plus surfacing "rappa" in body para 20's 乱波づれ). One split fix
+en route: Kuroami's two instructions at the ford (body paras 79/81) had been merged and the
+genin's reply 「心得申した」 ("Understood.") dropped; restored to keep parity 245|245.
+
+### Compound-coverage cross-check (before shipping)
+Ran the 3+-kanji Counter over the raw OCR (data/txt) for the ch13 span vs the hand transcription:
+69 distinct compounds absent, ALL OCR garbles of terms present (e.g. 黒阿殊/黒阿張 = 黒阿弥,
+羅利谷 = 羅刹谷) or ch12-tail (p425) / ch14-body (p456) content outside ch13. No real drop.
+
+### The mantra (body para 115) as set-off verse
+黒阿弥's counter-spell 悪魔降伏、怨敵退散、七難連滅、七復連生秘 is one parity line marked {p}
+(verse), between the narration that introduces and resumes it (paras 114/116), matching the ch06
+cipher precedent. Rendered to sense and footnoted; the printed 連滅/連生秘 (vs the standard
+即滅/即生) kept as the source has it (source-error-visible policy).
+
+### Voice sheets — this chapter
+- **Kuroami:** the chapter is his death. Humble-archaic ござる/申す to his men; keeps a grave,
+  uncontracted dignity in his creed to Dōgen ("A ninja stands, in the world's eye, on the one
+  thing — that he never betrays the man who hired him"); his last word is a vow that Lord Jūzō
+  will avenge him. Cuts his own carotid with the yoroidōshi rather than be taken.
+- **Mari Dōgen:** folksy, mocking, cruel; the wry old Kōga master ("Run like that and you'll do an
+  old man's health a mischief"); kicks Kuroami's corpse; leaves the Iga dead for the crows.
+- **Nabari no Mimi (new):** a broken Iga survivor turned beggar, wheedling ("H-have mercy") then
+  vengeful ("Kuroami, you'll remember this"); works Dōgen's mind-attack on Kuroami by his keen ear.
+- **Uezuka Dōgan (new, one chapter):** the eldest of Kuroami's Iga men; a proud, gravelled elder.
+  His parley-speech to Dōgen (old comrades from Takeda days) is measured and weighty by design;
+  he charges the Kōga ranks and beheads himself. Kept its formal register.
+- **Jūzō (close only):** terse, cold resolve. Finds Kuroami's body at the ford; whoever did it —
+  Gohei, Dōgen, or Kohagi — "no matter"; resolves on revenge, pays a farmer for the crows' requiem
+  ("Say I'm one of the crows' own kin"), and crosses into the mountains for the capital.
+
+### Where the story stands (end of ch13)
+Back from Yoshino, Kuroami closes the whetstone shop and re-gathers his scattered rappa at the
+Rakshasa Valley ruin, setting them to watch Hideyoshi (now building Fushimi Castle, lodging at the
+Jurakudai). But Nabari no Mimi, a beggar Kuroami turned away, has sold the Iga hideout to Mari
+Dōgen of Kōga. Dōgen runs Kuroami down; at Amidagamine Kuroami's dozen aged Iga men (13 with him)
+face 50 young Kōga. In a running fight down to the Iba-gawa riverbed the Iga die as death-troops,
+Uezuka Dōgan last; Kuroami, offered his life to betray the plot, refuses and kills himself, vowing
+Jūzō's revenge. At dawn Jūzō, coming from Otogi Pass by the Shibutani pass, finds the black-clad
+dead in the shallows, knows Kuroami, and swears to make the Kōga bleed before he kills the Taikō.
+Next: B14 = ch14 修羅 / Carnage, folios 456-507 (offset should stay 0; read folios to confirm).

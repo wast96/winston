@@ -191,3 +191,5 @@
 千本
 # 五節の舞 (Gosechi no mai): proper name of the ancient court dance; the 五 is part of the name, not a count
 五節
+# 二十代 (nijūdai, "in one's twenties"): decade-of-age word, carried in English as "twenties" (cf. 十四、五)
+二十代
