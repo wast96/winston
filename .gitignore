@@ -18,6 +18,10 @@ SETUP_REPORT.txt
 # out/*_en.json (the authored English, one array per unit), data/noise.txt.
 # A project that gitignored data/zh paid for it: every fresh session had to
 # regenerate it before any check could run.
+# Also TRACKED: STYLE.local.md (the voice-gate ledger, this book's accumulated
+# style evolution; losing it loses that work) and STYLE.md (the composed
+# contract, deterministic from the styles/ layers, kept for auditable diffs).
+# The styles/ layers themselves are shelf-wide source, always tracked.
 
 # QC intermediates and reports that rebuild from tracked files
 out/*_bilingual.md

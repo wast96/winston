@@ -4,6 +4,27 @@ A project forked from this template should note here WHICH version it forked,
 so a mid-book "template upgrade pass" knows what fixes it predates. Keep this
 file when instantiating a project.
 
+## v2.2 — 2026-08-15
+
+The composable style system, plus the voice-gate auto-evolution loop.
+
+- STYLE IS NOW COMPOSED, not hand-written per book. `scripts/compose_style.py`
+  builds a book's `STYLE.md` from shelf-wide `styles/` layers (`_base` +
+  `lang-<zh|ja>` + `genre-<fiction|nonfiction>`, selected mechanically from
+  `book.json`), alongside `STYLE.local.md`, the book's own voice-gate ledger and
+  the only style file a session edits. `styles/INDEX.md` documents selection and
+  the between-books promotion rule; `check_style_freshness.py` flags when a layer
+  has moved since a book was composed (informational; never recompose mid-book).
+- VOICE-GATE AUTO-EVOLUTION (Step 0c): a context-blind critic (a fresh reader
+  with no source, no `STYLE.md`, no project context, driven by
+  `review/voice_gate_critic_prompt.md`) flags what reads wrong as English; the
+  fixes are applied against the source and distilled into `STYLE.local.md` rules
+  (general ones tagged `#promote`), up to three rounds, before the human gate.
+  `voice_gate_critique.py` does the plumbing.
+- `tools/sync_shared.sh` carries `styles/` and the new scripts so the scanned
+  and EPUB masters stay identical. `tests/run_tests.py` covers layer selection,
+  substitution, determinism, freshness, and the missing-VOICE_TARGET guard.
+
 ## v2.1 — 2026-08-05
 
 The reader-experience pass, plus conformance hardening.

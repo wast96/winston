@@ -47,6 +47,12 @@ quoted examples.)
     English figure that lands the same punch ("turn enemies into friends, and
     friends into our own"); when the figure cannot survive, render the sense and
     footnote the lost image if it matters.
+15. **The interiority calque.** Chinese marks an inner state with an organ:
+    心里想 / 心中 ("thought in his heart"), 打心眼里, and the doubled "feel a
+    feeling" shape. Rendered literally it becomes "he thought in his heart,"
+    "felt a feeling of sorrow," "deep in his heart." English carries interiority
+    in the verb: "he thought," "he grieved." Strip the organ and the doubled
+    "feel a feeling"; keep the body only where the scene makes it literal.
 
 ## The calque sweep (grep these every batch)
 Word-for-word carries of specific Chinese constructions. Each is a find-and-fix.

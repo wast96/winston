@@ -32,6 +32,13 @@ quoted examples.)
     tension seemed suddenly to leave him," not "all at once at ease once he saw
     the old man meant kindly" (which also stutters *at once ... once*). Watch
     for and kill that kind of accidental repetition.
+11. **The interiority calque.** Japanese marks an inner state with an organ and
+    a location: 心の中で ("within his heart"), 胸に ("in his chest"), and the
+    "feel a feeling" shape 悲しみを感じた. Rendered literally it becomes "he
+    thought in his heart," "felt a feeling of grief," "in the deep places of the
+    heart." English carries interiority in the verb: "he thought," "he grieved,"
+    "he was worn out." Strip the organ and the doubled "feel a feeling"; keep
+    the physical body only where the scene makes it literal (a hand at the chest).
 
 ## Em-dash budget
 At most ONE em dash per sentence, OR one matched PAIR used as parenthetical
