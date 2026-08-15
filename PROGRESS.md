@@ -170,3 +170,36 @@ subjects, the "to effect" doubled adverb, the closing "once heard"). Added 孙�
 Sun Tzu and 孙子兵法 = Art of War to glossary; updated the two Sun Tzu note anchors
 and bodies. All checks still green; qa_epub PASS; epubcheck 0/0. Content is
 otherwise unchanged (a style pass, not a retranslation). Re-presented at the gate.
+
+## B01 voice-gate revision (commissioner feedback, round 2 — full read)
+
+A second, much deeper review of the whole preface + ch01. Applied every item:
+- Systemic/global: 破坏 "wrecking"->"sabotage"; 半个月 "half a month"->"two weeks";
+  killing verbs put on a controlled set (制裁/镇压叛徒 = eliminate, 处决 = execute,
+  broad 镇压 = crush; never "put down/dealt with" for lethal acts); "great"
+  de-cluttered (major/considerable/far-reaching); numeral style fixed (spell <100
+  and rhetorical rounds, digits for 100+/statistics); 及时 settled on "in time";
+  trailing 。…… no longer ". …" in narrative (cut) or quotes (single trailing …);
+  photo-caption disclaimer stated once in the translator's note, stripped from
+  both captions.
+- Per-item diction fixes (heart's blood->heart and soul; take->gather
+  intelligence; pulled out->recruited from within; drove into->planted inside;
+  throwing out->discarding; law of winning->of victory; stood on the defensive->
+  lagged; spread->posted; wrong door->wrong place; etc.).
+- Accuracy catches: 英租界 rendered "International Settlement police" (no British-
+  only concession by 1922) with a footnote; the 虎狼成群 name-pun (Yang HU/tiger,
+  Chen QUN/pack) now footnoted instead of read as a numeric slip; 单线联系 glossed
+  as single-line contact tradecraft; a note on the 向导 4->6 issue gap; "Chen
+  Duxiu's wife, Gao Junman" (antecedent fix).
+- Two of my own inserted note-glosses had wrong characters: 谊->谋 (谋攻篇) and
+  闽->闸 (闸北/Zhabei). Fixed. RULE recorded: proofread every inserted hanzi
+  char-by-char against the glossary or scan.
+- Thinned Wikipedia/Baidu pointers: cited Wakeman, Policing Shanghai for the
+  Special Section; dropped the explicit Baidu pointer on Cheng Ziqing.
+- STYLE.md updated with the round-2 META-DIAGNOSIS (translating at the token/
+  clause level instead of writing English), seven more rulings, a decided-
+  renderings word-level ledger, and the numeral rule.
+- Section heading "...You Take a Beating" KEPT: the source 没有情报保卫工作就要挨打
+  is itself colloquial/punchy; the register variation is the author's.
+All checks green; 40 notes; qa_epub PASS; epubcheck 0/0. Style pass only,
+content unchanged.

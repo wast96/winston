@@ -359,6 +359,121 @@ says" intro.**
   location: "In the chapter 'Attack by Stratagem' in Sun Tzu's *Art of War*,
   it says:". (Recorded in glossary.json: 孙子 = Sun Tzu, 孙子兵法 = Art of War.)
 
+### Round 2 (a full read of the preface and ch01): the deeper diagnosis
+
+Round 1 caught the machine at the level of the SENTENCE (architecture: front-
+loading, run-ons, doubled pairs, inversion). Round 2 caught it one level lower
+and one level higher at once, and the two together name the real fault.
+
+**The real fault: translating at the level of the word and the clause instead
+of asking what a writer of English narrative history would actually put on the
+page.** STYLE.md already says fidelity is to the meaning, never to the syntax.
+Round 2 shows that principle was being honored for sentence SHAPE and quietly
+broken for everything else: individual word choice, consistency across the
+whole text, and how closely the source was read. The through-line of nearly
+every correction below is the same reflex, "map each Chinese unit to its
+nearest English token," showing up in four places:
+
+1. **Diction (collocation calques).** A word rendered by its dictionary gloss,
+   not the word an English writer reaches for. `破坏` became "wrecking"
+   (sabotage); `心血` "heart's blood" (heart and soul); `半个月` "half a month"
+   (two weeks); `拉出` "pulled out" of a source you actually recruit from
+   within; `打入` "drove into" where the act is to plant/infiltrate; `制裁` /
+   `镇压叛徒` "put down" for what is assassination. Test every content word:
+   is this the word a good English writer would use here, or the gloss of the
+   Chinese? If the latter, it is translationese even when the meaning is right.
+
+2. **Register of the specific act.** Killing read as "put down" or "dealt
+   with," which are soft; a doctrine "thrown out" in formal exposition. Match
+   the FORCE and the FORMALITY of the act: lethal verbs for lethal acts
+   (eliminate, execute, kill), a formal verb (discard, set aside) in
+   exposition. See the killing-verb set in the ledger below.
+
+3. **Consistency across the whole text.** The same source item rendered two
+   ways, or a convention repeated. Numerals were spelled out everywhere except
+   one "2,100"; `及时` wobbled between "in good time" and "in time"; the photo-
+   caption boilerplate was printed on every caption. NAMES already have a
+   ledger (glossary.json); recurring FUNCTION words, number style, the first-
+   person voice, and caption conventions need one too. Keep the ledger below
+   and apply it uniformly; do not re-decide a recurring rendering per sentence.
+
+4. **Reading the source closely enough.** Wordplay and quirks were missed
+   because the source was read for surface sense. `虎狼成群` ("a pack of tigers
+   and wolves") is a PUN on the two men's given names (Yang HU = tiger, Chen
+   QUN = pack); `英租界` ("British Concession") is a period looseness for the
+   International Settlement, which had no British-only concession by then; the
+   `向导` issue count jumps 4 to 6 with no word on the fifth. Close-read for
+   puns, name-glyphs, anachronisms, and numeric gaps, and footnote them; do
+   not smooth past them.
+
+And one operational rule from round 2: **proofread every hanzi you insert into
+a note or gloss, character by character, against the glossary or the scan.**
+Two glosses shipped wrong characters (`谊` for `谋`, `闽` for `闸`) because the
+translator does not read the characters by eye and cannot catch a
+transliteration-to-character slip without checking. The English romanization
+was right both times; the inserted character was not. Never trust your own
+character insertion; verify it.
+
+**5. Kill the collocation calque; render the concept, not the token.** See
+class 1 above and the ledger. The recurring tell is a phrase that is
+grammatical and accurate and still unmistakably decoded ("forestall the enemy's
+wrecking," "poured his heart's blood," "half a month").
+
+**6. No default intensifier; vary and specify.** "great" was doing filler duty
+for `很大` / `巨大` / `重大` six times ("made a great contribution," "its record
+was great," "great events," "by great effort"). Reserve "great" for the fixed
+term (the Great Revolution) and for genuine `极大` force (great courage); vary
+the rest (major, considerable, far-reaching, enormous) or cut. Same for hedges:
+"reasonably sound guidance" reads weak against the surrounding elevation; render
+`比较正确的指导` as "capable leadership" and let it stand.
+
+**7. Numeral style, fixed once (see the ledger).** Spell out whole numbers below
+100 and rhetorical or idiomatic rounds ("a hundred battles," "nearly a hundred
+years"); use figures for 100 and above, for anything needing a comma, and for
+statistics/counts run together ("more than 300 killed, more than 500 arrested,
+more than 5,000 missing"). The jarring mix in one passage ("five thousand… 2,100")
+is the thing to avoid.
+
+**8. Render the FUNCTION of source punctuation, not its shape.** The source's
+`。……` (a full stop plus an ellipsis, marking an abridged litany or a trailing
+quotation) became ". …" mid-narrative, which in English reads as a dropped
+sentence. In running narrative, cut it. In a quotation, close on a single
+trailing ellipsis ("Ouyang Qin was still here…").
+
+**9. The institutional first person is a DELIBERATE, consistent choice.** `我党`
+/ `我军` / `我们` / `敌我` render as "our Party" / "our army" / "we" / "the enemy
+and ourselves." This drops the reader inside the CCP voice, which is right for
+this partisan source. Keep it where the author uses it, keep it consistent, and
+do not let it leak into passages the author writes from the outside.
+
+**Decided renderings ledger (word level; grows through the book).** One
+rendering per recurring item, like the glossary but for diction and function
+words. Wrong form on the left, decided form on the right.
+
+- `破坏` (as an act of the enemy): **sabotage**, not "wrecking."
+- `心血` (`呕心沥血`): **heart and soul** / "poured himself into," not "heart's
+  blood."
+- `半个月`: **two weeks** / a fortnight, not "half a month."
+- `及时`: **in time** / promptly, not "in good time" (which can read as "early").
+- `坚持斗争`: **sustain / carry on the struggle**, not "hold up."
+- `拉出来` / `拉过来` (a source, a unit): **recruit / win over / bring over**,
+  not "pull out / pull over."
+- `打入`: **plant inside / infiltrate**, not "drive into."
+- Killing set (keep it controlled): `制裁` and `镇压` OF traitors or agents by
+  the Section or Red Squad = **eliminate** (or kill); `处决` = **execute**;
+  `除掉` = **kill**; `镇压` of a movement or broad enemy = **crush / suppress**.
+  Never "put down" or "dealt with" for a lethal act.
+- `很大` / `巨大` / `重大`: **major / considerable / far-reaching / enormous**;
+  reserve "great" for the Great Revolution and genuine `极大`.
+- `失踪`: **went missing / reported missing**, not "made to vanish" (which adds
+  agency the source does not state).
+- Institutional first person `我党` / `我军` / `我们`: **our Party / our army /
+  we** (kept deliberately; see ruling 9).
+- Photo captions: translate the source's own label only; state ONCE, in the
+  translator's note, that photographs are reproduced from the source and the
+  identifications are the source's. Do not repeat the disclaimer per caption.
+
 ## The one-line summary
 Cut the scaffolding. Break the walls. Trust the short sentence. Hide the machine.
+Render the concept, not the token; decide a rendering once and hold it.
 Add nothing; the verdict goes in the note.
