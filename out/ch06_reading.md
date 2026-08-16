@@ -10,7 +10,7 @@ It was a workshop of the most ordinary kind.
 
 In the Shanghai of those days such little workshops were as common as dirt.
 
-And yet this one workshop, for all that it did its work in so cramped a space, was raided and shut down by the concession police.
+And yet this one workshop, cramped as its quarters were, was raided and shut down by the concession police.
 
 It happened on the afternoon of December 17, 1930.
 
@@ -48,7 +48,7 @@ The two men, one inside the door and one out, both froze.
 
 The man outside can never have imagined that the person opening the door for him would be a blue-eyed, fair-haired, high-nosed French patrolman.
 
-Still less did the man inside imagine that the criminal he was so bent on running to ground was a house painter—a man whose face was dirtier than his hands, and whose clothes were more streaked with paint and grease than his face.
+The man inside imagined even less that the criminal he was so bent on running to ground was a house painter—a man whose face was dirtier than his hands, and whose clothes were more streaked with paint and grease than his face.
 
 A sense of having been made a fool of took hold of the French patrolman. He roared despite himself, threw up his arms, brandished his pistol, and bawled at the painter.
 
@@ -92,11 +92,11 @@ The vanished Tu Zuochao, with Song Lian, Tan Xianyou, and Liu Xiwu—four in all
 
 The other six on the list of ten were Fang Tingzhen (Fang Zhongru), Mao Qihua, Shen Kanfu (Chen Baoli), Li Yuanjie, Cheng Zuyi, and Chen Changhao. All had earlier been students at Moscow's University of the East, taking "wireless communications" in the "International Wireless Training Class," along with English and "horsemanship, driving, weapons, and demolition."
 
-Tu Zuochao had once had meningitis, and his mind did not work quite as it should; sending and receiving came hard to him, his speed was too slow to keep up with the course, so on his instructor's advice he made the mechanical side his specialty and studied the repair of sets.
+Tu Zuochao had once had meningitis, and his mind didn't work quite as it should; sending and receiving came hard to him, his speed was too slow to keep up with the course, so on his instructor's advice he made the mechanical side his specialty and studied the repair of sets.
 
 In October 1929, Tu Zuochao and Song Lian were ordered to Khabarovsk to serve as mechanics with the Chinese-laborers' guerrilla unit of the "Comintern Far Eastern Detachment" under Liu Bocheng's command. Afterward they also worked for a time at the "Cheka" station in Vladivostok (Haishenwai).
 
-Meanwhile, on a lawn at Stanford University in California, a wireless set of American design had made contact with every station on the continent, to great success. Before long the Nationalist government's own signals began crisscrossing the skies of China.
+Meanwhile, on a lawn at Stanford University in California, a wireless set of American design had made contact with every station on the continent, to great success. Soon the Nationalist government's own signals began crisscrossing the skies of China.
 
 What the Nationalist government mostly used was Morse code, the simplest of telegraphic methods: letters and characters represented by a handful of long and short signals, decoded against a codebook back into words. Yet even this near-primitive means of sending and receiving was beyond our Party. Fighting its hard fight in blood and fire, the Chinese Communist Party and its armed forces could often only rely on messages carried hand to hand, moving along the underground routes. Such human relay was not merely slow; it was unsafe. Living under the rule of the reactionary authorities, a message had to pass through blockade line after blockade line, and so the intelligence could only be written on an undergarment—in invisible ink, in rice water—packed close with tiny characters and worn against the skin. If the enemy found it out, it meant a head offered up and hot blood spilled: a brave death, a martyr's end.
 
@@ -182,7 +182,7 @@ For Zhang Shenchuan, on the watch the night before, had received without the sli
 
 At this Zhang Shenchuan tendered his resignation to the head of the Sixth Army Radio Station, saying tactfully: "There are more and more interns at the station now, and fewer and fewer chances to practice; I think I had better look for another way out. I hope you'll bear with me."
 
-The head was a man of sense. He understood Zhang Shenchuan's difficulty perfectly, and had no wish to see a promising young man's fine prospects ruined at the hands of such ill-intentioned vermin. So he neither pressed him nor tried to keep him, but with a few words of comfort and encouragement saw Zhang Shenchuan out the gate.
+The head was a man of sense. He understood Zhang Shenchuan's difficulty perfectly, and did not want to see a promising young man's fine prospects ruined at the hands of such ill-intentioned vermin. So he neither pressed him nor tried to keep him, but with a few words of comfort and encouragement saw Zhang Shenchuan out the gate.
 
 After leaving the Sixth Army Radio Station, Zhang Shenchuan moved in with He Guo, lately back from work-study in France, and under Li Qiang's guidance tried using the assembled valve radio to copy the political and economic news from foreign-language stations—San Francisco in the United States, Khabarovsk in the Soviet Union—for the Party leaders' reference.
 
@@ -252,7 +252,7 @@ Zhang Shenchuan, seeing how ill things stood, seized the moment while the patrol
 
 Li Qiang, Zeng San, Mao Qihua, and the others, seeing Song Lian—who after lunch had gone back first to the Welfare Electric Company for writing paper—come hurrying back in a fluster to raise the alarm, rushed off to Sichengli to see what had happened. Hearts afire, their whole thought was on Zhang Shenchuan, Zeng Hualun, and the trainees, and they took no heed at all of Song Lian, who had lost his wits and lagged dithering behind, half following and half not.
 
-Li Qiang, Zeng San, Mao Qihua, and the others had only just reached the corner of Rue Ratard and Route Cardinal Mercier (today Maoming South Road) when they saw the gatekeeper of Sichengli already waiting on the south side of the street. He was a kindly soul, past sixty, quite alone, who for years on end spent his days in the little sentry box at the lane mouth; and Li Qiang, Zhang Shenchuan, and the rest, far from looking down on him, would often greet him with a smile and slip him a little help. So the moment trouble came to the Welfare Electric Company, far from gloating or kicking a man when he was down, he passed word to Li Qiang and the others, saying: "Don't go in again! Your people have all been taken! Taken off in a police van!"
+Li Qiang, Zeng San, Mao Qihua, and the others had only just reached the corner of Rue Ratard and Route Cardinal Mercier (today Maoming South Road) when they saw the gatekeeper of Sichengli already waiting on the south side of the street. He was a kindly soul, past sixty, quite alone, who for years on end spent his days in the little sentry box at the lane mouth; and Li Qiang, Zhang Shenchuan, and the others, far from looking down on him, would often greet him with a smile and slip him a little help. So the moment trouble came to the Welfare Electric Company, far from gloating or kicking a man when he was down, he passed word to Li Qiang and the others, saying: "Don't go in again! Your people have all been taken! Taken off in a police van!"
 
 Just as Li Qiang, Zeng San, Mao Qihua, and the others were asking the kindly gatekeeper how it had all come about, Song Lian, trailing far behind, quietly slipped away and ran off alone to hide at his father-in-law's, never sending word to Tu Zuochao.
 
@@ -316,7 +316,7 @@ That was the lowest ebb of the Jiangyin peasant risings; almost all the well-kno
 
 In September 1930, Su Gangda came to Shanghai again and, chosen by the Party's Jiangsu Provincial Committee, entered Sichengli on Rue Ratard in the French Concession as a trainee in the sending-and-receiving course.
 
-Not long after entering the Central Military Prison, Su Gangda learned that in this, the largest prison in the China of those days, apart from Kuomintang navy, army, and air-force men serving sentences or held in detention, great numbers of political prisoners were also confined—political prisoners made up a third of the more than a thousand inmates. He learned too that on April 29, 1931—the very day he, Zhang Shenchuan, Fang Tingzhen, Chen Tan, and the rest were heavily sentenced by the reactionary authorities to nine years and ten months—Yun Daiying, member of the Party Central Committee and secretary of the acting committees for Shanghai's Central and Eastern districts, had died a hero's death within the Central Military Prison, sold out by Gu Shunzhang, at only thirty-six. He learned, too, that the martyr was gone, but the martyr's prison verses passed widely among the fellow prisoners. And so he would silently recite Yun Daiying's lines—"Wandering the rivers and lakes, I recall old journeys; of old friends, the living and the dead, each keeps his thousand autumns. I have long put by grief and care as the common lot, and hold my high spirit still, a captive of Chu"—gritting his teeth to bear an unbearable agony, keeping himself upright and unbending in the "iron-window university."
+Not long after entering the Central Military Prison, Su Gangda learned that in this, the largest prison in the China of those days, apart from Kuomintang navy, army, and air-force men serving sentences or held in detention, great numbers of political prisoners were also confined—political prisoners made up a third of the more than a thousand inmates. He learned too that on April 29, 1931—the very day he, Zhang Shenchuan, Fang Tingzhen, Chen Tan, and the others were heavily sentenced by the reactionary authorities to nine years and ten months—Yun Daiying, member of the Party Central Committee and secretary of the acting committees for Shanghai's Central and Eastern districts, had died a hero's death within the Central Military Prison, sold out by Gu Shunzhang, at only thirty-six. He learned, too, that the martyr was gone, but the martyr's prison verses passed widely among the fellow prisoners. And so he would silently recite Yun Daiying's lines—"Wandering the rivers and lakes, I recall old journeys; of old friends, the living and the dead, each keeps his thousand autumns. I have long put by grief and care as the common lot, and hold my high spirit still, a captive of Chu"—gritting his teeth to bear an unbearable agony, keeping himself upright and unbending in the "iron-window university."
 
 He also saw Shen Kanfu on his last road, on behalf of all the "co-defendants."
 
