@@ -3913,5 +3913,453 @@
    "page": "f244",
    "note": "OCR 乃->万 phantom numeral"
   }
+ ],
+ "ch15": [
+  {
+   "wrong": "刘少和白",
+   "right": "刘少白",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "刘少上",
+   "right": "刘少白",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "刘少百",
+   "right": "刘少白",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "刘少日",
+   "right": "刘少白",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "少和白",
+   "right": "少白",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "移锡山",
+   "right": "阎锡山",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "净锡山",
+   "right": "阎锡山",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "冰锡山",
+   "right": "阎锡山",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "健作义",
+   "right": "傅作义",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "传作义",
+   "right": "傅作义",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "王耕飞",
+   "right": "王若飞",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "王春飞",
+   "right": "王若飞",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "王者飞",
+   "right": "王若飞",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "组远",
+   "right": "绥远",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "杨萌榆",
+   "right": "杨荫榆",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "般鉴",
+   "right": "殷鉴",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "张学铬",
+   "right": "张学铭",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "纪购",
+   "right": "纪昀",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "晓山",
+   "right": "晓岚",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "李易铭",
+   "right": "李鼎铭",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "汉玉祥",
+   "right": "冯玉祥",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "葛介石",
+   "right": "蒋介石",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "刘易",
+   "right": "刘鼎",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "村月笔",
+   "right": "杜月笙",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "杜月么",
+   "right": "杜月笙",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "黄募兰",
+   "right": "黄慕兰",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "谭郧同",
+   "right": "谭嗣同",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "李一谍",
+   "right": "李一氓",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "李一让",
+   "right": "李一氓",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "吴买如",
+   "right": "吴奚如",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "任缠时",
+   "right": "任弼时",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "任弦时",
+   "right": "任弼时",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈志举",
+   "right": "陈志皋",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈志尝",
+   "right": "陈志皋",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈志皖",
+   "right": "陈志皋",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈志果",
+   "right": "陈志皋",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈志浴",
+   "right": "陈志皋",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈志捍",
+   "right": "陈志皋",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈钴",
+   "right": "陈赓",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈六",
+   "right": "陈赓",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈广",
+   "right": "陈赓",
+   "page": "f252-260",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "焦电人恺",
+   "right": "焦鼎恺",
+   "page": "f266",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "东北千的关系",
+   "right": "东北军的关系",
+   "page": "f257/275",
+   "note": "OCR 军->千"
+  },
+  {
+   "wrong": "博十抵达",
+   "right": "博古抵达",
+   "page": "f257/275",
+   "note": "OCR 古->十"
+  },
+  {
+   "wrong": "张家11办",
+   "right": "张家口办",
+   "page": "f263",
+   "note": "OCR 口->11"
+  },
+  {
+   "wrong": "七-五反单命",
+   "right": "七一五反革命",
+   "page": "f263",
+   "note": "OCR 一->- ,革->单"
+  }
+ ],
+ "ch16": [
+  {
+   "wrong": "宋上绸生",
+   "right": "宋再生",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "宋绸生",
+   "right": "宋再生",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "宋捍生",
+   "right": "宋再生",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "宋启汞",
+   "right": "宋启荣",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "能式辉",
+   "right": "熊式辉",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "能元辉",
+   "right": "熊式辉",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "能天辟",
+   "right": "熊天翼",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "能天必",
+   "right": "熊天翼",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "菏老先生",
+   "right": "蒋老先生",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "萝方震",
+   "right": "蒋方震",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "范三珍",
+   "right": "范广珍",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陆连奈",
+   "right": "陆连奎",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "探是陆连",
+   "right": "探目陆连",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "韩复策",
+   "right": "韩复榘",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "韩复扔",
+   "right": "韩复榘",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "圩复和",
+   "right": "韩复榘",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "薛耕革",
+   "right": "薛耕莘",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "朱专楼",
+   "right": "朱岑楼",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈废",
+   "right": "陈赓",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "陈广",
+   "right": "陈赓",
+   "page": "f277-287",
+   "note": "OCR name/term garble"
+  },
+  {
+   "wrong": "赏格$万元",
+   "right": "赏格5万元",
+   "page": "f281-285",
+   "note": "OCR 5->$"
+  },
+  {
+   "wrong": "好吧!1到时候",
+   "right": "好吧!到时候",
+   "page": "f281-285",
+   "note": "stray OCR 1 (quote)"
+  },
+  {
+   "wrong": "19495年",
+   "right": "1949年",
+   "page": "f281-285",
+   "note": "OCR 1949 doubled digit"
+  },
+  {
+   "wrong": "刊登4寻人",
+   "right": "刊登《寻人",
+   "page": "f285",
+   "note": "OCR 《->4"
+  }
  ]
 }

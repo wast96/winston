@@ -165,3 +165,19 @@
 百货大楼
 # 刘锡五 = "Liu Xiwu", a comrade's name, 五 not a count
 刘锡五
+# the March 18 (1926) massacre — rendered "March Eighteenth"
+三一八
+# Wuyuan, the town where Feng Yuxiang held his 1926 oath-taking — rendered "Wuyuan"
+五原
+# "the three teachings and nine streams" (all sorts of people) — rendered "the mixed crowd"
+三教九流
+# 十足 ("full/thorough"), as in 神气十足 / 十足照付 — not a quantity
+十足
+# "Thousand-Li Fragrance," a brand of wine — rendered "Thousand-Li Fragrance"
+千里香
+# the Sanyou Industrial Company — rendered "Sanyou Industrial Company"
+三友实业社
+# Jiang Baili (蒋方震, courtesy name 百里) — rendered "Baili"
+百里
+# "the 1950s" (decade label) — rendered "the 1950s"
+50年代

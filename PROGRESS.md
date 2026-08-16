@@ -911,3 +911,103 @@ Constitutional Monarchy". REUSED unchanged: 任弼时, 关向应, 陈赓, 陈养
 ch14: 1 figure (data/figs/ch14_yipinxiang.png, the 一品香旅社 hotel photo, p278
 folio 234), placed before the "In leading the work of the Central Special Section"
 paragraph. ch13: no figures (every page eyeballed; find_figures found none).
+
+---
+
+## B09 — ch15 (Opening a New Chapter, Part 2) + ch16 (Part 3)
+
+ch15 = 75 body paragraphs, 3 sections (贡生—省议员—开明绅士刘少白 / 牧师和律师 /
+向新闻界发展), 19 notes, 1 figure (Mao's reply-letter facsimile, p305 folio 261).
+ch16 = 42 body paragraphs, 3 sections (淞沪警备司令部 / "第四号政治密查员" /
+英法租界巡捕房), 8 notes, 1 figure (Longhua garrison photo, p322 folio 278).
+Both full-page image pages (p305, p322) sit mid-paragraph; emptied before assemble,
+the spanning paragraph rejoined across the gap.
+
+### Checks run and what they found
+- verify_unit / check_numbers (--noise data/noise.txt): 0 unresolved both units.
+  Real garbles fixed in ZH (carried real values in EN): 东北千->东北军, 博十->博古,
+  张家11->张家口 (口 OCR'd as 11), 七-五->七一五, 赏格$万->5万, 19495->1949,
+  刊登4寻人->《寻人 (《 OCR'd as 4), 好吧!1->好吧! (stray 1). Phantom-numeral noise
+  added: 三一八, 五原, 三教九流, 十足, 千里香, 三友实业社, 百里, 50年代.
+- check_align: OK both (median 4.86 / 4.93 en/han, no pair >2.2x).
+- check_structure --pairs: parity OK (75/75, 42/42).
+- check_register --ref out/ch01_reading.md: within tolerance both (em-dash 0.4 and
+  0.8/1k vs ref 6.0 — dash-glosses avoided per STYLE).
+- qc_entities: ch16 clean; ch15 ONE reported miss = 曾三 (Zeng San), a FALSE
+  POSITIVE: the substring 曾三 sits inside 他曾三去延安 ("he went three times to
+  Yan'an", 曾 = aspect adverb + 三去). Not the person. Documented, not a defect.
+- check_content --config data/check_config.json (ch15/ch16 added to docs+sources):
+  ch16 all-in-paragraph; ch15 only the same 曾三 false positive.
+- apparatus / check_apparatus: 0 failures. qa_epub PASS (61 files, 233 notes).
+  epubcheck (5.1.0): 0 fatals / 0 errors / 0 warnings.
+- Tail verification (rule 4 corollary): final paragraphs of both units read against
+  the scan (p320, p332) — faithful.
+
+### OCR-fixes ledger (data/ocr_fixes.json) — ch15/ch16
+Heavy name garble again. ch15: 陈赓 (陈刻/陈钴/陈庆/陈废/陈六/陈广), 刘少白
+(刘少上/刘少百/刘少日/刘少和白), 陈志皋 (陈志举/尝/皖/果/浴/捍), 阎锡山 (移/净/冰锡山),
+傅作义 (传/健作义), 王若飞 (王耕/春/者飞), 绥远 (组远), 董健吾/浦化人 kept,
+汉玉祥->冯玉祥, 李一谍/李一让->李一氓, 任缠时/任弦时->任弼时, plus the numeric
+garbles above. ch16: 宋再生 (宋绸生/上绸生/捍生), 熊式辉 (能式辉/元辉), 熊天翼
+(能天辟/必), 蒋方震 (萝方震), 范广珍 (范三珍), 陆连奎 (陆连奈), 韩复榘 (韩复策/扔/圩复),
+薛耕莘 (薛耕革), 朱岑楼 (朱专楼). Replay with apply_fixes.py after any clean regen.
+
+### 刘鼎 (Liu Ding), NOT "刘易"
+HANDOFF (B08) listed a settled "刘易 Liu Yi"; that was imprecise. The 情报科副科长
+who liaised with 董健吾 and appears in ch16's closing roster is 刘鼎 (Liu Ding) —
+crop-verified on p309 and p332. The glossary already had 刘鼎 = Liu Ding; kept.
+OCR "刘易" corrected to 刘鼎 in ch15/ch16 ZH.
+
+### Shelf drift flagged for the whole-book reconciliation (NOT fixed here)
+The glossary's decided EN forms were used this batch, but earlier chapters drift:
+晋绥 = "Shanxi-Suiyuan" (glossary) vs 2 stray "Jin-Sui" in earlier units; 军统 =
+"Juntong" (glossary) vs 3 "Military Statistics Bureau"; 同盟会 = "Tongmenghui" vs
+1 "Revolutionary Alliance". Reconcile at book's end.
+
+### Renderings settled (glossary.json is the ledger)
+People added: 董健吾 Dong Jianwu (董贤武 Dong Xianwu; 王牧师 Pastor Wang; 周二胖子
+"Fat Zhou the Second"), 浦化人 Pu Huaren, 宋再生 Song Zaisheng (宋启荣 Song Qirong /
+宋启华 Song Qihua "Young Song"; "老宋" Old Song), 熊式辉 Xiong Shihui (天翼 Tianyi),
+钱大钧 Qian Dajun, 蒋方震 Jiang Fangzhen (蒋百里 Jiang Baili), 陈志皋 Chen Zhigao,
+黄定慧 Huang Dinghui (黄慕兰 Huang Mulan), 傅作义 Fu Zuoyi, 王若飞 Wang Ruofei,
+潘汉年 Pan Hannian, 范广珍 Fan Guangzhen, 刘亚雄 Liu Yaxiong, 蔡麻子 Pockmarked Cai,
+巴和 Baihe (French lawyer), 陈养山 (reused), and the ch16 martyr roster (罗亦农
+Luo Yinong, 彭湃 Peng Pai, 陈延年/陈乔年 Chen Yannian/Qiaonian, etc.). Orgs: 南华通讯社
+Nanhua News Agency, 新四川通讯社 New Sichuan News Agency, 复兴社 Renaissance Society,
+世界与中国杂志社 World and China Magazine society. Works: 西行漫记 Red Star Over China,
+京报 Jing Bao, 文化周报 Cultural Weekly, 徐州日报 Xuzhou Ribao, 晋绥日报
+Shanxi-Suiyuan Daily. Places: 龙华寺 Longhua Temple, 龙华兵工厂 Longhua Arsenal.
+REUSED unchanged: 刘少白, 杨献珍, 胡鄂公, 陈赓, 顾顺章, 杨登瀛, 刘鼎, 李强, 李维汉,
+任弼时, 关向应, 白崇禧, 康生, 阎锡山, 冯玉祥, 淞沪警备司令部, 龙华, 红队, 军统.
+
+### NOT re-noted (already placed in earlier chapters)
+Green Gang, Feng Yuxiang, Zhang Xueliang, Ren Bishi, Guan Xiangying, Gu Shunzhang,
+Du Yuesheng, Wu Hao (the alias; the Notice affair IS newly noted here), Peng Pai
+(cross-ref in the martyr note), Kang Sheng (his 1947 land-reform role newly noted),
+Yan Xishan, Li Lisan, Li Weihan, Longhua (the garrison/martyrs newly noted),
+Bai Chongxi, International Settlement (the 英租界 anachronism newly noted).
+
+### noise.txt additions (this batch)
+三一八 (March 18 massacre), 五原 (Wuyuan), 三教九流 (idiom, 九), 十足 (idiom),
+千里香 (wine name), 三友实业社 (company), 百里 (Jiang Baili), 50年代 (decade). Extend,
+do not prune.
+
+### Figures
+ch15: data/figs/ch15_mao_letter.png (Mao's handwritten reply to Liu Shaobai, p305,
+folio 261), placed before "In 1947, while Liu Yaxiong was working in the Northeast".
+ch16: data/figs/ch16_longhua.png (the Longhua garrison-command gateway, p322, folio
+278), placed before "At that time the Kuomintang's Songhu Garrison Command stood
+north". Both captions mark labels as the source's, caption as the translator's.
+
+### Fact-check verdicts (in the notes; sources: Wikipedia / Baidu Baike, no LLM)
+CORROBORATED: Snow/Red Star & Pastor Wang = Dong Jianwu; Dong Jianwu (Datong
+Kindergarten, sheltered Mao's sons); the Wu Hao Notice forgery + French-lawyer
+counter-notice; the Longhua martyrs & several-thousand scale (caveat: 1927 dead
+Zhao Shiyan/Chen Yannian sourced only as "Shanghai" outside PRC); Fu Zuoyi; Wang
+Ruofei (Heichashan crash 1946); Jiang Baili; No. 76; the Yang Fan case; Han Fuju;
+Kang Sheng & the Jin-Sui land-reform excesses (caveat: Mao rebuked the leftist line
+generally, did not blame Kang at the time); Yan Xishan.
+
+### Setup note
+setup.sh regression test "hook stands down on template stub" FAILS (pre-existing
+template-maintenance stub, does not affect real batches) — all other checks green.

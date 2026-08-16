@@ -120,5 +120,21 @@
       "alt": "A hazy black-and-white photograph of a long two-story building on a street corner, its upper wall carrying the characters of the Yipin Xiang Hotel.",
       "caption": "The Yipin Xiang Hotel, at the corner of Xizang Central Road and Hankou Road, Shanghai. (Label from the source; caption by the translator.)"
     }
+  ],
+  "ch15": [
+    {
+      "file": "ch15_mao_letter.png",
+      "before": "In 1947, while Liu Yaxiong was working in the Northeast",
+      "alt": "A facsimile of a handwritten letter in flowing Chinese brush script, signed with a bold cursive signature at the lower right and dated beneath it.",
+      "caption": "Facsimile of Mao Zedong's reply to Liu Shaobai, 30 October 1948. (The label is the source's; the caption is the translator's.)"
+    }
+  ],
+  "ch16": [
+    {
+      "file": "ch16_longhua.png",
+      "before": "At that time the Kuomintang's Songhu Garrison Command stood north",
+      "alt": "A grainy black-and-white photograph of a fortified gateway topped by an octagonal watchtower flying a pole, with a vertical signboard beside the entrance.",
+      "caption": "The Kuomintang Songhu Garrison Command at Longhua. (The label is the source's; the caption is the translator's.)"
+    }
   ]
 }
