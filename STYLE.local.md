@@ -125,6 +125,25 @@ Built at the first-chapter voice gate from a blind context-free critique.
 real English" and its findings folded into the rules above; the apparatus read
 clean with nothing to blue-pencil.)
 
+### RULE. 享年X岁 is "at the age of X" (died aged X), never "in his Xth year"; and 两/三 + a count-word stays a number when both/all the referents are named. [#promote]
+- **WHY IT HAPPENED (B05).** 享年87岁 first drafted "in his eighty-seventh year"
+  (which means aged 86, an off-by-one); 两同志 + both names first dropped the
+  "two", so the number check flagged a missing 2.
+- **FIX.** "let go of the world at the age of eighty-seven"; "the two comrades
+  Xiong Jinding and Zhu Duanshou". Naming both people does not carry the count
+  for the reader OR the check, so keep the "two/three".
+- **CHECK.** Grep a finished unit for "th year" after an age; read every 享年.
+  When the source counts a named group (两/三/五 + 同志/人/位), keep the numeral.
+
+### RULE. Render a term the glossary has already DECIDED in its decided form; do not re-translate it fresh. [#book]
+- **WHY IT HAPPENED (B05).** 老虎灶 was decided "laohuzao" (and glossed inline at
+  its ch03 first use), but B05 first drafted it "tiger-stove" &#8212; caught by
+  qc_entities against the glossary, not by eye.
+- **FIX.** Consult glossary.json BEFORE rendering any recurring term; laohuzao,
+  shikumen, tingzijian stay romanized per the shelf's decisions.
+- **CHECK.** Run qc_entities every unit; a "not found in English" on a term (not
+  a person) usually means a decided rendering was silently overridden.
+
 ## Decided renderings (this book's word-level ledger)
 
 - 中央特科 &rarr; **the Central Special Branch** (short handle: the Special Branch).

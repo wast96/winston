@@ -192,5 +192,37 @@
       "alt": "A family photograph of several adults and children in padded winter clothes standing before a weathered wooden house.",
       "caption": "April 10, 1956: the Yang Dengying family in a group photograph before their home. (Translating the source's caption.)"
     }
+  ],
+  "ch05": [
+    {
+      "file": "ch05-fuxing-site.png",
+      "before": "The old man asked her: \"Who are you, all of you?",
+      "alt": "A black-and-white street photograph of a two-story shopfront hung with large Chinese signboards along the upper facade; a boxy 1940s sedan stands at the curb with a man in a pale jacket beside it.",
+      "caption": "The old premises of the 'Fuxing' firm at the former No. 447 Yunnan Road, Shanghai. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch05-gong-yinbing.png",
+      "before": "Xiong Jinding's predecessor was Gong Yinbing.",
+      "alt": "A black-and-white studio portrait of a middle-aged, balding man in round wire-rimmed spectacles and a dark buttoned jacket, looking calmly toward the camera.",
+      "caption": "Gong Yinbing. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch05-xiong-zhu-couple.png",
+      "before": "At seven on the evening of January 1, 1966, Zhou Enlai",
+      "alt": "A black-and-white studio portrait of a seated young woman in a pale knitted top and, behind her, a man in a dark gown and skullcap with round spectacles; a column of handwritten characters runs down the left side.",
+      "caption": "Xiong Jinding and Zhu Duanshou. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch05-zhou-statement.png",
+      "before": "For Xiong Jinding, Zhu Duanshou, Xiong Changsu, and the rest",
+      "alt": "A detail of a handwritten document in fluent cursive Chinese brush script, several columns of characters in black ink.",
+      "caption": "A portion of the statement Zhou Enlai wrote out by hand in 1966 for the couple Xiong Jinding and Zhu Duanshou. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch05-yanan-family.png",
+      "before": "In mid-1946 Xiong Jinding and Zhu Duanshou returned to Shanghai",
+      "alt": "A black-and-white outdoor photograph of six people in padded winter jackets standing before bare trees; among them an older bespectacled man, with a younger woman at each end of the group.",
+      "caption": "Xiong Jinding (second from right) and Zhu Duanshou (second from left) with their daughters Xiong Changsu (far left) and Xiong Gengwu (far right), in the Yan'an years. (The label is the source's; the caption is the translator's.)"
+    }
   ]
 }

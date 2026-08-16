@@ -439,3 +439,112 @@ to end. 56 body paragraphs.
   Kai-shek / the Kuomintang (ch01); Nanchang Uprising (ch01); "Judas" (ch03
   title); Yang Dengying/Bao Junfu & Chen Yangshan (ch03); Li Qiang, Dong Jianwu
   (ch01, supplemented here); the tingzijian / shikumen (ch01).
+
+## B05 = Chapter Five "真金库，假夫妻 / A Real Vault, a False Marriage" (ch05)
+
+- **Scope:** PDF 108-123, printed 93-108. Three sections ch05s01-s03 (openers at
+  PDF 109/115/120, folios 094/100/105). Offset held at a constant 15 (folios
+  094-108 read off the scan; no drift, as promised through ch04). The chapter
+  turns from the traitor-hunt to the Party's own machinery: how Xiong Jinding
+  and Zhu Duanshou set up and guarded the Yunnan Road safe house (the "Fuxing"
+  firm), the false marriage that covered it, and the couple's whole life
+  together, closing on their deaths on the same calendar day 21 years apart.
+- **Source recovery.** `data/zh/ch05.txt` hand-transcribed off the page images
+  (OCR too noisy on the proper names, as before), cross-checked against the
+  dual-OCR read and magnified crops of every poem, name, and number. Parity is
+  exact: **66 source paragraphs = 66 translation paragraphs** (chapter title +
+  3 `###` section headings; the source's chapter line marked `###` so the parity
+  filter treats it like the section heads). Zhou Enlai's 1966 statement and Zhu
+  Duanshou's autobiography passage are set off `{v}`; the statement's signature
+  and date are their own `{v}` lines.
+- **Translation:** `out/ch05_reading.md`, one paragraph per source line. Voice
+  carried from the end of ch04 (read first). This is a dialogue-rich chapter
+  (Zhu Duanshou's spirited country-girl speech; Zhou Enlai warm and big-brotherly
+  here, distinct from his martyr-proclamation register), with a stack of quoted
+  memoirs and biographies the author weighs against one another, and seven
+  classical or old-style poems rendered at elevation (Xiong's couplets, Zhu's
+  reply after Yuan Mei, the Wang Bo and Bai Juyi lines Xiong taught her, his
+  deathbed couplet to Zhou, Zhu's ten-line inscription, and Xiong's closing
+  "white hair, young companion" quatrain).
+- **Checks, all green:**
+  - parity 66=66 (`check_structure --pairs`, `verify_unit`).
+  - numbers: `check_numbers --noise` 0 unresolved. Two real English fixes
+    (两同志 "the two comrades", carried in both the testimonial and its re-quote;
+    30多岁 rendered "thirty-odd years"). noise.txt extended with ch05 romanized
+    proper-name numerals (四马路/三马路/朱葆三路/熊笑三, 零星 in Yuan Mei's line) and
+    two approximate 几-quantities (几十万 "several hundred thousand", 几千里
+    "thousands of li") that the digit parser cannot match in idiomatic English;
+    the English carries the magnitude, so noising the source token cannot mask a
+    real drop. Every entry commented, longest-literal-first.
+  - align median 4.79 en/han; one expected short-line outlier (the "{v} January
+    1, 1966" signature, 2.11x). content displacement 264 name occurrences, all
+    in the paired paragraph (content_config extended to ch05).
+  - entities: `qc_entities` 0 misses (top: 朱端绶 x75, 熊瑾玎 x66, 周恩来 x58,
+    上海 x30, 熊畅苏 x22). Two initial misses fixed by naming Zhu Duanshou where
+    the source names her (not a pronoun) and restoring the dropped book title
+    《熊瑾玎》.
+  - register vs FROZEN ch01: within tolerance. The dialogue-contraction metric
+    reads HIGH here (13.0/1k vs ref 0.3), the OPPOSITE of ch04's quiet reportage
+    signal and exactly right for a dialogue-heavy chapter; judged on the
+    narratorial signals, which track the reference (em-dash 5.5/1k vs 8.2,
+    rhythm CV 0.68 vs 0.67, sentence median 21).
+  - `check_apparatus` 0/0; qa_epub PASS (227 refs/bodies/backlinks); **epubcheck
+    5.1.0 clean (0 fatals / 0 errors / 0 warnings).** style layers FRESH.
+  - tail verification: the s03 closing paragraphs (熊畅苏's three-mentors speech,
+    Zhu's inscribed poem, Deng Yingchao's "Hold on, little sister!", and Xiong's
+    closing quatrain) re-read against p0122-0123 (printed 107-108); the poems
+    crop-verified; faithful, nothing invented.
+- **Footnotes: 27 new** (unit total 27). Coverage across the four domains:
+  material culture (the numbered "horse roads" / Sima Road, the Racecourse,
+  laohuzao [rendered per ch03's inline gloss, NOT re-noted], the shikumen
+  chamber-pot custom, alum-water secret writing, braised lion's-head meatballs,
+  the Ten-Li Foreign Settlement); social/institutional (the "solid shop to stand
+  surety" rental custom, Branch Life and the 直支/植枝 homophone codename, the
+  Fourth Plenum dating); people (Xiong Jinding himself, Nan Hanchen, Xiong
+  Xiaosan, Wu Jieping, Yuan Mei, Wang Bo, Bai Juyi); tradecraft and texture (the
+  "frisking"/抄靶子 slang, Wuhao as Zhou Enlai's alias and the 1932 forged notice,
+  the fish-and-water figure, ci tune-titles); and history/reference (the Gu
+  Shunzhang defection that closed the house, cross-ref to Chapter Three's
+  Luo Yinong betrayal, West Hunan-Hubei/Honghu, the Ma Day Incident, the Zhou
+  Residence on Rue Massenet, the Gang of Four). Fact-checks corroborated against
+  Wikipedia/Baidu/academic sources; the author's own skeptical source-criticism
+  (debunking the romantic "found the house in the rain" story) preserved.
+- **Figures: 5** (`data/figs/ch05-*.png`), all hand-cropped, printed captions
+  excluded and re-captioned by the translator with the source-label provenance
+  line, each with real alt text: the 447 Yunnan Road storefront (s01), Gong
+  Yinbing's portrait (s01), the Xiong-Zhu couple portrait (s01), a detail of
+  Zhou Enlai's 1966 handwritten statement (s01), and the Yan'an-era family
+  photograph (s03). find_figures was not relied on; every page eyeballed. No
+  line-art diagrams in this chapter; the faded portrait behind the chapter
+  divider (p0108) is design furniture, not a captioned figure.
+- **Glossary: 75 rows added** (42 people, 20 places, 5 organizations, 8 terms),
+  written straight into the sectioned ledger (NOT via apparatus_merge, per the
+  flat-row gotcha) and re-read verified. 老虎灶/石库门/亭子间/蒲石路/中央军委 reused
+  unchanged from earlier batches; 老虎灶 kept as the decided "laohuzao" (I first
+  drafted "tiger-stove", caught by qc_entities against the glossary decision and
+  the ch03 first-use, and corrected).
+
+### Renderings settled this batch (also in glossary.json)
+- 熊瑾玎=Xiong Jinding, 朱端绶=Zhu Duanshou, 熊畅苏=Xiong Changsu, 龚饮冰=Gong
+  Yinbing, 熊笑三=Xiong Xiaosan (Nationalist general), 南汉宸=Nan Hanchen; the
+  descendants and biographers by standard pinyin.
+- 福兴字号=the "Fuxing" firm; 云南路=Yunnan Road (today Yunnan Middle Road);
+  天蟾舞台=Tianchan Stage; 生黎医院=Shengli Hospital; 跑马厅=the Racecourse;
+  湘鄂西=West Hunan-Hubei; 洪湖=Honghu; 陶乐春=Taolechun.
+- Concession/lane names: 巨籁达路=Rue Ratard, 马斯南路=Rue Massenet,
+  慎成里=Shenchengli, 泰辰里=Taichenli, 眉寿里=Meishouli (里-compounds as -li per
+  ch04's Jingyuanli). **康悌路 kept as pinyin "Kangti Road"** (French name
+  uncertain; first drafted as "Rue du Consulat", corrected to pinyin per the
+  book's uncertain-French rule).
+- Terms: 抄靶子=frisking (chao bazi), 明矾水=alum water, 红烧狮子头=braised
+  lion's-head meatballs, 伍豪=Wuhao, 十里洋场=the Ten-Li Foreign Settlement,
+  四人帮=the Gang of Four, 词牌=tune-title.
+
+### NOT re-noted (already placed earlier) — cross-referenced, not re-noted
+- The Central Special Branch / Red Squad (ch01); Gu Shunzhang (ch01, the 1931
+  defection named here and pointed forward); Luo Yinong and the He Jiaxing / He
+  Zhihua betrayal (ch03, cross-ref in the surety note); the tingzijian and
+  shikumen (ch01); laohuzao (ch03, inline gloss); the Sixth Congress (ch01); the
+  August 7 Conference (ch02); He Long (ch01); the Huaihai Campaign (ch04); Avenue
+  Joffre / the concessions (ch03/ch04); the Cultural Revolution / "ten years of
+  turmoil" (ch01/ch03/ch04).

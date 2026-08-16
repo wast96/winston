@@ -131,3 +131,22 @@
 三轮车
 # 八仙桥 Baxianqiao (district, "Eight Immortals Bridge") — 八 is part of the name
 八仙桥
+
+# --- ch05 place/proper names with a numeral, not a count ---
+# 四马路 Sima Road ("Fourth Horse Road", today Fuzhou Road) — 四 part of name
+四马路
+# 三马路 Sanma Road ("Third Horse Road", today Hankou Road) — 三 part of name
+三马路
+# 朱葆三路 Zhu Baosan Road (named for Yu Qiaqing... i.e. Zhu Baosan) — 三 part of name
+朱葆三路
+# 熊笑三 Xiong Xiaosan (Nationalist general, Xiong Jinding's son) — 三 part of name
+熊笑三
+# 零星 "scattered/sporadic" (零星雨, in Yuan Mei's line) — 零 is not the count 0
+零星
+# 几十万 "several hundred thousand" (households) — approximate hyperbole; the
+#   English carries the magnitude ("several hundred thousand"), but the digit
+#   parser cannot match the 十万 compound, so the source 十万 is noise here
+几十万
+# 几千里 "thousands of li" (away) — approximate distance; English carries
+#   "thousands of li", but the parser cannot match the plural compound
+几千里
