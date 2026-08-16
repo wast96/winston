@@ -3332,3 +3332,118 @@ commander", 中队 "company", 编制 "establishment", 配属 "attach". People: �
   compound-composition trap); ~600 est. / 400 employed / a thousand-and-several-hundred; 7 brigades + 3
   companies + 1 assault brigade; five command rooms; ~100-150 per room; ROC years 22-23/27/28/36/37/38/75,
   all matched by ordinal or +1911; eleven characters; eighteen months; two years; eightieth birthday.
+
+## Batch B28 (ch35) — 第三章 一番风雨 几片落叶 "Chapter 3. A Spell of Storm, a Few Fallen Leaves"
+
+The THIRD Part-Four narrative chapter. Chen reports for duty and fixes the First Brigade's chain of
+command (attached to the Beiping Field Headquarters, then the North China Bandit-Suppression Headquarters,
+both directors indifferent); gathers old comrades to build up the brigade's strength; and mounts the
+operation this chapter is really about — using the ex-Communist schoolmate Li Mingqiu as a go-between to
+reach the Communist commanders Lin Biao and Tao Zhu (Chen's own Whampoa classmate) in the Northeast, for
+strategic intelligence, which won the brigade two large Ministry-of-National-Defense prizes. It closes on
+the bleak fates of the players: Li Mingqiu dead months later; Jiang Tian and Zhang Zuoxing destroyed in
+the early-PRC campaigns; Tao Zhu broken in the Cultural Revolution; Lin Biao dead in the 1971 plane crash.
+Structure CONFIRMED by byte-exact p-by-p diff vs the source XHTML: 1 <h2> + 4 <h3> (section heads
+一、/二、/三、/四、) + 196 <p>, ZERO mismatches; NO <h1>/<br/>/<img>/[\d+], 0 images. drop=2. clean_batch
+spec: standalone=[8,49,77,141] (the four <h3>, raw 1-based), merges=[(25,26),(136,137)] — TWO glitch-masked
+severs: L25/26 (...我当﹁天津站！|长时..., the ！ standing for 」 and the word 站长 "station chief" split across
+the boundary), and L136/137 (...嘴里说：﹃在打流！|﹂我点穿他说..., the dialogue's closing bracket ﹂ orphaned
+onto the next <p>). The other ！？》-ending lines (L12/30/33/47/53/90/172/173) are genuine terminal rhetorical
+questions, NOT severs. Result 194 body paragraphs, 4 sub-headings, source conserved OK. INNER enumerations
+kept as BODY per parity (NOT headings): the 一/二/三/四/五 go-between-qualification list (L148-152), the
+其一/其二/其三 intelligence tiers (L86-89), Zheng's 一/二/三/四 instructions (L182-185), the name-lists and
+number-ranges.
+
+### Checks
+- verify_unit ch35: parity 194/194 OK; numbers 194 pairs unresolved 0 (after 8 noise additions, below);
+  anchors 0 (before apparatus).
+- check_align ch35: 194/194, median ratio **5.15 en/han** (higher than the ~4.55-4.78 narrative guide, but
+  this chapter carries the marble-bridge digression, essayistic reflection, and formal dialogue; cf. ch34's
+  doctrinal 5.19, ch33's 5.32). Alignment OK, no pair strays >2.2x from median — alignment/register are the
+  gates, not the raw ratio.
+- check_register --ref: within tolerance (contr 0.0 = ref; em-dash 6.8/1k vs ref 8.3; rhythm CV 0.57 vs 0.60);
+  "shall" 11% flagged informationally = the deliberate narrating shall (Chen's voice sheet).
+- check_structure: parity OK; anchors 311 notes, 0 unresolved; headings OK.
+- check_content: ch35 162 name occurrences, ALL in the paired paragraph, 0 displaced. ALSO fixed a
+  PRE-EXISTING ch32 displacement (see Corrections). The four pre-existing artifacts (ch08 Shunde ×3 /
+  ch09 Jize ×1 / ch13 ×9 / ch26 ×2) unchanged.
+- qc_entities: 0 misses (北平 x47, 李鸣秋 x44, 林彪 x26, 江田 x24, 张作兴 x21, 绥靖 x19, 天津 x18, 陶铸 x18,
+  李运昌 x12, 军统 x6, 郑介民 x6, 东北人民解放军 x5 all survive; 绥靖 rendered noun "pacification" throughout).
+- Tail verified against source (L195-199, the five endings: Li Mingqiu / Jiang Tian / Zhang Zuoxing / Tao Zhu
+  / Lin Biao, closing on Chen's own "record of the brush, awaiting the summons"). qa_epub PASS (57 files,
+  311 refs/bodies/backlinks). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+  **EPUB now 35/43 chapters, 311 notes.**
+
+### Notes (8 net-new; 311 cumulative). NOT re-noted furniture
+8 new notes, first-appearance disciplined: the Jin'ao-Yudong Bridge (金鳌玉𬟽桥, the white-marble bridge over
+the Beihai/Zhongnanhai water, with its two archways, dismantled/widened mid-1950s; 汉白玉 white marble folded
+in); the Du Fu couplet (此景只应天上有..., Chen's adaptation of 赠花卿 "To General Hua," 曲/闻 → 景/看); the
+逐鹿/逐臭 idiom pair (chasing the deer = power, chasing the stink = base gain); Lin Biao's death (林彪
+1907-1971, the 1969 successor/vice-chairman, the 1971 Ondorhaan crash — the "riddle" Chen twice invokes);
+the 1927 Party Purge (清党, cross-referenced to the already-noted Ning-Han Split, the Whampoa fall-out scene);
+the Guangzhou Uprising (广州大暴动, 11-13 Dec 1927, the "December Twelfth" / Guangzhou Commune, from which Tao
+Zhu was freed); the Social Affairs Department (社会部, the CCP intelligence organ headed by Kang Sheng NOT Luo
+Ronghuan — Chen's placement of 罗荣桓 there is his own surmise "应是", scholarship-flagged as not borne out);
+the Three-Anti/Five-Anti/Suppress-Counterrevolutionaries campaigns (三反/五反/镇压反革命, 1950-53). NOT re-noted
+(already covered): the 绥靖/戡乱/共匪 framing, Juntong/Baomiju, 特种部队/特种组织, the Lizhi Class, the Loyal and
+Patriotic Army, the Transport Police Corps, Whampoa, Tilanqiao, the Japanese gendarmerie, the Republican-year
+system; the Cultural Revolution/Red Guards and Tao Zhu's fall (already noted at an earlier chapter).
+
+### New keyed glossary rows (5; via scripts/add_ch35_glossary.py)
+People: 李鸣秋 Li Mingqiu (the ex-Communist go-between, chapter pivot; provisional), 李运昌 Li Yunchang
+(East-Hebei guerrilla chief, later CCP general/Minister of Railways; attested), 罗荣桓 Luo Ronghuan (NE-army
+commissar, later marshal; attested), 黄郛 Huang Fu (the diplomat Yingbai, He Yingqin's early-1930s Beiping
+stand-in; attested). Orgs: 东北人民解放军 "the Northeast People's Liberation Army" (Lin/Tao's field army, the
+operation's target; decided — NB the source once prints the glitch 东北人民解放车 车/军, correct glyph present
+elsewhere). Reused the whole B01-B27 keyed cast and Part-Four vocab. Rendered INLINE, NOT keyed (glossary-key
+discipline, consistent with the ch33/ch34 decisions): 白家祺 Bai Jiaqi, the interpreter trio 王智斌/齐枕平/
+郭子中, 李耀 Li Yao, 李长清 Li Changqing, the introduced officers 庞兆丰/刘文勋/张筱璞/魏钧, the Shanghai-days
+colleagues 毛一鹭/黄维/洪复予/周祺卿, 尹擎宇 Yin Qingyu, Jiang Tian's Communist kin 江灏/江振寰, the Whampoa-days
+roster 郭大荣/赵锦文/俞镛/丁维经/王文翰/李靖难/卢濬泉/帅崇兴/惠济/王登梯/方鼎英/吴思豫/万力民/何焜/钟期光, 范行
+Fan Xing. 华北忠义救国军 renders on the keyed 忠义救国军; 华北人民解放军 and 东北剿匪总司令部 (one mention each)
+render inline.
+
+### Corrections (cross-unit)
+- **ch32 para 25 (§ ch32):** aligned "North China Bandit Suppression Headquarters/Command" → the keyed
+  hyphenated form "North China Bandit-Suppression Headquarters" (华北剿匪总司令部, keyed at B27/ch34). This
+  was a PRE-EXISTING check_content displacement introduced when the hyphenated key was added at B27 (confirmed
+  present on the committed HEAD before B28). Regenerated ch32 en.json; check_content ch32 now 0 displaced.
+
+### Keyed renderings reused in the ch35 body (qc-enforced)
+军统/军统局 "the Juntong"/"the Juntong Bureau", 保密局 "the Baomiju", 特务处 "the Special Services Department"
+(the Juntong's forerunner), 绥靖总队 "the Pacification Corps", 华北剿匪总司令部 "North China Bandit-Suppression
+Headquarters", 忠义救国军 "the Loyal and Patriotic Army", 励志训练班/励志班 "the Lizhi Training Class"/"Lizhi
+Class", 红卫兵 "the Red Guards", 特种部队 "special-operations unit", 绥靖 "pacification" (noun throughout).
+Vocab: 北平行辕 "the Beiping Field Headquarters", 大队 "brigade"/大队长 "brigade commander", 中队 "company",
+指挥室 "command room", 指挥员 "commanding officer", 直属组 "directly subordinate section", 配属关系 "relation
+of attachment", 编制 "establishment", 戡乱 "suppression of rebellion", 剿匪 "bandit-suppression", 冀东 "East
+Hebei". People: 李宗仁 Li Zongren, 傅作义 Fu Zuoyi, 刘培初 Liu Peichu, 张家铨 Zhang Jiaquan, 郑介民 Zheng
+Jiemin, 江田 Jiang Tian, 张作兴 Zhang Zuoxing, 林彪 Lin Biao, 陶铸 Tao Zhu, 聂荣臻 Nie Rongzhen, 毛泽东 Mao
+Zedong, 周恩来 Zhou Enlai, 陈独秀 Chen Duxiu, 李大钊 Li Dazhao, 戴笠 Dai Li (戴雨农 "Mr. Dai Yunong"),
+何应钦 He Yingqin (何敬公), 王文 Wang Wen, 曾澈 Zeng Che, 毛万里 Mao Wanli, 齐庆斌 Qi Qingbin, 罗君强 Luo
+Junqiang, 史泓 Shi Hong.
+
+### Digitization glitches (rendered to plain sense; none footnoted — mechanical)
+- **ch35:** stray ！ standing for 」 at L25 (天津站！, the merged sever), L95 (副主席！), L113 (华北忠救军！),
+  L114 (天津站！长), L136 (在打流！, the merged sever); stray glyph 〇/× not present here, but a stray glyph ︼
+  for 」 at L169 (一无﹁种因︼) with doubled ，，; ≤ stray glyph at L35 (请随我来≤﹂); | intra-<p> stroke at
+  L26 (此桥|原来) and L53 (朋友们|在拙着); 〇-like glitch: 这怎么讲呢〇 (L145, 〇 for ？). Char substitutions:
+  东北人民解放车→东北人民解放军 (车/军, L134), 季鸣萩→李鸣秋 (季/李, 萩/秋, L173), 回答莪说→回答我说 (莪/我,
+  L38), 宝坁县→宝坻县 (坁/坻, L113), x redactions 第x路/第x纵队/军校x期 (L113/L94/L128) rendered "——th".
+  Rare/variant glyph 玉𬟽 (𬟽 for 蝀 in the bridge name 金鳌玉𬟽桥, L26/28) — kept as the source form, note
+  gives the standard romanization Jin'ao Yudong. Many dropped 。 mid-<p> (L2/3/8/9/11/13/16/25...). All
+  rendered to plain sense; none is a reading uncertainty.
+
+### data/noise.txt — B28 additions (8)
+- **两旁** "on both sides" (道路两旁, L33) — the 两 is the set idiom for "both/either side," English "the one
+  side... the other". **两者** "the two [groups]" (新参加的与受过训的两者之间, L73) — counter carried by naming
+  both. **二人** "the two of them" (毛一鹭、黄维二人 / 江田、李鸣秋二人 / 林、陶二人) — counter-by-naming, both
+  named. **两地** "in Beiping and Tianjin" (北平、天津两地, L155) — counter-by-naming. **万力民** (Wan Limin, a
+  1927-purged Whampoa cadet, L130) — the 万 is the surname (Wan), not 10000. **四平街** "Siping" (a Northeast
+  town, L189) — the 四 is a place-name glyph. **一百三、四十** "some hundred and thirty or forty men" (L132) —
+  the source hedges 130/140, carried as the approximate, not the composed 103. **一百零几** "a hundred and
+  some men" (Tao Zhu's hedged survivor count, L134) — the 几 makes it approximate ("a hundred-odd"). All REAL
+  quantities carried as digits/words: 120 men (DIGITS, the compound-composition trap); nine years' prison;
+  twenty-odd young recruits; six or seven / three interpreters; two or three hundred (guerrilla band); ROC
+  years 15/18-19/21/22-23/25/27/28/30/32/35/36/37/38/40, all matched by ordinal or +1911; the 1179 Jin-dynasty
+  lake date carried literally.

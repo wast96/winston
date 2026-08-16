@@ -816,6 +816,32 @@ UNITS = {
         "glued": {}, "glued_head": {},
         "standalone": [15, 53, 90],
     },
+    "ch35": {
+        "file": "36_index-split-000-0034.txt",
+        "title": "第三章 一番风雨 几片落叶",
+        # drop=2: running header 英雄无名-陈恭澍 + <h2> chapter title. Confirmed
+        # byte-exact p-by-p against the source XHTML: 1 <h2> + 4 <h3> (the four
+        # section headings 一、/二、/三、/四、) + 196 <p>, ZERO mismatches; no
+        # <h1>, no <br/>, no <img>, no [\d+] note markers. After drop=2 the txt
+        # has 200 body lines = 4 <h3> heading lines (raw 1-based L8/L49/L77/L141)
+        # + 196 <p>. The four <h3> are their OWN elements -> standalone (### ),
+        # not glued. TWO mid-phrase severs where the SOURCE broke one sentence
+        # across two <p>, both glitch-masked: L25/26 (...我当﹁天津站！|长时...,
+        # the ！ standing for a closing 」, and the word 站长 "station chief"
+        # split across the boundary); L136/137 (...嘴里说：﹃在打流！|﹂我点穿他说...,
+        # the dialogue's closing bracket ﹂ orphaned onto the next <p>). The other
+        # ！？》-ending lines (L12/L30/L33/L47/L53/L90/L172/L173) are genuine
+        # terminal rhetorical questions, NOT severs. The INNER enumerations stay
+        # as BODY lines per parity (NOT headings): the 其一/其二/其三 intelligence
+        # tiers, the name-lists, the number-ranges. Digitization glitches
+        # (rendered to plain sense, listed in PROGRESS): dropped 。 stops,
+        # mismatched guillemets ﹃/﹁/﹂, stray ！/？ for a closing 」, stray glyph
+        # ︼ (for 」) and doubled ，， at L172, single-char substitutions.
+        "drop": 2,
+        "merges": [(25, 26), (136, 137)],
+        "glued": {}, "glued_head": {},
+        "standalone": [8, 49, 77, 141],
+    },
 }
 
 

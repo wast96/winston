@@ -33,7 +33,8 @@
     "ch31": "out/ch31_reading.md",
     "ch32": "out/ch32_reading.md",
     "ch33": "out/ch33_reading.md",
-    "ch34": "out/ch34_reading.md"
+    "ch34": "out/ch34_reading.md",
+    "ch35": "out/ch35_reading.md"
   },
   "sources": {
     "ch01": "data/zh/ch01.txt",
@@ -69,7 +70,8 @@
     "ch31": "data/zh/ch31.txt",
     "ch32": "data/zh/ch32.txt",
     "ch33": "data/zh/ch33.txt",
-    "ch34": "data/zh/ch34.txt"
+    "ch34": "data/zh/ch34.txt",
+    "ch35": "data/zh/ch35.txt"
   },
   "notes": "notes.json",
   "heading_depth": 2

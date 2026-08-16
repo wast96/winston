@@ -34,4 +34,14 @@ Fix: <what it should be>
 
 ## Done
 
+### LOCAL ch32 keyed-org hyphenation
+Unit: ch32
+Where: "we were attached to the 'North China Bandit Suppression Headquarters'" (para 25)
+Problem: ch32 (translated B25) rendered 华北剿匪总司令部 as "North China Bandit Suppression
+  Headquarters" (and the short 华北剿总 as "...Command") without the hyphen; the org was
+  keyed at B27 (ch34) as the hyphenated "North China Bandit-Suppression Headquarters,"
+  so check_content flagged para 25 as displaced (pre-existing on the committed HEAD).
+Fix: aligned both occurrences to the keyed "North China Bandit-Suppression Headquarters";
+  regenerated ch32 en.json; check_content ch32 now 0 displaced. (Applied B28, ch35 batch.)
+
 (move applied blocks here, with the CHANGELOG date)

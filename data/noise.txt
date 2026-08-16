@@ -818,3 +818,33 @@
 # Counter 英、法两租界 "the British and French Concessions": the 两 (2) is a counter
 # carried by naming both concessions in the English, not a tracked value.
 两租界
+# --- B28 (ch35) ---
+# Counter 道路两旁 "on both sides of the road" (ch35): the 两 (2) is the set idiom
+# for "both/either side," carried in English as "the one side... the other," not a
+# tracked count of 2.
+两旁
+# Counter 新参加的与受过训的两者之间 "between the two [groups]" (ch35): the 两 (2) is
+# a counter carried by naming both groups (the newly joined and the trained), not a
+# tracked value.
+两者
+# Counter-by-naming 二人 "the two of them" (ch35: 毛一鹭、黄维二人 / 江田、李鸣秋二人 /
+# 林、陶二人): the 二 (2) is a counter carried by naming both persons in the English,
+# not a tracked value.
+二人
+# Counter-by-naming 北平、天津两地 "in Beiping and Tianjin" (ch35): the 两 (2) is a
+# counter carried by naming both places, not a tracked value.
+两地
+# Personal name containing a numeral glyph: 万力民 (Wan Limin, a Whampoa cadet purged
+# in 1927, ch35); the 万 is the surname (Wan), not the count 10000.
+万力民
+# Place-name numeral 四平街 "Siping" (a town in the Northeast, ch35): the 四 is part
+# of the place-name, romanized "Siping," not the count 4.
+四平街
+# Elided approximate count 一百三、四十个人 "some hundred and thirty or forty men"
+# (ch35); the source itself hedges 130/140, carried in English as the approximate
+# "hundred and thirty or forty," not the literal composed value 103.
+一百三、四十
+# Elided approximate count 一百零几个人 "a hundred and some men" (ch35: Tao Zhu's own
+# hedged figure for the survivors); the 几 makes it approximate ("a hundred-odd"),
+# carried in English as "a hundred and more," not the literal composed value 100.
+一百零几
