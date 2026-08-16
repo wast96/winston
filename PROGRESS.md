@@ -2,6 +2,130 @@
 
 The running per-batch log. Written as work happens, not at the end.
 
+## Batch 6. Chapter 4, sections 5–8 "Hard Fighting in the Jin-Sui Border Region" (ch04s05–s08; PDF 147–171, printed 136–160)
+
+APPENDED sections 5–8 to the EXISTING out/ch04_reading.md (now 8 "###" sections +
+4 "####" subsections; body 245 paras, headings 12). data/zh gitignored and gone
+on this fresh checkout, so the whole ch04 Chinese source was rebuilt: sections
+5–8 hand-assembled from corrected OCR + scans this batch, sections 1–4
+reconstructed from OCR aligned to the frozen English (parity-locked). No
+chapter-intro paragraphs; each section opens straight on its heading. PDF 147 top
+verified — no lead paragraph before section 5.
+
+### Content
+- S5 (沉着果断，潜入敌特内部窃取密电, PDF 147): Zhang He (= Zhang Youxin) working
+  three times into the enemy service at Guisui to steal ciphered cables; the 1943
+  Li Wucai wireless attempt wrecked by Wu Bingzhou's defection; the 1947 penetration
+  of the Suiyuan Investigation-and-Statistics office; Pei Zhouyu's cipher warning to
+  Chen Yangshan; the Guisui/Jining connection roster.
+- S6 (深入敌后，大同情报工作的开展, PDF 150): Wang Yanming (Fang Shaoming) building
+  the Datong network from inside the Resource Investigation Society; disarming the
+  mine-police band; buying the 38th Division's order of battle and city-defense maps
+  (Han Buzhou's guard-officer Peng, the clerk Ma Zaiwu, the cipher clerk Liu
+  Wenzhong); the May 1946 collapse and Chen Yangshan's own 1985 lesson-summary; a
+  frank close on Wang's stumble and worth.
+- S7 (敌中有我，机智的鲁南情报组织, PDF 154): the whole arc of Lu Nan (Zhao Xihong),
+  Suide → the Ike Zhao League → Dongsheng (the 1941 arrest by Jia Gengfu) →
+  Yan'an vetting → the 1946 penetration of the Suiyuan Special Conference
+  Secretariat under Zhang Qing'en; He Long claiming the network for Jin-Sui; Lu
+  Nan's death (Jan 1947, aged 33); Cui Jizhou and Wang Qi carrying it to the 1950
+  destruction of the Suiyuan Investigation-and-Statistics organization.
+- S8 (历史一页，晋绥情报传奇故事, PDF 160): four legendary tales — (1) Liu Zhen the
+  book-buyer and the Mauser at the ford; (2) the Lanxian couriers (Li Yuanze, Zhao
+  Guilong, the "strongbox" wives, the milk-copied plan retold); (3) Li Fang's raid
+  to seize the Japanese quartermaster Nanqi (Nakamura Rijin); (4) Zheng Gui cracking
+  the Bureau of Confidential Investigation's Suiyuan network — turning Xing Shaowen
+  and Wu Yumei, the Pang Zhongxing/Yang Bingren feud, and the seized wireless sets.
+- book.json fix: ch04s07 title_en was a survey mistranslation ("Southern-Shandong
+  Network"); 鲁南 is a PERSON's codename (Zhao Xihong), so retitled "Lu Nan's
+  Ingenious Network". Noted in the Lu Nan footnote.
+
+### Paragraph structure
+- S5=9 body, S6=15, S7=24, S8=55 (across 4 "####" subsections) = 103 new body
+  paras; +4 "###" + 4 "####" headings. data/zh and reading file structurally
+  identical line-for-line (scoped ch04s58 parity 103=103; whole-chapter parity
+  re-run after S1–4 reconstruction).
+- Tail-verified every long paragraph's final sentences against the scan (rule 4):
+  restored a DROPPED short final line on p158 (the reply-letter quote ended
+  "…已与" in OCR; the scan shows "…已与崔谈过。").
+
+### OCR / crop-verification (this batch)
+- Same crop as ch01–ch05 (do-not-revert list unchanged). ocr_crop + ocr_dual run
+  per-page in the background; pgrep -c tesseract 0 after.
+- Crop-verified names against the scan (OCR garbled): 韩步洲 (38th Div cdr, NOT
+  昔步洲); 龚国华; 冀述楷 (Guisui station head, distinct from 王树楷 Wang Shukai);
+  龚震; 冀聘之; 贾耿夫; 李禾亭 (one man, inspection-chief AND Juntong agent);
+  巴荣昌; 陈奇涵; 李启明 (distinct from 李甫山); 亢上池 (NOT 元上池); 胡全福 (NOT
+  关全福); 郭长青; 米景铨; 张玉清/郭靖帮; 李鲲生/崔正春/田树梅/胡尚儒; 咎良;
+  邢绍闻 (上尉编审); 何柱国; 武毓美 (consistent, NOT 武航美); 大台乡. Months/years
+  verified: 同年7月 (Ba Rongchang), letter dated 1946年7月14日, 1947年1月8日 (Lu Nan
+  death), 张庆恩's 同年7月/19人, 11人 fled, 1950年秋 roundup.
+
+### Source errors rendered as printed + footnoted (do NOT "fix")
+- 1912年 for 1942 (Zhang He's Zaoyuan training, printed 136) — chronologically
+  impossible; rendered as printed, footnoted.
+- 马汉山 / 马汉三 — the SAME Juntong chief spelled two ways (printed 145); both
+  rendered as printed (Ma Hanshan / Ma Hansan), footnoted + cross-noted in glossary.
+- "1945年1月上党战役后" (printed 153) — the Shangdang Campaign was fought Sept–Oct
+  1945; rendered as printed, date-error footnoted.
+- 周高明 / 田高明 — the same courier, two surnames (printed 152); both rendered,
+  cross-noted in glossary.
+- 右平县 (Youping County, printed 137) rendered as printed — no such standard county;
+  obscure local name, left unfootnoted (per the ch04 minor-name tier).
+- 田唆布 (printed 159) reading uncertain from the scan — glossary status provisional.
+- 一奉烧鸡铺 (printed 138): the classifier/name is garbled in print; rendered
+  functionally ("a roast-chicken shop").
+
+### Figures (3; every page eyeballed)
+- p0148-f1 (printed 137, Sui-Meng Public Security cadres group photo; Pei Zhouyu,
+  Zhao Fang, Zhang Rugang labelled), p0160-f1 (printed 150, Qu Rixin + Li Jiankui),
+  p0171-f1 (printed 160, Mao Zedong's Nov-1950 security-work inscription — line art
+  find_figures MISSED, caught by eye). Captions crop-excluded; alt text has no
+  straight double quotes; who's-who labels are the source's, caption prose the
+  translator's. find_figures flagged only the two photos, as expected.
+
+### Apparatus
+- notes.json: +35 (ch04 now 75; book-wide 340). New glosses at first appearance:
+  Guisui, the Investigation-and-Statistics (调统) system, the National Liberation
+  Vanguard, the Anwubao class, the Sacrifice League, the 1912 misprint,
+  good-citizen certificate, Houhehaote, the First Suiyuan Campaign, Jin-Cha-Ji,
+  the Resource Investigation Society, Gao Kelin, Chu Xichun, the MSS, Lu Nan (with
+  the codename etymology + the survey-title correction), He Shaonan, Chen Qihan,
+  the Ike Zhao League, Ma Zhanshan, Kangda, Chen Changjie, Juntong vs Zhongtong,
+  the Seventh Congress, Ma Hansan (with the spelling discrepancy), Ouyang Qin, Dong
+  Qiwu (the source's own bio footnote, translated), the "Suiyuan formula", Zhou
+  Fohai, Chen Gongbo, the Shangdang date error, He Zhuguo, Mao Renfeng, the
+  gold-yuan, the Bandit-Suppression HQ, the Sept-19 uprising. Already-noted
+  (Datong, the Bureau of Confidential Investigation, the Comradeship Association,
+  Kenanpo, the Daqing Mts, the Gao Shuxun Movement, He Long, Pei Zhouyu, E Yousan,
+  the milk-copied plan, Wei Gang's 320th-Div defection) cross-referenced, not re-noted.
+- glossary.json: +159 rows (576 referents), sectioned people/organizations/places/
+  events; ONE rendering per referent; the 鲁南=赵锡鸿=赵孚民, 方少明=王雁鸣,
+  南奇=中村里仁, 马汉三/山, 周/田高明, 张新甫=Li Wenfang aliases cross-noted.
+- figures.json: +3 (ch04 now 8).
+- data/noise.txt: +10 (names 李五才/刘万春/马汉三/鄂友三, places 五寨/五原, phrase
+  两党, idioms 万籁俱寂/惊恐万状, date 九一九) — all carried in English prose, none
+  quantities.
+
+### Checks (all green)
+- The batch's new content (S5–8) was validated on a UNIT-SCOPED pairing
+  (data/zh/ch04s58.txt vs out/ch04s58_reading.md, config
+  data/check_config.ch04s58.json) — the same parity/number/content/entity/align
+  checks the kickoff lists, run on exactly the new sections (S1–4 is frozen and
+  was validated in B05): parity 103=103; check_numbers 0 unresolved (via bilingual
+  + noise); qc_entities 0 misses (493 name occurrences, top 绥远 ×93, 鲁南 ×65, 归绥
+  ×60); check_content all name occurrences in the paired paragraph; check_structure
+  PASS (headings level-shape OK, ### + ####); check_align OK (median 4.90 en/han).
+- Whole ch04 (no zh needed): check_apparatus 0/0; check_register within tolerance
+  of ch01 ("shall" 14% is one formal quote — Zhao Siwu's "we shall come to
+  grief…" — verified; em-dash 0.0/1k, rhythm 0.66); check_style_freshness all
+  layers fresh. Build: 4 of 12 chapters, 340 notes; qa_epub PASS (54 files,
+  340/340/340 notes resolve, all links resolve); epubcheck 5.1.0 = 0 fatals /
+  0 errors / 0 warnings.
+- NOTE: data/zh is gitignored and gone on a fresh checkout; the S5–8 zh is
+  hand-assembled and committed nowhere (regenerable), and the scoped pairing above
+  is the validation of record for this batch's work.
+
 ## Batch 5. Chapter 4, sections 1–4 "Hard Fighting in the Jin-Sui Border Region" (ch04s01–s04; PDF 117–146, printed 106–135)
 
 NEW file out/ch04_reading.md carrying sections 1–4 only (four "###" section

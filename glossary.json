@@ -1611,6 +1611,724 @@
       "en": "Zhang Peizhen",
       "pinyin": "Zhang Peizhen",
       "status": "provisional"
+    },
+    "张和": {
+      "en": "Zhang He",
+      "pinyin": "Zhang He",
+      "status": "decided",
+      "note": "Intelligence officer who penetrated the enemy service in Guisui; took the name 张又新 Zhang Youxin after Liberation."
+    },
+    "李五才": {
+      "en": "Li Wucai",
+      "pinyin": "Li Wucai",
+      "status": "decided"
+    },
+    "张达志": {
+      "en": "Zhang Dazhi",
+      "pinyin": "Zhang Dazhi",
+      "status": "attested",
+      "note": "Cavalry-brigade commander, later a PLA lieutenant-general."
+    },
+    "吴秉周": {
+      "en": "Wu Bingzhou",
+      "pinyin": "Wu Bingzhou",
+      "status": "decided"
+    },
+    "贾通甫": {
+      "en": "Jia Tongfu",
+      "pinyin": "Jia Tongfu",
+      "status": "decided"
+    },
+    "温玉如": {
+      "en": "Wen Yuru",
+      "pinyin": "Wen Yuru",
+      "status": "decided"
+    },
+    "龚国华": {
+      "en": "Gong Guohua",
+      "pinyin": "Gong Guohua",
+      "status": "decided"
+    },
+    "贾子成": {
+      "en": "Jia Zicheng",
+      "pinyin": "Jia Zicheng",
+      "status": "decided"
+    },
+    "郝英": {
+      "en": "Hao Ying",
+      "pinyin": "Hao Ying",
+      "status": "decided"
+    },
+    "薛英": {
+      "en": "Xue Ying",
+      "pinyin": "Xue Ying",
+      "status": "decided",
+      "note": "Zhang He's wife, who worked with him under cover in Guisui."
+    },
+    "冀述楷": {
+      "en": "Ji Shukai",
+      "pinyin": "Ji Shukai",
+      "status": "decided",
+      "note": "Guisui intelligence-station head; not to be confused with Wang Shukai."
+    },
+    "宋文林": {
+      "en": "Song Wenlin",
+      "pinyin": "Song Wenlin",
+      "status": "decided"
+    },
+    "温敬": {
+      "en": "Wen Jing",
+      "pinyin": "Wen Jing",
+      "status": "decided"
+    },
+    "徐钧": {
+      "en": "Xu Jun",
+      "pinyin": "Xu Jun",
+      "status": "decided"
+    },
+    "侯维成": {
+      "en": "Hou Weicheng",
+      "pinyin": "Hou Weicheng",
+      "status": "decided"
+    },
+    "张品山": {
+      "en": "Zhang Pinshan",
+      "pinyin": "Zhang Pinshan",
+      "status": "decided"
+    },
+    "赵亮": {
+      "en": "Zhao Liang",
+      "pinyin": "Zhao Liang",
+      "status": "decided"
+    },
+    "周子阳": {
+      "en": "Zhou Ziyang",
+      "pinyin": "Zhou Ziyang",
+      "status": "decided"
+    },
+    "袁茂生": {
+      "en": "Yuan Maosheng",
+      "pinyin": "Yuan Maosheng",
+      "status": "decided"
+    },
+    "杨增祥": {
+      "en": "Yang Zengxiang",
+      "pinyin": "Yang Zengxiang",
+      "status": "decided"
+    },
+    "卢景富": {
+      "en": "Lu Jingfu",
+      "pinyin": "Lu Jingfu",
+      "status": "decided"
+    },
+    "刘万春": {
+      "en": "Liu Wanchun",
+      "pinyin": "Liu Wanchun",
+      "status": "attested",
+      "note": "Nationalist general in Suiyuan."
+    },
+    "马逢辰": {
+      "en": "Ma Fengchen",
+      "pinyin": "Ma Fengchen",
+      "status": "decided",
+      "note": "Commander of the enemy 320th Division."
+    },
+    "魏岗": {
+      "en": "Wei Gang",
+      "pinyin": "Wei Gang",
+      "status": "decided",
+      "note": "A man of Hengshan in northern Shaanxi; Kuomintang figure turned CCP connection, later commanded the 4th Suiyuan Security Regiment; his regiment defected in 1949."
+    },
+    "赵方": {
+      "en": "Zhao Fang",
+      "pinyin": "Zhao Fang",
+      "status": "decided"
+    },
+    "张如岗": {
+      "en": "Zhang Rugang",
+      "pinyin": "Zhang Rugang",
+      "status": "decided"
+    },
+    "方少明": {
+      "en": "Fang Shaoming",
+      "pinyin": "Fang Shaoming",
+      "status": "decided",
+      "note": "A cover name of 王雁鸣 Wang Yanming."
+    },
+    "王雁鸣": {
+      "en": "Wang Yanming",
+      "pinyin": "Wang Yanming",
+      "status": "decided",
+      "note": "Datong intelligence organizer; also used the names Fang Shaoming, Wang Bozhong, and Wang Huaibao."
+    },
+    "高克林": {
+      "en": "Gao Kelin",
+      "pinyin": "Gao Kelin",
+      "status": "attested",
+      "note": "Secretary of the CCP Saibei district committee and head of its Social Affairs Department; later a senior PRC judicial official."
+    },
+    "杨无功": {
+      "en": "Yang Wugong",
+      "pinyin": "Yang Wugong",
+      "status": "decided"
+    },
+    "李润": {
+      "en": "Li Run",
+      "pinyin": "Li Run",
+      "status": "decided"
+    },
+    "邹宗鲁": {
+      "en": "Zou Zonglu",
+      "pinyin": "Zou Zonglu",
+      "status": "decided"
+    },
+    "邹增乔": {
+      "en": "Zou Zengqiao",
+      "pinyin": "Zou Zengqiao",
+      "status": "decided"
+    },
+    "楚溪春": {
+      "en": "Chu Xichun",
+      "pinyin": "Chu Xichun",
+      "status": "attested",
+      "note": "Yan Xishan general who later took part in the peaceful handover of Beiping."
+    },
+    "中原": {
+      "en": "Nakahara",
+      "pinyin": "Nakahara",
+      "status": "decided",
+      "note": "Japanese major-general, deputy director of the Yanbei office of the Resource Investigation Society; given name not recorded."
+    },
+    "刘文忠": {
+      "en": "Liu Wenzhong",
+      "pinyin": "Liu Wenzhong",
+      "status": "decided"
+    },
+    "韩步洲": {
+      "en": "Han Buzhou",
+      "pinyin": "Han Buzhou",
+      "status": "decided",
+      "note": "Commander of Yan Xishan's 38th Division at Datong."
+    },
+    "马在武": {
+      "en": "Ma Zaiwu",
+      "pinyin": "Ma Zaiwu",
+      "status": "decided"
+    },
+    "贺登元": {
+      "en": "He Dengyuan",
+      "pinyin": "He Dengyuan",
+      "status": "decided"
+    },
+    "谢云光": {
+      "en": "Xie Yunguang",
+      "pinyin": "Xie Yunguang",
+      "status": "decided"
+    },
+    "彭伶": {
+      "en": "Peng Ling",
+      "pinyin": "Peng Ling",
+      "status": "decided"
+    },
+    "金昭典": {
+      "en": "Jin Zhaodian",
+      "pinyin": "Jin Zhaodian",
+      "status": "decided"
+    },
+    "鲁南": {
+      "en": "Lu Nan",
+      "pinyin": "Lu Nan",
+      "status": "decided",
+      "note": "Codename of the Suiyuan intelligence agent 赵锡鸿 Zhao Xihong, also called 赵孚民 Zhao Fumin; the codename echoes his Shandong origin (Lu = Shandong)."
+    },
+    "赵锡鸿": {
+      "en": "Zhao Xihong",
+      "pinyin": "Zhao Xihong",
+      "status": "decided",
+      "note": "Real name of Lu Nan."
+    },
+    "赵孚民": {
+      "en": "Zhao Fumin",
+      "pinyin": "Zhao Fumin",
+      "status": "decided",
+      "note": "An alternate name of Lu Nan (Zhao Xihong)."
+    },
+    "李启明": {
+      "en": "Li Qiming",
+      "pinyin": "Li Qiming",
+      "status": "decided",
+      "note": "Shaan-Gan-Ning Border Region Security Office officer who ran and later vetted Lu Nan; not to be confused with Li Fushan."
+    },
+    "何绍南": {
+      "en": "He Shaonan",
+      "pinyin": "He Shaonan",
+      "status": "attested",
+      "note": "Kuomintang commissioner and security commander at Suide, driven out by CCP forces in 1940."
+    },
+    "陈奇涵": {
+      "en": "Chen Qihan",
+      "pinyin": "Chen Qihan",
+      "status": "attested",
+      "note": "PLA general, later president of the PLA Military Court."
+    },
+    "崔际州": {
+      "en": "Cui Jizhou",
+      "pinyin": "Cui Jizhou",
+      "status": "decided"
+    },
+    "龚震": {
+      "en": "Gong Zhen",
+      "pinyin": "Gong Zhen",
+      "status": "decided"
+    },
+    "张励生": {
+      "en": "Zhang Lisheng",
+      "pinyin": "Zhang Lisheng",
+      "status": "decided"
+    },
+    "王致祥": {
+      "en": "Wang Zhixiang",
+      "pinyin": "Wang Zhixiang",
+      "status": "decided"
+    },
+    "张永昌": {
+      "en": "Zhang Yongchang",
+      "pinyin": "Zhang Yongchang",
+      "status": "decided"
+    },
+    "冀聘之": {
+      "en": "Ji Pinzhi",
+      "pinyin": "Ji Pinzhi",
+      "status": "decided"
+    },
+    "巴荣昌": {
+      "en": "Ba Rongchang",
+      "pinyin": "Ba Rongchang",
+      "status": "decided"
+    },
+    "马占山": {
+      "en": "Ma Zhanshan",
+      "pinyin": "Ma Zhanshan",
+      "status": "attested",
+      "note": "Anti-Japanese general famous for resisting the Japanese in Manchuria in 1931."
+    },
+    "陈长捷": {
+      "en": "Chen Changjie",
+      "pinyin": "Chen Changjie",
+      "status": "attested",
+      "note": "Nationalist general, later the defeated defender of Tianjin in 1949."
+    },
+    "张警士": {
+      "en": "Zhang Jingshi",
+      "pinyin": "Zhang Jingshi",
+      "status": "decided"
+    },
+    "李禾亭": {
+      "en": "Li Heting",
+      "pinyin": "Li Heting",
+      "status": "decided",
+      "note": "Inspection-station chief at Dongsheng and a Juntong agent."
+    },
+    "贾耿夫": {
+      "en": "Jia Gengfu",
+      "pinyin": "Jia Gengfu",
+      "status": "decided",
+      "note": "Juntong agent who arrested Lu Nan and Gong Zhen at Dongsheng."
+    },
+    "林若冰": {
+      "en": "Lin Ruobing",
+      "pinyin": "Lin Ruobing",
+      "status": "decided"
+    },
+    "马汉三": {
+      "en": "Ma Hansan",
+      "pinyin": "Ma Hansan",
+      "status": "attested",
+      "note": "Juntong chief in Suiyuan and head of the Eighth War Zone anti-smuggling office; the source also spells his name 马汉山 Ma Hanshan."
+    },
+    "马汉山": {
+      "en": "Ma Hanshan",
+      "pinyin": "Ma Hanshan",
+      "status": "decided",
+      "note": "The source's alternate spelling for Ma Hansan (see 马汉三)."
+    },
+    "欧阳钦": {
+      "en": "Ouyang Qin",
+      "pinyin": "Ouyang Qin",
+      "status": "attested",
+      "note": "Senior CCP official of the Shaan-Gan-Ning Border Region Security Office; later a provincial Party leader."
+    },
+    "张庆恩": {
+      "en": "Zhang Qing'en",
+      "pinyin": "Zhang Qing'en",
+      "status": "decided",
+      "note": "Chief of the Suiyuan Investigation and Statistics secret service and KMT provincial party secretary-general; fled to Taiwan in 1949."
+    },
+    "王琪": {
+      "en": "Wang Qi",
+      "pinyin": "Wang Qi",
+      "status": "decided"
+    },
+    "郭长青": {
+      "en": "Guo Changqing",
+      "pinyin": "Guo Changqing",
+      "status": "decided"
+    },
+    "米景铨": {
+      "en": "Mi Jingquan",
+      "pinyin": "Mi Jingquan",
+      "status": "decided"
+    },
+    "亢上池": {
+      "en": "Kang Shangchi",
+      "pinyin": "Kang Shangchi",
+      "status": "decided"
+    },
+    "陈紫衡": {
+      "en": "Chen Ziheng",
+      "pinyin": "Chen Ziheng",
+      "status": "decided"
+    },
+    "刘国庆": {
+      "en": "Liu Guoqing",
+      "pinyin": "Liu Guoqing",
+      "status": "decided"
+    },
+    "胡全福": {
+      "en": "Hu Quanfu",
+      "pinyin": "Hu Quanfu",
+      "status": "decided"
+    },
+    "张玉清": {
+      "en": "Zhang Yuqing",
+      "pinyin": "Zhang Yuqing",
+      "status": "decided"
+    },
+    "郭靖帮": {
+      "en": "Guo Jingbang",
+      "pinyin": "Guo Jingbang",
+      "status": "decided"
+    },
+    "程德淹": {
+      "en": "Cheng Deyan",
+      "pinyin": "Cheng Deyan",
+      "status": "decided"
+    },
+    "李鲲生": {
+      "en": "Li Kunsheng",
+      "pinyin": "Li Kunsheng",
+      "status": "decided"
+    },
+    "崔正春": {
+      "en": "Cui Zhengchun",
+      "pinyin": "Cui Zhengchun",
+      "status": "decided"
+    },
+    "田树梅": {
+      "en": "Tian Shumei",
+      "pinyin": "Tian Shumei",
+      "status": "decided"
+    },
+    "胡尚儒": {
+      "en": "Hu Shangru",
+      "pinyin": "Hu Shangru",
+      "status": "decided"
+    },
+    "曲日新": {
+      "en": "Qu Rixin",
+      "pinyin": "Qu Rixin",
+      "status": "decided",
+      "note": "Intelligence worker whose memoir the chapter draws on."
+    },
+    "李建奎": {
+      "en": "Li Jiankui",
+      "pinyin": "Li Jiankui",
+      "status": "decided"
+    },
+    "刘珍": {
+      "en": "Liu Zhen",
+      "pinyin": "Liu Zhen",
+      "status": "decided",
+      "note": "Teacher at Huangzhai who bought enemy books and papers for the intelligence network."
+    },
+    "吉喜子": {
+      "en": "Ji Xizi",
+      "pinyin": "Ji Xizi",
+      "status": "decided"
+    },
+    "周佛海": {
+      "en": "Zhou Fohai",
+      "pinyin": "Zhou Fohai",
+      "status": "attested",
+      "note": "A founding Communist turned Kuomintang figure, then a leading collaborator in Wang Jingwei's puppet government."
+    },
+    "陈公博": {
+      "en": "Chen Gongbo",
+      "pinyin": "Chen Gongbo",
+      "status": "attested",
+      "note": "A founding Communist turned Kuomintang figure, later head of Wang Jingwei's puppet regime; executed in 1946."
+    },
+    "李元则": {
+      "en": "Li Yuanze",
+      "pinyin": "Li Yuanze",
+      "status": "decided"
+    },
+    "赵贵龙": {
+      "en": "Zhao Guilong",
+      "pinyin": "Zhao Guilong",
+      "status": "decided"
+    },
+    "赵汝则": {
+      "en": "Zhao Ruze",
+      "pinyin": "Zhao Ruze",
+      "status": "decided"
+    },
+    "牛茂林": {
+      "en": "Niu Maolin",
+      "pinyin": "Niu Maolin",
+      "status": "decided"
+    },
+    "程日则": {
+      "en": "Cheng Rize",
+      "pinyin": "Cheng Rize",
+      "status": "decided"
+    },
+    "周高明": {
+      "en": "Zhou Gaoming",
+      "pinyin": "Zhou Gaoming",
+      "status": "decided",
+      "note": "Courier; the source gives his name as both 周高明 Zhou Gaoming and 田高明 Tian Gaoming."
+    },
+    "田高明": {
+      "en": "Tian Gaoming",
+      "pinyin": "Tian Gaoming",
+      "status": "decided",
+      "note": "The source's alternate surname for the courier Zhou Gaoming."
+    },
+    "刘桐山": {
+      "en": "Liu Tongshan",
+      "pinyin": "Liu Tongshan",
+      "status": "decided"
+    },
+    "赵端": {
+      "en": "Zhao Duan",
+      "pinyin": "Zhao Duan",
+      "status": "decided"
+    },
+    "李芳": {
+      "en": "Li Fang",
+      "pinyin": "Li Fang",
+      "status": "decided",
+      "note": "Jin-Sui Military Region reconnaissance staff officer who led the raid to seize Nanqi."
+    },
+    "南奇": {
+      "en": "Nanqi",
+      "pinyin": "Nanqi",
+      "status": "decided",
+      "note": "Chinese name of the Japanese officer Nakamura Rijin, a quartermaster at Lanxian seized in a 1944 raid."
+    },
+    "中村里仁": {
+      "en": "Nakamura Rijin",
+      "pinyin": "Nakamura Rijin",
+      "status": "decided",
+      "note": "Japanese officer also known by the Chinese name Nanqi."
+    },
+    "丁好信": {
+      "en": "Ding Haoxin",
+      "pinyin": "Ding Haoxin",
+      "status": "decided"
+    },
+    "邢升增": {
+      "en": "Xing Shengzeng",
+      "pinyin": "Xing Shengzeng",
+      "status": "decided"
+    },
+    "牛友穆": {
+      "en": "Niu Youmu",
+      "pinyin": "Niu Youmu",
+      "status": "decided"
+    },
+    "牛成林": {
+      "en": "Niu Chenglin",
+      "pinyin": "Niu Chenglin",
+      "status": "decided"
+    },
+    "程西": {
+      "en": "Cheng Xi",
+      "pinyin": "Cheng Xi",
+      "status": "decided"
+    },
+    "李济生": {
+      "en": "Li Jisheng",
+      "pinyin": "Li Jisheng",
+      "status": "decided"
+    },
+    "牛成森": {
+      "en": "Niu Chengsen",
+      "pinyin": "Niu Chengsen",
+      "status": "decided"
+    },
+    "翟文华": {
+      "en": "Zhai Wenhua",
+      "pinyin": "Zhai Wenhua",
+      "status": "decided"
+    },
+    "郑贵": {
+      "en": "Zheng Gui",
+      "pinyin": "Zheng Gui",
+      "status": "decided",
+      "note": "Datong-born agent who cracked the Bureau of Confidential Investigation's Suiyuan network."
+    },
+    "邢绍闻": {
+      "en": "Xing Shaowen",
+      "pinyin": "Xing Shaowen",
+      "status": "decided",
+      "note": "Bureau of Confidential Investigation officer at Guisui, Zheng Gui's sworn brother, turned by him."
+    },
+    "何柱国": {
+      "en": "He Zhuguo",
+      "pinyin": "He Zhuguo",
+      "status": "attested",
+      "note": "Cavalry general of the Northeastern Army."
+    },
+    "李保": {
+      "en": "Li Bao",
+      "pinyin": "Li Bao",
+      "status": "decided"
+    },
+    "咎良": {
+      "en": "Jiu Liang",
+      "pinyin": "Jiu Liang",
+      "status": "decided"
+    },
+    "柴楚祥": {
+      "en": "Chai Chuxiang",
+      "pinyin": "Chai Chuxiang",
+      "status": "decided"
+    },
+    "李模": {
+      "en": "Li Mo",
+      "pinyin": "Li Mo",
+      "status": "decided"
+    },
+    "庞中兴": {
+      "en": "Pang Zhongxing",
+      "pinyin": "Pang Zhongxing",
+      "status": "decided",
+      "note": "Head of the Bureau of Confidential Investigation's Suiyuan station until 1949."
+    },
+    "杨秉仁": {
+      "en": "Yang Bingren",
+      "pinyin": "Yang Bingren",
+      "status": "decided"
+    },
+    "毛人凤": {
+      "en": "Mao Renfeng",
+      "pinyin": "Mao Renfeng",
+      "status": "attested",
+      "note": "Head of the Kuomintang's Juntong / Bureau of Confidential Investigation after Dai Li's death."
+    },
+    "牛希元": {
+      "en": "Niu Xiyuan",
+      "pinyin": "Niu Xiyuan",
+      "status": "decided"
+    },
+    "武毓美": {
+      "en": "Wu Yumei",
+      "pinyin": "Wu Yumei",
+      "status": "decided",
+      "note": "Juntong adjutant turned by Zheng Gui, who handed over the Suiyuan Juntong files."
+    },
+    "刘效纪": {
+      "en": "Liu Xiaoji",
+      "pinyin": "Liu Xiaoji",
+      "status": "decided"
+    },
+    "刘振寰": {
+      "en": "Liu Zhenhuan",
+      "pinyin": "Liu Zhenhuan",
+      "status": "decided"
+    },
+    "王少华": {
+      "en": "Wang Shaohua",
+      "pinyin": "Wang Shaohua",
+      "status": "decided"
+    },
+    "刘孝贤": {
+      "en": "Liu Xiaoxian",
+      "pinyin": "Liu Xiaoxian",
+      "status": "decided"
+    },
+    "张洪波": {
+      "en": "Zhang Hongbo",
+      "pinyin": "Zhang Hongbo",
+      "status": "decided"
+    },
+    "田唆布": {
+      "en": "Tian Suobu",
+      "pinyin": "Tian Suobu",
+      "status": "provisional",
+      "note": "Bureau of Confidential Investigation North China deputy chief; reading of the name uncertain from the scan."
+    },
+    "高光耀": {
+      "en": "Gao Guangyao",
+      "pinyin": "Gao Guangyao",
+      "status": "decided"
+    },
+    "翟绥屏": {
+      "en": "Zhai Suiping",
+      "pinyin": "Zhai Suiping",
+      "status": "decided"
+    },
+    "黄东楼": {
+      "en": "Huang Donglou",
+      "pinyin": "Huang Donglou",
+      "status": "decided"
+    },
+    "李歧峰": {
+      "en": "Li Qifeng",
+      "pinyin": "Li Qifeng",
+      "status": "decided"
+    },
+    "王可模": {
+      "en": "Wang Kemo",
+      "pinyin": "Wang Kemo",
+      "status": "decided"
+    },
+    "张风贤": {
+      "en": "Zhang Fengxian",
+      "pinyin": "Zhang Fengxian",
+      "status": "decided"
+    },
+    "朱鸿良": {
+      "en": "Zhu Hongliang",
+      "pinyin": "Zhu Hongliang",
+      "status": "decided"
+    },
+    "魏永安": {
+      "en": "Wei Yong'an",
+      "pinyin": "Wei Yong'an",
+      "status": "decided"
+    },
+    "张杰": {
+      "en": "Zhang Jie",
+      "pinyin": "Zhang Jie",
+      "status": "decided"
+    },
+    "云龙": {
+      "en": "Yun Long",
+      "pinyin": "Yun Long",
+      "status": "decided"
+    },
+    "云海": {
+      "en": "Yun Hai",
+      "pinyin": "Yun Hai",
+      "status": "decided"
+    },
+    "刘幻跛": {
+      "en": "Liu Huanbo",
+      "pinyin": "Liu Huanbo",
+      "status": "decided"
     }
   },
   "organizations": {
@@ -1929,6 +2647,52 @@
       "en": "the Jiefang Daily",
       "pinyin": "Jiefang Ribao",
       "status": "decided"
+    },
+    "调统室": {
+      "en": "the Investigation and Statistics office",
+      "pinyin": "diaotong shi",
+      "status": "decided",
+      "note": "A provincial organ of the Kuomintang's party investigation-and-statistics (intelligence) system; rendered 'Investigation and Statistics' throughout."
+    },
+    "特种会议秘书处": {
+      "en": "the Special Conference Secretariat",
+      "pinyin": "Tezhong Huiyi Mishuchu",
+      "status": "decided",
+      "note": "A Suiyuan secret-service body fronting the Investigation and Statistics system."
+    },
+    "资源调查社": {
+      "en": "the Resource Investigation Society",
+      "pinyin": "Ziyuan Diaocha She",
+      "status": "decided",
+      "note": "A Japanese secret-service organ later taken over by Yan Xishan."
+    },
+    "晋绥情报总局": {
+      "en": "the Jin-Sui Intelligence General Bureau",
+      "pinyin": "Jin-Sui Qingbao Zongju",
+      "status": "decided",
+      "note": "Chen Yangshan's intelligence organization in Jin-Sui, also called the Investigation Bureau and the Public Security General Bureau as it was renamed."
+    },
+    "绥蒙公安局": {
+      "en": "the Sui-Meng Public Security Bureau",
+      "pinyin": "Sui-Meng Gong'anju",
+      "status": "decided"
+    },
+    "同仁医院": {
+      "en": "the Tongren Hospital",
+      "pinyin": "Tongren Yiyuan",
+      "status": "decided"
+    },
+    "牺盟会": {
+      "en": "the Sacrifice League",
+      "pinyin": "Ximeng Hui",
+      "status": "attested",
+      "note": "The Shanxi Sacrifice for National Salvation League, a united-front body under Yan Xishan that the CCP heavily influenced."
+    },
+    "中华民族解放先锋队": {
+      "en": "the Chinese National Liberation Vanguard",
+      "pinyin": "Zhonghua Minzu Jiefang Xianfengdui",
+      "status": "attested",
+      "note": "A CCP-led patriotic youth organization founded in 1936."
     }
   },
   "places": {
@@ -2139,6 +2903,80 @@
       "en": "Kenanpo",
       "pinyin": "Kenanpo",
       "status": "decided"
+    },
+    "归绥": {
+      "en": "Guisui",
+      "pinyin": "Guisui",
+      "status": "attested",
+      "note": "Former name of Hohhot (now capital of Inner Mongolia); called Houhehaote under Japanese occupation."
+    },
+    "绥蒙": {
+      "en": "Sui-Meng",
+      "pinyin": "Sui-Meng",
+      "status": "decided",
+      "note": "The Suiyuan-Mongolia border area."
+    },
+    "大同": {
+      "en": "Datong",
+      "pinyin": "Datong",
+      "status": "attested",
+      "note": "Major coal city in northern Shanxi."
+    },
+    "集宁": {
+      "en": "Jining",
+      "pinyin": "Jining",
+      "status": "decided",
+      "note": "City in Suiyuan (now Ulanqab, Inner Mongolia)."
+    },
+    "包头": {
+      "en": "Baotou",
+      "pinyin": "Baotou",
+      "status": "attested"
+    },
+    "东胜": {
+      "en": "Dongsheng",
+      "pinyin": "Dongsheng",
+      "status": "decided"
+    },
+    "伊克昭盟": {
+      "en": "the Ike Zhao League",
+      "pinyin": "Yikezhao Meng",
+      "status": "attested",
+      "note": "Mongol banner-league in the Ordos region, south of the Yellow River bend (now Ordos)."
+    },
+    "河套": {
+      "en": "the Hetao",
+      "pinyin": "Hetao",
+      "status": "decided",
+      "note": "The great bend of the Yellow River in western Suiyuan."
+    },
+    "岚县": {
+      "en": "Lanxian",
+      "pinyin": "Lanxian",
+      "status": "decided"
+    },
+    "口泉": {
+      "en": "Kouquan",
+      "pinyin": "Kouquan",
+      "status": "decided",
+      "note": "Coal-mining district near Datong."
+    },
+    "杀虎口": {
+      "en": "Shahukou",
+      "pinyin": "Shahukou",
+      "status": "decided",
+      "note": "A pass on the Shanxi-Suiyuan border (its name means 'Kill-Tiger Pass')."
+    },
+    "阳曲": {
+      "en": "Yangqu",
+      "pinyin": "Yangqu",
+      "status": "decided"
+    },
+    "陕坝": {
+      "en": "Shanba",
+      "pinyin": "Shanba",
+      "status": "decided",
+      "note": "Wartime seat of the Suiyuan provincial government, in the Hetao."
     }
   },
   "events": {
@@ -2251,6 +3089,24 @@
       "en": "the Qingfengdian Campaign",
       "pinyin": "Qingfengdian zhanyi",
       "status": "decided"
+    },
+    "察绥战役": {
+      "en": "the Cha-Sui Campaign",
+      "pinyin": "Cha-Sui Zhanyi",
+      "status": "decided",
+      "note": "The autumn 1948 Chahar-Suiyuan operations."
+    },
+    "辽沈战役": {
+      "en": "the Liaoshen Campaign",
+      "pinyin": "Liaoshen Zhanyi",
+      "status": "attested",
+      "note": "The decisive September-November 1948 campaign in the Northeast."
+    },
+    "绥远和平起义": {
+      "en": "the Suiyuan peaceful uprising",
+      "pinyin": "Suiyuan Heping Qiyi",
+      "status": "decided",
+      "note": "The September 19, 1949 defection of Suiyuan under Dong Qiwu, on the 'Suiyuan formula.'"
     }
   },
   "terms": {

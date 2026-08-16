@@ -125,3 +125,23 @@
 五花大绑
 # 40万伪法币 = 400,000 puppet fabi (arabic+万 magnitude split); value carried in English as "400,000"
 40万
+# 李五才 Li Wucai — a personal name; the 五 is not a quantity
+李五才
+# 刘万春 Liu Wanchun — a personal name; the 万 is not a quantity
+刘万春
+# 马汉三 Ma Hansan — a personal name; the 三 is not a quantity
+马汉三
+# 鄂友三 E Yousan — a personal name; the 三 is not a quantity
+鄂友三
+# 五寨(县) Wuzhai County — a place name; the 五 is not a quantity
+五寨
+# 五原(办事处) Wuyuan — a place name; the 五 is not a quantity
+五原
+# 国共两党 "the Kuomintang and the Communists" — 两党 = the two parties, rendered by naming both
+两党
+# 万籁俱寂 idiom, "utterly still / all sounds hushed"; the 万 is not a quantity
+万籁俱寂
+# 惊恐万状 idiom, "struck with terror"; the 万 is not a quantity
+惊恐万状
+# 九一九(绥远起义) the September 19 (Suiyuan) uprising — a date; rendered "September 19", not 919
+九一九
