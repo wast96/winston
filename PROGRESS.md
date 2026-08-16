@@ -1399,3 +1399,144 @@ Jing (p332); a scene from the opera (p333); Li Rui and Hu Sha, each with the aut
 - setup.sh regression "hook stands down on template stub" still FAILS benignly
   (HANDOFF holds a real kickoff); all other checker regression tests green. PaddleOCR
   absent (expected); used scripts/ocr_dual.py.
+
+## Batch B11 -- Chapter 10 (第十章 "阳谋" / "The Open Scheme"), whole chapter + Principal Sources
+
+Chapter 10 is COMPLETE. The post-war pivot: the Japanese surrender, the Chongqing
+negotiations "played in earnest" while both sides race for position, the "cold-storage
+spies" reactivated for the coming civil war, the "Democratic Allied Army" wave of
+defections, the "Latter Three Heroes" (Xiong Xianghui / Chen Zhongjing / Shen Jian in
+Hu Zongnan's HQ), the Great Withdrawal from Yan'an (March 1947), and the Yan'an
+guerrillas. Eight sections. 355 English body paragraphs (1:1 parity). The chapter is
+unusually candid for this book: it quotes the internal reckoning that 2,296 people
+were killed in the Border Region in 1947, over half of them wrongly, and gives the
+execution of Wang Shiwei plainly.
+
+### Pipeline run (reused, not re-measured)
+- render 343 383 --dpi 300; ocr_crop 343 383 (recto/odd [0.07,0.86], verso/even
+  [0.17,0.94], top 0.045, bottom 0.93, chi_sim psm6, running-head stripped);
+  ocr_dual 343 383; indents 343 383. tesseract idle 0 after each (pgrep -c = 0; the
+  ocr_crop background job's "exit 1" was only `pgrep -c tesseract` returning nonzero
+  on a zero count, i.e. success).
+- assemble ch10 343 383 --offset 36 --blank-assist = 330 body paragraphs (boundary
+  cross-check only); scripts/resegment_ch10.py is AUTHORITATIVE (355 body, 11
+  headings), a hardcoded hand-verified ('h'|'b') item list read off every page image
+  (pp. 343-383 all read by eye, cross-checked vs psm6 + ocr_dual psm4). The +25 gap
+  is the usual: assemble merges the many one-line PUNCH paragraphs (this chapter is
+  punch-heavy) and the short Principal-Sources entries, and merges four-to-eight true
+  paragraphs on the plate/column-wrap pages.
+- resegment_ch10.py ALSO rebuilds data/pagemap/ch10.json (41 folios, printed 307-347)
+  from a hand-recorded PAGE_STARTS list (each printed page -> the 0-based body index
+  of its first STARTING paragraph); strictly increasing, verified by the script.
+
+### Page-seam method (indents.py unreliable on digit-initial lines)
+Every seam settled by eye + logic. Digit-/date-initial page tops (e.g. p344 top
+"第二次淳化事件爆发！" after a sentence-final period = NEW; the many "8月.../1946年..."
+tops) resolved by the rule: indented top after 。？！ = NEW; non-indented top, or one
+whose previous page ended mid-clause / on a cut word, = continuation. Several
+paragraphs legitimately span a page break (e.g. b14 苗乐山 p344->345; b25 陈汝杰
+p346->347; b285 祁三益 roster p375->376).
+
+### Crop-verifications (magnified PIL crops; verify_names --auto + Pillow)
+- p315 "1945年9月5日，日本投降" -- crop-verified the digit is 5 (not 2/9). This is a
+  SOURCE ANOMALY: the surrender was Aug 15 (announcement) / Sept 2 (Missouri) / Sept 9
+  (China-theater, which the book gives correctly two paragraphs below). Rendered as
+  printed ("September 5, 1945") and FOOTNOTED.
+- p317 "陇耀师长" -- crop-verified 陇耀 (Long Yao), a Yunnan-army division commander.
+- p323 vs p338: the Nationalist general is printed 刘戡 (Liu Kan) on printed 323 and
+  刘勘 on printed 338 -- an internal PRINT VARIANT of the same person. Rendered "Liu
+  Kan" throughout; NOT footnoted (invisible in pinyin, not load-bearing; minor tier).
+- p337 "不留后路是老擤" -- crop-verified 擤 (扌+鼻); a Shaanbei dialect word for
+  foolishness. Rendered for sense ("plain foolishness"); no note (minor tier).
+- p337 "蛮婆" -- crop-verified; rendered "country crone" (an agent's fortune-teller
+  disguise).
+- p342 "五丈五云梯" -- crop-verified; a scaling ladder 5.5 zhang tall.
+- p339 "章炳南误写为张炳南" -- the source itself notes the martyrs' monument misprints
+  the name; rendered as printed (the misprint kept), the author's own observation.
+- Dense figure rosters cross-checked against BOTH ocr configs (agree): p337
+  7663/4592/15挺/114次/614/1281; p334 2296 killed; p311 374%; p329 3.37:1; p336
+  113->2. All carried in the English as digits.
+
+### Numbers (verify_unit / check_numbers --noise data/noise.txt): 0 unresolved
+Reworded 5 pairs to carry values the parser recognizes: the 四类 list -> "first/
+second/third/fourth"; 十二万 -> "120,000"; 四国外长 -> "the four powers"; 左右两个兵团
+-> "the two corps, left and right"; 两人逃亡 -> "only two ... fled". Extended
+data/noise.txt (B11 block): 14万 (Arabic+万 the parser mangles to a spurious 1;
+carried as "140,000"), 一失足成千古恨, 两眼一抹黑, 陈云、彭真二人, 不远千里,
+二十里铺, 三十里铺, 七七八八, 夫妻两人, 前一日, 零件 (零=spare, not 0), 五华山, 五原,
+祁三益 (三 in the name), 两区. TOOLING FIX (do not revert): the pre-existing noise
+rule "4万" (intended for 4万石) was greedily eating the "4万" inside "14万" and leaving
+a spurious "1"; scoped it to "4万石" per its own comment. 野百合花 and 七大 (already in
+noise) also cover this chapter's 《王实味与野百合花》 and 七大.
+
+### Apparatus
+- notes.json: +22 ch10 notes (book total 207). New this chapter: 阳谋 (open scheme,
+  anchored on the "kicking each other under the table" line, NOT the H1 -- the builder
+  does not anchor chapter-title headings); Chongqing negotiations; Feast at Hongmen;
+  Jiang Gan / Zhou Yu (Three Kingdoms); the Sept-5 surrender-date anomaly; the 16th-
+  parallel Potsdam arrangement; Long Yun's ouster; Bao Dai; the Diaoyu aside (interested-
+  witness); cold-storage / strategic spy; Yan Youwen (identity secret to 1993,
+  corroborated via his daughter + Luo Qingchang); the Latter Three Heroes + Longtan
+  parallel (KEY; Xiong Xianghui's memoir the principal source); tesuji (go term);
+  Empty Fort Stratagem; Gao Shuxun revolt / movement; the "democratic army" framing
+  (interested-witness); Li Bai the radio operator; paofan; Wang Shiwei's execution +
+  1991 rehabilitation (cross-ref ch09); Juntong's "enter alive, leave only dead";
+  huanxiangtuan; Wu Manyou the model laborer's fall.
+- CROSS-REFERENCED, not re-noted (already placed): Longtan Trio / 龙潭三杰 (ch01);
+  Kawashima Yoshiko + her brother Xiandong/宪东 (ch05); Shen Anna (ch03); Puyi (ch07);
+  Xi Zhongxun (ch04); Wang Shiwei's "Wild Lily" and full execution/rehab account
+  (ch09); Kang Sheng, Rectification (ch02); Juntong/Zhongtong, Central Special Branch,
+  the Social Affairs Department, the Border Security (earlier chapters).
+- glossary.json: +15 rows (234 total): 阳谋, 重庆谈判, 双十协定, 冷藏间谍, 战略间谍,
+  后三杰, 民主联军, 延安大撤退, 跑反, 高树勋运动, 还乡团, 冈村宁次, 傅作义, 阎又文,
+  熊向晖, 龙云, 卢汉, 高树勋, 习仲勋 (4 of these already present -> left untouched).
+  REUSED unchanged: 边保, 中社部, 中情部, 保安处, Juntong, Zhongtong, 胡宗南, 康生,
+  李克农, 毛泽东, 周恩来, 蒋介石/老蒋, 潘汉年, 闲棋冷子 (ch03), 汉训班, 三边, 关中分区,
+  陇东. check_apparatus: 0 failures (the 19 attestation-note warnings are all on
+  pre-existing OLD rows, not this batch's).
+
+### Consistency / interested-witness posture
+- The partisan account is rendered faithfully in the TEXT (the Chongqing talks as
+  Chiang's "sham play," the "democratic" uprisings, the Diaoyu aside, the wry
+  "this place will yield oil someday" over the buried executed). The counter-record
+  and verdicts are in the FOOTNOTES. Notably the author is himself candid here about
+  the wartime killings (2,296, over half wrong) and about Wang Shiwei's death.
+- Handles held fixed: Border Security (56x), Social Affairs Department (17x), Juntong
+  (12x)/Zhongtong (11x), Hu Zongnan (36x), old Chiang (5x)/Chiang Kai-shek (26x),
+  Guanzhong sub-district. No slips (grep for Hu Tsung-nan/Chungking/Yenan/secret
+  police = 0). Anonymized-by-某: none new. No literal <i> in the reading (builder-safe).
+
+### Register (check_register --ref out/ch01_reading.md)
+Within tolerance. contr 7.6/1k (3.7x ref -- healthy; the chapter carries real
+conversational speech: Mao's jokes to Hu Jingduo and about the "two directors," Su
+Ping's "your mule goes to fight," Hao Su's "never mind these pots and jars," Long
+Yao's outburst -- all contracted). em-dash 0.0/1k (appositive-gloss and list dashes
+converted to colons/commas). shall% 0. Documents/directives/telegrams (the two 1947-48
+Northwest Bureau killing directives, the Truman quote) kept formal.
+
+### Figures: still DEFERRED (deliberate; commissioner decision pending)
+figures.json still empty. Chapter 10's inline plates catalogued for a later pass:
+Bu Lu directing Miao Leshan, 1944 (printed 309); Li Maotang (310); Mao's party at the
+Yan'an airfield before the Chongqing flight, w/ Zhang Zhizhong/Hurley/Wang Ruofei/Hu
+Qiaomu/Chen Long (313); Yang Huanglin and Huang Bin, codebook copyists (314); Li
+Shiying (319); Yan Youwen (left) and Wang Yu (right) (321); Shen Anna's handwriting
+(322); Xi Zhongxun at NW Field Army HQ (337); the reporters' tour of Yan'an, Aug 1947
+(330); Luo Fei with the author (331); the Yan'an PSB building (338); the grove where
+Liu Wu's group was killed, outside Yuxiang Gate, Xi'an (340); the Yihezhen/Yanjiaqu
+cave dwellings (335); the recapture of Yan'an, 22 Apr 1948, Border Security gate (343).
+Standing question (every 图文 photo, or a curated subset) still for the commissioner.
+
+### Build / environment (B11)
+- EPUB rebuilt: 11 of 14 chapters (ch00-ch10), 207 notes, 285 pagebreaks.
+  out/chinas_secret_war.epub. qa_epub PASS; epubcheck 0/0/0/0.
+- ch10 carries printed-page (folio) markers (resegment rebuilds the pagemap, printed
+  307-347). ch01 zh parity 269/299 and ch03 folio markers still open (corrections-pass
+  tasks; no note cites a ch03 folio).
+- Branch consolidation: session started on stray per-task branch
+  claude/china-secret-war-ch10-3asnf9 (0 commits ahead of, 24 behind
+  origin/claude/chinas-secret-war). Reset local canonical to origin (b92d035),
+  deleted the stray local branch and pruned the stale remote-tracking ref. All work on
+  claude/chinas-secret-war.
+- setup.sh regression "hook stands down on template stub" still FAILS benignly
+  (HANDOFF holds a real kickoff); all other checker regression tests green. PaddleOCR
+  absent (expected); used scripts/ocr_dual.py.

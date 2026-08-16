@@ -1,0 +1,210 @@
+{
+ "glossary": {
+  "阳谋": {
+   "en": "the open scheme",
+   "pinyin": "yangmou",
+   "status": "decided",
+   "note": "Lit. &#8220;open/overt scheme,&#8221; coined as the mirror of &#38452;&#35851; <i>yinmou</i> &#8220;plot, conspiracy&#8221;: a design pursued in the open rather than in secret. Here it names the postwar contest in which each side maneuvered openly (the Chongqing talks) while racing for military position."
+  },
+  "重庆谈判": {
+   "en": "the Chongqing negotiations",
+   "pinyin": "Chongqing tanpan",
+   "status": "attested",
+   "note": "The peace talks of 28 August&#8211;10 October 1945, to which Mao Zedong flew in person; they produced the Double-Tenth Agreement."
+  },
+  "双十协定": {
+   "en": "the Double-Tenth Agreement",
+   "pinyin": "Shuangshi xieding",
+   "status": "attested",
+   "note": "The &#8220;Summary of Conversations&#8221; signed 10 October 1945 (the Double Tenth, the ROC national day) at the close of the Chongqing negotiations; its terms were soon overtaken by civil war."
+  },
+  "冷藏间谍": {
+   "en": "cold-storage spy",
+   "pinyin": "lengcang jiandie",
+   "status": "decided",
+   "note": "An agent planted deep in the enemy camp and kept dormant, doing no active work, until a decisive moment; the book uses it interchangeably with &#25112;&#30053;&#38388;&#35851; &#8220;strategic spy.&#8221;"
+  },
+  "战略间谍": {
+   "en": "strategic spy",
+   "pinyin": "zhanlue jiandie",
+   "status": "decided",
+   "note": "A long-buried agent held in reserve for a strategic turning-point; see &#20919;&#34255;&#38388;&#35851; &#8220;cold-storage spy.&#8221;"
+  },
+  "后三杰": {
+   "en": "the Latter Three Heroes",
+   "pinyin": "hou san jie",
+   "status": "decided",
+   "note": "Xiong Xianghui, Chen Zhongjing, and Shen Jian, the trio that penetrated Hu Zongnan&#8217;s headquarters; named in deliberate parallel to the &#8220;Three Heroes of Longtan&#8221; of the early 1930s (see ch. 1)."
+  },
+  "民主联军": {
+   "en": "Democratic Allied Army",
+   "pinyin": "minzhu lianjun",
+   "status": "decided",
+   "note": "The &#8220;democratic&#8221; label taken by units that defected to, or fought alongside, the Communists in 1945&#8211;46, before the CCP called the fighting a &#8220;war of liberation.&#8221;"
+  },
+  "延安大撤退": {
+   "en": "the Great Withdrawal from Yan'an",
+   "pinyin": "Yan'an da chetui",
+   "status": "decided",
+   "note": "The CCP&#8217;s evacuation of its capital, Yan&#8217;an, before Hu Zongnan&#8217;s attack in March 1947."
+  },
+  "跑反": {
+   "en": "fleeing the raid",
+   "pinyin": "paofan",
+   "status": "decided",
+   "note": "A north-Shaanxi term for a whole population&#8217;s flight ahead of an oncoming army."
+  },
+  "高树勋运动": {
+   "en": "the Gao Shuxun Movement",
+   "pinyin": "Gao Shuxun yundong",
+   "status": "attested",
+   "note": "Mao&#8217;s slogan-campaign, named for Gao Shuxun&#8217;s October 1945 defection, urging Nationalist troops to revolt rather than fight the civil war."
+  },
+  "还乡团": {
+   "en": "home-returning corps",
+   "pinyin": "huanxiangtuan",
+   "status": "decided",
+   "note": "Landlord-led militias that returned with the Nationalist advance to retake land and take revenge on those who had carried out CCP land reform."
+  },
+  "冈村宁次": {
+   "en": "Okamura Yasuji",
+   "pinyin": "Gangcun Ningci",
+   "status": "attested",
+   "note": "Commander-in-chief of the Japanese China Expeditionary Army, who surrendered at Nanjing on 9 September 1945."
+  },
+  "傅作义": {
+   "en": "Fu Zuoyi",
+   "pinyin": "Fu Zuoyi",
+   "status": "attested",
+   "note": "Nationalist general commanding the 12th War Zone and later North China; his 1949 surrender gave the Communists Beiping intact."
+  },
+  "阎又文": {
+   "en": "Yan Youwen",
+   "pinyin": "Yan Youwen",
+   "status": "attested",
+   "note": "Secret CCP member planted as Fu Zuoyi&#8217;s aide and press chief; his Party role was kept secret until 1993."
+  },
+  "熊向晖": {
+   "en": "Xiong Xianghui",
+   "pinyin": "Xiong Xianghui",
+   "status": "attested",
+   "note": "Zhou Enlai&#8217;s &#8220;idle chessman&#8221; in Hu Zongnan&#8217;s headquarters, later a senior PRC diplomat; one of the &#8220;Latter Three Heroes.&#8221;"
+  },
+  "龙云": {
+   "en": "Long Yun",
+   "pinyin": "Long Yun",
+   "status": "attested",
+   "note": "The semi-autonomous governor of Yunnan, forced out by Chiang in October 1945."
+  },
+  "卢汉": {
+   "en": "Lu Han",
+   "pinyin": "Lu Han",
+   "status": "attested",
+   "note": "Yunnan-army general who took the Japanese surrender in Hanoi and later governed Yunnan; he declared for the Communists in 1949."
+  },
+  "高树勋": {
+   "en": "Gao Shuxun",
+   "pinyin": "Gao Shuxun",
+   "status": "attested",
+   "note": "Former Northwest Army general who defected with the New 8th Army at Handan on 30 October 1945."
+  },
+  "习仲勋": {
+   "en": "Xi Zhongxun",
+   "pinyin": "Xi Zhongxun",
+   "status": "attested",
+   "note": "Secretary of the CCP Northwest Bureau; later a PRC vice-premier (see ch. 4)."
+  }
+ },
+ "notes": {
+  "ch10": [
+   {
+    "anchor": "under the table their intelligence services were already kicking each other",
+    "note": "&#8220;The open scheme&#8221; renders &#38451;&#35851; <i>yangmou</i>, coined as the mirror of &#38452;&#35851; <i>yinmou</i>, &#8220;plot&#8221;: a design carried out in the open rather than in secret. The chapter&#8217;s &#8220;open scheme&#8221; is the postwar contest in which the two sides maneuvered openly &#8212; above all in the Chongqing peace talks &#8212; while each raced in secret for military position."
+   },
+   {
+    "anchor": "arrived by air in Chongqing",
+    "note": "The Chongqing negotiations (28 August&#8211;10 October 1945) were a genuine historic event: Chiang Kai-shek invited Mao Zedong to talks, Mao flew to the Nationalist capital under American escort, and the two sides signed the Double-Tenth Agreement. The risk to Mao&#8217;s person was real, and his safety a preoccupation of the CCP security apparatus. Corroborated; the framing here as a &#8220;play performed in earnest&#8221; is the author&#8217;s."
+   },
+   {
+    "anchor": "a modern-day Feast at Hongmen",
+    "note": "&#40511;&#38376;&#23476;, the banquet of 206 BC at which Xiang Yu&#8217;s followers schemed to assassinate his rival Liu Bang, who slipped away; a byword for a banquet that is a deadly trap."
+   },
+   {
+    "anchor": "buffoons out of the tale of Jiang Gan",
+    "note": "In the <i>Romance of the Three Kingdoms</i>, Jiang Gan is sent to spy on the Wu strategist Zhou Yu before the Battle of Red Cliffs, is fed a forged letter, and is gulled into having his own side&#8217;s admirals killed &#8212; the archetype of the spy turned against his master. Zhou Yu, named just below, is the brilliant young Wu commander who engineers the deception."
+   },
+   {
+    "anchor": "On September 5, 1945, Japan surrendered.",
+    "note": "The date is as printed, and is anomalous. Japan announced its acceptance of the Potsdam terms on 15 August 1945; the instrument of surrender was signed aboard the USS <i>Missouri</i> on 2 September; and the surrender of Japanese forces in the China theater was received at Nanjing on 9 September &#8212; the date the book itself gives correctly two paragraphs below. No standard milestone falls on 5 September; treat it as the author&#8217;s slip."
+   },
+   {
+    "anchor": "north of the 16th parallel was China's to receive",
+    "note": "Under the Allied surrender arrangements, Chinese forces took the Japanese surrender across China (apart from the Soviet-occupied Northeast), on Taiwan, and in French Indochina north of the 16th parallel; the zone south of it went to the British. Corroborated."
+   },
+   {
+    "anchor": "forced Long Yun out of Yunnan",
+    "note": "Long Yun (1884&#8211;1962), the &#8220;King of Yunnan,&#8221; had ruled the province semi-autonomously since 1927. On Chiang&#8217;s order Du Yuming&#8217;s troops surrounded his headquarters on Wuhua Mountain on 3 October 1945 and forced him to Chongqing, where he was kept under virtual house arrest; in 1948 he fled to Hong Kong and sided with the Communists. Corroborated."
+   },
+   {
+    "anchor": "the Vietnamese emperor Bao Dai",
+    "note": "Bao Dai (1913&#8211;1997), last emperor of the Nguyen dynasty, abdicated on 25 August 1945 in favor of Ho Chi Minh&#8217;s provisional government and briefly served it as &#8220;supreme adviser.&#8221;"
+   },
+   {
+    "anchor": "no Sino-Japanese dispute over the Diaoyu Islands today",
+    "note": "An editorial aside of the author&#8217;s, reading a present-day territorial quarrel back onto 1945. The status of the Diaoyu (Senkaku) islands was not part of the surrender arrangements the passage describes; the remark reflects the book&#8217;s contemporary nationalist vantage rather than the historical record. Interested witness."
+   },
+   {
+    "anchor": "known within the trade as \"strategic spies.\"",
+    "note": "&#20919;&#34255;&#38388;&#35851; (&#8220;cold-storage&#8221; or &#8220;refrigerated&#8221; spy) and &#25112;&#30053;&#38388;&#35851; (&#8220;strategic spy&#8221;) both name an agent planted deep in the enemy camp and left dormant, doing no active work, until a decisive moment makes him worth the risk of activation."
+   },
+   {
+    "anchor": "the time had come to bring out Yan Youwen",
+    "note": "Yan Youwen (1914&#8211;1962), a secret CCP member planted years before as aide and press chief to Fu Zuoyi. His intelligence, and his later persuasion, helped bring about the peaceful surrender of Beiping in 1949. His Party membership was kept secret even from his family; branded a &#8220;reactionary warlord&#8221; and persecuted, he was publicly acknowledged as a CCP intelligence officer only in 1993. Corroborated: the book cites his daughter and his case officer Luo Qingchang."
+   },
+   {
+    "anchor": "hailed them as the \"Latter Three Heroes.\"",
+    "note": "&#21518;&#19977;&#26480;. Xiong Xianghui (1919&#8211;2005), placed by Zhou Enlai as Hu Zongnan&#8217;s confidential secretary and later a senior PRC diplomat, together with Chen Zhongjing and Shen Jian, formed the trio that penetrated Hu Zongnan&#8217;s headquarters and gave early warning of the 1947 attack on Yan&#8217;an. The name deliberately echoes the &#8220;Three Heroes of Longtan&#8221; (Qian Zhuangfei, Li Kenong, Hu Di) of the early 1930s (see ch. 1). Corroborated; Xiong&#8217;s own memoir, <i>My Life in Diplomacy and Intelligence</i>, is the principal source, and the episode is standard in accounts of CCP intelligence."
+   },
+   {
+    "anchor": "was Zhou Enlai's tesuji indeed",
+    "note": "&#25163;&#31563; (Japanese <i>tesuji</i>), a term from the board game go for a deft, precisely placed stone that turns a position; here, the perfectly timed use of a long-buried agent."
+   },
+   {
+    "anchor": "loudly singing the Empty Fort",
+    "note": "&#31354;&#22478;&#35745;, the ruse attributed to Zhuge Liang in the Three Kingdoms tale: with the city all but undefended, he flings the gates open and sits playing the zither, so that the stronger enemy suspects an ambush and withdraws. In 1943 the CCP publicized Hu Zongnan&#8217;s planned attack in order to deter it; by 1947, the passage notes, the bluff no longer sufficed."
+   },
+   {
+    "anchor": "declared his revolt at Handan",
+    "note": "Gao Shuxun (1898&#8211;1972), a former Northwest Army general, defected with the New 8th Army during the Handan campaign on 30 October 1945. Mao turned his name into a slogan, the &#8220;Gao Shuxun Movement,&#8221; encouraging Nationalist officers to revolt rather than fight the civil war. Corroborated."
+   },
+   {
+    "anchor": "these revolted units had not yet raised the Communist banner",
+    "note": "At this stage the CCP called the fighting a &#8220;war of self-defense,&#8221; not yet a &#8220;war of liberation,&#8221; and the defecting units took &#8220;democratic&#8221; names to appeal to the broad popular longing for peace and against Chiang&#8217;s one-party rule. The CCP&#8217;s own main force in the Northeast was likewise styled the &#8220;Northeast Democratic Allied Army.&#8221; The framing is the CCP&#8217;s; the passage reports it faithfully."
+   },
+   {
+    "anchor": "it sent a Red Army cadre, Li Bai.",
+    "note": "Li Bai (1910&#8211;1949), the CCP&#8217;s clandestine radio operator in Shanghai, was arrested and executed by the Nationalists in May 1949 on the eve of the city&#8217;s fall; he later became famous as the model for the hero of the film <i>The Unfailing Radio Waves</i> (&#27704;&#19981;&#28040;&#36893;&#30340;&#30005;&#27874;)."
+   },
+   {
+    "anchor": "The Shaanbei people call such a withdrawal",
+    "note": "&#36305;&#21453; <i>paofan</i>, a north-Shaanxi term for the flight of a whole population, families and belongings and all, ahead of an oncoming army."
+   },
+   {
+    "anchor": "that very night Wang Shiwei was put to death.",
+    "note": "Wang Shiwei (1906&#8211;1947), the writer whose 1942 essay &#8220;Wild Lily&#8221; attacked privilege in Yan&#8217;an and made him the literary target of the Rectification (see ch. 9), was killed here during the retreat, his body thrown down a well. In February 1991 the verdict was overturned and the killing officially called a wartime error. The chapter&#8217;s own accounting below &#8212; 2,296 killed in the Border Region in 1947, more than half of them wrongly &#8212; is an unusually candid reckoning for this book."
+   },
+   {
+    "anchor": "with its own \"house law\": \"enter alive, leave only dead.\"",
+    "note": "&#29983;&#36827;&#27515;&#20986;, Juntong&#8217;s motto for the lifelong loyalty it claimed: a man admitted while living could leave only as a corpse."
+   },
+   {
+    "anchor": "seized by the home-returning corps",
+    "note": "&#36824;&#20065;&#22242; (<i>huanxiangtuan</i>), landlord-led militias that came back in the wake of the Nationalist advance to retake land distributed under CCP land reform and to take revenge on those who had carried it out."
+   },
+   {
+    "anchor": "Wu Manyou, a Border Region model laborer",
+    "note": "Wu Manyou was the most celebrated model farmer of the wartime Border Region and a poster figure of Yan&#8217;an&#8217;s production drive. His 1947 capture and the broadcasts he then made for the Nationalists were a grave embarrassment; returned to Yan&#8217;an after 1949, he died in obscurity and was quietly dropped from the model-laborer story. Corroborated in outline."
+   }
+  ]
+ }
+}

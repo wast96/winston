@@ -1293,5 +1293,95 @@
     "pinyin": "laohao",
     "status": "decided",
     "note": "The Border Security detainees held before the &#8220;Dai case&#8221; broke, mostly men merely suspected of being agents."
+  },
+  "阳谋": {
+    "en": "the open scheme",
+    "pinyin": "yangmou",
+    "status": "decided",
+    "note": "Lit. &#8220;open/overt scheme,&#8221; coined as the mirror of &#38452;&#35851; <i>yinmou</i> &#8220;plot, conspiracy&#8221;: a design pursued in the open rather than in secret. Here it names the postwar contest in which each side maneuvered openly (the Chongqing talks) while racing for military position."
+  },
+  "重庆谈判": {
+    "en": "the Chongqing negotiations",
+    "pinyin": "Chongqing tanpan",
+    "status": "attested",
+    "note": "The peace talks of 28 August&#8211;10 October 1945, to which Mao Zedong flew in person; they produced the Double-Tenth Agreement."
+  },
+  "双十协定": {
+    "en": "the Double-Tenth Agreement",
+    "pinyin": "Shuangshi xieding",
+    "status": "attested",
+    "note": "The &#8220;Summary of Conversations&#8221; signed 10 October 1945 (the Double Tenth, the ROC national day) at the close of the Chongqing negotiations; its terms were soon overtaken by civil war."
+  },
+  "冷藏间谍": {
+    "en": "cold-storage spy",
+    "pinyin": "lengcang jiandie",
+    "status": "decided",
+    "note": "An agent planted deep in the enemy camp and kept dormant, doing no active work, until a decisive moment; the book uses it interchangeably with &#25112;&#30053;&#38388;&#35851; &#8220;strategic spy.&#8221;"
+  },
+  "战略间谍": {
+    "en": "strategic spy",
+    "pinyin": "zhanlue jiandie",
+    "status": "decided",
+    "note": "A long-buried agent held in reserve for a strategic turning-point; see &#20919;&#34255;&#38388;&#35851; &#8220;cold-storage spy.&#8221;"
+  },
+  "后三杰": {
+    "en": "the Latter Three Heroes",
+    "pinyin": "hou san jie",
+    "status": "decided",
+    "note": "Xiong Xianghui, Chen Zhongjing, and Shen Jian, the trio that penetrated Hu Zongnan&#8217;s headquarters; named in deliberate parallel to the &#8220;Three Heroes of Longtan&#8221; of the early 1930s (see ch. 1)."
+  },
+  "民主联军": {
+    "en": "Democratic Allied Army",
+    "pinyin": "minzhu lianjun",
+    "status": "decided",
+    "note": "The &#8220;democratic&#8221; label taken by units that defected to, or fought alongside, the Communists in 1945&#8211;46, before the CCP called the fighting a &#8220;war of liberation.&#8221;"
+  },
+  "延安大撤退": {
+    "en": "the Great Withdrawal from Yan'an",
+    "pinyin": "Yan'an da chetui",
+    "status": "decided",
+    "note": "The CCP&#8217;s evacuation of its capital, Yan&#8217;an, before Hu Zongnan&#8217;s attack in March 1947."
+  },
+  "跑反": {
+    "en": "fleeing the raid",
+    "pinyin": "paofan",
+    "status": "decided",
+    "note": "A north-Shaanxi term for a whole population&#8217;s flight ahead of an oncoming army."
+  },
+  "高树勋运动": {
+    "en": "the Gao Shuxun Movement",
+    "pinyin": "Gao Shuxun yundong",
+    "status": "attested",
+    "note": "Mao&#8217;s slogan-campaign, named for Gao Shuxun&#8217;s October 1945 defection, urging Nationalist troops to revolt rather than fight the civil war."
+  },
+  "还乡团": {
+    "en": "home-returning corps",
+    "pinyin": "huanxiangtuan",
+    "status": "decided",
+    "note": "Landlord-led militias that returned with the Nationalist advance to retake land and take revenge on those who had carried out CCP land reform."
+  },
+  "冈村宁次": {
+    "en": "Okamura Yasuji",
+    "pinyin": "Gangcun Ningci",
+    "status": "attested",
+    "note": "Commander-in-chief of the Japanese China Expeditionary Army, who surrendered at Nanjing on 9 September 1945."
+  },
+  "龙云": {
+    "en": "Long Yun",
+    "pinyin": "Long Yun",
+    "status": "attested",
+    "note": "The semi-autonomous governor of Yunnan, forced out by Chiang in October 1945."
+  },
+  "卢汉": {
+    "en": "Lu Han",
+    "pinyin": "Lu Han",
+    "status": "attested",
+    "note": "Yunnan-army general who took the Japanese surrender in Hanoi and later governed Yunnan; he declared for the Communists in 1949."
+  },
+  "高树勋": {
+    "en": "Gao Shuxun",
+    "pinyin": "Gao Shuxun",
+    "status": "attested",
+    "note": "Former Northwest Army general who defected with the New 8th Army at Handan on 30 October 1945."
   }
 }

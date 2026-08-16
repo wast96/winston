@@ -157,8 +157,8 @@
 140万
 # 60万石 public grain = 600,000 dan; Arabic+万 carried as "600,000 dan"
 60万
-# 4万石 reduction = 40,000 dan; Arabic+万 carried as "40,000"
-4万
+# 4万石 reduction = 40,000 dan; Arabic+万 carried as "40,000" (scoped to 4万石 so it cannot eat the 4万 inside a larger figure like 14万)
+4万石
 # 数十万人 = "hundreds of thousands" (十万 kept vague, value carried as "hundreds of thousands")
 数十万
 # 万众瞩目 = "before the eyes of the multitude" (万 idiomatic, not a count)
@@ -201,3 +201,34 @@
 两千二百多
 # 野百合花 = "Wild Lily" (Wang Shiwei's 1942 essay title); 百 is part of 百合 "lily", not a numeral
 野百合花
+# --- Batch B11 (Chapter 10) ---
+# 14万 (140,000 troops), Arabic-plus-万 the reader can't recombine; value carried in English as "140,000". The parser also mangles 14万 into a spurious 1.
+14万
+# 一失足成千古恨 ("one false step brings eternal regret", idiom), 一/千古 not quantities; rendered "one false step brings eternal regret"
+一失足成千古恨
+# 两眼一抹黑 ("completely in the dark", idiom), 两/一 inside the idiom; rendered "entirely in the dark"
+两眼一抹黑
+# 陈云、彭真二人 (Chen Yun and Peng Zhen), 二人 = "the two", both named in English; not a counted quantity
+陈云、彭真二人
+# 不远千里 ("came the long way", idiom), 千里 not a quantity; rendered "the long way"
+不远千里
+# 二十里铺 = Ershilipu (place name, "Twenty-li Post"), 二十 in the toponym; rendered "Ershilipu"
+二十里铺
+# 三十里铺 = Sanshilipu (place name, "Thirty-li Post"), 三十 in the toponym; rendered "Sanshilipu"
+三十里铺
+# 七七八八 ("all uneven / higgledy-piggledy", idiom), 七/八 inside the idiom; rendered "all uneven"
+七七八八
+# 夫妻两人 ("the couple"), 两人 = the pair; rendered "the couple", not a counted quantity
+夫妻两人
+# 前一日 ("the day before"), 一 = the previous (day), not a quantity; rendered "the day before"
+前一日
+# 零件 ("spare parts / components"), 零 means "odd/spare" here, not the quantity zero; rendered "parts"
+零件
+# 五华山 = Wuhua Mountain (place, "Five Flowers Mountain"), 五=5 in the toponym; rendered "Wuhua Mountain"
+五华山
+# 五原 = Wuyuan (place, "Five Plains"), 五=5 in the toponym; rendered "Wuyuan"
+五原
+# 祁三益 = Qi Sanyi (personal name), 三 is part of the name, not a quantity; rendered "Qi Sanyi"
+祁三益
+# 两区 ("the two districts", eastern and western work committees), 两 = the pair of districts named separately in English
+两区
