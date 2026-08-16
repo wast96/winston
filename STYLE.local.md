@@ -461,6 +461,124 @@ lands, naturalize the rest, footnote any single one worth preserving.
 - **CHECK.** For each idiom, name its bin before rendering. Bin 3 idioms must
   not reach the body as raw calques.
 
+### RULE. Long sentences: split by the SPINE TEST, not by word count. [#promote]
+- **WHY.** Length is not the problem; LOAD is. A 66-word single-spine sentence
+  (the Cixi/cabinet-of-wonders sentence) reads fine; a 45-word two-spine
+  sentence (the Qian Xuantong one, which makes you process a second person's
+  whole biography before the main verb) does not. Three diagnostics:
+  1. **How many finite spines must the reader track?** One spine = fine at any
+     reasonable length. Two-plus spines = split. (The Cixi sentence has one
+     spine, "Cixi was confronted with wonders"; everything else is subordinate.)
+  2. **Where does the main verb land?** Chinese subordination is periodic (all
+     the qualifying first, payoff last); English prefers loose (payoff first,
+     qualifying trailing). When a front "when / after / because" clause runs
+     past ~15 words, promote it to its own sentence.
+  3. **Does the length pay off?** A colon-plus-list is EXEMPT from word counts:
+     once the reader hits the colon they stop parsing syntax and start scanning
+     items, and the pile-up IS the effect. NEVER break a list to shorten a
+     sentence.
+- **FIX (the Cixi worked example).** "In the last years of the Guangxu reign,
+  when the Western circus came east and Chinese audiences... damned it as heresy
+  and set upon it, Cixi &#8212; long accustomed... &#8212; was suddenly
+  confronted with a whole cabinet of wonders: [list]." &rarr; split only the
+  front: "In the last years of the Guangxu reign, the Western circus came east.
+  Chinese audiences, baffled and appalled, damned it as heresy and set upon it.
+  But Cixi, long accustomed to her plain gown and her murmured devotions, was
+  suddenly confronted with a whole cabinet of wonders: [list &#8212; kept
+  intact]." One 66-word sentence becomes 17 + 13 + 46; the mob/Empress contrast
+  gets its own beat ("But Cixi"); the list survives.
+- **TRIAGE (the book averages 33 wpm; modern narrative history runs low-to-mid
+  20s; ~300 sentences run over 60 words, ~100 over 90).** Over 90 words in
+  narration: look at it. Over 60 with two-plus spines: split. Single-spine list
+  sentences: pass at any length. You do not need to touch most of them.
+- **Two supporting rules.** ONE em-dash parenthetical per sentence (a second
+  becomes its own sentence or takes commas). Quoted documents are EXEMPT
+  &#8212; starchy 1930 communiques stay long because they are evidence, not
+  narration.
+- **CHECK.** Grep narration sentences over ~90 words; for each, count spines and
+  find the main verb. Split at spine boundaries, front-load the main clause,
+  protect the lists.
+
+### RULE. Contractions belong in NARRATION too, not only dialogue. [#promote]
+- **WHY.** After B09 round one, contractions reached dialogue but the narration
+  is still near 100% "did not / could not / would not," and that is now the main
+  remaining source of starch. (45 contractions across 87k words, nearly all in
+  speech.)
+- **FIX.** Contract about 10-15% of narration negatives and auxiliaries,
+  wherever the rhythm wants it; leave quoted documents uncontracted.
+- **CHECK.** Per narration paragraph with three-plus negated auxiliaries,
+  contract one or two by ear.
+
+### RESIDUAL TIC COUNTS (grep battery, B09 round two)
+"besides" as a sentence-tail adverb is FIXED (was the biggest 1893 signal
+left). Still live, mostly fine but watch the pile-ups: "and the rest / and the
+others" (~27, vary or cut per the rule above), "one after another" (~16, vary
+with "in turn," "one by one," or cut), "could only / could not but" (~14, most
+are idiomatic "must be" and fine; only the archaic "could only come without a
+shadow" class needs the plain verb). The interrogative "in the end" is fixed;
+the narrative "in the end" (~15) is fine.
+
+## Footnote apparatus &#8212; the mechanics (B09 review)
+
+The density model in CLAUDE.md still governs WHAT earns a note. These rules
+govern HOW notes are shaped and placed, and they matter as much to the reader.
+
+### RULE. One note = one referent. Do not bundle. [#promote]
+- **WHY.** A single marker that glosses four things at once (the ch01 note that
+  covered the Dance into the Jar, the Method of the Seven Sages, the Hundred
+  Entertainments, and the Fish and Dragon, reaching backward to "things named
+  just above") is why some notes feel long, and it puts the marker far from most
+  of what it explains. Same for the six-pleasure-house note and the
+  purge-enforcer note.
+- **FIX.** Split by referent, marker AT that referent. The conjuring note was
+  split into a Han-spectacles note (at "Hundred Entertainments") and a
+  Tang-conjuring note (at "Method of the Seven Sages"). A tight single-location
+  list read in one breath may keep one note, but then the marker goes at the END
+  of the list (the pleasure-house and enforcer markers were moved from the head
+  of their lists to the last item). Splitting raises the note count and shortens
+  each note; that is the goal, not a cost.
+- **CHECK.** Any note body that names more than one distinct referent, or that
+  says "named just/above," is a bundle: split it or move its marker to the
+  referent it sits on.
+
+### RULE. Marker placement: sentence end, or the end of the clause that holds the referent. Never mid-phrase. [#promote]
+- **WHY.** Mid-clause superscripts after a comma or a bare word snag the eye (at
+  review, 88 markers sat after commas mid-clause versus 52 at sentence ends).
+- **FIX.** Move the marker to the end of the sentence; when a sentence needs two
+  notes, each goes at the end of its own clause. The anchor phrase is chosen to
+  sit there, and any note/figure anchor that moves is updated in notes.json /
+  figures.json in the same pass (the builder refuses on an unmatched anchor).
+- **CHECK.** Grep is by eye in the built EPUB: a marker should never fall in the
+  middle of a phrase.
+
+### RULE. One gloss mechanism per term: inline / footnote / glossary, decided by a fixed boundary. [#promote]
+- **WHY.** All three were used ad hoc, which is how <i>tingzijian</i> ended up
+  footnoted in ch01 and then re-glossed inline in ch03. Pick one per term.
+- **THE BOUNDARY.**
+  - **Inline appositive** when the gloss is under ~8 words AND the sentence
+    needs it to parse (<i>laohuzao</i> "the water-boiling stall"; <i>amulin</i>
+    "the dolt"). These stay in the body.
+  - **Footnote** when the gloss is CONTEXT the sentence does not need to parse
+    (who a person is, what an institution was, a checked scholarly verdict).
+  - **Back glossary** when the term RECURS (institutional furniture:
+    <i>Zhongtong</i>, <i>shikumen</i>, <i>tingzijian</i>, the White areas). Note
+    it ONCE on first appearance and let the glossary carry the rest; do not
+    re-gloss on later appearances, inline or in a note.
+- **CHECK.** Grep each recurring term across the built units; it should carry
+  exactly one gloss, at its first appearance, in exactly one mechanism.
+
+### RULE. Balance note density across the book; the front door is not a dissertation. [#book]
+- **WHY.** At review ch01 ran a note every ~142 words and ch08 every ~806
+  &#8212; the reader's first chapter felt like an apparatus, and the back half
+  was under-annotated.
+- **FIX.** Thin ch01: cut notes that gloss what a reader who picked up THIS book
+  already knows, and move the recurring institutional glosses to the back
+  glossary (first-appearance only). Backfill ch07-ch08 to the reader-model
+  density CLAUDE.md describes. The target is even coverage, tapering naturally
+  as the book's furniture gets covered &#8212; not a fixed count.
+- **CHECK.** Words-per-note per chapter should not swing by more than roughly
+  2-3x across the book.
+
 ## Consistency canon (ONE rendering, book-wide) &#8212; decided this review
 
 Draft ch09-ch15 with these already in force; they are also the ch01-ch08

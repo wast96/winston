@@ -17,18 +17,24 @@ claude/the-sword-roars (the canonical book branch; if the harness starts you on
 a stray per-task branch, consolidate per CLAUDE.md rule 2 and delete the stray,
 local and remote). Run ./setup.sh first.
 
-STATE: the B09 review's itemized fixes are already applied to ch01-ch08 and the
-EPUB is rebuilt (out/sword-roars.epub), qa_epub and epubcheck clean. Done: the
-seven outright errors; the book-wide consistency sweeps (American spelling
-throughout, month-day-year dates, Politburo, one Comintern-report rendering,
-Lazily Seeking Old Dreams, presiding pastor, White Terror, Xujiahui Observatory,
-fused lane names, ten-li foreign quarter, Gu Shunzhang born 1895); the named
-prose fixes (chengyu triage on the flagged idioms, modernized quote tags,
-dialogue lines, word-choice items, the Qian Xuantong sentence split, "in the
-end" interrogatives); and the apparatus (expanded translator's note with the
+STATE: the B09 review's itemized fixes (both rounds) are already applied to
+ch01-ch08 and the EPUB is rebuilt (out/sword-roars.epub), qa_epub and epubcheck
+clean, 302 notes. Done: the seven outright errors; the book-wide consistency
+sweeps (American spelling throughout, month-day-year dates, Politburo, one
+Comintern-report rendering, Lazily Seeking Old Dreams, presiding pastor, White
+Terror, Xujiahui Observatory, fused lane names, ten-li foreign quarter, Gu
+Shunzhang born 1895); the named prose fixes (chengyu triage on the flagged
+idioms, modernized quote tags and dialogue lines, word-choice items, the Qian
+Xuantong sentence split, the Cixi spine-test split, "in the end" interrogatives,
+the flagship inversion, the "no pushover" idiom); the "besides" sentence-tail
+adverb eliminated book-wide; the apparatus (expanded translator's note with the
 conventions-and-voice paragraph, Principal Characters grown to 17 with Li Kenong
-and Hu Di added, footnotes for the source's attribution tangle and the trainee
-counts, the Windtalkers note).
+and Hu Di added, footnotes for the attribution tangle [now also front-loaded in
+the text], the trainee counts, the Windtalkers film, and the ch05 yawning/chill
+TCM note); and, in the footnotes, the ch08 attribution non sequitur fixed, the
+bundled conjuring note split by referent, the pleasure-house and enforcer
+markers moved to their list-ends, and tingzijian de-duplicated to one gloss
+mechanism.
 
 REMAINING and this batch's job: the systematic, sentence-by-sentence register
 de-archaizing pass over ch01-ch08 that STYLE.local.md specifies but that a
@@ -41,6 +47,16 @@ any appositive over ~15 words its own sentence), de-nominalize "the [gerund] of"
 into finite verbs, collapse doublets to the stronger word, cut the 即/也就是
 pivots, un-quote fragment-quilted sources, front-load attributions before a
 tense or person shift, and thin "and the rest / and the others."
+
+Alongside that, two mechanical footnote sweeps specified in STYLE.local.md's
+"Footnote apparatus" rules: (a) placement -- move the ~88 mid-clause markers to
+their sentence or clause end, updating any moved anchor in notes.json /
+figures.json in the same pass; (b) density -- thin ch01 (move recurring
+institutional glosses like Zhongtong, shikumen, tingzijian, the White areas to a
+back glossary, noting each only on first appearance) and backfill ch07-ch08,
+which are under-annotated. And a spine-test pass over the ~100 narration
+sentences above 90 words (split by spine, front-load the main clause, protect
+the lists).
 
 Do it ONE chapter at a time, ch01 first (it is the frozen register reference and
 the most-read). For each: read the chapter, apply the rules through

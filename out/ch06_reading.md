@@ -130,13 +130,13 @@ So the foreign clerk fetched his supervisor. And the supervisor conceived the no
 
 ### 4. The Manner of Lord Mengchang
 
-His guilty scheme Li Qiang saw through at a glance.
+Li Qiang saw through his scheme at a glance.
 
 But Li Qiang could not simply turn and walk out, and fall out with the foreigners. For those key components on the restricted list could be had only from foreign hands. Lacking these indispensable parts, he might have six arms and three heads and the powers of heaven and still not turn out a single transmitter. So, facing such a supervisor and such a clerk, Li Qiang made attack his defense and struck first, throwing their pretext back at them in fluent English: "In that case, never mind, I won't trouble you. I can look elsewhere. Shanghai's a big place, there are any number of firms run by foreigners, and with money in hand, need I fear I won't find the goods in stock?"
 
 At these words the charm worked. Whether it was his ease or the merchant's own instinct that told, the supervisor changed his mind on the spot and called back the clerk he had already sent off to telephone.
 
-As an obliging smile, faintly fawning, returned to the foreign clerk's thin face, Li Qiang not only got what he had come for and went off laden, but gladly took up the supervisor's suggestion and asked for a few extra low-cost consumable spares besides.
+As an obliging smile, faintly fawning, returned to the foreign clerk's thin face, Li Qiang not only got what he had come for and went off laden, but gladly took up the supervisor's suggestion and asked for a few extra low-cost consumable spares as well.
 
 Li Qiang's work was also greatly helped by Cai Shuhou.
 
@@ -164,7 +164,7 @@ Zhang Sengbao, Zhang Shenchuan's daughter, was glad to talk with me about her fa
 
 Zhang Shenchuan said not a word of demur, and at once declared himself ready to follow the organization's arrangement. Zhou Enlai pointed to Gu Shunzhang beside him and told him: "Good. From tomorrow, you're under his command."
 
-In the winter of 1928, Zhang Shenchuan, under the alias "Zhang Yanming," passed into the "Shanghai Radio School" that was housed inside the Sixth Army Radio Station at the General Headquarters of the National Revolutionary Army. The organization bought him a telegraph key, a buzzer, dry cells, and other tools for self-study, and for 12 silver dollars a crystal set and headphones besides; Li Qiang rigged an aerial and an earth wire at his lodgings so he could copy the French-language weather forecasts broadcast on long wave from the Xujiahui Observatory.
+In the winter of 1928, Zhang Shenchuan, under the alias "Zhang Yanming," passed into the "Shanghai Radio School" that was housed inside the Sixth Army Radio Station at the General Headquarters of the National Revolutionary Army. The organization bought him a telegraph key, a buzzer, dry cells, and other tools for self-study, and for 12 silver dollars a crystal set and headphones as well; Li Qiang rigged an aerial and an earth wire at his lodgings so he could copy the French-language weather forecasts broadcast on long wave from the Xujiahui Observatory.
 
 In May 1929, Zhang Shenchuan graduated from the Shanghai Radio School with outstanding marks, so winning the regard of the head of the Sixth Army Radio Station that the man kept him on to intern at the station, often setting him to work the set alone and to stand the night watch in others' place. He seized this fine chance to copy out, in secret, two of the station's military codebooks, handing them promptly to the organization. At the same time he learned from the fitter who shared his dormitory the trade of changing out transmitting aerials and topping up wet cells, and privately assembled a valve radio of his own.
 

@@ -2,6 +2,21 @@
 
 The running per-batch log. Written as we go.
 
+## B09 review, round two — attribution, footnotes, spine method (2026-08-16)
+
+Ran build (PASS, 302 notes) + qa_epub (PASS) + epubcheck (0/0/0). Fixed the ch08
+attribution non sequitur in the text (front-loaded Zhang Guodong), the two
+genuinely-missed round-one items (no-oil-lamp idiom, flagship inversion),
+de-bundled the conjuring note and moved the pleasure-house/enforcer markers to
+their list-ends, de-duplicated tingzijian, eliminated sentence-tail "besides"
+book-wide, applied the Cixi spine-test split, and added the ch05 yawning/chill
+TCM footnote (verified 呵欠/着凉 against the scan). Encoded the spine test, the
+footnote mechanics (de-bundling, placement, gloss-boundary, density), and a
+narration-contraction target in STYLE.local.md. Remaining mechanical sweeps
+(marker placement book-wide, density rebalance, narration contractions, the
+~100-sentence spine pass) are specified in the doc and carried in the kickoff.
+Full itemization in CHANGELOG.md.
+
 ## B09 commissioner review — register rebaseline + corrections (2026-08-16)
 
 Ran: build_reading_epub.py (PASS, 300 notes), qa_epub.py (PASS, 81 files, all

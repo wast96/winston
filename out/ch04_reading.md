@@ -170,7 +170,7 @@ Li Yimang said: "Old Ke took fright and hurried back from North Sichuan Road to 
 
 Bai Xin started at the cry of the wind and the crane, taking every bush and tree for an enemy soldier, and changed the arrangement, asking Ke Lin instead to treat him at the White Palace Hotel.
 
-Ke Lin came to the White Palace Hotel and treated Bai Xin as usual. Bai Xin asked him: "What people I know have come to you for treatment lately?" Ke Lin said: "Very few now." And asked in return: "Do you want to see them?" Bai Xin said: "I do." When the examination was done, Bai Xin gave Ke Lin a good deal of money, and a letter of thanks besides, and Ke Lin tucked them together into his medical bag.
+Ke Lin came to the White Palace Hotel and treated Bai Xin as usual. Bai Xin asked him: "What people I know have come to you for treatment lately?" Ke Lin said: "Very few now." And asked in return: "Do you want to see them?" Bai Xin said: "I do." When the examination was done, Bai Xin gave Ke Lin a good deal of money, and a letter of thanks as well, and Ke Lin tucked them together into his medical bag.
 
 Coming out of the White Palace Hotel, Ke Lin went straight home and waited there until dark. Only when the lamps were lit and everything around had gone black did he take a car to find Gu Shunzhang and Chen Geng and report on his meeting with Bai Xin. Gu Shunzhang and Chen Geng told Ke Lin to keep his nerve, go on treating Bai Xin as before, and report whenever there was anything to report.
 

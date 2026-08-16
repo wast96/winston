@@ -209,12 +209,16 @@
       "note": "A roll of canonical Communist martyrs: Fang Zhimin (1899&#8211;1935), leader of the Jiangxi soviet, executed by the Kuomintang; Xiang Jingyu (1895&#8211;1928), the Party&#8217;s first woman Central Committee member, executed in Wuhan; and Jiang Zhuyun (1920&#8211;1949), &#8220;Sister Jiang,&#8221; tortured and killed in Chongqing on the eve of liberation and later mythologized in the novel <i>Red Crag</i>."
     },
     {
-      "anchor": "From the Tower-Beyond-the-Tower and the Sky-Beyond-the-Sky",
+      "anchor": "the Flower World and the Great World",
       "note": "These six are Shanghai pleasure-houses. The first three &#8212; &#8220;Tower Beyond the Tower,&#8221; &#8220;Sky Beyond the Sky,&#8221; &#8220;Cloud Beyond the Cloud&#8221; &#8212; are old-style teahouse-and-restaurant towers; the New World (<i>Xin Shijie</i>, 1915) and above all the Great World (<i>Da Shijie</i>, 1917) were the vast multi-storey amusement arcades of Republican Shanghai, with stages, cinemas, food-stalls, games, and sideshows under one roof &#8212; the Great World the most famous popular entertainment palace in the city. The &#8220;Flower World&#8221; was a lesser house of the same kind."
     },
     {
+      "anchor": "grand Festival of the Hundred Entertainments",
+      "note": "The &#8220;Hundred Entertainments&#8221; (<i>baixi</i>) were the variety spectacles of the Han court &#8212; acrobatics, music, animal acts and illusions under one bill; the &#8220;Fish and Dragon,&#8221; named just after, was a famous costume-transformation piece in which performers changed shape as a fish into a dragon."
+    },
+    {
       "anchor": "the \"Method of the Seven Sages\"",
-      "note": "Feats of the classical Chinese conjuring tradition: the &#8220;Dance into the Jar,&#8221; a Tang illusion of a body passing through vessels, and the &#8220;Method of the Seven Sages,&#8221; a decapitation-and-revival trick recorded in Tang tales. The &#8220;Hundred Entertainments&#8221; (<i>baixi</i>) named just above were the variety spectacles of the Han court, and the &#8220;Fish and Dragon&#8221; a famous costume-transformation piece. This home-grown sleight of hand, distinct from imported Western stage magic, is what the chapter means by &#8220;conjuring.&#8221;"
+      "note": "Feats of the classical Chinese conjuring tradition: the &#8220;Dance into the Jar,&#8221; a Tang illusion of a body passing through vessels, and the &#8220;Method of the Seven Sages,&#8221; a decapitation-and-revival trick recorded in Tang tales. This home-grown sleight of hand, distinct from the imported Western stage magic that came later, is what the chapter means by &#8220;conjuring.&#8221;"
     },
     {
       "anchor": "\"performed on a regular bill at the roof-garden theater of the Sincere Company\"",
@@ -321,7 +325,7 @@
       "note": "Bo Yibo (1908&#8211;2007) was a senior Communist leader in north China, later a vice-premier and one of the Party&#8217;s &#8220;eight elders&#8221; of the reform era."
     },
     {
-      "anchor": "of Yang Hu, Chen Qun, He Jian, Wang Dongyuan",
+      "anchor": "Xu Kexiang and Xia Douyin",
       "note": "The purge&#8217;s enforcers. Yang Hu and Chen Qun ran the &#8220;party purification&#8221; terror in Shanghai; He Jian, the Hunan commander, executed thousands (among them Mao Zedong&#8217;s wife, Yang Kaihui); Xu Kexiang led the bloody Changsha coup of 21 May 1927; Xia Douyin revolted against the Wuhan government. &#8220;Better to kill a thousand by mistake than let one slip the net&#8221; became the byword of the White Terror."
     },
     {
@@ -919,6 +923,10 @@
     {
       "anchor": "the ten-li foreign quarter",
       "note": "<i>Shili yangchang</i>, &#8220;the ten-<i>li</i> foreign market,&#8221; was the stock epithet for Shanghai&#8217;s foreign concessions&#8212;ten <i>li</i> of gaslit, moneyed, half-Western streets that stood for the whole glittering and treacherous city."
+    },
+    {
+      "anchor": "yawning again and again",
+      "note": "The detail is the source's and is faithful: in traditional Chinese medicine, repeated yawning is read as an early sign of a chill (<i>zhaoliang</i>), a symptom of the body's yang being caught off guard. Xiong Jinding, trained in Chinese medicine, takes his own yawning for proof he has caught cold and so has a pretext to register as a patient."
     }
   ],
   "ch06": [
@@ -1211,8 +1219,8 @@
       "note": "The Western Route Army was the Red Army force of some twenty thousand that crossed the Yellow River into the Gansu corridor in late 1936 and was all but destroyed by Muslim cavalry over the winter of 1936&#8211;37; the survivors straggled back to Yan&#8217;an. Ouyang Yi was among them."
     },
     {
-      "anchor": "Zhang Guodong's account is borne out by Meng Zhen",
-      "note": "The source is tangled here: the block quotation just above is credited to Yang Yingqi and Zhang Wandong (1999), yet the author at once calls it &#8220;Zhang Guodong's account.&#8221; Zhang Guodong is the former Investigation Section trainee whose recollections the author leans on throughout this chapter; most likely the 1999 volume by Yang and Zhang reprints Zhang Guodong's memoir, and it is that memoir the author means. The wording is the author's own, reproduced as printed; the reader should not take the two names for two different documents."
+      "anchor": "His account is borne out by Meng Zhen",
+      "note": "The block quotation is cited to a 1999 volume by Yang Yingqi and Zhang Wandong, which reprints the memoir of Zhang Guodong, the former Investigation Section trainee whose recollections the author leans on throughout this chapter; the author treats the quoted passage as Zhang Guodong's own account, and it is reproduced as printed."
     }
   ]
 }

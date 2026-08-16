@@ -8,6 +8,57 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed dropped clause at ch03 §2 folio 45.
 -->
 
+## 2026-08-16 — B09 review, round two: attribution, footnotes, spine method
+
+Factual integrity (priority 1):
+- ch08 attribution non sequitur resolved in the TEXT, not just the note: the
+  block quote is now front-loaded "the one Zhang Guodong sets down: ..." so
+  "His account is borne out by Meng Zhen" follows cleanly; the footnote was
+  re-anchored and trimmed to explain that the 1999 Yang/Zhang volume reprints
+  Zhang Guodong's memoir. Faithful to the source, which does attribute the
+  passage to Zhang Guodong.
+
+Still-open items from round one (genuinely missed or text-only):
+- ch08 "no lamp that burned without oil" -> "no pushover" (was flagged, missed).
+- ch06 flagship inversion "His guilty scheme Li Qiang saw through at a glance"
+  -> "Li Qiang saw through his scheme at a glance."
+- (Windtalkers note and the ch06 Zhang-count note were already added in round
+  one; the reviewer was reading the pre-commit build.)
+
+Footnotes (priority 2 — de-bundling + placement, demonstrated on the named
+notes; full book-wide sweep specified in STYLE.local.md and carried in the
+kickoff):
+- Split the bundled conjuring note into a Han-spectacles note (at "Hundred
+  Entertainments") and a Tang-conjuring note (at "Method of the Seven Sages").
+- Moved the six-pleasure-house and the purge-enforcer markers from the HEAD of
+  their lists to the last item (marker-at-clause-end rule).
+- tingzijian de-duplicated: kept the ch01 first-appearance footnote, removed the
+  redundant inline gloss in ch03 (one gloss mechanism per term).
+
+Prose / register:
+- Applied the reviewer's spine-test split to the Cixi/cabinet-of-wonders
+  sentence (split the front, kept the list intact).
+- "besides" as a sentence-tail adverb eliminated across ch01-ch08 (~15
+  instances, the biggest remaining 1893 signal); the "apart from" and sentence-
+  initial "And besides" uses left as correct modern English.
+
+New item:
+- ch05 "yawning again and again ... knew he had caught a chill": verified
+  against the scan (source reads 呵欠 / 着凉), so kept "yawning" and added a
+  translator's footnote explaining that in Chinese medicine repeated yawning is
+  read as a sign of a chill, so a reader will not take it for a slip.
+
+Style doc: added the long-sentence SPINE TEST (spine count, main-verb position,
+lists exempt, one em-dash parenthetical, documents exempt, the 90/60-word
+triage), the footnote mechanics (one note = one referent, marker at
+sentence/clause end, the inline/footnote/glossary boundary, density balance),
+a narration-contraction target, and updated the residual-tic counts.
+
+REMAINING mechanical sweeps (specified in the doc, carried in the kickoff): the
+book-wide marker-placement pass (~88 mid-clause markers), the ch01-thin /
+ch07-08-backfill density rebalance, narration contractions to 10-15%, and the
+spine-test pass over the ~100 narration sentences above 90 words.
+
 ## 2026-08-16 — B09 commissioner review: register rebaseline + corrections (ch01-ch08)
 
 Style doc (the deliverable the commissioner asked for first):
