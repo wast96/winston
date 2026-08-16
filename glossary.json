@@ -2585,6 +2585,12 @@
       "pinyin": "Chén Chéng",
       "status": "attested",
       "note": "1898-1965; one of Chiang Kai-shek's most trusted generals and, at this time, Chief of the General Staff (Chen corrects here his fourth volume's misattribution of the post to Bai Chongxi, who was Minister of National Defense)."
+    },
+    "聂恩俊": {
+      "en": "Nie Enjun",
+      "pinyin": "Niè Ēnjùn",
+      "status": "provisional",
+      "note": "The First Brigade's quartermaster major, a Hefei man and graduate of the Quartermaster School, drawn from the Sixth Depot Superintendency; Chen flags him to revisit."
     }
   },
   "organizations": {
@@ -2979,6 +2985,18 @@
       "pinyin": "Rénmín Fúwù Zǒngduì",
       "status": "provisional",
       "note": "A Ministry of National Defense corps commanded by Liu Peichu in eastern Henan before he was moved to head the Pacification Corps; several of its cadres passed into the Lizhi Class."
+    },
+    "交警总队": {
+      "en": "Transport Police Corps",
+      "pinyin": "Jiāojǐng Zǒngduì",
+      "status": "decided",
+      "note": "The Transport Police Corps (交通警察总队), the postwar rebadging of the Loyal and Patriotic Army as 'transport police'; in Chen's account it was in fact given over to the suppression of the Communist rising."
+    },
+    "华北剿匪总司令部": {
+      "en": "North China Bandit-Suppression Headquarters",
+      "pinyin": "Huáběi Jiǎofěi Zǒngsīlìngbù",
+      "status": "decided",
+      "note": "The North China Bandit-Suppression Headquarters, the Nationalist theater command that conferred the First Brigade's code-name 'Unit 0760'; built on the keyed 剿匪 'bandit-suppression'."
     }
   },
   "places": {

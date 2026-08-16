@@ -3244,3 +3244,91 @@ and Patriotic Army" (built on the keyed 忠义救国军); Marshall / Colonel Rob
   Brigade; 7 brigades + 3 companies; 1,500 yuan fabi (twice); ROC years 3/6/22-23/26/27/28/29/30/32/34/35/
   36/41/46/51/57 and 民前七年 = 1905, all matched by ordinal or +1911; No. 5 / Fifth Brother; the twenty-odd
   signatories; 100-day detention; 8 days at sea; 20+ medical students.
+
+## Batch B27 (ch34) — 第二章 自动自发 同心同德 "Chapter 2. Self-Starting, of One Heart and Mind"
+
+The SECOND Part-Four narrative chapter and the doctrinal one: Chen defines the special-operations unit,
+lays out the First Brigade's establishment, its three features (求创新/有冲劲/致祥和 "to seek the new / to
+have drive / to reach concord"), and closes with three gatherings (a Beiping command briefing, the 1938
+Tianjin "joint operations," and a Taiwan-era high-level briefing) that frame collective leadership.
+Structure CONFIRMED by byte-exact p-by-p diff vs the source XHTML: 1 <h2> + 3 <h3> (section heads 一/二/三)
++ 127 <p>, ZERO mismatches; NO <h1>/<br/>/<img>/[\d+]. drop=2. clean_batch spec: standalone=[15,53,90]
+(the three <h3>, raw 1-based), merges=[] (no severed <p>: every kept line matched its element exactly, both
+non-terminal and glitch-masked ！？》 endings scanned). Result 127 body paragraphs, 3 sub-headings, source
+conserved OK. The doctrinal INNER enumerations kept as BODY per parity (NOT headings): the 第一/第二/第三
+features list under section 2 (body L86-88); the 一/二/三 duty lists in single <p> (L36-38, L125-128); the
+number-ranges 十三、四年 / 两、三百人 / 五、六天.
+
+### Checks
+- verify_unit ch34: parity 127/127 OK; numbers 127 pairs unresolved 0 (after 5 noise additions, below);
+  anchors 0 (before apparatus).
+- check_align ch34: 127/127, median ratio **5.19 en/han** (HIGH, as expected for a doctrinal/definitional
+  chapter, cf. ch33's 5.32); alignment OK, no pair strays >2.2x from median. Register is the gate, not ratio.
+- check_register --ref: within tolerance (contr 0.0 = ref; em-dash 9.3/1k vs ref 8.3; rhythm CV 0.64 vs 0.60);
+  "shall" 33% flagged informationally = the deliberate narrating shall (Chen's voice sheet).
+- check_structure: parity OK; anchors 303 notes, 0 unresolved; headings OK.
+- check_content: ch34 46 name occurrences, ALL in the paired paragraph, 0 displaced (the pre-existing
+  artifacts ch08 Shunde ×3 / ch09 Jize ×1 / ch13 ×9 / ch26 ×2 unchanged).
+- qc_entities: 0 misses (特种部队 x17, 特种组织 x10, 绥靖 x20, 绥靖总队 x14, 人民服务总队 x4, 刘培初 x4 all
+  survive; 绥靖 rendered noun "pacification"/"Pacification" throughout, never the verb).
+- Tail verified against source (L128-131, the 四/据理力争/民主原则/三个故事 close). qa_epub PASS (57 files,
+  303 refs/bodies/backlinks). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+  **EPUB now 34/43 chapters, 303 notes.**
+
+### Notes (3 net-new; 303 cumulative). NOT re-noted furniture
+3 new notes, first-appearance disciplined (doctrinal chapter → few new items): the Transport Police Corps
+(交通警察总队, the postwar rebadging of the Loyal and Patriotic Army under Marshall's army-cut pressure);
+the India-Burma Expeditionary Force (印缅远征军, the Chinese Expeditionary Force in Burma 1942-45, Yang
+Rongyuan's old service under Liao Yaoxiang); Tan/Han Family Cooking (谭家菜/韩家菜, the famous Beijing
+"official-household" private-kitchen cuisine, still served at the Beijing Hotel). NOT re-noted (already
+covered): 特种部队/特种组织 (ch33), the 绥靖/戡乱/共匪 framing, the Marshall Mission, the Lizhi Plan, the
+Jiangxi bandit-suppression/别働总队, the Youth Army (all ch32); the Baomiju (ch04); the Zhongshan tunic
+(ch06), the Renaissance Society/Blue Shirts (ch08), Duan Qirui (ch07), the Legation Quarter and the Hotel
+of Six Nations (ch06); Whampoa, fabi, the Republican-year system (earlier).
+
+### New keyed glossary rows (3; via scripts/add_ch34_glossary.py)
+Orgs: 交警总队 "Transport Police Corps", 华北剿匪总司令部 "North China Bandit-Suppression Headquarters"
+(the 0760-code issuer; built on the keyed 剿匪 "bandit-suppression"). People: 聂恩俊 Nie Enjun (First
+Brigade quartermaster; provisional; Chen flags him to revisit). Reused the whole B01-B26 keyed cast and
+Part-Four vocab. Rendered INLINE, NOT keyed (consistent with the ch33 decision): 王兆芬 Wang Zhaofen and
+张作兴 Zhang Zuoxing (inline since ch33); the two spy students 杨荣远 Yang Rongyuan / 王铭扬 Wang Mingyang;
+the brigade-commander roster 陈振山/刘仁华/王德新/郭重新/杨正之/靳易夫/管容德 and memoir author 张振东; the
+command-room COs 江田/常绍曾/庞兆丰/张筱朴/张鲁颖; 廖耀湘 Liao Yaoxiang (one mention); the food writer
+唐鲁孙 Tang Lusun; the Tianjin joint-office members 沈泽臣/张子奇/王若僖; supply chiefs 耿/吕. 华北忠义救国军
+renders on the keyed 忠义救国军.
+
+### Keyed renderings reused in the ch34 body (qc-enforced)
+特种部队 "special-operations unit" (title-level "Special Forces" is title-only), 特种组织 "special
+organization", 绥靖总队 "the Pacification Corps", 军统/军统局 "the Juntong"/"the Juntong Bureau", 保密局
+"the Baomiju", 中统 "the Zhongtong", 复兴社 "the Renaissance Society", 国防部第二厅 "the Second Bureau of
+the Ministry of National Defense", 人民服务总队 "the People's Service Corps", 忠义救国军 "the Loyal and
+Patriotic Army", 励志训练班 "the Lizhi Training Class", 直属组 "directly subordinate section", 指挥室
+"command room", 指挥员 "commanding officer" vs 指挥官 "commander", 部队长 "unit commander", 大队长 "brigade
+commander", 中队 "company", 编制 "establishment", 配属 "attach". People: 李玉林 Li Yulin, 罗敬 Luo Jing,
+刘培初 Liu Peichu, 刘原深 Liu Yuanshen, 郑介民 Zheng Jiemin, 戴笠/戴先生 "Mr. Dai", 应元勋 Ying Yuanxun,
+张敬尧 Zhang Jingyao, 段祺瑞 Duan Qirui.
+
+### Digitization glitches (rendered to plain sense; none footnoted — mechanical)
+- **ch34:** stray ！ standing for 」 at L23 (绥靖总队！), L56 (大队长！ / 虚荣！), L58 (华北忠救军！);
+  stray ？ for 、 at L31 (大言不惭？); stray 〇 (U+3007) for a stop/？ at L81 (需要呢〇), L99 (只供一桌〇);
+  U+3007 in the numeral strings 〇七六〇 (Unit 0760, L10) and 二〇五师 (205th Division, L32); stray glyphs
+  ︸ for ﹁ (L19 特别任务, L30 绥靖), ︴ (L78, after 一百五十人以下), | (L81/L86 dash-stroke), |- (L105),
+  ≤ for a stop (L123); mismatched ﹃/﹁ guillemets (L4/L17/L23/L79). Char substitutions: 缓靖→绥靖 (L50),
+  情治箪位→情治单位 (箪/单, L24), 岩重→严重 (L36), 也示无可议→也不无可议 (示/不, L36), 淮境→佳境 (L99),
+  些么→什么 (L108), 刀"定→到底 (L30), ﹁。供﹂ (L32, a stray 。 inside 「供」), 卤获→掳获 "captured" (L55).
+  Variant/valid forms kept to sense: 变体武装/变制武装 "an armed force of irregular form" (L4/L18), 队附/
+  队副 "brigade deputy". Many dropped 。 mid-<p> (L4, L6, L23, L44, L50, L55, L81, L86, L130). × redaction
+  项xx → "Xiang ——" (L50). All rendered to plain sense; none is a reading uncertainty.
+
+### data/noise.txt — B27 additions (5)
+- **三数百** "some three hundred men / several hundred" (assault-team strength, L79) — placed BEFORE the
+  older 三数 rule so it pre-empts it (else 三数 fires first and orphans a bare 百=100); English "some three
+  hundred men". **四象桥** "Sixiang Bridge" (Nanjing HQ address, L44) — the 四 is a place-name glyph.
+  **十三、四** "the thirteenth and fourteenth years" (民国十三、四年 = 1924-25, L63) — the 四 elides 十四 (14),
+  carried as the ordinal "fourteenth". **四壁** "on every side / the four bare walls" (idiom, L64) — not a
+  count of 4. **两租界** "the British and French Concessions" (L113) — the 两 is a counter carried by naming
+  both. **东四** "Dongsi (North Avenue)" (Beiping district, L63) — the 四 is a place-name glyph. All REAL
+  quantities carried as digits/words: 6,000 officers; 3,500 to Taiwan / 2,500+ lost (written as DIGITS, the
+  compound-composition trap); ~600 est. / 400 employed / a thousand-and-several-hundred; 7 brigades + 3
+  companies + 1 assault brigade; five command rooms; ~100-150 per room; ROC years 22-23/27/28/36/37/38/75,
+  all matched by ordinal or +1911; eleven characters; eighteen months; two years; eightieth birthday.

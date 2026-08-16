@@ -203,6 +203,11 @@
 三轮车
 # Japanese name 土肥原贤二 (Doihara Kenji); the 二 in 贤二 is part of the name.
 土肥原贤二
+# Approximate 三数百人 "some three hundred men / on the order of several hundred"
+# (the assault team's strength, ch34): the 百 is a vague order-of-magnitude, not an
+# exact count. Placed BEFORE the shorter 三数 rule so it pre-empts it (else 三数
+# fires first and orphans a bare 百 = 100). English carries "some three hundred men."
+三数百
 # Approximate 三数(佣人) "several (servants)"; the 三 is not the count 3.
 三数
 # Idiom 信心十足 / 十足 "full of confidence"; the 十 is not the count 10.
@@ -794,3 +799,22 @@
 # Idiom 百废待擧 "a thousand things laid waste await taking up" (a 擧-variant of
 # 百废待兴/百事待擧, ch33); the 百 is "myriad/all," not the count 100.
 百废待擧
+# --- B27 (ch34) ---
+# (The 三数百人 rule is placed above, immediately before the shorter 三数 rule, so
+# it can pre-empt it.)
+# Place-name numeral 东四(北大街) "Dongsi (North Avenue)" (a Beiping district/avenue,
+# ch34): the 四 is part of the place-name, romanized "Dongsi," not the count 4.
+东四
+# Address artifact 四象桥 "Sixiang Bridge" (the Nanjing corps-HQ address on Zhuque
+# Road): the 四 is part of the place-name, romanized "Sixiang," not the count 4.
+四象桥
+# Elided date-range 民国十三、四年 "the thirteenth and fourteenth years of the Republic"
+# (1924-25); the 四 elides 十四 (14), carried in English as the ordinal "fourteenth,"
+# not the count 4.
+十三、四
+# Idiom 四壁 "the four bare walls / on every side" (剥落处四壁可见, ch34): the 四 is the
+# set idiom for "all around," not a tracked count of 4. English "on every side."
+四壁
+# Counter 英、法两租界 "the British and French Concessions": the 两 (2) is a counter
+# carried by naming both concessions in the English, not a tracked value.
+两租界

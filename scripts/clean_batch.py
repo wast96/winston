@@ -794,6 +794,28 @@ UNITS = {
         "glued": {}, "glued_head": {},
         "standalone": [10, 35, 73, 112],
     },
+    "ch34": {
+        "file": "35_index-split-000-0033.txt",
+        "title": "第二章 自动自发 同心同德",
+        # drop=2: running header 英雄无名-陈恭澍 + <h2> chapter title. Confirmed
+        # byte-exact p-by-p against the source XHTML: 1 <h2> + 3 <h3> (the three
+        # section headings 一、/二、/三、) + 127 <p>, ZERO mismatches; no <h1>, no
+        # <br/>, no <img>, no [\d+] note markers. After drop=2 the txt has 130
+        # body lines = 3 <h3> heading lines (raw 1-based L15/L53/L90) + 127 <p>.
+        # The three <h3> are their OWN elements -> standalone (### ), not glued.
+        # NO severed-<p> boundaries: every kept txt line matched its element
+        # exactly (scanned non-terminal AND glitch-masked ！？》 endings). The
+        # doctrinal INNER enumerations stay as BODY lines per parity (NOT
+        # headings): the 第一…第二…第三 features list under section 2, the 一、
+        # 二、三、四 duty/method lists inside single <p>, and the number-ranges.
+        # Digitization glitches (rendered to plain sense, listed in PROGRESS):
+        # dropped 。 stops (e.g. ...指挥系统|所谓﹁特种部队﹂), mismatched
+        # guillemets ﹃/﹁/﹂, single-char substitutions.
+        "drop": 2,
+        "merges": [],
+        "glued": {}, "glued_head": {},
+        "standalone": [15, 53, 90],
+    },
 }
 
 
