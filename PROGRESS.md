@@ -3447,3 +3447,123 @@ Junqiang, 史泓 Shi Hong.
   twenty-odd young recruits; six or seven / three interpreters; two or three hundred (guerrilla band); ROC
   years 15/18-19/21/22-23/25/27/28/30/32/35/36/37/38/40, all matched by ordinal or +1911; the 1179 Jin-dynasty
   lake date carried literally.
+
+## Batch B29 (ch36) — 第四章 掌握先机 备多力分 "Chapter 4. Seizing the Initiative, Spread Too Thin"
+
+The FOURTH Part-Four narrative chapter, in four sections: (1) the value and timeliness of
+intelligence and its use, opening onto the failed attempt to reach Lin Biao/Tao Zhu (a
+supplement to ch35), the three intelligence items Li Mingqiu brought back, and the riddle of the
+pistol-carrying visitor; (2) the gun-gift affair — Liu Yuzhu's "gift" of ~2,000 Japanese rifles
+that nearly drew Chen into the abuse-of-power case that destroyed "Mr. Ma" (Ma Hansan) and Liu;
+(3) the "heart-extraction tactic" — the Provisional Third Army's cavalry dash on Anguo to seize
+Mao, mistimed so the Bandit Chief escaped (Xiao Runyu's long contributed "Record of the Work"),
+with Chen's critique of the botched pursuit; (4) the Battle of Shijiazhuang (Nov 1947) — the fall
+of Shimen and the fighting, capture, and sacrifice of the work-group (Niu Guangjin's contributed
+"Brief Record"), with Chen's reflections on dispersed defense, prisoner-handling, and abandoning
+recovered areas.
+
+### Structure / ⚠ SOURCE DUPLICATION artifact
+Byte-exact p-by-p diff vs the source XHTML: 1 <h2> + 4 <h3> (section heads 一、/二、/三、/四、) + 188
+<p>, ZERO mismatches; NO <h1>/<br/>/<img>/[\d+], 0 images. The "1-line count scare" flagged in the
+kickoff was a trailing-newline miscount: the file has NO trailing newline, so it is 194 lines
+(wc -l counts 193), and 194 − drop(2) = 192 body lines = 4 <h3> + 188 <p>. clean_batch spec:
+drop=2; standalone=[18,71,108,154] (the four <h3>, raw 1-based); merges=[(49,50)] — ONE glitch-
+masked sever (...其后更由﹁地方！|转向﹁中央﹂..., the ！ standing for closing 」, the phrase
+由﹁地方﹂转向﹁中央﹂ "from the 'local' turning toward the 'central'" split across the boundary).
+The other ！？》-ending lines are genuine terminal rhetorical questions/exclamations, NOT severs
+(notably L52 ...形容为一场﹁智慧鬪争！, a grammatically complete predicate; L53 高明者就可以占上风 is a
+separate short sentence). Result 187 body paragraphs, 4 sub-headings, source conserved OK.
+- **THE MAJOR ANOMALY:** the chapter's opening is DUPLICATED in the source. The intelligence-
+  timeliness preamble appears THREE times — the chapter preamble (data/zh z2-16), a restatement at
+  the head of section 1 (z18-32), and a partial re-restatement (z33-37) — with the Anguo raid +
+  the two contributed-account intros appearing twice (z2-16 and z18-32). z33 (a single source <p>)
+  even fuses the 牛广金 sentence + the section-1 HEADING TEXT (一、从情报的价値观念说到情报运用) + the
+  first section-1 body para. Real narrative begins at z38. This is a digital-source production
+  artifact. Per CLAUDE.md rule 4, ALL of it is translated faithfully (parity preserved, nothing
+  dropped, nothing invented), each pass rendered per its own actual wording (they differ slightly),
+  and a footnote at the head of section 1 (anchor "already carries within it the sense of")
+  explains the repetition honestly and leaves it visible.
+- INNER enumerations kept as BODY per parity (NOT headings): the three intelligence items 一/二/三
+  (z52/53/59) with the guiding-points sub-list 二/三/四/五/六 (z54-58); the temple-search rhetorical
+  checklist (z144-151); the border-region committee roster; the section membership roster.
+
+### Checks
+- verify_unit ch36: parity 187/187 OK; numbers 187 pairs unresolved 0 (after 11 noise additions,
+  below); anchors 8 ok (after apparatus).
+- check_align ch36: 187/187, median ratio **5.42 en/han** (above the ch33-35 5.15-5.32 band, but
+  this chapter carries two long contributed memoir-accounts, the tripled preamble, and heavy
+  essayistic reflection). Alignment OK, no pair strays >2.2x from median — alignment/register are
+  the gates, not the raw ratio.
+- check_register --ref: within tolerance (contr 0.0 = ref; em-dash 7.3/1k vs ref 8.3; rhythm CV
+  0.59 vs 0.60; sent med 28); "shall" 0% this chapter (the deliberate narrating shall is sparse
+  here; flagged informationally per the voice sheet when present).
+- check_structure: parity OK; anchors 319 notes, 0 unresolved; headings OK.
+- check_content: ch36 76 name occurrences, ALL in the paired paragraph, 0 displaced. The four
+  pre-existing artifacts (ch08 Shunde ×3 / ch09 Jize ×1 / ch13 ×9 / ch26 ×2) unchanged.
+- qc_entities: 0 misses (石门 x30, 北平 x25, 石家庄 x24, 安次 x19, 毛泽东 x16, 安国 x14, 林彪 x14,
+  刘玉珠 x13, 萧润宇 x8, 李鸣秋 x7, 东北人民解放军 x7, 朱占奎 x7 all survive; 掏心战术 rendered
+  "the heart-extraction tactic" and 平津保三角地带 "the Beiping-Tianjin-Baoding triangle" throughout).
+- Tail verified against source (z188-192: the small unit's limits, the clumsy leadership, the no-
+  prisoner-handling course, the twice-abandoned recovered areas, closing on "political warfare"
+  still worth deep study). qa_epub PASS (57 files, 319 refs/bodies/backlinks). epubcheck 5.1.0:
+  0 fatals / 0 errors / 0 warnings / 0 infos. **EPUB now 36/43 chapters, 319 notes.**
+
+### Notes (8 net-new; 319 cumulative). NOT re-noted furniture
+8 new notes, first-appearance disciplined: the source-duplication artifact (see above); the
+heart-extraction tactic (掏心战术, deep raid to seize the enemy's leadership at a stroke); the
+Nationalist recovery of Yan'an (延安, Hu Zongnan, 19 Mar 1947 — symbolic, retaken Apr 1948); the
+Paojuzi prison (炮局子, a Japanese-era Beiping jail); the Type 38 / Type 30 rifles (三八式/三〇式, the
+Japanese Arisaka bolt-actions, surrendered in vast numbers in 1945); a SCHOLARSHIP VERDICT that
+the intelligence placing Mao at Anguo was mistaken (毛泽东 stayed in 陕北 through 1947; the
+Shijiazhuang campaign was Nie Rongzhen's 聂荣臻, not Mao's — text stands, footnote flags it); the
+Mao epithets (毛贼泽东/毛酋, of the same idiom as 共匪/匪酋); the Battle of Shijiazhuang (石家庄/石门,
+Nie Rongzhen's forces, fell 12 Nov 1947, the first sizable city the CCP took and held). NOT
+re-noted (already covered): the 绥靖/戡乱/共匪 framing, 匪谍/共酋/共干, Juntong/Baomiju, 特种部队, the
+Lizhi Class/Central Training Corps, the North China Bandit-Suppression HQ and Beiping Field
+Headquarters, Fu Zuoyi, Whampoa, the Marco Polo Bridge (七七), the Republican-year system, the
+Three-Anti/Five-Anti/Suppress-Counterrevolutionaries campaigns, and Lin Biao's 1971 death.
+
+### New keyed glossary rows (13; via scripts/add_ch36_glossary.py)
+People: 安春山 An Chunshan (Provisional Third Army cmdr, Fu's favorite; provisional), 朱占奎 Zhu
+Zhankui (Anci magistrate, ex-Communist who re-defected in 1948; provisional), 刘玉珠 Liu Yuzhu
+(the gun-gift fixer; provisional), 萧润宇 Xiao Runyu (section 3 account author; provisional),
+牛广金 Niu Guangjin (section 4 account author; provisional), 吕正操 Lü Zhengcao (Central Hebei
+Military District cmdr, later PLA general; attested). Places: 石家庄 Shijiazhuang, 石门 Shimen (the
+older name Chen uses), 安次 Anci, 安国 Anguo, 正定 Zhengding (all decided). Terms: 掏心战术 "the
+heart-extraction tactic", 平津保三角地带 "the Beiping-Tianjin-Baoding triangle" (decided). Reused the
+whole B01-B28 keyed cast and Part-Four vocab. Rendered INLINE, NOT keyed (glossary-key discipline):
+罗历戎 Luo Lirong, 刘英 Liu Ying, 张铁林 Zhang Tielin, the section roster 陈秀桐/郑静庭/冯志俊/姜丙辰/
+白永龄/赵万里/王德新/张果维/马惠璋/郭清钰, the work-group roster 张建三/张侗夫/杨志毅/牛清川/李明光/杨清/
+朱志璋, the Second-Command-Room contributors 常绍曾/汪鸿翥/吴春祥/陈俊祥, 曾泽生 Zeng Zesheng, 刘伯承
+Liu Bocheng, 胡宗南 Hu Zongnan, 邓宝珊 Deng Baoshan, 傅东菊 Fu Dongju, the border-region committee
+宋劭文/胡仁奎/彭真/孟庆山/程子华/罗玉川, the Shimen relief mission 屈凌汉/罗文浩/李荷/孙连仲/刘瑶章.
+马先生 = Ma Hansan (already keyed as 马汉三; source names him only "Mr. Ma" here). The deputy chief
+of staff whose surname the source prints as a garbled glyph (鿄述哉) rendered "—— Shuzai".
+
+### data/noise.txt — B29 additions (11)
+- **三角地带** (三角 "triangle" in 平津保三角地带/平津三角地带) — descriptor, carried "triangle".
+- **五台** (五台山[区] "the Wutai Mountains") — place-name numeral. **十余万** (approximate "more than
+  a hundred thousand," Lin's force) — MUST precede the bare 十余 rule (relocated before it, else
+  十余 consumes it and orphans the 万). **三〇式** ("Type 30" rifle; the 〇 is the mis-read zero
+  glyph). **千奇百怪** (idiom, "every freak and marvel," 千/百). **老千** ("card-sharp," slang, 千).
+  **七、八十** (approximate "seventy or eighty li"). **四望** (idiom 举目四望 "gazing about," 四).
+  **万急** (idiom 情况万急 "utmost extremity," 万). **张建三** (name numeral, section member). **张建二**
+  (name-glitch for 张建三; 二). All REAL quantities carried as DIGITS (the compound-composition
+  trap): 2,000 rifles, 200 li, 800,000 / 3,200,000 / 1,150,000 / 2,700,000 troops, 100,000 /
+  16,000 / 20,000 / 10,000 casualties, 190,000 / 300,000 population, 70,000 / 30,000, four to one;
+  ROC years 24/27/34/35/36/37/38/39/75 matched by ordinal or +1911; case No. 1906 literal.
+
+### Digitization glitches (rendered to plain sense; none footnoted — mechanical)
+- **ch36:** single-char substitutions 暴珍天物→暴殄天物 (珍/殄, z5), 松是→始终是 (z19), 厉害→利害
+  (z21), 事熊→事态 (z87), 右门→石门 (右/石, z164), 认有→认为 (有/为, z189), 惋借→惋惜 (借/惜, z188),
+  匐匍→匍匐 (transposed, z179), 位是→位于 (z159), 不股→小股 (z122), 工肃清→一肃清 (工/一 in the 工/二/
+  三/四 list, z118); stray ！ standing for 」 (z48 伪﹁广东省长！。 and 由﹁地方！ [the merged sever];
+  z50 智慧鬪争！); stray glyph ︸ for ﹁ (z23 其︸时间性, z112 ︸暂编第三军 / ︸〇七六〇, z150 ︸走远了);
+  stray 》 for punctuation mid-clause (z4 民间团体》, z105 余愠》, z172 功能》, z192 必要》); stray 〔/〕/《
+  (z87 他这句话〕, z150 罢休《); stray | intra-<p> stroke (z134 活捉毛贼泽东| and 训令|); 〇 in
+  addresses/codes/numbers (z81 三〇式, z112 〇七六〇 the 0760 code, z134 一九〇六号) — the numeric
+  checker mis-reads 〇, so the real values are carried in English and only the mis-read glyph-string
+  is noised; × redactions rendered as em-dash blanks (z168 十月十x日 "the ——th of October", z175
+  杨x芳 "Yang ——fang", z112 李xx "Li ——"); variant/rare glyphs 价値/価値 (值), 鬪 (斗), 尙 (尚), 刼
+  (劫), 躭 (耽), and a garbled surname glyph 鿄 in 鿄述哉, rendered "—— Shuzai". Many dropped 。
+  mid-<p>. All rendered to plain sense; none is a reading uncertainty.

@@ -842,6 +842,38 @@ UNITS = {
         "glued": {}, "glued_head": {},
         "standalone": [8, 49, 77, 141],
     },
+    "ch36": {
+        "file": "37_index-split-000-0035.txt",
+        "title": "第四章 掌握先机 备多力分",
+        # drop=2: running header 英雄无名-陈恭澍 + <h2> chapter title. Confirmed
+        # byte-exact p-by-p against the source XHTML: 1 <h2> + 4 <h3> (the four
+        # section headings 一、/二、/三、/四、) + 188 <p>, ZERO mismatches; no
+        # <h1>, no <br/>, no <img>, no [\d+] note markers. The file has NO
+        # trailing newline, so it is 194 lines (wc -l counts 193 newlines);
+        # after drop=2 the txt has 192 body lines = 4 <h3> heading lines (raw
+        # 1-based L18/L71/L108/L154) + 188 <p>. The earlier "1-line gap" scare
+        # was the trailing-newline miscount; there is no ingest concatenation.
+        # The four <h3> are their OWN elements -> standalone (### ), not glued.
+        # ONE glitch-masked mid-phrase sever where the SOURCE broke one sentence
+        # across two <p>: L49/50 (...其后更由﹁地方！|转向﹁中央﹂..., the ！ standing
+        # for a closing 」 and the phrase 由﹁地方﹂转向﹁中央﹂ "from the 'local'
+        # turning toward the 'central'" split across the boundary). The other
+        # ！？》-ending lines are genuine terminal rhetorical questions/
+        # exclamations, NOT severs: notably L52 (...形容为一场﹁智慧鬪争！) which
+        # ends a grammatically complete predicate (L53 高明者就可以占上风 is a
+        # separate short sentence). The INNER enumerations stay as BODY lines per
+        # parity (NOT headings): the temple-search rhetorical checklist L145-153,
+        # the 一、二、三 intelligence-item list, name-lists, number-ranges.
+        # Digitization glitches (rendered to plain sense, listed in PROGRESS):
+        # single-char substitutions (暴珍/暴殄, 价値, 鬪争, 尙, 刼, 躭), stray ！ for
+        # a closing 」 (L49 伪﹁广东省长！。 and 由﹁地方！; L52 智慧鬪争！), stray 》
+        # for punctuation mid-clause (L4 民间团体》, L174 功能》, and the tail line
+        # 有深入研究的必要》), mismatched guillemets ﹃/﹁/﹂.
+        "drop": 2,
+        "merges": [(49, 50)],
+        "glued": {}, "glued_head": {},
+        "standalone": [18, 71, 108, 154],
+    },
 }
 
 

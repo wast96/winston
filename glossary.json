@@ -2615,6 +2615,42 @@
       "pinyin": "Huáng Fú",
       "status": "attested",
       "note": "The diplomat (courtesy Yingbai) who acted for He Yingqin at Beiping in the early 1930s as chairman of the Executive Yuan's Beiping Political Affairs Reorganization Committee."
+    },
+    "安春山": {
+      "en": "An Chunshan",
+      "pinyin": "An Chunshan",
+      "status": "provisional",
+      "note": "Commander of the Provisional Third Army and a favored general of Fu Zuoyi's; led in person the cavalry-spearheaded raid on Anguo that narrowly missed Mao Zedong."
+    },
+    "朱占奎": {
+      "en": "Zhu Zhankui",
+      "pinyin": "Zhu Zhankui",
+      "status": "provisional",
+      "note": "Magistrate of Anci County (concurrently a Hebei district commissioner); an ex-Communist military-sub-district commander captured and turned, who defected back to the Communists in 1948."
+    },
+    "刘玉珠": {
+      "en": "Liu Yuzhu",
+      "pinyin": "Liu Yuzhu",
+      "status": "provisional",
+      "note": "A fixer and friend of the deputy brigade commander who made the brigade a 'gift' of some 2,000 Japanese rifles, and was later detained and tried in the same corruption case as Ma Hansan."
+    },
+    "萧润宇": {
+      "en": "Xiao Runyu",
+      "pinyin": "Xiao Runyu",
+      "status": "provisional",
+      "note": "A member of the First Directly Subordinate Section; author of the 'Record of the Work' quoted at length in section three."
+    },
+    "牛广金": {
+      "en": "Niu Guangjin",
+      "pinyin": "Niu Guangjin",
+      "status": "provisional",
+      "note": "A member of the Shijiazhuang work-group, wounded by a shell-fragment and captured; author of the 'Brief Record of the Shijiazhuang Work' quoted in section four."
+    },
+    "吕正操": {
+      "en": "Lü Zhengcao",
+      "pinyin": "Lü Zhengcao",
+      "status": "attested",
+      "note": "Communist commander of the Central Hebei Military District, which held the Beiping-Tianjin-Baoding triangle from 1938; later a PLA general."
     }
   },
   "organizations": {
@@ -3612,6 +3648,36 @@
       "pinyin": "Gēngxīn Wǔtái",
       "status": "attested",
       "note": "A Peking-opera theater on Newchwang Road in the International Settlement; the site of the Yu Yefeng sanction of January 1940."
+    },
+    "石家庄": {
+      "en": "Shijiazhuang",
+      "pinyin": "Shíjiāzhuāng",
+      "status": "decided",
+      "note": "The Hebei rail-junction city, scene of the Communist siege and capture of November 1947; Chen more often calls it by its older name, Shimen."
+    },
+    "石门": {
+      "en": "Shimen",
+      "pinyin": "Shímén",
+      "status": "decided",
+      "note": "The older name of Shijiazhuang, used throughout this chapter."
+    },
+    "安次": {
+      "en": "Anci",
+      "pinyin": "Ancì",
+      "status": "decided",
+      "note": "The Hebei county garrisoned by the First Directly Subordinate Section (its seat, Langfang lies on the Bei-Ning line)."
+    },
+    "安国": {
+      "en": "Anguo",
+      "pinyin": "Ānguó",
+      "status": "decided",
+      "note": "The Hebei county whose Temple of the Medicine King was the object of the raid meant to seize Mao Zedong."
+    },
+    "正定": {
+      "en": "Zhengding",
+      "pinyin": "Zhèngdìng",
+      "status": "decided",
+      "note": "The town reckoned the screen of Shimen, and the northern terminus of the Zheng-Tai railway."
     }
   },
   "terms": {
@@ -3753,6 +3819,18 @@
       "pinyin": "tèzhǒng zǔzhī",
       "status": "decided",
       "note": "The Leader's term for the older special services he had 'raised with his own hands over twenty years,' the Juntong foremost among them, whose decay he lamented at the opening of the Lizhi Class."
+    },
+    "掏心战术": {
+      "en": "the heart-extraction tactic",
+      "pinyin": "tāoxīn zhànshù",
+      "status": "decided",
+      "note": "The code-name of the deep raid into the Communist-held triangle aimed at seizing the enemy's leadership at a stroke; the chapter title glosses it at title level."
+    },
+    "平津保三角地带": {
+      "en": "the Beiping-Tianjin-Baoding triangle",
+      "pinyin": "Píng-Jīn-Bǎo sānjiǎo dìdài",
+      "status": "decided",
+      "note": "The dozen-odd counties of central Hebei, bounded by Beiping, Tianjin, and Baoding, held by the Communists' Central Hebei forces from 1938."
     }
   }
 }

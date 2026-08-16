@@ -467,6 +467,11 @@
 # 几十, "over a hundred and some". The checker reads the 百 as 100; the figure is an
 # estimate, not an exact count. English carries "the hundred-odd field units".
 百数十
+# Approximate count 十余万人 "more than a hundred thousand men" (ch36, Lin Biao's
+# infiltration force): the 余 hedges it; carried in English as "more than a hundred
+# thousand," not the literal 万 value. MUST precede the bare 十余 rule below, which
+# would otherwise consume 十余 and orphan the 万 (10000).
+十余万
 # Elided/approximate 十余(人) "a dozen-odd (men)" (少则十余人): 十余 = "ten-plus", an
 # estimate, not the count 10. English renders "a dozen-odd". Guarded so it never fires
 # inside a larger compound (二十余 "twenty-odd" keeps its 二十).
@@ -848,3 +853,35 @@
 # hedged figure for the survivors); the 几 makes it approximate ("a hundred-odd"),
 # carried in English as "a hundred and more," not the literal composed value 100.
 一百零几
+# Place/geometry numeral 平津保三角地带 / 平津三角地带 "the Beiping-Tianjin-Baoding
+# triangle" (ch36): the 三 (3) of 三角 "triangle" is part of the descriptor, carried
+# in English as "triangle," not the count 3.
+三角地带
+# Place-name numeral 五台山(区) "the Wutai Mountains" (ch36): the 五 (5) is part of
+# the mountain's name (Wutai), not the count 5.
+五台
+# Weapon-model numeral 三〇式 "Type 30" rifle (ch36; the source prints the mis-read
+# glyph 〇 for the zero): the 三 is part of the model designation, carried as "Type
+# 30," not the count 3.
+三〇式
+# Idiom 千奇百怪 "every sort of freak and marvel" (ch36): the 千 (1000) and 百 (100)
+# are rhetorical, not tracked values.
+千奇百怪
+# Slang 老千 "card-sharp / swindler" (ch36): the 千 is part of the epithet, not the
+# count 1000.
+老千
+# Approximate range 七、八十里 "seventy or eighty li" (ch36): carried in English as
+# "seventy or eighty li," an approximation, not tracked composed values.
+七、八十
+# Idiom 举目四望 "gazing about on every side" (ch36): the 四 (4) is figurative
+# ("the four quarters"), not the count 4.
+四望
+# Idiom 情况万急 "the situation at its utmost extremity" (ch36): the 万 (10000) is
+# rhetorical intensifier, not a tracked value.
+万急
+# Personal name containing a numeral glyph: 张建三 (Zhang Jiansan, a First-Directly-
+# Subordinate-Section member, ch36); the 三 is part of the given name, not the count 3.
+张建三
+# Personal name printed with a numeral-glyph glitch: 张建二 for 张建三 (Zhang Jiansan,
+# ch36; the source misprints 三 as 二); the 二 is part of the garbled name, not a count.
+张建二
