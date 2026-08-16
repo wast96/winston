@@ -122,9 +122,19 @@ verified — no lead paragraph before section 5.
   layers fresh. Build: 4 of 12 chapters, 340 notes; qa_epub PASS (54 files,
   340/340/340 notes resolve, all links resolve); epubcheck 5.1.0 = 0 fatals /
   0 errors / 0 warnings.
-- NOTE: data/zh is gitignored and gone on a fresh checkout; the S5–8 zh is
-  hand-assembled and committed nowhere (regenerable), and the scoped pairing above
-  is the validation of record for this batch's work.
+- Whole-chapter confirmation: with S1–4 zh reconstructed (from OCR aligned to the
+  frozen English) and concatenated with S5–8, data/zh/ch04.txt = out/ch04_reading.md
+  = 257 lines; verify_unit ch04 parity 245=245 OK, all 75 note anchors resolve;
+  check_structure PASS; check_align OK (median 4.78 en/han). Four residual
+  number/content flags all fall in the REGENERATED S1–4 zh and are artifacts, not
+  defects in the new content: 张和 (Zhang He, a 2-char key) false-matches inside
+  主张和平 "advocate peace"; and 绥蒙 appears in the reconstructed S1–4 zh where the
+  frozen B05 English used "Jin-Sui"/"Suiyuan" — a 绥蒙-vs-晋绥 reading/rendering
+  question on already-shipped S1–4 text, logged here as a candidate for the B10
+  whole-book reconcile (check 12), not touched in this translation batch.
+- NOTE: data/zh is gitignored and gone on a fresh checkout; the ch04 zh is
+  hand-assembled/regenerated (committed nowhere), and the scoped pairing above is
+  the validation of record for this batch's new content.
 
 ## Batch 5. Chapter 4, sections 1–4 "Hard Fighting in the Jin-Sui Border Region" (ch04s01–s04; PDF 117–146, printed 106–135)
 
