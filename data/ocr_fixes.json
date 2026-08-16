@@ -4361,5 +4361,111 @@
    "page": "f285",
    "note": "OCR 《->4"
   }
+ ],
+ "ch17": [
+  {
+   "wrong": "功率$0瓦",
+   "right": "功率50瓦",
+   "page": "f300",
+   "note": "$=5 glyph garble"
+  },
+  {
+   "wrong": "训练$名",
+   "right": "训练5名",
+   "page": "f311",
+   "note": "$=5 glyph garble"
+  },
+  {
+   "wrong": "19%31年3丹",
+   "right": "1931年3月",
+   "page": "f312",
+   "note": "date garble"
+  },
+  {
+   "wrong": "193年底",
+   "right": "1930年底",
+   "page": "f312",
+   "note": "dropped digit"
+  },
+  {
+   "wrong": "第二士八师",
+   "right": "第二十八师",
+   "page": "f313",
+   "note": "士=十"
+  },
+  {
+   "wrong": "公时藩",
+   "right": "公秉藩",
+   "page": "f313",
+   "note": "name garble 时=秉"
+  },
+  {
+   "wrong": "公肝藩",
+   "right": "公秉藩",
+   "page": "f311",
+   "note": "name garble"
+  },
+  {
+   "wrong": "公肝落",
+   "right": "公秉藩",
+   "page": "f311",
+   "note": "name garble"
+  },
+  {
+   "wrong": "1930年上月",
+   "right": "1930年1月",
+   "page": "f299",
+   "note": "上=1"
+  },
+  {
+   "wrong": "2月工日",
+   "right": "2月1日",
+   "page": "f301",
+   "note": "工=1"
+  }
+ ],
+ "ch18": [
+  {
+   "wrong": "生活费6丈",
+   "right": "生活费6元",
+   "page": "f331",
+   "note": "丈=元"
+  },
+  {
+   "wrong": "7元5$角",
+   "right": "7元5角",
+   "page": "f330",
+   "note": "$=5"
+  },
+  {
+   "wrong": "输出功率为100万",
+   "right": "输出功率为100瓦",
+   "page": "f340",
+   "note": "万=瓦"
+  },
+  {
+   "wrong": "福申路417号",
+   "right": "福煦路417号",
+   "page": "f324",
+   "note": "申=煦"
+  },
+  {
+   "wrong": "1月?28日",
+   "right": "1月28日",
+   "page": "f341",
+   "note": "stray ?"
+  },
+  {
+   "wrong": "5$0名",
+   "right": "50名",
+   "page": "f327",
+   "note": "$=5"
+  },
+  {
+   "wrong": "有人恒路--号",
+   "right": "有恒路一号",
+   "page": "f321",
+   "note": "OCR garble"
+  }
  ]
 }
