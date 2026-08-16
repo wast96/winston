@@ -12,7 +12,7 @@ In September 1927, the Yixing County Special Branch of the Party sent Zong Mengp
 
 Zong Mengping — that is, Zong Yishou, and also known as Zong Ying, Wu Danfeng, and Zong Wenbin — was born in 1907 in Jingxi, Jiangsu (today's Yixing). In January 1926 he joined the Kuomintang and worked in the farmers-and-workers department of its Yixing county headquarters. That summer Zong Panlin, a Communist and a student at Wuchang Normal University, came home to visit family and brought Zong Mengping into the Party; the organization sent him to Shanghai University for a short course at its peasant-movement training class. Later, with the Youth League member Zong Daozhang, he opened the county's first peasant night school in Yixing.
 
-On 7 August 1927, the Party's Central Politburo held an emergency conference in Hankou and fixed the general line for the new period: agrarian revolution, and armed resistance to the massacre policy of the Kuomintang reactionaries, with the rousing of the peasants for an Autumn Harvest Uprising as the Party's foremost task.
+On August 7, 1927, the Party's Central Politburo held an emergency conference in Hankou and fixed the general line for the new period: agrarian revolution, and armed resistance to the massacre policy of the Kuomintang reactionaries, with the rousing of the peasants for an Autumn Harvest Uprising as the Party's foremost task.
 
 In October 1927, to carry out the spirit of the Center's August 7 Conference, the Jiangsu Provincial Committee called the heads of the Jiangnan counties together in Shanghai. The meeting resolved that "Yixing shall be the first in Jiangnan to raise an armed insurrection and to found a worker-peasant-soldier soviet," and named Wan Yi and Duan Yanhua provincial commissioners to organize and lead the Yixing rising.
 
@@ -34,7 +34,7 @@ After the Yixing rising failed, Zong Mengping made his way by roundabout paths t
 
 In April 1928 Zong Mengping slipped back into Yixing and called a meeting at the home of Shi Yanfen in Guanlin, where the Party's Yixing County Committee was rebuilt with him as its secretary. Before long he was elected a member of the Jiangsu Provincial Committee and, with Chen Yun and others, formed a farmers' commission to lead the peasant movement across the province.
 
-On 2 September 1929, Chen Yun sat for the first time on the standing committee of the Jiangsu Provincial Committee. On the 9th the standing committee settled the rosters of its military and farmers' commissions: the Peasant Movement Commission would be made up of Chen Yun, Zong Mengping, Ying Ju, Zhao He, and others, with Chen Yun as its secretary. (CCP Central Party Literature Research Office, 2005)
+On September 2, 1929, Chen Yun sat for the first time on the standing committee of the Jiangsu Provincial Committee. On the 9th the standing committee settled the rosters of its military and farmers' commissions: the Peasant Movement Commission would be made up of Chen Yun, Zong Mengping, Ying Ju, Zhao He, and others, with Chen Yun as its secretary. (CCP Central Party Literature Research Office, 2005)
 
 In April 1931, Gu Shunzhang — alternate member of the Sixth Central Politburo and the Central Special Branch's frontline chief — turned traitor and went over to the enemy in Wuhan. The Center resolved that "the organization of the Special Committee itself, from the supreme directing committee on down, shall be reconstituted from top to bottom," and moved Chen Yun onto the Central Special Committee to lead the Central Special Branch. Chen Yun had Zong Mengping and his younger brother Zong Yimao run notices in the papers renouncing the Party, a false front to win the enemy's trust and so bury themselves in the devil's den.
 
@@ -58,7 +58,7 @@ And so, no sooner had the third armed uprising of the Shanghai workers won its v
 
 ### 2. The Lumpen Proletariat
 
-At ten in the morning on 23 March 1927, the Shanghai Provisional Municipal Government opened for business. At eleven it convened its committee and declared for all to hear: "Our municipal government is the fruit of our people's long years of struggle and sacrifice, and we will strive on to build a new Shanghai." The Shanghai press reported it far and wide: "An unheard-of thing, a Shanghai citizens' government, has sounded the opening note of the Chinese revolution."
+At ten in the morning on March 23, 1927, the Shanghai Provisional Municipal Government opened for business. At eleven it convened its committee and declared for all to hear: "Our municipal government is the fruit of our people's long years of struggle and sacrifice, and we will strive on to build a new Shanghai." The Shanghai press reported it far and wide: "An unheard-of thing, a Shanghai citizens' government, has sounded the opening note of the Chinese revolution."
 
 At one o'clock that afternoon, more than a thousand organizations from every walk of Shanghai life, and more than 500,000 people, gathered on the square at Qingyun Road in Zhabei for a "Rally to Uphold the Founding of the Shanghai Provisional Municipal Government and Welcome the Northern Expedition Army to Shanghai." The rally passed a manifesto: it stood firmly behind the Shanghai Provisional Municipal Government, firmly behind the National Government, and firmly demanded that the National Government take back the Shanghai concessions without delay.
 

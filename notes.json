@@ -221,7 +221,7 @@
       "note": "The Sincere Company (<i>Xianshi</i>), opened on Nanjing Road in 1917, was one of the four great modern Chinese department stores of Shanghai; its upper floors held a roof garden with a theater and amusements."
     },
     {
-      "anchor": "The advertisement in the *Shen Bao* of 9 November 1930",
+      "anchor": "The advertisement in the *Shen Bao* of November 9, 1930",
       "note": "The <i>Shen Bao</i> (&#8220;Shanghai News&#8221;), founded 1872, was the most important and longest-running newspaper of modern China and a chief record of Shanghai life until 1949."
     },
     {
@@ -446,7 +446,7 @@
     },
     {
       "anchor": "deciding how the Party would operate in the White areas",
-      "note": "&#8220;White areas&#8221; (<i>baiqu</i>) meant the territory under Nationalist control, as against the Communist-held &#8220;red&#8221; or &#8220;Soviet areas&#8221; (<i>suqu</i>); clandestine work in the White areas is the whole theatre of this book."
+      "note": "&#8220;White areas&#8221; (<i>baiqu</i>) meant the territory under Nationalist control, as against the Communist-held &#8220;red&#8221; or &#8220;Soviet areas&#8221; (<i>suqu</i>); clandestine work in the White areas is the whole theater of this book."
     },
     {
       "anchor": "the Red Army in the Soviet areas, and the Communist International.",
@@ -707,6 +707,10 @@
     {
       "anchor": "shot her in the courtyard",
       "note": "That He Zhihua survived the 1928 attack, fled, and was later killed is agreed; the manner and date are not. The book places her death at Kaijiang in 1938; other accounts give different years and circumstances. The disagreement is noted here and left unresolved, as the author himself leaves it."
+    },
+    {
+      "anchor": "gather the moon nearest the water",
+      "note": "From the couplet &#8220;the pavilion by the water gets the moon first&#8221; (<i>jinshui loutai xian de yue</i>): whoever is best placed reaps the advantage first. He Zhihua, placed close to Luo Yinong by her work, means to seize the opening."
     }
   ],
   "ch04": [
@@ -913,7 +917,7 @@
       "note": "The &#8220;Horse Day&#8221; Incident of 21 May 1927: <i>ma</i>, &#8220;horse,&#8221; was the telegraph code for the twenty-first of the month. Nationalist officers in Changsha crushed the Communist-led peasant and labor unions in a bloody purge&#8212;one of the opening blows of the 1927 terror, and the moment that drove many Hunan revolutionaries, Xiong and Zhu among them, underground."
     },
     {
-      "anchor": "the Ten-Li Foreign Settlement",
+      "anchor": "the ten-li foreign quarter",
       "note": "<i>Shili yangchang</i>, &#8220;the ten-<i>li</i> foreign market,&#8221; was the stock epithet for Shanghai&#8217;s foreign concessions&#8212;ten <i>li</i> of gaslit, moneyed, half-Western streets that stood for the whole glittering and treacherous city."
     }
   ],
@@ -967,8 +971,8 @@
       "note": "The &#8220;Hao cipher&#8221; (<i>Haomi</i>) took its name from Zhou Enlai&#8217;s Party codename Wuhao. It combined transposition of the Chinese commercial telegraph code with a letter-to-figure substitution, was never reused, and was reckoned all but unbreakable; the Nationalists are said never to have read it. Deng Yingchao, Zhou&#8217;s wife, was its first cipher clerk."
     },
     {
-      "anchor": "the Zikawei Observatory",
-      "note": "The observatory at Zikawei (Xujiahui), founded by French Jesuits in 1872, was the great weather and time-signal station of the China coast; its forecasts, broadcast on long wave, were what Zhang Shenchuan practiced copying."
+      "anchor": "the Xujiahui Observatory",
+      "note": "The observatory at Xujiahui &#8212; known in the Republican period by its older French-Jesuit name, Zikawei &#8212; was founded by Jesuits in 1872 and was the great weather and time-signal station of the China coast; its forecasts, broadcast on long wave, were what Zhang Shenchuan practiced copying."
     },
     {
       "anchor": "the tiger bench",
@@ -1029,6 +1033,14 @@
     {
       "anchor": "a bedside-whisper of four-character lines",
       "note": "Su Gangda&#8217;s little verse of paired four-character lines doubles as a coded farewell to smuggle out to his family: its last line, <i>gaowei qinren, mingtian zaijian</i> &#8212; &#8220;give comfort to your kin; till we meet again tomorrow&#8221; &#8212; supplies this section&#8217;s title and reads, in the mouth of a condemned man, as a promise past death."
+    },
+    {
+      "anchor": "Sixteen trainees in all gathered",
+      "note": "The author's headcounts for the training school do not quite square, and are reproduced as printed. Sixteen trainees are named here as the full enrollment; the raid scene below counts &#8220;eighteen trainees&#8221; present that afternoon; and the arrest tallies run to &#8220;the other twenty&#8221; and to seventeen-plus-three sentenced &#8212; figures that evidently fold in the instructors (Zhang Shenchuan, Zeng Hualun, Fang Tingzhen and others) and any who joined the class after this roll was taken. The discrepancy is the source's, not a slip of translation."
+    },
+    {
+      "anchor": "windtalkers",
+      "note": "The conceit turns on <i>feng</i> (&#8220;wind&#8221;) for the airwaves: the radio men chase, listen for, and catch the wind. The Chinese word rendered &#8220;windtalkers,&#8221; <i>fengyuzhe</i>, is also the Chinese title of the 2002 war film <i>Windtalkers</i>, about the Navajo code-talkers of the Pacific war; the author is punning on it. No connection to the Navajo cipher is implied."
     }
   ],
   "ch07": [
@@ -1197,6 +1209,10 @@
     {
       "anchor": "from the Western Route Army",
       "note": "The Western Route Army was the Red Army force of some twenty thousand that crossed the Yellow River into the Gansu corridor in late 1936 and was all but destroyed by Muslim cavalry over the winter of 1936&#8211;37; the survivors straggled back to Yan&#8217;an. Ouyang Yi was among them."
+    },
+    {
+      "anchor": "Zhang Guodong's account is borne out by Meng Zhen",
+      "note": "The source is tangled here: the block quotation just above is credited to Yang Yingqi and Zhang Wandong (1999), yet the author at once calls it &#8220;Zhang Guodong's account.&#8221; Zhang Guodong is the former Investigation Section trainee whose recollections the author leans on throughout this chapter; most likely the 1999 volume by Yang and Zhang reprints Zhang Guodong's memoir, and it is that memoir the author means. The wording is the author's own, reproduced as printed; the reader should not take the two names for two different documents."
     }
   ]
 }

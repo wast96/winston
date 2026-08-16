@@ -29,7 +29,9 @@
   ],
   "translator_note": [
     "This is an English translation of <i>Jian Hou Xi Feng: Zhongyang Teke Jishi</i> (剑吼西风：中央特科纪事, “The Sword Roars in the West Wind: A Chronicle of the Central Special Branch”) by Ye Xiaoshen, published by Gold Wall Press in 2021. The source was an image-only scan with no digital text layer; the text was recovered by optical character recognition and verified page by page against the scanned original.",
-    "The book is a work of narrative history about the Central Special Branch (Zhongyang Teke), the Chinese Communist Party's first intelligence and security service, active in Shanghai from 1927 to 1935. It is written from within the Party's own tradition and frankly celebrates its subjects; footnotes mark where its claims are corroborated, uncorroborated, or contradicted by the wider scholarship, and where the account is that of an interested witness. Chinese personal and place names are given in pinyin except where an older English form is long established (Chiang Kai-shek, the Avenue Joffre). Where the scan was damaged or a reading uncertain, the note says so; no bridging text has been invented."
+    "The book is a work of narrative history about the Central Special Branch (Zhongyang Teke), the Chinese Communist Party's first intelligence and security service, active in Shanghai from 1927 to 1935. It is written from within the Party's own tradition and frankly celebrates its subjects; footnotes mark where its claims are corroborated, uncorroborated, or contradicted by the wider scholarship, and where the account is that of an interested witness. Chinese personal and place names are given in pinyin except where an older English form is long established (Chiang Kai-shek, the Avenue Joffre). Where the scan was damaged or a reading uncertain, the note says so; no bridging text has been invented.",
+    "A word on conventions. Chinese names are romanized in pinyin, except for a few forms long fixed in English (Chiang Kai-shek, Sun Yat-sen, the Kuomintang, Whampoa) and for the Western scholars the author cites, who keep their own spellings. Streets in the foreign concessions are given by their period names, French or English, with today's pinyin name in a gloss at first mention (Avenue Joffre; Route Voisin, today Fumin Road). Distances are kept in the Chinese <i>li</i> where the phrase is idiomatic, glossed once, and given in metric where the source gives a plain figure. Sums of money appear as the source gives them, in silver dollars or in yuan. Dates are written month-day-year throughout.",
+    "One thing the reader should know going in. The book speaks from inside the Party's own tradition: it says &#8220;our Party,&#8221; calls the Party's enemies &#8220;reactionaries&#8221; and &#8220;running dogs,&#8221; and salutes its subjects as heroes and martyrs. That voice is the author's, deliberately preserved; it is not the translator's, and it is not neutral historical narration. Where the celebration outruns the record, or where the account is that of an interested witness, a footnote says so."
   ],
   "source_note": "Image-only PDF scan, 350 pages, no text layer. Front cover (painting, reused as the ebook cover), back cover with blurb and ISBN, title page, CIP page, a Song-dynasty ci epigraph (He Zhu, from which the title is drawn), a five-page authorial preface, and a five-page table of contents precede the body. Simplified Chinese, horizontal setting. The printed-to-PDF offset is a constant 15 (printed = pdf - 15) across the whole book, with no unpaginated plate inserts; the preface runs a separate roman-numeral sequence. No library seal; clean scan.",
   "pdf_end": 350,
@@ -261,7 +263,7 @@
           "id": "ch05s01",
           "section": 1,
           "title": "一、党中央最机密的机关",
-          "title_en": "1. The Party Centre's Most Secret Organ",
+          "title_en": "1. The Party Center's Most Secret Organ",
           "pdf_page": 109,
           "printed_page": 94
         },
@@ -698,7 +700,7 @@
           "id": "ch12s02",
           "section": 2,
           "title": "二、1469号车牌",
-          "title_en": "2. Licence Plate 1469",
+          "title_en": "2. License Plate 1469",
           "pdf_page": 267,
           "printed_page": 252
         },
@@ -706,7 +708,7 @@
           "id": "ch12s03",
           "section": 3,
           "title": "三、谣言杀人",
-          "title_en": "3. Rumour Kills",
+          "title_en": "3. Rumor Kills",
           "pdf_page": 270,
           "printed_page": 255
         },
@@ -883,7 +885,7 @@
           "id": "ch15s03",
           "section": 3,
           "title": "三、沧海横流，方显英雄本色",
-          "title_en": "3. Only in the Raging Sea Is the Hero's True Colour Seen",
+          "title_en": "3. Only in the Raging Sea Is the Hero's True Color Seen",
           "pdf_page": 331,
           "printed_page": 316
         },

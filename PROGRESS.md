@@ -2,6 +2,28 @@
 
 The running per-batch log. Written as we go.
 
+## B09 commissioner review — register rebaseline + corrections (2026-08-16)
+
+Ran: build_reading_epub.py (PASS, 300 notes), qa_epub.py (PASS, 81 files, all
+links resolve), epubcheck 5.1.0 (0 fatals / 0 errors / 0 warnings),
+check_register.py --ref out/ch01_reading.md (informational; flags ch04 dialogue
+as still formal, which is the whole-book register pass that remains).
+
+Applied to ch01-ch08: the seven outright errors (all crop-verified against the
+scan), the book-wide consistency sweeps, the named prose fixes, and the
+apparatus additions. Full itemization in CHANGELOG.md (2026-08-16 B09 entry).
+The pattern behind every note is now encoded in STYLE.local.md's new top
+section, "THE REGISTER REBASELINE." Later notes were sided with over earlier
+ones per the commissioner (modern-neutral default register).
+
+NOT DONE (carried in the kickoff, governed by the frozen doc): the exhaustive
+sentence-by-sentence register de-archaizing of all narration across ch01-ch08
+(inversions, antique function words, narration contractions, doublets,
+de-nominalization, fragment un-quoting, attribution front-loading, "and the
+rest"/"and the others" variation). This is a whole-book pass one session could
+not finish; the deterministic sweeps, the errors, the named examples, and the
+apparatus are complete.
+
 ## Setup / Survey (this session)
 
 - Source: image-only PDF scan, 350 pages, no text layer. `source.pdf` (73 MB).

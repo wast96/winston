@@ -7,8 +7,8 @@
       "pinyin": "Zhou Enlai",
       "status": "attested",
       "principal": true,
-      "cast_order": 1,
-      "cast": "Director of the Party's underground work in Shanghai and founder of the Central Special Branch (1898–1976).",
+      "cast_order": 10,
+      "cast": "Director of the Party's underground work in Shanghai; founder and guiding hand of the Central Special Branch.",
       "note": "Conventional pinyin; the Party's intelligence chief in this period and the author's ultimate superior."
     },
     "顾顺章": {
@@ -16,8 +16,8 @@
       "pinyin": "Gu Shunzhang",
       "status": "attested",
       "principal": true,
-      "cast_order": 2,
-      "cast": "The Party's first intelligence chief, a stage magician; defected to the Kuomintang in 1931 (1903–1935).",
+      "cast_order": 12,
+      "cast": "The Branch's first chief, a stage magician; his defection to the Kuomintang in 1931 nearly destroyed the whole apparatus.",
       "note": "Head of the Central Special Branch whose 1931 defection wrecked the Shanghai underground."
     },
     "陈赓": {
@@ -25,8 +25,8 @@
       "pinyin": "Chen Geng",
       "status": "attested",
       "principal": true,
-      "cast_order": 3,
-      "cast": "Head of the Special Branch's intelligence section, under the alias Wang Yong; later a PLA general (1903–1961).",
+      "cast_order": 11,
+      "cast": "Head of the Special Branch's intelligence section; a Whampoa graduate who had once saved Chiang Kai-shek's life.",
       "note": "Whampoa first class; saved Chiang Kai-shek's life in 1925; ran the Second (intelligence) Section."
     },
     "王庸": {
@@ -40,27 +40,36 @@
       "pinyin": "Jiang Jieshi",
       "status": "attested",
       "principal": true,
-      "cast_order": 4,
-      "cast": "Leader of the Kuomintang and its government; the Party's chief adversary (1887–1975).",
+      "cast_order": 30,
+      "cast": "Leader of the Kuomintang and its government; the Party's chief adversary.",
       "note": "Conventional English form retained."
     },
     "董健吾": {
       "en": "Dong Jianwu",
       "pinyin": "Dong Jianwu",
       "status": "attested",
-      "note": "The \"Red Pastor\": an Anglican clergyman and Communist agent who ran St. Peter's Church as a safe house."
+      "note": "The \"Red Pastor\": an Anglican clergyman and Communist agent who ran St. Peter's Church as a safe house.",
+      "principal": true,
+      "cast_order": 22,
+      "cast": "The &#8220;Red Pastor&#8221;: presiding pastor of St. Peter's Church and a Communist agent under Chen Geng."
     },
     "徐恩曾": {
       "en": "Xu Enzeng",
       "pinyin": "Xu Enzeng",
       "status": "attested",
-      "note": "Chief of the Kuomintang's civilian secret service, the Zhongtong."
+      "note": "Chief of the Kuomintang's civilian secret service, the Zhongtong.",
+      "principal": true,
+      "cast_order": 31,
+      "cast": "Chief of the Kuomintang's civilian secret service, the Zhongtong; unknowingly employed the Party's Three Heroes."
     },
     "李强": {
       "en": "Li Qiang",
       "pinyin": "Li Qiang",
       "status": "attested",
-      "note": "Built the Party's first secret radio; a principal source on the Special Branch's origins."
+      "note": "Built the Party's first secret radio; a principal source on the Special Branch's origins.",
+      "principal": true,
+      "cast_order": 20,
+      "cast": "Built the Party's first secret radio set and its clandestine wireless network; later a government minister."
     },
     "杨度": {
       "en": "Yang Du",
@@ -96,13 +105,19 @@
       "en": "Li Weihan",
       "pinyin": "Li Weihan",
       "status": "attested",
-      "note": "Senior Party leader; on the Standing Committee that founded the Special Branch."
+      "note": "Senior Party leader; on the Standing Committee that founded the Special Branch.",
+      "principal": true,
+      "cast_order": 14,
+      "cast": "Senior Party leader in Shanghai, on the Standing Committee that founded the underground organs."
     },
     "瞿秋白": {
       "en": "Qu Qiubai",
       "pinyin": "Qu Qiubai",
       "status": "attested",
-      "note": "Party leader after August 1927; writer; executed 1935."
+      "note": "Party leader after August 1927; writer; executed 1935.",
+      "principal": true,
+      "cast_order": 15,
+      "cast": "Party leader after the August 7 Conference of 1927; writer and critic; executed by the Kuomintang in 1935."
     },
     "胡鄂公": {
       "en": "Hu Egong",
@@ -138,7 +153,10 @@
       "en": "Chen Yun",
       "pinyin": "Chen Yun",
       "status": "attested",
-      "note": "Young Jiangsu labor organizer who briefly ran the Central Special Branch after Gu's defection; later the chief economic planner of the People's Republic (1905–1995)."
+      "note": "Young Jiangsu labor organizer who briefly ran the Central Special Branch after Gu's defection; later the chief economic planner of the People's Republic (1905–1995).",
+      "principal": true,
+      "cast_order": 13,
+      "cast": "Young labor organizer who took over the Special Branch after Gu Shunzhang's defection; later a top economic leader of the People's Republic."
     },
     "陈独秀": {
       "en": "Chen Duxiu",
@@ -156,7 +174,10 @@
       "en": "Luo Yinong",
       "pinyin": "Luo Yinong",
       "status": "attested",
-      "note": "A leader of the Shanghai workers' uprisings; captured and executed in 1928 (1902–1928)."
+      "note": "A leader of the Shanghai workers' uprisings; captured and executed in 1928 (1902–1928).",
+      "principal": true,
+      "cast_order": 16,
+      "cast": "A leader of the Shanghai workers' risings; betrayed to the Kuomintang and executed in 1928."
     },
     "赵世炎": {
       "en": "Zhao Shiyan",
@@ -174,7 +195,10 @@
       "en": "Cai Mengjian",
       "pinyin": "Cai Mengjian",
       "status": "attested",
-      "note": "Kuomintang intelligence officer in Wuhan who arrested Gu Shunzhang in 1931 (1905–2001)."
+      "note": "Kuomintang intelligence officer in Wuhan who arrested Gu Shunzhang in 1931 (1905–2001).",
+      "principal": true,
+      "cast_order": 32,
+      "cast": "Kuomintang intelligence officer in Wuhan who arrested Gu Shunzhang in 1931."
     },
     "薛岳": {
       "en": "Xue Yue",
@@ -742,7 +766,7 @@
       "en": "Gong Yinbing",
       "pinyin": "Gong Yinbing",
       "status": "attested",
-      "note": "Xiong Jinding's predecessor as the Centre's chief accountant; a lifelong underground financier (1900–1976)."
+      "note": "Xiong Jinding's predecessor as the Center's chief accountant; a lifelong underground financier (1900–1976)."
     },
     "龚育之": {
       "en": "Gong Yuzhi",
@@ -976,7 +1000,10 @@
       "en": "Zhang Shenchuan",
       "pinyin": "Zhang Shenchuan",
       "status": "attested",
-      "note": "Built and ran the Party’s first secret radio station; arrested 1930, freed 1936."
+      "note": "Built and ran the Party’s first secret radio station; arrested 1930, freed 1936.",
+      "principal": true,
+      "cast_order": 21,
+      "cast": "Built and ran the Party's first secret radio station; arrested in the 1930 raid and imprisoned for years."
     },
     "张僧宝": {
       "en": "Zhang Sengbao",
@@ -1133,7 +1160,10 @@
       "en": "Yun Daiying",
       "pinyin": "Yun Daiying",
       "status": "attested",
-      "note": "CCP Central Committee member and youth leader; executed 1931."
+      "note": "CCP Central Committee member and youth leader; executed 1931.",
+      "principal": true,
+      "cast_order": 23,
+      "cast": "CCP Central Committee member and youth leader; sold out by Gu Shunzhang and executed in 1931."
     },
     "陈同生": {
       "en": "Chen Tongsheng",
@@ -1747,7 +1777,10 @@
       "en": "Qian Zhuangfei",
       "pinyin": "Qian Zhuangfei",
       "status": "attested",
-      "note": "One of the \"three heroes of the dragon’s lair,\" the Party’s agents inside the KMT intelligence service."
+      "note": "One of the \"three heroes of the dragon’s lair,\" the Party’s agents inside the KMT intelligence service.",
+      "principal": true,
+      "cast_order": 17,
+      "cast": "One of the &#8220;Three Heroes of the Dragon's Lair,&#8221; planted deep inside Kuomintang intelligence; his warning saved the Party after Gu Shunzhang's defection."
     },
     "丁玲": {
       "en": "Ding Ling",
@@ -1984,6 +2017,24 @@
       "pinyin": "Wei Feide",
       "status": "attested",
       "note": "The historian Frederic Wakeman, author of Policing Shanghai."
+    },
+    "李克农": {
+      "en": "Li Kenong",
+      "pinyin": "Li Kenong",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 18,
+      "cast": "One of the &#8220;Three Heroes of the Dragon's Lair,&#8221; the Party's man inside the Kuomintang secret service; later a general and intelligence chief of the People's Republic.",
+      "note": "Li Kenong (1899&#8211;1962), with Qian Zhuangfei and Hu Di one of the &#8220;three heroes&#8221; planted in the Kuomintang's investigation apparatus; after 1949 a deputy chief of the PLA general staff and the Party's foremost intelligence organizer."
+    },
+    "胡底": {
+      "en": "Hu Di",
+      "pinyin": "Hu Di",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 19,
+      "cast": "The third of the &#8220;Three Heroes of the Dragon's Lair&#8221;; ran a Kuomintang-front news agency in Tianjin as cover.",
+      "note": "Hu Di (1905&#8211;1935), with Qian Zhuangfei and Li Kenong one of the &#8220;three heroes&#8221; inside Kuomintang intelligence; he ran the Great Wall News Agency in Tianjin as a front. He was killed in 1935 during the Long March, a victim of the intra-Party purges."
     }
   },
   "organizations": {
@@ -2092,7 +2143,7 @@
       "en": "the Central Politburo",
       "pinyin": "Zhongyang Zhengzhiju",
       "status": "attested",
-      "note": "The Party's Political Bureau."
+      "note": "The Party's Politburo."
     },
     "支部生活": {
       "en": "Branch Life",
@@ -2543,8 +2594,8 @@
       "status": "attested"
     },
     "徐家汇天文台": {
-      "en": "the Zikawei Observatory",
-      "pinyin": "the Zikawei Observatory",
+      "en": "the Xujiahui Observatory",
+      "pinyin": "the Xujiahui Observatory",
       "status": "attested",
       "note": "Jesuit observatory (Xujiahui); broadcast weather on long wave."
     },
@@ -2592,14 +2643,14 @@
       "status": "attested"
     },
     "四成里": {
-      "en": "Sicheng Li",
-      "pinyin": "Sicheng Li",
+      "en": "Sichengli",
+      "pinyin": "Sichengli",
       "status": "attested",
       "note": "Lane off Rue Ratard housing the Welfare Electric Company."
     },
     "福康里": {
-      "en": "Fukang Li",
-      "pinyin": "Fukang Li",
+      "en": "Fukangli",
+      "pinyin": "Fukangli",
       "status": "attested",
       "note": "Lane on Great Western Road; site of the first secret station."
     },
@@ -2616,10 +2667,10 @@
       "note": "Obscure locality near Yixing; the scan reads 亳阳."
     },
     "卡尔登大戏院": {
-      "en": "the Carlton Theatre",
-      "pinyin": "the Carlton Theatre",
+      "en": "the Carlton Theater",
+      "pinyin": "the Carlton Theater",
       "status": "attested",
-      "note": "Cinema on Bubbling Well Road; today the Changjiang Theatre. The congress venue stood behind it."
+      "note": "Cinema on Bubbling Well Road; today the Changjiang Theater. The congress venue stood behind it."
     },
     "白克路": {
       "en": "Burkill Road",
@@ -2805,7 +2856,7 @@
       "note": "Zhou Enlai's best-known underground cover name."
     },
     "十里洋场": {
-      "en": "the Ten-Li Foreign Settlement",
+      "en": "the ten-li foreign quarter",
       "pinyin": "shili yangchang",
       "status": "decided",
       "note": "Stock epithet for Shanghai's foreign concessions."

@@ -7,55 +7,62 @@
 > are the voice, so read the last two pages of ch08's English first.
 
 ```
-Sword Roars B09
+Sword Roars B09 register pass (continuation)
 
 Read CLAUDE.md, then HANDOFF.md, then book.json, then STYLE.md and
-STYLE.local.md. Work on branch claude/the-sword-roars (the canonical book
-branch; if the harness starts you on a stray per-task branch, consolidate per
-CLAUDE.md rule 2). Run ./setup.sh first.
+STYLE.local.md. In STYLE.local.md read the new top section first: "THE REGISTER
+REBASELINE (B09 commissioner review)". It resets the book's default register to
+modern-neutral and is the frozen reference for all further work. Work on branch
+claude/the-sword-roars (the canonical book branch; if the harness starts you on
+a stray per-task branch, consolidate per CLAUDE.md rule 2 and delete the stray,
+local and remote). Run ./setup.sh first.
 
-Do Batch 9 = Chapter Nine, "向忠发失踪之谜 / The Riddle of Xiang Zhongfa's
-Disappearance" (ch09), PDF 208-235, printed 193-220, end to end per the pipeline
-in CLAUDE.md. Nine sections: ch09s01 一、探勒车行 (PDF 209, printed 194),
-ch09s02 二、那人只有九个指头 (PDF 210, printed 195), ch09s03 三、传话的"印象最深"
-(PDF 214, printed 199), ch09s04 四、直接用钥匙开门 (PDF 216, printed 201),
-ch09s05 五、我们的思想是相通的 (PDF 220, printed 205), ch09s06 六、通缉与卖人
-(PDF 225, printed 210), ch09s07 七、脚下是一个陷阱 (PDF 229, printed 214),
-ch09s08 八、屈膝跪地为免一死 (PDF 231, printed 216), ch09s09 九、"密电"依然"存在"
-(PDF 233, printed 218). Simplified Chinese, horizontal; OCR chi_sim --psm 6;
-crop --left 0.06 --right 0.95 --top 0.11 --bottom 0.955; offset is a constant 15
-(printed = pdf - 15), no plate drift, but READ each opener's folio off the scan.
+STATE: the B09 review's itemized fixes are already applied to ch01-ch08 and the
+EPUB is rebuilt (out/sword-roars.epub), qa_epub and epubcheck clean. Done: the
+seven outright errors; the book-wide consistency sweeps (American spelling
+throughout, month-day-year dates, Politburo, one Comintern-report rendering,
+Lazily Seeking Old Dreams, presiding pastor, White Terror, Xujiahui Observatory,
+fused lane names, ten-li foreign quarter, Gu Shunzhang born 1895); the named
+prose fixes (chengyu triage on the flagged idioms, modernized quote tags,
+dialogue lines, word-choice items, the Qian Xuantong sentence split, "in the
+end" interrogatives); and the apparatus (expanded translator's note with the
+conventions-and-voice paragraph, Principal Characters grown to 17 with Li Kenong
+and Hu Di added, footnotes for the source's attribution tangle and the trainee
+counts, the Windtalkers note).
 
-BEFORE translating, read the final two pages of Chapter Eight's English
-(out/ch08_reading.md) so the voice carries over unbroken. Chapter One remains
-the FROZEN register reference: run check_register.py --ref out/ch01_reading.md
-on ch09 and record it (judge on the narratorial signals per
-references/register-drift.md; the dialogue-contraction metric moves with how
-dialogue-heavy the chapter runs, and is not itself drift). Chapters One-Eight's
-data/zh were hand-transcribed off the scans (OCR too noisy on the proper names,
-and direct reading of the 300-DPI page images is the reliable method); do the
-same for ch09. In the hand-transcribed data/zh/ch09.txt mark the chapter title
-with ### (same prefix as the section heads), NOT ##. Cite printed folios in
-notes, never PDF pages. Never invent bridging text: if OCR breaks mid-sentence
-or a leaf is damaged, crop the scan and read the real continuation, or footnote
-the gap. Verify every name, number and low-confidence span against a magnified
-crop before writing. Consult authority.json and glossary.json for settled
-renderings (esp. the Central Special Branch, the Red Squad, the Zhongtong, the
-Party Affairs Investigation Section, Zhou Enlai, Gu Shunzhang, Chen Geng,
-Chiang Kai-shek, and from Ch.8: Xu Enzeng, Chen Lifu, Qian Zhuangfei, Li Kenong
-[NOT in the entity glossary], Hu Di [NOT in glossary], Hua Guangqi = Gu's stage
-name, Liming = Gu's alias, Cai Mengjian, the "Three Heroes of Longtan," the
-Zhengyuan Industrial Company). This chapter is the sequel to Gu Shunzhang's
-defection: 向忠发 Xiang Zhongfa, the CCP's General Secretary, is captured and
-executed in Shanghai in June 1931; the chapter weighs the sources on how he was
-caught (顾顺章 Gu Shunzhang's leads, the 探勒车行 "Delle Motor Garage," the
-nine-fingered man), whether he broke under interrogation and knelt to beg for
-his life, and the disputed "secret cable." Expect heavy source-criticism (render
-it as running skeptical argument, verdict in the note) and a fresh cast. Add
-ch09 to data/content_config.json when you translate it, or the displacement
-check silently skips it.
+REMAINING and this batch's job: the systematic, sentence-by-sentence register
+de-archaizing pass over ch01-ch08 that STYLE.local.md specifies but that a
+single session could not finish exhaustively. Per chapter, apply: kill every
+inversion and fronted object (zero survivors), retire the antique function-word
+set, allow contractions in narration (about a third), give dialogue and the
+2007-2013 interviewees full modern speech, compress rhetorical ceremony, break
+the source's long topic-comment sentences (main verb inside the first ~20 words,
+any appositive over ~15 words its own sentence), de-nominalize "the [gerund] of"
+into finite verbs, collapse doublets to the stronger word, cut the 即/也就是
+pivots, un-quote fragment-quilted sources, front-load attributions before a
+tense or person shift, and thin "and the rest / and the others."
 
-Deliver the built EPUB attached in the chat, and paste the Batch 10 kickoff
+Do it ONE chapter at a time, ch01 first (it is the frozen register reference and
+the most-read). For each: read the chapter, apply the rules through
+edits/<id>_edits.md via scripts/apply_edits.py (or targeted edits), keep the
+one-paragraph-per-source-line parity, and preserve every note and figure anchor
+(the builder refuses to build on an unmatched anchor; when you change an anchor
+phrase, update it in notes.json / figures.json in the same pass). Read the zh
+against the en on any line you rewrite: change register, never meaning, and
+invent nothing (CLAUDE.md rule 4; verify the tail of every long unit). Rebuild
+and run qa_epub after each chapter; run check_register.py --ref out/ch01_reading.md
+as an informational read only.
+
+When ch01-ch08 read as a finished modern book, draft Chapter Nine (ch09, "The
+Riddle of Xiang Zhongfa's Disappearance," PDF 208-235, printed 193-220) against
+the frozen doc so the back half is congruous from the first draft: chi_sim
+--psm 6; crop --left 0.06 --right 0.95 --top 0.11 --bottom 0.955; offset a
+constant 15 (printed = pdf - 15) but read each opener's folio off the scan;
+hand-transcribe data/zh/ch09.txt off the 300-DPI images (OCR is too noisy on the
+proper names); add ch09 to data/content_config.json. Cite printed folios, never
+PDF pages.
+
+Deliver the rebuilt EPUB attached in the chat, and paste the next kickoff
 verbatim in the same reply.
 ```
 
