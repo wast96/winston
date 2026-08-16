@@ -1276,3 +1276,126 @@ commissioner.
 - setup.sh regression "hook stands down on template stub" still FAILS benignly
   (HANDOFF holds a real kickoff); all other checker regression tests green. PaddleOCR
   absent (expected); used scripts/ocr_dual.py.
+
+## Batch B10 -- Chapter 9 (第九章 "抢救运动" / "The Rescue Campaign"), whole chapter + Principal Sources
+
+Chapter 9 is COMPLETE. The book's most contested chapter: how the hunt for agents,
+riding the Rectification, broadened into a purge (审干 -> 抢救运动) that swept up the
+innocent -- 逼供信 ("coerce, confess, believe"), "agents as thick as hemp," Kang
+Sheng's central role, the fabricated "Red-Flag Party," and Mao's apology. Eight
+sections: the "case-cracking in step with the campaign" timeline; the "old-case"
+suspects and the Shandong/Huxi anti-Trotskyist purge; the "four great agents" and
+the Southern Committee wreck; the April 1943 mass arrests; Kang Sheng's "Rescue the
+Fallen" speech and the torture catalogue; Mao's apology and the screening; the "Liu
+Qiao'er"/Ma Xiwu counterpoint; and "go to the front and draw your own conclusions,"
+closing by likening the campaign to the Cultural Revolution. 368 English body
+paragraphs (1:1 parity).
+
+### Pipeline run (reused, not re-measured)
+- render 305 342 --dpi 300; ocr_crop 305 342 (recto/odd [0.07,0.86], verso/even
+  [0.17,0.94], top 0.045, bottom 0.93, chi_sim psm6, running-head stripped);
+  ocr_dual 305 342; indents 305 342. tesseract idle 0 after each (pgrep -c = 0).
+- assemble ch09 305 342 --offset 36 --blank-assist = 330 body paragraphs (boundary
+  cross-check only); scripts/resegment_ch09.py is AUTHORITATIVE (368 body, 11
+  headings), a hardcoded hand-verified ('h'|'b') item list read off every page
+  image (pp. 305-342 all read by eye, cross-checked vs psm6 + ocr_dual psm4). The
+  +38 gap is the usual: assemble merges the many one-line PUNCH paragraphs (this
+  chapter is punch-heavy -- the "analyze the agent" set-pieces, the slogan quotes)
+  and the short Principal-Sources entries.
+- resegment_ch09.py ALSO rebuilds data/pagemap/ch09.json (38 folios, printed
+  269-306) from a hand-recorded PAGE_STARTS list, because assemble's pagemap is
+  keyed to its 330-paragraph segmentation (drifts against the 368 reading) AND
+  skipped folio 278. The hand pagemap is accurate to the reading file.
+
+### Page-seam method (indents.py is UNRELIABLE on digit-initial lines)
+Every page-break seam settled by eye + logic, NOT by indents.py alone: indents.py
+mis-flagged p306/p318/p328 tops (all digit- or date-initial "1939年.../1943年...")
+as continuations when they are indented new paragraphs. Rule applied: a physically
+indented page top that follows sentence-final 。？！ starts a NEW paragraph; a
+non-indented top, or one whose previous page ended mid-clause (；, a cut word), is a
+continuation.
+
+### Crop-verifications (magnified PIL crops)
+- p318 (printed 282): the Ren Bishi quote prints "这些一是被迫误入歧途的青年" --
+  crop-verified 是 (not 时). "一是" does not parse as a word; an OCR-era/print
+  artifact for 一时 ("for a time"). Rendered to plain sense ("coerced for a time
+  onto the wrong road"). Logged here per the OCR-glitch rule.
+- p310 (printed 274): "还给后三科的女干部带孩子" -- 后三科 confirmed (a Border
+  Security section); rendered "the rear third section."
+- p338 (printed 302): "219个特务中其中165个" -- 219/165 confirmed (Arabic in source).
+- p310/p340: 何圭人 (He Guiren) confirmed via Lin Lifu's document title on p340
+  (《党应为何圭人和方今同志平反昭雪...》); not footnoted as a variant.
+
+### Numbers (verify_unit clean: 368 pairs, 0 unresolved)
+Real quantities carried as digits/words: 五人 -> "five"; 1400多 -> "over 1,400";
+两个 -> "two"; 两千二百多 -> "2,200"; 908, 25, 500多, 219/165, 544/208/752/49/2,
+2475, 60%/30%, 99%, 91万/19块/近一亿 all carried. data/noise.txt += 六 entries
+(numerals inside idioms/designations, each commented): 五花大绑 (5), 一而再、再而三
+(3), 十几万字 (Arabic+万, value in English), 七大 (7, the Seventh Congress
+designation), 百忙之中 (100), 两千二百多 (百 decomposition artifact; value carried),
+野百合花 ("Wild Lily", 百 is part of 百合 "lily", NOT a numeral).
+
+### Apparatus (check_apparatus 0 failures)
+- notes.json: +16 notes (book total 185). Interested-witness counter-records with
+  stated verdicts (fact-checked against Wikipedia / Baidu Baike / Gao Hua's *How the
+  Red Sun Rose* / Dai Qing on Wang Shiwei / the Pan Hannian scholarship -- NEVER
+  Grok/Grokipedia, which appeared in results and was refused per rule 5):
+  the Rescue Campaign (~30,000 swept up; CORROBORATED); Kang Sheng's central role
+  (cross-ref ch02; Cao Yi'ou ran Yan'an county; CORROBORATED); Wang Shiwei
+  (CONTRADICTED: shown alive in 1944, but secretly killed 1 July 1947, rehabilitated
+  Feb 1991); the Huxi purge (CORROBORATED); Kang Sheng's 1938 Chen Duxiu smear; the
+  "Red-Flag Party" fabrication (1981 rehabilitation; CORROBORATED); Pan Hannian's
+  1955 fate (Wang Jingwei charge, rehab 1982; CORROBORATED); Mao's apology
+  (CORROBORATED); plus reader-model glosses (Kawashima Yoshiko, Wang Kemin, the
+  Southern Committee, Dou E / "snow in June," the Comintern dissolution, Jiang
+  Nanxiang, Liu Qiao'er / Feng Zhiqin, Xiong Dazhen).
+- glossary.json: +10 rows (219 total): 抢救运动, 审干, 逼供信, 甄别, 南委, 红旗党,
+  山东肃托, 复兴社, 特务如麻, 老号. REUSED unchanged: 整风, 康生, 潘汉年, 三青团,
+  戴案, 马锡武 (= the judge Ma Xiwu, noted ch07), 边保, 中社部, 保安处, Juntong,
+  Zhongtong. Cross-referenced (not re-noted): Kang Sheng (ch02), Rectification
+  (ch02), 逼供信 (ch01), Xi Zhongxun (ch04), Ma Xiwu / Ma Qingtian (ch07).
+- Loaded terms 特务/汉奸/国特 kept as the author uses them (traitor / agent / secret
+  service); loaded-term note already placed early in the book.
+
+### CONSISTENCY / interested-witness posture
+- The partisan account is rendered faithfully in the TEXT (the campaign's absurd
+  charges, Wang Shiwei "living well" in 1944, Kang Sheng's self-serving 7th-Congress
+  defense), with the counter-record and historians' verdict in the FOOTNOTES. The
+  author is himself markedly critical here -- he pins the blame on Kang Sheng, calls
+  the "analyze the agent" logic "past all imagining," and closes by likening the
+  Rescue Campaign to the Cultural Revolution ("the same leader... the same
+  'strategist,' Kang Sheng"). That verdict is his; rendered as printed.
+- 汉奸 rendered "traitor" throughout (40x, consistent). 边保 = "Border Security" (54x),
+  保安处 standalone = "the Security Office" (15x) -- kept distinct.
+
+### Register (check_register --ref out/ch01_reading.md)
+Within tolerance. contr 1.4/1k (0.66x ref, above the 0.5x floor); em-dash 0.0/1k
+(all appositive-gloss/list dashes converted to colons/commas -- well under the
+~4.5/1k target); shall% 100% is deliberate: both "shall" instances are inside the
+quoted 1941 anti-traitor policy DOCUMENT (an exempt formal register). Conversational
+quoted speech contracted (Li Kenong, Wang Zunji, Mao); documents/directives/slogans/
+oaths kept formal.
+
+### Figures: still DEFERRED (deliberate; commissioner decision pending)
+figures.json still empty. Chapter 9's inline plates catalogued for a later pass:
+Central Party School auditorium (p307); portrait of Lin Lifu (p310); "one of the
+four great agents" Wang Zunji (p314); the Rescue-rally photo (p320); portrait of Yu
+Bingran in Chongqing (p323); facsimile of Mao's "not one to be killed" instruction
+(p325); Shi Zhe in Moscow (p327); portrait of Wang Shiwei (p330); portrait of Yuan
+Jing (p332); a scene from the opera (p333); Li Rui and Hu Sha, each with the author
+(p334); 7th-Congress delegates entering the hall (p337). Standing question (every
+图文 photo, or a curated subset) still for the commissioner.
+
+### Build / environment (B10)
+- EPUB rebuilt: 10 of 14 chapters (ch00-ch09), 185 notes, 244 pagebreaks.
+  out/chinas_secret_war.epub. qa_epub PASS; epubcheck 0/0/0/0.
+- ch09 carries printed-page (folio) markers (resegment rebuilds the pagemap,
+  printed 269-306). ch01 zh parity 269/299 and ch03 folio markers still open
+  (corrections-pass tasks; no note cites a ch03 folio).
+- Branch consolidation: session started on stray per-task branch
+  claude/ch09-rescue-campaign-wl9tnm (identical to origin/claude/chinas-secret-war
+  at b1bfd45); reset local canonical to origin, deleted the stray (local + stale
+  remote-tracking ref pruned). All work on claude/chinas-secret-war.
+- setup.sh regression "hook stands down on template stub" still FAILS benignly
+  (HANDOFF holds a real kickoff); all other checker regression tests green. PaddleOCR
+  absent (expected); used scripts/ocr_dual.py.

@@ -1233,5 +1233,65 @@
     "pinyin": "Qian Yimin",
     "status": "decided",
     "note": "Investigation expert of the General Political Department&#8217;s Anti-Traitor Department, one of Yan&#8217;an&#8217;s &#8220;three great investigation experts.&#8221;"
+  },
+  "抢救运动": {
+    "en": "the Rescue Campaign",
+    "pinyin": "qiangjiu yundong",
+    "status": "decided",
+    "note": "The coercive spy-hunt of 1943 into which the Yan&#8217;an Rectification&#8217;s cadre-screening phase escalated; the euphemism &#8220;rescue&#8221; cast the purge as saving misled youths from espionage."
+  },
+  "审干": {
+    "en": "cadre vetting",
+    "pinyin": "shengan",
+    "status": "decided",
+    "note": "Short for &#23457;&#26597;&#24178;&#37096;, the vetting of cadres&#8217; political histories; the phase of the Rectification that shaded into the Rescue Campaign."
+  },
+  "逼供信": {
+    "en": "coerce, confess, believe",
+    "pinyin": "bigongxin",
+    "status": "decided",
+    "note": "Mao&#8217;s three-word name for the purge method: coerce a confession, let the confession run wild, and believe it. First glossed at Chapter 1."
+  },
+  "甄别": {
+    "en": "screening",
+    "pinyin": "zhenbie",
+    "status": "decided",
+    "note": "The corrective phase from late 1943 in which the campaign&#8217;s cases were re-examined and most detainees cleared."
+  },
+  "南委": {
+    "en": "the Southern Committee",
+    "pinyin": "Nanwei",
+    "status": "decided",
+    "note": "The Communists&#8217; Southern Work Committee, under the Southern Bureau, responsible for the underground in the southeast and south; wrecked by Zhongtong in 1942."
+  },
+  "红旗党": {
+    "en": "the Red-Flag Party",
+    "pinyin": "hongqi dang",
+    "status": "decided",
+    "note": "The fabricated charge that an underground CCP organization was a Nationalist front &#8220;flying the red flag to oppose the red flag.&#8221;"
+  },
+  "山东肃托": {
+    "en": "the Shandong anti-Trotskyist purge",
+    "pinyin": "Shandong sutuo",
+    "status": "decided",
+    "note": "The anti-Trotskyist purge that swept the Shandong base area from 1939, of which the Huxi killings were the worst."
+  },
+  "复兴社": {
+    "en": "the Fuxingshe",
+    "pinyin": "Fuxingshe",
+    "status": "decided",
+    "note": "The &#8220;Renaissance Society&#8221; or &#8220;Blue Shirts,&#8221; a Chiang-loyalist inner grouping of the Nationalist Party out of which Juntong grew."
+  },
+  "特务如麻": {
+    "en": "agents as thick as hemp",
+    "pinyin": "tewu ru ma",
+    "status": "decided",
+    "note": "Kang Sheng&#8217;s image for the campaign&#8217;s hysteria: agents supposedly so numerous they were &#8220;thick as hemp.&#8221;"
+  },
+  "老号": {
+    "en": "the old cases",
+    "pinyin": "laohao",
+    "status": "decided",
+    "note": "The Border Security detainees held before the &#8220;Dai case&#8221; broke, mostly men merely suspected of being agents."
   }
 }

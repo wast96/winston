@@ -187,3 +187,17 @@
 势不两立
 # 五台 Wutai (place, one of the 18 special-investigation-group sites), 五=5 in place name
 五台
+# 五花大绑 (to truss a man up hand and foot, an interrogation method), 五=5 in the idiom; rendered "trussing a man up"
+五花大绑
+# 一而再、再而三 (again and again), 一/再/三 inside the idiom; rendered "again and again"
+一而再、再而三
+# 十几万字 ("a hundred thousand-odd characters"), Arabic-plus-万 the reader can't recombine; value carried in English words
+十几万字
+# 七大 = the CCP's Seventh National Congress (1945), 七=7 in the fixed designation; rendered "Seventh Congress"
+七大
+# 百忙之中 ("in the rush of it all", the idiom 百忙), 百=100 inside the idiom
+百忙之中
+# 两千二百多 ("more than 2,200 cadres"), value carried in English as "2,200"; noise the literal to drop the 百 decomposition artifact (二百 -> spurious 100)
+两千二百多
+# 野百合花 = "Wild Lily" (Wang Shiwei's 1942 essay title); 百 is part of 百合 "lily", not a numeral
+野百合花
