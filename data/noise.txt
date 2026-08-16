@@ -181,3 +181,45 @@
 百里
 # "the 1950s" (decade label) — rendered "the 1950s"
 50年代
+# "the 1980s" (20世纪80年代, decade label) — rendered "the 1980s"
+20世纪80年代
+# 十字路口 = "crossroads" (lit. ten-character road-mouth), 十 not a count
+十字路口
+# 十二时许 = "around noon" (twelve o'clock), a time of day not a tally
+十二时许
+# 千里眼 = "clairvoyant eyes" (Mao's phrase for radio), 千 idiomatic
+千里眼
+# 四成里 = Sichengli, the lane of the second training class — a place name
+四成里
+# 四盛里 = Sichengli (Shen Bao's spelling of the same lane) — a place name
+四盛里
+# 万国公墓 = the International Cemetery (万国 = "ten thousand nations"), not a count
+万国
+# 万汐烛 = Wan (OCR of the KMT 13th-division commander's name), 万 a surname
+万汐烛
+# 情报万能 = "intelligence is all-powerful" (万能 omnipotent), idiom not a count
+万能
+# 百般折磨 = "tortured in every way" (百般), idiom not a count
+百般
+# 百色 = Bose, the Guangxi town of the 1929 uprising — a place name
+百色
+# 两位先生 = "you two gentlemen" (polite address), not a stressed tally
+两位先生
+# 零件 = "spare parts" (零 not a zero) — a common noun
+零件
+# 感慨万端 = "filled with feeling" (万端 = "a thousand emotions"), idiom
+感慨万端
+# 成千上万 = "tens of thousands" (千/万 idiom), not a tally
+成千上万
+# 第三国际 = the Third International (the Comintern), a proper name
+第三国际
+# 二房东 = "sub-landlord" (lit. second landlord), a lease tier not a count
+二房东
+# 三房客 = "third-tier tenant" (lit. third lodger), a lease tier not a count
+三房客
+# 百货公司 = "department store" (百货 = hundred goods), not a count
+百货公司
+# 打零工 = "do odd jobs" (零工), 零 not a zero
+零工
+# 7元5角 = "seven dollars fifty cents" (a medical fee), currency subunits
+7元5角

@@ -4422,6 +4422,96 @@
    "right": "2月1日",
    "page": "f301",
    "note": "工=1"
+  },
+  {
+   "wrong": "无线电政委当文彬",
+   "right": "无线电政委冯文彬",
+   "page": "f315",
+   "note": "冯 OCR'd 当"
+  },
+  {
+   "wrong": "由于王将了解",
+   "right": "由于王诤了解",
+   "page": "f315",
+   "note": "王诤 name garble"
+  },
+  {
+   "wrong": "王净",
+   "right": "王诤",
+   "page": "f311-315",
+   "note": "王诤 name garble"
+  },
+  {
+   "wrong": "职页泄转,人名十,当时中央和月坪条仁和劳在其他部门",
+   "right": "职责范围,但是,当时中央有特殊任务在其他部门",
+   "page": "f290",
+   "note": "OCR garble region restored from scan"
+  },
+  {
+   "wrong": "9就这样,在无线电设备",
+   "right": "就这样,在无线电设备",
+   "page": "f295",
+   "note": "stray footnote-marker digit"
+  },
+  {
+   "wrong": "把它前六了",
+   "right": "把它毁坏了",
+   "page": "f312",
+   "note": "OCR garble (拆毁)"
+  },
+  {
+   "wrong": "311法利用电台",
+   "right": "法利用电台",
+   "page": "f311",
+   "note": "folio 311 leaked into body"
+  },
+  {
+   "wrong": "QRC?7",
+   "right": "QRC?",
+   "page": "f313",
+   "note": "stray digit after Q-code"
+  },
+  {
+   "wrong": "2中央苏区第三次",
+   "right": "中央苏区第三次",
+   "page": "f315",
+   "note": "stray footnote-marker digit"
+  },
+  {
+   "wrong": "20节纪",
+   "right": "20世纪",
+   "page": "f319",
+   "note": "节=世"
+  },
+  {
+   "wrong": "埋头苦二,在我",
+   "right": "埋头苦干,在我",
+   "page": "f302",
+   "note": "二=干"
+  },
+  {
+   "wrong": "伍云十事后回忆",
+   "right": "伍云甫事后回忆",
+   "page": "f302",
+   "note": "十=甫 (name)"
+  },
+  {
+   "wrong": "闸二同志本来比我更怕热",
+   "right": "曾三同志本来比我更怕热",
+   "page": "f304",
+   "note": "闸二=曾三 (name)"
+  },
+  {
+   "wrong": "一般工三的后门",
+   "right": "一般工厂的后门",
+   "page": "f308",
+   "note": "三=厂"
+  },
+  {
+   "wrong": "六上二团",
+   "right": "六十二团",
+   "page": "f291",
+   "note": "上=十 (62nd Regiment)"
   }
  ],
  "ch18": [
@@ -4466,6 +4556,60 @@
    "right": "有恒路一号",
    "page": "f321",
    "note": "OCR garble"
+  },
+  {
+   "wrong": "内外棉纱三",
+   "right": "内外棉纱厂",
+   "page": "f320",
+   "note": "纱三=纱厂"
+  },
+  {
+   "wrong": "9顾顺章被捕产变后",
+   "right": "顾顺章被捕产变后",
+   "page": "f322",
+   "note": "stray footnote digit"
+  },
+  {
+   "wrong": "绝密文件4(兵工",
+   "right": "绝密文件《兵工",
+   "page": "f323",
+   "note": "4=《 title bracket"
+  },
+  {
+   "wrong": "的车合成十,后来",
+   "right": "的革命战士,后来",
+   "page": "f325",
+   "note": "OCR garble 革命战士"
+  },
+  {
+   "wrong": "党外人十了",
+   "right": "党外人士了",
+   "page": "f325",
+   "note": "十=士"
+  },
+  {
+   "wrong": "花了S$00多块",
+   "right": "花了500多块",
+   "page": "f335",
+   "note": "S$00=500"
+  },
+  {
+   "wrong": "恒在纱三打零工",
+   "right": "恒丰纱厂打零工",
+   "page": "f337",
+   "note": "恒丰纱厂 garble"
+  },
+  {
+   "wrong": "国主义者四惧",
+   "right": "国主义者畏惧",
+   "page": "f338",
+   "note": "四=畏"
+  },
+  {
+   "wrong": "湖南纱三",
+   "right": "湖南纱厂",
+   "page": "f320",
+   "note": "纱三=纱厂"
   }
  ]
 }

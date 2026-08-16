@@ -105,6 +105,16 @@ RESTORE = {
     349: [("假履历\n尽管制定了这些规定", "假履历表交待。\n尽管制定了这些规定")],
     # ch17s02: OCR dropped the period ending "...划时代意义的革命。" (printed p.298).
     342: [("划时代意义的革命", "划时代意义的革命。")],
+    # ch17s04: the Shen Bao clip closes "...归案迅办。" but OCR read the period as 、,
+    # so the surgery snap welded the clip's tail onto the next paragraph (p.309).
+    353: [("归案迅办、", "归案迅办。")],
+    # ch18s04: OCR read the period after "...高超的机务技术。" as a dash, and dropped
+    # the period after "(前文已经讲过)。" -- both defeat the surgery snap (p.340).
+    384: [("高超的机务技术-", "高超的机务技术。"),
+          ("前文已经讲\n过)", "前文已经讲\n过)。")],
+    # ch18s04: the ① after "...表示感谢。" OCR'd as 9, dropping the period and
+    # welding the Wei Chaopeng thanks onto the next paragraph (printed p.343).
+    387: [("表示感谢9", "表示感谢。")],
 }
 
 
