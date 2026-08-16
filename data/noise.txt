@@ -99,3 +99,19 @@
 一九三〇
 # 零乱 "scattered / disordered" — a compound, the 零 is not a quantity
 零乱
+# 一〇七师 the 107th Division — a military unit designation (crop-verified); rendered "107th Division", but 一〇七 misparses to 10+7
+一〇七
+# 七尺(汉子) "a seven-foot man" — an idiom for a grown man; rendered "tall soldier", the 七 is not a measure
+七尺
+# 七贤庄 Qixianzhuang — a place name (the Eighth Route Army's Xi'an office); the 七 is not a quantity
+七贤庄
+# 一打二拉 "strike with one hand, pull with the other" — an idiom for Wang Ming's manner; rendered as the idiom, no count
+一打二拉
+# 立三路线 the "Li Lisan line" — a political-line label named for Li Lisan; the 三 is not a quantity
+立三路线
+# 120万党员 1.2 million Party members — checker splits arabic 120 + 万; rendered "1.2 million"
+120万
+# 近100万军队 close to a million troops — checker splits arabic 100 + 万; rendered "close to a million"
+100万
+# 近1亿人口 nearly a hundred million people — checker splits arabic 1 + 亿; rendered "nearly a hundred million"
+1亿

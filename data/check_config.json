@@ -1,6 +1,6 @@
 {
-  "docs": {"ch01": "out/ch01_reading.md", "ch02": "out/ch02_reading.md"},
-  "sources": {"ch01": "data/zh/ch01.txt", "ch02": "data/zh/ch02.txt"},
+  "docs": {"ch01": "out/ch01_reading.md", "ch02": "out/ch02_reading.md", "ch03": "out/ch03_reading.md"},
+  "sources": {"ch01": "data/zh/ch01.txt", "ch02": "data/zh/ch02.txt", "ch03": "data/zh/ch03.txt"},
   "notes": "notes.json",
   "variants": {}
 }

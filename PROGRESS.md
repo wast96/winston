@@ -2,6 +2,97 @@
 
 The running per-batch log. Written as work happens, not at the end.
 
+## Batch 4. Chapter 3 "From Enemy-Occupied Territory Back to Yan'an" (ch03; PDF 93–115, printed 82–104)
+
+Whole chapter in one file: out/ch03_reading.md + data/zh/ch03.txt, three "###"
+section headings from book.json. `ch03` mapped in data/check_config.json (docs +
+sources). Because data/zh is gitignored and ch01/ch02 zh are gone on a fresh
+checkout, the structural checks were scoped with data/check_config.ch03.json
+(ch03 only); build/qa/epubcheck/register run on the whole cumulative EPUB.
+
+### Content
+- Section 1 (西安事变隐蔽战线高奏凯歌, PDF 94): the Xi'an Incident on the hidden
+  front — Gao Fuyuan won over in captivity, Li Kenong's Luochuan talks with Zhang
+  Xueliang and Wang Yizhe, Zhou Enlai's Yan'an meeting with Zhang, Wang Feng and
+  Wang Shiying opening the channel to Yang Hucheng, and Chen Yangshan's Xi'an
+  intelligence station (1936–40, cover name Chen Mingjun, via Song Qiyun).
+- Section 2 (回到延安，整风学习为作战, PDF 103): the wallet-loss ruse escaping
+  Xi'an, Chen at the Central Social Affairs Department under Kang Sheng, Zhang
+  Suzhen's Party membership and nurseries, the Rectification at the Central Party
+  School, Chen as Seventh-Branch secretary vetting cadres (Jiang Qing and Ye Qun
+  among them), delegate to the "Seventh Congress," and Guan Fushan's recollection.
+- Section 3 (三问康生，战友鲜血同志泪, PDF 110): the killing of four ex-Special
+  Branch cadres (Wu Hujing, Xiao Shouhuang, Ouyang Xin, He Changzhi) in the Soviet
+  purge, Chen's three questions to Kang Sheng, Kang's Yan'an "Rescue Movement" and
+  Mao's counter-directives, and Chen's 1979 and 1988 letters exposing Kang.
+
+### Paragraph structure (125 body paras: S1=40, S2=40, S3=45)
+- Quoted documents/recollections set off with `{v}` (18 lines): Guan Fushan's
+  3-para recollection; Mao's anti-traitor directive; Chen's two letters (the
+  1979 exposé, 5 paras; and the appended 1988 letter to the Central Organization
+  Department, title + salutation + body + closing). "附:" -> "Appended:" is a plain
+  paragraph separating the two letter blocks. The 致/敬礼 closing merged to one
+  line ("With respectful regards,") in both zh and en.
+
+### OCR / silent-loss (crop-verified this batch)
+- Same crop as ch01/ch02 (do-not-revert): --lang chi_sim --psm 6 --left 0.045
+  --right 0.985 --top 0.08, running-head "秘战英雄陈养山", recto (PDF even)
+  --bottom 0.945 / verso (PDF odd) --bottom 0.915, run per-page.
+- **DROPPED TAIL restored:** PDF 94 mid-page "尖锐起来。" (the 4-char final line of
+  the 张学良–蒋介石 paragraph) was silently dropped by tesseract; restored from the
+  scan. Every page bottom verified; no other drops.
+- **Crop-verified name corrections** (OCR wrong -> scan-correct): 戚元德 Qi Yuande
+  (not 威), 塞先佛 Sai Xianfo (not 寒; base 土, flagged provisional), 劳山 Laoshan
+  (not 序山), 瓦窑堡 Wayaobao, 彭德怀 Peng Dehuai, 李克农 Li Kenong, 阎揆要 Yan
+  Kuiyao, 建宇 Jianyu (not 建字), 鄜县 Fu County.
+- **Source inconsistency (rendered + footnoted):** PDF 94 prints 宗绮云 (Zong) at
+  first mention; PDF 99 and the photo caption print 宋绮云 (Song Qiyun, the
+  attested martyr). Rendered "Song Qiyun" throughout, variant noted.
+
+### Figures (5; every page eyeballed)
+- p0096-f1 Yang Hucheng portrait; p0098-f1 the Maoling group photo (Zhang/Yang/
+  Chiang, Oct 1936); p0099-f1 Song Qiyun portrait; p0101-f1 Chen with family
+  (1938); p0107-f1 the Seventh Congress hall. Captions translated into
+  figures.json (alt uses single quotes only). Chapter-opener photo on PDF 93
+  SKIPPED (per ch01/ch02). find_figures matched the plates; none are line art.
+- **Source typo in a caption:** the Maoling caption prints 汉开帝墓; Maoling is the
+  tomb of Emperor Wu of Han (汉武帝), rendered correctly in the translated caption.
+
+### Fact-checks carried in the notes (interested-witness discipline)
+- **Seventh Congress date:** source says 1943 (prep meeting and congress); the
+  Seventh Congress in fact met 23 Apr–11 Jun 1945. Rendered as printed; footnoted
+  that Mao's own "24-year course" (1921+24) and the 1.2M-member figure both point
+  to 1945.
+- **Kang Sheng's culpability:** the deaths of the four cadres in the 1937–38
+  Soviet purge are well attested; how far Kang personally engineered particular
+  cases rests on post-1980 testimony — said so in the note. Kang expelled
+  posthumously 1980, ashes removed from Babaoshan.
+- Loaded partisan voice (section 3) rendered faithfully; verdicts in the notes.
+
+### Apparatus
+- **62 footnotes** (book-wide 265), high density per the standing directive:
+  glossed every non-obvious person/place/institution/event at first appearance,
+  cross-referenced (not re-noted) figures already covered in ch01/ch02 (Chiang
+  Kai-shek, the Central Special Branch, Whampoa, Zhou Enlai, Mao Zedong, He Long,
+  Li Kenong, Kang Sheng, Pan Hannian, Li Lisan, the Long March, April 12 coup).
+- **+100 glossary rows** (326 referents total): all decided pinyin except 塞先佛
+  provisional. Reused decided forms (He Long, Zhou Enlai, Chiang Kai-shek, Kang
+  Sheng, Li Kenong, Liu Ding, Mao Zedong, Wang Shiying, Chen Kehan, Luo Qingchang,
+  Pan Hannian, Zhang Suzhen, Li Yimang). authority.json confirmed Zhang Xueliang,
+  Hu Zongnan, He Long. NOT re-noted (already placed): the recurring figures above.
+
+### Checks (all green)
+- parity 125=125; verify_unit numbers 0 unresolved; check_content 340 name
+  occurrences, 0 displaced; check_align OK (median 4.55 en/han, no stray);
+  qc_entities 0 misses (census: 陈养山×69, 康生×63, 西安×51 …); check_apparatus
+  0/0; check_register --ref ch01 within tolerance (em-dash 0.0/1k; dialogue-light,
+  judged on narratorial signals).
+- data/noise.txt extended: 一〇七 (107th Div numeral misparse), 七尺 (seven-foot
+  idiom), 七贤庄 (Qixianzhuang), 一打二拉 (Wang-Ming idiom), 立三路线 (line label),
+  120万 / 100万 / 1亿 (arabic+万/亿 magnitude splits, carried in English prose).
+  The 四人 count (母子四人) was carried in English ("four in all"), not noised.
+- Build: qa_epub PASS (265 refs/bodies/backlinks); **epubcheck 5.1.0 = 0/0/0.**
+
 ## Batch 3. Chapter 2, sections 4–5 (ch02s04–s05; PDF 69–92, printed 58–81)
 
 The Red Squad's assassinations (Luo Yinong's informers He Jiaxing, the enemy

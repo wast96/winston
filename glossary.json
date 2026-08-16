@@ -825,6 +825,385 @@
       "pinyin": "Sun Zhongshan",
       "status": "attested",
       "note": "The founder of the Kuomintang and of the Whampoa Military Academy; conventional English form retained."
+    },
+    "张学良": {
+      "en": "Zhang Xueliang",
+      "pinyin": "Zhang Xueliang",
+      "status": "decided"
+    },
+    "杨虎城": {
+      "en": "Yang Hucheng",
+      "pinyin": "Yang Hucheng",
+      "status": "decided"
+    },
+    "宋绮云": {
+      "en": "Song Qiyun",
+      "pinyin": "Song Qiyun",
+      "status": "decided",
+      "note": "Source prints 宗绮云 (Zong) at first mention; 宋绮云 (Song) is the attested form."
+    },
+    "高福源": {
+      "en": "Gao Fuyuan",
+      "pinyin": "Gao Fuyuan",
+      "status": "decided"
+    },
+    "王以哲": {
+      "en": "Wang Yizhe",
+      "pinyin": "Wang Yizhe",
+      "status": "decided"
+    },
+    "彭德怀": {
+      "en": "Peng Dehuai",
+      "pinyin": "Peng Dehuai",
+      "status": "decided"
+    },
+    "汪锋": {
+      "en": "Wang Feng",
+      "pinyin": "Wang Feng",
+      "status": "decided"
+    },
+    "南汉宸": {
+      "en": "Nan Hanchen",
+      "pinyin": "Nan Hanchen",
+      "status": "decided"
+    },
+    "杜斌丞": {
+      "en": "Du Binchen",
+      "pinyin": "Du Binchen",
+      "status": "decided"
+    },
+    "赵寿山": {
+      "en": "Zhao Shoushan",
+      "pinyin": "Zhao Shoushan",
+      "status": "decided"
+    },
+    "孔从周": {
+      "en": "Kong Congzhou",
+      "pinyin": "Kong Congzhou",
+      "status": "decided"
+    },
+    "申伯纯": {
+      "en": "Shen Bochun",
+      "pinyin": "Shen Bochun",
+      "status": "decided"
+    },
+    "冯钦哉": {
+      "en": "Feng Qinzai",
+      "pinyin": "Feng Qinzai",
+      "status": "decided"
+    },
+    "阎揆要": {
+      "en": "Yan Kuiyao",
+      "pinyin": "Yan Kuiyao",
+      "status": "decided"
+    },
+    "吴奚如": {
+      "en": "Wu Xiru",
+      "pinyin": "Wu Xiru",
+      "status": "decided"
+    },
+    "丁玲": {
+      "en": "Ding Ling",
+      "pinyin": "Ding Ling",
+      "status": "decided"
+    },
+    "徐平羽": {
+      "en": "Xu Pingyu",
+      "pinyin": "Xu Pingyu",
+      "status": "decided"
+    },
+    "陈泊": {
+      "en": "Chen Bo",
+      "pinyin": "Chen Bo",
+      "status": "decided",
+      "note": "Cover name Bulu (布鲁)."
+    },
+    "胡宗南": {
+      "en": "Hu Zongnan",
+      "pinyin": "Hu Zongnan",
+      "status": "decided"
+    },
+    "吴德峰": {
+      "en": "Wu Defeng",
+      "pinyin": "Wu Defeng",
+      "status": "decided"
+    },
+    "戚元德": {
+      "en": "Qi Yuande",
+      "pinyin": "Qi Yuande",
+      "status": "decided"
+    },
+    "陶诗泳": {
+      "en": "Tao Shiyong",
+      "pinyin": "Tao Shiyong",
+      "status": "decided"
+    },
+    "塞先佛": {
+      "en": "Sai Xianfo",
+      "pinyin": "Sai Xianfo",
+      "status": "provisional",
+      "note": "Crop-verified 塞 (base 土); an uncommon surname."
+    },
+    "程子平": {
+      "en": "Cheng Ziping",
+      "pinyin": "Cheng Ziping",
+      "status": "decided"
+    },
+    "于忠友": {
+      "en": "Yu Zhongyou",
+      "pinyin": "Yu Zhongyou",
+      "status": "decided"
+    },
+    "肖福贤": {
+      "en": "Xiao Fuxian",
+      "pinyin": "Xiao Fuxian",
+      "status": "decided"
+    },
+    "陈鸣钧": {
+      "en": "Chen Mingjun",
+      "pinyin": "Chen Mingjun",
+      "status": "decided",
+      "note": "Chen Yangshan's cover name at the Xi'an station."
+    },
+    "宣侠父": {
+      "en": "Xuan Xiafu",
+      "pinyin": "Xuan Xiafu",
+      "status": "decided"
+    },
+    "徐彬如": {
+      "en": "Xu Binru",
+      "pinyin": "Xu Binru",
+      "status": "decided"
+    },
+    "蒋自明": {
+      "en": "Jiang Ziming",
+      "pinyin": "Jiang Ziming",
+      "status": "decided"
+    },
+    "李敷仁": {
+      "en": "Li Furen",
+      "pinyin": "Li Furen",
+      "status": "decided"
+    },
+    "高崇民": {
+      "en": "Gao Chongmin",
+      "pinyin": "Gao Chongmin",
+      "status": "decided"
+    },
+    "杨明轩": {
+      "en": "Yang Mingxuan",
+      "pinyin": "Yang Mingxuan",
+      "status": "decided"
+    },
+    "韩卓如": {
+      "en": "Han Zhuoru",
+      "pinyin": "Han Zhuoru",
+      "status": "decided"
+    },
+    "车向忱": {
+      "en": "Che Xiangchen",
+      "pinyin": "Che Xiangchen",
+      "status": "decided"
+    },
+    "许忠权": {
+      "en": "Xu Zhongquan",
+      "pinyin": "Xu Zhongquan",
+      "status": "decided"
+    },
+    "丘金": {
+      "en": "Qiu Jin",
+      "pinyin": "Qiu Jin",
+      "status": "decided",
+      "note": "A Yan'an cadre; not the martyr 秋瑾 of the same romanization."
+    },
+    "邓颖超": {
+      "en": "Deng Yingchao",
+      "pinyin": "Deng Yingchao",
+      "status": "decided"
+    },
+    "震宇": {
+      "en": "Zhenyu",
+      "pinyin": "Zhenyu",
+      "status": "decided",
+      "note": "Chen Yangshan's younger son, Chen Zhenyu."
+    },
+    "宋时轮": {
+      "en": "Song Shilun",
+      "pinyin": "Song Shilun",
+      "status": "decided"
+    },
+    "王鹤寿": {
+      "en": "Wang Heshou",
+      "pinyin": "Wang Heshou",
+      "status": "decided"
+    },
+    "向仲华": {
+      "en": "Xiang Zhonghua",
+      "pinyin": "Xiang Zhonghua",
+      "status": "decided"
+    },
+    "雷任民": {
+      "en": "Lei Renmin",
+      "pinyin": "Lei Renmin",
+      "status": "decided"
+    },
+    "付雨田": {
+      "en": "Fu Yutian",
+      "pinyin": "Fu Yutian",
+      "status": "decided"
+    },
+    "贾政": {
+      "en": "Jia Zheng",
+      "pinyin": "Jia Zheng",
+      "status": "decided"
+    },
+    "高朗山": {
+      "en": "Gao Langshan",
+      "pinyin": "Gao Langshan",
+      "status": "decided"
+    },
+    "白向银": {
+      "en": "Bai Xiangyin",
+      "pinyin": "Bai Xiangyin",
+      "status": "decided"
+    },
+    "李国华": {
+      "en": "Li Guohua",
+      "pinyin": "Li Guohua",
+      "status": "decided"
+    },
+    "王实味": {
+      "en": "Wang Shiwei",
+      "pinyin": "Wang Shiwei",
+      "status": "decided"
+    },
+    "范式人": {
+      "en": "Fan Shiren",
+      "pinyin": "Fan Shiren",
+      "status": "decided"
+    },
+    "林一心": {
+      "en": "Lin Yixin",
+      "pinyin": "Lin Yixin",
+      "status": "decided"
+    },
+    "莫文骅": {
+      "en": "Mo Wenhua",
+      "pinyin": "Mo Wenhua",
+      "status": "decided"
+    },
+    "曾志": {
+      "en": "Zeng Zhi",
+      "pinyin": "Zeng Zhi",
+      "status": "decided"
+    },
+    "康克清": {
+      "en": "Kang Keqing",
+      "pinyin": "Kang Keqing",
+      "status": "decided"
+    },
+    "江青": {
+      "en": "Jiang Qing",
+      "pinyin": "Jiang Qing",
+      "status": "decided"
+    },
+    "叶群": {
+      "en": "Ye Qun",
+      "pinyin": "Ye Qun",
+      "status": "decided"
+    },
+    "彭真": {
+      "en": "Peng Zhen",
+      "pinyin": "Peng Zhen",
+      "status": "decided"
+    },
+    "朱德": {
+      "en": "Zhu De",
+      "pinyin": "Zhu De",
+      "status": "decided"
+    },
+    "刘少奇": {
+      "en": "Liu Shaoqi",
+      "pinyin": "Liu Shaoqi",
+      "status": "decided"
+    },
+    "林伯渠": {
+      "en": "Lin Boqu",
+      "pinyin": "Lin Boqu",
+      "status": "decided"
+    },
+    "冈野进": {
+      "en": "Okano Susumu",
+      "pinyin": "Gangyejin",
+      "status": "decided",
+      "note": "The Yan'an alias of Nosaka Sanzo, of the Japanese Communist Party."
+    },
+    "关复山": {
+      "en": "Guan Fushan",
+      "pinyin": "Guan Fushan",
+      "status": "decided"
+    },
+    "陈建宇": {
+      "en": "Chen Jianyu",
+      "pinyin": "Chen Jianyu",
+      "status": "decided",
+      "note": "Chen Yangshan's eldest son, called Jianyu."
+    },
+    "陈国宝": {
+      "en": "Chen Guobao",
+      "pinyin": "Chen Guobao",
+      "status": "decided",
+      "note": "Chen Yangshan's grandson."
+    },
+    "袁任远": {
+      "en": "Yuan Renyuan",
+      "pinyin": "Yuan Renyuan",
+      "status": "decided"
+    },
+    "王明": {
+      "en": "Wang Ming",
+      "pinyin": "Wang Ming",
+      "status": "decided",
+      "note": "Chen Shaoyu; leader of the returned-students faction."
+    },
+    "萧寿煌": {
+      "en": "Xiao Shouhuang",
+      "pinyin": "Xiao Shouhuang",
+      "status": "decided"
+    },
+    "贺昌之": {
+      "en": "He Changzhi",
+      "pinyin": "He Changzhi",
+      "status": "decided"
+    },
+    "武胡景": {
+      "en": "Wu Hujing",
+      "pinyin": "Wu Hujing",
+      "status": "decided",
+      "note": "Also known as Wu Huairang (武怀让)."
+    },
+    "侯志": {
+      "en": "Hou Zhi",
+      "pinyin": "Hou Zhi",
+      "status": "decided",
+      "note": "Wu Hujing's wife."
+    },
+    "苏枚": {
+      "en": "Su Mei",
+      "pinyin": "Su Mei",
+      "status": "decided",
+      "note": "A sister of Kang Sheng's wife Cao Yi'ou."
+    },
+    "林彪": {
+      "en": "Lin Biao",
+      "pinyin": "Lin Biao",
+      "status": "decided"
+    },
+    "基洛夫": {
+      "en": "Kirov",
+      "pinyin": "Jiluofu",
+      "status": "decided",
+      "note": "Sergei Kirov, the Leningrad Party leader assassinated in 1934."
     }
   },
   "organizations": {
@@ -1039,6 +1418,78 @@
       "pinyin": "Shanghai Linshi Zhongyangju",
       "status": "decided",
       "note": "The Party's provisional leading organ in Shanghai in the mid-1930s, after the main leadership moved to the soviet areas."
+    },
+    "东北军": {
+      "en": "the Northeastern Army",
+      "pinyin": "Dongbei jun",
+      "status": "decided"
+    },
+    "十七路军": {
+      "en": "the Seventeenth Route Army",
+      "pinyin": "Shiqi Lujun",
+      "status": "decided"
+    },
+    "西北军": {
+      "en": "the Northwestern Army",
+      "pinyin": "Xibei jun",
+      "status": "decided"
+    },
+    "抗日同志会": {
+      "en": "the Anti-Japanese Comrades' Association",
+      "pinyin": "Kang-Ri Tongzhi Hui",
+      "status": "decided"
+    },
+    "文化周刊": {
+      "en": "the Cultural Weekly",
+      "pinyin": "Wenhua Zhoukan",
+      "status": "decided"
+    },
+    "红中通讯社": {
+      "en": "the Red China News Agency",
+      "pinyin": "Hongse Zhonghua Tongxunshe",
+      "status": "decided",
+      "note": "Forerunner of the New China (Xinhua) News Agency."
+    },
+    "新华社": {
+      "en": "Xinhua",
+      "pinyin": "Xinhua",
+      "status": "decided"
+    },
+    "中央社会部": {
+      "en": "the Central Social Affairs Department",
+      "pinyin": "Zhongyang Shehui Bu",
+      "status": "decided"
+    },
+    "中央党校": {
+      "en": "the Central Party School",
+      "pinyin": "Zhongyang Dangxiao",
+      "status": "decided"
+    },
+    "三青团": {
+      "en": "the Three People's Principles Youth Corps",
+      "pinyin": "Sanqingtuan",
+      "status": "decided"
+    },
+    "共产国际": {
+      "en": "the Communist International",
+      "pinyin": "Gongchan Guoji",
+      "status": "decided",
+      "note": "The Comintern."
+    },
+    "晋绥军区": {
+      "en": "the Jin-Sui Military Region",
+      "pinyin": "Jin-Sui Junqu",
+      "status": "decided"
+    },
+    "中央情报部": {
+      "en": "the Central Intelligence Department",
+      "pinyin": "Zhongyang Qingbao Bu",
+      "status": "decided"
+    },
+    "国家安全部": {
+      "en": "the Ministry of State Security",
+      "pinyin": "Guojia Anquan Bu",
+      "status": "decided"
     }
   },
   "places": {
@@ -1204,6 +1655,46 @@
       "pinyin": "Pudong",
       "status": "attested",
       "note": "The east bank of the Huangpu River at Shanghai."
+    },
+    "华清池": {
+      "en": "the Huaqing Pool",
+      "pinyin": "Huaqing Chi",
+      "status": "decided"
+    },
+    "临潼": {
+      "en": "Lintong",
+      "pinyin": "Lintong",
+      "status": "decided"
+    },
+    "洛川": {
+      "en": "Luochuan",
+      "pinyin": "Luochuan",
+      "status": "decided"
+    },
+    "瓦窑堡": {
+      "en": "Wayaobao",
+      "pinyin": "Wayaobao",
+      "status": "decided"
+    },
+    "陕甘宁边区": {
+      "en": "the Shaan-Gan-Ning Border Region",
+      "pinyin": "Shaan-Gan-Ning Bianqu",
+      "status": "decided"
+    },
+    "枣园": {
+      "en": "Zaoyuan",
+      "pinyin": "Zaoyuan",
+      "status": "decided"
+    },
+    "宝鸡": {
+      "en": "Baoji",
+      "pinyin": "Baoji",
+      "status": "decided"
+    },
+    "七贤庄": {
+      "en": "Qixianzhuang",
+      "pinyin": "Qixianzhuang",
+      "status": "decided"
     }
   },
   "events": {
@@ -1275,6 +1766,32 @@
       "pinyin": "kang-Ri jiuwang yundong",
       "status": "decided",
       "note": "The mass movement for resistance to Japan that rose in the mid-1930s."
+    },
+    "西安事变": {
+      "en": "the Xi'an Incident",
+      "pinyin": "Xi'an Shibian",
+      "status": "decided"
+    },
+    "卢沟桥事变": {
+      "en": "the Lugou Bridge Incident",
+      "pinyin": "Lugouqiao Shibian",
+      "status": "decided",
+      "note": "The Marco Polo Bridge Incident, 7 July 1937."
+    },
+    "整风运动": {
+      "en": "the Rectification Movement",
+      "pinyin": "Zhengfeng Yundong",
+      "status": "decided"
+    },
+    "文化大革命": {
+      "en": "the Great Cultural Revolution",
+      "pinyin": "Wenhua Da Geming",
+      "status": "decided"
+    },
+    "八一宣言": {
+      "en": "the August First Declaration",
+      "pinyin": "Ba-Yi Xuanyan",
+      "status": "decided"
     }
   },
   "terms": {
