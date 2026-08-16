@@ -144,6 +144,20 @@ clean with nothing to blue-pencil.)
 - **CHECK.** Run qc_entities every unit; a "not found in English" on a term (not
   a person) usually means a decided rendering was silently overridden.
 
+### RULE. Render the author's source-criticism as running skeptical argument in plain English, not a wooden "one source says X, another says Y" catalogue; keep the sources' own wrong words and let the note or his next sentence carry the correction. [#book]
+- **WHY IT HAPPENED (B07).** Ch07 weighs half a dozen memoirs against one
+  another (where the congress met; whether "Fang Lin" was Deng Fa). Traced flat,
+  a chain of 却说 / 也说 / 沿袭 / 凡此种种…都是从…而来 reads as a bibliography, and
+  the author's dry, deductive voice is lost.
+- **FIX.** Keep the connective logic he actually uses ("all of these derive
+  from...," "if X, then Y could hardly have..."), and let the sources keep their
+  own error (the memoirs' &#8220;British Concession&#8221;; the caption's misidentified
+  photo) &#8212; render it as printed, footnote the correction, never launder it into
+  the right answer in his mouth.
+- **CHECK.** Read a source-criticism run aloud: does it move like a person
+  reasoning, or like a footnote pile? Every source's claim stays in that source's
+  words; the verdict lives in the note.
+
 ## Decided renderings (this book's word-level ledger)
 
 - 中央特科 &rarr; **the Central Special Branch** (short handle: the Special Branch).

@@ -244,5 +244,43 @@
       "alt": "A black-and-white interior photograph of a long, decayed prison corridor under a pitched skylight roof, cell doors receding down both sides to a bright vanishing point.",
       "caption": "The Central Military Prison of Nanjing. (The label is the source's; the caption is the translator's. The source notes it ranked with the Capital Prison at Laohuqiao, the Capital Reformatory at Xiaozhuang, and the Ninghai Road Detention House.)"
     }
+  ],
+  "ch07": [
+    {
+      "file": "ch07-li-yimang.png",
+      "before": "Li Weiwei is Li Yimang's daughter.",
+      "alt": "A black-and-white portrait photograph of a young man in profile, wearing a peaked cap and a dark military tunic.",
+      "caption": "Li Yimang. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch07-prep-office.png",
+      "before": "In the \"depths of memory,\"",
+      "alt": "A worn black-and-white photograph looking up at the arched windows and brick facade of an old three-story Western-style building, laundry hanging from a pole and a bare tree branch in the foreground.",
+      "caption": "The second-floor preparatory office of the National Congress of Soviet Areas, at the former Nos. 690 to 696 Avenue Road (today Beijing West Road), Shanghai. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch07-old-map.png",
+      "before": "The Hart Road of those days is today's Changde Road.",
+      "alt": "A detailed old street map of central Shanghai, its blocks and lanes drawn in fine line, with a few names printed in English including GRAND THEATRE, CARLTON THEATRE, and SINGHANG ROAD.",
+      "caption": "On this old map of Shanghai, the Carlton Theatre lies at the upper right, above Nanjing West Road. (The English labels are the map's own; the caption is the translator's.)"
+    },
+    {
+      "file": "ch07-carlton.png",
+      "before": "In mid-May 1930 the hospital behind the Carlton Theatre",
+      "alt": "A black-and-white street photograph of a tall Art Deco cinema, a vertical illuminated sign reading GRAND THEATRE rising above its curved corner facade, with trees and a few carriages at the curb below.",
+      "caption": "The Carlton Theatre. (The label is the source's; the caption is the translator's. The photograph in fact shows the vertical sign of the Grand Theatre.)"
+    },
+    {
+      "file": "ch07-liu-ding.png",
+      "before": "Liu Ding—originally named Kan Sijun",
+      "alt": "A black-and-white portrait photograph of a middle-aged man with a broad forehead and calm expression, wearing a dark buttoned tunic.",
+      "caption": "Liu Ding. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch07-dingling-huyepin.png",
+      "before": "Jiang Zulin, the son of Hu Yepin and Ding Ling",
+      "alt": "A black-and-white photograph of a young couple posed close together, a short-haired young woman in a checked jacket in front and a young man in a dark jacket behind her.",
+      "caption": "Ding Ling and Hu Yepin, husband and wife. (The label is the source's; the caption is the translator's.)"
+    }
   ]
 }

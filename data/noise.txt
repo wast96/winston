@@ -185,3 +185,27 @@
 # the '4-12' (April 12 1927 Shanghai coup) — rendered "the '4-12'"/April 12;
 #   四一二 concatenates to 412, so the compressed form is noise
 四一二
+#
+# --- B07 (ch07) additions ---
+# 一九三○ Ding Ling's title year "Shanghai, Spring 1930" — arabic (1930) carries it
+一九三○
+# 三三五五 "in threes and fives" (idiom) — 三/五 not a count
+三三五五
+# 四郊 "the surrounding suburbs" — 四 is not a count (four-directions idiom)
+四郊
+# 八秩 "eightieth (birthday)" (八秩寿辰) — rendered "eightieth"; 秩=decade
+八秩
+# 千言万语 "countless words" (idiom) — English carries "ten thousand words"
+千言万语
+# 瘪三 biesan (street urchin) — 三 is part of the word, not a count
+瘪三
+# 两回事 "another matter entirely" (那是两回事) — 两 is not a count
+两回事
+# 牌九 pai gow (gambling tiles) — 九 is part of the game's name
+牌九
+# 两白银 tael-of-silver unit (60两白银) — 两 is the unit; the count (60) is kept
+两白银
+# 几十两 "several dozen taels" — 两 is the unit; 几十 is not an exact quantity
+几十两
+# 零食 "snacks" — 零 is part of the word, not a zero
+零食

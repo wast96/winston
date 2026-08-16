@@ -663,3 +663,114 @@ to end. 56 body paragraphs.
   Zhou Enlai and Liming = Gu Shunzhang's alias (ch04/ch05); shikumen and
   tingzijian (ch01/ch03); the Sincere Company (ch01); the concession police and
   patrolmen (ch04/ch05); silver dollars and the concessions generally.
+
+## B07 = Chapter Seven "大隐隐于市 / The Great Hermit Hides in the City" (ch07)
+
+- **Scope.** PDF 150-171 (printed 135-156). Seven sections ch07s01-s07, 22
+  pages. The chapter divider (p0150) is design furniture (washed-out full-bleed
+  illustration + the section list), not a captioned figure. Body runs PDF
+  151-171; p0159 (printed 144) is a FULL-PAGE old street map (a figure, caption
+  only, no body text).
+- **Offset held constant 15** (printed = pdf - 15). Folios read off the scan at
+  every opener (137 on p0152, 139 p0154, ... 156 p0171); no plate drift.
+- **Source.** data/zh/ch07.txt hand-transcribed from the scans, one paragraph
+  per line, chapter title and section heads as ###. 99 paragraphs. All quoted
+  matter (the Ding Ling and Mao Dun literary passages, and the Zhang Wenqiu /
+  Li Yimang / Hong Yangsheng / Yi Hui / Xiao Ke / Ding Ling / Xia Yan memoirs)
+  is inline quotation, no {v} blocks this chapter. Inline source citations
+  render (Author, YEAR): (Li Yimang, 2001), (Zhang Wenqiu, 2002), (Lin Chengxi
+  and Xu Rongsheng, 1996), (Yi Hui, 2002), (Xiao Ke, 1997), (People's
+  Government of Meilong Township, Shanghai County, Shanghai, 1986).
+- **Crop-verified names/numbers** (dual-OCR disagreement + by-eye magnified
+  crops): 邹志淑 Zou Zhishu and her school 庄史高级中学 / 新塍读书会; the
+  Southeast Hubei delegate roll 吴梓民, 曹大全, 易金波, 方步舟, 余海侠（徐泽）;
+  钱泓 / 高崇民 / 高大会 / 艾思奇 / 李昕东 (Nanshagou children); 阚思俊 (Liu
+  Ding's real name); the address numerals 690至696号, 张家宅36号 vs 36弄, 210所,
+  第68号 / 第八十一号通告, 近15000字, 50万元, 10万大洋, 60两白银.
+- **Character of this chapter.** It is source-CRITICISM-heavy: the author weighs
+  half a dozen memoirs against one another over where the congress met (the
+  "British Concession"/Hart Road claims vs Li Yimang's Park/Burkill Road), and
+  over whether "Fang Lin" was Deng Fa. Kept his dry, skeptical edge; the
+  martyrdom set-piece (Zhao Yiman's farewell letter to "Ning'er") kept at full
+  temperature per the interested-witness rule.
+- **Global correction (cascaded): 卡德路 = Carter Road, not "Cardan Road."**
+  The glossary and ch04 carried "Cardan Road"; verified against scholarship
+  (卡德路 = Carter Road, today Shimen No. 2 Road). Fixed glossary.json and the
+  two occurrences in out/ch04_reading.md; ch04 rebuilt in the cumulative EPUB.
+  Logged in CHANGELOG.md.
+- **Source-internal date discrepancy rendered as printed and footnoted:** the
+  author narrates the congress on May 5-7, 1930 (section 6-7) but quotes Zhang
+  Wenqiu's May 20 (section 2); the accepted scholarly date is May 20-23, 1930.
+  Rendered as printed each place; a note at "May 5, 1930" states the conflict.
+- **Caption/photo discrepancy (kept, noted):** the p0161 photo captioned
+  卡尔登大戏院 (Carlton Theatre) in fact shows the vertical GRAND THEATRE sign.
+  Source caption rendered faithfully; the figure caption and alt note that the
+  photo shows the Grand's sign. Not the translator's identification.
+- **Figures (6).** ch07-li-yimang (p154 portrait), ch07-prep-office (p155
+  building), ch07-old-map (p159 full-page street map, CARLTON THEATRE label
+  visible upper right), ch07-carlton (p161 theatre photo), ch07-liu-ding (p162
+  portrait), ch07-dingling-huyepin (p167 couple). Printed captions excluded from
+  each crop; captions are the translator's, labels the source's, stated in each.
+  find_figures would miss the line-art map; hand-cropped.
+- **Checks (all green).** parity 99 = 99; numbers 0 unresolved (--noise, with a
+  B07 block added: 一九三○, 三三五五, 四郊, 八秩, 千言万语, 瘪三, 两回事, 牌九,
+  两白银, 几十两, 零食 — each strips a source numeral with no cardinal quantity);
+  qc_entities 0 misses; check_align median 4.67 en/han, no pair beyond 2.2x;
+  check_content 264 name occurrences all in the paired paragraph, no
+  displacement (ch07 added to data/content_config.json); anchors 20/20 resolve;
+  check_apparatus 0/0; qa_epub PASS (275 notes total); epubcheck 0 fatals /
+  0 errors / 0 warnings; check_style_freshness all layers FRESH.
+- **Register vs frozen ch01.** em-dash 9.0/1k (ref 8.2), rhythm CV 0.63 (ref
+  0.67), sent median 25 — all within tolerance. The dialogue-contraction metric
+  reads 0.0/1k and the tool prints "STILTED," but this chapter is almost
+  entirely quoted memoir and quoted literary documents (exempt registers that
+  keep their form); the dialogue metric is QUIET here and is not itself drift
+  (per references/register-drift.md). Judged on the narratorial signals, which
+  are on-reference. Two natural contractions added to the one genuinely
+  colloquial exchange (Liu Bocheng).
+- **20 footnotes.** The congress (identity + dating), Ding Ling's ×× censorship,
+  Ding Ling, Xiong Shihui, Zhang Wenqiu/Sorge/Mao in-law, Deng Fa (the source
+  verdict), the spear-and-shield (Han Feizi) and great-hermit allusions, the
+  "British Concession" misnomer, "seventy-two tenants," Zhao Yiman, the Mauser,
+  the two concession Municipal Councils, the Li Lisan line, Red May, the
+  sickle-and-axe flag, Ozaki Hotsumi, the May 5/May 20 dating, the Lord
+  Guan/Kongming allusions, and Rou Shi & Feng Keng (Left League martyrs).
+  Density tapering as expected (ch01 115 → ch06 28 → ch07 20).
+- **NOT re-noted (already placed earlier) — cross-referenced, not re-noted:**
+  the Comintern / Communist International (ch01-04); the Whampoa Military
+  Academy (ch01); April 12th / the White Terror (ch02/ch06); the Internationale
+  (ch04); the League of Left-Wing Writers as an organ (ch01/ch06); the
+  Racecourse (ch05); Bubbling Well Road (ch03); Mao Dun and Midnight (ch01);
+  Qu Qiubai (ch01-03); the Central Special Branch / Red Squad; Zhou Enlai,
+  Gu Shunzhang, Chen Geng, Li Lisan the man, Xiang Zhongfa; silver dollars,
+  taels, and the concessions generally.
+
+### Renderings settled this batch (also in glossary.json)
+- People (new): 熊式辉 Xiong Shihui, 李薇薇 Li Weiwei, 李一氓 Li Yimang, 张文秋
+  Zhang Wenqiu, 林育南 Lin Yunan, 邓发 Deng Fa (方林 Fang Lin his queried alias),
+  刘鼎 Liu Ding (阚思俊 Kan Sijun), 易辉 Yi Hui, 洪扬生 Hong Yangsheng, 邹志淑
+  Zou Zhishu (邹志英), 宋再生 Song Zaisheng (宋启荣), 蒋伯器 Jiang Boqi, 何长工
+  He Changgong, 滕代远 Teng Daiyuan, 萧克 Xiao Ke, 熊寿祺 Xiong Shouqi, 胡也频
+  Hu Yepin, 柔石 Rou Shi, 冯铿 Feng Keng, 丁玲 Ding Ling, 茅盾 Mao Dun, 尾崎秀实
+  Ozaki Hotsumi, 左尔格 Sorge, 赵一曼 Zhao Yiman (李一超 Li Yichao / 李坤泰 Li
+  Kuntai), 宁儿 Ning'er, 宋保苏 Song Baosu, 吴国麟 Wu Guolin, 钱壮飞 Qian
+  Zhuangfei, 赵毅敏 Zhao Yimin, 刘思齐 Liu Siqi (松林 Songlin), 邵华 Shaohua.
+- Concession geography: 卡尔登大戏院 = the Carlton Theatre (today Changjiang
+  Theatre); 白克路 = Burkill Road (Fengyang Road); 派克路 = Park Road (Huanghe
+  Road); 卡德路 = Carter Road (Shimen No. 2 Road, corrected); 爱文义路 = Avenue
+  Road (Beijing West Road, reused); 赫德路 = Hart Road (Changde Road, reused);
+  麦特赫斯脱路 = Medhurst Road (Taixing Road); 静安寺路 = Bubbling Well Road
+  (reused); 静安寺 = Jing'an Temple; 跑马厅 = the Racecourse; 洋泾浜 = the
+  Yangjingbang; 苏州河 = Suzhou Creek; 黄浦江 = the Huangpu River; 虹口 =
+  Hongkou; 乍浦路 = Zhapu Road; 张家宅 = Zhangjiazhai; 南沙沟 = Nanshagou.
+- Organizations: 中华全国总工会 = the All-China Federation of Trade Unions;
+  中国左翼作家联盟 = the League of Left-Wing Writers (the "Left League"); 工部局
+  = the Municipal Council; 公董局 = the French Municipal Council; 保定军官学校 =
+  the Baoding Military Academy; 同盟会 = the Tongmenghui. Event names left OUT of
+  the entity-checked glossary to avoid false displacement flags: 全国苏维埃区域
+  代表大会 = the National Congress of Soviet Areas (short handle "the Congress"),
+  苏准会 = the "Prep Committee," 苏维埃工农兵代表会议 = the soviet congress of
+  workers, peasants, and soldiers.
+- Terms: 驳壳枪 = Mauser (the "box cannon"); 镰刀斧头旗 = the sickle-and-axe flag;
+  长衫 long gown, 马褂 riding jacket, 旗袍 qipao; 戥子 native/foreign scales;
+  瘪三 biesan (glossed "street urchin" inline).
