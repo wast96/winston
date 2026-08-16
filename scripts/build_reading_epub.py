@@ -111,6 +111,10 @@ table.errata { border-collapse: collapse; margin: 1.2em 0; font-size: 0.9em; }
 table.errata th, table.errata td { border: 1px solid #bbb; padding: 0.25em 0.55em; text-align: left; vertical-align: top; }
 table.errata th { background: #f0f0f0; font-weight: bold; }
 table.errata td.hz { font-size: 1.05em; }
+table.gaz { border-collapse: collapse; margin: 1.2em 0; font-size: 0.92em; }
+table.gaz th, table.gaz td { border: 1px solid #bbb; padding: 0.3em 0.7em; text-align: left; vertical-align: top; }
+table.gaz th { background: #f0f0f0; font-weight: bold; }
+table.gaz td.hz { font-size: 1.05em; }
 .colophon { text-align: center; margin-top: 2em; }
 .colophon .notice { border: 2px solid #444; display: inline-block; padding: 0.4em 1.6em; margin: 1em 0; font-size: 1.3em; letter-spacing: 0.3em; }
 .colophon p { text-indent: 0; }
@@ -787,6 +791,88 @@ def render_colophon(bm):
            "date_en": esc(c.get("date_en", ""))})
 
 
+def _walk_flagged(gloss, flag):
+    """Yield (zh_key, record) for every glossary row that has `flag` set true,
+    in any section, so a curated back-matter page can pull a cross-section
+    subset (recurring terms, gazetteer streets) without hard-coding sections."""
+    out = []
+
+    def walk(d):
+        for k, v in d.items():
+            if k.startswith("_"):
+                continue
+            if isinstance(v, dict) and "en" in v:
+                if v.get(flag):
+                    out.append((k, v))
+            elif isinstance(v, dict):
+                walk(v)
+    walk(gloss)
+    return out
+
+
+def render_recurring(gloss):
+    """Back-matter "Glossary of Recurring Terms" -- the institutional and
+    material-culture furniture that recurs across the book (the Special Branch,
+    the Zhongtong, shikumen, the White areas ...). Each is glossed ONCE in the
+    text, at its first appearance, and this page carries the rest, so a reader
+    who meets the term again three chapters later has somewhere to look without
+    a repeated footnote. Rows are flagged "recurring": true in glossary.json.
+    Returns None when nothing is flagged, and the page simply does not exist."""
+    rows = _walk_flagged(gloss, "recurring")
+    if not rows:
+        return None
+    rows.sort(key=lambda kv: (kv[1].get("pinyin") or kv[1]["en"]).lower())
+    parts = [
+        "<h1>Glossary of Recurring Terms</h1>",
+        '<p class="note">A handful of institutions, places, and everyday things '
+        'run through the whole book. Each is explained once, in a note at its '
+        'first appearance; this page gathers them for reference, so a term met '
+        'again later needs no second note. Names of people are in the full '
+        'glossary that follows.</p>',
+        '<dl class="gloss">']
+    for zh, rec in rows:
+        note = rec.get("note") or ""
+        pinyin = rec.get("pinyin", "")
+        # pinyin is shown only when it adds something over the English headword
+        pin = ""
+        if pinyin and html.unescape(pinyin).lower() != html.unescape(
+                rec["en"]).lower():
+            pin = " (%s)" % esc(html.unescape(pinyin))
+        parts.append('<dt>%s <span lang="%s">%s</span></dt><dd>%s%s</dd>'
+                     % (esc(html.unescape(rec["en"])), SRC_LANG, esc(zh),
+                        pin, (" " + note) if note else ""))
+    parts.append("</dl>")
+    return "\n".join(parts)
+
+
+def render_gazetteer(gloss):
+    """Back-matter street gazetteer: the concession-era street names, each
+    mapped to today's name. The concession streets keep their French/English
+    period names in the body (Avenue Joffre, Route Voisin), glossed once; this
+    table is the standing key, so the modern-name parenthetical need not repeat
+    every time a street recurs. Rows are places flagged "gazetteer": true with
+    a "today" field. Returns None when nothing is flagged."""
+    rows = _walk_flagged(gloss, "gazetteer")
+    if not rows:
+        return None
+    rows.sort(key=lambda kv: (kv[1].get("pinyin") or kv[1]["en"]).lower())
+    trs = []
+    for zh, rec in rows:
+        today = rec.get("today") or "&#8212;"
+        trs.append('<tr><td>%s</td><td class="hz" lang="%s">%s</td><td>%s</td></tr>'
+                   % (esc(html.unescape(rec["en"])), SRC_LANG, esc(zh),
+                      esc(html.unescape(today)) if today != "&#8212;" else today))
+    return (
+        '<h1>Street Gazetteer</h1>'
+        '<p class="note">Shanghai\'s foreign-concession streets are given in the '
+        'text by their period names, French or English, as the book and its '
+        'sources use them. This table gives each one today\'s name, for a reader '
+        'who wants to place the events on a modern map. Streets already known by '
+        'a Chinese name in the period keep it.</p>'
+        '<table class="gaz"><tr><th>Period name</th><th>Then</th>'
+        '<th>Today</th></tr>%s</table>' % "".join(trs))
+
+
 def translator_note(meta, n_chapters):
     """The translator's note.
 
@@ -1052,6 +1138,18 @@ def main(epub_path):
           + render_glossary(gloss),
           "Translator's Note and Glossary")
 
+    # Two curated back-matter references, each rendered only when its data
+    # exists: the recurring-terms glossary (rows flagged "recurring") and the
+    # street gazetteer (places flagged "gazetteer" with a "today" name).
+    recurring_page = render_recurring(gloss)
+    if recurring_page:
+        write(os.path.join(oebps, "terms.xhtml"), recurring_page,
+              "Glossary of Recurring Terms")
+    gazetteer_page = render_gazetteer(gloss)
+    if gazetteer_page:
+        write(os.path.join(oebps, "gazetteer.xhtml"), gazetteer_page,
+              "Street Gazetteer")
+
     back_matter = load_json("back_matter.json", {})
     have_backmatter = bool(back_matter.get("errata_rows") or
                            back_matter.get("colophon"))
@@ -1076,6 +1174,10 @@ def main(epub_path):
     docs += [(c["id"] + ".xhtml", c["title_en"]) for c in structure]
     docs += [("notes.xhtml", "Notes"),
              ("backmatter.xhtml", "Translator's Note and Glossary")]
+    if recurring_page:
+        docs += [("terms.xhtml", "Glossary of Recurring Terms")]
+    if gazetteer_page:
+        docs += [("gazetteer.xhtml", "Street Gazetteer")]
     if have_backmatter:
         docs += [("errata.xhtml", "Errata"), ("colophon.xhtml", "Colophon")]
 
@@ -1124,6 +1226,12 @@ def main(epub_path):
     nav_items += ['<li><a href="notes.xhtml">Notes</a></li>',
                   '<li><a href="backmatter.xhtml">Translator\'s Note and '
                   'Glossary</a></li>']
+    if recurring_page:
+        nav_items.append('<li><a href="terms.xhtml">Glossary of Recurring '
+                         'Terms</a></li>')
+    if gazetteer_page:
+        nav_items.append('<li><a href="gazetteer.xhtml">Street '
+                         'Gazetteer</a></li>')
     if have_backmatter:
         nav_items += ['<li><a href="errata.xhtml">Errata</a></li>',
                       '<li><a href="colophon.xhtml">Colophon</a></li>']

@@ -2042,13 +2042,15 @@
       "en": "the Central Special Branch",
       "pinyin": "Zhongyang Teke",
       "status": "attested",
-      "note": "The CCP's first intelligence and security service (1927–1935), Shanghai. English form per Wikipedia."
+      "note": "The CCP's first intelligence and security service (1927–1935), Shanghai. English form per Wikipedia.",
+      "recurring": true
     },
     "红队": {
       "en": "the Red Squad",
       "pinyin": "hongdui",
       "status": "attested",
-      "note": "The Special Branch's Action (Third) Section, its assassination unit; also \"the dog-beating squad.\""
+      "note": "The Special Branch's Action (Third) Section, its assassination unit; also \"the dog-beating squad.\"",
+      "recurring": true
     },
     "国民党": {
       "en": "the Kuomintang",
@@ -2089,7 +2091,8 @@
       "en": "the Green and Red Gangs",
       "pinyin": "the Green and Red Gangs",
       "status": "attested",
-      "note": "The two great Shanghai secret societies."
+      "note": "The two great Shanghai secret societies.",
+      "recurring": true
     },
     "布尔塞维克": {
       "en": "Bolshevik",
@@ -2101,7 +2104,8 @@
       "en": "the Zhongtong",
       "pinyin": "Zhongtong",
       "status": "decided",
-      "note": "Shorthand for the Kuomintang’s civilian intelligence service (in full, from 1938, the Central Bureau of Investigation and Statistics), grown out of the Central Organization Department’s Investigation Section."
+      "note": "Shorthand for the Kuomintang’s civilian intelligence service (in full, from 1938, the Central Bureau of Investigation and Statistics), grown out of the Central Organization Department’s Investigation Section.",
+      "recurring": true
     },
     "调查科": {
       "en": "the Investigation Section",
@@ -2210,7 +2214,8 @@
       "en": "the Party Affairs Investigation Section",
       "pinyin": "the Party Affairs Investigation Section",
       "status": "attested",
-      "note": "KMT Central Organization Dept. section, forerunner of the Zhongtong."
+      "note": "KMT Central Organization Dept. section, forerunner of the Zhongtong.",
+      "recurring": true
     },
     "伏龙芝军事通讯联络学校": {
       "en": "the Frunze Military Communications School",
@@ -2263,13 +2268,15 @@
       "en": "the Municipal Council",
       "pinyin": "the Municipal Council",
       "status": "attested",
-      "note": "The Shanghai Municipal Council, government of the International Settlement."
+      "note": "The Shanghai Municipal Council, government of the International Settlement.",
+      "recurring": true
     },
     "公董局": {
       "en": "the French Municipal Council",
       "pinyin": "the French Municipal Council",
       "status": "attested",
-      "note": "Conseil d’administration municipale, government of the French Concession."
+      "note": "Conseil d’administration municipale, government of the French Concession.",
+      "recurring": true
     },
     "保定军官学校": {
       "en": "the Baoding Military Academy",
@@ -2323,13 +2330,17 @@
       "en": "Rue Bourgeat",
       "pinyin": "Rue Bourgeat",
       "status": "attested",
-      "note": "A street of the French Concession, today's Changle Road."
+      "note": "A street of the French Concession, today's Changle Road.",
+      "gazetteer": true,
+      "today": "Changle Road"
     },
     "静安寺路": {
       "en": "Bubbling Well Road",
       "pinyin": "Bubbling Well Road",
       "status": "attested",
-      "note": "A main Settlement road past Jing'an Temple, today's Nanjing West Road."
+      "note": "A main Settlement road past Jing'an Temple, today's Nanjing West Road.",
+      "gazetteer": true,
+      "today": "Nanjing West Road"
     },
     "四川开江": {
       "en": "Kaijiang in Sichuan",
@@ -2352,7 +2363,9 @@
       "en": "Avenue Joffre",
       "pinyin": "Avenue Joffre",
       "status": "attested",
-      "note": "The great French Concession boulevard (today Huaihai Middle Road); the \"Avenue Joffre\" of the chapter title."
+      "note": "The great French Concession boulevard (today Huaihai Middle Road); the \"Avenue Joffre\" of the chapter title.",
+      "gazetteer": true,
+      "today": "Huaihai Middle Road"
     },
     "枫林桥": {
       "en": "Fenglin Bridge",
@@ -2376,25 +2389,33 @@
       "en": "Carter Road",
       "pinyin": "Carter Road",
       "status": "attested",
-      "note": "International Settlement street (today Shimen No. 2 Road)."
+      "note": "International Settlement street (today Shimen No. 2 Road).",
+      "gazetteer": true,
+      "today": "Shimen No. 2 Road"
     },
     "爱文义路": {
       "en": "Avenue Road",
       "pinyin": "Avenue Road",
       "status": "attested",
-      "note": "International Settlement street (today Beijing West Road)."
+      "note": "International Settlement street (today Beijing West Road).",
+      "gazetteer": true,
+      "today": "Beijing West Road"
     },
     "戈登路": {
       "en": "Gordon Road",
       "pinyin": "Gordon Road",
       "status": "attested",
-      "note": "Shanghai street (today Jiangning Road)."
+      "note": "Shanghai street (today Jiangning Road).",
+      "gazetteer": true,
+      "today": "Jiangning Road"
     },
     "西摩路": {
       "en": "Seymour Road",
       "pinyin": "Seymour Road",
       "status": "attested",
-      "note": "Shanghai street (today Shaanxi North Road)."
+      "note": "Shanghai street (today Shaanxi North Road).",
+      "gazetteer": true,
+      "today": "Shaanxi North Road"
     },
     "嵩山路": {
       "en": "Songshan Road",
@@ -2448,13 +2469,17 @@
       "en": "Rue Ratard",
       "pinyin": "Rue Ratard",
       "status": "attested",
-      "note": "French Concession; today Julu Road."
+      "note": "French Concession; today Julu Road.",
+      "gazetteer": true,
+      "today": "Julu Road"
     },
     "西门路": {
       "en": "Ximen Road",
       "pinyin": "Ximen Road",
       "status": "attested",
-      "note": "French Concession street; today Zizhong Road."
+      "note": "French Concession street; today Zizhong Road.",
+      "gazetteer": true,
+      "today": "Zizhong Road"
     },
     "慎成里": {
       "en": "Shenchengli",
@@ -2478,19 +2503,24 @@
       "en": "Zhu Baosan Road",
       "pinyin": "Zhu Baosan Road",
       "status": "attested",
-      "note": "Shanghai; today Xikou Road."
+      "note": "Shanghai; today Xikou Road.",
+      "gazetteer": true,
+      "today": "Xikou Road"
     },
     "马斯南路": {
       "en": "Rue Massenet",
       "pinyin": "Rue Massenet",
       "status": "attested",
-      "note": "French Concession; today Sinan Road, site of the 1946 Zhou Residence."
+      "note": "French Concession; today Sinan Road, site of the 1946 Zhou Residence.",
+      "gazetteer": true,
+      "today": "Sinan Road"
     },
     "跑马厅": {
       "en": "the Racecourse",
       "pinyin": "paomating",
       "status": "attested",
-      "note": "The Shanghai Race Club grounds; today People's Park and Square."
+      "note": "The Shanghai Race Club grounds; today People's Park and Square.",
+      "recurring": true
     },
     "湖南会馆": {
       "en": "Hunan Guild Hall",
@@ -2526,19 +2556,25 @@
       "en": "Route Cardinal Mercier",
       "pinyin": "Route Cardinal Mercier",
       "status": "attested",
-      "note": "Today Maoming South Road."
+      "note": "Today Maoming South Road.",
+      "gazetteer": true,
+      "today": "Maoming South Road"
     },
     "亚尔培路": {
       "en": "Avenue du Roi Albert",
       "pinyin": "Avenue du Roi Albert",
       "status": "attested",
-      "note": "Today Shaanxi South Road."
+      "note": "Today Shaanxi South Road.",
+      "gazetteer": true,
+      "today": "Shaanxi South Road"
     },
     "极司非而路": {
       "en": "Jessfield Road",
       "pinyin": "Jessfield Road",
       "status": "attested",
-      "note": "Today Wanhangdu Road."
+      "note": "Today Wanhangdu Road.",
+      "gazetteer": true,
+      "today": "Wanhangdu Road"
     },
     "万航渡路": {
       "en": "Wanhangdu Road",
@@ -2550,43 +2586,57 @@
       "en": "Great Western Road",
       "pinyin": "Great Western Road",
       "status": "attested",
-      "note": "Later Zhongzheng West Road, today Yan’an West Road."
+      "note": "Later Zhongzheng West Road, today Yan’an West Road.",
+      "gazetteer": true,
+      "today": "Yan'an West Road"
     },
     "福煦路": {
       "en": "Avenue Foch",
       "pinyin": "Avenue Foch",
       "status": "attested",
-      "note": "Today Yan’an Middle Road."
+      "note": "Today Yan’an Middle Road.",
+      "gazetteer": true,
+      "today": "Yan'an Middle Road"
     },
     "有恒路": {
       "en": "Youheng Road",
       "pinyin": "Youheng Road",
       "status": "attested",
-      "note": "Today Yuhang Road, in Hongkou."
+      "note": "Today Yuhang Road, in Hongkou.",
+      "gazetteer": true,
+      "today": "Yuhang Road"
     },
     "古拔路": {
       "en": "Route Voisin",
       "pinyin": "Route Voisin",
       "status": "attested",
-      "note": "Today Fumin Road."
+      "note": "Today Fumin Road.",
+      "gazetteer": true,
+      "today": "Fumin Road"
     },
     "赫德路": {
       "en": "Hart Road",
       "pinyin": "Hart Road",
       "status": "attested",
-      "note": "Today Changde Road; the source caption misprints it 郝德路."
+      "note": "Today Changde Road; the source caption misprints it 郝德路.",
+      "gazetteer": true,
+      "today": "Changde Road"
     },
     "康脑脱路": {
       "en": "Connaught Road",
       "pinyin": "Connaught Road",
       "status": "attested",
-      "note": "Today Kangding Road."
+      "note": "Today Kangding Road.",
+      "gazetteer": true,
+      "today": "Kangding Road"
     },
     "三马路": {
       "en": "Sanma Road",
       "pinyin": "Sanma Road",
       "status": "attested",
-      "note": "Third Horse Road, today Hankou Road."
+      "note": "Third Horse Road, today Hankou Road.",
+      "gazetteer": true,
+      "today": "Hankou Road"
     },
     "惠中旅馆": {
       "en": "the Huizhong Hotel",
@@ -2676,13 +2726,17 @@
       "en": "Burkill Road",
       "pinyin": "Burkill Road",
       "status": "attested",
-      "note": "International Settlement street (today Fengyang Road)."
+      "note": "International Settlement street (today Fengyang Road).",
+      "gazetteer": true,
+      "today": "Fengyang Road"
     },
     "派克路": {
       "en": "Park Road",
       "pinyin": "Park Road",
       "status": "attested",
-      "note": "International Settlement street (today Huanghe Road)."
+      "note": "International Settlement street (today Huanghe Road).",
+      "gazetteer": true,
+      "today": "Huanghe Road"
     },
     "常德路": {
       "en": "Changde Road",
@@ -2694,7 +2748,9 @@
       "en": "Medhurst Road",
       "pinyin": "Medhurst Road",
       "status": "attested",
-      "note": "International Settlement street (today Taixing Road)."
+      "note": "International Settlement street (today Taixing Road).",
+      "gazetteer": true,
+      "today": "Taixing Road"
     },
     "张家宅": {
       "en": "Zhangjiazhai",
@@ -2751,31 +2807,36 @@
       "en": "the dog-beating squad",
       "pinyin": "dagou dui",
       "status": "decided",
-      "note": "Special Branch slang for the assassination squad that eliminated traitors; \"beating the dogs\" (dagou)."
+      "note": "Special Branch slang for the assassination squad that eliminated traitors; \"beating the dogs\" (dagou).",
+      "recurring": true
     },
     "亭子间": {
       "en": "tingzijian",
       "pinyin": "tingzijian",
       "status": "decided",
-      "note": "The small, cheap back room over the kitchen stair in a Shanghai lane house; a byword for the poor lodging of writers and radicals."
+      "note": "The small, cheap back room over the kitchen stair in a Shanghai lane house; a byword for the poor lodging of writers and radicals.",
+      "recurring": true
     },
     "二房东": {
       "en": "second landlord",
       "pinyin": "erfangdong",
       "status": "decided",
-      "note": "A middleman who leased a whole dwelling and sublet it in parts."
+      "note": "A middleman who leased a whole dwelling and sublet it in parts.",
+      "recurring": true
     },
     "白色恐怖": {
       "en": "the White Terror",
       "pinyin": "the White Terror",
       "status": "attested",
-      "note": "The Kuomintang's campaign of arrests and executions against Communists from 1927."
+      "note": "The Kuomintang's campaign of arrests and executions against Communists from 1927.",
+      "recurring": true
     },
     "大世界": {
       "en": "the Great World",
       "pinyin": "the Great World",
       "status": "attested",
-      "note": "Shanghai's famous multi-story amusement arcade."
+      "note": "Shanghai's famous multi-story amusement arcade.",
+      "recurring": true
     },
     "哈同花园": {
       "en": "Hardoon Garden",
@@ -2787,7 +2848,8 @@
       "en": "laohuzao",
       "pinyin": "laohuzao",
       "status": "decided",
-      "note": "An old-Shanghai shop selling boiled water, its stove shaped like a crouching tiger."
+      "note": "An old-Shanghai shop selling boiled water, its stove shaped like a crouching tiger.",
+      "recurring": true
     },
     "拆白党": {
       "en": "confidence-man",
@@ -2799,7 +2861,8 @@
       "en": "the Mixed Court",
       "pinyin": "the Mixed Court",
       "status": "attested",
-      "note": "The concession court with mixed foreign and Chinese jurisdiction."
+      "note": "The concession court with mixed foreign and Chinese jurisdiction.",
+      "recurring": true
     },
     "湘绣": {
       "en": "Xiang embroidery",
@@ -2811,13 +2874,15 @@
       "en": "shikumen",
       "pinyin": "shikumen",
       "status": "decided",
-      "note": "The stone-framed-gate lane house typical of old Shanghai."
+      "note": "The stone-framed-gate lane house typical of old Shanghai.",
+      "recurring": true
     },
     "驳壳枪": {
       "en": "Mauser",
       "pinyin": "Mauser",
       "status": "decided",
-      "note": "The Mauser C96 \"box cannon\" pistol, the standard sidearm of the Red Squad."
+      "note": "The Mauser C96 \"box cannon\" pistol, the standard sidearm of the Red Squad.",
+      "recurring": true
     },
     "国际歌": {
       "en": "the Internationale",
@@ -2859,7 +2924,8 @@
       "en": "the ten-li foreign quarter",
       "pinyin": "shili yangchang",
       "status": "decided",
-      "note": "Stock epithet for Shanghai's foreign concessions."
+      "note": "Stock epithet for Shanghai's foreign concessions.",
+      "recurring": true
     },
     "四人帮": {
       "en": "the Gang of Four",
@@ -2883,13 +2949,15 @@
       "en": "three-stripers",
       "pinyin": "three-stripers",
       "status": "decided",
-      "note": "The French Concession police, from the three braids on the sleeve."
+      "note": "The French Concession police, from the three braids on the sleeve.",
+      "recurring": true
     },
     "洋泾浜英文": {
       "en": "pidgin English",
       "pinyin": "pidgin English",
       "status": "decided",
-      "note": "Yangjingbang, the makeshift English of the Shanghai waterfront."
+      "note": "Yangjingbang, the makeshift English of the Shanghai waterfront.",
+      "recurring": true
     },
     "孟尝君": {
       "en": "Lord Mengchang",
