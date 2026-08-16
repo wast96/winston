@@ -2537,6 +2537,54 @@
       "pinyin": "Jì Zhàoxiáng",
       "status": "provisional",
       "note": "A wireless operator of the First Brigade's stay-behind work left in Beiping; he shot himself to resist arrest, one of the few of the stay-behind party whose fate Chen could trace."
+    },
+    "李玉林": {
+      "en": "Li Yulin",
+      "pinyin": "Lǐ Yùlín",
+      "status": "provisional",
+      "note": "Deputy commander of Chen's First Brigade, a fellow East-Hebei man and, in the War of Resistance, chief of staff of the Sixth Route Army of the North China Loyal and Patriotic Army; imprisoned and tortured by the Japanese, he survived and was called 'Fifth Brother' by his fellow prisoners. One of the three 'pillars' of the brigade."
+    },
+    "罗敬": {
+      "en": "Luo Jing",
+      "pinyin": "Luó Jìng",
+      "status": "provisional",
+      "note": "The First Brigade's political director, and the calligrapher who inscribed the covers and title-leaves of all five Nameless Heroes volumes; a Fu Jen University graduate gravely wounded by a bomb-splinter at Chongqing in 1941. A 'pillar' of the brigade."
+    },
+    "侯腾": {
+      "en": "Hou Teng",
+      "pinyin": "Hóu Téng",
+      "status": "provisional",
+      "note": "Courtesy name Feixia; one of the two deputy chiefs of the Second Bureau of the Ministry of National Defense, in Zheng Jiemin's command chain over the Pacification Corps."
+    },
+    "吴安之": {
+      "en": "Wu Anzhi",
+      "pinyin": "Wú Ānzhī",
+      "status": "provisional",
+      "note": "An old Beiping-Tianjin colleague of Chen's, now chief of the police department of the Ping-Han Railway Administration Bureau; he met Chen at Xiyuan airfield on his return."
+    },
+    "马汉三": {
+      "en": "Ma Hansan",
+      "pinyin": "Mǎ Hànsān",
+      "status": "provisional",
+      "note": "Appointed by Dai Li director of the Juntong's Beiping Office after the victory, then Chief of the Bureau of Civil Affairs of the Beiping Municipal Government; his residence was the very Meizha Hutong house of the 1938 Wang Kemin operation."
+    },
+    "张家铨": {
+      "en": "Zhang Jiaquan",
+      "pinyin": "Zhāng Jiāquán",
+      "status": "provisional",
+      "note": "Leader of the 'Cangzhou Section' in the early 1930s, now a major-general and chief of the Second Section of the Beiping Field Headquarters."
+    },
+    "史泓": {
+      "en": "Shi Hong",
+      "pinyin": "Shǐ Hóng",
+      "status": "provisional",
+      "note": "An old directly subordinate courier of the Beiping Station, now a major-general and chief of the Second Section of the North China Bandit Suppression Headquarters."
+    },
+    "陈诚": {
+      "en": "Chen Cheng",
+      "pinyin": "Chén Chéng",
+      "status": "attested",
+      "note": "1898-1965; one of Chiang Kai-shek's most trusted generals and, at this time, Chief of the General Staff (Chen corrects here his fourth volume's misattribution of the post to Bai Chongxi, who was Minister of National Defense)."
     }
   },
   "organizations": {
@@ -2919,6 +2967,18 @@
       "pinyin": "Lìzhì Xùnliàn Bān",
       "status": "attested",
       "note": "The training class at the Central Training Corps in Nanjing through which the cadres of the Pacification Corps were passed; see the note on the Lizhi Plan."
+    },
+    "保密局": {
+      "en": "the Baomiju",
+      "pinyin": "Bǎomìjú",
+      "status": "decided",
+      "note": "In full the Bureau of Secrets (保密局) of the Ministry of National Defense, the postwar successor to the Juntong (Bureau of Investigation and Statistics) after its 1946 reorganization; headed by Mao Renfeng. Chen served it as leader of the Beiping directly subordinate section while commanding the Pacification Corps' First Brigade under the separate Second Bureau."
+    },
+    "人民服务总队": {
+      "en": "the People's Service Corps",
+      "pinyin": "Rénmín Fúwù Zǒngduì",
+      "status": "provisional",
+      "note": "A Ministry of National Defense corps commanded by Liu Peichu in eastern Henan before he was moved to head the Pacification Corps; several of its cadres passed into the Lizhi Class."
     }
   },
   "places": {
@@ -3633,6 +3693,18 @@
       "pinyin": "Lìzhì Jìhuà",
       "status": "decided",
       "note": "The plan under which the Ministry of National Defense raised, trained, and tasked the Pacification Corps; 励志 means to steel the will or better oneself."
+    },
+    "特种部队": {
+      "en": "special-operations unit",
+      "pinyin": "tèzhǒng bùduì",
+      "status": "decided",
+      "note": "The new-pattern special force of the Pacification Corps; the same compound is glossed 'Special Forces' in the chapter that defines it (Part Four, chapter two)."
+    },
+    "特种组织": {
+      "en": "special organization",
+      "pinyin": "tèzhǒng zǔzhī",
+      "status": "decided",
+      "note": "The Leader's term for the older special services he had 'raised with his own hands over twenty years,' the Juntong foremost among them, whose decay he lamented at the opening of the Lizhi Class."
     }
   }
 }

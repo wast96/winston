@@ -3175,3 +3175,72 @@ Suppression Headquarters"/"Pacification Office". Republican years literal (三�
   39/40 = 1946-51; the five brigades / First-Fifth Brigade; 20,000+ (2nd Brigade); ~1,000+ students;
   7 brigades + 3-4 companies; 20+ provinces; 50 vs 100+ per brigade; 4 visits by the Leader; 1-month
   terms; 200+ assault-team men; 40-odd stay-behind men (twice); past-60 veterans; the 平津 railway cut.
+
+## Batch B26 (ch33) — 第一章 振衰起敝 二次出发 "Chapter 1. Reviving the Ailing, a Second Start"
+
+The FIRST Part-Four NARRATIVE chapter (following the ch32 self-preface): Chen returns to Beiping in
+1947 and stands up the First Brigade of the Ministry of National Defense Pacification Corps. Structure
+CONFIRMED by byte-exact p-by-p diff vs the source XHTML: 1 <h2> + 4 <h3> (the section heads 一/二/三/四)
++ 153 <p>, zero mismatches; NO <h1>/<br/>/<img>/[\d+]. drop=2. clean_batch spec: standalone=[10,35,73,112]
+(the four <h3>), merges=[(17,18),(19,20)]. TWO mid-phrase severs: L17/18 inside the quoted 浮生掠影集
+(Liu Peichu memoir), ...你与副厅长张炎元、|侯腾两位同志商量好了; and L19/20 masked by a stray ！ standing
+in for a closing 」 (实际上﹁中央训练团！|对于﹁励志班﹂...). Result 151 body paragraphs, 4 sub-headings,
+source conserved OK. The inner enumerations kept as BODY per parity (三、四岁 / 二十二、三年 / 陈资一、
+周世光 / 第二、三、四部书 / the committee-duties 一、二、三、四 list in one <p>).
+
+### Checks
+- verify_unit ch33: parity 151/151 OK; numbers 151 pairs unresolved 0; anchors 0 (before apparatus).
+- check_align ch33: 151/151, median ratio **5.32 en/han** (HIGH; the chapter is roughly half quoted
+  document: Luo Jing's ~17-paragraph autobiography, Liu Peichu's memoir quotes, Li Yulin's 事略, the
+  Leader's speeches). Alignment OK, no pair strays >2.2x from median. Register is the gate, not the raw
+  ratio.
+- check_register --ref: within tolerance (contr 0.0, em-dash 7.6/1k vs ref 8.3, rhythm CV 0.68 vs 0.60);
+  "shall" 80% flagged informationally = the deliberate narrating shall (Chen's voice sheet).
+- check_structure: parity OK; anchors 300 notes, 0 unresolved; headings OK.
+- check_content: ch33 165 name occurrences, ALL in the paired paragraph, 0 displaced (after aligning
+  西直门/安定门 to the keyed Xizhimen/Andingmen and 冀东冀北 -> "East Hebei and North Hebei"; the
+  pre-existing artifacts ch08/09/13/26 unchanged).
+- qc_entities: 0 misses (after 绥靖 in L118 rendered noun "pacification" not verb "pacify").
+- Tail verified against source (L154-156). qa_epub PASS (57 files, 300 refs/bodies/backlinks).
+  epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos. **EPUB now 33/43 chapters, 300 notes.**
+
+### Notes (6 net-new; 300 cumulative). NOT re-noted furniture
+6 new notes, first-appearance disciplined: Yan'an (延安, the CCP base taken 1947); the special-operations
+unit / special organization concept (特种部队/特种组织, reconciling the ch34 "Special Forces" gloss);
+door-gods (门神); the Heavenly Dog (天狗, the eclipse-beast, Chen's jibe at Liu Peichu); the Great Tunnel
+disaster (大隧道, Chongqing 5 June 1941); April First (四一, the service's founding anniversary). NOT
+re-noted (already covered): the 绥靖/戡乱/共匪 framing, Marshall Mission/Committee of Three/Executive HQ,
+the Lizhi Plan, the Jiangxi bandit-suppression/别働总队, the Youth Army, Fu Zuoyi/Beiping's surrender (all
+ch32); the Baomiju as the Juntong's 1946 successor (ch04); Whampoa, the Marco Polo Bridge, fabi, the
+Republican-year system (earlier batches).
+
+### New keyed glossary rows (12; via scripts/add_ch33_glossary.py)
+People: 李玉林 Li Yulin (deputy brigade cmdr, a pillar), 罗敬 Luo Jing (political director / cover
+calligrapher, a pillar), 侯腾 Hou Teng (deputy chief, Second Bureau), 吴安之 Wu Anzhi, 马汉三 Ma Hansan,
+张家铨 Zhang Jiaquan (upgraded from ch32 inline), 史泓 Shi Hong (upgraded from ch32 inline), 陈诚 Chen
+Cheng (Chief of the General Staff). Orgs: 保密局 the Baomiju, 人民服务总队 the People's Service Corps.
+Terms: 特种部队 "special-operations unit", 特种组织 "special organization" (both decided; the ch34s01
+title glosses 特种部队 "Special Forces" but the body follows this chapter's "Special-Operations Unit").
+Reused the whole B01-B25 keyed cast (刘原深/毕高奎/齐庆斌/曾澈/陈资一/周世光/王天木/毛人凤/郑介民/张炎元/
+刘培初/傅作义 etc.) and Part-Four vocab. Rendered INLINE (one-off roster/memoir names, standard places,
+Western officers): the 4 other brigade commanders 陈振山/刘仁华/郭重新/靳易夫, 王兆芬, 王文, 张作兴,
+李运昌, 吕正操, 楼兆元, 王云孙, and Luo Jing's whole memoir roster; 华北忠义救国军 "the North China Loyal
+and Patriotic Army" (built on the keyed 忠义救国军); Marshall / Colonel Robertson.
+
+### Digitization glitches (rendered to plain sense; none footnoted — mechanical)
+- **ch33:** L14 马歌尔 for 马歇尔 (Marshall; L13 spells it correctly); ⋮ (U+22EE) as ellipsis at L5;
+  stray ！ standing for 」 at L17 (中央训练团！), L46 (掏粪的！), L89 (死刑屮 stray 屮 for 」), L117
+  (华北忠救军！); stray 『 opening bracket + " for 」 at L19 (励志“即将); stray ？ at L55 (李汉元？), L61
+  (恶意？), L62 (情治单位？), L69 (天津之行？); stray | at L44 (小三合|, dropped 院，); 〇 (U+3007) glitch
+  at L86 (不至于吧〇); corrupt run at L20 (名过 for 名流, 一甸 for 一句, 回公/批着 garbled), 恺切 for 剀切
+  at L19, 丽友 for 良友 at L61, 示能 for 不能 at L92; × redaction 冯xx at L136 (rendered "Dr. Feng ——").
+  Many dropped 。 mid-<p> (L3, L5, L14, L15, L16, L38, L46, L50, L57, L61, L81, L118, L119, L149).
+  All rendered to plain sense; none is a reading uncertainty.
+
+### data/noise.txt — B26 additions
+- Name-numerals **马汉三** (Ma Hansan, 三), **英千里** (Ying Qianli, 千), **陈资一** (Chen Ziyi, 一);
+  idiom **百废待擧** (a 擧-variant of 百废待兴, the 百 = "myriad," not 100). REAL quantities carried as
+  digits/words: 3,500 words (Lizhi Plan); ~120 men/brigade, ~600 total (alt 400+); 5 brigades / First-Fifth
+  Brigade; 7 brigades + 3 companies; 1,500 yuan fabi (twice); ROC years 3/6/22-23/26/27/28/29/30/32/34/35/
+  36/41/46/51/57 and 民前七年 = 1905, all matched by ordinal or +1911; No. 5 / Fifth Brother; the twenty-odd
+  signatories; 100-day detention; 8 days at sea; 20+ medical students.

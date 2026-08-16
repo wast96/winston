@@ -781,3 +781,16 @@
 # Idiom 百事待擧 "a thousand tasks await taking up" (ch32); the 百 is "myriad/all,"
 # not the count 100. English renders the idiom, not a quantity.
 百事待擧
+# --- B26 (ch33) ---
+# Personal name containing a numeral glyph: 马汉三 (Ma Hansan); the 三 is part of
+# the given name, not the count 3. Cf. the noised 毛万里 / 石友三 above.
+马汉三
+# Personal name containing a numeral glyph: 英千里 (Ying Qianli, the Fu Jen
+# secretary-general); the 千 is part of the name, not the count 1000.
+英千里
+# Personal name containing a numeral glyph: 陈资一 (Chen Ziyi, a Beiping-District
+# station chief); the 一 is part of the given name, not the count 1.
+陈资一
+# Idiom 百废待擧 "a thousand things laid waste await taking up" (a 擧-variant of
+# 百废待兴/百事待擧, ch33); the 百 is "myriad/all," not the count 100.
+百废待擧

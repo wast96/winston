@@ -772,6 +772,28 @@ UNITS = {
         "drop": 3,
         "merges": [], "glued": {}, "glued_head": {}, "standalone": [],
     },
+    "ch33": {
+        "file": "34_index-split-000-0032.txt",
+        "title": "第一章 振衰起敝 二次出发",
+        # drop=2: running header 英雄无名-陈恭澍 + <h2> chapter title. Confirmed
+        # p-by-p against the source XHTML: 1 <h2> + 4 <h3> (the four section
+        # headings 一、/二、/三、/四、) + 153 <p>, zero mismatches; no <h1>, no
+        # <br/>, no <img>, no [\d+] note markers. After drop=2 the txt has 157
+        # body lines = 4 <h3> heading lines (raw L10/L35/L73/L112) + 153 <p>.
+        # The four <h3> are their OWN elements -> standalone (### ), not glued.
+        # TWO mid-phrase severs where the SOURCE broke one sentence across two
+        # <p>: L17/18 inside the quoted 浮生掠影集 (Liu Peichu memoir) passage,
+        # ...你与副厅长张炎元、|侯腾两位同志商量好了。; and L19/20 masked by a
+        # stray ！ glitch standing in for a closing 」 (实际上﹁中央训练团！|对于
+        # ﹁励志班﹂的训练与管理…, a dangling subject completed by the next <p>).
+        # The INNER enumerations kept as BODY per parity (NOT headings): the
+        # ranges 三、四岁 / 二十二、三年, the name-list 陈资一、周世光, 第二、三、四部书,
+        # and the quoted committee-duties 一、…二、…三、…四、 list inside one <p>.
+        "drop": 2,
+        "merges": [(17, 18), (19, 20)],
+        "glued": {}, "glued_head": {},
+        "standalone": [10, 35, 73, 112],
+    },
 }
 
 
