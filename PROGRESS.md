@@ -2,6 +2,81 @@
 
 The running per-batch log. Written as we go.
 
+## B10 — apparatus features + sweeps + spine pass; ch09 set up (2026-08-16)
+
+Delivered the footnote-apparatus and spine work the B09 review specified; ch09
+(the new-content chapter) is set up and deferred to its own batch per rule 4.
+
+### Two new builder features (build_reading_epub.py)
+- **Glossary of Recurring Terms** (the "back glossary"): a new back-matter page
+  rendering every glossary row flagged `"recurring": true`, with its full note,
+  so the recurring institutional/material furniture is glossed once in the text
+  and carried here. 20 rows flagged (Central Special Branch, Red Squad, Zhongtong,
+  Party Affairs Investigation Section, Green and Red Gangs, Municipal Council,
+  French Municipal Council, shikumen, tingzijian, laohuzao, the White Terror, the
+  Mixed Court, three-stripers, pidgin English, the Great World, second landlord,
+  Mauser, the ten-li foreign quarter, dog-beating squad, the Racecourse).
+- **Street Gazetteer**: a new back-matter table of concession streets, period
+  name -> Chinese -> today's name, from place rows flagged `"gazetteer": true`
+  with a `"today"` field. 24 streets (Avenue Joffre -> Huaihai Middle Road, etc.).
+- Both are rendered only when their data exists, wired into spine + reader nav +
+  ncx, and added to qa_epub's APPARATUS set. `render_recurring`, `render_gazetteer`,
+  and the `_walk_flagged` helper are new; `.gaz` table CSS added. Do not revert.
+
+### Footnote apparatus sweeps
+- **Placement:** moved mid-phrase markers (after a bare word, the clause running
+  on) to the end of the clause that holds the referent, via a conservative
+  same-clause anchor extension (commas inside numbers guarded; anchors already at
+  a comma/dash/sentence-end left as rule-permitted; markers before a parenthetical
+  or dash-aside left in place). 29 moves ch02-ch08 + 5 ch01 survivors + 1 ch07.
+  The scratchpad driver is `scratchpad/move_markers.py` (dry-run by default).
+- **Density (ch01 thinned):** dropped 25 ch01 footnotes on passing-mention
+  warlords/generals in the Yang Du and Chen Geng digressions (Lu Diping, Zhang
+  Jingyao, Cheng Qian, Tang Shengzhi, Liao Zhongkai, Feng Yuxiang, Bai Chongxi,
+  ...) and low-stakes institutional glosses (People's Daily, Cihai, Nanjing Road,
+  Toa Dobun Shoin, Provisional Constitution, Hu Jintao at a commemoration, ...).
+  Every dropped item keeps its glossary row; only the footnote goes. ch01
+  116 -> 91 notes; density 138 -> 174 words/note (the egregious outlier fixed).
+- **Density (ch07/ch08 backfilled):** +6 ch07 (the Long March, the 1911 Revolution,
+  Hongkou as the Japanese quarter, the qipao, the birthday shou character, the
+  Kongming/Jieting allusion), +6 ch08 (the Eyuwan Soviet, Li De = Otto Braun, the
+  Nanshe and Beiping, Nanyang College, po-fu-chen-zhou, san-jiao-jiu-liu), +1 ch01
+  (the War of Resistance against Japan). ch07 490 -> 377, ch08 807 -> 634 w/note.
+  ch08 stays the sparsest because its references are largely noted at first
+  appearance in earlier chapters and cross-referenced per protocol; padding to a
+  count is against the method. Final densities: ch01 174, ch02 124, ch03 283,
+  ch04 417, ch05 264, ch06 383, ch07 377, ch08 634. The ch01 outlier (was the
+  dense end at 138) is corrected; the residual extremes are structural (short
+  early ch02; long late ch08 whose furniture is pre-noted). 290 notes total.
+
+### Spine-test pass
+- Split four genuine multi-spine narration sentences by the spine test,
+  front-loading the main clause and protecting the lists: ch08 the Chen Lifu
+  propaganda sentence (purpose clause promoted) and the Dec 7 Nanchang sentence
+  (buried verb "reached"; two dash-parenthetical title-strings moved to parens);
+  ch01 the Zhou Enlai "come without a shadow" sentence (two "because" fronts
+  promoted after the main clause); ch07 the Li Lisan uprising sentence (Liu
+  Bocheng dash-bio un-nested). The remaining ~31 sentences over 90 words are
+  exempt: quoted 1930s documents, quoted memoirs/interviews, the author's
+  deliberate anaphora, and protected title/career lists. Worklist driver:
+  `scratchpad/long_sentences.py`. Parity preserved (splits stay within paragraphs).
+
+### ch09 set up, deferred (per rule 4)
+- ch09 is a full-chapter, source-critical translation (PDF 208-235, printed
+  193-220, 27 content pages, ~180 paragraphs, contested accounts of Xiang
+  Zhongfa's capture and the "secret cable"). Rushing its tail in the same session
+  as the apparatus work courts exactly the fabrication rule 4 forbids; B09
+  deferred it for the same reason. Groundwork done this batch: pages 208-235
+  rendered @300 DPI; OCR cross-check produced (confirmed too noisy on the proper
+  names, so hand-transcription off the images is required, per B08); offset
+  constant 15 verified at folios 195/196/197; a portrait of Huang Mulan on p0211
+  identified as a figure; the 9-section structure is in book.json; the voice is
+  ch08's sardonic source-criticism. The full recipe is in the HANDOFF kickoff.
+
+### Checks
+- Build PASS after every change; qa_epub PASS; epubcheck 5.1.0 0/0/0/0 on the
+  final build. Consistency canon still clean.
+
 ## B09 review, round two — attribution, footnotes, spine method (2026-08-16)
 
 Ran build (PASS, 302 notes) + qa_epub (PASS) + epubcheck (0/0/0). Fixed the ch08
