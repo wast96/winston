@@ -999,6 +999,75 @@ ch16: data/figs/ch16_longhua.png (the Longhua garrison-command gateway, p322, fo
 278), placed before "At that time the Kuomintang's Songhu Garrison Command stood
 north". Both captions mark labels as the source's, caption as the translator's.
 
+## B10 — ch17 (电讯科长"曾培鸿"——李强 / Communications Chief "Zeng Peihong" — Li Qiang) + ch18 (永不消逝的红色电波 / The Red Airwaves That Never Die)
+
+Scope: ch17 PDF 333-363 (printed 289-319), 5 sections, 74 body paragraphs;
+ch18 PDF 364-388 (printed 320-344), a chapter-opener plus 4 sections, 59 body
+paragraphs. Body offset constant 44, folio-verified at both openers by eye.
+
+Pipeline: render 333-388 at 300 dpi; ocr_crop --left 0.11 --right 0.90 --top
+0.135 --bottom 0.95 --lang chi_sim --psm 6 (pgrep tesseract 0 after). Assembly
+via the b10_* recovery scripts (follow b09): b10_strip_furniture.py normalizes
+the 11 headings, empties the SEVEN figure/facsimile pages, truncates the author
+footnote blocks, and RESTORES six OCR-mangled sentence-ends that would defeat the
+surgery snap (归案迅办、->。 ; 高超的机务技术- ->。 ; 前文已经讲过) missing 。 ;
+表示感谢① OCR'd as 9 ; 满怀地写道: dropped ; 必据毛齐华 for 。另据). structure.json
+rows added; indents.py; assemble.py --offset 44; b10_surgery.py --apply
+(ch17 74, ch18 59, all markers unique/in order); apply_fixes.py; b10_pagemap.py.
+NOTE: indent geometry is unreliable in this batch (scanner skew flags whole
+blocks), so paragraph boundaries were read off the page images directly.
+
+Checks all green: parity (74/74, 59/59), verify_unit numbers 0 unresolved,
+check_align OK, qc_entities 0 misses (one 国民党 and one 上海 fixed by naming),
+check_content all in the paired paragraph (fixed T.V. Soong spacing and the KUTV
+form to the shelf's "Communist University of the Toilers of the East"),
+check_apparatus clean, qa_epub PASS (19/28 chapters, 259 notes, 319 pagebreaks),
+epubcheck 0/0/0, check_register within tolerance (em-dash 4.1/2.4 vs ref 6.0).
+
+### OCR-era garbles fixed (data/ocr_fixes.json ch17/ch18), all crop-verified
+Number garbles: $=5 (功率$0瓦, 训练$名, 5$0名, 7元5$角); 万=瓦 (输出功率100万);
+上/工=1 (1930年上月, 2月工日); 士=十 (第二士八师); dropped/added digit (193年底
+->1930, 19%31->1931, 1月?28日). Name garbles: 冯文彬 (OCR 当文彬), 王诤 (王净/王将),
+公秉藩 (公时/公肝藩), 冯文彬. Char garbles: 纱三->纱厂, 工三->工厂, 车合成十->革命战士,
+党外人十->党外人士, 四惧->畏惧, 埋头苦二->埋头苦干, 闸二同志->曾三同志, 六上二团->
+六十二团, 福申路->福煦路. Folio 311 leaked into a body paragraph (removed); QRC?7->QRC?.
+
+### noise.txt additions (place/idiom/name numerals, longest-first)
+20世纪80年代, 十字路口, 十二时许, 千里眼, 四成里, 四盛里, 万国, 万汐烛, 万能, 百般,
+百色, 两位先生, 零件, 感慨万端 (ch17); 成千上万, 第三国际, 二房东, 三房客, 百货公司,
+零工, 7元5角 (ch18).
+
+### Figures (7; find_figures found 6, the p356 letter facsimile cropped by hand)
+ch17: p0334-f1 (Li Qiang portrait, "李强在工作中"), p0341-f1 (first-station site,
+福德坊32号), p0356-f1 (Li Qiang's 1980 letter to Mu Xin, facsimile), p0358-f1
+(Mao's calligraphy inscription for the radio workers), p0362-f1 (1945 Yan'an
+group photo: Wu Yunfu, Wu Shaozu, Tu Zuochao / Zeng San, Wang Zigang, Wang Zheng).
+ch18: p0382-f1 (Tu Zuochao portrait), p0385-f1 (Li Xiangwu portrait).
+
+### Notes (26): 11 ch17 + 15 ch18, at first appearance book-wide
+Author-note citations reproduced at the ① anchor (Li Qiang's memoir, the
+《红军的耳目与神经》 collection, Snow's Red Star). NOT re-noted (already placed in
+earlier chapters): May Thirtieth, April 12, White Terror, Long March, Red Star
+Over China, Whampoa, Cheka, the encirclement campaigns, Gu Shunzhang, Central
+Special Section, Songhu Garrison Command, Sun Yat-sen (person), Pan Hannian
+(ch15). New notes cover: Li Qiang/曾培鸿 homophone + career, Bose/Longzhou
+uprisings, the Southern Bureau, Marconi, Shen Bao, Zhang Huizan, Mao's
+千里眼顺风耳 phrase, the QRC Q-code, Cai Shuhou, Xia Yan, the Comintern China
+group, Seeckt, Sorge, the "mysterious foreigner case", Tang Enbo, the Pan-Yang
+case, Kunlun Film Co., KUTV, Sun Yat-sen University (Moscow), Frunze school,
+the Hao cipher, the December 12 (Xi'an) Incident.
+
+### B10 fact-check verdicts (Wikipedia / Baidu Baike / BIT archives, no LLM)
+CORROBORATED: Li Qiang (orig. name 曾培洪, built first CCP transmitter 1929, CAS
+academician 1955, Minister of Foreign Trade); Richard Sorge (Shanghai 1930-32,
+Red Army Fourth Dept, Tokyo ring, hanged 1944); Zhang Huizan (18th Div, captured
+at Longgang 30 Dec 1930, executed 28 Jan 1931, head to Ji'an); the Hao cipher
+(豪密, devised by Zhou Enlai from his alias Wu Hao, one-time-pad, unbroken to
+1949); Hans von Seeckt (Chiang's chief adviser 1933-35, blockhouse strategy);
+the Bose/Longzhou uprisings under Deng Xiaoping (alias Deng Bin); the Xi'an
+Incident (12 Dec 1936). UNCERTAIN: "Lawrence"/the mysterious-foreigner case
+(agent's true identity not settled) — noted as such.
+
 ### Fact-check verdicts (in the notes; sources: Wikipedia / Baidu Baike, no LLM)
 CORROBORATED: Snow/Red Star & Pastor Wang = Dong Jianwu; Dong Jianwu (Datong
 Kindergarten, sheltered Mao's sons); the Wu Hao Notice forgery + French-lawyer
