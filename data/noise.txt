@@ -115,3 +115,13 @@
 100万
 # 近1亿人口 nearly a hundred million people — checker splits arabic 1 + 亿; rendered "nearly a hundred million"
 1亿
+# Bailingmiao, a place in Suiyuan (百=hundred); English "Bailingmiao"
+百灵庙
+# Nosaka Sanzo (Okano Susumu), JCP leader; source prints 野板参三 (参三=San-zo); English "Nosaka Sanzo"
+野板参三
+# 窘态百出 idiom, "cut a sorry figure / every kind of embarrassment"; English "thrown into confusion"
+窘态百出
+# 五花大绑 idiom, "trussed up hand and foot"; English "trussed him up"
+五花大绑
+# 40万伪法币 = 400,000 puppet fabi (arabic+万 magnitude split); value carried in English as "400,000"
+40万

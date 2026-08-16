@@ -4,76 +4,86 @@ The baton. A fresh session reads this and starts immediately. It is the ARCHIVE
 of the kickoff, not its delivery: every batch ends with the block below PASTED
 VERBATIM INTO THE CHAT beside the attached EPUB.
 
-Batch 4 (Chapter 3, ch03) is COMPLETE: translated, annotated, built, all gates
-green (parity 125=125, numbers 0 unresolved, content 0 displaced, entities 0,
-register within tolerance, qa_epub PASS, epubcheck 0/0/0). The block below is
-the Batch 5 kickoff, ready to paste.
+Batch 5 (Chapter 4, sections 1–4, ch04s01–s04) is COMPLETE: translated,
+annotated, built, all gates green (parity 142=142, numbers 0 unresolved, content
+0 displaced, entities 0, align OK, register within tolerance, apparatus 0/0,
+qa_epub PASS, epubcheck 0/0/0). The block below is the Batch 6 kickoff, ready to
+paste.
 
 ## Message to paste into the next chat
 
 ```
-Chen Yangshan B05
+Chen Yangshan B06
 
 Read, in order: CLAUDE.md, then HANDOFF.md, then book.json, then STYLE.md and
 STYLE.local.md. This is the survey-approved biography 秘战英雄陈养山 (Yao Huafei,
 2018); modern SIMPLIFIED Chinese, horizontal, clean typeface. Source is
 source.pdf (image-only); run ./setup.sh first. Offset: printed = pdf - 11
 (constant). Chapter 1 is the FROZEN register reference
-(check_register.py --ref out/ch01_reading.md). Chapters 1, 2 and 3 are done.
+(check_register.py --ref out/ch01_reading.md). Chapters 1, 2 and 3 are done, and
+Chapter 4 sections 1-4 are done (out/ch04_reading.md + data/zh/ch04.txt already
+exist and carry those four sections).
 
-Do Batch 5 = Chapter 4, sections 1-4 (ch04s01-ch04s04), PDF 117-146, printed
-106-135, end to end per the CLAUDE.md pipeline:
-  - THE UNIT IS THE CHAPTER FILE = a NEW file out/ch04_reading.md carrying
-    sections 1-4 only (four "### 1./2./3./4." section headings, English titles
-    from book.json) and a new data/zh/ch04.txt. Batch 6 will APPEND sections 5-8
-    to the same file. Add "ch04" to data/check_config.json (docs + sources) AND
-    make a ch04-scoped config (copy data/check_config.ch03.json -> ch04) for the
-    structural checks, since data/zh/*.txt are gitignored and ch01-ch03 zh will
-    be gone on a fresh checkout. Sections:
-    1 = 情报纪事，陈养山晋绥经历 (PDF 117; printed 106);
-    2 = 再创佳绩，贺龙麾下立新功 (PDF 122; printed 111);
-    3 = 依势利导，全力搜集战略情报 (PDF 130; printed 119);
-    4 = 剑胆琴心，陈养山一封绝密信 (PDF 137; printed 126).
-    RENDER 116-146: the chapter opener is recto PDF 116 (printed 105), title
-    "第四章 在晋绥边区的奋战" with a photo above the heading -- SKIP the photo (per
-    ch01/ch02/ch03). CHECK PDF 116 for any chapter-intro paragraphs before
-    section 1 (ch02 had three such intro paragraphs above out/ch02_reading.md's
-    first "###"; ch03 had none). If present they go at the TOP of the file,
-    before "### 1.".
-  - BEFORE translating, read the final two pages of out/ch03_reading.md (Chen
-    Yangshan's 1988 letter to the Central Organization Department, closing the
-    Kang Sheng section; the voice IS those pages) and STYLE.local.md.
-  - render 116-146; OCR with the SAME crop as ch01/ch02/ch03 (do-not-revert list
+Do Batch 6 = Chapter 4, sections 5-8 (ch04s05-ch04s08), PDF 147-171, printed
+136-160, end to end per the CLAUDE.md pipeline:
+  - APPEND sections 5-8 to the EXISTING file out/ch04_reading.md (which currently
+    ends section 4 with Wei Jian's escape and the deaths of Cui Shou'an and Lü
+    Lashuang) and EXTEND the EXISTING data/zh/ch04.txt. Keep the two files
+    structurally identical line-for-line (same "###" section headings with the
+    English titles from book.json, same {v} markers on the same paragraphs, same
+    body-paragraph count/order). The ch04 configs already exist
+    (data/check_config.json has ch04; data/check_config.ch04.json is the scoped
+    one) -- no config change needed. data/zh/*.txt are gitignored and gone on a
+    fresh checkout, so re-run the parity/number/content/align/entity checks with
+    the ch04-scoped config; build/qa/epubcheck/register run on the whole
+    cumulative EPUB. Sections:
+    5 = 沉着果断，潜入敌特内部窃取密电 (PDF 147; printed 136);
+    6 = 深入敌后，大同情报工作的开展 (PDF 150; printed 139);
+    7 = 敌中有我，机智的鲁南情报组织 (PDF 154; printed 143);
+    8 = 历史一页，晋绥情报传奇故事 (PDF 160; printed 149).
+    Section 8 runs to printed 160 (PDF 171); Chapter 5 opens at PDF 172. CHECK the
+    tops of PDF 147 and each section opener for any lead paragraphs; render 147-171.
+  - BEFORE translating, read the final two pages of out/ch04_reading.md (the end
+    of the Wei Jian saga -- Chen Yangshan's plain, sincere voice and He Long's
+    blunt earthy voice are the register for this chapter) and STYLE.local.md.
+  - render 147-171; OCR with the SAME crop as ch01-ch04 (do-not-revert list
     below): ocr_crop.py --lang chi_sim --psm 6 --left 0.045 --right 0.985 --top
     0.08 --running-head "秘战英雄陈养山", RECTO (PDF even) --bottom 0.945, VERSO
     (PDF odd) --bottom 0.915, run per-page so the parity-correct bottom applies.
-    Run ocr_dual.py; verify pgrep -c tesseract is 0.
-  - WATCH THE SILENT OCR-LOSS (CONFIRMED every batch, incl. B04's mid-page
-    "尖锐起来。"): tesseract drops an isolated paragraph-final SHORT line. Any OCR
-    paragraph ending WITHOUT sentence-final punctuation before a blank is a
-    dropped-tail suspect; VERIFY EVERY PAGE BOTTOM (and short mid-page final
-    lines) against the scan and restore it. data/zh is hand-assembled from
-    corrected OCR + scans, one source paragraph per line. Keep portrait bio-boxes
-    and photo captions OUT of data/zh (they are figure captions, translated into
-    figures.json) so parity stays 1:1. Crop-verify EVERY name/number.
+    The per-page loop can exceed a 120s foreground timeout -- run ocr_crop and
+    ocr_dual in the background or in page-range chunks; verify pgrep -c tesseract
+    is 0 after.
+  - WATCH THE SILENT OCR-LOSS (CONFIRMED every batch): tesseract drops an isolated
+    paragraph-final SHORT line, AND a long single-paragraph tail can be dropped in
+    the English on a first pass (B05 lost the chase/water-pit tail of one long
+    paragraph until check_numbers' idiom flag surfaced it). VERIFY EVERY PAGE
+    BOTTOM and every long paragraph's final sentences against the scan and restore
+    them. data/zh is hand-assembled from corrected OCR + scans, one source
+    paragraph per line. Keep portrait bio-boxes and photo captions OUT of data/zh
+    (they are figure captions, translated into figures.json) so parity stays 1:1.
+    Crop-verify EVERY name/number (verify_names.py --auto shows only the dual-OCR
+    disagreements; crop the systematic mangles by eye).
   - eyeball EVERY page for figures; find_figures.py has matched the real plates
-    every batch but MISSES line art and mis-detects on dense text - verify each by
-    eye, and crop clean images to data/figs/ (name p0NNN-f1.png; crop OUT the
-    caption and any wraparound body text). Photo/portrait captions go in
-    figures.json (translated). FIGURE ALT MUST CONTAIN NO STRAIGHT DOUBLE QUOTES
-    (they break the alt="..." attribute -> epubcheck fatal); use single quotes.
+    every batch but MISSES line art and mis-detects on dense text (and flags the
+    chapter-opener photos, which we SKIP) - verify each by eye, and crop clean
+    images to data/figs/ (name p0NNN-f1.png; crop OUT the caption and any
+    wraparound body text; find_figures boxes often include margin text). Photo/
+    portrait captions go in figures.json (translated; who's-who labels are the
+    source's, caption prose is yours). FIGURE ALT MUST CONTAIN NO STRAIGHT DOUBLE
+    QUOTES (they break the alt="..." attribute -> epubcheck fatal); use single
+    quotes.
   - Write English one paragraph per source line, and MIRROR the {v} markers and
     section "###" lines in BOTH data/zh/ch04.txt and out/ch04_reading.md so every
-    positional check (parity, content, align, entities) lines up. Use PLAIN ASCII
-    in the reading file: straight quotes " ', literal em dash — ONLY for genuine
-    interruption (the builder curls quotes and turns ... into an ellipsis at
-    render; it does NOT make em dashes from --). NO dashed-in appositive glosses:
-    a fact set off in a dash-pair belongs in parens, a comma clause, or its own
-    sentence. Consult authority.json + glossary.json before romanising; ONE
-    rendering per referent (He Long, Chen Yangshan, Zhang Suzhen, Li Kenong, Kang
-    Sheng, the Central Special Branch, etc. are decided; the whole ch03 cast is now
-    in glossary.json). PUT THE DECIDED FULL NAME ONCE PER PARAGRAPH the referent
-    appears in (check_content is strict; pronouns/short forms carry the rest).
+    positional check lines up. Use PLAIN ASCII in the reading file: straight quotes
+    " ', literal em dash — ONLY for genuine interruption (the builder curls quotes
+    and turns ... into an ellipsis at render; it does NOT make em dashes from --).
+    NO dashed-in appositive glosses: a fact set off in a dash-pair belongs in
+    parens, a comma clause, or its own sentence. Consult authority.json +
+    glossary.json before romanising; ONE rendering per referent (the whole ch01-04
+    cast is now in glossary.json -- He Long, Chen Yangshan, Li Kenong, Yan Xishan,
+    Fu Zuoyi, Wei Jian, the Bureau of Confidential Investigation, etc. are decided).
+    PUT THE DECIDED FULL NAME ONCE PER PARAGRAPH the referent appears in
+    (check_content is strict; pronouns/short forms carry the rest).
     Cite PRINTED folios in notes. Never invent bridging text; verify the final
     paragraphs against the scan.
   - Footnotes via apparatus_merge.py (glossary rows carry a "section" field:
@@ -81,17 +91,18 @@ Do Batch 5 = Chapter 4, sections 1-4 (ch04s01-ch04s04), PDF 117-146, printed
     HIGH NOTE DENSITY is a standing commissioner directive (STYLE.local.md):
     gloss EVERY named person/place/institution/event/period-term a non-specialist
     might not know, at first appearance, each note saying more than the name.
-    grep notes.json + out/ch0[123]_reading.md BEFORE re-noting a recurring subject
-    (He Long, Li Kenong, the Special Branch, Kang Sheng, Juntong/Zhongtong etc.
-    are already noted; density TAPERS). Chapter 4 is Chen Yangshan's Jin-Sui
-    intelligence war under He Long -- render He Long's blunt, earthy voice (voice
-    sheet below) and fact-check the operational claims in the notes.
-  - verify_unit.py ch04, check_structure.py/check_content.py --config
-    data/check_config.ch04.json, qc_entities.py out/ch04_bilingual.md
-    (make_bilingual.py ch04 first), check_numbers.py --noise data/noise.txt (via
-    verify_unit), check_align.py ch04, check_apparatus.py, check_register.py --ref
-    out/ch01_reading.md. Build the cumulative EPUB, qa_epub.py green, epubcheck
-    (/tmp/epubcheck-5.1.0/epubcheck.jar) 0/0.
+    grep notes.json + out/ch0[1234]_reading.md BEFORE re-noting a recurring subject
+    (density TAPERS; Datong, the Bureau of Confidential Investigation, the
+    Comradeship Association, Kenanpo etc. are already noted). Sections 5-8 continue
+    the Jin-Sui intelligence war (Datong network, southern-Shandong network,
+    legendary tales); fact-check the operational claims in the notes.
+  - verify_unit.py ch04 (numbers via bilingual), check_structure.py/check_content.py
+    --config data/check_config.ch04.json, make_bilingual.py ch04 then
+    qc_entities.py out/ch04_bilingual.md, check_numbers.py out/ch04_bilingual.md
+    --noise data/noise.txt, check_align.py ch04, check_apparatus.py,
+    check_register.py out/ch04_reading.md --ref out/ch01_reading.md. Build the
+    cumulative EPUB, qa_epub.py green, epubcheck (/tmp/epubcheck-5.1.0/epubcheck.jar)
+    0/0.
   - Record everything in PROGRESS.md. Run to completion; do not pause for approval
     mid-batch.
 
@@ -106,139 +117,122 @@ All work on branch claude/chen-yangshan.
   composed; skeleton EPUB.
 - **B01 = Chapter 1** (ch01, PDF 12-37): 141 paragraphs, 73 footnotes, 41
   glossary rows, 10 figures. Voice-gate approved and FROZEN as the register
-  reference. All gates green.
-- **B02 = Chapter 2, sections 1-3** (ch02s01-s03, PDF 39-68, printed 28-57):
-  169 paragraphs, 106 footnotes, 143 referents, 15 figures. All gates green.
-- **B03 = Chapter 2, sections 4-5** (ch02s04-s05, PDF 69-92, printed 58-81):
-  142 lines appended (ch02 complete). +24 footnotes; +83 glossary rows; +5
-  figures. All gates green.
-- **B04 = Chapter 3** (ch03, PDF 93-115, printed 82-104): 125 paragraphs (S1=40,
-  S2=40, S3=45), 62 footnotes (book-wide 265), +100 glossary rows (326 referents),
-  5 figures. The Xi'an Incident on the hidden front, the return to Yan'an and the
-  Rectification, and the three questions to Kang Sheng over the comrades killed in
-  the Soviet purge. All gates green: parity 125=125, numbers 0, content 0
-  displaced, align OK, entities 0, register within tolerance, apparatus 0/0,
-  qa_epub PASS, epubcheck 0/0/0.
+  reference.
+- **B02 = Chapter 2, sections 1-3** (ch02s01-s03, PDF 39-68): 169 paragraphs,
+  106 footnotes, 143 referents, 15 figures.
+- **B03 = Chapter 2, sections 4-5** (ch02s04-s05, PDF 69-92): +142 lines (ch02
+  complete). +24 footnotes; +83 glossary rows; +5 figures.
+- **B04 = Chapter 3** (ch03, PDF 93-115): 125 paragraphs, 62 footnotes, +100
+  glossary rows, 5 figures.
+- **B05 = Chapter 4, sections 1-4** (ch04s01-s04, PDF 117-146, printed 106-135):
+  142 paragraphs (S1=28, S2=34, S3=33, S4=47), +40 footnotes (book-wide 305),
+  +91 glossary rows (417 referents), 5 figures. Chen Yangshan's Jin-Sui
+  intelligence war under He Long: rebuilding the Investigation Bureau, the Gao
+  Shuxun Movement, and Wei Jian's underground station inside Yan Xishan's Taiyuan
+  (the top-secret letter and the Xieyiheng dim-sum-shop tragedy). All gates green.
 
 ## Tooling in place (DO NOT REVERT)
 
 - **OCR crop** (measured for this book): `ocr_crop.py --lang chi_sim --psm 6
   --left 0.045 --right 0.985 --top 0.08 --running-head "秘战英雄陈养山"`, recto/
   verso split bottom: RECTO (PDF even) `--bottom 0.945`, VERSO (PDF odd)
-  `--bottom 0.915`, run per-page in a loop. ocr_crop.strip_runfoot patched for the
-  verso book-title / pipe foot. indents.py/assemble.py UNUSED (data/zh is
+  `--bottom 0.915`, run per-page in a loop (background it or chunk it; a full
+  chapter exceeds a 120s foreground timeout). ocr_crop.strip_runfoot patched for
+  the verso book-title / pipe foot. indents.py/assemble.py UNUSED (data/zh is
   hand-assembled from corrected OCR + scans).
 - `apparatus_merge.py`: glossary merges into SECTIONS via a `"section"` field on
-  each row (default terms).
+  each row (default terms). figures.json `file` is a BARE filename (p0NNN-f1.png),
+  NOT a path — the builder prepends data/figs/.
 - `check_content.name_map`: skips `_`-prefixed metadata keys.
 - `build_reading_epub.sec_nav`: the EPUB nav omits pending (untranslated)
-  sections/subsections rather than linking them to the bare chapter file. (So a
-  partial chapter -- ch04 sections 1-4 -- builds clean; sections 5-8 stay pending.)
-- **data/zh gitignored, regeneration protocol.** `data/zh/*.txt` (raw book text)
-  do NOT survive a fresh checkout. Run the parity/number/content/align/entity
-  checks with a UNIT-SCOPED config (e.g. data/check_config.ch03.json for B04;
-  make data/check_config.ch04.json for B05) that maps ONLY the unit you rebuilt.
-  Build/qa/epubcheck/register run on the WHOLE cumulative EPUB; check_apparatus
-  validates anchors against the whole notes.json.
-- **{v}/### mirroring:** data/zh/<unit>.txt and out/<unit>_reading.md are
-  hand-assembled to be STRUCTURALLY IDENTICAL line-for-line (same "###" headings,
-  same `{v}` markers on the same paragraphs, same body-paragraph count/order), so
-  every positional check aligns trivially. Quoted letters/recollections/documents
-  use `{v}`; a plain paragraph between two `{v}` runs (e.g. "Appended:") separates
-  distinct documents.
-- `data/noise.txt`: extended in B04 with 一〇七, 七尺, 七贤庄, 一打二拉, 立三路线,
-  120万, 100万, 1亿 (unit-designation numeral, idioms, place/line names, and
-  arabic+万/亿 magnitude splits -- all carried in English prose, none are
-  quantities). 李立三 was already present. The 四人 count was carried in English,
-  not noised.
-- setup.sh regression test "kickoff_guard template stand-down FAIL" is BENIGN
-  (the fixture expects a placeholder HANDOFF; ours is real). Translation checkers
-  all pass.
+  sections/subsections. ch04 sections 5-8 stay pending until B06.
+- **data/zh gitignored, regeneration protocol.** `data/zh/*.txt` do NOT survive a
+  fresh checkout. Run parity/number/content/align/entity checks with the
+  UNIT-SCOPED config (data/check_config.ch04.json maps ONLY ch04); build/qa/
+  epubcheck/register run on the WHOLE cumulative EPUB; check_apparatus validates
+  anchors against the whole notes.json.
+- **{v}/### mirroring:** data/zh/ch04.txt and out/ch04_reading.md are hand-
+  assembled STRUCTURALLY IDENTICAL line-for-line. B06 APPENDS to both.
+- `data/noise.txt`: extended in B05 with 百灵庙 (place), 野板参三 (name), 窘态百出
+  and 五花大绑 (idioms), 40万 (arabic+万 magnitude split). All carried in English
+  prose; none are quantities.
+- setup.sh regression test "hook stands down on template stub: FAIL" is BENIGN
+  (the fixture expects a placeholder HANDOFF; ours is real). All translation
+  checkers pass.
 
-## Renderings settled B04 / carry-forward
+## Renderings settled B05 / carry-forward
 
-- Decided NEW in B04 (feed to authority.json at completion): Zhang Xueliang, Yang
-  Hucheng, Song Qiyun, Gao Fuyuan, Wang Yizhe, Peng Dehuai, Wang Feng, Wang
-  Shiying, Nan Hanchen, Du Binchen, Zhao Shoushan, Kong Congzhou, Shen Bochun,
-  Feng Qinzai, Yan Kuiyao, Wu Xiru, Ding Ling, Xu Pingyu, Chen Bo (Bulu), Li
-  Yimang, Hu Zongnan, Wu Defeng, Qi Yuande, Tao Shiyong, Sai Xianfo (provisional),
-  Cheng Ziping, Yu Zhongyou, Xiao Fuxian, Chen Mingjun (Chen Yangshan cover),
-  Xuan Xiafu, Xu Binru, Jiang Ziming, Li Furen, Gao Chongmin, Yang Mingxuan, Han
-  Zhuoru, Che Xiangchen, Xu Zhongquan, Qiu Jin (cadre, not the 1907 martyr), Deng
-  Yingchao, Zhenyu (Chen Zhenyu), Song Shilun, Wang Heshou, Xiang Zhonghua, Lei
-  Renmin, Fu Yutian, Jia Zheng, Gao Langshan, Bai Xiangyin, Li Guohua, Wang
-  Shiwei, Fan Shiren, Lin Yixin, Mo Wenhua, Zeng Zhi, Kang Keqing, Jiang Qing,
-  Ye Qun, Peng Zhen, Ren Bishi, Zhu De, Liu Shaoqi, Lin Boqu, Okano Susumu
-  (=Nosaka Sanzo), Chen Yun, Guan Fushan, Chen Jianyu, Chen Guobao, Yuan Renyuan,
-  Wang Ming, Xiao Shouhuang, Ouyang Xin, He Changzhi, Wu Hujing (=Wu Huairang),
-  Hou Zhi, Su Mei, Lin Biao, Kirov. Orgs: the Northeastern/Northwestern/Seventeenth
-  Route Army, the Anti-Japanese Comrades' Association, the Cultural Weekly, the Red
-  China News Agency, Xinhua, the Central Social Affairs Department, the Central
-  Party School, the Three People's Principles Youth Corps, the Comintern, the
-  Jin-Sui Military Region, the Central Intelligence Department, the Ministry of
-  State Security. Places: the Huaqing Pool, Lintong, Luochuan, Wayaobao, the
-  Shaan-Gan-Ning Border Region, Zaoyuan, Baoji, Qixianzhuang. Events: the Xi'an
-  Incident, the Lugou Bridge Incident, the Rectification Movement, the Great
-  Cultural Revolution, the August First Declaration.
-- Provisional / flagged: Sai Xianfo (塞先佛, uncommon surname, crop-verified 塞).
-- Source errors rendered as printed + footnoted (do NOT "fix"): the Seventh
-  Congress dated 1943 (was 1945; noted via Mao's own "24-year course" + the 1.2M
-  figure); 宗绮云/宋绮云 (Song Qiyun, one referent, variant noted); the Maoling
-  caption's 汉开帝墓 (Emperor Wu of Han's tomb, rendered correctly in the caption);
-  the letter's 大浦 for 大埔 (Dabu), noted.
+- Decided NEW in B05 (feed to authority.json at completion): Luo Qingchang, Yan
+  Xishan, Fu Zuoyi, Tan Zhengwen, Li Jingquan, Feng Jiping, Feng Jinchen, Liang
+  Hanbing, Zhou Quan, Cui Yaonan, Zhang Shoude, Ma Mingfang, Li Fushan, Pei Zhouyu,
+  Zhou Yi, Zou Dapeng, Nie Yuansu, Wang Shukai, Zhao Jin'ao, Zhao Jingdi, E Yousan,
+  Ma Hongkui, Dong Qiwu, Liang Shengyuan, Wu Leiyuan, Fu Juemin, Cheng Dedi, Zhao
+  Siwu, Gao Shuxun, Pan Shuoduan, Liu Shanben, Fan Yangbin, Wei Shunshi, Marshall,
+  Zhang Zhizhong, Chen Cheng, Wei Jian, Cao Yanxing, Wu Peishen, Zhang Lixian, Kang
+  Li, An Zifeng, Han Bin, Liang Yanwu, Yan Huiqing, Wang Jingguo, Liang Huazhi, Meng
+  Jifeng, Bo Yuxiang, Lu Xueming, Wang Zhishi, Yang Aiyuan, Wu Zhezhi, Chai Zemin,
+  Hao Binnan, Zhou Peiji, Zhou Peiyao, An Baozhi, Li Wenfang (=Zhang Xinfu), Cui
+  Shou'an (=Wang Lianzhong), Zhou Jianmin, Zhu Chonglian, Zhang Ruoling, Xu Duan,
+  Yang Zhenji, Liang Jiqing, Yan Handong, Wang Yudi, Liu Huamin, Ma Chen, Xue Bomin,
+  He Jiong, Tian Shulan, Ren Zhiqing, Yan Qi'e, Lü Lashuang, Wang Qian, Zheng
+  Xiaoxian, Wang Guohua, Zhang Peizhen. Orgs/places/events: the Jin-Sui Border
+  Region / Military Region / Sub-bureau, the Comradeship Association, the National
+  Revolution News Agency, the Bureau of Confidential Investigation, the Fuxing
+  Daily, the Jiefang Daily, Kenanpo, the Gao Shuxun / Shangdang / Qingfengdian
+  campaigns.
+- Source errors rendered as printed + footnoted (do NOT "fix"): 罗长青 for 罗青长
+  (Luo Qingchang) at printed 106; the April-13 speech dated 1948 (printed 109) AND
+  1947 (printed 116); 平律 for 平津 (Beiping-Tianjin) at printed 115; 野板参三 for
+  野坂参三 (Nosaka); 没谓 for 莫谓 in the Wang Shukai couplet; 魏×/李×× (given names
+  redacted by the source); 和清县 / 二配区 (obscure local names, as printed).
 
 ## Voice sheets (consult at every dialogue scene)
 
 - **Chen Yangshan** (subject). Earnest, modest, understated; plain and sincere,
-  deflects credit. His recollection/letter passages are plain first-person report,
-  no ornament (see ch03's 1979/1988 letters).
-- **Zhou Enlai.** Measured, strategic, courteous; principled directives given
-  quietly. Never bombast.
-- **He Long** (returns as Chen's chief in ch04 Jin-Sui). Blunt, earthy, proud,
-  short concrete declaratives. His ch01 line -- the work is remarkable, this man
-  Chen Yangshan is remarkable, worth any money spent -- is the register.
-- **Kang Sheng** (ch03 villain). Cold, sinuous, dangerous; controlled and
-  chilling, not cartoonish ("I say you have problems in your history, so you have
-  problems in your history"). Keep the author's indignation in the facts, not in
-  adjectives.
+  deflects credit. His letter and recollection passages are plain first-person
+  report, no ornament (see ch03's 1979/1988 letters and ch04's Nov-20 letter).
+- **He Long** (Chen's chief in the Jin-Sui chapter). Blunt, earthy, proud, short
+  concrete declaratives. His register: the work is remarkable, this man Chen
+  Yangshan is remarkable, worth any money spent.
+- **Zhou Enlai.** Measured, strategic, courteous; principled directives quietly.
+- **Li Kenong.** Senior, precise, warm to Chen; the intelligence chief's brief,
+  practical instructions.
+- **Kang Sheng** (ch03 villain). Cold, sinuous, dangerous; controlled, not
+  cartoonish. Keep the author's indignation in the facts, not adjectives.
 - **Chen Geng** (ch01-02). Warm, bold, decisive; a soldier's ease.
 - **Bao Junfu** (ch02). Worldly, self-serving charm; keeps faith with the Party.
 
 ## Where the book stands
 
-- Chapters 1-3 COMPLETE. Ch03 closed the Yan'an chapter: Chen Yangshan back from
-  the enemy areas, through the Rectification, and pressing Kang Sheng three times
-  over the comrades killed in the USSR; the chapter ends on his 1979 and 1988
-  letters demanding the murdered cadres' rehabilitation. At the end of 1944 (last
-  line of ch03) He Long has Chen sent to head the Jin-Sui Military Region's
-  investigation bureau -- which is exactly where Chapter 4 opens.
-- B05 = Chapter 4, sections 1-4 (ch04s01-s04): Chen Yangshan's intelligence war in
-  the Jin-Sui border region under He Long.
+- Chapters 1-3 COMPLETE. Chapter 4 sections 1-4 COMPLETE (the Jin-Sui intelligence
+  war under He Long, through the fall of Wei Jian's Taiyuan station in late 1946).
+- B06 = Chapter 4, sections 5-8: the rest of the Jin-Sui intelligence saga
+  (stealing enemy ciphers, the Datong network, the southern-Shandong network, and
+  "legendary tales" of Jin-Sui intelligence).
 
 ## What is NEXT
 
-- B05 = Chapter 4, sections 1-4 (ch04s01-ch04s04), PDF 117-146 (render 116-146 for
-  the opener), printed 106-135. NEW file out/ch04_reading.md (sections 1-4) +
-  data/zh/ch04.txt; add `ch04` to data/check_config.json + a scoped
-  data/check_config.ch04.json. B06 appends sections 5-8.
+- B06 = Chapter 4, sections 5-8 (ch04s05-ch04s08), PDF 147-171, printed 136-160.
+  APPEND to the EXISTING out/ch04_reading.md + data/zh/ch04.txt (do NOT start a new
+  file). ch04 is already mapped in both check configs. B07 = Chapter 5.
 
 ## Open traps / environment state
 
-- Offset printed = pdf - 11 (constant). Front matter runs a SECOND folio
-  sequence. Chapter-opener rectos carry a photo above the heading (SKIP it). PDF
-  p243 is an Anna's Archive metadata leaf.
-- OMP_THREAD_LIMIT=1 for tesseract; kill the process group; pgrep -c tesseract=0.
-  ocr_dual.py can exceed a 120s foreground timeout on a full chapter -- run it in
-  the background or in page-range chunks.
+- Offset printed = pdf - 11 (constant). Front matter runs a SECOND folio sequence.
+  Chapter-opener rectos carry a photo above the heading (SKIP it). PDF p243 is an
+  Anna's Archive metadata leaf.
+- OMP_THREAD_LIMIT=1 for tesseract; kill the process GROUP; pgrep -c tesseract=0.
+  The per-page ocr loop and ocr_dual.py exceed a 120s foreground timeout on a full
+  chapter -- background them or chunk the range.
 - Reading files are PLAIN ASCII (straight quotes, literal em dash only for real
   interruption); the builder typographizes at render. NO dashed-in appositive
-  glosses. Note bodies: numeric character references only (&#8211; &#8212;), never
-  named entities; the builder typographizes note-body text too. <i> is allowed in
-  note bodies.
+  glosses. Note bodies: numeric character references only (&#8211; &#8212; &#160;),
+  never named entities; <i> is allowed.
 - check_content is STRICT: the decided full glossary name must appear once in each
-  paragraph the source names the referent (short forms/pronouns fail it). Put the
-  full name once per paragraph, pronouns after.
+  paragraph the source names the referent (short forms/pronouns fail it).
+- A long single paragraph's TAIL can be silently dropped in the English on a first
+  pass (B05). Verify every long paragraph's final sentences against the scan.
 - Figure alt: NO straight double quotes (breaks alt="..." -> epubcheck fatal).
-  Crop OUT captions and wraparound body text from figure images.
+  figures.json `file` is a BARE filename. Crop OUT captions and wraparound text.
 - epubcheck jar at /tmp/epubcheck-5.1.0/epubcheck.jar (re-fetch per setup if the
   container is fresh).

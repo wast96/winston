@@ -1204,6 +1204,413 @@
       "pinyin": "Jiluofu",
       "status": "decided",
       "note": "Sergei Kirov, the Leningrad Party leader assassinated in 1934."
+    },
+    "阎锡山": {
+      "en": "Yan Xishan",
+      "pinyin": "Yan Xishan",
+      "status": "decided"
+    },
+    "傅作义": {
+      "en": "Fu Zuoyi",
+      "pinyin": "Fu Zuoyi",
+      "status": "decided"
+    },
+    "谭政文": {
+      "en": "Tan Zhengwen",
+      "pinyin": "Tan Zhengwen",
+      "status": "decided"
+    },
+    "李井泉": {
+      "en": "Li Jingquan",
+      "pinyin": "Li Jingquan",
+      "status": "decided"
+    },
+    "冯基平": {
+      "en": "Feng Jiping",
+      "pinyin": "Feng Jiping",
+      "status": "decided"
+    },
+    "冯晋臣": {
+      "en": "Feng Jinchen",
+      "pinyin": "Feng Jinchen",
+      "status": "decided"
+    },
+    "梁寒冰": {
+      "en": "Liang Hanbing",
+      "pinyin": "Liang Hanbing",
+      "status": "decided"
+    },
+    "周全": {
+      "en": "Zhou Quan",
+      "pinyin": "Zhou Quan",
+      "status": "decided"
+    },
+    "崔耀南": {
+      "en": "Cui Yaonan",
+      "pinyin": "Cui Yaonan",
+      "status": "decided"
+    },
+    "张守德": {
+      "en": "Zhang Shoude",
+      "pinyin": "Zhang Shoude",
+      "status": "decided"
+    },
+    "马明方": {
+      "en": "Ma Mingfang",
+      "pinyin": "Ma Mingfang",
+      "status": "decided"
+    },
+    "李甫山": {
+      "en": "Li Fushan",
+      "pinyin": "Li Fushan",
+      "status": "decided"
+    },
+    "裴周玉": {
+      "en": "Pei Zhouyu",
+      "pinyin": "Pei Zhouyu",
+      "status": "decided"
+    },
+    "周逸": {
+      "en": "Zhou Yi",
+      "pinyin": "Zhou Yi",
+      "status": "decided"
+    },
+    "邹大鹏": {
+      "en": "Zou Dapeng",
+      "pinyin": "Zou Dapeng",
+      "status": "decided"
+    },
+    "聂元素": {
+      "en": "Nie Yuansu",
+      "pinyin": "Nie Yuansu",
+      "status": "provisional"
+    },
+    "王树楷": {
+      "en": "Wang Shukai",
+      "pinyin": "Wang Shukai",
+      "status": "decided"
+    },
+    "赵金鳌": {
+      "en": "Zhao Jin'ao",
+      "pinyin": "Zhao Jin'ao",
+      "status": "provisional"
+    },
+    "赵精弟": {
+      "en": "Zhao Jingdi",
+      "pinyin": "Zhao Jingdi",
+      "status": "provisional"
+    },
+    "鄂友三": {
+      "en": "E Yousan",
+      "pinyin": "E Yousan",
+      "status": "decided"
+    },
+    "马鸿逵": {
+      "en": "Ma Hongkui",
+      "pinyin": "Ma Hongkui",
+      "status": "decided"
+    },
+    "董其武": {
+      "en": "Dong Qiwu",
+      "pinyin": "Dong Qiwu",
+      "status": "decided"
+    },
+    "梁升元": {
+      "en": "Liang Shengyuan",
+      "pinyin": "Liang Shengyuan",
+      "status": "provisional"
+    },
+    "吴雷远": {
+      "en": "Wu Leiyuan",
+      "pinyin": "Wu Leiyuan",
+      "status": "provisional"
+    },
+    "傅觉民": {
+      "en": "Fu Juemin",
+      "pinyin": "Fu Juemin",
+      "status": "provisional"
+    },
+    "程德底": {
+      "en": "Cheng Dedi",
+      "pinyin": "Cheng Dedi",
+      "status": "provisional"
+    },
+    "赵思武": {
+      "en": "Zhao Siwu",
+      "pinyin": "Zhao Siwu",
+      "status": "provisional"
+    },
+    "高树勋": {
+      "en": "Gao Shuxun",
+      "pinyin": "Gao Shuxun",
+      "status": "decided"
+    },
+    "潘朔端": {
+      "en": "Pan Shuoduan",
+      "pinyin": "Pan Shuoduan",
+      "status": "decided"
+    },
+    "刘善本": {
+      "en": "Liu Shanben",
+      "pinyin": "Liu Shanben",
+      "status": "decided"
+    },
+    "樊仰斌": {
+      "en": "Fan Yangbin",
+      "pinyin": "Fan Yangbin",
+      "status": "provisional"
+    },
+    "尉顺时": {
+      "en": "Wei Shunshi",
+      "pinyin": "Wei Shunshi",
+      "status": "provisional"
+    },
+    "马歇尔": {
+      "en": "Marshall",
+      "pinyin": "Maxie'er",
+      "status": "attested"
+    },
+    "张治中": {
+      "en": "Zhang Zhizhong",
+      "pinyin": "Zhang Zhizhong",
+      "status": "decided"
+    },
+    "陈诚": {
+      "en": "Chen Cheng",
+      "pinyin": "Chen Cheng",
+      "status": "decided"
+    },
+    "韦健": {
+      "en": "Wei Jian",
+      "pinyin": "Wei Jian",
+      "status": "decided"
+    },
+    "曹言行": {
+      "en": "Cao Yanxing",
+      "pinyin": "Cao Yanxing",
+      "status": "decided"
+    },
+    "吴佩申": {
+      "en": "Wu Peishen",
+      "pinyin": "Wu Peishen",
+      "status": "provisional"
+    },
+    "张力先": {
+      "en": "Zhang Lixian",
+      "pinyin": "Zhang Lixian",
+      "status": "provisional"
+    },
+    "亢礼": {
+      "en": "Kang Li",
+      "pinyin": "Kang Li",
+      "status": "provisional"
+    },
+    "安子沨": {
+      "en": "An Zifeng",
+      "pinyin": "An Zifeng",
+      "status": "provisional"
+    },
+    "韩彬": {
+      "en": "Han Bin",
+      "pinyin": "Han Bin",
+      "status": "provisional"
+    },
+    "梁延武": {
+      "en": "Liang Yanwu",
+      "pinyin": "Liang Yanwu",
+      "status": "provisional"
+    },
+    "阎慧卿": {
+      "en": "Yan Huiqing",
+      "pinyin": "Yan Huiqing",
+      "status": "decided"
+    },
+    "王靖国": {
+      "en": "Wang Jingguo",
+      "pinyin": "Wang Jingguo",
+      "status": "decided"
+    },
+    "梁化之": {
+      "en": "Liang Huazhi",
+      "pinyin": "Liang Huazhi",
+      "status": "decided"
+    },
+    "孟际丰": {
+      "en": "Meng Jifeng",
+      "pinyin": "Meng Jifeng",
+      "status": "provisional"
+    },
+    "薄毓相": {
+      "en": "Bo Yuxiang",
+      "pinyin": "Bo Yuxiang",
+      "status": "provisional"
+    },
+    "卢学铭": {
+      "en": "Lu Xueming",
+      "pinyin": "Lu Xueming",
+      "status": "provisional"
+    },
+    "王之时": {
+      "en": "Wang Zhishi",
+      "pinyin": "Wang Zhishi",
+      "status": "provisional"
+    },
+    "杨爱源": {
+      "en": "Yang Aiyuan",
+      "pinyin": "Yang Aiyuan",
+      "status": "decided"
+    },
+    "吴哲之": {
+      "en": "Wu Zhezhi",
+      "pinyin": "Wu Zhezhi",
+      "status": "provisional"
+    },
+    "柴泽民": {
+      "en": "Chai Zemin",
+      "pinyin": "Chai Zemin",
+      "status": "decided"
+    },
+    "郝彬南": {
+      "en": "Hao Binnan",
+      "pinyin": "Hao Binnan",
+      "status": "provisional"
+    },
+    "周佩玑": {
+      "en": "Zhou Peiji",
+      "pinyin": "Zhou Peiji",
+      "status": "provisional"
+    },
+    "周佩瑶": {
+      "en": "Zhou Peiyao",
+      "pinyin": "Zhou Peiyao",
+      "status": "provisional"
+    },
+    "安宝之": {
+      "en": "An Baozhi",
+      "pinyin": "An Baozhi",
+      "status": "provisional"
+    },
+    "李文芳": {
+      "en": "Li Wenfang",
+      "pinyin": "Li Wenfang",
+      "status": "decided",
+      "note": "Cover name of Zhang Xinfu (张新甫), the 'Xinfu' of Chen Yangshan's letter."
+    },
+    "张新甫": {
+      "en": "Zhang Xinfu",
+      "pinyin": "Zhang Xinfu",
+      "status": "decided"
+    },
+    "崔守安": {
+      "en": "Cui Shou'an",
+      "pinyin": "Cui Shou'an",
+      "status": "decided",
+      "note": "Formerly Wang Lianzhong (王连仲); the 'Lianzhong' of Chen Yangshan's letter."
+    },
+    "王连仲": {
+      "en": "Wang Lianzhong",
+      "pinyin": "Wang Lianzhong",
+      "status": "decided"
+    },
+    "周健民": {
+      "en": "Zhou Jianmin",
+      "pinyin": "Zhou Jianmin",
+      "status": "provisional"
+    },
+    "朱崇廉": {
+      "en": "Zhu Chonglian",
+      "pinyin": "Zhu Chonglian",
+      "status": "provisional"
+    },
+    "张若玲": {
+      "en": "Zhang Ruoling",
+      "pinyin": "Zhang Ruoling",
+      "status": "decided"
+    },
+    "徐端": {
+      "en": "Xu Duan",
+      "pinyin": "Xu Duan",
+      "status": "decided"
+    },
+    "杨贞吉": {
+      "en": "Yang Zhenji",
+      "pinyin": "Yang Zhenji",
+      "status": "provisional"
+    },
+    "梁吉庆": {
+      "en": "Liang Jiqing",
+      "pinyin": "Liang Jiqing",
+      "status": "provisional"
+    },
+    "阎汉栋": {
+      "en": "Yan Handong",
+      "pinyin": "Yan Handong",
+      "status": "provisional"
+    },
+    "王玉弟": {
+      "en": "Wang Yudi",
+      "pinyin": "Wang Yudi",
+      "status": "provisional"
+    },
+    "刘华民": {
+      "en": "Liu Huamin",
+      "pinyin": "Liu Huamin",
+      "status": "provisional"
+    },
+    "马晨": {
+      "en": "Ma Chen",
+      "pinyin": "Ma Chen",
+      "status": "decided"
+    },
+    "薛博民": {
+      "en": "Xue Bomin",
+      "pinyin": "Xue Bomin",
+      "status": "provisional"
+    },
+    "何炯": {
+      "en": "He Jiong",
+      "pinyin": "He Jiong",
+      "status": "provisional"
+    },
+    "田树兰": {
+      "en": "Tian Shulan",
+      "pinyin": "Tian Shulan",
+      "status": "provisional"
+    },
+    "任治卿": {
+      "en": "Ren Zhiqing",
+      "pinyin": "Ren Zhiqing",
+      "status": "provisional"
+    },
+    "阎起鹅": {
+      "en": "Yan Qi'e",
+      "pinyin": "Yan Qi'e",
+      "status": "provisional"
+    },
+    "吕拉双": {
+      "en": "Lü Lashuang",
+      "pinyin": "Lü Lashuang",
+      "status": "provisional"
+    },
+    "王谦": {
+      "en": "Wang Qian",
+      "pinyin": "Wang Qian",
+      "status": "decided"
+    },
+    "郑校先": {
+      "en": "Zheng Xiaoxian",
+      "pinyin": "Zheng Xiaoxian",
+      "status": "provisional"
+    },
+    "王国华": {
+      "en": "Wang Guohua",
+      "pinyin": "Wang Guohua",
+      "status": "provisional"
+    },
+    "张培珍": {
+      "en": "Zhang Peizhen",
+      "pinyin": "Zhang Peizhen",
+      "status": "provisional"
     }
   },
   "organizations": {
@@ -1490,6 +1897,38 @@
       "en": "the Ministry of State Security",
       "pinyin": "Guojia Anquan Bu",
       "status": "decided"
+    },
+    "晋绥分局": {
+      "en": "the Jin-Sui Sub-bureau",
+      "pinyin": "Jin-Sui fenju",
+      "status": "decided"
+    },
+    "同志会": {
+      "en": "the Comradeship Association",
+      "pinyin": "Tongzhihui",
+      "status": "decided",
+      "note": "Yan Xishan's political mass organization, the 'Comradeship Association for the Sacrifice to Save the Nation'."
+    },
+    "民族革命通讯社": {
+      "en": "the National Revolution News Agency",
+      "pinyin": "Minzu Geming Tongxunshe",
+      "status": "decided"
+    },
+    "保密局": {
+      "en": "the Bureau of Confidential Investigation",
+      "pinyin": "Baomiju",
+      "status": "decided",
+      "note": "The Nationalists' Bureau of Confidential Investigation (Baomiju), the postwar successor to the Juntong (Bureau of Investigation and Statistics)."
+    },
+    "复兴日报": {
+      "en": "the Fuxing Daily",
+      "pinyin": "Fuxing Ribao",
+      "status": "decided"
+    },
+    "解放日报": {
+      "en": "the Jiefang Daily",
+      "pinyin": "Jiefang Ribao",
+      "status": "decided"
     }
   },
   "places": {
@@ -1695,6 +2134,11 @@
       "en": "Qixianzhuang",
       "pinyin": "Qixianzhuang",
       "status": "decided"
+    },
+    "克难坡": {
+      "en": "Kenanpo",
+      "pinyin": "Kenanpo",
+      "status": "decided"
     }
   },
   "events": {
@@ -1791,6 +2235,21 @@
     "八一宣言": {
       "en": "the August First Declaration",
       "pinyin": "Ba-Yi Xuanyan",
+      "status": "decided"
+    },
+    "高树勋运动": {
+      "en": "the Gao Shuxun Movement",
+      "pinyin": "Gao Shuxun yundong",
+      "status": "decided"
+    },
+    "上党战役": {
+      "en": "the Shangdang Campaign",
+      "pinyin": "Shangdang zhanyi",
+      "status": "decided"
+    },
+    "清风店战役": {
+      "en": "the Qingfengdian Campaign",
+      "pinyin": "Qingfengdian zhanyi",
       "status": "decided"
     }
   },

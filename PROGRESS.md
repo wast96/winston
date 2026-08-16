@@ -2,6 +2,110 @@
 
 The running per-batch log. Written as work happens, not at the end.
 
+## Batch 5. Chapter 4, sections 1–4 "Hard Fighting in the Jin-Sui Border Region" (ch04s01–s04; PDF 117–146, printed 106–135)
+
+NEW file out/ch04_reading.md carrying sections 1–4 only (four "###" section
+headings, English titles from book.json) + data/zh/ch04.txt. Batch 6 appends
+sections 5–8 to the same file. Added `ch04` to data/check_config.json and made a
+scoped data/check_config.ch04.json for the structural checks (data/zh gitignored;
+ch01–03 zh gone on a fresh checkout). PDF 116 (chapter opener recto, printed 105)
+carries the title photo above the heading — SKIPPED per ch01/ch02/ch03 — and NO
+chapter-intro paragraphs before section 1, so the file opens straight on "### 1.".
+
+### Content
+- S1 (情报纪事，陈养山晋绥经历, PDF 117): the Jin-Sui base area and its strategic
+  role; Chen Yangshan sent in early 1945 to rebuild the Investigation Bureau;
+  vetting, station-building, the Dec 1945 merger under Tan Zhengwen, He Long's and
+  Li Kenong's 1947 talks, land reform, the 1948 takeover-prep, Linfen liberated.
+- S2 (再创佳绩，贺龙麾下立新功, PDF 122): Luo Qingchang's record of He Long's
+  esteem; the 1927–28 Shanghai backstory of why He Long asked for Chen by name;
+  the vetting of Wang Shukai; Pei Zhouyu's recollections (source's own bio footnote
+  reproduced); the book/press-collection task; exploits against enemy agents;
+  Wang Shukai's martyrdom at Youyu.
+- S3 (依势利导，全力搜集战略情报, PDF 130): the post-1945 pivot to watching the
+  Nationalists; the Investigation Bureau / Public Security Bureau merger; the Gao
+  Shuxun Movement (Gao's Handan defection, Pan Shuoduan at Haicheng, Liu Shanben's
+  B-24); breaking up Yan's forces; five summarized lines of work; Suiyuan's
+  peaceful liberation; Chen's four years praised by He Long and Li Kenong.
+- S4 (剑胆琴心，陈养山一封绝密信, PDF 137): Chen Yangshan's Nov-20 top-secret
+  letter (a {v} block) on the loss of "Xinfu"; then the whole saga of Wei Jian's
+  underground station in Yan Xishan's Taiyuan — the Kenanpo years inside the
+  "Comradeship Association," the "Fifth Miss" coup, the Xieyiheng dim-sum-shop
+  cover, its Oct 1946 collapse, and the deaths of Zhang Xinfu (Li Wenfang), Cui
+  Shou'an, Zhou Peiji, and Lü Lashuang.
+
+### Paragraph structure (142 body paras: S1=28, S2=34, S3=33, S4=47)
+- Section headings 4; `{v}` lines 8 (all in S4: the 7-line letter — salutation,
+  three body paras, closing, signature, date — plus the newspaper missing-person
+  notice). data/zh/ch04.txt and out/ch04_reading.md are structurally identical
+  line-for-line, so every positional check aligns.
+- CAUGHT one silent English drop on first pass: source line 143 (张若玲一回去…
+  五花大绑) is ONE long paragraph including the chase, water pit, and Zhou Peiji's
+  trussing; the first draft ended it early at "…district office." Restored the
+  missing tail against the p146 scan (rule 4). Number check's [5] flag (五花大绑)
+  is what surfaced it.
+
+### OCR / silent-loss (crop-verified this batch)
+- Same crop as ch01–ch03 (do-not-revert): --lang chi_sim --psm 6 --left 0.045
+  --right 0.985 --top 0.08, running-head "秘战英雄陈养山", recto (PDF even)
+  --bottom 0.945 / verso (PDF odd) --bottom 0.915, run per-page. ocr_dual.py run
+  (backgrounded — it exceeds a 120s foreground timeout on a full chapter). pgrep
+  -c tesseract 0 after.
+- Crop-verified names/numbers: 罗青长 (printed 罗长青 at 106, a source
+  transposition — one rendering "Luo Qingchang", noted); 周全 (dep. dir., NOT
+  周仝); 崔耀南; 李甫山; 岚县 (mid-zoom lost the 山 radical and read 凤); 電陵桥;
+  赵金鳌/赵精弟; 樊仰斌; 尉顺时; 魏×/李×× (source redacts given names, noted);
+  吕拉双; 阎起鹅; 周佩玑 (玑, vs clansman 周佩瑶). The letter (p137) re-cropped
+  clean and transcribed verbatim; para 3's "更不应该" corroborated by the p138
+  quotation.
+
+### Source errors rendered as printed + footnoted (do NOT "fix")
+- 罗长青 for 罗青长 (Luo Qingchang) at printed 106 — name characters transposed.
+- The April-13 intelligence speech printed TWICE with different years: 1948 at
+  printed 109 (S1) and 1947 at printed 116 (S2), near-identical text — noted.
+- 平律 for 平津 (Beiping-Tianjin) at printed 115 — misprint; sense followed, noted.
+- 野板参三 for 野坂参三 (Nosaka Sanzo) — noted (Okano already glossed in ch03).
+- 没谓 for 莫谓 in the Wang Shukai couplet — noted.
+- 和清县 (Heqing County) and 二配区 rendered as printed (obscure local names).
+
+### Figures (5; every page eyeballed)
+- p0119-f1 (printed 108, re-cropped clean from the lower half), p0131-f1 (printed
+  120), p0132-f1 (printed 121, ten named Taiyuan-station comrades), p0133-f1
+  (printed 122, Gao Shuxun portrait), p0137-f1 (printed 126, Zheng Xiaoxian
+  portrait). The chapter-opener photo (p116) SKIPPED per convention; find_figures
+  flagged it and was ignored. All alt text single-quote-only (no straight
+  doubles). Captions are the translator's; the who's-who labels are the source's.
+
+### Apparatus
+- notes.json: +40 (book-wide 305). New glosses: the Jin-Sui base area, Luo
+  Qingchang, Stalingrad, the Daqing Mts base, the Gao Shuxun Movement + Gao
+  himself, Pan Shuoduan, Liu Shanben, Li Jingquan, Tan Zhengwen, Ma Mingfang, Yan
+  Xishan + Fu Zuoyi, the Bureau of Confidential Investigation, Pei Zhouyu (the
+  source's own bio, translated), Zhao Jin'ao, the Kawasaki Mansion, the
+  Book-and-Press Newsletter, the April-13 date discrepancy, Liang Shengyuan, the
+  Assoc. for the Promotion of Democracy, E Yousan, Ma Hongkui + Dong Qiwu, the 平律
+  misprint, the Wang Shukai couplet, the ×-redacted defectors, Sun Simiao's maxim,
+  绵里藏针, the Comradeship Association, Kenanpo, Yan Huiqing, the Jiefang Daily,
+  the Marshall three-man group, Chen Cheng, the (puppet) National Assembly, fabi,
+  milk-as-invisible-ink, and the Rescue Movement. Already-noted subjects (He Long,
+  Li Kenong, Special Branch, Kang Sheng, Juntong/Zhongtong, CC Clique, Rectification,
+  Seventh Congress, Zaoyuan, Hu Zongnan, Nosaka/Okano, Wang Shiying, li, Nanchang,
+  Central News Agency, Peng Zhen, Suiyuan) cross-referenced, not re-noted.
+- glossary.json: +91 rows (417 referents). The whole ch04 cast added, sectioned
+  people/organizations/places/events; ONE rendering per referent; Li Wenfang=Zhang
+  Xinfu and Cui Shou'an=Wang Lianzhong cross-noted in their rows.
+- data/noise.txt: +5 (百灵庙 place, 野板参三 name, 窘态百出 & 五花大绑 idioms, 40万
+  arabic+万 magnitude split — all carried in English prose, none quantities).
+
+### Checks (all green)
+- parity 142=142; check_numbers 0 unresolved (via bilingual + noise); check_content
+  0 displaced (352 name occurrences, all in the paired paragraph); check_align OK
+  (median 4.69 en/han); qc_entities 0 misses; check_structure PASS; check_apparatus
+  0/0; check_register within tolerance of ch01 (contr 1.4/1k, 0 em-dash, rhythm
+  0.71); check_style_freshness all layers fresh. Build: 4 of 12 chapters, 305 notes;
+  qa_epub PASS (51 files, all links resolve); epubcheck 0 fatals / 0 errors / 0
+  warnings.
+
 ## Batch 4. Chapter 3 "From Enemy-Occupied Territory Back to Yan'an" (ch03; PDF 93–115, printed 82–104)
 
 Whole chapter in one file: out/ch03_reading.md + data/zh/ch03.txt, three "###"
