@@ -282,5 +282,31 @@
       "alt": "A black-and-white photograph of a young couple posed close together, a short-haired young woman in a checked jacket in front and a young man in a dark jacket behind her.",
       "caption": "Ding Ling and Hu Yepin, husband and wife. (The label is the source's; the caption is the translator's.)"
     }
+  ],
+  "ch08": [
+    {
+      "file": "ch08-xu-enzeng.png",
+      "before": "Zou Taofen described Xu Enzeng",
+      "alt": "A black-and-white portrait photograph of a young man in a high-collared jacket, wearing round spectacles.",
+      "caption": "Xu Enzeng, who as its public face headed the Kuomintang's Party Affairs Investigation Section. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch08-chen-lifu.png",
+      "before": "But I hold stubbornly to another",
+      "alt": "A black-and-white portrait photograph of a man in a suit and tie, wearing round spectacles.",
+      "caption": "Chen Lifu, of the Kuomintang's 'CC' faction, under whom the Investigation Section was founded. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch08-longtan-trio.png",
+      "before": "Li Kenong, Qian Zhuangfei, and Hu Di took",
+      "alt": "Three black-and-white portrait photographs side by side of three men, each in spectacles; the man at right has a mustache and a fur-collared coat.",
+      "caption": "The 'Three Heroes of Longtan,' left to right: Li Kenong, Qian Zhuangfei, and Hu Di. (The labels are the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch08-archive-caselist.png",
+      "before": "Just then the renegade You Chongxin",
+      "alt": "A photograph of a handwritten Chinese archival document, a ruled table listing arrested persons' names, dates and places of arrest, officers in charge, and dispositions.",
+      "caption": "A case-list from the detection section of the Kuomintang's Wuhan field headquarters. First on this old file is You Chongxin (original name You Wuhun) who, before defecting and selling out Gu Shunzhang, had been a district Party secretary in Shanghai; the fourth entry, 'Hua Guangqi,' is annotated 'i.e. Gu Shunzhang.' (The caption renders the source's own.)"
+    }
   ]
 }

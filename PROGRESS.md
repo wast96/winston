@@ -774,3 +774,98 @@ to end. 56 body paragraphs.
 - Terms: 驳壳枪 = Mauser (the "box cannon"); 镰刀斧头旗 = the sickle-and-axe flag;
   长衫 long gown, 马褂 riding jacket, 旗袍 qipao; 戥子 native/foreign scales;
   瘪三 biesan (glossed "street urchin" inline).
+
+## B08 = Chapter Eight "金陵夜，十万火急 / A Nanjing Night, Deadly Urgent" (ch08)
+
+### What was produced
+- Full translation of ch08: 252 paragraphs across ten sections, `out/ch08_reading.md`.
+  PDF 172-207, printed 158-192; offset constant 15, no plate drift, folios read
+  off the scan at each opener.
+- `data/zh/ch08.txt` hand-transcribed off the scans (OCR too noisy on the dense
+  memoirist names); chapter title marked `###` per the parity gotcha.
+- 21 footnotes; 4 figures; 43 new glossary rows.
+
+### Checks run and results
+- Parity 252=252 (check_structure --pairs OK). verify_unit: parity, numbers,
+  anchors all clean.
+- Numbers: check_numbers 0 unresolved after the B08 noise block (all flags were
+  word-internal numerals in names/places, idioms, or rounded rhetoric the English
+  already carries: 张万栋, 万状, 百昌, 千奇百怪, 百计/千计, 六安, 九旬, 接二连三,
+  九江, 星期六, 垂涎三尺, 三四十年代, 万安). NONE was a real dropped quantity.
+- qc_entities 0 misses; check_content 0 displaced across ALL units (416 glossary
+  names now). One caught displacement fixed: 夏娘娘 was drafted "Auntie Xia",
+  corrected to the decided "Granny Xia".
+- check_align OK (median 4.78 en/han, no pair strays > 2.2x).
+- Register vs frozen ch01: within tolerance. Narratorial signals close (em-dash
+  5.0/1k vs ref 8.2; rhythm CV 0.69 vs 0.67; sent median 23; shall% 22 vs 20).
+  Dialogue-contraction 1.3/1k (4.49x ref) is HIGH but expected: this chapter runs
+  heavily on quoted family-interview speech (Qian Hong, Li Li, Li Lun, Nie Li,
+  Dong Huifang, Li Lili), which is colloquial and contracts. Not drift.
+- Tail verification: final paragraphs (the Ouyang Yi 1998 account of Qian
+  Zhuangfei's death) read against p206 as translated. Clean.
+- qa_epub PASS (296 refs/bodies/backlinks resolve); epubcheck 0/0.
+
+### Notes placed (21) and NOT re-noted
+- Placed at first ch08 appearance: the seventeenth year of the Republic (=1928);
+  Carnegie Institute of Technology (source's 康奈杰工业大学, with the electrical-
+  vs-business-management source split flagged); Zou Taofen; natural (unbound)
+  feet; Qian Xuantong / Lu Xun's Madman's Diary; the Wuyue kings; Li Lili;
+  Sun Tzu's five spies; the Three Heroes of Longtan (龙潭三杰, the emblem);
+  the West Lake Exposition; Nie Rongzhen; the "assassinate Chiang" question
+  (fact-check verdict, left open); the Central Plains War; the First Encirclement
+  Campaign; Zhu/Mao/Peng/Huang; bang-bang chicken; the Horse King's three eyes;
+  the Zeng Guofan book-code; the Wu River; how Qian Zhuangfei died (the three
+  contested accounts, verdict in the note); the Western Route Army.
+- **NOT re-noted (already placed earlier, cross-referenced):** Gu Shunzhang,
+  Central Special Branch, Red Squad, Zhongtong, CC Clique / the two Chens,
+  Borodin, Wakeman, the GPU, the Comintern, Zhang Guotao (ch01), Dong Jianwu
+  (ch01/ch04), Song Qingling (ch01), Cai Mengjian (ch02, covers his arrest of
+  Gu), Li Lisan (the man), Wang Ming, Zeng Guofan (partially), 化广奇/黎明 (Gu's
+  stage name and alias), Zhou Enlai, Chen Geng, Chiang Kai-shek, silver dollars.
+
+### Renderings settled this batch (also in glossary.json)
+- Aliases previously undocumented in glossary, now added: 化广奇 = Hua Guangqi
+  (Gu's stage name; the p193 archive file spells it 化光奇), 黎明 = Liming.
+- Three Heroes of Longtan (龙潭三杰) = Qian Zhuangfei, Li Kenong, Hu Di.
+  NOTE: 李克农 and 胡底 are deliberately NOT in the entity-checked glossary
+  (as in B01-B07): both recur constantly with pronoun runs, and adding them would
+  fire false check_content displacement across the whole book. Rendered
+  consistently Li Kenong / Hu Di throughout.
+- People (new rows): 钱江 Qian Jiang, 钱泓 Qian Hong (existed), 钱玄同 Qian
+  Xuantong, 邹韬奋 Zou Taofen, 王思诚 Wang Sicheng, 李熙元 Li Xiyuan, 孟真 Meng
+  Zhen, 张暹中 Zhang Xianzhong, 董惠芳 Dong Huifang, 盛岳 Sheng Yue, 聂荣臻 Nie
+  Rongzhen, 聂力 Nie Li, 李力 Li Li, 李仑 Li Lun, 陈昌浩 Chen Changhao, 沈泽民
+  Shen Zemin, 顾建中 Gu Jianzhong, 张冲 Zhang Chong, 吴德峰 Wu Defeng, 陈知建
+  Chen Zhijian, 尤崇新 You Chongxin (本名游无魂 You Wuhun), 鲁涤平 Lu Diping,
+  何成濬 He Chengjun, 王素卿 Wang Suqing ("Miss Wang"), 刘杞夫 Liu Qifu, 徐双英
+  Xu Shuangying, 黄纲 Huang Gang, 潘虹 Pan Hong, 黎莉莉 Li Lili, 王智涛 Wang
+  Zhitao, 欧阳毅 Ouyang Yi, 顾竹轩 Gu Zhuxuan, 常春恒 Chang Chunheng, 王明 Wang
+  Ming, 王云程 Wang Yuncheng, 陈寿昌 Chen Shouchang, 宋庆龄 Song Qingling, 鲍罗廷
+  Borodin, 魏斐德 Wakeman.
+- Organizations: 正元实业社 = the Zhengyuan Industrial Company; 长江通讯社 = the
+  Yangtze News Agency; 民智通讯社 = the Minzhi News Agency; 长城通讯社 = the Great
+  Wall News Agency. Existing reused: 中统 the Zhongtong, 党务调查科 the Party
+  Affairs Investigation Section (handle: the Investigation Section), 中央特科 the
+  Central Special Branch, 红队 the Red Squad.
+- Places kept as printed with source inconsistencies preserved: 康奈杰工业大学
+  (Carnegie); 脚渡河 the Jiaodu River (crossed on the Long March, spring 1935);
+  达智门/大智门 both rendered Dazhimen; 新市场游艺场 the New Market pleasure grounds
+  vs 新世界游艺场 the New World pleasure grounds (source uses both; kept).
+- The Internationale (S5): rendered as verse ({p}, one line per source line),
+  faithful to the Chinese lyric, footnoted-adjacent to the martyr set-piece.
+- Set-off block quotes rendered {v}: the Xu Enzeng memoir (S1), the Chen Yun
+  biography (S8), the Wang Zhitao death account (S10). Two spring-scene white-space
+  gaps on p192 kept as ordinary paragraph breaks (no `***`, consistent with
+  B01-B07 which use none).
+
+### Figures (4)
+- ch08-xu-enzeng.png (p174 portrait), ch08-chen-lifu.png (p175 portrait),
+  ch08-longtan-trio.png (p180, the three heroes), ch08-archive-caselist.png
+  (p193 full-page handwritten case-list of the Wuhan detection section).
+- p207 is a washed-out full-page chapter-divider illustration = design furniture,
+  NOT a captioned figure (per the standing B07 trap note). Excluded deliberately.
+
+### Standing decisions / traps confirmed
+- The dual-OCR (ocr_dual.py) writes nothing consumable here; direct reading of the
+  300-DPI page images was the reliable transcription method (names too mangled in
+  OCR). data/zh is gitignored, so a fresh checkout cannot regenerate ch08.txt.

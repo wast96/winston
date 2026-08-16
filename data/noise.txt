@@ -209,3 +209,33 @@
 几十两
 # 零食 "snacks" — 零 is part of the word, not a zero
 零食
+#
+# --- B08 (ch08) block ---
+# 张万栋 (citation author Zhang Wandong) — 万 is part of the name, not 10,000
+张万栋
+# 恐惶万状 "beside himself with terror" (idiom) — 万状 = "in ten thousand forms"
+万状
+# 百昌 (Hu Di's original name) — 百 is part of the name, not 100
+百昌
+# 千奇百怪 "every wonder and freak" (idiom) — 千/百 not a count
+千奇百怪
+# 数以百计 "by the hundred" (rounded rhetorical) — English carries "by the hundred"
+百计
+# 数以千计 "by the thousand" (rounded rhetorical) — English carries "by the thousand"
+千计
+# 六安县 Lu'an county (place) — 六 is part of the name, not a count
+六安
+# 九旬 "past ninety" (年逾九旬) — rendered "past ninety"; 旬 = decade-unit like 八秩
+九旬
+# 接二连三 "one after another" (idiom) — 二/三 not a count
+接二连三
+# 九江 Jiujiang (place) — 九 is part of the name, not a count
+九江
+# 万安 Wan'an (Jiangxi place) — 万 is part of the name, not 10,000
+万安
+# 星期六 Saturday — 六 is part of the weekday word, not a count
+星期六
+# 垂涎三尺 "drooling" (idiom, 三尺 = three feet) — 三 not a count
+垂涎三尺
+# 三四十年代 "the 1930s and 1940s" — rendered as the two decades; 三四十 not a count
+三四十年代
