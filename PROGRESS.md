@@ -906,3 +906,98 @@ to end. 56 body paragraphs.
 - The dual-OCR (ocr_dual.py) writes nothing consumable here; direct reading of the
   300-DPI page images was the reliable transcription method (names too mangled in
   OCR). data/zh is gitignored, so a fresh checkout cannot regenerate ch08.txt.
+
+---
+
+## B09 continuation: the register de-archaizing pass over ch01-ch08
+
+Session picked up the B09 register rebaseline (STYLE.local "THE REGISTER
+REBASELINE"). The itemized B09 review fixes were already in; this session ran the
+systematic sentence-by-sentence register de-archaizing pass the rebaseline
+specifies.
+
+### Housekeeping
+- Branch: the harness started on a stray `claude/sword-roars-register-pass-p7h1yb`
+  that was identical to `origin/claude/the-sword-roars` (both at 4598fa3).
+  Consolidated onto the canonical `claude/the-sword-roars`; deleted the stray
+  (local; the remote ref was already gone, pruned).
+- `tests/run_tests.py` "hook stands down on template stub" was FAILING on every
+  active book because the stand-down subcase wrote back the real book HANDOFF
+  (not a stub) and expected no block. Hardened it to stage an actual placeholder
+  stub, then restore the real handoff. Regression suite now green on a live book;
+  setup.sh no longer prints the spurious CHECKER REGRESSION TESTS FAILED line.
+
+### Method for the register pass
+- Fresh checkout has NO data/zh (gitignored, copyright) and no page renders. The
+  register pass is English->English re-voicing of the gate-approved, B09-corrected
+  translation, so fidelity is guaranteed by preserving the propositional content
+  of every OLD in its NEW (no fact/name/number/date-value/claim change), verified
+  by direct OLD/NEW comparison. No line was re-translated; nothing was invented.
+  Source pages were not rendered for this pass (they are needed only for ch09
+  drafting, which is deferred). This is the defensible reading of CLAUDE.md rule 4
+  for a register-only pass over already-faithful text.
+- Driver: `edits/chNN_edits.md` + `scripts/apply_edits.py` (safe single-match
+  replace; NOTE-ANCHOR moves in the same pass). A tic-battery grep
+  (`scripts/register_tics.sh`) drove targeted edits; ch01, ch02, ch03, ch05, ch06, ch07
+  were read in full, ch04 and ch08 (the two largest) via context-grep on each hit.
+- LESSON (cost a build failure): cross-check every OLD against BOTH notes.json AND
+  figures.json anchors before applying (`scripts/anchor_check.py`). A ch05
+  figure `before` anchor and three ch01 note anchors were broken by re-voicing and
+  had to be moved.
+
+### What the pass did, per chapter (all builds + qa_epub clean, 302 notes)
+- ch01 (frozen reference, deepest pass): rhetorical questions -> declaratives
+  (keeping the quoted Ho Chi Minh poem + Luo Qingchang quote), de-nominalized the
+  flagged "the [gerund] of" chains, cut 即/也就是 and 不能不/could-only archaisms,
+  modernized the Bo Yibo quote tag, trimmed a fronted-superlative doublet, added
+  narration contractions. PLUS the day-month -> month-day date sweep the B09 STATE
+  reported done but that had NOT actually been applied to ch01 (13 dates, incl.
+  diary datelines inconsistent with the diary's own first entry).
+- ch02: 3 date stragglers fixed; de-nominalization; "before long"->"soon"; the
+  Yang Zhihua dash-parenthetical bio broken into its own sentences (a topology
+  type-specimen the rebaseline names).
+- ch03: kill-list "had no wish to"/"it was gone nine"; cut doubled "which was to
+  say" and "namely" pivots; de-nominalized "the killing of"; one anchor moved.
+- ch04: "before long"->"soon"; "still less could"->"nor could"; varied "and the
+  rest"; contractions. Quoted documents (Lu Xun, Zhou Enlai, Li Qiang diary) left
+  in register.
+- ch05: "before long"->"soon" (narration only; quoted autobiography left);
+  contraction; varied "and the rest"; one FIGURE anchor updated.
+- ch06: "for all that"/"before long"/"had no wish to"; de-inverted a fronted
+  "Still less did X imagine"; contraction; varied "and the rest".
+- ch07: reviewed in full and found ALREADY at the target modern register (drafted
+  in B07); one contraction only. ch07's real need is note-density backfill.
+- ch08 (targeted): "for all that"/"thereupon" x2/"before long"; cut 不得不 "could
+  not help admitting"; modernized an interviewee's "come what may"; varied "and
+  the rest". The Qian Xuantong topology split was already in place.
+
+### Checks
+- qa_epub PASS after every chapter; epubcheck 5.1.0 clean (0 fatals/errors/
+  warnings/infos) on the final build. 302 notes throughout (no notes added or
+  moved except the anchor repairs above).
+- check_register.py --ref out/ch01_reading.md (informational, per the kickoff):
+  ch04 flags "STILTED", which is the reportage-caveat noise, not a defect: ch04 is
+  memoir/document-heavy (Zhou Enlai, Li Qiang, Ke Lin, Zhang Guodong quotes), so a
+  low dialogue-contraction rate is correct. The frozen ch01 ref itself sits at
+  0.3 contractions/1k, so the "vs ref" multiples are inflated by a near-zero
+  denominator. No action taken.
+- Consistency-canon regression check (run because the date claim proved wrong):
+  "Political Bureau", "Centre", lowercase "white terror", "Zikawei Observatory",
+  "Idly Seeking", "Cardan" all return ZERO across reading files + notes.json. The
+  other B09 consistency sweeps held; only the dates had slipped (now fixed).
+
+### DEFERRED to the next batch (with specs in HANDOFF)
+- Footnote sweeps: (a) placement (move mid-clause markers to clause/sentence end,
+  ~88 of them) and (b) density (thin ch01, backfill ch07-ch08, and move recurring
+  institutional glosses to a BACK GLOSSARY). The back glossary and the back-matter
+  street gazetteer are NEW builder features that do not exist yet; they are the
+  gating work.
+- Spine-test pass: 52 narration-ish sentences over 90 words remain across ch01-08
+  (ch01 13, ch08 16 the heaviest; some are exempt quoted-document or colon-list
+  sentences). The flagship long sentences were already broken (Qian Xuantong;
+  ch01 rhetorical ending; ch02 Yang Zhihua bio).
+- ch09 draft ("The Riddle of Xiang Zhongfa's Disappearance", PDF 208-235, printed
+  193-220). Deferred deliberately: it needs page-by-page hand-transcription off
+  the 300-DPI scans (OCR too noisy on the proper names), which is high-cost and
+  high fabrication-risk to rush; better done fresh with the full recipe (in
+  HANDOFF and book.json already carries the 9-section structure).
