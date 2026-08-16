@@ -94,10 +94,17 @@ def hook_test(failures):
     print("hook fails open on garbage:", "OK"
           if p.returncode == 0 and "block" not in p.stdout else "FAIL")
 
-    # placeholder stand-down: with the template's stub HANDOFF restored, a
-    # wrap-up-looking reply must NOT be blocked (the false positive happened)
-    open(hpath, "w").write(handoff_backup)
+    # placeholder stand-down: when HANDOFF.md still carries the template's
+    # placeholder kickoff (first line "(First line: ...)"), a wrap-up-looking
+    # reply must NOT be blocked (the false positive happened). Stage an actual
+    # stub here; the restored real handoff of an active book is NOT a stub, so
+    # relying on handoff_backup made this subcase false-fail on every book.
+    open(hpath, "w").write(
+        "# HANDOFF\n\n## Message to paste into the next chat\n\n"
+        "```\n(First line: <Project> <Bxx>)\n\nRead CLAUDE.md, then "
+        "HANDOFF.md. Do the batch.\n```\n")
     rc, out = run("Batch done, qa_epub green, book.epub attached.", "t-stub")
+    open(hpath, "w").write(handoff_backup)  # restore the real handoff
     if "block" in out:
         failures.append("hook: blocked during template maintenance "
                         "(placeholder stand-down broken)")
