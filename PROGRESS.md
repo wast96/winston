@@ -548,3 +548,118 @@ to end. 56 body paragraphs.
   August 7 Conference (ch02); He Long (ch01); the Huaihai Campaign (ch04); Avenue
   Joffre / the concessions (ch03/ch04); the Cultural Revolution / "ten years of
   turmoil" (ch01/ch03/ch04).
+
+## B06 = Chapter Six "不是我，是风 / It Was Not Me, It Was the Wind" (ch06)
+
+- **Scope.** PDF 124-149 (printed 109-134). A large chapter: ten sections
+  ch06s01-s10, 26 pages. The chapter divider (p0124) and the full-bleed washed
+  illustration on p0149 are design furniture, not captioned figures. The body
+  text runs PDF 125-148; p0149 (printed 134) is a decorative plate only.
+- **Offset held constant 15** (printed = pdf - 15). Folios read off the scan at
+  every opener; no plate drift.
+- **Source.** data/zh/ch06.txt hand-transcribed from the scans, one paragraph
+  per line, chapter title and section heads as ###. 165 paragraphs. Three
+  displayed block quotations carry the {v} marker in BOTH zh and en (the Chen
+  Tan 1992 torture testimony, the Chen Tan 1992 morgue testimony, and the Guan
+  Wenwei 1985 "three types of penitent"). All other quotations are inline.
+- **Crop-verified names/numbers** (dual-OCR disagreement plus by-eye magnified
+  crops): 谭献犹 Tan Xianyou, 刘希吾 Liu Xiwu; the 16-trainee roster (麦建屏,
+  何世大, 冯一平, 王西雄, 高枕松 etc.); 任玑 Ren Ji (Su Gangda's real name);
+  袁良 Yuan Liang; the Shen Bao list variants 冯敬三 / 何世夫; the Jiangyin
+  martyrs 陈叔璇, 陈维吾, 茅学勤; the full Suzhou Reformatory roll-call on
+  p0147 (彭康 子劼, 曹荻秋 张云卿, 李祚利, 章汉夫 谢启泰, 于寿康 刘松山, 夏之栩,
+  张仃, 凌子风). The obscure locality 亳阳 (Su Gangda's peasant-rising site near
+  Yixing) reads 亳阳 on the scan; romanized Boyang, glossed provisional.
+- **Two source-internal name discrepancies rendered as printed and footnoted:**
+  the school roster's 冯一平 / 何世大 appear in the next section's Shen Bao
+  report as 冯敬三 / 何世夫. The divergence is in the sources (the paper worked
+  from blotter names, themselves partly the prisoners' false confessions); left
+  as printed with a note.
+- **Caption/body road discrepancy:** the p0136 photo caption prints 郝德路
+  where the body prints 赫德路 (Hart Road, today Changde Road). Body form used;
+  the figure caption notes the misprint. 郝德路 is not a real Shanghai road.
+- **Checks (all green).** parity 165 = 165; numbers 0 unresolved (--noise);
+  qc_entities 0 misses; check_align median 4.58 en/han, no pair beyond 2.2x;
+  check_content 390 name occurrences all in the paired paragraph, no
+  displacement; anchors 28/28 resolve; check_apparatus 0/0; qa_epub PASS (255
+  notes total, all refs/bodies/backlinks); epubcheck 0 fatals / 0 errors / 0
+  warnings. Tail (final 8 paragraphs, p0148) verified against the scan; nothing
+  invented.
+- **Register vs the frozen ch01 reference:** within tolerance. The dialogue
+  contraction rate reads 11.4/1k against ch01's 0.3/1k (a 38x ratio), but that
+  is the dialogue-density artifact, not drift: ch01 is nearly dialogue-free
+  while ch06 runs dialogue-heavy (arrest scenes, interrogations, Zhou/Li
+  exchanges). Judged on the narratorial signals per references/register-drift.md,
+  ch06 tracks the reference: em-dash 8.8/1k vs 8.2, rhythm CV 0.73 vs 0.67,
+  shall-share 0% (no formal "shall" leaked into speech), sentence median 24.
+- **Numbers / noise (do not revert).** A B06 block appended to data/noise.txt:
+  romanized names with a numeral (四成里 Sicheng Li, where 四成 misreads as
+  40%/0.4; 曾三 Zeng San; 零陵 Lingling; 万航渡路 Wanhangdu Road); idioms whose
+  magnitude the English carries in words (零敲碎打, 零配件, 零件 all with 零 = "odd",
+  十字路口 "crossroads", 六神无主, 千刀万剐, 千斤重担, 烽火万里, 百姓); and the
+  event date-name 四一二 (the "4-12"). Every entry strips a SOURCE numeral that
+  carries no cardinal quantity, so none can mask a real drop. Five genuine
+  "keep the counted numeral" fixes were made to the English instead of noised:
+  restored "Sixth" (六大会场), "four in all" (四人), "the two of them" (两人,
+  both named), "the two characters" (两字), and "seventeen ... and three" (十七人
+  / 三人) in the sentencing.
+- **Notes: 28.** Fresh tradecraft and material culture (three-stripers /
+  sandaotou, Yangjingbang pidgin, the Zikawei Observatory, the tiger bench and
+  duckling's paddle, the Eight-Trigrams prison plan, the Hao cipher, the
+  "electric-light news"); the Soviet apparatus (Sixth Congress in Moscow, KUTV,
+  the Cheka, the Frunze school); people a Western reader needs (Yun Daiying and
+  the "captive of Chu" allusion, Xia Yan, Zhou Libo, Liu Renjing, Cao Diqiu, Li
+  Shaoshi / Liao Zhongkai, Granny Xia, Zhang Ding & Ling Zifeng, Xiang Zhongfa);
+  New Youth, Lord Mengchang, the "4-12", the Three Principles, the National
+  Labor University; and the two apparatus points above (the roster/Shen Bao name
+  divergence, Su Gangda's coded four-character farewell that gives the section
+  title). Reader-model density, tapering appropriately for a mid-book chapter
+  whose recurring furniture is already placed.
+- **Figures: 3** (`data/figs/ch06-*.png`), hand-cropped with the printed caption
+  line excluded and re-captioned by the translator with the source-label
+  provenance line, each with real alt text: Zhang Shenchuan in later years
+  (placed at s05), the Zhou Enlai / Deng Yingchao couple portrait (s06), and the
+  Central Military Prison corridor (s10). find_figures not relied on; every page
+  eyeballed. No line-art diagrams.
+- **Glossary: ~120 rows added** (people, organizations, places, terms), written
+  straight into the sectioned ledger (NOT via apparatus_merge, per the flat-row
+  gotcha) and re-read verified. Each new row's `en` set to the form actually
+  rendered (the B05 qc_entities/check_content lesson). Reused unchanged from
+  earlier batches: 巨籁达路 = Rue Ratard, 西摩路 = Seymour Road, the Central
+  Special Branch, the Red Squad, the dog-beating squad, shikumen, the Great
+  World, Li Qiang, Xu Enzeng, Chen Lifu, Deng Yingchao, Zhang Guotao, Xiang
+  Zhongfa, Zhao Shiyan, Wu Zhihui.
+
+### Renderings settled this batch (also in glossary.json)
+- People (principals): 涂作潮 = Tu Zuochao (codename "Carpenter"), 张沈川 = Zhang
+  Shenchuan, 苏刚达 = Su Gangda (real name 任玑 Ren Ji), 蔡叔厚 = Cai Shuhou,
+  夏衍 = Xia Yan, 恽代英 = Yun Daiying, 李强 = Li Qiang (reused).
+- Concession streets: 迈尔西爱路 = Route Cardinal Mercier (Maoming South Road),
+  亚尔培路 = Avenue du Roi Albert (Shaanxi South Road), 极司非而路 = Jessfield
+  Road (Wanhangdu Road), 大西路 = Great Western Road (Yan'an West Road), 福煦路 =
+  Avenue Foch (Yan'an Middle Road), 古拔路 = Route Voisin (Fumin Road), 赫德路 =
+  Hart Road (Changde Road), 康脑脱路 = Connaught Road (Kangding Road), 有恒路 =
+  Youheng Road, 三马路 = Sanma Road (Third Horse Road, Hankou Road). Uncertain
+  French names not invented; Chinese-named roads kept as pinyin.
+- Places: 四成里 = Sicheng Li, 福康里 = Fukang Li, 福德坊 = Fudefang, 惠中旅馆 =
+  the Huizhong Hotel, 徐家汇天文台 = the Zikawei Observatory; Soviet places
+  伯力 = Khabarovsk, 符拉迪沃斯托克 = Vladivostok, 列宁格勒 = Leningrad,
+  兹维尼果罗德 = Zvenigorod.
+- Organizations: 福利电器公司 = the Welfare Electric Company (the frequency /
+  flequency / fuli pun carried in the body), 绍敦电机公司 = the Shaodun Electric
+  Company, 党务调查科 = the Party Affairs Investigation Section, 国立劳动大学 =
+  the National Labor University, 中央军人监狱 = the Central Military Prison,
+  苏州反省院 = the Suzhou Reformatory, 商务印书馆 = the Commercial Press.
+- Terms: 木匠 = "Carpenter", 三道头 = three-stripers, 洋泾浜英文 = pidgin English,
+  孟尝君 = Lord Mengchang, 豪密 = the Hao cipher, 老虎凳 = the tiger bench,
+  八卦 = the Eight Trigrams, 铁窗大学 = iron-window university, 楚囚 = captive of
+  Chu, 矽钢片 = silicon-steel laminations, 风语者 = windtalker.
+
+### NOT re-noted (already placed earlier) — cross-referenced, not re-noted
+- The Central Special Branch / Red Squad and the dog-beating squad (ch01/ch03);
+  Zhou Enlai, Gu Shunzhang, Chen Lifu, Xu Enzeng (ch01/earlier); the Sixth
+  Congress framing beyond the Moscow venue (ch01); Chen Duxiu (ch01); the
+  Whampoa Military Academy (ch01); the White Terror (ch01/ch03); Wuhao =
+  Zhou Enlai and Liming = Gu Shunzhang's alias (ch04/ch05); shikumen and
+  tingzijian (ch01/ch03); the Sincere Company (ch01); the concession police and
+  patrolmen (ch04/ch05); silver dollars and the concessions generally.

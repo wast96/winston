@@ -150,3 +150,38 @@
 # 几千里 "thousands of li" (away) — approximate distance; English carries
 #   "thousands of li", but the parser cannot match the plural compound
 几千里
+
+# --- ch06 (B06) place/proper names with a numeral, not a count ---
+# 四成里 Sicheng Li (lane, "Four-cheng Li") — 四成 misreads as 40%/0.4; part of name
+四成里
+# 曾三 Zeng San (person; Special Branch) — 三 part of the given name
+曾三
+# 零陵 Lingling (Chen Tongsheng's birthplace, Hunan) — 零 not the count 0
+零陵
+# 万航渡路 Wanhangdu Road (today's name of Jessfield Road) — 万 part of name
+万航渡路
+# --- ch06 idioms / set phrases with a numeral, magnitude carried in words ---
+# 零敲碎打 "odd-job / piecemeal" (buy-and-sell) — 零 not the count 0
+零敲碎打
+# 零配件 "components / spare parts" — 零 not the count 0
+零配件
+# 零件 "parts" — 零 not the count 0
+零件
+# 十字路口 "crossroads" (cross-shaped) — 十 not the count 10
+十字路口
+# 六神无主 "beside oneself / at a loss" — 六 (six spirits), not a count
+六神无主
+# 千刀万剐 "cut by a thousand knives" (agony) — English carries "ten thousand
+#   knives"; the 千/万 compound is idiom, not a quantity
+千刀万剐
+# 千斤重担 "a thousand-catty load" (heavy responsibility) — English keeps the
+#   "thousand-catty" image; 千 is metaphorical here, not a weighed quantity
+千斤重担
+# 烽火万里 "war-fires for ten thousand li" — English carries the reach; 万 idiom
+烽火万里
+# 百姓 "the common people / common folk" — 百 not the count 100
+百姓
+# --- ch06 event date-name read as one concatenated numeral ---
+# the '4-12' (April 12 1927 Shanghai coup) — rendered "the '4-12'"/April 12;
+#   四一二 concatenates to 412, so the compressed form is noise
+四一二

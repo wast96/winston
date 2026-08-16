@@ -965,6 +965,440 @@
       "pinyin": "Liwu",
       "status": "provisional",
       "note": "Fifth child; died young of diphtheria."
+    },
+    "涂作潮": {
+      "en": "Tu Zuochao",
+      "pinyin": "Tu Zuochao",
+      "status": "attested",
+      "note": "Special Branch wireless mechanic, codename \"Carpenter\"; trained in the USSR."
+    },
+    "张沈川": {
+      "en": "Zhang Shenchuan",
+      "pinyin": "Zhang Shenchuan",
+      "status": "attested",
+      "note": "Built and ran the Party’s first secret radio station; arrested 1930, freed 1936."
+    },
+    "张僧宝": {
+      "en": "Zhang Sengbao",
+      "pinyin": "Zhang Sengbao",
+      "status": "provisional",
+      "note": "Zhang Shenchuan’s daughter, the author’s witness."
+    },
+    "蔡叔厚": {
+      "en": "Cai Shuhou",
+      "pinyin": "Cai Shuhou",
+      "status": "attested",
+      "note": "Electrical engineer whose Shaodun company sheltered Li Qiang’s radio work."
+    },
+    "夏衍": {
+      "en": "Xia Yan",
+      "pinyin": "Xia Yan",
+      "status": "attested",
+      "note": "Playwright and screenwriter; Cai Shuhou’s schoolmate."
+    },
+    "李范一": {
+      "en": "Li Fanyi",
+      "pinyin": "Li Fanyi",
+      "status": "attested",
+      "note": "US-trained engineer who built the Nationalists’ first shortwave sets."
+    },
+    "叶秀峰": {
+      "en": "Ye Xiufeng",
+      "pinyin": "Ye Xiufeng",
+      "status": "attested",
+      "note": "KMT Investigation Section head before Xu Enzeng."
+    },
+    "贺果": {
+      "en": "He Guo",
+      "pinyin": "He Guo",
+      "status": "attested",
+      "note": "Returned worker-student who housed Zhang Shenchuan."
+    },
+    "蒲秋潮": {
+      "en": "Pu Qiuchao",
+      "pinyin": "Pu Qiuchao",
+      "status": "attested",
+      "note": "Zhang Shenchuan’s \"false wife\" at the first secret station."
+    },
+    "吴克坚": {
+      "en": "Wu Kejian",
+      "pinyin": "Wu Kejian",
+      "status": "attested",
+      "note": "Special Branch secretary, Gu Shunzhang’s assistant."
+    },
+    "曾三": {
+      "en": "Zeng San",
+      "pinyin": "Zeng San",
+      "status": "attested",
+      "note": "Special Branch cadre; later head of Party archives."
+    },
+    "伍云甫": {
+      "en": "Wu Yunfu",
+      "pinyin": "Wu Yunfu",
+      "status": "attested",
+      "note": "Party radio and logistics cadre."
+    },
+    "毛齐华": {
+      "en": "Mao Qihua",
+      "pinyin": "Mao Qihua",
+      "status": "attested",
+      "note": "USSR-trained wireless operator and instructor."
+    },
+    "宋濂": {
+      "en": "Song Lian",
+      "pinyin": "Song Lian",
+      "status": "attested",
+      "note": "USSR-trained operator; fled the raid without warning Tu Zuochao."
+    },
+    "谭献犹": {
+      "en": "Tan Xianyou",
+      "pinyin": "Tan Xianyou",
+      "status": "provisional"
+    },
+    "刘希吾": {
+      "en": "Liu Xiwu",
+      "pinyin": "Liu Xiwu",
+      "status": "provisional"
+    },
+    "方廷桢": {
+      "en": "Fang Tingzhen",
+      "pinyin": "Fang Tingzhen",
+      "status": "attested",
+      "note": "USSR-trained operator (alias Fang Zhongru); sentenced 1931."
+    },
+    "方仲如": {
+      "en": "Fang Zhongru",
+      "pinyin": "Fang Zhongru",
+      "status": "attested",
+      "note": "Alias of Fang Tingzhen."
+    },
+    "沈侃夫": {
+      "en": "Shen Kanfu",
+      "pinyin": "Shen Kanfu",
+      "status": "attested",
+      "note": "Red Squad man turned instructor (Chen Baoli); died in prison of TB."
+    },
+    "陈宝礼": {
+      "en": "Chen Baoli",
+      "pinyin": "Chen Baoli",
+      "status": "attested",
+      "note": "Real name of Shen Kanfu."
+    },
+    "李元杰": {
+      "en": "Li Yuanjie",
+      "pinyin": "Li Yuanjie",
+      "status": "provisional"
+    },
+    "程祖怡": {
+      "en": "Cheng Zuyi",
+      "pinyin": "Cheng Zuyi",
+      "status": "provisional"
+    },
+    "陈昌浩": {
+      "en": "Chen Changhao",
+      "pinyin": "Chen Changhao",
+      "status": "attested",
+      "note": "Later a Red Army political commissar."
+    },
+    "刘伯承": {
+      "en": "Liu Bocheng",
+      "pinyin": "Liu Bocheng",
+      "status": "attested",
+      "note": "\"One-eyed dragon\"; later a PLA marshal."
+    },
+    "曾华伦": {
+      "en": "Zeng Hualun",
+      "pinyin": "Zeng Hualun",
+      "status": "provisional"
+    },
+    "苏刚达": {
+      "en": "Su Gangda",
+      "pinyin": "Su Gangda",
+      "status": "attested",
+      "note": "Trainee (real name Ren Ji); five years in the Central Military Prison."
+    },
+    "任玑": {
+      "en": "Ren Ji",
+      "pinyin": "Ren Ji",
+      "status": "attested",
+      "note": "Real name of Su Gangda."
+    },
+    "周立波": {
+      "en": "Zhou Libo",
+      "pinyin": "Zhou Libo",
+      "status": "attested",
+      "note": "Novelist, author of The Hurricane; expelled from Labor University with Su Gangda."
+    },
+    "恽代英": {
+      "en": "Yun Daiying",
+      "pinyin": "Yun Daiying",
+      "status": "attested",
+      "note": "CCP Central Committee member and youth leader; executed 1931."
+    },
+    "陈同生": {
+      "en": "Chen Tongsheng",
+      "pinyin": "Chen Tongsheng",
+      "status": "attested",
+      "note": "Memoirist of the Central Military Prison (Chen Nongfei / Zhang Hanjun)."
+    },
+    "杨枝水": {
+      "en": "Yang Zhishui",
+      "pinyin": "Yang Zhishui",
+      "status": "provisional",
+      "note": "Trainee Gu Shunzhang tried to scapegoat as the informer."
+    },
+    "袁良": {
+      "en": "Yuan Liang",
+      "pinyin": "Yuan Liang",
+      "status": "attested",
+      "note": "Chief of the Shanghai Municipal Public Security Bureau, 1930."
+    },
+    "麦建屏": {
+      "en": "Mai Jianping",
+      "pinyin": "Mai Jianping",
+      "status": "provisional"
+    },
+    "陈坦": {
+      "en": "Chen Tan",
+      "pinyin": "Chen Tan",
+      "status": "attested",
+      "note": "Trainee and prison memoirist (quoted 1992)."
+    },
+    "温明": {
+      "en": "Wen Ming",
+      "pinyin": "Wen Ming",
+      "status": "provisional"
+    },
+    "吴适芬": {
+      "en": "Wu Shifen",
+      "pinyin": "Wu Shifen",
+      "status": "provisional"
+    },
+    "何世大": {
+      "en": "He Shida",
+      "pinyin": "He Shida",
+      "status": "provisional",
+      "note": "Trainee; the Shen Bao report gives the name as He Shifu."
+    },
+    "何世夫": {
+      "en": "He Shifu",
+      "pinyin": "He Shifu",
+      "status": "provisional",
+      "note": "Form used in the Shen Bao report and the sentence for He Shida."
+    },
+    "李景美": {
+      "en": "Li Jingmei",
+      "pinyin": "Li Jingmei",
+      "status": "provisional"
+    },
+    "冯一平": {
+      "en": "Feng Yiping",
+      "pinyin": "Feng Yiping",
+      "status": "provisional",
+      "note": "Trainee; the Shen Bao report gives the name as Feng Jingsan."
+    },
+    "冯敬三": {
+      "en": "Feng Jingsan",
+      "pinyin": "Feng Jingsan",
+      "status": "provisional",
+      "note": "Form used in the Shen Bao report for Feng Yiping."
+    },
+    "李国玺": {
+      "en": "Li Guoxi",
+      "pinyin": "Li Guoxi",
+      "status": "provisional"
+    },
+    "石光": {
+      "en": "Shi Guang",
+      "pinyin": "Shi Guang",
+      "status": "provisional"
+    },
+    "张庆福": {
+      "en": "Zhang Qingfu",
+      "pinyin": "Zhang Qingfu",
+      "status": "provisional",
+      "note": "Trainee; died in prison of dysentery."
+    },
+    "朱晨光": {
+      "en": "Zhu Chenguang",
+      "pinyin": "Zhu Chenguang",
+      "status": "provisional"
+    },
+    "高枕松": {
+      "en": "Gao Zhensong",
+      "pinyin": "Gao Zhensong",
+      "status": "provisional"
+    },
+    "谢小康": {
+      "en": "Xie Xiaokang",
+      "pinyin": "Xie Xiaokang",
+      "status": "provisional",
+      "note": "Trainee; died in prison of dysentery."
+    },
+    "王西雄": {
+      "en": "Wang Xixiong",
+      "pinyin": "Wang Xixiong",
+      "status": "provisional"
+    },
+    "吴觉": {
+      "en": "Wu Jue",
+      "pinyin": "Wu Jue",
+      "status": "provisional"
+    },
+    "彭康": {
+      "en": "Peng Kang",
+      "pinyin": "Peng Kang",
+      "status": "attested",
+      "note": "Philosopher and Creation Society writer; later a university president."
+    },
+    "刘仁静": {
+      "en": "Liu Renjing",
+      "pinyin": "Liu Renjing",
+      "status": "attested",
+      "note": "A delegate to the CCP’s First Congress; later a Trotskyist."
+    },
+    "曹荻秋": {
+      "en": "Cao Diqiu",
+      "pinyin": "Cao Diqiu",
+      "status": "attested",
+      "note": "Later mayor of Shanghai; persecuted in the Cultural Revolution."
+    },
+    "李初梨": {
+      "en": "Li Chuli",
+      "pinyin": "Li Chuli",
+      "status": "attested",
+      "note": "Creation Society writer and Party cultural cadre."
+    },
+    "柯仲平": {
+      "en": "Ke Zhongping",
+      "pinyin": "Ke Zhongping",
+      "status": "attested",
+      "note": "Poet of the revolution."
+    },
+    "章汉夫": {
+      "en": "Zhang Hanfu",
+      "pinyin": "Zhang Hanfu",
+      "status": "attested",
+      "note": "Later a vice-foreign-minister of the PRC."
+    },
+    "管文蔚": {
+      "en": "Guan Wenwei",
+      "pinyin": "Guan Wenwei",
+      "status": "attested",
+      "note": "Later a general and Jiangsu vice-governor (quoted 1985)."
+    },
+    "于寿康": {
+      "en": "Yu Shoukang",
+      "pinyin": "Yu Shoukang",
+      "status": "provisional"
+    },
+    "李少石": {
+      "en": "Li Shaoshi",
+      "pinyin": "Li Shaoshi",
+      "status": "attested",
+      "note": "Liao Zhongkai’s son-in-law; shot dead in Chongqing in 1945."
+    },
+    "周惠年": {
+      "en": "Zhou Huinian",
+      "pinyin": "Zhou Huinian",
+      "status": "provisional",
+      "note": "Joined the Central Special Branch in 1930."
+    },
+    "夏娘娘": {
+      "en": "Granny Xia",
+      "pinyin": "Granny Xia",
+      "status": "attested",
+      "note": "\"Revolutionary mother\" Huang Youmei, Zhao Shiyan’s mother-in-law."
+    },
+    "黄友梅": {
+      "en": "Huang Youmei",
+      "pinyin": "Huang Youmei",
+      "status": "attested",
+      "note": "Real name of Granny Xia."
+    },
+    "张仃": {
+      "en": "Zhang Ding",
+      "pinyin": "Zhang Ding",
+      "status": "attested",
+      "note": "Later a leading designer and painter."
+    },
+    "凌子风": {
+      "en": "Ling Zifeng",
+      "pinyin": "Ling Zifeng",
+      "status": "attested",
+      "note": "Later a noted film director."
+    },
+    "张文琴": {
+      "en": "Zhang Wenqin",
+      "pinyin": "Zhang Wenqin",
+      "status": "provisional",
+      "note": "Gu Shunzhang’s second wife."
+    },
+    "钱振标": {
+      "en": "Qian Zhenbiao",
+      "pinyin": "Qian Zhenbiao",
+      "status": "attested",
+      "note": "Jiangyin County Party secretary; martyr."
+    },
+    "陈叔璇": {
+      "en": "Chen Shuxuan",
+      "pinyin": "Chen Shuxuan",
+      "status": "provisional",
+      "note": "Songpu Special Committee member; martyr."
+    },
+    "陈维吾": {
+      "en": "Chen Weiwu",
+      "pinyin": "Chen Weiwu",
+      "status": "provisional",
+      "note": "Jiangyin Town Party secretary; martyr."
+    },
+    "王增涛": {
+      "en": "Wang Zengtao",
+      "pinyin": "Wang Zengtao",
+      "status": "provisional",
+      "note": "Changjing District Party secretary; martyr."
+    },
+    "茅学勤": {
+      "en": "Mao Xueqin",
+      "pinyin": "Mao Xueqin",
+      "status": "provisional",
+      "note": "Songpu Special Committee military secretary; martyr."
+    },
+    "蔡元培": {
+      "en": "Cai Yuanpei",
+      "pinyin": "Cai Yuanpei",
+      "status": "attested",
+      "note": "Educator, first head of Academia Sinica."
+    },
+    "李石曾": {
+      "en": "Li Shizeng",
+      "pinyin": "Li Shizeng",
+      "status": "attested",
+      "note": "KMT elder and anarchist patron of the worker-study movement."
+    },
+    "张静江": {
+      "en": "Zhang Jingjiang",
+      "pinyin": "Zhang Jingjiang",
+      "status": "attested",
+      "note": "KMT financier and elder."
+    },
+    "廖仲恺": {
+      "en": "Liao Zhongkai",
+      "pinyin": "Liao Zhongkai",
+      "status": "attested",
+      "note": "Left-KMT leader assassinated in 1925."
+    },
+    "周佛海": {
+      "en": "Zhou Fohai",
+      "pinyin": "Zhou Fohai",
+      "status": "attested",
+      "note": "KMT theorist, later a Japanese-collaboration official."
+    },
+    "陈农菲": {
+      "en": "Chen Nongfei",
+      "pinyin": "Chen Nongfei",
+      "status": "attested",
+      "note": "Another name of Chen Tongsheng."
     }
   },
   "organizations": {
@@ -1096,6 +1530,86 @@
       "pinyin": "Zhongzubu",
       "status": "attested",
       "note": "The CCP's personnel organ."
+    },
+    "福利电器公司": {
+      "en": "the Welfare Electric Company",
+      "pinyin": "the Welfare Electric Company",
+      "status": "decided",
+      "note": "The training school’s cover business; the name puns on Tu Zuochao’s \"flequency\"."
+    },
+    "绍敦电机公司": {
+      "en": "the Shaodun Electric Company",
+      "pinyin": "the Shaodun Electric Company",
+      "status": "attested",
+      "note": "Cai Shuhou’s firm; sheltered radio work."
+    },
+    "国民革命军总司令部第六军用电台": {
+      "en": "the Sixth Army Radio Station",
+      "pinyin": "the Sixth Army Radio Station",
+      "status": "attested",
+      "note": "Nationalist military station Zhang Shenchuan infiltrated."
+    },
+    "上海无线电学校": {
+      "en": "the Shanghai Radio School",
+      "pinyin": "the Shanghai Radio School",
+      "status": "attested"
+    },
+    "亚美无线电公司": {
+      "en": "the Yamei Radio Company",
+      "pinyin": "the Yamei Radio Company",
+      "status": "attested"
+    },
+    "大华无线电公司": {
+      "en": "the Dahua Radio Company",
+      "pinyin": "the Dahua Radio Company",
+      "status": "attested"
+    },
+    "美国无线电公司": {
+      "en": "the American Radio Company",
+      "pinyin": "the American Radio Company",
+      "status": "attested",
+      "note": "RCA’s Shanghai sales office."
+    },
+    "党务调查科": {
+      "en": "the Party Affairs Investigation Section",
+      "pinyin": "the Party Affairs Investigation Section",
+      "status": "attested",
+      "note": "KMT Central Organization Dept. section, forerunner of the Zhongtong."
+    },
+    "伏龙芝军事通讯联络学校": {
+      "en": "the Frunze Military Communications School",
+      "pinyin": "the Frunze Military Communications School",
+      "status": "attested",
+      "note": "Soviet signals school at Leningrad."
+    },
+    "国立劳动大学": {
+      "en": "the National Labor University",
+      "pinyin": "the National Labor University",
+      "status": "attested",
+      "note": "Anarchist-tinged Shanghai university, 1927–32."
+    },
+    "中央军人监狱": {
+      "en": "the Central Military Prison",
+      "pinyin": "the Central Military Prison",
+      "status": "attested",
+      "note": "Nanjing military prison built on the Eight-Trigrams plan."
+    },
+    "苏州反省院": {
+      "en": "the Suzhou Reformatory",
+      "pinyin": "the Suzhou Reformatory",
+      "status": "attested",
+      "note": "KMT \"reforming\" institution for political prisoners."
+    },
+    "商务印书馆": {
+      "en": "the Commercial Press",
+      "pinyin": "the Commercial Press",
+      "status": "attested",
+      "note": "Shanghai’s great publishing house; source of the telegraph code book."
+    },
+    "共产国际远东局": {
+      "en": "the Far Eastern Bureau of the Comintern",
+      "pinyin": "the Far Eastern Bureau of the Comintern",
+      "status": "attested"
     }
   },
   "places": {
@@ -1313,6 +1827,150 @@
       "pinyin": "Shijiazhuang",
       "status": "attested",
       "note": "City in Hebei."
+    },
+    "迈尔西爱路": {
+      "en": "Route Cardinal Mercier",
+      "pinyin": "Route Cardinal Mercier",
+      "status": "attested",
+      "note": "Today Maoming South Road."
+    },
+    "亚尔培路": {
+      "en": "Avenue du Roi Albert",
+      "pinyin": "Avenue du Roi Albert",
+      "status": "attested",
+      "note": "Today Shaanxi South Road."
+    },
+    "极司非而路": {
+      "en": "Jessfield Road",
+      "pinyin": "Jessfield Road",
+      "status": "attested",
+      "note": "Today Wanhangdu Road."
+    },
+    "万航渡路": {
+      "en": "Wanhangdu Road",
+      "pinyin": "Wanhangdu Road",
+      "status": "attested",
+      "note": "Today’s name of Jessfield Road."
+    },
+    "大西路": {
+      "en": "Great Western Road",
+      "pinyin": "Great Western Road",
+      "status": "attested",
+      "note": "Later Zhongzheng West Road, today Yan’an West Road."
+    },
+    "福煦路": {
+      "en": "Avenue Foch",
+      "pinyin": "Avenue Foch",
+      "status": "attested",
+      "note": "Today Yan’an Middle Road."
+    },
+    "有恒路": {
+      "en": "Youheng Road",
+      "pinyin": "Youheng Road",
+      "status": "attested",
+      "note": "Today Yuhang Road, in Hongkou."
+    },
+    "古拔路": {
+      "en": "Route Voisin",
+      "pinyin": "Route Voisin",
+      "status": "attested",
+      "note": "Today Fumin Road."
+    },
+    "赫德路": {
+      "en": "Hart Road",
+      "pinyin": "Hart Road",
+      "status": "attested",
+      "note": "Today Changde Road; the source caption misprints it 郝德路."
+    },
+    "康脑脱路": {
+      "en": "Connaught Road",
+      "pinyin": "Connaught Road",
+      "status": "attested",
+      "note": "Today Kangding Road."
+    },
+    "三马路": {
+      "en": "Sanma Road",
+      "pinyin": "Sanma Road",
+      "status": "attested",
+      "note": "Third Horse Road, today Hankou Road."
+    },
+    "惠中旅馆": {
+      "en": "the Huizhong Hotel",
+      "pinyin": "the Huizhong Hotel",
+      "status": "attested"
+    },
+    "徐家汇天文台": {
+      "en": "the Zikawei Observatory",
+      "pinyin": "the Zikawei Observatory",
+      "status": "attested",
+      "note": "Jesuit observatory (Xujiahui); broadcast weather on long wave."
+    },
+    "兹维尼果罗德": {
+      "en": "Zvenigorod",
+      "pinyin": "Zvenigorod",
+      "status": "attested",
+      "note": "Town near Moscow; site of the CCP Sixth Congress."
+    },
+    "列宁格勒": {
+      "en": "Leningrad",
+      "pinyin": "Leningrad",
+      "status": "attested"
+    },
+    "伯力": {
+      "en": "Khabarovsk",
+      "pinyin": "Khabarovsk",
+      "status": "attested"
+    },
+    "符拉迪沃斯托克": {
+      "en": "Vladivostok",
+      "pinyin": "Vladivostok",
+      "status": "attested",
+      "note": "Haishenwai."
+    },
+    "江东门": {
+      "en": "Jiangdongmen",
+      "pinyin": "Jiangdongmen",
+      "status": "attested",
+      "note": "District of Nanjing."
+    },
+    "宜兴": {
+      "en": "Yixing",
+      "pinyin": "Yixing",
+      "status": "attested"
+    },
+    "江阴": {
+      "en": "Jiangyin",
+      "pinyin": "Jiangyin",
+      "status": "attested"
+    },
+    "常熟": {
+      "en": "Changshu",
+      "pinyin": "Changshu",
+      "status": "attested"
+    },
+    "四成里": {
+      "en": "Sicheng Li",
+      "pinyin": "Sicheng Li",
+      "status": "attested",
+      "note": "Lane off Rue Ratard housing the Welfare Electric Company."
+    },
+    "福康里": {
+      "en": "Fukang Li",
+      "pinyin": "Fukang Li",
+      "status": "attested",
+      "note": "Lane on Great Western Road; site of the first secret station."
+    },
+    "福德坊": {
+      "en": "Fudefang",
+      "pinyin": "Fudefang",
+      "status": "attested",
+      "note": "Lane on Hart Road; the station’s later site."
+    },
+    "亳阳": {
+      "en": "Boyang",
+      "pinyin": "Boyang",
+      "status": "provisional",
+      "note": "Obscure locality near Yixing; the scan reads 亳阳."
     }
   },
   "terms": {
@@ -1441,6 +2099,78 @@
       "pinyin": "cipai",
       "status": "decided",
       "note": "The named metrical pattern of a classical ci lyric."
+    },
+    "木匠": {
+      "en": "Carpenter",
+      "pinyin": "Carpenter",
+      "status": "decided",
+      "note": "Tu Zuochao’s codename (\"carpenter\"), from his boyhood trade."
+    },
+    "三道头": {
+      "en": "three-stripers",
+      "pinyin": "three-stripers",
+      "status": "decided",
+      "note": "The French Concession police, from the three braids on the sleeve."
+    },
+    "洋泾浜英文": {
+      "en": "pidgin English",
+      "pinyin": "pidgin English",
+      "status": "decided",
+      "note": "Yangjingbang, the makeshift English of the Shanghai waterfront."
+    },
+    "孟尝君": {
+      "en": "Lord Mengchang",
+      "pinyin": "Lord Mengchang",
+      "status": "attested",
+      "note": "Warring States noble famous for keeping 3,000 retainers; a byword for open-handed patronage."
+    },
+    "豪密": {
+      "en": "the Hao cipher",
+      "pinyin": "the Hao cipher",
+      "status": "decided",
+      "note": "Zhou Enlai’s code, named for his codename Wuhao."
+    },
+    "老虎凳": {
+      "en": "the tiger bench",
+      "pinyin": "the tiger bench",
+      "status": "decided",
+      "note": "A torture that forces the knees backward over a bench."
+    },
+    "鸭儿浮水": {
+      "en": "the duckling’s paddle",
+      "pinyin": "the duckling’s paddle",
+      "status": "provisional",
+      "note": "A torture; a suggestive name for a form of near-drowning or forced posture."
+    },
+    "八卦": {
+      "en": "the Eight Trigrams",
+      "pinyin": "the Eight Trigrams",
+      "status": "attested",
+      "note": "The eight three-line figures of the Yijing; here the ground plan of the prison."
+    },
+    "铁窗大学": {
+      "en": "iron-window university",
+      "pinyin": "iron-window university",
+      "status": "decided",
+      "note": "Prisoners’ wry name for prison as a school of endurance."
+    },
+    "楚囚": {
+      "en": "captive of Chu",
+      "pinyin": "captive of Chu",
+      "status": "attested",
+      "note": "A prisoner who keeps his dignity in captivity; an allusion from the Zuo Zhuan."
+    },
+    "矽钢片": {
+      "en": "silicon-steel laminations",
+      "pinyin": "silicon-steel laminations",
+      "status": "decided",
+      "note": "The thin iron sheets stacked to build a transformer core."
+    },
+    "风语者": {
+      "en": "windtalker",
+      "pinyin": "windtalker",
+      "status": "decided",
+      "note": "The chapter’s conceit: the radioman who \"catches the wind\"."
     }
   }
 }
