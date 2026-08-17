@@ -145,3 +145,20 @@
 惊恐万状
 # 九一九(绥远起义) the September 19 (Suiyuan) uprising — a date; rendered "September 19", not 919
 九一九
+# decade span "the twenties and thirties" -> English spells the decade
+二三十年代
+# "in their twenties" 20多岁 -> spelled out, not a quantity
+20多岁
+# Simalu, a Shanghai street (lit. "Fourth Avenue") -> rendered "Simalu"
+四马路
+# idiom 千头万绪 "a thousand and one things" -> "ran in a thousand directions"
+千头万绪
+# idiom 百忙(中) "busy as he was" -> not a quantity
+百忙
+# enumerators 一则...二则 "partly...partly / first...second"
+二则
+一则
+# idiom 谬误百出 "riddled with errors" -> 百出 not a quantity
+百出
+# personal name 丁老二 "Ding Lao'er" (contains 二)
+丁老二

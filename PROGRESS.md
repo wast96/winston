@@ -654,3 +654,73 @@ On voice-gate approval, ch01 becomes the FROZEN register reference
   HANDOFF.md, but ours is a real book handoff, so the hook correctly refuses to
   stand down. All translation checkers (check_numbers, builder, compose_style)
   pass.
+
+## Batch 7 — Chapter 5 (ch05, PDF 172-204, printed 161-193) — COMPLETE
+
+**Scope.** Whole of Chapter 5, "Anecdotes from Around the Founding of New China,"
+all four sections in one unit `ch05` (own reading file + `data/zh/ch05.txt`). Done
+end to end. Post-1949 years: the Xi'an takeover and the first national public
+security conference; the Nanjing years and the Huang Kai interrogation (the Wu Hao
+forgery saga); the deep Li Kenong friendship and the 1961 Shanghai materials trip;
+principle and frugality; and two appended 1961 letters (Li Kenong to the leadership,
+Yang Shangkun's reply).
+
+**Counts.** 180 body paragraphs (incl. 23 `{v}` set-off document lines + 1 `{p}`
+verse line), 4 `###` sections + 3 `####` (附 appendix + the two letter titles),
+47 footnotes (book-wide now 387), 101 new glossary rows (677 referents), 17 figures.
+
+**Pipeline / gates — all green.**
+- render 172-204; OCR ocr_crop (chi_sim, psm6, left .045/right .985/top .08,
+  recto bottom .945 / verso .915 per page) + ocr_dual; `pgrep -c tesseract` = 0.
+- parity 180=180; headings OK; `check_apparatus` 0/0; `check_content --config
+  data/check_config.ch05.json` aligned (445 name occ, 0 displaced); `qc_entities`
+  0 misses; `check_numbers --noise` 0 unresolved; `check_align` 1 benign ratio
+  outlier (`布礼` -> "Bolshevik greetings," a 2-char formal closing); `verify_unit`
+  numbers 0 / anchors 47; `check_register --ref out/ch01_reading.md` within
+  tolerance (contr 4.1/1k, em-dash 2.9/1k, roster-heavy chapter, little dialogue).
+- build cumulative EPUB (5/12 translated, 387 notes); `qa_epub` PASS; epubcheck
+  0 fatals / 0 errors / 0 warnings.
+
+**Silent OCR-loss caught (confirmed again).** p200 (printed 189): tesseract
+dropped the paragraph-final "我贺龙" from He Long's quoted line "你们看不起他,就是
+看不起我贺龙" — restored from the scan. Every page bottom and every long paragraph
+tail verified against the scan; the two appended letters (chapter tail) verified
+against p203-204.
+
+**Source errors rendered as printed + footnoted (do NOT "fix").**
+- printed 165: 中央直辖市**西安**部门 — an evident misprint for 公安 (public
+  security); rendered as printed ("the Xi'an departments") with a footnote carrying
+  the correction (the meeting was the national **public security** work conference).
+- printed 189/190: the Huzhou Chinese-medicine relative is 堂兄 (paternal cousin)
+  twice, then 妻兄 (wife's brother) once — rendered consistently as "his cousin"
+  (also agreeing with the later 堂嫂 "cousin's wife"), with a footnote flagging the
+  slip.
+- 事务所法 大马路四十号六楼五号 (printed 172): garbled law-office letterhead;
+  rendered "The Law Office. No. 40 Damalu, Sixth Floor, Room 5."
+
+**Crop-verified oddities that ARE the source (not OCR).** printed 176
+"一网打尽陈养山党中央机关" (rendered "net Chen Yangshan and the Party Central organs
+in a single sweep"); printed 179 "为寻陈养山出路" (rendered "looking to Chen Yangshan
+for a way out"). Both eyeballed at magnification; the author over-inserts the
+subject's name.
+
+**Fact-check verdicts placed in notes (not the text).** the CIA-declared-a-holiday
+claim for Li Kenong's death is flagged as legend, not verifiable fact; the Wu Hao /
+Zhou Shaoshan forgery-and-rebuttal is corroborated in outline; Shi Liangcai's
+reluctance fits the record but the private exchanges cannot be confirmed.
+
+**NOT re-noted (already placed in ch01-04; cross-referenced instead):** Li Kenong,
+Zhou Enlai, He Long, Peng Dehuai, Mao Zedong, Kang Sheng, Chiang Kai-shek, Hu Zongnan,
+Chen Geng, Pan Hannian, Gu Shunzhang, Qian Zhuangfei, Bao Junfu, Chen Lifu, Hu Di,
+Chen Yun, Xu Enzeng, Ren Bishi, Deng Yingchao, Zhang Xueliang, Wang Jingwei, Wang Ming,
+Central Special Branch, Central Intelligence Department, Social Affairs Department,
+Xi'an Incident, Jin-Sui Border Region, Red Squad, Zhongtong/Central Statistics,
+Zaoyuan, Seventh Congress, April 12 coup, August 7 Conference, Rectification,
+Zhang Guotao, Longhua, Peng Pai, Cultural Revolution, Gang of Four, First Field Army,
+Ningxia (the campaign/place noted; ch06 will carry the persecution).
+
+**data/noise.txt** — added 8 rules (二三十年代, 20多岁, 四马路 Simalu, idioms
+千头万绪 / 百忙 / 百出, enumerators 一则/二则, name 丁老二). None are quantities.
+
+**Tooling — no reverts.** No script changes this batch; the ch01-04 crop, the
+apparatus_merge section-field mechanism, and the {v}/### /#### mirroring all held.
