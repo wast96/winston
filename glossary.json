@@ -1383,5 +1383,95 @@
     "pinyin": "Gao Shuxun",
     "status": "attested",
     "note": "Former Northwest Army general who defected with the New 8th Army at Handan on 30 October 1945."
+  },
+  "大策反": {
+    "en": "the great turning",
+    "pinyin": "da cefan",
+    "status": "decided",
+    "note": "The chapter title. <i>Cefan</i> means to turn an enemy soldier or unit to one's own side; <i>da cefan</i>, the \"great turning,\" is the mass defection of Nationalist forces in 1948&#8211;49, which the author treats as the highest art of the secret war."
+  },
+  "策反": {
+    "en": "turning",
+    "pinyin": "cefan",
+    "status": "decided",
+    "note": "Inducing an enemy officer, unit, or garrison to defect. Rendered \"turning\" (and \"turning work\") throughout, distinct from ordinary united-front persuasion."
+  },
+  "华北五烈士": {
+    "en": "the Five Martyrs of North China",
+    "pinyin": "Huabei wu lieshi",
+    "status": "attested",
+    "note": "Also called the Beiping Five Martyrs: Xie Shiyan, Ding Xing, Zhu Jianguo, Zhao Liangzhang, and Shi Chun, Communist agents inside the Nationalist Eleventh War Zone, arrested in 1947 and executed in 1948."
+  },
+  "不战而屈人之兵": {
+    "en": "to subdue the enemy without fighting",
+    "pinyin": "bu zhan er qu ren zhi bing",
+    "status": "attested",
+    "note": "Sun Tzu's dictum; the received translation is used."
+  },
+  "电子对抗": {
+    "en": "electronic warfare",
+    "pinyin": "dianzi duikang",
+    "status": "decided",
+    "note": "The author's term for the 1947 radio contest: interception, direction-finding, and radio-silence deception. Rendered \"electronic warfare\" though the technology of the day was radio, not electronics in the later sense."
+  },
+  "保密局": {
+    "en": "the Bureau of Confidential Investigation",
+    "pinyin": "Baomiju",
+    "status": "decided",
+    "note": "The Ministry of National Defense's Bureau of Confidential Investigation, the reorganized successor to Juntong after Dai Li's death in 1946, under Mao Renfeng."
+  },
+  "联络部": {
+    "en": "the Liaison Department",
+    "pinyin": "Lianluobu",
+    "status": "decided",
+    "note": "The Communist army organ for turning enemy troops, successively named the Destruction Department, Enemy Work Department, Nationalist-Army Work Department, and Liaison Department."
+  },
+  "王石坚": {
+    "en": "Wang Shijian",
+    "pinyin": "Wang Shijian",
+    "status": "attested",
+    "note": "Chief of a large Communist intelligence network spanning the Northwest, North China, and the Northeast; his arrest in 1947, after a subordinate's betrayal, rolled up the whole system."
+  },
+  "吴石": {
+    "en": "Wu Shi",
+    "pinyin": "Wu Shi",
+    "status": "attested",
+    "note": "1894&#8211;1950. Nationalist lieutenant general and deputy chief of the general staff; the highest-placed Communist agent in Taiwan, executed in Taipei in 1950."
+  },
+  "陈明仁": {
+    "en": "Chen Mingren",
+    "pinyin": "Chen Mingren",
+    "status": "attested",
+    "note": "1903&#8211;1974. Nationalist general who beat back Lin Biao at Siping in 1947, then led his Central Army troops over to the Communists in Hunan in 1949 and became a PLA general."
+  },
+  "郭汝瑰": {
+    "en": "Guo Ruguai",
+    "pinyin": "Guo Ruguai",
+    "status": "attested",
+    "note": "1907&#8211;1997. Operations chief in the Nationalist Ministry of National Defense and a long-hidden Communist agent who fed the Communists top operational plans."
+  },
+  "曾泽生": {
+    "en": "Zeng Zesheng",
+    "pinyin": "Zeng Zesheng",
+    "status": "attested",
+    "note": "1902&#8211;1973. Yunnan-army general who led the 60th Army in revolt at Changchun in 1948; his troops became the PLA 50th Army."
+  },
+  "李白": {
+    "en": "Li Bai",
+    "pinyin": "Li Bai",
+    "status": "attested",
+    "note": "1910&#8211;1949. Communist radio operator in Shanghai, executed on the eve of the city's liberation; not to be confused with the Tang poet. His story inspired the film <i>The Unfailing Radio Wave</i>."
+  },
+  "沈崇": {
+    "en": "Shen Chong",
+    "pinyin": "Shen Chong",
+    "status": "attested",
+    "note": "The Peking University student whose rape by U.S. Marines in December 1946 set off nationwide student protests."
+  },
+  "五一口号": {
+    "en": "the May Day Slogans",
+    "pinyin": "Wuyi kouhao",
+    "status": "attested",
+    "note": "The Communists' May 1, 1948 slogans, whose call to convene a Political Consultative Conference and found a coalition government opened the road to the People's Republic."
   }
 }

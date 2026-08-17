@@ -232,3 +232,20 @@
 祁三益
 # 两区 ("the two districts", eastern and western work committees), 两 = the pair of districts named separately in English
 两区
+# --- Batch B12 (Chapter 11) ---
+# 千忙万忙 ("amid a thousand and one urgent tasks", idiom), 千/万 inside the idiom; rendered "in the midst of a thousand urgent tasks"
+千忙万忙
+# 十万火急 ("extremely urgent", the telegram-priority idiom), 十万 not a quantity; rendered "ten-thousand-fold urgent"
+十万火急
+# 二万五千里长征 = the Long March (proper name), the 25,000 li carried in English as "Twenty-five-thousand-li Long March"; noise the literal to drop the mixed-numeral decomposition
+二万五千里长征
+# 四平战役 = the battle of Siping (place name 四平, "Four Plains"), 四 in the toponym; rendered "battle of Siping"
+四平战役
+# 861.7万 (8,617,000 enemy annihilated), Arabic-plus-万 the parser mangles into a spurious 7 and 10000; value carried in English as "8.617 million"
+861.7万
+# 189万 (1,890,000 turned/surrendered), Arabic-plus-万 the parser mangles into a spurious 189 and 10000; value carried in English as "1.89 million"
+189万
+# 40两 (a 40-tael reward), Arabic-plus-量词 the parser reads 两 as the quantity 2; value carried in English as "40 taels"
+40两
+# 名垂千古 ("won lasting fame", idiom 千古 = through the ages), 千 not a quantity; rendered "lasting fame"
+名垂千古

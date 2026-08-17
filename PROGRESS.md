@@ -1540,3 +1540,124 @@ Standing question (every 图文 photo, or a curated subset) still for the commis
 - setup.sh regression "hook stands down on template stub" still FAILS benignly
   (HANDOFF holds a real kickoff); all other checker regression tests green. PaddleOCR
   absent (expected); used scripts/ocr_dual.py.
+
+## Batch B12 -- Chapter 11 (第十一章 大策反 / "The Great Turning"), whole chapter + Principal Sources
+
+Chapter 11 is COMPLETE. The crest of the intelligence war. Seven sections. 236 English
+body paragraphs (1:1 parity with 236 zh body lines; 10 zh heading lines vs 9 en, the
+usual chapter-subtitle fold). The SIGINT/radio-direction-finding duel on the Loess
+Plateau as Mao's <1,000-man Ninth Detachment plays cat-and-mouse with Hu Zongnan's
+230,000; Lü Chu's seven-man radio group reading Hu Zongnan's battle orders before his
+own generals (Fumei 43,000, Qinling 13,000); the Wang Shijian network collapse and the
+Five Martyrs of North China; Sun Tzu's "subdue the enemy without fighting" as generals
+are turned (861.7M enemy eliminated, 1.89M / 21% by turning); the Wu Shi case and the
+Taiwan martyrs (中将之死); and the founding of the PRC (建国大业).
+
+### Pipeline run (reused, not re-measured)
+- render 384 410 --dpi 300; ocr_crop 384 410 (recto/odd [0.07,0.86], verso/even
+  [0.17,0.94], top 0.045, bottom 0.93, chi_sim psm6, running-head stripped);
+  ocr_dual 384 410; indents 384 410. tesseract idle 0 after each (pkill -g + pgrep -c
+  = 0). ocr_dual's wrapper timed out at 2m after printing p410 (work finished; killed
+  the group, confirmed both dirs have all 27 pages).
+- assemble ch11 384 410 --offset 36 --blank-assist read 197 paragraphs / 0 headings
+  (merged the many one-line PUNCH paragraphs and the plate/wrap pages, as expected).
+- METHOD: read every page image (data/png/p0384..p0410) by eye, transcribed each TRUE
+  source paragraph, verified against BOTH ocr configs. scripts/resegment_ch11.py
+  HARDCODES the verified ('h'|'b', text) list -> data/zh/ch11.txt (246 items: 236 body,
+  10 heading) and rebuilds data/pagemap/ch11.json from PAGE_STARTS (27 folios 348-374,
+  validated strictly increasing). Section heading "6.中将之死" sits mid-p403, AFTER the
+  Hao Pengju / Zhou Gao tail of section 5 -- placed accordingly.
+
+### Crop-verified this batch (magnified PIL crops, dual-OCR disagreement)
+- p384 "二十三万大军" (Hu Zongnan 230,000; faded, both configs mangle) -- read by crop.
+- p389 "府西分区"/"分州" as PRINTED (both configs + eye agree 分州, not 邠州); "刘丕清"
+  Liu Piqing; "吕出" Lü Chu (aged 15).
+- p390 seven-man roster 薛浩然/徐学章/李福泳/高健/王冠洲/赵继勋 (+Lü Chu = 7); psm4
+  matched the eye read exactly.
+- p392 FIVE MARTYRS roster + ranks crop-verified across two lines (少将作战处长谢士炎 /
+  少将军法处副处长丁行 / 少校参谋石淳 / 代理作战科长朱建国 / 空军第二军区参谋赵良璋);
+  re-confirmed p394 (main + caption) and p403 (martyr roll).
+- p394 段云鹏 (cat-burglar), 李政宣 (traitor clerk), 京兆东街24号.
+- p399 caption roster (50th Army: 白肇学/148, 徐文烈 commissar, 曾泽生 cmdr, 陇耀/149,
+  刘惠之 propaganda, 李佐/150) crop-verified.
+- p402 chapter statistics 861.7万 / 320起189万 / 21% -- triple agreement (eye+psm6+psm4).
+- p404 Taiwan martyrs 吴石/朱枫/陈宝仓/聂曦; 何遂.
+- p409 张鼎中 entry prints "刘进昌" for BOTH the Baoding station chief AND the recruited
+  deserter -- an apparent source slip; rendered faithfully + footnoted.
+- p410 author names 杨喆 (喆 = twin 吉, "Yang Zhe"), 韩兢 (Han Liancheng's daughter).
+
+### The checks (all run; results)
+- verify_unit ch11: parity 236/236, numbers 0 unresolved, anchors 19 ok. check_align:
+  236/236, median 4.99 en/han, no pair strays >2.2x.
+- Number check noise added (data/noise.txt, Batch B12 block): 千忙万忙, 十万火急,
+  二万五千里长征, 四平战役, 861.7万, 189万, 40两, 名垂千古 (numerals inside
+  idioms/names/Arabic+量词; each carries its value in the English). REAL quantities
+  carried as digits/words: 150 li, "five agents in all" (谢士炎等五人), 500,000
+  swallowed 500,000, 43,000, 13,000, 230,000, 8.617 million, 1.89 million, 21%, 40
+  taels, 34 days, 40 days, twelve hours, six days.
+- Entity survival BY HAND (qc_entities vacuous): Juntong 11x, Border Security 11x, Hu
+  Zongnan single form, Xibaipo 8x, Wu Shi 35x -- no drift; 保密局 unified to "Bureau of
+  Confidential Investigation" (matched ch08). Distinct near-namesakes kept apart: 刘光国
+  Liu Guangguo (11th-War-Zone clerk) vs 刘光典 Liu Guangdian (courier, held out 4 yrs,
+  killed 1959). 甘陵 (Ganling) is a PERSON, not a place.
+- Tail verification: Principal Sources (p409-410) transcribed and name-verified
+  entry-by-entry against the scan; last entries (何嘉, 郝在今 -- the author's own
+  《协商民主》 self-cited) read against the folios.
+
+### Apparatus
+- notes.json: +19 notes (ch11), book total 226. Interested-witness verdicts stated in
+  the note: 卫立煌 (CONTESTED -- historians divided on whether he colluded or merely
+  preserved his forces; no documents released); 郭汝瑰 (corroborated, posthumously
+  confirmed); Five Martyrs (corroborated; executed 1948, Nanjing/Yuhuatai per the
+  record); Dai Li death 16/17 Mar 1946; 羊马河 vs 瓦窑堡 (the 135th Bde was annihilated
+  at Yangmahe, 14 Apr 1947, near Wayaobao -- book names the general area); Hu Zongnan
+  230k (low end of the 230-250k range); Wu Shi case (corroborated; shot Machangding
+  10 Jun 1950); 阎又文 ghostwriter (well documented); Shen Chong incident; Li Bai (the
+  radio martyr, "永不消逝的电波"); Jing Ke's Yi-River farewell; Chen Lin/Luo Binwang
+  manifestos; 不战而屈人之兵 + 止戈为武 gloss; 电子对抗 gloss; the 刘进昌 source slip.
+- glossary.json: +15 rows (249 total): 大策反, 策反, 华北五烈士, 不战而屈人之兵,
+  电子对抗, 保密局, 联络部, 王石坚, 吴石, 陈明仁, 郭汝瑰, 曾泽生, 李白, 沈崇, 五一口号.
+  REUSED unchanged: 边保, 中社部, 中情部, Juntong, Zhongtong, 胡宗南, 傅作义, 阎又文,
+  卫立煌, 韩练成, 康生, 李克农, 毛泽东, 周恩来, 蒋介石/老蒋, 潘汉年, 熊向晖, 后三杰,
+  空城计, 龙潭三杰, 二万五千里长征, 中美特种技术合作所 (SACO). check_apparatus: 0
+  failures (the 19 attestation-note warnings are all pre-existing OLD rows).
+
+### NOT re-noted (already placed earlier in the book)
+- Empty Fort Stratagem / Zhuge Liang (ch05, ch06, ch10) -- referenced, not re-noted.
+- Shen Anna (ch03); Latter Three Heroes / Longtan Trio (ch03, ch10); the Long March
+  (ch02); Juntong (ch01); Zhongtong; Whampoa (ch02, ch07); SACO / Sino-American
+  Cooperative Organization (ch07, ch08); the Bureau of Confidential Investigation
+  (ch08); the Border Security; the Social Affairs Department.
+
+### Register (check_register --ref out/ch01_reading.md)
+Within tolerance. contr 0.0/1k (little quoted dialogue -- the chapter is documentary:
+telegrams, directives, the Chiang review批示, Fu Zuoyi's open telegram, Mao's three
+principles, all kept formal; the metric is noise here, judged on narratorial signals).
+em-dash 2.0/1k (below the ch01 ref 3.4; appositive-gloss and list dashes converted to
+colons/commas). shall% 0. Sentence median 22, rhythm CV 0.63.
+
+### Figures: still DEFERRED (deliberate; commissioner decision pending)
+figures.json still empty. Chapter 11's inline plates catalogued for a later pass: Mao
+(front right) on the trek across N. Shaanxi, 1947 (printed 349); Tong Xiaopeng (350);
+Fumei surrender + 1st FA 18th Corps planting the flag on the Qinling (355); Liu Xiao
+and Zhang Zhiyi, Beijing 1954 (356); the five martyrs + Zhao Wei, 6 portraits (358);
+Ganling and Liu Guangguo (360); Zhang Kexia (left) and He Jifeng (362); the 50th Army
+leaders after the Changchun revolt (363); Xu Chuguang (366); Chiang Kai-shek with Jia
+Yibin at Lushan (365); Zhou Gao, CCP agent / Juntong major general (367); the five
+martyrs again (358); Xiao Minghua (369); Nie Xi (369); the 1947 student "Anti-Hunger,
+Anti-Civil-War, Anti-Persecution" march (371). Standing question (every 图文 photo, or
+a curated subset) still for the commissioner.
+
+### Build / environment (B12)
+- EPUB rebuilt: 12 of 14 chapters (ch00-ch11), 226 notes, 312 pagebreaks.
+  out/chinas_secret_war.epub. qa_epub PASS; epubcheck 0/0/0/0.
+- ch11 carries printed-page (folio) markers (resegment rebuilds the pagemap, printed
+  348-374). ch01 zh parity 269/299 and ch03 folio markers still open (corrections-pass
+  tasks; no note cites a ch03 folio).
+- Branch consolidation: session started on stray per-task branch
+  claude/ch11-batch-b12-nw45qb (at 32517ab, same as origin/claude/chinas-secret-war,
+  0 commits ahead). Reset local canonical to origin, did all work on
+  claude/chinas-secret-war; stray branch to be deleted (local + remote) at push.
+- setup.sh regression "hook stands down on template stub" still FAILS benignly
+  (HANDOFF holds a real kickoff); all other checker regression tests green. PaddleOCR
+  absent (expected); used scripts/ocr_dual.py.

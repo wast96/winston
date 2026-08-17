@@ -1,852 +1,930 @@
 {
- "ch00": [
-  {
-   "anchor": "the Volunteers ever went into Korea",
-   "note": "The Chinese People's Volunteers, the name given to the PLA forces China sent into the Korean War (1950&#8211;1953)."
-  },
-  {
-   "anchor": "the deepest secret in the world",
-   "note": "The author's framing thesis: that the intelligence and security services, being the profession of secrecy itself, are the most hidden part of any state &#8212; and that China's, and the CCP's in particular, are the least known of all. The chapters that follow are his attempt to open them."
-  }
- ],
- "ch01": [
-  {
-   "anchor": "their first reaction is a startled cry",
-   "note": "<i>Tewu</i> (特务), literally “special service” or “special affairs.” In modern usage it is the ordinary word for a secret agent, and in both parties' propaganda it carried the menacing charge of the enemy's spies and secret police. The chapter's opening argument is that the word began as a neutral one; see the author's word-study below. Where he discusses it as a word it is kept as <i>tewu</i>; elsewhere it is rendered by sense."
-  },
-  {
-   "anchor": "Juntong agents had so fearsome a name",
-   "note": "Juntong (军统), the Bureau of Investigation and Statistics of the Nationalist Military Affairs Commission, was Chiang Kai-shek's military secret service under Dai Li; it and the party-run Zhongtong are the CCP's chief adversaries through this book. Both are treated at length in Chapter 2."
-  },
-  {
-   "anchor": "Political power grows out of the barrel of a gun!",
-   "note": "Mao Zedong's most quoted dictum, spoken at the August 7 Conference of 1927. The standard English rendering is preserved here."
-  },
-  {
-   "anchor": "the August 7 Conference",
-   "note": "An emergency conference of the CCP Central Committee on August 7, 1927, held after the collapse of the first Nationalist-Communist united front and the Nationalist massacres; it set the Party on the path of armed uprising."
-  },
-  {
-   "anchor": "three rooms above and three below",
-   "note": "<i>Shikumen</i> (“stone-gate”) houses are the terraced townhouses of early-twentieth-century Shanghai and other treaty-port cities, built around a small courtyard behind a stone door-frame &#8212; the characteristic cover for underground work."
-  },
-  {
-   "anchor": "an \"adventurers' paradise.\"",
-   "note": "A stock epithet for interwar Shanghai, whose foreign concessions lay outside Chinese jurisdiction and drew spies, gangsters, and refugees alike."
-  },
-  {
-   "anchor": "\"Three Heroes of Longtan\"",
-   "note": "Li Kenong, Qian Zhuangfei, and Hu Di (龙潭三杰). Planted inside the Nationalist agent chief Xu Enzeng's own apparatus, their warning after Gu Shunzhang's 1931 defection allowed Zhou Enlai to move the CCP Center to safety &#8212; the episode this section recounts. Corroborated: the story is standard in both official and independent accounts of CCP intelligence."
-  },
-  {
-   "anchor": "Notice of Wu Hao and Others Leaving the Communist Party",
-   "note": "The “Wu Hao Incident.” “Wu Hao” was a Zhou Enlai alias; the notice was a Nationalist forgery meant to suggest he had defected. It resurfaced decades later, during the Cultural Revolution, as material used against Zhou."
-  },
-  {
-   "anchor": "the \"AB Corps,\"",
-   "note": "The “Anti-Bolshevik Corps,” an alleged counter-revolutionary network. The scholarly consensus, and now the CCP's own official verdict (quoted by the author later in this section), is that the organization was largely a fabrication and that the purge conducted in its name killed thousands of innocent Red Army members on confessions extracted under torture. Contradicted, as a real conspiracy of the scale charged."
-  },
-  {
-   "anchor": "the \"Futian Incident\"",
-   "note": "The December 1930 mutiny at Futian by Red Army officers resisting the AB Corps purge. Mao Zedong's own role in initiating and driving the Jiangxi purge is documented and is more central than the author's emphasis on “devolved” authority suggests; independent historians treat the episode as a formative act of intra-Party terror. Partly corroborated / the author's framing is partisan."
-  },
-  {
-   "anchor": "\"coerce, confess, believe,\"",
-   "note": "<i>Biru gong xin</i> (逼供信): to extract a confession by force and then believe it. The phrase became the standard shorthand for the method that drove the purges' self-multiplying “confessions.”"
-  },
-  {
-   "anchor": "three foreign letters, \"GBW.\"",
-   "note": "The source prints the badge letters as “GBW,” then identifies them (below) with the Russian GPU. The letters as printed do not match a transliteration of ГПУ (GPU); rendered here as printed, with the discrepancy flagged. Either the badge or the author's reading of it is inexact."
-  },
-  {
-   "anchor": "the three provinces of Jiangxi, Fujian, and Zhejiang",
-   "note": "As printed. Geographically this is doubtful: the Jinggangshan base straddled the Jiangxi-Hunan border, and the later Central Soviet Area lay chiefly in Jiangxi and Fujian; Zhejiang was not part of either, and the figures given describe the larger Central Soviet Area rather than the small Jinggangshan base. Contradicted by the geographic record; rendered as the source has it."
-  },
-  {
-   "anchor": "seized and strangled the Communist leader Li Dazhao",
-   "note": "The source dates Zhang Zuolin's raid on the Soviet embassy and the execution of Li Dazhao to 1928. In fact both occurred in April 1927 (the raid on April 6, the execution on April 28). Contradicted; rendered as printed."
-  },
-  {
-   "anchor": "Red Star Over China",
-   "note": "Edgar Snow's 1937 book, the first sympathetic Western account of the CCP, based on his 1936 visit to the Shaanxi base. The author's point is that Snow's changed view of the Communists owed something to his interviews with the security chief Zhou Xing."
-  },
-  {
-   "anchor": "the \"sword and shield.\"",
-   "note": "The paired emblem &#8212; sword for the offensive intelligence arm, shield for the protective security arm &#8212; echoes the insignia of the Soviet security services and is today that of China's Ministry of State Security."
-  },
-  {
-   "anchor": "the Xi'an Incident had broken out",
-   "note": "On December 12, 1936, Zhang Xueliang and Yang Hucheng detained Chiang Kai-shek at Xi'an to force him to halt the civil war and resist Japan. Its peaceful resolution, brokered in part by Zhou Enlai, produced the second Nationalist-Communist united front."
-  },
-  {
-   "anchor": "the Marco Polo Bridge Incident",
-   "note": "The clash at Lugouqiao, southwest of Beijing, on the night of July 7, 1937, conventionally taken as the start of the full-scale War of Resistance against Japan (the Second Sino-Japanese War)."
-  },
-  {
-   "anchor": "a Li Zicheng",
-   "note": "Li Zicheng (1606&#8211;1645), the rebel leader from Mizhi in northern Shaanxi whose peasant army took Beijing in 1644 and ended the Ming dynasty &#8212; the author's portent for a movement rising out of the same poor country."
-  }
- ],
- "ch02": [
-  {
-   "anchor": "sent off a feather-dispatch",
-   "note": "A <i>jimao xin</i> (鸡毛信), or “chicken-feather letter”: an urgent dispatch with one or more chicken feathers fastened to it, the feathers signalling that it was to be carried at top speed, day and night, changing runners as needed. The device was old and widespread in rural China and became a staple of Communist wartime lore."
-  },
-  {
-   "anchor": "The great Laoshan",
-   "note": "The Laoshan Incident (劳山事件) of 25 April 1937, in which bandits ambushed Zhou Enlai’s convoy in the hills south of Yan’an. Zhou’s adjutant Chen Youcai, dressed in a Western suit as a decoy, was killed; the ambushers took him for the important man and found Zhou’s calling cards on the body. The account is broadly corroborated. Two small internal discrepancies in the source are worth noting: its photo caption dates the affair 24 April against the 25th given in the text, and it twice names the ambush site “Yanqiushan” (沿湫山) while calling the affair after Laoshan."
-  },
-  {
-   "anchor": "Deng, Mao, Xie, and Gu",
-   "note": "Deng Xiaoping, Mao Zetan (Mao Zedong’s younger brother), Xie Weijun, and Gu Bo, four cadres of the Jiangxi Soviet condemned together in 1933 as followers of a “Luo Ming line” and punished for their closeness to Mao Zedong, who was then out of power. All but Deng Xiaoping died within a few years; Deng’s later rehabilitation and rise are among the ironies the author leaves unspoken."
-  },
-  {
-   "anchor": "Elder Brothers Society",
-   "note": "The Gelaohui (哥老会), a sworn-brotherhood secret society widespread in the Chinese countryside from the nineteenth century. Belonging to neither party, such societies commanded real local loyalty and armed men, and both Nationalists and Communists by turns courted and feared them."
-  },
-  {
-   "anchor": "Vigorous Action Society",
-   "note": "The Lixingshe (力行社, “Vigorous Action Society”) was the secret inner core of the Chinese Renaissance Society, popularly the “Blue Shirts,” a militarist, nationalist body founded in 1932 by Whampoa officers loyal to Chiang Kai-shek and often likened to the fascist movements of the day. Its Special Services Department under Dai Li grew into the military secret service later called Juntong."
-  },
-  {
-   "anchor": "the disease in our vitals",
-   "note": "Japan a passing skin ailment, the Communists a disease in the heart and vitals (疥癣之患 / 心腹大患): the metaphor recurs in accounts of Chiang Kai-shek’s strategic priorities and captures the weight he gave the internal enemy over the invader. The exact wording varies among sources; the sense is well attested."
-  },
-  {
-   "anchor": "three-in-one alignment",
-   "note": "The “three-in-one” (三位一体) alignment of late 1936 joined the Communists, Zhang Xueliang’s Northeast Army, and Yang Hucheng’s Northwestern Army in a common front in the northwest, the coalition behind the Xi’an Incident. With Zhang detained and Yang forced abroad afterward and their armies moved away, it dissolved, leaving the Communists without their two military partners, as the author says."
-  },
-  {
-   "anchor": "The heavy work of the military blockade fell to Hu Zongnan",
-   "note": "Hu Zongnan (1896–1962), Chiang Kai-shek’s favored Whampoa protégé and the senior Nationalist commander in the northwest, nicknamed the “King of the Northwest.” From 1939 the bulk of his large force blockaded and menaced the Border Region rather than fighting Japan, a diversion of strength the Communists never forgot; in 1947 his troops briefly captured Yan’an."
-  },
-  {
-   "anchor": "worthy of the opera",
-   "note": "<i>At the Crossroads</i> (三岔口, <i>Sanchakou</i>) is a celebrated Peking-opera scene in which two men fight in total darkness, each blind to the other, their groping mock-combat performed in full stage light. The image, of allies and enemies grappling in the dark on the same ground, is the author’s figure for the tangled traffic of the blockade years."
-  },
-  {
-   "anchor": "the new climate of \"reform and opening\"",
-   "note": "The author writes literally “the new situation of reform and opening” (改革开放), the fixed slogan for the era of economic liberalization that began in 1978, some four decades after these events. The anachronism is his own, a playful borrowing: the united front “opened” the sealed Nationalist-Communist front, and that opening, he suggests, only multiplied the covert contest. It is in no sense a term of the 1930s."
-  },
-  {
-   "anchor": "swore to be loyal to Marshal Mao",
-   "note": "Xu Shiyou (1906–1985), a hot-tempered general of the Fourth Front Army, trained as a boy at the Shaolin monastery and later a senior PLA commander. The story of Mao Zedong disarming his rage by handing him a loaded pistol is often told, and stands for Mao’s careful winning-over of the Fourth Front Army cadres after Zhang Guotao’s fall."
-  },
-  {
-   "anchor": "The tomb of the Yellow Emperor, Xuanyuan",
-   "note": "The Mausoleum of the Yellow Emperor at Huangling honors the legendary ancestor of the Chinese people and is a national shrine; sacrifices there at Qingming, the tomb-sweeping festival, are an old imperial rite revived to invoke national unity. At the joint Nationalist-Communist sacrifice of April 1938 Mao Zedong composed a sacrificial ode, a set-piece of the united-front moment."
-  },
-  {
-   "anchor": "criticism of Zhang Guotao",
-   "note": "Zhang Guotao (1897–1979), a founder of the CCP and commander of the powerful Fourth Front Army, had been Mao Zedong’s chief rival for leadership on the Long March; his bid failed and his army was broken. The Yan’an criticism recounted here drove his defection to the Nationalists in April 1938, which ended his Communist career; he later emigrated and died in Canada. That not even his bodyguard would follow him is the author’s pointed detail."
-  },
-  {
-   "anchor": "better to kill a thousand by mistake than let one slip through",
-   "note": "A byword for the Nationalist white terror against Communists from 1927 on. The 1929 “Communist Surrender Law” and its <i>fanxingyuan</i> (反省院, “houses of reflection,” or repentance houses), detention centers meant to make captured Communists recant, marked a shift from mass killing to the subtler policy of turning prisoners, which, as the author notes, produced the very turncoats who later staffed the Nationalist services."
-  },
-  {
-   "anchor": "one cannot avoid speaking of this Kang Sheng",
-   "note": "This unusually harsh portrait of Kang Sheng (1898–1975) reflects the verdict reached after his death. Once the CCP’s intelligence and security chief, he became the driving figure of the Yan’an “Rescue Campaign” (see Chapter 9) and, decades later, a chief instrument of the Cultural Revolution’s persecutions. He died laden with honors, but in 1980 the Party posthumously expelled him and withdrew his eulogy. The author’s open contempt is itself striking in a book so sympathetic to most of its subjects."
-  },
-  {
-   "anchor": "Dong Biwu, Lin Boqu, Xie Juezai, and Xu Teli",
-   "note": "By custom only a handful of the Yan’an leadership, revered for their age and seniority, were addressed as “Elder.” These four, together with Wu Yuzhang, were known as the “Five Elders of Yan’an” (延安五老). That the much younger Kang Sheng could claim the title is the author’s sardonic point."
-  },
-  {
-   "anchor": "wrongly branded an \"inner traitor,\"",
-   "note": "Pan Hannian’s fall came in 1955: arrested as an “inner traitor,” he was imprisoned for having concealed a secret wartime meeting with the collaborationist Wang Jingwei. He died in disgrace in 1977 and was rehabilitated in 1982, as the author records. The case is among the best-known miscarriages of the Maoist security system, and the sympathy here is that of his old comrades of the Special Branch."
-  },
-  {
-   "anchor": "would later compose \"Snow.\"",
-   "note": "“Snow” (沁园春·雪, to the tune <i>Qinyuanchun</i>), Mao Zedong’s most famous poem, written in the winter of 1936 after the Long March reached northern Shaanxi; surveying the snow-bound land, it moves to a sweeping claim on China’s history and future. Its publication in Chongqing in 1945, during the peace talks, caused a sensation."
-  },
-  {
-   "anchor": "the thirty-eighth of the Meiji era",
-   "note": "The rifle was the Japanese Arisaka Type 38, adopted in the thirty-eighth year of the Meiji reign (1905); Chinese soldiers called it the &#8220;Type-38 big cover&#8221; for its sliding bolt-cover. The nickname carried over to the cadres who joined the revolution around 1938, the so-called &#8220;'38-style.&#8221;"
-  },
-  {
-   "anchor": "the Whampoa Academy of Communist intelligence and security",
-   "note": "The Whampoa Military Academy, founded near Guangzhou in 1924 during the first Nationalist&#8211;Communist alliance, trained the officer corps of the National Revolutionary Army; its graduates and instructors became commanders on both sides of the later civil war. To dub the Qilipu camp a &#8220;Whampoa&#8221; is to claim that prestige for the Communist security service."
-  },
-  {
-   "anchor": "his report on the Three People's Principles Youth League",
-   "note": "The Three People's Principles Youth League (<i>Sanqingtuan</i>) was the Nationalists' youth organization, founded in 1938 to gather young people under Chiang Kai-shek's leadership and folded back into the Kuomintang in 1947."
-  },
-  {
-   "anchor": "An important leader of security work, Wang Dongxing",
-   "note": "Wang Dongxing (1916&#8211;2015) rose from this beginning to run Mao Zedong's personal security for decades as head of the Central Guard Bureau, and became a CCP vice-chairman in the interregnum after Mao's death."
-  },
-  {
-   "anchor": "Ling Yun entered in 1941",
-   "note": "Ling Yun (1917&#8211;2018), a career counter-espionage officer, would become the first Minister of State Security when that ministry was created in 1983."
-  },
-  {
-   "anchor": "the Rectification Movement overtook it",
-   "note": "The Yan'an Rectification (<i>zhengfeng</i>), launched in 1942, was Mao Zedong's campaign to remold the Party's thinking and consolidate his leadership. Its &#8220;cadre screening&#8221; (<i>shen'gan</i>) phase shaded into the coercive spy-hunt of the &#8220;Rescue Campaign&#8221; (see Chapter 9)."
-  },
-  {
-   "anchor": "Deng Xiaoping, too, had the matter of a wife to settle.",
-   "note": "Deng Xiaoping (1904&#8211;1997), here a mid-ranking political officer just out of disgrace, would emerge after Mao Zedong's death as China's paramount leader and the architect of its &#8220;reform and opening.&#8221;"
-  },
-  {
-   "anchor": "the Comintern's military adviser to the Party, Li De",
-   "note": "Li De was the Chinese name of Otto Braun (1900&#8211;1974), a German Comintern agent and the only Westerner to make the Long March. As military adviser he shared the blame for the rigid positional tactics that cost the Central Soviet its base in 1934."
-  },
-  {
-   "anchor": "This Pu Qiongying was Zhuo Lin.",
-   "note": "Zhuo Lin (1916&#8211;2009), born Pu Qiongying, daughter of a wealthy Yunnan ham merchant. She married Deng Xiaoping in Yan'an in 1939 and remained his wife for the rest of his life."
-  },
-  {
-   "anchor": "Mao Zedong's marriage to Jiang Qing",
-   "note": "Jiang Qing (1914&#8211;1991), a Shanghai film actress who reached Yan'an in 1937 and became Mao Zedong's fourth wife. The Party leadership is said to have consented only on condition that she keep out of politics; she went on to be a chief instigator of the Cultural Revolution and a member of the &#8220;Gang of Four,&#8221; convicted after Mao's death."
-  },
-  {
-   "anchor": "read out a letter from Mao Zedong",
-   "note": "The 1937 trial and execution of Huang Kegong, a decorated Red Army officer who shot a young woman for refusing him, became a celebrated demonstration of &#8220;equality before the law&#8221; in Yan'an. Mao Zedong's letter to the court, quoted here, is much reproduced; the case is well documented (CORROBORATED), though it was also put to propaganda use from the first."
-  },
-  {
-   "anchor": "Chiang Kai-shek's own book, China's Destiny",
-   "note": "<i>China's Destiny</i> (<i>Zhongguo zhi mingyun</i>, 1943), a nationalist tract issued under Chiang Kai-shek's name; its attacks on &#8220;alien&#8221; ideologies were widely read as aimed at the Communists, who answered it in kind."
-  },
-  {
-   "anchor": "more promise than Li Zicheng",
-   "note": "Li Zicheng, the northern-Shaanxi rebel whose peasant army took Beijing in 1644 and toppled the Ming, only to lose the city within weeks (see the fuller note in Chapter 1). The comparison means that this movement, unlike his, would hold what it won."
-  },
-  {
-   "anchor": "Political power grows out of the barrel of a gun",
-   "note": "Mao Zedong's dictum of 1927. The author caps it with a coinage of his own &#8212; that leadership grows out of the haft of the knife, the knife being the security and police power &#8212; echoing this chapter's play on the &#8220;gun&#8221; and the &#8220;knife.&#8221;"
-  },
-  {
-   "anchor": "The Zunyi Conference of 1935",
-   "note": "The enlarged Politburo meeting at Zunyi in January 1935, midway through the Long March, at which Mao Zedong won effective control of the Red Army and the Party &#8212; the pivot the author treats as the start of the CCP's correction of its own course."
-  },
-  {
-   "anchor": "the Wang Jingwei puppet regime",
-   "note": "Wang Jingwei (1883&#8211;1944), once a leading figure of the Nationalists, went over to the Japanese and in 1940 headed a collaborationist government at Nanjing that claimed to be the true Republic of China. &#8220;Puppet&#8221; (<i>wei</i>) is the standard word for it on both sides of the later divide."
-  },
-  {
-   "anchor": "Before the Battle of Tai'erzhuang",
-   "note": "The Battle of Tai'erzhuang, in southern Shandong in the spring of 1938, was one of China's first major victories over the Japanese army, won by Nationalist forces under Li Zongren."
-  },
-  {
-   "anchor": "his merits always outweighed his faults",
-   "note": "Deng Xiaoping's phrasing anticipates the verdict the Party would formally reach on Mao Zedong in 1981 &#8212; that his contributions outweighed his mistakes &#8212; a judgment Deng himself did much to shape."
-  }
- ],
- "ch03": [
-  {
-   "anchor": "the short name *ba-ban*",
-   "note": "During the wartime alliance the Nationalists let the Communists keep open liaison offices in the cities they controlled, nominally the rear offices of the Eighth Route Army (the 18th Group Army). The arrangement is what let a Communist establishment operate legally in Nationalist territory; the offices ran open united-front work above the surface and secret intelligence below it."
-  },
-  {
-   "anchor": "to wear the same Zhongshan suits as government officials",
-   "note": "The Zhongshan suit (<i>zhongshanzhuang</i>), named for Sun Yat-sen (Sun Zhongshan), was the semi-formal tunic-and-trousers uniform of Republican officialdom, and later the &#8220;Mao suit&#8221; of the People's Republic. The point is that the Communists now dressed indistinguishably from the officials they worked among."
-  },
-  {
-   "anchor": "reported the great victory at Pingxingguan",
-   "note": "At Pingxingguan in northeast Shanxi, in September 1937, an Eighth Route Army division under Lin Biao ambushed a Japanese column&#8212;the Communists' first celebrated battlefield success of the war, and a propaganda coup out of proportion to its scale. CORROBORATED as an event, though its size has long been inflated in the telling."
-  },
-  {
-   "anchor": "the far country",
-   "note": "As glossed earlier, &#8220;the far country&#8221; (<i>yuanfang</i>) is the Party's code for the Soviet Union and the Comintern in Moscow."
-  },
-  {
-   "anchor": "\"Mengjiang United Autonomous Government",
-   "note": "The Japanese puppet regime for Inner Mongolia (<i>Mengjiang</i>, &#8220;the Mongol borderland&#8221;), set up in 1939 under the Mongol prince Demchugdongrub to detach the region from China."
-  },
-  {
-   "anchor": "honored it as the \"Latter Three Heroes,\"",
-   "note": "Xiong Xianghui, Chen Zhongjing, and Shen Jian, planted around Hu Zongnan's headquarters. The name deliberately echoes the &#8220;Three Heroes of Longtan&#8221; (Li Kenong, Qian Zhuangfei, Hu Di) of the early-1930s Special Branch, noted in Chapter 1."
-  },
-  {
-   "anchor": "be content to serve as an idle chessman",
-   "note": "A metaphor from <i>weiqi</i> (go): an &#8220;idle stone&#8221; (<i>xianqi lengzi</i>) is a piece laid down early, far from the fighting, that looks pointless until, at the decisive moment, it turns the whole board. The author makes it the governing image for the Communists' long-dormant deep-cover agents."
-  },
-  {
-   "anchor": "You cannot get the tiger's cubs without entering the tiger's lair.",
-   "note": "A proverb (<i>bu ru huxue, yan de huzi</i>): nothing worth having is won without entering danger. Zhou Enlai and Dong Biwu gave it to Xiong Xianghui as his watchword."
-  },
-  {
-   "anchor": "Shen Anna, a native of Taixing in Jiangsu",
-   "note": "Shen Anna (1915&#8211;2010), later famous as the Communists' &#8220;red stenographer,&#8221; took shorthand at the Nationalists' confidential meetings for some fourteen years and passed the records to the Party. Her story is well documented in Party histories and her family's own recollections."
-  },
-  {
-   "anchor": "the largest Party enterprise of all, China Resources, was born",
-   "note": "China Resources (<i>Huarun</i>), assembled from the Party's wartime trading firms, went on to become one of the largest state-owned conglomerates of the People's Republic&#8212;retail, power, beer, real estate&#8212;still active today."
-  },
-  {
-   "anchor": "his fellow Ningbo townsman Bao Yugang",
-   "note": "Bao Yugang (1918&#8211;1991), better known in the West as Sir Y.&#160;K. Pao, later became the world's largest independent shipowner from Hong Kong. His early dealings with Lu Xuzhang's firm are attested; the passage should not be read as making him a Communist agent."
-  },
-  {
-   "anchor": "the South Seas overseas-Chinese leader Tan Kah Kee",
-   "note": "Tan Kah Kee (Chen Jiageng, 1874&#8211;1961), the Singapore rubber magnate and philanthropist who led overseas-Chinese relief for the resistance. His 1940 tour, contrasting a corrupt Chongqing with an austere Yan'an, famously turned him toward the Communists."
-  },
-  {
-   "anchor": "the great sofa at No. 50 Zengjiayan",
-   "note": "Zengjiayan No. 50 in Chongqing was the office of the CCP's Southern Bureau and Zhou Enlai's residence; together with the Hongyan (&#8220;Red Crag&#8221;) village compound it was the hub of Communist work in the wartime capital, and both are now museums."
-  },
-  {
-   "anchor": "staged its \"scorched-earth resistance\" and set fire to the city",
-   "note": "The Changsha fire of November 1938 (the &#8220;Wenxi fire&#8221;): a botched scorched-earth order set on a false alarm burned much of the city and killed thousands of its own people, one of the war's great man-made disasters. CORROBORATED."
-  },
-  {
-   "anchor": "engineered the New Fourth Army Incident",
-   "note": "In January 1941, in southern Anhui, Nationalist forces ambushed the headquarters column of the Communist New Fourth Army, killing or capturing thousands and abolishing the army's designation. It marked the effective end of the united front and is the &#8220;second anti-Communist high tide&#8221; of the paragraph."
-  },
-  {
-   "anchor": "the *Yellow River Cantata*",
-   "note": "The <i>Yellow River Cantata</i> (1939), words by Guang Weiran and music by Xian Xinghai, became the great musical anthem of the resistance and remains one of the best-known works of modern Chinese music."
-  },
-  {
-   "anchor": "the Canadian doctor Bethune",
-   "note": "Norman Bethune (1890&#8211;1939), the Canadian surgeon who served and died with the Eighth Route Army in North China; Mao Zedong's eulogy made him one of the most honored foreigners in Chinese Communist memory."
-  },
-  {
-   "anchor": "the Vietnamese Communist leader Nguyen Ai Quoc, Ho Chi Minh",
-   "note": "Ho Chi Minh (1890&#8211;1969) used the name Nguyen Ai Quoc (&#8220;Nguyen the Patriot&#8221;) in his years as a Comintern agent; he was in and out of south China organizing the Vietnamese revolution before founding the Democratic Republic of Vietnam."
-  },
-  {
-   "anchor": "Okano Susumu, alias Nosaka Sanzo",
-   "note": "Nosaka Sanzo (1892&#8211;1993), who used the alias Okano Susumu, spent the war in Yan'an running anti-war work among Japanese prisoners; a founder of the postwar Japanese Communist Party, he was expelled from it at the age of a hundred when Soviet archives exposed his wartime denunciation of a comrade."
-  },
-  {
-   "anchor": "his one book, *Red Star Over China*",
-   "note": "Edgar Snow's <i>Red Star Over China</i> (1937), written after the American journalist reached the Communist base in northern Shaanxi in 1936, was the first sympathetic Western account of Mao Zedong and the Red Army and shaped outside perceptions of the CCP for a generation."
-  },
-  {
-   "anchor": "Colonel Barrett posted to Yan'an, Major Ou Daiyi to the East River Column",
-   "note": "Colonel David D. Barrett led the U.S. Army Observation Group (the &#8220;Dixie Mission&#8221;) to Yan'an in 1944. &#8220;Ou Daiyi&#8221; is the source's transliteration of the American officer attached to the East River Column; the name cannot be securely matched to a Western original and is given here as the book renders it."
-  },
-  {
-   "anchor": "detected the strategic intelligence of Germany's attack on the USSR",
-   "note": "The claim that the Communist-linked Yan Baohang gave Moscow advance warning of the June 1941 German invasion is a staple of Chinese intelligence lore. It is UNCORROBORATED in independent sources and rests chiefly on later Chinese accounts; the book presents it as established."
-  },
-  {
-   "anchor": "successfully rescued eighty-nine British and American prisoners of war",
-   "note": "The East River Column's rescues of Allied personnel after the fall of Hong Kong, in cooperation with the British Army Aid Group, are well documented; the figures vary by account. Broadly CORROBORATED."
-  },
-  {
-   "anchor": "Only in 1988 did a memoir by the former Juntong Northwest district chief reveal the truth",
-   "note": "The killing of Xuan Xiafu is the author's clearest &#8220;interested witness&#8221; set-piece: the account rests on the confession-memoir of the Juntong officer Zhang Yanfo and on Luo Qingchang's later disclosures, both cited in the Principal Sources. That Chiang Kai-shek ordered the killing is CORROBORATED by Zhang's memoir; the deeper motive&#8212;fear that Xuan would turn Hu Zongnan&#8212;is the Communist side's interpretation, and is presented as fact."
-  },
-  {
-   "anchor": "which was then named Lihuang County after him",
-   "note": "Wei Lihuang's capture of the Communist base town of Jinjiazhai in 1932 led to its renaming as Lihuang County in his honor. After 1947 it was renamed Jinzhai, its present name."
-  },
-  {
-   "anchor": "a three-sided Executive Headquarters for military mediation",
-   "note": "The Executive Headquarters set up in Beiping in January 1946, with Nationalist, Communist, and American members, to supervise the truce after the war; it broke down as the civil war resumed."
-  },
-  {
-   "anchor": "proposed a \"three-thirds system\" in building",
-   "note": "The &#8220;three-thirds system&#8221; (<i>sansanzhi</i>): the wartime rule that Communists, non-Party progressives, and other democrats each hold a third of the seats in base-area governments&#8212;a united-front device to broaden the Party's support."
-  }
- ],
- "ch04": [
-  {
-   "anchor": "threw up a strange thing: a \"dual regime.\"",
-   "note": "The <i>shuangchong zhengquan</i> or &#8220;dual regime&#8221; was a peculiarity of the wartime united front. Because the Nationalist central government held de jure sovereignty, it insisted on appointing the magistrates and prefectural commissioners of the twenty-three counties it recognized as the Shaanxi-Gansu-Ningxia Border Region, while the Communists, who held the ground in fact, appointed their own; many counties thus had two rival administrations at once, each claiming legitimacy. Pulling out these Nationalist &#8220;nails,&#8221; as the chapter title has it, is the story of the Communists dismantling that rival apparatus between 1939 and 1941. (Printed p.&#160;135.)"
-  },
-  {
-   "anchor": "resolved to \"restrict the activities of alien parties,\"",
-   "note": "The Fifth Plenum of the Nationalist Party&#8217;s Fifth Central Executive Committee (Chongqing, January 1939) adopted the policy of &#8220;restricting the activities of alien parties&#8221; (<i>xianzhi yidang huodong</i>) and a companion program of dissolving the Communists by political means, marking Chiang Kai-shek&#8217;s turn from the 1937 alliance back toward containment of the CCP. The shift is a fixed marker in histories of the united front; corroborated. (Printed p.&#160;139.)"
-  },
-  {
-   "anchor": "\"Friction,\" a term from physics",
-   "note": "&#8220;Friction&#8221; (<i>moca</i>) became the accepted term, on both sides, for the running armed clashes between Nationalist and Communist forces from 1939 to 1943, and &#8220;the struggle against friction&#8221; (<i>fan moca</i>) for the Communist response. The author&#8217;s conceit that Mao coined the political use of the word is his own flourish; by 1940 the usage was in any case common Party vocabulary. (Printed p.&#160;139.)"
-  },
-  {
-   "anchor": "Xi Zhongxun, secretary of the Guanzhong sub-committee",
-   "note": "Xi Zhongxun (1913&#8211;2002), here the young secretary of the Guanzhong sub-committee, later became a vice-premier of the People&#8217;s Republic; he was purged for sixteen years from 1962 over the novel <i>Liu Zhidan</i>, and after 1978 governed Guangdong, where he championed the first Special Economic Zones. He is the father of Xi Jinping. The particulars the author gives&#8212;Youth League at thirteen, the Liangdang mutiny (a 1932 revolt he helped lead among Nationalist-controlled troops) at eighteen, chairman of the Shaan-Gan Border Soviet at twenty-one&#8212;are corroborated in the standard biographies. (Printed pp.&#160;139&#8211;140.)"
-  },
-  {
-   "anchor": "Du Bincheng, the secretary-general of the Shaanxi provincial government",
-   "note": "Du Bincheng (1888&#8211;1947), a noted Shaanxi educator and a founding leader of the China Democratic League, served as secretary-general of the provincial government after the Xi&#8217;an Incident. In March 1947 Hu Zongnan had him arrested on fabricated charges; he was shot at Xi&#8217;an&#8217;s Yuxiang Gate that October, and Mao Zedong wrote his memorial inscription. Corroborated. (Printed p.&#160;138.)"
-  },
-  {
-   "anchor": "setting up baojia units in secret",
-   "note": "The <i>baojia</i> was an old system of mutual-surveillance household registration, grouping families into units collectively answerable for one another&#8217;s conduct; the Nationalist government revived it in the 1930s as an instrument of local control and counter-insurgency. (Printed p.&#160;137.)"
-  },
-  {
-   "anchor": "\"Memorial Meeting for the Martyrs of the Pingjiang Massacre.\"",
-   "note": "On June 12, 1939, troops of Yang Sen&#8217;s Nationalist 27th Group Army surrounded the New Fourth Army&#8217;s rear liaison office at Pingjiang in Hunan and killed six Communist personnel, among them Tu Zhengkun and Luo Ziming. The killings, and the Yan&#8217;an memorial of August&#160;1, became a rallying point of the anti-friction campaign. Corroborated. (Printed p.&#160;139.)"
-  },
-  {
-   "anchor": "this Magistrate Ma Yuzhang, appointed by the Nationalists",
-   "note": "Ma Yuzhang, of the great landlord Ma clan of Yangjiagou in Mizhi, held the Nationalists&#8217; Fushi county magistracy while secretly a Communist, and when the Nationalist county government was expelled he stayed on to become deputy mayor and then mayor of Yan&#8217;an. By the author&#8217;s interviews his cover was so tightly held that even Luo Qingchang, the later intelligence minister, learned of it only decades afterward; during the Cultural Revolution his descendants were persecuted as landlord kin. The account rests on the family and Party-history testimony the author gathered and is otherwise thinly documented. (Printed pp.&#160;138, 147.)"
-  },
-  {
-   "anchor": "specially appointed He Shaonan \"administrative inspection commissioner.\"",
-   "note": "He Shaonan, the Nationalists&#8217; &#8220;administrative inspection commissioner&#8221; for Suide, built a rival security force and a campaign of harassment that the Border Region nicknamed &#8220;Commissioner Friction.&#8221; His public undoing on corruption charges, driven by Wang Zhen&#8217;s 359th Brigade over the winter of 1939&#8211;40, is a set piece of Party history; that he embezzled relief funds is the Communist account of it. Corroborated in outline. (Printed p.&#160;143.)"
-  },
-  {
-   "anchor": "Wang Zhen, commander of the 359th Brigade",
-   "note": "Wang Zhen (1908&#8211;1993) commanded the 359th Brigade, celebrated for reclaiming the Nanniwan wastes during the wartime blockade; he later led armies into Xinjiang and from 1988 served as vice-president of the People&#8217;s Republic. Corroborated. (Printed p.&#160;144.)"
-  },
-  {
-   "anchor": "whom he sent off to Ma Hongkui.",
-   "note": "Ma Hongkui (1892&#8211;1970) ruled Ningxia as a family fief, one of the Muslim &#8220;Ma clique&#8221; warlords of the northwest and a standing enemy of the Communists on the Border Region&#8217;s western flank. (Printed p.&#160;142.)"
-  },
-  {
-   "anchor": "earned himself the nickname \"Red Sherlock Holmes.\"",
-   "note": "Bu Lu&#8217;s real name was Chen Bo (1909&#8211;1972). After 1949 he became the founding head of public security in Guangzhou, but in 1951 he and Chen Kun were arrested in what became known as the &#8220;two Chens case,&#8221; accused by Public Security Minister Luo Ruiqing of being enemy agents&#8212;the first great frame-up of the new state&#8217;s own security apparatus. Sentenced to ten years and then held under labor reform, Chen Bo died in 1972 and was posthumously cleared in 1980. The &#8220;Red Sherlock Holmes&#8221; celebrated here was thus consumed by the very machinery he had helped to build. Corroborated. (Printed p.&#160;143.)"
-  },
-  {
-   "anchor": "This too would be the height of benevolence and the fullness of righteousness.",
-   "note": "The closing flourish&#8212;<i>gai yi ren zhi zhi, yi zhi jin ye</i>&#8212;dresses a blunt ultimatum in the courtly idiom of the Confucian classics; &#8220;<i>ren zhi yi jin</i>,&#8221; benevolence and righteousness carried to their limit, is proverbial. Sent over Xiao Jinguang&#8217;s name, the telegram was, the author says, drafted by Mao Zedong himself. (Printed p.&#160;145.)"
-  },
-  {
-   "anchor": "the \"Anti-Traitor Committee,\"",
-   "note": "<i>Chujian</i>, literally &#8220;rooting out traitors,&#8221; was the Communist term for counter-espionage and the hunt for collaborators and enemy agents; the mass &#8220;Anti-Traitor Committees&#8221; extended it into a village-level surveillance network. The word and its apparatus give Chapter&#160;7 its title. (Printed p.&#160;146.)"
-  }
- ],
- "ch05": [
-  {
-   "anchor": "the anniversary of the Mukden Incident in 1940",
-   "note": "The Mukden (or September 18) Incident of 1931, when the Japanese Kwantung Army staged a pretext to seize Manchuria; its anniversary, <i>jiu-yi-ba</i> (&#8220;nine-one-eight&#8221;), became a fixed date of national mourning and defiance, which is why the author reckons the Party&#8217;s decisions by it."
-  },
-  {
-   "anchor": "a \"Draft Understanding\" with the American secretary of state, Hull",
-   "note": "The Hull&#8211;Nomura talks of 1941, in which a privately drafted &#8220;Draft Understanding&#8221; briefly raised hopes of a Japanese-American settlement; the negotiations broke down that autumn, months before Pearl Harbor. CORROBORATED."
-  },
-  {
-   "anchor": "the German friend Anna Wang",
-   "note": "Anna Wang (Anneliese Martens, 1907&#8211;1990), the German wife of the Communist Wang Bingnan; a journalist and translator active in China&#8217;s wartime foreign-friends circles."
-  },
-  {
-   "anchor": "the battle of Nomonhan in 1937",
-   "note": "The Nomonhan Incident&#8212;the undeclared border war between Japan and the Soviet Union at Khalkhin Gol&#8212;was fought in 1939, not 1937; the source&#8217;s date is an error, rendered here as printed. The Soviet victory there is often credited with turning Japan&#8217;s expansion south rather than north. CONTRADICTED."
-  },
-  {
-   "anchor": "the strategic agent Sorge to Shanghai",
-   "note": "Richard Sorge (1895&#8211;1944), the Soviet military-intelligence officer who ran a ring first in Shanghai and then in Tokyo, and whose warnings of the German attack Stalin also discounted; arrested by the Japanese in 1941 and hanged in 1944. CORROBORATED."
-  },
-  {
-   "anchor": "the Tokkō, the Special Higher Police",
-   "note": "The <i>Tokk&#333;</i>, Japan&#8217;s political and &#8220;thought&#8221; police, charged with surveillance and suppression of suspected subversives; a foreign agent with European features was an obvious target for it."
-  },
-  {
-   "anchor": "the remnant of the Western Route Army that had reached Xinjiang",
-   "note": "The Western Route Army&#8212;more than twenty thousand Red Army troops&#8212;was destroyed by Muslim cavalry in the Hexi Corridor in the winter of 1936&#8211;37; the scattered survivors who reached Xinjiang were the pool from which these Soviet-trained agents were drawn."
-  },
-  {
-   "anchor": "Vladimirov (Sun Ping), was a Soviet intelligence officer",
-   "note": "Pyotr Vladimirov (1905&#8211;1953), a Soviet military-intelligence officer and TASS correspondent who used the Chinese name Sun Ping and later served as the Comintern liaison at Yan&#8217;an, where he kept a well-known (and much-disputed) diary."
-  },
-  {
-   "anchor": "the \"New Life Movement,\" Yan was its executive director",
-   "note": "The New Life Movement, launched by Chiang Kai-shek and Soong May-ling in 1934, was a state campaign of Confucian-tinged moral and hygienic reform; its prominence gave a well-placed insider like Yan Baohang wide access to the Nationalist elite."
-  },
-  {
-   "anchor": "Yan Baohang was a Northeasterner from Haicheng",
-   "note": "Yan Baohang (1895&#8211;1968), a Christian educator and aide to Zhang Xueliang who became a secret Communist inside the Nationalist inner circle. He died in prison in the Cultural Revolution; in 1995 Russia posthumously decorated him for the Barbarossa intelligence. CORROBORATED as to his role and the decoration."
-  },
-  {
-   "anchor": "Stalin sent the Communists a telegram of thanks",
-   "note": "That Yan Baohang obtained the June&#160;22 date and that it was relayed to Moscow is well attested in Chinese sources, and Russia&#8217;s 1995 decoration of him is real. But Stalin received many such warnings&#8212;from Sorge, from British intercepts, from his own agents&#8212;and discounted them all; the Soviet Union was caught grievously unprepared. The claim that this particular warning was believed and acted upon, and the thank-you telegram itself, rest on Chinese accounts and are not corroborated in the Soviet record. The author himself concedes the day&#8217;s notice changed little. UNCORROBORATED / CONTESTED."
-  },
-  {
-   "anchor": "the Japanese Communist leader Okano Susumu",
-   "note": "&#8220;Okano Susumu&#8221; was the wartime alias of Nosaka Sanz&#333; (1892&#8211;1993), the Japanese Communist leader who spent the war years at Yan&#8217;an running anti-war work among Japanese prisoners."
-  },
-  {
-   "anchor": "the reference materials on the Japanese prime minister Miki",
-   "note": "Miki Takeo was Japanese prime minister in 1974&#8211;76; the deathbed anecdote leaps forward to Mao&#8217;s final years, decades past the 1940s of the surrounding narrative, to illustrate how deep the habit of &#8220;investigation and study&#8221; had run."
-  },
-  {
-   "anchor": "He played the Empty City Stratagem at full voice",
-   "note": "The Empty City Stratagem is the famous ruse of the <i>Romance of the Three Kingdoms</i>, in which Zhuge Liang, having no troops, throws open the city gates and sits calmly playing the zither, so unnerving the enemy general that he withdraws&#8212;bluffing strength from weakness."
-  },
-  {
-   "anchor": "Wang Jinshan directed the Hanlüe Village ambush",
-   "note": "The Hanl&#252;e Village ambush of October 1943, in which Wang Jinshan&#8217;s regiment wiped out a touring Japanese officers&#8217; observation party in a single engagement; celebrated as a model ambush of the war behind the lines. CORROBORATED."
-  },
-  {
-   "anchor": "the Japanese \"flower of famous generals,\" Lieutenant-General Abe Norihide",
-   "note": "Abe Norihide, killed at Huangtuling in Laiyuan county in November 1939, was the first and highest-ranking Japanese general slain by the Eighth Route Army; Japanese propaganda had dubbed him &#8220;the flower of famous generals.&#8221; The engagement was a Jin-Cha-Ji operation; the source credits the local intelligence station with a share of it. CORROBORATED."
-  },
-  {
-   "anchor": "Kawashima Yoshiko's younger brother Xiandong",
-   "note": "Kawashima Yoshiko (1907&#8211;1948), born Aisin Gioro Xianyu, was a Qing princess raised in Japan who became a Japanese agent in Manchuria; she was executed by the Nationalists as a collaborator in 1948. Her brother Xiandong worked, instead, for the Communist intelligence group. CORROBORATED."
-  },
-  {
-   "anchor": "a secret-service organ governing the whole of Central China, the \"Ume Kikan.\"",
-   "note": "The &#8220;Plum Agency&#8221; (<i>Ume Kikan</i>), named for its founder Kagesa&#8217;s cover, was the Japanese army organ that arranged Wang Jingwei&#8217;s defection and oversaw his regime&#8217;s security. CORROBORATED."
-  },
-  {
-   "anchor": "at No. 76 Jessfield Road",
-   "note": "No.&#160;76 Jessfield Road became a byword of terror in occupied Shanghai&#8212;the torture-house headquarters of the Wang Jingwei secret service under Ding Mocun and Li Shiqun. CORROBORATED."
-  },
-  {
-   "anchor": "East Asia Common Culture Academy",
-   "note": "The T&#333;a D&#333;bun Shoin, a Japanese academy in Shanghai that trained Japanese &#8220;China hands&#8221; and doubled as a nursery of intelligence officers. It was in fact founded around 1900&#8211;1901, not 1905 as the source has it. CONTRADICTED as to the date."
-  },
-  {
-   "anchor": "his comrade Sun Fengming had braved death to wound Wang Jingwei",
-   "note": "At the Nationalists&#8217; Fourth Congress in Nanjing in November 1935, the assassin Sun Fengming&#8212;posing as a press photographer&#8212;shot and wounded Wang Jingwei; the intended target had been Chiang Kai-shek, who was not on the dais. Hua Kezhi had organized the plot. CORROBORATED."
-  },
-  {
-   "anchor": "none should be treated with closer intimacy than the spy",
-   "note": "From the last chapter of Sun Tzu&#8217;s <i>Art of War</i>, &#8220;The Use of Spies&#8221; (<i>yong jian</i>), on the primacy of trust, reward, and secrecy in running agents."
-  },
-  {
-   "anchor": "The Duke of Zhou spat out his food",
-   "note": "From Cao Cao&#8217;s poem &#8220;Short Song&#8221; (<i>Duan ge xing</i>): the Duke of Zhou is said to have spat out his food to hurry out and receive a worthy caller, so eager was he for talent&#8212;the emblem of a leader who wins men&#8217;s hearts. Here it stands for the personal loyalty a Communist controller could command."
-  },
-  {
-   "anchor": "And Guan Lu was given the secret task of turning Li Shiqun",
-   "note": "Guan Lu (1907&#8211;1982), one of the most admired women poets of the day, paid for this assignment with her name: branded a &#8220;collaborator&#8221; for her wartime cover, she was later imprisoned in the Pan Hannian case and took her own life soon after her rehabilitation. Her fate became a byword for the private cost of clandestine work."
-  }
- ],
- "ch06": [
-  {
-   "anchor": "opened in Yan'an a Japanese Workers' and Peasants' School",
-   "note": "A real institution (&#26085;&#26412;&#24037;&#20892;&#23398;&#26657;), opened at Yan&#8217;an on 15 May 1941 to re-educate Japanese prisoners of war; it was led by the Japanese Communist leader Nosaka Sanz&#333; (who used the alias Okano Susumu, &#20911;&#37326;&#36827;). Its graduates carried out antiwar propaganda at the front. CORROBORATED."
-  },
-  {
-   "anchor": "the memorial that the Japanese prime minister Tanaka Giichi had submitted to the Emperor, which said: \"To conquer the world, one must first conquer China",
-   "note": "The so-called Tanaka Memorial. Its authenticity is rejected by most Japanese and Western historians: no Japanese original has ever surfaced, and it is generally regarded as a fabrication that appeared in China around 1929. Its expansionist program did, however, foreshadow the actual course of Japanese aggression, which is why it was so widely believed. The circulation described here is itself well attested: Yan Baohang obtained a copy and had an English translation distributed to Western delegates at the 1929 IPR conference in Kyoto. CONTRADICTED as a genuine state document; the author reports it, as the Chinese side of the day received it, as authentic."
-  },
-  {
-   "anchor": "A Survey of China's War-Fighting Strength",
-   "note": "The Japanese-language report used the exonym <i>Shina</i> (&#25903;&#37027;) for China, as in <i>Shina Expeditionary Army</i> and the &#8220;China Incident&#8221; below; once a neutral term, it had become a slur by this period. It is rendered plainly as &#8220;China&#8221; throughout."
-  },
-  {
-   "anchor": "the most highly classified of all the peace operations, \"Operation Kiri",
-   "note": "Operation Kiri (the Kiri K&#333;saku) was a genuine 1940 Japanese channel to Chongqing run by Imai Takeo. The negotiator called &#8220;Song Ziliang&#8221; used the name of a real Soong brother, but the man at the table was an impostor, an agent of Dai Li&#8217;s Juntong; mainstream accounts treat the affair as a Nationalist deception that strung the Japanese along. Pan Hannian did run an intelligence-exchange tie to Iwai Eiichi and did expose the impostor to him. The book&#8217;s dramatized version&#8212;that Pan cast the man as a Communist plant so the Japanese would fear a Juntong trap&#8212;and the credit it gives Pan for collapsing the channel rest on Chinese accounts. PARTLY CORROBORATED."
-  },
-  {
-   "anchor": "Gao Chongwu",
-   "note": "So printed in the source. The man is the well-documented Gao Zongwu (&#39640;&#23447;&#27494;), who with Tao Xisheng defected from the Wang Jingwei camp to Hong Kong and published the draft treaty in January 1940&#8212;the &#8220;Gao-Tao incident.&#8221; The source&#8217;s &#23849; for &#23447; is a misprint."
-  },
-  {
-   "anchor": "the plan for the \"Kwantung Army Special Maneuvers,\"",
-   "note": "The Kantokuen (&#38306;&#29305;&#28436;) of July 1941 was a real and enormous mobilization&#8212;on the order of 700,000 to 800,000 troops&#8212;massing the Kwantung Army in the Northeast for a possible strike at the Soviet Union after the German invasion. Japan ultimately shelved it and turned south. CORROBORATED."
-  },
-  {
-   "anchor": "moved the 200,000-strong army defending the eastern front against Japan to the western front, and won at last the defense of Moscow",
-   "note": "The Soviet transfer of Far Eastern divisions west in the autumn of 1941 is real and mattered to the defense of Moscow, though modern scholarship qualifies the &#8220;Siberian divisions saved Moscow&#8221; picture: only some units were genuinely Siberian, and some moves preceded any decisive intelligence. The reporting usually credited for freeing these forces is Sorge&#8217;s (and Soviet code-breaking), not Chinese Communist intelligence. The book&#8217;s attribution of the decision specifically to the Communists is a Chinese account and is UNCORROBORATED; see the note in Chapter&#160;5 on the Barbarossa warning."
-  },
-  {
-   "anchor": "On December 7, 1941, Japan will launch surprise attacks at many points across the Pacific",
-   "note": "That the Nakanishi&#8211;Ozaki network reported Japan would go south, meaning war with the United States and Britain, is well attested; the precise prediction of the Pearl Harbor date recorded here rests on later Chinese accounts (chiefly Nakanishi&#8217;s own) and is not independently corroborated. PARTLY CORROBORATED."
-  },
-  {
-   "anchor": "Chi Buzhou broke another special cipher telegram",
-   "note": "Chinese accounts credit the Nationalist cryptanalyst Chi Buzhou with reading Japanese diplomatic traffic and forecasting a Sunday attack on Pearl Harbor, a warning said to have been passed to and ignored by the Americans. The story is widely repeated in China but is not corroborated in Western records of the Pearl Harbor intelligence. UNCORROBORATED."
-  },
-  {
-   "anchor": "so that people call him \"the Yue Fei of Japan.\"",
-   "note": "Yue Fei (1103&#8211;1142) was a Southern Song general celebrated as the archetype of the loyal soldier who dies for his country; to call the ancestral General Kusunoki Masashige &#8220;the Yue Fei of Japan&#8221; casts him in the same mold of martyred loyalty."
-  },
-  {
-   "anchor": "like Zhuge Liang pacifying the Five Routes from the calm of his own home",
-   "note": "An allusion to the <i>Romance of the Three Kingdoms</i>: the strategist Zhuge Liang, without stirring from his residence, turns back five invading armies at once by arranging countermeasures in advance&#8212;a byword for commanding great events from a quiet center. Zhuge Liang is the same strategist of the Empty City Stratagem (Chapter&#160;5)."
-  },
-  {
-   "anchor": "The greatest sound is silent; the greatest form has no shape.",
-   "note": "From Laozi&#8217;s <i>Daodejing</i>, chapter 41: the received text reads <i>the greatest sound is faint of voice</i> (&#22823;&#38899;&#24076;&#22768;); the source prints &#22823;&#38899;&#26080;&#22768;. The saying is turned here into an emblem of the spy who works unseen and unheard."
-  }
- ],
- "ch07": [
-  {
-   "anchor": "the Anti-Traitor Department",
-   "note": "&#8220;Rooting out traitors&#8221; renders <i>chujian</i> (&#38146;&#22902;), literally &#8220;to hoe out the traitors&#8221;: the wartime name the Communists gave to counter-espionage work. A <i>hanjian</i> (&#27721;&#22855;), the &#8220;traitor to the Han&#8221; of the following sentences, is a Chinese who collaborates with a foreign invader&#8212;here the Japanese. The word carries the author&#8217;s side&#8217;s full charge, and is kept as he uses it."
-  },
-  {
-   "anchor": "the Special Branch's \"dog-beating squad\"",
-   "note": "The armed unit of the Central Special Branch&#8212;also called the &#8220;Red Squad&#8221;&#8212;that hunted down and killed defectors and informers, the &#8220;dogs&#8221; of the name. It first appears in Chapter 1."
-  },
-  {
-   "anchor": "Puyi, the former Qing emperor",
-   "note": "Puyi (1906&#8211;1967), the last Qing emperor, abdicated in 1912 and was installed by Japan in 1932 as ruler of the puppet state of Manchukuo. Wang Jingwei headed the Japanese-sponsored regime at Nanjing (see Chapter 2)."
-  },
-  {
-   "anchor": "Wang Kemin, chairman of the Provisional Government council",
-   "note": "Wang Kemin (1873&#8211;1945) headed the Japanese-sponsored Provisional Government of the Republic of China set up in North China in December 1937."
-  },
-  {
-   "anchor": "Zuo Quan, was killed in action",
-   "note": "Zuo Quan (1905&#8211;1942), Soviet-trained deputy chief of staff of the Eighth Route Army, was killed on May 25, 1942, breaking out of a Japanese encirclement at Shiziling during the &#8220;May mopping-up&#8221; of the Taihang base; he was the highest-ranking Communist commander to die in the war. Corroborated. (The book styles him chief of staff; his post was deputy chief of staff of the forward headquarters.)"
-  },
-  {
-   "anchor": "the \"three links\": mail, transport, and trade",
-   "note": "The &#8220;three links&#8221; (<i>santong</i>): postal exchange, transport, and trade. The same phrase would become famous decades later in cross-Strait politics."
-  },
-  {
-   "anchor": "the Second Revolutionary Civil War",
-   "note": "The Communist term for the civil war of 1927&#8211;1937, also called the Agrarian Revolutionary War; the &#8220;White areas&#8221; were the Nationalist-held regions."
-  },
-  {
-   "anchor": "Shen Zhiyue, who claimed to have slipped into Yan'an",
-   "note": "Shen Zhiyue (1913&#8211;1994) did infiltrate Yan&#8217;an around 1938 and later became a senior intelligence official in Taiwan, eventually heading the Investigation Bureau. His claim to have been Mao Zedong&#8217;s secretary is uncorroborated&#8212;the book itself calls it bragging."
-  },
-  {
-   "anchor": "their bodies in Cao's camp, their hearts with Han",
-   "note": "An idiom from the tales of the Three Kingdoms: the general Guan Yu, obliged to serve the warlord Cao Cao, kept his heart loyal to his own lord and the Han cause. It means outward service and inward loyalty."
-  },
-  {
-   "anchor": "On Tactics Against Japanese Imperialism",
-   "note": "Mao Zedong&#8217;s report to the Wayaobao conference of December 1935 (the canonical English title of &#12298;&#35770;&#21453;&#23545;&#26085;&#26412;&#24093;&#22269;&#20027;&#20041;&#30340;&#31574;&#30053;&#12299;)."
-  },
-  {
-   "anchor": "the \"CC Clique\"",
-   "note": "The faction of the brothers Chen Guofu and Chen Lifu, which dominated the Nationalist party machine and Zhongtong; its rival, the &#8220;Zhu faction,&#8221; formed around the organization minister Zhu Jiahua."
-  },
-  {
-   "anchor": "the ruse of self-injury",
-   "note": "The <i>kurou ji</i>, one of the Thirty-Six Stratagems: to injure one&#8217;s own man so the enemy will trust him&#8212;classically the flogging of Huang Gai before the battle of Red Cliffs."
-  },
-  {
-   "anchor": "Jiang Gan Steals the Letter",
-   "note": "An episode from <i>Romance of the Three Kingdoms</i>: Zhou Yu plants a forged letter for Cao Cao&#8217;s envoy Jiang Gan to &#8220;steal,&#8221; tricking Cao into executing his own two admirals&#8212;a byword for the counter-espionage frame (<i>fanjian ji</i>) that turns the enemy&#8217;s own spying against him."
-  },
-  {
-   "anchor": "packing his Sacrifice League with renegade cadres",
-   "note": "The Sacrifice League for National Salvation, an anti-Japanese mass organization set up under the Shanxi warlord Yan Xishan in 1936; the Communists infiltrated it deeply and used it, and the &#8220;Shanxi New Army&#8221; (its Dare-to-Die Columns), to build their own strength."
-  },
-  {
-   "anchor": "a correspondence between Heaven and man",
-   "note": "<i>Tianren ganying</i>, the old Han-Confucian doctrine that Heaven answers a ruler&#8217;s conduct with portents and disasters&#8212;so that a lightning strike could be read as a verdict on the government."
-  },
-  {
-   "anchor": "crack troops and simple administration",
-   "note": "<i>Jingbing jianzheng</i>, the streamlining of army and administration adopted in the Border Region in 1941&#8211;1942 to survive the Nationalist blockade; proposed by the non-party assemblyman Li Dingming and praised by Mao. Corroborated."
-  },
-  {
-   "anchor": "600,000 dan",
-   "note": "A <i>dan</i> (&#30707;) is a measure of grain, roughly a picul; a <i>jin</i> (&#26020;), a catty, is about half a kilogram."
-  },
-  {
-   "anchor": "a Great Production Campaign",
-   "note": "The Yan&#8217;an self-reliance drive of 1942&#8211;1945&#8212;land reclamation, spinning, and weaving, most famously by the 359 Brigade at Nanniwan&#8212;launched to beat the blockade."
-  },
-  {
-   "anchor": "8 million in border currency",
-   "note": "<i>Bianbi</i>, the banknotes issued by the Shaanxi-Gansu-Ningxia Border Region Bank, legal tender within the Border Region."
-  },
-  {
-   "anchor": "Ma the Blue Sky",
-   "note": "The book prints his name Ma Xiwu (&#39532;&#38177;&#27494;); the documented judge is &#39532;&#38177;&#20116; (1899&#8211;1962), the same romanization. His plain, investigative, mediation-based &#8220;Ma Xiwu adjudication method&#8221; became a Communist model, and the opera <i>Liu Qiao&#8217;er</i> (Chapter 9) derives from one of his judgments. &#8220;Blue Sky&#8221; (<i>qingtian</i>) is the epithet of the incorruptible Song judge Bao Zheng. Corroborated."
-  },
-  {
-   "anchor": "the Soviet Cheka",
-   "note": "The All-Russian Extraordinary Commission (its Russian initials, ChK), Lenin&#8217;s political police founded in December 1917 under Dzerzhinsky, which combined the hunting of counter-revolutionaries with the policing of sabotage. It was the model for Communist security work&#8212;and, the author suggests, for its excesses."
-  },
-  {
-   "anchor": "Xu Jishen and others were ordered to found",
-   "note": "Xu Jishen (1901&#8211;1931), a Whampoa graduate and Red Army commander in the Hubei-Henan-Anhui base, was executed in an internal purge in 1931 after a Nationalist counter-espionage frame&#8212;planted agents who &#8220;confessed&#8221; him an inside man&#8212;cast suspicion on him; he was later rehabilitated as a martyr. Corroborated. (The book dates the base&#8217;s founding to 1932; the army and base had in fact taken shape by 1930&#8211;1931.)"
-  },
-  {
-   "anchor": "Zhang Luping, just twenty",
-   "note": "Zhang Luping (1921&#8211;1945) led the underground Communist branch inside Juntong&#8217;s Chongqing radio headquarters&#8212;with Zhang Weilin, Feng Chuanqing, Zhao Ligeng, Yang Guang, Chen Guozhu, and Wang Xizhen. The group was exposed in 1940, imprisoned, and executed in 1945; their true story surfaced only in the 1980s. Corroborated."
-  },
-  {
-   "anchor": "the SACO camp",
-   "note": "The Sino-American Cooperative Organization (SACO), a joint U.S.-Nationalist intelligence body formed at Chongqing in 1943; its Geleshan compound adjoined the Baigongguan and Zhazidong prisons where the Zhang Luping group and many other Communists were held and, on the eve of liberation, killed."
-  },
-  {
-   "anchor": "Deng Yanda's action to reorganize",
-   "note": "Deng Yanda (1895&#8211;1931), the leftist Nationalist leader and founder of the &#8220;Third Party,&#8221; was executed on Chiang Kai-shek&#8217;s orders in 1931."
-  },
-  {
-   "anchor": "the counter-espionage stratagem means turning the enemy's agents",
-   "note": "<i>Fanjian ji</i>, one of the Thirty-Six Stratagems: to turn the enemy&#8217;s own agents against him. It is distinct from <i>lijian ji</i>, the stratagem of sowing discord within the enemy (Chapter 6)."
-  },
-  {
-   "anchor": "divergence of wits",
-   "note": "<i>Zhiyi</i>, a term coined by Zhao Cangbi (1917&#8211;1993), a Border Security cadre who rose to become the PRC&#8217;s Minister of Public Security (1977&#8211;1983), for the point-against-point contest of stratagems in covert struggle."
-  }
- ],
- "ch08": [
-  {
-   "anchor": "training class for expendable agents",
-   "note": "&#8220;Expendable agents&#8221; renders &#27515;&#38388; (<i>sijian</i>), literally &#8220;dead agents&#8221;&#8212;one of the five kinds of spy in Sun Tzu&#8217;s <i>Art of War</i>, the doomed agent fed false information and sent knowing he is likely to be caught and killed. Juntong used the term for the men it planted to burrow into the Communist base areas, as Sun Tzu&#8217;s spy-types are glossed earlier in the book."
-  },
-  {
-   "anchor": "the lore of the",
-   "note": "The <i>haidi</i> (&#28023;&#24213;, literally &#8220;sea bottom&#8221;) was Juntong jargon for the secret personal dossier each agent compiled and memorized: his real and cover names, his permanent and mailing addresses, the cover names of his contacts, the cipher for their correspondence, and his oath. The original stayed on file at the training class, and all later clandestine contact was keyed to it."
-  },
-  {
-   "anchor": "the Renaissance Society men",
-   "note": "The Renaissance Society (&#22797;&#20852;&#31038;) was an outer organ of the Nationalist &#8220;Blue Shirts,&#8221; the network of Chiang Kai-shek loyalists built in the early 1930s around the inner Vigorous Action Society (&#21147;&#34892;&#31038;), noted earlier in the book. Its members served as Nationalist party and security cadres."
-  },
-  {
-   "anchor": "Ren Zhuoxuan",
-   "note": "Ren Zhuoxuan (&#20219;&#21331;&#23459;, 1896&#8211;1990), pen name Ye Qing, was an early Communist&#8212;once head of the Party&#8217;s Paris branch&#8212;who, after his arrest, defected and became the Nationalists&#8217; foremost anti-Communist theorist and a propaganda official. Kang Sheng cites his career as the model of a turncoat put to use. (Corroborated.)"
-  },
-  {
-   "anchor": "trained 631 agents",
-   "note": "The chapter gives several figures because they count different things from different sources. The 32 agents of the core Yan&#8217;an &#8220;Dai case&#8221; (1 who came forward, 20 found by investigation, 11 named by others) are the single case cracked in 1942; a later recollection puts the Yan&#8217;an arrests at forty-odd and the whole Yan&#8217;an-period haul at 55; the 631 trained over nine sessions is the Gansu investigators&#8217; 1955 count for the entire class, close to Cheng Muyi&#8217;s own captured report of 670, against 320 known earlier and 160 newly found. The book does not reconcile the tallies."
-  },
-  {
-   "anchor": "took Yijiangshan Island",
-   "note": "The People&#8217;s Liberation Army&#8217;s assault on Yijiangshan (&#19968;&#27743;&#23665;), a small island off the Zhejiang coast held by the Nationalists, in January 1955 was China&#8217;s first combined army-navy-air amphibious landing; the captured documents included Cheng Muyi&#8217;s report. (Corroborated.)"
-  },
-  {
-   "anchor": "the Bureau of Confidential Investigation",
-   "note": "The Bureau of Confidential Investigation (&#20445;&#23494;&#23616;, <i>Baomiju</i>) was the postwar successor to Juntong, formed in 1946 under the Defense Ministry; that renaming is why the wartime Juntong is meant here."
-  },
-  {
-   "anchor": "At Baigongguan",
-   "note": "Baigongguan (&#30333;&#20844;&#39302;, the &#8220;White Mansion&#8221;), a villa at Geleshan outside Chongqing, served Juntong as a prison and as part of its Chongqing training apparatus; it belonged to the SACO complex noted in Chapter 7, where many captured Communists were held and killed."
-  }
- ],
- "ch09": [
-  {
-   "anchor": "because of a famous speech of Kang Sheng's",
-   "note": "The &#8220;Rescue Campaign&#8221; (<i>qiangjiu yundong</i>) was the coercive spy-hunt into which the Yan&#8217;an Rectification&#8217;s cadre-screening phase escalated in 1943. Kang Sheng, chairing it from the Central Social Affairs Department, cast the purge as the &#8220;rescue&#8221; of misled youths from espionage; in practice it ran on forced confessions and manufactured evidence. Scholarship on the period&#8212;Gao Hua&#8217;s <i>How the Red Sun Rose</i>, Dai Qing&#8217;s study of Wang Shiwei, Chen Yung-fa&#8217;s work, which the author himself cites&#8212;finds the great majority of the thousands accused innocent; Mao soon conceded that real agents were &#8220;only a very few.&#8221; CORROBORATED: the campaign drew in on the order of 30,000 cadres, and the Party later disowned it. The author&#8217;s own verdict, that it prefigured the Cultural Revolution, matches the scholarly mainstream."
-  },
-  {
-   "anchor": "the very begetter of the Rescue Campaign",
-   "note": "That Kang Sheng drove the campaign is the single most scrutinized fact of this chapter, and the consensus is firm (on the man, see the note at Chapter 2). It was he who generalized Zhang Keqin&#8217;s coerced confession into the &#8220;Red-Flag Party&#8221; theory, gave the July 1943 &#8220;Rescue the Fallen&#8221; speech, and let his wife Cao Yi&#8217;ou run the campaign in Yan&#8217;an county in person. In 1980 the Party posthumously expelled him and named him, with Lin Biao and Jiang Qing, a chief author of the era&#8217;s persecutions. CORROBORATED. The author assigns him the blame plainly&#8212;unusual candor for so Party-sympathetic a book, and consistent with the record."
-  },
-  {
-   "anchor": "On February 17 Wang Shiwei published",
-   "note": "Wang Shiwei (1906&#8211;1947), a writer and translator at the Central Research Institute, whose essay &#8220;Wild Lily&#8221; (&#37326;&#30334;&#21512;&#33457;) attacked the privilege and hierarchy of Yan&#8217;an&#8217;s elite. He was made the literary target of the Rectification, denounced as a &#8220;Trotskyite,&#8221; and imprisoned. CONTRADICTED, and gravely: the &#8220;living memorial&#8221; scene later in this chapter shows him alive and &#8220;living well&#8221; in 1944, but Wang Shiwei was in fact secretly killed during the Communists&#8217; retreat from Yan&#8217;an on 1 July 1947, his body thrown down a well. In February 1991 the Ministry of Public Security overturned the verdict, called the killing a wartime error, and rehabilitated him. The author&#8217;s text holds to the 1944 moment; the record does not end there."
-  },
-  {
-   "anchor": "put nearly three hundred Huxi cadres to death",
-   "note": "The Huxi (&#8220;west-of-the-lake&#8221;) anti-Trotskyist purge of late 1939, in the base area west of Weishan Lake on the Shandong&#8211;Jiangsu border, is a documented atrocity in Party historiography: on fabricated charges of a Trotskyite ring, several hundred cadres were tortured and killed before Luo Ronghuan and Guo Hongtao rode in to stop it. The Party Center&#8217;s February 1941 &#8220;Decision on the Anti-Traitor Errors in the Huxi Border Region,&#8221; which the author cites, formally condemned it. CORROBORATED."
-  },
-  {
-   "anchor": "Root Out the Trotskyite Bandits",
-   "note": "Kang Sheng&#8217;s article, published in <i>Liberation</i> in early 1938, notoriously branded Chen Duxiu&#8212;co-founder and first general secretary of the Chinese Communist Party, by then close to the Trotskyists&#8212;a paid agent of Japanese intelligence. The charge was baseless and never substantiated; historians read it as a political smear. It set the &#8220;Trotskyite equals Japanese spy&#8221; template the later purges would exploit."
-  },
-  {
-   "anchor": "Kawashima Yoshiko in disguise",
-   "note": "Kawashima Yoshiko (1907&#8211;1948), born Aisin Gioro Xianyu, a Manchu princess raised in Japan who became a Japanese intelligence agent famed as the &#8220;Eastern Jewel.&#8221; The Nationalist government executed her for treason in Beiping in 1948. The rumor that Wang Zunji &#8220;was really Kawashima Yoshiko in disguise&#8221; the author offers as a specimen of the fantastical charges the campaign bred."
-  },
-  {
-   "anchor": "her uncle, Wang Kemin",
-   "note": "Wang Kemin (1873&#8211;1945), a Beiping banker who headed the Japanese-sponsored Provisional Government of North China and then chaired its successor, the North China Political Council&#8212;among the most senior collaborators of the occupation. Arrested after Japan&#8217;s surrender, he died in a Beiping prison in December 1945."
-  },
-  {
-   "anchor": "the Communists' Southern Committee had been wrecked",
-   "note": "The wrecking of the Southern Committee (&#21335;&#22996;) in 1942 was one of the gravest penetrations the CCP underground suffered in the war. Zhongtong turned captured cadres in Jiangxi and rolled the network up through Guangdong and Guangxi; by the author&#8217;s account the whole Jiangxi provincial organization was gutted and over two thousand members arrested. The secretary, Fang Fang, escaped; the deputy secretary Zhang Wenbin died in prison in 1944. CORROBORATED in the standard accounts."
-  },
-  {
-   "anchor": "waved the red flag to oppose the red flag",
-   "note": "This forced confession by Zhang Keqin, a young Gansu cadre broken after three days and nights of interrogation in early 1943, was the spark Kang Sheng seized: he generalized it into the theory of a &#8220;Red-Flag Party&#8221; (&#32418;&#26071;&#20826;), a supposed Nationalist front &#8220;flying the red flag to oppose the red flag,&#8221; and extended the hunt to underground organizations across a dozen provinces. The &#8220;Red-Flag Party&#8221; was a fabrication; on 9 September 1981 the Party Center formally rehabilitated the organizations so charged&#8212;the document the author cites from the biography of Sun Zuobin. CORROBORATED."
-  },
-  {
-   "anchor": "The Injustice to Dou E",
-   "note": "<i>The Injustice to Dou E</i> (&#31572;&#23092;&#20896;), Guan Hanqing&#8217;s Yuan-dynasty tragedy. Wrongly condemned and beheaded, the chaste widow Dou E swears three portents will prove her innocence, one of them snow falling in the sixth month of summer. &#8220;Snow in June&#8221; became the stock image of a great injustice crying out to Heaven, which is why the author reads Yan&#8217;an&#8217;s freak April snow as an omen."
-  },
-  {
-   "anchor": "the Comintern declared its own dissolution",
-   "note": "The Communist International dissolved itself in May 1943, a wartime gesture by Stalin to reassure his Western allies. Chiang Kai-shek seized on it to argue that the Chinese Communists, their &#8220;higher body&#8221; gone, should dissolve too."
-  },
-  {
-   "anchor": "doffing his cap and bowing",
-   "note": "Mao Zedong&#8217;s public apology for the campaign&#8217;s excesses is attested in several participants&#8217; memoirs. In October 1943 he laid down the corrective &#8220;not one to be killed, and most not to be arrested&#8221; (&#19968;&#20010;&#19981;&#26432;&#65292;&#22823;&#37096;&#19981;&#25235;), and at the Seventh Congress in 1945 he apologized again for the wrongs of the vetting. CORROBORATED. Historians add that the gesture cost him little: the blame fell to Kang Sheng, and Mao&#8217;s own authority emerged from the Rectification enlarged."
-  },
-  {
-   "anchor": "Pan Hannian, deputy head of the Social Affairs Department",
-   "note": "Pan Hannian (1906&#8211;1977), the CCP&#8217;s master intelligence operative (Chapters 5&#8211;6). The campaign&#8217;s shadow reached far past 1943: as the author&#8217;s own sources note, Pan never reported a 1943 meeting into which the collaborationist Wang Jingwei had drawn him, and in 1955 that silence was used to charge him as a traitor. He and Yang Fan, named here, were imprisoned for life; Pan died in a labor camp in 1977. The Party rehabilitated both in 1982, ruling the charges a fabrication. CORROBORATED."
-  },
-  {
-   "anchor": "Jiang Nanxiang wrote to Liu Shaoqi",
-   "note": "Jiang Nanxiang (1913&#8211;1988), a leader of the 1935 December 9th student movement and later the People&#8217;s Republic&#8217;s minister of higher education and president of Tsinghua University. His March 1945 &#8220;Opinion on the Rescue Campaign&#8221; is remembered as one of the earliest reasoned repudiations of the campaign from within the Party."
-  },
-  {
-   "anchor": "with the famous actress Xin Fengxia",
-   "note": "The opera grew from a real 1943 Longdong case: the marriage-freedom suit of the peasant girl Feng Zhiqin (childhood name Feng Peng&#8217;er), decided by Judge Ma Xiwu. Reworked as the pingju <i>Liu Qiao&#8217;er</i> and, with Xin Fengxia (1927&#8211;1998) in the title role, made into a hugely popular 1956 film, it became the best-known celebration of the 1950 Marriage Law. Feng Zhiqin was still living when the author wrote."
-  },
-  {
-   "anchor": "only Xiong Dazheng, the most deeply implicated",
-   "note": "Xiong Dazheng&#8212;better known as Xiong Dazhen (&#29066;&#22823;&#32541;); the source prints a homophone variant&#8212;was a Western-trained physicist and a favored student of Ye Qishun who left Tsinghua to build munitions for the Jin-Cha-Ji resistance. Accused as a &#8220;Nationalist agent&#8221; in a 1939 anti-espionage purge, he was killed by his escorts during a transfer. His case, like the Huxi purge, is a documented instance of &#8220;coerce, confess, believe&#8221; predating the Rescue Campaign; he was rehabilitated in the 1980s. CORROBORATED."
-  }
- ],
- "ch10": [
-  {
-   "anchor": "under the table their intelligence services were already kicking each other",
-   "note": "&#8220;The open scheme&#8221; renders &#38451;&#35851; <i>yangmou</i>, coined as the mirror of &#38452;&#35851; <i>yinmou</i>, &#8220;plot&#8221;: a design carried out in the open rather than in secret. The chapter&#8217;s &#8220;open scheme&#8221; is the postwar contest in which the two sides maneuvered openly &#8212; above all in the Chongqing peace talks &#8212; while each raced in secret for military position."
-  },
-  {
-   "anchor": "arrived by air in Chongqing",
-   "note": "The Chongqing negotiations (28 August&#8211;10 October 1945) were a genuine historic event: Chiang Kai-shek invited Mao Zedong to talks, Mao flew to the Nationalist capital under American escort, and the two sides signed the Double-Tenth Agreement. The risk to Mao&#8217;s person was real, and his safety a preoccupation of the CCP security apparatus. Corroborated; the framing here as a &#8220;play performed in earnest&#8221; is the author&#8217;s."
-  },
-  {
-   "anchor": "a modern-day Feast at Hongmen",
-   "note": "&#40511;&#38376;&#23476;, the banquet of 206 BC at which Xiang Yu&#8217;s followers schemed to assassinate his rival Liu Bang, who slipped away; a byword for a banquet that is a deadly trap."
-  },
-  {
-   "anchor": "buffoons out of the tale of Jiang Gan",
-   "note": "In the <i>Romance of the Three Kingdoms</i>, Jiang Gan is sent to spy on the Wu strategist Zhou Yu before the Battle of Red Cliffs, is fed a forged letter, and is gulled into having his own side&#8217;s admirals killed &#8212; the archetype of the spy turned against his master. Zhou Yu, named just below, is the brilliant young Wu commander who engineers the deception."
-  },
-  {
-   "anchor": "On September 5, 1945, Japan surrendered.",
-   "note": "The date is as printed, and is anomalous. Japan announced its acceptance of the Potsdam terms on 15 August 1945; the instrument of surrender was signed aboard the USS <i>Missouri</i> on 2 September; and the surrender of Japanese forces in the China theater was received at Nanjing on 9 September &#8212; the date the book itself gives correctly two paragraphs below. No standard milestone falls on 5 September; treat it as the author&#8217;s slip."
-  },
-  {
-   "anchor": "north of the 16th parallel was China's to receive",
-   "note": "Under the Allied surrender arrangements, Chinese forces took the Japanese surrender across China (apart from the Soviet-occupied Northeast), on Taiwan, and in French Indochina north of the 16th parallel; the zone south of it went to the British. Corroborated."
-  },
-  {
-   "anchor": "forced Long Yun out of Yunnan",
-   "note": "Long Yun (1884&#8211;1962), the &#8220;King of Yunnan,&#8221; had ruled the province semi-autonomously since 1927. On Chiang&#8217;s order Du Yuming&#8217;s troops surrounded his headquarters on Wuhua Mountain on 3 October 1945 and forced him to Chongqing, where he was kept under virtual house arrest; in 1948 he fled to Hong Kong and sided with the Communists. Corroborated."
-  },
-  {
-   "anchor": "the Vietnamese emperor Bao Dai",
-   "note": "Bao Dai (1913&#8211;1997), last emperor of the Nguyen dynasty, abdicated on 25 August 1945 in favor of Ho Chi Minh&#8217;s provisional government and briefly served it as &#8220;supreme adviser.&#8221;"
-  },
-  {
-   "anchor": "no Sino-Japanese dispute over the Diaoyu Islands today",
-   "note": "An editorial aside of the author&#8217;s, reading a present-day territorial quarrel back onto 1945. The status of the Diaoyu (Senkaku) islands was not part of the surrender arrangements the passage describes; the remark reflects the book&#8217;s contemporary nationalist vantage rather than the historical record. Interested witness."
-  },
-  {
-   "anchor": "known within the trade as \"strategic spies.\"",
-   "note": "&#20919;&#34255;&#38388;&#35851; (&#8220;cold-storage&#8221; or &#8220;refrigerated&#8221; spy) and &#25112;&#30053;&#38388;&#35851; (&#8220;strategic spy&#8221;) both name an agent planted deep in the enemy camp and left dormant, doing no active work, until a decisive moment makes him worth the risk of activation."
-  },
-  {
-   "anchor": "the time had come to bring out Yan Youwen",
-   "note": "Yan Youwen (1914&#8211;1962), a secret CCP member planted years before as aide and press chief to Fu Zuoyi. His intelligence, and his later persuasion, helped bring about the peaceful surrender of Beiping in 1949. His Party membership was kept secret even from his family; branded a &#8220;reactionary warlord&#8221; and persecuted, he was publicly acknowledged as a CCP intelligence officer only in 1993. Corroborated: the book cites his daughter and his case officer Luo Qingchang."
-  },
-  {
-   "anchor": "hailed them as the \"Latter Three Heroes.\"",
-   "note": "&#21518;&#19977;&#26480;. Xiong Xianghui (1919&#8211;2005), placed by Zhou Enlai as Hu Zongnan&#8217;s confidential secretary and later a senior PRC diplomat, together with Chen Zhongjing and Shen Jian, formed the trio that penetrated Hu Zongnan&#8217;s headquarters and gave early warning of the 1947 attack on Yan&#8217;an. The name deliberately echoes the &#8220;Three Heroes of Longtan&#8221; (Qian Zhuangfei, Li Kenong, Hu Di) of the early 1930s (see ch. 1). Corroborated; Xiong&#8217;s own memoir, <i>My Life in Diplomacy and Intelligence</i>, is the principal source, and the episode is standard in accounts of CCP intelligence."
-  },
-  {
-   "anchor": "was Zhou Enlai's tesuji indeed",
-   "note": "&#25163;&#31563; (Japanese <i>tesuji</i>), a term from the board game go for a deft, precisely placed stone that turns a position; here, the perfectly timed use of a long-buried agent."
-  },
-  {
-   "anchor": "loudly singing the Empty Fort",
-   "note": "&#31354;&#22478;&#35745;, the ruse attributed to Zhuge Liang in the Three Kingdoms tale: with the city all but undefended, he flings the gates open and sits playing the zither, so that the stronger enemy suspects an ambush and withdraws. In 1943 the CCP publicized Hu Zongnan&#8217;s planned attack in order to deter it; by 1947, the passage notes, the bluff no longer sufficed."
-  },
-  {
-   "anchor": "declared his revolt at Handan",
-   "note": "Gao Shuxun (1898&#8211;1972), a former Northwest Army general, defected with the New 8th Army during the Handan campaign on 30 October 1945. Mao turned his name into a slogan, the &#8220;Gao Shuxun Movement,&#8221; encouraging Nationalist officers to revolt rather than fight the civil war. Corroborated."
-  },
-  {
-   "anchor": "these revolted units had not yet raised the Communist banner",
-   "note": "At this stage the CCP called the fighting a &#8220;war of self-defense,&#8221; not yet a &#8220;war of liberation,&#8221; and the defecting units took &#8220;democratic&#8221; names to appeal to the broad popular longing for peace and against Chiang&#8217;s one-party rule. The CCP&#8217;s own main force in the Northeast was likewise styled the &#8220;Northeast Democratic Allied Army.&#8221; The framing is the CCP&#8217;s; the passage reports it faithfully."
-  },
-  {
-   "anchor": "it sent a Red Army cadre, Li Bai.",
-   "note": "Li Bai (1910&#8211;1949), the CCP&#8217;s clandestine radio operator in Shanghai, was arrested and executed by the Nationalists in May 1949 on the eve of the city&#8217;s fall; he later became famous as the model for the hero of the film <i>The Unfailing Radio Waves</i> (&#27704;&#19981;&#28040;&#36893;&#30340;&#30005;&#27874;)."
-  },
-  {
-   "anchor": "The Shaanbei people call such a withdrawal",
-   "note": "&#36305;&#21453; <i>paofan</i>, a north-Shaanxi term for the flight of a whole population, families and belongings and all, ahead of an oncoming army."
-  },
-  {
-   "anchor": "that very night Wang Shiwei was put to death.",
-   "note": "Wang Shiwei (1906&#8211;1947), the writer whose 1942 essay &#8220;Wild Lily&#8221; attacked privilege in Yan&#8217;an and made him the literary target of the Rectification (see ch. 9), was killed here during the retreat, his body thrown down a well. In February 1991 the verdict was overturned and the killing officially called a wartime error. The chapter&#8217;s own accounting below &#8212; 2,296 killed in the Border Region in 1947, more than half of them wrongly &#8212; is an unusually candid reckoning for this book."
-  },
-  {
-   "anchor": "with its own \"house law\": \"enter alive, leave only dead.\"",
-   "note": "&#29983;&#36827;&#27515;&#20986;, Juntong&#8217;s motto for the lifelong loyalty it claimed: a man admitted while living could leave only as a corpse."
-  },
-  {
-   "anchor": "seized by the home-returning corps",
-   "note": "&#36824;&#20065;&#22242; (<i>huanxiangtuan</i>), landlord-led militias that came back in the wake of the Nationalist advance to retake land distributed under CCP land reform and to take revenge on those who had carried it out."
-  },
-  {
-   "anchor": "Wu Manyou, a Border Region model laborer",
-   "note": "Wu Manyou was the most celebrated model farmer of the wartime Border Region and a poster figure of Yan&#8217;an&#8217;s production drive. His 1947 capture and the broadcasts he then made for the Nationalists were a grave embarrassment; returned to Yan&#8217;an after 1949, he died in obscurity and was quietly dropped from the model-laborer story. Corroborated in outline."
-  }
- ]
+  "ch00": [
+    {
+      "anchor": "the Volunteers ever went into Korea",
+      "note": "The Chinese People's Volunteers, the name given to the PLA forces China sent into the Korean War (1950&#8211;1953)."
+    },
+    {
+      "anchor": "the deepest secret in the world",
+      "note": "The author's framing thesis: that the intelligence and security services, being the profession of secrecy itself, are the most hidden part of any state &#8212; and that China's, and the CCP's in particular, are the least known of all. The chapters that follow are his attempt to open them."
+    }
+  ],
+  "ch01": [
+    {
+      "anchor": "their first reaction is a startled cry",
+      "note": "<i>Tewu</i> (特务), literally “special service” or “special affairs.” In modern usage it is the ordinary word for a secret agent, and in both parties' propaganda it carried the menacing charge of the enemy's spies and secret police. The chapter's opening argument is that the word began as a neutral one; see the author's word-study below. Where he discusses it as a word it is kept as <i>tewu</i>; elsewhere it is rendered by sense."
+    },
+    {
+      "anchor": "Juntong agents had so fearsome a name",
+      "note": "Juntong (军统), the Bureau of Investigation and Statistics of the Nationalist Military Affairs Commission, was Chiang Kai-shek's military secret service under Dai Li; it and the party-run Zhongtong are the CCP's chief adversaries through this book. Both are treated at length in Chapter 2."
+    },
+    {
+      "anchor": "Political power grows out of the barrel of a gun!",
+      "note": "Mao Zedong's most quoted dictum, spoken at the August 7 Conference of 1927. The standard English rendering is preserved here."
+    },
+    {
+      "anchor": "the August 7 Conference",
+      "note": "An emergency conference of the CCP Central Committee on August 7, 1927, held after the collapse of the first Nationalist-Communist united front and the Nationalist massacres; it set the Party on the path of armed uprising."
+    },
+    {
+      "anchor": "three rooms above and three below",
+      "note": "<i>Shikumen</i> (“stone-gate”) houses are the terraced townhouses of early-twentieth-century Shanghai and other treaty-port cities, built around a small courtyard behind a stone door-frame &#8212; the characteristic cover for underground work."
+    },
+    {
+      "anchor": "an \"adventurers' paradise.\"",
+      "note": "A stock epithet for interwar Shanghai, whose foreign concessions lay outside Chinese jurisdiction and drew spies, gangsters, and refugees alike."
+    },
+    {
+      "anchor": "\"Three Heroes of Longtan\"",
+      "note": "Li Kenong, Qian Zhuangfei, and Hu Di (龙潭三杰). Planted inside the Nationalist agent chief Xu Enzeng's own apparatus, their warning after Gu Shunzhang's 1931 defection allowed Zhou Enlai to move the CCP Center to safety &#8212; the episode this section recounts. Corroborated: the story is standard in both official and independent accounts of CCP intelligence."
+    },
+    {
+      "anchor": "Notice of Wu Hao and Others Leaving the Communist Party",
+      "note": "The “Wu Hao Incident.” “Wu Hao” was a Zhou Enlai alias; the notice was a Nationalist forgery meant to suggest he had defected. It resurfaced decades later, during the Cultural Revolution, as material used against Zhou."
+    },
+    {
+      "anchor": "the \"AB Corps,\"",
+      "note": "The “Anti-Bolshevik Corps,” an alleged counter-revolutionary network. The scholarly consensus, and now the CCP's own official verdict (quoted by the author later in this section), is that the organization was largely a fabrication and that the purge conducted in its name killed thousands of innocent Red Army members on confessions extracted under torture. Contradicted, as a real conspiracy of the scale charged."
+    },
+    {
+      "anchor": "the \"Futian Incident\"",
+      "note": "The December 1930 mutiny at Futian by Red Army officers resisting the AB Corps purge. Mao Zedong's own role in initiating and driving the Jiangxi purge is documented and is more central than the author's emphasis on “devolved” authority suggests; independent historians treat the episode as a formative act of intra-Party terror. Partly corroborated / the author's framing is partisan."
+    },
+    {
+      "anchor": "\"coerce, confess, believe,\"",
+      "note": "<i>Biru gong xin</i> (逼供信): to extract a confession by force and then believe it. The phrase became the standard shorthand for the method that drove the purges' self-multiplying “confessions.”"
+    },
+    {
+      "anchor": "three foreign letters, \"GBW.\"",
+      "note": "The source prints the badge letters as “GBW,” then identifies them (below) with the Russian GPU. The letters as printed do not match a transliteration of ГПУ (GPU); rendered here as printed, with the discrepancy flagged. Either the badge or the author's reading of it is inexact."
+    },
+    {
+      "anchor": "the three provinces of Jiangxi, Fujian, and Zhejiang",
+      "note": "As printed. Geographically this is doubtful: the Jinggangshan base straddled the Jiangxi-Hunan border, and the later Central Soviet Area lay chiefly in Jiangxi and Fujian; Zhejiang was not part of either, and the figures given describe the larger Central Soviet Area rather than the small Jinggangshan base. Contradicted by the geographic record; rendered as the source has it."
+    },
+    {
+      "anchor": "seized and strangled the Communist leader Li Dazhao",
+      "note": "The source dates Zhang Zuolin's raid on the Soviet embassy and the execution of Li Dazhao to 1928. In fact both occurred in April 1927 (the raid on April 6, the execution on April 28). Contradicted; rendered as printed."
+    },
+    {
+      "anchor": "Red Star Over China",
+      "note": "Edgar Snow's 1937 book, the first sympathetic Western account of the CCP, based on his 1936 visit to the Shaanxi base. The author's point is that Snow's changed view of the Communists owed something to his interviews with the security chief Zhou Xing."
+    },
+    {
+      "anchor": "the \"sword and shield.\"",
+      "note": "The paired emblem &#8212; sword for the offensive intelligence arm, shield for the protective security arm &#8212; echoes the insignia of the Soviet security services and is today that of China's Ministry of State Security."
+    },
+    {
+      "anchor": "the Xi'an Incident had broken out",
+      "note": "On December 12, 1936, Zhang Xueliang and Yang Hucheng detained Chiang Kai-shek at Xi'an to force him to halt the civil war and resist Japan. Its peaceful resolution, brokered in part by Zhou Enlai, produced the second Nationalist-Communist united front."
+    },
+    {
+      "anchor": "the Marco Polo Bridge Incident",
+      "note": "The clash at Lugouqiao, southwest of Beijing, on the night of July 7, 1937, conventionally taken as the start of the full-scale War of Resistance against Japan (the Second Sino-Japanese War)."
+    },
+    {
+      "anchor": "a Li Zicheng",
+      "note": "Li Zicheng (1606&#8211;1645), the rebel leader from Mizhi in northern Shaanxi whose peasant army took Beijing in 1644 and ended the Ming dynasty &#8212; the author's portent for a movement rising out of the same poor country."
+    }
+  ],
+  "ch02": [
+    {
+      "anchor": "sent off a feather-dispatch",
+      "note": "A <i>jimao xin</i> (鸡毛信), or “chicken-feather letter”: an urgent dispatch with one or more chicken feathers fastened to it, the feathers signalling that it was to be carried at top speed, day and night, changing runners as needed. The device was old and widespread in rural China and became a staple of Communist wartime lore."
+    },
+    {
+      "anchor": "The great Laoshan",
+      "note": "The Laoshan Incident (劳山事件) of 25 April 1937, in which bandits ambushed Zhou Enlai’s convoy in the hills south of Yan’an. Zhou’s adjutant Chen Youcai, dressed in a Western suit as a decoy, was killed; the ambushers took him for the important man and found Zhou’s calling cards on the body. The account is broadly corroborated. Two small internal discrepancies in the source are worth noting: its photo caption dates the affair 24 April against the 25th given in the text, and it twice names the ambush site “Yanqiushan” (沿湫山) while calling the affair after Laoshan."
+    },
+    {
+      "anchor": "Deng, Mao, Xie, and Gu",
+      "note": "Deng Xiaoping, Mao Zetan (Mao Zedong’s younger brother), Xie Weijun, and Gu Bo, four cadres of the Jiangxi Soviet condemned together in 1933 as followers of a “Luo Ming line” and punished for their closeness to Mao Zedong, who was then out of power. All but Deng Xiaoping died within a few years; Deng’s later rehabilitation and rise are among the ironies the author leaves unspoken."
+    },
+    {
+      "anchor": "Elder Brothers Society",
+      "note": "The Gelaohui (哥老会), a sworn-brotherhood secret society widespread in the Chinese countryside from the nineteenth century. Belonging to neither party, such societies commanded real local loyalty and armed men, and both Nationalists and Communists by turns courted and feared them."
+    },
+    {
+      "anchor": "Vigorous Action Society",
+      "note": "The Lixingshe (力行社, “Vigorous Action Society”) was the secret inner core of the Chinese Renaissance Society, popularly the “Blue Shirts,” a militarist, nationalist body founded in 1932 by Whampoa officers loyal to Chiang Kai-shek and often likened to the fascist movements of the day. Its Special Services Department under Dai Li grew into the military secret service later called Juntong."
+    },
+    {
+      "anchor": "the disease in our vitals",
+      "note": "Japan a passing skin ailment, the Communists a disease in the heart and vitals (疥癣之患 / 心腹大患): the metaphor recurs in accounts of Chiang Kai-shek’s strategic priorities and captures the weight he gave the internal enemy over the invader. The exact wording varies among sources; the sense is well attested."
+    },
+    {
+      "anchor": "three-in-one alignment",
+      "note": "The “three-in-one” (三位一体) alignment of late 1936 joined the Communists, Zhang Xueliang’s Northeast Army, and Yang Hucheng’s Northwestern Army in a common front in the northwest, the coalition behind the Xi’an Incident. With Zhang detained and Yang forced abroad afterward and their armies moved away, it dissolved, leaving the Communists without their two military partners, as the author says."
+    },
+    {
+      "anchor": "The heavy work of the military blockade fell to Hu Zongnan",
+      "note": "Hu Zongnan (1896–1962), Chiang Kai-shek’s favored Whampoa protégé and the senior Nationalist commander in the northwest, nicknamed the “King of the Northwest.” From 1939 the bulk of his large force blockaded and menaced the Border Region rather than fighting Japan, a diversion of strength the Communists never forgot; in 1947 his troops briefly captured Yan’an."
+    },
+    {
+      "anchor": "worthy of the opera",
+      "note": "<i>At the Crossroads</i> (三岔口, <i>Sanchakou</i>) is a celebrated Peking-opera scene in which two men fight in total darkness, each blind to the other, their groping mock-combat performed in full stage light. The image, of allies and enemies grappling in the dark on the same ground, is the author’s figure for the tangled traffic of the blockade years."
+    },
+    {
+      "anchor": "the new climate of \"reform and opening\"",
+      "note": "The author writes literally “the new situation of reform and opening” (改革开放), the fixed slogan for the era of economic liberalization that began in 1978, some four decades after these events. The anachronism is his own, a playful borrowing: the united front “opened” the sealed Nationalist-Communist front, and that opening, he suggests, only multiplied the covert contest. It is in no sense a term of the 1930s."
+    },
+    {
+      "anchor": "swore to be loyal to Marshal Mao",
+      "note": "Xu Shiyou (1906–1985), a hot-tempered general of the Fourth Front Army, trained as a boy at the Shaolin monastery and later a senior PLA commander. The story of Mao Zedong disarming his rage by handing him a loaded pistol is often told, and stands for Mao’s careful winning-over of the Fourth Front Army cadres after Zhang Guotao’s fall."
+    },
+    {
+      "anchor": "The tomb of the Yellow Emperor, Xuanyuan",
+      "note": "The Mausoleum of the Yellow Emperor at Huangling honors the legendary ancestor of the Chinese people and is a national shrine; sacrifices there at Qingming, the tomb-sweeping festival, are an old imperial rite revived to invoke national unity. At the joint Nationalist-Communist sacrifice of April 1938 Mao Zedong composed a sacrificial ode, a set-piece of the united-front moment."
+    },
+    {
+      "anchor": "criticism of Zhang Guotao",
+      "note": "Zhang Guotao (1897–1979), a founder of the CCP and commander of the powerful Fourth Front Army, had been Mao Zedong’s chief rival for leadership on the Long March; his bid failed and his army was broken. The Yan’an criticism recounted here drove his defection to the Nationalists in April 1938, which ended his Communist career; he later emigrated and died in Canada. That not even his bodyguard would follow him is the author’s pointed detail."
+    },
+    {
+      "anchor": "better to kill a thousand by mistake than let one slip through",
+      "note": "A byword for the Nationalist white terror against Communists from 1927 on. The 1929 “Communist Surrender Law” and its <i>fanxingyuan</i> (反省院, “houses of reflection,” or repentance houses), detention centers meant to make captured Communists recant, marked a shift from mass killing to the subtler policy of turning prisoners, which, as the author notes, produced the very turncoats who later staffed the Nationalist services."
+    },
+    {
+      "anchor": "one cannot avoid speaking of this Kang Sheng",
+      "note": "This unusually harsh portrait of Kang Sheng (1898–1975) reflects the verdict reached after his death. Once the CCP’s intelligence and security chief, he became the driving figure of the Yan’an “Rescue Campaign” (see Chapter 9) and, decades later, a chief instrument of the Cultural Revolution’s persecutions. He died laden with honors, but in 1980 the Party posthumously expelled him and withdrew his eulogy. The author’s open contempt is itself striking in a book so sympathetic to most of its subjects."
+    },
+    {
+      "anchor": "Dong Biwu, Lin Boqu, Xie Juezai, and Xu Teli",
+      "note": "By custom only a handful of the Yan’an leadership, revered for their age and seniority, were addressed as “Elder.” These four, together with Wu Yuzhang, were known as the “Five Elders of Yan’an” (延安五老). That the much younger Kang Sheng could claim the title is the author’s sardonic point."
+    },
+    {
+      "anchor": "wrongly branded an \"inner traitor,\"",
+      "note": "Pan Hannian’s fall came in 1955: arrested as an “inner traitor,” he was imprisoned for having concealed a secret wartime meeting with the collaborationist Wang Jingwei. He died in disgrace in 1977 and was rehabilitated in 1982, as the author records. The case is among the best-known miscarriages of the Maoist security system, and the sympathy here is that of his old comrades of the Special Branch."
+    },
+    {
+      "anchor": "would later compose \"Snow.\"",
+      "note": "“Snow” (沁园春·雪, to the tune <i>Qinyuanchun</i>), Mao Zedong’s most famous poem, written in the winter of 1936 after the Long March reached northern Shaanxi; surveying the snow-bound land, it moves to a sweeping claim on China’s history and future. Its publication in Chongqing in 1945, during the peace talks, caused a sensation."
+    },
+    {
+      "anchor": "the thirty-eighth of the Meiji era",
+      "note": "The rifle was the Japanese Arisaka Type 38, adopted in the thirty-eighth year of the Meiji reign (1905); Chinese soldiers called it the &#8220;Type-38 big cover&#8221; for its sliding bolt-cover. The nickname carried over to the cadres who joined the revolution around 1938, the so-called &#8220;'38-style.&#8221;"
+    },
+    {
+      "anchor": "the Whampoa Academy of Communist intelligence and security",
+      "note": "The Whampoa Military Academy, founded near Guangzhou in 1924 during the first Nationalist&#8211;Communist alliance, trained the officer corps of the National Revolutionary Army; its graduates and instructors became commanders on both sides of the later civil war. To dub the Qilipu camp a &#8220;Whampoa&#8221; is to claim that prestige for the Communist security service."
+    },
+    {
+      "anchor": "his report on the Three People's Principles Youth League",
+      "note": "The Three People's Principles Youth League (<i>Sanqingtuan</i>) was the Nationalists' youth organization, founded in 1938 to gather young people under Chiang Kai-shek's leadership and folded back into the Kuomintang in 1947."
+    },
+    {
+      "anchor": "An important leader of security work, Wang Dongxing",
+      "note": "Wang Dongxing (1916&#8211;2015) rose from this beginning to run Mao Zedong's personal security for decades as head of the Central Guard Bureau, and became a CCP vice-chairman in the interregnum after Mao's death."
+    },
+    {
+      "anchor": "Ling Yun entered in 1941",
+      "note": "Ling Yun (1917&#8211;2018), a career counter-espionage officer, would become the first Minister of State Security when that ministry was created in 1983."
+    },
+    {
+      "anchor": "the Rectification Movement overtook it",
+      "note": "The Yan'an Rectification (<i>zhengfeng</i>), launched in 1942, was Mao Zedong's campaign to remold the Party's thinking and consolidate his leadership. Its &#8220;cadre screening&#8221; (<i>shen'gan</i>) phase shaded into the coercive spy-hunt of the &#8220;Rescue Campaign&#8221; (see Chapter 9)."
+    },
+    {
+      "anchor": "Deng Xiaoping, too, had the matter of a wife to settle.",
+      "note": "Deng Xiaoping (1904&#8211;1997), here a mid-ranking political officer just out of disgrace, would emerge after Mao Zedong's death as China's paramount leader and the architect of its &#8220;reform and opening.&#8221;"
+    },
+    {
+      "anchor": "the Comintern's military adviser to the Party, Li De",
+      "note": "Li De was the Chinese name of Otto Braun (1900&#8211;1974), a German Comintern agent and the only Westerner to make the Long March. As military adviser he shared the blame for the rigid positional tactics that cost the Central Soviet its base in 1934."
+    },
+    {
+      "anchor": "This Pu Qiongying was Zhuo Lin.",
+      "note": "Zhuo Lin (1916&#8211;2009), born Pu Qiongying, daughter of a wealthy Yunnan ham merchant. She married Deng Xiaoping in Yan'an in 1939 and remained his wife for the rest of his life."
+    },
+    {
+      "anchor": "Mao Zedong's marriage to Jiang Qing",
+      "note": "Jiang Qing (1914&#8211;1991), a Shanghai film actress who reached Yan'an in 1937 and became Mao Zedong's fourth wife. The Party leadership is said to have consented only on condition that she keep out of politics; she went on to be a chief instigator of the Cultural Revolution and a member of the &#8220;Gang of Four,&#8221; convicted after Mao's death."
+    },
+    {
+      "anchor": "read out a letter from Mao Zedong",
+      "note": "The 1937 trial and execution of Huang Kegong, a decorated Red Army officer who shot a young woman for refusing him, became a celebrated demonstration of &#8220;equality before the law&#8221; in Yan'an. Mao Zedong's letter to the court, quoted here, is much reproduced; the case is well documented (CORROBORATED), though it was also put to propaganda use from the first."
+    },
+    {
+      "anchor": "Chiang Kai-shek's own book, China's Destiny",
+      "note": "<i>China's Destiny</i> (<i>Zhongguo zhi mingyun</i>, 1943), a nationalist tract issued under Chiang Kai-shek's name; its attacks on &#8220;alien&#8221; ideologies were widely read as aimed at the Communists, who answered it in kind."
+    },
+    {
+      "anchor": "more promise than Li Zicheng",
+      "note": "Li Zicheng, the northern-Shaanxi rebel whose peasant army took Beijing in 1644 and toppled the Ming, only to lose the city within weeks (see the fuller note in Chapter 1). The comparison means that this movement, unlike his, would hold what it won."
+    },
+    {
+      "anchor": "Political power grows out of the barrel of a gun",
+      "note": "Mao Zedong's dictum of 1927. The author caps it with a coinage of his own &#8212; that leadership grows out of the haft of the knife, the knife being the security and police power &#8212; echoing this chapter's play on the &#8220;gun&#8221; and the &#8220;knife.&#8221;"
+    },
+    {
+      "anchor": "The Zunyi Conference of 1935",
+      "note": "The enlarged Politburo meeting at Zunyi in January 1935, midway through the Long March, at which Mao Zedong won effective control of the Red Army and the Party &#8212; the pivot the author treats as the start of the CCP's correction of its own course."
+    },
+    {
+      "anchor": "the Wang Jingwei puppet regime",
+      "note": "Wang Jingwei (1883&#8211;1944), once a leading figure of the Nationalists, went over to the Japanese and in 1940 headed a collaborationist government at Nanjing that claimed to be the true Republic of China. &#8220;Puppet&#8221; (<i>wei</i>) is the standard word for it on both sides of the later divide."
+    },
+    {
+      "anchor": "Before the Battle of Tai'erzhuang",
+      "note": "The Battle of Tai'erzhuang, in southern Shandong in the spring of 1938, was one of China's first major victories over the Japanese army, won by Nationalist forces under Li Zongren."
+    },
+    {
+      "anchor": "his merits always outweighed his faults",
+      "note": "Deng Xiaoping's phrasing anticipates the verdict the Party would formally reach on Mao Zedong in 1981 &#8212; that his contributions outweighed his mistakes &#8212; a judgment Deng himself did much to shape."
+    }
+  ],
+  "ch03": [
+    {
+      "anchor": "the short name *ba-ban*",
+      "note": "During the wartime alliance the Nationalists let the Communists keep open liaison offices in the cities they controlled, nominally the rear offices of the Eighth Route Army (the 18th Group Army). The arrangement is what let a Communist establishment operate legally in Nationalist territory; the offices ran open united-front work above the surface and secret intelligence below it."
+    },
+    {
+      "anchor": "to wear the same Zhongshan suits as government officials",
+      "note": "The Zhongshan suit (<i>zhongshanzhuang</i>), named for Sun Yat-sen (Sun Zhongshan), was the semi-formal tunic-and-trousers uniform of Republican officialdom, and later the &#8220;Mao suit&#8221; of the People's Republic. The point is that the Communists now dressed indistinguishably from the officials they worked among."
+    },
+    {
+      "anchor": "reported the great victory at Pingxingguan",
+      "note": "At Pingxingguan in northeast Shanxi, in September 1937, an Eighth Route Army division under Lin Biao ambushed a Japanese column&#8212;the Communists' first celebrated battlefield success of the war, and a propaganda coup out of proportion to its scale. CORROBORATED as an event, though its size has long been inflated in the telling."
+    },
+    {
+      "anchor": "the far country",
+      "note": "As glossed earlier, &#8220;the far country&#8221; (<i>yuanfang</i>) is the Party's code for the Soviet Union and the Comintern in Moscow."
+    },
+    {
+      "anchor": "\"Mengjiang United Autonomous Government",
+      "note": "The Japanese puppet regime for Inner Mongolia (<i>Mengjiang</i>, &#8220;the Mongol borderland&#8221;), set up in 1939 under the Mongol prince Demchugdongrub to detach the region from China."
+    },
+    {
+      "anchor": "honored it as the \"Latter Three Heroes,\"",
+      "note": "Xiong Xianghui, Chen Zhongjing, and Shen Jian, planted around Hu Zongnan's headquarters. The name deliberately echoes the &#8220;Three Heroes of Longtan&#8221; (Li Kenong, Qian Zhuangfei, Hu Di) of the early-1930s Special Branch, noted in Chapter 1."
+    },
+    {
+      "anchor": "be content to serve as an idle chessman",
+      "note": "A metaphor from <i>weiqi</i> (go): an &#8220;idle stone&#8221; (<i>xianqi lengzi</i>) is a piece laid down early, far from the fighting, that looks pointless until, at the decisive moment, it turns the whole board. The author makes it the governing image for the Communists' long-dormant deep-cover agents."
+    },
+    {
+      "anchor": "You cannot get the tiger's cubs without entering the tiger's lair.",
+      "note": "A proverb (<i>bu ru huxue, yan de huzi</i>): nothing worth having is won without entering danger. Zhou Enlai and Dong Biwu gave it to Xiong Xianghui as his watchword."
+    },
+    {
+      "anchor": "Shen Anna, a native of Taixing in Jiangsu",
+      "note": "Shen Anna (1915&#8211;2010), later famous as the Communists' &#8220;red stenographer,&#8221; took shorthand at the Nationalists' confidential meetings for some fourteen years and passed the records to the Party. Her story is well documented in Party histories and her family's own recollections."
+    },
+    {
+      "anchor": "the largest Party enterprise of all, China Resources, was born",
+      "note": "China Resources (<i>Huarun</i>), assembled from the Party's wartime trading firms, went on to become one of the largest state-owned conglomerates of the People's Republic&#8212;retail, power, beer, real estate&#8212;still active today."
+    },
+    {
+      "anchor": "his fellow Ningbo townsman Bao Yugang",
+      "note": "Bao Yugang (1918&#8211;1991), better known in the West as Sir Y.&#160;K. Pao, later became the world's largest independent shipowner from Hong Kong. His early dealings with Lu Xuzhang's firm are attested; the passage should not be read as making him a Communist agent."
+    },
+    {
+      "anchor": "the South Seas overseas-Chinese leader Tan Kah Kee",
+      "note": "Tan Kah Kee (Chen Jiageng, 1874&#8211;1961), the Singapore rubber magnate and philanthropist who led overseas-Chinese relief for the resistance. His 1940 tour, contrasting a corrupt Chongqing with an austere Yan'an, famously turned him toward the Communists."
+    },
+    {
+      "anchor": "the great sofa at No. 50 Zengjiayan",
+      "note": "Zengjiayan No. 50 in Chongqing was the office of the CCP's Southern Bureau and Zhou Enlai's residence; together with the Hongyan (&#8220;Red Crag&#8221;) village compound it was the hub of Communist work in the wartime capital, and both are now museums."
+    },
+    {
+      "anchor": "staged its \"scorched-earth resistance\" and set fire to the city",
+      "note": "The Changsha fire of November 1938 (the &#8220;Wenxi fire&#8221;): a botched scorched-earth order set on a false alarm burned much of the city and killed thousands of its own people, one of the war's great man-made disasters. CORROBORATED."
+    },
+    {
+      "anchor": "engineered the New Fourth Army Incident",
+      "note": "In January 1941, in southern Anhui, Nationalist forces ambushed the headquarters column of the Communist New Fourth Army, killing or capturing thousands and abolishing the army's designation. It marked the effective end of the united front and is the &#8220;second anti-Communist high tide&#8221; of the paragraph."
+    },
+    {
+      "anchor": "the *Yellow River Cantata*",
+      "note": "The <i>Yellow River Cantata</i> (1939), words by Guang Weiran and music by Xian Xinghai, became the great musical anthem of the resistance and remains one of the best-known works of modern Chinese music."
+    },
+    {
+      "anchor": "the Canadian doctor Bethune",
+      "note": "Norman Bethune (1890&#8211;1939), the Canadian surgeon who served and died with the Eighth Route Army in North China; Mao Zedong's eulogy made him one of the most honored foreigners in Chinese Communist memory."
+    },
+    {
+      "anchor": "the Vietnamese Communist leader Nguyen Ai Quoc, Ho Chi Minh",
+      "note": "Ho Chi Minh (1890&#8211;1969) used the name Nguyen Ai Quoc (&#8220;Nguyen the Patriot&#8221;) in his years as a Comintern agent; he was in and out of south China organizing the Vietnamese revolution before founding the Democratic Republic of Vietnam."
+    },
+    {
+      "anchor": "Okano Susumu, alias Nosaka Sanzo",
+      "note": "Nosaka Sanzo (1892&#8211;1993), who used the alias Okano Susumu, spent the war in Yan'an running anti-war work among Japanese prisoners; a founder of the postwar Japanese Communist Party, he was expelled from it at the age of a hundred when Soviet archives exposed his wartime denunciation of a comrade."
+    },
+    {
+      "anchor": "his one book, *Red Star Over China*",
+      "note": "Edgar Snow's <i>Red Star Over China</i> (1937), written after the American journalist reached the Communist base in northern Shaanxi in 1936, was the first sympathetic Western account of Mao Zedong and the Red Army and shaped outside perceptions of the CCP for a generation."
+    },
+    {
+      "anchor": "Colonel Barrett posted to Yan'an, Major Ou Daiyi to the East River Column",
+      "note": "Colonel David D. Barrett led the U.S. Army Observation Group (the &#8220;Dixie Mission&#8221;) to Yan'an in 1944. &#8220;Ou Daiyi&#8221; is the source's transliteration of the American officer attached to the East River Column; the name cannot be securely matched to a Western original and is given here as the book renders it."
+    },
+    {
+      "anchor": "detected the strategic intelligence of Germany's attack on the USSR",
+      "note": "The claim that the Communist-linked Yan Baohang gave Moscow advance warning of the June 1941 German invasion is a staple of Chinese intelligence lore. It is UNCORROBORATED in independent sources and rests chiefly on later Chinese accounts; the book presents it as established."
+    },
+    {
+      "anchor": "successfully rescued eighty-nine British and American prisoners of war",
+      "note": "The East River Column's rescues of Allied personnel after the fall of Hong Kong, in cooperation with the British Army Aid Group, are well documented; the figures vary by account. Broadly CORROBORATED."
+    },
+    {
+      "anchor": "Only in 1988 did a memoir by the former Juntong Northwest district chief reveal the truth",
+      "note": "The killing of Xuan Xiafu is the author's clearest &#8220;interested witness&#8221; set-piece: the account rests on the confession-memoir of the Juntong officer Zhang Yanfo and on Luo Qingchang's later disclosures, both cited in the Principal Sources. That Chiang Kai-shek ordered the killing is CORROBORATED by Zhang's memoir; the deeper motive&#8212;fear that Xuan would turn Hu Zongnan&#8212;is the Communist side's interpretation, and is presented as fact."
+    },
+    {
+      "anchor": "which was then named Lihuang County after him",
+      "note": "Wei Lihuang's capture of the Communist base town of Jinjiazhai in 1932 led to its renaming as Lihuang County in his honor. After 1947 it was renamed Jinzhai, its present name."
+    },
+    {
+      "anchor": "a three-sided Executive Headquarters for military mediation",
+      "note": "The Executive Headquarters set up in Beiping in January 1946, with Nationalist, Communist, and American members, to supervise the truce after the war; it broke down as the civil war resumed."
+    },
+    {
+      "anchor": "proposed a \"three-thirds system\" in building",
+      "note": "The &#8220;three-thirds system&#8221; (<i>sansanzhi</i>): the wartime rule that Communists, non-Party progressives, and other democrats each hold a third of the seats in base-area governments&#8212;a united-front device to broaden the Party's support."
+    }
+  ],
+  "ch04": [
+    {
+      "anchor": "threw up a strange thing: a \"dual regime.\"",
+      "note": "The <i>shuangchong zhengquan</i> or &#8220;dual regime&#8221; was a peculiarity of the wartime united front. Because the Nationalist central government held de jure sovereignty, it insisted on appointing the magistrates and prefectural commissioners of the twenty-three counties it recognized as the Shaanxi-Gansu-Ningxia Border Region, while the Communists, who held the ground in fact, appointed their own; many counties thus had two rival administrations at once, each claiming legitimacy. Pulling out these Nationalist &#8220;nails,&#8221; as the chapter title has it, is the story of the Communists dismantling that rival apparatus between 1939 and 1941. (Printed p.&#160;135.)"
+    },
+    {
+      "anchor": "resolved to \"restrict the activities of alien parties,\"",
+      "note": "The Fifth Plenum of the Nationalist Party&#8217;s Fifth Central Executive Committee (Chongqing, January 1939) adopted the policy of &#8220;restricting the activities of alien parties&#8221; (<i>xianzhi yidang huodong</i>) and a companion program of dissolving the Communists by political means, marking Chiang Kai-shek&#8217;s turn from the 1937 alliance back toward containment of the CCP. The shift is a fixed marker in histories of the united front; corroborated. (Printed p.&#160;139.)"
+    },
+    {
+      "anchor": "\"Friction,\" a term from physics",
+      "note": "&#8220;Friction&#8221; (<i>moca</i>) became the accepted term, on both sides, for the running armed clashes between Nationalist and Communist forces from 1939 to 1943, and &#8220;the struggle against friction&#8221; (<i>fan moca</i>) for the Communist response. The author&#8217;s conceit that Mao coined the political use of the word is his own flourish; by 1940 the usage was in any case common Party vocabulary. (Printed p.&#160;139.)"
+    },
+    {
+      "anchor": "Xi Zhongxun, secretary of the Guanzhong sub-committee",
+      "note": "Xi Zhongxun (1913&#8211;2002), here the young secretary of the Guanzhong sub-committee, later became a vice-premier of the People&#8217;s Republic; he was purged for sixteen years from 1962 over the novel <i>Liu Zhidan</i>, and after 1978 governed Guangdong, where he championed the first Special Economic Zones. He is the father of Xi Jinping. The particulars the author gives&#8212;Youth League at thirteen, the Liangdang mutiny (a 1932 revolt he helped lead among Nationalist-controlled troops) at eighteen, chairman of the Shaan-Gan Border Soviet at twenty-one&#8212;are corroborated in the standard biographies. (Printed pp.&#160;139&#8211;140.)"
+    },
+    {
+      "anchor": "Du Bincheng, the secretary-general of the Shaanxi provincial government",
+      "note": "Du Bincheng (1888&#8211;1947), a noted Shaanxi educator and a founding leader of the China Democratic League, served as secretary-general of the provincial government after the Xi&#8217;an Incident. In March 1947 Hu Zongnan had him arrested on fabricated charges; he was shot at Xi&#8217;an&#8217;s Yuxiang Gate that October, and Mao Zedong wrote his memorial inscription. Corroborated. (Printed p.&#160;138.)"
+    },
+    {
+      "anchor": "setting up baojia units in secret",
+      "note": "The <i>baojia</i> was an old system of mutual-surveillance household registration, grouping families into units collectively answerable for one another&#8217;s conduct; the Nationalist government revived it in the 1930s as an instrument of local control and counter-insurgency. (Printed p.&#160;137.)"
+    },
+    {
+      "anchor": "\"Memorial Meeting for the Martyrs of the Pingjiang Massacre.\"",
+      "note": "On June 12, 1939, troops of Yang Sen&#8217;s Nationalist 27th Group Army surrounded the New Fourth Army&#8217;s rear liaison office at Pingjiang in Hunan and killed six Communist personnel, among them Tu Zhengkun and Luo Ziming. The killings, and the Yan&#8217;an memorial of August&#160;1, became a rallying point of the anti-friction campaign. Corroborated. (Printed p.&#160;139.)"
+    },
+    {
+      "anchor": "this Magistrate Ma Yuzhang, appointed by the Nationalists",
+      "note": "Ma Yuzhang, of the great landlord Ma clan of Yangjiagou in Mizhi, held the Nationalists&#8217; Fushi county magistracy while secretly a Communist, and when the Nationalist county government was expelled he stayed on to become deputy mayor and then mayor of Yan&#8217;an. By the author&#8217;s interviews his cover was so tightly held that even Luo Qingchang, the later intelligence minister, learned of it only decades afterward; during the Cultural Revolution his descendants were persecuted as landlord kin. The account rests on the family and Party-history testimony the author gathered and is otherwise thinly documented. (Printed pp.&#160;138, 147.)"
+    },
+    {
+      "anchor": "specially appointed He Shaonan \"administrative inspection commissioner.\"",
+      "note": "He Shaonan, the Nationalists&#8217; &#8220;administrative inspection commissioner&#8221; for Suide, built a rival security force and a campaign of harassment that the Border Region nicknamed &#8220;Commissioner Friction.&#8221; His public undoing on corruption charges, driven by Wang Zhen&#8217;s 359th Brigade over the winter of 1939&#8211;40, is a set piece of Party history; that he embezzled relief funds is the Communist account of it. Corroborated in outline. (Printed p.&#160;143.)"
+    },
+    {
+      "anchor": "Wang Zhen, commander of the 359th Brigade",
+      "note": "Wang Zhen (1908&#8211;1993) commanded the 359th Brigade, celebrated for reclaiming the Nanniwan wastes during the wartime blockade; he later led armies into Xinjiang and from 1988 served as vice-president of the People&#8217;s Republic. Corroborated. (Printed p.&#160;144.)"
+    },
+    {
+      "anchor": "whom he sent off to Ma Hongkui.",
+      "note": "Ma Hongkui (1892&#8211;1970) ruled Ningxia as a family fief, one of the Muslim &#8220;Ma clique&#8221; warlords of the northwest and a standing enemy of the Communists on the Border Region&#8217;s western flank. (Printed p.&#160;142.)"
+    },
+    {
+      "anchor": "earned himself the nickname \"Red Sherlock Holmes.\"",
+      "note": "Bu Lu&#8217;s real name was Chen Bo (1909&#8211;1972). After 1949 he became the founding head of public security in Guangzhou, but in 1951 he and Chen Kun were arrested in what became known as the &#8220;two Chens case,&#8221; accused by Public Security Minister Luo Ruiqing of being enemy agents&#8212;the first great frame-up of the new state&#8217;s own security apparatus. Sentenced to ten years and then held under labor reform, Chen Bo died in 1972 and was posthumously cleared in 1980. The &#8220;Red Sherlock Holmes&#8221; celebrated here was thus consumed by the very machinery he had helped to build. Corroborated. (Printed p.&#160;143.)"
+    },
+    {
+      "anchor": "This too would be the height of benevolence and the fullness of righteousness.",
+      "note": "The closing flourish&#8212;<i>gai yi ren zhi zhi, yi zhi jin ye</i>&#8212;dresses a blunt ultimatum in the courtly idiom of the Confucian classics; &#8220;<i>ren zhi yi jin</i>,&#8221; benevolence and righteousness carried to their limit, is proverbial. Sent over Xiao Jinguang&#8217;s name, the telegram was, the author says, drafted by Mao Zedong himself. (Printed p.&#160;145.)"
+    },
+    {
+      "anchor": "the \"Anti-Traitor Committee,\"",
+      "note": "<i>Chujian</i>, literally &#8220;rooting out traitors,&#8221; was the Communist term for counter-espionage and the hunt for collaborators and enemy agents; the mass &#8220;Anti-Traitor Committees&#8221; extended it into a village-level surveillance network. The word and its apparatus give Chapter&#160;7 its title. (Printed p.&#160;146.)"
+    }
+  ],
+  "ch05": [
+    {
+      "anchor": "the anniversary of the Mukden Incident in 1940",
+      "note": "The Mukden (or September 18) Incident of 1931, when the Japanese Kwantung Army staged a pretext to seize Manchuria; its anniversary, <i>jiu-yi-ba</i> (&#8220;nine-one-eight&#8221;), became a fixed date of national mourning and defiance, which is why the author reckons the Party&#8217;s decisions by it."
+    },
+    {
+      "anchor": "a \"Draft Understanding\" with the American secretary of state, Hull",
+      "note": "The Hull&#8211;Nomura talks of 1941, in which a privately drafted &#8220;Draft Understanding&#8221; briefly raised hopes of a Japanese-American settlement; the negotiations broke down that autumn, months before Pearl Harbor. CORROBORATED."
+    },
+    {
+      "anchor": "the German friend Anna Wang",
+      "note": "Anna Wang (Anneliese Martens, 1907&#8211;1990), the German wife of the Communist Wang Bingnan; a journalist and translator active in China&#8217;s wartime foreign-friends circles."
+    },
+    {
+      "anchor": "the battle of Nomonhan in 1937",
+      "note": "The Nomonhan Incident&#8212;the undeclared border war between Japan and the Soviet Union at Khalkhin Gol&#8212;was fought in 1939, not 1937; the source&#8217;s date is an error, rendered here as printed. The Soviet victory there is often credited with turning Japan&#8217;s expansion south rather than north. CONTRADICTED."
+    },
+    {
+      "anchor": "the strategic agent Sorge to Shanghai",
+      "note": "Richard Sorge (1895&#8211;1944), the Soviet military-intelligence officer who ran a ring first in Shanghai and then in Tokyo, and whose warnings of the German attack Stalin also discounted; arrested by the Japanese in 1941 and hanged in 1944. CORROBORATED."
+    },
+    {
+      "anchor": "the Tokkō, the Special Higher Police",
+      "note": "The <i>Tokk&#333;</i>, Japan&#8217;s political and &#8220;thought&#8221; police, charged with surveillance and suppression of suspected subversives; a foreign agent with European features was an obvious target for it."
+    },
+    {
+      "anchor": "the remnant of the Western Route Army that had reached Xinjiang",
+      "note": "The Western Route Army&#8212;more than twenty thousand Red Army troops&#8212;was destroyed by Muslim cavalry in the Hexi Corridor in the winter of 1936&#8211;37; the scattered survivors who reached Xinjiang were the pool from which these Soviet-trained agents were drawn."
+    },
+    {
+      "anchor": "Vladimirov (Sun Ping), was a Soviet intelligence officer",
+      "note": "Pyotr Vladimirov (1905&#8211;1953), a Soviet military-intelligence officer and TASS correspondent who used the Chinese name Sun Ping and later served as the Comintern liaison at Yan&#8217;an, where he kept a well-known (and much-disputed) diary."
+    },
+    {
+      "anchor": "the \"New Life Movement,\" Yan was its executive director",
+      "note": "The New Life Movement, launched by Chiang Kai-shek and Soong May-ling in 1934, was a state campaign of Confucian-tinged moral and hygienic reform; its prominence gave a well-placed insider like Yan Baohang wide access to the Nationalist elite."
+    },
+    {
+      "anchor": "Yan Baohang was a Northeasterner from Haicheng",
+      "note": "Yan Baohang (1895&#8211;1968), a Christian educator and aide to Zhang Xueliang who became a secret Communist inside the Nationalist inner circle. He died in prison in the Cultural Revolution; in 1995 Russia posthumously decorated him for the Barbarossa intelligence. CORROBORATED as to his role and the decoration."
+    },
+    {
+      "anchor": "Stalin sent the Communists a telegram of thanks",
+      "note": "That Yan Baohang obtained the June&#160;22 date and that it was relayed to Moscow is well attested in Chinese sources, and Russia&#8217;s 1995 decoration of him is real. But Stalin received many such warnings&#8212;from Sorge, from British intercepts, from his own agents&#8212;and discounted them all; the Soviet Union was caught grievously unprepared. The claim that this particular warning was believed and acted upon, and the thank-you telegram itself, rest on Chinese accounts and are not corroborated in the Soviet record. The author himself concedes the day&#8217;s notice changed little. UNCORROBORATED / CONTESTED."
+    },
+    {
+      "anchor": "the Japanese Communist leader Okano Susumu",
+      "note": "&#8220;Okano Susumu&#8221; was the wartime alias of Nosaka Sanz&#333; (1892&#8211;1993), the Japanese Communist leader who spent the war years at Yan&#8217;an running anti-war work among Japanese prisoners."
+    },
+    {
+      "anchor": "the reference materials on the Japanese prime minister Miki",
+      "note": "Miki Takeo was Japanese prime minister in 1974&#8211;76; the deathbed anecdote leaps forward to Mao&#8217;s final years, decades past the 1940s of the surrounding narrative, to illustrate how deep the habit of &#8220;investigation and study&#8221; had run."
+    },
+    {
+      "anchor": "He played the Empty City Stratagem at full voice",
+      "note": "The Empty City Stratagem is the famous ruse of the <i>Romance of the Three Kingdoms</i>, in which Zhuge Liang, having no troops, throws open the city gates and sits calmly playing the zither, so unnerving the enemy general that he withdraws&#8212;bluffing strength from weakness."
+    },
+    {
+      "anchor": "Wang Jinshan directed the Hanlüe Village ambush",
+      "note": "The Hanl&#252;e Village ambush of October 1943, in which Wang Jinshan&#8217;s regiment wiped out a touring Japanese officers&#8217; observation party in a single engagement; celebrated as a model ambush of the war behind the lines. CORROBORATED."
+    },
+    {
+      "anchor": "the Japanese \"flower of famous generals,\" Lieutenant-General Abe Norihide",
+      "note": "Abe Norihide, killed at Huangtuling in Laiyuan county in November 1939, was the first and highest-ranking Japanese general slain by the Eighth Route Army; Japanese propaganda had dubbed him &#8220;the flower of famous generals.&#8221; The engagement was a Jin-Cha-Ji operation; the source credits the local intelligence station with a share of it. CORROBORATED."
+    },
+    {
+      "anchor": "Kawashima Yoshiko's younger brother Xiandong",
+      "note": "Kawashima Yoshiko (1907&#8211;1948), born Aisin Gioro Xianyu, was a Qing princess raised in Japan who became a Japanese agent in Manchuria; she was executed by the Nationalists as a collaborator in 1948. Her brother Xiandong worked, instead, for the Communist intelligence group. CORROBORATED."
+    },
+    {
+      "anchor": "a secret-service organ governing the whole of Central China, the \"Ume Kikan.\"",
+      "note": "The &#8220;Plum Agency&#8221; (<i>Ume Kikan</i>), named for its founder Kagesa&#8217;s cover, was the Japanese army organ that arranged Wang Jingwei&#8217;s defection and oversaw his regime&#8217;s security. CORROBORATED."
+    },
+    {
+      "anchor": "at No. 76 Jessfield Road",
+      "note": "No.&#160;76 Jessfield Road became a byword of terror in occupied Shanghai&#8212;the torture-house headquarters of the Wang Jingwei secret service under Ding Mocun and Li Shiqun. CORROBORATED."
+    },
+    {
+      "anchor": "East Asia Common Culture Academy",
+      "note": "The T&#333;a D&#333;bun Shoin, a Japanese academy in Shanghai that trained Japanese &#8220;China hands&#8221; and doubled as a nursery of intelligence officers. It was in fact founded around 1900&#8211;1901, not 1905 as the source has it. CONTRADICTED as to the date."
+    },
+    {
+      "anchor": "his comrade Sun Fengming had braved death to wound Wang Jingwei",
+      "note": "At the Nationalists&#8217; Fourth Congress in Nanjing in November 1935, the assassin Sun Fengming&#8212;posing as a press photographer&#8212;shot and wounded Wang Jingwei; the intended target had been Chiang Kai-shek, who was not on the dais. Hua Kezhi had organized the plot. CORROBORATED."
+    },
+    {
+      "anchor": "none should be treated with closer intimacy than the spy",
+      "note": "From the last chapter of Sun Tzu&#8217;s <i>Art of War</i>, &#8220;The Use of Spies&#8221; (<i>yong jian</i>), on the primacy of trust, reward, and secrecy in running agents."
+    },
+    {
+      "anchor": "The Duke of Zhou spat out his food",
+      "note": "From Cao Cao&#8217;s poem &#8220;Short Song&#8221; (<i>Duan ge xing</i>): the Duke of Zhou is said to have spat out his food to hurry out and receive a worthy caller, so eager was he for talent&#8212;the emblem of a leader who wins men&#8217;s hearts. Here it stands for the personal loyalty a Communist controller could command."
+    },
+    {
+      "anchor": "And Guan Lu was given the secret task of turning Li Shiqun",
+      "note": "Guan Lu (1907&#8211;1982), one of the most admired women poets of the day, paid for this assignment with her name: branded a &#8220;collaborator&#8221; for her wartime cover, she was later imprisoned in the Pan Hannian case and took her own life soon after her rehabilitation. Her fate became a byword for the private cost of clandestine work."
+    }
+  ],
+  "ch06": [
+    {
+      "anchor": "opened in Yan'an a Japanese Workers' and Peasants' School",
+      "note": "A real institution (&#26085;&#26412;&#24037;&#20892;&#23398;&#26657;), opened at Yan&#8217;an on 15 May 1941 to re-educate Japanese prisoners of war; it was led by the Japanese Communist leader Nosaka Sanz&#333; (who used the alias Okano Susumu, &#20911;&#37326;&#36827;). Its graduates carried out antiwar propaganda at the front. CORROBORATED."
+    },
+    {
+      "anchor": "the memorial that the Japanese prime minister Tanaka Giichi had submitted to the Emperor, which said: \"To conquer the world, one must first conquer China",
+      "note": "The so-called Tanaka Memorial. Its authenticity is rejected by most Japanese and Western historians: no Japanese original has ever surfaced, and it is generally regarded as a fabrication that appeared in China around 1929. Its expansionist program did, however, foreshadow the actual course of Japanese aggression, which is why it was so widely believed. The circulation described here is itself well attested: Yan Baohang obtained a copy and had an English translation distributed to Western delegates at the 1929 IPR conference in Kyoto. CONTRADICTED as a genuine state document; the author reports it, as the Chinese side of the day received it, as authentic."
+    },
+    {
+      "anchor": "A Survey of China's War-Fighting Strength",
+      "note": "The Japanese-language report used the exonym <i>Shina</i> (&#25903;&#37027;) for China, as in <i>Shina Expeditionary Army</i> and the &#8220;China Incident&#8221; below; once a neutral term, it had become a slur by this period. It is rendered plainly as &#8220;China&#8221; throughout."
+    },
+    {
+      "anchor": "the most highly classified of all the peace operations, \"Operation Kiri",
+      "note": "Operation Kiri (the Kiri K&#333;saku) was a genuine 1940 Japanese channel to Chongqing run by Imai Takeo. The negotiator called &#8220;Song Ziliang&#8221; used the name of a real Soong brother, but the man at the table was an impostor, an agent of Dai Li&#8217;s Juntong; mainstream accounts treat the affair as a Nationalist deception that strung the Japanese along. Pan Hannian did run an intelligence-exchange tie to Iwai Eiichi and did expose the impostor to him. The book&#8217;s dramatized version&#8212;that Pan cast the man as a Communist plant so the Japanese would fear a Juntong trap&#8212;and the credit it gives Pan for collapsing the channel rest on Chinese accounts. PARTLY CORROBORATED."
+    },
+    {
+      "anchor": "Gao Chongwu",
+      "note": "So printed in the source. The man is the well-documented Gao Zongwu (&#39640;&#23447;&#27494;), who with Tao Xisheng defected from the Wang Jingwei camp to Hong Kong and published the draft treaty in January 1940&#8212;the &#8220;Gao-Tao incident.&#8221; The source&#8217;s &#23849; for &#23447; is a misprint."
+    },
+    {
+      "anchor": "the plan for the \"Kwantung Army Special Maneuvers,\"",
+      "note": "The Kantokuen (&#38306;&#29305;&#28436;) of July 1941 was a real and enormous mobilization&#8212;on the order of 700,000 to 800,000 troops&#8212;massing the Kwantung Army in the Northeast for a possible strike at the Soviet Union after the German invasion. Japan ultimately shelved it and turned south. CORROBORATED."
+    },
+    {
+      "anchor": "moved the 200,000-strong army defending the eastern front against Japan to the western front, and won at last the defense of Moscow",
+      "note": "The Soviet transfer of Far Eastern divisions west in the autumn of 1941 is real and mattered to the defense of Moscow, though modern scholarship qualifies the &#8220;Siberian divisions saved Moscow&#8221; picture: only some units were genuinely Siberian, and some moves preceded any decisive intelligence. The reporting usually credited for freeing these forces is Sorge&#8217;s (and Soviet code-breaking), not Chinese Communist intelligence. The book&#8217;s attribution of the decision specifically to the Communists is a Chinese account and is UNCORROBORATED; see the note in Chapter&#160;5 on the Barbarossa warning."
+    },
+    {
+      "anchor": "On December 7, 1941, Japan will launch surprise attacks at many points across the Pacific",
+      "note": "That the Nakanishi&#8211;Ozaki network reported Japan would go south, meaning war with the United States and Britain, is well attested; the precise prediction of the Pearl Harbor date recorded here rests on later Chinese accounts (chiefly Nakanishi&#8217;s own) and is not independently corroborated. PARTLY CORROBORATED."
+    },
+    {
+      "anchor": "Chi Buzhou broke another special cipher telegram",
+      "note": "Chinese accounts credit the Nationalist cryptanalyst Chi Buzhou with reading Japanese diplomatic traffic and forecasting a Sunday attack on Pearl Harbor, a warning said to have been passed to and ignored by the Americans. The story is widely repeated in China but is not corroborated in Western records of the Pearl Harbor intelligence. UNCORROBORATED."
+    },
+    {
+      "anchor": "so that people call him \"the Yue Fei of Japan.\"",
+      "note": "Yue Fei (1103&#8211;1142) was a Southern Song general celebrated as the archetype of the loyal soldier who dies for his country; to call the ancestral General Kusunoki Masashige &#8220;the Yue Fei of Japan&#8221; casts him in the same mold of martyred loyalty."
+    },
+    {
+      "anchor": "like Zhuge Liang pacifying the Five Routes from the calm of his own home",
+      "note": "An allusion to the <i>Romance of the Three Kingdoms</i>: the strategist Zhuge Liang, without stirring from his residence, turns back five invading armies at once by arranging countermeasures in advance&#8212;a byword for commanding great events from a quiet center. Zhuge Liang is the same strategist of the Empty City Stratagem (Chapter&#160;5)."
+    },
+    {
+      "anchor": "The greatest sound is silent; the greatest form has no shape.",
+      "note": "From Laozi&#8217;s <i>Daodejing</i>, chapter 41: the received text reads <i>the greatest sound is faint of voice</i> (&#22823;&#38899;&#24076;&#22768;); the source prints &#22823;&#38899;&#26080;&#22768;. The saying is turned here into an emblem of the spy who works unseen and unheard."
+    }
+  ],
+  "ch07": [
+    {
+      "anchor": "the Anti-Traitor Department",
+      "note": "&#8220;Rooting out traitors&#8221; renders <i>chujian</i> (&#38146;&#22902;), literally &#8220;to hoe out the traitors&#8221;: the wartime name the Communists gave to counter-espionage work. A <i>hanjian</i> (&#27721;&#22855;), the &#8220;traitor to the Han&#8221; of the following sentences, is a Chinese who collaborates with a foreign invader&#8212;here the Japanese. The word carries the author&#8217;s side&#8217;s full charge, and is kept as he uses it."
+    },
+    {
+      "anchor": "the Special Branch's \"dog-beating squad\"",
+      "note": "The armed unit of the Central Special Branch&#8212;also called the &#8220;Red Squad&#8221;&#8212;that hunted down and killed defectors and informers, the &#8220;dogs&#8221; of the name. It first appears in Chapter 1."
+    },
+    {
+      "anchor": "Puyi, the former Qing emperor",
+      "note": "Puyi (1906&#8211;1967), the last Qing emperor, abdicated in 1912 and was installed by Japan in 1932 as ruler of the puppet state of Manchukuo. Wang Jingwei headed the Japanese-sponsored regime at Nanjing (see Chapter 2)."
+    },
+    {
+      "anchor": "Wang Kemin, chairman of the Provisional Government council",
+      "note": "Wang Kemin (1873&#8211;1945) headed the Japanese-sponsored Provisional Government of the Republic of China set up in North China in December 1937."
+    },
+    {
+      "anchor": "Zuo Quan, was killed in action",
+      "note": "Zuo Quan (1905&#8211;1942), Soviet-trained deputy chief of staff of the Eighth Route Army, was killed on May 25, 1942, breaking out of a Japanese encirclement at Shiziling during the &#8220;May mopping-up&#8221; of the Taihang base; he was the highest-ranking Communist commander to die in the war. Corroborated. (The book styles him chief of staff; his post was deputy chief of staff of the forward headquarters.)"
+    },
+    {
+      "anchor": "the \"three links\": mail, transport, and trade",
+      "note": "The &#8220;three links&#8221; (<i>santong</i>): postal exchange, transport, and trade. The same phrase would become famous decades later in cross-Strait politics."
+    },
+    {
+      "anchor": "the Second Revolutionary Civil War",
+      "note": "The Communist term for the civil war of 1927&#8211;1937, also called the Agrarian Revolutionary War; the &#8220;White areas&#8221; were the Nationalist-held regions."
+    },
+    {
+      "anchor": "Shen Zhiyue, who claimed to have slipped into Yan'an",
+      "note": "Shen Zhiyue (1913&#8211;1994) did infiltrate Yan&#8217;an around 1938 and later became a senior intelligence official in Taiwan, eventually heading the Investigation Bureau. His claim to have been Mao Zedong&#8217;s secretary is uncorroborated&#8212;the book itself calls it bragging."
+    },
+    {
+      "anchor": "their bodies in Cao's camp, their hearts with Han",
+      "note": "An idiom from the tales of the Three Kingdoms: the general Guan Yu, obliged to serve the warlord Cao Cao, kept his heart loyal to his own lord and the Han cause. It means outward service and inward loyalty."
+    },
+    {
+      "anchor": "On Tactics Against Japanese Imperialism",
+      "note": "Mao Zedong&#8217;s report to the Wayaobao conference of December 1935 (the canonical English title of &#12298;&#35770;&#21453;&#23545;&#26085;&#26412;&#24093;&#22269;&#20027;&#20041;&#30340;&#31574;&#30053;&#12299;)."
+    },
+    {
+      "anchor": "the \"CC Clique\"",
+      "note": "The faction of the brothers Chen Guofu and Chen Lifu, which dominated the Nationalist party machine and Zhongtong; its rival, the &#8220;Zhu faction,&#8221; formed around the organization minister Zhu Jiahua."
+    },
+    {
+      "anchor": "the ruse of self-injury",
+      "note": "The <i>kurou ji</i>, one of the Thirty-Six Stratagems: to injure one&#8217;s own man so the enemy will trust him&#8212;classically the flogging of Huang Gai before the battle of Red Cliffs."
+    },
+    {
+      "anchor": "Jiang Gan Steals the Letter",
+      "note": "An episode from <i>Romance of the Three Kingdoms</i>: Zhou Yu plants a forged letter for Cao Cao&#8217;s envoy Jiang Gan to &#8220;steal,&#8221; tricking Cao into executing his own two admirals&#8212;a byword for the counter-espionage frame (<i>fanjian ji</i>) that turns the enemy&#8217;s own spying against him."
+    },
+    {
+      "anchor": "packing his Sacrifice League with renegade cadres",
+      "note": "The Sacrifice League for National Salvation, an anti-Japanese mass organization set up under the Shanxi warlord Yan Xishan in 1936; the Communists infiltrated it deeply and used it, and the &#8220;Shanxi New Army&#8221; (its Dare-to-Die Columns), to build their own strength."
+    },
+    {
+      "anchor": "a correspondence between Heaven and man",
+      "note": "<i>Tianren ganying</i>, the old Han-Confucian doctrine that Heaven answers a ruler&#8217;s conduct with portents and disasters&#8212;so that a lightning strike could be read as a verdict on the government."
+    },
+    {
+      "anchor": "crack troops and simple administration",
+      "note": "<i>Jingbing jianzheng</i>, the streamlining of army and administration adopted in the Border Region in 1941&#8211;1942 to survive the Nationalist blockade; proposed by the non-party assemblyman Li Dingming and praised by Mao. Corroborated."
+    },
+    {
+      "anchor": "600,000 dan",
+      "note": "A <i>dan</i> (&#30707;) is a measure of grain, roughly a picul; a <i>jin</i> (&#26020;), a catty, is about half a kilogram."
+    },
+    {
+      "anchor": "a Great Production Campaign",
+      "note": "The Yan&#8217;an self-reliance drive of 1942&#8211;1945&#8212;land reclamation, spinning, and weaving, most famously by the 359 Brigade at Nanniwan&#8212;launched to beat the blockade."
+    },
+    {
+      "anchor": "8 million in border currency",
+      "note": "<i>Bianbi</i>, the banknotes issued by the Shaanxi-Gansu-Ningxia Border Region Bank, legal tender within the Border Region."
+    },
+    {
+      "anchor": "Ma the Blue Sky",
+      "note": "The book prints his name Ma Xiwu (&#39532;&#38177;&#27494;); the documented judge is &#39532;&#38177;&#20116; (1899&#8211;1962), the same romanization. His plain, investigative, mediation-based &#8220;Ma Xiwu adjudication method&#8221; became a Communist model, and the opera <i>Liu Qiao&#8217;er</i> (Chapter 9) derives from one of his judgments. &#8220;Blue Sky&#8221; (<i>qingtian</i>) is the epithet of the incorruptible Song judge Bao Zheng. Corroborated."
+    },
+    {
+      "anchor": "the Soviet Cheka",
+      "note": "The All-Russian Extraordinary Commission (its Russian initials, ChK), Lenin&#8217;s political police founded in December 1917 under Dzerzhinsky, which combined the hunting of counter-revolutionaries with the policing of sabotage. It was the model for Communist security work&#8212;and, the author suggests, for its excesses."
+    },
+    {
+      "anchor": "Xu Jishen and others were ordered to found",
+      "note": "Xu Jishen (1901&#8211;1931), a Whampoa graduate and Red Army commander in the Hubei-Henan-Anhui base, was executed in an internal purge in 1931 after a Nationalist counter-espionage frame&#8212;planted agents who &#8220;confessed&#8221; him an inside man&#8212;cast suspicion on him; he was later rehabilitated as a martyr. Corroborated. (The book dates the base&#8217;s founding to 1932; the army and base had in fact taken shape by 1930&#8211;1931.)"
+    },
+    {
+      "anchor": "Zhang Luping, just twenty",
+      "note": "Zhang Luping (1921&#8211;1945) led the underground Communist branch inside Juntong&#8217;s Chongqing radio headquarters&#8212;with Zhang Weilin, Feng Chuanqing, Zhao Ligeng, Yang Guang, Chen Guozhu, and Wang Xizhen. The group was exposed in 1940, imprisoned, and executed in 1945; their true story surfaced only in the 1980s. Corroborated."
+    },
+    {
+      "anchor": "the SACO camp",
+      "note": "The Sino-American Cooperative Organization (SACO), a joint U.S.-Nationalist intelligence body formed at Chongqing in 1943; its Geleshan compound adjoined the Baigongguan and Zhazidong prisons where the Zhang Luping group and many other Communists were held and, on the eve of liberation, killed."
+    },
+    {
+      "anchor": "Deng Yanda's action to reorganize",
+      "note": "Deng Yanda (1895&#8211;1931), the leftist Nationalist leader and founder of the &#8220;Third Party,&#8221; was executed on Chiang Kai-shek&#8217;s orders in 1931."
+    },
+    {
+      "anchor": "the counter-espionage stratagem means turning the enemy's agents",
+      "note": "<i>Fanjian ji</i>, one of the Thirty-Six Stratagems: to turn the enemy&#8217;s own agents against him. It is distinct from <i>lijian ji</i>, the stratagem of sowing discord within the enemy (Chapter 6)."
+    },
+    {
+      "anchor": "divergence of wits",
+      "note": "<i>Zhiyi</i>, a term coined by Zhao Cangbi (1917&#8211;1993), a Border Security cadre who rose to become the PRC&#8217;s Minister of Public Security (1977&#8211;1983), for the point-against-point contest of stratagems in covert struggle."
+    }
+  ],
+  "ch08": [
+    {
+      "anchor": "training class for expendable agents",
+      "note": "&#8220;Expendable agents&#8221; renders &#27515;&#38388; (<i>sijian</i>), literally &#8220;dead agents&#8221;&#8212;one of the five kinds of spy in Sun Tzu&#8217;s <i>Art of War</i>, the doomed agent fed false information and sent knowing he is likely to be caught and killed. Juntong used the term for the men it planted to burrow into the Communist base areas, as Sun Tzu&#8217;s spy-types are glossed earlier in the book."
+    },
+    {
+      "anchor": "the lore of the",
+      "note": "The <i>haidi</i> (&#28023;&#24213;, literally &#8220;sea bottom&#8221;) was Juntong jargon for the secret personal dossier each agent compiled and memorized: his real and cover names, his permanent and mailing addresses, the cover names of his contacts, the cipher for their correspondence, and his oath. The original stayed on file at the training class, and all later clandestine contact was keyed to it."
+    },
+    {
+      "anchor": "the Renaissance Society men",
+      "note": "The Renaissance Society (&#22797;&#20852;&#31038;) was an outer organ of the Nationalist &#8220;Blue Shirts,&#8221; the network of Chiang Kai-shek loyalists built in the early 1930s around the inner Vigorous Action Society (&#21147;&#34892;&#31038;), noted earlier in the book. Its members served as Nationalist party and security cadres."
+    },
+    {
+      "anchor": "Ren Zhuoxuan",
+      "note": "Ren Zhuoxuan (&#20219;&#21331;&#23459;, 1896&#8211;1990), pen name Ye Qing, was an early Communist&#8212;once head of the Party&#8217;s Paris branch&#8212;who, after his arrest, defected and became the Nationalists&#8217; foremost anti-Communist theorist and a propaganda official. Kang Sheng cites his career as the model of a turncoat put to use. (Corroborated.)"
+    },
+    {
+      "anchor": "trained 631 agents",
+      "note": "The chapter gives several figures because they count different things from different sources. The 32 agents of the core Yan&#8217;an &#8220;Dai case&#8221; (1 who came forward, 20 found by investigation, 11 named by others) are the single case cracked in 1942; a later recollection puts the Yan&#8217;an arrests at forty-odd and the whole Yan&#8217;an-period haul at 55; the 631 trained over nine sessions is the Gansu investigators&#8217; 1955 count for the entire class, close to Cheng Muyi&#8217;s own captured report of 670, against 320 known earlier and 160 newly found. The book does not reconcile the tallies."
+    },
+    {
+      "anchor": "took Yijiangshan Island",
+      "note": "The People&#8217;s Liberation Army&#8217;s assault on Yijiangshan (&#19968;&#27743;&#23665;), a small island off the Zhejiang coast held by the Nationalists, in January 1955 was China&#8217;s first combined army-navy-air amphibious landing; the captured documents included Cheng Muyi&#8217;s report. (Corroborated.)"
+    },
+    {
+      "anchor": "the Bureau of Confidential Investigation",
+      "note": "The Bureau of Confidential Investigation (&#20445;&#23494;&#23616;, <i>Baomiju</i>) was the postwar successor to Juntong, formed in 1946 under the Defense Ministry; that renaming is why the wartime Juntong is meant here."
+    },
+    {
+      "anchor": "At Baigongguan",
+      "note": "Baigongguan (&#30333;&#20844;&#39302;, the &#8220;White Mansion&#8221;), a villa at Geleshan outside Chongqing, served Juntong as a prison and as part of its Chongqing training apparatus; it belonged to the SACO complex noted in Chapter 7, where many captured Communists were held and killed."
+    }
+  ],
+  "ch09": [
+    {
+      "anchor": "because of a famous speech of Kang Sheng's",
+      "note": "The &#8220;Rescue Campaign&#8221; (<i>qiangjiu yundong</i>) was the coercive spy-hunt into which the Yan&#8217;an Rectification&#8217;s cadre-screening phase escalated in 1943. Kang Sheng, chairing it from the Central Social Affairs Department, cast the purge as the &#8220;rescue&#8221; of misled youths from espionage; in practice it ran on forced confessions and manufactured evidence. Scholarship on the period&#8212;Gao Hua&#8217;s <i>How the Red Sun Rose</i>, Dai Qing&#8217;s study of Wang Shiwei, Chen Yung-fa&#8217;s work, which the author himself cites&#8212;finds the great majority of the thousands accused innocent; Mao soon conceded that real agents were &#8220;only a very few.&#8221; CORROBORATED: the campaign drew in on the order of 30,000 cadres, and the Party later disowned it. The author&#8217;s own verdict, that it prefigured the Cultural Revolution, matches the scholarly mainstream."
+    },
+    {
+      "anchor": "the very begetter of the Rescue Campaign",
+      "note": "That Kang Sheng drove the campaign is the single most scrutinized fact of this chapter, and the consensus is firm (on the man, see the note at Chapter 2). It was he who generalized Zhang Keqin&#8217;s coerced confession into the &#8220;Red-Flag Party&#8221; theory, gave the July 1943 &#8220;Rescue the Fallen&#8221; speech, and let his wife Cao Yi&#8217;ou run the campaign in Yan&#8217;an county in person. In 1980 the Party posthumously expelled him and named him, with Lin Biao and Jiang Qing, a chief author of the era&#8217;s persecutions. CORROBORATED. The author assigns him the blame plainly&#8212;unusual candor for so Party-sympathetic a book, and consistent with the record."
+    },
+    {
+      "anchor": "On February 17 Wang Shiwei published",
+      "note": "Wang Shiwei (1906&#8211;1947), a writer and translator at the Central Research Institute, whose essay &#8220;Wild Lily&#8221; (&#37326;&#30334;&#21512;&#33457;) attacked the privilege and hierarchy of Yan&#8217;an&#8217;s elite. He was made the literary target of the Rectification, denounced as a &#8220;Trotskyite,&#8221; and imprisoned. CONTRADICTED, and gravely: the &#8220;living memorial&#8221; scene later in this chapter shows him alive and &#8220;living well&#8221; in 1944, but Wang Shiwei was in fact secretly killed during the Communists&#8217; retreat from Yan&#8217;an on 1 July 1947, his body thrown down a well. In February 1991 the Ministry of Public Security overturned the verdict, called the killing a wartime error, and rehabilitated him. The author&#8217;s text holds to the 1944 moment; the record does not end there."
+    },
+    {
+      "anchor": "put nearly three hundred Huxi cadres to death",
+      "note": "The Huxi (&#8220;west-of-the-lake&#8221;) anti-Trotskyist purge of late 1939, in the base area west of Weishan Lake on the Shandong&#8211;Jiangsu border, is a documented atrocity in Party historiography: on fabricated charges of a Trotskyite ring, several hundred cadres were tortured and killed before Luo Ronghuan and Guo Hongtao rode in to stop it. The Party Center&#8217;s February 1941 &#8220;Decision on the Anti-Traitor Errors in the Huxi Border Region,&#8221; which the author cites, formally condemned it. CORROBORATED."
+    },
+    {
+      "anchor": "Root Out the Trotskyite Bandits",
+      "note": "Kang Sheng&#8217;s article, published in <i>Liberation</i> in early 1938, notoriously branded Chen Duxiu&#8212;co-founder and first general secretary of the Chinese Communist Party, by then close to the Trotskyists&#8212;a paid agent of Japanese intelligence. The charge was baseless and never substantiated; historians read it as a political smear. It set the &#8220;Trotskyite equals Japanese spy&#8221; template the later purges would exploit."
+    },
+    {
+      "anchor": "Kawashima Yoshiko in disguise",
+      "note": "Kawashima Yoshiko (1907&#8211;1948), born Aisin Gioro Xianyu, a Manchu princess raised in Japan who became a Japanese intelligence agent famed as the &#8220;Eastern Jewel.&#8221; The Nationalist government executed her for treason in Beiping in 1948. The rumor that Wang Zunji &#8220;was really Kawashima Yoshiko in disguise&#8221; the author offers as a specimen of the fantastical charges the campaign bred."
+    },
+    {
+      "anchor": "her uncle, Wang Kemin",
+      "note": "Wang Kemin (1873&#8211;1945), a Beiping banker who headed the Japanese-sponsored Provisional Government of North China and then chaired its successor, the North China Political Council&#8212;among the most senior collaborators of the occupation. Arrested after Japan&#8217;s surrender, he died in a Beiping prison in December 1945."
+    },
+    {
+      "anchor": "the Communists' Southern Committee had been wrecked",
+      "note": "The wrecking of the Southern Committee (&#21335;&#22996;) in 1942 was one of the gravest penetrations the CCP underground suffered in the war. Zhongtong turned captured cadres in Jiangxi and rolled the network up through Guangdong and Guangxi; by the author&#8217;s account the whole Jiangxi provincial organization was gutted and over two thousand members arrested. The secretary, Fang Fang, escaped; the deputy secretary Zhang Wenbin died in prison in 1944. CORROBORATED in the standard accounts."
+    },
+    {
+      "anchor": "waved the red flag to oppose the red flag",
+      "note": "This forced confession by Zhang Keqin, a young Gansu cadre broken after three days and nights of interrogation in early 1943, was the spark Kang Sheng seized: he generalized it into the theory of a &#8220;Red-Flag Party&#8221; (&#32418;&#26071;&#20826;), a supposed Nationalist front &#8220;flying the red flag to oppose the red flag,&#8221; and extended the hunt to underground organizations across a dozen provinces. The &#8220;Red-Flag Party&#8221; was a fabrication; on 9 September 1981 the Party Center formally rehabilitated the organizations so charged&#8212;the document the author cites from the biography of Sun Zuobin. CORROBORATED."
+    },
+    {
+      "anchor": "The Injustice to Dou E",
+      "note": "<i>The Injustice to Dou E</i> (&#31572;&#23092;&#20896;), Guan Hanqing&#8217;s Yuan-dynasty tragedy. Wrongly condemned and beheaded, the chaste widow Dou E swears three portents will prove her innocence, one of them snow falling in the sixth month of summer. &#8220;Snow in June&#8221; became the stock image of a great injustice crying out to Heaven, which is why the author reads Yan&#8217;an&#8217;s freak April snow as an omen."
+    },
+    {
+      "anchor": "the Comintern declared its own dissolution",
+      "note": "The Communist International dissolved itself in May 1943, a wartime gesture by Stalin to reassure his Western allies. Chiang Kai-shek seized on it to argue that the Chinese Communists, their &#8220;higher body&#8221; gone, should dissolve too."
+    },
+    {
+      "anchor": "doffing his cap and bowing",
+      "note": "Mao Zedong&#8217;s public apology for the campaign&#8217;s excesses is attested in several participants&#8217; memoirs. In October 1943 he laid down the corrective &#8220;not one to be killed, and most not to be arrested&#8221; (&#19968;&#20010;&#19981;&#26432;&#65292;&#22823;&#37096;&#19981;&#25235;), and at the Seventh Congress in 1945 he apologized again for the wrongs of the vetting. CORROBORATED. Historians add that the gesture cost him little: the blame fell to Kang Sheng, and Mao&#8217;s own authority emerged from the Rectification enlarged."
+    },
+    {
+      "anchor": "Pan Hannian, deputy head of the Social Affairs Department",
+      "note": "Pan Hannian (1906&#8211;1977), the CCP&#8217;s master intelligence operative (Chapters 5&#8211;6). The campaign&#8217;s shadow reached far past 1943: as the author&#8217;s own sources note, Pan never reported a 1943 meeting into which the collaborationist Wang Jingwei had drawn him, and in 1955 that silence was used to charge him as a traitor. He and Yang Fan, named here, were imprisoned for life; Pan died in a labor camp in 1977. The Party rehabilitated both in 1982, ruling the charges a fabrication. CORROBORATED."
+    },
+    {
+      "anchor": "Jiang Nanxiang wrote to Liu Shaoqi",
+      "note": "Jiang Nanxiang (1913&#8211;1988), a leader of the 1935 December 9th student movement and later the People&#8217;s Republic&#8217;s minister of higher education and president of Tsinghua University. His March 1945 &#8220;Opinion on the Rescue Campaign&#8221; is remembered as one of the earliest reasoned repudiations of the campaign from within the Party."
+    },
+    {
+      "anchor": "with the famous actress Xin Fengxia",
+      "note": "The opera grew from a real 1943 Longdong case: the marriage-freedom suit of the peasant girl Feng Zhiqin (childhood name Feng Peng&#8217;er), decided by Judge Ma Xiwu. Reworked as the pingju <i>Liu Qiao&#8217;er</i> and, with Xin Fengxia (1927&#8211;1998) in the title role, made into a hugely popular 1956 film, it became the best-known celebration of the 1950 Marriage Law. Feng Zhiqin was still living when the author wrote."
+    },
+    {
+      "anchor": "only Xiong Dazheng, the most deeply implicated",
+      "note": "Xiong Dazheng&#8212;better known as Xiong Dazhen (&#29066;&#22823;&#32541;); the source prints a homophone variant&#8212;was a Western-trained physicist and a favored student of Ye Qishun who left Tsinghua to build munitions for the Jin-Cha-Ji resistance. Accused as a &#8220;Nationalist agent&#8221; in a 1939 anti-espionage purge, he was killed by his escorts during a transfer. His case, like the Huxi purge, is a documented instance of &#8220;coerce, confess, believe&#8221; predating the Rescue Campaign; he was rehabilitated in the 1980s. CORROBORATED."
+    }
+  ],
+  "ch10": [
+    {
+      "anchor": "under the table their intelligence services were already kicking each other",
+      "note": "&#8220;The open scheme&#8221; renders &#38451;&#35851; <i>yangmou</i>, coined as the mirror of &#38452;&#35851; <i>yinmou</i>, &#8220;plot&#8221;: a design carried out in the open rather than in secret. The chapter&#8217;s &#8220;open scheme&#8221; is the postwar contest in which the two sides maneuvered openly &#8212; above all in the Chongqing peace talks &#8212; while each raced in secret for military position."
+    },
+    {
+      "anchor": "arrived by air in Chongqing",
+      "note": "The Chongqing negotiations (28 August&#8211;10 October 1945) were a genuine historic event: Chiang Kai-shek invited Mao Zedong to talks, Mao flew to the Nationalist capital under American escort, and the two sides signed the Double-Tenth Agreement. The risk to Mao&#8217;s person was real, and his safety a preoccupation of the CCP security apparatus. Corroborated; the framing here as a &#8220;play performed in earnest&#8221; is the author&#8217;s."
+    },
+    {
+      "anchor": "a modern-day Feast at Hongmen",
+      "note": "&#40511;&#38376;&#23476;, the banquet of 206 BC at which Xiang Yu&#8217;s followers schemed to assassinate his rival Liu Bang, who slipped away; a byword for a banquet that is a deadly trap."
+    },
+    {
+      "anchor": "buffoons out of the tale of Jiang Gan",
+      "note": "In the <i>Romance of the Three Kingdoms</i>, Jiang Gan is sent to spy on the Wu strategist Zhou Yu before the Battle of Red Cliffs, is fed a forged letter, and is gulled into having his own side&#8217;s admirals killed &#8212; the archetype of the spy turned against his master. Zhou Yu, named just below, is the brilliant young Wu commander who engineers the deception."
+    },
+    {
+      "anchor": "On September 5, 1945, Japan surrendered.",
+      "note": "The date is as printed, and is anomalous. Japan announced its acceptance of the Potsdam terms on 15 August 1945; the instrument of surrender was signed aboard the USS <i>Missouri</i> on 2 September; and the surrender of Japanese forces in the China theater was received at Nanjing on 9 September &#8212; the date the book itself gives correctly two paragraphs below. No standard milestone falls on 5 September; treat it as the author&#8217;s slip."
+    },
+    {
+      "anchor": "north of the 16th parallel was China's to receive",
+      "note": "Under the Allied surrender arrangements, Chinese forces took the Japanese surrender across China (apart from the Soviet-occupied Northeast), on Taiwan, and in French Indochina north of the 16th parallel; the zone south of it went to the British. Corroborated."
+    },
+    {
+      "anchor": "forced Long Yun out of Yunnan",
+      "note": "Long Yun (1884&#8211;1962), the &#8220;King of Yunnan,&#8221; had ruled the province semi-autonomously since 1927. On Chiang&#8217;s order Du Yuming&#8217;s troops surrounded his headquarters on Wuhua Mountain on 3 October 1945 and forced him to Chongqing, where he was kept under virtual house arrest; in 1948 he fled to Hong Kong and sided with the Communists. Corroborated."
+    },
+    {
+      "anchor": "the Vietnamese emperor Bao Dai",
+      "note": "Bao Dai (1913&#8211;1997), last emperor of the Nguyen dynasty, abdicated on 25 August 1945 in favor of Ho Chi Minh&#8217;s provisional government and briefly served it as &#8220;supreme adviser.&#8221;"
+    },
+    {
+      "anchor": "no Sino-Japanese dispute over the Diaoyu Islands today",
+      "note": "An editorial aside of the author&#8217;s, reading a present-day territorial quarrel back onto 1945. The status of the Diaoyu (Senkaku) islands was not part of the surrender arrangements the passage describes; the remark reflects the book&#8217;s contemporary nationalist vantage rather than the historical record. Interested witness."
+    },
+    {
+      "anchor": "known within the trade as \"strategic spies.\"",
+      "note": "&#20919;&#34255;&#38388;&#35851; (&#8220;cold-storage&#8221; or &#8220;refrigerated&#8221; spy) and &#25112;&#30053;&#38388;&#35851; (&#8220;strategic spy&#8221;) both name an agent planted deep in the enemy camp and left dormant, doing no active work, until a decisive moment makes him worth the risk of activation."
+    },
+    {
+      "anchor": "the time had come to bring out Yan Youwen",
+      "note": "Yan Youwen (1914&#8211;1962), a secret CCP member planted years before as aide and press chief to Fu Zuoyi. His intelligence, and his later persuasion, helped bring about the peaceful surrender of Beiping in 1949. His Party membership was kept secret even from his family; branded a &#8220;reactionary warlord&#8221; and persecuted, he was publicly acknowledged as a CCP intelligence officer only in 1993. Corroborated: the book cites his daughter and his case officer Luo Qingchang."
+    },
+    {
+      "anchor": "hailed them as the \"Latter Three Heroes.\"",
+      "note": "&#21518;&#19977;&#26480;. Xiong Xianghui (1919&#8211;2005), placed by Zhou Enlai as Hu Zongnan&#8217;s confidential secretary and later a senior PRC diplomat, together with Chen Zhongjing and Shen Jian, formed the trio that penetrated Hu Zongnan&#8217;s headquarters and gave early warning of the 1947 attack on Yan&#8217;an. The name deliberately echoes the &#8220;Three Heroes of Longtan&#8221; (Qian Zhuangfei, Li Kenong, Hu Di) of the early 1930s (see ch. 1). Corroborated; Xiong&#8217;s own memoir, <i>My Life in Diplomacy and Intelligence</i>, is the principal source, and the episode is standard in accounts of CCP intelligence."
+    },
+    {
+      "anchor": "was Zhou Enlai's tesuji indeed",
+      "note": "&#25163;&#31563; (Japanese <i>tesuji</i>), a term from the board game go for a deft, precisely placed stone that turns a position; here, the perfectly timed use of a long-buried agent."
+    },
+    {
+      "anchor": "loudly singing the Empty Fort",
+      "note": "&#31354;&#22478;&#35745;, the ruse attributed to Zhuge Liang in the Three Kingdoms tale: with the city all but undefended, he flings the gates open and sits playing the zither, so that the stronger enemy suspects an ambush and withdraws. In 1943 the CCP publicized Hu Zongnan&#8217;s planned attack in order to deter it; by 1947, the passage notes, the bluff no longer sufficed."
+    },
+    {
+      "anchor": "declared his revolt at Handan",
+      "note": "Gao Shuxun (1898&#8211;1972), a former Northwest Army general, defected with the New 8th Army during the Handan campaign on 30 October 1945. Mao turned his name into a slogan, the &#8220;Gao Shuxun Movement,&#8221; encouraging Nationalist officers to revolt rather than fight the civil war. Corroborated."
+    },
+    {
+      "anchor": "these revolted units had not yet raised the Communist banner",
+      "note": "At this stage the CCP called the fighting a &#8220;war of self-defense,&#8221; not yet a &#8220;war of liberation,&#8221; and the defecting units took &#8220;democratic&#8221; names to appeal to the broad popular longing for peace and against Chiang&#8217;s one-party rule. The CCP&#8217;s own main force in the Northeast was likewise styled the &#8220;Northeast Democratic Allied Army.&#8221; The framing is the CCP&#8217;s; the passage reports it faithfully."
+    },
+    {
+      "anchor": "it sent a Red Army cadre, Li Bai.",
+      "note": "Li Bai (1910&#8211;1949), the CCP&#8217;s clandestine radio operator in Shanghai, was arrested and executed by the Nationalists in May 1949 on the eve of the city&#8217;s fall; he later became famous as the model for the hero of the film <i>The Unfailing Radio Waves</i> (&#27704;&#19981;&#28040;&#36893;&#30340;&#30005;&#27874;)."
+    },
+    {
+      "anchor": "The Shaanbei people call such a withdrawal",
+      "note": "&#36305;&#21453; <i>paofan</i>, a north-Shaanxi term for the flight of a whole population, families and belongings and all, ahead of an oncoming army."
+    },
+    {
+      "anchor": "that very night Wang Shiwei was put to death.",
+      "note": "Wang Shiwei (1906&#8211;1947), the writer whose 1942 essay &#8220;Wild Lily&#8221; attacked privilege in Yan&#8217;an and made him the literary target of the Rectification (see ch. 9), was killed here during the retreat, his body thrown down a well. In February 1991 the verdict was overturned and the killing officially called a wartime error. The chapter&#8217;s own accounting below &#8212; 2,296 killed in the Border Region in 1947, more than half of them wrongly &#8212; is an unusually candid reckoning for this book."
+    },
+    {
+      "anchor": "with its own \"house law\": \"enter alive, leave only dead.\"",
+      "note": "&#29983;&#36827;&#27515;&#20986;, Juntong&#8217;s motto for the lifelong loyalty it claimed: a man admitted while living could leave only as a corpse."
+    },
+    {
+      "anchor": "seized by the home-returning corps",
+      "note": "&#36824;&#20065;&#22242; (<i>huanxiangtuan</i>), landlord-led militias that came back in the wake of the Nationalist advance to retake land distributed under CCP land reform and to take revenge on those who had carried it out."
+    },
+    {
+      "anchor": "Wu Manyou, a Border Region model laborer",
+      "note": "Wu Manyou was the most celebrated model farmer of the wartime Border Region and a poster figure of Yan&#8217;an&#8217;s production drive. His 1947 capture and the broadcasts he then made for the Nationalists were a grave embarrassment; returned to Yan&#8217;an after 1949, he died in obscurity and was quietly dropped from the model-laborer story. Corroborated in outline."
+    }
+  ],
+  "ch11": [
+    {
+      "anchor": "you will win a hundred.",
+      "note": "Mao is playing on Sun Tzu's <i>Art of War</i>: the original reads \"know the enemy and know yourself, and in a hundred battles you will never be in peril\" (<i>bai zhan bu dai</i>). Mao's substitution of \"win a hundred\" (<i>bai zhan bai sheng</i>) turns a promise of safety into a promise of victory."
+    },
+    {
+      "anchor": "This too was electronic warfare.",
+      "note": "The \"electronic warfare\" of 1947 was radio: the Nationalists used American direction-finding sets to locate Communist transmitters, and the Communists answered with radio silence, relaying, and deception. The technology was decades short of what the term means today; the author uses it for effect."
+    },
+    {
+      "anchor": "Hu Zongnan's army of 230,000 men",
+      "note": "Estimates of the force Hu Zongnan committed to the northern-Shaanxi campaign vary from about 230,000 to 250,000; the direct assault on Yan'an in March 1947 used a smaller spearhead. The book's figure is at the low end of the range and is broadly corroborated."
+    },
+    {
+      "anchor": "at Wayaobao his men wiped out the Nationalist 135th Brigade",
+      "note": "The historical record places the annihilation of the Reorganized 135th Brigade (about 4,700 men) at Yangmahe on April 14, 1947, a few miles from Wayaobao (the seat of Zichang county). It was the second of the \"three victories in three battles\" in northern Shaanxi, after Qinghuabian and before Panlong. The book's \"Wayaobao\" names the general area rather than the exact battlefield."
+    },
+    {
+      "anchor": "the Wang Shijian intelligence system",
+      "note": "Wang Shijian ran the Communists' largest behind-the-lines network in the north. In September 1947 the arrest and defection of a radio operator, Li Zhengxuan, let Juntong trace and seize Wang himself, and with him more than a hundred agents, the Five Martyrs of North China among them. It was the gravest Communist intelligence loss of the civil war."
+    },
+    {
+      "anchor": "Dai Li was killed in a plane crash on March 16, 1946",
+      "note": "Corroborated. Dai Li, the feared chief of Juntong, died when his aircraft crashed near Nanjing in fog on March 17, 1946 (the book gives March 16); his death broke the personal machine he had built and hastened Juntong's reorganization."
+    },
+    {
+      "anchor": "Guo Ruguai in the Ministry of National Defense's operations department",
+      "note": "Guo Ruguai, operations chief in the Nationalist high command, passed the Communists whole operational plans through the civil war. Suspected but never caught, he was posthumously confirmed as a long-serving Communist agent; the account here is corroborated."
+    },
+    {
+      "anchor": "Wei Lihuang's personally endorsed originals",
+      "note": "Whether Wei Lihuang deliberately served the Communists is genuinely contested. Some Communist elders later called him a secret Party member, and his passivity in the Liaoshen campaign helped the outcome; other historians read his caution as an ordinary general's wish to preserve his forces, not collusion. No documentary proof has been released. The book gives the partisan reading; the record is divided."
+    },
+    {
+      "anchor": "one more heavy charge, that of",
+      "note": "\"Turning\" (<i>cefan</i>) means inducing an enemy officer or unit to defect. The renamings the author traces&#8212;Destruction Department, Enemy Work Department, Nationalist-Army Work Department, Liaison Department&#8212;mark a real shift in doctrine, from wrecking the enemy army to winning it over whole, which culminates in the mass defections of 1948&#8211;49."
+    },
+    {
+      "anchor": "The highest realm of the Chinese strategist is not slaughter",
+      "note": "The section title and this line quote Sun Tzu: \"to subdue the enemy without fighting is the finest skill of all.\" The closing phrase, <i>zhi ge wei wu</i>, \"to stop the fighting is the true martial virtue,\" is a classical gloss on the character for \"martial\" (<i>wu</i>), analyzed as \"stop\" plus \"weapon.\""
+    },
+    {
+      "anchor": "Han Liancheng, vanished from the field",
+      "note": "Han Liancheng, the \"invisible general,\" was a secret Communist inside the Nationalist high command. His disappearance from the Reorganized 46th Division at Laiwu in February 1947 helped collapse the Nationalist line; he surfaced only later as a PLA officer. Corroborated."
+    },
+    {
+      "anchor": "the great scholar who drafted this manifesto for him, Yan Youwen",
+      "note": "One of the best-documented ironies of the period: Fu Zuoyi's fierce open telegram against Mao was ghostwritten by his own secretary Yan Youwen, a secret Communist, who wrote it deliberately harsh on Zhou Enlai's instruction, to inflame the Liberated Areas and swell Fu's conceit."
+    },
+    {
+      "anchor": "the manifesto Chen Lin drafted against Cao Cao in the Three Kingdoms",
+      "note": "Two famous denunciatory manifestos (<i>xi</i>) of Chinese letters: Chen Lin's third-century proclamation against the warlord Cao Cao, and the Tang poet Luo Binwang's against the usurping empress Wu Zetian. To liken Fu Zuoyi's telegram to them is high praise for its rhetoric."
+    },
+    {
+      "anchor": "four statues: Wu Shi, Zhu Feng, Chen Baocang, and Nie Xi",
+      "note": "The Wu Shi case, the Communists' deepest penetration of Nationalist Taiwan. Wu Shi, a lieutenant general and deputy chief of the general staff, passed Taiwan's defense plans to the mainland; the courier Zhu Feng, the lieutenant general Chen Baocang, and the lieutenant colonel Nie Xi were his group. All four were shot at Machangding in Taipei on June 10, 1950. They are commemorated at the Nameless Heroes Plaza opened in the Western Hills of Beijing in 2013. Corroborated."
+    },
+    {
+      "anchor": "The wind blows chill over the Yi River",
+      "note": "The parting song of the assassin Jing Ke, who in 227 BC set out to kill the king of Qin knowing he would not return: \"The wind blows chill, the Yi River is cold; once the brave man leaves, he comes back no more.\" Wu Shi recites it on the eve of a mission he expects will cost his life."
+    },
+    {
+      "anchor": "In East China there was the martyr Li Bai",
+      "note": "Li Bai (no relation to the Tang poet) was a Communist radio operator in Shanghai, seized and executed just before the city fell in 1949. His story became the celebrated film <i>The Unfailing Radio Wave</i>."
+    },
+    {
+      "anchor": "the rape of the Peking University student Shen Chong",
+      "note": "The Shen Chong incident: the rape of a Peking University student by U.S. Marines in Beiping on Christmas Eve 1946 touched off nationwide anti-American student protests, which the Communists turned into a \"second front\" in the cities."
+    },
+    {
+      "anchor": "beat back Lin Biao's forces at the battle of Siping",
+      "note": "At Siping in 1947 Chen Mingren's stubborn defense inflicted heavy losses on Lin Biao's army, one of the rare Nationalist successes of the Northeast war. Two years later Chen led his troops over to the Communists in Hunan, the propaganda value of a Central Army general defecting being the point the author makes here."
+    },
+    {
+      "anchor": "used fellow-townsman ties to recruit Liu Jinchang",
+      "note": "The source names both the Nationalist Baoding station chief and the deserter he recruits \"Liu Jinchang.\" This is almost certainly a slip in the original; the two are distinct people. Rendered as printed."
+    }
+  ]
 }
