@@ -3567,3 +3567,99 @@ of staff whose surname the source prints as a garbled glyph (鿄述哉) rendered
   杨x芳 "Yang ——fang", z112 李xx "Li ——"); variant/rare glyphs 价値/価値 (值), 鬪 (斗), 尙 (尚), 刼
   (劫), 躭 (耽), and a garbled surname glyph 鿄 in 鿄述哉, rendered "—— Shuzai". Many dropped 。
   mid-<p>. All rendered to plain sense; none is a reading uncertainty.
+
+---
+
+## Batch B30 (ch37 = 第五章 兵连祸结 民不聊生, the FIFTH Part-Four narrative chapter)
+
+"Chapter 5. War Unending, the People Destitute." Three sections: ch37s01 "The Fall of Shimen:
+100,000 Communist Troops Attack, a Few Thousand Nationalists Hold On"; ch37s02 "Different Ground:
+Welcomed Here, Shunned There"; ch37s03 "A Bitter Fight: Local Corps against the Communist Militia."
+The fall of Shimen and the terror that followed (from Lu Deming's contributed account); the North-
+Suburb Group welcomed while the West-Suburb Group was shunned by the North China Bandit-Suppression
+HQ on its own side; and Tian Yingjie's first-person narrative of the October 1948 night battle of
+Lishuiqiao between the Daxing local corps and the Communist militia.
+
+### Structure
+- drop=2 (running header 英雄无名-陈恭澍 + <h2> chapter title). Byte-exact p-by-p diff against the
+  source XHTML: 1 <h2> + 3 <h3> (section heads 一/二/三) + 144 <p>, ZERO mismatches; NO <h1>/<br/>/
+  <img>/[\d+], 0 images. File has NO trailing newline (149 lines; wc -l counts 148); after drop=2 the
+  txt has 147 body lines = 3 <h3> heads (raw 1-based L11/L43/L90) + 144 <p>. standalone=[11,43,90].
+- NO severed-<p> merges. The two glitch-masked ！-ending candidates are BOTH complete separate
+  sentences, not mid-predicate severs (L79 ...不满。！ with a doubled 。！ then L80 a new sentence
+  headed by a stray ︸; L91 ...摩星岭之役！ closes a title, L92 opens with an orphaned 。 then a NEW
+  sentence). NO ch36-class source-duplication (the near-duplicate scan found nothing >0.6).
+- 144 body paragraphs. median ratio 5.50 en/han (document/quote-heavy: two long contributed
+  first-person accounts plus an embedded doggerel song). Alignment OK (no pair strays >2.2x).
+
+### Checks (all green)
+- verify_unit ch37: parity OK; numbers 0 unresolved (after the noise additions below); anchors OK.
+- check_align: median 5.50, OK. check_structure: ALL PASS (327 notes, 0 unresolved). check_content:
+  ch37 138 name occurrences, 0 DISPLACED (the ch08/09/13/26 lines are the documented pre-existing
+  artifacts). qc_entities: 0 misses (census top: 立水桥 x27, 北平 x23, 石门 x14, 常绍曾 x10). Tail
+  verified against source (the grim well/corpse close of section 3 is faithful and complete).
+  check_register --ref: within tolerance ("shall" deliberate). check_apparatus: 0 failures.
+  qa_epub: PASS (37/43 chapters, 327 notes). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings.
+
+### Notes (8 new; 327 cumulative) — all first-appearance, none re-noted
+1. Province one-character abbreviations (晋/察/冀/鲁/豫 = Shanxi/Chahar/Hebei/Shandong/Henan) and the
+   Communist wartime "border regions" (anchor "Jin-Ji-Lu-Yu Border Region").
+2. 三光部队 "Three-Alls Force" (rendered "Strip-It-Clean Force"): the Japanese scorched-earth slogan
+   turned on the corrupt Nationalist takeover officials (anchor "Strip-It-Clean Force").
+3. 风萧萧兮: Jing Ke's Yi River parting song (Jing Ke himself covered at ch18) (anchor "The wind blows
+   bleak").
+4. Du Xinwu (杜心五) and the sworn brotherhoods 洪门 (Hongmen) / 青帮 (Green Gang), 龙头 "dragon head",
+   the 大字辈 seniority generation (anchor "Du Xinwu of Cili in Hunan").
+5. The "Four Great Dan" (四大名旦) of Peking opera and Cheng Yanqiu's post-1949 leftward turn (anchor
+   "Four Great Dan").
+6. The "chicken-feather letter" (鸡毛信) urgency-grading of village post, matchstick = most urgent
+   (anchor "chicken-feather added").
+7. The baojia (保甲) household mutual-responsibility system, the base tier the pacification unit and
+   the Communists alike worked through (anchor "baojia office").
+8. Moxingling (摩星岭, Mount Davis, Hong Kong) and the 1950 refugee-leftist clash behind Bai Jiaqi's
+   piece (anchor "The Battle of Moxingling").
+- Zhao Zilong/赵子龙 deliberately NOT noted (Zhao Yun's Changban feat already covered at ch17).
+  复兴社/Renaissance Society (Blue Shirts), Wang Kemin, the Double Tenth, the Youth Army, the Green
+  Gang's generation ranks, Jing Ke, and the Loyal-and-Patriotic-Army/Luan-Yu HQ furniture all
+  already covered and NOT re-noted.
+
+### Glossary (12 net-new keyed rows; add_ch37_glossary.py)
+- People (provisional): 常绍曾 Chang Shaozeng (North-Suburb Group leader, three quoted accounts;
+  graduated from inline in ch36), 田英杰 Tian Yingjie (the Lishuiqiao "Captain Tian", battle account
+  author), 卢德明 Lu Deming (Shimen account author), 刘子元 Liu Ziyuan (Daxing self-defense brigade
+  cmdr), 冯玉柱 Feng Yuzhu (successor North-Suburb Group leader), 王抚洲 Wang Fuzhou (Third-Route-Army
+  manager, later Taiwan vice-minister), 白家祺 Bai Jiaqi (Lt Col, the Guohun-song author), 杜心吾
+  Du Xinwu (the Cili martial-arts master; source spells 心吾 for 心五), 程艳秋 Cheng Yanqiu (the opera
+  dan; also 程砚秋).
+- Places (decided): 立水桥 Lishuiqiao, 大兴 Daxing, 赵家坟 Zhaojiafen.
+- Reused the whole B01-B29 keyed cast and Part-Four vocab. 郑恩普 Zheng Enpu already keyed. INLINE,
+  NOT keyed (glossary-key discipline): the Shimen defenders 罗历戎/李文定/刘英/刘清池/赵劲军/侯子固; the
+  Communist figures 杨得志/杨成武/刘伯承/杨秀峰/薄一波/黄敬(俞启威); the training roster 钱致伦/王忠/尹东耕/
+  阎尚新; the Ninth-Route staff 齐庆斌/张克新/陈肇基/骆永康; the Lishuiqiao-night names 米仁甫/马良知/
+  李志达/路焕仲, the grooms 庄飞/杨天铎/张岳生, 王镇吾 (Wang Fuzhou's alt name), 白世维; the villages 望都/
+  北湖渠/仰山/昌平/怀柔/北苑/路家坟/勇士营/羊房/白家坟/谢格庄/林南仓/宝坻/玉田/平原/禹城/德州/海淀/门头沟/
+  西山/万寿山/八达岭/十三陵 and the Beiping lanes 府学胡同/东观音寺胡同/沈篦子胡同/煤渣胡同/东直门.
+
+### data/noise.txt — B30 additions (7)
+- **二十多** (approximate "twenty-odd provinces"; the built-in 多 rule can orphan the leading 二).
+- **二流子** (slang "idler/ne'er-do-well", 二). **一两百** (approximate range "a hundred or two apiece").
+- **八达岭** (place-name numeral Badaling, 八). **万寿山** (place-name numeral Wanshou Hill, 万).
+- **二〇八** (the 208th Division designation; the 〇 mis-read glyph orphans 二/八 — carried "208th
+  Division"). **两淡** (idiom 名利两淡 "indifferent alike to fame and gain"; 两 = "both", not the count 2).
+- All REAL quantities carried as DIGITS/words: 10,000 / 100,000 / 600,000 / 25,000,000 troops and
+  population, the Lishuiqiao counts (three militia brigades ~1,100-odd; 11 dead + 27 wounded local
+  corps, 1 dead + 1 missing + 3 wounded assault team; ~30-odd enemy corpses); ROC years 22/26/27/28/
+  36/37/38/40 matched by ordinal or +1911; the 0760 unit code and 208th Division carried literally.
+
+### Digitization glitches (rendered to plain sense; none footnoted — mechanical)
+- **ch37:** stray ！ standing for a closing 」 (z4 抗日杀奸团！, z90 摩星岭之役！, z79 doubled 。！);
+  stray closing/opening presentation glyphs ︸ for 「 (z80 ︸西郊混合组, z130 ︸我一口气) and ⋮ for 」
+  (z78 撤销⋮, z127); orphaned 。 heading z92 (the 摩星岭之役 sentence's stop displaced onto the next
+  <p>); enumeration-marker glitches in Lu Deming's numbered document — 工/口 for 一/二 (z14/z15),
+  凵/| for （一）(z18), 闫 for 三 (z33), 出 for 七 (z38); stray 》 mid-clause (z38 出有甚于此的》); stray
+  glyphs 〕(z104), ≥ (z124), | (z128 法宝|), }/| (z81 往事了|}); 。令 for 口令 (z129 dropped 口);
+  单-char substitutions 价値/価値 (值), 混身 (浑身, z38), 境丙 for 境内 (z98), 匪一军 (stray 一, z113);
+  variant/rare glyphs 鄕 (乡), 覇 (霸), 鬪 (斗), 尙 (尚), 槪 (概), 擧 (举), 楡 (榆), 郞 (郎), 鎗 (枪),
+  毘 (毗), 艶 (艳, in 程艶秋), 坁 (坻, in 宝坁), 天家 for 大家 (z77); the 〇 mis-read glyph in the 0760
+  unit code (z73/z143) and the 二〇八 Division (z75/z76); x redactions (z54 第x团, 王xx). Many dropped
+  。 mid-<p>. All rendered to plain sense; none is a reading uncertainty.

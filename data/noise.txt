@@ -885,3 +885,26 @@
 # Personal name printed with a numeral-glyph glitch: 张建二 for 张建三 (Zhang Jiansan,
 # ch36; the source misprints 三 as 二); the 二 is part of the garbled name, not a count.
 张建二
+# Approximate count 二十多个省份 "twenty-odd provinces" (ch37): the built-in 多 rule
+# can orphan the leading 二; carried in English as "twenty-odd," an approximation,
+# not the literal composed value 2.
+二十多
+# Term 二流子 "idler / ne'er-do-well" (ch37): the 二 is part of the slang epithet
+# (a lounging local ruffian), not the count 2.
+二流子
+# Approximate range 一两百人 "a hundred or two apiece" (ch37): the source hedges
+# 100/200, carried in English as "a hundred or two," not tracked composed values.
+一两百
+# Place-name numeral 八达岭 "Badaling" (ch37): the 八 (8) is part of the pass's name
+# (Badaling on the Great Wall), not the count 8.
+八达岭
+# Place-name numeral 万寿山 "Wanshou Hill" (ch37): the 万 (10000) is part of the
+# hill's name (the Hill of Longevity at the Summer Palace), not the count 10000.
+万寿山
+# Unit-designation numeral 二〇八(师) "the 208th Division" (ch37; the source prints
+# the mis-read glyph 〇 for the zero, so the checker cannot read 208 whole and
+# orphans 二/八): carried in English as "208th Division," not the counts 2 and 8.
+二〇八
+# Idiom 名利两淡 "indifferent alike to fame and gain" (ch37): the 两 here means
+# "both / the pair," carried in English as "alike to fame and gain," not the count 2.
+两淡

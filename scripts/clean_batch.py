@@ -874,6 +874,41 @@ UNITS = {
         "glued": {}, "glued_head": {},
         "standalone": [18, 71, 108, 154],
     },
+    "ch37": {
+        "file": "38_index-split-000-0036.txt",
+        "title": "第五章 兵连祸结 民不聊生",
+        # drop=2: running header 英雄无名-陈恭澍 + <h2> chapter title. Confirmed
+        # byte-exact p-by-p against the source XHTML: 1 <h2> + 3 <h3> (the three
+        # section headings 一、/二、/三、) + 144 <p>, ZERO mismatches; no <h1>, no
+        # <br/>, no <img>, no [\d+] note markers, 0 images. The file has NO
+        # trailing newline, so it is 149 lines (wc -l counts 148 newlines);
+        # after drop=2 the txt has 147 body lines = 3 <h3> heading lines (raw
+        # 1-based L11/L43/L90) + 144 <p>. The three <h3> are their OWN elements
+        # -> standalone (### ), not glued. NO source-duplication artifact (unlike
+        # ch36; the near-duplicate scan found nothing >0.6).
+        # NO severed-<p> boundaries. The two glitch-masked ！-ending candidates
+        # are BOTH separate complete sentences, NOT mid-predicate severs, so
+        # they stay their own lines:
+        #  - L79 (...而遭受其他单位的不满。！) ends a complete sentence with a
+        #    doubled 。！ glitch; L80 (︸西郊混合组﹂，也就从此撤回了。, a stray
+        #    closing-glyph ︸ heading a new sentence) is a separate paragraph.
+        #  - L91 (...连续发表过一篇﹁摩星岭之役！) — the ！ stands for the title's
+        #    closing 」; the predicate "published a piece 'The Battle of
+        #    Moxingling'" is complete; L92 begins with an ORPHANED 。 then a NEW
+        #    sentence (内容写的是...), so no merge.
+        # The other ！？-ending lines (L39/L41/L77/L114/L117/L119/L126) are
+        # genuine terminal rhetorical questions/exclamations. INNER enumerations
+        # and the embedded song verse (L92-L93) stay as BODY lines per parity.
+        # Digitization glitches (rendered to plain sense, listed in PROGRESS):
+        # stray ！ for a closing 」 (L4 抗日杀奸团！, L79 doubled 。！, L91
+        # 摩星岭之役！), stray closing/opening presentation glyphs (L79 ⋮ for 」,
+        # L80 ︸ for 「), orphaned 。 at head of L92, mismatched guillemets
+        # ﹃/﹁/﹂, single-char substitutions.
+        "drop": 2,
+        "merges": [],
+        "glued": {}, "glued_head": {},
+        "standalone": [11, 43, 90],
+    },
 }
 
 
