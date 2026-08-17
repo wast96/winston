@@ -4,11 +4,11 @@
 
 > Paste this VERBATIM to start the next batch. It is the only bridge between
 > conversations; HANDOFF/PROGRESS/book.json describe the state, but the pages
-> are the voice, so read the last two pages of ch08's English (and ch01, the
-> frozen register reference) before drafting ch09.
+> are the voice, so read the last two pages of ch09's English (and ch01, the
+> frozen register reference) before drafting ch10.
 
 ```
-Sword Roars B11 Chapter Nine
+Sword Roars B12 Chapter Ten
 
 Read CLAUDE.md, then HANDOFF.md, then book.json, then STYLE.md and
 STYLE.local.md. In STYLE.local.md the top section "THE REGISTER REBASELINE
@@ -18,47 +18,45 @@ claude/the-sword-roars (the canonical book branch; if the harness starts you on
 a stray per-task branch, consolidate per CLAUDE.md rule 2 and delete the stray,
 local and remote). Run ./setup.sh first.
 
-STATE: B10 is done. Two new builder features are in and shipping: a back-matter
-GLOSSARY OF RECURRING TERMS (rows flagged recurring:true in glossary.json) and a
-STREET GAZETTEER (places flagged gazetteer:true with a today field). The footnote
-apparatus sweeps are done: mid-phrase markers moved to their clause end across
-ch01-ch08; ch01 thinned 116->91 notes (passing warlords/minor glosses cut, every
-dropped item still in the glossary); ch07 +6 and ch08 +6 first-appearance notes,
-plus a War-of-Resistance note in ch01; 290 notes total, densities evened (ch01
-174, ch08 634 words/note, ch01 outlier fixed). The spine-test pass split the four
-genuine long-narration offenders (2 ch08, 1 ch01, 1 ch07); the rest over 90 words
-are exempt quoted-document / anaphora / list sentences. EPUB rebuilt
-(out/sword-roars.epub), qa_epub PASS, epubcheck 0/0/0/0.
+STATE: B11 is done. Chapter Nine ("The Riddle of Xiang Zhongfa's Disappearance,"
+ch09, PDF 208-235, printed 193-220, 194 paragraphs, 9 sections) is drafted end to
+end against the frozen doc: hand-transcribed off the 300-DPI images (OCR too noisy
+on the names), rendered in ch08's sardonic source-criticism register with each
+source's own words kept and verdicts in the notes; 27 footnotes (book total 317),
+5 hand-cropped figures, 95 new glossary rows, 善钟路 added to the gazetteer, ch09
+added to data/content_config.json. All checks green: parity 194=194, numbers 0
+unresolved, content/entities clean, qa_epub PASS, epubcheck 0/0/0/0, register within
+tolerance. See PROGRESS.md "B11" for the "NOT re-noted" list and the settled
+renderings (向忠发 Xiang Zhongfa, 黄慕兰 Huang Mulan, the Delle Motor Garage, the June
+3 1932 Comintern report canonical form, etc.).
 
-This batch's job: DRAFT CHAPTER NINE (ch09, "The Riddle of Xiang Zhongfa's
-Disappearance," PDF 208-235, printed 193-220) end to end against the frozen doc.
-Groundwork from B10: offset a constant 15 (printed = pdf - 15), verified at
-folios 195/196/197; read each opener's folio off the scan. Re-render and re-OCR
-(data/png and data/zh are gitignored, gone on a fresh checkout):
-render.py 208 235 --dpi 300, then ocr_crop.py 208 235 --left 0.06 --right 0.95
---top 0.11 --bottom 0.955 --lang chi_sim --psm 6. OCR is TOO NOISY on the proper
-names (向忠发, 陈志皋, 黄慕兰, 探勒车行 all mangled), so hand-transcribe
-data/zh/ch09.txt off the 300-DPI page images directly (data/png/p####.png), one
-paragraph per line, chapter title and section heads as ### (the B08 method; OCR
-is a cross-check, not the source). book.json carries ch09's 9-section structure
-(openers at PDF 209,210,214,216,220,225,229,231,233). Section 2 has a portrait of
-黄慕兰 (Huang Mulan) on p0211 -> a figure for figures.json (hand-crop, exclude the
-printed caption, translator's caption with source-label provenance). The chapter
-is source-CRITICAL: it weighs contested accounts of Xiang Zhongfa's capture (the
-Huang Mulan memoir vs others) and of whether he broke under interrogation, and is
-skeptical of the "secret cable"; render it in ch08's sardonic source-criticism
-register, keep each source's own words, put the verdict in the note (corroborated
-/ uncorroborated / contradicted). Add ch09 to data/content_config.json.
+This batch's job: DRAFT CHAPTER TEN (ch10, "Opening a Shop, Doing Trade," PDF
+236-247, printed 221-232, 2 sections: s1 一、这个人不简单 "No Ordinary Man" PDF 237,
+s2 二、第一桶金 "The First Pot of Gold" PDF 242) end to end against the frozen doc.
+Offset a constant 15 (printed = pdf - 15); read each opener's folio off the scan.
+Re-render and re-OCR (data/png and data/zh are gitignored, gone on a fresh
+checkout): render.py 236 247 --dpi 300, then ocr_crop.py 236 247 --left 0.06
+--right 0.95 --top 0.11 --bottom 0.955 --lang chi_sim --psm 6. OCR is TOO NOISY on
+the proper names, so HAND-TRANSCRIBE data/zh/ch10.txt off the 300-DPI page images
+directly (data/png/p####.png), one paragraph per line, chapter title and section
+heads as ### (the B08/B11 method; OCR is a cross-check, not the source). The
+chapter divider (PDF 236) is design furniture, not a captioned figure; eyeball
+every page for real photos/line art and hand-crop any (exclude the printed
+caption, translator's caption with source-label provenance, real alt text). Add
+ch10 to data/content_config.json.
 
-BEFORE translating, read the final two pages of ch08's English (the voice). Read
+BEFORE translating, read the final two pages of ch09's English (the voice). Read
 the zh against the en on every line; change register, never meaning; invent
 nothing (CLAUDE.md rule 4; verify the TAIL of the unit explicitly against the
-scan -- this chapter's tail is the highest-stakes source-criticism). Cite printed
-folios, never PDF pages. Then footnotes at reader-model density (consult the
-"NOT re-noted" lists; grep notes.json before adding); glossary rows straight into
-the sectioned ledger, consulting authority.json first; run verify_unit,
-check_align, check_content, check_apparatus, and check_register --ref
-out/ch01_reading.md (informational). Rebuild, run qa_epub and epubcheck.
+scan). Cite printed folios, never PDF pages. Then footnotes at reader-model
+density (consult the "NOT re-noted" lists in PROGRESS; grep notes.json before
+adding); glossary rows straight into the sectioned ledger (en ASCII only),
+consulting authority.json first; flag any NEW recurring institutional term
+recurring:true and any NEW concession street gazetteer:true+today. Run
+check_structure --pairs, verify_unit, make_bilingual + qc_entities, check_align,
+check_content --config data/content_config.json, apparatus_merge + check_apparatus,
+and check_register --ref out/ch01_reading.md (informational). Rebuild, run qa_epub
+and epubcheck (jar at /tmp/epubcheck-5.1.0/epubcheck.jar).
 
 Do it end to end; do not pause for approval. Deliver the rebuilt EPUB attached in
 the chat, and paste the next kickoff verbatim in the same reply.
@@ -72,11 +70,17 @@ the chat, and paste the next kickoff verbatim in the same reply.
 - **B09 review:** register-rebaseline style doc + itemized corrections ch01-ch08.
 - **B09 continuation:** register de-archaizing pass over ch01-ch08; dates
   month-day-year book-wide.
-- **B10 (this batch):** two new builder features (Glossary of Recurring Terms +
+- **B10:** two new builder features (Glossary of Recurring Terms +
   Street Gazetteer); footnote placement sweep (mid-phrase markers -> clause end,
   ch01-ch08); ch01 thinned 116->91; ch07/ch08 backfilled (+6/+6) + ch01 +1;
   spine-test pass (4 genuine long-narration sentences split); 290 notes. ch09 set
   up and deferred to its own batch (rule 4). See PROGRESS.md "B10".
+- **B11 (this batch) = ch09:** "The Riddle of Xiang Zhongfa's Disappearance," 194
+  paragraphs, 9 sections, PDF 208-235. Hand-transcribed off the images; drafted in
+  ch08's source-criticism register; 27 notes (book 317), 5 figures, 95 glossary
+  rows, 善钟路 -> gazetteer. All checks green, epubcheck 0/0/0/0. See PROGRESS.md
+  "B11" (incl. the "NOT re-noted" list). ch10-ch15, the Preface, and back matter
+  remain.
 
 ## Tooling in place (DO NOT REVERT)
 - **build_reading_epub.py:** `render_recurring` (Glossary of Recurring Terms, from
@@ -157,13 +161,15 @@ the chat, and paste the next kickoff verbatim in the same reply.
   **Party leaders / descendants in interview** clipped, factual, contracted.
 
 ## Where the story stands
-Chapters One-Eight are drafted, de-archaized, and now carry the B10 apparatus and
-spine work. Chapter Nine, "The Riddle of Xiang Zhongfa's Disappearance," is the
-direct sequel to Eight: Gu Shunzhang's defection exposes the CCP General Secretary
+Chapters One-Nine are drafted. Chapter Nine, "The Riddle of Xiang Zhongfa's
+Disappearance," is now done: Gu Shunzhang's defection exposes CCP General Secretary
 Xiang Zhongfa, seized at the Delle Motor Garage near Jing'an Temple on June 22,
-1931, and executed in Shanghai days later; the chapter weighs the contested
-sources on how he fell and whether he broke, and is skeptical of the "secret
-cable." It is source-critical throughout, like Eight.
+1931, and executed in Shanghai days later; the chapter weighs the contested sources
+on how he fell and whether he broke, and finds the "secret cable" real after all
+(the author turns up Chiang's June 23 telegram in the Shilüe Gaoben). Chapter Ten,
+"Opening a Shop, Doing Trade" (ch10, PDF 236-247), is next: it turns from the
+traitor-hunt to the Party's own commercial front (running businesses as cover and
+to fund the underground). Two sections; read the ch08/ch09 voice sheet forward.
 
 ## Open traps / environment
 - `data/zh/` and `data/png/` are gitignored; a fresh checkout has neither.
@@ -174,8 +180,11 @@ cable." It is source-critical throughout, like Eight.
 - `OMP_THREAD_LIMIT=1` mandatory for tesseract; `pgrep -c tesseract` = 0 after
   OCR. epubcheck jar at /tmp/epubcheck-5.1.0/epubcheck.jar (setup fetches).
 - `authority.json` is updated on WHOLE-BOOK completion, not per batch.
-- Still UNTRANSLATED: ch09 (next batch), ch10-ch15, the Preface (ch00, PDF 6-15),
+- Still UNTRANSLATED: ch10 (next batch), ch11-ch15, the Preface (ch00, PDF 6-15),
   and back matter (Works Cited ch16, Afterword ch17). They fold into later batches.
+  ch09's data/zh and data/png are gitignored (gone on a fresh checkout); the tracked
+  deliverables (out/ch09_reading.md, notes/glossary/figures, the built EPUB) are
+  complete. ch10 drafting needs a fresh render + hand-transcribe from source.pdf.
 - Branch hygiene: canonical branch is `claude/the-sword-roars`. B10 started on a
   stray `claude/sword-roars-footnote-apparatus-i98qi6` (identical to canonical
   origin); consolidated and the stray deleted, local and remote.

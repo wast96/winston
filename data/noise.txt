@@ -239,3 +239,21 @@
 垂涎三尺
 # 三四十年代 "the 1930s and 1940s" — rendered as the two decades; 三四十 not a count
 三四十年代
+#
+# --- B11 / ch09 block: idiom, decade-label, and idiomatic-time numerals ---
+# 百科全书 "encyclopedia" (我党一部百科全书) — 百 not a count
+百科全书
+# 一来二去 "one thing led to another" (idiom) — 二 not a count
+一来二去
+# 四顾无人 "glanced around, no one about" (idiom) — 四 not a count
+四顾无人
+# 30年代 "the 1930s" (decade label) — rendered "the mid-1930s"; not a count
+30年代
+# 八卦 "gossip" (idiom, lit. eight trigrams) — 八 not a count
+八卦
+# 颠三倒四 "muddled/incoherent" (idiom) — 三/四 not a count
+颠三倒四
+# 8时45分 "a quarter to nine" (8:45) — idiomatic time, value carried in words
+8时45分
+# 9点3刻 "a quarter to ten" (9:45) — idiomatic time, value carried in words
+9点3刻

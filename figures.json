@@ -308,5 +308,37 @@
       "alt": "A photograph of a handwritten Chinese archival document, a ruled table listing arrested persons' names, dates and places of arrest, officers in charge, and dispositions.",
       "caption": "A case-list from the detection section of the Kuomintang's Wuhan field headquarters. First on this old file is You Chongxin (original name You Wuhun) who, before defecting and selling out Gu Shunzhang, had been a district Party secretary in Shanghai; the fourth entry, 'Hua Guangqi,' is annotated 'i.e. Gu Shunzhang.' (The caption renders the source's own.)"
     }
+  ],
+  "ch09": [
+    {
+      "file": "ch09-huang-mulan.png",
+      "before": "About Xiang Zhongfa's arrest",
+      "alt": "A black-and-white studio portrait of a young woman with short marcelled hair, in a patterned silk cheongsam, looking calmly at the camera.",
+      "caption": "Huang Mulan. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch09-zhou-huinian.png",
+      "before": "Zhou Huinian was a veteran of the Central Special Branch",
+      "alt": "A black-and-white photograph of two young women in pale gowns standing side by side, one holding a shallow bowl.",
+      "caption": "Zhou Huinian (left) with Zhang Yuexia. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch09-bao-manuscript.png",
+      "before": "Bao Jinyuan once gave me a copy",
+      "alt": "A page of handwritten Chinese in blue ink, headed with a title, being a manuscript account of underground work.",
+      "caption": "A portion of the manuscript “A Brief Account of Bao Wenwei's Part in the Underground Struggle Against the Enemy.” (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch09-bao-wedding.png",
+      "before": "In April 1991 Bao Wenwei died of illness",
+      "alt": "A black-and-white wedding portrait of a bespectacled young woman in a pale gown and a bespectacled young man in a dark tunic.",
+      "caption": "The wedding photograph of Bao Wenwei and Liang Zhifen, 1935. (The label is the source's; the caption is the translator's.)"
+    },
+    {
+      "file": "ch09-wuhan-1927.png",
+      "before": "In early 1927, when the Kuomintang right wing",
+      "alt": "A black-and-white group photograph of about a dozen men and women posed before foliage, some in gowns, some in plain jackets.",
+      "caption": "Wuhan, 1927: Xiang Zhongfa (front row, sixth from left), Xu Baihao (back row, first from left), Li Lisan (back row, second from left), and others. (The labels are the source's; the caption is the translator's.)"
+    }
   ]
 }

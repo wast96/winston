@@ -2,6 +2,107 @@
 
 The running per-batch log. Written as we go.
 
+## B11 — Chapter Nine "向忠发失踪之谜 / The Riddle of Xiang Zhongfa's Disappearance" (ch09)
+
+- **Scope.** PDF 208-235, printed 193-220. Nine sections ch09s01-s09 (openers at
+  PDF 209,210,214,216,220,225,229,231,233; folios read off the scan at each; offset
+  held a constant 15). The chapter divider p0208 is design furniture. 194 body
+  paragraphs. The direct sequel to ch08: how CCP General Secretary Xiang Zhongfa
+  fell (seized at the Delle Motor Garage near Jing'an Temple, June 22, 1931) and
+  whether he broke, weighed across a dozen contested sources; skeptical of the
+  "secret cable."
+- **Source recovery.** data/zh/ch09.txt HAND-TRANSCRIBED off the 300-DPI page
+  images (OCR too noisy on the proper names — 向忠发/陈志皋/黄慕兰/探勒车行 all mangled,
+  as the B10 kickoff warned); OCR (chi_sim psm6, crop 0.06/0.95/0.11/0.955) kept as
+  the cross-check only. Chapter title marked `###` per the parity gotcha. Parity
+  exact: 194 = 194 (check_structure --pairs).
+- **Register.** Drafted straight against the frozen doc (STYLE.local top sections):
+  modern-neutral narration, contractions by ear, no inversions, ch08's sardonic
+  source-criticism voice kept, each source's own words preserved, verdicts in the
+  notes. Read the final two pages of ch08 first. The author's three anaphoric
+  "为什么…呢？" (Why…?) attacks on Pan Hannian/Mu Xin (s5) and his sardonic
+  scare-quoting of the Huang Mulan memoir (s2) preserved as load-bearing voice.
+- **Checks, all green.** parity 194=194; verify_unit numbers 0 unresolved (--noise;
+  a B11 block appended: 百科全书, 一来二去, 四顾无人, 30年代, 八卦, 颠三倒四 as idiom/decade
+  numerals, and the two idiomatic times 8时45分/9点3刻 whose exact value the English
+  carries in words — "a quarter to nine/ten"; two real counts carried in the
+  English instead of noised: 两人 "the two of them", and 8:45/9:45 preserved as
+  clock times where the source gives 分); check_align median 4.55 en/han, no pair
+  > 2.2x; check_content 493 name occurrences all in the paired paragraph (ch09
+  added to data/content_config.json; three initial displacement flags fixed —
+  named Huang Mulan in two pronoun-run paragraphs, and rendered 静安寺路底 "the
+  Jing'an Temple end of Bubbling Well Road" so the 静安寺 substring resolves);
+  qc_entities 0 misses; check_apparatus 0/0; anchors 27+5 all resolve; build PASS
+  (9/18 chapters, 317 notes); qa_epub PASS (88 files); epubcheck 5.1.0 0/0/0/0;
+  check_register --ref out/ch01_reading.md within tolerance (dialogue contraction
+  1.5/1k / 4.88x is the reportage artifact — this chapter runs heavily on quoted
+  memoir/confession/interview; narratorial signals on-reference: em-dash 4.7/1k,
+  sent median 24, shall 0%).
+- **Tail verification (rule 4 corollary).** The s9 close (the June 23 telegram in
+  the Shilüe Gaoben, "这有点奇怪吗？我们觉得很正常", and the "示复密电"依然"存在" verdict)
+  re-read against p0235; faithful, nothing invented. 向中（忠）发 rendered "Xiang
+  Zhong[fa]" preserving the telegram's own typo-and-correction.
+- **Footnotes: 27 new** (unit total 27; book 317), first-appearance, reader-model,
+  verdicts in the note. The headline fact-checks: Xiang Zhongfa's identity and the
+  defection question (standard accounts + the Party's own 1988 Deng Yingchao / Chen
+  Yun verdict hold he confessed; the Zhang Ji'en "forgery" dissent noted;
+  arrest+execution not in doubt, extent of betrayal contested); and the tail's
+  "secret cable" (CORROBORATED — the author found Chiang's actual June 23 telegram
+  in the Shilüe Gaoben). Plus first-appearance notes on Huang Mulan, Guan Xiangying,
+  the Grand Theatre, Hua Mulan, the two great novels, Dong Biwu, Wan Xiyan, He Chang,
+  Chen Zhigao, Aurora University, the North China Political Security Bureau, Moskvin
+  (= Zhou's Comintern codename), the Metropole, the Yong'anli safe house, Bao Wenwei,
+  He Xiangning/Liao Chengzhi, the Hanyeping Company, the Feb 7 1923 Jinghan strike,
+  Luo Zhanglong, Pavel Mif, the Suguangcheng tailor-shop pun, Yang Hu, Mount Lu,
+  *The Turn*/the Confession, Qin Bangxian (Bo Gu).
+- **NOT re-noted (already placed earlier) — cross-referenced, not re-noted:** Gu
+  Shunzhang, Zhou Enlai, Chen Yun, Kang Sheng, Pan Hannian, Chen Geng, Li Qiang,
+  Xu Enzeng (ch01/ch08); Wang Ming, the Eyuwan Soviet (ch08); Xiong Shihui (ch07);
+  Deng Yingchao, Tan Zhongyu (ch01); the Central Special Branch / Red Squad /
+  dog-beating squad (ch01); the Zhongtong (ch04); the Mixed Court (ch03); Avenue
+  Joffre (ch03/04); Jing'an Temple / Bubbling Well Road (ch07); May Thirtieth,
+  Nanchang Uprising, the Nineteenth Route Army, the White Terror, Tan Sitong,
+  the May Fourth Movement, Chiang Kai-shek / Wang Jingwei / Chen Duxiu / Sun
+  Yat-sen / Mao Zedong / Zhang Guotao, Ren Bishi (ch01); the August 7 Conference
+  (ch02); the Sixth Congress + Zvenigorod (ch01/ch06); the Fourth Plenum (ch05);
+  the Mutual Aid Society / Red Aid (ch02); the All-China Federation of Trade Unions
+  (ch07); Li Lisan the man (ch06/07); the Long March (ch07); the June 3 1932
+  Comintern report (ch01, cited again here); *Lurk* / Yu Zecheng / Wang Cuiping
+  (ch01, the note already forward-refs "invoked later in this chapter").
+- **Figures: 5** (`data/figs/ch09-*.png`, hand-cropped, printed captions excluded,
+  translator's captions with source-label provenance, real alt text): the Huang
+  Mulan portrait (s2, p0211/folio 196); Zhou Huinian with Zhang Yuexia (s4, p0219);
+  the *Bao Wenwei underground-work* manuscript facsimile (s5, p0221); the Bao
+  Wenwei / Liang Zhifen 1935 wedding photo (s5, p0223); the 1927 Wuhan group photo
+  with Xiang Zhongfa / Xu Baihao / Li Lisan (s6, p0226). find_figures not relied on;
+  every page eyeballed. The B10 kickoff flagged only the Huang Mulan portrait; the
+  other four were found by eye per CLAUDE.md.
+- **Glossary: 95 new rows** (people/places/organizations), written straight into the
+  sectioned ledger and re-read verified; 12 existing rows reused unchanged. `en`
+  forms all ASCII (an initial curly-apostrophe slip in Hong'en/Yong'anli/Zhang
+  Ji'en/Kuang Hui'an/Wan'an fired qc_entities/check_content and was fixed to
+  straight `'`). 善钟路 = Rue de Sieyès flagged `gazetteer:true`+`today:"Changshu
+  Road"` (joins the Street Gazetteer). Consistency canon: 徐家汇 rendered **Xujiahui**
+  (pinyin) throughout, so 徐家汇天主教堂 = "the Xujiahui Cathedral" (an initial
+  "Zikawei Cathedral" was corrected to match the B09 canon).
+
+### Renderings settled this batch (also in glossary.json)
+- 向忠发 = Xiang Zhongfa (alias 向仲发 rendered inline "written with a different middle
+  character"); 黄慕兰 = Huang Mulan; 陈志皋 = Chen Zhigao; 探勒车行 = the Delle Motor
+  Garage; 关向应 = Guan Xiangying; 宛希俨 = Wan Xiyan; 贺昌 = He Chang; 董必武 = Dong Biwu;
+  鲍文蔚 = Bao Wenwei; 鲍文杰 = Bao Wenjie; 米夫 = Mif (note: Pavel Mif); 肖明 = Xiao Ming;
+  王定南 = Wang Dingnan; 秦邦宪 = Qin Bangxian (Bo Gu); 杨秀贞 = Yang Xiuzhen; 杨虎 = Yang Hu.
+- Places: 善钟路 = Rue de Sieyès (Changshu Road, gazetteer); 都城饭店 = the Metropole
+  Hotel; 大光明 = the Grand Theatre; 庐山 = Mount Lu; 汉冶萍 = the Hanyeping Company;
+  静安寺路 = Bubbling Well Road (reused); 静安寺 = Jing'an Temple (reused); 霞飞路 =
+  Avenue Joffre (reused). Orgs: 中央特委 = the Central Special Work Committee;
+  华北政治保卫局 = the North China Political Security Bureau (the Beiping Special Branch);
+  红旗印刷所 = the Red Flag Press.
+- The June 3 1932 Comintern report rendered in the CANONICAL consistency-canon form
+  (Special Work Department of the Comintern Executive Committee; "Written Report on
+  the State of Secret Work and Special-Service Work…") at all three of its ch09
+  appearances; noted first in ch01, cross-referenced here.
+
 ## B10 — apparatus features + sweeps + spine pass; ch09 set up (2026-08-16)
 
 Delivered the footnote-apparatus and spine work the B09 review specified; ch09
