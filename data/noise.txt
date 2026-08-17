@@ -223,3 +223,21 @@
 零工
 # 7元5角 = "seven dollars fifty cents" (a medical fee), currency subunits
 7元5角
+# 千秋 = "a thousand autumns" (千秋 = eternity), idiom in Yun Daiying's poem
+千秋
+# 年近半百 / 年过半百 = "near/past fifty" (半百 = 50), idiomatic age, not a count
+半百
+# 九点三刻 = "a quarter to ten" (三刻 = 45 min), a clock time, not a quantity
+三刻
+# 胡说八道 = "talk utter nonsense" (八道), an idiom, not a count
+胡说八道
+# 六安 = Lu'an (a Hunan/Anhui county), 六 part of the place name, not a count
+六安
+# 七里坪 = Qiliping (a place in Huang'an), 七 part of the place name
+七里坪
+# 星期六 = "Saturday", 六 names the weekday, not a quantity
+星期六
+# 第二天 = "the next day" (relative day), not a count
+第二天
+# 十万火急 = "desperately urgent" (十万 = a myriad), an idiom, not a count
+十万火急

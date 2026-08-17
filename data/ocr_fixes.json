@@ -4611,5 +4611,735 @@
    "page": "f320",
    "note": "纱三=纱厂"
   }
+ ],
+ "ch19": [
+  {
+   "wrong": "张国寿",
+   "right": "张国焘",
+   "page": "f345",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "张国春",
+   "right": "张国焘",
+   "page": "f347",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "张国毒",
+   "right": "张国焘",
+   "page": "f352",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "张国帮",
+   "right": "张国焘",
+   "page": "f347",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "张国厅",
+   "right": "张国焘",
+   "page": "f348",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "张国硒",
+   "right": "张国焘",
+   "page": "f350",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "张国奉",
+   "right": "张国焘",
+   "page": "f361",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "屠代英",
+   "right": "恽代英",
+   "page": "f356",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "周思来",
+   "right": "周恩来",
+   "page": "f348",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "周怒来",
+   "right": "周恩来",
+   "page": "f356",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈刻",
+   "right": "陈赓",
+   "page": "f360",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈庆",
+   "right": "陈赓",
+   "page": "f360",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈废",
+   "right": "陈赓",
+   "page": "f360",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蔡熏坚",
+   "right": "蔡孟坚",
+   "page": "f351",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蔡备坚",
+   "right": "蔡孟坚",
+   "page": "f353",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蔡和孟坚",
+   "right": "蔡孟坚",
+   "page": "f352",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "些备坚",
+   "right": "蔡孟坚",
+   "page": "f355",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "化备坚",
+   "right": "蔡孟坚",
+   "page": "f354",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "葵重坚",
+   "right": "蔡孟坚",
+   "page": "f356",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "葵孟坚",
+   "right": "蔡孟坚",
+   "page": "f356",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蔡兰坚",
+   "right": "蔡孟坚",
+   "page": "f355",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蓝盘坚",
+   "right": "蔡孟坚",
+   "page": "f353",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蔡了重坚",
+   "right": "蔡孟坚",
+   "page": "f352",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "何成浚",
+   "right": "何成濬",
+   "page": "f354",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "何成滩",
+   "right": "何成濬",
+   "page": "f353",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈绍孟",
+   "right": "陈绍禹",
+   "page": "f345",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈绍怠",
+   "right": "陈绍禹",
+   "page": "f356",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "顾硕章",
+   "right": "顾顺章",
+   "page": "f357",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "顾听章",
+   "right": "顾顺章",
+   "page": "f358",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "顾蝗章",
+   "right": "顾顺章",
+   "page": "f346",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "顾顺童",
+   "right": "顾顺章",
+   "page": "f361",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "顾吴章",
+   "right": "顾顺章",
+   "page": "f360",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈昌洗",
+   "right": "陈昌浩",
+   "page": "f348",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "王竹权",
+   "right": "王竹樵",
+   "page": "f351",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "王竹机",
+   "right": "王竹樵",
+   "page": "f351",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "王竹榴",
+   "right": "王竹樵",
+   "page": "f351",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "万崇新",
+   "right": "尤崇新",
+   "page": "f351",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "鄂季皖",
+   "right": "鄂豫皖",
+   "page": "f345",
+   "note": "E-Yu-Wan garble"
+  },
+  {
+   "wrong": "鄂耶皖",
+   "right": "鄂豫皖",
+   "page": "f345",
+   "note": "E-Yu-Wan garble"
+  },
+  {
+   "wrong": "鄂殉皖",
+   "right": "鄂豫皖",
+   "page": "f345",
+   "note": "E-Yu-Wan garble"
+  },
+  {
+   "wrong": "鄂穆皖",
+   "right": "鄂豫皖",
+   "page": "f345",
+   "note": "E-Yu-Wan garble"
+  },
+  {
+   "wrong": "鄂玉皖",
+   "right": "鄂豫皖",
+   "page": "f345",
+   "note": "E-Yu-Wan garble"
+  },
+  {
+   "wrong": "鄂丈皖",
+   "right": "鄂豫皖",
+   "page": "f345",
+   "note": "E-Yu-Wan garble"
+  },
+  {
+   "wrong": "鄂阶皖",
+   "right": "鄂豫皖",
+   "page": "f345",
+   "note": "E-Yu-Wan garble"
+  },
+  {
+   "wrong": "哪耶皖",
+   "right": "鄂豫皖",
+   "page": "f345",
+   "note": "E-Yu-Wan garble"
+  },
+  {
+   "wrong": "鄂穆崇苏区",
+   "right": "鄂豫皖苏区",
+   "page": "f348",
+   "note": "garble in Zhang memoir"
+  },
+  {
+   "wrong": "物鄂皖边区",
+   "right": "豫鄂皖边区",
+   "page": "f352",
+   "note": "Gu's confession wording"
+  },
+  {
+   "wrong": "光三卷",
+   "right": "第三卷",
+   "page": "f348",
+   "note": "《我的回忆》vol.3; 光=第"
+  },
+  {
+   "wrong": "刘夭千(杞夫)",
+   "right": "刘杞夫",
+   "page": "f354",
+   "note": "Qian son-in-law Liu Qifu; 夭千 phantom 千"
+  },
+  {
+   "wrong": "第二大(4月26日)",
+   "right": "第二天(4月26日)",
+   "page": "f359",
+   "note": "次日; 天 read as 大"
+  }
+ ],
+ "ch20": [
+  {
+   "wrong": "钨代英",
+   "right": "恽代英",
+   "page": "f362",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "必代英",
+   "right": "恽代英",
+   "page": "f362",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "翁代英",
+   "right": "恽代英",
+   "page": "f362",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "人代英",
+   "right": "恽代英",
+   "page": "f364",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "履代英",
+   "right": "恽代英",
+   "page": "f363",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "居代英",
+   "right": "恽代英",
+   "page": "f363",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "怪代英",
+   "right": "恽代英",
+   "page": "f363",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "爷代英",
+   "right": "恽代英",
+   "page": "f365",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "色代英",
+   "right": "恽代英",
+   "page": "f365",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "匈代英",
+   "right": "恽代英",
+   "page": "f366",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "尾代英",
+   "right": "恽代英",
+   "page": "f366",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "仰代英",
+   "right": "恽代英",
+   "page": "f363",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "俘代英",
+   "right": "恽代英",
+   "page": "f367",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "公代英",
+   "right": "恽代英",
+   "page": "f362",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "履代贡",
+   "right": "恽代英",
+   "page": "f364",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "居代类",
+   "right": "恽代英",
+   "page": "f363",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "怪代类",
+   "right": "恽代英",
+   "page": "f363",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "履代疯",
+   "right": "恽代英",
+   "page": "f365",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "怪代关",
+   "right": "恽代英",
+   "page": "f363",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "钱代英",
+   "right": "恽代英",
+   "page": "f362",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "检和森",
+   "right": "蔡和森",
+   "page": "f371",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "闭和森",
+   "right": "蔡和森",
+   "page": "f370",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "楷和森",
+   "right": "蔡和森",
+   "page": "f370",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "莹和森",
+   "right": "蔡和森",
+   "page": "f370",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蒙和森",
+   "right": "蔡和森",
+   "page": "f370",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "素和森",
+   "right": "蔡和森",
+   "page": "f371",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "殖和森",
+   "right": "蔡和森",
+   "page": "f372",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "葡和森",
+   "right": "蔡和森",
+   "page": "f372",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "柳和森",
+   "right": "蔡和森",
+   "page": "f372",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "除和森",
+   "right": "蔡和森",
+   "page": "f372",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "袭和森",
+   "right": "蔡和森",
+   "page": "f373",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "北和森",
+   "right": "蔡和森",
+   "page": "f374",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "歼和和森",
+   "right": "蔡和森",
+   "page": "f365",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "蔡和和森",
+   "right": "蔡和森",
+   "page": "f371",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "葵和和森",
+   "right": "蔡和森",
+   "page": "f372",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "检和和森",
+   "right": "蔡和森",
+   "page": "f371",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "楷和和森",
+   "right": "蔡和森",
+   "page": "f373",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "获和和森",
+   "right": "蔡和森",
+   "page": "f373",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "同忠发",
+   "right": "向忠发",
+   "page": "f375",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "问忠发",
+   "right": "向忠发",
+   "page": "f376",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "回忠发",
+   "right": "向忠发",
+   "page": "f380",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈玉英",
+   "right": "陈琮英",
+   "page": "f377",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈琢英",
+   "right": "陈琮英",
+   "page": "f376",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈院英",
+   "right": "陈琮英",
+   "page": "f377",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "局恩来",
+   "right": "周恩来",
+   "page": "f377",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "四秋白",
+   "right": "瞿秋白",
+   "page": "f366",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "趴秋白",
+   "right": "瞿秋白",
+   "page": "f375",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "瞿秋日",
+   "right": "瞿秋白",
+   "page": "f419",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "幅秋日",
+   "right": "瞿秋白",
+   "page": "f365",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈钴",
+   "right": "陈赓",
+   "page": "f382",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈记",
+   "right": "陈赓",
+   "page": "f367",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈广",
+   "right": "陈赓",
+   "page": "f383",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "能式辉",
+   "right": "熊式辉",
+   "page": "f379",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "驴式辉",
+   "right": "熊式辉",
+   "page": "f380",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "邹帮奋",
+   "right": "邹韬奋",
+   "page": "f362",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "邹寿奋",
+   "right": "邹韬奋",
+   "page": "f362",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "磊顺章",
+   "right": "顾顺章",
+   "page": "f373",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "顾顺音",
+   "right": "顾顺章",
+   "page": "f373",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "谢云梨",
+   "right": "谢云巢",
+   "page": "f367",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "陈养出",
+   "right": "陈养山",
+   "page": "f383",
+   "note": "OCR name garble"
+  },
+  {
+   "wrong": "敌人*抄葛子\"9",
+   "right": "敌人“抄靶子”",
+   "page": "f365",
+   "note": "抄靶子 term; opening quote=*, 葛=靶, ①=9"
+  },
+  {
+   "wrong": "癫皮狗必",
+   "right": "癞皮狗！”",
+   "page": "f368",
+   "note": "end garble; 癞; ①/! restored"
+  },
+  {
+   "wrong": "在于此。”中",
+   "right": "在于此。”",
+   "page": "f369",
+   "note": "trailing ① read as 中"
+  },
+  {
+   "wrong": "91931年春节后",
+   "right": "1931年春节后",
+   "page": "f366",
+   "note": "leading ① of prev block read as 9"
+  },
+  {
+   "wrong": "9蔡和森牺牲后",
+   "right": "蔡和森牺牲后",
+   "page": "f374",
+   "note": "leading ① of prev block read as 9"
+  },
+  {
+   "wrong": "已拼忧串寻常车",
+   "right": "已拼忧患寻常事",
+   "page": "f366",
+   "note": "Yun's poem: 患, 事"
+  },
+  {
+   "wrong": "午丸点三刻",
+   "right": "午九点三刻",
+   "page": "f378",
+   "note": "九 read as 丸 (Shen Bao clip)"
+  },
+  {
+   "wrong": "到第$天",
+   "right": "到第5天",
+   "page": "f382",
+   "note": "第5天; $=5"
+  },
+  {
+   "wrong": "刑字$237号",
+   "right": "刑字5237号",
+   "page": "f382",
+   "note": "case No. 5237; $=5"
+  },
+  {
+   "wrong": "增加生活费$S0元",
+   "right": "增加生活费50元",
+   "page": "f383",
+   "note": "50 yuan; $S0=50"
+  },
+  {
+   "wrong": "何备雄",
+   "right": "何孟雄",
+   "page": "f366",
+   "note": "He Mengxiong; 备=孟"
+  }
  ]
 }

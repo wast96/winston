@@ -1,125 +1,122 @@
 # HANDOFF — Zhou Enlai: Commander of the Hidden Front
 
 Fresh-session handoff. The paste-ready kickoff is first; everything below it is
-the state a new session needs. Batches 1-10 are COMPLETE (ch00-ch18). Next is
-B11 = ch19 + ch20.
+the state a new session needs. Batches 1-11 are COMPLETE (ch00-ch20). Next is
+B12 = ch21 + ch22.
 
 ## Message to paste into the next chat
 
 ```
-Zhou Enlai B11
+Zhou Enlai B12
 
-Read CLAUDE.md, then HANDOFF.md, then STYLE.md, then book.json. Do Batch 11 =
-ch19 (扑灭一场特大灾祸——顾顺章叛变前后 / Averting a Catastrophe — The Defection of
-Gu Shunzhang, PDF 389-405, printed 345-361; three sections ch19s01-03:
-顾顺章护送张国焘去鄂豫皖苏区 / 在汉口被捕叛变 / 一网打尽"中共中央"阴谋彻底破产) AND
-ch20 (倾箱倒箧的出卖 / Betrayal to the Last Scrap, PDF 406-428, printed 362-384;
-four sections ch20s01-04: 顾顺章出卖了在南京狱中的恽代英 / 顾顺章赴香港捕杀蔡和森 /
-出卖、抓捕向忠发 / 还出卖了鲍君甫(杨登瀛)), end to end per the CLAUDE.md pipeline.
+Read CLAUDE.md, then HANDOFF.md, then STYLE.md, then book.json. Do Batch 12 =
+ch21 (穷凶极恶的捕杀(上) / A Vicious Manhunt, Part 1, PDF 429-457, printed 385-413;
+two sections ch21s01-02: 派特务追捕陈赓 / 魔手伸进王根英的娘家) AND ch22 (穷凶极恶的
+捕杀(下) / A Vicious Manhunt, Part 2, PDF 458-484, printed 414-440; two sections
+ch22s01-02: 秘密绑架丁玲 / 参与暗杀杨杏佛), end to end per the CLAUDE.md pipeline.
 Work on branch claude/zhou-enlai; expect a stray per-task branch and consolidate
 onto it (CLAUDE.md rule 2 — checkout claude/zhou-enlai, reset --hard to origin,
 do the work, delete the stray local+remote).
 
-BEFORE translating, read the final two paragraphs of ch18 in out/ch18_reading.md
-(Tu Zuochao's unforgettable 1936 meeting with Zhou Enlai in Xi'an) so the voice
-carries over. ch19/ch20 turn from the radio-technical portrait register of
-ch17/ch18 back to the book's DRAMATIC espionage-thriller register: Gu Shunzhang
-(顾顺章, the Action Section chief, already heavily featured in ch09 and as the
-"Master Magician") defects in Hankou in April 1931, and the Party races to avert
-the catastrophe (Qian Zhuangfei's warning telegram was covered in ch05); ch20 is
-the roll-call of everyone he then betrayed (恽代英 Yun Daiying, 蔡和森 Cai Hesen,
-向忠发 Xiang Zhongfa the Party's nominal head, and 鲍君甫/杨登瀛 Yang Dengying the
-double agent). Keep the pace; short confident statements; this is where the book
-means to grip. ch01 is the FROZEN reference; run check_register.py --ref
-out/ch01_reading.md on every unit.
+BEFORE translating, read the final two paragraphs of ch20 in out/ch20_reading.md
+(Li Qiang's 1981 account of Bao Junfu, the "veteran of four dynasties") so the
+voice carries over. ch21/ch22 continue the aftermath of Gu Shunzhang's April 1931
+defection in the same DRAMATIC espionage-thriller register: the Kuomintang's
+"vicious manhunt" for the Special Section's people — agents sent after Chen Geng
+(陈赓, arrested 1933, then freed through Song Qingling's intervention), the claw
+reaching into the family of his wife Wang Genying (王根英), the secret abduction
+of the writer Ding Ling (丁玲) with Pan Zinian, and the Blue-Shirt/Juntong
+assassination of Yang Xingfo (杨杏佛/杨铨) of the China League for Civil Rights.
+Keep the pace; short confident statements. ch01 is the FROZEN reference; run
+check_register.py --ref out/ch01_reading.md on every unit.
 
-Pipeline notes specific to THIS book (all proven in B01-B10, do not rediscover):
+Pipeline notes specific to THIS book (all proven in B01-B11, do not rediscover):
 - Body offset is a CONSTANT 44: printed = PDF - 44. Folio-verify each opener by
-  eye anyway. ch19 opens PDF 389 = printed 345; ch20 opens PDF 406 = printed 362.
+  eye anyway. ch21 opens PDF 429 = printed 385; ch22 opens PDF 458 = printed 414.
 - OCR: ocr_crop.py FIRST LAST --left 0.11 --right 0.90 --top 0.135 --bottom 0.95
   --lang chi_sim --psm 6 --running-head "隐蔽战线统帅周恩来". Verify pgrep -c
-  tesseract is 0 after. Back up data/txt for the batch pages before the FIRST strip.
-- ASSEMBLY IS THE HARD PART and mutates per batch. USE THE B10 MODEL
-  (scripts/recovery/b10_*.py are the newest; they follow b09/b08 and add a
-  deterministic rebuild driver, scripts/recovery/b10_rebuild.sh):
+  tesseract is 0 after. ocr_dual.py FIRST LAST is SLOW (~3 reads/page) — run it in
+  the BACKGROUND. Back up data/txt for the batch pages before the FIRST strip
+  (mkdir data/txt_backup_b12; the b11 rebuild driver expects its own backup dir).
+- ASSEMBLY IS THE HARD PART and mutates per batch. USE THE B11 MODEL
+  (scripts/recovery/b11_*.py are the newest; b11_rebuild.sh is the deterministic
+  strip→assemble→surgery→apply_fixes→pagemap driver — copy it to b12 and edit the
+  page range, backup dir, and unit ids/ranges):
   (1) b1X_strip_furniture.py: normalize garbled section/chapter headings to the
   EXACT book.json titles (pull by id; per-target guard len(good)+5; tokens that
-  AVOID the garbled char, e.g. ["永不消","红色电波"] when 逝 is mangled). EMPTY every
-  figure/facsimile page (photo mid-paragraph; the spanning paragraph rejoins).
-  Truncate each author-footnote block (source citations, reproduced as
-  "Author's note." at the ① anchor). THE KEY LESSON, hammered again in B10: the
-  surgery boundary-snap needs a BREAK char (。！？…：) right before a paragraph
-  start; grep the assembled zh for OCR-mangled sentence-ends at every paragraph
-  SEAM and RESTORE them in the strip (verified on the scan). In B10 the recurring
-  mangles were: 。 read as 、 or a dash - or dropped entirely; a closing ①/"。
-  read as a digit (9) or a glyph (必); dropped intro text before a block quote
-  (满怀地写道:). Match across the OCR newline where the seam spans two lines
-  ("前文已经讲\n过)").
+  AVOID the garbled char). ch21/ch22 titles have PARENS (上)/(下) — byte-exact.
+  If a chapter title prints on TWO OCR lines, special-case a merge (see b11's
+  merge_ch19_title). Truncate each author-footnote block. THE KEY LESSON, hammered
+  again in B11: the surgery boundary-snap needs a BREAK char (。！？…：) right
+  before a paragraph start; grep the assembled zh for OCR-mangled sentence-ends at
+  every paragraph SEAM and RESTORE them in the strip (verified on the scan).
+  B11's recurring seam mangles: 。 read as 、 / a dash / a comma / dropped; a
+  closing ①/"。 read as a DIGIT (9) or a glyph (中/必). Match RESTORE anchors
+  across the OCR newline where the seam spans two lines ("施涡等\n4人，").
   (2) Add data/structure.json rows for the chapters + all sections BEFORE assemble
-  (pull exact title bytes from book.json; fancy-quote/em-dash titles must be
-  byte-exact — ch19 title has an em-dash ——, ch20s03 has a 、, ch20s04 has ()).
+  (pull exact title bytes from book.json; parens/quotes must be byte-exact).
   (3) indents.py FIRST LAST (data/indent is TRACKED). NOTE: indent geometry is
-  UNRELIABLE on these scans (skew flags whole blocks), so DO NOT trust assemble's
-  auto-segmentation — determine paragraph boundaries by READING the page images
-  (the real 2-char indents) and encode them as surgery markers, the B10 way.
+  UNRELIABLE on these scans, so DO NOT trust assemble's auto-segmentation — it
+  UNDER-segments (welds paragraphs). Determine paragraph boundaries by READING the
+  page images (the real 2-char indents) and encode them as surgery markers.
+  BLOCK QUOTES (indented memoir/newspaper extracts) are set off with extra leading;
+  the OCR may render them contiguous OR with a blank line between EVERY line —
+  read the image, don't trust the blanks. INLINE quotes (dialogue) stay in the
+  running paragraph WITH quote marks; DISPLAYED block quotes render as PLAIN
+  paragraphs, no outer quotes (Zhang Guotao memoir & the Shen Bao clips in B11).
   (4) b1X_surgery.py --apply: per-SECTION blob split at paragraph-START markers
   (markers[i] starts piece i+1; N paragraphs need N-1 markers; markers are RAW-OCR
-  substrings, apply_fixes runs AFTER). Note the ch18 chapter-intro paragraph sits
-  in its own blob (0 markers) between two headings — expect the same shape if a
-  chapter opens with body text before its first section. DRY-RUN first (verifies
-  each marker occurs exactly once, in order). Dialogue/quote paragraphs that OPEN
-  on a quote: marker a few chars INTO the quote, the snap prepends the opening ".
-  BLOCK QUOTES and NEWSPAPER CLIPS: an attribution intro ending in : is its own
-  paragraph; a headline is its own paragraph. After --apply, AUDIT that every ZH
-  paragraph ends in sentence-final punct (a stray dash/comma/digit at an end means
-  a snap misfire → add a RESTORE) and that per-SECTION EN==ZH count AND the
-  bilingual aligns (a split/merge can keep the count right while shifting content
-  — happened repeatedly in B10; fix EN paragraph breaks to match the ZH, or add a
-  RESTORE so the ZH matches the intended source break).
-  (5) apply_fixes.py <id> AFTER surgery (clean-regen via b10_rebuild.sh before
-  every apply_fixes; the driver replays strip→assemble→surgery→apply_fixes→pagemap
-  deterministically from the raw-OCR backup).
-  (6) b1X_pagemap.py regenerates data/pagemap/<unit>.json (edit the two build()
-  calls to the new unit ids/ranges).
+  substrings, apply_fixes runs AFTER). DRY-RUN first (verifies each marker occurs
+  exactly once, in order). After --apply, AUDIT that every ZH paragraph ends in
+  sentence-final punct (colon/semicolon/?/! are legit for intros, list items,
+  questions; a stray dash/comma/digit/glyph at an end means a snap misfire → add a
+  RESTORE) AND that qc_entities/check_content pass (a split/merge can keep the
+  count right while SHIFTING content — happened THREE times in B11; qc_entities
+  catching a name in the wrong paragraph is the tell).
+  (5) apply_fixes.py <id> AFTER surgery (clean-regen via the rebuild driver before
+  every apply_fixes; surgery + apply_fixes are NOT idempotent).
+  (6) b1X_pagemap.py regenerates data/pagemap/<unit>.json (edit the build() calls).
 - Crop-verify every name/number/alias/date BEFORE writing; record fixes in
-  data/ocr_fixes.json via apply_fixes.py. check_numbers catches phantom numerals
-  from glyph garbles ($=5, 万=瓦, 上/工/士=1/10, 《=4, folio numbers leaking into the
-  body, footnote ①②③ read as digits) and dropped digits; fix real garbles in the
-  ZH, carry real values in the English (figures for 100+ and for anything needing a
-  comma; spell out small standalone counts; technical measurements like wattage in
-  figures), noise ONLY genuine non-quantities (place/idiom/name numerals: add to
-  data/noise.txt, longest-first, with a comment line above each).
-- Checks: verify_unit reads UNIT IDS (parity + check_numbers with data/noise.txt +
-  anchors) — do NOT pass --noise, it takes only ids. qc_entities reads the BILINGUAL
-  PATH (out/<id>_bilingual.md), not the id; glossary rows need BOTH "en" AND
-  "pinyin"; fix a miss by NAMING (render 国民党 as Kuomintang, name Shanghai, etc.).
-  check_align reads a unit id. check_content --config data/check_config.json (ADD
-  ch19, ch20 to BOTH docs and sources; it wants each glossary EN form present in
-  the paired paragraph — match the SHELF's decided form, e.g. "T.V. Soong" no space,
-  "Communist University of the Toilers of the East"). check_structure --pairs SRC
-  TGT. check_register --ref out/ch01_reading.md.
+  data/ocr_fixes.json via addfixes-style script (Write tool, not heredoc).
+  verify_names.py --pdf source.pdf --page N --auto shows dual-OCR DISAGREEMENTS
+  (random errors); the SYSTEMATIC mangles both engines agree on you catch by
+  knowing the correct historical names (build the fix list from a variant survey:
+  grep the assembled zh for 张国. / .代英 patterns). check_numbers catches phantom
+  numerals ($=5, ①=9, name char 千/万, weekday/place numerals) and dropped digits;
+  fix real garbles in the ZH, carry real values in the English, noise ONLY genuine
+  non-quantities (idiom/place/relative-time numerals: add to data/noise.txt,
+  longest-first, with a comment line). check_numbers maps English number WORDS
+  (sixth→6, second→2) so "the Sixth Central Committee" satisfies 六届.
+- Checks: verify_unit reads UNIT IDS (no --noise). qc_entities reads the BILINGUAL
+  PATH (out/<id>_bilingual.md); glossary rows need BOTH "en" AND "pinyin"; fix a
+  miss by NAMING (or matching the SHELF form — 中统 = "Zhongtong" NOT "CBIS";
+  国民党 = "Kuomintang"; 淞沪警备司令部 = "Songhu Garrison Command"). check_align
+  reads a unit id. check_content --config data/check_config.json (ADD ch21, ch22 to
+  BOTH docs and sources; it wants each glossary EN form present in the paired
+  paragraph — and BEWARE false matches: a journal like 《中国青年》 collides with the
+  phrase 中国青年 "Chinese youth", so don't add a works row that greps as a common
+  phrase). check_structure --pairs SRC TGT. check_register --ref out/ch01_reading.md.
 - Glossary: add rows DIRECTLY nested into people/organizations/places/works/terms
   (NOT via apparatus_merge, which drops them at top level where qc_entities can't
-  reach); give every row "en" + "pinyin" + "status". Decide the PROSE rendering as
-  the glossary `en`, keep the formal expansion in the NOTE. REUSE decided renderings:
-  顾顺章 Gu Shunzhang, 周恩来, 陈赓, 杨登瀛/鲍君甫 Yang Dengying, 恽代英 Yun Daiying,
-  蔡和森 Cai Hesen, 向忠发 Xiang Zhongfa, 张国焘 Zhang Guotao, 李强, 陈养山 all recur
-  (grep glossary.json first). Consult authority.json for shelf agreement.
+  reach); give every row "en" + "pinyin" + "status". REUSE decided renderings: grep
+  glossary.json FIRST — most principals are already on the shelf (陈赓 Chen Geng,
+  顾顺章, 周恩来, 丁玲 Ding Ling, 杨杏佛/杨铨, 宋庆龄, 王根英 all likely present).
+  Consult authority.json for shelf agreement.
 - Footnotes at reader-model density with fact-check verdicts IN the note; never
-  source LLM content (WebSearch Wikipedia/Baidu/academic; NEVER Grokipedia; block
-  grokipedia.com). Author footnotes reproduced as "Author's note." at the ① anchor.
-  Note at FIRST appearance book-wide (grep notes.json and earlier reading files
-  first; keep a "NOT re-noted" list in PROGRESS). Gu Shunzhang's defection is a
-  STRONG corroboration target (well-documented 1931 event) — trace to earliest
-  source. Note anchors must be verbatim ASCII substrings of the reading .md (match
-  your exact quote style — B10 used straight ASCII ' and "); note BODIES use numeric
-  char refs only (&#8212; &#8211; &#160; &#8220; &#8221; &#8217;). Figure `alt` must
-  NOT contain a double quote; figure `file` is a BARE basename in data/figs/; figure
-  `before` anchor must fit in the FIRST ~80 chars of a paragraph (B10 hit this: an
-  84-char anchor failed the build — keep anchors short). Merge apparatus via
-  apparatus_merge.py (a plain JSON file, Write tool not heredoc); check_apparatus.py
-  must be clean.
-- Cite the book's PRINTED FOLIO in notes, never the PDF page.
+  source LLM content (WebSearch Wikipedia/Executed Today/academic; NEVER
+  Grokipedia; block grokipedia.com). Author footnotes reproduced as "Author's
+  note." at the ① anchor. Note at FIRST appearance book-wide (grep notes.json and
+  earlier reading files first; keep a "NOT re-noted" list in PROGRESS). Chen Geng's
+  1933 arrest + Song Qingling's rescue, Ding Ling's abduction, and the Yang Xingfo
+  assassination are STRONG corroboration targets. Note anchors must be verbatim
+  ASCII substrings of the reading .md (match your exact quote style — B11 used
+  straight ASCII ' and ", and used SINGLE quotes for a quote-within-a-quote; avoid
+  em-dashes in anchors); note BODIES use numeric char refs only (&#8212; &#8211;
+  &#160; &#8220; &#8221; &#8217;). Figure list was EMPTY for ch19/ch20 (narrative
+  chapters) — ch21/ch22 may carry portrait plates (Chen Geng, Ding Ling, Yang
+  Xingfo): eyeball every page, run find_figures, check char-counts. Merge apparatus
+  via apparatus_merge.py (a plain JSON file, Write tool not heredoc);
+  check_apparatus.py must be clean. Cite the book's PRINTED FOLIO in notes.
 - Build the cumulative EPUB, qa_epub green, epubcheck (/tmp/epubcheck-5.1.0).
 - Update PROGRESS.md and HANDOFF.md; commit and push to claude/zhou-enlai.
 
@@ -131,125 +128,125 @@ verbatim in a fenced code block. Both, every batch.
 
 - **Survey + B01 (ch00 Preface + ch01):** complete, voice gate approved; ch01 is
   the frozen register reference.
-- **B02 (ch02 + ch03)** through **B09 (ch15 + ch16):** complete.
-- **B10 (ch17 Communications Chief "Zeng Peihong" — Li Qiang + ch18 The Red
-  Airwaves That Never Die):** complete. ch17 = 74 body paras, 5 sections, 11
-  notes, 5 figures: Li Qiang's whole career (Changshu scholar-family boy to the
-  Party's radio pioneer), building the first transceiver with Cai Shuhou and Tu
-  Zuochao, the Hong Kong station, the two training classes and the December 1930
-  Sichengli raid, then the sweep into the Soviet-area radio net and the Long
-  March. ch18 = 59 body paras, chapter-opener + 4 sections, 15 notes, 2 figures:
-  portraits of the radio men (Cai Shuhou and the Comintern/Sorge milieu; Zhang
-  Shenchuan the first operator; Mao Qihua the Soviet-trained expert; Tu Zuochao
-  the "Carpenter," closing on his 1936 reunion with Zhou Enlai in Xi'an). All
-  checks green; details in PROGRESS.md B10.
-- **EPUB:** out/zhou-enlai.epub = 19 of 28 chapters (ch00-ch18), 259 notes, 319
+- **B02 (ch02+ch03)** through **B10 (ch17+ch18):** complete.
+- **B11 (ch19 Averting a Catastrophe — Gu Shunzhang's Defection + ch20 Betrayal
+  to the Last Scrap):** complete. ch19 = 42 body paras, 3 sections, 9 notes, 0
+  figures: the January 1931 Fourth Plenum and Wang Ming's rise, Gu Shunzhang's
+  escort of Zhang Guotao to the E-Yu-Wan Soviet on the Special Section's timber
+  boat (Zhang Guotao's own memoir quoted at length), Gu's arrest in Hankou (24
+  Apr 1931) and instant defection, Cai Mengjian's account of the surrender and
+  the audience with Chiang, and Qian Zhuangfei's warning telegram that let Zhou
+  Enlai evacuate the whole apparatus in a day. ch20 = 64 body paras, 4 sections,
+  12 notes, 0 figures: the roll-call of Gu's victims — Yun Daiying (executed
+  Nanjing 29 Apr 1931), Cai Hesen (betrayed at the HK seamen's meeting, executed
+  Guangzhou, aged 36), Xiang Zhongfa (the only CCP general secretary to defect —
+  arrested 22 June, shot 24 June 1931), and the double agent Bao Junfu (Yang
+  Dengying), whom the Party protected to the end. All checks green; details in
+  PROGRESS.md B11.
+- **EPUB:** out/zhou-enlai.epub = 21 of 28 chapters (ch00-ch20), 280 notes, 356
   pagebreaks; qa_epub PASS, epubcheck 0/0/0.
 
 ## Tooling in place / do not revert
 
-- data/ocr_fixes.json: crop-verified readings for ch00-ch18; replay with
-  apply_fixes.py on any fresh regen. B10 added ch17 + ch18.
-- scripts/recovery/ (tracked): b02_* through **b10_*** strip/surgery/pagemap
-  scripts + README, plus **b10_rebuild.sh** (the deterministic
-  strip→assemble→surgery→apply_fixes→pagemap driver). The b10_* set is the CURRENT
-  model. Do not delete.
+- data/ocr_fixes.json: crop-verified readings for ch00-ch20; replay with
+  apply_fixes.py on any fresh regen. B11 added ch19 (50) + ch20 (71).
+- scripts/recovery/ (tracked): b02_* through **b11_*** strip/surgery/pagemap
+  scripts + README, plus b10_rebuild.sh and **b11_rebuild.sh** (the deterministic
+  drivers). The b11_* set is the CURRENT model. Do not delete.
 - ocr_crop.py patches, check_content.py '_'-prefix skip: keep (from B01).
-- data/noise.txt: keep extending, never prune. B10 added the ch17/ch18 idiom and
-  place numerals (see PROGRESS B10 for the list).
-- data/check_config.json: docs+sources for ch00-ch18; ADD ch19, ch20 next batch.
-- data/pagemap/ch17.json, ch18.json: regenerated post-surgery (b10_pagemap.py).
-- data/figs/: 7 new B10 crops (p0334/p0341/p0356/p0358/p0362-f1 for ch17,
-  p0382/p0385-f1 for ch18); p0356 was cropped by hand (find_figures misses a
-  handwriting facsimile). All tracked.
-- Assembly: indents.py IS run but its geometry is UNRELIABLE on these scans;
-  paragraph boundaries come from READING the page images. The fix is
-  RE-SEGMENTATION (b10_surgery.py) with markers built by eye.
+- data/noise.txt: keep extending, never prune. B11 added the idiom/place/weekday/
+  relative-time numerals (千秋, 半百, 三刻, 胡说八道, 六安, 七里坪, 星期六, 第二天,
+  十万火急).
+- data/check_config.json: docs+sources for ch00-ch20; ADD ch21, ch22 next batch.
+- data/pagemap/ch19.json, ch20.json: regenerated post-surgery (b11_pagemap.py).
+- data/txt_backup_b11/: raw OCR for pages 389-428 (the rebuild driver's source).
+- Assembly: indents.py IS run but its geometry is UNRELIABLE; paragraph boundaries
+  come from READING the page images. The fix is RE-SEGMENTATION (b11_surgery.py)
+  with markers built by eye.
 - KNOWN HAZARD: apply_fixes.py and surgery are NOT idempotent. Always clean-regen
-  (b10_rebuild.sh) before apply_fixes; keep the raw data/txt backup for the batch.
+  (rebuild driver) before apply_fixes; keep the raw data/txt backup for the batch.
 - KNOWN HAZARD: qc_entities.py KeyErrors if a glossary row lacks "pinyin" — every
   row you add needs "en" + "pinyin". It reads the BILINGUAL path, not a unit id.
 - KNOWN HAZARD: the surgery snap needs a BREAK char at each seam; OCR-mangled
-  ！/。/《/dash/dropped-。/footnote-digit at a seam must be RESTORE'd in the strip.
-- KNOWN HAZARD: a figure `before` anchor longer than ~80 chars fails the build.
+  ！/。/comma/dash/dropped-。/footnote-digit at a seam must be RESTORE'd in the
+  strip. A split/merge can keep the parity count right while SHIFTING content —
+  qc_entities/check_numbers (not parity) catch it.
+- KNOWN HAZARD: a figure `before` anchor longer than ~80 chars fails the build;
+  a note anchor with an em-dash won't match the ASCII reading text.
 
 ## Renderings settled (glossary.json is the ledger)
 
-- Held terms carried from earlier batches (grep glossary.json): 中央特科 Central
-  Special Section, 红队 Red Squad, 淞沪警备司令部 Songhu Garrison Command, 巡捕房
-  concession police, 租界 the Concessions, 白色恐怖 White Terror, 军统 Juntong,
-  同盟会 Tongmenghui, 晋绥 Shanxi-Suiyuan, 西行漫记 Red Star Over China.
-- B10 people (glossary, 73 new rows): 曾培鸿 Zeng Peihong (alias of Li Qiang),
-  蔡叔厚 Cai Shuhou, 毛齐华 Mao Qihua, 涂作潮 Tu Zuochao, 王诤 Wang Zheng, 伍云甫 Wu
-  Yunfu, 吴克坚 Wu Kejian, 张辉瓒 Zhang Huizan, 李明瑞 Li Mingrui, 俞作柏/俞作豫 Yu
-  Zuobai/Yu Zuoyu, 黄尚英 Huang Shangying, 李翔梧 Li Xiangwu, 汤恩伯 Tang Enbo, 张学良
-  Zhang Xueliang, 夏衍 Xia Yan, 左尔格 Richard Sorge, 赛克特 Seeckt, plus the training
-  class, the Comintern-group, and Nanchang-negotiation casts. See PROGRESS B10.
-- SHELF forms to hold: 东方大学 "Communist University of the Toilers of the East"
-  (used in 7 prior chapters, NOT "Eastern University"); 宋子文 "T.V. Soong" (no
-  space, existing row). Match these in prose or check_content flags them.
+- Held terms carried from earlier batches: 中央特科 Central Special Section, 红队
+  Red Squad, 淞沪警备司令部 Songhu Garrison Command, 巡捕房 concession police, 租界
+  the Concessions, 白色恐怖 White Terror, 军统 Juntong, **中统 Zhongtong** (NOT
+  "CBIS"), 国民党 Kuomintang, 东方大学 "Communist University of the Toilers of the
+  East", 宋子文 "T.V. Soong".
+- B11 people (58 new glossary rows): the E-Yu-Wan cast (沈泽民/张琴秋/夏曦/曾洪易/
+  陈昌浩), the enemy officials (蔡孟坚/何成濬/杨庆山/张冲/顾建中/熊式辉/孟真/张国栋),
+  the Cai Hesen circle (向警予/葛健豪/秋瑾/蔡畅/蔡庆熙/李一纯/罗学瓒/蔡元培/杨昌济/
+  曾国藩/邓发/陈济棠/施滉), the Xiang Zhongfa affair (杨秀贞[existing]/陈琮英/黄玠然/
+  布哈林/叶荣生/曹炳生/鲍文蔚/吴醒亚/吴汉祺), and the rescue cast (朱月倩/霍步青/钱潮/
+  欧阳大汉/谢云巢/叶耀明/王震南/罗瑞卿/周佛海). See PROGRESS B11 for the full list.
 - Feed decided renderings into authority.json at book's end (out/term_ledger.md).
 
 ## Voice sheets (carry-forward)
 
 - **Mu Xin (author):** confident narrative-history voice, open partisan edge;
   heroes are heroes, 叛徒 traitors, the verdict goes in the note. His potted
-  biography and exposition is the highest-risk zone for stiltedness — break it
-  into short confident statements, no dash-glosses. B10 em-dash rate came in at
-  4.1/2.4 per 1k (vs the ch01 reference's 6.0); stay at or under.
-- **Zhou Enlai:** measured, analytic, unshowy; warm and terse in the Xi'an reunion
-  with Tu Zuochao (ch18). **Chen Geng:** quick, cool, the operational hand.
-  **Li Qiang** (the B10 lead): the technical man, precise and unfussy in his own
-  recollections. **Gu Shunzhang** (the B11 villain): the vain "Master Magician"
-  turned traitor — render his self-serving turn cold, let the facts damn him.
-- **Reproduced material** (facsimile LETTERS, calligraphy inscriptions, memoir
-  quotes, the Snow/西行漫记 passage, newspaper clips): rendered as PLAIN paragraphs,
-  no outer quotes on block quotes; an attribution intro ending in a colon is its
-  OWN paragraph; a newspaper headline is its own paragraph. Author source-citations
-  reproduced as "Author's note." at the ① anchor.
-- **Dialogue and first-person memoir** (heavy in ch17/ch18, and in the ch19/ch20
-  interrogation and betrayal scenes): natural and contracted, differentiated by
-  speaker; keep the long veteran-memoir quotes as single paragraphs matching the
-  source's own paragraphing.
+  biographies (Yun Daiying, Cai Hesen in B11) are the highest-risk zone for
+  stiltedness — break them into short confident statements, no dash-glosses. B11
+  em-dash rate came in at 3.9/3.3 per 1k (vs the ch01 reference's 6.0); stay at or
+  under.
+- **Zhou Enlai:** measured, analytic, unshowy; decisive in a crisis (the one-day
+  evacuation in ch19). **Chen Geng** (the B12 lead, hunted): quick, cool, the
+  operational hand. **Gu Shunzhang** (the B11 villain, still betraying in the
+  background of B12): the vain traitor — render his self-serving turn cold, let
+  the facts damn him. **Yun Daiying / Cai Hesen / Xiang Zhongfa** (the B11
+  martyrs): render their last words at full force (STYLE's heat doctrine — a
+  martyr's defiance is hot in the source, hot in English).
+- **Reproduced material** (memoir block quotes, newspaper clips, letters, a
+  classical poem): DISPLAYED blocks render as PLAIN paragraphs, no outer quotes;
+  INLINE dialogue keeps its quote marks; an attribution intro ending in a colon is
+  its OWN paragraph; a newspaper headline is its own paragraph; verse takes the
+  {p} marker. Author source-citations reproduced as "Author's note." at the ①
+  anchor (only for QUOTED passages, not bare narrative citations — the B10/B11
+  practice).
 
 ## Where the story stands
 
 The Party's clandestine arms are all drawn (intelligence ch04-08; Action/Red
-Squad ch09-12; the rescue and political turn ch13-14; the political-penetration
-arc ch15-16; the radio and communications arc ch17-18). B11 (ch19-20) turns to
-the book's central catastrophe: Gu Shunzhang's April 1931 defection in Hankou and
-the wave of betrayals that followed. Chen Geng, Li Qiang, and the Longtan Three
-have already appeared; ch05 told how Qian Zhuangfei's telegram gave the Party the
-hours it needed to break the net. ch19-20 tell the defection itself and its cost.
+Squad ch09-12; the rescue and political turn ch13-14; political penetration
+ch15-16; radio and communications ch17-18). B11 (ch19-20) told the central
+catastrophe: Gu Shunzhang's April 1931 defection and the wave of betrayals
+(Yun Daiying, Cai Hesen, Xiang Zhongfa, the attempt on Bao Junfu). B12 (ch21-22)
+turns to the manhunt that followed: the pursuit and 1933 arrest of Chen Geng and
+his rescue through Song Qingling, the raid on Wang Genying's family, the
+abduction of Ding Ling, and the assassination of Yang Xingfo.
 
 ## Exact next-batch scope
 
-- **B11** = ch19 (PDF 389-405, printed 345-361, ch19s01-03) + ch20 (PDF 406-428,
-  printed 362-384, ch20s01-04). Then B12 = ch21 (opens PDF 429) + ch22.
-  (out/SURVEY.md's batch numbering runs one behind, since B05 combined ch07+ch08.)
+- **B12** = ch21 (PDF 429-457, printed 385-413, ch21s01-02) + ch22 (PDF 458-484,
+  printed 414-440, ch22s01-02). Then B13 = ch23 (opens PDF 485, six sections) +
+  ch24. (out/SURVEY.md's batch numbering runs one behind, since B05 combined
+  ch07+ch08.)
 
 ## Open traps / environment state
 
 - Body offset constant 44; folio-verify each opener.
 - ASSEMBLY: indent geometry unreliable; read paragraph boundaries off the images.
-  OCR-mangled sentence-ends at paragraph seams defeat the surgery snap; RESTORE
-  them in the strip. EMPTY full-page image/facsimile pages. After --apply, audit
-  that every ZH paragraph ends in sentence-final punct AND align the bilingual per
-  section (a split/merge can keep the count right while shifting content).
-- Surgery + apply_fixes are NOT idempotent (use b10_rebuild.sh); DRY-RUN surgery
-  before --apply.
+  assemble UNDER-segments; full surgery re-segmentation. OCR-mangled sentence-ends
+  at paragraph seams defeat the snap; RESTORE them in the strip (across the OCR
+  newline where needed). After --apply, audit paragraph endings AND run
+  qc_entities/check_content to catch content shifts that parity misses.
+- Surgery + apply_fixes are NOT idempotent (use the rebuild driver); DRY-RUN
+  surgery before --apply.
 - data/indent is TRACKED — git checkout it if you rm -rf'd it before re-running.
 - qc_entities needs "pinyin" on every glossary row and reads the bilingual PATH;
   check_content wants the SHELF's glossary EN form in the paired paragraph (fix a
-  flag by NAMING or matching the shelf form).
-- Figure `alt` must not contain a double quote; `file` is a bare basename in
-  data/figs/; `before` anchor must fit the first ~80 chars. Note anchors verbatim
-  ASCII substrings (match your exact quote style); note bodies numeric char refs.
-- verify_unit takes UNIT IDS (no --noise); qc_entities/check_align take paths/ids
-  as noted above.
+  flag by NAMING or matching the shelf form; beware works-row false matches).
+- verify_unit takes UNIT IDS (no --noise); qc_entities/check_align take paths/ids.
 - OMP_THREAD_LIMIT=1 for tesseract; kill the process GROUP; pgrep -c tesseract
-  must read 0 after a run.
+  must read 0 after a run. ocr_dual is slow — background it.
 - epubcheck at /tmp/epubcheck-5.1.0 (re-fetch via setup.sh in a fresh container).
 - Pre-existing failing regression test ("hook stands down on template stub");
   template maintenance, does not affect real batches.
-

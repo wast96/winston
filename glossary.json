@@ -2277,6 +2277,266 @@
    "en": "Abramov",
    "pinyin": "Abramov",
    "status": "decided"
+  },
+  "沈泽民": {
+   "en": "Shen Zemin",
+   "pinyin": "Shen Zemin",
+   "status": "attested"
+  },
+  "张琴秋": {
+   "en": "Zhang Qinqiu",
+   "pinyin": "Zhang Qinqiu",
+   "status": "attested"
+  },
+  "夏曦": {
+   "en": "Xia Xi",
+   "pinyin": "Xia Xi",
+   "status": "attested"
+  },
+  "曾洪易": {
+   "en": "Zeng Hongyi",
+   "pinyin": "Zeng Hongyi",
+   "status": "attested"
+  },
+  "杨庆山": {
+   "en": "Yang Qingshan",
+   "pinyin": "Yang Qingshan",
+   "status": "attested"
+  },
+  "何成濬": {
+   "en": "He Chengjun",
+   "pinyin": "He Chengjun",
+   "status": "attested"
+  },
+  "张冲": {
+   "en": "Zhang Chong",
+   "pinyin": "Zhang Chong",
+   "status": "attested"
+  },
+  "顾建中": {
+   "en": "Gu Jianzhong",
+   "pinyin": "Gu Jianzhong",
+   "status": "attested"
+  },
+  "黄凯": {
+   "en": "Huang Kai",
+   "pinyin": "Huang Kai",
+   "status": "provisional"
+  },
+  "张长根": {
+   "en": "Zhang Changgen",
+   "pinyin": "Zhang Changgen",
+   "status": "attested"
+  },
+  "尤崇新": {
+   "en": "You Chongxin",
+   "pinyin": "You Chongxin",
+   "status": "provisional"
+  },
+  "孟真": {
+   "en": "Meng Zhen",
+   "pinyin": "Meng Zhen",
+   "status": "provisional"
+  },
+  "张国栋/张文": {
+   "en": "Zhang Guodong",
+   "pinyin": "Zhang Guodong",
+   "status": "attested"
+  },
+  "钱潮": {
+   "en": "Qian Chao",
+   "pinyin": "Qian Chao",
+   "status": "attested"
+  },
+  "欧阳大汉": {
+   "en": "Ouyang Dahan",
+   "pinyin": "Ouyang Dahan",
+   "status": "provisional"
+  },
+  "朱月倩": {
+   "en": "Zhu Yueqian",
+   "pinyin": "Zhu Yueqian",
+   "status": "attested"
+  },
+  "霍步青": {
+   "en": "Huo Buqing",
+   "pinyin": "Huo Buqing",
+   "status": "attested"
+  },
+  "秦邦宪": {
+   "en": "Qin Bangxian",
+   "pinyin": "Qin Bangxian",
+   "status": "attested"
+  },
+  "黄负生": {
+   "en": "Huang Fusheng",
+   "pinyin": "Huang Fusheng",
+   "status": "attested"
+  },
+  "吴玉章": {
+   "en": "Wu Yuzhang",
+   "pinyin": "Wu Yuzhang",
+   "status": "attested"
+  },
+  "张治中": {
+   "en": "Zhang Zhizhong",
+   "pinyin": "Zhang Zhizhong",
+   "status": "attested"
+  },
+  "杨昌济": {
+   "en": "Yang Changji",
+   "pinyin": "Yang Changji",
+   "status": "attested"
+  },
+  "罗学瓒": {
+   "en": "Luo Xuezan",
+   "pinyin": "Luo Xuezan",
+   "status": "attested"
+  },
+  "蔡元培": {
+   "en": "Cai Yuanpei",
+   "pinyin": "Cai Yuanpei",
+   "status": "attested"
+  },
+  "葛健豪": {
+   "en": "Ge Jianhao",
+   "pinyin": "Ge Jianhao",
+   "status": "attested"
+  },
+  "秋瑾": {
+   "en": "Qiu Jin",
+   "pinyin": "Qiu Jin",
+   "status": "attested"
+  },
+  "蔡畅": {
+   "en": "Cai Chang",
+   "pinyin": "Cai Chang",
+   "status": "attested"
+  },
+  "蔡庆熙": {
+   "en": "Cai Qingxi",
+   "pinyin": "Cai Qingxi",
+   "status": "attested"
+  },
+  "李一纯": {
+   "en": "Li Yichun",
+   "pinyin": "Li Yichun",
+   "status": "attested"
+  },
+  "向警予": {
+   "en": "Xiang Jingyu",
+   "pinyin": "Xiang Jingyu",
+   "status": "attested"
+  },
+  "曾国藩": {
+   "en": "Zeng Guofan",
+   "pinyin": "Zeng Guofan",
+   "status": "attested"
+  },
+  "邓发": {
+   "en": "Deng Fa",
+   "pinyin": "Deng Fa",
+   "status": "attested"
+  },
+  "陈济棠": {
+   "en": "Chen Jitang",
+   "pinyin": "Chen Jitang",
+   "status": "attested"
+  },
+  "施滉": {
+   "en": "Shi Huang",
+   "pinyin": "Shi Huang",
+   "status": "attested"
+  },
+  "黄静汶": {
+   "en": "Huang Jingwen",
+   "pinyin": "Huang Jingwen",
+   "status": "attested"
+  },
+  "谢云巢": {
+   "en": "Xie Yunchao",
+   "pinyin": "Xie Yunchao",
+   "status": "provisional"
+  },
+  "叶耀明": {
+   "en": "Ye Yaoming",
+   "pinyin": "Ye Yaoming",
+   "status": "provisional"
+  },
+  "王震南": {
+   "en": "Wang Zhennan",
+   "pinyin": "Wang Zhennan",
+   "status": "attested"
+  },
+  "王作林": {
+   "en": "Wang Zuolin",
+   "pinyin": "Wang Zuolin",
+   "status": "attested"
+  },
+  "布哈林": {
+   "en": "Bukharin",
+   "pinyin": "Bukharin",
+   "status": "attested"
+  },
+  "叶荣生": {
+   "en": "Ye Rongsheng",
+   "pinyin": "Ye Rongsheng",
+   "status": "provisional"
+  },
+  "曹炳生": {
+   "en": "Cao Bingsheng",
+   "pinyin": "Cao Bingsheng",
+   "status": "provisional"
+  },
+  "鲍文蔚": {
+   "en": "Bao Wenwei",
+   "pinyin": "Bao Wenwei",
+   "status": "attested"
+  },
+  "吴醒亚": {
+   "en": "Wu Xingya",
+   "pinyin": "Wu Xingya",
+   "status": "attested"
+  },
+  "吴汉祺": {
+   "en": "Wu Hanqi",
+   "pinyin": "Wu Hanqi",
+   "status": "provisional"
+  },
+  "罗瑞卿": {
+   "en": "Luo Ruiqing",
+   "pinyin": "Luo Ruiqing",
+   "status": "attested"
+  },
+  "周佛海": {
+   "en": "Zhou Fohai",
+   "pinyin": "Zhou Fohai",
+   "status": "attested"
+  },
+  "李熙元": {
+   "en": "Li Xiyuan",
+   "pinyin": "Li Xiyuan",
+   "status": "provisional"
+  },
+  "王思诚": {
+   "en": "Wang Sicheng",
+   "pinyin": "Wang Sicheng",
+   "status": "provisional"
+  },
+  "钱椒椒": {
+   "en": "Qian Jiaojiao",
+   "pinyin": "Qian Jiaojiao",
+   "status": "provisional"
+  },
+  "侯如史": {
+   "en": "Hou Rushi",
+   "pinyin": "Hou Rushi",
+   "status": "provisional"
+  },
+  "杨邨人": {
+   "en": "Yang Cunren",
+   "pinyin": "Yang Cunren",
+   "status": "attested"
   }
  },
  "organizations": {
@@ -2603,6 +2863,26 @@
    "en": "Dahua Radio Company",
    "pinyin": "Dahua wuxiandian gongsi",
    "status": "decided"
+  },
+  "少年中国学会": {
+   "en": "Young China Association",
+   "pinyin": "Young China Association",
+   "status": "attested"
+  },
+  "利群书社": {
+   "en": "Liqun Book Society",
+   "pinyin": "Liqun Book Society",
+   "status": "attested"
+  },
+  "互助社": {
+   "en": "Mutual Aid Society",
+   "pinyin": "Mutual Aid Society",
+   "status": "attested"
+  },
+  "新民学会": {
+   "en": "New People's Study Society",
+   "pinyin": "New People's Study Society",
+   "status": "attested"
   }
  },
  "places": {
@@ -3020,11 +3300,6 @@
    "pinyin": "Concerning Questions of Leninism",
    "status": "attested"
   },
-  "中国青年": {
-   "en": "China Youth",
-   "pinyin": "China Youth",
-   "status": "attested"
-  },
   "新生命": {
    "en": "New Life",
    "pinyin": "New Life",
@@ -3204,6 +3479,16 @@
   "江西民国日报": {
    "en": "Jiangxi Minguo Ribao",
    "pinyin": "Jiangxi Minguo Ribao",
+   "status": "attested"
+  },
+  "东方杂志": {
+   "en": "Eastern Miscellany",
+   "pinyin": "Eastern Miscellany",
+   "status": "attested"
+  },
+  "向导": {
+   "en": "The Guide",
+   "pinyin": "The Guide",
    "status": "attested"
   }
  }

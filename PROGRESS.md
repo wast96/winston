@@ -1080,3 +1080,93 @@ generally, did not blame Kang at the time); Yan Xishan.
 ### Setup note
 setup.sh regression test "hook stands down on template stub" FAILS (pre-existing
 template-maintenance stub, does not affect real batches) — all other checks green.
+
+---
+
+## B11 — ch19 (Averting a Catastrophe: Gu Shunzhang's Defection) + ch20 (Betrayal to the Last Scrap)
+
+Complete. ch19 = 42 body paras, chapter title + 3 sections (s01 22, s02 7, s03 13),
+9 notes, 0 figures. ch20 = 64 body paras, chapter title + 4 sections (s01 19,
+s02 16, s03 20, s04 9), 12 notes, 0 figures. Both chapters are pure narrative:
+find_figures empty, char-counts show no plate pages, section-opener images
+eyeballed (p406/p413/p418) — figure list EMPTY as a deliberate decision.
+
+### Pipeline / checks (all green)
+- OCR: ocr_crop 389-428, chi_sim psm6, crop 0.11/0.90/0.135/0.95, running-head
+  stripped; pgrep tesseract 0 after. ocr_dual for the disagreement filter.
+- Assembly (b11_strip_furniture / b11_surgery / b11_pagemap / b11_rebuild.sh,
+  following the b10 model). ch19 title prints on TWO OCR lines (em-dash break) —
+  merge_ch19_title() special-cases it. All 7 section headings normalised (p398,
+  p418, p425 were already exact). Paragraph boundaries read off the images; full
+  surgery re-segmentation (assemble under-segments as always).
+- verify_unit: parity 42/64, numbers 0 unresolved, anchors 9/12 ok.
+- qc_entities 0 misses; check_align OK; check_content all-in-paired-paragraph;
+  check_structure parity OK; check_register within tolerance (em-dash 3.9/3.3 per
+  1k vs the ch01 ref 6.0). check_apparatus 0 failures. qa_epub PASS; epubcheck
+  0 fatals/0 errors/0 warnings. EPUB now 21 of 28 chapters (ch00-ch20), 280 notes.
+
+### Surgery boundary traps fixed (the "split/merge keeps the count right while
+shifting content" hazard — caught by qc_entities/check_numbers, not parity)
+- p417 施滉等4人。: the period OCR'd as a comma, welding S2P13's tail into S2P14
+  (also 施涡→施滉). RESTORE'd in the strip.
+- p411 搭民船回来。①: the block-quote's closing 。① OCR'd as a dash, so the snap
+  pulled the "周恩来立即安排" sentence into the next paragraph. RESTORE'd.
+- Leading ① of a block quote read as "9" and welded to the next paragraph start
+  (91931→1931, 9蔡→蔡); trailing ① read as 中 (在于此。”中). Fixed via ocr_fixes.
+
+### OCR-fix ledger (data/ocr_fixes.json: ch19 50, ch20 71) — highlights
+Systematic name garbles corrected: 张国焘 (7 variants), 恽代英 (21 variants!),
+蔡和森 (18), 向忠发 (3), 陈琮英 (was OCR'd 陈玉英/陈院英 throughout — Ren Bishi's
+wife, ONE person), 顾顺章, 周恩来, 瞿秋白, 陈赓, 蔡孟坚, 何成濬, 熊式辉, 陈绍禹,
+邹韬奋, 谢云巢, 王竹樵, 鄂豫皖 (8 variants). Number/marker garbles: $=5 (第5天,
+刑字5237号, 生活费50元), 丸=九 (Shen Bao clip time), 刘夭千 phantom 千 (=刘杞夫),
+poem 患/事, 第二大=第二天. NOTE 张国栋 is a DIFFERENT person (Zhang Guodong, the
+CI memoirist) — NOT merged with 张国焘.
+
+### noise.txt additions (genuine non-quantities; longest-first)
+千秋 (a thousand autumns, poem idiom); 半百 (near/past fifty, idiomatic age);
+三刻 (九点三刻 = a quarter to ten, clock time); 胡说八道 (talk nonsense idiom);
+六安 / 七里坪 (place names with a numeral char); 星期六 (Saturday); 第二天 (next
+day, relative-time idiom); 十万火急 (desperately urgent idiom).
+
+### Crop-verified obscure names (read on the scan)
+钱椒椒 Qian Jiaojiao (Qian Zhuangfei's daughter, Liu Qifu's wife); 孟真 Meng Zhen
+(the CI Fourth-Section chief who wrote the 《特务大师顾顺章》 piece); 刘杞夫 Liu
+Qifu (Qian's son-in-law/courier; source also writes 刘藉千/刘夭千); 陈琮英 Chen
+Congying; 施滉 Shi Huang; 黄玠然 Huang Jieran; 曾洪易→赣东北 (northeast Jiangxi).
+
+### Glossary (added 58 rows nested into people/organizations/works, en+pinyin+
+status). Most principals already on the shelf (顾顺章/周恩来/张国焘/恽代英/蔡和森/
+向忠发/杨登瀛/鲍君甫/米夫/王明/熊式辉/蔡孟坚/王竹樵/刘杞夫/黄玠然 etc.). New:
+沈泽民/张琴秋/夏曦/曾洪易/杨庆山/何成濬/张冲/顾建中/张长根/尤崇新/孟真/张国栋/钱潮/
+欧阳大汉/朱月倩/霍步青/秦邦宪/黄负生/吴玉章/张治中/杨昌济/罗学瓒/蔡元培/葛健豪/秋瑾/
+蔡畅/蔡庆熙/李一纯/向警予/曾国藩/邓发/陈济棠/施滉/黄静汶/谢云巢/叶耀明/王震南/王作林/
+布哈林/叶荣生/曹炳生/鲍文蔚/吴醒亚/吴汉祺/罗瑞卿/周佛海/李熙元/王思诚/钱椒椒/侯如史/
+杨邨人, plus orgs (少年中国学会/利群书社/互助社/新民学会) and works (东方杂志/向导/
+申报). SHELF form held: 中统 = "Zhongtong" (NOT my first-draft "CBIS" — reverted
+to match the 6 prior uses; already footnoted in ch07).
+
+### NOT re-noted (already placed in earlier chapters; cross-referenced)
+Gu Shunzhang (ch09), Zhang Guotao (ch01/05), Wang Ming + Mif (ch02), Yun Daiying
+(ch02), Cai Hesen (ch11), Xiang Zhongfa (preface), Yang Dengying/Bao Junfu (ch06),
+Qian Zhuangfei + Longtan Three (ch04/05), Zou Taofen (ch07), Whampoa (ch03),
+Songhu Garrison (ch02+), Xu Enzeng (ch05/07), Cai Mengjian (ch05), Xiong Shihui
+(ch11/16), Zhongtong (ch05-09). Minor discrepancies left unnoted (tier named in
+STYLE): the source dates Cai Hesen's death only to "shortly after" the 10 June
+arrest — the note supplies the independent 4 August 1931.
+
+### B11 fact-check verdicts (in the notes; Wikipedia / Executed Today / academic
+research notes; NO LLM/Grokipedia)
+CORROBORATED: Gu Shunzhang's defection (arrested Hankou 24 Apr 1931, defected,
+Qian Zhuangfei's warning telegram to Zhou Enlai 25 Apr, the emergency evacuation);
+Yun Daiying executed Nanjing 29 Apr 1931 after Gu's confession; Xiang Zhongfa
+(only CCP general secretary to defect — arrested 22 June, confessed, shot 24 June
+1931 before Chiang's stay arrived); the Longhua martyrs (7 Feb 1931, ~24 dead,
+incl. the Five Martyrs of the Left League: Rou Shi/Hu Yepin/Yin Fu/Feng Keng/Li
+Weisen[Li Qiushi]); Cai Hesen betrayed at the HK seamen's meeting 10 June 1931,
+extradited to Chen Jitang, executed Guangzhou (independent record: 4 Aug 1931),
+aged 36. CAVEAT stated in the note: the manner of Cai Hesen's execution (limbs
+nailed to the wall, chest bayoneted) is the Communist account and is NOT
+independently corroborated. Author's notes reproduced for the 王竹樵/尤崇新
+informer dispute, the 抄靶子 term, and the block-quote sources (Cai Mengjian's
+Taipei memoir; Zhang Guotao's My Recollections; A Life of Yun Daiying).
