@@ -15,7 +15,7 @@ data/raw/
 data/ocr/
 data/verify/
 data/zh_work/
-data/figs/manifest.json
+data/figs/
 build/
 __pycache__/
 *.pyc
