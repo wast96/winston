@@ -257,3 +257,17 @@
 8时45分
 # 9点3刻 "a quarter to ten" (9:45) — idiomatic time, value carried in words
 9点3刻
+#
+# --- B12 / ch10 block: lexical numerals in names and set-phrases ---
+# 二房东 "sub-landlord" — 二 is lexical ("second landlord"), not a count
+二房东
+# 百货公司 "department store" — 百 lexical (lit. hundred-goods), not a count
+百货公司
+# 三河坝 place name (Sanheba) — 三 part of the name, not a count
+三河坝
+# 三洋坎 place name (Sanyangkan) — 三 part of the name, not a count
+三洋坎
+# 李六如 personal name (Li Liuru) — 六 part of the name, not a count
+李六如
+# 十字架 "cross" (crucifix worn on the chest) — 十 lexical, not a count
+十字架

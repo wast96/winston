@@ -4,11 +4,11 @@
 
 > Paste this VERBATIM to start the next batch. It is the only bridge between
 > conversations; HANDOFF/PROGRESS/book.json describe the state, but the pages
-> are the voice, so read the last two pages of ch09's English (and ch01, the
-> frozen register reference) before drafting ch10.
+> are the voice, so read the last two pages of ch10's English (and ch01, the
+> frozen register reference) before drafting ch11.
 
 ```
-Sword Roars B12 Chapter Ten
+Sword Roars B13 Chapter Eleven
 
 Read CLAUDE.md, then HANDOFF.md, then book.json, then STYLE.md and
 STYLE.local.md. In STYLE.local.md the top section "THE REGISTER REBASELINE
@@ -18,34 +18,35 @@ claude/the-sword-roars (the canonical book branch; if the harness starts you on
 a stray per-task branch, consolidate per CLAUDE.md rule 2 and delete the stray,
 local and remote). Run ./setup.sh first.
 
-STATE: B11 is done. Chapter Nine ("The Riddle of Xiang Zhongfa's Disappearance,"
-ch09, PDF 208-235, printed 193-220, 194 paragraphs, 9 sections) is drafted end to
-end against the frozen doc: hand-transcribed off the 300-DPI images (OCR too noisy
-on the names), rendered in ch08's sardonic source-criticism register with each
-source's own words kept and verdicts in the notes; 27 footnotes (book total 317),
-5 hand-cropped figures, 95 new glossary rows, 善钟路 added to the gazetteer, ch09
-added to data/content_config.json. All checks green: parity 194=194, numbers 0
-unresolved, content/entities clean, qa_epub PASS, epubcheck 0/0/0/0, register within
-tolerance. See PROGRESS.md "B11" for the "NOT re-noted" list and the settled
-renderings (向忠发 Xiang Zhongfa, 黄慕兰 Huang Mulan, the Delle Motor Garage, the June
-3 1932 Comintern report canonical form, etc.).
+STATE: B12 is done. Chapter Ten ("Opening a Shop, Doing Trade," ch10, PDF 236-247,
+printed 221-232, 39 paragraphs, 2 sections) is drafted end to end against the frozen
+doc: hand-transcribed off the 300-DPI images (OCR too noisy on the Qin genealogy and
+names), rendered in ch08/ch09's sardonic source-criticism register with each source's
+own words kept and verdicts in the notes; 15 footnotes (book total 332), 3 hand-cropped
+figures, 101 new glossary rows, ch10 added to data/content_config.json. Decided that
+华润 = "Huarun" in the body (glossed "China Resources" at first mention; 《红色华润》 =
+"Red Huarun"). All checks green: parity 39=39, numbers 0 unresolved, content/entities
+clean, qa_epub PASS, epubcheck 0/0/0/0, register within tolerance. See PROGRESS.md
+"B12" for the "NOT re-noted" list and the settled renderings (博古 Bo Gu / 秦邦宪 Qin
+Bangxian, 秦邦礼 Qin Bangli / 杨琳 Yang Lin, 张闻天 Zhang Wentian, the Central Soviet,
+the Central Political Security Bureau, etc.).
 
-This batch's job: DRAFT CHAPTER TEN (ch10, "Opening a Shop, Doing Trade," PDF
-236-247, printed 221-232, 2 sections: s1 一、这个人不简单 "No Ordinary Man" PDF 237,
-s2 二、第一桶金 "The First Pot of Gold" PDF 242) end to end against the frozen doc.
-Offset a constant 15 (printed = pdf - 15); read each opener's folio off the scan.
-Re-render and re-OCR (data/png and data/zh are gitignored, gone on a fresh
-checkout): render.py 236 247 --dpi 300, then ocr_crop.py 236 247 --left 0.06
---right 0.95 --top 0.11 --bottom 0.955 --lang chi_sim --psm 6. OCR is TOO NOISY on
-the proper names, so HAND-TRANSCRIBE data/zh/ch10.txt off the 300-DPI page images
-directly (data/png/p####.png), one paragraph per line, chapter title and section
-heads as ### (the B08/B11 method; OCR is a cross-check, not the source). The
-chapter divider (PDF 236) is design furniture, not a captioned figure; eyeball
-every page for real photos/line art and hand-crop any (exclude the printed
-caption, translator's caption with source-label provenance, real alt text). Add
-ch10 to data/content_config.json.
+This batch's job: DRAFT CHAPTER ELEVEN (ch11, "The Wild Swan," PDF 248-263, printed
+233-248, 3 sections: s1 一、小开 "The Young Master" PDF 249, s2 二、从淞沪抗战到闽变倒蒋
+"From the Shanghai War to the Fujian Revolt" PDF 253, s3 三、我们的人 "Our Own Man" PDF
+256) end to end against the frozen doc. Offset a constant 15 (printed = pdf - 15);
+read each opener's folio off the scan. Re-render and re-OCR (data/png and data/zh are
+gitignored, gone on a fresh checkout): render.py 248 263 --dpi 300, then ocr_crop.py
+248 263 --left 0.06 --right 0.95 --top 0.11 --bottom 0.955 --lang chi_sim --psm 6.
+OCR is TOO NOISY on the proper names, so HAND-TRANSCRIBE data/zh/ch11.txt off the
+300-DPI page images directly (data/png/p####.png), one paragraph per line, chapter
+title and section heads as ### (the B08/B11/B12 method; OCR is a cross-check, not the
+source). The chapter divider (PDF 248) and any washed-out full-page painting are
+design furniture, not captioned figures; eyeball every page for real photos/line art
+and hand-crop any (exclude the printed caption, translator's caption with source-label
+provenance, real alt text). Add ch11 to data/content_config.json.
 
-BEFORE translating, read the final two pages of ch09's English (the voice). Read
+BEFORE translating, read the final two pages of ch10's English (the voice). Read
 the zh against the en on every line; change register, never meaning; invent
 nothing (CLAUDE.md rule 4; verify the TAIL of the unit explicitly against the
 scan). Cite printed folios, never PDF pages. Then footnotes at reader-model
@@ -75,12 +76,17 @@ the chat, and paste the next kickoff verbatim in the same reply.
   ch01-ch08); ch01 thinned 116->91; ch07/ch08 backfilled (+6/+6) + ch01 +1;
   spine-test pass (4 genuine long-narration sentences split); 290 notes. ch09 set
   up and deferred to its own batch (rule 4). See PROGRESS.md "B10".
-- **B11 (this batch) = ch09:** "The Riddle of Xiang Zhongfa's Disappearance," 194
+- **B11 = ch09:** "The Riddle of Xiang Zhongfa's Disappearance," 194
   paragraphs, 9 sections, PDF 208-235. Hand-transcribed off the images; drafted in
   ch08's source-criticism register; 27 notes (book 317), 5 figures, 95 glossary
   rows, 善钟路 -> gazetteer. All checks green, epubcheck 0/0/0/0. See PROGRESS.md
-  "B11" (incl. the "NOT re-noted" list). ch10-ch15, the Preface, and back matter
-  remain.
+  "B11" (incl. the "NOT re-noted" list).
+- **B12 (this batch) = ch10:** "Opening a Shop, Doing Trade," 39 paragraphs, 2
+  sections, PDF 236-247. Hand-transcribed off the images; ch08/ch09 source-criticism
+  register; 15 notes (book 332), 3 figures, 101 glossary rows; 华润 = "Huarun"
+  (glossed China Resources at first mention). All checks green, epubcheck 0/0/0/0.
+  See PROGRESS.md "B12" (incl. the "NOT re-noted" list). ch11-ch15, the Preface, and
+  back matter remain.
 
 ## Tooling in place (DO NOT REVERT)
 - **build_reading_epub.py:** `render_recurring` (Glossary of Recurring Terms, from
@@ -97,8 +103,8 @@ the chat, and paste the next kickoff verbatim in the same reply.
 - `scripts/check_numbers.py`: arabic+万 combiner before the noise loop.
 - `build_reading_epub.py` alt-attribute escaping (B04). `data/noise.txt` carries
   B02-B08 blocks (longest literal first).
-- `data/content_config.json`: docs+sources map for check_content, ch01-ch08.
-  ADD ch09 when you translate it.
+- `data/content_config.json`: docs+sources map for check_content, ch01-ch10.
+  ADD ch11 when you translate it.
 - OCR crop for this book: `--left 0.06 --right 0.95 --top 0.11 --bottom 0.955
   --lang chi_sim --psm 6`. Offset constant 15 (printed = pdf - 15).
 - **Transcription method (B08, confirmed again B10 on ch09 pages):** OCR is too
@@ -120,10 +126,11 @@ the chat, and paste the next kickoff verbatim in the same reply.
 - Set-off block quotes render `{v}`; verse `{p}` (one line per source line);
   dateline `{d}`. `check_structure.py` strips markers before parity.
 
-## Apparatus state after B10 (frozen doc = STYLE.local top sections)
-- 290 notes. Densities (words/note): ch01 174, ch02 124, ch03 283, ch04 417,
-  ch05 264, ch06 383, ch07 377, ch08 634. ch01 outlier corrected; residual
-  extremes are structural (short ch02; long ch08 whose furniture is pre-noted).
+## Apparatus state after B12 (frozen doc = STYLE.local top sections)
+- 332 notes (ch09 +27, ch10 +15). Densities (words/note): ch01 174, ch02 124,
+  ch03 283, ch04 417, ch05 264, ch06 383, ch07 377, ch08 634; ch09 and ch10 both
+  run reference-dense but tapering (ch10 ~290 words/note). Residual extremes are
+  structural (short ch02; long ch08 whose furniture is pre-noted).
 - The Glossary of Recurring Terms (20 rows) and Street Gazetteer (24 streets) now
   carry the recurring furniture and the concession streets; gloss such terms ONCE
   at first appearance and let the back matter carry the rest. When drafting ch09,

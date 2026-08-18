@@ -2,6 +2,106 @@
 
 The running per-batch log. Written as we go.
 
+## B12 — Chapter Ten "开铺子做买卖 / Opening a Shop, Doing Trade" (ch10)
+
+- **Scope.** PDF 236-247, printed 221-232. Two sections: s1 一、这个人不简单
+  "No Ordinary Man" (opener PDF 237, folio 222) and s2 二、第一桶金 "The First Pot
+  of Gold" (opener PDF 242, folio 227). Offset held a constant 15; folios read off
+  the scan at each opener and confirmed on every text page (223-231). Chapter divider
+  p0236 and the washed-out full-page painting p0247 (ch11 divider bleed) are design
+  furniture, not figures. 39 body paragraphs. A change of key from the traitor-hunt
+  chapters: the Party's COMMERCIAL fronts. s1 introduces Bo Gu (Qin Bangxian), the
+  new "man in overall charge" from Sept 1931, and his lineage; s2 follows his younger
+  brother Qin Bangli (alias Yang Lin) running the rice shop, furniture shop, and the
+  Shantou drugstore courier station that fed the Central Soviet, ending on the firm
+  that became China Resources (华润).
+- **Source recovery.** data/zh/ch10.txt HAND-TRANSCRIBED off the 300-DPI page images
+  (OCR chi_sim psm6, crop 0.06/0.95/0.11/0.955, kept as cross-check only — noisy on
+  the names, e.g. 瞿秋白→惧秋白, 洛甫→洛南, the whole Qin genealogy mangled). Chapter
+  title + both section heads marked `###` (parity gotcha). Parity exact: 39 = 39
+  (check_structure --pairs). Crop-verified the uncertain names by eye: 拱危之 (Gong
+  Weizhi, obscure, provisional), 陈友梅 (Chen Youmei, provisional), 张然和 (Zhang Ranhe,
+  provisional), 严重 (Yan Zhong), 黄甦 (Huang Su); the geographic 邵阳 (Shaoyang, as
+  printed in 陈云传 — flagged in a [—Trans.] note as a likely slip off the route);
+  秦摩亚/杨琳/长林 on p0238 (Qin Moya = Bo Gu's daughter; uncle Yang Lin = Qin Bangli;
+  "Changlin" = Bo Gu's childhood name, resolved in a note).
+- **Register.** Drafted straight against the frozen doc (STYLE.local top sections):
+  modern-neutral narration, ch08/ch09 sardonic source-criticism voice kept (the
+  却不是…更非… comparison of 红色华润 vs 陈云传 on the furniture shop; the Chen Pannian ≠
+  Pan Hannian argument; the deadpan quoting of the very source that makes the error),
+  each source's own words preserved, verdicts in the notes. The four-part
+  呼风唤雨/暴风骤雨/腥风血雨/凄风苦雨 wind-and-rain figure preserved and footnoted.
+  Read the final two pages of ch09 first.
+- **Checks, all green.** parity 39=39; verify_unit numbers 0 unresolved (a B12 noise
+  block added: 二房东, 百货公司, 三河坝, 三洋坎, 李六如, 十字架 — all lexical numerals in
+  names/set-phrases, no real quantity; every real count carried in the English:
+  31st/14th generation, five ministries/two capitals, six men/six shops, two gold
+  bars, fourteen years, several hundred comrades); check_align median 4.74 en/han,
+  no pair > 2.2x; check_content 242 name occurrences all in the paired paragraph
+  (ch10 added to data/content_config.json docs+sources; one initial displacement
+  fixed — 凯丰 rendered "Kai Feng" to match the glossary, not "Kaifeng"); qc_entities
+  0 misses; check_apparatus 0/0; anchors 15/15 resolve; build PASS (10/18 chapters,
+  332 notes); qa_epub PASS (91 files, 332 refs/bodies/backlinks); epubcheck 5.1.0
+  0/0/0/0; check_register --ref out/ch01_reading.md within tolerance (dialogue
+  contraction noisy — this unit runs on memoir/document quotes; narratorial signals
+  on-reference: em-dash 6.4/1k, sent median 25, rhythm CV 0.65).
+- **The 华润 rendering decision.** 华润 legitimately wears two English faces: the
+  transliteration "Huarun" (the Chinese name the book uses) and the official English
+  name "China Resources," which the chapter itself introduces and discusses (use vs
+  mention, para 32). Glossary `en` = **Huarun** (so qc/content anchor on it), glossed
+  "China Resources" at first mention (para 21) and again in the naming passage; the
+  book title 《红色华润》 rendered "Red Huarun" for consistency.
+- **Tail verification (rule 4 corollary).** The close (p0246, paras 38-39: 政保/外贸
+  fronts; the two Mao quotes) re-read against the scan; faithful, nothing invented.
+  封锁几十年 kept as "decades" with the received "eight or ten years" in the note.
+- **Footnotes: 15 new** (unit total 15; book 332), first-appearance, reader-model,
+  verdicts in the note. Headline items: the four wind-and-rain idioms; the Central
+  Soviet/Ruijin; the Qin genealogy (Qin Guan the Song poet; Qin Jin the Ming official
+  + the Jichang Garden); 吃人礼教 as the May Fourth/Lu Xun trope; the Li Qingzhao
+  声声慢 allusion; "Changlin" = Bo Gu + his April 8 1946 death ("4·8 martyrs");
+  Qin Bangli/Huarun/China Resources; the Sino-French Drugstore; the courier-line
+  roster as the future PRC leadership; the Shaoyang [—Trans.] slip; the Central
+  Political Security Bureau (crux of the Chen Pannian argument); the two 1949 Mao
+  slogans. New figures: 3.
+- **NOT re-noted (already placed earlier) — cross-referenced, not re-noted:** Bo Gu /
+  Qin Bangxian (ch09), Li De / Otto Braun (ch08), Wang Ming (ch05/ch08/ch09), Kang
+  Sheng (ch02/ch03), Xu Enzeng (ch01/ch08), Gu Shunzhang (ch01), Pan Hannian (ch01),
+  Chen Yun (ch02/ch09), Zhou Enlai (ch05), Deng Yingchao (ch01), Chen Duxiu
+  (ch01/ch02), Qu Qiubai (ch01), Xiang Zhongfa (ch09), Chen Geng / Qian Zhuangfei /
+  Hu Di (ch01/ch08), Deng Xiaoping (ch03), Ren Bishi (ch01), Nie Rongzhen (ch08),
+  Dong Biwu (ch09), Zhu De (ch03); the Central Special Branch (ch01), the ACFTU/全总
+  (ch07), the Communist University of the Toilers of the East (ch03), the White Terror
+  (ch03), 铺保/打保单 "stand the surety" (ch05), the Fourth Plenum / 28 Bolsheviks
+  (ch05/ch09).
+- **Figures: 3** (`data/figs/ch10-01..03.png`, hand-cropped, printed captions excluded,
+  translator's captions with source-label provenance, real alt text): the Bo Gu
+  portrait (s1, p0237/folio 222); the Qin Bangli portrait (s1, p0239/folio 224); the
+  1937 Qin Bangli family photo (s2, p0245/folio 230). find_figures not relied on;
+  every page eyeballed.
+- **Glossary: 101 new rows** (70 people, 26 places, 5 organizations), written into the
+  sectioned ledger; 30 existing rows reused unchanged. `en` all ASCII. Recurring
+  institutional terms flagged `recurring:true`: 华润 (Huarun), 中央政治保卫局 (the
+  Central Political Security Bureau), 全总 (the ACFTU), 中央苏区 (the Central Soviet).
+  No new concession streets (德辅道/太子行 are Hong Kong, not gazetteer). Consulted
+  authority.json: 香港=Hong Kong, 广州=Guangzhou, 瑞金=Ruijin confirmed shelf-wide.
+
+### Renderings settled this batch (also in glossary.json)
+- 博古 = Bo Gu (real name 秦邦宪 Qin Bangxian, courtesy 则民 Zemin, pen name 上林
+  Shanglin); 秦邦礼 = Qin Bangli (alias 杨琳 Yang Lin, HK name 杨廉安 Yang Lian'an);
+  华润 = Huarun (English name China Resources); 张闻天 = Zhang Wentian (alias 洛甫 Luo
+  Fu); 卢福坦 = Lu Futan, 李竹声 = Li Zhusheng (both "later turned traitor"); 严朴 =
+  Yan Pu; 卓雄 = Zhuo Xiong; 陈潘年 = Chen Pannian ("Fat Chen", ≠ Pan Hannian);
+  the Qin memoirists 秦红 Qin Hong, 秦摩亚 Qin Moya, 秦福铨 Qin Fuquan, 秦钢 Qin Gang,
+  秦家骢 Qin Jiacong (Frank Ching); 戚元德 Qi Yuande, 吴德峰 Wu Defeng (reused), 卢伟良
+  Lu Weiliang, 黄美娴 Huang Meixian; 严重 = Yan Zhong, 黄甦 = Huang Su, 拱危之 = Gong
+  Weizhi.
+- Places: 汕头 = Shantou, 大埔 = Dabu, 永定 = Yongding, 上杭 = Shanghang, 汀州 =
+  Tingzhou, 三河坝 = Sanheba, 瑞金 = Ruijin, 中央苏区 = the Central Soviet, 红庙 =
+  Hongmiao, 寄畅园 = the Jichang Garden, 德辅道 = Des Voeux Road, 太子行 = Prince's
+  Building, 联合行 = Lianhehang, 联合公司 = the Lianhe Company, 天隆行 = Tianlonghang.
+- Orgs: 中法药房 = the Sino-French Drugstore; 复元钱庄 = the Fuyuan money house;
+  全总 = the All-China Federation of Trade Unions (reused, ch07).
+
 ## B11 — Chapter Nine "向忠发失踪之谜 / The Riddle of Xiang Zhongfa's Disappearance" (ch09)
 
 - **Scope.** PDF 208-235, printed 193-220. Nine sections ch09s01-s09 (openers at
