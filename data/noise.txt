@@ -260,3 +260,33 @@
 # arabic-digit + 万 composites (6万元 etc.): value carried in English
 [0-9]+万
 [0-9]+萬
+# 九牛二虎(之力) = tremendous effort (idiom; 九=9, 二=2) — rendered "immense effort"
+九牛二虎
+# 五角形 pentagon (shape; 五=5) — rendered "pentagon"
+五角形
+# 曾传六 Zeng Chuanliu (personal name; 六=6) — rendered "Zeng Chuanliu"
+曾传六
+# 一再 = again and again (idiom; 一) — rendered "again and again"
+一再
+# 千瓦 = kilowatt (千=1000 is the unit prefix) — rendered "kilowatt"; the count stays
+千瓦
+# arabic-digit decade label (20年代, 30年代) — rendered "the 1920s/1930s"
+[0-9]+年代
+# parenthesized CJK list ordinals (一)(二)(三) — list markers, not quantities
+[(（][一二三四五六七八九十]+[)）]
+# 化整为零 = break up into small units (idiom; 零=0/parts) — rendered "broke into small units"
+化整为零
+# 一同 = together (adverb; 一) — rendered "together"
+一同
+# 最后一期 = the last course/term (一 is the measure "a", not a count) — rendered "the last training class"
+最后一期
+# 十多万(字) = more than a hundred thousand (十=10,万=10000) — value carried "a hundred thousand"
+十多万
+# 十亚不赦 = 十恶不赦 garbled, "beyond all pardon" (idiom; 十=10) — rendered "beyond all pardon"
+十亚不赦
+# 1/10 fraction (Zhongtong a tenth of Juntong) — rendered "a tenth"
+1/10
+# 濮孟九 Pu Mengjiu (personal name, OCR'd 濮备九; 九=9) — rendered "Pu Mengjiu"
+濮备九
+# 1个多月 = more than a month (arabic 1 as the measure "a", not a count) — rendered "more than a month"
+1个多月

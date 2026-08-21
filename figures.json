@@ -212,5 +212,33 @@
       "alt": "A black-and-white photograph of a man lying on his back, dead, his head turned and eyes closed, dressed in a dark jacket, on a pale cloth-covered surface.",
       "caption": "Yang Xingfo, assassinated on 18 June 1933. The identification is the source's; the caption is the translator's."
     }
+  ],
+  "ch23": [
+    {
+      "file": "ch23_smedley.png",
+      "before": "Smedley was a friend of the Chinese people",
+      "alt": "A grainy black-and-white photograph of a woman with short dark hair, in a light open-necked blouse and a dark jacket, standing before a leafy background.",
+      "caption": "The American journalist Agnes Smedley, a member of the China League for the Protection of Civil Rights. The source's label names her; the caption is the translator's."
+    },
+    {
+      "file": "ch23_alley.png",
+      "before": "Liu Ding stayed at Alley's until the start of 1936",
+      "alt": "A black-and-white portrait photograph of a young Western man in a jacket and open-collared shirt, hair combed back.",
+      "caption": "Rewi Alley, the New Zealand writer and friend of the Chinese people, who in 1932 worked in the fire brigade of Shanghai's Hongkou district. The source's label names him; the caption is the translator's."
+    },
+    {
+      "file": "ch23_ruijin_office.png",
+      "before": "Dangerous as his position now was",
+      "alt": "A black-and-white photograph of a low single-story building with a tiled roof and whitewashed walls, seen across an open yard.",
+      "caption": "The building that served as Zhou Enlai's office after he reached the Central Soviet at Ruijin. The source's label identifies it; the caption is the translator's."
+    }
+  ],
+  "ch24": [
+    {
+      "file": "ch24_network.png",
+      "before": "Of the Central Special Section's working methods he wrote",
+      "alt": "A hand-drawn organization chart. A large central circle labeled 'Second Branch — Detection — Section Head Gu' radiates lines to some two dozen smaller circles standing for agents and contacts, several inked solid black and one bearing the Kuomintang sun emblem; boxed sub-groups at the corners are labeled for Nanjing, Shanghai, Manchuria, and Hong Kong.",
+      "caption": "The intelligence network of the Central Special Section's Second Branch, as Gu Shunzhang drew it for the enemy in The Theory and Practice of Secret Service Work. Reproduced from the source; the caption is the translator's."
+    }
   ]
 }

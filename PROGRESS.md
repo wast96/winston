@@ -1235,3 +1235,91 @@ the book they were NOT freed after the prison hunger strike but only in 1937
 for the block-quote sources (Yang Zhihua/Du Ning; Edgar Snow; China Forum; Xinhua's
 Ding Ling obituary; Ding Ling's own Wangliang shijie memoir; Shen Bao; Epstein's
 Soong Ching Ling) and the two author bio-notes for Pan Zinian and Ying Xiuren.
+
+## B13 (ch23 Concealment/Withdrawal/Relocation + ch24 The Traitor Gu Shunzhang's Shameful End)
+
+DONE end to end. ch23 = 101 body paragraphs, 6 sections, 14 notes, 3 figures;
+ch24 = 63 body paragraphs, 4 sections, 8 notes, 1 figure. All checks green.
+
+### Scope
+- ch23 (PDF 485-526, printed 441-482): the orderly retreat of the apparatus after
+  Gu Shunzhang's defection. Special Committee reshuffled, Special Section
+  reorganized under Chen Yun (s01); Chen Geng and Chen Yangshan work Tianjin then
+  are withdrawn (s02); Li Qiang barred by Wang Ming from KUTV, becomes a Soviet
+  radio expert, returns 1937 (s03); the "Three Heroes of Longtan" to the Central
+  Soviet, Qian Zhuangfei lost on the Long March 1935, Hu Di murdered by Zhang
+  Guotao 1936, Li Kenong (s04); Liu Ding's arrest, release, capture at Yiyang,
+  escape, Smedley/Alley, Xi'an (s05); Zhou Enlai's route Shanghai->Shantou->Dapu->
+  Ruijin, late 1931 (s06).
+- ch24 (PDF 527-552, printed 483-508): Gu Shunzhang the hunted traitor and the
+  1931 wanted-order signed by Mao (s01); his worsening betrayal, the surrender
+  policy, the spy-training classes, the Zhongtong/Juntong tug-of-war (s02); the
+  fawning book he ghost-wrote, The Theory and Practice of Secret-Service Work, in
+  which he betrayed the Special Section's structure (s03); his execution by Xu
+  Enzeng, ~1935 at Suzhou, told through four conflicting agent memoirs (s04).
+
+### Checks (all pass)
+- parity 101/101 and 63/63 (check_structure).
+- verify_unit ch23/ch24: anchors ok (14 / 8), numbers clean.
+- check_numbers --noise: 0 unresolved both. Extended data/noise.txt (nine idioms/
+  measure forms: 九牛二虎, 五角形, 曾传六, 一再, 千瓦, 濮备九, 化整为零, 一同,
+  最后一期, 1个多月, 十多万, 十亚不赦, 1/10, [0-9]+年代, parenthesized CJK ordinals).
+- qc_entities: 0 misses both. check_content --config: OK all units.
+- check_align OK (ratio 4.33 / 4.37). check_register --ref ch01: within tolerance
+  (em-dash 4.8 / 6.1 per 1k vs ref 6.0).
+- qa_epub PASS (28 docs, 323 notes, 470 pagebreaks); epubcheck 0/0/0.
+
+### Real errors the checks surfaced and fixed
+- 陈康 was NOT a separate person: both occurrences are Chen Geng (OCR 赓->康). Folded
+  to 陈赓 (removed the stray glossary row).
+- 陈庆斋 (Chen Qingzhai) was wrongly folded by a too-broad 陈庆->陈赓 in ch24; removed.
+- 张国栋 is Zhang Guotao (张国焘) in ch23s04 but a REAL different person Zhang Guodong
+  (张文) in ch24: the 张国焘 fold list is ch23-only (per-unit NAMES), so ch24 keeps 张国栋.
+- 第二次国内革命战争 mistranslated "Third" -> "Second" (number check).
+- 万吨水压机 -> "10,000-ton" (figures per STYLE).
+- Pan Hannian / Tianjin dropped in two paragraphs (qc_entities), restored.
+
+### OCR-era digitization glitches LISTED (rendered to plain sense; only genuine
+reading uncertainty footnoted)
+- Note-ref circled-1 markers OCR'd as trailing digits (.0 / 9) at quote ends; the
+  book-title bracket 《 as 4; 1/10 as 1710; 乌克兰人 as 乌克三人; 193$ / 193S as 1935;
+  骨干 as 骨二. All corrected via data/ocr_fixes.json (crop/context verified).
+- Pervasive name mangles de-mangled: 陈赓 (~15 forms), 刘鼎 (~11), 张国焘 (8),
+  蒋介石, 顾顺章, 徐恩曾, 陈养山, 周恩来, 李一氓. Canonical hanzi restored so
+  qc_entities passes.
+
+### Source errors footnoted (kept as printed)
+- Alma-Ata called "capital of Uzbekistan" (it was the Kazakh SSR's). Footnoted.
+
+### Fact-check verdicts (in the notes; WebSearch Wikipedia/academic; NO LLM/Grokipedia)
+CORROBORATED: Chen Yun took over the Special Section 1931 (later PRC economic
+architect); Fang Zhimin founded the northeast-Jiangxi / Min-Zhe-Gan soviet,
+captured Jan 1935, wrote Beloved China in Nanchang prison, executed 6 Aug 1935;
+Agnes Smedley (US journalist, Comintern circles, d. 1950); Rewi Alley (New
+Zealander, Shanghai fire-brigade inspector, sheltered Communists, Gung Ho founder);
+Qian Zhuangfei's Long March death spring 1935 attested in outline (Meiliangkeng
+manner a 1985 reconstruction); Hu Di killed Sept 1936 on Zhang Guotao's orders;
+C.C. clique = Chen Guofu/Chen Lifu faction controlling the Zhongtong. UNCORROBORATED:
+the Zhongtong charge that Gu Shunzhang had resumed Communist contact (author argues
+it is internally inconsistent). Author's notes reproduced for the block-quote and
+memoir sources (Du Ning/Yang Zhihua; Chen Yangshan; Wu Chengfang; the Chen Yun
+Chronicle; Li Yimang's Blurred Screen x2; the Xifeng investigation report; the
+Liu Ding People's Daily obituary; Huang Ping's Recollections; Dick Wilson; Zhang
+Wen; the Zhongtong Lackey; Lin Jinsheng; the "Master of Secret-Service Work"; Chen
+Weiru).
+
+### NOT re-noted (already placed earlier in the book; cross-referenced)
+White Terror, Central Special Section, Red Squad, Three Heroes of Longtan, Wu Hao,
+Li Lisan line, Fourth Plenum, Xiang Zhongfa, Kang Sheng, Pan Hannian, Wang Ming,
+Ruijin, Central Soviet, Chinese Eastern Railway Incident, September 18 / Mukden /
+Marco Polo Bridge Incident, Zunyi Conference, Long March, Zhang Guotao, Feng
+Yuxiang, Xi'an Incident, Chiang Kai-shek, Whampoa, GPU, Cheka, Dog-Beating Squad,
+Kuomintang, Zhongtong, Juntong, concession police, Songhu Garrison Command.
+
+### Assembly (b13_* recovery scripts, the current model)
+Furniture strip switched to a robust LINE-BASED foot-citation peeler (this batch had
+~31 foot citations, several glued to the last body line with no blank). Three photo
+plates (Smedley p517 top, Rewi Alley p520 top, Zhou's Ruijin office p523 foot) and
+one hand-drawn diagram (Gu's Second-Branch network, p543 mid-page, which
+find_figures MISSED as line art) stripped from the body and reproduced as figures.
+Surgery markers written in clean text against the same-length de-mangle map.
