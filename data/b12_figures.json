@@ -1,0 +1,24 @@
+{
+ "figures": {
+  "ch21": [
+   {"file": "ch21_lidu.png",
+    "before": "After his arrest Chen Geng was taken to the Laozha",
+    "alt": "A grainy black-and-white photograph looking up at the upper facade of a two-story building with tall windows; a horizontal sign across the front carries large Chinese characters and, beneath them, the roman letters LI DU DA XI YUAN.",
+    "caption": "The Lido Theatre (formerly the Beijing Theatre) on Guizhou Road, Shanghai, where Kuomintang agents seized Chen Geng on 24 March 1933. The source's label reads “Lido Theatre”; the caption is the translator's."},
+   {"file": "ch21_league_group.png",
+    "before": "On the evening of April 5, Song Qingling and the others",
+    "alt": "A black-and-white group portrait of several people standing outdoors before foliage: a tall bearded Western man in a dark coat at left, a woman with bobbed hair at center, and two older men in Chinese long gowns at right.",
+    "caption": "The China League for the Protection of Civil Rights with the visiting British writer George Bernard Shaw, Shanghai, 1933. By the source's labels: chair Song Qingling (center), vice-chair Cai Yuanpei (second from right), executive member Lu Xun (far right), with the American member Agnes Smedley and George Bernard Shaw. The caption is the translator's."}
+  ],
+  "ch22": [
+   {"file": "ch22_songqingling_speech.png",
+    "before": "The League's work to rescue political prisoners",
+    "alt": "A black-and-white photograph of a crowded indoor meeting: rows of people seated at long tables recede toward tall curtained windows, and a woman stands at the right, speaking to the gathering.",
+    "caption": "Song Qingling speaking at a meeting of the China League for the Protection of Civil Rights, protesting the Chiang Kai-shek government's Fascist violations of human rights. The wording of the identification is the source's; the caption is the translator's."},
+   {"file": "ch22_yang_body.png",
+    "before": "This assassination shook the whole country",
+    "alt": "A black-and-white photograph of a man lying on his back, dead, his head turned and eyes closed, dressed in a dark jacket, on a pale cloth-covered surface.",
+    "caption": "Yang Xingfo, assassinated on 18 June 1933. The identification is the source's; the caption is the translator's."}
+  ]
+ }
+}
