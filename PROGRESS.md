@@ -3663,3 +3663,127 @@ Lishuiqiao between the Daxing local corps and the Communist militia.
   毘 (毗), 艶 (艳, in 程艶秋), 坁 (坻, in 宝坁), 天家 for 大家 (z77); the 〇 mis-read glyph in the 0760
   unit code (z73/z143) and the 二〇八 Division (z75/z76); x redactions (z54 第x团, 王xx). Many dropped
   。 mid-<p>. All rendered to plain sense; none is a reading uncertainty.
+
+## Batch B31 (ch38 = 第六章 曲直分明 反复无常, the SIXTH Part-Four narrative chapter)
+
+"Chapter 6. Right and Wrong Made Plain, yet Ever Fickle." Four sections: ch38s01 "Had Japan Not
+Invaded, None of This Would Have Happened"; ch38s02 "Would That Every Unit Were So Steadfast";
+ch38s03 "Or Did the Tide Turn and Their Resolve Fail?"; ch38s04 "For All the Waverings, Magnanimous
+Still." The case of Zhu Zhankui (朱占奎), the defector: an anti-Japanese village guerrilla captured by
+the Japanese, who escaped, fell in by mistake with Lü Zhengcao's Communists, rose to a subdistrict
+command, was purged, went over to He Long/Xiao Ke, was captured by the Nationalists, made a district
+commissioner and major-general security commander, worked in concert with Chen's assault team through
+1948 in the Beiping-Tianjin-Baoding triangle — and at the end of that year lured the Second Command
+Room and the directly subordinate assault team into a "widening of the guerrilla front" that was a
+trap, and defected back to the Communists. Built on three long contributed accounts by the assault
+team's three successive commanders (Wang Hongzhu, Chang Shaozeng, Wu Chunxiang) plus Wang Zhiyi's
+"Story of Zhu Zhankui," framed and annotated by Chen. Closes with the tragedy of the staff officer
+Gu Shoulin, who lost his reason in Hong Kong in 1951 and vanished.
+
+### Structure
+- drop=2 (running header 英雄无名-陈恭澍 + <h2> chapter title). Byte-exact p-by-p diff against the
+  source XHTML: 1 <h2> + 4 <h3> (section heads 一/二/三/四) + 135 <p>, ZERO mismatches; NO <h1>/<br/>/
+  <img>/[\d+], 0 images. File has NO trailing newline (141 lines; wc -l counts 140); after drop=2 the
+  txt has 139 body lines = 4 <h3> heads (raw 1-based L15/L46/L69/L113) + 135 <p>. standalone=[15,46,
+  69,113]. The "1-line count scare" (ch36 pattern) was a trailing-newline miscount, confirmed harmless.
+- NO severed-<p> merges. L68 ends 。﹂ (sentence closed inside a closing-quote glyph, terminal). The
+  two ！/？-ending candidates are complete terminal sentences, NOT mid-predicate severs (L48 ...你死
+  我活！ a rhetorical exclamation; L106 ...打游击的？ a rhetorical question with a stray 分明是圈套）
+  paren-glitch). NO ch36-class source-duplication (near-duplicate scan found nothing >0.6; no heading
+  text fused mid-<p>).
+- 135 body paragraphs. median ratio 5.55 en/han (document/quote-heavy: four contributed accounts).
+  Alignment OK (no pair strays >2.2x).
+
+### Checks (all green)
+- verify_unit ch38: parity 135/135 OK; numbers 0 unresolved (after the noise additions below);
+  anchors OK. check_align: median 5.55, OK. check_structure: ALL PASS (335 notes, 0 unresolved).
+- check_content: ch38 178 name occurrences, 1 "DISPLACED" = the DOCUMENTED HOMOGRAPH FALSE POSITIVE
+  海防 (paragraph 60): keyed as the place "Haiphong" (Part Two), but here 协力于海防 means "aid in the
+  coast defense" (common noun), correctly rendered "coast defense" — softening it to "Haiphong" would
+  be WRONG. (Same class as ch26's 武汉卿/劳勃生路 keyed-substring false positives.) The ch08/09/13/26
+  lines are the other documented pre-existing artifacts.
+- qc_entities: 1 miss = the SAME 海防/Haiphong false positive; otherwise clean (census top: 朱占奎 x73,
+  北平 x15, 常绍曾 x15, 贺龙 x13, 汪鸿翥 x13, 王庆沱 x13, 谷守林 x10, 绥靖 x8 — the keyed noun rendered
+  "pacification" throughout, NO verb-form drift).
+- Tail verified against source (zh138-140: the siege of Beiping / Zhu at Nanyuan; Chen never again
+  finding the name in Communist records; the bitter close "took up his old trade again — the blowing
+  of the horn" is faithful and complete). check_register --ref: within tolerance (contr 0.0/1k,
+  em-dash 7.1/1k, rhythm 0.69; "shall" deliberate). check_apparatus: 0 failures. qa_epub: PASS (38/43
+  chapters, 335 notes). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+### Notes (8 new; 335 cumulative) — all first-appearance, none re-noted
+1. The "Anti-Japanese University" = the CCP cadre academy Kangda (抗日军政大学/抗大, founded 1936 as
+   红军大学); scholarship verdict against Chen's scorn (anchor "Anti-Japanese University").
+2. He Long (贺龙, 1896-1969): Red Army founder, Nanchang Uprising, 120th-Division commander, PLA
+   marshal; persecuted to death in the Cultural Revolution (corroborating Chen's remark), rehabilitated
+   1974 (anchor "bandit chieftain He Long").
+3. Xiao Ke (萧克, 1907-2008): He Long's deputy in the 120th Division, full general 1955 (anchor "help
+   Xiao Ke").
+4. The chuigushou (吹鼓手): the low-status folk shawm-and-drum bandsman of weddings/funerals, the suona
+   Chen calls the 喇叭 laba — Zhu's humble trade and the chapter's bitter close (anchor "as a
+   chuigushou").
+5. 数白嘴 / 流口辙: the rapid rhymed patter of the folk performing arts (kuaiban/xiangsheng), Chen's
+   simile for the explosives-recipe jingle (anchor "patter-rhyme of the storyteller").
+6. The Eighteenth Group Army / Eighth Route Army (第十八集团军/八路军): the 1937 united-front
+   redesignation, the 115th/120th/129th Divisions, the New Fourth Army (anchor "Eighteenth Group Army").
+7. The Hanyang rifle (汉阳造, Gewehr-88 copy in 7.9mm, from 1895) vs the Japanese Arisaka Type 38
+   (anchor "Hanyang-made").
+8. The statecraft maxim 用而不疑、疑而不用 ("employ a man and doubt him not...") and 泱泱大度 (the
+   section-4 title, the "grand bearing of a great state") (anchor "employ a man and doubt him not").
+- NOT re-noted: the Marco Polo Bridge / Double-Seventh Incident, Yan'an, the Youth Army, the 208th
+  Division, the Lizhi Class / Central Training Corps, the Three Principles of the People, the Red
+  Guards / Cultural Revolution, tunnel warfare, the Type 38 rifle, He Long's Jiangxi bandit-suppression
+  days, the North China Bandit-Suppression HQ, the whole 绥靖/戡乱/共匪 framing — all covered earlier.
+  Ren Zhuoxuan (任卓宣) and Xu Foguan (徐佛观), named once as instructors, left inline.
+
+### Glossary (10 net-new keyed rows; add_ch38_glossary.py)
+- People: 汪鸿翥 Wang Hongzhu (first assault-team cmdr, section-2 account author), 吴春祥 Wu Chunxiang
+  (third assault-team cmdr, section-4 account author), 谷守林 Gu Shoulin (Second-Command-Room staff
+  officer, the Hong Kong tragedy) — all provisional; 萧克 Xiao Ke (attested).
+- Places (decided): 王庆沱 Wangqingtuo, 杨柳青 Yangliuqing, 独流 Duliu, 静海 Jinghai, 顺义 Shunyi,
+  唐官屯 Tangguantun (the Jin-Pu-line theatre towns that recur across sections 2-4).
+- Reused the whole B01-B30 keyed cast and Part-Four vocab (朱占奎/常绍曾/李玉林/刘原深/刘培初/郑介民/
+  张炎元/吕正操/贺龙/林彪/陶铸/聂荣臻/江田; 绥靖总队/中央训练团/华北剿匪总司令部/平津保三角地带; 绥靖
+  "pacification"/戡乱/剿匪/匪谍/共酋/共干; 石家庄/安国/大兴/安次/立水桥/冀东). Settled common-noun
+  renderings reused (not keyed): 突击队 "assault team", 直属突击队 "directly subordinate assault team",
+  第二指挥室 "Second Command Room", 区队 "district company", 分队 "sub-brigade", 小组 "small group",
+  骑兵班 "cavalry squad", 自衞队 "self-defense corps", 打情报 "beating out intelligence" (Chen's jargon).
+- INLINE, NOT keyed (glossary-key discipline — one-off account-authors, subordinate/district-company
+  officers, one-mention figures/villages): 王志毅 Wang Zhiyi, 董英 Dong Ying, 任卓宣 Ren Zhuoxuan,
+  徐佛观 Xu Foguan, 张鲁颖 Zhang Luying, 李长清 Li Changqing, 徐立德 Xu Lide, 杨士毅 Yang Shiyi, 窦玉麟
+  Dou Yulin, 张保权 Zhang Baoquan, 贾叔铭 Jia Shuming, 赵濶亭 Zhao Kuoting, 李葆章/李保章 Li Baozhang
+  (source spells it both ways), 张侗夫 Zhang Tongfu, 陈俊祥 Chen Junxiang, 任德勤 Ren Deqin, 赵子侠
+  Zhao Zixia, 王维宁 Wang Weining, 吴玉林 Wu Yulin, 刘纯熙 Liu Chunxi, 张麟阁 Zhang Linge, 马钟麟 Ma
+  Zhonglin, 孙守义 Sun Shouyi, 刘楚枫 Liu Chufeng, 张培植 Zhang Peizhi, 汪鸿骏 Wang Hongjun (distinct
+  from 汪鸿翥), 刘伯承 Liu Bocheng, 中野 Nakano; the villages 五重山 Wuchongshan, 白房村 Baifang, 牛栏山
+  Niulanshan, 赵家寨子 Zhaojiazhaizi, 王家庄子 Wangjiazhuangzi, 青王庄 Qingwangzhuang, 唐二里/汤二里
+  Tang'erli, 昌平/永清/固安/沧县/德县/德州/清河镇/南苑/喜峰口/都山/明孝陵.
+
+### data/noise.txt — B31 additions (8)
+- **五、六万** (approximate range "some fifty or sixty thousand"; the built-in 万 rule matches 六万 and
+  orphans the leading 五). **六旬** (age idiom "past his sixtieth year", 旬 = a span of ten).
+- **三五一** (idiom 三五一簇 "in knots of three and five"; the checker mis-reads 三五一 as the
+  positional value 351). **化整为零** (idiom "break the whole into parts"; the 零 = 0). **二门** (the
+  architectural "inner gate"; 二 = second gate, not the count 2).
+- **唐二里 / 汤二里** (place-name numeral Tang'erli; 二 part of the name; source prints it both ways).
+- **一一五** (the 115th Division designation; the checker reads the digit-string 一一五 as the composed
+  value 5 rather than 115 — cf. 二〇八; carried "115th Division"; 一二九→129 and 一二〇 parse cleanly).
+- All REAL quantities carried as DIGITS/words: force ~3,500 men; the atlas scale "one part in
+  3,500,000" and ">200 km" (written as DIGITS since spelled compounds do not compose); 208th Division;
+  the assault-team establishment (4 district companies → after / 3, 5 men per group); the Baifang
+  haul (48 sacks grain, 6/10 horses); the Wangqingtuo timings (5:40 pm, 9:20 pm, 5:10 am, forty-past-
+  five etc. rendered with "past" forms carrying both digits); 12 LMGs + 28 automatic rifles; >120 /
+  ~200 / >400 men; ROC years 24/26/30/34/36/37/38/40 matched by ordinal or +1911.
+
+### Digitization glitches (rendered to plain sense; none footnoted — mechanical)
+- **ch38:** stray ） standing for a closing paren/」 (z105 分明是圈套）both sides); stray ！ after a
+  terminal 。 (z74 撤退。！); stray closing/opening presentation glyphs ︸ heading z34, 〕(z96 会报〕),
+  ⋮ for 」 (z97 政治部队⋮), 》 mid-clause (z119 有感情》), 〞/" (z133 陷落"); the 〇 mis-read glyph in
+  the 0760 unit code (z117) and 一二〇师; enumeration-marker glitches in the four-point judgment 〇/2/
+  囝/困 for （一）（二）（三）（四）(z123-125, rendered (1)-(4)); the | / 叵 dash-glitches (z21 记述如下|,
+  z63 队长一职由常绍曾同学接任叵); single-char substitutions 兵不血刄 (刃, z106), 冷不妨 (冷不防, z78),
+  比一行动 (此, z79), 军纪岩明 (严明, z72), 刘佰承 (刘伯承, z40), 整䓩 (整枝, z89), 过过来 (dittography,
+  z13); variant/rare glyphs 鄕 (乡), 鬪 (斗), 尙 (尚), 刼 (劫), 窰 (窑), 尶尬 (尴尬), 衞 (卫), 濶 (阔),
+  彩 for 采 (兴高彩烈); x/% redactions (第x专区, xx县, x月, 九月x日, %月). All rendered to plain sense;
+  none is a reading uncertainty. Name-form variants noted: 朱占奎/朱占魁 (same man, inline), 李葆章/李保章
+  (same man), 唐二里/汤二里 (same place); 徐佛观 = the philosopher Xu Fuguan (source 佛 for 复), inline.

@@ -908,3 +908,29 @@
 # Idiom 名利两淡 "indifferent alike to fame and gain" (ch37): the 两 here means
 # "both / the pair," carried in English as "alike to fame and gain," not the count 2.
 两淡
+# Approximate range 五、六万人 "some fifty or sixty thousand" (ch38): the source hedges
+# 50,000/60,000, carried in English as "fifty or sixty thousand," an approximation,
+# not tracked composed values; the built-in 万 rule matches 六万 and orphans the leading 五.
+五、六万
+# Age idiom 年逾六旬 "past his sixtieth year" (ch38): 六旬 = sixty years of age (旬 = a
+# span of ten), carried in English as "past his sixtieth year," not the bare count 6.
+六旬
+# Idiom 三五一簇 "in knots of three and five" (ch38): the checker reads 三五一 as the
+# positional number 351; carried in English as "in knots of three and five," an idiom
+# for a scattered few, not the value 351.
+三五一
+# Idiom 化整为零 "break the whole into parts" (ch38): the 零 (0) is part of the set
+# phrase (to disperse a body into small detachments), not the count 0.
+化整为零
+# Architectural term 二门 "the inner gate" (ch38): the 二 names the second/inner gate
+# of a courtyard house, not the count 2.
+二门
+# Place-name numeral 唐二里 / 汤二里 "Tang'erli" (ch38): the 二 is part of the town's
+# name, not the count 2; the source prints it both ways (唐/汤).
+唐二里
+汤二里
+# Unit-designation numeral 一一五(师) "the 115th Division" (ch38): the checker reads
+# the digit-string 一一五 as the composed value 5 rather than 115; carried in English
+# as "115th Division," a designation, not the count 5. (Cf. 二〇八 above; 一二九→129
+# and 一二〇 compose/parse cleanly and need no rule.)
+一一五

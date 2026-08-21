@@ -2705,6 +2705,30 @@
    "pinyin": "Cheng Yanqiu",
    "status": "provisional",
    "note": "The great Peking-opera dan (his stage name also written 程砚秋), one of the 'Four Great Dan'; here Chen's fellow 'disciple' under Du Xinwu, who in 1947-48 pressed Chen to intercede for detainees."
+  },
+  "汪鸿翥": {
+   "en": "Wang Hongzhu",
+   "pinyin": "Wang Hongzhu",
+   "status": "provisional",
+   "note": "First commander of the First Brigade's directly subordinate assault team; author of the account quoted in section two of the team's forming and its battles about Beiping and Tianjin."
+  },
+  "吴春祥": {
+   "en": "Wu Chunxiang",
+   "pinyin": "Wu Chunxiang",
+   "status": "provisional",
+   "note": "Third commander of the directly subordinate assault team; author of the section-four account of the march and withdrawal between Yangliuqing, Wangqingtuo, and Tang'erli on the night Zhu Zhankui defected."
+  },
+  "谷守林": {
+   "en": "Gu Shoulin",
+   "pinyin": "Gu Shoulin",
+   "status": "provisional",
+   "note": "Staff officer of the Second Command Room, who called with Chang Shaozeng upon Zhu Zhankui; sent by Chen to Hong Kong on mainland work in 1951, he lost his reason and vanished without trace."
+  },
+  "萧克": {
+   "en": "Xiao Ke",
+   "pinyin": "Xiao Ke",
+   "status": "attested",
+   "note": "He Long's deputy as commander of the 120th Division of the Eighth Route Army; the senior Communist commander in the Hebei-Rehe border region to whose forces Zhu Zhankui was sent after 1945."
   }
  },
  "organizations": {
@@ -3750,6 +3774,42 @@
    "pinyin": "Zhàojiāfén",
    "status": "decided",
    "note": "The base village of the North-Suburb Mixed Group, at the northeastern corner of Beiping."
+  },
+  "王庆沱": {
+   "en": "Wangqingtuo",
+   "pinyin": "Wangqingtuo",
+   "status": "decided",
+   "note": "The town some fifteen li west of Yangliuqing garrisoned by Zhu Zhankui's security corps; it fell to the bandit army on the night the assault team and the Second Command Room withdrew from it."
+  },
+  "杨柳青": {
+   "en": "Yangliuqing",
+   "pinyin": "Yangliuqing",
+   "status": "decided",
+   "note": "The town on the northern reach of the Jin-Pu railway near Tianjin to which the Second Command Room fell back as the working district shifted ever northward."
+  },
+  "独流": {
+   "en": "Duliu",
+   "pinyin": "Duliu",
+   "status": "decided",
+   "note": "The Jin-Pu-line station where the assault team detrained and awaited orders; the Second Command Room's Second Group was seated there."
+  },
+  "静海": {
+   "en": "Jinghai",
+   "pinyin": "Jinghai",
+   "status": "decided",
+   "note": "The Hebei county on the northern reach of the Jin-Pu railway where the Second Command Room was seated."
+  },
+  "顺义": {
+   "en": "Shunyi",
+   "pinyin": "Shunyi",
+   "status": "decided",
+   "note": "The county north of Beiping where the assault team, in the autumn of 1948, seized a puppet county commissar and broke up an arms-repair shop at Niulanshan."
+  },
+  "唐官屯": {
+   "en": "Tangguantun",
+   "pinyin": "Tangguantun",
+   "status": "decided",
+   "note": "The town in Jinghai county on the Jin-Pu line where the assault-team command was handed from Wang Hongzhu to Chang Shaozeng, and where the Second Command Room's Third Group was stationed."
   }
  },
  "terms": {

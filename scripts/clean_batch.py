@@ -909,6 +909,36 @@ UNITS = {
         "glued": {}, "glued_head": {},
         "standalone": [11, 43, 90],
     },
+    "ch38": {
+        "file": "39_index-split-000-0037.txt",
+        "title": "第六章 曲直分明 反复无常",
+        # drop=2: running header 英雄无名-陈恭澍 + <h2> chapter title. Confirmed
+        # byte-exact p-by-p against the source XHTML: 1 <h2> + 4 <h3> (the four
+        # section headings 一、/二、/三、/四、) + 135 <p>, ZERO mismatches; no <h1>,
+        # no <br/>, no <img>, no [\d+] note markers, 0 images. The file has NO
+        # trailing newline, so it is 141 lines (wc -l counts 140 newlines);
+        # after drop=2 the txt has 139 body lines = 4 <h3> heading lines (raw
+        # 1-based L15/L46/L69/L113) + 135 <p>. The four <h3> are their OWN
+        # elements -> standalone (### ), not glued. NO source-duplication
+        # artifact (near-duplicate scan found nothing >0.6; no heading text
+        # fused mid-<p>).
+        # NO severed-<p> boundaries. L68 ends 。﹂ (sentence closed inside a
+        # closing quote glyph, terminal). The two ！/？-ending candidates are
+        # BOTH complete terminal sentences, NOT mid-predicate severs:
+        #  - L48 (...愿与共军拼个你死我活！) is a complete rhetorical exclamation;
+        #    L49 (前此，汪鸿翥、常绍曾、吴春祥三位同学...) begins a new sentence.
+        #  - L106 (...天下那有带着家眷打游击的？) is a complete rhetorical question
+        #    (with a stray closing 分明是圈套） paren-glitch mid-clause); L107
+        #    (当然，他们是想...) begins a new sentence.
+        # INNER enumerations / name-lists stay as BODY lines per parity.
+        # Digitization glitches (rendered to plain sense, listed in PROGRESS):
+        # stray ） for a closing 」/paren (L106 分明是圈套）), single-char
+        # substitutions (兵不血刄 for 兵不血刃), mismatched guillemets ﹁﹂.
+        "drop": 2,
+        "merges": [],
+        "glued": {}, "glued_head": {},
+        "standalone": [15, 46, 69, 113],
+    },
 }
 
 
