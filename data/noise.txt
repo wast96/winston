@@ -172,3 +172,11 @@
 九旬
 # 亿万群众 "hundreds of millions" — an idiom for a vast multitude (亿万); rendered "hundreds of millions"
 亿万
+# 章百家 Zhang Baijia (foreword author): 百 is a name component, not "100"
+章百家
+# 十万余字 "more than a hundred thousand words" (value carried in words)
+十万余
+# 百花文艺出版社 Baihua ("Hundred Flowers") Press: 百 is a name component
+百花
+# 大百科全书出版社 Encyclopedia of China Publishing House: 百科 is lexical, not "100"
+大百科全书

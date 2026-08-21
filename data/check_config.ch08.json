@@ -1,0 +1,6 @@
+{
+  "docs": {"ch08": "out/ch08_reading.md"},
+  "sources": {"ch08": "data/zh/ch08.txt"},
+  "notes": "notes.json",
+  "variants": {}
+}

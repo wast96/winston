@@ -1,0 +1,12 @@
+{
+  "figures": {
+    "ch07": [
+      {"file": "p0005-f1.png", "before": "Comrade Chen Yangshan", "alt": "A black-and-white portrait photograph of Chen Yangshan as a younger man, wearing a Red Army field cap and a plain tunic, his head slightly turned.", "caption": "Chen Yangshan (1906&#8211;1991). The frontispiece portrait from the source; the dates are the source's caption."}
+    ],
+    "ch08": [
+      {"file": "p0230-f1.png", "before": "To the Central Organization Department", "alt": "A facsimile of a handwritten letter on ruled paper, two blocks of Chinese cursive script, signed and dated at the foot.", "caption": "Chen Yangshan's letter of June 14, 1988, in his own hand. A typeset transcription follows."},
+      {"file": "p0232-f1.png", "before": "1. Back to Shanghai", "alt": "A facsimile of a handwritten page listing thirty-six short numbered items in Chinese cursive script, set out in rough columns.", "caption": "Chen Yangshan's handwritten outline for the memoir he never wrote. The typeset list follows."},
+      {"file": "p0233-f1.png", "before": "1. Heed what the leading comrades", "alt": "A facsimile of a handwritten page of thirteen numbered household precepts in Chinese cursive script.", "caption": "Chen Yangshan's household precepts in his own hand. The typeset text follows."}
+    ]
+  }
+}

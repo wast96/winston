@@ -804,3 +804,111 @@ Longhua, the White Terror, "national salvation through industry."
 apparatus_merge section-field mechanism, the {v}/### mirroring, and the data/zh
 regeneration protocol all held. ch06 has NO {v}/{p} set-off blocks (the letter and
 verdict quotations are inline within narrative paragraphs).
+
+================================================================================
+## Batch 9 (B09): FRONT + BACK MATTER (translation) — ch00, ch07, ch08, ch09, ch10
+
+Five framing units translated end to end. All per-unit gates green; cumulative
+EPUB rebuilt (11 of 12 units; only ch11 afterword pending), qa_epub PASS,
+epubcheck 0/0/0, register within tolerance of the frozen ch01 reference for every
+unit (all dialogue-quiet, judged on the narratorial signals, which held).
+
+### Units
+- **ch00 = 丛书前言 "Foreword to the Series"** (Zhang Baijia), PDF 7-8, front folios
+  1-2. 6 paragraphs (byline + 4 body + signature), 4 notes. A signed editorial
+  preface to the whole Hidden Front Chronicles series; the main NEW note targets
+  were Zhang Baijia himself, the series, Xu Xiangqian, and the New Democratic
+  Revolution.
+- **ch07 = 附录一 陈养山生平 "Chen Yangshan: A Life"**, PDF 225-227 (printed 214-216).
+  14 paragraphs, 6 notes. Chen's official obituary (悼词), rendered in a dignified
+  natural-English obituary register with the heroic set-phrases rationed. Notes:
+  the obituary genre; the rehabilitation-date discrepancy (obituary/年谱 date the
+  full clearing to the 1978 Third Plenum, ch06 places the thorough reversal in
+  1983); "one central task, two basic points"; the Four Cardinal Principles; the
+  Ten-Year Program / Eighth Five-Year Plan; Jiang Zemin.
+- **ch08 = 附录二 陈养山遗作 "Chen Yangshan's Posthumous Writings"**, PDF 228-233
+  (printed 217-222). Four sub-parts rendered as running prose (the layout is
+  ordinary body text, not set-off blocks), 38 paragraphs, 5 notes, 3 figures.
+  (1) On Bao Junfu (Chen's plainer first-person retelling of the ch02 story);
+  (2) his 1988 letter to the Central Organization Department and the Ministry of
+  State Security, with typeset transcription and appended profiles of the four
+  Special Branch comrades Kang Sheng framed; (3) the 36-item outline for the
+  memoir he did not live to write, plus the son Cheng Jianyu's editorial note
+  (rendered as reading text, not apparatus, to keep the footnotes translator-only);
+  (4) his thirteen household precepts. Voice sheet honoured: Chen's own writing
+  kept plain and dry.
+- **ch09 = 附录三 陈养山年谱 "A Chronology of Chen Yangshan's Life"**, PDF 234-238
+  (printed 223-227). 76 paragraphs (intro + one year-label line and one entry
+  paragraph per year, multi-entry years kept as separate paragraphs), 2 notes.
+  Numbers-dense: check_numbers ran clean at 76/76 with no unresolved; every year
+  label carries its year and age, checked. Re-treads noted ground almost entirely
+  (Feb 7 strike, Wang Yifei, College of Foreign Affairs all already noted), so
+  notes taper to a heading orientation note and a cover-names note.
+- **ch10 = 参考文献 "References"**, PDF 239-240 (printed 228-229). 42 citations,
+  1 note. Each citation rendered as: author(s), romanized title in italics, an
+  English gloss of the title in brackets, publisher (Englished) and year as
+  printed. No bibliographic detail invented. The one note flags the author's own
+  self-citations and the family/memorial sources.
+
+### Checks run (per unit, unit-scoped configs)
+verify_unit (parity + numbers + anchors), check_structure/check_content
+(--config data/check_config.<id>.json), make_bilingual then qc_entities,
+check_numbers --noise data/noise.txt, check_align, check_apparatus (whole
+notes.json), check_register --ref out/ch01_reading.md. Parity: ch00 6=6, ch07
+14=14, ch08 38=38, ch09 76=76, ch10 42=42. Entities 0 misses each; content
+alignment OK each; align OK each; numbers 0 unresolved each. Book-wide notes now
+428; glossary 718 referents.
+
+### noise.txt additions (all name/lexical, no real quantity masked)
+章百家 (Zhang Baijia, 百 a name component); 十万余 ("more than a hundred thousand
+words", magnitude carried in English); 百花 (Baihua Press); 大百科全书 (Encyclopedia
+of China Publishing House, 百科 lexical).
+
+### Figures (4)
+Frontispiece portrait p0005-f1.png -> ch07 (before the obituary's first line);
+three handwriting facsimiles from Appendix II -> ch08, manuscript-first before
+each typeset piece: the 1988 letter (p0230-f1.png), the memoir outline
+(p0232-f1.png), the household precepts (p0233-f1.png). Captions note the source
+provenance of dates; alt text carries no straight double quotes. Portrait
+bio-boxes and captions kept out of data/zh so parity stayed 1:1.
+
+### NEW decided renderings (feed to authority.json at completion)
+People: Zhang Baijia; Cheng Jianyu (程建宇, eldest son, family's original surname
+Cheng); Wu Huairang (武怀让, original name of Wu Hujing); Hou Zhi; He Changchi
+(贺长炽, the appendix's primary form for the comrade the glossary fixes as He
+Changzhi 贺昌之); Cao Yi'ou (Kang Sheng's wife); Liu Bowen; Wang Yifei; Zhang
+Xiushan. Chen's underground cover names: Chen Yingzhou (陈英舟), Chen Deqing
+(陈德清), Gao Junshi (高君实), Lao Wang (老王), with Chen Zhongying and Chen Mingjun
+already decided. Bibliography authors were rendered in pinyin but NOT glossaried
+(one-off, not narrative cast).
+
+### FLAGS FOR THE B10 WHOLE-BOOK RECONCILE
+1. **The 1988 letter appears twice.** ch03s03 quotes it as a {v} block ("Chen
+   Yangshan's Letter to the Central Organization Department"); ch08 (二) reproduces
+   it as the posthumous document. Both renderings are faithful to their own source
+   layout (ch03 split the body into two paragraphs with an inline closing; the
+   appendix on printed 220 prints one body paragraph and splits 致 / 敬礼！ onto two
+   lines, which ch08 mirrors), but the wording diverges. A reconcile pass should
+   decide whether to harmonize the two English renderings of the one document.
+2. **Xiao Shouhuang vs Xiao Taihuang — a SOURCE variant, not an error.** The
+   appendix (printed 220) and ch03 print 肖寿煌 (Xiao Shouhuang), crop-verified;
+   ch06 prints 肖太煌 (Xiao Taihuang), the B08 decided form. The source itself names
+   this murdered comrade two ways. Render each as printed; B10 should add a note at
+   one appearance flagging the variant, rather than silently harmonizing.
+3. **Rehabilitation timeline.** obituary + 年谱 date the full clearing to the 1978
+   Third Plenum; ch06 (case papers) places the thorough reversal in 1983 (1978
+   quashed the "anti-Party clique" verdict but left a residual "Right deviation"
+   finding, negated only in 1983). Noted in ch07; consistent across the batch.
+
+### Tail verification (rule 4 corollary)
+Every unit's final paragraph read against the scan at transcription: ch00
+signature line (printed 2), ch07 "lives forever in our hearts" (printed 216),
+ch08 precept 13 (printed 222), ch09 the 1989 death entry (printed 227), ch10
+citation 42 (printed 229). No dropped tails.
+
+### Tooling — no reverts
+No script changes. The ch01-06 OCR crop held for the back matter; the front-matter
+pages (7-8) needed a different crop (no top running head, folios and running foot
+below), handled per-page with --top 0.05 and --bottom 0.90-0.92. apparatus_merge
+section-field mechanism, {v}/### mirroring, and the data/zh regeneration protocol
+all held.
