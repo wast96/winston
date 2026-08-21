@@ -759,8 +759,8 @@
       "note": "<i>Minguo Ribao</i>, the Kuomintang's newspaper; its Shanghai edition ran from 1916. The item quoted here, a false story that Bai Xin had been bailed out and sent to Nanjing, was planted to hide that he was the informer and still in the city."
     },
     {
-      "anchor": "at No. 43, Fourth Lane, Hehefang, on Route Joffre",
-      "note": "Route Joffre (<i>Xiafei Lu</i>) was a principal avenue of the Shanghai French Concession, today Huaihai Middle Road; Hehefang was a lane off it. Here the Red Squad shot Bai Xin dead on the night of 11 November 1929, an operation corroborated in standard accounts of the Central Special Branch."
+      "anchor": "at No. 43, Fourth Lane, Hehefang, on Avenue Joffre",
+      "note": "Avenue Joffre (<i>Xiafei Lu</i>) was a principal avenue of the Shanghai French Concession, today Huaihai Middle Road; Hehefang was a lane off it. Here the Red Squad shot Bai Xin dead on the night of 11 November 1929, an operation corroborated in standard accounts of the Central Special Branch."
     },
     {
       "anchor": "the post office beside the Sincere Company",
@@ -1649,6 +1649,10 @@
     {
       "anchor": "the People's Daily published an article",
       "note": "The People's Daily is the official organ of the Party's Central Committee; a formal obituary in its pages fixed Chen Yangshan's standing in the Party's own record. Printed folio 209."
+    },
+    {
+      "anchor": "Xiao Taihuang",
+      "note": "The same murdered Special Branch comrade is named Xiao Shouhuang (&#32918;&#23551;&#29004;) in Chapter 3 and in Appendix II; here, and only here, the source writes his given name as &#32918;&#22826;&#29004; (Xiao Taihuang). Both are the book's own forms for one man; each is left as printed rather than silently harmonized."
     }
   ],
   "ch00": [
@@ -1715,6 +1719,10 @@
     {
       "anchor": "Cao Yi'ou",
       "note": "Cao Yi'ou was Kang Sheng's wife; Su Mei, wife of the murdered Xiao Shouhuang, was her younger sister. The four dead men had stood close to Kang Sheng himself, and the nearness did not spare them."
+    },
+    {
+      "anchor": "A Letter to the Central Organization Department and the Ministry of State Security",
+      "note": "This is the 1988 letter reproduced as a document, from the manuscript shown above in facsimile, together with the four attached biographies. The same letter is quoted within the narrative of Chapter 3; the two renderings follow the source's own two printings of it."
     }
   ],
   "ch09": [
@@ -1731,6 +1739,16 @@
     {
       "anchor": "References",
       "note": "The author's source list, rendered here with each title in romanization, an English gloss in brackets, and the publisher and year as printed; no bibliographic detail has been added. Several entries bear on how the book was sourced: two &#8212; the life of Wu Kejian and the newspaper serial \"The Secret War of the Special Branch\" &#8212; are by Yao Huafei, this book's own author; and the memorial volume Essays in Memory of Chen Yangshan, together with the closing line of memoirs and papers by Chen and his family and comrades, are materials close to the subject. It is a fair picture of a Party biography built in good part from the recollections of the man's own circle."
+    }
+  ],
+  "ch11": [
+    {
+      "anchor": "October 7, 2006",
+      "note": "Chen Yangshan was born on October 7, 1906 (the chronology in Appendix III gives the same date), so this was the centenary of his birth. To mark it, the China Friendship Publishing Company brought out a first version of the book that September under the title <i>The Legend of Chen Yangshan, Lucky General of the Hidden Front</i>. The present volume is the expanded rewrite the author describes here, reworked over the following decade. <i>Fujiang</i> (&#31119;&#23558;, 'lucky general') is a stock phrase for a commander who comes through every danger unharmed."
+    },
+    {
+      "anchor": "Espionage Watch",
+      "note": "<i>Diehai Liaowang</i> (&#35850;&#28023;&#30204;&#26395;), literally 'a lookout over the sea of espionage': a Chinese periodical on the history and craft of intelligence work. The English here renders the title's sense."
     }
   ]
 }

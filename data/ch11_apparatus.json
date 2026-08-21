@@ -1,0 +1,25 @@
+{
+  "glossary": {
+    "姚华飞": {"en": "Yao Huafei", "pinyin": "Yao Huafei", "status": "decided", "section": "people", "note": "The book's author; a security-service writer who produced this biography on assignment. He signs and dates the afterword June 18, 2017."},
+    "金楚宣": {"en": "Jin Chuxuan", "pinyin": "Jin Chuxuan", "status": "decided", "section": "people"},
+    "董沪英": {"en": "Dong Huying", "pinyin": "Dong Huying", "status": "decided", "section": "people"},
+    "何岳隽": {"en": "He Yuejun", "pinyin": "He Yuejun", "status": "decided", "section": "people"},
+    "管志华": {"en": "Guan Zhihua", "pinyin": "Guan Zhihua", "status": "decided", "section": "people", "note": "A senior editor formerly with the People's Daily and a writer, who helped the author revise the manuscript."},
+    "陈大文": {"en": "Chen Dawen", "pinyin": "Chen Dawen", "status": "decided", "section": "people", "note": "The author Yao Huafei's wife."},
+    "妞妞": {"en": "Niuniu", "pinyin": "Niuniu", "status": "decided", "section": "people"},
+    "妮妮": {"en": "Nini", "pinyin": "Nini", "status": "decided", "section": "people"},
+    "人民日报": {"en": "the People's Daily", "pinyin": "Renmin Ribao", "status": "decided", "section": "organizations", "note": "The Chinese Communist Party's official national newspaper, founded 1948."},
+    "谍海瞭望": {"en": "Espionage Watch", "pinyin": "Diehai Liaowang", "status": "decided", "section": "organizations"},
+    "中国友谊出版公司": {"en": "the China Friendship Publishing Company", "pinyin": "Zhongguo Youyi Chuban Gongsi", "status": "decided", "section": "organizations"},
+    "上海市国家安全局": {"en": "the Shanghai Municipal State Security Bureau", "pinyin": "Shanghai Shi Guojia Anquan Ju", "status": "decided", "section": "organizations", "note": "The Shanghai city arm of the Ministry of State Security."},
+    "隐蔽战线福将陈养山传奇": {"en": "The Legend of Chen Yangshan, Lucky General of the Hidden Front", "pinyin": "Yinbi Zhanxian Fujiang Chen Yangshan Chuanqi", "status": "decided", "section": "terms", "note": "The book's earlier edition, published September 2006; see the afterword note."}
+  },
+  "notes": {
+    "ch11": [
+      {"anchor": "October 7, 2006",
+       "note": "Chen Yangshan was born on October 7, 1906 (the chronology in Appendix III gives the same date), so this was the centenary of his birth. To mark it, the China Friendship Publishing Company brought out a first version of the book that September under the title <i>The Legend of Chen Yangshan, Lucky General of the Hidden Front</i>. The present volume is the expanded rewrite the author describes here, reworked over the following decade. <i>Fujiang</i> (&#31119;&#23558;, 'lucky general') is a stock phrase for a commander who comes through every danger unharmed."},
+      {"anchor": "Espionage Watch",
+       "note": "<i>Diehai Liaowang</i> (&#35850;&#28023;&#30204;&#26395;), literally 'a lookout over the sea of espionage': a Chinese periodical on the history and craft of intelligence work. The English here renders the title's sense."}
+    ]
+  }
+}

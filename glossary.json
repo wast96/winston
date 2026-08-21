@@ -2915,6 +2915,49 @@
       "pinyin": "Cheng Jianyu",
       "status": "decided",
       "note": "Chen Yangshan's eldest son, who gathered these papers. He signs with the family's original surname, Cheng (程), which his father had changed to Chen for underground work."
+    },
+    "姚华飞": {
+      "en": "Yao Huafei",
+      "pinyin": "Yao Huafei",
+      "status": "decided",
+      "note": "The book's author; a security-service writer who produced this biography on assignment. He signs and dates the afterword June 18, 2017."
+    },
+    "金楚宣": {
+      "en": "Jin Chuxuan",
+      "pinyin": "Jin Chuxuan",
+      "status": "decided"
+    },
+    "董沪英": {
+      "en": "Dong Huying",
+      "pinyin": "Dong Huying",
+      "status": "decided"
+    },
+    "何岳隽": {
+      "en": "He Yuejun",
+      "pinyin": "He Yuejun",
+      "status": "decided"
+    },
+    "管志华": {
+      "en": "Guan Zhihua",
+      "pinyin": "Guan Zhihua",
+      "status": "decided",
+      "note": "A senior editor formerly with the People's Daily and a writer, who helped the author revise the manuscript."
+    },
+    "陈大文": {
+      "en": "Chen Dawen",
+      "pinyin": "Chen Dawen",
+      "status": "decided",
+      "note": "The author Yao Huafei's wife."
+    },
+    "妞妞": {
+      "en": "Niuniu",
+      "pinyin": "Niuniu",
+      "status": "decided"
+    },
+    "妮妮": {
+      "en": "Nini",
+      "pinyin": "Nini",
+      "status": "decided"
     }
   },
   "organizations": {
@@ -3403,6 +3446,28 @@
       "pinyin": "geming weiyuanhui",
       "status": "decided",
       "note": "The 'three-in-one' organs of army, cadres, and mass representatives that replaced Party and government bodies in 1967-1968."
+    },
+    "人民日报": {
+      "en": "the People's Daily",
+      "pinyin": "Renmin Ribao",
+      "status": "decided",
+      "note": "The Chinese Communist Party's official national newspaper, founded 1948."
+    },
+    "谍海瞭望": {
+      "en": "Espionage Watch",
+      "pinyin": "Diehai Liaowang",
+      "status": "decided"
+    },
+    "中国友谊出版公司": {
+      "en": "the China Friendship Publishing Company",
+      "pinyin": "Zhongguo Youyi Chuban Gongsi",
+      "status": "decided"
+    },
+    "上海市国家安全局": {
+      "en": "the Shanghai Municipal State Security Bureau",
+      "pinyin": "Shanghai Shi Guojia Anquan Ju",
+      "status": "decided",
+      "note": "The Shanghai city arm of the Ministry of State Security."
     }
   },
   "places": {
@@ -3480,7 +3545,7 @@
       "note": "Haifeng and Lufeng counties of eastern Guangdong; site of Peng Pai's 1927 peasant soviet."
     },
     "霞飞路": {
-      "en": "Route Joffre",
+      "en": "Avenue Joffre",
       "pinyin": "Xiafei Lu",
       "status": "attested",
       "note": "A main avenue of the Shanghai French Concession, today Huaihai Middle Road."
@@ -3909,6 +3974,12 @@
       "pinyin": "kurou ji",
       "status": "decided",
       "note": "A classic stratagem: injuring oneself or sacrificing one's own to make a feigned defection credible."
+    },
+    "隐蔽战线福将陈养山传奇": {
+      "en": "The Legend of Chen Yangshan, Lucky General of the Hidden Front",
+      "pinyin": "Yinbi Zhanxian Fujiang Chen Yangshan Chuanqi",
+      "status": "decided",
+      "note": "The book's earlier edition, published September 2006; see the afterword note."
     }
   }
 }

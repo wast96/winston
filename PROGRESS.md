@@ -912,3 +912,107 @@ pages (7-8) needed a different crop (no top running head, folios and running foo
 below), handled per-page with --top 0.05 and --bottom 0.90-0.92. apparatus_merge
 section-field mechanism, {v}/### mirroring, and the data/zh regeneration protocol
 all held.
+
+================================================================================
+## Batch 10 (B10): AFTERWORD (ch11) + WHOLE-BOOK CLOSE -- BOOK COMPLETE
+
+The light final batch. ch11 translated end to end; then the whole-book close
+(reconcile sweep, cover, term ledger, authority.json, deep audit, COMPLETION).
+The book is now COMPLETE: 12 of 12 units, 432 notes, 78 figures, 731 referents;
+qa_epub PASS, epubcheck 0/0/0, title page reads COMPLETE.
+
+### ch11 = 后记 "Afterword" (Yao Huafei), PDF 241-242 (printed 230-231)
+- 11 body paragraphs (9 running-prose paras + 2 signature lines), no {v}. The
+  author's own plain, warm voice (voice sheet honoured; heroic formulas
+  rationed). Rendered one paragraph per source line; data/zh/ch11.txt +
+  out/ch11_reading.md; added ch11 to data/check_config.json AND scoped
+  data/check_config.ch11.json.
+- render 241-242 @300dpi (PyMuPDF); the pages are a clean digital typeface. Read
+  BOTH page images by eye and crop-verified every name against the scan at
+  magnification: interviewees 程建宇 Cheng Jianyu / 秦杰 Qin Jie / 金楚宣 Jin Chuxuan;
+  acknowledgements 凌云 Ling Yun, 刘复之 Liu Fuzhi, 《谍海瞭望》 Espionage Watch,
+  董沪英 Dong Huying, 姜岸 Jiang An, 何岳隽 He Yuejun, 管志华 Guan Zhihua (People's
+  Daily senior editor), wife 陈大文 Chen Dawen, twin granddaughters 妞妞/妮妮
+  Niuniu/Nini (13). Numbers preserved: 16年, 2006年10月7日, 六易其稿, 13周岁,
+  2017年6月18日. Tail (signature) verified against the scan.
+- 2 notes (taper): the 2006 first edition 《隐蔽战线福将陈养山传奇》 (China Friendship
+  Publishing, Chen's centenary) + 福将 gloss, anchored on "October 7, 2006"; and a
+  name-gloss on Espionage Watch. 13 new glossary rows (Yao Huafei, the five new
+  helpers/family, People's Daily, the two publishers/bureau, the 2006 title).
+- Gates: parity 11=11; check_numbers 0 unresolved; check_content 28 name occ all
+  placed; qc_entities 0 misses; check_align 4.68 en/han; check_apparatus 0/0;
+  verify_unit anchors 2 ok; check_register within tolerance (dialogue-quiet;
+  em-dash 0.0/1k, rhythm 0.47 vs ref 0.50).
+
+### Whole-book reconciliation sweep (check 12)
+- check_reconcile: **epithet drift 0**; 704/731 decided forms present in prose
+  (the rest caption-/note-only or article-prefix artifacts, sampled and
+  confirmed legitimate); spelling locale 0 British / 438 American.
+- Decided-rendering grep (~20 core): no wrong forms surviving. "Canton" x2 =
+  "a Cantonese" (demonym); "Teke" x1 = romanized book title (use-vs-mention);
+  "Peking" x1 = "Peking Union Medical College Hospital" (institution name).
+- THREE B09 FLAGS resolved:
+  1. **1988 letter twice** (ch03s03 {v} vs ch08(二)): both faithful transcriptions
+     of one manuscript (the ch08 facsimile confirms), differing only in wording +
+     layout; NOT glossary/term drift. Decision: keep both (forcing them identical
+     would edit frozen gate-passed chapters for no fidelity gain); added ONE
+     cross-reference note at the ch08 appendix letter.
+  2. **Xiao Shouhuang (肖寿煌) vs Xiao Taihuang (肖太煌)**: source variant for one
+     murdered comrade (ch03/ch08 vs ch06). Added ONE note at the ch06 "Xiao
+     Taihuang" occurrence flagging the variant; each left as printed.
+  3. **Rehabilitation timeline (1978 vs 1983)**: CONSISTENT (1978 quashed the
+     "anti-Party clique" verdict but left a residual "Right deviation" finding,
+     negated only in 1983); explained in ch06, discrepancy noted in ch07. No change.
+- **Cross-book authority reconcile (fed to authority.json):** of this book's
+  glossary vs the 194-entry ledger, 44 agreed (chen-yangshan appended) + 1
+  variant registered (巡捕房 "the concession police"). ONE wrong form found and
+  FIXED: 霞飞路 "Route Joffre" -> shelf-agreed, historically correct **"Avenue
+  Joffre"** (5 books, status agreed) -- corrected in ch02 prose (2x), the note
+  anchor + body, and the glossary; rebuilt + re-validated. ONE homograph kept
+  separate: 中原 = "Nakahara" (Japanese general's surname here), NOT the shelf's
+  "Central Plains". authority.json now cites chen-yangshan on 45 entries.
+
+### SILENT FIGURE LOSS found and fixed (figure integrity sweep)
+- A crops-on-disk vs figures.json cross-check caught 15 MISSING ch02 figures
+  (sections 1-3: Zhou Enlai p40, Pan Hannian/Kang Sheng p41, Three Heroes p44,
+  Chen Shouchang p45, Bao Junfu p46, Chen Lifu p47, over-street p51, Xu Enzeng
+  p52, Huang Molan p57, Gu Shunzhang doc p58, Chen Geng p61, Wang Genying p62,
+  Liu Shaobai p63, Yang Xianzhen p65). ROOT CAUSE: apparatus_merge REPLACES a
+  unit's figures wholesale; B03 (ch02 s4-5) overwrote B02's 15 (ch02 s1-3) with
+  its 5. ch02 was the ONLY chapter split across batches, so the only casualty.
+  The crops + original alt/captions were recovered from the B02 commit
+  (8ea14e2:figures.json) and re-merged: ch02 5 -> 20; book 63 -> 78 figures. The
+  build (which refuses an unplaced figure anchor) validated all 20 anchors.
+  Post-fix sweep: 0 unreferenced crops, 0 missing files across all units.
+  GATE NOTE for future split chapters: after appending sections to an existing
+  unit, always re-include the prior batch's figures in the apparatus (or the
+  wholesale replace drops them silently).
+
+### Cover decision
+- Kept the generated typographic ENGLISH cover (book.json cover_image unset).
+  The colour cover (PDF p1) is a striking duotone portrait but entirely in
+  Chinese; the builder copies a cover image byte-identical and cannot composite
+  an English title, so a Chinese-only cover would be unreadable to the intended
+  reader. The portrait is preserved as the ch07 frontispiece. Switching to it is
+  a one-line book.json change; flagged to the commissioner.
+
+### Deep audit (out/deep_audit.md)
+- 1256 body paragraphs; 44 sampled (3.5%) at fixed seed 424242. Hand-read the
+  pinnable sampled paragraphs against the scan (ch03 Kang interrogation incl.
+  quoted speech; ch08 son's footnote, 13 precepts, 36-item outline; ch09
+  chronology entries + all year/age labels): ~20 paragraph-equivalents, ZERO
+  substantive errors. Whole-book invented-precision grep screen: benign.
+- Term ledger rendered (out/term_ledger.md): 731 referents, 52 provisional (all
+  minor bit-part names, doubtful scan characters; listed).
+
+### Build / deliverable
+- Cumulative EPUB rebuilt: 12 of 12, 432 notes, 78 figures; qa_epub PASS (104
+  files, 432/432/432 notes resolve, all links resolve); epubcheck 5.1.0 =
+  0 fatals / 0 errors / 0 warnings. Title page reads "the complete book: all 12
+  chapters." COMPLETION.md written; HANDOFF.md rewritten to COMPLETE; CHANGELOG
+  updated. Final EPUB committed with git add -f out/chen-yangshan.epub.
+
+### Tooling -- no reverts
+No script changes. ch11 used the ch01-06 body crop. The Route->Avenue Joffre fix
+and the ch02 figure recovery are DATA corrections (glossary/notes/prose/figures),
+not tooling changes.
