@@ -2,6 +2,117 @@
 
 The running per-batch log. Written as we go.
 
+## B15 — Chapter Thirteen "并蒂莲 / Twin Lotus on One Stem" (ch13)
+
+- **Scope.** PDF 284-307, printed 269-292. Five sections: s1 一、派沈琬去 "Send Shen
+  Wan" (opener PDF 285, folio 270), s2 二、挺进师 "The Vanguard Column" (PDF 289, folio
+  274), s3 三、按住蒋介石的脉搏 "A Finger on Chiang Kai-shek's Pulse" (PDF 293, folio 278),
+  s4 四、失联 "Contact Lost" (PDF 298, folio 283), s5 五、开张吃三年 "One Job Feeds You
+  Three Years" (PDF 302, folio 287). Offset held a constant 15; folios read off the scan
+  at every opener and confirmed through 292. 139 body paragraphs (s1 37, s2 27, s3 16,
+  s4 17, s5 42). Chapter divider p0284 is design furniture. p0297 (folio 282) is a
+  full-page DOUBLE PLATE (two captioned group photos, no body text): its paragraphs are
+  zero. The chapter tells the story of Shen Anna (沈安娜, born 沈琬 Shen Wan), the CCP
+  stenographer-mole, and her husband Hua Mingzhi — the "twin lotus" married intelligence
+  pair: her recruitment as a KMT-government stenographer (s1); the Red Army Advance/Vanguard
+  Column (粟裕/刘英) her Zhejiang intel supported, after Fang Zhimin's force was destroyed at
+  Mount Huaiyu (s2); her infiltration of the KMT Central Party HQ secretariat via patron
+  Zhu Jiahua, taking the minutes at Chiang's most secret meetings (s3); the three-year loss
+  of contact after her handler Xu Zhonghang's 1942 arrest (s4); Wu Kejian's 1945
+  reconnection and the couple's late-war windfall haul, to her deathbed murmur (s5).
+- **Source recovery.** data/zh/ch13.txt HAND-TRANSCRIBED off the 300-DPI page images
+  (OCR chi_sim psm6, crop 0.06/0.95/0.11/0.955, kept as cross-check only). Chapter title +
+  all five section heads marked `###`. Parity exact: 139 = 139 (check_structure --pairs,
+  source first). Two standalone "……" memoir-elision paragraphs (paras 125, 130) rendered
+  as an ellipsis line each — parity-locked one-per-source-line.
+- **Crop-verified readings (eye-read on magnified crops):** 沈琬 Shen Wan; 于熙俭 Yu Xijian;
+  炳勋速记 (headmaster 杨炳勋); 舒曰信 (曰 wide/flat, = Shu Yuexin, NOT 舒日信); 华家骝/字鸿申
+  (Hua Mingzhi's birth/courtesy names); 中西功 Nakanishi (《中西功讯问调书》); 刘畴西 Liu Chouxi;
+  丘吉夫 Qiu Jifu; 鲁自诚/华韵三; 遂昌际下 (Jixia); 普德曼 Pudeman (misattribution, footnoted).
+  Load-bearing numerals crop-verified: 8.6万余人 (86,000+), 800多/400余/30多/40多/200余人,
+  第十九师 / 第五十二师 / 第二纵队, 26个团, No. 157 Jianghan Rd, No. 75 Shangqingsi St,
+  10 sq m, "十五次大会" (the congress's fifteenth session, electing Chiang Director-General).
+- **Register.** ch08-ch12 sardonic source-criticism voice kept; s2-s3 and s5 weigh the
+  memoir (Shen Anna 2016/2007), Liu Ying's 1940 essay, the KMT internal document, and
+  Chiang's *Draft Chronicle* against one another. Shen Anna's interviewee voice runs
+  natural and contracted (contractions 4.2/1k vs ch01 ref 0.3). The closing Duncan /
+  Daodejing quotations kept at full elevation. check_register vs ch01: within tolerance,
+  NO stilted flag (em-dash 0.0/1k, sentence median 21, rhythm CV 0.72 vs ref 0.66).
+- **Checks, all green.** parity 139=139; verify_unit numbers 0 unresolved (B15 noise block
+  added: 九一八, 八一三, 万人空巷, 万不可, 万变, 千里迢迢, 五云山, 华韵三, 鸣三 — event-date names,
+  personal-name and idiom numerals; every real count carried); check_align median 4.58
+  en/han, no pair > 2.2x; qc_entities 0 misses; check_content 334 name occurrences all in
+  the paired paragraph; check_apparatus 0/0; build PASS (13/18 chapters, 383 notes); qa_epub
+  PASS (100 files, 383 refs/bodies/backlinks); epubcheck 5.1.0 0/0/0/0; check_style_freshness
+  FRESH.
+- **Tail verification (rule 4 corollary).** The close (p0307, paras 135-139: the Duncan
+  Acropolis passage and Shen Anna's deathbed line "我暴露了？他们抓人了，从后门跑……") re-read
+  against the scan; faithful, nothing invented.
+- **Footnotes: 17 new** (unit total 17; book 383), first-appearance, reader-model, verdicts
+  in the note. Items: the Isadora Duncan epigraph (+ Aphrodite); Shen Anna herself (the Red
+  stenographer, 1915-2010); 并蒂莲 twin lotus (title image); Nakanishi Ko; the Red Army
+  Advance/Vanguard Column; Su Yu; Fang Zhimin (died Nanchang 1935, *Lovable China*); the
+  Marco Polo Bridge Incident; "August Thirteenth" (1937 Shanghai); Zhu Jiahua (her patron);
+  the Southern Anhui / New Fourth Army Incident (Jan 1941); Yan Baohang; Chiang's *Draft
+  Chronicle*; the "one sale feeds you three years" shop idiom; 摆测字摊 the fortune-teller's-
+  stall idiom; the Daodejing ch. 41 quotation (+ 慎独); the Pudeman misattribution [—Trans.].
+- **NOT re-noted (already placed earlier) — cross-referenced, not re-noted:** Ding Ling
+  (bio 1904-1986, ch07), Xu Enzeng (ch01/ch08), the Zhongtong (ch01), the September 18
+  (Mukden) Incident (ch12), the Long March / strategic transfer (ch07/ch08), the Political
+  Consultative Conference (ch01), the White Terror (ch01), the Academia Sinica (ch11/ch12),
+  Deng Yingchao (ch05/ch06/ch09), Li Kenong (ch08), the Blue Shirts (ch12), tingzijian
+  (ch05), the Central Special Branch / Red Squad (ch01+).
+- **Figures: 4** (`data/figs/ch13-01..04.png`, hand-cropped, printed captions excluded,
+  translator's captions with source-label provenance, real alt text): Shen Anna's youthful
+  studio portrait (s1, p0286/folio 271); Hua Mingzhi & Shen Anna with family in Shanghai
+  (s3, p0294/folio 279); the two agent-couples and their children, Chongqing 1944 (s4,
+  p0301/folio 286); Wu Kejian portrait (s5, p0302/folio 287). Every page eyeballed; the many
+  other portrait plates (王学文, 王世英, 舒曰信, 沈伊娜, 鲁自诚, 姚子健, the Zhou Enlai/Bo Gu group
+  and the KMT-radio-station group on p0297) left uncaptioned to keep the count modest, in
+  line with ch11 (3) / ch12 (2). p0284 (divider) excluded as furniture.
+- **Glossary: ~73 new rows** (~45 people, ~15 organizations, ~19 places), written into the
+  sectioned ledger; `en` all ASCII. Consulted authority.json first (Zhou Enlai, Mao Zedong,
+  Dong Biwu, Chiang Kai-shek, Fang Zhimin, Guo Moruo, Lu Xun all confirmed). Short-form
+  substring-safe `en` where the prose uses one: 华明之 → "Mingzhi", 中西功 → "Nakanishi",
+  邓肯 → "Duncan", 怀玉山 → "Huaiyu" (full "Mount Huaiyu" at first mention). NEW recurring
+  institutional terms flagged `recurring:true`: 新四军 the New Fourth Army, 八路军办事处 the
+  Eighth Route Army Office, 中央社会部 the Central Social Affairs Department, 中共南方局 the CCP
+  Southern Bureau. NO new concession-street gazetteer entries (ch13's streets — Jianghan Rd
+  (Wuhan), Shangqingsi St & Niujiaotuo (Chongqing), Dingjiaqiao (Nanjing) — are not Shanghai
+  concession streets).
+- **Tooling patches (DO NOT REVERT).** (1) `data/noise.txt` gained the B15 block (see above).
+  (2) The glossary now has a `pinyin` field on every people/org/place/term row that lacked
+  one (72 rows back-filled `pinyin = en`); qc_entities requires it and used to KeyError on
+  rows without it. New rows must carry `pinyin`.
+- **Consistency note for the reconciliation sweep.** ch13 renders book/periodical titles
+  PLAIN (no `*italic*`), matching ch10-ch12; ch01/ch08/ch09 italicize theirs. This is a
+  book-wide inconsistency for the final reconciliation pass to settle (STYLE.md says italic),
+  NOT a per-chapter fix. (The two standing sweep items still hold: ch01 Yang Du note
+  "1875"->"1874"; ch09 para 163 "Fourth Avenue"->"Sima Road".)
+
+### Renderings settled this batch (also in glossary.json)
+- People: 沈琬 Shen Wan / 沈安娜 Shen Anna (Red stenographer, 1915-2010); 华明之 Mingzhi
+  (本名华家骝 Hua Jialiu, 字鸿申); 舒曰信 Shu Yuexin (本名舒庸之); 沈珉 Shen Min / 沈伊娜 Shen
+  Yina; 王世英 Wang Shiying; 于熙俭 Yu Xijian; 杨炳勋 Yang Bingxun; 中西功 Nakanishi; 丘吉夫
+  Qiu Jifu; 徐强 Xu Qiang; 鲁自诚 Lu Zicheng (字鸣三); 华韵三 Hua Yunsan (本名华曼倩); 姚子健
+  Yao Zijian; 朱家骅 Zhu Jiahua; 甘乃光 Gan Naiguang; 阎明复 Yan Mingfu; 阎宝航 Yan Baohang;
+  徐仲航 Xu Zhonghang; 吴铁城 Wu Tiecheng; 孔原 Kong Yuan; 何以端 He Yiduan; 沈勤 Shen Qin;
+  华藻 Hua Zao; 黄绍竑 Huang Shaohong; 宗孟平 Zong Mengping; 刘畴西 Liu Chouxi; 乐少华 Yue
+  Shaohua; 寻淮洲 Xun Huaizhou; 曾洪易 Zeng Hongyi; 宣铁吾 Xuan Tiewu; 粟裕 Su Yu; 陈毅 Chen
+  Yi; 葛亦远 Ge Yiyuan; 汪志道 Wang Zhidao; 王黎夫 Wang Lifu; 王人美 Wang Renmei; 叶露茜 Ye
+  Luxi; 孙犁 Sun Li; 罗援 Luo Yuan; 吴克坚 Wu Kejian (曾用名吴黑撑); 邓肯 Duncan.
+- Institutions/units: 挺进师 the Vanguard Column (decided); 红十军团/红七军团 the 10th/7th Red
+  Army Corps; 中革军委 the Central Revolutionary Military Commission; 新四军 the New Fourth
+  Army; 八路军办事处 the Eighth Route Army Office (八办); 中央社会部 the Central Social Affairs
+  Department; 中共南方局 the CCP Southern Bureau; 政治协商会议 the Political Consultative
+  Conference; 中央党部 the Kuomintang Central Party Headquarters; 正中书局 the Zhengzhong Book
+  Company; 炳勋中文速记学校 the Bingxun Chinese Shorthand School. Periodicals: 新华日报 the
+  Xinhua Daily; 东南日报 the Southeast Daily.
+- Places: 怀玉山 Huaiyu (Mount Huaiyu); 杭州 Hangzhou; 西湖 West Lake; 南昌 Nanchang; 龙泉
+  Longquan; 遂昌 Suichang; 松阳 Songyang; 重庆 Chongqing; 武汉 Wuhan; 天津 Tianjin; 延安
+  Yan'an; 曾家岩 Zengjiayan; 牛角沱 Niujiaotuo; 丁家桥 Dingjiaqiao; 五云山 Wuyunshan; 泰兴
+  Taixing; 荡口 Dangkou; 平江 Pingjiang; 宣化店 Xuanhuadian.
+
 ## B14 — Chapter Twelve "锄奸红灯区 / A Purge in the Red-Light District" (ch12)
 
 - **Scope.** PDF 264-283, printed 249-268. Seven sections: s1 一、枪响"小花园"

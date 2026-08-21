@@ -299,3 +299,23 @@
 二妹
 # 血水四溅 "blood splattered" — 四 idiomatic (all around), not a count
 四溅
+#
+# --- B15 / ch13 lexical numerals (event-date names, personal names, idioms) ---
+# 九一八事变 the September 18 (Mukden) Incident — spelled "September 18" in English
+九一八
+# 八一三 the August 13 (1937 Shanghai) fighting — spelled "August Thirteenth"
+八一三
+# 万人空巷 "empty the streets" — 万 idiomatic hyperbole, not a count
+万人空巷
+# 万不可冒失 "never be rash" — 万 idiomatic ("by no means"), not a count
+万不可
+# 以不变应万变 "answer a thousand changes by not changing" — 万 idiomatic
+万变
+# 千里迢迢 "all this long way" — 千 idiomatic distance, not a count
+千里迢迢
+# 五云山集中营 Wuyunshan camp — 五 part of the place name, not a count
+五云山
+# 华韵三 personal name (Hua Yunsan) — 三 part of the name, not a count
+华韵三
+# 字鸣三 courtesy name (Mingsan) — 三 part of the name, not a count
+鸣三
