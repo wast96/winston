@@ -249,3 +249,14 @@
 [0-9]+万多
 # 十字路 crossroads (idiom, 十=10) — rendered "crossroads"
 十字路
+# 十六铺 Shiliupu (Shanghai place; 十六=16) — rendered "Shiliupu"
+十六铺
+# 五短身材 stocky build (idiom, 五=5) — rendered "short, sturdy build"
+五短身材
+# 红十字 Red Cross (十=10 in 十字) — rendered "Red Cross"
+红十字
+# 一九三几 an approximate early-1930s year — rendered "about 1933"
+一九三几
+# arabic-digit + 万 composites (6万元 etc.): value carried in English
+[0-9]+万
+[0-9]+萬
