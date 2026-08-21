@@ -127,7 +127,7 @@ XHTML = """<?xml version="1.0" encoding="utf-8"?>
 </body></html>
 """
 
-MAX_FIG_WIDTH = 1100
+MAX_FIG_WIDTH = 1000
 
 # Declared media type follows the file EXTENSION for every image, cover and
 # figure alike: a JPEG declared as image/png is an epubcheck error, and a
