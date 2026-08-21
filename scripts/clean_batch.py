@@ -939,6 +939,42 @@ UNITS = {
         "glued": {}, "glued_head": {},
         "standalone": [15, 46, 69, 113],
     },
+    "ch39": {
+        "file": "40_index-split-000-0038.txt",
+        "title": "第七章 瞻前顾后 未雨绸缪",
+        # drop=2: running header 英雄无名-陈恭澍 + <h2> chapter title. Confirmed
+        # byte-exact p-by-p against the source XHTML: 1 <h2> + 3 <h3> (the three
+        # section headings 一、/二、/三、) + 179 <p>, ZERO mismatches; no <h1>,
+        # no <br/>, no <img>, no [\d+] note markers, 0 images. The file has NO
+        # trailing newline, so it is 184 lines (wc -l counts 183 newlines);
+        # after drop=2 the txt has 182 body lines = 3 <h3> heading lines (raw
+        # 1-based L15/L61/L133) + 179 <p>. The three <h3> are their OWN
+        # elements -> standalone (### ), not glued. NO source-duplication
+        # artifact (near-duplicate scan found nothing >0.6; no heading text
+        # fused mid-<p>).
+        # NO severed-<p> boundaries. Every body line ends on a terminal
+        # glyph (no non-terminal enders). All ！/？-ending candidates are
+        # complete terminal sentences, NOT mid-predicate severs (e.g. L11
+        # 壮烈成仁！, L36 使人钦敬！, L46 该当如何？, L108 回不到北平了！, L116
+        # 令人肃然起敬！, L129 那还了得！). The L50-L53 run (再就是对共军官兵又将
+        # 如何处理？ / 凵就地掩埋？ / 二交由地方上的民间团体？ / 三...体䘏？) is an
+        # enumerated OPTIONS list (凵=一 glitch, then 二/三), each a complete
+        # question kept as its own BODY line per parity, NOT a sever.
+        # INNER enumerations / name-lists / options stay as BODY lines per
+        # parity (rendered (1)(2)(3) with arabic markers).
+        # Digitization glitches (rendered to plain sense, listed in PROGRESS):
+        # single-char name substitutions (主兆芬 for 王兆芬 L16; 鲁英尘 L44/L86
+        # and 鲁英屡 L116 for 鲁英庆; 缓靖 L20 for 绥靖); dropped-stop redaction
+        # glyph 〇 (L4 为什么〇), fullwidth ＠ for a stop (L30), stray | / 〕 /
+        # 》 / ︴ / “ glitches standing for a dash/colon or a closing 」, the ×
+        # redaction 第x纵队 (L112), and 张家。(口) L79 with the stop for a
+        # dropped 口. All rendered to plain sense; only genuine reading
+        # uncertainty footnoted.
+        "drop": 2,
+        "merges": [],
+        "glued": {}, "glued_head": {},
+        "standalone": [15, 61, 133],
+    },
 }
 
 

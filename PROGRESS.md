@@ -3787,3 +3787,111 @@ Gu Shoulin, who lost his reason in Hong Kong in 1951 and vanished.
   彩 for 采 (兴高彩烈); x/% redactions (第x专区, xx县, x月, 九月x日, %月). All rendered to plain sense;
   none is a reading uncertainty. Name-form variants noted: 朱占奎/朱占魁 (same man, inline), 李葆章/李保章
   (same man), 唐二里/汤二里 (same place); 徐佛观 = the philosopher Xu Fuguan (source 佛 for 复), inline.
+
+## Batch B32 (ch39 = 第七章 瞻前顾后 未雨绸缪, the SEVENTH Part-Four narrative chapter)
+
+"Chapter 7. Looking Before and After, Providing Against the Storm." Three sections: ch39s01 "What I
+Saw and Did While Clearing the Battlefield"; ch39s02 "A Strategy Revised Again and Again, Still
+Without Direction"; ch39s03 "A Loyal Heart Providing for the Whole Unit's Future." Section 1 is Wang
+Zhaofen's long account of opening up the First Command Room's work at Zhuoxian (the Zhenmin Herald,
+Commissioner Wang Fenggang and the "iron triangle," the mass encoffining of the dead after the
+Laishui campaign, and the Zhuoxian "Cleanse-the-Source" movement, with Meng Guangdi's sub-account).
+Section 2 is Zhang Luying's account of the Fifth Command Room at Zhangyuan, then Chen's own reckoning
+of Fu Zuoyi's vacillating strategy and the destruction of the 35th Army at Xinbao'an and the 11th
+Army Group at Zhangyuan, and the failure of Nationalist intelligence. Section 3: the dated Dagong-Bao
+chronicle of the summer-1948 collapse, the Nanjing conference and the audience with Chiang ("Be a
+nameless hero"), Zheng Jiemin's charge to prepare the "stay-behind work," the compact with Chen
+Zhenshan of the Northeast Brigade, and the plan to move the First Brigade south.
+
+### Structure
+- drop=2 (running header 英雄无名-陈恭澍 + <h2> chapter title). Byte-exact p-by-p diff against the
+  source XHTML: 1 <h2> + 3 <h3> (section heads 一/二/三) + 179 <p>, ZERO mismatches; NO <h1>/<br/>/
+  <img>/[\d+], 0 images. File has NO trailing newline (184 lines; wc -l counts 183); after drop=2 the
+  txt has 182 body lines = 3 <h3> heads (raw 1-based L15/L61/L133) + 179 <p>. standalone=[15,61,133].
+  The "1-line count scare" (ch36/ch38 pattern) was a trailing-newline miscount, confirmed harmless.
+- NO severed-<p> merges. Every body line ends on a terminal glyph. All ！/？-ending candidates are
+  complete terminal sentences (L11 壮烈成仁！, L36 使人钦敬！, L46 该当如何？, L108 回不到北平了！, L116
+  令人肃然起敬！, L129 那还了得！), NOT mid-predicate severs. The L50-L53 run (再就是...如何处理？ / 凵
+  就地掩埋？ / 二...？ / 三...？) is an enumerated OPTIONS list (凵=一 glitch, then 二/三), each a complete
+  question kept as its own BODY line per parity, rendered (1)(2)(3). NO ch36-class source-duplication
+  (near-duplicate scan found nothing >0.6; no heading text fused mid-<p>).
+- 179 body paragraphs. median ratio 5.58 en/han (document/quote-heavy: two long contributed accounts
+  plus a dated news chronicle). Alignment OK (no pair strays >2.2x).
+
+### Checks (all green)
+- verify_unit ch39: parity 179/179 OK; numbers 0 unresolved (after the 7 noise additions below);
+  anchors OK. check_align: median 5.58, OK. check_structure: ALL PASS (343 notes, 0 unresolved).
+- check_content: ch39 213 name occurrences, 0 displaced ("all in the paired paragraph"). The
+  ch08/09/13/26/38 lines are the documented pre-existing artifacts (Shunde/Jize/武汉卿/劳勃生路/海防).
+  NOTE: keying 张垣→Zhangyuan was DROPPED — ch08 already renders the same 张垣 as "Zhangjiakou," so
+  张垣 is rendered "Zhangyuan" INLINE in ch39 (with the in-text gloss "(Zhangjiakou in Chahar)") and
+  logged as a whole-book reconciliation item, not keyed.
+- qc_entities: 0 misses (census top: 傅作义 x34, 北平 x34, 绥靖 x22, 涿县 x22, 涞水 x9, 保定 x9, 王兆芬
+  x8, 孙兰峰 x8, 张鲁颖 x7). Fixed 1 verb-form 绥靖 ("pacified the locality" -> "carried out the
+  pacification of the locality") so the keyed noun appears in the paragraph.
+- check_register --ref: within tolerance (contr 0.0/1k, shall 0%, em-dash 6.6/1k, rhythm 0.64).
+- Tail verified against source (L183/L184 rendered in full, nothing dropped or invented).
+- qa_epub PASS (43 docs, 5564 paras, 343 refs/bodies/backlinks, all links resolve). epubcheck 5.1.0:
+  0 fatals / 0 errors / 0 warnings / 0 infos. EPUB now 39/43 chapters, 343 notes.
+
+### Notes (8 new; 335 -> 343 cumulative)
+1. City of the Wrongfully Dead (枉死城, the folk-belief underworld quarter for the untimely/violent dead).
+2. The Laishui campaign (涞水之役, Jan 1948; the 35th Army beaten, Li Mingding and the army commander
+   both suicides; scholarship verdict; foreshadows Xinbao'an).
+3. The battle of Xinbao'an (新保安, 6-24 Dec 1948, opening act of the Pingjin Campaign; the 35th Army
+   annihilated, Guo Jingyun a suicide; broke Fu Zuoyi's will; "not one survived" is a martyr's
+   flourish, many thousands were captured).
+4. The intelligence leak (泄密; Fu Zuoyi's HQ penetrated, his daughter Fu Dongju among the sources; a
+   scholarship verdict on Chen's suspicion; the deputy chief of staff unidentifiable here).
+5. "Be a nameless hero" (Chiang's 作一个无名英雄 = the source of the book's title 英雄无名).
+6. The Dagong Bao (大公报 / Ta Kung Pao; the liberal Republican paper; the post-1949 "mouthpiece"
+   claim broadly borne out; the surviving Hong Kong edition).
+7. The Kanjurwa Khutukhtu (甘珠尔瓦呼图克图; a Mongol reincarnate lama / "living Buddha"; the 呼图克图
+   title; his younger brother in the Duolun intelligence group).
+8. The "nines" of winter (数九寒天; the nine nine-day periods counted from the winter solstice).
+
+### Glossary — B32 net-new keyed rows (15: 10 people, 5 places)
+- People: 王兆芬 Wang Zhaofen (First Command Room, section-1 account author), 张鲁颖 Zhang Luying (Fifth
+  Command Room, section-2 account author; graduated from inline in ch38), 陈振山 Chen Zhenshan (Second/
+  Northeast Brigade commander), 孟广第 Meng Guangdi (Baoding Group, sub-account author), 鲁英庆 Lu
+  Yingqing (35th Army cmdr, Laishui suicide; source glitches 鲁英尘/鲁英屡), 郭景云 Guo Jingyun (35th
+  Army cmdr, Xinbao'an suicide), 孙兰峰 Sun Lanfeng (11th Army Group cmdr), 李铭鼎 Li Mingding (division
+  cmdr, Laishui suicide), 李中庸 Li Zhongyong (Second-district commissioner), 王凤岗 Wang Fenggang
+  ("iron triangle" commissioner). All provisional.
+- Places (all decided): 涿县 Zhuoxian, 新保安 Xinbao'an (en carries a curly apostrophe "Xinbao’an" to
+  match the reading.md typography — the glossary en was set to the curly form so check_content/qc
+  match), 涞水 Laishui, 保定 Baoding.
+- Kept INLINE (glossary-key discipline): 王有声/张荫梧/赵伯衡/孙祖义/崔老选/崔万兴/赵百川(=赵明山)/陈凤桐/
+  王志毅/白德昭/贡楚格策登/乌瑞山/仁亲道尔吉/孙文良/钟宁寿/楚溪春/何思源/刘瑶章/范汉杰/王云孙/杨予/魏宁;
+  the Communist commanders 刘伯承/陈毅/徐向前; 张垣 Zhangyuan (see reconciliation note above). Places
+  inline: 宛平/小稻村/望都/易县/多伦/宣化/怀安/沙城/万全/柴沟堡/下花园/通县/丰台/张飞店/南苑/归绥/包头/
+  集宁/大同/太原/承德/葫芦岛/长春/济南/开封/唐山/丰润/昌黎/秦皇岛/房山/定兴/满城/大沽口/青岛/香林寺.
+
+### data/noise.txt — B32 additions (7)
+- **六神无主** (idiom "out of one's wits"; 六 = the six spirits, not the count 6).
+- **赵百川** (person name Zhao Baichuan; 百 = 100 part of the name).
+- **崔万兴** (person name Cui Wanxing; 万 = 10000 part of the name).
+- **一来二去** (idiom "back and forth"; 二 = part of the set phrase).
+- **顚三倒四** (idiom "topsy-turvy"; 三/四 part of the phrase; source prints 顚 for 颠).
+- **三心两意** (idiom "of a divided mind"; 三/两 part of the phrase; Fu Zuoyi's vacillation).
+- **数九寒天** (idiom "the depth of winter"; 九 = the nine nine-day periods, not the count 9).
+- All REAL quantities carried as DIGITS/words: 35th/11th/16th Armies, the columns and brigades and
+  regiments of the Deng Wenyi bulletin, ~300,000 (总兵力约三十万), ~70,000 / ~20,000 / ~50,000 (the
+  Zhangyuan-Xinbao'an forces), 769 corpses on the first day and >3,000-odd handed over, ~400 vehicles,
+  ~20 degrees below zero, 57 spies arrested, ROC years 21/28/34/36/37/38/40 matched by ordinal or
+  +1911. The ×-redaction 第x纵队 (L112) rendered as an em-dash blank "the ——th Column."
+
+### Digitization glitches (rendered to plain sense; none footnoted — mechanical)
+- Single-char name substitutions: 主兆芬 for 王兆芬 (王兆芬 = Wang Zhaofen, L16); 鲁英尘 (L44/L86) and
+  鲁英屡 (L116) for 鲁英庆 (Lu Yingqing, one man); 缓靖 for 绥靖 (L20).
+- Dropped-stop / redaction glyphs: 〇 for a missing punctuation (为什么〇, L4); fullwidth ＠ for a stop
+  (声名亦渐为人所称道＠, L30); 张家。 with the 。 for a dropped 口 (= Zhangjiakou, L79).
+- Stray presentation glyphs standing for a dash/colon or a closing 」: | (下面就是...原文|, L19; 再说几句
+  伤心话|, L45; 傅作义的三心两意|, L104/L129), 》(为题》, L66; 副主任》, L81), 〕(涿县时〕, L55; 从张垣一役
+  中〕, L104), 〞/" for a closing 」 (在那个时候, L45; 西去包绥", L130), ﹄ mismatched guillemet (一小撮﹄,
+  L141), ︴ head-glyph (︴玉林兄, L181).
+- Enumeration-marker glitches: 工 for 一 (工我方官兵, L47), 凵 for 一 (凵就地掩埋 L51; 凵因工作态度 L73),
+  all rendered as arabic (1). The × redaction 第x纵队 (L112) rendered "the ——th Column."
+- Other single-char substitutions: 灭线 for 火线 (firing line, L7); 保一定 for 保定 (Baoding, L19); 联紧
+  for 联系 (L66); 福射状 for 辐射状 (L87); 杆了毡 (dialect, "matted into felt," L114). Name-form/place:
+  张垣 = the literary name of 张家口 Zhangjiakou (source glosses it 张垣（察哈尔张家口）, L62).

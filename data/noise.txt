@@ -934,3 +934,24 @@
 # as "115th Division," a designation, not the count 5. (Cf. 二〇八 above; 一二九→129
 # and 一二〇 compose/parse cleanly and need no rule.)
 一一五
+# Idiom 六神无主 "out of one's wits" (ch39): the 六 (6) names the six spirits/
+# organs of Daoist belief, an idiom for panic, not the count 6.
+六神无主
+# Personal name containing a numeral glyph: 赵百川 (Zhao Baichuan, editor of the
+# Zhenmin Herald, ch39); the 百 (100) is part of the given name, not the count 100.
+赵百川
+# Personal name containing a numeral glyph: 崔万兴 (Cui Wanxing, the gray-figure
+# agent's son, ch39); the 万 (10000) is part of the given name, not the count 10000.
+崔万兴
+# Idiom 一来二去 "back and forth, in the course of things" (ch39): the 二 (2) is part
+# of the set phrase, not the count 2.
+一来二去
+# Idiom 顚三倒四 "topsy-turvy, all in disorder" (ch39): the 三 (3) and 四 (4) are part
+# of the set phrase (the source prints 顚 for 颠), not the counts 3 and 4.
+顚三倒四
+# Idiom 三心两意 "of a divided mind, irresolute" (ch39): the 三 (3) and 两 (2) are part
+# of the set phrase (Fu Zuoyi's vacillation), not the counts 3 and 2.
+三心两意
+# Idiom 数九寒天 "the depth of winter" (ch39): the 九 (9) names the nine nine-day
+# periods after the winter solstice, an idiom for the coldest days, not the count 9.
+数九寒天
