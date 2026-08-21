@@ -5594,6 +5594,78 @@
    "right": "5位肥胖",
    "page": "f391",
    "note": "China Forum quote: FIVE judges (OCR read 5 as 3); crop-verified f391"
+  },
+  {
+   "wrong": "一副六然",
+   "right": "一副凛然",
+   "page": "f405",
+   "note": "凛然 (OCR 六 for 凛 injected phantom 6)"
+  },
+  {
+   "wrong": "这个三的",
+   "right": "这个厂的",
+   "page": "f408",
+   "note": "恒丰纱厂 the mill (OCR 三 for 厂 injected phantom 3)"
+  },
+  {
+   "wrong": "幻想1",
+   "right": "幻想!",
+   "page": "f405",
+   "note": "exclamation OCR'd as 1"
+  },
+  {
+   "wrong": "了?7",
+   "right": "了?",
+   "page": "f401",
+   "note": "quote-close/note-ref OCR'd as 7"
+  },
+  {
+   "wrong": "即被捕。\"9",
+   "right": "即被捕。\"",
+   "page": "f385",
+   "note": "note-ref (1) OCR'd as 9"
+  },
+  {
+   "wrong": "光头.9",
+   "right": "光头。",
+   "page": "f386",
+   "note": "note-ref (1) OCR'd as 9; period garble"
+  },
+  {
+   "wrong": "工部六的律师",
+   "right": "工部局的律师",
+   "page": "f392",
+   "note": "工部局 the Municipal Council (OCR 六 for 局 injected phantom 6)"
+  },
+  {
+   "wrong": "判决,二已在",
+   "right": "判决,早已在",
+   "page": "f392",
+   "note": "早已 (OCR 二 for 早 injected phantom 2)"
+  },
+  {
+   "wrong": "四来请读",
+   "right": "回来请读",
+   "page": "f392",
+   "note": "回来 came back (OCR 四 for 回 injected phantom 4)"
+  },
+  {
+   "wrong": "有7十见方",
+   "right": "有7寸见方",
+   "page": "f396",
+   "note": "7-inch opening (OCR 十 for 寸 injected phantom 10)"
+  },
+  {
+   "wrong": "复了一遍17",
+   "right": "复了一遍",
+   "page": "f399",
+   "note": "note-ref (1) OCR'd as 17"
+  },
+  {
+   "wrong": "4中国论坛",
+   "right": "中国论坛",
+   "page": "f391",
+   "note": "book-title bracket 《 OCR'd as 4"
   }
  ],
  "ch22": [

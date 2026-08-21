@@ -241,3 +241,11 @@
 第二天
 # 十万火急 = "desperately urgent" (十万 = a myriad), an idiom, not a count
 十万火急
+# 百花洲 Baihuazhou (Nanchang place name; 百=100) — rendered "Baihuazhou"
+百花洲
+# arabic-digit + 万 composites (30多万, 1万多, 3万多): value carried in English
+# ("more than three hundred thousand", "more than ten thousand", "more than thirty thousand")
+[0-9]+多万
+[0-9]+万多
+# 十字路 crossroads (idiom, 十=10) — rendered "crossroads"
+十字路
