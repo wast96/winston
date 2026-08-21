@@ -724,3 +724,83 @@ Ningxia (the campaign/place noted; ch06 will carry the persecution).
 
 **Tooling — no reverts.** No script changes this batch; the ch01-04 crop, the
 apparatus_merge section-field mechanism, and the {v}/### /#### mirroring all held.
+
+## Batch 8 — Chapter 6 (ch06, PDF 205-224, printed 194-213) — COMPLETE
+
+**Scope.** Whole of Chapter 6, "A Loyal Heart Revealed in a Time of Injustice,"
+all four sections in one unit `ch06` (own reading file + `data/zh/ch06.txt`). Done
+end to end. The persecution years: the 1958 "anti-Party clique" frame-up of the
+Ministry of Justice Party group; twenty years of disgrace; ten years exiled in
+Ningxia through the Cultural Revolution; full rehabilitation in 1983; and the last
+working years, writings, and death (1991), closing with the book's peroration and
+four calligraphic tributes. 67 body paragraphs, 4 `###` section headings.
+
+**Pipeline / gates (all green).**
+- render 205-224 (PyMuPDF 300 dpi); OCR per-page with the ch01-05 crop
+  (`--lang chi_sim --psm 6 --left 0.045 --right 0.985 --top 0.08`, recto/verso
+  split bottom 0.945/0.915), backgrounded; `pgrep -c tesseract` 0 after.
+- Every page read by eye at magnification; `data/zh/ch06.txt` hand-assembled one
+  source paragraph per line, portrait/photo captions kept OUT (into figures.json).
+- parity 67 = 67 (`check_structure`), headings OK.
+- numbers 0 unresolved (`check_numbers --noise`); 5 CJK/era magnitude idioms added
+  to `data/noise.txt` (十余万 "more than a hundred thousand words", 100多万 "more
+  than a million words", 三十年代 "the 1930s", 九旬 "close on ninety", 亿万
+  "hundreds of millions") — all magnitudes carried in the English prose.
+- content aligned, 155 name occurrences all in the paired paragraph
+  (`check_content --config data/check_config.ch06.json`).
+- entity survival 0 misses (`qc_entities` on the bilingual QC file).
+- align OK, median 4.55 en/han, no pair strays > 2.2x (`check_align`).
+- apparatus 0/0 (`check_apparatus`); 23 footnotes (book-wide 410); 40 new glossary
+  rows (716 referents).
+- 14 figures cropped to `data/figs/` (photos + the four end-of-chapter calligraphy
+  tributes; find_figures misses calligraphy, cropped by eye); alt text carries no
+  straight double quotes.
+- build OK (6 of 12 chapters, 410 notes); `qa_epub` PASS (410 ref/body/backlink);
+  `check_register --ref out/ch01_reading.md` within tolerance (little dialogue,
+  narratorial signals only); epubcheck 0 fatals / 0 errors / 0 warnings.
+
+**Source error rendered as printed + footnoted (do NOT "fix").** printed 202:
+中共**十届**六中全会 (twice) — the Resolution on Party History was in fact adopted
+at the Sixth Plenary Session of the **Eleventh** Central Committee (June 1981);
+there was no such Tenth-CC plenum. Crop-verified both occurrences; rendered as
+printed ("the Sixth Plenary Session of the Tenth Central Committee") with a
+footnote, and the book's own later, correct "Third Plenary Session of the Eleventh
+Central Committee" makes the slip plain.
+
+**Two sons (consistent with ch05).** 长子建宇 = eldest son Chen Jianyu (already
+decided); 幼子震宇 = youngest son Chen Zhenyu (glossary key 震宇 → "Zhenyu"), who
+suffered a mental breakdown after the father's fall (printed 197).
+
+**Fact-check verdicts placed in notes (not the text).** the 1931 Longhua arrests /
+"24 comrades" — Chen's charge that the Wang Ming leadership deliberately let them
+be taken is the survivors' bitter factional reading; historians link the arrests to
+the internal fight over Wang Ming's line but do not all accept a deliberate
+betrayal — flagged in the note. Dong Biwu's dissent from the "anti-Party clique"
+finding corroborated. The Anti-Rightist over-extension, Seven Thousand Cadres
+Conference, Reflection Institute, Wang Jingwei collaboration, Fan Zhongyan maxim,
+Rou Shi martyrdom — all corroborated in the notes.
+
+**NEW decided renderings (feed to authority.json at completion).** People: Zheng
+Shaowen, Wang Huai'an, Wang Ruqi, Wang Yuechen, Liu Shangzhi, Tang Jinshi, Song
+Zicheng, Luo Zhiguang, Dong Biwu, Kang Jianmin, Huo Shilian, Ma Xin, Ding Yimin,
+Pei Zhouyu, Jin Zhaodian, Qu Rixin, Feng Jinchen, Zheng Xiaoxian, Gu Yizhi, Rou Shi,
+He Mengxiong, Li Qiushi, Wu Huai'e, Xiao Taihuang, He Changzhi, He Zhihua, Hu Weihua,
+Jiang An, Zhou Jianjie, Rong Xuan, Yu Ping, Huang Huoqing, Zhang Su, Li Yimang, Ling
+Yun. Places: Ningxia, Yinchuan, Ninghai County, Mengzhou. Orgs/events: the Reflection
+Institute, the College of Foreign Affairs, the Central Political-Legal Group, the
+Production Command, the Revolutionary Committee, the Anti-Rightist Campaign, the Seven
+Thousand Cadres Conference, the Five-Antis.
+
+**NOT re-noted (already placed in ch01-05; cross-referenced instead):** Li Kenong,
+Chen Geng, Zhou Enlai, Deng Xiaoping, Yang Shangkun, Peng Zhen, Kang Sheng, Jiang
+Qing, Chen Yun, Wang Ming, Gu Shunzhang, Bao Junfu, Peng Pai, Luo Yinong, Bai Xin,
+He Jiaxing, Wu Hujing, Li Qiang, Luo Qingchang, Yun Daiying, the Central Special
+Branch, the Central Investigation Department, the Ministries of Public Security and
+Justice, the Cultural Revolution, the Gang of Four, the "anti-Party clique" case,
+Ningxia (place noted in ch05), the Three-Antis, the Eighth National Congress,
+Longhua, the White Terror, "national salvation through industry."
+
+**Tooling — no reverts.** No script changes this batch; the ch01-05 crop, the
+apparatus_merge section-field mechanism, the {v}/### mirroring, and the data/zh
+regeneration protocol all held. ch06 has NO {v}/{p} set-off blocks (the letter and
+verdict quotations are inline within narrative paragraphs).

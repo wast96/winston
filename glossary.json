@@ -2748,6 +2748,161 @@
       "pinyin": "Liu Fuzhi",
       "status": "attested",
       "note": "Liu Fuzhi (1917-2013), later Minister of Public Security and Procurator-General."
+    },
+    "郑绍文": {
+      "en": "Zheng Shaowen",
+      "pinyin": "Zheng Shaowen",
+      "status": "decided",
+      "note": "Secretary of the Ministry of Justice Party group and a vice-minister; a principal target of the 1958 case."
+    },
+    "王怀安": {
+      "en": "Wang Huai'an",
+      "pinyin": "Wang Huai'an",
+      "status": "decided",
+      "note": "Assistant minister of Justice; branded a Rightist and expelled in 1958, later a noted jurist of the Supreme People's Court."
+    },
+    "王汝琪": {
+      "en": "Wang Ruqi",
+      "pinyin": "Wang Ruqi",
+      "status": "decided",
+      "note": "Ministry of Justice cadre, director of its Notary and Lawyers Bureau."
+    },
+    "王悦尘": {
+      "en": "Wang Yuechen",
+      "pinyin": "Wang Yuechen",
+      "status": "decided",
+      "note": "Ministry of Justice cadre, director of its General Office."
+    },
+    "刘尚之": {
+      "en": "Liu Shangzhi",
+      "pinyin": "Liu Shangzhi",
+      "status": "decided"
+    },
+    "唐劲实": {
+      "en": "Tang Jinshi",
+      "pinyin": "Tang Jinshi",
+      "status": "decided"
+    },
+    "宋子成": {
+      "en": "Song Zicheng",
+      "pinyin": "Song Zicheng",
+      "status": "decided"
+    },
+    "罗之光": {
+      "en": "Luo Zhiguang",
+      "pinyin": "Luo Zhiguang",
+      "status": "decided"
+    },
+    "董必武": {
+      "en": "Dong Biwu",
+      "pinyin": "Dong Biwu",
+      "status": "decided",
+      "note": "1886-1975; a founder of the CCP and President of the Supreme People's Court 1954-1959."
+    },
+    "康健民": {
+      "en": "Kang Jianmin",
+      "pinyin": "Kang Jianmin",
+      "status": "decided",
+      "note": "1916-1977; PLA general and first Party secretary of Ningxia."
+    },
+    "霍士廉": {
+      "en": "Huo Shilian",
+      "pinyin": "Huo Shilian",
+      "status": "decided",
+      "note": "1909-1996; Party official who led Ningxia and later Shanxi."
+    },
+    "马信": {
+      "en": "Ma Xin",
+      "pinyin": "Ma Xin",
+      "status": "decided"
+    },
+    "丁毅民": {
+      "en": "Ding Yimin",
+      "pinyin": "Ding Yimin",
+      "status": "decided"
+    },
+    "顾逸之": {
+      "en": "Gu Yizhi",
+      "pinyin": "Gu Yizhi",
+      "status": "decided"
+    },
+    "柔石": {
+      "en": "Rou Shi",
+      "pinyin": "Rou Shi",
+      "status": "decided",
+      "note": "Pen name of Zhao Pingfu, 1902-1931; writer and Left League martyr, executed at Longhua."
+    },
+    "何孟雄": {
+      "en": "He Mengxiong",
+      "pinyin": "He Mengxiong",
+      "status": "decided",
+      "note": "1898-1931; early CCP labor organizer, executed at Longhua with the others."
+    },
+    "李求实": {
+      "en": "Li Qiushi",
+      "pinyin": "Li Qiushi",
+      "status": "decided",
+      "note": "1903-1931; Communist Youth League editor, one of the Longhua martyrs."
+    },
+    "武怀谔": {
+      "en": "Wu Huai'e",
+      "pinyin": "Wu Huai'e",
+      "status": "decided",
+      "note": "Younger brother of the Special Branch leader Wu Hujing."
+    },
+    "萧泰煌": {
+      "en": "Xiao Taihuang",
+      "pinyin": "Xiao Taihuang",
+      "status": "decided"
+    },
+    "贺稚华": {
+      "en": "He Zhihua",
+      "pinyin": "He Zhihua",
+      "status": "decided",
+      "note": "Wife of the traitor He Jiaxing; the two betrayed Luo Yinong in 1928 and were eliminated by the Red Squad."
+    },
+    "胡伟华": {
+      "en": "Hu Weihua",
+      "pinyin": "Hu Weihua",
+      "status": "decided"
+    },
+    "姜岸": {
+      "en": "Jiang An",
+      "pinyin": "Jiang An",
+      "status": "decided"
+    },
+    "周见睫": {
+      "en": "Zhou Jianjie",
+      "pinyin": "Zhou Jianjie",
+      "status": "decided"
+    },
+    "戎宣": {
+      "en": "Rong Xuan",
+      "pinyin": "Rong Xuan",
+      "status": "decided"
+    },
+    "喻屏": {
+      "en": "Yu Ping",
+      "pinyin": "Yu Ping",
+      "status": "decided",
+      "note": "A deputy procurator-general of the Supreme People's Procuratorate."
+    },
+    "黄火青": {
+      "en": "Huang Huoqing",
+      "pinyin": "Huang Huoqing",
+      "status": "decided",
+      "note": "1901-1999; Procurator-General of the Supreme People's Procuratorate 1978-1983."
+    },
+    "张苏": {
+      "en": "Zhang Su",
+      "pinyin": "Zhang Su",
+      "status": "decided"
+    },
+    "凌云": {
+      "en": "Ling Yun",
+      "pinyin": "Ling Yun",
+      "status": "decided",
+      "note": "1917-2018; intelligence official, a director of the Central Investigation Department and later Minister of State Security."
     }
   },
   "organizations": {
@@ -3207,6 +3362,35 @@
       "en": "Celebrity Biography",
       "pinyin": "Mingren Zhuanji",
       "status": "decided"
+    },
+    "反省院": {
+      "en": "the Reflection Institute",
+      "pinyin": "fanxingyuan",
+      "status": "decided",
+      "note": "Nationalist prisons where captured Communists were pressed to recant and 'reflect' on their errors."
+    },
+    "外交学院": {
+      "en": "the College of Foreign Affairs",
+      "pinyin": "Waijiao Xueyuan",
+      "status": "decided",
+      "note": "Founded 1955 in Beijing under the Ministry of Foreign Affairs to train diplomats."
+    },
+    "中央政法小组": {
+      "en": "the Central Political-Legal Group",
+      "pinyin": "Zhongyang Zhengfa Xiaozu",
+      "status": "decided",
+      "note": "A Party body overseeing the courts, procuratorates, and public-security and justice ministries."
+    },
+    "生产指挥部": {
+      "en": "the Production Command",
+      "pinyin": "shengchan zhihuibu",
+      "status": "decided"
+    },
+    "革命委员会": {
+      "en": "the Revolutionary Committee",
+      "pinyin": "geming weiyuanhui",
+      "status": "decided",
+      "note": "The 'three-in-one' organs of army, cadres, and mass representatives that replaced Party and government bodies in 1967-1968."
     }
   },
   "places": {
@@ -3503,6 +3687,30 @@
       "pinyin": "Banmendian",
       "status": "attested",
       "note": "The village on the Korean truce line where the armistice negotiations were held from 1951; Li Kenong headed the Chinese delegation's work there."
+    },
+    "宁夏": {
+      "en": "Ningxia",
+      "pinyin": "Ningxia",
+      "status": "decided",
+      "note": "The Ningxia Hui Autonomous Region, established 1958, in the arid northwest; capital Yinchuan."
+    },
+    "银川": {
+      "en": "Yinchuan",
+      "pinyin": "Yinchuan",
+      "status": "decided",
+      "note": "Capital of the Ningxia Hui Autonomous Region."
+    },
+    "宁海县": {
+      "en": "Ninghai County",
+      "pinyin": "Ninghai",
+      "status": "decided",
+      "note": "County in eastern Zhejiang, the home district of the martyr Rou Shi."
+    },
+    "孟州": {
+      "en": "Mengzhou",
+      "pinyin": "Mengzhou",
+      "status": "decided",
+      "note": "City in Henan province."
     }
   },
   "events": {
@@ -3663,6 +3871,24 @@
       "pinyin": "Ba Da",
       "status": "attested",
       "note": "The Eighth National Congress of the Chinese Communist Party, held in September 1956, which declared the main task now to be economic construction."
+    },
+    "反右派斗争": {
+      "en": "the Anti-Rightist Campaign",
+      "pinyin": "Fanyoupai Douzheng",
+      "status": "decided",
+      "note": "The 1957 campaign against critics of the Party; officially acknowledged to have wrongly labeled hundreds of thousands."
+    },
+    "七千人大会": {
+      "en": "the Seven Thousand Cadres Conference",
+      "pinyin": "Qiqianren Dahui",
+      "status": "decided",
+      "note": "The enlarged Central Work Conference of January-February 1962, called to reckon with the Great Leap Forward's failures."
+    },
+    "五反": {
+      "en": "the Five-Antis",
+      "pinyin": "Wufan",
+      "status": "decided",
+      "note": "The 1952 campaign against the 'five evils' of the urban bourgeoisie; the companion of the Three-Antis."
     }
   },
   "terms": {

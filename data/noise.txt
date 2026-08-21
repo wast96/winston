@@ -162,3 +162,13 @@
 百出
 # personal name 丁老二 "Ding Lao'er" (contains 二)
 丁老二
+# 十余万字 "more than a hundred thousand words" — magnitude carried in English; 十/万 split by 余
+十余万
+# 100多万字 "more than a million words" — magnitude carried in English; arabic 100 + 万 split by 多
+100多万
+# 三十年代 the 1930s — a decade/era label (CJK), rendered "the 1930s"; no quantity
+三十年代
+# 九旬 "close on ninety" — an age idiom (旬 = a span of ten years); rendered "close on ninety"
+九旬
+# 亿万群众 "hundreds of millions" — an idiom for a vast multitude (亿万); rendered "hundreds of millions"
+亿万
