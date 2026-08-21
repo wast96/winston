@@ -1170,3 +1170,68 @@ nailed to the wall, chest bayoneted) is the Communist account and is NOT
 independently corroborated. Author's notes reproduced for the 王竹樵/尤崇新
 informer dispute, the 抄靶子 term, and the block-quote sources (Cai Mengjian's
 Taipei memoir; Zhang Guotao's My Recollections; A Life of Yun Daiying).
+
+## B12 (ch21 A Vicious Manhunt Part 1 + ch22 A Vicious Manhunt Part 2)
+
+Both chapters complete. ch21 = 104 body paragraphs across 2 sections (s01 派特务
+追捕陈赓 = 80 paras, s02 魔手伸进王根英的娘家 = 24), 11 notes, 2 figures. ch22 = 47
+body paragraphs (s01 秘密绑架丁玲 = 26, s02 参与暗杀杨杏佛 = 21), 10 notes, 2
+figures. The manhunt after Gu Shunzhang's defection: the pursuit and 24 March 1933
+arrest of Chen Geng at the Beijing/Lido Theatre, his refusal of Chiang Kai-shek's
+personal inducements at Nanchang and escape through Song Qingling's intervention
+(late May 1933); the raid on his wife Wang Genying's family, her three years in
+the Model Prison and Xiaozhuang reformatory (the Noulens hunger strike), Zhou
+Enlai's freeing her in August 1937, and her death in battle 8 March 1939; the
+secret abduction of Ding Ling with Pan Zinian (14 May 1933, Ying Xiuren killed),
+her three years in Nanjing and escape to Bao'an, rehabilitated 1984; and the Blue
+Shirt/Juntong assassination of Yang Xingfo (18 June 1933) of the China League for
+the Protection of Civil Rights.
+
+### B12 checks (all green)
+verify_unit ch21/ch22: parity 104/47, numbers 0 unresolved, anchors 0 ok.
+check_align: OK (median 4.24 / 4.38 en/han, no pair strays >2.2x). qc_entities:
+CLEAN both (after settling Song Qingling and concession-police forms). check_content:
+all name occurrences in the paired paragraph (369 ch21, 260 ch22). check_register
+vs ch01: within tolerance (em-dash 3.4 / 3.9 per 1k vs the reference's 6.0).
+check_apparatus: 0 failures. qa_epub: PASS (301 notes, 407 pagebreaks). epubcheck
+5.1.0: 0 fatals / 0 errors / 0 warnings.
+
+### B12 renderings settled (glossary; 85 new rows this batch)
+SHELF DECISION FOLLOWED: 宋庆龄 = "Song Qingling" (authority.json / huang-mulan),
+NOT "Soong Ching-ling" (translation reworded to match). Held: 巡捕房 = concession
+police, 中统 Zhongtong, 军统 Juntong, 复兴社 Renaissance Society (= Blue Shirts /
+蓝衣社), 中国民权保障同盟 = China League for the Protection of Civil Rights, 大公报 =
+Ta Kung Pao, 大美晚报 = Da Mei Wan Bao, 申报 = Shen Bao, 打狗队 = Dog-Beating Squad.
+New principals: 陈赓 Chen Geng (lead), 丁玲 Ding Ling, 杨铨/杨杏佛 Yang Quan/Yang
+Xingfo, 王根英 Wang Genying, 邓文仪 Deng Wenyi, 谭国辅 Tan Guofu, 沈醉 Shen Zui,
+戴笠 Dai Li, plus the full League/press/rescue cast (see glossary people/orgs/
+places/works). REMOVED two false-matching glossary keys: 同盟会 (matched inside
+同盟会员) and 时报 "Shi Bao" (matched inside 当时报纸); neither is used as a real
+entity anywhere in ch00-22.
+
+### B12 NOT re-noted (already placed earlier, cross-referenced)
+Zhongtong / Juntong (ch05-09), concession police / 巡捕房 (ch01+), Comrade /同志
+(ch01), Whampoa (earlier), International Settlement / Concessions (ch01+),
+Nineteenth Route Army (earlier), Second Eastern Expedition (context supplied in the
+Chen-Geng-saved-Chiang note), Gu Shunzhang / the defection (ch19), Deng Xiaoping,
+White Terror, Central Special Section. Minor low-stakes discrepancies left unnoted
+(tier named in STYLE).
+
+### B12 fact-check verdicts (in the notes; WebSearch Wikipedia / academic; NO
+LLM/Grokipedia)
+CORROBORATED: Chen Geng arrested at the Beijing/Lido Theatre 24 March 1933, taken
+to Nanchang, refused Chiang, escaped ~a month later with Song Qingling's help;
+Ding Ling abducted from the International Settlement 14 May 1933, held in Nanjing,
+escaped 1936 via Feng Xuefeng to Bao'an, rehabilitated by the 1984 Central
+Committee resolution; Yang Xingfo (secretary-general of the China League for Civil
+Rights) shot dead 18 June 1933 by the Blue Shirts on Chiang's order; the Blue
+Shirts / Renaissance Society (founded April 1932, Whampoa core, Chiang head); Hu
+Yepin among the Five Martyrs of the Left League (Longhua, 7 Feb 1931); Wang Genying
+killed at Nangong 8 March 1939. CONTRADICTED IN PART: the Noulens couple. The book
+calls them "Poles"; "Hilaire Noulens" was in fact Jakob Rudnik, a Soviet
+(Ukrainian-born) Comintern liaison agent (wife Tatiana Moissenko), and contrary to
+the book they were NOT freed after the prison hunger strike but only in 1937
+(death sentence commuted to life). The note states this. Author's notes reproduced
+for the block-quote sources (Yang Zhihua/Du Ning; Edgar Snow; China Forum; Xinhua's
+Ding Ling obituary; Ding Ling's own Wangliang shijie memoir; Shen Bao; Epstein's
+Soong Ching Ling) and the two author bio-notes for Pan Zinian and Ying Xiuren.
