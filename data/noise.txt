@@ -249,3 +249,18 @@
 40两
 # 名垂千古 ("won lasting fame", idiom 千古 = through the ages), 千 not a quantity; rendered "lasting fame"
 名垂千古
+# --- Batch B13 (Chapter 12 + Afterword) ---
+# 一百单八将 = "the Hundred-and-Eight Heroes" (Water Margin allusion, 108), 一百单八 not a counted quantity here; rendered "the Hundred-and-Eight" and footnoted
+一百单八将
+# 二十多万 (over 200,000 stray soldiers), Arabic/万-tokenization the parser splits into 20 and 10000; value carried in English as "more than 200,000"
+二十多万
+# 七万三轮车 (70,000 pedicab men), the 三 of 三轮车 glues to 七万 as a spurious 70003; value carried in English as "70,000", 三轮车 rendered "pedicab"
+七万三轮车
+# 金三角 = the Golden Triangle (place name), 三 in the toponym; rendered "the Golden Triangle"
+金三角
+# 六里桥 = Liuliqiao (Beijing place name, "Six-li Bridge"), 六 in the toponym; rendered "Liuliqiao"
+六里桥
+# 徐欣三 = Xu Xinsan (personal name in the roster), 三 is part of the name; rendered "Xu Xinsan"
+徐欣三
+# 十足 ("utterly / to the full", idiom in 十足的诱惑), 十 not a quantity; rendered "a standing temptation"
+十足

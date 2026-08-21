@@ -8,6 +8,22 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed dropped clause at ch03 §2 folio 45.
 -->
 
+## 2026-08-21: B13 — Chapter 12 + Afterword; BOOK COMPLETE
+- Translated ch12 (128 paras, +21 notes) and ch13/Afterword (32 paras, +4 notes);
+  +42 glossary rows (284 total, 251 notes). EPUB now 14/14 units; qa_epub PASS,
+  epubcheck 0/0/0/0. Final EPUB committed with `git add -f`.
+- WHOLE-BOOK RECONCILIATION (deep-audit finding, applied as a global correction):
+  GLOBAL: 西北公学 rendered "West China College" in ch08 (5 occurrences) corrected to
+  "Northwest College" to match ch02/ch05/ch07 (西北 = Northwest); rebuilt, qa green.
+  LOCAL: ch08 冀南行署 "Jinan Administrative Office" -> "South Hebei Administrative
+  Office" (disambiguates from the city 济南).
+- data/noise.txt: +7 entries (一百单八将, 二十多万, 七万三轮车, 金三角, 六里桥, 徐欣三, 十足).
+- New tooling (do not revert): scripts/resegment_ch12.py, scripts/resegment_ch13.py,
+  scripts/crop_band.py (magnified band crop), scripts/render_ledger.py (term ledger),
+  scripts/feed_authority.py. Rendered out/term_ledger.md, out/deep_audit.md.
+  authority.json fed with this book's renderings under slug "chinas-secret-war".
+- COMPLETION.md written; HANDOFF.md rewritten to COMPLETE.
+
 ## 2026-08-15: B01 voice-gate revision (register recalibration)
 - Commissioner feedback at the voice gate: the translation was loyal to the
   source's TEXTURE (baogao-wenxue exclamation, rhetorical questions, "so it

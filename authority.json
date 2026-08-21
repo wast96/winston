@@ -111,7 +111,8 @@
      "gu-shunzhang"
     ],
     "Central Special Branch": [
-     "huang-mulan"
+     "huang-mulan",
+     "chinas-secret-war"
     ]
    },
    "category": "organizations",
@@ -246,7 +247,8 @@
   "关东军": {
    "renderings": {
     "the Kwantung Army": [
-     "on-a-hair-trigger"
+     "on-a-hair-trigger",
+     "chinas-secret-war"
     ],
     "Kwantung Army": [
      "wang-yaqiao"
@@ -278,7 +280,8 @@
      "juntong"
     ],
     "Juntong": [
-     "on-a-hair-trigger"
+     "on-a-hair-trigger",
+     "chinas-secret-war"
     ]
    },
    "category": "organizations",
@@ -509,7 +512,8 @@
    "renderings": {
     "Zhou Enlai": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -593,6 +597,9 @@
     ],
     "Renaissance Society": [
      "wang-yaqiao"
+    ],
+    "the Fuxingshe": [
+     "chinas-secret-war"
     ]
    },
    "category": "organisations",
@@ -933,7 +940,8 @@
    "renderings": {
     "Zhang Guotao": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -955,7 +963,8 @@
    "renderings": {
     "Zhang Xueliang": [
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -1036,7 +1045,8 @@
     "Dai Li": [
      "huang-mulan",
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -1209,7 +1219,8 @@
     "Li Zongren": [
      "huang-mulan",
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -1354,7 +1365,8 @@
     "Mao Zedong": [
      "huang-mulan",
      "on-a-hair-trigger",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -1410,7 +1422,8 @@
     "Wang Jingwei": [
      "huang-mulan",
      "on-a-hair-trigger",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -1723,7 +1736,8 @@
     "Hu Zongnan": [
      "huang-mulan",
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -1795,7 +1809,8 @@
    "renderings": {
     "Dong Biwu": [
      "huang-mulan",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -1807,7 +1822,8 @@
      "huang-mulan",
      "juntong",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -1875,7 +1891,8 @@
    "renderings": {
     "He Long": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -1897,7 +1914,8 @@
    "renderings": {
     "Deng Yanda": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -1988,7 +2006,8 @@
    "renderings": {
     "Yan Xishan": [
      "midnight",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -2056,7 +2075,8 @@
      "huang-mulan",
      "juntong",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -2067,7 +2087,8 @@
    "renderings": {
     "Chen Geng": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -2168,7 +2189,8 @@
     "Gu Shunzhang": [
      "huang-mulan",
      "juntong",
-     "on-a-hair-trigger"
+     "on-a-hair-trigger",
+     "chinas-secret-war"
     ]
    },
    "category": "people",
@@ -2289,6 +2311,2602 @@
    "category": "places",
    "status": "agreed",
    "note": "District in the southern outskirts of Shanghai; site of the Kuomintang Garrison Command&#8217;s prison and execution ground."
+  },
+  "康生": {
+   "renderings": {
+    "Kang Sheng": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1898&#8211;1975. Born Zhang Zongke; “Zhao Rong” was a working alias."
+  },
+  "李克农": {
+   "renderings": {
+    "Li Kenong": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1899&#8211;1962."
+  },
+  "钱壮飞": {
+   "renderings": {
+    "Qian Zhuangfei": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1895&#8211;1935."
+  },
+  "胡底": {
+   "renderings": {
+    "Hu Di": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1905&#8211;1935. Killed on the Long March in Zhang Guotao's purge."
+  },
+  "朱德": {
+   "renderings": {
+    "Zhu De": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1886&#8211;1976. Commander-in-chief of the Red Army."
+  },
+  "国家政治保卫局": {
+   "renderings": {
+    "State Political Security Bureau": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The Chinese Soviet Republic's political-security organ (1931&#8211;1935), modeled closely on the Soviet GPU; renamed the Northwest Political Security Bureau after the Long March."
+  },
+  "中统": {
+   "renderings": {
+    "Zhongtong": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "The Bureau of Investigation and Statistics of the Nationalist Central Organization Department, the KMT's civilian/party secret service; grew out of the 1928 Investigation Section under Chen Lifu."
+  },
+  "特务": {
+   "renderings": {
+    "special agent / secret service": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The word this chapter anatomizes. Originally a neutral term for “special-duty” military work, it became, in the mouths of both parties, the loaded word for the enemy's spies and secret police. Rendered by sense in this translation, and kept as <i>tewu</i> where the author discusses it as a word."
+  },
+  "潘汉年": {
+   "renderings": {
+    "Pan Hannian": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1906–1977. A literary man turned master of CCP intelligence and united-front work; deputy head of the Social Affairs Department, working from Hong Kong and Shanghai. Wrongly imprisoned as an “inner traitor” in 1955; rehabilitated in 1982."
+  },
+  "周兴": {
+   "renderings": {
+    "Zhou Xing": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1905–1975. Head of the Shaanxi-Gansu-Ningxia Border Region Security Office (the “Border Security”) through the Yan’an years; later a deputy minister of public security."
+  },
+  "徐恩曾": {
+   "renderings": {
+    "Xu Enzeng": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1896–1985. Head of the Nationalist Zhongtong; a nephew-by-marriage of Chen Guofu and a member of the “CC Clique.” His memoir is quoted throughout this book."
+  },
+  "王明": {
+   "renderings": {
+    "Wang Ming": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1904–1974. Leader of the Moscow-trained “28 Bolsheviks” and the CCP’s representative to the Comintern; a rival to Mao whose successive “Left” and “Right” lines the author disparages."
+  },
+  "康世昌": {
+   "renderings": {
+    "Kang Shichang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "A younger Yan'an-born cadre; deputy chief and, on the recapture of Yan'an, chief of the municipal public-security bureau."
+  },
+  "中央社会部": {
+   "renderings": {
+    "Central Social Affairs Department": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The CCP’s central intelligence and security organ from February 1939, headed by Kang Sheng; known within the Party as 中社部 (Zhongshebu). The bland name “Social Affairs” was itself a cover."
+  },
+  "陕甘宁边区保安处": {
+   "renderings": {
+    "Shaanxi-Gansu-Ningxia Border Region Security Office": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The Border Region government’s combined public-security and procuratorial organ, known for short as 边保 (Bianbao, the “Border Security”); the executing arm of Communist security work in Yan’an, and outwardly the government face of the Northwest Bureau’s Social Affairs Department."
+  },
+  "邓小平": {
+   "renderings": {
+    "Deng Xiaoping": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1904&#8211;1997. Here a mid-ranking political officer in Yan'an; after Mao Zedong's death, China's paramount leader and the architect of its &#8220;reform and opening.&#8221;"
+  },
+  "卓琳": {
+   "renderings": {
+    "Zhuo Lin": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1916&#8211;2009. Born Pu Qiongying, daughter of a wealthy Yunnan ham merchant; Deng Xiaoping's wife from 1939 to the end of his life."
+  },
+  "罗青长": {
+   "renderings": {
+    "Luo Qingchang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1918&#8211;2014. A young Yan'an-trained intelligence officer and &#8220;living file,&#8221; aide to Zhou Enlai; later minister of the Central Investigation Department."
+  },
+  "汪东兴": {
+   "renderings": {
+    "Wang Dongxing": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1916&#8211;2015. Rose from Mao Zedong's Yan'an bodyguard to head of the Central Guard Bureau; a CCP vice-chairman in the years just after Mao's death."
+  },
+  "许建国": {
+   "renderings": {
+    "Xu Jianguo": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1903&#8211;1965. Born Du Liqing; a veteran security officer, deputy head of the Border Security and later head of the Jin-Cha-Ji Social Affairs Department. Rendered &#8220;Du Liqing&#8221; where the book uses his original name."
+  },
+  "谭政文": {
+   "renderings": {
+    "Tan Zhengwen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1910&#8211;1961. A Long March security cadre, deputy head of the Border Region Security Office; later a senior procuratorial official."
+  },
+  "赵苍璧": {
+   "renderings": {
+    "Zhao Cangbi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1916&#8211;1993. A northern-Shaanxi local cadre who rose through investigation work; minister of public security of the People's Republic from 1977 to 1983."
+  },
+  "李启明": {
+   "renderings": {
+    "Li Qiming": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "An intellectual cadre from Shanxi and son-in-law of Li Kenong; the youngest deputy head of the Border Security, later governor of Shaanxi. One of the author's interviewees."
+  },
+  "陈龙": {
+   "renderings": {
+    "Chen Long": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1910&#8211;1958. From the Northeast anti-Japanese forces; Mao Zedong's guard at the Chongqing negotiations and a pioneer of Communist counter-espionage."
+  },
+  "凌云": {
+   "renderings": {
+    "Ling Yun": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1917&#8211;2018. A Social Affairs Department trainee; the first Minister of State Security of the People's Republic."
+  },
+  "林彪": {
+   "renderings": {
+    "Lin Biao": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1907&#8211;1971. A leading Communist general and later marshal; named Mao Zedong's successor, he died fleeing China after an alleged coup attempt."
+  },
+  "江青": {
+   "renderings": {
+    "Jiang Qing": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1914&#8211;1991. A Shanghai film actress and Mao Zedong's fourth wife; a leader of the Cultural Revolution and a member of the &#8220;Gang of Four.&#8221;"
+  },
+  "聂荣臻": {
+   "renderings": {
+    "Nie Rongzhen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1899&#8211;1992. Commander of the Jin-Cha-Ji base area behind Japanese lines and later a marshal of the People's Republic."
+  },
+  "叶剑英": {
+   "renderings": {
+    "Ye Jianying": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1897&#8211;1986. A Communist general and later marshal; in charge of liaison for the Southern Bureau, and decades on a decisive figure in the arrest of the Gang of Four."
+  },
+  "李德": {
+   "renderings": {
+    "Li De": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Chinese name of Otto Braun (1900&#8211;1974), the German Comintern military adviser to the CCP and the only Westerner to make the Long March."
+  },
+  "布鲁": {
+   "renderings": {
+    "Bu Lu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "A White-area underground veteran; reconnaissance chief of the Border Security and head of its first Qilipu training class."
+  },
+  "王炎堂": {
+   "renderings": {
+    "Wang Yantang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Born Huang Jintang; entered the Social Affairs Department at fifteen and became an expert on the Nationalist secret services; later a deputy minister of the Central Investigation Department and one of the author's interviewees."
+  },
+  "三青团": {
+   "renderings": {
+    "Three People's Principles Youth League": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "The Nationalists' youth organization, founded in 1938 and folded back into the Kuomintang in 1947."
+  },
+  "整风": {
+   "renderings": {
+    "the Rectification Movement": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Yan'an Rectification, launched in 1942: Mao Zedong's campaign of ideological remolding and cadre screening."
+  },
+  "熊向晖": {
+   "renderings": {
+    "Xiong Xianghui": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1919&#8211;2005. The most celebrated of the Communists' deep-cover agents; secretary to Hu Zongnan for a decade and, later, a senior diplomat and deputy head of the Central Investigation Department."
+  },
+  "沈安娜": {
+   "renderings": {
+    "Shen Anna": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1915&#8211;2010. The &#8220;red stenographer&#8221; who took down the Nationalists' confidential meetings for fourteen years; her husband Hua Mingzhi was her partner in the work."
+  },
+  "白崇禧": {
+   "renderings": {
+    "Bai Chongxi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1893&#8211;1966. Muslim general of the Guangxi clique, nicknamed &#8220;Little Zhuge&#8221; for his generalship; deputy chief of the Nationalist general staff and later defense minister."
+  },
+  "傅作义": {
+   "renderings": {
+    "Fu Zuoyi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1895&#8211;1974. Nationalist commander in North China; his 1949 surrender gave the Communists Beiping without a fight, and he served the People's Republic as water-resources minister."
+  },
+  "卢绪章": {
+   "renderings": {
+    "Lu Xuzhang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1911&#8211;1995. The Communist businessman who ran Guangda Huaxing as a Party front and money-maker; after 1949 a founder of the state foreign-trade system."
+  },
+  "陈嘉庚": {
+   "renderings": {
+    "Tan Kah Kee": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1874&#8211;1961. The pre-eminent overseas-Chinese leader of the South Seas, a Singapore rubber magnate and philanthropist; his 1940 visit to Yan'an turned him toward the Communists. Rendered in the Hokkien form by which he is universally known in English."
+  },
+  "王世英": {
+   "renderings": {
+    "Wang Shiying": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1905&#8211;1968. A Special Branch veteran who ran Communist intelligence and united-front work in the North; later a provincial governor, he died persecuted in the Cultural Revolution."
+  },
+  "吴德峰": {
+   "renderings": {
+    "Wu Defeng": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1896&#8211;1976. A founder of the Party's courier and intelligence systems; ran the hidden Xi'an intelligence station under a family cover and later held senior legal posts."
+  },
+  "宣侠父": {
+   "renderings": {
+    "Xuan Xiafu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1899&#8211;1938. A Whampoa first-class graduate and secret Communist working the Xi'an united front; his 1938 assassination on Chiang Kai-shek's order is the subject of section 6."
+  },
+  "蒋鼎文": {
+   "renderings": {
+    "Jiang Dingwen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1895&#8211;1974. A senior Whampoa-clique general and head of the Xi'an field headquarters; he carried out Chiang Kai-shek's order to kill Xuan Xiafu."
+  },
+  "卫立煌": {
+   "renderings": {
+    "Wei Lihuang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1897&#8211;1960. Nationalist First War Zone commander; won over enough to give the Eighth Route Army ammunition, he was later suspected of Communist sympathies and eventually returned to the mainland."
+  },
+  "邓宝珊": {
+   "renderings": {
+    "Deng Baoshan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1894&#8211;1968. Nationalist general holding Yulin north of the Border Region; a friend of the Communists from Yan'an, he helped negotiate the peaceful surrender of Beiping."
+  },
+  "赵寿山": {
+   "renderings": {
+    "Zhao Shoushan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1894&#8211;1965. Commander of the Northwestern Army's 38th Army, secretly guided by Mao Zedong; he defected to the Communists and became governor of Qinghai and then Shaanxi."
+  },
+  "高崇民": {
+   "renderings": {
+    "Gao Chongmin": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1891&#8211;1971. A leading Northeastern patriot who founded the Northeast Salvation Association; a bridge between the Communists and the Northeastern and Northwestern armies before the Xi'an Incident."
+  },
+  "广大华行": {
+   "renderings": {
+    "Guangda Huaxing": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "A Shanghai pharmaceutical trading firm founded in 1932 and run from 1937 as a secret Communist enterprise, funding and covering the Party's intelligence work in Nationalist territory."
+  },
+  "华润公司": {
+   "renderings": {
+    "China Resources": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Founded in Hong Kong in 1948&#8211;49 out of the Party's trading firms; today one of China's largest state-owned conglomerates."
+  },
+  "八办": {
+   "renderings": {
+    "the Eighth Route Army office": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "Short for 八路军办事处. The open liaison offices the Communists were allowed to maintain in Nationalist cities during the wartime alliance; rendered &#8220;the Eighth Route office(s)&#8221; or, where the author uses the bare abbreviation, &#8220;the offices.&#8221;"
+  },
+  "皖南事变": {
+   "renderings": {
+    "the New Fourth Army Incident": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The January 1941 Nationalist attack on the New Fourth Army headquarters in southern Anhui (literally &#8220;the Southern Anhui Incident&#8221;), which shattered the united front."
+  },
+  "韩练成": {
+   "renderings": {
+    "Han Liancheng": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1908&#8211;1984. A Nationalist general who secretly served the Communists from within; later a PLA lieutenant general."
+  },
+  "阎又文": {
+   "renderings": {
+    "Yan Youwen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1914&#8211;1962. A deep-cover Communist at Fu Zuoyi's side who helped bring about the surrender of Beiping; his identity was kept secret until 1992, long after his death."
+  },
+  "双重政权": {
+   "renderings": {
+    "dual regime": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The wartime coexistence of a Nationalist-appointed and a Communist-appointed government in the same Border Region county; the &#8220;nails&#8221; of the chapter title."
+  },
+  "磨擦": {
+   "renderings": {
+    "friction": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The standard term, on both sides, for Nationalist&#8211;Communist armed clashes 1939&#8211;1943; <i>fan moca</i> is &#8220;the struggle against friction.&#8221;"
+  },
+  "宝葫芦": {
+   "renderings": {
+    "treasure gourd": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The popular name for the Guanzhong sub-district, a Communist salient thrust toward Xi&#8217;an; Hu Zongnan called the same ground the &#8220;pouch&#8221; (<i>nangxing didai</i>)."
+  },
+  "关中分区": {
+   "renderings": {
+    "Guanzhong sub-district": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "陇东分区": {
+   "renderings": {
+    "Longdong sub-district": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "绥德": {
+   "renderings": {
+    "Suide": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "肤施县": {
+   "renderings": {
+    "Fushi County": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "The Nationalist name for the county containing Yan&#8217;an; its Nationalist &#8220;Fushi County Government&#8221; ran in parallel with the Communist &#8220;Yan&#8217;an County Government.&#8221;"
+  },
+  "抗敌后援会": {
+   "renderings": {
+    "Resist-the-Enemy Support Association": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided"
+  },
+  "锄奸委员会": {
+   "renderings": {
+    "Anti-Traitor Committee": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "A mass body extending <i>chujian</i> (&#8220;rooting out traitors&#8221;) into a village-level surveillance network."
+  },
+  "习仲勋": {
+   "renderings": {
+    "Xi Zhongxun": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "杜斌丞": {
+   "renderings": {
+    "Du Bincheng": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "马豫章": {
+   "renderings": {
+    "Ma Yuzhang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "何绍南": {
+   "renderings": {
+    "He Shaonan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "王震": {
+   "renderings": {
+    "Wang Zhen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "萧劲光": {
+   "renderings": {
+    "Xiao Jinguang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "程潜": {
+   "renderings": {
+    "Cheng Qian": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "刘伯承": {
+   "renderings": {
+    "Liu Bocheng": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "陈奇涵": {
+   "renderings": {
+    "Chen Qihan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "陈泊": {
+   "renderings": {
+    "Chen Bo": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Real name of Bu Lu, the &#8220;Red Sherlock Holmes.&#8221;"
+  },
+  "邹瑜": {
+   "renderings": {
+    "Zou Yu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "马鸿逵": {
+   "renderings": {
+    "Ma Hongkui": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "杨森": {
+   "renderings": {
+    "Yang Sen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "张荫梧": {
+   "renderings": {
+    "Zhang Yinwu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "汪锋": {
+   "renderings": {
+    "Wang Feng": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "于桑": {
+   "renderings": {
+    "Yu Sang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "阎宝航": {
+   "renderings": {
+    "Yan Baohang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1895&#8211;1968. A Northeastern Christian educator and aide to Zhang Xueliang who became a secret Communist inside the Nationalist elite; his 1941 report of the date of the German invasion of the USSR is the intelligence coup of this chapter. Died in prison during the Cultural Revolution; posthumously decorated by Russia in 1995."
+  },
+  "关露": {
+   "renderings": {
+    "Guan Lu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1907&#8211;1982. Born Hu Shoumei; a celebrated poet and left-wing writer sent by Pan Hannian to work inside the Wang Jingwei and Japanese secret services, at the cost of a lasting public reputation as a &#8220;collaborator.&#8221; Imprisoned in the Pan Hannian case; rehabilitated shortly before her suicide."
+  },
+  "李士群": {
+   "renderings": {
+    "Li Shiqun": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1905&#8211;1943. A former Communist who passed through the Nationalist and then the Japanese and Wang Jingwei secret services, becoming the dreaded chief of No.&#160;76. Poisoned by the Japanese in 1943."
+  },
+  "丁默村": {
+   "renderings": {
+    "Ding Mocun": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1901&#8211;1947. Former Nationalist Zhongtong man who became director of the Wang Jingwei &#8220;Secret Service General Headquarters&#8221; at No.&#160;76; executed as a collaborator after the war."
+  },
+  "岩井英一": {
+   "renderings": {
+    "Iwai Eiichi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "1899&#8211;1980. Japanese deputy consul-general in Shanghai and head of a foreign-ministry intelligence organ, the &#8220;Iwai K&#333;kan.&#8221; Pan Hannian ran a channel into his operation."
+  },
+  "袁殊": {
+   "renderings": {
+    "Yuan Shu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1911&#8211;1987. A left-wing writer and one of the war&#8217;s most tangled multiple agents&#8212;at once a Communist, a Nationalist Zhongtong man, and on the payroll of Japanese intelligence. Imprisoned in the Pan Hannian case."
+  },
+  "张唯一": {
+   "renderings": {
+    "Zhang Weiyi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1892&#8211;1955. A veteran of the Central Special Branch known in Pan Hannian&#8217;s Hong Kong circle as &#8220;the Old Master&#8221; (<i>lao taiye</i>); ran the inner office of the South China Intelligence Bureau."
+  },
+  "陈焕章": {
+   "renderings": {
+    "Chen Huanzhang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Also known as Chen Tao. A Communist agent who, at Chen Geng&#8217;s direction, penetrated the puppet forces at Linfen and rose to hold, at once, major-general&#8217;s commissions from the Japanese-backed puppet army, from Juntong, and from Yan Xishan&#8217;s forces."
+  },
+  "佐尔格": {
+   "renderings": {
+    "Sorge": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "Richard Sorge (1895&#8211;1944), the Soviet military-intelligence master spy who worked first in Shanghai and then in Tokyo, where he reported on Japanese and German intentions. Arrested by the Japanese in 1941 and hanged in 1944."
+  },
+  "中央情报部": {
+   "renderings": {
+    "Central Intelligence Department": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "Established September 1941 as the unified strategic-intelligence organ of the Party Center and the Military Commission, known within the Party as 中情部 (Zhongqingbu); one body with the Social Affairs Department under two signboards, run in practice by Li Kenong."
+  },
+  "中央调查研究局": {
+   "renderings": {
+    "Central Investigation and Study Bureau": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The high-standing intelligence-and-research bureau Mao Zedong set up in 1941 and headed himself; its remit, &#8220;investigation and study&#8221; (<i>diaocha yanjiu</i>), was Mao&#8217;s own doctrine of intelligence analysis."
+  },
+  "梅机关": {
+   "renderings": {
+    "the Ume Kikan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The &#8220;Plum Agency&#8221; (Japanese <i>Ume Kikan</i>), the Japanese army&#8217;s special-service organ in Shanghai that engineered Wang Jingwei&#8217;s defection, under Lieutenant-General Kagesa Sadaaki."
+  },
+  "76号": {
+   "renderings": {
+    "No. 76": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The Wang Jingwei regime&#8217;s &#8220;Secret Service General Headquarters&#8221; at No.&#160;76 Jessfield Road in Shanghai, notorious for torture; run by Ding Mocun and Li Shiqun."
+  },
+  "岩井公馆": {
+   "renderings": {
+    "the Iwai Kōkan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The &#8220;Iwai Mansion&#8221; (Japanese <i>Iwai K&#333;kan</i>), the Japanese foreign-ministry intelligence organ Iwai Eiichi ran in Shanghai."
+  },
+  "特高课": {
+   "renderings": {
+    "the Tokko": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Special Higher Police (Japanese <i>Tokk&#333;</i>), Japan&#8217;s political and thought police, which ran surveillance on suspected subversives at home and in occupied territory."
+  },
+  "打狗队": {
+   "renderings": {
+    "the dog-beating squad": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "A nickname for the Central Special Branch&#8217;s action squad (the &#8220;Red Squad&#8221;), which punished defectors and enemy agents; several later secret-service figures, Li Shiqun among them, had passed through it."
+  },
+  "国防线": {
+   "renderings": {
+    "the National Defense Line": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Japanese-imposed frontier along the Great Wall between occupied North China and &#8220;Manchukuo,&#8221; which a traveler could cross only with a passport, sealing the Northeast off from the resistance inside the Wall."
+  },
+  "满洲国": {
+   "renderings": {
+    "Manchukuo": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "The puppet state Japan set up in the Northeast in 1932 under the last Qing emperor, Puyi; directed from emperor to premier by Japanese advisers."
+  },
+  "华南情报局": {
+   "renderings": {
+    "the South China Intelligence Bureau": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Communist intelligence bureau Pan Hannian ran from Hong Kong, coordinating the various networks of the region."
+  },
+  "川岛芳子": {
+   "renderings": {
+    "Kawashima Yoshiko": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "1907&#8211;1948. Born Aisin Gioro Xianyu, a Qing princess raised in Japan who became a Japanese agent and cavalry commander in Manchuria; executed by the Nationalists as a collaborator in 1948. Her younger brother Xiandong was a member of the Communist Northeast intelligence group."
+  },
+  "影佐祯昭": {
+   "renderings": {
+    "Kagesa Sadaaki": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "1893&#8211;1948. The Japanese army officer who ran the Ume Kikan, engineered Wang Jingwei&#8217;s defection, and served as the supreme military adviser of the Wang Jingwei regime."
+  },
+  "王超北": {
+   "renderings": {
+    "Wang Chaobei": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "A Shaanxi native who built the Communists&#8217; second, deep-buried Xi&#8217;an radio net&#8212;later the &#8220;Xi&#8217;an Intelligence Office&#8221;&#8212;which survived the breaking of Wang Shijian&#8217;s network in the civil war."
+  },
+  "中西功": {
+   "renderings": {
+    "Nakanishi Kō": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "1910&#8211;1973. A Japanese Communist and China expert who worked for the South Manchuria Railway&#8217;s research arm while spying for the CCP under Pan Hannian&#8217;s system; obtained strategic intelligence on Japan&#8217;s southern advance. Arrested by the Tokk&#333;, tried, and freed at the war&#8217;s end; later a Japanese Communist Party member of the Diet."
+  },
+  "尾崎秀实": {
+   "renderings": {
+    "Ozaki Hotsumi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "1901&#8211;1944. Asahi Shimbun journalist, China expert, and adviser to Prime Minister Konoe, and the key Japanese member of the Sorge ring; arrested in 1941 and hanged with Sorge in 1944. Not to be confused with Ozaki Sh&#333;tar&#333;."
+  },
+  "尾崎庄太郎": {
+   "renderings": {
+    "Ozaki Shōtarō": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "A left-leaning graduate of the East Asia Common Culture Academy and member of Nakanishi K&#333;&#8217;s network; a different man from the Sorge-ring spy Ozaki Hotsumi."
+  },
+  "王学文": {
+   "renderings": {
+    "Wang Xuewen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1895&#8211;1985. A Japan-trained Marxist economist and secret Communist who taught at the Japanese academy in Shanghai and later directed the Eighth Route Army&#8217;s enemy-army work and the Japanese Workers&#8217; and Peasants&#8217; School at Yan&#8217;an."
+  },
+  "郑文道": {
+   "renderings": {
+    "Zheng Wendao": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1914&#8211;1942. Nakanishi K&#333;&#8217;s Chinese liaison; arrested by the Japanese gendarmerie in 1942, he took his own life to protect the network."
+  },
+  "西里龙夫": {
+   "renderings": {
+    "Nishizato Tatsuo": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "A Japanese journalist and Common Culture Academy man who joined the Communist intelligence network in Nanjing; tried with Nakanishi K&#333; and freed in 1945."
+  },
+  "今井武夫": {
+   "renderings": {
+    "Imai Takeo": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "1898&#8211;1982. A Japanese army officer who ran Operation Kiri, the secret 1940 peace channel to Chongqing, and later negotiated the Japanese surrender in China."
+  },
+  "东条英机": {
+   "renderings": {
+    "Tōjō Hideki": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "1884&#8211;1948. The Japanese army general who became prime minister in October 1941 and led Japan into the Pacific War; executed as a war criminal in 1948."
+  },
+  "吴成方": {
+   "renderings": {
+    "Wu Chengfang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "A Communist intelligence officer under Pan Hannian who ran the Japanese cell in Shanghai; imprisoned in the Pan Hannian case and rehabilitated in 1982."
+  },
+  "汪锦元": {
+   "renderings": {
+    "Wang Jinyuan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "A secret Communist planted as a secretary at Wang Jingwei&#8217;s side, feeding the regime&#8217;s top secrets to the Pan Hannian network."
+  },
+  "川合贞吉": {
+   "renderings": {
+    "Kawai Teikichi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "A Japanese member of the Sorge ring, introduced to Sorge by Agnes Smedley."
+  },
+  "池步洲": {
+   "renderings": {
+    "Chi Buzhou": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1908&#8211;2003. A Japan-trained Nationalist cryptanalyst who broke Japanese diplomatic ciphers; Chinese accounts credit him with forecasting a Japanese attack on Pearl Harbor, a claim not independently corroborated abroad."
+  },
+  "荒尾精": {
+   "renderings": {
+    "Arao Sei": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "1859&#8211;1896. A Japanese army officer and pioneer of Japanese intelligence work in China, who opened the Hankou branch of the Rakuzend&#333; pharmacy as a cover."
+  },
+  "根津一": {
+   "renderings": {
+    "Nezu Hajime": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "1860&#8211;1927. A Japanese army officer and educator who founded and long directed the East Asia Common Culture Academy in Shanghai."
+  },
+  "高崇武": {
+   "renderings": {
+    "Gao Chongwu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "So printed in the source; the man is the documented Gao Zongwu (&#39640;&#23447;&#27494;), who with Tao Xisheng exposed the draft Japan&#8211;Wang Jingwei treaty in the January 1940 &#8220;Gao-Tao incident.&#8221;"
+  },
+  "宋子良": {
+   "renderings": {
+    "Song Ziliang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "The name the &#8220;Nationalist&#8221; negotiator used in Operation Kiri. Song Ziliang was a real member of the Soong family (a brother of T.V. Soong and Soong Mei-ling), but the man at the negotiating table was an impostor, an agent of Dai Li&#8217;s Juntong."
+  },
+  "满铁": {
+   "renderings": {
+    "the South Manchuria Railway": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The South Manchuria Railway Company, a vast Japanese &#8220;state-policy company&#8221; that ran the railways and much of the economy of the Northeast and doubled as a huge intelligence organ; its Research Department was a magnet for spies. Abbreviated &#28385;&#38081; (Mantetsu)."
+  },
+  "东亚同文书院": {
+   "renderings": {
+    "the East Asia Common Culture Academy": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The T&#333;a D&#333;bun Shoin, a Japanese academy in Shanghai (founded 1901) that trained Japanese &#8220;China hands&#8221; and doubled as a nursery of intelligence officers; a Communist Party branch also grew up inside it."
+  },
+  "东亚同文会": {
+   "renderings": {
+    "the East Asia Common Culture Society": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The T&#333;a D&#333;bunkai, the semi-official Japanese society that founded and oversaw the academy."
+  },
+  "太平洋调查会": {
+   "renderings": {
+    "the Institute of Pacific Relations": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The IPR, an American-founded international academic body that met by turns around the Pacific rim, and whose views could sway the relevant governments."
+  },
+  "兴亚院": {
+   "renderings": {
+    "the Kōa-in": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Asia Development Board, a Japanese cabinet organ set up in 1938 to run affairs in occupied China, with a special-service department that drew the secret services under one hand."
+  },
+  "关特演": {
+   "renderings": {
+    "the Kwantung Army Special Maneuvers": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Kantokuen (&#38306;&#29305;&#28436;), a huge July 1941 mobilization of the Kwantung Army against the Soviet Union after the German invasion; never carried out, as Japan chose the southern advance."
+  },
+  "桐工作": {
+   "renderings": {
+    "Operation Kiri": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The Kiri K&#333;saku (&#26706;&#24037;&#20316;), Japan&#8217;s most secret 1940 &#8220;peace&#8221; channel to Chongqing, run by Imai Takeo; &#26706; is the paulownia (kiri)."
+  },
+  "拉穆塞小组": {
+   "renderings": {
+    "the Ramsay group": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "Sorge&#8217;s Tokyo intelligence cell, from his radio code name &#8220;Ramsay&#8221;; the source also transliterates it &#25289;&#22995;&#25166;."
+  },
+  "李得森": {
+   "renderings": {
+    "Li Desen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "A Chinese member of Nakanishi K&#333;&#8217;s Nanjing network, arrested by the Japanese in 1942."
+  },
+  "钱明": {
+   "renderings": {
+    "Qian Ming": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Real name Jing Ruonan; a Chinese liaison of the Nakanishi K&#333; cell and Zheng Wendao&#8217;s schoolmate."
+  },
+  "刘钊": {
+   "renderings": {
+    "Liu Zhao": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Pan Hannian&#8217;s secret courier in the Jiangnan area and Zheng Wendao&#8217;s Party sponsor."
+  },
+  "张明达": {
+   "renderings": {
+    "Zhang Mingda": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "A courier of the Nakanishi K&#333; cell who escaped the 1942 arrests; later wrote about the network under the name Fang Zhida (&#26041;&#30693;&#36798;)."
+  },
+  "锄奸": {
+   "renderings": {
+    "rooting out traitors": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "Literally &#8220;to hoe out the traitors.&#8221; The wartime CCP name for counter-espionage and anti-collaborator work; the army security departments were renamed Anti-Traitor Departments (&#38146;&#22902;&#37096;)."
+  },
+  "锄奸部": {
+   "renderings": {
+    "the Anti-Traitor Department": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The renamed Eighth Route Army security department; kept parallel to the Anti-Traitor Committee (&#38146;&#22902;&#22996;&#21592;&#20250;)."
+  },
+  "边保": {
+   "renderings": {
+    "the Border Security": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "Short form of the Shaanxi-Gansu-Ningxia Border Region Security Office (&#38485;&#29976;&#23425;&#36793;&#21306;&#20445;&#23433;&#22788;); the region&#8217;s counter-espionage and public-security organ."
+  },
+  "山东纵队": {
+   "renderings": {
+    "the Shandong Column": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Eighth Route Army&#8217;s Shandong Column, the main CCP field force in Shandong."
+  },
+  "军委二局": {
+   "renderings": {
+    "the Military Commission's Second Bureau": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Central Military Commission&#8217;s Second Bureau, the CCP&#8217;s radio-interception and cipher-breaking service."
+  },
+  "牺盟会": {
+   "renderings": {
+    "the Sacrifice League": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Sacrifice League for National Salvation (&#29287;&#29273;&#25937;&#22269;&#21516;&#30431;&#20250;), an anti-Japanese mass body formed under Yan Xishan in Shanxi in 1936 and heavily penetrated by the Communists."
+  },
+  "中美合作所": {
+   "renderings": {
+    "SACO": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The Sino-American Cooperative Organization, a 1943 joint U.S. Navy&#8211;Nationalist (Dai Li) intelligence and training body at Chongqing; its Geleshan compound is bound up with the Baigongguan and Zhazidong prisons where many Communists were held and killed."
+  },
+  "智异": {
+   "renderings": {
+    "the divergence of wits": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "Zhao Cangbi&#8217;s coined term for the point-against-point contest of stratagems in covert struggle."
+  },
+  "杨奇清": {
+   "renderings": {
+    "Yang Qiqing": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1911&#8211;1978. Veteran CCP security officer and counter-espionage specialist; anti-traitor chief at the Eighth Route Army&#8217;s forward headquarters, later a vice-minister of public security."
+  },
+  "水原清": {
+   "renderings": {
+    "Mizuhara Kiyoshi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The Japanese reading of &#27700;&#21407;&#28165; is reconstructed; the man was a Japanese special agent posing as a &#8220;good devil&#8221; at Da&#8217;anzhuang."
+  },
+  "何庆宇": {
+   "renderings": {
+    "He Qingyu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Enemy-work section chief of the Eighth Route Army&#8217;s Shandong Column."
+  },
+  "张露萍": {
+   "renderings": {
+    "Zhang Luping": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1921&#8211;1945. CCP agent who led the underground branch inside Juntong&#8217;s Chongqing radio headquarters; executed by the Nationalists in 1945."
+  },
+  "张蔚林": {
+   "renderings": {
+    "Zhang Weilin": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Juntong radio officer turned secret Communist; member of Zhang Luping&#8217;s branch, executed 1945."
+  },
+  "冯传庆": {
+   "renderings": {
+    "Feng Chuanqing": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Juntong main-station radio officer turned secret Communist; member of Zhang Luping&#8217;s branch, executed 1945."
+  },
+  "李茂堂": {
+   "renderings": {
+    "Li Maotang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1904&#8211;1969. A lapsed early Communist who rose to head Zhongtong&#8217;s Shaanxi station-room and secretly returned to the CCP&#8217;s service."
+  },
+  "秦平": {
+   "renderings": {
+    "Qin Ping": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Border Security field officer in Guanzhong and at the mail-inspection station."
+  },
+  "赵去非": {
+   "renderings": {
+    "Zhao Qufei": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Border Security field-team head at Luochuan; later deputy governor of Heilongjiang and head of its public-security department."
+  },
+  "任远": {
+   "renderings": {
+    "Ren Yuan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Jidong intelligence station chief captured and later escaped from the Japanese."
+  },
+  "单不移": {
+   "renderings": {
+    "Shan Buyi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Zhongtong boss at Luochuan (the surname &#21333; is read Sh&#224;n)."
+  },
+  "沈之岳": {
+   "renderings": {
+    "Shen Zhiyue": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1913&#8211;1994. Nationalist agent who infiltrated Yan&#8217;an; after 1949 rose to head Taiwan&#8217;s Investigation Bureau."
+  },
+  "许继慎": {
+   "renderings": {
+    "Xu Jishen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1901&#8211;1931. Whampoa graduate and Red Army commander in the E-Yu-Wan base, executed in an internal purge after a Nationalist frame-up; later rehabilitated as a martyr."
+  },
+  "马汉三": {
+   "renderings": {
+    "Ma Hansan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1903&#8211;1948. Senior Juntong officer; later executed by the Nationalists over the missing &#8220;Nine-Dragon Sword.&#8221;"
+  },
+  "李鼎铭": {
+   "renderings": {
+    "Li Dingming": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1881&#8211;1947. Non-party gentry-assemblyman of the Border Region who proposed &#8220;crack troops and simple administration.&#8221;"
+  },
+  "马锡武": {
+   "renderings": {
+    "Ma Xiwu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "The book prints &#39532;&#38177;&#27494;; the documented judge is &#39532;&#38177;&#20116; (1899&#8211;1962), same romanization, whose plain, investigative &#8220;Ma Xiwu adjudication method&#8221; became a CCP model."
+  },
+  "左权": {
+   "renderings": {
+    "Zuo Quan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1905&#8211;1942. Deputy chief of staff of the Eighth Route Army, killed at Shiziling; the highest-ranking Communist commander to die in the war."
+  },
+  "溥仪": {
+   "renderings": {
+    "Puyi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1906&#8211;1967. The last Qing emperor, installed by Japan as ruler of Manchukuo."
+  },
+  "王克敏": {
+   "renderings": {
+    "Wang Kemin": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1873&#8211;1945. Head of the Japanese-sponsored Provisional Government in North China."
+  },
+  "李自成": {
+   "renderings": {
+    "Li Zicheng": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1606&#8211;1645. The northern-Shaanxi peasant rebel who overthrew the Ming."
+  },
+  "朱蕴山": {
+   "renderings": {
+    "Zhu Yunshan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1887&#8211;1981. Veteran revolutionary and democratic-party figure."
+  },
+  "师哲": {
+   "renderings": {
+    "Shi Zhe": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1905&#8211;1998. Security-office bureau chief; later Mao Zedong&#8217;s Russian-language interpreter."
+  },
+  "谷正鼎": {
+   "renderings": {
+    "Gu Zhengding": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1903&#8211;1974. CC-Clique figure, chief of the Nationalist Shaanxi provincial party headquarters."
+  },
+  "朱家骅": {
+   "renderings": {
+    "Zhu Jiahua": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1893&#8211;1963. Nationalist organization minister, rival of the CC Clique."
+  },
+  "陈果夫": {
+   "renderings": {
+    "Chen Guofu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1892&#8211;1951. Elder of the CC Clique with his brother Chen Lifu."
+  },
+  "程一鸣": {
+   "renderings": {
+    "Cheng Yiming": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1909&#8211;1998. Former Communist who headed Juntong&#8217;s Northwest District; long a deep CCP source."
+  },
+  "张严佛": {
+   "renderings": {
+    "Zhang Yanfo": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1900&#8211;1980. Juntong Northwest District chief."
+  },
+  "死间": {
+   "renderings": {
+    "expendable agent": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "Literally &#8220;dead agent&#8221;; one of the five kinds of spy in Sun Tzu&#8217;s <i>Art of War</i>, and Juntong&#8217;s term for agents planted to burrow into the Communist base areas."
+  },
+  "海底": {
+   "renderings": {
+    "haidi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "Juntong jargon (literally &#8220;sea bottom&#8221;) for the secret personal dossier each agent memorized&#8212;names, addresses, contacts, cipher, and oath&#8212;left on file at the training class."
+  },
+  "汉中特训班": {
+   "renderings": {
+    "the Hanzhong training class": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "Juntong&#8217;s special training class near Hanzhong, run under the cover name &#8220;Tianshui Field Headquarters Guerrilla Cadre Training Class&#8221;; called the &#8220;Hanzhong class&#8221; (&#27721;&#35757;&#29677;) for short."
+  },
+  "汉训班": {
+   "renderings": {
+    "the Hanzhong class": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "Short form of the Hanzhong training class."
+  },
+  "戴案": {
+   "renderings": {
+    "the \"Dai case\"": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Border Security&#8217;s name for the Hanzhong-class case, after Dai Li, whose Juntong system ran the agents."
+  },
+  "西北特别侦察站": {
+   "renderings": {
+    "the Northwest Special Reconnaissance Station": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "Juntong&#8217;s Xi&#8217;an-based station (西北特侦站 for short) directing the penetration of the Northwest base areas; headed by Cheng Muyi."
+  },
+  "吴南山": {
+   "renderings": {
+    "Wu Nanshan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "The Qingyang schoolteacher who graduated the Hanzhong class, came forward to the Communists, and became the Border Security&#8217;s long-hidden field operative in Longdong; the case began with him."
+  },
+  "程慕颐": {
+   "renderings": {
+    "Cheng Muyi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Chief of Juntong&#8217;s Northwest Special Reconnaissance Station and deputy director of the Hanzhong class (cover name Cheng Yi); fled to Taiwan."
+  },
+  "程益": {
+   "renderings": {
+    "Cheng Yi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Cover name of Cheng Muyi as director of the Hanzhong class."
+  },
+  "祁三益": {
+   "renderings": {
+    "Qi Sanyi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Hanzhong-class demolition instructor sent to Yan&#8217;an as group liaison; turned by the Border Security and central to cracking the case."
+  },
+  "李春茂": {
+   "renderings": {
+    "Li Chunmao": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Hanzhong-class liaison (aliases Li Changsheng, Li Jun); turned and taken into the Border Security."
+  },
+  "赵秀": {
+   "renderings": {
+    "Zhao Xiu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Chief liaison for the Northwest Station&#8217;s Yan&#8217;an group; briefly turned, later fled back to Xi&#8217;an."
+  },
+  "王星文": {
+   "renderings": {
+    "Wang Xingwen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Hanzhong agent (alias Wang Jiwu) at the Lu Xun Academy of Arts; turned by the Border Security."
+  },
+  "胡士渊": {
+   "renderings": {
+    "Hu Shiyuan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Leader of the independent cell (aliases Hu Siyuan, Hu Yaonan, Hu Youlian) planted in the Military Commission&#8217;s Second Bureau."
+  },
+  "马文瑞": {
+   "renderings": {
+    "Ma Wenrui": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1912&#8211;2004. Longdong prefectural party secretary who took Wu Nanshan in; himself once wrongly arrested in the northern-Shaanxi purge. Later a vice-chairman of the CPPCC National Committee."
+  },
+  "李甫山": {
+   "renderings": {
+    "Li Fushan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Longdong security-section chief who ran Wu Nanshan; later head of the Border Security office in Yan&#8217;an."
+  },
+  "赵苍壁": {
+   "renderings": {
+    "Zhao Cangbi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1916&#8211;1993. Border Security plainclothes-squad head sent to Longdong; later Minister of Public Security."
+  },
+  "王珺": {
+   "renderings": {
+    "Wang Jun": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Social Affairs Department officer of the &#8220;Old Third Class&#8221; who traced the Second Bureau cell; later deputy minister of State Security."
+  },
+  "欧阳毅": {
+   "renderings": {
+    "Ouyang Yi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1910&#8211;2005. Head of the General Political Department&#8217;s Anti-Traitor Department, which handled the army-system agents; later a PLA lieutenant general."
+  },
+  "钱益民": {
+   "renderings": {
+    "Qian Yimin": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Investigation expert of the General Political Department&#8217;s Anti-Traitor Department, one of Yan&#8217;an&#8217;s &#8220;three great investigation experts.&#8221;"
+  },
+  "抢救运动": {
+   "renderings": {
+    "the Rescue Campaign": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The coercive spy-hunt of 1943 into which the Yan&#8217;an Rectification&#8217;s cadre-screening phase escalated; the euphemism &#8220;rescue&#8221; cast the purge as saving misled youths from espionage."
+  },
+  "审干": {
+   "renderings": {
+    "cadre vetting": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "Short for &#23457;&#26597;&#24178;&#37096;, the vetting of cadres&#8217; political histories; the phase of the Rectification that shaded into the Rescue Campaign."
+  },
+  "逼供信": {
+   "renderings": {
+    "coerce, confess, believe": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "Mao&#8217;s three-word name for the purge method: coerce a confession, let the confession run wild, and believe it. First glossed at Chapter 1."
+  },
+  "甄别": {
+   "renderings": {
+    "screening": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The corrective phase from late 1943 in which the campaign&#8217;s cases were re-examined and most detainees cleared."
+  },
+  "南委": {
+   "renderings": {
+    "the Southern Committee": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Communists&#8217; Southern Work Committee, under the Southern Bureau, responsible for the underground in the southeast and south; wrecked by Zhongtong in 1942."
+  },
+  "红旗党": {
+   "renderings": {
+    "the Red-Flag Party": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The fabricated charge that an underground CCP organization was a Nationalist front &#8220;flying the red flag to oppose the red flag.&#8221;"
+  },
+  "山东肃托": {
+   "renderings": {
+    "the Shandong anti-Trotskyist purge": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The anti-Trotskyist purge that swept the Shandong base area from 1939, of which the Huxi killings were the worst."
+  },
+  "特务如麻": {
+   "renderings": {
+    "agents as thick as hemp": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "Kang Sheng&#8217;s image for the campaign&#8217;s hysteria: agents supposedly so numerous they were &#8220;thick as hemp.&#8221;"
+  },
+  "老号": {
+   "renderings": {
+    "the old cases": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Border Security detainees held before the &#8220;Dai case&#8221; broke, mostly men merely suspected of being agents."
+  },
+  "阳谋": {
+   "renderings": {
+    "the open scheme": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "Lit. &#8220;open/overt scheme,&#8221; coined as the mirror of &#38452;&#35851; <i>yinmou</i> &#8220;plot, conspiracy&#8221;: a design pursued in the open rather than in secret. Here it names the postwar contest in which each side maneuvered openly (the Chongqing talks) while racing for military position."
+  },
+  "重庆谈判": {
+   "renderings": {
+    "the Chongqing negotiations": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The peace talks of 28 August&#8211;10 October 1945, to which Mao Zedong flew in person; they produced the Double-Tenth Agreement."
+  },
+  "双十协定": {
+   "renderings": {
+    "the Double-Tenth Agreement": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The &#8220;Summary of Conversations&#8221; signed 10 October 1945 (the Double Tenth, the ROC national day) at the close of the Chongqing negotiations; its terms were soon overtaken by civil war."
+  },
+  "冷藏间谍": {
+   "renderings": {
+    "cold-storage spy": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "An agent planted deep in the enemy camp and kept dormant, doing no active work, until a decisive moment; the book uses it interchangeably with &#25112;&#30053;&#38388;&#35851; &#8220;strategic spy.&#8221;"
+  },
+  "战略间谍": {
+   "renderings": {
+    "strategic spy": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "A long-buried agent held in reserve for a strategic turning-point; see &#20919;&#34255;&#38388;&#35851; &#8220;cold-storage spy.&#8221;"
+  },
+  "后三杰": {
+   "renderings": {
+    "the Latter Three Heroes": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "Xiong Xianghui, Chen Zhongjing, and Shen Jian, the trio that penetrated Hu Zongnan&#8217;s headquarters; named in deliberate parallel to the &#8220;Three Heroes of Longtan&#8221; of the early 1930s (see ch. 1)."
+  },
+  "民主联军": {
+   "renderings": {
+    "Democratic Allied Army": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The &#8220;democratic&#8221; label taken by units that defected to, or fought alongside, the Communists in 1945&#8211;46, before the CCP called the fighting a &#8220;war of liberation.&#8221;"
+  },
+  "延安大撤退": {
+   "renderings": {
+    "the Great Withdrawal from Yan'an": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The CCP&#8217;s evacuation of its capital, Yan&#8217;an, before Hu Zongnan&#8217;s attack in March 1947."
+  },
+  "跑反": {
+   "renderings": {
+    "fleeing the raid": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "A north-Shaanxi term for a whole population&#8217;s flight ahead of an oncoming army."
+  },
+  "高树勋运动": {
+   "renderings": {
+    "the Gao Shuxun Movement": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "Mao&#8217;s slogan-campaign, named for Gao Shuxun&#8217;s October 1945 defection, urging Nationalist troops to revolt rather than fight the civil war."
+  },
+  "还乡团": {
+   "renderings": {
+    "home-returning corps": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "Landlord-led militias that returned with the Nationalist advance to retake land and take revenge on those who had carried out CCP land reform."
+  },
+  "冈村宁次": {
+   "renderings": {
+    "Okamura Yasuji": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Commander-in-chief of the Japanese China Expeditionary Army, who surrendered at Nanjing on 9 September 1945."
+  },
+  "龙云": {
+   "renderings": {
+    "Long Yun": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "The semi-autonomous governor of Yunnan, forced out by Chiang in October 1945."
+  },
+  "卢汉": {
+   "renderings": {
+    "Lu Han": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Yunnan-army general who took the Japanese surrender in Hanoi and later governed Yunnan; he declared for the Communists in 1949."
+  },
+  "高树勋": {
+   "renderings": {
+    "Gao Shuxun": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Former Northwest Army general who defected with the New 8th Army at Handan on 30 October 1945."
+  },
+  "大策反": {
+   "renderings": {
+    "the great turning": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The chapter title. <i>Cefan</i> means to turn an enemy soldier or unit to one's own side; <i>da cefan</i>, the \"great turning,\" is the mass defection of Nationalist forces in 1948&#8211;49, which the author treats as the highest art of the secret war."
+  },
+  "策反": {
+   "renderings": {
+    "turning": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "Inducing an enemy officer, unit, or garrison to defect. Rendered \"turning\" (and \"turning work\") throughout, distinct from ordinary united-front persuasion."
+  },
+  "华北五烈士": {
+   "renderings": {
+    "the Five Martyrs of North China": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "Also called the Beiping Five Martyrs: Xie Shiyan, Ding Xing, Zhu Jianguo, Zhao Liangzhang, and Shi Chun, Communist agents inside the Nationalist Eleventh War Zone, arrested in 1947 and executed in 1948."
+  },
+  "不战而屈人之兵": {
+   "renderings": {
+    "to subdue the enemy without fighting": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "Sun Tzu's dictum; the received translation is used."
+  },
+  "电子对抗": {
+   "renderings": {
+    "electronic warfare": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The author's term for the 1947 radio contest: interception, direction-finding, and radio-silence deception. Rendered \"electronic warfare\" though the technology of the day was radio, not electronics in the later sense."
+  },
+  "保密局": {
+   "renderings": {
+    "the Bureau of Confidential Investigation": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Ministry of National Defense's Bureau of Confidential Investigation, the reorganized successor to Juntong after Dai Li's death in 1946, under Mao Renfeng."
+  },
+  "联络部": {
+   "renderings": {
+    "the Liaison Department": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Communist army organ for turning enemy troops, successively named the Destruction Department, Enemy Work Department, Nationalist-Army Work Department, and Liaison Department."
+  },
+  "王石坚": {
+   "renderings": {
+    "Wang Shijian": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Chief of a large Communist intelligence network spanning the Northwest, North China, and the Northeast; his arrest in 1947, after a subordinate's betrayal, rolled up the whole system."
+  },
+  "吴石": {
+   "renderings": {
+    "Wu Shi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1894&#8211;1950. Nationalist lieutenant general and deputy chief of the general staff; the highest-placed Communist agent in Taiwan, executed in Taipei in 1950."
+  },
+  "陈明仁": {
+   "renderings": {
+    "Chen Mingren": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1903&#8211;1974. Nationalist general who beat back Lin Biao at Siping in 1947, then led his Central Army troops over to the Communists in Hunan in 1949 and became a PLA general."
+  },
+  "郭汝瑰": {
+   "renderings": {
+    "Guo Ruguai": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1907&#8211;1997. Operations chief in the Nationalist Ministry of National Defense and a long-hidden Communist agent who fed the Communists top operational plans."
+  },
+  "曾泽生": {
+   "renderings": {
+    "Zeng Zesheng": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1902&#8211;1973. Yunnan-army general who led the 60th Army in revolt at Changchun in 1948; his troops became the PLA 50th Army."
+  },
+  "李白": {
+   "renderings": {
+    "Li Bai": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1910&#8211;1949. Communist radio operator in Shanghai, executed on the eve of the city's liberation; not to be confused with the Tang poet. His story inspired the film <i>The Unfailing Radio Wave</i>."
+  },
+  "沈崇": {
+   "renderings": {
+    "Shen Chong": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "The Peking University student whose rape by U.S. Marines in December 1946 set off nationwide student protests."
+  },
+  "五一口号": {
+   "renderings": {
+    "the May Day Slogans": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The Communists' May 1, 1948 slogans, whose call to convene a Political Consultative Conference and found a coalition government opened the road to the People's Republic."
+  },
+  "罗瑞卿": {
+   "renderings": {
+    "Luo Ruiqing": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1906&#8211;1978. First minister of public security of the People's Republic (from 1949); ranked Senior General in 1955. Brought down in December 1965 on the eve of the Cultural Revolution."
+  },
+  "扬帆": {
+   "renderings": {
+    "Yang Fan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1912&#8211;1999. Chief of the Shanghai Public Security Bureau; arrested in 1954&#8211;55 in the &#8220;Pan-Yang case&#8221; and rehabilitated in the 1980s."
+  },
+  "彭真": {
+   "renderings": {
+    "Peng Zhen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1902&#8211;1997. Mayor of Beijing and head of the Party's political-legal work; purged in 1966 as first of the &#8220;Peng-Luo-Lu-Yang&#8221; clique."
+  },
+  "陈毅": {
+   "renderings": {
+    "Chen Yi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "谢富治": {
+   "renderings": {
+    "Xie Fuzhi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1909&#8211;1972. Minister of public security from 1959; a driver of the &#8220;smash the police, procuratorate, and courts&#8221; campaign, posthumously expelled from the Party in 1980."
+  },
+  "李士英": {
+   "renderings": {
+    "Li Shiying": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "汪金祥": {
+   "renderings": {
+    "Wang Jinxiang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "李震": {
+   "renderings": {
+    "Li Zhen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Minister of public security who died in 1973, officially a suicide, in a case never fully resolved."
+  },
+  "孔原": {
+   "renderings": {
+    "Kong Yuan": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "邹大鹏": {
+   "renderings": {
+    "Zou Dapeng": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "刘复之": {
+   "renderings": {
+    "Liu Fuzhi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "史进前": {
+   "renderings": {
+    "Shi Jinqian": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "严佑民": {
+   "renderings": {
+    "Yan Youmin": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "徐子荣": {
+   "renderings": {
+    "Xu Zirong": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "谭甫仁": {
+   "renderings": {
+    "Tan Furen": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "Chairman of the Yunnan Revolutionary Committee, assassinated in 1970."
+  },
+  "龙潜": {
+   "renderings": {
+    "Long Qian": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "刘涌": {
+   "renderings": {
+    "Liu Yong": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "冯基平": {
+   "renderings": {
+    "Feng Jiping": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "陈坤": {
+   "renderings": {
+    "Chen Kun": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "程长清": {
+   "renderings": {
+    "Cheng Changqing": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "范明": {
+   "renderings": {
+    "Fan Ming": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "马步芳": {
+   "renderings": {
+    "Ma Bufang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "The Nationalist Muslim warlord of Qinghai."
+  },
+  "侯宝林": {
+   "renderings": {
+    "Hou Baolin": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1917&#8211;1993. The most celebrated <i>xiangsheng</i> (comic-dialogue) performer of his day."
+  },
+  "段云鹏": {
+   "renderings": {
+    "Duan Yunpeng": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "The cat-burglar (&#8220;flying thief&#8221;) recruited by Nationalist intelligence; see also Chapter 11."
+  },
+  "杨杰": {
+   "renderings": {
+    "Yang Jie": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "1889&#8211;1949. Nationalist general and military theorist, assassinated in Hong Kong on the eve of the new Political Consultative Conference."
+  },
+  "叶翔之": {
+   "renderings": {
+    "Ye Xiangzhi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "李洪枢": {
+   "renderings": {
+    "Li Hongshu": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "任弼时": {
+   "renderings": {
+    "Ren Bishi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "刘少奇": {
+   "renderings": {
+    "Liu Shaoqi": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "司徒雷登": {
+   "renderings": {
+    "John Leighton Stuart": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided",
+   "note": "American ambassador to China 1946&#8211;1949; the conventional English form is used."
+  },
+  "黄华": {
+   "renderings": {
+    "Huang Hua": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "麦克阿瑟": {
+   "renderings": {
+    "MacArthur": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "刘奉先": {
+   "renderings": {
+    "Liu Fengxian": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "王芳": {
+   "renderings": {
+    "Wang Fang": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "王鉴": {
+   "renderings": {
+    "Wang Jian": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "people",
+   "status": "book-decided"
+  },
+  "公安部": {
+   "renderings": {
+    "the Ministry of Public Security": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The People's Republic's ministry of public security (police), founded in 1949 out of the Military Commission's Public Security Department."
+  },
+  "镇反运动": {
+   "renderings": {
+    "the Campaign to Suppress Counterrevolutionaries": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The mass campaign of 1950&#8211;1953; see the footnote at its first appearance in this chapter."
+  },
+  "文化大革命": {
+   "renderings": {
+    "the Cultural Revolution": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "1966&#8211;1976. The author uses the term in quotation marks throughout, marking the settled Party verdict that it was a catastrophe."
+  },
+  "砸烂公检法": {
+   "renderings": {
+    "Smash the police, procuratorate, and courts!": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided",
+   "note": "The Cultural Revolution slogan against the legal apparatus; kept as a slogan and glossed."
+  },
+  "一百单八将": {
+   "renderings": {
+    "the Hundred-and-Eight Heroes": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "organizations",
+   "status": "book-decided",
+   "note": "The 108 heroes of <i>Water Margin</i>; the nickname for the 101 trainees plus 7 instructors of the first public-security class."
+  },
+  "明暗易位": {
+   "renderings": {
+    "light and dark change places": [
+     "chinas-secret-war"
+    ]
+   },
+   "category": "terms",
+   "status": "book-decided"
   }
  }
 }

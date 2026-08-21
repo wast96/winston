@@ -1661,3 +1661,64 @@ a curated subset) still for the commissioner.
 - setup.sh regression "hook stands down on template stub" still FAILS benignly
   (HANDOFF holds a real kickoff); all other checker regression tests green. PaddleOCR
   absent (expected); used scripts/ocr_dual.py.
+
+## Batch B13 (Chapter 12 + Afterword) -- BOOK COMPLETE
+
+Chapter 12 (第十二章 明暗易位 / "Light and Dark Change Places", the whole chapter,
+6 sections + Principal Sources) and the Afterword (后记, ch13, matter:back)
+translated, built, QA-clean. The book is now COMPLETE (14 of 14 units).
+
+### Translation (B13)
+- ch12: 128 English body paragraphs (1:1 parity), +21 notes (book total 251);
+  ch13: 32 paragraphs, +4 notes. +42 glossary rows (284 total).
+- The public-security apparatus comes into the open: the "Hundred-and-Eight Heroes"
+  training class (101 students + 7 instructors; the full roster crop-read name by
+  name off p412 and rendered in pinyin), the takeover of Beijing/Nanjing/Xi'an and
+  the push West and South, the early counter-terror war, then the DARK turn -- the
+  Pan-Yang and Two Chens cases, the Cultural Revolution "smash the police,
+  procuratorate, and courts," closing on "excavating the cultural gene." The
+  Afterword is the author's personal close and periodization.
+- Interested-witness doctrine at its sharpest: the Suppression of Counterrevolutionaries
+  and the CR purge of the security system rendered faithfully in the text, counter-record
+  + verdict in the footnotes, fact-checked against Wikipedia/academic (712,000 executed
+  official 镇反 count; CR slogan and wholesale purge corroborated). "Earliest counter-terror"
+  and "safest country" marked UNCORROBORATED.
+
+### Section-heading corrections vs the B13 kickoff memo (scan-verified)
+- s3 is "3.哪个国家最早反恐？" (最早, not 最先); s4 is "4.公安局长也挨整" (not 连…被镇压);
+  s6 is "6.发掘文化基因" (发掘, not 挖掘). book.json already matched the scan.
+
+### OCR fixes this batch (crop-verified)
+- p413 Beijing took 539 cadres (psm6 dropped the 5 -> "39"); Tianjin 815.
+- p414 徐宗尧 (Baomiju Beiping station chief, not 徐宗阁); 北平市长聂荣臻 (psm6 mangled).
+- p421 华东李士英 (Li Shiying; glyph easily mis-read 李七英). p427 617名特务 (triple-checked).
+
+### Checks (B13)
+- verify_unit ch12/ch13: numbers 0 unresolved, anchors ok. check_align ok.
+- check_register --ref ch01: within tolerance (contr-heavy documentary/reflective,
+  little dialogue; em-dash ch12 0.5/1k, ch13 1.1/1k).
+- check_apparatus: 0 failures (43 attestation-note warnings, the benign pre-existing class).
+- data/noise.txt B13 additions: 一百单八将, 二十多万, 七万三轮车, 金三角, 六里桥, 徐欣三, 十足.
+
+### Whole-book completion (final-batch protocol)
+- check_reconcile (check 12): exit 0; one spelling locale (American 626 / British 0);
+  3 epithet-drift candidates all adjudicated legitimate.
+- Deep audit (out/deep_audit.md): fixed-seed 3.5% sample (81 of 2314 re-pairable
+  paragraphs). Found + FIXED two ch08 defects: 西北公学 "West China College" ->
+  "Northwest College" (5x, matching ch02/05/07); 冀南行署 "Jinan" -> "South Hebei".
+  All other 79 faithful; observed rate ~1.2%, both defects corrected.
+- out/term_ledger.md rendered (284 rows). authority.json fed with this book's
+  decided renderings under slug "chinas-secret-war" (264 new terms, 284 tagged).
+- COMPLETION.md written from the template. HANDOFF.md rewritten to COMPLETE.
+
+### Back matter
+- No publisher index/errata/colophon after the afterword (p434 = afterword contact
+  block + library barcode only). back_matter.json correctly stays empty.
+
+### Build / environment (B13)
+- EPUB rebuilt: 14 of 14 chapters, 251 notes, 336 pagebreaks. out/chinas_secret_war.epub.
+  qa_epub PASS; epubcheck 0/0/0/0. Final EPUB committed with git add -f.
+- Figures still DEFERRED (figures.json empty); standing question for the commissioner.
+- Branch: session started on stray per-task branch claude/china-secret-war-b13-alk0hc
+  (at 715c9cd, identical to origin/claude/chinas-secret-war). Reset local canonical
+  to origin, did all work on claude/chinas-secret-war; stray branch deleted at push.
