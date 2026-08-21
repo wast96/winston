@@ -283,3 +283,19 @@
 千要万要
 # “特别”两个字 "the two characters te-bie" — 两 counts Chinese characters; 特别 collapses to English "special"
 两个字
+#
+# --- B14 / ch12 lexical numerals (idioms, four-char set phrases, a name) ---
+# 万目睽睽 "with all eyes upon us" — 万 idiomatic, not a count
+万目睽睽
+# 成千上万 "by the thousands and tens of thousands" — 千/万 idiomatic hyperbole
+成千上万
+# 百发百中 "never misses" (a hundred shots, a hundred hits) — 百 idiomatic
+百发百中
+# 十恶不赦 "a monster of wickedness" (the ten unpardonable evils) — 十 idiomatic
+十恶不赦
+# 万世被咒骂 "cursed through all the ages" — 万世 idiomatic, not a count
+万世
+# 林二妹 personal name (Lin Ermei) — 二 part of the name, not a count
+二妹
+# 血水四溅 "blood splattered" — 四 idiomatic (all around), not a count
+四溅

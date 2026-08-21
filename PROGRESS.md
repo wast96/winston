@@ -2,6 +2,121 @@
 
 The running per-batch log. Written as we go.
 
+## B14 — Chapter Twelve "锄奸红灯区 / A Purge in the Red-Light District" (ch12)
+
+- **Scope.** PDF 264-283, printed 249-268. Seven sections: s1 一、枪响"小花园"
+  "Shots at the 'Little Garden'" (opener PDF 265, folio 250), s2 二、1469号车牌
+  "License Plate 1469" (PDF 267, folio 252), s3 三、谣言杀人 "Rumor Kills" (PDF 270,
+  folio 255), s4 四、葬身之所 "A Place to Die" (PDF 272, folio 257), s5 五、如入无人之境
+  "As Through an Empty Land" (PDF 275, folio 260), s6 六、神枪手 "The Crack Shot"
+  (PDF 277, folio 262), s7 七、殉道者永受赞美 "The Martyr Forever Praised" (PDF 279,
+  folio 264). Offset held a constant 15; folios read off the scan at every opener and
+  confirmed on every text page (251-267). 139 body paragraphs (s1 18, s2 21, s3 11,
+  s4 20, s5 15, s6 17, s7 37). Chapter divider p0264 and the washed-out full-page
+  painting p0283 are design furniture, not figures. The chapter returns to the Special
+  Branch's counter-traitor killings: the Ma Shaowu shooting at the Little Garden brothel
+  lane (s1); Ding Ling's abduction and the "License Plate 1469" the KMT car was said to
+  carry, plus the Civil Rights League rescue campaign (s2-s3, heavily Smedley/Ding Ling
+  memoir vs the newspaper record); the Xiong Guohua traitor case and the Renji Hospital
+  assassination (s4-s5); the taking of the crack shot Kuang Hui'an (s6); and the martyr
+  set-piece of the four Red Squad men garrotted at Nanjing in 1935 (s7).
+- **Source recovery.** data/zh/ch12.txt HAND-TRANSCRIBED off the 300-DPI page images
+  (OCR chi_sim psm6, crop 0.06/0.95/0.11/0.955, kept as cross-check only — noisy on the
+  names). Chapter title + all seven section heads marked `###` (parity gotcha). Parity
+  exact: 139 = 139 (check_structure --pairs, source first).
+- **Crop-verified readings (eye-read on magnified crops):** 许祖忻（卿）Xu Zuxin (Qing)
+  — the Zhongtong deputy, the source's own parenthetical kept; 宝钗院 (Baochaiyuan) — the
+  garbled Settlement locale in Smedley's inaccurate version of Ma Shaowu's death, romanized
+  as printed; 死后同淘 — the print shows 淘 in "生则同监、死后同[穴]" (a shared grave in death),
+  rendered to sense (the preceding clause already says buried together). Plate/room/bed
+  numbers crop-verified: 1469, 4223, 1038 (the three license plates), room 34, Ward 145 /
+  Bed 18, detectives No. 253 and No. 721.
+- **Register.** Drafted straight against the frozen doc; ch08-ch11 sardonic source-
+  criticism voice kept — the author sets Smedley's and Ding Ling's partisan memoirs against
+  the contemporary press (the 1469 vs 4223/1038 plates; where Ma Shaowu died) and finds the
+  memoirs wrong on points, verdict left in the notes. The closing martyr set-piece (s7,
+  the chaplain's "men greater than Christ") run at full temperature per the voice sheet.
+  check_register vs ch01: within tolerance, NO stilted flag (contractions 3.8/1k, em-dash
+  5.1/1k, sentence median 22, rhythm CV 0.67 vs ref 0.66) — this chapter's quoted speech
+  (Ding Ling, Meng Huating, the interviewees) carries natural spoken register.
+- **Checks, all green.** parity 139=139; verify_unit numbers 0 unresolved (a B14 noise
+  block added: 万目睽睽, 成千上万, 百发百中, 十恶不赦, 万世, 二妹 [林二妹 name], 四溅 — all
+  idiomatic/name numerals; every real count carried: the three plate numbers, room 34,
+  Ward 145/Bed 18, No. 253/No. 721, the two gentlemen Ma and Qian, twenty-four hours,
+  twelve noon, seven bullets, the dates); check_align median 4.57 en/han, no pair > 2.2x;
+  qc_entities 0 misses; check_content 345 name occurrences all in the paired paragraph;
+  check_apparatus 0/0; anchors 15/15; build PASS (12/18 chapters, 366 notes); qa_epub PASS
+  (96 files, 366 refs/bodies/backlinks); epubcheck 5.1.0 0/0/0/0; check_style_freshness FRESH.
+- **Tail verification (rule 4 corollary).** The close (p0282, paras 137-139: the chaplain's
+  eulogy ending "as the martyr is forever praised") re-read against the scan; faithful,
+  nothing invented.
+- **Footnotes: 15 new** (unit total 15; book 366), first-appearance, reader-model, verdicts
+  in the note. Headline items: 《北里志》/beili (the Tang pleasure-quarter term the newspaper
+  plays on); 郑声卫响 (the music of Zheng and Wei); Ni Zan; the Noulens/Comintern couple
+  (arrested 1931); Yang Xingfo (assassinated by the Blue Shirts, June 18 1933, on the
+  Academia Sinica steps); the China League for the Protection of Civil Rights; Agnes
+  Smedley (interested-witness framing); Harold Isaacs; Lin Yutang; Hu Shi (on the
+  government's side of the case); the Blue Shirts Society; *L'Impartial* (= Da Gong Bao);
+  the Lakeside Poetry Society; the September 18 (Mukden) Incident; Jiang Boyue/Jiang Wei
+  (the failed feigned-surrender allusion for the closing betrayal).
+- **NOT re-noted (already placed earlier) — cross-referenced, not re-noted:** Ding Ling
+  (bio 1904-1986, ch07), Xu Enzeng (ch01/ch08), Gu Shunzhang (ch01), Wang Jingwei (ch01),
+  the Zhongtong (ch01), the White Terror (ch01), the League of Left-Wing Writers (ch07/ch11),
+  Song Qingling / Lu Xun (ch01+), the Zhongshan suit (ch11), the tiger bench + other
+  tortures (ch06), Cai Yuanpei (ch06), the Academia Sinica (ch11, Zhang Yufa note),
+  Shen Bao (ch01), Moscow Sun Yat-sen University (ch04/ch09), the Central Special Branch /
+  Red Squad / dog-beating squad (ch01+).
+- **Figures: 2** (`data/figs/ch12-01..02.png`, hand-cropped, printed captions excluded,
+  translator's captions with source-label provenance, real alt text): Jiang Zulin as an
+  infant with Hu Yepin and Ding Ling (s2, p0269/folio 254); Kuang Hui'an portrait (s6,
+  p0278/folio 263). find_figures not relied on; every page eyeballed. p0264 (divider) and
+  p0283 (washed-out painting) excluded as furniture.
+- **Glossary: 75 new rows** (46 people, 14 organizations, 4 terms, 11 places), written into
+  the sectioned ledger; `en` all ASCII (4 pre-existing non-ASCII rows from earlier batches
+  left as-is). Consulted authority.json first (Lu Xun, Song Qingling, Wang Jingwei, Yang
+  Xingfo, Gu Shunzhang, the Civil Rights League, Shen Bao all confirmed). One NEW concession
+  street → gazetteer: 四马路 = Sima Road, today Fuzhou Road (`gazetteer:true`+`today`); 巨籁达路
+  Rue Ratard and 三马路 Sanma Road were already in the gazetteer from ch05/ch06. Recurring
+  institutional terms flagged `recurring:true`: 蓝衣社 (the Blue Shirts Society), 中共上海中央局
+  (the CCP Shanghai Central Bureau).
+- **Tooling patches (DO NOT REVERT).** (1) `scripts/qc_entities.py` grew a `HOMOGRAPHS`
+  stoplist `{"严重"}` mirroring the B13 check_content fix: 严重 is the ch10 courier "Yan Zhong"
+  but also the everyday adjective "severe" (极其严重, 白色恐怖最严重), so as an entity key it
+  flagged every adjectival use. Keep the two lists in sync. (2) `data/noise.txt` gained the
+  B14 block plus 四马路/三马路 street-name numerals (these two were already present).
+- **Consistency note for the ch01-ch08 cleanup sweep.** The numbered Shanghai avenues are
+  established as pinyin in the glossary/gazetteer and in ch05/ch06: 四马路 = **Sima Road**,
+  三马路 = **Sanma Road** (ch12 conforms). ch09 para 163 has the ONE outlier "Fourth Avenue"
+  for 四马路 — normalize it to "Sima Road" in the end-of-book sweep (do NOT edit ch09 mid-batch).
+  (The B13 open item — ch01 Yang Du note "1875" -> "1874" — still stands for the same sweep.)
+
+### Renderings settled this batch (also in glossary.json)
+- 马绍武 Ma Shaowu (aliases 吕克勤 the newspaper cover name "Lü Keqin", kept in text with the
+  umlaut but OUT of the entity glossary; 史济美 Shi Jimei); 丁玲 Ding Ling (原名蒋伟 Jiang Wei /
+  蒋冰之 Jiang Bingzhi); 冯达 Feng Da; 应修人 Ying Xiuren; 潘梓年 Pan Zinian; 杨杏佛 Yang Xingfo
+  (= 杨铨 Yang Quan); 史沫特莱 Smedley (glossary en "Smedley" not "Agnes Smedley", since the
+  text uses the surname throughout — the full-name-vs-surname check_content trap); 哈罗德·伊沙克
+  Harold Isaacs; 胡愈之 Hu Yuzhi; 熊国华 Xiong Guohua (alias); 张阿四 Zhang Asi (张麻子 Pockmark
+  Zhang); 经盛鸿 Jing Shenghong; 陈同生 Chen Tongsheng; 邝惠安 Kuang Hui'an (本名龚昌荣 Gong
+  Changrong, "老广东"); 龚昌荣; 孟华亭 Meng Huating; 赵轩 Zhao Xuan; 祝金明 Zhu Jinming; 胡陵武
+  Hu Lingwu; 巴本 Baben; 盛忠亮/盛宗亮 Sheng Zhongliang (pen name 盛岳 Sheng Yue, already in
+  glossary; 伐樵 Faqiao); 黄药眠 Huang Yaomian; 林二妹 Lin Ermei; 陈俊明 Chen Junming; 翁瑛 Weng
+  Ying (本名朱文元 Zhu Wenyuan); 钱义璋 Qian Yizhang; 季源溥 Ji Yuanpu; 韩达 Han Da; 李得钊 Li
+  Dezhao; 牛兰 Noulens; 孙棨 Sun Qi; 辛文房 Xin Wenfang; 倪迂 Ni Zan; 姜伯约 Jiang Boyue.
+- Institutions/periodicals: 中国民权保障同盟 the China League for the Protection of Civil Rights;
+  蓝衣社 the Blue Shirts Society (recurring); 中央研究院 the Academia Sinica; 打狗团 the dog-beating
+  corps (source variant of the Red Squad's 打狗队 dog-beating squad); 工农通讯社 the Workers' and
+  Peasants' News Agency; 左翼社会科学联盟 the League of Left-Wing Social Scientists; 中共上海中央局
+  the CCP Shanghai Central Bureau (recurring). Newspapers: 时事新报 the China Times; 商报 the
+  Commercial News; 大公报 L'Impartial; 申报 the Shen Bao; 独立评论 the Independent Critic; 北斗 the
+  Big Dipper. Works: 北里志 Records of the Northern Ward; 唐才子传 Lives of the Tang Poets; 莎菲女士
+  的日记 The Diary of Miss Sophia; 三十年来之上海 Shanghai Over Thirty Years.
+- Places: 四马路 Sima Road (gazetteer, today Fuzhou Road); 三马路 Sanma Road, 巨籁达路 Rue Ratard
+  (both pre-existing gazetteer); 昆山花园路 Kunshan Garden Road; 浙江路 Zhejiang Road; 广西路 Guangxi
+  Road; 昼锦里 Zhaojin Lane; 东方旅社 the Eastern Hotel; 谦吉旅馆 the Qianji Hotel; 仁济医院 Renji
+  Hospital (the Lester Chinese Hospital); 新文祥银楼 the Xinwenxiang silver shop; 南京宪兵司令部 the
+  Nanjing Gendarmerie Command; 临澧 Linli; 平康里 Ping'kang ward.
+
 ## B13 — Chapter Eleven "野天鹅 / The Wild Swan" (ch11)
 
 - **Scope.** PDF 248-263, printed 233-248. Three sections: s1 一、小开 "The Young

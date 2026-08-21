@@ -31,6 +31,13 @@ def pairs(path):
         yield src, " ".join(buf)
 
 
+# 严重 is the ch10 courier Yan Zhong but also the ubiquitous adjective
+# "severe" (极其严重 "extremely grave," 白色恐怖最严重 "the height of the White
+# Terror"); as an entity-map key it flags every adjectival use. Same homograph
+# fix already applied to check_content.py (B13). Keep the two lists in sync.
+HOMOGRAPHS = {"严重"}
+
+
 def main(path, gloss_path="glossary.json"):
     gloss = json.load(open(gloss_path))
     flat = {}
@@ -40,6 +47,8 @@ def main(path, gloss_path="glossary.json"):
         for zh, rec in section.items():
             # keys like 盒子枪/驳壳枪 hold alternate hanzi for one referent
             for form in zh.split("/"):
+                if form in HOMOGRAPHS:
+                    continue
                 flat[form] = rec
 
     bad = 0
