@@ -975,6 +975,37 @@ UNITS = {
         "glued": {}, "glued_head": {},
         "standalone": [15, 61, 133],
     },
+    "ch40": {
+        "file": "41_index-split-000-0039.txt",
+        "title": "第八章 抚今追昔 烟波千里",
+        # drop=2: running header 英雄无名-陈恭澍 + <h2> chapter title. Confirmed
+        # byte-exact p-by-p against the source XHTML: 1 <h2> + 4 <h3> (the four
+        # section headings 一、/二、/三、/四、) + 170 <p>, ZERO mismatches; no
+        # <h1>, no <br/>, no <img>, no [\d+] note markers, 0 images. The file
+        # has NO trailing newline, so it is 176 lines (wc -l counts 175
+        # newlines); after drop=2 the txt has 174 body lines = 4 <h3> heading
+        # lines (raw 1-based L17/L31/L71/L127) + 170 <p>. The four <h3> are
+        # their OWN elements -> standalone (### ), not glued. NO
+        # source-duplication artifact (near-duplicate scan found nothing >0.6;
+        # no heading text fused mid-<p>).
+        # ONE glitch-masked severed-<p> boundary at (96, 97): L96 ends
+        # 我问他：﹁要枪做什么？ (opens ﹁ but leaves it unclosed; the ？ masks the
+        # continuation), and L97 begins ﹂计同学用他那双湿润的眼睛望望我 -- the
+        # dialogue ﹁要枪做什么？﹂ was split so its closing ﹂ orphaned onto the
+        # next <p>. Merge restores opens==closes. Every other body line ends on
+        # a terminal glyph; all remaining ！/？/》-enders are complete terminal
+        # sentences (the L88-L94 and L168-L169 runs are strings of rhetorical
+        # questions / a nostalgic 山里红 aside, each a complete sentence kept as
+        # its own BODY line per parity, NOT severs).
+        # INNER enumerations / name-lists stay as BODY lines per parity.
+        # Digitization glitches (rendered to plain sense, listed in PROGRESS):
+        # see PROGRESS.md B33 glitch list. All rendered to plain sense; only
+        # genuine reading uncertainty footnoted.
+        "drop": 2,
+        "merges": [(96, 97)],
+        "glued": {}, "glued_head": {},
+        "standalone": [17, 31, 71, 127],
+    },
 }
 
 

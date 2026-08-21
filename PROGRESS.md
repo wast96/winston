@@ -3895,3 +3895,115 @@ Zhenshan of the Northeast Brigade, and the plan to move the First Brigade south.
 - Other single-char substitutions: 灭线 for 火线 (firing line, L7); 保一定 for 保定 (Baoding, L19); 联紧
   for 联系 (L66); 福射状 for 辐射状 (L87); 杆了毡 (dialect, "matted into felt," L114). Name-form/place:
   张垣 = the literary name of 张家口 Zhangjiakou (source glosses it 张垣（察哈尔张家口）, L62).
+
+## Batch B33 (ch40 = 第八章 抚今追昔 烟波千里, the EIGHTH Part-Four narrative chapter)
+
+"Chapter 8. Musing on Past and Present, Mist over a Thousand Miles." Four sections: ch40s01 "Three Men
+in Step, Each His Own Way, onto Three Roads"; ch40s02 "The Overlooked Arch-Enemy of the North China
+Front"; ch40s03 "May You, Steadfast and Striving, Live On There Forever"; ch40s04 "Every Defeat Lost
+with Unyielding Regret." Section 1 traces the diverging fates of the three men of the Tianjin
+Intelligence Group (Wang Zhibin, who defected to the Communists and vanished in Yang Fan's purge; Guo
+Zizhong, deported from Japan; Qi Zhenping, thirty years in the Central Second Section). Section 2 is
+Chen's reckoning of Nie Rongzhen as the "number-one adversary" of the North China front, from the
+Wutai base and the Hundred Regiments Offensive to the fall of Beiping, framed by the intelligence-
+employment thesis (knowing the enemy is nothing without the strength to act) and closed by the seam
+obituary of the draftsman Hong Fuyu. Section 3 is the "stay-behind work": recruiting, matériel, and
+funds (the gold-yuan collapse, the "Yuan big-head" silver dollar and flour), the martyrdom of Ji
+Zhaoxiang, and Chen's bitter account of the foreign-sponsored air-drops into the mainland. Section 4
+is the string of defeats: Chiang's autumn-1948 inspections, the Liaoshen collapse, the Xu-Bang
+(Huaihai) Campaign, and the Xinbao'an-Miaofeng disaster of the Provisional Third Army, closing on the
+Miaofeng temple-fair reverie and the aborted transfer to the North China Bandit-Suppression HQ.
+
+### Structure
+- drop=2 (running header 英雄无名-陈恭澍 + <h2> chapter title). Byte-exact p-by-p diff against the
+  source XHTML: 1 <h2> + 4 <h3> (section heads 一/二/三/四) + 170 <p>, ZERO mismatches; NO <h1>/<br/>/
+  <img>/[\d+], 0 images. File has NO trailing newline (176 lines; wc -l counts 175); after drop=2 the
+  txt has 174 body lines = 4 <h3> heads (raw 1-based L17/L31/L71/L127) + 170 <p>.
+  standalone=[17,31,71,127]. The "1-line count scare" (ch36/ch38/ch39 pattern) was a trailing-newline
+  miscount, confirmed harmless.
+- ONE glitch-masked severed-<p> merge=[(96,97)]: raw L96 ends 我问他：﹁要枪做什么？ (opens ﹁, leaves it
+  unclosed; the ？ masks the continuation) and raw L97 begins ﹂计同学用他那双湿润的眼睛望望我 - the
+  dialogue ﹁要枪做什么？﹂ was split so its closing ﹂ orphaned onto the next <p>. Merge restores
+  opens==closes. Every other body line ends on a terminal glyph; the L88-L94 and L168-L169 runs of
+  rhetorical questions / the 山里红 aside are each complete sentences kept as BODY lines per parity.
+  NO ch36-class source-duplication (near-duplicate scan found nothing >0.6).
+- 169 body paragraphs. median ratio 5.37 en/han. Alignment OK (no pair strays >2.2x).
+
+### Checks (all green)
+- verify_unit ch40: parity 169/169 OK; numbers 0 unresolved (after the 8 noise additions below);
+  anchors OK. check_align: median 5.37, OK. check_structure: ALL PASS (352 notes, 0 unresolved).
+- check_content: ch40 125 name occurrences, 0 displaced ("all in the paired paragraph"). Fixed 2
+  near-miss rendering mismatches to the keyed forms: 中岛信一 curly apostrophe -> straight "Nakajima
+  Shin'ichi" (glossary en uses a straight '); 冀东 "East-Hebei" (hyphen) -> "East Hebei" (space) to
+  match the keyed en. The ch08/09/13/26/38 lines are the documented pre-existing artifacts
+  (Shunde/Jize/武汉卿/劳勃生路/海防-Haiphong).
+- qc_entities: 0 misses (census top: 北平 x22, 聂荣臻 x21, 王智斌 x17, 林彪 x10, 天津 x9, 郭子中 x8, 绥靖
+  x7, 新保安 x7). 绥靖 rendered the keyed noun "pacification" throughout (no verb-form drift).
+- check_register --ref: within tolerance (contr 0.0/1k, shall 0%, em-dash 8.0/1k, rhythm 0.61).
+- Tail verified against source (L174 the Dagong-Bao Youth-Salvation-Corps notice rendered in full,
+  nothing dropped or invented).
+- qa_epub PASS (43 docs, 5732 paras, 352 refs/bodies/backlinks, all links resolve). epubcheck 5.1.0:
+  0 fatals / 0 errors / 0 warnings / 0 infos. EPUB now 40/43 chapters, 352 notes.
+
+### Notes (9 new; 343 -> 352 cumulative)
+1. The Hundred Regiments Offensive (百团大战, Aug-Dec 1940; Zhu De and Peng Dehuai; the "Three-All"
+   reprisals; Mao's attested disapproval, revived against Peng in 1959; Chen's banditry/jealousy
+   reading is the Nationalist framing).
+2. Lu Zhishen (鲁智深, the "Flowery Monk" of the Water Margin; Mao's "of old Lu Zhishen, today Nie
+   Rongzhen" quip likening Wutai to the outlaw fastness).
+3. The Xu-Bang / Huaihai Campaign (徐蚌会战, Nov 1948-Jan 1949; ~half a million Nationalists
+   destroyed around Xuzhou; decided the war; Chen's casualty figures of the right order).
+4. The Liaoshen Campaign / fall of the Northeast (Jinzhou 15 Oct, Changchun 20 Oct, Shenyang, Liao
+   Yaoxiang's army wiped out; freed Lin Biao's army for the Pingjin fighting; Fan Hanjie / Lu Junquan
+   taken at Jinzhou).
+5. The gold yuan and the silver dollar (金圆劵, the Aug-1948 currency and its collapse; the "Yuan
+   big-head" 袁大头 silver dollar bearing Yuan Shikai's head; why agents were paid in flour and silver).
+6. The Miaofeng temple fair (妙峰山庙会; the lunar-spring pilgrimage to Bixia Yuanjun's shrine, the
+   kowtowing devout, the pilgrim associations; suppressed after 1949, revived recently).
+7. The shanlihong / candied haws (山里红 / 糖葫芦; hawthorn 山楂 on a stick; the giant willow-withe
+   pilgrim's version vs the refined city tanghulu).
+8. Straw dogs (刍狗; the Daodejing "heaven and earth treat the ten thousand things as straw dogs";
+   sacrificial effigies used then discarded).
+9. The button-knob (顶子, the Qing hat-finial marking rank; "blood that dyes the button-knob crimson"
+   = a career bought with subordinates' lives).
+
+### Glossary - B33 net-new keyed rows (4 people; all provisional)
+- 王智斌 Wang Zhibin (Tianjin Group leader who defected; also 王紫斌 Wang Zibin), 齐枕萍 Qi Zhenping
+  (Central Second Section; written 齐枕平 in ch33/ch35, one man), 郭子中 Guo Zizhong (deported from
+  Japan), 洪复予 Hong Fuyu (the brigade draftsman; also in ch35). 王智斌/郭子中 graduated from inline in
+  ch33/ch35 (rendered identically there); 洪复予 from inline in ch35 - all render one way across chapters.
+- Kept INLINE (glossary-key discipline - one-off Communist officials, one-mention commanders,
+  name-lists, courtesy names, one-chapter places): 许建国 Xu Jianguo, 杨帆 Yang Fan (CCP Shanghai PSB
+  directors), 廖耀湘 Liao Yaoxiang, 袁朴 Yuan Pu, 吴克华 Wu Kehua, 詹大南 Zhan Danan, 范汉杰 Fan Hanjie,
+  卢濬泉 Lu Junquan, 胡轨 Hu Gui, 孙龙光 Sun Longguang, 李复生 Li Fusheng; the Communist commanders 朱德
+  Zhu De, 彭德怀 Peng Dehuai, 叶剑英 Ye Jianying, 徐向前 Xu Xiangqian, and Nie's sub-district commanders
+  杨成武/郭天民/黄永胜/熊伯涛/邓华; 侯飞霞 Hou Feixia (courtesy name of the keyed 侯腾 Hou Teng, one man);
+  张上校 Colonel Zhang. Places inline: 胥各庄/顺义/密云/黄县/哈尔滨/沈阳/太原/集宁/康庄/南口/昌平/怀来/
+  镇边城/门头沟/土木堡/宋家营/妙峰山/横岭/八达岭/青龙桥/长春/葫芦岛/锦西/宁波/府学胡同.
+
+### data/noise.txt - B33 additions (8)
+- **毫无二致** (idiom "in no way different"; 二 part of the set phrase, not the count 2).
+- **百团大战** (campaign name "Hundred Regiments Offensive"; 百 = 100 part of the proper name - the text
+  gives the real figures 四十多个团 / 二十多个团).
+- **五花八门** (idiom "of every stripe and kind"; 五/八 part of the phrase).
+- **七荤八素** (idiom "thrown into a muddle"; 七/八 part of the phrase).
+- **九十月** (elided consecutive months 九月、十月; the checker misreads 九十 as the value 90).
+- **十一、二日** (elided date 十一、十二; the checker reads the trailing 二 as the count 2).
+- **三心二意** (idiom "of a divided mind"; variant of 三心两意 with 二; 三/二 part of the phrase).
+- **接二连三** (idiom "one after another"; 二/三 part of the phrase).
+- All REAL quantities carried as DIGITS/words: 180,000 garrison / 150,000 conscript laborers /
+  460,000 & 304,000 Huaihai casualties / 760,000 total & 230,000 (three-in-ten) dead / 150,000 vs
+  40,000 (~7:2) at Xinbao'an / the 35th/16th Armies, columns, brigades, regiments, battalions;
+  25,000-li Long March written as digits; ROC years 23-40 matched by ordinal or +1911.
+
+### Digitization glitches (rendered to plain sense; none footnoted - mechanical)
+- Stray glyphs standing for a closing 」 / a colon / a stop: ︸ before 清除国民党特务 (L28) and before
+  卷头长白 (L105, = a 「); | before 运用情报的力量 (L64); 〕 after 四种之多 (L66); 》 after 补给 (L85) and
+  after 三、四月间 (L164); ？ for a stop after 训练下级军政干部 (L38).
+- Single-char / variant substitutions rendered to sense: 闚关东 for 闯关东 (L25, "crossed into
+  Guandong"); 迂迥 for 迂迴 (L65, "roundabout"); 挢得 for 搅得 (L66, "thrown into a muddle"); 非夷所思 for
+  匪夷所思 (L101, "past all thought"); 受赚 for 受骗 (L120, "deceived"); 穴尺 for 六尺 (L166, "five or six
+  chi"); 方、面 stray 、 in 平绥路方面 (L144); 金圆劵 (劵 variant of 券, kept as the source form in the note).
+- Name variant (NOT a glitch): 王紫斌 = 王智斌 Wang Zhibin ("also named," L25); 齐枕萍 (L17+) = 齐枕平 of
+  ch33/ch35, one man (Qi Zhenping). 侯飞霞 = the courtesy name of 侯腾 Hou Teng (L169, one man).
+- Redaction: xx公司 (L110, a redacted company name) kept as "XX Company."

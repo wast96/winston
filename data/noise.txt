@@ -955,3 +955,30 @@
 # Idiom 数九寒天 "the depth of winter" (ch39): the 九 (9) names the nine nine-day
 # periods after the winter solstice, an idiom for the coldest days, not the count 9.
 数九寒天
+# Idiom 毫无二致 "in no way different" (ch40): the 二 (2) is part of the set phrase
+# (no two ways about it), not the count 2.
+毫无二致
+# Battle-name numeral 百团大战 "the Hundred Regiments Offensive" (ch40): the 百 (100)
+# is part of the campaign's proper name, not a count (the text itself gives the real
+# figures as 四十多个团 and 二十多个团).
+百团大战
+# Idiom 五花八门 "of every stripe and kind" (ch40): the 五 (5) and 八 (8) are part of
+# the set phrase (a jumbled variety), not the counts 5 and 8.
+五花八门
+# Idiom 七荤八素 "thrown into a muddle" (ch40): the 七 (7) and 八 (8) are part of the
+# set phrase (dizzy, all confused), not the counts 7 and 8.
+七荤八素
+# Elided consecutive months 九十月(间) "about September and October" (ch40): 九十月 is
+# 九月、十月 telescoped; the checker misreads 九十 as the value 90. Carried in English
+# as "the ninth and tenth months."
+九十月
+# Elided date 十一、二日 "the 11th and 12th" (ch40): 十一、二 is 十一、十二 telescoped;
+# the checker reads the trailing 二 as the count 2. Carried in English as "the eleventh
+# and twelfth."
+十一、二日
+# Idiom 三心二意 "of a divided mind" (ch40; variant of 三心两意 with 二): the 三 (3) and
+# 二 (2) are part of the set phrase (Fu Zuoyi's vacillation), not the counts 3 and 2.
+三心二意
+# Idiom 接二连三 "one after another, in quick succession" (ch40): the 二 (2) and 三 (3)
+# are part of the set phrase, not the counts 2 and 3.
+接二连三
