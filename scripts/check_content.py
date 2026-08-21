@@ -50,6 +50,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # that is "me". Every such place would otherwise be reported as displaced.
 AUTHOR = {"沈醉"}
 
+# Person names whose hanzi collide with an everyday word, making them useless
+# as content anchors: they match the common word far more often than the
+# person, so anchoring on them reports every ordinary use as a displacement.
+# 严重 is the courier Yan Zhong (ch10 roster) but also the ubiquitous adjective
+# "severe" -- it flagged every "白色恐怖最严重" ("the height of the White Terror").
+HOMOGRAPHS = {"严重"}
+
 
 def name_map(path):
     """hanzi -> English, restricted to distinctive proper names."""
@@ -63,7 +70,7 @@ def name_map(path):
             continue
         for zh, e in entries.items():
             en = e.get("en", "")
-            if zh in AUTHOR:
+            if zh in AUTHOR or zh in HOMOGRAPHS:
                 continue
             if len(zh) < 2 or "/" in en or len(en) < 4:
                 continue

@@ -271,3 +271,15 @@
 李六如
 # 十字架 "cross" (crucifix worn on the chest) — 十 lexical, not a count
 十字架
+#
+# --- B13 / ch11 lexical numerals (Shanghai slang, idioms, character-counts) ---
+# 瘪三 "biesan," a jobless drifter — 三 is lexical, not a count
+瘪三
+# 拉三 "lasan," a streetwalker — 三 is lexical, not a count
+拉三
+# 二百五 slang for a fool (250) — not a quantity
+二百五
+# 千要万要 "wants it all, come what may" — 千/万 idiomatic, not counts
+千要万要
+# “特别”两个字 "the two characters te-bie" — 两 counts Chinese characters; 特别 collapses to English "special"
+两个字

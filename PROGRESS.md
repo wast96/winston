@@ -2,6 +2,121 @@
 
 The running per-batch log. Written as we go.
 
+## B13 — Chapter Eleven "野天鹅 / The Wild Swan" (ch11)
+
+- **Scope.** PDF 248-263, printed 233-248. Three sections: s1 一、小开 "The Young
+  Master" (opener PDF 249, folio 234), s2 二、从淞沪抗战到闽变倒蒋 "From the Shanghai
+  War to the Fujian Revolt" (opener PDF 253, folio 238), s3 三、我们的人 "Our Own Man"
+  (opener PDF 256, folio 241). Offset held a constant 15; folios read off the scan at
+  each opener and confirmed on every text page (235-248). Chapter divider p0248 (a
+  washed-out overlaid portrait of Pan Hannian) is design furniture, not a figure. 82
+  body paragraphs (s1 21, s2 17, s3 44). The chapter is Pan Hannian's: s1 traces how
+  the Shanghai-slang term 小开 ("young master") became his code name and his going-
+  underground; s2 runs the Party's tie to the Nineteenth Route Army through Mei
+  Gongbin, the January 28 Shanghai War, and the collapse of the 1933 Fujian revolt; s3
+  is the long, source-critical account of Yang Du — monarchist theorist turned secret
+  Communist — and the decades-long effort to get his Party membership acknowledged in
+  the Cihai.
+- **Source recovery.** data/zh/ch11.txt HAND-TRANSCRIBED off the 300-DPI page images
+  (OCR chi_sim psm6, crop 0.06/0.95/0.11/0.955, kept as cross-check only — hopelessly
+  noisy on 潘汉年 alone, coming through as 潘议年/潘沈年/潘充年). Chapter title + all three
+  section heads marked `###` (parity gotcha). Parity exact: 82 = 82 (check_structure
+  --pairs; NOTE arg order is `data/zh/ch11.txt out/ch11_reading.md` — source first,
+  translation second, or the '##' chapter title miscounts by one).
+- **Crop-verified names (eye-read on magnified crops):** 阮仲一 Ruan Zhongyi / 王弼
+  Wang Bi (Pan's 1925 Party sponsors); 徐名鸿 courtesy 羽仪 Yuyi, sobriquet 翱翔 Aoxiang;
+  李以劻 Li Yikuang (the 劻 char); 徐粲楞 Xu Canleng (Yang Du's concubine, obscure —
+  provisional); 刘人寿、何荦 He Luo (荦); 陈公培（吴明） Chen Gongpei (Wu Ming); 夏采曦/王子春/
+  谢德钊 (the Special Branch Committee); 左湘君 Zuo Xiangjun / 《联合晚报》. The one real
+  source slip: p0256 prints 十五万**将军**入闽 ("150,000 generals") where the sense is
+  十五万**蒋军** ("150,000 of Chiang's troops"); rendered to meaning with a [—Trans.] note.
+- **Register.** Drafted straight against the frozen doc; ch08/ch09/ch10 sardonic
+  source-criticism voice kept (the Cihai-entry chase; the author giving the last,
+  skeptical word to the Taiwan historian Zhang Yufa, that Yang Du's "conversion" may
+  have been one more turn of a lifelong talent for playing every side). Read the final
+  two pages of ch10 first. s1's dense Shanghai/Wu-dialect slang catalogue (小开 and its
+  kin) handled as use/mention: romanization kept with the author's own inline glosses,
+  one footnote on the register + 《七十二家房客》. The 野天鹅 title reveal (Andersen's Elisa,
+  forbidden to speak) footnoted.
+- **Checks, all green.** parity 82=82; verify_unit numbers 0 unresolved (a B13 noise
+  block added: 瘪三, 拉三, 二百五, 千要万要, 两个字 — all lexical/idiomatic numerals in
+  slang, not quantities; every real count carried: 150,000 Chiang troops, the 53-day
+  republic, 25-year-old Pan vs Yang twice his age, the two wives/eight children, the
+  three-of-us dinner); check_align median 5.08 en/han, no pair > 2.2x; qc_entities 0
+  misses (fixed: 二房东 → the glossary form "second landlord"; Pan Hannian named in the
+  1927/1928/1930/1931 chronology entries); check_content 333 name occurrences all in
+  the paired paragraph; check_apparatus 0/0; anchors 19/19; build PASS (11/18 chapters,
+  351 notes); qa_epub PASS (94 files, 351 refs/bodies/backlinks); epubcheck 5.1.0
+  0/0/0/0; check_style_freshness all FRESH.
+- **Register check — dialogue metric was QUIET (documented per the reportage caveat).**
+  check_register flags ch11 STILTED at 0.0 dialogue contractions/1k, but this is a
+  quotation-heavy source-criticism chapter: its quoted speech is almost entirely the
+  exempt registers (memoir recollection — Xia Yan, Mei Gongbin, Liang Shuming, Yin Qi;
+  formal documents — the 1933 agreement, the Cihai entry, the tombstone epitaph; and
+  Yang Du's classical statements and self-composed couplet). The narratorial signals
+  are ON-reference vs ch01: em-dash 6.9/1k (ref 7.8), sentence median 23, rhythm CV
+  0.61 (ref 0.66). Did NOT blanket-contract formal quotation; two natural narration
+  contractions added by ear.
+- **Tail verification (rule 4 corollary).** The close (p0263, paras 80-82: the white-
+  marble epitaph and Zhang Yufa's 2019 skeptical coda) re-read against the scan;
+  faithful, nothing invented.
+- **Footnotes: 19 new** (unit total 19; book 351), first-appearance, reader-model,
+  verdicts in the note. Headline items: 《七十二家房客》 + the Shanghai-slang register;
+  《苦杯》/Pan's fiction; the Zhongshan/"Mao" suit; the Left/Dramatists' Leagues (x-ref
+  ch07); Andersen's *The Wild Swans*/Elisa (the title); the CC Clique (x-ref Zhongtong
+  ch01); Xu Minghong (executed 1934); the China Weekly Review; "first pacify within";
+  the Gongche petition (Kang Youwei/Liang Qichao/1898 reform); Red Flag Weekly; Qi
+  Baishi; the Annamese (Vietnamese) patrolmen of the French Concession; Xibaipo; the
+  Cihai; the China Relief Society; Zhang Xun's 1917 restoration; the 将军/蒋军 slip; and
+  Zhang Yufa/Academia Sinica (the skeptical coda).
+- **NOT re-noted (already placed earlier) — cross-referenced, not re-noted:** Yang Du
+  (his monarchism, the Chou'an Society + six gentlemen incl. Yan Fu/Liu Shipei, his
+  secret CCP membership, Yuan Shikai, the Hongxian monarchy — ALL ch01), Pan Hannian
+  (full bio incl. his 1955 fall — ch01), the Nineteenth Route Army + the Fujian Incident
+  + People's Government (ch01), Chen Mingshu / Li Jishen (ch01), the January 28 Shanghai
+  War (ch01), Du Yuesheng / the Green Gang (ch01), tingzijian (ch01), Chen Duxiu / Li
+  Dazhao / Sun Yat-sen / the White Terror / Whampoa / the Zhongtong / the Fourth Plenum /
+  Song Qingling / New Youth / the League of Left-Wing Writers / the ten years of turmoil
+  (all ch01-ch09), the Central Soviet (ch10), Gu Shunzhang / Chen Geng / Zhou Enlai /
+  Chen Yun / Kang Sheng / Li Lisan / Wang Jingwei (ch01-ch09).
+- **Figures: 3** (`data/figs/ch11-01..03.png`, hand-cropped, printed captions excluded,
+  translator's captions with source-label provenance, real alt text): Pan Hannian and
+  his wife Dong Hui (s1, p0250/folio 235); Nineteenth Route Army soldiers fighting
+  street-to-street in Zhabei (s2, p0254/folio 239); Yang Du portrait (s3, p0256/folio
+  241). find_figures not relied on; every page eyeballed.
+- **Glossary: 108 new rows** (79 people, 19 places, 10 organizations), written into the
+  sectioned ledger; `en` all ASCII. Consulted authority.json first (Sun Yat-sen, Du
+  Yuesheng, Deng Yanda, Guo Moruo, Feng Xuefeng, Wang Jingwei, Song Qingling confirmed
+  shelf-wide). Recurring institutional terms flagged `recurring:true`: 十九路军 (the
+  Nineteenth Route Army), 筹安会 (the Chou'an Society). One NEW concession street →
+  gazetteer: 薛华立路 = Route Stanislas Chevalier, today Jianguo Middle Road
+  (`gazetteer:true`+`today`).
+- **Tooling patch (DO NOT REVERT).** `scripts/check_content.py` grew a `HOMOGRAPHS`
+  stoplist (alongside the existing `AUTHOR` set): 严重 is the ch10 courier "Yan Zhong"
+  but also the everyday adjective "severe," so it flagged every "白色恐怖最严重" as a
+  displacement. Excluding it from the name-map is the same fix the AUTHOR set already
+  applies to the author's own name.
+- **Open discrepancy for the ch01-ch08 cleanup sweep.** The ch01 Yang Du note prints
+  "Yang Du (1875–1931)"; this book's own text (ch11 para 41 and the reproduced Cihai
+  entry) gives **1874**. 1874 is the in-book authority; fix the ch01 note to 1874 in the
+  end-of-book sweep (do NOT edit ch01 mid-batch, per the frozen process).
+
+### Renderings settled this batch (also in glossary.json)
+- 潘汉年 Pan Hannian (code names 小开 Xiaokai / 开 Kai / 小K Little K / K; 《苦杯》 = *The
+  Bitter Cup*, 《战线》 = *Battle Line*); 杨度 Yang Du (courtesy 皙子 Xizi; 《红旗周报》 =
+  *Red Flag Weekly*; 《辞海》 = the Cihai); 徐名鸿 Xu Minghong; 梅龚彬 Mei Gongbin (alias
+  梅电龙 Mei Dianlong); 蔡廷锴 Cai Tingkai / 蒋光鼐 Jiang Guangnai / 戴戟 Dai Ji / 陈铭枢
+  Chen Mingshu / 李济深 Li Jishen (the Nineteenth Route Army cast); 陈公培 Chen Gongpei
+  (吴明 Wu Ming); 王绍先 Wang Shaoxian / 齐白石 Qi Baishi (齐璜 Qi Huang) / 杨无咎 Yang
+  Wujiu; 徐粲楞 Xu Canleng (concubine, provisional); 章士钊 Zhang Shizhao; 夏衍 Xia Yan.
+- The four Chou'an "gentlemen" named here beside Yang Du: 孙毓筠 Sun Yujun, 严复 Yan Fu,
+  刘师培 Liu Shipei, 胡瑛 Hu Ying, 李燮和 Li Xiehe.
+- 二房东 = "second landlord" (glossary form, kept for entity survival); 小开 rendered
+  "the young master" / kept romanized *xiaokai* as the anatomized term and code name.
+- Places: 薛华立路 = Route Stanislas Chevalier (gazetteer, today Jianguo Middle Road);
+  西柏坡 Xibaipo, 虹桥 Hongqiao, 丰顺 Fengshun, 赣州 Ganzhou, 吉安 Ji'an, 延平/水口/古田/福州
+  (the Fujian towns), 湘乡 Xiangxiang, 湘潭 Xiangtan, 归泾 Guijing.
+
 ## B12 — Chapter Ten "开铺子做买卖 / Opening a Shop, Doing Trade" (ch10)
 
 - **Scope.** PDF 236-247, printed 221-232. Two sections: s1 一、这个人不简单
