@@ -15,7 +15,6 @@ data/raw/
 data/ocr/
 data/verify/
 data/zh_work/
-data/figs/
 build/
 __pycache__/
 *.pyc
@@ -34,7 +33,15 @@ SETUP_REPORT.txt
 out/*.epub
 out/*_bilingual.md
 
-# Keep source.pdf and committed figure crops (data/figs/*.png) TRACKED.
+# Keep source.pdf and committed figure crops (data/figs/*.png) and the cover
+# source (data/figs/cover_front.jpg) TRACKED: the figures are now shipped
+# content, not regenerable renders, so a fresh checkout must rebuild the EPUB
+# with images. Only the figure WORKING scratch under data/figs/ is ignored:
+# the page-scan montages (_scan/), the extractor spec files (_specs_*.json),
+# and the throwaway box-preview / montage images (_*.png).
+data/figs/_scan/
+data/figs/_specs_*.json
+data/figs/_*.png
 # If your scan is very large and you would rather not commit it, add:
 #   source.pdf
 data/png_survey/

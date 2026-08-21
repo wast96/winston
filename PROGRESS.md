@@ -5,6 +5,19 @@ translated (unit ids, PDF and printed ranges), which checks ran and what they
 found, notes added, glossary rows added with status, figures, and anything
 flagged for the commissioner's read-through.
 
+## FIGURES: RESOLVED (2026-08-21) — the standing deferral is closed
+
+The "Figures: DEFERRED" decision recorded through every batch below is now
+CLOSED. The commissioner's call was "all images": every figure in the 图文版
+is in the EPUB. 182 inline figures across ch01–ch12 + a 36-plate front-matter
+gallery (PDF 5–18 portraits + author photo) + the real scanned cover = 218
+figures, all cropped-and-verified (no clipping), captioned from the source,
+and placed by unique reading-md anchors. figures.json, `_plates`, the builder
+gallery page, and JPEG figure output all shipped; qa_epub PASS, epubcheck
+0/0/0/0, EPUB ~15 MB. See CHANGELOG (2026-08-21 figures pass) for the full
+account and tooling. The per-batch "Figures: still DEFERRED" notes below are
+historical.
+
 ## Setup / Survey (Step 0a + 0b)
 
 - **Source:** `source.pdf`, 436 PDF pages, image-only scan, no text layer.

@@ -1,1 +1,1301 @@
-{}
+{
+ "_note": "Per-unit figure specs consumed by build_reading_epub.py. file -> data/figs/<file>; before -> verbatim substring within the first 80 chars of the reading-md paragraph the figure precedes; alt -> screen-reader text; caption -> translator caption (labels are the source's). _plates is the front-matter portrait gallery.",
+ "ch01": [
+  {
+   "file": "p0038-f1.png",
+   "before": "was Zhou Enlai's charge, as head of the Central",
+   "alt": "Black-and-white portrait photograph of a young Zhou Enlai in a dark tunic.",
+   "caption": "Zhou Enlai, then secretary of the CCP Central Military Commission, who in May 1927 founded the Special Work Section."
+  },
+  {
+   "file": "p0039-f1.png",
+   "before": "The special-operations subsection was to punish traitors",
+   "alt": "Black-and-white portrait photograph of a young man in a dark jacket and light tie.",
+   "caption": "Li Qiang, head of the special-service subsection of the Special Work Section."
+  },
+  {
+   "file": "p0043-f1.png",
+   "before": "The Second Section, in charge of intelligence, was pure",
+   "alt": "Black-and-white photograph of a man wearing a soft cap and a worker's jacket, looking toward the camera.",
+   "caption": "Chen Geng, chief of the Central Special Branch's Second (intelligence) Section, photographed in the plain clothes of a worker. The Central Special Branch was founded in Shanghai in November 1927 and in time set up four sections."
+  },
+  {
+   "file": "p0044-f1.png",
+   "before": "The Fourth Section's radio work was set up and built under Zhou",
+   "alt": "Black-and-white portrait photograph of a man in a dark buttoned tunic.",
+   "caption": "Tu Zuochao, who while running a secret radio station in Shanghai devised a transceiver easy to keep hidden."
+  },
+  {
+   "file": "p0046-f1.png",
+   "before": "Gu Shunzhang had been bold and fierce from boyhood",
+   "alt": "Black-and-white photograph of a man in a soft-brimmed hat and light jacket.",
+   "caption": "Gu Shunzhang, working head of the Central Special Branch, arrested on April 24, 1931, and defected that same night."
+  },
+  {
+   "file": "p0047-f1.png",
+   "before": "Right at the elbow of Xu Enzeng, head of the",
+   "alt": "Black-and-white group photograph of about ten men and women in Republican-era dress standing before a house and a motorcar.",
+   "caption": "Xu Enzeng and other Zhongtong agents, photographed together in Shanghai."
+  },
+  {
+   "file": "p0049-f1.png",
+   "before": "The three who worked this marvel",
+   "alt": "Three black-and-white portrait photographs side by side: a bespectacled man in a suit, a younger man in a jacket and patterned tie, and a man in an open-collared jacket.",
+   "caption": "Li Kenong, Qian Zhuangfei, and Hu Di (from left to right), whose extraordinary feat earned them the name, in the CCP intelligence world, of the “Three Heroes of Longtan,” also called the “Former Three Heroes.”"
+  },
+  {
+   "file": "p0050-f1.png",
+   "before": "The Second Section's old intelligence connection, Bao Junfu, could no longer be",
+   "alt": "Black-and-white portrait of a young woman with wavy hair in a dark gown.",
+   "caption": "Huang Mulan."
+  },
+  {
+   "file": "p0050-f2.png",
+   "before": "Xu Qiang, Li Yun, and others newly moved into the Special Branch went to Henan",
+   "alt": "Black-and-white portrait of a young woman with short dark hair.",
+   "caption": "Li Yun."
+  },
+  {
+   "file": "p0051-f1.png",
+   "before": "The Autumn Harvest Uprising forces led by Mao Zedong and the Nanchang",
+   "alt": "Faint black-and-white panorama of a low town spread across a plain, with an old brick pagoda rising at the left.",
+   "caption": "Ruijin, capital of the Chinese Soviet Republic."
+  },
+  {
+   "file": "p0053-f1.png",
+   "before": "Deng Fa, who had once gone to the Soviet Union to study security work, became",
+   "alt": "Black-and-white photograph of a young man in a dark tunic before a leafy background.",
+   "caption": "Deng Fa, first director of the State Political Security Bureau of the Chinese Soviet Republic. He died in a plane crash on April 8, 1946; also killed were Wang Ruofei, Bo Gu, and Ye Ting, honored together as the “April 8 Martyrs.”"
+  },
+  {
+   "file": "p0059-f1.png",
+   "before": "At Red Army headquarters there was a room that burned bright all night long",
+   "alt": "Black-and-white photograph of a young man in a peaked army cap and uniform.",
+   "caption": "Cao Xiangren."
+  },
+  {
+   "file": "p0061-f1.png",
+   "before": "On October 19, 1935, the Central Red Army",
+   "alt": "Black-and-white photograph of four men in caps and long coats standing before a doorway.",
+   "caption": "October 1935, after the Long March reached northern Shaanxi: Mao Zedong, Zhu De, Zhou Enlai, and Bo Gu (from the right), photographed together."
+  },
+  {
+   "file": "p0062-f1.png",
+   "before": "Here in the northwest there had been two revolutionary base areas",
+   "alt": "Black-and-white photograph of a young man in a peaked military cap and uniform.",
+   "caption": "Liu Zhidan, one of the founders of the Northwest Red Army and the Northwest revolutionary base area."
+  },
+  {
+   "file": "p0063-f1.png",
+   "before": "A Provincial Committee courier riding hard to the troops with the letter",
+   "alt": "Black-and-white photograph of two people beside a tall stone stele inscribed with vertical characters reading “General Liu Zhidan.”",
+   "caption": "Pei Zhouyu unveiling the memorial stele to General Liu Zhidan."
+  },
+  {
+   "file": "p0066-f1.png",
+   "before": "The Northwest Political Security Bureau set about its work with dispatch all the",
+   "alt": "Black-and-white photograph of eight men in Red Army caps and winter coats standing in a row outdoors.",
+   "caption": "After the Long March reached northern Shaanxi, the State Political Security Bureau was renamed the Northwest Political Security Bureau, with Wang Shoudao (first from left) as its first director, later succeeded by Zhou Xing. This 1936 photograph, taken while Wang Shoudao served in the 15th Red Army Corps, shows some leaders of the First and 15th Red Army Corps. From left: Wang Shoudao, Luo Ruiqing, Yang Shangkun, Cheng Zihua, Nie Rongzhen, Chen Guang, Xu Haidong, Deng Xiaoping."
+  },
+  {
+   "file": "p0069-f1.png",
+   "before": "In July 1936 the American journalist Edgar Snow slipped in to Bao'an in northern",
+   "alt": "Two black-and-white portraits side by side: at left a smiling Western man in a soft cap and army jacket, at right a Chinese man with swept-back hair in a dark tunic.",
+   "caption": "In July 1936 the American journalist Edgar Snow (left) reached northern Shaanxi; while interviewing Mao Zedong and other CCP leaders, Snow also interviewed Zhou Xing (right), director of the Northwest Political Security Bureau."
+  },
+  {
+   "file": "p0072-f1.png",
+   "before": "great store by the united-front work in the direction of",
+   "alt": "Dark, low-contrast black-and-white photograph of two men standing close together outdoors.",
+   "caption": "Li Kenong (right), head of the Red Army Work Department of the State Political Security Bureau, with Zhang Chunqing (Zhang Wenbin), director of the political security bureau of the Third Red Army Corps."
+  },
+  {
+   "file": "p0073-f1.png",
+   "before": "Li Kenong, who had done intelligence and security work, now entered a new field",
+   "alt": "Black-and-white portrait of a young man with short hair in a dark tunic.",
+   "caption": "Gao Fuyuan, a Northeast Army regiment commander, was taken prisoner in the “Communist-suppression” fighting; won over by Li Kenong, he agreed to try to persuade Zhang Xueliang to join the Red Army in resisting Japan."
+  },
+  {
+   "file": "p0074-f1.png",
+   "before": "With a great enemy at the gate, joining to resist Japan had become the wish of",
+   "alt": "Black-and-white photograph of two uniformed generals seated side by side.",
+   "caption": "Generals Zhang Xueliang (left) and Yang Hucheng (right), photographed together."
+  },
+  {
+   "file": "p0075-f1.png",
+   "before": "The Communist Party's foundation lay in its rural",
+   "alt": "A faint printed map of the Shaan-Gan-Ning Border Region, marking county towns across northern Shaanxi, eastern Gansu and Ningxia, the revolutionary base areas of 1934 and 1936, the 1943 administrative boundaries, and the 1937-1943 Nationalist-occupied zone, at a scale of 1:3,500,000.",
+   "caption": "Map of the Shaan-Gan-Ning Border Region."
+  },
+  {
+   "file": "p0076-f1.png",
+   "before": "After the Xi'an Incident, the situation in China turned.",
+   "alt": "Black-and-white bird's-eye photograph of a broad walled town street lined with crowds, with hills beyond.",
+   "caption": "January 1937: the CCP Central Committee marches into Yan'an."
+  }
+ ],
+ "ch02": [
+  {
+   "file": "p0083-f1.png",
+   "before": "The great Laoshan, which lies athwart the road between",
+   "alt": "Black-and-white photograph of a barren mountain valley with a dirt track winding among low, bare hills.",
+   "caption": "Laoshan, the mountain pass on the road between Yan'an and Xi'an, scene of the ambush on Zhou Enlai's party in April 1937."
+  },
+  {
+   "file": "p0083-f2.png",
+   "before": "On April 25, 1937, Zhou Enlai set out by truck from Yan'an's south gate",
+   "alt": "Faded black-and-white portrait of a young man in dark clothing.",
+   "caption": "Chen Youcai, then Zhou Enlai's adjutant and chief of staff of the Yan'an Garrison Command, who was killed directing the escort detail against the bandits in the Laoshan ambush."
+  },
+  {
+   "file": "p0084-f1.png",
+   "before": "The Yan'an the Communists took over was, in truth,",
+   "alt": "Two men standing in front of hanging calligraphy scrolls; the man on the left is elderly.",
+   "caption": "Chen Fusheng (left), chief of the Northwest Security Bureau's investigation department, with the author."
+  },
+  {
+   "file": "p0086-f1.png",
+   "before": "The moment it happened, the Border committee decid",
+   "alt": "Two men in military uniform squatting side by side outdoors.",
+   "caption": "In early 1937, after the CCP Center moved into Yan'an, a temporary Bandit-Suppression Headquarters was set up under Wu Tailiang (right), chief of the Yan'an county Security Bureau, as commander, with Liu Lanting (left) as public-order section chief."
+  },
+  {
+   "file": "p0087-f1.png",
+   "before": "Yan'an, where the Laoshan affair had only just happened on April 25, 1937",
+   "alt": "Three men standing together outside a doorway; the central figure wears a dark tunic.",
+   "caption": "Zhou Enlai (center), Zhang Yunyi and Kong Shiquan at the Eighth Route Army office in Xi'an after the Laoshan incident."
+  },
+  {
+   "file": "p0088-f1.png",
+   "before": "The First Section of the old",
+   "alt": "Black-and-white portrait of a man in a suit and tie.",
+   "caption": "Zhu Jiahua, first director of the Nationalist Zhongtong bureau."
+  },
+  {
+   "file": "p0088-f2.png",
+   "before": "Even the spy chief Xu Enzeng was at something of a loss",
+   "alt": "Black-and-white portrait of a man in a Western suit.",
+   "caption": "Xu Enzeng, deputy director of Zhongtong."
+  },
+  {
+   "file": "p0088-f3.png",
+   "before": "The Second Section of the old bureau was enlarged",
+   "alt": "Black-and-white portrait of a man in a dark high-collared tunic.",
+   "caption": "Chen Lifu, first director of the Nationalist Juntong bureau."
+  },
+  {
+   "file": "p0088-f4.png",
+   "before": "And so Zhongtong and Juntong, the two secret-service organizations whose rampage",
+   "alt": "Black-and-white portrait of a man in military uniform.",
+   "caption": "Dai Li, deputy director of Juntong."
+  },
+  {
+   "file": "p0090-f1.png",
+   "before": "In December 1937 the CCP formed a \"Central Special",
+   "alt": "Black-and-white photograph of squat fortified blockhouses standing on open, broken ground.",
+   "caption": "Blockhouses with which the Nationalist army blockaded the Shaanxi-Gansu-Ningxia Border Region."
+  },
+  {
+   "file": "p0091-f1.png",
+   "before": "With the whole nation united against Japan, the Na",
+   "alt": "Black-and-white portrait of a middle-aged man in a dark jacket.",
+   "caption": "Wu Defeng, who rebuilt the Party's Liaison Bureau after the Center reached Yan'an."
+  },
+  {
+   "file": "p0092-f1.png",
+   "before": "Yan'an's eastern road ran closest to the Communist-led base areas",
+   "alt": "Six men in military uniform standing in a row before a building.",
+   "caption": "General Deng Baoshan (third from left) with Xu Fanting (second from right) and Nan Hanchen (first from right) at the Second War Zone's Field General Mobilization Committee."
+  },
+  {
+   "file": "p0095-f1.png",
+   "before": "And so educated youth everywhere flocked to Yan'an",
+   "alt": "Two men in long robes standing before a carved doorway.",
+   "caption": "Mao Zedong (right) with Zhang Guotao."
+  },
+  {
+   "file": "p0096-f1.png",
+   "before": "Li Kenong and Wu Kejian boarded at once",
+   "alt": "Black-and-white portrait of a man in a dark jacket.",
+   "caption": "Wu Kejian, one of Zhou Enlai's ablest hands, who helped bring Zhang Guotao in at Wuhan."
+  },
+  {
+   "file": "p0099-f1.png",
+   "before": "Kang Sheng was its head from the day it was founded",
+   "alt": "Black-and-white portrait of a man in a dark tunic, one hand raised.",
+   "caption": "Kang Sheng, head of the Central Social Affairs Department."
+  },
+  {
+   "file": "p0099-f2.png",
+   "before": "Pan Hannian was born into a scholarly family in Yixing, Jiangsu",
+   "alt": "Black-and-white portrait of a man wearing round eyeglasses and a dark jacket.",
+   "caption": "Pan Hannian, deputy head of the Central Social Affairs Department."
+  },
+  {
+   "file": "p0099-f3.png",
+   "before": "The Social Affairs Department later named yet another deputy head: Li Kenong",
+   "alt": "Black-and-white portrait of a man wearing round spectacles.",
+   "caption": "Li Kenong, deputy head of the Central Social Affairs Department."
+  },
+  {
+   "file": "p0100-f1.png",
+   "before": "Wang Ming and Zhao Rong, home from the Soviet Union, and Chen Yun",
+   "alt": "Black-and-white portrait of a young man in a light tunic.",
+   "caption": "Chen Yun in Yan'an during the War of Resistance."
+  },
+  {
+   "file": "p0104-f1.png",
+   "before": "Count the cadres in Yan'an who had held senior pos",
+   "alt": "Row of arched, single-story earthen buildings with trees alongside.",
+   "caption": "The former site of the Central Social Affairs Department, west of Zaoyuan village."
+  },
+  {
+   "file": "p0104-f2.png",
+   "before": "Count the cadres in Yan'an who had held senior pos",
+   "alt": "Arched single-story building enclosing a courtyard.",
+   "caption": "The Border Security (Bianbao)."
+  },
+  {
+   "file": "p0106-f1.png",
+   "before": "The regiment's first commander, Li Wenchang, was a",
+   "alt": "Black-and-white portrait of a person wearing a soft cap.",
+   "caption": "Xia Fei, chief of staff of the Security Regiment."
+  },
+  {
+   "file": "p0107-f1.png",
+   "before": "As for the men who led the Border Region Security Office",
+   "alt": "Black-and-white portrait of a man in a cap and dark tunic.",
+   "caption": "Zhou Xing, head of the Border Region Security Office throughout 1937 to 1949."
+  },
+  {
+   "file": "p0107-f2.png",
+   "before": "Among the Border Security's leaders, three had done security work the longest",
+   "alt": "Black-and-white portrait of a man in a peaked cap.",
+   "caption": "Du Liqing (Xu Jianguo), a deputy head of the Border Security."
+  },
+  {
+   "file": "p0107-f3.png",
+   "before": "Zhou Xing was a heavyweight in the Communists' intelligence and security system",
+   "alt": "Black-and-white portrait of a man in a light jacket standing by a window.",
+   "caption": "Tan Zhengwen, a deputy head of the Border Security."
+  },
+  {
+   "file": "p0107-f4.png",
+   "before": "Zhao Cangbi was a cadre born and bred in northern Shaanxi",
+   "alt": "Black-and-white portrait of a man in a dark tunic.",
+   "caption": "Liu Haibin, the longest-serving deputy head of the Border Security."
+  },
+  {
+   "file": "p0107-f5.png",
+   "before": "An alternate member of the Comintern Presidium, a ",
+   "alt": "Black-and-white portrait of a young man.",
+   "caption": "Liu Bingwen, a deputy head of the Border Security."
+  },
+  {
+   "file": "p0107-f6.png",
+   "before": "The winding, tangled course of cracking the case fired in Zhao Cangbi",
+   "alt": "Black-and-white portrait of a man with a scarf at his collar.",
+   "caption": "Zhao Cangbi, a deputy head of the Border Security who later became minister of public security."
+  },
+  {
+   "file": "p0107-f7.png",
+   "before": "Li Qiming's path onto the intelligence and security front was stranger still",
+   "alt": "Black-and-white portrait of a man in a cap.",
+   "caption": "Li Qiming, the youngest deputy head of the Border Security."
+  },
+  {
+   "file": "p0109-f1.png",
+   "before": "Li Qiming's gifts were exactly suited to intelligence",
+   "alt": "Three people seated side by side indoors.",
+   "caption": "Li Qiming and his wife Li Ning with the author."
+  },
+  {
+   "file": "p0111-f1.png",
+   "before": "This class ran a little longer, opening in July and graduating in October",
+   "alt": "Family photograph: adults seated with two young children.",
+   "caption": "Wu Cheng, a second training-class graduate who ran the secret Yan'an-Xi'an-Chongqing line."
+  },
+  {
+   "file": "p0112-f1.png",
+   "before": "Wang Yantang was young and ambitious. He joined the Party at fifteen",
+   "alt": "Four men standing side by side outdoors.",
+   "caption": "Yan'an period: Li Kenong (first from left) with Luo Qingchang (second from right), Wang Yantang (first from right), and others."
+  },
+  {
+   "file": "p0114-f1.png",
+   "before": "When the Ministry of State Security organized a reunion in 1992",
+   "alt": "Large group of elderly men and women, some seated in front and others standing behind, indoors.",
+   "caption": "June 1992: surviving members of the first Qilipu training class, reunited in Beijing. Front row from left: Jiang Peng, Qiao Cangsong, Zou Yu, Li Qiming, Ai Ding, Wang Qi, Lü Ying. Back row from left: Fang Zhaoyi, Liu Feng, Ke Lan, Yang Huanglin, Liu Ping, Ren Yuan, Deng Tao, Yan Jiahua, Xie Heng."
+  },
+  {
+   "file": "p0115-f1.png",
+   "before": "Deng Xiaoping knew the security system well. In 19",
+   "alt": "Faded black-and-white portrait of a young man in a light jacket.",
+   "caption": "Xiao Chi, the Central Column's special commissioner who found Deng Xiaoping a horse on the Long March."
+  },
+  {
+   "file": "p0116-f1.png",
+   "before": "Deng Xiaoping and Zhuo Lin's wedding was held at the bride's workplace",
+   "alt": "Four people posed outdoors, two women in front and two men behind.",
+   "caption": "The two couples who married on the same day: Deng Xiaoping and Zhuo Lin with Zhuo Lin's Central Social Affairs Department colleagues Kong Yuan and Xu Ming."
+  },
+  {
+   "file": "p0117-f1.png",
+   "before": "The second Qilipu class began in February 1939 and finished in November",
+   "alt": "Five men standing shoulder to shoulder outdoors under blossoming branches.",
+   "caption": "Yili in 1949 with comrades of the public-security system that took over Xi'an. From left: Shao Yan, Zhang Xiaode, Yili, Xie Chunfeng, Yitong."
+  },
+  {
+   "file": "p0118-f1.png",
+   "before": "The second-class student Hao Su vanished before he had finished his studies",
+   "alt": "Black-and-white portrait of a young couple, the woman on the left and the man in a cap on the right.",
+   "caption": "Hao Su and his wife Su Ping."
+  },
+  {
+   "file": "p0119-f1.png",
+   "before": "The Nationalist secret services were riven by internal strife. Within Juntong",
+   "alt": "Black-and-white portrait of a man in military uniform.",
+   "caption": "Mao Renfeng, the last director of the Juntong bureau."
+  },
+  {
+   "file": "p0121-f1.png",
+   "before": "Watching over the arteries of travel were the security system's checkpoints",
+   "alt": "Hand-drawn map of the Yan'an region, roads radiating from Yan'an with star symbols marking checkpoint stations and the Yellow River winding down the right side.",
+   "caption": "A distribution map of the traveler checkpoints set up by the Border Security, 1937 to 1947. Star symbols mark the stations along the roads out of Yan'an, with the Yellow River to the east."
+  },
+  {
+   "file": "p0121-f2.png",
+   "before": "The chief of the Sanshilipu checkpoint, Luo Guang, was careful and thorough",
+   "alt": "Three men standing close together indoors.",
+   "caption": "Cadres of the Laoshan checkpoint; at center is the station chief Bai Jinming."
+  },
+  {
+   "file": "p0122-f1.png",
+   "before": "At this the presiding judge read out a letter from Mao Zedong",
+   "alt": "Two pages of handwritten Chinese in vertical columns, with a signature at the lower right.",
+   "caption": "Mao Zedong's handwritten letter to Lei Jingtian, holding that merit was merit but a killer must pay with his life."
+  },
+  {
+   "file": "p0123-f1.png",
+   "before": "On October 8, 1937, the Border Region government issued Appointment Order No. 1",
+   "alt": "Black-and-white portrait of a young man in a cap and dark tunic.",
+   "caption": "Liu Huping, the first chief of the Yan'an municipal public security bureau."
+  },
+  {
+   "file": "p0123-f2.png",
+   "before": "Yan'an was a city. Everywhere else the office was",
+   "alt": "Black-and-white portrait of a balding man in a dark tunic.",
+   "caption": "Wang Zhuochao, who was chief of the Yan'an municipal public security bureau for ten years."
+  },
+  {
+   "file": "p0123-f3.png",
+   "before": "Yan'an was a city. Everywhere else the office was",
+   "alt": "Black-and-white portrait of a young man in a dark tunic.",
+   "caption": "Hao Su, chief of the Yan'an municipal public security bureau after Japan's surrender."
+  },
+  {
+   "file": "p0129-f1.png",
+   "before": "The Jin-Cha-Ji base area, east of Jin-Sui, lay in",
+   "alt": "Large group of men in military uniform posed in two rows before a building.",
+   "caption": "In March 1939 Xu Jianguo led a Central Social Affairs Department inspection team into the North China enemy rear, and on its core built the Social Affairs Department of the CCP Jin-Cha-Ji sub-bureau. Shown: leading cadres at the June 1939 political-work conference of the Jin-Cha-Ji Military Region; first from right is Xu Jianguo."
+  },
+  {
+   "file": "p0130-f1.png",
+   "before": "The Eighth Route Army office in Chongqing bore at the same time the secret task",
+   "alt": "Oval vignette portrait of a young man with a thin moustache, in a traditional high-collared gown.",
+   "caption": "Dong Biwu in his youth."
+  }
+ ],
+ "ch03": [
+  {
+   "file": "p0136-f1.png",
+   "before": "In August 1937 the Nationalists and Communists",
+   "alt": "Black-and-white group photograph of about ten men in long gowns and Republican-era dress standing in two rows before a wall hung with documents.",
+   "caption": "November 1937: Ye Jianying (back row, first from right), Bogu (back row, second from left), and Li Kenong (back row, first from left) with the staff of the Nanjing Eighth Route Army office; second from right in the back row is Tong Xiaopeng."
+  },
+  {
+   "file": "p0138-f1.png",
+   "before": "The head of the Shanxi office was a Special Branch veteran",
+   "alt": "Black-and-white head-and-shoulders portrait of a young man with swept-back hair wearing a Western suit and tie.",
+   "caption": "Wang Shiying."
+  },
+  {
+   "file": "p0146-f1.png",
+   "before": "It is rare to plant a man so deep",
+   "alt": "A strip of three separately framed black-and-white portraits of young men; the left and right in suits and ties, the center figure in uniform holding a pistol.",
+   "caption": "Chen Zhongjing, Xiong Xianghui, and Shen Jian (from left): during the war against Japan the three penetrated Hu Zongnan's command and supplied a steady stream of the Nationalists' confidential intelligence, earning them the honorific 'the Latter Three Heroes.'"
+  },
+  {
+   "file": "p0147-f1.png",
+   "before": "Xie Hegeng had joined the Party in Beiping",
+   "alt": "Black-and-white photograph of a man in a dark suit and a woman in a light full-length gown standing side by side outdoors before foliage.",
+   "caption": "Xie Hegeng and his wife Wang Ying."
+  },
+  {
+   "file": "p0148-f1.png",
+   "before": "When the war broke out, Shen Anna made her way to Wuhan",
+   "alt": "Black-and-white photograph of a formal assembly seated at a long table beneath a large framed portrait of Sun Yat-sen flanked by crossed Nationalist flags.",
+   "caption": "1939: Shen Anna served as a confidential stenographer in the confidential office of the Nationalist Central Party headquarters. Here Shen Anna (second from right on the platform) takes shorthand beside Chiang Kai-shek (second from left)."
+  },
+  {
+   "file": "p0149-f1.png",
+   "before": "Meeting the highest leaders of both parties at once",
+   "alt": "Faded black-and-white photograph of several people posed close together indoors, women in patterned dresses in the foreground.",
+   "caption": "Deng Yingchao with Shen Anna and her husband."
+  },
+  {
+   "file": "p0149-f2.png",
+   "before": "Shen Anna, a native of Taixing in Jiangsu",
+   "alt": "Black-and-white portrait of a smiling woman in a patterned qipao standing beside a man in a dark suit and tie.",
+   "caption": "Hua Mingzhi and Shen Anna, husband and wife."
+  },
+  {
+   "file": "p0150-f1.png",
+   "before": "When the Japanese seized the Northeast, its people",
+   "alt": "Black-and-white head-and-shoulders portrait of a man with short hair wearing a dark high-collared jacket.",
+   "caption": "Gao Chongmin."
+  },
+  {
+   "file": "p0152-f1.png",
+   "before": "Production takes a cycle, and supply could not stop for a single day",
+   "alt": "Black-and-white head-and-shoulders portrait of a young man with short hair wearing a dark jacket.",
+   "caption": "Nan Hanchen in his youth."
+  },
+  {
+   "file": "p0153-f1.png",
+   "before": "In great Shanghai, the richest were the Ningbo men",
+   "alt": "Black-and-white photograph of six men in light summer suits standing in a row outdoors.",
+   "caption": "1941: Lu Xuzhang with his Guangda Huaxing colleagues in Chongqing. From left: Yang Yanxiu, Tian Minggao, Zhang Ping, Lu Xuzhang, Wu Biren, and Lu Tingfang."
+  },
+  {
+   "file": "p0153-f2.png",
+   "before": "Lu Xuzhang was very good at making friends",
+   "alt": "Facsimile of a document sheet bearing columns of names written in Chinese brush script within a ruled border.",
+   "caption": "Signatures of the founders of the Central Pharmaceutical Plant set up by Lu Xuzhang, among them Chen Guofu and Bao Yugang."
+  },
+  {
+   "file": "p0162-f1.png",
+   "before": "Jiang Dingwen, a fellow townsman of Xuan Xiafu from Zhuji",
+   "alt": "Black-and-white photograph of four men posed together, two seated in front and two standing behind, in long gowns and Republican-era dress.",
+   "caption": "Summer 1937, engaged in united-front work in Xi'an. Front row from right: Xu Xiangqian and Xuan Xiafu; back row from right: Zuo Quan and Chen Geng."
+  }
+ ],
+ "ch04": [
+  {
+   "file": "p0172-f1.png",
+   "before": "There had been dual regimes in the civil-war years too, but then",
+   "alt": "Grainy black-and-white aerial photograph of Yan'an, with the tiered Yan'an pagoda rising on a hill at left and the town spreading along the river valley below.",
+   "caption": "The existence of a \"dual regime\" in Yan'an was a grave hidden danger in the Border Region's politics. This is Yan'an (photographed after the victory in the War of Resistance by Liang Ji, a cadre of the Yan'an Public Security Bureau)."
+  },
+  {
+   "file": "p0174-f1.png",
+   "before": "The Nationalist power nailed into Yan'an, the Border",
+   "alt": "Black-and-white bust portrait of a middle-aged man with a shaved head and round spectacles, wearing a dark buttoned gown.",
+   "caption": "Magistrate Ma Yuzhang, a man of double identity, was in fact a secret member of the Chinese Communist Party."
+  },
+  {
+   "file": "p0177-f1.png",
+   "before": "At this place that any strategist must contest, Xi Zhongxun",
+   "alt": "Black-and-white group photograph of five men standing outdoors; a man in a long dark scholar's gown and cap stands at the center, flanked by figures in padded jackets and caps.",
+   "caption": "Xi Zhongxun (first from the left), doing army-mobilization work, 1932."
+  },
+  {
+   "file": "p0179-f1.png",
+   "before": "Bu Lu's real name was Chen Bo. Born in Qionghai",
+   "alt": "Blurred black-and-white photograph of a young man in a broad-brimmed hat and dark jacket, crouching outdoors.",
+   "caption": "Bu Lu in Yan'an."
+  }
+ ],
+ "ch05": [
+  {
+   "file": "p0189-f1.png",
+   "before": "Liu Hekong and 18 others, officers and men",
+   "alt": "Faded black-and-white group photograph of six people posed outdoors, three standing behind three seated.",
+   "caption": "Liu Hekong (back row, center) in Dihua, Xinjiang, 1938. Huang Huoqing (front row, first from the left) and Wang Ming (second from the left)."
+  },
+  {
+   "file": "p0190-f1.png",
+   "before": "A young man of twenty-five could scarcely keep",
+   "alt": "Black-and-white photograph of a family group seated close together: a woman at left, a small child at center, and a man in round spectacles at right.",
+   "caption": "Liu Hekong in hiding in Shanghai with his wife, Qi Kejun, and their daughter, Helen."
+  },
+  {
+   "file": "p0191-f1.png",
+   "before": "In September 1940 the Party Center issued its notice",
+   "alt": "Black-and-white bust portrait of a man with a small mustache, wearing a dark buttoned tunic.",
+   "caption": "Liu Shaowen joined the Chinese Communist Party in 1925; he served as chief of the Central Committee's translation section, a Central Committee inspector, and secretary-general of the Central Northwest Bureau, among other posts."
+  },
+  {
+   "file": "p0192-f1.png",
+   "before": "Yan Baohang was a Northeasterner from Haicheng",
+   "alt": "Black-and-white bust portrait of a man wearing round spectacles and a bow tie.",
+   "caption": "After the Xi'an Incident, Yan Baohang took up secret intelligence work under Zhou Enlai's direction. Because his home in Chongqing so often sheltered revolutionary comrades, it was known as the \"Yan Family Inn.\""
+  },
+  {
+   "file": "p0194-f1.png",
+   "before": "In the Yan'an years Mao's investigation and study rose",
+   "alt": "Full-length black-and-white photograph of Mao Zedong standing in a long robe, one arm raised in gesture, a stool beside him.",
+   "caption": "Mao Zedong speaking during the Yan'an period."
+  },
+  {
+   "file": "p0198-f1.png",
+   "before": "Zhang Jiping, a graduate of the second Qilipu class",
+   "alt": "Black-and-white photograph of a man seated at a desk in an interior room.",
+   "caption": "Zhang Jiping in Ganzhou, 1949, when he was chief of the Ganzhou Public Security Bureau; he later became a deputy director of the Ministry of State Security."
+  },
+  {
+   "file": "p0199-f1.png",
+   "before": "Yang Hongchao taught primary school in the border village",
+   "alt": "Black-and-white bust portrait of a young man in a light jacket.",
+   "caption": "Yang Hongchao, sent by the Border Security to penetrate Zhongtong."
+  },
+  {
+   "file": "p0200-f1.png",
+   "before": "Cheng Yonghe got on well in Zhongtong, and when Xi'an",
+   "alt": "Black-and-white bust portrait of a man wearing a peaked military cap bearing a star.",
+   "caption": "Cheng Yonghe in Chongqing, 1950."
+  },
+  {
+   "file": "p0200-f2.png",
+   "before": "Besides controlling Zhongtong at Luochuan, the Border Security had",
+   "alt": "Black-and-white bust portrait of a young man with dark hair against a plain background.",
+   "caption": "In 1938 Mao Peichun penetrated Juntong; during the War of Liberation he relayed important intelligence on enemy troop movements and dispositions. In April 1948 he was killed in an enemy aircraft strafing."
+  },
+  {
+   "file": "p0201-f1.png",
+   "before": "The three-line deployment Zhou Enlai had arranged in 1937",
+   "alt": "Black-and-white photograph of two men standing side by side outdoors.",
+   "caption": "1938: Wu Defeng (right) with Wu Yunfu, director of the Eighth Route Army office in Xi'an."
+  },
+  {
+   "file": "p0204-f1.png",
+   "before": "The Eighth Route Army's forward general headquarters was in southeastern",
+   "alt": "Black-and-white photograph of a man and a woman standing full-length in front of a latticed screen.",
+   "caption": "September 1947: Lin Yi (left) and Teng Daiyuan, photographed at Yetao, Wu'an County, Hebei Province."
+  },
+  {
+   "file": "p0205-f1.png",
+   "before": "The 21-year-old Chen Huanzhang (Chen Tao) became an inside man",
+   "alt": "Faint black-and-white photograph of a man and a woman standing side by side indoors.",
+   "caption": "Chen Tao and his wife in hiding at Linfen, Shanxi, 1941."
+  },
+  {
+   "file": "p0208-f1.png",
+   "before": "Across North China were scattered no small number of able intelligence men",
+   "alt": "Black-and-white group photograph of about eight uniformed people standing beneath an ornate memorial archway topped by a sculpted bird.",
+   "caption": "Spring 1950: Jiang Tao with comrades at the Military Commission's Intelligence Department."
+  },
+  {
+   "file": "p0209-f1.png",
+   "before": "Xu Jianguo sent in the Northeasterner Li Shiyu",
+   "alt": "Black-and-white photograph of a family group on steps: a woman in a qipao, two men in suits, and a child at lower left.",
+   "caption": "Li Shiyu and his wife with their son Li Renchao; behind them is Li Chunfang (Li Shiyu's younger brother, a martyr)."
+  },
+  {
+   "file": "p0210-f1.png",
+   "before": "The members of this intelligence group were mostly sons of high",
+   "alt": "Black-and-white head-and-shoulders photograph of a young couple, a woman at left and a man at right.",
+   "caption": "Most members of the Northeast intelligence group were sons of high officials of the puppet Manchukuo regime; among them was Zhang Mengshi, son of the Manchukuo premier Zhang Jinghui. Shown here are Zhang Mengshi and his wife."
+  },
+  {
+   "file": "p0212-f1.png",
+   "before": "Alas, the action men's opponents were action men too. The chief of No. 76",
+   "alt": "Black-and-white photograph of a meeting: one man stands at left addressing several people seated around a table.",
+   "caption": "1942: Wang Jingwei (first from the right) and others hear Li Shiqun (standing) report on the \"rural pacification\" campaign. From left: Chu Minyi, Zhou Longxiang, Lin Baisheng."
+  },
+  {
+   "file": "p0214-f1.png",
+   "before": "The Old Master's real name was Zhang Weiyi",
+   "alt": "Black-and-white photograph of two men standing side by side in front of a bare tree.",
+   "caption": "1951: Zhang Weiyi (left) with Liu Shaowen at Cuimingzhuang, Beijing."
+  },
+  {
+   "file": "p0215-f1.png",
+   "before": "Guan Lu's original name was Hu Shoumei",
+   "alt": "Black-and-white oval vignette portrait of a smiling young woman.",
+   "caption": "The famous poet Guan Lu, who penetrated first the Wang Jingwei puppet secret service and then the Japanese secret service."
+  },
+  {
+   "file": "p0217-f1.png",
+   "before": "This intelligence line drew the notice of Japan's supreme",
+   "alt": "Black-and-white photograph of two men standing side by side, one in a light Western suit and tie, the other in a dark tunic.",
+   "caption": "Yuan Shu (right) with the Japanese intelligence chief Iwai Eiichi."
+  },
+  {
+   "file": "p0218-f1.png",
+   "before": "Sometimes Mao Zedong guided a man in person",
+   "alt": "Black-and-white bust portrait of a man in a suit and tie.",
+   "caption": "Hua Kezhi."
+  },
+  {
+   "file": "p0219-f1.png",
+   "before": "The others too had returned to China, and lay hidden in Chongqing",
+   "alt": "Black-and-white three-quarter-view bust portrait of a young man.",
+   "caption": "Li Zhengwen, in hiding at Chongqing after his return from the Soviet Union."
+  }
+ ],
+ "ch06": [
+  {
+   "file": "p0226-f1.png",
+   "before": "Busy as he was in Shanghai, Sorge naturally needed",
+   "alt": "A faded black-and-white photograph of a tall standing statue of a man on a plinth, with a wreath laid at its base.",
+   "caption": "The Sorge memorial in Moscow."
+  },
+  {
+   "file": "p0249-f1.png",
+   "before": "Achievement proves ability, and ability wins respect. After",
+   "alt": "A black-and-white group photograph of roughly two dozen men in winter caps and padded coats, seated and standing in rows before a building whose signboard reads \"WHITLEY HALL\".",
+   "caption": "July 1943: the US Army Observation Group flies in to Yan'an. Shown here, the Observation Group with Eighth Route Army weather staff, photographed together at Yan'an."
+  },
+  {
+   "file": "p0251-f1.png",
+   "before": "The Japan-China Struggle League formed of",
+   "alt": "A faded black-and-white photograph of three men standing outdoors; the man on the right wears a dark Western suit, the two others lighter clothing.",
+   "caption": "Left: Shanghai, 1941 — Nakanishi Ko (at right) with two associates of his intelligence circle. The names of the other two men are blurred in the scan; the surname Ozaki is legible for one."
+  },
+  {
+   "file": "p0251-f2.png",
+   "before": "Wang Xuewen had gone to Japan at fifteen",
+   "alt": "A black-and-white photograph of an elderly balding man in a light-colored jacket seated outdoors, hands resting in his lap.",
+   "caption": "Center: Wang Xuewen, who in the 1930s made contact with Nakanishi Ko and his circle, photographed in old age."
+  },
+  {
+   "file": "p0251-f3.png",
+   "before": "Zheng Wendao was a native of Zhongshan",
+   "alt": "A black-and-white head-and-shoulders portrait of a young man with combed-back hair and round eyeglasses, wearing a plain buttoned jacket.",
+   "caption": "Right: the Communist Zheng Wendao, liaison officer to Nakanishi Ko's cell."
+  }
+ ],
+ "ch07": [
+  {
+   "file": "p0257-f1.png",
+   "before": "Skull and the Juntong action team each had",
+   "alt": "Black-and-white group photograph of six men in military caps and tunics posed close together outdoors.",
+   "caption": "1937: Yang Qiqing (second from right) with Deng Xiaoping (second from left), Yang Shangkun (third from left), Lu Dingyi (fourth from left), Luo Ronghuan (first from right), and others, at the Eighth Route Army forward headquarters."
+  },
+  {
+   "file": "p0259-f1.png",
+   "before": "Collaborators of every stripe became a",
+   "alt": "Black-and-white group portrait of twelve men, six standing behind six seated, all in dark tunics.",
+   "caption": "From September 29 to November 6, 1938, the Sixth Plenary Session of the Sixth CCP Central Committee met in Yan'an; afterward the whole Party stepped up its anti-traitor security work. The presidium members shown here are, front row from left: Kang Sheng, Mao Zedong, Wang Jiaxiang, Zhu De, Xiang Ying, Wang Ming; back row from left: Chen Yun, Bo Gu, Peng Dehuai, Liu Shaoqi, Zhou Enlai, Zhang Wentian."
+  },
+  {
+   "file": "p0261-f1.png",
+   "before": "The Border Region's anti-traitor work also took care",
+   "alt": "Black-and-white photograph of four barefoot village boys standing on a dirt path, several carrying satchels and holding spears.",
+   "caption": "Members of the children's corps checking travelers' road passes, red-tasseled spears in hand."
+  },
+  {
+   "file": "p0263-f1.png",
+   "before": "To watch and control the agents' communications",
+   "alt": "Black-and-white portrait of a young woman with bobbed hair in a high-collared jacket.",
+   "caption": "Zhu Guifang, a member of the Border Security's mail-and-telegraph inspection station, who later became its head."
+  },
+  {
+   "file": "p0268-f1.png",
+   "before": "Zhang Luping's brother-in-law was a Sichuan Army",
+   "alt": "Black-and-white photograph of a smiling young woman in a light dress standing before a wall covered with columns of characters.",
+   "caption": "The secret Red Party branch led by Zhang Luping, operating at the nerve center of Juntong."
+  },
+  {
+   "file": "p0269-f1.png",
+   "before": "If even renegades could be used, what taboos were left",
+   "alt": "Black-and-white photograph of two men standing side by side indoors.",
+   "caption": "Mu Fengyun (left) and the author of this book."
+  },
+  {
+   "file": "p0270-f1.png",
+   "before": "Wang Chaobei, then setting up a secret radio station",
+   "alt": "Black-and-white group photograph of about thirty men, women, and children posed in rows, with small children seated in front.",
+   "caption": "After the liberation of Xi'an in 1949: Wang Chaobei (front row, fourth from right), chief of the Xi'an intelligence office, and deputy chief Li Maotang (front row, third from right), in a group photo with some members of the office."
+  },
+  {
+   "file": "p0272-f1.png",
+   "before": "The Social Affairs Department secretary Wang Chu kept",
+   "alt": "Black-and-white photograph of two men in pale tunics standing outdoors before foliage.",
+   "caption": "Wang Jinxiang (right) of the First Bureau of the Central Social Affairs Department, and public-order section chief Chen Long (left), in Yan'an."
+  },
+  {
+   "file": "p0273-f1.png",
+   "before": "Xi Zhongxun, secretary of the Guanzhong prefectural committee, and Qu Jixian",
+   "alt": "Black-and-white photograph of four people posed close together against a draped backdrop.",
+   "caption": "August 1945: the heads of the Border Security's field teams. From the right: Qu Jixian, head of the Guanzhong field team; Ge Shen and Yu Guang, heads of the Sanbian field team; and Ouyang Tian, head of the Longdong field team."
+  },
+  {
+   "file": "p0274-f1.png",
+   "before": "Ren Yuan had joined the revolution in 1936",
+   "alt": "Black-and-white photograph of two people seated together, an older person on the right and a younger person on the left.",
+   "caption": "Ren Yuan (right) being interviewed by the author of this book."
+  },
+  {
+   "file": "p0276-f1.png",
+   "before": "How to tell contradictions of different natures apart",
+   "alt": "Black-and-white group photograph of seven cadres, including a small child seated among them, posed outdoors.",
+   "caption": "Border Security cadre Yu Sang (front row, second from left) holding a pumpkin carved with the words \"Resist Japan to the End,\" together with fellow cadres Shi Nuofu (front row, first from left), Liu Feng (front row, second from right), Yu Longshan (front row, first from right), Yu Longjiang (back row, first from right), and Zhou Min (back row, second from right)."
+  },
+  {
+   "file": "p0279-f1.png",
+   "before": "Having disposed of the renegade, Zhao Qufei went further",
+   "alt": "Grainy black-and-white outdoor photograph of a man reclining on a bare hillside.",
+   "caption": "Zhao Qufei, head of the Border Security's Fu-Gan (Fuxian–Ganquan) station, photographed while working in Ganquan and Fu county."
+  }
+ ],
+ "ch08": [
+  {
+   "file": "p0283-f1.png",
+   "before": "The two parties fought over power and over the",
+   "alt": "Black-and-white studio portrait of a middle-aged man with short combed-back hair, in a dark buttoned Chinese jacket, facing slightly to one side.",
+   "caption": "Wu Nanshan."
+  },
+  {
+   "file": "p0284-f1.png",
+   "before": "That evening Ma Wenrui, Li Fushan, and Lu Weigong",
+   "alt": "Black-and-white portrait of a young man wearing a soft military cap and a dark padded uniform, looking at the camera.",
+   "caption": "Li Fushan, head of the security section of the Longdong sub-district."
+  },
+  {
+   "file": "p0285-f1.png",
+   "before": "Around April 1941, Zhao Cangbi, head of the Border",
+   "alt": "Black-and-white portrait of a young man with dark hair in a dark high-collared jacket, facing the camera.",
+   "caption": "In 1941 Zhao Cangbi, leader of the Border Security's plainclothes squad, was transferred to Longdong to “assist with the work.”"
+  },
+  {
+   "file": "p0289-f1.png",
+   "before": "Zhou Xing at once had Yi Li, of the Border Security",
+   "alt": "Facsimile of a handwritten letter in cursive Chinese, written in vertical columns from right to left, with a signature at the lower left.",
+   "caption": "A letter from Zhou Xing, head of the Border Security Office, to Bu Lu on continuing the investigation of the case."
+  },
+  {
+   "file": "p0291-f1.png",
+   "before": "By now Bu Lu, with Qi Sanyi's help, had spotted and arrested",
+   "alt": "Black-and-white photograph of two men standing side by side indoors: an older, white-haired man on the left in a dark gown, and a younger man on the right.",
+   "caption": "Wang Jun (left) with the author of this book."
+  },
+  {
+   "file": "p0292-f1.png",
+   "before": "Bu Lu placed Qi Sanyi at the primary school near the New Market",
+   "alt": "Black-and-white street scene of a market: a crowd of people and a pack animal passing beneath a large arched gateway, with shopfronts lining the street on either side.",
+   "caption": "The New Market in Yan'an."
+  },
+  {
+   "file": "p0293-f1.png",
+   "before": "Before long another liaison, Li Chunmao, surfaced",
+   "alt": "Black-and-white studio portrait of a man with short hair in a dark buttoned jacket, facing the camera.",
+   "caption": "Li Chunmao."
+  },
+  {
+   "file": "p0297-f1.png",
+   "before": "In November 1942, Zhang Zhigang fled again",
+   "alt": "Facsimile of a handwritten letter in cursive Chinese, framed by a dark border, written in vertical columns from right to left.",
+   "caption": "A 1942 letter from Chen Long, chief of the public-order section of the Central Social Affairs Department, to Bu Lu concerning the flight of the “Hanzhong training class” agent Zhang Zhigang."
+  }
+ ],
+ "ch09": [
+  {
+   "file": "p0307-f1.png",
+   "before": "at the opening of the Central Party School, Mao Zedong",
+   "alt": "Grainy black-and-white photograph of a large single-story auditorium building with a columned facade; a few small figures stand in front of it.",
+   "caption": "February 1942: Mao Zedong delivered his address \"Rectify the Party's Style of Work\" at the opening ceremony of the Central Party School in Yan'an. Shown here is the auditorium of the Central Party School."
+  },
+  {
+   "file": "p0310-f1.png",
+   "before": "Lin Lifu had been a",
+   "alt": "Black-and-white head-and-shoulders portrait of a man in round wire-rimmed spectacles wearing a dark jacket.",
+   "caption": "Lin Lifu in 1949."
+  },
+  {
+   "file": "p0314-f1.png",
+   "before": "The Wang Zunji case caused an even greater stir",
+   "alt": "Black-and-white full-length photograph of a young woman in a long qipao standing beside a wooden railing.",
+   "caption": "Wang Zunji, one of the \"four great agents.\""
+  },
+  {
+   "file": "p0320-f1.png",
+   "before": "The day after Kang Sheng's speech, every organ in Yan'an began",
+   "alt": "Faded, grainy black-and-white photograph of a uniformed figure standing behind a table strewn with large sheets of paper covered in writing.",
+   "caption": "During the Rectification Movement, Kang Sheng called for the \"rescue of the fallen,\" and every organ and unit in Yan'an threw itself into a roaring \"Rescue Campaign.\""
+  },
+  {
+   "file": "p0323-f1.png",
+   "before": "The Social Affairs Department's first catch was Yu Bingran",
+   "alt": "Black-and-white photograph of a man in a dark gown standing outdoors before a low wall.",
+   "caption": "Yu Bingran in Chongqing during the War of Resistance."
+  },
+  {
+   "file": "p0325-f1.png",
+   "before": "began on July 15, 1943; on August 15 the Party Center",
+   "alt": "Facsimile of a handwritten manuscript in cursive Chinese: columns of brush characters with an added heading line and correction marks.",
+   "caption": "October 1943: Mao Zedong's written instruction, \"Not one to be killed, and most not to be arrested,\" issued to prevent wrongful killings."
+  },
+  {
+   "file": "p0327-f1.png",
+   "before": "Kang Sheng summoned Zhou Xing and Shi Zhe",
+   "alt": "Black-and-white head-and-shoulders portrait of a young man in a military uniform with a collar insignia.",
+   "caption": "Shi Zhe, photographed in Moscow. Around the time of the Yan'an \"Rescue Campaign,\" Shi Zhe served as head of the First Bureau (Social Affairs Bureau) of the Border Security."
+  },
+  {
+   "file": "p0329-f1.png",
+   "before": "The Central Social Affairs Department issued a document",
+   "alt": "Black-and-white head-and-shoulders portrait of a middle-aged man in a military uniform and tie.",
+   "caption": "Zheng Jiemin, who briefly served as head of the Juntong bureau."
+  },
+  {
+   "file": "p0330-f1.png",
+   "before": "On February 17 Wang Shiwei published his essay",
+   "alt": "Black-and-white close-up portrait of a young man with thick dark hair, facing the camera.",
+   "caption": "Wang Shiwei."
+  },
+  {
+   "file": "p0332-f1.png",
+   "before": "with Yuan Jing holding the pen, they wrote a qinqiang",
+   "alt": "Black-and-white portrait of a young woman wearing a soft cap, her head slightly turned.",
+   "caption": "Yuan Jing."
+  },
+  {
+   "file": "p0333-f1.png",
+   "before": "was a hit at its first performance, and it even",
+   "alt": "Black-and-white photograph of an elderly woman in a white cloth head-wrap seated at a table, a small figurine set before her.",
+   "caption": "Feng Zhiqin's story was adapted into the pingju opera \"Liu Qiao'er\" and spread far and wide; sixty years on, she would often gaze at the porcelain figurine of Liu Qiao'er that Xin Fengxia had given her and recall those bygone days."
+  },
+  {
+   "file": "p0334-f1.png",
+   "before": "the first to be let out was Li Rui",
+   "alt": "Black-and-white photograph of two men seated together indoors, one in a dark jacket.",
+   "caption": "Left: Li Rui with the author of this book."
+  },
+  {
+   "file": "p0334-f2.png",
+   "before": "Mindful of the coerce-confess-believe errors of the earlier",
+   "alt": "Black-and-white photograph of two men standing side by side indoors.",
+   "caption": "Right: Hu Sha with the author of this book."
+  },
+  {
+   "file": "p0337-f1.png",
+   "before": "The Congress was set for April 23, and the vetting of credentials",
+   "alt": "Black-and-white photograph looking down over a large crowd gathered on open ground before a long, low building with many windows.",
+   "caption": "April 1945: the Communist Party's Seventh National Congress convened in Yan'an. Before it opened, the Center set up a special body to review the delegates' credentials, and many who had been persecuted passed the review and were able to attend. Shown here are Seventh Congress delegates arriving at the venue."
+  }
+ ],
+ "ch10": [
+  {
+   "file": "p0345-f1.png",
+   "before": "Bu Lu, chief of the Suide sub-office, was a born",
+   "alt": "Black-and-white photograph of two Chinese men in plain dark tunics standing side by side outdoors against a light background.",
+   "caption": "1944: Bu Lu (right), chief of the Suide Security Sub-office, directing Miao Leshan (left), who lay hidden inside the Nationalist secret-service organ at Yulin."
+  },
+  {
+   "file": "p0346-f1.png",
+   "before": "In the autumn of 1945 Li Maotang was warmly received",
+   "alt": "Dark, faded black-and-white photograph of a man seated at a desk; the face shows as a light patch and the surroundings are murky.",
+   "caption": "Li Maotang, a senior Zhongtong agent, personally approved by Mao Zedong, becomes a special Party member of the Chinese Communist Party."
+  },
+  {
+   "file": "p0349-f1.png",
+   "before": "On August 28, Mao Zedong, Zhou Enlai, and Wang Ruofei",
+   "alt": "Black-and-white photograph of seven men in coats and caps standing in a row in front of an aircraft on an airfield.",
+   "caption": "August 1945: Mao Zedong (second from left) photographed at the Yan'an airfield before leaving for the Chongqing negotiations; ample intelligence support left Mao fully assured. From left: Zhang Zhizhong, Mao Zedong, Hurley, Zhou Enlai, Wang Ruofei, Hu Qiaomu, Chen Long."
+  },
+  {
+   "file": "p0350-f1.png",
+   "before": "The reception office made a point of inviting the two out to Dufuchuan",
+   "alt": "Black-and-white portrait of a young man wearing a soft cap, facing the camera.",
+   "caption": "1945: Yang Huanglin, one of the Border Security reconnaissance work-team cadres who took part in secretly copying the liaison staff officers' codebook (shown at left in the original pairing with Huang Bin)."
+  },
+  {
+   "file": "p0350-f2.png",
+   "before": "It helped to have senior leaders in on it. Eighth Route Army",
+   "alt": "Black-and-white portrait of a young man wearing a soft cap, facing the camera.",
+   "caption": "1945: Huang Bin, one of the Border Security reconnaissance work-team cadres who took part in secretly copying the liaison staff officers' codebook (shown at right in the original pairing with Yang Huanglin)."
+  },
+  {
+   "file": "p0355-f1.png",
+   "before": "The Party Center sent the Social Affairs Department cadre Li Shiying",
+   "alt": "Black-and-white head-and-shoulders portrait of a man with short hair, facing the camera.",
+   "caption": "Li Shiying."
+  },
+  {
+   "file": "p0357-f1.png",
+   "before": "On the eve of victory, when Fu Zuoyi's forces prepared",
+   "alt": "Black-and-white head-and-shoulders portrait of a man in a jacket and tie, facing the camera.",
+   "caption": "Yan Youwen (left of the pair), who made a special contribution in the Beiping-Tianjin campaign to the peaceful liberation of Beiping and the peaceful Suiyuan uprising."
+  },
+  {
+   "file": "p0357-f2.png",
+   "before": "Cautious of word and diligent in his work within the",
+   "alt": "Black-and-white head-and-shoulders portrait of a man in a jacket and tie, facing the camera.",
+   "caption": "Wang Yu (right of the pair), the underground Party member responsible for keeping contact with Yan Youwen."
+  },
+  {
+   "file": "p0358-f1.png",
+   "before": "In May 1945 the Nationalists held the First Plenum of their Sixth Congress",
+   "alt": "Faded black-and-white facsimile of a handwritten document, its columns of Chinese characters running top to bottom, right to left; the writing is faint and mostly illegible.",
+   "caption": "A manuscript page in Shen Anna's own hand."
+  },
+  {
+   "file": "p0366-f1.png",
+   "before": "Having taken the Communist capital at a stroke, Chiang Kai-shek",
+   "alt": "Black-and-white photograph of a crowd of men in uniform gathered in front of a cave-arch gateway and a small tile-roofed structure.",
+   "caption": "August 1947: Chiang Kai-shek organized a group of reporters to tour Yan'an, boasting that he would \"wipe out the Communist Party within three months.\""
+  },
+  {
+   "file": "p0367-f1.png",
+   "before": "The hardest hit in the flight were the women cadres",
+   "alt": "Black-and-white photograph of a man and an older woman seated indoors side by side.",
+   "caption": "Luo Fei (right) with the author of this book."
+  },
+  {
+   "file": "p0371-f1.png",
+   "before": "In the end all the problems came back to the leadership",
+   "alt": "Black-and-white photograph of a wooded hillside dotted with cave-dwellings, with a row of arched structures across the lower part of the slope.",
+   "caption": "Yanjiaqu in Yihe town, Suide county, where the Border Security was quartered from October 1947 to April 1948. During this time, following the spirit of the Northwest Bureau's Yihe town conference, the Border Security examined the shortcomings and errors of more than ten years of its leadership and work."
+  },
+  {
+   "file": "p0373-f1.png",
+   "before": "The Communists, for their part, harassed from outside the town",
+   "alt": "Black-and-white photograph of two people standing before a wall map, one of them reaching up to point at it.",
+   "caption": "Xi Zhongxun at the Northwest Field Army command headquarters."
+  },
+  {
+   "file": "p0374-f1.png",
+   "before": "The Yan'an police bureau quickly resumed work",
+   "alt": "Grainy black-and-white photograph of a building entrance with a horizontal signboard above the doorway and columns flanking it.",
+   "caption": "The Yan'an Municipal Public Security Bureau."
+  },
+  {
+   "file": "p0376-f1.png",
+   "before": "War is the hour that gives birth to heroes",
+   "alt": "Black-and-white photograph of a grove of slender trees, hazy and softly lit.",
+   "caption": "Where the Liu Wu intelligence group was martyred: a small grove outside Yuxiang Gate, Xi'an."
+  },
+  {
+   "file": "p0379-f1.png",
+   "before": "On April 22, 1948, the Communists recovered Yan'an",
+   "alt": "Black-and-white photograph of a large crowd filling a street beneath banners, with an arched gateway and a peaked-roof gate structure in the background.",
+   "caption": "April 22, 1948: the Communists recover Yan'an. The pointed-roof structure in the photograph is the Border Security's gate."
+  }
+ ],
+ "ch11": [
+  {
+   "file": "p0385-f1.png",
+   "before": "This game of cat and mouse was always one side",
+   "alt": "Faded, grainy black-and-white photograph of a line of people walking across open country.",
+   "caption": "In 1947, on the march across northern Shaanxi, Mao Zedong (front row, first from the right) knew the movements of the Nationalist army as clearly as the lines on his own palm, through intelligence."
+  },
+  {
+   "file": "p0386-f1.png",
+   "before": "Tong Xiaopeng brought the call signs of the Party organizations",
+   "alt": "Black-and-white portrait of a young man in a dark buttoned tunic.",
+   "caption": "Tong Xiaopeng."
+  },
+  {
+   "file": "p0390-f1.png",
+   "before": "Lü Chu returned to Xi'an in June 1947",
+   "alt": "Faded black-and-white portrait of a young man with dark, swept-back hair.",
+   "caption": "Lü Chu."
+  },
+  {
+   "file": "p0391-f1.png",
+   "before": "In the Fumei campaign, where the enemy was many and our side few",
+   "alt": "Two grainy wartime photographs side by side: at left, figures by an arched gateway; at right, soldiers advancing up a wooded slope behind a raised flag.",
+   "caption": "Left: Nationalist defenders raise their hands in surrender in the Fumei campaign. Right: in the Qinling campaign, the 18th Corps of the First Field Army plants the red flag on the Qinling Mountains."
+  },
+  {
+   "file": "p0392-f1.png",
+   "before": "Nanjing and Shanghai were the heartland of the Nationalists",
+   "alt": "Faded black-and-white photograph of two men in dark tunics standing before an ornate gate.",
+   "caption": "In 1954, the former secretary of the Communists' Shanghai Central Bureau Liu Xiao and its member Zhang Zhiyi, in Beijing."
+  },
+  {
+   "file": "p0394-f1.png",
+   "before": "More than a hundred people were taken under escort to Nanjing for trial",
+   "alt": "Six black-and-white portrait photographs arranged in two rows of three, each showing a man in a dark tunic or uniform.",
+   "caption": "In 1947 five comrades—Ding Xing, Xie Shiyan, Zhao Liangzhang, Zhu Jianguo, and Shi Chun—were arrested one after another, and the following year all five were cruelly killed. After the arrest of these 'Five Martyrs of North China,' the Communist intelligence cadre Zhao Wei (bottom row, first from the right), planted inside the enemy, not only escaped the tiger's mouth by his wits but also reported the enemy's 'Northeast Defense Operational Plan,' for which the Central Intelligence Department commended him by telegram."
+  },
+  {
+   "file": "p0396-f1.png",
+   "before": "Luckily the enemy were only bluffing, and Liu Guangguo",
+   "alt": "Two black-and-white photographs: at left, a portrait of a young man in a buttoned tunic; at right, two men standing outdoors beneath trees.",
+   "caption": "Ganling, head of the Ganling intelligence group (left photo), and Liu Guangguo, an important member of the group (right photo, at right)."
+  },
+  {
+   "file": "p0398-f1.png",
+   "before": "The Huaihai campaign was the hardest of all",
+   "alt": "Two black-and-white portrait photographs of men in military uniform.",
+   "caption": "Zhang Kexia (left) and He Jifeng, who lay hidden in the enemy camp for years."
+  },
+  {
+   "file": "p0399-f1.png",
+   "before": "Old Chiang drove men by cunning; Zhu De saved men by feeling and loyalty",
+   "alt": "Grainy black-and-white group photograph of six officers in winter uniforms.",
+   "caption": "Commanders of the 50th Army, formed after the Changchun revolt; from the left: 148th Division commander Bai Zhaoxue, army political commissar Xu Wenlie, army commander Zeng Zesheng, 149th Division commander Long Yao, army propaganda chief Liu Huizhi, and 150th Division commander Li Zuo."
+  },
+  {
+   "file": "p0401-f1.png",
+   "before": "The Ministry of National Defense's Reserve Officers Bureau",
+   "alt": "Faded black-and-white photograph of a man seated outdoors in a light tunic, with a uniformed officer standing behind him among foliage.",
+   "caption": "Chiang Kai-shek with Jia Yibin at Mount Lu."
+  },
+  {
+   "file": "p0402-f1.png",
+   "before": "The Juntong major general Zhou Gao would go alone into the lion's den",
+   "alt": "Faded black-and-white photograph of a man in a light gown seated outdoors, with other figures around him.",
+   "caption": "Xu Chuguang."
+  },
+  {
+   "file": "p0403-f1.png",
+   "before": "A Juntong major general too gave his life for the Liberation Army's turning",
+   "alt": "Black-and-white portrait of a man in a military uniform.",
+   "caption": "Zhou Gao, a secret Communist intelligence agent and Juntong major general."
+  },
+  {
+   "file": "p0405-f1.png",
+   "before": "The woman Party member Xiao Minghua, in her last testament",
+   "alt": "Black-and-white portrait of a woman wearing round glasses and a high-collared dress.",
+   "caption": "On November 8, 1950, Xiao Minghua was executed in Taiwan."
+  },
+  {
+   "file": "p0405-f2.png",
+   "before": "On June 10, 1950, Wu Shi was executed at Machangding in Taipei",
+   "alt": "Black-and-white photograph of a man in a light, open-necked shirt standing before uniformed guards, apparently a prisoner.",
+   "caption": "Nie Xi, executed in Taiwan."
+  },
+  {
+   "file": "p0407-f1.png",
+   "before": "In February 1947 Zhou Enlai raised the mass movement in the Nationalist areas",
+   "alt": "Black-and-white photograph of a large crowd of student demonstrators before a monumental gate, carrying a banner.",
+   "caption": "In May 1947, students in Nanjing, Shanghai, Beiping, and elsewhere held a great 'Anti-Hunger, Anti-Civil-War, Anti-Persecution' demonstration."
+  }
+ ],
+ "ch12": [
+  {
+   "file": "p0413-f1.png",
+   "before": "Beiping was a complicated place, and the",
+   "alt": "Black-and-white group photograph of four people in Mao-style tunics standing before a building: a woman at far left and three men to her right.",
+   "caption": "Tan Zhengwen, Chen Yangshan, Chen Long, and Jiang Peng, photographed together in 1949. Second from left, Tan Zhengwen, who later served as director of the Jin-Sui Public Security General Bureau, deputy head of the Central Social Affairs Department, and deputy chief procurator of the Supreme People's Procuratorate of the People's Republic of China. Third from left, Chen Yangshan, who later served as deputy director of the Jin-Sui Public Security General Bureau and deputy chief procurator of the Supreme People's Procuratorate. Fourth from left, Chen Long, who later served as chief of the public-order section of the Central Social Affairs Department and deputy minister of public security of the People's Republic. First from left, Tan Zhengwen's wife Jiang Peng, who later served as a section chief of the Beijing Public Security Bureau."
+  },
+  {
+   "file": "p0414-f1.png",
+   "before": "Luo Ruiqing, head of the Military Commission's Public",
+   "alt": "Grainy black-and-white photograph of a man in a high-collared tunic seated at a table behind a microphone, apparently speaking.",
+   "caption": "Luo Ruiqing."
+  },
+  {
+   "file": "p0416-f1.png",
+   "before": "Transferred to Nanjing, the investigation expert Zhao Cangbi",
+   "alt": "Three separate black-and-white portraits side by side: at left a young man in a cap and belted uniform standing full-length; in the middle a bareheaded older man in a dark tunic; at right a man in a peaked military cap.",
+   "caption": "The first police chiefs of some cities after the founding of the new China. From left: Tan Zhengwen, chief of the Beiping Public Security Bureau; Xu Jianguo, chief of the Tianjin Public Security Bureau; and Zhou Xing, chief of the Nanjing Public Security Bureau."
+  },
+  {
+   "file": "p0418-f1.png",
+   "before": "The Qinghai station took the initiative in establishing",
+   "alt": "Black-and-white photograph of five people in long coats and tunics standing in a row before a temple wall.",
+   "caption": "September 1950: Yu Kai, chief of the Qinghai intelligence station (fourth from left); the cadre Wang Shoucai, an old Red Army veteran and Tibetan interpreter (first from right); and Ji Jinmei, chief of protocol of the Panchen Lama's establishment (second from left), among others, photographed at the Great Buddha Temple in Xining."
+  },
+  {
+   "file": "p0419-f1.png",
+   "before": "With Tibet and Xinjiang peacefully liberated",
+   "alt": "Black-and-white photograph of a group of men in caps and a woman standing among bare trees before a wall.",
+   "caption": "Autumn 1951: some cadres of the South Xinjiang intelligence station, photographed in front of their Kashgar office. From left: station chief Yan Fu, Huang Youqun, Ma Fuxue (Uyghur interpreter), and deputy chief Fang Tianjie."
+  },
+  {
+   "file": "p0419-f2.png",
+   "before": "the South Xinjiang station and the",
+   "alt": "Black-and-white full-length photograph of a person in a heavy padded jacket and cap standing outdoors against a pale background.",
+   "caption": "Zheng Lian, a cadre of the South Xinjiang intelligence station."
+  },
+  {
+   "file": "p0424-f1.png",
+   "before": "Bu Lu's real name was Chen Bo. Because he was a Cantonese",
+   "alt": "Black-and-white photograph of two men standing side by side; the man on the right wears glasses. Raised arms and banners are visible behind them.",
+   "caption": "1950: Chen Bo (Bu Lu), before his arrest, photographed with Chen Kun (right)."
+  },
+  {
+   "file": "p0425-f1.png",
+   "before": "Lin Biao, Jiang Qing, Xie Fuzhi, and others openly",
+   "alt": "Black-and-white photograph of three people standing in a row behind an older man seated in front of them.",
+   "caption": "Photographed with Yan Youmin in 2000. Standing at the back, from left: the author of this book, Li Haiwen, and Wang Yanling."
+  }
+ ],
+ "_plates": [
+  {
+   "file": "p0005-f1.png",
+   "alt": "Black-and-white portrait of a middle-aged man with swept-back hair in a dark tunic, facing the camera.",
+   "caption": "Zhou Enlai, who served as director of the Central Special Committee and long directed the CCP's covert-front work."
+  },
+  {
+   "file": "p0005-f2.png",
+   "alt": "Black-and-white photo of a smiling young man in round spectacles and a soft military cap.",
+   "caption": "Chen Geng, who served as chief of the Intelligence Section of the Central Special Branch and later as a full general of the People's Liberation Army."
+  },
+  {
+   "file": "p0006-f1.png",
+   "alt": "Black-and-white photo of a stout man in glasses and a padded jacket standing, hand on hip, before a latticed cave-dwelling window.",
+   "caption": "Li Kenong before a cave dwelling in Yan'an. He served as a member of the Central Special Branch, as deputy director and then director of the Central Social Affairs Department, and as director of the Central Intelligence Department."
+  },
+  {
+   "file": "p0006-f2.png",
+   "alt": "Black-and-white group photo of four men in suits and ties standing outdoors before foliage.",
+   "caption": "Pan Hannian, Liu Shaowen, Wu Kejian and Liu Renshou, photographed together in 1949. From left: Liu Shaowen, who served as intelligence chief of the Southern Bureau and of the Military Commission; Pan Hannian, who headed the Central Special Branch and served as deputy director of the Central Social Affairs Department; Liu Renshou, who served as a secret intelligence agent and adviser to the United Front Work Department of the Shanghai Municipal Committee; and Wu Kejian, who headed intelligence for the CCP Nanjing Bureau and served as director of the United Front Work Department of the East China Bureau."
+  },
+  {
+   "file": "p0007-f1.png",
+   "alt": "Black-and-white group photo of four men in Communist-army uniforms and caps standing in a row in front of a building.",
+   "caption": "Luo Ruiqing (second from left), Yang Qiqing (third from left), Wu Lie and Zou Yan, photographed together in 1949. Luo Ruiqing served as director of the Security Bureau of the First Front Army and as Minister of Public Security of the People's Republic of China. Yang Qiqing served as chief of the Anti-Traitor Department of the Eighth Route Army's forward headquarters and as deputy Minister of Public Security. Wu Lie served as commander of the Central Guard Regiment and commander of the Beijing Garrison. Zou Yan served as political commissar of the Security Regiment of the Shaanxi-Gansu-Ningxia Border Region and as deputy political commissar of the Shenyang Military Region."
+  },
+  {
+   "file": "p0007-f2.png",
+   "alt": "Black-and-white photo of a young man in a soft cap and army tunic, turned and looking up to the side.",
+   "caption": "Zeng Xisheng, who took up intelligence work as early as the Red Army period and decrypted a great volume of Nationalist military intelligence."
+  },
+  {
+   "file": "p0008-f1.png",
+   "alt": "Grainy black-and-white photo of a man in a light tunic standing, hand on hip, before a tree.",
+   "caption": "Wu Defeng in 1938 at the secret intelligence station's base in Caojia Lane, Xi'an. He served as director of the Central Liaison Bureau and as chief of the Xi'an intelligence station."
+  },
+  {
+   "file": "p0008-f2.png",
+   "alt": "Black-and-white photo of a man in a long gown and skullcap standing with a cane beside a brick gateway with a latticed window.",
+   "caption": "Wang Chaobei, who carried out intelligence work in Xi'an under the cover of a merchant's identity."
+  },
+  {
+   "file": "p0009-f1.png",
+   "alt": "Black-and-white photo of two men in army uniforms and caps standing before a stone-stepped doorway.",
+   "caption": "Zhou Xing (right), director of the Border Region Security Office, with his deputy Du Liqing [Xu Jianguo], in Yan'an."
+  },
+  {
+   "file": "p0009-f2.png",
+   "alt": "Black-and-white portrait of a man in rimless glasses and a collarless jacket, looking slightly to the side.",
+   "caption": "The \"Red Sherlock Holmes,\" Bu Lu, in Yan'an."
+  },
+  {
+   "file": "p0010-f1.png",
+   "alt": "Black-and-white photo of a man in a suit seated cross-legged on a rattan chair in a plant-filled room.",
+   "caption": "Qian Zhuangfei, who in 1929 penetrated the entourage of Xu Enzeng, head of the Nationalist Zhongtong, serving as his secretary; one of the \"Three Heroes of Longtan.\""
+  },
+  {
+   "file": "p0010-f2.png",
+   "alt": "Black-and-white photo of a smiling young man in an open-collared shirt holding up a revolver.",
+   "caption": "Xiong Xianghui, who in 1941 penetrated Hu Zongnan's Nationalist command, serving as Hu Zongnan's secretary; one of the \"Latter Three Heroes.\""
+  },
+  {
+   "file": "p0010-f3.png",
+   "alt": "Black-and-white portrait of a balding man in round glasses and a suit and tie.",
+   "caption": "Yan Baohang, a secret CCP intelligence agent who had been a senior aide to Zhang Xueliang and who successfully obtained strategic intelligence including the date of Germany's attack on the Soviet Union."
+  },
+  {
+   "file": "p0010-f4.png",
+   "alt": "Black-and-white portrait of a young man in a light suit and dark tie.",
+   "caption": "Yan Youwen, a secret CCP member who served as Fu Zuoyi's personal secretary and as deputy director of the office of the North China \"Bandit Suppression Headquarters.\""
+  },
+  {
+   "file": "p0011-f1.png",
+   "alt": "Black-and-white group photo of three men standing outdoors, two in shirtsleeves and one in a dark suit.",
+   "caption": "In 1941, Nakanishi Ko, Nishizato Tatsuo and Ozaki Shotaro (from left), photographed in Shanghai. These Japanese-national intelligence agents supplied the CCP with vital intelligence during the War of Resistance Against Japan and were the first to sound the alarm of the coming Pacific War."
+  },
+  {
+   "file": "p0011-f2.png",
+   "alt": "Black-and-white photo of a man in a suit seated beside a young child.",
+   "caption": "Ozaki Hotsumi and his daughter Yoko, who was born in Shanghai."
+  },
+  {
+   "file": "p0011-f3.png",
+   "alt": "Grainy black-and-white portrait of a young man in round glasses and a buttoned tunic.",
+   "caption": "Zheng Wendao, a CCP intelligence agent, named in the first roster of renowned martyrs and heroic groups of the War of Resistance Against Japan published by China's Ministry of Civil Affairs in 2014."
+  },
+  {
+   "file": "p0012-f1.png",
+   "alt": "Black-and-white photo of a woman in a dark cheongsam leaning against a railing in a room.",
+   "caption": "Shen Anna, who penetrated the Confidential Office of the Nationalist Central Party Headquarters as a confidential stenographer and repeatedly obtained important intelligence."
+  },
+  {
+   "file": "p0012-f2.png",
+   "alt": "Black-and-white oval-framed portrait of a smiling woman with wavy hair.",
+   "caption": "Guan Lu, who penetrated the magazine Nusheng (Women's Voice), jointly run by the Japanese Consulate in Shanghai and the press bureau (intelligence bureau) of the Japanese naval marines."
+  },
+  {
+   "file": "p0012-f3.png",
+   "alt": "Black-and-white portrait of a young woman with a bobbed hairstyle, smiling.",
+   "caption": "Zhang Luping, who in 1939 established a secret Party branch at the heart of the Juntong intelligence apparatus."
+  },
+  {
+   "file": "p0012-f4.png",
+   "alt": "Black-and-white portrait of a young person in glasses and a high-collared garment.",
+   "caption": "Xiao Minghua, a CCP member, who was martyred in Taiwan in 1950 at the age of 28."
+  },
+  {
+   "file": "p0013-f1.png",
+   "alt": "Black-and-white portrait of a man in a peaked military cap and decorated dress uniform.",
+   "caption": "Han Liancheng, the \"Invisible General\" who lay concealed at Chiang Kai-shek's side."
+  },
+  {
+   "file": "p0013-f2.png",
+   "alt": "Black-and-white portrait of a young man in round glasses, a light jacket and dark tie.",
+   "caption": "Li Bai, the model for the character Li Xia in the film The Eternal Wave, who long ran a clandestine radio station in Shanghai. On the eve of Shanghai's liberation he was secretly murdered by Nationalist agents."
+  },
+  {
+   "file": "p0013-f3.png",
+   "alt": "Black-and-white full-length photo of a man in a light suit standing before a dark backdrop.",
+   "caption": "Lieutenant General Wu Shi, working undercover in Taipei in 1949."
+  },
+  {
+   "file": "p0013-f4.png",
+   "alt": "Blurred black-and-white photo of a woman in the foreground with two uniformed men behind her.",
+   "caption": "Zhu Feng, a CCP member and Wu Shi's liaison, who was executed in Taiwan on 10 June 1950."
+  },
+  {
+   "file": "p0014-f1.png",
+   "alt": "Black-and-white group photo of eight elderly people, four seated women in front and four men standing behind, indoors.",
+   "caption": "Some trainees of the first session of the Qilipu Reconnaissance and Intelligence Training Class of the Shaanxi-Gansu-Ningxia Border Region Security Office, photographed together in 1999. Front row, from left: Yang Yuying, once deputy secretary of the Party Committee of the Ministry of Public Security, wife of Zhou Xing; Lu Huang, once a cadre of the All-China Women's Federation, wife of Bu Lu; Zhuo Lin, once an adviser to the General Office of the Central Military Commission, wife of Deng Xiaoping; Jiang Peng, once a division chief of the Beijing Municipal Public Security Bureau, wife of Tan Zhengwen. Back row, from left: Xie Heng, once an adviser to the Ministry of Public Security; Zou Yu, once Minister of Justice; Liu Ping, once a bureau chief of the Third Department of the General Staff; Yang Huanglin, once a bureau chief of the Ministry of Light Industry."
+  },
+  {
+   "file": "p0014-f2.png",
+   "alt": "Black-and-white photo of three people, a woman and two men, seated together indoors.",
+   "caption": "Li Qiming and Li Ning, photographed with the author of this book in 1995. Li Qiming (center) served as deputy director of the Shaanxi-Gansu-Ningxia Border Region Security Office, director of the Northwest Public Security Bureau, governor of Shaanxi Province, and executive secretary of the Yunnan Provincial Party Committee. Li Ning (left) served as a staff member of the Shaanxi-Gansu-Ningxia Border Region Security Office and as head of the International Liaison Department of the Yunnan Provincial Party Committee."
+  },
+  {
+   "file": "p0015-f1.png",
+   "alt": "Black-and-white photo of two men seated side by side on a sofa before a potted plant.",
+   "caption": "Luo Qingchang (right), photographed with the author of this book in 2003. Luo Qingchang served as director of the First Office of the CCP Central Social Affairs Department and as director of the CCP Central Investigation Department."
+  },
+  {
+   "file": "p0015-f2.png",
+   "alt": "Black-and-white group photo of four people standing together, an elderly man at center flanked by others.",
+   "caption": "Wang Dongxing, photographed with the author of this book in 1995. Wang Dongxing (second from left) served as director of the Second Office of the CCP Central Social Affairs Department and as director of the Central Security Bureau. At far left is Wang Dongxing's wife, Yao Xiang'e. Yang Yuying (third from left), wife of Zhou Xing, served as a cadre of the Shaanxi-Gansu-Ningxia Border Region Security Office and as deputy secretary of the Party Committee of the Ministry of Public Security."
+  },
+  {
+   "file": "p0016-f1.png",
+   "alt": "Black-and-white photo of two older men seated side by side before a wall hung with calligraphy.",
+   "caption": "Shi Jinqian (left), photographed with the author of this book in 1996. Shi Jinqian served as director of the Security Department of the General Political Department, as deputy director of the General Political Department of the People's Liberation Army, and as head of the Army-wide Political and Legal Affairs Group."
+  },
+  {
+   "file": "p0016-f2.png",
+   "alt": "Color-toned photo of two older men seated together indoors, an electric fan behind them.",
+   "caption": "On 20 June 2014, Zhang Zhongru (left) photographed with the author of this book. Zhang Zhongru served as director of the Intelligence Department of the General Staff of the People's Liberation Army."
+  },
+  {
+   "file": "p0017-f1.png",
+   "alt": "Black-and-white photo of two men seated facing each other in a room whose shelves hold small ornaments.",
+   "caption": "Ling Yun (right), photographed with the author of this book in 1998. Ling Yun served as a staff member of the Central Social Affairs Department, as deputy Minister of Public Security, and as Minister of State Security."
+  },
+  {
+   "file": "p0017-f2.png",
+   "alt": "Color-toned photo of two men seated in armchairs conversing in a furnished room.",
+   "caption": "Yang Side (right), photographed with the author of this book in 2009. Yang Side served as director of the Liaison Department of the Political Department of the 13th Column of the East China Field Army and as director of the Liaison Department of the General Political Department."
+  },
+  {
+   "file": "p0018-f1.png",
+   "alt": "Color-toned photo of three people standing together outdoors on a street.",
+   "caption": "Zou Yu (center), photographed with the author of this book. Zou Yu served as chief of the Secretariat Section of the Border Region Security Office and as Minister of Justice."
+  },
+  {
+   "file": "p0018-f2.png",
+   "alt": "Color-toned photo of two men standing together before a wall of bookshelves.",
+   "caption": "Cai Cheng (left), photographed with the author of this book. Cai Cheng served as a secretary of the Border Region Security Office and as Minister of Justice."
+  },
+  {
+   "file": "p0002-f1.png",
+   "alt": "Color ID-style photo of a man in a green dress military uniform with ribbon bars, against an orange background.",
+   "caption": "The author, Hao Zaijin."
+  }
+ ]
+}

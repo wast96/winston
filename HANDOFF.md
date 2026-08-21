@@ -9,6 +9,15 @@ longer carries a next-batch kickoff, by design (the last batch replaces the
 kickoff with the completion notice; the Stop hook stands down when the kickoff
 section is gone).
 
+**Figures added (2026-08-21).** The illustrated edition's images, deferred
+through every translation batch, are now all in the EPUB: 182 inline figures
+across ch01–ch12, a 36-plate front-matter "Photographs" gallery (PDF 5–18 +
+author photo), and the real scanned cover. figures.json (+ `_plates`) drives
+them; crops live in `data/figs/*.png` (now tracked); the builder gained a
+gallery page and JPEG figure output. qa_epub PASS, epubcheck clean, ~15 MB.
+Do not revert: `data/figs/` un-ignored; `esc_attr` for the `alt` attribute;
+`render_gallery`; `MAX_FIG_WIDTH=900` + JPEG figures. See CHANGELOG.
+
 Further work on this book is a CORRECTIONS PASS, not a new batch. The
 commissioner reads the EPUB and files corrections in `CORRECTIONS.md` (or
 pastes them in chat, to be transcribed there). Global corrections cascade via a

@@ -79,6 +79,9 @@ p.hourgloss { text-indent: 0; font-size: 0.9em; color: #444; margin: 2.4em 0 0; 
 p.verse { text-indent: 0; font-style: italic; margin: 0.2em 2.2em 0.85em; }
 figure { margin: 1.6em auto; text-align: center; page-break-inside: avoid; }
 figure img { max-width: 70%; }
+figure.plate { margin: 1.9em auto; }
+figure.plate img { max-width: 82%; }
+div.gallery h1 { text-align: center; }
 figcaption { font-size: 0.85em; color: #444; margin-top: 0.5em; }
 dl.gloss dt { font-weight: bold; margin-top: 0.7em; }
 dl.gloss dd { margin: 0 0 0 1.2em; }
@@ -127,7 +130,7 @@ XHTML = """<?xml version="1.0" encoding="utf-8"?>
 </body></html>
 """
 
-MAX_FIG_WIDTH = 1100
+MAX_FIG_WIDTH = 900
 
 # Declared media type follows the file EXTENSION for every image, cover and
 # figure alike: a JPEG declared as image/png is an epubcheck error, and a
@@ -226,12 +229,23 @@ def shrink_image(src, dest):
     if img.width > MAX_FIG_WIDTH:
         h = int(img.height * MAX_FIG_WIDTH / img.width)
         img = img.resize((MAX_FIG_WIDTH, h), Image.LANCZOS)
-    img.convert("L").save(dest, format=fmt, optimize=True)
+    img = img.convert("L")
+    if fmt == "JPEG":
+        img.save(dest, format=fmt, quality=82, optimize=True, progressive=True)
+    else:
+        img.save(dest, format=fmt, optimize=True)
     return True
 
 
 def esc(text):
     return html.escape(text, quote=False)
+
+
+def esc_attr(text):
+    """Escape for an XML ATTRIBUTE value: quotes must be escaped too, or a
+    double-quote in the text (e.g. an alt describing a sign that reads
+    "WHITLEY HALL") closes the attribute early and breaks the XHTML."""
+    return html.escape(text, quote=True)
 
 
 def load_json(name, default):
@@ -524,7 +538,7 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
                 out.append(
                     '<figure><img src="images/%s" alt="%s"/>'
                     "<figcaption>%s</figcaption></figure>"
-                    % (fig["file"], esc(fig.get("alt", "")),
+                    % (fig["file"], esc_attr(fig.get("alt", "")),
                        esc(fig["caption"])))
                 fig["placed"] = True
         # PAGE-BREAK MARKER, before the paragraph the printed page opens on.
@@ -662,6 +676,27 @@ def render_contents(structure, translated, ids_present=None):
             parts.append('</li>')
     parts.append('</ol>')
     return "\n".join(parts)
+
+
+def render_gallery(plates):
+    """Front-matter photo gallery, reproducing the illustrated edition's plate
+    section (figures.json "_plates"): each plate an <img> with the book's own
+    caption, in printed order. Returns None when there are no plates, and the
+    page simply does not exist. Unlike interior figures these carry no 'before'
+    anchor -- they are a standalone gallery, not tied to a paragraph."""
+    plates = [p for p in plates if p.get("file")]
+    if not plates:
+        return None
+    figs = []
+    for p in plates:
+        figs.append('<figure class="plate"><img src="images/%s" alt="%s"/>'
+                    "<figcaption>%s</figcaption></figure>"
+                    % (esc_attr(p["file"]), esc_attr(p.get("alt", "")),
+                       esc(p.get("caption", ""))))
+    return ('<div class="gallery"><h1>Photographs</h1>'
+            '<p class="note">Portraits and scenes from the illustrated edition. '
+            "The captions translate the book's own; names, offices and dates "
+            "are given as the source gives them.</p>" + "".join(figs) + "</div>")
 
 
 def render_characters(gloss):
@@ -951,16 +986,28 @@ def main(epub_path):
     figspec = load_json("figures.json", {})
 
     manifest_figs = []
-    for chap in chapters:
-        for spec in figspec.get(chap["id"], []):
+    fig_lists = [figspec.get(chap["id"], []) for chap in chapters]
+    # the front-matter plate gallery (figures.json "_plates") ships its images
+    # the same way, so a fresh checkout copies and greyscales them identically.
+    fig_lists.append(figspec.get("_plates", []))
+    for lst in fig_lists:
+        for spec in lst:
             src = os.path.join(FIGS, spec["file"])
             if not os.path.exists(src):
                 continue
-            dest = os.path.join(oebps, "images", spec["file"])
+            # Interior figures are greyscale halftone scans; JPEG at a modest
+            # width is a fraction of the greyscale-PNG size with no visible loss
+            # on this kind of source. The on-disk crop stays .png (the tracked
+            # source); we emit a .jpg into the book and repoint spec["file"] so
+            # the <img> and the manifest media type both follow the real bytes.
+            outname = os.path.splitext(spec["file"])[0] + ".jpg"
+            dest = os.path.join(oebps, "images", outname)
             if not shrink_image(src, dest):
-                shutil.copy(src, dest)
-            if spec["file"] not in manifest_figs:
-                manifest_figs.append(spec["file"])
+                shutil.copy(src, os.path.join(oebps, "images", spec["file"]))
+                outname = spec["file"]
+            spec["file"] = outname
+            if outname not in manifest_figs:
+                manifest_figs.append(outname)
 
     with open(os.path.join(oebps, "style.css"), "w") as fh:
         fh.write(CSS)
@@ -1110,6 +1157,11 @@ def main(epub_path):
         write(os.path.join(oebps, "characters.xhtml"), cast_page,
               "Principal Characters")
         docs += [("characters.xhtml", "Principal Characters")]
+    gallery_page = render_gallery(figspec.get("_plates", []))
+    have_gallery = bool(gallery_page)
+    if have_gallery:
+        write(os.path.join(oebps, "gallery.xhtml"), gallery_page, "Photographs")
+        docs += [("gallery.xhtml", "Photographs")]
     docs += [("contents.xhtml", "Contents")]
     docs += [(c["id"] + ".xhtml", c["title_en"]) for c in structure]
     docs += [("notes.xhtml", "Notes"),
@@ -1164,6 +1216,8 @@ def main(epub_path):
     if cast_page:
         nav_items.append('<li><a href="characters.xhtml">Principal '
                          'Characters</a></li>')
+    if have_gallery:
+        nav_items.append('<li><a href="gallery.xhtml">Photographs</a></li>')
     nav_items.append('<li><a href="contents.xhtml">Contents</a></li>')
     for part_label, chaps in part_groups(structure):
         chap_lis = []

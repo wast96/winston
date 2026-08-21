@@ -8,6 +8,46 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed dropped clause at ch03 §2 folio 45.
 -->
 
+## 2026-08-21: Figures pass — all 218 images/figures added; real cover
+
+The 图文版's images were deferred through the whole translation (figures.json
+was empty). This pass extracts, crops, captions and places EVERY figure in the
+book, adds the front-matter portrait gallery, and sets the real scanned cover.
+
+- **182 inline figures** placed across the 12 chapters (ch01 22, ch02 45,
+  ch03 12, ch04 4, ch05 21, ch06 5, ch07 12, ch08 8, ch09 14, ch10 16,
+  ch11 15, ch12 8) — photos, maps (the Shaan-Gan-Ning border-region map on
+  printed 39; the ch02 checkpoint distribution map), and document facsimiles
+  (Mao's manuscripts, handwritten letters, signature sheets). Each has a real
+  screen-reader `alt` and a translated caption (labels are the source's).
+- **36-plate front-matter gallery** (`figures.json` `_plates`): the portrait
+  section on PDF 5–18 plus the author photo (PDF 2), rendered as a new
+  "Photographs" page after Principal Characters.
+- **Real cover**: the scanned front cover (PDF 1) set as `book.json`
+  `cover_image` (`data/figs/cover_front.jpg`), replacing the generated cover.
+- **Crop verification**: every crop was drawn on its page and eyeballed for
+  clipping; `find_figures.py` misses (maps, line art, faint/light portraits,
+  multi-photo pages, document facsimiles) were caught by a whole-book
+  thumbnail sweep. Three crops that caught a caption/body-text sliver
+  (p0046, p0162; the earlier map) were re-cropped tight.
+- **Tooling**: `scripts/crop_fig.py` (explicit-coord/batch cropper),
+  `scripts/draw_boxes.py` (box-on-page overlay for cutoff checks),
+  `scripts/scan_pages.py` (thumbnail sweep), `scripts/montage.py` (crop QA
+  sheet), `scripts/fig_anchor.py` (page→paragraph anchor), and
+  `scripts/assemble_figures.py` (merges per-unit spec files into figures.json
+  and validates that every `before` anchor is a unique substring within the
+  first 80 chars of a reading-md paragraph).
+- **Builder** (`scripts/build_reading_epub.py`): new `render_gallery` +
+  spine/nav wiring for the Photographs page; interior figures now ship as
+  greyscale JPEG (`MAX_FIG_WIDTH` 1100→900, q82) instead of greyscale PNG,
+  cutting the EPUB from ~40 MB to ~15 MB with no visible loss; **fixed** a
+  latent bug where an `alt` containing a double quote (e.g. a sign reading
+  "WHITLEY HALL") broke the XHTML — `alt` now uses `esc_attr` (quote=True).
+- **.gitignore**: `data/figs/` un-ignored so the committed figure crops and the
+  cover source are tracked; only the figure scratch (`_scan/`, `_specs_*.json`,
+  `_*.png`) stays ignored.
+- Rebuilt: 219 images embedded, qa_epub PASS, epubcheck 0/0/0/0.
+
 ## 2026-08-21: B13 — Chapter 12 + Afterword; BOOK COMPLETE
 - Translated ch12 (128 paras, +21 notes) and ch13/Afterword (32 paras, +4 notes);
   +42 glossary rows (284 total, 251 notes). EPUB now 14/14 units; qa_epub PASS,
