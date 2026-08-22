@@ -1769,3 +1769,68 @@ translated, built, QA-clean. The book is now COMPLETE (14 of 14 units).
 - Branch: session started on stray per-task branch claude/china-secret-war-b13-alk0hc
   (at 715c9cd, identical to origin/claude/chinas-secret-war). Reset local canonical
   to origin, did all work on claude/chinas-secret-war; stray branch deleted at push.
+
+## R01 — voice/register pass, batch 1 of 4 (2026-08-22)
+
+**Scope:** ch00 (Preface) + ch01 (frozen reference) + ch09 (hottest unit).
+English-to-English re-voicing per REVISION_PLAN §5. Content FROZEN (every NEW
+preserves its OLD's propositional content; no fact/name/number/date/claim
+changed, no paragraph merged or split, no name re-romanized, no note added or
+removed). One commit per unit; all pushed.
+
+**Edits applied (via edits/<id>_edits.md + apply_edits.py):**
+- ch00: 6 edits over ~30 paragraphs. Unstacked a triple appositive (kept the
+  "deepest secret in the world" anchor), plained an objectless litotes,
+  de-tech'd "upgraded", fixed the closing sentence's subject/predicate
+  mismatch, two collocation/periphrasis touches. Battery was already ZERO on
+  every axis; most of the blind critique's items were content-risky, the
+  author's deliberate metaphors/reveal-questions, or defensible ("stank to high
+  heaven" is the DECIDED rendering) and were LEFT.
+- ch01: 23 edits over ~180 paragraphs. Cleared antique function words
+  (whereupon; could-not-but; no-small/no-small-good litotes), thinned the
+  recurring 等-tag, collapsed doubled synonyms, de-nominalized several
+  "the Xing of the" phrases, fixed a subordinating-"While" opener and two
+  verbless dash-fragments, closed two pulpy mid-narration ellipses, unfogged a
+  Liu Zhidan pronoun, de-slanged "fingered". LEFT: footnoted allusions
+  (imperial sword, self-destruct-Great-Wall, the acrostic, the Zhou Xing/Tang
+  pun), the DECIDED "downwind ear" gloss, quoted speech, the author's sardonic
+  epithets and fengshui set-piece, the section-ending suspense ellipses, and
+  every name/place roster (spine-test exempt).
+- ch09: 46 edits over ~180 paragraphs. HEAT RATIONING is the core: exclamations
+  cut 64 -> 28. 37 authorial reveal-bangs converted to periods; KEPT every bang
+  inside quoted speech/slogans/quoted rumors, the section-8 heading, the
+  section-2 closing punch (p147), and the whole anaphoric agent-logic set-piece
+  (p369). Plus two docent questions stated as declaratives and a handful of
+  litotes/nominalization/idiom fixes.
+
+**Exit checklist (REVISION_PLAN §8):**
+- [x] every edited unit: apply_edits clean, build + qa_epub PASS (all three).
+- [x] anchor_check run BEFORE apply, per unit; a trailing !->. leaves each
+  anchor substring intact, so no anchor moves were needed. ALL anchors verified
+  present post-edit: ch00 2/2 notes; ch01 19/19 notes + 22/22 figures; ch09
+  16/16 notes + 14/14 figures. Book-wide note total unchanged at 251.
+- [x] tic batteries re-run; near-zero batteries stayed near zero. Residual hits
+  are deliberate keeps: ch09 "at length" (= "in detail", correct), ch09 "could
+  not but" (inside Wang Zunji's quoted speech), ch09 "no small moment" (the
+  sentence introducing the kept section-2 punch), ch01 "could only watch"
+  (idiomatic helplessness, not the archaic 只能).
+- [x] OLD/NEW propositional spot-check: every edit re-read against its OLD;
+  all content-preserving (bang->period, litotes/nominalization/idiom re-voicing,
+  and one question->declarative that asserts what the source implies — that the
+  early Dai-case events were unplanned).
+- [x] KEEP-list grep over the diff: no contractions added inside quoted
+  documents; no partisan term softened; no 对仗/set-piece broken (p369 kept
+  hot); no *tewu* italics lost.
+- [x] blind critiques archived under review/voice_gate/ (ch00/ch01/ch09 round1),
+  each produced by a context-blind subagent (no source, no STYLE, no glossary).
+- [x] one commit per unit, pushed; EPUB rebuilt each; epubcheck 0/0/0/0 at
+  batch end.
+
+**check_register (informational, ref = REVISED ch01):** within tolerance.
+ch09's "shall 100%" flag is the noisy low-dialogue-unit metric REVISION_PLAN
+§2 says to judge by ear — ch09 is narration-heavy with formal quoted speech;
+the narration now reads modern-neutral with the heat rationed.
+
+**For R02-R04:** R01's diff is the exemplar; match its restraint (most
+paragraphs LEAVE). The REVISED out/ch01_reading.md is the register reference.
+No new STYLE.local rules were needed this batch.

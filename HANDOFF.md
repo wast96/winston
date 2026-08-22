@@ -3,22 +3,27 @@
 ## Message to paste into the next chat
 
 ```
-China's Secret War R01 (register pass)
+China's Secret War R02 (register pass)
 
 Read CLAUDE.md, then HANDOFF.md, then REVISION_PLAN.md, then STYLE.md and
-STYLE.local.md (its REGISTER REBASELINE section is the target). Run
-./setup.sh. Work on branch claude/chinas-secret-war only; if the harness
-starts you elsewhere, consolidate per CLAUDE.md rule 2.
+STYLE.local.md. Run ./setup.sh. Branch claude/chinas-secret-war only.
 
-Do revision batch R01 = ch00 + ch01 + ch09, per REVISION_PLAN.md §5 exactly:
-English-to-English re-voicing, content frozen, edits via edits/<id>_edits.md
-+ apply_edits.py, anchor_check before every apply (218 figure anchors are
-live in the prose), blind critique per unit via voice_gate_critique.py, one
-commit per unit, build + qa_epub each. Expected distribution: MOST
-paragraphs LEAVE. R01's diff is the exemplar for R02-R04: restraint is part
-of the deliverable. Do not pause for approval mid-batch. Deliver the EPUB in
-chat and paste the R02 kickoff from REVISION_PLAN.md §9.
+Do revision batch R02 = ch02 + ch03 + ch04 + ch05 per REVISION_PLAN.md §5.
+FIRST read the R01 diff (git log, "R01 register pass" commits) as the
+exemplar for depth and restraint. ch02's stilted-dialogue flag is the
+priority item. The register reference is the REVISED out/ch01_reading.md.
+Content frozen; anchor_check before every apply; blind critique per unit;
+one commit per unit; build + qa_epub each; do not pause for approval.
+Deliver the EPUB in chat and paste the R03 kickoff from REVISION_PLAN.md §9.
 ```
+
+## R01 DONE (register pass, batch 1 of 4) — 2026-08-22
+
+R01 = ch00 + ch01 + ch09 complete, one commit per unit, all pushed to
+claude/chinas-secret-war. The REVISED out/ch01_reading.md is now the register
+reference for R02-R04. R01's committed diff is the exemplar: most paragraphs
+LEFT untouched; the edits are surgical and content-frozen. See PROGRESS.md
+"R01" entry for the exit checklist. Next: R02 (kickoff above).
 
 ## A VOICE/REGISTER REVISION PASS IS PLANNED (not yet started)
 
