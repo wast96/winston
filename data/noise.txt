@@ -355,6 +355,11 @@
 十七、八
 八、九百
 四、五百
+# 四、五千(块) "four or five thousand (dollars)" (ch09 pair 121, 凑点本钱开个小
+# 饭馆 … 四、五千块够不够): pre-existing flag surfaced by verify_unit in R3; the
+# bare 四、五 rule (below) strips the pair and orphans 千 as a phantom 1000.
+# Longer literal — must precede 四、五. English "four or five thousand dollars."
+四、五千
 四、五十
 三、五十
 四、五样
