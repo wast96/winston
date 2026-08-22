@@ -20,7 +20,7 @@ In 1944, as Wang lay dying in Japan, no longer able to take up a brush, he dicta
 
 The book cites a number of relevant documents in corroboration; with the passage of years and the change of circumstances, these papers, though of no great rarity, were nonetheless not easily come by.
 
-The tensest moment of the action itself ran from ten in the morning of 20 March 1939 to one o'clock in the small hours of the 21st; in those dozen-odd hours my action men struck three times running—first pursuing and attacking, then storming the front gate, and last scaling the wall, breaking down the door, mounting the stairs, and pouring in fire. Because I myself was on the scene throughout, the whole course of it is graven on me to this day, plain before my eyes.
+The tensest moment of the action itself ran from ten in the morning of March 20, 1939 to one o'clock in the small hours of the 21st; in those dozen-odd hours my action men struck three times running—first pursuing and attacking, then storming the front gate, and last scaling the wall, breaking down the door, mounting the stairs, and pouring in fire. Because I myself was on the scene throughout, the whole course of it is graven on me to this day, plain before my eyes.
 
 And what I shall never in my life forget, what I shall regret to the end of my days, are the grave consequences brought on by the missed openings, the mistimings, the failures of those three assaults.
 

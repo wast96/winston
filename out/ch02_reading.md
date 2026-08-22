@@ -34,4 +34,4 @@ I remember still how foul the weather was that day—stones and sand flying, the
 
 Setting aside the enmity between us and looking at it from another angle: that Yamamoto Eiji could rush into danger at the crisis and "give up his life for righteousness"—did he not, after all, act out one scene of the so-called spirit of bushidō?
 
-Such, then, is the outline of what is in Part One, *Rooting Out Traitors in the North*. Do not be put off that the telling is all fighting and killing; the air of slaughter is not so heavy after all—the less so since "rebellious ministers and villainous sons, anyone may put them to death." For I was carrying out the duties of the work. In private I never cared to take up knife or gun.
+Such, then, is the outline of what is in Part One, *Rooting Out Traitors in the North*. Never mind that the telling is all fighting and killing; the air of slaughter is not so heavy after all—the less so since "rebellious ministers and villainous sons, anyone may put them to death." For I was carrying out the duties of the work. In private I never cared to take up knife or gun.
