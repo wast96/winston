@@ -6,6 +6,16 @@ All 12 units are translated, annotated, built, and verified. There is no next
 batch. The full completion report is in `COMPLETION.md`; read that first. This
 file is now only a pointer.
 
+## A REVISION PASS IS PLANNED (2026-08-22): read REVISION_PLAN.md
+
+The commissioner has commissioned a register/style/apparatus pass over the
+completed book. `REVISION_PLAN.md` is the operating document and it is
+SELF-CONTAINED: every imported rule is reproduced there in full. **Do NOT
+fetch, read, or pull anything from `claude/the-sword-roars` or any other
+branch; all work stays on `claude/chen-yangshan`.** The pass starts with the
+R0 kickoff in the plan's §9 and is gated on the commissioner's tier decision.
+Where this file and the plan disagree, the plan wins.
+
 Any further work is a **corrections pass**, not a batch: the commissioner reads
 the EPUB and files items in `CORRECTIONS.md` (or pastes them in chat, and you
 transcribe them there first). Follow the corrections workflow in CLAUDE.md —
