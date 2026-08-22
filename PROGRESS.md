@@ -4729,3 +4729,140 @@ oddities; and everything inside quoted documents and quasi-official speech.
   correctly ENFORCING because HANDOFF.md carries a real (non-template) kickoff,
   which is exactly what we want; the test assumes a template-stub HANDOFF. All
   other checker regression tests green.
+
+## R3 (ch01-ch05, ch09, ch10) — register revision pass
+
+Scope: ch01-ch05 (front matter, light-touch), ch09 + ch10 (main chapters).
+English-to-English register edits per REVISION_PLAN.md §3 (T1-T6) and §5.
+Content frozen. Edits via `edits/<id>_edits.md` + `apply_edits.py` (every OLD
+verified unique; ch09 re-derived from pristine on amendment so the edits file
+stays the single source of truth). Totals: **ch01 0, ch02 1, ch03 1, ch04 3,
+ch05 4, ch09 65, ch10 11 = 85 edits.** No note anchors moved; no notes added.
+
+### Tic battery, before -> after (key classes)
+
+| class | ch04 b/a | ch05 b/a | ch09 b/a | ch10 b/a |
+|---|---|---|---|---|
+| T1 of-a-sudden | 0/0 | 0/0 | 13/1* | 0/0 |
+| T1 forthwith/presently | 0/0 | 0/0 | 2/0 | 0/0 |
+| T1 nothing-for-it | 0/0 | 0/0 | 1/0 | 1/1** |
+| T1 day-month dates | 0/0 | 0/0 | 0/0*** | 0/0*** |
+| T2 could-not-but/only | 1/1 | 0/0 | 3/1 | 0/0 |
+| T3 quoted pairs | 95/94 | 10/6 | 298/271 | 20/20 |
+| T4 semicolons | 51/49 | 2/2 | 395/395 | 20/20 |
+| T4 >60 / >90 | 14/14 | 1/0 | 79/75 · 14/13 | 10/10 · 4/4 |
+
+ch01: 0 edits (at target); its 1 "still less" is a correlative (更不敢), KEEP.
+ch02: 15 quoted pairs all KEEP (first-use naming, marked irony on self-styled
+titles, anatomized "success"/"failure", "Blind Wang", quoted maxims); 1 edit
+(collocation "put off that" -> "Never mind that"). ch03: 1 T1 date. 
+\* ch09 of-a-sudden 13->1: the surviving 1 is "all of a sudden" (living idiom,
+KEEP). Also converted 9 spelled-ordinal narration dates -> American (not counted
+by the digit-based day-month battery). \*\* ch10 "nothing for it" survivor is
+inside Chiang's quoted address (p021), exempt §3.1. \*\*\* ch09/ch10 date
+conversions were spelled-ordinal / 民國-year forms the digit battery never
+counted; real accessibility wins (see below).
+
+### T3 policy applied
+
+- **ch04** (essayist meditation on "the meaning of secret-service work"): the
+  95 pairs are almost all KEEP — Chen anatomizes the terms AS words through
+  p019-p061 (T3 CAUTION). Only 1 strip (decided-org repeat "Juntong" p056).
+- **ch05** (founding of the Juntong): first-use org names KEEP quotes at their
+  book-first site (p001-p004, p006-p007 anchors); the 4 repeat-uses in running
+  prose (p005 x2, p006 x2: Special Services Department, Second Department) went
+  plain (consistent with R1's ch06 treatment).
+- **ch09**: 27 strips of decided station names "Beiping Station"/"Tianjin
+  Station" (glossed at book-first-use in ch02/ch05) -> plain in narration, same
+  as R2 for ch07/ch08. **The note-anchor site (`the "Beiping Station" had had`
+  at the "first taste of defeat" anchor) is preserved quoted.** KEPT quoted:
+  Intelligence/Military Group, inspectorate system/inspector, the compound
+  "Tianjin Station Intelligence Group", enumerated work-heads, the Shi-bio
+  self-styled titles, and everything inside dialogue/telegrams. Generated
+  programmatically (byte-exact OLD, uniqueness pre-checked, anchor auto-skipped).
+- **ch02, ch10**: all quoted terms verified legitimate KEEPs (0 strips).
+
+### ch09 T1/T2/T5 detail
+
+9 spelled-ordinal narration dates -> American; 11 "of a sudden" -> suddenly/all
+at once; 2 forthwith -> at once; 1 nothing-for-it recast; 2 "could not but"
+recast; 9 T5 rough-speaker naturalizations (Shi Yousan, Staff Officer He, Chen
+Guozhi, Shi Dachuan, Wang Wen). **check_register: ch09 was STILTED-flagged
+before the T5 pass (0.3 contr/1k); after, 1.7/1k, within tolerance.** The
+residual "shall"-share (23%) is the deliberate narrating shall (KEEP). The 21
+"besides" hits are all natural (postpositive "X besides" / sentence-initial
+"Besides,") — defended, not the costume-drama sentence-adverb.
+
+### ch10 dates -> Gregorian (accessibility + book consistency)
+
+ch10 alone rendered 民國 years literally ("the twenty-eighth year of the
+Republic"), inaccessible to the target reader and inconsistent with the
+Gregorian standard used throughout ch01-ch09. All 11 converted (民國 N =
+1911+N; date-VALUE preserved), spelled-ordinal days -> American. The 4
+battery-flagged >90-word sentences are all exempt (colon-list p003, landing
+periodic build p008, quote-period merge artifacts, quoted speech p020-021).
+
+### Noise entries added (data/noise.txt) — do-not-revert
+
+- `四、五千` (ch09 p121, 四、五千块 "four or five thousand dollars"): resolved a
+  PRE-EXISTING verify_unit number flag (present in the shipped text, surfaced by
+  R3's per-chapter verify); the bare `四、五` rule orphaned 千 as a phantom 1000.
+  Longer literal, placed before `四、五`. RULE R1-3.
+- `二十一、二` / `二十七、八` (elided Republic-year pairs, ch10; also present as an
+  age in ch26 and a year in ch33): the Gregorian rendering removed the incidental
+  2/8 the old ordinal wording carried, orphaning the checker's mis-parse of the
+  elided 、二 / 、八; same class as the existing `十三、四`. Noise only removes
+  source numerals, so it cannot cause a false failure elsewhere.
+
+### Checks (all green)
+
+- verify_unit: ch01 8/8, ch02 18/18, ch03 14/14, ch04 61/61, ch05 8/8, ch09
+  332/332, ch10 26/26; numbers 0 unresolved each; all anchors resolve (ch09's 9
+  incl. the preserved Beiping-Station anchor).
+- check_align: no strays. check_content: only the documented known-benign FPs
+  (ch08 Shunde, ch09 Jize p220 [untouched], ch13, ch26, ch38, ch41) — no NEW
+  displacement.
+- check_register --ref reference/R1_frozen.md: all 7 within tolerance.
+- Tail checks: ch04 p060-061, ch05 p008, ch09 p330-332, ch10 p025-026 re-read
+  against zh — faithful; last edits fall before each tail.
+- Spot-audit (edited paragraphs read zh-against-en): every edit is
+  register/punctuation-only (quote strips, date reformats, of-a-sudden ->
+  all-at-once, contractions, could-not-but recasts) with the propositional
+  content preserved by construction; the non-mechanical recasts (ch09 p203
+  不由得 "in spite of myself", p269 冷不防 "all at once", p270 找死 "your own
+  death you're after", p259/p154/p257 rough-speaker recasts) re-verified against
+  zh — zero meaning drift.
+- Build: qa_epub PASS (57 files, 50 documents, 375 refs/375 bodies/375
+  backlinks); epubcheck 5.1.0 0 fatals / 0 errors / 0 warnings / 0 infos.
+
+### Rejected finding classes (RULE R1-4, by class)
+
+Standing REJECT-by-class calls that shaped R3: Chen's persona furniture (笔者
+"the writer", humility formulas, topic frames, the reflective essayist codas of
+ch04/ch10, the narrating "shall"); his interested-witness heat ("the utterly
+evil Communist Party", "the bandit chief Mao", "traitors", "sanction"); the
+author's marked irony / anatomized terms (esp. ch04's whole "meaning of
+secret-service work" essay and ch10's title discussion); source-carried
+doubling and faithful oddities; correlative "still less" (更不敢/更不会);
+postpositive "besides"; and everything inside quoted documents, telegrams,
+verse, and quasi-official/deferential speech (Chen to Dai Li, Dai Li's grave
+audience speech, Wang Wen's substantive operational briefings).
+
+### R9 / whole-book reconciliation flags (NOT changed in R3)
+
+- **民國-year rendering:** ch10 rendered Republic years literally (now converted
+  to Gregorian); confirm no other unrevised chapter still does so.
+- **第二处:** rendered "Second Bureau" in ch09 p031/p056 vs "Second Department"
+  in ch05 p004/p005 (free rendering, not a glossary term) — pick one book-wide.
+- **保密局** "Bureau of Confidential Investigation" (ch04 p038) vs glossary
+  "Baomiju" — standing R1 flag.
+- **the cook who does/did the cooking** (ch09 p097 dialogue, p186 narration):
+  mild tautology for 烧饭的厨子/厨司务, left as source-carried doubling; consider
+  thinning the narration instance in a later cleanup.
+
+### Setup note
+
+- setup.sh regression: the ONE known false alarm ("hook stands down on template
+  stub") still fails as documented — it is the kickoff_guard Stop hook correctly
+  ENFORCING because HANDOFF.md carries a real (non-template) kickoff; the test
+  assumes a template-stub HANDOFF. All other checker regression tests green.

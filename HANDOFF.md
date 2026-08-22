@@ -9,7 +9,7 @@ session updates the kickoff block below for the next one.**
 ## Message to paste into the next chat
 
 ```
-Nameless Heroes R3: register revision pass
+Nameless Heroes R4: register revision pass
 
 Branch: claude/nameless-heroes ONLY. First acts: git fetch origin
 claude/nameless-heroes && git checkout claude/nameless-heroes && git
@@ -20,9 +20,8 @@ Never read any other branch.
 Read CLAUDE.md, then REVISION_PLAN.md IN FULL (it is the authority for
 this pass), then run ./setup.sh.
 
-Scope this batch: ch01–ch05, ch09, ch10 (front matter is light-touch).
-Content is frozen; English-to-English register edits only, per
-REVISION_PLAN.md §3 (defect classes T1–T6,
+Scope this batch: ch11, ch12, ch13. Content is frozen; English-to-English
+register edits only, per REVISION_PLAN.md §3 (defect classes T1–T6,
 KEEP list) and §5 (method, exactly). Edits via edits/<id>_edits.md +
 apply_edits.py; verify_unit + tic battery before/after per chapter;
 spot-audit 10% of edited paragraphs; check_register --ref
@@ -37,33 +36,40 @@ approval stops.
 ```
 
 
-## Revision pass state (after R2)
+## Revision pass state (after R3)
 
 - **DONE:** R1 (ch06, exemplar, frozen as `reference/R1_frozen.md`). R2 (ch07,
-  ch08): ch07 86 edits, ch08 65 edits via `edits/ch07_edits.md` /
-  `edits/ch08_edits.md` + `apply_edits.py`; all fidelity gates green (ch07
-  parity 362/362, ch08 461/461; numbers 0; anchors 11 & 13; align OK; content
-  clean bar the documented ch08 Shunde substring FP); spot-audits clean (2
-  slips caught and fixed: ch07 p162 "in detail", ch08 p346 顾虑 nuance);
-  qa_epub PASS + epubcheck 0/0/0/0. Full tic tables + findings in PROGRESS.md
-  §R2. **ch08 check_register STILTED is a documented false positive** (its
-  "speech" is dominated by quoted documents + deliberately-formal speakers;
-  see PROGRESS §R2 and references/register-drift.md §§1-2) — do not chase it
-  by contracting formal/document speech.
-- **Carry-forward for R3+:** voice sheets in REVISION_PLAN.md §3.4; T3 rule as
+  ch08: 86 + 65 edits). **R3 (ch01-ch05, ch09, ch10): 85 edits total** (ch01 0,
+  ch02 1, ch03 1, ch04 3, ch05 4, ch09 65, ch10 11) via `edits/<id>_edits.md` +
+  `apply_edits.py`. All fidelity gates green (parity ch01 8, ch02 18, ch03 14,
+  ch04 61, ch05 8, ch09 332, ch10 26; numbers 0; all anchors resolve; align OK;
+  content clean bar the documented known-benign FPs). check_register all 7
+  within tolerance (**ch09 was STILTED before the T5 rough-speaker pass; after,
+  within tolerance** — do NOT chase STILTED by contracting formal/document
+  speech; it is the ch08-class documentary-density false positive). qa_epub PASS
+  + epubcheck 0/0/0/0. Full tic tables + findings in PROGRESS.md §R3.
+- **Carry-forward for R4+:** voice sheets in REVISION_PLAN.md §3.4; T3 rule as
   practiced — recurring decided proper names/orgs plain in narration after
-  book-first use; quotes stay at naming/anatomizing sites, marked irony,
-  titles, code names, quoted documents, dialogue, note-anchor sites. R3 front
-  matter (ch01-05) is light-touch (closest to target already). Generate T3
-  quote-strips programmatically (byte-exact OLD, uniqueness pre-checked) and
-  skip whole quoted-document/dialogue paragraphs.
-- **New noise.txt entry (R2):** `三、四两` (enumerated pair + recap 两; see
-  PROGRESS §R2) — do-not-revert. Earlier R1 entries 五官, 四个大字 also stand.
+  book-first use; quotes stay at naming/anatomizing sites, marked irony, titles,
+  code names, quoted documents, dialogue, and **note-anchor sites (preserve the
+  quotes on any anchor substring; the ch09 generator auto-skipped the "first
+  taste of defeat" Beiping-Station anchor)**. Generate T3 quote-strips
+  programmatically (byte-exact OLD, uniqueness pre-checked, anchor-aware) and
+  skip whole quoted-document/dialogue paragraphs. Spelled-ordinal AND 民國-year
+  dates in narration -> American/Gregorian (accessibility); day-only ordinals
+  and dates inside quoted documents stay.
+- **New noise.txt entries (R3):** `四、五千` (ch09 four-or-five-thousand),
+  `二十一、二` / `二十七、八` (elided Republic-year pairs; also an age in ch26 and
+  a year in ch33) — do-not-revert. Earlier R2 `三、四两` and R1 `五官`, `四个大字`
+  also stand. `scripts/align_dump.py` (QC-only aligned zh|en dumper) added.
 - **Tooling do-not-revert:** kickoff_guard Stop hook; apply_edits.py OLD
-  uniqueness contract; the noise.txt entries above.
-- **R9 (whole-book close) reconciliation flags** logged in PROGRESS §R1 (Baomiju, storey/story,
-  "political operation") and §R2 (ch07 one-off hotel names; ch08 group-name /
-  special-commissioner / inspectorate-system quoting).
+  uniqueness contract; scripts/align_dump.py; the noise.txt entries above.
+- **R9 (whole-book close) reconciliation flags** logged in PROGRESS §R1
+  (Baomiju, storey/story, "political operation"), §R2 (ch07 one-off hotel names;
+  ch08 group-name / special-commissioner / inspectorate-system quoting), and
+  **§R3 (民國-year rendering — ch10 converted, confirm no other unrevised chapter
+  still renders Republic years literally; 第二处 "Second Bureau"(ch09) vs
+  "Second Department"(ch05); "the cook who does the cooking" tautology ch09).**
 
 ## ⚠ COMMISSIONER DIRECTIVE (2026-08-22): a FOOTNOTE-DENSITY pass (F0) AFTER R9
 
